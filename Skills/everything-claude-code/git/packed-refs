@@ -1,0 +1,43 @@
+# pack-refs with: peeled fully-peeled sorted 
+ec104c94c5e19ed1185e6b4793ea35995afdad2b refs/remotes/origin/affaan/laravel-plugin-discovery-refresh
+c41b3f5bbc146500d8ec26dd5e1efc750d2efc39 refs/remotes/origin/ecc-tools/everything-claude-code-1774348792519
+9aac8d390441bfec3fee189cd1976fb0ef4f2688 refs/remotes/origin/ecc-tools/everything-claude-code-1774349050387
+ba43de5dd011b31b6c0b40174daee1e0123ae828 refs/remotes/origin/ecc-tools/everything-claude-code-1774349055184
+06c8402b19a1c8fbc7bd1a1c6cfe5a35f0ef27af refs/remotes/origin/ecc-tools/everything-claude-code-1774349061959
+b965cfbd00b4d1ef2e2f2f785467cda6dc53abd3 refs/remotes/origin/ecc-tools/everything-claude-code-1774349083491
+19755f6c52c84b2a282a42692e76389bac699927 refs/remotes/origin/feat/hermes-generated-ops-skills
+be76918850e435b5542a4cbb547466a99efcf818 refs/remotes/origin/fix/clv2-config-override-rebase
+0ebcfc368e196908e5eb0c746edf04a004a610a9 refs/remotes/origin/fix/codex-context7-compat-tests
+d8c940f2e7cd22722d89960b7941fb998e57fb09 refs/remotes/origin/fix/codex-hooks-hermetic-env
+2e43eac8d9f8bc6e6d5c72e6e5f16f1e6cc569b8 refs/remotes/origin/fix/codex-sync-ci-hermeticity
+2595c9298364842741cfb8f65ba9943ce5e5d138 refs/remotes/origin/fix/desktop-notify-wsl
+9cde3427e2566be254e340feb47b4c2205c29517 refs/remotes/origin/fix/ecc2-analysis-report-facts
+142600a2fca60caf39d7a4f12ff0ebfbfdaea529 refs/remotes/origin/fix/harness-audit-consumer-mode
+9406f35fab84132616c95d9b90fae0918a86d36d refs/remotes/origin/fix/healthcare-eval-harness-followup
+734c94ebdc1e48b43ab62d9f905548311327a36f refs/remotes/origin/fix/mcp-json-exa-type
+bcc88191d0ad702b67f8580547401c81da74d800 refs/remotes/origin/fix/mcp-json-http-schema
+65c4a0f6ba2a3350dc38df01c9b13b8a5a0f82cb refs/remotes/origin/fix/readme-agent-count-tree
+08a5ae6784ec941804b8092ed3955f756d751512 refs/remotes/origin/fix/stop-hook-inline-resolver
+284d2995ba432d9b4b2ac09b306c060e759fe45d refs/remotes/origin/fix/stop-hook-root
+e50e64ac053459f792a4c6e13b86c49925cd60d5 refs/remotes/origin/fix/token-budget-advisor-refresh
+ebf0f135bba6be99fb173f9f494efe29a589515e refs/remotes/origin/fix/token-budget-advisor-trigger-clarity
+bdbe158377df23dd197cb5f2101bbf8f23c52a59 refs/remotes/origin/fix/trae-manifest-ownership
+a0cee2120940ee27221ff289399f659c63660234 refs/remotes/origin/fix/unicode-safety-eslint-regex
+9181382065df0408805d4467f107952fce44a6b0 refs/remotes/origin/fix/yarn-lock-sync
+656cf4c94a3f2a0f6c7ca597e87d35e520b0ca56 refs/remotes/origin/main
+ae2c063ddebccafec5ca4b2a7733ddd32361adb1 refs/tags/v0.6.0
+5010f82c3e2c823fd0def95843725eea6242c302 refs/tags/v1.0.0
+5c63fa9006ae4501a733a62786192bce084bc74d refs/tags/v1.1.0
+e7cb4428432a3362812da893fb841ba49244605f refs/tags/v1.2.0
+b0b7f5ea3928dba0abf4de4f301792f1e42abcf7 refs/tags/v1.3.0
+^6d440c036df2c1b2fec957627d1202c3708e0627
+c0fdd89c4957c2abcbe5cfe424027398b8e65fd1 refs/tags/v1.4.0
+e4e94a7e70f124caea5847fff5a644c988da7b90 refs/tags/v1.4.1
+8696ae072df9a3d3368d7818f7920387908b125c refs/tags/v1.5.0
+^6c2e0eace8eb9955be6c632a18f89b1a28f1a9a9
+c9dafdab0281ce7968875f0e9c4f831a6335cb56 refs/tags/v1.6.0
+^db27ba1eb225b0b945d6e1dd624afb2889ec85d3
+0edb09f60738196ee43ef247d6c66cecfdeb2826 refs/tags/v1.7.0
+^b3d3eac532dfb5bcce8689c8300a6e57763d1a43
+1797e79129adb5d28deef0e7ba26aa70d6d98591 refs/tags/v1.8.0
+29277ac273f294fd4804c35e43af9c8a5fc5ba9d refs/tags/v1.9.0

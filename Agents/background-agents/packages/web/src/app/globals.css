@@ -1,0 +1,184 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Remove backtick decorations from prose inline code */
+.prose :where(code):not(:where([class~="not-prose"], [class~="not-prose"] *))::before,
+.prose :where(code):not(:where([class~="not-prose"], [class~="not-prose"] *))::after {
+  content: none;
+}
+
+/* Let the hljs theme control code block background and text color.
+   Padding lives on code.hljs so the theme background covers the full box. */
+pre code.hljs {
+  padding: 0.75rem;
+}
+
+/*
+ * Design System Color Tokens
+ *
+ * All colors are defined as CSS variables that automatically switch with dark mode.
+ * Components should use semantic Tailwind classes (bg-background, text-foreground, etc.)
+ * instead of hardcoded hex values.
+ *
+ * To change the color palette, update only these variables.
+ */
+
+:root {
+  /* Core backgrounds */
+  --background: #f8f8f6;
+  --foreground: #1a1a1a;
+
+  /* Card/surface backgrounds */
+  --card: #f8f8f6;
+  --card-foreground: #1a1a1a;
+
+  /* Popover/dropdown backgrounds */
+  --popover: #ffffff;
+  --popover-foreground: #1a1a1a;
+
+  /* Primary (inverted button style) */
+  --primary: #1a1a1a;
+  --primary-foreground: #ffffff;
+
+  /* Secondary */
+  --secondary: rgba(0, 0, 0, 0.05);
+
+  /* Accent color (warm brown) */
+  --accent: #8b7355;
+  --accent-foreground: #ffffff;
+  --accent-muted: rgba(139, 115, 85, 0.1);
+
+  /* Muted/secondary text */
+  --muted: rgba(0, 0, 0, 0.05);
+  --muted-foreground: #666666;
+  --secondary-foreground: #999999;
+
+  /* Destructive */
+  --destructive: #dc2626;
+  --destructive-foreground: #ffffff;
+
+  /* Borders */
+  --border: rgba(0, 0, 0, 0.1);
+  --border-muted: rgba(0, 0, 0, 0.05);
+
+  /* Input backgrounds */
+  --input: #ffffff;
+
+  /* Focus ring */
+  --ring: #8b7355;
+
+  /* Success (green) */
+  --success: #28c840;
+  --success-muted: rgba(40, 200, 64, 0.1);
+
+  /* Border radius */
+  --radius: 0.25rem;
+}
+
+/* Dark mode via system preference (no-JS fallback) */
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #1a1a1a;
+    --foreground: #f8f8f6;
+
+    --card: rgba(255, 255, 255, 0.05);
+    --card-foreground: #f8f8f6;
+
+    --popover: #252525;
+    --popover-foreground: #f8f8f6;
+
+    --primary: #f8f8f6;
+    --primary-foreground: #1a1a1a;
+
+    --secondary: rgba(255, 255, 255, 0.05);
+
+    --accent: #a68b6a;
+    --accent-foreground: #ffffff;
+    --accent-muted: rgba(139, 115, 85, 0.2);
+
+    --muted: rgba(255, 255, 255, 0.05);
+    --muted-foreground: #999999;
+    --secondary-foreground: #666666;
+
+    --destructive: #ef4444;
+    --destructive-foreground: #ffffff;
+
+    --border: rgba(255, 255, 255, 0.1);
+    --border-muted: rgba(255, 255, 255, 0.05);
+
+    --input: #1a1a1a;
+
+    --ring: #a68b6a;
+
+    --success: #28c840;
+    --success-muted: rgba(40, 200, 64, 0.1);
+  }
+}
+
+/* Dark mode via class (authoritative when next-themes is loaded) */
+.dark {
+  --background: #1a1a1a;
+  --foreground: #f8f8f6;
+
+  --card: rgba(255, 255, 255, 0.05);
+  --card-foreground: #f8f8f6;
+
+  --popover: #252525;
+  --popover-foreground: #f8f8f6;
+
+  --primary: #f8f8f6;
+  --primary-foreground: #1a1a1a;
+
+  --secondary: rgba(255, 255, 255, 0.05);
+
+  --accent: #a68b6a;
+  --accent-foreground: #ffffff;
+  --accent-muted: rgba(139, 115, 85, 0.2);
+
+  --muted: rgba(255, 255, 255, 0.05);
+  --muted-foreground: #999999;
+  --secondary-foreground: #666666;
+
+  --destructive: #ef4444;
+  --destructive-foreground: #ffffff;
+
+  --border: rgba(255, 255, 255, 0.1);
+  --border-muted: rgba(255, 255, 255, 0.05);
+
+  --input: #1a1a1a;
+
+  --ring: #a68b6a;
+
+  --success: #28c840;
+  --success-muted: rgba(40, 200, 64, 0.1);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  color: var(--foreground);
+  background: var(--background);
+  font-family:
+    var(--font-geist-sans),
+    system-ui,
+    -apple-system,
+    BlinkMacSystemFont,
+    "Segoe UI",
+    Roboto,
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+::selection {
+  background-color: var(--accent);
+  color: white;
+}
+
+*:focus-visible {
+  outline: 2px solid var(--ring);
+  outline-offset: 2px;
+}

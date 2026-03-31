@@ -1,0 +1,15 @@
+
+# Git internal pack files (from cloned/renamed repos)
+**/git/objects/
+**/_git/objects/
+**/git_folder/objects/
+**/git/objects/**
+**/_git/objects/**
+**/git_folder/objects/**
+
+# Git internal folders (from cloned repos)
+**/git/objects/
+**/_git/objects/
+**/git_folder/objects/
+**/git/objects/**
+**/.git/objects/**
