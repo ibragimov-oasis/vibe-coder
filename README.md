@@ -46,6 +46,35 @@ This is the toolkit I wish existed when I started. Now it's yours.
 > I'm still saving up for **Claude Code** ($200/month, ~$2,400/year). If this repo helps you — even a little — consider [supporting me](#-support-this-project). Every donation gets me closer to making this collection even better.
 
 ---
+## 💛 Support This Project
+
+I'm a student. I built this after classes, between homework and exams. No sponsors, no company behind this — just months of daily research on GitHub Trending, TikTok, Instagram, and countless README files.
+
+**My goal:** Get a Claude Code subscription (~$200/month) so I can make this collection even better and build more tools for the vibe-coding community.
+
+### Donate via Binance
+
+> **Binance Pay ID:** `493322270`
+>
+> **USDT (TRC-20):** `TQRpzwLXDrv8FTs9BiSGmKnUJ79HQHFkyo`
+>
+> **BNB (BSC):** `0xe7978841f84e2e48115a5fff8490b0910f041ba`
+> 
+> **BTC (BSC):** `0xe7978841f84e2e48115a5fff8490b0910f041baf`
+> 
+> **BTC (BTC):** `1NAX3vZpZZRhp6G1RxH4KjcAGoGYyz2WVQ`
+
+
+*Replace the wallet addresses above with your actual Binance wallet addresses.*
+
+### Other Ways to Help
+
+- ⭐ **Star this repo** — it's free and helps others find it
+- 🔀 **Fork & share** — spread the word
+- 📢 **Post about it** — tag me on Twitter/X, TikTok, or Instagram
+- 🐛 **Report issues** — help improve the collection
+
+---
 
 ## 🗂️ What's Inside
 
@@ -195,36 +224,6 @@ When you download a repo from GitHub, files starting with `.` (like `.claude/`, 
 - Files with dots removed → restore the dot prefix
 
 > **Quick fix:** Ask your AI assistant: *"Make all renamed hidden config files in this directory active by restoring their original dot-prefixed names."*
-
----
-
-## 💛 Support This Project
-
-I'm a student. I built this after classes, between homework and exams. No sponsors, no company behind this — just months of daily research on GitHub Trending, TikTok, Instagram, and countless README files.
-
-**My goal:** Get a Claude Code subscription (~$200/month) so I can make this collection even better and build more tools for the vibe-coding community.
-
-### Donate via Binance
-
-> **Binance Pay ID:** `493322270`
->
-> **USDT (TRC-20):** `TQRpzwLXDrv8FTs9BiSGmKnUJ79HQHFkyo`
->
-> **BNB (BSC):** `0xe7978841f84e2e48115a5fff8490b0910f041ba`
-> 
-> **BTC (BSC):** `0xe7978841f84e2e48115a5fff8490b0910f041baf`
-> 
-> **BTC (BTC):** `1NAX3vZpZZRhp6G1RxH4KjcAGoGYyz2WVQ`
-
-
-*Replace the wallet addresses above with your actual Binance wallet addresses.*
-
-### Other Ways to Help
-
-- ⭐ **Star this repo** — it's free and helps others find it
-- 🔀 **Fork & share** — spread the word
-- 📢 **Post about it** — tag me on Twitter/X, TikTok, or Instagram
-- 🐛 **Report issues** — help improve the collection
 
 ---
 
