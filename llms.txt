@@ -1,0 +1,128 @@
+# Vibe-Coder Arsenal
+> The ultimate toolkit for AI-powered development. 31 repos, 7 categories, 1,500+ skills.
+> Clone once — your AI becomes smarter, more autonomous, and more powerful.
+
+## Repository
+- URL: https://github.com/ibragimov-oasis/vibe-coder
+- Author: @ibragimov-oasis
+- License: Apache-2.0
+
+## Quick Start
+Copy COMBINED/ contents to your project root and restore dot-prefixes.
+See: /QUICKSTART.md
+
+## Master Plan
+- Full roadmap: /MASTER_PLAN.md
+- Audit report: /AUDIT.md
+- Skill merge tracker: /MERGE_PLAN.md
+
+## Root Configs (Ready to Copy)
+- Claude Code: /COMBINED/claude/
+- GitHub Copilot: /COMBINED/copilot/
+- Cursor AI: /COMBINED/cursor/
+- Antigravity: /COMBINED/antigravity/
+- Prompts: /COMBINED/prompts/
+- UI/UX: /COMBINED/ui/
+- Orchestration: /COMBINED/orchestration/
+- Memory: /COMBINED/memory/
+
+## Agents
+- Background Agents (Open-Inspect): /Agents/background-agents/
+  Three-tier sandboxed dev environments (Next.js + Cloudflare Workers + Modal)
+- Hermes Agent: /Agents/hermes-agent/
+  OpenAI-compatible agent with streaming, tool use, and multi-model support
+- Shannon (Pentester): /Agents/shannon/
+  Security penetration testing agent
+
+## Orchestration Systems
+- RuFlo v3.5: /Orchestration/ruflo/
+  Enterprise AI orchestration — 100+ agents, self-learning, fault-tolerant consensus
+- DeerFlow (ByteDance): /Orchestration/deer-flow/
+  Full-stack super agent harness — sub-agents, memory, sandboxes
+- Get Shit Done (GSD): /Orchestration/get-shit-done/
+  Lightweight spec-driven development — solves context rot
+- oh-my-claudecode (OMC): /Orchestration/oh-my-claudecode/
+  Zero learning curve multi-agent orchestration — 19 agents, team mode, autopilot
+- Superpowers: /Orchestration/superpowers/
+  Composable skills workflow — TDD, git worktrees, subagent-driven development
+- 1Code: /Orchestration/1code/
+  AI-powered code generation and transformation
+- Vibe Kanban: /Orchestration/vibe-kanban/
+  Visual task management for AI-assisted development
+
+## Skills Libraries
+- Antigravity Awesome Skills: /Skills/antigravity-awesome-skills/
+  1,326+ skills for Antigravity AI assistant
+- Claude Skills: /Skills/claude-skills/
+  205+ production-ready skills across 9 domains with 268 Python tools
+- Everything Claude Code: /Skills/everything-claude-code/
+  Comprehensive resources — commands, enterprise patterns, agent skills
+- Awesome Claude Code: /Skills/awesome-claude-code/
+  Curated list of best Claude Code skills, agents, plugins, hooks
+- Awesome Copilot: /Skills/awesome-copilot-main/
+  GitHub Copilot prompts, agents, instructions, skills, plugins
+- Claude SEO: /Skills/claude-seo/
+  SEO optimization skills for AI-assisted content
+- Obsidian Skills: /Skills/obsidian-skills/
+  Skills for Obsidian knowledge management
+
+## Tools
+- GitNexus: /Tools/GitNexus/
+  Git repository management and analysis tool
+- OpenViking (ByteDance): /Tools/OpenViking/
+  Context Database for AI Agents — filesystem paradigm, tiered loading
+- Lightpanda Browser: /Tools/browser/
+  9x faster, 16x less memory than Chrome — CDP compatible
+- Claude-Mem: /Tools/claude-mem/
+  Persistent memory compression for Claude Code
+- Supermemory: /Tools/supermemory/
+  #1 on LongMemEval, LoCoMo, ConvoMem — memory layer for any AI
+- Nano Banana 2 MCP: /Tools/nano-banana-2-mcp/
+  MCP server toolkit
+- Pretext: /Tools/pretext/
+  Pure JS/TS multiline text measurement & layout engine
+
+## Prompts
+- Combined Prompts: /Prompts/COMBINED_PROMPTS.md
+  330+ prompts in one searchable file
+- prompts.chat: /Prompts/prompts.chat/
+  143k+ stars prompt library (CSV format)
+- System Prompts Collection: /Prompts/system-prompts-and-models-of-ai-tools/
+  System prompts from Claude, Cursor, Devin, Gemini, v0, Windsurf, etc.
+- System Prompts Leaks: /Prompts/system_prompts_leaks/
+  Leaked system prompts from major AI tools
+- Vibe-Coding Template: /Prompts/vibe-coding-prompt-template/
+  4-part MVP workflow (Research → PRD → Technical Design → Agent Notes)
+- Optimization Prompts: /Prompts/optimization/
+  Prompts that improve other prompts
+
+## UI/UX Resources
+- Combined Design System: /UI-UX/COMBINED_DESIGN_SYSTEM.md
+  Master reference for AI-generated UIs
+- Galaxy (Uiverse.io): /UI-UX/galaxy/
+  3,000+ unique UI elements — buttons, cards, loaders, forms, etc.
+- shadcn/ui: /UI-UX/ui/
+  Beautifully designed, customizable React components (Radix + Tailwind)
+- UI UX Pro Max: /UI-UX/ui-ux-pro-max-skill/
+  161 reasoning rules + 67 design styles for AI
+
+## Reference
+- Awesome Self-Hosted: /Reference/awesome-selfhosted-master/
+  Comprehensive list of self-hosted software
+
+## Documentation
+- Master Plan: /MASTER_PLAN.md — Single source of truth for repo organization
+- Audit: /AUDIT.md — Complete mapping of 172+ config files across 31 repos
+- Orchestration Guide: /ORCHESTRATION.md — 5 orchestration systems compared
+- Memory Setup: /MEMORY_SETUP.md — 3 memory systems with installation guides
+- Skill Merge Plan: /MERGE_PLAN.md — 119 skills merge tracker
+- Contributing: /CONTRIBUTING.md — How to contribute to this repository
+
+## How to Activate
+1. Clone: git clone https://github.com/ibragimov-oasis/vibe-coder.git
+2. Copy configs to your project:
+   cp -r vibe-coder/COMBINED/claude/* YOUR_PROJECT/.claude/
+   cp -r vibe-coder/COMBINED/copilot/* YOUR_PROJECT/.github/
+   cp vibe-coder/COMBINED/cursor/COMBINED_CURSORRULES YOUR_PROJECT/.cursorrules
+3. Open your project in any AI coding tool
+4. Your AI now has 31 repos worth of skills and instructions

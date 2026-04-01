@@ -355,4 +355,30 @@ From `_github/workflows/`:
 
 ---
 
+## Phase 3 — COMBINED/ Directory (Created 2026-04-01)
+
+The `COMBINED/` directory was created as a standalone, copy-ready collection of all unified configs.
+
+| Subfolder | Contents | Source | Files |
+|-----------|----------|--------|-------|
+| `claude/COMBINED_CLAUDE.md` | Master Claude instructions | `.claude/CLAUDE.md` | 1 |
+| `claude/COMBINED_SETTINGS.json` | Settings with hooks, swarm, agents | `.claude/settings.json` | 1 |
+| `claude/COMBINED_COMMANDS/` | All commands (agents, swarm, memory, etc.) | `.claude/commands/` | 182 |
+| `claude/COMBINED_SKILLS/` | All skill packages | `.claude/skills/` | 39 dirs |
+| `copilot/COMBINED_COPILOT_INSTRUCTIONS.md` | Master Copilot instructions | `.github/copilot-instructions.md` | 1 |
+| `cursor/COMBINED_CURSORRULES` | Master cursor rules | `.cursorrules` | 1 |
+| `cursor/COMBINED_CURSOR_RULES/` | Category-specific rules | `.cursor/rules/` | 1 |
+| `antigravity/COMBINED_SKILLS/` | Skills marketplace | `.antigravity/skills/` | 2 |
+| `antigravity/COMBINED_HOOKS/` | Hook documentation | `.antigravity/hooks/` | 1 |
+| `antigravity/COMBINED_PLUGINS/` | Plugin marketplace | `.antigravity/plugins/` | 1 |
+| `prompts/COMBINED_ALL_PROMPTS.md` | All prompts searchable | `Prompts/COMBINED_PROMPTS.md` | 1 |
+| `ui/COMBINED_DESIGN_SYSTEM.md` | Master design reference | `UI-UX/COMBINED_DESIGN_SYSTEM.md` | 1 |
+| `orchestration/COMBINED_ORCHESTRATION.md` | 5 orchestration systems | `ORCHESTRATION.md` | 1 |
+| `memory/COMBINED_MEMORY_SETUP.md` | 3 memory systems | `MEMORY_SETUP.md` | 1 |
+
+**Totals:** 238 files across 74 directories.
+
+---
+
 *End of Audit Report*
+
