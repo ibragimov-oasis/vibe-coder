@@ -206,11 +206,16 @@ I'm a student. I built this after classes, between homework and exams. No sponso
 
 ### Donate via Binance
 
-> **Binance Pay ID:** `ibragimov-oasis`
+> **Binance Pay ID:** `493322270`
 >
-> **USDT (TRC-20):** `[YOUR_WALLET_ADDRESS_HERE]`
+> **USDT (TRC-20):** `TQRpzwLXDrv8FTs9BiSGmKnUJ79HQHFkyo`
 >
-> **BNB (BSC):** `[YOUR_WALLET_ADDRESS_HERE]`
+> **BNB (BSC):** `0xe7978841f84e2e48115a5fff8490b0910f041ba`
+> 
+> **BTC (BSC):** `0xe7978841f84e2e48115a5fff8490b0910f041baf`
+> 
+> **BTC (BTC):** `1NAX3vZpZZRhp6G1RxH4KjcAGoGYyz2WVQ`
+
 
 *Replace the wallet addresses above with your actual Binance wallet addresses.*
 
