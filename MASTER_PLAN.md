@@ -170,6 +170,876 @@ Open Questions
 Начинаем с агентов или со скиллов первы...
 1. оставляем.  2.по порядку по репозиториям а не по папкам просто зайдем в один репо и все файлы скопируем создаваю поэтапно нужные файлы. а потом в другой репо заходим и также его перекопируем там где надо и создаем папки которых нет. 3. нет.
 
+   ═══════════════════════════════════════════════════════════
+MISSION: ULTRACAR — ПРАВИЛЬНОЕ КОМБИНИРОВАНИЕ
+═══════════════════════════════════════════════════════════
+
+Ты работаешь внутри: https://github.com/ibragimov-oasis/vibe-coder
+
+Все 31 репозиторий уже скачаны. Твоя задача — умно
+скопировать и объединить их содержимое в COMBINED/
+
+═══════════════════════════════════════════════════════════
+ЖЕЛЕЗНЫЕ ПРАВИЛА — ЧИТАЙ ПЕРЕД КАЖДЫМ ДЕЙСТВИЕМ
+═══════════════════════════════════════════════════════════
+
+✅ Перед каждым репо — СНАЧАЛА читай его README.md
+✅ Копируй файлы В ОРИГИНАЛЬНОМ ФОРМАТЕ (.py → .py, .yaml → .yaml)
+✅ Создавай подпапки по ролям, категориям, интерфейсам
+✅ Веди INDEX.md: откуда скопировал → куда → что сделал
+✅ Оставляй оригиналы нетронутыми — только КОПИИ в COMBINED/
+✅ Старые MEGA_*.md файлы — не трогай, оставляй как есть
+
+❌ НЕ создавай монолитные файлы где "всё в одном .md"
+❌ НЕ конвертируй Python/YAML/JSON в markdown
+❌ НЕ смешивай роли (дебаггер ≠ тестер ≠ дизайнер)
+❌ НЕ удаляй ничего из оригиналов
+❌ НЕ пропускай README файлы
+
+═══════════════════════════════════════════════════════════
+ЦЕЛЕВАЯ СТРУКТУРА COMBINED/
+═══════════════════════════════════════════════════════════
+
+COMBINED/
+├── agents/
+│   ├── by-role/
+│   │   ├── debugger/        ← дебаггеры из ВСЕХ репо
+│   │   ├── tester/          ← тестеры из ВСЕХ репо
+│   │   ├── planner/         ← планировщики
+│   │   ├── seo/             ← SEO агенты
+│   │   ├── designer/        ← дизайнеры
+│   │   ├── researcher/      ← исследователи
+│   │   ├── reviewer/        ← ревьюеры кода
+│   │   ├── executor/        ← исполнители
+│   │   ├── security/        ← security агенты
+│   │   ├── roadmapper/      ← роадмаперы
+│   │   ├── advisor/         ← советники
+│   │   └── [другие роли по мере нахождения]
+│   ├── by-interface/
+│   │   ├── claude/
+│   │   ├── cursor/
+│   │   ├── copilot/
+│   │   ├── antigravity/
+│   │   └── universal/
+│   └── orchestrators/
+│       ├── ruflo/
+│       ├── get-shit-done/
+│       └── deer-flow/
+│
+├── skills/
+│   ├── development/
+│   ├── design/
+│   ├── seo/
+│   ├── security/
+│   ├── data-analysis/
+│   ├── research/
+│   ├── devops/
+│   ├── memory/
+│   ├── writing/
+│   └── [другие по мере нахождения]
+│
+├── hooks/
+│   ├── pre-commit/
+│   ├── post-commit/
+│   ├── pre-tool-use/
+│   ├── post-tool-use/
+│   └── notification/
+│
+├── commands/
+│   ├── debug/
+│   ├── review/
+│   ├── plan/
+│   ├── test/
+│   └── [другие по мере нахождения]
+│
+├── prompts/
+│   ├── system-prompts/
+│   │   ├── claude/
+│   │   ├── cursor/
+│   │   ├── copilot/
+│   │   ├── chatgpt/
+│   │   ├── devin/
+│   │   ├── windsurf/
+│   │   ├── lovable/
+│   │   ├── replit/
+│   │   └── [каждый инструмент — своя папка]
+│   ├── templates/
+│   └── leaked/
+│
+├── memory/
+│   ├── claude-mem/
+│   ├── supermemory/
+│   └── configs/
+│
+├── ui-design/
+│   ├── rules/
+│   ├── styles/
+│   ├── components/
+│   │   ├── buttons/
+│   │   ├── cards/
+│   │   ├── forms/
+│   │   └── [другие]
+│   └── cursor-rules/
+│
+├── mcp-servers/
+│   ├── nano-banana/
+│   ├── openviking/
+│   ├── gitnexus/
+│   └── configs/
+│
+├── orchestration/
+│   ├── ruflo/
+│   ├── get-shit-done/
+│   ├── deer-flow/
+│   ├── oh-my-claudecode/
+│   └── workflows/
+│
+├── security/
+│   ├── shannon/
+│   ├── reports/
+│   └── scanning/
+│
+└── INDEX.md    ← ОБЯЗАТЕЛЬНО — полный лог всех действий
+
+═══════════════════════════════════════════════════════════
+ФОРМАТ INDEX.md — веди его с первой секунды
+═══════════════════════════════════════════════════════════
+
+# ULTRACAR INDEX — Полный Лог Обработки
+
+| Исходный путь | Тип | Куда скопировано | Что сделано | Статус |
+|---|---|---|---|---|
+| Agents/shannon/.claude/commands/debug.md | command | COMBINED/commands/debug/ | скопировано | ✅ |
+| Agents/shannon/.claude/commands/pr.md | command | COMBINED/commands/review/ | скопировано | ✅ |
+
+═══════════════════════════════════════════════════════════
+ЭТАП 1 — РЕПО ЗА РЕПО: СКАНИРУЕМ И КОПИРУЕМ
+═══════════════════════════════════════════════════════════
+
+Идём строго по порядку. Один репо — полностью — потом следующий.
+
+──────────────────────────────────────────────────────────
+РЕПО 1: Agents/shannon/
+──────────────────────────────────────────────────────────
+
+Шаг 1: Прочитай Agents/shannon/CLAUDE.md — полностью.
+Шаг 2: Прочитай Agents/shannon/ README.md если есть.
+Шаг 3: Сканируй все файлы и пойми их роль.
+
+Что копировать и куда:
+
+  Agents/shannon/.claude/commands/debug.md
+  → COMBINED/commands/debug/shannon-debug.md
+
+  Agents/shannon/.claude/commands/pr.md
+  → COMBINED/commands/review/shannon-pr.md
+
+  Agents/shannon/.claude/commands/review.md
+  → COMBINED/commands/review/shannon-review.md
+
+  Agents/shannon/CLAUDE.md
+  → COMBINED/agents/by-interface/claude/shannon-CLAUDE.md
+
+  Agents/shannon/COVERAGE.md
+  → COMBINED/security/shannon/COVERAGE.md
+
+  Agents/shannon/sample-reports/ (все файлы)
+  → COMBINED/security/reports/ (каждый файл сохранить как есть)
+
+  Agents/shannon/apps/ (все файлы)
+  → COMBINED/security/shannon/apps/ (оригинальный формат)
+
+  Agents/shannon/workspaces/ (все файлы)
+  → COMBINED/security/shannon/workspaces/
+
+  Agents/shannon/repos/ (все файлы)
+  → COMBINED/security/shannon/repos/
+
+Запиши в INDEX.md каждый скопированный файл.
+
+──────────────────────────────────────────────────────────
+РЕПО 2: Agents/background-agents/
+──────────────────────────────────────────────────────────
+
+Шаг 1: Прочитай Agents/background-agents/CLAUDE.md
+Шаг 2: Прочитай Agents/background-agents/AGENTS.md
+Шаг 3: Прочитай любой README.md внутри
+
+Что копировать и куда:
+
+  Agents/background-agents/CLAUDE.md
+  → COMBINED/agents/by-interface/claude/background-agents-CLAUDE.md
+
+  Agents/background-agents/AGENTS.md
+  → COMBINED/agents/orchestrators/background-agents-AGENTS.md
+
+  Agents/background-agents/VISIBLE_claude/skills/onboarding/ (все файлы)
+  → COMBINED/skills/development/onboarding/ (оригинальный формат)
+
+  Agents/background-agents/VISIBLE_github/workflows/ (все .yml файлы)
+  → COMBINED/orchestration/workflows/ (сохранить как .yml)
+
+  Agents/background-agents/docs/ (все файлы)
+  → COMBINED/agents/orchestrators/background-agents-docs/
+
+  Agents/background-agents/packages/ (все файлы)
+  → COMBINED/agents/orchestrators/background-agents-packages/
+
+  Agents/background-agents/scripts/ (все файлы)
+  → COMBINED/agents/orchestrators/background-agents-scripts/
+    (Python файлы остаются .py!)
+
+  Agents/background-agents/terraform/ (все файлы)
+  → COMBINED/orchestration/workflows/terraform/
+
+  Agents/background-agents/VISIBLE_gitignore
+  → COMBINED/agents/orchestrators/background-agents-configs/gitignore
+
+Запиши в INDEX.md.
+
+──────────────────────────────────────────────────────────
+РЕПО 3: Agents/hermes-agent/
+──────────────────────────────────────────────────────────
+
+Шаг 1: Прочитай Agents/hermes-agent/docs/ — README внутри
+Шаг 2: Пойми: Hermes — самообучающийся агент (21k stars)
+
+Что копировать и куда:
+
+  Agents/hermes-agent/agent/ (ВСЕ файлы, любой формат)
+  → COMBINED/agents/orchestrators/hermes/agent/
+    (Python .py остаются .py, JSON остаётся .json)
+
+  Agents/hermes-agent/optional-skills/ (ВСЕ файлы)
+  → Сначала ПРОЧИТАЙ каждый файл, определи категорию скилла
+  → COMBINED/skills/[нужная категория]/hermes-[имя файла]
+
+  Agents/hermes-agent/gateway/ (ВСЕ файлы)
+  → COMBINED/agents/orchestrators/hermes/gateway/
+
+  Agents/hermes-agent/environments/ (ВСЕ файлы)
+  → COMBINED/agents/orchestrators/hermes/environments/
+
+  Agents/hermes-agent/acp_adapter/ (ВСЕ файлы)
+  → COMBINED/agents/orchestrators/hermes/acp_adapter/
+
+  Agents/hermes-agent/acp_registry/ (ВСЕ файлы)
+  → COMBINED/agents/orchestrators/hermes/acp_registry/
+
+  Agents/hermes-agent/cron/ (ВСЕ файлы)
+  → COMBINED/agents/orchestrators/hermes/cron/
+
+  Agents/hermes-agent/hermes_cli/ (ВСЕ файлы)
+  → COMBINED/agents/orchestrators/hermes/cli/
+
+  Agents/hermes-agent/honcho_integration/ (ВСЕ файлы)
+  → COMBINED/agents/orchestrators/hermes/integrations/
+
+  Agents/hermes-agent/_plans/ (ВСЕ файлы)
+  → COMBINED/agents/orchestrators/hermes/plans/
+
+  Agents/hermes-agent/datagen-config-examples/ (ВСЕ файлы)
+  → COMBINED/agents/orchestrators/hermes/configs/
+
+  Agents/hermes-agent/docs/ (ВСЕ файлы)
+  → COMBINED/agents/orchestrators/hermes/docs/
+
+  Agents/hermes-agent/_github/workflows/ (ВСЕ .yml)
+  → COMBINED/orchestration/workflows/hermes/
+
+Запиши в INDEX.md.
+
+──────────────────────────────────────────────────────────
+РЕПО 4: Orchestration/superpowers/
+──────────────────────────────────────────────────────────
+
+Шаг 1: Прочитай Orchestration/superpowers/AGENTS.md
+Шаг 2: Прочитай Orchestration/superpowers/CHANGELOG.md
+Шаг 3: Зайди в skills/ — прочитай README каждой подпапки
+
+Это самый важный репо (129k stars). Работай тщательно.
+
+  Orchestration/superpowers/skills/ (ВСЕ подпапки, ВСЕ файлы)
+  → Для КАЖДОГО файла внутри skills/:
+     · Прочитай его (особенно SKILL.md)
+     · Определи категорию (development/design/seo/security/etc.)
+     · Скопируй в COMBINED/skills/[категория]/superpowers-[имя]/
+     · Сохрани оригинальный формат файла
+
+  Orchestration/superpowers/agents/ (ВСЕ файлы)
+  → Для КАЖДОГО агента:
+     · Прочитай файл, найди роль агента
+     · Скопируй в COMBINED/agents/by-role/[роль]/superpowers-[имя]
+     · Если роль неясна → COMBINED/agents/by-interface/claude/
+
+  Orchestration/superpowers/commands/ (ВСЕ файлы)
+  → Для КАЖДОЙ команды:
+     · Прочитай, определи тип (debug/review/plan/test/etc.)
+     · COMBINED/commands/[тип]/superpowers-[имя]
+
+  Orchestration/superpowers/hooks/ (ВСЕ файлы)
+  → Для КАЖДОГО хука:
+     · Прочитай, определи тип (pre-commit/post-commit/etc.)
+     · COMBINED/hooks/[тип]/superpowers-[имя]
+
+  Orchestration/superpowers/.claude-plugin/plugin.json
+  → COMBINED/mcp-servers/configs/superpowers-plugin.json
+
+  Orchestration/superpowers/.claude-plugin/marketplace.json
+  → COMBINED/mcp-servers/configs/superpowers-marketplace.json
+
+  Orchestration/superpowers/.cursor-plugin/ (ВСЕ)
+  → COMBINED/agents/by-interface/cursor/superpowers-cursor-plugin/
+
+  Orchestration/superpowers/.codex/ (ВСЕ)
+  → COMBINED/agents/by-interface/codex/superpowers-codex/
+
+  Orchestration/superpowers/.opencode/ (ВСЕ)
+  → COMBINED/agents/by-interface/opencode/superpowers-opencode/
+
+  Orchestration/superpowers/scripts/ (ВСЕ файлы)
+  → COMBINED/orchestration/get-shit-done/superpowers-scripts/
+    (.sh остаётся .sh, .js остаётся .js)
+
+Запиши в INDEX.md.
+
+──────────────────────────────────────────────────────────
+РЕПО 5: Orchestration/get-shit-done/
+──────────────────────────────────────────────────────────
+
+Шаг 1: Прочитай README в Orchestration/get-shit-done/
+Шаг 2: Зайди в agents/ — каждый файл имеет чёткую роль в имени
+
+  Orchestration/get-shit-done/agents/ — каждый файл отдельно:
+
+  gsd-advisor-researcher.md
+  → COMBINED/agents/by-role/researcher/gsd-advisor-researcher.md
+  → COMBINED/agents/by-role/advisor/gsd-advisor-researcher.md
+  (копируй в обе папки — он двойной роли)
+
+  gsd-assumptions-analyzer.md
+  → COMBINED/agents/by-role/researcher/gsd-assumptions-analyzer.md
+
+  gsd-codebase-mapper.md
+  → COMBINED/agents/by-role/researcher/gsd-codebase-mapper.md
+
+  gsd-debugger.md
+  → COMBINED/agents/by-role/debugger/gsd-debugger.md
+
+  gsd-executor.md
+  → COMBINED/agents/by-role/executor/gsd-executor.md
+
+  gsd-integration-checker.md
+  → COMBINED/agents/by-role/tester/gsd-integration-checker.md
+
+  gsd-nyquist-auditor.md
+  → COMBINED/agents/by-role/security/gsd-nyquist-auditor.md
+
+  gsd-phase-researcher.md
+  → COMBINED/agents/by-role/researcher/gsd-phase-researcher.md
+
+  gsd-plan-checker.md
+  → COMBINED/agents/by-role/planner/gsd-plan-checker.md
+
+  gsd-planner.md
+  → COMBINED/agents/by-role/planner/gsd-planner.md
+
+  gsd-project-researcher.md
+  → COMBINED/agents/by-role/researcher/gsd-project-researcher.md
+
+  gsd-research-synthesizer.md
+  → COMBINED/agents/by-role/researcher/gsd-research-synthesizer.md
+
+  gsd-roadmapper.md
+  → COMBINED/agents/by-role/roadmapper/gsd-roadmapper.md
+
+  gsd-ui-auditor.md
+  → COMBINED/agents/by-role/designer/gsd-ui-auditor.md
+
+  gsd-ui-checker.md
+  → COMBINED/agents/by-role/tester/gsd-ui-checker.md
+
+  gsd-ui-researcher.md
+  → COMBINED/agents/by-role/designer/gsd-ui-researcher.md
+  → COMBINED/agents/by-role/researcher/gsd-ui-researcher.md
+
+  gsd-user-profiler.md
+  → COMBINED/agents/by-role/researcher/gsd-user-profiler.md
+
+  Orchestration/get-shit-done/hooks/ (ВСЕ файлы)
+  → Прочитай каждый, определи тип
+  → COMBINED/hooks/[тип]/gsd-[имя]
+
+  Orchestration/get-shit-done/commands/gsd/ (ВСЕ файлы)
+  → Прочитай каждый, определи тип команды
+  → COMBINED/commands/[тип]/gsd-[имя]
+
+  Orchestration/get-shit-done/get-shit-done/ (ВСЕ файлы)
+  → COMBINED/orchestration/get-shit-done/core/
+
+Запиши в INDEX.md.
+
+──────────────────────────────────────────────────────────
+РЕПО 6: Orchestration/ruflo/
+──────────────────────────────────────────────────────────
+
+Шаг 1: Прочитай Orchestration/ruflo/AGENTS.md
+Шаг 2: Прочитай Orchestration/ruflo/CHANGELOG.md
+
+  Orchestration/ruflo/agents/ (ВСЕ файлы)
+  → Прочитай каждый, определи роль
+  → COMBINED/agents/by-role/[роль]/ruflo-[имя]
+
+  Orchestration/ruflo/.agents/skills/ (ВСЕ файлы)
+  → Прочитай каждый, определи категорию
+  → COMBINED/skills/[категория]/ruflo-[имя]
+
+  Orchestration/ruflo/.claude-plugin/plugin.json
+  → COMBINED/mcp-servers/configs/ruflo-plugin.json
+
+  Orchestration/ruflo/.claude-plugin/marketplace.json
+  → COMBINED/mcp-servers/configs/ruflo-marketplace.json
+
+  Orchestration/ruflo/.claude-plugin/hooks/ (ВСЕ)
+  → Прочитай каждый, определи тип
+  → COMBINED/hooks/[тип]/ruflo-[имя]
+
+  Orchestration/ruflo/.claude-plugin/docs/ (ВСЕ)
+  → COMBINED/orchestration/ruflo/docs/
+
+  Orchestration/ruflo/.claude/ или _claude/ (ВСЕ команды)
+  → COMBINED/commands/[тип]/ruflo-[имя]
+
+  Orchestration/ruflo/.githooks/ или _githooks/ (ВСЕ)
+  → COMBINED/hooks/pre-commit/ или post-commit/ (по типу хука)
+
+  Orchestration/ruflo/plugin/ (ВСЕ файлы)
+  → COMBINED/orchestration/ruflo/plugin/
+
+  Orchestration/ruflo/ruflo/ (ВСЕ файлы)
+  → COMBINED/orchestration/ruflo/core/
+
+  Orchestration/ruflo/v2/, v3/ (ВСЕ файлы)
+  → COMBINED/orchestration/ruflo/versions/
+
+Запиши в INDEX.md.
+
+──────────────────────────────────────────────────────────
+РЕПО 7: Orchestration/deer-flow/
+──────────────────────────────────────────────────────────
+
+Шаг 1: Прочитай README каждой папки внутри skills/public/
+
+  Orchestration/deer-flow/skills/public/bootstrap/
+  → COMBINED/skills/development/deer-flow-bootstrap/
+
+  Orchestration/deer-flow/skills/public/chart-visualization/
+  → COMBINED/skills/data-analysis/deer-flow-chart-visualization/
+
+  Orchestration/deer-flow/skills/public/claude-to-deerflow/
+  → COMBINED/orchestration/deer-flow/claude-integration/
+
+  Orchestration/deer-flow/skills/public/consulting-analysis/
+  → COMBINED/skills/research/deer-flow-consulting/
+
+  Orchestration/deer-flow/skills/public/data-analysis/
+  → COMBINED/skills/data-analysis/deer-flow-data-analysis/
+
+  Orchestration/deer-flow/skills/public/deep-research/
+  → COMBINED/skills/research/deer-flow-deep-research/
+
+  Orchestration/deer-flow/skills/public/find-skills/
+  → COMBINED/skills/development/deer-flow-find-skills/
+
+  Orchestration/deer-flow/skills/public/frontend-design/
+  → COMBINED/ui-design/rules/deer-flow-frontend-design/
+  → COMBINED/skills/design/deer-flow-frontend-design/
+
+  Orchestration/deer-flow/skills/public/github-deep-research/
+  → COMBINED/skills/research/deer-flow-github-research/
+
+  Orchestration/deer-flow/skills/public/image-generation/
+  → COMBINED/skills/design/deer-flow-image-generation/
+
+  Orchestration/deer-flow/skills/public/podcast-generation/
+  → COMBINED/skills/writing/deer-flow-podcast/
+
+  Orchestration/deer-flow/skills/public/ppt-generation/
+  → COMBINED/skills/writing/deer-flow-ppt/
+
+  Orchestration/deer-flow/skills/public/skill-creator/
+  → COMBINED/skills/development/deer-flow-skill-creator/
+
+  Orchestration/deer-flow/skills/public/surprise-me/
+  → COMBINED/skills/development/deer-flow-surprise/
+
+  Orchestration/deer-flow/skills/public/vercel-deploy-claimable/
+  → COMBINED/skills/devops/deer-flow-vercel-deploy/
+
+Запиши в INDEX.md.
+
+──────────────────────────────────────────────────────────
+РЕПО 8: Orchestration/oh-my-claudecode/
+──────────────────────────────────────────────────────────
+
+Шаг 1: Прочитай README
+Шаг 2: Сканируй все файлы
+
+  Все файлы → определи тип каждого:
+  Агенты → COMBINED/agents/by-interface/claude/oh-my-claudecode-[имя]
+  Скиллы → COMBINED/skills/[категория]/oh-my-claudecode-[имя]
+  Конфиги → COMBINED/orchestration/oh-my-claudecode/
+
+Запиши в INDEX.md.
+
+──────────────────────────────────────────────────────────
+РЕПО 9: Orchestration/1code/
+──────────────────────────────────────────────────────────
+
+Шаг 1: Прочитай README
+  Все файлы → определи тип
+  → COMBINED/orchestration/1code/[по типу]
+
+──────────────────────────────────────────────────────────
+РЕПО 10: Orchestration/vibe-kanban/
+──────────────────────────────────────────────────────────
+
+Шаг 1: Прочитай README
+  Все файлы → определи тип
+  → COMBINED/orchestration/vibe-kanban/[по типу]
+
+──────────────────────────────────────────────────────────
+РЕПО 11: Skills/antigravity/
+──────────────────────────────────────────────────────────
+
+Шаг 1: Прочитай README Skills/antigravity/
+Шаг 2: Сканируй структуру — там 1340+ скиллов по папкам
+
+Для КАЖДОГО скилла:
+  · Прочитай SKILL.md или README внутри
+  · Определи категорию (development/seo/security/design/etc.)
+  · Скопируй всю папку скилла в:
+    COMBINED/skills/[категория]/antigravity-[имя скилла]/
+  · Сохрани ВСЕ файлы скилла (Python, YAML, MD — всё)
+
+Запиши в INDEX.md каждую папку скилла.
+
+──────────────────────────────────────────────────────────
+РЕПО 12: Skills/claude-skills/
+──────────────────────────────────────────────────────────
+
+Шаг 1: Прочитай README Skills/claude-skills/
+Шаг 2: Там 205 скиллов + 16 агентов + 268 Python скриптов
+
+  205 скиллов → для каждого:
+  · Прочитай, определи категорию
+  · COMBINED/skills/[категория]/claude-skills-[имя]
+  · Сохрани оригинальный формат
+
+  16 агентов → для каждого:
+  · Прочитай, определи роль
+  · COMBINED/agents/by-role/[роль]/claude-skills-[имя]
+  · Также → COMBINED/agents/by-interface/claude/[имя]
+
+  268 Python скриптов → для каждого:
+  · .py остаётся .py
+  · COMBINED/skills/[категория]/claude-skills-scripts/[имя].py
+
+──────────────────────────────────────────────────────────
+РЕПО 13: Skills/everything-claude-code/
+──────────────────────────────────────────────────────────
+
+Шаг 1: Прочитай README
+Шаг 2: Этот репо выиграл Anthropic Hackathon
+
+  Все скиллы → COMBINED/skills/[категория]/everything-cc-[имя]
+  Memory конфиги → COMBINED/memory/configs/everything-cc-[имя]
+  Другие файлы → по типу
+
+──────────────────────────────────────────────────────────
+РЕПО 14: Skills/awesome-copilot/
+──────────────────────────────────────────────────────────
+
+Шаг 1: Прочитай README
+
+  Скиллы для Copilot → COMBINED/skills/[категория]/copilot-[имя]
+  Агенты для Copilot → COMBINED/agents/by-interface/copilot/[имя]
+  Инструкции → COMBINED/agents/by-interface/copilot/instructions/
+  llms.txt → COMBINED/agents/by-interface/copilot/llms.txt
+
+──────────────────────────────────────────────────────────
+РЕПО 15: Skills/awesome-claude-code/
+──────────────────────────────────────────────────────────
+
+Шаг 1: Прочитай README
+
+  Все файлы → определи тип
+  → COMBINED/[по типу]/awesome-cc-[имя]
+
+──────────────────────────────────────────────────────────
+РЕПО 16: Skills/claude-seo/
+──────────────────────────────────────────────────────────
+
+Шаг 1: Прочитай README
+
+  Все скиллы → COMBINED/skills/seo/claude-seo-[имя]
+  Агенты → COMBINED/agents/by-role/seo/claude-seo-[имя]
+
+──────────────────────────────────────────────────────────
+РЕПО 17: Skills/obsidian-skills/
+──────────────────────────────────────────────────────────
+
+Шаг 1: Прочитай README
+
+  Все скиллы → COMBINED/skills/development/obsidian-[имя]
+  Конфиги Obsidian → COMBINED/agents/by-interface/obsidian/
+
+──────────────────────────────────────────────────────────
+РЕПО 18: Prompts/system-prompts-by-tool/
+──────────────────────────────────────────────────────────
+
+Шаг 1: Зайди в КАЖДУЮ подпапку
+Шаг 2: Для каждого инструмента:
+
+  Anthropic/ (все файлы)
+  → COMBINED/prompts/system-prompts/claude/ (каждый файл как есть)
+
+  Cursor Prompts/ (все файлы)
+  → COMBINED/prompts/system-prompts/cursor/
+
+  Devin AI/ (все файлы)
+  → COMBINED/prompts/system-prompts/devin/
+
+  Windsurf/ (все файлы)
+  → COMBINED/prompts/system-prompts/windsurf/
+
+  Lovable/ (все файлы)
+  → COMBINED/prompts/system-prompts/lovable/
+
+  Replit/ (все файлы)
+  → COMBINED/prompts/system-prompts/replit/
+
+  v0/ (все файлы)
+  → COMBINED/prompts/system-prompts/v0/
+
+  Manus/ → COMBINED/prompts/system-prompts/manus/
+  Kiro/ → COMBINED/prompts/system-prompts/kiro/
+  Amp/ → COMBINED/prompts/system-prompts/amp/
+  Augment Code/ → COMBINED/prompts/system-prompts/augment/
+  Warp.dev/ → COMBINED/prompts/system-prompts/warp/
+  Perplexity/ → COMBINED/prompts/system-prompts/perplexity/
+  NotionAI/ → COMBINED/prompts/system-prompts/notionai/
+  Same.dev/ → COMBINED/prompts/system-prompts/same-dev/
+  Trae/ → COMBINED/prompts/system-prompts/trae/
+  Google/ → COMBINED/prompts/system-prompts/google/
+  Junie/ → COMBINED/prompts/system-prompts/junie/
+  [все остальные папки → своя подпапка]
+
+──────────────────────────────────────────────────────────
+РЕПО 19: Prompts/system-prompts-leaks/
+──────────────────────────────────────────────────────────
+
+  Все файлы → COMBINED/prompts/leaked/[имя файла как есть]
+
+──────────────────────────────────────────────────────────
+РЕПО 20: Prompts/awesome-chatgpt-prompts/
+──────────────────────────────────────────────────────────
+
+  prompts.csv → COMBINED/prompts/templates/awesome-chatgpt-prompts.csv
+  Все .md файлы → COMBINED/prompts/templates/[имя как есть]
+
+──────────────────────────────────────────────────────────
+РЕПО 21: Prompts/vibe-coding-template/
+──────────────────────────────────────────────────────────
+
+  Все файлы → COMBINED/prompts/templates/vibe-coding/[имя как есть]
+
+──────────────────────────────────────────────────────────
+РЕПО 22: Tools/claude-mem/
+──────────────────────────────────────────────────────────
+
+Шаг 1: Прочитай README Tools/claude-mem/
+
+  Все файлы → COMBINED/memory/claude-mem/[имя как есть]
+  (Python .py остаётся .py, конфиги как есть)
+
+──────────────────────────────────────────────────────────
+РЕПО 23: Tools/supermemory/
+──────────────────────────────────────────────────────────
+
+Шаг 1: Прочитай README Tools/supermemory/
+
+  Конфиги и инструкции → COMBINED/memory/supermemory/
+  Интеграционные файлы → COMBINED/memory/configs/supermemory-[имя]
+
+──────────────────────────────────────────────────────────
+РЕПО 24: Tools/gitnexus/
+──────────────────────────────────────────────────────────
+
+Шаг 1: Прочитай README
+
+  Все файлы → COMBINED/mcp-servers/gitnexus/
+
+──────────────────────────────────────────────────────────
+РЕПО 25: Tools/lightpanda/
+──────────────────────────────────────────────────────────
+
+Шаг 1: Прочитай README (браузер для ИИ, 9x быстрее Chrome)
+
+  README.md и конфиги → COMBINED/mcp-servers/lightpanda/
+  (исходный код не копируй — только docs и configs)
+
+──────────────────────────────────────────────────────────
+РЕПО 26: Tools/openviking/
+──────────────────────────────────────────────────────────
+
+Шаг 1: Прочитай README
+
+  Конфиги → COMBINED/mcp-servers/openviking/
+  Интеграционные файлы → COMBINED/memory/configs/openviking-[имя]
+
+──────────────────────────────────────────────────────────
+РЕПО 27: Tools/nano-banana-mcp/
+──────────────────────────────────────────────────────────
+
+  Все файлы → COMBINED/mcp-servers/nano-banana/ (как есть)
+
+──────────────────────────────────────────────────────────
+РЕПО 28: Tools/pretext/
+──────────────────────────────────────────────────────────
+
+  README и конфиги → COMBINED/mcp-servers/pretext/
+
+──────────────────────────────────────────────────────────
+РЕПО 29: Reference/awesome-selfhosted/
+──────────────────────────────────────────────────────────
+
+  README.md → COMBINED/prompts/templates/awesome-selfhosted.md
+  Другие файлы → COMBINED/prompts/templates/selfhosted/
+
+──────────────────────────────────────────────────────────
+РЕПО 30: UI-UX/ui-ux-pro-max/
+──────────────────────────────────────────────────────────
+
+Шаг 1: Прочитай README
+
+  161 rules файл(ы) → COMBINED/ui-design/rules/ui-ux-pro-max-rules/
+  67 styles файл(ы) → COMBINED/ui-design/styles/ui-ux-pro-max-styles/
+  Другие файлы → COMBINED/ui-design/rules/
+
+──────────────────────────────────────────────────────────
+РЕПО 31: UI-UX/galaxy/ + UI-UX/shadcn/
+──────────────────────────────────────────────────────────
+
+Шаг 1: Прочитай README каждого
+
+  UI-UX/galaxy/ компоненты:
+  → Прочитай структуру, определи типы компонентов
+  → COMBINED/ui-design/components/buttons/ (если кнопки)
+  → COMBINED/ui-design/components/cards/ (если карточки)
+  → COMBINED/ui-design/components/[тип]/ (для каждого типа)
+
+  UI-UX/shadcn/:
+  → COMBINED/ui-design/components/shadcn/ (все компоненты)
+
+  Root .cursorrules файл:
+  → COMBINED/ui-design/cursor-rules/root-cursorrules.md
+
+  Root .cursor/rules/ (все файлы):
+  → COMBINED/ui-design/cursor-rules/[имя как есть]
+
+  Root .antigravity/ (все файлы):
+  → COMBINED/skills/development/antigravity-root/
+
+═══════════════════════════════════════════════════════════
+ЭТАП 2 — СЛИЯНИЕ ДУБЛИКАТОВ ПО РОЛЯМ
+═══════════════════════════════════════════════════════════
+
+После того как скопировал ВСЕ репо, делай следующее:
+
+Зайди в COMBINED/agents/by-role/debugger/
+Ты увидишь файлы из разных репо:
+  - gsd-debugger.md
+  - superpowers-debugger.md (если есть)
+  - ruflo-debugger.md (если есть)
+  - [другие дебаггеры]
+
+Для каждой роли где 2+ файла:
+
+1. Прочитай каждый файл внутри папки роли
+2. Найди уникальное в каждом (что есть только там)
+3. Найди общее (что повторяется)
+4. Создай MEGA файл роли:
+
+   COMBINED/agents/by-role/debugger/MEGA-debugger.md
+
+   Формат MEGA файла:
+   ─────────────────────────────────
+   # MEGA DEBUGGER AGENT
+   # Объединение из [N] репозиториев
+   # Используй это как системный промпт для агента-дебаггера
+
+   ## Роль и идентичность
+   [Лучшее описание роли из всех источников, объединённое]
+   Например: "Ты senior expert debugger и гений анализа ошибок..."
+
+   ## Основные инструкции
+   [Уникальные инструкции из каждого источника, объединённые]
+
+   ## Процесс работы
+   [Лучший процесс из всех источников]
+
+   ## Правила и ограничения
+   [Все правила из всех источников]
+
+   ## Источники
+   - gsd-debugger.md (get-shit-done)
+   - superpowers-debugger.md (superpowers)
+   ─────────────────────────────────
+
+5. Оригинальные файлы оставляй — не удаляй
+
+Повтори для КАЖДОЙ роли: tester, planner, seo, designer,
+researcher, reviewer, executor, security, roadmapper, advisor
+
+Повтори для COMBINED/skills/ — каждая категория:
+  development, design, seo, security, data-analysis,
+  research, devops, memory, writing
+
+Повтори для COMBINED/hooks/ — каждый тип хука
+Повтори для COMBINED/commands/ — каждый тип команды
+
+═══════════════════════════════════════════════════════════
+ЭТАП 3 — АУДИТ И INDEX.md
+═══════════════════════════════════════════════════════════
+
+После Этапа 2, обнови INDEX.md:
+
+1. Пройди по КАЖДОМУ оригинальному репо
+2. Проверь каждый файл оригинала — он в INDEX.md?
+3. Если нет → добавь статус ❌ пропущено
+4. Если да → статус ✅
+
+Финальный INDEX.md должен содержать КАЖДЫЙ файл из 31 репо.
+
+═══════════════════════════════════════════════════════════
+НАПОМИНАНИЕ — ПРАВИЛА ФОРМАТОВ ФАЙЛОВ
+═══════════════════════════════════════════════════════════
+
+.py   → остаётся .py   (Python скрипты)
+.yaml → остаётся .yaml (конфиги, workflows)
+.yml  → остаётся .yml  (GitHub Actions)
+.json → остаётся .json (плагины, маркетплейс)
+.md   → остаётся .md   (документация, агенты, скиллы)
+.sh   → остаётся .sh   (bash скрипты)
+.ts   → остаётся .ts   (TypeScript)
+.js   → остаётся .js   (JavaScript)
+.toml → остаётся .toml (конфиги)
+.csv  → остаётся .csv  (данные)
+.txt  → остаётся .txt  (текст)
+
+НИКОГДА не конвертируй один формат в другой.
+
 ═══════════════════════════════════════════════════════════
 MISSION BRIEFING FOR AI AGENT
 ═══════════════════════════════════════════════════════════
