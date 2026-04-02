@@ -1,0 +1,66 @@
+{
+  "phase": "1.3",
+  "category": "Orchestration",
+  "date": "2026-04-02",
+  "total_repos": 7,
+  "total_files": 2548,
+  "total_directories": 214,
+  "repositories": {
+    "1code": {
+      "path": "Orchestration/1code",
+      "type": "Desktop Application",
+      "description": "Desktop app for AI agent orchestration"
+    },
+    "deer-flow": {
+      "path": "Orchestration/deer-flow",
+      "type": "ByteDance Super-Agent",
+      "description": "Full-stack agent harness with LangGraph + FastAPI",
+      "key_features": ["Backend (Python 3.12)", "Frontend (Next.js 16)", "Memory system", "MCP integration"]
+    },
+    "get-shit-done": {
+      "path": "Orchestration/get-shit-done",
+      "type": "GSD Meta-Prompting System",
+      "description": "18 agents, 57 commands, context engineering",
+      "agents": 18,
+      "commands": 57,
+      "hooks": 5
+    },
+    "oh-my-claudecode": {
+      "path": "Orchestration/oh-my-claudecode",
+      "type": "OMC Multi-Agent Orchestration",
+      "description": "Multi-agent orchestration layer for Claude Code",
+      "agents": "20+",
+      "features": ["Team mode", "Agent catalog", "Pipeline stages"]
+    },
+    "ruflo": {
+      "path": "Orchestration/ruflo",
+      "type": "RuFlo v3.5 Enterprise",
+      "description": "Enterprise AI orchestration framework",
+      "agents": "100+",
+      "skills": "130+",
+      "hooks": 27,
+      "features": ["Self-learning", "Fault-tolerant consensus", "Multiple topologies"]
+    },
+    "superpowers": {
+      "path": "Orchestration/superpowers",
+      "type": "Superpowers Workflow",
+      "stars": "129k+",
+      "description": "Complete software development workflow",
+      "skills": 14,
+      "commands": 3,
+      "hooks": 4,
+      "features": ["TDD workflow", "Git worktrees", "Subagent-driven dev"]
+    },
+    "vibe-kanban": {
+      "path": "Orchestration/vibe-kanban",
+      "type": "Kanban for Agents",
+      "description": "Task management for AI agents"
+    }
+  },
+  "analysis": {
+    "largest": "ruflo (100+ agents, 130+ skills)",
+    "most_popular": "superpowers (129k+ stars)",
+    "most_comprehensive": "deer-flow (full-stack platform)",
+    "most_commands": "get-shit-done (57 commands)"
+  }
+}

@@ -1,0 +1,78 @@
+{
+  "phase": "1.5",
+  "categories": ["Prompts", "Tools", "UI-UX", "Reference"],
+  "date": "2026-04-02",
+  "total_files": 463,
+  "total_directories": 187,
+  "Prompts": {
+    "total_repos": 4,
+    "repos": {
+      "prompts.chat": {
+        "stars": "143k+",
+        "description": "Massive prompt library"
+      },
+      "system-prompts-and-models-of-ai-tools": {
+        "description": "System prompts collection"
+      },
+      "system_prompts_leaks": {
+        "description": "Leaked system prompts"
+      },
+      "vibe-coding-prompt-template": {
+        "description": "Vibe Coding templates"
+      }
+    }
+  },
+  "Tools": {
+    "total_repos": 7,
+    "repos": {
+      "GitNexus": {
+        "description": "Codebase knowledge graph"
+      },
+      "OpenViking": {
+        "description": "ByteDance context database"
+      },
+      "browser": {
+        "description": "Lightpanda browser (9x faster)"
+      },
+      "claude-mem": {
+        "description": "Persistent memory compression"
+      },
+      "nano-banana-2-mcp": {
+        "description": "Gemini image MCP"
+      },
+      "pretext": {
+        "description": "Text layout"
+      },
+      "supermemory": {
+        "description": "#1 benchmark memory engine"
+      }
+    },
+    "categories": {
+      "memory_systems": ["claude-mem", "supermemory", "OpenViking"],
+      "mcp_servers": ["GitNexus", "nano-banana-2-mcp"],
+      "browsers": ["browser"]
+    }
+  },
+  "UI-UX": {
+    "total_repos": 3,
+    "repos": {
+      "galaxy": {
+        "description": "3,000+ Uiverse components"
+      },
+      "ui": {
+        "description": "shadcn/ui React components"
+      },
+      "ui-ux-pro-max-skill": {
+        "description": "161 rules + 67 styles"
+      }
+    }
+  },
+  "Reference": {
+    "total_repos": 1,
+    "repos": {
+      "awesome-selfhosted-master": {
+        "description": "Self-hosted tools catalog"
+      }
+    }
+  }
+}
