@@ -1,0 +1,1 @@
+Check these folders: github_FOLDER_TO_COPY, claude-plugin_FOLDER_TO_COPY, TEST_VISIBLE. All flags have been removed. If you still don't see them, restart Finder (Option + Right Click on Finder icon -> Relaunch).

@@ -1,5 +1,0 @@
-# pack-refs with: peeled fully-peeled sorted 
-165adde150ec029ed82582f854679f68e560c097 refs/remotes/origin/codex/rich-note-demo
-505f670bf50900bd2dcf4715cf93113439dc914f refs/remotes/origin/codex/selection-repros
-d178a8440d19dced82fde0d8a601a691b65eed2b refs/remotes/origin/main
-8e305a7e856677f44361499e62b36cd06cfb0ec8 refs/remotes/origin/preserve-whitespace

@@ -1,8 +1,0 @@
-<!DOCTYPE html>
-<script>
-  window.addEventListener('message', (e) => {
-    if (e.data === 'ping') {
-      window.top.postMessage({data: 'pong', origin: e.origin}, '*');
-    }
-  });
-</script>
