@@ -1,5 +1,91 @@
 {
   "phase": "1.2",
+  "category": "Agents",
+  "date": "2026-04-02",
+  "total_repos": 3,
+  "total_files": 875,
+  "total_directories": 148,
+  "repositories": {
+    "shannon": {
+      "path": "Agents/shannon",
+      "type": "AI Security Pentester",
+      "description": "Claude-powered security testing agent",
+      "key_features": [
+        "Security vulnerability detection",
+        "Penetration testing automation",
+        "Code security review"
+      ],
+      "file_types": {
+        "markdown": 3,
+        "typescript": "~50",
+        "yaml": "~5"
+      },
+      "target_combined": "COMBINED/agents/by-role/security/shannon/"
+    },
+    "background-agents": {
+      "path": "Agents/background-agents",
+      "type": "Background Coding Agent Platform (Open-Inspect)",
+      "description": "Three-tier background agent system with sandboxed dev environments",
+      "key_features": [
+        "Web Client (Next.js)",
+        "Control Plane (Cloudflare Workers + Durable Objects)",
+        "Data Plane (Modal, Python)",
+        "GitHub/Slack/Linear bot integrations"
+      ],
+      "file_types": {
+        "markdown": 1,
+        "typescript": "~200",
+        "python": "~50"
+      },
+      "target_combined": "COMBINED/orchestration/background-agents/"
+    },
+    "hermes-agent": {
+      "path": "Agents/hermes-agent",
+      "type": "Self-Learning Autonomous AI Agent",
+      "stars": "21000+",
+      "description": "Advanced agent with skills, environments, and MCP integration",
+      "key_features": [
+        "12+ optional skill categories",
+        "Multiple environment adapters",
+        "MCP server integration",
+        "Telegram/WhatsApp bridge",
+        "Voice mode support"
+      ],
+      "file_types": {
+        "markdown": "~30",
+        "python": "~600",
+        "yaml": "~20"
+      },
+      "skills_categories": [
+        "autonomous-ai-agents",
+        "blockchain",
+        "communication",
+        "creative",
+        "devops",
+        "email",
+        "health",
+        "mcp",
+        "migration",
+        "productivity",
+        "research",
+        "security"
+      ],
+      "target_combined": "COMBINED/agents/by-platform/hermes/"
+    }
+  },
+  "analysis": {
+    "key_insights": [
+      "Shannon is specialized for security pentesting",
+      "Background-agents is an orchestration platform, not a single agent",
+      "Hermes is the most comprehensive with 12 skill categories and extensive tooling"
+    ],
+    "recommended_structure": {
+      "security": ["shannon"],
+      "orchestration": ["background-agents"],
+      "general_purpose": ["hermes-agent"]
+    }
+  }
+}
   "date": "2026-04-02",
   "duration_minutes": 60,
   "category": "Agents",
