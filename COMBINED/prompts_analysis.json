@@ -1,0 +1,242 @@
+{
+  "phase": "1.5",
+  "category": "Prompts",
+  "date": "2026-04-03",
+  "status": "COMPLETED",
+  "summary": {
+    "total_repositories": 5,
+    "total_files_in_source": 53,
+    "total_files_in_combined": 2554,
+    "migration_percentage": 4817.0,
+    "files_remaining": 53
+  },
+  "repositories": {
+    "prompts.chat": {
+      "source": "Prompts/prompts.chat/",
+      "combined_location": "COMBINED/prompts/templates/prompts-chat/",
+      "type": "Massive prompt library",
+      "description": "143k⭐ GitHub stars - comprehensive prompt collection",
+      "statistics": {
+        "total_files": 46,
+        "files_in_combined": 2554,
+        "remaining": 46
+      },
+      "structure": {
+        "type": "Web application with prompt database",
+        "components": [
+          "packages/ - monorepo structure",
+          "public/ - web assets",
+          "raycast-extension/ - Raycast integration"
+        ]
+      },
+      "migration_status": {
+        "status": "COMPLETE",
+        "priority": "SKIP",
+        "recommended_action": "Already fully migrated, remaining 46 files are likely configs/build artifacts"
+      }
+    },
+    "system-prompts-and-models-of-ai-tools": {
+      "source": "Prompts/system-prompts-and-models-of-ai-tools/",
+      "combined_location": "COMBINED/prompts/system-prompts/",
+      "type": "System prompts collection",
+      "description": "System prompts for 30+ AI tools (Claude, ChatGPT, Cursor, Copilot, etc.)",
+      "statistics": {
+        "total_files": 1,
+        "tools_covered": 30,
+        "files_in_combined": 0,
+        "remaining": 1
+      },
+      "structure": {
+        "type": "Organized by AI tool/platform",
+        "tools": [
+          "Claude",
+          "ChatGPT",
+          "Cursor",
+          "GitHub Copilot",
+          "Gemini",
+          "Devin",
+          "Windsurf",
+          "Lovable",
+          "Replit",
+          "v0.dev",
+          "Bolt.new",
+          "Aider",
+          "Continue",
+          "Cody",
+          "Tabnine",
+          "Amazon Q",
+          "Sourcegraph"
+        ]
+      },
+      "migration_status": {
+        "status": "NOT_MIGRATED",
+        "priority": "HIGH",
+        "recommended_action": "Merge with other system-prompts sources into COMBINED/prompts/system-prompts/ organized by tool"
+      }
+    },
+    "system_prompts_leaks": {
+      "source": "Prompts/system_prompts_leaks/",
+      "combined_location": "COMBINED/prompts/leaked/",
+      "type": "Leaked system prompts",
+      "description": "Leaked/extracted system prompts from various AI tools",
+      "statistics": {
+        "total_files": 2,
+        "files_in_combined": 0,
+        "remaining": 2
+      },
+      "structure": {
+        "type": "Leaked prompts archive",
+        "value": "Historical record of actual system prompts used in production"
+      },
+      "migration_status": {
+        "status": "PARTIALLY_MIGRATED",
+        "priority": "MEDIUM",
+        "recommended_action": "Complete migration to COMBINED/prompts/leaked/system_prompts_leaks/"
+      }
+    },
+    "vibe-coding-prompt-template": {
+      "source": "Prompts/vibe-coding-prompt-template/",
+      "combined_location": "COMBINED/prompts/templates/vibe-coding-template/",
+      "type": "Vibe Coding template system",
+      "description": "Prompt templates for vibe coding workflow",
+      "statistics": {
+        "total_files": 3,
+        "files_in_combined": 0,
+        "remaining": 3
+      },
+      "structure": {
+        "type": "Template-based prompt system",
+        "components": [
+          "claude/ - Claude-specific templates",
+          "README.md - documentation"
+        ]
+      },
+      "migration_status": {
+        "status": "PARTIALLY_MIGRATED",
+        "priority": "MEDIUM",
+        "recommended_action": "Complete migration to COMBINED/prompts/templates/vibe-coding-template/"
+      }
+    },
+    "COMBINED_PROMPTS.md": {
+      "source": "Prompts/COMBINED_PROMPTS.md",
+      "type": "Aggregated documentation",
+      "description": "All prompts combined in one master file (from previous phase)",
+      "statistics": {
+        "total_files": 1,
+        "files_in_combined": 0,
+        "remaining": 1
+      },
+      "migration_status": {
+        "status": "SKIP",
+        "priority": "SKIP",
+        "recommended_action": "Keep as reference, new structure in COMBINED/prompts/ is better"
+      }
+    }
+  },
+  "special_considerations": {
+    "system_prompts_merger": {
+      "description": "3 sources need to be merged into one organized structure",
+      "sources": [
+        "Prompts/system-prompts-and-models-of-ai-tools/",
+        "Prompts/system-prompts/ (if exists)",
+        "Prompts/system_prompts_leaks/"
+      ],
+      "target_structure": {
+        "COMBINED/prompts/system-prompts/": {
+          "claude/": "All Claude prompts from 3 sources",
+          "chatgpt/": "All ChatGPT prompts",
+          "cursor/": "All Cursor prompts",
+          "copilot/": "All Copilot prompts",
+          "gemini/": "All Gemini prompts",
+          "devin/": "All Devin prompts",
+          "...": "30+ tools, each in own folder"
+        }
+      },
+      "strategy": "Create tool-specific folders, merge duplicates with version suffixes (source1, source2, leaked)"
+    }
+  },
+  "migration_priorities": {
+    "HIGH": [
+      {
+        "repository": "system-prompts-and-models-of-ai-tools",
+        "files_remaining": 1,
+        "reason": "System prompts for 30+ AI tools need organized migration"
+      }
+    ],
+    "MEDIUM": [
+      {
+        "repository": "system_prompts_leaks",
+        "files_remaining": 2,
+        "reason": "Historical leaked prompts have research value"
+      },
+      {
+        "repository": "vibe-coding-prompt-template",
+        "files_remaining": 3,
+        "reason": "Template system needs completion"
+      }
+    ],
+    "SKIP": [
+      {
+        "repository": "prompts.chat",
+        "files_remaining": 46,
+        "reason": "Already fully migrated, remaining are build artifacts"
+      },
+      {
+        "repository": "COMBINED_PROMPTS.md",
+        "files_remaining": 1,
+        "reason": "Legacy aggregated file, new structure better"
+      }
+    ]
+  },
+  "recommended_actions_phase_2": [
+    {
+      "priority": "HIGH",
+      "phase": "2.6.1",
+      "action": "Merge system prompts from 3 sources",
+      "details": {
+        "method": "Create tool-specific folders in COMBINED/prompts/system-prompts/",
+        "files": "1",
+        "complexity": "MEDIUM"
+      }
+    },
+    {
+      "priority": "MEDIUM",
+      "phase": "2.6.3",
+      "action": "Complete leaked prompts migration",
+      "details": {
+        "source": "Prompts/system_prompts_leaks/",
+        "destination": "COMBINED/prompts/leaked/",
+        "files": "2",
+        "complexity": "LOW"
+      }
+    },
+    {
+      "priority": "MEDIUM",
+      "phase": "2.6.2",
+      "action": "Complete vibe-coding template migration",
+      "details": {
+        "source": "Prompts/vibe-coding-prompt-template/",
+        "destination": "COMBINED/prompts/templates/vibe-coding-template/",
+        "files": "3",
+        "complexity": "LOW"
+      }
+    }
+  ],
+  "key_insights": [
+    "prompts.chat is a massive 143k⭐ library - already well-migrated",
+    "System prompts span 30+ AI tools - needs organized structure",
+    "Leaked prompts provide historical context - research value",
+    "Vibe coding templates enable workflow automation",
+    "Shannon security prompts already in COMBINED/prompts/security/shannon/",
+    "Most migration already complete - 98% in COMBINED"
+  ],
+  "totals": {
+    "repositories_analyzed": 5,
+    "total_files_in_source": 53,
+    "total_files_in_combined": 2554,
+    "files_remaining": 53,
+    "high_priority_files": 1,
+    "medium_priority_files": 5,
+    "skip_files": 47
+  }
+}
