@@ -166,6 +166,7 @@ ls -1 Skills/antigravity-awesome-skills/skills/
 ```
 
 **Результат:** Файл `COMBINED/skills_analysis.json` с полной картой
+**Статус выполнения:** ✅ Завершено — см. `COMBINED/PHASE_1.4_COMPLETE.md` и `COMBINED/skills_analysis.json` (структура по 7 репозиториям + приоритеты миграции)
 
 ---
 
@@ -207,6 +208,7 @@ find UI-UX/ui/ -name "*.tsx" -o -name "*.jsx" | wc -l
 ```
 
 **Результат:** Файлы `COMBINED/prompts_analysis.json`, `COMBINED/tools_analysis.json`, `COMBINED/ui_analysis.json`
+**Статус выполнения:** ✅ Завершено — см. `COMBINED/PHASE_1.5_COMPLETE.md` и соответствующие *_analysis.json (17 репозиториев, приоритеты миграции по Prompts/Tools/UI-UX/Reference)
 
 ---
 
