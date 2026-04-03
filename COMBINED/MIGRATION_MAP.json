@@ -1,0 +1,427 @@
+{
+  "phase": "1.6",
+  "date": "2026-04-03",
+  "description": "Source to COMBINED mapping derived from COMBINED/READ.ME.md (Section 3) and phase analyses; to be executed in Phase 2 (MOVE, not copy).",
+  "mappings": [
+    {
+      "category": "agents",
+      "source": "Agents/shannon/claude/",
+      "target": "COMBINED/agents/by-interface/claude/shannon/",
+      "priority": "HIGH",
+      "notes": "Security agents and commands; distribute prompts to COMBINED/prompts/security/shannon/"
+    },
+    {
+      "category": "agents",
+      "source": "Agents/background-agents/AGENTS.md",
+      "target": "COMBINED/agents/orchestrators/background-agents/",
+      "priority": "HIGH"
+    },
+    {
+      "category": "agents",
+      "source": "Agents/hermes-agent/AGENTS.md",
+      "target": "COMBINED/agents/orchestrators/hermes/",
+      "priority": "HIGH"
+    },
+    {
+      "category": "agents",
+      "source": "Orchestration/superpowers/agents/",
+      "target": "COMBINED/agents/by-role/reviewer/",
+      "priority": "HIGH"
+    },
+    {
+      "category": "agents",
+      "source": "Orchestration/get-shit-done/agents/",
+      "target": "COMBINED/agents/by-role/[role-based]/",
+      "priority": "HIGH",
+      "notes": "Distribute by role (debugger, planner, reviewer, coder, tester, etc.)"
+    },
+    {
+      "category": "agents",
+      "source": "Orchestration/ruflo/agents/",
+      "target": "COMBINED/agents/by-role/[role-based]/",
+      "priority": "HIGH",
+      "notes": "Also place interface-specific configs in COMBINED/agents/by-interface/claude/ruflo/"
+    },
+    {
+      "category": "agents",
+      "source": "Orchestration/oh-my-claudecode/agents/",
+      "target": "COMBINED/orchestration/oh-my-claudecode/agents/",
+      "priority": "MEDIUM"
+    },
+    {
+      "category": "agents",
+      "source": "Skills/claude-skills/agents/",
+      "target": "COMBINED/agents/by-role/[role-based]/",
+      "priority": "MEDIUM"
+    },
+    {
+      "category": "agents",
+      "source": "Skills/awesome-copilot-main/_github/agents/",
+      "target": "COMBINED/agents/by-interface/copilot/awesome-copilot/",
+      "priority": "LOW"
+    },
+    {
+      "category": "agents",
+      "source": "Skills/antigravity-awesome-skills/_agents/",
+      "target": "COMBINED/agents/by-interface/antigravity/",
+      "priority": "HIGH"
+    },
+    {
+      "category": "orchestration",
+      "source": "Orchestration/ruflo/",
+      "target": "COMBINED/orchestration/ruflo/",
+      "priority": "MEDIUM"
+    },
+    {
+      "category": "orchestration",
+      "source": "Orchestration/oh-my-claudecode/",
+      "target": "COMBINED/orchestration/oh-my-claudecode/",
+      "priority": "MEDIUM"
+    },
+    {
+      "category": "orchestration",
+      "source": "Orchestration/get-shit-done/",
+      "target": "COMBINED/orchestration/get-shit-done/",
+      "priority": "MEDIUM"
+    },
+    {
+      "category": "orchestration",
+      "source": "Orchestration/superpowers/",
+      "target": "COMBINED/orchestration/superpowers/",
+      "priority": "LOW"
+    },
+    {
+      "category": "orchestration",
+      "source": "Orchestration/deer-flow/",
+      "target": "COMBINED/orchestration/deer-flow/",
+      "priority": "LOW"
+    },
+    {
+      "category": "orchestration",
+      "source": "Orchestration/1code/",
+      "target": "COMBINED/orchestration/1code/",
+      "priority": "LOW"
+    },
+    {
+      "category": "orchestration",
+      "source": "Orchestration/vibe-kanban/",
+      "target": "COMBINED/orchestration/vibe-kanban/",
+      "priority": "LOW"
+    },
+    {
+      "category": "orchestration",
+      "source": "Agents/background-agents/terraform/",
+      "target": "COMBINED/orchestration/workflows/terraform/",
+      "priority": "LOW"
+    },
+    {
+      "category": "skills",
+      "source": "Skills/antigravity-awesome-skills/skills/",
+      "target": "COMBINED/skills/development/antigravity/",
+      "priority": "HIGH"
+    },
+    {
+      "category": "skills",
+      "source": "Skills/claude-skills/engineering*/",
+      "target": "COMBINED/skills/development/claude-skills/",
+      "priority": "MEDIUM"
+    },
+    {
+      "category": "skills",
+      "source": "Skills/claude-skills/marketing-skill/",
+      "target": "COMBINED/skills/seo/claude-skills-marketing/",
+      "priority": "MEDIUM"
+    },
+    {
+      "category": "skills",
+      "source": "Skills/claude-skills/finance/",
+      "target": "COMBINED/skills/data-analysis/claude-skills-finance/",
+      "priority": "MEDIUM"
+    },
+    {
+      "category": "skills",
+      "source": "Skills/claude-skills/business-growth/",
+      "target": "COMBINED/skills/business/claude-skills-growth/",
+      "priority": "MEDIUM"
+    },
+    {
+      "category": "skills",
+      "source": "Skills/superpowers/skills/",
+      "target": "COMBINED/skills/development/superpowers/",
+      "priority": "LOW"
+    },
+    {
+      "category": "skills",
+      "source": "Skills/deer-flow/skills/public/",
+      "target": "COMBINED/skills/[category-based]/",
+      "priority": "LOW",
+      "notes": "Distribute per COMBINED/READ.ME.md Section 4.2 (e.g., bootstrap→development, chart-visualization→data-analysis, deep-research→research, frontend-design→design/ui-design, etc.)"
+    },
+    {
+      "category": "skills",
+      "source": "Skills/hermes-agent/skills/",
+      "target": "COMBINED/skills/development/hermes/builtin/",
+      "priority": "LOW"
+    },
+    {
+      "category": "skills",
+      "source": "Skills/hermes-agent/optional-skills/",
+      "target": "COMBINED/skills/development/hermes/optional/",
+      "priority": "LOW"
+    },
+    {
+      "category": "skills",
+      "source": "Skills/awesome-copilot-main/skills/",
+      "target": "COMBINED/skills/development/awesome-copilot/",
+      "priority": "LOW"
+    },
+    {
+      "category": "skills",
+      "source": "Skills/awesome-claude-code/",
+      "target": "COMBINED/skills/development/awesome-claude-code/",
+      "priority": "LOW"
+    },
+    {
+      "category": "skills",
+      "source": "Skills/everything-claude-code/",
+      "target": "COMBINED/skills/development/everything-claude-code/",
+      "priority": "LOW"
+    },
+    {
+      "category": "skills",
+      "source": "Skills/claude-seo/",
+      "target": "COMBINED/skills/seo/claude-seo/",
+      "priority": "LOW"
+    },
+    {
+      "category": "skills",
+      "source": "Skills/obsidian-skills/",
+      "target": "COMBINED/skills/platform/obsidian/",
+      "priority": "LOW"
+    },
+    {
+      "category": "commands",
+      "source": "Agents/shannon/claude/commands/",
+      "target": "COMBINED/commands/[by-type]/",
+      "priority": "MEDIUM"
+    },
+    {
+      "category": "commands",
+      "source": "Orchestration/superpowers/commands/",
+      "target": "COMBINED/commands/plan/",
+      "priority": "MEDIUM"
+    },
+    {
+      "category": "commands",
+      "source": "Orchestration/get-shit-done/commands/gsd/",
+      "target": "COMBINED/commands/general/gsd/",
+      "priority": "MEDIUM"
+    },
+    {
+      "category": "commands",
+      "source": "Skills/claude-skills/commands/",
+      "target": "COMBINED/commands/general/",
+      "priority": "MEDIUM"
+    },
+    {
+      "category": "hooks",
+      "source": "Orchestration/superpowers/hooks/",
+      "target": "COMBINED/hooks/notification/superpowers/",
+      "priority": "MEDIUM"
+    },
+    {
+      "category": "hooks",
+      "source": "Orchestration/get-shit-done/hooks/",
+      "target": "COMBINED/hooks/notification/gsd/",
+      "priority": "MEDIUM"
+    },
+    {
+      "category": "hooks",
+      "source": "Orchestration/ruflo/githooks/",
+      "target": "COMBINED/hooks/pre-commit/ruflo/",
+      "priority": "LOW"
+    },
+    {
+      "category": "hooks",
+      "source": "Agents/background-agents/_husky/",
+      "target": "COMBINED/hooks/pre-commit/background-agents/",
+      "priority": "LOW"
+    },
+    {
+      "category": "prompts",
+      "source": "Agents/shannon/apps/worker/prompts/",
+      "target": "COMBINED/prompts/security/shannon/",
+      "priority": "MEDIUM"
+    },
+    {
+      "category": "prompts",
+      "source": "Prompts/prompts.chat/",
+      "target": "COMBINED/prompts/templates/prompts-chat/",
+      "priority": "SKIP",
+      "notes": "Already migrated; remaining files are build artifacts"
+    },
+    {
+      "category": "prompts",
+      "source": "Prompts/system-prompts-and-models-of-ai-tools/",
+      "target": "COMBINED/prompts/system-prompts/",
+      "priority": "HIGH",
+      "notes": "Merge with other system-prompts sources by tool"
+    },
+    {
+      "category": "prompts",
+      "source": "Prompts/system-prompts/",
+      "target": "COMBINED/prompts/system-prompts/",
+      "priority": "HIGH"
+    },
+    {
+      "category": "prompts",
+      "source": "Prompts/system_prompts_leaks/",
+      "target": "COMBINED/prompts/leaked/",
+      "priority": "MEDIUM"
+    },
+    {
+      "category": "prompts",
+      "source": "Prompts/optimization/",
+      "target": "COMBINED/prompts/templates/optimization/",
+      "priority": "LOW"
+    },
+    {
+      "category": "prompts",
+      "source": "Prompts/vibe-coding/",
+      "target": "COMBINED/prompts/templates/vibe-coding/",
+      "priority": "LOW"
+    },
+    {
+      "category": "prompts",
+      "source": "Prompts/vibe-coding-prompt-template/",
+      "target": "COMBINED/prompts/templates/vibe-coding-template/",
+      "priority": "MEDIUM"
+    },
+    {
+      "category": "prompts",
+      "source": "Skills/claude-skills/templates/",
+      "target": "COMBINED/prompts/templates/claude-skills-templates/",
+      "priority": "LOW"
+    },
+    {
+      "category": "memory",
+      "source": "Tools/claude-mem/",
+      "target": "COMBINED/memory/claude-mem/",
+      "priority": "SKIP"
+    },
+    {
+      "category": "memory",
+      "source": "Tools/supermemory/",
+      "target": "COMBINED/memory/supermemory/",
+      "priority": "LOW"
+    },
+    {
+      "category": "memory",
+      "source": "Tools/OpenViking/",
+      "target": "COMBINED/memory/openviking/",
+      "priority": "LOW"
+    },
+    {
+      "category": "memory",
+      "source": "MEMORY_SETUP.md",
+      "target": "COMBINED/memory/configs/",
+      "priority": "LOW"
+    },
+    {
+      "category": "mcp-servers",
+      "source": "Tools/GitNexus/",
+      "target": "COMBINED/mcp-servers/gitnexus/",
+      "priority": "SKIP"
+    },
+    {
+      "category": "mcp-servers",
+      "source": "Tools/browser/",
+      "target": "COMBINED/mcp-servers/lightpanda/",
+      "priority": "MEDIUM"
+    },
+    {
+      "category": "mcp-servers",
+      "source": "Tools/nano-banana-2-mcp/",
+      "target": "COMBINED/mcp-servers/nano-banana/",
+      "priority": "LOW"
+    },
+    {
+      "category": "mcp-servers",
+      "source": "Tools/pretext/",
+      "target": "COMBINED/mcp-servers/pretext/",
+      "priority": "LOW"
+    },
+    {
+      "category": "mcp-servers",
+      "source": "Agents/hermes-agent/mcp_serve.py",
+      "target": "COMBINED/mcp-servers/hermes/",
+      "priority": "LOW"
+    },
+    {
+      "category": "mcp-servers",
+      "source": "Orchestration/superpowers/claude-plugin/",
+      "target": "COMBINED/mcp-servers/configs/superpowers-plugin/",
+      "priority": "LOW"
+    },
+    {
+      "category": "mcp-servers",
+      "source": "Orchestration/ruflo/claude-plugin/",
+      "target": "COMBINED/mcp-servers/configs/ruflo-plugin/",
+      "priority": "LOW"
+    },
+    {
+      "category": "mcp-servers",
+      "source": "Skills/antigravity-awesome-skills/_claude-plugin/",
+      "target": "COMBINED/mcp-servers/configs/antigravity-plugin/",
+      "priority": "LOW"
+    },
+    {
+      "category": "security",
+      "source": "Agents/shannon/",
+      "target": "COMBINED/security/shannon/",
+      "priority": "MEDIUM"
+    },
+    {
+      "category": "security",
+      "source": "Agents/shannon/sample-reports/",
+      "target": "COMBINED/security/reports/shannon-samples/",
+      "priority": "LOW"
+    },
+    {
+      "category": "ui-design",
+      "source": "UI-UX/galaxy/",
+      "target": "COMBINED/ui-design/components/galaxy/",
+      "priority": "SKIP"
+    },
+    {
+      "category": "ui-design",
+      "source": "UI-UX/ui/",
+      "target": "COMBINED/ui-design/components/shadcn/",
+      "priority": "LOW"
+    },
+    {
+      "category": "ui-design",
+      "source": "UI-UX/ui-ux-pro-max-skill/",
+      "target": "COMBINED/ui-design/rules/ui-ux-pro-max/",
+      "priority": "SKIP"
+    },
+    {
+      "category": "ui-design",
+      "source": ".cursorrules + .cursor/rules/",
+      "target": "COMBINED/ui-design/cursor-rules/",
+      "priority": "LOW"
+    },
+    {
+      "category": "reference",
+      "source": "Reference/awesome-selfhosted-master/",
+      "target": "COMBINED/reference/awesome-selfhosted/",
+      "priority": "LOW"
+    }
+  ],
+  "priority_key": {
+    "HIGH": "Execute early in Phase 2; largest gaps or critical assets",
+    "MEDIUM": "Important but can follow high items",
+    "LOW": "Execute after high/medium",
+    "SKIP": "Already migrated or build artifacts"
+  }
+}
