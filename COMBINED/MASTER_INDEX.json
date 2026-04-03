@@ -1,0 +1,1963 @@
+{
+  "phase": "1.6",
+  "date": "2026-04-03",
+  "description": "Master index combining all phase 1 analyses for migration planning",
+  "sources": [
+    "COMBINED/PHASE_1.2_COMPLETE.md",
+    "COMBINED/PHASE_1.3_COMPLETE.md",
+    "COMBINED/PHASE_1.4_COMPLETE.md",
+    "COMBINED/PHASE_1.5_COMPLETE.md",
+    "COMBINED/agents_analysis.json",
+    "COMBINED/orchestration_analysis.json",
+    "COMBINED/skills_analysis.json",
+    "COMBINED/prompts_analysis.json",
+    "COMBINED/tools_analysis.json",
+    "COMBINED/ui_analysis.json",
+    "COMBINED/reference_analysis.json"
+  ],
+  "categories": {
+    "agents": {
+      "phase": "1.2",
+      "date": "2026-04-02",
+      "duration_minutes": 60,
+      "category": "Agents",
+      "summary": "Complete analysis of all 3 agent repositories with file classification and migration mapping",
+      "repositories": {
+        "shannon": {
+          "name": "shannon",
+          "description": "AI Pentester for Web Applications and APIs by Keygraph",
+          "type": "security-testing",
+          "source_path": "Agents/shannon",
+          "combined_paths": [
+            "COMBINED/security/shannon"
+          ],
+          "file_counts": {
+            "total_remaining": 62,
+            "commands": 3,
+            "prompts": 30,
+            "configs": 29
+          },
+          "key_files": {
+            "commands": [
+              "claude/commands/debug.md",
+              "claude/commands/review.md",
+              "claude/commands/pr.md"
+            ],
+            "prompts_recon": [
+              "apps/worker/prompts/recon.txt",
+              "apps/worker/prompts/pre-recon-code.txt"
+            ],
+            "prompts_vuln": [
+              "apps/worker/prompts/vuln-auth.txt",
+              "apps/worker/prompts/vuln-ssrf.txt",
+              "apps/worker/prompts/vuln-authz.txt",
+              "apps/worker/prompts/vuln-injection.txt",
+              "apps/worker/prompts/vuln-xss.txt"
+            ],
+            "prompts_exploit": [
+              "apps/worker/prompts/exploit-auth.txt",
+              "apps/worker/prompts/exploit-xss.txt",
+              "apps/worker/prompts/exploit-ssrf.txt",
+              "apps/worker/prompts/exploit-authz.txt",
+              "apps/worker/prompts/exploit-injection.txt"
+            ]
+          },
+          "migration_needed": true,
+          "migration_targets": {
+            "commands": "Commands not yet migrated to COMBINED/commands/",
+            "prompts": "Security prompts not yet migrated to COMBINED/prompts/security/shannon/",
+            "configs": "Build/deployment configs (skip migration)"
+          }
+        },
+        "background-agents": {
+          "name": "background-agents",
+          "description": "Open-Inspect platform - sandboxed dev environments for coding agents",
+          "type": "orchestration-platform",
+          "source_path": "Agents/background-agents",
+          "combined_paths": [
+            "COMBINED/agents/orchestrators/background-agents"
+          ],
+          "file_counts": {
+            "total_remaining": 7,
+            "python_files": 7
+          },
+          "key_files": {
+            "tests": [
+              "packages/sandbox-runtime/tests/test_entrypoint_build_mode.py",
+              "packages/modal-infra/tests/test_build_sandbox.py",
+              "packages/modal-infra/tests/test_image_builder_v2.py"
+            ],
+            "components": [
+              "packages/web/src/components/automations/condition-builder.tsx"
+            ],
+            "infrastructure": [
+              "packages/modal-infra/src/scheduler/image_builder.py",
+              "terraform/d1/migrations/0010_add_image_build_enabled.sql"
+            ]
+          },
+          "migration_needed": false,
+          "migration_note": "Minimal leftovers - mostly test files and build artifacts. Main content already in COMBINED/"
+        },
+        "hermes-agent": {
+          "name": "hermes-agent",
+          "description": "Self-learning agent with 21k⭐, MCP integration, multi-platform support",
+          "type": "autonomous-agent",
+          "source_path": "Agents/hermes-agent",
+          "combined_paths": [
+            "COMBINED/agents/orchestrators/hermes",
+            "COMBINED/mcp-servers/hermes"
+          ],
+          "file_counts": {
+            "total_remaining": 792,
+            "python_files": 400,
+            "markdown_files": 50,
+            "yaml_files": 15,
+            "json_files": 10,
+            "nix_files": 6
+          },
+          "key_components": {
+            "core": [
+              "hermes_cli/",
+              "agent/",
+              "environments/",
+              "tools/"
+            ],
+            "integration": [
+              "acp_adapter/",
+              "acp_registry/",
+              "honcho_integration/",
+              "gateway/"
+            ],
+            "skills": [
+              "skills/",
+              "optional-skills/"
+            ],
+            "infrastructure": [
+              "docker/",
+              "nix/",
+              "terraform/"
+            ],
+            "documentation": [
+              "docs/",
+              "website/"
+            ],
+            "testing": [
+              "tests/"
+            ]
+          },
+          "skills_breakdown": {
+            "builtin_skills": "MLOps, evaluation, training with PyTorch Lightning",
+            "optional_skills": {
+              "mcp": [
+                "fastmcp"
+              ],
+              "blockchain": [
+                "base",
+                "solana"
+              ],
+              "communication": [
+                "one-three-one-rule"
+              ],
+              "research": [
+                "bioinformatics",
+                "scrapling",
+                "parallel-cli",
+                "qmd"
+              ],
+              "health": [
+                "neuroskill-bci"
+              ],
+              "email": [
+                "agentmail"
+              ],
+              "autonomous-ai-agents": [
+                "blackbox"
+              ],
+              "migration": [
+                "openclaw-migration"
+              ],
+              "security": [
+                "sherlock",
+                "1password",
+                "oss-forensics"
+              ],
+              "creative": [
+                "blender-mcp",
+                "meme-generation"
+              ],
+              "devops": [
+                "docker-management"
+              ],
+              "productivity": [
+                "memento-flashcards",
+                "canvas",
+                "siyuan",
+                "telephony"
+              ]
+            }
+          },
+          "migration_needed": true,
+          "migration_note": "792 files remain - mostly infrastructure (Nix, Docker, tests). Skills may need redistribution."
+        }
+      },
+      "statistics": {
+        "total_repositories": 3,
+        "total_files_remaining": 861,
+        "shannon_remaining": 62,
+        "background_agents_remaining": 7,
+        "hermes_remaining": 792,
+        "migration_priority": {
+          "HIGH": [
+            "shannon commands",
+            "shannon prompts"
+          ],
+          "MEDIUM": [
+            "hermes skills redistribution"
+          ],
+          "LOW": [
+            "infrastructure files",
+            "test files",
+            "build configs"
+          ]
+        }
+      },
+      "agents_in_combined": {
+        "by_role": {
+          "note": "Agents from orchestration systems (GSD, OMC, RuFlo, Superpowers, Claude Skills) already categorized by role in Phase 1"
+        },
+        "by_interface": {
+          "copilot": "230+ agents from awesome-copilot-main",
+          "claude": "Agents from shannon, RuFlo, Superpowers, OMC, Claude Skills",
+          "antigravity": "Agents from antigravity-awesome-skills"
+        },
+        "orchestrators": {
+          "background-agents": "Open-Inspect platform (Web, Control Plane, Data Plane)",
+          "hermes": "Self-learning agent with MCP/ACP/Gateway",
+          "oh-my-claudecode": "Multi-agent orchestration in COMBINED/orchestration/oh-my-claudecode"
+        }
+      },
+      "recommended_actions": [
+        "1. Migrate shannon/claude/commands/ (3 files) → COMBINED/commands/debug/ and COMBINED/commands/review/",
+        "2. Migrate shannon/apps/worker/prompts/ (30 files) → COMBINED/prompts/security/shannon/",
+        "3. Review hermes optional-skills (15 categories) for proper skill categorization in COMBINED/skills/",
+        "4. Skip migration of build artifacts: Dockerfile, docker-compose.yml, package.json, tsconfig.json, pnpm-lock.yaml",
+        "5. Skip migration of test files unless they contain reusable test utilities",
+        "6. Document leftover infrastructure files (Nix, Docker, Terraform) in Phase 3 leftovers report"
+      ],
+      "phase_completion": {
+        "status": "COMPLETE",
+        "next_phase": "Phase 1.3 - Analyze Orchestration/ category"
+      }
+    },
+    "orchestration": {
+      "phase": "1.3",
+      "category": "Orchestration",
+      "date": "2026-04-02",
+      "status": "completed",
+      "summary": {
+        "total_repositories": 7,
+        "total_files_in_combined": 11432,
+        "total_files_remaining_in_source": 2547,
+        "migration_status": "Phase 1 completed - 81.7% migrated",
+        "leftover_files": {
+          "superpowers": 1,
+          "get-shit-done": 2,
+          "ruflo": 40,
+          "deer-flow": 4,
+          "oh-my-claudecode": 2488,
+          "1code": 5,
+          "vibe-kanban": 7
+        }
+      },
+      "repositories": {
+        "superpowers": {
+          "source": "Orchestration/superpowers/",
+          "combined": "COMBINED/orchestration/superpowers/",
+          "type": "Complete Workflow System",
+          "stars": "129k",
+          "description": "Composable software development workflow with skills, agents, commands, hooks",
+          "files_remaining": 1,
+          "remaining_files_list": [
+            ".DS_Store"
+          ],
+          "components": {
+            "skills": "14 skills (brainstorming, git-worktrees, planning, TDD, code-review, etc.)",
+            "agents": "Multiple role-based agents already in COMBINED/agents/by-role/",
+            "commands": "3 commands (already in COMBINED/commands/)",
+            "hooks": "4 hooks (already in COMBINED/hooks/)",
+            "interfaces": "claude-plugin, cursor-plugin, codex, opencode"
+          },
+          "migration_status": "✅ COMPLETE",
+          "migration_priority": "N/A",
+          "recommended_action": "Skip .DS_Store (system file)"
+        },
+        "get-shit-done": {
+          "source": "Orchestration/get-shit-done/",
+          "combined": "COMBINED/orchestration/get-shit-done/",
+          "type": "Meta-Prompting & Context Engineering System",
+          "description": "Lightweight meta-prompting system that solves context rot",
+          "files_remaining": 2,
+          "remaining_files_list": [
+            ".DS_Store",
+            "scripts/build-hooks.js"
+          ],
+          "components": {
+            "agents": "18 agents (debugger, executor, planner, researcher, roadmapper, etc.)",
+            "commands": "57 commands (gsd:help, gsd:spec, gsd:plan, gsd:exec, etc.)",
+            "hooks": "5 hooks",
+            "core": "get-shit-done/ directory with core system"
+          },
+          "migration_status": "✅ COMPLETE",
+          "migration_priority": "N/A",
+          "recommended_action": "Skip .DS_Store, scripts/build-hooks.js is build artifact"
+        },
+        "ruflo": {
+          "source": "Orchestration/ruflo/",
+          "combined": "COMBINED/orchestration/ruflo/",
+          "type": "Enterprise AI Orchestration Framework",
+          "description": "RuFlo v3.5 - Multi-agent orchestration with self-learning capabilities",
+          "files_remaining": 40,
+          "remaining_files_list": [
+            ".DS_Store",
+            "agents/",
+            "claude/",
+            "plugin/",
+            "ruflo/",
+            "v2/",
+            "v3/"
+          ],
+          "components": {
+            "versions": "v2 (legacy), v3 (current), ruflo (core library)",
+            "agents": "100+ specialized agents with Q-Learning Router",
+            "skills": "130+ skills",
+            "hooks": "27 hooks",
+            "consensus": "Fault-tolerant (Raft/BFT/Gossip/CRDT)",
+            "security": "AIDefence integration",
+            "topologies": "mesh, hierarchical, ring, star"
+          },
+          "file_breakdown": {
+            "agents": "Skills and agent definitions",
+            "claude": "Claude-specific configs",
+            "plugin": "Plugin system",
+            "ruflo": "Core library source",
+            "v2": "Legacy v2 implementation (benchmarks, scripts, docs)",
+            "v3": "Current v3 implementation with plugins and @claude-flow"
+          },
+          "migration_status": "✅ COMPLETE",
+          "migration_priority": "LOW",
+          "recommended_action": "Remaining 40 files are mostly configs and version-specific implementations. Already migrated to COMBINED/orchestration/ruflo/ with full structure preserved."
+        },
+        "deer-flow": {
+          "source": "Orchestration/deer-flow/",
+          "combined": "COMBINED/orchestration/deer-flow/",
+          "type": "Full-Stack Super Agent Harness",
+          "description": "ByteDance DeerFlow - Backend (Python/LangGraph/FastAPI) + Frontend (Next.js 16/React 19)",
+          "files_remaining": 4,
+          "remaining_files_list": [
+            ".gitignore (root)",
+            "backend/.gitignore",
+            "frontend/.gitignore",
+            "skills/public/chart-visualization/ (1 remaining skill)"
+          ],
+          "components": {
+            "backend": "Python 3.12, LangGraph, FastAPI gateway, sandbox/tool system, memory, MCP",
+            "frontend": "Next.js 16 + React 19 + TypeScript + pnpm",
+            "skills": "15 public skills (bootstrap, data-analysis, deep-research, frontend-design, etc.)",
+            "architecture": "Lead agent + middleware chain + memory + subagent registry"
+          },
+          "runtime_requirements": {
+            "node": ">=22",
+            "pnpm": "10",
+            "python": ">=3.12",
+            "uv": "package manager",
+            "nginx": "for make dev"
+          },
+          "local_dev": "make dev → http://localhost:2026",
+          "migration_status": "✅ COMPLETE",
+          "migration_priority": "N/A",
+          "recommended_action": "Skip .gitignore files. chart-visualization skill may need verification in COMBINED/skills/"
+        },
+        "oh-my-claudecode": {
+          "source": "Orchestration/oh-my-claudecode/",
+          "combined": "COMBINED/orchestration/oh-my-claudecode/",
+          "type": "Multi-Agent Orchestration Layer",
+          "description": "OMC - Intelligent multi-agent orchestration for Claude Code with 19 specialized agents",
+          "files_remaining": 2488,
+          "remaining_files_list": [
+            "dist/ - compiled JavaScript/TypeScript (build artifacts)",
+            "benchmarks/",
+            "src/ - TypeScript source files",
+            "tests/",
+            "Various configs and scripts"
+          ],
+          "components": {
+            "agents": "19 agents (explore, analyst, planner, architect, debugger, executor, verifier, tracer, security-reviewer, code-reviewer, test-engineer, designer, writer, qa-tester, scientist, document-specialist, git-master, code-simplifier, critic)",
+            "skills": "Workflow skills (autopilot, ralph, ultrawork, team, ccg, ultraqa, etc.)",
+            "tools": "state_read/write, TeamCreate, notepad, project_memory, LSP, AST grep, python_repl",
+            "team_pipeline": "team-plan → team-prd → team-exec → team-verify → team-fix",
+            "model_routing": "haiku (quick), sonnet (standard), opus (architecture)"
+          },
+          "agents_catalog": {
+            "quick": [
+              "explore (haiku)",
+              "writer (haiku)"
+            ],
+            "standard": [
+              "debugger (sonnet)",
+              "executor (sonnet)",
+              "verifier (sonnet)",
+              "tracer (sonnet)",
+              "security-reviewer (sonnet)",
+              "test-engineer (sonnet)",
+              "designer (sonnet)",
+              "qa-tester (sonnet)",
+              "document-specialist (sonnet)",
+              "git-master (sonnet)"
+            ],
+            "advanced": [
+              "analyst (opus)",
+              "planner (opus)",
+              "architect (opus)",
+              "code-reviewer (opus)",
+              "code-simplifier (opus)",
+              "critic (opus)",
+              "scientist (sonnet)"
+            ]
+          },
+          "migration_status": "✅ MOSTLY COMPLETE",
+          "migration_priority": "LOW",
+          "recommended_action": "2488 remaining files are mostly build artifacts (dist/), tests, and source TypeScript. Core functionality already in COMBINED/. Skip dist/, keep source in COMBINED/orchestration/oh-my-claudecode/src/ for reference."
+        },
+        "1code": {
+          "source": "Orchestration/1code/",
+          "combined": "COMBINED/orchestration/1code/",
+          "type": "Desktop Application",
+          "description": "Electron-based desktop orchestration app",
+          "files_remaining": 5,
+          "remaining_files_list": [
+            ".DS_Store",
+            "electron-builder.yml",
+            "build/entitlements.mac.plist",
+            "build/icon.icns",
+            "build/icon.ico"
+          ],
+          "components": {
+            "type": "Electron desktop app",
+            "build_configs": "electron-builder.yml, macOS entitlements",
+            "assets": "App icons (icns, ico)"
+          },
+          "migration_status": "✅ COMPLETE",
+          "migration_priority": "N/A",
+          "recommended_action": "Skip .DS_Store, build configs and icons are app-specific assets (already in COMBINED/orchestration/1code/)"
+        },
+        "vibe-kanban": {
+          "source": "Orchestration/vibe-kanban/",
+          "combined": "COMBINED/orchestration/vibe-kanban/",
+          "type": "Kanban Board for Agent Management",
+          "description": "Kanban-style interface for managing AI agent workflows",
+          "files_remaining": 7,
+          "remaining_files_list": [
+            ".DS_Store",
+            "CLAUDE.md (symlink to AGENTS.md)",
+            "crates/",
+            "docs/",
+            "local-build.sh",
+            "scripts/"
+          ],
+          "components": {
+            "language": "Rust (crates/)",
+            "docs": "Documentation",
+            "scripts": "Build and deployment scripts"
+          },
+          "migration_status": "✅ COMPLETE",
+          "migration_priority": "N/A",
+          "recommended_action": "Skip .DS_Store and symlink. Crates, docs, scripts already in COMBINED/orchestration/vibe-kanban/"
+        }
+      },
+      "agents_in_combined": {
+        "source": "Phase 1 already migrated agents from orchestration systems",
+        "locations": {
+          "by_role": "COMBINED/agents/by-role/[role]/ - Contains agents from Superpowers, GSD, RuFlo, OMC",
+          "by_interface": "COMBINED/agents/by-interface/claude/ - Claude-specific agent configs",
+          "orchestrators": "COMBINED/agents/orchestrators/ - Multi-agent system orchestrators"
+        },
+        "role_categories": [
+          "architect",
+          "coder/executor",
+          "debugger",
+          "planner",
+          "reviewer/code-reviewer",
+          "security/security-reviewer",
+          "tester/test-engineer",
+          "researcher",
+          "ui-specialist/designer",
+          "writer",
+          "manager/roadmapper",
+          "scientist",
+          "devops",
+          "business"
+        ],
+        "total_agents": "100+ agents distributed across roles and interfaces"
+      },
+      "skills_in_combined": {
+        "source": "Phase 1 migrated skills from orchestration systems",
+        "location": "COMBINED/skills/",
+        "superpowers_skills": "14 skills in development/superpowers/",
+        "deer_flow_skills": "15 skills distributed by category (data-analysis, research, design, devops, etc.)"
+      },
+      "commands_in_combined": {
+        "location": "COMBINED/commands/",
+        "gsd_commands": "57 commands in commands/general/gsd/",
+        "superpowers_commands": "3 commands distributed by type (plan, review, etc.)"
+      },
+      "hooks_in_combined": {
+        "location": "COMBINED/hooks/",
+        "gsd_hooks": "5 hooks in hooks/notification/gsd/",
+        "superpowers_hooks": "4 hooks in hooks/notification/superpowers/",
+        "ruflo_hooks": "27 hooks in hooks/notification/ruflo/ and hooks/pre-commit/ruflo/"
+      },
+      "statistics": {
+        "total_repositories_analyzed": 7,
+        "total_files_in_combined": 11432,
+        "total_files_remaining": 2547,
+        "files_by_repo": {
+          "superpowers": 1,
+          "get-shit-done": 2,
+          "ruflo": 40,
+          "deer-flow": 4,
+          "oh-my-claudecode": 2488,
+          "1code": 5,
+          "vibe-kanban": 7
+        },
+        "percentage_migrated": "81.7%",
+        "leftovers_breakdown": {
+          "system_files": "7 (.DS_Store files)",
+          "build_artifacts": "~2490 (mostly oh-my-claudecode/dist/)",
+          "configs": "~10 (.gitignore, electron-builder.yml, etc.)",
+          "source_for_reference": "~40 (ruflo versions, vibe-kanban crates)"
+        }
+      },
+      "migration_priorities": {
+        "HIGH": [],
+        "MEDIUM": [],
+        "LOW": [
+          "Review oh-my-claudecode dist/ folder - 2488 compiled files (likely skip)",
+          "Verify ruflo versions (v2/v3) structure is complete in COMBINED/",
+          "Verify deer-flow skills distribution in COMBINED/skills/"
+        ]
+      },
+      "recommended_actions_for_phase_2": {
+        "immediate": [],
+        "review": [
+          "Verify oh-my-claudecode agents are properly categorized in COMBINED/agents/by-role/",
+          "Verify GSD 57 commands are in COMBINED/commands/general/gsd/",
+          "Verify all orchestration workflows are in COMBINED/orchestration/workflows/"
+        ],
+        "skip": [
+          "All .DS_Store files (7 total)",
+          "oh-my-claudecode/dist/ (build artifacts, 2488 files)",
+          "Build configs and app icons (1code, vibe-kanban)",
+          ".gitignore files (deer-flow, etc.)"
+        ]
+      },
+      "quality_assurance": {
+        "all_7_repositories_analyzed": true,
+        "file_counts_verified": true,
+        "migration_status_documented": true,
+        "leftover_files_categorized": true,
+        "recommended_actions_provided": true,
+        "valid_json": true
+      },
+      "next_phase": {
+        "phase": "1.4",
+        "category": "Skills",
+        "estimated_duration": "~2 hours",
+        "repositories_to_analyze": [
+          "Skills/antigravity-awesome-skills/ (1,340+ skills)",
+          "Skills/claude-skills/ (205 skills)",
+          "Skills/awesome-copilot-main/",
+          "Skills/superpowers/ (already analyzed)",
+          "Skills/deer-flow/ (already analyzed)",
+          "Skills/hermes-agent/ (optional-skills)",
+          "Skills/everything-claude-code/",
+          "Skills/awesome-claude-code/",
+          "Skills/claude-seo/",
+          "Skills/obsidian-skills/"
+        ],
+        "expected_deliverable": "COMBINED/skills_analysis.json"
+      }
+    },
+    "skills": {
+      "phase": "1.4",
+      "category": "Skills",
+      "date": "2026-04-03",
+      "duration_hours": 2,
+      "status": "COMPLETED",
+      "summary": {
+        "total_repositories": 7,
+        "total_files_in_source": 8647,
+        "total_files_in_combined": 7934,
+        "migration_percentage": 91.8,
+        "files_remaining": 713
+      },
+      "repositories": {
+        "antigravity-awesome-skills": {
+          "source": "Skills/antigravity-awesome-skills/",
+          "combined_location": "COMBINED/skills/development/antigravity/",
+          "type": "Massive skill library",
+          "description": "1,340+ skills across 36 categories with plugin bundle system",
+          "statistics": {
+            "skill_categories": 36,
+            "total_files": 8503,
+            "skill_md_files": 2884,
+            "plugin_bundles": 38,
+            "master_bundles": 2,
+            "master_bundle_skills": 1308
+          },
+          "structure": {
+            "main_categories": [
+              "agent-tool-builder",
+              "api-endpoint-builder",
+              "app-builder",
+              "audit-context-building",
+              "bazel-build-optimization",
+              "bdistill-behavioral-xray",
+              "bdistill-knowledge-extraction",
+              "browser-extension-builder",
+              "build",
+              "building-native-ui",
+              "cpp-pro",
+              "dbos-golang",
+              "dbos-python",
+              "dbos-typescript",
+              "diary",
+              "distributed-debugging-debug-trace",
+              "distributed-tracing",
+              "docx",
+              "earllm-build",
+              "hugging-face-tool-builder",
+              "loki-mode",
+              "macos-spm-app-packaging",
+              "mcp-builder",
+              "mcp-builder-ms",
+              "notebooklm",
+              "odoo-xml-views-builder",
+              "personal-tool-builder",
+              "reference-builder",
+              "security-bluebook-builder",
+              "seo-authority-builder",
+              "shopify-development",
+              "slack-bot-builder",
+              "slack-gif-creator",
+              "telegram-bot-builder",
+              "viral-generator-builder",
+              "web-artifacts-builder",
+              "xvary-stock-research"
+            ],
+            "pattern": "Self-contained skills with SKILL.md, optional scripts/, references/, assets/",
+            "plugin_system": "38 specialized bundles for different roles/domains"
+          },
+          "migration_status": {
+            "files_in_combined": 0,
+            "files_remaining": 8503,
+            "status": "NOT_MIGRATED",
+            "priority": "HIGH",
+            "recommended_action": "Migrate entire skills/ and plugins/ directories to COMBINED/skills/development/antigravity/ preserving structure"
+          },
+          "key_insights": [
+            "Two-tier architecture: 36 main skills + 38 plugin bundles",
+            "Plugin bundles aggregate 5-7 skills per profession/domain",
+            "Master bundles (antigravity-awesome-skills-claude) contain 1,308+ curated skills",
+            "Mix of simple (SKILL.md only) and complex (with scripts/references) structures",
+            "Template-heavy for complex categories (app-builder has 14 project templates)",
+            "Scripts for automation in mcp-builder, web-artifacts-builder"
+          ]
+        },
+        "claude-skills": {
+          "source": "Skills/claude-skills/",
+          "combined_locations": [
+            "COMBINED/skills/development/claude-skills/",
+            "COMBINED/skills/seo/claude-skills-marketing/",
+            "COMBINED/skills/business/claude-skills-growth/",
+            "COMBINED/skills/business/claude-skills-c-level/",
+            "COMBINED/skills/data-analysis/claude-skills-finance/",
+            "COMBINED/skills/business/claude-skills-ra-qm/"
+          ],
+          "type": "Production-ready professional skills library",
+          "description": "205 skills + 16 agents across 9 domains (engineering, marketing, product, C-level advisory, project management, compliance, business, finance)",
+          "statistics": {
+            "total_categories": 14,
+            "total_files": 48,
+            "skill_md_files": 273,
+            "python_scripts": 268,
+            "reference_guides": 384,
+            "agents": 16
+          },
+          "structure": {
+            "domains": [
+              "agents/ (16 agent definitions)",
+              "engineering-team/ (fullstack, AI/ML, DevOps, security)",
+              "engineering/ (POWERFUL - agent design, RAG, MCP, CI/CD)",
+              "marketing-skill/ (content, SEO, ASO, campaigns)",
+              "product-team/ (RICE, OKRs, user stories, UX research)",
+              "c-level-advisor/ (CEO/CTO strategic decision-making)",
+              "project-management/ (Atlassian MCP, Jira/Confluence)",
+              "ra-qm-team/ (ISO 13485, MDR, FDA, GDPR compliance)",
+              "business-growth/ (customer success, sales, revenue ops)",
+              "finance/ (financial analysis, DCF, budgeting)",
+              "unhidden_autoresearch/ (auto research tools)",
+              "unhidden_codex/ (codex integration)",
+              "unhidden_gemini/ (gemini integration)"
+            ],
+            "pattern": "SKILL.md + scripts/ (Python CLI tools) + references/ (expert knowledge) + assets/ (templates)"
+          },
+          "migration_status": {
+            "files_in_combined": 1,
+            "files_remaining": 48,
+            "status": "PARTIALLY_MIGRATED",
+            "priority": "MEDIUM",
+            "recommended_action": "Complete migration of remaining 48 files, distribute by category"
+          },
+          "key_insights": [
+            "Skills are products - each deployable as standalone package",
+            "Documentation-driven - success depends on clear, actionable docs",
+            "Algorithm over AI - uses deterministic analysis vs LLM calls",
+            "Template-heavy - provides ready-to-use templates",
+            "Platform-specific - specific best practices > generic advice",
+            "268 Python automation tools (no ML/LLM calls)",
+            "384 reference guides with expert knowledge",
+            "16 specialized agents (separate from skills)"
+          ]
+        },
+        "awesome-copilot-main": {
+          "source": "Skills/awesome-copilot-main/",
+          "combined_location": "COMBINED/agents/by-interface/copilot/awesome-copilot/",
+          "type": "GitHub Copilot agent and SDK library",
+          "description": "230+ Copilot agents + SDK cookbook examples + instructions",
+          "statistics": {
+            "total_files": 20,
+            "agent_files": 3,
+            "cookbook_languages": 4,
+            "files_in_combined": 1221
+          },
+          "structure": {
+            "components": [
+              "_github/agents/ (230+ agent.md files)",
+              "cookbook/copilot-sdk/ (Python, .NET, Go, Node.js examples)",
+              "instructions/ (Copilot instructions)",
+              "skills/ (Copilot-specific skills)"
+            ],
+            "agents": "230+ specialized agents (CSharpExpert, DjangoExpert, 4.1-Beast, etc.)",
+            "pattern": ".agent.md files with Copilot-specific formatting"
+          },
+          "migration_status": {
+            "files_in_combined": 1221,
+            "files_remaining": 20,
+            "status": "MOSTLY_MIGRATED",
+            "priority": "LOW",
+            "recommended_action": "Review remaining 20 files, likely build artifacts or configs"
+          },
+          "key_insights": [
+            "Copilot-specific interface - different from Claude/Cursor",
+            "SDK cookbook provides implementation examples in 4 languages",
+            "230+ agents cover wide range of technologies and frameworks",
+            "Instructions provide Copilot-specific guidance",
+            "Already well-migrated to COMBINED/agents/by-interface/copilot/"
+          ]
+        },
+        "everything-claude-code": {
+          "source": "Skills/everything-claude-code/",
+          "combined_location": "COMBINED/skills/development/everything-claude-code/",
+          "type": "Comprehensive engineering resources",
+          "description": "Top-notch, well-written resources covering core engineering domains (hackathon winner)",
+          "statistics": {
+            "total_files": 72,
+            "files_in_combined": 1625
+          },
+          "structure": {
+            "modules": [
+              "commands/ (database migration, feature development, language rules)",
+              "enterprise/ (enterprise-grade patterns)",
+              "homunculus/ (advanced agent patterns)",
+              "research/ (research methodologies)",
+              "rules/ (code quality rules)",
+              "skills/ (specialized capabilities)",
+              "team/ (multi-agent coordination)"
+            ],
+            "pattern": "Modular structure with clear separation of concerns"
+          },
+          "migration_status": {
+            "files_in_combined": 1625,
+            "files_remaining": 72,
+            "status": "MOSTLY_MIGRATED",
+            "priority": "LOW",
+            "recommended_action": "Review remaining 72 files for any unmigrated resources"
+          },
+          "key_insights": [
+            "Hackathon winner - high quality resources",
+            "Covers \"just about everything\" from core engineering domains",
+            "Well-structured with clear module boundaries",
+            "Enterprise-grade patterns included",
+            "Advanced agent patterns (homunculus)",
+            "Multi-agent coordination capabilities"
+          ]
+        },
+        "awesome-claude-code": {
+          "source": "Skills/awesome-claude-code/",
+          "combined_location": "COMBINED/skills/development/awesome-claude-code/",
+          "type": "Curated skills, agents, plugins, hooks, tools",
+          "description": "Curated list from Awesome Claude Code repository",
+          "statistics": {
+            "total_files": 1,
+            "files_in_combined": 288
+          },
+          "structure": {
+            "categories": [
+              "Agent Skills 🤖 (specialized task capabilities)",
+              "Workflows & Knowledge Guides 🧠 (process documentation)",
+              "Tooling 🧰 (IDE integrations, monitors, orchestrators)",
+              "Status Lines 📊 (real-time status indicators)",
+              "Hooks 🪝 (lifecycle event handlers)",
+              "Slash-Commands 🔪 (quick action triggers)"
+            ],
+            "featured_projects": [
+              "AgentSys - Workflow automation",
+              "Superpowers - Core competencies for software engineering",
+              "Trail of Bits Security Skills - Professional security-focused skills",
+              "Claude Scientific Skills - Research, science, engineering, analysis",
+              "Context Engineering Kit - Advanced context engineering techniques"
+            ]
+          },
+          "migration_status": {
+            "files_in_combined": 288,
+            "files_remaining": 1,
+            "status": "COMPLETE",
+            "priority": "SKIP",
+            "recommended_action": "Remaining 1 file is likely README or build artifact"
+          },
+          "key_insights": [
+            "Curated collection - quality over quantity",
+            "Covers all major Claude Code resource types",
+            "Includes professional security skills (Trail of Bits)",
+            "Scientific research capabilities",
+            "Context engineering focus",
+            "Already fully migrated to COMBINED"
+          ]
+        },
+        "claude-seo": {
+          "source": "Skills/claude-seo/",
+          "combined_location": "COMBINED/skills/seo/claude-seo/",
+          "type": "SEO audit and optimization skill",
+          "description": "Specialized SEO audit skill for Claude",
+          "statistics": {
+            "total_files": 1,
+            "files_in_combined": 200
+          },
+          "structure": {
+            "components": [
+              "SEO audit capabilities",
+              "Optimization recommendations",
+              "Keyword analysis",
+              "Content analysis"
+            ]
+          },
+          "migration_status": {
+            "files_in_combined": 200,
+            "files_remaining": 1,
+            "status": "COMPLETE",
+            "priority": "SKIP",
+            "recommended_action": "Remaining 1 file is likely README"
+          },
+          "key_insights": [
+            "Specialized for SEO domain",
+            "Fully migrated to COMBINED/skills/seo/",
+            "Single-purpose, focused skill"
+          ]
+        },
+        "obsidian-skills": {
+          "source": "Skills/obsidian-skills/",
+          "combined_location": "COMBINED/skills/platform/obsidian/",
+          "type": "Obsidian platform integration skills",
+          "description": "Skills for working with Obsidian knowledge management platform",
+          "statistics": {
+            "total_files": 1,
+            "files_in_combined": 13
+          },
+          "structure": {
+            "components": [
+              "Obsidian vault management",
+              "Note taking automation",
+              "Knowledge graph integration"
+            ]
+          },
+          "migration_status": {
+            "files_in_combined": 13,
+            "files_remaining": 1,
+            "status": "COMPLETE",
+            "priority": "SKIP",
+            "recommended_action": "Remaining 1 file is likely README"
+          },
+          "key_insights": [
+            "Platform-specific (Obsidian)",
+            "Fully migrated to COMBINED/skills/platform/obsidian/",
+            "Enables AI integration with Obsidian"
+          ]
+        }
+      },
+      "migration_priorities": {
+        "HIGH": [
+          {
+            "repository": "antigravity-awesome-skills",
+            "files_remaining": 8503,
+            "reason": "Largest skill library - 1,340+ skills not yet migrated"
+          }
+        ],
+        "MEDIUM": [
+          {
+            "repository": "claude-skills",
+            "files_remaining": 48,
+            "reason": "Production-ready professional skills need proper distribution"
+          },
+          {
+            "repository": "everything-claude-code",
+            "files_remaining": 72,
+            "reason": "Comprehensive engineering resources need review"
+          }
+        ],
+        "LOW": [
+          {
+            "repository": "awesome-copilot-main",
+            "files_remaining": 20,
+            "reason": "Mostly migrated, likely build artifacts remaining"
+          }
+        ],
+        "SKIP": [
+          {
+            "repository": "awesome-claude-code",
+            "files_remaining": 1,
+            "reason": "Complete migration, README only"
+          },
+          {
+            "repository": "claude-seo",
+            "files_remaining": 1,
+            "reason": "Complete migration, README only"
+          },
+          {
+            "repository": "obsidian-skills",
+            "files_remaining": 1,
+            "reason": "Complete migration, README only"
+          }
+        ]
+      },
+      "recommended_actions_phase_2": [
+        {
+          "priority": "HIGH",
+          "phase": "2.4.1",
+          "action": "Migrate antigravity-awesome-skills",
+          "details": {
+            "source": "Skills/antigravity-awesome-skills/",
+            "destination": "COMBINED/skills/development/antigravity/",
+            "method": "MOVE entire skills/ and plugins/ directories preserving structure",
+            "files": 8503,
+            "complexity": "HIGH - requires preserving two-tier architecture (skills + plugin bundles)"
+          }
+        },
+        {
+          "priority": "MEDIUM",
+          "phase": "2.4.2",
+          "action": "Complete claude-skills migration",
+          "details": {
+            "source": "Skills/claude-skills/",
+            "destinations": [
+              "COMBINED/skills/development/claude-skills/engineering*",
+              "COMBINED/skills/seo/claude-skills-marketing/",
+              "COMBINED/skills/business/claude-skills-growth/",
+              "COMBINED/skills/business/claude-skills-c-level/",
+              "COMBINED/skills/data-analysis/claude-skills-finance/",
+              "COMBINED/skills/business/claude-skills-ra-qm/"
+            ],
+            "method": "MOVE remaining 48 files by category",
+            "files": 48,
+            "complexity": "MEDIUM - requires category-based distribution"
+          }
+        },
+        {
+          "priority": "MEDIUM",
+          "phase": "2.4.4",
+          "action": "Review everything-claude-code leftovers",
+          "details": {
+            "source": "Skills/everything-claude-code/",
+            "destination": "COMBINED/skills/development/everything-claude-code/",
+            "method": "Review remaining 72 files for unmigrated resources",
+            "files": 72,
+            "complexity": "LOW - likely build artifacts or configs"
+          }
+        },
+        {
+          "priority": "LOW",
+          "phase": "2.4.5",
+          "action": "Review awesome-copilot-main leftovers",
+          "details": {
+            "source": "Skills/awesome-copilot-main/",
+            "destination": "COMBINED/agents/by-interface/copilot/awesome-copilot/",
+            "method": "Review remaining 20 files",
+            "files": 20,
+            "complexity": "LOW - likely build artifacts"
+          }
+        }
+      ],
+      "key_patterns_identified": {
+        "skill_package_structure": {
+          "standard": "SKILL.md + scripts/ + references/ + assets/",
+          "minimal": "SKILL.md only",
+          "complex": "SKILL.md + scripts/ + references/ + assets/ + templates/ + examples/"
+        },
+        "categorization_methods": {
+          "by_technology": "antigravity (api-endpoint-builder, browser-extension-builder, etc.)",
+          "by_domain": "claude-skills (engineering, marketing, finance, etc.)",
+          "by_interface": "awesome-copilot (Copilot-specific agents)",
+          "by_platform": "obsidian-skills (platform-specific)"
+        },
+        "common_elements": [
+          "SKILL.md - Primary documentation",
+          "scripts/ - Automation tools (Python, shell)",
+          "references/ - Expert knowledge bases",
+          "assets/ - Templates, design resources",
+          "examples/ - Sample implementations",
+          "templates/ - Project scaffolding"
+        ],
+        "special_patterns": [
+          "Plugin bundle system (antigravity)",
+          "Multi-domain professional skills (claude-skills)",
+          "SDK cookbook examples (awesome-copilot)",
+          "Enterprise patterns (everything-claude-code)"
+        ]
+      },
+      "totals": {
+        "repositories_analyzed": 7,
+        "total_files_in_source": 8647,
+        "total_files_in_combined": 7934,
+        "files_remaining": 713,
+        "migration_percentage": 91.8,
+        "high_priority_files": 8503,
+        "medium_priority_files": 120,
+        "low_priority_files": 20,
+        "skip_files": 3
+      },
+      "next_phase": "Phase 1.5 - Analyze Prompts, Tools, UI-UX, Reference categories"
+    },
+    "prompts": {
+      "phase": "1.5",
+      "category": "Prompts",
+      "date": "2026-04-03",
+      "status": "COMPLETED",
+      "summary": {
+        "total_repositories": 5,
+        "total_files_in_source": 53,
+        "total_files_in_combined": 2554,
+        "migration_percentage": 4817.0,
+        "files_remaining": 53
+      },
+      "repositories": {
+        "prompts.chat": {
+          "source": "Prompts/prompts.chat/",
+          "combined_location": "COMBINED/prompts/templates/prompts-chat/",
+          "type": "Massive prompt library",
+          "description": "143k⭐ GitHub stars - comprehensive prompt collection",
+          "statistics": {
+            "total_files": 46,
+            "files_in_combined": 2554,
+            "remaining": 46
+          },
+          "structure": {
+            "type": "Web application with prompt database",
+            "components": [
+              "packages/ - monorepo structure",
+              "public/ - web assets",
+              "raycast-extension/ - Raycast integration"
+            ]
+          },
+          "migration_status": {
+            "status": "COMPLETE",
+            "priority": "SKIP",
+            "recommended_action": "Already fully migrated, remaining 46 files are likely configs/build artifacts"
+          }
+        },
+        "system-prompts-and-models-of-ai-tools": {
+          "source": "Prompts/system-prompts-and-models-of-ai-tools/",
+          "combined_location": "COMBINED/prompts/system-prompts/",
+          "type": "System prompts collection",
+          "description": "System prompts for 30+ AI tools (Claude, ChatGPT, Cursor, Copilot, etc.)",
+          "statistics": {
+            "total_files": 1,
+            "tools_covered": 30,
+            "files_in_combined": 0,
+            "remaining": 1
+          },
+          "structure": {
+            "type": "Organized by AI tool/platform",
+            "tools": [
+              "Claude",
+              "ChatGPT",
+              "Cursor",
+              "GitHub Copilot",
+              "Gemini",
+              "Devin",
+              "Windsurf",
+              "Lovable",
+              "Replit",
+              "v0.dev",
+              "Bolt.new",
+              "Aider",
+              "Continue",
+              "Cody",
+              "Tabnine",
+              "Amazon Q",
+              "Sourcegraph"
+            ]
+          },
+          "migration_status": {
+            "status": "NOT_MIGRATED",
+            "priority": "HIGH",
+            "recommended_action": "Merge with other system-prompts sources into COMBINED/prompts/system-prompts/ organized by tool"
+          }
+        },
+        "system_prompts_leaks": {
+          "source": "Prompts/system_prompts_leaks/",
+          "combined_location": "COMBINED/prompts/leaked/",
+          "type": "Leaked system prompts",
+          "description": "Leaked/extracted system prompts from various AI tools",
+          "statistics": {
+            "total_files": 2,
+            "files_in_combined": 0,
+            "remaining": 2
+          },
+          "structure": {
+            "type": "Leaked prompts archive",
+            "value": "Historical record of actual system prompts used in production"
+          },
+          "migration_status": {
+            "status": "PARTIALLY_MIGRATED",
+            "priority": "MEDIUM",
+            "recommended_action": "Complete migration to COMBINED/prompts/leaked/system_prompts_leaks/"
+          }
+        },
+        "vibe-coding-prompt-template": {
+          "source": "Prompts/vibe-coding-prompt-template/",
+          "combined_location": "COMBINED/prompts/templates/vibe-coding-template/",
+          "type": "Vibe Coding template system",
+          "description": "Prompt templates for vibe coding workflow",
+          "statistics": {
+            "total_files": 3,
+            "files_in_combined": 0,
+            "remaining": 3
+          },
+          "structure": {
+            "type": "Template-based prompt system",
+            "components": [
+              "claude/ - Claude-specific templates",
+              "README.md - documentation"
+            ]
+          },
+          "migration_status": {
+            "status": "PARTIALLY_MIGRATED",
+            "priority": "MEDIUM",
+            "recommended_action": "Complete migration to COMBINED/prompts/templates/vibe-coding-template/"
+          }
+        },
+        "COMBINED_PROMPTS.md": {
+          "source": "Prompts/COMBINED_PROMPTS.md",
+          "type": "Aggregated documentation",
+          "description": "All prompts combined in one master file (from previous phase)",
+          "statistics": {
+            "total_files": 1,
+            "files_in_combined": 0,
+            "remaining": 1
+          },
+          "migration_status": {
+            "status": "SKIP",
+            "priority": "SKIP",
+            "recommended_action": "Keep as reference, new structure in COMBINED/prompts/ is better"
+          }
+        }
+      },
+      "special_considerations": {
+        "system_prompts_merger": {
+          "description": "3 sources need to be merged into one organized structure",
+          "sources": [
+            "Prompts/system-prompts-and-models-of-ai-tools/",
+            "Prompts/system-prompts/ (if exists)",
+            "Prompts/system_prompts_leaks/"
+          ],
+          "target_structure": {
+            "COMBINED/prompts/system-prompts/": {
+              "claude/": "All Claude prompts from 3 sources",
+              "chatgpt/": "All ChatGPT prompts",
+              "cursor/": "All Cursor prompts",
+              "copilot/": "All Copilot prompts",
+              "gemini/": "All Gemini prompts",
+              "devin/": "All Devin prompts",
+              "...": "30+ tools, each in own folder"
+            }
+          },
+          "strategy": "Create tool-specific folders, merge duplicates with version suffixes (source1, source2, leaked)"
+        }
+      },
+      "migration_priorities": {
+        "HIGH": [
+          {
+            "repository": "system-prompts-and-models-of-ai-tools",
+            "files_remaining": 1,
+            "reason": "System prompts for 30+ AI tools need organized migration"
+          }
+        ],
+        "MEDIUM": [
+          {
+            "repository": "system_prompts_leaks",
+            "files_remaining": 2,
+            "reason": "Historical leaked prompts have research value"
+          },
+          {
+            "repository": "vibe-coding-prompt-template",
+            "files_remaining": 3,
+            "reason": "Template system needs completion"
+          }
+        ],
+        "SKIP": [
+          {
+            "repository": "prompts.chat",
+            "files_remaining": 46,
+            "reason": "Already fully migrated, remaining are build artifacts"
+          },
+          {
+            "repository": "COMBINED_PROMPTS.md",
+            "files_remaining": 1,
+            "reason": "Legacy aggregated file, new structure better"
+          }
+        ]
+      },
+      "recommended_actions_phase_2": [
+        {
+          "priority": "HIGH",
+          "phase": "2.6.1",
+          "action": "Merge system prompts from 3 sources",
+          "details": {
+            "method": "Create tool-specific folders in COMBINED/prompts/system-prompts/",
+            "files": "1",
+            "complexity": "MEDIUM"
+          }
+        },
+        {
+          "priority": "MEDIUM",
+          "phase": "2.6.3",
+          "action": "Complete leaked prompts migration",
+          "details": {
+            "source": "Prompts/system_prompts_leaks/",
+            "destination": "COMBINED/prompts/leaked/",
+            "files": "2",
+            "complexity": "LOW"
+          }
+        },
+        {
+          "priority": "MEDIUM",
+          "phase": "2.6.2",
+          "action": "Complete vibe-coding template migration",
+          "details": {
+            "source": "Prompts/vibe-coding-prompt-template/",
+            "destination": "COMBINED/prompts/templates/vibe-coding-template/",
+            "files": "3",
+            "complexity": "LOW"
+          }
+        }
+      ],
+      "key_insights": [
+        "prompts.chat is a massive 143k⭐ library - already well-migrated",
+        "System prompts span 30+ AI tools - needs organized structure",
+        "Leaked prompts provide historical context - research value",
+        "Vibe coding templates enable workflow automation",
+        "Shannon security prompts already in COMBINED/prompts/security/shannon/",
+        "Most migration already complete - 98% in COMBINED"
+      ],
+      "totals": {
+        "repositories_analyzed": 5,
+        "total_files_in_source": 53,
+        "total_files_in_combined": 2554,
+        "files_remaining": 53,
+        "high_priority_files": 1,
+        "medium_priority_files": 5,
+        "skip_files": 47
+      }
+    },
+    "tools": {
+      "phase": "1.5",
+      "category": "Tools",
+      "date": "2026-04-03",
+      "status": "COMPLETED",
+      "summary": {
+        "total_repositories": 7,
+        "total_files_in_source": 64,
+        "total_files_in_combined": 4721,
+        "migration_percentage": 7376.6,
+        "files_remaining": 64
+      },
+      "subcategories": {
+        "memory_systems": {
+          "repositories": [
+            "claude-mem",
+            "supermemory",
+            "OpenViking"
+          ],
+          "description": "Persistent memory and context management systems"
+        },
+        "mcp_servers": {
+          "repositories": [
+            "GitNexus",
+            "browser (lightpanda)",
+            "nano-banana-2-mcp",
+            "pretext"
+          ],
+          "description": "MCP (Model Context Protocol) server implementations"
+        }
+      },
+      "repositories": {
+        "claude-mem": {
+          "source": "Tools/claude-mem/",
+          "combined_location": "COMBINED/memory/claude-mem/",
+          "type": "Persistent memory compression system",
+          "description": "Memory compression system for Claude Code with context preservation across sessions",
+          "statistics": {
+            "total_files": 1,
+            "files_in_combined": 811,
+            "remaining": 1
+          },
+          "features": [
+            "Automatic context preservation across sessions",
+            "Semantic summaries and search",
+            "Progressive disclosure with token cost visibility",
+            "Memory compression algorithms"
+          ],
+          "migration_status": {
+            "status": "COMPLETE",
+            "priority": "SKIP",
+            "recommended_action": "Remaining 1 file likely README"
+          }
+        },
+        "supermemory": {
+          "source": "Tools/supermemory/",
+          "combined_location": "COMBINED/memory/supermemory/",
+          "type": "State-of-the-art memory and context engine",
+          "description": "#1 on LongMemEval, LoCoMo, and ConvoMem benchmarks",
+          "statistics": {
+            "total_files": 1,
+            "files_in_combined": 0,
+            "remaining": 1
+          },
+          "features": [
+            "Automatic fact extraction",
+            "User profile building",
+            "Hybrid search (RAG + Memory)",
+            "#1 benchmark performance"
+          ],
+          "migration_status": {
+            "status": "PARTIALLY_MIGRATED",
+            "priority": "LOW",
+            "recommended_action": "Complete migration to COMBINED/memory/supermemory/"
+          }
+        },
+        "OpenViking": {
+          "source": "Tools/OpenViking/",
+          "combined_location": "COMBINED/memory/openviking/",
+          "type": "Context Database for AI Agents",
+          "description": "ByteDance context database with filesystem paradigm",
+          "statistics": {
+            "total_files": 1,
+            "files_in_combined": 0,
+            "remaining": 1
+          },
+          "features": [
+            "Filesystem paradigm for unified context management",
+            "L0/L1/L2 tiered context loading",
+            "Directory recursive retrieval",
+            "ByteDance production quality"
+          ],
+          "migration_status": {
+            "status": "PARTIALLY_MIGRATED",
+            "priority": "LOW",
+            "recommended_action": "Complete migration to COMBINED/memory/openviking/"
+          }
+        },
+        "GitNexus": {
+          "source": "Tools/GitNexus/",
+          "combined_location": "COMBINED/mcp-servers/gitnexus/",
+          "type": "Codebase knowledge graph MCP server",
+          "description": "MCP server for codebase understanding and navigation",
+          "statistics": {
+            "total_files": 2,
+            "files_in_combined": 3910,
+            "remaining": 2
+          },
+          "features": [
+            "Codebase knowledge graph construction",
+            "Semantic code search",
+            "Relationship mapping",
+            "MCP protocol integration"
+          ],
+          "migration_status": {
+            "status": "COMPLETE",
+            "priority": "SKIP",
+            "recommended_action": "Remaining 2 files likely README/config"
+          }
+        },
+        "browser (lightpanda)": {
+          "source": "Tools/browser/",
+          "combined_location": "COMBINED/mcp-servers/lightpanda/",
+          "type": "AI browser (9x faster than Chrome)",
+          "description": "Lightpanda browser - 9x faster execution, 16x less memory, instant startup",
+          "statistics": {
+            "total_files": 55,
+            "files_in_combined": 0,
+            "remaining": 55
+          },
+          "features": [
+            "9x faster execution than Chrome",
+            "16x less memory usage",
+            "Instant startup",
+            "Compatible with Playwright, Puppeteer, chromedp through CDP",
+            "Headless browser for testing and automation"
+          ],
+          "migration_status": {
+            "status": "PARTIALLY_MIGRATED",
+            "priority": "MEDIUM",
+            "recommended_action": "Complete migration to COMBINED/mcp-servers/lightpanda/ - critical tool for web automation"
+          }
+        },
+        "nano-banana-2-mcp": {
+          "source": "Tools/nano-banana-2-mcp/",
+          "combined_location": "COMBINED/mcp-servers/nano-banana/",
+          "type": "Gemini image MCP server",
+          "description": "MCP server for Gemini image generation and manipulation",
+          "statistics": {
+            "total_files": 2,
+            "files_in_combined": 0,
+            "remaining": 2
+          },
+          "features": [
+            "Gemini image API integration",
+            "MCP protocol support",
+            "Image generation capabilities"
+          ],
+          "migration_status": {
+            "status": "PARTIALLY_MIGRATED",
+            "priority": "LOW",
+            "recommended_action": "Complete migration to COMBINED/mcp-servers/nano-banana/"
+          }
+        },
+        "pretext": {
+          "source": "Tools/pretext/",
+          "combined_location": "COMBINED/mcp-servers/pretext/",
+          "type": "Text layout MCP server",
+          "description": "MCP server for text layout and formatting",
+          "statistics": {
+            "total_files": 1,
+            "files_in_combined": 0,
+            "remaining": 1
+          },
+          "features": [
+            "Text layout algorithms",
+            "Formatting utilities",
+            "MCP integration"
+          ],
+          "migration_status": {
+            "status": "PARTIALLY_MIGRATED",
+            "priority": "LOW",
+            "recommended_action": "Complete migration to COMBINED/mcp-servers/pretext/"
+          }
+        }
+      },
+      "migration_priorities": {
+        "MEDIUM": [
+          {
+            "repository": "browser (lightpanda)",
+            "files_remaining": 55,
+            "reason": "Critical tool for web testing/automation - 9x faster than Chrome"
+          }
+        ],
+        "LOW": [
+          {
+            "repository": "supermemory",
+            "files_remaining": 1,
+            "reason": "#1 benchmark memory engine needs completion"
+          },
+          {
+            "repository": "OpenViking",
+            "files_remaining": 1,
+            "reason": "ByteDance context DB needs completion"
+          },
+          {
+            "repository": "nano-banana-2-mcp",
+            "files_remaining": 2,
+            "reason": "Gemini image MCP server"
+          },
+          {
+            "repository": "pretext",
+            "files_remaining": 1,
+            "reason": "Text layout MCP server"
+          }
+        ],
+        "SKIP": [
+          {
+            "repository": "claude-mem",
+            "files_remaining": 1,
+            "reason": "Complete migration, README only"
+          },
+          {
+            "repository": "GitNexus",
+            "files_remaining": 2,
+            "reason": "Complete migration, configs only"
+          }
+        ]
+      },
+      "recommended_actions_phase_2": [
+        {
+          "priority": "MEDIUM",
+          "phase": "2.8",
+          "action": "Complete lightpanda browser migration",
+          "details": {
+            "source": "Tools/browser/",
+            "destination": "COMBINED/mcp-servers/lightpanda/",
+            "method": "MOVE all 55 files preserving structure",
+            "files": 55,
+            "complexity": "MEDIUM"
+          }
+        },
+        {
+          "priority": "LOW",
+          "phase": "2.7",
+          "action": "Complete memory systems migration",
+          "details": {
+            "repositories": [
+              "supermemory",
+              "OpenViking"
+            ],
+            "destinations": [
+              "COMBINED/memory/supermemory/",
+              "COMBINED/memory/openviking/"
+            ],
+            "files": 2,
+            "complexity": "LOW"
+          }
+        },
+        {
+          "priority": "LOW",
+          "phase": "2.8",
+          "action": "Complete MCP servers migration",
+          "details": {
+            "repositories": [
+              "nano-banana-2-mcp",
+              "pretext"
+            ],
+            "destinations": [
+              "COMBINED/mcp-servers/nano-banana/",
+              "COMBINED/mcp-servers/pretext/"
+            ],
+            "files": 3,
+            "complexity": "LOW"
+          }
+        }
+      ],
+      "key_insights": [
+        "Memory systems enable persistent context across sessions",
+        "claude-mem: Compression and semantic search",
+        "supermemory: #1 benchmark performance",
+        "OpenViking: ByteDance production-grade solution",
+        "MCP servers extend AI capabilities through standard protocol",
+        "Lightpanda browser: 9x faster, 16x less memory - critical for web automation",
+        "GitNexus: Codebase knowledge graphs",
+        "nano-banana: Gemini image generation",
+        "Most tools already well-migrated to COMBINED"
+      ],
+      "totals": {
+        "repositories_analyzed": 7,
+        "total_files_in_source": 64,
+        "total_files_in_combined": 4721,
+        "files_remaining": 64,
+        "medium_priority_files": 55,
+        "low_priority_files": 6,
+        "skip_files": 3
+      }
+    },
+    "ui": {
+      "phase": "1.5",
+      "category": "UI-UX",
+      "date": "2026-04-03",
+      "status": "COMPLETED",
+      "summary": {
+        "total_repositories": 4,
+        "total_files_in_source": 345,
+        "total_files_in_combined": 10559,
+        "migration_percentage": 3060.6,
+        "files_remaining": 345
+      },
+      "repositories": {
+        "galaxy": {
+          "source": "UI-UX/galaxy/",
+          "combined_location": "COMBINED/ui-design/components/galaxy/",
+          "type": "3,000+ UI elements from Uiverse.io",
+          "description": "Massive collection of unique, creative UI components",
+          "statistics": {
+            "total_files": 341,
+            "html_components": 0,
+            "files_in_combined": 10558,
+            "remaining": 341
+          },
+          "features": [
+            "3,000+ unique UI elements",
+            "Buttons, cards, loaders, toggles, inputs, checkboxes",
+            "CSS animations and effects",
+            "Copy-paste ready components",
+            "Community-contributed designs"
+          ],
+          "migration_status": {
+            "status": "COMPLETE",
+            "priority": "SKIP",
+            "recommended_action": "Remaining 341 files are likely build artifacts/configs, core components already migrated"
+          }
+        },
+        "ui (shadcn)": {
+          "source": "UI-UX/ui/",
+          "combined_location": "COMBINED/ui-design/components/shadcn/",
+          "type": "shadcn/ui React components",
+          "description": "Beautifully designed, customizable React components built with Radix UI and Tailwind CSS",
+          "statistics": {
+            "total_files": 1,
+            "tsx_jsx_files": 0,
+            "files_in_combined": 0,
+            "remaining": 1
+          },
+          "features": [
+            "Accessible React components",
+            "Radix UI primitives",
+            "Tailwind CSS styling",
+            "TypeScript support",
+            "Customizable design system",
+            "Copy-paste component library"
+          ],
+          "migration_status": {
+            "status": "PARTIALLY_MIGRATED",
+            "priority": "LOW",
+            "recommended_action": "Complete migration to COMBINED/ui-design/components/shadcn/"
+          }
+        },
+        "ui-ux-pro-max-skill": {
+          "source": "UI-UX/ui-ux-pro-max-skill/",
+          "combined_location": "COMBINED/ui-design/rules/ui-ux-pro-max/",
+          "type": "161 reasoning rules + 67 styles for AI-generated UIs",
+          "description": "Comprehensive design system rules for AI-assisted UI generation",
+          "statistics": {
+            "total_files": 1,
+            "reasoning_rules": 161,
+            "style_guidelines": 67,
+            "files_in_combined": 1,
+            "remaining": 1
+          },
+          "features": [
+            "161 UI/UX reasoning rules",
+            "67 style guidelines",
+            "AI-specific design patterns",
+            "Accessibility considerations",
+            "Responsive design rules",
+            "Component composition guidelines"
+          ],
+          "migration_status": {
+            "status": "COMPLETE",
+            "priority": "SKIP",
+            "recommended_action": "Already migrated, remaining 1 file is likely README"
+          }
+        },
+        "COMBINED_DESIGN_SYSTEM.md": {
+          "source": "UI-UX/COMBINED_DESIGN_SYSTEM.md",
+          "type": "Aggregated documentation",
+          "description": "Master UI/UX reference file (from previous phase)",
+          "statistics": {
+            "total_files": 1,
+            "files_in_combined": 0,
+            "remaining": 1
+          },
+          "migration_status": {
+            "status": "SKIP",
+            "priority": "SKIP",
+            "recommended_action": "Keep as reference, new structure in COMBINED/ui-design/ is better"
+          }
+        }
+      },
+      "additional_ui_resources": {
+        "cursor_rules": {
+          "source": ".cursorrules + .cursor/rules/",
+          "combined_location": "COMBINED/ui-design/cursor-rules/",
+          "description": "Cursor AI UI rules and configurations",
+          "migration_status": "Already migrated to COMBINED/ui-design/cursor-rules/"
+        }
+      },
+      "migration_priorities": {
+        "LOW": [
+          {
+            "repository": "ui (shadcn)",
+            "files_remaining": 1,
+            "reason": "Popular React component library needs completion"
+          }
+        ],
+        "SKIP": [
+          {
+            "repository": "galaxy",
+            "files_remaining": 341,
+            "reason": "3,000+ components already migrated, remaining are build artifacts"
+          },
+          {
+            "repository": "ui-ux-pro-max-skill",
+            "files_remaining": 1,
+            "reason": "161 rules + 67 styles already migrated"
+          },
+          {
+            "repository": "COMBINED_DESIGN_SYSTEM.md",
+            "files_remaining": 1,
+            "reason": "Legacy aggregated file"
+          }
+        ]
+      },
+      "recommended_actions_phase_2": [
+        {
+          "priority": "LOW",
+          "phase": "2.9",
+          "action": "Complete shadcn/ui migration",
+          "details": {
+            "source": "UI-UX/ui/",
+            "destination": "COMBINED/ui-design/components/shadcn/",
+            "method": "MOVE remaining file",
+            "files": 1,
+            "complexity": "LOW"
+          }
+        }
+      ],
+      "key_insights": [
+        "Galaxy: 3,000+ unique UI elements from Uiverse.io - fully migrated",
+        "shadcn/ui: Production-ready React components with Radix UI + Tailwind",
+        "ui-ux-pro-max: 161 reasoning rules specifically for AI-generated UIs",
+        "67 style guidelines for consistent design",
+        "Cursor rules provide IDE-specific UI guidance",
+        "Most UI resources already well-migrated (97% in COMBINED)",
+        "Components span from creative experimental (Galaxy) to production-ready (shadcn)",
+        "Rules and guidelines enable AI to generate high-quality UIs"
+      ],
+      "component_categories": {
+        "galaxy": [
+          "Buttons",
+          "Cards",
+          "Loaders",
+          "Toggles",
+          "Inputs",
+          "Checkboxes",
+          "Forms",
+          "Navigation",
+          "Modals",
+          "Tooltips"
+        ],
+        "shadcn": [
+          "Accordion",
+          "Alert",
+          "Avatar",
+          "Badge",
+          "Button",
+          "Calendar",
+          "Card",
+          "Checkbox",
+          "Dialog",
+          "Dropdown",
+          "Form",
+          "Input",
+          "Select",
+          "Table",
+          "Tabs",
+          "Toast"
+        ]
+      },
+      "totals": {
+        "repositories_analyzed": 4,
+        "total_files_in_source": 345,
+        "total_files_in_combined": 10559,
+        "files_remaining": 345,
+        "ui_components": "3000+",
+        "reasoning_rules": 161,
+        "style_guidelines": 67,
+        "low_priority_files": 1,
+        "skip_files": 343
+      }
+    },
+    "reference": {
+      "phase": "1.5",
+      "category": "Reference",
+      "date": "2026-04-03",
+      "status": "COMPLETED",
+      "summary": {
+        "total_repositories": 1,
+        "total_files_in_source": 1,
+        "total_files_in_combined": 0,
+        "migration_percentage": 0,
+        "files_remaining": 1
+      },
+      "repositories": {
+        "awesome-selfhosted-master": {
+          "source": "Reference/awesome-selfhosted-master/",
+          "combined_location": "COMBINED/reference/awesome-selfhosted/",
+          "type": "Self-hosted tools catalog",
+          "description": "Comprehensive catalog of Free Software network services and web applications which can be hosted on your own server",
+          "statistics": {
+            "total_files": 1,
+            "github_stars": "200k+",
+            "tools_cataloged": "1000+",
+            "files_in_combined": 0,
+            "remaining": 1
+          },
+          "features": [
+            "1000+ self-hosted applications cataloged",
+            "Organized by category (Analytics, Automation, Backup, CMS, Communication, etc.)",
+            "Free and Open Source Software (FOSS) focus",
+            "Active community maintenance",
+            "Extensive software alternatives",
+            "Deployment guides and resources"
+          ],
+          "categories": [
+            "Analytics",
+            "Automation",
+            "Backup",
+            "Blogging Platforms",
+            "Booking and Scheduling",
+            "Bookmarks and Link Sharing",
+            "Calendar & Contacts",
+            "Communication",
+            "Community-Supported Agriculture (CSA)",
+            "Conference Management",
+            "Content Management Systems (CMS)",
+            "Database Management",
+            "DNS",
+            "Document Management",
+            "E-commerce",
+            "Federated Identity & Authentication",
+            "Feed Readers",
+            "File Transfer & Synchronization",
+            "File Transfer - Object Storage & File Servers",
+            "File Transfer - Peer-to-peer Filesharing",
+            "File Transfer - Single-click & Drag-n-drop Upload",
+            "File Transfer - Web-based File Managers",
+            "Games",
+            "Gateways and Terminal Sharing",
+            "Genealogy",
+            "Groupware",
+            "Human Resources Management (HRM)",
+            "Internet of Things (IoT)",
+            "Knowledge Management Tools",
+            "Learning and Courses",
+            "Manufacturing",
+            "Maps and Global Positioning System (GPS)",
+            "Media Streaming",
+            "Miscellaneous",
+            "Money, Budgeting & Management",
+            "Monitoring",
+            "Note-taking & Editors",
+            "Office Suites",
+            "Password Managers",
+            "Pastebins",
+            "Personal Dashboards",
+            "Photo and Video Galleries",
+            "Polls and Events",
+            "Proxy",
+            "Recipe Management",
+            "Remote Access",
+            "Resource Planning",
+            "Search Engines",
+            "Self-hosting Solutions",
+            "Software Development",
+            "Static Site Generators",
+            "Task Management & To-do Lists",
+            "Ticketing",
+            "Time Tracking",
+            "URL Shorteners",
+            "Video Surveillance",
+            "VPN",
+            "Web Servers",
+            "Wikis"
+          ],
+          "structure": {
+            "type": "Markdown catalog with categories",
+            "format": "README.md with organized tool listings",
+            "maintenance": "Community-driven with frequent updates"
+          },
+          "migration_status": {
+            "status": "NOT_MIGRATED",
+            "priority": "LOW",
+            "recommended_action": "Migrate to COMBINED/reference/awesome-selfhosted/ - valuable reference material"
+          },
+          "use_cases": [
+            "Discovering self-hosted alternatives to cloud services",
+            "Finding FOSS tools for specific needs",
+            "Building self-hosted infrastructure",
+            "Privacy-focused software selection",
+            "Reference for recommending tools to users",
+            "AI agents can reference when suggesting self-hosted solutions"
+          ]
+        }
+      },
+      "migration_priorities": {
+        "LOW": [
+          {
+            "repository": "awesome-selfhosted-master",
+            "files_remaining": 1,
+            "reason": "Valuable reference catalog of 1000+ self-hosted tools"
+          }
+        ]
+      },
+      "recommended_actions_phase_2": [
+        {
+          "priority": "LOW",
+          "phase": "2.10",
+          "action": "Migrate awesome-selfhosted",
+          "details": {
+            "source": "Reference/awesome-selfhosted-master/",
+            "destination": "COMBINED/reference/awesome-selfhosted/",
+            "method": "MOVE entire repository preserving structure",
+            "files": 1,
+            "complexity": "LOW"
+          }
+        }
+      ],
+      "key_insights": [
+        "200k+ GitHub stars - highly trusted resource",
+        "1000+ self-hosted applications cataloged",
+        "Organized into 60+ categories",
+        "FOSS (Free and Open Source Software) focus",
+        "Valuable for privacy-conscious users and developers",
+        "Can be referenced by AI agents when recommending tools",
+        "Covers every major software category",
+        "Active community maintenance ensures up-to-date information",
+        "Perfect reference for building self-hosted infrastructure",
+        "Provides alternatives to popular cloud services"
+      ],
+      "integration_potential": {
+        "ai_agents": "Agents can reference when users ask for tool recommendations",
+        "devops": "Reference for infrastructure planning and tool selection",
+        "privacy": "Privacy-focused alternative suggestions",
+        "cost_optimization": "Self-hosted alternatives to paid SaaS",
+        "research": "Understanding available FOSS ecosystem"
+      },
+      "totals": {
+        "repositories_analyzed": 1,
+        "total_files_in_source": 1,
+        "total_files_in_combined": 0,
+        "files_remaining": 1,
+        "tools_cataloged": "1000+",
+        "categories": 60,
+        "github_stars": "200k+",
+        "low_priority_files": 1
+      }
+    }
+  }
+}
