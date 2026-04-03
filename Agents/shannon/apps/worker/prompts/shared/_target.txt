@@ -1,1 +1,0 @@
-URL: {{WEB_URL}}
