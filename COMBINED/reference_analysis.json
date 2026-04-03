@@ -1,0 +1,167 @@
+{
+  "phase": "1.5",
+  "category": "Reference",
+  "date": "2026-04-03",
+  "status": "COMPLETED",
+  "summary": {
+    "total_repositories": 1,
+    "total_files_in_source": 1,
+    "total_files_in_combined": 0,
+    "migration_percentage": 0,
+    "files_remaining": 1
+  },
+  "repositories": {
+    "awesome-selfhosted-master": {
+      "source": "Reference/awesome-selfhosted-master/",
+      "combined_location": "COMBINED/reference/awesome-selfhosted/",
+      "type": "Self-hosted tools catalog",
+      "description": "Comprehensive catalog of Free Software network services and web applications which can be hosted on your own server",
+      "statistics": {
+        "total_files": 1,
+        "github_stars": "200k+",
+        "tools_cataloged": "1000+",
+        "files_in_combined": 0,
+        "remaining": 1
+      },
+      "features": [
+        "1000+ self-hosted applications cataloged",
+        "Organized by category (Analytics, Automation, Backup, CMS, Communication, etc.)",
+        "Free and Open Source Software (FOSS) focus",
+        "Active community maintenance",
+        "Extensive software alternatives",
+        "Deployment guides and resources"
+      ],
+      "categories": [
+        "Analytics",
+        "Automation",
+        "Backup",
+        "Blogging Platforms",
+        "Booking and Scheduling",
+        "Bookmarks and Link Sharing",
+        "Calendar & Contacts",
+        "Communication",
+        "Community-Supported Agriculture (CSA)",
+        "Conference Management",
+        "Content Management Systems (CMS)",
+        "Database Management",
+        "DNS",
+        "Document Management",
+        "E-commerce",
+        "Federated Identity & Authentication",
+        "Feed Readers",
+        "File Transfer & Synchronization",
+        "File Transfer - Object Storage & File Servers",
+        "File Transfer - Peer-to-peer Filesharing",
+        "File Transfer - Single-click & Drag-n-drop Upload",
+        "File Transfer - Web-based File Managers",
+        "Games",
+        "Gateways and Terminal Sharing",
+        "Genealogy",
+        "Groupware",
+        "Human Resources Management (HRM)",
+        "Internet of Things (IoT)",
+        "Knowledge Management Tools",
+        "Learning and Courses",
+        "Manufacturing",
+        "Maps and Global Positioning System (GPS)",
+        "Media Streaming",
+        "Miscellaneous",
+        "Money, Budgeting & Management",
+        "Monitoring",
+        "Note-taking & Editors",
+        "Office Suites",
+        "Password Managers",
+        "Pastebins",
+        "Personal Dashboards",
+        "Photo and Video Galleries",
+        "Polls and Events",
+        "Proxy",
+        "Recipe Management",
+        "Remote Access",
+        "Resource Planning",
+        "Search Engines",
+        "Self-hosting Solutions",
+        "Software Development",
+        "Static Site Generators",
+        "Task Management & To-do Lists",
+        "Ticketing",
+        "Time Tracking",
+        "URL Shorteners",
+        "Video Surveillance",
+        "VPN",
+        "Web Servers",
+        "Wikis"
+      ],
+      "structure": {
+        "type": "Markdown catalog with categories",
+        "format": "README.md with organized tool listings",
+        "maintenance": "Community-driven with frequent updates"
+      },
+      "migration_status": {
+        "status": "NOT_MIGRATED",
+        "priority": "LOW",
+        "recommended_action": "Migrate to COMBINED/reference/awesome-selfhosted/ - valuable reference material"
+      },
+      "use_cases": [
+        "Discovering self-hosted alternatives to cloud services",
+        "Finding FOSS tools for specific needs",
+        "Building self-hosted infrastructure",
+        "Privacy-focused software selection",
+        "Reference for recommending tools to users",
+        "AI agents can reference when suggesting self-hosted solutions"
+      ]
+    }
+  },
+  "migration_priorities": {
+    "LOW": [
+      {
+        "repository": "awesome-selfhosted-master",
+        "files_remaining": 1,
+        "reason": "Valuable reference catalog of 1000+ self-hosted tools"
+      }
+    ]
+  },
+  "recommended_actions_phase_2": [
+    {
+      "priority": "LOW",
+      "phase": "2.10",
+      "action": "Migrate awesome-selfhosted",
+      "details": {
+        "source": "Reference/awesome-selfhosted-master/",
+        "destination": "COMBINED/reference/awesome-selfhosted/",
+        "method": "MOVE entire repository preserving structure",
+        "files": 1,
+        "complexity": "LOW"
+      }
+    }
+  },
+  "key_insights": [
+    "200k+ GitHub stars - highly trusted resource",
+    "1000+ self-hosted applications cataloged",
+    "Organized into 60+ categories",
+    "FOSS (Free and Open Source Software) focus",
+    "Valuable for privacy-conscious users and developers",
+    "Can be referenced by AI agents when recommending tools",
+    "Covers every major software category",
+    "Active community maintenance ensures up-to-date information",
+    "Perfect reference for building self-hosted infrastructure",
+    "Provides alternatives to popular cloud services"
+  ],
+  "integration_potential": {
+    "ai_agents": "Agents can reference when users ask for tool recommendations",
+    "devops": "Reference for infrastructure planning and tool selection",
+    "privacy": "Privacy-focused alternative suggestions",
+    "cost_optimization": "Self-hosted alternatives to paid SaaS",
+    "research": "Understanding available FOSS ecosystem"
+  },
+  "totals": {
+    "repositories_analyzed": 1,
+    "total_files_in_source": 1,
+    "total_files_in_combined": 0,
+    "files_remaining": 1,
+    "tools_cataloged": "1000+",
+    "categories": 60,
+    "github_stars": "200k+",
+    "low_priority_files": 1
+  }
+}
