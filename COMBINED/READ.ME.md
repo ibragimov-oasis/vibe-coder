@@ -1,4 +1,176 @@
-КОМПЛЕКСНЫЙ АНАЛИЗ И ПЛАН СТРУКТУРЫ COMBINED/
+обновление: 04.04.2026
+🎯 REFINED STRUCTURE: HIERARCHICAL + PREFIX-SOURCE
+
+NEW COMBINED/
+│
+├── agents/                          # TOP-LEVEL CATEGORY
+│   ├── by-role/                     # Cross-repo aggregate (SPECIAL)
+│   │   ├── architect/
+│   │   ├── coder/
+│   │   ├── debugger/
+│   │   ├── planner/
+│   │   ├── reviewer/
+│   │   ├── security/
+│   │   ├── tester/
+│   │   ├── researcher/
+│   │   ├── ui-specialist/
+│   │   ├── writer/
+│   │   ├── manager/
+│   │   ├── scientist/
+│   │   ├── devops/
+│   │   └── business/
+│   │
+│   ├── by-interface/                # Organized by AI platform
+│   │   ├── agents-claude/           # All Claude agents
+│   │   ├── agents-copilot/          # All Copilot agents
+│   │   ├── agents-cursor/           # All Cursor agents
+│   │   ├── agents-antigravity/      # All Antigravity agents
+│   │   ├── agents-codex/            # All Codex agents
+│   │   └── agents-opencode/         # All OpenCode agents
+│   │
+│   ├── agents-ruflo/                # RuFlo agents
+│   ├── agents-omc/                  # oh-my-claudecode agents
+│   ├── agents-gsd/                  # get-shit-done agents
+│   ├── agents-superpowers/          # Superpowers agents
+│   ├── agents-claude-skills/        # Claude Skills agents
+│   ├── agents-deer-flow/            # DeerFlow agents
+│   ├── agents-shannon/              # Shannon pentester
+│   ├── agents-hermes/               # Hermes agents
+│   └── agents-background/           # Background agents
+│
+├── skills/                          # TOP-LEVEL CATEGORY
+│   ├── skills-ruflo/                # RuFlo skills
+│   ├── skills-omc/                  # oh-my-claudecode skills
+│   ├── skills-gsd/                  # get-shit-done skills
+│   ├── skills-superpowers/          # Superpowers skills (14)
+│   ├── skills-claude/               # Claude Skills (205)
+│   ├── skills-antigravity/          # Antigravity skills (1,340+)
+│   ├── skills-deer-flow/            # DeerFlow skills (15)
+│   ├── skills-hermes/               # Hermes skills
+│   ├── skills-copilot/              # Copilot skills
+│   ├── skills-awesome-claude/       # Awesome Claude Code
+│   ├── skills-everything-cc/        # Everything Claude Code
+│   ├── skills-seo/                  # All SEO skills
+│   ├── skills-research/             # All research skills
+│   ├── skills-design/               # All design skills
+│   ├── skills-data-analysis/        # Data analysis skills
+│   ├── skills-writing/              # Writing/content skills
+│   ├── skills-devops/               # DevOps skills
+│   ├── skills-platform/             # Platform-specific (Obsidian, etc.)
+│   └── skills-business/             # Business/growth skills
+│
+├── commands/                        # TOP-LEVEL CATEGORY
+│   ├── commands-gsd/                # get-shit-done commands (57!)
+│   ├── commands-superpowers/        # Superpowers commands
+│   ├── commands-shannon/            # Shannon commands
+│   ├── commands-omc/                # oh-my-claudecode commands
+│   └── commands-general/            # General/shared commands
+│
+├── hooks/                           # TOP-LEVEL CATEGORY
+│   ├── hooks-gsd/                   # get-shit-done hooks (5)
+│   ├── hooks-superpowers/           # Superpowers hooks (4)
+│   ├── hooks-ruflo/                 # RuFlo hooks
+│   ├── hooks-background-agents/     # Background agents hooks
+│   └── hooks-omc/                   # oh-my-claudecode hooks
+│
+├── orchestration/                   # TOP-LEVEL CATEGORY
+│   ├── core-ruflo/                  # RuFlo: plugin, v2, v3, versions, docs
+│   ├── core-omc/                    # OMC: bridge, src, templates, tests
+│   ├── core-gsd/                    # GSD: sdk, bin, tests
+│   ├── core-deer-flow/              # DeerFlow: backend, frontend, docker
+│   ├── core-hermes/                 # Hermes: cli, gateway, tools
+│   ├── core-background-agents/      # Background: control-plane, bots, runtime
+│   ├── core-1code/                  # 1code desktop app
+│   ├── core-vibe-kanban/            # Vibe-Kanban
+│   └── workflows-terraform/         # Terraform IaC workflows
+│
+├── prompts/                         # TOP-LEVEL CATEGORY
+│   ├── prompts-system/              # All system prompts merged
+│   │   ├── claude/
+│   │   ├── cursor/
+│   │   ├── copilot/
+│   │   ├── chatgpt/
+│   │   ├── devin/
+│   │   ├── windsurf/
+│   │   ├── lovable/
+│   │   ├── replit/
+│   │   ├── gemini/
+│   │   └── [30+ AI tools]/
+│   ├── prompts-templates/           # All prompt templates
+│   │   ├── prompts-chat/            # prompts.chat library
+│   │   ├── vibe-coding/
+│   │   ├── claude-skills/
+│   │   └── optimization/
+│   ├── prompts-leaked/              # Leaked system prompts
+│   └── prompts-security/            # Shannon security prompts
+│
+├── memory/                          # TOP-LEVEL CATEGORY
+│   ├── memory-claude-mem/           # Claude-Mem system
+│   ├── memory-supermemory/          # Supermemory system
+│   ├── memory-openviking/           # OpenViking system
+│   └── memory-configs/              # All memory configurations
+│
+├── mcp-servers/                     # TOP-LEVEL CATEGORY
+│   ├── mcp-gitnexus/                # GitNexus codebase knowledge graph
+│   ├── mcp-lightpanda/              # Lightpanda browser (9x faster)
+│   ├── mcp-hermes/                  # Hermes MCP server
+│   ├── mcp-nano-banana/             # Nano-Banana Gemini image MCP
+│   ├── mcp-openviking/              # OpenViking MCP
+│   ├── mcp-pretext/                 # Pretext layout MCP
+│   └── mcp-configs/                 # All MCP plugin configs
+│
+├── ui-design/                       # TOP-LEVEL CATEGORY
+│   ├── ui-components-galaxy/        # Galaxy 3,000+ Uiverse components
+│   ├── ui-components-shadcn/        # shadcn/ui React components
+│   ├── ui-rules/                    # UI UX Pro Max rules (161 + 67)
+│   └── ui-cursor-rules/             # All .cursorrules files
+│
+├── security/                        # TOP-LEVEL CATEGORY
+│   ├── security-shannon/            # Shannon AI pentester
+│   │   ├── apps/
+│   │   ├── configs/
+│   │   └── prompts/
+│   └── security-reports/            # Security audit reports
+│
+├── reference/                       # TOP-LEVEL CATEGORY
+│   └── reference-selfhosted/        # Awesome Self-Hosted catalog
+│
+└── [Documentation files at root]
+    ├── INDEX.md
+    ├── README.md
+    ├── PHASE_1_SUMMARY.md
+    ├── PHASE_2_COMPLETE.md
+    ├── PHASE_3_COMPLETE.md
+    ├── PHASE_4_PLAN.md
+    ├── PHASE_5_PLAN.md
+    ├── PHASE_6_PLAN.md
+    ├── COMPLETE_STATUS_REPORT.md
+    ├── QUICK_START_PHASES_4-6.md
+    └── [other docs]
+    🎯 KEY STRUCTURE PRINCIPLES:
+
+Top-level categories = agents/, skills/, commands/, hooks/, orchestration/, prompts/, memory/, mcp-servers/, ui-design/, security/, reference/
+
+Inside each category = PREFIX-SOURCE folders (agents-ruflo/, skills-antigravity/, etc.)
+
+Special cases:
+
+agents/by-role/ - Cross-repo aggregate organized by function
+agents/by-interface/ - Further organized by AI platform
+orchestration/ uses core-* prefix for unique system components
+Super structured =
+
+First level: WHAT (agents, skills, commands)
+Second level: FROM WHERE (ruflo, omc, gsd, antigravity)
+Easy navigation: cd agents/ then ls to see all agent sources
+✅ BENEFITS:
+
+Category clarity - Know immediately if you're looking for agents, skills, or commands
+Source transparency - Within each category, see all sources at a glance
+No deep nesting - Maximum 2 levels deep (category → source)
+Easy comparison - All ruflo stuff together, all gsd stuff together
+Intuitive navigation - Follows mental model: "I need an agent" → cd agents/ → ls
+было : КОМПЛЕКСНЫЙ АНАЛИЗ И ПЛАН СТРУКТУРЫ COMBINED/
 ЧАСТЬ 1: ОБЩИЕ ПАТТЕРНЫ МЕЖДУ РЕПОЗИТОРИЯМИ
 1.1 Общие элементы во ВСЕХ категориях:
 Agents (определения агентов):
