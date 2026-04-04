@@ -22,7 +22,7 @@ The Vibe-Coder Arsenal includes 5 powerful orchestration systems, each with uniq
 
 ## 🌊 RuFlo v3.5 — Enterprise AI Orchestration Platform
 
-**Location:** `Orchestration/ruflo/`
+**Location:** `orchestration/core-ruflo/`
 
 ### What It Is
 
@@ -101,7 +101,7 @@ The main config file is `claude/settings.json`:
 
 ## 🦌 DeerFlow 2.0 — Super Agent Harness
 
-**Location:** `Orchestration/deer-flow/`
+**Location:** `orchestration/core-deer-flow/`
 
 ### What It Is
 
@@ -171,7 +171,7 @@ deer-flow/
 
 ## 💪 GET SHIT DONE (GSD) — Context Engineering System
 
-**Location:** `Orchestration/get-shit-done/`
+**Location:** `orchestration/core-gsd/`
 
 ### What It Is
 
@@ -229,7 +229,7 @@ npx get-shit-done-cc@latest
 
 ## 🎯 oh-my-claudecode (OMC) — Zero Learning Curve Orchestration
 
-**Location:** `Orchestration/oh-my-claudecode/`
+**Location:** `orchestration/core-omc/`
 
 ### What It Is
 
@@ -298,7 +298,7 @@ team-plan → team-prd → team-exec → team-verify → team-fix
 
 ## ⚡ Superpowers — Composable Skills Workflow
 
-**Location:** `Orchestration/superpowers/`
+**Location:** `orchestration/superpowers/`
 
 ### What It Is
 
@@ -438,11 +438,11 @@ npx get-shit-done-cc@latest
 
 | System | Documentation |
 |--------|---------------|
-| RuFlo | `Orchestration/ruflo/README.md` |
-| DeerFlow | `Orchestration/deer-flow/README.md` |
-| GSD | `Orchestration/get-shit-done/docs/USER-GUIDE.md` |
-| OMC | `Orchestration/oh-my-claudecode/docs/` |
-| Superpowers | `Orchestration/superpowers/skills/` |
+| RuFlo | `orchestration/core-ruflo/README.md` |
+| DeerFlow | `orchestration/core-deer-flow/README.md` |
+| GSD | `orchestration/core-gsd/docs/USER-GUIDE.md` |
+| OMC | `orchestration/core-omc/docs/` |
+| Superpowers | `orchestration/superpowers/skills/` |
 
 ---
 
