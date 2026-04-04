@@ -30,7 +30,8 @@
 - НЕ создавать монолитные файлы ("всё в один .md")
 - НЕ конвертировать Python/YAML/JSON в markdown
 - НЕ смешивать роли (дебаггер ≠ тестер ≠ дизайнер)
-- НЕ удалять ничего из оригиналов (пока только перемещение)
+- **НЕ УДАЛЯТЬ НИЧЕГО ВООБЩЕ** - только перемещение, никакого удаления файлов
+- НЕ копировать файлы - только перемещать (mv, не cp)
 - НЕ пропускать README файлы
 
 ---
@@ -214,12 +215,53 @@ find UI-UX/ui/ -name "*.tsx" -o -name "*.jsx" | wc -l
 
 ### Фаза 1.6: Создание Мастер-Индекса
 **Время:** ~30 минут
+**Статус выполнения:** ⏳ Следующий этап
 
 **Задачи:**
 1. Объединить все *_analysis.json в один MASTER_INDEX.json
 2. Создать карту миграции: source → destination
 3. Определить приоритеты (High/Medium/Low)
 4. Подсчитать общее количество операций перемещения
+
+**Команды:**
+```bash
+# Создать скрипт объединения
+cat > /tmp/create_master_index.py << 'EOF'
+#!/usr/bin/env python3
+import json
+import glob
+from pathlib import Path
+
+master_index = {
+    "created": "2026-04-04",
+    "repositories": {},
+    "total_files": 0,
+    "categories": {}
+}
+
+# Читаем все analysis.json файлы
+for analysis_file in glob.glob("COMBINED/*_analysis.json"):
+    with open(analysis_file) as f:
+        data = json.load(f)
+        category = Path(analysis_file).stem.replace("_analysis", "")
+        master_index["categories"][category] = data
+
+# Подсчёт файлов
+for cat_name, cat_data in master_index["categories"].items():
+    if "repositories" in cat_data:
+        for repo_name, repo_data in cat_data["repositories"].items():
+            if "file_count" in repo_data:
+                master_index["total_files"] += repo_data["file_count"]
+
+# Сохранить
+with open("COMBINED/MASTER_INDEX.json", "w") as f:
+    json.dump(master_index, f, indent=2, ensure_ascii=False)
+
+print(f"✅ Создан MASTER_INDEX.json с {master_index['total_files']} файлами")
+EOF
+
+python3 /tmp/create_master_index.py
+```
 
 **Результат:**
 - `COMBINED/MASTER_INDEX.json` - полная карта репозитория
@@ -555,8 +597,8 @@ mv Orchestration/deer-flow/skills/public/github-deep-research/ COMBINED/skills/r
 # Design
 mv Orchestration/deer-flow/skills/public/frontend-design/ COMBINED/skills/design/deer-flow-frontend-design/
 mv Orchestration/deer-flow/skills/public/image-generation/ COMBINED/skills/design/deer-flow-image-generation/
-# Также копия в UI:
-cp -r COMBINED/skills/design/deer-flow-frontend-design/ COMBINED/ui-design/ui-rules/deer-flow-frontend-design/
+# Также создать симлинк в UI (НЕ копировать):
+# ln -s ../../skills/design/deer-flow-frontend-design/ COMBINED/ui-design/ui-rules/deer-flow-frontend-design
 
 # Writing
 mv Orchestration/deer-flow/skills/public/podcast-generation/ COMBINED/skills/writing/deer-flow-podcast/
@@ -1177,7 +1219,8 @@ COMBINED/
 1. **Старые MEGA_*.md файлы:** Оставить как есть (не трогать)
 2. **_combined/ папка:** Не интегрировать в новую структуру
 3. **Порядок работы:** Репо за репо, а не по папкам
-4. **Перемещение vs Копирование:** ПЕРЕМЕЩАТЬ для отслеживания leftovers
+4. **Перемещение vs Копирование:** ТОЛЬКО ПЕРЕМЕЩАТЬ (mv), НЕ копировать (cp) - для отслеживания leftovers
+5. **Удаление файлов:** НЕ УДАЛЯТЬ НИЧЕГО ВООБЩЕ - только перемещение, никаких rm/delete команд
 
 ---
 
