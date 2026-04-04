@@ -13,7 +13,7 @@
   "repositories": {
     "galaxy": {
       "source": "UI-UX/galaxy/",
-      "combined_location": "COMBINED/ui-design/components/galaxy/",
+      "combined_location": "COMBINED/ui-design/ui-components-galaxy/",
       "type": "3,000+ UI elements from Uiverse.io",
       "description": "Massive collection of unique, creative UI components",
       "statistics": {
@@ -37,7 +37,7 @@
     },
     "ui (shadcn)": {
       "source": "UI-UX/ui/",
-      "combined_location": "COMBINED/ui-design/components/shadcn/",
+      "combined_location": "COMBINED/ui-design/ui-components-shadcn/",
       "type": "shadcn/ui React components",
       "description": "Beautifully designed, customizable React components built with Radix UI and Tailwind CSS",
       "statistics": {
@@ -57,12 +57,12 @@
       "migration_status": {
         "status": "PARTIALLY_MIGRATED",
         "priority": "LOW",
-        "recommended_action": "Complete migration to COMBINED/ui-design/components/shadcn/"
+        "recommended_action": "Complete migration to COMBINED/ui-design/ui-components-shadcn/"
       }
     },
     "ui-ux-pro-max-skill": {
       "source": "UI-UX/ui-ux-pro-max-skill/",
-      "combined_location": "COMBINED/ui-design/rules/ui-ux-pro-max/",
+      "combined_location": "COMBINED/ui-design/ui-rules/ui-ux-pro-max/",
       "type": "161 reasoning rules + 67 styles for AI-generated UIs",
       "description": "Comprehensive design system rules for AI-assisted UI generation",
       "statistics": {
@@ -105,9 +105,9 @@
   "additional_ui_resources": {
     "cursor_rules": {
       "source": ".cursorrules + .cursor/rules/",
-      "combined_location": "COMBINED/ui-design/cursor-rules/",
+      "combined_location": "COMBINED/ui-design/ui-cursor-rules/",
       "description": "Cursor AI UI rules and configurations",
-      "migration_status": "Already migrated to COMBINED/ui-design/cursor-rules/"
+      "migration_status": "Already migrated to COMBINED/ui-design/ui-cursor-rules/"
     }
   },
   "migration_priorities": {
@@ -143,7 +143,7 @@
       "action": "Complete shadcn/ui migration",
       "details": {
         "source": "UI-UX/ui/",
-        "destination": "COMBINED/ui-design/components/shadcn/",
+        "destination": "COMBINED/ui-design/ui-components-shadcn/",
         "method": "MOVE remaining file",
         "files": 1,
         "complexity": "LOW"

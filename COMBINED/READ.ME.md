@@ -403,7 +403,7 @@ Agents/background-agents/_husky/                → COMBINED/hooks/pre-commit/ba
 
 Code
 
-Agents/shannon/apps/worker/prompts/             → COMBINED/prompts/security/shannon/
+Agents/shannon/apps/worker/prompts/             → COMBINED/prompts/security/security-shannon/
 Prompts/prompts.chat/                           → COMBINED/prompts/templates/prompts-chat/
 Prompts/system-prompts-and-models*/             → COMBINED/prompts/system-prompts/ (merge)
 Prompts/system-prompts/                         → COMBINED/prompts/system-prompts/ (merge)
@@ -436,21 +436,21 @@ Skills/antigravity*/_claude-plugin/             → COMBINED/mcp-servers/configs
 
 Code
 
-Agents/shannon/                                 → COMBINED/security/shannon/
-Agents/shannon/sample-reports/                  → COMBINED/security/reports/shannon-samples/
+Agents/shannon/                                 → COMBINED/security/security-shannon/
+Agents/shannon/sample-reports/                  → COMBINED/security/security-reports/shannon-samples/
 3.10 UI/UX Migration
 
 Code
 
-UI-UX/galaxy/                                   → COMBINED/ui-design/components/galaxy/
-UI-UX/ui/ (shadcn)                              → COMBINED/ui-design/components/shadcn/
-UI-UX/ui-ux-pro-max-skill/                      → COMBINED/ui-design/rules/ui-ux-pro-max/
-.cursorrules + .cursor/rules/                   → COMBINED/ui-design/cursor-rules/
+UI-UX/galaxy/                                   → COMBINED/ui-design/ui-components-galaxy/
+UI-UX/ui/ (shadcn)                              → COMBINED/ui-design/ui-components-shadcn/
+UI-UX/ui-ux-pro-max-skill/                      → COMBINED/ui-design/ui-rules/ui-ux-pro-max/
+.cursorrules + .cursor/rules/                   → COMBINED/ui-design/ui-cursor-rules/
 3.11 Reference Migration
 
 Code
 
-Reference/awesome-selfhosted-master/            → COMBINED/reference/awesome-selfhosted/
+Reference/reference-selfhosted/            → COMBINED/reference/reference-selfhosted/
 
 ЧАСТЬ 4: СПЕЦИАЛЬНЫЕ ПРАВИЛА ОБЪЕДИНЕНИЯ
 4.1 System Prompts (3 источника → 1 папка)

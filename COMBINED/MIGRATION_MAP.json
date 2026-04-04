@@ -8,7 +8,7 @@
       "source": "Agents/shannon/claude/",
       "target": "COMBINED/agents/by-interface/claude/shannon/",
       "priority": "HIGH",
-      "notes": "Security agents and commands; distribute prompts to COMBINED/prompts/security/shannon/"
+      "notes": "Security agents and commands; distribute prompts to COMBINED/prompts/security/security-shannon/"
     },
     {
       "category": "agents",
@@ -250,7 +250,7 @@
     {
       "category": "prompts",
       "source": "Agents/shannon/apps/worker/prompts/",
-      "target": "COMBINED/prompts/security/shannon/",
+      "target": "COMBINED/prompts/security/security-shannon/",
       "priority": "MEDIUM"
     },
     {
@@ -378,43 +378,43 @@
     {
       "category": "security",
       "source": "Agents/shannon/",
-      "target": "COMBINED/security/shannon/",
+      "target": "COMBINED/security/security-shannon/",
       "priority": "MEDIUM"
     },
     {
       "category": "security",
       "source": "Agents/shannon/sample-reports/",
-      "target": "COMBINED/security/reports/shannon-samples/",
+      "target": "COMBINED/security/security-reports/shannon-samples/",
       "priority": "LOW"
     },
     {
       "category": "ui-design",
       "source": "UI-UX/galaxy/",
-      "target": "COMBINED/ui-design/components/galaxy/",
+      "target": "COMBINED/ui-design/ui-components-galaxy/",
       "priority": "SKIP"
     },
     {
       "category": "ui-design",
       "source": "UI-UX/ui/",
-      "target": "COMBINED/ui-design/components/shadcn/",
+      "target": "COMBINED/ui-design/ui-components-shadcn/",
       "priority": "LOW"
     },
     {
       "category": "ui-design",
       "source": "UI-UX/ui-ux-pro-max-skill/",
-      "target": "COMBINED/ui-design/rules/ui-ux-pro-max/",
+      "target": "COMBINED/ui-design/ui-rules/ui-ux-pro-max/",
       "priority": "SKIP"
     },
     {
       "category": "ui-design",
       "source": ".cursorrules + .cursor/rules/",
-      "target": "COMBINED/ui-design/cursor-rules/",
+      "target": "COMBINED/ui-design/ui-cursor-rules/",
       "priority": "LOW"
     },
     {
       "category": "reference",
-      "source": "Reference/awesome-selfhosted-master/",
-      "target": "COMBINED/reference/awesome-selfhosted/",
+      "source": "Reference/reference-selfhosted/",
+      "target": "COMBINED/reference/reference-selfhosted/",
       "priority": "LOW"
     }
   ],

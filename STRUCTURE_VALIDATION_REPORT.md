@@ -293,7 +293,7 @@ reference/
 |-------------------|------|-------------------|---------------|---------|
 | `Agents/background-agents/` | 160K | `agents/orchestrators/` | 6.1M | ✅ Migrated |
 | `Agents/hermes-agent/` | 3.0M | `agents/orchestrators/` | 13M | ✅ Migrated |
-| `Agents/shannon/` | 36K | `security/shannon/` | 328K | ✅ Migrated |
+| `Agents/shannon/` | 36K | `security/security-shannon/` | 328K | ✅ Migrated |
 | `Tools/GitNexus/` | 80K | `mcp-servers/gitnexus/` | 11M | ✅ Migrated |
 | `Tools/OpenViking/` | 560K | `mcp-servers/openviking/` | 23M | ✅ Migrated |
 | `Tools/browser/` | 48K | `mcp-servers/lightpanda/` | 7.0M | ✅ Migrated |
@@ -301,9 +301,9 @@ reference/
 | `Tools/nano-banana-2-mcp/` | 16K | `mcp-servers/nano-banana/` | 324K | ✅ Migrated |
 | `Tools/pretext/` | 32K | `mcp-servers/pretext/` | 7.2M | ✅ Migrated |
 | `Tools/supermemory/` | 12K | `memory/supermemory/` | 6.4M | ✅ Migrated |
-| `UI-UX/galaxy/` | 16K | `ui-design/components/galaxy/` | Migrated | ✅ Migrated |
-| `UI-UX/ui/` | 120K | `ui-design/components/shadcn/` | Migrated | ✅ Migrated |
-| `UI-UX/ui-ux-pro-max-skill/` | 6.3M | `ui-design/rules/ui-ux-pro-max/` | Migrated | ✅ Migrated |
+| `UI-UX/galaxy/` | 16K | `ui-design/ui-components-galaxy/` | Migrated | ✅ Migrated |
+| `UI-UX/ui/` | 120K | `ui-design/ui-components-shadcn/` | Migrated | ✅ Migrated |
+| `UI-UX/ui-ux-pro-max-skill/` | 6.3M | `ui-design/ui-rules/ui-ux-pro-max/` | Migrated | ✅ Migrated |
 
 **Key Insight:** COMBINED directories are 10-100x larger than originals, confirming complete migration.
 

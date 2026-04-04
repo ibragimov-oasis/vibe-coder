@@ -155,12 +155,12 @@ ui-design/
 |----------|--------|----------|--------|-------------|
 | Agents/background-agents | 160K | agents/orchestrators/ | **6.1M** | **38x** ✅ |
 | Agents/hermes | 3.0M | agents/orchestrators/ | **13M** | **4.3x** ✅ |
-| Agents/shannon | 36K | security/shannon/ | **328K** | **9x** ✅ |
+| Agents/shannon | 36K | security/security-shannon/ | **328K** | **9x** ✅ |
 | Tools/GitNexus | 80K | mcp-servers/gitnexus/ | **11M** | **137x** ✅ |
 | Tools/OpenViking | 560K | mcp-servers/openviking/ | **23M** | **41x** ✅ |
 | Tools/browser | 48K | mcp-servers/lightpanda/ | **7.0M** | **145x** ✅ |
 | Tools/claude-mem | 252K | memory/claude-mem/ | **68M** | **270x** ✅ |
-| UI-UX/ui-ux-pro-max | 6.3M | ui-design/rules/ | Мигрировано | ✅ |
+| UI-UX/ui-ux-pro-max | 6.3M | ui-design/ui-rules/ | Мигрировано | ✅ |
 
 **Вывод:** COMBINED директории в **10-270 раз больше** оригиналов!
 
