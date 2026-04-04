@@ -274,16 +274,16 @@ mv Agents/shannon/.claude/commands/review.md COMBINED/commands/review/shannon-re
 
 # 2. Конфиги Claude
 mv Agents/shannon/CLAUDE.md COMBINED/agents/by-interface/claude/shannon-CLAUDE.md
-mv Agents/shannon/COVERAGE.md COMBINED/security/shannon/COVERAGE.md
+mv Agents/shannon/COVERAGE.md COMBINED/security/security-shannon/COVERAGE.md
 
 # 3. Security файлы
-mv Agents/shannon/sample-reports/* COMBINED/security/reports/shannon-samples/
-mv Agents/shannon/apps/ COMBINED/security/shannon/apps/
-mv Agents/shannon/workspaces/ COMBINED/security/shannon/workspaces/
-mv Agents/shannon/repos/ COMBINED/security/shannon/repos/
+mv Agents/shannon/sample-reports/* COMBINED/security/security-reports/shannon-samples/
+mv Agents/shannon/apps/ COMBINED/security/security-shannon/apps/
+mv Agents/shannon/workspaces/ COMBINED/security/security-shannon/workspaces/
+mv Agents/shannon/repos/ COMBINED/security/security-shannon/repos/
 
 # 4. Security prompts
-mv Agents/shannon/apps/worker/prompts/* COMBINED/prompts/security/shannon/
+mv Agents/shannon/apps/worker/prompts/* COMBINED/prompts/security/security-shannon/
 ```
 
 **Индексация:** Записать каждое перемещение в INDEX_MOVEMENTS.json
@@ -556,7 +556,7 @@ mv Orchestration/deer-flow/skills/public/github-deep-research/ COMBINED/skills/r
 mv Orchestration/deer-flow/skills/public/frontend-design/ COMBINED/skills/design/deer-flow-frontend-design/
 mv Orchestration/deer-flow/skills/public/image-generation/ COMBINED/skills/design/deer-flow-image-generation/
 # Также копия в UI:
-cp -r COMBINED/skills/design/deer-flow-frontend-design/ COMBINED/ui-design/rules/deer-flow-frontend-design/
+cp -r COMBINED/skills/design/deer-flow-frontend-design/ COMBINED/ui-design/ui-rules/deer-flow-frontend-design/
 
 # Writing
 mv Orchestration/deer-flow/skills/public/podcast-generation/ COMBINED/skills/writing/deer-flow-podcast/
@@ -674,7 +674,7 @@ mv Prompts/system_prompts_leaks/ COMBINED/prompts/leaked/system_prompts_leaks/
 ```bash
 # Shannon security prompts - уже перемещено в 2.2.1
 # Проверить:
-ls -la COMBINED/prompts/security/shannon/
+ls -la COMBINED/prompts/security/security-shannon/
 ```
 
 ---
@@ -731,17 +731,17 @@ ls -la COMBINED/mcp-servers/configs/
 
 ```bash
 # Galaxy (3,000+ components)
-mv UI-UX/galaxy/ COMBINED/ui-design/components/galaxy/
+mv UI-UX/galaxy/ COMBINED/ui-design/ui-components-galaxy/
 
 # shadcn/ui
-mv UI-UX/ui/ COMBINED/ui-design/components/shadcn/
+mv UI-UX/ui/ COMBINED/ui-design/ui-components-shadcn/
 
 # UI UX Pro Max (161 rules + 67 styles)
-mv UI-UX/ui-ux-pro-max-skill/ COMBINED/ui-design/rules/ui-ux-pro-max/
+mv UI-UX/ui-ux-pro-max-skill/ COMBINED/ui-design/ui-rules/ui-ux-pro-max/
 
 # Cursor rules
-mv .cursorrules COMBINED/ui-design/cursor-rules/root-cursorrules
-mv .cursor/rules/ COMBINED/ui-design/cursor-rules/cursor-rules/
+mv .cursorrules COMBINED/ui-design/ui-cursor-rules/root-cursorrules
+mv .cursor/rules/ COMBINED/ui-design/ui-cursor-rules/cursor-rules/
 ```
 
 ---
@@ -751,7 +751,7 @@ mv .cursor/rules/ COMBINED/ui-design/cursor-rules/cursor-rules/
 
 ```bash
 # Awesome Self-Hosted
-mv Reference/awesome-selfhosted-master/ COMBINED/reference/awesome-selfhosted/
+mv Reference/reference-selfhosted/ COMBINED/reference/reference-selfhosted/
 ```
 
 ---

@@ -65,7 +65,7 @@
           "migration_needed": true,
           "migration_targets": {
             "commands": "Commands not yet migrated to COMBINED/commands/",
-            "prompts": "Security prompts not yet migrated to COMBINED/prompts/security/shannon/",
+            "prompts": "Security prompts not yet migrated to COMBINED/prompts/security/security-shannon/",
             "configs": "Build/deployment configs (skip migration)"
           }
         },
@@ -238,7 +238,7 @@
       },
       "recommended_actions": [
         "1. Migrate shannon/claude/commands/ (3 files) → COMBINED/commands/debug/ and COMBINED/commands/review/",
-        "2. Migrate shannon/apps/worker/prompts/ (30 files) → COMBINED/prompts/security/shannon/",
+        "2. Migrate shannon/apps/worker/prompts/ (30 files) → COMBINED/prompts/security/security-shannon/",
         "3. Review hermes optional-skills (15 categories) for proper skill categorization in COMBINED/skills/",
         "4. Skip migration of build artifacts: Dockerfile, docker-compose.yml, package.json, tsconfig.json, pnpm-lock.yaml",
         "5. Skip migration of test files unless they contain reusable test utilities",
@@ -1275,7 +1275,7 @@
         "System prompts span 30+ AI tools - needs organized structure",
         "Leaked prompts provide historical context - research value",
         "Vibe coding templates enable workflow automation",
-        "Shannon security prompts already in COMBINED/prompts/security/shannon/",
+        "Shannon security prompts already in COMBINED/prompts/security/security-shannon/",
         "Most migration already complete - 98% in COMBINED"
       ],
       "totals": {
@@ -1601,7 +1601,7 @@
       "repositories": {
         "galaxy": {
           "source": "UI-UX/galaxy/",
-          "combined_location": "COMBINED/ui-design/components/galaxy/",
+          "combined_location": "COMBINED/ui-design/ui-components-galaxy/",
           "type": "3,000+ UI elements from Uiverse.io",
           "description": "Massive collection of unique, creative UI components",
           "statistics": {
@@ -1625,7 +1625,7 @@
         },
         "ui (shadcn)": {
           "source": "UI-UX/ui/",
-          "combined_location": "COMBINED/ui-design/components/shadcn/",
+          "combined_location": "COMBINED/ui-design/ui-components-shadcn/",
           "type": "shadcn/ui React components",
           "description": "Beautifully designed, customizable React components built with Radix UI and Tailwind CSS",
           "statistics": {
@@ -1645,12 +1645,12 @@
           "migration_status": {
             "status": "PARTIALLY_MIGRATED",
             "priority": "LOW",
-            "recommended_action": "Complete migration to COMBINED/ui-design/components/shadcn/"
+            "recommended_action": "Complete migration to COMBINED/ui-design/ui-components-shadcn/"
           }
         },
         "ui-ux-pro-max-skill": {
           "source": "UI-UX/ui-ux-pro-max-skill/",
-          "combined_location": "COMBINED/ui-design/rules/ui-ux-pro-max/",
+          "combined_location": "COMBINED/ui-design/ui-rules/ui-ux-pro-max/",
           "type": "161 reasoning rules + 67 styles for AI-generated UIs",
           "description": "Comprehensive design system rules for AI-assisted UI generation",
           "statistics": {
@@ -1693,9 +1693,9 @@
       "additional_ui_resources": {
         "cursor_rules": {
           "source": ".cursorrules + .cursor/rules/",
-          "combined_location": "COMBINED/ui-design/cursor-rules/",
+          "combined_location": "COMBINED/ui-design/ui-cursor-rules/",
           "description": "Cursor AI UI rules and configurations",
-          "migration_status": "Already migrated to COMBINED/ui-design/cursor-rules/"
+          "migration_status": "Already migrated to COMBINED/ui-design/ui-cursor-rules/"
         }
       },
       "migration_priorities": {
@@ -1731,7 +1731,7 @@
           "action": "Complete shadcn/ui migration",
           "details": {
             "source": "UI-UX/ui/",
-            "destination": "COMBINED/ui-design/components/shadcn/",
+            "destination": "COMBINED/ui-design/ui-components-shadcn/",
             "method": "MOVE remaining file",
             "files": 1,
             "complexity": "LOW"
@@ -1805,9 +1805,9 @@
         "files_remaining": 1
       },
       "repositories": {
-        "awesome-selfhosted-master": {
-          "source": "Reference/awesome-selfhosted-master/",
-          "combined_location": "COMBINED/reference/awesome-selfhosted/",
+        "reference-selfhosted": {
+          "source": "Reference/reference-selfhosted/",
+          "combined_location": "COMBINED/reference/reference-selfhosted/",
           "type": "Self-hosted tools catalog",
           "description": "Comprehensive catalog of Free Software network services and web applications which can be hosted on your own server",
           "statistics": {
@@ -1894,7 +1894,7 @@
           "migration_status": {
             "status": "NOT_MIGRATED",
             "priority": "LOW",
-            "recommended_action": "Migrate to COMBINED/reference/awesome-selfhosted/ - valuable reference material"
+            "recommended_action": "Migrate to COMBINED/reference/reference-selfhosted/ - valuable reference material"
           },
           "use_cases": [
             "Discovering self-hosted alternatives to cloud services",
@@ -1909,7 +1909,7 @@
       "migration_priorities": {
         "LOW": [
           {
-            "repository": "awesome-selfhosted-master",
+            "repository": "reference-selfhosted",
             "files_remaining": 1,
             "reason": "Valuable reference catalog of 1000+ self-hosted tools"
           }
@@ -1921,8 +1921,8 @@
           "phase": "2.10",
           "action": "Migrate awesome-selfhosted",
           "details": {
-            "source": "Reference/awesome-selfhosted-master/",
-            "destination": "COMBINED/reference/awesome-selfhosted/",
+            "source": "Reference/reference-selfhosted/",
+            "destination": "COMBINED/reference/reference-selfhosted/",
             "method": "MOVE entire repository preserving structure",
             "files": 1,
             "complexity": "LOW"

@@ -551,7 +551,7 @@ prompts/
   ├── system-prompts/    # 30+ AI tools
   ├── templates/
   ├── leaked/
-  └── security/shannon/
+  └── security/security-shannon/
 
 # NEW STRUCTURE
 prompts/

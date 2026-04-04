@@ -140,7 +140,7 @@ for f in ["CLAUDE.md", "README.md", "SHANNON-PRO.md", "COVERAGE.md", "Dockerfile
           "docker-compose.yml", "entrypoint.sh", "package.json", "biome.json",
           "tsconfig.base.json", "tsconfig.json", "turbo.json", "pnpm-workspace.yaml",
           "env.example", "releaserc.json", "dockerignore", "gitignore", "npmrc", "shannon"]:
-    copy_file(f"Agents/shannon/{f}", f"security/shannon/{f}")
+    copy_file(f"Agents/shannon/{f}", f"security/security-shannon/{f}")
 
 # Sample reports
 copy_dir("Agents/shannon/sample-reports", "security/reports")
@@ -149,22 +149,22 @@ copy_dir("Agents/shannon/sample-reports", "security/reports")
 copy_dir("Agents/shannon/apps/worker/prompts", "prompts/security")
 
 # Worker configs
-copy_dir("Agents/shannon/apps/worker/configs", "security/shannon/configs")
+copy_dir("Agents/shannon/apps/worker/configs", "security/security-shannon/configs")
 
 # CLI and Worker source code
-copy_dir("Agents/shannon/apps/cli/src", "security/shannon/apps/cli/src")
-copy_dir("Agents/shannon/apps/worker/src", "security/shannon/apps/worker/src")
-copy_file("Agents/shannon/apps/cli/README.md", "security/shannon/apps/cli/README.md")
-copy_file("Agents/shannon/apps/cli/package.json", "security/shannon/apps/cli/package.json")
-copy_file("Agents/shannon/apps/cli/tsconfig.json", "security/shannon/apps/cli/tsconfig.json")
-copy_file("Agents/shannon/apps/worker/package.json", "security/shannon/apps/worker/package.json")
-copy_file("Agents/shannon/apps/worker/tsconfig.json", "security/shannon/apps/worker/tsconfig.json")
+copy_dir("Agents/shannon/apps/cli/src", "security/security-shannon/apps/cli/src")
+copy_dir("Agents/shannon/apps/worker/src", "security/security-shannon/apps/worker/src")
+copy_file("Agents/shannon/apps/cli/README.md", "security/security-shannon/apps/cli/README.md")
+copy_file("Agents/shannon/apps/cli/package.json", "security/security-shannon/apps/cli/package.json")
+copy_file("Agents/shannon/apps/cli/tsconfig.json", "security/security-shannon/apps/cli/tsconfig.json")
+copy_file("Agents/shannon/apps/worker/package.json", "security/security-shannon/apps/worker/package.json")
+copy_file("Agents/shannon/apps/worker/tsconfig.json", "security/security-shannon/apps/worker/tsconfig.json")
 
 # Infra
-copy_dir("Agents/shannon/apps/cli/infra", "security/shannon/apps/cli/infra")
+copy_dir("Agents/shannon/apps/cli/infra", "security/security-shannon/apps/cli/infra")
 
 # GitHub workflows
-copy_dir("Agents/shannon/github", "security/shannon/github")
+copy_dir("Agents/shannon/github", "security/security-shannon/github")
 
 print(f"  ✅ Shannon: {copied} files copied")
 repo1_count = copied
@@ -442,7 +442,7 @@ if skills_pub.exists():
                      skill_category_map[skill_dir.name])
 
 # Also copy frontend-design to ui-design
-copy_dir("Orchestration/deer-flow/skills/public/frontend-design", "ui-design/rules/deer-flow-frontend-design")
+copy_dir("Orchestration/deer-flow/skills/public/frontend-design", "ui-design/ui-rules/deer-flow-frontend-design")
 
 # Backend
 copy_dir("Orchestration/deer-flow/backend", "orchestration/deer-flow/backend")
@@ -675,11 +675,11 @@ copy_dir("Tools/pretext", "mcp-servers/pretext")
 print(f"  ✅ pretext: {copied - prev} files copied")
 
 # ═══════════════════════════════════════
-# REPO 29: Reference/awesome-selfhosted-master/
+# REPO 29: Reference/reference-selfhosted/
 # ═══════════════════════════════════════
-print("📁 REPO 29: Reference/awesome-selfhosted-master/")
+print("📁 REPO 29: Reference/reference-selfhosted/")
 prev = copied
-copy_dir("Reference/awesome-selfhosted-master", "prompts/templates/selfhosted")
+copy_dir("Reference/reference-selfhosted", "prompts/templates/selfhosted")
 print(f"  ✅ awesome-selfhosted: {copied - prev} files copied")
 
 # ═══════════════════════════════════════
@@ -687,7 +687,7 @@ print(f"  ✅ awesome-selfhosted: {copied - prev} files copied")
 # ═══════════════════════════════════════
 print("📁 REPO 30: UI-UX/ui-ux-pro-max-skill/")
 prev = copied
-copy_dir("UI-UX/ui-ux-pro-max-skill", "ui-design/rules/ui-ux-pro-max")
+copy_dir("UI-UX/ui-ux-pro-max-skill", "ui-design/ui-rules/ui-ux-pro-max")
 print(f"  ✅ ui-ux-pro-max: {copied - prev} files copied")
 
 # ═══════════════════════════════════════
@@ -695,8 +695,8 @@ print(f"  ✅ ui-ux-pro-max: {copied - prev} files copied")
 # ═══════════════════════════════════════
 print("📁 REPO 31: UI-UX/galaxy/ + UI-UX/ui/")
 prev = copied
-copy_dir("UI-UX/galaxy", "ui-design/components/galaxy")
-copy_dir("UI-UX/ui", "ui-design/components/shadcn")
+copy_dir("UI-UX/galaxy", "ui-design/ui-components-galaxy")
+copy_dir("UI-UX/ui", "ui-design/ui-components-shadcn")
 # COMBINED_DESIGN_SYSTEM.md
 copy_file("UI-UX/COMBINED_DESIGN_SYSTEM.md", "ui-design/COMBINED_DESIGN_SYSTEM.md")
 print(f"  ✅ galaxy + shadcn: {copied - prev} files copied")
@@ -706,8 +706,8 @@ print(f"  ✅ galaxy + shadcn: {copied - prev} files copied")
 # ═══════════════════════════════════════
 print("📁 ROOT CONFIG FILES")
 prev = copied
-copy_file(".cursorrules", "ui-design/cursor-rules/root-cursorrules.md")
-copy_dir(".cursor/rules", "ui-design/cursor-rules")
+copy_file(".cursorrules", "ui-design/ui-cursor-rules/root-cursorrules.md")
+copy_dir(".cursor/rules", "ui-design/ui-cursor-rules")
 copy_dir(".antigravity", "skills/development/antigravity-root-config")
 copy_dir(".claude", "agents/by-interface/claude/root-claude-config")
 copy_file("ORCHESTRATION.md", "orchestration/ROOT-ORCHESTRATION.md")

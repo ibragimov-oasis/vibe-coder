@@ -82,9 +82,9 @@ This document is the **complete map** of all 36 repositories in the Vibe-Coder A
 | GitHub Bot | 18+ files | TypeScript | `agents/orchestrators/background-agents/github-bot/` |
 | Slack Bot | 12+ files | TypeScript | `agents/orchestrators/background-agents/slack-bot/` |
 | Linear Bot | 10+ files | TypeScript | `agents/orchestrators/background-agents/linear-bot/` |
-| Terraform Infra | 15+ files | HCL | `orchestration/workflows/terraform/background-agents/` |
+| Terraform Infra | 15+ files | HCL | `orchestration/workflows-terraform/background-agents/` |
 | Skills | 1 folder | Markdown | `skills/development/background-agents-onboarding/` |
-| Workflows | 3 files | YAML | `orchestration/workflows/background-agents/` |
+| Workflows | 3 files | YAML | `orchestration/core-background-agents/` |
 
 ---
 
@@ -105,7 +105,7 @@ This document is the **complete map** of all 36 repositories in the Vibe-Coder A
 | Gateway API | 25+ files | Python | `agents/orchestrators/hermes/gateway/` |
 | CLI Tools | 30+ files | Python | `agents/orchestrators/hermes/cli/` |
 | Environments | 12+ files | Python | `agents/orchestrators/hermes/environments/` |
-| MCP Server | 1 file | Python | `mcp-servers/hermes/mcp_serve.py` |
+| MCP Server | 1 file | Python | `mcp-servers/mcp-hermes/mcp_serve.py` |
 | Integrations | 15+ files | Python | `agents/orchestrators/hermes/integrations/` |
 | Documentation | 40+ files | Markdown | `agents/orchestrators/hermes/docs/` |
 
@@ -133,10 +133,10 @@ This document is the **complete map** of all 36 repositories in the Vibe-Coder A
 | Component | Files | Type | Target in COMBINED |
 |-----------|-------|------|-------------------|
 | Commands | 3 files | Markdown | `commands/debug/shannon-debug.md`, `commands/review/shannon-*.md` |
-| Worker Prompts | 31 files | Text | `prompts/security/shannon/` |
-| Sample Reports | 3 files | Markdown | `security/reports/shannon-*.md` |
-| Config Schemas | 2 files | JSON | `security/shannon/configs/` |
-| Workflows | 4 files | YAML | `security/shannon/workflows/` |
+| Worker Prompts | 31 files | Text | `prompts/prompts-security/security-shannon/` |
+| Sample Reports | 3 files | Markdown | `security/security-reports/shannon-*.md` |
+| Config Schemas | 2 files | JSON | `security/security-shannon/configs/` |
+| Workflows | 4 files | YAML | `security/security-shannon/workflows/` |
 
 **Vulnerability Coverage:**
 - OWASP Top 10 (XSS, SQLi, CSRF, SSRF, etc.)
@@ -159,10 +159,10 @@ This document is the **complete map** of all 36 repositories in the Vibe-Coder A
 ### Key Components:
 | Component | Files | Type | Target in COMBINED |
 |-----------|-------|------|-------------------|
-| Desktop App Source | 200+ files | TypeScript | `orchestration/1code/src/` |
+| Desktop App Source | 200+ files | TypeScript | `orchestration/core-1code/src/` |
 | Git Hooks | 15 files | Shell/JS | `hooks/pre-commit/1code-*` |
-| Build Scripts | 8 files | JS/TS | `orchestration/1code/build/` |
-| Drizzle ORM | 5+ files | TypeScript | `orchestration/1code/drizzle/` |
+| Build Scripts | 8 files | JS/TS | `orchestration/core-1code/build/` |
+| Drizzle ORM | 5+ files | TypeScript | `orchestration/core-1code/drizzle/` |
 
 ---
 
@@ -178,9 +178,9 @@ This document is the **complete map** of all 36 repositories in the Vibe-Coder A
 | Component | Files | Type | Target in COMBINED |
 |-----------|-------|------|-------------------|
 | Public Skills | 17 SKILL.md | Markdown | `skills/[category]/deer-flow-*` |
-| Backend Harness | 150+ files | Python | `orchestration/deer-flow/backend/` |
-| Frontend UI | 80+ files | JS/TS/React | `orchestration/deer-flow/frontend/` |
-| Docker Config | 10+ files | Docker/Nginx | `orchestration/deer-flow/docker/` |
+| Backend Harness | 150+ files | Python | `orchestration/core-deer-flow/backend/` |
+| Frontend UI | 80+ files | JS/TS/React | `orchestration/core-deer-flow/frontend/` |
+| Docker Config | 10+ files | Docker/Nginx | `orchestration/core-deer-flow/docker/` |
 
 **Notable Skills:**
 - `bootstrap/` — Initial setup
@@ -264,9 +264,9 @@ This document is the **complete map** of all 36 repositories in the Vibe-Coder A
 | Agents | 19+ files | Markdown | `agents/by-role/[role]/omc-*` |
 | Skills | 31 SKILL.md | Markdown | `skills/[category]/omc-*` |
 | Hooks | 688 files | JS/TS | `hooks/[type]/omc-*` |
-| Prompts | 19 files | Markdown | `prompts/templates/omc-*` |
-| MCP Tools | 25+ files | TypeScript | `mcp-servers/omc/` |
-| Benchmarks | 50+ files | TypeScript | `orchestration/oh-my-claudecode/benchmarks/` |
+| Prompts | 19 files | Markdown | `prompts/prompts-templates/omc-*` |
+| MCP Tools | 25+ files | TypeScript | `mcp-servers/mcp-omc/` |
+| Benchmarks | 50+ files | TypeScript | `orchestration/core-omc/benchmarks/` |
 
 **Notable Agents:**
 - `explore`, `analyst`, `planner`, `architect`
@@ -294,9 +294,9 @@ This document is the **complete map** of all 36 repositories in the Vibe-Coder A
 | Skills | 266 SKILL.md | Markdown | `skills/[category]/ruflo-*` |
 | Commands | 562 files | Markdown | `commands/[type]/ruflo-*` |
 | Hooks | 77 files | Various | `hooks/[type]/ruflo-*` |
-| V2 Core | 1,500+ files | Python/JS | `orchestration/ruflo/v2/` |
-| V3 Core | 2,000+ files | TypeScript | `orchestration/ruflo/v3/` |
-| Plugin System | 200+ files | TypeScript | `orchestration/ruflo/plugin/` |
+| V2 Core | 1,500+ files | Python/JS | `orchestration/core-ruflo/v2/` |
+| V3 Core | 2,000+ files | TypeScript | `orchestration/core-ruflo/v3/` |
+| Plugin System | 200+ files | TypeScript | `orchestration/core-ruflo/plugin/` |
 
 **Agent Roles Found:**
 - Architect, Coder, Reviewer, Security-Architect, Tester
@@ -353,10 +353,10 @@ This document is the **complete map** of all 36 repositories in the Vibe-Coder A
 ### Key Components:
 | Component | Files | Type | Target in COMBINED |
 |-----------|-------|------|-------------------|
-| Web UI (Remote) | 150+ files | JS/TS/React | `orchestration/vibe-kanban/packages/remote-web/` |
-| Web UI (Local) | 100+ files | JS/TS/React | `orchestration/vibe-kanban/packages/local-web/` |
-| Core Logic | 80+ files | TypeScript | `orchestration/vibe-kanban/packages/web-core/` |
-| Rust Crates | 600+ files | Rust | `orchestration/vibe-kanban/crates/` |
+| Web UI (Remote) | 150+ files | JS/TS/React | `orchestration/core-vibe-kanban/packages/remote-web/` |
+| Web UI (Local) | 100+ files | JS/TS/React | `orchestration/core-vibe-kanban/packages/local-web/` |
+| Core Logic | 80+ files | TypeScript | `orchestration/core-vibe-kanban/packages/web-core/` |
+| Rust Crates | 600+ files | Rust | `orchestration/core-vibe-kanban/crates/` |
 
 ---
 
@@ -400,7 +400,7 @@ This document is the **complete map** of all 36 repositories in the Vibe-Coder A
 |-----------|-------|------|-------------------|
 | Python Scripts | 85 files | `skills/development/awesome-cc-scripts/` |
 | Hooks | 14 files | `hooks/[type]/awesome-cc-*` |
-| Templates | 20+ files | `prompts/templates/awesome-cc-*` |
+| Templates | 20+ files | `prompts/prompts-templates/awesome-cc-*` |
 
 ---
 
@@ -466,7 +466,7 @@ This document is the **complete map** of all 36 repositories in the Vibe-Coder A
 | Agents | 29 files | `agents/by-role/[role]/cs-*` |
 | Commands | 56 files | `commands/[type]/cs-*` |
 | Python Scripts | 321 files | `skills/development/cs-scripts/` |
-| Templates | 30+ files | `prompts/templates/cs-*` |
+| Templates | 30+ files | `prompts/prompts-templates/cs-*` |
 
 **Skill Domains:**
 - `engineering/` — AI/ML, fullstack, DevOps, security
@@ -498,7 +498,7 @@ This document is the **complete map** of all 36 repositories in the Vibe-Coder A
 | Agents | 10 files | `agents/by-role/[role]/ecc-*` |
 | Commands | 272 files | `commands/[type]/ecc-*` |
 | Hooks | 95 files | `hooks/[type]/ecc-*` |
-| Prompts | 19 files | `prompts/templates/ecc-*` |
+| Prompts | 19 files | `prompts/prompts-templates/ecc-*` |
 
 **Key Modules:**
 - `commands/` — Database migration, feature development, language rules
@@ -542,10 +542,10 @@ This document is the **complete map** of all 36 repositories in the Vibe-Coder A
 ### Key Components:
 | Component | Files | Target in COMBINED |
 |-----------|-------|------|
-| MCP Server | 80+ files | `mcp-servers/gitnexus/` |
+| MCP Server | 80+ files | `mcp-servers/mcp-gitnexus/` |
 | Skills | 19 SKILL.md | `skills/development/gitnexus-*` |
-| Eval Framework | 50+ files | `mcp-servers/gitnexus/eval/` |
-| Sisyphus Tool | 30+ files | `mcp-servers/gitnexus/sisyphus/` |
+| Eval Framework | 50+ files | `mcp-servers/mcp-gitnexus/eval/` |
+| Sisyphus Tool | 30+ files | `mcp-servers/mcp-gitnexus/sisyphus/` |
 
 ---
 
@@ -560,10 +560,10 @@ This document is the **complete map** of all 36 repositories in the Vibe-Coder A
 ### Key Components:
 | Component | Files | Target in COMBINED |
 |-----------|-------|-------------------|
-| Bot Core | 400+ files | `mcp-servers/openviking/bot/` |
-| CLI Tool | 200+ files | `mcp-servers/openviking/cli/` |
+| Bot Core | 400+ files | `mcp-servers/mcp-openviking/bot/` |
+| CLI Tool | 200+ files | `mcp-servers/mcp-openviking/cli/` |
 | Skills | 13 SKILL.md | `skills/development/openviking-*` |
-| Eval Framework | 100+ files | `mcp-servers/openviking/eval/` |
+| Eval Framework | 100+ files | `mcp-servers/mcp-openviking/eval/` |
 
 **Key Features:**
 - Filesystem paradigm for context management
@@ -583,9 +583,9 @@ This document is the **complete map** of all 36 repositories in the Vibe-Coder A
 ### Key Components:
 | Component | Files | Target in COMBINED |
 |-----------|-------|-------------------|
-| Browser Core | 400+ files | `mcp-servers/lightpanda/core/` |
-| CDP Server | 50+ files | `mcp-servers/lightpanda/cdp/` |
-| Documentation | 30+ files | `mcp-servers/lightpanda/docs/` |
+| Browser Core | 400+ files | `mcp-servers/mcp-lightpanda/core/` |
+| CDP Server | 50+ files | `mcp-servers/mcp-lightpanda/cdp/` |
+| Documentation | 30+ files | `mcp-servers/mcp-lightpanda/docs/` |
 
 **Performance:**
 - 9x faster execution than Chrome
@@ -606,9 +606,9 @@ This document is the **complete map** of all 36 repositories in the Vibe-Coder A
 ### Key Components:
 | Component | Files | Target in COMBINED |
 |-----------|-------|-------------------|
-| Memory System | 100+ files | `memory/claude-mem/` |
-| Python Scripts | 127 files | `memory/claude-mem/scripts/` |
-| Documentation | 40+ files | `memory/claude-mem/docs/` |
+| Memory System | 100+ files | `memory/memory-claude-mem/` |
+| Python Scripts | 127 files | `memory/memory-claude-mem/scripts/` |
+| Documentation | 40+ files | `memory/memory-claude-mem/docs/` |
 
 **Key Features:**
 - Automatic context preservation
@@ -628,7 +628,7 @@ This document is the **complete map** of all 36 repositories in the Vibe-Coder A
 ### Key Components:
 | Component | Files | Target in COMBINED |
 |-----------|-------|-------------------|
-| MCP Server | 20 files | `mcp-servers/nano-banana/` |
+| MCP Server | 20 files | `mcp-servers/mcp-nano-banana/` |
 
 ---
 
@@ -643,8 +643,8 @@ This document is the **complete map** of all 36 repositories in the Vibe-Coder A
 ### Key Components:
 | Component | Files | Target in COMBINED |
 |-----------|-------|-------------------|
-| Pretext Core | 40+ files | `mcp-servers/pretext/` |
-| Python Scripts | 43 files | `mcp-servers/pretext/scripts/` |
+| Pretext Core | 40+ files | `mcp-servers/mcp-pretext/` |
+| Python Scripts | 43 files | `mcp-servers/mcp-pretext/scripts/` |
 
 ---
 
@@ -659,9 +659,9 @@ This document is the **complete map** of all 36 repositories in the Vibe-Coder A
 ### Key Components:
 | Component | Files | Target in COMBINED |
 |-----------|-------|-------------------|
-| Memory Engine | 150+ files | `memory/supermemory/` |
-| Python Backend | 200+ files | `memory/supermemory/backend/` |
-| Web Interface | 80+ files | `memory/supermemory/web/` |
+| Memory Engine | 150+ files | `memory/memory-supermemory/` |
+| Python Backend | 200+ files | `memory/memory-supermemory/backend/` |
+| Web Interface | 80+ files | `memory/memory-supermemory/web/` |
 
 **Key Features:**
 - Automatic fact extraction
@@ -678,7 +678,7 @@ This document is the **complete map** of all 36 repositories in the Vibe-Coder A
 ### Key Components:
 | Component | Files | Target in COMBINED |
 |-----------|-------|-------------------|
-| Documentation | 1 file | `prompts/templates/optimization/` |
+| Documentation | 1 file | `prompts/prompts-templates/optimization/` |
 
 ---
 
@@ -693,8 +693,8 @@ This document is the **complete map** of all 36 repositories in the Vibe-Coder A
 ### Key Components:
 | Component | Files | Target in COMBINED |
 |-----------|-------|-------------------|
-| Prompt Library | 800+ files | `prompts/templates/prompts-chat/` |
-| Web App | 600+ files | `prompts/templates/prompts-chat/web/` |
+| Prompt Library | 800+ files | `prompts/prompts-templates/prompts-chat/` |
+| Web App | 600+ files | `prompts/prompts-templates/prompts-chat/web/` |
 
 ---
 
@@ -706,7 +706,7 @@ This document is the **complete map** of all 36 repositories in the Vibe-Coder A
 ### Key Components:
 | Component | Files | Target in COMBINED |
 |-----------|-------|-------------------|
-| Documentation | 1 file | `prompts/system-prompts/` |
+| Documentation | 1 file | `prompts/prompts-system/` |
 
 ---
 
@@ -728,7 +728,7 @@ This document is the **complete map** of all 36 repositories in the Vibe-Coder A
 ### Key Components:
 | Component | Files | Target in COMBINED |
 |-----------|-------|-------------------|
-| System Prompts | 90+ files | `prompts/system-prompts/[tool]/` |
+| System Prompts | 90+ files | `prompts/prompts-system/[tool]/` |
 
 ---
 
@@ -740,7 +740,7 @@ This document is the **complete map** of all 36 repositories in the Vibe-Coder A
 ### Key Components:
 | Component | Files | Target in COMBINED |
 |-----------|-------|-------------------|
-| Leaked Prompts | 140+ files | `prompts/leaked/` |
+| Leaked Prompts | 140+ files | `prompts/prompts-leaked/` |
 
 ---
 
@@ -752,7 +752,7 @@ This document is the **complete map** of all 36 repositories in the Vibe-Coder A
 ### Key Components:
 | Component | Files | Target in COMBINED |
 |-----------|-------|-------------------|
-| Documentation | 1 file | `prompts/templates/vibe-coding/` |
+| Documentation | 1 file | `prompts/prompts-templates/vibe-coding/` |
 
 ---
 
@@ -767,7 +767,7 @@ This document is the **complete map** of all 36 repositories in the Vibe-Coder A
 ### Key Components:
 | Component | Files | Target in COMBINED |
 |-----------|-------|-------------------|
-| Templates | 15+ files | `prompts/templates/vibe-coding-template/` |
+| Templates | 15+ files | `prompts/prompts-templates/vibe-coding-template/` |
 
 ---
 
@@ -782,16 +782,16 @@ This document is the **complete map** of all 36 repositories in the Vibe-Coder A
 ### Component Categories (10 folders):
 | Category | Files | Target in COMBINED |
 |----------|-------|-------------------|
-| Buttons | 1,000+ | `ui-design/components/galaxy/buttons/` |
-| Cards | 500+ | `ui-design/components/galaxy/cards/` |
-| Forms | 400+ | `ui-design/components/galaxy/forms/` |
-| Inputs | 600+ | `ui-design/components/galaxy/inputs/` |
-| Loaders | 300+ | `ui-design/components/galaxy/loaders/` |
-| Checkboxes | 200+ | `ui-design/components/galaxy/checkboxes/` |
-| Radio buttons | 150+ | `ui-design/components/galaxy/radio-buttons/` |
-| Toggle switches | 200+ | `ui-design/components/galaxy/toggle-switches/` |
-| Tooltips | 150+ | `ui-design/components/galaxy/tooltips/` |
-| Patterns | 200+ | `ui-design/components/galaxy/patterns/` |
+| Buttons | 1,000+ | `ui-design/ui-components-galaxy/buttons/` |
+| Cards | 500+ | `ui-design/ui-components-galaxy/cards/` |
+| Forms | 400+ | `ui-design/ui-components-galaxy/forms/` |
+| Inputs | 600+ | `ui-design/ui-components-galaxy/inputs/` |
+| Loaders | 300+ | `ui-design/ui-components-galaxy/loaders/` |
+| Checkboxes | 200+ | `ui-design/ui-components-galaxy/checkboxes/` |
+| Radio buttons | 150+ | `ui-design/ui-components-galaxy/radio-buttons/` |
+| Toggle switches | 200+ | `ui-design/ui-components-galaxy/toggle-switches/` |
+| Tooltips | 150+ | `ui-design/ui-components-galaxy/tooltips/` |
+| Patterns | 200+ | `ui-design/ui-components-galaxy/patterns/` |
 
 ---
 
@@ -807,10 +807,10 @@ This document is the **complete map** of all 36 repositories in the Vibe-Coder A
 ### Key Components:
 | Component | Files | Target in COMBINED |
 |-----------|-------|-------------------|
-| UI Components | 1,500+ files | `ui-design/components/shadcn/` |
-| Apps | 800+ files | `ui-design/components/shadcn/apps/` |
-| Packages | 1,200+ files | `ui-design/components/shadcn/packages/` |
-| Templates | 200+ files | `ui-design/components/shadcn/templates/` |
+| UI Components | 1,500+ files | `ui-design/ui-components-shadcn/` |
+| Apps | 800+ files | `ui-design/ui-components-shadcn/apps/` |
+| Packages | 1,200+ files | `ui-design/ui-components-shadcn/packages/` |
+| Templates | 200+ files | `ui-design/ui-components-shadcn/templates/` |
 | Skills | 50+ files | `skills/design/shadcn-*` |
 
 ---
@@ -827,7 +827,7 @@ This document is the **complete map** of all 36 repositories in the Vibe-Coder A
 ### Key Components:
 | Component | Files | Target in COMBINED |
 |-----------|-------|-------------------|
-| UI Rules | 161 files | `ui-design/rules/` |
+| UI Rules | 161 files | `ui-design/ui-rules/` |
 | UI Styles | 67 files | `ui-design/styles/` |
 | Python Scripts | 54 files | `ui-design/scripts/` |
 | Documentation | 80+ files | `ui-design/docs/` |
@@ -856,8 +856,8 @@ This document is the **complete map** of all 36 repositories in the Vibe-Coder A
 ### Key Components:
 | Component | Files | Target in COMBINED |
 |-----------|-------|-------------------|
-| Software List | 1 file | `prompts/templates/selfhosted/awesome-selfhosted.md` |
-| Documentation | 3 files | `prompts/templates/selfhosted/` |
+| Software List | 1 file | `reference/reference-selfhosted/awesome-selfhosted.md` |
+| Documentation | 3 files | `reference/reference-selfhosted/` |
 
 ---
 

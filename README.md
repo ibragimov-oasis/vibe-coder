@@ -210,7 +210,7 @@ Copy this prompt to your AI coding assistant:
 ```
 Go to my project at [YOUR_PROJECT_PATH]. Then visit the vibe-coder repo at
 https://github.com/ibragimov-oasis/vibe-coder and look at the Skills/ and
-Orchestration/ folders. Find the most relevant skills and configs for my
+orchestration/ folders. Find the most relevant skills and configs for my
 project type and integrate them. Make hidden configs active by restoring
 the dot-prefix on files that need it.
 ```

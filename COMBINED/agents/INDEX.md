@@ -1,7 +1,7 @@
 # COMBINED/agents - Master Agent Index
 
 > **Complete catalog of all AI agents across all repositories**
-> Last updated: 2026-04-03
+> Last updated: 2026-04-04
 
 ## Overview
 
@@ -10,12 +10,10 @@ This directory contains **336+ specialized AI agents** from 31 repositories, org
 - **Interface** (AI platform: Claude, Copilot, Cursor, etc.)
 - **Orchestrators** (multi-agent platforms)
 
-**Total Statistics:**
-- 155 agents organized by role
-- 181+ Copilot agents
-- 19 OMC (oh-my-claudecode) agents
-- 18 GSD (get-shit-done) agents
-- Multiple orchestrator platforms
+**Total Statistics (post prefix-source restructure):**
+- 155 agents organized by role (by-role/)
+- 687 interface-grouped files under by-interface/agents-*
+- Source collections now under agents-* folders: ruflo (149 files), omc (19), gsd (8), background (222), hermes (646)
 
 ---
 
@@ -40,25 +38,18 @@ agents/
 │   └── writer/           # Documentation agents
 │
 ├── by-interface/         # Agents organized by AI platform
-│   ├── claude/           # Claude Code agents
-│   │   ├── claude-skills/
-│   │   ├── ruflo/
-│   │   ├── shannon/
-│   │   └── superpowers/
-│   ├── copilot/          # GitHub Copilot (181+ agents)
-│   │   ├── awesome-copilot/
-│   │   ├── cookbook/
-│   │   ├── instructions/
-│   │   ├── plugins/
-│   │   └── hooks/
-│   ├── cursor/           # Cursor AI
-│   ├── codex/            # OpenAI Codex
-│   ├── antigravity/      # Antigravity platform
-│   └── opencode/         # OpenCode platform
+│   ├── agents-claude/    # Claude Code agents (ruflo, shannon, claude-skills, superpowers)
+│   ├── agents-copilot/   # GitHub Copilot collections and plugins
+│   ├── agents-cursor/    # Cursor AI agents
+│   ├── agents-codex/     # OpenAI Codex agents
+│   ├── agents-antigravity/ # Antigravity platform agents
+│   └── agents-opencode/  # OpenCode platform agents
 │
-└── orchestrators/        # Multi-agent orchestration systems
-    ├── background-agents/ # Open-Inspect platform
-    └── hermes/           # Hermes self-learning agent
+├── agents-ruflo/         # RuFlo source agents
+├── agents-omc/           # oh-my-claudecode agents
+├── agents-gsd/           # get-shit-done agents
+├── agents-background/    # Background agents (Open-Inspect)
+└── agents-hermes/        # Hermes agent system
 ```
 
 ---
@@ -248,7 +239,7 @@ agents/
 
 ### Claude Code Agents
 
-**Location:** `by-interface/claude/`
+**Location:** `by-interface/agents-claude/`
 
 **Repositories:**
 - **shannon/** - Security-focused Claude agents
@@ -262,7 +253,7 @@ agents/
 
 ### GitHub Copilot Agents
 
-**Location:** `by-interface/copilot/`
+**Location:** `by-interface/agents-copilot/`
 
 **Main Collection:** `awesome-copilot/` (181 agents)
 
@@ -290,7 +281,7 @@ agents/
 
 ### Cursor AI Agents
 
-**Location:** `by-interface/cursor/`
+**Location:** `by-interface/agents-cursor/`
 
 **Repository:** `superpowers-cursor/`
 
@@ -300,7 +291,7 @@ agents/
 
 ### Codex Agents
 
-**Location:** `by-interface/codex/`
+**Location:** `by-interface/agents-codex/`
 
 **Repository:** `superpowers-codex/`
 
@@ -310,7 +301,7 @@ agents/
 
 ### Antigravity Agents
 
-**Location:** `by-interface/antigravity/_agents/`
+**Location:** `by-interface/agents-antigravity/`
 
 **Focus:** Antigravity platform agents (1,340+ skills ecosystem)
 
@@ -318,7 +309,7 @@ agents/
 
 ### OpenCode Agents
 
-**Location:** `by-interface/opencode/`
+**Location:** `by-interface/agents-opencode/`
 
 **Repository:** `superpowers-opencode/`
 
@@ -326,11 +317,35 @@ agents/
 
 ---
 
-## Orchestrators
+## Source Collections (agents-*)
+
+### RuFlo Agents
+
+**Location:** `agents-ruflo/`
+
+**Contents:** Claude-facing YAML agents plus supporting skills/configuration from the RuFlo orchestration stack.
+
+---
+
+### OMC Agents
+
+**Location:** `agents-omc/`
+
+**Contents:** 19 Markdown agent definitions spanning planning, execution, review, debugging, design, and security.
+
+---
+
+### Get-Shit-Done Agents
+
+**Location:** `agents-gsd/`
+
+**Contents:** Core GSD agent prompt files (planner, executor, verifier, researchers, roadmapper) from the SDK prompts bundle.
+
+---
 
 ### Background Agents (Open-Inspect)
 
-**Location:** `orchestrators/background-agents/`
+**Location:** `agents-background/`
 
 **Architecture:** WebSocket-based sandboxed agent platform
 
@@ -343,13 +358,13 @@ agents/
 
 **Use Cases:** Automated PR reviews, GitHub comment-triggered sessions, Linear task automation
 
-**Documentation:** See `orchestrators/background-agents/README.md`
+**Documentation:** See `agents-background/README.md`
 
 ---
 
 ### Hermes Agent
 
-**Location:** `orchestrators/hermes/`
+**Location:** `agents-hermes/`
 
 **Description:** Self-learning agentic system with MCP server
 
@@ -367,7 +382,7 @@ agents/
 - Tool ecosystem
 - CLI interface
 
-**Documentation:** See `orchestrators/hermes/README.md`
+**Documentation:** See `agents-hermes/README.md`
 
 ---
 
@@ -443,7 +458,7 @@ agents/
 
 ### Orchestrator Pattern
 ```bash
-# Use background-agents for automated workflows
+# Use agents-background/ for automated workflows
 # GitHub PR comment: @open-inspect review this PR
 ```
 
@@ -451,7 +466,8 @@ agents/
 
 ## Related Resources
 
-- **Orchestration Systems:** See `COMBINED/orchestration/` for RuFlo, OMC, GSD, Superpowers
+- **Source Agent Collections:** See `agents-ruflo/`, `agents-omc/`, `agents-gsd/`, `agents-background/`, `agents-hermes/`
+- **Orchestration Systems:** Core platforms remain in `COMBINED/orchestration/` (RuFlo, OMC, GSD, Superpowers)
 - **Skills:** See `COMBINED/skills/INDEX.md` for agent capabilities
 - **Commands:** See `COMBINED/commands/INDEX.md` for slash commands
 - **Hooks:** See `COMBINED/hooks/README.md` for automation
@@ -472,6 +488,7 @@ When adding new agents:
 
 ## Version History
 
+- **2026-04-04:** Prefix-source restructure for agents (flattened by-interface, added agents-* source collections)
 - **2026-04-03:** Initial comprehensive index created
 - **Phase 2:** Structure reorganization completed
 - **Phase 1:** Initial migration of 31 repositories
