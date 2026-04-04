@@ -122,37 +122,48 @@ COMBINED/
 │   └── tool-use/
 │
 ├── prompts/             2,500+ templates
-│   ├── system-prompts/
-│   ├── templates/
-│   └── leaked/
+│   ├── prompts-system/
+│   ├── prompts-templates/
+│   ├── prompts-leaked/
+│   └── prompts-security/
 │
 ├── orchestration/       7 orchestration systems
-│   ├── ruflo/
-│   ├── deer-flow/
-│   ├── get-shit-done/
-│   ├── oh-my-claudecode/
-│   └── [3+ more]
+│   ├── core-ruflo/
+│   ├── core-deer-flow/
+│   ├── core-gsd/
+│   ├── core-omc/
+│   ├── core-background-agents/
+│   ├── core-hermes/
+│   ├── core-1code/
+│   ├── core-vibe-kanban/
+│   ├── superpowers/
+│   └── workflows-terraform/
 │
-├── memory/              3 memory systems
-│   ├── claude-mem/
-│   ├── supermemory/
-│   └── openviking/
+├── memory/              Memory systems
+│   ├── memory-claude-mem/
+│   └── memory-supermemory/
 │
 ├── mcp-servers/         7+ MCP integrations
-│   ├── gitnexus/
-│   ├── lightpanda/
-│   └── [5+ more]
+│   ├── mcp-gitnexus/
+│   ├── mcp-lightpanda/
+│   ├── mcp-hermes/
+│   ├── mcp-openviking/
+│   ├── mcp-pretext/
+│   ├── mcp-nano-banana/
+│   └── mcp-configs/
 │
 ├── ui-design/           3,000+ components
-│   ├── galaxy/
-│   ├── shadcn-ui/
-│   └── ui-ux-pro-max/
+│   ├── ui-components-galaxy/
+│   ├── ui-components-shadcn/
+│   ├── ui-rules/
+│   └── ui-cursor-rules/
 │
 ├── security/            Security tools
-│   └── shannon/         AI pentester
+│   ├── security-shannon/      AI pentester
+│   └── security-reports/      Sample findings
 │
 ├── reference/           Reference docs
-│   └── awesome-selfhosted/
+│   └── reference-selfhosted/
 │
 ├── config/             🔄 Phase 6: Master configurations
 ├── workflows/          🔄 Phase 6: Unified workflows
@@ -233,7 +244,7 @@ find prompts -name "*security*"
 grep -r "penetration test" prompts/
 
 # Find UI components
-ls ui-design/galaxy/
+ls ui-design/ui-components-galaxy/
 find ui-design -name "*button*"
 ```
 
@@ -350,7 +361,7 @@ cd agents/by-role/debugger/
 cd skills/development/
 
 # Check out UI components
-cd ui-design/galaxy/
+cd ui-design/ui-components-galaxy/
 ```
 
 ---
