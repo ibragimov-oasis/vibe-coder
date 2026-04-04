@@ -1,0 +1,95 @@
+{
+  "project": "ULTRACAR Restructuring",
+  "objective": "Transform COMBINED/ to PREFIX-SOURCE flat structure",
+  "start_date": "2026-04-04",
+  "baseline": {
+    "total_files": 44748,
+    "total_directories": 8863,
+    "branch": "claude/update-combined-file-structure-again"
+  },
+  "phases": [
+    {
+      "phase": 0,
+      "name": "Preparation & Planning",
+      "status": "complete",
+      "duration_hours": "1-2",
+      "complexity": "low",
+      "files_moved": 0,
+      "completed_date": "2026-04-04",
+      "outputs": [
+        "RESTRUCTURE_NEW_STRUCTURE.md",
+        "RESTRUCTURE_PLAN.md",
+        "RESTRUCTURE_MOVEMENTS.json"
+      ],
+      "notes": "Planning phase complete. Documentation created. Ready for execution."
+    },
+    {
+      "phase": 1,
+      "name": "Restructure Agents",
+      "status": "pending",
+      "duration_hours": "3-4",
+      "complexity": "medium",
+      "estimated_files": 500,
+      "movements": []
+    },
+    {
+      "phase": 2,
+      "name": "Restructure Skills",
+      "status": "pending",
+      "duration_hours": "4-5",
+      "complexity": "high",
+      "estimated_files": 2000,
+      "movements": []
+    },
+    {
+      "phase": 3,
+      "name": "Restructure Commands & Hooks",
+      "status": "pending",
+      "duration_hours": "2-3",
+      "complexity": "low",
+      "estimated_files": 100,
+      "movements": []
+    },
+    {
+      "phase": 4,
+      "name": "Restructure Orchestration Core",
+      "status": "pending",
+      "duration_hours": "3-4",
+      "complexity": "medium",
+      "estimated_files": 1500,
+      "movements": []
+    },
+    {
+      "phase": 5,
+      "name": "Restructure Prompts, Memory, MCP",
+      "status": "pending",
+      "duration_hours": "2-3",
+      "complexity": "medium",
+      "estimated_files": 3000,
+      "movements": []
+    },
+    {
+      "phase": 6,
+      "name": "Restructure UI & Security",
+      "status": "pending",
+      "duration_hours": "1-2",
+      "complexity": "low",
+      "estimated_files": 3500,
+      "movements": []
+    },
+    {
+      "phase": 7,
+      "name": "Update Documentation & Validation",
+      "status": "pending",
+      "duration_hours": "2",
+      "complexity": "low",
+      "estimated_files": 50,
+      "movements": []
+    }
+  ],
+  "total_phases": 8,
+  "completed_phases": 1,
+  "progress_percentage": 12.5,
+  "estimated_total_hours": "18-25",
+  "estimated_total_files": 10650
+}
