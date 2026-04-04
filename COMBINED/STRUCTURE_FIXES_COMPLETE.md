@@ -93,7 +93,7 @@ COMBINED/ui-design/
 - `package-lock.json`
 
 **Moved to Better Locations:**
-- **251 skills** moved from `copilot/skills/` → `COMBINED/skills/copilot/`
+- **251 skills** moved from `copilot/skills/` → `COMBINED/skills/skills-copilot/`
 
 **Clean Copilot Structure (8 items):**
 ```

@@ -339,11 +339,11 @@ nav:
       - "Risk Management Specialist": skills/ra-qm-team/risk-management-specialist.md
       - "SOC 2 Compliance": skills/ra-qm-team/soc2-compliance.md
     - Business & Growth:
-      - Overview: skills/business-growth/index.md
-      - "Contract & Proposal Writer": skills/business-growth/contract-and-proposal-writer.md
-      - "Customer Success Manager": skills/business-growth/customer-success-manager.md
-      - "Revenue Operations": skills/business-growth/revenue-operations.md
-      - "Sales Engineer": skills/business-growth/sales-engineer.md
+      - Overview: skills/skills-business/claude-skills-growth/index.md
+      - "Contract & Proposal Writer": skills/skills-business/claude-skills-growth/contract-and-proposal-writer.md
+      - "Customer Success Manager": skills/skills-business/claude-skills-growth/customer-success-manager.md
+      - "Revenue Operations": skills/skills-business/claude-skills-growth/revenue-operations.md
+      - "Sales Engineer": skills/skills-business/claude-skills-growth/sales-engineer.md
     - Finance:
       - Overview: skills/finance/index.md
       - "Financial Analyst": skills/finance/financial-analyst.md

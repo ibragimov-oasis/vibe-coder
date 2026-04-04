@@ -4079,37 +4079,37 @@
         "category": "docs"
       },
       {
-        "source": "Skills/antigravity-awesome-skills/plugins/antigravity-awesome-skills/skills/writing-skills/references/cso/README.md",
+        "source": "Skills/antigravity-awesome-skills/plugins/antigravity-awesome-skills/skills/skills-writing-skills/references/cso/README.md",
         "destination": "COMBINED/skills/development/antigravity/docs/README_20.md",
         "category": "docs"
       },
       {
-        "source": "Skills/antigravity-awesome-skills/plugins/antigravity-awesome-skills/skills/writing-skills/references/testing/README.md",
+        "source": "Skills/antigravity-awesome-skills/plugins/antigravity-awesome-skills/skills/skills-writing-skills/references/testing/README.md",
         "destination": "COMBINED/skills/development/antigravity/docs/README_21.md",
         "category": "docs"
       },
       {
-        "source": "Skills/antigravity-awesome-skills/plugins/antigravity-awesome-skills/skills/writing-skills/references/anti-rationalization/README.md",
+        "source": "Skills/antigravity-awesome-skills/plugins/antigravity-awesome-skills/skills/skills-writing-skills/references/anti-rationalization/README.md",
         "destination": "COMBINED/skills/development/antigravity/docs/README_22.md",
         "category": "docs"
       },
       {
-        "source": "Skills/antigravity-awesome-skills/plugins/antigravity-awesome-skills/skills/writing-skills/references/tier-3-platform/README.md",
+        "source": "Skills/antigravity-awesome-skills/plugins/antigravity-awesome-skills/skills/skills-writing-skills/references/tier-3-platform/README.md",
         "destination": "COMBINED/skills/development/antigravity/docs/README_23.md",
         "category": "docs"
       },
       {
-        "source": "Skills/antigravity-awesome-skills/plugins/antigravity-awesome-skills/skills/writing-skills/references/tier-2-expanded/README.md",
+        "source": "Skills/antigravity-awesome-skills/plugins/antigravity-awesome-skills/skills/skills-writing-skills/references/tier-2-expanded/README.md",
         "destination": "COMBINED/skills/development/antigravity/docs/README_24.md",
         "category": "docs"
       },
       {
-        "source": "Skills/antigravity-awesome-skills/plugins/antigravity-awesome-skills/skills/writing-skills/references/standards/README.md",
+        "source": "Skills/antigravity-awesome-skills/plugins/antigravity-awesome-skills/skills/skills-writing-skills/references/standards/README.md",
         "destination": "COMBINED/skills/development/antigravity/docs/README_25.md",
         "category": "docs"
       },
       {
-        "source": "Skills/antigravity-awesome-skills/plugins/antigravity-awesome-skills/skills/writing-skills/references/tier-1-simple/README.md",
+        "source": "Skills/antigravity-awesome-skills/plugins/antigravity-awesome-skills/skills/skills-writing-skills/references/tier-1-simple/README.md",
         "destination": "COMBINED/skills/development/antigravity/docs/README_26.md",
         "category": "docs"
       },
@@ -4459,37 +4459,37 @@
         "category": "docs"
       },
       {
-        "source": "Skills/antigravity-awesome-skills/plugins/antigravity-awesome-skills-claude/skills/writing-skills/references/cso/README.md",
+        "source": "Skills/antigravity-awesome-skills/plugins/antigravity-awesome-skills-claude/skills/skills-writing-skills/references/cso/README.md",
         "destination": "COMBINED/skills/development/antigravity/docs/README_57.md",
         "category": "docs"
       },
       {
-        "source": "Skills/antigravity-awesome-skills/plugins/antigravity-awesome-skills-claude/skills/writing-skills/references/testing/README.md",
+        "source": "Skills/antigravity-awesome-skills/plugins/antigravity-awesome-skills-claude/skills/skills-writing-skills/references/testing/README.md",
         "destination": "COMBINED/skills/development/antigravity/docs/README_58.md",
         "category": "docs"
       },
       {
-        "source": "Skills/antigravity-awesome-skills/plugins/antigravity-awesome-skills-claude/skills/writing-skills/references/anti-rationalization/README.md",
+        "source": "Skills/antigravity-awesome-skills/plugins/antigravity-awesome-skills-claude/skills/skills-writing-skills/references/anti-rationalization/README.md",
         "destination": "COMBINED/skills/development/antigravity/docs/README_59.md",
         "category": "docs"
       },
       {
-        "source": "Skills/antigravity-awesome-skills/plugins/antigravity-awesome-skills-claude/skills/writing-skills/references/tier-3-platform/README.md",
+        "source": "Skills/antigravity-awesome-skills/plugins/antigravity-awesome-skills-claude/skills/skills-writing-skills/references/tier-3-platform/README.md",
         "destination": "COMBINED/skills/development/antigravity/docs/README_60.md",
         "category": "docs"
       },
       {
-        "source": "Skills/antigravity-awesome-skills/plugins/antigravity-awesome-skills-claude/skills/writing-skills/references/tier-2-expanded/README.md",
+        "source": "Skills/antigravity-awesome-skills/plugins/antigravity-awesome-skills-claude/skills/skills-writing-skills/references/tier-2-expanded/README.md",
         "destination": "COMBINED/skills/development/antigravity/docs/README_61.md",
         "category": "docs"
       },
       {
-        "source": "Skills/antigravity-awesome-skills/plugins/antigravity-awesome-skills-claude/skills/writing-skills/references/standards/README.md",
+        "source": "Skills/antigravity-awesome-skills/plugins/antigravity-awesome-skills-claude/skills/skills-writing-skills/references/standards/README.md",
         "destination": "COMBINED/skills/development/antigravity/docs/README_62.md",
         "category": "docs"
       },
       {
-        "source": "Skills/antigravity-awesome-skills/plugins/antigravity-awesome-skills-claude/skills/writing-skills/references/tier-1-simple/README.md",
+        "source": "Skills/antigravity-awesome-skills/plugins/antigravity-awesome-skills-claude/skills/skills-writing-skills/references/tier-1-simple/README.md",
         "destination": "COMBINED/skills/development/antigravity/docs/README_63.md",
         "category": "docs"
       },
@@ -6014,7 +6014,7 @@
         "category": "code"
       },
       {
-        "source": "Skills/antigravity-awesome-skills/plugins/antigravity-awesome-skills/skills/writing-skills/render-graphs.js",
+        "source": "Skills/antigravity-awesome-skills/plugins/antigravity-awesome-skills/skills/skills-writing-skills/render-graphs.js",
         "destination": "COMBINED/skills/development/antigravity/infrastructure/render-graphs.js",
         "category": "code"
       },
@@ -9234,7 +9234,7 @@
         "category": "code"
       },
       {
-        "source": "Skills/antigravity-awesome-skills/plugins/antigravity-awesome-skills-claude/skills/writing-skills/render-graphs.js",
+        "source": "Skills/antigravity-awesome-skills/plugins/antigravity-awesome-skills-claude/skills/skills-writing-skills/render-graphs.js",
         "destination": "COMBINED/skills/development/antigravity/infrastructure/render-graphs_1.js",
         "category": "code"
       },
@@ -14541,7 +14541,7 @@
         "reason": "misc file - requires manual review"
       },
       {
-        "path": "Skills/antigravity-awesome-skills/plugins/antigravity-bundle-business-analyst/skills/business-analyst/SKILL.md",
+        "path": "Skills/antigravity-awesome-skills/plugins/antigravity-bundle-business-analyst/skills/skills-business-analyst/SKILL.md",
         "category": "misc",
         "reason": "misc file - requires manual review"
       },
@@ -18971,7 +18971,7 @@
         "reason": "misc file - requires manual review"
       },
       {
-        "path": "Skills/antigravity-awesome-skills/plugins/antigravity-awesome-skills/skills/copilot-sdk/SKILL.md",
+        "path": "Skills/antigravity-awesome-skills/plugins/antigravity-awesome-skills/skills/skills-copilot-sdk/SKILL.md",
         "category": "misc",
         "reason": "misc file - requires manual review"
       },
@@ -21286,7 +21286,7 @@
         "reason": "misc file - requires manual review"
       },
       {
-        "path": "Skills/antigravity-awesome-skills/plugins/antigravity-awesome-skills/skills/writing-plans/SKILL.md",
+        "path": "Skills/antigravity-awesome-skills/plugins/antigravity-awesome-skills/skills/skills-writing-plans/SKILL.md",
         "category": "misc",
         "reason": "misc file - requires manual review"
       },
@@ -22526,67 +22526,67 @@
         "reason": "misc file - requires manual review"
       },
       {
-        "path": "Skills/antigravity-awesome-skills/plugins/antigravity-awesome-skills/skills/writing-skills/SKILL.md",
+        "path": "Skills/antigravity-awesome-skills/plugins/antigravity-awesome-skills/skills/skills-writing-skills/SKILL.md",
         "category": "misc",
         "reason": "misc file - requires manual review"
       },
       {
-        "path": "Skills/antigravity-awesome-skills/plugins/antigravity-awesome-skills/skills/writing-skills/testing-skills-with-subagents.md",
+        "path": "Skills/antigravity-awesome-skills/plugins/antigravity-awesome-skills/skills/skills-writing-skills/testing-skills-with-subagents.md",
         "category": "misc",
         "reason": "misc file - requires manual review"
       },
       {
-        "path": "Skills/antigravity-awesome-skills/plugins/antigravity-awesome-skills/skills/writing-skills/examples.md",
+        "path": "Skills/antigravity-awesome-skills/plugins/antigravity-awesome-skills/skills/skills-writing-skills/examples.md",
         "category": "misc",
         "reason": "misc file - requires manual review"
       },
       {
-        "path": "Skills/antigravity-awesome-skills/plugins/antigravity-awesome-skills/skills/writing-skills/gotchas.md",
+        "path": "Skills/antigravity-awesome-skills/plugins/antigravity-awesome-skills/skills/skills-writing-skills/gotchas.md",
         "category": "misc",
         "reason": "misc file - requires manual review"
       },
       {
-        "path": "Skills/antigravity-awesome-skills/plugins/antigravity-awesome-skills/skills/writing-skills/persuasion-principles.md",
+        "path": "Skills/antigravity-awesome-skills/plugins/antigravity-awesome-skills/skills/skills-writing-skills/persuasion-principles.md",
         "category": "misc",
         "reason": "misc file - requires manual review"
       },
       {
-        "path": "Skills/antigravity-awesome-skills/plugins/antigravity-awesome-skills/skills/writing-skills/anthropic-best-practices.md",
+        "path": "Skills/antigravity-awesome-skills/plugins/antigravity-awesome-skills/skills/skills-writing-skills/anthropic-best-practices.md",
         "category": "misc",
         "reason": "misc file - requires manual review"
       },
       {
-        "path": "Skills/antigravity-awesome-skills/plugins/antigravity-awesome-skills/skills/writing-skills/graphviz-conventions.dot",
+        "path": "Skills/antigravity-awesome-skills/plugins/antigravity-awesome-skills/skills/skills-writing-skills/graphviz-conventions.dot",
         "category": "misc",
         "reason": "misc file - requires manual review"
       },
       {
-        "path": "Skills/antigravity-awesome-skills/plugins/antigravity-awesome-skills/skills/writing-skills/references/templates/tier-3-platform.md",
+        "path": "Skills/antigravity-awesome-skills/plugins/antigravity-awesome-skills/skills/skills-writing-skills/references/templates/tier-3-platform.md",
         "category": "misc",
         "reason": "misc file - requires manual review"
       },
       {
-        "path": "Skills/antigravity-awesome-skills/plugins/antigravity-awesome-skills/skills/writing-skills/references/templates/pattern.md",
+        "path": "Skills/antigravity-awesome-skills/plugins/antigravity-awesome-skills/skills/skills-writing-skills/references/templates/pattern.md",
         "category": "misc",
         "reason": "misc file - requires manual review"
       },
       {
-        "path": "Skills/antigravity-awesome-skills/plugins/antigravity-awesome-skills/skills/writing-skills/references/templates/reference.md",
+        "path": "Skills/antigravity-awesome-skills/plugins/antigravity-awesome-skills/skills/skills-writing-skills/references/templates/reference.md",
         "category": "misc",
         "reason": "misc file - requires manual review"
       },
       {
-        "path": "Skills/antigravity-awesome-skills/plugins/antigravity-awesome-skills/skills/writing-skills/references/templates/discipline.md",
+        "path": "Skills/antigravity-awesome-skills/plugins/antigravity-awesome-skills/skills/skills-writing-skills/references/templates/discipline.md",
         "category": "misc",
         "reason": "misc file - requires manual review"
       },
       {
-        "path": "Skills/antigravity-awesome-skills/plugins/antigravity-awesome-skills/skills/writing-skills/references/templates/technique.md",
+        "path": "Skills/antigravity-awesome-skills/plugins/antigravity-awesome-skills/skills/skills-writing-skills/references/templates/technique.md",
         "category": "misc",
         "reason": "misc file - requires manual review"
       },
       {
-        "path": "Skills/antigravity-awesome-skills/plugins/antigravity-awesome-skills/skills/writing-skills/references/standards/metadata-standard.md",
+        "path": "Skills/antigravity-awesome-skills/plugins/antigravity-awesome-skills/skills/skills-writing-skills/references/standards/metadata-standard.md",
         "category": "misc",
         "reason": "misc file - requires manual review"
       },
@@ -22951,7 +22951,7 @@
         "reason": "misc file - requires manual review"
       },
       {
-        "path": "Skills/antigravity-awesome-skills/plugins/antigravity-awesome-skills/skills/devops-deploy/SKILL.md",
+        "path": "Skills/antigravity-awesome-skills/plugins/antigravity-awesome-skills/skills/skills-devops-deploy/SKILL.md",
         "category": "misc",
         "reason": "misc file - requires manual review"
       },
@@ -23326,7 +23326,7 @@
         "reason": "misc file - requires manual review"
       },
       {
-        "path": "Skills/antigravity-awesome-skills/plugins/antigravity-awesome-skills/skills/devops-troubleshooter/SKILL.md",
+        "path": "Skills/antigravity-awesome-skills/plugins/antigravity-awesome-skills/skills/skills-devops-troubleshooter/SKILL.md",
         "category": "misc",
         "reason": "misc file - requires manual review"
       },
@@ -25611,7 +25611,7 @@
         "reason": "misc file - requires manual review"
       },
       {
-        "path": "Skills/antigravity-awesome-skills/plugins/antigravity-awesome-skills/skills/business-analyst/SKILL.md",
+        "path": "Skills/antigravity-awesome-skills/plugins/antigravity-awesome-skills/skills/skills-business-analyst/SKILL.md",
         "category": "misc",
         "reason": "misc file - requires manual review"
       },
@@ -31101,7 +31101,7 @@
         "reason": "misc file - requires manual review"
       },
       {
-        "path": "Skills/antigravity-awesome-skills/plugins/antigravity-awesome-skills-claude/skills/copilot-sdk/SKILL.md",
+        "path": "Skills/antigravity-awesome-skills/plugins/antigravity-awesome-skills-claude/skills/skills-copilot-sdk/SKILL.md",
         "category": "misc",
         "reason": "misc file - requires manual review"
       },
@@ -33476,7 +33476,7 @@
         "reason": "misc file - requires manual review"
       },
       {
-        "path": "Skills/antigravity-awesome-skills/plugins/antigravity-awesome-skills-claude/skills/writing-plans/SKILL.md",
+        "path": "Skills/antigravity-awesome-skills/plugins/antigravity-awesome-skills-claude/skills/skills-writing-plans/SKILL.md",
         "category": "misc",
         "reason": "misc file - requires manual review"
       },
@@ -38181,67 +38181,67 @@
         "reason": "misc file - requires manual review"
       },
       {
-        "path": "Skills/antigravity-awesome-skills/plugins/antigravity-awesome-skills-claude/skills/writing-skills/SKILL.md",
+        "path": "Skills/antigravity-awesome-skills/plugins/antigravity-awesome-skills-claude/skills/skills-writing-skills/SKILL.md",
         "category": "misc",
         "reason": "misc file - requires manual review"
       },
       {
-        "path": "Skills/antigravity-awesome-skills/plugins/antigravity-awesome-skills-claude/skills/writing-skills/testing-skills-with-subagents.md",
+        "path": "Skills/antigravity-awesome-skills/plugins/antigravity-awesome-skills-claude/skills/skills-writing-skills/testing-skills-with-subagents.md",
         "category": "misc",
         "reason": "misc file - requires manual review"
       },
       {
-        "path": "Skills/antigravity-awesome-skills/plugins/antigravity-awesome-skills-claude/skills/writing-skills/examples.md",
+        "path": "Skills/antigravity-awesome-skills/plugins/antigravity-awesome-skills-claude/skills/skills-writing-skills/examples.md",
         "category": "misc",
         "reason": "misc file - requires manual review"
       },
       {
-        "path": "Skills/antigravity-awesome-skills/plugins/antigravity-awesome-skills-claude/skills/writing-skills/gotchas.md",
+        "path": "Skills/antigravity-awesome-skills/plugins/antigravity-awesome-skills-claude/skills/skills-writing-skills/gotchas.md",
         "category": "misc",
         "reason": "misc file - requires manual review"
       },
       {
-        "path": "Skills/antigravity-awesome-skills/plugins/antigravity-awesome-skills-claude/skills/writing-skills/persuasion-principles.md",
+        "path": "Skills/antigravity-awesome-skills/plugins/antigravity-awesome-skills-claude/skills/skills-writing-skills/persuasion-principles.md",
         "category": "misc",
         "reason": "misc file - requires manual review"
       },
       {
-        "path": "Skills/antigravity-awesome-skills/plugins/antigravity-awesome-skills-claude/skills/writing-skills/anthropic-best-practices.md",
+        "path": "Skills/antigravity-awesome-skills/plugins/antigravity-awesome-skills-claude/skills/skills-writing-skills/anthropic-best-practices.md",
         "category": "misc",
         "reason": "misc file - requires manual review"
       },
       {
-        "path": "Skills/antigravity-awesome-skills/plugins/antigravity-awesome-skills-claude/skills/writing-skills/graphviz-conventions.dot",
+        "path": "Skills/antigravity-awesome-skills/plugins/antigravity-awesome-skills-claude/skills/skills-writing-skills/graphviz-conventions.dot",
         "category": "misc",
         "reason": "misc file - requires manual review"
       },
       {
-        "path": "Skills/antigravity-awesome-skills/plugins/antigravity-awesome-skills-claude/skills/writing-skills/references/templates/tier-3-platform.md",
+        "path": "Skills/antigravity-awesome-skills/plugins/antigravity-awesome-skills-claude/skills/skills-writing-skills/references/templates/tier-3-platform.md",
         "category": "misc",
         "reason": "misc file - requires manual review"
       },
       {
-        "path": "Skills/antigravity-awesome-skills/plugins/antigravity-awesome-skills-claude/skills/writing-skills/references/templates/pattern.md",
+        "path": "Skills/antigravity-awesome-skills/plugins/antigravity-awesome-skills-claude/skills/skills-writing-skills/references/templates/pattern.md",
         "category": "misc",
         "reason": "misc file - requires manual review"
       },
       {
-        "path": "Skills/antigravity-awesome-skills/plugins/antigravity-awesome-skills-claude/skills/writing-skills/references/templates/reference.md",
+        "path": "Skills/antigravity-awesome-skills/plugins/antigravity-awesome-skills-claude/skills/skills-writing-skills/references/templates/reference.md",
         "category": "misc",
         "reason": "misc file - requires manual review"
       },
       {
-        "path": "Skills/antigravity-awesome-skills/plugins/antigravity-awesome-skills-claude/skills/writing-skills/references/templates/discipline.md",
+        "path": "Skills/antigravity-awesome-skills/plugins/antigravity-awesome-skills-claude/skills/skills-writing-skills/references/templates/discipline.md",
         "category": "misc",
         "reason": "misc file - requires manual review"
       },
       {
-        "path": "Skills/antigravity-awesome-skills/plugins/antigravity-awesome-skills-claude/skills/writing-skills/references/templates/technique.md",
+        "path": "Skills/antigravity-awesome-skills/plugins/antigravity-awesome-skills-claude/skills/skills-writing-skills/references/templates/technique.md",
         "category": "misc",
         "reason": "misc file - requires manual review"
       },
       {
-        "path": "Skills/antigravity-awesome-skills/plugins/antigravity-awesome-skills-claude/skills/writing-skills/references/standards/metadata-standard.md",
+        "path": "Skills/antigravity-awesome-skills/plugins/antigravity-awesome-skills-claude/skills/skills-writing-skills/references/standards/metadata-standard.md",
         "category": "misc",
         "reason": "misc file - requires manual review"
       },
@@ -38606,7 +38606,7 @@
         "reason": "misc file - requires manual review"
       },
       {
-        "path": "Skills/antigravity-awesome-skills/plugins/antigravity-awesome-skills-claude/skills/devops-deploy/SKILL.md",
+        "path": "Skills/antigravity-awesome-skills/plugins/antigravity-awesome-skills-claude/skills/skills-devops-deploy/SKILL.md",
         "category": "misc",
         "reason": "misc file - requires manual review"
       },
@@ -38986,7 +38986,7 @@
         "reason": "misc file - requires manual review"
       },
       {
-        "path": "Skills/antigravity-awesome-skills/plugins/antigravity-awesome-skills-claude/skills/devops-troubleshooter/SKILL.md",
+        "path": "Skills/antigravity-awesome-skills/plugins/antigravity-awesome-skills-claude/skills/skills-devops-troubleshooter/SKILL.md",
         "category": "misc",
         "reason": "misc file - requires manual review"
       },
@@ -41276,7 +41276,7 @@
         "reason": "misc file - requires manual review"
       },
       {
-        "path": "Skills/antigravity-awesome-skills/plugins/antigravity-awesome-skills-claude/skills/business-analyst/SKILL.md",
+        "path": "Skills/antigravity-awesome-skills/plugins/antigravity-awesome-skills-claude/skills/skills-business-analyst/SKILL.md",
         "category": "misc",
         "reason": "misc file - requires manual review"
       },

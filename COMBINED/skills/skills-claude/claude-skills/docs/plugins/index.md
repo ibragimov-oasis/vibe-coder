@@ -236,7 +236,7 @@ Senior PM, scrum master, Jira expert, Confluence expert, Atlassian admin, templa
 
 Customer success manager, sales engineer, revenue operations, contract & proposal writer.
 
-[:octicons-arrow-right-24: Browse skills](../skills/business-growth/index.md)
+[:octicons-arrow-right-24: Browse skills](../skills/skills-business/claude-skills-growth/index.md)
 
 ---
 

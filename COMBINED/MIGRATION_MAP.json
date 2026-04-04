@@ -135,13 +135,13 @@
     {
       "category": "skills",
       "source": "Skills/claude-skills/finance/",
-      "target": "COMBINED/skills/data-analysis/claude-skills-finance/",
+      "target": "COMBINED/skills/skills-data-analysis/claude-skills-finance/",
       "priority": "MEDIUM"
     },
     {
       "category": "skills",
       "source": "Skills/claude-skills/business-growth/",
-      "target": "COMBINED/skills/business/claude-skills-growth/",
+      "target": "COMBINED/skills/skills-business/claude-skills-growth/",
       "priority": "MEDIUM"
     },
     {
@@ -196,7 +196,7 @@
     {
       "category": "skills",
       "source": "Skills/obsidian-skills/",
-      "target": "COMBINED/skills/platform/obsidian/",
+      "target": "COMBINED/skills/skills-platform/obsidian/",
       "priority": "LOW"
     },
     {

@@ -7235,7 +7235,7 @@
         "driven",
         "insights"
       ],
-      "path": "skills/business-analyst/SKILL.md"
+      "path": "skills/skills-business-analyst/SKILL.md"
     },
     {
       "id": "busybox-on-windows",
@@ -9825,7 +9825,7 @@
         "rpc",
         "providing"
       ],
-      "path": "skills/copilot-sdk/SKILL.md"
+      "path": "skills/skills-copilot-sdk/SKILL.md"
     },
     {
       "id": "copy-editing",
@@ -11279,7 +11279,7 @@
         "cd",
         "com"
       ],
-      "path": "skills/devops-deploy/SKILL.md"
+      "path": "skills/skills-devops-deploy/SKILL.md"
     },
     {
       "id": "devops-troubleshooter",
@@ -11300,7 +11300,7 @@
         "debugging",
         "observability"
       ],
-      "path": "skills/devops-troubleshooter/SKILL.md"
+      "path": "skills/skills-devops-troubleshooter/SKILL.md"
     },
     {
       "id": "diary",
@@ -32358,7 +32358,7 @@
         "touching",
         "code"
       ],
-      "path": "skills/writing-plans/SKILL.md"
+      "path": "skills/skills-writing-plans/SKILL.md"
     },
     {
       "id": "writing-skills",
@@ -32377,7 +32377,7 @@
         "improving",
         "agent"
       ],
-      "path": "skills/writing-skills/SKILL.md"
+      "path": "skills/skills-writing-skills/SKILL.md"
     },
     {
       "id": "x-article-publisher-skill",

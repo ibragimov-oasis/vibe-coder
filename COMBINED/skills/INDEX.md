@@ -25,12 +25,12 @@ This directory contains **1,560+ production-ready skills** providing specialized
 - skills-ruflo: 41
 - skills-omc: 57
 - skills-background: 1
-- Copilot: 544
-- Data Analysis: 31
-- DevOps: 2
-- Platform-Specific: 13
-- Writing: 5
-- Business/Growth: 5
+- skills-copilot: 544
+- skills-data-analysis: 31
+- skills-devops: 2
+- skills-platform: 13
+- skills-writing: 5
+- skills-business: 5
 - **Total skills files:** 11,156
 
 ---
@@ -52,12 +52,12 @@ skills/
 ├── skills-ruflo/            # RuFlo orchestration skills
 ├── skills-omc/              # oh-my-claudecode skills (core + dist)
 ├── skills-background/       # Open-Inspect onboarding
-├── copilot/                 # GitHub Copilot skills (544 files)
-├── data-analysis/
-├── devops/
-├── platform/
-├── business/
-├── writing/
+├── skills-copilot/          # GitHub Copilot skills (544 files)
+├── skills-data-analysis/
+├── skills-devops/
+├── skills-platform/
+├── skills-business/
+├── skills-writing/
 └── INDEX.md
 ```
 
@@ -160,7 +160,7 @@ subagent-driven-dev → TDD → code-review → finish
 
 **Skills:**
 - `bootstrap/` - Project initialization
-- `data-analysis/` - Data processing
+- `skills-data-analysis/` - Data processing
 - `deep-research/` - Research capabilities
 - `frontend-design/` - UI design
 - `github-research/` - GitHub analysis
@@ -233,7 +233,7 @@ subagent-driven-dev → TDD → code-review → finish
 
 ## 💼 GitHub Copilot Skills (486 files)
 
-**Location:** `copilot/`
+**Location:** `skills-copilot/`
 
 ### Breakdown Skills (Planning)
 - `breakdown-epic-arch` - Epic → Architecture
@@ -336,19 +336,19 @@ subagent-driven-dev → TDD → code-review → finish
 
 ### DeerFlow Data Analysis
 
-**Location:** `data-analysis/deer-flow-data-analysis/`
+**Location:** `skills-data-analysis/deer-flow-data-analysis/`
 
 **Capabilities:** Data processing, analysis workflows
 
 ### Chart Visualization
 
-**Location:** `data-analysis/chart-visualization/`
+**Location:** `skills-data-analysis/chart-visualization/`
 
 **Capabilities:** Data visualization techniques
 
 ### Claude Skills Finance
 
-**Location:** `data-analysis/claude-skills-finance/`
+**Location:** `skills-data-analysis/claude-skills-finance/`
 
 **Capabilities:**
 - Financial analysis
@@ -384,19 +384,19 @@ subagent-driven-dev → TDD → code-review → finish
 
 ### DeerFlow Podcast
 
-**Location:** `writing/deer-flow-podcast/`
+**Location:** `skills-writing/deer-flow-podcast/`
 
 **Focus:** Podcast script generation
 
 ### DeerFlow PPT
 
-**Location:** `writing/deer-flow-ppt/`
+**Location:** `skills-writing/deer-flow-ppt/`
 
 **Focus:** Presentation creation
 
 ### Documentation
 
-**Location:** `writing/documentation/`
+**Location:** `skills-writing/documentation/`
 
 **Focus:** Technical documentation
 
@@ -406,7 +406,7 @@ subagent-driven-dev → TDD → code-review → finish
 
 ### C-Level Advisors
 
-**Location:** `business/claude-skills-c-level/`
+**Location:** `skills-business/claude-skills-c-level/`
 
 **Skills:**
 - `board-deck-builder` - Board presentation creation
@@ -415,7 +415,7 @@ subagent-driven-dev → TDD → code-review → finish
 
 ### Growth & Sales
 
-**Location:** `business/claude-skills-growth/`
+**Location:** `skills-business/claude-skills-growth/`
 
 **Skills:**
 - `sales-engineer` - Sales engineering expertise
@@ -424,7 +424,7 @@ subagent-driven-dev → TDD → code-review → finish
 
 ### RA/QM Compliance
 
-**Location:** `business/claude-skills-ra-qm/`
+**Location:** `skills-business/claude-skills-ra-qm/`
 
 **Skills:**
 - `soc2-compliance` - SOC 2 audit preparation
@@ -437,7 +437,7 @@ subagent-driven-dev → TDD → code-review → finish
 
 ### Obsidian Skills
 
-**Location:** `platform/obsidian/`
+**Location:** `skills-platform/obsidian/`
 
 **Focus:** Obsidian note-taking app integration and workflows
 
@@ -447,7 +447,7 @@ subagent-driven-dev → TDD → code-review → finish
 
 ### DeerFlow Vercel Deploy
 
-**Location:** `devops/deer-flow-vercel-deploy/`
+**Location:** `skills-devops/deer-flow-vercel-deploy/`
 
 **Focus:** Vercel deployment automation
 
@@ -456,37 +456,37 @@ subagent-driven-dev → TDD → code-review → finish
 ## Quick Reference by Use Case
 
 ### "I need to build a web application"
-→ `development/antigravity/frontend/` + `development/antigravity/backend/`
+→ `skills-antigravity/frontend/` + `skills-antigravity/backend/`
 
 ### "I need to implement AI features"
-→ `development/claude-skills/engineering/` (AI/ML section)
+→ `skills-claude/engineering/` (AI/ML section)
 
 ### "I need to optimize for SEO"
-→ `seo/claude-seo/`
+→ `skills-seo/claude-seo/`
 
 ### "I need to create marketing content"
-→ `seo/claude-skills-marketing/`
+→ `skills-seo/claude-skills-marketing/`
 
 ### "I need systematic development workflow"
-→ `development/superpowers/` (14 workflow skills)
+→ `skills-superpowers/` (14 workflow skills)
 
 ### "I need to analyze data"
-→ `data-analysis/` (all skills)
+→ `skills-data-analysis/` (all skills)
 
 ### "I need UI/UX design"
-→ `design/` (all skills)
+→ `skills-design/` (all skills)
 
 ### "I need business strategy"
-→ `business/claude-skills-c-level/`
+→ `skills-business/claude-skills-c-level/`
 
 ### "I need financial analysis"
-→ `data-analysis/claude-skills-finance/`
+→ `skills-data-analysis/claude-skills-finance/`
 
 ### "I need research capabilities"
-→ `research/` (all skills)
+→ `skills-research/` (all skills)
 
 ### "I need GitHub Copilot integration"
-→ `copilot/` (486 specialized skills)
+→ `skills-copilot/` (486 specialized skills)
 
 ---
 
