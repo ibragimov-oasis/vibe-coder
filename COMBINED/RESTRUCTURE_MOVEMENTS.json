@@ -39,6 +39,39 @@
         { "from": "COMBINED/orchestration/oh-my-claudecode/dist/skills", "to": "COMBINED/skills/skills-omc/dist/skills", "category": "skills", "items_moved": 3 },
         { "from": "COMBINED/orchestration/deer-flow/skills", "to": "COMBINED/skills/skills-deer-flow/orchestration/skills", "category": "skills", "items_moved": 3 }
       ]
+    },
+    {
+      "phase": 3,
+      "description": "Phase 3: Restructure commands and hooks with PREFIX-SOURCE naming",
+      "total_movements": 1085,
+      "movements": [
+        { "from": "COMBINED/commands/general/gsd", "to": "COMBINED/commands/commands-gsd/", "category": "commands", "items_moved": 57 },
+        { "from": "COMBINED/commands/plan/superpowers", "to": "COMBINED/commands/commands-superpowers/", "category": "commands", "items_moved": 3 },
+        { "from": "COMBINED/commands/review/shannon-*", "to": "COMBINED/commands/commands-shannon/", "category": "commands", "items_moved": 2 },
+        { "from": "COMBINED/commands/debug/shannon-debug.md", "to": "COMBINED/commands/commands-shannon/shannon-debug.md", "category": "commands", "items_moved": 1 },
+        { "from": "COMBINED/orchestration/get-shit-done/get-shit-done/commands", "to": "COMBINED/commands/commands-gsd/orchestration/get-shit-done/commands", "category": "commands", "items_moved": 1 },
+        { "from": "COMBINED/orchestration/ruflo/claude/commands", "to": "COMBINED/commands/commands-ruflo/claude/commands", "category": "commands", "items_moved": 168 },
+        { "from": "COMBINED/orchestration/ruflo/v2/claude/commands", "to": "COMBINED/commands/commands-ruflo/v2/claude/commands", "category": "commands", "items_moved": 83 },
+        { "from": "COMBINED/orchestration/oh-my-claudecode/dist/commands", "to": "COMBINED/commands/commands-omc/dist/commands", "category": "commands", "items_moved": 3 },
+        { "from": "COMBINED/orchestration/oh-my-claudecode/dist/cli/commands", "to": "COMBINED/commands/commands-omc/dist/cli/commands", "category": "commands", "items_moved": 24 },
+        { "from": "COMBINED/hooks/notification/gsd", "to": "COMBINED/hooks/hooks-gsd/gsd", "category": "hooks", "items_moved": 5 },
+        { "from": "COMBINED/orchestration/get-shit-done/git/hooks", "to": "COMBINED/hooks/hooks-gsd/git/hooks", "category": "hooks", "items_moved": 14 },
+        { "from": "COMBINED/hooks/notification/superpowers", "to": "COMBINED/hooks/hooks-superpowers/", "category": "hooks", "items_moved": 4 },
+        { "from": "COMBINED/hooks/pre-commit/ruflo", "to": "COMBINED/hooks/hooks-ruflo/ruflo/pre-commit", "category": "hooks", "items_moved": 1 },
+        { "from": "COMBINED/hooks/notification/ruflo", "to": "COMBINED/hooks/hooks-ruflo/notification/ruflo", "category": "hooks", "items_moved": 1 },
+        { "from": "COMBINED/orchestration/ruflo/v2/hooks", "to": "COMBINED/hooks/hooks-ruflo/v2/hooks", "category": "hooks", "items_moved": 4 },
+        { "from": "COMBINED/orchestration/ruflo/plugin/hooks", "to": "COMBINED/hooks/hooks-ruflo/plugin/hooks", "category": "hooks", "items_moved": 1 },
+        { "from": "COMBINED/orchestration/ruflo/v3/@claude-flow/hooks", "to": "COMBINED/hooks/hooks-ruflo/v3/@claude-flow/hooks", "category": "hooks", "items_moved": 6 },
+        { "from": "COMBINED/orchestration/ruflo/v3/implementation/hooks", "to": "COMBINED/hooks/hooks-ruflo/v3/implementation/hooks", "category": "hooks", "items_moved": 4 },
+        { "from": "COMBINED/hooks/pre-commit/background-agents-husky", "to": "COMBINED/hooks/hooks-background-agents/background-agents-husky/pre-commit", "category": "hooks", "items_moved": 1 },
+        { "from": "COMBINED/orchestration/oh-my-claudecode/dist/hooks", "to": "COMBINED/hooks/hooks-omc/dist/hooks", "category": "hooks", "items_moved": 649 },
+        { "from": "COMBINED/orchestration/oh-my-claudecode/dist/__tests__/hooks", "to": "COMBINED/hooks/hooks-omc/dist/__tests__/hooks", "category": "hooks", "items_moved": 12 },
+        { "from": "COMBINED/orchestration/oh-my-claudecode/templates/hooks", "to": "COMBINED/hooks/hooks-omc/templates/hooks", "category": "hooks", "items_moved": 10 },
+        { "from": "COMBINED/orchestration/oh-my-claudecode/hooks", "to": "COMBINED/hooks/hooks-omc/hooks", "category": "hooks", "items_moved": 1 },
+        { "from": "COMBINED/orchestration/oh-my-claudecode/git_internal/hooks", "to": "COMBINED/hooks/hooks-omc/git_internal/hooks", "category": "hooks", "items_moved": 14 },
+        { "from": "COMBINED/orchestration/oh-my-claudecode/src/hooks", "to": "COMBINED/hooks/hooks-omc/src/hooks", "category": "hooks", "items_moved": 2 },
+        { "from": "COMBINED/orchestration/1code/git/hooks", "to": "COMBINED/hooks/hooks-1code/git/hooks", "category": "hooks", "items_moved": 14 }
+      ]
     }
   ]
 }

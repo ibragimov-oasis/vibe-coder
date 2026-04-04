@@ -1,17 +1,18 @@
 # COMBINED/commands - Master Commands Index
 
 > **Complete catalog of all slash commands across repositories**
-> Last updated: 2026-04-03
+> Last updated: 2026-04-04
 
 ## Overview
 
-This directory contains **63 slash commands** that provide quick access to specialized workflows, agents, and automation. Commands are **executable shortcuts** that expand to full prompts when invoked.
+This directory contains **343 commands** collected from the core prompt packs and orchestration systems. Commands are **executable shortcuts** that expand to full prompts when invoked.
 
-**Total Statistics:**
-- **General Commands:** 57 (mostly GSD)
-- **Planning Commands:** 3
-- **Review Commands:** 2
-- **Debug Commands:** 1
+**Total Statistics (prefix-source layout):**
+- **commands-gsd:** 58 (core + orchestration get-shit-done)
+- **commands-superpowers:** 3 (planning)
+- **commands-shannon:** 3 (review + debug)
+- **commands-ruflo:** 251 (rufflow command packs)
+- **commands-omc:** 27 (oh-my-claudecode dist/CLI commands)
 
 ---
 
@@ -19,26 +20,19 @@ This directory contains **63 slash commands** that provide quick access to speci
 
 ```
 commands/
-├── general/              # General-purpose commands (57)
-│   └── gsd/              # get-shit-done commands (57)
-├── plan/                 # Planning commands (3)
-│   ├── superpowers-brainstorm.md
-│   ├── superpowers-execute-plan.md
-│   └── superpowers-write-plan.md
-├── review/               # Code review commands (2)
-│   ├── shannon-pr.md
-│   └── shannon-review.md
-└── debug/                # Debugging commands (1)
-    └── shannon-debug.md
+├── commands-gsd/             # get-shit-done commands (58, includes orchestration add-ons)
+├── commands-superpowers/     # planning commands (3)
+├── commands-shannon/         # review/debug commands (3)
+├── commands-ruflo/           # ruflo command packs (251)
+└── commands-omc/             # oh-my-claudecode CLI/commands (27)
 ```
-
 ---
 
-## 🚀 General Commands (57)
+## 🚀 GSD Commands (58)
 
 **Source:** get-shit-done (GSD) meta-prompting system
 
-**Location:** `general/gsd/`
+**Location:** `commands-gsd/`
 
 ### Project & Workspace Management
 

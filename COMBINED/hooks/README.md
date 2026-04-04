@@ -1,27 +1,39 @@
-# COMBINED/hooks/ — Lifecycle Hooks Documentation
+# COMBINED/hooks/ — Lifecycle Hooks Documentation (prefix-source layout)
 
 ## Current Structure
 
 ```
 hooks/
-├── notification/           ✅ EXISTS
-│   ├── gsd/               (5 hooks: check-update.js, context-monitor.js, prompt-guard.js, statusline.js, workflow-guard.js)
-│   ├── ruflo/             (RuFlo notification hooks)
-│   └── superpowers/       (4 hooks: hooks.json, hooks-cursor.json, run-hook.cmd, session-start)
-└── pre-commit/            ✅ EXISTS
-    ├── ruflo/             (RuFlo git pre-commit hooks)
-    └── background-agents-husky/ (Husky pre-commit hooks)
+├── hooks-gsd/                 # GSD notification + git hooks (19 files)
+│   ├── gsd/                   # Notification (5)
+│   └── git/hooks/             # Git hooks from GSD repo (14)
+├── hooks-superpowers/         # Superpowers notification hooks (4)
+├── hooks-ruflo/               # Ruflo hooks (notification + git) (17)
+│   ├── notification/ruflo     # Notification (1)
+│   ├── ruflo/pre-commit       # Git pre-commit (1)
+│   ├── v2/hooks               # Ruflo v2 hooks (4)
+│   ├── plugin/hooks           # Ruflo plugin hook (1)
+│   └── v3/@claude-flow/hooks  # Ruflo v3 hooks (6) plus implementation hooks (4)
+├── hooks-background-agents/   # Husky pre-commit for background agents (1)
+├── hooks-omc/                 # Oh-My-ClaudeCode hooks (688)
+│   ├── dist/hooks             # Distributed hooks (649)
+│   ├── dist/__tests__/hooks   # Tests (12)
+│   ├── templates/hooks        # Templates (10)
+│   ├── hooks                  # Source hooks (1)
+│   ├── git_internal/hooks     # Internal git hooks (14)
+│   └── src/hooks              # Source hooks (2)
+└── hooks-1code/               # 1code git hooks (14)
 ```
 
 ## Hook Types from READ.ME.md Specification
 
 According to `/COMBINED/READ.ME.md` (lines 243-259), the expected structure includes:
 
-1. **pre-commit/** ✅ — Git pre-commit hooks (EXISTS)
+1. **pre-commit/** ✅ — Git pre-commit hooks (EXISTS via prefix folders above)
 2. **post-commit/** ❌ — Git post-commit hooks (NOT FOUND)
 3. **pre-tool-use/** ❌ — Hooks before AI tool execution (NOT FOUND)
 4. **post-tool-use/** ❌ — Hooks after AI tool execution (NOT FOUND)
-5. **notification/** ✅ — Session/notification hooks (EXISTS)
+5. **notification/** ✅ — Session/notification hooks (EXISTS via prefix folders above)
 
 ## Missing Hook Types Analysis
 
@@ -50,9 +62,9 @@ After analyzing all source repositories, the following hook types were **not fou
 **Purpose:** Hooks that trigger on session events, context changes, or workflow state changes
 
 **Sources:**
-- `gsd/` — Get-Shit-Done framework (5 hooks)
-- `ruflo/` — RuFlo orchestration system
-- `superpowers/` — Superpowers workflow (4 hooks)
+- `hooks-gsd/gsd` — Get-Shit-Done framework (5)
+- `hooks-ruflo/notification/ruflo` — RuFlo orchestration system (1)
+- `hooks-superpowers/` — Superpowers workflow (4)
 
 **Common use cases:**
 - Session start/end notifications
@@ -65,8 +77,9 @@ After analyzing all source repositories, the following hook types were **not fou
 **Purpose:** Git hooks that run before commit to validate code, run linters, check formatting
 
 **Sources:**
-- `ruflo/` — RuFlo pre-commit validation
-- `background-agents-husky/` — Husky-based pre-commit hooks
+- `hooks-ruflo/ruflo/pre-commit` — RuFlo pre-commit validation (1)
+- `hooks-background-agents/background-agents-husky/pre-commit` — Husky-based pre-commit hook (1)
+- Git hook bundles: `hooks-gsd/git/hooks` (14), `hooks-1code/git/hooks` (14)
 
 **Common use cases:**
 - Code linting
@@ -82,12 +95,13 @@ After analyzing all source repositories, the following hook types were **not fou
 
 ## Migration Status
 
-✅ **100% of available hooks migrated**
-- All notification hooks from GSD, RuFlo, Superpowers → `hooks/notification/`
-- All pre-commit hooks from RuFlo, Background-Agents → `hooks/pre-commit/`
+✅ **100% of available hooks migrated (prefix-source layout)**
+- All notification hooks regrouped under `hooks-gsd/`, `hooks-superpowers/`, `hooks-ruflo/notification/`
+- All pre-commit hooks under `hooks-ruflo/`, `hooks-background-agents/`
+- Git hook bundles consolidated under `hooks-gsd/git/hooks` and `hooks-1code/git/hooks`
 - No hooks found for post-commit, pre-tool-use, post-tool-use types
 
 ---
 
-**Last Updated:** 2026-04-03
-**Phase:** 2 - Structure Verification
+**Last Updated:** 2026-04-04
+**Phase:** 3 - Prefix-source restructure completed
