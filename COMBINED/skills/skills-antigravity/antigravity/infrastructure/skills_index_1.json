@@ -2681,7 +2681,7 @@
   },
   {
     "id": "business-analyst",
-    "path": "skills/business-analyst",
+    "path": "skills/skills-business-analyst",
     "category": "uncategorized",
     "name": "business-analyst",
     "description": "Master modern business analysis with AI-powered analytics, real-time dashboards, and data-driven insights. Build comprehensive KPI frameworks, predictive models, and strategic recommendations.",
@@ -3651,7 +3651,7 @@
   },
   {
     "id": "copilot-sdk",
-    "path": "skills/copilot-sdk",
+    "path": "skills/skills-copilot-sdk",
     "category": "uncategorized",
     "name": "copilot-sdk",
     "description": "Build applications powered by GitHub Copilot using the Copilot SDK. Use when creating programmatic integrations with Copilot across Node.js/TypeScript, Python, Go, or .NET. Covers session managemen...",
@@ -4221,7 +4221,7 @@
   },
   {
     "id": "devops-troubleshooter",
-    "path": "skills/devops-troubleshooter",
+    "path": "skills/skills-devops-troubleshooter",
     "category": "uncategorized",
     "name": "devops-troubleshooter",
     "description": "Expert DevOps troubleshooter specializing in rapid incident response, advanced debugging, and modern observability.",
@@ -11881,7 +11881,7 @@
   },
   {
     "id": "writing-plans",
-    "path": "skills/writing-plans",
+    "path": "skills/skills-writing-plans",
     "category": "uncategorized",
     "name": "writing-plans",
     "description": "Use when you have a spec or requirements for a multi-step task, before touching code",
@@ -11891,7 +11891,7 @@
   },
   {
     "id": "writing-skills",
-    "path": "skills/writing-skills",
+    "path": "skills/skills-writing-skills",
     "category": "meta",
     "name": "writing-skills",
     "description": "Use when creating, updating, or improving agent skills.",

@@ -46,7 +46,7 @@ Both follow the iterative loop pattern used by implementation reviews.
 
 **Purpose:** Verify the plan is complete, matches the spec, and has proper task decomposition.
 
-**Location:** `skills/writing-plans/plan-document-reviewer-prompt.md`
+**Location:** `skills/skills-writing-plans/plan-document-reviewer-prompt.md`
 
 **What it checks for:**
 
@@ -129,8 +129,8 @@ Tasks and steps use checkbox syntax:
 
 **New files:**
 - `skills/brainstorming/spec-document-reviewer-prompt.md`
-- `skills/writing-plans/plan-document-reviewer-prompt.md`
+- `skills/skills-writing-plans/plan-document-reviewer-prompt.md`
 
 **Modified files:**
 - `skills/brainstorming/SKILL.md` - add review loop after spec written
-- `skills/writing-plans/SKILL.md` - add chunk-by-chunk review loop, update task syntax examples
+- `skills/skills-writing-plans/SKILL.md` - add chunk-by-chunk review loop, update task syntax examples

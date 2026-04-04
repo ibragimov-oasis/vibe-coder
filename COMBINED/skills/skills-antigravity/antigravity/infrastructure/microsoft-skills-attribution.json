@@ -662,7 +662,7 @@
     },
     {
       "flat_name": "copilot-sdk",
-      "original_path": ".github/skills/copilot-sdk",
+      "original_path": ".github/skills/skills-copilot-sdk",
       "source": "microsoft/skills (.github/skills)"
     },
     {

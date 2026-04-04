@@ -678,10 +678,10 @@
           "combined_locations": [
             "COMBINED/skills/development/claude-skills/",
             "COMBINED/skills/seo/claude-skills-marketing/",
-            "COMBINED/skills/business/claude-skills-growth/",
-            "COMBINED/skills/business/claude-skills-c-level/",
-            "COMBINED/skills/data-analysis/claude-skills-finance/",
-            "COMBINED/skills/business/claude-skills-ra-qm/"
+            "COMBINED/skills/skills-business/claude-skills-growth/",
+            "COMBINED/skills/skills-business/claude-skills-c-level/",
+            "COMBINED/skills/skills-data-analysis/claude-skills-finance/",
+            "COMBINED/skills/skills-business/claude-skills-ra-qm/"
           ],
           "type": "Production-ready professional skills library",
           "description": "205 skills + 16 agents across 9 domains (engineering, marketing, product, C-level advisory, project management, compliance, business, finance)",
@@ -876,7 +876,7 @@
         },
         "obsidian-skills": {
           "source": "Skills/obsidian-skills/",
-          "combined_location": "COMBINED/skills/platform/obsidian/",
+          "combined_location": "COMBINED/skills/skills-platform/obsidian/",
           "type": "Obsidian platform integration skills",
           "description": "Skills for working with Obsidian knowledge management platform",
           "statistics": {
@@ -899,7 +899,7 @@
           },
           "key_insights": [
             "Platform-specific (Obsidian)",
-            "Fully migrated to COMBINED/skills/platform/obsidian/",
+            "Fully migrated to COMBINED/skills/skills-platform/obsidian/",
             "Enables AI integration with Obsidian"
           ]
         }
@@ -971,10 +971,10 @@
             "destinations": [
               "COMBINED/skills/development/claude-skills/engineering*",
               "COMBINED/skills/seo/claude-skills-marketing/",
-              "COMBINED/skills/business/claude-skills-growth/",
-              "COMBINED/skills/business/claude-skills-c-level/",
-              "COMBINED/skills/data-analysis/claude-skills-finance/",
-              "COMBINED/skills/business/claude-skills-ra-qm/"
+              "COMBINED/skills/skills-business/claude-skills-growth/",
+              "COMBINED/skills/skills-business/claude-skills-c-level/",
+              "COMBINED/skills/skills-data-analysis/claude-skills-finance/",
+              "COMBINED/skills/skills-business/claude-skills-ra-qm/"
             ],
             "method": "MOVE remaining 48 files by category",
             "files": 48,

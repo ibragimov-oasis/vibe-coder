@@ -544,8 +544,8 @@ Code
 Skills/antigravity-awesome-skills/skills/       → COMBINED/skills/development/antigravity/
 Skills/claude-skills/engineering*/              → COMBINED/skills/development/claude-skills/
 Skills/claude-skills/marketing-skill/           → COMBINED/skills/seo/claude-skills-marketing/
-Skills/claude-skills/finance/                   → COMBINED/skills/data-analysis/claude-skills-finance/
-Skills/claude-skills/business-growth/           → COMBINED/skills/business/claude-skills-growth/
+Skills/claude-skills/finance/                   → COMBINED/skills/skills-data-analysis/claude-skills-finance/
+Skills/claude-skills/business-growth/           → COMBINED/skills/skills-business/claude-skills-growth/
 Skills/superpowers/skills/                      → COMBINED/skills/development/superpowers/
 Skills/deer-flow/skills/public/                 → COMBINED/skills/ (распределить по типам)
 Skills/hermes-agent/skills/                     → COMBINED/skills/development/hermes/builtin/
@@ -554,7 +554,7 @@ Skills/awesome-copilot-main/skills/             → COMBINED/skills/development/
 Skills/awesome-claude-code/                     → COMBINED/skills/development/awesome-claude-code/
 Skills/everything-claude-code/                  → COMBINED/skills/development/everything-claude-code/
 Skills/claude-seo/                              → COMBINED/skills/seo/claude-seo/
-Skills/obsidian-skills/                         → COMBINED/skills/platform/obsidian/
+Skills/obsidian-skills/                         → COMBINED/skills/skills-platform/obsidian/
 3.4 Commands Migration
 
 Code
@@ -646,15 +646,15 @@ COMBINED/prompts/system-prompts/
 Code
 
 deer-flow/skills/public/bootstrap/              → skills/development/deer-flow-bootstrap/
-deer-flow/skills/public/chart-visualization/    → skills/data-analysis/
+deer-flow/skills/public/chart-visualization/    → skills/skills-data-analysis/
 deer-flow/skills/public/consulting-analysis/    → skills/research/
-deer-flow/skills/public/data-analysis/          → skills/data-analysis/
+deer-flow/skills/public/data-analysis/          → skills/skills-data-analysis/
 deer-flow/skills/public/deep-research/          → skills/research/
 deer-flow/skills/public/frontend-design/        → skills/design/ + ui-design/
 deer-flow/skills/public/image-generation/       → skills/design/
-deer-flow/skills/public/podcast-generation/     → skills/writing/
-deer-flow/skills/public/ppt-generation/         → skills/writing/
-deer-flow/skills/public/vercel-deploy*/         → skills/devops/
+deer-flow/skills/public/podcast-generation/     → skills/skills-writing/
+deer-flow/skills/public/ppt-generation/         → skills/skills-writing/
+deer-flow/skills/public/vercel-deploy*/         → skills/skills-devops/
 4.3 Copilot Integration (awesome-copilot-main)
 Структура источника:
 

@@ -85,10 +85,10 @@ claude-skills/
 **Distribution in COMBINED:**
 - `COMBINED/skills/development/claude-skills/` — Engineering skills
 - `COMBINED/skills/seo/claude-skills-marketing/` — Marketing
-- `COMBINED/skills/business/claude-skills-growth/` — Business growth
-- `COMBINED/skills/business/claude-skills-c-level/` — C-level advisory
-- `COMBINED/skills/data-analysis/claude-skills-finance/` — Finance
-- `COMBINED/skills/business/claude-skills-ra-qm/` — Compliance
+- `COMBINED/skills/skills-business/claude-skills-growth/` — Business growth
+- `COMBINED/skills/skills-business/claude-skills-c-level/` — C-level advisory
+- `COMBINED/skills/skills-data-analysis/claude-skills-finance/` — Finance
+- `COMBINED/skills/skills-business/claude-skills-ra-qm/` — Compliance
 
 **Migration Status:** ⚠️ **PARTIALLY_MIGRATED**
 - Priority: **MEDIUM**
@@ -196,7 +196,7 @@ awesome-copilot-main/
 ### 1.7 Obsidian Skills — Platform Integration
 **Type:** Obsidian platform skills
 **Source:** `Skills/obsidian-skills/`
-**Combined Location:** `COMBINED/skills/platform/obsidian/`
+**Combined Location:** `COMBINED/skills/skills-platform/obsidian/`
 
 **Files:** 1 remaining (out of 14 total)
 - **13 files in COMBINED**

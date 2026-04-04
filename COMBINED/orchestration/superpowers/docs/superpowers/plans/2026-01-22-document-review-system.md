@@ -137,7 +137,7 @@ This chunk adds the plan document reviewer to the writing-plans skill.
 ### Task 3: Create Plan Document Reviewer Prompt Template
 
 **Files:**
-- Create: `skills/writing-plans/plan-document-reviewer-prompt.md`
+- Create: `skills/skills-writing-plans/plan-document-reviewer-prompt.md`
 
 - [ ] **Step 1:** Create the reviewer prompt template file
 
@@ -195,13 +195,13 @@ Task tool (general-purpose):
 
 - [ ] **Step 2:** Verify the file was created
 
-Run: `cat skills/writing-plans/plan-document-reviewer-prompt.md | head -20`
+Run: `cat skills/skills-writing-plans/plan-document-reviewer-prompt.md | head -20`
 Expected: Shows the header and purpose section
 
 - [ ] **Step 3:** Commit
 
 ```bash
-git add skills/writing-plans/plan-document-reviewer-prompt.md
+git add skills/skills-writing-plans/plan-document-reviewer-prompt.md
 git commit -m "feat: add plan document reviewer prompt template"
 ```
 
@@ -210,11 +210,11 @@ git commit -m "feat: add plan document reviewer prompt template"
 ### Task 4: Add Review Loop to Writing-Plans Skill
 
 **Files:**
-- Modify: `skills/writing-plans/SKILL.md`
+- Modify: `skills/skills-writing-plans/SKILL.md`
 
 - [ ] **Step 1:** Read current skill file
 
-Run: `cat skills/writing-plans/SKILL.md`
+Run: `cat skills/skills-writing-plans/SKILL.md`
 
 - [ ] **Step 2:** Add chunk-by-chunk review section
 
@@ -250,18 +250,18 @@ Change the Task Structure section to show checkbox syntax:
 
 - [ ] **Step 4:** Verify the review loop section was added
 
-Run: `grep -A 15 "Plan Review Loop" skills/writing-plans/SKILL.md`
+Run: `grep -A 15 "Plan Review Loop" skills/skills-writing-plans/SKILL.md`
 Expected: Shows the new review loop section
 
 - [ ] **Step 5:** Verify the task syntax examples were updated
 
-Run: `grep -A 5 "Task N:" skills/writing-plans/SKILL.md`
+Run: `grep -A 5 "Task N:" skills/skills-writing-plans/SKILL.md`
 Expected: Shows checkbox syntax `### Task N:`
 
 - [ ] **Step 6:** Commit
 
 ```bash
-git add skills/writing-plans/SKILL.md
+git add skills/skills-writing-plans/SKILL.md
 git commit -m "feat: add plan review loop and checkbox syntax to writing-plans skill"
 ```
 
@@ -274,11 +274,11 @@ This chunk updates the plan document header template to reference the new checkb
 ### Task 5: Update Plan Header Template in Writing-Plans Skill
 
 **Files:**
-- Modify: `skills/writing-plans/SKILL.md`
+- Modify: `skills/skills-writing-plans/SKILL.md`
 
 - [ ] **Step 1:** Read current plan header template
 
-Run: `grep -A 20 "Plan Document Header" skills/writing-plans/SKILL.md`
+Run: `grep -A 20 "Plan Document Header" skills/skills-writing-plans/SKILL.md`
 
 - [ ] **Step 2:** Update the header template to reference checkbox syntax
 
@@ -290,12 +290,12 @@ The plan header should note that tasks and steps use checkbox syntax. Update the
 
 - [ ] **Step 3:** Verify the change
 
-Run: `grep -A 5 "For agentic workers:" skills/writing-plans/SKILL.md`
+Run: `grep -A 5 "For agentic workers:" skills/skills-writing-plans/SKILL.md`
 Expected: Shows updated header with checkbox syntax mention
 
 - [ ] **Step 4:** Commit
 
 ```bash
-git add skills/writing-plans/SKILL.md
+git add skills/skills-writing-plans/SKILL.md
 git commit -m "docs: update plan header to reference checkbox syntax"
 ```

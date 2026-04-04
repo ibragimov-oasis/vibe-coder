@@ -191,7 +191,7 @@ hide:
 
     Customer success, sales engineer, revenue operations, contracts & proposals
 
-    [:octicons-arrow-right-24: 4 skills](skills/business-growth/)
+    [:octicons-arrow-right-24: 4 skills](skills/skills-business/claude-skills-growth/)
 
 -   :material-currency-usd:{ .lg .middle } **Finance**
 

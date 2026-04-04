@@ -29,7 +29,7 @@ agents:
 
 ### Codex CLI
 ```bash
-npx agent-skills-cli add alirezarezvani/claude-skills/business-growth
+npx agent-skills-cli add alirezarezvani/claude-skills/skills-business/claude-skills-growth
 ```
 
 ## Skills Overview

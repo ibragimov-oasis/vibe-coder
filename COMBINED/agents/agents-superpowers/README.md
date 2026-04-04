@@ -160,7 +160,7 @@ Skills live directly in this repository. To contribute:
 3. Follow the `writing-skills` skill for creating and testing new skills
 4. Submit a PR
 
-See `skills/writing-skills/SKILL.md` for the complete guide.
+See `skills/skills-writing-skills/SKILL.md` for the complete guide.
 
 ## Updating
 

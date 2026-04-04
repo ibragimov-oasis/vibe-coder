@@ -6421,7 +6421,7 @@
   },
   {
     "id": "business-analyst",
-    "path": "skills/business-analyst",
+    "path": "skills/skills-business-analyst",
     "category": "business",
     "name": "business-analyst",
     "description": "Master modern business analysis with AI-powered analytics, real-time dashboards, and data-driven insights. Build comprehensive KPI frameworks, predictive models, and strategic recommendations.",
@@ -8805,7 +8805,7 @@
   },
   {
     "id": "copilot-sdk",
-    "path": "skills/copilot-sdk",
+    "path": "skills/skills-copilot-sdk",
     "category": "backend",
     "name": "copilot-sdk",
     "description": "Build applications that programmatically interact with GitHub Copilot. The SDK wraps the Copilot CLI via JSON-RPC, providing session management, custom tools, hooks, MCP server integration, and streaming across Node.js, Python, Go, and .NET.",
@@ -10125,7 +10125,7 @@
   },
   {
     "id": "devops-deploy",
-    "path": "skills/devops-deploy",
+    "path": "skills/skills-devops-deploy",
     "category": "devops",
     "name": "devops-deploy",
     "description": "DevOps e deploy de aplicacoes \u2014 Docker, CI/CD com GitHub Actions, AWS Lambda, SAM, Terraform, infraestrutura como codigo e monitoramento.",
@@ -10147,7 +10147,7 @@
   },
   {
     "id": "devops-troubleshooter",
-    "path": "skills/devops-troubleshooter",
+    "path": "skills/skills-devops-troubleshooter",
     "category": "devops",
     "name": "devops-troubleshooter",
     "description": "Expert DevOps troubleshooter specializing in rapid incident response, advanced debugging, and modern observability.",
@@ -29081,7 +29081,7 @@
   },
   {
     "id": "writing-plans",
-    "path": "skills/writing-plans",
+    "path": "skills/skills-writing-plans",
     "category": "planning",
     "name": "writing-plans",
     "description": "Use when you have a spec or requirements for a multi-step task, before touching code",
@@ -29103,7 +29103,7 @@
   },
   {
     "id": "writing-skills",
-    "path": "skills/writing-skills",
+    "path": "skills/skills-writing-skills",
     "category": "meta",
     "name": "writing-skills",
     "description": "Use when creating, updating, or improving agent skills.",

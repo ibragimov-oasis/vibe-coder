@@ -9,7 +9,7 @@
 
 All previously deleted files have been **restored** while **preserving** all beneficial changes:
 - ✅ **182 files restored** from previous commit
-- ✅ **251 skills remain moved** to COMBINED/skills/copilot/
+- ✅ **251 skills remain moved** to COMBINED/skills/skills-copilot/
 - ✅ **New roles preserved**: scientist, devops
 - ✅ **UI rules preserved**: cursor-rules.md integration
 
@@ -76,7 +76,7 @@ Restored:
 - `COMBINED/agents/by-interface/copilot/skills/`
 
 to:
-- `COMBINED/skills/copilot/`
+- `COMBINED/skills/skills-copilot/`
 
 These remain in their new location for better organization.
 
@@ -133,7 +133,7 @@ COMBINED/agents/by-interface/copilot/
 
 ### Skills Structure (Improved)
 ```
-COMBINED/skills/copilot/        ← 251 skills now properly organized here
+COMBINED/skills/skills-copilot/        ← 251 skills now properly organized here
 ├── add-educational-comments/
 ├── agent-governance/
 ├── agentic-eval/
@@ -152,7 +152,7 @@ $ git status --short | grep "^A" | wc -l
 
 ### Skills Still in New Location
 ```bash
-$ ls COMBINED/skills/copilot/ | wc -l
+$ ls COMBINED/skills/skills-copilot/ | wc -l
 251
 ```
 

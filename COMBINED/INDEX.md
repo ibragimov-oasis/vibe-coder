@@ -521,11 +521,11 @@ This document is the **complete map** of all 36 repositories in the Vibe-Coder A
 ### Key Components — 5 Skills:
 | Skill | Target in COMBINED |
 |-------|-------------------|
-| `json-canvas/` | `skills/platform/obsidian-json-canvas/` |
-| `defuddle/` | `skills/platform/obsidian-defuddle/` |
-| `obsidian-cli/` | `skills/platform/obsidian-cli/` |
-| `obsidian-bases/` | `skills/platform/obsidian-bases/` |
-| `obsidian-markdown/` | `skills/platform/obsidian-markdown/` |
+| `json-canvas/` | `skills/skills-platform/obsidian-json-canvas/` |
+| `defuddle/` | `skills/skills-platform/obsidian-defuddle/` |
+| `obsidian-cli/` | `skills/skills-platform/obsidian-cli/` |
+| `obsidian-bases/` | `skills/skills-platform/obsidian-bases/` |
+| `obsidian-markdown/` | `skills/skills-platform/obsidian-markdown/` |
 
 ---
 
