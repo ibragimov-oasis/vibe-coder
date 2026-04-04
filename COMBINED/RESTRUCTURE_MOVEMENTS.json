@@ -1,0 +1,73 @@
+{
+  "phase": 1,
+  "description": "Phase 1: Restructure agents directory with PREFIX-SOURCE naming",
+  "total_movements": 1731,
+  "movements": [
+    {
+      "from": "COMBINED/agents/by-interface/claude/*",
+      "to": "COMBINED/agents/by-interface/agents-claude/",
+      "category": "agents",
+      "items_moved": 5
+    },
+    {
+      "from": "COMBINED/agents/by-interface/copilot/*",
+      "to": "COMBINED/agents/by-interface/agents-copilot/",
+      "category": "agents",
+      "items_moved": 677
+    },
+    {
+      "from": "COMBINED/agents/by-interface/cursor/*",
+      "to": "COMBINED/agents/by-interface/agents-cursor/",
+      "category": "agents",
+      "items_moved": 1
+    },
+    {
+      "from": "COMBINED/agents/by-interface/codex/*",
+      "to": "COMBINED/agents/by-interface/agents-codex/",
+      "category": "agents",
+      "items_moved": 1
+    },
+    {
+      "from": "COMBINED/agents/by-interface/antigravity/_agents/*",
+      "to": "COMBINED/agents/by-interface/agents-antigravity/",
+      "category": "agents",
+      "items_moved": 1
+    },
+    {
+      "from": "COMBINED/agents/by-interface/opencode/*",
+      "to": "COMBINED/agents/by-interface/agents-opencode/",
+      "category": "agents",
+      "items_moved": 2
+    },
+    {
+      "from": "COMBINED/orchestration/ruflo/agents/*",
+      "to": "COMBINED/agents/agents-ruflo/",
+      "category": "agents",
+      "items_moved": 149
+    },
+    {
+      "from": "COMBINED/orchestration/oh-my-claudecode/agents/*",
+      "to": "COMBINED/agents/agents-omc/",
+      "category": "agents",
+      "items_moved": 19
+    },
+    {
+      "from": "COMBINED/orchestration/get-shit-done/sdk/prompts/agents/*",
+      "to": "COMBINED/agents/agents-gsd/",
+      "category": "agents",
+      "items_moved": 8
+    },
+    {
+      "from": "COMBINED/agents/orchestrators/background-agents/*",
+      "to": "COMBINED/agents/agents-background/",
+      "category": "agents",
+      "items_moved": 222
+    },
+    {
+      "from": "COMBINED/agents/orchestrators/hermes/*",
+      "to": "COMBINED/agents/agents-hermes/",
+      "category": "agents",
+      "items_moved": 646
+    }
+  ]
+}
