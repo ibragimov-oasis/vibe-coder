@@ -1,0 +1,19 @@
+c2ea13dadd72f647a5de0b2ab0c98d5a62dad5f6		branch 'main' of https://github.com/ColeMurray/background-agents
+f6fd1724f8a5b3fb443402d7dc309d94d9e9388e	not-for-merge	branch 'chore/remove-unused-barrels-json-helper' of https://github.com/ColeMurray/background-agents
+0442f7e2f5068c9f16f5948f43c1eaed26c6e71f	not-for-merge	branch 'claude/explore-multi-provider-support-ZDeqA' of https://github.com/ColeMurray/background-agents
+608ed34b126ef2c454490bfb43215ad334c16058	not-for-merge	branch 'docs-setup-guide-improvements' of https://github.com/ColeMurray/background-agents
+e6774c9504a130bbd63d7de86aebec7d4891647c	not-for-merge	branch 'feat/agent-browser-base-image' of https://github.com/ColeMurray/background-agents
+1b81be05d9856ad2900fa7473828031a9cd03e4d	not-for-merge	branch 'feat/keyboard-accessible-repo-model-dropdowns' of https://github.com/ColeMurray/background-agents
+689619803ccfb0e23615ea826cbd2058835de5c7	not-for-merge	branch 'feat/linear-repo-mapping-ui' of https://github.com/ColeMurray/background-agents
+90e039b12eb1bec4a4fc0887ebe10b32e41659b2	not-for-merge	branch 'feature/branch-selection' of https://github.com/ColeMurray/background-agents
+69b43a0df1f1520049c3dd67eda60381a3ce160b	not-for-merge	branch 'fix/child-task-status-reconcile' of https://github.com/ColeMurray/background-agents
+7bf778cef80ccbfc99ce46a6a7d10b98b50b116e	not-for-merge	branch 'fix/combobox-exhaustive-deps' of https://github.com/ColeMurray/background-agents
+e2c4006f7699e6e6ee7f3462049e2cec1c8b0d6c	not-for-merge	branch 'fix/model-dropdown-overflow' of https://github.com/ColeMurray/background-agents
+10ef77abe5df5e2a06a5a832117b73430f3fd545	not-for-merge	branch 'fix/model-preference-hydration' of https://github.com/ColeMurray/background-agents
+077d153bf4ee5dd1980ec9607dae168aeda273b0	not-for-merge	branch 'fix/nextauth-token-rotation' of https://github.com/ColeMurray/background-agents
+e7206238c2ba7f2b92e276df58fcc064b6482c14	not-for-merge	branch 'fix/phase3-sandbox-lifecycle-contract' of https://github.com/ColeMurray/background-agents
+f0ab6c58c86e9d38dcce70052c2140925f956cf6	not-for-merge	branch 'fix/scm-commit-attribution' of https://github.com/ColeMurray/background-agents
+c3f1ec9220c4685cdca019604965723c32fadfbb	not-for-merge	branch 'fix/user-menu-dropdown' of https://github.com/ColeMurray/background-agents
+4648c439b7be3942fd345c27bd0f8ed0549de1c3	not-for-merge	branch 'foundation/single-provider-guardrails' of https://github.com/ColeMurray/background-agents
+1d6c16fdb4fe0eac5bb24d0fb03717ca3a6a905a	not-for-merge	branch 'pr-235' of https://github.com/ColeMurray/background-agents
+2a1e65f6e112c6cac11addf679f63394834de6c2	not-for-merge	branch 'refactor/extract-repository-routes' of https://github.com/ColeMurray/background-agents
