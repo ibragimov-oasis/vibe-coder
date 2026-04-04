@@ -1,7 +1,7 @@
 # COMBINED/skills - Master Skills Index
 
 > **Complete catalog of all AI agent skills across 31 repositories**
-> Last updated: 2026-04-03
+> Last updated: 2026-04-04
 
 ## Overview
 
@@ -11,17 +11,27 @@ This directory contains **1,560+ production-ready skills** providing specialized
 - Analysis tools and scripts (no LLM calls)
 - Reference guides and documentation
 
-**Total Statistics by Category:**
-- **Development:** 5,486 files (largest category)
-- **Copilot:** 486 specialized skills
-- **SEO/Marketing:** 154 files
-- **Design:** 134 files
-- **Data Analysis:** 28 files
-- **Platform-Specific:** 11 files (Obsidian, etc.)
-- **Research:** 4 files
-- **Business/Growth:** 3 files
-- **Writing:** 3 files
-- **DevOps:** 1 file
+**Total Statistics by Source/Domain (files):**
+- skills-antigravity: 5,696
+- skills-claude: 1,737
+- skills-superpowers: 44
+- skills-deer-flow: 29
+- skills-hermes: 437
+- skills-awesome-claude: 302
+- skills-everything-cc: 1,696
+- skills-seo: 255
+- skills-design: 255
+- skills-research: 5
+- skills-ruflo: 41
+- skills-omc: 57
+- skills-background: 1
+- Copilot: 544
+- Data Analysis: 31
+- DevOps: 2
+- Platform-Specific: 13
+- Writing: 5
+- Business/Growth: 5
+- **Total skills files:** 11,156
 
 ---
 
@@ -29,68 +39,37 @@ This directory contains **1,560+ production-ready skills** providing specialized
 
 ```
 skills/
-├── development/          # Software development (5,486 files)
-│   ├── antigravity/      # 1,340+ skills by technology
-│   ├── claude-skills/    # 205 production skills
-│   ├── superpowers/      # 14 workflow skills
-│   ├── deer-flow/        # ByteDance skills
-│   ├── hermes/           # Self-learning agent skills
-│   ├── awesome-copilot/  # Copilot ecosystem
-│   ├── awesome-claude-code/
-│   ├── everything-claude-code/
-│   └── ruflo/            # RuFlo enterprise skills
-│
-├── copilot/              # GitHub Copilot skills (486 files)
-│   ├── add-educational-comments/
-│   ├── agent-governance/
-│   ├── azure-architecture-autopilot/
-│   ├── breakdown-* (epic, feature, test)/
-│   ├── code-quality-*/
-│   └── ...460+ more
-│
-├── seo/                  # SEO & Marketing (154 files)
-│   ├── claude-seo/       # SEO audit & optimization
-│   └── claude-skills-marketing/
-│
-├── design/               # UI/UX Design (134 files)
-│   ├── deer-flow-frontend-design/
-│   ├── deer-flow-image-generation/
-│   └── ui-design/
-│
-├── data-analysis/        # Data Science (28 files)
-│   ├── deer-flow-data-analysis/
-│   ├── chart-visualization/
-│   └── claude-skills-finance/
-│
-├── research/             # Research Skills (4 files)
-│   ├── deer-flow-deep-research/
-│   ├── deer-flow-github-research/
-│   └── consulting-analysis/
-│
-├── writing/              # Content Creation (3 files)
-│   ├── deer-flow-podcast/
-│   ├── deer-flow-ppt/
-│   └── documentation/
-│
-├── business/             # Business Advisory (3 files)
-│   ├── claude-skills-c-level/
-│   ├── claude-skills-growth/
-│   └── claude-skills-ra-qm/
-│
-├── platform/             # Platform-Specific (11 files)
-│   └── obsidian/         # Obsidian skills
-│
-└── devops/               # DevOps Skills (1 file)
-    └── deer-flow-vercel-deploy/
+├── skills-antigravity/      # Antigravity skills (5,696 files)
+├── skills-claude/           # Claude skills (1,737 files)
+├── skills-superpowers/      # Superpowers workflow skills
+├── skills-deer-flow/        # Deer-Flow skills (public + orchestration)
+├── skills-hermes/           # Hermes skills
+├── skills-awesome-claude/   # Awesome Claude/Copilot skills
+├── skills-everything-cc/    # Everything Claude Code skills
+├── skills-seo/              # SEO & marketing skills
+├── skills-research/         # Research skills
+├── skills-design/           # Design skills
+├── skills-ruflo/            # RuFlo orchestration skills
+├── skills-omc/              # oh-my-claudecode skills (core + dist)
+├── skills-background/       # Open-Inspect onboarding
+├── copilot/                 # GitHub Copilot skills (544 files)
+├── data-analysis/
+├── devops/
+├── platform/
+├── business/
+├── writing/
+└── INDEX.md
 ```
 
 ---
 
-## 🚀 Development Skills (5,486 files)
+## 🚀 Core Skill Sources (prefix-source layout)
+
+*Note: Paths now use `skills-<source>/...` as shown above.*
 
 ### Antigravity Awesome Skills (1,340+ skills)
 
-**Location:** `development/antigravity/`
+**Location:** `skills-antigravity/`
 
 **Coverage:** Most comprehensive skill library
 
@@ -119,7 +98,7 @@ skill-name/
 
 ### Claude Skills (205 production skills)
 
-**Location:** `development/claude-skills/`
+**Location:** `skills-claude/`
 
 **Repositories:**
 - `engineering/` - Core engineering practices (POWERFUL collection)
@@ -147,7 +126,7 @@ skill-name/
 
 ### Superpowers (14 workflow skills)
 
-**Location:** `development/superpowers/`
+**Location:** `skills-superpowers/`
 
 **Philosophy:** Test-driven, subagent-driven development with systematic workflows
 
@@ -177,7 +156,7 @@ subagent-driven-dev → TDD → code-review → finish
 
 ### DeerFlow Skills (15 ByteDance skills)
 
-**Location:** `development/deer-flow/` (distributed across categories)
+**Location:** `skills-deer-flow/` (distributed across categories)
 
 **Skills:**
 - `bootstrap/` - Project initialization
@@ -196,7 +175,7 @@ subagent-driven-dev → TDD → code-review → finish
 
 ### Hermes Skills
 
-**Location:** `development/hermes/`
+**Location:** `skills-hermes/`
 
 **Structure:**
 - `builtin/` - Core self-learning capabilities
@@ -208,7 +187,7 @@ subagent-driven-dev → TDD → code-review → finish
 
 ### Awesome Claude Code
 
-**Location:** `development/awesome-claude-code/`
+**Location:** `skills-awesome-claude/`
 
 **Description:** Curated collection of production-ready Claude Code skills
 
@@ -223,7 +202,7 @@ subagent-driven-dev → TDD → code-review → finish
 
 ### Everything Claude Code
 
-**Location:** `development/everything-claude-code/`
+**Location:** `skills-everything-cc/`
 
 **Description:** Hackathon-winning comprehensive resource collection
 
@@ -239,7 +218,7 @@ subagent-driven-dev → TDD → code-review → finish
 
 ### RuFlo Skills
 
-**Location:** `development/ruflo/`
+**Location:** `skills-ruflo/claude/skills/`
 
 **Description:** RuFlo v3.5 enterprise orchestration skills
 
@@ -306,7 +285,7 @@ subagent-driven-dev → TDD → code-review → finish
 
 ### Claude SEO
 
-**Location:** `seo/claude-seo/`
+**Location:** `skills-seo/claude-seo/`
 
 **Capabilities:**
 - SEO audits
@@ -319,7 +298,7 @@ subagent-driven-dev → TDD → code-review → finish
 
 ### Claude Skills Marketing
 
-**Location:** `seo/claude-skills-marketing/`
+**Location:** `skills-seo/claude-skills-marketing/`
 
 **Capabilities:**
 - Content creation strategies
@@ -335,19 +314,19 @@ subagent-driven-dev → TDD → code-review → finish
 
 ### DeerFlow Frontend Design
 
-**Location:** `design/deer-flow-frontend-design/`
+**Location:** `skills-design/deer-flow-frontend-design/`
 
 **Focus:** Modern frontend UI design patterns
 
 ### DeerFlow Image Generation
 
-**Location:** `design/deer-flow-image-generation/`
+**Location:** `skills-design/deer-flow-image-generation/`
 
 **Focus:** AI-powered image creation workflows
 
 ### UI Design
 
-**Location:** `design/ui-design/`
+**Location:** `skills-design/ui-design/`
 
 **Focus:** UI/UX best practices and component design
 
@@ -383,19 +362,19 @@ subagent-driven-dev → TDD → code-review → finish
 
 ### DeerFlow Deep Research
 
-**Location:** `research/deer-flow-deep-research/`
+**Location:** `skills-research/deer-flow-deep-research/`
 
 **Focus:** Comprehensive research workflows
 
 ### DeerFlow GitHub Research
 
-**Location:** `research/deer-flow-github-research/`
+**Location:** `skills-research/deer-flow-github-research/`
 
 **Focus:** GitHub repository analysis
 
 ### Consulting Analysis
 
-**Location:** `research/consulting-analysis/`
+**Location:** `skills-research/consulting-analysis/`
 
 **Focus:** Business consulting frameworks
 
