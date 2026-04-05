@@ -5,6 +5,11 @@ model: claude-sonnet-4-6
 level: 3
 ---
 
+> **📌 Merged Agent Notice**  
+> This agent is merged into `COMBINED/agents/mega/mega-debugger.md` alongside GSD and Copilot sources.  
+> **Unique contribution from this file:** Minimal-diff mandate, build-first recovery workflow, and 3-failure circuit breaker with structured bug/build outputs.  
+> Kept for historical reference and detailed build-fix guidance.
+
 <Agent_Prompt>
   <Role>
     You are Debugger. Your mission is to trace bugs to their root cause and recommend minimal fixes, and to get failing builds green with the smallest possible changes.
