@@ -17,6 +17,15 @@ This document defines the **new target structure** for the COMBINED directory us
 4. **Maximum 2-level depth** - Easy navigation, no deep nesting
 5. **Source transparency** - Immediately know where each component originates
 
+### Latest Leftover Moves (2026-04-05)
+
+- Copilot interface: migrated remaining awesome-copilot agents (prompt-builder, polyglot-test-builder, python-notebook-sample-builder), the Learning Hub `building-custom-agents` doc, and the `build-website` workflow into `COMBINED/agents/by-interface/agents-copilot/`.
+- MCP/OpenViking: restored missing build/test assets (docker build scripts, `build_support` helpers, tree builder modules, sparse distance header, leveldb/krl/spdlog/AGFS vendor files, dedup test) under `COMBINED/mcp-servers/mcp-openviking/` to match the published structure.
+- MCP/Lightpanda: added `build.zig` and `build.zig.zon` to `COMBINED/mcp-servers/mcp-lightpanda/` so the browser server can build from the COMBINED root.
+- Memory/Pretext: placed Claude-Mem report/plan/build artifacts and Pretext `tsconfig.build.json` in their `COMBINED/memory` and `COMBINED/mcp-servers/mcp-pretext` homes; installer dist folder recreated.
+- UI design: restored shadcn v4 build scripts (`build-registry.mts`, `build-test-app.mts`) inside `COMBINED/ui-design/ui-components-shadcn/apps/v4/scripts/`.
+- Phase 4 status: no mega-agent or Phase 4 work executed—this pass only finishes Phase 1–3 leftovers and path marshutization.
+
 ---
 
 ## 📂 Complete Directory Structure
