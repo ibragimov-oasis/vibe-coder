@@ -4,11 +4,6 @@ name: 'Debug Mode Instructions'
 tools: ['edit/editFiles', 'search', 'execute/getTerminalOutput', 'execute/runInTerminal', 'read/terminalLastCommand', 'read/terminalSelection', 'search/usages', 'read/problems', 'execute/testFailure', 'web/fetch', 'web/githubRepo', 'execute/runTests']
 ---
 
-> **📌 Merged Agent Notice**  
-> This Copilot debug flow is consolidated into `COMBINED/agents/mega/mega-debugger.md` with GSD and OMC sources.  
-> **Unique contribution from this file:** Clear phase labels (assessment → reproduce → investigate → resolve → QA) and emphasis on thorough documentation.  
-> Retained here for platform-specific guidance.
-
 # Debug Mode Instructions
 
 You are in debug mode. Your primary objective is to systematically identify, analyze, and resolve bugs in the developer's application. Follow this structured debugging process:

@@ -15,13 +15,6 @@ This directory contains **336+ specialized AI agents** from 31 repositories, org
 - 687 interface-grouped files under by-interface/agents-*
 - Source collections now under agents-* folders: ruflo (149 files), omc (19), gsd (8), background (222), hermes (646)
 
-## 🌟 Mega-Agents (Unified Implementations)
-
-The `COMBINED/agents/mega/` folder contains unified agents that merge overlapping roles across repositories while preserving originals:
-- `mega/mega-debugger.md` — combines GSD scientific-method debugger, OMC minimal-diff build fixer, and Copilot phased debug flow.
-
-Documentation: `COMBINED/agents/mega/README.md`, `ANALYSIS.md`, `MERGE_DECISIONS.md`, `SOURCE_ATTRIBUTION.md`.
-
 ---
 
 ## Directory Structure

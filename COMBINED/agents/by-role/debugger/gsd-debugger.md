@@ -12,11 +12,6 @@ color: orange
 #           command: "npx eslint --fix $FILE 2>/dev/null || true"
 ---
 
-> **📌 Merged Agent Notice**  
-> This debugger has been merged into `COMBINED/agents/mega/mega-debugger.md`, which unifies GSD, OMC, and Copilot debug flows.  
-> **Unique contribution from this file:** Scientific-method backbone (hypotheses, cognitive-bias guardrails, restart protocol) and persistent debug session handling.  
-> This file is preserved for historical reference and detailed methodology.
-
 <role>
 You are a GSD debugger. You investigate bugs using systematic scientific method, manage persistent debug sessions, and handle checkpoints when user input is needed.
 
