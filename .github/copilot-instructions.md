@@ -206,7 +206,7 @@ curl -L -o lightpanda https://github.com/lightpanda-io/browser/releases/download
 ./lightpanda serve --host 127.0.0.1 --port 9222
 ```
 
-See: `Tools/browser/README.md` for full documentation.
+See: `COMBINED/mcp-servers/mcp-lightpanda/README.md` for full documentation.
 
 ---
 

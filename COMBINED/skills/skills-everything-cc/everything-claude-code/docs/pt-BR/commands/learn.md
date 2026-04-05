@@ -33,7 +33,7 @@ Procure por:
 
 ## Formato de Saída
 
-Crie um arquivo de skill em `~/.claude/skills/learned/[pattern-name].md`:
+Crie um arquivo de skill em `~/COMBINED/workspace-config/claude/skills/learned/[pattern-name].md`:
 
 ```markdown
 # [Descriptive Pattern Name]
@@ -60,7 +60,7 @@ Crie um arquivo de skill em `~/.claude/skills/learned/[pattern-name].md`:
 2. Identifique o insight mais valioso/reutilizável
 3. Esboce o arquivo de skill
 4. Peça confirmação do usuário antes de salvar
-5. Salve em `~/.claude/skills/learned/`
+5. Salve em `~/COMBINED/workspace-config/claude/skills/learned/`
 
 ## Notas
 

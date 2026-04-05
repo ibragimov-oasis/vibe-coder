@@ -224,9 +224,9 @@ Direct integration with Google's SEO data:
 ## Architecture
 
 ```
-~/.claude/skills/seo/         # Main orchestrator skill
-~/.claude/skills/seo-*/       # Sub-skills (15 + 2 extensions)
-~/.claude/agents/seo-*.md     # Subagents (10 + 2 extensions)
+~/COMBINED/workspace-config/claude/skills/seo/         # Main orchestrator skill
+~/COMBINED/workspace-config/claude/skills/seo-*/       # Sub-skills (15 + 2 extensions)
+~/COMBINED/workspace-config/claude/agents/seo-*.md     # Subagents (10 + 2 extensions)
 ```
 
 ### Video & Live Schema (New)

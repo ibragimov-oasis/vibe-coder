@@ -32,7 +32,7 @@ python3 scripts/commit_linter.py --from-ref origin/main --to-ref HEAD --strict -
 ### Claude Code
 
 ```bash
-cp -R engineering/changelog-generator ~/.claude/skills/changelog-generator
+cp -R engineering/changelog-generator ~/COMBINED/workspace-config/claude/skills/changelog-generator
 ```
 
 ### OpenAI Codex

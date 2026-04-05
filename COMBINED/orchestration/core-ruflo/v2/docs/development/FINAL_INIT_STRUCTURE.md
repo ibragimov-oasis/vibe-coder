@@ -13,7 +13,7 @@ After cleanup and migration, `npx claude-flow init` now generates a clean, organ
 
 ## Complete Structure
 
-### 📁 `.claude/agents/` (76 files, 20 categories)
+### 📁 `COMBINED/workspace-config/claude/agents/` (76 files, 20 categories)
 
 Specialized AI agents for different tasks:
 
@@ -45,7 +45,7 @@ agents/
 
 ---
 
-### 📁 `.claude/commands/` (81 files, 14 categories)
+### 📁 `COMBINED/workspace-config/claude/commands/` (81 files, 14 categories)
 
 Simple CLI command references (all <100 lines):
 
@@ -165,7 +165,7 @@ commands/
 
 ---
 
-### 📁 `.claude/skills/` (21 skills)
+### 📁 `COMBINED/workspace-config/claude/skills/` (21 skills)
 
 Comprehensive workflow skills with YAML frontmatter and progressive disclosure:
 

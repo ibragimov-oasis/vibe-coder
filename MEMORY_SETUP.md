@@ -20,7 +20,7 @@ The Vibe-Coder Arsenal includes 3 powerful memory systems:
 
 ## 🧠 Claude-Mem — Persistent Memory for Claude Code
 
-**Location:** `Tools/claude-mem/`
+**Location:** `COMBINED/memory/memory-claude-mem/`
 
 ### What It Is
 
@@ -202,7 +202,7 @@ Or with API key:
 
 ## 📁 OpenViking — Context Database for AI Agents
 
-**Location:** `Tools/OpenViking/`
+**Location:** `COMBINED/mcp-servers/mcp-openviking/`
 
 ### What It Is
 
@@ -393,11 +393,11 @@ pip install openviking --upgrade --force-reinstall
 
 | System | Documentation |
 |--------|---------------|
-| Claude-Mem | `Tools/claude-mem/README.md` |
+| Claude-Mem | `COMBINED/memory/memory-claude-mem/README.md` |
 | | [docs.claude-mem.ai](https://docs.claude-mem.ai/) |
 | Supermemory | `Tools/supermemory/README.md` |
 | | [supermemory.ai/docs](https://supermemory.ai/docs) |
-| OpenViking | `Tools/OpenViking/README.md` |
+| OpenViking | `COMBINED/mcp-servers/mcp-openviking/README.md` |
 | | [openviking.ai/docs](https://www.openviking.ai/docs) |
 
 ---

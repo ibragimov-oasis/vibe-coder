@@ -41,7 +41,7 @@
 
 ## 사용 가능한 Agent
 
-`~/.claude/agents/`에 위치합니다:
+`~/COMBINED/workspace-config/claude/agents/`에 위치합니다:
 
 | Agent | 용도 |
 |-------|------|

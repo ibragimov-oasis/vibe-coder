@@ -172,14 +172,14 @@ Add to your `~/.claude/settings.json`.
       "matcher": "*",
       "hooks": [{
         "type": "command",
-        "command": "~/.claude/skills/continuous-learning-v2/hooks/observe.sh"
+        "command": "~/COMBINED/workspace-config/claude/skills/continuous-learning-v2/hooks/observe.sh"
       }]
     }],
     "PostToolUse": [{
       "matcher": "*",
       "hooks": [{
         "type": "command",
-        "command": "~/.claude/skills/continuous-learning-v2/hooks/observe.sh"
+        "command": "~/COMBINED/workspace-config/claude/skills/continuous-learning-v2/hooks/observe.sh"
       }]
     }]
   }
@@ -342,7 +342,7 @@ Hooks fire **100% of the time**, deterministically. This means:
 
 v2.1 is fully compatible with v2.0 and v1:
 - Existing global instincts in `~/.claude/homunculus/instincts/` still work as global instincts
-- Existing `~/.claude/skills/learned/` skills from v1 still work
+- Existing `~/COMBINED/workspace-config/claude/skills/learned/` skills from v1 still work
 - Stop hook still runs (but now also feeds into v2)
 - Gradual migration: run both in parallel
 

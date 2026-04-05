@@ -360,7 +360,7 @@ Windsurf uses progressive disclosure — only the skill name and description are
 
 ## OpenCode
 
-[OpenCode](https://opencode.ai) supports skills in `.opencode/skills/` with `SKILL.md` files. It also reads Claude Code's `.claude/skills/` as a fallback.
+[OpenCode](https://opencode.ai) supports skills in `.opencode/skills/` with `SKILL.md` files. It also reads Claude Code's `COMBINED/workspace-config/claude/skills/` as a fallback.
 
 ### Format
 
@@ -410,7 +410,7 @@ find .opencode/skills -name "SKILL.md" | wc -l
 
 ### Claude Code Compatibility
 
-OpenCode also reads `.claude/skills/` directories. If you already have skills installed for Claude Code, OpenCode will discover them automatically — no conversion needed.
+OpenCode also reads `COMBINED/workspace-config/claude/skills/` directories. If you already have skills installed for Claude Code, OpenCode will discover them automatically — no conversion needed.
 
 To disable this fallback:
 

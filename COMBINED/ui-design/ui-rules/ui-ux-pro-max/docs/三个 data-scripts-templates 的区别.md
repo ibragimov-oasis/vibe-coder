@@ -5,7 +5,7 @@
 | 位置 | 作用 | 能删吗 |
 |------|------|--------|
 | **src/ui-ux-pro-max/** | **唯一源码**。所有 CSV、脚本、模板都在这里改，是“唯一真相来源”。 | ❌ 不能删，这是你要维护的那一份。 |
-| **.claude/skills/ui-ux-pro-max/** | 给 **Cursor / Claude Code** 用的 Skill。AI 从这里读 SKILL.md 和运行 `scripts/search.py`。设计上这里的 data、scripts 应是**指向 src 的符号链接**，这样不用维护两份。 | ❌ 不能删（否则 Skill 不工作）；但可以改成只链到 src，不保留副本。 |
+| **COMBINED/workspace-config/claude/skills/ui-ux-pro-max/** | 给 **Cursor / Claude Code** 用的 Skill。AI 从这里读 SKILL.md 和运行 `scripts/search.py`。设计上这里的 data、scripts 应是**指向 src 的符号链接**，这样不用维护两份。 | ❌ 不能删（否则 Skill 不工作）；但可以改成只链到 src，不保留副本。 |
 | **cli/assets/** | 给 **npm 包 uipro-cli** 打包用。用户执行 `npm i -g uipro-cli` 再 `uipro init` 时，安装的是这里打包进去的 data/scripts/templates。 | ❌ 不能删；发布前用脚本从 src 同步过来即可。 |
 
 ## 可以只保留一个吗？

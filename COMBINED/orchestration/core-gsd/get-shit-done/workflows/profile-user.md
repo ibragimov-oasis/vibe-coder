@@ -351,7 +351,7 @@ Generate selected artifacts sequentially (file I/O is fast, no benefit from para
 node $HOME/.claude/get-shit-done/bin/gsd-tools.cjs generate-dev-preferences --analysis "$ANALYSIS_PATH" --json 2>/dev/null
 ```
 
-Display: "✓ Generated /gsd:dev-preferences at $HOME/.claude/commands/gsd/dev-preferences.md"
+Display: "✓ Generated /gsd:dev-preferences at $HOME/COMBINED/workspace-config/claude/commands/gsd/dev-preferences.md"
 
 **For CLAUDE.md profile section (if selected):**
 
@@ -410,7 +410,7 @@ Your profile:    $HOME/.claude/get-shit-done/USER-PROFILE.md
 Then list paths for each generated artifact:
 ```
 Artifacts:
-  ✓ /gsd:dev-preferences   $HOME/.claude/commands/gsd/dev-preferences.md
+  ✓ /gsd:dev-preferences   $HOME/COMBINED/workspace-config/claude/commands/gsd/dev-preferences.md
   ✓ CLAUDE.md section       ./CLAUDE.md
   ✓ Global CLAUDE.md        $HOME/.claude/CLAUDE.md
 ```

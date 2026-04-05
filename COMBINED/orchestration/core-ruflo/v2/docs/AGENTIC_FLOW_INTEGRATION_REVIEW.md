@@ -256,10 +256,10 @@ npm run test:hybrid          # Hybrid system tests
 - `/docs/integrations/agentic-flow/AGENTIC_FLOW_MVP_COMPLETE.md`
 
 **Skills (Claude Code):**
-- `.claude/skills/swarm-orchestration/SKILL.md`
-- `.claude/skills/reasoningbank-agentdb/SKILL.md`
-- `.claude/skills/reasoningbank-intelligence/SKILL.md`
-- `.claude/skills/agentdb-*/*.md` (5 AgentDB skills)
+- `COMBINED/workspace-config/claude/skills/swarm-orchestration/SKILL.md`
+- `COMBINED/workspace-config/claude/skills/reasoningbank-agentdb/SKILL.md`
+- `COMBINED/workspace-config/claude/skills/reasoningbank-intelligence/SKILL.md`
+- `COMBINED/workspace-config/claude/skills/agentdb-*/*.md` (5 AgentDB skills)
 
 **Total Documentation Files:** 116+ markdown files mentioning agentic-flow
 
@@ -580,7 +580,7 @@ The wildcard dependency (`"*"`) ensures claude-flow stays current with agentic-f
 **Documentation:**
 - `/docs/integrations/agentic-flow/` (10+ files)
 - `/docs/reasoningbank/` (20+ files)
-- `.claude/skills/` (8 skills)
+- `COMBINED/workspace-config/claude/skills/` (8 skills)
 
 **Total Integration Size:** ~50+ files, 5000+ LOC
 

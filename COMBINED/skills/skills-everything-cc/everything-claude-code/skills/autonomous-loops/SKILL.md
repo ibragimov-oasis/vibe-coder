@@ -169,7 +169,7 @@ PROMPT 1 (Orchestrator)              PROMPT 2 (Sub-Agents)
 
 ### Implementation via Claude Code Commands
 
-Create `.claude/commands/infinite.md`:
+Create `COMBINED/workspace-config/claude/commands/infinite.md`:
 
 ```markdown
 Parse the following arguments from $ARGUMENTS:

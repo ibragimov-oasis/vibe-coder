@@ -20,7 +20,7 @@ origin: ECC
 此技能必须在激活前对 Claude Code 可访问。有两种引导方式：
 
 1. **通过插件**: `/plugin install everything-claude-code` — 插件会自动加载此技能
-2. **手动**: 仅将此技能复制到 `~/.claude/skills/configure-ecc/SKILL.md`，然后通过说 "configure ecc" 激活
+2. **手动**: 仅将此技能复制到 `~/COMBINED/workspace-config/claude/skills/configure-ecc/SKILL.md`，然后通过说 "configure ecc" 激活
 
 ***
 
@@ -265,7 +265,7 @@ grep -rn "skills/" $TARGET/skills/
 **对于项目级别安装**，标记任何对 `~/.claude/` 路径的引用：
 
 * 如果技能引用 `~/.claude/settings.json` — 这通常没问题（设置始终是用户级别的）
-* 如果技能引用 `~/.claude/skills/` 或 `~/.claude/rules/` — 如果仅安装在项目级别，这可能损坏
+* 如果技能引用 `~/COMBINED/workspace-config/claude/skills/` 或 `~/.claude/rules/` — 如果仅安装在项目级别，这可能损坏
 * 如果技能通过名称引用另一项技能 — 检查被引用的技能是否也已安装
 
 ### 4c：检查技能间的交叉引用
@@ -290,8 +290,8 @@ grep -rn "skills/" $TARGET/skills/
 
 1. **文件**：包含问题引用的文件
 2. **行号**：行号
-3. **问题**：哪里出错了（例如，"引用了 ~/.claude/skills/python-patterns 但 python-patterns 未安装"）
-4. **建议的修复**：该怎么做（例如，"安装 python-patterns 技能" 或 "将路径更新为 .claude/skills/"）
+3. **问题**：哪里出错了（例如，"引用了 ~/COMBINED/workspace-config/claude/skills/python-patterns 但 python-patterns 未安装"）
+4. **建议的修复**：该怎么做（例如，"安装 python-patterns 技能" 或 "将路径更新为 COMBINED/workspace-config/claude/skills/"）
 
 ***
 
@@ -370,8 +370,8 @@ rm -rf /tmp/everything-claude-code
 ### "Claude Code 未获取技能"
 
 * 验证技能目录包含一个 `SKILL.md` 文件（不仅仅是松散的 .md 文件）
-* 对于用户级别：检查 `~/.claude/skills/<skill-name>/SKILL.md` 是否存在
-* 对于项目级别：检查 `.claude/skills/<skill-name>/SKILL.md` 是否存在
+* 对于用户级别：检查 `~/COMBINED/workspace-config/claude/skills/<skill-name>/SKILL.md` 是否存在
+* 对于项目级别：检查 `COMBINED/workspace-config/claude/skills/<skill-name>/SKILL.md` 是否存在
 
 ### "规则不工作"
 

@@ -659,7 +659,7 @@ If you prefer manual control over what's installed:
 git clone https://github.com/affaan-m/everything-claude-code.git
 
 # Copy agents to your Claude config
-cp everything-claude-code/agents/*.md ~/.claude/agents/
+cp everything-claude-code/agents/*.md ~/COMBINED/workspace-config/claude/agents/
 
 # Copy rules directories (common + language-specific)
 mkdir -p ~/.claude/rules
@@ -670,16 +670,16 @@ cp -r everything-claude-code/rules/golang ~/.claude/rules/
 cp -r everything-claude-code/rules/php ~/.claude/rules/
 
 # Copy commands
-cp everything-claude-code/commands/*.md ~/.claude/commands/
+cp everything-claude-code/commands/*.md ~/COMBINED/workspace-config/claude/commands/
 
 # Copy skills (core vs niche)
 # Recommended (new users): core/general skills only
-cp -r everything-claude-code/.agents/skills/* ~/.claude/skills/
-cp -r everything-claude-code/skills/search-first ~/.claude/skills/
+cp -r everything-claude-code/.agents/skills/* ~/COMBINED/workspace-config/claude/skills/
+cp -r everything-claude-code/skills/search-first ~/COMBINED/workspace-config/claude/skills/
 
 # Optional: add niche/framework-specific skills only when needed
 # for s in django-patterns django-tdd laravel-patterns springboot-patterns; do
-# cp -r everything-claude-code/skills/$s ~/.claude/skills/
+# cp -r everything-claude-code/skills/$s ~/COMBINED/workspace-config/claude/skills/
 # done
 ```
 
@@ -870,7 +870,7 @@ Yes. Use Option 2 (manual installation) and copy only what you need:
 
 ```bash
 # Just agents
-cp everything-claude-code/agents/*.md ~/.claude/agents/
+cp everything-claude-code/agents/*.md ~/COMBINED/workspace-config/claude/agents/
 
 # Just rules
 mkdir -p ~/.claude/rules/

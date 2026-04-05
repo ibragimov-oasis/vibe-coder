@@ -5,7 +5,7 @@
 Check if user has existing 2.x configuration:
 
 ```bash
-ls ~/.claude/commands/ralph-loop.md 2>/dev/null || ls ~/.claude/commands/ultrawork.md 2>/dev/null
+ls ~/COMBINED/workspace-config/claude/commands/ralph-loop.md 2>/dev/null || ls ~/COMBINED/workspace-config/claude/commands/ultrawork.md 2>/dev/null
 ```
 
 If found, this is an upgrade from 2.x. Set `IS_UPGRADE=true`.

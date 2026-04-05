@@ -901,7 +901,7 @@ agent_capabilities:
 
 ### Custom Agent Creation
 ```yaml
-# .claude/agents/custom/my-specialist.md
+# COMBINED/workspace-config/claude/agents/custom/my-specialist.md
 ---
 name: my-specialist
 description: Custom specialized agent for specific domain

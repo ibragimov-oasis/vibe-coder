@@ -170,7 +170,7 @@ PROMPT 1（协调器）              PROMPT 2（子代理）
 
 ### 通过 Claude Code 命令实现
 
-创建 `.claude/commands/infinite.md`：
+创建 `COMBINED/workspace-config/claude/commands/infinite.md`：
 
 ```markdown
 从 $ARGUMENTS 中解析以下参数：

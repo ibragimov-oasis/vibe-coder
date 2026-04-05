@@ -17,7 +17,7 @@ python3 "${CLAUDE_PLUGIN_ROOT}/skills/continuous-learning-v2/scripts/instinct-cl
 Veya `CLAUDE_PLUGIN_ROOT` ayarlanmamışsa (manuel kurulum):
 
 ```bash
-python3 ~/.claude/skills/continuous-learning-v2/scripts/instinct-cli.py evolve [--generate]
+python3 ~/COMBINED/workspace-config/claude/skills/continuous-learning-v2/scripts/instinct-cli.py evolve [--generate]
 ```
 
 İçgüdüleri analiz eder ve ilgili olanları daha üst seviye yapılara kümelendirir:

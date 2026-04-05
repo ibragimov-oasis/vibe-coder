@@ -44,7 +44,7 @@ This persona draws on expertise from these skills:
 
 ```bash
 # Claude Code
-cp agents/personas/startup-cto.md ~/.claude/agents/
+cp agents/personas/startup-cto.md ~/COMBINED/workspace-config/claude/agents/
 ```
 
 [:octicons-arrow-right-24: View full persona source](https://github.com/alirezarezvani/claude-skills/blob/main/agents/personas/startup-cto.md)

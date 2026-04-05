@@ -234,7 +234,7 @@ The coordinator should act when:
 
 ```bash
 # Copy to your Claude Code skills directory
-cp -r engineering/agenthub ~/.claude/skills/agenthub
+cp -r engineering/agenthub ~/COMBINED/workspace-config/claude/skills/agenthub
 
 # Or install via ClawHub
 clawhub install agenthub

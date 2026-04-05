@@ -158,7 +158,7 @@ This adds the skills library to your available marketplaces.
 - ✅ Native Claude Code integration
 - ✅ Automatic updates with `/plugin update`
 - ✅ Version management with git tags
-- ✅ Skills installed to `~/.claude/skills/`
+- ✅ Skills installed to `~/COMBINED/workspace-config/claude/skills/`
 - ✅ Managed through Claude Code UI
 
 ---
@@ -175,7 +175,7 @@ npx agent-skills-cli add alirezarezvani/claude-skills
 ```
 
 **This installs to:**
-- Claude Code → `~/.claude/skills/`
+- Claude Code → `~/COMBINED/workspace-config/claude/skills/`
 - Cursor → `.cursor/skills/`
 - VS Code/Copilot → `.github/skills/`
 - Goose → `~/.config/goose/skills/`
@@ -405,15 +405,15 @@ pip install pyyaml
 
 ```bash
 # Copy all skills
-cp -r marketing-skill ~/.claude/skills/
-cp -r c-level-advisor ~/.claude/skills/
-cp -r product-team ~/.claude/skills/
-cp -r project-management ~/.claude/skills/
-cp -r engineering-team ~/.claude/skills/
-cp -r ra-qm-team ~/.claude/skills/
+cp -r marketing-skill ~/COMBINED/workspace-config/claude/skills/
+cp -r c-level-advisor ~/COMBINED/workspace-config/claude/skills/
+cp -r product-team ~/COMBINED/workspace-config/claude/skills/
+cp -r project-management ~/COMBINED/workspace-config/claude/skills/
+cp -r engineering-team ~/COMBINED/workspace-config/claude/skills/
+cp -r ra-qm-team ~/COMBINED/workspace-config/claude/skills/
 
 # Or copy single skill
-cp -r marketing-skill/content-creator ~/.claude/skills/content-creator
+cp -r marketing-skill/content-creator ~/COMBINED/workspace-config/claude/skills/content-creator
 ```
 
 #### For Cursor
@@ -456,7 +456,7 @@ python3 product-team/ui-design-system/scripts/design_token_generator.py --help
 
 ```bash
 # Check Claude Code installation
-ls ~/.claude/skills/
+ls ~/COMBINED/workspace-config/claude/skills/
 
 # Check Cursor installation
 ls .cursor/skills/
@@ -496,10 +496,10 @@ ls ~/.config/goose/skills/
 echo "Sample content for analysis" > test-article.txt
 
 # Run brand voice analysis
-python3 ~/.claude/skills/content-production/scripts/brand_voice_analyzer.py test-article.txt
+python3 ~/COMBINED/workspace-config/claude/skills/content-production/scripts/brand_voice_analyzer.py test-article.txt
 
 # Run SEO optimization
-python3 ~/.claude/skills/content-production/scripts/seo_optimizer.py test-article.txt "sample keyword"
+python3 ~/COMBINED/workspace-config/claude/skills/content-production/scripts/seo_optimizer.py test-article.txt "sample keyword"
 ```
 
 ---
@@ -555,7 +555,7 @@ ls -la ~/.claude/
 
 ```bash
 # Verify installation
-ls -R ~/.claude/skills/
+ls -R ~/COMBINED/workspace-config/claude/skills/
 
 # Restart Claude Code
 # Close and reopen application
@@ -591,10 +591,10 @@ pip3 install pyyaml
 
 ```bash
 # Check SKILL.md exists
-ls ~/.claude/skills/content-creator/SKILL.md
+ls ~/COMBINED/workspace-config/claude/skills/content-creator/SKILL.md
 
 # Verify YAML frontmatter
-head -20 ~/.claude/skills/content-creator/SKILL.md
+head -20 ~/COMBINED/workspace-config/claude/skills/content-creator/SKILL.md
 ```
 
 ### Agent-Specific Issues
@@ -603,8 +603,8 @@ head -20 ~/.claude/skills/content-creator/SKILL.md
 
 ```bash
 # Reset skills directory
-rm -rf ~/.claude/skills/
-mkdir -p ~/.claude/skills/
+rm -rf ~/COMBINED/workspace-config/claude/skills/
+mkdir -p ~/COMBINED/workspace-config/claude/skills/
 
 # Reinstall
 npx agent-skills-cli add alirezarezvani/claude-skills --agent claude
@@ -636,7 +636,7 @@ ls .github/skills/
 
 ```bash
 # Remove from Claude Code
-rm -rf ~/.claude/skills/alirezarezvani/claude-skills/
+rm -rf ~/COMBINED/workspace-config/claude/skills/alirezarezvani/claude-skills/
 
 # Remove from Cursor
 rm -rf .cursor/skills/alirezarezvani/claude-skills/
@@ -655,8 +655,8 @@ rm -rf ~/.config/goose/skills/alirezarezvani/claude-skills/
 rm -rf claude-skills/
 
 # Copied skills
-rm -rf ~/.claude/skills/marketing-skill/
-rm -rf ~/.claude/skills/engineering-team/
+rm -rf ~/COMBINED/workspace-config/claude/skills/marketing-skill/
+rm -rf ~/COMBINED/workspace-config/claude/skills/engineering-team/
 # etc.
 ```
 
@@ -664,7 +664,7 @@ rm -rf ~/.claude/skills/engineering-team/
 
 ```bash
 # Example: Remove content-creator from Claude Code
-rm -rf ~/.claude/skills/content-creator/
+rm -rf ~/COMBINED/workspace-config/claude/skills/content-creator/
 
 # Example: Remove fullstack-engineer from Cursor
 rm -rf .cursor/skills/fullstack-engineer/
@@ -913,7 +913,7 @@ See `.codex/skills-index.json` for the complete manifest with descriptions.
 
 | Agent | Default Location | Flag | Notes |
 |-------|------------------|------|-------|
-| **Claude Code** | `~/.claude/skills/` | `--agent claude` | User-level installation |
+| **Claude Code** | `~/COMBINED/workspace-config/claude/skills/` | `--agent claude` | User-level installation |
 | **Cursor** | `.cursor/skills/` | `--agent cursor` | Project-level installation |
 | **VS Code/Copilot** | `.github/skills/` | `--agent vscode` | Project-level installation |
 | **Goose** | `~/.config/goose/skills/` | `--agent goose` | User-level installation |

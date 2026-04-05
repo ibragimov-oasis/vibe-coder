@@ -32,7 +32,7 @@ python3 scripts/pipeline_generator.py \
 ### Claude Code
 
 ```bash
-cp -R engineering/ci-cd-pipeline-builder ~/.claude/skills/ci-cd-pipeline-builder
+cp -R engineering/ci-cd-pipeline-builder ~/COMBINED/workspace-config/claude/skills/ci-cd-pipeline-builder
 ```
 
 ### OpenAI Codex

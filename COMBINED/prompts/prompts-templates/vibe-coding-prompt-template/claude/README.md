@@ -279,7 +279,7 @@ Prefer model family names in docs and examples (Claude Sonnet, Claude Opus, Gemi
 
 To add a new skill:
 
-1. Create directory: `.claude/skills/your-skill/`
+1. Create directory: `COMBINED/workspace-config/claude/skills/your-skill/`
 2. Add `SKILL.md` with frontmatter and instructions
 3. Test with `/your-skill`
 4. Submit PR

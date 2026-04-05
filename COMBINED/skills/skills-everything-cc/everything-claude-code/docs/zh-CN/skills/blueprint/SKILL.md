@@ -84,7 +84,7 @@ git checkout <reviewed-full-sha>          # pin to a specific reviewed commit
 
 ### 独立安装（内嵌副本）
 
-如果您在完整 ECC 安装之外仅内嵌此技能，请将 ECC 仓库中已审查的文件复制到 `~/.claude/skills/blueprint/SKILL.md`。内嵌副本没有 git 远程仓库，因此应通过从已审查的 ECC 提交中重新复制文件来更新，而不是运行 `git pull`。
+如果您在完整 ECC 安装之外仅内嵌此技能，请将 ECC 仓库中已审查的文件复制到 `~/COMBINED/workspace-config/claude/skills/blueprint/SKILL.md`。内嵌副本没有 git 远程仓库，因此应通过从已审查的 ECC 提交中重新复制文件来更新，而不是运行 `git pull`。
 
 ## 要求
 

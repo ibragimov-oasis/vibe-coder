@@ -93,13 +93,13 @@ If the new repo has a `CLAUDE.md`:
 If it has `commands/`:
 ```bash
 # Copy new commands (don't overwrite existing)
-cp -n new-repo/_claude/commands/*.md .claude/commands/
+cp -n new-repo/_claude/commands/*.md COMBINED/workspace-config/claude/commands/
 ```
 
 If it has `skills/`:
 ```bash
 # Copy new skills (don't overwrite existing)
-cp -rn new-repo/_claude/skills/* .claude/skills/
+cp -rn new-repo/_claude/skills/* COMBINED/workspace-config/claude/skills/
 ```
 
 If it has `settings.json`:
@@ -171,8 +171,8 @@ After merging into unified configs, copy the updated files to `COMBINED/`:
 # Update COMBINED/ with latest versions
 cp .claude/CLAUDE.md COMBINED/claude/COMBINED_CLAUDE.md
 cp .claude/settings.json COMBINED/claude/COMBINED_SETTINGS.json
-cp -r .claude/commands/* COMBINED/claude/COMBINED_COMMANDS/
-cp -r .claude/skills/* COMBINED/claude/COMBINED_SKILLS/
+cp -r COMBINED/workspace-config/claude/commands/* COMBINED/claude/COMBINED_COMMANDS/
+cp -r COMBINED/workspace-config/claude/skills/* COMBINED/claude/COMBINED_SKILLS/
 cp .github/copilot-instructions.md COMBINED/copilot/COMBINED_COPILOT_INSTRUCTIONS.md
 cp .cursorrules COMBINED/cursor/COMBINED_CURSORRULES
 cp -r .cursor/rules/* COMBINED/cursor/COMBINED_CURSOR_RULES/
@@ -253,7 +253,7 @@ cp new-content.md existing-name_v2.md
 ```
 
 ### Overlapping Skills
-1. Check if the skill already exists in `.claude/skills/` or `_combined/skills/`
+1. Check if the skill already exists in `COMBINED/workspace-config/claude/skills/` or `_combined/skills/`
 2. If yes — merge the SKILL.md files (append unique sections)
 3. If no — add as new skill directory
 

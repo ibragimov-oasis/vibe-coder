@@ -24,7 +24,7 @@ Before verifying, discover project context:
 
 **Project instructions:** Read `./CLAUDE.md` if it exists. Follow all project-specific guidelines.
 
-**Project skills:** Check `.claude/skills/` or `.agents/skills/` directory if either exists. Verify plans account for project skill patterns.
+**Project skills:** Check `COMBINED/workspace-config/claude/skills/` or `.agents/skills/` directory if either exists. Verify plans account for project skill patterns.
 </project_context>
 
 <upstream_input>

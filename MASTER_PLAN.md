@@ -309,8 +309,8 @@ COMBINED/
 
 | Исходный путь | Тип | Куда скопировано | Что сделано | Статус |
 |---|---|---|---|---|
-| Agents/shannon/.claude/commands/debug.md | command | COMBINED/commands/debug/ | скопировано | ✅ |
-| Agents/shannon/.claude/commands/pr.md | command | COMBINED/commands/review/ | скопировано | ✅ |
+| Agents/shannon/COMBINED/workspace-config/claude/commands/debug.md | command | COMBINED/commands/debug/ | скопировано | ✅ |
+| Agents/shannon/COMBINED/workspace-config/claude/commands/pr.md | command | COMBINED/commands/review/ | скопировано | ✅ |
 
 ═══════════════════════════════════════════════════════════
 ЭТАП 1 — РЕПО ЗА РЕПО: СКАНИРУЕМ И КОПИРУЕМ
@@ -328,13 +328,13 @@ COMBINED/
 
 Что копировать и куда:
 
-  Agents/shannon/.claude/commands/debug.md
+  Agents/shannon/COMBINED/workspace-config/claude/commands/debug.md
   → COMBINED/commands/debug/shannon-debug.md
 
-  Agents/shannon/.claude/commands/pr.md
+  Agents/shannon/COMBINED/workspace-config/claude/commands/pr.md
   → COMBINED/commands/review/shannon-pr.md
 
-  Agents/shannon/.claude/commands/review.md
+  Agents/shannon/COMBINED/workspace-config/claude/commands/review.md
   → COMBINED/commands/review/shannon-review.md
 
   Agents/shannon/CLAUDE.md
@@ -855,10 +855,10 @@ COMBINED/
   Все файлы → COMBINED/prompts/templates/vibe-coding/[имя как есть]
 
 ──────────────────────────────────────────────────────────
-РЕПО 22: Tools/claude-mem/
+РЕПО 22: COMBINED/memory/memory-claude-mem/
 ──────────────────────────────────────────────────────────
 
-Шаг 1: Прочитай README Tools/claude-mem/
+Шаг 1: Прочитай README COMBINED/memory/memory-claude-mem/
 
   Все файлы → COMBINED/memory/claude-mem/[имя как есть]
   (Python .py остаётся .py, конфиги как есть)
@@ -905,7 +905,7 @@ COMBINED/
   Все файлы → COMBINED/mcp-servers/nano-banana/ (как есть)
 
 ──────────────────────────────────────────────────────────
-РЕПО 28: Tools/pretext/
+РЕПО 28: COMBINED/mcp-servers/mcp-pretext/
 ──────────────────────────────────────────────────────────
 
   README и конфиги → COMBINED/mcp-servers/pretext/
@@ -1153,7 +1153,7 @@ AGENTS DEPARTMENT (Agents/ folder):
 │   └── optional-skills/  ← SKILLS
 │
 └── Agents/shannon/
-    ├── .claude/commands/
+    ├── COMBINED/workspace-config/claude/commands/
     │   ├── debug.md    ← COMMAND
     │   ├── pr.md       ← COMMAND
     │   └── review.md   ← COMMAND
@@ -1255,13 +1255,13 @@ PROMPTS DEPARTMENT (Prompts/ folder):
 └── Prompts/vibe-coding-template/    ← ALL files
 
 TOOLS DEPARTMENT (Tools/ folder):
-├── Tools/claude-mem/       ← persistent memory — ALL files
+├── COMBINED/memory/memory-claude-mem/       ← persistent memory — ALL files
 ├── Tools/supermemory/      ← #1 memory benchmark — ALL files
 ├── Tools/gitnexus/         ← codebase knowledge graph
 ├── Tools/lightpanda/       ← AI browser
 ├── Tools/openviking/       ← ByteDance context DB
 ├── Tools/nano-banana-mcp/  ← Gemini image MCP
-└── Tools/pretext/          ← text layout library
+└── COMBINED/mcp-servers/mcp-pretext/          ← text layout library
 
 REFERENCE (Reference/ folder):
 └── Reference/awesome-selfhosted/   ← README.md is the mega list
@@ -1343,7 +1343,7 @@ CREATE: COMBINED/MEGA_SKILLS.md
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 # ⚡ MEGA SKILLS — Complete Arsenal
 # 1500+ skills from 31 repositories — 100% combined
-# Usage: Copy relevant sections into .claude/skills/ in your project
+# Usage: Copy relevant sections into COMBINED/workspace-config/claude/skills/ in your project
 # Every skill is complete — nothing cut, nothing summarized
 # Total skills: [count as you go]
 #
@@ -1480,9 +1480,9 @@ STEP 5 — CREATE: COMBINED/MEGA_COMMANDS.md
 ═══════════════════════════════════════════════════════════
 
 Find EVERY command definition file:
-- Agents/shannon/.claude/commands/debug.md
-- Agents/shannon/.claude/commands/pr.md
-- Agents/shannon/.claude/commands/review.md
+- Agents/shannon/COMBINED/workspace-config/claude/commands/debug.md
+- Agents/shannon/COMBINED/workspace-config/claude/commands/pr.md
+- Agents/shannon/COMBINED/workspace-config/claude/commands/review.md
 - Orchestration/superpowers/commands/ → ALL files
 - Orchestration/get-shit-done/commands/gsd/ → ALL files
 - Orchestration/ruflo/.claude/ or _claude/ → ALL command files
@@ -1493,18 +1493,18 @@ CREATE: COMBINED/MEGA_COMMANDS.md
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 # ⚡ MEGA COMMANDS — Every Slash Command Combined
-# Usage: Copy into .claude/commands/ in your project
+# Usage: Copy into COMBINED/workspace-config/claude/commands/ in your project
 # Then use /[command-name] in Claude Code
 # Total commands: [count as you go]
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
-## ═══ /debug | SOURCE: Agents/shannon/.claude/commands/debug.md ═══
+## ═══ /debug | SOURCE: Agents/shannon/COMBINED/workspace-config/claude/commands/debug.md ═══
 [100% full content]
 
-## ═══ /pr | SOURCE: Agents/shannon/.claude/commands/pr.md ═══
+## ═══ /pr | SOURCE: Agents/shannon/COMBINED/workspace-config/claude/commands/pr.md ═══
 [100% full content]
 
-## ═══ /review | SOURCE: Agents/shannon/.claude/commands/review.md ═══
+## ═══ /review | SOURCE: Agents/shannon/COMBINED/workspace-config/claude/commands/review.md ═══
 [100% full content]
 
 [REPEAT for every command found]
@@ -1540,7 +1540,7 @@ STEP 7 — CREATE: COMBINED/MEGA_MEMORY.md
 ═══════════════════════════════════════════════════════════
 
 Find EVERY memory and context system file:
-- Tools/claude-mem/    → ALL files
+- COMBINED/memory/memory-claude-mem/    → ALL files
 - Tools/supermemory/   → ALL files
 - Root MEMORY_SETUP.md (already exists in root)
 - Memory configs in Orchestration/ruflo/
@@ -1555,7 +1555,7 @@ CREATE: COMBINED/MEGA_MEMORY.md
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
 ## SYSTEM 1: claude-mem (compressed persistent memory)
-### SOURCE: Tools/claude-mem/[every file]
+### SOURCE: COMBINED/memory/memory-claude-mem/[every file]
 [100% full content of every file]
 
 ## SYSTEM 2: Supermemory (#1 benchmark — LongMemEval, LoCoMo, ConvoMem)
@@ -1757,8 +1757,8 @@ CREATE: COMBINED/ULTRACAR_QUICKSTART.md
 ## 🎯 3 Minutes Setup — Claude Code
 1. Copy COMBINED/MEGA_CLAUDE.md → your project root → rename to CLAUDE.md
 2. Run: mkdir .claude/skills && mkdir .claude/commands
-3. Copy skill sections from MEGA_SKILLS.md → .claude/skills/
-4. Copy command sections from MEGA_COMMANDS.md → .claude/commands/
+3. Copy skill sections from MEGA_SKILLS.md → COMBINED/workspace-config/claude/skills/
+4. Copy command sections from MEGA_COMMANDS.md → COMBINED/workspace-config/claude/commands/
 5. Type: claude "build [your idea]"
 Your Claude Code now has the intelligence of 31 elite repos.
 
@@ -1795,7 +1795,7 @@ COMBINED/MEGA_ORCHESTRATION.md — The Autopilot   (multi-agent systems)
 
 ## 🧠 Power User Tips
 - MEGA_CLAUDE.md is the single most powerful file. Start here.
-- Skills work best when placed in .claude/skills/ as individual files
+- Skills work best when placed in COMBINED/workspace-config/claude/skills/ as individual files
 - Commands activate with /command-name in Claude Code
 - Hooks run automatically — no configuration needed after setup
 - Memory systems persist across sessions — set up once, works forever
@@ -1859,7 +1859,7 @@ Agents/hermes-agent/          (agent/, gateway/, cron/, environments/,
                                acp_adapter/, acp_registry/, docs/, 
                                datagen-config-examples/, honcho_integration/,
                                hermes_cli/, optional-skills/, .plans/)
-Agents/shannon/               (.claude/commands/, sample-reports/, repos/)
+Agents/shannon/               (COMBINED/workspace-config/claude/commands/, sample-reports/, repos/)
 Orchestration/superpowers/    (skills/, agents/, commands/, hooks/, 
                                .claude-plugin/, .cursor-plugin/, .codex/, 
                                .opencode/, scripts/)
@@ -1889,13 +1889,13 @@ Prompts/system-prompts-by-tool/  (ALL subfolders — Anthropic, Cursor,
                                   Dia, v0 — literally every folder)
 Prompts/system-prompts-leaks/    (all files)
 Prompts/vibe-coding-template/    (all files)
-Tools/claude-mem/                (all files)
+COMBINED/memory/memory-claude-mem/                (all files)
 Tools/supermemory/               (all files)
 Tools/gitnexus/                  (all files)
 Tools/lightpanda/                (all files)
 Tools/openviking/                (all files)
 Tools/nano-banana-mcp/           (all files)
-Tools/pretext/                   (all files)
+COMBINED/mcp-servers/mcp-pretext/                   (all files)
 Reference/awesome-selfhosted/    (all files)
 UI-UX/galaxy/                    (ALL 3000+ UI elements)
 UI-UX/shadcn/                    (all component files)
@@ -1947,7 +1947,7 @@ File: COMBINED/MEGA_SKILLS.md
 Header:
 # ⚡ MEGA SKILLS — Complete Arsenal
 # 1500+ skills from 31 repositories combined
-# Drop relevant sections into .claude/skills/ in your project
+# Drop relevant sections into COMBINED/workspace-config/claude/skills/ in your project
 
 Table of contents at top grouped by category:
 - 🔧 Development & Coding
@@ -2045,7 +2045,7 @@ STEP 5 — CREATE COMBINED/MEGA_COMMANDS.md
 ═══════════════════════════════════════════════════
 
 Find EVERY command definition:
-- Agents/shannon/.claude/commands/ (debug.md, pr.md, review.md)
+- Agents/shannon/COMBINED/workspace-config/claude/commands/ (debug.md, pr.md, review.md)
 - Orchestration/superpowers/commands/ (ALL files)
 - Orchestration/get-shit-done/commands/gsd/ (ALL files)
 - Orchestration/ruflo/.claude/ or _claude/ (ALL command files)
@@ -2054,7 +2054,7 @@ Find EVERY command definition:
 
 File: COMBINED/MEGA_COMMANDS.md
 # ⚡ MEGA COMMANDS — Every Slash Command Combined
-# Copy into .claude/commands/ in your project
+# Copy into COMBINED/workspace-config/claude/commands/ in your project
 
 ---
 ## /[command name] | SOURCE: [repo]
@@ -2083,7 +2083,7 @@ STEP 7 — CREATE COMBINED/MEGA_MEMORY.md
 ═══════════════════════════════════════════════════
 
 Find EVERY memory/context system file:
-- Tools/claude-mem/ (ALL files)
+- COMBINED/memory/memory-claude-mem/ (ALL files)
 - Tools/supermemory/ (ALL files)
 - Root MEMORY_SETUP.md
 - Any memory configs in Orchestration/ruflo/
@@ -2188,9 +2188,9 @@ File: COMBINED/ULTIMATE_QUICKSTART.md
 
 ## 🎯 5 Minutes Setup — Claude Code
 1. Copy COMBINED/MEGA_CLAUDE.md → your project root → rename to CLAUDE.md
-2. Create folder .claude/skills/ in your project
-3. Copy sections from COMBINED/MEGA_SKILLS.md into .claude/skills/
-4. Copy COMBINED/MEGA_COMMANDS.md sections → .claude/commands/
+2. Create folder COMBINED/workspace-config/claude/skills/ in your project
+3. Copy sections from COMBINED/MEGA_SKILLS.md into COMBINED/workspace-config/claude/skills/
+4. Copy COMBINED/MEGA_COMMANDS.md sections → COMBINED/workspace-config/claude/commands/
 5. Type: claude "build [your idea]"
 
 ## 🎯 5 Minutes Setup — GitHub Copilot
@@ -2334,7 +2334,7 @@ AGENTS DEPARTMENT (Agents/ folder):
 │   └── optional-skills/  ← SKILLS
 │
 └── Agents/shannon/                ← AI Pentester (35k stars)
-    ├── .claude/commands/
+    ├── COMBINED/workspace-config/claude/commands/
     │   ├── debug.md   ← COMMAND
     │   ├── pr.md      ← COMMAND
     │   └── review.md  ← COMMAND
@@ -2459,13 +2459,13 @@ PROMPTS DEPARTMENT (Prompts/ folder):
 └── Prompts/vibe-coding-template/  ← ALL files
 
 TOOLS DEPARTMENT (Tools/ folder):
-├── Tools/claude-mem/      ← persistent memory system — ALL files
+├── COMBINED/memory/memory-claude-mem/      ← persistent memory system — ALL files
 ├── Tools/supermemory/     ← #1 memory benchmark — ALL files
 ├── Tools/gitnexus/        ← codebase knowledge graph
 ├── Tools/lightpanda/      ← AI browser
 ├── Tools/openviking/      ← ByteDance context DB
 ├── Tools/nano-banana-mcp/ ← Gemini image MCP
-└── Tools/pretext/         ← text layout library
+└── COMBINED/mcp-servers/mcp-pretext/         ← text layout library
 
 REFERENCE (Reference/ folder):
 └── Reference/awesome-selfhosted/  ← README.md is the mega list
@@ -2548,7 +2548,7 @@ CREATE: COMBINED/MEGA_SKILLS.md
 Content format:
 
 # ⚡ MEGA SKILLS — 1500+ Skills from 31 Repositories
-# Usage: Copy relevant sections into .claude/skills/ in your project
+# Usage: Copy relevant sections into COMBINED/workspace-config/claude/skills/ in your project
 # Every skill is complete — nothing cut or summarized
 #
 # TABLE OF CONTENTS:
@@ -2661,18 +2661,18 @@ STEP 5 — CREATE: COMBINED/MEGA_COMMANDS.md
 ═══════════════════════════════════════════════════════════
 
 FIND every command file:
-- Agents/shannon/.claude/commands/debug.md
-- Agents/shannon/.claude/commands/pr.md
-- Agents/shannon/.claude/commands/review.md
+- Agents/shannon/COMBINED/workspace-config/claude/commands/debug.md
+- Agents/shannon/COMBINED/workspace-config/claude/commands/pr.md
+- Agents/shannon/COMBINED/workspace-config/claude/commands/review.md
 - Orchestration/superpowers/commands/ → ALL files
 - Orchestration/get-shit-done/commands/gsd/ → ALL files
-- Orchestration/ruflo/ .claude/commands/ (check _claude/ or VISIBLE_claude/)
+- Orchestration/ruflo/ COMBINED/workspace-config/claude/commands/ (check _claude/ or VISIBLE_claude/)
 - Root .claude/ folder → any command files
 
 CREATE: COMBINED/MEGA_COMMANDS.md
 
 # ⚡ MEGA COMMANDS — Every Slash Command Combined
-# Usage: Copy into .claude/commands/ in your project
+# Usage: Copy into COMBINED/workspace-config/claude/commands/ in your project
 # Then use /[command-name] in Claude Code
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
@@ -2710,7 +2710,7 @@ STEP 7 — CREATE: COMBINED/MEGA_MEMORY.md
 ═══════════════════════════════════════════════════════════
 
 FIND every memory/context file:
-- Tools/claude-mem/ → ALL files
+- COMBINED/memory/memory-claude-mem/ → ALL files
 - Tools/supermemory/ → ALL files
 - Root MEMORY_SETUP.md (already exists)
 - Memory configs in Orchestration/ruflo/
@@ -2722,7 +2722,7 @@ CREATE: COMBINED/MEGA_MEMORY.md
 # Your AI will remember across all sessions
 
 ## claude-mem System (compressed memory)
-[full content of all Tools/claude-mem/ files]
+[full content of all COMBINED/memory/memory-claude-mem/ files]
 
 ## Supermemory System (#1 benchmark)
 [full content of all Tools/supermemory/ files]
@@ -2820,8 +2820,8 @@ CREATE: COMBINED/ULTRACAR_QUICKSTART.md
 # ─────────────────────────────────────
 # 1. Copy COMBINED/MEGA_CLAUDE.md → your project as CLAUDE.md
 # 2. mkdir .claude/skills && mkdir .claude/commands
-# 3. Copy skills from MEGA_SKILLS.md → .claude/skills/
-# 4. Copy commands from MEGA_COMMANDS.md → .claude/commands/
+# 3. Copy skills from MEGA_SKILLS.md → COMBINED/workspace-config/claude/skills/
+# 4. Copy commands from MEGA_COMMANDS.md → COMBINED/workspace-config/claude/commands/
 # 5. Run: claude "build [your idea]"
 # Done. Your Claude Code now has 31 repos of intelligence.
 #

@@ -17,7 +17,7 @@ python3 "${CLAUDE_PLUGIN_ROOT}/skills/continuous-learning-v2/scripts/instinct-cl
 或者如果 `CLAUDE_PLUGIN_ROOT` 未设置（手动安装）：
 
 ```bash
-python3 ~/.claude/skills/continuous-learning-v2/scripts/instinct-cli.py evolve [--generate]
+python3 ~/COMBINED/workspace-config/claude/skills/continuous-learning-v2/scripts/instinct-cli.py evolve [--generate]
 ```
 
 分析本能并将相关的本能聚合成更高层次的结构：

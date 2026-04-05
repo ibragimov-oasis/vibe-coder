@@ -55,7 +55,7 @@ All UI elements are available under the **MIT License**. Attribution appreciated
 
 ## 🎨 shadcn/ui — React Components
 
-**Location:** `UI-UX/ui/`
+**Location:** `COMBINED/ui-design/ui-components-shadcn/`
 
 ### What It Is
 
@@ -176,7 +176,7 @@ A comprehensive skill for AI-powered UI/UX design with 161 reasoning rules and 6
 
 ## 📝 Pretext — Text Layout Engine
 
-**Location:** `Tools/pretext/`
+**Location:** `COMBINED/mcp-servers/mcp-pretext/`
 
 ### What It Is
 
@@ -344,7 +344,7 @@ On a 500-text batch:
 | Galaxy | [uiverse.io](https://uiverse.io/) |
 | shadcn/ui | [ui.shadcn.com/docs](https://ui.shadcn.com/docs) |
 | UI UX Pro Max | `UI-UX/ui-ux-pro-max-skill/README.md` |
-| Pretext | `Tools/pretext/README.md` |
+| Pretext | `COMBINED/mcp-servers/mcp-pretext/README.md` |
 
 ---
 

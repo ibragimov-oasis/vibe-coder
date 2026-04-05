@@ -197,7 +197,7 @@ describe("GET /api/user/messages (conversation list)", () => {
 ### 自定义命令定义
 
 ```markdown
-<!-- .claude/commands/bug-check.md -->
+<!-- COMBINED/workspace-config/claude/commands/bug-check.md -->
 # Bug 检查
 
 ## 步骤 1：自动化测试（强制，不可跳过）

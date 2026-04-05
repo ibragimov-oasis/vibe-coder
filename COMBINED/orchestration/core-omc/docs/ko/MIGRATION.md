@@ -205,8 +205,8 @@ npm install -g oh-my-claude-sisyphus
 
 #### 스킬 디렉토리
 
-- **이전**: `~/.claude/skills/sisyphus-learned/`
-- **이후**: `~/.claude/skills/omc-learned/`
+- **이전**: `~/COMBINED/workspace-config/claude/skills/sisyphus-learned/`
+- **이후**: `~/COMBINED/workspace-config/claude/skills/omc-learned/`
 
 #### 설정 파일
 
@@ -336,7 +336,7 @@ mv .sisyphus .omc
 mv ~/.sisyphus ~/.omc
 
 # 스킬 디렉토리
-mv ~/.claude/skills/sisyphus-learned ~/.claude/skills/omc-learned
+mv ~/COMBINED/workspace-config/claude/skills/sisyphus-learned ~/COMBINED/workspace-config/claude/skills/omc-learned
 
 # 설정 디렉토리
 mv ~/.claude/sisyphus ~/.claude/omc
@@ -439,7 +439,7 @@ Claude가 패턴을 학습하고 저장
 저장 위치:
 
 - **프로젝트 레벨**: `.omc/skills/` (버전 관리됨)
-- **사용자 레벨**: `~/.claude/skills/omc-learned/` (이식 가능)
+- **사용자 레벨**: `~/COMBINED/workspace-config/claude/skills/omc-learned/` (이식 가능)
 
 #### 4. HUD 상태 표시줄 (실시간 오케스트레이션)
 

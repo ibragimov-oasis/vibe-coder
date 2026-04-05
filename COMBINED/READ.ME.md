@@ -512,7 +512,7 @@ Orchestration/get-shit-done/agents/             → COMBINED/agents/by-role/ (р
 Orchestration/ruflo/agents/                     → COMBINED/agents/by-role/ + by-interface/claude/ruflo/
 Orchestration/oh-my-claudecode/agents/          → COMBINED/orchestration/oh-my-claudecode/agents/
 Skills/claude-skills/agents/                    → COMBINED/agents/by-role/ (распределить)
-Skills/awesome-copilot-main/_github/agents/     → COMBINED/agents/by-interface/copilot/awesome-copilot/
+COMBINED/agents/by-interface/agents-copilot/_github/agents/     → COMBINED/agents/by-interface/copilot/awesome-copilot/
 Skills/antigravity-awesome-skills/_agents/      → COMBINED/agents/by-interface/antigravity/
 Правило сортировки по ролям:
 * *debugger* → agents/by-role/debugger/
@@ -588,18 +588,18 @@ Skills/claude-skills/templates/                 → COMBINED/prompts/templates/c
 
 Code
 
-Tools/claude-mem/                               → COMBINED/memory/claude-mem/
+COMBINED/memory/memory-claude-mem/                               → COMBINED/memory/claude-mem/
 Tools/supermemory/                              → COMBINED/memory/supermemory/
-Tools/OpenViking/                               → COMBINED/memory/openviking/
+COMBINED/mcp-servers/mcp-openviking/                               → COMBINED/memory/openviking/
 MEMORY_SETUP.md                                 → COMBINED/memory/configs/
 3.8 MCP Servers Migration
 
 Code
 
 Tools/GitNexus/                                 → COMBINED/mcp-servers/gitnexus/
-Tools/browser/ (lightpanda)                     → COMBINED/mcp-servers/lightpanda/
+COMBINED/mcp-servers/mcp-lightpanda/ (lightpanda)                     → COMBINED/mcp-servers/lightpanda/
 Tools/nano-banana-2-mcp/                        → COMBINED/mcp-servers/nano-banana/
-Tools/pretext/                                  → COMBINED/mcp-servers/pretext/
+COMBINED/mcp-servers/mcp-pretext/                                  → COMBINED/mcp-servers/pretext/
 Agents/hermes-agent/mcp_serve.py                → COMBINED/mcp-servers/hermes/
 Orchestration/superpowers/claude-plugin/        → COMBINED/mcp-servers/configs/superpowers-plugin/
 Orchestration/ruflo/claude-plugin/              → COMBINED/mcp-servers/configs/ruflo-plugin/
@@ -615,7 +615,7 @@ Agents/shannon/sample-reports/                  → COMBINED/security/security-r
 Code
 
 UI-UX/galaxy/                                   → COMBINED/ui-design/ui-components-galaxy/
-UI-UX/ui/ (shadcn)                              → COMBINED/ui-design/ui-components-shadcn/
+COMBINED/ui-design/ui-components-shadcn/ (shadcn)                              → COMBINED/ui-design/ui-components-shadcn/
 UI-UX/ui-ux-pro-max-skill/                      → COMBINED/ui-design/ui-rules/ui-ux-pro-max/
 .cursorrules + .cursor/rules/                   → COMBINED/ui-design/ui-cursor-rules/
 3.11 Reference Migration

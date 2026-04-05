@@ -41,7 +41,7 @@ Detailed guidelines are in `~/.claude/rules/`:
 
 ## Available Agents
 
-Located in `~/.claude/agents/`:
+Located in `~/COMBINED/workspace-config/claude/agents/`:
 
 | Agent | Purpose |
 |-------|---------|

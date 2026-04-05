@@ -378,7 +378,7 @@ Evet. Seçenek 2'yi (manuel kurulum) kullanın ve yalnızca ihtiyacınız olanı
 
 ```bash
 # Sadece agent'lar
-cp everything-claude-code/agents/*.md ~/.claude/agents/
+cp everything-claude-code/agents/*.md ~/COMBINED/workspace-config/claude/agents/
 
 # Sadece rule'lar
 cp -r everything-claude-code/rules/common/* ~/.claude/rules/

@@ -18,7 +18,7 @@ Everything Claude Code プロジェクトのインタラクティブなステッ
 
 このスキルは起動前に Claude Code からアクセス可能である必要があります。ブートストラップには2つの方法があります：
 1. **プラグイン経由**: `/plugin install everything-claude-code` — プラグインがこのスキルを自動的にロードします
-2. **手動**: このスキルのみを `~/.claude/skills/configure-ecc/SKILL.md` にコピーし、"configure ecc" と言って起動します
+2. **手動**: このスキルのみを `~/COMBINED/workspace-config/claude/skills/configure-ecc/SKILL.md` にコピーし、"configure ecc" と言って起動します
 
 ---
 
@@ -191,7 +191,7 @@ grep -rn "skills/" $TARGET/skills/
 
 **プロジェクトレベルのインストールの場合**、`~/.claude/` パスへの参照をフラグします：
 - スキルが `~/.claude/settings.json` を参照している場合 — これは通常問題ありません（設定は常にユーザーレベルです）
-- スキルが `~/.claude/skills/` または `~/.claude/rules/` を参照している場合 — プロジェクトレベルのみにインストールされている場合、これは壊れている可能性があります
+- スキルが `~/COMBINED/workspace-config/claude/skills/` または `~/.claude/rules/` を参照している場合 — プロジェクトレベルのみにインストールされている場合、これは壊れている可能性があります
 - スキルが別のスキルを名前で参照している場合 — 参照されているスキルもインストールされているか確認します
 
 ### 4c: スキル間の相互参照のチェック
@@ -209,8 +209,8 @@ grep -rn "skills/" $TARGET/skills/
 見つかった各問題について、報告します：
 1. **ファイル**: 問題のある参照を含むファイル
 2. **行**: 行番号
-3. **問題**: 何が間違っているか（例: "~/.claude/skills/python-patterns を参照していますが、python-patterns がインストールされていません"）
-4. **推奨される修正**: 何をすべきか（例: "python-patterns スキルをインストール" または "パスを .claude/skills/ に更新"）
+3. **問題**: 何が間違っているか（例: "~/COMBINED/workspace-config/claude/skills/python-patterns を参照していますが、python-patterns がインストールされていません"）
+4. **推奨される修正**: 何をすべきか（例: "python-patterns スキルをインストール" または "パスを COMBINED/workspace-config/claude/skills/ に更新"）
 
 ---
 
@@ -286,8 +286,8 @@ rm -rf /tmp/everything-claude-code
 
 ### "スキルが Claude Code に認識されません"
 - スキルディレクトリに `SKILL.md` ファイルが含まれていることを確認します（単なる緩い .md ファイルではありません）
-- ユーザーレベルの場合: `~/.claude/skills/<skill-name>/SKILL.md` が存在するか確認します
-- プロジェクトレベルの場合: `.claude/skills/<skill-name>/SKILL.md` が存在するか確認します
+- ユーザーレベルの場合: `~/COMBINED/workspace-config/claude/skills/<skill-name>/SKILL.md` が存在するか確認します
+- プロジェクトレベルの場合: `COMBINED/workspace-config/claude/skills/<skill-name>/SKILL.md` が存在するか確認します
 
 ### "ルールが機能しません"
 - ルールはフラットファイルで、サブディレクトリにはありません: `$TARGET/rules/coding-style.md`（正しい） vs `$TARGET/rules/common/coding-style.md`（フラットインストールでは不正）

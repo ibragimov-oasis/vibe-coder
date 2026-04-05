@@ -41,7 +41,7 @@ Diretrizes detalhadas em `~/.claude/rules/`:
 
 ## Agentes Disponíveis
 
-Localizados em `~/.claude/agents/`:
+Localizados em `~/COMBINED/workspace-config/claude/agents/`:
 
 | Agent | Purpose |
 |-------|---------|

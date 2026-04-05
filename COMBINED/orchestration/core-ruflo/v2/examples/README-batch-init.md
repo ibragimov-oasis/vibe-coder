@@ -250,7 +250,7 @@ claude-flow init --batch-init project1,project2 --sparc --template web-api
 ```
 
 **Creates:**
-- `.claude/commands/` - Claude Code slash commands
+- `COMBINED/workspace-config/claude/commands/` - Claude Code slash commands
 - SPARC methodology integration
 - TDD workflow support
 - Architecture documentation

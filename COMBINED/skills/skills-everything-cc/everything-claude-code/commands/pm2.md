@@ -202,7 +202,7 @@ Based on `$ARGUMENTS`, execute init:
 1. Scan project for services
 2. Generate `ecosystem.config.cjs`
 3. Generate `{backend}/start.cjs` for Python services (if applicable)
-4. Generate command files in `.claude/commands/`
+4. Generate command files in `COMBINED/workspace-config/claude/commands/`
 5. Generate script files in `.claude/scripts/`
 6. **Update project CLAUDE.md** with PM2 info (see below)
 7. **Display completion summary** with terminal commands

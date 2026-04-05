@@ -202,7 +202,7 @@ pm2 monit
 1. Servisleri taramak için projeyi tara
 2. `ecosystem.config.cjs` oluştur
 3. Python servisleri için `{backend}/start.cjs` oluştur (geçerliyse)
-4. `.claude/commands/` dizininde komut dosyaları oluştur
+4. `COMBINED/workspace-config/claude/commands/` dizininde komut dosyaları oluştur
 5. `.claude/scripts/` dizininde script dosyaları oluştur
 6. **Proje CLAUDE.md'yi PM2 bilgisiyle güncelle** (aşağıya bakın)
 7. **Terminal komutlarıyla tamamlama özetini göster**

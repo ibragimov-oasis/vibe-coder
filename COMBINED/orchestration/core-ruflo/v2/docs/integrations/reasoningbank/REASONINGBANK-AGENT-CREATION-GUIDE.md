@@ -225,7 +225,7 @@ const result = await runTask({
 
 ### Step 1: Define Agent Specification
 
-Create `.claude/agents/your-category/your-agent.md`:
+Create `COMBINED/workspace-config/claude/agents/your-category/your-agent.md`:
 
 ```markdown
 ---
@@ -434,7 +434,7 @@ export async function postDebug(context, result) {
 
 ### Agent Definition
 
-`.claude/agents/quality/adaptive-reviewer.md`:
+`COMBINED/workspace-config/claude/agents/quality/adaptive-reviewer.md`:
 
 ```markdown
 ---
@@ -769,7 +769,7 @@ main().catch(console.error);
 - **Source**: `/node_modules/agentic-flow/dist/reasoningbank/`
 - **Demo**: `npx agentic-flow reasoningbank demo`
 - **Tests**: `npx agentic-flow reasoningbank test`
-- **Docs**: `.claude/agents/reasoning/README.md`
+- **Docs**: `COMBINED/workspace-config/claude/agents/reasoning/README.md`
 
 ## 🆘 Troubleshooting
 

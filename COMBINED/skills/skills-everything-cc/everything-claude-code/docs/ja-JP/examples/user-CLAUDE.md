@@ -41,7 +41,7 @@
 
 ## 利用可能なエージェント
 
-`~/.claude/agents/` に配置:
+`~/COMBINED/workspace-config/claude/agents/` に配置:
 
 | エージェント | 目的 |
 |-------|---------|

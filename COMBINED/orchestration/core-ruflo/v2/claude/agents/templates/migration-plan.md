@@ -59,7 +59,7 @@ triggers:
 ### 1. Coordination Agents
 
 #### Swarm Initializer Agent
-**Command**: `.claude/commands/coordination/init.md`
+**Command**: `COMBINED/workspace-config/claude/commands/coordination/init.md`
 ```yaml
 ---
 role: coordinator
@@ -91,7 +91,7 @@ triggers:
 ```
 
 #### Agent Spawner
-**Command**: `.claude/commands/coordination/spawn.md`
+**Command**: `COMBINED/workspace-config/claude/commands/coordination/spawn.md`
 ```yaml
 ---
 role: coordinator
@@ -123,7 +123,7 @@ triggers:
 ```
 
 #### Task Orchestrator
-**Command**: `.claude/commands/coordination/orchestrate.md`
+**Command**: `COMBINED/workspace-config/claude/commands/coordination/orchestrate.md`
 ```yaml
 ---
 role: orchestrator
@@ -161,7 +161,7 @@ triggers:
 ### 2. GitHub Integration Agents
 
 #### PR Manager Agent
-**Command**: `.claude/commands/github/pr-manager.md`
+**Command**: `COMBINED/workspace-config/claude/commands/github/pr-manager.md`
 ```yaml
 ---
 role: github-specialist
@@ -197,7 +197,7 @@ triggers:
 ```
 
 #### Code Review Swarm Agent
-**Command**: `.claude/commands/github/code-review-swarm.md`
+**Command**: `COMBINED/workspace-config/claude/commands/github/code-review-swarm.md`
 ```yaml
 ---
 role: reviewer
@@ -233,7 +233,7 @@ triggers:
 ```
 
 #### Release Manager Agent
-**Command**: `.claude/commands/github/release-manager.md`
+**Command**: `COMBINED/workspace-config/claude/commands/github/release-manager.md`
 ```yaml
 ---
 role: release-coordinator
@@ -270,7 +270,7 @@ triggers:
 ### 3. SPARC Methodology Agents
 
 #### SPARC Orchestrator Agent
-**Command**: `.claude/commands/sparc/orchestrator.md`
+**Command**: `COMBINED/workspace-config/claude/commands/sparc/orchestrator.md`
 ```yaml
 ---
 role: sparc-coordinator
@@ -307,7 +307,7 @@ triggers:
 ```
 
 #### SPARC Coder Agent
-**Command**: `.claude/commands/sparc/coder.md`
+**Command**: `COMBINED/workspace-config/claude/commands/sparc/coder.md`
 ```yaml
 ---
 role: implementer
@@ -342,7 +342,7 @@ triggers:
 ```
 
 #### SPARC Tester Agent
-**Command**: `.claude/commands/sparc/tester.md`
+**Command**: `COMBINED/workspace-config/claude/commands/sparc/tester.md`
 ```yaml
 ---
 role: quality-assurance
@@ -379,7 +379,7 @@ triggers:
 ### 4. Analysis Agents
 
 #### Performance Analyzer Agent
-**Command**: `.claude/commands/analysis/performance-bottlenecks.md`
+**Command**: `COMBINED/workspace-config/claude/commands/analysis/performance-bottlenecks.md`
 ```yaml
 ---
 role: analyst
@@ -415,7 +415,7 @@ triggers:
 ```
 
 #### Token Efficiency Analyst Agent
-**Command**: `.claude/commands/analysis/token-efficiency.md`
+**Command**: `COMBINED/workspace-config/claude/commands/analysis/token-efficiency.md`
 ```yaml
 ---
 role: analyst
@@ -452,7 +452,7 @@ triggers:
 ### 5. Memory Management Agents
 
 #### Memory Coordinator Agent
-**Command**: `.claude/commands/memory/usage.md`
+**Command**: `COMBINED/workspace-config/claude/commands/memory/usage.md`
 ```yaml
 ---
 role: memory-manager
@@ -487,7 +487,7 @@ triggers:
 ```
 
 #### Neural Pattern Agent
-**Command**: `.claude/commands/memory/neural.md`
+**Command**: `COMBINED/workspace-config/claude/commands/memory/neural.md`
 ```yaml
 ---
 role: ai-specialist
@@ -524,7 +524,7 @@ triggers:
 ### 6. Automation Agents
 
 #### Smart Agent Coordinator
-**Command**: `.claude/commands/automation/smart-agents.md`
+**Command**: `COMBINED/workspace-config/claude/commands/automation/smart-agents.md`
 ```yaml
 ---
 role: automation-specialist
@@ -559,7 +559,7 @@ triggers:
 ```
 
 #### Self-Healing Coordinator Agent
-**Command**: `.claude/commands/automation/self-healing.md`
+**Command**: `COMBINED/workspace-config/claude/commands/automation/self-healing.md`
 ```yaml
 ---
 role: reliability-engineer
@@ -595,7 +595,7 @@ triggers:
 ### 7. Optimization Agents
 
 #### Parallel Execution Optimizer Agent
-**Command**: `.claude/commands/optimization/parallel-execution.md`
+**Command**: `COMBINED/workspace-config/claude/commands/optimization/parallel-execution.md`
 ```yaml
 ---
 role: optimizer
@@ -629,7 +629,7 @@ triggers:
 ```
 
 #### Auto-Topology Optimizer Agent
-**Command**: `.claude/commands/optimization/auto-topology.md`
+**Command**: `COMBINED/workspace-config/claude/commands/optimization/auto-topology.md`
 ```yaml
 ---
 role: optimizer
@@ -666,7 +666,7 @@ triggers:
 ### 8. Monitoring Agents
 
 #### Swarm Monitor Agent
-**Command**: `.claude/commands/monitoring/status.md`
+**Command**: `COMBINED/workspace-config/claude/commands/monitoring/status.md`
 ```yaml
 ---
 role: monitor
@@ -718,7 +718,7 @@ triggers:
 - Results are aggregated by coordinator agents
 
 ### 4. Migration Steps
-1. Create `.claude/agents/` directory structure
+1. Create `COMBINED/workspace-config/claude/agents/` directory structure
 2. Convert each command to agent definition format
 3. Update activation patterns for natural language
 4. Test agent interactions and handoffs

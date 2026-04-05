@@ -102,7 +102,7 @@ ls ~/.claude/plugins/cache/
 ls ~/.claude/plugins/cache/*/agents/
 
 # Manuel kurulum için ajanlar şurada olmalı:
-ls ~/.claude/agents/  # Sadece özel ajanlar
+ls ~/COMBINED/workspace-config/claude/agents/  # Sadece özel ajanlar
 
 # Eklentiyi yeniden yükle
 # Claude Code → Settings → Extensions → Reload

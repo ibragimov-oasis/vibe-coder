@@ -17,7 +17,7 @@ python3 "${CLAUDE_PLUGIN_ROOT}/skills/continuous-learning-v2/scripts/instinct-cl
 或者，如果 `CLAUDE_PLUGIN_ROOT` 未设置（手动安装）：
 
 ```bash
-python3 ~/.claude/skills/continuous-learning-v2/scripts/instinct-cli.py import <file-or-url>
+python3 ~/COMBINED/workspace-config/claude/skills/continuous-learning-v2/scripts/instinct-cli.py import <file-or-url>
 ```
 
 从本地文件路径或 HTTP(S) URL 导入本能。

@@ -28,7 +28,7 @@ project/
 
 ## Skills
 
-Skills are installed to `.claude/skills/` and provide specialized capabilities.
+Skills are installed to `COMBINED/workspace-config/claude/skills/` and provide specialized capabilities.
 
 ### Core Skills
 | Skill | Description |
@@ -77,7 +77,7 @@ Skills are installed to `.claude/skills/` and provide specialized capabilities.
 
 ## Commands
 
-Commands are installed to `.claude/commands/` and provide quick actions.
+Commands are installed to `COMBINED/workspace-config/claude/commands/` and provide quick actions.
 
 ### Core Commands
 - `claude-flow-help.md` - Help documentation
@@ -97,7 +97,7 @@ Commands are installed to `.claude/commands/` and provide quick actions.
 
 ## Agents
 
-Agent definitions are installed to `.claude/agents/`.
+Agent definitions are installed to `COMBINED/workspace-config/claude/agents/`.
 
 ### Core Agents
 - coder - Code generation and implementation

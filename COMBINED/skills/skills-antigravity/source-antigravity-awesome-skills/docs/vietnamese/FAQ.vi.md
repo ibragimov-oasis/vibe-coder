@@ -70,7 +70,7 @@ git clone https://github.com/sickn33/antigravity-awesome-skills.git .agent/skill
 
 **Các đường dẫn cụ thể cho từng công cụ:**
 
-- Claude Code: `.claude/skills/`
+- Claude Code: `COMBINED/workspace-config/claude/skills/`
 - Gemini CLI: `.gemini/skills/`
 - Cursor: `.cursor/skills/` hoặc gốc của dự án.
 

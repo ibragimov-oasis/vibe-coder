@@ -104,7 +104,7 @@ oh-my-claudecode의 전체 레퍼런스입니다. 빠른 시작은 메인 [READM
 
 ### 에이전트 커스터마이징
 
-`~/.claude/agents/`의 에이전트 파일을 편집하여 동작을 커스터마이징할 수 있습니다:
+`~/COMBINED/workspace-config/claude/agents/`의 에이전트 파일을 편집하여 동작을 커스터마이징할 수 있습니다:
 
 ```yaml
 ---
@@ -702,8 +702,8 @@ curl -fsSL https://raw.githubusercontent.com/Yeachan-Heo/oh-my-claudecode/main/s
 또는 수동으로:
 
 ```bash
-rm ~/.claude/agents/{architect,document-specialist,explore,designer,writer,vision,critic,analyst,executor,qa-tester}.md
-rm ~/.claude/commands/{analyze,autopilot,deepsearch,plan,review,ultrawork}.md
+rm ~/COMBINED/workspace-config/claude/agents/{architect,document-specialist,explore,designer,writer,vision,critic,analyst,executor,qa-tester}.md
+rm ~/COMBINED/workspace-config/claude/commands/{analyze,autopilot,deepsearch,plan,review,ultrawork}.md
 ```
 
 ---

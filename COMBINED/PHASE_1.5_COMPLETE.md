@@ -126,7 +126,7 @@ Phase 1.5 has successfully completed the comprehensive analysis of the **Prompts
 ---
 
 ### 2.1 claude-mem — Persistent Memory Compression
-**Source:** `Tools/claude-mem/`
+**Source:** `COMBINED/memory/memory-claude-mem/`
 **Combined:** `COMBINED/memory/claude-mem/`
 
 **Statistics:**
@@ -163,7 +163,7 @@ Phase 1.5 has successfully completed the comprehensive analysis of the **Prompts
 ---
 
 ### 2.3 OpenViking — ByteDance Context Database
-**Source:** `Tools/OpenViking/`
+**Source:** `COMBINED/mcp-servers/mcp-openviking/`
 **Combined:** `COMBINED/memory/openviking/`
 
 **Statistics:**
@@ -200,7 +200,7 @@ Phase 1.5 has successfully completed the comprehensive analysis of the **Prompts
 ---
 
 ### 2.5 browser (lightpanda) — 9x Faster Browser ⭐️ CRITICAL
-**Source:** `Tools/browser/`
+**Source:** `COMBINED/mcp-servers/mcp-lightpanda/`
 **Combined:** `COMBINED/mcp-servers/lightpanda/`
 
 **Statistics:**
@@ -236,7 +236,7 @@ Phase 1.5 has successfully completed the comprehensive analysis of the **Prompts
 ---
 
 ### 2.7 pretext — Text Layout MCP
-**Source:** `Tools/pretext/`
+**Source:** `COMBINED/mcp-servers/mcp-pretext/`
 **Combined:** `COMBINED/mcp-servers/pretext/`
 
 **Statistics:**
@@ -297,7 +297,7 @@ Phase 1.5 has successfully completed the comprehensive analysis of the **Prompts
 ---
 
 ### 3.2 ui (shadcn) — React Component Library
-**Source:** `UI-UX/ui/`
+**Source:** `COMBINED/ui-design/ui-components-shadcn/`
 **Combined:** `COMBINED/ui-design/components/shadcn/`
 
 **Statistics:**

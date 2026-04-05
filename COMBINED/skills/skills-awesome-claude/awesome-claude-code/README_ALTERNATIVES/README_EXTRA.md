@@ -1596,7 +1596,7 @@ _Quality check hook for Node.js TypeScript projects with TypeScript compilation.
 <details open id="slash-commands-general">
 <summary><span><picture><img src="../assets/subheader_slash_commands_general.svg" alt="General" align="absmiddle"></picture></span></summary>
 
-<a href="https://github.com/omril321/automated-notebooklm/blob/main/.claude/commands/create-hook.md"><img src="../assets/badge-create-hook.svg" alt="/create-hook"></a>  
+<a href="https://github.com/omril321/automated-notebooklm/blob/main/COMBINED/workspace-config/claude/commands/create-hook.md"><img src="../assets/badge-create-hook.svg" alt="/create-hook"></a>  
 _Slash command for hook creation - intelligently prompts you through the creation process with smart suggestions based on your project setup (TS, Prettier, ESLint...)._  
 ![GitHub Stats for automated-notebooklm](https://github-readme-stats-fork-orpin.vercel.app/api/pin/?repo=automated-notebooklm&username=omril321&all_stats=true&stats_only=true&hide_border=true&bg_color=00000000&icon_color=FF0000&text_color=FF0000)
 
@@ -1615,77 +1615,77 @@ _A library of slash commands intended specifically to facilitate common and adva
 <details open id="version-control--git">
 <summary><span><picture><img src="../assets/subheader_version_control_git.svg" alt="Version Control & Git" align="absmiddle"></picture></span></summary>
 
-<a href="https://github.com/jerseycheese/Narraitor/blob/feature/issue-227-ai-suggestions/.claude/commands/analyze-issue.md"><img src="../assets/badge-analyze-issue.svg" alt="/analyze-issue"></a>  
+<a href="https://github.com/jerseycheese/Narraitor/blob/feature/issue-227-ai-suggestions/COMBINED/workspace-config/claude/commands/analyze-issue.md"><img src="../assets/badge-analyze-issue.svg" alt="/analyze-issue"></a>  
 _Fetches GitHub issue details to create comprehensive implementation specifications, analyzing requirements and planning structured approach with clear implementation steps._  
 ![GitHub Stats for Narraitor](https://github-readme-stats-fork-orpin.vercel.app/api/pin/?repo=Narraitor&username=jerseycheese&all_stats=true&stats_only=true&hide_border=true&bg_color=00000000&icon_color=FF0000&text_color=FF0000)
 
 <div align="center"><img src="../assets/entry-separator-light-animated.svg" alt=""></div>
 
 
-<a href="https://github.com/evmts/tevm-monorepo/blob/main/.claude/commands/commit.md"><img src="../assets/badge-commit.svg" alt="/commit"></a>  
+<a href="https://github.com/evmts/tevm-monorepo/blob/main/COMBINED/workspace-config/claude/commands/commit.md"><img src="../assets/badge-commit.svg" alt="/commit"></a>  
 _Creates git commits using conventional commit format with appropriate emojis, following project standards and creating descriptive messages that explain the purpose of changes._  
 ![GitHub Stats for tevm-monorepo](https://github-readme-stats-fork-orpin.vercel.app/api/pin/?repo=tevm-monorepo&username=evmts&all_stats=true&stats_only=true&hide_border=true&bg_color=00000000&icon_color=FF0000&text_color=FF0000)
 
 <div align="center"><img src="../assets/entry-separator-light-animated.svg" alt=""></div>
 
 
-<a href="https://github.com/steadycursor/steadystart/blob/main/.claude/commands/2-commit-fast.md"><img src="../assets/badge-commit-fast.svg" alt="/commit-fast"></a>  
+<a href="https://github.com/steadycursor/steadystart/blob/main/COMBINED/workspace-config/claude/commands/2-commit-fast.md"><img src="../assets/badge-commit-fast.svg" alt="/commit-fast"></a>  
 _Automates git commit process by selecting the first suggested message, generating structured commits with consistent formatting while skipping manual confirmation and removing Claude co-Contributorship footer_  
 ![GitHub Stats for steadystart](https://github-readme-stats-fork-orpin.vercel.app/api/pin/?repo=steadystart&username=steadycursor&all_stats=true&stats_only=true&hide_border=true&bg_color=00000000&icon_color=FF0000&text_color=FF0000)
 
 <div align="center"><img src="../assets/entry-separator-light-animated.svg" alt=""></div>
 
 
-<a href="https://github.com/toyamarinyon/giselle/blob/main/.claude/commands/create-pr.md"><img src="../assets/badge-create-pr.svg" alt="/create-pr"></a>  
+<a href="https://github.com/toyamarinyon/giselle/blob/main/COMBINED/workspace-config/claude/commands/create-pr.md"><img src="../assets/badge-create-pr.svg" alt="/create-pr"></a>  
 _Streamlines pull request creation by handling the entire workflow: creating a new branch, committing changes, formatting modified files with Biome, and submitting the PR._  
 ![GitHub Stats for giselle](https://github-readme-stats-fork-orpin.vercel.app/api/pin/?repo=giselle&username=toyamarinyon&all_stats=true&stats_only=true&hide_border=true&bg_color=00000000&icon_color=FF0000&text_color=FF0000)
 
 <div align="center"><img src="../assets/entry-separator-light-animated.svg" alt=""></div>
 
 
-<a href="https://github.com/liam-hq/liam/blob/main/.claude/commands/create-pull-request.md"><img src="../assets/badge-create-pull-request.svg" alt="/create-pull-request"></a>  
+<a href="https://github.com/liam-hq/liam/blob/main/COMBINED/workspace-config/claude/commands/create-pull-request.md"><img src="../assets/badge-create-pull-request.svg" alt="/create-pull-request"></a>  
 _Provides comprehensive PR creation guidance with GitHub CLI, enforcing title conventions, following template structure, and offering concrete command examples with best practices._  
 ![GitHub Stats for liam](https://github-readme-stats-fork-orpin.vercel.app/api/pin/?repo=liam&username=liam-hq&all_stats=true&stats_only=true&hide_border=true&bg_color=00000000&icon_color=FF0000&text_color=FF0000)
 
 <div align="center"><img src="../assets/entry-separator-light-animated.svg" alt=""></div>
 
 
-<a href="https://github.com/evmts/tevm-monorepo/blob/main/.claude/commands/create-worktrees.md"><img src="../assets/badge-create-worktrees.svg" alt="/create-worktrees"></a>  
+<a href="https://github.com/evmts/tevm-monorepo/blob/main/COMBINED/workspace-config/claude/commands/create-worktrees.md"><img src="../assets/badge-create-worktrees.svg" alt="/create-worktrees"></a>  
 _Creates git worktrees for all open PRs or specific branches, handling branches with slashes, cleaning up stale worktrees, and supporting custom branch creation for development._  
 ![GitHub Stats for tevm-monorepo](https://github-readme-stats-fork-orpin.vercel.app/api/pin/?repo=tevm-monorepo&username=evmts&all_stats=true&stats_only=true&hide_border=true&bg_color=00000000&icon_color=FF0000&text_color=FF0000)
 
 <div align="center"><img src="../assets/entry-separator-light-animated.svg" alt=""></div>
 
 
-<a href="https://github.com/jeremymailen/kotlinter-gradle/blob/master/.claude/commands/fix-github-issue.md"><img src="../assets/badge-fix-github-issue.svg" alt="/fix-github-issue"></a>  
+<a href="https://github.com/jeremymailen/kotlinter-gradle/blob/master/COMBINED/workspace-config/claude/commands/fix-github-issue.md"><img src="../assets/badge-fix-github-issue.svg" alt="/fix-github-issue"></a>  
 _Analyzes and fixes GitHub issues using a structured approach with GitHub CLI for issue details, implementing necessary code changes, running tests, and creating proper commit messages._  
 ![GitHub Stats for kotlinter-gradle](https://github-readme-stats-fork-orpin.vercel.app/api/pin/?repo=kotlinter-gradle&username=jeremymailen&all_stats=true&stats_only=true&hide_border=true&bg_color=00000000&icon_color=FF0000&text_color=FF0000)
 
 <div align="center"><img src="../assets/entry-separator-light-animated.svg" alt=""></div>
 
 
-<a href="https://github.com/metabase/metabase/blob/master/.claude/commands/fix-issue.md"><img src="../assets/badge-fix-issue.svg" alt="/fix-issue"></a>  
+<a href="https://github.com/metabase/metabase/blob/master/COMBINED/workspace-config/claude/commands/fix-issue.md"><img src="../assets/badge-fix-issue.svg" alt="/fix-issue"></a>  
 _Addresses GitHub issues by taking issue number as parameter, analyzing context, implementing solution, and testing/validating the fix for proper integration._  
 ![GitHub Stats for metabase](https://github-readme-stats-fork-orpin.vercel.app/api/pin/?repo=metabase&username=metabase&all_stats=true&stats_only=true&hide_border=true&bg_color=00000000&icon_color=FF0000&text_color=FF0000)
 
 <div align="center"><img src="../assets/entry-separator-light-animated.svg" alt=""></div>
 
 
-<a href="https://github.com/metabase/metabase/blob/master/.claude/commands/fix-pr.md"><img src="../assets/badge-fix-pr.svg" alt="/fix-pr"></a>  
+<a href="https://github.com/metabase/metabase/blob/master/COMBINED/workspace-config/claude/commands/fix-pr.md"><img src="../assets/badge-fix-pr.svg" alt="/fix-pr"></a>  
 _Fetches and fixes unresolved PR comments by automatically retrieving feedback, addressing reviewer concerns, making targeted code improvements, and streamlining the review process._  
 ![GitHub Stats for metabase](https://github-readme-stats-fork-orpin.vercel.app/api/pin/?repo=metabase&username=metabase&all_stats=true&stats_only=true&hide_border=true&bg_color=00000000&icon_color=FF0000&text_color=FF0000)
 
 <div align="center"><img src="../assets/entry-separator-light-animated.svg" alt=""></div>
 
 
-<a href="https://github.com/evmts/tevm-monorepo/blob/main/.claude/commands/husky.md"><img src="../assets/badge-husky.svg" alt="/husky"></a>  
+<a href="https://github.com/evmts/tevm-monorepo/blob/main/COMBINED/workspace-config/claude/commands/husky.md"><img src="../assets/badge-husky.svg" alt="/husky"></a>  
 _Sets up and manages Husky Git hooks by configuring pre-commit hooks, establishing commit message standards, integrating with linting tools, and ensuring code quality on commits._  
 ![GitHub Stats for tevm-monorepo](https://github-readme-stats-fork-orpin.vercel.app/api/pin/?repo=tevm-monorepo&username=evmts&all_stats=true&stats_only=true&hide_border=true&bg_color=00000000&icon_color=FF0000&text_color=FF0000)
 
 <div align="center"><img src="../assets/entry-separator-light-animated.svg" alt=""></div>
 
 
-<a href="https://github.com/giselles-ai/giselle/blob/main/.claude/commands/update-branch-name.md"><img src="../assets/badge-update-branch-name.svg" alt="/update-branch-name"></a>  
+<a href="https://github.com/giselles-ai/giselle/blob/main/COMBINED/workspace-config/claude/commands/update-branch-name.md"><img src="../assets/badge-update-branch-name.svg" alt="/update-branch-name"></a>  
 _Updates branch names with proper prefixes and formats, enforcing naming conventions, supporting semantic prefixes, and managing remote branch updates._  
 ![GitHub Stats for giselle](https://github-readme-stats-fork-orpin.vercel.app/api/pin/?repo=giselle&username=giselles-ai&all_stats=true&stats_only=true&hide_border=true&bg_color=00000000&icon_color=FF0000&text_color=FF0000)
 
@@ -1697,42 +1697,42 @@ _Updates branch names with proper prefixes and formats, enforcing naming convent
 <details open id="code-analysis--testing">
 <summary><span><picture><img src="../assets/subheader_code_analysis_testing.svg" alt="Code Analysis & Testing" align="absmiddle"></picture></span></summary>
 
-<a href="https://github.com/rygwdn/slack-tools/blob/main/.claude/commands/check.md"><img src="../assets/badge-check.svg" alt="/check"></a>  
+<a href="https://github.com/rygwdn/slack-tools/blob/main/COMBINED/workspace-config/claude/commands/check.md"><img src="../assets/badge-check.svg" alt="/check"></a>  
 _Performs comprehensive code quality and security checks, featuring static analysis integration, security vulnerability scanning, code style enforcement, and detailed reporting._  
 ![GitHub Stats for slack-tools](https://github-readme-stats-fork-orpin.vercel.app/api/pin/?repo=slack-tools&username=rygwdn&all_stats=true&stats_only=true&hide_border=true&bg_color=00000000&icon_color=FF0000&text_color=FF0000)
 
 <div align="center"><img src="../assets/entry-separator-light-animated.svg" alt=""></div>
 
 
-<a href="https://github.com/kingler/n8n_agent/blob/main/.claude/commands/code_analysis.md"><img src="../assets/badge-code-analysis.svg" alt="/code_analysis"></a>  
+<a href="https://github.com/kingler/n8n_agent/blob/main/COMBINED/workspace-config/claude/commands/code_analysis.md"><img src="../assets/badge-code-analysis.svg" alt="/code_analysis"></a>  
 _Provides a menu of advanced code analysis commands for deep inspection, including knowledge graph generation, optimization suggestions, and quality evaluation._  
 ![GitHub Stats for n8n_agent](https://github-readme-stats-fork-orpin.vercel.app/api/pin/?repo=n8n_agent&username=kingler&all_stats=true&stats_only=true&hide_border=true&bg_color=00000000&icon_color=FF0000&text_color=FF0000)
 
 <div align="center"><img src="../assets/entry-separator-light-animated.svg" alt=""></div>
 
 
-<a href="https://github.com/to4iki/ai-project-rules/blob/main/.claude/commands/optimize.md"><img src="../assets/badge-optimize.svg" alt="/optimize"></a>  
+<a href="https://github.com/to4iki/ai-project-rules/blob/main/COMBINED/workspace-config/claude/commands/optimize.md"><img src="../assets/badge-optimize.svg" alt="/optimize"></a>  
 _Analyzes code performance to identify bottlenecks, proposing concrete optimizations with implementation guidance for improved application performance._  
 ![GitHub Stats for ai-project-rules](https://github-readme-stats-fork-orpin.vercel.app/api/pin/?repo=ai-project-rules&username=to4iki&all_stats=true&stats_only=true&hide_border=true&bg_color=00000000&icon_color=FF0000&text_color=FF0000)
 
 <div align="center"><img src="../assets/entry-separator-light-animated.svg" alt=""></div>
 
 
-<a href="https://github.com/rzykov/metabase/blob/master/.claude/commands/repro-issue.md"><img src="../assets/badge-repro-issue.svg" alt="/repro-issue"></a>  
+<a href="https://github.com/rzykov/metabase/blob/master/COMBINED/workspace-config/claude/commands/repro-issue.md"><img src="../assets/badge-repro-issue.svg" alt="/repro-issue"></a>  
 _Creates reproducible test cases for GitHub issues, ensuring tests fail reliably and documenting clear reproduction steps for developers._  
 ![GitHub Stats for metabase](https://github-readme-stats-fork-orpin.vercel.app/api/pin/?repo=metabase&username=rzykov&all_stats=true&stats_only=true&hide_border=true&bg_color=00000000&icon_color=FF0000&text_color=FF0000)
 
 <div align="center"><img src="../assets/entry-separator-light-animated.svg" alt=""></div>
 
 
-<a href="https://github.com/zscott/pane/blob/main/.claude/commands/tdd.md"><img src="../assets/badge-tdd.svg" alt="/tdd"></a>  
+<a href="https://github.com/zscott/pane/blob/main/COMBINED/workspace-config/claude/commands/tdd.md"><img src="../assets/badge-tdd.svg" alt="/tdd"></a>  
 _Guides development using Test-Driven Development principles, enforcing Red-Green-Refactor discipline, integrating with git workflow, and managing PR creation._  
 ![GitHub Stats for pane](https://github-readme-stats-fork-orpin.vercel.app/api/pin/?repo=pane&username=zscott&all_stats=true&stats_only=true&hide_border=true&bg_color=00000000&icon_color=FF0000&text_color=FF0000)
 
 <div align="center"><img src="../assets/entry-separator-light-animated.svg" alt=""></div>
 
 
-<a href="https://github.com/jerseycheese/Narraitor/blob/feature/issue-227-ai-suggestions/.claude/commands/tdd-implement.md"><img src="../assets/badge-tdd-implement.svg" alt="/tdd-implement"></a>  
+<a href="https://github.com/jerseycheese/Narraitor/blob/feature/issue-227-ai-suggestions/COMBINED/workspace-config/claude/commands/tdd-implement.md"><img src="../assets/badge-tdd-implement.svg" alt="/tdd-implement"></a>  
 _Implements Test-Driven Development by analyzing feature requirements, creating tests first (red), implementing minimal passing code (green), and refactoring while maintaining tests._  
 ![GitHub Stats for Narraitor](https://github-readme-stats-fork-orpin.vercel.app/api/pin/?repo=Narraitor&username=jerseycheese&all_stats=true&stats_only=true&hide_border=true&bg_color=00000000&icon_color=FF0000&text_color=FF0000)
 
@@ -1744,49 +1744,49 @@ _Implements Test-Driven Development by analyzing feature requirements, creating 
 <details open id="context-loading--priming">
 <summary><span><picture><img src="../assets/subheader_context_loading_priming.svg" alt="Context Loading & Priming" align="absmiddle"></picture></span></summary>
 
-<a href="https://github.com/elizaOS/elizaos.github.io/blob/main/.claude/commands/context-prime.md"><img src="../assets/badge-context-prime.svg" alt="/context-prime"></a>  
+<a href="https://github.com/elizaOS/elizaos.github.io/blob/main/COMBINED/workspace-config/claude/commands/context-prime.md"><img src="../assets/badge-context-prime.svg" alt="/context-prime"></a>  
 _Primes Claude with comprehensive project understanding by loading repository structure, setting development context, establishing project goals, and defining collaboration parameters._  
 ![GitHub Stats for elizaos.github.io](https://github-readme-stats-fork-orpin.vercel.app/api/pin/?repo=elizaos.github.io&username=elizaOS&all_stats=true&stats_only=true&hide_border=true&bg_color=00000000&icon_color=FF0000&text_color=FF0000)
 
 <div align="center"><img src="../assets/entry-separator-light-animated.svg" alt=""></div>
 
 
-<a href="https://github.com/okuvshynov/cubestat/blob/main/.claude/commands/initref.md"><img src="../assets/badge-initref.svg" alt="/initref"></a>  
+<a href="https://github.com/okuvshynov/cubestat/blob/main/COMBINED/workspace-config/claude/commands/initref.md"><img src="../assets/badge-initref.svg" alt="/initref"></a>  
 _Initializes reference documentation structure with standard doc templates, API reference setup, documentation conventions, and placeholder content generation._  
 ![GitHub Stats for cubestat](https://github-readme-stats-fork-orpin.vercel.app/api/pin/?repo=cubestat&username=okuvshynov&all_stats=true&stats_only=true&hide_border=true&bg_color=00000000&icon_color=FF0000&text_color=FF0000)
 
 <div align="center"><img src="../assets/entry-separator-light-animated.svg" alt=""></div>
 
 
-<a href="https://github.com/ethpandaops/xatu-data/blob/master/.claude/commands/load-llms-txt.md"><img src="../assets/badge-load-llms-txt.svg" alt="/load-llms-txt"></a>  
+<a href="https://github.com/ethpandaops/xatu-data/blob/master/COMBINED/workspace-config/claude/commands/load-llms-txt.md"><img src="../assets/badge-load-llms-txt.svg" alt="/load-llms-txt"></a>  
 _Loads LLM configuration files to context, importing specific terminology, model configurations, and establishing baseline terminology for AI discussions._  
 ![GitHub Stats for xatu-data](https://github-readme-stats-fork-orpin.vercel.app/api/pin/?repo=xatu-data&username=ethpandaops&all_stats=true&stats_only=true&hide_border=true&bg_color=00000000&icon_color=FF0000&text_color=FF0000)
 
 <div align="center"><img src="../assets/entry-separator-light-animated.svg" alt=""></div>
 
 
-<a href="https://github.com/Mjvolk3/torchcell/blob/main/.claude/commands/load_coo_context.md"><img src="../assets/badge-load-coo-context.svg" alt="/load_coo_context"></a>  
+<a href="https://github.com/Mjvolk3/torchcell/blob/main/COMBINED/workspace-config/claude/commands/load_coo_context.md"><img src="../assets/badge-load-coo-context.svg" alt="/load_coo_context"></a>  
 _References specific files for sparse matrix operations, explains transform usage, compares with previous approaches, and sets data formatting context for development._  
 ![GitHub Stats for torchcell](https://github-readme-stats-fork-orpin.vercel.app/api/pin/?repo=torchcell&username=Mjvolk3&all_stats=true&stats_only=true&hide_border=true&bg_color=00000000&icon_color=FF0000&text_color=FF0000)
 
 <div align="center"><img src="../assets/entry-separator-light-animated.svg" alt=""></div>
 
 
-<a href="https://github.com/Mjvolk3/torchcell/blob/main/.claude/commands/load_dango_pipeline.md"><img src="../assets/badge-load-dango-pipeline.svg" alt="/load_dango_pipeline"></a>  
+<a href="https://github.com/Mjvolk3/torchcell/blob/main/COMBINED/workspace-config/claude/commands/load_dango_pipeline.md"><img src="../assets/badge-load-dango-pipeline.svg" alt="/load_dango_pipeline"></a>  
 _Sets context for model training by referencing pipeline files, establishing working context, and preparing for pipeline work with relevant documentation._  
 ![GitHub Stats for torchcell](https://github-readme-stats-fork-orpin.vercel.app/api/pin/?repo=torchcell&username=Mjvolk3&all_stats=true&stats_only=true&hide_border=true&bg_color=00000000&icon_color=FF0000&text_color=FF0000)
 
 <div align="center"><img src="../assets/entry-separator-light-animated.svg" alt=""></div>
 
 
-<a href="https://github.com/yzyydev/AI-Engineering-Structure/blob/main/.claude/commands/prime.md"><img src="../assets/badge-prime.svg" alt="/prime"></a>  
+<a href="https://github.com/yzyydev/AI-Engineering-Structure/blob/main/COMBINED/workspace-config/claude/commands/prime.md"><img src="../assets/badge-prime.svg" alt="/prime"></a>  
 _Sets up initial project context by viewing directory structure and reading key files, creating standardized context with directory visualization and key documentation focus._  
 ![GitHub Stats for AI-Engineering-Structure](https://github-readme-stats-fork-orpin.vercel.app/api/pin/?repo=AI-Engineering-Structure&username=yzyydev&all_stats=true&stats_only=true&hide_border=true&bg_color=00000000&icon_color=FF0000&text_color=FF0000)
 
 <div align="center"><img src="../assets/entry-separator-light-animated.svg" alt=""></div>
 
 
-<a href="https://github.com/ddisisto/si/blob/main/.claude/commands/rsi.md"><img src="../assets/badge-rsi.svg" alt="/rsi"></a>  
+<a href="https://github.com/ddisisto/si/blob/main/COMBINED/workspace-config/claude/commands/rsi.md"><img src="../assets/badge-rsi.svg" alt="/rsi"></a>  
 _Reads all commands and key project files to optimize AI-assisted development by streamlining the process, loading command context, and setting up for better development workflow._  
 ![GitHub Stats for si](https://github-readme-stats-fork-orpin.vercel.app/api/pin/?repo=si&username=ddisisto&all_stats=true&stats_only=true&hide_border=true&bg_color=00000000&icon_color=FF0000&text_color=FF0000)
 
@@ -1798,35 +1798,35 @@ _Reads all commands and key project files to optimize AI-assisted development by
 <details open id="documentation--changelogs">
 <summary><span><picture><img src="../assets/subheader_documentation_changelogs.svg" alt="Documentation & Changelogs" align="absmiddle"></picture></span></summary>
 
-<a href="https://github.com/berrydev-ai/blockdoc-python/blob/main/.claude/commands/add-to-changelog.md"><img src="../assets/badge-add-to-changelog.svg" alt="/add-to-changelog"></a>  
+<a href="https://github.com/berrydev-ai/blockdoc-python/blob/main/COMBINED/workspace-config/claude/commands/add-to-changelog.md"><img src="../assets/badge-add-to-changelog.svg" alt="/add-to-changelog"></a>  
 _Adds new entries to changelog files while maintaining format consistency, properly documenting changes, and following established project standards for version tracking._  
 ![GitHub Stats for blockdoc-python](https://github-readme-stats-fork-orpin.vercel.app/api/pin/?repo=blockdoc-python&username=berrydev-ai&all_stats=true&stats_only=true&hide_border=true&bg_color=00000000&icon_color=FF0000&text_color=FF0000)
 
 <div align="center"><img src="../assets/entry-separator-light-animated.svg" alt=""></div>
 
 
-<a href="https://github.com/jerseycheese/Narraitor/blob/feature/issue-227-ai-suggestions/.claude/commands/create-docs.md"><img src="../assets/badge-create-docs.svg" alt="/create-docs"></a>  
+<a href="https://github.com/jerseycheese/Narraitor/blob/feature/issue-227-ai-suggestions/COMBINED/workspace-config/claude/commands/create-docs.md"><img src="../assets/badge-create-docs.svg" alt="/create-docs"></a>  
 _Analyzes code structure and purpose to create comprehensive documentation detailing inputs/outputs, behavior, user interaction flows, and edge cases with error handling._  
 ![GitHub Stats for Narraitor](https://github-readme-stats-fork-orpin.vercel.app/api/pin/?repo=Narraitor&username=jerseycheese&all_stats=true&stats_only=true&hide_border=true&bg_color=00000000&icon_color=FF0000&text_color=FF0000)
 
 <div align="center"><img src="../assets/entry-separator-light-animated.svg" alt=""></div>
 
 
-<a href="https://github.com/slunsford/coffee-analytics/blob/main/.claude/commands/docs.md"><img src="../assets/badge-docs.svg" alt="/docs"></a>  
+<a href="https://github.com/slunsford/coffee-analytics/blob/main/COMBINED/workspace-config/claude/commands/docs.md"><img src="../assets/badge-docs.svg" alt="/docs"></a>  
 _Generates comprehensive documentation that follows project structure, documenting APIs and usage patterns with consistent formatting for better user understanding._  
 ![GitHub Stats for coffee-analytics](https://github-readme-stats-fork-orpin.vercel.app/api/pin/?repo=coffee-analytics&username=slunsford&all_stats=true&stats_only=true&hide_border=true&bg_color=00000000&icon_color=FF0000&text_color=FF0000)
 
 <div align="center"><img src="../assets/entry-separator-light-animated.svg" alt=""></div>
 
 
-<a href="https://github.com/hackdays-io/toban-contribution-viewer/blob/main/.claude/commands/explain-issue-fix.md"><img src="../assets/badge-explain-issue-fix.svg" alt="/explain-issue-fix"></a>  
+<a href="https://github.com/hackdays-io/toban-contribution-viewer/blob/main/COMBINED/workspace-config/claude/commands/explain-issue-fix.md"><img src="../assets/badge-explain-issue-fix.svg" alt="/explain-issue-fix"></a>  
 _Documents solution approaches for GitHub issues, explaining technical decisions, detailing challenges overcome, and providing implementation context for better understanding._  
 ![GitHub Stats for toban-contribution-viewer](https://github-readme-stats-fork-orpin.vercel.app/api/pin/?repo=toban-contribution-viewer&username=hackdays-io&all_stats=true&stats_only=true&hide_border=true&bg_color=00000000&icon_color=FF0000&text_color=FF0000)
 
 <div align="center"><img src="../assets/entry-separator-light-animated.svg" alt=""></div>
 
 
-<a href="https://github.com/Consiliency/Flutter-Structurizr/blob/main/.claude/commands/update-docs.md"><img src="../assets/badge-update-docs.svg" alt="/update-docs"></a>  
+<a href="https://github.com/Consiliency/Flutter-Structurizr/blob/main/COMBINED/workspace-config/claude/commands/update-docs.md"><img src="../assets/badge-update-docs.svg" alt="/update-docs"></a>  
 _Reviews current documentation status, updates implementation progress, reviews phase documents, and maintains documentation consistency across the project._  
 ![GitHub Stats for Flutter-Structurizr](https://github-readme-stats-fork-orpin.vercel.app/api/pin/?repo=Flutter-Structurizr&username=Consiliency&all_stats=true&stats_only=true&hide_border=true&bg_color=00000000&icon_color=FF0000&text_color=FF0000)
 
@@ -1838,14 +1838,14 @@ _Reviews current documentation status, updates implementation progress, reviews 
 <details open id="ci--deployment">
 <summary><span><picture><img src="../assets/subheader_ci_deployment.svg" alt="CI / Deployment" align="absmiddle"></picture></span></summary>
 
-<a href="https://github.com/kelp/webdown/blob/main/.claude/commands/release.md"><img src="../assets/badge-release.svg" alt="/release"></a>  
+<a href="https://github.com/kelp/webdown/blob/main/COMBINED/workspace-config/claude/commands/release.md"><img src="../assets/badge-release.svg" alt="/release"></a>  
 _Manages software releases by updating changelogs, reviewing README changes, evaluating version increments, and documenting release changes for better version tracking._  
 ![GitHub Stats for webdown](https://github-readme-stats-fork-orpin.vercel.app/api/pin/?repo=webdown&username=kelp&all_stats=true&stats_only=true&hide_border=true&bg_color=00000000&icon_color=FF0000&text_color=FF0000)
 
 <div align="center"><img src="../assets/entry-separator-light-animated.svg" alt=""></div>
 
 
-<a href="https://github.com/hackdays-io/toban-contribution-viewer/blob/main/.claude/commands/run-ci.md"><img src="../assets/badge-run-ci.svg" alt="/run-ci"></a>  
+<a href="https://github.com/hackdays-io/toban-contribution-viewer/blob/main/COMBINED/workspace-config/claude/commands/run-ci.md"><img src="../assets/badge-run-ci.svg" alt="/run-ci"></a>  
 _Activates virtual environments, runs CI-compatible check scripts, iteratively fixes errors, and ensures all tests pass before completion._  
 ![GitHub Stats for toban-contribution-viewer](https://github-readme-stats-fork-orpin.vercel.app/api/pin/?repo=toban-contribution-viewer&username=hackdays-io&all_stats=true&stats_only=true&hide_border=true&bg_color=00000000&icon_color=FF0000&text_color=FF0000)
 
@@ -1857,28 +1857,28 @@ _Activates virtual environments, runs CI-compatible check scripts, iteratively f
 <details open id="project--task-management">
 <summary><span><picture><img src="../assets/subheader_project_task_management.svg" alt="Project & Task Management" align="absmiddle"></picture></span></summary>
 
-<a href="https://github.com/scopecraft/command/blob/main/.claude/commands/create-command.md"><img src="../assets/badge-create-command.svg" alt="/create-command"></a>  
+<a href="https://github.com/scopecraft/command/blob/main/COMBINED/workspace-config/claude/commands/create-command.md"><img src="../assets/badge-create-command.svg" alt="/create-command"></a>  
 _Guides Claude through creating new custom commands with proper structure by analyzing requirements, templating commands by category, enforcing command standards, and creating supporting documentation._  
 ![GitHub Stats for command](https://github-readme-stats-fork-orpin.vercel.app/api/pin/?repo=command&username=scopecraft&all_stats=true&stats_only=true&hide_border=true&bg_color=00000000&icon_color=FF0000&text_color=FF0000)
 
 <div align="center"><img src="../assets/entry-separator-light-animated.svg" alt=""></div>
 
 
-<a href="https://github.com/hesreallyhim/inkverse-fork/blob/preserve-claude-resources/.claude/commands/create-plan.md"><img src="../assets/badge-create-plan.svg" alt="/create-plan"></a>  
+<a href="https://github.com/hesreallyhim/inkverse-fork/blob/preserve-claude-resources/COMBINED/workspace-config/claude/commands/create-plan.md"><img src="../assets/badge-create-plan.svg" alt="/create-plan"></a>  
 _Generates comprehensive product requirement documents outlining detailed specifications, requirements, and features following standardized document structure and format._*  
 <sub>* Removed from origin</sub>
 
 <div align="center"><img src="../assets/entry-separator-light-animated.svg" alt=""></div>
 
 
-<a href="https://github.com/Wirasm/claudecode-utils/blob/main/.claude/commands/create-prp.md"><img src="../assets/badge-create-prp.svg" alt="/create-prp"></a>  
+<a href="https://github.com/Wirasm/claudecode-utils/blob/main/COMBINED/workspace-config/claude/commands/create-prp.md"><img src="../assets/badge-create-prp.svg" alt="/create-prp"></a>  
 _Creates product requirement plans by reading PRP methodology, following template structure, creating comprehensive requirements, and structuring product definitions for development._  
 ![GitHub Stats for claudecode-utils](https://github-readme-stats-fork-orpin.vercel.app/api/pin/?repo=claudecode-utils&username=Wirasm&all_stats=true&stats_only=true&hide_border=true&bg_color=00000000&icon_color=FF0000&text_color=FF0000)
 
 <div align="center"><img src="../assets/entry-separator-light-animated.svg" alt=""></div>
 
 
-<a href="https://github.com/jerseycheese/Narraitor/blob/feature/issue-227-ai-suggestions/.claude/commands/do-issue.md"><img src="../assets/badge-do-issue.svg" alt="/do-issue"></a>  
+<a href="https://github.com/jerseycheese/Narraitor/blob/feature/issue-227-ai-suggestions/COMBINED/workspace-config/claude/commands/do-issue.md"><img src="../assets/badge-do-issue.svg" alt="/do-issue"></a>  
 _Implements GitHub issues with manual review points, following a structured approach with issue number parameter and offering alternative automated mode for efficiency._  
 ![GitHub Stats for Narraitor](https://github-readme-stats-fork-orpin.vercel.app/api/pin/?repo=Narraitor&username=jerseycheese&all_stats=true&stats_only=true&hide_border=true&bg_color=00000000&icon_color=FF0000&text_color=FF0000)
 
@@ -1892,7 +1892,7 @@ _A Claude Code plugin that generates comprehensive Product Requirements Document
 <div align="center"><img src="../assets/entry-separator-light-animated.svg" alt=""></div>
 
 
-<a href="https://github.com/disler/just-prompt/blob/main/.claude/commands/project_hello_w_name.md"><img src="../assets/badge-project-hello-w-name.svg" alt="/project_hello_w_name"></a>  
+<a href="https://github.com/disler/just-prompt/blob/main/COMBINED/workspace-config/claude/commands/project_hello_w_name.md"><img src="../assets/badge-project-hello-w-name.svg" alt="/project_hello_w_name"></a>  
 _Creates customizable greeting components with name input, demonstrating argument passing, component reusability, state management, and user input handling._  
 ![GitHub Stats for just-prompt](https://github-readme-stats-fork-orpin.vercel.app/api/pin/?repo=just-prompt&username=disler&all_stats=true&stats_only=true&hide_border=true&bg_color=00000000&icon_color=FF0000&text_color=FF0000)
 
@@ -1911,21 +1911,21 @@ _A convenient command to quickly manage project todo items without leaving the C
 <details open id="miscellaneous">
 <summary><span><picture><img src="../assets/subheader_miscellaneous.svg" alt="Miscellaneous" align="absmiddle"></picture></span></summary>
 
-<a href="https://github.com/Mjvolk3/torchcell/blob/main/.claude/commands/fixing_go_in_graph.md"><img src="../assets/badge-fixing-go-in-graph.svg" alt="/fixing_go_in_graph"></a>  
+<a href="https://github.com/Mjvolk3/torchcell/blob/main/COMBINED/workspace-config/claude/commands/fixing_go_in_graph.md"><img src="../assets/badge-fixing-go-in-graph.svg" alt="/fixing_go_in_graph"></a>  
 _Focuses on Gene Ontology annotation integration in graph databases, handling multiple data sources, addressing graph representation issues, and ensuring correct data incorporation._  
 ![GitHub Stats for torchcell](https://github-readme-stats-fork-orpin.vercel.app/api/pin/?repo=torchcell&username=Mjvolk3&all_stats=true&stats_only=true&hide_border=true&bg_color=00000000&icon_color=FF0000&text_color=FF0000)
 
 <div align="center"><img src="../assets/entry-separator-light-animated.svg" alt=""></div>
 
 
-<a href="https://github.com/Mjvolk3/torchcell/blob/main/.claude/commands/review_dcell_model.md"><img src="../assets/badge-review-dcell-model.svg" alt="/review_dcell_model"></a>  
+<a href="https://github.com/Mjvolk3/torchcell/blob/main/COMBINED/workspace-config/claude/commands/review_dcell_model.md"><img src="../assets/badge-review-dcell-model.svg" alt="/review_dcell_model"></a>  
 _Reviews old Dcell implementation files, comparing with newer Dango model, noting changes over time, and analyzing refactoring approaches for better code organization._  
 ![GitHub Stats for torchcell](https://github-readme-stats-fork-orpin.vercel.app/api/pin/?repo=torchcell&username=Mjvolk3&all_stats=true&stats_only=true&hide_border=true&bg_color=00000000&icon_color=FF0000&text_color=FF0000)
 
 <div align="center"><img src="../assets/entry-separator-light-animated.svg" alt=""></div>
 
 
-<a href="https://github.com/zuplo/docs/blob/main/.claude/commands/use-stepper.md"><img src="../assets/badge-use-stepper.svg" alt="/use-stepper"></a>  
+<a href="https://github.com/zuplo/docs/blob/main/COMBINED/workspace-config/claude/commands/use-stepper.md"><img src="../assets/badge-use-stepper.svg" alt="/use-stepper"></a>  
 _Reformats documentation to use React Stepper component, transforming heading formats, applying proper indentation, and maintaining markdown compatibility with admonition formatting._  
 ![GitHub Stats for docs](https://github-readme-stats-fork-orpin.vercel.app/api/pin/?repo=docs&username=zuplo&all_stats=true&stats_only=true&hide_border=true&bg_color=00000000&icon_color=FF0000&text_color=FF0000)
 

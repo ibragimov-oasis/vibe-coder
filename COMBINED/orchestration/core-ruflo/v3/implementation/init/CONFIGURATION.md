@@ -28,9 +28,9 @@ interface InitOptions {
 ```typescript
 interface InitComponents {
   settings: boolean;    // .claude/settings.json
-  skills: boolean;      // .claude/skills/
-  commands: boolean;    // .claude/commands/
-  agents: boolean;      // .claude/agents/
+  skills: boolean;      // COMBINED/workspace-config/claude/skills/
+  commands: boolean;    // COMBINED/workspace-config/claude/commands/
+  agents: boolean;      // COMBINED/workspace-config/claude/agents/
   helpers: boolean;     // .claude/helpers/
   statusline: boolean;  // statusline scripts
   mcp: boolean;         // .mcp.json

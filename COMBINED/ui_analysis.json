@@ -36,7 +36,7 @@
       }
     },
     "ui (shadcn)": {
-      "source": "UI-UX/ui/",
+      "source": "COMBINED/ui-design/ui-components-shadcn/",
       "combined_location": "COMBINED/ui-design/ui-components-shadcn/",
       "type": "shadcn/ui React components",
       "description": "Beautifully designed, customizable React components built with Radix UI and Tailwind CSS",
@@ -142,7 +142,7 @@
       "phase": "2.9",
       "action": "Complete shadcn/ui migration",
       "details": {
-        "source": "UI-UX/ui/",
+        "source": "COMBINED/ui-design/ui-components-shadcn/",
         "destination": "COMBINED/ui-design/ui-components-shadcn/",
         "method": "MOVE remaining file",
         "files": 1,

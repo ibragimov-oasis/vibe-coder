@@ -98,7 +98,7 @@ bash <(curl -s https://raw.githubusercontent.com/alirezarezvani/claude-skills/ma
 
 ```bash
 git clone https://github.com/alirezarezvani/claude-skills.git
-# Copy any skill folder to ~/.claude/skills/ (Claude Code) or ~/.codex/skills/ (Codex)
+# Copy any skill folder to ~/COMBINED/workspace-config/claude/skills/ (Claude Code) or ~/.codex/skills/ (Codex)
 ```
 
 ---
@@ -176,7 +176,7 @@ Pre-configured agent identities with curated skill loadouts, workflows, and dist
 **Usage:**
 ```bash
 # Claude Code
-cp agents/personas/startup-cto.md ~/.claude/agents/
+cp agents/personas/startup-cto.md ~/COMBINED/workspace-config/claude/agents/
 
 # Any tool
 ./scripts/convert.sh --tool cursor  # Converts personas too

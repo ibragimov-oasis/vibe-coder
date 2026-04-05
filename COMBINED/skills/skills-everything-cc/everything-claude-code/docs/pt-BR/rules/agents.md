@@ -2,7 +2,7 @@
 
 ## Agentes Disponíveis
 
-Localizados em `~/.claude/agents/`:
+Localizados em `~/COMBINED/workspace-config/claude/agents/`:
 
 | Agente | Propósito | Quando Usar |
 |--------|-----------|-------------|

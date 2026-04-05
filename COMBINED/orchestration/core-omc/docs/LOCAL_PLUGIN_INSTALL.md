@@ -92,7 +92,7 @@ claude plugin update oh-my-claudecode@oh-my-claudecode
 | Method | Command | Files Location |
 |--------|---------|----------------|
 | Plugin | `claude plugin install` | `~/.claude/plugins/cache/` |
-| npm global | `npm install -g` | `~/.claude/agents/`, `~/.claude/commands/` |
+| npm global | `npm install -g` | `~/COMBINED/workspace-config/claude/agents/`, `~/COMBINED/workspace-config/claude/commands/` |
 
 **Plugin mode is preferred** - it keeps files isolated and uses the native Claude Code plugin system with `${CLAUDE_PLUGIN_ROOT}` variable for path resolution.
 

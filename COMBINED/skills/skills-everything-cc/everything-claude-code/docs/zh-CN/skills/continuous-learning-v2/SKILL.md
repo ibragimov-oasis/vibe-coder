@@ -174,14 +174,14 @@ Use functional patterns over classes when appropriate.
       "matcher": "*",
       "hooks": [{
         "type": "command",
-        "command": "~/.claude/skills/continuous-learning-v2/hooks/observe.sh"
+        "command": "~/COMBINED/workspace-config/claude/skills/continuous-learning-v2/hooks/observe.sh"
       }]
     }],
     "PostToolUse": [{
       "matcher": "*",
       "hooks": [{
         "type": "command",
-        "command": "~/.claude/skills/continuous-learning-v2/hooks/observe.sh"
+        "command": "~/COMBINED/workspace-config/claude/skills/continuous-learning-v2/hooks/observe.sh"
       }]
     }]
   }
@@ -349,7 +349,7 @@ python3 instinct-cli.py promote --dry-run
 v2.1 与 v2.0 和 v1 完全兼容：
 
 * `~/.claude/homunculus/instincts/` 中现有的全局本能仍然作为全局本能工作
-* 来自 v1 的现有 `~/.claude/skills/learned/` 技能仍然有效
+* 来自 v1 的现有 `~/COMBINED/workspace-config/claude/skills/learned/` 技能仍然有效
 * 停止钩子仍然运行 (但现在也会输入到 v2)
 * 逐步迁移：并行运行两者
 

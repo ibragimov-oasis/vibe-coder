@@ -353,8 +353,8 @@ cd claude-flow/claude-plugin
 bash scripts/install.sh
 
 # Or copy manually
-cp -r commands ~/.claude/commands/
-cp -r agents ~/.claude/agents/
+cp -r commands ~/COMBINED/workspace-config/claude/commands/
+cp -r agents ~/COMBINED/workspace-config/claude/agents/
 ```
 
 ### Method 3: NPX (One-Time Setup)

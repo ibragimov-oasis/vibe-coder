@@ -388,7 +388,7 @@ export const aidefenceHooks: HookDefinition[] = [
 ### 5. Skill Definition
 
 ```yaml
-# v3/@claude-flow/cli/.claude/skills/aidefence.yaml
+# v3/@claude-flow/cli/COMBINED/workspace-config/claude/skills/aidefence.yaml
 
 name: aidefence
 version: 1.0.0
@@ -450,7 +450,7 @@ integration:
 ### 6. Agent Definition Enhancement
 
 ```yaml
-# v3/@claude-flow/cli/.claude/agents/v3/security-architect.yaml (enhancement)
+# v3/@claude-flow/cli/COMBINED/workspace-config/claude/agents/v3/security-architect.yaml (enhancement)
 
 # Add to existing security-architect capabilities
 capabilities:

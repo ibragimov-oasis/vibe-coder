@@ -239,7 +239,7 @@ The `bin/rg` file uses [dotslash](https://dotslash-cli.com/) format:
 |-------------|-------|-------|
 | `CLAUDE.md` | `AGENTS.md` | Project instructions |
 | `CLAUDE.local.md` | `AGENTS.override.md` | Local overrides |
-| `.claude/skills/*.md` | `.agents/skills/*/SKILL.md` | Skills |
+| `COMBINED/workspace-config/claude/skills/*.md` | `.agents/skills/*/SKILL.md` | Skills |
 | `.claude/settings.json` | `~/.codex/config.toml` | Configuration |
 | `.mcp.json` | `config.toml [mcp_servers]` | MCP config |
 | Hooks system | Automations | Background tasks |
@@ -254,7 +254,7 @@ The `bin/rg` file uses [dotslash](https://dotslash-cli.com/) format:
    - Enables cross-platform agent orchestration
 
 2. **Skills Conversion**
-   - Convert `.claude/skills/*.md` to `.agents/skills/*/SKILL.md`
+   - Convert `COMBINED/workspace-config/claude/skills/*.md` to `.agents/skills/*/SKILL.md`
    - Maintain bidirectional sync
 
 3. **Configuration Translation**

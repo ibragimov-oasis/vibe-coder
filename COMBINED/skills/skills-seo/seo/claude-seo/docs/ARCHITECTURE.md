@@ -255,6 +255,6 @@ Each extension follows this pattern:
 1. Self-contained in `extensions/<name>/`
 2. Own `install.sh` and `install.ps1` that copy files and configure MCP
 3. Own `uninstall.sh` and `uninstall.ps1` that cleanly reverse installation
-4. Installs skill to `~/.claude/skills/seo-<name>/`
-5. Installs agent to `~/.claude/agents/seo-<name>.md`
+4. Installs skill to `~/COMBINED/workspace-config/claude/skills/seo-<name>/`
+5. Installs agent to `~/COMBINED/workspace-config/claude/agents/seo-<name>.md`
 6. Merges MCP config into `~/.claude/settings.json` (non-destructive)

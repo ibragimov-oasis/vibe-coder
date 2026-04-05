@@ -38,7 +38,7 @@ description: Suggests manual context compaction at logical intervals to preserve
       "matcher": "tool == \"Edit\" || tool == \"Write\"",
       "hooks": [{
         "type": "command",
-        "command": "~/.claude/skills/strategic-compact/suggest-compact.sh"
+        "command": "~/COMBINED/workspace-config/claude/skills/strategic-compact/suggest-compact.sh"
       }]
     }]
   }

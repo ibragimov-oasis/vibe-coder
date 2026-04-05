@@ -19,7 +19,7 @@ An interactive, step-by-step installation wizard for the Everything Claude Code 
 
 This skill must be accessible to Claude Code before activation. Two ways to bootstrap:
 1. **Via Plugin**: `/plugin install everything-claude-code` — the plugin loads this skill automatically
-2. **Manual**: Copy only this skill to `~/.claude/skills/configure-ecc/SKILL.md`, then activate by saying "configure ecc"
+2. **Manual**: Copy only this skill to `~/COMBINED/workspace-config/claude/skills/configure-ecc/SKILL.md`, then activate by saying "configure ecc"
 
 ---
 
@@ -255,7 +255,7 @@ grep -rn "skills/" $TARGET/skills/
 
 **For project-level installs**, flag any references to `~/.claude/` paths:
 - If a skill references `~/.claude/settings.json` — this is usually fine (settings are always user-level)
-- If a skill references `~/.claude/skills/` or `~/.claude/rules/` — this may be broken if installed only at project level
+- If a skill references `~/COMBINED/workspace-config/claude/skills/` or `~/.claude/rules/` — this may be broken if installed only at project level
 - If a skill references another skill by name — check that the referenced skill was also installed
 
 ### 4c: Check Cross-References Between Skills
@@ -278,8 +278,8 @@ Some skills reference others. Verify these dependencies:
 For each issue found, report:
 1. **File**: The file containing the problematic reference
 2. **Line**: The line number
-3. **Issue**: What's wrong (e.g., "references ~/.claude/skills/python-patterns but python-patterns was not installed")
-4. **Suggested fix**: What to do (e.g., "install python-patterns skill" or "update path to .claude/skills/")
+3. **Issue**: What's wrong (e.g., "references ~/COMBINED/workspace-config/claude/skills/python-patterns but python-patterns was not installed")
+4. **Suggested fix**: What to do (e.g., "install python-patterns skill" or "update path to COMBINED/workspace-config/claude/skills/")
 
 ---
 
@@ -355,8 +355,8 @@ Then print a summary report:
 
 ### "Skills not being picked up by Claude Code"
 - Verify the skill directory contains a `SKILL.md` file (not just loose .md files)
-- For user-level: check `~/.claude/skills/<skill-name>/SKILL.md` exists
-- For project-level: check `.claude/skills/<skill-name>/SKILL.md` exists
+- For user-level: check `~/COMBINED/workspace-config/claude/skills/<skill-name>/SKILL.md` exists
+- For project-level: check `COMBINED/workspace-config/claude/skills/<skill-name>/SKILL.md` exists
 
 ### "Rules not working"
 - Rules are flat files, not in subdirectories: `$TARGET/rules/coding-style.md` (correct) vs `$TARGET/rules/common/coding-style.md` (incorrect for flat install)

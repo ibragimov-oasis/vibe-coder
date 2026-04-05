@@ -12,7 +12,7 @@ origin: ECC
 
 * 设置从 Claude Code 会话中自动提取模式
 * 为会话评估配置停止钩子
-* 在 `~/.claude/skills/learned/` 中审查或整理已学习的技能
+* 在 `~/COMBINED/workspace-config/claude/skills/learned/` 中审查或整理已学习的技能
 * 调整提取阈值或模式类别
 * 比较 v1（本方法）与 v2（基于本能的方法）
 
@@ -22,7 +22,7 @@ origin: ECC
 
 1. **会话评估**：检查会话是否包含足够多的消息（默认：10 条以上）
 2. **模式检测**：从会话中识别可提取的模式
-3. **技能提取**：将有用的模式保存到 `~/.claude/skills/learned/`
+3. **技能提取**：将有用的模式保存到 `~/COMBINED/workspace-config/claude/skills/learned/`
 
 ## 配置
 
@@ -33,7 +33,7 @@ origin: ECC
   "min_session_length": 10,
   "extraction_threshold": "medium",
   "auto_approve": false,
-  "learned_skills_path": "~/.claude/skills/learned/",
+  "learned_skills_path": "~/COMBINED/workspace-config/claude/skills/learned/",
   "patterns_to_detect": [
     "error_resolution",
     "user_corrections",
@@ -70,7 +70,7 @@ origin: ECC
       "matcher": "*",
       "hooks": [{
         "type": "command",
-        "command": "~/.claude/skills/continuous-learning/evaluate-session.sh"
+        "command": "~/COMBINED/workspace-config/claude/skills/continuous-learning/evaluate-session.sh"
       }]
     }]
   }

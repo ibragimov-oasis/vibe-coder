@@ -21,10 +21,10 @@ Creates production-ready Claude Code Skills with proper YAML frontmatter, progre
 
 ```bash
 # 1. Create skill directory (MUST be at top level, NOT in subdirectories!)
-mkdir -p ~/.claude/skills/my-first-skill
+mkdir -p ~/COMBINED/workspace-config/claude/skills/my-first-skill
 
 # 2. Create SKILL.md with proper format
-cat > ~/.claude/skills/my-first-skill/SKILL.md << 'EOF'
+cat > ~/COMBINED/workspace-config/claude/skills/my-first-skill/SKILL.md << 'EOF'
 ---
 name: "My First Skill"
 description: "Brief description of what this skill does and when Claude should use it. Maximum 1024 characters."
@@ -125,17 +125,17 @@ tags: ["dev", "api"]   # NOT part of spec
 
 #### Minimal Skill (Required)
 ```
-~/.claude/skills/                    # Personal skills location
+~/COMBINED/workspace-config/claude/skills/                    # Personal skills location
 └── my-skill/                        # Skill directory (MUST be at top level!)
     └── SKILL.md                     # REQUIRED: Main skill file
 ```
 
-**IMPORTANT**: Skills MUST be directly under `~/.claude/skills/[skill-name]/`.
+**IMPORTANT**: Skills MUST be directly under `~/COMBINED/workspace-config/claude/skills/[skill-name]/`.
 Claude Code does NOT support nested subdirectories or namespaces!
 
 #### Full-Featured Skill (Recommended)
 ```
-~/.claude/skills/
+~/COMBINED/workspace-config/claude/skills/
 └── my-skill/                        # Top-level skill directory
         ├── SKILL.md                 # REQUIRED: Main skill file
         ├── README.md                # Optional: Human-readable docs
@@ -161,20 +161,20 @@ Claude Code does NOT support nested subdirectories or namespaces!
 
 **Personal Skills** (available across all projects):
 ```
-~/.claude/skills/
+~/COMBINED/workspace-config/claude/skills/
 └── [your-skills]/
 ```
-- **Path**: `~/.claude/skills/` or `$HOME/.claude/skills/`
+- **Path**: `~/COMBINED/workspace-config/claude/skills/` or `$HOME/COMBINED/workspace-config/claude/skills/`
 - **Scope**: Available in all projects for this user
 - **Version Control**: NOT committed to git (outside repo)
 - **Use Case**: Personal productivity tools, custom workflows
 
 **Project Skills** (team-shared, version controlled):
 ```
-<project-root>/.claude/skills/
+<project-root>/COMBINED/workspace-config/claude/skills/
 └── [team-skills]/
 ```
-- **Path**: `.claude/skills/` in project root
+- **Path**: `COMBINED/workspace-config/claude/skills/` in project root
 - **Scope**: Available only in this project
 - **Version Control**: SHOULD be committed to git
 - **Use Case**: Team workflows, project-specific tools, shared knowledge
@@ -528,7 +528,7 @@ Before publishing a skill, verify:
 
 **File Structure**:
 - [ ] SKILL.md exists in skill directory
-- [ ] Directory is DIRECTLY in `~/.claude/skills/[skill-name]/` or `.claude/skills/[skill-name]/`
+- [ ] Directory is DIRECTLY in `~/COMBINED/workspace-config/claude/skills/[skill-name]/` or `COMBINED/workspace-config/claude/skills/[skill-name]/`
 - [ ] Uses clear, descriptive directory name
 - [ ] **NO nested subdirectories** (Claude Code requires top-level structure)
 

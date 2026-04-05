@@ -48,11 +48,11 @@ origin: ECC
     "PreToolUse": [
       {
         "matcher": "Edit",
-        "hooks": [{ "type": "command", "command": "node ~/.claude/skills/strategic-compact/suggest-compact.js" }]
+        "hooks": [{ "type": "command", "command": "node ~/COMBINED/workspace-config/claude/skills/strategic-compact/suggest-compact.js" }]
       },
       {
         "matcher": "Write",
-        "hooks": [{ "type": "command", "command": "node ~/.claude/skills/strategic-compact/suggest-compact.js" }]
+        "hooks": [{ "type": "command", "command": "node ~/COMBINED/workspace-config/claude/skills/strategic-compact/suggest-compact.js" }]
       }
     ]
   }

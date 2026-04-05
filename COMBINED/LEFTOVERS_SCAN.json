@@ -8887,9 +8887,9 @@
       "Prompts/COMBINED_PROMPTS.md"
     ],
     "Tools": [
-      "Tools/pretext/CLAUDE.md",
-      "Tools/claude-mem/openclaw/skills/do/SKILL.md",
-      "Tools/claude-mem/openclaw/skills/make-plan/SKILL.md"
+      "COMBINED/mcp-servers/mcp-pretext/CLAUDE.md",
+      "COMBINED/memory/memory-claude-mem/openclaw/skills/do/SKILL.md",
+      "COMBINED/memory/memory-claude-mem/openclaw/skills/make-plan/SKILL.md"
     ],
     "UI-UX": [
       "UI-UX/COMBINED_DESIGN_SYSTEM.md",

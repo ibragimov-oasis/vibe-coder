@@ -1516,7 +1516,7 @@ Quality check hook for Node.js TypeScript projects with TypeScript compilation. 
 <details open>
 <summary><h3>General <a href="#awesome-claude-code">🔝</a></h3></summary>
 
-[`/create-hook`](https://github.com/omril321/automated-notebooklm/blob/main/.claude/commands/create-hook.md) &nbsp; by &nbsp; [Omri Lavi](https://github.com/omril321)  &nbsp;&nbsp;⚖️&nbsp;&nbsp;Apache-2.0  
+[`/create-hook`](https://github.com/omril321/automated-notebooklm/blob/main/COMBINED/workspace-config/claude/commands/create-hook.md) &nbsp; by &nbsp; [Omri Lavi](https://github.com/omril321)  &nbsp;&nbsp;⚖️&nbsp;&nbsp;Apache-2.0  
 Slash command for hook creation - intelligently prompts you through the creation process with smart suggestions based on your project setup (TS, Prettier, ESLint...).
 
 <details>
@@ -1543,7 +1543,7 @@ A library of slash commands intended specifically to facilitate common and advan
 <details open>
 <summary><h3>Version Control & Git <a href="#awesome-claude-code">🔝</a></h3></summary>
 
-[`/analyze-issue`](https://github.com/jerseycheese/Narraitor/blob/feature/issue-227-ai-suggestions/.claude/commands/analyze-issue.md) &nbsp; by &nbsp; [jerseycheese](https://github.com/jerseycheese)  &nbsp;&nbsp;⚖️&nbsp;&nbsp;MIT  
+[`/analyze-issue`](https://github.com/jerseycheese/Narraitor/blob/feature/issue-227-ai-suggestions/COMBINED/workspace-config/claude/commands/analyze-issue.md) &nbsp; by &nbsp; [jerseycheese](https://github.com/jerseycheese)  &nbsp;&nbsp;⚖️&nbsp;&nbsp;MIT  
 Fetches GitHub issue details to create comprehensive implementation specifications, analyzing requirements and planning structured approach with clear implementation steps.
 
 <details>
@@ -1554,7 +1554,7 @@ Fetches GitHub issue details to create comprehensive implementation specificatio
 </details>
 <br>
 
-[`/commit`](https://github.com/evmts/tevm-monorepo/blob/main/.claude/commands/commit.md) &nbsp; by &nbsp; [evmts](https://github.com/evmts)  &nbsp;&nbsp;⚖️&nbsp;&nbsp;MIT  
+[`/commit`](https://github.com/evmts/tevm-monorepo/blob/main/COMBINED/workspace-config/claude/commands/commit.md) &nbsp; by &nbsp; [evmts](https://github.com/evmts)  &nbsp;&nbsp;⚖️&nbsp;&nbsp;MIT  
 Creates git commits using conventional commit format with appropriate emojis, following project standards and creating descriptive messages that explain the purpose of changes.
 
 <details>
@@ -1565,7 +1565,7 @@ Creates git commits using conventional commit format with appropriate emojis, fo
 </details>
 <br>
 
-[`/commit-fast`](https://github.com/steadycursor/steadystart/blob/main/.claude/commands/2-commit-fast.md) &nbsp; by &nbsp; [steadycursor](https://github.com/steadycursor)    
+[`/commit-fast`](https://github.com/steadycursor/steadystart/blob/main/COMBINED/workspace-config/claude/commands/2-commit-fast.md) &nbsp; by &nbsp; [steadycursor](https://github.com/steadycursor)    
 Automates git commit process by selecting the first suggested message, generating structured commits with consistent formatting while skipping manual confirmation and removing Claude co-Contributorship footer
 
 <details>
@@ -1576,7 +1576,7 @@ Automates git commit process by selecting the first suggested message, generatin
 </details>
 <br>
 
-[`/create-pr`](https://github.com/toyamarinyon/giselle/blob/main/.claude/commands/create-pr.md) &nbsp; by &nbsp; [toyamarinyon](https://github.com/toyamarinyon)  &nbsp;&nbsp;⚖️&nbsp;&nbsp;Apache-2.0  
+[`/create-pr`](https://github.com/toyamarinyon/giselle/blob/main/COMBINED/workspace-config/claude/commands/create-pr.md) &nbsp; by &nbsp; [toyamarinyon](https://github.com/toyamarinyon)  &nbsp;&nbsp;⚖️&nbsp;&nbsp;Apache-2.0  
 Streamlines pull request creation by handling the entire workflow: creating a new branch, committing changes, formatting modified files with Biome, and submitting the PR.
 
 <details>
@@ -1587,7 +1587,7 @@ Streamlines pull request creation by handling the entire workflow: creating a ne
 </details>
 <br>
 
-[`/create-pull-request`](https://github.com/liam-hq/liam/blob/main/.claude/commands/create-pull-request.md) &nbsp; by &nbsp; [liam-hq](https://github.com/liam-hq)  &nbsp;&nbsp;⚖️&nbsp;&nbsp;Apache-2.0  
+[`/create-pull-request`](https://github.com/liam-hq/liam/blob/main/COMBINED/workspace-config/claude/commands/create-pull-request.md) &nbsp; by &nbsp; [liam-hq](https://github.com/liam-hq)  &nbsp;&nbsp;⚖️&nbsp;&nbsp;Apache-2.0  
 Provides comprehensive PR creation guidance with GitHub CLI, enforcing title conventions, following template structure, and offering concrete command examples with best practices.
 
 <details>
@@ -1598,7 +1598,7 @@ Provides comprehensive PR creation guidance with GitHub CLI, enforcing title con
 </details>
 <br>
 
-[`/create-worktrees`](https://github.com/evmts/tevm-monorepo/blob/main/.claude/commands/create-worktrees.md) &nbsp; by &nbsp; [evmts](https://github.com/evmts)  &nbsp;&nbsp;⚖️&nbsp;&nbsp;MIT  
+[`/create-worktrees`](https://github.com/evmts/tevm-monorepo/blob/main/COMBINED/workspace-config/claude/commands/create-worktrees.md) &nbsp; by &nbsp; [evmts](https://github.com/evmts)  &nbsp;&nbsp;⚖️&nbsp;&nbsp;MIT  
 Creates git worktrees for all open PRs or specific branches, handling branches with slashes, cleaning up stale worktrees, and supporting custom branch creation for development.
 
 <details>
@@ -1609,7 +1609,7 @@ Creates git worktrees for all open PRs or specific branches, handling branches w
 </details>
 <br>
 
-[`/fix-github-issue`](https://github.com/jeremymailen/kotlinter-gradle/blob/master/.claude/commands/fix-github-issue.md) &nbsp; by &nbsp; [jeremymailen](https://github.com/jeremymailen)  &nbsp;&nbsp;⚖️&nbsp;&nbsp;Apache-2.0  
+[`/fix-github-issue`](https://github.com/jeremymailen/kotlinter-gradle/blob/master/COMBINED/workspace-config/claude/commands/fix-github-issue.md) &nbsp; by &nbsp; [jeremymailen](https://github.com/jeremymailen)  &nbsp;&nbsp;⚖️&nbsp;&nbsp;Apache-2.0  
 Analyzes and fixes GitHub issues using a structured approach with GitHub CLI for issue details, implementing necessary code changes, running tests, and creating proper commit messages.
 
 <details>
@@ -1620,7 +1620,7 @@ Analyzes and fixes GitHub issues using a structured approach with GitHub CLI for
 </details>
 <br>
 
-[`/fix-issue`](https://github.com/metabase/metabase/blob/master/.claude/commands/fix-issue.md) &nbsp; by &nbsp; [metabase](https://github.com/metabase)  &nbsp;&nbsp;⚖️&nbsp;&nbsp;NOASSERTION  
+[`/fix-issue`](https://github.com/metabase/metabase/blob/master/COMBINED/workspace-config/claude/commands/fix-issue.md) &nbsp; by &nbsp; [metabase](https://github.com/metabase)  &nbsp;&nbsp;⚖️&nbsp;&nbsp;NOASSERTION  
 Addresses GitHub issues by taking issue number as parameter, analyzing context, implementing solution, and testing/validating the fix for proper integration.
 
 <details>
@@ -1631,7 +1631,7 @@ Addresses GitHub issues by taking issue number as parameter, analyzing context, 
 </details>
 <br>
 
-[`/fix-pr`](https://github.com/metabase/metabase/blob/master/.claude/commands/fix-pr.md) &nbsp; by &nbsp; [metabase](https://github.com/metabase)  &nbsp;&nbsp;⚖️&nbsp;&nbsp;NOASSERTION  
+[`/fix-pr`](https://github.com/metabase/metabase/blob/master/COMBINED/workspace-config/claude/commands/fix-pr.md) &nbsp; by &nbsp; [metabase](https://github.com/metabase)  &nbsp;&nbsp;⚖️&nbsp;&nbsp;NOASSERTION  
 Fetches and fixes unresolved PR comments by automatically retrieving feedback, addressing reviewer concerns, making targeted code improvements, and streamlining the review process.
 
 <details>
@@ -1642,7 +1642,7 @@ Fetches and fixes unresolved PR comments by automatically retrieving feedback, a
 </details>
 <br>
 
-[`/husky`](https://github.com/evmts/tevm-monorepo/blob/main/.claude/commands/husky.md) &nbsp; by &nbsp; [evmts](https://github.com/evmts)  &nbsp;&nbsp;⚖️&nbsp;&nbsp;MIT  
+[`/husky`](https://github.com/evmts/tevm-monorepo/blob/main/COMBINED/workspace-config/claude/commands/husky.md) &nbsp; by &nbsp; [evmts](https://github.com/evmts)  &nbsp;&nbsp;⚖️&nbsp;&nbsp;MIT  
 Sets up and manages Husky Git hooks by configuring pre-commit hooks, establishing commit message standards, integrating with linting tools, and ensuring code quality on commits.
 
 <details>
@@ -1653,7 +1653,7 @@ Sets up and manages Husky Git hooks by configuring pre-commit hooks, establishin
 </details>
 <br>
 
-[`/update-branch-name`](https://github.com/giselles-ai/giselle/blob/main/.claude/commands/update-branch-name.md) &nbsp; by &nbsp; [giselles-ai](https://github.com/giselles-ai)  &nbsp;&nbsp;⚖️&nbsp;&nbsp;Apache-2.0  
+[`/update-branch-name`](https://github.com/giselles-ai/giselle/blob/main/COMBINED/workspace-config/claude/commands/update-branch-name.md) &nbsp; by &nbsp; [giselles-ai](https://github.com/giselles-ai)  &nbsp;&nbsp;⚖️&nbsp;&nbsp;Apache-2.0  
 Updates branch names with proper prefixes and formats, enforcing naming conventions, supporting semantic prefixes, and managing remote branch updates.
 
 <details>
@@ -1669,7 +1669,7 @@ Updates branch names with proper prefixes and formats, enforcing naming conventi
 <details open>
 <summary><h3>Code Analysis & Testing <a href="#awesome-claude-code">🔝</a></h3></summary>
 
-[`/check`](https://github.com/rygwdn/slack-tools/blob/main/.claude/commands/check.md) &nbsp; by &nbsp; [rygwdn](https://github.com/rygwdn)    
+[`/check`](https://github.com/rygwdn/slack-tools/blob/main/COMBINED/workspace-config/claude/commands/check.md) &nbsp; by &nbsp; [rygwdn](https://github.com/rygwdn)    
 Performs comprehensive code quality and security checks, featuring static analysis integration, security vulnerability scanning, code style enforcement, and detailed reporting.
 
 <details>
@@ -1680,7 +1680,7 @@ Performs comprehensive code quality and security checks, featuring static analys
 </details>
 <br>
 
-[`/code_analysis`](https://github.com/kingler/n8n_agent/blob/main/.claude/commands/code_analysis.md) &nbsp; by &nbsp; [kingler](https://github.com/kingler)    
+[`/code_analysis`](https://github.com/kingler/n8n_agent/blob/main/COMBINED/workspace-config/claude/commands/code_analysis.md) &nbsp; by &nbsp; [kingler](https://github.com/kingler)    
 Provides a menu of advanced code analysis commands for deep inspection, including knowledge graph generation, optimization suggestions, and quality evaluation.
 
 <details>
@@ -1691,7 +1691,7 @@ Provides a menu of advanced code analysis commands for deep inspection, includin
 </details>
 <br>
 
-[`/optimize`](https://github.com/to4iki/ai-project-rules/blob/main/.claude/commands/optimize.md) &nbsp; by &nbsp; [to4iki](https://github.com/to4iki)  &nbsp;&nbsp;⚖️&nbsp;&nbsp;MIT  
+[`/optimize`](https://github.com/to4iki/ai-project-rules/blob/main/COMBINED/workspace-config/claude/commands/optimize.md) &nbsp; by &nbsp; [to4iki](https://github.com/to4iki)  &nbsp;&nbsp;⚖️&nbsp;&nbsp;MIT  
 Analyzes code performance to identify bottlenecks, proposing concrete optimizations with implementation guidance for improved application performance.
 
 <details>
@@ -1702,7 +1702,7 @@ Analyzes code performance to identify bottlenecks, proposing concrete optimizati
 </details>
 <br>
 
-[`/repro-issue`](https://github.com/rzykov/metabase/blob/master/.claude/commands/repro-issue.md) &nbsp; by &nbsp; [rzykov](https://github.com/rzykov)  &nbsp;&nbsp;⚖️&nbsp;&nbsp;NOASSERTION  
+[`/repro-issue`](https://github.com/rzykov/metabase/blob/master/COMBINED/workspace-config/claude/commands/repro-issue.md) &nbsp; by &nbsp; [rzykov](https://github.com/rzykov)  &nbsp;&nbsp;⚖️&nbsp;&nbsp;NOASSERTION  
 Creates reproducible test cases for GitHub issues, ensuring tests fail reliably and documenting clear reproduction steps for developers.
 
 <details>
@@ -1713,7 +1713,7 @@ Creates reproducible test cases for GitHub issues, ensuring tests fail reliably 
 </details>
 <br>
 
-[`/tdd`](https://github.com/zscott/pane/blob/main/.claude/commands/tdd.md) &nbsp; by &nbsp; [zscott](https://github.com/zscott)    
+[`/tdd`](https://github.com/zscott/pane/blob/main/COMBINED/workspace-config/claude/commands/tdd.md) &nbsp; by &nbsp; [zscott](https://github.com/zscott)    
 Guides development using Test-Driven Development principles, enforcing Red-Green-Refactor discipline, integrating with git workflow, and managing PR creation.
 
 <details>
@@ -1724,7 +1724,7 @@ Guides development using Test-Driven Development principles, enforcing Red-Green
 </details>
 <br>
 
-[`/tdd-implement`](https://github.com/jerseycheese/Narraitor/blob/feature/issue-227-ai-suggestions/.claude/commands/tdd-implement.md) &nbsp; by &nbsp; [jerseycheese](https://github.com/jerseycheese)  &nbsp;&nbsp;⚖️&nbsp;&nbsp;MIT  
+[`/tdd-implement`](https://github.com/jerseycheese/Narraitor/blob/feature/issue-227-ai-suggestions/COMBINED/workspace-config/claude/commands/tdd-implement.md) &nbsp; by &nbsp; [jerseycheese](https://github.com/jerseycheese)  &nbsp;&nbsp;⚖️&nbsp;&nbsp;MIT  
 Implements Test-Driven Development by analyzing feature requirements, creating tests first (red), implementing minimal passing code (green), and refactoring while maintaining tests.
 
 <details>
@@ -1740,7 +1740,7 @@ Implements Test-Driven Development by analyzing feature requirements, creating t
 <details open>
 <summary><h3>Context Loading & Priming <a href="#awesome-claude-code">🔝</a></h3></summary>
 
-[`/context-prime`](https://github.com/elizaOS/elizaos.github.io/blob/main/.claude/commands/context-prime.md) &nbsp; by &nbsp; [elizaOS](https://github.com/elizaOS)  &nbsp;&nbsp;⚖️&nbsp;&nbsp;MIT  
+[`/context-prime`](https://github.com/elizaOS/elizaos.github.io/blob/main/COMBINED/workspace-config/claude/commands/context-prime.md) &nbsp; by &nbsp; [elizaOS](https://github.com/elizaOS)  &nbsp;&nbsp;⚖️&nbsp;&nbsp;MIT  
 Primes Claude with comprehensive project understanding by loading repository structure, setting development context, establishing project goals, and defining collaboration parameters.
 
 <details>
@@ -1751,7 +1751,7 @@ Primes Claude with comprehensive project understanding by loading repository str
 </details>
 <br>
 
-[`/initref`](https://github.com/okuvshynov/cubestat/blob/main/.claude/commands/initref.md) &nbsp; by &nbsp; [okuvshynov](https://github.com/okuvshynov)  &nbsp;&nbsp;⚖️&nbsp;&nbsp;MIT  
+[`/initref`](https://github.com/okuvshynov/cubestat/blob/main/COMBINED/workspace-config/claude/commands/initref.md) &nbsp; by &nbsp; [okuvshynov](https://github.com/okuvshynov)  &nbsp;&nbsp;⚖️&nbsp;&nbsp;MIT  
 Initializes reference documentation structure with standard doc templates, API reference setup, documentation conventions, and placeholder content generation.
 
 <details>
@@ -1762,7 +1762,7 @@ Initializes reference documentation structure with standard doc templates, API r
 </details>
 <br>
 
-[`/load-llms-txt`](https://github.com/ethpandaops/xatu-data/blob/master/.claude/commands/load-llms-txt.md) &nbsp; by &nbsp; [ethpandaops](https://github.com/ethpandaops)  &nbsp;&nbsp;⚖️&nbsp;&nbsp;MIT  
+[`/load-llms-txt`](https://github.com/ethpandaops/xatu-data/blob/master/COMBINED/workspace-config/claude/commands/load-llms-txt.md) &nbsp; by &nbsp; [ethpandaops](https://github.com/ethpandaops)  &nbsp;&nbsp;⚖️&nbsp;&nbsp;MIT  
 Loads LLM configuration files to context, importing specific terminology, model configurations, and establishing baseline terminology for AI discussions.
 
 <details>
@@ -1773,7 +1773,7 @@ Loads LLM configuration files to context, importing specific terminology, model 
 </details>
 <br>
 
-[`/load_coo_context`](https://github.com/Mjvolk3/torchcell/blob/main/.claude/commands/load_coo_context.md) &nbsp; by &nbsp; [Mjvolk3](https://github.com/Mjvolk3)    
+[`/load_coo_context`](https://github.com/Mjvolk3/torchcell/blob/main/COMBINED/workspace-config/claude/commands/load_coo_context.md) &nbsp; by &nbsp; [Mjvolk3](https://github.com/Mjvolk3)    
 References specific files for sparse matrix operations, explains transform usage, compares with previous approaches, and sets data formatting context for development.
 
 <details>
@@ -1784,7 +1784,7 @@ References specific files for sparse matrix operations, explains transform usage
 </details>
 <br>
 
-[`/load_dango_pipeline`](https://github.com/Mjvolk3/torchcell/blob/main/.claude/commands/load_dango_pipeline.md) &nbsp; by &nbsp; [Mjvolk3](https://github.com/Mjvolk3)    
+[`/load_dango_pipeline`](https://github.com/Mjvolk3/torchcell/blob/main/COMBINED/workspace-config/claude/commands/load_dango_pipeline.md) &nbsp; by &nbsp; [Mjvolk3](https://github.com/Mjvolk3)    
 Sets context for model training by referencing pipeline files, establishing working context, and preparing for pipeline work with relevant documentation.
 
 <details>
@@ -1795,7 +1795,7 @@ Sets context for model training by referencing pipeline files, establishing work
 </details>
 <br>
 
-[`/prime`](https://github.com/yzyydev/AI-Engineering-Structure/blob/main/.claude/commands/prime.md) &nbsp; by &nbsp; [yzyydev](https://github.com/yzyydev)    
+[`/prime`](https://github.com/yzyydev/AI-Engineering-Structure/blob/main/COMBINED/workspace-config/claude/commands/prime.md) &nbsp; by &nbsp; [yzyydev](https://github.com/yzyydev)    
 Sets up initial project context by viewing directory structure and reading key files, creating standardized context with directory visualization and key documentation focus.
 
 <details>
@@ -1806,7 +1806,7 @@ Sets up initial project context by viewing directory structure and reading key f
 </details>
 <br>
 
-[`/rsi`](https://github.com/ddisisto/si/blob/main/.claude/commands/rsi.md) &nbsp; by &nbsp; [ddisisto](https://github.com/ddisisto)    
+[`/rsi`](https://github.com/ddisisto/si/blob/main/COMBINED/workspace-config/claude/commands/rsi.md) &nbsp; by &nbsp; [ddisisto](https://github.com/ddisisto)    
 Reads all commands and key project files to optimize AI-assisted development by streamlining the process, loading command context, and setting up for better development workflow.
 
 <details>
@@ -1822,7 +1822,7 @@ Reads all commands and key project files to optimize AI-assisted development by 
 <details open>
 <summary><h3>Documentation & Changelogs <a href="#awesome-claude-code">🔝</a></h3></summary>
 
-[`/add-to-changelog`](https://github.com/berrydev-ai/blockdoc-python/blob/main/.claude/commands/add-to-changelog.md) &nbsp; by &nbsp; [berrydev-ai](https://github.com/berrydev-ai)  &nbsp;&nbsp;⚖️&nbsp;&nbsp;MIT  
+[`/add-to-changelog`](https://github.com/berrydev-ai/blockdoc-python/blob/main/COMBINED/workspace-config/claude/commands/add-to-changelog.md) &nbsp; by &nbsp; [berrydev-ai](https://github.com/berrydev-ai)  &nbsp;&nbsp;⚖️&nbsp;&nbsp;MIT  
 Adds new entries to changelog files while maintaining format consistency, properly documenting changes, and following established project standards for version tracking.
 
 <details>
@@ -1833,7 +1833,7 @@ Adds new entries to changelog files while maintaining format consistency, proper
 </details>
 <br>
 
-[`/create-docs`](https://github.com/jerseycheese/Narraitor/blob/feature/issue-227-ai-suggestions/.claude/commands/create-docs.md) &nbsp; by &nbsp; [jerseycheese](https://github.com/jerseycheese)  &nbsp;&nbsp;⚖️&nbsp;&nbsp;MIT  
+[`/create-docs`](https://github.com/jerseycheese/Narraitor/blob/feature/issue-227-ai-suggestions/COMBINED/workspace-config/claude/commands/create-docs.md) &nbsp; by &nbsp; [jerseycheese](https://github.com/jerseycheese)  &nbsp;&nbsp;⚖️&nbsp;&nbsp;MIT  
 Analyzes code structure and purpose to create comprehensive documentation detailing inputs/outputs, behavior, user interaction flows, and edge cases with error handling.
 
 <details>
@@ -1844,7 +1844,7 @@ Analyzes code structure and purpose to create comprehensive documentation detail
 </details>
 <br>
 
-[`/docs`](https://github.com/slunsford/coffee-analytics/blob/main/.claude/commands/docs.md) &nbsp; by &nbsp; [slunsford](https://github.com/slunsford)    
+[`/docs`](https://github.com/slunsford/coffee-analytics/blob/main/COMBINED/workspace-config/claude/commands/docs.md) &nbsp; by &nbsp; [slunsford](https://github.com/slunsford)    
 Generates comprehensive documentation that follows project structure, documenting APIs and usage patterns with consistent formatting for better user understanding.
 
 <details>
@@ -1855,7 +1855,7 @@ Generates comprehensive documentation that follows project structure, documentin
 </details>
 <br>
 
-[`/explain-issue-fix`](https://github.com/hackdays-io/toban-contribution-viewer/blob/main/.claude/commands/explain-issue-fix.md) &nbsp; by &nbsp; [hackdays-io](https://github.com/hackdays-io)    
+[`/explain-issue-fix`](https://github.com/hackdays-io/toban-contribution-viewer/blob/main/COMBINED/workspace-config/claude/commands/explain-issue-fix.md) &nbsp; by &nbsp; [hackdays-io](https://github.com/hackdays-io)    
 Documents solution approaches for GitHub issues, explaining technical decisions, detailing challenges overcome, and providing implementation context for better understanding.
 
 <details>
@@ -1866,7 +1866,7 @@ Documents solution approaches for GitHub issues, explaining technical decisions,
 </details>
 <br>
 
-[`/update-docs`](https://github.com/Consiliency/Flutter-Structurizr/blob/main/.claude/commands/update-docs.md) &nbsp; by &nbsp; [Consiliency](https://github.com/Consiliency)  &nbsp;&nbsp;⚖️&nbsp;&nbsp;MIT  
+[`/update-docs`](https://github.com/Consiliency/Flutter-Structurizr/blob/main/COMBINED/workspace-config/claude/commands/update-docs.md) &nbsp; by &nbsp; [Consiliency](https://github.com/Consiliency)  &nbsp;&nbsp;⚖️&nbsp;&nbsp;MIT  
 Reviews current documentation status, updates implementation progress, reviews phase documents, and maintains documentation consistency across the project.
 
 <details>
@@ -1882,7 +1882,7 @@ Reviews current documentation status, updates implementation progress, reviews p
 <details open>
 <summary><h3>CI / Deployment <a href="#awesome-claude-code">🔝</a></h3></summary>
 
-[`/release`](https://github.com/kelp/webdown/blob/main/.claude/commands/release.md) &nbsp; by &nbsp; [kelp](https://github.com/kelp)  &nbsp;&nbsp;⚖️&nbsp;&nbsp;MIT  
+[`/release`](https://github.com/kelp/webdown/blob/main/COMBINED/workspace-config/claude/commands/release.md) &nbsp; by &nbsp; [kelp](https://github.com/kelp)  &nbsp;&nbsp;⚖️&nbsp;&nbsp;MIT  
 Manages software releases by updating changelogs, reviewing README changes, evaluating version increments, and documenting release changes for better version tracking.
 
 <details>
@@ -1893,7 +1893,7 @@ Manages software releases by updating changelogs, reviewing README changes, eval
 </details>
 <br>
 
-[`/run-ci`](https://github.com/hackdays-io/toban-contribution-viewer/blob/main/.claude/commands/run-ci.md) &nbsp; by &nbsp; [hackdays-io](https://github.com/hackdays-io)    
+[`/run-ci`](https://github.com/hackdays-io/toban-contribution-viewer/blob/main/COMBINED/workspace-config/claude/commands/run-ci.md) &nbsp; by &nbsp; [hackdays-io](https://github.com/hackdays-io)    
 Activates virtual environments, runs CI-compatible check scripts, iteratively fixes errors, and ensures all tests pass before completion.
 
 <details>
@@ -1909,7 +1909,7 @@ Activates virtual environments, runs CI-compatible check scripts, iteratively fi
 <details open>
 <summary><h3>Project & Task Management <a href="#awesome-claude-code">🔝</a></h3></summary>
 
-[`/create-command`](https://github.com/scopecraft/command/blob/main/.claude/commands/create-command.md) &nbsp; by &nbsp; [scopecraft](https://github.com/scopecraft)    
+[`/create-command`](https://github.com/scopecraft/command/blob/main/COMBINED/workspace-config/claude/commands/create-command.md) &nbsp; by &nbsp; [scopecraft](https://github.com/scopecraft)    
 Guides Claude through creating new custom commands with proper structure by analyzing requirements, templating commands by category, enforcing command standards, and creating supporting documentation.
 
 <details>
@@ -1920,11 +1920,11 @@ Guides Claude through creating new custom commands with proper structure by anal
 </details>
 <br>
 
-[`/create-plan`](https://github.com/hesreallyhim/inkverse-fork/blob/preserve-claude-resources/.claude/commands/create-plan.md) &nbsp; by &nbsp; [taddyorg](https://github.com/taddyorg)  &nbsp;&nbsp;⚖️&nbsp;&nbsp;AGPL-3.0  
+[`/create-plan`](https://github.com/hesreallyhim/inkverse-fork/blob/preserve-claude-resources/COMBINED/workspace-config/claude/commands/create-plan.md) &nbsp; by &nbsp; [taddyorg](https://github.com/taddyorg)  &nbsp;&nbsp;⚖️&nbsp;&nbsp;AGPL-3.0  
 Generates comprehensive product requirement documents outlining detailed specifications, requirements, and features following standardized document structure and format.*  
 <sub>* Removed from origin</sub>
 
-[`/create-prp`](https://github.com/Wirasm/claudecode-utils/blob/main/.claude/commands/create-prp.md) &nbsp; by &nbsp; [Wirasm](https://github.com/Wirasm)  &nbsp;&nbsp;⚖️&nbsp;&nbsp;MIT  
+[`/create-prp`](https://github.com/Wirasm/claudecode-utils/blob/main/COMBINED/workspace-config/claude/commands/create-prp.md) &nbsp; by &nbsp; [Wirasm](https://github.com/Wirasm)  &nbsp;&nbsp;⚖️&nbsp;&nbsp;MIT  
 Creates product requirement plans by reading PRP methodology, following template structure, creating comprehensive requirements, and structuring product definitions for development.
 
 <details>
@@ -1935,7 +1935,7 @@ Creates product requirement plans by reading PRP methodology, following template
 </details>
 <br>
 
-[`/do-issue`](https://github.com/jerseycheese/Narraitor/blob/feature/issue-227-ai-suggestions/.claude/commands/do-issue.md) &nbsp; by &nbsp; [jerseycheese](https://github.com/jerseycheese)  &nbsp;&nbsp;⚖️&nbsp;&nbsp;MIT  
+[`/do-issue`](https://github.com/jerseycheese/Narraitor/blob/feature/issue-227-ai-suggestions/COMBINED/workspace-config/claude/commands/do-issue.md) &nbsp; by &nbsp; [jerseycheese](https://github.com/jerseycheese)  &nbsp;&nbsp;⚖️&nbsp;&nbsp;MIT  
 Implements GitHub issues with manual review points, following a structured approach with issue number parameter and offering alternative automated mode for efficiency.
 
 <details>
@@ -1957,7 +1957,7 @@ A Claude Code plugin that generates comprehensive Product Requirements Documents
 </details>
 <br>
 
-[`/project_hello_w_name`](https://github.com/disler/just-prompt/blob/main/.claude/commands/project_hello_w_name.md) &nbsp; by &nbsp; [disler](https://github.com/disler)    
+[`/project_hello_w_name`](https://github.com/disler/just-prompt/blob/main/COMBINED/workspace-config/claude/commands/project_hello_w_name.md) &nbsp; by &nbsp; [disler](https://github.com/disler)    
 Creates customizable greeting components with name input, demonstrating argument passing, component reusability, state management, and user input handling.
 
 <details>
@@ -1984,7 +1984,7 @@ A convenient command to quickly manage project todo items without leaving the Cl
 <details open>
 <summary><h3>Miscellaneous <a href="#awesome-claude-code">🔝</a></h3></summary>
 
-[`/fixing_go_in_graph`](https://github.com/Mjvolk3/torchcell/blob/main/.claude/commands/fixing_go_in_graph.md) &nbsp; by &nbsp; [Mjvolk3](https://github.com/Mjvolk3)    
+[`/fixing_go_in_graph`](https://github.com/Mjvolk3/torchcell/blob/main/COMBINED/workspace-config/claude/commands/fixing_go_in_graph.md) &nbsp; by &nbsp; [Mjvolk3](https://github.com/Mjvolk3)    
 Focuses on Gene Ontology annotation integration in graph databases, handling multiple data sources, addressing graph representation issues, and ensuring correct data incorporation.
 
 <details>
@@ -1995,7 +1995,7 @@ Focuses on Gene Ontology annotation integration in graph databases, handling mul
 </details>
 <br>
 
-[`/review_dcell_model`](https://github.com/Mjvolk3/torchcell/blob/main/.claude/commands/review_dcell_model.md) &nbsp; by &nbsp; [Mjvolk3](https://github.com/Mjvolk3)    
+[`/review_dcell_model`](https://github.com/Mjvolk3/torchcell/blob/main/COMBINED/workspace-config/claude/commands/review_dcell_model.md) &nbsp; by &nbsp; [Mjvolk3](https://github.com/Mjvolk3)    
 Reviews old Dcell implementation files, comparing with newer Dango model, noting changes over time, and analyzing refactoring approaches for better code organization.
 
 <details>
@@ -2006,7 +2006,7 @@ Reviews old Dcell implementation files, comparing with newer Dango model, noting
 </details>
 <br>
 
-[`/use-stepper`](https://github.com/zuplo/docs/blob/main/.claude/commands/use-stepper.md) &nbsp; by &nbsp; [zuplo](https://github.com/zuplo)    
+[`/use-stepper`](https://github.com/zuplo/docs/blob/main/COMBINED/workspace-config/claude/commands/use-stepper.md) &nbsp; by &nbsp; [zuplo](https://github.com/zuplo)    
 Reformats documentation to use React Stepper component, transforming heading formats, applying proper indentation, and maintaining markdown compatibility with admonition formatting.
 
 <details>

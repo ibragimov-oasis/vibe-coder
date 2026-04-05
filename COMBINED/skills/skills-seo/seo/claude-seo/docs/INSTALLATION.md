@@ -40,14 +40,14 @@ cd claude-seo
 
 3. **Install Python dependencies** (if not done automatically)
 
-The installer creates a venv at `~/.claude/skills/seo/.venv/`. If that fails, install manually:
+The installer creates a venv at `~/COMBINED/workspace-config/claude/skills/seo/.venv/`. If that fails, install manually:
 
 ```bash
 # Option A: Use the venv
-~/.claude/skills/seo/.venv/bin/pip install -r ~/.claude/skills/seo/requirements.txt
+~/COMBINED/workspace-config/claude/skills/seo/.venv/bin/pip install -r ~/COMBINED/workspace-config/claude/skills/seo/requirements.txt
 
 # Option B: User-level install
-pip install --user -r ~/.claude/skills/seo/requirements.txt
+pip install --user -r ~/COMBINED/workspace-config/claude/skills/seo/requirements.txt
 ```
 
 4. **Install Playwright browsers** (optional, for visual analysis)
@@ -65,9 +65,9 @@ The installer copies files to:
 
 | Component | Path |
 |-----------|------|
-| Main skill | `~/.claude/skills/seo/` |
-| Sub-skills | `~/.claude/skills/seo-*/` |
-| Subagents | `~/.claude/agents/seo-*.md` |
+| Main skill | `~/COMBINED/workspace-config/claude/skills/seo/` |
+| Sub-skills | `~/COMBINED/workspace-config/claude/skills/seo-*/` |
+| Subagents | `~/COMBINED/workspace-config/claude/agents/seo-*.md` |
 
 ## Verify Installation
 
@@ -94,20 +94,20 @@ curl -fsSL https://raw.githubusercontent.com/AgriciDaniel/claude-seo/main/uninst
 Or manually:
 
 ```bash
-rm -rf ~/.claude/skills/seo
-rm -rf ~/.claude/skills/seo-audit
-rm -rf ~/.claude/skills/seo-competitor-pages
-rm -rf ~/.claude/skills/seo-content
-rm -rf ~/.claude/skills/seo-geo
-rm -rf ~/.claude/skills/seo-hreflang
-rm -rf ~/.claude/skills/seo-images
-rm -rf ~/.claude/skills/seo-page
-rm -rf ~/.claude/skills/seo-plan
-rm -rf ~/.claude/skills/seo-programmatic
-rm -rf ~/.claude/skills/seo-schema
-rm -rf ~/.claude/skills/seo-sitemap
-rm -rf ~/.claude/skills/seo-technical
-rm -f ~/.claude/agents/seo-*.md
+rm -rf ~/COMBINED/workspace-config/claude/skills/seo
+rm -rf ~/COMBINED/workspace-config/claude/skills/seo-audit
+rm -rf ~/COMBINED/workspace-config/claude/skills/seo-competitor-pages
+rm -rf ~/COMBINED/workspace-config/claude/skills/seo-content
+rm -rf ~/COMBINED/workspace-config/claude/skills/seo-geo
+rm -rf ~/COMBINED/workspace-config/claude/skills/seo-hreflang
+rm -rf ~/COMBINED/workspace-config/claude/skills/seo-images
+rm -rf ~/COMBINED/workspace-config/claude/skills/seo-page
+rm -rf ~/COMBINED/workspace-config/claude/skills/seo-plan
+rm -rf ~/COMBINED/workspace-config/claude/skills/seo-programmatic
+rm -rf ~/COMBINED/workspace-config/claude/skills/seo-schema
+rm -rf ~/COMBINED/workspace-config/claude/skills/seo-sitemap
+rm -rf ~/COMBINED/workspace-config/claude/skills/seo-technical
+rm -f ~/COMBINED/workspace-config/claude/agents/seo-*.md
 ```
 
 ## Upgrading
@@ -129,7 +129,7 @@ curl -fsSL https://raw.githubusercontent.com/AgriciDaniel/claude-seo/main/instal
 Ensure the skill is installed in the correct location:
 
 ```bash
-ls ~/.claude/skills/seo/SKILL.md
+ls ~/COMBINED/workspace-config/claude/skills/seo/SKILL.md
 ```
 
 If the file doesn't exist, re-run the installer.
@@ -155,5 +155,5 @@ playwright install chromium
 Make sure scripts are executable:
 
 ```bash
-chmod +x ~/.claude/skills/seo/scripts/*.py
+chmod +x ~/COMBINED/workspace-config/claude/skills/seo/scripts/*.py
 ```

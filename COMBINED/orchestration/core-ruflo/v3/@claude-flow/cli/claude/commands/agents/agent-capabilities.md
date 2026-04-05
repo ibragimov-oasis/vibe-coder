@@ -108,7 +108,7 @@ release-manager: mcp__github__*, mcp__claude-flow__workflow_*
 npx claude-flow agent spawn -t coder --help
 
 # View agent definition
-cat .claude/agents/core/coder.md
+cat COMBINED/workspace-config/claude/agents/core/coder.md
 ```
 
 ## Capability-Based Selection
