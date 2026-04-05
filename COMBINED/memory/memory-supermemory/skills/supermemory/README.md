@@ -65,10 +65,10 @@ Place this skill in your Claude Code skills directory:
 
 ```bash
 # Project-level (recommended for development)
-.claude/skills/supermemory/
+COMBINED/workspace-config/claude/skills/supermemory/
 
 # Personal (available in all projects)
-~/.claude/skills/supermemory/
+~/COMBINED/workspace-config/claude/skills/supermemory/
 ```
 
 Claude Code will automatically discover and load the skill.

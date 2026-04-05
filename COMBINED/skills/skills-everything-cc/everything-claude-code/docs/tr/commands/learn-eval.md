@@ -22,8 +22,8 @@ Herhangi bir skill dosyası yazmadan önce kalite kontrolü, kayıt konumu karar
 
 3. **Kayıt konumunu belirle:**
    - Sor: "Bu desen farklı bir projede faydalı olur mu?"
-   - **Global** (`~/.claude/skills/learned/`): 2+ projede kullanılabilir genel desenler (bash uyumluluğu, LLM API davranışı, hata ayıklama teknikleri, vb.)
-   - **Proje** (mevcut projedeki `.claude/skills/learned/`): Projeye özel bilgi (belirli bir config dosyasının gariplikleri, projeye özel mimari kararlar, vb.)
+   - **Global** (`~/COMBINED/workspace-config/claude/skills/learned/`): 2+ projede kullanılabilir genel desenler (bash uyumluluğu, LLM API davranışı, hata ayıklama teknikleri, vb.)
+   - **Proje** (mevcut projedeki `COMBINED/workspace-config/claude/skills/learned/`): Projeye özel bilgi (belirli bir config dosyasının gariplikleri, projeye özel mimari kararlar, vb.)
    - Emin değilseniz, Global seçin (Global → Proje taşımak tersinden daha kolay)
 
 4. Bu formatı kullanarak skill dosyasını taslak olarak hazırla:
@@ -57,7 +57,7 @@ origin: auto-extracted
 
    Taslağı değerlendirmeden önce **tümünü** yürüt:
 
-   - [ ] İçerik örtüşmesini kontrol etmek için anahtar kelimeyle `~/.claude/skills/` ve ilgili proje `.claude/skills/` dosyalarını Grep ile ara
+   - [ ] İçerik örtüşmesini kontrol etmek için anahtar kelimeyle `~/COMBINED/workspace-config/claude/skills/` ve ilgili proje `COMBINED/workspace-config/claude/skills/` dosyalarını Grep ile ara
    - [ ] Örtüşme için MEMORY.md'yi kontrol et (hem proje hem de global)
    - [ ] Mevcut bir skill'e eklemenin yeterli olup olmayacağını düşün
    - [ ] Bunun yeniden kullanılabilir bir desen olduğunu, tek seferlik bir düzeltme olmadığını onayla

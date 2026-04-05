@@ -171,14 +171,14 @@ Use functional patterns over classes when appropriate.
       "matcher": "*",
       "hooks": [{
         "type": "command",
-        "command": "~/.claude/skills/continuous-learning-v2/hooks/observe.sh"
+        "command": "~/COMBINED/workspace-config/claude/skills/continuous-learning-v2/hooks/observe.sh"
       }]
     }],
     "PostToolUse": [{
       "matcher": "*",
       "hooks": [{
         "type": "command",
-        "command": "~/.claude/skills/continuous-learning-v2/hooks/observe.sh"
+        "command": "~/COMBINED/workspace-config/claude/skills/continuous-learning-v2/hooks/observe.sh"
       }]
     }]
   }
@@ -340,7 +340,7 @@ python3 instinct-cli.py promote --dry-run
 
 v2.1은 v2.0 및 v1과 완전히 호환됩니다:
 - `~/.claude/homunculus/instincts/`의 기존 전역 본능이 전역 본능으로 계속 작동
-- v1의 기존 `~/.claude/skills/learned/` 스킬이 계속 작동
+- v1의 기존 `~/COMBINED/workspace-config/claude/skills/learned/` 스킬이 계속 작동
 - Stop 훅이 여전히 실행됨 (하지만 이제 v2에도 데이터를 공급)
 - 점진적 마이그레이션: 둘 다 병렬로 실행 가능
 

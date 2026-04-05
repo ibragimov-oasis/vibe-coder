@@ -314,7 +314,7 @@ npx claude-flow@alpha init --codex --full
 | Feature | Claude Code | OpenAI Codex |
 |---------|-------------|--------------|
 | Config File | `CLAUDE.md` | `AGENTS.md` |
-| Skills Dir | `.claude/skills/` | `.agents/skills/` |
+| Skills Dir | `COMBINED/workspace-config/claude/skills/` | `.agents/skills/` |
 | Skill Syntax | `/skill-name` | `$skill-name` |
 | Settings | `settings.json` | `config.toml` |
 | MCP | Native | Via `codex mcp add` |
@@ -929,7 +929,7 @@ console.log(`Skills generated: ${result.skillsGenerated.length}`);
 ### Manual Migration Checklist
 
 1. **Rename config file**: `CLAUDE.md` → `AGENTS.md`
-2. **Move skills**: `.claude/skills/` → `.agents/skills/`
+2. **Move skills**: `COMBINED/workspace-config/claude/skills/` → `.agents/skills/`
 3. **Update syntax**: `/skill-name` → `$skill-name`
 4. **Convert settings**: `settings.json` → `config.toml`
 5. **Register MCP**: `codex mcp add claude-flow -- npx claude-flow mcp start`

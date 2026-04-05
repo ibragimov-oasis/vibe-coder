@@ -50,7 +50,7 @@ agents/
 智能体目录按顺序探测，结果会被合并：
 
 1. `./agents/**/*.md` + `./agents/*.md` — 项目本地智能体（两种深度）
-2. `~/.claude/agents/**/*.md` + `~/.claude/agents/*.md` — 全局智能体（两种深度）
+2. `~/COMBINED/workspace-config/claude/agents/**/*.md` + `~/COMBINED/workspace-config/claude/agents/*.md` — 全局智能体（两种深度）
 
 所有位置的结果会合并，并按智能体名称去重。同名情况下，项目本地智能体优先于全局智能体。如果用户指定了自定义路径，则使用该路径代替。
 

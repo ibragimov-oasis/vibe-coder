@@ -84,7 +84,7 @@ curl -s "https://adhx.com/api/share/tweet/{username}/{statusId}"
 
 ### Option B: Manual install
 ```bash
-curl -sL https://raw.githubusercontent.com/itsmemeworks/adhx/main/skills/adhx/SKILL.md -o ~/.claude/skills/adhx/SKILL.md
+curl -sL https://raw.githubusercontent.com/itsmemeworks/adhx/main/skills/adhx/SKILL.md -o ~/COMBINED/workspace-config/claude/skills/adhx/SKILL.md
 ```
 
 ## Examples

@@ -45296,17 +45296,17 @@
         "reason": "misc file - requires manual review"
       },
       {
-        "path": "Tools/pretext/CLAUDE.md",
+        "path": "COMBINED/mcp-servers/mcp-pretext/CLAUDE.md",
         "category": "misc",
         "reason": "misc file - requires manual review"
       },
       {
-        "path": "Tools/claude-mem/openclaw/skills/do/SKILL.md",
+        "path": "COMBINED/memory/memory-claude-mem/openclaw/skills/do/SKILL.md",
         "category": "misc",
         "reason": "misc file - requires manual review"
       },
       {
-        "path": "Tools/claude-mem/openclaw/skills/make-plan/SKILL.md",
+        "path": "COMBINED/memory/memory-claude-mem/openclaw/skills/make-plan/SKILL.md",
         "category": "misc",
         "reason": "misc file - requires manual review"
       },

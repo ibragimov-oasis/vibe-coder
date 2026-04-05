@@ -2,7 +2,7 @@
 
 ## 利用可能な Agent
 
-`~/.claude/agents/` に配置:
+`~/COMBINED/workspace-config/claude/agents/` に配置:
 
 | Agent | 目的 | 使用タイミング |
 |-------|---------|-------------|

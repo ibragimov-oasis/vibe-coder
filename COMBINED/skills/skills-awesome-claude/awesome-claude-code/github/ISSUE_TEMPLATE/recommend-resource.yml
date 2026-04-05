@@ -35,7 +35,7 @@ body:
         - Avoid submitting complex systems that require long onboarding or extensive training in a particular methodology.
 
         **Ask Claude for a Candid Review:**
-        When I review your recommendation, I will ask my assistant Claude Code to perform a review (this is to assist me - I do not base my judgment on this review alone.) You can find the type of prompt in `.claude/commands/evaluate-repository.md`. I recommend that you run this evaluation yourself ahead of time. Also, ask yourself: "Could Opus build this in one session?"
+        When I review your recommendation, I will ask my assistant Claude Code to perform a review (this is to assist me - I do not base my judgment on this review alone.) You can find the type of prompt in `COMBINED/workspace-config/claude/commands/evaluate-repository.md`. I recommend that you run this evaluation yourself ahead of time. Also, ask yourself: "Could Opus build this in one session?"
 
         After submission, our automated system will validate whether your Issue is well-formed with respect to the requirements of the template, and post the results as a comment. (This is merely a formality and does not constitute a review.)
 

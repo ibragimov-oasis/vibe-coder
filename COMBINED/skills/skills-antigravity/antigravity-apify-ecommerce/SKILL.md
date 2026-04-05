@@ -211,7 +211,7 @@ Use for seller discovery across multiple stores.
 
 ### Step 1: Set Skill Path
 ```bash
-SKILL_PATH=~/.claude/skills/apify-ecommerce
+SKILL_PATH=~/COMBINED/workspace-config/claude/skills/apify-ecommerce
 ```
 
 ### Step 2: Run Script

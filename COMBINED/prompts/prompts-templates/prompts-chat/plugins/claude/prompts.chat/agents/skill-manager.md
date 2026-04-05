@@ -40,7 +40,7 @@ Use these prompts.chat MCP tools:
 
 2. Returns the skill metadata and all file contents (SKILL.md, reference docs, scripts, etc.)
 
-3. If user asks to download/install, save files to `.claude/skills/{slug}/` structure
+3. If user asks to download/install, save files to `COMBINED/workspace-config/claude/skills/{slug}/` structure
 
 ### Creating a Skill
 

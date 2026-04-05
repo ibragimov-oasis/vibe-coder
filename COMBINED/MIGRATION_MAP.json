@@ -56,7 +56,7 @@
     },
     {
       "category": "agents",
-      "source": "Skills/awesome-copilot-main/_github/agents/",
+      "source": "COMBINED/agents/by-interface/agents-copilot/_github/agents/",
       "target": "COMBINED/agents/by-interface/copilot/awesome-copilot/",
       "priority": "LOW"
     },
@@ -305,7 +305,7 @@
     },
     {
       "category": "memory",
-      "source": "Tools/claude-mem/",
+      "source": "COMBINED/memory/memory-claude-mem/",
       "target": "COMBINED/memory/claude-mem/",
       "priority": "SKIP"
     },
@@ -317,7 +317,7 @@
     },
     {
       "category": "memory",
-      "source": "Tools/OpenViking/",
+      "source": "COMBINED/mcp-servers/mcp-openviking/",
       "target": "COMBINED/memory/openviking/",
       "priority": "LOW"
     },
@@ -335,7 +335,7 @@
     },
     {
       "category": "mcp-servers",
-      "source": "Tools/browser/",
+      "source": "COMBINED/mcp-servers/mcp-lightpanda/",
       "target": "COMBINED/mcp-servers/lightpanda/",
       "priority": "MEDIUM"
     },
@@ -347,7 +347,7 @@
     },
     {
       "category": "mcp-servers",
-      "source": "Tools/pretext/",
+      "source": "COMBINED/mcp-servers/mcp-pretext/",
       "target": "COMBINED/mcp-servers/pretext/",
       "priority": "LOW"
     },
@@ -395,7 +395,7 @@
     },
     {
       "category": "ui-design",
-      "source": "UI-UX/ui/",
+      "source": "COMBINED/ui-design/ui-components-shadcn/",
       "target": "COMBINED/ui-design/ui-components-shadcn/",
       "priority": "LOW"
     },

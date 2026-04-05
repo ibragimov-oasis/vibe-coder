@@ -27,7 +27,7 @@ Both tools share similar concepts but with different implementations:
 |---------|-------------|--------------|
 | Project Instructions | `CLAUDE.md` | `AGENTS.md` |
 | Nested Instructions | `CLAUDE.local.md` | `AGENTS.override.md` |
-| Skills | `.claude/skills/` | `.agents/skills/` + `SKILL.md` |
+| Skills | `COMBINED/workspace-config/claude/skills/` | `.agents/skills/` + `SKILL.md` |
 | Configuration | `.claude/settings.json` | `~/.codex/config.toml` |
 | MCP Integration | `.mcp.json` | `config.toml [mcp_servers]` |
 | Agent Types | Task tool with subagent_type | Agents SDK integration |
@@ -169,12 +169,12 @@ claude-flow init --codex
 |---------------------|-------------------|--------------|
 | Project instructions | `CLAUDE.md` | `AGENTS.md` |
 | Local overrides | `CLAUDE.local.md` | `AGENTS.override.md` |
-| Skills directory | `.claude/skills/` | `.agents/skills/` |
+| Skills directory | `COMBINED/workspace-config/claude/skills/` | `.agents/skills/` |
 | Skill format | `skill-name.md` (YAML frontmatter) | `skill-name/SKILL.md` |
 | Settings | `.claude/settings.json` | `.agents/config.toml` |
 | MCP config | `.mcp.json` | `config.toml [mcp_servers]` |
 | Hooks | `settings.json` hooks | Automations |
-| Agent definitions | `.claude/agents/` | Skills with agent-specific SKILL.md |
+| Agent definitions | `COMBINED/workspace-config/claude/agents/` | Skills with agent-specific SKILL.md |
 
 ### Command-Line Interface
 
@@ -375,7 +375,7 @@ sandbox_mode = "read-only"
 5. Wire up `@claude-flow/codex` as dependency
 
 ### Phase 3: Skills Library (Week 4)
-1. Convert all `.claude/skills/` to `.agents/skills/` format
+1. Convert all `COMBINED/workspace-config/claude/skills/` to `.agents/skills/` format
 2. Create skill migration script
 3. Test skill discovery and loading
 4. Publish skills as part of `@claude-flow/codex`

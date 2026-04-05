@@ -18,7 +18,7 @@ python3 "${CLAUDE_PLUGIN_ROOT}/skills/continuous-learning-v2/scripts/instinct-cl
 If `CLAUDE_PLUGIN_ROOT` is unavailable, use:
 
 ```bash
-python3 ~/.claude/skills/continuous-learning-v2/scripts/instinct-cli.py evolve $ARGUMENTS
+python3 ~/COMBINED/workspace-config/claude/skills/continuous-learning-v2/scripts/instinct-cli.py evolve $ARGUMENTS
 ```
 
 ## Supported Args (v2.1)

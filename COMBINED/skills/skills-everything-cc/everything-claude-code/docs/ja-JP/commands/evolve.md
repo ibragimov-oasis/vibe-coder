@@ -17,7 +17,7 @@ python3 "${CLAUDE_PLUGIN_ROOT}/skills/continuous-learning-v2/scripts/instinct-cl
 または`CLAUDE_PLUGIN_ROOT`が設定されていない場合(手動インストール):
 
 ```bash
-python3 ~/.claude/skills/continuous-learning-v2/scripts/instinct-cli.py evolve [--generate]
+python3 ~/COMBINED/workspace-config/claude/skills/continuous-learning-v2/scripts/instinct-cli.py evolve [--generate]
 ```
 
 instinctsを分析し、関連するものを上位レベルの構造にクラスター化します:

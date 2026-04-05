@@ -345,7 +345,7 @@ PMX の場合、以下の E2E テストを優先：
 
 ## 関連エージェント
 
-このコマンドは `~/.claude/agents/e2e-runner.md` の `e2e-runner` エージェントを呼び出します。
+このコマンドは `~/COMBINED/workspace-config/claude/agents/e2e-runner.md` の `e2e-runner` エージェントを呼び出します。
 
 ## 快速命令
 

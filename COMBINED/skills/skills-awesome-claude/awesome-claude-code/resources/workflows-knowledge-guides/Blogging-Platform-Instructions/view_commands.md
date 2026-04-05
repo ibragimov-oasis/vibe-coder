@@ -22,4 +22,4 @@ Here are all the available project commands, organized by category:
 - `/project:site:deploy` - Deploy the site to GitHub Pages
 - `/project:site:find_orphaned_images` - Find unused images in static folder
 
-To get more details about a specific command, look at the corresponding Markdown file in the `.claude/commands/` directory.
+To get more details about a specific command, look at the corresponding Markdown file in the `COMBINED/workspace-config/claude/commands/` directory.

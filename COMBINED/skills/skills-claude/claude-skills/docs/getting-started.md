@@ -124,7 +124,7 @@ Choose your platform and follow the steps:
 
     ```bash
     git clone https://github.com/alirezarezvani/claude-skills.git
-    # Copy any skill folder to ~/.claude/skills/
+    # Copy any skill folder to ~/COMBINED/workspace-config/claude/skills/
     ```
 
 !!! tip "All 7 tools at once"

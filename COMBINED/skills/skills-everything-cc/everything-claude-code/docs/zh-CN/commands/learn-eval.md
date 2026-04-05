@@ -23,8 +23,8 @@ description: "从会话中提取可重用模式，在保存前自我评估质量
 
 3. **确定保存位置：**
    * 提问："这个模式在其他项目中会有用吗？"
-   * **全局** (`~/.claude/skills/learned/`)：可在 2 个以上项目中使用的通用模式（bash 兼容性、LLM API 行为、调试技术等）
-   * **项目** (当前项目中的 `.claude/skills/learned/`)：项目特定的知识（特定配置文件的怪癖、项目特定的架构决策等）
+   * **全局** (`~/COMBINED/workspace-config/claude/skills/learned/`)：可在 2 个以上项目中使用的通用模式（bash 兼容性、LLM API 行为、调试技术等）
+   * **项目** (当前项目中的 `COMBINED/workspace-config/claude/skills/learned/`)：项目特定的知识（特定配置文件的怪癖、项目特定的架构决策等）
    * 不确定时，选择全局（将全局 → 项目移动比反向操作更容易）
 
 4. 使用此格式起草技能文件：
@@ -58,7 +58,7 @@ origin: auto-extracted
 
    在评估草案**之前**，执行以下所有操作：
 
-   * \[ ] 使用关键字在 `~/.claude/skills/` 和相关项目的 `.claude/skills/` 文件中进行 grep 搜索，检查内容重叠
+   * \[ ] 使用关键字在 `~/COMBINED/workspace-config/claude/skills/` 和相关项目的 `COMBINED/workspace-config/claude/skills/` 文件中进行 grep 搜索，检查内容重叠
    * \[ ] 检查 MEMORY.md（项目级和全局级）以查找重叠内容
    * \[ ] 考虑是否追加到现有技能即可满足需求
    * \[ ] 确认这是一个可复用的模式，而非一次性修复

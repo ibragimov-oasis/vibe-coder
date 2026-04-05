@@ -99,11 +99,11 @@ This inventory provides a complete snapshot of the vibe-coder repository before 
 ### 2.5 Tools/ (7 repositories)
 ```
 1. Tools/GitNexus/                     # Codebase knowledge graph
-2. Tools/OpenViking/                   # ByteDance context DB
-3. Tools/browser/                      # Lightpanda browser (9x faster)
-4. Tools/claude-mem/                   # Persistent memory compression
+2. COMBINED/mcp-servers/mcp-openviking/                   # ByteDance context DB
+3. COMBINED/mcp-servers/mcp-lightpanda/                      # Lightpanda browser (9x faster)
+4. COMBINED/memory/memory-claude-mem/                   # Persistent memory compression
 5. Tools/nano-banana-2-mcp/            # Gemini image MCP
-6. Tools/pretext/                      # Text layout
+6. COMBINED/mcp-servers/mcp-pretext/                      # Text layout
 7. Tools/supermemory/                  # #1 benchmark memory engine
 ```
 
@@ -115,7 +115,7 @@ This inventory provides a complete snapshot of the vibe-coder repository before 
 ### 2.6 UI-UX/ (3 repositories)
 ```
 1. UI-UX/galaxy/                       # 3,000+ Uiverse components
-2. UI-UX/ui/                           # shadcn/ui React components
+2. COMBINED/ui-design/ui-components-shadcn/                           # shadcn/ui React components
 3. UI-UX/ui-ux-pro-max-skill/          # 161 rules + 67 styles
 ```
 

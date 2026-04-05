@@ -212,7 +212,7 @@ pm2 monit
 1. 扫描项目服务
 2. 生成 `ecosystem.config.cjs`
 3. 为 Python 服务生成 `{backend}/start.cjs`（如果适用）
-4. 在 `.claude/commands/` 中生成命令文件
+4. 在 `COMBINED/workspace-config/claude/commands/` 中生成命令文件
 5. 在 `.claude/scripts/` 中生成脚本文件
 6. **更新项目 CLAUDE.md**，添加 PM2 信息（见下文）
 7. **显示完成摘要**，包含终端命令

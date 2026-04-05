@@ -251,12 +251,12 @@ Take `best_description` and update the skill's SKILL.md frontmatter.
 
 ## Installation
 
-**Repository only:** Files in `.github/skills/`, `.claude/skills/`, or `.codex/skills/`
+**Repository only:** Files in `.github/skills/`, `COMBINED/workspace-config/claude/skills/`, or `.codex/skills/`
 
 **Global installation:** Create symlinks:
 ```bash
 ln -sf "$SKILLS_REPO/.github/skills/$SKILL_NAME" "$HOME/.copilot/skills/$SKILL_NAME"
-ln -sf "$SKILLS_REPO/.claude/skills/$SKILL_NAME" "$HOME/.claude/skills/$SKILL_NAME"
+ln -sf "$SKILLS_REPO/COMBINED/workspace-config/claude/skills/$SKILL_NAME" "$HOME/COMBINED/workspace-config/claude/skills/$SKILL_NAME"
 ```
 
 **Benefits:** Auto-updates with git pull.

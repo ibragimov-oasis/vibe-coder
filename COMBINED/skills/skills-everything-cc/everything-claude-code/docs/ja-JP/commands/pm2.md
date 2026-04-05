@@ -202,7 +202,7 @@ pm2 monit
 1. プロジェクトのサービスをスキャン
 2. `ecosystem.config.cjs`を生成
 3. Pythonサービス用の`{backend}/start.cjs`を生成(該当する場合)
-4. `.claude/commands/`にコマンドファイルを生成
+4. `COMBINED/workspace-config/claude/commands/`にコマンドファイルを生成
 5. `.claude/scripts/`にスクリプトファイルを生成
 6. **プロジェクトのCLAUDE.md**をPM2情報で更新(下記参照)
 7. ターミナルコマンドを含む**完了サマリーを表示**

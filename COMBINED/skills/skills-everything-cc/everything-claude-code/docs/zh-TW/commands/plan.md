@@ -110,4 +110,4 @@ Agent（planner）：
 ## 相關 Agent
 
 此指令呼叫位於以下位置的 `planner` Agent：
-`~/.claude/agents/planner.md`
+`~/COMBINED/workspace-config/claude/agents/planner.md`

@@ -288,8 +288,8 @@ npx claude-flow@alpha hive-mind spawn \
 - Integration Review: `/docs/AGENTIC_FLOW_INTEGRATION_REVIEW.md`
 
 **Skills:**
-- Swarm Orchestration: `.claude/skills/swarm-orchestration/SKILL.md`
-- Hive Mind Advanced: `.claude/skills/hive-mind-advanced/SKILL.md`
+- Swarm Orchestration: `COMBINED/workspace-config/claude/skills/swarm-orchestration/SKILL.md`
+- Hive Mind Advanced: `COMBINED/workspace-config/claude/skills/hive-mind-advanced/SKILL.md`
 
 **Official Guides:**
 - GitHub: https://github.com/ruvnet/claude-flow

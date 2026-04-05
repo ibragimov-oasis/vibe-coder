@@ -528,7 +528,7 @@ npx ruflo@latest init --dual
 | Feature | Claude Code | OpenAI Codex |
 |---------|-------------|--------------|
 | Config File | `CLAUDE.md` | `AGENTS.md` |
-| Skills Dir | `.claude/skills/` | `.agents/skills/` |
+| Skills Dir | `COMBINED/workspace-config/claude/skills/` | `.agents/skills/` |
 | Skill Syntax | `/skill-name` | `$skill-name` |
 | Settings | `settings.json` | `config.toml` |
 | MCP | Native | Via `codex mcp add` |

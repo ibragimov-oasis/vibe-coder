@@ -329,7 +329,7 @@ Format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 - Update checker clears both cache paths to prevent stale version notifications
 - Statusline migration regex no longer clobbers third-party statuslines
 - Subagent paths use `$HOME` instead of `~` to prevent `MODULE_NOT_FOUND` errors
-- Skill discovery supports both `.claude/skills/` and `.agents/skills/` paths
+- Skill discovery supports both `COMBINED/workspace-config/claude/skills/` and `.agents/skills/` paths
 - `resolve-model` variable names aligned with template placeholders
 - Regex metacharacters properly escaped in `stateExtractField`
 - `model_overrides` and `nyquist_validation` correctly loaded from config
@@ -1048,7 +1048,7 @@ Format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 - Research-phase no longer gatekeeps by domain type
 
 ### Removed
-- Domain expertise feature (`~/.claude/skills/expertise/`) - was personal tooling not available to other users
+- Domain expertise feature (`~/COMBINED/workspace-config/claude/skills/expertise/`) - was personal tooling not available to other users
 
 ## [1.5.8] - 2025-01-15
 

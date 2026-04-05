@@ -160,7 +160,7 @@ tree -L 3 Orchestration/
 # Подсчёт skills
 find Skills/antigravity-awesome-skills/skills/ -type d -mindepth 1 -maxdepth 1 | wc -l
 find Skills/claude-skills/ -name "SKILL.md" | wc -l
-find Skills/awesome-copilot-main/_github/agents/ -name "*.agent.md" | wc -l
+find COMBINED/agents/by-interface/agents-copilot/_github/agents/ -name "*.agent.md" | wc -l
 
 # Категории antigravity
 ls -1 Skills/antigravity-awesome-skills/skills/
@@ -205,7 +205,7 @@ ls -la Tools/
 
 # UI-UX анализ
 find UI-UX/galaxy/ -name "*.html" | wc -l
-find UI-UX/ui/ -name "*.tsx" -o -name "*.jsx" | wc -l
+find COMBINED/ui-design/ui-components-shadcn/ -name "*.tsx" -o -name "*.jsx" | wc -l
 ```
 
 **Результат:** Файлы `COMBINED/prompts_analysis.json`, `COMBINED/tools_analysis.json`, `COMBINED/ui_analysis.json`
@@ -310,9 +310,9 @@ mkdir -p COMBINED/reference
 **Задачи:**
 ```bash
 # 1. Команды
-mv Agents/shannon/.claude/commands/debug.md COMBINED/commands/debug/shannon-debug.md
-mv Agents/shannon/.claude/commands/pr.md COMBINED/commands/review/shannon-pr.md
-mv Agents/shannon/.claude/commands/review.md COMBINED/commands/review/shannon-review.md
+mv Agents/shannon/COMBINED/workspace-config/claude/commands/debug.md COMBINED/commands/debug/shannon-debug.md
+mv Agents/shannon/COMBINED/workspace-config/claude/commands/pr.md COMBINED/commands/review/shannon-pr.md
+mv Agents/shannon/COMBINED/workspace-config/claude/commands/review.md COMBINED/commands/review/shannon-review.md
 
 # 2. Конфиги Claude
 mv Agents/shannon/CLAUDE.md COMBINED/agents/by-interface/claude/shannon-CLAUDE.md
@@ -447,7 +447,7 @@ mv Orchestration/get-shit-done/agents/gsd-roadmapper.md COMBINED/agents/by-role/
 **Awesome Copilot агенты (230+ файлов):**
 ```bash
 # Особый случай - Copilot specific, сохранить структуру
-mv Skills/awesome-copilot-main/_github/agents/ COMBINED/agents/by-interface/copilot/awesome-copilot/
+mv COMBINED/agents/by-interface/agents-copilot/_github/agents/ COMBINED/agents/by-interface/copilot/awesome-copilot/
 mv Skills/awesome-copilot-main/cookbook/ COMBINED/agents/by-interface/copilot/cookbook/
 mv Skills/awesome-copilot-main/instructions/ COMBINED/agents/by-interface/copilot/instructions/
 ```
@@ -726,13 +726,13 @@ ls -la COMBINED/prompts/security/security-shannon/
 
 ```bash
 # Claude-Mem
-mv Tools/claude-mem/ COMBINED/memory/claude-mem/
+mv COMBINED/memory/memory-claude-mem/ COMBINED/memory/claude-mem/
 
 # Supermemory
 mv Tools/supermemory/ COMBINED/memory/supermemory/
 
 # OpenViking
-mv Tools/OpenViking/ COMBINED/memory/openviking/
+mv COMBINED/mcp-servers/mcp-openviking/ COMBINED/memory/openviking/
 
 # Memory configs
 mv MEMORY_SETUP.md COMBINED/memory/configs/MEMORY_SETUP.md
@@ -751,13 +751,13 @@ mv MEMORY_SETUP.md COMBINED/memory/configs/MEMORY_SETUP.md
 mv Tools/GitNexus/ COMBINED/mcp-servers/gitnexus/
 
 # Lightpanda browser
-mv Tools/browser/ COMBINED/mcp-servers/lightpanda/
+mv COMBINED/mcp-servers/mcp-lightpanda/ COMBINED/mcp-servers/lightpanda/
 
 # Nano Banana (Gemini image MCP)
 mv Tools/nano-banana-2-mcp/ COMBINED/mcp-servers/nano-banana/
 
 # Pretext
-mv Tools/pretext/ COMBINED/mcp-servers/pretext/
+mv COMBINED/mcp-servers/mcp-pretext/ COMBINED/mcp-servers/pretext/
 
 # Hermes MCP - уже перемещено в 2.2.3
 
@@ -776,7 +776,7 @@ ls -la COMBINED/mcp-servers/configs/
 mv UI-UX/galaxy/ COMBINED/ui-design/ui-components-galaxy/
 
 # shadcn/ui
-mv UI-UX/ui/ COMBINED/ui-design/ui-components-shadcn/
+mv COMBINED/ui-design/ui-components-shadcn/ COMBINED/ui-design/ui-components-shadcn/
 
 # UI UX Pro Max (161 rules + 67 styles)
 mv UI-UX/ui-ux-pro-max-skill/ COMBINED/ui-design/ui-rules/ui-ux-pro-max/
@@ -1103,7 +1103,7 @@ COMBINED/
   "moved": [
     {
       "id": 1,
-      "source": "Agents/shannon/.claude/commands/debug.md",
+      "source": "Agents/shannon/COMBINED/workspace-config/claude/commands/debug.md",
       "destination": "COMBINED/commands/debug/shannon-debug.md",
       "type": "command",
       "timestamp": "2026-04-02T10:30:00Z",

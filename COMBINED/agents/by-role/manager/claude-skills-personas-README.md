@@ -20,7 +20,7 @@ A **persona** is an agent definition that goes beyond "use these skills." Each p
 
 ### Claude Code
 ```bash
-cp agents/personas/startup-cto.md ~/.claude/agents/
+cp agents/personas/startup-cto.md ~/COMBINED/workspace-config/claude/agents/
 # Then: "Activate startup-cto mode"
 ```
 

@@ -110,4 +110,4 @@ Agent (planner):
 ## 관련 에이전트
 
 이 커맨드는 다음 위치의 `planner` 에이전트를 호출합니다:
-`~/.claude/agents/planner.md`
+`~/COMBINED/workspace-config/claude/agents/planner.md`

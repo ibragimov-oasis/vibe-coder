@@ -736,11 +736,11 @@ For maximum security, you can review the code - it's fully open-source on GitHub
 **Answer:**
 "Absolutely. Agent customization is a first-class feature.
 
-Place custom agent definitions in `~/.claude/agents/{agent-name}.md` and they'll override the defaults.
+Place custom agent definitions in `~/COMBINED/workspace-config/claude/agents/{agent-name}.md` and they'll override the defaults.
 
 For example, if you want a specialized Python testing agent:
 ```markdown
-# ~/.claude/agents/pytest-specialist.md
+# ~/COMBINED/workspace-config/claude/agents/pytest-specialist.md
 You are an expert in pytest and Python testing best practices.
 Focus on: fixtures, parametrization, mocking with pytest-mock.
 ```

@@ -19,7 +19,7 @@ python3 "${CLAUDE_PLUGIN_ROOT}/skills/continuous-learning-v2/scripts/instinct-cl
 または、`CLAUDE_PLUGIN_ROOT` が設定されていない場合（手動インストール）の場合は:
 
 ```bash
-python3 ~/.claude/skills/continuous-learning-v2/scripts/instinct-cli.py status
+python3 ~/COMBINED/workspace-config/claude/skills/continuous-learning-v2/scripts/instinct-cli.py status
 ```
 
 ## 使用方法

@@ -55,7 +55,7 @@ Both coexist. Use task agents for focused work, personas for ongoing collaborati
 
 ### Claude Code
 ```bash
-cp agents/personas/startup-cto.md ~/.claude/agents/
+cp agents/personas/startup-cto.md ~/COMBINED/workspace-config/claude/agents/
 # Then: "Activate startup-cto mode"
 ```
 

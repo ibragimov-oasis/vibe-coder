@@ -1321,7 +1321,7 @@
       },
       "repositories": {
         "claude-mem": {
-          "source": "Tools/claude-mem/",
+          "source": "COMBINED/memory/memory-claude-mem/",
           "combined_location": "COMBINED/memory/claude-mem/",
           "type": "Persistent memory compression system",
           "description": "Memory compression system for Claude Code with context preservation across sessions",
@@ -1365,7 +1365,7 @@
           }
         },
         "OpenViking": {
-          "source": "Tools/OpenViking/",
+          "source": "COMBINED/mcp-servers/mcp-openviking/",
           "combined_location": "COMBINED/memory/openviking/",
           "type": "Context Database for AI Agents",
           "description": "ByteDance context database with filesystem paradigm",
@@ -1409,7 +1409,7 @@
           }
         },
         "browser (lightpanda)": {
-          "source": "Tools/browser/",
+          "source": "COMBINED/mcp-servers/mcp-lightpanda/",
           "combined_location": "COMBINED/mcp-servers/lightpanda/",
           "type": "AI browser (9x faster than Chrome)",
           "description": "Lightpanda browser - 9x faster execution, 16x less memory, instant startup",
@@ -1453,7 +1453,7 @@
           }
         },
         "pretext": {
-          "source": "Tools/pretext/",
+          "source": "COMBINED/mcp-servers/mcp-pretext/",
           "combined_location": "COMBINED/mcp-servers/pretext/",
           "type": "Text layout MCP server",
           "description": "MCP server for text layout and formatting",
@@ -1523,7 +1523,7 @@
           "phase": "2.8",
           "action": "Complete lightpanda browser migration",
           "details": {
-            "source": "Tools/browser/",
+            "source": "COMBINED/mcp-servers/mcp-lightpanda/",
             "destination": "COMBINED/mcp-servers/lightpanda/",
             "method": "MOVE all 55 files preserving structure",
             "files": 55,
@@ -1624,7 +1624,7 @@
           }
         },
         "ui (shadcn)": {
-          "source": "UI-UX/ui/",
+          "source": "COMBINED/ui-design/ui-components-shadcn/",
           "combined_location": "COMBINED/ui-design/ui-components-shadcn/",
           "type": "shadcn/ui React components",
           "description": "Beautifully designed, customizable React components built with Radix UI and Tailwind CSS",
@@ -1730,7 +1730,7 @@
           "phase": "2.9",
           "action": "Complete shadcn/ui migration",
           "details": {
-            "source": "UI-UX/ui/",
+            "source": "COMBINED/ui-design/ui-components-shadcn/",
             "destination": "COMBINED/ui-design/ui-components-shadcn/",
             "method": "MOVE remaining file",
             "files": 1,

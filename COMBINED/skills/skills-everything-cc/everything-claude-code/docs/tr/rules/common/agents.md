@@ -2,7 +2,7 @@
 
 ## Mevcut Agent'lar
 
-`~/.claude/agents/` dizininde bulunur:
+`~/COMBINED/workspace-config/claude/agents/` dizininde bulunur:
 
 | Agent | Amaç | Ne Zaman Kullanılır |
 |-------|---------|-------------|

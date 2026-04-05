@@ -7,8 +7,8 @@ This document defines where generated, imported, and curated skills belong, how 
 | Type | Root Path | Shipped | Provenance |
 |------|-----------|---------|------------|
 | Curated | `skills/` (repo) | Yes | Not required |
-| Learned | `~/.claude/skills/learned/` | No | Required |
-| Imported | `~/.claude/skills/imported/` | No | Required |
+| Learned | `~/COMBINED/workspace-config/claude/skills/learned/` | No | Required |
+| Imported | `~/COMBINED/workspace-config/claude/skills/imported/` | No | Required |
 | Evolved | `~/.claude/homunculus/evolved/skills/` (global) or `projects/<hash>/evolved/skills/` (per-project) | No | Inherits from instinct source |
 
 Curated skills live in the repo under `skills/`. Install manifests reference only curated paths. Generated and imported skills live under the user home directory and are never shipped.
@@ -23,7 +23,7 @@ Location: `skills/<skill-name>/` with `SKILL.md` at root.
 
 ## Learned Skills
 
-Location: `~/.claude/skills/learned/<skill-name>/`.
+Location: `~/COMBINED/workspace-config/claude/skills/learned/<skill-name>/`.
 
 Created by continuous-learning (evaluate-session hook, /learn command). Default path is configurable via `skills/continuous-learning/config.json` → `learned_skills_path`.
 
@@ -33,7 +33,7 @@ Created by continuous-learning (evaluate-session hook, /learn command). Default 
 
 ## Imported Skills
 
-Location: `~/.claude/skills/imported/<skill-name>/`.
+Location: `~/COMBINED/workspace-config/claude/skills/imported/<skill-name>/`.
 
 User-installed skills from external sources (URL, file copy, etc.). No automated importer exists yet; placement is by convention.
 
@@ -83,14 +83,14 @@ Scope: Curated paths only. All `paths` in modules must exist in the repo.
 
 ### Scripts That Use Generated Roots
 
-`scripts/skills-health.js`, `scripts/lib/skill-evolution/health.js`, session hooks: they probe `~/.claude/skills/learned` and `~/.claude/skills/imported`. Missing directories are treated as empty; no errors.
+`scripts/skills-health.js`, `scripts/lib/skill-evolution/health.js`, session hooks: they probe `~/COMBINED/workspace-config/claude/skills/learned` and `~/COMBINED/workspace-config/claude/skills/imported`. Missing directories are treated as empty; no errors.
 
 ## Publishable vs Local-Only
 
 | Publishable | Local-Only |
 |-------------|------------|
-| `skills/*` (curated) | `~/.claude/skills/learned/*` |
-| | `~/.claude/skills/imported/*` |
+| `skills/*` (curated) | `~/COMBINED/workspace-config/claude/skills/learned/*` |
+| | `~/COMBINED/workspace-config/claude/skills/imported/*` |
 | | `~/.claude/homunculus/**/evolved/**` |
 
 Only curated skills appear in install manifests and get copied during install.

@@ -30,7 +30,7 @@ skills/
 ## How to Use Skills
 
 ### Step 1: Make sure skills are installed
-Skills should be in your `.agent/skills/` directory (or `.claude/skills/`, `.gemini/skills/`, etc.)
+Skills should be in your `.agent/skills/` directory (or `COMBINED/workspace-config/claude/skills/`, `.gemini/skills/`, etc.)
 
 ### Step 2: Invoke a skill in your AI chat
 Use the `@` symbol followed by the skill name:

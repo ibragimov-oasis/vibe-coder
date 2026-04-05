@@ -363,8 +363,8 @@ The `COMBINED/` directory was created as a standalone, copy-ready collection of 
 |-----------|----------|--------|-------|
 | `claude/COMBINED_CLAUDE.md` | Master Claude instructions | `.claude/CLAUDE.md` | 1 |
 | `claude/COMBINED_SETTINGS.json` | Settings with hooks, swarm, agents | `.claude/settings.json` | 1 |
-| `claude/COMBINED_COMMANDS/` | All commands (agents, swarm, memory, etc.) | `.claude/commands/` | 182 |
-| `claude/COMBINED_SKILLS/` | All skill packages | `.claude/skills/` | 39 dirs |
+| `claude/COMBINED_COMMANDS/` | All commands (agents, swarm, memory, etc.) | `COMBINED/workspace-config/claude/commands/` | 182 |
+| `claude/COMBINED_SKILLS/` | All skill packages | `COMBINED/workspace-config/claude/skills/` | 39 dirs |
 | `copilot/COMBINED_COPILOT_INSTRUCTIONS.md` | Master Copilot instructions | `.github/copilot-instructions.md` | 1 |
 | `cursor/COMBINED_CURSORRULES` | Master cursor rules | `.cursorrules` | 1 |
 | `cursor/COMBINED_CURSOR_RULES/` | Category-specific rules | `.cursor/rules/` | 1 |

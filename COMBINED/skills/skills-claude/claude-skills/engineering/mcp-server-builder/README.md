@@ -34,7 +34,7 @@ python3 scripts/mcp_validator.py --input generated/tool_manifest.json --strict -
 ### Claude Code
 
 ```bash
-cp -R engineering/mcp-server-builder ~/.claude/skills/mcp-server-builder
+cp -R engineering/mcp-server-builder ~/COMBINED/workspace-config/claude/skills/mcp-server-builder
 ```
 
 ### OpenAI Codex

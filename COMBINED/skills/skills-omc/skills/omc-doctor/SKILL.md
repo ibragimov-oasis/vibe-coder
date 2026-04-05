@@ -86,19 +86,19 @@ Check for legacy agents, commands, and skills installed via curl (before plugin 
 
 ```bash
 # Check for legacy agents directory
-ls -la ~/.claude/agents/ 2>/dev/null
+ls -la ~/COMBINED/workspace-config/claude/agents/ 2>/dev/null
 
 # Check for legacy commands directory
-ls -la ~/.claude/commands/ 2>/dev/null
+ls -la ~/COMBINED/workspace-config/claude/commands/ 2>/dev/null
 
 # Check for legacy skills directory
-ls -la ~/.claude/skills/ 2>/dev/null
+ls -la ~/COMBINED/workspace-config/claude/skills/ 2>/dev/null
 ```
 
 **Diagnosis**:
-- If `~/.claude/agents/` exists with files matching plugin agent names: WARN - legacy agents (now provided by plugin)
-- If `~/.claude/commands/` exists with files matching plugin command names: WARN - legacy commands (now provided by plugin)
-- If `~/.claude/skills/` exists with files matching plugin skill names: WARN - legacy skills (now provided by plugin)
+- If `~/COMBINED/workspace-config/claude/agents/` exists with files matching plugin agent names: WARN - legacy agents (now provided by plugin)
+- If `~/COMBINED/workspace-config/claude/commands/` exists with files matching plugin command names: WARN - legacy commands (now provided by plugin)
+- If `~/COMBINED/workspace-config/claude/skills/` exists with files matching plugin skill names: WARN - legacy skills (now provided by plugin)
 - If custom files exist that do NOT match plugin names: OK - these are user custom content, do not flag them
 
 **Known plugin agent names** (check agents/ for these):
@@ -131,9 +131,9 @@ After running all checks, output a report:
 | Legacy Scripts (~/.claude/hooks/) | OK/WARN | ... |
 | CLAUDE.md | OK/WARN/CRITICAL | ... |
 | Plugin Cache | OK/WARN | ... |
-| Legacy Agents (~/.claude/agents/) | OK/WARN | ... |
-| Legacy Commands (~/.claude/commands/) | OK/WARN | ... |
-| Legacy Skills (~/.claude/skills/) | OK/WARN | ... |
+| Legacy Agents (~/COMBINED/workspace-config/claude/agents/) | OK/WARN | ... |
+| Legacy Commands (~/COMBINED/workspace-config/claude/commands/) | OK/WARN | ... |
+| Legacy Skills (~/COMBINED/workspace-config/claude/skills/) | OK/WARN | ... |
 
 ### Issues Found
 1. [Issue description]

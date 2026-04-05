@@ -772,8 +772,8 @@ RDA_FEMALE = {
 ### 文件位置
 - 数据库: `data/food-database.json`
 - 分类: `data/food-categories.json`
-- 命令: `.claude/commands/nutrition.md`
-- 技能: `.claude/skills/food-database-query/SKILL.md`
+- 命令: `COMBINED/workspace-config/claude/commands/nutrition.md`
+- 技能: `COMBINED/workspace-config/claude/skills/food-database-query/SKILL.md`
 
 ### 性能优化
 - 数据库索引 (食物名称、分类)

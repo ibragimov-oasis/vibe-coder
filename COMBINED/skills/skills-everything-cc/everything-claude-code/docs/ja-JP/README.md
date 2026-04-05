@@ -480,7 +480,7 @@ Duplicate hook file detected: ./hooks/hooks.json is already resolved to a loaded
 git clone https://github.com/affaan-m/everything-claude-code.git
 
 # エージェントを Claude 設定にコピー
-cp everything-claude-code/agents/*.md ~/.claude/agents/
+cp everything-claude-code/agents/*.md ~/COMBINED/workspace-config/claude/agents/
 
 # ルール（共通 + 言語固有）をコピー
 cp -r everything-claude-code/rules/common/* ~/.claude/rules/
@@ -489,10 +489,10 @@ cp -r everything-claude-code/rules/python/* ~/.claude/rules/
 cp -r everything-claude-code/rules/golang/* ~/.claude/rules/
 
 # コマンドをコピー
-cp everything-claude-code/commands/*.md ~/.claude/commands/
+cp everything-claude-code/commands/*.md ~/COMBINED/workspace-config/claude/commands/
 
 # スキルをコピー
-cp -r everything-claude-code/skills/* ~/.claude/skills/
+cp -r everything-claude-code/skills/* ~/COMBINED/workspace-config/claude/skills/
 ```
 
 #### settings.json にフックを追加

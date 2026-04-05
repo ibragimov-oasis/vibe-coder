@@ -26,7 +26,7 @@ Add 5 new MCP tools to the `@claude-flow/cli` package:
 |------|---------|
 | `guidance_capabilities` | List 16 capability areas with tools, commands, agents, skills, and when-to-use guidance |
 | `guidance_recommend` | Task-based routing — given a description, recommend capabilities and workflow template |
-| `guidance_discover` | Live filesystem scan of `.claude/agents/` and `.claude/skills/` |
+| `guidance_discover` | Live filesystem scan of `COMBINED/workspace-config/claude/agents/` and `COMBINED/workspace-config/claude/skills/` |
 | `guidance_workflow` | Step-by-step workflow templates for 15 task types (bugfix, feature, refactor, security, etc.) |
 | `guidance_quickref` | Quick reference cards for 6 operational domains |
 
@@ -76,5 +76,5 @@ Changes:
 - `v3/@claude-flow/cli/src/mcp-client.ts` — register guidance tools
 - `v3/@claude-flow/cli/src/mcp-server.ts` — PID self-detection + reuse guard + legacy cleanup
 - `v3/@claude-flow/cli/src/init/executor.ts` — stop counting .yaml files
-- `.claude/agents/**/*.md` — 100+ files standardized
-- `.claude/skills/**/SKILL.md` — 17 files standardized
+- `COMBINED/workspace-config/claude/agents/**/*.md` — 100+ files standardized
+- `COMBINED/workspace-config/claude/skills/**/SKILL.md` — 17 files standardized

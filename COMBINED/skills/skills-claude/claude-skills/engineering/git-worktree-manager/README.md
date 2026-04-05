@@ -35,7 +35,7 @@ Both support `--input <json-file>` and stdin JSON for automation.
 ### Claude Code
 
 ```bash
-cp -R engineering/git-worktree-manager ~/.claude/skills/git-worktree-manager
+cp -R engineering/git-worktree-manager ~/COMBINED/workspace-config/claude/skills/git-worktree-manager
 ```
 
 ### OpenAI Codex

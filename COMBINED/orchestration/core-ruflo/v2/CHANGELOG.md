@@ -974,7 +974,7 @@ $ npx claude-flow@2.7.8 mcp start
 
 ### 📦 Distribution
 
-- ✅ All 6 AgentDB skills included in `.claude/skills/` directory
+- ✅ All 6 AgentDB skills included in `COMBINED/workspace-config/claude/skills/` directory
 - ✅ Skills distributed with npm package via `.claude/` in files array
 - ✅ Total: ~2,520 lines of comprehensive documentation
 - ✅ All skills follow skill-builder specification with proper YAML frontmatter
@@ -1006,7 +1006,7 @@ $ npx claude-flow@2.7.8 mcp start
   - Skills now copy correctly from npm package installations (global and local)
   - All 21 built-in skills properly initialize during `npx claude-flow init`
   - Tested and verified in Docker environment
-  - Resolves issue where `.claude/skills/` directory remained empty after init
+  - Resolves issue where `COMBINED/workspace-config/claude/skills/` directory remained empty after init
 
 #### **Statusline Script Creation**
 - **Fixed**: Statusline script creation with proper bash variable escaping and missing imports
@@ -1051,28 +1051,28 @@ $ npx claude-flow@2.7.8 mcp start
 
 - **New**: `docs/COMMANDS_TO_SKILLS_MIGRATION.md` - Migration guide from commands to skills
 - **New**: `docs/FINAL_INIT_STRUCTURE.md` - Complete init system documentation
-- **New**: `.claude/skills/` directory structure for project skills
+- **New**: `COMBINED/workspace-config/claude/skills/` directory structure for project skills
 - **New**: `bin/init/skills-copier.js` - Automated skills installation
 
 #### **Init System Enhancements**
-- **Skills Integration**: `npx claude-flow init` now copies 21 built-in skills to `.claude/skills/`
+- **Skills Integration**: `npx claude-flow init` now copies 21 built-in skills to `COMBINED/workspace-config/claude/skills/`
 - **Folder Structure**: Organized `bin/init/` with separate help and skills modules
 - **Auto-Setup**: Skills automatically available after init command
 
 ### 🔄 Changes
 
 #### **Commands → Skills Migration**
-- **Removed**: 68 command files from `.claude/commands/` (migrated to skills)
+- **Removed**: 68 command files from `COMBINED/workspace-config/claude/commands/` (migrated to skills)
   - Deleted: analysis, flow-nexus, github, hive-mind, hooks, memory, pair, sparc, stream-chain, swarm, truth, verify commands
   - **Reason**: Commands are now integrated as skills via MCP server (more efficient, better discovery)
 
 - **Migration Path**: All functionality preserved in skills system
-  - Old: `.claude/commands/swarm/research.md`
+  - Old: `COMBINED/workspace-config/claude/commands/swarm/research.md`
   - New: `swarm-orchestration` skill (auto-discovered)
 
 ### 📚 Documentation Updates
 
-- **Updated**: `.gitignore` to exclude `.claude/skills/` from version control
+- **Updated**: `.gitignore` to exclude `COMBINED/workspace-config/claude/skills/` from version control
 - **Updated**: `README.md` references to skills system
 - **Updated**: Integration guide for claude-flow + agentic-flow
 
@@ -1080,8 +1080,8 @@ $ npx claude-flow@2.7.8 mcp start
 
 **Skills Discovery Flow:**
 ```
-1. Personal Skills (~/.claude/skills/) - User custom skills
-2. Project Skills (.claude/skills/) - Team shared skills
+1. Personal Skills (~/COMBINED/workspace-config/claude/skills/) - User custom skills
+2. Project Skills (COMBINED/workspace-config/claude/skills/) - Team shared skills
 3. Built-In Skills (MCP server) - 21 pre-configured skills
 4. Skill Activation - Claude matches description → loads content
 ```
@@ -1115,19 +1115,19 @@ Claude Code
 3. `bin/init/index.js` - Added skills copier integration
 4. `bin/init/skills-copier.js` - New: Skills installation module
 5. `src/cli/simple-commands/init/index.js` - Updated init command
-6. `.gitignore` - Added `.claude/skills/` exclusion
+6. `.gitignore` - Added `COMBINED/workspace-config/claude/skills/` exclusion
 
 **New Files:**
 - `docs/skills/skills-tutorial.md` (3000+ lines comprehensive guide)
 - `docs/COMMANDS_TO_SKILLS_MIGRATION.md`
 - `docs/FINAL_INIT_STRUCTURE.md`
-- `.claude/skills/` directory structure
+- `COMBINED/workspace-config/claude/skills/` directory structure
 - `bin/init/skills-copier.js`
 - `.claude/settings.reasoningbank-example.json`
 - `.claude/settings.reasoningbank-minimal.json`
 
 **Removed Files:**
-- 68 command files from `.claude/commands/` (migrated to skills)
+- 68 command files from `COMBINED/workspace-config/claude/commands/` (migrated to skills)
 
 ### 🚀 Usage
 
@@ -1160,7 +1160,7 @@ Claude (automatically):
 
 **For Existing Users:**
 1. Update to alpha.11: `npm install -g claude-flow@alpha`
-2. Run init: `npx claude-flow init` (copies skills to `.claude/skills/`)
+2. Run init: `npx claude-flow init` (copies skills to `COMBINED/workspace-config/claude/skills/`)
 3. MCP server: `claude mcp add claude-flow npx claude-flow@alpha mcp start`
 4. Skills activate automatically - no code changes needed!
 
@@ -1168,7 +1168,7 @@ Claude (automatically):
 - None - old commands removed but functionality preserved in skills
 
 **Deprecations:**
-- `.claude/commands/` - Use skills system instead
+- `COMBINED/workspace-config/claude/commands/` - Use skills system instead
 
 ---
 
@@ -1331,7 +1331,7 @@ All existing commands continue to work as before, but now return correct results
 
 ### 🗑️ Removed
 - **Sublinear-time-solver Integration**: Removed sublinear-time-solver MCP server from initialization
-  - Deleted `.claude/agents/sublinear/` folder creation during init
+  - Deleted `COMBINED/workspace-config/claude/agents/sublinear/` folder creation during init
   - Removed `--sublinear` flag from init command
   - Removed sublinear MCP server setup and configuration
   - Simplified initialization to focus on core MCP servers (claude-flow, ruv-swarm, flow-nexus)
@@ -1371,7 +1371,7 @@ All existing commands continue to work as before, but now return correct results
 - **Clearer Instructions**: Simplified documentation to reflect the streamlined initialization process
 
 ### 🔧 Technical Details
-- Both commands now create only the agent markdown file in `.claude/agents/[module]/`
+- Both commands now create only the agent markdown file in `COMBINED/workspace-config/claude/agents/[module]/`
 - Configuration is built into the agent definitions themselves
 - Reduced file clutter while maintaining full functionality
 
@@ -1460,9 +1460,9 @@ All existing commands continue to work as before, but now return correct results
 
 #### Complete Command File Generation
 - **Fixed Init Command**: Now creates ALL 91 command documentation files
-  - 10 swarm command files in `.claude/commands/swarm/`
-  - 12 hive-mind command files in `.claude/commands/hive-mind/`
-  - 5 agents documentation files in `.claude/commands/agents/`
+  - 10 swarm command files in `COMBINED/workspace-config/claude/commands/swarm/`
+  - 12 hive-mind command files in `COMBINED/workspace-config/claude/commands/hive-mind/`
+  - 5 agents documentation files in `COMBINED/workspace-config/claude/commands/agents/`
   - All standard command documentation properly organized
 
 - **Enhanced Template Structure**: Updated `enhanced-templates.js`
@@ -1718,7 +1718,7 @@ npm install -g claude-flow@alpha
   - **Pattern Suggestions**: Design pattern recommendations
 
 #### 📚 Command Documentation System
-- **Complete Documentation Structure**: Created comprehensive docs in `.claude/commands/`
+- **Complete Documentation Structure**: Created comprehensive docs in `COMBINED/workspace-config/claude/commands/`
   - **Stream Chain Documentation** (`/stream-chain/`):
     - `README.md` - Overview with background execution integration
     - `pipeline.md` - Predefined pipeline documentation
@@ -1836,7 +1836,7 @@ npm install -g claude-flow@alpha
 ### 📚 Documentation
 
 #### New Documentation
-- **Command Documentation System**: Complete docs in `.claude/commands/`
+- **Command Documentation System**: Complete docs in `COMBINED/workspace-config/claude/commands/`
   - Stream chain with background execution integration
   - Pair programming with 7 comprehensive guides
   - Verification system documentation
@@ -1903,18 +1903,18 @@ npm install -g claude-flow@alpha
 - `/claude-flow-wiki/Stream-Chain-Command.md` - Wiki documentation
 - `/docs/training-pipeline-real-only.md` - Real training documentation
 - `/performance-validation.md` - Performance validation report
-- `.claude/commands/stream-chain/README.md` - Stream chain main documentation
-- `.claude/commands/stream-chain/pipeline.md` - Pipeline documentation
-- `.claude/commands/stream-chain/run.md` - Run command documentation
-- `.claude/commands/pair/README.md` - Pair programming overview
-- `.claude/commands/pair/start.md` - Starting sessions guide
-- `.claude/commands/pair/modes.md` - Collaboration modes guide
-- `.claude/commands/pair/session.md` - Session management guide
-- `.claude/commands/pair/config.md` - Configuration reference
-- `.claude/commands/pair/commands.md` - Command reference
-- `.claude/commands/pair/examples.md` - Real-world examples
-- `.claude/commands/verify/README.md` - Verification documentation
-- `.claude/commands/truth/README.md` - Truth metrics documentation
+- `COMBINED/workspace-config/claude/commands/stream-chain/README.md` - Stream chain main documentation
+- `COMBINED/workspace-config/claude/commands/stream-chain/pipeline.md` - Pipeline documentation
+- `COMBINED/workspace-config/claude/commands/stream-chain/run.md` - Run command documentation
+- `COMBINED/workspace-config/claude/commands/pair/README.md` - Pair programming overview
+- `COMBINED/workspace-config/claude/commands/pair/start.md` - Starting sessions guide
+- `COMBINED/workspace-config/claude/commands/pair/modes.md` - Collaboration modes guide
+- `COMBINED/workspace-config/claude/commands/pair/session.md` - Session management guide
+- `COMBINED/workspace-config/claude/commands/pair/config.md` - Configuration reference
+- `COMBINED/workspace-config/claude/commands/pair/commands.md` - Command reference
+- `COMBINED/workspace-config/claude/commands/pair/examples.md` - Real-world examples
+- `COMBINED/workspace-config/claude/commands/verify/README.md` - Verification documentation
+- `COMBINED/workspace-config/claude/commands/truth/README.md` - Truth metrics documentation
 
 #### Modified Files
 - `/src/cli/command-registry.js` - Updated pair command to use new pair.js
@@ -2187,7 +2187,7 @@ npm install -g claude-flow@alpha
 ## [2.0.0-alpha.78] - 2025-01-28
 
 ### 🚀 Features
-- **Agent System Fix**: Dynamic loading from .claude/agents/ (#485)
+- **Agent System Fix**: Dynamic loading from COMBINED/workspace-config/claude/agents/ (#485)
 - **SPARC Experience**: Cleaned up legacy warnings
 - **GitHub Safe Utilities**: Added timeout protection (#514)
 
@@ -2339,7 +2339,7 @@ npm install -g claude-flow@alpha
 - **SPARC Integration**: Made SPARC included by default in v2.0.0 flow
 
 ### 🛠️ Improvements
-- Updated all 18 SPARC command files in .claude/commands/sparc/ with MCP/NPX fallback
+- Updated all 18 SPARC command files in COMBINED/workspace-config/claude/commands/sparc/ with MCP/NPX fallback
 - Updated 5 swarm strategy files with MCP/NPX patterns
 - Enhanced init command to create complete environment with 113 files
 - Fixed copyRevisedTemplates to include SPARC files
@@ -2567,7 +2567,7 @@ npm install -g claude-flow@alpha
 - **WASM-powered neural processing** with SIMD optimization support
 
 #### **GitHub Workflow Automation**
-- **6 specialized command modes** in `.claude/commands/github/`:
+- **6 specialized command modes** in `COMBINED/workspace-config/claude/commands/github/`:
   - `pr-manager`: Automated pull request management with swarm coordination
   - `issue-tracker`: Intelligent issue management and progress tracking
   - `sync-coordinator`: Cross-package synchronization and version alignment
@@ -2627,7 +2627,7 @@ npm install -g claude-flow@alpha
 - **Improved code examples** and usage documentation
 
 #### **Configuration**
-- **New `.claude/commands/github/` directory** structure for GitHub workflow commands
+- **New `COMBINED/workspace-config/claude/commands/github/` directory** structure for GitHub workflow commands
 - **Enhanced npm publishing** configuration with automated workflows
 - **Improved package metadata** for better npm registry presentation
 - **Updated build targets** for Node.js 20+ compatibility
@@ -2758,7 +2758,7 @@ npm install -g claude-flow@alpha
 
 #### Command Structure
 - **All commands** now support swarm coordination
-- **New GitHub commands** available in `.claude/commands/github/`
+- **New GitHub commands** available in `COMBINED/workspace-config/claude/commands/github/`
 - **Enhanced error handling** may change error message formats
 - **Existing commands** remain backward compatible
 
@@ -2768,7 +2768,7 @@ npm install -g claude-flow@alpha
 - **Node.js 20+** is required for optimal performance
 
 #### Configuration
-- **New configuration files** in `.claude/commands/github/`
+- **New configuration files** in `COMBINED/workspace-config/claude/commands/github/`
 - **Enhanced MCP integration** requires ruv-swarm setup
 - **Updated package metadata** for npm publishing
 

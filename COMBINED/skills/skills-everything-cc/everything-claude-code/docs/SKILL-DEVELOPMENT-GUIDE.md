@@ -577,7 +577,7 @@ description: Quick reference for [API/Library].
 
 1. **Copy to Claude Code skills directory**:
    ```bash
-   cp -r skills/your-skill-name ~/.claude/skills/
+   cp -r skills/your-skill-name ~/COMBINED/workspace-config/claude/skills/
    ```
 
 2. **Test with Claude Code**:

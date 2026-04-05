@@ -134,7 +134,7 @@
     "enterprise-controls"
   ],
   "managedFiles": [
-    ".claude/skills/everything-claude-code/SKILL.md",
+    "COMBINED/workspace-config/claude/skills/everything-claude-code/SKILL.md",
     ".agents/skills/everything-claude-code/SKILL.md",
     ".agents/skills/everything-claude-code/agents/openai.yaml",
     ".claude/identity.json",
@@ -148,13 +148,13 @@
     ".claude/research/everything-claude-code-research-playbook.md",
     ".claude/team/everything-claude-code-team-config.json",
     ".claude/enterprise/controls.md",
-    ".claude/commands/database-migration.md",
-    ".claude/commands/feature-development.md",
-    ".claude/commands/add-language-rules.md"
+    "COMBINED/workspace-config/claude/commands/database-migration.md",
+    "COMBINED/workspace-config/claude/commands/feature-development.md",
+    "COMBINED/workspace-config/claude/commands/add-language-rules.md"
   ],
   "packageFiles": {
     "runtime-core": [
-      ".claude/skills/everything-claude-code/SKILL.md",
+      "COMBINED/workspace-config/claude/skills/everything-claude-code/SKILL.md",
       ".agents/skills/everything-claude-code/SKILL.md",
       ".agents/skills/everything-claude-code/agents/openai.yaml",
       ".claude/identity.json",
@@ -178,14 +178,14 @@
       ".claude/enterprise/controls.md"
     ],
     "workflow-pack": [
-      ".claude/commands/database-migration.md",
-      ".claude/commands/feature-development.md",
-      ".claude/commands/add-language-rules.md"
+      "COMBINED/workspace-config/claude/commands/database-migration.md",
+      "COMBINED/workspace-config/claude/commands/feature-development.md",
+      "COMBINED/workspace-config/claude/commands/add-language-rules.md"
     ]
   },
   "moduleFiles": {
     "runtime-core": [
-      ".claude/skills/everything-claude-code/SKILL.md",
+      "COMBINED/workspace-config/claude/skills/everything-claude-code/SKILL.md",
       ".agents/skills/everything-claude-code/SKILL.md",
       ".agents/skills/everything-claude-code/agents/openai.yaml",
       ".claude/identity.json",
@@ -209,15 +209,15 @@
       ".claude/enterprise/controls.md"
     ],
     "workflow-pack": [
-      ".claude/commands/database-migration.md",
-      ".claude/commands/feature-development.md",
-      ".claude/commands/add-language-rules.md"
+      "COMBINED/workspace-config/claude/commands/database-migration.md",
+      "COMBINED/workspace-config/claude/commands/feature-development.md",
+      "COMBINED/workspace-config/claude/commands/add-language-rules.md"
     ]
   },
   "files": [
     {
       "moduleId": "runtime-core",
-      "path": ".claude/skills/everything-claude-code/SKILL.md",
+      "path": "COMBINED/workspace-config/claude/skills/everything-claude-code/SKILL.md",
       "description": "Repository-specific Claude Code skill generated from git history."
     },
     {
@@ -287,42 +287,42 @@
     },
     {
       "moduleId": "workflow-pack",
-      "path": ".claude/commands/database-migration.md",
+      "path": "COMBINED/workspace-config/claude/commands/database-migration.md",
       "description": "Workflow command scaffold for database-migration."
     },
     {
       "moduleId": "workflow-pack",
-      "path": ".claude/commands/feature-development.md",
+      "path": "COMBINED/workspace-config/claude/commands/feature-development.md",
       "description": "Workflow command scaffold for feature-development."
     },
     {
       "moduleId": "workflow-pack",
-      "path": ".claude/commands/add-language-rules.md",
+      "path": "COMBINED/workspace-config/claude/commands/add-language-rules.md",
       "description": "Workflow command scaffold for add-language-rules."
     }
   ],
   "workflows": [
     {
       "command": "database-migration",
-      "path": ".claude/commands/database-migration.md"
+      "path": "COMBINED/workspace-config/claude/commands/database-migration.md"
     },
     {
       "command": "feature-development",
-      "path": ".claude/commands/feature-development.md"
+      "path": "COMBINED/workspace-config/claude/commands/feature-development.md"
     },
     {
       "command": "add-language-rules",
-      "path": ".claude/commands/add-language-rules.md"
+      "path": "COMBINED/workspace-config/claude/commands/add-language-rules.md"
     }
   ],
   "adapters": {
     "claudeCode": {
-      "skillPath": ".claude/skills/everything-claude-code/SKILL.md",
+      "skillPath": "COMBINED/workspace-config/claude/skills/everything-claude-code/SKILL.md",
       "identityPath": ".claude/identity.json",
       "commandPaths": [
-        ".claude/commands/database-migration.md",
-        ".claude/commands/feature-development.md",
-        ".claude/commands/add-language-rules.md"
+        "COMBINED/workspace-config/claude/commands/database-migration.md",
+        "COMBINED/workspace-config/claude/commands/feature-development.md",
+        "COMBINED/workspace-config/claude/commands/add-language-rules.md"
       ]
     },
     "codex": {

@@ -134,7 +134,7 @@ The installer CLI is the recommended path for most users because it performs a l
 
 **Tool-specific paths:**
 
-- Claude Code: `.claude/skills/`
+- Claude Code: `COMBINED/workspace-config/claude/skills/`
 - Gemini CLI: `.gemini/skills/`
 - Codex CLI: `.codex/skills/`
 - Cursor: `.cursor/skills/` or project root

@@ -135,7 +135,7 @@ Single source in `config.json`:
 
 #### Before (v2)
 ```
-.claude/agents/
+COMBINED/workspace-config/claude/agents/
 ├── consensus/
 ├── core/
 ├── devops/
@@ -155,7 +155,7 @@ Single source in `config.json`:
 
 #### After (v3)
 ```
-.claude/agents/
+COMBINED/workspace-config/claude/agents/
 ├── core/           # Essential: coder, tester, reviewer, researcher, planner
 ├── orchestration/  # All coordinators consolidated
 ├── platform/       # github, flow-nexus, devops

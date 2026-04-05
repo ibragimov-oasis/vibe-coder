@@ -24,8 +24,8 @@ PROJECT=~/your-project
 mkdir -p $PROJECT/.claude/commands $PROJECT/.claude/skills
 cp vibe-coder/COMBINED/claude/COMBINED_CLAUDE.md $PROJECT/.claude/CLAUDE.md
 cp vibe-coder/COMBINED/claude/COMBINED_SETTINGS.json $PROJECT/.claude/settings.json
-cp -r vibe-coder/COMBINED/claude/COMBINED_COMMANDS/* $PROJECT/.claude/commands/
-cp -r vibe-coder/COMBINED/claude/COMBINED_SKILLS/* $PROJECT/.claude/skills/
+cp -r vibe-coder/COMBINED/claude/COMBINED_COMMANDS/* $PROJECT/COMBINED/workspace-config/claude/commands/
+cp -r vibe-coder/COMBINED/claude/COMBINED_SKILLS/* $PROJECT/COMBINED/workspace-config/claude/skills/
 
 # GitHub Copilot
 mkdir -p $PROJECT/.github
@@ -56,8 +56,8 @@ cp vibe-coder/COMBINED/ui/COMBINED_DESIGN_SYSTEM.md $PROJECT/DESIGN_SYSTEM.md
 PROJECT=~/your-project
 mkdir -p $PROJECT/.claude/commands $PROJECT/.claude/skills
 cp vibe-coder/COMBINED/claude/COMBINED_CLAUDE.md $PROJECT/.claude/CLAUDE.md
-cp -r vibe-coder/COMBINED/claude/COMBINED_COMMANDS/* $PROJECT/.claude/commands/
-cp -r vibe-coder/COMBINED/claude/COMBINED_SKILLS/* $PROJECT/.claude/skills/
+cp -r vibe-coder/COMBINED/claude/COMBINED_COMMANDS/* $PROJECT/COMBINED/workspace-config/claude/commands/
+cp -r vibe-coder/COMBINED/claude/COMBINED_SKILLS/* $PROJECT/COMBINED/workspace-config/claude/skills/
 ```
 
 #### GitHub Copilot Only

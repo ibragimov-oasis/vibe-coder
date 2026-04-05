@@ -48,7 +48,7 @@ Successfully analyzed ReasoningBank tools and created comprehensive documentatio
 - 📈 Best practices for memory organization
 
 #### C. Example Reasoning Agent Template
-**Location**: `.claude/agents/reasoning/example-reasoning-agent-template.md`
+**Location**: `COMBINED/workspace-config/claude/agents/reasoning/example-reasoning-agent-template.md`
 
 **Contents**:
 - Complete template structure for custom agents
@@ -296,7 +296,7 @@ REASONINGBANK_DELTA=0.3
 ### Created Files
 1. `/workspaces/claude-code-flow/docs/REASONINGBANK-AGENT-CREATION-GUIDE.md` (60KB)
 2. `/workspaces/claude-code-flow/docs/AGENTIC-FLOW-INTEGRATION-GUIDE.md` (55KB)
-3. `/workspaces/claude-code-flow/.claude/agents/reasoning/example-reasoning-agent-template.md` (10KB)
+3. `/workspaces/claude-code-flow/COMBINED/workspace-config/claude/agents/reasoning/example-reasoning-agent-template.md` (10KB)
 4. `/workspaces/claude-code-flow/docs/REASONINGBANK-ANALYSIS-COMPLETE.md` (this file)
 
 ### Files Analyzed
@@ -305,8 +305,8 @@ REASONINGBANK_DELTA=0.3
 3. `/workspaces/claude-code-flow/node_modules/agentic-flow/dist/reasoningbank/core/retrieve.js`
 4. `/workspaces/claude-code-flow/node_modules/agentic-flow/dist/reasoningbank/core/judge.js`
 5. `/workspaces/claude-code-flow/node_modules/agentic-flow/dist/reasoningbank/core/distill.js`
-6. `/workspaces/claude-code-flow/.claude/agents/reasoning/README.md`
-7. `/workspaces/claude-code-flow/.claude/agents/reasoning/goal-planner.md`
+6. `/workspaces/claude-code-flow/COMBINED/workspace-config/claude/agents/reasoning/README.md`
+7. `/workspaces/claude-code-flow/COMBINED/workspace-config/claude/agents/reasoning/goal-planner.md`
 
 ### Demo Executed
 - `/tmp/reasoningbank-analysis/.swarm/memory.db` (created)
@@ -329,8 +329,8 @@ claude-flow agent memory status
 ### Build Custom Reasoning Agent
 ```bash
 # 1. Copy the template
-cp .claude/agents/reasoning/example-reasoning-agent-template.md \
-   .claude/agents/custom/my-reasoning-agent.md
+cp COMBINED/workspace-config/claude/agents/reasoning/example-reasoning-agent-template.md \
+   COMBINED/workspace-config/claude/agents/custom/my-reasoning-agent.md
 
 # 2. Customize the template
 # Edit: name, description, domains, capabilities
@@ -398,11 +398,11 @@ claude-flow agent run coder "Build feature C" --enable-memory --memory-k 10
 ### For Users
 - **Start here**: `docs/AGENTIC-FLOW-INTEGRATION-GUIDE.md`
 - **Quick reference**: `claude-flow agent --help`
-- **Reasoning agents**: `.claude/agents/reasoning/README.md`
+- **Reasoning agents**: `COMBINED/workspace-config/claude/agents/reasoning/README.md`
 
 ### For Developers
 - **Create agents**: `docs/REASONINGBANK-AGENT-CREATION-GUIDE.md`
-- **Template**: `.claude/agents/reasoning/example-reasoning-agent-template.md`
+- **Template**: `COMBINED/workspace-config/claude/agents/reasoning/example-reasoning-agent-template.md`
 - **API reference**: `node_modules/agentic-flow/dist/reasoningbank/index.js`
 
 ### For Advanced Users
@@ -444,10 +444,10 @@ claude-flow agent run coder "Build feature C" --enable-memory --memory-k 10
 ### Created Documentation
 - Agent Creation Guide: `docs/REASONINGBANK-AGENT-CREATION-GUIDE.md`
 - Integration Guide: `docs/AGENTIC-FLOW-INTEGRATION-GUIDE.md`
-- Example Template: `.claude/agents/reasoning/example-reasoning-agent-template.md`
+- Example Template: `COMBINED/workspace-config/claude/agents/reasoning/example-reasoning-agent-template.md`
 
 ### Existing Documentation
-- Reasoning Agents: `.claude/agents/reasoning/README.md`
+- Reasoning Agents: `COMBINED/workspace-config/claude/agents/reasoning/README.md`
 - Init Command: `src/cli/simple-commands/init/index.js` (lines 1698-1742)
 - Agent Command: `src/cli/simple-commands/agent.js` (1250 lines)
 

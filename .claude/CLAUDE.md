@@ -24,18 +24,30 @@ This repository is the **Vibe-Coder Arsenal** — a comprehensive toolkit contai
 
 ```
 vibe-coder/
-├── .claude/                 # ← You are here (Claude Code config)
+├── .claude/                 # ← You are here (moved to COMBINED/workspace-config/claude/)
 ├── .github/                 # GitHub Copilot config
-├── .cursor/                 # Cursor AI config
-├── .antigravity/            # Antigravity plugin config
-├── Agents/                  # Background Agents, Hermes, Shannon
-├── Orchestration/           # RuFlo, DeerFlow, GSD, OMC, Superpowers
-├── Prompts/                 # prompts.chat, system prompts, templates
-├── Reference/               # Awesome Self-Hosted
-├── Skills/                  # All skill libraries
-├── Tools/                   # GitNexus, Browser, Claude-Mem, etc.
-├── UI-UX/                   # Galaxy, shadcn/ui, UI UX Pro Max
-└── _combined/               # Combined assets
+├── .cursor/                 # Cursor AI config (moved to COMBINED/workspace-config/cursor/)
+├── .antigravity/            # Antigravity plugin config (moved to COMBINED/workspace-config/antigravity/)
+├── Agents/                  # Background Agents, Hermes, Shannon (originals)
+├── Orchestration/           # RuFlo, DeerFlow, GSD, OMC, Superpowers (originals)
+├── Prompts/                 # prompts.chat, system prompts, templates (originals)
+├── Reference/               # Awesome Self-Hosted (originals)
+├── Skills/                  # All skill libraries (originals)
+├── Tools/                   # GitNexus, Browser, Claude-Mem, etc. (originals)
+├── UI-UX/                   # Galaxy, shadcn/ui, UI UX Pro Max (originals)
+└── COMBINED/                # ← All combined/organized content here
+    ├── workspace-config/    # IDE configurations (.claude, .cursor, .antigravity)
+    ├── agents/              # 336+ agents (by-role, by-interface, source-specific)
+    ├── skills/              # 1,500+ skills (skills-ruflo, skills-claude, etc.)
+    ├── commands/            # 67+ commands
+    ├── hooks/               # 40+ hooks
+    ├── orchestration/       # 7 core systems
+    ├── prompts/             # 2,500+ prompts
+    ├── memory/              # Memory systems
+    ├── mcp-servers/         # 7+ MCP servers
+    ├── ui-design/           # 3,000+ UI components
+    ├── security/            # Shannon pentester
+    └── reference/           # Reference documentation
 ```
 
 ---

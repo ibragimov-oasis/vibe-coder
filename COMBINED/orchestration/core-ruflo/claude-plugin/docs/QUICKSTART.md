@@ -285,7 +285,7 @@ Expected: 40+ tools including:
 bash scripts/verify.sh
 
 # Check commands directory
-ls ~/.claude/commands/
+ls ~/COMBINED/workspace-config/claude/commands/
 
 # Restart Claude Code
 ```
@@ -307,10 +307,10 @@ npm install -g claude-flow@alpha
 
 ```bash
 # Check agents directory
-ls ~/.claude/agents/
+ls ~/COMBINED/workspace-config/claude/agents/
 
 # Verify permissions
-chmod -R 755 ~/.claude/agents/
+chmod -R 755 ~/COMBINED/workspace-config/claude/agents/
 
 # Restart Claude Code
 ```
@@ -319,7 +319,7 @@ chmod -R 755 ~/.claude/agents/
 
 ## 🎓 Next Steps
 
-1. **Explore Commands**: Browse `~/.claude/commands/` for all 150+ commands
+1. **Explore Commands**: Browse `~/COMBINED/workspace-config/claude/commands/` for all 150+ commands
 2. **Try Agents**: Experiment with different specialized agents
 3. **Read User Guide**: `docs/USER_GUIDE.md` for detailed documentation
 4. **Check Examples**: `docs/EXAMPLES.md` for real-world usage

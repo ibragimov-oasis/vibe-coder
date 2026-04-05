@@ -33,7 +33,7 @@
 
 ## 输出格式
 
-在 `~/.claude/skills/learned/[pattern-name].md` 创建一个技能文件：
+在 `~/COMBINED/workspace-config/claude/skills/learned/[pattern-name].md` 创建一个技能文件：
 
 ```markdown
 # [Descriptive Pattern Name]
@@ -60,7 +60,7 @@
 2. 识别最有价值/可重用的见解
 3. 起草技能文件
 4. 在保存前请用户确认
-5. 保存到 `~/.claude/skills/learned/`
+5. 保存到 `~/COMBINED/workspace-config/claude/skills/learned/`
 
 ## 注意事项
 

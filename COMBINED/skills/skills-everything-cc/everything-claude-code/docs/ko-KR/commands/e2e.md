@@ -309,7 +309,7 @@ CI 파이프라인에 추가:
 ## 관련 에이전트
 
 이 커맨드는 `e2e-runner` 에이전트를 호출합니다:
-`~/.claude/agents/e2e-runner.md`
+`~/COMBINED/workspace-config/claude/agents/e2e-runner.md`
 
 ## 빠른 커맨드
 

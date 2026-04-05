@@ -43,7 +43,7 @@
 
 ## 可用代理
 
-位于 `~/.claude/agents/`：
+位于 `~/COMBINED/workspace-config/claude/agents/`：
 
 | 代理 | 目的 |
 |-------|---------|

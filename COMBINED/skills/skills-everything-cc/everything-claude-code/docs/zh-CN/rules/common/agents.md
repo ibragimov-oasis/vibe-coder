@@ -2,7 +2,7 @@
 
 ## 可用智能体
 
-位于 `~/.claude/agents/` 中：
+位于 `~/COMBINED/workspace-config/claude/agents/` 中：
 
 | 代理 | 用途 | 使用时机 |
 |-------|---------|-------------|

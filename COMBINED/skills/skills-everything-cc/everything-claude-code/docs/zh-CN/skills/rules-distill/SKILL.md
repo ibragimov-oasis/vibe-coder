@@ -25,13 +25,13 @@ origin: ECC
 #### 1a. 收集技能清单
 
 ```bash
-bash ~/.claude/skills/rules-distill/scripts/scan-skills.sh
+bash ~/COMBINED/workspace-config/claude/skills/rules-distill/scripts/scan-skills.sh
 ```
 
 #### 1b. 收集规则索引
 
 ```bash
-bash ~/.claude/skills/rules-distill/scripts/scan-rules.sh
+bash ~/COMBINED/workspace-config/claude/skills/rules-distill/scripts/scan-rules.sh
 ```
 
 #### 1c. 呈现给用户

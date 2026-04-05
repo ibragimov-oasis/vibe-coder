@@ -9,7 +9,7 @@ banana Creative Director pipeline.
 > This extension wraps [Claude Banana](https://github.com/AgriciDaniel/banana-claude)
 > for SEO-specific use cases. Install the standalone skill for general-purpose image generation.
 
-- **Claude SEO** installed (`~/.claude/skills/seo/`)
+- **Claude SEO** installed (`~/COMBINED/workspace-config/claude/skills/seo/`)
 - **Node.js 18+** with npx
 - **Google AI API key** (free at [aistudio.google.com/apikey](https://aistudio.google.com/apikey))
 - **ImageMagick** (optional, for post-processing)

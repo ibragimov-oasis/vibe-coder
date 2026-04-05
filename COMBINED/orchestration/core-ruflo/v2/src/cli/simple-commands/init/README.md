@@ -34,7 +34,7 @@ init/
 
    - `CLAUDE.md` - SPARC-enhanced project instructions
    - `.claude/` directory structure
-   - `.claude/commands/` - Slash commands for Claude Code
+   - `COMBINED/workspace-config/claude/commands/` - Slash commands for Claude Code
    - `.claude/logs/` - Conversation logs directory
 
 2. **Memory System**:

@@ -4,7 +4,7 @@ This directory contains skills **for developing and maintaining the claude-mem p
 
 ## Distinction
 
-**Project Skills** (`.claude/skills/`):
+**Project Skills** (`COMBINED/workspace-config/claude/skills/`):
 - Used by developers working on claude-mem
 - Not included in the plugin distribution
 - Project-specific workflows (version bumps, release management, etc.)
@@ -25,5 +25,5 @@ Manages semantic versioning for the claude-mem project itself. Handles updating 
 
 ## Adding New Skills
 
-**For claude-mem development** → Add to `.claude/skills/`
+**For claude-mem development** → Add to `COMBINED/workspace-config/claude/skills/`
 **For end users** → Add to `plugin/skills/` (gets distributed with plugin)

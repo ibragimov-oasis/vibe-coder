@@ -426,7 +426,7 @@ Flag these without being asked:
 ### One-liner (any tool)
 ```bash
 git clone https://github.com/alirezarezvani/claude-skills.git
-cp -r claude-skills/engineering/helm-chart-builder ~/.claude/skills/
+cp -r claude-skills/engineering/helm-chart-builder ~/COMBINED/workspace-config/claude/skills/
 ```
 
 ### Multi-tool install

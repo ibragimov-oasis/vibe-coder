@@ -7,7 +7,7 @@ We've created a **comprehensive reasoning agent system** with 6 specialized agen
 ### What's New
 
 ✅ **6 Reasoning Agents** totaling **3,718 lines** of comprehensive agent definitions
-✅ **Included in npm distribution** via `.claude/agents/reasoning/` directory
+✅ **Included in npm distribution** via `COMBINED/workspace-config/claude/agents/reasoning/` directory
 ✅ **ReasoningBank integration** for all reasoning agents
 ✅ **Meta-orchestration** via `reasoning-optimized` agent
 ✅ **Training system architecture** designed for CLI integration
@@ -235,7 +235,7 @@ From `agentic-flow/package.json` line 148-158:
 }
 ```
 
-✅ **CONFIRMED**: All reasoning agents in `.claude/agents/reasoning/` **will be included** in the npm distribution.
+✅ **CONFIRMED**: All reasoning agents in `COMBINED/workspace-config/claude/agents/reasoning/` **will be included** in the npm distribution.
 
 ### Distribution Structure
 
@@ -367,7 +367,7 @@ npx agentic-flow --agent coder --task "..." --no-reasoning
 
 ### For Users
 
-1. **Quick Start**: `.claude/agents/reasoning/README.md`
+1. **Quick Start**: `COMBINED/workspace-config/claude/agents/reasoning/README.md`
    - System overview
    - Usage examples
    - Performance benchmarks
@@ -419,7 +419,7 @@ Based on **ReasoningBank** paper:
 ✅ **Full ReasoningBank integration** (RETRIEVE → JUDGE → DISTILL → CONSOLIDATE)
 ✅ **Training system architecture** for CLI learning
 ✅ **Performance improvements**: +26% success, -25% tokens, 3.2x learning velocity
-✅ **NPM distribution ready**: Included via `.claude/agents/reasoning/`
+✅ **NPM distribution ready**: Included via `COMBINED/workspace-config/claude/agents/reasoning/`
 
 ### Benefits to Users
 

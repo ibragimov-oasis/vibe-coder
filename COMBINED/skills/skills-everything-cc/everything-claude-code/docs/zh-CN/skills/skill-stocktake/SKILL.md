@@ -13,8 +13,8 @@ origin: ECC
 
 | 路径 | 描述 |
 |------|-------------|
-| `~/.claude/skills/` | 全局技能（所有项目） |
-| `{cwd}/.claude/skills/` | 项目级技能（如果目录存在） |
+| `~/COMBINED/workspace-config/claude/skills/` | 全局技能（所有项目） |
+| `{cwd}/COMBINED/workspace-config/claude/skills/` | 项目级技能（如果目录存在） |
 
 **在第 1 阶段开始时，该命令会明确列出找到并扫描了哪些路径。**
 
@@ -27,7 +27,7 @@ cd ~/path/to/my-project
 /skill-stocktake
 ```
 
-如果项目没有 `.claude/skills/` 目录，则只评估全局技能和命令。
+如果项目没有 `COMBINED/workspace-config/claude/skills/` 目录，则只评估全局技能和命令。
 
 ## 模式
 
@@ -36,26 +36,26 @@ cd ~/path/to/my-project
 | 快速扫描 | `results.json` 存在（默认） | 5–10 分钟 |
 | 全面盘点 | `results.json` 不存在，或 `/skill-stocktake full` | 20–30 分钟 |
 
-**结果缓存：** `~/.claude/skills/skill-stocktake/results.json`
+**结果缓存：** `~/COMBINED/workspace-config/claude/skills/skill-stocktake/results.json`
 
 ## 快速扫描流程
 
 仅重新评估自上次运行以来发生更改的技能（5–10 分钟）。
 
-1. 读取 `~/.claude/skills/skill-stocktake/results.json`
-2. 运行：`bash ~/.claude/skills/skill-stocktake/scripts/quick-diff.sh \   ~/.claude/skills/skill-stocktake/results.json`
+1. 读取 `~/COMBINED/workspace-config/claude/skills/skill-stocktake/results.json`
+2. 运行：`bash ~/COMBINED/workspace-config/claude/skills/skill-stocktake/scripts/quick-diff.sh \   ~/COMBINED/workspace-config/claude/skills/skill-stocktake/results.json`
    （项目目录从 `$PWD/.claude/skills` 自动检测；仅在需要时显式传递）
 3. 如果输出是 `[]`：报告“自上次运行以来无更改。”并停止
 4. 使用相同的第 2 阶段标准仅重新评估那些已更改的文件
 5. 沿用先前结果中未更改的技能
 6. 仅输出差异
-7. 运行：`bash ~/.claude/skills/skill-stocktake/scripts/save-results.sh \   ~/.claude/skills/skill-stocktake/results.json <<< "$EVAL_RESULTS"`
+7. 运行：`bash ~/COMBINED/workspace-config/claude/skills/skill-stocktake/scripts/save-results.sh \   ~/COMBINED/workspace-config/claude/skills/skill-stocktake/results.json <<< "$EVAL_RESULTS"`
 
 ## 全面盘点流程
 
 ### 第 1 阶段 — 清单
 
-运行：`bash ~/.claude/skills/skill-stocktake/scripts/scan.sh`
+运行：`bash ~/COMBINED/workspace-config/claude/skills/skill-stocktake/scripts/scan.sh`
 
 脚本枚举技能文件，提取 frontmatter，并收集 UTC 修改时间。
 项目目录从 `$PWD/.claude/skills` 自动检测；仅在需要时显式传递。
@@ -63,8 +63,8 @@ cd ~/path/to/my-project
 
 ```
 扫描中：
-  ✓ ~/.claude/skills/         (17 个文件)
-  ✗ {cwd}/.claude/skills/    (未找到 — 仅限全局技能)
+  ✓ ~/COMBINED/workspace-config/claude/skills/         (17 个文件)
+  ✗ {cwd}/COMBINED/workspace-config/claude/skills/    (未找到 — 仅限全局技能)
 ```
 
 | 技能 | 7天使用 | 30天使用 | 描述 |
@@ -161,7 +161,7 @@ Agent(
 
 ## 结果文件模式
 
-`~/.claude/skills/skill-stocktake/results.json`：
+`~/COMBINED/workspace-config/claude/skills/skill-stocktake/results.json`：
 
 **`evaluated_at`**：必须设置为评估完成时的实际 UTC 时间。
 通过 Bash 获取：`date -u +%Y-%m-%dT%H:%M:%SZ`。切勿使用仅日期的近似值，如 `T00:00:00Z`。
@@ -177,7 +177,7 @@ Agent(
   },
   "skills": {
     "skill-name": {
-      "path": "~/.claude/skills/skill-name/SKILL.md",
+      "path": "~/COMBINED/workspace-config/claude/skills/skill-name/SKILL.md",
       "verdict": "Keep",
       "reason": "Concrete, actionable, unique value for X workflow",
       "mtime": "2026-01-15T08:30:00Z"

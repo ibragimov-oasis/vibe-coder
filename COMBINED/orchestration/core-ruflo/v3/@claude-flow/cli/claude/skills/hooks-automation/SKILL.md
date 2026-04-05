@@ -43,7 +43,7 @@ npx claude-flow init --hooks
 
 This creates:
 - `.claude/settings.json` with pre-configured hooks
-- Hook command documentation in `.claude/commands/hooks/`
+- Hook command documentation in `COMBINED/workspace-config/claude/commands/hooks/`
 - Default hook handlers for common operations
 
 ### Basic Hook Usage

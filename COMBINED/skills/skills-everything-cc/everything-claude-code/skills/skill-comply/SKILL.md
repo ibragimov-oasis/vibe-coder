@@ -35,7 +35,7 @@ Measures whether coding agents actually follow skills, rules, or agent definitio
 uv run python -m scripts.run ~/.claude/rules/common/testing.md
 
 # Dry run (no cost, spec + scenarios only)
-uv run python -m scripts.run --dry-run ~/.claude/skills/search-first/SKILL.md
+uv run python -m scripts.run --dry-run ~/COMBINED/workspace-config/claude/skills/search-first/SKILL.md
 
 # Custom models
 uv run python -m scripts.run --gen-model haiku --model sonnet <path>

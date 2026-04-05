@@ -54,7 +54,7 @@ If the installer's auto-configuration fails, add this to `~/.claude/settings.jso
         "DATAFORSEO_USERNAME": "your-email@example.com",
         "DATAFORSEO_PASSWORD": "your-api-password",
         "ENABLED_MODULES": "SERP,KEYWORDS_DATA,ONPAGE,DATAFORSEO_LABS,BACKLINKS,DOMAIN_ANALYTICS,BUSINESS_DATA,CONTENT_ANALYSIS,AI_OPTIMIZATION",
-        "FIELD_CONFIG_PATH": "/home/youruser/.claude/skills/seo/dataforseo-field-config.json"
+        "FIELD_CONFIG_PATH": "/home/youruser/COMBINED/workspace-config/claude/skills/seo/dataforseo-field-config.json"
       }
     }
   }
