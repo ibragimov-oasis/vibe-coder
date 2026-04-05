@@ -33,6 +33,12 @@ This directory contains **1,560+ production-ready skills** providing specialized
 - skills-business: 5
 - **Total skills files:** 11,156
 
+**Latest migrations (leftovers moved):**
+- Added research `deep-research` under `skills-research/research/`.
+- Added SEO `seo-audit` under `skills-seo/seo/`.
+- Added platform/meta `skill-creator`.
+- Added superpowers workflows `tdd-workflow` and refreshed metadata for `requesting-code-review`, `subagent-driven-development`, `systematic-debugging`, `writing-plans`.
+
 ---
 
 ## Directory Structure

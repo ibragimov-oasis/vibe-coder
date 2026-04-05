@@ -1,7 +1,0 @@
-# Ignore everything (folders and files) on root only
-/*
-# Don't ignore these two files
-!package.json
-!package-lock.json
-# Don't ignore this directory
-!packages

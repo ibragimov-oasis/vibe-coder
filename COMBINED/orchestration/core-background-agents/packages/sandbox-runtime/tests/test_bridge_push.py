@@ -1,0 +1,161 @@
+"""Tests for bridge git push handling."""
+
+import asyncio
+from pathlib import Path
+from unittest.mock import AsyncMock, MagicMock, patch
+
+import pytest
+
+from sandbox_runtime.bridge import AgentBridge
+
+
+def _create_bridge(tmp_path: Path) -> AgentBridge:
+    bridge = AgentBridge(
+        sandbox_id="test-sandbox",
+        session_id="test-session",
+        control_plane_url="http://localhost:8787",
+        auth_token="test-token",
+    )
+    bridge.repo_path = tmp_path
+    repo_dir = tmp_path / "repo"
+    (repo_dir / ".git").mkdir(parents=True)
+    return bridge
+
+
+def _push_command() -> dict:
+    return {
+        "type": "push",
+        "pushSpec": {
+            "targetBranch": "feature/test",
+            "refspec": "HEAD:refs/heads/feature/test",
+            "remoteUrl": "https://token@github.com/open-inspect/repo.git",
+            "redactedRemoteUrl": "https://***@github.com/open-inspect/repo.git",
+            "force": False,
+        },
+    }
+
+
+def _fake_process(returncode: int | None, communicate_result: tuple[bytes, bytes] = (b"", b"")):
+    process = MagicMock()
+    process.returncode = returncode
+    process.communicate = AsyncMock(return_value=communicate_result)
+    process.wait = AsyncMock(return_value=None)
+    process.terminate = MagicMock()
+    process.kill = MagicMock()
+    return process
+
+
+@pytest.mark.asyncio
+async def test_handle_push_sends_push_complete_on_success(tmp_path: Path):
+    bridge = _create_bridge(tmp_path)
+    bridge._send_event = AsyncMock()
+    process = _fake_process(returncode=0)
+
+    with patch(
+        "sandbox_runtime.bridge.asyncio.create_subprocess_exec", AsyncMock(return_value=process)
+    ):
+        await bridge._handle_push(_push_command())
+
+    bridge._send_event.assert_awaited_once()
+    await_args = bridge._send_event.await_args
+    assert await_args is not None
+    event = await_args.args[0]
+    assert event["type"] == "push_complete"
+    assert event["branchName"] == "feature/test"
+    assert isinstance(event["timestamp"], float)
+    process.terminate.assert_not_called()
+    process.kill.assert_not_called()
+
+
+@pytest.mark.asyncio
+async def test_handle_push_sends_redacted_stderr_on_nonzero_exit(tmp_path: Path):
+    bridge = _create_bridge(tmp_path)
+    bridge._send_event = AsyncMock()
+    process = _fake_process(
+        returncode=1,
+        communicate_result=(
+            b"",
+            b"fatal: Authentication failed for 'https://token@github.com/open-inspect/repo.git'",
+        ),
+    )
+
+    with patch(
+        "sandbox_runtime.bridge.asyncio.create_subprocess_exec", AsyncMock(return_value=process)
+    ):
+        await bridge._handle_push(_push_command())
+
+    bridge._send_event.assert_awaited_once()
+    await_args = bridge._send_event.await_args
+    assert await_args is not None
+    event = await_args.args[0]
+    assert event["type"] == "push_error"
+    assert (
+        event["error"]
+        == "Push failed: fatal: Authentication failed for 'https://***@github.com/open-inspect/repo.git'"
+    )
+    assert event["branchName"] == "feature/test"
+    assert isinstance(event["timestamp"], float)
+    process.terminate.assert_not_called()
+    process.kill.assert_not_called()
+
+
+@pytest.mark.asyncio
+async def test_handle_push_sends_unknown_error_when_stderr_is_empty(tmp_path: Path):
+    bridge = _create_bridge(tmp_path)
+    bridge._send_event = AsyncMock()
+    process = _fake_process(returncode=1)
+
+    with patch(
+        "sandbox_runtime.bridge.asyncio.create_subprocess_exec", AsyncMock(return_value=process)
+    ):
+        await bridge._handle_push(_push_command())
+
+    bridge._send_event.assert_awaited_once()
+    await_args = bridge._send_event.await_args
+    assert await_args is not None
+    event = await_args.args[0]
+    assert event["type"] == "push_error"
+    assert event["error"] == "Push failed - unknown error"
+    assert event["branchName"] == "feature/test"
+    assert isinstance(event["timestamp"], float)
+
+
+@pytest.mark.asyncio
+async def test_handle_push_timeout_terminates_process_and_sends_error(tmp_path: Path):
+    bridge = _create_bridge(tmp_path)
+    bridge._send_event = AsyncMock()
+    bridge.GIT_PUSH_TIMEOUT_SECONDS = 42.0
+    bridge.GIT_PUSH_TERMINATE_GRACE_SECONDS = 3.0
+
+    process = _fake_process(returncode=None)
+    wait_for_calls: list[float | None] = []
+    original_wait_for = asyncio.wait_for
+
+    async def timeout_first_wait_for(coro, timeout=None):
+        wait_for_calls.append(timeout)
+        if len(wait_for_calls) == 1:
+            if hasattr(coro, "close"):
+                coro.close()
+            raise TimeoutError
+        return await original_wait_for(coro, timeout=timeout)
+
+    with (
+        patch(
+            "sandbox_runtime.bridge.asyncio.create_subprocess_exec", AsyncMock(return_value=process)
+        ),
+        patch("sandbox_runtime.bridge.asyncio.wait_for", side_effect=timeout_first_wait_for),
+    ):
+        await bridge._handle_push(_push_command())
+
+    assert wait_for_calls == [42.0, 3.0]
+    process.terminate.assert_called_once()
+    process.wait.assert_awaited_once()
+    process.kill.assert_not_called()
+    bridge._send_event.assert_awaited_once()
+    await_args = bridge._send_event.await_args
+    assert await_args is not None
+    event = await_args.args[0]
+    assert event["type"] == "push_error"
+    assert event["error"] == "Push failed - git push timed out after 42s"
+    assert event["branchName"] == "feature/test"
+    assert isinstance(event["timestamp"], float)
