@@ -1,88 +1,661 @@
-# 1Code — How It Works
+─────────────────────────────────────────────────────────
 
-**Original repo:** https://github.com/21st-dev/1code
-**Stars:** 5.4k ⭐
-**Category:** Orchestration / UI
-**Local path in vibe-coder:** COMBINED/orchestration/core-1code/
-**License:** MIT
+# 1code — How It Works
 
----
+Original repo: https://github.com/21st-dev/1code
+Stars: 5.4 ⭐
+Category: Orchestration / UI
+Local path in vibe-coder: Orchestration/1code/
+License: Apache-2.0
 
 ## What it does (plain language for vibe-coders)
-1Code is a desktop app that runs Claude Code, Codex, and other coding agents with a visual UI. It's like Cursor, but for multiple AI agents. Each chat runs in its own git worktree (isolated from main branch), agents can work in background cloud sandboxes while your laptop sleeps, you get live browser previews of dev branches, and a kanban board to visualize sessions. It has built-in git client, diff previews, plan mode, MCP server management, and can trigger agents from GitHub/Linear/Slack.
 
----
+1Code is a desktop application built with Electron/React that acts as a visual UI, Kanban board, and browser preview framework for AI agents like Claude Code and Codex. It bridges the gap between CLI tools and visual development environments, natively supporting multi-agent collaboration with a rich visual context.
 
 ## How the AI reads this repo (startup sequence)
-Step 1: AI reads **README.md** → learns multi-agent support (Claude/Codex), git worktree isolation, background execution, visual UI features
-Step 2: AI reads **AGENTS.md** → learns project architecture, tech stack, contribution guidelines
-Step 3: AI reads **CLAUDE.md** → learns Claude-specific integration, how to use 1Code with Claude Code
-Step 4: AI uses 1Code UI → visual interface for coding agents
 
----
+Step 1: AI reads `AGENTS.md` and `openspec/AGENTS.md` → learns how external agents plug into the visual framework.\nStep 2: AI reads `CLAUDE.md` → understands global coding conventions and instructions for modifying the codebase.\nStep 3: AI uses the extensive TypeScript/Electron backend (`src/main/`) and React frontend (`src/renderer/`) to inject logic, track agent status, and display previews dynamically.
 
 ## All files and what they do
-| File/Folder | What it is | What it does |
-|-------------|-----------|--------------|
-| README.md | Documentation | Main docs: features, installation, usage |
-| AGENTS.md | Agent configuration | Project architecture, agent patterns |
-| CLAUDE.md | Claude integration | Claude Code specific integration guide |
-| build/ | Build output | Compiled application files |
-| drizzle/ | Database | Drizzle ORM migrations and schema |
-| git/ | Git integration | Git worktree and branch management |
-| bun.lock, bun.lockb | Bun lockfiles | Dependency lock files for Bun runtime |
-| electron-builder.yml | Build config | Electron app build configuration |
-| electron-shim.js | Electron shim | Electron runtime shim |
-| env.example | Environment template | Example environment variables |
 
----
+| File/Folder | What it is | What it does |
+|-------------|------------|--------------|
+| .env.example | file | Root configuration or documentation |
+| .gitignore | file | Root configuration or documentation |
+| AGENTS.md | agent | Root configuration or documentation |
+| CLAUDE.md | config/skill | Root configuration or documentation |
+| CONTRIBUTING.md | file | Root configuration or documentation |
+| LICENSE | file | Root configuration or documentation |
+| README.md | Documentation | Explains how to install and use |
+| assets/cursor-ui.gif | file | Part of assets component |
+| assets/plan-mode.gif | file | Part of assets component |
+| assets/worktree.gif | file | Part of assets component |
+| build/background.svg | file | Part of build component |
+| build/background.tiff | file | Part of build component |
+| build/background@2x.png | file | Part of build component |
+| build/background@2x.tiff | file | Part of build component |
+| build/dmg-background.png | file | Part of build component |
+| build/dmg-background.svg | file | Part of build component |
+| build/dmg-background@2x.png | file | Part of build component |
+| build/entitlements.mac.plist | file | Part of build component |
+| build/icon.icns | file | Part of build component |
+| build/icon.ico | file | Part of build component |
+| build/icon.png | file | Part of build component |
+| build/settingsTemplate.png | file | Part of build component |
+| build/settingsTemplate@2x.png | file | Part of build component |
+| build/trayTemplate.png | file | Part of build component |
+| build/trayTemplate.svg | file | Part of build component |
+| bun.lock | file | Root configuration or documentation |
+| bun.lockb | file | Root configuration or documentation |
+| drizzle.config.ts | file | Root configuration or documentation |
+| drizzle/0000_mixed_blur.sql | file | Part of drizzle component |
+| drizzle/0001_married_reptil.sql | file | Part of drizzle component |
+| drizzle/0002_fancy_blindfold.sql | file | Part of drizzle component |
+| drizzle/0003_crazy_thunderbolts.sql | file | Part of drizzle component |
+| drizzle/0004_melted_prism.sql | file | Part of drizzle component |
+| drizzle/0005_marvelous_master_chief.sql | file | Part of drizzle component |
+| drizzle/0006_anthropic_multi_account.sql | file | Part of drizzle component |
+| drizzle/0007_clammy_grim_reaper.sql | file | Part of drizzle component |
+| drizzle/meta/0000_snapshot.json | file | Part of drizzle component |
+| drizzle/meta/0001_snapshot.json | file | Part of drizzle component |
+| drizzle/meta/0002_snapshot.json | file | Part of drizzle component |
+| drizzle/meta/0003_snapshot.json | file | Part of drizzle component |
+| drizzle/meta/0004_snapshot.json | file | Part of drizzle component |
+| drizzle/meta/0005_snapshot.json | file | Part of drizzle component |
+| drizzle/meta/0006_snapshot.json | file | Part of drizzle component |
+| drizzle/meta/0007_snapshot.json | file | Part of drizzle component |
+| drizzle/meta/_journal.json | file | Part of drizzle component |
+| electron-builder.yml | file | Root configuration or documentation |
+| electron-shim.js | file | Root configuration or documentation |
+| electron.vite.config.ts | file | Root configuration or documentation |
+| openspec/AGENTS.md | agent | Part of openspec component |
+| openspec/project.md | file | Part of openspec component |
+| package.json | file | Root configuration or documentation |
+| postcss.config.js | file | Root configuration or documentation |
+| resources/cli/1code | directory | Part of resources component |
+| scripts/download-claude-binary.mjs | file | Part of scripts component |
+| scripts/download-codex-binary.mjs | file | Part of scripts component |
+| scripts/generate-icon.mjs | file | Part of scripts component |
+| scripts/generate-update-manifest.mjs | file | Part of scripts component |
+| scripts/patch-electron-dev.mjs | file | Part of scripts component |
+| scripts/sync-to-public.sh | file | Part of scripts component |
+| src/env.d.ts | file | Part of src component |
+| src/main/auth-manager.ts | file | Part of src component |
+| src/main/auth-store.ts | file | Part of src component |
+| src/main/constants.ts | file | Part of src component |
+| src/main/index.ts | file | Part of src component |
+| src/main/lib/analytics.ts | file | Part of src component |
+| src/main/lib/auto-updater.ts | file | Part of src component |
+| src/main/lib/claude-config.ts | file | Part of src component |
+| src/main/lib/claude-token.ts | file | Part of src component |
+| src/main/lib/claude/env.ts | file | Part of src component |
+| src/main/lib/claude/index.ts | file | Part of src component |
+| src/main/lib/claude/offline-handler.ts | file | Part of src component |
+| src/main/lib/claude/raw-logger.ts | file | Part of src component |
+| src/main/lib/claude/transform.ts | file | Part of src component |
+| src/main/lib/claude/types.ts | file | Part of src component |
+| src/main/lib/cli.ts | file | Part of src component |
+| src/main/lib/config.ts | file | Part of src component |
+| src/main/lib/credential-manager.ts | file | Part of src component |
+| src/main/lib/db/index.ts | file | Part of src component |
+| src/main/lib/db/schema/index.ts | file | Part of src component |
+| src/main/lib/db/utils.ts | file | Part of src component |
+| src/main/lib/fs/dirent.ts | file | Part of src component |
+| src/main/lib/git/branches.ts | file | Part of src component |
+| src/main/lib/git/cache/git-cache.ts | file | Part of src component |
+| src/main/lib/git/cache/index.ts | file | Part of src component |
+| src/main/lib/git/dictionaries/landscapes.ts | file | Part of src component |
+| src/main/lib/git/diff-parser.ts | file | Part of src component |
+| src/main/lib/git/file-contents.ts | file | Part of src component |
+| src/main/lib/git/git-factory.ts | file | Part of src component |
+| src/main/lib/git/git-operations.ts | file | Part of src component |
+| src/main/lib/git/git-utils.ts | file | Part of src component |
+| src/main/lib/git/github/github.ts | file | Part of src component |
+| src/main/lib/git/github/index.ts | file | Part of src component |
+| src/main/lib/git/github/types.ts | file | Part of src component |
+| src/main/lib/git/index.ts | file | Part of src component |
+| src/main/lib/git/offline-utils.ts | file | Part of src component |
+| src/main/lib/git/sandbox-import.ts | file | Part of src component |
+| src/main/lib/git/security/git-commands.ts | file | Part of src component |
+| src/main/lib/git/security/index.ts | file | Part of src component |
+| src/main/lib/git/security/path-validation.ts | file | Part of src component |
+| src/main/lib/git/security/secure-fs.ts | file | Part of src component |
+| src/main/lib/git/shell-env.ts | file | Part of src component |
+| src/main/lib/git/staging.ts | file | Part of src component |
+| src/main/lib/git/stash.ts | file | Part of src component |
+| src/main/lib/git/status.ts | file | Part of src component |
+| src/main/lib/git/utils/apply-numstat.ts | file | Part of src component |
+| src/main/lib/git/utils/parse-status.ts | file | Part of src component |
+| src/main/lib/git/watcher/git-watcher.ts | file | Part of src component |
+| src/main/lib/git/watcher/index.ts | file | Part of src component |
+| src/main/lib/git/watcher/ipc-bridge.ts | file | Part of src component |
+| src/main/lib/git/worktree-config.ts | file | Part of src component |
+| src/main/lib/git/worktree-naming.ts | file | Part of src component |
+| src/main/lib/git/worktree.ts | file | Part of src component |
+| src/main/lib/mcp-auth.ts | file | Part of src component |
+| src/main/lib/oauth.ts | file | Part of src component |
+| src/main/lib/ollama/detector.ts | file | Part of src component |
+| src/main/lib/ollama/index.ts | file | Part of src component |
+| src/main/lib/ollama/network-detector.ts | file | Part of src component |
+| src/main/lib/platform/base.ts | file | Part of src component |
+| src/main/lib/platform/darwin.ts | file | Part of src component |
+| src/main/lib/platform/index.ts | file | Part of src component |
+| src/main/lib/platform/linux.ts | file | Part of src component |
+| src/main/lib/platform/types.ts | file | Part of src component |
+| src/main/lib/platform/windows.ts | file | Part of src component |
+| src/main/lib/plugins/index.ts | file | Part of src component |
+| src/main/lib/terminal/data-batcher.ts | file | Part of src component |
+| src/main/lib/terminal/env.ts | file | Part of src component |
+| src/main/lib/terminal/index.ts | file | Part of src component |
+| src/main/lib/terminal/manager.ts | file | Part of src component |
+| src/main/lib/terminal/port-manager.ts | file | Part of src component |
+| src/main/lib/terminal/port-scanner.ts | file | Part of src component |
+| src/main/lib/terminal/session.ts | file | Part of src component |
+| src/main/lib/terminal/terminal-escape-filter.ts | file | Part of src component |
+| src/main/lib/terminal/terminal-history/index.ts | file | Part of src component |
+| src/main/lib/terminal/types.ts | file | Part of src component |
+| src/main/lib/trpc/index.ts | file | Part of src component |
+| src/main/lib/trpc/routers/agent-utils.ts | agent | Part of src component |
+| src/main/lib/trpc/routers/agents.ts | agent | Part of src component |
+| src/main/lib/trpc/routers/anthropic-accounts.ts | file | Part of src component |
+| src/main/lib/trpc/routers/chats.ts | file | Part of src component |
+| src/main/lib/trpc/routers/claude-code.ts | file | Part of src component |
+| src/main/lib/trpc/routers/claude-settings.ts | file | Part of src component |
+| src/main/lib/trpc/routers/claude.ts | file | Part of src component |
+| src/main/lib/trpc/routers/codex.ts | file | Part of src component |
+| src/main/lib/trpc/routers/commands.ts | file | Part of src component |
+| src/main/lib/trpc/routers/debug.ts | file | Part of src component |
+| src/main/lib/trpc/routers/external.ts | file | Part of src component |
+| src/main/lib/trpc/routers/files.ts | file | Part of src component |
+| src/main/lib/trpc/routers/index.ts | file | Part of src component |
+| src/main/lib/trpc/routers/ollama.ts | file | Part of src component |
+| src/main/lib/trpc/routers/plugins.ts | file | Part of src component |
+| src/main/lib/trpc/routers/projects.ts | file | Part of src component |
+| src/main/lib/trpc/routers/sandbox-import.ts | file | Part of src component |
+| src/main/lib/trpc/routers/skills.ts | file | Part of src component |
+| src/main/lib/trpc/routers/terminal.ts | file | Part of src component |
+| src/main/lib/trpc/routers/voice.ts | file | Part of src component |
+| src/main/lib/trpc/routers/worktree-config.ts | file | Part of src component |
+| src/main/lib/vscode-theme-scanner.ts | file | Part of src component |
+| src/main/lib/window.ts | file | Part of src component |
+| src/main/windows/main.ts | file | Part of src component |
+| src/main/windows/window-manager.ts | file | Part of src component |
+| src/preload/index.d.ts | file | Part of src component |
+| src/preload/index.ts | file | Part of src component |
+| src/renderer/App.tsx | file | Part of src component |
+| src/renderer/DEBUG-WDYR.md | file | Part of src component |
+| src/renderer/assets/app-icons/appcode.svg | file | Part of src component |
+| src/renderer/assets/app-icons/clion.svg | file | Part of src component |
+| src/renderer/assets/app-icons/cursor.svg | file | Part of src component |
+| src/renderer/assets/app-icons/datagrip.svg | file | Part of src component |
+| src/renderer/assets/app-icons/finder.png | file | Part of src component |
+| src/renderer/assets/app-icons/fleet.svg | file | Part of src component |
+| src/renderer/assets/app-icons/ghostty.svg | file | Part of src component |
+| src/renderer/assets/app-icons/goland.svg | file | Part of src component |
+| src/renderer/assets/app-icons/intellij.svg | file | Part of src component |
+| src/renderer/assets/app-icons/iterm.png | file | Part of src component |
+| src/renderer/assets/app-icons/jetbrains.svg | file | Part of src component |
+| src/renderer/assets/app-icons/phpstorm.svg | file | Part of src component |
+| src/renderer/assets/app-icons/pycharm.svg | file | Part of src component |
+| src/renderer/assets/app-icons/rider.svg | file | Part of src component |
+| src/renderer/assets/app-icons/rubymine.svg | file | Part of src component |
+| src/renderer/assets/app-icons/rustrover.svg | file | Part of src component |
+| src/renderer/assets/app-icons/sublime.svg | file | Part of src component |
+| src/renderer/assets/app-icons/terminal.png | file | Part of src component |
+| src/renderer/assets/app-icons/trae.svg | file | Part of src component |
+| src/renderer/assets/app-icons/vscode-insiders.svg | file | Part of src component |
+| src/renderer/assets/app-icons/vscode.svg | file | Part of src component |
+| src/renderer/assets/app-icons/warp.png | file | Part of src component |
+| src/renderer/assets/app-icons/webstorm.svg | file | Part of src component |
+| src/renderer/assets/app-icons/windsurf.svg | file | Part of src component |
+| src/renderer/assets/app-icons/xcode.svg | file | Part of src component |
+| src/renderer/assets/app-icons/zed.png | file | Part of src component |
+| src/renderer/components/chat-markdown-renderer.tsx | file | Part of src component |
+| src/renderer/components/confirm-archive-dialog.tsx | file | Part of src component |
+| src/renderer/components/dialogs/claude-login-modal.tsx | file | Part of src component |
+| src/renderer/components/dialogs/codex-login-modal.tsx | file | Part of src component |
+| src/renderer/components/dialogs/index.ts | file | Part of src component |
+| src/renderer/components/dialogs/mcp-approval-dialog.tsx | file | Part of src component |
+| src/renderer/components/dialogs/settings-tabs/agent-dialog.tsx | agent | Part of src component |
+| src/renderer/components/dialogs/settings-tabs/agents-appearance-tab.tsx | agent | Part of src component |
+| src/renderer/components/dialogs/settings-tabs/agents-beta-tab.tsx | agent | Part of src component |
+| src/renderer/components/dialogs/settings-tabs/agents-custom-agents-tab.tsx | agent | Part of src component |
+| src/renderer/components/dialogs/settings-tabs/agents-debug-tab.tsx | agent | Part of src component |
+| src/renderer/components/dialogs/settings-tabs/agents-keyboard-tab.tsx | agent | Part of src component |
+| src/renderer/components/dialogs/settings-tabs/agents-mcp-tab.tsx | agent | Part of src component |
+| src/renderer/components/dialogs/settings-tabs/agents-models-tab.tsx | agent | Part of src component |
+| src/renderer/components/dialogs/settings-tabs/agents-plugins-tab.tsx | agent | Part of src component |
+| src/renderer/components/dialogs/settings-tabs/agents-preferences-tab.tsx | agent | Part of src component |
+| src/renderer/components/dialogs/settings-tabs/agents-profile-tab.tsx | agent | Part of src component |
+| src/renderer/components/dialogs/settings-tabs/agents-project-worktree-tab.tsx | agent | Part of src component |
+| src/renderer/components/dialogs/settings-tabs/agents-skills-tab.tsx | agent | Part of src component |
+| src/renderer/components/dialogs/settings-tabs/agents-worktrees-tab.tsx | agent | Part of src component |
+| src/renderer/components/dialogs/settings-tabs/index.ts | file | Part of src component |
+| src/renderer/components/dialogs/settings-tabs/mcp/add-mcp-server-dialog.tsx | file | Part of src component |
+| src/renderer/components/dialogs/settings-tabs/mcp/delete-server-confirm.tsx | file | Part of src component |
+| src/renderer/components/dialogs/settings-tabs/mcp/edit-mcp-server-dialog.tsx | file | Part of src component |
+| src/renderer/components/dialogs/settings-tabs/mcp/index.ts | file | Part of src component |
+| src/renderer/components/dialogs/settings-tabs/mcp/mcp-server-form.tsx | file | Part of src component |
+| src/renderer/components/dialogs/settings-tabs/mcp/mcp-server-row.tsx | file | Part of src component |
+| src/renderer/components/dialogs/settings-tabs/mcp/types.ts | file | Part of src component |
+| src/renderer/components/dialogs/settings-tabs/tool-selector.tsx | file | Part of src component |
+| src/renderer/components/dialogs/settings-tabs/use-list-keyboard-nav.ts | file | Part of src component |
+| src/renderer/components/mermaid-block.tsx | file | Part of src component |
+| src/renderer/components/open-in-button.tsx | file | Part of src component |
+| src/renderer/components/rename-dialog.tsx | file | Part of src component |
+| src/renderer/components/ui/accordion.tsx | file | Part of src component |
+| src/renderer/components/ui/alert-dialog.tsx | file | Part of src component |
+| src/renderer/components/ui/badge.tsx | file | Part of src component |
+| src/renderer/components/ui/button-group.tsx | file | Part of src component |
+| src/renderer/components/ui/button.tsx | file | Part of src component |
+| src/renderer/components/ui/canvas-icons.tsx | file | Part of src component |
+| src/renderer/components/ui/checkbox.tsx | file | Part of src component |
+| src/renderer/components/ui/collapsible.tsx | file | Part of src component |
+| src/renderer/components/ui/command.tsx | file | Part of src component |
+| src/renderer/components/ui/context-menu.tsx | file | Part of src component |
+| src/renderer/components/ui/dialog.tsx | file | Part of src component |
+| src/renderer/components/ui/dropdown-menu.tsx | file | Part of src component |
+| src/renderer/components/ui/error-boundary.tsx | file | Part of src component |
+| src/renderer/components/ui/hover-card.tsx | file | Part of src component |
+| src/renderer/components/ui/icons.tsx | file | Part of src component |
+| src/renderer/components/ui/input.tsx | file | Part of src component |
+| src/renderer/components/ui/kbd.tsx | file | Part of src component |
+| src/renderer/components/ui/label.tsx | file | Part of src component |
+| src/renderer/components/ui/logo.tsx | file | Part of src component |
+| src/renderer/components/ui/network-status.tsx | file | Part of src component |
+| src/renderer/components/ui/popover.tsx | file | Part of src component |
+| src/renderer/components/ui/progress.tsx | file | Part of src component |
+| src/renderer/components/ui/project-icon.tsx | file | Part of src component |
+| src/renderer/components/ui/prompt-input.tsx | file | Part of src component |
+| src/renderer/components/ui/resizable-bottom-panel.tsx | file | Part of src component |
+| src/renderer/components/ui/resizable-sidebar.tsx | file | Part of src component |
+| src/renderer/components/ui/search-combobox.tsx | file | Part of src component |
+| src/renderer/components/ui/select.tsx | file | Part of src component |
+| src/renderer/components/ui/skeleton.tsx | file | Part of src component |
+| src/renderer/components/ui/split-button.tsx | file | Part of src component |
+| src/renderer/components/ui/switch.tsx | file | Part of src component |
+| src/renderer/components/ui/tabs.tsx | file | Part of src component |
+| src/renderer/components/ui/text-shimmer.tsx | file | Part of src component |
+| src/renderer/components/ui/textarea.tsx | file | Part of src component |
+| src/renderer/components/ui/tooltip.tsx | file | Part of src component |
+| src/renderer/components/ui/typewriter-text.tsx | file | Part of src component |
+| src/renderer/components/update-banner.tsx | file | Part of src component |
+| src/renderer/components/windows-title-bar.tsx | file | Part of src component |
+| src/renderer/contexts/TRPCProvider.tsx | file | Part of src component |
+| src/renderer/contexts/WindowContext.tsx | file | Part of src component |
+| src/renderer/features/agents/atoms/index.ts | agent | Part of src component |
+| src/renderer/features/agents/commands/agents-slash-command.tsx | agent | Part of src component |
+| src/renderer/features/agents/commands/builtin-commands.ts | agent | Part of src component |
+| src/renderer/features/agents/commands/index.ts | agent | Part of src component |
+| src/renderer/features/agents/commands/types.ts | agent | Part of src component |
+| src/renderer/features/agents/components/agent-chat-card.tsx | agent | Part of src component |
+| src/renderer/features/agents/components/agent-model-selector.tsx | agent | Part of src component |
+| src/renderer/features/agents/components/agent-send-button.tsx | agent | Part of src component |
+| src/renderer/features/agents/components/agents-help-popover.tsx | agent | Part of src component |
+| src/renderer/features/agents/components/agents-onboarding-dialog.tsx | agent | Part of src component |
+| src/renderer/features/agents/components/agents-quick-switch-dialog.tsx | agent | Part of src component |
+| src/renderer/features/agents/components/agents-rename-subchat-dialog.tsx | agent | Part of src component |
+| src/renderer/features/agents/components/codex-login-content.tsx | agent | Part of src component |
+| src/renderer/features/agents/components/create-branch-dialog.tsx | agent | Part of src component |
+| src/renderer/features/agents/components/open-locally-dialog.tsx | agent | Part of src component |
+| src/renderer/features/agents/components/preview-setup-hover-card.tsx | agent | Part of src component |
+| src/renderer/features/agents/components/project-selector.tsx | agent | Part of src component |
+| src/renderer/features/agents/components/queue-processor.tsx | agent | Part of src component |
+| src/renderer/features/agents/components/subchats-quick-switch-dialog.tsx | agent | Part of src component |
+| src/renderer/features/agents/components/traffic-light-spacer.tsx | agent | Part of src component |
+| src/renderer/features/agents/components/work-mode-selector.tsx | agent | Part of src component |
+| src/renderer/features/agents/constants.ts | agent | Part of src component |
+| src/renderer/features/agents/context/text-selection-context.tsx | agent | Part of src component |
+| src/renderer/features/agents/hooks/use-agents-file-upload.ts | agent | Part of src component |
+| src/renderer/features/agents/hooks/use-auto-import.ts | agent | Part of src component |
+| src/renderer/features/agents/hooks/use-changed-files-tracking.ts | agent | Part of src component |
+| src/renderer/features/agents/hooks/use-codex-login-flow.ts | agent | Part of src component |
+| src/renderer/features/agents/hooks/use-desktop-notifications.ts | agent | Part of src component |
+| src/renderer/features/agents/hooks/use-focus-input-on-enter.ts | agent | Part of src component |
+| src/renderer/features/agents/hooks/use-haptic.ts | agent | Part of src component |
+| src/renderer/features/agents/hooks/use-pasted-text-files.ts | agent | Part of src component |
+| src/renderer/features/agents/hooks/use-text-context-selection.ts | agent | Part of src component |
+| src/renderer/features/agents/hooks/use-toggle-focus-on-cmd-esc.ts | agent | Part of src component |
+| src/renderer/features/agents/lib/acp-chat-transport.ts | agent | Part of src component |
+| src/renderer/features/agents/lib/agents-actions.ts | agent | Part of src component |
+| src/renderer/features/agents/lib/agents-hotkeys-manager.ts | agent | Part of src component |
+| src/renderer/features/agents/lib/drafts.ts | agent | Part of src component |
+| src/renderer/features/agents/lib/export-chat.ts | agent | Part of src component |
+| src/renderer/features/agents/lib/ipc-chat-transport.ts | agent | Part of src component |
+| src/renderer/features/agents/lib/models.ts | agent | Part of src component |
+| src/renderer/features/agents/lib/queue-utils.ts | agent | Part of src component |
+| src/renderer/features/agents/lib/remote-chat-transport.ts | agent | Part of src component |
+| src/renderer/features/agents/main/active-chat.tsx | agent | Part of src component |
+| src/renderer/features/agents/main/assistant-message-item.tsx | agent | Part of src component |
+| src/renderer/features/agents/main/chat-data-sync.tsx | agent | Part of src component |
+| src/renderer/features/agents/main/chat-input-area.tsx | agent | Part of src component |
+| src/renderer/features/agents/main/isolated-message-group.tsx | agent | Part of src component |
+| src/renderer/features/agents/main/isolated-messages-section.tsx | agent | Part of src component |
+| src/renderer/features/agents/main/isolated-text-part.tsx | agent | Part of src component |
+| src/renderer/features/agents/main/memoized-text-part.tsx | agent | Part of src component |
+| src/renderer/features/agents/main/messages-list.tsx | agent | Part of src component |
+| src/renderer/features/agents/main/new-chat-form.tsx | agent | Part of src component |
+| src/renderer/features/agents/mentions/agents-file-mention.tsx | agent | Part of src component |
+| src/renderer/features/agents/mentions/agents-mentions-editor.tsx | agent | Part of src component |
+| src/renderer/features/agents/mentions/index.ts | agent | Part of src component |
+| src/renderer/features/agents/mentions/render-file-mentions.tsx | agent | Part of src component |
+| src/renderer/features/agents/search/chat-search-atoms.ts | agent | Part of src component |
+| src/renderer/features/agents/search/chat-search-bar.tsx | agent | Part of src component |
+| src/renderer/features/agents/search/chat-search-utils.ts | agent | Part of src component |
+| src/renderer/features/agents/search/index.ts | agent | Part of src component |
+| src/renderer/features/agents/search/search-highlight-context.tsx | agent | Part of src component |
+| src/renderer/features/agents/stores/agent-chat-store.ts | agent | Part of src component |
+| src/renderer/features/agents/stores/message-queue-store.ts | agent | Part of src component |
+| src/renderer/features/agents/stores/message-store.ts | agent | Part of src component |
+| src/renderer/features/agents/stores/streaming-status-store.ts | agent | Part of src component |
+| src/renderer/features/agents/stores/sub-chat-runtime-cleanup.ts | agent | Part of src component |
+| src/renderer/features/agents/stores/sub-chat-store.ts | agent | Part of src component |
+| src/renderer/features/agents/ui/agent-ask-user-question-tool.tsx | agent | Part of src component |
+| src/renderer/features/agents/ui/agent-bash-tool.tsx | agent | Part of src component |
+| src/renderer/features/agents/ui/agent-context-indicator.tsx | agent | Part of src component |
+| src/renderer/features/agents/ui/agent-diff-text-context-item.tsx | agent | Part of src component |
+| src/renderer/features/agents/ui/agent-diff-view.tsx | agent | Part of src component |
+| src/renderer/features/agents/ui/agent-edit-tool.tsx | agent | Part of src component |
+| src/renderer/features/agents/ui/agent-exit-plan-mode-tool.tsx | agent | Part of src component |
+| src/renderer/features/agents/ui/agent-exploring-group.tsx | agent | Part of src component |
+| src/renderer/features/agents/ui/agent-file-item.tsx | agent | Part of src component |
+| src/renderer/features/agents/ui/agent-image-item.tsx | agent | Part of src component |
+| src/renderer/features/agents/ui/agent-mcp-tool-call.tsx | agent | Part of src component |
+| src/renderer/features/agents/ui/agent-message-usage.tsx | agent | Part of src component |
+| src/renderer/features/agents/ui/agent-pasted-text-item.tsx | agent | Part of src component |
+| src/renderer/features/agents/ui/agent-plan-file-tool.tsx | agent | Part of src component |
+| src/renderer/features/agents/ui/agent-plan-sidebar.tsx | agent | Part of src component |
+| src/renderer/features/agents/ui/agent-plan-tool.tsx | agent | Part of src component |
+| src/renderer/features/agents/ui/agent-preview.tsx | agent | Part of src component |
+| src/renderer/features/agents/ui/agent-queue-indicator.tsx | agent | Part of src component |
+| src/renderer/features/agents/ui/agent-task-tool.tsx | agent | Part of src component |
+| src/renderer/features/agents/ui/agent-task-tools.tsx | agent | Part of src component |
+| src/renderer/features/agents/ui/agent-text-context-item.tsx | agent | Part of src component |
+| src/renderer/features/agents/ui/agent-thinking-tool.tsx | agent | Part of src component |
+| src/renderer/features/agents/ui/agent-todo-tool.tsx | agent | Part of src component |
+| src/renderer/features/agents/ui/agent-tool-call.tsx | agent | Part of src component |
+| src/renderer/features/agents/ui/agent-tool-interrupted.tsx | agent | Part of src component |
+| src/renderer/features/agents/ui/agent-tool-registry.tsx | agent | Part of src component |
+| src/renderer/features/agents/ui/agent-tool-utils.ts | agent | Part of src component |
+| src/renderer/features/agents/ui/agent-user-message-bubble.tsx | agent | Part of src component |
+| src/renderer/features/agents/ui/agent-user-question.tsx | agent | Part of src component |
+| src/renderer/features/agents/ui/agent-web-fetch-tool.tsx | agent | Part of src component |
+| src/renderer/features/agents/ui/agent-web-search-collapsible.tsx | agent | Part of src component |
+| src/renderer/features/agents/ui/agent-web-search-tool.tsx | agent | Part of src component |
+| src/renderer/features/agents/ui/agents-content.tsx | agent | Part of src component |
+| src/renderer/features/agents/ui/agents-header-controls.tsx | agent | Part of src component |
+| src/renderer/features/agents/ui/archive-popover.tsx | agent | Part of src component |
+| src/renderer/features/agents/ui/chat-title-editor.tsx | agent | Part of src component |
+| src/renderer/features/agents/ui/device-presets-bar.tsx | agent | Part of src component |
+| src/renderer/features/agents/ui/git-activity-badges.tsx | agent | Part of src component |
+| src/renderer/features/agents/ui/icons/claude-code.svg | agent | Part of src component |
+| src/renderer/features/agents/ui/icons/claude-mode.svg | agent | Part of src component |
+| src/renderer/features/agents/ui/icons/codex.svg | agent | Part of src component |
+| src/renderer/features/agents/ui/icons/cursor.svg | agent | Part of src component |
+| src/renderer/features/agents/ui/icons/gpt-model.svg | agent | Part of src component |
+| src/renderer/features/agents/ui/index.ts | agent | Part of src component |
+| src/renderer/features/agents/ui/inline-edit.tsx | agent | Part of src component |
+| src/renderer/features/agents/ui/mcp-servers-indicator.tsx | agent | Part of src component |
+| src/renderer/features/agents/ui/message-action-buttons.tsx | agent | Part of src component |
+| src/renderer/features/agents/ui/message-json-display.tsx | agent | Part of src component |
+| src/renderer/features/agents/ui/mobile-chat-header.tsx | agent | Part of src component |
+| src/renderer/features/agents/ui/mobile-copy-link-button.tsx | agent | Part of src component |
+| src/renderer/features/agents/ui/pr-status-bar.tsx | agent | Part of src component |
+| src/renderer/features/agents/ui/preview-url-input.tsx | agent | Part of src component |
+| src/renderer/features/agents/ui/quick-comment-input.tsx | agent | Part of src component |
+| src/renderer/features/agents/ui/resize-handle.tsx | agent | Part of src component |
+| src/renderer/features/agents/ui/scale-control.tsx | agent | Part of src component |
+| src/renderer/features/agents/ui/split-view-container.tsx | agent | Part of src component |
+| src/renderer/features/agents/ui/sub-chat-context-menu.tsx | agent | Part of src component |
+| src/renderer/features/agents/ui/sub-chat-selector.tsx | agent | Part of src component |
+| src/renderer/features/agents/ui/sub-chat-status-card.tsx | agent | Part of src component |
+| src/renderer/features/agents/ui/text-selection-popover.tsx | agent | Part of src component |
+| src/renderer/features/agents/ui/viewport-toggle.tsx | agent | Part of src component |
+| src/renderer/features/agents/ui/voice-wave-indicator.tsx | agent | Part of src component |
+| src/renderer/features/agents/utils/auto-rename.ts | agent | Part of src component |
+| src/renderer/features/agents/utils/base64.ts | agent | Part of src component |
+| src/renderer/features/agents/utils/format-time-ago.ts | agent | Part of src component |
+| src/renderer/features/agents/utils/git-activity.ts | agent | Part of src component |
+| src/renderer/features/agents/utils/paste-text.ts | agent | Part of src component |
+| src/renderer/features/agents/utils/pluralize.ts | agent | Part of src component |
+| src/renderer/features/agents/utils/pr-message.ts | agent | Part of src component |
+| src/renderer/features/automations/_components/automation-card.tsx | file | Part of src component |
+| src/renderer/features/automations/_components/constants.ts | file | Part of src component |
+| src/renderer/features/automations/_components/index.ts | file | Part of src component |
+| src/renderer/features/automations/_components/linear-icon.tsx | file | Part of src component |
+| src/renderer/features/automations/_components/platform-icon.tsx | file | Part of src component |
+| src/renderer/features/automations/_components/tab-toggle.tsx | file | Part of src component |
+| src/renderer/features/automations/_components/template-card.tsx | file | Part of src component |
+| src/renderer/features/automations/_components/templates.ts | file | Part of src component |
+| src/renderer/features/automations/_components/types.ts | file | Part of src component |
+| src/renderer/features/automations/_components/utils.ts | file | Part of src component |
+| src/renderer/features/automations/automations-detail-view.tsx | file | Part of src component |
+| src/renderer/features/automations/automations-styles.css | file | Part of src component |
+| src/renderer/features/automations/automations-view.tsx | file | Part of src component |
+| src/renderer/features/automations/inbox-styles.css | file | Part of src component |
+| src/renderer/features/automations/inbox-view.tsx | file | Part of src component |
+| src/renderer/features/automations/index.ts | file | Part of src component |
+| src/renderer/features/changes/changes-panel.tsx | file | Part of src component |
+| src/renderer/features/changes/changes-view.tsx | file | Part of src component |
+| src/renderer/features/changes/components/category-section/category-section.tsx | file | Part of src component |
+| src/renderer/features/changes/components/category-section/index.ts | file | Part of src component |
+| src/renderer/features/changes/components/changes-file-filter/changes-file-filter.tsx | file | Part of src component |
+| src/renderer/features/changes/components/changes-file-filter/index.ts | file | Part of src component |
+| src/renderer/features/changes/components/changes-header/changes-header.tsx | file | Part of src component |
+| src/renderer/features/changes/components/changes-header/index.ts | file | Part of src component |
+| src/renderer/features/changes/components/changes-panel-header/changes-panel-header.tsx | file | Part of src component |
+| src/renderer/features/changes/components/changes-panel-header/index.ts | file | Part of src component |
+| src/renderer/features/changes/components/collapsed-commit-bar/collapsed-commit-bar.tsx | file | Part of src component |
+| src/renderer/features/changes/components/collapsed-commit-bar/index.ts | file | Part of src component |
+| src/renderer/features/changes/components/collapsible-row/collapsible-row.tsx | file | Part of src component |
+| src/renderer/features/changes/components/collapsible-row/index.ts | file | Part of src component |
+| src/renderer/features/changes/components/commit-input/commit-input.tsx | file | Part of src component |
+| src/renderer/features/changes/components/commit-input/index.ts | file | Part of src component |
+| src/renderer/features/changes/components/commit-input/use-commit-actions.ts | file | Part of src component |
+| src/renderer/features/changes/components/commit-item/commit-item.tsx | file | Part of src component |
+| src/renderer/features/changes/components/commit-item/index.ts | file | Part of src component |
+| src/renderer/features/changes/components/diff-center-peek-dialog/diff-center-peek-dialog.tsx | file | Part of src component |
+| src/renderer/features/changes/components/diff-center-peek-dialog/index.ts | file | Part of src component |
+| src/renderer/features/changes/components/diff-full-page-view/diff-full-page-view.tsx | file | Part of src component |
+| src/renderer/features/changes/components/diff-full-page-view/index.ts | file | Part of src component |
+| src/renderer/features/changes/components/diff-sidebar-header/diff-sidebar-header.tsx | file | Part of src component |
+| src/renderer/features/changes/components/diff-sidebar-header/diff-view-mode-switcher.tsx | file | Part of src component |
+| src/renderer/features/changes/components/diff-sidebar-header/index.ts | file | Part of src component |
+| src/renderer/features/changes/components/file-item/file-item.tsx | file | Part of src component |
+| src/renderer/features/changes/components/file-item/index.ts | file | Part of src component |
+| src/renderer/features/changes/components/file-list-item.tsx | file | Part of src component |
+| src/renderer/features/changes/components/file-list/file-list-grouped.tsx | file | Part of src component |
+| src/renderer/features/changes/components/file-list/file-list-tree.tsx | file | Part of src component |
+| src/renderer/features/changes/components/file-list/file-list.tsx | file | Part of src component |
+| src/renderer/features/changes/components/file-list/index.ts | file | Part of src component |
+| src/renderer/features/changes/components/folder-row/folder-row.tsx | file | Part of src component |
+| src/renderer/features/changes/components/folder-row/index.ts | file | Part of src component |
+| src/renderer/features/changes/components/history-view/history-view.tsx | file | Part of src component |
+| src/renderer/features/changes/components/history-view/index.ts | file | Part of src component |
+| src/renderer/features/changes/components/pr-icon/index.ts | file | Part of src component |
+| src/renderer/features/changes/components/pr-icon/pr-icon.tsx | file | Part of src component |
+| src/renderer/features/changes/components/view-mode-toggle/index.ts | file | Part of src component |
+| src/renderer/features/changes/components/view-mode-toggle/view-mode-toggle.tsx | file | Part of src component |
+| src/renderer/features/changes/hooks/use-push-action.ts | file | Part of src component |
+| src/renderer/features/changes/index.ts | file | Part of src component |
+| src/renderer/features/changes/types.ts | file | Part of src component |
+| src/renderer/features/changes/utils/date.ts | file | Part of src component |
+| src/renderer/features/changes/utils/index.ts | file | Part of src component |
+| src/renderer/features/changes/utils/status.tsx | file | Part of src component |
+| src/renderer/features/changes/utils/sync-actions.ts | file | Part of src component |
+| src/renderer/features/details-sidebar/atoms/index.ts | file | Part of src component |
+| src/renderer/features/details-sidebar/details-sidebar.tsx | file | Part of src component |
+| src/renderer/features/details-sidebar/expanded-widget-sidebar.tsx | file | Part of src component |
+| src/renderer/features/details-sidebar/sections/changes-widget.tsx | file | Part of src component |
+| src/renderer/features/details-sidebar/sections/diff-section.tsx | file | Part of src component |
+| src/renderer/features/details-sidebar/sections/files-tab.tsx | file | Part of src component |
+| src/renderer/features/details-sidebar/sections/info-section.tsx | file | Part of src component |
+| src/renderer/features/details-sidebar/sections/mcp-widget.tsx | file | Part of src component |
+| src/renderer/features/details-sidebar/sections/plan-section.tsx | file | Part of src component |
+| src/renderer/features/details-sidebar/sections/plan-widget.tsx | file | Part of src component |
+| src/renderer/features/details-sidebar/sections/terminal-section.tsx | file | Part of src component |
+| src/renderer/features/details-sidebar/sections/terminal-widget.tsx | file | Part of src component |
+| src/renderer/features/details-sidebar/sections/todo-widget.tsx | file | Part of src component |
+| src/renderer/features/details-sidebar/types.ts | file | Part of src component |
+| src/renderer/features/details-sidebar/widget-settings-popup.tsx | file | Part of src component |
+| src/renderer/features/file-viewer/components/file-search-dialog.tsx | file | Part of src component |
+| src/renderer/features/file-viewer/components/file-viewer-sidebar.tsx | file | Part of src component |
+| src/renderer/features/file-viewer/components/image-viewer.tsx | file | Part of src component |
+| src/renderer/features/file-viewer/components/markdown-viewer.tsx | file | Part of src component |
+| src/renderer/features/file-viewer/components/monaco-config.ts | file | Part of src component |
+| src/renderer/features/file-viewer/hooks/use-file-content.ts | file | Part of src component |
+| src/renderer/features/file-viewer/index.ts | file | Part of src component |
+| src/renderer/features/file-viewer/utils/file-utils.ts | file | Part of src component |
+| src/renderer/features/file-viewer/utils/language-map.ts | file | Part of src component |
+| src/renderer/features/hooks/use-agents-file-upload.ts | agent | Part of src component |
+| src/renderer/features/kanban/components/kanban-board.tsx | file | Part of src component |
+| src/renderer/features/kanban/components/kanban-card.tsx | file | Part of src component |
+| src/renderer/features/kanban/components/kanban-column.tsx | file | Part of src component |
+| src/renderer/features/kanban/index.ts | file | Part of src component |
+| src/renderer/features/kanban/kanban-view.tsx | file | Part of src component |
+| src/renderer/features/kanban/lib/derive-status.ts | file | Part of src component |
+| src/renderer/features/layout/agents-layout.tsx | agent | Part of src component |
+| src/renderer/features/mentions/hooks/index.ts | file | Part of src component |
+| src/renderer/features/mentions/hooks/use-mention-search.ts | file | Part of src component |
+| src/renderer/features/mentions/index.ts | file | Part of src component |
+| src/renderer/features/mentions/providers/agents-provider.ts | agent | Part of src component |
+| src/renderer/features/mentions/providers/files-provider.ts | file | Part of src component |
+| src/renderer/features/mentions/providers/index.ts | file | Part of src component |
+| src/renderer/features/mentions/providers/skills-provider.ts | file | Part of src component |
+| src/renderer/features/mentions/providers/tools-provider.ts | file | Part of src component |
+| src/renderer/features/mentions/registry.ts | file | Part of src component |
+| src/renderer/features/mentions/search/cache.ts | file | Part of src component |
+| src/renderer/features/mentions/search/engine.ts | file | Part of src component |
+| src/renderer/features/mentions/search/index.ts | file | Part of src component |
+| src/renderer/features/mentions/types/core.ts | file | Part of src component |
+| src/renderer/features/mentions/types/index.ts | file | Part of src component |
+| src/renderer/features/mentions/types/provider.ts | file | Part of src component |
+| src/renderer/features/mentions/types/search.ts | file | Part of src component |
+| src/renderer/features/onboarding/anthropic-onboarding-page.tsx | file | Part of src component |
+| src/renderer/features/onboarding/api-key-onboarding-page.tsx | file | Part of src component |
+| src/renderer/features/onboarding/billing-method-page.tsx | file | Part of src component |
+| src/renderer/features/onboarding/codex-onboarding-page.tsx | file | Part of src component |
+| src/renderer/features/onboarding/index.ts | file | Part of src component |
+| src/renderer/features/onboarding/select-repo-page.tsx | file | Part of src component |
+| src/renderer/features/settings/settings-content.tsx | file | Part of src component |
+| src/renderer/features/settings/settings-sidebar.tsx | file | Part of src component |
+| src/renderer/features/sidebar/agents-sidebar.tsx | agent | Part of src component |
+| src/renderer/features/sidebar/agents-subchats-sidebar.tsx | agent | Part of src component |
+| src/renderer/features/sidebar/hooks/use-desktop-notifications.ts | file | Part of src component |
+| src/renderer/features/sidebar/hooks/use-haptic.ts | file | Part of src component |
+| src/renderer/features/sidebar/utils/pluralize.ts | file | Part of src component |
+| src/renderer/features/terminal/TerminalSearch.tsx | file | Part of src component |
+| src/renderer/features/terminal/atoms.ts | file | Part of src component |
+| src/renderer/features/terminal/commandBuffer.ts | file | Part of src component |
+| src/renderer/features/terminal/config.ts | file | Part of src component |
+| src/renderer/features/terminal/helpers.ts | file | Part of src component |
+| src/renderer/features/terminal/index.ts | file | Part of src component |
+| src/renderer/features/terminal/link-providers/file-path-link-provider.ts | file | Part of src component |
+| src/renderer/features/terminal/link-providers/index.ts | file | Part of src component |
+| src/renderer/features/terminal/link-providers/link-popup.ts | file | Part of src component |
+| src/renderer/features/terminal/link-providers/url-link-provider.ts | file | Part of src component |
+| src/renderer/features/terminal/parseCwd.ts | file | Part of src component |
+| src/renderer/features/terminal/suppressQueryResponses.ts | file | Part of src component |
+| src/renderer/features/terminal/terminal-sidebar.tsx | file | Part of src component |
+| src/renderer/features/terminal/terminal-tabs.tsx | file | Part of src component |
+| src/renderer/features/terminal/terminal.tsx | file | Part of src component |
+| src/renderer/features/terminal/types.ts | file | Part of src component |
+| src/renderer/features/terminal/utils.ts | file | Part of src component |
+| src/renderer/hooks/use-overflow-detection.ts | file | Part of src component |
+| src/renderer/hooks/usePRStatus/index.ts | file | Part of src component |
+| src/renderer/hooks/usePRStatus/usePRStatus.ts | file | Part of src component |
+| src/renderer/icons/framework-icons.tsx | file | Part of src component |
+| src/renderer/icons/index.tsx | file | Part of src component |
+| src/renderer/index.html | file | Part of src component |
+| src/renderer/lib/analytics.ts | file | Part of src component |
+| src/renderer/lib/api-fetch.ts | file | Part of src component |
+| src/renderer/lib/atoms/agents-settings-dialog.ts | agent | Part of src component |
+| src/renderer/lib/atoms/index.ts | file | Part of src component |
+| src/renderer/lib/codesandbox-constants.ts | file | Part of src component |
+| src/renderer/lib/editor-icons.ts | file | Part of src component |
+| src/renderer/lib/hooks/use-code-theme.ts | file | Part of src component |
+| src/renderer/lib/hooks/use-file-change-listener.ts | file | Part of src component |
+| src/renderer/lib/hooks/use-just-updated.ts | file | Part of src component |
+| src/renderer/lib/hooks/use-mobile.tsx | file | Part of src component |
+| src/renderer/lib/hooks/use-prefetch-local-chat.ts | file | Part of src component |
+| src/renderer/lib/hooks/use-project-icon.ts | file | Part of src component |
+| src/renderer/lib/hooks/use-remote-chats.ts | file | Part of src component |
+| src/renderer/lib/hooks/use-update-checker.ts | file | Part of src component |
+| src/renderer/lib/hooks/use-voice-recording.ts | file | Part of src component |
+| src/renderer/lib/hotkeys/index.ts | file | Part of src component |
+| src/renderer/lib/hotkeys/shortcut-registry.ts | file | Part of src component |
+| src/renderer/lib/hotkeys/types.ts | file | Part of src component |
+| src/renderer/lib/hotkeys/use-hotkey-recorder.ts | file | Part of src component |
+| src/renderer/lib/hotkeys/use-resolved-hotkey-display.ts | file | Part of src component |
+| src/renderer/lib/jotai-store.ts | file | Part of src component |
+| src/renderer/lib/mock-api.ts | file | Part of src component |
+| src/renderer/lib/overlay-styles.ts | file | Part of src component |
+| src/renderer/lib/remote-api.ts | file | Part of src component |
+| src/renderer/lib/remote-trpc.ts | file | Part of src component |
+| src/renderer/lib/stores/changes-store.ts | file | Part of src component |
+| src/renderer/lib/themes/builtin-themes.ts | file | Part of src component |
+| src/renderer/lib/themes/cursor-themes.ts | file | Part of src component |
+| src/renderer/lib/themes/diff-view-highlighter.ts | file | Part of src component |
+| src/renderer/lib/themes/index.ts | file | Part of src component |
+| src/renderer/lib/themes/shiki-theme-loader.ts | file | Part of src component |
+| src/renderer/lib/themes/terminal-theme-mapper.ts | file | Part of src component |
+| src/renderer/lib/themes/theme-provider.tsx | file | Part of src component |
+| src/renderer/lib/themes/vscode-to-css-mapping.ts | file | Part of src component |
+| src/renderer/lib/trpc.ts | file | Part of src component |
+| src/renderer/lib/utils.ts | file | Part of src component |
+| src/renderer/lib/utils/format-time-ago.ts | file | Part of src component |
+| src/renderer/lib/utils/platform.ts | file | Part of src component |
+| src/renderer/lib/utils/pluralize.ts | file | Part of src component |
+| src/renderer/lib/vscode-themes.ts | file | Part of src component |
+| src/renderer/lib/window-storage.ts | file | Part of src component |
+| src/renderer/login.html | file | Part of src component |
+| src/renderer/main.tsx | file | Part of src component |
+| src/renderer/public/sound.mp3 | file | Part of src component |
+| src/renderer/styles/agents-styles.css | agent | Part of src component |
+| src/renderer/styles/globals.css | file | Part of src component |
+| src/renderer/wdyr.ts | file | Part of src component |
+| src/shared/changes-types.ts | file | Part of src component |
+| src/shared/codex-tool-normalizer.ts | file | Part of src component |
+| src/shared/detect-language.ts | file | Part of src component |
+| src/shared/external-apps.ts | file | Part of src component |
+| tailwind.config.js | file | Root configuration or documentation |
+| tsconfig.json | file | Root configuration or documentation |
 
 ## Hidden config files (CRITICAL)
+
 These files were hidden (dot-prefix) in original but renamed in local vibe-coder copy:
 
 | Original name | Renamed locally to | Purpose |
-|--------------|-------------------|---------|
-| .DS_Store | .DS_Store | macOS metadata (kept as-is) |
-| .env.example | env.example | Environment variables template |
-
----
+|---------------|--------------------|---------|
+| .env.example | VISIBLE_env.example | Custom hidden file/folder |
+| .gitignore | VISIBLE_gitignore | Git ignore rules |
 
 ## Routing — where each file belongs in COMBINED/
-| File/Folder | COMBINED/ destination | Why |
-|-------------|----------------------|-----|
-| README.md, AGENTS.md, CLAUDE.md | orchestration/core-1code/ | Core orchestration system |
-| build/, drizzle/, git/ | orchestration/core-1code/ | Application code |
-| bun.lock, electron-builder.yml | orchestration/core-1code/ | Build configuration |
 
----
+| File/Folder | COMBINED/ destination | Why |
+|-------------|-----------------------|-----|
+| openspec/AGENTS.md | COMBINED/agents/by-role/1code/ | Core agent files |
+| AGENTS.md | COMBINED/agents/by-role/1code/ | Core agent files |
+| README.md | COMBINED/REPO_DOCS/04-1code/ | Documentation |
+| CLAUDE.md | COMBINED/prompts/system/ | System instructions |
 
 ## Key insights for ULTRACAR integration
-- **Unique capability:** Visual desktop app for coding agents with kanban board, diff previews, git worktree isolation
-- **Multi-agent support:** Run Claude Code, Codex, and other agents in one app
-- **Git worktree isolation:** Each chat session in isolated worktree (never touch main branch)
-- **Background execution:** Cloud sandboxes that run when laptop sleeps
-- **Live browser previews:** See dev branches running in real browser
-- **Automations:** Trigger agents from GitHub, Linear, Slack (@1code tags)
-- **MCP integration:** Built-in MCP server management and plugin marketplace
-- **Plan mode:** Structured planning with markdown preview before execution
-- **Pro/Max subscription:** Automations and API access require paid tier
-- **Conflicts:** None identified — desktop UI layer for existing agents
-- **Special setup:** Requires Bun runtime, Python 3.11, Xcode (macOS), Claude/Codex binaries
 
----
+- Unlike purely CLI-based agents, 1Code focuses exclusively on the GUI and user experience layer.\n- Implements a robust separation between Electron's main process (file/git interactions) and the renderer (React UI + Kanban).\n- Highly valuable for integrating headless agents into a polished visual experience or giving users a Dashboard for background agents.
 
 ## How to restore hidden files (for end users)
+
 ```bash
 # Run this in the local vibe-coder folder to restore original names:
-cd COMBINED/orchestration/core-1code/
-mv env.example .env.example
+mv VISIBLE_env.example .env.example
+mv VISIBLE_gitignore .gitignore
 ```
 
----
-
 ## Status
+
 - [x] README read
-- [x] File tree fetched (via local copy)
-- [x] Hidden files identified (2 files)
+- [x] File tree fetched
+- [x] Hidden files identified
 - [x] Routing map complete
-- [ ] Added to MASTER_INDEX.md
+- [x] Added to MASTER_INDEX.md
+─────────────────────────────────────────────────────────
