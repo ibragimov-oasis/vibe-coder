@@ -1,0 +1,122 @@
+{
+  "generated_at": "2026-04-07T15:52:00Z",
+  "scope": "agents/by-role directory",
+  "duplicate_filenames": {
+    "gsd-roadmapper.md": [
+      "agents/by-role/manager/gsd-roadmapper.md",
+      "agents/by-role/planner/gsd-roadmapper.md"
+    ],
+    "gsd-plan-checker.md": [
+      "agents/by-role/planner/gsd-plan-checker.md",
+      "agents/by-role/researcher/gsd-plan-checker.md"
+    ],
+    "README.md": [
+      "agents/by-role/scientist/README.md",
+      "agents/by-role/devops/README.md"
+    ]
+  },
+  "potential_merges": [],
+  "role_analysis": {
+    "planner_agents": [
+      "claude-skills-personas-product-manager.md",
+      "ruflo-templates-migration-plan.md",
+      "ruflo-reasoning-goal-planner.md",
+      "ruflo-goal-goal-planner.md",
+      "gsd-planner.md",
+      "claude-skills-product-cs-product-manager.md",
+      "ruflo-goal-code-goal-planner.md",
+      "gsd-roadmapper.md",
+      "gsd-plan-checker.md",
+      "ruflo-core-planner.md",
+      "claude-skills-product-cs-agile-product-owner.md",
+      "planner.md"
+    ],
+    "reviewer_agents": [
+      "code-reviewer.md",
+      "verifier.md",
+      "ruflo-core-reviewer.md",
+      "superpowers-code-reviewer.md",
+      "critic.md",
+      "reviewer.yaml",
+      "gsd-verifier.md",
+      "ruflo-github-code-review-swarm.md",
+      "ruflo-analysis-code-review-analyze-code-quality.md"
+    ],
+    "coder_agents": [
+      "code-simplifier.md",
+      "ruflo-templates-implementer-sparc-coder.md",
+      "ruflo-python-specialist.md",
+      "ruflo-typescript-specialist.md",
+      "ruflo-core-coder.md",
+      "claude-skills-personas-devops-engineer.md",
+      "ruflo-development-dev-backend-api.md",
+      "claude-skills-engineering-team-cs-workspace-admin.md",
+      "ruflo-development-backend-dev-backend-api.md",
+      "ruflo-v3-python-specialist.md",
+      "gsd-executor.md",
+      "ruflo-v3-typescript-specialist.md",
+      "claude-skills-engineering-team-cs-engineering-lead.md",
+      "coder.yaml",
+      "executor.md",
+      "ruflo-devops-ci-cd-ops-cicd-github.md",
+      "claude-skills-engineering-cs-senior-engineer.md"
+    ],
+    "tester_agents": [
+      "ruflo-v3-test-architect.md",
+      "ruflo-core-tester.md",
+      "ruflo-custom-test-long-runner.md",
+      "ruflo-testing-unit-tdd-london-swarm.md",
+      "gsd-integration-checker.md",
+      "test-engineer.md",
+      "qa-tester.md",
+      "tester.yaml",
+      "ruflo-testing-validation-production-validator.md",
+      "gsd-ui-checker.md",
+      "ruflo-testing-tdd-london-swarm.md",
+      "claude-skills-ra-qm-team-cs-quality-regulatory.md",
+      "ruflo-testing-production-validator.md"
+    ],
+    "architect_agents": [
+      "ruflo-sparc-architecture.md",
+      "architect.yaml",
+      "architect.md",
+      "ruflo-github-repo-architect.md",
+      "ruflo-v3-v3-integration-architect.md"
+    ],
+    "security_agents": [
+      "gsd-nyquist-auditor.md",
+      "security-reviewer.md",
+      "security-architect.yaml",
+      "ruflo-security-auditor.md",
+      "ruflo-v3-v3-security-architect.md",
+      "ruflo-consensus-security-manager.md"
+    ],
+    "debugger_agents": [
+      "tracer.md",
+      "gsd-debugger.md",
+      "debugger.md"
+    ],
+    "researcher_agents": [
+      "gsd-codebase-mapper.md",
+      "explore.md",
+      "claude-skills-product-cs-ux-researcher.md",
+      "ruflo-core-researcher.md",
+      "claude-skills-product-cs-product-analyst.md",
+      "gsd-assumptions-analyzer.md",
+      "gsd-research-synthesizer.md",
+      "analyst.md",
+      "gsd-advisor-researcher.md",
+      "gsd-plan-checker.md",
+      "gsd-user-profiler.md",
+      "gsd-project-researcher.md",
+      "claude-skills-finance-cs-financial-analyst.md",
+      "gsd-phase-researcher.md"
+    ],
+    "writer_agents": [
+      "ruflo-documentation-api-docs-docs-api-openapi.md",
+      "writer.md",
+      "document-specialist.md",
+      "ruflo-sparc-pseudocode.md"
+    ]
+  }
+}
