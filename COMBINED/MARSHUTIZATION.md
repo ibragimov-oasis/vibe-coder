@@ -39,3 +39,17 @@ Mappings from leftover sources to their new COMBINED locations, plus notes on re
 | `.cursor/` | `COMBINED/workspace-config/cursor/` | All Cursor AI IDE configuration moved to workspace-config. |
 
 Cross-references: Copilot docs/workflows may still point to `Skills/awesome-copilot-main/...`; OpenViking build docs or scripts may reference `COMBINED/mcp-servers/mcp-openviking/...`; Claude-Mem release/installer docs may reference `COMBINED/memory/memory-claude-mem/...`; IDE config paths may reference `COMBINED/workspace-config/claude/skills/` or `COMBINED/workspace-config/claude/commands/`. Update those to the COMBINED destinations when touched.
+
+## Role Routing Updates (2026-04-08)
+
+| Source Path | Destination Path | Notes |
+| --- | --- | --- |
+| `COMBINED/agents/agents-gsd/gsd-research-synthesizer.md` | `COMBINED/agents/by-role/synthesizer/gsd-research-synthesizer.md` | Moved to dedicated synthesizer role folder. |
+| `COMBINED/agents/agents-gsd/gsd-plan-checker.md` | `COMBINED/agents/by-role/plan-checker/gsd-plan-checker.md` | Moved from general planner/research routing to plan-checker role. |
+| `COMBINED/agents/agents-gsd/gsd-executor.md` | `COMBINED/agents/by-role/executor/gsd-executor.md` | Routed to executor role folder. |
+| `COMBINED/agents/agents-gsd/gsd-verifier.md` | `COMBINED/agents/by-role/verifier/gsd-verifier.md` | Routed to verifier role folder. |
+| `COMBINED/agents/agents-omc/analyst.md` | `COMBINED/agents/by-role/analyst/analyst.md` | Routed to new analyst role folder. |
+| `COMBINED/agents/agents-omc/executor.md` | `COMBINED/agents/by-role/executor/executor.md` | Routed to executor role folder. |
+| `COMBINED/agents/agents-omc/verifier.md` | `COMBINED/agents/by-role/verifier/verifier.md` | Routed to verifier role folder. |
+| `COMBINED/agents/agents-ruflo/{architect,coder,reviewer,security-architect,tester}.yaml` | `COMBINED/agents/by-role/{architect,coder,reviewer,security,tester}/` | Ruflo role YAMLs confirmed in role-based destinations. |
+| `COMBINED/agents/agents-ruflo/skills/` | `COMBINED/skills/skills-ruflo/` | Ruflo skills consolidated under COMBINED skills catalog. |

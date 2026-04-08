@@ -139,6 +139,12 @@ COMBINED/
 └── [existing files...]
 ```
 
+### Structure Update (v1.0.0 milestone tracking)
+- Agent role routing was realigned under `COMBINED/agents/by-role/` with dedicated folders for `analyst`, `executor`, `plan-checker`, `synthesizer`, and `verifier`.
+- Requested GSD/OMC/Ruflo role moves were executed from source catalogs (`agents-gsd`, `agents-omc`, `agents-ruflo`) into the role-based structure.
+- Ruflo skills were consolidated in `COMBINED/skills/skills-ruflo` (with `COMBINED/agents/agents-ruflo/skills` cleaned out).
+- This keeps the project aligned with the role-based discovery model for ongoing v1.0.0 consolidation work.
+
 ---
 
 ## 📈 Progress Visualization
