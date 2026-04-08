@@ -1,0 +1,79 @@
+{
+  "scan_timestamp": "2026-04-08T03:41:06Z",
+  "total_directories": 13160,
+  "total_files": 52386,
+  "categories": {
+    "agents": {
+      "exists": true,
+      "subdirectories": 434,
+      "files": 1128,
+      "size_kb": 15208
+    },
+    "skills": {
+      "exists": true,
+      "subdirectories": 8256,
+      "files": 17884,
+      "size_kb": 311536
+    },
+    "commands": {
+      "exists": true,
+      "subdirectories": 53,
+      "files": 343,
+      "size_kb": 1940
+    },
+    "hooks": {
+      "exists": true,
+      "subdirectories": 100,
+      "files": 744,
+      "size_kb": 6224
+    },
+    "prompts": {
+      "exists": true,
+      "subdirectories": 298,
+      "files": 2640,
+      "size_kb": 145572
+    },
+    "memory": {
+      "exists": true,
+      "subdirectories": 206,
+      "files": 823,
+      "size_kb": 76172
+    },
+    "ui-design": {
+      "exists": true,
+      "subdirectories": 561,
+      "files": 10907,
+      "size_kb": 84228
+    },
+    "mcp-servers": {
+      "exists": true,
+      "subdirectories": 1351,
+      "files": 3965,
+      "size_kb": 48804
+    },
+    "orchestration": {
+      "exists": true,
+      "subdirectories": 1596,
+      "files": 13432,
+      "size_kb": 284416
+    },
+    "security": {
+      "exists": true,
+      "subdirectories": 12,
+      "files": 42,
+      "size_kb": 496
+    },
+    "workspace-config": {
+      "exists": true,
+      "subdirectories": 69,
+      "files": 231,
+      "size_kb": 1928
+    },
+    "reference": {
+      "exists": true,
+      "subdirectories": 3,
+      "files": 1,
+      "size_kb": 20
+    }
+  }
+}
