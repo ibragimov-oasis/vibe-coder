@@ -300,3 +300,48 @@ Files that may reference old paths and need updates:
 - Hook files that reference agents
 
 **Status**: Movements complete. Ready for Phase 1 execution.
+
+---
+
+## Session: Requested Movements Execution + Role Routing Corrections
+
+### Timestamp: 2026-04-08T07:08:30Z
+
+### Scope
+- Execute the exact movement set from the requested history list.
+- Move files into corrected role folders under `COMBINED/agents/by-role/`.
+- Reconcile existing destination duplicates safely without data loss.
+
+### GSD Routing Corrections Applied
+- `gsd-research-synthesizer.md` → `by-role/synthesizer/`
+- `gsd-plan-checker.md` → `by-role/plan-checker/`
+- `gsd-executor.md` → `by-role/executor/`
+- `gsd-verifier.md` → `by-role/verifier/`
+
+All requested GSD files were removed from `COMBINED/agents/agents-gsd/`.
+
+### OMC Routing Corrections Applied
+- `analyst.md` → `by-role/analyst/`
+- `executor.md` → `by-role/executor/`
+- `verifier.md` → `by-role/verifier/`
+
+All requested OMC files were removed from `COMBINED/agents/agents-omc/`.
+
+### Ruflo Agent + Skills Movements Applied
+- Ruflo YAML agents were reconciled into by-role destinations:
+  - `architect.yaml`, `coder.yaml`, `reviewer.yaml`, `security-architect.yaml`, `tester.yaml`
+- Entire `COMBINED/agents/agents-ruflo/skills/` tree moved/reconciled into `COMBINED/skills/skills-ruflo/`.
+
+### Conflict Handling
+- Conflict-safe handling was applied during movement.
+- One planner conflict required a prefixed destination:
+  - `COMBINED/agents/agents-gsd/gsd-roadmapper.md`
+  - initially moved as `COMBINED/agents/by-role/planner/gsd-gsd-roadmapper.md`
+  - because `COMBINED/agents/by-role/planner/gsd-roadmapper.md` already existed with different content.
+  - canonical target then normalized to `COMBINED/agents/by-role/planner/gsd-roadmapper.md` and prior conflicting file preserved as `legacy-gsd-roadmapper.md`.
+
+### Result
+- Requested movement batch executed.
+- Source files from the requested list were removed from source folders.
+- New role folders populated: `analyst`, `executor`, `plan-checker`, `synthesizer`, `verifier`.
+- Legacy wrong-role duplicates were removed where content matched corrected destinations.

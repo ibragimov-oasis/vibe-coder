@@ -37,5 +37,14 @@ Mappings from leftover sources to their new COMBINED locations, plus notes on re
 | `.antigravity/` | `COMBINED/workspace-config/antigravity/` | All Antigravity IDE configuration moved to workspace-config. |
 | `.claude/` | `COMBINED/workspace-config/claude/` | All Claude Code IDE configuration moved to workspace-config. |
 | `.cursor/` | `COMBINED/workspace-config/cursor/` | All Cursor AI IDE configuration moved to workspace-config. |
+| `COMBINED/agents/agents-gsd/gsd-research-synthesizer.md` | `COMBINED/agents/by-role/synthesizer/gsd-research-synthesizer.md` | Re-routed to dedicated synthesizer role folder. |
+| `COMBINED/agents/agents-gsd/gsd-plan-checker.md` | `COMBINED/agents/by-role/plan-checker/gsd-plan-checker.md` | Re-routed to dedicated plan-checker role folder. |
+| `COMBINED/agents/agents-gsd/gsd-executor.md` | `COMBINED/agents/by-role/executor/gsd-executor.md` | Re-routed from coder grouping to dedicated executor role folder. |
+| `COMBINED/agents/agents-gsd/gsd-verifier.md` | `COMBINED/agents/by-role/verifier/gsd-verifier.md` | Re-routed from reviewer grouping to dedicated verifier role folder. |
+| `COMBINED/agents/agents-gsd/gsd-roadmapper.md` | `COMBINED/agents/by-role/planner/gsd-roadmapper.md` | Canonical planner destination retained; previous conflicting planner file preserved as `legacy-gsd-roadmapper.md`. |
+| `COMBINED/agents/agents-omc/analyst.md` | `COMBINED/agents/by-role/analyst/analyst.md` | Re-routed from researcher grouping to dedicated analyst role folder. |
+| `COMBINED/agents/agents-omc/executor.md` | `COMBINED/agents/by-role/executor/executor.md` | Re-routed from coder grouping to dedicated executor role folder. |
+| `COMBINED/agents/agents-omc/verifier.md` | `COMBINED/agents/by-role/verifier/verifier.md` | Re-routed from reviewer grouping to dedicated verifier role folder. |
+| `COMBINED/agents/agents-ruflo/skills/` | `COMBINED/skills/skills-ruflo/` | Skills tree reconciled into central Ruflo skills catalog; duplicate content deduplicated at destination. |
 
 Cross-references: Copilot docs/workflows may still point to `Skills/awesome-copilot-main/...`; OpenViking build docs or scripts may reference `COMBINED/mcp-servers/mcp-openviking/...`; Claude-Mem release/installer docs may reference `COMBINED/memory/memory-claude-mem/...`; IDE config paths may reference `COMBINED/workspace-config/claude/skills/` or `COMBINED/workspace-config/claude/commands/`. Update those to the COMBINED destinations when touched.

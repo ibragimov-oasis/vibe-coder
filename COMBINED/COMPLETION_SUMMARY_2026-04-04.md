@@ -139,6 +139,11 @@ COMBINED/
 └── [existing files...]
 ```
 
+Current structure milestones toward v1.0.0 also include:
+- Role-routed agent catalog under `COMBINED/agents/by-role/` with dedicated role folders (`analyst/`, `executor/`, `plan-checker/`, `synthesizer/`, and `verifier/`).
+- Requested GSD and OMC movement set executed from source folders into role destinations.
+- Ruflo skill catalog consolidated under `COMBINED/skills/skills-ruflo/` from `COMBINED/agents/agents-ruflo/skills/`.
+
 ---
 
 ## 📈 Progress Visualization
