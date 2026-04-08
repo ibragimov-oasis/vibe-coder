@@ -300,3 +300,61 @@ Files that may reference old paths and need updates:
 - Hook files that reference agents
 
 **Status**: Movements complete. Ready for Phase 1 execution.
+
+---
+
+## Session: Requested Role Realignment + Documentation Cleanup
+
+### Timestamp: 2026-04-08T07:23:33Z
+
+### Scope
+- Executed the requested source-to-destination moves for GSD, OMC, and Ruflo agent files.
+- Created missing role folders: `analyst`, `executor`, `plan-checker`, `synthesizer`, `verifier`.
+- Merged remaining `COMBINED/agents/agents-ruflo/skills` contents into `COMBINED/skills/skills-ruflo`.
+
+### GSD (from `COMBINED/agents/agents-gsd/`)
+- `gsd-research-synthesizer.md` → `COMBINED/agents/by-role/synthesizer/`
+- `gsd-project-researcher.md` → `COMBINED/agents/by-role/researcher/`
+- `gsd-planner.md` → `COMBINED/agents/by-role/planner/`
+- `gsd-plan-checker.md` → `COMBINED/agents/by-role/plan-checker/`
+- `gsd-phase-researcher.md` → `COMBINED/agents/by-role/researcher/`
+- `gsd-executor.md` → `COMBINED/agents/by-role/executor/`
+- `gsd-roadmapper.md` → `COMBINED/agents/by-role/planner/`
+- `gsd-verifier.md` → `COMBINED/agents/by-role/verifier/`
+
+### OMC (from `COMBINED/agents/agents-omc/`)
+- `analyst.md` → `COMBINED/agents/by-role/analyst/`
+- `architect.md` → `COMBINED/agents/by-role/architect/`
+- `code-reviewer.md` → `COMBINED/agents/by-role/reviewer/`
+- `code-simplifier.md` → `COMBINED/agents/by-role/coder/`
+- `critic.md` → `COMBINED/agents/by-role/reviewer/`
+- `debugger.md` → `COMBINED/agents/by-role/debugger/`
+- `designer.md` → `COMBINED/agents/by-role/ui-specialist/`
+- `document-specialist.md` → `COMBINED/agents/by-role/writer/`
+- `executor.md` → `COMBINED/agents/by-role/executor/`
+- `explore.md` → `COMBINED/agents/by-role/researcher/`
+- `git-master.md` → `COMBINED/agents/by-role/devops/`
+- `planner.md` → `COMBINED/agents/by-role/planner/`
+- `qa-tester.md` → `COMBINED/agents/by-role/tester/`
+- `scientist.md` → `COMBINED/agents/by-role/scientist/`
+- `security-reviewer.md` → `COMBINED/agents/by-role/security/`
+- `test-engineer.md` → `COMBINED/agents/by-role/tester/`
+- `tracer.md` → `COMBINED/agents/by-role/debugger/`
+- `verifier.md` → `COMBINED/agents/by-role/verifier/`
+- `writer.md` → `COMBINED/agents/by-role/writer/`
+
+### Ruflo Agents (from `COMBINED/agents/agents-ruflo/`)
+- `architect.yaml` → `COMBINED/agents/by-role/architect/`
+- `coder.yaml` → `COMBINED/agents/by-role/coder/`
+- `reviewer.yaml` → `COMBINED/agents/by-role/reviewer/`
+- `security-architect.yaml` → `COMBINED/agents/by-role/security/`
+- `tester.yaml` → `COMBINED/agents/by-role/tester/`
+
+### Ruflo Skills
+- Source: `COMBINED/agents/agents-ruflo/skills/`
+- Destination: `COMBINED/skills/skills-ruflo/`
+- Operation: merge move with conflict-safe handling (no overwrite data loss).
+
+### Verification Targets
+- `find COMBINED/agents/agents-gsd -type f` should return no files.
+- `ls -R COMBINED/agents/by-role` should include the new role folders and moved files.
