@@ -336,12 +336,11 @@ All requested OMC files were removed from `COMBINED/agents/agents-omc/`.
 - Conflict-safe handling was applied during movement.
 - One planner conflict required a prefixed destination:
   - `COMBINED/agents/agents-gsd/gsd-roadmapper.md`
-  - initially moved as `COMBINED/agents/by-role/planner/gsd-gsd-roadmapper.md`
+  - moved as `COMBINED/agents/by-role/planner/gsd-gsd-roadmapper.md`
   - because `COMBINED/agents/by-role/planner/gsd-roadmapper.md` already existed with different content.
-  - canonical target then normalized to `COMBINED/agents/by-role/planner/gsd-roadmapper.md` and prior conflicting file preserved as `legacy-gsd-roadmapper.md`.
 
 ### Result
 - Requested movement batch executed.
 - Source files from the requested list were removed from source folders.
 - New role folders populated: `analyst`, `executor`, `plan-checker`, `synthesizer`, `verifier`.
-- Legacy wrong-role duplicates were removed where content matched corrected destinations.
+- No unrelated files were removed; conflict-safe naming was used to avoid data loss.
