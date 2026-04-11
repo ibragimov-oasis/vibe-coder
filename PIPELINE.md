@@ -39,7 +39,7 @@ The pipeline ensures every task is:
 ┌──────────────────────────────────────────────────────────────────┐
 │  STEP 2: HERMES AGENT (Self-Learning Loop)                       │
 │                                                                  │
-│  1. Analyse Background Agent output                             │
+│  1. Analyze Background Agent output                             │
 │  2. Extract patterns & lessons                                  │
 │  3. Create new skills from experience                           │
 │     → COMBINED/skills/{domain}/                                 │
@@ -56,7 +56,7 @@ The pipeline ensures every task is:
 │     - XSS injection                                             │
 │     - SQL/NoSQL injection                                       │
 │     - Authentication bypass                                     │
-│     - SSRF / path traversal                                     │
+│     - SSRF (Server-Side Request Forgery) / path traversal       │
 │  3. Generate prioritised vulnerability report                   │
 │  4. Decision:                                                   │
 │                                                                  │
