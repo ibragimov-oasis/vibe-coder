@@ -1,84 +1,178 @@
 <!-- Last updated: 2026-04-11 -->
-# 🗺️ MASTER PLAN — Vibe-Coder Arsenal
+# 🏎️ MASTER PLAN — Vibe-Coder ULTRACAR
 
 > **Single source of truth** for the vibe-coder repository.
 > Repository: https://github.com/ibragimov-oasis/vibe-coder
 
 ---
 
-## 📌 Project Overview
+## 🎯 The ULTRACAR Vision
 
-**Vibe-Coder Arsenal** is a unified AI development toolkit built by combining 31 best-in-class repositories into one structured, navigable system. Everything lives in `COMBINED/` — organized by type, role, and platform.
+Представь 31 автомобильную компанию: Ferrari, Lamborghini, Rolls-Royce, Tesla, Toyota, BMW, Mercedes, Ford, Nissan GT-R, Mini — и ещё 21.
 
-| Metric | Value |
-|--------|-------|
-| Source repositories | 31 |
-| Total files | ~44,800+ |
-| Agents | 336+ |
-| Skills | 1,500+ |
-| Prompts | 2,500+ |
-| UI Components | 3,000+ |
-| Orchestration systems | 7 |
-| MCP Servers | 7 |
-| Memory systems | 3 |
+Каждая машина хороша по-своему:
+- **Ferrari** → скорость, гоночный двигатель, агрессивный дизайн
+- **Rolls-Royce** → роскошь, премиальные материалы, тишина
+- **Tesla** → электрика, умное ПО, автопилот
+- **Toyota** → неубиваемая надёжность, семейная утилитарность
+- **Lamborghini** → сырая мощь, экстремальная аэродинамика
+- **Mini** → компактность, эффективность, манёвренность
+- **BMW** → точность вождения, спортивная инженерия
 
----
+Теперь представь, что все 31 компания сели за один стол и сказали:
+> **"Мы строим ОДНУ машину. ULTRACAR. Мы делимся ВСЕМ — каждым патентом, каждой технологией, каждым болтом, каждым винтом. Берём ВСЁ и объединяем в одну сверхчеловеческую машину."**
 
-## ✅ What's Done
+Они создали подразделения:
+- **Двигатель** → все 31 технологии двигателей в одном
+- **Дизайн** → все 31 дизайн-языка объединены
+- **Колёса** → каждая технология колёс унифицирована
+- **Салон** → кожа Rolls-Royce + экран Tesla + эргономика BMW
+- **Безопасность** → каждая система безопасности от каждого бренда
+- **ПО** → автопилот Tesla + помощник BMW + всё остальное
 
-### Phase 0 — Setup
-- Repository created, 31 source repos downloaded
-- Directory scaffolding for `COMBINED/` designed and approved
-- Golden rules established (no monolithic files, keep original formats, copy don't move)
+Они НЕ выбирают "лучший" двигатель. Они берут ВСЕ двигатели, изучают ВСЕ технологии, объединяют пересекающееся, ДОБАВЛЯЮТ уникальное из каждого. Каждый болт имеет значение. Каждое нововведение сохраняется.
 
-### Phase 1 — File Migration (Complete)
-- All 31 repos scanned, READMEs read
-- All files copied to `COMBINED/` with correct structure
-- `INDEX.md` and `MIGRATION_MAP.json` maintained throughout
-- Leftovers categorized and processed
+**ЭТО — НАША МИССИЯ.**
 
-### Phase 2 — Organization & Standards (Complete)
-- Prefix-source naming convention applied (`skills-*`, `agents-*`, `hooks-*`, etc.)
-- Duplicate detection across repos
-- Categorization by role, interface, and domain
+31 репозиторий = 31 автомобильная компания.
+У каждого репо свои "технологии" — скиллы, агенты, промты, команды, хуки, системы памяти, UI-правила, логика оркестрации.
 
-### Phase 3 — Restructure (Complete ✅)
-- Final PREFIX-SOURCE structure validated
-- All agents organized into `by-role/` and `by-interface/` layouts
-- Skills organized by source/domain
-- Orchestration split into `core-*` folders per system
-- `workspace-config/` added for Claude/Cursor/Antigravity IDE configs
-- `REPO_DOCS/` added with documentation for all 32 source repos
-- Mega-agents folder scaffolded in `agents/mega/`
-- Validation report: `COMBINED/RESTRUCTURE_VALIDATION_REPORT.md`
+Результат = **ULTRACAR AI-инструментария** — самый мощный вайб-кодинг тулкит, когда-либо созданный.
 
 ---
 
-## 📁 Current Repository Structure
+## ⚡ Финальная Vibe-Coder Система (Цель фазы 6)
 
-### Root Level
+Вот как должна работать финальная система:
+
 ```
-vibe-coder/
-├── COMBINED/                ← The unified toolkit (all 31 repos merged here)
-├── MASTER_PLAN.md           ← This file
-├── README.md                ← Project overview
-├── AUDIT.md                 ← Audit findings
-├── ORCHESTRATION.md         ← Orchestration systems guide
-├── MEMORY_SETUP.md          ← Memory systems setup guide
-├── QUICKSTART.md            ← Quick start guide
-├── CONTRIBUTING.md          ← Contribution guidelines
-├── EXECUTION_PLAN.md        ← Detailed execution plan
-├── PHASED_MIGRATION_PLAN.md ← Migration phases reference
-├── llms.txt                 ← LLM-friendly index
-└── [build scripts]          ← Python/bash scripts used during migration
+Запрос пользователя
+        ↓
+Оркестратор (RuFlo / DeerFlow / GSD / OMC)
+        ↓
+Маршрутизация → правильная роль агента
+        ↓
+Агент загружает: свои скиллы + промты + хуки
+        ↓
+Выполнение задачи
+        ↓
+Shannon автоматически проверяет security (если нужно)
+        ↓
+Lightpanda browser быстро проверяет UI (если нужно)
+        ↓
+Memory сохраняет контекст (Claude-Mem / Supermemory)
+        ↓
+Отчёт пользователю
 ```
 
-### COMBINED/ Structure (Current)
+**Пример:** Пользователь говорит Claude Max "сделай дизайн сайта":
+1. Claude Max заходит в `workspace-config/claude/` → находит свои инструкции
+2. Находит роль дизайнера в `agents/by-role/designer/`
+3. Загружает скиллы дизайна из `skills/skills-design/`
+4. Обращается к UI-компонентам в `ui-design/ui-components-galaxy/`
+5. Применяет UI-правила из `ui-design/ui-rules/`
+6. Lightpanda (9x быстрее Chrome) проверяет результат через браузер
+7. Shannon делает security-проверку
+8. Memory сохраняет весь контекст
+9. Пользователь получает результат
+
+**Пример 2:** Кто-то просит проверить сайт на уязвимости:
+1. Оркестратор вызывает Shannon (security агента)
+2. Shannon сканирует, находит все уязвимости
+3. Один из агентов получает ошибки и просит дебаггера исправить
+4. Дебаггер исправляет
+5. Shannon снова проверяет
+6. Если уязвимостей нет → отчёт пользователю
+
+**Пример 3:** Плохой промт обнаружен:
+1. Система видит, что промт слабый
+2. Обращается к `prompts/prompts-templates/` — находит лучший промт
+3. Применяет его автоматически
+4. Продолжает выполнение с улучшенным промтом
+
+---
+
+## 🔩 Железные Правила (ЧИТАЙ ПЕРЕД КАЖДЫМ ДЕЙСТВИЕМ)
+
+### Что нужно делать ✅
+
+| Правило | Описание |
+|---------|----------|
+| ✅ Читай README сначала | Перед любым репо — СНАЧАЛА читай его README.md |
+| ✅ Сохраняй оригинальные форматы | `.py → .py`, `.yaml → .yaml`, `.json → .json` — НИКОГДА не конвертируй в markdown |
+| ✅ Создавай подпапки | По ролям, категориям, интерфейсам — никогда не дампи всё в одну папку |
+| ✅ Оставляй оригиналы нетронутыми | Только КОПИИ в COMBINED/ — оригиналы священны |
+| ✅ Веди INDEX.md | Откуда скопировал → куда → что сделал — логируй каждое действие |
+| ✅ Каждый болт важен | Даже если файлы похожи — включай оба. В ULTRACAR каждый болт имеет значение |
+| ✅ При сомнении — включай | Лучше включить лишнее, чем пропустить важное |
+
+### Что запрещено ❌
+
+| Запрет | Причина |
+|--------|---------|
+| ❌ Монолитные файлы | Не создавай файлы "всё в одном .md" — никто не сможет в них ориентироваться |
+| ❌ Конвертация форматов | Не переводи Python/YAML/JSON в markdown |
+| ❌ Смешивание ролей | Дебаггер ≠ тестер ≠ дизайнер — роли должны быть чистыми |
+| ❌ Удаление оригиналов | Никогда не удаляй ничего из исходных папок |
+| ❌ Пропуск README | README файлы содержат всю важную информацию — не пропускай их |
+| ❌ Суммирование | Если файл 800 строк — все 800 строк должны попасть в комбинированный файл |
+
+### Форматы файлов
+
+```
+.py   → остаётся .py     (Python скрипты)
+.yaml → остаётся .yaml   (конфиги)
+.yml  → остаётся .yml    (GitHub Actions)
+.json → остаётся .json   (плагины, маркетплейс)
+.md   → остаётся .md     (документация, агенты, скиллы)
+.sh   → остаётся .sh     (bash скрипты)
+.ts   → остаётся .ts     (TypeScript)
+.js   → остаётся .js     (JavaScript)
+.toml → остаётся .toml   (конфиги)
+.csv  → остаётся .csv    (данные)
+.txt  → остаётся .txt    (текст)
+```
+
+**НИКОГДА не конвертируй один формат в другой.**
+
+---
+
+## ✅ Что Сделано (Фазы 0–3)
+
+### Фаза 0 — Настройка
+- Репозиторий создан, 31 исходный репо скачан
+- Структура `COMBINED/` спроектирована и утверждена
+- Железные правила установлены
+
+### Фаза 1 — Миграция файлов ✅
+- Все 31 репо просканированы, README прочитаны
+- Все файлы скопированы в `COMBINED/` с правильной структурой
+- `INDEX.md` и `MIGRATION_MAP.json` ведутся
+- Остаточные файлы (leftovers) категоризированы и обработаны
+
+### Фаза 2 — Организация и стандарты ✅
+- Применено именование PREFIX-SOURCE (`skills-*`, `agents-*`, `hooks-*`)
+- Дубликаты обнаружены по всем репо
+- Категоризация по ролям, интерфейсам и доменам
+
+### Фаза 3 — Реструктуризация ✅
+- Финальная PREFIX-SOURCE структура валидирована
+- Все агенты организованы в `by-role/` и `by-interface/`
+- Скиллы организованы по источнику/домену
+- Оркестрация разделена по `core-*` папкам
+- `workspace-config/` добавлен для IDE-конфигов Claude/Cursor/Antigravity
+- `REPO_DOCS/` добавлен с документацией всех 32 исходных репо
+- Отчёт валидации: `COMBINED/RESTRUCTURE_VALIDATION_REPORT.md`
+
+---
+
+## 📁 Текущая Структура COMBINED/
+
 ```
 COMBINED/
 │
-├── agents/                  # 336+ AI agents
-│   ├── by-role/             # Organized by function
+├── agents/                          # 336+ AI агентов
+│   ├── by-role/                     # По функции
 │   │   ├── analyst/
 │   │   ├── architect/
 │   │   ├── business/
@@ -98,7 +192,7 @@ COMBINED/
 │   │   ├── ui-specialist/
 │   │   ├── verifier/
 │   │   └── writer/
-│   ├── by-interface/        # Organized by platform
+│   ├── by-interface/                # По платформе
 │   │   ├── agents-antigravity/
 │   │   ├── agents-claude/
 │   │   ├── agents-codex/
@@ -110,9 +204,9 @@ COMBINED/
 │   ├── agents-ruflo/
 │   ├── agents-superpowers/
 │   ├── background-agents/
-│   └── mega/                # 🔄 Phase 4: unified mega-agents (in progress)
+│   └── mega/                        # 🔄 Фаза 4: unified mega-agents
 │
-├── skills/                  # 1,500+ skill packages
+├── skills/                          # 1,500+ пакетов скиллов
 │   ├── skills-antigravity/
 │   ├── skills-awesome-claude/
 │   ├── skills-background/
@@ -133,14 +227,14 @@ COMBINED/
 │   ├── skills-superpowers/
 │   └── skills-writing/
 │
-├── commands/                # 67+ slash commands
+├── commands/                        # 67+ slash-команд
 │   ├── commands-gsd/
 │   ├── commands-omc/
 │   ├── commands-ruflo/
 │   ├── commands-shannon/
 │   └── commands-superpowers/
 │
-├── hooks/                   # Automation hooks
+├── hooks/                           # Хуки автоматизации
 │   ├── hooks-1code/
 │   ├── hooks-background-agents/
 │   ├── hooks-gsd/
@@ -148,13 +242,13 @@ COMBINED/
 │   ├── hooks-ruflo/
 │   └── hooks-superpowers/
 │
-├── prompts/                 # 2,500+ prompts
+├── prompts/                         # 2,500+ промтов
 │   ├── prompts-leaked/
 │   ├── prompts-security/
 │   ├── prompts-system/
 │   └── prompts-templates/
 │
-├── orchestration/           # 7 orchestration systems
+├── orchestration/                   # 7 систем оркестрации
 │   ├── core-1code/
 │   ├── core-background-agents/
 │   ├── core-deer-flow/
@@ -166,38 +260,44 @@ COMBINED/
 │   ├── superpowers/
 │   └── workflows-terraform/
 │
-├── memory/                  # Persistent memory systems
-│   ├── memory-claude-mem/
-│   └── memory-supermemory/
+├── memory/                          # Системы памяти
+│   ├── memory-claude-mem/           ← сжатая персистентная память
+│   └── memory-supermemory/          ← #1 по бенчмаркам памяти
 │
-├── mcp-servers/             # MCP integrations
+├── mcp-servers/                     # MCP интеграции
 │   ├── mcp-configs/
 │   ├── mcp-gitnexus/
 │   ├── mcp-hermes/
-│   ├── mcp-lightpanda/
+│   ├── mcp-lightpanda/              ← браузер (9x быстрее Chrome)
 │   ├── mcp-nano-banana/
 │   ├── mcp-openviking/
 │   └── mcp-pretext/
 │
-├── ui-design/               # 3,000+ UI components
-│   ├── ui-components-galaxy/
-│   ├── ui-components-shadcn/
-│   ├── ui-cursor-rules/
-│   └── ui-rules/
+├── ui-design/                       # 3,000+ UI компонентов
+│   ├── ui-components-galaxy/        ← 3000+ элементов Uiverse.io
+│   ├── ui-components-shadcn/        ← кастомизируемые React компоненты
+│   ├── ui-cursor-rules/             ← все .cursorrules файлы
+│   └── ui-rules/                    ← 161 UI правило + 67 стилей
 │
-├── security/                # Security tools
-│   ├── security-shannon/    ← AI pentester (Shannon)
-│   └── security-reports/    ← Sample pentest reports
+├── security/                        # Инструменты безопасности
+│   ├── security-shannon/            ← AI пентестер (35k stars)
+│   └── security-reports/            ← образцы отчётов
 │
-├── reference/               # Reference documentation
+├── reference/                       # Справочная документация
 │   └── reference-selfhosted/
 │
-├── workspace-config/        # IDE-specific configurations
-│   ├── claude/              ← Claude Code (commands + skills)
-│   ├── cursor/              ← Cursor AI (rules)
-│   └── antigravity/         ← Antigravity (hooks, plugins, skills)
+├── workspace-config/                # IDE-конфиги
+│   ├── claude/                      ← Claude Code (команды + скиллы)
+│   │   ├── commands/                ← /команды для Claude Code
+│   │   └── skills/                  ← скиллы для Claude Code
+│   ├── cursor/                      ← Cursor AI (правила)
+│   │   └── rules/
+│   └── antigravity/                 ← Antigravity (хуки, плагины, скиллы)
+│       ├── hooks/
+│       ├── plugins/
+│       └── skills/
 │
-├── REPO_DOCS/               # Documentation for all 32 source repos
+├── REPO_DOCS/                       # Документация всех 32 исходных репо
 │   ├── 01-background-agents/
 │   ├── 02-hermes-agent/
 │   ├── 03-shannon/
@@ -231,142 +331,178 @@ COMBINED/
 │   ├── 31-shadcn/
 │   └── 32-ui-ux-pro-max/
 │
-└── INDEX.md                 # Full index of all files and movements
+└── INDEX.md                         # Полный лог всех файлов и перемещений
 ```
 
 ---
 
-## 🔮 What's Next
+## 🔄 Следующие Шаги
 
-### Phase 4 — Mega-Agents (Planned)
-Merge duplicate agents from different repos into single unified "mega" agents.
+### Фаза 4 — Мега-Агенты
 
-**Goal:** One best-in-class agent per role, combining the best from all sources.
+**Цель:** Создать единые "мега-агенты" объединяя дубликаты одной роли из разных репо.
 
-**Example:**
-- `by-role/debugger/` has debuggers from RuFlo, OMC, GSD, Superpowers → merge into `mega/mega-debugger.md`
-- `by-role/tester/` → `mega/mega-tester.md`
-- `by-role/security/` + Shannon → `mega/mega-security.md`
+**Принцип работы:**
+1. Зайди в `agents/by-role/debugger/` — там несколько дебаггеров из разных репо
+2. Прочитай каждый файл, найди уникальное в каждом
+3. Найди что повторяется (убери дубли)
+4. Создай **один мега-файл** роли: `agents/mega/mega-debugger.md`
 
-**Rules:**
-- Keep interface-specific versions separate (Claude vs Cursor vs Copilot)
-- Merge only same-role agents
-- Preserve best instructions from each source
-- Document sources inside the merged file
+**Формат мега-агента:**
+```markdown
+# MEGA DEBUGGER AGENT
+# Объединение из [N] репозиториев
+# Источники: gsd-debugger, superpowers-debugger, ruflo-debugger
 
-**Reference:** `COMBINED/PHASE_4_PLAN.md`, `COMBINED/PHASE_4_MERGE_RECOMMENDATIONS.md`
+## Роль и идентичность
+[Лучшее описание из всех источников, объединённое]
+"Ты senior expert debugger и гений анализа ошибок..."
+
+## Основные инструкции
+[Уникальные инструкции из каждого источника]
+
+## Процесс работы
+[Лучший процесс из всех источников]
+
+## Правила и ограничения
+[Все правила из всех источников]
+
+## Источники
+- gsd-debugger.md (get-shit-done)
+- superpowers-debugger.md (superpowers)
+- ruflo-debugger.md (ruflo)
+```
+
+**Важно:** Если у роли есть интерфейс-специфичные версии (Claude vs Cursor vs Copilot) — оставляй их отдельно!
+
+Повторить для: `tester`, `planner`, `seo`, `designer`, `researcher`, `reviewer`, `executor`, `security`, `roadmapper`, `advisor` + все скиллы, хуки, команды.
+
+**Ссылки:** `COMBINED/PHASE_4_PLAN.md`, `COMBINED/PHASE_4_MERGE_RECOMMENDATIONS.md`
 
 ---
 
-### Phase 5 — Full Audit (Planned)
-Verify nothing was missed. Check every source repo against `COMBINED/`.
+### Фаза 5 — Полный Аудит
 
-**Deliverable:** `COMBINED/audit/PHASE_5_AUDIT_REPORT.md`
+**Цель:** Убедиться что ничего не пропущено. Проверить каждый исходный репо против `COMBINED/`.
 
-**Reference:** `COMBINED/PHASE_5_PLAN.md`, `COMBINED/PHASE_5_VALIDATION_AUDIT.md`
+**Формат INDEX.md:**
+| Исходный путь | Тип | Куда скопировано | Что сделано | Статус |
+|---|---|---|---|---|
+| Agents/shannon/CLAUDE.md | agent | COMBINED/agents/by-interface/agents-claude/ | скопировано | ✅ |
+| Orchestration/ruflo/agents/ruflo-planner.md | agent | COMBINED/agents/by-role/planner/ | скопировано | ✅ |
+
+**Результат:** `COMBINED/audit/PHASE_5_AUDIT_REPORT.md`
+
+**Ссылки:** `COMBINED/PHASE_5_PLAN.md`, `COMBINED/PHASE_5_VALIDATION_AUDIT.md`
 
 ---
 
-### Phase 6 — Orchestration Integration (Planned)
-Wire everything together into a working, auto-routing system.
+### Фаза 6 — Оркестрация (Финальная Сборка ULTRACAR)
 
-**Vision:**
-```
-User Request
-    ↓
-Orchestrator (RuFlo / DeerFlow / GSD / OMC)
-    ↓
-Route to correct agent role → load skills → load prompts
-    ↓
-Execute → Shannon security check → Lightpanda browser test
-    ↓
-Memory save → Report to user
-```
+**Цель:** Соединить всё вместе так чтобы работало идеально.
 
-**Key integrations:**
+**Что нужно настроить:**
 - Claude Code → `workspace-config/claude/`
 - Cursor → `workspace-config/cursor/`
-- Copilot → `workspace-config/antigravity/` + `agents/by-interface/agents-copilot/`
-- Shannon auto-pentest after deploy
-- Lightpanda browser for fast UI verification
-- Claude-Mem + Supermemory for persistent context
+- GitHub Copilot → `workspace-config/antigravity/` + `agents/by-interface/agents-copilot/`
+- Shannon авто-пентест после деплоя
+- Lightpanda browser для быстрой проверки UI
+- Claude-Mem + Supermemory для персистентного контекста
+- Промт-прокси: если промт слабый → система находит лучший из `prompts/prompts-templates/`
 
-**Reference:** `COMBINED/PHASE_6_PLAN.md`, `COMBINED/PHASE_6_ORCHESTRATION_INTEGRATION.md`
+**Quick Start после настройки:**
+```
+# Claude Code — 3 минуты
+1. Скопируй COMBINED/workspace-config/claude/ → .claude/ в твоём проекте
+2. Скопируй нужные скиллы из COMBINED/skills/ → .claude/skills/
+3. Используй /команды из COMBINED/workspace-config/claude/commands/
+4. Запусти: claude "построй [твою идею]"
+   → Claude теперь имеет интеллект 31 репо
 
----
+# Cursor — 3 минуты
+1. Скопируй COMBINED/workspace-config/cursor/rules/ → .cursor/rules/ в твоём проекте
+2. Добавь нужных агентов из COMBINED/agents/by-interface/agents-cursor/
 
-## ⚡ Iron Rules
+# GitHub Copilot — 3 минуты
+1. Используй COMBINED/agents/by-interface/agents-copilot/
+2. Добавь инструкции из COMBINED/workspace-config/antigravity/
+```
 
-These apply to all work in this repository:
-
-| Rule | Description |
-|------|-------------|
-| ✅ Read README first | Before touching any repo, read its README |
-| ✅ Keep original formats | `.py` stays `.py`, `.yaml` stays `.yaml`, never convert to `.md` |
-| ✅ Use subdirectories | Never dump everything in one folder |
-| ✅ Keep originals intact | Copy, never move source files |
-| ✅ Update INDEX.md | Log every file: source → destination → action |
-| ❌ No monolithic files | No "everything in one .md" dumps |
-| ❌ No role mixing | Debugger ≠ Tester ≠ Designer — keep roles separate |
-| ❌ No deletions | Never delete original source files |
-
----
-
-## 🗝️ Key Documents
-
-| Document | Purpose |
-|----------|---------|
-| `COMBINED/README.md` | Main toolkit overview and quick-start |
-| `COMBINED/INDEX.md` | Full file movement log |
-| `COMBINED/agents/INDEX.md` | Agent catalog |
-| `COMBINED/skills/INDEX.md` | Skills catalog |
-| `ORCHESTRATION.md` | Guide to all 7 orchestration systems |
-| `MEMORY_SETUP.md` | Memory systems setup |
-| `QUICKSTART.md` | How to get started fast |
-| `AUDIT.md` | Audit findings |
-| `COMBINED/PHASE_4_PLAN.md` | Phase 4 detailed plan |
-| `COMBINED/PHASE_5_PLAN.md` | Phase 5 detailed plan |
-| `COMBINED/PHASE_6_PLAN.md` | Phase 6 detailed plan |
+**Ссылки:** `COMBINED/PHASE_6_PLAN.md`, `COMBINED/PHASE_6_ORCHESTRATION_INTEGRATION.md`
 
 ---
 
-## 📦 Source Repositories (31 total)
+## 📊 Метрики Проекта
 
-| # | Repo | Category | Status |
-|---|------|----------|--------|
-| 1 | background-agents | Orchestration | ✅ Migrated |
-| 2 | hermes-agent | Orchestration / MCP | ✅ Migrated |
-| 3 | shannon | Security | ✅ Migrated |
-| 4 | 1code | Orchestration | ✅ Migrated |
-| 5 | deer-flow | Orchestration | ✅ Migrated |
-| 6 | get-shit-done (GSD) | Orchestration | ✅ Migrated |
-| 7 | oh-my-claudecode (OMC) | Orchestration | ✅ Migrated |
-| 8 | ruflo | Orchestration | ✅ Migrated |
-| 9 | superpowers | Skills / Agents | ✅ Migrated |
-| 10 | vibe-kanban | Orchestration | ✅ Migrated |
-| 11 | antigravity | Agents / Skills | ✅ Migrated |
-| 12 | awesome-claude-code | Agents / Skills | ✅ Migrated |
-| 13 | awesome-copilot | Agents / Prompts | ✅ Migrated |
-| 14 | claude-seo | Skills (SEO) | ✅ Migrated |
-| 15 | claude-skills | Skills | ✅ Migrated |
-| 16 | everything-claude-code | Skills / Commands | ✅ Migrated |
-| 17 | obsidian-skills | Skills | ✅ Migrated |
-| 18 | awesome-chatgpt-prompts | Prompts | ✅ Migrated |
-| 19 | system-prompts-by-tool | Prompts | ✅ Migrated |
-| 20 | system-prompts-leaks | Prompts | ✅ Migrated |
-| 21 | vibe-coding-template | Prompts / Templates | ✅ Migrated |
-| 22 | awesome-selfhosted | Reference | ✅ Migrated |
-| 23 | gitnexus | MCP Server | ✅ Migrated |
-| 24 | openviking | MCP Server / Memory | ✅ Migrated |
-| 25 | lightpanda | Browser / MCP | ✅ Migrated |
-| 26 | claude-mem | Memory | ✅ Migrated |
-| 27 | nano-banana-mcp | MCP Server | ✅ Migrated |
-| 28 | pretext | MCP Server | ✅ Migrated |
-| 29 | supermemory | Memory | ✅ Migrated |
-| 30 | galaxy (uiverse) | UI Components | ✅ Migrated |
-| 31 | shadcn/ui | UI Components | ✅ Migrated |
-| 32 | ui-ux-pro-max | UI Rules | ✅ Migrated |
+| Метрика | Значение |
+|---------|---------|
+| Исходных репозиториев | 31 |
+| Всего файлов | ~44,800+ |
+| Агентов | 336+ |
+| Скиллов | 1,500+ |
+| Промтов | 2,500+ |
+| UI Компонентов | 3,000+ |
+| Систем оркестрации | 7 |
+| MCP Серверов | 7 |
+| Систем памяти | 3 |
 
 ---
 
-*Last updated: 2026-04-11*
+## 📦 Исходные Репозитории (31)
+
+| # | Репо | Категория | Звёзды | Статус |
+|---|------|----------|--------|--------|
+| 1 | background-agents | Оркестрация | — | ✅ Мигрировано |
+| 2 | hermes-agent | Оркестрация / MCP | 21k⭐ | ✅ Мигрировано |
+| 3 | shannon | Безопасность | 35k⭐ | ✅ Мигрировано |
+| 4 | 1code | Оркестрация | — | ✅ Мигрировано |
+| 5 | deer-flow | Оркестрация | 55k⭐ | ✅ Мигрировано |
+| 6 | get-shit-done (GSD) | Оркестрация | 46k⭐ | ✅ Мигрировано |
+| 7 | oh-my-claudecode (OMC) | Оркестрация | — | ✅ Мигрировано |
+| 8 | ruflo | Оркестрация | 29k⭐ | ✅ Мигрировано |
+| 9 | superpowers | Скиллы / Агенты | 129k⭐ | ✅ Мигрировано |
+| 10 | vibe-kanban | Оркестрация | — | ✅ Мигрировано |
+| 11 | antigravity | Агенты / Скиллы | — | ✅ Мигрировано |
+| 12 | awesome-claude-code | Агенты / Скиллы | — | ✅ Мигрировано |
+| 13 | awesome-copilot | Агенты / Промты | — | ✅ Мигрировано |
+| 14 | claude-seo | Скиллы (SEO) | — | ✅ Мигрировано |
+| 15 | claude-skills | Скиллы | — | ✅ Мигрировано |
+| 16 | everything-claude-code | Скиллы / Команды | — | ✅ Мигрировано |
+| 17 | obsidian-skills | Скиллы | — | ✅ Мигрировано |
+| 18 | awesome-chatgpt-prompts | Промты | 143k⭐ | ✅ Мигрировано |
+| 19 | system-prompts-by-tool | Промты | — | ✅ Мигрировано |
+| 20 | system-prompts-leaks | Промты | — | ✅ Мигрировано |
+| 21 | vibe-coding-template | Промты / Шаблоны | — | ✅ Мигрировано |
+| 22 | awesome-selfhosted | Референс | — | ✅ Мигрировано |
+| 23 | gitnexus | MCP Сервер | — | ✅ Мигрировано |
+| 24 | openviking | MCP / Память | — | ✅ Мигрировано |
+| 25 | lightpanda | Браузер / MCP | — | ✅ Мигрировано |
+| 26 | claude-mem | Память | — | ✅ Мигрировано |
+| 27 | nano-banana-mcp | MCP Сервер | — | ✅ Мигрировано |
+| 28 | pretext | MCP Сервер | — | ✅ Мигрировано |
+| 29 | supermemory | Память | — | ✅ Мигрировано |
+| 30 | galaxy (uiverse) | UI Компоненты | — | ✅ Мигрировано |
+| 31 | shadcn/ui | UI Компоненты | — | ✅ Мигрировано |
+| 32 | ui-ux-pro-max | UI Правила | — | ✅ Мигрировано |
+
+---
+
+## 🗝️ Ключевые Документы
+
+| Документ | Назначение |
+|----------|-----------|
+| `COMBINED/README.md` | Главный обзор тулкита и быстрый старт |
+| `COMBINED/INDEX.md` | Полный лог перемещения файлов |
+| `COMBINED/agents/INDEX.md` | Каталог агентов |
+| `COMBINED/skills/INDEX.md` | Каталог скиллов |
+| `ORCHESTRATION.md` | Гид по всем 7 системам оркестрации |
+| `MEMORY_SETUP.md` | Настройка систем памяти |
+| `QUICKSTART.md` | Как быстро начать работу |
+| `AUDIT.md` | Результаты аудита |
+| `COMBINED/PHASE_4_PLAN.md` | Детальный план фазы 4 (Мега-Агенты) |
+| `COMBINED/PHASE_5_PLAN.md` | Детальный план фазы 5 (Аудит) |
+| `COMBINED/PHASE_6_PLAN.md` | Детальный план фазы 6 (Оркестрация) |
+
+---
+
+*Последнее обновление: 2026-04-11*
