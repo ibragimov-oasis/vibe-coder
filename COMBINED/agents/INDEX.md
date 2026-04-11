@@ -21,6 +21,16 @@ This directory contains **336+ specialized AI agents** from 31 repositories, org
 
 ```
 agents/
+├── mega/                 # ⭐ MEGA AGENTS — start here (best-of-breed, merged from all sources)
+│   ├── mega-orchestrator.md  # Pipeline coordinator
+│   ├── mega-debugger.md      # GSD + OMC + RuFlo debugging
+│   ├── mega-planner.md       # GSD + OMC + RuFlo planning
+│   ├── mega-researcher.md    # Hermes + GSD + DeerFlow research
+│   ├── mega-designer.md      # Galaxy + shadcn + UI/UX Pro Max
+│   ├── mega-security.md      # Shannon pentester
+│   ├── mega-seo.md           # claude-seo + Antigravity SEO
+│   └── mega-reviewer.md      # RuFlo + OMC + Superpowers review
+│
 ├── by-role/              # Agents organized by functional role
 │   ├── architect/        # Architecture & design agents
 │   ├── business/         # Business advisor agents (CEO, CTO)
