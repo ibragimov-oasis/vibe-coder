@@ -1,0 +1,90 @@
+---
+description: Vibe-Coder Arsenal — core rules applied to all files in this repository
+globs: "**/*"
+alwaysApply: true
+---
+
+# Vibe-Coder Arsenal — Universal Rules
+
+> These rules apply to every task in this repository.
+> Source of truth: `CAPABILITIES.md` and `PIPELINE.md`
+
+---
+
+## ⚡ Rule 1 — Browser
+
+For **any** web request, screenshot, or site check:
+- **ALWAYS** use Lightpanda via MCP (`lightpanda` server)
+- **NEVER** use Chrome, Playwright directly, or any other browser
+- Lightpanda is 9× faster and 16× lighter than Chrome
+
+```
+mcp lightpanda navigate "<url>"
+mcp lightpanda screenshot "<filename>"
+```
+
+## ⚡ Rule 2 — Memory
+
+Before every task:
+```
+mcp supermemory search "<task keywords>"
+```
+
+After every task:
+```
+mcp supermemory add "<topic>" <findings> tags:[<domain>]
+```
+
+For codebase context: use `openviking` MCP.
+
+## ⚡ Rule 3 — UI / Design
+
+For any UI, frontend, or design task — follow this hierarchy:
+
+1. `COMBINED/ui-design/galaxy/` → 3,000+ components (check first)
+2. `COMBINED/ui-design/shadcn-ui/` → accessible components
+3. `COMBINED/ui-design/ui-ux-pro-max/` → 161 rules (apply to all output)
+4. Custom → only if 1–3 have nothing; document reason
+
+## ⚡ Rule 4 — Self-Improvement
+
+After every task completion: Hermes self-learning loop runs.
+- Extracts patterns → creates skills in `COMBINED/skills/`
+- Updates `supermemory` with insights
+- Optionally updates `CAPABILITIES.md`
+
+## ⚡ Rule 5 — Security
+
+After every code change: Shannon security audit.
+- Static analysis + Lightpanda dynamic attacks
+- Fix all CRITICAL/HIGH issues before marking done
+- Agent: `COMBINED/agents/mega/mega-security.md`
+
+---
+
+## Mega Agents
+
+Use agents from `COMBINED/agents/mega/`:
+
+| Task type | Agent |
+|-----------|-------|
+| Debug / fix | `mega-debugger.md` |
+| Plan / architect | `mega-planner.md` |
+| Research | `mega-researcher.md` |
+| UI / design | `mega-designer.md` |
+| Security | `mega-security.md` |
+| SEO | `mega-seo.md` |
+| Code review | `mega-reviewer.md` |
+| Pipeline coordination | `mega-orchestrator.md` |
+
+---
+
+## Autonomous Pipeline
+
+```
+Background Agent (execute) → Hermes (learn) → Shannon (secure) → loop
+```
+
+Full spec: `PIPELINE.md`
+Agent catalog: `AGENTS.md`
+Capabilities registry: `CAPABILITIES.md`

@@ -2,7 +2,107 @@
 
 > **Combined Memory System Documentation**
 > This guide explains all memory systems in the Vibe-Coder Arsenal and how to configure them.
-> Last updated: 2026-04-01
+> Last updated: 2026-04-12
+
+---
+
+## ⚡ Quick Start (5 minutes)
+
+### Step 1 — Connect Supermemory (cross-tool, long-term)
+
+```bash
+# Option A: via npx install-mcp (recommended)
+npx install-mcp supermemory
+
+# Option B: add manually to your tool config
+# Claude Code: already in .claude/settings.json
+# Cursor:      already in .cursor/mcp.json
+# The MCP URL: https://mcp.supermemory.ai/mcp
+```
+
+Get your API key at: https://supermemory.ai
+
+### Step 2 — Install Claude-Mem (Claude Code only)
+
+```bash
+# In a Claude Code session:
+/plugin marketplace add thedotmack/claude-mem
+/plugin install claude-mem
+# Restart Claude Code
+```
+
+### Step 3 — Start OpenViking (codebase context)
+
+```bash
+cd COMBINED/mcp-servers/mcp-openviking
+npm install && npm start
+# Runs on port 3000 by default
+```
+
+### Step 4 — Verify all 3 are connected
+
+In Claude Code or Cursor, run:
+```
+mcp supermemory search "test"     → should return results or empty list
+mcp openviking read               → should return codebase context
+```
+
+---
+
+## Memory Layer Architecture
+
+```
+┌─────────────────────────────────────────────────────────────────┐
+│                    MEMORY LAYER DIAGRAM                         │
+├─────────────────────────────────────────────────────────────────┤
+│  Fastest (in-context)                                           │
+│  ┌──────────────────────────────────────────────────────────┐  │
+│  │ In-context window — current session only                  │  │
+│  └──────────────────────────────────────────────────────────┘  │
+│                           ↕ sync                               │
+│  ┌──────────────────────────────────────────────────────────┐  │
+│  │ Claude-Mem (SQLite + Chroma)                              │  │
+│  │ Scope: Claude Code sessions                               │  │
+│  │ Stores: observations, tool outputs, summaries             │  │
+│  │ Retrieval: /mem-search, MCP tools                         │  │
+│  └──────────────────────────────────────────────────────────┘  │
+│                           ↕ sync                               │
+│  ┌──────────────────────────────────────────────────────────┐  │
+│  │ OpenViking (Vector DB)                                    │  │
+│  │ Scope: codebase context (any tool)                        │  │
+│  │ Stores: what was changed, why, architecture decisions     │  │
+│  │ Retrieval: mcp openviking read/search                     │  │
+│  └──────────────────────────────────────────────────────────┘  │
+│                           ↕ sync                               │
+│  ┌──────────────────────────────────────────────────────────┐  │
+│  │ Supermemory (State-of-the-art, #1 benchmarks)             │  │
+│  │ Scope: cross-tool, cross-session, cross-project           │  │
+│  │ Stores: research findings, patterns, lessons, insights    │  │
+│  │ Retrieval: mcp supermemory search/add                     │  │
+│  └──────────────────────────────────────────────────────────┘  │
+│  Slowest but most persistent                                    │
+└─────────────────────────────────────────────────────────────────┘
+```
+
+## What Each Layer Stores
+
+| Layer | Stores | Persists | Tool access |
+|-------|--------|---------|------------|
+| **Claude-Mem** | Session observations, tool outputs, semantic summaries | Across Claude Code sessions | `/mem-search`, MCP |
+| **OpenViking** | Changed files, architecture decisions, code context | Until manually cleared | `mcp openviking` |
+| **Supermemory** | Research findings, patterns, lessons, cross-project insights | Permanently | `mcp supermemory` |
+
+## Pipeline Memory Flow
+
+```
+Task starts  → mcp supermemory search (check prior work)
+               mcp openviking read (load code context)
+
+Task runs    → Claude-Mem auto-captures observations
+
+Task ends    → mcp openviking write (save what changed)
+               mcp supermemory add (save learnings — via Hermes)
+```
 
 ---
 
