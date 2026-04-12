@@ -1,0 +1,31 @@
+{
+  "mcpServers": {
+    "lightpanda": {
+      "command": "npx",
+      "args": ["-y", "lightpanda-mcp"],
+      "description": "MANDATORY browser for all web tasks. 9x faster than Chrome, 16x less memory. NEVER use Chrome."
+    },
+    "gitnexus": {
+      "command": "npx",
+      "args": ["-y", "gitnexus@latest", "mcp"],
+      "description": "Codebase map and analysis. Use to understand project structure before coding."
+    },
+    "supermemory": {
+      "url": "https://mcp.supermemory.ai/mcp",
+      "description": "Long-term memory across sessions. Check before every task, save learnings after."
+    },
+    "openviking": {
+      "command": "npx",
+      "args": ["-y", "@openviking/mcp"],
+      "description": "Codebase context memory. Stores what was changed and why."
+    },
+    "nano-banana": {
+      "command": "npx",
+      "args": ["-y", "nano-banana-2-mcp"],
+      "description": "Image generation via Gemini. Use for UI mockups, icons, brand assets.",
+      "env": {
+        "GEMINI_API_KEY": "${GEMINI_API_KEY}"
+      }
+    }
+  }
+}

@@ -477,6 +477,63 @@ agents/
 ## Related Resources
 
 - **Source Agent Collections:** See `agents-ruflo/`, `agents-omc/`, `agents-gsd/`, `agents-background/`, `agents-hermes/`
+---
+
+## ⚡ Quick Start
+
+```
+/pipeline    ← Start autonomous pipeline (Background Agent → Hermes → Shannon)
+/plan        ← Create an execution plan
+/design      ← Activate design agent (Galaxy → shadcn → UI/UX Pro Max)
+/research    ← Activate researcher with supermemory
+/security    ← Run Shannon security audit
+```
+
+Commands available in Claude Code: `.claude/commands/`
+
+---
+
+## Slash Commands
+
+| Command | File | Purpose |
+|---------|------|---------|
+| `/pipeline` | `.claude/commands/pipeline.md` | Full autonomous pipeline launcher |
+| `/plan` | `.claude/commands/plan.md` | Planning agent (mega-planner) |
+| `/design` | `.claude/commands/design.md` | Design agent (Galaxy + shadcn + UI rules) |
+| `/research` | `.claude/commands/research.md` | Research agent + supermemory |
+| `/security` | `.claude/commands/security-scan.md` | Shannon security audit |
+
+---
+
+## MCP Tools
+
+| Tool | Key | Purpose |
+|------|-----|---------|
+| Lightpanda | `lightpanda` | **MANDATORY** browser for all web tasks |
+| GitNexus | `gitnexus` | Codebase map and analysis |
+| Supermemory | `supermemory` | Long-term cross-session memory |
+| OpenViking | `openviking` | Codebase context memory |
+| Nano-Banana | `nano-banana` | Image generation via Gemini |
+
+Configs:
+- Claude Code: `.claude/settings.json` → `mcpServers`
+- Cursor: `.cursor/mcp.json`
+- Setup guide: `MEMORY_SETUP.md`
+
+---
+
+## Memory Tools
+
+| Layer | Tool | Stores | When to use |
+|-------|------|--------|------------|
+| Session | Claude-Mem | Observations, summaries | Auto (Claude Code) |
+| Codebase | OpenViking | What changed and why | After code edits |
+| Long-term | Supermemory | Patterns, insights, research | After every task |
+
+Full guide: `MEMORY_SETUP.md`
+
+---
+
 - **Orchestration Systems:** Core platforms remain in `COMBINED/orchestration/` (RuFlo, OMC, GSD, Superpowers)
 - **Skills:** See `COMBINED/skills/INDEX.md` for agent capabilities
 - **Commands:** See `COMBINED/commands/INDEX.md` for slash commands

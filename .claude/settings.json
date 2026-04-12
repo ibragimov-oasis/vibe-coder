@@ -175,6 +175,15 @@
             "timeout": 5000
           }
         ]
+      },
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "echo '[PIPELINE] Task complete. Run Hermes self-learning loop: mcp supermemory to save insights, then run Shannon security audit on changed files.'",
+            "timeout": 2000
+          }
+        ]
       }
     ]
   },
@@ -220,9 +229,15 @@
     "memory": {
       "backend": "hybrid",
       "enableHNSW": true,
-      "learningBridge": { "enabled": true },
-      "memoryGraph": { "enabled": true },
-      "agentScopes": { "enabled": true }
+      "learningBridge": {
+        "enabled": true
+      },
+      "memoryGraph": {
+        "enabled": true
+      },
+      "agentScopes": {
+        "enabled": true
+      }
     },
     "neural": {
       "enabled": true
@@ -242,18 +257,40 @@
         "benchmark"
       ],
       "schedules": {
-        "audit": { "interval": "1h", "priority": "critical" },
-        "optimize": { "interval": "30m", "priority": "high" },
-        "consolidate": { "interval": "2h", "priority": "low" },
-        "document": { "interval": "1h", "priority": "normal" },
-        "deepdive": { "interval": "4h", "priority": "normal" },
-        "ultralearn": { "interval": "1h", "priority": "normal" }
+        "audit": {
+          "interval": "1h",
+          "priority": "critical"
+        },
+        "optimize": {
+          "interval": "30m",
+          "priority": "high"
+        },
+        "consolidate": {
+          "interval": "2h",
+          "priority": "low"
+        },
+        "document": {
+          "interval": "1h",
+          "priority": "normal"
+        },
+        "deepdive": {
+          "interval": "4h",
+          "priority": "normal"
+        },
+        "ultralearn": {
+          "interval": "1h",
+          "priority": "normal"
+        }
       }
     },
     "learning": {
       "enabled": true,
       "autoTrain": true,
-      "patterns": ["coordination", "optimization", "prediction"],
+      "patterns": [
+        "coordination",
+        "optimization",
+        "prediction"
+      ],
       "retention": {
         "shortTerm": "24h",
         "longTerm": "30d"
@@ -296,10 +333,55 @@
         "mcp",
         "start"
       ]
+    },
+    "lightpanda": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "lightpanda-mcp"
+      ],
+      "description": "MANDATORY browser - 9x faster than Chrome. Use for ALL web tasks."
+    },
+    "gitnexus": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "gitnexus@latest",
+        "mcp"
+      ],
+      "description": "Codebase map and analysis"
+    },
+    "supermemory": {
+      "url": "https://mcp.supermemory.ai/mcp",
+      "description": "Long-term memory across sessions. Check before every task, save after."
+    },
+    "openviking": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@openviking/mcp"
+      ],
+      "description": "Codebase context memory"
+    },
+    "nano-banana": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "nano-banana-2-mcp"
+      ],
+      "description": "Image generation via Gemini",
+      "env": {
+        "GEMINI_API_KEY": "${GEMINI_API_KEY}"
+      }
     }
   },
   "enabledMcpjsonServers": [
     "claude-flow",
-    "ruv-swarm"
+    "ruv-swarm",
+    "lightpanda",
+    "gitnexus",
+    "supermemory",
+    "openviking",
+    "nano-banana"
   ]
 }

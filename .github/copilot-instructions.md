@@ -2,7 +2,88 @@
 
 > **Combined Copilot Configuration**
 > This file merges copilot-instructions.md content from multiple repositories.
-> Last updated: 2026-04-01
+> Last updated: 2026-04-12
+
+---
+
+## ⚡ HARDCODED RULES (Non-Negotiable)
+
+Read `CAPABILITIES.md` before every task. The rules below are extracted from it.
+
+### Rule 1 — Browser
+For **any** web request, screenshot, or site check:
+- **ALWAYS** use Lightpanda Browser (9× faster, 16× less memory than Chrome)
+- **NEVER** use Chrome, Playwright directly, or any other browser
+- MCP key: `lightpanda`
+
+### Rule 2 — Memory
+- Check `supermemory` before every task: `mcp supermemory search "<topic>"`
+- Save insights after every task: `mcp supermemory add ...`
+- Use `openviking` for codebase context memory
+
+### Rule 3 — UI / Design
+Always follow this hierarchy for any UI task:
+1. **Galaxy** (`COMBINED/ui-design/galaxy/`) — 3,000+ components, check first
+2. **shadcn/ui** (`COMBINED/ui-design/shadcn-ui/`) — accessible components
+3. **UI/UX Pro Max** (`COMBINED/ui-design/ui-ux-pro-max/`) — 161 rules, apply to all output
+4. Custom build — only if 1–3 have nothing suitable; document why
+
+### Rule 4 — Self-Improvement
+After every completed task, trigger Hermes agent to:
+- Extract reusable patterns
+- Create skill files in `COMBINED/skills/{domain}/`
+- Update supermemory with insights
+
+### Rule 5 — Security
+After every code change, run Shannon security audit:
+- Static analysis of changed files
+- Dynamic attacks via Lightpanda (XSS, SQLi, SSRF, auth bypass)
+- Fix all CRITICAL/HIGH findings before marking complete
+
+---
+
+## 🤖 Mega Agents (use these for all tasks)
+
+All agents live in `COMBINED/agents/mega/`. Use the table below to pick the right one:
+
+| Agent file | Best for |
+|-----------|---------|
+| `mega-orchestrator.md` | Running the full pipeline end-to-end |
+| `mega-debugger.md` | Any bug, error, crash investigation |
+| `mega-planner.md` | Architecture, roadmaps, PRDs, execution plans |
+| `mega-researcher.md` | Web research, technical analysis, competitive intel |
+| `mega-designer.md` | UI/UX components, audits, design systems |
+| `mega-security.md` | Security audits, pentesting (Shannon) |
+| `mega-seo.md` | Technical SEO, GEO, content optimization |
+| `mega-reviewer.md` | Code review across 7 quality dimensions |
+
+---
+
+## 🔄 Autonomous Pipeline
+
+When given a complex task with no user interaction needed:
+
+```
+Step 1: Background Agent   — executes task (reads CAPABILITIES.md, checks supermemory, maps code)
+Step 2: Hermes Agent       — self-learning loop (extract patterns, create skills, update memory)
+Step 3: Shannon Agent      — security audit via Lightpanda
+Loop:   if vulnerabilities — return to Step 1 with fix task
+Done:   if clean           — deliver final report
+```
+
+Full spec: `PIPELINE.md`
+
+---
+
+## 🛠️ MCP Tools Available
+
+| Tool | Key | Purpose |
+|------|-----|---------|
+| Lightpanda Browser | `lightpanda` | All web tasks (MANDATORY) |
+| GitNexus | `gitnexus` | Codebase map and analysis |
+| Supermemory | `supermemory` | Long-term memory |
+| OpenViking | `openviking` | Codebase context |
+| Nano-Banana | `nano-banana` | Image generation (Gemini) |
 
 ---
 
