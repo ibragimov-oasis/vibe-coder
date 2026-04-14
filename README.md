@@ -1,20 +1,21 @@
 <div align="center">
 
-# 🎯 Vibe-Coder Arsenal
+# 🎯 ULTRACAR v3.0 — Vibe-Coder Arsenal
 
-### The Ultimate Open-Source Toolkit for AI-Powered Development
+### The World's Most Powerful Open-Source AI Coding System
 
-*31 hand-picked repositories. 7 categories. Zero coding knowledge required.*
+*54 repositories. 15 mega-agents. 23 orchestration systems. Zero coding knowledge required.*
 
 [![GitHub stars](https://img.shields.io/github/stars/ibragimov-oasis/vibe-coder?style=for-the-badge&color=gold)](https://github.com/ibragimov-oasis/vibe-coder/stargazers)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)](LICENSE)
 [![Made with ❤️](https://img.shields.io/badge/Made%20with-❤️-red?style=for-the-badge)](https://github.com/ibragimov-oasis)
+[![ULTRACAR v3.0](https://img.shields.io/badge/ULTRACAR-v3.0-blueviolet?style=for-the-badge)](AGENTS.md)
 
 **⭐ If this saved you hours of searching — drop a star. It took me months to build.**
 
 ---
 
-[📖 My Story](#-my-story) · [🗂️ What's Inside](#%EF%B8%8F-whats-inside) · [🚀 How to Use](#-how-to-use) · [💛 Support](#-support-this-project) · [🤝 Contributing](#-contributing)
+[📖 My Story](#-my-story) · [🏗️ System Architecture](#%EF%B8%8F-system-architecture) · [⚡ How It Works](#-how-it-works) · [🗂️ All 54 Repos](#%EF%B8%8F-all-54-repositories) · [🚀 How to Use](#-how-to-use) · [💛 Support](#-support-this-project)
 
 </div>
 
@@ -30,22 +31,676 @@ But here's what nobody tells you about vibe-coding: **you spend more time search
 
 Every day after classes I was doing the same thing — opening GitHub Trending, scrolling TikTok and Instagram for AI coding tips, finding a repo someone mentioned, reading through it, figuring out if it's useful, downloading it, testing it. Most were tutorials or books — useless for a vibe-coder. I needed things that **make AI smarter, not me**.
 
-One day someone on TikTok mentioned a plugin called **"Superpowers"** — a skill system that makes Claude Code plan, spec, and build autonomously. That changed everything. I went deep into GitHub, trending repos daily, weekly, monthly. I checked top users, top organizations. I read every README, tested every tool.
-
 Then I did something nobody else bothered to do:
 
 1. **Downloaded** every useful repo (they're all public, MIT/open-source)
 2. **Made hidden files visible** (`.claude`, `.github`, `.cursorrules` — the real gold is always hidden)
 3. **Removed the clutter** — deleted promo videos, contributor photos, redundant docs
-4. **Organized everything** into categories
+4. **Combined everything** into one unified system
 
-**31 repositories. Months of daily research. One folder.**
+**54 repositories. Months of daily research. One autonomous AI coding machine.**
 
 This is the toolkit I wish existed when I started. Now it's yours.
 
 > I'm still saving up for **Claude Code** ($200/month, ~$2,400/year). If this repo helps you — even a little — consider [supporting me](#-support-this-project). Every donation gets me closer to making this collection even better.
 
 ---
+
+## 🏗️ System Architecture
+
+ULTRACAR is not just a collection of repos — it's a **unified autonomous system** where every part knows about every other part. Here's the big picture:
+
+### System Overview
+
+```
+┌─────────────────────────────────────────────────────────────────────┐
+│                    ULTRACAR v3.0 — 54 Repositories                  │
+├─────────────────────────────────────────────────────────────────────┤
+│                                                                     │
+│  ┌──────────────────────────────────────────────────────────────┐   │
+│  │  🧠 BRAIN — Configuration Layer                              │   │
+│  │  AGENTS.md · CAPABILITIES.md · PIPELINE.md                    │   │
+│  │  ┌────────────────────────────────────────────────────────┐   │   │
+│  │  │  IDE Configs (all identical ULTRACAR v3.0 identity)     │   │   │
+│  │  │  .claude/ · .cursor/ · .github/ · .codex/ · .gemini/   │   │   │
+│  │  │  .antigravity/                                          │   │   │
+│  │  └────────────────────────────────────────────────────────┘   │   │
+│  └──────────────────────────────────────────────────────────────┘   │
+│                                                                     │
+│  ┌──────────────────────────────────────────────────────────────┐   │
+│  │  🤖 AGENTS — 15 Mega-Agents                                  │   │
+│  │  orchestrator · debugger · planner · researcher · designer   │   │
+│  │  security · seo · reviewer · tester · architect              │   │
+│  │  coder · executor · writer · devops · infrastructure         │   │
+│  └──────────────────────────────────────────────────────────────┘   │
+│                                                                     │
+│  ┌──────────────────────────────────────────────────────────────┐   │
+│  │  🔄 ORCHESTRATION — 23 Systems                                │   │
+│  │  RuFlo · GSD · OMC · DeerFlow · Hermes · Background Agents  │   │
+│  │  Superpowers · Vibe-Kanban · 1Code · Terraform               │   │
+│  │  Archon · Ralph · Squad · Multica · PraisonAI                │   │
+│  │  cc-connect · Task Master · Refly                            │   │
+│  └──────────────────────────────────────────────────────────────┘   │
+│                                                                     │
+│  ┌───────────────┐  ┌───────────────┐  ┌───────────────────────┐   │
+│  │ 🛡️ SECURITY   │  │ 🧠 MEMORY     │  │ 🔌 MCP SERVERS (12)  │   │
+│  │ Shannon Pro   │  │ Supermemory   │  │ Lightpanda · GitNexus │   │
+│  │ Code Review   │  │ Claude-Mem    │  │ mcp-toolbox · markit  │   │
+│  │ Graph         │  │ OpenViking    │  │ code-review-graph     │   │
+│  └───────────────┘  └───────────────┘  │ taskmaster · archon   │   │
+│                                         └───────────────────────┘   │
+│  ┌───────────────┐  ┌───────────────┐  ┌───────────────────────┐   │
+│  │ 🎨 DESIGN     │  │ 📚 SKILLS     │  │ 💬 PROMPTS            │   │
+│  │ Galaxy 3000+  │  │ 3,000+ skills │  │ 4,000+ prompts        │   │
+│  │ shadcn/ui     │  │ 24 categories │  │ 30+ AI system prompts │   │
+│  │ Impeccable    │  │ Karpathy      │  │ 500+ cursor rules     │   │
+│  │ Taste-skill   │  │ Matt Pocock   │  │ 35+ prompt archives   │   │
+│  │ Stitch        │  │ 69 practices  │  │                       │   │
+│  │ UI/UX ProMax  │  │               │  │                       │   │
+│  └───────────────┘  └───────────────┘  └───────────────────────┘   │
+│                                                                     │
+└─────────────────────────────────────────────────────────────────────┘
+```
+
+### Numbers at a Glance
+
+| What | Count | Details |
+|:-----|------:|:--------|
+| Repositories | **54** | All open-source, all integrated |
+| Mega-Agents | **15** | One for every task type |
+| Orchestration Systems | **23** | From lightweight to enterprise swarms |
+| Memory Systems | **3** | Short-term, long-term, codebase |
+| MCP Servers | **12** | Browser, DB, images, files, code analysis |
+| UI Components | **3,000+** | Galaxy + shadcn/ui + Stitch |
+| Design Rules | **200+** | UI/UX Pro Max + Impeccable + Taste-skill |
+| Skills | **3,000+** | 24 categories |
+| Prompts & Templates | **4,000+** | System prompts, cursor rules, templates |
+| IDE Configurations | **6** | Claude, Copilot, Cursor, Codex, Gemini, Antigravity |
+
+---
+
+## ⚡ How It Works
+
+### The Extended Pipeline
+
+Every task goes through this autonomous pipeline. No manual intervention needed:
+
+```mermaid
+flowchart TD
+    A[📋 User Request] --> B{Complex task?}
+    B -->|Simple| F[🤖 Background Agent]
+    B -->|Complex| C[📊 Task Master]
+    C -->|Structure tasks from PRD| D[⚙️ Archon]
+    D -->|YAML DAG workflow| F
+    F -->|Execute with mega-agent| G[🧠 Hermes]
+    G -->|Self-learning loop| H[🛡️ Shannon]
+    H -->|Security audit| I{Vulnerabilities?}
+    I -->|YES| F
+    I -->|NO| J[📐 Code Review Graph]
+    J -->|Structural verification| K[✅ COMPLETE]
+    
+    L[📡 Claude HUD] -.->|Real-time monitoring| F
+    L -.-> G
+    L -.-> H
+    L -.-> J
+```
+
+### Pipeline Steps Explained
+
+| Step | System | What Happens |
+|:-----|:-------|:-------------|
+| **Step 0** | 🗂️ **Task Master** | Parses your request (or PRD) into structured tasks. Analyzes complexity. Creates execution order with dependencies. 36 MCP tools available. Merged with Vibe-Kanban for visual tracking. |
+| **Step 0.5** | ⚙️ **Archon** *(optional)* | Loads a YAML workflow (17 built-in or custom). Builds a deterministic DAG from task dependencies. Executes: plan → implement → validate → PR. Complements the Background Agent for structured flows. |
+| **Step 1** | 🤖 **Background Agent** | The main executor. Reads CAPABILITIES.md, checks Supermemory for prior work, maps codebase via GitNexus, selects the right mega-agent, and executes. Enhanced with Ralph (PRD loop), PraisonAI (multi-agent), Squad (team), Multica (platform). Applies Karpathy 4 principles + 69 best practices. |
+| **Step 2** | 🧠 **Hermes** | Self-learning loop. Analyzes what worked, what failed, what was novel. Extracts reusable patterns. Creates skills in `COMBINED/skills/`. Updates Supermemory. Registers in Refly skills registry. |
+| **Step 3** | 🛡️ **Shannon** | Full security audit. Static analysis (SAST + SCA) + code-review-graph blast-radius analysis + dynamic attacks via Lightpanda (XSS, SQLi, SSRF, auth bypass). Generates CVSS-rated vulnerability report. If vulnerabilities found → back to Step 1. Max 3 retries. |
+| **Step 4** | 📐 **Code Review Graph** | Structural verification. Builds code graph (19 languages, Tree-sitter). Blast-radius analysis (8.2x token reduction). Dead code detection. Architecture overview. Risk-scored review. |
+| **Always On** | 📡 **Claude HUD** | Real-time monitoring: context health, tool activity, agent status, todo progress, session cost, git status. |
+
+---
+
+## 🤖 The 15 Mega-Agents
+
+Every task starts by picking the right agent. Each mega-agent is a unified combination of the best strategies from multiple repos:
+
+```mermaid
+mindmap
+  root((ULTRACAR<br/>Mega-Agents))
+    🏗️ Building
+      mega-coder
+      mega-executor
+      mega-architect
+    🔍 Analysis
+      mega-debugger
+      mega-reviewer
+      mega-tester
+    📋 Planning
+      mega-planner
+      mega-researcher
+      mega-writer
+    🎨 Creative
+      mega-designer
+      mega-seo
+    🔧 Operations
+      mega-devops
+      mega-infrastructure
+      mega-orchestrator
+    🛡️ Security
+      mega-security
+```
+
+| Agent | When to Use | Combined From |
+|:------|:------------|:-------------|
+| **mega-orchestrator** | Running the full pipeline, routing tasks | RuFlo + GSD + OMC + Archon + Ralph + Squad + Multica + PraisonAI + Task Master + Refly |
+| **mega-coder** | Writing code, building features | RuFlo + OMC + Superpowers + Claude-Skills + PraisonAI + Karpathy + 69 best practices |
+| **mega-debugger** | Fixing bugs, investigating errors | GSD + OMC + RuFlo + Superpowers + code-review-graph blast-radius |
+| **mega-planner** | Architecture, roadmaps, PRDs | GSD + OMC + RuFlo + Ralph + Matt Pocock PRD skills + Task Master |
+| **mega-researcher** | Deep research, web analysis | Hermes + GSD + DeerFlow + PraisonAI + markitdown |
+| **mega-designer** | UI/UX, design systems | Galaxy + shadcn + Impeccable + Taste-skill + Stitch + UI/UX Pro Max |
+| **mega-security** | Pentesting, vulnerability scanning | Shannon Pro (35k⭐) + code-review-graph structural analysis |
+| **mega-seo** | SEO audits, content marketing | Claude-SEO + SEOMachine (10 agents, 26 marketing skills, GA4/GSC) |
+| **mega-reviewer** | Code review across 7 quality dimensions | RuFlo + OMC + Superpowers + code-review-graph (8.2x token reduction) |
+| **mega-tester** | Testing, TDD, coverage analysis | OMC + GSD + RuFlo + Superpowers + Matt Pocock TDD |
+| **mega-architect** | System design, ADRs | OMC + RuFlo + GSD + Matt Pocock architecture + code-review-graph |
+| **mega-executor** | Executing plans precisely | OMC + GSD + Ralph PRD loop + Archon YAML + Task Master MCP |
+| **mega-writer** | Documentation, README, API docs | OMC + RuFlo + markitdown + Matt Pocock edit-article |
+| **mega-devops** | Git, CI/CD, deployment | OMC + RuFlo DevOps + git-guardrails + cc-connect |
+| **mega-infrastructure** | Swarm coordination, consensus | RuFlo (80+ agents) + Squad + Multica |
+
+---
+
+## 🎨 Design Workflow — Step by Step
+
+When the system gets a UI/design task, here's the exact flow:
+
+```mermaid
+flowchart LR
+    A[🎨 UI Task] --> B[1. Galaxy]
+    B -->|3,000+ components| C[2. shadcn/ui]
+    C -->|Accessible React| D[3. Impeccable]
+    D -->|Anti-slop audit| E[4. Taste-skill]
+    E -->|7 premium skills| F[5. Stitch]
+    F -->|Google design gen| G[6. UI/UX Pro Max]
+    G -->|161 rules| H[✅ Ship It]
+    
+    style A fill:#9333ea,color:#fff
+    style H fill:#16a34a,color:#fff
+```
+
+| Step | Tool | What It Does | Location |
+|:-----|:-----|:-------------|:---------|
+| **1** | **Galaxy** (Uiverse.io) | Search 3,000+ ready-made UI components: buttons, cards, forms, loaders, toggles, notifications, tooltips | `COMBINED/ui-design/ui-components-galaxy/` |
+| **2** | **shadcn/ui** | Accessible, customizable React components. The most popular component library. | `COMBINED/ui-design/ui-components-shadcn/` |
+| **3** | **Impeccable** | Anti-slop design enforcement. 18 commands + 7 references. Detects AI design mistakes: gray text, Inter font abuse, purple gradients, nested cards, bounce easing. | `COMBINED/ui-design/ui-impeccable/` |
+| **4** | **Taste-skill** | 7 premium frontend skills with 3 dials: `DESIGN_VARIANCE`, `MOTION_INTENSITY`, `VISUAL_DENSITY`. Skills: taste, redesign, soft, output, minimalist, brutalist, stitch. | `COMBINED/ui-design/ui-taste-skill/` |
+| **5** | **Stitch Skills** | Google Stitch design generation. React component synthesis, prompt enhancement, DESIGN.md creation, remotion videos. | `COMBINED/ui-design/ui-stitch-skills/` |
+| **6** | **UI/UX Pro Max** | 161 reasoning rules + 67 styles. Covers accessibility, touch targets, breakpoints, animation, performance, and more. | `COMBINED/ui-design/ui-rules/ui-ux-pro-max/` |
+| **7** | **Custom** | Only if steps 1-6 have nothing suitable. Must document why. | — |
+
+**Key Design Rules (auto-enforced):**
+- Contrast ratio ≥ 4.5:1
+- Touch targets ≥ 44×44pt
+- Mobile-first breakpoints: 375 / 768 / 1024 / 1440
+- Animations 150-300ms, transform/opacity only
+- `prefers-reduced-motion` respected
+- Images: WebP/AVIF with width/height for CLS < 0.1
+
+---
+
+## 💻 Coding Workflow — Step by Step
+
+When the system gets a coding task:
+
+```mermaid
+flowchart TD
+    A[📝 Coding Task] --> B[Check Supermemory]
+    B -->|Any prior work?| C[Map Codebase via GitNexus]
+    C --> D[Select mega-coder]
+    D --> E{Apply Karpathy 4 Principles}
+    E --> F[1. Think Before Coding]
+    F --> G[2. Simplicity First]
+    G --> H[3. Surgical Changes]
+    H --> I[4. Goal-Driven Execution]
+    I --> J[Write Tests First]
+    J --> K[Implement Feature]
+    K --> L[Verify Tests Pass]
+    L --> M[code-review-graph blast-radius]
+    M --> N[Shannon Security Scan]
+    N --> O[Hermes Learning]
+    O --> P[✅ Ship It]
+```
+
+**The 4 Karpathy Principles (embedded in ALL agents):**
+
+| Principle | What It Means | Prevents |
+|:----------|:-------------|:---------|
+| **Think Before Coding** | State assumptions, present tradeoffs, stop when confused | Wrong assumptions, hidden confusion |
+| **Simplicity First** | Minimum code that solves the problem. No speculative features. | Over-engineering, bloated abstractions |
+| **Surgical Changes** | Every changed line traces to the user's request | Touching code you shouldn't, scope creep |
+| **Goal-Driven Execution** | Write tests first, define success criteria, loop until verified | Shipping untested code |
+
+---
+
+## 🔍 Debugging Workflow — Step by Step
+
+```mermaid
+flowchart TD
+    A[🐛 Bug Report] --> B[mega-debugger activated]
+    B --> C[GitNexus: map affected code]
+    C --> D[code-review-graph: blast-radius analysis]
+    D --> E[Identify root cause]
+    E --> F[Check Supermemory: seen this before?]
+    F --> G[Create minimal fix]
+    G --> H[Verify fix with tests]
+    H --> I[Shannon: ensure fix doesn't introduce new vulns]
+    I --> J[Hermes: save pattern for future]
+    J --> K[✅ Fixed]
+```
+
+---
+
+## 📋 Planning Workflow — Step by Step
+
+When starting a new project or feature:
+
+```mermaid
+flowchart TD
+    A[💡 Idea / PRD] --> B[mega-planner activated]
+    B --> C[Task Master: parse into tasks]
+    C --> D[Complexity analysis]
+    D --> E[Create dependency graph]
+    E --> F{Use Archon?}
+    F -->|Structured flow| G[YAML DAG workflow]
+    F -->|Creative flow| H[Ralph PRD loop]
+    G --> I[Execute tasks in order]
+    H --> I
+    I --> J[Track in Vibe-Kanban]
+    J --> K[Review with mega-reviewer]
+    K --> L[✅ Plan Complete]
+```
+
+**Matt Pocock planning skills available:**
+- `write-a-prd` — Generate a Product Requirements Doc
+- `prd-to-plan` — Convert PRD to implementation plan
+- `prd-to-issues` — Convert PRD to GitHub issues
+- `grill-me` — Stress-test your idea before building
+- `design-an-interface` — Design system from requirements
+
+---
+
+## 🛡️ Security Workflow — Step by Step
+
+Shannon Pro runs a 5-phase white-box pentest:
+
+```mermaid
+flowchart LR
+    A[🛡️ Code Change] --> B[Phase 1: Recon]
+    B --> C[Phase 2: SAST + SCA]
+    C --> D[Phase 3: Dynamic via Lightpanda]
+    D --> E[Phase 4: Exploit & Prove]
+    E --> F[Phase 5: Report with CVSS]
+    F --> G{Pass?}
+    G -->|YES ✅| H[Ship]
+    G -->|NO ❌| I[Auto-fix]
+    I --> A
+```
+
+| Phase | What Happens |
+|:------|:-------------|
+| **Recon** | Map attack surface from source code |
+| **SAST + SCA** | Static analysis + dependency vulnerability scan |
+| **Dynamic** | Launch real attacks via Lightpanda browser: XSS, SQLi, SSRF, auth bypass, IDOR |
+| **Exploit** | Prove vulnerabilities with working exploits |
+| **Report** | CVSS-rated report with fix recommendations |
+
+---
+
+## 📈 SEO Workflow — Step by Step
+
+```mermaid
+flowchart TD
+    A[📈 SEO Task] --> B[mega-seo activated]
+    B --> C[Technical SEO Audit]
+    C --> D[On-Page Analysis]
+    D --> E[Content Optimization]
+    E --> F[GEO: Generative Engine Optimization]
+    F --> G[SEOMachine: 10 agents]
+    G --> H[GA4 / GSC Integration]
+    H --> I[Generate PDF Report]
+    I --> J[✅ SEO Complete]
+```
+
+**SEOMachine provides 26 marketing skills:** copywriting, content-strategy, pricing, CRO, social-media, email-marketing, brand-voice, A/B testing, and more.
+
+---
+
+## 🔌 MCP Servers — 12 Always Available
+
+MCP (Model Context Protocol) servers extend AI capabilities:
+
+| Server | Purpose | Why You Need It |
+|:-------|:--------|:---------------|
+| 🌐 **Lightpanda** | Headless browser | **MANDATORY** for all web tasks. 9× faster than Chrome, 16× less memory. Written in Zig. |
+| 🗺️ **GitNexus** | Codebase analysis | Indexes your code into a knowledge graph — dependencies, call chains, clusters, flows. |
+| 🧠 **Supermemory** | Long-term memory | #1 on LongMemEval, LoCoMo, ConvoMem benchmarks. Remembers everything across sessions. |
+| 📂 **OpenViking** | Codebase context | ByteDance's context database. Unified memory for resources and skills. |
+| 🖼️ **Nano-Banana** | Image generation | MCP server for Gemini image gen. 1K–4K resolution, aspect ratio control. |
+| 📐 **Pretext** | Text layout | Multiline text measurement. No DOM reflow. All languages + emoji support. |
+| 🗄️ **mcp-toolbox** | Database access | PostgreSQL, MySQL, BigQuery, MongoDB, Redis, Elasticsearch, CockroachDB, ClickHouse, Snowflake, Neo4j, Oracle — 20+ databases. |
+| 📄 **markitdown** | File conversion | PDF, DOCX, XLSX, PPTX, images, audio, HTML, ZIP → clean Markdown. |
+| 📊 **code-review-graph** | Code structure | AST analysis with 8.2x token reduction. 19 languages. 22 MCP tools. Blast-radius. Dead code detection. |
+| 📋 **Task Master** | Task management | AI-driven: PRD→tasks→dependencies. 36 MCP tools. Complexity analysis. Multi-model support. |
+| ⚙️ **Archon** | YAML workflows | 17 deterministic workflows. DAG execution. Fire-and-forget. |
+| 🔧 **mcp-toolbox-sdk** | Database SDK | Python, JS/TS, Go, Java SDKs for LangChain, LlamaIndex, ADK, Genkit. |
+
+---
+
+## 🔄 23 Orchestration Systems
+
+From lightweight single-agent to enterprise swarms:
+
+| System | Stars | Best For | Key Feature |
+|:-------|------:|:---------|:------------|
+| **RuFlo** | 29k⭐ | Enterprise swarms | Q-Learning Router, 100+ agents, fault-tolerant |
+| **GSD** | 46k⭐ | Spec-driven dev | Context engineering, phased execution |
+| **OMC** | — | Multi-agent teams | 19 agents, plan → PRD → exec → verify → fix |
+| **DeerFlow** | 55k⭐ | Deep research | ByteDance, LangGraph + FastAPI |
+| **Hermes** | — | Self-learning | Pattern extraction, skill creation |
+| **Background Agents** | — | Async execution | Cloud sandboxed environments |
+| **Superpowers** | 129k⭐ | TDD workflow | Composable skills, autonomous builds |
+| **Vibe-Kanban** | — | Task management | Kanban boards + coding agents (merged with Task Master) |
+| **1Code** | — | Lightweight | Simple orchestration, desktop app |
+| **Terraform** | — | Infrastructure | Terraform-as-code workflows |
+| **Archon** | 17k⭐ | YAML workflows | 17 deterministic DAGs, fire-and-forget |
+| **Ralph** | — | PRD-driven loop | progress.txt, fresh context per iteration |
+| **Squad** | — | AI teams | Named agents, casting, watch mode, decisions archive |
+| **Multica** | — | Agent platform | Agents as teammates, board view, multi-workspace |
+| **PraisonAI** | — | Multi-agent | 100+ LLMs, route/parallel/loop/repeat, MCP |
+| **cc-connect** | — | Remote access | 7 AI agents × 10 chat platforms (Telegram, Slack, Discord…) |
+| **Task Master** | — | Task management | MCP-based, PRD→tasks, 36 tools, complexity analysis |
+| **Refly** | — | Skills builder | Visual workflow → executable skill → export to MCP |
+
+---
+
+## 📚 3,000+ Skills in 24 Categories
+
+| Category | Path | What You Get |
+|:---------|:-----|:-------------|
+| **Claude** | `skills-claude/` | Karpathy 4 principles + 69 best practices + coding patterns |
+| **Development** | `skills-development/` | Matt Pocock 20 skills: TDD, triage, git-guardrails, scaffold-exercises |
+| **Planning** | `skills-planning/` | write-a-prd, prd-to-plan, prd-to-issues, grill-me, design-an-interface |
+| **Design** | `skills-design/` | Impeccable + Taste-skill: 25 design skills |
+| **SEO** | `skills-seo/` | SEOMachine (10 agents, 26 marketing skills), audit, technical SEO, GEO |
+| **Writing** | `skills-writing/` | edit-article, write-a-skill, ubiquitous-language |
+| **RuFlo** | `skills-ruflo/` | Enterprise orchestration patterns |
+| **Superpowers** | `skills-superpowers/` | TDD, systematic dev, composable workflows |
+| **OMC** | `skills-omc/` | Multi-agent coordination |
+| **DevOps** | `skills-devops/` | CI/CD, deployment, infrastructure |
+| **Research** | `skills-research/` | Deep research methodologies |
+| **Hermes** | `skills-hermes/` | Self-learning patterns |
+| **DeerFlow** | `skills-deer-flow/` | Research agent skills |
+| **Antigravity** | `skills-antigravity/` | IDE plugin skills |
+| **Awesome Claude** | `skills-awesome-claude/` | Curated community skills |
+| **Background** | `skills-background/` | Async execution skills |
+| **Business** | `skills-business/` | Business & growth |
+| **Copilot** | `skills-copilot/` | GitHub Copilot skills |
+| **Data Analysis** | `skills-data-analysis/` | Data processing |
+| **Everything CC** | `skills-everything-cc/` | Enterprise patterns |
+| **Platform** | `skills-platform/` | Platform & meta skills |
+| **Stitch** | `skills-stitch/` | Google Stitch design generation |
+
+All in `COMBINED/skills/`
+
+---
+
+## 🎯 Capability Map — What Do I Need?
+
+| I want to... | Agent | Tools | Skills |
+|:-------------|:------|:------|:-------|
+| **Build a feature** | mega-coder | GitNexus, OpenViking, code-review-graph | skills-claude, skills-development |
+| **Fix a bug** | mega-debugger | GitNexus, Lightpanda, code-review-graph | skills-claude |
+| **Plan a project** | mega-planner | GitNexus, Supermemory, Task Master | skills-planning |
+| **Research a topic** | mega-researcher | Lightpanda, Supermemory, markitdown | skills-research |
+| **Design a UI** | mega-designer | Nano-Banana, Lightpanda | skills-design, Galaxy, shadcn |
+| **Audit security** | mega-security | Lightpanda, GitNexus, code-review-graph | Shannon Pro |
+| **Optimize SEO** | mega-seo | Lightpanda, Supermemory | skills-seo, SEOMachine |
+| **Review code** | mega-reviewer | GitNexus, Supermemory, code-review-graph | skills-claude |
+| **Write tests** | mega-tester | GitNexus, code-review-graph | skills-development (TDD) |
+| **Execute a plan** | mega-executor | GitNexus, OpenViking, Archon, Task Master | skills-planning |
+| **Write docs** | mega-writer | GitNexus, markitdown | skills-writing |
+| **Deploy** | mega-devops | GitNexus, cc-connect | skills-devops |
+| **Coordinate agents** | mega-infrastructure | GitNexus, Squad, Multica | skills-ruflo |
+| **Manage tasks** | mega-orchestrator | Task Master, Archon, Vibe-Kanban | skills-planning |
+| **Access remotely** | mega-orchestrator | cc-connect | — |
+| **Query databases** | mega-coder | mcp-toolbox (20+ DBs) | — |
+| **Convert files** | mega-researcher | markitdown (PDF, DOCX, images, audio) | — |
+| **Run full pipeline** | mega-orchestrator | ALL tools | ALL skills |
+
+---
+
+## 🗂️ All 54 Repositories
+
+### Category 1: 🤖 Agents (3)
+
+| # | Project | Stars | What It Does |
+|:-:|:--------|------:|:-------------|
+| 1 | **Background Agents** | — | Hosted background coding agent. Creates PRs while you sleep. |
+| 2 | **Hermes Agent** | — | Self-improving AI by Nous Research. Built-in learning loop, Telegram/Discord/Slack. |
+| 3 | **Shannon** | 35k⭐ | AI pentester. Source code analysis → vulnerability discovery → real exploits. |
+
+### Category 2: 🎼 Orchestration (18)
+
+| # | Project | Stars | What It Does |
+|:-:|:--------|------:|:-------------|
+| 4 | **1Code** | — | Desktop app for Claude Code, Codex with kanban, browser previews. |
+| 5 | **DeerFlow** | 55k⭐ | ByteDance's super agent harness. #1 GitHub Trending. |
+| 6 | **Get Shit Done (GSD)** | 46k⭐ | Meta-prompting system. Solves context rot. Amazon, Google, Shopify engineers use it. |
+| 7 | **oh-my-claudecode (OMC)** | — | Multi-agent orchestration. Zero learning curve. |
+| 8 | **RuFlo (Claude Flow)** | 29k⭐ | Enterprise AI orchestration. 100+ agents, Q-Learning Router, 6,000+ commits. |
+| 9 | **Superpowers** | 129k⭐ | Complete dev workflow in skills. Specs, plans, sub-agents — autonomous for hours. |
+| 10 | **Vibe Kanban** | — | Kanban board for coding agents. Plan → run → review → preview. Merged with Task Master. |
+| 11 | **Archon** | 17k⭐ | YAML workflow engine. 17 deterministic DAGs. Fire-and-forget AI coding. |
+| 12 | **Ralph** | — | PRD-driven autonomous loop. Fresh context per iteration, progress.txt tracking. |
+| 13 | **Squad** | — | AI team via GitHub Copilot. Named agents, casting, watch mode, decisions archive. |
+| 14 | **Multica** | — | Agent platform. Agents as teammates. Board view, multi-workspace. |
+| 15 | **PraisonAI** | — | Multi-agent framework. 100+ LLMs, route/parallel/loop/repeat, MCP, guardrails. |
+| 16 | **cc-connect** | — | Remote AI access. 7 agents × 10 chat platforms. Telegram, Slack, Discord, WeChat. |
+| 17 | **Claude-Task-Master** | — | MCP task management. PRD→tasks→dependencies. 36 tools, complexity analysis. |
+| 18 | **Refly** | — | Skills builder platform. Visual workflow → executable skill → export to Claude/Cursor/MCP. |
+
+### Category 3: 💬 Prompts & References (7)
+
+| # | Project | Stars | What It Does |
+|:-:|:--------|------:|:-------------|
+| 19 | **prompts.chat** | 143k⭐ | World's largest open-source prompt library. Forbes-featured. |
+| 20 | **System Prompts & Models** | — | Leaked system prompts from Claude, ChatGPT, Cursor, Copilot, and more. |
+| 21 | **System Prompts Leaks** | — | Another collection. Continuously updated. |
+| 22 | **Vibe-Coding Prompt Template** | — | Structured prompts for shipping MVPs. |
+| 23 | **Awesome Self-Hosted** | — | Massive list of self-hostable tools and services. |
+| 24 | **awesome-ai-system-prompts** | — | 30+ AI tool system prompts (Cursor, Claude, Devin, Manus, v0, Windsurf). |
+| 25 | **awesome-cursorrules** | — | 500+ curated .cursorrules files for every framework and language. |
+
+### Category 4: 🧠 Skills (12)
+
+| # | Project | Stars | What It Does |
+|:-:|:--------|------:|:-------------|
+| 26 | **Antigravity Awesome Skills** | 29k⭐ | 1,340+ skills for Claude, Gemini, Cursor, Copilot. One command install. |
+| 27 | **Awesome Claude Code** | — | Curated list of skills, agents, plugins, hooks for Claude Code. |
+| 28 | **Awesome Copilot** | — | Agents, instructions, skills for GitHub Copilot. |
+| 29 | **Claude SEO** | — | SEO audit skill: technical SEO, E-E-A-T, schema markup, PDF reports. |
+| 30 | **Claude Skills** | 5.2k⭐ | 205 skills + 16 agents + 3 personas. 268 Python CLI scripts. |
+| 31 | **Everything Claude Code** | 50k⭐ | Performance optimization. Anthropic Hackathon Winner. |
+| 32 | **Obsidian Skills** | — | Agent skills for Obsidian: markdown, JSON canvas, CLI. |
+| 33 | **claude-code-best-practice** | — | 69 tips, agent teams, orchestration workflows. |
+| 34 | **skills (Matt Pocock)** | — | 20 skills: write-a-prd, TDD, triage, grill-me, git-guardrails, design-interface. |
+| 35 | **andrej-karpathy-skills** | — | 4 principles: Think Before Coding, Simplicity, Surgical, Goal-Driven. |
+| 36 | **SEOMachine** | — | 10 SEO agents, 26 marketing skills, GA4/GSC/DataForSEO, WordPress publishing. |
+| 37 | **system-prompts-and-models** | — | 35+ AI tool prompt archive (Google, Anthropic, OpenAI). |
+
+### Category 5: 🔧 Tools & MCP Servers (11)
+
+| # | Project | Stars | What It Does |
+|:-:|:--------|------:|:-------------|
+| 38 | **GitNexus** | — | Indexes codebase into knowledge graph: dependencies, call chains, clusters. |
+| 39 | **OpenViking** | — | ByteDance's context database for AI agents. Unified memory. |
+| 40 | **Lightpanda Browser** | — | Headless browser for AI agents. Zig. 9× faster, 16× less memory than Chrome. |
+| 41 | **Claude-Mem** | — | Persistent memory compression. Remembers across sessions. |
+| 42 | **Nano Banana 2 MCP** | — | MCP server for Gemini image gen. 1K–4K resolution. |
+| 43 | **Pretext** | — | Pure JS/TS text measurement. No DOM reflow. All languages. |
+| 44 | **Supermemory** | — | #1 on LongMemEval, LoCoMo benchmarks. Auto-learns from conversations. |
+| 45 | **code-review-graph** | — | AST analysis. 8.2x token reduction. 19 languages. 22 MCP tools. |
+| 46 | **mcp-toolbox** | — | Database access: PostgreSQL, MySQL, BigQuery, MongoDB, Redis — 20+ databases. |
+| 47 | **mcp-toolbox-sdk** | — | Database SDKs: Python, JS/TS, Go, Java. LangChain, LlamaIndex, ADK, Genkit. |
+| 48 | **markitdown** | — | File→Markdown: PDF, DOCX, XLSX, PPTX, images, audio, HTML, ZIP. |
+
+### Category 6: 🎨 UI/UX & Design (6)
+
+| # | Project | Stars | What It Does |
+|:-:|:--------|------:|:-------------|
+| 49 | **Galaxy (Uiverse.io)** | — | 3,000+ unique UI elements. Buttons, cards, loaders, toggles. All MIT. |
+| 50 | **shadcn/ui** | — | The most popular React component library. Beautiful, open source. |
+| 51 | **UI UX Pro Max** | — | 161 reasoning rules + 67 styles for AI-generated UIs. |
+| 52 | **Impeccable** | — | Anti-slop design. 18 commands, 7 references. Fights AI design mistakes. |
+| 53 | **Taste-skill** | — | 7 premium frontend skills. 3-dial parameterization. |
+| 54 | **Stitch Skills** | — | Google Stitch design generation. React components, DESIGN.md synthesis. |
+
+### Category 7: 📡 Monitoring (1)
+
+| # | Project | What It Does |
+|:-:|:--------|:-------------|
+| — | **Claude HUD** | Real-time monitoring: context, tools, agents, todos, cost, git status. |
+
+---
+
+## 📂 Full Directory Structure
+
+```
+vibe-coder/
+├── README.md                    ← YOU ARE HERE
+├── AGENTS.md                    ← Universal agent catalog (all 6 IDEs read this)
+├── CAPABILITIES.md              ← Complete rules and capability registry
+├── PIPELINE.md                  ← Extended autonomous pipeline specification
+├── MEMORY_SETUP.md              ← Memory system configuration guide
+│
+├── .claude/                     ← Claude Code
+│   ├── CLAUDE.md                   Master ULTRACAR v3.0 identity
+│   ├── agents/                     15 mega-agents
+│   ├── skills/                     39+ specialized skills
+│   ├── commands/                   Slash commands
+│   ├── helpers/                    Hook scripts (session, memory, pipeline)
+│   └── settings.json               12 MCP servers + hooks + permissions
+│
+├── .github/                     ← GitHub Copilot
+│   ├── copilot-instructions.md     ULTRACAR v3.0 instructions + Squad
+│   ├── agents/                     Copilot agent files (.agent.md)
+│   └── prompts/                    Reusable prompts (.prompt.md)
+│
+├── .cursor/                     ← Cursor AI
+│   ├── rules/                      6 rule files (.mdc) — auto-attached
+│   └── mcp.json                    12 MCP server configs
+│
+├── .codex/                      ← OpenAI Codex
+│   └── AGENTS.md                   ULTRACAR v3.0 identity
+│
+├── .gemini/                     ← Google Gemini CLI
+│   └── GEMINI.md                   ULTRACAR v3.0 identity
+│
+├── .antigravity/                ← Antigravity
+│   └── AGENTS.md                   ULTRACAR v3.0 identity
+│
+└── COMBINED/                    ← All content from 54 repositories
+    ├── agents/
+    │   ├── mega/                    15 MEGA AGENTS (start here)
+    │   ├── by-role/                 19 role categories (336+ agents)
+    │   └── by-interface/            6 IDE-specific agent sets
+    │
+    ├── skills/                      3,000+ skills across 24 categories
+    │   ├── skills-claude/              Best practices + Karpathy
+    │   ├── skills-development/         Matt Pocock 20 skills
+    │   ├── skills-seo/                 SEO + SEOMachine
+    │   └── ... (21 more)
+    │
+    ├── orchestration/               23 orchestration systems
+    │   ├── core-archon/                YAML workflows (17 DAGs)
+    │   ├── core-taskmaster/            MCP tasks (36 tools)
+    │   ├── core-ralph/                 PRD autonomous loop
+    │   ├── core-ruflo/                 Enterprise (100+ agents)
+    │   ├── core-gsd/                   Spec-driven dev
+    │   ├── core-omc/                   Multi-agent teams
+    │   └── ... (17 more)
+    │
+    ├── security/
+    │   └── security-shannon/           Shannon pentester (full source)
+    │
+    ├── memory/                      Memory systems
+    │   ├── memory-claude-mem/          Compression memory
+    │   └── memory-supermemory/         Long-term memory
+    │
+    ├── mcp-servers/                 12 MCP server configs
+    │   ├── mcp-lightpanda/             AI browser (9× faster)
+    │   ├── mcp-toolbox/                20+ databases
+    │   ├── mcp-markitdown/             File→Markdown
+    │   ├── mcp-code-review-graph/      Code structure (8.2x)
+    │   └── ... (8 more)
+    │
+    ├── ui-design/                   Complete design system
+    │   ├── ui-components-galaxy/       3,000+ components
+    │   ├── ui-components-shadcn/       React components
+    │   ├── ui-impeccable/              Anti-slop (18 cmds)
+    │   ├── ui-taste-skill/             7 premium skills
+    │   ├── ui-stitch-skills/           Google Stitch
+    │   └── ui-rules/ui-ux-pro-max/     161 rules
+    │
+    ├── prompts/                     4,000+ prompts
+    │   ├── prompts-ai-systems/         30+ AI system prompts
+    │   ├── prompts-system-models/      35+ prompt archives
+    │   └── prompts-templates/          Reusable templates
+    │
+    └── reference/                   Reference materials
+        ├── claude-hud/                 Real-time monitoring
+        ├── cursorrules/                500+ .cursorrules files
+        └── awesome-selfhosted/         Self-hosted tools list
+```
+
+---
+
+## 🚀 How to Use
+
+### Option 1: Clone Everything
+
+```bash
+git clone https://github.com/ibragimov-oasis/vibe-coder.git
+```
+
+You get **all 54 projects** organized and integrated. All hidden files (`.claude`, `.cursorrules`, `.github`) are included — the ULTRACAR system activates automatically in supported IDEs.
+
+### Option 2: Cherry-Pick What You Need
+
+Browse the categories above, find what you need, and grab individual folders.
+
+### Option 3: Let AI Do It
+
+Copy this prompt to your AI coding assistant:
+
+```
+Read the CAPABILITIES.md file in this repo first. Then check AGENTS.md for the 
+full agent catalog. Use the mega-agent system to handle my task. Start by checking
+Supermemory for any prior work on similar tasks.
+```
+
+### 💡 Quick Start for Each IDE
+
+| IDE | What Happens |
+|:----|:-------------|
+| **Claude Code** | Reads `.claude/CLAUDE.md` automatically. Full ULTRACAR v3.0 identity activates. 12 MCP servers available. |
+| **GitHub Copilot** | Reads `.github/copilot-instructions.md`. All mega-agents available as Copilot agents. Squad integration is native. |
+| **Cursor** | Reads `.cursor/rules/*.mdc` automatically. 6 rule files attach to all files. MCP servers via `.cursor/mcp.json`. |
+| **OpenAI Codex** | Reads `.codex/AGENTS.md`. ULTRACAR v3.0 identity and pipeline available. |
+| **Gemini CLI** | Reads `.gemini/GEMINI.md`. Nano-banana image gen works natively with Gemini. |
+| **Antigravity** | Reads `.antigravity/AGENTS.md`. ULTRACAR v3.0 identity and pipeline available. |
+
+---
+
 ## 💛 Support This Project
 
 I'm a student. I built this after classes, between homework and exams. No sponsors, no company behind this — just months of daily research on GitHub Trending, TikTok, Instagram, and countless README files.
@@ -64,166 +719,12 @@ I'm a student. I built this after classes, between homework and exams. No sponso
 > 
 > **BTC (BTC):** `1NAX3vZpZZRhp6G1RxH4KjcAGoGYyz2WVQ`
 
-
-*Replace the wallet addresses above with your actual Binance wallet addresses.*
-
 ### Other Ways to Help
 
 - ⭐ **Star this repo** — it's free and helps others find it
 - 🔀 **Fork & share** — spread the word
 - 📢 **Post about it** — tag me on Twitter/X, TikTok, or Instagram
 - 🐛 **Report issues** — help improve the collection
-
----
-
-## 🗂️ What's Inside
-
-### Quick Navigation
-
-| Category | Count | Description |
-|:---------|:-----:|:------------|
-| [🤖 Agents](#-agents) | 3 | Autonomous AI agents that work in the background |
-| [🎼 Orchestration](#-orchestration) | 7 | Multi-agent coordination & workflow systems |
-| [💬 Prompts](#-prompts) | 4 | Prompt libraries, system prompts & templates |
-| [📚 Reference](#-reference) | 1 | Curated lists of self-hosted tools & services |
-| [🧠 Skills](#-skills) | 7 | Skill packs that make AI coding agents smarter |
-| [🔧 Tools](#-tools) | 7 | Browsers, memory systems, MCP servers & more |
-| [🎨 UI/UX](#-uiux) | 3 | Design systems, component libraries & UI intelligence |
-
-**Total: 32 projects across 7 categories**
-
----
-
-### 🤖 Agents
-
-Autonomous AI agents that run tasks independently — in the background, in the cloud, or across platforms.
-
-| Project | What It Does | Original Repo |
-|:--------|:-------------|:--------------|
-| **Background Agents (Open-Inspect)** | Hosted background coding agent. Works on tasks while you sleep — creates PRs, supports multiplayer, works with Claude & Codex. | [github.com/nichochar/open-inspect](https://github.com/nichochar/open-inspect) |
-| **Hermes Agent** | Self-improving AI agent by Nous Research. Built-in learning loop — creates skills from experience, remembers across sessions, works via Telegram/Discord/Slack. Runs on a $5 VPS. | [github.com/NousResearch/hermes-agent](https://github.com/NousResearch/hermes-agent) |
-| **Shannon** | AI pentester for web apps. Analyzes your source code, finds vulnerabilities, and executes real exploits to prove them. Fully autonomous — one command launches the full pentest. | [github.com/KeygraphHQ/shannon](https://github.com/KeygraphHQ/shannon) |
-
----
-
-### 🎼 Orchestration
-
-Systems that coordinate multiple AI agents, manage workflows, and supercharge your coding sessions.
-
-| Project | What It Does | Original Repo |
-|:--------|:-------------|:--------------|
-| **1Code** | Desktop app to run Claude Code, Codex & more with visual UI, git worktree isolation, background agents, kanban board, and browser previews. One app for all your AI agents. | [github.com/1anthropic/1code](https://github.com/1anthropic/1code) |
-| **DeerFlow** | ByteDance's open-source super agent harness. Orchestrates sub-agents, memory, and sandboxes. #1 on GitHub Trending. | [github.com/bytedance/deer-flow](https://github.com/bytedance/deer-flow) |
-| **Get Shit Done** | Meta-prompting system for Claude Code, Gemini CLI, Codex, Copilot, Cursor, Antigravity. Solves context rot. Trusted by engineers at Amazon, Google, Shopify. | [github.com/gsd-build/get-shit-done](https://github.com/gsd-build/get-shit-done) |
-| **oh-my-claudecode** | Multi-agent orchestration for Claude Code. Zero learning curve. Install → setup → `autopilot: build X`. That's it. | [github.com/Yeachan-Heo/oh-my-claudecode](https://github.com/Yeachan-Heo/oh-my-claudecode) |
-| **RuFlo (Claude Flow)** | Enterprise AI orchestration — 100+ specialized agents in coordinated swarms with self-learning, fault-tolerant consensus. 6,000+ commits. | [github.com/ruvnet/claude-flow](https://github.com/ruvnet/claude-flow) |
-| **Superpowers** | Complete development workflow in skills. Your AI stops guessing — it specs, plans, launches sub-agents, and builds autonomously for hours. | [github.com/obra/superpowers](https://github.com/obra/superpowers) |
-| **Vibe Kanban** | Kanban board for coding agents. Plan with issues, run agents in workspaces, review diffs, preview your app. Supports 10+ coding agents. | [github.com/BloopAI/vibe-kanban](https://github.com/BloopAI/vibe-kanban) |
-
----
-
-### 💬 Prompts
-
-Prompt libraries, leaked system prompts, and templates for vibe-coding workflows.
-
-| Project | What It Does | Original Repo |
-|:--------|:-------------|:--------------|
-| **prompts.chat** | World's largest open-source prompt library. 143k+ stars. Featured in Forbes, referenced by Harvard. Works with ChatGPT, Claude, Gemini, Llama, Mistral. | [github.com/f/awesome-chatgpt-prompts](https://github.com/f/awesome-chatgpt-prompts) |
-| **System Prompts & Models of AI Tools** | Collection of leaked/extracted system prompts from major AI tools — Claude, ChatGPT, Cursor, GitHub Copilot, and more. See how the pros build their prompts. | [github.com/x1xhlol/system-prompts-and-models-of-ai-tools](https://github.com/x1xhlol/system-prompts-and-models-of-ai-tools) |
-| **System Prompts Leaks** | Another collection of system prompts/developer messages from AI products. Continuously updated. | [github.com/asgeirtj/system_prompts_leaks](https://github.com/asgeirtj/system_prompts_leaks) |
-| **Vibe-Coding Prompt Template** | Practical workflow for shipping MVPs — structured prompts, agent docs, and AI-assisted coding workflows. Turn an idea into an MVP step by step. | [github.com/KhazP/vibe-coding-prompt-template](https://github.com/KhazP/vibe-coding-prompt-template) |
-
----
-
-### 📚 Reference
-
-Curated mega-lists of tools and services.
-
-| Project | What It Does | Original Repo |
-|:--------|:-------------|:--------------|
-| **Awesome Self-Hosted** | Massive list of free software network services and web apps you can host yourself. Covers analytics, automation, CMS, e-commerce, and hundreds more categories. | [github.com/awesome-selfhosted/awesome-selfhosted](https://github.com/awesome-selfhosted/awesome-selfhosted) |
-
----
-
-### 🧠 Skills
-
-Skill packs, plugins, and instruction sets that plug directly into AI coding agents.
-
-| Project | What It Does | Original Repo |
-|:--------|:-------------|:--------------|
-| **Antigravity Awesome Skills** | 1,340+ agentic skills for Claude Code, Gemini CLI, Cursor, Copilot & more. Install with one command. Covers dev, testing, security, infra, marketing. 29k+ stars. | [github.com/sickn33/antigravity-awesome-skills](https://github.com/sickn33/antigravity-awesome-skills) |
-| **Awesome Claude Code** | Curated list of skills, agents, plugins, hooks, and tools for Claude Code. The definitive directory. | [github.com/mrcnski/awesome-claude-code](https://github.com/mrcnski/awesome-claude-code) |
-| **Awesome Copilot** | Agents, instructions, skills, plugins, hooks, and workflows for GitHub Copilot. Includes a searchable website and machine-readable `llms.txt`. | [github.com/AriCuiu/awesome-copilot](https://github.com/AriCuiu/awesome-copilot) |
-| **Claude SEO** | SEO audit skill for Claude Code — technical SEO, on-page analysis, E-E-A-T, schema markup, AI search optimization, PDF reports. | [github.com/AgriciDaniel/claude-seo](https://github.com/AgriciDaniel/claude-seo) |
-| **Claude Skills** | 205 skills + 16 agents + 3 personas for Claude Code. 268 Python CLI scripts included. Works on 11 platforms. 5,200+ stars. | [github.com/alirezarezvani/claude-skills](https://github.com/alirezarezvani/claude-skills) |
-| **Everything Claude Code** | Performance optimization system for AI agents. Skills, instincts, memory optimization, security scanning. Anthropic Hackathon Winner. 50k+ stars. | [github.com/affaan-m/everything-claude-code](https://github.com/affaan-m/everything-claude-code) |
-| **Obsidian Skills** | Agent skills for Obsidian — markdown, bases, JSON canvas, CLI, and web extraction. Follows the Agent Skills spec. | [github.com/kepano/obsidian-skills](https://github.com/kepano/obsidian-skills) |
-
----
-
-### 🔧 Tools
-
-Standalone tools — browsers, memory engines, MCP servers, and utilities.
-
-| Project | What It Does | Original Repo |
-|:--------|:-------------|:--------------|
-| **GitNexus** | Indexes any codebase into a knowledge graph — dependencies, call chains, clusters, execution flows. Makes AI agents actually understand your code architecture. | [github.com/abhigyanpatwari/GitNexus](https://github.com/abhigyanpatwari/GitNexus) |
-| **OpenViking** | Context database for AI agents by ByteDance. Solves fragmented context, surging context demand, and poor retrieval. Unified memory, resources, and skills. | [github.com/volcengine/OpenViking](https://github.com/volcengine/OpenViking) |
-| **Lightpanda Browser** | Headless browser built from scratch for AI agents. Written in Zig, not a Chromium fork. 9x faster, 16x less memory than Chrome. | [github.com/lightpanda-io/browser](https://github.com/lightpanda-io/browser) |
-| **Claude-Mem** | Persistent memory compression system for Claude Code. Your AI remembers across sessions with compressed, structured memory. | [github.com/thedotmack/claude-mem](https://github.com/thedotmack/claude-mem) |
-| **Nano Banana 2 MCP** | MCP server for Gemini image generation. 1K–4K resolution, aspect ratio control, thinking modes, multiple variations. | [github.com/daveremy/nano-banana-2-mcp](https://github.com/daveremy/nano-banana-2-mcp) |
-| **Pretext** | Pure JS/TS library for multiline text measurement & layout. No DOM reflow needed. Supports all languages, emojis, mixed-bidi. | [github.com/chenglou/pretext](https://github.com/chenglou/pretext) |
-| **Supermemory** | State-of-the-art memory and context engine for AI. #1 on LongMemEval, LoCoMo, and ConvoMem benchmarks. Auto-learns from conversations, builds user profiles. | [github.com/supermemoryai/supermemory](https://github.com/supermemoryai/supermemory) |
-
----
-
-### 🎨 UI/UX
-
-Design systems, component libraries, and UI intelligence for beautiful apps.
-
-| Project | What It Does | Original Repo |
-|:--------|:-------------|:--------------|
-| **Galaxy (Uiverse.io)** | 3,000+ unique UI elements — buttons, cards, loaders, toggles, and more. All MIT licensed. Copy and use. | [github.com/uiverse-io/galaxy](https://github.com/uiverse-io/galaxy) |
-| **shadcn/ui** | Beautifully designed, customizable components. The most popular React component library. Open source, open code. | [github.com/shadcn-ui/ui](https://github.com/shadcn-ui/ui) |
-| **UI UX Pro Max** | AI skill with 161 reasoning rules and 67 UI styles. Generates complete design systems for any project. | [github.com/nextlevelbuilder/ui-ux-pro-max-skill](https://github.com/nextlevelbuilder/ui-ux-pro-max-skill) |
-
----
-
-## 🚀 How to Use
-
-### Option 1: Clone Everything
-
-```bash
-git clone https://github.com/ibragimov-oasis/vibe-coder.git
-```
-
-You get **all 32 projects** organized in folders. All hidden files (`.claude`, `.cursorrules`, `.github` instructions) have been **made visible** — just rename them back if you want to activate them in your projects.
-
-### Option 2: Cherry-Pick What You Need
-
-Browse the categories above, click the original repo link, and grab only what you need.
-
-### Option 3: Let AI Do It
-
-Copy this prompt to your AI coding assistant:
-
-```
-Go to my project at [YOUR_PROJECT_PATH]. Then visit the vibe-coder repo at
-https://github.com/ibragimov-oasis/vibe-coder and look at the Skills/ and
-orchestration/ folders. Find the most relevant skills and configs for my
-project type and integrate them. Make hidden configs active by restoring
-the dot-prefix on files that need it.
-```
-
-### 💡 About Hidden Files
-
-When you download a repo from GitHub, files starting with `.` (like `.claude/`, `.cursorrules`, `.github/`) are hidden by default. In this collection, **I've renamed them to be visible** so you can see and learn from them:
-
-- Files prefixed with `_` (e.g., `_claude/`) → rename to `.claude/`
-- Files prefixed with `visible_` → rename back with `.` prefix
-- Files with dots removed → restore the dot prefix
-
-> **Quick fix:** Ask your AI assistant: *"Make all renamed hidden config files in this directory active by restoring their original dot-prefixed names."*
 
 ---
 
@@ -241,12 +742,11 @@ Want to add a repo to this collection? Here's how:
 ### How to Contribute
 
 1. Fork this repo
-2. Add the new project to the correct category folder
-3. Make sure hidden files are visible (rename dot-prefixed files)
-4. Remove unnecessary media files (promo videos, contributor photos)
-5. Keep the README and CHANGELOG — remove CONTRIBUTING.md and LICENSE (we use our own)
-6. Update this main README.md with the new project entry
-7. Submit a Pull Request with:
+2. Add the new project to the correct `COMBINED/` category folder
+3. Update `AGENTS.md` with the new project entry
+4. Update `CAPABILITIES.md` if it adds new capabilities
+5. Update this `README.md` with the new project description
+6. Submit a Pull Request with:
    - Project name and link to original repo
    - One-line description of what it does
    - Why it's useful for vibe-coders
@@ -257,40 +757,67 @@ Want to add a repo to this collection? Here's how:
 
 This repo exists because of the incredible open-source community. Every project here was built by talented developers who chose to share their work publicly. **Thank you.**
 
-| Creator / Organization | Project | Link |
-|:----------------------|:--------|:-----|
-| nichochar | Background Agents | [Repo](https://github.com/nichochar/open-inspect) |
-| Nous Research | Hermes Agent | [Repo](https://github.com/NousResearch/hermes-agent) |
-| Keygraph | Shannon | [Repo](https://github.com/KeygraphHQ/shannon) |
-| 21st.dev | 1Code | [Repo](https://github.com/1anthropic/1code) |
-| ByteDance | DeerFlow | [Repo](https://github.com/bytedance/deer-flow) |
-| GSD Foundation | Get Shit Done | [Repo](https://github.com/gsd-build/get-shit-done) |
-| Yeachan Heo | oh-my-claudecode | [Repo](https://github.com/Yeachan-Heo/oh-my-claudecode) |
-| Reuven Cohen (ruv) | RuFlo | [Repo](https://github.com/ruvnet/claude-flow) |
-| Jesse Vincent (obra) | Superpowers | [Repo](https://github.com/obra/superpowers) |
-| BloopAI / Polymer | Vibe Kanban | [Repo](https://github.com/BloopAI/vibe-kanban) |
-| Fatih Kadir Akın | prompts.chat | [Repo](https://github.com/f/awesome-chatgpt-prompts) |
-| x1xhlol (Lucknite) | System Prompts & Models | [Repo](https://github.com/x1xhlol/system-prompts-and-models-of-ai-tools) |
-| Ásgeir Tómas | System Prompts Leaks | [Repo](https://github.com/asgeirtj/system_prompts_leaks) |
-| Khaz P | Vibe-Coding Prompt Template | [Repo](https://github.com/KhazP/vibe-coding-prompt-template) |
-| awesome-selfhosted community | Awesome Self-Hosted | [Repo](https://github.com/awesome-selfhosted/awesome-selfhosted) |
-| sickn33 | Antigravity Awesome Skills | [Repo](https://github.com/sickn33/antigravity-awesome-skills) |
-| mrcnski | Awesome Claude Code | [Repo](https://github.com/mrcnski/awesome-claude-code) |
-| AriCuiu | Awesome Copilot | [Repo](https://github.com/AriCuiu/awesome-copilot) |
-| Daniel Agrici | Claude SEO | [Repo](https://github.com/AgriciDaniel/claude-seo) |
-| Alireza Rezvani | Claude Skills | [Repo](https://github.com/alirezarezvani/claude-skills) |
-| Affaan Mustafa | Everything Claude Code | [Repo](https://github.com/affaan-m/everything-claude-code) |
-| Steph Ango (kepano) | Obsidian Skills | [Repo](https://github.com/kepano/obsidian-skills) |
-| Abhigyan Patwari | GitNexus | [Repo](https://github.com/abhigyanpatwari/GitNexus) |
-| ByteDance / Volcengine | OpenViking | [Repo](https://github.com/volcengine/OpenViking) |
-| Lightpanda | Lightpanda Browser | [Repo](https://github.com/lightpanda-io/browser) |
-| thedotmack | Claude-Mem | [Repo](https://github.com/thedotmack/claude-mem) |
-| Dave Remy | Nano Banana 2 MCP | [Repo](https://github.com/daveremy/nano-banana-2-mcp) |
-| Cheng Lou | Pretext | [Repo](https://github.com/chenglou/pretext) |
-| Supermemory Team | Supermemory | [Repo](https://github.com/supermemoryai/supermemory) |
-| Uiverse.io | Galaxy | [Repo](https://github.com/uiverse-io/galaxy) |
-| shadcn | shadcn/ui | [Repo](https://github.com/shadcn-ui/ui) |
-| NextLevelBuilder | UI UX Pro Max | [Repo](https://github.com/nextlevelbuilder/ui-ux-pro-max-skill) |
+<details>
+<summary><b>View all 54 credits</b></summary>
+
+| # | Creator / Organization | Project | Link |
+|:-:|:----------------------|:--------|:-----|
+| 1 | nichochar | Background Agents | [Repo](https://github.com/nichochar/open-inspect) |
+| 2 | Nous Research | Hermes Agent | [Repo](https://github.com/NousResearch/hermes-agent) |
+| 3 | Keygraph | Shannon | [Repo](https://github.com/KeygraphHQ/shannon) |
+| 4 | 21st.dev | 1Code | [Repo](https://github.com/1anthropic/1code) |
+| 5 | ByteDance | DeerFlow | [Repo](https://github.com/bytedance/deer-flow) |
+| 6 | GSD Foundation | Get Shit Done | [Repo](https://github.com/gsd-build/get-shit-done) |
+| 7 | Yeachan Heo | oh-my-claudecode | [Repo](https://github.com/Yeachan-Heo/oh-my-claudecode) |
+| 8 | Reuven Cohen (ruv) | RuFlo | [Repo](https://github.com/ruvnet/claude-flow) |
+| 9 | Jesse Vincent (obra) | Superpowers | [Repo](https://github.com/obra/superpowers) |
+| 10 | BloopAI / Polymer | Vibe Kanban | [Repo](https://github.com/BloopAI/vibe-kanban) |
+| 11 | Fatih Kadir Akın | prompts.chat | [Repo](https://github.com/f/awesome-chatgpt-prompts) |
+| 12 | x1xhlol (Lucknite) | System Prompts & Models | [Repo](https://github.com/x1xhlol/system-prompts-and-models-of-ai-tools) |
+| 13 | Ásgeir Tómas | System Prompts Leaks | [Repo](https://github.com/asgeirtj/system_prompts_leaks) |
+| 14 | Khaz P | Vibe-Coding Prompt Template | [Repo](https://github.com/KhazP/vibe-coding-prompt-template) |
+| 15 | awesome-selfhosted community | Awesome Self-Hosted | [Repo](https://github.com/awesome-selfhosted/awesome-selfhosted) |
+| 16 | sickn33 | Antigravity Awesome Skills | [Repo](https://github.com/sickn33/antigravity-awesome-skills) |
+| 17 | mrcnski | Awesome Claude Code | [Repo](https://github.com/mrcnski/awesome-claude-code) |
+| 18 | AriCuiu | Awesome Copilot | [Repo](https://github.com/AriCuiu/awesome-copilot) |
+| 19 | Daniel Agrici | Claude SEO | [Repo](https://github.com/AgriciDaniel/claude-seo) |
+| 20 | Alireza Rezvani | Claude Skills | [Repo](https://github.com/alirezarezvani/claude-skills) |
+| 21 | Affaan Mustafa | Everything Claude Code | [Repo](https://github.com/affaan-m/everything-claude-code) |
+| 22 | Steph Ango (kepano) | Obsidian Skills | [Repo](https://github.com/kepano/obsidian-skills) |
+| 23 | Abhigyan Patwari | GitNexus | [Repo](https://github.com/abhigyanpatwari/GitNexus) |
+| 24 | ByteDance / Volcengine | OpenViking | [Repo](https://github.com/volcengine/OpenViking) |
+| 25 | Lightpanda | Lightpanda Browser | [Repo](https://github.com/lightpanda-io/browser) |
+| 26 | thedotmack | Claude-Mem | [Repo](https://github.com/thedotmack/claude-mem) |
+| 27 | Dave Remy | Nano Banana 2 MCP | [Repo](https://github.com/daveremy/nano-banana-2-mcp) |
+| 28 | Cheng Lou | Pretext | [Repo](https://github.com/chenglou/pretext) |
+| 29 | Supermemory Team | Supermemory | [Repo](https://github.com/supermemoryai/supermemory) |
+| 30 | Uiverse.io | Galaxy | [Repo](https://github.com/uiverse-io/galaxy) |
+| 31 | shadcn | shadcn/ui | [Repo](https://github.com/shadcn-ui/ui) |
+| 32 | NextLevelBuilder | UI UX Pro Max | [Repo](https://github.com/nextlevelbuilder/ui-ux-pro-max-skill) |
+| 33 | Cole Medin | Archon | [Repo](https://github.com/coleam00/archon) |
+| 34 | Ralph Team | Ralph | — |
+| 35 | Squad Team | Squad | — |
+| 36 | Multica Team | Multica | — |
+| 37 | PraisonAI Team | PraisonAI | [Repo](https://github.com/MervinPraison/PraisonAI) |
+| 38 | cc-connect Team | cc-connect | — |
+| 39 | Task Master Team | Claude-Task-Master | — |
+| 40 | Refly Team | Refly | [Repo](https://github.com/refly-ai/refly) |
+| 41 | code-review-graph Team | code-review-graph | — |
+| 42 | Google Cloud | mcp-toolbox | [Repo](https://github.com/googleapis/genai-toolbox) |
+| 43 | Google Cloud | mcp-toolbox-sdk | — |
+| 44 | Microsoft | markitdown | [Repo](https://github.com/microsoft/markitdown) |
+| 45 | Impeccable Team | Impeccable | — |
+| 46 | Taste-skill Team | Taste-skill | — |
+| 47 | Google | Stitch Skills | — |
+| 48 | SEOMachine Team | SEOMachine | — |
+| 49 | claude-code-best-practice | Best Practice | — |
+| 50 | Matt Pocock | Skills | [Repo](https://github.com/mattpocock/claude-skills) |
+| 51 | Andrej Karpathy (skills) | Karpathy Principles | — |
+| 52 | Claude HUD Team | Claude HUD | — |
+| 53 | awesome-ai-system-prompts | AI System Prompts | — |
+| 54 | awesome-cursorrules | Cursor Rules | — |
+
+</details>
 
 ---
 
@@ -304,10 +831,12 @@ This meta-repository is licensed under [MIT](LICENSE). Each included project ret
 
 **Built with no code, just vibes. 🎵**
 
-*If you're a vibe-coder too — welcome home.*
+*ULTRACAR v3.0 — 54 repositories unified into one autonomous AI coding machine.*
 
 ⭐ **Star this repo** · 🔀 **Fork it** · 📢 **Share it**
 
 Made by [@ibragimov-oasis](https://github.com/ibragimov-oasis) — a law student in Japan who vibes with AI
+
+**Last Updated:** 2026-04-14
 
 </div>

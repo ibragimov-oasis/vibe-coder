@@ -26,6 +26,21 @@
       "env": {
         "GEMINI_API_KEY": "${GEMINI_API_KEY}"
       }
+    },
+    "mcp-toolbox": {
+      "command": "npx",
+      "args": ["-y", "@toolbox-sdk/server", "--prebuilt=postgres"],
+      "description": "Database access MCP — PostgreSQL, MySQL, BigQuery, MongoDB, Redis, 20+ databases."
+    },
+    "markitdown": {
+      "command": "markitdown",
+      "args": [],
+      "description": "Convert files to Markdown — PDF, DOCX, XLSX, images, audio, HTML for LLM consumption."
+    },
+    "code-review-graph": {
+      "command": "uv",
+      "args": ["run", "code-review-graph", "serve"],
+      "description": "Tree-sitter AST code graph — 8.2x token reduction, blast-radius analysis, 19 languages."
     }
   }
 }

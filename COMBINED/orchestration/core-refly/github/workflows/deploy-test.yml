@@ -1,0 +1,324 @@
+name: Deploy To Test Environment
+
+on:
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+    paths:
+      - "apps/**"
+      - "packages/**"
+      - "package.json"
+      - "pnpm-lock.yaml"
+      - "pnpm-workspace.yaml"
+
+permissions:
+  id-token: write
+  contents: read
+
+concurrency:
+  group: deploy-test-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  linear-precheck:
+    name: Check Linear Issues
+    runs-on: ubuntu-latest
+    if: github.repository == 'refly-ai/refly'
+    outputs:
+      should_deploy: ${{ steps.check_issues.outputs.should_deploy }}
+      issue_ids: ${{ steps.check_issues.outputs.issue_ids }}
+    steps:
+      - name: Query Linear for deployment-ready issues
+        id: check_issues
+        env:
+          ORBIT_API_URL: ${{ vars.ORBIT_API_URL }}
+          ORBIT_API_KEY: ${{ secrets.ORBIT_API_KEY }}
+        run: |
+          # Query for merged issues in Scheduled/Staging projects
+          RESPONSE=$(curl -s -X POST "$ORBIT_API_URL/api/issues/query" \
+            -H "Content-Type: application/json" \
+            -H "X-Orbit-API-Key: $ORBIT_API_KEY" \
+            -d '{
+              "filter": {
+                "state": { "name": { "eq": "Merged" } }
+              }
+            }')
+
+          echo "Linear API Response:"
+          echo "$RESPONSE" | jq .
+
+          # Extract issue IDs from response
+          MERGED_ISSUES=$(echo "$RESPONSE" | jq -c '[.data.nodes[].id]')
+
+          echo "Merged issues found:"
+          echo "$MERGED_ISSUES" | jq .
+
+          # Check if there are any merged issues
+          ISSUE_COUNT=$(echo "$MERGED_ISSUES" | jq 'length')
+
+          if [ "$ISSUE_COUNT" -gt 0 ]; then
+            echo "Found $ISSUE_COUNT merged issue(s). Proceeding with deployment."
+            echo "should_deploy=true" >> "$GITHUB_OUTPUT"
+            echo "issue_ids=$MERGED_ISSUES" >> "$GITHUB_OUTPUT"
+          else
+            echo "No merged issues found. Proceeding with deployment anyway."
+            echo "should_deploy=true" >> "$GITHUB_OUTPUT"
+            echo "issue_ids=[]" >> "$GITHUB_OUTPUT"
+          fi
+
+  build-push-images:
+    name: Build and Push Images
+    runs-on: ubuntu-latest
+    needs: linear-precheck
+    if: github.repository == 'refly-ai/refly'
+    strategy:
+      matrix:
+        app: ["api", "web"]
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - uses: pnpm/action-setup@v4
+        if: matrix.app == 'web'
+        with:
+          run_install: false
+
+      - name: Use Node.js
+        uses: actions/setup-node@v4
+        if: matrix.app == 'web'
+        with:
+          node-version: 24
+          cache: "pnpm"
+
+      - name: Install dependencies
+        if: matrix.app == 'web'
+        run: pnpm install
+
+      - name: Build
+        run: pnpm build:web
+        if: matrix.app == 'web'
+        env:
+          NODE_OPTIONS: "--max_old_space_size=8192"
+          SENTRY_AUTH_TOKEN: ${{ secrets.SENTRY_AUTH_TOKEN }}
+          TURBO_TEAM: ${{ secrets.TURBO_TEAM }}
+          TURBO_TOKEN: ${{ secrets.TURBO_TOKEN }}
+          VITE_API_URL: ${{ vars.TEST_API_URL }}
+          VITE_COLLAB_URL: ${{ vars.TEST_COLLAB_URL }}
+          VITE_SUBSCRIPTION_ENABLED: true
+          VITE_SENTRY_ENABLED: true
+          VITE_SENTRY_DSN: ${{ secrets.SENTRY_DSN }}
+          VITE_RUNTIME: web
+          VITE_STATIC_PUBLIC_ENDPOINT: ${{ vars.TEST_STATIC_PUBLIC_ENDPOINT }}
+          VITE_STATIC_PRIVATE_ENDPOINT: ${{ vars.TEST_STATIC_PRIVATE_ENDPOINT }}
+          VITE_CANVAS_TEMPLATE_ENABLED: true
+          VITE_ENV_TAG: test
+
+      - name: Configure AWS credentials
+        uses: aws-actions/configure-aws-credentials@v4
+        with:
+          aws-region: ${{ vars.AWS_REGION }}
+          role-to-assume: ${{ secrets.AWS_GHA_ROLE_ARN }}
+          role-session-name: gha-refly-test-deploy
+
+      - name: Set Docker tags
+        id: docker_tags
+        env:
+          AWS_REGION: ${{ vars.AWS_REGION }}
+        run: |
+          ACCOUNT_ID=$(aws sts get-caller-identity --query Account --output text)
+          REGISTRY="${ACCOUNT_ID}.dkr.ecr.${AWS_REGION}.amazonaws.com"
+          REPOSITORY="${REGISTRY}/refly-${{ matrix.app }}"
+          IMAGE_TAG="nightly-${{ github.sha }}"
+          TAGS="${REPOSITORY}:${IMAGE_TAG}"
+          echo "registry=$REGISTRY" >> "$GITHUB_OUTPUT"
+          echo "repository=$REPOSITORY" >> "$GITHUB_OUTPUT"
+          echo "image_tag=$IMAGE_TAG" >> "$GITHUB_OUTPUT"
+          echo "deploy_image=${REPOSITORY}:${IMAGE_TAG}" >> "$GITHUB_OUTPUT"
+          echo "tags=$TAGS" >> "$GITHUB_OUTPUT"
+
+      - name: Check if image exists in ECR
+        id: check_image
+        env:
+          AWS_REGION: ${{ vars.AWS_REGION }}
+        run: |
+          if aws ecr describe-images \
+            --repository-name refly-${{ matrix.app }} \
+            --image-ids imageTag=${{ steps.docker_tags.outputs.image_tag }} \
+            --region "$AWS_REGION" \
+            --output json > /dev/null 2>&1; then
+            echo "Image exists in ECR, skipping build"
+            echo "image_exists=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "Image does not exist in ECR, will build"
+            echo "image_exists=false" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Set up Docker Buildx
+        if: steps.check_image.outputs.image_exists == 'false'
+        uses: docker/setup-buildx-action@v3
+
+      - name: Log in to Amazon ECR
+        if: steps.check_image.outputs.image_exists == 'false'
+        env:
+          AWS_REGION: ${{ vars.AWS_REGION }}
+        run: |
+          aws ecr get-login-password --region "$AWS_REGION" | docker login --username AWS --password-stdin "${{ steps.docker_tags.outputs.registry }}"
+
+      - name: Build and push Docker image
+        if: steps.check_image.outputs.image_exists == 'false'
+        uses: docker/build-push-action@v6
+        env:
+          DOCKER_BUILD_RECORD_UPLOAD: "false"
+        with:
+          context: .
+          file: ./apps/${{ matrix.app }}/Dockerfile
+          push: true
+          tags: ${{ steps.docker_tags.outputs.tags }}
+          cache-from: type=registry,ref=${{ steps.docker_tags.outputs.repository }}:buildcache
+          cache-to: type=registry,ref=${{ steps.docker_tags.outputs.repository }}:buildcache,mode=max
+          build-args: |
+            PUBLIC_CLOUDFLARE_SITE_KEY=${{ vars.TEST_PUBLIC_CLOUDFLARE_SITE_KEY }}
+
+      - name: Persist image tag for sync job
+        run: |
+          echo "${{ steps.docker_tags.outputs.image_tag }}" > image_tag.txt
+
+      - name: Upload image tag artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: image-tag-${{ matrix.app }}
+          path: image_tag.txt
+          if-no-files-found: error
+
+  sync-apps:
+    name: Sync App Values (PR)
+    runs-on: ubuntu-latest
+    needs: [linear-precheck, build-push-images]
+    if: github.repository == 'refly-ai/refly' && needs.linear-precheck.outputs.should_deploy == 'true'
+    steps:
+      - name: Download image tag artifacts
+        uses: actions/download-artifact@v4
+        with:
+          pattern: image-tag-*
+          path: artifacts
+
+      - name: Validate image tag artifacts
+        run: |
+          set -euo pipefail
+
+          test -f artifacts/image-tag-api/image_tag.txt || {
+            echo "Missing artifacts/image-tag-api/image_tag.txt"
+            exit 1
+          }
+
+          test -f artifacts/image-tag-web/image_tag.txt || {
+            echo "Missing artifacts/image-tag-web/image_tag.txt"
+            exit 1
+          }
+
+          echo "Found required image tag artifacts"
+
+      - name: Call Orbit sync API
+        env:
+          ORBIT_API_URL: ${{ vars.ORBIT_API_URL }}
+          ORBIT_API_KEY: ${{ secrets.ORBIT_API_KEY }}
+        run: |
+          set -euo pipefail
+
+          API_TAG=$(cat artifacts/image-tag-api/image_tag.txt)
+          WEB_TAG=$(cat artifacts/image-tag-web/image_tag.txt)
+
+          PAYLOAD=$(jq -n \
+            --arg environment "test" \
+            --arg syncMode "directCommit" \
+            --arg apiTag "$API_TAG" \
+            --arg webTag "$WEB_TAG" \
+            '{
+              repository: "powerformer/apps",
+              environment: $environment,
+              syncMode: $syncMode,
+              changes: [
+                {
+                  application: "refly-api",
+                  valuesFilePath: "kubernetes/envs/test/refly-api/values.yaml",
+                  valuesContent: ({image: {tag: $apiTag}} | tojson)
+                },
+                {
+                  application: "refly-web",
+                  valuesFilePath: "kubernetes/envs/test/refly-web/values.yaml",
+                  valuesContent: ({image: {tag: $webTag}} | tojson)
+                }
+              ]
+            }')
+
+          echo "Sync payload:" 
+          echo "$PAYLOAD" | jq .
+
+          RESPONSE=$(curl -fsS -X POST "$ORBIT_API_URL/api/app/sync" \
+            -H "Content-Type: application/json" \
+            -H "X-Orbit-API-Key: $ORBIT_API_KEY" \
+            -d "$PAYLOAD")
+
+          echo "Orbit sync response:"
+          echo "$RESPONSE" | jq .
+
+          # Validate JSON response
+          SUCCESS=$(echo "$RESPONSE" | jq -r '.success // false')
+          if [ "$SUCCESS" != "true" ]; then
+            ERROR_MSG=$(echo "$RESPONSE" | jq -r '.error // .message // "Unknown error"')
+            echo "✗ Orbit sync failed: $ERROR_MSG"
+            exit 1
+          fi
+
+          PR_URL=$(echo "$RESPONSE" | jq -r '.data.prUrl // .data.pullRequestUrl // .data.url // empty')
+          if [ -n "$PR_URL" ]; then
+            echo "✓ Orbit sync succeeded: $PR_URL"
+          else
+            echo "✓ Orbit sync succeeded"
+          fi
+
+  update-linear-status:
+    name: Update Linear Issues to In Review
+    runs-on: ubuntu-latest
+    needs: [linear-precheck, build-push-images, sync-apps]
+    if: success() && needs.linear-precheck.outputs.should_deploy == 'true' && needs.linear-precheck.outputs.issue_ids != '[]' && github.ref_name == 'main'
+    steps:
+      - name: Update issue statuses to In Review
+        env:
+          ORBIT_API_URL: ${{ vars.ORBIT_API_URL }}
+          ORBIT_API_KEY: ${{ secrets.ORBIT_API_KEY }}
+          ISSUE_IDS: ${{ needs.linear-precheck.outputs.issue_ids }}
+        run: |
+          echo "Updating issues to In Review status..."
+          echo "Issue IDs: $ISSUE_IDS"
+
+          # Batch update all issues to "In Review" status
+          RESPONSE=$(curl -s -X POST "$ORBIT_API_URL/api/issues/batch-update" \
+            -H "Content-Type: application/json" \
+            -H "X-Orbit-API-Key: $ORBIT_API_KEY" \
+            -d "{
+              \"ids\": $ISSUE_IDS,
+              \"state\": \"Merged\",
+              \"input\": {
+                \"status\": \"In Review\"
+              }
+            }")
+
+          echo "Batch update response:"
+          echo "$RESPONSE" | jq .
+
+          # Check if the update was successful
+          SUCCESS=$(echo "$RESPONSE" | jq -r '.success // false')
+
+          if [ "$SUCCESS" = "true" ]; then
+            UPDATED_COUNT=$(echo "$RESPONSE" | jq -r '.data.updated | length // 0')
+            echo "✓ Successfully updated $UPDATED_COUNT issue(s) to In Review status"
+
+            # Display updated issues
+            echo "$RESPONSE" | jq -r '.data.updated[]? | "  - \(.identifier): \(.title)"'
+          else
+            ERROR_MSG=$(echo "$RESPONSE" | jq -r '.error // "Unknown error"')
+            echo "✗ Failed to update issues: $ERROR_MSG"
+            exit 1
+          fi

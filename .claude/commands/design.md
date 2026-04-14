@@ -10,16 +10,16 @@ This command activates **mega-designer** with the full design system stack.
 
 ```
 Level 1: Galaxy/Uiverse (3,000+ components)
-         COMBINED/ui-design/galaxy/
+         COMBINED/ui-design/ui-components-galaxy/
          → Search here FIRST
 
-Level 2: shadcn/ui
-         COMBINED/ui-design/shadcn-ui/
+Level 2: shadcn/ui (accessible React components)
+         COMBINED/ui-design/ui-components-shadcn/
          → If Galaxy doesn't have what you need
 
 Level 3: UI/UX Pro Max (161 rules)
-         COMBINED/ui-design/ui-ux-pro-max/
-         → Apply these rules to EVERYTHING
+         COMBINED/ui-design/ui-rules/ui-ux-pro-max/
+         → Apply these rules to EVERYTHING you create
 
 Level 4: Custom build
          → Only if levels 1-3 have nothing suitable
@@ -30,9 +30,15 @@ Level 4: Custom build
 
 1. Loads `CAPABILITIES.md` Rule #3 (design hierarchy)
 2. Activates `mega-designer` agent (`.claude/agents/mega-designer.md`)
-3. For visual tasks: uses Lightpanda to screenshot existing UI
+3. For visual tasks: uses Lightpanda to screenshot existing UI (NEVER Chrome)
 4. For mockups/assets: uses `nano-banana` MCP for image generation
 5. Applies all 161 UI/UX Pro Max rules to output
+
+## Design system generator
+
+```bash
+python3 COMBINED/ui-design/ui-rules/ui-ux-pro-max/claude/skills/ui-ux-pro-max/scripts/search.py "<keywords>" --design-system -p "<ProjectName>"
+```
 
 ## Use cases
 
@@ -42,25 +48,25 @@ Level 4: Custom build
 - **Responsive layout**: "Make this navbar mobile-friendly"
 - **Accessibility**: "Fix WCAG violations on the form"
 
-## Accessibility checklist (auto-applied)
+## Critical rules (auto-applied)
 
-- Keyboard navigation
-- ARIA labels
-- Colour contrast ≥ 4.5:1
-- Focus ring visible
-- `prefers-reduced-motion` respected
+- Contrast ratio ≥ 4.5:1 for normal text
+- Touch targets ≥ 44×44pt
+- Focus rings (2-4px) on ALL interactive elements
+- NO emoji as icons — SVG only (Heroicons, Lucide)
+- Mobile-first, breakpoints: 375/768/1024/1440
+- Animations 150-300ms, respect prefers-reduced-motion
+- Keyboard navigation for all interactive elements
 
 ## Image generation
 
-For mockups and visual assets:
 ```
-Uses: mcp nano-banana generate "{description}"
-Powered by Gemini
+mcp nano-banana generate "{description}"
 ```
 
 ## References
 
-- `.claude/agents/mega-designer.md` — full agent spec
-- `COMBINED/ui-design/galaxy/` — component library
-- `COMBINED/ui-design/shadcn-ui/` — accessible components
-- `COMBINED/ui-design/ui-ux-pro-max/` — 161 design rules
+- `.claude/agents/mega-designer.md` — full agent spec (314 lines)
+- `COMBINED/ui-design/ui-components-galaxy/` — 3,000+ components
+- `COMBINED/ui-design/ui-components-shadcn/` — accessible React components
+- `COMBINED/ui-design/ui-rules/ui-ux-pro-max/` — 161 rules + search CLI

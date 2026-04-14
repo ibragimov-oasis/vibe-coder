@@ -1,0 +1,85 @@
+# Build stage
+FROM node:24.13.1-slim AS builder
+WORKDIR /app
+
+# Enable corepack and activate pnpm
+RUN corepack enable && corepack prepare pnpm@10.30.2 --activate
+
+# Set environment variables to skip gyp-related installations
+ENV npm_config_gyp_ignore=true
+ENV CYPRESS_INSTALL_BINARY=0
+
+# Set node options to increase memory limit
+ENV NODE_OPTIONS='--max_old_space_size=8192'
+
+# Copy all necessary files in one layer
+COPY pnpm-workspace.yaml pnpm-lock.yaml package.json turbo.json ./
+COPY apps/api/package.json ./apps/api/
+COPY apps/api/prisma ./apps/api/prisma
+COPY packages/ ./packages/
+
+# Install dependencies with workspace support
+RUN --mount=type=cache,id=pnpm-store,target=/root/.local/share/pnpm/store \
+    pnpm install --ignore-scripts
+
+# Copy remaining source code
+COPY . .
+
+# Build packages in correct order
+RUN pnpm build:api
+
+# Production stage
+FROM node:24.13.1-slim AS production
+WORKDIR /app
+
+# Install system dependencies in a single layer
+RUN apt-get update \
+    && apt-get install -y --no-install-recommends \
+    curl \
+    wget \
+    libstdc++6 \
+    libx11-6 \
+    libxrender1 \
+    libxext6 \
+    libssl3 \
+    ca-certificates \
+    fontconfig \
+    libfreetype6 \
+    fonts-terminus \
+    fonts-inconsolata \
+    fonts-dejavu-core \
+    fonts-noto \
+    fonts-noto-cjk \
+    fonts-font-awesome \
+    fonts-noto-extra \
+    wkhtmltopdf \
+    && fc-cache -f \
+    && rm -rf /var/lib/apt/lists/*
+
+# Install pandoc based on architecture
+ARG TARGETARCH
+RUN if [ "$TARGETARCH" = "amd64" ]; then \
+        wget https://github.com/jgm/pandoc/releases/download/3.6.3/pandoc-3.6.3-linux-amd64.tar.gz \
+        && tar xvzf pandoc-3.6.3-linux-amd64.tar.gz --strip-components 1 -C /usr/local/ \
+        && rm pandoc-3.6.3-linux-amd64.tar.gz; \
+    elif [ "$TARGETARCH" = "arm64" ]; then \
+        wget https://github.com/jgm/pandoc/releases/download/3.6.3/pandoc-3.6.3-linux-arm64.tar.gz \
+        && tar xvzf pandoc-3.6.3-linux-arm64.tar.gz --strip-components 1 -C /usr/local/ \
+        && rm pandoc-3.6.3-linux-arm64.tar.gz; \
+    fi
+
+# Copy only necessary files from builder
+COPY --from=builder /app/apps/api/dist ./apps/api/dist
+COPY --from=builder /app/apps/api/package.json ./apps/api/package.json
+COPY --from=builder /app/node_modules ./node_modules
+COPY --from=builder /app/apps/api/prisma ./apps/api/prisma
+COPY --from=builder /app/apps/api/seed-data ./apps/api/seed-data
+COPY --from=builder /app/apps/api/node_modules ./apps/api/node_modules
+COPY --from=builder /app/packages/ ./packages/
+
+# Set working directory to the dist directory
+WORKDIR /app/apps/api/dist
+
+EXPOSE 3000
+
+CMD ["node", "-r", "./scripts/preload.js", "main.js"]

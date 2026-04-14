@@ -1,0 +1,45 @@
+name: Deploy Web To Prod
+
+on:
+  push:
+    branches:
+      - stable
+    paths:
+      - "apps/web/**"
+      - "packages/**"
+      - "!packages/skill-template/**"
+      - "!packages/wxt/**"
+  workflow_dispatch:
+    inputs:
+      ref:
+        description: "Git ref to deploy (branch, tag, or commit SHA)"
+        required: false
+        type: string
+  workflow_call:
+    inputs:
+      ref:
+        description: "Git ref to deploy (branch, tag, or commit SHA)"
+        required: false
+        type: string
+
+permissions:
+  contents: read
+
+jobs:
+  deploy:
+    uses: ./.github/workflows/deploy-web.yml
+    with:
+      environment: production
+      cloudflare_project: refly-app
+      api_url: https://api.refly.ai
+      collab_url: https://collab.refly.ai
+      subscription_enabled: true
+      sentry_enabled: true
+      static_public_endpoint: https://static.refly.ai
+      static_private_endpoint: https://api.refly.ai/v1/misc
+      canvas_template_enabled: true
+      env_tag: production
+      create_sentry_release: true
+      sentry_project: web
+      ref: ${{ inputs.ref || github.ref }}
+    secrets: inherit

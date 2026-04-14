@@ -1,0 +1,2699 @@
+import { Injectable, Optional } from '@nestjs/common';
+import { PinoLogger } from 'nestjs-pino';
+import { randomUUID } from 'node:crypto';
+import { DirectConnection } from '@hocuspocus/server';
+import {
+  AIMessage,
+  AIMessageChunk,
+  BaseMessage,
+  HumanMessage,
+  MessageContentComplex,
+  ToolMessage,
+} from '@langchain/core/messages';
+import { FilteredLangfuseCallbackHandler, Trace, getTracer } from '@refly/observability';
+import { propagation, context, SpanStatusCode } from '@opentelemetry/api';
+import { InjectQueue } from '@nestjs/bullmq';
+import { ConfigService } from '@nestjs/config';
+import { ModelUsageQuotaExceeded, WorkflowExecutionNotFoundError } from '@refly/errors';
+import {
+  ActionMessage,
+  ActionResult,
+  Artifact,
+  DriveFile,
+  LLMModelConfig,
+  NodeDiff,
+  ProviderItem,
+  SkillEvent,
+  TokenUsageItem,
+  ToolCallMeta,
+  User,
+} from '@refly/openapi-schema';
+import {
+  BaseSkill,
+  SkillEngine,
+  SkillEventMap,
+  SkillRunnableConfig,
+  SkillRunnableMeta,
+  createSkillInventory,
+} from '@refly/skill-template';
+import {
+  genImageID,
+  getWholeParsedContent,
+  safeParseJSON,
+  genTransactionId,
+  isKnownVisionModel,
+} from '@refly/utils';
+import { Queue } from 'bullmq';
+import { Response } from 'express';
+import { EventEmitter } from 'node:events';
+import * as Y from 'yjs';
+import { countToken } from '@refly/utils/token';
+import {
+  QUEUE_AUTO_NAME_CANVAS,
+  QUEUE_SYNC_REQUEST_USAGE,
+  QUEUE_SYNC_TOKEN_USAGE,
+} from '../../utils/const';
+import { genBaseRespDataFromError } from '../../utils/exception';
+import { extractChunkContent } from '../../utils/llm';
+import { writeSSEResponse } from '../../utils/response';
+import { ResultAggregator } from '../../utils/result';
+import { MessageAggregator } from '../../utils/message-aggregator';
+import { ActionService } from '../action/action.service';
+import { ABORT_MESSAGES, ABORT_LOG_LABELS } from './skill.constants';
+import { AutoNameCanvasJobData } from '../canvas/canvas.dto';
+import { PrismaService } from '../common/prisma.service';
+import { CreditUsageStep, SyncBatchTokenCreditUsageJobData } from '../credit/credit.dto';
+import { CreditService } from '../credit/credit.service';
+import { MiscService } from '../misc/misc.service';
+import { ProviderService } from '../provider/provider.service';
+import { SkillEngineService } from '../skill/skill-engine.service';
+import { StepService } from '../step/step.service';
+import { SyncRequestUsageJobData, SyncTokenUsageJobData } from '../subscription/subscription.dto';
+import { ToolCallService, ToolCallStatus } from '../tool-call/tool-call.service';
+import { ToolService } from '../tool/tool.service';
+import { getPtcConfig, isPtcEnabledForToolsets, PtcDebugMode, PtcSdkService } from '../tool/ptc';
+import { InvokeSkillJobData } from './skill.dto';
+import { DriveService } from '../drive/drive.service';
+import { CanvasSyncService } from '../canvas-sync/canvas-sync.service';
+import { normalizeCreditBilling } from '../../utils/credit-billing';
+import { SkillInvokeMetrics } from './skill-invoke.metrics';
+import { PtcPollerManager } from './ptc-poller.manager';
+
+@Injectable()
+export class SkillInvokerService {
+  private skillEngine: SkillEngine;
+  private skillInventory: BaseSkill[];
+
+  // Track added files to prevent duplicates (key: storageKey, value: entityId)
+  private addedFilesMap: Map<string, string> = new Map();
+
+  constructor(
+    private readonly prisma: PrismaService,
+    private readonly config: ConfigService,
+    private readonly logger: PinoLogger,
+    private readonly miscService: MiscService,
+    private readonly providerService: ProviderService,
+    private readonly driveService: DriveService,
+    private readonly toolService: ToolService,
+    private readonly toolCallService: ToolCallService,
+    private readonly skillEngineService: SkillEngineService,
+    private readonly actionService: ActionService,
+    private readonly stepService: StepService,
+    private readonly creditService: CreditService,
+    private readonly canvasSyncService: CanvasSyncService,
+    private readonly metrics: SkillInvokeMetrics,
+    private readonly ptcSdkService: PtcSdkService,
+    @Optional()
+    @InjectQueue(QUEUE_SYNC_REQUEST_USAGE)
+    private requestUsageQueue?: Queue<SyncRequestUsageJobData>,
+    @Optional()
+    @InjectQueue(QUEUE_SYNC_TOKEN_USAGE)
+    private usageReportQueue?: Queue<SyncTokenUsageJobData>,
+    @Optional()
+    @InjectQueue(QUEUE_AUTO_NAME_CANVAS)
+    private autoNameCanvasQueue?: Queue<AutoNameCanvasJobData>,
+  ) {
+    this.logger.setContext(SkillInvokerService.name);
+    this.skillEngine = this.skillEngineService.getEngine();
+    this.skillInventory = createSkillInventory(this.skillEngine);
+    this.logger.info({ count: this.skillInventory.length }, 'Skill inventory initialized');
+  }
+
+  /**
+   * Check if a model has vision capability, either through explicit config or by matching known vision-capable models.
+   * Known vision-capable models are auto-enabled even if not explicitly configured in the database.
+   */
+  private hasModelVisionCapability(providerItem: ProviderItem | undefined): boolean {
+    const modelConfig = providerItem?.config as LLMModelConfig;
+    return modelConfig?.capabilities?.vision || isKnownVisionModel(modelConfig?.modelId);
+  }
+
+  private async buildLangchainMessages(
+    user: User,
+    providerItem: ProviderItem,
+    result: ActionResult,
+  ): Promise<BaseMessage[]> {
+    const query = result.input?.query || result.title;
+
+    // Only create content array if images exist and model has vision capability
+    let messageContent: string | MessageContentComplex[] = query;
+    if (result.input?.images?.length > 0 && this.hasModelVisionCapability(providerItem)) {
+      const imageUrls = await this.miscService.generateImageUrls(user, result.input.images);
+      messageContent = [
+        { type: 'text', text: query },
+        ...imageUrls.map((url) => ({ type: 'image_url', image_url: { url } })),
+      ];
+    }
+
+    // Check if result already has messages (from populateSkillResultHistory)
+    if (result.messages && result.messages.length > 0) {
+      // Build messages from pre-fetched action_messages (preferred approach)
+      return [
+        new HumanMessage({ content: messageContent } as any),
+        ...this.reconstructLangchainMessagesFromDB(result.messages),
+      ];
+    }
+
+    // Final fallback: Build from steps if no messages found (backward compatibility)
+    const toolCallsByStep = await this.toolCallService.fetchConsolidatedToolUseOutputByStep(
+      result.resultId,
+      result.version,
+    );
+
+    const steps = result.steps;
+    const aiMessages =
+      steps?.length > 0
+        ? steps.map((step) => {
+            const toolCallOutputs: any[] = toolCallsByStep?.get(step?.name ?? '') ?? [];
+            const mergedContent = getWholeParsedContent(step.reasoningContent, step.content ?? '');
+            return new AIMessage({
+              content: mergedContent,
+              additional_kwargs: {
+                skillMeta: result.actionMeta,
+                structuredData: step.structuredData,
+                type: result.type,
+                tplConfig:
+                  typeof result.tplConfig === 'string'
+                    ? safeParseJSON(result.tplConfig)
+                    : result.tplConfig,
+                toolCalls: toolCallOutputs,
+              },
+            });
+          })
+        : [];
+
+    return [new HumanMessage({ content: messageContent } as any), ...aiMessages];
+  }
+
+  /**
+   * Reconstruct LangChain messages from action_messages table records
+   * This ensures AI messages and Tool messages are properly separated without XML formatting
+   */
+  private reconstructLangchainMessagesFromDB(messages: ActionMessage[]): BaseMessage[] {
+    const langchainMessages: BaseMessage[] = [];
+
+    for (const msg of messages) {
+      const messageType = msg.type;
+      const content = msg.content ?? '';
+      const reasoningContent = msg.reasoningContent ?? '';
+
+      if (messageType === 'ai') {
+        // Reconstruct AI message with pure content (no XML tool use formatting)
+        const mergedContent = getWholeParsedContent(reasoningContent, content);
+        const metadata = msg.toolCallMeta ?? {};
+
+        langchainMessages.push(
+          new AIMessage({
+            content: mergedContent,
+            additional_kwargs: metadata,
+          }),
+        );
+      } else if (messageType === 'tool') {
+        // Reconstruct tool use + tool result in the canonical LangChain format.
+        // Bedrock (Converse) requires toolResult blocks to match toolUse blocks from the previous assistant turn.
+        const toolCallMeta = (msg.toolCallMeta ?? {}) as ToolCallMeta;
+        const toolCallResult = msg.toolCallResult ?? {};
+
+        const toolCallId = toolCallMeta?.toolCallId ?? msg.toolCallId ?? '';
+        const toolName = toolCallMeta?.toolName ?? (msg.toolCallResult as any)?.toolName ?? '';
+
+        // Ensure we never emit a ToolMessage (toolResult) without a matching tool call (toolUse).
+        if (!toolCallId || !toolName) {
+          langchainMessages.push(
+            new AIMessage({
+              content: JSON.stringify((toolCallResult as any)?.output ?? toolCallResult),
+            }),
+          );
+          continue;
+        }
+
+        const rawArgs = (toolCallResult as any)?.input;
+        const toolArgs =
+          rawArgs && typeof rawArgs === 'object' && !Array.isArray(rawArgs) ? rawArgs : {};
+
+        // 1) Tool use: assistant message with tool_calls
+        langchainMessages.push(
+          new AIMessage({
+            content: '',
+            tool_calls: [
+              {
+                id: toolCallId,
+                name: toolName,
+                args: toolArgs,
+              },
+            ],
+          }),
+        );
+
+        // 2) Tool result: ToolMessage that references the tool_call_id
+        langchainMessages.push(
+          new ToolMessage({
+            content: JSON.stringify((toolCallResult as any)?.output ?? toolCallResult),
+            tool_call_id: toolCallId,
+            name: toolName,
+          }),
+        );
+      }
+    }
+
+    return langchainMessages;
+  }
+
+  @Trace('skill.buildInvokeConfig')
+  private async buildInvokeConfig(
+    user: User,
+    data: InvokeSkillJobData & {
+      eventListener?: (data: SkillEvent) => void;
+    },
+  ): Promise<SkillRunnableConfig> {
+    const {
+      context,
+      tplConfig,
+      runtimeConfig,
+      providerItem,
+      modelConfigMap,
+      provider,
+      resultHistory,
+      eventListener,
+      toolsets,
+    } = data;
+
+    // Collect fileIds that need to be fetched
+    const fileIdsToFetch =
+      context?.files?.filter((f) => f.fileId && !f.file).map((f) => f.fileId) ?? [];
+
+    // Parallel fetch: user preferences and drive files
+    const [userPo, driveFiles] = await Promise.all([
+      this.prisma.user.findUnique({
+        select: { uiLocale: true, outputLocale: true },
+        where: { uid: user.uid },
+      }),
+      fileIdsToFetch.length > 0
+        ? this.prisma.driveFile.findMany({
+            where: {
+              fileId: { in: fileIdsToFetch },
+              deletedAt: null,
+            },
+            select: {
+              fileId: true,
+              name: true,
+              type: true,
+              summary: true,
+              category: true,
+            },
+          })
+        : Promise.resolve([]),
+    ]);
+
+    // Populate empty file objects in context.files
+    if (driveFiles.length > 0 && context?.files) {
+      const fileMap = new Map(driveFiles.map((f) => [f.fileId, f]));
+      for (const fileItem of context.files) {
+        if (fileItem.fileId && !fileItem.file) {
+          const driveFile = fileMap.get(fileItem.fileId);
+          if (driveFile) {
+            fileItem.file = {
+              fileId: driveFile.fileId,
+              name: driveFile.name,
+              type: driveFile.type,
+              summary: driveFile.summary,
+              category: driveFile.category,
+            } as DriveFile;
+          }
+        }
+      }
+    }
+
+    const outputLocale = data?.locale || userPo?.outputLocale;
+    // Merge the current context with contexts from result history
+    // Current context items have priority, and duplicates are removed
+
+    const config: SkillRunnableConfig = {
+      configurable: {
+        user,
+        context,
+        modelConfigMap,
+        provider,
+        locale: outputLocale,
+        uiLocale: userPo.uiLocale,
+        tplConfig,
+        runtimeConfig,
+        mode: data.mode,
+        resultId: data.result?.resultId,
+        version: data.result?.version,
+        canvasId: data.target?.entityType === 'canvas' ? data.target?.entityId : undefined,
+        copilotSessionId: data.copilotSessionId,
+        nodeEditContext: data.nodeEditContext,
+      },
+    };
+
+    const skillMetaName = data.skillName ?? data.result?.actionMeta?.name ?? 'unknown';
+    const metadata: SkillRunnableMeta = { name: skillMetaName };
+    const setMetadata = (key: string, value: unknown) => {
+      if (value !== undefined) {
+        metadata[key] = value;
+      }
+    };
+
+    if (data.result?.actionMeta?.icon) {
+      metadata.icon = data.result.actionMeta.icon;
+    }
+
+    const modelInfo = data.result?.modelInfo;
+    const providerInfo = providerItem?.provider ?? provider;
+    const providerConfig = providerItem?.config;
+    const traceparent =
+      typeof data.traceCarrier?.traceparent === 'string'
+        ? data.traceCarrier?.traceparent
+        : undefined;
+    const traceId = traceparent?.split('-')[1];
+    const modelNameFromConfig =
+      providerConfig &&
+      'modelName' in providerConfig &&
+      typeof providerConfig.modelName === 'string'
+        ? providerConfig.modelName
+        : undefined;
+
+    setMetadata('runType', 'skill');
+    setMetadata('traceId', traceId);
+    setMetadata('skillName', data.skillName ?? data.result?.actionMeta?.name);
+    setMetadata('query', data.input?.query);
+    setMetadata('originalQuery', data.input?.originalQuery);
+    setMetadata('locale', outputLocale);
+    setMetadata('uiLocale', userPo?.uiLocale);
+    setMetadata('mode', data.mode);
+    setMetadata('resultId', data.result?.resultId);
+    setMetadata('resultVersion', data.result?.version);
+    setMetadata('status', data.result?.status);
+    setMetadata('errorType', data.result?.errorType);
+    setMetadata('modelName', modelInfo?.name ?? modelNameFromConfig ?? data.modelName);
+    setMetadata(
+      'modelItemId',
+      data.modelItemId ?? modelInfo?.providerItemId ?? data.result?.actualProviderItemId,
+    );
+    setMetadata('providerKey', modelInfo?.provider ?? providerInfo?.providerKey);
+    setMetadata('providerId', providerInfo?.providerId ?? providerItem?.providerId);
+    setMetadata('workflowExecutionId', data.workflowExecutionId);
+    setMetadata('workflowNodeExecutionId', data.workflowNodeExecutionId);
+
+    if (Object.keys(metadata).length > 0) {
+      config.metadata = metadata;
+    }
+
+    if (data.copilotSessionId) {
+      config.configurable.copilotSessionId = data.copilotSessionId;
+    }
+
+    if (resultHistory?.length > 0) {
+      config.configurable.chatHistory = await Promise.all(
+        resultHistory.map((r) => this.buildLangchainMessages(user, providerItem, r)),
+      ).then((messages) => messages.flat());
+    }
+
+    if (toolsets?.length > 0) {
+      const tools = await this.toolService.instantiateToolsets(user, toolsets, this.skillEngine, {
+        context,
+      });
+
+      // Inject categorized tools and toolsets into config
+      config.configurable.selectedTools = tools.all as any;
+      config.configurable.builtInTools = tools.builtIn as any;
+      config.configurable.nonBuiltInTools = tools.nonBuiltIn as any;
+      (config.configurable as any).builtInToolsets = tools.builtInToolsets;
+      (config.configurable as any).nonBuiltInToolsets = tools.nonBuiltInToolsets;
+
+      // Calculate PTC status based on user and toolsets (highest priority)
+      const ptcConfig = getPtcConfig(this.config);
+      const toolsetKeys = toolsets.map((t) => t?.toolset?.key ?? t?.id ?? '');
+      let ptcEnabled = isPtcEnabledForToolsets(user, toolsetKeys, ptcConfig);
+
+      // Debug mode: title-based filtering, applied only when base check already permits PTC.
+      // opt-in  → enable only if title contains "useptc"
+      // opt-out → disable only if title contains "nonptc"
+      if (ptcEnabled && ptcConfig.debugMode !== null) {
+        const title = data.title?.toLowerCase() ?? '';
+        if (ptcConfig.debugMode === PtcDebugMode.OPT_IN) {
+          ptcEnabled = title.includes('useptc');
+        } else if (ptcConfig.debugMode === PtcDebugMode.OPT_OUT) {
+          ptcEnabled = !title.includes('nonptc');
+        }
+      }
+
+      config.configurable.ptcEnabled = ptcEnabled;
+      config.configurable.ptcSequential = ptcConfig.sequential;
+
+      if (ptcEnabled && tools.nonBuiltInToolsets.length > 0) {
+        const ptcContext = await this.ptcSdkService.buildPtcContext(tools.nonBuiltInToolsets);
+        config.configurable.ptcContext = ptcContext;
+      }
+    }
+
+    // For copilot_agent mode, include all tools (authorized and unauthorized)
+    // This allows Copilot to generate workflows with tools that require authorization
+    if (data.mode === 'copilot_agent') {
+      config.configurable.installedToolsets = await this.toolService.listAllToolsForCopilot(user);
+    } else {
+      // For other modes, only include authorized/installed tools
+      config.configurable.installedToolsets = await this.toolService.listTools(user, {
+        enabled: true,
+      });
+    }
+
+    config.configurable.webSearchEnabled = this.config.get<boolean>('tools.webSearchEnabled');
+
+    if (eventListener) {
+      const emitter = new EventEmitter<SkillEventMap>();
+
+      emitter.on('start', eventListener);
+      emitter.on('end', eventListener);
+      emitter.on('log', eventListener);
+      emitter.on('error', eventListener);
+      emitter.on('create_node', eventListener);
+      emitter.on('artifact', eventListener);
+      emitter.on('structured_data', eventListener);
+
+      config.configurable.emitter = emitter;
+    }
+
+    return config;
+  }
+
+  private categorizeError(err: Error): {
+    isGeneralTimeout: boolean;
+    isNetworkError: boolean;
+    isAbortError: boolean;
+    userFriendlyMessage: string;
+    logLevel: 'error' | 'warn';
+  } {
+    const errorMessage = err.message || 'Unknown error';
+
+    // Special handling for credit-related errors - preserve original message
+    const isCreditError =
+      err instanceof ModelUsageQuotaExceeded || /credit not available/i.test(err.message);
+
+    // Categorize errors more reliably
+    const isTimeoutError =
+      err instanceof Error && (err.name === 'TimeoutError' || /timeout/i.test(err.message));
+    // Only classify as abort error if:
+    // 1. The error name is 'AbortError' (standard abort signal error)
+    // 2. OR the message specifically indicates a user-initiated abort (not just containing "abort")
+    // This prevents model errors like ValidationException from being misclassified
+    const isAbortError =
+      err instanceof Error &&
+      (err.name === 'AbortError' ||
+        /^aborted by user$/i.test(err.message) ||
+        /^action was aborted/i.test(err.message) ||
+        /^workflow aborted by user$/i.test(err.message)) &&
+      !isCreditError;
+    const isNetworkError =
+      err instanceof Error && (err.name === 'NetworkError' || /network|fetch/i.test(err.message));
+    const isGeneralTimeout = isTimeoutError;
+
+    let userFriendlyMessage = errorMessage;
+    let logLevel: 'error' | 'warn' = 'error';
+
+    const ERROR_MESSAGES = {
+      GENERAL_TIMEOUT: 'Request timeout. Please try again later.',
+      NETWORK_ERROR: 'Network connection error. Please check your network status.',
+      ABORT_ERROR: 'Operation was aborted.',
+    } as const;
+
+    if (isCreditError) {
+      // For credit errors, preserve the original detailed message
+      userFriendlyMessage = errorMessage;
+      logLevel = 'error';
+    } else if (isGeneralTimeout) {
+      userFriendlyMessage = ERROR_MESSAGES.GENERAL_TIMEOUT;
+    } else if (isNetworkError) {
+      userFriendlyMessage = ERROR_MESSAGES.NETWORK_ERROR;
+    } else if (isAbortError) {
+      userFriendlyMessage = ERROR_MESSAGES.ABORT_ERROR;
+      logLevel = 'warn';
+    }
+
+    return {
+      isGeneralTimeout,
+      isNetworkError,
+      isAbortError,
+      userFriendlyMessage,
+      logLevel,
+    };
+  }
+
+  /**
+   * Detect whether an error is caused by exceeding token/context limits.
+   */
+  private isTokenLimitError(err: unknown): boolean {
+    if (!err) return false;
+    const message = (err as { message?: string })?.message?.toLowerCase() ?? '';
+    const code = (err as { code?: string })?.code?.toLowerCase?.() ?? '';
+    return (
+      /token limit|context length|maximum context|max context|too many tokens/.test(message) ||
+      code === 'context_length_exceeded' ||
+      code === 'max_tokens_exceeded'
+    );
+  }
+
+  /**
+   * For most tool failures, only persist/stream the user-facing `output` field.
+   * Preserve full payloads when the error looks like a token/context limit issue,
+   * since those may be saved to a debug document.
+   */
+  private normalizeToolOutputForPersistence(toolOutput: any): any {
+    if (!toolOutput || typeof toolOutput !== 'object') return toolOutput;
+
+    const errorText = String((toolOutput as any).error ?? (toolOutput as any).message ?? '');
+    const codeText = String((toolOutput as any).code ?? '');
+    if (this.isTokenLimitError({ message: errorText, code: codeText })) {
+      return toolOutput;
+    }
+
+    if (Object.prototype.hasOwnProperty.call(toolOutput, 'output')) {
+      return (toolOutput as any).output;
+    }
+
+    return toolOutput;
+  }
+
+  private async _invokeSkill(user: User, data: InvokeSkillJobData, res?: Response) {
+    // Restore parent context from queue (cross-pod) or use current context (direct call)
+    const parentCtx = data.traceCarrier
+      ? propagation.extract(context.active(), data.traceCarrier)
+      : context.active();
+
+    const tracer = getTracer();
+    return tracer.startActiveSpan(
+      'skill.invoke',
+      { attributes: { 'skill.fromQueue': !!data.traceCarrier } },
+      parentCtx,
+      async (span) => {
+        try {
+          const result = await this._invokeSkillInner(user, data, res, span);
+          span.setStatus({ code: SpanStatusCode.OK });
+          return result;
+        } catch (error) {
+          span.setStatus({
+            code: SpanStatusCode.ERROR,
+            message: error instanceof Error ? error.message : String(error),
+          });
+          span.recordException(error as Error);
+          throw error;
+        } finally {
+          span.end();
+        }
+      },
+    );
+  }
+
+  private async _invokeSkillInner(
+    user: User,
+    data: InvokeSkillJobData,
+    res: Response | undefined,
+    span: import('@opentelemetry/api').Span,
+  ) {
+    const { input, result, context: ctx } = data;
+    const { resultId, version, actionMeta, tier } = result;
+    const canvasId = data.target?.entityType === 'canvas' ? data.target?.entityId : undefined;
+
+    // Set searchable attributes on span
+    span.setAttributes({
+      'skill.resultId': resultId,
+      'skill.name': data.skillName || 'unknown',
+      'skill.version': version,
+      'canvas.id': canvasId,
+      'user.uid': user.uid,
+    });
+
+    this.logger.info(
+      `invoke skill with input: ${JSON.stringify(input)}, resultId: ${resultId}, version: ${version}`,
+    );
+
+    const imageFiles: DriveFile[] =
+      ctx?.files
+        ?.filter((item) => item.file?.category === 'image' || item.file?.type.startsWith('image/'))
+        ?.map((item) => item.file) ?? [];
+
+    const hasVisionCapability = this.hasModelVisionCapability(data.providerItem);
+    const modelConfig = data.providerItem?.config as LLMModelConfig;
+    const modelId = modelConfig?.modelId ?? '';
+
+    // Debug logging for vision capability detection
+    this.logger.info(
+      {
+        filesCount: ctx?.files?.length ?? 0,
+        imageFilesCount: imageFiles.length,
+        hasVisionCapability,
+        explicitVisionConfig: modelConfig?.capabilities?.vision,
+        providerItemId: data.providerItem?.itemId,
+        modelId,
+      },
+      '[Vision Debug] Image processing check',
+    );
+
+    if (imageFiles.length > 0 && !hasVisionCapability) {
+      this.logger.warn(
+        {
+          modelId,
+          imageCount: imageFiles.length,
+          capabilities: modelConfig?.capabilities,
+        },
+        '[Vision Warning] Images found but model does not have vision capability - images will be ignored',
+      );
+    }
+
+    const providerWithKey = data.provider as { key?: string } | undefined;
+    const providerKey = providerWithKey?.key ?? data.provider?.providerKey ?? '';
+    const forceBase64ForImages = providerKey === 'bedrock' || providerKey === 'vertex';
+
+    if (imageFiles.length > 0 && hasVisionCapability) {
+      // Bedrock and Vertex providers must receive embedded base64 payloads regardless of URL configuration.
+      const modeOverride = forceBase64ForImages ? 'base64' : undefined;
+      input.images = await this.driveService.generateDriveFileUrls(user, imageFiles, modeOverride);
+    } else {
+      input.images = [];
+    }
+
+    if (tier) {
+      if (this.requestUsageQueue) {
+        await this.requestUsageQueue.add('syncRequestUsage', {
+          uid: user.uid,
+          tier,
+          timestamp: new Date(),
+        });
+      }
+      // In desktop mode, we could handle usage tracking differently if needed
+    }
+
+    // Archive files from previous execution of this result
+    if (canvasId) {
+      this.logger.info(
+        { resultId, canvasId, uid: user.uid, source: 'agent' },
+        '[Archive] Starting archive for previous execution files',
+      );
+      await this.driveService.archiveFiles(user, canvasId, {
+        resultId,
+        source: 'agent',
+      });
+      this.logger.info({ resultId, canvasId }, '[Archive] Completed archive');
+    } else {
+      this.logger.warn(
+        { resultId, targetType: data.target?.entityType, targetId: data.target?.entityId },
+        '[Archive] Skipping archive - no canvasId found',
+      );
+    }
+
+    // Create abort controller for this action
+    const abortController = new AbortController();
+
+    // Delete queued job mapping from Redis (job has started executing)
+    await this.actionService.deleteQueuedJob(resultId);
+
+    // Register the abort controller with ActionService
+    this.actionService.registerAbortController(resultId, abortController);
+
+    // Set up database polling for cross-pod abort detection
+    let abortCheckInterval: NodeJS.Timeout | null = null;
+    const startAbortCheck = () => {
+      abortCheckInterval = setInterval(
+        async () => {
+          if (abortController.signal.aborted) {
+            clearInterval(abortCheckInterval);
+            return;
+          }
+
+          try {
+            const shouldAbort = await this.actionService.isAbortRequested(resultId, version);
+            if (shouldAbort) {
+              this.logger.info(
+                `[${ABORT_LOG_LABELS.USER_POLLING_DETECTION}] ` +
+                  `resultId=${resultId} version=${version} phase=cross_pod_abort_detected`,
+              );
+              abortController.abort(ABORT_MESSAGES.USER_ABORT);
+              clearInterval(abortCheckInterval);
+            }
+          } catch (error) {
+            this.logger.error(
+              `[WORKFLOW_ABORT][POLL] resultId=${resultId} version=${version} error="${error?.message}" phase=check_failed`,
+            );
+          }
+        },
+        3000, // Check every 3 seconds
+      );
+    };
+
+    const stopAbortCheck = () => {
+      if (abortCheckInterval) {
+        clearInterval(abortCheckInterval);
+        abortCheckInterval = null;
+      }
+    };
+
+    // Start abort check
+    startAbortCheck();
+
+    // Simple timeout tracking without Redis
+    let lastOutputTime = Date.now();
+    let hasAnyOutput = false;
+
+    // Set up periodic timeout check using Redis data
+    let timeoutCheckInterval: NodeJS.Timeout | null = null;
+    const streamIdleTimeout = this.config.get('skill.streamIdleTimeout');
+
+    // Skip timeout check if streamIdleTimeout is not a positive number
+    if (!streamIdleTimeout || streamIdleTimeout <= 0) {
+      this.logger.debug(
+        `Stream idle timeout disabled (streamIdleTimeout: ${streamIdleTimeout}). Skipping timeout check.`,
+      );
+    }
+
+    // Helper function for timeout message generation
+    const getTimeoutMessage = () => {
+      // Use unified timeout message constant
+      return ABORT_MESSAGES.STREAM_TIMEOUT;
+    };
+
+    const startTimeoutCheck = () => {
+      timeoutCheckInterval = setInterval(
+        async () => {
+          if (abortController.signal.aborted) {
+            return;
+          }
+
+          // Capture hasAnyOutput status at the beginning of the callback
+          const hasOutputAtCheck = hasAnyOutput;
+
+          // Once we have any output, stop checking for stream idle timeout
+          if (hasOutputAtCheck) {
+            stopTimeoutCheck();
+            return;
+          }
+
+          const now = Date.now();
+          const timeSinceLastOutput = now - lastOutputTime;
+          const isTimeout = streamIdleTimeout > 0 && timeSinceLastOutput > streamIdleTimeout;
+
+          if (isTimeout) {
+            this.logger.warn(
+              `Stream idle timeout detected for action: ${resultId}, ${timeSinceLastOutput}ms since last output`,
+            );
+
+            const timeoutReason = getTimeoutMessage();
+
+            // Use ActionService.abortAction to handle timeout consistently
+            try {
+              await this.actionService.abortActionFromReq(
+                user,
+                { resultId, version },
+                timeoutReason,
+                'systemError',
+              );
+              this.logger.info(
+                `Successfully aborted action ${resultId} due to stream idle timeout`,
+              );
+            } catch (error) {
+              this.logger.error(
+                `Failed to abort action ${resultId} on stream idle timeout: ${error?.message}`,
+              );
+              // Fallback to direct abort if ActionService fails
+              abortController.abort(timeoutReason);
+              result.errors.push(timeoutReason);
+              result.status = 'failed';
+              result.errorType = 'systemError';
+            }
+            // Stop the timeout check after triggering
+            if (timeoutCheckInterval) {
+              clearInterval(timeoutCheckInterval);
+              timeoutCheckInterval = null;
+            }
+          }
+        },
+        this.config.get<number>('skill.streamIdleCheckInterval', 5000),
+      ); // Check every N seconds
+    };
+
+    const stopTimeoutCheck = () => {
+      if (timeoutCheckInterval) {
+        clearInterval(timeoutCheckInterval);
+        timeoutCheckInterval = null;
+      }
+    };
+
+    const resultAggregator = new ResultAggregator(this.stepService, resultId, version);
+    const messageAggregator = new MessageAggregator(resultId, version, this.prisma);
+
+    // Initialize structuredData with original query if available
+    const originalQuery = data.input?.originalQuery;
+    if (originalQuery) {
+      resultAggregator.addSkillEvent({
+        event: 'structured_data',
+        resultId,
+        step: { name: 'start' },
+        structuredData: {
+          query: originalQuery, // Store original query in structuredData
+          processedQuery: data.input?.query, // Store processed query for reference
+        },
+      });
+    }
+
+    // NOTE: Artifacts include both code artifacts and documents
+    type ArtifactOutput = Artifact & {
+      nodeCreated: boolean; // Whether the canvas node is created
+      content: string; // Accumulated content
+      connection?: DirectConnection & { document: Y.Doc };
+    };
+    const artifactMap: Record<string, ArtifactOutput> = {};
+
+    const config = await this.buildInvokeConfig(user, {
+      ...data,
+      eventListener: async (data: SkillEvent) => {
+        if (abortController.signal.aborted) {
+          this.logger.warn(`skill invocation aborted, ignore event: ${JSON.stringify(data)}`);
+          return;
+        }
+
+        // Record output event for simple timeout tracking
+        lastOutputTime = Date.now();
+        hasAnyOutput = true;
+
+        if (res) {
+          writeSSEResponse(res, { ...data, resultId, version });
+        }
+
+        const { event, structuredData, artifact, log } = data;
+        switch (event) {
+          case 'log':
+            if (log) {
+              resultAggregator.addSkillEvent(data);
+            }
+            return;
+          case 'structured_data':
+            if (structuredData) {
+              resultAggregator.addSkillEvent(data);
+            }
+            return;
+          case 'artifact':
+            this.logger.info(`artifact event received: ${JSON.stringify(artifact)}`);
+            return;
+          case 'error':
+            result.errors.push(data.content);
+            return;
+        }
+      },
+    });
+
+    const skill = this.skillInventory.find((s) => s.name === data.skillName);
+
+    let runMeta: SkillRunnableMeta | null = null;
+    const basicUsageData = {
+      uid: user.uid,
+      resultId,
+      actionMeta,
+    };
+
+    if (res) {
+      writeSSEResponse(res, { event: 'start', resultId, version });
+    }
+
+    // Consolidated cleanup function to handle ALL timeout intervals and resources
+    let cleanupExecuted = false;
+    const performCleanup = () => {
+      if (cleanupExecuted) return; // Prevent multiple cleanup executions
+      cleanupExecuted = true;
+
+      // Stop abort check interval
+      stopAbortCheck();
+
+      // Stop stream idle timeout check interval
+      stopTimeoutCheck();
+
+      this.logger.debug(
+        `Cleaned up all timeout intervals for action ${resultId} due to abort/completion`,
+      );
+    };
+
+    // Register cleanup on abort signal
+    abortController.signal.addEventListener('abort', performCleanup);
+
+    // Start the timeout check when we begin streaming (only if timeout is enabled)
+    if (streamIdleTimeout > 0) {
+      startTimeoutCheck();
+    }
+
+    // Create Langfuse callback handler if baseUrl is configured
+    // New @langfuse/langchain v4 API: simpler initialization, trace ID via runId parameter
+    const callbacks = [];
+    const langfuseBaseUrl = this.config.get<string>('langfuse.baseUrl');
+    if (langfuseBaseUrl) {
+      try {
+        const handler = this.createLangfuseHandler({
+          sessionId: data.target?.entityId,
+          userId: user.uid,
+          skillName: data.skillName,
+          mode: data.mode,
+        });
+        callbacks.push(handler);
+      } catch (err) {
+        this.logger.warn(`Failed to create Langfuse callback handler: ${err.message}`);
+      }
+    }
+
+    // Track latest tool call metadata for error handling
+    let _lastStepName: string | undefined;
+    let _lastToolCallMeta: ToolCallMeta | undefined;
+
+    // PTC polling manager for execute_code tools
+    // Declared outside try block so finally can clean up even if early error occurs
+    const ptcPollerManager = new PtcPollerManager(
+      {
+        res,
+        resultId,
+        version,
+        messageAggregator,
+        getRunMeta: () => runMeta,
+      },
+      this.toolCallService,
+      this.logger,
+    );
+
+    try {
+      // Check if already aborted before starting execution (handles queued aborts)
+      const isAlreadyAborted = await this.actionService.isAbortRequested(resultId, version);
+      if (isAlreadyAborted) {
+        this.logger.warn(
+          `[${ABORT_LOG_LABELS.USER_BEFORE_EXECUTION}] ` +
+            `Action ${resultId} already marked for abort before execution, skipping`,
+        );
+        abortController.abort(ABORT_MESSAGES.USER_ABORT);
+        result.status = 'failed';
+        result.errorType = 'userAbort';
+        throw new Error(ABORT_MESSAGES.USER_ABORT);
+      }
+
+      // tool callId, now we use first time returned run_id as tool call id
+      const startTs = Date.now();
+      const toolCallIds: Set<string> = new Set();
+      const toolCallStartTimes: Map<string, number> = new Map();
+      const llmCallStartTimes: Map<string, number> = new Map();
+
+      // Track Vertex AI cache tokens from custom events (workaround for LangChain not extracting cachedContentTokenCount)
+      const vertexCacheTokens: Map<string, number> = new Map();
+
+      for await (const event of skill.streamEvents(input, {
+        ...config,
+        version: 'v2',
+        signal: abortController.signal,
+        callbacks,
+        runName: data.skillName || 'skill-invoke',
+      })) {
+        runMeta = event.metadata as SkillRunnableMeta;
+        const chunk: AIMessageChunk = event.data?.chunk ?? event.data?.output;
+
+        // Record stream output for simple timeout tracking
+        lastOutputTime = Date.now();
+        hasAnyOutput = true;
+        switch (event.event) {
+          case 'on_custom_event': {
+            // Extract Vertex AI cache tokens from google-chunk custom events
+            // This is a workaround for LangChain not extracting cachedContentTokenCount
+            const customEventName = event.name;
+            if (customEventName?.includes('google-chunk')) {
+              const customData = (event as any).data;
+              const output = customData?.output;
+              const cachedTokenCount = output?.usageMetadata?.cachedContentTokenCount;
+
+              // Store the cached token count if it exists and is positive
+              if (cachedTokenCount && cachedTokenCount > 0 && event.run_id) {
+                vertexCacheTokens.set(event.run_id, cachedTokenCount);
+              }
+            }
+            break;
+          }
+          case 'on_tool_end':
+          case 'on_tool_error':
+          case 'on_tool_start': {
+            // Skip non-tool user-visible helpers like commonQnA, and ensure toolsetKey exists
+            const { toolsetKey } = event.metadata ?? {};
+            if (!toolsetKey) {
+              break;
+            }
+            const stepName = runMeta?.step?.name;
+            const toolsetId = toolsetKey;
+            let toolName = String(event.metadata?.name ?? '');
+            // If name starts with toolsetId_, extract the part after the prefix and convert to lowercase
+            const nameParts = toolName.split('_');
+            if (nameParts.length >= 2 && nameParts[0].toLowerCase() === toolsetId.toLowerCase()) {
+              // Remove the first element (toolsetId) and join the rest
+              toolName = nameParts.slice(1).join('_').toLowerCase();
+            }
+            const runId = event?.run_id ? String(event.run_id) : randomUUID();
+            const toolCallId = runId;
+
+            const persistToolCall = async (
+              status: ToolCallStatus,
+              data: {
+                input: string | undefined;
+                output: string | undefined;
+                errorMessage?: string;
+              },
+            ) => {
+              const input = data.input;
+              const output = data.output;
+              const errorMessage = String(data.errorMessage ?? '');
+              // Use the actual tool call start time, not the skill invocation start time
+              const createdAt = toolCallStartTimes.get(toolCallId) ?? Date.now();
+              const updatedAt = Date.now();
+              await this.toolCallService.persistToolCallResult(
+                res,
+                user.uid,
+                { resultId, version },
+                toolsetId,
+                toolName,
+                input,
+                output,
+                status,
+                toolCallId,
+                stepName,
+                createdAt,
+                updatedAt,
+                errorMessage,
+              );
+            };
+
+            if (event.event === 'on_tool_start') {
+              if (!toolCallIds.has(toolCallId)) {
+                toolCallIds.add(toolCallId);
+                const toolStartTs = Date.now();
+
+                // Track for error handling
+                _lastStepName = stepName;
+                _lastToolCallMeta = {
+                  toolName,
+                  toolsetKey,
+                  toolsetId,
+                  toolCallId,
+                  startTs: toolStartTs,
+                  status: 'executing',
+                };
+                toolCallStartTimes.set(toolCallId, toolStartTs);
+                await persistToolCall(ToolCallStatus.EXECUTING, {
+                  input: event.data?.input,
+                  output: '',
+                });
+
+                const toolCallMeta: ToolCallMeta = {
+                  toolName,
+                  toolsetKey,
+                  toolsetId,
+                  toolCallId,
+                  startTs: toolStartTs,
+                  status: 'executing' as const,
+                };
+                const toolMessageId = messageAggregator.addToolMessage({
+                  toolCallId,
+                  toolCallMeta,
+                });
+
+                // Emit tool_call_start event with toolCallMeta and messageId
+                if (res) {
+                  writeSSEResponse(res, {
+                    event: 'tool_call_start',
+                    resultId,
+                    step: runMeta?.step,
+                    messageId: toolMessageId,
+                    toolCallMeta,
+                    toolCallResult: {
+                      callId: toolCallId,
+                      toolsetId,
+                      toolName,
+                      stepName,
+                      input: event.data?.input,
+                      status: 'executing',
+                      createdAt: toolStartTs,
+                      updatedAt: Date.now(),
+                    },
+                  });
+                }
+
+                // Start PTC polling for execute_code tool (runs even without SSE connection for DB persistence)
+                if (toolName === 'execute_code') {
+                  ptcPollerManager.start(toolCallId);
+                }
+
+                break;
+              }
+            }
+            if (event.event === 'on_tool_error') {
+              const errorMsg = String((event.data as any)?.error ?? 'Tool execution failed');
+              // Parse tool output if it's a JSON string (from dynamic tools)
+              const rawErrorOutput = event.data?.output;
+              const errorToolOutput =
+                typeof rawErrorOutput === 'string'
+                  ? safeParseJSON(rawErrorOutput) || rawErrorOutput
+                  : rawErrorOutput;
+              await persistToolCall(ToolCallStatus.FAILED, {
+                input: undefined,
+                output: errorToolOutput,
+                errorMessage: errorMsg,
+              });
+              // Add ToolMessage for failed tool execution
+              const toolStartTs = toolCallStartTimes.get(toolCallId);
+              const toolEndTs = Date.now();
+              const toolCallMeta: ToolCallMeta = {
+                toolName,
+                toolsetKey,
+                toolsetId,
+                toolCallId,
+                startTs: toolStartTs,
+                endTs: toolEndTs,
+                status: 'failed' as const,
+                error: errorMsg,
+              };
+              const toolMessageId = messageAggregator.addToolMessage({
+                toolCallId,
+                toolCallMeta,
+              });
+
+              // Emit tool_call_error event with toolCallMeta and messageId
+              if (res) {
+                writeSSEResponse(res, {
+                  event: 'tool_call_error',
+                  resultId,
+                  step: runMeta?.step,
+                  messageId: toolMessageId,
+                  toolCallMeta,
+                  toolCallResult: {
+                    callId: toolCallId,
+                    toolsetId,
+                    toolName,
+                    stepName,
+                    output: errorToolOutput,
+                    error: errorMsg,
+                    status: 'failed',
+                    createdAt: startTs,
+                    updatedAt: Date.now(),
+                  },
+                });
+              }
+
+              this.toolCallService.releaseToolCallId({
+                resultId,
+                version,
+                toolName,
+                toolsetId,
+                runId,
+              });
+              toolCallIds.delete(toolCallId);
+
+              // Record tool invocation metrics
+              if (toolStartTs) {
+                this.metrics.tool.duration(toolName, toolsetKey, Date.now() - toolStartTs);
+                toolCallStartTimes.delete(toolCallId);
+              }
+              this.metrics.tool.fail({ toolName, toolsetKey, error: errorMsg });
+
+              // Stop PTC polling for execute_code tool on error (runs even without SSE connection)
+              if (toolName === 'execute_code') {
+                await ptcPollerManager.stop(toolCallId);
+              }
+
+              break;
+            }
+            if (event.event === 'on_tool_end') {
+              // Parse tool output if it's a JSON string (from dynamic tools)
+              // to ensure consistent object format in SSE events
+              const rawToolOutput = event.data?.output;
+              const toolOutput =
+                typeof rawToolOutput === 'string'
+                  ? safeParseJSON(rawToolOutput) || rawToolOutput
+                  : rawToolOutput;
+              const isErrorStatus = toolOutput?.status === 'error';
+              const errorMessage = isErrorStatus
+                ? String(toolOutput?.error ?? 'Tool returned error status')
+                : undefined;
+              const finalStatus = isErrorStatus ? ToolCallStatus.FAILED : ToolCallStatus.COMPLETED;
+              await persistToolCall(finalStatus, {
+                input: undefined,
+                output: toolOutput,
+                errorMessage,
+              });
+
+              // Add ToolMessage for message persistence
+              const toolStartTs = toolCallStartTimes.get(toolCallId);
+              const toolEndTs = Date.now();
+              const toolCallMeta: ToolCallMeta = {
+                toolName,
+                toolsetKey,
+                toolsetId,
+                toolCallId,
+                startTs: toolStartTs,
+                endTs: toolEndTs,
+                status: isErrorStatus ? ('failed' as const) : ('completed' as const),
+                ...(isErrorStatus ? { error: errorMessage } : {}),
+              };
+              const toolMessageId = messageAggregator.addToolMessage({
+                toolCallId,
+                toolCallMeta,
+              });
+
+              // Emit tool_call_end or tool_call_error event with toolCallMeta and messageId
+              if (res) {
+                writeSSEResponse(res, {
+                  event: isErrorStatus ? 'tool_call_error' : 'tool_call_end',
+                  resultId,
+                  step: runMeta?.step,
+                  messageId: toolMessageId,
+                  toolCallMeta,
+                  toolCallResult: {
+                    callId: toolCallId,
+                    toolsetId,
+                    toolName,
+                    stepName,
+                    output: toolOutput,
+                    ...(isErrorStatus ? { error: errorMessage } : {}),
+                    status: isErrorStatus ? 'failed' : 'completed',
+                    createdAt: startTs,
+                    updatedAt: Date.now(),
+                  },
+                });
+              }
+
+              // Extract tool_call_chunks from AIMessageChunk for successful tool runs
+              if (!isErrorStatus && event.metadata?.langgraph_node === 'tools' && toolOutput) {
+                if (!toolsetKey) {
+                  break;
+                }
+
+                // Handle generated files from tools (sandbox, scalebox, etc.)
+                // Add them to canvas as image/audio/video/document nodes
+                await this.handleToolGeneratedFiles(user, data, toolOutput, resultId).catch(
+                  (error) => {
+                    this.logger.error(`Failed to handle tool generated files: ${error?.message}`);
+                  },
+                );
+              }
+              this.toolCallService.releaseToolCallId({
+                resultId,
+                version,
+                toolName,
+                toolsetId,
+                runId,
+              });
+              toolCallIds.delete(toolCallId);
+
+              // Record tool invocation metrics
+              if (toolStartTs) {
+                this.metrics.tool.duration(toolName, toolsetKey, Date.now() - toolStartTs);
+                toolCallStartTimes.delete(toolCallId);
+              }
+
+              if (isErrorStatus) {
+                this.metrics.tool.fail({ toolName, toolsetKey, error: errorMessage || '' });
+              } else {
+                this.metrics.tool.success({ toolName, toolsetKey });
+              }
+
+              // Stop PTC polling and send remaining events for execute_code tool
+              if (toolName === 'execute_code' && res) {
+                await ptcPollerManager.stop(toolCallId);
+              }
+
+              break;
+            }
+            break;
+          }
+          case 'on_chat_model_stream': {
+            const { content, reasoningContent } = extractChunkContent(chunk);
+
+            if ((content || reasoningContent) && !runMeta?.suppressOutput) {
+              // Start a new AI message if not already started
+              if (!messageAggregator.hasCurrentAIMessage()) {
+                messageAggregator.startAIMessage();
+              }
+
+              // Accumulate content for message persistence
+              messageAggregator.appendToAIMessage(content, reasoningContent);
+
+              // Update result content and forward stream events to client
+              resultAggregator.handleStreamContent(runMeta, content, reasoningContent);
+              if (res) {
+                writeSSEResponse(res, {
+                  event: 'stream',
+                  resultId,
+                  content,
+                  reasoningContent,
+                  step: runMeta?.step,
+                  messageId: messageAggregator.getCurrentAIMessageId(),
+                });
+              }
+            }
+            break;
+          }
+          case 'on_chat_model_start': {
+            const runId = event.run_id;
+            if (runId) {
+              llmCallStartTimes.set(runId, Date.now());
+            }
+            break;
+          }
+          case 'on_chat_model_end':
+            if (runMeta && chunk) {
+              this.logger.info(`ls_model_name: ${String(runMeta.ls_model_name)}`);
+
+              const providerItem = await this.providerService.findLLMProviderItemByModelID(
+                user,
+                String(runMeta.ls_model_name),
+              );
+              if (!providerItem) {
+                this.logger.error(`model not found: ${String(runMeta.ls_model_name)}`);
+              }
+
+              // Extract routing data if model was routed (e.g., from Auto model)
+              const config =
+                typeof data.providerItem?.config === 'string'
+                  ? safeParseJSON(data.providerItem?.config)
+                  : data.providerItem?.config;
+              const routedData = config?.routedData;
+
+              // Type assertions for usage metadata
+              const usageMetadata = chunk.usage_metadata as any;
+              const responseMetadata = chunk.response_metadata as any;
+
+              // Extract cache-related tokens from different possible sources
+              // AWS Bedrock uses multiple possible field names:
+              //   - cacheReadInputTokenCount (singular, without 's')
+              //   - cacheReadInputTokens (plural, with 's')
+              //   - cacheReadInputTokensCount (legacy)
+              // Anthropic (via LangChain) uses: input_token_details.cache_read
+              // Vertex AI: Note that @langchain/google-vertexai v2.1.2 does NOT extract
+              //   cachedContentTokenCount from Vertex AI responses.
+              const bedrockUsage = responseMetadata?.metadata?.usage;
+
+              // Extract Vertex AI cached tokens from our workaround storage
+              // Important: Keep as undefined if not found, so ?? operator can fall through to Bedrock fields
+              const vertexCachedTokens = event.run_id
+                ? vertexCacheTokens.get(event.run_id)
+                : undefined;
+
+              const rawInputTokens = usageMetadata?.input_tokens ?? 0;
+              const rawOutputTokens = usageMetadata?.output_tokens ?? 0;
+
+              // For Vertex AI: promptTokenCount includes cached tokens
+              // So we need to subtract cache tokens to get the actual new input tokens
+              // Vertex AI semantics: promptTokenCount = cachedContentTokenCount + new input
+              // Our semantics (Bedrock-like): inputTokens = new input only, cacheReadTokens = cached
+              const inputTokens = vertexCachedTokens
+                ? rawInputTokens - vertexCachedTokens
+                : rawInputTokens;
+
+              const outputTokens = rawOutputTokens;
+
+              const cacheReadTokens =
+                usageMetadata?.input_token_details?.cache_read ??
+                vertexCachedTokens ??
+                bedrockUsage?.cacheReadInputTokenCount ??
+                bedrockUsage?.cacheReadInputTokens ??
+                bedrockUsage?.cacheReadInputTokensCount ??
+                0;
+              const cacheWriteTokens =
+                usageMetadata?.input_token_details?.cache_creation ??
+                bedrockUsage?.cacheWriteInputTokenCount ??
+                bedrockUsage?.cacheWriteInputTokens ??
+                bedrockUsage?.cacheWriteInputTokensCount ??
+                0;
+
+              // Clean up the cached token count after using it
+              if (event.run_id && vertexCachedTokens && vertexCachedTokens > 0) {
+                vertexCacheTokens.delete(event.run_id);
+              }
+
+              // According to AWS Bedrock semantics (https://docs.aws.amazon.com/bedrock/latest/userguide/quotas-token-burndown.html):
+              // - InputTokenCount: tokens that need to be processed by the model (billable at full rate)
+              // - CacheReadInputTokens: tokens retrieved from cache (billable at discounted rate)
+              // - CacheWriteInputTokens: tokens written to cache
+              // These are separate categories, NOT a total that needs to be subtracted.
+              // Formula: totalTokens = inputTokens + cacheReadTokens + outputTokens
+              const usage: TokenUsageItem = {
+                tier: providerItem?.tier,
+                modelProvider: providerItem?.provider?.name,
+                modelName: String(runMeta.ls_model_name),
+                modelLabel: providerItem?.name,
+                providerItemId: providerItem?.itemId,
+                originalModelId: routedData?.originalModelId,
+                modelRoutedData: routedData,
+                inputTokens,
+                outputTokens,
+                cacheReadTokens,
+                cacheWriteTokens,
+              };
+
+              if (cacheReadTokens > 0) {
+                this.logger.info(
+                  `Prompt cache hit, model: ${usage.modelName}, inputTokens: ${usage.inputTokens}, outputTokens: ${usage.outputTokens}, cacheReadTokens: ${usage.cacheReadTokens}, cacheWriteTokens: ${usage.cacheWriteTokens}`,
+                );
+              }
+
+              resultAggregator.addUsageItem(runMeta, usage);
+
+              // Record OpenTelemetry metrics: LLM invocation
+              const modelName = String(runMeta.ls_model_name);
+              const runId = event.run_id;
+              if (runId) {
+                const startTime = llmCallStartTimes.get(runId);
+                if (startTime) {
+                  this.metrics.llm.duration(modelName, Date.now() - startTime);
+                  llmCallStartTimes.delete(runId);
+                }
+              }
+
+              this.metrics.llm.success(modelName);
+              this.metrics.llm.token({
+                inputTokens,
+                outputTokens,
+                cacheReadTokens,
+                cacheWriteTokens,
+                modelName,
+              });
+
+              // Get the current AI message ID before finalizing
+              const aiMessageId = messageAggregator.getCurrentAIMessageId();
+
+              // Record usage metadata for message persistence
+              if (messageAggregator.hasCurrentAIMessage()) {
+                messageAggregator.setAIMessageUsage(
+                  usageMetadata?.input_tokens ?? 0,
+                  usageMetadata?.output_tokens ?? 0,
+                );
+
+                // Finalize the current AI message
+                messageAggregator.finalizeCurrentAIMessage();
+              }
+
+              if (res) {
+                writeSSEResponse(res, {
+                  event: 'token_usage',
+                  resultId,
+                  tokenUsage: usage,
+                  step: runMeta?.step,
+                  messageId: aiMessageId,
+                });
+              }
+
+              if (this.usageReportQueue) {
+                const tokenUsage: SyncTokenUsageJobData = {
+                  ...basicUsageData,
+                  usage,
+                  timestamp: new Date(),
+                };
+                await this.usageReportQueue.add(`usage_report:${resultId}`, tokenUsage);
+              }
+            }
+            break;
+        }
+      }
+    } catch (err) {
+      // Record OpenTelemetry metrics: LLM invocation error
+      this.metrics.llm.fail(String(runMeta?.ls_model_name || 'unknown'));
+
+      const errorMessage = err.message || 'Unknown error';
+      const errorType = err.name || 'Error';
+
+      // Detect LangGraph abort errors (which lose the original reason)
+      const isLangGraphAbort =
+        errorMessage === 'Abort' && err.stack?.includes('langgraph/dist/pregel/runner');
+
+      // For LangGraph aborts, query database to get the correct errorType and errors
+      // This prevents overwriting the errorType that was already set by abortActionFromReq
+      let dbErrorType: string | null = null;
+      let dbErrors: string[] | null = null;
+
+      if (isLangGraphAbort) {
+        try {
+          const dbResult = await this.prisma.actionResult.findFirst({
+            where: { resultId, version },
+            select: { errorType: true, errors: true, status: true },
+          });
+
+          if (dbResult && dbResult.status === 'failed') {
+            // Database already marked as failed, use its errorType and errors
+            dbErrorType = dbResult.errorType;
+            dbErrors = dbResult.errors ? JSON.parse(dbResult.errors as string) : null;
+
+            this.logger.info(
+              `[ABORT] LangGraph abort detected. Using database values: errorType=${dbErrorType}, errors=${JSON.stringify(dbErrors)}`,
+            );
+          }
+        } catch (dbError) {
+          this.logger.error(
+            `[ABORT] Failed to query database for errorType: ${dbError?.message}. Will fall back to categorization.`,
+          );
+          // Continue execution, don't interrupt the error handling flow
+        }
+      }
+
+      const errorInfo = this.categorizeError(err);
+
+      // Log error based on categorization
+      if (errorInfo.isGeneralTimeout) {
+        this.logger.error(`🚨 Network timeout detected for action: ${resultId} - ${errorMessage}`);
+      } else if (errorInfo.isNetworkError) {
+        this.logger.error(`🌐 Network error for action: ${resultId} - ${errorMessage}`);
+      } else if (errorInfo.isAbortError) {
+        this.logger.warn(`⏹️  Request aborted for action: ${resultId} - ${errorMessage}`);
+      } else if (isLangGraphAbort && dbErrorType) {
+        // LangGraph abort with database info available
+        const logPrefix = dbErrorType === 'userAbort' ? '⏹️  User abort' : '⏱️  System abort';
+        this.logger.warn(
+          `${logPrefix} (LangGraph) for action: ${resultId} - ${dbErrors?.[0] || errorMessage}`,
+        );
+      } else {
+        this.logger.error(
+          `❌ Skill execution error for action: ${resultId} - ${errorType}: ${errorMessage}`,
+        );
+      }
+
+      this.logger.error(`Full error stack: ${err.stack}`);
+
+      // For user aborts, estimate token usage from generated content
+      if (errorInfo.isAbortError && runMeta) {
+        try {
+          await this.estimateTokenUsageOnAbort(
+            user,
+            data,
+            input,
+            resultAggregator,
+            runMeta,
+            resultId,
+          );
+        } catch (estimateError) {
+          this.logger.error(`Failed to estimate token usage on abort: ${estimateError?.message}`);
+        }
+      }
+
+      // const isTokenLimitError = this.isTokenLimitError(err);
+      // const shouldHandleErrorFallback = !errorInfo.isAbortError;
+      // const failureReason = isTokenLimitError
+      //   ? 'token_limit_exceeded'
+      //   : errorInfo.isNetworkError
+      //     ? 'network_error'
+      //     : 'execution_error';
+      // const failureMessage = isTokenLimitError
+      //   ? 'Token limit exceeded. Tool execution results have been saved to file.'
+      //   : `${errorInfo.userFriendlyMessage}. Tool execution results have been saved to file.`;
+
+      // const fallbackHandled = shouldHandleErrorFallback
+      //   ? await this.handleErrorFallback({
+      //       input,
+      //       config,
+      //       user,
+      //       resultId,
+      //       version,
+      //       canvasId,
+      //       res,
+      //       runMeta,
+      //       providerItem: data.providerItem,
+      //       toolCallMeta: lastToolCallMeta,
+      //       stepName: lastStepName ?? runMeta?.step?.name,
+      //       failureReason,
+      //       failureMessage,
+      //     })
+      //   : null;
+
+      // Normal error handling - send error SSE (triggers popup) and set failed status
+
+      // Determine final errorType and error message
+      // Priority: database values (for LangGraph aborts) > categorization > result.errorType > default
+      let finalErrorType: 'systemError' | 'userAbort';
+      let finalErrorMessage: string;
+
+      if (isLangGraphAbort && dbErrorType && dbErrors) {
+        // Case 1: LangGraph abort with database values available (highest priority)
+        finalErrorType = (dbErrorType as 'systemError' | 'userAbort') || 'systemError';
+        finalErrorMessage = dbErrors[0] || errorInfo.userFriendlyMessage;
+
+        this.logger.info(
+          `[ABORT] Using database errorType for LangGraph abort: errorType=${finalErrorType}, message="${finalErrorMessage}"`,
+        );
+      } else if (errorInfo.isAbortError) {
+        // Case 2: categorizeError detected it as abort error
+        finalErrorType = 'userAbort';
+        finalErrorMessage = errorInfo.userFriendlyMessage;
+      } else {
+        // Case 3: Other errors (use existing result.errorType if set, otherwise systemError)
+        finalErrorType = (result.errorType as 'systemError' | 'userAbort') || 'systemError';
+        finalErrorMessage = errorInfo.userFriendlyMessage;
+      }
+
+      // Send SSE error response
+      if (res) {
+        writeSSEResponse(res, {
+          event: 'error',
+          resultId,
+          version,
+          error: genBaseRespDataFromError(new Error(finalErrorMessage)),
+          originError: err.message,
+        });
+      }
+
+      // Set final status and errorType
+      result.status = 'failed';
+      result.errorType = finalErrorType;
+      result.errors.push(finalErrorMessage);
+    } finally {
+      // Cleanup all timers and resources to prevent memory leaks
+      // Note: consolidated abort signal listener handles cleanup for early abort scenarios
+
+      // Perform cleanup for normal completion or exception scenarios
+      // (redundant with abort listener but ensures cleanup in all cases)
+      if (!cleanupExecuted) {
+        performCleanup();
+      }
+
+      // Cleanup all PTC pollers
+      ptcPollerManager.cleanup();
+
+      // Unregister the abort controller
+      this.actionService.unregisterAbortController(resultId);
+
+      // Note: @langfuse/langchain v4 CallbackHandler creates OTEL spans via startAndRegisterOtelSpan()
+      // These spans are processed by LangfuseSpanProcessor which handles batching and export
+      // No manual flush needed - the span processor has its own export interval
+
+      for (const artifact of Object.values(artifactMap)) {
+        artifact.connection?.disconnect();
+      }
+
+      // Flush all pending messages to the database
+      await messageAggregator.flush();
+
+      const steps = await resultAggregator.getSteps({ resultId, version });
+      // Get only unpersisted messages (those that failed during auto-save)
+      const messages = messageAggregator.getUnpersistedMessagesAsPrismaInput();
+      const status = result.errors.length > 0 ? 'failed' : 'finish';
+
+      this.logger.info(
+        `Persisting ${steps.length} steps and ${messages.length} unpersisted messages for result ${resultId}`,
+      );
+
+      await this.prisma.$transaction([
+        this.prisma.actionStep.createMany({ data: steps }),
+        // Persist remaining unpersisted messages to action_messages table
+        // Use skipDuplicates to handle cases where messages were already auto-saved
+        ...(messages.length > 0
+          ? [this.prisma.actionMessage.createMany({ data: messages, skipDuplicates: true })]
+          : []),
+        ...(result.workflowNodeExecutionId
+          ? [
+              this.prisma.workflowNodeExecution.updateMany({
+                where: { nodeExecutionId: result.workflowNodeExecutionId },
+                data: { status, errorMessage: JSON.stringify(result.errors), endTime: new Date() },
+              }),
+            ]
+          : []),
+        this.prisma.actionResult.updateMany({
+          where: { resultId, version },
+          data: {
+            status,
+            // Use || instead of ?? to ensure errorType is never empty string
+            // If status is failed, use result.errorType (which should always be set now), fallback to 'systemError'
+            errorType: status === 'failed' ? result.errorType || 'systemError' : null,
+            errors: JSON.stringify(result.errors),
+            ptcEnabled: config.configurable.ptcEnabled ?? false,
+          },
+        }),
+      ]);
+
+      // Sync workflow node status to canvas after execution completes
+      if (result.workflowNodeExecutionId) {
+        try {
+          const nodeExecution = await this.prisma.workflowNodeExecution.findUnique({
+            where: { nodeExecutionId: result.workflowNodeExecutionId },
+            select: { canvasId: true, nodeId: true },
+          });
+
+          if (nodeExecution?.canvasId && nodeExecution?.nodeId) {
+            const nodeDiff: NodeDiff = {
+              type: 'update',
+              id: nodeExecution.nodeId,
+              to: {
+                data: {
+                  metadata: {
+                    status,
+                  },
+                },
+              },
+            };
+
+            await this.canvasSyncService.syncState(user, {
+              canvasId: nodeExecution.canvasId,
+              transactions: [
+                {
+                  txId: genTransactionId(),
+                  createdAt: Date.now(),
+                  syncedAt: Date.now(),
+                  source: { type: 'system' },
+                  nodeDiffs: [nodeDiff],
+                  edgeDiffs: [],
+                },
+              ],
+            });
+
+            this.logger.debug(
+              `Synced workflow node ${nodeExecution.nodeId} status to canvas ${nodeExecution.canvasId}`,
+            );
+          }
+        } catch (syncError) {
+          // Log but don't fail the skill invocation if canvas sync fails
+          this.logger.error(
+            `Failed to sync workflow node status to canvas: ${(syncError as Error).message}`,
+          );
+        }
+      }
+
+      writeSSEResponse(res, { event: 'end', resultId, version });
+
+      // Check if we need to auto-name the target canvas
+      if (data.target?.entityType === 'canvas' && !result.errors.length) {
+        const canvas = await this.prisma.canvas.findFirst({
+          where: { canvasId: data.target.entityId, uid: user.uid },
+        });
+        if (canvas && !canvas.title) {
+          if (this.autoNameCanvasQueue) {
+            await this.autoNameCanvasQueue.add('autoNameCanvas', {
+              uid: user.uid,
+              canvasId: canvas.canvasId,
+            });
+          }
+          // In desktop mode, we could handle auto-naming differently if needed
+        }
+      }
+
+      if (tier) {
+        if (this.requestUsageQueue) {
+          await this.requestUsageQueue.add('syncRequestUsage', {
+            uid: user.uid,
+            tier,
+            timestamp: new Date(),
+          });
+        }
+        // In desktop mode, we could handle usage tracking differently if needed
+      }
+
+      await resultAggregator.clearCache();
+
+      // Clean up added files map for this result to prevent memory leak
+      // Remove all entries for this resultId
+      for (const key of this.addedFilesMap.keys()) {
+        if (key.startsWith(`${resultId}:`)) {
+          this.addedFilesMap.delete(key);
+        }
+      }
+      // Process credit billing for all steps after skill completion
+      // Bill credits for successful completions and user aborts (partial usage should be charged)
+      const shouldBillCredits = !result.errors.length || result.errorType === 'userAbort';
+
+      if (shouldBillCredits) {
+        await this.processCreditUsageReport(
+          user,
+          resultId,
+          version,
+          resultAggregator,
+          data.providerItem,
+        );
+      }
+
+      // Dispose message aggregator to clean up resources (stop auto-save timer)
+      messageAggregator.dispose();
+    }
+  }
+
+  getSkillInventory() {
+    return this.skillInventory;
+  }
+
+  /**
+   * Get programming language from MIME type for codeArtifact
+   */
+  private getLanguageFromMimeType(mimeType?: string): string | undefined {
+    if (!mimeType) return undefined;
+
+    const mimeToLanguageMap: Record<string, string> = {
+      'text/csv': 'csv',
+      'application/json': 'json',
+      'text/xml': 'xml',
+      'application/xml': 'xml',
+      'text/html': 'html',
+      'text/markdown': 'markdown',
+      'application/vnd.ms-excel': 'excel',
+      'application/vnd.openxmlformats-officedocument.spreadsheetml.sheet': 'excel',
+      'text/x-python': 'python',
+      'text/javascript': 'javascript',
+      'application/javascript': 'javascript',
+      'text/typescript': 'typescript',
+      'application/typescript': 'typescript',
+      'text/plain': 'plain',
+    };
+
+    return mimeToLanguageMap[mimeType];
+  }
+
+  /**
+   * Handle files generated by tools (sandbox, scalebox, etc.)
+   * Add them to canvas as image/audio/video/document nodes
+   */
+  private async handleToolGeneratedFiles(
+    user: User,
+    data: InvokeSkillJobData,
+    toolOutput: any,
+    parentResultId: string,
+  ): Promise<void> {
+    try {
+      // Check if tool output contains generated files
+      const uploadedFiles = toolOutput?.data?.uploadedFiles || toolOutput?.data?.uploads;
+      const hasGeneratedFiles = toolOutput?.data?.hasGeneratedFiles;
+
+      if (
+        !hasGeneratedFiles ||
+        !uploadedFiles ||
+        !Array.isArray(uploadedFiles) ||
+        uploadedFiles.length === 0
+      ) {
+        return;
+      }
+
+      this.logger.info(
+        `Handling ${uploadedFiles.length} generated files from tool for result ${parentResultId}`,
+      );
+
+      const { target } = data;
+      const targetType = target?.entityType;
+      const targetId = target?.entityId;
+
+      // Only add to canvas if target is a canvas
+      if (targetType !== 'canvas' || !targetId) {
+        this.logger.warn(
+          `Target is not a canvas (type: ${targetType}, id: ${targetId}), skipping canvas node creation`,
+        );
+        return;
+      }
+
+      // Add each generated file as a canvas node
+      for (const file of uploadedFiles) {
+        try {
+          const { type, entityId, storageKey, url, title, name, mimeType, artifactType } = file;
+
+          if (!storageKey || !url) {
+            this.logger.warn(`File ${name || title} is missing storageKey or url, skipping`);
+            continue;
+          }
+
+          // Check if this file has already been added to prevent duplicates
+          // Use storageKey as unique identifier
+          const dedupeKey = `${parentResultId}:${storageKey}`;
+          if (this.addedFilesMap.has(dedupeKey)) {
+            this.logger.info(
+              `File ${storageKey} already added for result ${parentResultId}, skipping duplicate`,
+            );
+            continue;
+          }
+
+          const nodeType = type || 'image'; // Default to image if type is not specified
+          const mediaId = entityId || genImageID();
+          const nodeTitle = title || name || `Generated ${nodeType}`;
+
+          // Prepare metadata based on node type
+          const metadata: any = {
+            resultId: mediaId,
+            storageKey,
+            parentResultId,
+          };
+
+          // Add type-specific URL field
+          if (nodeType === 'image') {
+            metadata.imageUrl = url;
+            metadata.imageType = mimeType?.split('/')?.[1] || 'png';
+          } else if (nodeType === 'audio') {
+            metadata.audioUrl = url;
+          } else if (nodeType === 'video') {
+            metadata.videoUrl = url;
+          } else if (nodeType === 'document') {
+            metadata.documentUrl = url;
+          } else if (nodeType === 'codeArtifact') {
+            // For codeArtifact, store artifact type and URL
+            metadata.artifactType = artifactType || mimeType || 'text/csv';
+            metadata.artifactUrl = url;
+            metadata.language = this.getLanguageFromMimeType(mimeType);
+          }
+
+          // Add node to canvas
+          await this.canvasSyncService.addNodesToCanvas(
+            user,
+            targetId,
+            [
+              {
+                node: {
+                  type: nodeType,
+                  data: {
+                    title: nodeTitle,
+                    entityId: mediaId,
+                    metadata,
+                  },
+                },
+                connectTo: [{ type: 'skillResponse', entityId: parentResultId }],
+              },
+            ],
+            { autoLayout: true },
+          );
+
+          // Mark this file as added
+          this.addedFilesMap.set(dedupeKey, mediaId);
+
+          this.logger.info(
+            `Successfully added ${nodeType} node to canvas: ${nodeTitle} (${mediaId})`,
+          );
+        } catch (fileError) {
+          this.logger.error(
+            `Failed to add file to canvas: ${fileError?.message}`,
+            fileError?.stack,
+          );
+          // Continue processing other files even if one fails
+        }
+      }
+    } catch (error) {
+      this.logger.error(`Error in handleToolGeneratedFiles: ${error?.message}`, error?.stack);
+      throw error;
+    }
+  }
+
+  /**
+   * Estimate token usage when execution is aborted.
+   * Uses local tokenization (gpt-tokenizer) as a best-effort approximation.
+   */
+  private async estimateTokenUsageOnAbort(
+    user: User,
+    data: InvokeSkillJobData,
+    input: any,
+    resultAggregator: ResultAggregator,
+    runMeta: SkillRunnableMeta,
+    resultId: string,
+  ): Promise<void> {
+    try {
+      // Get the generated content from steps
+      const steps = await resultAggregator.getSteps({ resultId, version: data.result.version });
+      const generatedContent = steps
+        .map((step) => step.content || '')
+        .filter(Boolean)
+        .join('\n');
+
+      if (!generatedContent) {
+        return;
+      }
+      // Get provider info
+      const providerItem = await this.providerService.findLLMProviderItemByModelID(
+        user,
+        String(runMeta.ls_model_name),
+      );
+
+      if (!providerItem) {
+        return;
+      }
+
+      const inputTokens = countToken(input.query || '');
+      const outputTokens = countToken(generatedContent);
+      const cacheReadTokens = 0;
+      const cacheWriteTokens = 0;
+
+      const usage: TokenUsageItem = {
+        tier: providerItem?.tier,
+        modelProvider: providerItem?.provider?.name,
+        modelName: String(runMeta.ls_model_name),
+        modelLabel: providerItem?.name,
+        providerItemId: providerItem?.itemId,
+        inputTokens,
+        outputTokens,
+        cacheReadTokens,
+        cacheWriteTokens,
+      };
+
+      resultAggregator.addUsageItem(runMeta, usage);
+    } catch (error) {
+      this.logger.error(`Error estimating token usage on abort: ${error?.message}`, error?.stack);
+      throw error;
+    }
+  }
+
+  /**
+   * Process credit usage report for all steps after skill completion
+   * This method extracts token usage from steps and prepares batch credit billing data
+   */
+  private async processCreditUsageReport(
+    user: User,
+    resultId: string,
+    version: number,
+    resultAggregator: ResultAggregator,
+    providerItem?: ProviderItem,
+  ): Promise<void> {
+    const steps = await resultAggregator.getSteps({ resultId, version });
+
+    // If this is routed (from Auto model), use Auto model's billing rate instead of the actual model's rate
+    let autoBillingConfig: { creditBilling: any; name: string } | null = null;
+    if (providerItem?.config) {
+      const config = providerItem.config as any;
+      const routedData = config.routedData;
+
+      if (routedData?.isRouted) {
+        try {
+          const originalItemId = routedData.originalItemId;
+          const originalItem = await this.providerService.findProviderItemById(
+            user,
+            originalItemId,
+          );
+          if (originalItem) {
+            autoBillingConfig = {
+              creditBilling: originalItem.creditBilling,
+              name: originalItem.name,
+            };
+          }
+        } catch (error) {
+          // Fallback to actual model billing if failed to fetch Auto model config
+          this.logger.warn(
+            `Failed to fetch Auto model config, fallback to actual model: ${error?.message}`,
+          );
+        }
+      }
+    }
+
+    // Collect all model names used in token usage
+    const modelNames = new Set<string>();
+    for (const step of steps) {
+      if (step.tokenUsage) {
+        const tokenUsageArray = safeParseJSON(step.tokenUsage);
+        const tokenUsages = Array.isArray(tokenUsageArray) ? tokenUsageArray : [tokenUsageArray];
+
+        for (const tokenUsage of tokenUsages) {
+          if (tokenUsage.modelName) {
+            modelNames.add(String(tokenUsage.modelName));
+          }
+        }
+      }
+    }
+
+    // Batch fetch all provider items for the models used
+    const providerItemsMap = new Map<string, any>();
+    if (modelNames.size > 0) {
+      const providerItems = await this.providerService.findProviderItemsByCategory(user, 'llm');
+      for (const item of providerItems) {
+        try {
+          const config = safeParseJSON(item.config || '{}');
+          if (config.modelId && modelNames.has(config.modelId)) {
+            providerItemsMap.set(config.modelId, item);
+          }
+        } catch (error) {
+          this.logger.warn(
+            `Failed to parse config for provider item ${item.itemId}: ${error?.message}`,
+          );
+        }
+      }
+    }
+
+    // Collect all credit usage steps
+    const creditUsageSteps: CreditUsageStep[] = [];
+
+    for (const step of steps) {
+      if (step.tokenUsage) {
+        const tokenUsageArray = safeParseJSON(step.tokenUsage);
+
+        // Handle both array and single object cases
+        const tokenUsages = Array.isArray(tokenUsageArray) ? tokenUsageArray : [tokenUsageArray];
+
+        for (const tokenUsage of tokenUsages) {
+          const providerItem = providerItemsMap.get(String(tokenUsage.modelName));
+
+          // Use Auto model's billing rate if this request was routed from Auto
+          // This ensures: token count from real model + billing rate from Auto model
+          const billingConfig = autoBillingConfig || {
+            creditBilling: providerItem?.creditBilling,
+            name: providerItem?.name,
+          };
+
+          if (billingConfig?.creditBilling) {
+            const creditBilling = normalizeCreditBilling(
+              safeParseJSON(billingConfig.creditBilling),
+            );
+
+            if (!creditBilling) {
+              continue;
+            }
+
+            const usage: TokenUsageItem = {
+              tier: providerItem?.tier,
+              modelProvider: providerItem?.provider?.name,
+              modelName: providerItem?.name,
+              inputTokens: tokenUsage.inputTokens || 0,
+              outputTokens: tokenUsage.outputTokens || 0,
+              cacheReadTokens: tokenUsage.cacheReadTokens || 0,
+              cacheWriteTokens: tokenUsage.cacheWriteTokens || 0,
+            };
+
+            // billingModelName: model name used for billing (Auto or direct model)
+            // usage.modelName already contains the actual model name
+            creditUsageSteps.push({
+              usage,
+              creditBilling,
+              billingModelName: billingConfig.name,
+            });
+          }
+        }
+      }
+    }
+
+    // Process credit billing for all usages in one batch
+    if (creditUsageSteps.length > 0) {
+      const batchTokenCreditUsage: SyncBatchTokenCreditUsageJobData = {
+        uid: user.uid,
+        resultId,
+        version,
+        creditUsageSteps,
+        timestamp: new Date(),
+      };
+
+      const requireRecharge =
+        await this.creditService.syncBatchTokenCreditUsage(batchTokenCreditUsage);
+      if (requireRecharge) {
+        throw new ModelUsageQuotaExceeded('credit not available: Insufficient credits.');
+      }
+
+      this.logger.info(
+        `Batch credit billing processed for ${resultId}: ${creditUsageSteps.length} usage items`,
+      );
+    }
+  }
+
+  async streamInvokeSkill(user: User, data: InvokeSkillJobData, res?: Response) {
+    if (res) {
+      res.setHeader('Content-Type', 'text/event-stream');
+      res.setHeader('Cache-Control', 'no-cache');
+      res.setHeader('Connection', 'keep-alive');
+      res.status(200);
+    }
+
+    const { resultId, version } = data.result;
+
+    const defaultModel = await this.providerService.findDefaultProviderItem(user, 'chat');
+    this.skillEngine.setOptions({ defaultModel: defaultModel?.name });
+
+    try {
+      await this._invokeSkill(user, data, res);
+    } catch (err) {
+      if (res) {
+        writeSSEResponse(res, {
+          event: 'error',
+          resultId,
+          version,
+          content: JSON.stringify(genBaseRespDataFromError(err)),
+          originError: err.message,
+        });
+      }
+      this.logger.error(`invoke skill error: ${err.stack}`);
+
+      await this.prisma.actionResult.updateMany({
+        where: { resultId, version, status: { notIn: ['finish', 'failed'] } },
+        data: {
+          status: 'failed',
+          errorType: 'systemError',
+          errors: JSON.stringify([err.message]),
+        },
+      });
+    } finally {
+      if (res) {
+        res.end('');
+      }
+    }
+  }
+
+  /**
+   * Create Langfuse callback handler for LLM tracing
+   */
+  private createLangfuseHandler(params: {
+    sessionId?: string;
+    userId: string;
+    skillName?: string;
+    mode?: string;
+  }): FilteredLangfuseCallbackHandler {
+    this.logger.info(
+      `[Langfuse Debug] Creating FilteredLangfuseCallbackHandler with params: ${JSON.stringify(params)}`,
+    );
+    // Use FilteredLangfuseCallbackHandler to remove internal LangGraph/LangChain metadata
+    // (langgraph_*, ls_* fields) that duplicate top-level Langfuse fields
+    const handler = new FilteredLangfuseCallbackHandler({
+      sessionId: params.sessionId,
+      userId: params.userId,
+      tags: [params.skillName || 'skill-invocation', params.mode || 'node_agent'],
+    });
+    this.logger.info('[Langfuse Debug] FilteredLangfuseCallbackHandler created successfully');
+    return handler;
+  }
+
+  /**
+   * Accurately estimate token count using LangChain's model-specific tokenizer
+   * This provides precise token counting that matches actual LLM API usage
+   */
+  private async estimateTokenCount(
+    input: any,
+    config: SkillRunnableConfig,
+  ): Promise<{
+    totalTokens: number;
+    breakdown: {
+      inputTokens: number;
+      contextTokens: number;
+      historyTokens: number;
+      toolsTokens: number;
+    };
+  }> {
+    try {
+      // Get the chat model instance to use its tokenizer
+      const chatModel = this.skillEngine.chatModel();
+
+      // Count input tokens
+      const inputTokens = await chatModel.getNumTokens(JSON.stringify(input));
+
+      // Count context tokens
+      const contextTokens = await chatModel.getNumTokens(
+        JSON.stringify(config.configurable.context || {}),
+      );
+
+      // Count history tokens
+      const historyTokens = await chatModel.getNumTokens(
+        JSON.stringify(config.configurable.chatHistory || []),
+      );
+
+      // Count tools tokens - this includes tool definitions/schemas
+      const toolsTokens = await chatModel.getNumTokens(
+        JSON.stringify(config.configurable.selectedTools || []),
+      );
+
+      const totalTokens = inputTokens + contextTokens + historyTokens + toolsTokens;
+
+      return {
+        totalTokens,
+        breakdown: {
+          inputTokens,
+          contextTokens,
+          historyTokens,
+          toolsTokens,
+        },
+      };
+    } catch (error) {
+      // Fallback to basic estimation if LangChain tokenizer fails
+      this.logger.warn(
+        `Failed to use LangChain tokenizer, falling back to basic estimation: ${error instanceof Error ? error.message : error}`,
+      );
+
+      const inputTokens = countToken(JSON.stringify(input));
+      const contextTokens = countToken(JSON.stringify(config.configurable.context || {}));
+      const historyTokens = countToken(JSON.stringify(config.configurable.chatHistory || []));
+      const toolsTokens = countToken(JSON.stringify(config.configurable.selectedTools || []));
+      const totalTokens = inputTokens + contextTokens + historyTokens + toolsTokens;
+
+      return {
+        totalTokens,
+        breakdown: {
+          inputTokens,
+          contextTokens,
+          historyTokens,
+          toolsTokens,
+        },
+      };
+    }
+  }
+
+  /**
+   * Handle error fallback by saving tool outputs and sending error_handler event
+   * Returns saved file info for use in error event
+   */
+  private async handleErrorFallback(params: {
+    input: any;
+    config: SkillRunnableConfig;
+    user: User;
+    resultId: string;
+    version: number;
+    canvasId: string;
+    res: Response;
+    runMeta: SkillRunnableMeta;
+    providerItem?: ProviderItem;
+    toolCallMeta: ToolCallMeta;
+    stepName: string;
+    failureReason?: string;
+    failureMessage?: string;
+  }): Promise<{ fileId: string; name: string; internalUrl: string } | null> {
+    const {
+      input,
+      config,
+      user,
+      resultId,
+      version,
+      canvasId,
+      res,
+      runMeta,
+      providerItem,
+      toolCallMeta,
+      stepName,
+      failureReason,
+      failureMessage,
+    } = params;
+
+    try {
+      const normalizedFailureReason = failureReason ?? 'token_limit_exceeded';
+      const normalizedFailureMessage =
+        failureMessage ?? 'Tool execution results have been saved to file.';
+
+      // Calculate token breakdown for logging
+      const { totalTokens, breakdown } = await this.estimateTokenCount(input, config);
+      const { inputTokens, contextTokens, historyTokens, toolsTokens } = breakdown;
+
+      this.logger.error(
+        `🔍 Token breakdown - Total: ${totalTokens} | Input: ${inputTokens} | Context: ${contextTokens} | History: ${historyTokens} | Tools: ${toolsTokens} | Model: ${runMeta?.ls_model_name || providerItem?.name}`,
+      );
+
+      const saveResult = await this.saveToolOutputsToFile(user, resultId, version, canvasId);
+      if (!saveResult) {
+        return null;
+      }
+
+      const { file: savedFile, toolCallCount } = saveResult;
+
+      const now = Date.now();
+      const normalizedToolCallMeta: ToolCallMeta = {
+        ...toolCallMeta,
+        toolCallId: toolCallMeta?.toolCallId,
+        toolName: toolCallMeta?.toolName ?? 'error_fallback',
+        toolsetId: toolCallMeta?.toolsetId ?? toolCallMeta?.toolsetKey ?? 'error_fallback',
+        toolsetKey: toolCallMeta?.toolsetKey ?? toolCallMeta?.toolsetId ?? 'error_fallback',
+        startTs: toolCallMeta?.startTs ?? now,
+        status: toolCallMeta?.status ?? 'failed',
+      };
+
+      if (!normalizedToolCallMeta.toolCallId) {
+        this.logger.warn('Error fallback skipped: missing tool call id');
+        return null;
+      }
+
+      const toolCallId = normalizedToolCallMeta.toolCallId;
+
+      // Prepare output data structure for frontend rendering
+      // Frontend expects result.data.fileId structure (see render.tsx:255)
+      const outputData = {
+        data: {
+          fileId: savedFile.fileId,
+          canvasId,
+          fileName: savedFile.name,
+          mimeType: savedFile.mimeType,
+          message: `${normalizedFailureMessage} (saved ${toolCallCount} tool execution results)`,
+        },
+      };
+
+      // Update tool_call_result record using toolCallService (uses upsert internally)
+      await this.toolCallService.persistToolCallResult(
+        res,
+        user.uid,
+        { resultId, version },
+        normalizedToolCallMeta.toolsetId,
+        normalizedToolCallMeta.toolName,
+        JSON.stringify({
+          reason: normalizedFailureReason,
+          toolCount: toolCallCount,
+        }),
+        JSON.stringify(outputData),
+        ToolCallStatus.FAILED,
+        toolCallId,
+        stepName,
+        normalizedToolCallMeta.startTs ?? now,
+        now,
+        '',
+      );
+
+      // Send SSE stream event with tool_call XML data (as failed)
+      const xmlContent = this.toolCallService.generateToolUseXML({
+        toolCallId,
+        includeResult: true,
+        errorMsg: normalizedFailureMessage,
+        metadata: {
+          name: normalizedToolCallMeta.toolName,
+          toolsetKey: normalizedToolCallMeta.toolsetKey,
+        },
+        input: {
+          reason: normalizedFailureReason,
+          toolCount: toolCallCount,
+        },
+        output: outputData,
+        startTs: normalizedToolCallMeta.startTs ?? now,
+        updatedTs: now,
+      });
+
+      if (xmlContent) {
+        this.toolCallService.emitToolUseStream(res, {
+          resultId,
+          step: runMeta?.step,
+          xmlContent,
+          toolCallId,
+          toolName: normalizedToolCallMeta.toolName,
+          event_name: 'stream',
+        });
+      }
+
+      return {
+        fileId: savedFile.fileId,
+        internalUrl: savedFile.internalUrl,
+        name: savedFile.name,
+      };
+    } catch (error) {
+      this.logger.error(
+        `Failed to handle error fallback: ${error instanceof Error ? error.message : error}`,
+      );
+      return null;
+    }
+  }
+
+  /**
+   * Format tool call results as Markdown content
+   */
+  private formatToolCallsAsMarkdown(toolCalls: any[], resultId: string, version: number): string {
+    const header = [
+      '# Tool Execution Results',
+      `Result ID: ${resultId}`,
+      `Version: ${version}`,
+      `Generated: ${new Date().toISOString()}`,
+      `Total tool calls: ${toolCalls.length}`,
+      '',
+      '---',
+      '',
+    ].join('\n');
+
+    const addJsonSection = (label: string, data: any): string[] => {
+      if (!data) return [];
+      return ['', `**${label}**:`, '```json', JSON.stringify(data, null, 2), '```'];
+    };
+
+    const toolCallSections = toolCalls
+      .map((call, index) => {
+        const sections = [
+          `## Tool Call ${index + 1}: ${call.toolName}`,
+          `**Status**: ${call.status}`,
+          `**Executed at**: ${call.createdAt.toISOString()}`,
+          ...addJsonSection('Input', call.input),
+          ...addJsonSection('Output', call.output),
+        ];
+
+        return sections.join('\n');
+      })
+      .join('\n\n---\n\n');
+
+    return `${header}\n${toolCallSections}`;
+  }
+
+  /**
+   * Save all tool outputs from current version to a text file
+   * Returns the saved file info and tool call count if successful
+   */
+  private async saveToolOutputsToFile(
+    user: User,
+    resultId: string,
+    version: number,
+    canvasId: string,
+  ): Promise<{
+    file: {
+      fileId: string;
+      internalUrl: string;
+      mimeType: string;
+      name: string;
+    };
+    toolCallCount: number;
+  } | null> {
+    try {
+      // Query all tool call results for current version
+      const toolCalls = await this.prisma.toolCallResult.findMany({
+        where: {
+          resultId,
+          version,
+        },
+        orderBy: {
+          createdAt: 'asc',
+        },
+      });
+
+      if (toolCalls.length === 0) {
+        this.logger.info(`No tool outputs to save for ${resultId} v${version}`);
+        return null;
+      }
+
+      // Format tool outputs as readable Markdown
+      const fileContent = this.formatToolCallsAsMarkdown(toolCalls, resultId, version);
+      // Upload file directly using DriveService and MiscService to avoid AsyncLocalStorage context issues
+      const filename = 'agent-execution-failed.md';
+      const buffer = Buffer.from(fileContent, 'utf-8');
+
+      // Upload to storage
+      const uploadResult = await this.miscService.uploadFile(user, {
+        file: {
+          buffer,
+          mimetype: 'text/markdown',
+          originalname: filename,
+        },
+        visibility: 'private',
+      });
+
+      // Create drive file record with explicit resultId and version
+      const file = await this.driveService.createDriveFile(user, {
+        canvasId,
+        name: filename,
+        storageKey: uploadResult.storageKey,
+        source: 'agent',
+        resultId,
+        resultVersion: version,
+      });
+
+      if (!file) {
+        this.logger.warn('Failed to upload tool outputs file');
+        return null;
+      }
+      return {
+        file: {
+          fileId: file.fileId,
+          internalUrl: file.url,
+          mimeType: file.type,
+          name: file.name,
+        },
+        toolCallCount: toolCalls.length,
+      };
+    } catch (error) {
+      this.logger.error(
+        `Failed to save tool outputs: ${error instanceof Error ? error.message : error}`,
+      );
+      return null;
+    }
+  }
+
+  /**
+   * Abort workflow execution - stop all running/waiting nodes
+   * @param user - The user
+   * @param executionId - The workflow execution ID to abort
+   */
+  async abortWorkflowExecution(user: User, executionId: string): Promise<void> {
+    const startTime = Date.now();
+
+    this.logger.info(
+      `[WORKFLOW_ABORT][SVC] executionId=${executionId} uid=${user.uid} phase=start`,
+    );
+
+    // Verify workflow execution exists and belongs to user
+    const workflowExecution = await this.prisma.workflowExecution.findUnique({
+      where: { executionId, uid: user.uid },
+    });
+
+    if (!workflowExecution) {
+      this.logger.warn(`[WORKFLOW_ABORT][SVC] executionId=${executionId} phase=not_found`);
+      throw new WorkflowExecutionNotFoundError(`Workflow execution ${executionId} not found`);
+    }
+
+    this.logger.info(
+      `[WORKFLOW_ABORT][SVC] executionId=${executionId} currentStatus=${workflowExecution.status} canvasId=${workflowExecution.canvasId} phase=found`,
+    );
+
+    // Check if workflow is already finished or failed
+    if (workflowExecution.status === 'finish' || workflowExecution.status === 'failed') {
+      this.logger.warn(
+        `[WORKFLOW_ABORT][SVC] executionId=${executionId} status=${workflowExecution.status} phase=skip_terminal`,
+      );
+      return;
+    }
+
+    // Get all executing and waiting nodes
+    const nodesToAbort = await this.prisma.workflowNodeExecution.findMany({
+      where: {
+        executionId,
+        status: { in: ['waiting', 'executing'] },
+      },
+    });
+
+    // Abort all executing skillResponse nodes by calling abort action
+    const executingSkillNodes = nodesToAbort.filter((n) => n.nodeType === 'skillResponse');
+
+    this.logger.info(
+      `[WORKFLOW_ABORT][SVC] executionId=${executionId} nodesToAbort=${nodesToAbort.length} skillNodes=${executingSkillNodes.length} phase=nodes_found`,
+    );
+
+    // Abort all executing nodes in parallel for better performance
+    const abortResults = await Promise.allSettled(
+      executingSkillNodes.map(async (node) => {
+        try {
+          await this.actionService.abortActionFromReq(
+            user,
+            { resultId: node.entityId },
+            'Workflow aborted by user',
+          );
+          this.logger.info(
+            `[WORKFLOW_ABORT][SVC] executionId=${executionId} nodeId=${node.nodeId} resultId=${node.entityId} phase=node_abort_success`,
+          );
+          return { success: true, nodeId: node.nodeId };
+        } catch (error) {
+          this.logger.warn(
+            `[WORKFLOW_ABORT][SVC] executionId=${executionId} nodeId=${node.nodeId} resultId=${node.entityId} error="${(error as any)?.message ?? error}" phase=node_abort_failed`,
+          );
+          return { success: false, nodeId: node.nodeId, error };
+        }
+      }),
+    );
+
+    const successCount = abortResults.filter(
+      (r) => r.status === 'fulfilled' && (r.value as any)?.success,
+    ).length;
+
+    // Update all non-terminal nodes to failed (not just waiting/executing)
+    const nodeUpdateResult = await this.prisma.workflowNodeExecution.updateMany({
+      where: {
+        executionId,
+        status: { notIn: ['finish', 'failed'] },
+      },
+      data: {
+        status: 'failed',
+        errorMessage: 'Workflow aborted by user',
+        endTime: new Date(),
+      },
+    });
+
+    // Update workflow execution to failed if not already terminal
+    const workflowUpdateResult = await this.prisma.workflowExecution.updateMany({
+      where: {
+        executionId,
+        status: { notIn: ['finish', 'failed'] },
+      },
+      data: {
+        status: 'failed',
+        abortedByUser: true,
+      },
+    });
+
+    this.logger.info(
+      `[WORKFLOW_ABORT][SVC] executionId=${executionId} abortedNodes=${successCount}/${executingSkillNodes.length} dbNodesUpdated=${nodeUpdateResult.count} dbWorkflowUpdated=${workflowUpdateResult.count} phase=completed elapsed=${Date.now() - startTime}ms`,
+    );
+  }
+}

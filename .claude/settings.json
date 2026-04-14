@@ -180,8 +180,8 @@
         "hooks": [
           {
             "type": "command",
-            "command": "echo '[PIPELINE] Task complete. Run Hermes self-learning loop: mcp supermemory to save insights, then run Shannon security audit on changed files.'",
-            "timeout": 2000
+            "command": "node \"$CLAUDE_PROJECT_DIR/.claude/helpers/pipeline-trigger.cjs\"",
+            "timeout": 5000
           }
         ]
       }
@@ -373,6 +373,29 @@
       "env": {
         "GEMINI_API_KEY": "${GEMINI_API_KEY}"
       }
+    },
+    "mcp-toolbox": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@toolbox-sdk/server",
+        "--prebuilt=postgres"
+      ],
+      "description": "Database access — PostgreSQL, MySQL, BigQuery, MongoDB, Redis, 20+ databases"
+    },
+    "markitdown": {
+      "command": "markitdown",
+      "args": [],
+      "description": "File-to-Markdown converter — PDF, DOCX, XLSX, images, audio, HTML"
+    },
+    "code-review-graph": {
+      "command": "uv",
+      "args": [
+        "run",
+        "code-review-graph",
+        "serve"
+      ],
+      "description": "Tree-sitter AST code graph — 8.2x token reduction, blast-radius, 19 languages"
     }
   },
   "enabledMcpjsonServers": [
@@ -382,6 +405,9 @@
     "gitnexus",
     "supermemory",
     "openviking",
-    "nano-banana"
+    "nano-banana",
+    "mcp-toolbox",
+    "markitdown",
+    "code-review-graph"
   ]
 }

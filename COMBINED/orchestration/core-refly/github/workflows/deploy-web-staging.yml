@@ -1,0 +1,35 @@
+name: Deploy Web To Staging
+
+on:
+  workflow_dispatch:
+    inputs:
+      ref:
+        description: 'Git ref to deploy (branch, tag, or commit SHA)'
+        required: false
+        type: string
+  workflow_call:
+    inputs:
+      ref:
+        description: 'Git ref to deploy (branch, tag, or commit SHA)'
+        required: false
+        type: string
+
+permissions:
+  contents: read
+
+jobs:
+  deploy:
+    uses: ./.github/workflows/deploy-web.yml
+    with:
+      environment: staging
+      cloudflare_project: refly-app-staging
+      api_url: https://staging-api.refly.ai
+      collab_url: https://staging-collab.refly.ai
+      subscription_enabled: true
+      sentry_enabled: true
+      static_public_endpoint: https://static.refly.ai
+      static_private_endpoint: https://staging-api.refly.ai/v1/misc
+      canvas_template_enabled: true
+      env_tag: staging
+      ref: ${{ inputs.ref || github.ref }}
+    secrets: inherit

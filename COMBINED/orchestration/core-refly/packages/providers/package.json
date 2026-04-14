@@ -1,0 +1,26 @@
+{
+  "name": "@refly/providers",
+  "version": "0.8.0",
+  "description": "Implementation of Refly providers",
+  "main": "src/index.ts",
+  "types": "src/index.ts",
+  "scripts": {
+    "clean": "rimraf dist && rimraf tsconfig.tsbuildinfo",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@langchain/aws": "1.1.0",
+    "@langchain/community": "0.3.50",
+    "@langchain/core": "1.1.4",
+    "@langchain/ollama": "^0.2.0",
+    "@langchain/openai": "0.6.7",
+    "@langchain/google-vertexai": "^2.1.2",
+    "@refly/errors": "workspace:*",
+    "@refly/openapi-schema": "workspace:*",
+    "@refly/utils": "workspace:*",
+    "langfuse": "^3.6.0"
+  }
+}

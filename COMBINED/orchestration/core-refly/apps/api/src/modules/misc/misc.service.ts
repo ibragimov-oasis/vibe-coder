@@ -1,0 +1,1416 @@
+import {
+  Inject,
+  Injectable,
+  Logger,
+  OnModuleInit,
+  NotFoundException,
+  ForbiddenException,
+  Optional,
+} from '@nestjs/common';
+import { Queue } from 'bullmq';
+import sharp from 'sharp';
+import mime from 'mime';
+import { InjectQueue } from '@nestjs/bullmq';
+import {
+  EntityType,
+  ScrapeWeblinkRequest,
+  ScrapeWeblinkResult,
+  UploadResponse,
+  User,
+  FileVisibility,
+  Entity,
+  PromptSuggestion,
+} from '@refly/openapi-schema';
+import { PrismaService } from '../common/prisma.service';
+import { OSS_EXTERNAL, OSS_INTERNAL, ObjectStorageService } from '../common/object-storage';
+import { randomUUID } from 'node:crypto';
+import path from 'node:path';
+import { ConfigService } from '@nestjs/config';
+import {
+  omit,
+  scrapeWeblink,
+  getSafeMimeType,
+  runModuleInitWithTimeoutAndRetry,
+  safeParseJSON,
+} from '@refly/utils';
+import { QUEUE_IMAGE_PROCESSING, QUEUE_CLEAN_STATIC_FILES, streamToBuffer } from '../../utils';
+import {
+  CanvasNotFoundError,
+  ParamsError,
+  ResourceNotFoundError,
+  DocumentNotFoundError,
+  CodeArtifactNotFoundError,
+  ActionResultNotFoundError,
+} from '@refly/errors';
+import { FileObject } from '../misc/misc.dto';
+import { createId } from '@paralleldrive/cuid2';
+import { StaticFile } from '@prisma/client';
+import { PandocParser } from '../knowledge/parsers/pandoc.parser';
+import pLimit from 'p-limit';
+import { isDesktop } from '../../utils/runtime';
+import { RedisService } from '../common/redis.service';
+
+@Injectable()
+export class MiscService implements OnModuleInit {
+  private logger = new Logger(MiscService.name);
+
+  // Timeout for initialization operations (30 seconds)
+  private readonly INIT_TIMEOUT = 30000;
+
+  constructor(
+    private config: ConfigService,
+    private prisma: PrismaService,
+    private redisService: RedisService,
+    @Inject(OSS_EXTERNAL) private externalOss: ObjectStorageService,
+    @Inject(OSS_INTERNAL) private internalOss: ObjectStorageService,
+    @Optional() @InjectQueue(QUEUE_IMAGE_PROCESSING) private imageQueue?: Queue<FileObject>,
+    @Optional() @InjectQueue(QUEUE_CLEAN_STATIC_FILES) private cleanStaticFilesQueue?: Queue,
+  ) {}
+
+  async onModuleInit(): Promise<void> {
+    await runModuleInitWithTimeoutAndRetry(
+      async () => {
+        if (!this.cleanStaticFilesQueue) {
+          this.logger.log('Clean static files queue not available, skipping cronjob setup');
+          return;
+        }
+
+        try {
+          await this.setupCleanStaticFilesCronjob();
+        } catch (error) {
+          this.logger.error(`Failed to setup clean static files cronjob: ${error}`);
+          throw error;
+        }
+      },
+      {
+        logger: this.logger,
+        label: 'MiscService.onModuleInit',
+        timeoutMs: this.INIT_TIMEOUT,
+      },
+    );
+  }
+
+  async fileStorageExists(
+    storageKey: string,
+    visibility: FileVisibility = 'public',
+  ): Promise<boolean> {
+    if (!storageKey) {
+      return false;
+    }
+    try {
+      const minio = this.minioClient(visibility);
+      await minio.statObject(storageKey);
+      return true;
+    } catch {
+      return false;
+    }
+  }
+
+  private async setupCleanStaticFilesCronjob() {
+    if (!this.cleanStaticFilesQueue) return;
+
+    const existingJobs = await this.cleanStaticFilesQueue.getJobSchedulers();
+    await Promise.all(
+      existingJobs.map((job) => this.cleanStaticFilesQueue!.removeJobScheduler(job.id)),
+    );
+
+    // Set up the cronjob to run daily at midnight
+    await this.cleanStaticFilesQueue.add(
+      'cleanStaticFiles',
+      {},
+      {
+        repeat: {
+          pattern: '0 0 * * *', // Run at midnight every day
+        },
+      },
+    );
+
+    this.logger.log('Initialized clean static files cronjob');
+  }
+
+  async scrapeWeblink(body: ScrapeWeblinkRequest): Promise<ScrapeWeblinkResult> {
+    const { url } = body;
+    const result = await scrapeWeblink(url);
+
+    return {
+      title: result.title,
+      description: result.description,
+      image: result.image,
+    };
+  }
+
+  async getPromptSuggestions(user: User): Promise<PromptSuggestion[]> {
+    const onboardingFormSubmission = await this.prisma.formSubmission.findFirst({
+      where: { uid: user.uid, formId: 'onboarding-form-refly' },
+      orderBy: { pk: 'desc' },
+    });
+    const role = safeParseJSON(onboardingFormSubmission?.answers)?.role;
+    const suggestions = await this.prisma.promptSuggestion.findMany({
+      where: { deletedAt: null },
+    });
+
+    const filterByRole = (s: any) => safeParseJSON(s.metadata)?.role === role;
+    const filterByFallback = (s: any) => safeParseJSON(s.metadata)?.fallback === true;
+
+    let result = role ? suggestions.filter(filterByRole) : [];
+
+    if (result.length === 0) {
+      result = suggestions.filter(filterByFallback);
+    }
+
+    return result.map((s) => ({
+      prompt: safeParseJSON(s.prompt),
+      metadata: safeParseJSON(s.metadata),
+    }));
+  }
+
+  async dumpFileFromURL(
+    user: User,
+    param: {
+      url: string;
+      entityId?: string;
+      entityType?: EntityType;
+      visibility?: FileVisibility;
+    },
+  ): Promise<UploadResponse['data']> {
+    const { url, entityId, entityType, visibility = 'private' } = param;
+    const res = await fetch(url);
+    const buffer = await res.arrayBuffer();
+
+    // Extract filename from URL, removing query parameters and fragments
+    const urlObj = new URL(url);
+    const pathname = urlObj.pathname;
+    let filename = path.basename(pathname);
+
+    // If no extension found in pathname, try to get it from Content-Type header
+    if (!path.extname(filename)) {
+      const contentType = res.headers.get('Content-Type');
+      if (contentType) {
+        const extension = mime.getExtension(contentType);
+        if (extension) {
+          filename = `${filename || 'file'}.${extension}`;
+        }
+      }
+    }
+
+    // Fallback to a default filename if still empty
+    if (!filename || filename === '') {
+      filename = 'downloaded-file';
+    }
+
+    return await this.uploadFile(user, {
+      file: {
+        buffer: Buffer.from(buffer),
+        mimetype: res.headers.get('Content-Type') || 'application/octet-stream',
+        originalname: filename,
+      },
+      entityId,
+      entityType,
+      visibility,
+    });
+  }
+
+  async checkEntity(user: User, entityId: string, entityType: EntityType): Promise<void> {
+    if (!entityId || !entityType) {
+      throw new ParamsError('Entity ID and type are required');
+    }
+
+    if (entityType === 'resource') {
+      const resource = await this.prisma.resource.findUnique({
+        where: {
+          resourceId: entityId,
+          uid: user.uid,
+          deletedAt: null,
+        },
+      });
+      if (!resource) {
+        throw new ResourceNotFoundError();
+      }
+    } else if (entityType === 'canvas') {
+      const canvas = await this.prisma.canvas.findUnique({
+        where: {
+          canvasId: entityId,
+          uid: user.uid,
+          deletedAt: null,
+        },
+      });
+      if (!canvas) {
+        throw new CanvasNotFoundError();
+      }
+    } else if (entityType === 'document') {
+      const document = await this.prisma.document.findUnique({
+        where: {
+          docId: entityId,
+          uid: user.uid,
+          deletedAt: null,
+        },
+      });
+      if (!document) {
+        throw new DocumentNotFoundError();
+      }
+    } else if (entityType === 'codeArtifact') {
+      const codeArtifact = await this.prisma.codeArtifact.findUnique({
+        where: {
+          artifactId: entityId,
+        },
+      });
+      if (!codeArtifact) {
+        throw new CodeArtifactNotFoundError();
+      }
+    } else if (entityType === 'mediaResult') {
+      const actionResult = await this.prisma.actionResult.findFirst({
+        where: {
+          resultId: entityId,
+          uid: user.uid,
+        },
+      });
+      if (!actionResult) {
+        throw new ActionResultNotFoundError();
+      }
+    } else {
+      throw new ParamsError(`Invalid entity type: ${entityType}`);
+    }
+  }
+
+  minioClient(visibility: FileVisibility) {
+    if (visibility === 'public') {
+      return this.externalOss;
+    }
+    return this.internalOss;
+  }
+
+  async batchRemoveObjects(
+    user: User | null,
+    objects: FileObject[],
+    options?: { force?: boolean },
+  ) {
+    // Group objects by storageKey for efficient querying
+    const storageKeys = objects.map((fo) => fo.storageKey);
+
+    // First mark the user's files as deleted in the database
+    await this.prisma.staticFile.updateMany({
+      where: {
+        storageKey: { in: storageKeys },
+        uid: user?.uid,
+      },
+      data: { deletedAt: new Date() },
+    });
+
+    // For each storage key, check if all records are now deleted
+    const objectsToRemove = new Map<FileVisibility, Set<string>>();
+
+    // Check each storage key to see if it has any non-deleted records
+    for (const storageKey of storageKeys) {
+      const remainingRecords = await this.prisma.staticFile.count({
+        where: {
+          storageKey,
+          deletedAt: null,
+        },
+      });
+
+      // If no remaining records, schedule this object for removal from storage
+      if (remainingRecords === 0) {
+        const matchingObject = objects.find((obj) => obj.storageKey === storageKey);
+
+        if (matchingObject) {
+          const { visibility } = matchingObject;
+          if (!objectsToRemove.has(visibility)) {
+            objectsToRemove.set(visibility, new Set());
+          }
+          objectsToRemove.get(visibility)?.add(storageKey);
+        }
+      }
+    }
+
+    // Only remove objects from storage if they have no active database records
+    if (objectsToRemove.size > 0) {
+      await Promise.all(
+        Array.from(objectsToRemove.entries()).map(([visibility, storageKeys]) =>
+          this.minioClient(visibility).removeObjects(Array.from(storageKeys), options?.force),
+        ),
+      );
+    }
+  }
+
+  async findFileAndBindEntity(storageKey: string, entity: Entity) {
+    const staticFile = await this.prisma.staticFile.findFirst({
+      where: { storageKey, deletedAt: null },
+    });
+    if (!staticFile) {
+      return null;
+    }
+    return this.prisma.staticFile.update({
+      where: { pk: staticFile.pk },
+      data: {
+        entityId: entity.entityId,
+        entityType: entity.entityType,
+      },
+    });
+  }
+
+  generateFileURL(file: FileObject, options?: { download?: boolean }) {
+    const { visibility, storageKey } = file;
+
+    let endpoint = '';
+    if (visibility === 'public') {
+      endpoint = this.config.get<string>('static.public.endpoint')?.replace(/\/$/, '');
+    } else {
+      endpoint = this.config.get<string>('static.private.endpoint')?.replace(/\/$/, '');
+    }
+
+    if (options?.download) {
+      return `${endpoint}/${storageKey}?download=1`;
+    }
+
+    return `${endpoint}/${storageKey}`;
+  }
+
+  async downloadFile(file: FileObject): Promise<Buffer> {
+    const { storageKey, visibility = 'private' } = file;
+    const stream = await this.minioClient(visibility).getObject(storageKey);
+    return streamToBuffer(stream);
+  }
+
+  /**
+   * Download file directly from URL
+   * @param url - The file URL to download from
+   * @returns Buffer containing the file data
+   */
+  async downloadFileFromUrl(url: string): Promise<Buffer> {
+    if (!url) {
+      throw new ParamsError('URL is required');
+    }
+
+    const storageKey = this.extractStorageKeyFromUrl(url);
+    if (!storageKey) {
+      throw new ParamsError('Invalid file URL format');
+    }
+
+    const visibility = this.determineVisibilityFromUrl(url);
+    const fileObject: FileObject = { storageKey, visibility };
+
+    return this.downloadFile(fileObject);
+  }
+
+  /**
+   * Extract storage key from file URL
+   * @param url - The file URL
+   * @returns The storage key or null if invalid
+   */
+  private extractStorageKeyFromUrl(url: string): string | null {
+    if (!url) return null;
+
+    // Remove query parameters
+    const cleanUrl = url.split('?')[0];
+
+    const publicEndpoint = this.config.get<string>('static.public.endpoint')?.replace(/\/$/, '');
+    const privateEndpoint = this.config.get<string>('static.private.endpoint')?.replace(/\/$/, '');
+
+    // Try public endpoint first
+    if (publicEndpoint && cleanUrl.startsWith(publicEndpoint)) {
+      return cleanUrl.replace(`${publicEndpoint}/`, '');
+    }
+
+    // Try private endpoint
+    if (privateEndpoint && cleanUrl.startsWith(privateEndpoint)) {
+      return cleanUrl.replace(`${privateEndpoint}/`, '');
+    }
+
+    return null;
+  }
+
+  /**
+   * Determine file visibility from URL
+   * @param url - The file URL
+   * @returns FileVisibility ('public' or 'private')
+   */
+  private determineVisibilityFromUrl(url: string): FileVisibility {
+    if (!url) return 'private';
+
+    // Remove query parameters
+    const cleanUrl = url.split('?')[0];
+
+    const publicEndpoint = this.config.get<string>('static.public.endpoint')?.replace(/\/$/, '');
+
+    // Check if it's a public URL
+    if (publicEndpoint && cleanUrl.startsWith(publicEndpoint)) {
+      return 'public';
+    }
+
+    // Default to private
+    return 'private';
+  }
+
+  /**
+   * Publish a private file to the public bucket
+   * @param storageKey - The storage key of the file to publish
+   */
+  async publishFile(storageKey: string) {
+    if (!storageKey) {
+      return '';
+    }
+    const stream = await this.minioClient('private').getObject(storageKey);
+    await this.minioClient('public').putObject(storageKey, stream);
+    return this.generateFileURL({ visibility: 'public', storageKey });
+  }
+
+  /**
+   * Generate a temporary public URL for a private file
+   * @param storageKey - The storage key of the file to generate a temporary public URL for
+   * @param expiresIn - The number of seconds the URL will be valid for
+   * @returns The temporary public URL
+   */
+  async generateTempPublicURL(storageKey: string, expiresIn?: number): Promise<string> {
+    if (!storageKey) {
+      return '';
+    }
+    const fallback = Number(this.config.get<number>('image.presignExpiry') ?? 300);
+    const raw = expiresIn ?? fallback;
+    const expiry = Number(raw);
+    const MAX = 7 * 24 * 60 * 60; // 7 days
+    if (!Number.isFinite(expiry) || expiry <= 0) {
+      throw new ParamsError('[generateTempPublicURL] invalid expiresIn');
+    }
+    const safeExpiry = Math.min(Math.floor(expiry), MAX);
+    return this.minioClient('private').presignedGetObject(storageKey, safeExpiry);
+  }
+
+  async uploadBuffer(
+    user: User,
+    param: {
+      fpath: string;
+      buf: Buffer;
+      entityId?: string;
+      entityType?: EntityType;
+      visibility?: FileVisibility;
+      storageKey?: string;
+    },
+  ): Promise<UploadResponse['data']> {
+    const { fpath, buf, entityId, entityType, visibility = 'private' } = param;
+    const objectKey = randomUUID();
+    const fileExtension = path.extname(fpath);
+    const storageKey = param.storageKey ?? `static/${objectKey}${fileExtension}`;
+    const contentType = getSafeMimeType(fpath, mime.getType(fpath) ?? undefined);
+
+    await this.prisma.staticFile.create({
+      data: {
+        uid: user.uid,
+        storageKey,
+        storageSize: buf.length,
+        originalName: path.basename(fpath),
+        entityId,
+        entityType,
+        contentType,
+        visibility,
+      },
+    });
+
+    await this.minioClient(visibility).putObject(storageKey, buf, {
+      'Content-Type': contentType,
+    });
+
+    // Resize and convert to webp if it's an image
+    if (contentType?.startsWith('image/')) {
+      await this.imageQueue?.add('resizeAndConvert', { storageKey, visibility });
+    }
+
+    return {
+      storageKey,
+      url: this.generateFileURL({ visibility, storageKey }),
+    };
+  }
+
+  async uploadFile(
+    user: User,
+    param: {
+      file: {
+        buffer: Buffer;
+        mimetype?: string;
+        originalname: string;
+      };
+      entityId?: string;
+      entityType?: EntityType;
+      visibility?: FileVisibility;
+      storageKey?: string;
+    },
+  ): Promise<UploadResponse['data']> {
+    const { file, entityId, entityType, visibility = 'private' } = param;
+
+    if (entityId && entityType) {
+      await this.checkEntity(user, entityId, entityType);
+    }
+
+    let existingFile: StaticFile | null = null;
+    if (param.storageKey) {
+      existingFile = await this.prisma.staticFile.findFirst({
+        where: {
+          storageKey: param.storageKey,
+          uid: user.uid,
+          deletedAt: null,
+        },
+      });
+    }
+
+    // Check for file permission if not in desktop mode
+    if (!isDesktop()) {
+      if (existingFile && existingFile.uid !== user.uid) {
+        this.logger.warn(`User ${user.uid} is not allowed to upload file with ${param.storageKey}`);
+        throw new ForbiddenException();
+      }
+    }
+
+    const objectKey = randomUUID();
+    const extension = path.extname(file.originalname);
+    const contentType = getSafeMimeType(
+      file.originalname,
+      mime.getType(extension) ?? file.mimetype ?? undefined,
+    );
+    const storageKey = param.storageKey ?? `static/${objectKey}${extension}`;
+
+    if (existingFile) {
+      await this.prisma.staticFile.update({
+        where: { pk: existingFile.pk },
+        data: {
+          storageSize: file.buffer.length,
+          originalName: file.originalname,
+          entityId,
+          entityType,
+          contentType,
+          visibility,
+        },
+      });
+    } else {
+      await this.prisma.staticFile.create({
+        data: {
+          uid: user.uid,
+          storageKey,
+          storageSize: file.buffer.length,
+          originalName: file.originalname,
+          entityId,
+          entityType,
+          contentType,
+          visibility,
+        },
+      });
+    }
+
+    await this.minioClient(visibility).putObject(storageKey, file.buffer, {
+      'Content-Type': contentType,
+    });
+    // Resize and convert to webp if it's an image
+    if (contentType.startsWith('image/')) {
+      await this.imageQueue?.add('resizeAndConvert', { storageKey, visibility });
+    }
+
+    // For private files, generate a temporary signed URL if static endpoint is not configured
+    let url = this.generateFileURL({ visibility, storageKey });
+    if (visibility === 'private') {
+      const privateEndpoint = this.config.get<string>('static.private.endpoint');
+      if (!privateEndpoint || privateEndpoint === '') {
+        // Fallback to presigned URL if static endpoint is not configured
+        url = await this.generateTempPublicURL(storageKey, 7 * 24 * 60 * 60); // 7 days
+        this.logger.debug(`Generated presigned URL for private file: ${storageKey}`);
+      }
+    }
+
+    return {
+      storageKey,
+      url,
+    };
+  }
+
+  async uploadBase64(
+    user: User,
+    param: {
+      base64: string;
+      filename?: string;
+      entityId?: string;
+      entityType?: EntityType;
+      visibility?: FileVisibility;
+      storageKey?: string;
+    },
+  ): Promise<UploadResponse['data']> {
+    const { base64, filename, entityId, entityType, storageKey } = param ?? {};
+    if (!base64 || typeof base64 !== 'string') {
+      throw new ParamsError('Base64 string is required');
+    }
+
+    let contentType: string | undefined;
+    let dataPart = base64;
+    const dataUrlMatch = base64.match(/^data:(.*?);base64,(.*)$/);
+    if (dataUrlMatch?.[2]) {
+      contentType = dataUrlMatch[1] ?? undefined;
+      dataPart = dataUrlMatch[2] ?? '';
+    }
+
+    let buffer: Buffer;
+    try {
+      buffer = Buffer.from(dataPart, 'base64');
+    } catch {
+      throw new ParamsError('Invalid base64 data');
+    }
+
+    let finalFilename = filename ?? 'file';
+    if (!path.extname(finalFilename)) {
+      const extFromMime = contentType ? mime.getExtension(contentType) : undefined;
+      if (extFromMime) {
+        finalFilename = `${finalFilename}.${extFromMime}`;
+      }
+    }
+
+    const inferredContentType =
+      contentType ?? getSafeMimeType(finalFilename, mime.getType(finalFilename) ?? undefined);
+
+    const visibility = param?.visibility ?? 'private';
+
+    return this.uploadFile(user, {
+      file: {
+        buffer,
+        mimetype: inferredContentType,
+        originalname: finalFilename,
+      },
+      entityId,
+      entityType,
+      visibility,
+      storageKey,
+    });
+  }
+
+  /**
+   * Process an image by resizing it and converting to webp.
+   * @param storageKey - The storage key of the image to process.
+   */
+  async processImage(jobData: FileObject): Promise<void> {
+    const { storageKey, visibility } = jobData;
+    if (!storageKey) {
+      this.logger.warn('Missing required job data');
+      return;
+    }
+
+    // Retrieve the original image from minio
+    const stream = await this.minioClient(visibility).getObject(storageKey);
+    const originalBuffer = await streamToBuffer(stream);
+
+    // Get image metadata to calculate dimensions
+    const metadata = await sharp(originalBuffer).metadata();
+    const originalWidth = metadata?.width ?? 0;
+    const originalHeight = metadata?.height ?? 0;
+    const isGif = metadata?.format === 'gif';
+
+    // Calculate the current area and scaling factor
+    const originalArea = originalWidth * originalHeight;
+    const maxArea = this.config.get('image.maxArea');
+    const scaleFactor = originalArea > maxArea ? Math.sqrt(maxArea / originalArea) : 1;
+
+    // For GIFs, only resize if needed but keep the original format
+    // For other images, resize and convert to webp
+    const processedBuffer = await sharp(originalBuffer)
+      .resize({
+        width: Math.round(originalWidth * scaleFactor),
+        height: Math.round(originalHeight * scaleFactor),
+        fit: 'fill', // Use fill since we're calculating exact dimensions
+      })
+      [isGif ? 'toFormat' : 'toFormat'](isGif ? 'gif' : 'webp')
+      .toBuffer();
+
+    // Generate a new processed key for the image with appropriate extension
+    const extension = isGif ? 'gif' : 'webp';
+    const processedKey = `static-processed/${createId()}-${Date.now()}.${extension}`;
+
+    // Upload the processed image to minio
+    await this.minioClient(visibility).putObject(processedKey, processedBuffer, {
+      'Content-Type': isGif ? 'image/gif' : 'image/webp',
+    });
+
+    // Update the staticFile record with the new processedImageKey
+    await this.prisma.staticFile.updateMany({
+      where: { storageKey: storageKey },
+      data: { processedImageKey: processedKey },
+    });
+  }
+
+  /**
+   * Remove all files associated with an entity.
+   */
+  async removeFilesByEntity(
+    user: User,
+    param: { entityId: string; entityType: EntityType },
+  ): Promise<void> {
+    const { entityId, entityType } = param;
+    this.logger.log(`Start to remove files for entity ${entityId} of type ${entityType}`);
+
+    const files = await this.prisma.staticFile.findMany({
+      select: {
+        storageKey: true,
+        visibility: true,
+      },
+      where: {
+        uid: user.uid,
+        entityId,
+        entityType,
+        deletedAt: null,
+      },
+    });
+
+    if (files.length > 0) {
+      this.logger.log(`Files to remove: ${files.map((file) => file.storageKey).join(',')}`);
+
+      await Promise.all([
+        this.batchRemoveObjects(
+          user,
+          files.map((file) => ({
+            storageKey: file.storageKey,
+            visibility: file.visibility as FileVisibility,
+          })),
+        ),
+        this.prisma.staticFile.updateMany({
+          where: {
+            uid: user.uid,
+            entityId,
+            entityType,
+          },
+          data: {
+            deletedAt: new Date(),
+          },
+        }),
+      ]);
+    }
+  }
+
+  async compareAndRemoveFiles(
+    user: User,
+    param: { entityId: string; entityType: EntityType; objectKeys: string[] },
+  ): Promise<void> {
+    const { entityId, entityType, objectKeys } = param;
+    const storageKeys = objectKeys.map((key) => `static/${key}`);
+    const files = await this.prisma.staticFile.findMany({
+      select: {
+        storageKey: true,
+      },
+      where: {
+        uid: user.uid,
+        entityId,
+        entityType,
+        deletedAt: null,
+      },
+    });
+    const currentStorageKeys = files.map((file) => file.storageKey);
+    const storageKeysToRemove = currentStorageKeys.filter((key) => !storageKeys.includes(key));
+
+    await this.batchRemoveObjects(
+      user,
+      storageKeysToRemove.map((key) => ({ storageKey: key, visibility: 'private' })),
+    );
+    this.logger.log(`Compare and remove files: ${storageKeysToRemove.join(',')}`);
+
+    if (storageKeysToRemove.length > 0) {
+      await this.prisma.staticFile.updateMany({
+        where: {
+          uid: user.uid,
+          entityId,
+          entityType,
+          storageKey: {
+            in: storageKeysToRemove,
+          },
+        },
+        data: {
+          deletedAt: new Date(),
+        },
+      });
+    }
+  }
+
+  async getInternalFileMetadata(
+    user: User,
+    storageKey: string,
+  ): Promise<{ contentType: string; lastModified: Date; visibility: FileVisibility }> {
+    const file = await this.prisma.staticFile.findFirst({
+      select: {
+        visibility: true,
+        contentType: true,
+        updatedAt: true,
+      },
+      where: { storageKey, uid: user.uid, deletedAt: null },
+    });
+
+    if (!file) {
+      throw new NotFoundException();
+    }
+
+    const visibility = file.visibility as FileVisibility;
+
+    // Get lastModified from OSS, throw 404 if file doesn't exist in OSS
+    const objectInfo = await this.minioClient(visibility).statObject(storageKey);
+    if (!objectInfo) {
+      throw new NotFoundException(`File not found in storage: ${storageKey}`);
+    }
+
+    // Use the more recent of OSS lastModified and DB updatedAt
+    const dbUpdatedAt = new Date(file.updatedAt);
+    const ossLastModified = objectInfo.lastModified;
+    const lastModified = ossLastModified > dbUpdatedAt ? ossLastModified : dbUpdatedAt;
+
+    return {
+      contentType: file.contentType,
+      lastModified,
+      visibility,
+    };
+  }
+
+  async getInternalFileStream(
+    user: User,
+    storageKey: string,
+  ): Promise<{ data: Buffer; contentType: string; lastModified: Date }> {
+    const file = await this.prisma.staticFile.findFirst({
+      select: {
+        uid: true,
+        visibility: true,
+        entityId: true,
+        entityType: true,
+        contentType: true,
+        updatedAt: true,
+      },
+      where: { storageKey, uid: user.uid, deletedAt: null },
+    });
+
+    if (!file) {
+      throw new NotFoundException();
+    }
+
+    const readable = await this.minioClient(file.visibility as FileVisibility).getObject(
+      storageKey,
+    );
+    const data = await streamToBuffer(readable);
+
+    return { data, contentType: file.contentType, lastModified: new Date(file.updatedAt) };
+  }
+
+  async getExternalFileMetadata(
+    storageKey: string,
+  ): Promise<{ contentType: string; lastModified: Date }> {
+    // Get lastModified from OSS, throw 404 if file doesn't exist in OSS
+    const objectInfo = await this.externalOss.statObject(storageKey);
+    if (!objectInfo) {
+      throw new NotFoundException(`File not found in storage: ${storageKey}`);
+    }
+
+    const stat = await this.prisma.staticFile.findFirst({
+      select: { contentType: true, updatedAt: true },
+      where: { storageKey, deletedAt: null },
+    });
+
+    // Use the more recent of OSS lastModified and DB updatedAt
+    const dbUpdatedAt = stat?.updatedAt ? new Date(stat.updatedAt) : new Date(0);
+    const ossLastModified = objectInfo.lastModified;
+    const lastModified = ossLastModified > dbUpdatedAt ? ossLastModified : dbUpdatedAt;
+
+    return {
+      contentType: stat?.contentType ?? 'application/octet-stream',
+      lastModified,
+    };
+  }
+
+  async getExternalFileStream(
+    storageKey: string,
+  ): Promise<{ data: Buffer; contentType: string; lastModified: Date }> {
+    try {
+      const [readable, stat] = await Promise.all([
+        this.minioClient('public').getObject(storageKey),
+        this.prisma.staticFile.findFirst({
+          select: { contentType: true, updatedAt: true },
+          where: { storageKey, deletedAt: null },
+        }),
+      ]);
+      const data = await streamToBuffer(readable);
+      return {
+        data,
+        contentType: stat?.contentType ?? 'application/octet-stream',
+        lastModified: stat?.updatedAt ? new Date(stat.updatedAt) : new Date(),
+      };
+    } catch (error) {
+      // Check if it's the Minio S3Error for key not found
+      if (
+        error?.code === 'NoSuchKey' ||
+        error?.message?.includes('The specified key does not exist')
+      ) {
+        throw new NotFoundException(`File with key ${storageKey} not found`);
+      }
+      // Re-throw other errors
+      throw error;
+    }
+  }
+
+  /**
+   * Generates image URLs based on storage keys and configured payload mode
+   * @param storageKeys - Array of storage keys for the images
+   * @returns Array of URLs (either base64 or regular URLs depending on config)
+   */
+  async generateImageUrls(user: User, storageKeys: string[]): Promise<string[]> {
+    if (!Array.isArray(storageKeys) || storageKeys.length === 0) {
+      return [];
+    }
+
+    const staticEndpoint = this.config.get('static.public.endpoint')?.replace(/\/$/, '');
+
+    let imageMode = this.config.get('image.payloadMode');
+    if (imageMode === 'url' && !staticEndpoint) {
+      this.logger.warn('Public static endpoint is not configured, fallback to base64 mode');
+      imageMode = 'base64';
+    }
+
+    this.logger.log(`Generating image URLs in ${imageMode} mode for ${storageKeys.length} images`);
+
+    const files = await this.prisma.staticFile.findMany({
+      select: {
+        storageKey: true,
+        processedImageKey: true,
+        visibility: true,
+      },
+      where: {
+        uid: user.uid,
+        storageKey: { in: storageKeys },
+        deletedAt: null,
+      },
+    });
+
+    try {
+      if (imageMode === 'base64') {
+        const urls = await Promise.all(
+          files.map(async (file) => {
+            const visibility = file.visibility as FileVisibility;
+            const storageKey = file.processedImageKey || file.storageKey;
+
+            try {
+              const data = await this.minioClient(visibility).getObject(storageKey);
+              const chunks: Buffer[] = [];
+
+              for await (const chunk of data) {
+                chunks.push(chunk);
+              }
+
+              const buffer = Buffer.concat(chunks);
+              const base64 = buffer.toString('base64');
+              const contentType = await this.minioClient(visibility)
+                .statObject(storageKey)
+                .then((stat) => stat.metaData?.['content-type'] ?? 'image/jpeg');
+
+              return `data:${contentType};base64,${base64}`;
+            } catch (error) {
+              this.logger.error(`Failed to generate base64 for key ${storageKey}: ${error.stack}`);
+              return '';
+            }
+          }),
+        );
+        return urls.filter(Boolean);
+      }
+
+      // URL mode
+      return await Promise.all(
+        files.map(async (file) => {
+          const visibility = file.visibility as FileVisibility;
+          const storageKey = file.processedImageKey || file.storageKey;
+
+          // For public files, use the static endpoint
+          if (visibility === 'public') {
+            return `${staticEndpoint}/${storageKey}`;
+          }
+
+          // For private files, generate a signed URL that expires in given time
+          try {
+            const expiry = Number(this.config.get<number>('image.presignExpiry') ?? 300);
+            const signedUrl = await this.generateTempPublicURL(storageKey, expiry);
+            return signedUrl;
+          } catch (error) {
+            this.logger.error(
+              `Failed to generate signed URL for key ${storageKey}: ${error.stack}`,
+            );
+            return '';
+          }
+        }),
+      );
+    } catch (error) {
+      this.logger.error('Error generating image URLs:', error);
+      return [];
+    }
+  }
+
+  /**
+   * Clean up orphaned static files that are older than one day and have no entity association
+   */
+  async cleanOrphanedStaticFiles(): Promise<void> {
+    const now = new Date();
+    const oneDayAgo = new Date(now.getTime() - 24 * 60 * 60 * 1000);
+
+    // Find orphaned files
+    const orphanedFiles = await this.prisma.staticFile.findMany({
+      where: {
+        entityId: null,
+        entityType: null,
+        deletedAt: null,
+        OR: [
+          {
+            expiredAt: {
+              lt: now,
+            },
+          },
+          {
+            expiredAt: null,
+            createdAt: {
+              lt: oneDayAgo,
+            },
+          },
+        ],
+      },
+      select: {
+        pk: true,
+        storageKey: true,
+        processedImageKey: true,
+        visibility: true,
+      },
+    });
+
+    if (orphanedFiles.length === 0) {
+      this.logger.log('No orphaned files found to clean up');
+      return;
+    }
+
+    this.logger.log(`Found ${orphanedFiles.length} orphaned files to clean up`);
+
+    // Collect all storage keys to delete (including processed images)
+    const objectsToDelete = orphanedFiles.reduce<
+      { storageKey: string; visibility: FileVisibility }[]
+    >((acc, file) => {
+      acc.push({ storageKey: file.storageKey, visibility: file.visibility as FileVisibility });
+      if (file.processedImageKey) {
+        acc.push({
+          storageKey: file.processedImageKey,
+          visibility: file.visibility as FileVisibility,
+        });
+      }
+      return acc;
+    }, []);
+
+    // Delete files from storage
+    await this.batchRemoveObjects(null, objectsToDelete);
+
+    // Mark files as deleted in database
+    await this.prisma.staticFile.updateMany({
+      where: { pk: { in: orphanedFiles.map((file) => file.pk) } },
+      data: { deletedAt: new Date() },
+    });
+
+    this.logger.log(`Successfully cleaned up ${orphanedFiles.length} orphaned files`);
+  }
+
+  async convert(param: { content: string; from: string; to: string }): Promise<string> {
+    const { content, from, to } = param;
+    const parser = new PandocParser({
+      format: from,
+      extractMedia: false,
+    });
+
+    try {
+      const result = await parser.parse(content);
+      return result.content ?? '';
+    } catch (error) {
+      this.logger.error(`Convert from ${from} to ${to} failed: ${error?.stack}`);
+      throw error;
+    }
+  }
+
+  async duplicateFile(
+    user: User,
+    param: {
+      sourceFile: FileObject;
+      targetFile?: FileObject;
+      targetEntityId?: string;
+      targetEntityType?: EntityType;
+    },
+  ) {
+    const { sourceFile, targetFile, targetEntityId, targetEntityType } = param;
+
+    if (!sourceFile) {
+      throw new NotFoundException(`File with key ${sourceFile?.storageKey} not found`);
+    }
+
+    // Generate target file info if not provided
+    let finalTargetFile: FileObject;
+    if (targetFile) {
+      finalTargetFile = targetFile;
+    } else {
+      // Generate new storage key with UUID
+      const objectKey = randomUUID();
+      const extension = path.extname(sourceFile.storageKey) || '';
+      finalTargetFile = {
+        storageKey: `static/${objectKey}${extension}`,
+        visibility: sourceFile.visibility,
+      };
+    }
+    finalTargetFile.visibility ??= 'private';
+
+    // Check for related staticFile record for the source file
+    const sourceStaticFile = await this.prisma.staticFile.findFirst({
+      where: {
+        storageKey: sourceFile.storageKey,
+        deletedAt: null,
+      },
+    });
+
+    if (!sourceStaticFile) {
+      throw new NotFoundException(
+        `StaticFile record for source ${sourceFile.storageKey} not found`,
+      );
+    }
+
+    // Create new staticFile record for the target file
+    await this.prisma.staticFile.create({
+      data: {
+        uid: user.uid,
+        storageKey: finalTargetFile.storageKey,
+        storageSize: sourceStaticFile.storageSize,
+        contentType: sourceStaticFile.contentType,
+        originalName: sourceStaticFile.originalName,
+        entityId: targetEntityId,
+        entityType: targetEntityType,
+        visibility: sourceStaticFile.visibility,
+        processedImageKey: sourceStaticFile.processedImageKey,
+      },
+    });
+
+    // Use the appropriate Minio service based on visibility
+    const minioService = sourceFile.visibility === 'public' ? this.externalOss : this.internalOss;
+
+    // Use the duplicateFile method from MinioService instead of copyObject
+    await minioService.duplicateFile(sourceFile.storageKey, finalTargetFile.storageKey);
+
+    this.logger.log(
+      `Successfully duplicated file from ${sourceFile.storageKey} to ${finalTargetFile.storageKey}`,
+    );
+
+    return finalTargetFile;
+  }
+
+  /**
+   * Duplicates all files associated with an entity for a different user
+   * Only creates new database records, doesn't duplicate the actual files in storage
+   *
+   * @param user - The user who will own the duplicated files
+   * @param param - Parameters specifying source entity and optional target entity
+   * @returns Object containing counts of files processed and duplicated
+   */
+  async duplicateFilesNoCopy(
+    user: User,
+    param: {
+      sourceEntityId: string;
+      sourceEntityType: EntityType;
+      sourceUid: string;
+      targetEntityId?: string;
+      targetEntityType?: EntityType;
+    },
+  ): Promise<{ total: number; duplicated: number }> {
+    const {
+      sourceEntityId,
+      sourceEntityType,
+      sourceUid,
+      targetEntityId = sourceEntityId,
+      targetEntityType = sourceEntityType,
+    } = param;
+
+    if (sourceUid === user.uid) {
+      this.logger.log('Source and target users are the same, skipping duplication');
+      return { total: 0, duplicated: 0 };
+    }
+
+    this.logger.log(
+      `Duplicating files from entity ${sourceEntityId} (${sourceEntityType}) to entity ${targetEntityId} (${targetEntityType}) for user ${user.uid}`,
+    );
+
+    // Find all files associated with the source entity
+    const files = await this.prisma.staticFile.findMany({
+      where: {
+        entityId: sourceEntityId,
+        entityType: sourceEntityType,
+        uid: sourceUid ?? { not: user.uid }, // If sourceUid is provided, use it; otherwise exclude files already owned by the target user
+        deletedAt: null,
+        visibility: 'private', // only duplicate private files
+      },
+    });
+
+    if (!files?.length) {
+      this.logger.log('No files found to duplicate');
+      return { total: 0, duplicated: 0 };
+    }
+
+    // Find all existing duplicates in a single query to avoid multiple DB hits
+    const existingDuplicates = await this.prisma.staticFile.findMany({
+      where: {
+        uid: user.uid,
+        storageKey: { in: files.map((file) => file.storageKey) },
+        entityId: targetEntityId,
+        entityType: targetEntityType,
+        deletedAt: null,
+      },
+      select: {
+        storageKey: true,
+      },
+    });
+
+    // Create a set of existing storage keys for efficient lookup
+    const existingStorageKeys = new Set(existingDuplicates?.map((file) => file.storageKey) ?? []);
+
+    // Prepare batch insert data
+    const filesToCreate = files
+      .filter((file) => !existingStorageKeys.has(file.storageKey))
+      .map((file) => ({
+        ...omit(file, ['pk', 'uid', 'entityId', 'entityType', 'createdAt', 'updatedAt']),
+        uid: user.uid,
+        entityId: targetEntityId,
+        entityType: targetEntityType,
+      }));
+
+    let duplicatedCount = 0;
+    if (filesToCreate?.length > 0) {
+      // Batch insert all new files at once
+      const result = await this.prisma.staticFile.createMany({
+        data: filesToCreate,
+        // skipDuplicates: true, // As an extra precaution against duplicates
+      });
+      duplicatedCount = result.count;
+    }
+
+    this.logger.log(`Duplicated ${duplicatedCount} out of ${files.length} files`);
+    return { total: files.length, duplicated: duplicatedCount };
+  }
+
+  /**
+   * Process content images and replace them with public URLs
+   * @param content - The content to process
+   * @returns The processed content with public URLs
+   */
+  async processContentImages(content: string) {
+    // Extract all markdown image references: ![alt](url)
+    const images = content?.match(/!\[.*?\]\((.*?)\)/g);
+    if (!images?.length) {
+      return content;
+    }
+
+    // Set up concurrency limit for image processing
+    const limit = pLimit(5); // Limit to 5 concurrent operations
+
+    const privateStaticEndpoint = this.config.get('static.private.endpoint')?.replace(/\/$/, '');
+
+    // Create an array to store all image processing operations and their results
+    const imageProcessingTasks = images.map((imageRef) => {
+      return limit(async () => {
+        // Extract the URL from the markdown image syntax
+        const urlMatch = imageRef.match(/!\[.*?\]\((.*?)\)/);
+        if (!urlMatch?.[1]) return null;
+
+        const originalUrl = urlMatch[1];
+
+        // Extract the storage key only if private
+        if (!originalUrl.startsWith(privateStaticEndpoint)) return null;
+
+        const storageKey = originalUrl.replace(`${privateStaticEndpoint}/`, '');
+        if (!storageKey) return null;
+
+        try {
+          // Publish the file to public bucket
+          const publicUrl = await this.publishFile(storageKey);
+
+          // Return info needed for replacement
+          return {
+            originalImageRef: imageRef,
+            originalUrl,
+            publicUrl,
+          };
+        } catch (error) {
+          this.logger.error(`Failed to publish image for storageKey: ${storageKey}`, error);
+          return null;
+        }
+      });
+    });
+
+    // Wait for all image processing tasks to complete
+    const processedImages = await Promise.all(imageProcessingTasks);
+
+    // Apply all replacements to the content
+    let updatedContent = content;
+    for (const result of processedImages) {
+      if (result) {
+        const { originalImageRef, originalUrl, publicUrl } = result;
+        const newImageRef = originalImageRef.replace(originalUrl, publicUrl);
+        updatedContent = updatedContent.replace(originalImageRef, newImageRef);
+      }
+    }
+
+    return updatedContent;
+  }
+
+  /**
+   * Get favicon for a domain with Redis caching
+   * @param domain - The domain to get favicon for
+   * @returns Buffer containing the favicon data and content type
+   */
+  async getFavicon(domain: string): Promise<{ data: Buffer; contentType: string }> {
+    // Validate domain parameter
+    if (!domain || typeof domain !== 'string') {
+      throw new ParamsError('Domain parameter is required and must be a string');
+    }
+
+    // Basic domain validation
+    const domainRegex = /^[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/;
+    if (!domainRegex.test(domain)) {
+      throw new ParamsError('Invalid domain format');
+    }
+
+    const cacheKey = `favicon:${domain}`;
+    const CACHE_TTL = 24 * 60 * 60; // 24 hours in seconds
+
+    try {
+      // Try to get from cache first
+      const cachedFavicon = await this.redisService.get(cacheKey);
+      if (cachedFavicon) {
+        this.logger.log(`Returning cached favicon for domain: ${domain}`);
+        // Parse cached data (stored as base64 string)
+        const buffer = Buffer.from(cachedFavicon, 'base64');
+        return {
+          data: buffer,
+          contentType: 'image/x-icon', // Default content type for cached favicons
+        };
+      }
+
+      // Fetch from Google favicon service
+      const faviconUrl = `https://www.google.com/s2/favicons?domain=${encodeURIComponent(domain)}&sz=64`;
+      this.logger.log(`Fetching favicon from Google for domain: ${domain}`);
+
+      // Create AbortController for timeout
+      const controller = new AbortController();
+      const timeoutId = setTimeout(() => controller.abort(), 10000); // 10 second timeout
+
+      const response = await fetch(faviconUrl, {
+        signal: controller.signal,
+      });
+
+      clearTimeout(timeoutId);
+
+      if (!response.ok) {
+        throw new Error(`Failed to fetch favicon: ${response.status} ${response.statusText}`);
+      }
+
+      const arrayBuffer = await response.arrayBuffer();
+      const buffer = Buffer.from(arrayBuffer);
+      const contentType = response.headers.get('content-type') || 'image/x-icon';
+
+      // Cache the favicon data as base64
+      const base64Data = buffer.toString('base64');
+      await this.redisService.setex(cacheKey, CACHE_TTL, base64Data);
+
+      this.logger.log(`Successfully fetched and cached favicon for domain: ${domain}`);
+      return { data: buffer, contentType };
+    } catch (error) {
+      this.logger.warn(`Failed to get favicon for domain ${domain}: ${error?.stack}`);
+      throw new NotFoundException(`Unable to retrieve favicon for domain: ${domain}`);
+    }
+  }
+}

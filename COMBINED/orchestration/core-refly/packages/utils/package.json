@@ -1,0 +1,53 @@
+{
+  "name": "@refly/utils",
+  "version": "0.8.0",
+  "description": "Refly Code Utils",
+  "main": "src/index.ts",
+  "types": "src/index.ts",
+  "exports": {
+    ".": "./src/index.ts",
+    "./token": "./src/token.ts"
+  },
+  "typesVersions": {
+    "*": {
+      "token": ["src/token.ts"]
+    }
+  },
+  "scripts": {
+    "clean": "rimraf dist && rimraf tsconfig.tsbuildinfo",
+    "test": "vitest run",
+    "test:run": "vitest run",
+    "test:coverage": "vitest run --coverage"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@paralleldrive/cuid2": "^2.2.2",
+    "@refly/common-types": "workspace:*",
+    "@refly/openapi-schema": "workspace:*",
+    "@tiptap/pm": "2.7.4",
+    "cheerio": "~1.0.0",
+    "clsx": "^2.1.0",
+    "deepmerge": "^4.3.1",
+    "linkify-it": "^5.0.0",
+    "markdown-it": "~14.1.0",
+    "md5": "^2.3.0",
+    "mitt": "~3.0.1",
+    "prosemirror-markdown": "~1.13.0",
+    "prosemirror-model": "1.25.2",
+    "tailwind-merge": "^2.2.2",
+    "kitoken": "^0.10.1",
+    "tlds": "^1.255.0",
+    "uuid": "^9.0.0",
+    "y-prosemirror": "~1.2.6",
+    "y-protocols": "~1.0.6",
+    "yjs": "13.6.16"
+  },
+  "devDependencies": {
+    "@types/linkify-it": "^5.0.0",
+    "@types/markdown-it": "~14.1.1",
+    "@vitest/coverage-v8": "^2.1.9",
+    "vitest": "^2.1.9"
+  }
+}

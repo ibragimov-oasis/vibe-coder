@@ -1,0 +1,56 @@
+{
+  "release-type": "python",
+  "separate-pull-requests": true,
+  "bump-minor-pre-major": true,
+  "bump-patch-for-minor-pre-major": true,
+  "include-v-in-tag": true,
+  "changelog-sections": [
+    {
+      "type": "feat",
+      "section": "Features"
+    },
+    {
+      "type": "fix",
+      "section": "Bug Fixes"
+    },
+    {
+      "type": "chore",
+      "section": "Miscellaneous Chores",
+      "hidden": false
+    },
+    {
+      "type": "docs",
+      "section": "Documentation",
+      "hidden": false
+    }
+  ],
+  "packages": {
+    "packages/toolbox-core": {
+      "component": "toolbox-core",
+      "extra-files": [
+        "src/toolbox_core/version.py"
+      ]
+    },
+    "packages/toolbox-langchain": {
+      "component": "toolbox-langchain",
+      "extra-files": [
+        "pyproject.toml",
+        "src/toolbox_langchain/version.py"
+      ]
+    },
+    "packages/toolbox-llamaindex": {
+      "component": "toolbox-llamaindex",
+      "extra-files": [
+        "pyproject.toml",
+        "src/toolbox_llamaindex/version.py"
+      ]
+    },
+    "packages/toolbox-adk": {
+      "component": "toolbox-adk",
+      "extra-files": [
+        "pyproject.toml",
+        "src/toolbox_adk/version.py"
+      ]
+    }
+  }
+}

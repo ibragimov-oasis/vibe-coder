@@ -1,0 +1,37 @@
+---
+description: SEO optimization rules for HTML and web content files
+globs: "**/*.{html,jsx,tsx,vue,svelte,astro,mdx}"
+alwaysApply: false
+---
+
+# SEO Rules
+
+## Page-Level Requirements
+- Unique `<title>` per page (50-60 chars, keyword-first, brand at end)
+- Unique `<meta name="description">` per page (150-160 chars, compelling CTA)
+- Single `<h1>` per page containing primary keyword
+- Sequential heading hierarchy (h1→h2→h3, no level skips)
+- Semantic HTML5 elements (article, section, nav, main, aside, footer)
+
+## Technical SEO
+- Canonical URL on every page (`<link rel="canonical">`)
+- Open Graph tags (og:title, og:description, og:image, og:url)
+- Twitter Card tags (twitter:card, twitter:title, twitter:description)
+- Structured data (JSON-LD Schema.org) for page type
+- XML sitemap at /sitemap.xml
+- robots.txt allowing crawling of important paths
+
+## Performance (Core Web Vitals)
+- LCP < 2.5s — optimize hero images, preload critical fonts
+- CLS < 0.1 — set width/height on images, font-display: swap
+- INP < 200ms — defer non-critical JS, debounce inputs
+
+## GEO (Generative Engine Optimization)
+- Start with direct answer, then explain
+- Use clear headings and bullet points
+- Include statistics with sources
+- FAQ sections with question + direct answer
+- Comprehensive topic coverage
+
+## Full SEO Agent
+See `COMBINED/agents/mega/mega-seo.md`

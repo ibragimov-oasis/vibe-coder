@@ -1,0 +1,54 @@
+receivers:
+  otlp:
+    protocols:
+      http:
+        endpoint: 0.0.0.0:4318
+
+exporters:
+  debug:
+    verbosity: detailed
+
+  # Traces exporter - Tempo
+  otlp:
+    endpoint: tempo:4317
+    tls:
+      insecure: true
+
+  # Metrics exporter - Prometheus Scrape (with Exemplars support)
+  prometheus:
+    endpoint: "0.0.0.0:8889"
+    enable_open_metrics: true  # Enable OpenMetrics format for exemplars
+    resource_to_telemetry_conversion:
+      enabled: true  # Convert resource attributes to Prometheus labels
+
+  # Metrics exporter - Prometheus Remote Write (backup, no exemplars)
+  prometheusremotewrite:
+    endpoint: http://prometheus:9090/api/v1/write
+    tls:
+      insecure: true
+    resource_to_telemetry_conversion:
+      enabled: true
+
+processors:
+  batch:
+    timeout: 1s
+
+  # 生产环境可选：过滤不需要的 metrics (当前已注释，按需启用)
+  # filter/drop_internal:
+  #   metrics:
+  #     metric:
+  #       - 'name matches "^prometheus_.*"'  # 过滤 Prometheus 内部指标
+
+service:
+  pipelines:
+    traces:
+      receivers: [otlp]
+      processors: [batch]
+      exporters: [otlp, debug]
+
+    metrics:
+      receivers: [otlp]
+      processors:
+        - batch
+        # - filter/drop_internal  # 生产环境按需启用
+      exporters: [prometheus, prometheusremotewrite, debug]  # prometheus for exemplars, remotewrite for backup

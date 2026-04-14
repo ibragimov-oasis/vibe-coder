@@ -1,0 +1,24 @@
+# Usage
+#   Start:              docker compose up
+#   Stop:               docker compose down
+#   Destroy:            docker compose down -v --remove-orphans
+
+name: refly
+
+include:
+  - path: docker-compose.base.yml
+
+services:
+  api:
+    extends:
+      file: docker-compose.services.yml
+      service: api
+    image: reflyai/refly-api:latest
+
+  web:
+    extends:
+      file: docker-compose.services.yml
+      service: web
+    image: reflyai/refly-web:latest
+    ports:
+      - 5700:80

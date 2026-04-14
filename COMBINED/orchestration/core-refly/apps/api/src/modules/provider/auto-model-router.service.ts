@@ -1,0 +1,839 @@
+import { Injectable, Logger, OnModuleDestroy } from '@nestjs/common';
+import {
+  AutoModelRoutingRule as AutoModelRoutingRuleModel,
+  ProviderItem as ProviderItemModel,
+} from '@prisma/client';
+import { LLMModelConfig, GenericToolset } from '@refly/openapi-schema';
+import {
+  isAutoModel,
+  selectAutoModel,
+  AUTO_MODEL_ROUTING_PRIORITY,
+  safeParseJSON,
+  getToolBasedRoutingConfig,
+  genRoutingResultID,
+  getModelSceneFromMode,
+} from '@refly/utils';
+import { ProviderItemNotFoundError } from '@refly/errors';
+import { PrismaService } from '../common/prisma.service';
+
+/**
+ * Condition for routing rules
+ * All defined conditions must be satisfied simultaneously (AND logic)
+ * Note: Scene matching is done via the rule's `scene` column, not in conditions
+ */
+interface RuleCondition {
+  /**
+   * Toolset inventory keys list.
+   * If any toolset in the request has an inventory key matching any in this list, matches.
+   * Used for matching specific toolsets like "fal_image", "fal_video", etc.
+   */
+  toolsetInventoryKeys?: string[];
+
+  /**
+   * Whether the user is in the auto model trial period.
+   * If true, this rule matches only when the user is within their first N Auto model requests.
+   * Used for routing new users to powerful models during their trial period.
+   */
+  inAutoModelTrial?: boolean;
+}
+
+export enum RoutingStrategy {
+  RULE_BASED = 'rule_based',
+  TOOL_BASED = 'tool_based',
+  FALLBACK_RANDOM_SELECTION = 'fallback_random_selection',
+  FALLBACK_BUILT_IN_PRIORITY = 'fallback_built_in_priority',
+  FALLBACK_FIRST_AVAILABLE = 'fallback_first_available',
+}
+
+/**
+ * Routing target definition
+ * Supports three routing strategies with priority order:
+ * 1. Fixed routing (model field) - highest priority
+ * 2. Random routing (models field) - used when model is empty
+ * 3. Weighted routing (weights field) - used when both model and models are empty
+ */
+interface RoutingTarget {
+  // Priority 1: Fixed routing to a single model
+  model?: string;
+
+  // Priority 2: Random routing (randomly select from array)
+  models?: string[];
+
+  // Priority 3: Weighted routing (select based on weights)
+  weights?: Array<{
+    model: string;
+    weight: number; // Weight value, can be any positive number
+  }>;
+}
+
+/**
+ * Result of rule-based routing
+ */
+export interface RuleRouteResult {
+  providerItem: ProviderItemModel;
+  matchedRule: { ruleId: string; ruleName: string };
+}
+
+/**
+ * Context for Auto model routing
+ * Contains all the data needed for routing decisions
+ */
+export interface RoutingContext {
+  /**
+   * LLM provider items available for the user
+   * Pre-fetched by ProviderService.findProviderItemsByCategory(user, 'llm')
+   */
+  llmItems: ProviderItemModel[];
+
+  /**
+   * User identifier
+   */
+  userId: string;
+
+  /**
+   * Action result ID (for associating routing decision with execution result)
+   */
+  actionResultId?: string;
+
+  /**
+   * Action result version (combined with actionResultId for unique identification)
+   */
+  actionResultVersion?: number;
+
+  /**
+   * Mode (e.g., 'copilot_agent', 'node_agent')
+   */
+  mode?: string;
+
+  /**
+   * User original input (for regex matching, note: not stored for privacy)
+   */
+  inputPrompt?: string;
+
+  /**
+   * Toolsets selected for the skill invocation
+   * Used for tool-based routing to check for specific tools
+   */
+  toolsets?: GenericToolset[];
+
+  /**
+   * Whether the user is in the auto model trial period.
+   * Set by AutoModelTrialService based on user's Auto model usage count.
+   */
+  inAutoModelTrial?: boolean;
+}
+
+/**
+ * Rule-based router that handles rule matching and selection
+ * Encapsulates all rule-based routing logic without external dependencies
+ */
+class RuleRouter {
+  constructor(private readonly context: RoutingContext) {}
+
+  route(
+    rules: AutoModelRoutingRuleModel[],
+    modelMap: Map<string, ProviderItemModel>,
+  ): RuleRouteResult | null {
+    for (const rule of rules) {
+      if (this.matchRule(rule)) {
+        const target = safeParseJSON(rule.target) as RoutingTarget;
+        if (!target) {
+          continue;
+        }
+
+        const selectedModel = this.selectModelFromTarget(target, modelMap);
+        if (selectedModel) {
+          return {
+            providerItem: selectedModel,
+            matchedRule: {
+              ruleId: rule.ruleId,
+              ruleName: rule.ruleName,
+            },
+          };
+        }
+      }
+    }
+
+    return null;
+  }
+
+  private matchRule(rule: AutoModelRoutingRuleModel): boolean {
+    const condition = safeParseJSON(rule.condition) as RuleCondition;
+    return this.matchCondition(condition);
+  }
+
+  /**
+   * Check if context matches rule conditions
+   * All defined conditions must be satisfied (AND logic)
+   * Note: Scene matching is done at the database query level via the `scene` column
+   */
+  private matchCondition(condition?: RuleCondition): boolean {
+    // condition can be empty (matches all requests for this scene)
+    if (!condition) {
+      return true;
+    }
+
+    // Match toolset inventory keys
+    if (condition.toolsetInventoryKeys && condition.toolsetInventoryKeys.length > 0) {
+      if (!this.matchToolsetInventoryKeys(condition.toolsetInventoryKeys)) {
+        return false;
+      }
+    }
+
+    // Match auto model trial condition
+    if (condition.inAutoModelTrial) {
+      return this.context.inAutoModelTrial ?? false;
+    }
+
+    return true;
+  }
+
+  /**
+   * Check if any toolset inventory key matches the provided keys
+   * This is used for matching specific toolsets like "fal_image", "fal_video", etc.
+   */
+  private matchToolsetInventoryKeys(inventoryKeys: string[]): boolean {
+    const toolsets = this.context.toolsets;
+    if (!toolsets || toolsets.length === 0) {
+      return false;
+    }
+
+    const keysSet = new Set(inventoryKeys);
+
+    for (const toolset of toolsets) {
+      const inventoryKey = toolset.toolset?.key;
+      if (inventoryKey && keysSet.has(inventoryKey)) {
+        return true;
+      }
+    }
+
+    return false;
+  }
+
+  /**
+   * Select a model from random routing (models array)
+   * Randomly selects one model from the available models in the array
+   */
+  private selectRandomModel(
+    models: string[],
+    modelMap: Map<string, ProviderItemModel>,
+  ): ProviderItemModel | null {
+    // Filter out models that don't exist in modelMap
+    const availableModels = models.filter((modelId) => modelMap.has(modelId));
+
+    if (availableModels.length === 0) {
+      return null;
+    }
+
+    // Randomly select one model from available models
+    const randomIndex = Math.floor(Math.random() * availableModels.length);
+    const selectedModelId = availableModels[randomIndex];
+
+    return modelMap.get(selectedModelId) ?? null;
+  }
+
+  /**
+   * Select a model from weighted routing (weights array)
+   * Selects a model based on weight proportions using weighted random algorithm
+   */
+  private selectWeightedModel(
+    weights: Array<{ model: string; weight: number }>,
+    modelMap: Map<string, ProviderItemModel>,
+  ): ProviderItemModel | null {
+    // Filter out invalid weights (weight <= 0 or model doesn't exist)
+    const validWeights = weights.filter((item) => item.weight > 0 && modelMap.has(item.model));
+
+    if (validWeights.length === 0) {
+      return null;
+    }
+
+    // Calculate total weight
+    const totalWeight = validWeights.reduce((sum, item) => sum + item.weight, 0);
+
+    // Generate random number between 0 and totalWeight
+    const randomValue = Math.random() * totalWeight;
+
+    // Find the model based on the weight interval
+    let accumulatedWeight = 0;
+    for (const item of validWeights) {
+      accumulatedWeight += item.weight;
+      if (randomValue <= accumulatedWeight) {
+        return modelMap.get(item.model) ?? null;
+      }
+    }
+
+    // Fallback to the last model (should not reach here in normal cases)
+    const lastModelId = validWeights[validWeights.length - 1].model;
+    return modelMap.get(lastModelId) ?? null;
+  }
+
+  /**
+   * Select a model based on target configuration
+   * Implements priority-based selection logic:
+   * 1. Priority 1: Fixed routing (model field)
+   * 2. Priority 2: Random routing (models field)
+   * 3. Priority 3: Weighted routing (weights field)
+   */
+  private selectModelFromTarget(
+    target: RoutingTarget,
+    modelMap: Map<string, ProviderItemModel>,
+  ): ProviderItemModel | null {
+    // Priority 1: Fixed routing - if model field exists and is non-empty
+    if (target.model) {
+      return modelMap.get(target.model) ?? null;
+    }
+
+    // Priority 2: Random routing - if models array exists and is non-empty
+    if (target.models && target.models.length > 0) {
+      return this.selectRandomModel(target.models, modelMap);
+    }
+
+    // Priority 3: Weighted routing - if weights array exists and is non-empty
+    if (target.weights && target.weights.length > 0) {
+      return this.selectWeightedModel(target.weights, modelMap);
+    }
+
+    // All fields are empty or invalid
+    return null;
+  }
+}
+
+/**
+ * Cache entry for routing rules
+ */
+interface RuleCacheEntry {
+  rules: AutoModelRoutingRuleModel[];
+  cachedAt: number;
+}
+
+/**
+ * Rule cache manager that handles caching and refreshing of routing rules
+ * Encapsulates all cache-related logic with automatic refresh and lifecycle management
+ */
+class RuleCache implements OnModuleDestroy {
+  private readonly logger = new Logger(RuleCache.name);
+
+  /**
+   * In-memory cache for routing rules
+   * Key: scene name (e.g., 'agent', 'copilot', 'chat')
+   * Value: RuleCacheEntry containing rules and cache timestamp
+   */
+  private readonly cache = new Map<string, RuleCacheEntry>();
+
+  /**
+   * Cache TTL in milliseconds (5 minutes)
+   * Longer than refresh interval to ensure cache is always valid during periodic refresh
+   */
+  private readonly CACHE_TTL_MS = 5 * 60 * 1000;
+
+  /**
+   * Timer for periodic cache refresh (3 minutes)
+   */
+  private readonly REFRESH_INTERVAL_MS = 3 * 60 * 1000;
+
+  /**
+   * Timer for periodic cache refresh
+   */
+  private refreshTimer?: NodeJS.Timeout;
+
+  /**
+   * Whether to disable cache (for development mode)
+   */
+  private readonly disableCache: boolean;
+
+  constructor(private readonly prisma: PrismaService) {
+    // Disable cache in development mode
+    this.disableCache = process.env.NODE_ENV === 'development';
+    this.startRefreshTimer();
+    this.warmupCache();
+  }
+
+  /**
+   * Get rules for a scene from cache or database
+   * Returns cached rules immediately if available (even if expired), and refreshes in background
+   * In development mode, always fetches from database directly
+   */
+  async get(scene: string): Promise<AutoModelRoutingRuleModel[]> {
+    // In development mode, always fetch from database directly
+    if (this.disableCache) {
+      return this.fetchAndCache(scene, Date.now());
+    }
+
+    const now = Date.now();
+    const cached = this.cache.get(scene);
+
+    // Cache hit and still valid - return immediately
+    if (cached && now - cached.cachedAt < this.CACHE_TTL_MS) {
+      return cached.rules;
+    }
+
+    // Cache exists but expired - return stale cache and refresh in background
+    if (cached) {
+      // Async refresh (non-blocking)
+      this.fetchAndCache(scene, now).catch((err) => {
+        this.logger.warn(`Background refresh failed for scene '${scene}'`, err);
+      });
+      return cached.rules;
+    }
+
+    // First access (no cache) - block and fetch
+    return this.fetchAndCache(scene, now);
+  }
+
+  /**
+   * Fetch rules from database and update cache
+   */
+  private async fetchAndCache(
+    scene: string,
+    timestamp: number = Date.now(),
+  ): Promise<AutoModelRoutingRuleModel[]> {
+    try {
+      const rules = await this.prisma.autoModelRoutingRule.findMany({
+        where: {
+          enabled: true,
+          scene,
+        },
+        orderBy: [{ priority: 'desc' }, { ruleId: 'asc' }],
+      });
+
+      const cached = this.cache.get(scene);
+
+      // Determine cache operation type and log accordingly
+      if (!cached) {
+        // Load: cache from empty to filled
+        this.logger.log(`Rule cache loaded for scene '${scene}': ${rules.length} rule(s)`);
+      } else if (this.hasRulesChanged(cached.rules, rules)) {
+        // Update: rules have changed
+        this.logger.log(`Rule cache updated for scene '${scene}': ${rules.length} rule(s)`);
+      }
+
+      // Update cache
+      this.cache.set(scene, {
+        rules,
+        cachedAt: timestamp,
+      });
+
+      return rules;
+    } catch (error) {
+      this.logger.warn(`Failed to fetch rules for scene '${scene}'`, error);
+      // Return cached rules even if expired
+      const cached = this.cache.get(scene);
+      return cached?.rules ?? [];
+    }
+  }
+
+  /**
+   * Check if rules have changed by deep comparison of rule content
+   * Compares all relevant fields including condition, target, enabled status, etc.
+   */
+  private hasRulesChanged(
+    oldRules: AutoModelRoutingRuleModel[],
+    newRules: AutoModelRoutingRuleModel[],
+  ): boolean {
+    if (oldRules.length !== newRules.length) {
+      return true;
+    }
+
+    for (let i = 0; i < oldRules.length; i++) {
+      if (!this.isRuleEqual(oldRules[i], newRules[i])) {
+        return true;
+      }
+    }
+
+    return false;
+  }
+
+  /**
+   * Check if two rules are equal by comparing all relevant fields
+   */
+  private isRuleEqual(rule1: AutoModelRoutingRuleModel, rule2: AutoModelRoutingRuleModel): boolean {
+    // one field one if
+    if (rule1.ruleId !== rule2.ruleId) {
+      return false;
+    }
+    if (rule1.ruleName !== rule2.ruleName) {
+      return false;
+    }
+    if (rule1.scene !== rule2.scene) {
+      return false;
+    }
+    if (rule1.priority !== rule2.priority) {
+      return false;
+    }
+    if (rule1.enabled !== rule2.enabled) {
+      return false;
+    }
+    if (rule1.condition !== rule2.condition) {
+      return false;
+    }
+    if (rule1.target !== rule2.target) {
+      return false;
+    }
+    return true;
+  }
+
+  /**
+   * Preload cache for common scenes on service startup
+   * This reduces latency for first access to these scenes
+   */
+  private async warmupCache() {
+    const commonScenes = ['agent', 'copilot'];
+
+    for (const scene of commonScenes) {
+      this.fetchAndCache(scene).catch((err) => {
+        this.logger.warn(`Cache warmup failed for scene '${scene}'`, err);
+      });
+    }
+  }
+
+  /**
+   * Start periodic cache refresh timer
+   * Refreshes all cached rules every REFRESH_INTERVAL_MS milliseconds
+   */
+  private startRefreshTimer() {
+    this.refreshTimer = setInterval(() => {
+      this.refresh();
+    }, this.REFRESH_INTERVAL_MS);
+
+    // Ensure timer doesn't prevent process from exiting
+    this.refreshTimer.unref();
+  }
+
+  /**
+   * Refresh all cached rules from database
+   * This is called periodically by the refresh timer
+   */
+  private async refresh() {
+    const scenes = Array.from(this.cache.keys());
+
+    if (scenes.length === 0) {
+      return;
+    }
+
+    for (const scene of scenes) {
+      await this.fetchAndCache(scene);
+    }
+  }
+
+  /**
+   * Stop the cache refresh timer
+   * This should be called when the service is being destroyed
+   */
+  private stopRefreshTimer() {
+    if (this.refreshTimer) {
+      clearInterval(this.refreshTimer);
+      this.refreshTimer = undefined;
+    }
+  }
+
+  /**
+   * Clean up resources when the module is destroyed
+   */
+  onModuleDestroy() {
+    this.stopRefreshTimer();
+  }
+}
+
+/**
+ * Auto model routing service for rule-based model selection
+ * This service loads rules from the database and performs synchronous routing decisions
+ */
+@Injectable()
+export class AutoModelRoutingService implements OnModuleDestroy {
+  private readonly logger = new Logger(AutoModelRoutingService.name);
+  private readonly ruleCache: RuleCache;
+
+  constructor(private readonly prisma: PrismaService) {
+    this.ruleCache = new RuleCache(prisma);
+  }
+
+  /**
+   * Clean up resources when the module is destroyed
+   */
+  onModuleDestroy() {
+    this.ruleCache.onModuleDestroy();
+  }
+
+  /**
+   * Route Auto model to the target model based on rules
+   * This method implements a multi-tier priority system:
+   * 1. Rule-based routing (from database)
+   * 2. Tool-based routing (from environment variables)
+   * 3. Random selection (from environment variables)
+   * 4. Built-in priority list (from code literals)
+   * 5. Fallback to the first available model
+   *
+   * @param originalProviderItem The original provider item to potentially route
+   * @param context The routing context
+   * @returns The selected provider item, or the original provider item if no routing is performed
+   */
+  async route(
+    originalProviderItem: ProviderItemModel,
+    context: RoutingContext,
+  ): Promise<ProviderItemModel> {
+    // Return unchanged if not an Auto model
+    if (!isAutoModel(originalProviderItem.config)) {
+      return originalProviderItem;
+    }
+
+    const modelMap = this.buildModelMap(context.llmItems);
+    const routingResultId = genRoutingResultID();
+    const scene = getModelSceneFromMode(context.mode);
+
+    // Priority 1: Rule-based routing
+    const ruleResult = await this.routeByRules(context, modelMap, scene);
+    if (ruleResult) {
+      this.saveRoutingResult(
+        context,
+        routingResultId,
+        scene,
+        RoutingStrategy.RULE_BASED,
+        ruleResult.providerItem,
+        originalProviderItem,
+        ruleResult.matchedRule,
+      );
+
+      return ruleResult.providerItem;
+    }
+
+    // Priority 2: Tool-based routing
+    const toolBasedItem = this.routeByTools(context, modelMap, scene);
+    if (toolBasedItem) {
+      this.saveRoutingResult(
+        context,
+        routingResultId,
+        scene,
+        RoutingStrategy.TOOL_BASED,
+        toolBasedItem,
+        originalProviderItem,
+      );
+      return toolBasedItem;
+    }
+
+    // Priority 3: Random selection
+    const randomSelectedItem = this.routeByRandomSelection(modelMap);
+    if (randomSelectedItem) {
+      this.saveRoutingResult(
+        context,
+        routingResultId,
+        scene,
+        RoutingStrategy.FALLBACK_RANDOM_SELECTION,
+        randomSelectedItem,
+        originalProviderItem,
+      );
+      return randomSelectedItem;
+    }
+
+    // Priority 4: Built-in priority list
+    const prioritySelectedItem = this.routeByBuiltInPriorityList(modelMap);
+    if (prioritySelectedItem) {
+      this.saveRoutingResult(
+        context,
+        routingResultId,
+        scene,
+        RoutingStrategy.FALLBACK_BUILT_IN_PRIORITY,
+        prioritySelectedItem,
+        originalProviderItem,
+      );
+      return prioritySelectedItem;
+    }
+
+    // Priority 5: Fallback to the first available model
+    if (context.llmItems.length > 0) {
+      const fallbackItem = context.llmItems[0];
+
+      this.saveRoutingResult(
+        context,
+        routingResultId,
+        scene,
+        RoutingStrategy.FALLBACK_FIRST_AVAILABLE,
+        fallbackItem,
+        originalProviderItem,
+      );
+
+      return fallbackItem;
+    }
+
+    throw new ProviderItemNotFoundError('Auto model routing failed: no model available');
+  }
+
+  /**
+   * Build a map of modelId or itemId -> ProviderItemModel
+   * Indexes each item by both config.modelId and item.itemId so that routing
+   * rules can target either value. This makes rules resilient to model version
+   * upgrades where the modelId of a provider_item changes but the itemId stays
+   * the same.
+   * Filters out invalid configs and reasoning models.
+   */
+  private buildModelMap(items: ProviderItemModel[]): Map<string, ProviderItemModel> {
+    const modelMap = new Map<string, ProviderItemModel>();
+
+    for (const item of items) {
+      const config = safeParseJSON(item.config) as LLMModelConfig;
+      if (!config) continue;
+      // Exclude reasoning models from routing
+      if (config.capabilities?.reasoning === true) continue;
+      if (config.modelId) {
+        modelMap.set(config.modelId, item);
+      }
+      modelMap.set(item.itemId, item);
+    }
+
+    return modelMap;
+  }
+
+  /**
+   * Rule-based routing
+   * Rules are filtered by scene column and then matched by additional conditions
+   */
+  private async routeByRules(
+    context: RoutingContext,
+    modelMap: Map<string, ProviderItemModel>,
+    scene: string,
+  ): Promise<RuleRouteResult | null> {
+    const rules = await this.ruleCache.get(scene);
+    const ruleRouter = new RuleRouter(context);
+    return ruleRouter.route(rules, modelMap);
+  }
+
+  /**
+   * Tool-based routing
+   * This implements the temporary tool-based routing strategy controlled by environment variables
+   *
+   * @param context The routing context
+   * @param modelMap Map of available models (modelId -> ProviderItem)
+   * @param scene The scene for this routing
+   * @returns The selected provider item, or null if tool-based routing should not be applied
+   */
+  private routeByTools(
+    context: RoutingContext,
+    modelMap: Map<string, ProviderItemModel>,
+    scene: string,
+  ): ProviderItemModel | null {
+    // Tool-based routing is only applicable when mode is 'node_agent' and scene is 'agent'
+    if (context.mode !== 'node_agent') {
+      return null;
+    }
+
+    if (scene !== 'agent') {
+      return null;
+    }
+
+    const config = getToolBasedRoutingConfig();
+    if (!config.enabled) {
+      return null;
+    }
+
+    const toolKeysSet = new Set(
+      context.toolsets?.map((t) => t.toolset?.key).filter((key): key is string => !!key) ?? [],
+    );
+
+    const hasTargetTool = config.targetTools.some((targetTool) => toolKeysSet.has(targetTool));
+
+    const targetModelId = hasTargetTool ? config.matchedModelId : config.unmatchedModelId;
+    if (!targetModelId) {
+      return null;
+    }
+
+    const targetModel = modelMap.get(targetModelId);
+
+    if (!targetModel) {
+      return null;
+    }
+
+    return targetModel;
+  }
+
+  /**
+   * Select a model from the random list defined in AUTO_MODEL_ROUTING_PRIORITY
+   */
+  private routeByRandomSelection(
+    modelMap: Map<string, ProviderItemModel>,
+  ): ProviderItemModel | null {
+    const selectedCandidate = selectAutoModel();
+    if (!selectedCandidate) {
+      return null;
+    }
+
+    const item = modelMap.get(selectedCandidate);
+    if (!item) {
+      return null;
+    }
+
+    return item;
+  }
+
+  /**
+   * Select a model from the built-in priority list
+   */
+  private routeByBuiltInPriorityList(
+    modelMap: Map<string, ProviderItemModel>,
+  ): ProviderItemModel | null {
+    for (const candidateModelId of AUTO_MODEL_ROUTING_PRIORITY) {
+      const item = modelMap.get(candidateModelId);
+      if (item) {
+        return item;
+      }
+    }
+
+    return null;
+  }
+
+  private saveRoutingResult(
+    context: RoutingContext,
+    routingResultId: string,
+    scene: string,
+    strategy: RoutingStrategy,
+    selectedProviderItem: ProviderItemModel,
+    originalProviderItem: ProviderItemModel,
+    matchedRule?: { ruleId: string; ruleName: string },
+  ) {
+    this.saveRoutingResultAsync(
+      context,
+      routingResultId,
+      scene,
+      strategy,
+      selectedProviderItem,
+      originalProviderItem,
+      matchedRule,
+    ).catch((err) => this.logger.warn('Failed to save routing result', err));
+  }
+
+  /**
+   * Save routing result to database (async, non-blocking)
+   */
+  private async saveRoutingResultAsync(
+    context: RoutingContext,
+    routingResultId: string,
+    scene: string,
+    strategy: RoutingStrategy,
+    selectedProviderItem: ProviderItemModel,
+    originalProviderItem: ProviderItemModel,
+    matchedRule?: { ruleId: string; ruleName: string },
+  ): Promise<void> {
+    await this.prisma.autoModelRoutingResult.create({
+      data: {
+        routingResultId,
+        userId: context.userId,
+        actionResultId: context.actionResultId,
+        actionResultVersion: context.actionResultVersion,
+        scene,
+        routingStrategy: strategy,
+        matchedRuleId: matchedRule?.ruleId,
+        matchedRuleName: matchedRule?.ruleName,
+        originalItemId: originalProviderItem.itemId,
+        originalModelId: this.getModelIdFromProviderItem(originalProviderItem),
+        selectedItemId: selectedProviderItem.itemId,
+        selectedModelId: this.getModelIdFromProviderItem(selectedProviderItem),
+      },
+    });
+  }
+
+  private getModelIdFromProviderItem(providerItem: ProviderItemModel): string | null {
+    const config = safeParseJSON(providerItem.config) as LLMModelConfig;
+    if (!config) {
+      return null;
+    }
+    return config.modelId;
+  }
+}

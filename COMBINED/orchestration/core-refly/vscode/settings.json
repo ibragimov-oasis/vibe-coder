@@ -1,0 +1,43 @@
+{
+  "files.associations": {
+    "*.json": "jsonc",
+    "*.css": "tailwindcss"
+  },
+  "files.eol": "\n",
+  "editor.formatOnSave": true,
+  "[markdown]": {
+    "editor.formatOnSave": false
+  },
+  "typescript.preferences.importModuleSpecifier": "non-relative",
+  "tailwindCSS.includeLanguages": {
+    "typescript": "tsx",
+    "javascript": "jsx",
+    "html": "html",
+    "css": "css",
+    "scss": "scss"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "biomejs.biome"
+  },
+  "[yaml]": {
+    "editor.formatOnSave": false
+  },
+  "typescript.tsserver.maxTsServerMemory": 8192,
+  "files.exclude": {
+    "**/node_modules/**": true,
+    "**/dist/**": true,
+    "**/build/**": true,
+    "**/.turbo/**": true,
+    "**/.next/**": true
+  },
+  "files.watcherExclude": {
+    "**/node_modules/**": true,
+    "**/dist/**": true,
+    "**/build/**": true,
+    "**/.turbo/**": true,
+    "**/.next/**": true
+  },
+  "typescript.tsdk": "node_modules/typescript/lib",
+  "eslint.enable": false,
+  "cSpell.words": ["Volcengine"]
+}

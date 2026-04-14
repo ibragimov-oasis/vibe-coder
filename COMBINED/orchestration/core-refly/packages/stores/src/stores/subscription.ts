@@ -1,0 +1,130 @@
+import { create } from 'zustand';
+import { devtools } from 'zustand/middleware';
+import { useShallow } from 'zustand/react/shallow';
+import { SubscriptionPlanType, Voucher, VoucherTriggerResult } from '@refly/openapi-schema';
+
+interface SubscriptionState {
+  // state
+  planType: SubscriptionPlanType;
+  userType: string;
+  subscribeModalVisible: boolean;
+  subscribeModalSource: string; // Track where the subscribe modal was triggered from (canvas, template_detail, pricing_page, etc.)
+  storageExceededModalVisible: boolean;
+  creditInsufficientModalVisible: boolean;
+  creditInsufficientMembershipLevel: string;
+  creditInsufficientTriggeredFrom: string; // Track where the credit insufficient modal was triggered from
+  openedFromSettings: boolean; // Track if SubscribeModal was opened from SettingModal
+
+  // Voucher state
+  availableVoucher: Voucher | null; // Best available voucher for the user
+  voucherLoading: boolean;
+
+  // Earned voucher popup state (for showing popup after earning via workflow run or publish)
+  earnedVoucherPopupVisible: boolean;
+  earnedVoucherResult: VoucherTriggerResult | null;
+
+  // Claimed voucher popup state (for showing popup after claiming via invite)
+  claimedVoucherPopupVisible: boolean;
+  claimedVoucher: Voucher | null;
+  claimedVoucherInviterName: string | null; // Name of the person who sent the voucher
+
+  // method
+  setPlanType: (val: SubscriptionPlanType) => void;
+  setUserType: (val: string) => void;
+  setSubscribeModalVisible: (val: boolean, source?: string) => void;
+  setStorageExceededModalVisible: (val: boolean) => void;
+  setCreditInsufficientModalVisible: (
+    val: boolean,
+    membershipLevel?: string,
+    triggeredFrom?: string,
+  ) => void;
+  setOpenedFromSettings: (val: boolean) => void; // Method to set the openedFromSettings state
+  setAvailableVoucher: (voucher: Voucher | null) => void;
+  setVoucherLoading: (loading: boolean) => void;
+  showEarnedVoucherPopup: (voucherResult: VoucherTriggerResult) => void;
+  hideEarnedVoucherPopup: () => void;
+  showClaimedVoucherPopup: (voucher: Voucher, inviterName?: string) => void;
+  hideClaimedVoucherPopup: () => void;
+}
+
+export const useSubscriptionStore = create<SubscriptionState>()(
+  devtools((set) => ({
+    planType: 'free',
+    userType: '',
+    subscribeModalVisible: false,
+    subscribeModalSource: '',
+    storageExceededModalVisible: false,
+    creditInsufficientModalVisible: false,
+    creditInsufficientMembershipLevel: '',
+    creditInsufficientTriggeredFrom: '',
+    openedFromSettings: false,
+    availableVoucher: null,
+    voucherLoading: false,
+    earnedVoucherPopupVisible: false,
+    earnedVoucherResult: null,
+    claimedVoucherPopupVisible: false,
+    claimedVoucher: null,
+    claimedVoucherInviterName: null,
+
+    setPlanType: (val: SubscriptionPlanType) => set({ planType: val }),
+    setUserType: (val: string) => set({ userType: val }),
+    setSubscribeModalVisible: (val: boolean, source?: string) =>
+      set((state) => ({
+        subscribeModalVisible: val,
+        // Only update source when opening the modal with a source, preserve when closing
+        subscribeModalSource: val
+          ? source || state.subscribeModalSource
+          : state.subscribeModalSource,
+      })),
+    setStorageExceededModalVisible: (val: boolean) => set({ storageExceededModalVisible: val }),
+    setCreditInsufficientModalVisible: (
+      val: boolean,
+      membershipLevel?: string,
+      triggeredFrom?: string,
+    ) =>
+      set((state) => ({
+        creditInsufficientModalVisible: val,
+        // Keep context stable during the modal close animation.
+        // Only reset these fields when explicitly provided, or when opening the modal.
+        creditInsufficientMembershipLevel: val
+          ? membershipLevel || ''
+          : membershipLevel !== undefined
+            ? membershipLevel
+            : state.creditInsufficientMembershipLevel,
+        creditInsufficientTriggeredFrom: val
+          ? triggeredFrom || ''
+          : triggeredFrom !== undefined
+            ? triggeredFrom
+            : state.creditInsufficientTriggeredFrom,
+      })),
+    setOpenedFromSettings: (val: boolean) => set({ openedFromSettings: val }),
+    setAvailableVoucher: (voucher: Voucher | null) => set({ availableVoucher: voucher }),
+    setVoucherLoading: (loading: boolean) => set({ voucherLoading: loading }),
+    showEarnedVoucherPopup: (voucherResult: VoucherTriggerResult) =>
+      set({
+        earnedVoucherPopupVisible: true,
+        earnedVoucherResult: voucherResult,
+      }),
+    hideEarnedVoucherPopup: () =>
+      set({
+        earnedVoucherPopupVisible: false,
+        earnedVoucherResult: null,
+      }),
+    showClaimedVoucherPopup: (voucher: Voucher, inviterName?: string) =>
+      set({
+        claimedVoucherPopupVisible: true,
+        claimedVoucher: voucher,
+        claimedVoucherInviterName: inviterName || null,
+      }),
+    hideClaimedVoucherPopup: () =>
+      set({
+        claimedVoucherPopupVisible: false,
+        claimedVoucher: null,
+        claimedVoucherInviterName: null,
+      }),
+  })),
+);
+
+export const useSubscriptionStoreShallow = <T>(selector: (state: SubscriptionState) => T) => {
+  return useSubscriptionStore(useShallow(selector));
+};

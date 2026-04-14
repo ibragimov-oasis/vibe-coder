@@ -1,22 +1,53 @@
 ---
-description: Run the security scan gate before pushing.
+description: Run Shannon security audit on changed files. Performs SAST, business logic testing, SCA reachability, and dynamic attacks via Lightpanda.
 ---
 
-1. Ensure dependencies are installed:
-   ```bash
-   pip install safety==3.2.4
-   brew install gitleaks  # or appropriate package manager
-   ```
-2. Scan for committed secrets:
-   ```bash
-   gitleaks detect --verbose --redact
-   ```
-   - Resolve any findings before continuing.
-3. Audit Python dependencies (if requirements files exist):
-   ```bash
-   for f in $(find . -name "requirements*.txt" 2>/dev/null); do
-       safety check --full-report --file "$f"
-   done
-   ```
-4. Record results in the commit template's Testing section.
-5. After a clean pass, proceed with commit and push workflow.
+# /security — Shannon Security Audit
+
+This command runs **mega-security** (Shannon Pro) on your changed files.
+
+## What happens
+
+```
+1. Get changed files:     git diff --name-only
+2. Static analysis:       SAST data flow (source→sink), point issues, business logic
+3. SCA reachability:      CVE check + verify vulnerable function is actually called
+4. Secrets detection:     Regex + LLM analysis + liveness check
+5. Dynamic testing:       Via Lightpanda (if web-facing changes detected)
+   - XSS injection
+   - SQL/NoSQL injection
+   - SSRF / path traversal
+   - Auth/Authz bypass (IDOR, privilege escalation)
+6. Report:                CVSS-rated vulnerabilities with working POC exploits
+```
+
+## Core Principle
+
+**POC or it didn't happen.** — Never report a vulnerability without a proof-of-concept.
+
+## Usage
+
+```
+/security                     ← audit changed files (default)
+/security full                ← audit entire codebase
+/security <file1> <file2>     ← audit specific files
+```
+
+## Output
+
+| Severity | Action |
+|----------|--------|
+| CRITICAL | Must fix before merge. Pipeline blocks. |
+| HIGH | Should fix before merge. |
+| MEDIUM | Consider fixing. |
+| LOW / INFO | Optional. |
+
+## Browser
+
+**ALWAYS Lightpanda** for dynamic attacks. Never Chrome.
+
+## References
+
+- `.claude/agents/mega-security.md` — full agent spec (445 lines, Shannon Pro methodology)
+- `COMBINED/security/security-shannon/` — Shannon source
+- `COMBINED/security/security-shannon/SHANNON-PRO.md` — full pentesting methodology

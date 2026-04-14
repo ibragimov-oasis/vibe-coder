@@ -1,0 +1,38 @@
+---
+description: Performance optimization rules for JavaScript/TypeScript projects
+globs: "**/*.{ts,tsx,js,jsx,mjs,cjs}"
+alwaysApply: false
+---
+
+# Performance Rules
+
+## Bundle Optimization
+- Code split by route/feature (dynamic imports)
+- Tree-shake unused exports
+- Lazy load non-critical components
+- Avoid barrel exports that prevent tree-shaking
+
+## React Specific
+- Use React.memo() for expensive pure components
+- Use useMemo/useCallback for expensive computations and stable references
+- Virtualize lists with 50+ items (react-window, react-virtuoso)
+- Avoid inline object/array/function creation in JSX props
+- Use React.lazy() + Suspense for route-level splitting
+
+## Data Fetching
+- Paginate API responses (never fetch unbounded lists)
+- Cache responses where appropriate
+- Debounce search inputs (300ms)
+- Avoid N+1 query patterns
+- Use SWR/React Query for client-side caching
+
+## Images & Media
+- Use WebP/AVIF format
+- Provide responsive srcset/sizes
+- Lazy load below-fold images
+- Set explicit width/height to prevent CLS
+
+## Core Web Vitals Targets
+- LCP < 2.5s (largest contentful paint)
+- INP < 200ms (interaction to next paint)
+- CLS < 0.1 (cumulative layout shift)

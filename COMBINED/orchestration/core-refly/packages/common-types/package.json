@@ -1,0 +1,19 @@
+{
+  "name": "@refly/common-types",
+  "version": "0.8.0",
+  "description": "Refly Common Types",
+  "main": "src/index.ts",
+  "types": "src/index.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@refly/openapi-schema": "workspace:*"
+  },
+  "devDependencies": {
+    "react-scripts": "^5.0.1"
+  }
+}

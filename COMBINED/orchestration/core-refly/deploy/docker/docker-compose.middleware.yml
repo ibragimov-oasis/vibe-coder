@@ -1,0 +1,57 @@
+services:
+  db:
+    extends:
+      file: docker-compose.base.yml
+      service: db
+    ports:
+      - 35432:5432
+
+  minio:
+    extends:
+      file: docker-compose.base.yml
+      service: minio
+    ports:
+      - 39000:9000
+      - 39001:9001
+
+  redis:
+    extends:
+      file: docker-compose.base.yml
+      service: redis
+    ports:
+      - 36379:6379
+      - 38001:8001
+
+  qdrant:
+    extends:
+      file: docker-compose.base.yml
+      service: qdrant
+    ports:
+      - 36333:6333
+      - 36334:6334
+
+  searxng:
+    extends:
+      file: docker-compose.base.yml
+      service: searxng
+    ports:
+      - 38080:8080
+
+  sandbox:
+    extends:
+      file: docker-compose.base.yml
+      service: sandbox
+    ports:
+      - 38088:8080
+
+networks:
+  refly_network:
+    driver: bridge
+
+volumes:
+  db_data:
+  minio_data:
+  redis_data:
+  qdrant_data:
+  elasticsearch_data:
+  searxng_data:

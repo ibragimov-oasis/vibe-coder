@@ -1,0 +1,402 @@
+import {
+  HumanMessage,
+  SystemMessage,
+  BaseMessage,
+  BaseMessageFields,
+  AIMessage,
+} from '@langchain/core/messages';
+import { LLMModelConfig } from '@refly/openapi-schema';
+import { ContextBlock } from './context';
+
+export interface SkillPromptModule {
+  buildSystemPrompt: (
+    locale: string,
+    needPrepareContext: boolean,
+    customInstructions?: string,
+  ) => string;
+  buildUserPrompt: ({
+    query,
+    context,
+  }: {
+    query: string;
+    context: ContextBlock;
+  }) => string;
+}
+
+// Define interfaces for content types
+interface TextContent {
+  type: 'text';
+  text: string;
+  cache_control?: { type: 'ephemeral' };
+}
+
+interface ImageUrlContent {
+  type: 'image_url';
+  image_url: { url: string };
+  // Note: We don't add cache_control to image content as per Anthropic docs
+  // Images are cached as part of the prefix but don't have their own cache_control
+}
+
+type ContentItem = TextContent | ImageUrlContent;
+
+// Note about minimum token thresholds:
+// Different Claude models have minimum requirements for caching:
+// - 1024 tokens: Claude 3.7 Sonnet, Claude 3.5 Sonnet, Claude 3 Opus
+// - 2048 tokens: Claude 3.5 Haiku, Claude 3 Haiku
+//
+// Note about LangChain AWS cachePoint format:
+// - LangChain AWS v1.1.0+ uses cachePoint markers for Bedrock
+// - Format: { cachePoint: { type: 'default' } }
+// - Place the cachePoint marker AFTER the content to cache
+
+export const buildFinalRequestMessages = ({
+  systemPrompt,
+  userPrompt,
+  chatHistory,
+  messages,
+  images,
+  modelInfo,
+}: {
+  systemPrompt: string;
+  userPrompt: string;
+  chatHistory: BaseMessage[];
+  messages: BaseMessage[];
+  images: string[];
+  modelInfo?: LLMModelConfig;
+}) => {
+  // Validate userPrompt is not empty - AWS Bedrock Converse API requires non-empty human message content
+  if (!userPrompt || userPrompt.trim() === '') {
+    throw new Error(
+      'Empty user prompt. Please provide a question or instruction for the AI to respond to.',
+    );
+  }
+
+  // Prepare the final user message (with or without images)
+  const finalUserMessage = images?.length
+    ? createHumanMessageWithContent([
+        {
+          type: 'text',
+          text: userPrompt,
+        } as TextContent,
+        ...images.map(
+          (image) =>
+            ({
+              type: 'image_url',
+              image_url: { url: image },
+            }) as ImageUrlContent,
+        ),
+      ])
+    : new HumanMessage(userPrompt);
+
+  // Assemble all messages - following Anthropic's caching order: tools -> system -> messages
+  const requestMessages = [
+    new SystemMessage(systemPrompt), // System message comes first in our implementation
+    ...chatHistory, // Historical conversation
+    ...messages, // Additional messages
+    finalUserMessage, // The actual query that needs a response (should not be cached)
+  ];
+
+  // Note: Message truncation is now handled by compressAgentLoopMessages in the agent loop
+  // which preserves tool_use/tool_result pairs and uses cache-friendly compression strategy
+
+  // Check if context caching should be enabled and the model supports it
+  const shouldEnableContextCaching = !!modelInfo?.capabilities?.contextCaching;
+
+  if (shouldEnableContextCaching) {
+    // Note: In a production system, you might want to:
+    // 1. Estimate token count based on model name
+    // 2. Check against minimum token thresholds
+    // 3. Skip caching if below the threshold
+
+    return applyContextCaching(requestMessages);
+  }
+
+  return requestMessages;
+};
+
+/**
+ * Applies context caching to messages using LangChain's cachePoint format
+ *
+ * Two-level caching strategy:
+ * 1. Global Static Point: After System Prompt (index 0)
+ *    - Shared across all users and sessions
+ *    - Benefits: Write once, reuse globally
+ * 2. Session Dynamic Points: After the last 3 messages which can add cache point
+ *    - Caches the conversation history for the current user
+ *    - Applies to System/Human/AI messages, except ToolMessage
+ *    - Benefits: Reuses multi-turn conversation context within a session
+ *
+ * LangChain AWS uses cachePoint markers:
+ * - Format: { cachePoint: { type: 'default' } }
+ * - Place the cachePoint marker AFTER the content to cache
+ */
+/**
+ * Check if message content already has a cache point
+ */
+const hasCachePoint = (content: unknown): boolean => {
+  if (!Array.isArray(content)) return false;
+  return content.some((item) => item && typeof item === 'object' && 'cachePoint' in item);
+};
+
+/**
+ * Check if the last item in content array is a reasoning_content block.
+ * Bedrock (Claude) restriction: Cache point cannot be inserted after reasoning block.
+ */
+const hasReasoningContentAtEnd = (content: unknown[]): boolean => {
+  if (content.length === 0) return false;
+
+  const lastItem = content[content.length - 1];
+  return (
+    lastItem &&
+    typeof lastItem === 'object' &&
+    'type' in lastItem &&
+    lastItem.type === 'reasoning_content'
+  );
+};
+
+/**
+ * Remove cache point from message content array
+ * Returns a new content array without cachePoint items
+ */
+const removeCachePoint = (content: unknown): unknown => {
+  if (!Array.isArray(content)) return content;
+  return content.filter((item) => !(item && typeof item === 'object' && 'cachePoint' in item));
+};
+
+/**
+ * Remove cache point from a message and return a clean version
+ * Returns the original message if no cache point was present
+ */
+const stripCachePoint = (message: BaseMessage): BaseMessage => {
+  if (!hasCachePoint(message.content)) {
+    return message;
+  }
+
+  const cleanContent = removeCachePoint(message.content);
+  const messageType = message._getType();
+
+  if (messageType === 'system') {
+    return new SystemMessage({
+      content: cleanContent,
+    } as BaseMessageFields);
+  }
+
+  if (messageType === 'human') {
+    return new HumanMessage({
+      content: cleanContent,
+    } as BaseMessageFields);
+  }
+
+  if (messageType === 'ai') {
+    const aiMessage = message as AIMessage;
+    return new AIMessage({
+      content: cleanContent,
+      tool_calls: aiMessage.tool_calls,
+      additional_kwargs: aiMessage.additional_kwargs,
+    } as BaseMessageFields);
+  }
+
+  // For other message types, return as-is
+  return message;
+};
+
+/**
+ * Try to add cache point to a single message.
+ * Returns the cached message if successful, or null if caching is not applicable.
+ * Note: Assumes cache points have been stripped from the message before calling.
+ */
+const tryAddCachePoint = (message: BaseMessage): BaseMessage | null => {
+  const messageType = message._getType();
+
+  if (messageType === 'system') {
+    const textContent =
+      typeof message.content === 'string' ? message.content : JSON.stringify(message.content);
+
+    // Skip caching if content is empty
+    // Bedrock Converse API does not accept empty text blocks
+    if (!textContent || textContent.trim() === '') {
+      return null;
+    }
+
+    return new SystemMessage({
+      content: [
+        {
+          type: 'text',
+          text: textContent,
+        },
+        {
+          cachePoint: { type: 'default' },
+        },
+      ],
+    } as BaseMessageFields);
+  }
+
+  if (messageType === 'human') {
+    if (typeof message.content === 'string') {
+      // Skip caching if content is empty
+      if (!message.content || message.content.trim() === '') {
+        return null;
+      }
+
+      return new HumanMessage({
+        content: [
+          {
+            type: 'text',
+            text: message.content,
+          },
+          {
+            cachePoint: { type: 'default' },
+          },
+        ],
+      } as BaseMessageFields);
+    }
+
+    if (Array.isArray(message.content)) {
+      // Skip caching if content array is empty
+      if (message.content.length === 0) {
+        return null;
+      }
+
+      // Bedrock (Claude) specific restriction:
+      // Cache point cannot be inserted after reasoning block.
+      if (hasReasoningContentAtEnd(message.content)) {
+        return null;
+      }
+
+      // For array content (like images mixed with text),
+      // add cachePoint marker at the end
+      return new HumanMessage({
+        content: [
+          ...message.content,
+          {
+            cachePoint: { type: 'default' },
+          },
+        ],
+      } as BaseMessageFields);
+    }
+  }
+
+  if (messageType === 'ai') {
+    const aiMessage = message as AIMessage;
+
+    // For AIMessage, we need actual text content to add cachePoint
+    // AWS Bedrock requires content before cachePoint - cannot cache empty content
+    if (typeof message.content === 'string') {
+      const hasContent = message.content && message.content.trim() !== '';
+
+      // Skip caching if no actual text content
+      // Even if has tool_calls, cachePoint requires preceding content
+      if (!hasContent) {
+        return null;
+      }
+
+      // Build content array with text and cachePoint
+      return new AIMessage({
+        content: [
+          {
+            type: 'text',
+            text: message.content,
+          },
+          {
+            cachePoint: { type: 'default' },
+          },
+        ],
+        tool_calls: aiMessage.tool_calls,
+        additional_kwargs: aiMessage.additional_kwargs,
+      } as BaseMessageFields);
+    }
+
+    // Handle array content
+    if (Array.isArray(message.content)) {
+      // Skip caching if content array is empty - cachePoint requires preceding content
+      if (message.content.length === 0) {
+        return null;
+      }
+
+      // Bedrock (Claude) specific restriction:
+      // Cache point cannot be inserted after reasoning block.
+      if (hasReasoningContentAtEnd(message.content)) {
+        return null;
+      }
+
+      return new AIMessage({
+        content: [
+          ...message.content,
+          {
+            cachePoint: { type: 'default' },
+          },
+        ],
+        tool_calls: aiMessage.tool_calls,
+        additional_kwargs: aiMessage.additional_kwargs,
+      } as BaseMessageFields);
+    }
+  }
+
+  // Tool messages and other types cannot be cached
+  // Note: AWS Bedrock Converse API's ToolResultContentBlock only supports:
+  // text, image, json, document types. cachePoint is NOT a valid type.
+  return null;
+};
+
+const applyContextCaching = (messages: BaseMessage[]): BaseMessage[] => {
+  if (messages.length <= 1) return messages;
+
+  // First, strip all existing cache points to ensure clean state
+  // This prevents accumulation of cache points from previous iterations
+  const result = messages.map((msg) => stripCachePoint(msg));
+
+  const maxDynamicCachePoints = 3;
+  let dynamicCacheCount = 0;
+
+  // 1. Global Static Point: Try to cache system message at index 0
+  if (result.length > 0) {
+    const cachedSystemMessage = tryAddCachePoint(result[0]);
+    if (cachedSystemMessage) {
+      result[0] = cachedSystemMessage;
+    }
+  }
+
+  // 2. Session Dynamic Points: Scan from end, try to cache up to 3 messages
+  // Skip index 0 (system message already handled)
+  for (let i = result.length - 1; i > 0 && dynamicCacheCount < maxDynamicCachePoints; i--) {
+    const cachedMessage = tryAddCachePoint(result[i]);
+    if (cachedMessage) {
+      result[i] = cachedMessage;
+      dynamicCacheCount++;
+    }
+    // If caching failed (returned null), continue to try the next message
+  }
+
+  return result;
+};
+
+/**
+ * Applies context caching to messages for agent loop iterations.
+ * This function is designed for re-applying cache points during ReAct loops
+ * where new messages (AIMessage with tool_calls, ToolMessage) are added.
+ *
+ * Cache point strategy:
+ * 1. Global Static Point: After System Prompt (index 0)
+ * 2. Session Dynamic Points: Last 3 messages which can add cache point
+ *
+ * @param messages - The current message array
+ * @param supportsContextCaching - Whether the model supports context caching
+ * @returns Messages with appropriate cache points applied
+ */
+export const applyAgentLoopCaching = (
+  messages: BaseMessage[],
+  supportsContextCaching: boolean,
+): BaseMessage[] => {
+  if (!supportsContextCaching || messages.length <= 1) {
+    return messages;
+  }
+
+  return applyContextCaching(messages);
+};
+
+/**
+ * Creates a HumanMessage with array content
+ */
+const createHumanMessageWithContent = (contentItems: ContentItem[]): HumanMessage => {
+  return new HumanMessage({ content: contentItems } as BaseMessageFields);
+};

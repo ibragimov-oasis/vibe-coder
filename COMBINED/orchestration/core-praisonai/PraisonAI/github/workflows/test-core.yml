@@ -1,0 +1,74 @@
+name: Core Tests
+
+on:
+  push:
+    branches: [ main, develop ]
+    paths:
+      - 'src/**'
+      - 'pyproject.toml'
+      - '.github/workflows/test-core.yml'
+  pull_request:
+    branches: [ main, develop ]
+    paths:
+      - 'src/**'
+      - 'pyproject.toml'
+      - '.github/workflows/test-core.yml'
+  workflow_dispatch:
+
+jobs:
+  test-core:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+
+    steps:
+    - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+    - name: Set up Python 3.11
+      uses: actions/setup-python@v5
+      with:
+        python-version: '3.11'
+
+    - name: Install UV
+      run: |
+        curl -LsSf https://astral.sh/uv/install.sh | sh
+        echo "$HOME/.local/bin" >> $GITHUB_PATH
+
+    - name: Install dependencies
+      run: |
+        cd src/praisonai
+        uv pip install --system ."[ui,gradio,api,agentops,google,openai,anthropic,cohere,chat,code,realtime,call,crewai,autogen]"
+        uv pip install --system duckduckgo_search
+        uv pip install --system pytest pytest-asyncio pytest-cov pytest-timeout
+        uv pip install --system "praisonaiagents[knowledge]"
+
+    - name: Set environment variables
+      run: |
+        echo "OPENAI_API_KEY=${{ secrets.OPENAI_API_KEY || 'sk-test-key-for-github-actions-testing-only-not-real' }}" >> $GITHUB_ENV
+        echo "OPENAI_API_BASE=${{ secrets.OPENAI_API_BASE || 'https://api.openai.com/v1' }}" >> $GITHUB_ENV
+        echo "OPENAI_MODEL_NAME=${{ secrets.OPENAI_MODEL_NAME || 'gpt-5-nano' }}" >> $GITHUB_ENV
+        echo "PYTHONPATH=${{ github.workspace }}/src/praisonai-agents:$PYTHONPATH" >> $GITHUB_ENV
+
+    - name: Run Unit Tests
+      run: |
+        cd src/praisonai && python -m pytest tests/unit/ -v --tb=short --disable-warnings \
+          --cov=praisonai --cov-report=xml --cov-branch \
+          --timeout=60 || echo "Some unit tests failed"
+      continue-on-error: true
+
+    - name: Run Integration Tests
+      run: |
+        cd src/praisonai && python -m pytest tests/integration/ -v --tb=short --disable-warnings \
+          --timeout=60 \
+          --ignore=tests/integration/test_tracker_complex_tasks.py \
+          --ignore=tests/integration/test_serve_integration.py \
+          || echo "Some integration tests failed"
+
+    - name: Upload coverage to Codecov
+      if: always()
+      uses: codecov/codecov-action@v5
+      with:
+        token: ${{ secrets.CODECOV_TOKEN || '' }}
+        files: src/praisonai/coverage.xml
+        flags: core-tests
+        fail_ci_if_error: false

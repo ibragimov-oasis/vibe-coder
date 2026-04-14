@@ -1,0 +1,418 @@
+# Copyright 2026 Google LLC
+#
+# Licensed under the Apache License, Version 2.0 (the "License");
+# you may not use this file except in compliance with the License.
+# You may obtain a copy of the License at
+#
+#     http://www.apache.org/licenses/LICENSE-2.0
+#
+# Unless required by applicable law or agreed to in writing, software
+# distributed under the License is distributed on an "AS IS" BASIS,
+# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+# See the License for the specific language governing permissions and
+# limitations under the License.
+
+from unittest.mock import AsyncMock, MagicMock
+
+import pytest
+from google.genai.types import Type
+
+from toolbox_adk.credentials import CredentialConfig, CredentialType
+from toolbox_adk.tool import ToolboxTool
+
+
+class TestToolboxTool:
+
+    @pytest.mark.asyncio
+    async def test_run_async_passthrough(self):
+        mock_core = AsyncMock()
+        mock_core.__name__ = "my_tool"
+        mock_core.__doc__ = "my description"
+        mock_core.return_value = "success"
+
+        tool = ToolboxTool(mock_core)
+
+        assert tool.name == "my_tool"
+
+        ctx = MagicMock()
+        result = await tool.run_async({"arg": 1}, ctx)
+
+        assert result == "success"
+        mock_core.assert_awaited_with(arg=1)
+
+    @pytest.mark.asyncio
+    async def test_auth_check_no_token(self):
+        # Scenario: ADK context has no token initially
+        mock_core = AsyncMock(return_value="ok")
+        mock_core.__name__ = "mock"
+        mock_core.__doc__ = "mock"
+        tool = ToolboxTool(mock_core)
+
+        ctx = MagicMock()
+        ctx.get_auth_response.return_value = None
+
+        await tool.run_async({}, ctx)
+
+        # Should proceed to execute (auth not forced)
+        mock_core.assert_awaited()
+
+    @pytest.mark.asyncio
+    async def test_bind_params(self):
+        mock_core = MagicMock()
+        mock_core.__name__ = "mock"
+        mock_core.__doc__ = "mock"
+
+        # return_value must be an object with metadata
+        new_core_mock = MagicMock()
+        new_core_mock.__name__ = "bound_mock"
+        new_core_mock.__doc__ = "bound mock"
+        mock_core.bind_params.return_value = new_core_mock
+
+        tool = ToolboxTool(mock_core)
+        new_tool = tool.bind_params({"a": 1})
+
+        assert isinstance(new_tool, ToolboxTool)
+        # Note: Mocked string return prevents full type verification.
+        assert new_tool._core_tool == new_core_mock
+        mock_core.bind_params.assert_called_with({"a": 1})
+
+    @pytest.mark.asyncio
+    async def test_dynamic_adk_token_getters(self):
+        core_tool = AsyncMock()
+        core_tool.__name__ = "mock"
+        core_tool.__doc__ = "mock doc"
+        core_tool._required_authn_params = {"param1": ["service1"]}
+        core_tool._required_authz_tokens = ["service2"]
+        core_tool.add_auth_token_getter = MagicMock(return_value=core_tool)
+
+        def getter1():
+            return "token1"
+
+        def getter2(ctx):
+            return ctx.state.get("token2")
+
+        adk_getters = {
+            "service1": getter1,
+            "service2": getter2,
+        }
+
+        tool = ToolboxTool(core_tool, adk_token_getters=adk_getters)
+
+        ctx = MagicMock()
+        ctx.state = {"token2": "dynamic_token2"}
+
+        await tool.run_async({}, ctx)
+
+        assert core_tool.add_auth_token_getter.call_count == 2
+
+        args1 = core_tool.add_auth_token_getter.call_args_list[0][0]
+        args2 = core_tool.add_auth_token_getter.call_args_list[1][0]
+
+        # Because we iterate over items(), order might be dependent.
+        # Check that both services were processed and bound correctly
+        bound_getters = {args1[0]: args1[1], args2[0]: args2[1]}
+
+        assert "service1" in bound_getters
+        assert bound_getters["service1"]() == "token1"
+
+        assert "service2" in bound_getters
+        assert bound_getters["service2"]() == "dynamic_token2"
+
+    @pytest.mark.asyncio
+    async def test_3lo_missing_client_secret(self):
+        # Test ValueError when client_id/secret missing
+        core_tool = AsyncMock()
+        core_tool.__name__ = "mock_tool"
+        core_tool.__doc__ = "mock doc"
+        core_tool._required_authn_params = {"mock_param": "mock_service"}
+        core_tool._required_authz_tokens = []
+        auth_config = CredentialConfig(type=CredentialType.USER_IDENTITY)
+        # Missing client_id/secret
+
+        tool = ToolboxTool(core_tool, auth_config=auth_config)
+        ctx = MagicMock()  # Mock the context
+
+        with pytest.raises(
+            ValueError, match="USER_IDENTITY requires client_id and client_secret"
+        ):
+            await tool.run_async({"arg": "val"}, ctx)
+
+    @pytest.mark.asyncio
+    async def test_3lo_request_credential_when_missing(self):
+        # Test that if creds are missing, request_credential is called and returns None
+        core_tool = AsyncMock()
+        core_tool.__name__ = "mock"
+        core_tool.__doc__ = "mock"
+        core_tool.__name__ = "mock_tool"
+        core_tool.__doc__ = "mock doc"
+        core_tool._required_authn_params = {"mock_param": "mock_service"}
+        core_tool._required_authz_tokens = []
+
+        auth_config = CredentialConfig(
+            type=CredentialType.USER_IDENTITY, client_id="cid", client_secret="csec"
+        )
+
+        tool = ToolboxTool(core_tool, auth_config=auth_config)
+
+        ctx = MagicMock()
+        # Mock get_auth_response returning None (no creds yet)
+        ctx.get_auth_response.return_value = None
+
+        result = await tool.run_async({}, ctx)
+
+        # Verify result is error/stop
+        assert isinstance(result, dict) and "error" in result
+        # Verify request_credential was called
+        ctx.request_credential.assert_called_once()
+        # Verify core tool was NOT called
+        core_tool.assert_not_called()
+
+    @pytest.mark.asyncio
+    async def test_3lo_uses_existing_credential(self):
+        # Test that if creds exist, they are used and injected
+        core_tool = AsyncMock(return_value="success")
+        core_tool.__name__ = "mock_tool"
+        core_tool.__doc__ = "mock doc"
+        # Setup overlapping needed services to test deduplication
+        core_tool._required_authn_params = {
+            "mock_param": "mock_service",
+            "another_param": "mock_service",
+        }
+        core_tool._required_authz_tokens = ["mock_service"]
+        core_tool.add_auth_token_getter = MagicMock(return_value=core_tool)
+
+        auth_config = CredentialConfig(
+            type=CredentialType.USER_IDENTITY, client_id="cid", client_secret="csec"
+        )
+
+        tool = ToolboxTool(core_tool, auth_config=auth_config)
+
+        ctx = MagicMock()
+        # Mock get_auth_response returning valid creds with both access & id tokens
+        mock_creds = MagicMock()
+        mock_creds.oauth2.access_token = "valid_access_token"
+        mock_creds.oauth2.id_token = "valid_id_token"
+        ctx.get_auth_response.return_value = mock_creds
+
+        # Set up invocation context and credential service mock to verify saving and avoid await errors
+        mock_cred_service = MagicMock()
+        mock_cred_service.load_credential = AsyncMock(return_value=None)
+        mock_cred_service.save_credential = AsyncMock(return_value=None)
+        ctx._invocation_context = MagicMock()
+        ctx._invocation_context.credential_service = mock_cred_service
+
+        result = await tool.run_async({}, ctx)
+
+        # Verify result is success
+        assert result == "success"
+        # Verify request_credential was NOT called
+        ctx.request_credential.assert_not_called()
+        # Verify core tool WAS called
+        core_tool.assert_called_once()
+
+        # Verify deduplication: add_auth_token_getter should only be called ONCE for "mock_service"
+        core_tool.add_auth_token_getter.assert_called_once()
+        call_args_getter = core_tool.add_auth_token_getter.call_args[0]
+        assert call_args_getter[0] == "mock_service"
+        # Evaluate the getter lambda to ensure it prefers id_token
+        token_getter_lambda = call_args_getter[1]
+        assert token_getter_lambda() == "valid_id_token"
+
+        # Verify save_credential was called with the exchanged credential
+        mock_cred_service.save_credential.assert_called_once()
+        call_args = mock_cred_service.save_credential.call_args[1]
+        assert call_args["auth_config"].exchanged_auth_credential == mock_creds
+
+        # Verify safe scope fallback to ["openid", "profile", "email"] when scopes is None
+        assert call_args["auth_config"].auth_scheme.flows.authorizationCode.scopes == {
+            "openid": "",
+            "profile": "",
+            "email": "",
+        }
+
+    @pytest.mark.asyncio
+    async def test_3lo_exception_reraise(self):
+        # Test that specific credential errors are re-raised
+        core_tool = AsyncMock()
+        core_tool.__name__ = "mock_tool"
+        core_tool.__doc__ = "mock doc"
+        core_tool._required_authn_params = {"mock_param": "mock_service"}
+        core_tool._required_authz_tokens = []
+
+        auth_config = CredentialConfig(
+            type=CredentialType.USER_IDENTITY, client_id="cid", client_secret="csec"
+        )
+        tool = ToolboxTool(core_tool, auth_config=auth_config)
+        ctx = MagicMock()
+
+        mock_cred_service = MagicMock()
+        mock_cred_service.load_credential = AsyncMock(return_value=None)
+        ctx._invocation_context = MagicMock()
+        ctx._invocation_context.credential_service = mock_cred_service
+
+        # Mock get_auth_response raising ValueError
+        ctx.get_auth_response.side_effect = ValueError("Invalid Credential")
+
+        with pytest.raises(ValueError, match="Invalid Credential"):
+            await tool.run_async({}, ctx)
+
+    @pytest.mark.asyncio
+    async def test_3lo_exception_fallback(self):
+        # Test that non-credential errors trigger fallback request
+        core_tool = AsyncMock()
+        core_tool.__name__ = "mock"
+        core_tool.__doc__ = "mock"
+        core_tool.__name__ = "mock_tool"
+        core_tool.__doc__ = "mock doc"
+        core_tool._required_authn_params = {"mock_param": "mock_service"}
+        core_tool._required_authz_tokens = []
+
+        auth_config = CredentialConfig(
+            type=CredentialType.USER_IDENTITY, client_id="cid", client_secret="csec"
+        )
+        tool = ToolboxTool(core_tool, auth_config=auth_config)
+        ctx = MagicMock()
+
+        # Mock get_auth_response raising generic error
+        ctx.get_auth_response.side_effect = RuntimeError("Random failure")
+
+        result = await tool.run_async({}, ctx)
+
+        # Should catch RuntimeError, call request_credential, and return error map
+        assert isinstance(result, dict) and "error" in result
+        ctx.request_credential.assert_called_once()
+
+    def test_param_type_to_schema_type(self):
+        core_tool = MagicMock()
+        core_tool.__name__ = "mock_tool"
+        core_tool.__doc__ = "mock doc"
+        tool = ToolboxTool(core_tool)
+
+        assert tool._param_type_to_schema_type("string") == Type.STRING
+        assert tool._param_type_to_schema_type("integer") == Type.INTEGER
+        assert tool._param_type_to_schema_type("boolean") == Type.BOOLEAN
+        assert tool._param_type_to_schema_type("number") == Type.NUMBER
+        assert tool._param_type_to_schema_type("array") == Type.ARRAY
+        assert tool._param_type_to_schema_type("object") == Type.OBJECT
+        assert tool._param_type_to_schema_type("unknown") == Type.STRING
+
+    def test_get_declaration(self):
+        # Create a mock for core tool parameters
+        class MockParam:
+            def __init__(self, name, param_type, description, required):
+                self.name = name
+                self.type = param_type
+                self.description = description
+                self.required = required
+
+        core_tool = MagicMock()
+        core_tool.__name__ = "mock_tool"
+        core_tool.__doc__ = "mock doc"
+        core_tool._params = [
+            MockParam("city", "string", "The city name", True),
+            MockParam("count", "integer", "Number of results", False),
+        ]
+
+        tool = ToolboxTool(core_tool)
+        declaration = tool._get_declaration()
+
+        assert declaration.name == "mock_tool"
+        assert declaration.description == "mock doc"
+
+        parameters = declaration.parameters
+        assert parameters is not None
+        assert parameters.type == Type.OBJECT
+        assert "city" in parameters.properties
+        assert "count" in parameters.properties
+
+        assert parameters.properties["city"].type == Type.STRING
+        assert parameters.properties["city"].description == "The city name"
+
+        assert parameters.properties["count"].type == Type.INTEGER
+        assert parameters.properties["count"].description == "Number of results"
+
+        assert parameters.required == ["city"]
+
+    def test_get_declaration_complex_params(self):
+        # Create a mock for core tool parameters
+        class MockParam:
+            def __init__(self, name, param_type, description, required):
+                self.name = name
+                self.type = param_type
+                self.description = description
+                self.required = required
+
+        core_tool = MagicMock()
+        core_tool.__name__ = "mock_tool"
+        core_tool.__doc__ = "mock doc"
+
+        # Array param
+        array_param = MockParam("my_array", "array", "An array", True)
+        array_param.items = MockParam("item", "string", "An item", True)
+
+        # Object param (nested)
+        object_param = MockParam("my_object", "object", "An object", True)
+        object_param.properties = {
+            "nested_str": MockParam("nested_str", "string", "A nested string", True)
+        }
+
+        core_tool._params = [array_param, object_param]
+
+        tool = ToolboxTool(core_tool)
+        declaration = tool._get_declaration()
+
+        assert declaration.name == "mock_tool"
+        assert declaration.description == "mock doc"
+
+        parameters = declaration.parameters
+        assert parameters is not None
+        assert parameters.type == Type.OBJECT
+        assert "my_array" in parameters.properties
+        assert "my_object" in parameters.properties
+
+        # Verify Array
+        array_schema = parameters.properties["my_array"]
+        assert array_schema.type == Type.ARRAY
+        assert array_schema.items is not None
+        assert array_schema.items.type == Type.STRING
+
+        # Verify Object
+        object_schema = parameters.properties["my_object"]
+        assert object_schema.type == Type.OBJECT
+        assert object_schema.properties is not None
+        assert "nested_str" in object_schema.properties
+        assert object_schema.properties["nested_str"].type == Type.STRING
+        assert object_schema.required == ["nested_str"]
+
+    def test_get_declaration_no_params(self):
+        core_tool = MagicMock()
+        core_tool.__name__ = "mock_tool"
+        core_tool.__doc__ = "mock doc"
+        core_tool._params = []
+
+        tool = ToolboxTool(core_tool)
+        declaration = tool._get_declaration()
+
+        assert declaration.name == "mock_tool"
+        assert declaration.description == "mock doc"
+        assert getattr(declaration, "parameters", None) is None
+
+    def test_init_defaults(self):
+        # Test initialization with minimal tool metadata checks
+        class EmptyTool:
+            pass
+
+        core_tool = EmptyTool()
+
+        # Now we expect ValueError because valid metadata is enforced
+        with pytest.raises(ValueError, match="must have a valid __name__"):
+            ToolboxTool(core_tool)
+        core_tool.__name__ = "valid_tool"
+        # Still fails on doc
+        with pytest.raises(ValueError, match="must have a valid __doc__"):
+            ToolboxTool(core_tool)
+
+        core_tool.__doc__ = "valid description"
+        tool = ToolboxTool(core_tool)
+        assert tool.name == "valid_tool"
+        assert tool.description == "valid description"

@@ -1,0 +1,919 @@
+"""Tools for Python code execution and analysis.
+
+Usage:
+from praisonaiagents.tools import python_tools
+result = python_tools.execute_code("print('Hello, World!')")
+
+or
+from praisonaiagents.tools import execute_code, analyze_code, format_code
+result = execute_code("print('Hello, World!')")
+"""
+
+import logging
+from typing import Dict, List, Optional, Any
+from importlib import util
+import io
+from contextlib import redirect_stdout, redirect_stderr
+import traceback
+import subprocess
+import tempfile
+import os
+import json
+import sys
+from ..approval import require_approval
+from ..sandbox.protocols import ResourceLimits
+
+def _safe_getattr(obj, name, *default):
+    """getattr wrapper that blocks access to dunder attributes."""
+    if type(name) is not str:
+        raise AttributeError(
+            f"Attribute name must be a plain str, got {type(name).__name__}"
+        )
+    if name.startswith('_'):
+        raise AttributeError(
+            f"Access to private/protected attribute '{name}' is restricted"
+        )
+    return getattr(obj, name, *default) if default else getattr(obj, name)
+
+
+def _validate_code_ast(code: str):
+    """Validate code using AST — catches attacks that bypass text checks.
+
+    Returns error message string if dangerous, None if safe.
+    """
+    import ast
+
+    try:
+        tree = ast.parse(code)
+    except SyntaxError:
+        return None  # let compile() handle syntax errors later
+
+    # Dangerous dunder attributes attackers use for sandbox escape
+    _blocked_attrs = frozenset({
+        '__subclasses__', '__bases__', '__mro__', '__globals__',
+        '__code__', '__class__', '__dict__', '__builtins__',
+        '__import__', '__loader__', '__spec__', '__init_subclass__',
+        '__set_name__', '__reduce__', '__reduce_ex__',
+        '__traceback__', '__qualname__', '__module__',
+        '__wrapped__', '__closure__', '__annotations__',
+        # Frame/code object introspection
+        'gi_frame', 'gi_code', 'cr_frame', 'cr_code',
+        'ag_frame', 'ag_code', 'tb_frame', 'tb_next',
+        'f_globals', 'f_locals', 'f_builtins', 'f_code',
+        'co_consts', 'co_names',
+        '__getattribute__', '__getattr__', '__setattr__', '__delattr__',
+        '__dir__', '__get__', '__set__', '__delete__',
+    })
+
+    for node in ast.walk(tree):
+        # Block import statements
+        if isinstance(node, (ast.Import, ast.ImportFrom)):
+            return f"Import statements are not allowed"
+
+        # Block attribute access to dangerous dunders
+        if isinstance(node, ast.Attribute):
+            if node.attr in _blocked_attrs:
+                return (
+                    f"Access to attribute '{node.attr}' is restricted"
+                )
+
+        # Block calls to dangerous builtins by name
+        if isinstance(node, ast.Call):
+            func = node.func
+            if isinstance(func, ast.Name) and func.id in (
+                'exec', 'eval', 'compile', '__import__',
+                'open', 'input', 'breakpoint',
+                'setattr', 'delattr', 'dir',
+            ):
+                return f"Call to '{func.id}' is not allowed"
+                
+        # Block dangerous constants (strings containing dunders)
+        # Fallback for Python 3.7 ast.Str
+        if isinstance(node, ast.Constant) and isinstance(node.value, str):
+            if any(attr in node.value for attr in _blocked_attrs):
+                return f"String constant contains restricted attribute name"
+        elif type(node).__name__ == 'Str':
+            if any(attr in getattr(node, 's', '') for attr in _blocked_attrs):
+                return f"String constant contains restricted attribute name"
+
+    return None
+
+
+def _execute_code_sandboxed(
+    code: str,
+    timeout: int = 30,
+    max_output_size: int = 10000,
+    limits: Optional[ResourceLimits] = None
+) -> Dict[str, Any]:
+    """Execute Python code in a subprocess sandbox.
+    
+    This function runs code in a separate Python subprocess with resource limits
+    and restricted environment, providing better isolation than direct exec().
+    """
+    if limits is None:
+        limits = ResourceLimits.minimal()
+    
+    try:
+        # Create temporary file for the code
+        with tempfile.NamedTemporaryFile(mode='w', suffix='.py', delete=False) as f:
+            # Create the wrapper code with proper escaping
+            # Use repr() to safely embed the user code as a string literal
+            wrapper_code = f"""
+import sys
+import io
+import traceback
+import json
+
+def safe_execute():
+    # Execute user code safely and return results as JSON
+    stdout_buffer = io.StringIO()
+    stderr_buffer = io.StringIO()
+    result = None
+    
+    try:
+        # Redirect output
+        sys.stdout = stdout_buffer
+        sys.stderr = stderr_buffer
+        
+        # Get user code
+        user_code = {repr(code)}
+        
+        # Security validation (same AST checks as direct execution)
+        import ast
+        try:
+            tree = ast.parse(user_code)
+        except SyntaxError:
+            return {{
+                "result": None,
+                "stdout": "",
+                "stderr": "Syntax Error in provided code",
+                "success": False
+            }}
+        
+        # Block dangerous patterns
+        blocked_attrs = {{
+            '__subclasses__', '__bases__', '__mro__', '__globals__',
+            '__code__', '__class__', '__dict__', '__builtins__',
+            '__import__', '__loader__', '__spec__', '__init_subclass__',
+            '__set_name__', '__reduce__', '__reduce_ex__',
+            '__traceback__', '__qualname__', '__module__',
+            '__wrapped__', '__closure__', '__annotations__',
+            # Frame/code object introspection
+            'gi_frame', 'gi_code', 'cr_frame', 'cr_code',
+            'ag_frame', 'ag_code', 'tb_frame', 'tb_next',
+            'f_globals', 'f_locals', 'f_builtins', 'f_code',
+            'co_consts', 'co_names',
+            '__getattribute__', '__getattr__', '__setattr__', '__delattr__',
+            '__dir__', '__get__', '__set__', '__delete__',
+        }}
+        
+        for node in ast.walk(tree):
+            if isinstance(node, (ast.Import, ast.ImportFrom)):
+                return {{
+                    "result": None,
+                    "stdout": "",
+                    "stderr": "Import statements are not allowed in sandbox mode",
+                    "success": False
+                }}
+            if isinstance(node, ast.Attribute) and node.attr in blocked_attrs:
+                return {{
+                    "result": None,
+                    "stdout": "",
+                    "stderr": f"Access to attribute '{{node.attr}}' is restricted",
+                    "success": False
+                }}
+            if isinstance(node, ast.Call) and isinstance(node.func, ast.Name):
+                if node.func.id in ('exec', 'eval', 'compile', '__import__',
+                                     'open', 'input', 'breakpoint',
+                                     'setattr', 'delattr', 'dir'):
+                    return {{
+                        "result": None,
+                        "stdout": "",
+                        "stderr": f"Call to '{{node.func.id}}' is not allowed",
+                        "success": False
+                    }}
+            if isinstance(node, ast.Constant) and isinstance(node.value, str):
+                if any(attr in node.value for attr in blocked_attrs):
+                    return {{
+                        "result": None,
+                        "stdout": "",
+                        "stderr": "String constant contains restricted attribute name",
+                        "success": False
+                    }}
+            elif type(node).__name__ == 'Str':
+                if any(attr in getattr(node, 's', '') for attr in blocked_attrs):
+                    return {{
+                        "result": None,
+                        "stdout": "",
+                        "stderr": "String constant contains restricted attribute name",
+                        "success": False
+                    }}
+        
+        # Create safe globals
+        # Create a safe getattr that blocks dunder access (defense-in-depth)
+        def _safe_getattr(obj, name, *default):
+            if type(name) is not str:
+                raise AttributeError(f"Attribute name must be a plain str, got {{type(name).__name__}}")
+            if name.startswith('_'):
+                raise AttributeError(f"Access to attribute '{{name}}' is restricted")
+            return getattr(obj, name, *default) if default else getattr(obj, name)
+        
+        safe_builtins = {{
+                'print': print, 'len': len, 'range': range, 'enumerate': enumerate,
+                'zip': zip, 'map': map, 'filter': filter, 'sum': sum, 'min': min,
+                'max': max, 'abs': abs, 'round': round, 'sorted': sorted,
+                'reversed': reversed, 'any': any, 'all': all, 'int': int,
+                'float': float, 'str': str, 'bool': bool, 'list': list,
+                'tuple': tuple, 'dict': dict, 'set': set, 'pow': pow,
+                'divmod': divmod, 'isinstance': isinstance, 'type': type,
+                'hasattr': hasattr, 'getattr': _safe_getattr,
+                # Exceptions
+                'Exception': Exception, 'ValueError': ValueError,
+                'TypeError': TypeError, 'KeyError': KeyError,
+                'IndexError': IndexError, 'RuntimeError': RuntimeError,
+                'AttributeError': AttributeError, 'StopIteration': StopIteration,
+                'ZeroDivisionError': ZeroDivisionError, 'OverflowError': OverflowError,
+                # Class definition support
+                '__build_class__': __builtins__['__build_class__'] if isinstance(__builtins__, dict) else getattr(__builtins__, '__build_class__', None),
+        }}
+        safe_globals = {{'__builtins__': safe_builtins}}
+        
+        # Execute user code (use safe_globals as both globals AND locals
+        # so function defs can see each other)
+        compiled_code = compile(user_code, '<string>', 'exec')
+        exec(compiled_code, safe_globals)
+        
+        # Try to get result from last expression
+        tree = ast.parse(user_code)
+        if tree.body and isinstance(tree.body[-1], ast.Expr):
+            result = eval(
+                compile(ast.Expression(tree.body[-1].value), '<string>', 'eval'),
+                safe_globals
+            )
+        
+        return {{
+            "result": str(result) if result is not None else None,
+            "stdout": stdout_buffer.getvalue(),
+            "stderr": stderr_buffer.getvalue(),
+            "success": True
+        }}
+        
+    except Exception as e:
+        return {{
+            "result": None,
+            "stdout": stdout_buffer.getvalue(),
+            "stderr": f"Error: {{str(e)}}",
+            "success": False
+        }}
+    finally:
+        # Restore stdout/stderr
+        sys.stdout = sys.__stdout__
+        sys.stderr = sys.__stderr__
+
+if __name__ == "__main__":
+    result = safe_execute()
+    print(json.dumps(result))
+"""
+            f.write(wrapper_code)
+            temp_file = f.name
+
+        # Configure subprocess with resource limits
+        env = {}  # Clean environment (no access to parent process env vars)
+        
+        # Run subprocess with timeout and resource limits
+        process = subprocess.Popen(
+            [sys.executable, temp_file],
+            stdout=subprocess.PIPE,
+            stderr=subprocess.PIPE,
+            env=env,
+            shell=False,  # Security: prevent shell injection
+            text=True,
+            cwd=tempfile.gettempdir()  # Run in temp dir, not current dir
+        )
+        
+        try:
+            stdout, stderr = process.communicate(timeout=min(timeout, limits.timeout_seconds))
+        except subprocess.TimeoutExpired:
+            process.kill()
+            return {
+                'result': None,
+                'stdout': '',
+                'stderr': f'Execution timed out after {timeout} seconds',
+                'success': False
+            }
+        
+        # Parse result JSON from subprocess
+        if process.returncode == 0 and stdout.strip():
+            try:
+                result_data = json.loads(stdout.strip())
+                # Truncate output if too large
+                if len(result_data.get('stdout', '')) > max_output_size:
+                    tail_size = min(max_output_size // 5, 500)
+                    output = result_data['stdout']
+                    result_data['stdout'] = output[:max_output_size - tail_size] + f"\\n...[{len(output):,} chars, truncated]...\\n" + output[-tail_size:]
+                return result_data
+            except json.JSONDecodeError:
+                pass
+        
+        return {
+            'result': None,
+            'stdout': stdout,
+            'stderr': stderr or f'Process exited with code {process.returncode}',
+            'success': False
+        }
+        
+    except Exception as e:
+        return {
+            'result': None,
+            'stdout': '',
+            'stderr': f'Sandbox execution error: {str(e)}',
+            'success': False
+        }
+    finally:
+        # Clean up temporary file
+        try:
+            if 'temp_file' in locals():
+                os.unlink(temp_file)
+        except OSError:
+            pass
+
+
+# ──────────────────────────────────────────────────────────────────────
+# Standalone execute_code — NO optional deps required (no black/pylint)
+# ──────────────────────────────────────────────────────────────────────
+
+@require_approval(risk_level="critical")
+def execute_code(
+    code: str,
+    globals_dict: Optional[Dict[str, Any]] = None,
+    locals_dict: Optional[Dict[str, Any]] = None,
+    timeout: int = 30,
+    max_output_size: int = 10000,
+    sandbox_mode: str = "sandbox"  # "sandbox" or "direct"
+) -> Dict[str, Any]:
+    """Execute Python code safely with configurable security levels.
+
+    Args:
+        code: Python code to execute
+        globals_dict: Global variables (ignored in sandbox mode)
+        locals_dict: Local variables (ignored in sandbox mode)
+        timeout: Maximum execution time in seconds
+        max_output_size: Maximum output size in characters
+        sandbox_mode: Security mode - "sandbox" (default, subprocess isolation) 
+                     or "direct" (same process, legacy mode)
+
+    Returns:
+        Dictionary with result, stdout, stderr, and success status
+
+    Security modes:
+        - "sandbox" (RECOMMENDED): Runs in subprocess with resource limits,
+          clean environment, no access to parent process files/env vars
+        - "direct": Legacy mode with restricted builtins (less secure)
+    """
+    # Use subprocess sandbox by default (secure)
+    if sandbox_mode == "sandbox":
+        return _execute_code_sandboxed(code, timeout, max_output_size)
+    
+    # Legacy direct execution mode (for backward compatibility)
+    return _execute_code_direct(
+        code, globals_dict, locals_dict, timeout, max_output_size
+    )
+
+
+def _execute_code_direct(
+    code: str,
+    globals_dict: Optional[Dict[str, Any]] = None,
+    locals_dict: Optional[Dict[str, Any]] = None,
+    timeout: int = 30,
+    max_output_size: int = 10000
+) -> Dict[str, Any]:
+    """Execute Python code directly in current process with restricted builtins.
+
+    This is the legacy execution mode. It uses a 3-layer security sandbox:
+      1. AST-based validation (blocks imports, dangerous dunders, eval/exec)
+      2. Text-pattern blocklist (defense-in-depth)
+      3. Restricted __builtins__ (only safe functions exposed)
+    
+    WARNING: This still runs in the same process and can access filesystem,
+    network, and environment variables. Use sandbox_mode="sandbox" for better security.
+    """
+    try:
+        # Create safe builtins - restricted set of functions
+        safe_builtins = {
+            # Basic functions
+            'print': print,
+            'len': len,
+            'range': range,
+            'enumerate': enumerate,
+            'zip': zip,
+            'map': map,
+            'filter': filter,
+            'sum': sum,
+            'min': min,
+            'max': max,
+            'abs': abs,
+            'round': round,
+            'sorted': sorted,
+            'reversed': reversed,
+            'any': any,
+            'all': all,
+            # Type constructors
+            'int': int,
+            'float': float,
+            'str': str,
+            'bool': bool,
+            'list': list,
+            'tuple': tuple,
+            'dict': dict,
+            'set': set,
+            # Math functions
+            'pow': pow,
+            'divmod': divmod,
+            # Exceptions
+            'Exception': Exception,
+            'ValueError': ValueError,
+            'TypeError': TypeError,
+            'KeyError': KeyError,
+            'IndexError': IndexError,
+            'RuntimeError': RuntimeError,
+            # Safe introspection (dunder-blocked wrapper)
+            'isinstance': isinstance,
+            'type': type,
+            'hasattr': hasattr,
+            'getattr': _safe_getattr,
+            # Class definition support
+            '__build_class__': __builtins__['__build_class__'] if isinstance(__builtins__, dict) else getattr(__builtins__, '__build_class__', None),
+            # Disable dangerous functions
+            '__import__': None,
+            'eval': None,
+            'exec': None,
+            'compile': None,
+            'open': None,
+            'input': None,
+            'globals': None,
+            'locals': None,
+            'vars': None,
+        }
+
+        # Set up execution environment with safe builtins
+        if globals_dict is None:
+            globals_dict = {'__builtins__': safe_builtins}
+        else:
+            # Override builtins in provided globals
+            globals_dict['__builtins__'] = safe_builtins
+
+        if locals_dict is None:
+            locals_dict = {}
+
+        # Security check 1: AST-based validation (cannot be bypassed
+        # by string concatenation or runtime tricks)
+        ast_error = _validate_code_ast(code)
+        if ast_error:
+            return {
+                'result': None,
+                'stdout': '',
+                'stderr': f'Security Error: {ast_error}',
+                'success': False
+            }
+
+        # Security check 2: text-based patterns (defense-in-depth)
+        dangerous_patterns = [
+            '__import__', 'import ', 'from ', 'exec', 'eval',
+            'compile', 'open(', 'file(', 'input(', 'raw_input',
+            '__subclasses__', '__bases__', '__globals__', '__code__',
+            '__class__', 'globals(', 'locals(', 'vars('
+        ]
+
+        code_lower = code.lower()
+        for pattern in dangerous_patterns:
+            if pattern.lower() in code_lower:
+                return {
+                    'result': None,
+                    'stdout': '',
+                    'stderr': f'Security Error: Code contains restricted pattern: {pattern}',
+                    'success': False
+                }
+
+        # Capture output
+        stdout_buffer = io.StringIO()
+        stderr_buffer = io.StringIO()
+
+        try:
+            # Compile code with restricted mode
+            compiled_code = compile(code, '<string>', 'exec')
+
+            # Execute with output capture
+            with redirect_stdout(stdout_buffer), redirect_stderr(stderr_buffer):
+                exec(compiled_code, globals_dict, locals_dict)
+
+                # Get last expression value if any
+                import ast
+                tree = ast.parse(code)
+                if tree.body and isinstance(tree.body[-1], ast.Expr):
+                    result = eval(
+                        compile(ast.Expression(tree.body[-1].value), '<string>', 'eval'),
+                        globals_dict,
+                        locals_dict
+                    )
+                else:
+                    result = None
+
+            # Get output
+            stdout = stdout_buffer.getvalue()
+            stderr = stderr_buffer.getvalue()
+
+            # Truncate output if too large (use smart format)
+            if len(stdout) > max_output_size:
+                tail_size = min(max_output_size // 5, 500)
+                stdout = stdout[:max_output_size - tail_size] + f"\n...[{len(stdout):,} chars, showing first/last portions]...\n" + stdout[-tail_size:]
+            if len(stderr) > max_output_size:
+                tail_size = min(max_output_size // 5, 500)
+                stderr = stderr[:max_output_size - tail_size] + f"\n...[{len(stderr):,} chars, showing first/last portions]...\n" + stderr[-tail_size:]
+
+            return {
+                'result': result,
+                'stdout': stdout,
+                'stderr': stderr,
+                'success': True
+            }
+
+        except Exception as e:
+            error_msg = f"Error executing code: {str(e)}"
+            logging.error(error_msg)
+            return {
+                'result': None,
+                'stdout': stdout_buffer.getvalue(),
+                'stderr': error_msg,
+                'success': False
+            }
+
+    except Exception as e:
+        error_msg = f"Error executing code: {str(e)}"
+        logging.error(error_msg)
+        return {
+            'result': None,
+            'stdout': '',
+            'stderr': error_msg,
+            'success': False
+        }
+
+
+# ──────────────────────────────────────────────────────────────────────
+# PythonTools class — requires optional deps (black, pylint, autopep8)
+# Only instantiated when analyze_code/format_code/lint_code are needed.
+# ──────────────────────────────────────────────────────────────────────
+
+class PythonTools:
+    """Tools for Python code analysis, formatting, and linting.
+
+    Requires: pip install black pylint autopep8
+    For code execution only, use the standalone execute_code() function.
+    """
+
+    def __init__(self):
+        """Initialize PythonTools — checks for required packages."""
+        self._check_dependencies()
+
+    def _check_dependencies(self):
+        """Check if required packages are installed."""
+        missing = []
+        for package in ['black', 'pylint', 'autopep8']:
+            if util.find_spec(package) is None:
+                missing.append(package)
+
+        if missing:
+            raise ImportError(
+                f"Required packages not available. Please install: {', '.join(missing)}\n"
+                f"Run: pip install {' '.join(missing)}"
+            )
+
+    def analyze_code(
+        self,
+        code: str
+    ) -> Optional[Dict[str, Any]]:
+        """Analyze Python code structure and quality.
+
+        Args:
+            code: Python code to analyze
+
+        Returns:
+            Dictionary with analysis results
+        """
+        try:
+            # Import ast only when needed
+            import ast
+
+            # Parse code
+            tree = ast.parse(code)
+
+            # Analyze structure
+            analysis = {
+                'imports': [],
+                'functions': [],
+                'classes': [],
+                'variables': [],
+                'complexity': {
+                    'lines': len(code.splitlines()),
+                    'functions': 0,
+                    'classes': 0,
+                    'branches': 0
+                }
+            }
+
+            # Analyze nodes
+            for node in ast.walk(tree):
+                if isinstance(node, ast.Import):
+                    for name in node.names:
+                        analysis['imports'].append(name.name)
+                elif isinstance(node, ast.ImportFrom):
+                    module = node.module or ''
+                    for name in node.names:
+                        analysis['imports'].append(f"{module}.{name.name}")
+                elif isinstance(node, ast.FunctionDef):
+                    analysis['functions'].append({
+                        'name': node.name,
+                        'args': [
+                            arg.arg for arg in node.args.args
+                        ],
+                        'decorators': [
+                            ast.unparse(d) for d in node.decorator_list
+                        ]
+                    })
+                    analysis['complexity']['functions'] += 1
+                elif isinstance(node, ast.ClassDef):
+                    analysis['classes'].append({
+                        'name': node.name,
+                        'bases': [
+                            ast.unparse(base) for base in node.bases
+                        ],
+                        'decorators': [
+                            ast.unparse(d) for d in node.decorator_list
+                        ]
+                    })
+                    analysis['complexity']['classes'] += 1
+                elif isinstance(node, ast.Assign):
+                    for target in node.targets:
+                        if isinstance(target, ast.Name):
+                            analysis['variables'].append(target.id)
+                elif isinstance(node, (ast.If, ast.While, ast.For)):
+                    analysis['complexity']['branches'] += 1
+
+            return analysis
+        except Exception as e:
+            error_msg = f"Error analyzing code: {str(e)}"
+            logging.error(error_msg)
+            return None
+
+    def format_code(
+        self,
+        code: str,
+        style: str = 'black',
+        line_length: int = 88
+    ) -> Optional[str]:
+        """Format Python code according to style guide.
+
+        Args:
+            code: Python code to format
+            style: Formatting style ('black' or 'pep8')
+            line_length: Maximum line length
+
+        Returns:
+            Formatted code
+        """
+        try:
+            if util.find_spec(style) is None:
+                error_msg = f"{style} package is not available. Please install it using: pip install {style}"
+                logging.error(error_msg)
+                return None
+
+            if style == 'black':
+                import black
+                return black.format_str(
+                    code,
+                    mode=black.FileMode(
+                        line_length=line_length
+                    )
+                )
+            else:  # pep8
+                import autopep8
+                return autopep8.fix_code(
+                    code,
+                    options={
+                        'max_line_length': line_length
+                    }
+                )
+        except Exception as e:
+            error_msg = f"Error formatting code: {str(e)}"
+            logging.error(error_msg)
+            return None
+
+    def lint_code(
+        self,
+        code: str
+    ) -> Optional[Dict[str, List[Dict[str, Any]]]]:
+        """Lint Python code for potential issues.
+
+        Args:
+            code: Python code to lint
+
+        Returns:
+            Dictionary with linting results
+        """
+        try:
+            if util.find_spec('pylint') is None:
+                error_msg = "pylint package is not available. Please install it using: pip install pylint"
+                logging.error(error_msg)
+                return None
+
+            # Import pylint only when needed
+            from pylint.reporters import JSONReporter
+            from pylint.lint.run import Run
+
+            # Create temporary file for pylint
+            import tempfile
+            with tempfile.NamedTemporaryFile(
+                mode='w',
+                suffix='.py',
+                delete=False
+            ) as f:
+                f.write(code)
+                temp_path = f.name
+
+            # Run pylint
+            reporter = JSONReporter()
+            Run(
+                [temp_path],
+                reporter=reporter,
+                exit=False
+            )
+
+            # Process results
+            results = {
+                'errors': [],
+                'warnings': [],
+                'conventions': []
+            }
+
+            for msg in reporter.messages:
+                item = {
+                    'type': msg.category,
+                    'module': msg.module,
+                    'obj': msg.obj,
+                    'line': msg.line,
+                    'column': msg.column,
+                    'path': msg.path,
+                    'symbol': msg.symbol,
+                    'message': msg.msg,
+                    'message-id': msg.msg_id
+                }
+
+                if msg.category in ['error', 'fatal']:
+                    results['errors'].append(item)
+                elif msg.category == 'warning':
+                    results['warnings'].append(item)
+                else:
+                    results['conventions'].append(item)
+
+            # Clean up
+            import os
+            os.unlink(temp_path)
+
+            return results
+        except Exception as e:
+            error_msg = f"Error linting code: {str(e)}"
+            logging.error(error_msg)
+            return {
+                'errors': [],
+                'warnings': [],
+                'conventions': []
+            }
+
+    def disassemble_code(
+        self,
+        code: str
+    ) -> Optional[str]:
+        """Disassemble Python code to bytecode.
+
+        Args:
+            code: Python code to disassemble
+
+        Returns:
+            Disassembled bytecode as string
+        """
+        try:
+            # Import dis only when needed
+            import dis
+
+            # Compile code
+            compiled_code = compile(code, '<string>', 'exec')
+
+            # Capture disassembly
+            output = io.StringIO()
+            with redirect_stdout(output):
+                dis.dis(compiled_code)
+
+            return output.getvalue()
+        except Exception as e:
+            error_msg = f"Error disassembling code: {str(e)}"
+            logging.error(error_msg)
+            return None
+
+
+# Lazy accessors for optional-dep tools (PythonTools requires black/pylint/autopep8)
+# execute_code is already a standalone function above — always available.
+def _get_python_tools():
+    """Lazy-init PythonTools (requires black/pylint/autopep8)."""
+    global _python_tools_instance
+    try:
+        return _python_tools_instance
+    except NameError:
+        _python_tools_instance = PythonTools()
+        return _python_tools_instance
+
+_python_tools_instance = None
+
+def analyze_code(code: str) -> Optional[Dict[str, Any]]:
+    """Analyze Python code structure and quality. Requires: pip install black pylint autopep8"""
+    return _get_python_tools().analyze_code(code)
+
+def format_code(code: str, style: str = 'black', line_length: int = 88) -> Optional[str]:
+    """Format Python code. Requires: pip install black pylint autopep8"""
+    return _get_python_tools().format_code(code, style, line_length)
+
+def lint_code(code: str) -> Optional[Dict[str, List[Dict[str, Any]]]]:
+    """Lint Python code. Requires: pip install black pylint autopep8"""
+    return _get_python_tools().lint_code(code)
+
+def disassemble_code(code: str) -> Optional[str]:
+    """Disassemble Python code to bytecode. Requires: pip install black pylint autopep8"""
+    return _get_python_tools().disassemble_code(code)
+
+if __name__ == "__main__":
+    print("\n==================================================")
+    print("PythonTools Demonstration")
+    print("==================================================\n")
+
+    print("1. Execute Python Code")
+    print("------------------------------")
+    code = """
+def greet(name):
+    return f"Hello, {name}!"
+
+result = greet("World")
+print(result)
+"""
+    print("Code to execute:")
+    print(code)
+    print("\nOutput:")
+    result = execute_code(code)
+    print(result["stdout"])
+    print()
+
+    print("2. Format Python Code")
+    print("------------------------------")
+    code = """
+def messy_function(x,y,   z):
+    if x>0:
+     return y+z
+    else:
+     return y-z
+"""
+    print("Before formatting:")
+    print(code)
+    print("\nAfter formatting:")
+    result = format_code(code)
+    print(result)
+    print()
+
+    print("3. Lint Python Code")
+    print("------------------------------")
+    code = """
+def bad_function():
+    unused_var = 42
+    return 'result'
+"""
+    print("Code to lint:")
+    print(code)
+    print("\nLinting results:")
+    result = lint_code(code)
+    print(result)
+    print()
+
+    print("4. Execute Code with Variables")
+    print("------------------------------")
+    code = """
+x = 10
+y = 20
+result = x + y
+print(f"The sum of {x} and {y} is {result}")
+"""
+    print("Code to execute:")
+    print(code)
+    print("\nOutput:")
+    result = execute_code(code)
+    print(result["stdout"])
+    print()
+
+    print("==================================================")
+    print("Demonstration Complete")
+    print("==================================================")

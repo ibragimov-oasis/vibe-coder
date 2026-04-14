@@ -1,0 +1,16 @@
+name: archon-feature-development
+description: |
+  Use when: Implementing a feature from an existing plan.
+  Input: Path to a plan file ($ARTIFACTS_DIR/plan.md) or GitHub issue containing a plan.
+  Does: Implements the plan with validation loops -> creates pull request.
+  NOT for: Creating plans (plans should be created separately), bug fixes, code reviews.
+
+nodes:
+  - id: implement
+    command: archon-implement
+    model: claude-opus-4-6[1m]
+
+  - id: create-pr
+    command: archon-create-pr
+    depends_on: [implement]
+    context: fresh

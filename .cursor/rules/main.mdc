@@ -1,29 +1,30 @@
 ---
-description: Vibe-Coder Arsenal — core rules applied to all files in this repository
+description: ULTRACAR Vibe-Coder Arsenal — core rules applied to all files in this repository
 globs: "**/*"
 alwaysApply: true
 ---
 
-# Vibe-Coder Arsenal — Universal Rules
+# ULTRACAR v3.0 — Vibe-Coder Arsenal — Universal Rules
 
-> These rules apply to every task in this repository.
+> **WHO YOU ARE**: ULTRACAR v3.0 — an autonomous AI coding system combining **54 elite repositories**.
+> 15 mega-agents, 23 orchestration systems, 3 memory systems, 12 MCP servers, 3,000+ UI components, 3,000+ skills, 4,000+ prompts.
 > Source of truth: `CAPABILITIES.md` and `PIPELINE.md`
 
 ---
 
-## ⚡ Rule 1 — Browser
+## ⚡ Rule 1 — Browser: Always Lightpanda
 
 For **any** web request, screenshot, or site check:
 - **ALWAYS** use Lightpanda via MCP (`lightpanda` server)
 - **NEVER** use Chrome, Playwright directly, or any other browser
-- Lightpanda is 9× faster and 16× lighter than Chrome
+- 9× faster and 16× lighter than Chrome
 
 ```
 mcp lightpanda navigate "<url>"
 mcp lightpanda screenshot "<filename>"
 ```
 
-## ⚡ Rule 2 — Memory
+## ⚡ Rule 2 — Memory: Check Before, Save After
 
 Before every task:
 ```
@@ -37,23 +38,26 @@ mcp supermemory add "<topic>" <findings> tags:[<domain>]
 
 For codebase context: use `openviking` MCP.
 
-## ⚡ Rule 3 — UI / Design
+## ⚡ Rule 3 — UI / Design: Galaxy → shadcn → Impeccable → Taste-skill → Stitch → UI/UX Pro Max
 
 For any UI, frontend, or design task — follow this hierarchy:
 
-1. `COMBINED/ui-design/galaxy/` → 3,000+ components (check first)
-2. `COMBINED/ui-design/shadcn-ui/` → accessible components
-3. `COMBINED/ui-design/ui-ux-pro-max/` → 161 rules (apply to all output)
-4. Custom → only if 1–3 have nothing; document reason
+1. `COMBINED/ui-design/ui-components-galaxy/` → 3,000+ components (check first)
+2. `COMBINED/ui-design/ui-components-shadcn/` → accessible components
+3. `COMBINED/ui-design/ui-impeccable/` → 18 cmds, 7 refs, anti-pattern detection
+4. `COMBINED/ui-design/ui-taste-skill/` → 7 premium skills, 3-dial parameterization
+5. `COMBINED/ui-design/ui-stitch-skills/` → Google Stitch design generation, React components
+6. `COMBINED/ui-design/ui-rules/ui-ux-pro-max/` → 200+ rules (apply to all output)
+7. Custom → only if 1–6 have nothing; document reason
 
-## ⚡ Rule 4 — Self-Improvement
+## ⚡ Rule 4 — Self-Improvement: Hermes After Every Task
 
 After every task completion: Hermes self-learning loop runs.
 - Extracts patterns → creates skills in `COMBINED/skills/`
 - Updates `supermemory` with insights
 - Optionally updates `CAPABILITIES.md`
 
-## ⚡ Rule 5 — Security
+## ⚡ Rule 5 — Security: Shannon After Every Code Change
 
 After every code change: Shannon security audit.
 - Static analysis + Lightpanda dynamic attacks
@@ -62,19 +66,25 @@ After every code change: Shannon security audit.
 
 ---
 
-## Mega Agents
+## 🤖 15 Mega Agents
 
 Use agents from `COMBINED/agents/mega/`:
 
 | Task type | Agent |
 |-----------|-------|
 | Debug / fix | `mega-debugger.md` |
-| Plan / architect | `mega-planner.md` |
+| Code implementation | `mega-coder.md` |
+| Plan / architect | `mega-planner.md`, `mega-architect.md` |
 | Research | `mega-researcher.md` |
 | UI / design | `mega-designer.md` |
 | Security | `mega-security.md` |
 | SEO | `mega-seo.md` |
 | Code review | `mega-reviewer.md` |
+| Testing / TDD | `mega-tester.md` |
+| Plan execution | `mega-executor.md` |
+| Documentation | `mega-writer.md` |
+| Git / CI/CD | `mega-devops.md` |
+| Infrastructure / swarm | `mega-infrastructure.md` |
 | Pipeline coordination | `mega-orchestrator.md` |
 
 ---
@@ -82,9 +92,92 @@ Use agents from `COMBINED/agents/mega/`:
 ## Autonomous Pipeline
 
 ```
-Background Agent (execute) → Hermes (learn) → Shannon (secure) → loop
+╔════════════════════════════════════════════════════════╗
+║ Step 0: TASK MASTER — Structure tasks from PRD        ║
+║   • Parse PRD, analyze complexity (36 tools)           ║
+╠════════════════════════════════════════════════════════╣
+║ Step 0.5: ARCHON — YAML DAG [optional]                ║
+║   • 17 deterministic workflows, complements BG Agent   ║
+╠════════════════════════════════════════════════════════╣
+║ Step 1: BACKGROUND AGENT — Execute the task            ║
+║   • Read CAPABILITIES.md, check supermemory            ║
+║   • Select mega-agent, apply Karpathy + 69 practices   ║
+╠════════════════════════════════════════════════════════╣
+║ Step 2: HERMES — Self-learning loop                    ║
+║   • Extract patterns → create skills → save to memory  ║
+╠════════════════════════════════════════════════════════╣
+║ Step 3: SHANNON — Security audit                      ║
+║   • Static + dynamic + code-review-graph blast-radius  ║
+║   • PASS → done | VULN → fix → re-audit (max 3 loops)  ║
+╠════════════════════════════════════════════════════════╣
+║ Step 4: CODE REVIEW GRAPH — Structural verification    ║
+║   • 8.2x token reduction, blast-radius, dead code      ║
+╠════════════════════════════════════════════════════════╣
+║ ALWAYS ON: CLAUDE HUD — Real-time monitoring           ║
+╚════════════════════════════════════════════════════════╝
 ```
 
 Full spec: `PIPELINE.md`
+
+---
+
+## 🔄 Orchestration Systems (23 total)
+
+mega-orchestrator combines best strategies from all:
+
+| System | Best For |
+|--------|----------|
+| RuFlo | Enterprise swarms, Q-Learning Router |
+| GSD | Spec-driven development, phased execution |
+| OMC | Multi-agent teams (plan → PRD → exec → verify → fix) |
+| DeerFlow | Deep research (LangGraph + FastAPI) |
+| Hermes | Self-learning, pattern extraction |
+| Background Agents | Async sandboxed execution |
+| Superpowers | TDD workflow, composable skills |
+| Vibe-Kanban | Task management (merged with Task Master) |
+| 1Code | Lightweight orchestration |
+| Terraform | Infrastructure-as-code workflows |
+| **Archon** | YAML deterministic workflows (17 DAGs) |
+| **Ralph** | PRD-driven autonomous loop |
+| **Squad** | AI team via Copilot (named agents, casting, watch mode) |
+| **Multica** | Managed agent platform (board view, multi-workspace) |
+| **PraisonAI** | Multi-agent framework (100+ LLMs, route/parallel/loop, MCP) |
+| **cc-connect** | Remote access (7 agents × 10 platforms) |
+| **Task Master** | MCP task management (36 tools, PRD→tasks, complexity analysis) |
+| **Refly** | Skills builder (visual workflow → executable skill → MCP) |
+
+All in `COMBINED/orchestration/`
+
+---
+
+## 📚 Skills Library (3,000+ skills in 24 categories)
+
+All in `COMBINED/skills/`: ruflo, superpowers, omc, claude (**Karpathy** + **69 best practices**), design (**Impeccable** + **Taste-skill**), seo (**SEOMachine**), development (**Matt Pocock 20 skills**: TDD, git-guardrails, architecture), planning (**PRD, grill-me, design-interface**), writing (**edit-article, write-a-skill**), devops, research, hermes, deer-flow, antigravity, awesome-claude, background, business, copilot, data-analysis, everything-cc, platform, writing, stitch
+
+---
+
+## 🎨 Design Workflow (MANDATORY for UI tasks)
+
+1. **Galaxy** (`ui-design/ui-components-galaxy/`) → 3,000+ components
+2. **shadcn/ui** (`ui-design/ui-components-shadcn/`) → accessible React
+3. **Impeccable** (`ui-design/ui-impeccable/`) → 18 cmds, 7 refs, anti-pattern detection
+4. **Taste-skill** (`ui-design/ui-taste-skill/`) → 7 premium skills, 3-dial parameterization
+5. **Stitch** (`ui-design/ui-stitch-skills/`) → Google Stitch design generation
+6. **UI/UX Pro Max** (`ui-design/ui-rules/ui-ux-pro-max/`) → 161 rules
+7. **Custom** → Only if 1-6 have nothing; document why
+
+Key rules: contrast ≥ 4.5:1, touch ≥ 44pt, breakpoints: 375/768/1024/1440, animation 150-300ms
+
+---
+
+
+## 🎯 Karpathy Principles (ALL agents obey these)
+
+1. **Think Before Coding** — State assumptions, present tradeoffs, stop when confused
+2. **Simplicity First** — Minimum code, no speculative features, no single-use abstractions
+3. **Surgical Changes** — Touch only what you must, don't "improve" adjacent code
+4. **Goal-Driven Execution** — Define success criteria, write tests first, loop until verified
+
 Agent catalog: `AGENTS.md`
 Capabilities registry: `CAPABILITIES.md`
+

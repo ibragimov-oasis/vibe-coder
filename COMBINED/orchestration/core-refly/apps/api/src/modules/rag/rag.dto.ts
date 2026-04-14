@@ -1,0 +1,34 @@
+import { ResourceType } from '@refly/openapi-schema';
+
+export type ContentNodeType = 'resource' | 'document';
+
+export interface DocumentPayload {
+  title: string;
+  nodeType: ContentNodeType;
+  url?: string;
+  docId?: string;
+  projectId?: string;
+  resourceId?: string;
+  resourceType?: ResourceType;
+  [key: string]: any; // any other fields
+}
+
+export interface ContentPayload extends DocumentPayload {
+  seq: number;
+  content: string;
+}
+
+export interface RetrieveFilter {
+  nodeTypes?: ContentNodeType[];
+  urls?: string[];
+  docIds?: string[];
+  resourceIds?: string[];
+  projectIds?: string[];
+}
+
+export interface HybridSearchParam {
+  query: string;
+  vector?: number[];
+  filter?: RetrieveFilter;
+  limit?: number;
+}

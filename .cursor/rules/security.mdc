@@ -1,0 +1,44 @@
+---
+description: Security rules for all code changes in the Vibe-Coder Arsenal
+globs: "**/*.{ts,tsx,js,jsx,py,rb,go,java,php,rs}"
+alwaysApply: true
+---
+
+# Security Rules (Shannon Pro)
+
+## Pre-Commit Security Checks
+
+Before marking ANY code change complete, verify:
+
+### Input Validation
+- ALL user input is validated and sanitized at the entry point
+- SQL queries use parameterized statements (never string concatenation)
+- HTML output is escaped (no innerHTML with user data)
+- File paths are sanitized against path traversal (no `../`)
+- URLs are validated before fetching (no SSRF)
+- Deserialization only accepts expected types
+
+### Authentication & Authorization
+- Auth checks exist on EVERY endpoint that modifies data
+- JWT tokens are validated with algorithm pinning (no `alg: none`)
+- API keys and secrets are in environment variables (never hardcoded)
+- Session tokens have sufficient entropy (≥128 bits)
+- Password hashing uses bcrypt/argon2 (never MD5/SHA1)
+- Rate limiting on authentication endpoints
+
+### Security Headers
+```
+Content-Security-Policy: default-src 'self'
+Strict-Transport-Security: max-age=31536000; includeSubDomains
+X-Content-Type-Options: nosniff
+X-Frame-Options: DENY
+Referrer-Policy: strict-origin-when-cross-origin
+```
+
+### Secrets
+- No API keys, passwords, or tokens in code
+- No credentials in git history
+- Environment-specific config via `.env` files (gitignored)
+
+## Full Security Agent
+For comprehensive pentesting: `COMBINED/agents/mega/mega-security.md`

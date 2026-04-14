@@ -1,70 +1,67 @@
-# COMBINED/agents/mega — Mega Agents
+# Mega Agents — ULTRACAR
 
-> **The unified best-of-breed agents from all 31 repositories.**
-> Each mega-agent merges the capabilities of its source agents into one comprehensive specialist.
-> Last updated: 2026-04-11
-
----
-
-## What Are Mega Agents?
-
-Mega agents are synthesized agents that combine the best prompts, logic, and strategies from multiple source agents across the 31 repositories. They are the **recommended starting point** for any task.
+> **15 unified mega-agents** — start here for any task.
+> Each mega-agent merges the best capabilities from multiple source repositories.
+> Last updated: 2026-04-13
 
 ---
 
-## Catalog
+## Agent Catalog
 
-| File | Name | Merged Sources | Best For |
-|------|------|---------------|---------|
-| `mega-orchestrator.md` | Mega Orchestrator | RuFlo + GSD + OMC orchestrators | Pipeline coordination, delegation |
-| `mega-debugger.md` | Mega Debugger | GSD debugger + OMC debugger + RuFlo debugger | All debugging tasks |
-| `mega-planner.md` | Mega Planner | GSD planner (45kb) + OMC planner + RuFlo planner | Planning, architecture, roadmaps |
-| `mega-researcher.md` | Mega Researcher | Hermes + GSD researcher + DeerFlow | Deep research, analysis |
-| `mega-designer.md` | Mega Designer | Galaxy + shadcn + UI/UX Pro Max | UI/UX design, components |
-| `mega-security.md` | Mega Security | Shannon (full) | Security audits, pentesting |
-| `mega-seo.md` | Mega SEO | claude-seo + Antigravity SEO skills | SEO optimization |
-| `mega-reviewer.md` | Mega Reviewer | RuFlo + OMC + Superpowers reviewers | Code review, quality |
-
----
-
-## Usage
-
-In Claude Code:
-```
-/agent mega-debugger investigate the failing tests in src/
-```
-
-In Cursor:
-```
-@mega-planner create an architecture plan for the new feature
-```
-
-In any interface — reference the agent file directly:
-```
-See: COMBINED/agents/mega/mega-orchestrator.md
-```
+| Agent | Purpose | Model | Sources |
+|-------|---------|-------|---------|
+| [mega-orchestrator](mega-orchestrator.md) | Full pipeline coordination, task routing | opus | RuFlo + GSD + OMC + BG Agents + Superpowers |
+| [mega-debugger](mega-debugger.md) | Bug investigation, root cause analysis | sonnet | GSD + OMC + RuFlo + Superpowers |
+| [mega-planner](mega-planner.md) | Architecture, roadmaps, PRDs | opus | GSD 45kb + OMC + RuFlo |
+| [mega-researcher](mega-researcher.md) | Deep research, technical analysis | opus | Hermes + GSD + DeerFlow |
+| [mega-designer](mega-designer.md) | UI/UX design, component creation | sonnet | Galaxy + shadcn + UI/UX Pro Max |
+| [mega-security](mega-security.md) | Security pentesting (Shannon Pro) | opus | Shannon Pro (35k⭐) |
+| [mega-seo](mega-seo.md) | SEO optimization, GEO | sonnet | Claude-SEO + Antigravity |
+| [mega-reviewer](mega-reviewer.md) | Code review (7 dimensions) | opus | RuFlo + OMC + Superpowers |
+| [mega-tester](mega-tester.md) | Testing, TDD enforcement | sonnet | OMC + GSD + RuFlo + Superpowers |
+| [mega-architect](mega-architect.md) | System architecture (READ-ONLY) | opus | OMC + RuFlo + GSD |
+| [mega-coder](mega-coder.md) | Code implementation | sonnet | RuFlo + OMC + Superpowers + Claude-Skills |
+| [mega-executor](mega-executor.md) | Plan execution | sonnet | OMC + GSD |
+| [mega-writer](mega-writer.md) | Documentation, technical writing | sonnet | OMC + RuFlo + doc-specialist |
+| [mega-devops](mega-devops.md) | Git, CI/CD, deployment | sonnet | OMC + RuFlo DevOps |
+| [mega-infrastructure](mega-infrastructure.md) | Swarm/consensus/infra coordination | opus | RuFlo (80+ agents) |
 
 ---
 
-## Source Agent Locations
+## How to Choose
 
-| Source System | Location |
-|--------------|---------|
-| RuFlo agents | `COMBINED/agents/agents-ruflo/` |
-| GSD agents | `COMBINED/agents/by-role/` (gsd-* prefixed) |
-| OMC agents | `COMBINED/orchestration/core-omc/` |
-| DeerFlow agents | `COMBINED/agents/agents-deer-flow/` |
-| Hermes agents | `COMBINED/agents/agents-hermes/` |
-| Shannon (security) | `COMBINED/security/security-shannon/` |
-| Background agents | `COMBINED/agents/background-agents/` |
+| Task Type | Primary Agent | Support Agent |
+|-----------|--------------|---------------|
+| Bug fix | mega-debugger | mega-tester |
+| New feature | mega-coder | mega-tester |
+| Architecture design | mega-architect | mega-planner |
+| Full project | mega-orchestrator | mega-planner |
+| Security audit | mega-security | mega-debugger (for fixes) |
+| Code review | mega-reviewer | — |
+| Documentation | mega-writer | — |
+| UI/UX work | mega-designer | mega-reviewer |
+| SEO optimization | mega-seo | mega-researcher |
+| Research | mega-researcher | — |
+| DevOps/deployment | mega-devops | — |
+| Distributed systems | mega-infrastructure | mega-architect |
+| Unknown/complex | mega-orchestrator | (it will route) |
 
 ---
 
-## Creating New Mega Agents
+## The Autonomous Pipeline
 
-Follow this process:
-1. Identify all source agents for the domain (grep `COMBINED/agents/`)
-2. Read each source agent's system prompt
-3. Extract: best role definition, strongest heuristics, clearest output format
-4. Merge into a single agent file in this directory
-5. Update this README and `COMBINED/agents/INDEX.md`
+```
+mega-orchestrator (route task)
+    ↓
+specialist mega-agent (execute)
+    ↓
+mega-tester (verify)
+    ↓
+Hermes (learn)
+    ↓
+mega-security / Shannon (audit)
+    ↓
+✅ Complete (or loop back for fixes)
+```
+
+See `PIPELINE.md` for full specification.

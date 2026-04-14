@@ -1,0 +1,26 @@
+{
+  "name": "@refly/openapi-schema",
+  "version": "0.8.0",
+  "description": "Refly OpenAPI Schema",
+  "main": "src/index.ts",
+  "types": "src/index.ts",
+  "scripts": {
+    "dev": "nodemon",
+    "codegen": "openapi-ts && tsc --build --verbose",
+    "generate:docs": "tsx scripts/generate-docs.ts",
+    "clean": "rimraf dist && rimraf tsconfig.tsbuildinfo",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "postinstall": "tsc --build --verbose"
+  },
+  "devDependencies": {
+    "@hey-api/openapi-ts": "0.53.8",
+    "tsx": "^4.19.4",
+    "yaml": "^2.6.1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@hey-api/client-fetch": "0.4.0"
+  }
+}

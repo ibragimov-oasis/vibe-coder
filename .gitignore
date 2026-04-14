@@ -13,3 +13,7 @@
 **/git_folder/objects/
 **/git/objects/**
 **/.git/objects/**
+
+# OS-specific files
+.DS_Store
+Thumbs.db
