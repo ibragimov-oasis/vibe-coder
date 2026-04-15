@@ -1,0 +1,37 @@
+---
+description: ULTRACAR post-task pipeline enforcement — security check + self-learning after every code change
+globs: "**/*.{js,ts,jsx,tsx,py,go,rs,java,rb,php,c,cpp,cs,swift,kt}"
+alwaysApply: true
+---
+
+# Post-Task Pipeline (MANDATORY)
+
+After completing ANY code change in this repository, execute these steps:
+
+## Security Quick Check (Shannon)
+Review your changes against:
+- 🔴 Injection risks (SQL, command, template)
+- 🔴 XSS (user input rendered without sanitization)
+- 🔴 Auth bypass (missing checks, hardcoded tokens)
+- 🔴 Secrets (API keys, passwords in code)
+- 🔴 SSRF / path traversal
+
+If ANY found → fix immediately before responding.
+
+Full methodology: `COMBINED/security/security-shannon/SHANNON-PRO.md`
+
+## Self-Learning (Hermes)
+If you discovered a novel pattern:
+→ Create skill: `COMBINED/skills/{domain}/{name}/SKILL.md`
+→ Save to supermemory: `mcp supermemory add "<insight>" tags:[domain]`
+
+## Quality Report
+End your response with:
+```
+✅ Security: [PASS/FIXED]
+✅ Changed: [files]
+✅ Tests: [PASS/FAIL/N/A]
+```
+
+## Agent Routing
+For the FULL routing decision tree, see `PIPELINE_TRIGGER.md` at the repo root.

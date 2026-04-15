@@ -444,7 +444,9 @@ systems (23 total):
 
 ---
 
-## MCP SERVERS (12 total — use these tools)
+## MCP SERVERS — use these tools
+
+### ✅ Configured and Ready (9 servers)
 
 | Server | Purpose | Config key | Package |
 |--------|---------|-----------|--------|
@@ -453,15 +455,21 @@ systems (23 total):
 | `supermemory` | Long-term memory | `supermemory` | `https://mcp.supermemory.ai/mcp` |
 | `openviking` | Codebase context memory | `openviking` | `npx -y @openviking/mcp` |
 | `nano-banana` | Image generation via Gemini | `nano-banana` | `npx -y nano-banana-2-mcp` |
-| `pretext` | Text layout | `pretext` | See MCP config |
-| `mcp-toolbox` | Database access (PostgreSQL, MySQL, BigQuery, MongoDB, Redis, Elasticsearch, CockroachDB, ClickHouse, Snowflake, Neo4j, Oracle, 20+) | `toolbox` | `npx -y @toolbox-sdk/server --prebuilt=postgres` |
-| `mcp-toolbox-sdk` | Database SDK (Python, JS/TS, Go, Java — LangChain, LlamaIndex, ADK, Genkit) | `toolbox-sdk` | `pip install toolbox-core` / `npm install @toolbox-sdk/core` |
+| `mcp-toolbox` | Database access (PostgreSQL, MySQL, BigQuery, MongoDB, Redis, 20+) | `toolbox` | `npx -y @toolbox-sdk/server --prebuilt=postgres` |
 | `markitdown` | File→Markdown (PDF, DOCX, XLSX, PPTX, images, audio, HTML, ZIP) | `markitdown` | `pip install markitdown` |
 | `code-review-graph` | Structural code graph (8.2x token reduction, blast-radius, 19 languages, 22 MCP tools) | `code-review-graph` | `pip install code-review-graph && code-review-graph install` |
-| `taskmaster` | AI-driven task management (PRD→tasks→dependencies, 36 MCP tools, complexity analysis) | `taskmaster` | See MCP config |
-| `archon` | YAML workflow engine (17 deterministic workflows, DAG execution, fire-and-forget) | `archon` | See MCP config |
+| `claude-flow` | Claude Code exclusive — agent teams, swarm coordination | `claude-flow` | See `.claude/settings.json` |
+
+### ⚠️ PLANNED — Not Yet Configured (3 servers)
+
+| Server | Purpose | Status |
+|--------|---------|--------|
+| `pretext` | Text layout | ⚠️ PLANNED — no config in any interface yet |
+| `taskmaster` | AI-driven task management (PRD→tasks, 36 tools) | ⚠️ PLANNED — see `COMBINED/orchestration/core-taskmaster/` |
+| `archon` | YAML workflow engine (17 deterministic workflows) | ⚠️ PLANNED — see `COMBINED/orchestration/core-archon/` |
 
 Full config: `.cursor/mcp.json`, `.claude/settings.json`
+Cross-reference: `INTERFACE_MATRIX.md` — shows which MCP servers work in which interface
 
 ---
 

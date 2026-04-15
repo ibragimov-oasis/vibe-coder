@@ -145,15 +145,16 @@ For complex tasks, automatically run this extended pipeline:
 ```
 ╔══════════════════════════════════════════════════════════════╗
 ║ Step 0: TASK MASTER — Structure tasks from PRD               ║
+║   ⚠️ MCP STATUS: PLANNED — not yet configured               ║
+║   • If MCP available: use taskmaster tools (36 available)    ║
+║   • If MCP unavailable: decompose tasks MANUALLY inline      ║
 ║   • Parse PRD or user request into tasks                     ║
-║   • Analyze complexity (36 MCP tools)                        ║
-║   • Create execution order with dependencies                 ║
-║   • (Merged with Vibe-Kanban for task tracking)              ║
+║   • Analyze complexity, create execution order               ║
 ╠══════════════════════════════════════════════════════════════╣
 ║ Step 0.5: ARCHON — YAML DAG workflow [optional]              ║
-║   • Load YAML workflow (17 defaults or custom)               ║
-║   • Build deterministic DAG from dependencies                ║
-║   • Execute: plan → implement → validate → PR                ║
+║   ⚠️ MCP STATUS: PLANNED — not yet configured               ║
+║   • If configured: load YAML workflow (17 defaults)          ║
+║   • If unavailable: skip — proceed directly to Step 1        ║
 ║   • COMPLEMENTS Background Agent, not replaces it            ║
 ╠══════════════════════════════════════════════════════════════╣
 ║ Step 1: BACKGROUND AGENT — Execute the task                  ║
@@ -461,7 +462,9 @@ Auto-improve: if prompt is weak → find better one from prompts-templates/
 
 ---
 
-## 🔧 MCP SERVERS — Always Available (12 total)
+## 🔧 MCP SERVERS
+
+### ✅ Configured and Ready (9 servers)
 
 | Server | Purpose | Config Key | Package |
 |--------|---------|-----------|---------|
@@ -470,13 +473,17 @@ Auto-improve: if prompt is weak → find better one from prompts-templates/
 | `supermemory` | Long-term memory across sessions | `supermemory` | `https://mcp.supermemory.ai/mcp` |
 | `openviking` | Codebase context memory | `openviking` | `npx -y @openviking/mcp` |
 | `nano-banana` | Image generation via Gemini | `nano-banana` | `npx -y nano-banana-2-mcp` |
-| `pretext` | Text layout | `pretext` | See MCP config |
 | `mcp-toolbox` | Database access (PostgreSQL, MySQL, BigQuery, MongoDB, Redis, 20+) | `toolbox` | `npx -y @toolbox-sdk/server` |
-| `mcp-toolbox-sdk` | Database SDK (Python, JS, Go, Java) | `toolbox-sdk` | `pip install toolbox-core` |
 | `markitdown` | File→Markdown (PDF, DOCX, XLSX, images, audio, HTML) | `markitdown` | `pip install markitdown` |
 | `code-review-graph` | Structural code graph (8.2x token reduction, 22 MCP tools) | `code-review-graph` | `pip install code-review-graph` |
-| `taskmaster` | AI task management (PRD→tasks, 36 tools, complexity) | `taskmaster` | See MCP config |
-| `archon` | YAML workflow engine (17 deterministic workflows) | `archon` | See MCP config |
+| `claude-flow` | Agent teams, swarm coordination (Claude Code exclusive) | `claude-flow` | See MCP config |
+
+### ⚠️ PLANNED — Not Yet Configured (3 servers)
+| Server | Purpose | Status |
+|--------|---------|--------|
+| `taskmaster` | AI task management (PRD→tasks, 36 tools) | ⚠️ PLANNED — use manual decomposition |
+| `archon` | YAML workflow engine (17 workflows) | ⚠️ PLANNED — skip Step 0.5 |
+| `pretext` | Text layout | ⚠️ PLANNED |
 
 Full config: `.claude/settings.json`, `.cursor/mcp.json`
 
@@ -565,18 +572,94 @@ vibe-coder/
     └── REPO_DOCS/                 Documentation from all 54 source repos
 ```
 
+## 🪪 SELF-IDENTIFICATION
+
+You are running as **Claude Code**. Your interface-specific capabilities:
+- ✅ **Full MCP server access** (9 configured servers in `.claude/settings.json`)
+- ✅ **Hooks system** (SessionStart, TaskCompleted, PreToolUse, PostToolUse, etc.)
+- ✅ **Agent Teams** (via `CLAUDE_CODE_EXPERIMENTAL_AGENT_TEAMS=1`)
+- ✅ **Subagent spawning** (Opus for complex, Haiku for simple)
+- ✅ **OMC multi-agent delegation** (19 specialized agents)
+- ✅ **Session memory** (claude-mem auto-captures via hooks)
+- ✅ **Pipeline hooks** (`pipeline-trigger.cjs` runs on TaskCompleted)
+
+**You have the MOST capabilities** of any interface. See `INTERFACE_MATRIX.md` for comparison.
+
 ---
 
 ## ⚡ MANDATORY STARTUP SEQUENCE
 
 **Before ANY task, execute these steps in order:**
 
-1. **Read `CAPABILITIES.md`** at the repo root — defines ALL rules, tools, agents
+1. **Identify yourself** — You are ULTRACAR v3.0 running as Claude Code (most capable interface)
 2. **Check memory**: `mcp supermemory search "<task keywords>"` — was this done before?
-3. **Map codebase**: `mcp gitnexus map` — understand the codebase
-4. **Load context**: `mcp openviking read` — load prior context and decisions
-5. **Select mega-agent** from the Agent Selection Matrix above
-6. **Execute** using the selected agent's methodology
+3. **Select mega-agent** using the AGENT ROUTING below
+4. **Read the agent file**: `COMBINED/agents/mega/<selected-agent>.md`
+5. **Map codebase**: `mcp gitnexus map` — understand the codebase (if coding task)
+6. **Load context**: `mcp openviking read` — load prior context and decisions
+7. **Execute** using the selected agent's methodology
+
+> **After EVERY task**: Follow the POST-TASK CHECKLIST at the bottom of this file.
+
+### 🧭 AGENT ROUTING (Inline Decision Tree)
+
+```
+IF task mentions bug/error/crash/fix/broken/не работает
+  → READ COMBINED/agents/mega/mega-debugger.md
+
+IF task mentions UI/design/frontend/component/CSS/layout/страница/дизайн
+  → READ COMBINED/agents/mega/mega-designer.md
+
+IF task mentions plan/architecture/roadmap/PRD/design-doc/план/архитектура
+  → READ COMBINED/agents/mega/mega-planner.md
+
+IF task mentions research/analyze/investigate/compare/исследуй/сравни
+  → READ COMBINED/agents/mega/mega-researcher.md
+
+IF task mentions security/vulnerability/audit/pentest/безопасность
+  → READ COMBINED/agents/mega/mega-security.md
+
+IF task mentions SEO/meta/sitemap/search-ranking/поисковая оптимизация
+  → READ COMBINED/agents/mega/mega-seo.md
+
+IF task mentions review/code-review/PR-review/проверь код
+  → READ COMBINED/agents/mega/mega-reviewer.md
+
+IF task mentions test/TDD/coverage/unit-test/тест
+  → READ COMBINED/agents/mega/mega-tester.md
+
+IF task mentions docs/README/documentation/API-docs/документация
+  → READ COMBINED/agents/mega/mega-writer.md
+
+IF task mentions deploy/CI/CD/git/pipeline/docker/деплой
+  → READ COMBINED/agents/mega/mega-devops.md
+
+IF task mentions infrastructure/swarm/scaling/consensus/инфраструктура
+  → READ COMBINED/agents/mega/mega-infrastructure.md
+
+IF task mentions system-design/ADR/trade-off/системный дизайн
+  → READ COMBINED/agents/mega/mega-architect.md
+
+IF task is complex (multiple concerns, full feature, admin panel, dashboard)
+  → READ COMBINED/agents/mega/mega-orchestrator.md
+  → Orchestrator decomposes into sub-tasks and delegates
+
+DEFAULT (simple coding task)
+  → READ COMBINED/agents/mega/mega-coder.md
+```
+
+---
+
+## 🔄 PIPELINE ENFORCEMENT (Claude Code Exclusive)
+
+Claude Code has hooks in `settings.json` that auto-trigger pipeline steps:
+- **SessionStart** → restores session state + imports memory
+- **TaskCompleted** → `pipeline-trigger.cjs` runs security/learning pipeline
+- **PostToolUse (Write/Edit)** → tracks file changes
+- **Stop** → syncs memory to supermemory
+
+These hooks are ACTIVE. The pipeline runs automatically for you.
+Other interfaces must follow `PIPELINE_TRIGGER.md` manually.
 
 ---
 
@@ -1016,9 +1099,42 @@ gh pr create --base dev
 - **ORCHESTRATION.md** — Master guide for orchestration systems
 - **MEMORY_SETUP.md** — Memory system configuration
 - **CAPABILITIES.md** — Detailed capability registry
+- **PIPELINE_TRIGGER.md** — Agent routing + post-task pipeline (interface-specific)
+- **INTERFACE_MATRIX.md** — What tools work in which interface
+
+---
+
+## ✅ POST-TASK CHECKLIST (MANDATORY — execute after EVERY task)
+
+> Note: Claude Code hooks auto-trigger parts of this via `pipeline-trigger.cjs` on TaskCompleted.
+> But still verify manually — hooks are a safety net, not a replacement for diligence.
+
+1. **Security check**: Review your changes against Shannon checklist:
+   - 🔴 Injection (SQL, command, template, deserialization)
+   - 🔴 XSS (DOM, reflected, stored)
+   - 🔴 Auth bypass (missing checks, hardcoded tokens)
+   - 🔴 Secrets (API keys, passwords in code)
+   - 🔴 SSRF / path traversal
+   - If vulnerabilities found → fix immediately, then re-check
+   - Full methodology: `COMBINED/security/security-shannon/SHANNON-PRO.md`
+
+2. **Self-learning (Hermes)**: If you discovered a novel pattern:
+   - Create skill: `COMBINED/skills/{domain}/{pattern-name}/SKILL.md`
+   - Save insight: `mcp supermemory add "<what was done and why>" tags:[domain]`
+   - Update codebase context: `mcp openviking write "<what changed>"`
+
+3. **Quality report**: End your response with:
+   ```
+   ═══════════════════════════════════
+   ✅ Security: [PASS / ISSUES FIXED (describe)]
+   ✅ Learned:  [NONE / New pattern: (describe)]
+   ✅ Changed:  [list of files]
+   ✅ Tests:    [PASS / FAIL / N/A]
+   ═══════════════════════════════════
+   ```
 
 ---
 
 *Combined from: oh-my-claudecode, claude-skills, background-agents, ruflo, get-shit-done, superpowers, everything-claude-code, awesome-claude-code, and 46 additional repositories. ULTRACAR v3.0 — 54 repositories total.*
 
-**Last Updated:** 2026-04-14
+**Last Updated:** 2026-04-15

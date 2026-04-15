@@ -1,0 +1,231 @@
+# PIPELINE_TRIGGER.md — Universal Pre/Post-Task Pipeline
+
+> **Read by ALL AI interfaces.** This file defines the mandatory steps EVERY agent
+> must execute BEFORE and AFTER completing a task. No exceptions.
+> Last updated: 2026-04-15
+
+---
+
+## 🧭 PRE-TASK PIPELINE (before starting)
+
+### Step 1: Memory Check
+
+**Claude Code / Cursor** (MCP available):
+```
+mcp supermemory search "<task keywords>"
+```
+
+**Copilot / Codex / Gemini / Antigravity** (CLI workaround):
+```bash
+npx -y supermemory search "<task keywords>"
+# If fails: skip gracefully, proceed without prior context
+```
+
+**Purpose**: Don't redo work that was already done. If prior work exists, build on it.
+
+### Step 2: Agent Selection
+
+Classify the user's task and select the correct mega-agent:
+
+```
+IF task mentions bug/error/crash/fix/broken/не работает
+  → READ COMBINED/agents/mega/mega-debugger.md
+
+IF task mentions UI/design/frontend/component/CSS/layout/страница/дизайн
+  → READ COMBINED/agents/mega/mega-designer.md
+
+IF task mentions plan/architecture/roadmap/PRD/design-doc/план/архитектура
+  → READ COMBINED/agents/mega/mega-planner.md
+
+IF task mentions research/analyze/investigate/compare/исследуй/сравни
+  → READ COMBINED/agents/mega/mega-researcher.md
+
+IF task mentions security/vulnerability/audit/pentest/безопасность
+  → READ COMBINED/agents/mega/mega-security.md
+
+IF task mentions SEO/meta/sitemap/search-ranking/поисковая оптимизация
+  → READ COMBINED/agents/mega/mega-seo.md
+
+IF task mentions review/code-review/PR-review/проверь код
+  → READ COMBINED/agents/mega/mega-reviewer.md
+
+IF task mentions test/TDD/coverage/unit-test/тест
+  → READ COMBINED/agents/mega/mega-tester.md
+
+IF task mentions docs/README/documentation/API-docs/документация
+  → READ COMBINED/agents/mega/mega-writer.md
+
+IF task mentions deploy/CI/CD/git/pipeline/docker/деплой
+  → READ COMBINED/agents/mega/mega-devops.md
+
+IF task mentions infrastructure/swarm/scaling/consensus/инфраструктура
+  → READ COMBINED/agents/mega/mega-infrastructure.md
+
+IF task mentions system-design/ADR/trade-off/системный дизайн
+  → READ COMBINED/agents/mega/mega-architect.md
+
+IF task is complex (multiple concerns, full feature, admin panel, dashboard)
+  → READ COMBINED/agents/mega/mega-orchestrator.md
+  → Orchestrator decomposes into sub-tasks and delegates to other agents
+
+DEFAULT (simple coding task)
+  → READ COMBINED/agents/mega/mega-coder.md
+```
+
+### Step 3: Codebase Map (if coding)
+
+**Claude Code / Cursor** (MCP):
+```
+mcp gitnexus map
+```
+
+**Copilot / Codex / Gemini / Antigravity** (CLI):
+```bash
+npx -y gitnexus@latest map
+# If not available: manually inspect project structure with ls/find
+```
+
+**Purpose**: Understand the project structure before making changes.
+
+### Step 4: Load Context
+
+**Claude Code / Cursor** (MCP):
+```
+mcp openviking read
+```
+
+**Others** (CLI):
+```bash
+npx -y @openviking/mcp
+# If not available: check recent git log for context
+```
+
+**Purpose**: Load prior decisions and context about this codebase.
+
+---
+
+## 🔄 POST-TASK PIPELINE (after completing, MANDATORY)
+
+### Step A: Security Check (Shannon)
+
+For ANY code change, perform a quick security review:
+
+1. **Read** `COMBINED/security/security-shannon/SHANNON-PRO.md` (first time only — memorize the checklist)
+2. **Check your changes** against these categories:
+   - 🔴 Injection (SQL, command, template, deserialization)
+   - 🔴 XSS (DOM, reflected, stored)
+   - 🔴 Authentication/Authorization bypass
+   - 🔴 SSRF / path traversal
+   - 🔴 Hardcoded secrets or credentials
+   - 🔴 Insecure direct object references (IDOR)
+3. **If vulnerabilities found** → Fix them immediately, then re-check
+4. **If web-facing** → Use Lightpanda for dynamic verification when possible
+
+**Skip conditions**: Documentation-only changes, config changes, comments
+
+### Step B: Self-Learning (Hermes)
+
+After completing the task, evaluate what you learned:
+
+1. **Was this a novel pattern?** (new approach, unusual solution, important tradeoff)
+   - YES → Create a skill file: `COMBINED/skills/{domain}/{pattern-name}/SKILL.md`
+   - NO → Continue
+2. **Save insights to memory**:
+
+   **Claude Code / Cursor** (MCP):
+   ```
+   mcp supermemory add "<what was done and why>" tags:[domain, pattern-type]
+   ```
+
+   **Others** (CLI):
+   ```bash
+   npx -y supermemory add "<what was done and why>" --tags "<domain>"
+   # If fails: document the learning in a comment in the code instead
+   ```
+
+3. **Update codebase context**:
+
+   **Claude Code / Cursor** (MCP):
+   ```
+   mcp openviking write "<what changed and why>"
+   ```
+
+   **Others**: Skip — codebase context will be rebuilt on next gitnexus map.
+
+### Step C: Quality Report
+
+Include this at the end of every task response:
+
+```
+═══════════════════════════════════
+✅ Security: [PASS / ISSUES FIXED (describe)]
+✅ Learned:  [NONE / New pattern: (describe)]
+✅ Changed:  [list of files]
+✅ Tests:    [PASS / FAIL / N/A]
+═══════════════════════════════════
+```
+
+---
+
+## ⚡ WHEN TO RUN FULL PIPELINE vs QUICK CHECK
+
+| Task Type | Pre-Task | Post-Task |
+|-----------|----------|-----------|
+| Simple fix (typo, style) | Skip Steps 2-4 | Quick security glance only |
+| Feature implementation | All 4 steps | Full pipeline (A + B + C) |
+| UI/Design work | Steps 2-4 | Security A + Report C |
+| Bug fix | All 4 steps | Full pipeline (A + B + C) |
+| Documentation | Skip Steps 3-4 | Skip A, do B + C |
+| Architecture/Planning | Steps 1-2 | Skip A, do B + C |
+| Security audit | Steps 1-3 | B + C only |
+
+---
+
+## 🖥️ INTERFACE-SPECIFIC NOTES
+
+### Claude Code (Best Experience)
+- ✅ All 4 pre-task steps auto-triggered via hooks in `settings.json`
+- ✅ Post-task auto-triggered via `TaskCompleted` hook → `pipeline-trigger.cjs`
+- ✅ Agent Teams available for parallel delegation
+- **You**: Just focus on the task — the hooks handle the pipeline.
+
+### Cursor (Strong Experience)
+- ✅ 8 MCP servers available — use them aggressively
+- ⚠️ No hooks — manually follow startup sequence at start of EACH conversation
+- ✅ Auto-attach rules trigger security and design checks on matching files
+- **You**: Run the startup sequence explicitly, then execute. MCP is your power.
+
+### GitHub Copilot (Good Experience)
+- ❌ No MCP — use CLI workarounds from terminal
+- ✅ Squad for team coordination (your exclusive advantage)
+- ✅ `.github/agents/*.agent.md` for custom agents
+- **You**: Run CLI commands for tools. Use Squad for complex multi-concern tasks.
+
+### OpenAI Codex (Sandbox)
+- ❌ No MCP — use CLI workarounds in your sandbox
+- ✅ Sandboxed execution — run batch operations safely
+- **You**: Run CLI commands in sandbox. Leverage parallel execution.
+
+### Gemini CLI (Multimodal)
+- ❌ No MCP — use CLI workarounds from terminal
+- ✅ nano-banana image generation (your native advantage)
+- ✅ Long context window (2M tokens) — read entire mega-agent files
+- **You**: Run CLI commands. Leverage multimodal understanding and image generation.
+
+### Antigravity (Hooks + Browser)
+- ❌ No MCP natively — use CLI workarounds
+- ✅ Browser subagent for visual testing
+- ✅ Built-in image generation
+- **You**: Use browser subagent for web tasks. Run CLI commands for tools.
+
+---
+
+## 📍 REFERENCES
+
+- `CAPABILITIES.md` — full capability registry
+- `AGENTS.md` — all 15 mega-agents and 54 repository catalog
+- `PIPELINE.md` — detailed pipeline architecture (for deep understanding)
+- `INTERFACE_MATRIX.md` — what tools work in which interface
+- `COMBINED/security/security-shannon/SHANNON-PRO.md` — security methodology
+- `COMBINED/orchestration/core-hermes/` — self-learning system
+- `COMBINED/agents/mega/` — all mega-agent definitions

@@ -59,7 +59,8 @@ ULTRACAR is not just a collection of repos — it's a **unified autonomous syste
 │                                                                     │
 │  ┌──────────────────────────────────────────────────────────────┐   │
 │  │  🧠 BRAIN — Configuration Layer                              │   │
-│  │  AGENTS.md · CAPABILITIES.md · PIPELINE.md                    │   │
+│  │  AGENTS.md · CAPABILITIES.md · PIPELINE.md · PIPELINE_TRIGGER │   │
+│  │  INTERFACE_MATRIX.md                                           │   │
 │  │  ┌────────────────────────────────────────────────────────┐   │   │
 │  │  │  IDE Configs (all identical ULTRACAR v3.0 identity)     │   │   │
 │  │  │  .claude/ · .cursor/ · .github/ · .codex/ · .gemini/   │   │   │
@@ -83,11 +84,12 @@ ULTRACAR is not just a collection of repos — it's a **unified autonomous syste
 │  └──────────────────────────────────────────────────────────────┘   │
 │                                                                     │
 │  ┌───────────────┐  ┌───────────────┐  ┌───────────────────────┐   │
-│  │ 🛡️ SECURITY   │  │ 🧠 MEMORY     │  │ 🔌 MCP SERVERS (12)  │   │
-│  │ Shannon Pro   │  │ Supermemory   │  │ Lightpanda · GitNexus │   │
-│  │ Code Review   │  │ Claude-Mem    │  │ mcp-toolbox · markit  │   │
-│  │ Graph         │  │ OpenViking    │  │ code-review-graph     │   │
-│  └───────────────┘  └───────────────┘  │ taskmaster · archon   │   │
+│  │ 🛡️ SECURITY   │  │ 🧠 MEMORY     │  │ 🔌 MCP SERVERS        │   │
+│  │ Shannon Pro   │  │ Supermemory   │  │ ✅ 9 configured       │   │
+│  │ Code Review   │  │ Claude-Mem    │  │ Lightpanda · GitNexus │   │
+│  │ Graph         │  │ OpenViking    │  │ mcp-toolbox · markit  │   │
+│  └───────────────┘  └───────────────┘  │ code-review-graph     │   │
+│                                         │ ⚠️ 3 planned          │   │
 │                                         └───────────────────────┘   │
 │  ┌───────────────┐  ┌───────────────┐  ┌───────────────────────┐   │
 │  │ 🎨 DESIGN     │  │ 📚 SKILLS     │  │ 💬 PROMPTS            │   │
@@ -110,7 +112,7 @@ ULTRACAR is not just a collection of repos — it's a **unified autonomous syste
 | Mega-Agents | **15** | One for every task type |
 | Orchestration Systems | **23** | From lightweight to enterprise swarms |
 | Memory Systems | **3** | Short-term, long-term, codebase |
-| MCP Servers | **12** | Browser, DB, images, files, code analysis |
+| MCP Servers | **9 active + 3 planned** | Browser, DB, images, files, code analysis |
 | UI Components | **3,000+** | Galaxy + shadcn/ui + Stitch |
 | Design Rules | **200+** | UI/UX Pro Max + Impeccable + Taste-skill |
 | Skills | **3,000+** | 24 categories |
@@ -374,9 +376,11 @@ flowchart TD
 
 ---
 
-## 🔌 MCP Servers — 12 Always Available
+## 🔌 MCP Servers
 
 MCP (Model Context Protocol) servers extend AI capabilities:
+
+### ✅ 9 Configured and Ready
 
 | Server | Purpose | Why You Need It |
 |:-------|:--------|:---------------|
@@ -385,13 +389,18 @@ MCP (Model Context Protocol) servers extend AI capabilities:
 | 🧠 **Supermemory** | Long-term memory | #1 on LongMemEval, LoCoMo, ConvoMem benchmarks. Remembers everything across sessions. |
 | 📂 **OpenViking** | Codebase context | ByteDance's context database. Unified memory for resources and skills. |
 | 🖼️ **Nano-Banana** | Image generation | MCP server for Gemini image gen. 1K–4K resolution, aspect ratio control. |
-| 📐 **Pretext** | Text layout | Multiline text measurement. No DOM reflow. All languages + emoji support. |
 | 🗄️ **mcp-toolbox** | Database access | PostgreSQL, MySQL, BigQuery, MongoDB, Redis, Elasticsearch, CockroachDB, ClickHouse, Snowflake, Neo4j, Oracle — 20+ databases. |
 | 📄 **markitdown** | File conversion | PDF, DOCX, XLSX, PPTX, images, audio, HTML, ZIP → clean Markdown. |
 | 📊 **code-review-graph** | Code structure | AST analysis with 8.2x token reduction. 19 languages. 22 MCP tools. Blast-radius. Dead code detection. |
-| 📋 **Task Master** | Task management | AI-driven: PRD→tasks→dependencies. 36 MCP tools. Complexity analysis. Multi-model support. |
-| ⚙️ **Archon** | YAML workflows | 17 deterministic workflows. DAG execution. Fire-and-forget. |
-| 🔧 **mcp-toolbox-sdk** | Database SDK | Python, JS/TS, Go, Java SDKs for LangChain, LlamaIndex, ADK, Genkit. |
+| 🔧 **claude-flow** | Agent teams | Claude Code exclusive — swarm coordination, agent teams. |
+
+### ⚠️ 3 Planned — Not Yet Configured
+
+| Server | Purpose | Status |
+|:-------|:--------|:-------|
+| 📐 **Pretext** | Text layout | ⚠️ PLANNED — not yet configured in any interface |
+| 📋 **Task Master** | Task management | ⚠️ PLANNED — AI-driven: PRD→tasks→dependencies. 36 MCP tools. |
+| ⚙️ **Archon** | YAML workflows | ⚠️ PLANNED — 17 deterministic workflows. DAG execution. |
 
 ---
 
@@ -580,6 +589,8 @@ vibe-coder/
 ├── AGENTS.md                    ← Universal agent catalog (all 6 IDEs read this)
 ├── CAPABILITIES.md              ← Complete rules and capability registry
 ├── PIPELINE.md                  ← Extended autonomous pipeline specification
+├── PIPELINE_TRIGGER.md          ← Agent routing decision tree + post-task pipeline
+├── INTERFACE_MATRIX.md          ← What tools/MCP/skills work in which interface
 ├── MEMORY_SETUP.md              ← Memory system configuration guide
 │
 ├── .claude/                     ← Claude Code
@@ -596,8 +607,8 @@ vibe-coder/
 │   └── prompts/                    Reusable prompts (.prompt.md)
 │
 ├── .cursor/                     ← Cursor AI
-│   ├── rules/                      6 rule files (.mdc) — auto-attached
-│   └── mcp.json                    12 MCP server configs
+│   ├── rules/                      8 rule files (.mdc) — auto-attached (incl. pipeline + testing)
+│   └── mcp.json                    MCP server configs
 │
 ├── .codex/                      ← OpenAI Codex
 │   └── AGENTS.md                   ULTRACAR v3.0 identity
@@ -683,9 +694,10 @@ Browse the categories above, find what you need, and grab individual folders.
 Copy this prompt to your AI coding assistant:
 
 ```
-Read the CAPABILITIES.md file in this repo first. Then check AGENTS.md for the 
-full agent catalog. Use the mega-agent system to handle my task. Start by checking
-Supermemory for any prior work on similar tasks.
+Read PIPELINE_TRIGGER.md first — it has the agent routing decision tree.
+Then read CAPABILITIES.md for full rules. Use the mega-agent system to 
+handle my task. Check INTERFACE_MATRIX.md for what tools work in your IDE.
+After completing the task, follow the post-task pipeline in PIPELINE_TRIGGER.md.
 ```
 
 ### 💡 Quick Start for Each IDE

@@ -57,11 +57,15 @@ system-prompts-and-models (35+ AI tool prompt archive).
 ## ⚡ MANDATORY FIRST STEPS
 
 Before ANY task:
-1. **Read `CAPABILITIES.md`** — defines all 5 hardcoded rules, tools, and agents
-2. **Read `PIPELINE.md`** — defines the autonomous execution pipeline
+1. **Read `PIPELINE_TRIGGER.md`** — contains the agent routing decision tree and post-task checklist
+2. **Read `CAPABILITIES.md`** — defines all 5 hardcoded rules, tools, and agents
 3. **Check memory**: `mcp supermemory search "<task>"` — was this done before?
-4. **Map code**: `mcp gitnexus map` — understand codebase
-5. **Build code graph**: `mcp code-review-graph build` — structural analysis (optional but recommended)
+4. **Select mega-agent** using the routing decision tree in `PIPELINE_TRIGGER.md`
+5. **Map code**: `mcp gitnexus map` — understand codebase (if coding task)
+6. **Build code graph**: `mcp code-review-graph build` — structural analysis (optional but recommended)
+
+> **After EVERY task**: Follow the POST-TASK PIPELINE in `PIPELINE_TRIGGER.md` (security check + self-learning).
+> **Cross-reference**: See `INTERFACE_MATRIX.md` for what tools/MCP servers work in your interface.
 
 ---
 
@@ -280,7 +284,9 @@ All in `COMBINED/skills/`:
 
 ---
 
-## MCP TOOLS AVAILABLE (12 servers)
+## MCP TOOLS AVAILABLE
+
+### ✅ Configured and Ready (9 servers)
 
 ```json
 {
@@ -289,17 +295,25 @@ All in `COMBINED/skills/`:
   "supermemory":       "Long-term memory across sessions (#1 on benchmarks)",
   "openviking":        "Codebase context memory (ByteDance)",
   "nano-banana":       "Image generation via Gemini",
-  "pretext":           "Text layout",
-  "mcp-toolbox":       "Database access (PostgreSQL, MySQL, BigQuery, MongoDB, Redis, Elasticsearch, CockroachDB, ClickHouse, Snowflake, Neo4j, Oracle, 20+)",
-  "mcp-toolbox-sdk":   "Database SDK (Python, JS/TS, Go, Java — LangChain, LlamaIndex, ADK, Genkit)",
+  "mcp-toolbox":       "Database access (PostgreSQL, MySQL, BigQuery, MongoDB, Redis, 20+)",
   "markitdown":        "File→Markdown (PDF, DOCX, XLSX, PPTX, images, audio, HTML, ZIP)",
-  "code-review-graph": "Structural code graph (8.2x token reduction, blast-radius, 19 languages, 22 MCP tools, community detection, refactoring)",
-  "taskmaster":        "AI-driven task management (PRD→tasks→dependencies, 36 MCP tools, complexity analysis, multi-model)",
-  "archon":            "YAML workflow engine (17 deterministic workflows, DAG execution, fire-and-forget)"
+  "code-review-graph": "Structural code graph (8.2x token reduction, blast-radius, 19 languages, 22 MCP tools)",
+  "claude-flow":       "Claude Code exclusive — agent teams, swarm coordination"
+}
+```
+
+### ⚠️ PLANNED — Not Yet Configured (3 servers)
+
+```json
+{
+  "pretext":           "⚠️ PLANNED — Text layout (not yet configured in any interface)",
+  "taskmaster":        "⚠️ PLANNED — AI-driven task management (see COMBINED/orchestration/core-taskmaster/)",
+  "archon":            "⚠️ PLANNED — YAML workflow engine (see COMBINED/orchestration/core-archon/)"
 }
 ```
 
 Full config: `.cursor/mcp.json`, `.claude/settings.json`
+Cross-reference: `INTERFACE_MATRIX.md` — shows which MCP servers work in which interface
 
 ---
 

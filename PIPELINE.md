@@ -30,6 +30,9 @@ The pipeline ensures every task is:
 ```
 ┌──────────────────────────────────────────────────────────────────┐
 │  STEP 0: TASK MASTER (Task Structuring)                          │
+│  ⚠️ MCP STATUS: PLANNED — not yet configured                     │
+│  • If MCP available: use taskmaster tools (36 available)          │
+│  • If MCP unavailable: decompose tasks MANUALLY inline           │
 │                                                                  │
 │  1. Parse PRD or user request                                   │
 │  2. Decompose into tasks with dependencies                      │
@@ -41,6 +44,9 @@ The pipeline ensures every task is:
                                 ▼
 ┌──────────────────────────────────────────────────────────────────┐
 │  STEP 0.5: ARCHON (YAML DAG Workflow) [optional]                 │
+│  ⚠️ MCP STATUS: PLANNED — not yet configured                     │
+│  • If configured: use Archon workflows                           │
+│  • If unavailable: skip — proceed directly to Step 1             │
 │                                                                  │
 │  1. Load workflow definition (17 default or custom YAML)         │
 │  2. Build deterministic DAG from task dependencies              │
