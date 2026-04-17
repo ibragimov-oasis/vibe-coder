@@ -1,13 +1,1 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200">
-  <!-- Black rounded square background -->
-  <rect x="0" y="0" width="200" height="200" rx="24" ry="24" fill="#1a1a1a"/>
-
-  <!-- Stylized A lettermark -->
-  <path d="
-    M 40 160
-    L 100 40
-    L 160 160
-  " fill="none" stroke="white" stroke-width="18" stroke-linecap="round" stroke-linejoin="round"/>
-  <!-- Crossbar -->
-  <line x1="62" y1="120" x2="138" y2="120" stroke="white" stroke-width="18" stroke-linecap="round"/>
-</svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="200" height="200" viewBox="0 0 200 200"><rect width="200" height="200" x="0" y="0" fill="#1a1a1a" rx="24" ry="24"/><path fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="18" d="M 40 160 L 100 40 L 160 160"/><line x1="62" x2="138" y1="120" y2="120" stroke="#fff" stroke-linecap="round" stroke-width="18"/></svg>
