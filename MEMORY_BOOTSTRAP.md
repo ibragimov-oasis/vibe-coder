@@ -51,10 +51,21 @@
 ## 🔴 5 Rules (NEVER break)
 
 1. **Browser** = Lightpanda ONLY. Never Chrome. 9× faster.
-2. **Memory** = Check supermemory before task, save after.
+2. **Memory-First** = Build code graph → check supermemory → query graph instead of reading files → save after.
 3. **Design** = Galaxy → shadcn → Impeccable → Taste-skill → Stitch → UI/UX Pro Max.
-4. **Pipeline** = Task Master → Background Agent → Hermes → Shannon → Code Review Graph.
+4. **Pipeline** = Memory Bootstrap → Task Master → Background Agent → Hermes → Shannon → Code Review Graph.
 5. **Self-improve** = Hermes extracts patterns → creates skills → saves to memory.
+
+### 🧠 Memory Layer Architecture (see `MEMORY.md` for full protocol)
+
+| Layer | System | Storage | Token Savings | Required |
+|:-----:|--------|---------|:-------------:|:--------:|
+| **1** | code-review-graph | `.code-review-graph/graph.db` (local SQLite) | **8.2x** | ⛔ YES |
+| **2** | Claude-Mem | `~/.claude-mem/claude-mem.db` | ~10x | Recommended |
+| **3** | OpenViking | Virtual FS (L0/L1/L2 tiers) | 91% | Optional |
+
+**First session**: Auto-install + build full graph (~10 seconds)
+**Every subsequent session**: Incremental update (<2 seconds)
 
 ---
 
@@ -63,7 +74,7 @@
 | Interface | MCP | Unique Power | Config File |
 |-----------|:---:|-------------|-------------|
 | **Claude Code** | ✅ 9 servers | Hooks + Agent Teams + OMC + Subagents | `.claude/CLAUDE.md` |
-| **Cursor** | ✅ 8 servers | Auto-attach rules + Composer | `.cursor/rules/main.mdc` |
+| **Cursor** | ✅ 9 servers | Auto-attach rules + Composer | `.cursor/rules/main.mdc` |
 | **Copilot** | ⚡ CLI | Squad teams + 15 .agent.md files | `.github/copilot-instructions.md` |
 | **Codex** | ⚡ CLI | Sandboxed execution | `.codex/AGENTS.md` |
 | **Gemini** | ⚡ CLI | nano-banana + 2M context + search | `.gemini/GEMINI.md` |

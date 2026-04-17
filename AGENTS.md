@@ -302,13 +302,13 @@ All in `COMBINED/skills/`:
 }
 ```
 
-### ⚠️ PLANNED — Not Yet Configured (3 servers)
+### ✅ Recently Activated
 
 ```json
 {
-  "pretext":           "⚠️ PLANNED — Text layout (not yet configured in any interface)",
-  "taskmaster":        "⚠️ PLANNED — AI-driven task management (see COMBINED/orchestration/core-taskmaster/)",
-  "archon":            "⚠️ PLANNED — YAML workflow engine (see COMBINED/orchestration/core-archon/)"
+  "task-master-ai":    "✅ ACTIVE — AI task management, PRD→tasks→dependencies, 36 tools. npx -y task-master-ai",
+  "archon":            "⚡ CLI TOOL — YAML workflow engine, 17 DAGs. npx archon run <workflow.yaml>",
+  "pretext":           "⚠️ PLANNED — Text layout (not yet configured in any interface)"
 }
 ```
 

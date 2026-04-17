@@ -34,13 +34,40 @@ For **ANY** web request, screenshot, or site check —
 
 Lightpanda docs: `COMBINED/mcp-servers/mcp-lightpanda/`
 
-### RULE #2: MEMORY
+### RULE #2: MEMORY-FIRST — ⛔ Build Graph, Check BEFORE, Save AFTER
+
+> **THIS IS THE MOST IMPORTANT RULE. If you skip this, you waste ~87% more tokens.**
+> **Run `bash memory-bootstrap.sh` as the ABSOLUTE FIRST action in every session.**
+
+**⛔ Phase 0 — Memory Bootstrap (Run BEFORE any task — NON-NEGOTIABLE):**
+
+**Option A — Bootstrap script (recommended):**
+```bash
+bash memory-bootstrap.sh
+```
+
+**Option B — Manual:**
+```bash
+# Mandatory: build/update code graph (8.2x token reduction):
+if [ ! -f .code-review-graph/graph.db ]; then
+  pip install code-review-graph 2>/dev/null && code-review-graph build
+else
+  code-review-graph update  # <2 seconds
+fi
+```
+
+> Full protocol: **Read `MEMORY.md`** for complete 3-layer architecture.
+
+**Memory layers:**
+- **Code graph (⛔ mandatory)**: `.code-review-graph/graph.db` — SQLite AST graph, 22 MCP tools
 - **Short-term** (session): claude-mem → `COMBINED/memory/memory-claude-mem/`
 - **Long-term** (cross-session): supermemory → `https://mcp.supermemory.ai/mcp`
 - **Codebase context**: OpenViking → `COMBINED/mcp-servers/mcp-openviking/`
 
-Before **ANY** task: check memory for prior work.
-After **ANY** task: save learnings to supermemory.
+**API keys**: Copy `.env.example` to `.env` and fill in your keys.
+
+Before **ANY** task: query code graph + check supermemory for prior work.
+After **ANY** task: save learnings to supermemory + update code graph.
 
 ### RULE #3: UI / DESIGN
 If a task involves UI, frontend, or design:
@@ -460,13 +487,13 @@ systems (23 total):
 | `code-review-graph` | Structural code graph (8.2x token reduction, blast-radius, 19 languages, 22 MCP tools) | `code-review-graph` | `pip install code-review-graph && code-review-graph install` |
 | `claude-flow` | Claude Code exclusive — agent teams, swarm coordination | `claude-flow` | See `.claude/settings.json` |
 
-### ⚠️ PLANNED — Not Yet Configured (3 servers)
+### ✅ Recently Activated
 
 | Server | Purpose | Status |
 |--------|---------|--------|
-| `pretext` | Text layout | ⚠️ PLANNED — no config in any interface yet |
-| `taskmaster` | AI-driven task management (PRD→tasks, 36 tools) | ⚠️ PLANNED — see `COMBINED/orchestration/core-taskmaster/` |
-| `archon` | YAML workflow engine (17 deterministic workflows) | ⚠️ PLANNED — see `COMBINED/orchestration/core-archon/` |
+| `task-master-ai` | AI task management (PRD→tasks, 36 tools) | ✅ ACTIVE — `npx -y task-master-ai` (added to settings.json + mcp.json) |
+| `archon` | YAML workflow engine (17 deterministic workflows) | ⚡ CLI — `npx archon run <workflow.yaml>` |
+| `pretext` | Text layout | ⚠️ PLANNED — not yet configured |
 
 Full config: `.cursor/mcp.json`, `.claude/settings.json`
 Cross-reference: `INTERFACE_MATRIX.md` — shows which MCP servers work in which interface

@@ -396,6 +396,17 @@
         "serve"
       ],
       "description": "Tree-sitter AST code graph — 8.2x token reduction, blast-radius, 19 languages"
+    },
+    "task-master-ai": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "task-master-ai"
+      ],
+      "env": {
+        "TASK_MASTER_TOOLS": "all"
+      },
+      "description": "AI task management — PRD→tasks→dependencies. 36 tools. Complexity analysis."
     }
   },
   "enabledMcpjsonServers": [

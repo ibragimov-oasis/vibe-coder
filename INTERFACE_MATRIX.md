@@ -20,8 +20,8 @@
 | **code-review-graph** | ✅ MCP | ✅ MCP | ⚡ CLI | ⚡ CLI | ⚡ CLI | ⚡ CLI | `uv run code-review-graph serve` |
 | **claude-flow** | ✅ MCP | ❌ | ❌ | ❌ | ❌ | ❌ | Claude Code exclusive (agent teams) |
 | **pretext** | ⚠️ PLANNED | ⚠️ PLANNED | — | — | — | — | Not yet configured |
-| **taskmaster** | ⚠️ PLANNED | ⚠️ PLANNED | — | — | — | — | `COMBINED/orchestration/core-taskmaster/` |
-| **archon** | ⚠️ PLANNED | ⚠️ PLANNED | — | — | — | — | `COMBINED/orchestration/core-archon/` |
+| **task-master-ai** | ✅ MCP | ✅ MCP | ⚡ CLI | ⚡ CLI | ⚡ CLI | ⚡ CLI | `npx -y task-master-ai` |
+| **archon** | ⚡ CLI | ⚡ CLI | ⚡ CLI | ⚡ CLI | ⚡ CLI | ⚡ CLI | `npx archon run <workflow.yaml>` |
 
 **Legend**: 
 - ✅ MCP = Configured as MCP server, works natively
@@ -30,6 +30,21 @@
 - ❌ = Not available for this interface
 
 > **For interfaces without MCP**: Every tool that has a ⚡ CLI column can be used via terminal commands. The CLI commands give you the same functionality — just without the MCP integration layer. If a CLI command fails, skip gracefully and proceed.
+
+---
+
+## 🧠 Memory Systems (Phase 0 — runs before everything)
+
+> See `MEMORY.md` for full protocol.
+
+| Layer | System | Claude Code | Cursor | Copilot | Codex | Gemini | Antigravity | Method |
+|:-----:|--------|:-:|:-:|:-:|:-:|:-:|:-:|--------|
+| **1** ⛔ | **code-review-graph** | ✅ MCP (22 tools) | ✅ MCP (22 tools) | ⚡ CLI | ⚡ CLI | ⚡ CLI | ⚡ CLI | `code-review-graph build/update` |
+| **2** | **Claude-Mem** | ✅ Plugin | ❌ | ❌ | ❌ | ❌ | ❌ | Claude Code plugin only |
+| **2** | **Supermemory** | ✅ MCP | ✅ MCP | ⚡ CLI | ⚡ CLI | ⚡ CLI | ⚡ CLI | Cross-platform alternative to Claude-Mem |
+| **3** | **OpenViking** | ✅ MCP | ✅ MCP | ⚡ CLI | ⚡ CLI | ⚡ CLI | ⚡ CLI | Optional L0/L1/L2 tiers |
+
+**Layer 1 is MANDATORY** — auto-installs and builds on first session. Layers 2-3 are recommended.
 
 ---
 
@@ -88,7 +103,7 @@ All mega-agents are file-based (`COMBINED/agents/mega/*.md`). Any interface that
 | **Claude Code** | Subagent spawning | ✅ Active | Opus for complex, Haiku for simple |
 | **Cursor** | Auto-attach rules (.mdc with globs) | ✅ Active | Rules fire on matching file patterns |
 | **Cursor** | Composer mode | ✅ Active | Multi-file editing with full context |
-| **Cursor** | 8 MCP servers | ✅ Active | `.cursor/mcp.json` — USE AGGRESSIVELY |
+| **Cursor** | 9 MCP servers | ✅ Active | `.cursor/mcp.json` — USE AGGRESSIVELY |
 | **Copilot** | Squad agent teams | ✅ Documented | Casting, watch mode, decisions archive |
 | **Copilot** | Native GitHub integration | ✅ Native | PR creation, issue management |
 | **Copilot** | `.agent.md` custom agents | ✅ Active | `.github/agents/` — 15 mega-agents available |
@@ -115,10 +130,10 @@ All mega-agents are file-based (`COMBINED/agents/mega/*.md`). Any interface that
 | Hermes (self-learning) | All | All | File-based + supermemory |
 | Shannon (security) | All | Claude, Cursor | Lightpanda MCP/CLI for dynamic |
 | Background Agents | Claude | Claude | Sandboxed environments |
-| Archon (YAML DAG) | ⚠️ PLANNED | — | MCP server needed |
-| Task Master | ⚠️ PLANNED | — | MCP server needed |
-| PraisonAI | ⚠️ Standalone | — | Separate Python service |
-| cc-connect | ⚠️ Standalone | — | Separate service + chat platform |
+| Archon (YAML DAG) | All (CLI) | All | `npx archon run <workflow.yaml>` |
+| Task Master | Claude + Cursor (MCP), All (CLI) | Claude, Cursor | MCP natively, or `npx -y task-master-ai` CLI |
+| PraisonAI | Standalone service | — | Separate Python service |
+| cc-connect | Standalone service | — | Separate service + chat platform |
 
 ---
 
@@ -126,7 +141,7 @@ All mega-agents are file-based (`COMBINED/agents/mega/*.md`). Any interface that
 
 **I'm using Claude Code**: You have EVERYTHING. Full MCP, hooks, agent teams, OMC, subagents. Use this for complex tasks.
 
-**I'm using Cursor**: You have 8 MCP servers + auto-attach rules. Use MCP aggressively — you're the 2nd most capable. Missing: hooks, agent teams.
+**I'm using Cursor**: You have 9 MCP servers + auto-attach rules. Use MCP aggressively — you're the 2nd most capable. Missing: hooks, agent teams.
 
 **I'm using Copilot**: No MCP but you have Squad and GitHub integration. Best for PR reviews, issue-driven development, team coordination. Use CLI workarounds for tools. 15 mega-agents available as `.agent.md` files!
 

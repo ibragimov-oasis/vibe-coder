@@ -1,14 +1,44 @@
-# PIPELINE_TRIGGER.md — Universal Pre/Post-Task Pipeline
+# ⛔ PIPELINE_TRIGGER.md — Universal Pre/Post-Task Pipeline
 
 > **Read by ALL AI interfaces.** This file defines the mandatory steps EVERY agent
-> must execute BEFORE and AFTER completing a task. No exceptions.
-> Last updated: 2026-04-15
+> must execute BEFORE and AFTER completing a task. **No exceptions. No skipping. No "later".**
+> Last updated: 2026-04-17
 
 ---
 
 ## 🧭 PRE-TASK PIPELINE (before starting)
 
-### Step 1: Memory Check
+### ⛔ Step 0: Memory Bootstrap (MANDATORY — DO NOT SKIP)
+
+> **THIS STEP IS NON-NEGOTIABLE. Execute it BEFORE reading any other file.**
+> **If you skip this step, you waste ~87% more tokens than necessary.**
+> **That costs the user real money. DO NOT SKIP.**
+
+**Option A — Use the bootstrap script (recommended):**
+```bash
+bash memory-bootstrap.sh
+```
+
+**Option B — Manual (if script unavailable):**
+```bash
+# Check if code graph exists:
+if [ ! -f .code-review-graph/graph.db ]; then
+  # First session — auto-install and build:
+  pip install code-review-graph 2>/dev/null && code-review-graph build
+  # Fallback: npx -y gitnexus@latest map
+else
+  # Subsequent sessions — incremental update (<2 sec):
+  code-review-graph update
+fi
+```
+
+**After completion**: Tell the user: "🧠 Memory loaded — graph ready."
+
+**Purpose**: After graph exists, query it instead of reading files → 8.2x token savings.
+
+> Full protocol: **Read `MEMORY.md`** for complete 3-layer memory architecture.
+
+### Step 1: Memory Check (Supermemory)
 
 **Claude Code / Cursor** (MCP available):
 ```

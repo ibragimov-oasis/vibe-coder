@@ -1,8 +1,37 @@
+# ⛔ STOP — MEMORY BOOTSTRAP REQUIRED BEFORE ANYTHING ELSE
+
+> **DO NOT skip this section. DO NOT "come back to it later." DO NOT start any task without completing this.**
+> **Every token you waste reading files instead of querying the graph costs the user money.**
+
+### Step 1: Check if code graph exists
+```bash
+ls .code-review-graph/graph.db 2>/dev/null
+```
+
+### Step 2: If file does NOT exist → Build it NOW
+```bash
+bash memory-bootstrap.sh
+# If memory-bootstrap.sh is not available:
+pip install code-review-graph 2>/dev/null && code-review-graph build
+```
+
+### Step 3: If file EXISTS → Update it (takes <2 seconds)
+```bash
+code-review-graph update
+```
+
+### Step 4: Report memory status to user
+After build/update, tell the user: "🧠 Memory loaded — graph ready. Querying graph instead of reading files (~8.2x token savings)."
+
+### Step 5: NOW continue reading this file ↓
+
+---
+
 # CLAUDE.md — VIBE-CODER ULTRACAR System Instructions
 
 > **MANDATORY READ** — This is your primary identity and instruction set.
 > Combined Configuration for Claude Code — 54 repositories unified.
-> Last updated: 2026-04-14
+> Last updated: 2026-04-17
 
 ---
 
@@ -105,12 +134,29 @@ For **ANY** web task, screenshot, URL check, site verification, or browser testi
 # MCP server: see mcpServers.lightpanda in .claude/settings.json
 ```
 
-### RULE 2: MEMORY — Check BEFORE, Save AFTER
+### RULE 2: MEMORY-FIRST — Build Graph, Check BEFORE, Save AFTER
 
-**Before starting ANY task:**
-1. `mcp supermemory search "<task keywords>"` — was this done before?
-2. `mcp openviking read` — what's the codebase context?
-3. Check claude-mem if available — what's the session context?
+**⛔ PHASE 0 — MEMORY BOOTSTRAP (Run BEFORE any task):**
+
+```bash
+# 1. Check/build code graph (⛔ MANDATORY — saves 87% tokens):
+if [ ! -f .code-review-graph/graph.db ]; then
+  pip install code-review-graph 2>/dev/null && code-review-graph build
+else
+  code-review-graph update  # Incremental, <2 seconds
+fi
+
+# 2. If Python unavailable, use GitNexus as fallback:
+# npx -y gitnexus@latest map
+```
+
+> Full memory protocol: **Read `MEMORY.md`** for 3-layer architecture.
+
+**Before starting ANY task (after graph is ready):**
+1. `mcp code-review-graph get_review_context` — query graph instead of reading files
+2. `mcp supermemory search "<task keywords>"` — was this done before?
+3. `mcp openviking read` — what's the codebase context?
+4. Check claude-mem if available — what's the session context?
 
 **After finishing ANY task:**
 1. `mcp supermemory add` — save learnings, patterns, insights
@@ -118,6 +164,7 @@ For **ANY** web task, screenshot, URL check, site verification, or browser testi
 3. Claude-mem auto-captures observations via hooks
 
 **Memory Locations:**
+- **Code graph (mandatory)**: `.code-review-graph/graph.db` (SQLite, 8.2x token reduction)
 - Short-term (session): `COMBINED/memory/memory-claude-mem/`
 - Long-term (cross-session): `https://mcp.supermemory.ai/mcp`
 - Codebase context: `COMBINED/mcp-servers/mcp-openviking/`
@@ -145,14 +192,14 @@ For complex tasks, automatically run this extended pipeline:
 ```
 ╔══════════════════════════════════════════════════════════════╗
 ║ Step 0: TASK MASTER — Structure tasks from PRD               ║
-║   ⚠️ MCP STATUS: PLANNED — not yet configured               ║
+║   ✅ MCP: ACTIVE — npx -y task-master-ai (36 tools)         ║
 ║   • If MCP available: use taskmaster tools (36 available)    ║
 ║   • If MCP unavailable: decompose tasks MANUALLY inline      ║
 ║   • Parse PRD or user request into tasks                     ║
 ║   • Analyze complexity, create execution order               ║
 ╠══════════════════════════════════════════════════════════════╣
 ║ Step 0.5: ARCHON — YAML DAG workflow [optional]              ║
-║   ⚠️ MCP STATUS: PLANNED — not yet configured               ║
+║   ⚡ CLI TOOL — npx archon run <workflow.yaml>              ║
 ║   • If configured: load YAML workflow (17 defaults)          ║
 ║   • If unavailable: skip — proceed directly to Step 1        ║
 ║   • COMPLEMENTS Background Agent, not replaces it            ║
@@ -478,11 +525,12 @@ Auto-improve: if prompt is weak → find better one from prompts-templates/
 | `code-review-graph` | Structural code graph (8.2x token reduction, 22 MCP tools) | `code-review-graph` | `pip install code-review-graph` |
 | `claude-flow` | Agent teams, swarm coordination (Claude Code exclusive) | `claude-flow` | See MCP config |
 
-### ⚠️ PLANNED — Not Yet Configured (3 servers)
+### ✅ Recently Activated (was PLANNED)
+
 | Server | Purpose | Status |
 |--------|---------|--------|
-| `taskmaster` | AI task management (PRD→tasks, 36 tools) | ⚠️ PLANNED — use manual decomposition |
-| `archon` | YAML workflow engine (17 workflows) | ⚠️ PLANNED — skip Step 0.5 |
+| `task-master-ai` | AI task management (PRD→tasks, 36 tools) | ✅ ACTIVE — added to settings.json |
+| `archon` | YAML workflow engine (17 workflows) | ⚡ CLI — `npx archon run <workflow.yaml>` |
 | `pretext` | Text layout | ⚠️ PLANNED |
 
 Full config: `.claude/settings.json`, `.cursor/mcp.json`

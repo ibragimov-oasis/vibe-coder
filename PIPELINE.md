@@ -29,10 +29,23 @@ The pipeline ensures every task is:
 
 ```
 ┌──────────────────────────────────────────────────────────────────┐
+│  PRE-STEP: MEMORY BOOTSTRAP (⛔ MANDATORY FIRST)                 │
+│  • Check: does .code-review-graph/graph.db exist?                │
+│  • NO  → pip install code-review-graph && code-review-graph build│
+│  • YES → code-review-graph update  (incremental, <2 sec)        │
+│  • Fallback: npx -y gitnexus@latest map                         │
+│  • Full protocol: Read MEMORY.md                                 │
+│                                                                  │
+│  Result: SQLite graph with AST nodes, edges, flows, communities  │
+│  Effect: 8.2x token reduction — query graph instead of files     │
+└───────────────────────────────┬──────────────────────────────────┘
+                                │
+                                ▼
+┌──────────────────────────────────────────────────────────────────┐
 │  STEP 0: TASK MASTER (Task Structuring)                          │
-│  ⚠️ MCP STATUS: PLANNED — not yet configured                     │
-│  • If MCP available: use taskmaster tools (36 available)          │
-│  • If MCP unavailable: decompose tasks MANUALLY inline           │
+│  ✅ MCP: ACTIVE — npx -y task-master-ai (36 tools)               │
+│  • Claude/Cursor: use mcp task-master-ai tools                   │
+│  • Other interfaces: npx -y task-master-ai                       │
 │                                                                  │
 │  1. Parse PRD or user request                                   │
 │  2. Decompose into tasks with dependencies                      │
@@ -44,9 +57,9 @@ The pipeline ensures every task is:
                                 ▼
 ┌──────────────────────────────────────────────────────────────────┐
 │  STEP 0.5: ARCHON (YAML DAG Workflow) [optional]                 │
-│  ⚠️ MCP STATUS: PLANNED — not yet configured                     │
-│  • If configured: use Archon workflows                           │
-│  • If unavailable: skip — proceed directly to Step 1             │
+│  ⚡ CLI TOOL — npx archon run <workflow.yaml>                    │
+│  • 17+ YAML workflow templates in core-archon/                   │
+│  • Skip if simple task — proceed directly to Step 1              │
 │                                                                  │
 │  1. Load workflow definition (17 default or custom YAML)         │
 │  2. Build deterministic DAG from task dependencies              │
