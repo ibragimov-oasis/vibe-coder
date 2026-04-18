@@ -3,6 +3,9 @@ name: videos
 description: Embedding videos in Remotion - trimming, volume, speed, looping, pitch
 metadata:
   tags: video, media, trim, volume, speed, loop, pitch
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
 ---
 
 # Using videos in Remotion

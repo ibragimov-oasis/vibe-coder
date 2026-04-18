@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # Validation Patterns - Input Validation with Zod
 
 Complete guide to input validation using Zod schemas for type-safe validation.

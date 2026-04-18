@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # TypeScript Standards
 
 TypeScript best practices for type safety and maintainability in React frontend code.

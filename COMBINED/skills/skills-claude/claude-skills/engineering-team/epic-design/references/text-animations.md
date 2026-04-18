@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # Text Animation Reference
 
 ## Table of Contents

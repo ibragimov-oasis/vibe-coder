@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # Catálogo de Problemas por Domínio
 
 ## Skills e Orchestrator

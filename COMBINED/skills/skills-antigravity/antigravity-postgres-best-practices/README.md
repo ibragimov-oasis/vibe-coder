@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # Postgres Best Practices - Contributor Guide
 
 This repository contains Postgres performance optimization rules optimized for
@@ -117,3 +124,9 @@ See `rules/_contributing.md` for detailed guidelines. Key principles:
 | LOW-MEDIUM | 1.2-2x | VACUUM tuning, config tweaks |
 | LOW | Incremental | Advanced patterns, edge cases |
 ```
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

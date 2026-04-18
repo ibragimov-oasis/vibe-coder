@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
+---
+
 # /learn - 재사용 가능한 패턴 추출
 
 현재 세션을 분석하고 스킬로 저장할 가치가 있는 패턴을 추출합니다.

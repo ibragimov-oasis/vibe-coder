@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
+---
+
 # Skill Placement and Provenance Policy
 
 This document defines where generated, imported, and curated skills belong, how they are identified, and what gets shipped.

@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-data-analysis
+---
+
 # generate_network_graph — 网络关系图
 
 ## 功能概述

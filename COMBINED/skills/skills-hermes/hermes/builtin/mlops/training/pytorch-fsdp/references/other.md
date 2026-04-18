@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-hermes
+---
+
 # Pytorch-Fsdp - Other
 
 **Pages:** 15

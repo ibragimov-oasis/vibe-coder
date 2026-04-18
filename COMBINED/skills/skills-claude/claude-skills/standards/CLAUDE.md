@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # Standards Library - Claude Code Guidance
 
 This guide explains how to use the standards library for consistent quality across all skills and agents.

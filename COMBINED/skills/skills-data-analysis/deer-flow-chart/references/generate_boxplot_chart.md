@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-data-analysis
+---
+
 # generate_boxplot_chart — 箱型图
 
 ## 功能概述

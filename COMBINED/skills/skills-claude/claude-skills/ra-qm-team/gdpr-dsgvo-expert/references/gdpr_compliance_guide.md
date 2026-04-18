@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # GDPR Compliance Guide
 
 Practical implementation guidance for EU General Data Protection Regulation compliance.

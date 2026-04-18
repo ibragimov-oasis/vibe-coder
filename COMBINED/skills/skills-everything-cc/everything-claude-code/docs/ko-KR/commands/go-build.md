@@ -1,5 +1,9 @@
 ---
 description: Go build 에러, go vet 경고, 린터 이슈를 점진적으로 수정합니다. 최소한의 정밀한 수정을 위해 go-build-resolver 에이전트를 호출합니다.
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
 ---
 
 # Go Build and Fix

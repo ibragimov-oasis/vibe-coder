@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # Marketing Skills — Codex CLI Instructions
 
 When working on marketing tasks, use the marketing skill system:

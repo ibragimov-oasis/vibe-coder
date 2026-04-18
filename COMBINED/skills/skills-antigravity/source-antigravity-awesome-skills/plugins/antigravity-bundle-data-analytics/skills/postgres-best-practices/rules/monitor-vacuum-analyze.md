@@ -3,6 +3,9 @@ title: Maintain Table Statistics with VACUUM and ANALYZE
 impact: MEDIUM
 impactDescription: 2-10x better query plans with accurate statistics
 tags: vacuum, analyze, statistics, maintenance, autovacuum
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
 ---
 
 ## Maintain Table Statistics with VACUUM and ANALYZE

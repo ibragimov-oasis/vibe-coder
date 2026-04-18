@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # Priority 1 Batch Validation Report
 
 **Generated:** 2026-03-30

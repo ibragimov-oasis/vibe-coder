@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/seo
+  - artifact/doc
+  - source/skills-seo
+---
+
 # Banana Image Generation Extension for Claude SEO
 
 Generate production-ready SEO images using AI: OG/social previews, blog heroes,
@@ -93,3 +100,9 @@ the MCP server config is preserved.
 
 See [docs/BANANA-SETUP.md](docs/BANANA-SETUP.md) for detailed setup instructions
 and common issues.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-seo]] — Category: skills-seo
+

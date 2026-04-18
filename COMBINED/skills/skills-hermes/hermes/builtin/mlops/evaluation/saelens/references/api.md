@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-hermes
+---
+
 # SAELens API Reference
 
 ## SAE Class

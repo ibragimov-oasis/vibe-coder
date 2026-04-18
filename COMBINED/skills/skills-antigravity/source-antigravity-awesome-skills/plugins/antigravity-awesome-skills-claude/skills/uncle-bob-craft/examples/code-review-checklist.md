@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # Uncle Bob Craft — Code Review Checklist
 
 Copy-paste this checklist when performing a principle-based code review with the uncle-bob-craft skill. Run your project linter/formatter separately; this checklist focuses on structure and design.

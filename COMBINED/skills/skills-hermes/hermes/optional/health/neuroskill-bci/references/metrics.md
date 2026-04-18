@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-hermes
+---
+
 # NeuroSkill Metric Definitions & Interpretation Guide
 
 > **⚠️ Research Use Only:** All metrics are experimental and derived from

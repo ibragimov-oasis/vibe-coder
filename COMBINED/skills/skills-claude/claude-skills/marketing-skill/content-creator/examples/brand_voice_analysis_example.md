@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # Brand Voice Analysis Example
 
 Demonstration of brand_voice_analyzer.py input and output.

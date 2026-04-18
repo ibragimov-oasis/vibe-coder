@@ -1,6 +1,10 @@
 ---
 title: "Regulatory & Quality Skills — Agent Skills & Codex Plugins"
 description: "14 regulatory & quality skills — regulatory and quality management agent skill for ISO 13485, MDR, FDA, and GDPR compliance. Works with Claude Code, Codex CLI, Gemini CLI, and OpenClaw."
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
 ---
 
 <div class="domain-header" markdown>

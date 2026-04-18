@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/seo
+  - artifact/doc
+  - source/skills-seo
+---
+
 # SEO Guidelines for Castos Content
 
 This document outlines SEO best practices and requirements for all Castos blog content to maximize organic search visibility and rankings.

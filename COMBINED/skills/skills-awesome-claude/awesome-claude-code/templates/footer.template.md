@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-awesome-claude
+---
+
 ## Contributing [🔝](#awesome-claude-code)
 
 ### **[Recommend a new resource here!](https://github.com/hesreallyhim/awesome-claude-code/issues/new?template=recommend-resource.yml)**

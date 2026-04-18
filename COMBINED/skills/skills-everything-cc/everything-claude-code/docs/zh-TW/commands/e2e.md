@@ -1,5 +1,9 @@
 ---
 description: Generate and run end-to-end tests with Playwright. Creates test journeys, runs tests, captures screenshots/videos/traces, and uploads artifacts.
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
 ---
 
 # E2E 指令

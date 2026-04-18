@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/seo
+  - artifact/doc
+  - source/skills-seo
+---
+
 # Research Performance Command
 
 Categorize all content by traffic and rankings to prioritize optimization.

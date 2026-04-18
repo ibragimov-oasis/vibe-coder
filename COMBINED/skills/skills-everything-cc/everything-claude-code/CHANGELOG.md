@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
+---
+
 # Changelog
 
 ## 1.9.0 - 2026-03-20

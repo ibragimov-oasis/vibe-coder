@@ -1,5 +1,9 @@
 ---
 description: 逐步修复 Rust 构建错误、借用检查器问题和依赖问题。调用 rust-build-resolver 代理以进行最小化、精确的修复。
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
 ---
 
 # Rust 构建与修复

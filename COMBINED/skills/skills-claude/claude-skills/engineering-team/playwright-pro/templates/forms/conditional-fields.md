@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # Conditional Fields Template
 
 Tests show/hide fields based on selection and correct validation of visible fields only.

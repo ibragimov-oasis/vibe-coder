@@ -3,6 +3,9 @@ title: Use Patching for Safe Workflow Upgrades
 impact: LOW
 impactDescription: Safely deploy breaking workflow changes without disrupting in-progress workflows
 tags: advanced, patching, upgrade, breaking-change
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
 ---
 
 ## Use Patching for Safe Workflow Upgrades

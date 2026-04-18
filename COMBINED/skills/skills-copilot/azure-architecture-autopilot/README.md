@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-copilot
+---
+
 <h1 align="center">Azure Architecture Autopilot</h1>
 
 <p align="center">
@@ -186,3 +193,9 @@ All Azure services supported. AI/Data services have optimized templates; others 
 ## 📄 License
 
 MIT © [Jeonghoon Lee](https://github.com/whoniiii)
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-copilot]] — Category: skills-copilot
+

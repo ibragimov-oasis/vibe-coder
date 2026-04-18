@@ -28,7 +28,11 @@ The system defines several layout templates that you can use to give people a co
 
 **If you don’t provide the recommended full-screen content, supply at least one static image as a fallback.** The system displays a static image when your app is in the Dock and in focus and full-screen content is unavailable. tvOS flips and blurs the image, ensuring that it fits into a width of 1920 pixels at the 16:9 aspect ratio. Use the following values for guidance.
 
-Image size  
+Image size
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
 ---  
 2320x720 pt (2320x720 px @1x, 4640x1440 px @2x)  
   

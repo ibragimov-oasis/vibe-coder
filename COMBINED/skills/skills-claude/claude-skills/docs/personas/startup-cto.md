@@ -1,6 +1,10 @@
 ---
 title: "Startup CTO"
 description: "Technical co-founder persona — architecture decisions, tech stack selection, team building, and technical due diligence."
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
 ---
 
 # :material-hammer-wrench: Startup CTO

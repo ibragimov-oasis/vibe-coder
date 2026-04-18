@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 ## Concurrent programming updates in Swift 6.2
 
 Concurrent programming is hard because sharing memory between multiple tasks is prone to mistakes that lead to unpredictable behavior.

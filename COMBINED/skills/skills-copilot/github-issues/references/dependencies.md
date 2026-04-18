@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-copilot
+---
+
 # Issue Dependencies (Blocked By / Blocking)
 
 Dependencies let you mark that an issue is blocked by another issue. This creates a formal dependency relationship visible in the UI and trackable via API. No MCP tools exist for dependencies; use REST or GraphQL directly.

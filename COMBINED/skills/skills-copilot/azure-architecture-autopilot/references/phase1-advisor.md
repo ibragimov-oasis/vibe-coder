@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-copilot
+---
+
 # Phase 1: Architecture Advisor
 
 This file contains the detailed instructions for Phase 1. When entering Phase 1 from SKILL.md, read and follow this file.

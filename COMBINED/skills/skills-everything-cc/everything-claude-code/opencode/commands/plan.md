@@ -2,6 +2,10 @@
 description: Create implementation plan with risk assessment
 agent: planner
 subtask: true
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
 ---
 
 # Plan Command

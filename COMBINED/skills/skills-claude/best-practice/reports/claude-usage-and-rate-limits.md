@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # Claude Code: Usage, Rate Limits & Extra Usage
 
 Understanding how usage limits work in Claude Code and how to keep working when you hit them.

@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-copilot
+---
+
 # FlowStudio MCP — Tool Response Catalog
 
 Response shapes and behavioral notes for the FlowStudio Power Automate MCP server.

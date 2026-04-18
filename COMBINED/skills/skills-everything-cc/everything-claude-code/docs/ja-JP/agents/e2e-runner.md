@@ -3,6 +3,10 @@ name: e2e-runner
 description: Vercel Agent Browser（推奨）とPlaywrightフォールバックを使用するエンドツーエンドテストスペシャリスト。E2Eテストの生成、メンテナンス、実行に積極的に使用してください。テストジャーニーの管理、不安定なテストの隔離、アーティファクト（スクリーンショット、ビデオ、トレース）のアップロード、重要なユーザーフローの動作確認を行います。
 tools: ["Read", "Write", "Edit", "Bash", "Grep", "Glob"]
 model: opus
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
 ---
 
 # E2Eテストランナー

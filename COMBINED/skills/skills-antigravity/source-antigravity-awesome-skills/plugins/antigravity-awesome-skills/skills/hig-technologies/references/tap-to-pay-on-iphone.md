@@ -199,7 +199,11 @@ When customers have other types of NFC-compatible cards or passes in Apple Walle
 
 ## [Change log](https://developer.apple.com/design/human-interface-guidelines/tap-to-pay-on-iphone#Change-log)
 
-Date| Changes  
+Date| Changes
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
 ---|---  
 January 17, 2024| Updated merchant education guidance.  
 May 7, 2024| Updated to include guidance on enabling the feature and educating merchants.  

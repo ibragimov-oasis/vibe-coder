@@ -1,6 +1,10 @@
 ---
 title: "Churn Prevention — Agent Skill for Marketing"
 description: "Reduce voluntary and involuntary churn through cancel flow design, save offers, exit surveys, and dunning sequences. Use when designing or optimizing. Agent skill for Claude Code, Codex CLI, Gemini CLI, OpenClaw."
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
 ---
 
 # Churn Prevention

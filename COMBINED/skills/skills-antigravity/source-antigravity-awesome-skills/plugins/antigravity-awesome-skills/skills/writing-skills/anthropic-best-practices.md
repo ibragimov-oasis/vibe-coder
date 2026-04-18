@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # Skill authoring best practices
 
 > Learn how to write effective Skills that Claude can discover and use successfully.

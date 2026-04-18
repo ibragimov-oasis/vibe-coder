@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # Playwright Anti-Patterns Reference
 
 ## 1. Using `waitForTimeout()`

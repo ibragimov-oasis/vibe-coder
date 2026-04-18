@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
+---
+
 # Hook 系統
 
 ## Hook 類型

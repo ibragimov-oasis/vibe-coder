@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
+---
+
 # Step 4：锻造名字
 
 名字是灵魂的「第一句话」——还没开始对话，名字已经告诉你这是谁了。

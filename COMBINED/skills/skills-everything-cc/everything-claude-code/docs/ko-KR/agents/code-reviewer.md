@@ -3,6 +3,10 @@ name: code-reviewer
 description: 전문 코드 리뷰 스페셜리스트. 코드 품질, 보안, 유지보수성을 사전에 검토합니다. 코드 작성 또는 수정 후 즉시 사용하세요. 모든 코드 변경에 반드시 사용해야 합니다.
 tools: ["Read", "Grep", "Glob", "Bash"]
 model: sonnet
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
 ---
 
 시니어 코드 리뷰어로서 높은 코드 품질과 보안 기준을 보장합니다.

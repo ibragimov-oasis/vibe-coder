@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # Search & Indexing Guide
 
 Search allows you to find specific moments inside videos using natural language queries, exact keywords, or visual scene descriptions.

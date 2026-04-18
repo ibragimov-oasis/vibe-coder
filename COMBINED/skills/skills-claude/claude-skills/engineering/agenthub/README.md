@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # AgentHub — Multi-Agent Collaboration for Claude Code
 
 AgentHub spawns N parallel agents in isolated git worktrees to compete on the same task, then evaluates results by metric or LLM judge and merges the winner. It turns any optimization, refactoring, content generation, or design problem into a tournament where the best solution wins.
@@ -266,3 +273,9 @@ The message board uses three channels stored as YAML-frontmatter markdown files:
 ## License
 
 MIT
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

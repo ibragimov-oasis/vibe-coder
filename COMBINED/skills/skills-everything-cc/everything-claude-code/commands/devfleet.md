@@ -1,5 +1,9 @@
 ---
 description: Orchestrate parallel Claude Code agents via Claude DevFleet — plan projects from natural language, dispatch agents in isolated worktrees, monitor progress, and read structured reports.
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
 ---
 
 # DevFleet — Multi-Agent Orchestration

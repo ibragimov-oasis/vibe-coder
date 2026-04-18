@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-copilot
+---
+
 # Performance Optimization for Power BI Models
 
 ## Data Reduction Techniques

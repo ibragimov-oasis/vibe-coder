@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # Decision Entry Template
 
 Single entry for `memory/board-meetings/decisions.md`.

@@ -3,6 +3,9 @@ title: Deduplicate Queued Workflows
 impact: HIGH
 impactDescription: Prevents duplicate work and resource waste
 tags: queue, deduplication, duplicate, idempotent
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
 ---
 
 ## Deduplicate Queued Workflows

@@ -2,6 +2,10 @@
 inclusion: fileMatch
 fileMatchPattern: "*.swift"
 description: Swift-specific patterns including protocol-oriented design, value types, actor pattern, and dependency injection
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
 ---
 
 # Swift Patterns

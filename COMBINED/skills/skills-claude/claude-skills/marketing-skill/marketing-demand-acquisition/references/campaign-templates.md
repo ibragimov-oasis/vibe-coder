@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # Campaign Templates
 
 Ready-to-use campaign briefs and structures for LinkedIn, Google, and Meta.

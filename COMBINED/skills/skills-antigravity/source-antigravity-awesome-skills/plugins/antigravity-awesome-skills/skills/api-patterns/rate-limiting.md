@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # Rate Limiting Principles
 
 > Protect your API from abuse and overload.

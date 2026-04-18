@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/seo
+  - artifact/doc
+  - source/skills-seo
+---
+
 # Gemini Image Generation Models
 
 > Last updated: 2026-03-13

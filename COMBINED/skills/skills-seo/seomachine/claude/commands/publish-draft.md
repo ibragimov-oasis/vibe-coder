@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/seo
+  - artifact/doc
+  - source/skills-seo
+---
+
 # Publish Draft to WordPress
 
 Publishes a draft article from this project to WordPress as a Draft, with all SEO metadata auto-populated.

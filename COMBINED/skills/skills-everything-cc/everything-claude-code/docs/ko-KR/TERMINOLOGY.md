@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
+---
+
 # 용어 대조표 (Terminology Glossary)
 
 본 문서는 한국어 번역의 용어 대조를 기록하여 번역 일관성을 보장합니다.

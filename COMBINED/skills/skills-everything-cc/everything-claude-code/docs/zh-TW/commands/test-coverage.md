@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
+---
+
 # 測試覆蓋率
 
 分析測試覆蓋率並產生缺少的測試：

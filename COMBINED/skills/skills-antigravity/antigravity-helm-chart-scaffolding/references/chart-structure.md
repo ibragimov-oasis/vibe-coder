@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # Helm Chart Structure Reference
 
 Complete guide to Helm chart organization, file conventions, and best practices.

@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # ASO Audit Template
 
 Use this template to conduct a systematic App Store Optimization audit.

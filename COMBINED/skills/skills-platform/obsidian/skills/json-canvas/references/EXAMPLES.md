@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-platform
+---
+
 # JSON Canvas Complete Examples
 
 ## Simple Canvas with Text and Connections

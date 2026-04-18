@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # Read Entity Template
 
 Tests viewing entity details and list view with correct data display.

@@ -3,6 +3,9 @@ title: Use Activity Component for Show/Hide
 impact: MEDIUM
 impactDescription: preserves state/DOM
 tags: rendering, activity, visibility, state-preservation
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
 ---
 
 ## Use Activity Component for Show/Hide

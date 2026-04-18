@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-awesome-claude
+---
+
 ## Visual Development
 
 ### Design Principles

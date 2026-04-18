@@ -1,6 +1,10 @@
 ---
 name: cli-tool
 description: Node.js CLI tool template principles. Commander.js, interactive prompts.
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
 ---
 
 # CLI Tool Template

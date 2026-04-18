@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # Pull Request Description
 
 Please include a summary of the change and which skill is added or fixed.

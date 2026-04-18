@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # Windows Recovery for Truncation Crash Loops
 
 Use this guide if Antigravity or a Jetski/Cortex-based integration on Windows gets stuck in a restart loop with an error like:

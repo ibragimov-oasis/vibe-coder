@@ -3,6 +3,9 @@ title: Use Steps for External Operations
 impact: HIGH
 impactDescription: Steps enable recovery by checkpointing results
 tags: step, external, api, checkpoint
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
 ---
 
 ## Use Steps for External Operations

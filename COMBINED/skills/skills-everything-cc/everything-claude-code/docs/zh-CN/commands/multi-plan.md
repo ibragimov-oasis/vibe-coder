@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
+---
+
 # 计划 - 多模型协同规划
 
 多模型协同规划 - 上下文检索 + 双模型分析 → 生成分步实施计划。

@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # Git Worktree Manager
 
 Production workflow for parallel branch development with isolated ports, env sync, and cleanup safety checks. This skill packages practical CLI tooling and operating guidance for multi-worktree teams.
@@ -49,3 +56,9 @@ cp -R engineering/git-worktree-manager ~/.codex/skills/git-worktree-manager
 ```bash
 cp -R engineering/git-worktree-manager ~/.openclaw/skills/git-worktree-manager
 ```
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

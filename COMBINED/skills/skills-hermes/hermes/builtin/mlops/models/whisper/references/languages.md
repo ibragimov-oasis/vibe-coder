@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-hermes
+---
+
 # Whisper Language Support Guide
 
 Complete guide to Whisper's multilingual capabilities.

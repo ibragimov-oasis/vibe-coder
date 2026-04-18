@@ -1,6 +1,10 @@
 ---
 title: "Competitor & Alternative Pages — Agent Skill for Marketing"
 description: "When the user wants to create competitor comparison or alternative pages for SEO and sales enablement. Also use when the user mentions 'alternative. Agent skill for Claude Code, Codex CLI, Gemini CLI, OpenClaw."
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
 ---
 
 # Competitor & Alternative Pages

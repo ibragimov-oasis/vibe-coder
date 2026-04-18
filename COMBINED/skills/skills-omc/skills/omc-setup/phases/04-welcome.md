@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/doc
+  - source/skills-omc
+---
+
 # Phase 4: Completion
 
 ## Detect Upgrade from 2.x

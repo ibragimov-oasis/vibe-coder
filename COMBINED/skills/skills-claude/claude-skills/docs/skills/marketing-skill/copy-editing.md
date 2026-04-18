@@ -1,6 +1,10 @@
 ---
 title: "Copy Editing — Agent Skill for Marketing"
 description: "When the user wants to edit, review, or improve existing marketing copy. Also use when the user mentions 'edit this copy,' 'review my copy,' 'copy. Agent skill for Claude Code, Codex CLI, Gemini CLI, OpenClaw."
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
 ---
 
 # Copy Editing

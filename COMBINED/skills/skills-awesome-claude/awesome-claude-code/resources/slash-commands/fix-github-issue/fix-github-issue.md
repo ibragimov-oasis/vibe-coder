@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-awesome-claude
+---
+
 Please analyze and fix the GitHub issue: $ARGUMENTS.
 
 Follow these steps:

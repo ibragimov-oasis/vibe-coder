@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-awesome-claude
+---
+
 # Cooldown Protocol
 
 The following protocol exists to ensure fairness for all visitors that wish to be featured on the list, and to protect the repository from spam and other interactions which compromise the maintainer's ability to serve the needs of GitHub users.

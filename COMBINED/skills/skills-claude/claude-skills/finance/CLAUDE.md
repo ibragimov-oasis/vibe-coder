@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # Finance Skills - Claude Code Guidance
 
 This guide covers the finance skills and their Python automation tools.

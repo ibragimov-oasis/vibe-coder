@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # Clean Architecture — Deep Reference
 
 Based on Robert C. Martin, *Clean Architecture* (2017). Use this when you need detailed criteria for dependency direction, layers, and boundaries.

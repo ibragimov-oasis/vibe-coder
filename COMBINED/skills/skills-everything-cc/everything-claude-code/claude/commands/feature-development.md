@@ -2,6 +2,10 @@
 name: feature-development
 description: Workflow command scaffold for feature-development in everything-claude-code.
 allowed_tools: ["Bash", "Read", "Write", "Grep", "Glob"]
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
 ---
 
 # /feature-development

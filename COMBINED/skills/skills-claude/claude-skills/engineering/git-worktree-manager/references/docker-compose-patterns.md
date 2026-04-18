@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # Docker Compose Patterns For Worktrees
 
 ## Pattern 1: Override File Per Worktree

@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-copilot
+---
+
 # HTTP & Networking Reference
 
 Comprehensive reference for HTTP protocol, networking concepts, and web communication.

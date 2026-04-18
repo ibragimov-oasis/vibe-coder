@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # Sprint [NUMBER] - [SPRINT_NAME] Report
 **Team:** [TEAM_NAME]  
 **Scrum Master:** [SCRUM_MASTER_NAME]  

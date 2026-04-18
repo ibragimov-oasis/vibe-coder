@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-copilot
+---
+
 # Update mode
 
 Use this workflow when the input is an existing documentation Markdown file or the user asks to refresh existing component documentation.

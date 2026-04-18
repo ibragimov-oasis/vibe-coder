@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/ui
+  - artifact/doc
+  - source/skills-design
+---
+
 # Understanding Hangs in Your App (Summary)
 
 Context: Apple guidance on identifying hangs caused by long-running main-thread work and understanding the main run loop.

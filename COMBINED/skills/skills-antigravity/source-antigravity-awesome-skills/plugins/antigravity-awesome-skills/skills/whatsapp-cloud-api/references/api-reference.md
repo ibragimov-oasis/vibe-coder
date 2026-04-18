@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # API Reference - WhatsApp Cloud API
 
 Referencia tecnica completa dos endpoints, autenticacao, codigos de erro, rate limits e pricing da WhatsApp Cloud API (Graph API v21.0).

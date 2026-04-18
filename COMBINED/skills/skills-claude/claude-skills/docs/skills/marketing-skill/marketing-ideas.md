@@ -1,6 +1,10 @@
 ---
 title: "Marketing Ideas for SaaS — Agent Skill for Marketing"
 description: "When the user needs marketing ideas, inspiration, or strategies for their SaaS or software product. Also use when the user asks for 'marketing. Agent skill for Claude Code, Codex CLI, Gemini CLI, OpenClaw."
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
 ---
 
 # Marketing Ideas for SaaS

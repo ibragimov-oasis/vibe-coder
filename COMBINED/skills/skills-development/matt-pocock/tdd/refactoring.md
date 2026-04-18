@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-development
+---
+
 # Refactor Candidates
 
 After TDD cycle, look for:

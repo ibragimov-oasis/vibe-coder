@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-data-analysis
+---
+
 # generate_violin_chart — 小提琴图
 
 ## 功能概述

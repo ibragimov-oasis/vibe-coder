@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
+---
+
 # /learn - Extract Reusable Patterns
 
 Analyze the current session and extract any patterns worth saving as skills.

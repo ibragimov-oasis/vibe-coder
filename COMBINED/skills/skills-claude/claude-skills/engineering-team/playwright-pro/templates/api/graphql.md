@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # GraphQL API Template
 
 Tests query, mutation, and subscription via Playwright's request API.

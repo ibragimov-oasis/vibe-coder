@@ -2,6 +2,10 @@
 inclusion: fileMatch
 fileMatchPattern: "*.ts,*.tsx"
 description: TypeScript and JavaScript patterns extending common rules
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
 ---
 
 # TypeScript/JavaScript Patterns

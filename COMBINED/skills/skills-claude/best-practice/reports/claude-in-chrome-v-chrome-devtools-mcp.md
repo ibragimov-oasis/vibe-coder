@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # Comprehensive Browser Automation MCP Comparison Report
 
 <table width="100%">

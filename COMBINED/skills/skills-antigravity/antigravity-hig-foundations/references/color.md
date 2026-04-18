@@ -121,7 +121,11 @@ With both sets of background colors, you generally use the variants to indicate 
 
 For foreground content, iOS defines the following dynamic colors:
 
-Color| Use for…| UIKit API  
+Color| Use for…| UIKit API
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
 ---|---|---  
 Label| A text label that contains primary content.| [`label`](https://developer.apple.com/documentation/UIKit/UIColor/label)  
 Secondary label| A text label that contains secondary content.| [`secondaryLabel`](https://developer.apple.com/documentation/UIKit/UIColor/secondaryLabel)  

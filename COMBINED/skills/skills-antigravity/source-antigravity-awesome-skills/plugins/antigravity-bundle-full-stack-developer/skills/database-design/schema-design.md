@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # Schema Design Principles
 
 > Normalization, primary keys, timestamps, relationships.

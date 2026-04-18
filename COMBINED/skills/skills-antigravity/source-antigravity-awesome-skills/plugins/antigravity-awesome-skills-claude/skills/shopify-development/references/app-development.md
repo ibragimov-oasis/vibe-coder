@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # App Development Reference
 
 Guide for building Shopify apps with OAuth, GraphQL/REST APIs, webhooks, and billing.

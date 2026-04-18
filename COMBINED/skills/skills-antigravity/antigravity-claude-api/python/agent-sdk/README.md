@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # Agent SDK — Python
 
 The Claude Agent SDK provides a higher-level interface for building AI agents with built-in tools, safety features, and agentic capabilities.
@@ -267,3 +274,9 @@ except CLIConnectionError as e:
 3. **Use appropriate permission modes** — Start with `"default"` and only escalate when needed
 4. **Handle all message types** — Check for `ResultMessage` to get agent output
 5. **Limit max_turns** — Prevent runaway agents with reasonable limits
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

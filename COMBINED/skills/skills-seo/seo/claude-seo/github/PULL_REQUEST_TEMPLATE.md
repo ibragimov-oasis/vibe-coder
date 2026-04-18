@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/seo
+  - artifact/doc
+  - source/skills-seo
+---
+
 ## Summary
 
 <!-- What does this PR do? Why is it needed? -->

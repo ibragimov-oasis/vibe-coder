@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-superpowers
+---
+
 # Persuasion Principles for Skill Design
 
 ## Overview

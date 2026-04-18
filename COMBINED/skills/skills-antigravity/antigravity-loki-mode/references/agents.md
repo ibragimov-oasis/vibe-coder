@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # Agent Type Definitions
 
 Complete specifications for all 37 specialized agent types in the Loki Mode multi-agent system.

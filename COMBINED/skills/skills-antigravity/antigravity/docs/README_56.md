@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # Radix UI Design System - Skill Examples
 
 This folder contains practical examples demonstrating how to use Radix UI primitives to build accessible, customizable components.

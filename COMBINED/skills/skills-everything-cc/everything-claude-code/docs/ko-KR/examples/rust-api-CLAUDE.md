@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
+---
+
 # Rust API Service — 프로젝트 CLAUDE.md
 
 > Axum, PostgreSQL, Docker를 사용하는 Rust API 서비스의 실전 예시입니다.

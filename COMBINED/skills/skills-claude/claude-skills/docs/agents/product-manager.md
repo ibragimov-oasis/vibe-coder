@@ -1,6 +1,10 @@
 ---
 title: "Product Manager — AI Coding Agent & Codex Skill"
 description: "Ships outcomes, not features. Writes specs engineers actually read. Prioritizes ruthlessly. Kills darlings when the data says so. Operates at the. Agent-native orchestrator for Claude Code, Codex, Gemini CLI."
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
 ---
 
 # Product Manager

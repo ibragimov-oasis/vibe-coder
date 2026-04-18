@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # Form Validation Template
 
 Tests required fields, format validation, and inline error messages.

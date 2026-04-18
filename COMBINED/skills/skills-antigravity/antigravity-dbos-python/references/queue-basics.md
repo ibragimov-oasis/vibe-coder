@@ -3,6 +3,9 @@ title: Use Queues for Concurrent Workflows
 impact: HIGH
 impactDescription: Queues provide managed concurrency and flow control
 tags: queue, concurrency, enqueue, workflow
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
 ---
 
 ## Use Queues for Concurrent Workflows

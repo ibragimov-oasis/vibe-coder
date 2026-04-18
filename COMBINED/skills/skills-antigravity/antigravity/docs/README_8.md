@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # Angular UI Patterns
 
 Modern UI patterns for building robust Angular applications optimized for AI agents and LLMs.

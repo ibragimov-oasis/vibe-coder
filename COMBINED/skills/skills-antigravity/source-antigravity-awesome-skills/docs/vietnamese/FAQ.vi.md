@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # ❓ Câu hỏi thường gặp (FAQ)
 
 **Bạn có thắc mắc?** Bạn không hề cô đơn! Dưới đây là câu trả lời cho những câu hỏi thường gặp nhất về Antigravity Awesome Skills.

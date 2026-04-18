@@ -2,6 +2,10 @@
 name: employment-workforce
 description: Agent templates governing hiring, independent contractors, restrictive covenants, and IP assignment.
 jurisdictions: [USA, Canada, EU]
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
 ---
 
 # Employment & Workforce Templates

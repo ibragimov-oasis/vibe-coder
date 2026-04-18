@@ -1,6 +1,10 @@
 ---
 title: "API Test Suite Builder — Agent Skill for Codex & OpenClaw"
 description: "Use when the user asks to generate API tests, create integration test suites, test REST endpoints, or build contract tests. Agent skill for Claude Code, Codex CLI, Gemini CLI, OpenClaw."
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
 ---
 
 # API Test Suite Builder

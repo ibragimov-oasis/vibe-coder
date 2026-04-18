@@ -119,7 +119,11 @@ Many websites provide an icon that can display with bookmarks, in URL fields, or
 
 If your website supports Apple Pay, provide an icon in the following sizes for use in the summary view and the payment sheet:
 
-@2x| @3x  
+@2x| @3x
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
 ---|---  
 60x60 pt (120x120 px @2x)| 60x60 pt (180x180 px @3x)  
   

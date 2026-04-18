@@ -72,7 +72,11 @@ Although each pass style is different, all styles display information using the 
 
 All passes display a logo image, and some can display additional images in other areas depending on the pass style. To display information in the layout areas, use the following [`PassFields`](https://developer.apple.com/documentation/WalletPasses/PassFields).
 
-Field| Layout area| Use to provide…  
+Field| Layout area| Use to provide…
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
 ---|---|---  
 Header| Essential| Critical information that needs to remain visible when the pass is collapsed in Wallet.  
 Primary| Primary| Important information that helps people use the pass.  

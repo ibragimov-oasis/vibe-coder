@@ -1,5 +1,9 @@
 ---
 description: Stage, commit, and push the current branch following git governance rules.
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
 ---
 
 1. Run `/review` to ensure lint/tests/security checks pass locally.

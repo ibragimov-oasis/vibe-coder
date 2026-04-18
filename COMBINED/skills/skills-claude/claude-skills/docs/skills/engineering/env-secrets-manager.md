@@ -1,6 +1,10 @@
 ---
 title: "Env & Secrets Manager — Agent Skill for Codex & OpenClaw"
 description: "Env & Secrets Manager. Agent skill for Claude Code, Codex CLI, Gemini CLI, OpenClaw."
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
 ---
 
 # Env & Secrets Manager

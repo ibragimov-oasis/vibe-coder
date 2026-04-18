@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
+---
+
 # Sorun Giderme Rehberi
 
 Everything Claude Code (ECC) eklentisi için yaygın sorunlar ve çözümler.

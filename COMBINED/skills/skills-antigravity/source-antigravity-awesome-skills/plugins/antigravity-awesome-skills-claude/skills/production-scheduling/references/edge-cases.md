@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # Production Scheduling — Edge Cases Reference
 
 > Tier 3 reference. Load on demand when handling complex or ambiguous production scheduling situations that don't resolve through standard sequencing and dispatching workflows.

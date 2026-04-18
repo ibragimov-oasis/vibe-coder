@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # MLOps Production Patterns
 
 Production ML infrastructure patterns for model deployment, monitoring, and lifecycle management.

@@ -1,6 +1,10 @@
 ---
 title: "Growth Marketer Agent Personality — AI Coding Agent & Codex Skill"
 description: "Growth marketing specialist for bootstrapped startups and indie hackers. Builds content engines, optimizes funnels, runs launch sequences, and finds. Agent-native orchestrator for Claude Code, Codex, Gemini CLI."
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
 ---
 
 # Growth Marketer Agent Personality

@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # Loki Mode - Multi-Agent System for SWE-bench
 
 ## Overview

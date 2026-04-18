@@ -3,6 +3,9 @@ title: Use Events for Workflow Status Publishing
 impact: MEDIUM
 impactDescription: Enables real-time workflow status monitoring
 tags: events, set_event, get_event, status
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
 ---
 
 ## Use Events for Workflow Status Publishing

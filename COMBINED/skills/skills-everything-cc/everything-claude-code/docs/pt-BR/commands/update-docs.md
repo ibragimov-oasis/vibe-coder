@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
+---
+
 # Atualizar Documentação
 
 Sincronize a documentação com o codebase, gerando a partir de arquivos fonte da verdade.

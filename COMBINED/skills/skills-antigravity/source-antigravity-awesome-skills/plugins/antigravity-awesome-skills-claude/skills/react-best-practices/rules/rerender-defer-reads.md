@@ -3,6 +3,9 @@ title: Defer State Reads to Usage Point
 impact: MEDIUM
 impactDescription: avoids unnecessary subscriptions
 tags: rerender, searchParams, localStorage, optimization
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
 ---
 
 ## Defer State Reads to Usage Point

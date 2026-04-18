@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
+---
+
 # テストカバレッジ
 
 テストカバレッジを分析し、不足しているテストを生成します。

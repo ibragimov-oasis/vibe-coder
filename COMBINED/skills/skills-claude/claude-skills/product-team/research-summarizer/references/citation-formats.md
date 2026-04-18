@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # Citation Formats Quick Reference
 
 ## APA 7 (American Psychological Association)

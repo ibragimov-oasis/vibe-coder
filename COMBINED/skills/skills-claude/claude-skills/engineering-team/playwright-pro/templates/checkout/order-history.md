@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # Order History Template
 
 Tests listing orders, viewing order details, and pagination.

@@ -1,6 +1,10 @@
 ---
 title: "Interview System Designer — Agent Skill for Codex & OpenClaw"
 description: "This skill should be used when the user asks to 'design interview processes', 'create hiring pipelines', 'calibrate interview loops', 'generate. Agent skill for Claude Code, Codex CLI, Gemini CLI, OpenClaw."
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
 ---
 
 # Interview System Designer

@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # Python Tools Audit Report
 
 **Repository:** Claude Skills Library by nginity

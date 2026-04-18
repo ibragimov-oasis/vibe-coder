@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
+---
+
 # Commands Quick Reference
 
 > 59 slash commands installed globally. Type `/` in any Claude Code session to invoke.

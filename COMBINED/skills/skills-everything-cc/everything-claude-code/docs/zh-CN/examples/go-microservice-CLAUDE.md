@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
+---
+
 # Go 微服务 — 项目 CLAUDE.md
 
 > 一个使用 PostgreSQL、gRPC 和 Docker 的 Go 微服务真实示例。

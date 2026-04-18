@@ -1,5 +1,9 @@
 ---
 description: 'Best practices and guidelines for generating comprehensive, parameterized unit tests with 80% code coverage across any programming language'
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-copilot
 ---
 
 # Unit Test Generation Prompt

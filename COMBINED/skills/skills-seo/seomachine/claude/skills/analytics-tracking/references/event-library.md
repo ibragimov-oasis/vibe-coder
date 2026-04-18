@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/seo
+  - artifact/doc
+  - source/skills-seo
+---
+
 # Event Library Reference
 
 Comprehensive list of events to track by business type and context.

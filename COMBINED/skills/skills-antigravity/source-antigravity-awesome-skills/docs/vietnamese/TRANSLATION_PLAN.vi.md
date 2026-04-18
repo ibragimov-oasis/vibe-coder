@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # 🗺️ Kế hoạch Dịch thuật (Translation Master Plan)
 
 Tài liệu này dùng để theo dõi tiến độ dịch thuật toàn bộ repository `antigravity-awesome-skills` sang tiếng Việt.

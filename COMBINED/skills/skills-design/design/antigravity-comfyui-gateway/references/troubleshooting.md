@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/ui
+  - artifact/doc
+  - source/skills-design
+---
+
 # ComfyUI Gateway -- Troubleshooting Guide
 
 Comprehensive troubleshooting reference for diagnosing and resolving issues with the

@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-copilot
+---
+
 # Performance & Optimization Reference
 
 Comprehensive reference for web performance metrics, optimization techniques, and Core Web Vitals.

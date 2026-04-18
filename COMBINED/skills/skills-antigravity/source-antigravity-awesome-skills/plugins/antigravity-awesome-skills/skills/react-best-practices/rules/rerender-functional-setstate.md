@@ -3,6 +3,9 @@ title: Use Functional setState Updates
 impact: MEDIUM
 impactDescription: prevents stale closures and unnecessary callback recreations
 tags: react, hooks, useState, useCallback, callbacks, closures
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
 ---
 
 ## Use Functional setState Updates

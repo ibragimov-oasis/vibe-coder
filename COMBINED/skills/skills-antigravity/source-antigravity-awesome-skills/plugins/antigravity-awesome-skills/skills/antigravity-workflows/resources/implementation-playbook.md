@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # Antigravity Workflows Implementation Playbook
 
 This document explains how an agent should execute workflow-based orchestration.

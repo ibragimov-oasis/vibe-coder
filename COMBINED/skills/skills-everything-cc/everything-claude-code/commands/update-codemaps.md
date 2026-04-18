@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
+---
+
 # Update Codemaps
 
 Analyze the codebase structure and generate token-lean architecture documentation.

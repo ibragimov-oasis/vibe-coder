@@ -1,5 +1,9 @@
 ---
 description: "Scan skills to extract cross-cutting principles and distill them into rules"
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
 ---
 
 # /rules-distill — Distill Principles from Skills into Rules

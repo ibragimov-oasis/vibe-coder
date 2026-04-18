@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # XVARY Scores (Public Definitions)
 
 This file defines the **public** score framework used by the skill.

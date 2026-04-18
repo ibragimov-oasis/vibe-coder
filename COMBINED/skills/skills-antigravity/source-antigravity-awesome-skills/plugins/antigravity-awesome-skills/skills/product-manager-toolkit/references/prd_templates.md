@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # Product Requirements Document (PRD) Templates
 
 ## Standard PRD Template

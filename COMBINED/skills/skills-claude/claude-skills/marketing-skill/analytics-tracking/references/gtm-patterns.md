@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # GTM Patterns for SaaS
 
 Common Google Tag Manager configurations for SaaS applications.

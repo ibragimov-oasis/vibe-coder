@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
+---
+
 # Comando Eval
 
 Gerencie o fluxo de desenvolvimento orientado por evals.

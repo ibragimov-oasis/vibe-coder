@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
+---
+
 # /learn - Extrair Padrões Reutilizáveis
 
 Analise a sessão atual e extraia padrões que valem ser salvos como skills.

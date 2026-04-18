@@ -1,5 +1,9 @@
 ---
 description: Corrija erros de build em Go, avisos de go vet e problemas de lint incrementalmente. Invoca o agente go-build-resolver para correções mínimas e cirúrgicas.
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
 ---
 
 # Build e Correção Go

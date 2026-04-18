@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # App Store Optimization (ASO) Skill
 
 **Version**: 1.0.0

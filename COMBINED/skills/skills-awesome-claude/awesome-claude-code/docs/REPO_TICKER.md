@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-awesome-claude
+---
+
 # Awesome Claude Code - "Repo Ticker"
 
 ## What is this thing?

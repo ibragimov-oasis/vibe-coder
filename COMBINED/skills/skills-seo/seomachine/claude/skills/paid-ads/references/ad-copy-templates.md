@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/seo
+  - artifact/doc
+  - source/skills-seo
+---
+
 # Ad Copy Templates Reference
 
 Detailed formulas and templates for writing high-converting ad copy.

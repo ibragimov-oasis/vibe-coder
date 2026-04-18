@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # Discovery Frameworks
 
 ## Opportunity Solution Tree (OST)

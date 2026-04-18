@@ -1,6 +1,10 @@
 ---
 title: "Experiment Designer — Agent Skill for Product Teams"
 description: "Use when planning product experiments, writing testable hypotheses, estimating sample size, prioritizing tests, or interpreting A/B outcomes with. Agent skill for Claude Code, Codex CLI, Gemini CLI, OpenClaw."
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
 ---
 
 # Experiment Designer

@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # Extensions Reference
 
 Guide for building UI extensions and Shopify Functions.

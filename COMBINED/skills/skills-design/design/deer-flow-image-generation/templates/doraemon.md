@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/ui
+  - artifact/doc
+  - source/skills-design
+---
+
 # Doraemon 8-Panel Comic Generator
 
 ## Workflow

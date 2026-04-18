@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/seo
+  - artifact/doc
+  - source/skills-seo
+---
+
 # Supplementary Google APIs for SEO
 
 ## Knowledge Graph Search API

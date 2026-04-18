@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/ui
+  - artifact/doc
+  - source/skills-design
+---
+
 # Components Index
 
 Use this file to find component and cross-cutting guidance. Each entry lists when to use it.

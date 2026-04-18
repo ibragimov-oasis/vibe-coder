@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-hermes
+---
+
 # Framework Integrations Guide
 
 Complete guide to integrating W&B with popular ML frameworks.

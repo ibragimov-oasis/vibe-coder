@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # Depth System Reference
 
 The 2.5D illusion is built entirely on a **6-level depth model**. Every element on the page belongs to exactly one depth level. Depth controls four automatic properties: parallax speed, blur, scale, and shadow intensity. Together these four signals trick the human visual system into perceiving genuine spatial depth from flat assets.

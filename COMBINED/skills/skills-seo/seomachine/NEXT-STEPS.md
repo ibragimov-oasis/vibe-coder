@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/seo
+  - artifact/doc
+  - source/skills-seo
+---
+
 # Next Steps - Getting Started with SEO Machine
 
 ## Welcome! 🎉

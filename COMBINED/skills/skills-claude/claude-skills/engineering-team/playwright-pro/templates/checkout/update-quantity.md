@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # Update Cart Quantity Template
 
 Tests increasing, decreasing, and removing items from cart.

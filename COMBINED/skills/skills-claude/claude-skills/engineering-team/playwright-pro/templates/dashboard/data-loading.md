@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # Dashboard Data Loading Template
 
 Tests loading state, skeleton screens, and data display after fetch.

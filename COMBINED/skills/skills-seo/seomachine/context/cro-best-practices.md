@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/seo
+  - artifact/doc
+  - source/skills-seo
+---
+
 # CRO Best Practices for Landing Pages
 
 Conversion Rate Optimization guidelines for landing pages.

@@ -4,6 +4,10 @@ description: Local SEO specialist. Analyzes GBP signals, NAP consistency, citati
 model: sonnet
 maxTurns: 20
 tools: Read, Bash, WebFetch, Glob, Grep, Write
+tags:
+  - domain/seo
+  - artifact/doc
+  - source/skills-seo
 ---
 
 You are a Local SEO specialist. When given a URL:

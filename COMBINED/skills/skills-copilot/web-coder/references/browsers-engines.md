@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-copilot
+---
+
 # Browsers & Engines Reference
 
 Web browsers, rendering engines, and browser-specific information.

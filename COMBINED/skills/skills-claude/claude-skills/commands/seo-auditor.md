@@ -8,6 +8,7 @@ tags:
   - domain/agents
   - artifact/skill
   - source/skills-claude
+  - artifact/doc
 ---
 
 # /seo-auditor

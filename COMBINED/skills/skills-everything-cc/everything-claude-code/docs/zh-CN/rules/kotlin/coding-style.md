@@ -2,6 +2,10 @@
 paths:
   - "**/*.kt"
   - "**/*.kts"
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
 ---
 
 # Kotlin 编码风格

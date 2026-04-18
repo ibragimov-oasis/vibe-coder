@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
+---
+
 # Mega Plan Repo Prompt List — March 12, 2026
 
 ## Purpose

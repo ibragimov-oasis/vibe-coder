@@ -1,6 +1,10 @@
 ---
 title: "Cold Email Outreach — Agent Skill for Marketing"
 description: "When the user wants to write, improve, or build a sequence of B2B cold outreach emails to prospects who haven't asked to hear from them. Use when the. Agent skill for Claude Code, Codex CLI, Gemini CLI, OpenClaw."
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
 ---
 
 # Cold Email Outreach

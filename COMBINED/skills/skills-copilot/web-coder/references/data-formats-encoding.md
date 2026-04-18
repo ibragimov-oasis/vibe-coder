@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-copilot
+---
+
 # Data Formats & Encoding Reference
 
 Data formats, character encodings, and serialization for web development.

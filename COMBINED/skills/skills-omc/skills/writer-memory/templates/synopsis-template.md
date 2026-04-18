@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/doc
+  - source/skills-omc
+---
+
 # 시놉시스: {{PROJECT_NAME}}
 
 > 장르: {{GENRE}} | 최종 업데이트: {{DATE}}

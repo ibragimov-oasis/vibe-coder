@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # Tracking Debug Playbook
 
 Step-by-step methodology for diagnosing and fixing analytics tracking issues.

@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # Padroes de Orquestracao Multi-Skill
 
 Guia detalhado para coordenar multiplos skills em workflows complexos.

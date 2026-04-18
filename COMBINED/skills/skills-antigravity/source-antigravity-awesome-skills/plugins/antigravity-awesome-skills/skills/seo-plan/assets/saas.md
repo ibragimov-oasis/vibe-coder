@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 <!-- Updated: 2026-02-07 -->
 # SaaS SEO Strategy Template
 

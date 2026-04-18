@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # Data Extraction Recipes
 
 Practical patterns for extracting structured data from web pages using Playwright. Each recipe is a self-contained pattern you can adapt to your target site.

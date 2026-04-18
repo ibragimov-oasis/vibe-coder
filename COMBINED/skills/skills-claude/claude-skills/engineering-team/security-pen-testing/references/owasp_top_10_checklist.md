@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # OWASP Top 10 (2021) — Detailed Security Checklist
 
 Comprehensive reference for each OWASP Top 10 category with descriptions, test procedures, code patterns to detect, remediation steps, and CVSS scoring guidance.

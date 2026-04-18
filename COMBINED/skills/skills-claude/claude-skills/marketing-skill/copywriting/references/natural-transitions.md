@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # Natural Transitions
 
 Transitional phrases to guide readers through your content. Good signposting improves readability, user engagement, and helps search engines understand content structure.

@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-copilot
+---
+
 # 6502 SBC Assembly Compilation & ROM Build Specification
 
 ## Overview

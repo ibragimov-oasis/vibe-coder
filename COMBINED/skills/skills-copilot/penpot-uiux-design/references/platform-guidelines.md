@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-copilot
+---
+
 # Platform Design Guidelines Reference
 
 ## Mobile Design Fundamentals

@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # Toast Messages Template
 
 Tests success, error, and warning toasts with auto-dismiss and manual close.

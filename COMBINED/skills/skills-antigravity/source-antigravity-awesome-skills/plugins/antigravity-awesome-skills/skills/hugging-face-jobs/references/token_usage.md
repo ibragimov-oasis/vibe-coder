@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # Token Usage Guide for Hugging Face Jobs
 
 **⚠️ CRITICAL:** Proper token usage is essential for any job that interacts with the Hugging Face Hub.

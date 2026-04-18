@@ -3,6 +3,9 @@ title: Set Workflow Timeouts
 impact: CRITICAL
 impactDescription: Prevents workflows from running indefinitely
 tags: workflow, timeout, cancellation, duration
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
 ---
 
 ## Set Workflow Timeouts

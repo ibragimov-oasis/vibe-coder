@@ -1,6 +1,10 @@
 ---
 title: "Chief of Staff — Agent Skill for Executives"
 description: "C-suite orchestration layer. Routes founder questions to the right advisor role(s), triggers multi-role board meetings for complex decisions. Agent skill for Claude Code, Codex CLI, Gemini CLI, OpenClaw."
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
 ---
 
 # Chief of Staff

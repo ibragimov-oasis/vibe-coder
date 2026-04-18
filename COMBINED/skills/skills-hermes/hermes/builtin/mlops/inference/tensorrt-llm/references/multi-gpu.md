@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-hermes
+---
+
 # Multi-GPU Deployment Guide
 
 Comprehensive guide to scaling TensorRT-LLM across multiple GPUs and nodes.

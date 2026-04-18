@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # Orchestration Workflow
 
 This document describes the **Command → Agent (with skill) → Skill** orchestration workflow, demonstrated through a weather data fetching and SVG rendering system.

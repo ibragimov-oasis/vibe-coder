@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # Claude Skills Systematic Refactoring Plan
 
 **Goal:** Optimize all 36 skills to follow Anthropic's official best practices while maintaining comprehensive domain expertise.

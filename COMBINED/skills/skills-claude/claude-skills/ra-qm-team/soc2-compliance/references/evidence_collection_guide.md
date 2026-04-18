@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # SOC 2 Evidence Collection Guide
 
 Practical guide for collecting, organizing, and maintaining audit evidence for SOC 2 Type I and Type II engagements. Covers evidence types, automation strategies, and documentation requirements.

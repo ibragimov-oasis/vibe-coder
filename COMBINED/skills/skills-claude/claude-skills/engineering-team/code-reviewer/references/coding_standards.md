@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # Coding Standards
 
 Language-specific coding standards and conventions for code review.

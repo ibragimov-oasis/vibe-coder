@@ -2,6 +2,10 @@
 name: evolve
 description: İçgüdüleri analiz et ve evrimleşmiş yapılar öner veya oluştur
 command: true
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
 ---
 
 # Evolve Komutu

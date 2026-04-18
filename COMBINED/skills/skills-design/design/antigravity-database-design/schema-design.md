@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/ui
+  - artifact/doc
+  - source/skills-design
+---
+
 # Schema Design Principles
 
 > Normalization, primary keys, timestamps, relationships.

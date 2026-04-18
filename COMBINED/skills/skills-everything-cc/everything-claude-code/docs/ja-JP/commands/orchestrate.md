@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
+---
+
 # Orchestrateコマンド
 
 複雑なタスクのための連続的なエージェントワークフロー。

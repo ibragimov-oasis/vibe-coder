@@ -74,7 +74,11 @@ Unlike the [layered images](https://developer.apple.com/design/human-interface-g
 
 ## [Change log](https://developer.apple.com/design/human-interface-guidelines/launching#Change-log)
 
-Date| Changes  
+Date| Changes
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
 ---|---  
 June 10, 2024| Added guidance on displaying a splash screen.  
 June 21, 2023| Updated to include guidance for visionOS.  

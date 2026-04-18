@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/ui
+  - artifact/doc
+  - source/skills-design
+---
+
 # Understanding and Improving SwiftUI Performance (Summary)
 
 Context: Apple guidance on diagnosing SwiftUI performance with Instruments and applying design patterns to reduce long or frequent updates.

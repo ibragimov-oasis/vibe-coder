@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
+---
+
 # Eval 커맨드
 
 평가 기반 개발 워크플로우를 관리합니다.

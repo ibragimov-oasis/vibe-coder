@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # Security Policies Reference
 
 Comprehensive security configuration guide for Microsoft 365 tenants covering Conditional Access, MFA, DLP, and security baselines.

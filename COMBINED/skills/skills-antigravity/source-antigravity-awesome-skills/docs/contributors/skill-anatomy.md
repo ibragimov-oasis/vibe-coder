@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # Anatomy of a Skill - Understanding the Structure
 
 **Want to understand how skills work under the hood?** This guide breaks down every part of a skill file.

@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # Getting Started with Antigravity Awesome Skills (V9.3.0)
 
 **New here? This guide will help you supercharge your AI Agent in 5 minutes.**

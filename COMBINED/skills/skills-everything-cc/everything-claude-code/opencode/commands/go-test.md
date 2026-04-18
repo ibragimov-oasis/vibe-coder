@@ -2,6 +2,10 @@
 description: Go TDD workflow with table-driven tests
 agent: tdd-guide
 subtask: true
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
 ---
 
 # Go Test Command

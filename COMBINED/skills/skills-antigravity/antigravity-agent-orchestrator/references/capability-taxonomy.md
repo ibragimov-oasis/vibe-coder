@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # Taxonomia de Capacidades (Capability Tags)
 
 Categorias padrao para classificar skills no ecossistema.

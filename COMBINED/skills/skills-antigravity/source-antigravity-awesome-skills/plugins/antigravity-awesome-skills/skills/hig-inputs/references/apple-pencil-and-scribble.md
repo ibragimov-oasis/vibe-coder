@@ -140,7 +140,11 @@ Using [PencilKit](https://developer.apple.com/documentation/PencilKit), you can 
 
 ## [Change log](https://developer.apple.com/design/human-interface-guidelines/apple-pencil-and-scribble#Change-log)
 
-Date| Changes  
+Date| Changes
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
 ---|---  
 May 7, 2024| Added guidance for handling squeeze and barrel roll on Apple Pencil Pro.  
 September 12, 2023| Updated artwork.  

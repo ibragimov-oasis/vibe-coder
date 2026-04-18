@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-writing
+---
+
 # Tech Explainer Podcast Template
 
 Use this template when converting technical documentation, API guides, or developer tutorials into podcasts.

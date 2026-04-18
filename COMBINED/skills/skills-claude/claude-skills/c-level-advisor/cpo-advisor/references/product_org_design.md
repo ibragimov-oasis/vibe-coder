@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # Product Org Design Reference
 
 How to structure, hire, and run product organizations at different stages. No generic advice — stage-specific, role-specific, and honest about what breaks.

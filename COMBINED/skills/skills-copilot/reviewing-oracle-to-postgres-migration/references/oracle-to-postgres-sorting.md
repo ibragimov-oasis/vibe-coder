@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-copilot
+---
+
 # Oracle to PostgreSQL Sorting Migration Guide
 
 Purpose: Preserve Oracle-like sorting semantics when moving queries to PostgreSQL.

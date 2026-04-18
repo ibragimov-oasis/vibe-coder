@@ -12,6 +12,10 @@ allowedTools:
   - "WebSearch(*)"
 maxTurns: 30
 permissionMode: bypassPermissions
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
 ---
 
 # Development Workflows Research Agent

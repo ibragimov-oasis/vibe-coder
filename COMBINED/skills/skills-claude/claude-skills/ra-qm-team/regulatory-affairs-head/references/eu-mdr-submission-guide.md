@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # EU MDR 2017/745 Submission Guide
 
 ## MDR Classification and Conformity Assessment Routes

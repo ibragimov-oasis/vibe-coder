@@ -3,6 +3,9 @@ title: Use Proper Test Fixtures for DBOS
 impact: LOW-MEDIUM
 impactDescription: Ensures clean state between tests
 tags: testing, pytest, fixtures, reset
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
 ---
 
 ## Use Proper Test Fixtures for DBOS

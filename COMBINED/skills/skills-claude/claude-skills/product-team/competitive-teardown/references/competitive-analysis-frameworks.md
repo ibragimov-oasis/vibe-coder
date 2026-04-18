@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # Competitive Analysis Frameworks
 
 This reference provides practical frameworks for evaluating competitors and positioning decisions.

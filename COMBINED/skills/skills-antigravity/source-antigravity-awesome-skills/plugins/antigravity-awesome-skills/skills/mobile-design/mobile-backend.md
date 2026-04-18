@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # Mobile Backend Patterns
 
 > **This file covers backend/API patterns SPECIFIC to mobile clients.**

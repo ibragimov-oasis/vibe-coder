@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # Changelog Formatting Guide
 
 Use Keep a Changelog section ordering:

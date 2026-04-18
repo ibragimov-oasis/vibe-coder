@@ -1,6 +1,10 @@
 ---
 title: "Executive Mentor — Agent Skill for Executives"
 description: "Adversarial thinking partner for founders and executives. Stress-tests plans, prepares for brutal board meetings, dissects decisions with no good. Agent skill for Claude Code, Codex CLI, Gemini CLI, OpenClaw."
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
 ---
 
 # Executive Mentor

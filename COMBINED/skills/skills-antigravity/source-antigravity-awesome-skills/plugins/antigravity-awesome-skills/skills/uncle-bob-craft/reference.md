@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # Uncle Bob Craft — Expanded Reference
 
 This document expands the criteria referenced in the main skill. Sources: *Clean Code*, *Clean Architecture*, *The Clean Coder*, *Clean Agile* (Robert C. Martin). Use for progressive disclosure when you need full lists or deeper context.

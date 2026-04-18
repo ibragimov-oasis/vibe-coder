@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # Common Patterns in Angor/Zafiro
 
 ## Refreshable Collections

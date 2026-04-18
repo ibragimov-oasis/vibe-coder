@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # Skills Update Guide
 
 This guide explains how to update the skills in the Antigravity Awesome Skills web application.

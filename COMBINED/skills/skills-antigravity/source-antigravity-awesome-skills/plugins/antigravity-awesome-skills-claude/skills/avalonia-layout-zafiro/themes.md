@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # Theme Organization and Shared Styles
 
 Efficient theme organization is key to avoiding redundant XAML and ensuring visual consistency.

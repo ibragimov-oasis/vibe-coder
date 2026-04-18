@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # Platform Specs Reference
 
 Complete character limits, format requirements, and best practices for each ad platform.

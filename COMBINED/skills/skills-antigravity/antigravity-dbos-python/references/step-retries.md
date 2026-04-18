@@ -3,6 +3,9 @@ title: Configure Step Retries for Transient Failures
 impact: HIGH
 impactDescription: Automatic retries handle transient failures without manual code
 tags: step, retry, exponential-backoff, resilience
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
 ---
 
 ## Configure Step Retries for Transient Failures

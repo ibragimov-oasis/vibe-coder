@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
+---
+
 # Cobertura de Testes
 
 Analise cobertura de testes, identifique lacunas e gere testes faltantes para alcançar cobertura de 80%+.

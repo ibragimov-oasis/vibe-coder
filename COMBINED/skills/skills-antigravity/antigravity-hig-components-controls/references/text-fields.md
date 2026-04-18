@@ -82,7 +82,11 @@ A text field is a rectangular area in which people enter or edit small, specific
 
 ## [Change log](https://developer.apple.com/design/human-interface-guidelines/text-fields#Change-log)
 
-Date| Changes  
+Date| Changes
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
 ---|---  
 June 5, 2023| Updated guidance to reflect changes in watchOS 10.  
   

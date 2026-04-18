@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-copilot
+---
+
 # FluentDataGrid
 
 `FluentDataGrid<TGridItem>` is a strongly-typed generic component for displaying tabular data.

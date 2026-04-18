@@ -2,6 +2,10 @@
 description: Go code review for idiomatic patterns
 agent: go-reviewer
 subtask: true
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
 ---
 
 # Go Review Command

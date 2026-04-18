@@ -2,6 +2,10 @@
 name: evolve
 description: 関連するinstinctsをスキル、コマンド、またはエージェントにクラスター化
 command: true
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
 ---
 
 # Evolveコマンド

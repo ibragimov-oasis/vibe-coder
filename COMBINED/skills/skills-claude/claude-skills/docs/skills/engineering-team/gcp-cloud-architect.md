@@ -1,6 +1,10 @@
 ---
 title: "GCP Cloud Architect — Agent Skill & Codex Plugin"
 description: "Design GCP architectures for startups and enterprises. Use when asked to design Google Cloud infrastructure, deploy to GKE or Cloud Run, configure. Agent skill for Claude Code, Codex CLI, Gemini CLI, OpenClaw."
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
 ---
 
 # GCP Cloud Architect

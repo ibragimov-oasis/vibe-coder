@@ -41,6 +41,10 @@ hooks:
           command: python3 ${CLAUDE_PROJECT_DIR}/.claude/hooks/scripts/hooks.py  --agent=voice-hook-agent
           timeout: 5000
           async: true
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
 ---
 
 # Weather Agent

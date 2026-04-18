@@ -1,6 +1,10 @@
 ---
 title: "Senior QA Engineer — Agent Skill & Codex Plugin"
 description: "Generates unit tests, integration tests, and E2E tests for React/Next.js applications. Scans components to create Jest + React Testing Library test. Agent skill for Claude Code, Codex CLI, Gemini CLI, OpenClaw."
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
 ---
 
 # Senior QA Engineer

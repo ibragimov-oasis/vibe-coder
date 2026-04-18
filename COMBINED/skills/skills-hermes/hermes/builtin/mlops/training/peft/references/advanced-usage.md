@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-hermes
+---
+
 # PEFT Advanced Usage Guide
 
 ## Advanced LoRA Variants

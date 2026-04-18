@@ -3,6 +3,9 @@ title: Store Event Handlers in Refs
 impact: LOW
 impactDescription: stable subscriptions
 tags: advanced, hooks, refs, event-handlers, optimization
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
 ---
 
 ## Store Event Handlers in Refs

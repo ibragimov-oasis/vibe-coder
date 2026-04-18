@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # Dependency Management Best Practices
 
 A comprehensive guide to effective dependency management across the software development lifecycle, covering strategy, governance, security, and operational practices.

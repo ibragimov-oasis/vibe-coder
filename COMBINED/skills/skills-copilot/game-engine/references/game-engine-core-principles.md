@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-copilot
+---
+
 # Game Engine Core Design Principles
 
 A comprehensive reference on the fundamental architecture and design principles behind building a game engine. Covers modularity, separation of concerns, core subsystems, and practical implementation guidance.

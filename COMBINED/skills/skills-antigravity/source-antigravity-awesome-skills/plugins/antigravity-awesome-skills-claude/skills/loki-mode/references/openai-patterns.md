@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # OpenAI Agent Patterns Reference
 
 Research-backed patterns from OpenAI's Agents SDK, Deep Research, and autonomous agent frameworks.

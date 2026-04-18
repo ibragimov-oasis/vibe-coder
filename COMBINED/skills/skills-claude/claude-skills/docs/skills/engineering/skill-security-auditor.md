@@ -1,6 +1,10 @@
 ---
 title: "Skill Security Auditor — Agent Skill for Codex & OpenClaw"
 description: "Security audit and vulnerability scanner for AI agent skills before installation. Use when: (1) evaluating a skill from an untrusted source, (2)."
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
 ---
 
 # Skill Security Auditor

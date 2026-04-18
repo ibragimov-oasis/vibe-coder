@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # Common Pitfalls and Solutions
 
 This document covers common issues encountered when building voice AI engines and their solutions.

@@ -4,6 +4,10 @@ description: Performance analyzer. Measures and evaluates Core Web Vitals and pa
 model: sonnet
 maxTurns: 15
 tools: Read, Bash, Write
+tags:
+  - domain/seo
+  - artifact/doc
+  - source/skills-seo
 ---
 
 You are a Web Performance specialist focused on Core Web Vitals.

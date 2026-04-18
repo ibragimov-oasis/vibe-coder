@@ -1,6 +1,10 @@
 ---
 title: "Product Strategist Agent — AI Coding Agent & Codex Skill"
 description: "Product strategy agent for quarterly OKR planning, competitive landscape analysis, product vision development, and strategy pivot evaluation. Agent-native orchestrator for Claude Code, Codex, Gemini CLI."
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
 ---
 
 # Product Strategist Agent

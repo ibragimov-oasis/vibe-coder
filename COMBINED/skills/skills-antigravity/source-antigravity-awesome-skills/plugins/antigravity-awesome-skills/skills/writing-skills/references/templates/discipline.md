@@ -5,6 +5,10 @@ description: >-
 metadata:
   category: discipline
   triggers: new feature, code change, implementation
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
 ---
 
 # Rule Name

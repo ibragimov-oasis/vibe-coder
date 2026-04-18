@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # Database Optimization Guide
 
 Practical strategies for PostgreSQL query optimization, indexing, and performance tuning.

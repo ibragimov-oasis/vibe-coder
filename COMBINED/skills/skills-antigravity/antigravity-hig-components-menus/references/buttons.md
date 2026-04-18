@@ -128,7 +128,11 @@ Help buttons are circular, consistently sized buttons that contain a question ma
 
 **Position help buttons where people expect to find them.** Use the following locations for guidance.
 
-View style| Help button location  
+View style| Help button location
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
 ---|---  
 Dialog with dismissal buttons (like OK and Cancel)| Lower corner, opposite to the dismissal buttons and vertically aligned with them  
 Dialog without dismissal buttons| Lower-left or lower-right corner  

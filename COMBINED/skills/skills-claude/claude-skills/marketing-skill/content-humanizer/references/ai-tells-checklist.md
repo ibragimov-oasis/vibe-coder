@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # AI Tells Checklist
 
 A comprehensive reference for detecting AI-generated or AI-assisted writing patterns. Use this during Mode 1 (Detect) to audit content before editing.

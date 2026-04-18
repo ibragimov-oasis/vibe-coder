@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # Email Verification Template
 
 Tests email verification link, resend flow, and expired token handling.

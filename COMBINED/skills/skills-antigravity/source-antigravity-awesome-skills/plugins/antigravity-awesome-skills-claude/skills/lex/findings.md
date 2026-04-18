@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # LEX — Findings & Research
 
 ## Legal Constraints & Structure

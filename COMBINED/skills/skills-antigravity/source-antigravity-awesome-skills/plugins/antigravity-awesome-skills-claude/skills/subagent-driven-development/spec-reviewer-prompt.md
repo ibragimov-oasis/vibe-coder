@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # Spec Compliance Reviewer Prompt Template
 
 Use this template when dispatching a spec compliance reviewer subagent.

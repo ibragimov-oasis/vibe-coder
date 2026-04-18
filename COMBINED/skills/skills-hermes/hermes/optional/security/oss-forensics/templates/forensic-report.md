@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-hermes
+---
+
 # Forensic Investigation Report
 
 > **Instructions**: Fill in all sections. Every factual claim must cite at least one `[EV-XXXX]` evidence ID.

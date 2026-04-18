@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-awesome-claude
+---
+
 <!--lint disable remark-lint:awesome-badge-->
 
 {{STYLE_SELECTOR}}

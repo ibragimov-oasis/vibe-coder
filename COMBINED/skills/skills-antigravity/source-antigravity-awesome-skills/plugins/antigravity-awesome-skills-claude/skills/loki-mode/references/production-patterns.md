@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # Production Patterns Reference
 
 Practitioner-tested patterns from Hacker News discussions and real-world deployments. These patterns represent what actually works in production, not theoretical frameworks.

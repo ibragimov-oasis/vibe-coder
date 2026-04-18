@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # 仓库增长 SEO 剧本
 
 本文档保持仓库的 GitHub 面向发现的文案与以 SEO 为中心的用户文档保持一致。

@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # RevOps Metrics Guide
 
 Complete reference for Revenue Operations metrics hierarchy, definitions, formulas, interpretation guidelines, and common mistakes.

@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # 日期跟踪实施摘要
 
 本文档解释了在 `apps/` 和 `tools/` 重构之后，`date_added` 支持如何融入当前仓库结构。

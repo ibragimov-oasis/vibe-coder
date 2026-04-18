@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # Marketing Team Expansion — Audit & Implementation Plan
 
 ## Executive Summary

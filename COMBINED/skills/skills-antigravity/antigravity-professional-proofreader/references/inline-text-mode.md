@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # MODE 1: Inline Text
 
 ## Step 1 — Content Isolation

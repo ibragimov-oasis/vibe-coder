@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # Social Media Platform Benchmarks
 
 Industry benchmarks for engagement rates, CTR, and ROI by platform.

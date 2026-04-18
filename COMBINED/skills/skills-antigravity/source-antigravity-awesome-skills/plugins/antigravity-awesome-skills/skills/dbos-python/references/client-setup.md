@@ -3,6 +3,9 @@ title: Initialize DBOSClient for External Access
 impact: HIGH
 impactDescription: Enables external applications to interact with DBOS
 tags: client, setup, initialization, external
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
 ---
 
 ## Initialize DBOSClient for External Access

@@ -1,6 +1,10 @@
 ---
 title: "TestRail Integration — Agent Skill & Codex Plugin"
 description: "Sync tests with TestRail. Use when user mentions 'testrail', 'test management', 'test cases', 'test run', 'sync test cases', 'push results to. Agent skill for Claude Code, Codex CLI, Gemini CLI, OpenClaw."
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
 ---
 
 # TestRail Integration

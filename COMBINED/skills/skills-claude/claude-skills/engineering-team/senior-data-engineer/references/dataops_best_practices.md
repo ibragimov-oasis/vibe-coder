@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # DataOps Best Practices
 
 Comprehensive guide to DataOps practices for production data systems.

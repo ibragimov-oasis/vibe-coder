@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # Power-ups Best Practice
 
 ![Last Updated](https://img.shields.io/badge/Last_Updated-Apr%2002%2C%202026-white?style=flat&labelColor=555)

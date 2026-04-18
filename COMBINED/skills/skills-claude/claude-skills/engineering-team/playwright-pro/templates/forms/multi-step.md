@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # Multi-Step Form (Wizard) Template
 
 Tests wizard step navigation, validation per step, and final submission.

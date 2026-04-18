@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/seo
+  - artifact/doc
+  - source/skills-seo
+---
+
 # Target Keywords & Topic Clusters
 
 This document organizes Castos's target keywords by topic cluster for strategic content planning and SEO optimization.

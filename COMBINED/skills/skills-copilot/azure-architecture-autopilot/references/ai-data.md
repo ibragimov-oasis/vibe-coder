@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-copilot
+---
+
 # Domain Pack: AI/Data (v1)
 
 Service configuration guide specialized for Azure AI/Data workloads.

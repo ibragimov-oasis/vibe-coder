@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
+---
+
 # Claude Code 简明指南
 
 ![标题：Anthropic 黑客马拉松获胜者 - Claude Code 技巧与窍门](../../assets/images/shortform/00-header.png)

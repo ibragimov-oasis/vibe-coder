@@ -1,6 +1,10 @@
 ---
 name: dual-spawn
 description: Spawn headless Codex workers from Claude Code for parallel execution
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-ruflo
 ---
 
 # Dual Spawn Skill

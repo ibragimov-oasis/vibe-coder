@@ -1,6 +1,10 @@
 ---
 title: "/ar:status — Experiment Dashboard — Agent Skill for Codex & OpenClaw"
 description: "Show experiment dashboard with results, active loops, and progress. Agent skill for Claude Code, Codex CLI, Gemini CLI, OpenClaw."
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
 ---
 
 # /ar:status — Experiment Dashboard

@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/seo
+  - artifact/doc
+  - source/skills-seo
+---
+
 # SEO Image Presets
 
 Pre-configured presets for common SEO image use cases. These map to banana's

@@ -3,6 +3,10 @@ paths:
   - "**/*.cs"
   - "**/*.csx"
   - "**/*.csproj"
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
 ---
 
 # C# 测试

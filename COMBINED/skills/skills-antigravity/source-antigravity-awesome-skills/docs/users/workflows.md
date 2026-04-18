@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # Antigravity Workflows
 
 > Workflow playbooks to orchestrate multiple skills with less friction.

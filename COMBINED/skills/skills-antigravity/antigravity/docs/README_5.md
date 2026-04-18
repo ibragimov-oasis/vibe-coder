@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # React Best Practices
 
 A structured repository for creating and maintaining React Best Practices optimized for agents and LLMs.

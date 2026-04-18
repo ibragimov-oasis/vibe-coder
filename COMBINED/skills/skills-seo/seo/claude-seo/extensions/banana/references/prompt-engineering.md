@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/seo
+  - artifact/doc
+  - source/skills-seo
+---
+
 # Prompt Engineering Reference: Claude Banana
 
 > Load this on-demand when constructing complex prompts or when the user

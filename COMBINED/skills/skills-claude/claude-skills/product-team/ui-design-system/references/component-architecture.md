@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # Component Architecture Guide
 
 Reference for design system component organization, naming conventions, and documentation patterns.

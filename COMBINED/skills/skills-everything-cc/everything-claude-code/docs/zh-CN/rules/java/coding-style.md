@@ -1,6 +1,10 @@
 ---
 paths:
   - "**/*.java"
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
 ---
 
 # Java 编码风格

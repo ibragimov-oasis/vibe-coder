@@ -1,6 +1,10 @@
 ---
 name: electron-desktop
 description: Electron desktop app template principles. Cross-platform, React, TypeScript.
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
 ---
 
 # Electron Desktop App Template

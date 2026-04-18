@@ -1,6 +1,10 @@
 ---
 title: "Content Strategist — AI Coding Agent & Codex Skill"
 description: "Builds content engines that rank, convert, and compound. Thinks in systems — topic clusters, not individual posts. Every piece earns its place or. Agent-native orchestrator for Claude Code, Codex, Gemini CLI."
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
 ---
 
 # Content Strategist

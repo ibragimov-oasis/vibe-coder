@@ -1,5 +1,9 @@
 ---
 description: İdiomatic desenler, eşzamanlılık güvenliği, hata yönetimi ve güvenlik için kapsamlı Go kod incelemesi. go-reviewer agent'ını çağırır.
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
 ---
 
 # Go Code Review

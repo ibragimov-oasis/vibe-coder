@@ -3,6 +3,10 @@ name: pytorch-build-resolver
 description: PyTorch运行时、CUDA和训练错误解决专家。修复张量形状不匹配、设备错误、梯度问题、DataLoader问题和混合精度失败，改动最小。在PyTorch训练或推理崩溃时使用。
 tools: ["Read", "Write", "Edit", "Bash", "Grep", "Glob"]
 model: sonnet
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
 ---
 
 # PyTorch 构建/运行时错误解决器

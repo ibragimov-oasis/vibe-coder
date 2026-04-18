@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # 本地技能配置
 
 > **当前状态**：仓库中提供所有 96 个技能。

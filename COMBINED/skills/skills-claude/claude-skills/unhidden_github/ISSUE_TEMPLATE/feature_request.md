@@ -4,6 +4,10 @@ about: Suggest a new skill for the library
 title: '[SKILL REQUEST] '
 labels: enhancement, new-skill
 assignees: ''
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
 ---
 
 ## Skill Overview

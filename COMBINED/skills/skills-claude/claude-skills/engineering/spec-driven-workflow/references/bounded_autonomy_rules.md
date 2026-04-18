@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # Bounded Autonomy Rules
 
 Decision framework for when an agent (human or AI) should stop and ask vs. continue working autonomously during spec-driven development.

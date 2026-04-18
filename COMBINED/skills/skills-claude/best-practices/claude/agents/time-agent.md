@@ -15,6 +15,10 @@ allowedTools:
   - "mcp__*"
 model: haiku
 maxTurns: 3
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
 ---
 
 # Time Agent

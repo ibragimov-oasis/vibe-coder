@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-copilot
+---
+
 # Issue Fields REST API Reference
 
 Issue fields are org-level custom metadata for issues. All endpoints require the API version header:

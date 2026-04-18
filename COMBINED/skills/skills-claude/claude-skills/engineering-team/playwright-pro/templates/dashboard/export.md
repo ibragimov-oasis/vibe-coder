@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # Export Template
 
 Tests CSV and PDF export, download triggering, and file verification.

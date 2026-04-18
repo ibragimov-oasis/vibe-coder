@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
+---
+
 # Orchestrate 指令
 
 複雜任務的循序 Agent 工作流程。

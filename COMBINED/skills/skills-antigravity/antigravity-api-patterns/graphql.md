@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # GraphQL Principles
 
 > Flexible queries for complex, interconnected data.

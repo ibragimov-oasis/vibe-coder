@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-superpowers
+---
+
 # Gemini CLI Tool Mapping
 
 Skills use Claude Code tool names. When you encounter these in a skill, use your platform equivalent:

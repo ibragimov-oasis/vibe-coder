@@ -2,6 +2,10 @@
 description: Run comprehensive security review
 agent: security-reviewer
 subtask: true
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
 ---
 
 # Security Review Command

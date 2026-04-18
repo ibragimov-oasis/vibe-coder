@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # Content Calendar Template - [Month Year]
 
 ## Monthly Goals

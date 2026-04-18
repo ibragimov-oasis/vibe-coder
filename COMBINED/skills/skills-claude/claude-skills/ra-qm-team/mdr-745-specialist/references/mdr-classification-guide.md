@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # MDR Device Classification Guide
 
 EU MDR 2017/745 Annex VIII classification rules and decision framework.

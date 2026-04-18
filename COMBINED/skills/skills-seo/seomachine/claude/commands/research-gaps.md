@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/seo
+  - artifact/doc
+  - source/skills-seo
+---
+
 # Research Gaps Command
 
 Identify content gaps where competitors rank but you don't.

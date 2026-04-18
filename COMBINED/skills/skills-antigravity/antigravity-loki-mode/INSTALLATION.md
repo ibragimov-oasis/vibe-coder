@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # Loki Mode Installation Guide
 
 Complete installation instructions for all platforms and use cases.

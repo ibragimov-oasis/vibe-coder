@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
+---
+
 # 后端 - 后端导向开发
 
 后端导向的工作流程（研究 → 构思 → 规划 → 执行 → 优化 → 评审），由 Codex 主导。

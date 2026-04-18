@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/seo
+  - artifact/doc
+  - source/skills-seo
+---
+
 # Research Trending Command
 
 Identify topics gaining search interest NOW for time-sensitive content opportunities.

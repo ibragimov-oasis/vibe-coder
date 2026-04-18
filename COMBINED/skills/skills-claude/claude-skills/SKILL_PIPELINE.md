@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # Skill Production Pipeline — claude-skills
 
 > **Effective: 2026-03-07** | Applies to ALL new skills, improvements, and deployments.

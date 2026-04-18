@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # One-Pager Templates
 
 Templates for different one-pager use cases, with layout guidance and copy prompts.

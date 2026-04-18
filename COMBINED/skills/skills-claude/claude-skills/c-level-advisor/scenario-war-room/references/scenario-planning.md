@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # Scenario Planning Reference
 
 ## Shell's Scenario Planning Methodology

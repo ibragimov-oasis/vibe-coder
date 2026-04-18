@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # Strategy Types for OKR Generation
 
 Comprehensive breakdown of the five core strategy types with objectives, key results, and when to use each.

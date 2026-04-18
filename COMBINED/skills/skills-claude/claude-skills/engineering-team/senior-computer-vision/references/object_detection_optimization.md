@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # Object Detection Optimization
 
 Comprehensive guide to optimizing object detection models for accuracy and inference speed.

@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # Document Control Procedures
 
 Implementation guide for ISO 13485-compliant document control systems.

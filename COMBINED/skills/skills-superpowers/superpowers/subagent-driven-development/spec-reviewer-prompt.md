@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-superpowers
+---
+
 # Spec Compliance Reviewer Prompt Template
 
 Use this template when dispatching a spec compliance reviewer subagent.

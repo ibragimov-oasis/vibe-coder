@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # Component Patterns
 
 Modern React component architecture for the application emphasizing type safety, lazy loading, and Suspense boundaries.

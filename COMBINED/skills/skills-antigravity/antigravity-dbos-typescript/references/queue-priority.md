@@ -3,6 +3,9 @@ title: Set Queue Priority for Workflows
 impact: HIGH
 impactDescription: Prioritizes important workflows over lower-priority ones
 tags: queue, priority, ordering, importance
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
 ---
 
 ## Set Queue Priority for Workflows

@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-hermes
+---
+
 # Comprehensive Hyperparameter Sweeps Guide
 
 Complete guide to hyperparameter optimization with W&B Sweeps.

@@ -1,5 +1,9 @@
 ---
 description: 全面的Python代码审查，确保符合PEP 8标准、类型提示、安全性以及Pythonic惯用法。调用python-reviewer代理。
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
 ---
 
 # Python 代码审查

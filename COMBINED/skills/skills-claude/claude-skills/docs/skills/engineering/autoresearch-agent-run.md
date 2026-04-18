@@ -1,6 +1,10 @@
 ---
 title: "/ar:run — Single Experiment Iteration — Agent Skill for Codex & OpenClaw"
 description: "Run a single experiment iteration. Edit the target file, evaluate, keep or discard. Agent skill for Claude Code, Codex CLI, Gemini CLI, OpenClaw."
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
 ---
 
 # /ar:run — Single Experiment Iteration

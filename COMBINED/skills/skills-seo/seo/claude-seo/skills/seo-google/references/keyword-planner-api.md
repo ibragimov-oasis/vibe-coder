@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/seo
+  - artifact/doc
+  - source/skills-seo
+---
+
 # Google Ads API - Keyword Planner Reference
 
 Gold-standard source for keyword search volume. DataForSEO gets its volume data from Google Ads -- this cuts out the middleman.

@@ -4,6 +4,10 @@ description: Google SEO API analyst. Fetches CWV field data via CrUX, indexation
 model: sonnet
 maxTurns: 15
 tools: Read, Bash, Write, Glob, Grep  # Write needed for report/data file output
+tags:
+  - domain/seo
+  - artifact/doc
+  - source/skills-seo
 ---
 
 You are a Google SEO API data analyst. When delegated tasks during an SEO audit:

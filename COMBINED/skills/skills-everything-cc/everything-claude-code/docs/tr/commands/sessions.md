@@ -1,5 +1,9 @@
 ---
 description: Claude Code session geçmişini, aliasları ve session metadata'sını yönet.
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
 ---
 
 # Sessions Komutu

@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-copilot
+---
+
 # Game Control Mechanisms
 
 This reference covers the primary control mechanisms available for web-based games, including mobile touch, desktop keyboard and mouse, gamepad controllers, and unconventional input methods.

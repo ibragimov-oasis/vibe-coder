@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-copilot
+---
+
 # Web APIs for Game Development
 
 A comprehensive reference covering the web platform APIs most relevant to building browser-based games. Each section describes what the API is, why it matters for games, its key interfaces and methods, and provides brief code examples where applicable.

@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
+---
+
 ## What Changed
 <!-- Describe the specific changes made in this PR -->
 

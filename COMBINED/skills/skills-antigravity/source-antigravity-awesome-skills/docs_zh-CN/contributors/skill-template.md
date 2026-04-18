@@ -8,6 +8,9 @@ date_added: "YYYY-MM-DD"
 author: your-name-or-handle
 tags: [tag-one, tag-two]
 tools: [claude, cursor, gemini]
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
 ---
 
 # 技能标题

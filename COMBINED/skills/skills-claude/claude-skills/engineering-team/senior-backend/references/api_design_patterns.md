@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # API Design Patterns
 
 Concrete patterns for REST and GraphQL API design with examples.

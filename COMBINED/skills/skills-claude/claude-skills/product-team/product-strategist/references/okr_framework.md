@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # OKR Cascade Framework
 
 A practical guide to Objectives and Key Results (OKRs) and how to cascade them across organizational levels.

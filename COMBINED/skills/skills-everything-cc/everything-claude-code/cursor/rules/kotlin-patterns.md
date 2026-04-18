@@ -2,6 +2,10 @@
 description: "Kotlin patterns extending common rules"
 globs: ["**/*.kt", "**/*.kts", "**/build.gradle.kts"]
 alwaysApply: false
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
 ---
 # Kotlin Patterns
 

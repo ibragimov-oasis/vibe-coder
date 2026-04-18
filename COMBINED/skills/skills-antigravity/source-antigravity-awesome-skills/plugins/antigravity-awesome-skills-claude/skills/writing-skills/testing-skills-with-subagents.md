@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # Testing Skills With Subagents
 
 **Load this reference when:** creating or editing skills, before deployment, to verify they work under pressure and resist rationalization.

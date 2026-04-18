@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # Juntas Comerciais do Brasil — URLs e Status de Scraping
 
 Tabela de referência atualizada com todas as 27 Juntas Comerciais e seus sites de leiloeiros.

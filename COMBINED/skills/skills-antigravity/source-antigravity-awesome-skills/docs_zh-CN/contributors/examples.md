@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # 💡 实际示例 - 查看技能的实际应用
 
 **通过示例学习！**本指南向您展示使用不同技能的真实对话。

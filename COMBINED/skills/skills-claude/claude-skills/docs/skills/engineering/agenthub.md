@@ -1,6 +1,10 @@
 ---
 title: "AgentHub — Multi-Agent Collaboration — Agent Skill for Codex & OpenClaw"
 description: "Multi-agent collaboration plugin that spawns N parallel subagents competing on the same task via git worktree isolation. Agents work independently. Agent skill for Claude Code, Codex CLI, Gemini CLI, OpenClaw."
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
 ---
 
 # AgentHub — Multi-Agent Collaboration

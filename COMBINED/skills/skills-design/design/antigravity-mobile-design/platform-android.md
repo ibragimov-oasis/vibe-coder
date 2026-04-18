@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/ui
+  - artifact/doc
+  - source/skills-design
+---
+
 # Android Platform Guidelines
 
 > Material Design 3 essentials, Android design conventions, Roboto typography, and native patterns.

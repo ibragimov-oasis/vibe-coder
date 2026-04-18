@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # AWS Best Practices for Startups
 
 Production-ready practices for serverless, cost optimization, security, and operational excellence.

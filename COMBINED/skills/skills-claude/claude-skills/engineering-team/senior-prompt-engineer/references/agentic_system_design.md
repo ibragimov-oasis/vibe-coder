@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # Agentic System Design
 
 Agent architectures, tool use patterns, and multi-agent orchestration with pseudocode.

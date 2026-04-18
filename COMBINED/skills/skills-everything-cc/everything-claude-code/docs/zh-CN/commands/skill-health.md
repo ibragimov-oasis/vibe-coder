@@ -2,6 +2,10 @@
 name: skill-health
 description: 显示技能组合健康仪表板，包含图表和分析
 command: true
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
 ---
 
 # 技能健康仪表盘

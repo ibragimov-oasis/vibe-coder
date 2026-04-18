@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # Advanced Agentic Patterns Reference
 
 Research-backed patterns from 2025-2026 literature for enhanced multi-agent orchestration.

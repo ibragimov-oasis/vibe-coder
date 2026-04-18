@@ -1,6 +1,10 @@
 ---
 description: Create comprehensive planning documentation for a feature
 argument-hint: "<feature-slug>"
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
 ---
 
 ## User Input

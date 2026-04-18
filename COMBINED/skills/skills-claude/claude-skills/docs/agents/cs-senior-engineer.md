@@ -1,6 +1,10 @@
 ---
 title: "Senior Engineer — AI Coding Agent & Codex Skill"
 description: "Senior Engineer agent for architecture decisions, code review, DevOps, and API design. Orchestrates engineering and engineering-team skills for. Agent-native orchestrator for Claude Code, Codex, Gemini CLI."
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
 ---
 
 # Senior Engineer

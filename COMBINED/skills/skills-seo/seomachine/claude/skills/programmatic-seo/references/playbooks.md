@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/seo
+  - artifact/doc
+  - source/skills-seo
+---
+
 # The 12 Programmatic SEO Playbooks
 
 Beyond mixing and matching data point permutations, these are the proven playbooks for programmatic SEO.

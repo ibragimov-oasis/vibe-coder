@@ -1,5 +1,9 @@
 ---
 model: haiku
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
 ---
 
 # Time Orchestrator Command

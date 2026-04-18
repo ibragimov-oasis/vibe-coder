@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-superpowers
+---
+
 # Root Cause Tracing
 
 ## Overview

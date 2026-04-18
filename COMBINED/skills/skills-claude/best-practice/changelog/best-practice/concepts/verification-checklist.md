@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # Verification Checklist — README CONCEPTS Section
 
 Rules for verifying CONCEPTS table accuracy. Each rule is checked during every workflow run.

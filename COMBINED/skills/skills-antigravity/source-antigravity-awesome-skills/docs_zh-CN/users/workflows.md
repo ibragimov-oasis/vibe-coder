@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # Antigravity 工作流
 
 > 工作流手册，以更少的摩擦协调多个技能。

@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # Demystify SwiftUI Performance (WWDC23) (Summary)
 
 Context: WWDC23 session on building a mental model for SwiftUI performance and triaging hangs/hitches.

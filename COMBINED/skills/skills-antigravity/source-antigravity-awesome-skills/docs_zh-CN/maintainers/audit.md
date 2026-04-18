@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # 仓库一致性和正确性审计
 
 本文档总结了在 `apps/` + `tools/` + 分层 `docs/` 重构后执行的仓库一致性审计。

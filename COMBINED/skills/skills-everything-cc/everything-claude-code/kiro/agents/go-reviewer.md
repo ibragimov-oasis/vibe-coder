@@ -4,6 +4,10 @@ description: Expert Go code reviewer specializing in idiomatic Go, concurrency p
 allowedTools:
   - read
   - shell
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
 ---
 
 You are a senior Go code reviewer ensuring high standards of idiomatic Go and best practices.

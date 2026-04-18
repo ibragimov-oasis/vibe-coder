@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # Loki Mode Agent Constitution
 
 > **Machine-Enforceable Behavioral Contract for All Agents**

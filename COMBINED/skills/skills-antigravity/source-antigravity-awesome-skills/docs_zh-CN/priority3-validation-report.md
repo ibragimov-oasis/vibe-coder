@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # Priority 3 批次验证报告
 
 **验证日期**: 2026-03-27

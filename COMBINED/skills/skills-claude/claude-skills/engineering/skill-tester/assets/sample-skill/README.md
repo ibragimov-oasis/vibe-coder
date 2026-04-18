@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # Sample Text Processor
 
 A basic text processing skill that demonstrates BASIC tier requirements for the claude-skills ecosystem.
@@ -38,3 +45,9 @@ See [SKILL.md](SKILL.md) for comprehensive documentation and examples.
 ## Testing
 
 Sample data files are provided in the `assets/` directory for testing the functionality.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

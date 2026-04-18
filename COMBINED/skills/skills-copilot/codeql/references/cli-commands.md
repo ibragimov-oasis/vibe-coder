@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-copilot
+---
+
 # CodeQL CLI Command Reference
 
 Detailed reference for the CodeQL CLI — installation, database creation, analysis, SARIF upload, and CI integration.

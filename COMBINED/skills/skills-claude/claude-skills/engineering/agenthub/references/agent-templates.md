@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # Agent Templates
 
 Predefined dispatch prompt templates for `/hub:spawn --template <name>`. Each template defines the iteration pattern agents follow in their worktrees.

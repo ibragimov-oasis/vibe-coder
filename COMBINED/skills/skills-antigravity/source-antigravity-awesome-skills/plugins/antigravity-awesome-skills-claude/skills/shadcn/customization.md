@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # Customization & Theming
 
 Components reference semantic CSS variable tokens. Change the variables to change every component.

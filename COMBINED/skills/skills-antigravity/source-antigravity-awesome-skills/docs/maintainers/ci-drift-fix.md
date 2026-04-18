@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # CI Drift Fix Guide
 
 **Problem**: The failing job is caused by tracked drift left behind after the canonical sync steps run on `main`.

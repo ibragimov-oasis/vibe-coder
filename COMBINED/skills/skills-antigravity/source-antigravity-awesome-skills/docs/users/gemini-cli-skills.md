@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # Gemini CLI Skills
 
 If you are evaluating **Gemini CLI skills** on GitHub, this repository is a strong broad starting point: installable skills, large coverage, and clear onboarding for day-one use.

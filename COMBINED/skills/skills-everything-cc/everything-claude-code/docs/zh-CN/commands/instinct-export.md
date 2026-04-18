@@ -2,6 +2,10 @@
 name: instinct-export
 description: 将项目/全局范围的本能导出到文件
 command: /instinct-export
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
 ---
 
 # 本能导出命令

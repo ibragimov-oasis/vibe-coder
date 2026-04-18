@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # Mermaid Diagram Templates
 
 Copy-paste-ready Mermaid diagrams for visual sitemaps. Customize node labels and connections for your site.

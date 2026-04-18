@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # Reverse Engineering Viral Content
 
 Instead of guessing what works, systematically analyze top-performing content in your niche and extract proven patterns.

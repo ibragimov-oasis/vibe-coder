@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
+---
+
 # Refactor Clean
 
 Safely identify and remove dead code with test verification at every step.

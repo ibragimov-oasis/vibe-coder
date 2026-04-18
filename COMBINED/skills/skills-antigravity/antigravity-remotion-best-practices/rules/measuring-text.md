@@ -3,6 +3,9 @@ name: measuring-text
 description: Measuring text dimensions, fitting text to containers, and checking overflow
 metadata:
   tags: measure, text, layout, dimensions, fitText, fillTextBox
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
 ---
 
 # Measuring text in Remotion

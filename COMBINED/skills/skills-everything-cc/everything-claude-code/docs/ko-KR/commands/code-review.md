@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
+---
+
 # 코드 리뷰
 
 커밋되지 않은 변경사항에 대한 포괄적인 보안 및 품질 리뷰를 수행합니다:

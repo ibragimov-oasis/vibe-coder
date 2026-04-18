@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-copilot
+---
+
 # Validation Commands Reference
 
 This reference documents all commands used for Azure deployment preflight validation.

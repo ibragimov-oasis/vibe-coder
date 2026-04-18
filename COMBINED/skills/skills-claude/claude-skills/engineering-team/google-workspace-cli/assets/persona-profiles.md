@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # Google Workspace CLI Persona Profiles
 
 10 role-based bundles that scope recipes and commands to your daily workflow.

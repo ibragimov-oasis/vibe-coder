@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # Interview System Designer
 
 A comprehensive toolkit for designing, optimizing, and calibrating interview processes. This skill provides tools to create role-specific interview loops, generate competency-based question banks, and analyze hiring data for bias and calibration issues.
@@ -307,3 +314,9 @@ To extend this skill:
 This skill is designed for internal company use in hiring process optimization. All bias detection and mitigation features should be reviewed with legal counsel to ensure compliance with local employment laws.
 
 For questions or support, refer to the comprehensive documentation in each script's docstring and the reference materials provided.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

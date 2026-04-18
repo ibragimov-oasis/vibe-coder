@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # Best Cursor Skills on GitHub
 
 If you are searching for the **best Cursor skills on GitHub**, the best option depends on whether you want a broad installable library, a curated discovery list, or a smaller community collection.

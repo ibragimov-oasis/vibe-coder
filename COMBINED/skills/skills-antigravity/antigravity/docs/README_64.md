@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # Stitch UI Design Skill
 
 Expert guidance for creating effective prompts in Google Stitch, the AI-powered UI design tool.

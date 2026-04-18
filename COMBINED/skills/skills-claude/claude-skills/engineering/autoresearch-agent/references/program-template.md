@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # program.md Templates
 
 Copy the template for your domain and paste into your project root as `program.md`.

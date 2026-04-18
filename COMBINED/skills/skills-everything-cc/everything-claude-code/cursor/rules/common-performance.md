@@ -1,6 +1,10 @@
 ---
 description: "Performance: model selection, context management, build troubleshooting"
 alwaysApply: true
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
 ---
 # Performance Optimization
 

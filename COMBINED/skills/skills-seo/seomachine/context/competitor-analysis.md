@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/seo
+  - artifact/doc
+  - source/skills-seo
+---
+
 # Competitor Analysis
 
 This document tracks key competitors in the podcast hosting and podcasting content space, analyzing their content strategies to identify opportunities for Castos.

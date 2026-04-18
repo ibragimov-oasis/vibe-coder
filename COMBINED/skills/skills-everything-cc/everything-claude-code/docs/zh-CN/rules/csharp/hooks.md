@@ -6,6 +6,10 @@ paths:
   - "**/*.sln"
   - "**/Directory.Build.props"
   - "**/Directory.Build.targets"
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
 ---
 
 # C# 钩子

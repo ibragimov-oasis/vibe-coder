@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # International GTM Playbooks
 
 Market-by-market expansion guides for US, UK, DACH, France, and Canada.

@@ -1,6 +1,10 @@
 ---
 title: "BrowserStack Integration — Agent Skill & Codex Plugin"
 description: "Run tests on BrowserStack. Use when user mentions 'browserstack', 'cross-browser', 'cloud testing', 'browser matrix', 'test on safari', 'test on. Agent skill for Claude Code, Codex CLI, Gemini CLI, OpenClaw."
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
 ---
 
 # BrowserStack Integration

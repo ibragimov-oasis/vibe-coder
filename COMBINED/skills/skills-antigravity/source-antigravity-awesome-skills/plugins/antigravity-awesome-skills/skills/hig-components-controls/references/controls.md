@@ -106,7 +106,11 @@ If your app supports camera capture, starting with iOS 18 you can create a contr
 
 ## [Change log](https://developer.apple.com/design/human-interface-guidelines/controls#Change-log)
 
-Date| Changes  
+Date| Changes
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
 ---|---  
 June 10, 2024| New page.  
   

@@ -1,5 +1,9 @@
 ---
 description: "Oturumdan yeniden kullanılabilir desenleri çıkar, kaydetmeden önce kaliteyi kendinden değerlendir ve doğru kayıt konumunu belirle (Global vs Proje)."
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
 ---
 
 # /learn-eval - Çıkar, Değerlendir, Sonra Kaydet

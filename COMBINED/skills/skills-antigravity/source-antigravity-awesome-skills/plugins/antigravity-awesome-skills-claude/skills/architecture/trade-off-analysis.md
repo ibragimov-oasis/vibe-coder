@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # Trade-off Analysis & ADR
 
 > Document every architectural decision with trade-offs.

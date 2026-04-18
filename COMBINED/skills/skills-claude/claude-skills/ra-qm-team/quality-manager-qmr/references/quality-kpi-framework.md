@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # Quality KPI Framework
 
 Quality performance indicators, targets, and monitoring guidelines for QMS effectiveness.

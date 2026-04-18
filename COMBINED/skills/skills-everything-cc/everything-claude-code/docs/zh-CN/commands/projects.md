@@ -2,6 +2,10 @@
 name: projects
 description: 列出已知项目及其本能统计数据
 command: true
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
 ---
 
 # 项目命令

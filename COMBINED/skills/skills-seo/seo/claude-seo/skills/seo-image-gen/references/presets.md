@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/seo
+  - artifact/doc
+  - source/skills-seo
+---
+
 # Brand/Style Presets Reference
 
 > Load this on-demand when the user asks about presets or brand consistency.

@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # Tech Innovation
 
 A bold and modern theme with high-contrast colors perfect for cutting-edge technology presentations.

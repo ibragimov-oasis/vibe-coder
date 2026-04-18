@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # shadcn MCP Server
 
 The CLI includes an MCP server that lets AI assistants search, browse, view, and install components from registries.

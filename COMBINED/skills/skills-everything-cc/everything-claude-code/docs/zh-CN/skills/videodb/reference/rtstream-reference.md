@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
+---
+
 # RTStream 参考
 
 RTStream 操作的代码级详情。工作流程指南请参阅 [rtstream.md](rtstream.md)。

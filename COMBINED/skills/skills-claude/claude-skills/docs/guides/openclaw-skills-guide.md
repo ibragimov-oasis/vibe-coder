@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # OpenClaw Skills Guide — Install & Use Agent Skills with OpenClaw
 
 > **Last updated:** March 2026 · **Skills count:** 192+ · **Compatibility:** OpenClaw v2024.12+

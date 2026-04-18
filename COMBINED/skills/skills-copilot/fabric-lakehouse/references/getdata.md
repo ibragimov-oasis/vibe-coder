@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-copilot
+---
+
 ### Data Factory Integration
 
 Microsoft Fabric includes Data Factory for ETL/ELT orchestration:

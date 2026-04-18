@@ -1,6 +1,10 @@
 ---
 title: "Workspace Admin — AI Coding Agent & Codex Skill"
 description: "Google Workspace administration agent using the gws CLI. Orchestrates workspace setup, Gmail/Drive/Sheets/Calendar automation, security audits, and. Agent-native orchestrator for Claude Code, Codex, Gemini CLI."
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
 ---
 
 # Workspace Admin

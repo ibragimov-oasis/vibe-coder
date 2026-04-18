@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-hermes
+---
+
 # Transformers Integration
 
 Complete guide to using HuggingFace Tokenizers with the Transformers library.

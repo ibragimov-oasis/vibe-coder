@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # Template para Novas Skills
 
 Use este template ao criar skills recomendadas pelo Sentinel.

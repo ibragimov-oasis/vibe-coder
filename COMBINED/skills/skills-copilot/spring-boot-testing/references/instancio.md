@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-copilot
+---
+
 # Instancio
 
 Generate complex test objects automatically. Use when entities/DTOs have 3+ properties.

@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # Keyboard Navigation Template
 
 Tests tab order, focus visibility, and keyboard shortcuts.

@@ -2,6 +2,10 @@
 description: "PHP testing extending common rules"
 globs: ["**/*.php", "**/phpunit.xml", "**/phpunit.xml.dist", "**/composer.json"]
 alwaysApply: false
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
 ---
 # PHP Testing
 

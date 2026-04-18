@@ -1,6 +1,10 @@
 ---
 description: Import instincts from external sources
 agent: build
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
 ---
 
 # Instinct Import Command

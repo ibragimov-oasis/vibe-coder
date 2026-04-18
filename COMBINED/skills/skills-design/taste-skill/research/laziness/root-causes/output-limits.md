@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/ui
+  - artifact/doc
+  - source/skills-design
+---
+
 # Output Limits and Consumer Truncation
 
 ## Context Window Asymmetry

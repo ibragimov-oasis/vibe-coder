@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # Guia Completo de Setup - WhatsApp Business Cloud API
 
 > Do zero absoluto ate o envio da primeira mensagem em producao.

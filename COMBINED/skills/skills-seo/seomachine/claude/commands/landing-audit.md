@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/seo
+  - artifact/doc
+  - source/skills-seo
+---
+
 # Landing Page Audit Command
 
 Use this command to audit existing landing pages for conversion optimization opportunities.

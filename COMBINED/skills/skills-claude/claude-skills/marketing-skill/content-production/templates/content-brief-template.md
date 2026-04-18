@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # Content Brief Template
 
 > Fill in every field before writing starts. Blank fields mean assumptions. Assumptions mean rewrites.

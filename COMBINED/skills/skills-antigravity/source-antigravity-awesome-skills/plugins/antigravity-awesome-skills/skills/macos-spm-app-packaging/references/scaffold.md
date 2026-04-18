@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # Scaffold a SwiftPM macOS app (no Xcode)
 
 ## Steps

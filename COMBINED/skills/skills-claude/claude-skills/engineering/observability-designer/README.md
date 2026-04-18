@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # Observability Designer
 
 A comprehensive toolkit for designing production-ready observability strategies including SLI/SLO frameworks, alert optimization, and dashboard generation.
@@ -382,3 +389,9 @@ For questions, issues, or feature requests:
 ---
 
 *This skill is part of the Claude Skills marketplace. For more information about observability best practices, see the reference documentation in the `references/` directory.*
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

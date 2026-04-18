@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
+---
+
 # Claude Code'un Her Şeyine Dair Kısa Kılavuz
 
 ![Header: Anthropic Hackathon Winner - Tips & Tricks for Claude Code](../assets/images/shortform/00-header.png)

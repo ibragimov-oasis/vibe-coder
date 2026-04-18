@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # Concurrency and Parallel Programming
 
 ## Atomics and Memory Ordering

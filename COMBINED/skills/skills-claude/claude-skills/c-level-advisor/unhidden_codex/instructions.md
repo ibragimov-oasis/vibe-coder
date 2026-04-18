@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # C-Level Advisory — Codex CLI Instructions
 
 When working on executive or strategic tasks, use the C-level advisory system:

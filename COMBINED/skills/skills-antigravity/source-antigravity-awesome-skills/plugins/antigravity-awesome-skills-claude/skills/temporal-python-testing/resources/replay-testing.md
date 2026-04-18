@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # Replay Testing for Determinism and Compatibility
 
 Comprehensive guide for validating workflow determinism and ensuring safe code changes using replay testing.

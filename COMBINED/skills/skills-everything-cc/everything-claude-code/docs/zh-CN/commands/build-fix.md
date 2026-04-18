@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
+---
+
 # 构建与修复
 
 以最小、安全的更改逐步修复构建和类型错误。

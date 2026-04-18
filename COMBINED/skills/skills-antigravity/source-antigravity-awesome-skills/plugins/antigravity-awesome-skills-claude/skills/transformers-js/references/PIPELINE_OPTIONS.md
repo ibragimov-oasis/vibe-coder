@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # Pipeline Options Reference
 
 Guide to configuring model loading and inference using the `PretrainedModelOptions` parameter in the `pipeline()` function.

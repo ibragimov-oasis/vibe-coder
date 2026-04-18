@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # Update Entity Template
 
 Tests editing an entity via form and inline edit interactions.

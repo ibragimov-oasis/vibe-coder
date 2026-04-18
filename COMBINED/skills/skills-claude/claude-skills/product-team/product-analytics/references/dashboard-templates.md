@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # Dashboard Templates
 
 ## 1. Executive Dashboard Template

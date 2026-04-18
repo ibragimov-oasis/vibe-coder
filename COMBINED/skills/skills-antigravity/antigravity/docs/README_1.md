@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # Antigravity Web App
 
 This app is the static catalog and skill browser for `antigravity-awesome-skills`. It ships the generated registry, renders searchable skill detail pages, and publishes the public site to GitHub Pages.

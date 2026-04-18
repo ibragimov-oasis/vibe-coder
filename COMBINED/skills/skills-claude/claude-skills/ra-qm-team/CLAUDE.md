@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # Regulatory Affairs & Quality Management Skills - Claude Code Guidance
 
 This guide covers the 13 production-ready RA/QM compliance skills for HealthTech/MedTech companies.

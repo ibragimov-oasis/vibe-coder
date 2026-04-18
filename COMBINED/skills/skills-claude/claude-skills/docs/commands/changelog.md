@@ -1,6 +1,10 @@
 ---
 title: "/changelog — Slash Command for AI Coding Agents"
 description: "Generate changelogs from git history and validate conventional commits. Usage: /changelog <generate|lint> [options]. Slash command for Claude Code, Codex CLI, Gemini CLI."
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
 ---
 
 # /changelog

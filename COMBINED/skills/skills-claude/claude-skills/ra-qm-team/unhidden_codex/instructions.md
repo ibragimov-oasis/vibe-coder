@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # RA/QM Skills — Codex CLI Instructions
 
 When working on regulatory or quality management tasks, use the RA/QM skill system:

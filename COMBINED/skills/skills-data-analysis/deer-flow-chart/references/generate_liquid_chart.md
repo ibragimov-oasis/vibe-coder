@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-data-analysis
+---
+
 # generate_liquid_chart — 水波图
 
 ## 功能概述

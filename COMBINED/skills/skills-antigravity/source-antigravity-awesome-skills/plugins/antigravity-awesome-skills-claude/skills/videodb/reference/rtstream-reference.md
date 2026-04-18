@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # RTStream Reference
 
 Code-level details for RTStream operations. For workflow guide, see [rtstream.md](rtstream.md).

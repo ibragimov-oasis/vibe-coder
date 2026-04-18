@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # Logistics Exception Management — Edge Cases Reference
 
 > Tier 3 reference. Load on demand when handling complex or ambiguous exceptions that don't resolve through standard workflows.

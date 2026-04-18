@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
+---
+
 # 完整 API 参考
 
 VideoDB 技能参考材料。关于使用指南和工作流选择，请从 [../SKILL.md](../SKILL.md) 开始。

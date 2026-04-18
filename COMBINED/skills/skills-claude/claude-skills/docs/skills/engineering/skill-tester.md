@@ -1,6 +1,10 @@
 ---
 title: "Skill Tester — Agent Skill for Codex & OpenClaw"
 description: "Skill Tester. Agent skill for Claude Code, Codex CLI, Gemini CLI, OpenClaw."
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
 ---
 
 # Skill Tester

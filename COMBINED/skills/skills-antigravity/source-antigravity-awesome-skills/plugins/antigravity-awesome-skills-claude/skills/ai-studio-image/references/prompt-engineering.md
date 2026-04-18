@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # AI Studio Image — Guia Avancado de Prompt Engineering
 
 ## Principio Fundamental (da Google)

@@ -1,6 +1,10 @@
 ---
 title: "Project Management Skills — Agent Skills & Codex Plugins"
 description: "7 project management skills — project management agent skill and Claude Code plugin for sprints, Jira, and Confluence. Works with Claude Code, Codex CLI, Gemini CLI, and OpenClaw."
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
 ---
 
 <div class="domain-header" markdown>

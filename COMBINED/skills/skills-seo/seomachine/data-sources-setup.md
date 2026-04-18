@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/seo
+  - artifact/doc
+  - source/skills-seo
+---
+
 # Data Sources Setup Guide
 
 This guide provides step-by-step instructions for setting up the data source integrations used by SEO Machine: Google Analytics 4 (GA4), Google Search Console, DataForSEO, and WordPress.

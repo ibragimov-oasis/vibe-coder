@@ -4,6 +4,9 @@ authors: {{AUTHORS}}
 date: {{DATE}}
 type: ml-experiment-report
 tags: [machine-learning, experiment-report]
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
 ---
 
 # {{TITLE}}

@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
+---
+
 # 智能体安全：攻击向量与隔离
 
 *一切关于 Claude Code / 研究 / 安全*

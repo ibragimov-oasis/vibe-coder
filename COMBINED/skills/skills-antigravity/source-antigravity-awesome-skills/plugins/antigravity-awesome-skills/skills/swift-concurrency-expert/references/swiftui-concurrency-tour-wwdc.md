@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # SwiftUI Concurrency Tour (Summary)
 
 Context: SwiftUI-focused concurrency overview covering actor isolation, Sendable closures, and how SwiftUI runs work off the main thread.

@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
+---
+
 # ECC 2.0 Selective Install Discovery
 
 ## Purpose

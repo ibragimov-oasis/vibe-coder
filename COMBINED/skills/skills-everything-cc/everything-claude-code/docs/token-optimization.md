@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
+---
+
 # Token Optimization Guide
 
 Practical settings and habits to reduce token consumption, extend session quality, and get more work done within daily limits.

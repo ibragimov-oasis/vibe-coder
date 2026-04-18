@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # Sprint Retrospective Formats
 
 ## Start/Stop/Continue

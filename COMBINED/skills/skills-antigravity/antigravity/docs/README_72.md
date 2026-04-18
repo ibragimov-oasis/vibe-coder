@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # Shopify Development Skill
 
 Comprehensive skill for building on Shopify platform: apps, extensions, themes, and API integrations.

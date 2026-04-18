@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # Common Problems & Debugging
 
 These are the real-world issues that only surface after integration. Read this before finishing any Spline implementation.

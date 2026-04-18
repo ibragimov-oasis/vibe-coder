@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
+---
+
 # Refactor Clean
 
 사용하지 않는 코드를 안전하게 식별하고 매 단계마다 테스트 검증을 수행하여 제거합니다.

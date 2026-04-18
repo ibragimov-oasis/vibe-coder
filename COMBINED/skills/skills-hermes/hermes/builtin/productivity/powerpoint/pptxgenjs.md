@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-hermes
+---
+
 # PptxGenJS Tutorial
 
 ## Setup & Basic Structure

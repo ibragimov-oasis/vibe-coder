@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/ui
+  - artifact/doc
+  - source/skills-design
+---
+
 # LLM Output Truncation Research
 
 A structured analysis of why large language models produce incomplete outputs, and documented methods to restore full-fidelity generation. All findings are drawn from controlled experiments, published studies, and field-tested engineering practices.
@@ -23,3 +30,9 @@ Documented techniques for overriding default truncation behavior, ordered from p
 ### Findings
 - [Empirical Results](findings/empirical-results.md) — Controlled experiment data from 2025 academic studies.
 - [References](findings/references.md) — Cited studies and further reading.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-design]] — Category: skills-design
+

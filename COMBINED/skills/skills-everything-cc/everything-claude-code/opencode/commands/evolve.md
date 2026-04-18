@@ -1,6 +1,10 @@
 ---
 description: Analyze instincts and suggest or generate evolved structures
 agent: build
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
 ---
 
 # Evolve Command

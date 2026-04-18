@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
+---
+
 # 使用场景
 
 常见工作流及 VideoDB 所实现的功能。代码详情请参阅 [api-reference.md](api-reference.md)、[capture.md](capture.md)、[editor.md](editor.md) 和 [search.md](search.md)。

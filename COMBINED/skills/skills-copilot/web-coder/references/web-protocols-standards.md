@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-copilot
+---
+
 # Web Protocols & Standards Reference
 
 Organizations, specifications, and standards that govern the web.

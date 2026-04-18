@@ -2,6 +2,10 @@
 name: skill-health
 description: Show skill portfolio health dashboard with charts and analytics
 command: true
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
 ---
 
 # Skill Health Dashboard

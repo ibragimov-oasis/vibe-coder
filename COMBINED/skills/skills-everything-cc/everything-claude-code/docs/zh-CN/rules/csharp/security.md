@@ -4,6 +4,10 @@ paths:
   - "**/*.csx"
   - "**/*.csproj"
   - "**/appsettings*.json"
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
 ---
 
 # C# 安全性

@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # ISO 13485:2016 Clause Requirements
 
 Detailed requirements for each ISO 13485:2016 clause with implementation guidance and audit criteria.

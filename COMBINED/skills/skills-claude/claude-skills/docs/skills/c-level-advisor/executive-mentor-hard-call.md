@@ -1,6 +1,10 @@
 ---
 title: "/em:hard-call — Framework for Decisions With No Good Options — Agent Skill for Executives"
 description: "/em -hard-call — Framework for Decisions With No Good Options. Agent skill for Claude Code, Codex CLI, Gemini CLI, OpenClaw."
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
 ---
 
 # /em:hard-call — Framework for Decisions With No Good Options

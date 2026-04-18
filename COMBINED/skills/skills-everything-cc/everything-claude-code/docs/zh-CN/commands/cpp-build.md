@@ -1,5 +1,9 @@
 ---
 description: 逐步修复C++构建错误、CMake问题和链接器问题。调用cpp-build-resolver代理进行最小化、精准的修复。
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
 ---
 
 # C++ 构建与修复

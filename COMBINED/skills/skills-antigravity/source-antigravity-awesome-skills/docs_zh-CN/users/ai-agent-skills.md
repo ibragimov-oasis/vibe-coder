@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # AI 代理技能
 
 如果您在 GitHub 上研究 **AI 代理技能**,最大的决定通常不是"哪个单一技能最好?",而是"我想要一个广泛的可安装库还是一个更小的精选集合?"

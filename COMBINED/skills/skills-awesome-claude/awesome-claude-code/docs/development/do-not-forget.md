@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-awesome-claude
+---
+
 # Don't Forget
 
 Some important but easy-to-forget assumptions and gotchas that can cause headaches:

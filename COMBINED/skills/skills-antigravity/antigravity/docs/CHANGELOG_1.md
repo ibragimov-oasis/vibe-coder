@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # Changelog - audio-transcriber
 
 All notable changes to the audio-transcriber skill will be documented in this file.

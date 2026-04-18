@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
+---
+
 # X Quote Draft - Eval Skills Post
 
 Strong eval skills are now built deeper into ECC.

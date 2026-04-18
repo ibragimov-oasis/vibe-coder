@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/seo
+  - artifact/doc
+  - source/skills-seo
+---
+
 # Content Architecture for Competitor Pages
 
 How to structure and maintain competitor data for scalable comparison pages.

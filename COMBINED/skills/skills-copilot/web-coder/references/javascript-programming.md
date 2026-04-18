@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-copilot
+---
+
 # JavaScript & Programming Reference
 
 Comprehensive reference for JavaScript, ECMAScript, programming concepts, and modern JS patterns.

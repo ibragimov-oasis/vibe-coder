@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # Messaging Templates
 
 Ready-to-use messaging frameworks for different personas and contexts.

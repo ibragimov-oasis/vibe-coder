@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
+---
+
 # Repo & Fork Assessment + Setup Recommendations
 
 **Date:** 2026-03-21

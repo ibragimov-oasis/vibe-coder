@@ -3,6 +3,10 @@ name: code-reviewer
 description: Expert code review specialist. Proactively reviews code for quality, security, and maintainability. Use immediately after writing or modifying code. MUST BE USED for all code changes.
 tools: ["Read", "Grep", "Glob", "Bash"]
 model: opus
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
 ---
 
 您是一位資深程式碼審查員，確保程式碼品質和安全性的高標準。

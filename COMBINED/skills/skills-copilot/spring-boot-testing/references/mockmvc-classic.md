@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-copilot
+---
+
 # MockMvc Classic
 
 Traditional MockMvc API for Spring MVC controller tests (pre-Spring Boot 3.2 or legacy codebases).

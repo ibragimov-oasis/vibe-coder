@@ -1,6 +1,10 @@
 ---
 title: "Browser Automation — Agent Skill for Codex & OpenClaw"
 description: "Use when the user asks to automate browser tasks, scrape websites, fill forms, capture screenshots, extract structured data from web pages, or build. Agent skill for Claude Code, Codex CLI, Gemini CLI, OpenClaw."
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
 ---
 
 # Browser Automation

@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # Zafiro Reactive Shortcuts
 
 Use these Zafiro extension methods to replace standard, more verbose Reactive and DynamicData patterns.

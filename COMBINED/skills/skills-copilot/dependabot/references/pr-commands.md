@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-copilot
+---
+
 # Dependabot PR Comment Commands
 
 Interact with Dependabot pull requests by commenting `@dependabot <command>`. Dependabot acknowledges commands with a thumbs-up reaction.

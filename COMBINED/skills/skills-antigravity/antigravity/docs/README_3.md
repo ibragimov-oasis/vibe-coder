@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # Jetski + Gemini 延迟技能加载器(示例)
 
 此示例展示了一种将 **antigravity-awesome-skills** 与 Jetski/Cortex 风格代理集成的方法,使用基于 `@skill-id` 提及的**延迟加载**,而不是将每个 `SKILL.md` 连接到提示词中。

@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # antigravity-skill-orchestrator
 
 A meta-skill package for the Antigravity IDE ecosystem.

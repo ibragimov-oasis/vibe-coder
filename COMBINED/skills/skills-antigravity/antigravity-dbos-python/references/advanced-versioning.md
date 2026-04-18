@@ -3,6 +3,9 @@ title: Use Versioning for Blue-Green Deployments
 impact: LOW
 impactDescription: Safely deploy new code with version tagging
 tags: versioning, blue-green, deployment, recovery
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
 ---
 
 ## Use Versioning for Blue-Green Deployments

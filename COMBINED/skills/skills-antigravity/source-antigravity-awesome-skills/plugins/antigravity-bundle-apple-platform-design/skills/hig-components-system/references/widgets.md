@@ -60,7 +60,11 @@ System family widgets offer a broad range of sizes and may include one or more i
 
 The following table shows supported contexts for each system family widget size:
 
-Widget size| iPhone| iPad| Mac| Apple Vision Pro  
+Widget size| iPhone| iPad| Mac| Apple Vision Pro
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
 ---|---|---|---|---  
 System small| Home Screen, Today View, StandBy, and CarPlay| Home Screen, Today View, and Lock Screen| Desktop and Notification Center| Horizontal and vertical surfaces  
 System medium| Home Screen and Today View| Home Screen and Today View| Desktop and Notification Center| Horizontal and vertical surfaces  

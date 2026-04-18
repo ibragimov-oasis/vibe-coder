@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # LLM Integration Guide
 
 Production patterns for integrating Large Language Models into applications.

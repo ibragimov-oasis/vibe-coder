@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # Customer Onboarding Checklist (90-Day)
 
 **Customer:** [Customer Name]

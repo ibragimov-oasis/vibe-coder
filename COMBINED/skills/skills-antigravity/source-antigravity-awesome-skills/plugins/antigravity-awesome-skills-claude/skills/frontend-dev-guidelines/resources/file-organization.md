@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # File Organization
 
 Proper file and directory structure for maintainable, scalable frontend code in the the application.

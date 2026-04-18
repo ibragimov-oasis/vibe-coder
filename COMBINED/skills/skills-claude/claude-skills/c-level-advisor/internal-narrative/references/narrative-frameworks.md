@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # Narrative Frameworks
 
 Reference frameworks for building compelling, consistent business narratives.

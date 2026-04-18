@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
+---
+
 # Go Microservice — CLAUDE.md de Projeto
 
 > Exemplo real para um microserviço Go com PostgreSQL, gRPC e Docker.

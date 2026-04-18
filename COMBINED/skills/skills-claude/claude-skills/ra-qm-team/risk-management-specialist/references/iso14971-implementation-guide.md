@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # ISO 14971:2019 Implementation Guide
 
 Complete implementation framework for medical device risk management per ISO 14971:2019.

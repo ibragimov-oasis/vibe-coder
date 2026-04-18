@@ -1,6 +1,10 @@
 ---
 description: "ECC coding style: immutability, file organization, error handling, validation"
 alwaysApply: true
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
 ---
 # Coding Style
 

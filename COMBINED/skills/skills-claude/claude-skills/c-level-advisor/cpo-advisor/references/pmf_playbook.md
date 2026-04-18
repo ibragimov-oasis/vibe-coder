@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # PMF Playbook
 
 How to find product-market fit, measure it, and not lose it. Steps, not theory.

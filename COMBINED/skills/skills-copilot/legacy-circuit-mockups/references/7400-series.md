@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-copilot
+---
+
 # 7400-Series Logic ICs Specification
 
 ## 1. Overview

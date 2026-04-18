@@ -1,6 +1,10 @@
 ---
 inclusion: auto
 description: Common design patterns including repository pattern, API response format, and skeleton project approach
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
 ---
 
 # Common Patterns

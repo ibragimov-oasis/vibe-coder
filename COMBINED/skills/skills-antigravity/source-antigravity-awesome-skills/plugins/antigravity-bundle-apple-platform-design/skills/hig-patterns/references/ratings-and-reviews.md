@@ -42,7 +42,11 @@ People can always rate your app within the App Store.
 
 ## [Change log](https://developer.apple.com/design/human-interface-guidelines/ratings-and-reviews#Change-log)
 
-Date| Changes  
+Date| Changes
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
 ---|---  
 September 12, 2023| Added artwork.  
   

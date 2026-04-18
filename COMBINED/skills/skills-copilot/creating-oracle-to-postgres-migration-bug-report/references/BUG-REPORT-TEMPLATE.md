@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-copilot
+---
+
 # Bug Report Template
 
 Use this template when creating bug reports for Oracle-to-PostgreSQL migration defects.

@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # Referencias e Fontes — Advogado Especialista Elite
 
 ## Legislacao Federal (Ordem Cronologica)

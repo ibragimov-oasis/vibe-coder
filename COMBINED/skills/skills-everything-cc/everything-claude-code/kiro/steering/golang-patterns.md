@@ -2,6 +2,10 @@
 inclusion: fileMatch
 fileMatchPattern: "*.go"
 description: Go-specific patterns including functional options, small interfaces, and dependency injection
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
 ---
 
 # Go Patterns

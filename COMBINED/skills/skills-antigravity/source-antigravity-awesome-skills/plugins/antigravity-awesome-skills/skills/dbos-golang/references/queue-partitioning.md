@@ -3,6 +3,9 @@ title: Partition Queues for Per-Entity Limits
 impact: HIGH
 impactDescription: Enables per-entity concurrency control
 tags: queue, partition, per-user, dynamic
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
 ---
 
 ## Partition Queues for Per-Entity Limits

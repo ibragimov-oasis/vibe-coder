@@ -3,6 +3,9 @@ title: Prevent Deadlocks with Consistent Lock Ordering
 impact: MEDIUM-HIGH
 impactDescription: Eliminate deadlock errors, improve reliability
 tags: deadlocks, locking, transactions, ordering
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
 ---
 
 ## Prevent Deadlocks with Consistent Lock Ordering

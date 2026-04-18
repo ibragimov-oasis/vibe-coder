@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # Section Definitions
 
 This file defines the rule categories for DBOS TypeScript best practices. Rules are automatically assigned to sections based on their filename prefix.

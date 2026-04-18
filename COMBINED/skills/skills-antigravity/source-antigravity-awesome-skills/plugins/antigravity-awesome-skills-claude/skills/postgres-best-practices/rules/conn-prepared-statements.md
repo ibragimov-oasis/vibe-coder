@@ -3,6 +3,9 @@ title: Use Prepared Statements Correctly with Pooling
 impact: HIGH
 impactDescription: Avoid prepared statement conflicts in pooled environments
 tags: prepared-statements, connection-pooling, transaction-mode
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
 ---
 
 ## Use Prepared Statements Correctly with Pooling

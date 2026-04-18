@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
+---
+
 # 搜索与索引指南
 
 搜索功能允许您使用自然语言查询、精确关键词或视觉场景描述来查找视频中的特定时刻。

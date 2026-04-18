@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # Mental Models Catalog for Marketing
 ## Foundational Thinking Models
 

@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/seo
+  - artifact/doc
+  - source/skills-seo
+---
+
 # Cost Tracking Reference
 
 > Load this on-demand when the user asks about costs or before batch operations.

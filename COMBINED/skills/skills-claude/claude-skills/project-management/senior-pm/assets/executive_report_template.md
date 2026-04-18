@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # Executive Portfolio Report Template
 
 **Reporting Period:** [Start Date] - [End Date]  

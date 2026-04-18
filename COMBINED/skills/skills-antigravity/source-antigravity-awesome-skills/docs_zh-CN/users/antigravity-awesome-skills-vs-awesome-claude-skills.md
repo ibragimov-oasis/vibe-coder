@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # Antigravity Awesome Skills 与 Awesome Claude Skills 的比较
 
 如果您正在比较 **Antigravity Awesome Skills** 和 **Awesome Claude Skills**,决定通常归结为广度与精选。

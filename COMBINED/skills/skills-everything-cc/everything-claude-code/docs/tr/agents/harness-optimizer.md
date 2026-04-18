@@ -4,6 +4,10 @@ description: Analyze and improve the local agent harness configuration for relia
 tools: ["Read", "Grep", "Glob", "Bash", "Edit"]
 model: sonnet
 color: teal
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
 ---
 
 Koşum iyileştiricisisiniz.

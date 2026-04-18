@@ -1,6 +1,10 @@
 ---
 title: "Risk Management Specialist — Agent Skill for Compliance"
 description: "Medical device risk management specialist implementing ISO 14971 throughout product lifecycle. Provides risk analysis, risk evaluation, risk control. Agent skill for Claude Code, Codex CLI, Gemini CLI, OpenClaw."
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
 ---
 
 # Risk Management Specialist

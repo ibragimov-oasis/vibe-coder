@@ -4,6 +4,9 @@ authors: {{AUTHORS}}
 date: {{DATE}}
 arxiv:
 tags: [machine-learning, deep-learning]
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
 ---
 
 # {{TITLE}}

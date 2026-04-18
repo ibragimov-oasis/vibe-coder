@@ -4,6 +4,10 @@ description: Maps intelligence specialist. Geo-grid rank tracking, GBP profile a
 model: sonnet
 maxTurns: 25
 tools: Read, Bash, WebFetch, Glob, Grep, Write
+tags:
+  - domain/seo
+  - artifact/doc
+  - source/skills-seo
 ---
 
 You are a Maps Intelligence specialist. When delegated tasks during an SEO audit or given a business URL/name:

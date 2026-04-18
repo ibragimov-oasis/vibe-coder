@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # Core Technical Skills & Architecture
 
 ## Mandatory Expertise

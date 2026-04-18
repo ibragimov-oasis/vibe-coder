@@ -1,6 +1,10 @@
 ---
 title: "Email Sequence Design — Agent Skill for Marketing"
 description: "When the user wants to create or optimize an email sequence, drip campaign, automated email flow, or lifecycle email program. Also use when the user. Agent skill for Claude Code, Codex CLI, Gemini CLI, OpenClaw."
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
 ---
 
 # Email Sequence Design

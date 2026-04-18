@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-copilot
+---
+
 # Common Breadboard Electronic Components
 
 A practical reference for **breadboard-based electronics**, covering common components, formulas, tables, pinouts, and learning references. Suitable for beginners through intermediate hardware builders.

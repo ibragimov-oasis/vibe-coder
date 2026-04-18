@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-copilot
+---
+
 # Game Development Terminology
 
 A comprehensive glossary of video game development terms and concepts, organized by category for quick reference.

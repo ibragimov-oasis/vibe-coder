@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
+---
+
 # Go Microservice — 프로젝트 CLAUDE.md
 
 > PostgreSQL, gRPC, Docker를 사용하는 Go 마이크로서비스의 실전 예시입니다.

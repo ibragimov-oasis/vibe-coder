@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # Text Generation Guide
 
 Guide to generating text with Transformers.js, including streaming and chat format.

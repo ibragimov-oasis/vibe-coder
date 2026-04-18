@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
+---
+
 # Everything Claude Code for Trae
 
 为 Trae IDE 带来 Everything Claude Code (ECC) 工作流。此仓库提供自定义命令、智能体、技能和规则，可以通过单个命令安装到任何 Trae 项目中。

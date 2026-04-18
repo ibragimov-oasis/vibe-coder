@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # AI Studio Image — Guia de Setup Completo
 
 ## 1. Obter API Key

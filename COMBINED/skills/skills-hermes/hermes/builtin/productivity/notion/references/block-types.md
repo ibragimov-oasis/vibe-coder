@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-hermes
+---
+
 # Notion Block Types
 
 Reference for creating and reading all common Notion block types via the API.

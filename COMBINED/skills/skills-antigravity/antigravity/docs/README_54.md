@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # Dashboard Screenshots
 
 This directory contains screenshots for the Loki Mode README.

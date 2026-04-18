@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # Windows 截断崩溃循环恢复
 
 如果 Antigravity 或基于 Jetski/Cortex 的集成在 Windows 上陷入重启循环,并出现如下错误,请使用本指南:

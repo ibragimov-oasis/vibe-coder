@@ -2,6 +2,10 @@
 name: skill-create
 description: ローカルのgit履歴を分析してコーディングパターンを抽出し、SKILL.mdファイルを生成します。Skill Creator GitHub Appのローカル版です。
 allowed_tools: ["Bash", "Read", "Write", "Grep", "Glob"]
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
 ---
 
 # /skill-create - ローカルスキル生成

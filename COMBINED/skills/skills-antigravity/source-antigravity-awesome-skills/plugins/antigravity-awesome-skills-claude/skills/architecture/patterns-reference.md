@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # Architecture Patterns Reference
 
 > Quick reference for common patterns with usage guidance.

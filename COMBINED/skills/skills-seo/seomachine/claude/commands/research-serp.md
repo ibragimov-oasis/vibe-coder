@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/seo
+  - artifact/doc
+  - source/skills-seo
+---
+
 # Research SERP Command
 
 Deep SERP analysis for a specific keyword to understand what Google wants.

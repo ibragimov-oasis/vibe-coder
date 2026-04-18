@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
+---
+
 # Loop Start Command
 
 Start a managed autonomous loop pattern with safety defaults.

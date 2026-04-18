@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
+---
+
 # コードマップの更新
 
 コードベース構造を分析してアーキテクチャドキュメントを更新します。

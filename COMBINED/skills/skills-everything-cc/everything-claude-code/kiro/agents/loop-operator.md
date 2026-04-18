@@ -4,6 +4,10 @@ description: Operate autonomous agent loops, monitor progress, and intervene saf
 allowedTools:
   - read
   - shell
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
 ---
 
 You are the loop operator.

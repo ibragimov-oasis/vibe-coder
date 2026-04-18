@@ -3,6 +3,9 @@ title: Hoist Static JSX Elements
 impact: LOW
 impactDescription: avoids re-creation
 tags: rendering, jsx, static, optimization
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
 ---
 
 ## Hoist Static JSX Elements

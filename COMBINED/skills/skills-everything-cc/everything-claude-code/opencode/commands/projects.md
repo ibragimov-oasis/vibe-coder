@@ -1,6 +1,10 @@
 ---
 description: List registered projects and instinct counts
 agent: build
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
 ---
 
 # Projects Command

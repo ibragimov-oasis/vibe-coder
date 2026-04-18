@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # Uncle Bob Craft
 
 Skill for applying Robert C. Martin (Uncle Bob) criteria to **code review and production**: Clean Code (with `@clean-code`), Clean Architecture, The Clean Coder, Clean Agile, code smells and heuristics, and design-pattern discipline.

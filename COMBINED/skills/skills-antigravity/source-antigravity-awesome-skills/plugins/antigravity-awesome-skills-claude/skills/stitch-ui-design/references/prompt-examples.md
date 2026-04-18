@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # Stitch Prompt Examples Library
 
 Comprehensive collection of effective Stitch prompts organized by use case and complexity level.

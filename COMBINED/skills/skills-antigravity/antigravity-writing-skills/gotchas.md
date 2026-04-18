@@ -2,6 +2,9 @@
 description: Common pitfalls and tribal knowledge for skill creation.
 metadata:
   tags: [gotchas, troubleshooting, mistakes]
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
 ---
 
 # Skill Writing Gotchas

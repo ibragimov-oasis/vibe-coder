@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # Product Team Skills Collection
 
 **8 production-ready product skills** covering product management, agile delivery, strategy, UX research, design systems, competitive intelligence, landing pages, and SaaS scaffolding.
@@ -114,3 +121,9 @@ python saas-scaffolder/scripts/project_bootstrapper.py config.json
 **Version:** v2.1.2
 **Skills Deployed:** 8/8 production-ready
 **Total Tools:** 9 Python automation tools
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

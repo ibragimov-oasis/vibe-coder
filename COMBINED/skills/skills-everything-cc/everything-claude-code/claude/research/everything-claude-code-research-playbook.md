@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
+---
+
 # Everything Claude Code Research Playbook
 
 Use this when the task is documentation-heavy, source-sensitive, or requires broad repository context.

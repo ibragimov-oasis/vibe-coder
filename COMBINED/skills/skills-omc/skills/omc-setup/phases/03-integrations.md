@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/doc
+  - source/skills-omc
+---
+
 # Phase 3: Integration Setup
 
 **Skip condition**: If resuming and `lastCompletedStep >= 6`, skip this entire phase.

@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # Forest Canopy
 
 A natural and grounded theme featuring earth tones inspired by dense forest environments.

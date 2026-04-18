@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # Notification Center Template
 
 Tests full notification list, filtering, and bulk clear.

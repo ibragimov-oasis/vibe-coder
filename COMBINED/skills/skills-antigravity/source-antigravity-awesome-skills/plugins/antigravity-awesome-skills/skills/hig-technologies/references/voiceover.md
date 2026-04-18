@@ -84,7 +84,11 @@ For developer guidance, see [`shouldGroupAccessibilityChildren`](https://develop
 
 ## [Change log](https://developer.apple.com/design/human-interface-guidelines/voiceover#Change-log)
 
-Date| Changes  
+Date| Changes
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
 ---|---  
 March 7, 2025| New page.  
   

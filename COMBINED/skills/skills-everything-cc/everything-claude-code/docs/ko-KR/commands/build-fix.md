@@ -1,6 +1,10 @@
 ---
 name: build-fix
 description: 최소한의 안전한 변경으로 build 및 타입 오류를 점진적으로 수정합니다.
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
 ---
 
 # Build 오류 수정

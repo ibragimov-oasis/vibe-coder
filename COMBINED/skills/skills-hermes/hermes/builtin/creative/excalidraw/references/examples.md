@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-hermes
+---
+
 # Excalidraw Diagram Examples
 
 Complete, copy-pasteable examples. Wrap each in the `.excalidraw` envelope before saving:

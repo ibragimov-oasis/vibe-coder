@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # Local Development Setup for Temporal Python Testing
 
 Comprehensive guide for setting up local Temporal development environment with pytest integration and coverage tracking.

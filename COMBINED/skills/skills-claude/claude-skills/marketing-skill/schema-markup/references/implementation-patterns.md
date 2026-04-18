@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # Implementation Patterns
 
 Copy-paste JSON-LD patterns for every common schema type. Replace ALL_CAPS placeholders with real values. Test at rich-results.google.com before deploying.

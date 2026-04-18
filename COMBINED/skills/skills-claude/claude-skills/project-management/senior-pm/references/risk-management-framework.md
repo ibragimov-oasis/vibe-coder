@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # Risk Management Framework for Senior Project Managers
 
 ## Executive Summary

@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-copilot
+---
+
 # 6502 CPU Emulation Specification
 
 A technical Markdown specification for **emulating the MOS Technology 6502 CPU family**, suitable for software emulators, educational tools, testing frameworks, and retrocomputing projects.

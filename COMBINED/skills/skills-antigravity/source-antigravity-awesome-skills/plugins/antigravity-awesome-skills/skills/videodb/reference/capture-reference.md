@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # Capture Reference
 
 Code-level details for VideoDB capture sessions. For workflow guide, see [capture.md](capture.md).

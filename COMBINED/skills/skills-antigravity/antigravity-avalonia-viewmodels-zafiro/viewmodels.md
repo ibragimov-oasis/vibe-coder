@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # ViewModels & Commands
 
 In a Zafiro-based application, ViewModels should be functional, reactive, and resilient.

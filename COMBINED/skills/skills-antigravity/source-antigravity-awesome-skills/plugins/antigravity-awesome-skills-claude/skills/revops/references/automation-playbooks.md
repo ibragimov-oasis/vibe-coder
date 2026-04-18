@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # Automation Playbooks
 
 Platform-specific workflow recipes for HubSpot, Salesforce, scheduling tools, and cross-tool automation.

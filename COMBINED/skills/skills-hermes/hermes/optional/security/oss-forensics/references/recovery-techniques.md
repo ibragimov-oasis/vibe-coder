@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-hermes
+---
+
 # Deleted Content Recovery Techniques
 
 ## Key Insight: GitHub Never Fully Deletes Force-Pushed Commits

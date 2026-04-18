@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # AI Agent & LLM Pipeline Security Guide
 
 > Security patterns, attacks, and defenses for AI agents, LLM applications, and prompt pipelines.

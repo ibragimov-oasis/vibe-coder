@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # Bug Hunter
 
 Systematically debugs and fixes a bug using standard debugging techniques.
@@ -18,3 +25,9 @@ Use @bug-hunter to fix the login timeout issue
 ```
 
 The skill will systematically debug and fix the problem.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

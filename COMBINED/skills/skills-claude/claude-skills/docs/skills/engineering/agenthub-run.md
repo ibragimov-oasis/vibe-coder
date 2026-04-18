@@ -1,6 +1,10 @@
 ---
 title: "/hub:run — One-Shot Lifecycle — Agent Skill for Codex & OpenClaw"
 description: "One-shot lifecycle command that chains init → baseline → spawn → eval → merge in a single invocation. Agent skill for Claude Code, Codex CLI, Gemini CLI, OpenClaw."
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
 ---
 
 # /hub:run — One-Shot Lifecycle

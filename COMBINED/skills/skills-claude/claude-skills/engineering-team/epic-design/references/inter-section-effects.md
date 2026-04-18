@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # Inter-Section Effects Reference
 
 These are the most premium techniques — effects where elements **persist, travel, or transition between sections**, creating a seamless narrative thread across the entire page.

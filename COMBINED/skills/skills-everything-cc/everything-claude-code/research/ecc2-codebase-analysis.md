@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
+---
+
 # ECC2 Codebase Research Report
 
 **Date:** 2026-03-26

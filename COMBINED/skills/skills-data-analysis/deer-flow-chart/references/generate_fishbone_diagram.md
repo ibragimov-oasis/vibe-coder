@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-data-analysis
+---
+
 # generate_fishbone_diagram — 鱼骨图
 
 ## 功能概述

@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # Competitive Analysis Templates
 
 ## 1. SWOT Analysis Template

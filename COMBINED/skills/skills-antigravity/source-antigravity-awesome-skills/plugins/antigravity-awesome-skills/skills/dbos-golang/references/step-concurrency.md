@@ -3,6 +3,9 @@ title: Run Concurrent Steps with Go and Select
 impact: HIGH
 impactDescription: Enables parallel execution of steps with durable checkpointing
 tags: step, concurrency, goroutine, select, parallel
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
 ---
 
 ## Run Concurrent Steps with Go and Select

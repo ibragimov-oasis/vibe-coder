@@ -3,6 +3,9 @@ title: Extract to Memoized Components
 impact: MEDIUM
 impactDescription: enables early returns
 tags: rerender, memo, useMemo, optimization
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
 ---
 
 ## Extract to Memoized Components

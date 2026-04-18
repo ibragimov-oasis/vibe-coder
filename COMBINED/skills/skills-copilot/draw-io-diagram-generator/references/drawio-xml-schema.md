@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-copilot
+---
+
 # draw.io XML Schema Reference
 
 Complete reference for the `.drawio` file format (mxGraph XML). Use this when generating, parsing, or validating diagram files.

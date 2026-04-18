@@ -7,6 +7,10 @@ color: blue
 maxTurns: 3
 skills:
   - time-fetcher
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
 ---
 
 You are the time-agent. Your job is to fetch the current Dubai time.

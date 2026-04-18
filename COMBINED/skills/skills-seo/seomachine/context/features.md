@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/seo
+  - artifact/doc
+  - source/skills-seo
+---
+
 # [YOUR COMPANY] Features & Benefits
 
 <!-- INSTRUCTIONS: This document outlines your key features, benefits, and differentiators.

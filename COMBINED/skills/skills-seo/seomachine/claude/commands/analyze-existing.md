@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/seo
+  - artifact/doc
+  - source/skills-seo
+---
+
 # Analyze Existing Command
 
 Use this command to review and analyze existing your company blog posts for SEO opportunities, content gaps, and improvement areas.

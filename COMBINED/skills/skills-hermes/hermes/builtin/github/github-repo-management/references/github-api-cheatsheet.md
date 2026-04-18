@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-hermes
+---
+
 # GitHub REST API Cheatsheet
 
 Base URL: `https://api.github.com`

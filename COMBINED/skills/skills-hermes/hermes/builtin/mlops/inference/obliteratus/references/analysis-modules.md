@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-hermes
+---
+
 # OBLITERATUS Analysis Modules — Reference
 
 OBLITERATUS includes 28 analysis modules for mechanistic interpretability of refusal in LLMs.

@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # Loki Mode Demo
 
 Video demonstration of Loki Mode - Multi-agent autonomous startup system.

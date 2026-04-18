@@ -1,4 +1,11 @@
 ---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
+---
 title: "Printing | Apple Developer Documentation"
 source: https://developer.apple.com/design/human-interface-guidelines/printing
 

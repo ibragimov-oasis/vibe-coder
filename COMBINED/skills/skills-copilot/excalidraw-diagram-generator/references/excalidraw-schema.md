@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-copilot
+---
+
 # Excalidraw JSON Schema Reference
 
 This document describes the structure of Excalidraw `.excalidraw` files for diagram generation.

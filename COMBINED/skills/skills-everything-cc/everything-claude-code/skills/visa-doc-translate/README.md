@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
+---
+
 # Visa Document Translator
 
 Automatically translate visa application documents from images to professional English PDFs.
@@ -84,3 +91,9 @@ pip install pytesseract
 ## License
 
 MIT
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

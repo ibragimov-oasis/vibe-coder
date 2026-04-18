@@ -247,7 +247,11 @@ For developer guidance, see [`primaryAction`](https://developer.apple.com/docume
 
 ## [Change log](https://developer.apple.com/design/human-interface-guidelines/toolbars#Change-log)
 
-Date| Changes  
+Date| Changes
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
 ---|---  
 December 16, 2025| Updated guidance for Liquid Glass.  
 June 9, 2025| Added guidance for grouping bar items, updated guidance for using symbols, and incorporated navigation bar guidance.  

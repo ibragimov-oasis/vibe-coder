@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # Rules Directory Patterns
 
 Best practices for organizing `.claude/rules/` files — the scoped instruction system that loads rules only when relevant files are open.

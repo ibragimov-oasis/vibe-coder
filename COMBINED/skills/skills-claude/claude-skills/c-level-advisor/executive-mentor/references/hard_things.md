@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # Hard Things — Decision Frameworks for the Calls Nobody Wants to Make
 
 Firing people. Laying off teams. Pivoting when you've raised money on the old direction. Telling a co-founder it's over. Shutting down a product.

@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # Product Strategy Reference
 
 Frameworks for product vision, competitive positioning, portfolio management, and board reporting. No theory — only what CPOs actually use.

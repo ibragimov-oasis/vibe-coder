@@ -1,6 +1,10 @@
 ---
 title: "Prompt Engineer Toolkit — Agent Skill for Marketing"
 description: "Analyzes and rewrites prompts for better AI output, creates reusable prompt templates for marketing use cases (ad copy, email campaigns, social. Agent skill for Claude Code, Codex CLI, Gemini CLI, OpenClaw."
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
 ---
 
 # Prompt Engineer Toolkit

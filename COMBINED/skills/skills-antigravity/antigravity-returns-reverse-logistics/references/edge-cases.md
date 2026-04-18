@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # Returns & Reverse Logistics — Edge Cases Reference
 
 > Tier 3 reference. Load on demand when handling complex or ambiguous return situations that don't resolve through standard workflows.

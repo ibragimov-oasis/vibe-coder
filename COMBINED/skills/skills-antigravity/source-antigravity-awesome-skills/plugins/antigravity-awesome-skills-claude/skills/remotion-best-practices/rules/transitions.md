@@ -3,6 +3,9 @@ name: transitions
 description: Fullscreen scene transitions for Remotion.
 metadata:
   tags: transitions, fade, slide, wipe, scenes
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
 ---
 
 ## Fullscreen transitions

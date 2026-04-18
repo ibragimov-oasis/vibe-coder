@@ -1,6 +1,10 @@
 ---
 title: "Marketing Skills Division — Agent Skill for Marketing"
 description: "42 marketing agent skills and plugins for Claude Code, Codex, Gemini CLI, Cursor, OpenClaw, and 6 more coding agents. 7 pods: content, SEO, CRO."
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
 ---
 
 # Marketing Skills Division

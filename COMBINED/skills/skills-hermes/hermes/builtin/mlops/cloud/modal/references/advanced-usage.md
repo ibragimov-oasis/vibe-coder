@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-hermes
+---
+
 # Modal Advanced Usage Guide
 
 ## Multi-GPU Training

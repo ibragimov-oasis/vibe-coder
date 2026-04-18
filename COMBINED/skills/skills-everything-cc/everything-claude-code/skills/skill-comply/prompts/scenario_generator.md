@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
+---
+
 <!-- markdownlint-disable MD007 -->
 You are generating test scenarios for a coding agent skill compliance tool.
 Given a skill and its expected behavioral sequence, generate exactly 3 scenarios

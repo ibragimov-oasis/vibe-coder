@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # Threat Model: AI Agent Skills
 
 Attack vectors, detection strategies, and mitigations for malicious AI agent skills.

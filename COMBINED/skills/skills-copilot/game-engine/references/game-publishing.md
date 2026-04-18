@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-copilot
+---
+
 # Game Publishing
 
 This reference covers the three pillars of publishing web-based games: distribution channels and platforms, promotion strategies, and monetization models.

@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
+---
+
 # Test Coverage
 
 Test coverage'ını analiz et, eksiklikleri tanımla ve 80%+ coverage'a ulaşmak için eksik test'leri oluştur.

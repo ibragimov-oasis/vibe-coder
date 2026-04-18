@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # Attribution Models Guide
 
 Comprehensive reference for multi-touch attribution modeling in marketing analytics. This guide covers the five standard attribution models, their mathematical foundations, selection criteria, and practical application guidelines.

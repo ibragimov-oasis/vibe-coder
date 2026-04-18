@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
+---
+
 # Build and Fix
 
 Build ve tip hatalarını minimal, güvenli değişikliklerle aşamalı olarak düzelt.

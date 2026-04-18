@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # SaaS Architecture Patterns
 
 This reference outlines common architecture choices for SaaS products.

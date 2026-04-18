@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # Board Meeting Minutes Template
 
 This is the Layer 2 output — the founder-approved record of what was decided.

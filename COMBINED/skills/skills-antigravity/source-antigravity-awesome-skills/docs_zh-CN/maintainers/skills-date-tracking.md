@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # 技能日期跟踪指南
 
 本指南介绍如何使用新的 `date_added` 功能来跟踪技能的创建或添加到集合的时间。

@@ -3,6 +3,9 @@ title: List and Inspect Workflows
 impact: CRITICAL
 impactDescription: Enables monitoring and debugging of workflow executions
 tags: workflow, list, inspect, status, monitoring
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
 ---
 
 ## List and Inspect Workflows

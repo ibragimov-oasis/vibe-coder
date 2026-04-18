@@ -1,6 +1,10 @@
 ---
 title: "ISMS Audit Expert — Agent Skill for Compliance"
 description: "Information Security Management System (ISMS) audit expert for ISO 27001 compliance verification, security control assessment, and certification. Agent skill for Claude Code, Codex CLI, Gemini CLI, OpenClaw."
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
 ---
 
 # ISMS Audit Expert

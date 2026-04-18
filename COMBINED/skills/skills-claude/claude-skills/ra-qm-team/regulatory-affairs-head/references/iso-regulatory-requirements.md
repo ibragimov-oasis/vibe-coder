@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # ISO Regulatory Requirements for Medical Devices
 
 Key ISO standards applicable to medical device development, quality management, and regulatory compliance.

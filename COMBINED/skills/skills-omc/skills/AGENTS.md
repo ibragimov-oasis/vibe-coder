@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/doc
+  - source/skills-omc
+---
+
 <!-- Parent: ../AGENTS.md -->
 <!-- Generated: 2026-01-28 | Updated: 2026-03-02 -->
 

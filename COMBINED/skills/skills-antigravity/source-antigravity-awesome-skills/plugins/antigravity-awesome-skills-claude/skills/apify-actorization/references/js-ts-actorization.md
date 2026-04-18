@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # JavaScript/TypeScript Actorization
 
 ## Install the Apify SDK

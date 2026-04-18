@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-hermes
+---
+
 # CLIP Applications Guide
 
 Practical applications and use cases for CLIP.

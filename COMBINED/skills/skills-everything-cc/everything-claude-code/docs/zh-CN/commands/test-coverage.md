@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
+---
+
 # 测试覆盖率
 
 分析测试覆盖率，识别缺口，并生成缺失的测试以达到 80%+ 的覆盖率。

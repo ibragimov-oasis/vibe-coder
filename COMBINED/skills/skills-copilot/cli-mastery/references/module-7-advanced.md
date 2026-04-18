@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-copilot
+---
+
 # Module 7: Advanced Techniques
 
 1. **`@` file mentions** — Always give precise context, don't rely on the AI finding files

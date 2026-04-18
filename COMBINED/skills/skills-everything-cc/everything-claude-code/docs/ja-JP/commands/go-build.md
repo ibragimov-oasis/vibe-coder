@@ -1,5 +1,9 @@
 ---
 description: Goビルドエラー、go vet警告、リンター問題を段階的に修正します。最小限の外科的修正のためにgo-build-resolverエージェントを呼び出します。
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
 ---
 
 # Go Build and Fix

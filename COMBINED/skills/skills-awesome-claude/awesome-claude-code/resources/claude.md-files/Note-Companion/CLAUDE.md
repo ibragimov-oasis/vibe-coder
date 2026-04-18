@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-awesome-claude
+---
+
 # File Organizer 2000 - Developer Guide
 
 ## Styling Guidelines

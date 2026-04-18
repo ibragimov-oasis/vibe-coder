@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
+---
+
 # 建置與修復
 
 增量修復 TypeScript 和建置錯誤：

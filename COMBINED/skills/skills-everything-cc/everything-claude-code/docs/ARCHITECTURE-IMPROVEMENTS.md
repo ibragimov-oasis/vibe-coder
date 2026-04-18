@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
+---
+
 # Architecture Improvement Recommendations
 
 This document captures architect-level improvements for the Everything Claude Code (ECC) project. It is written from the perspective of a Claude Code coding architect aiming to improve maintainability, consistency, and long-term quality.

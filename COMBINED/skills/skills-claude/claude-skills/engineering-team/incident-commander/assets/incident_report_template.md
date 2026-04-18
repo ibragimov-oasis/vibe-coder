@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # Incident Report: [INC-YYYY-NNNN] [Title]
 
 **Severity:** SEV[1-4]

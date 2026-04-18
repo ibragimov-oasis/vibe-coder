@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # Profile Update Template
 
 Tests updating name, email, and avatar in user profile settings.

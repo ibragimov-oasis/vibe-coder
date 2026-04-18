@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # Growth Strategy: Skills & Agents Enhancement
 
 **Last Updated:** February 2026

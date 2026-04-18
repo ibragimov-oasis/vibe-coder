@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/seo
+  - artifact/doc
+  - source/skills-seo
+---
+
 # Google API Rate Limits & Quotas
 
 ## Consolidated Quota Table

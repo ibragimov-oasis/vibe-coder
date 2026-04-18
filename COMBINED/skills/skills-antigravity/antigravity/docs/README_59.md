@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # Anti-Rationalization Guide
 
 Techniques for bulletproofing skills against agent rationalization.

@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # Cold Email Copywriting Frameworks
 
 Frameworks beat templates — they teach thinking patterns, not copy-paste shortcuts.

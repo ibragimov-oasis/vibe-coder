@@ -2,6 +2,10 @@
 description: Fix Go build and vet errors
 agent: go-build-resolver
 subtask: true
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
 ---
 
 # Go Build Command

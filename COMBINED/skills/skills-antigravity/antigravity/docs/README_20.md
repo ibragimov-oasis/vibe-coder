@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # CSO Guide - Claude Search Optimization
 
 Advanced techniques for making skills discoverable by agents.

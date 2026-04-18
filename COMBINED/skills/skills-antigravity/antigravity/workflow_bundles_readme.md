@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # Workflow Bundles
 
 Consolidated and granular workflow bundles that orchestrate multiple skills for specific development and operational scenarios.

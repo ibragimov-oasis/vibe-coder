@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
+---
+
 # Serviço de API Rust — CLAUDE.md de Projeto
 
 > Exemplo real para um serviço de API Rust com Axum, PostgreSQL e Docker.

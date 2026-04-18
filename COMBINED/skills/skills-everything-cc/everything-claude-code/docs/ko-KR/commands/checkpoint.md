@@ -1,6 +1,10 @@
 ---
 name: checkpoint
 description: 워크플로우에서 checkpoint를 생성, 검증, 조회 또는 정리합니다.
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
 ---
 
 # Checkpoint 명령어

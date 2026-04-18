@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
+---
+
 # Reference Attribution and Licensing Notes
 
 ECC v1.8.0 references research and workflow inspiration from:

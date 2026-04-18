@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # Angular State Management
 
 Complete state management patterns for Angular applications optimized for AI agents and LLMs.
@@ -39,3 +46,9 @@ Current version: 1.0.0 (February 2026)
 - [Angular Signals](https://angular.dev/guide/signals)
 - [NgRx](https://ngrx.io)
 - [NgRx SignalStore](https://ngrx.io/guide/signals)
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

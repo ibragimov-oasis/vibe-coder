@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # [Company Name] Culture Code
 
 > This document describes how we work, what we value, and what it's like to be here. It's meant to be honest — which means it will attract some people and repel others. Both outcomes are correct.

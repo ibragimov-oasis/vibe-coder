@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # Competitive Intelligence Playbook
 
 ## OSINT Sources for Competitor Tracking

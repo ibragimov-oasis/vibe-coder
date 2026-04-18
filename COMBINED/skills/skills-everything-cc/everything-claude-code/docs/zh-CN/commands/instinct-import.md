@@ -2,6 +2,10 @@
 name: instinct-import
 description: 从文件或URL导入本能到项目/全局作用域
 command: true
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
 ---
 
 # 本能导入命令

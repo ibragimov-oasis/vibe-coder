@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # DDD Deliverables Checklist
 
 Use this checklist to keep DDD adoption practical and measurable.

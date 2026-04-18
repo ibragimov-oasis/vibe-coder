@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # RPI Workflow
 
 **RPI** = **R**esearch → **P**lan → **I**mplement

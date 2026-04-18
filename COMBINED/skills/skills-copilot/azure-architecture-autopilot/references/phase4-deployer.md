@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-copilot
+---
+
 # Phase 4: Deployment Agent
 
 This file contains detailed instructions for Phase 4. Read and follow this file when the user approves deployment after Phase 3 (code review) is complete.

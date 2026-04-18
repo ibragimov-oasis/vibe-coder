@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/seo
+  - artifact/doc
+  - source/skills-seo
+---
+
 # Contributing to SEO Machine
 
 Thank you for your interest in improving SEO Machine! This document provides guidelines for contributing to the project.

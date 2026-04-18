@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # Advanced Stitch Techniques
 
 Advanced strategies for maximizing Stitch's capabilities and creating production-ready designs.

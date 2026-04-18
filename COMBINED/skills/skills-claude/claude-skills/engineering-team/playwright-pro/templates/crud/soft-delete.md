@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # Soft Delete (Archive/Restore) Template
 
 Tests archiving an entity, viewing archived items, and restoring them.

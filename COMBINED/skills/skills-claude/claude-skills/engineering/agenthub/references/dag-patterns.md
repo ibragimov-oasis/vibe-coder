@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # Git DAG Patterns for Multi-Agent Collaboration
 
 ## Core Concepts

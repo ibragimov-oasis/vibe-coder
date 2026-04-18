@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # Demo Script Templates
 
 Scene-by-scene templates for different call types, with timing, talk tracks, and interaction guidance.

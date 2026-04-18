@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # D3.js Colour Schemes and Palette Recommendations
 
 Comprehensive guide to colour selection in data visualisation with d3.js.

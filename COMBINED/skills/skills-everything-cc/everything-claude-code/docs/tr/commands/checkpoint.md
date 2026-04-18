@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
+---
+
 # Checkpoint Komutu
 
 İş akışınızda bir checkpoint oluşturun veya doğrulayın.

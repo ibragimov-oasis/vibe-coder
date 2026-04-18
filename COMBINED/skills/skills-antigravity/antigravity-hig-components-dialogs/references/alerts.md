@@ -79,7 +79,11 @@ In all platforms, alerts display a title, optional informative text, and up to t
 
 **Provide alternative ways to cancel an alert when it makes sense.** In addition to choosing a Cancel button, people appreciate using keyboard shortcuts or other quick ways to cancel an onscreen alert. For example:
 
-Action| Platform  
+Action| Platform
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
 ---|---  
 Exit to the Home Screen| iOS, iPadOS  
 Pressing Escape (Esc) or Command-Period (.) on an attached keyboard| iOS, iPadOS, macOS, visionOS  

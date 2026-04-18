@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/INDEX.md
+---
+
 # COMBINED/skills - Master Skills Index
 
 > **Complete catalog of all AI agent skills across 31 repositories**

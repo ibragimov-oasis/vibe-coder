@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # 智能分类实施 - 完整摘要
 
 ## ✅ 已完成的工作

@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/seo
+  - artifact/doc
+  - source/skills-seo
+---
+
 # Internal Links Map
 
 <!-- INSTRUCTIONS: This document catalogs key pages on your website that should be referenced

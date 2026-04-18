@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # German BDSG Requirements
 
 German-specific data protection requirements under the Bundesdatenschutzgesetz (BDSG) and state laws.

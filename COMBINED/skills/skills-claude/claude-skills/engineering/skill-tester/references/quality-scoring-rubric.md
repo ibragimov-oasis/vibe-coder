@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # Quality Scoring Rubric
 
 **Version**: 1.0.0  

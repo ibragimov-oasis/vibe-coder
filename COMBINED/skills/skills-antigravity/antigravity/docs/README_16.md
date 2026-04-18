@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # Bug Hunter
 
 Systematically debugs and fixes a bug using standard debugging techniques.

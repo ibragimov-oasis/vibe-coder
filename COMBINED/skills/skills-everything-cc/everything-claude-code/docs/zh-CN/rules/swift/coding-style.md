@@ -2,6 +2,10 @@
 paths:
   - "**/*.swift"
   - "**/Package.swift"
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
 ---
 
 # Swift 编码风格

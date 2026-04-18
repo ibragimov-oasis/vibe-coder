@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/doc
+  - source/skills-deer-flow
+---
+
 # JSON Schemas
 
 This document defines the JSON schemas used by skill-creator.

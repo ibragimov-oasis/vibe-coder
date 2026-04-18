@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
+---
+
 | name | description |
 |------|-------------|
 | cloud-infrastructure-security | 在部署到云平台、配置基础设施、管理IAM策略、设置日志记录/监控或实现CI/CD流水线时使用此技能。提供符合最佳实践的云安全检查清单。 |

@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
+---
+
 # チェックポイントコマンド
 
 ワークフロー内でチェックポイントを作成または検証します。

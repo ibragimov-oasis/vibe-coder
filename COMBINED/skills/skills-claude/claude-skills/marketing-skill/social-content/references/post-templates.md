@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # Post Format Templates
 
 Ready-to-use templates for different platforms and content types.

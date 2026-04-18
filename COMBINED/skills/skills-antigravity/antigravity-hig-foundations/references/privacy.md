@@ -53,7 +53,11 @@ The system provides a standard alert that lets people view each request you make
 
 **Write copy that clearly describes how your app uses the ability, data, or resource you’re requesting.** The standard alert displays your copy (called a _purpose string_ or _usage description string_) after your app name and before the buttons people use to grant or deny their permission. Aim for a brief, complete sentence that’s straightforward, specific, and easy to understand. Use sentence case, avoid passive voice, and include a period at the end. For developer guidance, see [Requesting access to protected resources](https://developer.apple.com/documentation/UIKit/requesting-access-to-protected-resources) and [App Tracking Transparency](https://developer.apple.com/documentation/AppTrackingTransparency).
 
-| Example purpose string| Notes  
+| Example purpose string| Notes
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
 ---|---|---  
 ![A checkmark in a circle to indicate a correct example.](https://docs-assets.developer.apple.com/published/88662da92338267bb64cd2275c84e484/checkmark%402x.png)| The app records during the night to detect snoring sounds.| An active sentence that clearly describes how and why the app collects the data.  
 ![An X in a circle to indicate an incorrect example.](https://docs-assets.developer.apple.com/published/209f6f0fc8ad99d9bf59e12d82d06584/crossout%402x.png)| Microphone access is needed for a better experience.| A passive sentence that provides a vague, undefined justification.  

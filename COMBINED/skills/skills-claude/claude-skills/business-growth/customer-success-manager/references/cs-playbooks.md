@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # Customer Success Playbooks
 
 Comprehensive intervention, onboarding, renewal, expansion, and escalation playbooks for SaaS customer success management.

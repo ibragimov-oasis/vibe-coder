@@ -1,6 +1,10 @@
 ---
 title: Cursor, Aider, Windsurf & 8 More AI Coding Tools
 description: "Install Claude Code skills and agent plugins in Cursor, Aider, Kilo Code, Windsurf, OpenCode, Augment, and Antigravity. One-command conversion for 11 AI coding agents."
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
 ---
 
 # Multi-Tool Integrations

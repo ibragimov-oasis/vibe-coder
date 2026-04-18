@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # Project Management Skills Collection
 
 **Complete suite of 6 world-class Atlassian expert skills** for project and agile delivery teams using Jira and Confluence.
@@ -493,3 +500,9 @@ mcp__atlassian__search_issues jql="project = PROJ AND status = 'In Progress'"
 **Last Updated:** January 2026
 **Skills Deployed:** 6/6 project management skills production-ready
 **Key Feature:** Atlassian MCP integration for direct Jira/Confluence operations
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

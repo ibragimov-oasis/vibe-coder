@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-copilot
+---
+
 # Finding Defensive Patterns (Step 5)
 
 Defensive code patterns are evidence of past failures or known risks. Every null guard, try/catch, normalization function, and sentinel check exists because something went wrong — or because someone anticipated it would. Your job is to find these patterns systematically and convert them into fitness-to-purpose scenarios and boundary tests.

@@ -3,6 +3,9 @@ title: Use Partial Indexes for Filtered Queries
 impact: HIGH
 impactDescription: 5-20x smaller indexes, faster writes and queries
 tags: indexes, partial-index, query-optimization, storage
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
 ---
 
 ## Use Partial Indexes for Filtered Queries

@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/ui
+  - artifact/doc
+  - source/skills-design
+---
+
 # iOS Platform Guidelines
 
 > Human Interface Guidelines (HIG) essentials, iOS design conventions, SF Pro typography, and native patterns.

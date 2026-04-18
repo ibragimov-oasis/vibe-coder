@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # Authentication and Authorization Implementation Patterns Implementation Playbook
 
 This file contains detailed patterns, checklists, and code samples referenced by the skill.

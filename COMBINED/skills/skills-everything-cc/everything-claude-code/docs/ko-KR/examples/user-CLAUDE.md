@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
+---
+
 # 사용자 수준 CLAUDE.md 예제
 
 사용자 수준 CLAUDE.md 파일 예제입니다. `~/.claude/CLAUDE.md`에 배치하세요.

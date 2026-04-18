@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # 🎯 PROJECT MANAGEMENT SKILLS SUITE - IMPLEMENTATION COMPLETE
 
 ## ✅ DELIVERY SUMMARY

@@ -2,6 +2,10 @@
 name: instinct-export
 description: Export instincts from project/global scope to a file
 command: /instinct-export
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
 ---
 
 # Instinct Export Command

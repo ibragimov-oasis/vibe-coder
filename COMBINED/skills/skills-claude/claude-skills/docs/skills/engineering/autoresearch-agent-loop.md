@@ -1,6 +1,10 @@
 ---
 title: "/ar:loop — Autonomous Experiment Loop — Agent Skill for Codex & OpenClaw"
 description: "Start an autonomous experiment loop with user-selected interval (10min, 1h, daily, weekly, monthly). Uses CronCreate for scheduling. Agent skill for Claude Code, Codex CLI, Gemini CLI, OpenClaw."
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
 ---
 
 # /ar:loop — Autonomous Experiment Loop

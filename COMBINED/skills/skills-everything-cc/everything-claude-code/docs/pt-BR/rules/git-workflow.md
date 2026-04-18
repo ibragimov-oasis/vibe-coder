@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
+---
+
 # Fluxo de Trabalho Git
 
 ## Formato de Mensagem de Commit

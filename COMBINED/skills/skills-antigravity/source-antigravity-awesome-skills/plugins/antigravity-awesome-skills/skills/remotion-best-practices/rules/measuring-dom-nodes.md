@@ -3,6 +3,9 @@ name: measuring-dom-nodes
 description: Measuring DOM element dimensions in Remotion
 metadata:
   tags: measure, layout, dimensions, getBoundingClientRect, scale
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
 ---
 
 # Measuring DOM nodes in Remotion

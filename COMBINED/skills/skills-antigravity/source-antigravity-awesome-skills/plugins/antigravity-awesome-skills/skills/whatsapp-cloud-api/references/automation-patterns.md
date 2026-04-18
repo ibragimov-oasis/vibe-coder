@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # Padroes de Automacao de Atendimento - WhatsApp Cloud API
 
 Guia completo para implementar automacao de atendimento profissional via WhatsApp, incluindo chatbots, filas de atendimento, state machines e integracao com IA.

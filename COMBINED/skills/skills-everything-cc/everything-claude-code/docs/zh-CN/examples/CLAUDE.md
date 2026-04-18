@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
+---
+
 # 示例项目 CLAUDE.md
 
 这是一个示例项目级别的 CLAUDE.md 文件。请将其放置在您的项目根目录下。

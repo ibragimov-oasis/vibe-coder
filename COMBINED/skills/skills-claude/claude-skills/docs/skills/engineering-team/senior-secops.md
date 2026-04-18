@@ -1,6 +1,10 @@
 ---
 title: "Senior SecOps Engineer — Agent Skill & Codex Plugin"
 description: "Senior SecOps engineer skill for application security, vulnerability management, compliance verification, and secure development practices. Runs. Agent skill for Claude Code, Codex CLI, Gemini CLI, OpenClaw."
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
 ---
 
 # Senior SecOps Engineer

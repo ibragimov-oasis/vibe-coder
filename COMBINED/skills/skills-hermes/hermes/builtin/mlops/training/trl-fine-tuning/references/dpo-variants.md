@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-hermes
+---
+
 # DPO Variants
 
 Complete guide to Direct Preference Optimization loss variants in TRL.

@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-copilot
+---
+
 # Performance Patterns
 
 ## Asynchronous Request-Reply Pattern

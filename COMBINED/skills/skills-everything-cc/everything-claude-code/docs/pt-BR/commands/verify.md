@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
+---
+
 # Comando Verification
 
 Rode verificação abrangente no estado atual do codebase.

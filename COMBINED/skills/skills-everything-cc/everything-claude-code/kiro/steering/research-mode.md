@@ -1,6 +1,10 @@
 ---
 inclusion: manual
 description: Research mode context for exploring technologies, architectures, and design decisions
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
 ---
 
 # Research Mode

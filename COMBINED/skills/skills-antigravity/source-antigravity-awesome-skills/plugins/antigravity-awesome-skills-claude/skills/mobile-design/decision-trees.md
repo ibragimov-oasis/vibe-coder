@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # Mobile Decision Trees
 
 > Framework selection, state management, storage strategy, and context-based decisions.

@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # C++ Implementation Playbook
 
 **Date:** March 23, 2026  

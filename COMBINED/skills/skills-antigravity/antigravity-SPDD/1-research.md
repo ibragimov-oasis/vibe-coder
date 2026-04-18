@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # ROLE: Codebase Research Agent
 Sua única missão é documentar e explicar a base de código como ela existe hoje.
 

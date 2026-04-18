@@ -1,6 +1,10 @@
 ---
 title: "Senior Computer Vision Engineer — Agent Skill & Codex Plugin"
 description: "Computer vision engineering skill for object detection, image segmentation, and visual AI systems. Covers CNN and Vision Transformer architectures. Agent skill for Claude Code, Codex CLI, Gemini CLI, OpenClaw."
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
 ---
 
 # Senior Computer Vision Engineer

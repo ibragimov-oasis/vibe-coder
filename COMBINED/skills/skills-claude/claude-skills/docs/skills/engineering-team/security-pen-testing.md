@@ -1,6 +1,10 @@
 ---
 title: "Security Penetration Testing — Agent Skill & Codex Plugin"
 description: "Use when the user asks to perform security audits, penetration testing, vulnerability scanning, OWASP Top 10 checks, or offensive security. Agent skill for Claude Code, Codex CLI, Gemini CLI, OpenClaw."
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
 ---
 
 # Security Penetration Testing

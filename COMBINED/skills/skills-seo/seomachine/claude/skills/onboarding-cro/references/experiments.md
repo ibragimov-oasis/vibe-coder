@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/seo
+  - artifact/doc
+  - source/skills-seo
+---
+
 # Onboarding Experiment Ideas
 
 Comprehensive list of A/B tests and experiments for user onboarding and activation.

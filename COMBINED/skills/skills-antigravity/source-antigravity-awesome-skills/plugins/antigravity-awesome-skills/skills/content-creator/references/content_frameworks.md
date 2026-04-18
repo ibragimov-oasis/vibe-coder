@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # Content Creation Frameworks & Templates
 
 ## Content Types & Templates

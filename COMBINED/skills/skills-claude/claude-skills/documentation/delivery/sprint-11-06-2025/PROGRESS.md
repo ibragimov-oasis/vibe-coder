@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # Sprint Progress Tracker
 
 **Sprint:** sprint-11-06-2025 (CS- Orchestrator Framework Implementation)

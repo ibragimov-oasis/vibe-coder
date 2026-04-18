@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
+---
+
 # 程式碼審查
 
 對未提交變更進行全面的安全性和品質審查：

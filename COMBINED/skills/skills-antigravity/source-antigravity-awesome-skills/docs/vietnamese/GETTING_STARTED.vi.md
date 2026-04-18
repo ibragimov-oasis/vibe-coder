@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # Hướng dẫn Bắt đầu với Antigravity Awesome Skills (V4)
 
 **Bạn mới đến đây? Hướng dẫn này sẽ giúp bạn tăng cường sức mạnh cho trợ lý trợ lý AI của mình chỉ trong 5 phút.**

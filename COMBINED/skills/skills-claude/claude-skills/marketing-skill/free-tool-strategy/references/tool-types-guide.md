@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # Tool Types Guide — Comprehensive Reference for Free Marketing Tools
 
 Each tool type explained with examples, build complexity, typical outcomes, and design guidance.

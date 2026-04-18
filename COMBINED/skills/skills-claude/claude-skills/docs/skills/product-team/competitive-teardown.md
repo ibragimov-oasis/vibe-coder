@@ -1,6 +1,10 @@
 ---
 title: "Competitive Teardown — Agent Skill for Product Teams"
 description: "Analyzes competitor products and companies by synthesizing data from pricing pages, app store reviews, job postings, SEO signals, and social media. Agent skill for Claude Code, Codex CLI, Gemini CLI, OpenClaw."
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
 ---
 
 # Competitive Teardown

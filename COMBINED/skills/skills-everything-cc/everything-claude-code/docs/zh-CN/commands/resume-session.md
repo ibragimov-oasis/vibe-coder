@@ -1,5 +1,9 @@
 ---
 description: 从 ~/.claude/sessions/ 加载最新的会话文件，并从上次会话结束的地方恢复工作，保留完整上下文。
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
 ---
 
 # 恢复会话命令

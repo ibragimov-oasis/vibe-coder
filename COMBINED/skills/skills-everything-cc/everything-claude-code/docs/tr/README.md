@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
+---
+
 # Everything Claude Code
 
 [![Stars](https://img.shields.io/github/stars/affaan-m/everything-claude-code?style=flat)](https://github.com/affaan-m/everything-claude-code/stargazers)
@@ -455,3 +462,9 @@ MIT - Özgürce kullanın, ihtiyaç duyduğunuz gibi değiştirin, yapabiliyorsa
 ---
 
 **Bu repo size yardımcı olduysa yıldızlayın. Her iki rehberi de okuyun. Harika bir şey yapın.**
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

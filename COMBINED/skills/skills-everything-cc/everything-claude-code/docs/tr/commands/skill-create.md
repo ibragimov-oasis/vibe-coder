@@ -2,6 +2,10 @@
 name: skill-create
 description: Kodlama desenlerini çıkarmak ve SKILL.md dosyaları oluşturmak için yerel git geçmişini analiz et. Skill Creator GitHub App'ın yerel versiyonu.
 allowed_tools: ["Bash", "Read", "Write", "Grep", "Glob"]
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
 ---
 
 # /skill-create - Yerel Skill Oluşturma

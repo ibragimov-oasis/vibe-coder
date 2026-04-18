@@ -2,6 +2,10 @@
 name: promote
 description: 将项目范围内的本能推广到全局范围
 command: true
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
 ---
 
 # 提升命令

@@ -135,7 +135,11 @@ To learn more about windows and volumes in visionOS, see [Windows > visionOS](ht
 
 ## [Change log](https://developer.apple.com/design/human-interface-guidelines/spatial-layout#Change-log)
 
-Date| Changes  
+Date| Changes
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
 ---|---  
 March 29, 2024| Emphasized the importance of keeping interactive elements from overlapping each other.  
 June 21, 2023| New page.  

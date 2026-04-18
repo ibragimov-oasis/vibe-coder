@@ -2,6 +2,10 @@
 description: Fix Rust build errors and borrow checker issues
 agent: rust-build-resolver
 subtask: true
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
 ---
 
 # Rust Build Command

@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-awesome-claude
+---
+
 # FlowStudio MCP — Flow Definition Schema
 
 The full JSON structure expected by `update_live_flow` (and returned by `get_live_flow`).

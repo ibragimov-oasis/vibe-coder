@@ -111,7 +111,11 @@ As an example that shows what a custom hover effect can and can’t do, consider
 
 ## [Change log](https://developer.apple.com/design/human-interface-guidelines/eyes#Change-log)
 
-Date| Changes  
+Date| Changes
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
 ---|---  
 June 10, 2024| Added guidance for custom hover effects.  
 March 29, 2024| Added artwork showing the visionOS hover effect.  

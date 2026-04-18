@@ -1,6 +1,10 @@
 ---
 name: dual-coordinate
 description: Coordinate hybrid Claude Code + Codex workflows
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-ruflo
 ---
 
 # Dual Coordinate Skill

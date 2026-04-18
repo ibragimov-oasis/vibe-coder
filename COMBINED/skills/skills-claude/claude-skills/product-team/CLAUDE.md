@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # Product Team Skills - Claude Code Guidance
 
 This guide covers the 14 production-ready product management skills and their Python automation tools.

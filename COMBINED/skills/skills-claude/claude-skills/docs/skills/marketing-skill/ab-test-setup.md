@@ -1,6 +1,10 @@
 ---
 title: "A/B Test Setup — Agent Skill for Marketing"
 description: "When the user wants to plan, design, or implement an A/B test or experiment. Also use when the user mentions 'A/B test,' 'split test,' 'experiment,'. Agent skill for Claude Code, Codex CLI, Gemini CLI, OpenClaw."
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
 ---
 
 # A/B Test Setup

@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # Logout Template
 
 Tests logout from navigation, session cleanup, and redirect behaviour.

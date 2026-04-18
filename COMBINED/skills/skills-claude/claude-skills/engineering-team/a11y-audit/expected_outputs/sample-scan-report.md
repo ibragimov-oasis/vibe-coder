@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # A11y Audit Report — sample-component.tsx
 
 **Scanned:** 1 file | **Issues:** 9 | **Status:** FAIL

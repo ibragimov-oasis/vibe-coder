@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # Bulk Operations Template
 
 Tests selecting multiple items and performing bulk delete/update actions.

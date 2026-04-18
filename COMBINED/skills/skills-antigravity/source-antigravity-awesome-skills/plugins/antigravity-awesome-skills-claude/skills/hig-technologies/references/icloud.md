@@ -46,7 +46,11 @@ A fundamental aspect of iCloud is transparency. People don’t need to know wher
 
 ## [Change log](https://developer.apple.com/design/human-interface-guidelines/icloud#Change-log)
 
-Date| Changes  
+Date| Changes
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
 ---|---  
 June 9, 2025| Added guidance for synchronizing game data through iCloud.  
   

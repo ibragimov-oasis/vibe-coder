@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # Database Patterns - Prisma Best Practices
 
 Complete guide to database access patterns using Prisma in backend microservices.

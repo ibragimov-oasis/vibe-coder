@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/seo
+  - artifact/doc
+  - source/skills-seo
+---
+
 # The 139 Marketing Ideas
 
 Complete list of proven marketing approaches organized by category.

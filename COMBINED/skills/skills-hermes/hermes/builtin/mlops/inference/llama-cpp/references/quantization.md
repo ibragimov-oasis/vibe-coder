@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-hermes
+---
+
 # GGUF Quantization Guide
 
 Complete guide to GGUF quantization formats and model conversion.

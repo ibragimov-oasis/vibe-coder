@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-awesome-claude
+---
+
 <!-- GENERATED FILE: do not edit directly -->
 <h3 align="center">Pick Your Style:</h3>
 <p align="center">

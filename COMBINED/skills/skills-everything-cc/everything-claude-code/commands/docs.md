@@ -1,5 +1,9 @@
 ---
 description: Look up current documentation for a library or topic via Context7.
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
 ---
 
 # /docs

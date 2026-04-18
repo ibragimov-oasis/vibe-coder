@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # Security Strategy Reference
 
 ## 1. Risk-Based Security (Not Compliance-First)

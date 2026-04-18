@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # A/B Test Templates Reference
 
 Templates for planning, documenting, and analyzing experiments.

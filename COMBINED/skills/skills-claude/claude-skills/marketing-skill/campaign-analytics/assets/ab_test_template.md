@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # A/B Test Analysis
 
 **Test Name:** [Descriptive test name]

@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # Task Queue Reference
 
 Distributed task queue system, dead letter handling, and circuit breakers.

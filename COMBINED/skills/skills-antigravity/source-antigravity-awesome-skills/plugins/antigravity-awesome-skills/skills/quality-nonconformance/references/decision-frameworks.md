@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # Decision Frameworks — Quality & Non-Conformance Management
 
 This reference provides the detailed decision logic, MRB processes, RCA methodology selection,

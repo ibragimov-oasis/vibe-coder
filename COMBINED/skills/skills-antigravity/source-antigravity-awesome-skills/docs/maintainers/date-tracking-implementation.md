@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # Date Tracking Implementation Summary
 
 This note explains how `date_added` support fits into the current repository structure after the `apps/` and `tools/` refactor.

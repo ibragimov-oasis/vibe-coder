@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
+---
+
 # /learn - 擷取可重用模式
 
 分析目前的工作階段並擷取值得儲存為技能的模式。

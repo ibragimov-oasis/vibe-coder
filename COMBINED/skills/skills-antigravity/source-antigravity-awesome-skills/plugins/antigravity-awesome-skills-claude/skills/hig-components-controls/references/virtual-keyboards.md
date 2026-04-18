@@ -147,7 +147,11 @@ People can also use a nearby paired iPhone to enter text on Apple Watch.
 
 ## [Change log](https://developer.apple.com/design/human-interface-guidelines/virtual-keyboards#Change-log)
 
-Date| Changes  
+Date| Changes
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
 ---|---  
 June 9, 2025| Added guidance for displaying custom controls above the keyboard, and updated to reflect virtual keyboard availability in watchOS.  
 February 2, 2024| Clarified the virtual keyboard’s support for direct and indirect gestures in visionOS.  

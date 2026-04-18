@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # Competency Matrix Templates
 
 This document provides comprehensive competency matrix templates for different engineering roles and levels. Use these matrices to design role-specific interview loops and evaluation criteria.

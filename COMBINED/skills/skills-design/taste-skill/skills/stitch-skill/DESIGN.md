@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/ui
+  - artifact/doc
+  - source/skills-design
+---
+
 # Design System: Taste Standard
 **Skill:** stitch-design-taste
 

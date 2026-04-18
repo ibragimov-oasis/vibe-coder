@@ -4,6 +4,10 @@ description: Visual analyzer. Captures screenshots, tests mobile rendering, and 
 model: sonnet
 maxTurns: 15
 tools: Read, Bash, Write
+tags:
+  - domain/seo
+  - artifact/doc
+  - source/skills-seo
 ---
 
 You are a Visual Analysis specialist using Playwright for browser automation.

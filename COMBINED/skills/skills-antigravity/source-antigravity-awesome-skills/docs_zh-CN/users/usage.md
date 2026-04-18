@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # 使用指南：如何实际使用这些技能
 
 > **安装后感到困惑？**本指南将一步步指导你接下来该做什么。

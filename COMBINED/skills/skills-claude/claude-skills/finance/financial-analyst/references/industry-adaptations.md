@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # Industry Adaptations
 
 Sector-specific metrics, benchmarks, and considerations for financial analysis.

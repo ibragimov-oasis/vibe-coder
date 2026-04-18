@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
+---
+
 # 驗證指令
 
 對目前程式碼庫狀態執行全面驗證。

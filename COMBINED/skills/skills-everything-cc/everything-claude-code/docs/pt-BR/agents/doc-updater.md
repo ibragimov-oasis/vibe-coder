@@ -3,6 +3,10 @@ name: doc-updater
 description: Especialista em documentação e codemaps. Use PROATIVAMENTE para atualizar codemaps e documentação. Executa /update-codemaps e /update-docs, gera docs/CODEMAPS/*, atualiza READMEs e guias.
 tools: ["Read", "Write", "Edit", "Bash", "Grep", "Glob"]
 model: haiku
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
 ---
 
 # Especialista em Documentação & Codemaps

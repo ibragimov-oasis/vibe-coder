@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
+---
+
 # Her Şey Agentic Güvenliğe Dair Kısa Kılavuz
 
 _everything claude code / araştırma / güvenlik_

@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
+---
+
 # Step 3：推导底线规则
 
 底线规则必须从身份张力中**自然推导**出来，不是通用条款，而是"这个角色会说的话"。

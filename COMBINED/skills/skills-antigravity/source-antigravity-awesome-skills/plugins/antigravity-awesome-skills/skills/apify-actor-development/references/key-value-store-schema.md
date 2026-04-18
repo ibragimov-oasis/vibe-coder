@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # Key-Value Store Schema Reference
 
 The key-value store schema organizes keys into logical groups called collections for easier data management.

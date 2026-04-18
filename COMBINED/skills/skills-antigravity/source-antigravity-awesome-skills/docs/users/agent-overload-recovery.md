@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # Antigravity Recovery for Context Overload and Truncation
 
 Use this guide when Antigravity loads too many skills for the current task and starts failing with truncation, context, or trajectory-conversion errors.

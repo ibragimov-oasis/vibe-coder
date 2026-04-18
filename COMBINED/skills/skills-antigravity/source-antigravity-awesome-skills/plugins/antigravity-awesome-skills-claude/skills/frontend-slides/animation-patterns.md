@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # Animation Patterns Reference
 
 Use this reference when generating presentations. Match animations to the intended feeling.

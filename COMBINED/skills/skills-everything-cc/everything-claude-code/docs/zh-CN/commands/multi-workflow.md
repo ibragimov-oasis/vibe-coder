@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
+---
+
 # 工作流程 - 多模型协同开发
 
 多模型协同开发工作流程（研究 → 构思 → 规划 → 执行 → 优化 → 审查），带有智能路由：前端 → Gemini，后端 → Codex。

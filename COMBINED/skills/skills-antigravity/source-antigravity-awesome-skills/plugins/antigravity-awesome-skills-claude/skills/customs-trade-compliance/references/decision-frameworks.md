@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # Decision Frameworks — Customs & Trade Compliance
 
 This reference provides the detailed decision logic, classification methodology, FTA qualification

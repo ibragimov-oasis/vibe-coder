@@ -1,6 +1,10 @@
 ---
 title: "Scrum Master Expert — Agent Skill for PM"
 description: "Advanced Scrum Master skill for data-driven agile team analysis and coaching. Use when the user asks about sprint planning, velocity tracking. Agent skill for Claude Code, Codex CLI, Gemini CLI, OpenClaw."
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
 ---
 
 # Scrum Master Expert

@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-hermes
+---
+
 # Distributed Evaluation
 
 Guide to running evaluation across multiple GPUs using data parallelism and tensor/pipeline parallelism.

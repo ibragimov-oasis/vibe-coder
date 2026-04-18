@@ -1,5 +1,9 @@
 ---
 description: 使用 Playwright 生成并运行端到端测试。创建测试旅程、运行测试、捕获截图/视频/跟踪，并上传工件。
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
 ---
 
 # E2E 命令

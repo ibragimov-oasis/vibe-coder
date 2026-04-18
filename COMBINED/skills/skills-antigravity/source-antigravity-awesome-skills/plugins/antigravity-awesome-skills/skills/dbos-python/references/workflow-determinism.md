@@ -3,6 +3,9 @@ title: Keep Workflows Deterministic
 impact: CRITICAL
 impactDescription: Non-deterministic workflows cannot recover correctly
 tags: workflow, determinism, recovery, reliability
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
 ---
 
 ## Keep Workflows Deterministic

@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-hermes
+---
+
 # CI Troubleshooting Quick Reference
 
 Common CI failure patterns and how to diagnose them from the logs.

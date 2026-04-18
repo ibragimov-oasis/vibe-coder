@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # AgentHub — Claude Code Instructions
 
 This plugin enables multi-agent collaboration. Spawn N parallel subagents that compete on the same task, evaluate results, and merge the winner.

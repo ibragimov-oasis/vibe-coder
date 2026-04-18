@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/ui
+  - artifact/doc
+  - source/skills-design
+---
+
 # Advanced Stitch Techniques
 
 Advanced strategies for maximizing Stitch's capabilities and creating production-ready designs.

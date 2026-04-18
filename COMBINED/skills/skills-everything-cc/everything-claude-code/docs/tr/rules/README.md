@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
+---
+
 # Kurallar (Rules)
 
 Claude Code için kodlama kuralları ve en iyi uygulamalar.
@@ -59,3 +66,9 @@ Bu kurallar Claude Code tarafından otomatik olarak yüklenir ve uygulanır. Kur
 ## Orijinal Dokümantasyon
 
 Bu dokümantasyonun İngilizce orijinali `rules/` dizininde bulunmaktadır.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

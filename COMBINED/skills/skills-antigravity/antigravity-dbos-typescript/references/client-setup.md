@@ -3,6 +3,9 @@ title: Initialize DBOSClient for External Access
 impact: MEDIUM
 impactDescription: Enables external applications to interact with DBOS workflows
 tags: client, external, setup, initialization
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
 ---
 
 ## Initialize DBOSClient for External Access

@@ -57,7 +57,11 @@ Your game can include custom links into the Game Overlay (in iOS, iPadOS, macOS)
 
 **Use the correct terminology in custom links.** The following table describes how to use Game Center terminology correctly so that you can avoid confusing players in custom UI.
 
-Term| Incorrect terms| Localization  
+Term| Incorrect terms| Localization
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
 ---|---|---  
 Game Center| GameKit, GameCenter, game center| Use the system-provided translation of _Game Center_  
 Game Center Profile| Profile, Account, Player Info| Use the system-provided translation of _Game Center_ and localize _Profile_  

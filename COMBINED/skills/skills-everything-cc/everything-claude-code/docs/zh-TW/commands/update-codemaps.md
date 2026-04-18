@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
+---
+
 # 更新程式碼地圖
 
 分析程式碼庫結構並更新架構文件：

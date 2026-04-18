@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/ui
+  - artifact/doc
+  - source/skills-design
+---
+
 # Mobile Backend Patterns
 
 > **This file covers backend/API patterns SPECIFIC to mobile clients.**

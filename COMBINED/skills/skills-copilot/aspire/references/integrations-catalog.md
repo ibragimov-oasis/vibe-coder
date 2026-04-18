@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-copilot
+---
+
 # Integrations Catalog
 
 Aspire has **144+ integrations** across 13 categories. Rather than maintaining a static list, use the MCP tools to get live, up-to-date integration data.

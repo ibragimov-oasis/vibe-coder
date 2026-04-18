@@ -3,6 +3,10 @@ name: kotlin-build-resolver
 description: Kotlin/Gradle 构建、编译和依赖错误解决专家。以最小改动修复构建错误、Kotlin 编译器错误和 Gradle 问题。适用于 Kotlin 构建失败时。
 tools: ["Read", "Write", "Edit", "Bash", "Grep", "Glob"]
 model: sonnet
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
 ---
 
 # Kotlin 构建错误解决器

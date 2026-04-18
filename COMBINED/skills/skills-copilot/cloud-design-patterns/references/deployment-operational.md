@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-copilot
+---
+
 # Deployment & Operational Patterns
 
 ## Compute Resource Consolidation Pattern

@@ -94,7 +94,11 @@ All layout- and appearance-based animations automatically include built-in easin
 
 ## [Change log](https://developer.apple.com/design/human-interface-guidelines/motion#Change-log)
 
-Date| Changes  
+Date| Changes
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
 ---|---  
 September 9, 2025| Added guidance for Liquid Glass.  
 June 10, 2024| Added game-specific examples and enhanced guidance for using motion in games.  

@@ -2,6 +2,10 @@
 description: "TypeScript testing extending common rules"
 globs: ["**/*.ts", "**/*.tsx", "**/*.js", "**/*.jsx"]
 alwaysApply: false
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
 ---
 # TypeScript/JavaScript Testing
 

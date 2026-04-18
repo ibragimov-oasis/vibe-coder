@@ -1,6 +1,10 @@
 ---
 description: Extract patterns and learnings from current session
 agent: build
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
 ---
 
 # Learn Command

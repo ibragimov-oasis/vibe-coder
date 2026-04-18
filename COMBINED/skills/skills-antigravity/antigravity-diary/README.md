@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 ﻿# 📔 Unified Diary System (Agentic Context-Preserving Logger) v4.1
 
 ![Version](https://img.shields.io/badge/version-v4.1-blue)
@@ -88,3 +95,9 @@ The system will take over to handle all the filing, merging, and syncing automat
 
 > **💡 Design Philosophy:**
 > Why not just have the AI write directly to the global diary? Because we found that when an AI lacks the "isolated local project context", it frequently suffers from **Tag Drift** (writing Project A's progress under Project B's header). Through this highly-structured "Local First, Global Second" 4-step architecture, we completely eliminated the context pollution pain point in AI-automated logging.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

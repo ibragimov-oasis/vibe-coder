@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # PDF Processing Advanced Reference
 
 This document contains advanced PDF processing features, detailed examples, and additional libraries not covered in the main skill instructions.

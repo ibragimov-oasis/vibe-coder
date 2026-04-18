@@ -1,6 +1,10 @@
 ---
 title: "Referral Program — Agent Skill for Marketing"
 description: "When the user wants to design, launch, or optimize a referral or affiliate program. Use when they mention 'referral program,' 'affiliate program,'. Agent skill for Claude Code, Codex CLI, Gemini CLI, OpenClaw."
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
 ---
 
 # Referral Program

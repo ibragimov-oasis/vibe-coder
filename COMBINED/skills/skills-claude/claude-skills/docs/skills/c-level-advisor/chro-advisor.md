@@ -1,6 +1,10 @@
 ---
 title: "CHRO Advisor — Agent Skill for Executives"
 description: "People leadership for scaling companies. Hiring strategy, compensation design, org structure, culture, and retention. Use when building hiring plans. Agent skill for Claude Code, Codex CLI, Gemini CLI, OpenClaw."
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
 ---
 
 # CHRO Advisor

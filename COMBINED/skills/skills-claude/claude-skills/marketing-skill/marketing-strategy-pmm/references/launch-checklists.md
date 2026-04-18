@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # Launch Checklists
 
 GTM launch playbooks for Tier 1, 2, and 3 product releases.

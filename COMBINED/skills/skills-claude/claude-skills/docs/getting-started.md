@@ -1,6 +1,10 @@
 ---
 title: Install Agent Skills — Codex, Gemini CLI, OpenClaw Setup
 description: "How to install Claude Code skills and agent plugins for 11 AI coding tools. Step-by-step setup for Claude Code, OpenAI Codex, Gemini CLI, OpenClaw, Cursor, Aider, Windsurf, and more."
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
 ---
 
 # Getting Started

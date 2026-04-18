@@ -162,7 +162,11 @@ When your app or game transitions to a Full Space, you can replace passthrough w
 
 ## [Change log](https://developer.apple.com/design/human-interface-guidelines/immersive-experiences#Change-log)
 
-Date| Changes  
+Date| Changes
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
 ---|---  
 June 9, 2025| Clarified guidance and noted the availability of portrait-oriented progressive immersion.  
 November 19, 2024| Refined immersion style guidance and added artwork.  

@@ -3,6 +3,10 @@ name: refactor-cleaner
 description: 데드 코드 정리 및 통합 전문가. 미사용 코드, 중복 제거, 리팩토링에 사용하세요. 분석 도구(knip, depcheck, ts-prune)를 실행하여 데드 코드를 식별하고 안전하게 제거합니다.
 tools: ["Read", "Write", "Edit", "Bash", "Grep", "Glob"]
 model: sonnet
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
 ---
 
 # 리팩토링 & 데드 코드 클리너

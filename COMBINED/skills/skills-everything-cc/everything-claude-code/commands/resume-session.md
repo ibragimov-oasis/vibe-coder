@@ -1,5 +1,9 @@
 ---
 description: Load the most recent session file from ~/.claude/session-data/ and resume work with full context from where the last session ended.
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
 ---
 
 # Resume Session Command

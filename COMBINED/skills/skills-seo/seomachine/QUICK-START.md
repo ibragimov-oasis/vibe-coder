@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/seo
+  - artifact/doc
+  - source/skills-seo
+---
+
 # Quick Start Guide
 
 Get SEO Machine running in **10 minutes** ⚡

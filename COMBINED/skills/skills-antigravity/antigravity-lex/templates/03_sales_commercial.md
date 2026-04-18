@@ -2,6 +2,10 @@
 name: sales-commercial
 description: Agent templates governing long-term commercial relationships, bills of sale, and web-based terms of service.
 jurisdictions: [USA, Canada, EU]
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
 ---
 
 # Sales & Commercial Transactions Templates

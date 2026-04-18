@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
+---
+
 # Güvenlik Kuralları
 
 ## Zorunlu Güvenlik Kontrolleri

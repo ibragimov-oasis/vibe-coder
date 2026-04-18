@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
+---
+
 # Test Gereksinimleri
 
 ## Minimum Test Coverage: %80

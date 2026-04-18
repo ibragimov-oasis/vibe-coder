@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # Tipos de Conta Instagram — Business vs Creator
 
 ## Comparação

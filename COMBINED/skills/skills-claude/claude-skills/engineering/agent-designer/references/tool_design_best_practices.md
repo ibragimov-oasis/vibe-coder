@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # Tool Design Best Practices for Multi-Agent Systems
 
 ## Overview

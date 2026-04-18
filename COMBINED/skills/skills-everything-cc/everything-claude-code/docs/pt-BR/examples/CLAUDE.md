@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
+---
+
 # Exemplo de CLAUDE.md de Projeto
 
 Este é um exemplo de arquivo CLAUDE.md no nível de projeto. Coloque-o na raiz do seu projeto.

@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-copilot
+---
+
 # draw.io Style Reference
 
 Complete reference for the `style` attribute on `<mxCell>` elements. Styles are semicolon-delimited `key=value` pairs.

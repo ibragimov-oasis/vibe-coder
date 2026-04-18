@@ -3,6 +3,9 @@ title: Use Streams for Real-Time Data
 impact: MEDIUM
 impactDescription: Enables streaming results from long-running workflows
 tags: communication, stream, real-time, async-generator
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
 ---
 
 ## Use Streams for Real-Time Data

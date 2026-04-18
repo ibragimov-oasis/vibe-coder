@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-copilot
+---
+
 # Pinia Testing Snippets (Cookbook-Aligned)
 
 Use these patterns directly when writing tests with `@pinia/testing`.

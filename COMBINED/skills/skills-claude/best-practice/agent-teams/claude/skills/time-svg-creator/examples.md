@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # Time SVG Creator — Examples
 
 ## Example 1: Afternoon

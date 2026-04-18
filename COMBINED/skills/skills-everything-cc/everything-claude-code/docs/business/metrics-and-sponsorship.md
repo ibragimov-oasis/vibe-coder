@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
+---
+
 # Metrics and Sponsorship Playbook
 
 This file is a practical script for sponsor calls and ecosystem partner reviews.

@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # Session Timeout Template
 
 Tests auto-logout after inactivity and session refresh behaviour.

@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
+---
+
 # Social Launch Copy (X + LinkedIn)
 
 Use these templates as launch-ready starting points. Replace placeholders before posting.

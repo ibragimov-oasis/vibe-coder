@@ -1,6 +1,10 @@
 ---
 title: "Founder Development Coach — Agent Skill for Executives"
 description: "Personal leadership development for founders and first-time CEOs. Covers founder archetype identification, delegation frameworks, energy management. Agent skill for Claude Code, Codex CLI, Gemini CLI, OpenClaw."
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
 ---
 
 # Founder Development Coach

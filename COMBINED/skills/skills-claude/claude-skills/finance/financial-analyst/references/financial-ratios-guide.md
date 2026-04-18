@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # Financial Ratios Guide
 
 Comprehensive reference for financial ratio analysis covering formulas, interpretation, and industry benchmarks across five categories.

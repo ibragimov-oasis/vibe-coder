@@ -3,6 +3,9 @@ title: Preload Based on User Intent
 impact: MEDIUM
 impactDescription: reduces perceived latency
 tags: bundle, preload, user-intent, hover
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
 ---
 
 ## Preload Based on User Intent

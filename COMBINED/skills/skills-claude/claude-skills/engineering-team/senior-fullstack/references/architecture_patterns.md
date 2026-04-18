@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # Fullstack Architecture Patterns
 
 Proven architectural patterns for scalable fullstack applications covering frontend, backend, and their integration.

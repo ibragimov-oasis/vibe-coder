@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # Board Meeting Agenda Template
 
 Use this to structure a board meeting before invoking `/cs:board`.

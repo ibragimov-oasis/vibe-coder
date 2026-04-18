@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-copilot
+---
+
 # Collapsed Sections to HTML
 
 ## `<details>` Block (Raw HTML in Markdown)

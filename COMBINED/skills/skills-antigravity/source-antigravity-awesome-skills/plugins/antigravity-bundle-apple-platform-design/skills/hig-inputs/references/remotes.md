@@ -40,7 +40,11 @@ The clickpad’s touch surface detects swipes and presses.
 
 Ensure that your app or game responds to specific presses in the following ways.
 
-Button or area| Expected behavior in an app| Expected behavior in a game  
+Button or area| Expected behavior in an app| Expected behavior in a game
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
 ---|---|---  
 Touch surface (swipe)| Navigates. Changes focus.| Performs directional pad behavior.  
 Touch surface (press)| Activates a control or an item. Navigates deeper.| Performs primary button behavior.  

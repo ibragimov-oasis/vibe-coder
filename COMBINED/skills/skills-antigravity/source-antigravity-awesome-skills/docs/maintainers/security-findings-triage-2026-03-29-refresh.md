@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # Security Findings Re-Triage (2026-03-29)
 
 This document is the current-head refresh of the historical

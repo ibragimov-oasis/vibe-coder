@@ -1,6 +1,10 @@
 ---
 title: "/project-health — Slash Command for AI Coding Agents"
 description: "Portfolio health dashboard and risk matrix analysis. Usage: /project-health <dashboard|risk> [options]. Slash command for Claude Code, Codex CLI, Gemini CLI."
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
 ---
 
 # /project-health

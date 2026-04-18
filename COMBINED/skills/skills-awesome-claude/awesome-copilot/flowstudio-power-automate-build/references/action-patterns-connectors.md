@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-awesome-claude
+---
+
 # FlowStudio MCP — Action Patterns: Connectors
 
 SharePoint, Outlook, Teams, and Approvals connector action patterns.

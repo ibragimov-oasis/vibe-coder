@@ -1,5 +1,9 @@
 ---
 description: 为 C++ 强制执行 TDD 工作流程。先编写 GoogleTest 测试，然后实现。使用 gcov/lcov 验证覆盖率。
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
 ---
 
 # C++ TDD 命令

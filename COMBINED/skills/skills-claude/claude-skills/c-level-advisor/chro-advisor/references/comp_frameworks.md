@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # Compensation Frameworks Reference
 
 Salary bands, equity design, total comp modeling, comp philosophy, and raise/refresh processes.

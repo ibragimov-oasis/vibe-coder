@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/seo
+  - artifact/doc
+  - source/skills-seo
+---
+
 # Example Topic Idea
 
 This is an example of how to capture raw topic ideas in the `/topics` folder.

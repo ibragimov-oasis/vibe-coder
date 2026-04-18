@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/ui
+  - artifact/doc
+  - source/skills-design
+---
+
 # Query Optimization
 
 > N+1 problem, EXPLAIN ANALYZE, optimization priorities.

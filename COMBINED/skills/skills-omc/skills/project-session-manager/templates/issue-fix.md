@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/doc
+  - source/skills-omc
+---
+
 # Issue Fix Context
 
 You are fixing Issue #{{ISSUE_NUMBER}}: **{{ISSUE_TITLE}}**

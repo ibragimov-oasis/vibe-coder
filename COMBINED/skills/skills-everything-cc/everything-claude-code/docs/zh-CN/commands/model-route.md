@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
+---
+
 # 模型路由命令
 
 根据任务复杂度和预算推荐最佳模型层级。

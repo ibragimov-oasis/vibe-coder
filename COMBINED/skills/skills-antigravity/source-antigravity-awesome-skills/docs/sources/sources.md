@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # 📜 Sources & Attributions
 
 We believe in giving credit where credit is due.

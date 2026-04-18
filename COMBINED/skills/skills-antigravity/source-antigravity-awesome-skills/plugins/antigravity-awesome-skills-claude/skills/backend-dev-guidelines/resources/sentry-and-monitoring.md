@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # Sentry Integration and Monitoring
 
 Complete guide to error tracking and performance monitoring with Sentry v8.

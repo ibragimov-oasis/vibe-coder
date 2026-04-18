@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-hermes
+---
+
 # Production-Ready Examples
 
 Real-world examples of using Outlines for structured generation in production systems.

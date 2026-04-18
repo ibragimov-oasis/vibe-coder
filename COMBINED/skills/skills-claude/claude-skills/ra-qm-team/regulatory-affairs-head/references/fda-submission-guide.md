@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # FDA Submission Guide
 
 ## FDA Medical Device Classification and Pathways

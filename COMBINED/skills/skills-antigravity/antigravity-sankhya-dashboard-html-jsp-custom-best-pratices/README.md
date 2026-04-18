@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # Sankhya Dashboard Custom Best Practices
 
 This skill provides a comprehensive set of best practices, advanced patterns, and structural guidelines for developing custom HTML/JSP dashboards within the Sankhya ecosystem. 
@@ -45,3 +52,9 @@ Once installed, this skill is automatically triggered when discussing Sankhya da
 - *"Gere o CSS padrão (.card, variáveis de cor) recomendado pela skill do Sankhya."*
 
 By referring to this skill, the AI will contextualize its response using the specific technical notes mapped out for Sankhya development.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

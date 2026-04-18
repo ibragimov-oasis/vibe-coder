@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # Playwright Java – Fixtures, Hooks & Test Data
 
 ## JUnit 5 Extension for Playwright (Custom Fixture)

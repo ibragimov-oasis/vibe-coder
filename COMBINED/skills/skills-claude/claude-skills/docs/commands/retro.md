@@ -1,6 +1,10 @@
 ---
 title: "/retro — Slash Command for AI Coding Agents"
 description: "Analyze sprint retrospectives for patterns and action item tracking. Usage: /retro analyze <retro_data.json>. Slash command for Claude Code, Codex CLI, Gemini CLI."
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
 ---
 
 # /retro

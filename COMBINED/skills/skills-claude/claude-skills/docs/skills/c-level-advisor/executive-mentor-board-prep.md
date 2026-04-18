@@ -1,6 +1,10 @@
 ---
 title: "/em:board-prep — Board Meeting Preparation — Agent Skill for Executives"
 description: "/em -board-prep — Board Meeting Preparation. Agent skill for Claude Code, Codex CLI, Gemini CLI, OpenClaw."
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
 ---
 
 # /em:board-prep — Board Meeting Preparation

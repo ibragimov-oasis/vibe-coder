@@ -31,7 +31,11 @@ The people who use your interface may be blind, color blind, or have low vision 
 
 **Use recommended defaults for custom type sizes.** Each platform has different default and minimum sizes for system-defined type styles to promote readability. If you’re using custom type styles, follow the recommended defaults.
 
-Platform| Default size| Minimum size  
+Platform| Default size| Minimum size
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
 ---|---|---  
 iOS, iPadOS| 17 pt| 11 pt  
 macOS| 13 pt| 10 pt  

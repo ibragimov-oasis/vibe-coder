@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-copilot
+---
+
 # Simple 2D Platformer Engine Template
 
 A grid-based 2D platformer engine tutorial by **Sebastien Benard** (deepnight), the lead developer behind *Dead Cells*. This template covers the fundamental architecture for a performant platformer: a dual-coordinate positioning system that blends integer grid cells with sub-pixel precision, velocity and friction mechanics, gravity, and a robust collision detection and response system. The approach is language-agnostic but examples use Haxe.

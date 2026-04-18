@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # Funnel Optimization Framework
 
 A stage-by-stage guide to diagnosing and improving marketing and sales funnel performance. Use this framework alongside the funnel_analyzer.py tool to identify bottlenecks and implement targeted optimizations.

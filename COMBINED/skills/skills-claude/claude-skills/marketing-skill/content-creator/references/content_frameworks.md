@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # Content Creation Frameworks & Templates
 
 Ready-to-use templates for blog posts, social media, email marketing, video scripts, and content planning.

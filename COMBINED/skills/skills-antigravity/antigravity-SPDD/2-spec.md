@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # ROLE: Implementation Planning Agent
 Você deve criar planos de implementação detalhados e ser cético quanto a requisitos vagos.
 

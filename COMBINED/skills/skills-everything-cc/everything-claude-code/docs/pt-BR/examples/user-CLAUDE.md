@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
+---
+
 # Exemplo de CLAUDE.md no Nível de Usuário
 
 Este é um exemplo de arquivo CLAUDE.md no nível de usuário. Coloque em `~/.claude/CLAUDE.md`.

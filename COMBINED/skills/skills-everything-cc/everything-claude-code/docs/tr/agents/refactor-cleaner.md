@@ -3,6 +3,10 @@ name: refactor-cleaner
 description: Ölü kod temizleme ve birleştirme specialisti. Kullanılmayan kodu, tekrarları kaldırma ve refactoring için PROAKTİF olarak kullanın. Ölü kodu belirlemek için analiz araçları (knip, depcheck, ts-prune) çalıştırır ve güvenli bir şekilde kaldırır.
 tools: ["Read", "Write", "Edit", "Bash", "Grep", "Glob"]
 model: sonnet
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
 ---
 
 # Refactor & Dead Code Cleaner

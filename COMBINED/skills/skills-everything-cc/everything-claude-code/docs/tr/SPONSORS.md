@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
+---
+
 # Sponsorlar
 
 Bu projeye sponsor olan herkese teşekkürler! Desteğiniz ECC ekosisteminin büyümesini sağlıyor.

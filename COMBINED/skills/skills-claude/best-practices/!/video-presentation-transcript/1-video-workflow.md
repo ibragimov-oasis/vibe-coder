@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # Video 1: From Vibe Coding to Agentic Engineering — Workflows with Claude Code
 
 **Total duration: ~5 minutes**

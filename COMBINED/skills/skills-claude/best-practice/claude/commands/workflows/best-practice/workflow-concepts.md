@@ -1,6 +1,10 @@
 ---
 description: Update the README CONCEPTS section with the latest Claude Code features and concepts
 argument-hint: [number of changelog versions to check, default 10]
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
 ---
 
 # Workflow Changelog — README Concepts

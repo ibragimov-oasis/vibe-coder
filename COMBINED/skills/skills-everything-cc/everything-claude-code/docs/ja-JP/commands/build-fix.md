@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
+---
+
 # ビルド修正
 
 TypeScript およびビルドエラーを段階的に修正します：

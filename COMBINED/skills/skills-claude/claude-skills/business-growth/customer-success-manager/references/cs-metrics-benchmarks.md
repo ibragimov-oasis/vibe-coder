@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # Customer Success Metrics and Benchmarks
 
 Industry benchmarks for key customer success metrics, segmented by company size, customer segment, and industry vertical.

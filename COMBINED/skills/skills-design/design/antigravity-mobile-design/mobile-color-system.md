@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/ui
+  - artifact/doc
+  - source/skills-design
+---
+
 # Mobile Color System Reference
 
 > OLED optimization, dark mode, battery-aware colors, and outdoor visibility.

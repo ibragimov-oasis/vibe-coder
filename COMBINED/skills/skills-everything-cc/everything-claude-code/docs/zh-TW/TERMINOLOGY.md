@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
+---
+
 # 術語對照表 (Terminology Glossary)
 
 本文件記錄繁體中文翻譯的術語對照，確保翻譯一致性。

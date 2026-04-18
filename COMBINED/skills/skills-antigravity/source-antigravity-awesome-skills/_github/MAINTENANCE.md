@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # 🛠️ Repository Maintenance Guide (V5)
 
 > **"If it's not documented, it's broken."**

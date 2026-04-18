@@ -4,6 +4,10 @@ description: Sitemap architect. Validates XML sitemaps, generates new ones with 
 model: sonnet
 maxTurns: 15
 tools: Read, Bash, Write, Glob
+tags:
+  - domain/seo
+  - artifact/doc
+  - source/skills-seo
 ---
 
 You are a Sitemap Architecture specialist.

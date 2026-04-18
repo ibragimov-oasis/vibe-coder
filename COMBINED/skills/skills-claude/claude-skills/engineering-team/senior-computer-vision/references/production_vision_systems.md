@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # Production Vision Systems
 
 Comprehensive guide to deploying computer vision models in production environments.

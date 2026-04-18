@@ -2,6 +2,9 @@
 description: Standards and naming rules for creating agent skills.
 metadata:
   tags: [standards, naming, yaml, structure]
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
 ---
 
 # Skill Development Guide

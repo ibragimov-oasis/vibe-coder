@@ -3,6 +3,9 @@ title: Use Workflow IDs for Idempotency
 impact: MEDIUM
 impactDescription: Prevents duplicate executions of critical operations
 tags: idempotency, workflow-id, deduplication, exactly-once
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
 ---
 
 ## Use Workflow IDs for Idempotency

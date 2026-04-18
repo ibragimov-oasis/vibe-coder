@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
+---
+
 # Enterprise Controls
 
 This is a starter governance file for enterprise ECC deployments.

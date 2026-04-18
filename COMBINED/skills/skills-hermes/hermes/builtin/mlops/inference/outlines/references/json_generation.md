@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-hermes
+---
+
 # Comprehensive JSON Generation Guide
 
 Complete guide to JSON generation with Outlines using Pydantic models and JSON schemas.

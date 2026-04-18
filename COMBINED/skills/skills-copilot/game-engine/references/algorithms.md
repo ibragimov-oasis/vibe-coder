@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-copilot
+---
+
 # Game Development Algorithms
 
 A comprehensive reference covering essential algorithms for game development, including

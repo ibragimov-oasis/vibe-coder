@@ -1,6 +1,10 @@
 ---
 inclusion: auto
 description: Security best practices including mandatory checks, secret management, and security response protocol.
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
 ---
 
 # Security Guidelines

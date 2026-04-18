@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-copilot
+---
+
 # Writing Mathematical Expressions to HTML
 
 ## Writing Inline Expressions

@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # Incident Response Framework Reference
 
 Production-grade incident management knowledge base synthesizing PagerDuty, Google SRE, and Atlassian methodologies into a unified, opinionated framework. This document is the source of truth for incident commanders operating under pressure.

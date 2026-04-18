@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # Forecasting Best Practices
 
 Comprehensive reference for financial forecasting including driver-based models, rolling forecasts, accuracy improvement techniques, and scenario planning.

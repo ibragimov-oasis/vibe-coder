@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # Azure Service Selection Guide
 
 Quick reference for choosing the right Azure service based on workload requirements.

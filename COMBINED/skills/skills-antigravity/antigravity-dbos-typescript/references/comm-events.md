@@ -3,6 +3,9 @@ title: Use Events for Workflow Status Publishing
 impact: MEDIUM
 impactDescription: Enables real-time progress monitoring and interactive workflows
 tags: communication, events, status, key-value
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
 ---
 
 ## Use Events for Workflow Status Publishing

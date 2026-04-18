@@ -3,6 +3,9 @@ title: Follow Workflow Constraints
 impact: CRITICAL
 impactDescription: Violating constraints breaks recovery and durability guarantees
 tags: workflow, constraints, rules, best-practices
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
 ---
 
 ## Follow Workflow Constraints

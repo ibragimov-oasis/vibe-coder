@@ -4,6 +4,10 @@ description: 操作自主代理循环，监控进度，并在循环停滞时安�
 tools: ["Read", "Grep", "Glob", "Bash", "Edit"]
 model: sonnet
 color: orange
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
 ---
 
 你是循环操作员。

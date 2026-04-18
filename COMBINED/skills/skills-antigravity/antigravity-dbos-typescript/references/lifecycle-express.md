@@ -3,6 +3,9 @@ title: Integrate DBOS with Express
 impact: CRITICAL
 impactDescription: Proper integration ensures workflows survive server restarts
 tags: express, http, integration, server
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
 ---
 
 ## Integrate DBOS with Express

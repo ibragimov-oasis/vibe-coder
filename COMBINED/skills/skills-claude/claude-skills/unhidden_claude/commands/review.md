@@ -1,5 +1,9 @@
 ---
 description: Run the local review gate before pushing.
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
 ---
 
 Perform a complete review pass:

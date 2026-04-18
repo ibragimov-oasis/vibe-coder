@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-platform
+---
+
 # Functions Reference
 
 ## Global Functions

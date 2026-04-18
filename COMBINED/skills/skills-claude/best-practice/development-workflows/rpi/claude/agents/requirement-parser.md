@@ -3,6 +3,10 @@ name: requirement-parser
 description: Analyzes feature request descriptions and extracts structured requirements, goals, constraints, and metadata for downstream planning agents.
 model: sonnet
 color: blue
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
 ---
 
 # Requirement Parser Agent

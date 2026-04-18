@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # Jira Automation Reference
 
 Comprehensive guide to Jira automation rules: triggers, conditions, actions, smart values, and production-ready recipes.

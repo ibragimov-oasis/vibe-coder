@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
+---
+
 # Repo Evaluation vs Current Setup
 
 **Date:** 2026-03-21

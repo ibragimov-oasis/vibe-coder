@@ -1,6 +1,10 @@
 ---
 inclusion: auto
 description: Git workflow guidelines for conventional commits and pull request process
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
 ---
 
 # Git Workflow

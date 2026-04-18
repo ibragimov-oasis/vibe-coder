@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/ui
+  - artifact/doc
+  - source/skills-design
+---
+
 # Mobile Performance Reference
 
 > Deep dive into React Native and Flutter performance optimization, 60fps animations, memory management, and battery considerations.

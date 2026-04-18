@@ -1,5 +1,9 @@
 ---
 description: Fix Gradle build errors for Android and KMP projects
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
 ---
 
 # Gradle Build Fix

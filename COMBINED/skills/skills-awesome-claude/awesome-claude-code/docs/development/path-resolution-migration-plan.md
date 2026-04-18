@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-awesome-claude
+---
+
 # Path Resolution Migration Plan
 
 This plan describes the concrete work needed to migrate README generation to the

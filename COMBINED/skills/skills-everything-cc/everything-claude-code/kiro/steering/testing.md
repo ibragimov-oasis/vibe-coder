@@ -1,6 +1,10 @@
 ---
 inclusion: auto
 description: Testing requirements including 80% coverage, TDD workflow, and test types.
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
 ---
 
 # Testing Requirements

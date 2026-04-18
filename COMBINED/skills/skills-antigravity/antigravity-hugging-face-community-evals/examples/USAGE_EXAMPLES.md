@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # Usage Examples
 
 This document provides practical examples for **running evaluations locally** against Hugging Face Hub models.

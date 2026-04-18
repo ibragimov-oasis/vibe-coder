@@ -3,6 +3,9 @@ title: Use SWR for Automatic Deduplication
 impact: MEDIUM-HIGH
 impactDescription: automatic deduplication
 tags: client, swr, deduplication, data-fetching
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
 ---
 
 ## Use SWR for Automatic Deduplication

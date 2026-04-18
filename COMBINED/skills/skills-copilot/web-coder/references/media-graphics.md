@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-copilot
+---
+
 # Media & Graphics Reference
 
 Multimedia content, graphics, and related technologies for the web.

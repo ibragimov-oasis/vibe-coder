@@ -1,6 +1,10 @@
 ---
 inclusion: manual
 description: Development mode context for active feature implementation and coding work
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
 ---
 
 # Development Mode

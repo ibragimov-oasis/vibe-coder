@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # Instagram Graph API — Referência de Endpoints
 
 Base URL: `https://graph.instagram.com/v21.0`

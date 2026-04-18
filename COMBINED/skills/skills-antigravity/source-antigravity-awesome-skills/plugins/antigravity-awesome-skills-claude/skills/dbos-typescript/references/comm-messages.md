@@ -3,6 +3,9 @@ title: Use Messages for Workflow Notifications
 impact: MEDIUM
 impactDescription: Enables reliable inter-workflow and external-to-workflow communication
 tags: communication, messages, send, recv, notification
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
 ---
 
 ## Use Messages for Workflow Notifications

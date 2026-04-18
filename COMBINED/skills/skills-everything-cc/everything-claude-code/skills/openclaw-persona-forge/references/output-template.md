@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
+---
+
 # Step 6：完整方案输出模板
 
 将所有步骤整合为一份完整的龙虾灵魂方案。

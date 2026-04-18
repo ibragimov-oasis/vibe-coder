@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # GitHub 上最佳 Cursor 技能
 
 如果您正在寻找 **GitHub 上最佳 Cursor 技能**，最佳选择取决于您想要一个可直接安装的广泛库、精心策划的发现列表，还是较小的社区集合。

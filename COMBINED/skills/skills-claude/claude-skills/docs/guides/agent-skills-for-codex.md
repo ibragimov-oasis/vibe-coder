@@ -1,6 +1,10 @@
 ---
 title: "Agent Skills for OpenAI Codex CLI (2026)"
 description: "Install and use 192 agent skills with OpenAI Codex CLI. Engineering, marketing, product, and DevOps plugins for Codex."
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
 ---
 
 # Agent Skills for OpenAI Codex CLI

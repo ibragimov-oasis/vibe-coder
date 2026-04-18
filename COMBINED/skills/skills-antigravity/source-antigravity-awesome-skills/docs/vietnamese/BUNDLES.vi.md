@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # 📦 Gói Kỹ năng Antigravity (Skill Bundles)
 
 Bạn không biết bắt đầu từ đâu? Hãy chọn một gói dưới đây để sỡ hữu bộ kỹ năng được tuyển chọn phù hợp cho vai trò của bạn.

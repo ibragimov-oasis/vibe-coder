@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-copilot
+---
+
 # Organizing information with collapsed sections
 
 You can streamline your Markdown by creating a collapsed section with the `<details>` tag.

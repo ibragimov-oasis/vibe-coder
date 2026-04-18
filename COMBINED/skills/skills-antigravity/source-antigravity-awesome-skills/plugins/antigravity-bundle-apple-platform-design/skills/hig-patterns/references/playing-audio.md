@@ -26,7 +26,11 @@ Devices can play audio in a variety of ways, such as through internal or externa
 
 **Choose an audio category that fits the way your app or game uses sound.** Depending on the audio category you choose, your app’s sounds can mix with other audio, play while your app is in the background, or stop when people set the Ring/Silent switch to silent. As much as possible, pick a category that helps your app meet people’s expectations. For example, don’t make people stop listening to music from another app if you don’t need to. For developer guidance, see [`AVAudioSession.Category`](https://developer.apple.com/documentation/AVFAudio/AVAudioSession/Category-swift.struct).
 
-Category| Meaning| Behavior  
+Category| Meaning| Behavior
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
 ---|---|---  
 Solo ambient| Sound isn’t essential, but it silences other audio. For example, a game with a soundtrack.| Responds to the silence switch. Doesn’t mix with other sounds. Doesn’t play in the background.  
 Ambient| Sound isn’t essential, and it doesn’t silence other audio. For example, a game that lets people play music from another app during gameplay in place of the game’s soundtrack.| Responds to the silence switch. Mixes with other sounds. Doesn’t play in the background.  

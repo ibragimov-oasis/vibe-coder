@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # HIPAA Compliance Framework for Medical Devices
 
 Complete guide to HIPAA requirements for medical device manufacturers and software developers.

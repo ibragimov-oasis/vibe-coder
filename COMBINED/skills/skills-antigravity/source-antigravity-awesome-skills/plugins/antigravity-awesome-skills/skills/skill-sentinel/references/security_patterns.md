@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # Padroes de Seguranca
 
 ## Padroes Bons (Referencia)

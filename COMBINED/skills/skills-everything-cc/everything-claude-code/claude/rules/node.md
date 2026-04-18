@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
+---
+
 # Node.js Rules for everything-claude-code
 
 > Project-specific rules for the ECC codebase. Extends common rules.

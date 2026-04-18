@@ -1,6 +1,10 @@
 ---
 title: "/tech-debt — Slash Command for AI Coding Agents"
 description: "Scan, prioritize, and report technical debt. Usage: /tech-debt <scan|prioritize|report> [options]. Slash command for Claude Code, Codex CLI, Gemini CLI."
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
 ---
 
 # /tech-debt

@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # Go-Rod API Quick Reference
 
 Cheat sheet for the most-used `go-rod/rod` and `go-rod/stealth` APIs.

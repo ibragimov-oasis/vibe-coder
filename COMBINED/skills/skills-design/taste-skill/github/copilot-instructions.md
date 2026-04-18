@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/ui
+  - artifact/doc
+  - source/skills-design
+---
+
 # Copilot Instructions: Taste Standard
 
 > **Note:** GitHub Copilot automatically reads this file to set its global behavior. By including this in the `.github` folder, Copilot stops writing generic "slop" code and adheres to the premium Taste Skill standards.

@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # Chinese Documentation Translation Design
 
 **Date:** 2026-03-27

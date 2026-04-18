@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # Team Dynamics Framework for Scrum Teams
 
 ## Table of Contents

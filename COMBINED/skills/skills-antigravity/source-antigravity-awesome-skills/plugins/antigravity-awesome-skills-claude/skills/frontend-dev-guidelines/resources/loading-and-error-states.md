@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # Loading & Error States
 
 **CRITICAL**: Proper loading and error state handling prevents layout shift and provides better user experience.

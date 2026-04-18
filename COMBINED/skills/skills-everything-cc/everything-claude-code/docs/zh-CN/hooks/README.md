@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
+---
+
 # 钩子
 
 钩子是事件驱动的自动化程序，在 Claude Code 工具执行前后触发。它们用于强制执行代码质量、及早发现错误以及自动化重复性检查。
@@ -219,3 +226,9 @@ interface HookInput {
 * [rules/common/hooks.md](../rules/common/hooks.md) —— 钩子架构指南
 * [skills/strategic-compact/](../../../skills/strategic-compact) —— 策略性压缩技能
 * [scripts/hooks/](../../../scripts/hooks) —— 钩子脚本实现
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

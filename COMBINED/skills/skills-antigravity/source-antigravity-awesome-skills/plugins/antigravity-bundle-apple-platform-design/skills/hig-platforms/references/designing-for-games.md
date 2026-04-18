@@ -30,7 +30,11 @@ As you create or adapt a game for Apple platforms, learn how to integrate the fu
 
 **Make sure text is always legible.** When game text is hard to read, people can struggle to follow the narrative, understand important instructions and information, and stay engaged in the experience. To keep text comfortably legible on each device, ensure that it contrasts well with the background and uses at least the recommended minimum text size in each platform. For guidance, see [Typography](https://developer.apple.com/design/human-interface-guidelines/typography); for developer guidance, see [Adapting your game interface for smaller screens](https://developer.apple.com/documentation/Metal/adapting-your-game-interface-for-smaller-screens).
 
-Platform| Default text size| Minimum text size  
+Platform| Default text size| Minimum text size
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
 ---|---|---  
 iOS, iPadOS| 17 pt| 11 pt  
 macOS| 13 pt| 10 pt  

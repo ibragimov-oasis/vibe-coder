@@ -3,6 +3,10 @@ name: database-reviewer
 description: PostgreSQL 데이터베이스 전문가. 쿼리 최적화, 스키마 설계, 보안, 성능을 다룹니다. SQL 작성, 마이그레이션 생성, 스키마 설계, 데이터베이스 성능 트러블슈팅 시 사용하세요. Supabase 모범 사례를 포함합니다.
 tools: ["Read", "Write", "Edit", "Bash", "Grep", "Glob"]
 model: sonnet
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
 ---
 
 # 데이터베이스 리뷰어

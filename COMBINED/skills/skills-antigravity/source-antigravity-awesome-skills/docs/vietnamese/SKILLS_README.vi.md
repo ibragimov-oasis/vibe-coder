@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # Thư mục Kỹ năng (Skills Directory)
 
 **Chào mừng đến với thư mục Kỹ năng!** Đây là nơi tập hợp tất cả 179+ kỹ năng AI chuyên biệt.

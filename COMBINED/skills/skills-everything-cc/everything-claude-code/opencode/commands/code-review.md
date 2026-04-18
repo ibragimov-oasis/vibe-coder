@@ -2,6 +2,10 @@
 description: Review code for quality, security, and maintainability
 agent: code-reviewer
 subtask: true
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
 ---
 
 # Code Review Command

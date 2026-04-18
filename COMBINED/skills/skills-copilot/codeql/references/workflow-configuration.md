@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-copilot
+---
+
 # CodeQL Workflow Configuration Reference
 
 Detailed reference for configuring CodeQL analysis via GitHub Actions workflows. This supplements the procedural guidance in SKILL.md.

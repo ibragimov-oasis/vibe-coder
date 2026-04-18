@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-copilot
+---
+
 # Writing the Quality Constitution (File 1: QUALITY.md)
 
 The quality constitution defines what "quality" means for this specific project and makes the bar explicit, persistent, and inherited by every AI session.

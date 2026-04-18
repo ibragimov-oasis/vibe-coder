@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # REST CRUD API Template
 
 Tests GET, POST, PUT, and DELETE API endpoints directly via Playwright's request API.

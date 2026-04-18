@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # Lab Research Patterns Reference
 
 Research-backed patterns from Google DeepMind and Anthropic for enhanced multi-agent orchestration and safety.

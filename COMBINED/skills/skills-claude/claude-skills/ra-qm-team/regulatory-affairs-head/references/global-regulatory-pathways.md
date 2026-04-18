@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # Global Regulatory Pathways
 
 International regulatory requirements for medical devices beyond FDA and EU MDR markets.

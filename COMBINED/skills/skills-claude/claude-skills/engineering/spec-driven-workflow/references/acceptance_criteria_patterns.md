@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # Acceptance Criteria Patterns
 
 A pattern library for writing Given/When/Then acceptance criteria across common feature types. Use these as starting points — adapt to your domain.

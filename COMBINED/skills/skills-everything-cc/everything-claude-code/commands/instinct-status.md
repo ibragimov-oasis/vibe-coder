@@ -2,6 +2,10 @@
 name: instinct-status
 description: Show learned instincts (project + global) with confidence
 command: true
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
 ---
 
 # Instinct Status Command

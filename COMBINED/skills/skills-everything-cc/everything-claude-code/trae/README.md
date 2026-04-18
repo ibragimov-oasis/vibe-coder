@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
+---
+
 # Everything Claude Code for Trae
 
 Bring Everything Claude Code (ECC) workflows to Trae IDE. This repository provides custom commands, agents, skills, and rules that can be installed into any Trae project with a single command.
@@ -182,3 +189,9 @@ All files are yours to modify after installation. The installer never overwrites
 - Open your project in Trae
 - Type `/` to see available commands
 - Enjoy the ECC workflows!
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

@@ -19,6 +19,10 @@ skills:
   - presentation/vibe-to-agentic-framework
   - presentation/presentation-structure
   - presentation/presentation-styling
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
 ---
 
 # Presentation Curator Agent

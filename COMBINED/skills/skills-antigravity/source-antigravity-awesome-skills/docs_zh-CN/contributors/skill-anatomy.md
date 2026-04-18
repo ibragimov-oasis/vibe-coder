@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # 技能解剖 - 理解结构
 
 **想了解技能在底层如何工作？** 本指南分解了技能文件的每个部分。

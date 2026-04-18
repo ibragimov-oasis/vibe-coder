@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # Claude Agent SDK vs Claude CLI: System Prompts and Output Consistency
 
 <table width="100%">

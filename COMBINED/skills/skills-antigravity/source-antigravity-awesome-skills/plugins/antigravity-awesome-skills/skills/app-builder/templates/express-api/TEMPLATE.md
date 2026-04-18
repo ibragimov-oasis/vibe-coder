@@ -1,6 +1,10 @@
 ---
 name: express-api
 description: Express.js REST API template principles. TypeScript, Prisma, JWT.
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
 ---
 
 # Express.js API Template

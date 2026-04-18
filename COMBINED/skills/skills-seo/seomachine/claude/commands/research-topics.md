@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/seo
+  - artifact/doc
+  - source/skills-seo
+---
+
 # Research Topics Command
 
 Analyze topical authority by clustering keywords into related topics.

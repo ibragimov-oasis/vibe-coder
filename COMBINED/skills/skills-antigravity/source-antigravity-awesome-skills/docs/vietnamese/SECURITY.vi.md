@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # Chính sách Bảo mật (Security Policy)
 
 ## Các Phiên bản được Hỗ trợ

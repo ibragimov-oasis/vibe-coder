@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # Evaluation Rubric
 
 Score each case on 0-100 via weighted criteria:

@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # 12 Ways to Customize Claude Code — Tips from Boris Cherny
 
 A summary of customization tips shared by Boris Cherny ([@bcherny](https://x.com/bcherny)), creator of Claude Code, on February 12, 2026.

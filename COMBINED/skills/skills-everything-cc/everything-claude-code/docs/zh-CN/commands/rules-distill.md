@@ -1,5 +1,9 @@
 ---
 description: "扫描技能以提取跨领域原则并将其提炼为规则"
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
 ---
 
 # /rules-distill — 从技能中提炼原则为规则

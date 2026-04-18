@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # Antigravity Awesome Skills 入门指南 (V8.10.0)
 
 **新手入门？本指南将在 5 分钟内帮助您增强 AI 代理的能力。**

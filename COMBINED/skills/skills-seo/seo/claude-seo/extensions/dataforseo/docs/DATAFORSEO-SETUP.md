@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/seo
+  - artifact/doc
+  - source/skills-seo
+---
+
 # DataForSEO Account Setup
 
 Step-by-step guide to getting DataForSEO API credentials for the Claude SEO extension.

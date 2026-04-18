@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
+---
+
 # CLAUDE.md
 
 本文件为 Claude Code (claude.ai/code) 处理此仓库代码时提供指导。

@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/ui
+  - artifact/doc
+  - source/skills-design
+---
+
 # Top bar overlays (iOS 26+ and fallback)
 
 ## Intent

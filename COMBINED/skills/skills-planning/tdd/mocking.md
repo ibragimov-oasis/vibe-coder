@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-planning
+---
+
 # When to Mock
 
 Mock at **system boundaries** only:

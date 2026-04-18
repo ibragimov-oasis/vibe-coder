@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
+---
+
 # CLAUDE.md
 
 Bu dosya, bu depodaki kodlarla çalışırken Claude Code'a (claude.ai/code) rehberlik sağlar.

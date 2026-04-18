@@ -2,6 +2,10 @@
 description: Rust TDD workflow with unit and property tests
 agent: tdd-guide
 subtask: true
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
 ---
 
 # Rust Test Command

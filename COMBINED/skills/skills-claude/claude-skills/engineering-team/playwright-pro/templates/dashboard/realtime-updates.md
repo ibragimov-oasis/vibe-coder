@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # Realtime Updates Template
 
 Tests live data via WebSocket or polling, connection handling, and reconnection.

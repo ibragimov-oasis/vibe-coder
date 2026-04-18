@@ -1,5 +1,9 @@
 ---
 description: 通过 Context7 查找库或主题的当前文档。
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
 ---
 
 # /docs

@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # 技能更新指南
 
 本指南介绍如何在 Antigravity Awesome Skills Web 应用程序中更新技能。

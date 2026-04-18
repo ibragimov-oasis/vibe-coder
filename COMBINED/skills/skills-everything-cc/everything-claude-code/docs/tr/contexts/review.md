@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
+---
+
 # Kod İnceleme Bağlamı
 
 Mod: PR incelemesi, kod analizi

@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # Codex CLI Skills
 
 If you want **Codex CLI skills** that are easy to install and practical in a local coding loop, this repository is designed for that exact use case.

@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-hermes
+---
+
 # Stable Diffusion Troubleshooting Guide
 
 ## Installation Issues

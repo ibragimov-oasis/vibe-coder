@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # Claude Code Memory Architecture
 
 A complete reference for how Claude Code's memory systems work together.

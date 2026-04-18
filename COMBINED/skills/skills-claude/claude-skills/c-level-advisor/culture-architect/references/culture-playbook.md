@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # Culture Playbook
 
 Reference frameworks for building, measuring, and evolving company culture.

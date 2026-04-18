@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # CI 漂移修复指南
 
 **问题**：失败的作业是由于在更新脚本运行后在 `README.md`、`skills_index.json` 或目录文件中检测到未提交的更改引起的。

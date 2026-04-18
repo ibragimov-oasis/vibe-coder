@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # Loki Mode - Autonomous Runner
 
 Single script that handles everything: prerequisites, setup, Vibe Kanban monitoring, and autonomous execution with auto-resume.

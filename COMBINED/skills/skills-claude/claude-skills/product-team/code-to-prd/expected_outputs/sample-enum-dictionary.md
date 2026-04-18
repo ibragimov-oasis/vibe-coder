@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # Enum Dictionary
 
 All enums, status codes, and constant mappings found in the codebase.

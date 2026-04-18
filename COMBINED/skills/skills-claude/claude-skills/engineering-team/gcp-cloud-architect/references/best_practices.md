@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # GCP Best Practices
 
 Production-ready practices for naming, labels, IAM, networking, monitoring, and disaster recovery.

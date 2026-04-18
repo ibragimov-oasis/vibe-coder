@@ -24,7 +24,11 @@ When creating bitmap images, you specify a _scale factor_ which determines the r
 
 **Provide high-resolution assets for all bitmap images in your app, for every device you support.** As you add each image to your project’s asset catalog, identify its scale factor by appending “@1x,” “@2x,” or “@3x” to its filename. Use the following values for guidance; for additional scale factors, see [Layout](https://developer.apple.com/design/human-interface-guidelines/layout).
 
-Platform| Scale factors  
+Platform| Scale factors
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
 ---|---  
 iPadOS, watchOS| @2x  
 iOS| @2x and @3x  

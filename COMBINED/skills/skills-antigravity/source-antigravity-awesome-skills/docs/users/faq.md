@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # Frequently Asked Questions (FAQ)
 
 **Got questions?** You're not alone! Here are answers to the most common questions about Antigravity Awesome Skills.

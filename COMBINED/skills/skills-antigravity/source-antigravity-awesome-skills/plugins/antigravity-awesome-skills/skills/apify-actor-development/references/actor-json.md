@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # Actor Configuration (actor.json)
 
 The `.actor/actor.json` file contains the Actor's configuration including metadata, schema references, and platform settings.

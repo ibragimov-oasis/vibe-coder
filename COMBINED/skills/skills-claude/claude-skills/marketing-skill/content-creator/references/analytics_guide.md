@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # Content Analytics & Performance Metrics
 
 Comprehensive guide for tracking, measuring, and optimizing content performance.

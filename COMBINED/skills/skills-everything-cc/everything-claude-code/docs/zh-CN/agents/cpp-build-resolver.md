@@ -3,6 +3,10 @@ name: cpp-build-resolver
 description: C++构建、CMake和编译错误解决专家。以最小改动修复构建错误、链接器问题和模板错误。在C++构建失败时使用。
 tools: ["Read", "Write", "Edit", "Bash", "Grep", "Glob"]
 model: sonnet
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
 ---
 
 # C++ 构建错误解决器

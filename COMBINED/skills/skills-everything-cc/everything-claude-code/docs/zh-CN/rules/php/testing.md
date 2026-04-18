@@ -4,6 +4,10 @@ paths:
   - "**/phpunit.xml"
   - "**/phpunit.xml.dist"
   - "**/composer.json"
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
 ---
 
 # PHP 测试

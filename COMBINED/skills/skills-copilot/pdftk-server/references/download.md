@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-copilot
+---
+
 # Download
 
 PDFtk provides an installer for Windows. Many Linux distributions provide a PDFtk package you can download and install using their package manager.

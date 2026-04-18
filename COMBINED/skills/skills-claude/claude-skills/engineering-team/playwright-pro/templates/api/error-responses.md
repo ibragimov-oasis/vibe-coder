@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # API Error Responses Template
 
 Tests 400, 401, 403, 404, and 500 HTTP error handling.

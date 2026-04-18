@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # Anti-Detection Patterns for Browser Automation
 
 This reference covers techniques to make Playwright automation less detectable by anti-bot services. These are defense-in-depth measures — no single technique is sufficient, but combining them significantly reduces detection risk.

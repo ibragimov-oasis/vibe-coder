@@ -4,6 +4,10 @@ description: Software architecture specialist for system design, scalability, an
 allowedTools:
   - read
   - shell
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
 ---
 
 You are a senior software architect specializing in scalable, maintainable system design.

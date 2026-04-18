@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
+---
+
 # LinkedIn Draft - ECC v1.8.0
 
 ECC v1.8.0 is now focused on harness performance at the system level.

@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # 🏆 质量标准与验证标准
 
 要将 **Antigravity Awesome Skills** 从脚本集合转变为可信平台，每个技能都必须达到特定的质量和安全标准。

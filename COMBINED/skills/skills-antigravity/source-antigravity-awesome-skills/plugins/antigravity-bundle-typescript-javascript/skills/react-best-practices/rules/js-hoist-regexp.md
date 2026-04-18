@@ -3,6 +3,9 @@ title: Hoist RegExp Creation
 impact: LOW-MEDIUM
 impactDescription: avoids recreation
 tags: javascript, regexp, optimization, memoization
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
 ---
 
 ## Hoist RegExp Creation

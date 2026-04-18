@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # Deliverability Guide
 
 A cold email that lands in spam is worse than no email at all — it damages your sender reputation for future sends. Get deliverability right before you worry about copy.

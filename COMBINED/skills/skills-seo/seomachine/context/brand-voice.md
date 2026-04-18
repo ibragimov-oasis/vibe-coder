@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/seo
+  - artifact/doc
+  - source/skills-seo
+---
+
 # [YOUR COMPANY] Brand Voice & Messaging
 
 <!-- INSTRUCTIONS: This template defines your brand voice, tone, and messaging framework.

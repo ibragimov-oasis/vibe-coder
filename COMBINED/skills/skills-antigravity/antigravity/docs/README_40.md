@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # Angular
 
 A comprehensive guide to modern Angular development (v20+) optimized for AI agents and LLMs.

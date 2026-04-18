@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # Architecture Patterns Reference
 
 Detailed guide to software architecture patterns with trade-offs and implementation guidance.

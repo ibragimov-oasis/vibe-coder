@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # NRR Playbook
 
 Net Revenue Retention is the single most important metric for a SaaS company's health and valuation. A company with 120% NRR grows even if it closes zero new deals. A company with 80% NRR is filling a bucket with a hole in it.

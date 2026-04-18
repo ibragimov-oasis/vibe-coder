@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # Azure Architecture Patterns
 
 Reference guide for selecting the right Azure architecture pattern based on application requirements.

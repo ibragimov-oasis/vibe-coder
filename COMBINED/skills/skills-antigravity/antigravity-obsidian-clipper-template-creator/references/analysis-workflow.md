@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # Analysis Workflow: Validating Variables
 
 To ensure your template works correctly, you must validate that the target page actually contains the data you want to extract.

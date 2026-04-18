@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # Extraction Patterns Reference
 
 CSS selectors, JavaScript snippets, and domain-specific tips for

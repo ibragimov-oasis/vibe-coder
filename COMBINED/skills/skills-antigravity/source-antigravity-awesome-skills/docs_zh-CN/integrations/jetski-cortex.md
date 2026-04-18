@@ -1,6 +1,10 @@
 ---
 title: Jetski/Cortex + Gemini 集成指南
 description: "如何在不超出上下文窗口的情况下,在 Jetski/Cortex 中使用 antigravity-awesome-skills 的 1,328+ 技能。"
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
 ---
 
 # Jetski/Cortex + Gemini:与 1,328+ 技能的安全集成

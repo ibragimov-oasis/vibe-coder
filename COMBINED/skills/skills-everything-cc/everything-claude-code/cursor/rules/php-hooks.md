@@ -2,6 +2,10 @@
 description: "PHP hooks extending common rules"
 globs: ["**/*.php", "**/composer.json", "**/phpstan.neon", "**/phpstan.neon.dist", "**/psalm.xml"]
 alwaysApply: false
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
 ---
 # PHP Hooks
 

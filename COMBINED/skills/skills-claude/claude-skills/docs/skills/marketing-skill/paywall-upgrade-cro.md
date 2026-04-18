@@ -1,6 +1,10 @@
 ---
 title: "Paywall and Upgrade Screen CRO — Agent Skill for Marketing"
 description: "When the user wants to create or optimize in-app paywalls, upgrade screens, upsell modals, or feature gates. Also use when the user mentions. Agent skill for Claude Code, Codex CLI, Gemini CLI, OpenClaw."
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
 ---
 
 # Paywall and Upgrade Screen CRO

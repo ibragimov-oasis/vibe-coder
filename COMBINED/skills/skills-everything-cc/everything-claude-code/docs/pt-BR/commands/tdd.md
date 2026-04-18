@@ -1,5 +1,9 @@
 ---
 description: Impõe fluxo de desenvolvimento orientado a testes. Estruture interfaces, gere testes PRIMEIRO e depois implemente código mínimo para passar. Garanta cobertura de 80%+.
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
 ---
 
 # Comando TDD

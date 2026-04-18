@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/seo
+  - artifact/doc
+  - source/skills-seo
+---
+
 # Schema Markup Examples
 
 Complete JSON-LD examples for common schema types.

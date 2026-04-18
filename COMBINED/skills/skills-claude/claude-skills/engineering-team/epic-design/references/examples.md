@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # Real-World Examples Reference
 
 Five complete implementation blueprints. Each describes exactly which techniques to combine, in what order, with key code patterns.

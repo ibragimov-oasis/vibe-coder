@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-copilot
+---
+
 # Testing — Complete Reference
 
 Aspire provides `Aspire.Hosting.Testing` for running integration tests against your full AppHost. Tests spin up the entire distributed application (or a subset) and run assertions against real services.

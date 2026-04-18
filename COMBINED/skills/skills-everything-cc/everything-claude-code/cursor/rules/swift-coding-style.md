@@ -2,6 +2,10 @@
 description: "Swift coding style extending common rules"
 globs: ["**/*.swift", "**/Package.swift"]
 alwaysApply: false
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
 ---
 # Swift Coding Style
 

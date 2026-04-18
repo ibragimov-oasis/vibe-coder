@@ -3,6 +3,9 @@ title: Batch INSERT Statements for Bulk Data
 impact: MEDIUM
 impactDescription: 10-50x faster bulk inserts
 tags: batch, insert, bulk, performance, copy
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
 ---
 
 ## Batch INSERT Statements for Bulk Data

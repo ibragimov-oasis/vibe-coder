@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # Installation Guide - Claude Skills Library
 
 Complete installation guide for all 205+ production-ready skills across multiple AI agents and platforms.

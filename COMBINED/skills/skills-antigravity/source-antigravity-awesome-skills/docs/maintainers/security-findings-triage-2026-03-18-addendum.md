@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # Security Findings Triage Addendum (2026-03-18)
 
 This addendum supersedes the previous Jetski loader assessment in

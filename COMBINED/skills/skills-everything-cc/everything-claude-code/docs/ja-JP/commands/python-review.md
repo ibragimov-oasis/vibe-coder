@@ -1,5 +1,9 @@
 ---
 description: PEP 8準拠、型ヒント、セキュリティ、Pythonic慣用句についての包括的なPythonコードレビュー。python-reviewerエージェントを呼び出します。
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
 ---
 
 # Python Code Review

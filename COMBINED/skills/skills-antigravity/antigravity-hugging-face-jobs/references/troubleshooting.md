@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # Troubleshooting Guide
 
 Common issues and solutions for Hugging Face Jobs.

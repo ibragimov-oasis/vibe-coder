@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-copilot
+---
+
 # Connecting Electronic Components
 
 This guide provides step-by-step instructions for building electronic circuits on a breadboard. Each build progressively introduces new components and concepts.

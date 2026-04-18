@@ -1,6 +1,10 @@
 ---
 inclusion: auto
 description: Development workflow guidelines for planning, TDD, code review, and commit pipeline
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
 ---
 
 # Development Workflow

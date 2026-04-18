@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # React Patterns
 
 Production-ready patterns for building scalable React applications with TypeScript.

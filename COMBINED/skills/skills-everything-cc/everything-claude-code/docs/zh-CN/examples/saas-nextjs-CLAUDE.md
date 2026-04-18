@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
+---
+
 # SaaS 应用程序 — 项目 CLAUDE.md
 
 > 一个 Next.js + Supabase + Stripe SaaS 应用程序的真实示例。

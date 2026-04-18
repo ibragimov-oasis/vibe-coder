@@ -1,6 +1,10 @@
 ---
 title: "Tech Debt Tracker — Agent Skill for Codex & OpenClaw"
 description: "Scan codebases for technical debt, score severity, track trends, and generate prioritized remediation plans. Use when users mention tech debt, code. Agent skill for Claude Code, Codex CLI, Gemini CLI, OpenClaw."
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
 ---
 
 # Tech Debt Tracker

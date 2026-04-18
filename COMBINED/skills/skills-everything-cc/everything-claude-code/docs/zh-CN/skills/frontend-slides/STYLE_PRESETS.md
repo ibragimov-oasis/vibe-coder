@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
+---
+
 # 样式预设参考
 
 为 `frontend-slides` 整理的视觉样式。

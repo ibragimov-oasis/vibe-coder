@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-awesome-claude
+---
+
 # CLAUDE.md - Basic Memory Project Guide
 
 ## Project Overview

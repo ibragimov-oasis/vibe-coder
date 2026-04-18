@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # AWS Architecture Patterns for Startups
 
 Reference guide for selecting the right AWS architecture pattern based on application requirements.

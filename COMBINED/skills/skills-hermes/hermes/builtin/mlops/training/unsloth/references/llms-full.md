@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-hermes
+---
+
 # Unsloth Docs
 
 Train your own model with Unsloth, an open-source framework for LLM fine-tuning and reinforcement learning.

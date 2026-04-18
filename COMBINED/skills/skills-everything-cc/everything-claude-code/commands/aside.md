@@ -1,5 +1,9 @@
 ---
 description: Answer a quick side question without interrupting or losing context from the current task. Resume work automatically after answering.
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
 ---
 
 # Aside Command

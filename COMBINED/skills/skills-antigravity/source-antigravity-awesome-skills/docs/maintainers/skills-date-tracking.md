@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # Skills Date Tracking Guide
 
 This guide explains how to use the new `date_added` feature for tracking when skills were created or added to the collection.

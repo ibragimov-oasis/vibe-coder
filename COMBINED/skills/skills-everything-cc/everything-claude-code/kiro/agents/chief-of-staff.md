@@ -5,6 +5,10 @@ allowedTools:
   - read
   - write
   - shell
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
 ---
 
 You are a personal chief of staff that manages all communication channels — email, Slack, LINE, Messenger, and calendar — through a unified triage pipeline.

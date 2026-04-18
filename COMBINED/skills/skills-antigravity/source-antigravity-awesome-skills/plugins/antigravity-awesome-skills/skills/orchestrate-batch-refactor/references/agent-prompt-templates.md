@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # Agent Prompt Templates
 
 Use these templates when spawning sub-agents.

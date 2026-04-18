@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # Rate Limiting Template
 
 Tests rate limit headers, 429 response, and Retry-After handling.

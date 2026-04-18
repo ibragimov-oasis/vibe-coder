@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # Maintenance Walkthrough - 2026-03-30
 
 - Merged PR #418 on GitHub with squash after approving the pending fork workflow run and waiting for `pr-policy`, `source-validation`, and `artifact-preview` to finish green.

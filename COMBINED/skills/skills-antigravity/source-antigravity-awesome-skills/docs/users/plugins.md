@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # Plugins for Claude Code and Codex
 
 Release `9.0.0` adds first-class plugin distributions for both **Claude Code** and **Codex**.

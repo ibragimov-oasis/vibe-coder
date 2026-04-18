@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # Testing Guide - TDD for Skills
 
 Complete methodology for testing skills using RED-GREEN-REFACTOR cycle.

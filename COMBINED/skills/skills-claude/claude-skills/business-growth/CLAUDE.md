@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # Business & Growth Skills - Claude Code Guidance
 
 This guide covers the 3 production-ready business and growth skills and their Python automation tools.

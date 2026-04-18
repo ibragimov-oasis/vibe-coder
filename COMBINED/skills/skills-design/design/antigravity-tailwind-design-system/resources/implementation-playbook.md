@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/ui
+  - artifact/doc
+  - source/skills-design
+---
+
 # Tailwind Design System Implementation Playbook
 
 This file contains detailed patterns, checklists, and code samples referenced by the skill.

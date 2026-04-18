@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # Dashboard Best Practices: Design for Insight and Action
 
 ## Introduction

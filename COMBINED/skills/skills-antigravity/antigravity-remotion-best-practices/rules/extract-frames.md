@@ -3,6 +3,9 @@ name: extract-frames
 description: Extract frames from videos at specific timestamps using Mediabunny
 metadata:
   tags: frames, extract, video, thumbnail, filmstrip, canvas
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
 ---
 
 # Extracting frames from videos

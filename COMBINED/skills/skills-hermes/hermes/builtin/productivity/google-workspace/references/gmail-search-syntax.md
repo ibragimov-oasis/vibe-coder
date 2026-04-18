@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-hermes
+---
+
 # Gmail Search Syntax
 
 Standard Gmail search operators work in the `query` argument.

@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # Audit Report Template
 
 The scanner generates a stakeholder-ready report when run with the `--report` flag:

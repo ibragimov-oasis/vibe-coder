@@ -1,5 +1,9 @@
 ---
 description: Gereksinimleri yeniden ifade et, riskleri değerlendir ve adım adım uygulama planı oluştur. Herhangi bir koda dokunmadan önce kullanıcı ONAYINI BEKLE.
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
 ---
 
 # Plan Komutu

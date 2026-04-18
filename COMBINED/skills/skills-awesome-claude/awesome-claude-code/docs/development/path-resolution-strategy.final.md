@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-awesome-claude
+---
+
 # Strategy: Generated, Location-Correct Relative Asset Paths
 
 This repo treats all Markdown READMEs as generated artifacts. The generator is responsible for making every output Markdown file render correctly both (a) on GitHub when viewed in-place and (b) in local Markdown previews that expect standard relative paths.

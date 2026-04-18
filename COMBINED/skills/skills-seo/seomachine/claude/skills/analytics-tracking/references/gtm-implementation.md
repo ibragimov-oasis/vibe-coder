@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/seo
+  - artifact/doc
+  - source/skills-seo
+---
+
 # Google Tag Manager Implementation Reference
 
 Detailed guide for implementing tracking via Google Tag Manager.

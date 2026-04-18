@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/seo
+  - artifact/doc
+  - source/skills-seo
+---
+
 # PageSpeed Insights v5 + CrUX API Reference
 
 ## Table of Contents

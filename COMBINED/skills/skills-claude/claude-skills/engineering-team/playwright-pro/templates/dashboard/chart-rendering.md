@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # Chart Rendering Template
 
 Tests chart visibility, interactive tooltips, and legend behaviour.

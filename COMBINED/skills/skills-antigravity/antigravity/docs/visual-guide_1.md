@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # Visual Quick Start Guide
 
 **Learn by seeing!** This guide uses diagrams and visual examples to help you understand skills.

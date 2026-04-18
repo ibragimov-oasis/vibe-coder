@@ -1,5 +1,9 @@
 ---
 description: 修复 Android 和 KMP 项目的 Gradle 构建错误
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
 ---
 
 # Gradle 构建修复

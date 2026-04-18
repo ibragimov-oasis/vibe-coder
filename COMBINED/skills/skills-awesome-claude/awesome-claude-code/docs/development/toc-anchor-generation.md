@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-awesome-claude
+---
+
 # TOC Anchor Generation
 
 ## GitHub Anchor Generation Rules

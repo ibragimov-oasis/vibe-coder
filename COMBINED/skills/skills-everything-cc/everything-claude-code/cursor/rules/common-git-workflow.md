@@ -1,6 +1,10 @@
 ---
 description: "Git workflow: conventional commits, PR process"
 alwaysApply: true
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
 ---
 # Git Workflow
 

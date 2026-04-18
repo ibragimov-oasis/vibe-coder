@@ -118,7 +118,11 @@ You can enhance an AR experience by using known images and objects in the real-w
 
 **If you must display instructional text, use approachable terminology.** AR is an advanced concept that may be intimidating to some people. To help make it approachable, avoid using technical terms like ARKit, world detection, and tracking. Instead, use friendly, conversational terms that most people will understand.
 
-Do| Don’t  
+Do| Don’t
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
 ---|---  
 Unable to find a surface. Try moving to the side or repositioning your phone.| Unable to find a plane. Adjust tracking.  
 Tap a location to place the _[name of object to be placed]_.| Tap a plane to anchor an object.  

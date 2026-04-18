@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # Temporal Go Implementation Playbook
 
 This playbook provides production-ready patterns and deep technical guidance for implementing durable orchestration with the Temporal Go SDK.

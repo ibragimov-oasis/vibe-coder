@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/ui
+  - artifact/doc
+  - source/skills-design
+---
+
 # Reference Prompts
 
 Ready-to-use prompt templates for enforcing complete outputs. Append to any prompt or include in system instructions.

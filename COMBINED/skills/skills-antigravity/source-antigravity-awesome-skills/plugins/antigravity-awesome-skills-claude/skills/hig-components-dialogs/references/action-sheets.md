@@ -48,7 +48,11 @@ The system-defined style for action sheets includes a title, an optional message
 
 Each button has an associated style that conveys information about the button’s effect. There are three system-defined button styles:
 
-Style| Meaning  
+Style| Meaning
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
 ---|---  
 Default| The button has no special meaning.  
 Destructive| The button destroys user data or performs a destructive action in the app.  

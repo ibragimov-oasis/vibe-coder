@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-awesome-claude
+---
+
 # Anthropic Quickstarts Development Guide
 
 ## Computer-Use Demo

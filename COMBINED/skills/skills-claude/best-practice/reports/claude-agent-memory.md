@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # Claude Code: Agent Memory Frontmatter
 
 Persistent memory for subagents — enabling agents to learn, remember, and build knowledge across sessions.

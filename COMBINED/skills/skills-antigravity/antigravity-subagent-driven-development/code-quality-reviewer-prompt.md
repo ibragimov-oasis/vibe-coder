@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # Code Quality Reviewer Prompt Template
 
 Use this template when dispatching a code quality reviewer subagent.

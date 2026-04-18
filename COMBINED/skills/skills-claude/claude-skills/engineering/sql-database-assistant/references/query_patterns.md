@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # SQL Query Patterns Reference
 
 Common query patterns for everyday database operations. All examples use PostgreSQL syntax with dialect notes where they differ.

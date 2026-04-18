@@ -12,7 +12,11 @@ Your typographic choices can help you display legible text, convey an informatio
 
 **Use font sizes that most people can read easily.** People need to be able to read your content at various viewing distances and under a variety of conditions. Follow the recommended default and minimum text sizes for each platform — for both custom and system fonts — to ensure your text is legible on all devices. Keep in mind that font weight can also impact how easy text is to read. If you use a custom font with a thin weight, aim for larger than the recommended sizes to increase legibility.
 
-Platform| Default size| Minimum size  
+Platform| Default size| Minimum size
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
 ---|---|---  
 iOS, iPadOS| 17 pt| 11 pt  
 macOS| 13 pt| 10 pt  

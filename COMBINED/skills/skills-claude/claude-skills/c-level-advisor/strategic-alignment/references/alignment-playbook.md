@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # Strategic Alignment Playbook
 
 Techniques for cascading strategy, detecting drift, and maintaining alignment at scale.

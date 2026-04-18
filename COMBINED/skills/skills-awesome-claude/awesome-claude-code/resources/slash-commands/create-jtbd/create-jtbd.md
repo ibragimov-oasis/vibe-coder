@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-awesome-claude
+---
+
 You are an experienced Product Manager. Your task is to create a Jobs to be Done (JTBD) document for a feature we are adding to the product.
 
 IMPORTANT:

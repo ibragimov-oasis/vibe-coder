@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # tech-debt-tracker reference
 
 ## Technical Debt Classification Framework

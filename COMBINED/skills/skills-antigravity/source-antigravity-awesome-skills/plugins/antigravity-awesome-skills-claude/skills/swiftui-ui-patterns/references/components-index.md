@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # Components Index
 
 Use this file to find component and cross-cutting guidance. Each entry lists when to use it.

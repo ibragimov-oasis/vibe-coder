@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-hermes
+---
+
 # Backend Configuration Guide
 
 Complete guide to configuring Outlines with different model backends.

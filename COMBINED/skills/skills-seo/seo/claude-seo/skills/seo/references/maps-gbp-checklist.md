@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/seo
+  - artifact/doc
+  - source/skills-seo
+---
+
 <!-- Updated: 2026-03-23 -->
 # GBP Profile Completeness Checklist (Via API)
 

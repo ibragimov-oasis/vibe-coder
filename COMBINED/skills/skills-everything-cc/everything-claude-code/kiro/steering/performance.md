@@ -1,6 +1,10 @@
 ---
 inclusion: auto
 description: Performance optimization guidelines including model selection strategy, context window management, and build troubleshooting
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
 ---
 
 # Performance Optimization

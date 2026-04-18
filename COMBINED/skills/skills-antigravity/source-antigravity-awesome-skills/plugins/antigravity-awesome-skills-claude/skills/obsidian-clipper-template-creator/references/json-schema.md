@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # Obsidian Web Clipper JSON Schema
 
 The Obsidian Web Clipper imports templates via JSON files.

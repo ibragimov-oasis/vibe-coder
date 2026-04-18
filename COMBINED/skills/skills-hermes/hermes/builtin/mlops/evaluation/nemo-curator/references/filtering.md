@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-hermes
+---
+
 # Quality Filtering Guide
 
 Complete guide to NeMo Curator's 30+ quality filters.

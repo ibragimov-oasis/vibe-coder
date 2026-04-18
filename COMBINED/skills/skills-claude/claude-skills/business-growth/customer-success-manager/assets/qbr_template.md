@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # Quarterly Business Review (QBR)
 
 **Customer:** [Customer Name]

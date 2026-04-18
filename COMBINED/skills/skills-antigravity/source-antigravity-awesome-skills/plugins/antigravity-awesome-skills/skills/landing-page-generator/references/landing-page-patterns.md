@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # Landing Page Patterns
 
 This reference captures high-converting page patterns and copy structures.

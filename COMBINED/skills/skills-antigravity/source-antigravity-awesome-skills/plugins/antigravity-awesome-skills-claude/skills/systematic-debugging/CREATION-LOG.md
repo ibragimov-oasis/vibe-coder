@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # Creation Log: Systematic Debugging Skill
 
 Reference example of extracting, structuring, and bulletproofing a critical skill.

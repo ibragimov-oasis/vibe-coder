@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
+---
+
 # Hooks in Kiro
 
 Kiro supports **two types of hooks**:
@@ -91,3 +98,9 @@ See `.kiro/agents/tdd-guide-with-hooks.json` for a complete example.
 
 - IDE Hooks: https://kiro.dev/docs/hooks/
 - CLI Hooks: https://kiro.dev/docs/cli/hooks/
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

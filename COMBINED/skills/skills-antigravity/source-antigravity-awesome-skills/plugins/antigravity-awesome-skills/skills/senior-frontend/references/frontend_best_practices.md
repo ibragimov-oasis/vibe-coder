@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # Frontend Best Practices
 
 Modern frontend development standards for accessibility, testing, TypeScript, and Tailwind CSS.

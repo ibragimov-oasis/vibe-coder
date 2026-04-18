@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # Sections
 
 This file defines all sections, their ordering, impact levels, and descriptions.

@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/seo
+  - artifact/doc
+  - source/skills-seo
+---
+
 # SaaS Market Sizing Example: AI-Powered Email Marketing for E-Commerce
 
 Complete TAM/SAM/SOM calculation for a B2B SaaS startup using bottom-up and top-down methodologies.

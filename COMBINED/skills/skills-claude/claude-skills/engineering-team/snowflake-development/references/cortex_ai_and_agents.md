@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # Cortex AI and Agents Reference
 
 Complete reference for Snowflake Cortex AI functions, Cortex Agents, Cortex Search, and Snowpark Python patterns.

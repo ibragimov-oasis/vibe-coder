@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # Vanilla JS / HTML Integration
 
 Two methods depending on how much control you need.

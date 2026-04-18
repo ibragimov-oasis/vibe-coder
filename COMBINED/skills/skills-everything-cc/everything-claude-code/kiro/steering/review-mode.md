@@ -1,6 +1,10 @@
 ---
 inclusion: manual
 description: Code review mode context for thorough quality and security assessment
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
 ---
 
 # Review Mode

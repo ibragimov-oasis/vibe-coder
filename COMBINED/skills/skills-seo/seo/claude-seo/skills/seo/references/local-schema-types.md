@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/seo
+  - artifact/doc
+  - source/skills-seo
+---
+
 <!-- Updated: 2026-03-23 -->
 # Local Schema Types & Industry-Specific Patterns (March 2026)
 

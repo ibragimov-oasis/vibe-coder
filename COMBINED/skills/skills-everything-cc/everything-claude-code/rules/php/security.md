@@ -3,6 +3,10 @@ paths:
   - "**/*.php"
   - "**/composer.lock"
   - "**/composer.json"
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
 ---
 # PHP Security
 

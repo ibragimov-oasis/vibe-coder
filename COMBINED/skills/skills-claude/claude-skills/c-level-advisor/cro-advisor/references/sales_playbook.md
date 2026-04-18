@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # Sales Playbook
 
 Frameworks for building, running, and scaling a B2B SaaS sales organization.

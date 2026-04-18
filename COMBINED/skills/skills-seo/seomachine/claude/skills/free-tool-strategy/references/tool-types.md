@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/seo
+  - artifact/doc
+  - source/skills-seo
+---
+
 # Free Tool Types Reference
 
 Detailed guide to each type of marketing tool you can build.

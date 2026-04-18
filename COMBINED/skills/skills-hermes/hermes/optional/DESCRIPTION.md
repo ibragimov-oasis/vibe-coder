@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-hermes
+---
+
 # Optional Skills
 
 Official skills maintained by Nous Research that are **not activated by default**.

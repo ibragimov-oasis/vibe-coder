@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # Fullstack Tech Stack Guide
 
 Technology selection guide with trade-offs, use cases, and integration patterns for modern fullstack development.

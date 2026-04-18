@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # Commercial Distribution — Stan Store & Gumroad
 
 ## Product Bundles

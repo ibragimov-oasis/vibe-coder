@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # Ocean Depths
 
 A professional and calming maritime theme that evokes the serenity of deep ocean waters.

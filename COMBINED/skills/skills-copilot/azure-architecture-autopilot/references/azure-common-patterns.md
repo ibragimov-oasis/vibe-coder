@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-copilot
+---
+
 # Azure Common Patterns (Stable)
 
 This file contains only **near-immutable patterns** that are repeated across Azure services.

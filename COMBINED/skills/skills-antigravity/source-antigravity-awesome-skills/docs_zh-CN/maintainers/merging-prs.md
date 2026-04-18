@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # 合并拉取请求
 
 **策略：我们总是在 GitHub 上合并 PR，以便贡献者获得信任。我们从未在本地集成他们的工作后关闭 PR。**

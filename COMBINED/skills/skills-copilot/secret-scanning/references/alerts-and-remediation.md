@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-copilot
+---
+
 # Alerts and Remediation Reference
 
 Detailed reference for secret scanning alert types, validity checks, remediation workflows, and API access.

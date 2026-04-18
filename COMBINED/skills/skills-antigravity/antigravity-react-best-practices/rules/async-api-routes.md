@@ -3,6 +3,9 @@ title: Prevent Waterfall Chains in API Routes
 impact: CRITICAL
 impactDescription: 2-10× improvement
 tags: api-routes, server-actions, waterfalls, parallelization
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
 ---
 
 ## Prevent Waterfall Chains in API Routes

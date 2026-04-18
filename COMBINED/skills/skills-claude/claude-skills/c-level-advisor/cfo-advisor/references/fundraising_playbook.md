@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # Fundraising Playbook
 
 From timing to close. What investors actually look for, how valuation works, and the term sheet clauses that matter.

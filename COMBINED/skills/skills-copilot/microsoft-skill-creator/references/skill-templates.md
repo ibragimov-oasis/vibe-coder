@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-copilot
+---
+
 # Skill Templates
 
 Ready-to-use templates for different types of Microsoft technologies.

@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-awesome-claude
+---
+
 # Common Build Patterns
 
 Complete flow definition templates ready to copy and customize.

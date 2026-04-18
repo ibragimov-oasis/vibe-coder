@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-development
+---
+
 # Good and Bad Tests
 
 ## Good Tests

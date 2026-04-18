@@ -1,6 +1,10 @@
 ---
 description: "Development workflow: plan, TDD, review, commit pipeline"
 alwaysApply: true
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
 ---
 # Development Workflow
 

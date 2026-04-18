@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # Content Architecture for Competitor Pages
 
 How to structure and maintain competitor data for scalable comparison pages.

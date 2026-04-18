@@ -3,6 +3,9 @@ title: Debounce Workflows to Prevent Wasted Work
 impact: MEDIUM
 impactDescription: Prevents redundant workflow executions during rapid triggers
 tags: pattern, debounce, delay, efficiency
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
 ---
 
 ## Debounce Workflows to Prevent Wasted Work

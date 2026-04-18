@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-copilot
+---
+
 # minipro Chip Programming Utility Specification
 
 ## 1. Overview

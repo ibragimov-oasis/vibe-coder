@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/seo
+  - artifact/doc
+  - source/skills-seo
+---
+
 # Sample Size Guide
 
 Reference for calculating sample sizes and test duration.

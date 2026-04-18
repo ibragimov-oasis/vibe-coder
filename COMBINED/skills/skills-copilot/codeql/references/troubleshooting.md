@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-copilot
+---
+
 # CodeQL Troubleshooting Reference
 
 Comprehensive guide for diagnosing and resolving CodeQL analysis errors, SARIF upload issues, and common configuration problems.

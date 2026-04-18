@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
+---
+
 # The Shorthand Guide to Everything Agentic Security
 
 _everything claude code / research / security_

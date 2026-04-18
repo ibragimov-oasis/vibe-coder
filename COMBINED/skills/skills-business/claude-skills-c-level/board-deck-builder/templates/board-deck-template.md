@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-business
+---
+
 # Board Deck Template
 
 Fill in bracketed fields. Remove placeholders before sharing. Never invent numbers — use `[TBD]` if unknown.

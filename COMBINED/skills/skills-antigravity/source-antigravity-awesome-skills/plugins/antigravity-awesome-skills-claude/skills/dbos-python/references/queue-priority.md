@@ -3,6 +3,9 @@ title: Set Queue Priority for Workflows
 impact: HIGH
 impactDescription: Ensures important work runs first
 tags: queue, priority, ordering, scheduling
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
 ---
 
 ## Set Queue Priority for Workflows

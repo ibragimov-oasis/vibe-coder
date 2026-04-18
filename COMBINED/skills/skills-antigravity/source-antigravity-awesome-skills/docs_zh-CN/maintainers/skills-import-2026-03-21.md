@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # 技能导入 - 2026-03-21
 
 此笔记记录了 2026-03-21 完成的技能导入和规范化工作。

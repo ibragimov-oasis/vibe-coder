@@ -9,6 +9,10 @@ allowed-tools:
   - Grep
   - Glob
   - LS
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
 ---
 
 # Test Architect Agent

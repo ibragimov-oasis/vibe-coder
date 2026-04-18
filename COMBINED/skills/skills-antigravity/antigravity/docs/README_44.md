@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # Angular Best Practices
 
 Performance optimization and best practices for Angular applications optimized for AI agents and LLMs.

@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # Self-Improving Agent — Claude Code Instructions
 
 This plugin helps you curate Claude Code's auto-memory into durable project knowledge.

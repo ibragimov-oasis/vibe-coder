@@ -1,6 +1,10 @@
 ---
 title: "Database Designer - POWERFUL Tier Skill — Agent Skill for Codex & OpenClaw"
 description: "Use when the user asks to design database schemas, plan data migrations, optimize queries, choose between SQL and NoSQL, or model data relationships. Agent skill for Claude Code, Codex CLI, Gemini CLI, OpenClaw."
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
 ---
 
 # Database Designer - POWERFUL Tier Skill

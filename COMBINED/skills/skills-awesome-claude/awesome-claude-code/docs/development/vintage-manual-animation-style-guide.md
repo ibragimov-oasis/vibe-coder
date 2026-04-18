@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-awesome-claude
+---
+
 # Vintage Manual Animation Style Guide
 
 A comprehensive guide to the animation effects developed for the light mode "vintage technical manual" theme. These animations are designed to evoke 70s-80s computer documentation, printing, and paper-based media while remaining subtle and professional.

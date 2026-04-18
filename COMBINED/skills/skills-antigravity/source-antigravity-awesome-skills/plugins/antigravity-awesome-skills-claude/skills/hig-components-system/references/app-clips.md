@@ -232,7 +232,11 @@ No matter which of the two variants you use, it’s important you carefully cons
 
 **Don’t create App Clip Codes that are too small.** App Clip Codes must adhere to the following specifications.
 
-Type| Minimum size  
+Type| Minimum size
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
 ---|---  
 Printed communications| Minimum diameter of 3/4 inch (1.9 cm).  
 Digital communications| Minimum size of 256×256 px. Use a PNG or SVG file.  

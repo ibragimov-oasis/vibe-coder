@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-copilot
+---
+
 # Excalidraw Element Types Guide
 
 Detailed specifications for each Excalidraw element type with visual examples and use cases.

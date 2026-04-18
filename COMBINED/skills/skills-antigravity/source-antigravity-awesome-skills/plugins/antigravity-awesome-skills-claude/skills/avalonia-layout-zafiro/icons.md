@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # Icon Usage
 
 `Zafiro.Avalonia` simplifies icon management using a specialized markup extension and styling options.

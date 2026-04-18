@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # Decision Frameworks — Production Scheduling
 
 This reference provides the detailed decision logic, scheduling algorithms, optimisation

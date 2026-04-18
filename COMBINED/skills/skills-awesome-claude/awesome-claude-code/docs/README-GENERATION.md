@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-awesome-claude
+---
+
 # README Generation & Asset Management
 
 This document explains how the README and its visual assets are generated and maintained. It's mostly a reference document for development purposes, written and maintained by the coding agents who write most of the code, with some commentary sprinkled in.

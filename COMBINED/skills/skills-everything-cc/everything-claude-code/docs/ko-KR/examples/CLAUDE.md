@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
+---
+
 # 프로젝트 CLAUDE.md 예제
 
 프로젝트 수준의 CLAUDE.md 파일 예제입니다. 프로젝트 루트에 배치하세요.

@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-hermes
+---
+
 # API Evaluation
 
 Guide to evaluating OpenAI, Anthropic, and other API-based language models.

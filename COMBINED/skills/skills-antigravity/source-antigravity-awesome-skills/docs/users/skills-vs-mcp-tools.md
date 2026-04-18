@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # Skills vs MCP Tools
 
 If you are trying to understand the difference between **Antigravity skills** and **MCP tools**, the short version is:

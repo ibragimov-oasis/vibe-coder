@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # Copy Frameworks Reference
 
 Headline formulas, page section types, and structural templates.

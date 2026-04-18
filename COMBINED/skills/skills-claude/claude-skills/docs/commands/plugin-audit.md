@@ -1,6 +1,10 @@
 ---
 title: "/plugin-audit — Slash Command for AI Coding Agents"
 description: "Comprehensive audit pipeline for skills, plugins, agents, and commands. Validates structure, quality, security, marketplace compliance. Slash command for Claude Code, Codex CLI, Gemini CLI."
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
 ---
 
 # /plugin-audit

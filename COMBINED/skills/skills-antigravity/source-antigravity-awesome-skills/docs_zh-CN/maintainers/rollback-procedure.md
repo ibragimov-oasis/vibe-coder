@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # 回滚过程
 
 当结构重构、生成工件刷新或发布准备需要安全撤回时，请使用此过程。

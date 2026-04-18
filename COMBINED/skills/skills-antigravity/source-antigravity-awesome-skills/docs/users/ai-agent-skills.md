@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # AI Agent Skills
 
 If you are researching **AI agent skills** on GitHub, the biggest decision is usually not "which single skill is best?" but "do I want a broad installable library or a smaller curated collection?"

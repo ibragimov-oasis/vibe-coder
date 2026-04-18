@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-copilot
+---
+
 # CodeQL SARIF Output Reference
 
 Detailed reference for the SARIF v2.1.0 output produced by CodeQL analysis. Use this when interpreting or processing CodeQL scan results.

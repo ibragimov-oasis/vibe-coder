@@ -15,6 +15,10 @@ allowedTools:
   - "Agent"
   - "NotebookEdit"
   - "mcp__*"
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
 ---
 
 # Workflow Changelog — Settings Research Agent

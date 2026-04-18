@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # 🛡️ 安全护栏与策略
 
 Antigravity Awesome Skills 是一个强大的工具包。能力越大，责任越大。本文档定义了此仓库中所有安全和攻击性功能的 **参与规则**。

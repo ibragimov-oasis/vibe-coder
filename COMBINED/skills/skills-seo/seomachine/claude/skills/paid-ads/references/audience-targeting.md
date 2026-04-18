@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/seo
+  - artifact/doc
+  - source/skills-seo
+---
+
 # Audience Targeting Reference
 
 Detailed targeting strategies for each major ad platform.

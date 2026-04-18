@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # Sankhya Dashboard Custom Best Practices
 
 This skill provides a comprehensive set of best practices, advanced patterns, and structural guidelines for developing custom HTML/JSP dashboards within the Sankhya ecosystem. 

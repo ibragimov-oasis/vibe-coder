@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # Regulatory Compliance Check Implementation Playbook
 
 This file contains detailed patterns, checklists, and code samples referenced by the skill.

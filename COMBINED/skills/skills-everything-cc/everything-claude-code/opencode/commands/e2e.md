@@ -2,6 +2,10 @@
 description: Generate and run E2E tests with Playwright
 agent: e2e-runner
 subtask: true
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
 ---
 
 # E2E Command

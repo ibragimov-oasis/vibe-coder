@@ -3,6 +3,9 @@ title: Use SKIP LOCKED for Non-Blocking Queue Processing
 impact: MEDIUM-HIGH
 impactDescription: 10x throughput for worker queues
 tags: skip-locked, queue, workers, concurrency
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
 ---
 
 ## Use SKIP LOCKED for Non-Blocking Queue Processing

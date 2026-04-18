@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # In-App Notifications Template
 
 Tests notification badge count, dropdown, and mark-as-read behaviour.

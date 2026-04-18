@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-hermes
+---
+
 # inference.sh
 
 Run 150+ AI applications in the cloud via the [inference.sh](https://inference.sh) platform.

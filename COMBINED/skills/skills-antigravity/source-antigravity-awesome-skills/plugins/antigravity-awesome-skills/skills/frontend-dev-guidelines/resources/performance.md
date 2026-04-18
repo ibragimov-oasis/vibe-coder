@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # Performance Optimization
 
 Patterns for optimizing React component performance, preventing unnecessary re-renders, and avoiding memory leaks.

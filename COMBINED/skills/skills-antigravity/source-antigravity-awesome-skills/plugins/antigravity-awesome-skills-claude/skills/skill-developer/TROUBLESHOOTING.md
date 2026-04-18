@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # Troubleshooting - Skill Activation Issues
 
 Complete debugging guide for skill activation problems.

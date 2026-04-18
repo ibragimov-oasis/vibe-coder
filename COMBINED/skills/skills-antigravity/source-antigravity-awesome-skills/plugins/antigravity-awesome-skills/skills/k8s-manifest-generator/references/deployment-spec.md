@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # Kubernetes Deployment Specification Reference
 
 Comprehensive reference for Kubernetes Deployment resources, covering all key fields, best practices, and common patterns.

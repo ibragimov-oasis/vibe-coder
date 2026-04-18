@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # Optimizing SwiftUI Performance with Instruments (Summary)
 
 Context: WWDC session introducing the next-generation SwiftUI Instrument in Instruments 26 and how to diagnose SwiftUI-specific bottlenecks.

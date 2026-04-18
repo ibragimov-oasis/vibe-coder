@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-copilot
+---
+
 # Bicep Generator Agent
 
 Receives the finalized architecture spec from Phase 1 and generates deployable Bicep templates.

@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # Sunset Boulevard
 
 A warm and vibrant theme inspired by golden hour sunsets, perfect for energetic and creative presentations.

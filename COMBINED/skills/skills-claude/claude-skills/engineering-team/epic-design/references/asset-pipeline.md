@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # Asset Pipeline Reference
 
 Every image asset must be inspected and judged before use in any 2.5D site.

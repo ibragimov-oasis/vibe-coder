@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # 💡 Real-World Examples - See Skills in Action
 
 **Learn by example!** This guide shows you real conversations using different skills.

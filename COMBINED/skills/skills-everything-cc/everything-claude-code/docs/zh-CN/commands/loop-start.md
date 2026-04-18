@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
+---
+
 # 循环启动命令
 
 使用安全默认设置启动一个受管理的自主循环模式。

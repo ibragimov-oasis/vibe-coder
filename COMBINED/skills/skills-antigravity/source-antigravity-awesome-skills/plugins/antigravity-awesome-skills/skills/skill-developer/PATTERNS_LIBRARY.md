@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # Common Patterns Library
 
 Ready-to-use regex and glob patterns for skill triggers. Copy and customize for your skills.

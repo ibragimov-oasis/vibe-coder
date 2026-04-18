@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # Color Contrast Template
 
 Tests contrast ratios, color-blind safe palettes, and focus indicator visibility.

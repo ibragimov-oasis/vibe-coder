@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # Pricing Models — Deep Dive
 
 Comprehensive reference for SaaS pricing models with real-world examples and when to use each.

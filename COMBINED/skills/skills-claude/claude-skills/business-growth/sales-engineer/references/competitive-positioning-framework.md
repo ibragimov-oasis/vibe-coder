@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # Competitive Positioning Framework
 
 A comprehensive guide for Sales Engineers to analyze competitors, build battlecards, handle objections, and position for wins.

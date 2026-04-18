@@ -3,6 +3,9 @@ title: Follow Workflow Constraints
 impact: CRITICAL
 impactDescription: Violating constraints causes failures or incorrect behavior
 tags: workflow, step, constraints, rules
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
 ---
 
 ## Follow Workflow Constraints

@@ -2,6 +2,9 @@
 description: Standards and naming rules for creating agent skills.
 metadata:
   tags: [standards, naming, yaml, structure]
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
 ---
 
 # Skill Development Guide
@@ -150,3 +153,9 @@ Before deploying:
 - [ ] Triggers listed under metadata?
 - [ ] Under 500 lines?
 - [ ] Tested with real scenarios?
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

@@ -1,6 +1,10 @@
 ---
 title: "Marketing Context — Agent Skill for Marketing"
 description: "Create and maintain the marketing context document that all marketing skills read before starting. Use when the user mentions 'marketing context,'. Agent skill for Claude Code, Codex CLI, Gemini CLI, OpenClaw."
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
 ---
 
 # Marketing Context

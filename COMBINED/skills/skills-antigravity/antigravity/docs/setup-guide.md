@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # Setup Guide — Stable Diffusion Skill
 
 ## 1. Criar Conta na Stability AI

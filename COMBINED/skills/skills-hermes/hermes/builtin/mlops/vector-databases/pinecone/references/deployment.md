@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-hermes
+---
+
 # Pinecone Deployment Guide
 
 Production deployment patterns for Pinecone.

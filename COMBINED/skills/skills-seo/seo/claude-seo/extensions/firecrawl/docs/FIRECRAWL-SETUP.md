@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/seo
+  - artifact/doc
+  - source/skills-seo
+---
+
 # Firecrawl Setup Guide
 
 ## 1. Get Your API Key

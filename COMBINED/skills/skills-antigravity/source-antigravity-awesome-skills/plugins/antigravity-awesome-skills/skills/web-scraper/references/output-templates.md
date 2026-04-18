@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # Output Templates Reference
 
 Complete formatting templates for all supported output formats.

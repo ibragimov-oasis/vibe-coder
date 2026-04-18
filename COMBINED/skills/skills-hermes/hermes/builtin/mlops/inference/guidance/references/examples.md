@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-hermes
+---
+
 # Production-Ready Examples
 
 Real-world examples of using Guidance for structured generation, agents, and workflows.

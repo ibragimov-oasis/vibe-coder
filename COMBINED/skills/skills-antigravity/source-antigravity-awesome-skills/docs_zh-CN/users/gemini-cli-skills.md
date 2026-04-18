@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # Gemini CLI 技能
 
 如果您正在 GitHub 上评估 **Gemini CLI 技能**，这个仓库是一个强大的广泛起点：可安装的技能、广泛的覆盖面，以及首日使用的清晰入门指南。

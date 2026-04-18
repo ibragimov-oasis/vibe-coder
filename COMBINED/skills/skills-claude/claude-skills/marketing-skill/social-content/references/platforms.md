@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # Platform-Specific Strategy Guide
 
 Detailed strategies for each major social platform.

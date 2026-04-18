@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # Usage Guide: How to Actually Use These Skills
 
 > **Confused after installation?** This guide walks you through exactly what to do next, step by step.

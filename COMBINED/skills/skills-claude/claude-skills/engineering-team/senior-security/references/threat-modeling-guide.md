@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # Threat Modeling Guide
 
 Systematic approaches for identifying, analyzing, and mitigating security threats.

@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # Common Antipatterns
 
 Code antipatterns to identify during review, with examples and fixes.

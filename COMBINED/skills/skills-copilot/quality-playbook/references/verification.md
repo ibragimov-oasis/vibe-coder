@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-copilot
+---
+
 # Verification Checklist (Phase 3)
 
 Before declaring the quality playbook complete, check every benchmark below. If any fails, go back and fix it.

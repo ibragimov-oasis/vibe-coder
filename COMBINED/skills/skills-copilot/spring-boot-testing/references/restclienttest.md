@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-copilot
+---
+
 # @RestClientTest
 
 Testing REST clients in isolation with MockRestServiceServer.

@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # Synthesis Framework
 
 How to turn multiple role outputs into a single, useful response for the founder. Synthesis is the highest-value function of the Chief of Staff — it's not about summarizing, it's about integrating.

@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # Headless CMS Guide
 
 Reference for choosing, modeling, and implementing a headless CMS for marketing content.

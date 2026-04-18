@@ -3,6 +3,9 @@ title: Use Lazy State Initialization
 impact: MEDIUM
 impactDescription: wasted computation on every render
 tags: react, hooks, useState, performance, initialization
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
 ---
 
 ## Use Lazy State Initialization

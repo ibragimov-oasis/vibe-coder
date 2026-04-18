@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
+---
+
 # Geliştirme İş Akışı
 
 > Bu dosya [common/git-workflow.md](./git-workflow.md) dosyasını git işlemlerinden önce gerçekleşen tam özellik geliştirme süreci ile genişletir.

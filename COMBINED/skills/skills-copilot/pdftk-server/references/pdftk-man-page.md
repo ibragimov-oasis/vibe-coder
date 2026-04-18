@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-copilot
+---
+
 # PDFtk Server Manual Reference
 
 - **`pdftk` version 2.02**

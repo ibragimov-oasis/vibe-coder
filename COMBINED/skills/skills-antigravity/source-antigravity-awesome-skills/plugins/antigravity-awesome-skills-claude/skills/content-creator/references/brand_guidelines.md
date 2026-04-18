@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # Brand Voice & Style Guidelines
 
 ## Brand Voice Framework

@@ -4,6 +4,10 @@ paths:
   - "**/*.tsx"
   - "**/*.js"
   - "**/*.jsx"
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
 ---
 # TypeScript/JavaScript Kodlama Stili
 

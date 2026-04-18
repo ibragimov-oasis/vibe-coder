@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # AWS Service Selection Guide
 
 Quick reference for choosing the right AWS service based on requirements.

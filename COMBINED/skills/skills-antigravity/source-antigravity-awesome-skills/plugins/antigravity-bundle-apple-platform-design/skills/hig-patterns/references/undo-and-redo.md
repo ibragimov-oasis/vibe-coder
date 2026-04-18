@@ -1,4 +1,11 @@
 ---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
+---
 title: "Undo and redo | Apple Developer Documentation"
 source: https://developer.apple.com/design/human-interface-guidelines/undo-and-redo
 

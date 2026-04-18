@@ -1,5 +1,9 @@
 ---
 description: Run the security scan gate before pushing.
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
 ---
 
 1. Ensure dependencies are installed:

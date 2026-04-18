@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
+---
+
 # ECC for Codex CLI
 
 This supplements the root `AGENTS.md` with Codex-specific guidance.

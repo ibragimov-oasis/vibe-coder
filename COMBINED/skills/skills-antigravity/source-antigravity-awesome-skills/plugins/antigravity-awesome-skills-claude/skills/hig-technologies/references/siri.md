@@ -109,7 +109,11 @@ SiriKit defines a large number of system intents that represent common tasks peo
 
 SiriKit provides the following intents.
 
-Domain (link to developer guidance)| Intents  
+Domain (link to developer guidance)| Intents
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
 ---|---  
 [VoIP Calling](https://developer.apple.com/documentation/SiriKit/voip-calling)| Initiate calls.  
 [Workouts](https://developer.apple.com/documentation/SiriKit/workouts)| Start, pause, resume, end, and cancel workouts.  

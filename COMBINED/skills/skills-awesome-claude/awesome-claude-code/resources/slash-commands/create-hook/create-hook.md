@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-awesome-claude
+---
+
 # Create Hook Command
 
 Analyze the project, suggest practical hooks, and create them with proper testing.

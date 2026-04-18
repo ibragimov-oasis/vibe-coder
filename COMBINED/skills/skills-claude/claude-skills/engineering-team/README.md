@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # Engineering Skills Collection
 
 Complete set of 18 engineering role skills tailored to your tech stack (ReactJS, NextJS, NodeJS, Express, React Native, Swift, Kotlin, Flutter, Postgres, GraphQL, Go, Python).
@@ -606,3 +613,9 @@ Each skill includes:
 ---
 
 **Happy Engineering! 🎉**
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

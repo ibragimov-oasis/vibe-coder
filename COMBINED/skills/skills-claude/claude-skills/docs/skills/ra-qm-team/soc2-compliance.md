@@ -1,6 +1,10 @@
 ---
 title: "SOC 2 Compliance — Agent Skill for Compliance"
 description: "Use when the user asks to prepare for SOC 2 audits, map Trust Service Criteria, build control matrices, collect audit evidence, perform gap analysis. Agent skill for Claude Code, Codex CLI, Gemini CLI, OpenClaw."
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
 ---
 
 # SOC 2 Compliance

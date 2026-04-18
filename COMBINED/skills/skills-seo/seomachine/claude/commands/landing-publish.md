@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/seo
+  - artifact/doc
+  - source/skills-seo
+---
+
 # Landing Page Publish Command
 
 Use this command to publish landing pages to WordPress as pages (not blog posts).

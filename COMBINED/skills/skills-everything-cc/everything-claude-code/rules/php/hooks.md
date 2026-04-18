@@ -5,6 +5,10 @@ paths:
   - "**/phpstan.neon"
   - "**/phpstan.neon.dist"
   - "**/psalm.xml"
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
 ---
 # PHP Hooks
 

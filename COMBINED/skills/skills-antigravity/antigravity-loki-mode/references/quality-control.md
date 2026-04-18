@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # Quality Control Reference
 
 Quality gates, code review process, and severity blocking rules.

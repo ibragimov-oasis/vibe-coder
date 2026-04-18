@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # SKILL.md Metadata Standard
 
 Official frontmatter fields recognized by OpenCode.

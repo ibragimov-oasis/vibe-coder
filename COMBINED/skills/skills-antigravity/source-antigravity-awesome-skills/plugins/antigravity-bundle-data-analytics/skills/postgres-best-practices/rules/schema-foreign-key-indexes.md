@@ -3,6 +3,9 @@ title: Index Foreign Key Columns
 impact: HIGH
 impactDescription: 10-100x faster JOINs and CASCADE operations
 tags: foreign-key, indexes, joins, schema
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
 ---
 
 ## Index Foreign Key Columns

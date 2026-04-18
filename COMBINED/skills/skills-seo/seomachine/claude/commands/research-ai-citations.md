@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/seo
+  - artifact/doc
+  - source/skills-seo
+---
+
 # Research AI Citations Command
 
 Generate high-commercial-intent prompts for a topic, cluster them, and create an audit template for tracking which sources AI tools cite. This is the prompt-driven research counterpart to traditional keyword research.

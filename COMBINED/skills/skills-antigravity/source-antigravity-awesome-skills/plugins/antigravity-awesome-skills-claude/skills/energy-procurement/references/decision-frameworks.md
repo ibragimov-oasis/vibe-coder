@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # Decision Frameworks — Energy Procurement
 
 This reference provides detailed decision trees, evaluation matrices, financial models,

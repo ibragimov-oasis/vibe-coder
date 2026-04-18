@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
+---
+
 # Verification Komutu
 
 Mevcut kod tabanı durumu üzerinde kapsamlı doğrulama çalıştır.

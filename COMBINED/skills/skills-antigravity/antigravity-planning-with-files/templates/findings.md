@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # Findings & Decisions
 <!-- 
   WHAT: Your knowledge base for the task. Stores everything you discover and decide.

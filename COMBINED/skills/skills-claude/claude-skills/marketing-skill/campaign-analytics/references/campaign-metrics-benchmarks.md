@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # Campaign Metrics Benchmarks
 
 Industry benchmark reference for marketing campaign performance metrics. Use these benchmarks to contextualize your campaign results, identify underperformance, and set realistic targets.

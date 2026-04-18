@@ -256,7 +256,11 @@ One payment option per list row, followed by a button that updates to display th
 
 ## [Change log](https://developer.apple.com/design/human-interface-guidelines/in-app-purchase#Change-log)
 
-Date| Changes  
+Date| Changes
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
 ---|---  
 September 12, 2023| Updated artwork and guidance for redeeming offer codes.  
 November 3, 2022| Added a guideline for displaying the total billing price for every in-app purchase item and consolidated guidance into one page.  

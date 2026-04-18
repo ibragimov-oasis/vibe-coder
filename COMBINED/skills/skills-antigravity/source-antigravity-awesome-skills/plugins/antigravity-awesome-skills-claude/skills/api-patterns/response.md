@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # Response Format Principles
 
 > Consistency is key - choose a format and stick to it.

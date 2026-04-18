@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # Routing and Controllers - Best Practices
 
 Complete guide to clean route definitions and controller patterns.

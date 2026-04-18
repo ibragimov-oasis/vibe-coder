@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # Temporal Go Testing Strategies
 
 Testing workflows and activities in Go requires a deep understanding of the `testsuite` package, which provides a mocked environment with deterministic time-skipping.

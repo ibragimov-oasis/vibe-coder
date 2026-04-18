@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # Changelog — README CONCEPTS Section
 
 Tracks drift between the README CONCEPTS table and official Claude Code documentation.

@@ -3,6 +3,9 @@ name: animations
 description: Fundamental animation skills for Remotion
 metadata:
   tags: animations, transitions, frames, useCurrentFrame
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
 ---
 
 All animations MUST be driven by the `useCurrentFrame()` hook.  

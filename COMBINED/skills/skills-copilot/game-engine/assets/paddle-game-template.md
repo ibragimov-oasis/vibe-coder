@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-copilot
+---
+
 # Paddle Game Template (2D Breakout)
 
 A complete step-by-step guide for building a 2D Breakout game with pure JavaScript and the HTML5 Canvas API. This template walks through every stage of development, from setting up the canvas to implementing a lives system and polished game loop.

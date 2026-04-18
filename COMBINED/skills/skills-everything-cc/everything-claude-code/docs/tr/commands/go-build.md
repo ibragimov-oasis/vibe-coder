@@ -1,5 +1,9 @@
 ---
 description: Go build hatalarını, go vet uyarılarını ve linter sorunlarını aşamalı olarak düzelt. Minimal, cerrahi düzeltmeler için go-build-resolver agent'ını çağırır.
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
 ---
 
 # Go Build and Fix

@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # Trigger Types - Complete Guide
 
 Complete reference for configuring skill triggers in Claude Code's skill auto-activation system.

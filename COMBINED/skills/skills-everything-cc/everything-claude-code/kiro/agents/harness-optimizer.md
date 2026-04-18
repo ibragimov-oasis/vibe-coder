@@ -3,6 +3,10 @@ name: harness-optimizer
 description: Analyze and improve the local agent harness configuration for reliability, cost, and throughput.
 allowedTools:
   - read
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
 ---
 
 You are the harness optimizer.

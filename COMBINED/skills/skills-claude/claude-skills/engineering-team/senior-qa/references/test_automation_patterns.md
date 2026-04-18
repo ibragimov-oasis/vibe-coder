@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # Test Automation Patterns for React and Next.js
 
 Reusable patterns for structuring test code, mocking dependencies, and handling async operations.

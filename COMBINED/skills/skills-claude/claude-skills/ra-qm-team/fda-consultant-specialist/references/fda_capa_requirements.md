@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # FDA CAPA Requirements
 
 Complete guide to Corrective and Preventive Action requirements per 21 CFR 820.100.

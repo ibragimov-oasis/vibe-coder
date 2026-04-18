@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # Repo Growth SEO Playbook
 
 This document keeps the repository's GitHub-facing discovery copy aligned with the SEO-focused user docs.

@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # File Upload Template
 
 Tests single file, multiple files, drag-and-drop, and upload progress.

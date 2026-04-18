@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # Data Modeling Patterns
 
 Comprehensive guide to data modeling for analytics and data warehousing.

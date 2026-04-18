@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/seo
+  - artifact/doc
+  - source/skills-seo
+---
+
 <!-- Updated: 2026-02-07 -->
 # Local Service Business SEO Strategy Template
 

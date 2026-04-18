@@ -1,6 +1,10 @@
 ---
 title: "Review Playwright Tests — Agent Skill & Codex Plugin"
 description: "Review Playwright tests for quality. Use when user says 'review tests', 'check test quality', 'audit tests', 'improve tests', 'test code review', or. Agent skill for Claude Code, Codex CLI, Gemini CLI, OpenClaw."
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
 ---
 
 # Review Playwright Tests

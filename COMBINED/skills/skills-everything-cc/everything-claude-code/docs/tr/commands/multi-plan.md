@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
+---
+
 # Plan - Multi-Model İşbirlikçi Planlama
 
 Multi-model işbirlikçi planlama - Context retrieval + Dual-model analiz → Adım adım implementation planı oluştur.

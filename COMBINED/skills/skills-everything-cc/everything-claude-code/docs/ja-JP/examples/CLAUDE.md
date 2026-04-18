@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
+---
+
 # プロジェクトレベル CLAUDE.md の例
 
 これはプロジェクトレベルの CLAUDE.md ファイルの例です。プロジェクトルートに配置してください。

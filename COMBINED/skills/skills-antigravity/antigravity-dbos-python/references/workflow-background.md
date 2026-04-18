@@ -3,6 +3,9 @@ title: Start Workflows in Background
 impact: CRITICAL
 impactDescription: Background workflows survive crashes and restarts
 tags: workflow, background, start_workflow, handle
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
 ---
 
 ## Start Workflows in Background

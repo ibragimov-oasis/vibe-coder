@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
+---
+
 # Terminoloji Tablosu (Terminology Glossary)
 
 Bu doküman Türkçe çevirilerin terminoloji karşılıklarını kayıt altına alarak çeviri tutarlılığını sağlar.

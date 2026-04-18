@@ -3,6 +3,9 @@ title: Use Cursor-Based Pagination Instead of OFFSET
 impact: MEDIUM-HIGH
 impactDescription: Consistent O(1) performance regardless of page depth
 tags: pagination, cursor, keyset, offset, performance
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
 ---
 
 ## Use Cursor-Based Pagination Instead of OFFSET

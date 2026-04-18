@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # API Security Testing
 
 > Principles for testing API security. OWASP API Top 10, authentication, authorization testing.

@@ -1,6 +1,10 @@
 ---
 title: "Senior Frontend — Agent Skill & Codex Plugin"
 description: "Frontend development skill for React, Next.js, TypeScript, and Tailwind CSS applications. Use when building React components, optimizing Next.js. Agent skill for Claude Code, Codex CLI, Gemini CLI, OpenClaw."
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
 ---
 
 # Senior Frontend

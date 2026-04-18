@@ -1,5 +1,9 @@
 ---
 description: Sequential and tmux/worktree orchestration guidance for multi-agent workflows.
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
 ---
 
 # Orchestrate Command

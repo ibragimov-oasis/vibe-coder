@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # Example: `/analyze NVDA`
 
 > Illustrative skill output format. Metrics below were generated from public EDGAR + market snapshots and should be treated as research context, not investment advice.

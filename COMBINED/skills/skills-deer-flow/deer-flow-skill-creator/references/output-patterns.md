@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/doc
+  - source/skills-deer-flow
+---
+
 # Output Patterns
 
 Use these patterns when skills need to produce consistent, high-quality output.

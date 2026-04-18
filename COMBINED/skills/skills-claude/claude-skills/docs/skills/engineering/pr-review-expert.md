@@ -1,6 +1,10 @@
 ---
 title: "PR Review Expert — Agent Skill for Codex & OpenClaw"
 description: "Use when the user asks to review pull requests, analyze code changes, check for security issues in PRs, or assess code quality of diffs. Agent skill for Claude Code, Codex CLI, Gemini CLI, OpenClaw."
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
 ---
 
 # PR Review Expert

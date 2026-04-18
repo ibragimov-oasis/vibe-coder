@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # Troubleshooting TRL Training Jobs
 
 Common issues and solutions when training with TRL on Hugging Face Jobs.

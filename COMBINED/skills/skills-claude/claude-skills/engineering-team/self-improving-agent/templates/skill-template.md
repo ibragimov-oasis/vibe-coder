@@ -1,6 +1,10 @@
 ---
 name: {{skill-name}}
 description: "{{One-line description}}. Use when: {{trigger conditions}}."
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
 ---
 
 # {{Skill Title}}

@@ -2,6 +2,10 @@
 name: instinct-status
 description: 展示已学习的本能（项目+全局）并充满信心
 command: true
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
 ---
 
 # 本能状态命令

@@ -1,6 +1,10 @@
 ---
 title: "Programmatic SEO — Agent Skill for Marketing"
 description: "When the user wants to create SEO-driven pages at scale using templates and data. Also use when the user mentions 'programmatic SEO,' 'template. Agent skill for Claude Code, Codex CLI, Gemini CLI, OpenClaw."
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
 ---
 
 # Programmatic SEO

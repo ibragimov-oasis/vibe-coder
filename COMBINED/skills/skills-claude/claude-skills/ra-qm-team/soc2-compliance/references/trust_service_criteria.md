@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # SOC 2 Trust Service Criteria Reference
 
 Comprehensive reference for all five AICPA Trust Service Criteria (TSC) categories. Each criterion includes its objective, sub-criteria, typical controls, and evidence examples.

@@ -1,6 +1,10 @@
 ---
 title: "/hub:spawn — Launch Parallel Agents — Agent Skill for Codex & OpenClaw"
 description: "Launch N parallel subagents in isolated git worktrees to compete on the session task. Agent skill for Claude Code, Codex CLI, Gemini CLI, OpenClaw."
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
 ---
 
 # /hub:spawn — Launch Parallel Agents

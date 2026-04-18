@@ -1,6 +1,10 @@
 ---
 title: "/em:postmortem — Honest Analysis of What Went Wrong — Agent Skill for Executives"
 description: "/em -postmortem — Honest Analysis of What Went Wrong. Agent skill for Claude Code, Codex CLI, Gemini CLI, OpenClaw."
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
 ---
 
 # /em:postmortem — Honest Analysis of What Went Wrong

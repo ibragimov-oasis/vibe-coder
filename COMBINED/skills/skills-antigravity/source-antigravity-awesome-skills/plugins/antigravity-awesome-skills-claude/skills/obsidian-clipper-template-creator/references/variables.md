@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # Obsidian Web Clipper Variables
 
 **Official Docs:** [help.obsidian.md/web-clipper/variables](https://help.obsidian.md/web-clipper/variables)

@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # Everything We Got Wrong About Research-Plan-Implement — MLOps Community
 
 Transcript of the talk by Dexter Horthy ([@daborhey](https://x.com/daborhey)), co-founder of HumanLayer, at MLOps Community, published March 24, 2026.

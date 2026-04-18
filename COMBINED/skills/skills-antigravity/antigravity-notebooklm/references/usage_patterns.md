@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # NotebookLM Skill Usage Patterns
 
 Advanced patterns for using the NotebookLM skill effectively.

@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # Release Manager
 
 A comprehensive release management toolkit for automating changelog generation, version bumping, and release planning based on conventional commits and industry best practices.
@@ -443,3 +450,9 @@ This skill is part of the claude-skills repository and follows the same license 
 For detailed methodology and background information, see [SKILL.md](SKILL.md).
 For specific workflow guidance, see the [references](references/) directory.
 For testing the scripts, use the sample data in the [assets](assets/) directory.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

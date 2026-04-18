@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-copilot
+---
+
 # Web APIs & DOM Reference
 
 Comprehensive reference for the Document Object Model (DOM) and Web APIs available in modern browsers.

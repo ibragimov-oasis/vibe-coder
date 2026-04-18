@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
+---
+
 # Workflow - マルチモデル協調開発
 
 マルチモデル協調開発ワークフロー(調査 → アイデア創出 → 計画 → 実装 → 最適化 → レビュー)、インテリジェントルーティング: フロントエンド → Gemini、バックエンド → Codex。

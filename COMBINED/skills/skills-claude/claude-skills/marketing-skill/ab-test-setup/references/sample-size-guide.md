@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # Sample Size Guide
 
 Reference for calculating sample sizes and test duration.

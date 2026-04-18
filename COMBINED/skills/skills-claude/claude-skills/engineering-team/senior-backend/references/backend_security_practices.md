@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # Backend Security Practices
 
 Security patterns and OWASP Top 10 mitigations for Node.js/Express applications.

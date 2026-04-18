@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-copilot
+---
+
 # Architecture Guidance Sources (For Design Direction Decisions)
 
 A source registry for using Azure official architecture guidance **only for design direction decisions**.

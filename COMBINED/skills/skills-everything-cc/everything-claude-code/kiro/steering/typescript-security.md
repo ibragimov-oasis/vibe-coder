@@ -2,6 +2,10 @@
 inclusion: fileMatch
 fileMatchPattern: "*.ts,*.tsx,*.js,*.jsx"
 description: TypeScript/JavaScript security best practices extending common security rules with language-specific concerns
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
 ---
 
 # TypeScript/JavaScript Security

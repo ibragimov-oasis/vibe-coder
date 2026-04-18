@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # Platform Requirements Reference
 
 Technical specifications and metadata requirements for Apple App Store and Google Play Store.

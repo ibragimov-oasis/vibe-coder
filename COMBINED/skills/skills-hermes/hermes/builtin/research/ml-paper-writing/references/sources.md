@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-hermes
+---
+
 # Source Bibliography
 
 This document lists all authoritative sources used to build this skill, organized by topic.

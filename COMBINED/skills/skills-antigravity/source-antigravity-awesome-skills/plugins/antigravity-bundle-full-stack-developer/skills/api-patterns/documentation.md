@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # API Documentation Principles
 
 > Good docs = happy developers = API adoption.

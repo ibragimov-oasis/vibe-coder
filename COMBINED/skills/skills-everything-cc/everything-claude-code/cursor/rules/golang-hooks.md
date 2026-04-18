@@ -2,6 +2,10 @@
 description: "Go hooks extending common rules"
 globs: ["**/*.go", "**/go.mod", "**/go.sum"]
 alwaysApply: false
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
 ---
 # Go Hooks
 

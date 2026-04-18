@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
+---
+
 # Skill Development Guide
 
 A comprehensive guide to creating effective skills for Everything Claude Code (ECC).

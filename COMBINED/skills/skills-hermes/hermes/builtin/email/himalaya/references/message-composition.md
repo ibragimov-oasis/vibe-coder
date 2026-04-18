@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-hermes
+---
+
 # Message Composition with MML (MIME Meta Language)
 
 Himalaya uses MML for composing emails. MML is a simple XML-based syntax that compiles to MIME messages.

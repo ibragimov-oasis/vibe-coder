@@ -2,6 +2,10 @@
 name: instinct-import
 description: チームメイト、Skill Creator、その他のソースからインスティンクトをインポート
 command: true
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
 ---
 
 # インスティンクトインポートコマンド

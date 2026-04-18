@@ -1,6 +1,10 @@
 ---
 title: "Content Production — Agent Skill for Marketing"
 description: "Full content production pipeline — takes a topic from blank page to published-ready piece. Use when you need to execute content: write a blog post. Agent skill for Claude Code, Codex CLI, Gemini CLI, OpenClaw."
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
 ---
 
 # Content Production

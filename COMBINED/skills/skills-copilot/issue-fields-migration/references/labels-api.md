@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-copilot
+---
+
 # Labels API Reference
 
 Reference for GitHub Labels REST API endpoints used in the label migration flow.

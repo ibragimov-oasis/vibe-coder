@@ -157,7 +157,11 @@ Unlike the black Sign in with Apple button for other platforms, the watchOS butt
 
 **Maintain the minimum button size and margin around the button in iOS, macOS, and the web.** Be mindful that the button title may vary in length depending on the locale. Use the following values for guidance.
 
-Minimum width| Minimum height| Minimum margin  
+Minimum width| Minimum height| Minimum margin
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
 ---|---|---  
 140pt (140px @1x, 280px @2x)| 30pt (30px @1x, 60px @2x)| 1/10 of the button’s height  
   

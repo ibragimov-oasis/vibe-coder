@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # Pagination Template
 
 Tests page navigation, items-per-page selector, and URL state.

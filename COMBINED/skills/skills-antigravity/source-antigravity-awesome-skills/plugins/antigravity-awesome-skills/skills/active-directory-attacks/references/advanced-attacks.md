@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # Advanced Active Directory Attacks Reference
 
 ## Table of Contents

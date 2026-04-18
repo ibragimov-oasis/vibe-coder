@@ -3,6 +3,9 @@ title: Rate Limit Queue Execution
 impact: HIGH
 impactDescription: Prevents hitting API rate limits
 tags: queue, rate-limit, api, throttle
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
 ---
 
 ## Rate Limit Queue Execution

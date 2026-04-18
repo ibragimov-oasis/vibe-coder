@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # Lead Magnet Benchmarks
 
 Reference data for planning and evaluating lead magnet performance.

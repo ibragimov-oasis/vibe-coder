@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # AI Search Landscape
 
 How each major AI search platform selects, weights, and cites sources. Use this to calibrate your optimization strategy per platform.

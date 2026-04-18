@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
+---
+
 # /learn - 提取可重用模式
 
 分析当前会话，提取值得保存为技能的任何模式。

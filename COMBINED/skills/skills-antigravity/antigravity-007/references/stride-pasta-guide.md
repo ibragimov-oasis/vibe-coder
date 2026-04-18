@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # STRIDE & PASTA Threat Modeling Guide
 
 > Practical guide for threat modeling systems, APIs, and AI agents.

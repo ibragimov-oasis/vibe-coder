@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-copilot
+---
+
 # Basic Electronic Components
 
 This document covers four fundamental electronic components: Resistors, Capacitors, Buttons, and Switches, including common values, formulas, and types.

@@ -78,7 +78,11 @@ In your SwiftUI app running in watchOS, use [`ShareLink`](https://developer.appl
 
 ## [Change log](https://developer.apple.com/design/human-interface-guidelines/collaboration-and-sharing#Change-log)
 
-Date| Changes  
+Date| Changes
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
 ---|---  
 December 5, 2023| Added artwork illustrating button placement and various types of collaboration permissions.  
 June 21, 2023| Updated to include guidance for visionOS.  

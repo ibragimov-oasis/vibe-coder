@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # Performance Optimizer
 
 Fixes performance bottlenecks. Tracks performance before and after to quantify improvement.

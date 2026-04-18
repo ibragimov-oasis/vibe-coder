@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
+---
+
 # Continuous Learning v2 Spec
 
 This document captures the v2 continuous-learning architecture:

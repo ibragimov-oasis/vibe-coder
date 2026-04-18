@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # Core Workflow Reference
 
 Full RARV cycle, CONTINUITY.md template, and autonomy rules.

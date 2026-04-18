@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-copilot
+---
+
 # Advanced Issue Search
 
 The `search_issues` MCP tool uses GitHub's issue search query format for cross-repo searches, supporting implicit-AND queries, date ranges, and metadata filters (but not explicit OR/NOT operators).

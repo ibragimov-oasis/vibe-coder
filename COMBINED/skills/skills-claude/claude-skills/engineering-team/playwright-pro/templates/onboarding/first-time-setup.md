@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # First-Time Setup Template
 
 Tests initial configuration wizard and profile completion after registration.

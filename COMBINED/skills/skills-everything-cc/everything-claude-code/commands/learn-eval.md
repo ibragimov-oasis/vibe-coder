@@ -1,5 +1,9 @@
 ---
 description: "Extract reusable patterns from the session, self-evaluate quality before saving, and determine the right save location (Global vs Project)."
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
 ---
 
 # /learn-eval - Extract, Evaluate, then Save

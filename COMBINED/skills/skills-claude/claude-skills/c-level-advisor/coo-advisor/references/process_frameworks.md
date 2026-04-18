@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # Process Frameworks for Startup Operations
 
 > Theory of Constraints, Lean, process mapping, automation, and change management — applied to real startup contexts, not factory floors.

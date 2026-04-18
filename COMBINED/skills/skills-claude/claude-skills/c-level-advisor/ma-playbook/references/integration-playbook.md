@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # Post-Acquisition Integration Playbook
 
 The 100-day plan for integrating an acquisition. Most acquisitions fail not because of bad deals but bad integration.

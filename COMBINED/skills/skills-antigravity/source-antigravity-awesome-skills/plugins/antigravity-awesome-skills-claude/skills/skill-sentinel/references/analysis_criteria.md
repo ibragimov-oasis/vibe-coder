@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # Criterios de Analise - Skill Sentinel
 
 ## Scoring por Dimensao

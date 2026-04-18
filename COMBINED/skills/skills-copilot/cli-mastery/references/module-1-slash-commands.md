@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-copilot
+---
+
 # Module 1: Slash Commands
 
 Teach these categories one at a time, with examples and "when to use" guidance.

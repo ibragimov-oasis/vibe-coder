@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-hermes
+---
+
 # Input Sources
 
 > **See also:** architecture.md · effects.md · scenes.md · shaders.md · optimization.md · troubleshooting.md

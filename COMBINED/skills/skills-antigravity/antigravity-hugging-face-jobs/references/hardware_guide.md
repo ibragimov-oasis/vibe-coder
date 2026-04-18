@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # Hardware Selection Guide
 
 Choosing the right hardware (flavor) is critical for cost-effective workloads.

@@ -4,6 +4,10 @@ description: 分析并改进本地代理工具配置以提高可靠性、降低�
 tools: ["Read", "Grep", "Glob", "Bash", "Edit"]
 model: sonnet
 color: teal
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
 ---
 
 你是线束优化器。

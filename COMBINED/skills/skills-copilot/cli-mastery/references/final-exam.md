@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-copilot
+---
+
 # Final Exam
 
 Present a 10-question comprehensive exam using `ask_user` with 4 choices each. Require 80%+ to pass. Vary the selection each time.

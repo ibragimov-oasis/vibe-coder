@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # 21 CFR Part 11 Compliance Guide
 
 Electronic records and electronic signatures compliance for FDA-regulated systems.

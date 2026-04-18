@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-copilot
+---
+
 # MockMvcTester
 
 AssertJ-style testing for Spring MVC controllers (Spring Boot 3.2+).

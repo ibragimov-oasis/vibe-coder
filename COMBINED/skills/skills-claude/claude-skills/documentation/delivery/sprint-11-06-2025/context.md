@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # Sprint Context: CS- Orchestrator Framework Implementation
 
 **Sprint ID:** sprint-11-06-2025

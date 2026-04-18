@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # Changelog
 
 All notable changes to Loki Mode will be documented in this file.

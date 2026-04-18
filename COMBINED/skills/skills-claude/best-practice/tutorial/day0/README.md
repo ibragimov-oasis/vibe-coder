@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # Day 0 — Claude Code Setup
 
 This guide walks you through installing Claude Code on your machine and authenticating so you can start using it.
@@ -59,3 +66,9 @@ If someone shared the key with you (via Slack, email, etc.) or you created your 
 - The key is **stored permanently** — you won't be asked again
 
 ---
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

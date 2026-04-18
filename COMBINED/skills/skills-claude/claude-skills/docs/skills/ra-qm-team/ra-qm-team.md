@@ -1,6 +1,10 @@
 ---
 title: "Regulatory Affairs & Quality Management Skills — Agent Skill for Compliance"
 description: "12 regulatory & QM agent skills and plugins for Claude Code, Codex, Gemini CLI, Cursor, OpenClaw. ISO 13485 QMS, MDR 2017/745, FDA 510(k)/PMA, ISO."
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
 ---
 
 # Regulatory Affairs & Quality Management Skills

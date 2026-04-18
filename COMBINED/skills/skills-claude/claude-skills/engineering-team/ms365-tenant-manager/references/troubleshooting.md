@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # Troubleshooting Guide
 
 Common issues and solutions for Microsoft 365 tenant administration.

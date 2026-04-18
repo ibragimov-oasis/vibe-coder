@@ -3,6 +3,9 @@ title: Configure and Launch DBOS Properly
 impact: CRITICAL
 impactDescription: Application won't function without proper setup
 tags: configuration, launch, setup, initialization
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
 ---
 
 ## Configure and Launch DBOS Properly

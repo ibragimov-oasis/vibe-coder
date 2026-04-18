@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # Date Range Filter Template
 
 Tests date picker interaction, preset ranges, and data refresh on selection.

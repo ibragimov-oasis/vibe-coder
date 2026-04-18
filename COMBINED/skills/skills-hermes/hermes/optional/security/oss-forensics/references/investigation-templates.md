@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-hermes
+---
+
 # Investigation Templates
 
 Pre-built hypothesis and investigation templates for common supply chain attack scenarios.

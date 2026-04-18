@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
+---
+
 # 테스팅 요구사항
 
 ## 최소 테스트 커버리지: 80%

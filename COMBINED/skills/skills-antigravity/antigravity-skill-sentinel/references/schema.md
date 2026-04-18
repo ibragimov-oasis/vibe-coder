@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # Schema do Banco de Dados - Sentinel
 
 Banco: `data/sentinel.db` (SQLite, WAL mode)

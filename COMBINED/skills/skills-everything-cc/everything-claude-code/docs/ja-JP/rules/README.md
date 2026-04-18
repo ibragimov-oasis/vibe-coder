@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
+---
+
 # ルール
 
 ## 構造
@@ -79,3 +86,9 @@ cp -r rules/golang ~/.claude/rules/golang
    > このファイルは [common/xxx.md](../common/xxx.md) を <言語> 固有のコンテンツで拡張します。
    ```
 4. 利用可能な既存のスキルを参照するか、`skills/` 配下に新しいものを作成してください。
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

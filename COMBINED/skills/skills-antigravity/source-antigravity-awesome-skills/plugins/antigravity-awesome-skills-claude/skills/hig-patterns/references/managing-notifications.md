@@ -46,7 +46,11 @@ The system defines four interruption levels for noncommunication notifications:
 
 Notification alerts in each system-defined interruption level can behave in the following ways:
 
-Interruption level| Overrides scheduled delivery| Breaks through Focus| Overrides Ring/Silent switch on iPhone and iPad  
+Interruption level| Overrides scheduled delivery| Breaks through Focus| Overrides Ring/Silent switch on iPhone and iPad
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
 ---|---|---|---  
 Passive| No| No| No  
 Active| No| No| No  

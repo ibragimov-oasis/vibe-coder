@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
+---
+
 # Build e Correção
 
 Corrija erros de build e de tipos incrementalmente com mudanças mínimas e seguras.

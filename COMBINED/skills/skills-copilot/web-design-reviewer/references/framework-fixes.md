@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-copilot
+---
+
 # Framework-specific Fix Guide
 
 This document explains specific fix techniques for each framework and styling method.

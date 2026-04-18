@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # Supported Model Architectures
 
 This document lists the model architectures currently supported by Transformers.js.

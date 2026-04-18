@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-awesome-claude
+---
+
 ## Summary
 
 The goal of this command is to verify the repo is in a working state and fix issues if they exist.

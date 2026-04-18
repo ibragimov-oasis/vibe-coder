@@ -1,6 +1,10 @@
 ---
 title: "Solo Founder"
 description: "Solo founder persona — cross-domain prioritization for one-person startups, side projects, and MVP building."
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
 ---
 
 # :material-lightbulb-on: Solo Founder

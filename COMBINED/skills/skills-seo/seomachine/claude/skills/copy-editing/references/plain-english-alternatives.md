@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/seo
+  - artifact/doc
+  - source/skills-seo
+---
+
 # Plain English Alternatives
 
 Replace complex or pompous words with plain English alternatives.

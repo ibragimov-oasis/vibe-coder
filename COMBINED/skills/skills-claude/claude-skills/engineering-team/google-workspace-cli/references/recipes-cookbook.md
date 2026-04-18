@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # Google Workspace CLI Recipes Cookbook
 
 Complete catalog of 43 built-in recipes organized by category, with command sequences and persona mapping.

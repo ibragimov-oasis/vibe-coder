@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # CI/CD Pipeline Builder
 
 Detects your repository stack and generates practical CI pipeline templates for GitHub Actions and GitLab CI. Designed as a fast baseline you can extend with deployment controls.
@@ -46,3 +53,9 @@ cp -R engineering/ci-cd-pipeline-builder ~/.codex/skills/ci-cd-pipeline-builder
 ```bash
 cp -R engineering/ci-cd-pipeline-builder ~/.openclaw/skills/ci-cd-pipeline-builder
 ```
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

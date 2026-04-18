@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # Incident Commander Skill
 
 A comprehensive incident response framework providing structured tools for managing technology incidents from detection through resolution and post-incident review.
@@ -250,3 +257,9 @@ When adding new features:
 ## License
 
 This skill is part of the claude-skills repository. See the main repository LICENSE for details.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

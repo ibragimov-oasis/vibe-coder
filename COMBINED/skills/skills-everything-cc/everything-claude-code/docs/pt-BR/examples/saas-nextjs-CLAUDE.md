@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
+---
+
 # Aplicação SaaS — CLAUDE.md de Projeto
 
 > Exemplo real para uma aplicação SaaS com Next.js + Supabase + Stripe.

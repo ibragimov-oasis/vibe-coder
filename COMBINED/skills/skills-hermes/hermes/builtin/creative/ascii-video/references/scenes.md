@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-hermes
+---
+
 # Scene System & Creative Composition
 
 > **See also:** architecture.md · composition.md · effects.md · shaders.md

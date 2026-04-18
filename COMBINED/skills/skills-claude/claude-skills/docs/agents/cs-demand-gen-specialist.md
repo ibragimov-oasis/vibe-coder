@@ -1,6 +1,10 @@
 ---
 title: "Demand Generation Specialist Agent — AI Coding Agent & Codex Skill"
 description: "Demand generation and customer acquisition specialist for lead generation, conversion optimization, and multi-channel acquisition campaigns. Agent-native orchestrator for Claude Code, Codex, Gemini CLI."
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
 ---
 
 # Demand Generation Specialist Agent

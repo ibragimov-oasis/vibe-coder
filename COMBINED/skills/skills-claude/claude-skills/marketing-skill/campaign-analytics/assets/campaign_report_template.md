@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # Campaign Performance Report
 
 **Report Period:** [Start Date] - [End Date]

@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # Content Quality Gates
 
 ## Minimum Word Counts by Page Type

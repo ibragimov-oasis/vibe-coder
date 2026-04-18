@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
+---
+
 # The Longform Guide to Everything Claude Code
 
 ![Header: The Longform Guide to Everything Claude Code](./assets/images/longform/01-header.png)

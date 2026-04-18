@@ -1,6 +1,10 @@
 ---
 title: "Financial Analyst — AI Coding Agent & Codex Skill"
 description: "Financial Analyst agent for DCF valuation, financial modeling, budgeting, forecasting, and SaaS metrics (ARR, MRR, churn, CAC, LTV, NRR). Agent-native orchestrator for Claude Code, Codex, Gemini CLI."
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
 ---
 
 # Financial Analyst

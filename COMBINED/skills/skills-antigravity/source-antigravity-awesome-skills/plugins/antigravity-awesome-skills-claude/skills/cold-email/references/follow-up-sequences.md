@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # Follow-Up Sequences
 
 55% of replies come from follow-ups, not the initial email. Yet 48% of salespeople never follow up even once.

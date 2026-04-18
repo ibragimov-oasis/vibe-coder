@@ -1,6 +1,10 @@
 ---
 title: "Head of Regulatory Affairs — Agent Skill for Compliance"
 description: "Senior Regulatory Affairs Manager for HealthTech and MedTech companies. Prepares FDA 510(k), De Novo, and PMA submission packages; analyzes. Agent skill for Claude Code, Codex CLI, Gemini CLI, OpenClaw."
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
 ---
 
 # Head of Regulatory Affairs

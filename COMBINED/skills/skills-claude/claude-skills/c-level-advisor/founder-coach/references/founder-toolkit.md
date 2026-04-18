@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # Founder Toolkit
 
 Practical tools for founder self-management and leadership development.

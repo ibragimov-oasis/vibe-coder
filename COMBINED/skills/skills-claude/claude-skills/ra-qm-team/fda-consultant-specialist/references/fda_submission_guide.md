@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # FDA Submission Guide
 
 Complete framework for 510(k), De Novo, and PMA submissions to the FDA.

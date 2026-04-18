@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # Setup Walkthrough — Meta App e OAuth
 
 ## Pré-requisitos

@@ -152,7 +152,11 @@ Alternate app icons in iOS and iPadOS require their own dark, clear, and tinted 
 
 The layout, size, style, and appearances of app icons vary by platform.
 
-Platform| Layout shape| Icon shape after system masking| Layout size| Style| Appearances  
+Platform| Layout shape| Icon shape after system masking| Layout size| Style| Appearances
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
 ---|---|---|---|---|---  
 iOS, iPadOS, macOS| Square| Rounded rectangle (square)| 1024x1024 px| Layered| Default, dark, clear light, clear dark, tinted light, tinted dark  
 tvOS| Rectangle (landscape)| Rounded rectangle (rectangular)| 800x480 px| Layered (Parallax)| N/A  

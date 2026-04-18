@@ -75,7 +75,11 @@ To provide a temporary experience, like viewing media, or to help people perform
 
 ## [Change log](https://developer.apple.com/design/human-interface-guidelines/modality#Change-log)
 
-Date| Changes  
+Date| Changes
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
 ---|---  
 December 5, 2023| Enhanced guidance for in-depth modal experiences and clarified guidance on multiple modal views.  
 June 21, 2023| Updated to include guidance for visionOS.  

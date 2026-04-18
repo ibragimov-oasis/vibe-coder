@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/seo
+  - artifact/doc
+  - source/skills-seo
+---
+
 # Post-Processing Pipeline Reference
 
 > Load this on-demand when the user needs image manipulation after generation.

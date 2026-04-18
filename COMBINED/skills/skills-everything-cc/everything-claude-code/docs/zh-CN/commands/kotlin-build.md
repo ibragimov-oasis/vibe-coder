@@ -1,5 +1,9 @@
 ---
 description: 逐步修复 Kotlin/Gradle 构建错误、编译器警告和依赖项问题。调用 kotlin-build-resolver 代理进行最小化、精准的修复。
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
 ---
 
 # Kotlin 构建与修复

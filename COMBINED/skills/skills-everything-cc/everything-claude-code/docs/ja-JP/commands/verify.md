@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
+---
+
 # 検証コマンド
 
 現在のコードベースの状態に対して包括的な検証を実行します。

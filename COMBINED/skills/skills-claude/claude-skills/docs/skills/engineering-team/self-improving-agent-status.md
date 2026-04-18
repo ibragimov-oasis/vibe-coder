@@ -1,6 +1,10 @@
 ---
 title: "/si:status — Memory Health Dashboard — Agent Skill & Codex Plugin"
 description: "Memory health dashboard showing line counts, topic files, capacity, stale entries, and recommendations. Agent skill for Claude Code, Codex CLI, Gemini CLI, OpenClaw."
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
 ---
 
 # /si:status — Memory Health Dashboard

@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # Golden Rules
 
 1. **`getByRole()` over CSS/XPath** — resilient to markup changes, mirrors assistive technology

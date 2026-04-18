@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # 针对上下文过载和截断的 Antigravity 恢复
 
 当 Antigravity 为当前任务加载了太多技能并开始出现截断、上下文或轨迹转换错误时，请使用本指南。

@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
+---
+
 # 重構清理
 
 透過測試驗證安全地識別和移除無用程式碼：

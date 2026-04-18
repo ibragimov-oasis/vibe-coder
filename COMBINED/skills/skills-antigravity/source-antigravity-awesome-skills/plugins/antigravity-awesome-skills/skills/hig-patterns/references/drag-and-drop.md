@@ -127,7 +127,11 @@ Play
 
 ## [Change log](https://developer.apple.com/design/human-interface-guidelines/drag-and-drop#Change-log)
 
-Date| Changes  
+Date| Changes
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
 ---|---  
 October 24, 2023| Added artwork.  
 June 21, 2023| Updated to include guidance for visionOS.  

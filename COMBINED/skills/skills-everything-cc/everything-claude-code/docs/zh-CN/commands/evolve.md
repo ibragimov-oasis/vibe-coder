@@ -2,6 +2,10 @@
 name: evolve
 description: 分析本能并建议或生成进化结构
 command: true
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
 ---
 
 # Evolve 命令

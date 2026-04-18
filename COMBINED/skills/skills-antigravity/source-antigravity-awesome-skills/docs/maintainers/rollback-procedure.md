@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # Rollback Procedure
 
 Use this when a structural refactor, generated artifact refresh, or release prep needs to be backed out safely.

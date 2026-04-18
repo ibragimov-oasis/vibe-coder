@@ -4,6 +4,10 @@ description: Documentation and codemap specialist. Use PROACTIVELY for updating 
 allowedTools:
   - read
   - write
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
 ---
 
 # Documentation & Codemap Specialist

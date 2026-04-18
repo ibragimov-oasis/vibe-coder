@@ -2,6 +2,10 @@
 name: real-estate-facilities
 description: Agent templates governing physical property leasing and usage.
 jurisdictions: [USA, Canada, EU]
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
 ---
 
 # Real Estate & Facilities Templates

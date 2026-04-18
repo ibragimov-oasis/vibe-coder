@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # Interview Bias Mitigation Checklist
 
 This comprehensive checklist helps identify, prevent, and mitigate various forms of bias in the interview process. Use this as a systematic guide to ensure fair and equitable hiring practices.

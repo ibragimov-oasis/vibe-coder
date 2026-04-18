@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # 📜 来源与归属
 
 我们相信应该给予应得的荣誉。

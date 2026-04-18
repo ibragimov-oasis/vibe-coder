@@ -2,6 +2,9 @@
 description: When to use Tier 2 (Expanded) skill architecture.
 metadata:
   tags: [tier-2, expanded, multi-file]
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
 ---
 
 # Tier 2: Expanded Skills
@@ -67,3 +70,9 @@ writing-skills/
 - [ ] Each `references/` subdir has README.md
 - [ ] No circular references between files
 - [ ] Decision tree points to specific files
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
+---
+
 # Execute - マルチモデル協調実装
 
 マルチモデル協調実装 - 計画からプロトタイプを取得 → Claudeがリファクタリングして実装 → マルチモデル監査と配信。

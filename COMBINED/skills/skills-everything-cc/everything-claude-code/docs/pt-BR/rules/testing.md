@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
+---
+
 # Requisitos de Teste
 
 ## Cobertura Mínima de Teste: 80%

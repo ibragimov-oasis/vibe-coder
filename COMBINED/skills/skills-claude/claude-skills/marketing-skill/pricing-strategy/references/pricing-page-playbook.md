@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # Pricing Page Playbook
 
 Design specs, copy frameworks, and conversion tactics for SaaS pricing pages.

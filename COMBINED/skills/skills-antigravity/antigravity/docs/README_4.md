@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # Postgres Best Practices - Contributor Guide
 
 This repository contains Postgres performance optimization rules optimized for

@@ -1,5 +1,9 @@
 ---
 description: Deep-dive feature repair — systematically fix an entire feature/module. Usage: /focused-fix <feature-path>
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
 ---
 
 Systematically repair the feature/module at `$ARGUMENTS` using the focused-fix 5-phase protocol.

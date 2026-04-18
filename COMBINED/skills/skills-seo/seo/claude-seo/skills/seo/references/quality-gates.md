@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/seo
+  - artifact/doc
+  - source/skills-seo
+---
+
 # Content Quality Gates
 
 ## Minimum Word Counts by Page Type

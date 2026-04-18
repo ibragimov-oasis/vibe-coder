@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-copilot
+---
+
 # Hugo Reference
 
 Hugo is the world's fastest static site generator. It builds sites in milliseconds and supports advanced content management features.

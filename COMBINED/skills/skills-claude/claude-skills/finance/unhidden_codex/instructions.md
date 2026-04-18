@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # Finance Skills — Codex CLI Instructions
 
 When working on financial analysis tasks, use the finance skill system:

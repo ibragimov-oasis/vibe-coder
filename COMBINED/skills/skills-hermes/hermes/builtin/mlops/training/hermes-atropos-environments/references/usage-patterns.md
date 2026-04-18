@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-hermes
+---
+
 # Usage Patterns — Testing Environments and Evaluating Models
 
 ## Pattern 1: Test Your Environment Works (process mode)

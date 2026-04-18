@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # SLO Implementation Guide Implementation Playbook
 
 This file contains detailed patterns, checklists, and code samples referenced by the skill.

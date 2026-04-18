@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # CI/CD Integration for Accessibility Auditing
 
 ## GitHub Actions

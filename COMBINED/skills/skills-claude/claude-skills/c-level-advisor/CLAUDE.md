@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # C-Level Advisory Skills — Claude Code Guidance
 
 A complete virtual board of directors: 28 skills covering 10 executive roles, orchestration, cross-cutting capabilities, and culture & collaboration frameworks.

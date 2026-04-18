@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/seo
+  - artifact/doc
+  - source/skills-seo
+---
+
 # [YOUR COMPANY] Writing Examples
 
 <!-- INSTRUCTIONS: This file should contain 3-5 exemplary blog posts that demonstrate your brand voice,

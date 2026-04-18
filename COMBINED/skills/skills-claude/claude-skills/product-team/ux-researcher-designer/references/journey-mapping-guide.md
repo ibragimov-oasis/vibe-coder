@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # Journey Mapping Guide
 
 Step-by-step reference for creating user journey maps that drive design decisions.

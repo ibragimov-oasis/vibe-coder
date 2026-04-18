@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # Decision Frameworks — Carrier Relationship Management
 
 This reference provides detailed decision trees, scoring matrices, negotiation models,

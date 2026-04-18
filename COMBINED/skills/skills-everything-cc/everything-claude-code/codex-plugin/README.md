@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
+---
+
 # .codex-plugin — Codex Native Plugin for ECC
 
 This directory contains the **Codex plugin manifest** for Everything Claude Code.
@@ -47,3 +54,9 @@ Run this from the repository root so `./` points to the repo root and `.mcp.json
   and Codex (`.codex-plugin/`) — same source of truth, no duplication
 - MCP server credentials are inherited from the launching environment (env vars)
 - This manifest does **not** override `~/.codex/config.toml` settings
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

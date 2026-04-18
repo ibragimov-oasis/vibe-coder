@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # Proof of Concept (POC) Best Practices
 
 A comprehensive guide for Sales Engineers planning, executing, and evaluating proof-of-concept engagements.

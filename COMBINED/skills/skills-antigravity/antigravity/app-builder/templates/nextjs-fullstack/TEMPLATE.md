@@ -1,6 +1,10 @@
 ---
 name: nextjs-fullstack
 description: Next.js full-stack template principles. App Router, Prisma, Tailwind.
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
 ---
 
 # Next.js Full-Stack Template

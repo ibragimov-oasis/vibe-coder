@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # Marketing Org Reference
 
 Team structure, hiring sequence, agency decisions, marketing ops, and cross-functional alignment — by company stage.

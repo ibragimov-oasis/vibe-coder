@@ -3,6 +3,9 @@ title: Use DBOS with Class Instances
 impact: MEDIUM
 impactDescription: Enables configurable workflow instances with recovery support
 tags: pattern, class, instance, ConfiguredInstance
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
 ---
 
 ## Use DBOS with Class Instances

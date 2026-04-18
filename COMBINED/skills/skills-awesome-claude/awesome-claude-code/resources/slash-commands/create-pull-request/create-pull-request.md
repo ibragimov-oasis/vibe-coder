@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-awesome-claude
+---
+
 # How to Create a Pull Request Using GitHub CLI
 
 This guide explains how to create pull requests using GitHub CLI in our project.

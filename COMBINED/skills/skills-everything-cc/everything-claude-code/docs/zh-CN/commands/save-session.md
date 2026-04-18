@@ -1,5 +1,9 @@
 ---
 description: 将当前会话状态保存到 ~/.claude/sessions/ 目录下带日期的文件中，以便在未来的会话中恢复完整上下文并继续工作。
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
 ---
 
 # 保存会话命令

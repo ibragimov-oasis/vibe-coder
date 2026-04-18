@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
+---
+
 # Katkıda Bulunanlar Sözleşmesi Davranış Kuralları
 
 ## Taahhüdümüz

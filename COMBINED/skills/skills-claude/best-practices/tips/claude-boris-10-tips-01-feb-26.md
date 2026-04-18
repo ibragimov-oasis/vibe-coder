@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # 10 Tips for Using Claude Code — From the Claude Code Team
 
 A summary of team tips shared by Boris Cherny ([@bcherny](https://x.com/bcherny)), creator of Claude Code, on February 1, 2026.

@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # Google Workspace CLI Command Reference
 
 Comprehensive reference for the `gws` CLI covering 18 services, 22 helper commands, global flags, and environment variables.

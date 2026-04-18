@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # Regras de Compressão e Arquivamento
 
 ## Quando Arquivar

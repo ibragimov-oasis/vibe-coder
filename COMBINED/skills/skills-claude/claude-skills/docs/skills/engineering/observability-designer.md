@@ -1,6 +1,10 @@
 ---
 title: "Observability Designer (POWERFUL) — Agent Skill for Codex & OpenClaw"
 description: "Observability Designer (POWERFUL). Agent skill for Claude Code, Codex CLI, Gemini CLI, OpenClaw."
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
 ---
 
 # Observability Designer (POWERFUL)

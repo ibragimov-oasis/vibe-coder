@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-hermes
+---
+
 # Atropos BaseEnv Reference
 
 Source: `atroposlib/envs/base.py` (~2124 lines)

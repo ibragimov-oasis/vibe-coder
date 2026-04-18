@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
+---
+
 # Session Adapter Contract
 
 This document defines the canonical ECC session snapshot contract for

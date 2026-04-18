@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # Implementer Subagent Prompt Template
 
 Use this template when dispatching an implementer subagent.

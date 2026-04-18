@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # Interview Craft Guide
 
 Deep operational guide for conducting the `/cs:setup` founder interview. Not a script — a thinking tool. Read before every interview. Internalize it, then put it away.

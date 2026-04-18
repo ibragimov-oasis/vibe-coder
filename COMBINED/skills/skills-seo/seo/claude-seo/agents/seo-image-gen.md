@@ -4,6 +4,10 @@ description: SEO image analyst. Audits existing OG/social preview images, identi
 model: sonnet
 maxTurns: 15
 tools: Read, Bash, Glob, Grep
+tags:
+  - domain/seo
+  - artifact/doc
+  - source/skills-seo
 ---
 
 You are an SEO image analyst. When delegated tasks during an SEO audit:

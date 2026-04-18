@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # 发布流程
 
 这是维护者的仓库发布操作手册。历史发布记录在[`CHANGELOG.md`](../../CHANGELOG.md)中；本文档记录可重复的流程。

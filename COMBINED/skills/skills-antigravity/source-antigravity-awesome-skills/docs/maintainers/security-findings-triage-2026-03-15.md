@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # Security Findings Triage (2026-03-15)
 
 Maintainer note: later fixes changed the status of several findings after this baseline snapshot. Use [`security-findings-triage-2026-03-29-refresh.md`](security-findings-triage-2026-03-29-refresh.md) as the current source of truth, and keep this file as the historical baseline snapshot.

@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-copilot
+---
+
 # FlowStudio MCP — Common Power Automate Errors
 
 Reference for error codes, likely causes, and recommended fixes when debugging

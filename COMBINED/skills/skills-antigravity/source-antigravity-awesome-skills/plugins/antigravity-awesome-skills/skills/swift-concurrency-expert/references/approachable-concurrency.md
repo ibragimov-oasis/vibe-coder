@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 ## Approachable Concurrency (Swift 6.2) - project mode quick guide
 
 Use this reference when the project has opted into the Swift 6.2 approachable

@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-hermes
+---
+
 # Shader Pipeline & Composable Effects
 
 Post-processing effects applied to the pixel canvas (`numpy uint8 array, shape (H,W,3)`) after character rendering and before encoding. Also covers **pixel-level blend modes**, **feedback buffers**, and the **ShaderChain** compositor.

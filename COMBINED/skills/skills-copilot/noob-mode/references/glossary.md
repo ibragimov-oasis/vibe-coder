@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-copilot
+---
+
 # Noob Mode Glossary
 
 A plain-English reference for technical terms you'll encounter when using Copilot CLI. Organized by category.

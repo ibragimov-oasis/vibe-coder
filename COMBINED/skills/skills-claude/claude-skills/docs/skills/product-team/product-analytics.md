@@ -1,6 +1,10 @@
 ---
 title: "Product Analytics — Agent Skill for Product Teams"
 description: "Use when defining product KPIs, building metric dashboards, running cohort or retention analysis, or interpreting feature adoption trends across. Agent skill for Claude Code, Codex CLI, Gemini CLI, OpenClaw."
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
 ---
 
 # Product Analytics

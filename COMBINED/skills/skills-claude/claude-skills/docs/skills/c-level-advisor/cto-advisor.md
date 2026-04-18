@@ -1,6 +1,10 @@
 ---
 title: "CTO Advisor — Agent Skill for Executives"
 description: "Technical leadership guidance for engineering teams, architecture decisions, and technology strategy. Use when assessing technical debt, scaling. Agent skill for Claude Code, Codex CLI, Gemini CLI, OpenClaw."
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
 ---
 
 # CTO Advisor

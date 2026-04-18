@@ -4,6 +4,10 @@ about: Suggest improvements to documentation
 title: '[DOCS] '
 labels: documentation
 assignees: ''
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
 ---
 
 ## Documentation Issue

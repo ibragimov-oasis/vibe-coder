@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-copilot
+---
+
 # Phase 0: Existing Resource Scanner
 
 This file contains the detailed instructions for Phase 0. When the user requests analysis of existing Azure resources (Path B), read and follow this file.

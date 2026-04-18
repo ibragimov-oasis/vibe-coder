@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-copilot
+---
+
 # PDFtk Server License
 
 PDFtk Server can be used at no charge under its GPL license.

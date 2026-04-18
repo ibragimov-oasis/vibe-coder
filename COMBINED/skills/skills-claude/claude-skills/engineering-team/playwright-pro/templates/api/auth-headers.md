@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # Auth Headers Template
 
 Tests token authentication, expired token handling, and token refresh flow.

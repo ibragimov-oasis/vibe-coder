@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # Product Skills — Codex CLI Instructions
 
 When working on product tasks, use the product skill system:

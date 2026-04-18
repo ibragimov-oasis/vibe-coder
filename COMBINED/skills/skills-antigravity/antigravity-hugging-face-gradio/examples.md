@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # Gradio End-to-End Examples
 
 Complete working Gradio apps for reference.

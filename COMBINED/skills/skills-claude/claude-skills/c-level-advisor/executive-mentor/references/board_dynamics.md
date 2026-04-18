@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # Board Dynamics — Managing the People Who Can Fire You
 
 Your board has the power to fire you. Most boards don't want to. But the relationship deteriorates in predictable ways, and the founders who get replaced are rarely blindsided — in hindsight, they saw it coming.

@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-hermes
+---
+
 # Segment Anything Advanced Usage Guide
 
 ## SAM 2 (Video Segmentation)

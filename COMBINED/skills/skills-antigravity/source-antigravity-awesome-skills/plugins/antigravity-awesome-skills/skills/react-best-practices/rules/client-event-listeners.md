@@ -3,6 +3,9 @@ title: Deduplicate Global Event Listeners
 impact: LOW
 impactDescription: single listener for N components
 tags: client, swr, event-listeners, subscription
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
 ---
 
 ## Deduplicate Global Event Listeners

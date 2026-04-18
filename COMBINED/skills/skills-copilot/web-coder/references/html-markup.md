@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-copilot
+---
+
 # HTML & Markup Reference
 
 Comprehensive reference for HTML5, markup languages, and document structure.

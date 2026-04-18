@@ -1,6 +1,10 @@
 ---
 description: Save verification state and progress checkpoint
 agent: build
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
 ---
 
 # Checkpoint Command

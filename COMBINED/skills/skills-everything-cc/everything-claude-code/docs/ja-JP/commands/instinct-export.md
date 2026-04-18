@@ -2,6 +2,10 @@
 name: instinct-export
 description: チームメイトや他のプロジェクトと共有するためにインスティンクトをエクスポート
 command: /instinct-export
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
 ---
 
 # インスティンクトエクスポートコマンド

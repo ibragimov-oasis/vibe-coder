@@ -1,6 +1,10 @@
 ---
 description: Track Claude Code skills report changes and find what needs updating
 argument-hint: [number of versions to check, default 10]
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
 ---
 
 # Workflow Changelog — Skills Report

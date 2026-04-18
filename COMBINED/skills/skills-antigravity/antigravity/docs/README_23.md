@@ -2,6 +2,9 @@
 description: When to use Tier 3 (Platform) skill architecture for large platforms.
 metadata:
   tags: [tier-3, platform, enterprise, cloudflare-pattern]
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
 ---
 
 # Tier 3: Platform Skills

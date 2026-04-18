@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # Promotion Rules
 
 When to promote a learning from auto-memory (MEMORY.md) to the project's rule system (CLAUDE.md or `.claude/rules/`).

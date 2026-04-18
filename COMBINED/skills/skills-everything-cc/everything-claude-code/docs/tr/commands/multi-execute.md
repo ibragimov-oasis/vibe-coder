@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
+---
+
 # Execute - Multi-Model İşbirlikçi Execution
 
 Multi-model işbirlikçi execution - Plandan prototype al → Claude refactor edip implement eder → Multi-model audit ve teslimat.

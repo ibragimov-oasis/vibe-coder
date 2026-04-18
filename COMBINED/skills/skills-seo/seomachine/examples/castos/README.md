@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/seo
+  - artifact/doc
+  - source/skills-seo
+---
+
 # Castos Example Setup
 
 This directory contains a complete, real-world example of how to configure SEO Machine for a podcast hosting company.
@@ -24,3 +31,9 @@ This example demonstrates setup for:
 - Product-led content approach
 
 If your business is similar (SaaS, technical tools, creator-focused), this example will be especially relevant.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-seo]] — Category: skills-seo
+

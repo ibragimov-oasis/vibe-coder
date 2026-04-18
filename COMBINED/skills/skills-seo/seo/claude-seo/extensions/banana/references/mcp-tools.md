@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/seo
+  - artifact/doc
+  - source/skills-seo
+---
+
 # MCP Tools Reference: @ycse/nanobanana-mcp
 
 > Package: `@ycse/nanobanana-mcp`

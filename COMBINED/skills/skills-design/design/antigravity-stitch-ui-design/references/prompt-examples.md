@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/ui
+  - artifact/doc
+  - source/skills-design
+---
+
 # Stitch Prompt Examples Library
 
 Comprehensive collection of effective Stitch prompts organized by use case and complexity level.

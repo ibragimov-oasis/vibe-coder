@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # Interactions and Logic
 
 To keep XAML clean and maintainable, minimize logic in views and avoid excessive use of converters.

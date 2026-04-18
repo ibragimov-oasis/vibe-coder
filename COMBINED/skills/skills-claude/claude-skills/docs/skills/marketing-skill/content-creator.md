@@ -1,6 +1,10 @@
 ---
 title: "Content Creator → Redirected — Agent Skill for Marketing"
 description: "Deprecated redirect skill that routes legacy 'content creator' requests to the correct specialist. Use when a user invokes 'content creator', asks to. Agent skill for Claude Code, Codex CLI, Gemini CLI, OpenClaw."
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
 ---
 
 # Content Creator → Redirected

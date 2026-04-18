@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # Ad Copy Templates Reference
 
 Detailed formulas and templates for writing high-converting ad copy.

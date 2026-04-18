@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/seo
+  - artifact/doc
+  - source/skills-seo
+---
+
 # Landing Page Competitor Analysis Command
 
 Use this command to analyze a specific competitor's landing page in depth.

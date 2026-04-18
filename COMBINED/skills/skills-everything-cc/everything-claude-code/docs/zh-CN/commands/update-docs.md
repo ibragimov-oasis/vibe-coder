@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
+---
+
 # 更新文档
 
 将文档与代码库同步，从单一事实来源文件生成。

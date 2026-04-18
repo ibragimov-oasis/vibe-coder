@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # Styling & Customization
 
 See [customization.md](../customization.md) for theming, CSS variables, and adding custom colors.

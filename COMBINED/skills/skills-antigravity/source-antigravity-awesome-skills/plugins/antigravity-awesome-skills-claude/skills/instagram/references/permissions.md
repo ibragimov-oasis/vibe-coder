@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # Permissões OAuth — Scopes por Feature
 
 ## Scopes Necessários

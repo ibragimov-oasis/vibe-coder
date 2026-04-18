@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
+---
+
 # Diretrizes de Segurança
 
 ## Verificações de Segurança Obrigatórias

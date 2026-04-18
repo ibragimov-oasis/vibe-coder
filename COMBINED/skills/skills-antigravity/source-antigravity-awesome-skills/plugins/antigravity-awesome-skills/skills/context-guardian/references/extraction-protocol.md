@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # Protocolo de Extracao Detalhado
 
 Guia passo a passo para extrair TODAS as informacoes criticas de uma sessao

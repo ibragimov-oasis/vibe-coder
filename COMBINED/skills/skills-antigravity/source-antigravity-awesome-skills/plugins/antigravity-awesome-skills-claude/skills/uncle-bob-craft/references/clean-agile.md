@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # Clean Agile — Deep Reference
 
 Based on Robert C. Martin, *Clean Agile* (2019). Use this when discussing agile values, practices, and the "Iron Cross."

@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-copilot
+---
+
 # Dependabot Configuration Examples
 
 Real-world `dependabot.yml` configurations for common scenarios.

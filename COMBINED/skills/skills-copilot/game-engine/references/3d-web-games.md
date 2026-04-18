@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-copilot
+---
+
 # 3D Web Games
 
 A comprehensive reference for building 3D games on the web, covering foundational theory, major frameworks, shader programming, collision detection, and immersive WebXR experiences.

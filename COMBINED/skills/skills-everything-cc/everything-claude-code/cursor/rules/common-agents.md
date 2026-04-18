@@ -1,6 +1,10 @@
 ---
 description: "Agent orchestration: available agents, parallel execution, multi-perspective analysis"
 alwaysApply: true
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
 ---
 # Agent Orchestration
 

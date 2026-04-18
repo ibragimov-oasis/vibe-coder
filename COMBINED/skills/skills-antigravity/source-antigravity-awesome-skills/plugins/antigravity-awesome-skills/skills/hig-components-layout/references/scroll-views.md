@@ -114,7 +114,11 @@ Play
 
 ## [Change log](https://developer.apple.com/design/human-interface-guidelines/scroll-views#Change-log)
 
-Date| Changes  
+Date| Changes
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
 ---|---  
 July 28, 2025| Added guidance for scroll edge effects.  
 February 2, 2024| Added artwork showing the behavior of the visionOS scroll indicator.  

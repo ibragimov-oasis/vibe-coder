@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
+---
+
 # Example Project CLAUDE.md
 
 This is an example project-level CLAUDE.md file. Place this in your project root.

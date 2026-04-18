@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # Management Review Guide
 
 ISO 13485 Clause 5.6 management review requirements, inputs, outputs, and action tracking.

@@ -3,6 +3,10 @@ title: "204 Agent Skills — Browse by Domain"
 description: "Browse 204 agent skills across 9 domains — engineering, product, marketing, C-level advisory, PM, regulatory, business growth, and finance. Claude Code plugins, Codex skills, and Gemini CLI skills."
 hide:
   - edit
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
 ---
 
 <div class="skills-hero" markdown>

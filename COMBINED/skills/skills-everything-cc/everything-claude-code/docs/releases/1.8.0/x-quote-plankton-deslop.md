@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
+---
+
 # X Quote Draft - Plankton / De-slop Workflow
 
 The quality gate model matters.

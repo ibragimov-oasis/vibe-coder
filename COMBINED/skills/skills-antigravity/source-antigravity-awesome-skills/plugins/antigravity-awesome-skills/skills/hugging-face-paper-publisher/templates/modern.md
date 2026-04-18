@@ -5,6 +5,9 @@ date: {{DATE}}
 arxiv:
 tags: [machine-learning, ai]
 layout: modern
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
 ---
 
 <div class="header">

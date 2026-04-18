@@ -1,6 +1,10 @@
 ---
 description: Run evaluation against acceptance criteria
 agent: build
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
 ---
 
 # Eval Command

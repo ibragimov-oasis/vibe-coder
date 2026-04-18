@@ -1,6 +1,10 @@
 ---
 description: "Common patterns: repository, API response, skeleton projects"
 alwaysApply: true
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
 ---
 # Common Patterns
 

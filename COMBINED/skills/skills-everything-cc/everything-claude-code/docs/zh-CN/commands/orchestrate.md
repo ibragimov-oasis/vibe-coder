@@ -1,5 +1,9 @@
 ---
 description: 针对多智能体工作流程的顺序和tmux/worktree编排指南。
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
 ---
 
 # 编排命令

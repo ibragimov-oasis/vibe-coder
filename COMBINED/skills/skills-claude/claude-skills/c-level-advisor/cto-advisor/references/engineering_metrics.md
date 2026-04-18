@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # Engineering Metrics & KPIs Guide
 
 ## Metrics Framework

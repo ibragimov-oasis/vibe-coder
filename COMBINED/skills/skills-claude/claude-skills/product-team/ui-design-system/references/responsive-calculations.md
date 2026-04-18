@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # Responsive Design Calculations
 
 Reference for breakpoint math, fluid typography, and responsive layout patterns.

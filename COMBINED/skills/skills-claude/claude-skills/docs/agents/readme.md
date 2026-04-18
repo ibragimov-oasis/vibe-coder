@@ -1,6 +1,10 @@
 ---
 title: "Persona-Based Agents — AI Coding Agent & Codex Skill"
 description: "Persona-Based Agents — agent-native AI orchestrator for Personas. Works with Claude Code, Codex CLI, Gemini CLI, and OpenClaw."
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
 ---
 
 # Persona-Based Agents

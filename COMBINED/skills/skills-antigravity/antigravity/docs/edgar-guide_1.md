@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # EDGAR Guide for Claude Code Usage
 
 This guide explains how the skill reads SEC data with `tools/edgar.py`.

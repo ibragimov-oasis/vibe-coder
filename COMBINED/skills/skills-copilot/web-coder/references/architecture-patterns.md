@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-copilot
+---
+
 # Architecture & Patterns Reference
 
 Web application architectures, design patterns, and architectural concepts.

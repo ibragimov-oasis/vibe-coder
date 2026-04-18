@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # Mobile Color System Reference
 
 > OLED optimization, dark mode, battery-aware colors, and outdoor visibility.

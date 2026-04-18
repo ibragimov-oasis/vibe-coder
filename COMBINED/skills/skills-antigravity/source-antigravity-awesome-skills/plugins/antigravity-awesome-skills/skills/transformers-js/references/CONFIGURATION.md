@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # Environment Configuration Reference
 
 Complete guide to configuring Transformers.js behavior using the `env` object.

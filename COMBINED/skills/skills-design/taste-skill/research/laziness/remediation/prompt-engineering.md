@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/ui
+  - artifact/doc
+  - source/skills-design
+---
+
 # Prompt Engineering Techniques
 
 ## Psychological Pattern Matching

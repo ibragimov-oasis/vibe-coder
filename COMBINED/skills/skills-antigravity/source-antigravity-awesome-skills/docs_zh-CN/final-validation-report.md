@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # 最终验证报告 - 中文文档翻译
 
 **生成时间:** 2026-03-27

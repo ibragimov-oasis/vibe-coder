@@ -1,5 +1,9 @@
 ---
 description: Stage working tree changes and create a Conventional Commit (no push).
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
 ---
 
 1. Run `git status --short` to review pending changes.

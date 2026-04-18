@@ -30,7 +30,11 @@ Although iPadOS supports keyboard navigation in text fields, text views, and sid
 
 People expect each of the following standard keyboard shortcuts to perform the action listed in the table below.
 
-Primary key| Keyboard shortcut| Action  
+Primary key| Keyboard shortcut| Action
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
 ---|---|---  
 Space| Command-Space| Show or hide the Spotlight search field.  
 | Shift-Command-Space| Varies.  

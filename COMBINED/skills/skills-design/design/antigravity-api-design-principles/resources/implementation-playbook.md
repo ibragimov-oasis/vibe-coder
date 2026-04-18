@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/ui
+  - artifact/doc
+  - source/skills-design
+---
+
 # API Design Principles Implementation Playbook
 
 This file contains detailed patterns, checklists, and code samples referenced by the skill.

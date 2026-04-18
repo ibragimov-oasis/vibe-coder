@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-hermes
+---
+
 # Real-World Examples
 
 Practical examples of using Instructor for structured data extraction.

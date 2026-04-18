@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/seo
+  - artifact/doc
+  - source/skills-seo
+---
+
 # Claude SEO: Universal SEO Analysis Skill
 
 ## Project Overview

@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # Security Control Testing Guide
 
 Technical verification procedures for ISO 27002 control assessment.

@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # Code Explanation and Analysis Implementation Playbook
 
 This file contains detailed patterns, checklists, and code samples referenced by the skill.

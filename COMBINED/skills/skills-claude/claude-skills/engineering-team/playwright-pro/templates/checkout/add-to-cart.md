@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # Add to Cart Template
 
 Tests adding items to cart and quantity updates.

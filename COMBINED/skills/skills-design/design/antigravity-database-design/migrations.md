@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/ui
+  - artifact/doc
+  - source/skills-design
+---
+
 # Migration Principles
 
 > Safe migration strategy for zero-downtime changes.

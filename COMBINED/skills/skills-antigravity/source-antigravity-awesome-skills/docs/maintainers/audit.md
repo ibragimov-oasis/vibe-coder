@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # Repo coherence and correctness audit
 
 This document summarizes the repository coherence audit performed after the `apps/` + `tools/` + layered `docs/` refactor.

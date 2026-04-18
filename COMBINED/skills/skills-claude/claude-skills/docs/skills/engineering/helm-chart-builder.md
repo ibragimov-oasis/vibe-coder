@@ -1,6 +1,10 @@
 ---
 title: "Helm Chart Builder — Agent Skill for Codex & OpenClaw"
 description: "Helm chart development agent skill and plugin for Claude Code, Codex, Gemini CLI, Cursor, OpenClaw — chart scaffolding, values design, template."
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
 ---
 
 # Helm Chart Builder

@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # Search Sorting Template
 
 Tests sorting results by name, date, and price.

@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # Agents vs Commands vs Skills — When to Use What
 
 A comparison of the three extension mechanisms in Claude Code: subagents, commands, and skills.

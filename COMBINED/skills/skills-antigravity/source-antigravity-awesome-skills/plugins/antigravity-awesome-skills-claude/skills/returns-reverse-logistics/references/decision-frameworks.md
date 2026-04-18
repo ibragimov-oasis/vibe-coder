@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # Decision Frameworks — Returns & Reverse Logistics
 
 This reference provides the detailed decision logic, scoring matrices, financial models,

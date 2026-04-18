@@ -3,6 +3,9 @@ title: Use Durable Sleep for Delayed Execution
 impact: MEDIUM
 impactDescription: Enables reliable scheduling across restarts
 tags: pattern, sleep, delay, durable, schedule
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
 ---
 
 ## Use Durable Sleep for Delayed Execution

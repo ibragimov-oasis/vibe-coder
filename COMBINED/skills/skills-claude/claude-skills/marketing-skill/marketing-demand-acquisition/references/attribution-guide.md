@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # Attribution Guide
 
 Multi-touch attribution setup, analysis, and reporting.

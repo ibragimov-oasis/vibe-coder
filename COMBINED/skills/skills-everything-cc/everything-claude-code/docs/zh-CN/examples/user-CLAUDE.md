@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
+---
+
 # 用户级别 CLAUDE.md 示例
 
 这是一个用户级别 CLAUDE.md 文件的示例。放置在 `~/.claude/CLAUDE.md`。

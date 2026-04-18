@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # SaaS Metrics — Input Template
 
 Fill in what you know and paste to the SaaS Metrics Coach. Leave blanks empty.

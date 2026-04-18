@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # Persona Methodology Guide
 
 Reference for creating research-backed, data-driven user personas.

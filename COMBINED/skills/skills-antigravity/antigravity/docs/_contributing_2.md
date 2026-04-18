@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # Writing Guidelines for Postgres Rules
 
 This document provides guidelines for creating effective Postgres best

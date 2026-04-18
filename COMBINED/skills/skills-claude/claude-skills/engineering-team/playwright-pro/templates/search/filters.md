@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # Search Filters Template
 
 Tests category filter, price range, and checkbox filters.

@@ -1,6 +1,10 @@
 ---
 description: "Security: mandatory checks, secret management, response protocol"
 alwaysApply: true
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
 ---
 # Security Guidelines
 

@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
+---
+
 # Glossário de Terminologia (TERMINOLOGY)
 
 Este documento registra a correspondência de termos utilizados nas traduções para português brasileiro (pt-BR), garantindo consistência.

@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # Crisis Playbook — When Things Go Really Wrong
 
 Crises aren't random. They fall into predictable categories. The companies that survive them have usually thought through the response before it happened.

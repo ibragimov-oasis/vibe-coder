@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # Google Workspace CLI Troubleshooting
 
 Common errors, fixes, and platform-specific guidance for the `gws` CLI.

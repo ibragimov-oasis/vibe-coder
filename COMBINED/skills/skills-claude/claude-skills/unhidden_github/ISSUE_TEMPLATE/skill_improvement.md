@@ -4,6 +4,10 @@ about: Suggest improvements to an existing skill
 title: '[IMPROVEMENT] '
 labels: enhancement
 assignees: ''
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
 ---
 
 ## Skill Information

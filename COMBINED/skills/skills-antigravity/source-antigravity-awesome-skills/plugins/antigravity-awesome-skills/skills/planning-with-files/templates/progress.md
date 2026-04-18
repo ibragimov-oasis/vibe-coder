@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # Progress Log
 <!-- 
   WHAT: Your session log - a chronological record of what you did, when, and what happened.

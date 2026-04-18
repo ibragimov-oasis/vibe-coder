@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-copilot
+---
+
 # Scenario Challenges
 
 Present these as real-world situations. Ask the user what commands/shortcuts they'd use.

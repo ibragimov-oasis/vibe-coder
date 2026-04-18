@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-copilot
+---
+
 # FlowStudio MCP — Debug Workflow
 
 End-to-end decision tree for diagnosing Power Automate flow failures.

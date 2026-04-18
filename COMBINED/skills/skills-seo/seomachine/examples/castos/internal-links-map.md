@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/seo
+  - artifact/doc
+  - source/skills-seo
+---
+
 # Internal Links Map
 
 This document catalogs key Castos pages that should be referenced in blog content for strategic internal linking. Use this as your go-to reference when adding internal links to articles.

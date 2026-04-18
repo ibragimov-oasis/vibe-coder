@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # 可视化快速入门指南
 
 **通过视觉学习！**本指南使用图表和可视化示例来帮助您理解技能。

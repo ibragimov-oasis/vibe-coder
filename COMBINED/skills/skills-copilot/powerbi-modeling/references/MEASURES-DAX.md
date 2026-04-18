@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-copilot
+---
+
 # DAX Measures and Naming Conventions
 
 ## Naming Conventions

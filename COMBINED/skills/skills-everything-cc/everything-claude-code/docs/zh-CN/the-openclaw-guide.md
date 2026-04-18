@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
+---
+
 # OpenClaw 的隐藏危险
 
 ![标题：OpenClaw 的隐藏危险——来自智能体前沿的安全教训](../../assets/images/openclaw/01-header.png)

@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # International Market Playbooks
 
 Market-specific tactics for EU, US, and Canada expansion.

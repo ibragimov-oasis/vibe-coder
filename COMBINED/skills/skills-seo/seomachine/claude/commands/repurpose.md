@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/seo
+  - artifact/doc
+  - source/skills-seo
+---
+
 # Repurpose Command
 
 Take a published or drafted article and generate platform-specific versions for distribution across multiple content surfaces, maximizing AI citation potential.

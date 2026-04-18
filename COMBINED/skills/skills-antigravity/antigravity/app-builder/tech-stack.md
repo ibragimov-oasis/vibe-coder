@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # Tech Stack Selection (2025)
 
 > Default and alternative technology choices for web applications.

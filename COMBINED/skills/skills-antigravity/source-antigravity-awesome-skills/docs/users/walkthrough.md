@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # Walkthrough: Release v8.2.0 Maintenance Sweep
 
 ## Overview

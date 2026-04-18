@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
+---
+
 # 生成式媒体指南
 
 VideoDB 提供 AI 驱动的图像、视频、音乐、音效、语音和文本内容生成。所有生成方法均在 **Collection** 对象上。

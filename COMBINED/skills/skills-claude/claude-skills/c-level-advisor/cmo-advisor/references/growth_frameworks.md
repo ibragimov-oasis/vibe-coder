@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # Growth Frameworks Reference
 
 Playbooks for PLG, sales-led, community-led, and hybrid growth models. Includes growth loops, funnel design, and guidance on when and how to switch models.

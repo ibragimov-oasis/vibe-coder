@@ -1,6 +1,10 @@
 ---
 title: "Incident Commander Skill — Agent Skill & Codex Plugin"
 description: "Incident Commander Skill. Agent skill for Claude Code, Codex CLI, Gemini CLI, OpenClaw."
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
 ---
 
 # Incident Commander Skill

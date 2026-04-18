@@ -1,5 +1,9 @@
 ---
 description: 慣用的なパターン、並行性の安全性、エラーハンドリング、セキュリティについての包括的なGoコードレビュー。go-reviewerエージェントを呼び出します。
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
 ---
 
 # Go Code Review

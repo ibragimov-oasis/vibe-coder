@@ -1,5 +1,9 @@
 ---
 description: Goのテスト駆動開発(TDD)ワークフローを適用します。テーブル駆動テストを最初に記述し、その後実装します。go test -coverで80%以上のカバレッジを確認します。
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
 ---
 
 # Go TDD コマンド

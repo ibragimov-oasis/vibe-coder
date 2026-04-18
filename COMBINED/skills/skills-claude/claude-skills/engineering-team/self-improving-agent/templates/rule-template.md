@@ -1,6 +1,10 @@
 ---
 paths:
   - "{{glob-pattern}}"
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
 ---
 
 # {{Topic}} Rules

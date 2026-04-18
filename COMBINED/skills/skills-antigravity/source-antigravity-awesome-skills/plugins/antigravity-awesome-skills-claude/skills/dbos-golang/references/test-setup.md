@@ -3,6 +3,9 @@ title: Use Proper Test Setup for DBOS
 impact: LOW-MEDIUM
 impactDescription: Ensures consistent test results with proper DBOS lifecycle management
 tags: testing, go-test, setup, integration, mock
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
 ---
 
 ## Use Proper Test Setup for DBOS

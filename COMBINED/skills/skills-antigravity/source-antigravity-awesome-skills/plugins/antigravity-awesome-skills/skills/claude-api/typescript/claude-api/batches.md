@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # Message Batches API — TypeScript
 
 The Batches API (`POST /v1/messages/batches`) processes Messages API requests asynchronously at 50% of standard prices.

@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # Responsible Disclosure Guide
 
 A complete guide for responsibly reporting security vulnerabilities found during authorized testing or independent security research.

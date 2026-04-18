@@ -1,6 +1,10 @@
 ---
 name: dual-collect
 description: Collect results from headless Codex workers
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-ruflo
 ---
 
 # Dual Collect Skill

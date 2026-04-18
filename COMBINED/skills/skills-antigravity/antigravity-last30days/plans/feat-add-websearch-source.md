@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # feat: Add WebSearch as Third Source (Zero-Config Fallback)
 
 ## Overview

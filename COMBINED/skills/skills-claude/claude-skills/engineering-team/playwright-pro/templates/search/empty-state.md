@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # Empty State Template
 
 Tests no-results messaging and clear-filters behaviour.

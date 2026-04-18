@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # Single-Step Form Template
 
 Tests simple form submission with success and validation scenarios.

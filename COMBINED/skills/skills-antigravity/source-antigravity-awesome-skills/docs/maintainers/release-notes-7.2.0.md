@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 ## v7.2.0 - Community PR Harvest & Cleanup (2026-03-08)
 
 **Eight PRs merged: 44 broken skills removed, zebbern attribution restored, Chinese docs, new skills (audit-skills, senior-frontend, shadcn, frontend-slides update, pakistan-payments-stack), and explainable auto-categorization.**

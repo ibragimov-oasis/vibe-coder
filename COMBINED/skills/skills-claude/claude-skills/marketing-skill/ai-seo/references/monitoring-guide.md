@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # AI Visibility Monitoring Guide
 
 How to track whether your content is getting cited by AI search engines — and what to do when citations change.

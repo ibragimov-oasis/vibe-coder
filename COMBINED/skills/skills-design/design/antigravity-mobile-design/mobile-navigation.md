@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/ui
+  - artifact/doc
+  - source/skills-design
+---
+
 # Mobile Navigation Reference
 
 > Navigation patterns, deep linking, back handling, and tab/stack/drawer decisions.

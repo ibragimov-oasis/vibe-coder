@@ -1,6 +1,10 @@
 ---
 title: "Docker Development — Agent Skill for Codex & OpenClaw"
 description: "Docker and container development agent skill and plugin for Dockerfile optimization, docker-compose orchestration, multi-stage builds, and container. Agent skill for Claude Code, Codex CLI, Gemini CLI, OpenClaw."
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
 ---
 
 # Docker Development

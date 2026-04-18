@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # RBAC Patterns and Best Practices
 
 ## Common RBAC Patterns

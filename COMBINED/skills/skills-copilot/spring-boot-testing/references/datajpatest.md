@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-copilot
+---
+
 # @DataJpaTest
 
 Testing JPA repositories with isolated data layer slice.

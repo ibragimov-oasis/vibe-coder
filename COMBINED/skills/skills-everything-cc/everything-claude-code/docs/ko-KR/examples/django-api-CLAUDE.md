@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
+---
+
 # Django REST API — 프로젝트 CLAUDE.md
 
 > PostgreSQL과 Celery를 사용하는 Django REST Framework API의 실전 예시입니다.

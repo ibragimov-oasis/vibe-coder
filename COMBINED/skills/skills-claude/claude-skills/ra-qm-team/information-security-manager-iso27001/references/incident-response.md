@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # Incident Response Procedures
 
 Security incident detection, response, and recovery procedures per ISO 27001 requirements.

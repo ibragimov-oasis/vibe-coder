@@ -1,5 +1,9 @@
 ---
 description: Orientação de orquestração sequencial e tmux/worktree para fluxos multiagente.
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
 ---
 
 # Comando Orchestrate

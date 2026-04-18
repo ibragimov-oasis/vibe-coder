@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-copilot
+---
+
 # Architecture — Deep Dive
 
 This reference covers Aspire's internal architecture: the DCP engine, resource model, service discovery, networking, telemetry, and the eventing system.

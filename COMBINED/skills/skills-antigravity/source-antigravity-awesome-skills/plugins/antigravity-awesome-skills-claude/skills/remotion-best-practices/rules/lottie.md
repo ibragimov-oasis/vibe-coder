@@ -3,6 +3,10 @@ name: lottie
 description: Embedding Lottie animations in Remotion.
 metadata:
   category: Animation
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
 ---
 
 # Using Lottie Animations in Remotion

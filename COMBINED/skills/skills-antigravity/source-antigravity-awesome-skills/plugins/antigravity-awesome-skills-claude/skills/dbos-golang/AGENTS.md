@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # dbos-golang
 
 > **Note:** `CLAUDE.md` is a symlink to this file.

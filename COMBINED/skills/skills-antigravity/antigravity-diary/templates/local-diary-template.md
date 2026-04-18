@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # 專案實作紀錄：{專案名稱}
 * **📅 日期**：YYYY-MM-DD
 * **🏷️ 標籤**：`#Project` `#DevLog`

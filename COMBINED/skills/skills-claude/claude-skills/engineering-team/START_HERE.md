@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # 🎯 **START HERE: World-Class Team Skills**
 
 ## 📦 **What You're Getting**

@@ -1,6 +1,10 @@
 ---
 title: "Marketing Psychology — Agent Skill for Marketing"
 description: "When the user wants to apply psychological principles, mental models, or behavioral science to marketing. Also use when the user mentions. Agent skill for Claude Code, Codex CLI, Gemini CLI, OpenClaw."
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
 ---
 
 # Marketing Psychology

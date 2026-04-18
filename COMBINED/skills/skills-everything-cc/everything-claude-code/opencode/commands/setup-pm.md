@@ -1,6 +1,10 @@
 ---
 description: Configure package manager preference
 agent: build
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
 ---
 
 # Setup Package Manager Command

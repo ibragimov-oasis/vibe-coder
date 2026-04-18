@@ -4,6 +4,10 @@ description: "205 production-ready Claude Code skills and agent plugins for 11 A
 hide:
   - toc
   - edit
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
 ---
 
 <style>

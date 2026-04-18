@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # All-Hands Presentation Template
 
 **Monthly format (30–45 min) | Adjust timing for quarterly/annual**

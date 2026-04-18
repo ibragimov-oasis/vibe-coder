@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-copilot
+---
+
 # AS6C62256 (32K x 8 SRAM) Emulation Specification
 
 A technical Markdown specification for **emulating the AS6C62256 / 62256-family static RAM**, suitable for 6502-family emulators, SBC simulators, and memory subsystem modeling.

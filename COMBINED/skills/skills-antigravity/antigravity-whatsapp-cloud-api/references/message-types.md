@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # WhatsApp Cloud API - Tipos de Mensagem (Referencia Completa)
 
 > Referencia completa de todos os tipos de mensagem suportados pela WhatsApp Cloud API v21.0.

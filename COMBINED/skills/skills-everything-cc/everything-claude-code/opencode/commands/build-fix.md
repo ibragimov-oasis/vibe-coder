@@ -2,6 +2,10 @@
 description: Fix build and TypeScript errors with minimal changes
 agent: build-error-resolver
 subtask: true
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
 ---
 
 # Build Fix Command

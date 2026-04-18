@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-awesome-claude
+---
+
 # FlowStudio MCP — Action Patterns: Core
 
 Variables, control flow, and expression patterns for Power Automate flow definitions.

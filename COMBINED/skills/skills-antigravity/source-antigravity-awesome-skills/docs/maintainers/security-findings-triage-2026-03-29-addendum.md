@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # Security Findings Triage Addendum (2026-03-29)
 
 This addendum updates the 2026-03-15 baseline after the follow-up hardening

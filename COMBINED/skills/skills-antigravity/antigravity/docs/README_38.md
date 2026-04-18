@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # Angular State Management
 
 Complete state management patterns for Angular applications optimized for AI agents and LLMs.

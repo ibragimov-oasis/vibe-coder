@@ -3,6 +3,9 @@ title: Use UPSERT for Insert-or-Update Operations
 impact: MEDIUM
 impactDescription: Atomic operation, eliminates race conditions
 tags: upsert, on-conflict, insert, update
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
 ---
 
 ## Use UPSERT for Insert-or-Update Operations

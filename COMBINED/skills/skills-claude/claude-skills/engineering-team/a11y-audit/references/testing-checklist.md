@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # Accessibility Testing Checklist
 
 Use this checklist after applying fixes to verify accessibility manually.

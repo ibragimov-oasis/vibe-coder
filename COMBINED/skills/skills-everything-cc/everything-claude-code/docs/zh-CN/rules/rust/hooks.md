@@ -2,6 +2,10 @@
 paths:
   - "**/*.rs"
   - "**/Cargo.toml"
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
 ---
 
 # Rust 钩子

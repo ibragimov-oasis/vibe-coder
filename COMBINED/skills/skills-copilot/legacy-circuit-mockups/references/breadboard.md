@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-copilot
+---
+
 # Solderless Breadboard
 
 A practical Markdown specification and reference for **common solderless breadboards**, intended for electronics prototyping, education, and hobbyist development.

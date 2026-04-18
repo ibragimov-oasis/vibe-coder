@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-copilot
+---
+
 # T48 Universal EEPROM / Flash Programmer Specification
 
 ## 1. Overview

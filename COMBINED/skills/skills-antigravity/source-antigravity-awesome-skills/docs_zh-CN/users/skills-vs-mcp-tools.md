@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # 技能与 MCP 工具
 
 如果您试图理解 **Antigravity 技能**和 **MCP 工具**之间的区别，简短版本是：

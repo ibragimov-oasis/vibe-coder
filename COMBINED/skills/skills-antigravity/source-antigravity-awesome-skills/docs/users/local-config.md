@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # Local Skills Configuration
 
 > **Current Status**: All 96 skills are available in the repository.  

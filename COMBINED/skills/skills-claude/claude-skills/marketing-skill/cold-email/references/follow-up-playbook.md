@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # Follow-Up Playbook
 
 Full cadence guide, angle rotation, and breakup email templates. The goal: stay persistent without becoming noise.

@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # Changelog
 
 All notable changes to the Claude Skills Library will be documented in this file.

@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # Query Optimization Guide
 
 How to read EXPLAIN plans, choose the right index types, understand query plan operators, and configure connection pooling.

@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # Angular Best Practices
 
 Performance optimization and best practices for Angular applications optimized for AI agents and LLMs.
@@ -56,3 +63,9 @@ Current version: 1.0.0 (February 2026)
 - [Angular Performance](https://angular.dev/guide/performance)
 - [Zoneless Angular](https://angular.dev/guide/zoneless)
 - [Angular SSR](https://angular.dev/guide/ssr)
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

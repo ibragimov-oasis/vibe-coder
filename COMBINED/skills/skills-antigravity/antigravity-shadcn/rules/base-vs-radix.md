@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # Base vs Radix
 
 API differences between `base` and `radix`. Check the `base` field from `npx shadcn@latest info`.

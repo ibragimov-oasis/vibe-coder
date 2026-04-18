@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # Playwright Java – Page Object Patterns
 
 ## Component Pattern (Reusable Sub-Page-Objects)

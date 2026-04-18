@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
+---
+
 # Build and Fix
 
 Incrementally fix build and type errors with minimal, safe changes.

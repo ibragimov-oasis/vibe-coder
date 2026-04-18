@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # 📜 Nguồn gốc & Ghi công
 
 Chúng tôi tin tưởng vào việc ghi nhận công sức một cách xứng đáng.  

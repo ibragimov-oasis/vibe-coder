@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # GCP Architecture Patterns
 
 Reference guide for selecting the right GCP architecture pattern based on application requirements.

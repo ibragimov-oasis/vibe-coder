@@ -1,6 +1,10 @@
 ---
 title: "Product Discovery — Agent Skill for Product Teams"
 description: "Use when validating product opportunities, mapping assumptions, planning discovery sprints, or testing problem-solution fit before committing. Agent skill for Claude Code, Codex CLI, Gemini CLI, OpenClaw."
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
 ---
 
 # Product Discovery

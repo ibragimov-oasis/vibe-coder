@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # D3.js Scale Reference
 
 Comprehensive guide to all d3 scale types with examples and use cases.

@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # Next.js Optimization Guide
 
 Performance optimization techniques for Next.js 14+ applications.

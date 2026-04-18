@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
+---
+
 # /learn - Yeniden Kullanılabilir Desenleri Çıkar
 
 Mevcut oturumu analiz et ve skill olarak kaydetmeye değer desenleri çıkar.

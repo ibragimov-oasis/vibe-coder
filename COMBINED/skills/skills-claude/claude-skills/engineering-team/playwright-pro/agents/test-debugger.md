@@ -10,6 +10,10 @@ allowed-tools:
   - Glob
   - LS
   - Bash
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
 ---
 
 # Test Debugger Agent

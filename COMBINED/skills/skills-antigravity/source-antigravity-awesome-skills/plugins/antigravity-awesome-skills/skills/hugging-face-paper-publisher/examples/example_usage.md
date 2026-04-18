@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # Example Usage: HF Paper Publisher Skill
 
 This document demonstrates common workflows for publishing research papers on Hugging Face Hub.

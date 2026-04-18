@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-copilot
+---
+
 # Deployment — Complete Reference
 
 Aspire separates **orchestration** (what to run) from **deployment** (where to run it). The `aspire publish` command translates your AppHost resource model into deployment manifests for your target platform.

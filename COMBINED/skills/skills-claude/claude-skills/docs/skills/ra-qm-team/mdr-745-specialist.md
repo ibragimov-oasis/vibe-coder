@@ -1,6 +1,10 @@
 ---
 title: "MDR 2017/745 Specialist — Agent Skill for Compliance"
 description: "EU MDR 2017/745 compliance specialist for medical device classification, technical documentation, clinical evidence, and post-market surveillance. Agent skill for Claude Code, Codex CLI, Gemini CLI, OpenClaw."
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
 ---
 
 # MDR 2017/745 Specialist

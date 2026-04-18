@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # Creative Frameworks — Headline and Copy Formulas by Platform and Funnel Stage
 
 A working catalog of the copy frameworks that consistently outperform generic ads. Use these as starting points, not templates to fill in blindly.

@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # 🧪 Ví dụ Thực tế ("Sổ tay Nấu ăn Antigravity")
 
 Các kỹ năng (skills) vốn dĩ đã mạnh mẽ khi đứng riêng lẻ, nhưng chúng sẽ trở nên không thể ngăn cản khi được kết hợp lại với nhau.  

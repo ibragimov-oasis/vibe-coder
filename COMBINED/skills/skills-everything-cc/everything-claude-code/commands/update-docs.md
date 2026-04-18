@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
+---
+
 # Update Documentation
 
 Sync documentation with the codebase, generating from source-of-truth files.

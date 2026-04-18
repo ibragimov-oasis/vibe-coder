@@ -3,6 +3,9 @@ title: Create Scheduled Workflows
 impact: MEDIUM
 impactDescription: Enables recurring tasks with exactly-once-per-interval guarantees
 tags: pattern, scheduled, cron, recurring
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
 ---
 
 ## Create Scheduled Workflows

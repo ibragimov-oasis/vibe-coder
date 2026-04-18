@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # Configuration Management - UnifiedConfig Pattern
 
 Complete guide to managing configuration in backend microservices.

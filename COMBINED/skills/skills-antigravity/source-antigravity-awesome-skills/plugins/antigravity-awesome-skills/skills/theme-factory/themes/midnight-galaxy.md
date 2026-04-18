@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # Midnight Galaxy
 
 A dramatic and cosmic theme with deep purples and mystical tones for impactful presentations.

@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-copilot
+---
+
 # Penpot MCP Server Setup & Troubleshooting
 
 Complete guide for installing, configuring, and troubleshooting the Penpot MCP Server.

@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # Themes Reference
 
 Guide for developing Shopify themes with Liquid templating.

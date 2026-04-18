@@ -134,7 +134,11 @@ Sometimes, it makes sense to adjust the shared context of a shared activity so e
 
 ## [Change log](https://developer.apple.com/design/human-interface-guidelines/shareplay#Change-log)
 
-Date| Changes  
+Date| Changes
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
 ---|---  
 December 5, 2023| Added artwork for visionOS.  
 June 21, 2023| Updated to include guidance for visionOS.  

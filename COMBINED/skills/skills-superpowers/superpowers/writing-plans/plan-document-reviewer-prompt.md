@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-superpowers
+---
+
 # Plan Document Reviewer Prompt Template
 
 Use this template when dispatching a plan document reviewer subagent.

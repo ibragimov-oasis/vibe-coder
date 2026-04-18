@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 
 
 Using the **performance-profiler** skill to give you a systematic plan.

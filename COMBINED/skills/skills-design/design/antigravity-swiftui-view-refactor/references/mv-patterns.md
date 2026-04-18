@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/ui
+  - artifact/doc
+  - source/skills-design
+---
+
 # MV Patterns Reference
 
 Distilled guidance for deciding whether a SwiftUI feature should stay as plain MV or introduce a view model.

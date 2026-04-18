@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # Schema Types Guide
 
 A practitioner's reference for schema.org types — what they do, what fields matter, and what Google actually uses for rich results.

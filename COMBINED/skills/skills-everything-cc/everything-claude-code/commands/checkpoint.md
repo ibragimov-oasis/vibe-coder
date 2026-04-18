@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
+---
+
 # Checkpoint Command
 
 Create or verify a checkpoint in your workflow.

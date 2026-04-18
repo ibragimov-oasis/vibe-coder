@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
+---
+
 # /learn - 再利用可能なパターンの抽出
 
 現在のセッションを分析し、スキルとして保存する価値のあるパターンを抽出します。

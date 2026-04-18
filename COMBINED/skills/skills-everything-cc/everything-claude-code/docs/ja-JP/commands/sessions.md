@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
+---
+
 # Sessionsコマンド
 
 Claude Codeセッション履歴を管理 - `~/.claude/sessions/` に保存されたセッションのリスト表示、読み込み、エイリアス設定、編集を行います。

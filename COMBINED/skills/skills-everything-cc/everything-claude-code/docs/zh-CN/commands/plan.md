@@ -1,5 +1,9 @@
 ---
 description: 重新阐述需求、评估风险并创建分步实施计划。在接触任何代码之前，等待用户确认。
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
 ---
 
 # 计划命令

@@ -1,6 +1,10 @@
 ---
 title: "AWS Solution Architect — Agent Skill & Codex Plugin"
 description: "Design AWS architectures for startups using serverless patterns and IaC templates. Use when asked to design serverless architecture, create. Agent skill for Claude Code, Codex CLI, Gemini CLI, OpenClaw."
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
 ---
 
 # AWS Solution Architect

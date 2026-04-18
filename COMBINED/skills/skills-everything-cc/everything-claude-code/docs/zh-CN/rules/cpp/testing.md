@@ -7,6 +7,10 @@ paths:
   - "**/*.cxx"
   - "**/*.h"
   - "**/CMakeLists.txt"
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
 ---
 
 # C++ 测试

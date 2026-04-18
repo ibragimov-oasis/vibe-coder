@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # Expected Changelog Output
 
 ## [2.3.0] - 2024-01-15

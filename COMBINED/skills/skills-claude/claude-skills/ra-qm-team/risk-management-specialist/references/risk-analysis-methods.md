@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # Risk Analysis Methods
 
 Systematic techniques for hazard identification and risk analysis in medical device development.

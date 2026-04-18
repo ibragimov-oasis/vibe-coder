@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # Elon Musk — Referência Técnica Ultra-Detalhada
 
 > Arquivo de referência para o agente elon-musk. Contém dados técnicos reais e específicos

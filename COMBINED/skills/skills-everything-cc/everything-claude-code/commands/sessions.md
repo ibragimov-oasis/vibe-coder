@@ -1,5 +1,9 @@
 ---
 description: Manage Claude Code session history, aliases, and session metadata.
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
 ---
 
 # Sessions Command

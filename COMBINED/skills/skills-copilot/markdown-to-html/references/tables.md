@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-copilot
+---
+
 # Organizing information with tables
 
 You can build tables to organize information in comments, issues, pull requests, and wikis.

@@ -1,6 +1,10 @@
 ---
 title: "Dependency Auditor — Agent Skill for Codex & OpenClaw"
 description: "Dependency Auditor. Agent skill for Claude Code, Codex CLI, Gemini CLI, OpenClaw."
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
 ---
 
 # Dependency Auditor

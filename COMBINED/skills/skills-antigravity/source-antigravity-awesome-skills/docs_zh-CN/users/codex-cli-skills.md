@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # Codex CLI 技能
 
 如果您想要易于安装且在本地编码循环中实用的 **Codex CLI 技能**，这个仓库就是为该确切用例而设计的。

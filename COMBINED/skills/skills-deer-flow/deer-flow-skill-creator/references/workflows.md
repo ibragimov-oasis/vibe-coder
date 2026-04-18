@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/doc
+  - source/skills-deer-flow
+---
+
 # Workflow Patterns
 
 ## Sequential Workflows

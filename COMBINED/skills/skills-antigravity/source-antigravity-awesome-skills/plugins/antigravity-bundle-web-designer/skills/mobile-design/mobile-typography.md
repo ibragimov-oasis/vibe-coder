@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # Mobile Typography Reference
 
 > Type scale, system fonts, Dynamic Type, accessibility, and dark mode typography.

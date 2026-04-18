@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # Directional Reveals Reference
 
 Elements and sections don't always enter from the bottom. Premium sites use **directional births** — sections that drop from the top, iris open from center, peel away like wallpaper, or unfold diagonally. This file covers all 8 directional reveal patterns.

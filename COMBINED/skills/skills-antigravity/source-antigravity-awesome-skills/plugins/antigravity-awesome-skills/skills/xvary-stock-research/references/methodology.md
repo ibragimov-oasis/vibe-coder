@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # XVARY Methodology (Public Framework)
 
 This document is the **public framework** for XVARY Research.

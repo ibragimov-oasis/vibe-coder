@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # Jetski + Gemini Lazy Skill Loader (Example)
 
 This example shows one way to integrate **antigravity-awesome-skills** with a Jetski/Cortex‑style agent using **lazy loading** based on `@skill-id` mentions, instead of concatenating every `SKILL.md` into the prompt.

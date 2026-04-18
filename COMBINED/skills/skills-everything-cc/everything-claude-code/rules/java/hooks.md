@@ -4,6 +4,10 @@ paths:
   - "**/pom.xml"
   - "**/build.gradle"
   - "**/build.gradle.kts"
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
 ---
 # Java Hooks
 

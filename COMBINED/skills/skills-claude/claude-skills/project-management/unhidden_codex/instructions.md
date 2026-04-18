@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # Project Management Skills — Codex CLI Instructions
 
 When working on project management tasks, use the PM skill system:

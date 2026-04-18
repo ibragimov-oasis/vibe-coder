@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # Registration Template
 
 Tests signup form submission, validation, and post-registration flow.

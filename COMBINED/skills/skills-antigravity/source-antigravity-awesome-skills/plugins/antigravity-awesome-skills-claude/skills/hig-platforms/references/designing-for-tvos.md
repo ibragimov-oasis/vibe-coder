@@ -62,7 +62,11 @@ Great tvOS experiences integrate the platform and device capabilities that peopl
 
 ## [Change log](https://developer.apple.com/design/human-interface-guidelines/designing-for-tvos#Change-log)
 
-Date| Changes  
+Date| Changes
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
 ---|---  
 September 14, 2022| Refined best practices for multiuser support.  
   

@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # CLI-Based Actorization
 
 For languages without an SDK (Go, Rust, Java, etc.), create a wrapper script that uses the Apify CLI.

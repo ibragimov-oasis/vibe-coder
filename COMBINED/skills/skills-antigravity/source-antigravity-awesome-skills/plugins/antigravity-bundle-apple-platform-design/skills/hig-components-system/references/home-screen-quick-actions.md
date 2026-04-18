@@ -1,4 +1,11 @@
 ---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
+---
 title: "Home Screen quick actions | Apple Developer Documentation"
 source: https://developer.apple.com/design/human-interface-guidelines/home-screen-quick-actions
 

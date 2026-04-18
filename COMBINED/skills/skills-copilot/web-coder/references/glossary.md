@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-copilot
+---
+
 # Glossary
 
 - Reference [Glossary of Web Terms](https://developer.mozilla.org/en-US/docs/Glossary)

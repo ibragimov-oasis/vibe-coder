@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-awesome-claude
+---
+
 # Testing & Coverage
 
 This document covers how to run the test suite and generate coverage reports.

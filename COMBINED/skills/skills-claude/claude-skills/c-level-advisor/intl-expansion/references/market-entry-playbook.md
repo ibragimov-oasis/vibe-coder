@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # Market Entry Playbook
 
 Step-by-step framework for entering a new international market.

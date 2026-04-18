@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-copilot
+---
+
 # CSS & Styling Reference
 
 Comprehensive reference for Cascading Style Sheets, layout systems, and modern styling techniques.

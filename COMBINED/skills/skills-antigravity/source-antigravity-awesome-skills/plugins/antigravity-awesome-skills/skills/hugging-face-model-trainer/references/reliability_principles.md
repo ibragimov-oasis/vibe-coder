@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # Reliability Principles for Training Jobs
 
 These principles are derived from real production failures and successful fixes. Following them prevents common failure modes and ensures reliable job execution.

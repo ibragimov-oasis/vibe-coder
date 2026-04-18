@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # Emergency Procedures Reference
 
 ## Secret Leak Response Playbook

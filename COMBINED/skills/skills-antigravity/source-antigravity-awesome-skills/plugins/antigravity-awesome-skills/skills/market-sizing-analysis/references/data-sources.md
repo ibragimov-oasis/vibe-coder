@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # Market Sizing Data Sources
 
 Curated list of credible sources for market research and sizing analysis.

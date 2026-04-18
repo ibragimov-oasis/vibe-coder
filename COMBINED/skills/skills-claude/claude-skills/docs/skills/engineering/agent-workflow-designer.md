@@ -1,6 +1,10 @@
 ---
 title: "Agent Workflow Designer — Agent Skill for Codex & OpenClaw"
 description: "Agent Workflow Designer. Agent skill for Claude Code, Codex CLI, Gemini CLI, OpenClaw."
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
 ---
 
 # Agent Workflow Designer

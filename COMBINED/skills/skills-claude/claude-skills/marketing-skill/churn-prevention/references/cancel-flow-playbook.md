@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # Cancel Flow Playbook
 
 Complete reference for designing, building, and auditing cancel flows.

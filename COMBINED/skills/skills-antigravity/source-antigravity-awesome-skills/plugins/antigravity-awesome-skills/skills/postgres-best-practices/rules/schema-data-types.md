@@ -3,6 +3,9 @@ title: Choose Appropriate Data Types
 impact: HIGH
 impactDescription: 50% storage reduction, faster comparisons
 tags: data-types, schema, storage, performance
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
 ---
 
 ## Choose Appropriate Data Types

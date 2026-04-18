@@ -1,6 +1,10 @@
 ---
 title: "Growth Marketer"
 description: "Growth marketing persona — content engines, funnel optimization, launch sequences, and scalable acquisition channels on a budget."
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
 ---
 
 # :material-chart-line: Growth Marketer

@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-copilot
+---
+
 # Dependabot YAML Options Reference
 
 Complete reference for all configuration options in `.github/dependabot.yml`.

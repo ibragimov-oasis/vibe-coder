@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-copilot
+---
+
 # Cost Estimator Reference
 
 Formulas and patterns for converting Azure unit prices into monthly and annual cost estimates.

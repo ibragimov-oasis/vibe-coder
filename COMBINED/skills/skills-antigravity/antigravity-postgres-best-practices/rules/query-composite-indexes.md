@@ -3,6 +3,9 @@ title: Create Composite Indexes for Multi-Column Queries
 impact: HIGH
 impactDescription: 5-10x faster multi-column queries
 tags: indexes, composite-index, multi-column, query-optimization
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
 ---
 
 ## Create Composite Indexes for Multi-Column Queries

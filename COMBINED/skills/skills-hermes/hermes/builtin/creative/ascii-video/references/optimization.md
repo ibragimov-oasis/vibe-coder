@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-hermes
+---
+
 # Optimization Reference
 
 > **See also:** architecture.md · composition.md · scenes.md · shaders.md · inputs.md · troubleshooting.md

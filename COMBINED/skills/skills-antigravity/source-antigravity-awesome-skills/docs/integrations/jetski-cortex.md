@@ -1,6 +1,10 @@
 ---
 title: Jetski/Cortex + Gemini Integration Guide
 description: "Come usare antigravity-awesome-skills con Jetski/Cortex evitando l’overflow di contesto con 1.340+ skill."
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
 ---
 
 # Jetski/Cortex + Gemini: integrazione sicura con 1.340+ skill

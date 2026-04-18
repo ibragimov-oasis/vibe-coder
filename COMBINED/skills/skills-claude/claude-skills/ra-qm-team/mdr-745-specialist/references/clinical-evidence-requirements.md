@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # Clinical Evidence Requirements
 
 MDR Annex XIV clinical evaluation and post-market clinical follow-up guidance.

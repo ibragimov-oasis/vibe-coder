@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-data-analysis
+---
+
 # generate_spreadsheet — 电子表格/数据透视表
 
 ## 功能概述

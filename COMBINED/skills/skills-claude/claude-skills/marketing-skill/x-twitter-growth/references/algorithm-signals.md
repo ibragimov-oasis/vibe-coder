@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # X/Twitter Algorithm Signals (2025-2026)
 
 ## Ranking Factors by Weight

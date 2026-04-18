@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-copilot
+---
+
 # Code examples for Python 3
 
 - Use Python 3's built-in [`ipaddress` package](https://docs.python.org/3/library/ipaddress.html), with `strict=True` passed to constructors where available.

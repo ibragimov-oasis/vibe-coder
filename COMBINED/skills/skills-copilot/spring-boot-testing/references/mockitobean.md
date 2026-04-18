@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-copilot
+---
+
 # @MockitoBean
 
 Mocking dependencies in Spring Boot tests (replaces deprecated @MockBean in Spring Boot 4+).

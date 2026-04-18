@@ -1,6 +1,10 @@
 ---
 title: "CFO Advisor — Agent Skill for Executives"
 description: "Financial leadership for startups and scaling companies. Financial modeling, unit economics, fundraising strategy, cash management, and board. Agent skill for Claude Code, Codex CLI, Gemini CLI, OpenClaw."
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
 ---
 
 # CFO Advisor

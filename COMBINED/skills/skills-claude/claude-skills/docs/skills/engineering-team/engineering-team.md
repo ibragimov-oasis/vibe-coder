@@ -1,6 +1,10 @@
 ---
 title: "Engineering Team Skills — Agent Skill & Codex Plugin"
 description: "23 engineering agent skills and plugins for Claude Code, Codex, Gemini CLI, Cursor, OpenClaw, and 6 more tools. Architecture, frontend, backend, QA."
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
 ---
 
 # Engineering Team Skills

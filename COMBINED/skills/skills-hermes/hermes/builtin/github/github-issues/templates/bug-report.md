@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-hermes
+---
+
 ## Bug Description
 
 <!-- Clear, concise description of the bug -->

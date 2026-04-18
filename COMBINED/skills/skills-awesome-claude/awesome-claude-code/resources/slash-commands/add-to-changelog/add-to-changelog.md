@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-awesome-claude
+---
+
 # Update Changelog
 
 This command adds a new entry to the project's CHANGELOG.md file.

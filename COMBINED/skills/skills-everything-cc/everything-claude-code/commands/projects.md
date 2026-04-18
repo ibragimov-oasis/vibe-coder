@@ -2,6 +2,10 @@
 name: projects
 description: List known projects and their instinct statistics
 command: true
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
 ---
 
 # Projects Command

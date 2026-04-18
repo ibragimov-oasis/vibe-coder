@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # Engineering Skills — Codex CLI Instructions
 
 When working on engineering tasks, use the engineering skill system:

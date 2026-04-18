@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-copilot
+---
+
 # Custom Patterns Reference
 
 Detailed reference for defining custom secret scanning patterns using regular expressions at the repository, organization, and enterprise level.

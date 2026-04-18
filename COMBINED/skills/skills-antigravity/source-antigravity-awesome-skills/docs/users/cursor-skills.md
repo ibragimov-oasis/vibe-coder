@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # Cursor Skills
 
 If you searched for **Cursor skills** on GitHub, this repository is built to be a practical starting point: installable skills, clear usage docs, and a large library that works well with Cursor chat workflows.

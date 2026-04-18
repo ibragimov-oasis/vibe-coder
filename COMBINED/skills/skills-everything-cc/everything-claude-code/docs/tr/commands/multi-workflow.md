@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
+---
+
 # Workflow - Multi-Model İşbirlikçi Geliştirme
 
 Multi-model işbirlikçi geliştirme iş akışı (Research → Ideation → Plan → Execute → Optimize → Review), akıllı yönlendirme ile: Frontend → Gemini, Backend → Codex.

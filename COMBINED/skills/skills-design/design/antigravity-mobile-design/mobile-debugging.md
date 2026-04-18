@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/ui
+  - artifact/doc
+  - source/skills-design
+---
+
 # Mobile Debugging Guide
 
 > **Stop console.log() debugging!**

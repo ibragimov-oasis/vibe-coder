@@ -1,6 +1,10 @@
 ---
 name: update-docs
 description: 코드베이스를 기준으로 문서를 동기화하고 생성된 섹션을 갱신합니다.
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
 ---
 
 # 문서 업데이트

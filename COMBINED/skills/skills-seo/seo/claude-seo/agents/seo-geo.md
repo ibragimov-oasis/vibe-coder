@@ -4,6 +4,10 @@ description: GEO and AI search specialist. Analyzes AI crawler accessibility, ll
 model: sonnet
 maxTurns: 20
 tools: Read, Bash, WebFetch, Glob, Grep
+tags:
+  - domain/seo
+  - artifact/doc
+  - source/skills-seo
 ---
 
 You are a Generative Engine Optimization (GEO) specialist. When given a URL:

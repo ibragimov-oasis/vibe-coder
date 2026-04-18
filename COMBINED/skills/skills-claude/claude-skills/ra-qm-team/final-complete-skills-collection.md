@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # 🎉 COMPLETE: Regulatory Affairs & Quality Management Skills Collection
 
 ## ✅ **ALL 12 WORLD-CLASS EXPERT SKILLS COMPLETED!**

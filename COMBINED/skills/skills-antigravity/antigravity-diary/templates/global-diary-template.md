@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # 📔 YYYY-MM-DD 全域進度總覽
 
 > 🌟 **今日亮點 (Daily Highlight)**

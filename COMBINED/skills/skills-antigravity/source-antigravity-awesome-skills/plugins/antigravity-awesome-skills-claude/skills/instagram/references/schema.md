@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # Schema do Banco SQLite — instagram.db
 
 Localização: `C:\Users\renat\skills\instagram\data\instagram.db`

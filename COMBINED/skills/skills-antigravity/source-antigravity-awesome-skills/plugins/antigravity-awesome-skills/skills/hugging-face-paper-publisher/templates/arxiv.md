@@ -4,6 +4,10 @@ authors: {{AUTHORS}}
 date: {{DATE}}
 arxiv:
 layout: arxiv
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
 ---
 
 # {{TITLE}}

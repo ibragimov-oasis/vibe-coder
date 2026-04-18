@@ -1,6 +1,10 @@
 ---
 title: "/saas-health — Slash Command for AI Coding Agents"
 description: "Calculate SaaS health metrics (ARR, MRR, churn, CAC, LTV, NRR) and benchmark against industry standards. Usage: /saas-health. Slash command for Claude Code, Codex CLI, Gemini CLI."
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
 ---
 
 # /saas-health

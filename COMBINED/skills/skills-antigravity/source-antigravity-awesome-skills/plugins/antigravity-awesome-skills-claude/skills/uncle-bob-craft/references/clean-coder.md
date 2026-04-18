@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # The Clean Coder — Deep Reference
 
 Based on Robert C. Martin, *The Clean Coder* (2011). Use this when discussing professionalism, estimation, and sustainable pace.

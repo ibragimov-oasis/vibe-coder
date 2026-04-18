@@ -1,5 +1,9 @@
 ---
 description: Multi-agent iş akışları için sıralı ve tmux/worktree orkestrasyon rehberi.
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
 ---
 
 # Orchestrate Komutu

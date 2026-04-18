@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
+---
+
 # PR Review And Queue Triage — March 13, 2026
 
 ## Snapshot

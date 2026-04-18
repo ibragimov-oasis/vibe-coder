@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # Inside Claude Code With Its Creator Boris Cherny — Y Combinator
 
 Transcript of the interview with Boris Cherny ([@bcherny](https://x.com/bcherny)), creator of Claude Code, on the Y Combinator Light Cone podcast, published February 17, 2026.

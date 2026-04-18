@@ -4,6 +4,10 @@ about: Request a concrete, scoped improvement once the work is clear enough for 
 title: "[REQ] "
 labels: enhancement
 assignees: sickn33
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
 ---
 
 > For early-stage ideas, brainstorming, and “would this be useful?” proposals, please start in GitHub Discussions Ideas. Open an Issue when the request is concrete and actionable.

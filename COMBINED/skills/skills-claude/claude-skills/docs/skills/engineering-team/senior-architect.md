@@ -1,6 +1,10 @@
 ---
 title: "Senior Architect — Agent Skill & Codex Plugin"
 description: "This skill should be used when the user asks to 'design system architecture', 'evaluate microservices vs monolith', 'create architecture diagrams'. Agent skill for Claude Code, Codex CLI, Gemini CLI, OpenClaw."
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
 ---
 
 # Senior Architect

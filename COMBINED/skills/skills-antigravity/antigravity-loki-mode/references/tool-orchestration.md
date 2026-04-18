@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # Tool Orchestration Patterns Reference
 
 Research-backed patterns inspired by NVIDIA ToolOrchestra, OpenAI Agents SDK, and multi-agent coordination research.

@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/ui
+  - artifact/doc
+  - source/skills-design
+---
+
 # RLHF and Compute Economics
 
 ## The Cost of Token Generation

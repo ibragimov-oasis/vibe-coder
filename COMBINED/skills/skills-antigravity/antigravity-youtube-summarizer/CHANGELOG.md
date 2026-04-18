@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # Changelog - youtube-summarizer
 
 All notable changes to the youtube-summarizer skill will be documented in this file.

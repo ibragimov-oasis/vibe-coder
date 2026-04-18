@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-awesome-claude
+---
+
 Follow RED-GREEN-REFACTOR cycle approch based on @~/.claude/CLAUDE.md:
 1. Open todo.md and select the first unchecked items to work on.
 2. Carefully plan each item, then share your plan

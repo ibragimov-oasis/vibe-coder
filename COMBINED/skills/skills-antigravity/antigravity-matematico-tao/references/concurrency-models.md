@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # Modelos Formais de Concorrência para Kotlin/Android
 
 ## 1. Modelo CSP (Communicating Sequential Processes)

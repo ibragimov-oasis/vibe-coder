@@ -3,6 +3,10 @@ name: go-reviewer
 description: Revisor especializado em código Go com foco em Go idiomático, padrões de concorrência, tratamento de erros e performance. Use para todas as alterações de código Go. DEVE SER USADO em projetos Go.
 tools: ["Read", "Grep", "Glob", "Bash"]
 model: sonnet
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
 ---
 
 Você é um revisor sênior de código Go garantindo altos padrões de Go idiomático e boas práticas.

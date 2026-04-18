@@ -2,6 +2,10 @@
 name: promote
 description: Promote project-scoped instincts to global scope
 command: true
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
 ---
 
 # Promote Command

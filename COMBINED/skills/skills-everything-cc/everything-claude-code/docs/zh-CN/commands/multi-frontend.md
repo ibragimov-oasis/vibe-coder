@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
+---
+
 # 前端 - 前端聚焦开发
 
 前端聚焦的工作流（研究 → 构思 → 规划 → 执行 → 优化 → 评审），由 Gemini 主导。

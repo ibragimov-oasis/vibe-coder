@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/seo
+  - artifact/doc
+  - source/skills-seo
+---
+
 # Market Sizing Data Sources
 
 Curated list of credible sources for market research and sizing analysis.

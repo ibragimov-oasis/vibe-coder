@@ -2,6 +2,10 @@
 description: Rust code review for ownership, safety, and idiomatic patterns
 agent: rust-reviewer
 subtask: true
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
 ---
 
 # Rust Review Command

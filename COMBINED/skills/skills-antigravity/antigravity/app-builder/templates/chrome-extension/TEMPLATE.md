@@ -1,6 +1,10 @@
 ---
 name: chrome-extension
 description: Chrome Extension template principles. Manifest V3, React, TypeScript.
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
 ---
 
 # Chrome Extension Template

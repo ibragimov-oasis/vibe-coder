@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 <!-- registry-sync: version=8.10.0; skills=1328; stars=27571; updated_at=2026-03-26T16:15:39+00:00 -->
 # 🌌 Antigravity Awesome Skills: 1,328+ 代理技能，适用于 Claude Code、Gemini CLI、Cursor、Copilot 及更多工具
 

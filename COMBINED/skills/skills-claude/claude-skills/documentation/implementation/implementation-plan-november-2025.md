@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # Claude Skills - Skill-Agent Integration Implementation Plan
 
 **Version:** 1.0

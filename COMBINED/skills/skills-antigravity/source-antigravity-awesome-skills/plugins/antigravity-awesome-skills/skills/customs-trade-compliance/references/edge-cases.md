@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # Customs & Trade Compliance — Edge Cases Reference
 
 > Tier 3 reference. Load on demand when handling complex or ambiguous trade compliance situations that don't resolve through standard workflows.

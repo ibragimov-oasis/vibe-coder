@@ -3,6 +3,9 @@ title: Enable pg_stat_statements for Query Analysis
 impact: LOW-MEDIUM
 impactDescription: Identify top resource-consuming queries
 tags: pg-stat-statements, monitoring, statistics, performance
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
 ---
 
 ## Enable pg_stat_statements for Query Analysis

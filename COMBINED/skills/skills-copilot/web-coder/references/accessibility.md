@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-copilot
+---
+
 # Accessibility Reference
 
 Web accessibility ensures content is usable by everyone, including people with disabilities.

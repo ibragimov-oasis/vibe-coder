@@ -3,6 +3,9 @@ name: timing
 description: Interpolation curves in Remotion - linear, easing, spring animations
 metadata:
   tags: spring, bounce, easing, interpolation
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
 ---
 
 A simple linear interpolation is done using the `interpolate` function.

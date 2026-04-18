@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # 🔒 Privacy by Design
 
 Guides AI agents to integrate privacy protections into software from the start—data minimization, consent, encryption, retention. Applies GDPR Article 25, CCPA, and LGPD principles during design and implementation.

@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-hermes
+---
+
 # Himalaya Configuration Reference
 
 Configuration file location: `~/.config/himalaya/config.toml`

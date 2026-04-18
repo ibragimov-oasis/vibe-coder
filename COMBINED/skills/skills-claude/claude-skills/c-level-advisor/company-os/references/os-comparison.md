@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # Operating System Comparison
 
 Side-by-side analysis of the major company operating frameworks.

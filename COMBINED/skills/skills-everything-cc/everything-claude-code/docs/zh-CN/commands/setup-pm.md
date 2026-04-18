@@ -1,6 +1,10 @@
 ---
 description: 配置您首选的包管理器（npm/pnpm/yarn/bun）
 disable-model-invocation: true
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
 ---
 
 # 包管理器设置

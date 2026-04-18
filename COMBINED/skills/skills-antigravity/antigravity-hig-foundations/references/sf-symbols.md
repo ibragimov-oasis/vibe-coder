@@ -301,7 +301,11 @@ For guidance, see [Icons](https://developer.apple.com/design/human-interface-gui
 
 ## [Change log](https://developer.apple.com/design/human-interface-guidelines/sf-symbols#Change-log)
 
-Date| Changes  
+Date| Changes
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
 ---|---  
 July 28, 2025| Updated with guidance for Draw animations and gradient rendering in SF Symbols 7.  
 June 10, 2024| Updated with guidance for new animations and features of SF Symbols 6.  

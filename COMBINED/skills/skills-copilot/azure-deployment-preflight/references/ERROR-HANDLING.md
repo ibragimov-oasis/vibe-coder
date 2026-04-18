@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-copilot
+---
+
 # Error Handling Guide
 
 This reference documents common errors during preflight validation and how to handle them.

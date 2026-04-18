@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-hermes
+---
+
 # AgentResult Fields Reference
 
 `AgentResult` is defined in `environments/agent_loop.py` as a dataclass.

@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/seo
+  - artifact/doc
+  - source/skills-seo
+---
+
 # WordPress Integration Files
 
 These files enable the SEO Machine tool to set Yoast SEO meta fields (Focus Keyphrase, SEO Title, Meta Description) via the REST API.
@@ -67,3 +74,9 @@ POST /wp-json/wp/v2/posts/{id}
 - Requires authentication (Application Password)
 - User must have `edit_post` capability
 - All inputs are sanitized with `sanitize_text_field()`
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-seo]] — Category: skills-seo
+

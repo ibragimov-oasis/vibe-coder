@@ -1,5 +1,9 @@
 ---
 description: Scan and optimize docs for SEO — meta tags, readability, keywords, broken links, sitemap.
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
 ---
 
 Run the SEO auditor on documentation files. Target path: `$ARGUMENTS` (default: all docs/ and root README.md).

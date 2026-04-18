@@ -1,6 +1,10 @@
 ---
 title: "Quality Manager - QMS ISO 13485 Specialist — Agent Skill for Compliance"
 description: "ISO 13485 Quality Management System implementation and maintenance for medical device organizations. Provides QMS design, documentation control. Agent skill for Claude Code, Codex CLI, Gemini CLI, OpenClaw."
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
 ---
 
 # Quality Manager - QMS ISO 13485 Specialist

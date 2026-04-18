@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # Configuracao de Webhooks - WhatsApp Cloud API
 
 > Guia completo para configurar, validar e proteger webhooks da WhatsApp Cloud API.

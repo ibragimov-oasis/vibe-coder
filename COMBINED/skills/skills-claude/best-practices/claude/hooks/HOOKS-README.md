@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # HOOKS-README
 contains all the details, scripts, and instructions for the hooks
 

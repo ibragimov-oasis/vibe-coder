@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # Marketing Skills — Agent Instructions
 
 ## For All Agents (Claude Code, Codex CLI, OpenClaw)

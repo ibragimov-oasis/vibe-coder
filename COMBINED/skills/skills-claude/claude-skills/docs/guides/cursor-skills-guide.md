@@ -1,6 +1,10 @@
 ---
 title: "Cursor Agent Skills & Rules Guide (2026)"
 description: "Install and use 192 agent skills with Cursor IDE. Engineering, marketing, and product plugins for Cursor's AI coding agent."
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
 ---
 
 # Cursor Agent Skills Guide

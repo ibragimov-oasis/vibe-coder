@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # Gemini CLI Foundations
 
 This repository is a **comprehensive skills library** for Gemini CLI - reusable, production-ready skill packages that bundle domain expertise, best practices, analysis tools, and strategic frameworks.

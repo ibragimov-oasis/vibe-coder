@@ -1,6 +1,10 @@
 ---
 title: "/okr — Slash Command for AI Coding Agents"
 description: "Generate OKR cascades from company strategy to team objectives. Usage: /okr generate <strategy>. Slash command for Claude Code, Codex CLI, Gemini CLI."
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
 ---
 
 # /okr

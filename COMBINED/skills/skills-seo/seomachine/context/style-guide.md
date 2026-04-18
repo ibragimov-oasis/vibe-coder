@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/seo
+  - artifact/doc
+  - source/skills-seo
+---
+
 # Castos Style Guide
 
 This guide defines writing conventions, formatting standards, and editorial guidelines for all Castos content.

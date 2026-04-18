@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # fix: Enforce Strict 30-Day Date Filtering
 
 ## Overview

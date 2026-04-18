@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-hermes
+---
+
 # GODMODE CLASSIC — Jailbreak System Prompt Templates
 
 Source: [G0DM0D3](https://github.com/elder-plinius/G0DM0D3) + [L1B3RT4S](https://github.com/elder-plinius/L1B3RT4S)

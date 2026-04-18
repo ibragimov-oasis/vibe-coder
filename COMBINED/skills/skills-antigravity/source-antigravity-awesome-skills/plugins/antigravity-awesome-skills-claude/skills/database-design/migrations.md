@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # Migration Principles
 
 > Safe migration strategy for zero-downtime changes.

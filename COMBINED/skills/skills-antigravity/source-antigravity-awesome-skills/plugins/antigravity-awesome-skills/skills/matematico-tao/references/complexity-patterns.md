@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # Padrões de Complexidade em Android/Kotlin
 
 ## 1. Complexidade Ciclomática (McCabe)

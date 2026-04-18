@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
+---
+
 # 검증 커맨드
 
 현재 코드베이스 상태에 대한 포괄적인 검증을 실행합니다.

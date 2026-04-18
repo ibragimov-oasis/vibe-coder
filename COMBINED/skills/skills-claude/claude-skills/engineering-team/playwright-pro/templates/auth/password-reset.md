@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # Password Reset Template
 
 Tests reset request, setting a new password, and expired link handling.

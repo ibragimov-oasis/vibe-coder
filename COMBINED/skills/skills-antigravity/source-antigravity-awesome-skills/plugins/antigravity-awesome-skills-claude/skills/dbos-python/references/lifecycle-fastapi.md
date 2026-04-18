@@ -3,6 +3,9 @@ title: Integrate DBOS with FastAPI
 impact: CRITICAL
 impactDescription: Proper integration ensures workflows survive server restarts
 tags: fastapi, http, server, integration
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
 ---
 
 ## Integrate DBOS with FastAPI

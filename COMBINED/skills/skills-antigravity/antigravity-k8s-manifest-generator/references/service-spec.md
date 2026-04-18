@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # Kubernetes Service Specification Reference
 
 Comprehensive reference for Kubernetes Service resources, covering service types, networking, load balancing, and service discovery patterns.

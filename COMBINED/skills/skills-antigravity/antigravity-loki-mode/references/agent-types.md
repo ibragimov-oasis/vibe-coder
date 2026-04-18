@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # Agent Types Reference
 
 Complete definitions and capabilities for all 37 specialized agent types.

@@ -3,6 +3,9 @@ title: Minimize Serialization at RSC Boundaries
 impact: HIGH
 impactDescription: reduces data transfer size
 tags: server, rsc, serialization, props
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
 ---
 
 ## Minimize Serialization at RSC Boundaries

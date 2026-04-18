@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # Nonconformity Classification
 
 Severity classification, CAPA integration, and finding documentation guidance.

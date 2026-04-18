@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # Inventory Demand Planning — Edge Cases Reference
 
 > Tier 3 reference. Load on demand when handling complex or ambiguous demand planning situations that don't resolve through standard forecasting and replenishment workflows.

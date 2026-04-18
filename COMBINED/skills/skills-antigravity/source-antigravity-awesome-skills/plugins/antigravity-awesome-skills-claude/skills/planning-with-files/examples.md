@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # Examples: Planning with Files in Action
 
 ## Example 1: Research Task

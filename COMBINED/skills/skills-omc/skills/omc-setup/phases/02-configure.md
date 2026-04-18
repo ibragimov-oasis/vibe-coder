@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/doc
+  - source/skills-omc
+---
+
 # Phase 2: Environment Configuration
 
 **Skip condition**: If resuming and `lastCompletedStep >= 4`, skip this entire phase.

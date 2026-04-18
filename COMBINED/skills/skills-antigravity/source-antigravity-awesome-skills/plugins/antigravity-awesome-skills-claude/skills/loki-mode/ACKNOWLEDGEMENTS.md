@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # Acknowledgements
 
 Loki Mode stands on the shoulders of giants. This project incorporates research, patterns, and insights from the leading AI labs, academic institutions, and practitioners in the field.

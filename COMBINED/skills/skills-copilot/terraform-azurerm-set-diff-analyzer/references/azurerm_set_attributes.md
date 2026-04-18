@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-copilot
+---
+
 # AzureRM Set-Type Attributes Reference
 
 This document explains the overview and maintenance of `azurerm_set_attributes.json`.

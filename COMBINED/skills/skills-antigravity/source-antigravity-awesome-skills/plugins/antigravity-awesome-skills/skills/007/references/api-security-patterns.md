@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # API Security Patterns & Anti-Patterns
 
 > Reference for securing REST APIs, webhooks, and service-to-service communication.

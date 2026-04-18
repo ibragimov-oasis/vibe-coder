@@ -3,6 +3,10 @@ name: go-build-resolver
 description: Especialista em resolução de erros de build, vet e compilação em Go. Corrige erros de build, problemas de go vet e avisos de linter com mudanças mínimas. Use quando builds Go falham.
 tools: ["Read", "Write", "Edit", "Bash", "Grep", "Glob"]
 model: sonnet
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
 ---
 
 # Resolvedor de Erros de Build Go

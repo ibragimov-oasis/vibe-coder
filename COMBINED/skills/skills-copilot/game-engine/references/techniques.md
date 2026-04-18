@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-copilot
+---
+
 # Game Development Techniques
 
 A comprehensive reference covering essential techniques for building web-based games, compiled from MDN Web Docs.

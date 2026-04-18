@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
+---
+
 # Update Documentation
 
 Dokümanları codebase ile senkronize et, truth-of-source dosyalarından oluştur.

@@ -20,7 +20,11 @@ An app can support single- or multiple-object scanning when the app is active, a
 
 **Use approachable terminology.** Near-field communication may be unfamiliar to some people. To make it approachable, avoid referring to technical, developer-oriented terms like _NFC_ , _Core NFC_ , _Near-field communication_ , and _tag_. Instead, use friendly, conversational terms that most people will understand.
 
-Use| Don’t use  
+Use| Don’t use
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
 ---|---  
 Scan the [_object name_].| Scan the NFC tag.  
 Hold your iPhone near the [_object name_] to learn more about it.| To use NFC scanning, tap your phone to the [_object_].  

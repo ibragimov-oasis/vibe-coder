@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
+---
+
 # 质量门命令
 
 按需对文件或项目范围运行 ECC 质量管道。

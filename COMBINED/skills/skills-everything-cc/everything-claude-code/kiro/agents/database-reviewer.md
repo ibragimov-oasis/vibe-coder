@@ -4,6 +4,10 @@ description: PostgreSQL database specialist for query optimization, schema desig
 allowedTools:
   - read
   - shell
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
 ---
 
 # Database Reviewer

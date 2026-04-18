@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-copilot
+---
+
 # Images in Issues and Comments
 
 How to embed images in GitHub issue bodies and comments programmatically via the CLI.

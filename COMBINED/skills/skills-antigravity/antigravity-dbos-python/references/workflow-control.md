@@ -3,6 +3,9 @@ title: Cancel, Resume, and Fork Workflows
 impact: MEDIUM
 impactDescription: Control running workflows and recover from failures
 tags: workflow, cancel, resume, fork, control
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
 ---
 
 ## Cancel, Resume, and Fork Workflows

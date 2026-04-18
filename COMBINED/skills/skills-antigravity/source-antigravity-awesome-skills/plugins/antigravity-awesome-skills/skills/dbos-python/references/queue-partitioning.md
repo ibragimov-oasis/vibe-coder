@@ -3,6 +3,9 @@ title: Partition Queues for Per-Entity Limits
 impact: HIGH
 impactDescription: Enables per-user or per-entity flow control
 tags: queue, partition, per-user, flow-control
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
 ---
 
 ## Partition Queues for Per-Entity Limits

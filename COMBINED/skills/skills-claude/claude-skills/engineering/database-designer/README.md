@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # Database Designer - POWERFUL Tier Skill
 
 A comprehensive database design and analysis toolkit that provides expert-level schema analysis, index optimization, and migration generation capabilities for modern database systems.
@@ -386,3 +393,9 @@ This is a self-contained skill with no external dependencies. To extend function
 ## License
 
 This database designer skill is part of the claude-skills collection and follows the same licensing terms.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

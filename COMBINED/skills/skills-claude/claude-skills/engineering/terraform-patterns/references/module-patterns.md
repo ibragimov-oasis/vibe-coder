@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # Terraform Module Design Patterns Reference
 
 ## Pattern 1: Flat Module (Single Directory)

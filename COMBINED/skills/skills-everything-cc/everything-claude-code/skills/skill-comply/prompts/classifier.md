@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
+---
+
 You are classifying tool calls from a coding agent session against expected behavioral steps.
 
 For each tool call, determine which step (if any) it belongs to. A tool call can match at most one step.

@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # QA Best Practices for React and Next.js
 
 Guidelines for writing maintainable tests, debugging failures, and measuring test quality.

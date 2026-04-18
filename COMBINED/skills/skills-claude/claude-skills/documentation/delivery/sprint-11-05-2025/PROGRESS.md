@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # Sprint Progress Tracker
 
 **Sprint:** sprint-11-05-2025 (Skill-Agent Integration Phase 1-2)

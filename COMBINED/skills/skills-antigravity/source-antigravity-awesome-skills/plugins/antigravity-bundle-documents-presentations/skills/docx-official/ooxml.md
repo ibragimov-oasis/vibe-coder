@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # Office Open XML Technical Reference
 
 **Important: Read this entire document before starting.** This document covers:

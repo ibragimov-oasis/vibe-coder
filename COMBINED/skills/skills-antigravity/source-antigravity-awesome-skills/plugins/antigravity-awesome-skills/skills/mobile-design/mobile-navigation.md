@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # Mobile Navigation Reference
 
 > Navigation patterns, deep linking, back handling, and tab/stack/drawer decisions.

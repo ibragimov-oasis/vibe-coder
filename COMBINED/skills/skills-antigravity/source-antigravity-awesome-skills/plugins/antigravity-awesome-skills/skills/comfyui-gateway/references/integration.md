@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # ComfyUI Gateway -- Integration Guide
 
 Complete integration reference with ready-to-use code examples for every endpoint

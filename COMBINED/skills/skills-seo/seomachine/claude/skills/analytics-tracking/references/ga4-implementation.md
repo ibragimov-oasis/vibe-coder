@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/seo
+  - artifact/doc
+  - source/skills-seo
+---
+
 # GA4 Implementation Reference
 
 Detailed implementation guide for Google Analytics 4.

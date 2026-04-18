@@ -4,6 +4,10 @@ about: Report a bug in a skill or Python script
 title: '[BUG] '
 labels: bug
 assignees: ''
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
 ---
 
 ## Bug Description

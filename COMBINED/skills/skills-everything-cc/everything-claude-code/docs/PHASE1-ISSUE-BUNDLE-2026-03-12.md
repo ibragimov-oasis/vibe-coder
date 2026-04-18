@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
+---
+
 # Phase 1 Issue Bundle — March 12, 2026
 
 ## Status

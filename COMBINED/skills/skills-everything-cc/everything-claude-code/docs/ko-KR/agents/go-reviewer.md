@@ -3,6 +3,10 @@ name: go-reviewer
 description: Go 코드 리뷰 전문가. 관용적 Go, 동시성 패턴, 에러 처리, 성능을 전문으로 합니다. 모든 Go 코드 변경에 사용하세요. Go 프로젝트에서 반드시 사용해야 합니다.
 tools: ["Read", "Grep", "Glob", "Bash"]
 model: sonnet
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
 ---
 
 시니어 Go 코드 리뷰어로서 관용적 Go와 모범 사례의 높은 기준을 보장합니다.

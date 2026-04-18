@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # Pattern Selection Guidelines
 
 > Decision trees for choosing architectural patterns.

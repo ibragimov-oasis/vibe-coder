@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # Incident Response Reference (Executive Playbook)
 
 This is the executive IR playbook — strategic decisions, communication, and leadership during incidents. For technical playbooks (containment procedures, forensics), see your SOC runbooks.

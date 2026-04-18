@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
+---
+
 # Plan - マルチモデル協調計画
 
 マルチモデル協調計画 - コンテキスト取得 + デュアルモデル分析 → ステップバイステップの実装計画を生成。

@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # AEO and GEO Content Patterns
 
 Reusable content block patterns optimized for answer engines and AI citation.

@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
+---
+
 | name | description |
 |------|-------------|
 | cloud-infrastructure-security | 클라우드 플랫폼 배포, 인프라 구성, IAM 정책 관리, 로깅/모니터링 설정, CI/CD 파이프라인 구현 시 이 스킬을 사용하세요. 모범 사례에 맞춘 클라우드 보안 체크리스트를 제공합니다. |

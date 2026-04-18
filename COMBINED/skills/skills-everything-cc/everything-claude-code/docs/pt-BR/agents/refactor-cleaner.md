@@ -3,6 +3,10 @@ name: refactor-cleaner
 description: Especialista em limpeza de código morto e consolidação. Use PROATIVAMENTE para remover código não utilizado, duplicatas e refatorar. Executa ferramentas de análise (knip, depcheck, ts-prune) para identificar código morto e removê-lo com segurança.
 tools: ["Read", "Write", "Edit", "Bash", "Grep", "Glob"]
 model: sonnet
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
 ---
 
 # Limpador de Refatoração & Código Morto

@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-copilot
+---
+
 # Advanced Usage: Output, Queries & Parameters
 
 ## Table of Contents

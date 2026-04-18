@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # Building Claude Code with Boris Cherny — The Pragmatic Engineer
 
 Transcript of the interview with Boris Cherny ([@bcherny](https://x.com/bcherny)), creator of Claude Code, on The Pragmatic Engineer podcast, published March 4, 2026.

@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/seo
+  - artifact/doc
+  - source/skills-seo
+---
+
 <!-- Updated: 2026-03-23 -->
 # DataForSEO Maps & Business Data API Endpoints
 

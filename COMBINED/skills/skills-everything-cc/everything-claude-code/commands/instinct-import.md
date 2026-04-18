@@ -2,6 +2,10 @@
 name: instinct-import
 description: Import instincts from file or URL into project/global scope
 command: true
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
 ---
 
 # Instinct Import Command

@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-business
+---
+
 # Board Deck Frameworks
 
 ## The SaaS Board Pack (Christoph Janz / Point Nine Style)

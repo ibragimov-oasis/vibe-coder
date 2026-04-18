@@ -3,6 +3,9 @@ title: Use Durable Sleep for Delayed Execution
 impact: MEDIUM
 impactDescription: Survives restarts and can span days or weeks
 tags: sleep, delay, schedule, durable
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
 ---
 
 ## Use Durable Sleep for Delayed Execution

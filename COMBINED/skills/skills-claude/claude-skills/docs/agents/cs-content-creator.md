@@ -1,6 +1,10 @@
 ---
 title: "Content Creator Agent — AI Coding Agent & Codex Skill"
 description: "AI-powered content creation specialist for brand voice consistency, SEO optimization, and multi-platform content strategy. Agent-native orchestrator for Claude Code, Codex, Gemini CLI."
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
 ---
 
 # Content Creator Agent

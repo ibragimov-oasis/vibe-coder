@@ -1,5 +1,9 @@
 ---
 description: Gere e rode testes end-to-end com Playwright. Cria jornadas de teste, executa testes, captura screenshots/videos/traces e faz upload de artefatos.
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
 ---
 
 # Comando E2E

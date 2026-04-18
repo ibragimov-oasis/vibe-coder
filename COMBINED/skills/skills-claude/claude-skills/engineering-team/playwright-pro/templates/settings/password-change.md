@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # Password Change Template
 
 Tests current password verification, new password validation, and success flow.

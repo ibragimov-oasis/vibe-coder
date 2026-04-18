@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # System Design Workflows
 
 Step-by-step workflows for common system design tasks.

@@ -2,6 +2,10 @@
 inclusion: fileMatch
 fileMatchPattern: "*.py"
 description: Python patterns extending common rules
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
 ---
 
 # Python Patterns

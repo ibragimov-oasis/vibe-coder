@@ -3,6 +3,10 @@ name: build-error-resolver
 description: Build 및 TypeScript 에러 해결 전문가. Build 실패나 타입 에러 발생 시 자동으로 사용. 최소한의 diff로 build/타입 에러만 수정하며, 아키텍처 변경 없이 빠르게 build를 통과시킵니다.
 tools: ["Read", "Write", "Edit", "Bash", "Grep", "Glob"]
 model: sonnet
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
 ---
 
 # Build 에러 해결사

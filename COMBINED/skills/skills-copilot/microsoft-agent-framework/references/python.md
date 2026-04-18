@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-copilot
+---
+
 # Microsoft Agent Framework for Python
 
 Use this reference when the target project is written in Python.

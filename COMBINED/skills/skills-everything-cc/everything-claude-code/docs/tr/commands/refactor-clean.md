@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
+---
+
 # Refactor Clean
 
 Her adımda test doğrulaması ile ölü kodu güvenle tanımla ve kaldır.

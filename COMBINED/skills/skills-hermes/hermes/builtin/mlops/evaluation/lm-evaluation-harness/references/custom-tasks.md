@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-hermes
+---
+
 # Custom Tasks
 
 Complete guide to creating domain-specific evaluation tasks in lm-evaluation-harness.

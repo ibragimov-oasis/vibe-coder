@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-hermes
+---
+
 # slime Troubleshooting Guide
 
 ## Common Issues and Solutions

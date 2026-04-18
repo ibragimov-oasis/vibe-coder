@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
+---
+
 # 关于 Claude Code 的完整长篇指南
 
 ![Header: The Longform Guide to Everything Claude Code](../../assets/images/longform/01-header.png)

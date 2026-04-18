@@ -1,6 +1,10 @@
 ---
 title: "SaaS Scaffolder — Agent Skill for Product Teams"
 description: "Generates complete, production-ready SaaS project boilerplate including authentication, database schemas, billing integration, API routes, and a. Agent skill for Claude Code, Codex CLI, Gemini CLI, OpenClaw."
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
 ---
 
 # SaaS Scaffolder

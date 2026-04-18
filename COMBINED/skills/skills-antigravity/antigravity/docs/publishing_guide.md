@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # Guia de Publicação — Specs de Mídia e Fluxos
 
 ## Specs de Mídia

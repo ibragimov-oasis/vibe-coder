@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
+---
+
 # Code Review
 
 Revisão completa de segurança e qualidade das mudanças não commitadas:

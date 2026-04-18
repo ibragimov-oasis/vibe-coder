@@ -4,6 +4,10 @@ description: Expert code review specialist. Proactively reviews code for quality
 allowedTools:
   - read
   - shell
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
 ---
 
 You are a senior code reviewer ensuring high standards of code quality and security.

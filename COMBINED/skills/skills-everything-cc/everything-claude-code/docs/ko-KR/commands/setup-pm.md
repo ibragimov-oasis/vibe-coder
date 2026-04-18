@@ -1,6 +1,10 @@
 ---
 description: 선호하는 패키지 매니저(npm/pnpm/yarn/bun) 설정
 disable-model-invocation: true
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
 ---
 
 # 패키지 매니저 설정

@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # Communication Templates — Production Scheduling
 
 > **Reference Type:** Tier 3 — Load on demand when composing or reviewing production scheduling communications.

@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # Customs & Trade Compliance — Communication Templates
 
 > Tier 2 reference. Load when drafting communications with customs brokers, regulatory authorities, internal stakeholders, or trade partners.

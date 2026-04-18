@@ -2,6 +2,10 @@
 name: tailwind
 description: Using TailwindCSS in Remotion.
 metadata:
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
 ---
 
 You can and should use TailwindCSS in Remotion, if TailwindCSS is installed in the project.

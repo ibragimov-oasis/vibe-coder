@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # Business Operations Reference
 
 Workflows and procedures for business swarm agents.

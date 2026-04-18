@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # Content Brief Guide
 
 A brief isn't a writing assignment. It's a contract between the strategist and the writer — and when you're both the same person, it's still the contract between your thinking brain and your writing brain. Skip it and you'll rewrite. Do it right and the draft almost writes itself.

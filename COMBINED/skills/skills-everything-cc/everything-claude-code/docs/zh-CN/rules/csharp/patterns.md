@@ -2,6 +2,10 @@
 paths:
   - "**/*.cs"
   - "**/*.csx"
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
 ---
 
 # C# 模式

@@ -78,7 +78,11 @@ When the thumbstick is at rest, the virtual control fades to show it’s not in 
 
 **Map controller buttons to expected UI behavior.** Outside of gameplay, players expect to navigate your game’s UI in a way that matches the familiar behavior of the platform they’re playing on. When not controlling gameplay, follow these conventions across all Apple platforms:
 
-Button| Expected behavior for UI  
+Button| Expected behavior for UI
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
 ---|---  
 A| Activates a control  
 B| Cancels an action or returns to previous screen  

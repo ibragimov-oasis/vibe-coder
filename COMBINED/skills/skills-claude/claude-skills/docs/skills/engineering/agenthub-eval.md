@@ -1,6 +1,10 @@
 ---
 title: "/hub:eval — Evaluate Agent Results — Agent Skill for Codex & OpenClaw"
 description: "Evaluate and rank agent results by metric or LLM judge for an AgentHub session. Agent skill for Claude Code, Codex CLI, Gemini CLI, OpenClaw."
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
 ---
 
 # /hub:eval — Evaluate Agent Results

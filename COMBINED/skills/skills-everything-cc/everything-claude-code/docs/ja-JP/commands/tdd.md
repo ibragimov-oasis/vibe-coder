@@ -1,5 +1,9 @@
 ---
 description: テスト駆動開発ワークフローを強制します。インターフェースをスキャフォールドし、最初にテストを生成し、次にテストに合格するための最小限のコードを実装します。80%以上のカバレッジを保証します。
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
 ---
 
 # TDDコマンド

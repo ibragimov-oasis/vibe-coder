@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # License Compatibility Matrix
 
 This document provides a comprehensive reference for understanding license compatibility when combining open source software dependencies in your projects.

@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/seo
+  - artifact/doc
+  - source/skills-seo
+---
+
 # Core Web Vitals Audit
 
 **URL/Origin:** {target}

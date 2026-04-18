@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # Gerenciamento de Templates via API - WhatsApp Cloud API
 
 Guia completo para criar, listar, deletar e gerenciar templates de mensagem programaticamente via WhatsApp Business Management API.

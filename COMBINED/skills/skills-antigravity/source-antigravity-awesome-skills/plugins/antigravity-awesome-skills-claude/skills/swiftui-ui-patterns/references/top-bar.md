@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # Top bar overlays (iOS 26+ and fallback)
 
 ## Intent

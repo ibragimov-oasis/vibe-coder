@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
+---
+
 # PM2 初始化
 
 自动分析项目并生成 PM2 服务命令。

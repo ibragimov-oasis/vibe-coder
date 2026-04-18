@@ -122,7 +122,11 @@ For longer lists, the navigation link displays the picker as a button. When some
 
 ## [Change log](https://developer.apple.com/design/human-interface-guidelines/pickers#Change-log)
 
-Date| Changes  
+Date| Changes
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
 ---|---  
 June 5, 2023| Updated guidance for using pickers in watchOS.  
   

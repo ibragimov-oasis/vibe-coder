@@ -1,6 +1,10 @@
 ---
 title: "FDA Consultant Specialist — Agent Skill for Compliance"
 description: "FDA regulatory consultant for medical device companies. Provides 510(k)/PMA/De Novo pathway guidance, QSR (21 CFR 820) compliance, HIPAA assessments. Agent skill for Claude Code, Codex CLI, Gemini CLI, OpenClaw."
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
 ---
 
 # FDA Consultant Specialist

@@ -1,6 +1,10 @@
 ---
 name: test-coverage
 description: 테스트 커버리지를 분석하고, 80% 이상을 목표로 누락된 테스트를 식별하고 생성합니다.
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
 ---
 
 # 테스트 커버리지

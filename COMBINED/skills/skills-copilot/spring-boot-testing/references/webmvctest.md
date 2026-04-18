@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-copilot
+---
+
 # @WebMvcTest
 
 Testing Spring MVC controllers with focused slice tests.

@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # WCAG 2.2 Quick Reference — Level A & AA
 
 ## Perceivable

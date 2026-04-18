@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-awesome-claude
+---
+
 I need you to create an integration testing plan for $ARGUMENTS
 
 These are integration tests and I want them to be inline in rust fashion.

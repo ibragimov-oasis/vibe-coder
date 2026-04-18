@@ -5,6 +5,10 @@ description: >-
 metadata:
   category: reference
   triggers: tool, api, specific-terms
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
 ---
 
 # Reference Name

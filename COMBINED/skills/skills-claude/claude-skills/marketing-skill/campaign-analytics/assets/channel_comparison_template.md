@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # Channel Performance Comparison
 
 **Period:** [Start Date] - [End Date]

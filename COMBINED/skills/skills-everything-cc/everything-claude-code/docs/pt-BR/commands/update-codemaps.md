@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
+---
+
 # Atualizar Codemaps
 
 Analise a estrutura do codebase e gere documentação arquitetural enxuta em tokens.

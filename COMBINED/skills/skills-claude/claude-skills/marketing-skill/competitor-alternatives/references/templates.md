@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # Section Templates for Competitor Pages
 
 Ready-to-use templates for each section of competitor comparison pages.

@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # React Patterns
 
 Production-ready patterns for building scalable React applications with TypeScript.

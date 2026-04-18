@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # Orchestration Protocol
 
 A lightweight pattern for coordinating personas, skills, and task agents on complex work.

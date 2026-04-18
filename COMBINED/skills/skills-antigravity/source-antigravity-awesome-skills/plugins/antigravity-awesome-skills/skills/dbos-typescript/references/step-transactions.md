@@ -3,6 +3,9 @@ title: Use Transactions for Database Operations
 impact: HIGH
 impactDescription: Transactions provide exactly-once database execution within workflows
 tags: step, transaction, database, datasource
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
 ---
 
 ## Use Transactions for Database Operations

@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-hermes
+---
+
 # Production Serving Guide
 
 Comprehensive guide to deploying TensorRT-LLM in production environments.

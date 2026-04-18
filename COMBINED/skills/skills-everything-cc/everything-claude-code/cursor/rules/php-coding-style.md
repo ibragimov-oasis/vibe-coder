@@ -2,6 +2,10 @@
 description: "PHP coding style extending common rules"
 globs: ["**/*.php", "**/composer.json"]
 alwaysApply: false
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
 ---
 # PHP Coding Style
 

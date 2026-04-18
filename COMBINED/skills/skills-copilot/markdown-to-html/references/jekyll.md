@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-copilot
+---
+
 # Jekyll Reference
 
 Jekyll is a static site generator that transforms Markdown content into complete websites. It's blog-aware and powers GitHub Pages.

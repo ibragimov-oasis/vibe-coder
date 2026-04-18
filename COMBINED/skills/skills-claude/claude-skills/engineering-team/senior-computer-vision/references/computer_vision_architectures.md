@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # Computer Vision Architectures
 
 Comprehensive guide to CNN and Vision Transformer architectures for object detection, segmentation, and image classification.

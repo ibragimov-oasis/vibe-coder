@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/doc
+  - source/skills-deer-flow
+---
+
 # Grader Agent
 
 Evaluate expectations against an execution transcript and outputs.

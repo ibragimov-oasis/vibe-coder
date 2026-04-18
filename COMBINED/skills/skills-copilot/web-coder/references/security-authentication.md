@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-copilot
+---
+
 # Security & Authentication Reference
 
 Comprehensive reference for web security, authentication, encryption, and secure coding practices.

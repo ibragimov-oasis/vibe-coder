@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-hermes
+---
+
 # Tokenization Pipeline Components
 
 Complete guide to normalizers, pre-tokenizers, models, post-processors, and decoders.

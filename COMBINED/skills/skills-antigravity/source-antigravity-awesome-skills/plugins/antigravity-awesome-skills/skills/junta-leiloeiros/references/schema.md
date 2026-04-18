@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # Schema de Dados — Leiloeiros das Juntas Comerciais
 
 ## Tabela `leiloeiros` (SQLite)

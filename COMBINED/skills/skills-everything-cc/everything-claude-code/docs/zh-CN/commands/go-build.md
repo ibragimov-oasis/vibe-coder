@@ -1,5 +1,9 @@
 ---
 description: 逐步修复Go构建错误、go vet警告和linter问题。调用go-build-resolver代理进行最小化、精确的修复。
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
 ---
 
 # Go 构建与修复

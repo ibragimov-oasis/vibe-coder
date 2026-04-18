@@ -1,6 +1,10 @@
 ---
 title: "/em:challenge — Pre-Mortem Plan Analysis — Agent Skill for Executives"
 description: "/em -challenge — Pre-Mortem Plan Analysis. Agent skill for Claude Code, Codex CLI, Gemini CLI, OpenClaw."
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
 ---
 
 # /em:challenge — Pre-Mortem Plan Analysis

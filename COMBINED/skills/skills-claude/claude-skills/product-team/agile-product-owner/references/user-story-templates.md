@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # User Story Templates
 
 Standard templates, acceptance criteria patterns, and INVEST validation for user stories.

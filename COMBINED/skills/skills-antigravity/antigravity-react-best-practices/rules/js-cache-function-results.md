@@ -3,6 +3,9 @@ title: Cache Repeated Function Calls
 impact: MEDIUM
 impactDescription: avoid redundant computation
 tags: javascript, cache, memoization, performance
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
 ---
 
 ## Cache Repeated Function Calls

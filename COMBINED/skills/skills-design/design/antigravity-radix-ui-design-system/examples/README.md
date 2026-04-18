@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/ui
+  - artifact/doc
+  - source/skills-design
+---
+
 # Radix UI Design System - Skill Examples
 
 This folder contains practical examples demonstrating how to use Radix UI primitives to build accessible, customizable components.
@@ -61,3 +68,9 @@ These examples use CSS classes. You can:
 - [Main SKILL.md](../SKILL.md) - Complete guide
 - [Component Template](../templates/component-template.tsx.template) - Boilerplate
 - [Radix UI Docs](https://www.radix-ui.com/primitives)
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-design]] — Category: skills-design
+

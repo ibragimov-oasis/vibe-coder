@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # 安全发现分类补充（2026-03-18）
 
 本补充文件取代了之前在 `security-findings-triage-2026-03-15.md` 中的 Jetski 加载器评估。

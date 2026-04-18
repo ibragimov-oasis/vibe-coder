@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
+---
+
 # Checkpoint 指令
 
 在您的工作流程中建立或驗證檢查點。

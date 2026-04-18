@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # Pre-Publish Optimization Checklist
 
 Run this before every piece goes live. Each section is a gate — fail a gate, fix it before moving on.

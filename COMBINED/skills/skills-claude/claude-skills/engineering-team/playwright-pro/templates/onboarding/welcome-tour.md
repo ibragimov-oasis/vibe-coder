@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # Welcome Tour Template
 
 Tests step-by-step onboarding tour, skip, and completion behaviour.

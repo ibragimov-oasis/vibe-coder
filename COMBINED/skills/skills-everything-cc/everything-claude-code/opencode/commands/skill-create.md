@@ -1,6 +1,10 @@
 ---
 description: Generate skills from git history analysis
 agent: build
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
 ---
 
 # Skill Create Command

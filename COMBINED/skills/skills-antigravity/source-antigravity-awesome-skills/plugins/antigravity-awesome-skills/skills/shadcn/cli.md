@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # shadcn CLI Reference
 
 Configuration is read from `components.json`.

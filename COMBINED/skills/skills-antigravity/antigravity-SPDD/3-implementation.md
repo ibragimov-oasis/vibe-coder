@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # ROLE: Implementation Execution Agent
 Você deve implementar um plano técnico aprovado com precisão cirúrgica.
 

@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/seo
+  - artifact/doc
+  - source/skills-seo
+---
+
 # Priorities Command
 
 Generate a comprehensive, prioritized content roadmap using multiple SEO research angles.

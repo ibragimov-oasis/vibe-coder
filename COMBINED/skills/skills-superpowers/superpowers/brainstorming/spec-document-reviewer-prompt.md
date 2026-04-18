@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-superpowers
+---
+
 # Spec Document Reviewer Prompt Template
 
 Use this template when dispatching a spec document reviewer subagent.

@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/doc
+  - source/skills-omc
+---
+
 # Phase 1: Install CLAUDE.md
 
 ## Determine Configuration Target

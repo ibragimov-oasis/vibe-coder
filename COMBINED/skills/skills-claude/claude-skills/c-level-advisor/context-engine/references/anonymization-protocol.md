@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # Anonymization Protocol
 
 Rules for stripping sensitive company data before any external API call, web search, or tool invocation that sends data outside the local environment.

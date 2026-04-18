@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # GTM Efficiency Benchmarks
 
 SaaS benchmarks by funding stage, industry standards, and strategies for improving go-to-market efficiency.

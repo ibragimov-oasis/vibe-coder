@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # Portfolio Prioritization Models & Decision Frameworks
 
 ## Executive Overview

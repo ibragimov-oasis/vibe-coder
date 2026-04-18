@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/seo
+  - artifact/doc
+  - source/skills-seo
+---
+
 # Cluster Command
 
 Build a complete topic cluster strategy with pillar page definition, 8-12 supporting articles, internal linking map, and creation sequence.

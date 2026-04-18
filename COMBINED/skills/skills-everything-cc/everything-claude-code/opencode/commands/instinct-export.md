@@ -1,6 +1,10 @@
 ---
 description: Export instincts for sharing
 agent: build
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
 ---
 
 # Instinct Export Command

@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # Keyword Research Guide
 
 Systematic approach to discovering, evaluating, and selecting keywords for app store optimization.

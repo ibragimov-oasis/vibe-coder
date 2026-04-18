@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # Smart Categorization Implementation - Complete Summary
 
 ## ✅ What Was Done

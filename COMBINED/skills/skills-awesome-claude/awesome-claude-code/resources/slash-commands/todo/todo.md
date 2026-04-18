@@ -1,6 +1,10 @@
 ---
 name: todo
 description: Manage project todos in todos.md file
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-awesome-claude
 ---
 
 # Project Todo Manager

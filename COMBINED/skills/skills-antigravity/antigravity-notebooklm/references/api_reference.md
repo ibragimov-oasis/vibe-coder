@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # NotebookLM Skill API Reference
 
 Complete API documentation for all NotebookLM skill modules.

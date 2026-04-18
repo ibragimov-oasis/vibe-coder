@@ -3,6 +3,9 @@ title: Use DBOS Decorators with Classes
 impact: MEDIUM
 impactDescription: Enables stateful workflow patterns with class instances
 tags: classes, dbos_class, instance, oop
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
 ---
 
 ## Use DBOS Decorators with Classes

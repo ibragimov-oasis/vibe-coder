@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # Skill Authoring Standard
 
 The DNA of every skill in this repository. Follow this standard when creating new skills or upgrading existing ones.

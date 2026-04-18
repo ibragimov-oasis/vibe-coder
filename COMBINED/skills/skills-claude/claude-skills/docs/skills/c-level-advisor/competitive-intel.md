@@ -1,6 +1,10 @@
 ---
 title: "Competitive Intelligence — Agent Skill for Executives"
 description: "Systematic competitor tracking that feeds CMO positioning, CRO battlecards, and CPO roadmap decisions. Use when analyzing competitors, building sales. Agent skill for Claude Code, Codex CLI, Gemini CLI, OpenClaw."
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
 ---
 
 # Competitive Intelligence

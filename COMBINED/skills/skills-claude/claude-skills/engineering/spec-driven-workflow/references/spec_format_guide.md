@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # Spec Format Guide
 
 Complete reference for writing feature specifications. Every section is explained with examples, rationale, and common mistakes.

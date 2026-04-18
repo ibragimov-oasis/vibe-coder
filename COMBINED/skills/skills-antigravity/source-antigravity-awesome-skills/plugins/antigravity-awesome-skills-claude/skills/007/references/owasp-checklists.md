@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # OWASP Top 10 Checklists
 
 > Quick-reference checklists for the three most relevant OWASP Top 10 lists.

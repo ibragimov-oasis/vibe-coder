@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # Plain English Alternatives
 
 Replace complex or pompous words with plain English alternatives.

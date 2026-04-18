@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # Boris Cherny (Creator of Claude Code) On What Grew His Career — Ryan Peterman
 
 Transcript of the interview with Boris Cherny ([@bcherny](https://x.com/bcherny)), creator of Claude Code, on Ryan Peterman's channel, published December 15, 2025.

@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # WCAG 2.2 New Success Criteria Reference
 
 These criteria were added in WCAG 2.2 and are commonly missed.

@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-hermes
+---
+
 # Performance Optimization Guide
 
 Maximize llama.cpp inference speed and efficiency.

@@ -3,6 +3,9 @@ title: Use Transitions for Non-Urgent Updates
 impact: MEDIUM
 impactDescription: maintains UI responsiveness
 tags: rerender, transitions, startTransition, performance
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
 ---
 
 ## Use Transitions for Non-Urgent Updates

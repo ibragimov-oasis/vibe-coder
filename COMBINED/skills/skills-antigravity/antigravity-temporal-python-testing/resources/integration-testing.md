@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # Integration Testing with Mocked Activities
 
 Comprehensive patterns for testing workflows with mocked external dependencies, error injection, and complex scenarios.

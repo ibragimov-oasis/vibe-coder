@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # 🎬 REAL-WORLD USAGE SCENARIO
 ## How the 6 Expert Skills Work Together
 

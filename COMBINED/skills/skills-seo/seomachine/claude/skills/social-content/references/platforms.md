@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/seo
+  - artifact/doc
+  - source/skills-seo
+---
+
 # Platform-Specific Strategy Guide
 
 Detailed strategies for each major social platform.

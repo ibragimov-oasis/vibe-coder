@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # Apply Coupon Template
 
 Tests valid coupon code, invalid code, and expired coupon handling.

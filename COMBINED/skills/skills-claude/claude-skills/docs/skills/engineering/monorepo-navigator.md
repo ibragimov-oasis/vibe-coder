@@ -1,6 +1,10 @@
 ---
 title: "Monorepo Navigator — Agent Skill for Codex & OpenClaw"
 description: "Monorepo Navigator. Agent skill for Claude Code, Codex CLI, Gemini CLI, OpenClaw."
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
 ---
 
 # Monorepo Navigator

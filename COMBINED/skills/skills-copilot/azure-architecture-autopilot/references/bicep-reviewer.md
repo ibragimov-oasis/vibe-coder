@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-copilot
+---
+
 # Bicep Reviewer Agent
 
 Reviews generated Bicep code and automatically fixes any issues found.

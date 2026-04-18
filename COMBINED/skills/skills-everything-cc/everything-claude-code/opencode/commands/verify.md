@@ -1,6 +1,10 @@
 ---
 description: Run verification loop to validate implementation
 agent: build
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
 ---
 
 # Verify Command

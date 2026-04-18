@@ -1,6 +1,10 @@
 ---
 title: "Free Tool Strategy — Agent Skill for Marketing"
 description: "When the user wants to build a free tool for marketing — lead generation, SEO value, or brand awareness. Use when they mention 'engineering as. Agent skill for Claude Code, Codex CLI, Gemini CLI, OpenClaw."
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
 ---
 
 # Free Tool Strategy

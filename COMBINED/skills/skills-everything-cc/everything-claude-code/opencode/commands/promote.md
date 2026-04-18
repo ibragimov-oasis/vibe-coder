@@ -1,6 +1,10 @@
 ---
 description: Promote project instincts to global scope
 agent: build
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
 ---
 
 # Promote Command

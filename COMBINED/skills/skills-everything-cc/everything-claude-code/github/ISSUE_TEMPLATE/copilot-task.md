@@ -4,6 +4,10 @@ about: Assign a coding task to GitHub Copilot agent
 title: "[Copilot] "
 labels: copilot
 assignees: copilot
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
 ---
 
 ## Task Description

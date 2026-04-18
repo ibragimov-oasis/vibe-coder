@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # GCP Service Selection Guide
 
 Quick reference for choosing the right GCP service based on requirements.

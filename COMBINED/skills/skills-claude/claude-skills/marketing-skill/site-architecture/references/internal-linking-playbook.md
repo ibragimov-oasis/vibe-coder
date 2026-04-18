@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # Internal Linking Playbook
 
 Patterns for building an internal link structure that distributes equity intelligently and reinforces topical authority.

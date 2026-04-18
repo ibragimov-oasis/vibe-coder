@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # The 139 Marketing Ideas
 
 Complete list of proven marketing approaches organized by category.

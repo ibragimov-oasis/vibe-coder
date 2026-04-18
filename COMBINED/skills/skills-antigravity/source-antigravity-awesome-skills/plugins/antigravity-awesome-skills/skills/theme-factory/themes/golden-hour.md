@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # Golden Hour
 
 A rich and warm autumnal palette that creates an inviting and sophisticated atmosphere.

@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # Playwright Java – Project Configuration
 
 ## Maven POM (`pom.xml`)

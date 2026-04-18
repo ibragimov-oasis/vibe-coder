@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-hermes
+---
+
 # Chroma Integration Guide
 
 Integration with LangChain, LlamaIndex, and frameworks.

@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # database-schema-designer reference
 
 ## Full Schema Example (Task Management SaaS)

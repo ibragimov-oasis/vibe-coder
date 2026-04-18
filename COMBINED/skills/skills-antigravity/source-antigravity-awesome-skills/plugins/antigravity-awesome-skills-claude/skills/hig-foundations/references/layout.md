@@ -136,7 +136,11 @@ If you use the UIKit collection view flow element, the number of columns in a gr
 
 #### [Two-column grid](https://developer.apple.com/design/human-interface-guidelines/layout#Two-column-grid)
 
-Attribute| Value  
+Attribute| Value
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
 ---|---  
 Unfocused content width| 860 pt  
 Horizontal spacing| 40 pt  

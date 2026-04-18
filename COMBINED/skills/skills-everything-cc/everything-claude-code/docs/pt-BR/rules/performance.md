@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
+---
+
 # Otimização de Desempenho
 
 ## Estratégia de Seleção de Modelo

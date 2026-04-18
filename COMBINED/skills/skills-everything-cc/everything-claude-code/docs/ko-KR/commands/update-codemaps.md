@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
+---
+
 # 코드맵 업데이트
 
 코드베이스 구조를 분석하고 토큰 효율적인 아키텍처 문서를 생성합니다.

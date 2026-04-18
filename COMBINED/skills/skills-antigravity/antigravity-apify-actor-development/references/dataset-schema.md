@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # Dataset Schema Reference
 
 The dataset schema defines how your Actor's output data is structured, transformed, and displayed in the Output tab in the Apify Console.

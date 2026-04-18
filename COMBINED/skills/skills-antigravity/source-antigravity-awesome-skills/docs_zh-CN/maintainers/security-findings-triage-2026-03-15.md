@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # 安全发现分类（2026-03-15）
 
 - 基准：`origin/main@226f10c2a62fc182b4e93458bddea2e60f9b0cb9`

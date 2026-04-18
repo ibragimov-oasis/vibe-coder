@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # CI/CD Integration Guide
 
 Integrating test coverage and quality gates into CI pipelines.

@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # Claude Code Skills
 
 If you are looking for **Claude Code skills** you can install from GitHub, this repository is designed to get you from first clone to first useful prompt quickly.

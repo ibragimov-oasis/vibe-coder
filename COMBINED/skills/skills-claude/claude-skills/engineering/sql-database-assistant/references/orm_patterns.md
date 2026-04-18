@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # ORM Patterns Reference
 
 Side-by-side comparison of Prisma, Drizzle, TypeORM, and SQLAlchemy patterns for common database operations.

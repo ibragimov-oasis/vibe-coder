@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/seo
+  - artifact/doc
+  - source/skills-seo
+---
+
 # Backlink Quality Scoring Methodology
 
 ## Toxic Link Indicators (30 Patterns)

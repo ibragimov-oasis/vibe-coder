@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/ui
+  - artifact/doc
+  - source/skills-design
+---
+
 # Loading & Placeholders
 
 Use this when a view needs a consistent loading state (skeletons, redaction, empty state) without blocking interaction.

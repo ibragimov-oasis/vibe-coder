@@ -1,5 +1,9 @@
 ---
 description: 全面的Kotlin代码审查，涵盖惯用模式、空安全、协程安全和安全性。调用kotlin-reviewer代理。
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
 ---
 
 # Kotlin 代码审查

@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # Cursor 技能
 
 如果您在 GitHub 上搜索了 **Cursor 技能**，此仓库旨在作为一个实用的起点：可安装的技能、清晰的使用文档，以及与 Cursor 聊天工作流良好配合的大型库。

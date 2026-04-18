@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # Padrões Históricos de Tempo por Tipo de Tarefa
 
 Baseado em execuções reais do ecossistema.

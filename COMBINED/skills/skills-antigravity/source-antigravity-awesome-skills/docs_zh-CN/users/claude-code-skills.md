@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # Claude Code 技能
 
 如果您正在寻找可以从 GitHub 安装的 **Claude Code 技能**，此仓库旨在帮助您从首次克隆到快速上手第一个有用的提示词。

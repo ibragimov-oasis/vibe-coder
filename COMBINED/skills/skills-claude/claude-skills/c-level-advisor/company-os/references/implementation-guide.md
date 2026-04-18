@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # Company Operating System — 90-Day Implementation Guide
 
 Don't implement everything at once. The fastest path to failure is trying to launch the full operating system in week one. Build incrementally. Let the team experience wins before adding complexity.

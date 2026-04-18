@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # risk-management-specialist reference
 
 ## Risk Assessment Templates

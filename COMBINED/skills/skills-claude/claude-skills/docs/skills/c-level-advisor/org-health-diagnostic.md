@@ -1,6 +1,10 @@
 ---
 title: "Org Health Diagnostic — Agent Skill for Executives"
 description: "Cross-functional organizational health check combining signals from all C-suite roles. Scores 8 dimensions on a traffic-light scale with drill-down. Agent skill for Claude Code, Codex CLI, Gemini CLI, OpenClaw."
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
 ---
 
 # Org Health Diagnostic

@@ -1,6 +1,10 @@
 ---
 title: "Runbook Generator — Agent Skill for Codex & OpenClaw"
 description: "Runbook Generator. Agent skill for Claude Code, Codex CLI, Gemini CLI, OpenClaw."
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
 ---
 
 # Runbook Generator

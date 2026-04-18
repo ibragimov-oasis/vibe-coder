@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # Developer Handoff Guide
 
 Reference for integrating design tokens into development workflows and design tool collaboration.

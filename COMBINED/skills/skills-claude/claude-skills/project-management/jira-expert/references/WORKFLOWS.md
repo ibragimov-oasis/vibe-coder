@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # Jira Workflows Reference
 
 Comprehensive guide to Jira workflow design, transitions, conditions, validators, and post-functions.

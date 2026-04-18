@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # Security Architecture Patterns
 
 Proven security architecture patterns for designing resilient systems.

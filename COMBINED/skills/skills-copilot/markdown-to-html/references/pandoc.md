@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-copilot
+---
+
 # Pandoc Reference
 
 Pandoc is a universal document converter that can convert between numerous markup formats, including Markdown, HTML, LaTeX, Word, and many more.

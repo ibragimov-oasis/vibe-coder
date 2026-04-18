@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-copilot
+---
+
 # Servers & Infrastructure Reference
 
 Web servers, hosting, deployment, and infrastructure concepts.

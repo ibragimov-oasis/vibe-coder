@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
+---
+
 # 工具链审计命令
 
 运行确定性仓库框架审计并返回优先级评分卡。

@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-superpowers
+---
+
 # Academic Test: Systematic Debugging Skill
 
 You have access to the systematic debugging skill at skills/debugging/systematic-debugging

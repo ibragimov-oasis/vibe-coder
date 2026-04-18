@@ -3,6 +3,9 @@ title: Use Streams for Real-Time Data
 impact: MEDIUM
 impactDescription: Enables real-time progress and LLM streaming
 tags: streaming, write_stream, read_stream, realtime
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
 ---
 
 ## Use Streams for Real-Time Data

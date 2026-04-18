@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # Mobile Design Thinking
 
 > **This file prevents AI from using memorized patterns and forces genuine thinking.**

@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
+---
+
 # Harness Audit Command
 
 Run a deterministic repository harness audit and return a prioritized scorecard.

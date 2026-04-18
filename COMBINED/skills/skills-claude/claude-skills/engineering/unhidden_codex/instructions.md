@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # Engineering Advanced Skills — Codex CLI Instructions
 
 When working on advanced engineering tasks, use the POWERFUL-tier skill system:

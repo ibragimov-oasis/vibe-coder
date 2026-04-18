@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-copilot
+---
+
 # Game Development Basics
 
 A comprehensive reference covering web game development technologies, game architecture, and the anatomy of a game loop.

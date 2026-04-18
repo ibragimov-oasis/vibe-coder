@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # Building Generic Components
 
 Reducing nesting and complexity is achieved by breaking down views into generic, reusable components.

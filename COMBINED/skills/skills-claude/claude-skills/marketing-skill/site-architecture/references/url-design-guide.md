@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # URL Design Guide
 
 URL structure by site type — with examples of what good and bad looks like in practice.

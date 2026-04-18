@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # Antigravity Awesome Skills vs Awesome Claude Skills
 
 If you are comparing **Antigravity Awesome Skills** with **Awesome Claude Skills**, the decision usually comes down to breadth vs curation.

@@ -3,6 +3,9 @@ title: Cross-Request LRU Caching
 impact: HIGH
 impactDescription: caches across requests
 tags: server, cache, lru, cross-request
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
 ---
 
 ## Cross-Request LRU Caching

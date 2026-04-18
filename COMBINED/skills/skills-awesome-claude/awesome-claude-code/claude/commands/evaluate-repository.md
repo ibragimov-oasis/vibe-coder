@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-awesome-claude
+---
+
 # Repository Evaluation Prompt (Awesome-Claude-Code · Full Version)
 
 ## Evaluation Context (Claude Code Ecosystem)

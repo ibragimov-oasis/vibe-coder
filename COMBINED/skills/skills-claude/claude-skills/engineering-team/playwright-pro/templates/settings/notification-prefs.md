@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # Notification Preferences Template
 
 Tests toggling notification channels and saving preferences.

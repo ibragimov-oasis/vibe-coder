@@ -1,6 +1,10 @@
 ---
 title: "Sales Engineer Skill — Agent Skill for Growth"
 description: "Analyzes RFP/RFI responses for coverage gaps, builds competitive feature comparison matrices, and plans proof-of-concept (POC) engagements for. Agent skill for Claude Code, Codex CLI, Gemini CLI, OpenClaw."
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
 ---
 
 # Sales Engineer Skill

@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-research
+---
+
 [!NOTE] Generate this report in user's own language.
 
 # {TITLE}

@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # Skill Catalog
 
 Generated at: 2026-02-08T00:00:00.000Z

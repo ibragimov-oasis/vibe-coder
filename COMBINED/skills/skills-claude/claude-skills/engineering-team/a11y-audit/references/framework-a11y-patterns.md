@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # Framework-Specific Accessibility Patterns
 
 ## React / Next.js

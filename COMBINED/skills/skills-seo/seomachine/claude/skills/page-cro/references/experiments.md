@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/seo
+  - artifact/doc
+  - source/skills-seo
+---
+
 # Page CRO Experiment Ideas
 
 Comprehensive list of A/B tests and experiments organized by page type.

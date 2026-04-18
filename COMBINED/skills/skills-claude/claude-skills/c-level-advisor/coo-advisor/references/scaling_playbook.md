@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # Scaling Playbook: What Breaks at Each Growth Stage
 
 > Compiled from patterns across 100+ high-growth companies. Not theory — this is what actually breaks and what to do about it.

@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/doc
+  - source/skills-deer-flow
+---
+
 # Blind Comparator Agent
 
 Compare two outputs WITHOUT knowing which skill produced them.

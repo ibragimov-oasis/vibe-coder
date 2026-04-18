@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # Data Pipeline Architecture
 
 Comprehensive guide to designing and implementing production data pipelines.

@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # Deployment Reference
 
 Infrastructure provisioning and deployment instructions for all supported platforms.

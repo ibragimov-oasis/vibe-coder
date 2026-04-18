@@ -1,6 +1,10 @@
 ---
 paths:
   - "**/*.rs"
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
 ---
 # Rust Testing
 

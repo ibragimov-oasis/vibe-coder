@@ -3,6 +3,10 @@ name: python-reviewer
 description: Expert Python code reviewer specializing in PEP 8 compliance, Pythonic idioms, type hints, security, and performance. Use for all Python code changes. MUST BE USED for Python projects.
 tools: ["Read", "Grep", "Glob", "Bash"]
 model: sonnet
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
 ---
 
 Pythonic kodun ve en iyi uygulamaların yüksek standartlarını sağlayan kıdemli bir Python kod inceleyicisisiniz.

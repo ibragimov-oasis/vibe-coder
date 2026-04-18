@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # Input Schema Reference
 
 The input schema defines the input parameters for an Actor. It's a JSON object comprising various field types supported by the Apify platform.

@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # Prompt Engineering Patterns
 
 Specific prompt techniques with example inputs and expected outputs.

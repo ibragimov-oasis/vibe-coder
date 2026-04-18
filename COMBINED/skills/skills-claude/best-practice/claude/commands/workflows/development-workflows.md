@@ -1,5 +1,9 @@
 ---
 description: Update the DEVELOPMENT WORKFLOWS table by researching all 10 workflow repos in parallel
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
 ---
 
 # Workflow — Development Workflows

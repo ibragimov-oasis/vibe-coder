@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # Query Optimization
 
 > N+1 problem, EXPLAIN ANALYZE, optimization priorities.

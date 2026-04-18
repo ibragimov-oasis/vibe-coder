@@ -1,6 +1,10 @@
 ---
 title: "Senior Security Engineer — Agent Skill & Codex Plugin"
 description: "Security engineering toolkit for threat modeling, vulnerability analysis, secure architecture, and penetration testing. Includes STRIDE analysis. Agent skill for Claude Code, Codex CLI, Gemini CLI, OpenClaw."
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
 ---
 
 # Senior Security Engineer

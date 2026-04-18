@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/seo
+  - artifact/doc
+  - source/skills-seo
+---
+
 # Email Types Reference
 
 A comprehensive guide to lifecycle and campaign emails. Use this as an audit checklist and implementation reference.

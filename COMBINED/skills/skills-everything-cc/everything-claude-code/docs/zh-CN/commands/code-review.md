@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
+---
+
 # 代码审查
 
 对未提交的更改进行全面的安全性和质量审查：

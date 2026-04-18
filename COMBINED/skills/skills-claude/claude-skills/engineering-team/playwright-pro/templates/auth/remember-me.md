@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # Remember Me Template
 
 Tests persistent login cookie behaviour and expiry.

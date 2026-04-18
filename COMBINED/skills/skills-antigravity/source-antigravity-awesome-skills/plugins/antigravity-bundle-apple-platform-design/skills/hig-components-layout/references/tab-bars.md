@@ -163,7 +163,11 @@ Play
 
 ## [Change log](https://developer.apple.com/design/human-interface-guidelines/tab-bars#Change-log)
 
-Date| Changes  
+Date| Changes
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
 ---|---  
 December 16, 2025| Updated guidance for Liquid Glass.  
 July 28, 2025| Added guidance for Liquid Glass.  

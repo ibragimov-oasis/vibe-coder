@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-hermes
+---
+
 # Provider Configuration
 
 Guide to using Instructor with different LLM providers.

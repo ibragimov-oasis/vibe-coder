@@ -2,6 +2,10 @@
 name: prune
 description: Delete pending instincts older than 30 days that were never promoted
 command: true
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
 ---
 
 # Prune Pending Instincts

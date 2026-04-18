@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-hermes
+---
+
 # NeuroSkill Guided Protocols
 
 Over 70 mind-body practices triggered by specific biometric (EXG) signals. These

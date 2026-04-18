@@ -2,6 +2,10 @@
 description: Analyze and improve test coverage
 agent: tdd-guide
 subtask: true
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
 ---
 
 # Test Coverage Command

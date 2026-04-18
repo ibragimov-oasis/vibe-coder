@@ -2,6 +2,10 @@
 name: instinct-import
 description: İçgüdüleri dosya veya URL'den proje/global kapsama aktar
 command: true
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
 ---
 
 # Instinct Import Komutu

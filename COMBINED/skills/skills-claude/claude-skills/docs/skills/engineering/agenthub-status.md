@@ -1,6 +1,10 @@
 ---
 title: "/hub:status — Session Status — Agent Skill for Codex & OpenClaw"
 description: "Show DAG state, agent progress, and branch status for an AgentHub session. Agent skill for Claude Code, Codex CLI, Gemini CLI, OpenClaw."
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
 ---
 
 # /hub:status — Session Status

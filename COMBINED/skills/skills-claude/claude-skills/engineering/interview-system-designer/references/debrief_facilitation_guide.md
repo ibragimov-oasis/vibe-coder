@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # Interview Debrief Facilitation Guide
 
 This guide provides a comprehensive framework for conducting effective, unbiased interview debriefs that lead to consistent hiring decisions. Use this to facilitate productive discussions that focus on evidence-based evaluation.

@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # MV Patterns Reference
 
 Distilled guidance for deciding whether a SwiftUI feature should stay as plain MV or introduce a view model.

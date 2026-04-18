@@ -1,6 +1,10 @@
 ---
 title: "Schema Markup Implementation — Agent Skill for Marketing"
 description: "When the user wants to implement, audit, or validate structured data (schema markup) on their website. Use when the user mentions 'structured data,'. Agent skill for Claude Code, Codex CLI, Gemini CLI, OpenClaw."
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
 ---
 
 # Schema Markup Implementation

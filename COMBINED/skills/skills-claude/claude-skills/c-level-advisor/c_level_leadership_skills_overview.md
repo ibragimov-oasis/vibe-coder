@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # C-Level Leadership Skills Suite
 
 ## Executive Summary

@@ -6,6 +6,9 @@ date_created: [YYYY-MM-DD]
 last_updated: [Optional YYYY-MM-DD]
 owner: [Optional team or individual]
 tags: [Optional list of relevant tags]
+  - domain/agents
+  - artifact/doc
+  - source/skills-copilot
 ---
 
 # [Component Name] Documentation

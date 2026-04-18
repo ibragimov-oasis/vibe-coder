@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # Team Health Check - Spotify Squad Model
 **Team:** [TEAM_NAME]  
 **Assessment Date:** [DATE]  

@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # Arctic Frost
 
 A cool and crisp winter-inspired theme that conveys clarity, precision, and professionalism.

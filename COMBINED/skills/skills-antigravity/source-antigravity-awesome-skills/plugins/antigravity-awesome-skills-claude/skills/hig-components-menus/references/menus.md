@@ -161,7 +161,11 @@ In visionOS, a menu can display items using the small or large layout styles tha
 
 ## [Change log](https://developer.apple.com/design/human-interface-guidelines/menus#Change-log)
 
-Date| Changes  
+Date| Changes
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
 ---|---  
 December 16, 2025| Added guidance for presenting menus with breakthrough effects in visionOS.  
 July 28, 2025| Added guidance for representing menu items with icons.  

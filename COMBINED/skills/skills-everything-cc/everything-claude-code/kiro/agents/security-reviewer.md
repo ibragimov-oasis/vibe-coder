@@ -4,6 +4,10 @@ description: Security vulnerability detection and remediation specialist. Use PR
 allowedTools:
   - read
   - shell
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
 ---
 
 # Security Reviewer

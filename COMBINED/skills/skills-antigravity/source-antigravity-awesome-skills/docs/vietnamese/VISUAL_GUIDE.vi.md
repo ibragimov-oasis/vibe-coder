@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # Hướng dẫn Nhanh bằng Hình ảnh (Visual Guide)
 
 **Học qua hình ảnh!** Hướng dẫn này sử dụng các sơ đồ và ví dụ trực quan để giúp bạn hiểu về các kỹ năng (skills).

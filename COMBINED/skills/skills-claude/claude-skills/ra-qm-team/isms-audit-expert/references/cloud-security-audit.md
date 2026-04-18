@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # Cloud Security Audit Guide
 
 Assessment framework for cloud service security verification.

@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-hermes
+---
+
 # Reward Modeling
 
 Guide to training reward models with TRL for RLHF pipelines.

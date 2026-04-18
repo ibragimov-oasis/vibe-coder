@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
+---
+
 # 执行 - 多模型协同执行
 
 多模型协同执行 - 从计划获取原型 → Claude 重构并实施 → 多模型审计与交付。

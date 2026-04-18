@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # Order Confirmation Template
 
 Tests the success page and order details after checkout.

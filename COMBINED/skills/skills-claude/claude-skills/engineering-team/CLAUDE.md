@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # Engineering Team Skills - Claude Code Guidance
 
 This guide covers the 30 production-ready engineering skills and their Python automation tools.

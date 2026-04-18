@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-copilot
+---
+
 # Azure Dynamic Sources Registry
 
 This file manages **only the sources (URLs) for frequently changing information**.

@@ -1,6 +1,10 @@
 ---
 title: "Senior Quality Manager Responsible Person (QMR) — Agent Skill for Compliance"
 description: "Senior Quality Manager Responsible Person (QMR) for HealthTech and MedTech companies. Provides quality system governance, management review. Agent skill for Claude Code, Codex CLI, Gemini CLI, OpenClaw."
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
 ---
 
 # Senior Quality Manager Responsible Person (QMR)

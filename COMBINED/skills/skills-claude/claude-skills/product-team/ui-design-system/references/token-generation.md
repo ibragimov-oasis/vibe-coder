@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # Design Token Generation Guide
 
 Reference for color palette algorithms, typography scales, and WCAG accessibility checking.

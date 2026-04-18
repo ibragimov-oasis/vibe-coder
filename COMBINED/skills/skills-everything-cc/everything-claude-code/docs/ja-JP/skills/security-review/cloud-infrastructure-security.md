@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
+---
+
 | name | description |
 |------|-------------|
 | cloud-infrastructure-security | クラウドプラットフォームへのデプロイ、インフラストラクチャの設定、IAMポリシーの管理、ロギング/モニタリングの設定、CI/CDパイプラインの実装時にこのスキルを使用します。ベストプラクティスに沿ったクラウドセキュリティチェックリストを提供します。 |

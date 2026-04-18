@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
+---
+
 # PM2 初期化
 
 プロジェクトを自動分析し、PM2サービスコマンドを生成します。

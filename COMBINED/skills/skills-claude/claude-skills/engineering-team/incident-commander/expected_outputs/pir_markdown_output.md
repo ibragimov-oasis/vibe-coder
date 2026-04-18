@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # Post-Incident Review: Payment API Database Connection Pool Exhaustion
 
 ## Executive Summary

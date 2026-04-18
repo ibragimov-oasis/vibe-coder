@@ -1,6 +1,10 @@
 ---
 title: "/ar:resume — Resume Experiment — Agent Skill for Codex & OpenClaw"
 description: "Resume a paused experiment. Checkout the experiment branch, read results history, continue iterating. Agent skill for Claude Code, Codex CLI, Gemini CLI, OpenClaw."
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
 ---
 
 # /ar:resume — Resume Experiment

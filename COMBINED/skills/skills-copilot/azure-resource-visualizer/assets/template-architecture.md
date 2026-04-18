@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-copilot
+---
+
 # Azure Architecture: [Resource Group Name]
 
 **Subscription**: [subscription-name]  

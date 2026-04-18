@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # Understanding Claude Skills Discovery in Large Monorepos
 
 When working with Claude Code in a monorepo, understanding how skills are discovered and loaded into context is crucial for organizing your project-specific capabilities effectively.

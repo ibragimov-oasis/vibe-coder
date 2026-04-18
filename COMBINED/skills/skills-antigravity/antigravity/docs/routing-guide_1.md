@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # Routing Guide
 
 TanStack Router implementation with folder-based routing and lazy loading patterns.

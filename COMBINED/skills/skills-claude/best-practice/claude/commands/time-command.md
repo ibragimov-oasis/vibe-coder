@@ -1,5 +1,9 @@
 ---
 description: Display the current time in Pakistan Standard Time (PKT, UTC+5)
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
 ---
 
 # Time Command

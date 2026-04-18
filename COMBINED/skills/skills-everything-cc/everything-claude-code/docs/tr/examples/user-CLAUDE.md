@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
+---
+
 # Kullanıcı Seviyesi CLAUDE.md Örneği
 
 Bu, örnek bir kullanıcı seviyesi CLAUDE.md dosyasıdır. `~/.claude/CLAUDE.md` konumuna yerleştirin.

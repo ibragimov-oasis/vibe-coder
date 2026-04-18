@@ -1,5 +1,9 @@
 ---
 description: Playwright로 E2E 테스트를 생성하고 실행합니다. 테스트 여정을 만들고, 테스트를 실행하며, 스크린샷/비디오/트레이스를 캡처하고, 아티팩트를 업로드합니다.
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
 ---
 
 # E2E 커맨드

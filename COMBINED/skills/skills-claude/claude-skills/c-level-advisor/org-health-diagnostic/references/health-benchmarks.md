@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # Org Health Benchmarks by Stage
 
 Benchmarks for scoring each dimension at Seed, Series A, Series B, and Series C.

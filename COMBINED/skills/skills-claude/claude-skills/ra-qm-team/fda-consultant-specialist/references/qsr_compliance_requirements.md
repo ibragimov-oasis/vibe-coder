@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # Quality System Regulation (QSR) Compliance
 
 Complete guide to 21 CFR Part 820 requirements for medical device manufacturers.

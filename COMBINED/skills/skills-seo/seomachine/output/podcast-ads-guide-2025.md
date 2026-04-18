@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/seo
+  - artifact/doc
+  - source/skills-seo
+---
+
 # Podcast Ads: The Complete Guide to Monetizing Your Show [2025]
 
 The podcast advertising market exceeded $4 billion in 2025, growing by nearly 33% year-over-year. And here's what most podcasters don't realize: you don't need millions of downloads to start earning from podcast ads.

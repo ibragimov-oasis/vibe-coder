@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-awesome-claude
+---
+
 # Lamoom Python Project Guide
 
 ## Build/Test/Lint Commands

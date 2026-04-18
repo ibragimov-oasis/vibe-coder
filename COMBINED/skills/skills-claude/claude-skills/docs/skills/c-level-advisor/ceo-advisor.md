@@ -1,6 +1,10 @@
 ---
 title: "CEO Advisor — Agent Skill for Executives"
 description: "Executive leadership guidance for strategic decision-making, organizational development, and stakeholder management. Use when planning strategy. Agent skill for Claude Code, Codex CLI, Gemini CLI, OpenClaw."
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
 ---
 
 # CEO Advisor

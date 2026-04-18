@@ -1,6 +1,10 @@
 ---
 title: "API Design Reviewer — Agent Skill for Codex & OpenClaw"
 description: "API Design Reviewer. Agent skill for Claude Code, Codex CLI, Gemini CLI, OpenClaw."
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
 ---
 
 # API Design Reviewer

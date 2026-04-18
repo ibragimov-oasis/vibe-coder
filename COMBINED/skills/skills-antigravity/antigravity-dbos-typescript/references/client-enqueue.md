@@ -3,6 +3,9 @@ title: Enqueue Workflows from External Applications
 impact: MEDIUM
 impactDescription: Enables external services to submit work to DBOS queues
 tags: client, enqueue, external, queue
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
 ---
 
 ## Enqueue Workflows from External Applications

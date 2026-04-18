@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # Common Pitfalls (Top 10)
 
 ## 1. waitForTimeout

@@ -3,6 +3,9 @@ title: Use Async Workflows Correctly
 impact: LOW
 impactDescription: Enables non-blocking I/O in workflows
 tags: async, coroutine, await, asyncio
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
 ---
 
 ## Use Async Workflows Correctly

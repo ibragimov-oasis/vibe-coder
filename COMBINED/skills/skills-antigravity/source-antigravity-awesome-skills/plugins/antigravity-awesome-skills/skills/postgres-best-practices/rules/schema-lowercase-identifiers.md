@@ -3,6 +3,9 @@ title: Use Lowercase Identifiers for Compatibility
 impact: MEDIUM
 impactDescription: Avoid case-sensitivity bugs with tools, ORMs, and AI assistants
 tags: naming, identifiers, case-sensitivity, schema, conventions
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
 ---
 
 ## Use Lowercase Identifiers for Compatibility

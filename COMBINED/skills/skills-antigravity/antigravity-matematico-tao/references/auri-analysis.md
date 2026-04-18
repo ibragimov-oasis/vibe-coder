@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # Auri/EarLLM — Contexto Completo para Análise Matemática
 
 ## Visão Geral do Sistema

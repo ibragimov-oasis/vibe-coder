@@ -1,6 +1,10 @@
 ---
 name: python-fastapi
 description: FastAPI REST API template principles. SQLAlchemy, Pydantic, Alembic.
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
 ---
 
 # FastAPI API Template

@@ -1,6 +1,10 @@
 ---
 description: Execute phased implementation with validation gates
 argument-hint: "<feature-slug> [--phase N] [--validate-only]"
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
 ---
 
 ## User Input

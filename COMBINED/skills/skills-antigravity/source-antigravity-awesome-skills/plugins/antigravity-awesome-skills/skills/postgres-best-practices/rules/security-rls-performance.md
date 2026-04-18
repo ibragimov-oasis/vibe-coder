@@ -3,6 +3,9 @@ title: Optimize RLS Policies for Performance
 impact: HIGH
 impactDescription: 5-10x faster RLS queries with proper patterns
 tags: rls, performance, security, optimization
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
 ---
 
 ## Optimize RLS Policies for Performance

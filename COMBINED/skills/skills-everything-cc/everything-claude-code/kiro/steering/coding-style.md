@@ -1,6 +1,10 @@
 ---
 inclusion: auto
 description: Core coding style rules including immutability, file organization, error handling, and code quality standards.
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
 ---
 
 # Coding Style

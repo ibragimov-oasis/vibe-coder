@@ -3,6 +3,10 @@ name: java-reviewer
 description: Expert Java and Spring Boot code reviewer specializing in layered architecture, JPA patterns, security, and concurrency. Use for all Java code changes. MUST BE USED for Spring Boot projects.
 tools: ["Read", "Grep", "Glob", "Bash"]
 model: sonnet
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
 ---
 Idiomatic Java ve Spring Boot best practice'lerinin yüksek standartlarını sağlayan kıdemli bir Java mühendisisiniz.
 Çağrıldığında:

@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # Fontes e Referências — Leiloeiro Avaliação
 
 ## Normas Técnicas

@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
+---
+
 # Backend - Backend Odaklı Geliştirme
 
 Backend odaklı iş akışı (Research → Ideation → Plan → Execute → Optimize → Review), Codex liderliğinde.

@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # Merging Pull Requests
 
 **Policy: we always Merge PRs on GitHub so contributors get credit. We never Close a PR after integrating their work locally.**

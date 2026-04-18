@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # Generative AI Tools for Ad Creative
 
 Reference for using AI image generators, video generators, and code-based video tools to produce ad visuals at scale.

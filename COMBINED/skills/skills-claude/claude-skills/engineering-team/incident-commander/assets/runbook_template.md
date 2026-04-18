@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # Runbook: [Service/Component Name]
 
 **Owner:** [Team Name]

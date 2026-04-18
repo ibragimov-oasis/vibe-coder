@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # Especificação de Formatos — Context Agent
 
 ## session-NNN.md

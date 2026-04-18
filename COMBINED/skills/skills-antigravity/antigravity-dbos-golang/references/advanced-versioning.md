@@ -3,6 +3,9 @@ title: Use Versioning for Blue-Green Deployments
 impact: LOW
 impactDescription: Enables safe deployment of new code versions alongside old ones
 tags: advanced, versioning, blue-green, deployment
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
 ---
 
 ## Use Versioning for Blue-Green Deployments

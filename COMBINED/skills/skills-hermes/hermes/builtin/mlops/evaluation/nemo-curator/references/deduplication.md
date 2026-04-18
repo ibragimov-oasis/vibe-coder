@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-hermes
+---
+
 # Deduplication Guide
 
 Complete guide to exact, fuzzy, and semantic deduplication.

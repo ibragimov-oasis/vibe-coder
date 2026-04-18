@@ -3,6 +3,9 @@ title: Cancel, Resume, and Fork Workflows
 impact: CRITICAL
 impactDescription: Enables operational control over long-running workflows
 tags: workflow, cancel, resume, fork, management
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
 ---
 
 ## Cancel, Resume, and Fork Workflows

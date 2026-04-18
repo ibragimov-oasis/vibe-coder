@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # Technology Evaluation Examples
 
 Concrete examples showing input formats and expected outputs.

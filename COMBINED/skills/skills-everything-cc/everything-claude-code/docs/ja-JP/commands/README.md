@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
+---
+
 # コマンド
 
 コマンドはスラッシュ（`/command-name`）で起動するユーザー起動アクションです。有用なワークフローと開発タスクを実行します。
@@ -111,3 +118,9 @@ What this command does.
 ---
 
 **覚えておいてください**：コマンドはワークフローを自動化し、繰り返しタスクを簡素化します。チームの一般的なパターンに対する新しいコマンドを作成することをお勧めします。
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

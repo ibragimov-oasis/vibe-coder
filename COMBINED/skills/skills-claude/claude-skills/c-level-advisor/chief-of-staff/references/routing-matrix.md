@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # Routing Matrix
 
 Detailed routing rules for the Chief of Staff. When a founder asks a question, find the best match in this matrix, then apply the scoring rules to determine single-role, multi-role, or board meeting.

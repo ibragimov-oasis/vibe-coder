@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # Hook Mechanisms - Deep Dive
 
 Technical deep dive into how the UserPromptSubmit and PreToolUse hooks work.

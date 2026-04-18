@@ -1,4 +1,11 @@
 ---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
+---
 title: "Photo editing | Apple Developer Documentation"
 source: https://developer.apple.com/design/human-interface-guidelines/photo-editing
 

@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # Base Legal para Coleta de Dados de Leiloeiros
 
 ## Fundamento Legal

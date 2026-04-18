@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
+---
+
 # PM2 Init
 
 Auto-analyze project and generate PM2 service commands.

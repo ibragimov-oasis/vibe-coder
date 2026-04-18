@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # Navigation & Sections
 
 Zafiro provides powerful abstractions for managing application-wide navigation and modular UI sections.

@@ -1,6 +1,10 @@
 ---
 title: "/hub:board — Message Board — Agent Skill for Codex & OpenClaw"
 description: "Read, write, and browse the AgentHub message board for agent coordination. Agent skill for Claude Code, Codex CLI, Gemini CLI, OpenClaw."
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
 ---
 
 # /hub:board — Message Board

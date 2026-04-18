@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-copilot
+---
+
 # MCP Bootstrap — Quick Reference
 
 Everything an agent needs to start calling the FlowStudio MCP server.

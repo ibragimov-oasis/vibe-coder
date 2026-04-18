@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # SOC 2 Type I vs Type II Comparison
 
 Detailed guide for understanding the differences between SOC 2 Type I and Type II reports, selecting the right starting point, planning timelines, and managing the upgrade path.

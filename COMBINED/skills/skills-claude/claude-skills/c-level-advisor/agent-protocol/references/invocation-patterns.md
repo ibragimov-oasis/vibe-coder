@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # Invocation Patterns — Inter-Agent Protocol
 
 Common cross-functional patterns, with examples and guidance on when to invoke vs assume.

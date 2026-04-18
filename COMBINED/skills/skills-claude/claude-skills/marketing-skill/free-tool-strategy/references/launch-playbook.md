@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # Launch Playbook — How to Launch a Free Tool for Maximum Impact
 
 A free tool with no distribution is just code sitting on a server. This playbook gives you the launch sequence that turns a new tool into traffic, leads, and backlinks.

@@ -5,6 +5,10 @@ paths:
   - "**/*.t"
   - "**/*.psgi"
   - "**/*.cgi"
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
 ---
 
 # Perl 钩子

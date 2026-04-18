@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/seo
+  - artifact/doc
+  - source/skills-seo
+---
+
 # Google Cloud Natural Language API Reference
 
 NLP analysis enhances E-E-A-T scoring by measuring entity coverage, content sentiment, and topic classification using Google's own taxonomy.

@@ -3,6 +3,9 @@ title: Enqueue Workflows from External Applications
 impact: HIGH
 impactDescription: Enables decoupled architecture with separate API and worker services
 tags: client, enqueue, workflow, external
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
 ---
 
 ## Enqueue Workflows from External Applications

@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
+---
+
 # 重构清理
 
 通过测试验证安全识别和删除死代码的每一步。

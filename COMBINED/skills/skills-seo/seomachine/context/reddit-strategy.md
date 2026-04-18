@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/seo
+  - artifact/doc
+  - source/skills-seo
+---
+
 # Reddit Engagement Strategy
 
 Reddit is a high-value citation source for AI search engines and increasingly prominent in Google SERPs. This document outlines how to engage on Reddit for both traditional SEO and AI visibility benefits.

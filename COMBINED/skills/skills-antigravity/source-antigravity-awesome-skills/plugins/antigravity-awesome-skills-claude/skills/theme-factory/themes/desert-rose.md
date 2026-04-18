@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # Desert Rose
 
 A soft and sophisticated theme with dusty, muted tones perfect for elegant presentations.

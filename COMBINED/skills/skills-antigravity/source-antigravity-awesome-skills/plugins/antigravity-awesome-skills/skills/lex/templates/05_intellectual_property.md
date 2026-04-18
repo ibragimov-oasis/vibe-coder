@@ -2,6 +2,10 @@
 name: intellectual-property
 description: Agent templates governing the creation, licensing, and protection of IP assets.
 jurisdictions: [USA, Canada, EU]
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
 ---
 
 # Intellectual Property (IP) Templates

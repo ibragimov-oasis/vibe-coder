@@ -2,6 +2,10 @@
 name: business-foundation
 description: Agent templates governing structural creation, operation, and equity of corporate entities.
 jurisdictions: [USA, Canada, EU]
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
 ---
 
 # Business Foundation & Governance Templates

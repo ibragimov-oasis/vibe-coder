@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # Board Governance & Investor Relations Guide
 
 ## Board of Directors Management

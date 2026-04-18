@@ -1,5 +1,9 @@
 ---
 description: "从会话中提取可重用模式，在保存前自我评估质量，并确定正确的保存位置（全局与项目）。"
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
 ---
 
 # /learn-eval - 提取、评估、然后保存

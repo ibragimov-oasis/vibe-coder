@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
+---
+
 # Everything Claude Code (ECC) — 智能体指令
 
 这是一个**生产就绪的 AI 编码插件**，提供 28 个专业代理、116 项技能、59 条命令以及自动化钩子工作流，用于软件开发。

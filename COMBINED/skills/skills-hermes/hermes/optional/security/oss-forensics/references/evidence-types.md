@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-hermes
+---
+
 # Evidence Types Reference
 
 Taxonomy of all evidence types, IOC types, GitHub event types, and observation types

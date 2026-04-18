@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
+---
+
 # Troubleshooting Guide
 
 Common issues and solutions for Everything Claude Code (ECC) plugin.

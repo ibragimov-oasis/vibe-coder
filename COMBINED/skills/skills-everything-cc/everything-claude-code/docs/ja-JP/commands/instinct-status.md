@@ -2,6 +2,10 @@
 name: instinct-status
 description: すべての学習済みインスティンクトと信頼度レベルを表示
 command: true
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
 ---
 
 # インスティンクトステータスコマンド

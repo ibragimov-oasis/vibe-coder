@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # Tier Requirements Matrix
 
 **Version**: 1.0.0  

@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-awesome-claude
+---
+
 # S-Tier SaaS Dashboard Design Checklist (Inspired by Stripe, Airbnb, Linear)
 
 ## I. Core Design Philosophy & Strategy

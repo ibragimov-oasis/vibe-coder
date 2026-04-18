@@ -3,6 +3,9 @@ title: Create Scheduled Workflows
 impact: MEDIUM
 impactDescription: Run workflows exactly once per time interval
 tags: scheduled, cron, recurring, timer
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
 ---
 
 ## Create Scheduled Workflows

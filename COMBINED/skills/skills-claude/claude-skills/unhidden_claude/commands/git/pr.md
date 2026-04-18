@@ -1,6 +1,10 @@
 ---
 description: Create a pull request from the current branch.
 argument-hint: [target-branch]
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
 ---
 
 ## Variables

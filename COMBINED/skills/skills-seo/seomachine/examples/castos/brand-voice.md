@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/seo
+  - artifact/doc
+  - source/skills-seo
+---
+
 # Castos Brand Voice & Messaging
 
 This document defines the Castos brand voice, tone, and messaging framework. Reference this when writing all content to ensure consistency.

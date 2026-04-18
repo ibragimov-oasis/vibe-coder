@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-development
+---
+
 # Deep Modules
 
 From "A Philosophy of Software Design":

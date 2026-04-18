@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # Audience Targeting Reference
 
 Detailed targeting strategies for each major ad platform.

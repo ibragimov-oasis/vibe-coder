@@ -3,6 +3,10 @@ name: refactor-cleaner
 description: デッドコードクリーンアップと統合スペシャリスト。未使用コード、重複の削除、リファクタリングに積極的に使用してください。分析ツール（knip、depcheck、ts-prune）を実行してデッドコードを特定し、安全に削除します。
 tools: ["Read", "Write", "Edit", "Bash", "Grep", "Glob"]
 model: opus
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
 ---
 
 # リファクタ&デッドコードクリーナー

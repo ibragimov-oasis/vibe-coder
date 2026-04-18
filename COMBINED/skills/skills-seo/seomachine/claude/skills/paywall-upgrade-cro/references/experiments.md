@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/seo
+  - artifact/doc
+  - source/skills-seo
+---
+
 # Paywall Experiment Ideas
 
 Comprehensive list of A/B tests and experiments for paywall optimization.

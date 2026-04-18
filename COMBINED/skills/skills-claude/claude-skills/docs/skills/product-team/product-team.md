@@ -1,6 +1,10 @@
 ---
 title: "Product Team Skills — Agent Skill for Product Teams"
 description: "10 product agent skills and plugins for Claude Code, Codex, Gemini CLI, Cursor, OpenClaw. PM toolkit (RICE), agile PO, product strategist (OKR), UX."
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
 ---
 
 # Product Team Skills

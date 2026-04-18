@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
+---
+
 # 故障排除指南
 
 Everything Claude Code (ECC) 插件的常见问题与解决方案。

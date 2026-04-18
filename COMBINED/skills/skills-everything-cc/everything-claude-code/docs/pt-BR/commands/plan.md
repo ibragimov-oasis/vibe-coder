@@ -1,5 +1,9 @@
 ---
 description: Reafirme requisitos, avalie riscos e crie plano de implementação passo a passo. ESPERE confirmação do usuário ANTES de tocar em qualquer código.
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
 ---
 
 # Comando Plan

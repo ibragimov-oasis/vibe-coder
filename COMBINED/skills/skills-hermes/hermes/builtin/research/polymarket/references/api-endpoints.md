@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-hermes
+---
+
 # Polymarket API Endpoints Reference
 
 All endpoints are public REST (GET), return JSON, and need no authentication.

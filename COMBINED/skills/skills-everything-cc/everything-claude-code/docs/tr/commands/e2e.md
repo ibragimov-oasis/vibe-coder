@@ -1,5 +1,9 @@
 ---
 description: Playwright ile end-to-end testler oluştur ve çalıştır. Test yolculukları oluşturur, testleri çalıştırır, ekran görüntüleri/videolar/izlemeler yakalar ve artifact'ları yükler.
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
 ---
 
 # E2E Komutu

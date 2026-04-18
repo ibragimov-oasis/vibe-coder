@@ -3,6 +3,9 @@ title: List and Inspect Workflows
 impact: MEDIUM
 impactDescription: Enables monitoring and management of workflow state
 tags: workflow, list, introspection, status, monitoring
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
 ---
 
 ## List and Inspect Workflows

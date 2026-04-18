@@ -3,6 +3,9 @@ title: Use Transactions for Database Operations
 impact: HIGH
 impactDescription: Transactions provide atomic database operations
 tags: transaction, database, postgres, sqlalchemy
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
 ---
 
 ## Use Transactions for Database Operations

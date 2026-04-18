@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # RBAC Template
 
 Tests role-based access control: admin vs user permissions and forbidden pages.

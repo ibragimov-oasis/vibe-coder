@@ -1,6 +1,10 @@
 ---
 title: "AI SEO — Agent Skill for Marketing"
 description: "Optimize content to get cited by AI search engines — ChatGPT, Perplexity, Google AI Overviews, Claude, Gemini, Copilot. Use when you want your."
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
 ---
 
 # AI SEO

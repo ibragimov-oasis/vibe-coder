@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # Measurement Framework — Referral Program Metrics, Benchmarks, and Optimization Playbook
 
 The metrics that tell you if your referral program is working, what's broken, and what to fix first.

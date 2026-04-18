@@ -1,6 +1,10 @@
 ---
 title: "Business & Growth Skills — Agent Skills & Codex Plugins"
 description: "5 business & growth skills — business growth agent skill and Claude Code plugin for customer success, sales, and revenue ops. Works with Claude Code, Codex CLI, Gemini CLI, and OpenClaw."
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
 ---
 
 <div class="domain-header" markdown>

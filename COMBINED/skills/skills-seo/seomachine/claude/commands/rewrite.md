@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/seo
+  - artifact/doc
+  - source/skills-seo
+---
+
 # Rewrite Command
 
 Use this command to update and improve existing blog posts based on analysis findings.

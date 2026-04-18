@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # Task 018: E2E Testing Documentation
 
 This directory contains comprehensive testing and verification documentation for the Loki Mode autonomous Todo application project.

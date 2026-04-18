@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # Styling Guide
 
 Modern styling patterns for using MUI v7 sx prop, inline styles, and theme integration.

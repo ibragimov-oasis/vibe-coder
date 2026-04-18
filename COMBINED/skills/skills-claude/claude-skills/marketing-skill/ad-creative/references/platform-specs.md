@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # Platform Specs — Ad Copy Character Limits and Format Requirements
 
 Full specifications for each major ad platform. Use this when generating or validating ad copy.

@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # PowerShell Script Templates
 
 Ready-to-use PowerShell scripts for Microsoft 365 administration with error handling and best practices.

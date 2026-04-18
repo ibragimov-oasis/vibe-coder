@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # Regional Expansion Guide
 
 Specific considerations for key regions. Not exhaustive — these are the patterns that trip up most expanding companies.

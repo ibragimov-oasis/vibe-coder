@@ -1,6 +1,10 @@
 ---
 title: "Brand Guidelines — Agent Skill for Marketing"
 description: "When the user wants to apply, document, or enforce brand guidelines for any product or company. Also use when the user mentions 'brand guidelines,'. Agent skill for Claude Code, Codex CLI, Gemini CLI, OpenClaw."
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
 ---
 
 # Brand Guidelines

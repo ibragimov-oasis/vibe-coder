@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # How Each AI Platform Picks Sources
 
 Each AI search platform has its own search index, ranking logic, and content preferences. This guide covers what matters for getting cited on each one.

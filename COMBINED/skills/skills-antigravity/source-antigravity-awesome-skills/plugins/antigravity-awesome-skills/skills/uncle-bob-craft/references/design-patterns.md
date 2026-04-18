@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # Design Patterns — Use vs Misuse
 
 Use this when evaluating whether a design pattern is justified or is cargo cult / overuse.

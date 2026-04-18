@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # Checklist de Verificacao e Redundancia
 
 ## Principio Fundamental

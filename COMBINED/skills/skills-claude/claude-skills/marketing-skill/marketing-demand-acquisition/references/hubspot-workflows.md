@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # HubSpot Workflow Templates
 
 Pre-built workflow configurations for lead scoring, nurturing, and assignment.

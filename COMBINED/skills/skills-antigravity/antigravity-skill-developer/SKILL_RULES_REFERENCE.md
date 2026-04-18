@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # skill-rules.json - Complete Reference
 
 Complete schema and configuration reference for `COMBINED/workspace-config/claude/skills/skill-rules.json`.

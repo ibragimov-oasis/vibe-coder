@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-copilot
+---
+
 # gomarkdown/markdown Reference
 
 Go library for parsing Markdown and rendering HTML. Fast, extensible, and thread-safe.

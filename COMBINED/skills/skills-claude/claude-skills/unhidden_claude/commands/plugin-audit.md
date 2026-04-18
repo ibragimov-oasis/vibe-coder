@@ -1,5 +1,9 @@
 ---
 description: Run the full 8-phase plugin audit pipeline on a skill directory.
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
 ---
 
 Run the comprehensive plugin audit pipeline on the skill at `$ARGUMENTS`. If no argument provided, ask the user for the skill path.

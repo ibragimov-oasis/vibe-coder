@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # SSO Template
 
 Tests SSO redirect flow, IdP callback handling, and attribute mapping.

@@ -1,6 +1,10 @@
 ---
 title: "Agent Name Agent Personality — AI Coding Agent & Codex Skill"
 description: "One paragraph describing what this agent does, who it's for, and when to activate it.. Agent-native orchestrator for Claude Code, Codex, Gemini CLI."
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
 ---
 
 # Agent Name Agent Personality

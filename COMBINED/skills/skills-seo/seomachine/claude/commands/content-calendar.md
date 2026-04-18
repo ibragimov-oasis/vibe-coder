@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/seo
+  - artifact/doc
+  - source/skills-seo
+---
+
 # Content Calendar Command
 
 Generate a dated, month-long content calendar mapped to topic clusters, keywords, and publishing cadence using existing research data.

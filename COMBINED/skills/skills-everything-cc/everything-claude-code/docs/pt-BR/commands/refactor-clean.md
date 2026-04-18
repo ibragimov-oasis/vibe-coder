@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
+---
+
 # Refactor Clean
 
 Identifique e remova código morto com segurança, com verificação de testes em cada passo.

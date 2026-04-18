@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # Android Platform Guidelines
 
 > Material Design 3 essentials, Android design conventions, Roboto typography, and native patterns.

@@ -2,6 +2,10 @@
 description: Remove dead code and consolidate duplicates
 agent: refactor-cleaner
 subtask: true
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
 ---
 
 # Refactor Clean Command

@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-awesome-claude
+---
+
 # How It Looks (WIP)
 
 Amazing, obviously. But there's more to it than pure visual stimulation - there's _numbers_ and... stuff.

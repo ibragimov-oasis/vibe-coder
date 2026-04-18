@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # Compliance e Boas Praticas - WhatsApp Cloud API
 
 Guia completo de compliance para integracoes WhatsApp Business, cobrindo LGPD, GDPR, politicas do WhatsApp, opt-in/opt-out, quality rating e tier system.

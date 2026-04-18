@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-copilot
+---
+
 # Create mode
 
 Use this workflow when the input is a component source path or the user asks to generate new documentation from code.

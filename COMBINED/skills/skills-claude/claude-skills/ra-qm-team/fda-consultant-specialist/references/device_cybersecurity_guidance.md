@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # Medical Device Cybersecurity Guidance
 
 Complete framework for FDA cybersecurity requirements based on FDA guidance documents and recognized consensus standards.

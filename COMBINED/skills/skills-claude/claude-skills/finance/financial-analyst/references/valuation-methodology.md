@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # Valuation Methodology Guide
 
 Comprehensive reference for business valuation approaches including DCF analysis, comparable company analysis, and precedent transactions.

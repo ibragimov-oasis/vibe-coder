@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-hermes
+---
+
 # DSPy Real-World Examples
 
 Practical examples of building production systems with DSPy.

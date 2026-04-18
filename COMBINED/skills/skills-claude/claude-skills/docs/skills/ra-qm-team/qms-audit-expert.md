@@ -1,6 +1,10 @@
 ---
 title: "QMS Audit Expert — Agent Skill for Compliance"
 description: "ISO 13485 internal audit expertise for medical device QMS. Covers audit planning, execution, nonconformity classification, and CAPA verification. Use. Agent skill for Claude Code, Codex CLI, Gemini CLI, OpenClaw."
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
 ---
 
 # QMS Audit Expert

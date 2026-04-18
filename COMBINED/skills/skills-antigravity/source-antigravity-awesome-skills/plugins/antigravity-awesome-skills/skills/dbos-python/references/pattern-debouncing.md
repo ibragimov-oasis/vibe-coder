@@ -3,6 +3,9 @@ title: Debounce Workflows to Prevent Wasted Work
 impact: MEDIUM
 impactDescription: Reduces redundant executions during rapid input
 tags: debounce, throttle, input, optimization
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
 ---
 
 ## Debounce Workflows to Prevent Wasted Work

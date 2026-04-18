@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/seo
+  - artifact/doc
+  - source/skills-seo
+---
+
 # Platform Setup Checklists
 
 Complete setup checklists for major ad platforms.

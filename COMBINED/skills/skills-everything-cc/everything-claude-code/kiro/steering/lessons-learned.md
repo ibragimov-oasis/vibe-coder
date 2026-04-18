@@ -1,6 +1,10 @@
 ---
 inclusion: auto
 description: Project-specific patterns, preferences, and lessons learned over time (user-editable)
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
 ---
 
 # Lessons Learned

@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # Autoresearch Agent — Claude Code Instructions
 
 This plugin runs autonomous experiment loops that optimize any file by a measurable metric.

@@ -1,6 +1,10 @@
 ---
 description: Tercih ettiğiniz paket yöneticisini yapılandırın (npm/pnpm/yarn/bun)
 disable-model-invocation: true
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
 ---
 
 # Paket Yöneticisi Kurulumu

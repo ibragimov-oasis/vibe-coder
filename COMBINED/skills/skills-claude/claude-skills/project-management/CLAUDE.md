@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # Project Management Skills - Claude Code Guidance
 
 This guide covers the 6 production-ready project management skills, 12 Python automation tools, and Atlassian MCP integration.

@@ -3,6 +3,9 @@ name: sequencing
 description: Sequencing patterns for Remotion - delay, trim, limit duration of items
 metadata:
   tags: sequence, series, timing, delay, trim
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
 ---
 
 Use `<Sequence>` to delay when an element appears in the timeline.

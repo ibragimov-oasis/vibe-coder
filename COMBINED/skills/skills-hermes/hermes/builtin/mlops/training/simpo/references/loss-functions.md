@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-hermes
+---
+
 # Loss Functions
 
 Complete guide to SimPO loss functions and mathematical formulations.

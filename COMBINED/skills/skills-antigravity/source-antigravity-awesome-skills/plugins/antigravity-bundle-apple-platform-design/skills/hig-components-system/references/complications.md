@@ -86,7 +86,11 @@ You can also add text to accompany a regular-size circular image, using a design
 
 As you design images for a regular-size circular complication, use the following values for guidance.
 
-Image| 40mm| 41mm| 44mm| 45mm/49mm  
+Image| 40mm| 41mm| 44mm| 45mm/49mm
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
 ---|---|---|---|---  
 Image| 42x42 pt (84x84 px @2x)| 44.5x44.5 pt (89x89 px @2x)| 47x47 pt (94x94 px @2x)| 50x50 pt (100x100 px @2x)  
 Closed gauge| 27x27 pt (54x54 px @2x)| 28.5x28.5 pt (57x57 px @2x)| 31x31 pt (62x62 px @2x)| 32x32 pt (64x64 px @2x)  

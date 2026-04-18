@@ -1,5 +1,9 @@
 ---
 description: 管理Claude Code会话历史、别名和会话元数据。
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
 ---
 
 # Sessions 命令

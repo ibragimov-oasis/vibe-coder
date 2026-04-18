@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # Velocity Forecasting Guide: Monte Carlo Methods & Probabilistic Estimation
 
 ## Table of Contents

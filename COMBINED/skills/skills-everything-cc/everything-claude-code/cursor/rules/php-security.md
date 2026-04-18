@@ -2,6 +2,10 @@
 description: "PHP security extending common rules"
 globs: ["**/*.php", "**/composer.lock", "**/composer.json"]
 alwaysApply: false
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
 ---
 # PHP Security
 

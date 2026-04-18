@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/seo
+  - artifact/doc
+  - source/skills-seo
+---
+
 # Copy Frameworks Reference
 
 Headline formulas, page section types, and structural templates.

@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # NotebookLM Skill Troubleshooting Guide
 
 ## Quick Fix Table

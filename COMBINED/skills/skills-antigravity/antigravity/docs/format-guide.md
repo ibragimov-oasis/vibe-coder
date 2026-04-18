@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # Lead Magnet Format Guide
 
 Detailed creation guidance for each lead magnet format.

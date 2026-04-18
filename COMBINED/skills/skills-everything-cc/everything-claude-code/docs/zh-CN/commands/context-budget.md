@@ -1,5 +1,9 @@
 ---
 description: 分析跨代理、技能、MCP服务器和规则的上下文窗口使用情况，以寻找优化机会。有助于减少令牌开销并避免性能警告。
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
 ---
 
 # 上下文预算优化器

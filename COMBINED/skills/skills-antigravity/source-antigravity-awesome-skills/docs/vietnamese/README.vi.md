@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # 🌌 Antigravity Awesome Skills: 560+ Kỹ năng (Skills) cho Claude Code, Gemini CLI, Cursor, Copilot và nhiều hơn nữa
 
 > **Bộ sưu tập tối ưu gồm hơn 560 Kỹ năng Phổ quát cho các Trợ lý Lập trình AI — Claude Code, Gemini CLI, Codex CLI, Antigravity IDE, GitHub Copilot, Cursor, OpenCode**

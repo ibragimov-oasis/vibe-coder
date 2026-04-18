@@ -1,6 +1,10 @@
 ---
 title: "CI/CD Pipeline Builder — Agent Skill for Codex & OpenClaw"
 description: "CI/CD Pipeline Builder. Agent skill for Claude Code, Codex CLI, Gemini CLI, OpenClaw."
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
 ---
 
 # CI/CD Pipeline Builder

@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
+---
+
 # Claude Code'un Her Şeyine Dair Uzun Kılavuz
 
 ![Header: The Longform Guide to Everything Claude Code](../assets/images/longform/01-header.png)

@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-development
+---
+
 # Interface Design for Testability
 
 Good interfaces make testing natural:

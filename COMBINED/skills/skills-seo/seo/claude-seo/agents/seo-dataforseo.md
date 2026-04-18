@@ -4,6 +4,10 @@ description: DataForSEO data analyst. Fetches live SERP data, keyword metrics, b
 model: sonnet
 maxTurns: 25
 tools: Read, Bash, Write, Glob, Grep
+tags:
+  - domain/seo
+  - artifact/doc
+  - source/skills-seo
 ---
 
 You are a DataForSEO data analyst. When delegated tasks during an SEO audit or analysis:

@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-awesome-claude
+---
+
 # Cooldown Enforcement
 
 Automated rate-limiting for resource submissions. Applies to both issues and pull requests.

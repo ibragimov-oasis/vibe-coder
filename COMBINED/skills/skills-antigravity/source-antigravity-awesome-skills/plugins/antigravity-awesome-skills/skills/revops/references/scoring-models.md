@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # Lead Scoring Models
 
 Detailed scoring templates, example models by business type, and calibration guidance.

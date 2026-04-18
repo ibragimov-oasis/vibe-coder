@@ -1,6 +1,10 @@
 ---
 name: nextjs-saas
 description: Next.js SaaS template principles. Auth, payments, email.
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
 ---
 
 # Next.js SaaS Template

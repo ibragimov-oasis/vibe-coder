@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # Cấu trúc của một Skill - Hiểu về Hệ thống
 
 **Bạn muốn hiểu cách các skill (kỹ năng) hoạt động bên trong?** Hướng dẫn này sẽ phân tích chi tiết từng phần của một file skill.

@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-copilot
+---
+
 # PDFtk CLI Examples
 
 PDFtk is a command-line program. Use your computer terminal or command prompt when running these examples.

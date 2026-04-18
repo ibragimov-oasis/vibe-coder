@@ -1,6 +1,10 @@
 ---
 title: "Secrets Vault Manager — Agent Skill for Codex & OpenClaw"
 description: "Use when the user asks to set up secret management infrastructure, integrate HashiCorp Vault, configure cloud secret stores (AWS Secrets Manager. Agent skill for Claude Code, Codex CLI, Gemini CLI, OpenClaw."
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
 ---
 
 # Secrets Vault Manager

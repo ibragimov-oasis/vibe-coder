@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # Modern Minimalist
 
 A clean and contemporary theme with a sophisticated grayscale palette for maximum versatility.

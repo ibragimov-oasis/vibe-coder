@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/doc
+  - source/skills-omc
+---
+
 # PR Review Context
 
 You are reviewing PR #{{PR_NUMBER}}: **{{PR_TITLE}}**

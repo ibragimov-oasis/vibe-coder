@@ -1,6 +1,10 @@
 ---
 description: Configure your preferred package manager (npm/pnpm/yarn/bun)
 disable-model-invocation: true
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
 ---
 
 # 套件管理器設定

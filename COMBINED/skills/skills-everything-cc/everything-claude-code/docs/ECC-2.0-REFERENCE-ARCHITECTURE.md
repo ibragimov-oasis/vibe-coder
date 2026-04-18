@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
+---
+
 # ECC 2.0 Reference Architecture
 
 Research summary from competitor/reference analysis (2026-03-22).

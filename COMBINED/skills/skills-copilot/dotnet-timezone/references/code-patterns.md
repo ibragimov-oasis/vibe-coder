@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-copilot
+---
+
 # .NET Timezone Code Patterns
 
 ## Pattern 1: Basic TimeZoneInfo

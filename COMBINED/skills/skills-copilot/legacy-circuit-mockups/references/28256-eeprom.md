@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-copilot
+---
+
 # AT28C256 256K (32K x 8) Parallel EEPROM Specification
 
 ## 1. Overview

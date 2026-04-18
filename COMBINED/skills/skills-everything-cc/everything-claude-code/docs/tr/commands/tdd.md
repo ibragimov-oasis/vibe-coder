@@ -1,5 +1,9 @@
 ---
 description: Test odaklı geliştirme (TDD) iş akışını zorlar. Interface'leri tasarla, ÖNCE testleri oluştur, sonra minimal kodu uygula. %80+ kod kapsama oranı sağla.
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
 ---
 
 # TDD Komutu

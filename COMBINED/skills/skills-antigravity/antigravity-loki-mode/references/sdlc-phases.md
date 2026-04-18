@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # SDLC Phases Reference
 
 All phases with detailed workflows and testing procedures.

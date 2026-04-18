@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # Health Scoring Framework
 
 Complete methodology for multi-dimensional customer health scoring in SaaS customer success.

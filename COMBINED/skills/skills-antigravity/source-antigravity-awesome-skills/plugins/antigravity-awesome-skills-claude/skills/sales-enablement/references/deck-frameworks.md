@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # Sales Deck Frameworks
 
 Detailed slide-by-slide guidance for building sales decks that tell a story and close deals.

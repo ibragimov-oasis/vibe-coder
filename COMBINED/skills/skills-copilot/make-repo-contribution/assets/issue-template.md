@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-copilot
+---
+
 # <!-- Provide a concise, descriptive title for the issue -->
 
 ## Summary

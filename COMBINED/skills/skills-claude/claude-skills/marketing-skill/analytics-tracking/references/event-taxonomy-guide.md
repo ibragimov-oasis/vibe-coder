@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # Event Taxonomy Guide
 
 Complete reference for naming conventions, event structure, and parameter standards.

@@ -1,6 +1,10 @@
 ---
 title: "/focused-fix — Slash Command for AI Coding Agents"
 description: "Deep-dive feature repair — systematically fix an entire feature/module across all its files and dependencies. Usage: /focused-fix <feature-path>. Slash command for Claude Code, Codex CLI, Gemini CLI."
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
 ---
 
 # /focused-fix

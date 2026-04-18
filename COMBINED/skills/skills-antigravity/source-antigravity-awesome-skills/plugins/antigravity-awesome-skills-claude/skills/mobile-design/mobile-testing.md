@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # Mobile Testing Patterns
 
 > **Mobile testing is NOT web testing. Different constraints, different strategies.**

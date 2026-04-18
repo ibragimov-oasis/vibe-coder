@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-hermes
+---
+
 # AudioCraft Advanced Usage Guide
 
 ## Fine-tuning MusicGen

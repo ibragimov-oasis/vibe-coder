@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/ui
+  - artifact/doc
+  - source/skills-design
+---
+
 # Implementing Liquid Glass Design in SwiftUI
 
 ## Overview

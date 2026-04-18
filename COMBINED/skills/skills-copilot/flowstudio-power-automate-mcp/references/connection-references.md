@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-copilot
+---
+
 # FlowStudio MCP — Connection References
 
 Connection references wire a flow's connector actions to real authenticated

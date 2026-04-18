@@ -1,6 +1,10 @@
 ---
 title: "/code-to-prd — Slash Command for AI Coding Agents"
 description: "Reverse-engineer a frontend codebase into a PRD. Usage: /code-to-prd [path]. Slash command for Claude Code, Codex CLI, Gemini CLI."
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
 ---
 
 # /code-to-prd

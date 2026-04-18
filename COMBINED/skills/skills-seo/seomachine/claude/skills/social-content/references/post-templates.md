@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/seo
+  - artifact/doc
+  - source/skills-seo
+---
+
 # Post Format Templates
 
 Ready-to-use templates for different platforms and content types.

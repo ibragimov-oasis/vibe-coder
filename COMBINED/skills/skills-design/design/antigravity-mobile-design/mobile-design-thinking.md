@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/ui
+  - artifact/doc
+  - source/skills-design
+---
+
 # Mobile Design Thinking
 
 > **This file prevents AI from using memorized patterns and forces genuine thinking.**

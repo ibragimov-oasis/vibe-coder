@@ -3,6 +3,9 @@ title: Use EXPLAIN ANALYZE to Diagnose Slow Queries
 impact: LOW-MEDIUM
 impactDescription: Identify exact bottlenecks in query execution
 tags: explain, analyze, diagnostics, query-plan
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
 ---
 
 ## Use EXPLAIN ANALYZE to Diagnose Slow Queries

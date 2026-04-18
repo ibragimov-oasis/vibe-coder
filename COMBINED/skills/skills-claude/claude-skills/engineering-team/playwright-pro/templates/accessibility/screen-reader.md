@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # Screen Reader Template
 
 Tests ARIA labels, live regions, and announcements for assistive technology.

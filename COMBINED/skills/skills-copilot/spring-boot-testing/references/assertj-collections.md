@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-copilot
+---
+
 # AssertJ Collections
 
 AssertJ assertions for collections: `List`, `Set`, `Map`, arrays, and streams.

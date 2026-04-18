@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # D3.js Visualisation Patterns
 
 This reference provides detailed code patterns for common d3.js visualisation types.

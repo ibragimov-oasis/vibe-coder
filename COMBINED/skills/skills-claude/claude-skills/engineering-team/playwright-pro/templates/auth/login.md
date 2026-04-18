@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # Login Template
 
 Tests email/password login, social login, and remember me functionality.

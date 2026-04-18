@@ -2,6 +2,10 @@
 description: "Python security extending common rules"
 globs: ["**/*.py", "**/*.pyi"]
 alwaysApply: false
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
 ---
 # Python Security
 

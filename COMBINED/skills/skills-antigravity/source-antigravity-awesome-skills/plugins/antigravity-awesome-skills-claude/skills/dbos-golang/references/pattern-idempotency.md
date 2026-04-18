@@ -3,6 +3,9 @@ title: Use Workflow IDs for Idempotency
 impact: MEDIUM
 impactDescription: Prevents duplicate side effects like double payments
 tags: pattern, idempotency, workflow-id, deduplication
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
 ---
 
 ## Use Workflow IDs for Idempotency

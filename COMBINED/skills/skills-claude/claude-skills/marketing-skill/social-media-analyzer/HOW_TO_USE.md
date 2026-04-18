@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # How to Use This Skill
 
 Hey Claude—I just added the "social-media-analyzer" skill. Can you analyze this campaign's performance and give me actionable insights?

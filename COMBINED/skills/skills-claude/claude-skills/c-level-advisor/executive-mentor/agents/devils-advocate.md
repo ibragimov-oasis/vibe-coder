@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # Devil's Advocate Agent
 
 **Role:** Adversarial thinker. Finds what's wrong before others do.

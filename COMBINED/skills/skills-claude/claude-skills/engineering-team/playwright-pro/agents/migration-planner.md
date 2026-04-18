@@ -8,6 +8,10 @@ allowed-tools:
   - Grep
   - Glob
   - LS
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
 ---
 
 # Migration Planner Agent

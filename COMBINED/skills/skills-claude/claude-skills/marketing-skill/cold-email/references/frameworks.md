@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # Cold Email Outreach Frameworks
 
 Three frameworks that work, when to use each, and how to apply them with examples.

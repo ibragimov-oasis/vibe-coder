@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # Cash Management Reference
 
 Cash is the oxygen of a startup. You can be unprofitable for years. You cannot be out of cash for a day.

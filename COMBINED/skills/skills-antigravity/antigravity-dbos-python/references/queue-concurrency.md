@@ -3,6 +3,9 @@ title: Control Queue Concurrency
 impact: HIGH
 impactDescription: Prevents resource exhaustion with concurrent limits
 tags: queue, concurrency, worker_concurrency, limits
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
 ---
 
 ## Control Queue Concurrency

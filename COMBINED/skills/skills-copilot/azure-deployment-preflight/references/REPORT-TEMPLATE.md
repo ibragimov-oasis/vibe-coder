@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-copilot
+---
+
 # Preflight Report Template
 
 Use this template structure when generating `preflight-report.md` in the project root.

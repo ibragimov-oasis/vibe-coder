@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # Complete Examples - Full Working Code
 
 Real-world examples showing complete implementation patterns.

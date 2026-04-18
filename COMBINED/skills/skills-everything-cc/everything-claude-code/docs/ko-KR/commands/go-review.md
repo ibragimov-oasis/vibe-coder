@@ -1,5 +1,9 @@
 ---
 description: 관용적 패턴, 동시성 안전성, 에러 처리, 보안에 대한 포괄적인 Go 코드 리뷰. go-reviewer 에이전트를 호출합니다.
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
 ---
 
 # Go 코드 리뷰

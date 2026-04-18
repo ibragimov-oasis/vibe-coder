@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 Create an agent team to build a time orchestration workflow that displays
 the current Dubai time as a visual SVG card. The workflow follows the
 Command → Agent → Skill architecture pattern:

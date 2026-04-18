@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # Social Media Optimization Guide
 
 ## Platform-Specific Best Practices

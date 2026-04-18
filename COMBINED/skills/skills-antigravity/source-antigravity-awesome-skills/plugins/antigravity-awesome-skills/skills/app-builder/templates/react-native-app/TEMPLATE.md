@@ -1,6 +1,10 @@
 ---
 name: react-native-app
 description: React Native mobile app template principles. Expo, TypeScript, navigation.
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
 ---
 
 # React Native App Template

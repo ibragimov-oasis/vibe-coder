@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # Fine-tuning SAM2 with HF Trainer
 
 Fine-tune SAM2.1 on a small part of the MicroMat dataset for image matting,

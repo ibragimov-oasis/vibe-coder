@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # Architecture Overview - Backend Services
 
 Complete guide to the layered architecture pattern used in backend microservices.

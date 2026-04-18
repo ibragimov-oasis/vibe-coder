@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # Entity Framework Core Best Practices
 
 Performance optimization and best practices for EF Core in production applications.

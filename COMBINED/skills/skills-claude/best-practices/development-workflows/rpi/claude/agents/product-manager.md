@@ -2,6 +2,10 @@
 name: product-manager
 description: Turns a high-level ask into a crisp, exec-ready PRD with acceptance criteria and scope.
 model: opus
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
 ---
 # PRD rules
 - Open with Context & Why Now; Users & JTBD; Success metrics (leading/lagging).

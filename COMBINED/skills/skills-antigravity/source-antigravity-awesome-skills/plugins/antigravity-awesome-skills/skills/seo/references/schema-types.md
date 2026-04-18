@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 <!-- Updated: 2026-02-07 -->
 # Schema.org Types: Status & Recommendations (February 2026)
 

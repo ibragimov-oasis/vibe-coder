@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-copilot
+---
+
 # Workflows, Best Practices & Scripting Patterns
 
 ## Table of Contents

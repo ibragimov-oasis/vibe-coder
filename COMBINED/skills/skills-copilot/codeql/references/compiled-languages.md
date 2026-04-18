@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-copilot
+---
+
 # CodeQL Build Modes for Compiled Languages
 
 Detailed reference for how CodeQL handles compiled language analysis, including build modes, autobuild behavior, runner requirements, and hardware specifications.

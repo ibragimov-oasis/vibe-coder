@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-hermes
+---
+
 # OBLITERATUS Methods — Detailed Guide
 
 > The CLI accepts 9 methods via `--method`: basic, advanced, aggressive, spectral_cascade,

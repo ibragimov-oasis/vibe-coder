@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
+---
+
 # Eval Komutu
 
 Eval-odaklı geliştirme iş akışını yönet.

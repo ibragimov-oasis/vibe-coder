@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
+---
+
 # Hooks
 
 Hooks are event-driven automations that fire before or after Claude Code tool executions. They enforce code quality, catch mistakes early, and automate repetitive checks.
@@ -219,3 +226,9 @@ Hook logic is implemented in Node.js scripts for cross-platform behavior on Wind
 - [rules/common/hooks.md](../rules/common/hooks.md) — Hook architecture guidelines
 - [skills/strategic-compact/](../skills/strategic-compact/) — Strategic compaction skill
 - [scripts/hooks/](../scripts/hooks/) — Hook script implementations
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

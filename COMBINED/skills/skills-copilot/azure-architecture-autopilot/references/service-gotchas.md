@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-copilot
+---
+
 # Service Gotchas (Stable)
 
 Per-service summary of **non-intuitive required properties**, **common mistakes**, and **PE mappings**.

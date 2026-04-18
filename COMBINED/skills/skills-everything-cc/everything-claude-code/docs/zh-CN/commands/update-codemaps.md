@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
+---
+
 # 更新代码地图
 
 分析代码库结构并生成简洁的架构文档。

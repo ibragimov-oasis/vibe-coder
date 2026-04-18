@@ -14,7 +14,11 @@ For example, a Live Activity might show the remaining time until a food delivery
 
 Live Activities start on iPhone or iPad and automatically appear in system locations across a person’s devices:
 
-Platform or system experience| Location  
+Platform or system experience| Location
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
 ---|---  
 iPhone and iPad| Lock Screen, Home Screen, in the Dynamic Island and StandBy on iPhone  
 Mac| The menu bar  

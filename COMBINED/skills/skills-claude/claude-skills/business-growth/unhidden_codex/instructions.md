@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # Business & Growth Skills — Codex CLI Instructions
 
 When working on customer success, sales, or revenue tasks, use the business growth skill system:

@@ -1,5 +1,9 @@
 ---
 description: 在不打断或丢失当前任务上下文的情况下，快速回答一个附带问题。回答后自动恢复工作。
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
 ---
 
 # 旁述指令

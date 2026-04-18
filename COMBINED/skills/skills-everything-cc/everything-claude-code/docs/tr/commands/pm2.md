@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
+---
+
 # PM2 Init
 
 Projeyi otomatik analiz et ve PM2 servis komutları oluştur.

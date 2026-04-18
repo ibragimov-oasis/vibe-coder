@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # Working with Obsidian Bases
 
 The user maintains "Bases" in `Bases/*.base` which define the schema and properties for different types of notes (e.g., Recipes, Clippings, People).

@@ -1,6 +1,10 @@
 ---
 title: "Senior Project Management Expert — Agent Skill for PM"
 description: "Senior Project Manager for enterprise software, SaaS, and digital transformation projects. Specializes in portfolio management, quantitative risk. Agent skill for Claude Code, Codex CLI, Gemini CLI, OpenClaw."
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
 ---
 
 # Senior Project Management Expert

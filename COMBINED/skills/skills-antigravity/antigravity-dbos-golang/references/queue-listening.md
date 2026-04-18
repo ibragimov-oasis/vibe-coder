@@ -3,6 +3,9 @@ title: Control Which Queues a Worker Listens To
 impact: HIGH
 impactDescription: Enables heterogeneous worker pools
 tags: queue, listen, worker, process, configuration
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
 ---
 
 ## Control Which Queues a Worker Listens To

@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-hermes
+---
+
 # Meme Generation Examples
 
 ## Example 1: Debugging at 2 AM

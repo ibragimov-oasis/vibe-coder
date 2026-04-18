@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # HTML Presentation Template
 
 Reference architecture for generating slide presentations. Every presentation follows this structure.

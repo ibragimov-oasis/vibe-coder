@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-copilot
+---
+
 # Creating and highlighting code blocks
 
 Share samples of code with fenced code blocks and enabling syntax highlighting.

@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # Financial Planning Reference
 
 Startup financial modeling frameworks. Build models that drive decisions, not models that impress investors.

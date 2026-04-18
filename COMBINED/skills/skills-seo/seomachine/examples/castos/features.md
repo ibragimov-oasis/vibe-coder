@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/seo
+  - artifact/doc
+  - source/skills-seo
+---
+
 # Castos Features & Benefits
 
 This document outlines Castos's key features, benefits, and differentiators to inform content creation that drives trial conversions and customer acquisition.

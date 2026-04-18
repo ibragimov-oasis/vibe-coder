@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/seo
+  - artifact/doc
+  - source/skills-seo
+---
+
 # Write Command
 
 Use this command to create comprehensive, SEO-optimized long-form blog content.

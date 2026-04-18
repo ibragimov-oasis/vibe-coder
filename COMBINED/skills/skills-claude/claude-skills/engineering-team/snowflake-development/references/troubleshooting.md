@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # Snowflake Troubleshooting Reference
 
 Common errors, debugging queries, and resolution patterns for Snowflake development.

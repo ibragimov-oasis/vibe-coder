@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # Navigation Patterns
 
 Detailed navigation patterns for different site types and contexts.

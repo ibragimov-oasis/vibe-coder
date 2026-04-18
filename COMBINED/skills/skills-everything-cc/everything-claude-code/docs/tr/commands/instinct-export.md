@@ -2,6 +2,10 @@
 name: instinct-export
 description: İçgüdüleri proje/global kapsamdan bir dosyaya aktar
 command: /instinct-export
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
 ---
 
 # Instinct Export Komutu

@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-copilot
+---
+
 # draw.io Shape Libraries
 
 Reference guide for all built-in shape libraries. Enable via `View > Shapes` in the draw.io editor (or VS Code extension shape panel).

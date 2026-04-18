@@ -1,5 +1,9 @@
 ---
 description: 全面的 C++ 代码审查，涵盖内存安全、现代 C++ 惯用法、并发性和安全性。调用 cpp-reviewer 代理。
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
 ---
 
 # C++ 代码审查

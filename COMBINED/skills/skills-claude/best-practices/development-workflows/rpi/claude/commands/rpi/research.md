@@ -1,6 +1,10 @@
 ---
 description: Research and analyze feature viability - GO/NO-GO decision gate
 argument-hint: "<feature-slug>"
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
 ---
 
 ## User Input

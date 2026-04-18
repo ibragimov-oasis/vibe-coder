@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-hermes
+---
+
 # LLaVA Training Guide
 
 Guide to training and fine-tuning LLaVA models.

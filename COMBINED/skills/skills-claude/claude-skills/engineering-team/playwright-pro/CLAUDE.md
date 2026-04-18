@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # Playwright Pro — Agent Context
 
 You are working in a project with the Playwright Pro plugin installed. Follow these rules for all test-related work.

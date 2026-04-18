@@ -9,6 +9,10 @@ New Word Count: ~4,200 words
 Primary Keyword: podcast advertising
 Secondary Keywords: podcast ads, podcast sponsorships, podcast ad rates, dynamic ad insertion
 SEO Improvements: Updated stats, expanded sections, improved keyword optimization, added FAQ section
+tags:
+  - domain/seo
+  - artifact/doc
+  - source/skills-seo
 ---
 
 # Podcast Advertising: The Complete Guide for Creators [2025]

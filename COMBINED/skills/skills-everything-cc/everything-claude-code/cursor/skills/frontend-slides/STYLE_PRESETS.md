@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
+---
+
 # Style Presets Reference
 
 Curated visual styles for `frontend-slides`.

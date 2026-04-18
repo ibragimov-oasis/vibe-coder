@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-awesome-claude
+---
+
 # FlowStudio MCP — Action Patterns: Data Transforms
 
 Array operations, HTTP calls, parsing, and data transformation patterns.

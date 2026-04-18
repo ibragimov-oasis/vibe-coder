@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # Meeting Facilitation Guide
 
 Operational playbook for running board meetings using the 6-phase protocol.

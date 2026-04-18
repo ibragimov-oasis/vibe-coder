@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-hermes
+---
+
 # FAISS Index Types Guide
 
 Complete guide to choosing and using FAISS index types.

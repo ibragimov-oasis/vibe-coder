@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # People Strategy Reference
 
 Hiring, retention, performance, and remote/hybrid frameworks for each growth stage.

@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # Operational Cadence: Meetings, Async, Decisions, and Reporting
 
 > The rhythm of your company determines its output. Bad cadence = constant context-switching, decisions made without information, and a leadership team that's always reactive.

@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
+---
+
 # 流媒体与播放
 
 VideoDB 按需生成流媒体，返回 HLS 兼容的 URL，可在任何标准视频播放器中即时播放。无需渲染时间或导出等待——编辑、搜索和组合内容可立即流式传输。

@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # Frontend Best Practices
 
 Modern frontend development standards for accessibility, testing, TypeScript, and Tailwind CSS.

@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # Common Training Patterns
 
 This guide provides common training patterns and use cases for TRL on Hugging Face Jobs.

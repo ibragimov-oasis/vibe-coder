@@ -1,6 +1,10 @@
 ---
 title: Custom GPTs — Agent Skills in ChatGPT
 description: "6 Custom GPTs powered by Claude Code Skills. Use production-grade agent skills for product management, SEO, copywriting, CTO advisory, content strategy, and solo founding directly in ChatGPT."
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
 ---
 
 # Custom GPTs

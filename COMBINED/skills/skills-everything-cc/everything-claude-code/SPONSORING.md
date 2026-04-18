@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
+---
+
 # Sponsoring ECC
 
 ECC is maintained as an open-source agent harness performance system across Claude Code, Cursor, OpenCode, and Codex app/CLI.

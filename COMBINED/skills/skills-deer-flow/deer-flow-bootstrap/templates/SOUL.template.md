@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/doc
+  - source/skills-deer-flow
+---
+
 # SOUL.md Template
 
 Use this exact structure when generating the final SOUL.md. Replace all `[bracketed]` placeholders with content extracted from the conversation.

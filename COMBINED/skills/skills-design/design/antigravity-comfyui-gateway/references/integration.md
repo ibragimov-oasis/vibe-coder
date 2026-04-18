@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/ui
+  - artifact/doc
+  - source/skills-design
+---
+
 # ComfyUI Gateway -- Integration Guide
 
 Complete integration reference with ready-to-use code examples for every endpoint

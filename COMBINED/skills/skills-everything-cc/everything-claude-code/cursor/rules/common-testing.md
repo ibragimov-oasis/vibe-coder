@@ -1,6 +1,10 @@
 ---
 description: "Testing requirements: 80% coverage, TDD workflow, test types"
 alwaysApply: true
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
 ---
 # Testing Requirements
 

@@ -1,6 +1,10 @@
 ---
 title: "AI Coding Personas — Startup CTO, Growth Marketer, Solo Founder"
 description: "3 persona-based AI coding agents with curated Claude Code skill loadouts, decision frameworks, and distinct communication styles for Codex, Gemini CLI, and OpenClaw."
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
 ---
 
 <div class="domain-header" markdown>

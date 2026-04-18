@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # Properties (Frontmatter) Reference
 
 Properties use YAML frontmatter at the start of a note:

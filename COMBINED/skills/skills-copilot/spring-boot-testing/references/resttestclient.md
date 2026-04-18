@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-copilot
+---
+
 # RestTestClient
 
 Modern REST client testing with Spring Boot 4+ (replaces TestRestTemplate).

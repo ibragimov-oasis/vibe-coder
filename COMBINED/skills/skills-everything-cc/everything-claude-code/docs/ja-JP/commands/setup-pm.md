@@ -1,6 +1,10 @@
 ---
 description: 優先するパッケージマネージャーを設定（npm/pnpm/yarn/bun）
 disable-model-invocation: true
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
 ---
 
 # パッケージマネージャーの設定

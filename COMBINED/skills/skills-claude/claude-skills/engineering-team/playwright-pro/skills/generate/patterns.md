@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # Test Generation Patterns
 
 ## Pattern: Authentication Flow

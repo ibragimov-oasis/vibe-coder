@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # Snowflake SQL and Pipelines Reference
 
 Detailed patterns and anti-patterns for Snowflake SQL development and data pipeline design.

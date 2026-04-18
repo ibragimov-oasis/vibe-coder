@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-copilot
+---
+
 # Issue Fields (GraphQL, Private Preview)
 
 > **Private preview:** Issue fields are currently in private preview. Request access at https://github.com/orgs/community/discussions/175366

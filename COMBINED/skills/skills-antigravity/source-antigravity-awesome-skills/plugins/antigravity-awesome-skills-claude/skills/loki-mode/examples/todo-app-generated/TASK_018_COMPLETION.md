@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # Task 018: E2E Manual Testing Verification - COMPLETED
 
 **Task ID:** task-018

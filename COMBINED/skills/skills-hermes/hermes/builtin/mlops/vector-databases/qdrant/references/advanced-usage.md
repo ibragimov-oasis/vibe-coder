@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-hermes
+---
+
 # Qdrant Advanced Usage Guide
 
 ## Distributed Deployment

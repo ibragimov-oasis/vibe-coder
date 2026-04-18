@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # Repository Conventions
 
 **Mandatory conventions for the claude-code-skills repository.** Every contributor — human or AI coding agent — must follow these rules. PRs that violate them will be closed.

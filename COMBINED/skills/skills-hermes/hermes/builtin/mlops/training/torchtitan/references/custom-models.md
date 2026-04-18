@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-hermes
+---
+
 # Adding Custom Models to TorchTitan
 
 This guide explains how to add a new model to TorchTitan following the established patterns.

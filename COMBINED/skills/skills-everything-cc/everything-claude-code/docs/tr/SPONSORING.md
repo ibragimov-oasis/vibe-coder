@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
+---
+
 # ECC'ye Sponsor Olma
 
 ECC, Claude Code, Cursor, OpenCode ve Codex app/CLI genelinde açık kaynaklı bir ajan performans sistemi olarak sürdürülmektedir.

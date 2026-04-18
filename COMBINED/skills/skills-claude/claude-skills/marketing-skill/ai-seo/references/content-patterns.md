@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # Content Patterns for AI Citability
 
 Ready-to-use block templates for each content pattern that AI search engines reliably extract and cite. Copy, adapt, and embed in your pages.

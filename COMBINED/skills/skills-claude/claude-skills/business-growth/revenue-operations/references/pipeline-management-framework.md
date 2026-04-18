@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # Pipeline Management Framework
 
 Best practices for pipeline management including stage definitions, conversion benchmarks, velocity optimization, and inspection cadence.

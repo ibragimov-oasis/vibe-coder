@@ -5,6 +5,10 @@ allowedTools:
   - read
   - write
   - shell
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
 ---
 
 # Go Build Error Resolver

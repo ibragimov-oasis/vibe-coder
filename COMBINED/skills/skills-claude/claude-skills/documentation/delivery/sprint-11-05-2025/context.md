@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # Sprint Context: Skill-Agent Integration Phase 1-2
 
 **Sprint ID:** sprint-11-05-2025

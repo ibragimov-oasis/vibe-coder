@@ -3,6 +3,10 @@ paths:
   - "**/*.go"
   - "**/go.mod"
   - "**/go.sum"
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
 ---
 # Go Testing
 

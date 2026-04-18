@@ -1,6 +1,10 @@
 ---
 title: "Gemini CLI Skills & Plugins Guide (2026)"
 description: "Install and use 192 agent skills with Gemini CLI. Free evaluation calls, engineering, marketing, and DevOps skills for Google's coding agent."
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
 ---
 
 # Gemini CLI Agent Skills Guide

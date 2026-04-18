@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # SaaS Metric Formulas
 
 Complete reference with worked examples for all metrics calculated by the SaaS Metrics Coach.

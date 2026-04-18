@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # PRD Quality Checklist
 
 Use this checklist to validate generated PRDs before delivery.

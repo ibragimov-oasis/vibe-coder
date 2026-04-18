@@ -1,6 +1,10 @@
 ---
 title: "Product Analyst Agent — AI Coding Agent & Codex Skill"
 description: "Product analytics agent for KPI definition, dashboard setup, experiment design, and test result interpretation.. Agent-native orchestrator for Claude Code, Codex, Gemini CLI."
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
 ---
 
 # Product Analyst Agent

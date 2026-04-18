@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-hermes
+---
+
 # 1Password CLI get-started (summary)
 
 Official docs: https://developer.1password.com/docs/cli/get-started/

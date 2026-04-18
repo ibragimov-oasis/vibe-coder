@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # Skill Templates & Examples
 
 Complete, copy-paste templates for each skill type.

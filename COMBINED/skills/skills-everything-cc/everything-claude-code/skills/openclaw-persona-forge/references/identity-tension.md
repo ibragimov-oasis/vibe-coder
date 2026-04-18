@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
+---
+
 # Step 2：锻造身份张力
 
 基于用户选定的方向，构建完整的**身份张力结构**：

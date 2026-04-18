@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # DOCX Library Tutorial
 
 Generate .docx files with JavaScript/TypeScript.

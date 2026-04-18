@@ -3,6 +3,9 @@ title: Apply Principle of Least Privilege
 impact: MEDIUM
 impactDescription: Reduced attack surface, better audit trail
 tags: privileges, security, roles, permissions
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
 ---
 
 ## Apply Principle of Least Privilege

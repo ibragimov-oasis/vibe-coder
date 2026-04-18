@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
+---
+
 # Model Route Command
 
 Recommend the best model tier for the current task by complexity and budget.

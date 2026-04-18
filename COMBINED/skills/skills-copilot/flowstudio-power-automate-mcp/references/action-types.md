@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-copilot
+---
+
 # FlowStudio MCP — Action Types Reference
 
 Compact lookup for recognising action types returned by `get_live_flow`.

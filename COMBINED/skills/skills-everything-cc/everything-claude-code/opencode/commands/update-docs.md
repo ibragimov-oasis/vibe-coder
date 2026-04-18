@@ -2,6 +2,10 @@
 description: Update documentation for recent changes
 agent: doc-updater
 subtask: true
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
 ---
 
 # Update Docs Command

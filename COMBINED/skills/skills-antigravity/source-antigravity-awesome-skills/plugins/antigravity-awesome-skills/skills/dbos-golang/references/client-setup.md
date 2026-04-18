@@ -3,6 +3,9 @@ title: Initialize Client for External Access
 impact: HIGH
 impactDescription: Enables external applications to interact with DBOS workflows
 tags: client, external, setup, initialization
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
 ---
 
 ## Initialize Client for External Access

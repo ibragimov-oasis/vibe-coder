@@ -3,6 +3,9 @@ title: Batch DOM CSS Changes
 impact: MEDIUM
 impactDescription: reduces reflows/repaints
 tags: javascript, dom, css, performance, reflow
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
 ---
 
 ## Batch DOM CSS Changes

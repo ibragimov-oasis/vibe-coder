@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/seo
+  - artifact/doc
+  - source/skills-seo
+---
+
 # Castos Writing Examples
 
 This file contains exemplary blog posts from Castos that demonstrate the brand voice, style, and quality standards. Use these as reference when writing new content.

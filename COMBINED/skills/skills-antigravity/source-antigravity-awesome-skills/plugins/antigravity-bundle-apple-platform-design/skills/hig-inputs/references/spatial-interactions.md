@@ -64,7 +64,11 @@ On Apple Watch, Nearby Interaction APIs provide a peer device’s distance. Also
 
 ## [Change log](https://developer.apple.com/design/human-interface-guidelines/nearby-interactions#Change-log)
 
-Date| Changes  
+Date| Changes
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
 ---|---  
 June 21, 2023| Changed page title from Spatial interactions.  
   

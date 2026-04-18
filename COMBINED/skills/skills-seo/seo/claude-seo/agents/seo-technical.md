@@ -4,6 +4,10 @@ description: Technical SEO specialist. Analyzes crawlability, indexability, secu
 model: sonnet
 maxTurns: 20
 tools: Read, Bash, Write, Glob, Grep  # Write needed for report/data file output
+tags:
+  - domain/seo
+  - artifact/doc
+  - source/skills-seo
 ---
 
 You are a Technical SEO specialist. When given a URL or set of URLs:

@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/seo
+  - artifact/doc
+  - source/skills-seo
+---
+
 # Affiliate Program Design
 
 Detailed guidance for building and managing affiliate programs.

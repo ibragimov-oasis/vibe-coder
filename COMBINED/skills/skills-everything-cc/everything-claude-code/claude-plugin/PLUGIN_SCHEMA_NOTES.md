@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
+---
+
 # Plugin Manifest Schema Notes
 
 This document captures **undocumented but enforced constraints** of the Claude Code plugin manifest validator.

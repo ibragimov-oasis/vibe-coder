@@ -2,6 +2,9 @@
 description: When to use Tier 1 (Simple) skill architecture.
 metadata:
   tags: [tier-1, simple, single-file]
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
 ---
 
 # Tier 1: Simple Skills

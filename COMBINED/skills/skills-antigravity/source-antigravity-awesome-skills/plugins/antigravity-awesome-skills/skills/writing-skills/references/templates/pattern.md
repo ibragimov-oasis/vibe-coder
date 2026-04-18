@@ -5,6 +5,10 @@ description: >-
 metadata:
   category: pattern
   triggers: complexity, hard-to-follow, nested
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
 ---
 
 # Pattern Name

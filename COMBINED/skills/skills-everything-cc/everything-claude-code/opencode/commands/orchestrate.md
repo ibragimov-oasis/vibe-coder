@@ -2,6 +2,10 @@
 description: Orchestrate multiple agents for complex tasks
 agent: planner
 subtask: true
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
 ---
 
 # Orchestrate Command

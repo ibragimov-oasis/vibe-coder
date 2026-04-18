@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # SaaS Industry Benchmarks
 
 Industry-standard benchmark ranges for SaaS metrics, segmented by company stage and market segment.

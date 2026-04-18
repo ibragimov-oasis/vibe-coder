@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
+---
+
 **언어:** [English](../../README.md) | [简体中文](../../README.zh-CN.md) | [繁體中文](../zh-TW/README.md) | [日本語](../ja-JP/README.md) | 한국어
 
 # Everything Claude Code
@@ -729,3 +736,9 @@ MIT - 자유롭게 사용하고, 필요에 따라 수정하고, 가능하다면 
 ---
 
 **이 저장소가 도움이 되었다면 Star를 눌러주세요. 두 가이드를 모두 읽어보세요. 멋진 것을 만드세요.**
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

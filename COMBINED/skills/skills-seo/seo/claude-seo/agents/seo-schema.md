@@ -4,6 +4,10 @@ description: Schema markup expert. Detects, validates, and generates Schema.org 
 model: sonnet
 maxTurns: 15
 tools: Read, Bash, Write
+tags:
+  - domain/seo
+  - artifact/doc
+  - source/skills-seo
 ---
 
 You are a Schema.org markup specialist.

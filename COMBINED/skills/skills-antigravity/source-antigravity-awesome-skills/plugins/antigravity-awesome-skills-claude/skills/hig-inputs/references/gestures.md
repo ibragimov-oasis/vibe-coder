@@ -49,7 +49,11 @@ Every platform supports basic gestures like tap, swipe, and drag. Although the p
 
 In addition to the [standard gestures](https://developer.apple.com/design/human-interface-guidelines/gestures#Standard-gestures) supported in all platforms, iOS and iPadOS support a few other gestures that people expect.
 
-Gesture| Common action  
+Gesture| Common action
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
 ---|---  
 Three-finger swipe| Initiate undo (left swipe); initiate redo (right swipe).  
 Three-finger pinch| Copy selected text (pinch in); paste copied text (pinch out).  

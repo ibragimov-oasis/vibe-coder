@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # Accessibility Audit Examples by Framework
 
 ## Example 1: Vue SFC Form Audit

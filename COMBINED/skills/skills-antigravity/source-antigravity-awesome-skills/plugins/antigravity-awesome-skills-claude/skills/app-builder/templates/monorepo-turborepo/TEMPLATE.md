@@ -1,6 +1,10 @@
 ---
 name: monorepo-turborepo
 description: Turborepo monorepo template principles. pnpm workspaces, shared packages.
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
 ---
 
 # Turborepo Monorepo Template

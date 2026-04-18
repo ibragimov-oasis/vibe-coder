@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # Autosave Template
 
 Tests auto-save draft functionality and draft restoration on revisit.

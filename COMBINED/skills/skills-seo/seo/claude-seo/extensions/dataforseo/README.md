@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/seo
+  - artifact/doc
+  - source/skills-seo
+---
+
 # DataForSEO Extension for Claude SEO
 
 Live SEO data via the [DataForSEO MCP server](https://github.com/dataforseo/mcp-server-typescript). Adds 22 commands across 9 API modules: SERP analysis, keyword research, backlinks, on-page analysis, competitor analysis, content analysis, business listings, AI visibility checking, and LLM mention tracking.
@@ -167,3 +174,9 @@ This removes the skill, agent, field config, and MCP server entry from settings.
 - [DataForSEO API Docs](https://docs.dataforseo.com/)
 - [DataForSEO MCP Server](https://github.com/dataforseo/mcp-server-typescript)
 - [Claude SEO](https://github.com/AgriciDaniel/claude-seo)
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-seo]] — Category: skills-seo
+

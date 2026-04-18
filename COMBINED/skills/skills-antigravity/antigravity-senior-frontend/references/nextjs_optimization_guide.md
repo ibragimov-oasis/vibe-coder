@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # Next.js Optimization Guide
 
 Performance optimization techniques for Next.js 14+ applications.

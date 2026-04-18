@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # Azure Best Practices
 
 Production-ready practices for naming, tagging, security, networking, monitoring, and disaster recovery on Azure.

@@ -1,6 +1,10 @@
 ---
 name: nuxt-app
 description: Nuxt 3 full-stack template. Vue 3, Pinia, Tailwind, Prisma.
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
 ---
 
 # Nuxt 3 Full-Stack Template

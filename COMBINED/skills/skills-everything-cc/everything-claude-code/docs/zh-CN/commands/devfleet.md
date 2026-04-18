@@ -1,5 +1,9 @@
 ---
 description: 通过Claude DevFleet协调并行Claude Code代理——从自然语言规划项目，在隔离的工作树中调度代理，监控进度，并读取结构化报告。
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
 ---
 
 # DevFleet — 多智能体编排

@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
+---
+
 # スキル
 
 スキルは Claude Code が文脈に基づいて読み込む知識モジュールです。ワークフロー定義とドメイン知識を含みます。
@@ -103,3 +110,9 @@ Describe scenarios where this skill applies.
 ---
 
 **覚えておいてください**：スキルは参照資料です。実装ガイダンスを提供し、ベストプラクティスを示します。スキルとルールを一緒に使用して、高品質なコードを確認してください。
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

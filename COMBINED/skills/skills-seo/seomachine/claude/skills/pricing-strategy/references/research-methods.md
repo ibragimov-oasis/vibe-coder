@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/seo
+  - artifact/doc
+  - source/skills-seo
+---
+
 # Pricing Research Methods
 
 ## Van Westendorp Price Sensitivity Meter

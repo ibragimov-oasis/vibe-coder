@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/ui
+  - artifact/doc
+  - source/skills-design
+---
+
 # Mobile Testing Patterns
 
 > **Mobile testing is NOT web testing. Different constraints, different strategies.**

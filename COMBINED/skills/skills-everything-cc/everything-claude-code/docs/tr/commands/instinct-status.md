@@ -2,6 +2,10 @@
 name: instinct-status
 description: Öğrenilen içgüdüleri (proje + global) güven seviyesiyle göster
 command: true
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
 ---
 
 # Instinct Status Komutu

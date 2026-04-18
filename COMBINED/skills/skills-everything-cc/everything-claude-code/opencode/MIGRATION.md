@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
+---
+
 # Migration Guide: Claude Code to OpenCode
 
 This guide helps you migrate from Claude Code to OpenCode while using the Everything Claude Code (ECC) configuration.

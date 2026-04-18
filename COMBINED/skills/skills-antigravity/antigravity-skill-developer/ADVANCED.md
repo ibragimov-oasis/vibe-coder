@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # Advanced Topics & Future Enhancements
 
 Ideas and concepts for future improvements to the skill system.

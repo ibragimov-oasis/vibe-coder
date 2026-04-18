@@ -3,6 +3,9 @@ name: calculate-metadata
 description: Dynamically set composition duration, dimensions, and props
 metadata:
   tags: calculateMetadata, duration, dimensions, props, dynamic
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
 ---
 
 # Using calculateMetadata

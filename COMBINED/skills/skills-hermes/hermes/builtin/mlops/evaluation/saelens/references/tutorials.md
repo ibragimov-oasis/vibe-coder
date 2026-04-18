@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-hermes
+---
+
 # SAELens Tutorials
 
 ## Tutorial 1: Loading and Analyzing Pre-trained SAEs

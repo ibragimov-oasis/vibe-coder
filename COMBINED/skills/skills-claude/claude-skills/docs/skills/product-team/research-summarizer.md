@@ -1,6 +1,10 @@
 ---
 title: "Research Summarizer — Agent Skill for Product Teams"
 description: "Structured research summarization agent skill for non-dev users. Handles academic papers, web articles, reports, and documentation. Extracts key."
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
 ---
 
 # Research Summarizer

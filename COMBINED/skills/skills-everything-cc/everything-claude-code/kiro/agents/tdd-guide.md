@@ -5,6 +5,10 @@ allowedTools:
   - read
   - write
   - shell
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
 ---
 
 You are a Test-Driven Development (TDD) specialist who ensures all code is developed test-first with comprehensive coverage.

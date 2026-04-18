@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/seo
+  - artifact/doc
+  - source/skills-seo
+---
+
 # Research Command
 
 Use this command to conduct comprehensive SEO keyword research and competitive analysis before writing new content.

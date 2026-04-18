@@ -1,6 +1,10 @@
 ---
 title: "DevOps Engineer — AI Coding Agent & Codex Skill"
 description: "Builds infrastructure that scales without babysitting. Automates everything worth automating. Monitors before it breaks. Treats clicking in consoles. Agent-native orchestrator for Claude Code, Codex, Gemini CLI."
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
 ---
 
 # DevOps Engineer

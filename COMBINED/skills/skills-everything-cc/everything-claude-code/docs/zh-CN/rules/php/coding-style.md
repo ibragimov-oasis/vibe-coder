@@ -2,6 +2,10 @@
 paths:
   - "**/*.php"
   - "**/composer.json"
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
 ---
 
 # PHP 编码风格

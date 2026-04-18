@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # Cancel Flow Patterns
 
 Detailed cancel flow patterns by business type, billing provider, and industry.

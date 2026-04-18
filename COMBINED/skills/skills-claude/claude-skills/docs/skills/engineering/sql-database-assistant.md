@@ -1,6 +1,10 @@
 ---
 title: "SQL Database Assistant - POWERFUL Tier Skill — Agent Skill for Codex & OpenClaw"
 description: "Use when the user asks to write SQL queries, optimize database performance, generate migrations, explore database schemas, or work with ORMs like. Agent skill for Claude Code, Codex CLI, Gemini CLI, OpenClaw."
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
 ---
 
 # SQL Database Assistant - POWERFUL Tier Skill

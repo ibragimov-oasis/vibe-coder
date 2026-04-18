@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-copilot
+---
+
 # PostgreSQL Exception Handling: SELECT INTO No Data Found
 
 ## Overview

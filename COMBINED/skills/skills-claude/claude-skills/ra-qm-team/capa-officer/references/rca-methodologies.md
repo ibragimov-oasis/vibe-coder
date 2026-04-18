@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # Root Cause Analysis Methodologies
 
 Decision criteria, templates, and implementation guidance for RCA techniques.

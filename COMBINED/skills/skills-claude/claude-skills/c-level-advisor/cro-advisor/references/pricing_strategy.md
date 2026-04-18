@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # Pricing Strategy
 
 Pricing is not a one-time decision. It's an ongoing hypothesis about value and willingness to pay. Most SaaS companies are underpriced by 20-40%.
