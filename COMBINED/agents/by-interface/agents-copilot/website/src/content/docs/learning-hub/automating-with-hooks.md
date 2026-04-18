@@ -14,6 +14,9 @@ relatedArticles:
   - ./what-are-agents-skills-instructions.md
 prerequisites:
   - Basic understanding of GitHub Copilot agents
+  - domain/agents
+  - artifact/agent
+  - source/by-interface/agents-copilot
 ---
 
 Hooks let you run automated scripts at key moments during a Copilot agent session — when a session starts or ends, when the user submits a prompt, or before and after the agent uses a tool. They're the glue between Copilot's AI capabilities and your team's existing tooling: linters, formatters, governance scanners, and notification systems.
@@ -405,3 +408,9 @@ A: Yes. Hooks are especially valuable with the coding agent because they provide
 - **Automate Further**: [Using the Copilot Coding Agent](../using-copilot-coding-agent/) — Run hooks in autonomous agent sessions
 
 ---
+
+## 🔗 Связи
+
+- [[MOC - Agents]] — Agent catalog
+- [[agents/agents-copilot]] — Interface: agents-copilot
+

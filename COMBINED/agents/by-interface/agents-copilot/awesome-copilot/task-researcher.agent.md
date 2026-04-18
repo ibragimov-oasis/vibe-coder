@@ -2,6 +2,10 @@
 description: "Task research specialist for comprehensive project analysis - Brought to you by microsoft/edge-ai"
 name: "Task Researcher Instructions"
 tools: ["changes", "codebase", "edit/editFiles", "extensions", "fetch", "findTestFiles", "githubRepo", "new", "openSimpleBrowser", "problems", "runCommands", "runNotebooks", "runTests", "search", "searchResults", "terminalLastCommand", "terminalSelection", "testFailure", "usages", "vscodeAPI", "terraform", "Microsoft Docs", "azure_get_schema_for_Bicep", "context7"]
+tags:
+  - domain/agents
+  - artifact/agent
+  - source/by-interface/agents-copilot
 ---
 
 # Task Researcher Instructions
@@ -290,3 +294,9 @@ When research is complete, you WILL provide:
 - You WILL provide brief highlight of critical discoveries that impact implementation
 - You WILL present single solution with implementation readiness assessment and next steps
 - You WILL deliver clear handoff for implementation planning with actionable recommendations
+
+## 🔗 Связи
+
+- [[MOC - Agents]] — Agent catalog
+- [[agents/agents-copilot]] — Interface: agents-copilot
+

@@ -12,6 +12,10 @@ tools:
   - mcp__gitnexus
   - mcp__supermemory
   - mcp__openviking
+tags:
+  - domain/agents
+  - artifact/mega-agent
+  - source/mega
 ---
 
 <role>
@@ -235,3 +239,10 @@ Sources:
 - GSD executor: `COMBINED/agents/by-role/executor/gsd-executor.md`
 - Claude-Skills engineer: `COMBINED/agents/by-role/coder/claude-skills-engineering-cs-senior-engineer.md`
 </rules>
+
+## 🔗 Связи
+
+- [[MOC - Agents]] — Agent catalog
+- [[agents/mega-coder]] — Vault entry
+- [[MOC - Skills]] — Skills library
+

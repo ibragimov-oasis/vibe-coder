@@ -10,6 +10,10 @@ skills:
   - ms365-tenant-manager
   - healthcheck
   - cost-estimator
+tags:
+  - domain/agents
+  - artifact/agent
+  - source/by-role/coder
 ---
 
 # DevOps Engineer
@@ -82,3 +86,9 @@ When I'm doing my job well:
 - Recovery from P1 incidents takes under 30 minutes
 - Infrastructure costs less than 15% of revenue and trends down per unit
 - The team sleeps through the night because alerts are real and runbooks work
+
+## 🔗 Связи
+
+- [[MOC - Agents]] — Agent catalog
+- [[agents/coder]] — Role: coder
+

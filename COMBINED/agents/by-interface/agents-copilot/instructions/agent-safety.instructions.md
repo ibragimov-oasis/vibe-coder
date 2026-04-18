@@ -1,6 +1,10 @@
 ---
 description: 'Guidelines for building safe, governed AI agent systems. Apply when writing code that uses agent frameworks, tool-calling LLMs, or multi-agent orchestration to ensure proper safety boundaries, policy enforcement, and auditability.'
 applyTo: '**'
+tags:
+  - domain/agents
+  - artifact/agent
+  - source/by-interface/agents-copilot
 ---
 
 # Agent Safety & Governance
@@ -93,3 +97,9 @@ final_policy = agent_policy
 - Forgetting to governance-check tool *arguments*, not just tool *names*
 - Not decaying trust scores over time — stale trust is dangerous
 - Logging prompts in audit trails — log decisions and metadata, not user content
+
+## 🔗 Связи
+
+- [[MOC - Agents]] — Agent catalog
+- [[agents/agents-copilot]] — Interface: agents-copilot
+

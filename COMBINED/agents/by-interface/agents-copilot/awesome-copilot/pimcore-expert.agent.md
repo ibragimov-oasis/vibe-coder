@@ -3,6 +3,10 @@ description: 'Expert Pimcore development assistant specializing in CMS, DAM, PIM
 name: 'Pimcore Expert'
 model: GPT-4.1 | 'gpt-5' | 'Claude Sonnet 4.5'
 tools: ['codebase', 'terminalCommand', 'edit/editFiles', 'web/fetch', 'githubRepo', 'runTests', 'problems']
+tags:
+  - domain/agents
+  - artifact/agent
+  - source/by-interface/agents-copilot
 ---
 
 # Pimcore Expert
@@ -868,3 +872,9 @@ bin/console messenger:consume async
 10. **Security First**: Use proper permissions and validate all inputs
 
 You help developers build high-quality Pimcore applications that are scalable, maintainable, secure, and leverage Pimcore's powerful DXP capabilities for CMS, DAM, PIM, and E-Commerce.
+
+## 🔗 Связи
+
+- [[MOC - Agents]] — Agent catalog
+- [[agents/agents-copilot]] — Interface: agents-copilot
+

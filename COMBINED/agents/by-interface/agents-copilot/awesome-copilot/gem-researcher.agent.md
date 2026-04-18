@@ -3,6 +3,10 @@ description: "Research specialist: gathers codebase context, identifies relevant
 name: gem-researcher
 disable-model-invocation: false
 user-invocable: true
+tags:
+  - domain/agents
+  - artifact/agent
+  - source/by-interface/agents-copilot
 ---
 
 <agent>
@@ -242,3 +246,9 @@ Avoid for: Simple/medium tasks (<50 files), single-pass searches, well-defined s
   - Fallback for webpage content: Use `fetch_webpage` tool as a fallback (if available). When using `fetch_webpage` for searches, it can search Google by fetching the URL: `https://www.google.com/search?q=your+search+query+2026`. Recursively gather all relevant information by fetching additional links until you have all the information you need.
 </directives>
 </agent>
+
+## 🔗 Связи
+
+- [[MOC - Agents]] — Agent catalog
+- [[agents/agents-copilot]] — Interface: agents-copilot
+

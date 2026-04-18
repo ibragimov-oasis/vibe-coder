@@ -2,6 +2,10 @@
 title: Power Platform Connectors Schema Development Instructions
 description: 'Comprehensive development guidelines for Power Platform Custom Connectors using JSON Schema definitions. Covers API definitions (Swagger 2.0), API properties, and settings configuration with Microsoft extensions.'
 applyTo: '**/*.{json,md}'
+tags:
+  - domain/agents
+  - artifact/agent
+  - source/by-interface/agents-copilot
 ---
 
 # Power Platform Connectors Schema Development Instructions
@@ -428,3 +432,9 @@ This workspace contains JSON Schema definitions for Power Platform Custom Connec
 - Check that operation responses match expected schemas to prevent runtime errors.
 
 Remember: These schemas ensure your Power Platform connectors are properly formatted and will work correctly in the Power Platform ecosystem.
+
+## 🔗 Связи
+
+- [[MOC - Agents]] — Agent catalog
+- [[agents/agents-copilot]] — Interface: agents-copilot
+

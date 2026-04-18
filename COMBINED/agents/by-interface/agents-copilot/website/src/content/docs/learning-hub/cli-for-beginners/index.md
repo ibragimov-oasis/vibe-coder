@@ -4,6 +4,10 @@ description: "A source-faithful mirror of the companion GitHub Copilot CLI for B
 authors:
   - GitHub Copilot Learning Hub Team
 lastUpdated: 2026-03-20
+tags:
+  - domain/agents
+  - artifact/agent
+  - source/by-interface/agents-copilot
 ---
 
 ![GitHub Copilot CLI for Beginners](/images/learning-hub/copilot-cli-for-beginners/overview/copilot-banner.png)
@@ -97,3 +101,9 @@ The **[GitHub Copilot CLI command reference](https://docs.github.com/en/copilot/
 ## License
 
 This project is licensed under the terms of the MIT open source license. Please refer to the [LICENSE](https://github.com/github/copilot-cli-for-beginners/blob/main/LICENSE) file for the full terms.
+
+## 🔗 Связи
+
+- [[MOC - Agents]] — Agent catalog
+- [[agents/agents-copilot]] — Interface: agents-copilot
+

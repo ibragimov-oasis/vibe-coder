@@ -2,6 +2,9 @@
 name: 'Session Logger'
 description: 'Logs all Copilot coding agent session activity for audit and analysis'
 tags: ['logging', 'audit', 'analytics']
+  - domain/agents
+  - artifact/agent
+  - source/by-interface/agents-copilot
 ---
 
 # Session Logger Hook
@@ -56,3 +59,9 @@ Session events are written to `logs/copilot/session.log` and prompt events to `l
 - Use `LOG_LEVEL=ERROR` to only log errors
 - Set `SKIP_LOGGING=true` environment variable to disable
 - Logs are stored locally only
+
+## 🔗 Связи
+
+- [[MOC - Agents]] — Agent catalog
+- [[agents/agents-copilot]] — Interface: agents-copilot
+

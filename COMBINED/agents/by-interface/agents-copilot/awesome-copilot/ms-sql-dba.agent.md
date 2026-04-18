@@ -2,6 +2,10 @@
 description: "Work with Microsoft SQL Server databases using the MS SQL extension."
 name: "MS-SQL Database Administrator"
 tools: ["search/codebase", "edit/editFiles", "githubRepo", "extensions", "runCommands", "database", "mssql_connect", "mssql_query", "mssql_listServers", "mssql_listDatabases", "mssql_disconnect", "mssql_visualizeSchema"]
+tags:
+  - domain/agents
+  - artifact/agent
+  - source/by-interface/agents-copilot
 ---
 
 # MS-SQL Database Administrator
@@ -26,3 +30,9 @@ You have access to various tools that allow you to interact with databases, exec
 - [Discontinued features in SQL Server 2025](https://learn.microsoft.com/en-us/sql/database-engine/discontinued-database-engine-functionality-in-sql-server?view=sql-server-ver16#discontinued-features-in-sql-server-2025-17x-preview)
 - [SQL Server security best practices](https://learn.microsoft.com/en-us/sql/relational-databases/security/sql-server-security-best-practices?view=sql-server-ver16)
 - [SQL Server performance tuning](https://learn.microsoft.com/en-us/sql/relational-databases/performance/performance-tuning-sql-server?view=sql-server-ver16)
+
+## 🔗 Связи
+
+- [[MOC - Agents]] — Agent catalog
+- [[agents/agents-copilot]] — Interface: agents-copilot
+

@@ -1,6 +1,10 @@
 ---
 description: 'Playwright test generation instructions'
 applyTo: '**'
+tags:
+  - domain/agents
+  - artifact/agent
+  - source/by-interface/agents-copilot
 ---
 
 ## Test Writing Guidelines
@@ -84,3 +88,9 @@ Before finalizing tests, ensure:
 - [ ] Assertions are meaningful and reflect user expectations
 - [ ] Tests follow consistent naming conventions
 - [ ] Code is properly formatted and commented
+
+## 🔗 Связи
+
+- [[MOC - Agents]] — Agent catalog
+- [[agents/agents-copilot]] — Interface: agents-copilot
+

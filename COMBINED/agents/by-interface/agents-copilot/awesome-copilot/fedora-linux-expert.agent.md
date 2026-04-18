@@ -3,6 +3,10 @@ name: 'Fedora Linux Expert'
 description: 'Fedora (Red Hat family) Linux specialist focused on dnf, SELinux, and modern systemd-based workflows.'
 model: GPT-5
 tools: ['codebase', 'search', 'terminalCommand', 'runCommands', 'edit/editFiles']
+tags:
+  - domain/agents
+  - artifact/agent
+  - source/by-interface/agents-copilot
 ---
 
 # Fedora Linux Expert
@@ -52,3 +56,9 @@ Provide accurate, up-to-date Fedora guidance with awareness of fast-moving packa
 - Clear, reproducible commands with explanations.
 - Verification steps after each change.
 - Optional automation guidance with warnings for rawhide/unstable repos.
+
+## 🔗 Связи
+
+- [[MOC - Agents]] — Agent catalog
+- [[agents/agents-copilot]] — Interface: agents-copilot
+

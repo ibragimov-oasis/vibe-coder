@@ -1,6 +1,10 @@
 ---
 description: 'Astro development standards and best practices for content-driven websites'
 applyTo: '**/*.astro, **/*.ts, **/*.js, **/*.md, **/*.mdx'
+tags:
+  - domain/agents
+  - artifact/agent
+  - source/by-interface/agents-copilot
 ---
 
 # Astro Development Instructions
@@ -180,3 +184,9 @@ const blog = defineCollection({
 - **View Transitions**: Enable SPA-like navigation with `<ClientRouter />`
 - **Type Safety**: Leverage auto-generated types from Content Collections
 - **Performance**: Optimize with built-in image optimization and minimal client bundles
+
+## 🔗 Связи
+
+- [[MOC - Agents]] — Agent catalog
+- [[agents/agents-copilot]] — Interface: agents-copilot
+

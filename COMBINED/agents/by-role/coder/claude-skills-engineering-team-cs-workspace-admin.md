@@ -5,6 +5,10 @@ skills: engineering-team/google-workspace-cli
 domain: engineering
 model: opus
 tools: [Read, Write, Bash, Grep, Glob]
+tags:
+  - domain/agents
+  - artifact/agent
+  - source/by-role/coder
 ---
 
 # cs-workspace-admin
@@ -158,3 +162,9 @@ gws helpers morning-briefing --json | python3 ../../engineering-team/google-work
 
 - [Skill Documentation](../../engineering-team/google-workspace-cli/SKILL.md)
 - [gws CLI Repository](https://github.com/googleworkspace/cli)
+
+## 🔗 Связи
+
+- [[MOC - Agents]] — Agent catalog
+- [[agents/coder]] — Role: coder
+

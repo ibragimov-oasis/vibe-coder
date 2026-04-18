@@ -2,6 +2,10 @@
 applyTo: "**.go, go.mod"
 description: "This file provides guidance on building Go applications using GitHub Copilot SDK."
 name: "GitHub Copilot SDK Go Instructions"
+tags:
+  - domain/agents
+  - artifact/agent
+  - source/by-interface/agents-copilot
 ---
 
 ## Core Principles
@@ -642,3 +646,9 @@ session, _ := client.CreateSession(&copilot.SessionConfig{
     },
 })
 ```
+
+## 🔗 Связи
+
+- [[MOC - Agents]] — Agent catalog
+- [[agents/agents-copilot]] — Interface: agents-copilot
+

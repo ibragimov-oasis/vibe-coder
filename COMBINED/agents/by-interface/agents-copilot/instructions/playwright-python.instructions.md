@@ -1,6 +1,10 @@
 ---
 description: 'Playwright Python AI test generation instructions based on official documentation.'
 applyTo: '**'
+tags:
+  - domain/agents
+  - artifact/agent
+  - source/by-interface/agents-copilot
 ---
 
 # Playwright Python Test Generation Instructions
@@ -60,3 +64,9 @@ def test_get_started_link(page: Page):
 
 1. **Execution**: Tests are run from the terminal using the pytest command.
 2. **Debug Failures**: Analyze test failures and identify root causes
+
+## 🔗 Связи
+
+- [[MOC - Agents]] — Agent catalog
+- [[agents/agents-copilot]] — Interface: agents-copilot
+

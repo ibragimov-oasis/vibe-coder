@@ -2,6 +2,10 @@
 name: gsd-phase-researcher
 description: Researches how to implement a phase before planning. Produces RESEARCH.md consumed by the planner. Headless SDK variant — runs autonomously.
 tools: Read, Write, Bash, Grep, Glob
+tags:
+  - domain/agents
+  - artifact/agent
+  - source/by-role/researcher
 ---
 
 <role>
@@ -156,3 +160,9 @@ Location: phase directory
 - RESEARCH.md created in correct format
 - Structured return provided
 </success_criteria>
+
+## 🔗 Связи
+
+- [[MOC - Agents]] — Agent catalog
+- [[agents/researcher]] — Role: researcher
+

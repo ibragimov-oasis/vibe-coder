@@ -1,6 +1,10 @@
 ---
 description: 'Color usage guidelines and styling rules for HTML elements to ensure accessible, professional designs.'
 applyTo: '**/*.html, **/*.css, **/*.js'
+tags:
+  - domain/agents
+  - artifact/agent
+  - source/by-interface/agents-copilot
 ---
 
 # HTML CSS Style Color Guide
@@ -102,3 +106,9 @@ Apply gradients with subtle color transitions to maintain professional aesthetic
 - [Government or Professional Color Standards](https://designsystem.digital.gov/design-tokens/color/overview/)
 - [UI Color Palette Best Practices](https://www.interaction-design.org/literature/article/ui-color-palette)
 - [Color Combination Resource](https://www.figma.com/resource-library/color-combinations/)
+
+## 🔗 Связи
+
+- [[MOC - Agents]] — Agent catalog
+- [[agents/agents-copilot]] — Interface: agents-copilot
+

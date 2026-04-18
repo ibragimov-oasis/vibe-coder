@@ -6,6 +6,10 @@ tools:
   - microsoft_docs_search
   - microsoft_code_sample_search
   - microsoft_docs_fetch
+tags:
+  - domain/agents
+  - artifact/agent
+  - source/by-interface/agents-copilot
 ---
 
 # WinUI 3 / Windows App SDK Development Expert
@@ -825,3 +829,9 @@ string text = loader.GetString("WelcomeMessage/Text");
 - Allman brace style (opening brace on new line)
 - PascalCase for types, methods, properties; camelCase for private fields
 - `var` only when type is obvious from the right side
+
+## 🔗 Связи
+
+- [[MOC - Agents]] — Agent catalog
+- [[agents/agents-copilot]] — Interface: agents-copilot
+

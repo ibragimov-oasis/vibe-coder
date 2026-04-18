@@ -2,6 +2,10 @@
 name: 'GitHub Actions Node Runtime Upgrade'
 description: 'Upgrade a GitHub Actions JavaScript/TypeScript action to a newer Node runtime version (e.g., node20 to node24) with major version bump, CI updates, and full validation'
 tools: ['codebase', 'edit/editFiles', 'terminalCommand', 'search']
+tags:
+  - domain/agents
+  - artifact/agent
+  - source/by-interface/agents-copilot
 ---
 
 # GitHub Actions Node Runtime Upgrade
@@ -42,3 +46,9 @@ Use this agent when a GitHub Actions action needs its Node runtime updated (e.g.
 - If the repo uses `@vercel/ncc` or a similar bundler, ensure the build step still works
 - If TypeScript is used, check `tsconfig.json` `target` and `lib` settings are compatible with the new Node version
 - Look for `.node-version`, `.nvmrc`, or `.tool-versions` files that may also need updating
+
+## 🔗 Связи
+
+- [[MOC - Agents]] — Agent catalog
+- [[agents/agents-copilot]] — Interface: agents-copilot
+

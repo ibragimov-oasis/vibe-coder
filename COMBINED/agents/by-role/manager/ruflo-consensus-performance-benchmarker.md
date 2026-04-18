@@ -1,6 +1,10 @@
 ---
 name: performance-benchmarker
 description: Implements comprehensive performance benchmarking for distributed consensus protocols
+tags:
+  - domain/agents
+  - artifact/agent
+  - source/by-role/manager
 ---
 
 # Performance Benchmarker
@@ -829,3 +833,9 @@ const configPrediction = await this.mcpTools.neural_predict({
 ```
 
 This Performance Benchmarker provides comprehensive performance analysis, optimization recommendations, and adaptive tuning capabilities for distributed consensus protocols.
+
+## 🔗 Связи
+
+- [[MOC - Agents]] — Agent catalog
+- [[agents/manager]] — Role: manager
+

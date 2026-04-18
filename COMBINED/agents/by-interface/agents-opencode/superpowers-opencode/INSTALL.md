@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/agent
+  - source/by-interface/agents-opencode
+---
+
 # Installing Superpowers for OpenCode
 
 ## Prerequisites
@@ -81,3 +88,9 @@ When skills reference Claude Code tools:
 
 - Report issues: https://github.com/obra/superpowers/issues
 - Full documentation: https://github.com/obra/superpowers/blob/main/docs/README.opencode.md
+
+## 🔗 Связи
+
+- [[MOC - Agents]] — Agent catalog
+- [[agents/agents-opencode]] — Interface: agents-opencode
+

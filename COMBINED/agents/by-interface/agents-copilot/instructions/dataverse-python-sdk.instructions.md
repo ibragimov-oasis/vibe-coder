@@ -1,5 +1,9 @@
 ---
 applyTo: '**'
+tags:
+  - domain/agents
+  - artifact/agent
+  - source/by-interface/agents-copilot
 ---
 # Dataverse SDK for Python — Official Quickstart
 
@@ -97,3 +101,9 @@ client.delete_table("SampleItem")
 - Getting started: https://learn.microsoft.com/en-us/power-apps/developer/data-platform/sdk-python/get-started
 - Working with data: https://learn.microsoft.com/en-us/power-apps/developer/data-platform/sdk-python/work-data
 - SDK source/examples: https://github.com/microsoft/PowerPlatform-DataverseClient-Python
+
+## 🔗 Связи
+
+- [[MOC - Agents]] — Agent catalog
+- [[agents/agents-copilot]] — Interface: agents-copilot
+

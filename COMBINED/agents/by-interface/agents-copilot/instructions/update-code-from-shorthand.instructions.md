@@ -1,6 +1,10 @@
 ---
 description: "Shorthand code will be in the file provided from the prompt or raw data in the prompt, and will be used to update the code file when the prompt has the text `UPDATE CODE FROM SHORTHAND`."
 applyTo: "**/${input:file}"
+tags:
+  - domain/agents
+  - artifact/agent
+  - source/by-interface/agents-copilot
 ---
 
 # Update Code from Shorthand
@@ -128,3 +132,9 @@ xhttp.onreadystatechange = function() {
 xhttp.open("GET", file, true);
 xhttp.send();
 ```
+
+## 🔗 Связи
+
+- [[MOC - Agents]] — Agent catalog
+- [[agents/agents-copilot]] — Interface: agents-copilot
+

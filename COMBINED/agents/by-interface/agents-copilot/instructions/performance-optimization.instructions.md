@@ -1,6 +1,10 @@
 ---
 applyTo: '*'
 description: 'The most comprehensive, practical, and engineer-authored performance optimization instructions for all languages, frameworks, and stacks. Covers frontend, backend, and database best practices with actionable guidance, scenario-based checklists, troubleshooting, and pro tips.'
+tags:
+  - domain/agents
+  - artifact/agent
+  - source/by-interface/agents-copilot
 ---
 
 # Performance Optimization Best Practices
@@ -417,4 +421,10 @@ Performance optimization is an ongoing process. Always measure, profile, and ite
 
 ---
 
-<!-- End of Performance Optimization Instructions --> 
+<!-- End of Performance Optimization Instructions -->
+
+## 🔗 Связи
+
+- [[MOC - Agents]] — Agent catalog
+- [[agents/agents-copilot]] — Interface: agents-copilot
+

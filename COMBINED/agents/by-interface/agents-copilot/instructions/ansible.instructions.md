@@ -1,6 +1,10 @@
 ---
 description: 'Ansible conventions and best practices'
 applyTo: '**/*.yaml, **/*.yml'
+tags:
+  - domain/agents
+  - artifact/agent
+  - source/by-interface/agents-copilot
 ---
 
 # Ansible Conventions and Best Practices
@@ -86,3 +90,9 @@ These guidelines were based on, or copied from, the following sources:
 - [Ansible Documentation - Tips and Tricks](https://docs.ansible.com/ansible/latest/tips_tricks/index.html)
 - [Whitecloud Ansible Styleguide](https://github.com/whitecloud/ansible-styleguide)
 -->
+
+## 🔗 Связи
+
+- [[MOC - Agents]] — Agent catalog
+- [[agents/agents-copilot]] — Interface: agents-copilot
+

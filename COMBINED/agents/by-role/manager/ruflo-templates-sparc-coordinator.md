@@ -1,6 +1,10 @@
 ---
 name: sparc-coord
 description: SPARC methodology orchestrator for systematic development phase coordination
+tags:
+  - domain/agents
+  - artifact/agent
+  - source/by-role/manager
 ---
 
 # SPARC Methodology Orchestrator Agent
@@ -161,3 +165,9 @@ Completion → Final Review → Deployment
 - Quality gate pass rate
 - Defect discovery timing
 - Methodology compliance
+
+## 🔗 Связи
+
+- [[MOC - Agents]] — Agent catalog
+- [[agents/manager]] — Role: manager
+

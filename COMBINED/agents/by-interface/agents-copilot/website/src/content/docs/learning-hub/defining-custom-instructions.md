@@ -15,6 +15,9 @@ relatedArticles:
   - ./copilot-configuration-basics.md
 prerequisites:
   - Basic understanding of GitHub Copilot features
+  - domain/agents
+  - artifact/agent
+  - source/by-interface/agents-copilot
 ---
 
 Custom instructions are persistent configuration files that automatically guide GitHub Copilot's behavior when working with specific files or directories in your codebase. Unlike skills that require explicit invocation (by a user or an agent), instructions work silently in the background, ensuring Copilot consistently follows your team's standards, conventions, and architectural decisions.
@@ -325,3 +328,9 @@ Now that you understand custom instructions, you can:
 1. This article (defining custom instructions)
 2. [Creating Effective Skills](../creating-effective-skills/) - Learn complementary customization type
 3. [Building Custom Agents](../building-custom-agents/) - Decision framework for when to use each type
+
+## 🔗 Связи
+
+- [[MOC - Agents]] — Agent catalog
+- [[agents/agents-copilot]] — Interface: agents-copilot
+

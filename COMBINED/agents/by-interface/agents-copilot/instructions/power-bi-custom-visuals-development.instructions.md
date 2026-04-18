@@ -1,6 +1,10 @@
 ---
 description: 'Comprehensive Power BI custom visuals development guide covering React, D3.js integration, TypeScript patterns, testing frameworks, and advanced visualization techniques.'
 applyTo: '**/*.{ts,tsx,js,jsx,json,less,css}'
+tags:
+  - domain/agents
+  - artifact/agent
+  - source/by-interface/agents-copilot
 ---
 
 # Power BI Custom Visuals Development Best Practices
@@ -808,3 +812,9 @@ export class OptimizedVisual implements IVisual {
 ```
 
 Remember: Custom visual development requires understanding both Power BI's visual framework and modern web development practices. Focus on creating reusable, testable, and performant visualizations that enhance the Power BI ecosystem.
+
+## 🔗 Связи
+
+- [[MOC - Agents]] — Agent catalog
+- [[agents/agents-copilot]] — Interface: agents-copilot
+

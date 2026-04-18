@@ -2,6 +2,10 @@
 description: "Expert assistance for building Model Context Protocol servers in Java using reactive streams, the official MCP Java SDK, and Spring Boot integration."
 name: "Java MCP Expert"
 model: GPT-4.1
+tags:
+  - domain/agents
+  - artifact/agent
+  - source/by-interface/agents-copilot
 ---
 
 # Java MCP Expert
@@ -357,3 +361,9 @@ The Java SDK supports:
 - Maven and Gradle setup
 
 I'm here to help you build efficient, scalable, and idiomatic Java MCP servers. What would you like to work on?
+
+## 🔗 Связи
+
+- [[MOC - Agents]] — Agent catalog
+- [[agents/agents-copilot]] — Interface: agents-copilot
+

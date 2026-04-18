@@ -1,6 +1,10 @@
 ---
 description: 'Shell scripting best practices and conventions for bash, sh, zsh, and other shells'
 applyTo: '**/*.sh'
+tags:
+  - domain/agents
+  - artifact/agent
+  - source/by-interface/agents-copilot
 ---
 
 # Shell Scripting Guidelines
@@ -130,3 +134,9 @@ done
 main "$@"
 
 ```
+
+## 🔗 Связи
+
+- [[MOC - Agents]] — Agent catalog
+- [[agents/agents-copilot]] — Interface: agents-copilot
+

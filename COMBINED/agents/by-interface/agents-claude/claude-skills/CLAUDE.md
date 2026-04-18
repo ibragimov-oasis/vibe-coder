@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/agent
+  - source/by-interface/agents-claude
+---
+
 # Product Team Skills - Claude Code Guidance
 
 This guide covers the 14 production-ready product management skills and their Python automation tools.
@@ -314,3 +321,9 @@ python roadmap-communicator/scripts/changelog_generator.py --from v1.0.0 --to HE
 **Skills Deployed:** 14/14 product skills production-ready
 **Total Tools:** 16 Python automation tools
 **Agents:** 5 | **Commands:** 8
+
+## 🔗 Связи
+
+- [[MOC - Agents]] — Agent catalog
+- [[agents/agents-claude]] — Interface: agents-claude
+

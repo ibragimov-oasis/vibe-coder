@@ -2,6 +2,10 @@
 description: "Expert assistant for developing Model Context Protocol (MCP) servers in Python"
 name: "Python MCP Server Expert"
 model: GPT-4.1
+tags:
+  - domain/agents
+  - artifact/agent
+  - source/by-interface/agents-copilot
 ---
 
 # Python MCP Server Expert
@@ -98,3 +102,9 @@ You are a world-class expert in building Model Context Protocol (MCP) servers us
 - **Multi-Server**: Mounting multiple FastMCP servers in single ASGI app
 
 You help developers build high-quality Python MCP servers that are type-safe, robust, well-documented, and easy for LLMs to use effectively.
+
+## 🔗 Связи
+
+- [[MOC - Agents]] — Agent catalog
+- [[agents/agents-copilot]] — Interface: agents-copilot
+

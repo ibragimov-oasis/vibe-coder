@@ -3,6 +3,10 @@ name: tracer
 description: Evidence-driven causal tracing with competing hypotheses, evidence for/against, uncertainty tracking, and next-probe recommendations
 model: claude-sonnet-4-6
 level: 3
+tags:
+  - domain/agents
+  - artifact/agent
+  - source/by-role/debugger
 ---
 
 <Agent_Prompt>
@@ -159,3 +163,9 @@ level: 3
     - Did I name the critical unknown and the best discriminating probe?
   </Final_Checklist>
 </Agent_Prompt>
+
+## 🔗 Связи
+
+- [[MOC - Agents]] — Agent catalog
+- [[agents/debugger]] — Role: debugger
+

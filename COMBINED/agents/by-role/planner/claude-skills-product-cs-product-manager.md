@@ -5,6 +5,10 @@ skills: product-team/product-manager-toolkit, product-team/agile-product-owner, 
 domain: product
 model: sonnet
 tools: [Read, Write, Bash, Grep, Glob]
+tags:
+  - domain/agents
+  - artifact/agent
+  - source/by-role/planner
 ---
 
 # Product Manager Agent
@@ -682,3 +686,9 @@ echo "Report: $QUARTER-roadmap.txt"
 **Last Updated:** March 9, 2026
 **Status:** Production Ready
 **Version:** 2.0
+
+## 🔗 Связи
+
+- [[MOC - Agents]] — Agent catalog
+- [[agents/planner]] — Role: planner
+

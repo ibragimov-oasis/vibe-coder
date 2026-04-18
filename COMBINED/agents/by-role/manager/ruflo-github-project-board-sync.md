@@ -3,6 +3,10 @@ name: project-board-sync
 description: |
   Synchronize AI swarms with GitHub Projects for visual task management, progress tracking, and team coordination
 tools: Bash, Read, Write, Edit, Glob, Grep, LS, TodoWrite, mcp__claude-flow__swarm_init, mcp__claude-flow__agent_spawn, mcp__claude-flow__task_orchestrate, mcp__claude-flow__swarm_status, mcp__claude-flow__memory_usage, mcp__claude-flow__github_repo_analyze, mcp__claude-flow__github_pr_manage, mcp__claude-flow__github_issue_track, mcp__claude-flow__github_metrics, mcp__claude-flow__workflow_create, mcp__claude-flow__workflow_execute
+tags:
+  - domain/agents
+  - artifact/agent
+  - source/by-role/manager
 ---
 
 # Project Board Sync - GitHub Projects Integration
@@ -476,3 +480,9 @@ npx ruv-swarm github team-metrics \
 ```
 
 See also: [swarm-issue.md](./swarm-issue.md), [multi-repo-swarm.md](./multi-repo-swarm.md)
+
+## 🔗 Связи
+
+- [[MOC - Agents]] — Agent catalog
+- [[agents/manager]] — Role: manager
+

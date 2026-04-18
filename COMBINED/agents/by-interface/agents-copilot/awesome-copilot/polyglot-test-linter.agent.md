@@ -1,6 +1,10 @@
 ---
 description: 'Runs code formatting/linting for any language. Discovers lint command from project files if not specified.'
 name: 'Polyglot Test Linter'
+tags:
+  - domain/agents
+  - artifact/agent
+  - source/by-interface/agents-copilot
 ---
 
 # Linter Agent
@@ -69,3 +73,9 @@ Error: [error message]
 - `dotnet format` fixes, `dotnet format --verify-no-changes` only checks
 - `npm run lint:fix` fixes, `npm run lint` only checks
 - Only report actual errors, not successful formatting changes
+
+## 🔗 Связи
+
+- [[MOC - Agents]] — Agent catalog
+- [[agents/agents-copilot]] — Interface: agents-copilot
+

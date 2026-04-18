@@ -1,6 +1,10 @@
 ---
 description: '.NET MAUI component and application patterns'
 applyTo: '**/*.xaml, **/*.cs'
+tags:
+  - domain/agents
+  - artifact/agent
+  - source/by-interface/agents-copilot
 ---
 
 # .NET MAUI
@@ -111,3 +115,9 @@ applyTo: '**/*.xaml, **/*.cs'
 - Memory leaks from unsubscribed events; always unsubscribe and dispose resources.
 - Deeply nested layouts hurt performance; flatten the visual hierarchy.
 - Testing only on emulators misses real-device edge cases; test on physical devices.
+
+## 🔗 Связи
+
+- [[MOC - Agents]] — Agent catalog
+- [[agents/agents-copilot]] — Interface: agents-copilot
+

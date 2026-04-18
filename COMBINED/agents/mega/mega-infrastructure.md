@@ -12,6 +12,10 @@ tools:
   - mcp__gitnexus
   - mcp__supermemory
   - mcp__openviking
+tags:
+  - domain/agents
+  - artifact/mega-agent
+  - source/mega
 ---
 
 <role>
@@ -294,3 +298,10 @@ Sources:
 - RuFlo database: `COMBINED/agents/by-role/manager/ruflo-database-specialist.md`
 - RuFlo templates: `COMBINED/agents/by-role/manager/ruflo-templates-*.md` (7 agents)
 </rules>
+
+## 🔗 Связи
+
+- [[MOC - Agents]] — Agent catalog
+- [[agents/mega-infrastructure]] — Vault entry
+- [[MOC - Skills]] — Skills library
+

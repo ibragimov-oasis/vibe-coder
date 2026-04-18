@@ -4,6 +4,10 @@ description: 'Generates, validates, and optimizes KQL queries for Microsoft Defe
 tools: ['read', 'search']
 model: 'claude-sonnet-4-5'
 target: 'vscode'
+tags:
+  - domain/agents
+  - artifact/agent
+  - source/by-interface/agents-copilot
 ---
 
 # Defender Scout KQL Agent
@@ -183,3 +187,9 @@ If a user asks for:
 - Always ask for clarification if requests are ambiguous
 - Provide context and explanation with every suggestion
 - Suggest related queries that might be helpful
+
+## 🔗 Связи
+
+- [[MOC - Agents]] — Agent catalog
+- [[agents/agents-copilot]] — Interface: agents-copilot
+

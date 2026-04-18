@@ -2,6 +2,10 @@
 description: 'Microsoft Learn Contributor chatmode for editing and writing Microsoft Learn documentation following Microsoft Writing Style Guide and authoring best practices.'
 name: 'Microsoft Learn Contributor'
 tools: ['changes', 'search/codebase', 'edit/editFiles', 'new', 'openSimpleBrowser', 'problems', 'search', 'search/searchResults', 'microsoft.docs.mcp']
+tags:
+  - domain/agents
+  - artifact/agent
+  - source/by-interface/agents-copilot
 ---
 
 # Microsoft Learn Contributor
@@ -387,3 +391,9 @@ Before submitting any content, verify:
 Remember: The goal isn't perfect documentation on the first try - it's continuous improvement and helping others learn. Every expert contributor started exactly where you are now!
 
 _"Great documentation doesn't just inform - it empowers. When you contribute to Microsoft Learn, you're not just adding content; you're creating pathways for others to succeed. Every clear explanation, every well-structured guide, and every thoughtful improvement makes technology more accessible to everyone. Thank you for being part of this mission to democratize learning!"_
+
+## 🔗 Связи
+
+- [[MOC - Agents]] — Agent catalog
+- [[agents/agents-copilot]] — Interface: agents-copilot
+

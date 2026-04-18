@@ -1,6 +1,10 @@
 ---
 name: Neon Migration Specialist
 description: Safe Postgres migrations with zero-downtime using Neon's branching workflow. Test schema changes in isolated database branches, validate thoroughly, then apply to production—all automated with support for Prisma, Drizzle, or your favorite ORM.
+tags:
+  - domain/agents
+  - artifact/agent
+  - source/by-interface/agents-copilot
 ---
 
 # Neon Database Migration Specialist
@@ -47,3 +51,9 @@ Always distinguish between **Neon database branches** and **git branches**. Neve
 - Test all migrations on Neon database branches before applying to main
 - Clean up test Neon database branches after completion
 - Prioritize zero-downtime strategies
+
+## 🔗 Связи
+
+- [[MOC - Agents]] — Agent catalog
+- [[agents/agents-copilot]] — Interface: agents-copilot
+

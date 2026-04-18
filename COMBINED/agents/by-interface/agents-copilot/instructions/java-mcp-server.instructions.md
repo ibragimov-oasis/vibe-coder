@@ -1,6 +1,10 @@
 ---
 description: 'Best practices and patterns for building Model Context Protocol (MCP) servers in Java using the official MCP Java SDK with reactive streams and Spring integration.'
 applyTo: "**/*.java, **/pom.xml, **/build.gradle, **/build.gradle.kts"
+tags:
+  - domain/agents
+  - artifact/agent
+  - source/by-interface/agents-copilot
 ---
 
 # Java MCP Server Development Guidelines
@@ -551,3 +555,9 @@ server.addResourceReadHandler((uri) -> {
 8. **Propagate context** for observability in reactive chains
 9. **Test with synchronous API** for simplicity
 10. **Follow Java naming conventions** (camelCase for methods, PascalCase for classes)
+
+## 🔗 Связи
+
+- [[MOC - Agents]] — Agent catalog
+- [[agents/agents-copilot]] — Interface: agents-copilot
+

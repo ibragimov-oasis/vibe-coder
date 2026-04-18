@@ -5,6 +5,10 @@ skills: c-level-advisor/cto-advisor
 domain: c-level
 model: opus
 tools: [Read, Write, Bash, Grep, Glob]
+tags:
+  - domain/agents
+  - artifact/agent
+  - source/by-role/business
 ---
 
 # CTO Advisor Agent
@@ -410,3 +414,9 @@ echo "- Process improvements identified"
 **Sprint:** sprint-11-05-2025 (Day 3)
 **Status:** Production Ready
 **Version:** 1.0
+
+## 🔗 Связи
+
+- [[MOC - Agents]] — Agent catalog
+- [[agents/business]] — Role: business
+

@@ -1,6 +1,10 @@
 ---
 description: 'Production-grade guidance for AWS AppSync Event API handlers using APPSYNC_JS runtime restrictions, utilities, modules, and datasource patterns'
 applyTo: '**/*.{graphql,gql,vtl,ts,js,mjs,cjs,json,yml,yaml}'
+tags:
+  - domain/agents
+  - artifact/agent
+  - source/by-interface/agents-copilot
 ---
 
 # AWS AppSync Event API Instructions
@@ -188,3 +192,9 @@ When using non-DynamoDB data sources:
 - [ ] Data source request/response mapping is deterministic and schema-safe.
 - [ ] Lambda/DynamoDB contracts are documented and validated.
 - [ ] Linting with `@aws-appsync/eslint-plugin` is enabled.
+
+## 🔗 Связи
+
+- [[MOC - Agents]] — Agent catalog
+- [[agents/agents-copilot]] — Interface: agents-copilot
+

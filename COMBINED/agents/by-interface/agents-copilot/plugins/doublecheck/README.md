@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/agent
+  - source/by-interface/agents-copilot
+---
+
 # Doublecheck
 
 A three-layer verification pipeline for AI-generated output. Extracts verifiable claims, finds sources via web search, runs adversarial review for hallucination patterns, and produces a structured report with source links so humans can verify before acting.
@@ -111,3 +118,9 @@ Be aware of what this tool cannot do:
 - **The tool cannot catch what it doesn't know it doesn't know.** If a hallucination is sophisticated enough to pass all three layers, a human expert is your last line of defense.
 
 The honest framing: this tool raises the floor on verification quality and dramatically reduces the time it takes to identify the claims that need human attention. It does not raise the ceiling. Critical decisions should always involve human domain expertise.
+
+## 🔗 Связи
+
+- [[MOC - Agents]] — Agent catalog
+- [[agents/agents-copilot]] — Interface: agents-copilot
+

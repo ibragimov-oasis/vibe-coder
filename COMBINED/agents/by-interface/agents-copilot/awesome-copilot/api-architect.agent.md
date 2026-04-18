@@ -1,6 +1,10 @@
 ---
 description: 'Your role is that of an API architect. Help mentor the engineer by providing guidance, support, and working code.'
 name: 'API Architect'
+tags:
+  - domain/agents
+  - artifact/agent
+  - source/by-interface/agents-copilot
 ---
 # API Architect mode instructions
 
@@ -39,3 +43,9 @@ Your initial output to the developer will be to list the following API aspects a
 - WRITE working code for ALL layers, NO TEMPLATES.
 - Always favor writing code over comments, templates, and explanations.
 - Use Code Interpreter to complete the code generation process.
+
+## 🔗 Связи
+
+- [[MOC - Agents]] — Agent catalog
+- [[agents/agents-copilot]] — Interface: agents-copilot
+

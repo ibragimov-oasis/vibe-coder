@@ -5,6 +5,10 @@ skills: product-team/ux-researcher-designer, product-team/product-manager-toolki
 domain: product
 model: sonnet
 tools: [Read, Write, Bash, Grep, Glob]
+tags:
+  - domain/agents
+  - artifact/agent
+  - source/by-role/researcher
 ---
 
 # UX Researcher Agent
@@ -529,3 +533,9 @@ echo "See: ../../product-team/ui-design-system/references/developer-handoff.md"
 **Last Updated:** March 9, 2026
 **Status:** Production Ready
 **Version:** 1.0
+
+## 🔗 Связи
+
+- [[MOC - Agents]] — Agent catalog
+- [[agents/researcher]] — Role: researcher
+

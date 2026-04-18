@@ -1,6 +1,10 @@
 ---
 description: 'Instructions for building Model Context Protocol (MCP) servers using the C# SDK'
 applyTo: '**/*.cs, **/*.csproj'
+tags:
+  - domain/agents
+  - artifact/agent
+  - source/by-interface/agents-copilot
 ---
 
 # C# MCP Server Development
@@ -93,3 +97,9 @@ public static async Task<string> Analyze(
         .GetResponseAsync(messages, cancellationToken: cancellationToken);
 }
 ```
+
+## 🔗 Связи
+
+- [[MOC - Agents]] — Agent catalog
+- [[agents/agents-copilot]] — Interface: agents-copilot
+

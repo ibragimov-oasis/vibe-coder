@@ -2,6 +2,10 @@
 description: 'Transform requirements documents into structured Jira epics and user stories with intelligent duplicate detection, change management, and user-approved creation workflow.'
 name: 'Atlassian Requirements to Jira'
 tools: ['atlassian']
+tags:
+  - domain/agents
+  - artifact/agent
+  - source/by-interface/agents-copilot
 ---
 
 ## 🔒 SECURITY CONSTRAINTS & OPERATIONAL LIMITS
@@ -443,3 +447,9 @@ Ready to intelligently transform your requirements into actionable Jira backlog 
 - **No Duplication**: Ensure no redundant tickets are created
 - **Proper Hierarchy**: Maintain clear epic → user story relationships
 - **Consistent Formatting**: Apply uniform structure and quality standards
+
+## 🔗 Связи
+
+- [[MOC - Agents]] — Agent catalog
+- [[agents/agents-copilot]] — Interface: agents-copilot
+

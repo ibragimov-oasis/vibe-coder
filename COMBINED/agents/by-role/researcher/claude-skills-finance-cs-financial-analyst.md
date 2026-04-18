@@ -5,6 +5,10 @@ skills: finance
 domain: finance
 model: opus
 tools: [Read, Write, Bash, Grep, Glob]
+tags:
+  - domain/agents
+  - artifact/agent
+  - source/by-role/researcher
 ---
 
 # cs-financial-analyst
@@ -108,3 +112,9 @@ python ../../finance/financial-analyst/scripts/dcf_valuation.py valuation_data.j
 
 - [cs-ceo-advisor](../c-level/cs-ceo-advisor.md) -- Strategic financial decisions, board reporting, and fundraising planning
 - [cs-growth-strategist](../business-growth/cs-growth-strategist.md) -- Revenue operations data and pipeline forecasting inputs
+
+## 🔗 Связи
+
+- [[MOC - Agents]] — Agent catalog
+- [[agents/researcher]] — Role: researcher
+

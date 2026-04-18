@@ -11,6 +11,10 @@ tools:
   - mcp__lightpanda
   - mcp__gitnexus
   - mcp__supermemory
+tags:
+  - domain/agents
+  - artifact/mega-agent
+  - source/mega
 ---
 
 <role>
@@ -457,3 +461,10 @@ When called from the autonomous pipeline (Background Agent → Hermes → Shanno
    - Pipeline completes
    - Final summary delivered to user
 </pipeline_integration>
+
+## 🔗 Связи
+
+- [[MOC - Agents]] — Agent catalog
+- [[agents/mega-security]] — Vault entry
+- [[MOC - Skills]] — Skills library
+

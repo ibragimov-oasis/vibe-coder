@@ -15,6 +15,10 @@ mcp-servers:
     - 'search-apify-docs'
     - 'fetch-apify-docs'
     - 'get-actor-output'
+tags:
+  - domain/agents
+  - artifact/agent
+  - source/by-interface/agents-copilot
 ---
 
 # Apify Actor Expert Agent
@@ -246,3 +250,9 @@ for i, item in enumerate(items[:5]):
     print(f"{i+1}. {title}")
     print(f"    URL: {url}")
 ```
+
+## 🔗 Связи
+
+- [[MOC - Agents]] — Agent catalog
+- [[agents/agents-copilot]] — Interface: agents-copilot
+

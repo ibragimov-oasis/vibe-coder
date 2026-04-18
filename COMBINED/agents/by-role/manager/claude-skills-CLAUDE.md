@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/agent
+  - source/by-role/manager
+---
+
 # Agent Development Guide
 
 This guide provides comprehensive instructions for creating **cs-* prefixed agents** that seamlessly integrate with the 42 production skills in this repository.
@@ -378,3 +385,9 @@ After creating an agent:
 **Last Updated:** March 11, 2026
 **Current:** 16 agents across 8 domains
 **Related:** See [main CLAUDE.md](../CLAUDE.md) for repository overview
+
+## 🔗 Связи
+
+- [[MOC - Agents]] — Agent catalog
+- [[agents/manager]] — Role: manager
+

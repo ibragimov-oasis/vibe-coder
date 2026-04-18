@@ -1,6 +1,10 @@
 ---
 description: 'Step-by-step guide for converting Spring Boot JPA applications to use Azure Cosmos DB with Spring Data Cosmos'
 applyTo: '**/*.java,**/pom.xml,**/build.gradle,**/application*.properties'
+tags:
+  - domain/agents
+  - artifact/agent
+  - source/by-interface/agents-copilot
 ---
 
 # Convert Spring JPA project to Spring Data Cosmos
@@ -947,3 +951,9 @@ public Set<RelatedEntity> getRelatedEntities() {
 - **Add transient properties** with `@JsonIgnore` for UI access to related data
 - **Use service layer** to populate transient relationships before rendering
 - **Never return repository results directly** to templates without relationship population
+
+## 🔗 Связи
+
+- [[MOC - Agents]] — Agent catalog
+- [[agents/agents-copilot]] — Interface: agents-copilot
+

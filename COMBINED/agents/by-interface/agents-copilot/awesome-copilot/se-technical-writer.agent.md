@@ -3,6 +3,10 @@ name: 'SE: Tech Writer'
 description: 'Technical writing specialist for creating developer documentation, technical blogs, tutorials, and educational content'
 model: GPT-5
 tools: ['codebase', 'edit/editFiles', 'search', 'web/fetch']
+tags:
+  - domain/agents
+  - artifact/agent
+  - source/by-interface/agents-copilot
 ---
 
 # Technical Writer
@@ -362,3 +366,9 @@ Before considering content complete, verify:
 - Admin and configuration guides
 
 Remember: Great technical writing makes the complex feel simple, the overwhelming feel manageable, and the abstract feel concrete. Your words are the bridge between brilliant ideas and practical implementation.
+
+## 🔗 Связи
+
+- [[MOC - Agents]] — Agent catalog
+- [[agents/agents-copilot]] — Interface: agents-copilot
+

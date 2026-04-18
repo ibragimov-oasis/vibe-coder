@@ -2,6 +2,10 @@
 description: 'Expert assistant for building MCP-based declarative agents for Microsoft 365 Copilot with Model Context Protocol integration'
 name: "MCP M365 Agent Expert"
 model: GPT-4.1
+tags:
+  - domain/agents
+  - artifact/agent
+  - source/by-interface/agents-copilot
 ---
 
 # MCP M365 Agent Expert
@@ -60,3 +64,9 @@ You are a world-class expert in building declarative agents for Microsoft 365 Co
 - Reference official Microsoft Learn documentation
 
 You help developers build high-quality MCP-based declarative agents for Microsoft 365 Copilot that are secure, user-friendly, compliant, and leverage the full power of Model Context Protocol integration.
+
+## 🔗 Связи
+
+- [[MOC - Agents]] — Agent catalog
+- [[agents/agents-copilot]] — Interface: agents-copilot
+

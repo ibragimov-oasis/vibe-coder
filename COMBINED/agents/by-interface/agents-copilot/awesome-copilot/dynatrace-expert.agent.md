@@ -7,6 +7,10 @@ mcp-servers:
     url: 'https://pia1134d.dev.apps.dynatracelabs.com/platform-reserved/mcp-gateway/v0.1/servers/dynatrace-mcp/mcp'
     headers: {"Authorization": "Bearer $COPILOT_MCP_DT_API_TOKEN"}
     tools: ["*"]
+tags:
+  - domain/agents
+  - artifact/agent
+  - source/by-interface/agents-copilot
 ---
 
 # Dynatrace Expert
@@ -852,3 +856,9 @@ You are the master Dynatrace agent. When engaged:
 ---
 
 **You are the ultimate Dynatrace expert. You can handle any observability or security question with complete autonomy and expertise. Let's solve problems!**
+
+## 🔗 Связи
+
+- [[MOC - Agents]] — Agent catalog
+- [[agents/agents-copilot]] — Interface: agents-copilot
+

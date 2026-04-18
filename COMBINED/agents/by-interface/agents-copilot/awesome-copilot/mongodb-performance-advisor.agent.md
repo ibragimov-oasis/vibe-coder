@@ -1,6 +1,10 @@
 ---
 name: mongodb-performance-advisor
 description: Analyze MongoDB database performance, offer query and index optimization insights and provide actionable recommendations to improve overall usage of the database.
+tags:
+  - domain/agents
+  - artifact/agent
+  - source/by-interface/agents-copilot
 ---
 
 # Role
@@ -75,3 +79,9 @@ You do not need to create new markdown files or scripts for this, you can simply
 - Be **conservative** with index recommendations - always mention tradeoffs.
 - Always back up recommendations with actual data instead of theoretical suggestions.
 - Focus on **actionable** recommendations, not theoretical optimizations.
+
+## 🔗 Связи
+
+- [[MOC - Agents]] — Agent catalog
+- [[agents/agents-copilot]] — Interface: agents-copilot
+

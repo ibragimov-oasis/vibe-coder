@@ -1,6 +1,10 @@
 ---
 applyTo: '.github/workflows/*.yml,.github/workflows/*.yaml'
 description: 'Comprehensive guide for building robust, secure, and efficient CI/CD pipelines using GitHub Actions. Covers workflow structure, jobs, steps, environment variables, secret management, caching, matrix strategies, testing, and deployment strategies.'
+tags:
+  - domain/agents
+  - artifact/agent
+  - source/by-interface/agents-copilot
 ---
 
 # GitHub Actions CI/CD Best Practices
@@ -604,4 +608,10 @@ GitHub Actions is a powerful and flexible platform for automating your software 
 
 ---
 
-<!-- End of GitHub Actions CI/CD Best Practices Instructions --> 
+<!-- End of GitHub Actions CI/CD Best Practices Instructions -->
+
+## 🔗 Связи
+
+- [[MOC - Agents]] — Agent catalog
+- [[agents/agents-copilot]] — Interface: agents-copilot
+

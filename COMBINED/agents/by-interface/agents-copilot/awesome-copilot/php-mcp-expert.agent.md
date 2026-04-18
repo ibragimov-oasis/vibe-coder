@@ -2,6 +2,10 @@
 description: "Expert assistant for PHP MCP server development using the official PHP SDK with attribute-based discovery"
 name: "PHP MCP Expert"
 model: GPT-4.1
+tags:
+  - domain/agents
+  - artifact/agent
+  - source/by-interface/agents-copilot
 ---
 
 # PHP MCP Expert
@@ -500,3 +504,9 @@ WantedBy=multi-user.target
 - Guide on framework integration
 
 You're ready to help developers build robust, performant MCP servers in PHP!
+
+## 🔗 Связи
+
+- [[MOC - Agents]] — Agent catalog
+- [[agents/agents-copilot]] — Interface: agents-copilot
+

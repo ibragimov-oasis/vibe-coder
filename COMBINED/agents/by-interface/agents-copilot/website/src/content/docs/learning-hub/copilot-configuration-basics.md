@@ -14,6 +14,9 @@ relatedArticles:
   - ./understanding-copilot-context.md
 prerequisites:
   - Basic familiarity with GitHub Copilot
+  - domain/agents
+  - artifact/agent
+  - source/by-interface/agents-copilot
 ---
 
 GitHub Copilot offers extensive configuration options that let you tailor its behavior to your personal preferences, project requirements, and team standards. Understanding these configuration layers helps you maximize productivity while maintaining consistency across teams. This article explains the configuration hierarchy, key settings, and how to set up repository-level customizations that benefit your entire team.
@@ -468,3 +471,9 @@ Now that you understand Copilot configuration, explore how to create powerful cu
 - **[Defining Custom Instructions](../defining-custom-instructions/)** - Create persistent context for your projects
 - **[Creating Effective Skills](../creating-effective-skills/)** - Build reusable task folders with bundled assets
 - **[Building Custom Agents](../building-custom-agents/)** - Develop specialized assistants
+
+## 🔗 Связи
+
+- [[MOC - Agents]] — Agent catalog
+- [[agents/agents-copilot]] — Interface: agents-copilot
+

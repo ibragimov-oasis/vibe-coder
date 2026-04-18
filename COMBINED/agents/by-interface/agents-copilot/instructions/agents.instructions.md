@@ -1,6 +1,10 @@
 ---
 description: 'Guidelines for creating custom agent files for GitHub Copilot'
 applyTo: '**/*.agent.md'
+tags:
+  - domain/agents
+  - artifact/agent
+  - source/by-interface/agents-copilot
 ---
 
 # Custom Agent File Guidelines
@@ -995,3 +999,9 @@ Each level can override settings from previous levels.
 - ⚠️ Some properties may behave differently
 
 When creating agents for multiple environments, focus on common properties and test in all target environments. Use `target` property to create environment-specific agents when necessary.
+
+## 🔗 Связи
+
+- [[MOC - Agents]] — Agent catalog
+- [[agents/agents-copilot]] — Interface: agents-copilot
+

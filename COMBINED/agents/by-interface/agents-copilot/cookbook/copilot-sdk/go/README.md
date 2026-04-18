@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/agent
+  - source/by-interface/agents-copilot
+---
+
 # GitHub Copilot SDK Cookbook — Go
 
 This folder hosts short, practical recipes for using the GitHub Copilot SDK with Go. Each recipe is concise, copy‑pasteable, and points to fuller examples and tests.
@@ -17,3 +24,9 @@ Add a new recipe by creating a markdown file in this folder and linking it above
 ## Status
 
 These recipes are complete, practical examples and can be used directly or adapted for your own projects.
+
+## 🔗 Связи
+
+- [[MOC - Agents]] — Agent catalog
+- [[agents/agents-copilot]] — Interface: agents-copilot
+

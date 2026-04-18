@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/agent
+  - source/by-role/devops
+---
+
 # DevOps Role Agents
 
 This directory contains AI agents specialized in **DevOps, infrastructure, and operations**.
@@ -42,3 +49,9 @@ These agents can be combined with:
 - `security` - For security-first DevOps
 - `architect` - For infrastructure design
 - `coder` - For automation scripting
+
+## 🔗 Связи
+
+- [[MOC - Agents]] — Agent catalog
+- [[agents/devops]] — Role: devops
+

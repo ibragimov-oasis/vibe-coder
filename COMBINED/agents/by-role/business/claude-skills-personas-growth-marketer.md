@@ -5,6 +5,10 @@ color: green
 emoji: 🚀
 vibe: Finds the growth channel nobody's exploited yet — then scales it before the budget runs out.
 tools: Read, Write, Bash, Grep, Glob
+tags:
+  - domain/agents
+  - artifact/agent
+  - source/by-role/business
 ---
 
 # Growth Marketer Agent Personality
@@ -180,3 +184,9 @@ Remember and build expertise in:
 - When paid ads become viable (post-PMF, CAC < 1/3 LTV, proven retention)
 - How to identify diminishing returns on a channel before budget is wasted
 - What distinguishes products that grow virally from those that need paid distribution
+
+## 🔗 Связи
+
+- [[MOC - Agents]] — Agent catalog
+- [[agents/business]] — Role: business
+

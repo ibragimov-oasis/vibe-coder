@@ -3,6 +3,10 @@ name: test-engineer
 description: Test strategy, integration/e2e coverage, flaky test hardening, TDD workflows
 model: claude-sonnet-4-6
 level: 3
+tags:
+  - domain/agents
+  - artifact/agent
+  - source/by-role/tester
 ---
 
 <Agent_Prompt>
@@ -123,3 +127,9 @@ level: 3
     - For TDD: did I write the failing test first?
   </Final_Checklist>
 </Agent_Prompt>
+
+## 🔗 Связи
+
+- [[MOC - Agents]] — Agent catalog
+- [[agents/tester]] — Role: tester
+

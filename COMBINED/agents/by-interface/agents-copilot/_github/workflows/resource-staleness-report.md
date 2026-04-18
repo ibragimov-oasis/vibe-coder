@@ -12,6 +12,10 @@ safe-outputs:
     max: 1
     close-older-issues: true
   noop:
+tags:
+  - domain/agents
+  - artifact/agent
+  - source/by-interface/agents-copilot
 ---
 
 # Resource Staleness Report
@@ -101,3 +105,9 @@ Use `<details>` blocks to collapse sections with more than 15 entries.
 - If there are no stale or aging resources at all, call the `noop` safe output with the message: "All resources have been updated within the last 14 days. No staleness report needed."
 - Do not include fresh resources in the tables — only mention the count in the summary.
 - Use the `create-issue` safe output to file the report. Previous reports will be automatically closed.
+
+## 🔗 Связи
+
+- [[MOC - Agents]] — Agent catalog
+- [[agents/agents-copilot]] — Interface: agents-copilot
+

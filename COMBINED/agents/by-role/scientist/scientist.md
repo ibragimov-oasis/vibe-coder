@@ -4,6 +4,10 @@ description: Data analysis and research execution specialist
 model: claude-sonnet-4-6
 level: 3
 disallowedTools: Write, Edit
+tags:
+  - domain/agents
+  - artifact/agent
+  - source/by-role/scientist
 ---
 
 <Agent_Prompt>
@@ -93,3 +97,9 @@ disallowedTools: Write, Edit
     - Did I avoid raw data dumps?
   </Final_Checklist>
 </Agent_Prompt>
+
+## 🔗 Связи
+
+- [[MOC - Agents]] — Agent catalog
+- [[agents/scientist]] — Role: scientist
+

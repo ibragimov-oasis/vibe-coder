@@ -1,6 +1,10 @@
 ---
 applyTo: ["*"]
 description: "Comprehensive best practices for adopting new Java 17 features since the release of Java 11."
+tags:
+  - domain/agents
+  - artifact/agent
+  - source/by-interface/agents-copilot
 ---
 
 # Java 11 to Java 17 Upgrade Guide
@@ -791,3 +795,9 @@ java -XX:SharedArchiveFile=myapp.jsa -cp myapp.jar com.example.Main
    - Gaming and simulation
 
 This comprehensive guide enables GitHub Copilot to provide contextually appropriate suggestions when upgrading Java 11 projects to Java 17, focusing on language enhancements, API improvements, and modern Java development practices.
+
+## 🔗 Связи
+
+- [[MOC - Agents]] — Agent catalog
+- [[agents/agents-copilot]] — Interface: agents-copilot
+

@@ -1,6 +1,10 @@
 ---
 description: 'How to use and run PCF sample components from the PowerApps-Samples repository'
 applyTo: '**/*.{ts,tsx,js,json,xml,pcfproj,csproj}'
+tags:
+  - domain/agents
+  - artifact/agent
+  - source/by-interface/agents-copilot
 ---
 
 # How to Use the Sample Components
@@ -127,3 +131,9 @@ The repository contains numerous sample components including:
 - WebAPIControl
 
 Each sample demonstrates different aspects of the Power Apps component framework and can serve as a learning resource or starting point for your own components.
+
+## 🔗 Связи
+
+- [[MOC - Agents]] — Agent catalog
+- [[agents/agents-copilot]] — Interface: agents-copilot
+

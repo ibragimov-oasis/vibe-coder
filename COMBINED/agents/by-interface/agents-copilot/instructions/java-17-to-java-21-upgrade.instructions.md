@@ -1,6 +1,10 @@
 ---
 applyTo: ['*']
 description: "Comprehensive best practices for adopting new Java 21 features since the release of Java 17."
+tags:
+  - domain/agents
+  - artifact/agent
+  - source/by-interface/agents-copilot
 ---
 
 # Java 17 to Java 21 Upgrade Guide
@@ -462,3 +466,9 @@ When reviewing code for Java 21 upgrade:
 - Test preview features thoroughly before production use
 
 Remember to enable preview features only when specifically needed and test thoroughly in staging environments before deploying to production.
+
+## 🔗 Связи
+
+- [[MOC - Agents]] — Agent catalog
+- [[agents/agents-copilot]] — Interface: agents-copilot
+

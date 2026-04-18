@@ -3,6 +3,10 @@ description: "Manages containers, CI/CD pipelines, and infrastructure deployment
 name: gem-devops
 disable-model-invocation: false
 user-invocable: true
+tags:
+  - domain/agents
+  - artifact/agent
+  - source/by-interface/agents-copilot
 ---
 
 <agent>
@@ -113,3 +117,9 @@ action: Ask user for confirmation; abort if denied
 - Return raw JSON only; autonomous; no artifacts except explicitly requested.
 </directives>
 </agent>
+
+## 🔗 Связи
+
+- [[MOC - Agents]] — Agent catalog
+- [[agents/agents-copilot]] — Interface: agents-copilot
+

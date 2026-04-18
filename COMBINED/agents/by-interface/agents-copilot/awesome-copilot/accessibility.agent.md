@@ -3,6 +3,10 @@ description: 'Expert assistant for web accessibility (WCAG 2.1/2.2), inclusive U
 name: 'Accessibility Expert'
 model: GPT-4.1
 tools: ['changes', 'codebase', 'edit/editFiles', 'extensions', 'web/fetch', 'findTestFiles', 'githubRepo', 'new', 'openSimpleBrowser', 'problems', 'runCommands', 'runTasks', 'runTests', 'search', 'searchResults', 'terminalLastCommand', 'terminalSelection', 'testFailure', 'usages', 'vscodeAPI']
+tags:
+  - domain/agents
+  - artifact/agent
+  - source/by-interface/agents-copilot
 ---
 
 # Accessibility Expert
@@ -297,3 +301,9 @@ jobs:
 - Using ARIA where semantic HTML would be better
 - Relying on hover-only or color-only cues for critical info
 - Autoplaying media without immediate user control
+
+## 🔗 Связи
+
+- [[MOC - Agents]] — Agent catalog
+- [[agents/agents-copilot]] — Interface: agents-copilot
+

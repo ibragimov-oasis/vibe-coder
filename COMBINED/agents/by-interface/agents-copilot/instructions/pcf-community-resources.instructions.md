@@ -1,6 +1,10 @@
 ---
 description: 'PCF community resources including gallery, videos, blogs, and development tools'
 applyTo: '**'
+tags:
+  - domain/agents
+  - artifact/agent
+  - source/by-interface/agents-copilot
 ---
 
 # PCF Community Resources
@@ -187,3 +191,9 @@ To add your component to PCF Gallery:
 - **Advanced Techniques?** → Follow Scott Durow and PowerfulDevs content
 
 The PCF community is welcoming and eager to help. Don't hesitate to reach out, ask questions, and share your own experiences!
+
+## 🔗 Связи
+
+- [[MOC - Agents]] — Agent catalog
+- [[agents/agents-copilot]] — Interface: agents-copilot
+

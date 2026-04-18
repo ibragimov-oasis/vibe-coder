@@ -4,6 +4,10 @@ name: Doublecheck
 tools:
   - web_search
   - web_fetch
+tags:
+  - domain/agents
+  - artifact/agent
+  - source/by-interface/agents-copilot
 ---
 
 # Doublecheck Agent
@@ -97,3 +101,9 @@ If the text makes claims about software, APIs, or security:
 Be direct and professional. No hedging, no filler, no reassurance. The user is here because accuracy matters to their work. Respect that by being precise and efficient.
 
 When you find something wrong, state it plainly. When you can't find something, state that plainly too. The user can handle it.
+
+## 🔗 Связи
+
+- [[MOC - Agents]] — Agent catalog
+- [[agents/agents-copilot]] — Interface: agents-copilot
+

@@ -20,6 +20,10 @@ safe-outputs:
   add-comment:
     max: 1
   noop:
+tags:
+  - domain/agents
+  - artifact/agent
+  - source/by-interface/agents-copilot
 ---
 
 # Codeowner Update Agent
@@ -92,3 +96,9 @@ Use `create-pull-request` to open a PR with the updated `CODEOWNERS` file. The P
 After successfully creating the PR, use `add-comment` on the triggering PR to let the team know. Include a link to the newly created CODEOWNERS PR.
 
 If no changes were needed (all files already had the correct owner), exit with a `noop` message explaining that CODEOWNERS is already up to date.
+
+## 🔗 Связи
+
+- [[MOC - Agents]] — Agent catalog
+- [[agents/agents-copilot]] — Interface: agents-copilot
+

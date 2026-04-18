@@ -2,6 +2,10 @@
 description: "Generate an implementation plan for new features or refactoring existing code."
 name: "Implementation Plan Generation Mode"
 tools: ["search/codebase", "search/usages", "vscode/vscodeAPI", "think", "read/problems", "search/changes", "execute/testFailure", "read/terminalSelection", "read/terminalLastCommand", "vscode/openSimpleBrowser", "web/fetch", "findTestFiles", "search/searchResults", "web/githubRepo", "vscode/extensions", "edit/editFiles", "execute/runNotebookCell", "read/getNotebookSummary", "read/readNotebookCellOutput", "search", "vscode/getProjectSetupInfo", "vscode/installExtension", "vscode/newWorkspace", "vscode/runCommand", "execute/getTerminalOutput", "execute/runInTerminal", "execute/createAndRunTask", "execute/getTaskOutput", "execute/runTask"]
+tags:
+  - domain/agents
+  - artifact/agent
+  - source/by-interface/agents-copilot
 ---
 
 # Implementation Plan Generation Mode
@@ -159,3 +163,9 @@ tags: [Optional: List of relevant tags or categories, e.g., `feature`, `upgrade`
 [Link to related spec 1]
 [Link to relevant external documentation]
 ```
+
+## 🔗 Связи
+
+- [[MOC - Agents]] — Agent catalog
+- [[agents/agents-copilot]] — Interface: agents-copilot
+

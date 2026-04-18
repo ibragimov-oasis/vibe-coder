@@ -4,6 +4,10 @@ description: 'Mirror the source capstone chapter that combines the GitHub Copilo
 authors:
   - GitHub Copilot Learning Hub Team
 lastUpdated: 2026-03-20
+tags:
+  - domain/agents
+  - artifact/agent
+  - source/by-interface/agents-copilot
 ---
 
 ![Chapter 07: Putting It All Together](/images/learning-hub/copilot-cli-for-beginners/07/chapter-header.png)
@@ -516,3 +520,9 @@ Your learning doesn't stop here:
 ---
 
 **Great job! Now go build something amazing.**
+
+## 🔗 Связи
+
+- [[MOC - Agents]] — Agent catalog
+- [[agents/agents-copilot]] — Interface: agents-copilot
+

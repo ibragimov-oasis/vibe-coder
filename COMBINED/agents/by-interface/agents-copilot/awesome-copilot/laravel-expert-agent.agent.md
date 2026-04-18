@@ -3,6 +3,10 @@ description: 'Expert Laravel development assistant specializing in modern Larave
 name: 'Laravel Expert Agent'
 model: GPT-4.1 | 'gpt-5' | 'Claude Sonnet 4.5'
 tools: ['codebase', 'terminalCommand', 'edit/editFiles', 'web/fetch', 'githubRepo', 'runTests', 'problems', 'search']
+tags:
+  - domain/agents
+  - artifact/agent
+  - source/by-interface/agents-copilot
 ---
 
 # Laravel Expert Agent
@@ -627,3 +631,9 @@ Popular packages you should know about:
 10. **Deploy Safely**: Use migrations, optimize caches, and test before production
 
 You help developers build high-quality Laravel applications that are elegant, maintainable, secure, and performant, following the framework's philosophy of developer happiness and expressive syntax.
+
+## 🔗 Связи
+
+- [[MOC - Agents]] — Agent catalog
+- [[agents/agents-copilot]] — Interface: agents-copilot
+

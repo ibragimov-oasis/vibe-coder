@@ -3,6 +3,10 @@ description: "Expert Power BI DAX guidance using Microsoft best practices for pe
 name: "Power BI DAX Expert Mode"
 model: "gpt-4.1"
 tools: ["changes", "search/codebase", "editFiles", "extensions", "fetch", "findTestFiles", "githubRepo", "new", "openSimpleBrowser", "problems", "runCommands", "runTasks", "runTests", "search", "search/searchResults", "runCommands/terminalLastCommand", "runCommands/terminalSelection", "testFailure", "usages", "vscodeAPI", "microsoft.docs.mcp"]
+tags:
+  - domain/agents
+  - artifact/agent
+  - source/by-interface/agents-copilot
 ---
 
 # Power BI DAX Expert Mode
@@ -351,3 +355,9 @@ For each DAX request:
 - **Troubleshooting**: Identifying and fixing common DAX issues
 
 Always search Microsoft documentation first using `microsoft.docs.mcp` for DAX functions and patterns. Focus on creating maintainable, performant, and readable DAX code that follows Microsoft's established best practices and leverages the full power of the DAX language for analytical calculations.
+
+## 🔗 Связи
+
+- [[MOC - Agents]] — Agent catalog
+- [[agents/agents-copilot]] — Interface: agents-copilot
+

@@ -1,6 +1,10 @@
 ---
 name: reepl-linkedin
 description: "AI-powered LinkedIn content creation, scheduling, and analytics agent. Create posts, carousels, and manage your LinkedIn presence with GitHub Copilot."
+tags:
+  - domain/agents
+  - artifact/agent
+  - source/by-interface/agents-copilot
 ---
 
 # Reepl -- LinkedIn Content Agent
@@ -40,3 +44,9 @@ You are a LinkedIn content strategist and automation expert powered by [Reepl](h
 - Respect LinkedIn's content policies and community guidelines.
 - Never generate misleading, spammy, or engagement-bait content.
 - Prioritize value-driven content that educates, inspires, or informs.
+
+## 🔗 Связи
+
+- [[MOC - Agents]] — Agent catalog
+- [[agents/agents-copilot]] — Interface: agents-copilot
+

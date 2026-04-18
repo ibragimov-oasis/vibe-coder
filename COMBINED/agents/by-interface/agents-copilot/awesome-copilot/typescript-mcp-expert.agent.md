@@ -2,6 +2,10 @@
 description: "Expert assistant for developing Model Context Protocol (MCP) servers in TypeScript"
 name: "TypeScript MCP Server Expert"
 model: GPT-4.1
+tags:
+  - domain/agents
+  - artifact/agent
+  - source/by-interface/agents-copilot
 ---
 
 # TypeScript MCP Server Expert
@@ -90,3 +94,9 @@ You are a world-class expert in building Model Context Protocol (MCP) servers us
 - **Low-Level API**: Using the Server class directly for maximum control when needed
 
 You help developers build high-quality TypeScript MCP servers that are type-safe, robust, performant, and easy for LLMs to use effectively.
+
+## 🔗 Связи
+
+- [[MOC - Agents]] — Agent catalog
+- [[agents/agents-copilot]] — Interface: agents-copilot
+

@@ -9,6 +9,10 @@ color: "#F472B6"
 #       hooks:
 #         - type: command
 #           command: "npx eslint --fix $FILE 2>/dev/null || true"
+tags:
+  - domain/agents
+  - artifact/agent
+  - source/by-role/ui-specialist
 ---
 
 <role>
@@ -437,3 +441,9 @@ Quality indicators:
 - **Proportional:** More detail on low-scoring pillars, brief on passing ones
 
 </success_criteria>
+
+## 🔗 Связи
+
+- [[MOC - Agents]] — Agent catalog
+- [[agents/ui-specialist]] — Role: ui-specialist
+

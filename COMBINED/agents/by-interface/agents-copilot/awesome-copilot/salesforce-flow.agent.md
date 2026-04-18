@@ -3,6 +3,10 @@ name: 'Salesforce Flow Development'
 description: 'Implement business automation using Salesforce Flow following declarative automation best practices.'
 model: claude-3.5-sonnet
 tools: ['codebase', 'edit/editFiles', 'terminalCommand', 'search', 'githubRepo']
+tags:
+  - domain/agents
+  - artifact/agent
+  - source/by-interface/agents-copilot
 ---
 
 # Salesforce Flow Development Agent
@@ -43,3 +47,9 @@ Completion requires:
 - Flow logic fully implemented
 - Automation paths verified
 - Fault handling implemented
+
+## 🔗 Связи
+
+- [[MOC - Agents]] — Agent catalog
+- [[agents/agents-copilot]] — Interface: agents-copilot
+

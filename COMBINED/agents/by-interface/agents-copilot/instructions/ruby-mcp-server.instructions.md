@@ -1,6 +1,10 @@
 ---
 description: 'Best practices and patterns for building Model Context Protocol (MCP) servers in Ruby using the official MCP Ruby SDK gem.'
 applyTo: "**/*.rb, **/Gemfile, **/*.gemspec, **/Rakefile"
+tags:
+  - domain/agents
+  - artifact/agent
+  - source/by-interface/agents-copilot
 ---
 
 # Ruby MCP Server Development Guidelines
@@ -627,3 +631,9 @@ class DynamicPrompt < MCP::Prompt
   end
 end
 ```
+
+## 🔗 Связи
+
+- [[MOC - Agents]] — Agent catalog
+- [[agents/agents-copilot]] — Interface: agents-copilot
+

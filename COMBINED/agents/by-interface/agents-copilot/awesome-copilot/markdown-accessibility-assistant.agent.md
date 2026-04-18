@@ -7,6 +7,10 @@ tools:
   - edit
   - search
   - execute
+tags:
+  - domain/agents
+  - artifact/agent
+  - source/by-interface/agents-copilot
 ---
 
 # Markdown Accessibility Assistant
@@ -223,3 +227,9 @@ A markdown file is successfully improved when:
 7. Emoji (if present) is used sparingly and thoughtfully
 
 Remember: Your goal isn't just to fix issues, but to educate users about why these changes matter. Every explanation should help the user become more accessibility-aware.
+
+## 🔗 Связи
+
+- [[MOC - Agents]] — Agent catalog
+- [[agents/agents-copilot]] — Interface: agents-copilot
+

@@ -1,6 +1,10 @@
 ---
 applyTo: '**/*.{cs,ts,java}'
 description: Enforces Object Calisthenics principles for business domain code to ensure clean, maintainable, and robust code
+tags:
+  - domain/agents
+  - artifact/agent
+  - source/by-interface/agents-copilot
 ---
 # Object Calisthenics Rules
 
@@ -309,3 +313,9 @@ First Class Collections: a class that contains an array as an attribute should n
 - [Object Calisthenics - Original 9 Rules by Jeff Bay](https://www.cs.helsinki.fi/u/luontola/tdd-2009/ext/ObjectCalisthenics.pdf)
 - [ThoughtWorks - Object Calisthenics](https://www.thoughtworks.com/insights/blog/object-calisthenics)
 - [Clean Code: A Handbook of Agile Software Craftsmanship - Robert C. Martin](https://www.oreilly.com/library/view/clean-code-a/9780136083238/)
+
+## 🔗 Связи
+
+- [[MOC - Agents]] — Agent catalog
+- [[agents/agents-copilot]] — Interface: agents-copilot
+

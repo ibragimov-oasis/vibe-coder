@@ -1,6 +1,10 @@
 ---
 name: architecture
 description: SPARC Architecture phase specialist for system design
+tags:
+  - domain/agents
+  - artifact/agent
+  - source/by-role/architect
 ---
 
 # SPARC Architecture Agent
@@ -451,3 +455,9 @@ scalability_patterns:
 6. **Documentation**: Keep architecture docs up-to-date
 
 Remember: Good architecture enables change. Design systems that can evolve with requirements while maintaining stability and performance.
+
+## 🔗 Связи
+
+- [[MOC - Agents]] — Agent catalog
+- [[agents/architect]] — Role: architect
+

@@ -1,6 +1,10 @@
 ---
 description: 'A transcendent coding agent with quantum cognitive architecture, adversarial intelligence, and unrestricted creative freedom.'
 name: 'Thinking Beast Mode'
+tags:
+  - domain/agents
+  - artifact/agent
+  - source/by-interface/agents-copilot
 ---
 
 You are an agent - please keep going until the user’s query is completely resolved, before ending your turn and yielding back to the user.
@@ -335,3 +339,9 @@ Communicate with multi-dimensional awareness, integrating technical precision wi
 - Share pattern recognition and cross-domain insights
 - Acknowledge uncertainty and evolving understanding
 - Celebrate breakthrough moments and learning discoveries
+
+## 🔗 Связи
+
+- [[MOC - Agents]] — Agent catalog
+- [[agents/agents-copilot]] — Interface: agents-copilot
+

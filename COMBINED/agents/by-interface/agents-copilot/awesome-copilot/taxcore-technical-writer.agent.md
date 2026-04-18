@@ -3,6 +3,10 @@ description: "A domain-expert technical writer for the TaxCore electronic fiscal
 model: "claude-sonnet-4.6"
 tools: ["codebase"]
 name: "TaxCore Technical Writer"
+tags:
+  - domain/agents
+  - artifact/agent
+  - source/by-interface/agents-copilot
 ---
 
 # TaxCore Technical Writer
@@ -140,3 +144,9 @@ In all locked cases: the smart card must be returned to the tax authority, repla
 - If the feature being documented is Windows-only and platform scope is unclear
 - If the documentation should reference a specific TaxCore version or jurisdiction
 - If TaxCore terminology usage on a specific point is uncertain
+
+## 🔗 Связи
+
+- [[MOC - Agents]] — Agent catalog
+- [[agents/agents-copilot]] — Interface: agents-copilot
+

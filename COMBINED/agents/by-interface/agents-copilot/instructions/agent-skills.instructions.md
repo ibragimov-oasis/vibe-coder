@@ -1,6 +1,10 @@
 ---
 description: 'Guidelines for creating high-quality Agent Skills for GitHub Copilot'
 applyTo: '**/.github/skills/**/SKILL.md, **/COMBINED/workspace-config/claude/skills/**/SKILL.md'
+tags:
+  - domain/agents
+  - artifact/agent
+  - source/by-interface/agents-copilot
 ---
 
 # Agent Skills File Guidelines
@@ -259,3 +263,9 @@ This ensures traceability and allows resuming workflows if interrupted.
 - [VS Code Agent Skills Documentation](https://code.visualstudio.com/docs/copilot/customization/agent-skills)
 - [Reference Skills Repository](https://github.com/anthropics/skills)
 - [Awesome Copilot Skills](https://github.com/github/awesome-copilot/blob/main/docs/README.skills.md)
+
+## 🔗 Связи
+
+- [[MOC - Agents]] — Agent catalog
+- [[agents/agents-copilot]] — Interface: agents-copilot
+

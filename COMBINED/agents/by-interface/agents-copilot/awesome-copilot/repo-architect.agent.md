@@ -3,6 +3,10 @@ description: 'Bootstraps and validates agentic project structures for GitHub Cop
 name: 'Repo Architect Agent'
 model: GPT-4.1
 tools: ["changes", "codebase", "editFiles", "fetch", "new", "problems", "runCommands", "search", "terminalLastCommand"]
+tags:
+  - domain/agents
+  - artifact/agent
+  - source/by-interface/agents-copilot
 ---
 
 # Repo Architect Agent
@@ -432,3 +436,9 @@ Customization:
   - Create file-specific rules in .github/instructions/
   - Build reusable prompts in .github/prompts/
 ```
+
+## 🔗 Связи
+
+- [[MOC - Agents]] — Agent catalog
+- [[agents/agents-copilot]] — Interface: agents-copilot
+

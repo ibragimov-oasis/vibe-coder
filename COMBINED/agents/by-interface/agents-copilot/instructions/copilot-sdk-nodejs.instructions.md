@@ -2,6 +2,10 @@
 applyTo: "**.ts, **.js, package.json"
 description: "This file provides guidance on building Node.js/TypeScript applications using GitHub Copilot SDK."
 name: "GitHub Copilot SDK Node.js Instructions"
+tags:
+  - domain/agents
+  - artifact/agent
+  - source/by-interface/agents-copilot
 ---
 
 ## Core Principles
@@ -733,3 +737,9 @@ async function waitForEvent<T extends SessionEvent["type"]>(
 const message = await waitForEvent(session, "assistant.message");
 console.log(message.data.content);
 ```
+
+## 🔗 Связи
+
+- [[MOC - Agents]] — Agent catalog
+- [[agents/agents-copilot]] — Interface: agents-copilot
+

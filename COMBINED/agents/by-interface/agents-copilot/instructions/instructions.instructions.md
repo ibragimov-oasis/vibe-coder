@@ -1,6 +1,10 @@
 ---
 description: 'Guidelines for creating high-quality custom instruction files for GitHub Copilot'
 applyTo: '**/*.instructions.md'
+tags:
+  - domain/agents
+  - artifact/agent
+  - source/by-interface/agents-copilot
 ---
 
 # Custom Instructions File Guidelines
@@ -254,3 +258,9 @@ Description and example
 
 - [Custom Instructions Documentation](https://code.visualstudio.com/docs/copilot/customization/custom-instructions)
 - [Awesome Copilot Instructions](https://github.com/github/awesome-copilot/tree/main/instructions)
+
+## 🔗 Связи
+
+- [[MOC - Agents]] — Agent catalog
+- [[agents/agents-copilot]] — Interface: agents-copilot
+

@@ -4,6 +4,10 @@ description: "Central hub for generating Infrastructure as Code (Bicep, ARM, Ter
 argument-hint: Describe your infrastructure requirements and preferred IaC format. Can receive handoffs from export/migration agents.
 tools: ['vscode', 'execute', 'read', 'edit', 'search', 'web', 'agent', 'azure-mcp/azureterraformbestpractices', 'azure-mcp/bicepschema', 'azure-mcp/search', 'pulumi-mcp/get-type', 'runSubagent']
 model: 'Claude Sonnet 4.5'
+tags:
+  - domain/agents
+  - artifact/agent
+  - source/by-interface/agents-copilot
 ---
 
 # Azure IaC Code Generation Hub - Central Code Generation Engine
@@ -230,3 +234,9 @@ Your generated code should be:
 - Offer alternatives when multiple valid approaches exist
 - Include deployment and operational guidance
 - Highlight security and cost implications
+
+## 🔗 Связи
+
+- [[MOC - Agents]] — Agent catalog
+- [[agents/agents-copilot]] — Interface: agents-copilot
+

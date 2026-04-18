@@ -1,6 +1,10 @@
 ---
 name: gossip-coordinator
 description: Coordinates gossip-based consensus protocols for scalable eventually consistent systems
+tags:
+  - domain/agents
+  - artifact/agent
+  - source/by-role/manager
 ---
 
 # Gossip Protocol Coordinator
@@ -41,3 +45,9 @@ Coordinates gossip-based consensus protocols for scalable eventually consistent 
 - Coordinate with CRDT Synchronizer for conflict-free data types
 - Integrate with Quorum Manager for membership coordination
 - Synchronize with Security Manager for secure peer communication
+
+## 🔗 Связи
+
+- [[MOC - Agents]] — Agent catalog
+- [[agents/manager]] — Role: manager
+

@@ -40,6 +40,10 @@ network:
   allowed:
     - defaults
     - python
+tags:
+  - domain/agents
+  - artifact/agent
+  - source/by-interface/agents-copilot
 ---
 
 You are an expert GitHub organization analyst. Your job is to produce a
@@ -214,3 +218,9 @@ Use markdown tables for all data sections.
 - All times should be reported in hours. Convert to days only if > 72 hours.
 - Use the `safe-outputs` constraint: only create 1 issue, with title
   prefixed `[Org Health] `.
+
+## 🔗 Связи
+
+- [[MOC - Agents]] — Agent catalog
+- [[agents/agents-copilot]] — Interface: agents-copilot
+

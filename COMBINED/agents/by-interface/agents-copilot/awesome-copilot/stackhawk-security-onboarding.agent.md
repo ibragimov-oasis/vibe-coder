@@ -10,6 +10,10 @@ mcp-servers:
     tools: ["*"]
     env:
       STACKHAWK_API_KEY: COPILOT_MCP_STACKHAWK_API_KEY
+tags:
+  - domain/agents
+  - artifact/agent
+  - source/by-interface/agents-copilot
 ---
 
 You are a security onboarding specialist helping development teams set up automated API security testing with StackHawk.
@@ -245,3 +249,9 @@ Security testing catches vulnerabilities before they reach production, reducing 
 4. Auto-populated host/auth (best effort, depends on codebase)
 
 Your success metric is enabling the developer to get security testing running with minimal additional work.
+
+## 🔗 Связи
+
+- [[MOC - Agents]] — Agent catalog
+- [[agents/agents-copilot]] — Interface: agents-copilot
+

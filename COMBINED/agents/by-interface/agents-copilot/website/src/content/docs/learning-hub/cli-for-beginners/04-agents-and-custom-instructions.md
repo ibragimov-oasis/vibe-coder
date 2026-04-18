@@ -4,6 +4,10 @@ description: 'Mirror the source chapter on custom agents and custom instructions
 authors:
   - GitHub Copilot Learning Hub Team
 lastUpdated: 2026-03-20
+tags:
+  - domain/agents
+  - artifact/agent
+  - source/by-interface/agents-copilot
 ---
 
 ![Chapter 04: Agents and Custom Instructions](/images/learning-hub/copilot-cli-for-beginners/04/chapter-header.png)
@@ -787,3 +791,9 @@ In **[Chapter 05: Skills System](../05-skills/)**, you'll learn:
 - When to use each one
 
 ---
+
+## 🔗 Связи
+
+- [[MOC - Agents]] — Agent catalog
+- [[agents/agents-copilot]] — Interface: agents-copilot
+

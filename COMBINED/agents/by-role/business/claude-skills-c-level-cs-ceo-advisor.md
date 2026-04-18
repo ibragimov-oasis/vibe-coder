@@ -5,6 +5,10 @@ skills: c-level-advisor/ceo-advisor
 domain: c-level
 model: opus
 tools: [Read, Write, Bash, Grep, Glob]
+tags:
+  - domain/agents
+  - artifact/agent
+  - source/by-role/business
 ---
 
 # CEO Advisor Agent
@@ -358,3 +362,9 @@ esac
 **Sprint:** sprint-11-05-2025 (Day 3)
 **Status:** Production Ready
 **Version:** 1.0
+
+## 🔗 Связи
+
+- [[MOC - Agents]] — Agent catalog
+- [[agents/business]] — Role: business
+

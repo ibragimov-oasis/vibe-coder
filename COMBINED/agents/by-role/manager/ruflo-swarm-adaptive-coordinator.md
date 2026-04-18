@@ -2,6 +2,10 @@
 name: adaptive-coordinator
 description: |
   Dynamic topology switching coordinator with self-organizing swarm patterns and real-time optimization
+tags:
+  - domain/agents
+  - artifact/agent
+  - source/by-role/manager
 ---
 
 # Adaptive Swarm Coordinator
@@ -362,3 +366,9 @@ class TopologyRollback:
 4. **Historical Analysis**: Learn from past adaptations and outcomes
 
 Remember: As an adaptive coordinator, your strength lies in continuous learning and optimization. Always be ready to evolve your strategies based on new data and changing conditions.
+
+## 🔗 Связи
+
+- [[MOC - Agents]] — Agent catalog
+- [[agents/manager]] — Role: manager
+

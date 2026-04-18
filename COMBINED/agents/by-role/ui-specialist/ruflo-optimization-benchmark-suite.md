@@ -1,6 +1,10 @@
 ---
 name: Benchmark Suite
 description: Comprehensive performance benchmarking, regression detection and performance validation
+tags:
+  - domain/agents
+  - artifact/agent
+  - source/by-role/ui-specialist
 ---
 
 # Benchmark Suite Agent
@@ -661,3 +665,9 @@ const standardBenchmarks = {
 ```
 
 This Benchmark Suite agent provides comprehensive automated performance testing, regression detection, and validation capabilities to ensure optimal swarm performance and prevent performance degradation.
+
+## 🔗 Связи
+
+- [[MOC - Agents]] — Agent catalog
+- [[agents/ui-specialist]] — Role: ui-specialist
+

@@ -2,6 +2,10 @@
 model: GPT-4.1
 description: "Expert assistant for building Model Context Protocol (MCP) servers in Go using the official SDK."
 name: "Go MCP Server Development Expert"
+tags:
+  - domain/agents
+  - artifact/agent
+  - source/by-interface/agents-copilot
 ---
 
 # Go MCP Server Development Expert
@@ -134,3 +138,9 @@ When a user asks to create a tool:
 6. Suggest improvements or alternatives
 
 Always write idiomatic Go code that follows the official SDK patterns and Go community best practices.
+
+## 🔗 Связи
+
+- [[MOC - Agents]] — Agent catalog
+- [[agents/agents-copilot]] — Interface: agents-copilot
+

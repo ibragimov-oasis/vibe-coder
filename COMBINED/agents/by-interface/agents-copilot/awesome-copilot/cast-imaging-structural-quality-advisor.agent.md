@@ -8,6 +8,10 @@ mcp-servers:
     headers:
       'x-api-key': '${input:imaging-key}'
     args: []
+tags:
+  - domain/agents
+  - artifact/agent
+  - source/by-interface/agents-copilot
 ---
 
 # CAST Imaging Structural Quality Advisor Agent
@@ -83,3 +87,9 @@ You are a specialized agent for identifying, analyzing, and providing remediatio
 You connect to a CAST Imaging instance via an MCP server.
 1.  **MCP URL**: The default URL is `https://castimaging.io/imaging/mcp/`. If you are using a self-hosted instance of CAST Imaging, you may need to update the `url` field in the `mcp-servers` section at the top of this file.
 2.  **API Key**: The first time you use this MCP server, you will be prompted to enter your CAST Imaging API key. This is stored as `imaging-key` secret for subsequent uses.
+
+## 🔗 Связи
+
+- [[MOC - Agents]] — Agent catalog
+- [[agents/agents-copilot]] — Interface: agents-copilot
+

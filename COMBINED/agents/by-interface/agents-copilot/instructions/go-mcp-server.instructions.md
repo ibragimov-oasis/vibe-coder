@@ -1,6 +1,10 @@
 ---
 description: 'Best practices and patterns for building Model Context Protocol (MCP) servers in Go using the official github.com/modelcontextprotocol/go-sdk package.'
 applyTo: "**/*.go, **/go.mod, **/go.sum"
+tags:
+  - domain/agents
+  - artifact/agent
+  - source/by-interface/agents-copilot
 ---
 
 # Go MCP Server Development Guidelines
@@ -344,3 +348,9 @@ if err := server.Run(ctx, transport); err != nil {
     log.Fatal(err)
 }
 ```
+
+## 🔗 Связи
+
+- [[MOC - Agents]] — Agent catalog
+- [[agents/agents-copilot]] — Interface: agents-copilot
+

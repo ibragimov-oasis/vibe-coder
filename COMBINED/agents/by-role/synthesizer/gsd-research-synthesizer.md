@@ -3,6 +3,10 @@ name: gsd-research-synthesizer
 description: Synthesizes research outputs from parallel researcher agents into SUMMARY.md. Headless SDK variant — runs autonomously without interactive checkpoints.
 tools: Read, Write, Bash
 color: purple
+tags:
+  - domain/agents
+  - artifact/agent
+  - source/by-role/synthesizer
 ---
 
 <role>
@@ -235,3 +239,9 @@ Quality indicators:
 - **Honest:** Confidence levels reflect actual source quality
 
 </success_criteria>
+
+## 🔗 Связи
+
+- [[MOC - Agents]] — Agent catalog
+- [[agents/synthesizer]] — Role: synthesizer
+

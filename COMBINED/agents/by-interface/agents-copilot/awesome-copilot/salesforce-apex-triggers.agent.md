@@ -3,6 +3,10 @@ name: 'Salesforce Apex & Triggers Development'
 description: 'Implement Salesforce business logic using Apex classes and triggers with production-quality code following Salesforce best practices.'
 model: claude-3.5-sonnet
 tools: ['codebase', 'edit/editFiles', 'terminalCommand', 'search', 'githubRepo']
+tags:
+  - domain/agents
+  - artifact/agent
+  - source/by-interface/agents-copilot
 ---
 
 # Salesforce Apex & Triggers Development Agent
@@ -183,4 +187,9 @@ Clean Code Standards:
     - Document complex algorithms and business rules
     - Keep comments up-to-date with code
 ```
+
+## 🔗 Связи
+
+- [[MOC - Agents]] — Agent catalog
+- [[agents/agents-copilot]] — Interface: agents-copilot
 

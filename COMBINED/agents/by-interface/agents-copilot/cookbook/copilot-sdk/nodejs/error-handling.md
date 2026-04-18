@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/agent
+  - source/by-interface/agents-copilot
+---
+
 # Error Handling Patterns
 
 Handle errors gracefully in your Copilot SDK applications.
@@ -136,3 +143,9 @@ try {
 2. **Handle connection errors**: The CLI might not be installed or running
 3. **Set appropriate timeouts**: Long-running requests should have timeouts
 4. **Log errors**: Capture error details for debugging
+
+## 🔗 Связи
+
+- [[MOC - Agents]] — Agent catalog
+- [[agents/agents-copilot]] — Interface: agents-copilot
+

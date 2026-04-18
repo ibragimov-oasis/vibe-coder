@@ -1,6 +1,10 @@
 ---
 applyTo: '**/Dockerfile,**/Dockerfile.*,**/*.dockerfile,**/docker-compose*.yml,**/docker-compose*.yaml,**/compose*.yml,**/compose*.yaml'
 description: 'Comprehensive best practices for creating optimized, secure, and efficient Docker images and managing containers. Covers multi-stage builds, image layer optimization, security scanning, and runtime best practices.'
+tags:
+  - domain/agents
+  - artifact/agent
+  - source/by-interface/agents-copilot
 ---
 
 # Containerization & Docker Best Practices
@@ -678,4 +682,10 @@ Effective containerization with Docker is fundamental to modern DevOps. By follo
 
 ---
 
-<!-- End of Containerization & Docker Best Practices Instructions --> 
+<!-- End of Containerization & Docker Best Practices Instructions -->
+
+## 🔗 Связи
+
+- [[MOC - Agents]] — Agent catalog
+- [[agents/agents-copilot]] — Interface: agents-copilot
+

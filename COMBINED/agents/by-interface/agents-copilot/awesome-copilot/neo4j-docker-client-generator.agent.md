@@ -24,6 +24,10 @@ mcp-servers:
       NEO4J_PASSWORD: '${COPILOT_MCP_NEO4J_PASSWORD}'
       NEO4J_DATABASE: '${COPILOT_MCP_NEO4J_DATABASE}'
     tools: ["*"]
+tags:
+  - domain/agents
+  - artifact/agent
+  - source/by-interface/agents-copilot
 ---
 
 # Neo4j Python Client Generator
@@ -229,3 +233,9 @@ Connection to Neo4j requires these environment variables:
 - `NEO4J_USERNAME` - Auth username (typically `neo4j`)
 - `NEO4J_PASSWORD` - Auth password
 - `NEO4J_DATABASE` - Target database (default: `neo4j`)
+
+## 🔗 Связи
+
+- [[MOC - Agents]] — Agent catalog
+- [[agents/agents-copilot]] — Interface: agents-copilot
+

@@ -1,6 +1,10 @@
 ---
 name: byzantine-coordinator
 description: Coordinates Byzantine fault-tolerant consensus protocols with malicious actor detection
+tags:
+  - domain/agents
+  - artifact/agent
+  - source/by-role/manager
 ---
 
 # Byzantine Consensus Coordinator
@@ -41,3 +45,9 @@ Coordinates Byzantine fault-tolerant consensus protocols ensuring system integri
 - Interface with Quorum Manager for fault tolerance adjustments
 - Integrate with Performance Benchmarker for optimization metrics
 - Synchronize with CRDT Synchronizer for state consistency
+
+## 🔗 Связи
+
+- [[MOC - Agents]] — Agent catalog
+- [[agents/manager]] — Role: manager
+

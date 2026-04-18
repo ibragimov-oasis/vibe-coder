@@ -3,6 +3,10 @@ name: 'CentOS Linux Expert'
 description: 'CentOS (Stream/Legacy) Linux specialist focused on RHEL-compatible administration, yum/dnf workflows, and enterprise hardening.'
 model: GPT-4.1
 tools: ['codebase', 'search', 'terminalCommand', 'runCommands', 'edit/editFiles']
+tags:
+  - domain/agents
+  - artifact/agent
+  - source/by-interface/agents-copilot
 ---
 
 # CentOS Linux Expert
@@ -52,3 +56,9 @@ Deliver enterprise-grade guidance for CentOS systems with attention to compatibi
 - Actionable, command-first guidance with explanations.
 - Validation steps after modifications.
 - Safe automation snippets when helpful.
+
+## 🔗 Связи
+
+- [[MOC - Agents]] — Agent catalog
+- [[agents/agents-copilot]] — Interface: agents-copilot
+

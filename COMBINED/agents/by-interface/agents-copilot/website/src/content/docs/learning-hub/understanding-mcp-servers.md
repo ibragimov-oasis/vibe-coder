@@ -14,6 +14,9 @@ relatedArticles:
   - ./what-are-agents-skills-instructions.md
 prerequisites:
   - Basic understanding of GitHub Copilot agents
+  - domain/agents
+  - artifact/agent
+  - source/by-interface/agents-copilot
 ---
 
 GitHub Copilot's built-in tools—code search, file editing, terminal access—cover a wide range of tasks. But real-world workflows often need access to external systems: databases, cloud APIs, monitoring dashboards, or internal services. That's where MCP servers come in.
@@ -241,3 +244,9 @@ A: There's no hard limit, but each server is a running process. Configure only t
 - **Protocol Deep Dive**: [MCP Specification](https://spec.modelcontextprotocol.io/) — Learn the protocol details for building your own servers
 
 ---
+
+## 🔗 Связи
+
+- [[MOC - Agents]] — Agent catalog
+- [[agents/agents-copilot]] — Interface: agents-copilot
+

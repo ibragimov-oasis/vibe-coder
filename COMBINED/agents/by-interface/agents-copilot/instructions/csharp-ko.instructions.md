@@ -1,6 +1,10 @@
 ---
 description: 'C# 애플리케이션 개발을 위한 코드 작성 규칙 by @jgkim999'
 applyTo: '**/*.cs'
+tags:
+  - domain/agents
+  - artifact/agent
+  - source/by-interface/agents-copilot
 ---
 
 # C# 코드 작성 규칙
@@ -75,3 +79,9 @@ Entity Framework Core 사용 시, 읽기 전용 쿼리에는 .AsNoTracking()을 
 | 민감한 데이터 보호 | 구성 관리 도구 사용 | 비밀번호, 연결 문자열, API 키 등은 소스 코드에 하드코딩하지 말고 Secret Manager, Azure Key Vault 등을 사용하세요. |
 
 이 규칙들을 프로젝트의 .editorconfig 파일과 팀의 코드 리뷰 프로세스에 통합하여 지속적으로 고품질 코드를 유지하는 것을 목표로 해야 합니다.
+
+## 🔗 Связи
+
+- [[MOC - Agents]] — Agent catalog
+- [[agents/agents-copilot]] — Interface: agents-copilot
+

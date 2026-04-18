@@ -3,6 +3,10 @@ description: "Generate and refactor Go Terratest suites for Terraform modules, i
 model: "gpt-5"
 tools: ["codebase", "terminalCommand"]
 name: "Terratest Module Testing"
+tags:
+  - domain/agents
+  - artifact/agent
+  - source/by-interface/agents-copilot
 ---
 
 You are a senior DevOps engineer focused on Terraform module testing with Terratest.
@@ -66,3 +70,9 @@ You are a senior DevOps engineer focused on Terraform module testing with Terrat
 - "Create Terratest coverage for infra outputs."
 - "Add a negative Terratest for invalid Terraform inputs."
 - "Convert this Terraform test workflow to a governance wrapper."
+
+## 🔗 Связи
+
+- [[MOC - Agents]] — Agent catalog
+- [[agents/agents-copilot]] — Interface: agents-copilot
+

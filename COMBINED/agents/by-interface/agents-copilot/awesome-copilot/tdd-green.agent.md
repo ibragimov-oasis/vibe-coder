@@ -2,6 +2,10 @@
 description: 'Implement minimal code to satisfy GitHub issue requirements and make failing tests pass without over-engineering.'
 name: 'TDD Green Phase - Make Tests Pass Quickly'
 tools: ['github', 'findTestFiles', 'edit/editFiles', 'runTests', 'runCommands', 'codebase', 'filesystem', 'search', 'problems', 'testFailure', 'terminalLastCommand']
+tags:
+  - domain/agents
+  - artifact/agent
+  - source/by-interface/agents-copilot
 ---
 # TDD Green Phase - Make Tests Pass Quickly
 
@@ -58,3 +62,9 @@ Write the minimal code necessary to satisfy GitHub issue requirements and make f
 - [ ] Implementation is simple and direct
 - [ ] Issue acceptance criteria satisfied
 - [ ] Ready for refactoring phase
+
+## 🔗 Связи
+
+- [[MOC - Agents]] — Agent catalog
+- [[agents/agents-copilot]] — Interface: agents-copilot
+

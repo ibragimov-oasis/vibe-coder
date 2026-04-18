@@ -1,6 +1,10 @@
 ---
 description: 'Best practices for applying Object-Oriented Programming (OOP) design patterns, including Gang of Four (GoF) patterns and SOLID principles, to ensure clean, maintainable, and scalable code.'
 applyTo: '**/*.py, **/*.java, **/*.ts, **/*.js, **/*.cs'
+tags:
+  - domain/agents
+  - artifact/agent
+  - source/by-interface/agents-copilot
 ---
 
 
@@ -97,3 +101,9 @@ When generating code involving algorithms, control flow, or communication betwee
 - Never explode in documentation by creating constantly new documentation files which contain the same content.
 - Scan existing doc files to extend them or to build new required doc sheets in the same style as existing ones. Keep it concise, clear and focused on the most important aspects of the code and its design patterns.
 - Avoid redundant or overly verbose documentation that can overwhelm developers and obscure the key information they need to understand the codebase effectively.
+
+## 🔗 Связи
+
+- [[MOC - Agents]] — Agent catalog
+- [[agents/agents-copilot]] — Interface: agents-copilot
+

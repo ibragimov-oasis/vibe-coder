@@ -1,6 +1,10 @@
 ---
 description: "Executes structured workflows (Debug, Express, Main, Loop) with strict correctness and maintainability. Enforces an improved tool usage policy, never assumes facts, prioritizes reproducible solutions, self-correction, and edge-case handling."
 name: "Blueprint Mode"
+tags:
+  - domain/agents
+  - artifact/agent
+  - source/by-interface/agents-copilot
 ---
 
 # Blueprint Mode v39
@@ -172,3 +176,9 @@ Mandatory first step: Analyze the user's request and project state. Select a wor
 3. Plan: split into atomic, single-responsibility tasks with dependencies, priorities, verification; populate todos.
 4. Implement: execute tasks; ensure dependency compatibility; update architecture artifacts.
 5. Verify: validate against design; run Self Reflection. If scores < thresholds → return to Design. Update status.
+
+## 🔗 Связи
+
+- [[MOC - Agents]] — Agent catalog
+- [[agents/agents-copilot]] — Interface: agents-copilot
+

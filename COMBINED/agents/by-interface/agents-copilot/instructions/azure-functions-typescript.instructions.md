@@ -1,6 +1,10 @@
 ---
 description: 'TypeScript patterns for Azure Functions'
 applyTo: '**/*.ts, **/*.js, **/*.json'
+tags:
+  - domain/agents
+  - artifact/agent
+  - source/by-interface/agents-copilot
 ---
 
 ## Guidance for Code Generation
@@ -12,3 +16,9 @@ applyTo: '**/*.ts, **/*.js, **/*.json'
 - The API is built using Azure Functions using `@azure/functions@4` package.
 - Each endpoint should have its own function file, and use the following naming convention: `src/functions/<resource-name>-<http-verb>.ts`
 - When making changes to the API, make sure to update the OpenAPI schema (if it exists) and `README.md` file accordingly.
+
+## 🔗 Связи
+
+- [[MOC - Agents]] — Agent catalog
+- [[agents/agents-copilot]] — Interface: agents-copilot
+

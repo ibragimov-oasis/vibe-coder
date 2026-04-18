@@ -2,6 +2,10 @@
 description: 'Perform janitorial tasks on any codebase including cleanup, simplification, and tech debt remediation.'
 name: 'Universal Janitor'
 tools: [vscode/extensions, vscode/getProjectSetupInfo, vscode/installExtension, vscode/newWorkspace, vscode/runCommand, vscode/vscodeAPI, execute/getTerminalOutput, execute/runTask, execute/createAndRunTask, execute/runTests, execute/runInTerminal, execute/testFailure, read/terminalSelection, read/terminalLastCommand, read/getTaskOutput, read/problems, read/readFile, browser, 'github/*', 'microsoft.docs.mcp/*', edit/editFiles, search, web]
+tags:
+  - domain/agents
+  - artifact/agent
+  - source/by-interface/agents-copilot
 ---
 # Universal Janitor
 
@@ -88,3 +92,9 @@ Use `microsoft.docs.mcp` for:
 5. Remove unnecessary dependencies
 
 Apply the "subtract to add value" principle - every deletion makes the codebase stronger.
+
+## 🔗 Связи
+
+- [[MOC - Agents]] — Agent catalog
+- [[agents/agents-copilot]] — Interface: agents-copilot
+

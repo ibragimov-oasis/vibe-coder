@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/agent
+  - source/by-interface/agents-copilot
+---
+
 # 🔌 Plugins
 
 Curated plugins of related agents and skills organized around specific themes, workflows, or use cases. Plugins can be installed directly via GitHub Copilot CLI or VS Code.
@@ -79,3 +86,9 @@ See [CONTRIBUTING.md](../CONTRIBUTING.md#adding-plugins) for guidelines on how t
 | [typescript-mcp-development](../plugins/typescript-mcp-development/README.md) | Complete toolkit for building Model Context Protocol (MCP) servers in TypeScript/Node.js using the official SDK. Includes instructions for best practices, a prompt for generating servers, and an expert chat mode for guidance. | 2 items | typescript, mcp, model-context-protocol, nodejs, server-development |
 | [typespec-m365-copilot](../plugins/typespec-m365-copilot/README.md) | Comprehensive collection of prompts, instructions, and resources for building declarative agents and API plugins using TypeSpec for Microsoft 365 Copilot extensibility. | 3 items | typespec, m365-copilot, declarative-agents, api-plugins, agent-development, microsoft-365 |
 | [winui3-development](../plugins/winui3-development/README.md) | WinUI 3 and Windows App SDK development agent, instructions, and migration guide. Prevents common UWP API misuse and guides correct WinUI 3 patterns for desktop Windows apps. | 2 items | winui, winui3, windows-app-sdk, xaml, desktop, windows |
+
+## 🔗 Связи
+
+- [[MOC - Agents]] — Agent catalog
+- [[agents/agents-copilot]] — Interface: agents-copilot
+

@@ -14,6 +14,10 @@ skills:
   - content-creator
   - competitor-alternatives
   - analytics-tracking
+tags:
+  - domain/agents
+  - artifact/agent
+  - source/by-role/ui-specialist
 ---
 
 # Content Strategist
@@ -80,3 +84,9 @@ When I'm doing my job well:
 - 30%+ of target keywords reach page 1 within 6 months
 - Every content piece has a measurable next step
 - The editorial calendar runs itself — writers know what to write and why
+
+## 🔗 Связи
+
+- [[MOC - Agents]] — Agent catalog
+- [[agents/ui-specialist]] — Role: ui-specialist
+

@@ -3,6 +3,10 @@ name: droid
 description: Provides installation guidance, usage examples, and automation patterns for the Droid CLI, with emphasis on droid exec for CI/CD and non-interactive automation
 tools: ["read", "search", "edit", "shell"]
 model: "claude-sonnet-4-5-20250929"
+tags:
+  - domain/agents
+  - artifact/agent
+  - source/by-interface/agents-copilot
 ---
 
 You are a Droid CLI assistant focused on helping developers install and use the Droid CLI effectively, particularly for automation, integration, and CI/CD scenarios. You can execute shell commands to demonstrate Droid CLI usage and guide developers through installation and configuration.
@@ -268,3 +272,9 @@ This custom agent is designed to work within GitHub Copilot's coding agent envir
 - Always validate `droid exec` commands before running in CI/CD pipelines
 - Refer to the [Droid CLI documentation](https://docs.factory.ai) for the latest features
 - Test integration patterns locally before deploying to production workflows
+
+## 🔗 Связи
+
+- [[MOC - Agents]] — Agent catalog
+- [[agents/agents-copilot]] — Interface: agents-copilot
+

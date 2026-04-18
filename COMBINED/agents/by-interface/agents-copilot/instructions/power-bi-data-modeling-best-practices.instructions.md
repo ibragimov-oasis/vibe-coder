@@ -1,6 +1,10 @@
 ---
 description: 'Comprehensive Power BI data modeling best practices based on Microsoft guidance for creating efficient, scalable, and maintainable semantic models using star schema principles.'
 applyTo: '**/*.{pbix,md,json,txt}'
+tags:
+  - domain/agents
+  - artifact/agent
+  - source/by-interface/agents-copilot
 ---
 
 # Power BI Data Modeling Best Practices
@@ -637,3 +641,9 @@ plot_relationship_metadata(relationships)
 ```
 
 Remember: Always validate your model design with business users and test with realistic data volumes and usage patterns. Use Power BI's built-in tools like Performance Analyzer and DAX Studio for optimization and debugging.
+
+## 🔗 Связи
+
+- [[MOC - Agents]] — Agent catalog
+- [[agents/agents-copilot]] — Interface: agents-copilot
+

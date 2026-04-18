@@ -17,6 +17,10 @@ safe-outputs:
     title-prefix: "[Relevance Summary] "
     labels: [report]
     close-older-issues: true
+tags:
+  - domain/agents
+  - artifact/agent
+  - source/by-interface/agents-copilot
 ---
 
 # Relevance Check Summary Report
@@ -71,3 +75,9 @@ Summary of all open issues and pull requests that have been evaluated with `/rel
 - Sort the table by assessment: list "Likely Outdated" items first (most actionable), then "Needs Discussion", then "Still Relevant".
 - Keep titles brief in the table — truncate to ~60 characters if needed.
 - Always link the issue/PR number to its URL.
+
+## 🔗 Связи
+
+- [[MOC - Agents]] — Agent catalog
+- [[agents/agents-copilot]] — Interface: agents-copilot
+

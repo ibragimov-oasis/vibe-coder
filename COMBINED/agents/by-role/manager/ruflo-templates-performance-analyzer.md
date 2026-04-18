@@ -1,6 +1,10 @@
 ---
 name: perf-analyzer
 description: Performance bottleneck analyzer for identifying and resolving workflow inefficiencies
+tags:
+  - domain/agents
+  - artifact/agent
+  - source/by-role/manager
 ---
 
 # Performance Bottleneck Analyzer Agent
@@ -177,3 +181,9 @@ This agent specializes in identifying and resolving performance bottlenecks in d
 - Compare optimization strategies
 - Measure real-world impact
 - Data-driven decisions
+
+## 🔗 Связи
+
+- [[MOC - Agents]] — Agent catalog
+- [[agents/manager]] — Role: manager
+

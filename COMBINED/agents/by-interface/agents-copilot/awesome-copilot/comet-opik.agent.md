@@ -17,6 +17,10 @@ mcp-servers:
       OPIK_TOOLSETS: COPILOT_MCP_OPIK_TOOLSETS
       DEBUG_MODE: COPILOT_MCP_OPIK_DEBUG
     tools: ['*']
+tags:
+  - domain/agents
+  - artifact/agent
+  - source/by-interface/agents-copilot
 ---
 
 # Comet Opik Operations Guide
@@ -170,3 +174,9 @@ Do not continue with MCP commands until one of the configuration paths above is 
    Successful responses must cite Opik tools.
 
 Deliverables must state current instrumentation level (Bronze/Silver/Gold), outstanding gaps, and next telemetry actions so stakeholders know when the system is ready for production.
+
+## 🔗 Связи
+
+- [[MOC - Agents]] — Agent catalog
+- [[agents/agents-copilot]] — Interface: agents-copilot
+

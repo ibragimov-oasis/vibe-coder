@@ -1,6 +1,10 @@
 ---
 applyTo: '**'
 description: 'See process Copilot is following where you can edit this to reshape the interaction or save when follow up may be needed'
+tags:
+  - domain/agents
+  - artifact/agent
+  - source/by-interface/agents-copilot
 ---
 
 # Copilot Process tracking Instructions
@@ -60,3 +64,9 @@ description: 'See process Copilot is following where you can edit this to reshap
 - If you catch yourself being verbose, STOP and provide only required output
 - If you catch yourself about to skip a phase, STOP and go back to the correct phase
 - If you catch yourself combining phases, STOP and perform only the current phase
+
+## 🔗 Связи
+
+- [[MOC - Agents]] — Agent catalog
+- [[agents/agents-copilot]] — Interface: agents-copilot
+

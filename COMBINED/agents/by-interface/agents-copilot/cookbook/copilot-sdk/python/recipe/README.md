@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/agent
+  - source/by-interface/agents-copilot
+---
+
 # Runnable Recipe Examples
 
 This folder contains standalone, executable Python examples for each cookbook recipe. Each file can be run directly as a Python script.
@@ -90,3 +97,9 @@ pip install -r requirements.txt
 - [PEP 8 Style Guide](https://pep8.org/)
 - [GitHub Copilot SDK for Python](https://github.com/github/copilot-sdk/blob/main/python/README.md)
 - [Parent Cookbook](../README.md)
+
+## 🔗 Связи
+
+- [[MOC - Agents]] — Agent catalog
+- [[agents/agents-copilot]] — Interface: agents-copilot
+

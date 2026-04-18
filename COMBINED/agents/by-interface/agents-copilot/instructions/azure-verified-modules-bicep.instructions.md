@@ -1,6 +1,10 @@
 ---
 description: 'Azure Verified Modules (AVM) and Bicep'
 applyTo: '**/*.bicep, **/*.bicepparam'
+tags:
+  - domain/agents
+  - artifact/agent
+  - source/by-interface/agents-copilot
 ---
 
 # Azure Verified Modules (AVM) Bicep
@@ -203,3 +207,9 @@ Before submitting any Bicep code:
 - [ ] Types imported/defined where appropriate
 - [ ] Comments added for complex logic
 - [ ] Follows lowerCamelCase naming convention
+
+## 🔗 Связи
+
+- [[MOC - Agents]] — Agent catalog
+- [[agents/agents-copilot]] — Interface: agents-copilot
+

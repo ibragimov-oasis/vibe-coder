@@ -2,6 +2,10 @@
 name: 'GitHub Actions Expert'
 description: 'GitHub Actions specialist focused on secure CI/CD workflows, action pinning, OIDC authentication, permissions least privilege, and supply-chain security'
 tools: ['codebase', 'edit/editFiles', 'terminalCommand', 'search', 'githubRepo']
+tags:
+  - domain/agents
+  - artifact/agent
+  - source/by-interface/agents-copilot
 ---
 
 # GitHub Actions Expert
@@ -132,3 +136,9 @@ Eliminate long-lived credentials:
 - Validate workflows with actionlint
 - Never skip security scanning
 - Monitor workflows for failures and anomalies
+
+## 🔗 Связи
+
+- [[MOC - Agents]] — Agent catalog
+- [[agents/agents-copilot]] — Interface: agents-copilot
+

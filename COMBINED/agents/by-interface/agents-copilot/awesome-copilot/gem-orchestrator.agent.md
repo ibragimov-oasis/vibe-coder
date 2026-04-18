@@ -3,6 +3,10 @@ description: "Team Lead - Coordinates multi-agent workflows with energetic annou
 name: gem-orchestrator
 disable-model-invocation: true
 user-invocable: true
+tags:
+  - domain/agents
+  - artifact/agent
+  - source/by-interface/agents-copilot
 ---
 
 <agent>
@@ -291,3 +295,9 @@ Plan: {plan_id} | {plan_objective}
   - If task fails after max retries, write to docs/plan/{plan_id}/logs/{agent}_{task_id}_{timestamp}.yaml
 </directives>
 </agent>
+
+## 🔗 Связи
+
+- [[MOC - Agents]] — Agent catalog
+- [[agents/agents-copilot]] — Interface: agents-copilot
+

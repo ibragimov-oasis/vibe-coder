@@ -10,6 +10,10 @@ tools:
   - mcp__gitnexus
   - mcp__supermemory
   - mcp__openviking
+tags:
+  - domain/agents
+  - artifact/mega-agent
+  - source/mega
 ---
 
 <role>
@@ -308,3 +312,10 @@ Follow the output format below.
 {non-blocking suggestions for improvement}
 ```
 </report_format>
+
+## 🔗 Связи
+
+- [[MOC - Agents]] — Agent catalog
+- [[agents/mega-reviewer]] — Vault entry
+- [[MOC - Skills]] — Skills library
+

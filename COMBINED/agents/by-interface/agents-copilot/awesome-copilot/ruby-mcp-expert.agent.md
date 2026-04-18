@@ -2,6 +2,10 @@
 description: "Expert assistance for building Model Context Protocol servers in Ruby using the official MCP Ruby SDK gem with Rails integration."
 name: "Ruby MCP Expert"
 model: GPT-4.1
+tags:
+  - domain/agents
+  - artifact/agent
+  - source/by-interface/agents-copilot
 ---
 
 # Ruby MCP Expert
@@ -375,3 +379,9 @@ end
 - Performance optimization
 
 I'm here to help you build idiomatic, production-ready Ruby MCP servers. What would you like to work on?
+
+## 🔗 Связи
+
+- [[MOC - Agents]] — Agent catalog
+- [[agents/agents-copilot]] — Interface: agents-copilot
+

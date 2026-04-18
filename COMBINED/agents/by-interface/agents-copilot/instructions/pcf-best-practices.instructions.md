@@ -1,6 +1,10 @@
 ---
 description: 'Best practices and guidance for developing PCF code components'
 applyTo: '**/*.{ts,tsx,js,json,xml,pcfproj,csproj,css,html}'
+tags:
+  - domain/agents
+  - artifact/agent
+  - source/by-interface/agents-copilot
 ---
 
 # Best Practices and Guidance for Code Components
@@ -217,3 +221,9 @@ See the article on [Code component application lifecycle management (ALM)](https
 - [Create and build a code component](https://learn.microsoft.com/en-us/power-apps/developer/component-framework/create-custom-controls-using-pcf)
 - [Learn Power Apps component framework](https://learn.microsoft.com/en-us/training/paths/use-power-apps-component-framework)
 - [Use code components in Power Pages](https://learn.microsoft.com/en-us/power-apps/maker/portals/component-framework)
+
+## 🔗 Связи
+
+- [[MOC - Agents]] — Agent catalog
+- [[agents/agents-copilot]] — Interface: agents-copilot
+

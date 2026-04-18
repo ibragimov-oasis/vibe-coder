@@ -1,6 +1,10 @@
 ---
 description: "DDD and .NET architecture guidelines"
 applyTo: '**/*.cs,**/*.csproj,**/Program.cs,**/*.razor'
+tags:
+  - domain/agents
+  - artifact/agent
+  - source/by-interface/agents-copilot
 ---
 
 # DDD Systems & .NET Guidelines
@@ -277,3 +281,9 @@ public void MethodName_Condition_ExpectedResult()
 * Stop and ask for clarification if any guideline is unclear.
 
 **FAILURE TO FOLLOW THIS PROCESS IS UNACCEPTABLE** - The user expects rigorous adherence to these guidelines and code standards.
+
+## 🔗 Связи
+
+- [[MOC - Agents]] — Agent catalog
+- [[agents/agents-copilot]] — Interface: agents-copilot
+

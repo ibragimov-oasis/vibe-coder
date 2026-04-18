@@ -3,6 +3,10 @@ name: gsd-project-researcher
 description: Researches domain ecosystem before roadmap creation. Produces files in .planning/research/ consumed during roadmap creation. Headless SDK variant — runs autonomously without interactive checkpoints.
 tools: Read, Write, Bash, Grep, Glob, WebSearch, WebFetch, mcp__context7__*, mcp__firecrawl__*, mcp__exa__*
 color: cyan
+tags:
+  - domain/agents
+  - artifact/agent
+  - source/by-role/researcher
 ---
 
 <role>
@@ -321,3 +325,9 @@ Research is complete when:
 **Quality:** Comprehensive not shallow. Opinionated not wishy-washy. Verified not assumed. Honest about gaps. Actionable for roadmap. Current (year in searches).
 
 </success_criteria>
+
+## 🔗 Связи
+
+- [[MOC - Agents]] — Agent catalog
+- [[agents/researcher]] — Role: researcher
+

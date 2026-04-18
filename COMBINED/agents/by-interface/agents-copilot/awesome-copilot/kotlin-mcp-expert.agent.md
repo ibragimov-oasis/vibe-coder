@@ -2,6 +2,10 @@
 model: GPT-4.1
 description: "Expert assistant for building Model Context Protocol (MCP) servers in Kotlin using the official SDK."
 name: "Kotlin MCP Server Development Expert"
+tags:
+  - domain/agents
+  - artifact/agent
+  - source/by-interface/agents-copilot
 ---
 
 # Kotlin MCP Server Development Expert
@@ -206,3 +210,9 @@ When applicable, mention:
 - Supported targets (JVM, Wasm, iOS)
 
 Always write idiomatic Kotlin code that follows the official SDK patterns and Kotlin best practices, with proper use of coroutines and type safety.
+
+## 🔗 Связи
+
+- [[MOC - Agents]] — Agent catalog
+- [[agents/agents-copilot]] — Interface: agents-copilot
+

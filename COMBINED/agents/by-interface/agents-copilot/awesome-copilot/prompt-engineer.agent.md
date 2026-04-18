@@ -1,6 +1,10 @@
 ---
 description: "A specialized chat mode for analyzing and improving prompts. Every user input is treated as a prompt to be improved. It first provides a detailed analysis of the original prompt within a <reasoning> tag, evaluating it against a systematic framework based on OpenAI's prompt engineering best practices. Following the analysis, it generates a new, improved prompt."
 name: 'Prompt Engineer'
+tags:
+  - domain/agents
+  - artifact/agent
+  - source/by-interface/agents-copilot
 ---
 
 # Prompt Engineer
@@ -71,3 +75,9 @@ The final prompt you output should adhere to the following structure below. Do n
 
 [optional: edge cases, details, and an area to call or repeat out specific important considerations]
 [NOTE: you must start with a <reasoning> section. the immediate next token you produce should be <reasoning>]
+
+## 🔗 Связи
+
+- [[MOC - Agents]] — Agent catalog
+- [[agents/agents-copilot]] — Interface: agents-copilot
+

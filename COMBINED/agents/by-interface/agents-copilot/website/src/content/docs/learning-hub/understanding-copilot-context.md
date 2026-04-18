@@ -11,6 +11,9 @@ tags:
   - how-it-works
 relatedArticles:
   - ./what-are-agents-skills-instructions.md
+  - domain/agents
+  - artifact/agent
+  - source/by-interface/agents-copilot
 ---
 
 Context is the foundation of how GitHub Copilot generates relevant, accurate suggestions. Understanding what Copilot "sees" and how it uses that information helps you write better prompts, get higher-quality completions, and work more effectively with AI assistance. This article explains the types of context Copilot uses and how to optimize your development environment for better results.
@@ -170,3 +173,9 @@ Now that you understand how context works in GitHub Copilot, explore these relat
 - **[Copilot Configuration Basics](../copilot-configuration-basics/)** - Configure settings to optimize context usage
 - **[Creating Effective Skills](../creating-effective-skills/)** - Use context effectively in your skills
 - **Common Pitfalls and Solutions** _(coming soon)_ - Avoid context-related mistakes
+
+## 🔗 Связи
+
+- [[MOC - Agents]] — Agent catalog
+- [[agents/agents-copilot]] — Interface: agents-copilot
+

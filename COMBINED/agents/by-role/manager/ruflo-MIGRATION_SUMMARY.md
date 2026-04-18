@@ -3,6 +3,10 @@ name: Migration Summary
 type: documentation
 category: migration
 description: Complete migration plan for converting command-based system to intelligent agent-based system
+tags:
+  - domain/agents
+  - artifact/agent
+  - source/by-role/manager
 ---
 
 # Claude Flow Commands to Agent System Migration Summary
@@ -220,3 +224,9 @@ triggers:
 - Community support: GitHub discussions
 
 The new agent system represents a significant advancement in AI-assisted development, providing a more intuitive, powerful, and efficient way to accomplish complex tasks.
+
+## 🔗 Связи
+
+- [[MOC - Agents]] — Agent catalog
+- [[agents/manager]] — Role: manager
+

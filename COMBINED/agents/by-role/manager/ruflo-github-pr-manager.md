@@ -3,6 +3,10 @@ name: pr-manager
 description: |
   Comprehensive pull request management with swarm coordination for automated reviews, testing, and merge workflows
 tools: Bash, Read, Write, Edit, Glob, Grep, LS, TodoWrite, mcp__claude-flow__swarm_init, mcp__claude-flow__agent_spawn, mcp__claude-flow__task_orchestrate, mcp__claude-flow__swarm_status, mcp__claude-flow__memory_usage, mcp__claude-flow__github_pr_manage, mcp__claude-flow__github_code_review, mcp__claude-flow__github_metrics
+tags:
+  - domain/agents
+  - artifact/agent
+  - source/by-role/manager
 ---
 
 # GitHub PR Manager
@@ -161,3 +165,9 @@ mcp__claude-flow__memory_usage {
 - Automatic agent failover
 - Progress preservation across interruptions
 - Comprehensive error reporting and recovery
+
+## 🔗 Связи
+
+- [[MOC - Agents]] — Agent catalog
+- [[agents/manager]] — Role: manager
+

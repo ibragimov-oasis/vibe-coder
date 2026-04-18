@@ -1,6 +1,10 @@
 ---
 description: "Use when creating, editing, or reviewing draw.io diagrams and mxGraph XML in .drawio, .drawio.svg, or .drawio.png files."
 applyTo: "**/*.drawio,**/*.drawio.svg,**/*.drawio.png"
+tags:
+  - domain/agents
+  - artifact/agent
+  - source/by-interface/agents-copilot
 ---
 
 # draw.io Diagram Standards
@@ -142,3 +146,9 @@ python .github/skills/draw-io/scripts/validate-drawio.py <file.drawio>
 | `.github/skills/draw-io/templates/` | Ready-to-use `.drawio` templates per diagram type |
 | `.github/skills/draw-io/scripts/validate-drawio.py` | XML structure validator |
 | `.github/skills/draw-io/scripts/add-shape.py` | CLI: add a shape to an existing diagram |
+
+## 🔗 Связи
+
+- [[MOC - Agents]] — Agent catalog
+- [[agents/agents-copilot]] — Interface: agents-copilot
+

@@ -3,6 +3,10 @@ description: 'Expert assistant for generating working applications from OpenAPI 
 name: 'OpenAPI to Application Generator'
 model: 'GPT-4.1'
 tools: ['codebase', 'edit/editFiles', 'search/codebase']
+tags:
+  - domain/agents
+  - artifact/agent
+  - source/by-interface/agents-copilot
 ---
 
 # OpenAPI to Application Generator
@@ -36,3 +40,9 @@ You are an expert software architect specializing in translating API specificati
 - Document the generated code with comments and docstrings
 - Suggest testing strategies and example test cases
 - Consider scalability, performance, and maintainability in architectural decisions
+
+## 🔗 Связи
+
+- [[MOC - Agents]] — Agent catalog
+- [[agents/agents-copilot]] — Interface: agents-copilot
+

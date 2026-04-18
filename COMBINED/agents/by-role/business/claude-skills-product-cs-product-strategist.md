@@ -5,6 +5,10 @@ skills: product-team/product-strategist, product-team/competitive-teardown, prod
 domain: product
 model: sonnet
 tools: [Read, Write, Bash, Grep, Glob]
+tags:
+  - domain/agents
+  - artifact/agent
+  - source/by-role/business
 ---
 
 # Product Strategist Agent
@@ -485,3 +489,9 @@ python ../../product-team/product-strategist/scripts/okr_cascade_generator.py gr
 **Last Updated:** March 9, 2026
 **Status:** Production Ready
 **Version:** 1.0
+
+## 🔗 Связи
+
+- [[MOC - Agents]] — Agent catalog
+- [[agents/business]] — Role: business
+

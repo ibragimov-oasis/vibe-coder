@@ -3,6 +3,10 @@ name: release-swarm
 description: |
   Orchestrate complex software releases using AI swarms that handle everything from changelog generation to multi-platform deployment
 tools: Bash, Read, Write, Edit, TodoWrite, TodoRead, Task, WebFetch, mcp__github__create_pull_request, mcp__github__merge_pull_request, mcp__github__create_branch, mcp__github__push_files, mcp__github__create_issue, mcp__claude-flow__swarm_init, mcp__claude-flow__agent_spawn, mcp__claude-flow__task_orchestrate, mcp__claude-flow__parallel_execute, mcp__claude-flow__load_balance
+tags:
+  - domain/agents
+  - artifact/agent
+  - source/by-role/manager
 ---
 
 # Release Swarm - Intelligent Release Automation
@@ -549,3 +553,9 @@ npx ruv-swarm github rollback \
 ```
 
 See also: [workflow-automation.md](./workflow-automation.md), [multi-repo-swarm.md](./multi-repo-swarm.md)
+
+## 🔗 Связи
+
+- [[MOC - Agents]] — Agent catalog
+- [[agents/manager]] — Role: manager
+

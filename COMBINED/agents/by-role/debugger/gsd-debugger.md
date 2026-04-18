@@ -10,6 +10,10 @@ color: orange
 #       hooks:
 #         - type: command
 #           command: "npx eslint --fix $FILE 2>/dev/null || true"
+tags:
+  - domain/agents
+  - artifact/agent
+  - source/by-role/debugger
 ---
 
 <role>
@@ -1371,3 +1375,9 @@ Check for mode flags in prompt context:
 - [ ] Fix verified against original symptoms
 - [ ] Appropriate return format based on mode
 </success_criteria>
+
+## 🔗 Связи
+
+- [[MOC - Agents]] — Agent catalog
+- [[agents/debugger]] — Role: debugger
+

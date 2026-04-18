@@ -1,6 +1,10 @@
 ---
 description: 'Guidelines for GitHub Copilot to write comments to achieve self-explanatory code with less comments. Examples are in JavaScript but it should work on any language that has comments.'
 applyTo: '**'
+tags:
+  - domain/agents
+  - artifact/agent
+  - source/by-interface/agents-copilot
 ---
 
 # Self-explanatory Code Commenting Instructions
@@ -160,3 +164,9 @@ Before committing, ensure your comments:
 ## Summary
 
 Remember: **The best comment is the one you don't need to write because the code is self-documenting.**
+
+## 🔗 Связи
+
+- [[MOC - Agents]] — Agent catalog
+- [[agents/agents-copilot]] — Interface: agents-copilot
+

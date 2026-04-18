@@ -1,6 +1,10 @@
 ---
 applyTo: 'k8s/**/*.yaml,k8s/**/*.yml,manifests/**/*.yaml,manifests/**/*.yml,deploy/**/*.yaml,deploy/**/*.yml,charts/**/templates/**/*.yaml,charts/**/templates/**/*.yml'
 description: 'Best practices for Kubernetes YAML manifests including labeling conventions, security contexts, pod security, resource management, probes, and validation commands'
+tags:
+  - domain/agents
+  - artifact/agent
+  - source/by-interface/agents-copilot
 ---
 
 # Kubernetes Manifests Instructions
@@ -134,3 +138,9 @@ Configure appropriate delays, periods, timeouts, and thresholds for each.
 8. Use rolling updates with zero unavailability
 9. Validate manifests before applying
 10. Enable read-only root filesystem when possible
+
+## 🔗 Связи
+
+- [[MOC - Agents]] — Agent catalog
+- [[agents/agents-copilot]] — Interface: agents-copilot
+

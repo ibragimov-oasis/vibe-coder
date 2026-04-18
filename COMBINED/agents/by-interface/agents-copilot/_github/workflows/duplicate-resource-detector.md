@@ -15,6 +15,10 @@ safe-outputs:
     labels:
       - duplicate-review
   noop:
+tags:
+  - domain/agents
+  - artifact/agent
+  - source/by-interface/agents-copilot
 ---
 
 # Duplicate Resource Detector
@@ -124,3 +128,9 @@ Use `<details>` blocks to collapse groups if there are more than 10.
 - Limit the report to the top 20 most likely duplicate groups to keep it actionable.
 - For skills, use the folder name and description from `SKILL.md`.
 - Process resources in batches to stay within time limits — prioritize name and description comparison, then spot-check content for top candidates.
+
+## 🔗 Связи
+
+- [[MOC - Agents]] — Agent catalog
+- [[agents/agents-copilot]] — Interface: agents-copilot
+

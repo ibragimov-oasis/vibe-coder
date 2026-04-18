@@ -2,6 +2,10 @@
 description: "Guide test-first development by writing failing tests that describe desired behaviour from GitHub issue context before implementation exists."
 name: "TDD Red Phase - Write Failing Tests First"
 tools: ["github", "findTestFiles", "edit/editFiles", "runTests", "runCommands", "codebase", "filesystem", "search", "problems", "testFailure", "terminalLastCommand"]
+tags:
+  - domain/agents
+  - artifact/agent
+  - source/by-interface/agents-copilot
 ---
 
 # TDD Red Phase - Write Failing Tests First
@@ -64,3 +68,9 @@ Focus on writing clear, specific failing tests that describe the desired behavio
 - [ ] Test follows AAA pattern
 - [ ] Edge cases from issue discussion considered
 - [ ] No production code written yet
+
+## 🔗 Связи
+
+- [[MOC - Agents]] — Agent catalog
+- [[agents/agents-copilot]] — Interface: agents-copilot
+

@@ -1,6 +1,10 @@
 ---
 description: 'Guidelines for building Spring Boot base applications'
 applyTo: '**/*.java, **/*.kt'
+tags:
+  - domain/agents
+  - artifact/agent
+  - source/by-interface/agents-copilot
 ---
 
 # Spring Boot Development
@@ -66,3 +70,9 @@ applyTo: '**/*.java, **/*.kt'
 | `./gradlew test`          |`./mvnw test`                      | Run tests.                                    |
 | `./gradlew bootJar`       |`./mvnw spring-boot:repackage`     | Package the application as a JAR.             |
 | `./gradlew bootBuildImage`|`./mvnw spring-boot:build-image`   | Package the application as a container image. |
+
+## 🔗 Связи
+
+- [[MOC - Agents]] — Agent catalog
+- [[agents/agents-copilot]] — Interface: agents-copilot
+

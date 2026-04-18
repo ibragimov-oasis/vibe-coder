@@ -5,6 +5,10 @@ skills: engineering
 domain: engineering
 model: sonnet
 tools: [Read, Write, Bash, Grep, Glob]
+tags:
+  - domain/agents
+  - artifact/agent
+  - source/by-role/coder
 ---
 
 # cs-senior-engineer
@@ -95,3 +99,9 @@ Cross-cutting senior engineer covering architecture, backend, DevOps, security, 
 
 - [cs-engineering-lead](../engineering-team/cs-engineering-lead.md) -- Team coordination, incident response, and cross-functional delivery
 - [cs-product-manager](../product/cs-product-manager.md) -- Feature prioritization and requirements context
+
+## 🔗 Связи
+
+- [[MOC - Agents]] — Agent catalog
+- [[agents/coder]] — Role: coder
+

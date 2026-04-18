@@ -2,6 +2,10 @@
 applyTo: "**.py, pyproject.toml, setup.py"
 description: "This file provides guidance on building Python applications using GitHub Copilot SDK."
 name: "GitHub Copilot SDK Python Instructions"
+tags:
+  - domain/agents
+  - artifact/agent
+  - source/by-interface/agents-copilot
 ---
 
 ## Core Principles
@@ -835,3 +839,9 @@ def handler(event):
     print(event.data.content)  # For assistant.message
     print(event.data.delta_content)  # For assistant.message.delta
 ```
+
+## 🔗 Связи
+
+- [[MOC - Agents]] — Agent catalog
+- [[agents/agents-copilot]] — Interface: agents-copilot
+

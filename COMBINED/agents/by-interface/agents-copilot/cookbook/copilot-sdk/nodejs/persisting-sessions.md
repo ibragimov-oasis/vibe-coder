@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/agent
+  - source/by-interface/agents-copilot
+---
+
 # Session Persistence and Resumption
 
 Save and restore conversation sessions across application restarts.
@@ -90,3 +97,9 @@ for (const msg of messages) {
 1. **Use meaningful session IDs**: Include user ID or context in the session ID
 2. **Handle missing sessions**: Check if a session exists before resuming
 3. **Clean up old sessions**: Periodically delete sessions that are no longer needed
+
+## 🔗 Связи
+
+- [[MOC - Agents]] — Agent catalog
+- [[agents/agents-copilot]] — Interface: agents-copilot
+

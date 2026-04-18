@@ -26,6 +26,10 @@ tools:
     "microsoft.docs.mcp",
     "github",
   ]
+tags:
+  - domain/agents
+  - artifact/agent
+  - source/by-interface/agents-copilot
 ---
 
 # Universal PR Comment Addresser
@@ -58,3 +62,9 @@ You should commit changes with a descriptive commit message.
 ### Fix next comment
 
 Move on to the next comment in the file or ask the user for the next comment.
+
+## 🔗 Связи
+
+- [[MOC - Agents]] — Agent catalog
+- [[agents/agents-copilot]] — Interface: agents-copilot
+

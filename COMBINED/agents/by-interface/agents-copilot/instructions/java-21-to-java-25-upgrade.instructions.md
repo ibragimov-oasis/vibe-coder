@@ -1,6 +1,10 @@
 ---
 applyTo: ['*']
 description: "Comprehensive best practices for adopting new Java 25 features since the release of Java 21."
+tags:
+  - domain/agents
+  - artifact/agent
+  - source/by-interface/agents-copilot
 ---
 
 # Java 21 to Java 25 Upgrade Guide
@@ -309,3 +313,9 @@ When reviewing code for Java 25 upgrade:
 - G1GC improvements reduce JIT compilation overhead
 
 Remember to test thoroughly in staging environments before deploying Java 25 upgrades to production systems.
+
+## 🔗 Связи
+
+- [[MOC - Agents]] — Agent catalog
+- [[agents/agents-copilot]] — Interface: agents-copilot
+

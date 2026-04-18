@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/agent
+  - source/by-interface/agents-copilot
+---
+
 # Grouping Files by Metadata
 
 Use Copilot to intelligently organize files in a folder based on their metadata.
@@ -138,3 +145,9 @@ await session.SendAsync(new MessageOptions
 1. **Confirm before moving**: Ask Copilot to confirm before executing moves
 1. **Handle duplicates**: Consider what happens if a file with the same name exists
 1. **Preserve originals**: Consider copying instead of moving for important files
+
+## 🔗 Связи
+
+- [[MOC - Agents]] — Agent catalog
+- [[agents/agents-copilot]] — Interface: agents-copilot
+

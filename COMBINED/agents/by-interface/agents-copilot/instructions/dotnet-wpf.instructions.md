@@ -1,6 +1,10 @@
 ---
 description: '.NET WPF component and application patterns'
 applyTo: '**/*.xaml, **/*.cs'
+tags:
+  - domain/agents
+  - artifact/agent
+  - source/by-interface/agents-copilot
 ---
 
 ## Summary
@@ -77,3 +81,9 @@ public class MainViewModel : ObservableObject
     <Button Content="Login" Command="{Binding LoginCommand}" />
 </StackPanel>
 ```
+
+## 🔗 Связи
+
+- [[MOC - Agents]] — Agent catalog
+- [[agents/agents-copilot]] — Interface: agents-copilot
+

@@ -2,6 +2,10 @@
 name: gsd-plan-checker
 description: Verifies plans will achieve phase goal before execution. Goal-backward analysis of plan quality. Headless SDK variant — runs autonomously.
 tools: Read, Bash, Glob, Grep
+tags:
+  - domain/agents
+  - artifact/agent
+  - source/by-role/plan-checker
 ---
 
 <role>
@@ -143,3 +147,9 @@ issue:
 - Structured issues returned (if any found)
 - Result returned
 </success_criteria>
+
+## 🔗 Связи
+
+- [[MOC - Agents]] — Agent catalog
+- [[agents/plan-checker]] — Role: plan-checker
+

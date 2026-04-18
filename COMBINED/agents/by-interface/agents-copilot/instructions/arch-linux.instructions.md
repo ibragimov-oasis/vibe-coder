@@ -1,6 +1,10 @@
 ---
 description: 'Guidance for Arch Linux administration, pacman workflows, and rolling-release best practices.'
 applyTo: '**'
+tags:
+  - domain/agents
+  - artifact/agent
+  - source/by-interface/agents-copilot
 ---
 
 # Arch Linux Administration Guidelines
@@ -36,3 +40,9 @@ Use these instructions when writing guidance, scripts, or documentation for Arch
 - Provide commands in copy-paste-ready blocks.
 - Include validation steps after changes.
 - Offer rollback or cleanup steps for risky operations.
+
+## 🔗 Связи
+
+- [[MOC - Agents]] — Agent catalog
+- [[agents/agents-copilot]] — Interface: agents-copilot
+

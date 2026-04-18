@@ -1,5 +1,9 @@
 ---
 applyTo: '**'
+tags:
+  - domain/agents
+  - artifact/agent
+  - source/by-interface/agents-copilot
 ---
 # Dataverse SDK for Python — Getting Started
 
@@ -30,3 +34,9 @@ pip install dataverse-sdk
 - Reuse clients; avoid frequent re-auth.
 - Add retries for transient failures.
 - Log requests for troubleshooting.
+
+## 🔗 Связи
+
+- [[MOC - Agents]] — Agent catalog
+- [[agents/agents-copilot]] — Interface: agents-copilot
+

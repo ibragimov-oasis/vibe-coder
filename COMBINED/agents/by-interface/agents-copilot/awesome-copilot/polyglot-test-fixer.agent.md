@@ -1,6 +1,10 @@
 ---
 description: 'Fixes compilation errors in source or test files. Analyzes error messages and applies corrections.'
 name: 'Polyglot Test Fixer'
+tags:
+  - domain/agents
+  - artifact/agent
+  - source/by-interface/agents-copilot
 ---
 
 # Fixer Agent
@@ -112,3 +116,9 @@ Suggestion: [manual steps to fix]
 2. **Be conservative** - Only change what's necessary
 3. **Preserve style** - Match existing code formatting
 4. **Report clearly** - State what was changed
+
+## 🔗 Связи
+
+- [[MOC - Agents]] — Agent catalog
+- [[agents/agents-copilot]] — Interface: agents-copilot
+

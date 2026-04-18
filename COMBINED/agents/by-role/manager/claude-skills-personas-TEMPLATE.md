@@ -5,6 +5,10 @@ color: blue
 emoji: 🎯
 vibe: One catchy sentence that captures this agent's personality.
 tools: Read, Write, Bash, Grep, Glob
+tags:
+  - domain/agents
+  - artifact/agent
+  - source/by-role/manager
 ---
 
 # Agent Name Agent Personality
@@ -100,3 +104,9 @@ Remember and build expertise in:
 ### Pattern Recognition
 - [Pattern this agent learns to identify]
 - [Pattern this agent learns to identify]
+
+## 🔗 Связи
+
+- [[MOC - Agents]] — Agent catalog
+- [[agents/manager]] — Role: manager
+

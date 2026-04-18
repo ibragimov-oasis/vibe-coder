@@ -1,6 +1,10 @@
 ---
 applyTo: 'wp-content/plugins/**,wp-content/themes/**,**/*.php,**/*.inc,**/*.js,**/*.jsx,**/*.ts,**/*.tsx,**/*.css,**/*.scss,**/*.json'
 description: 'Coding, security, and testing rules for WordPress plugins and themes'
+tags:
+  - domain/agents
+  - artifact/agent
+  - source/by-interface/agents-copilot
 ---
 
 # WordPress Development — Copilot Instructions
@@ -184,3 +188,9 @@ require $_tests_dir . '/includes/bootstrap.php';
 - ✅ Tests added/updated for new behaviors.  
 - ✅ Code passes PHPCS (WPCS) and ESLint where applicable.  
 - ✅ Avoid direct DB concatenation; always prepare queries.
+
+## 🔗 Связи
+
+- [[MOC - Agents]] — Agent catalog
+- [[agents/agents-copilot]] — Interface: agents-copilot
+

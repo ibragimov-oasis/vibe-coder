@@ -1,6 +1,10 @@
 ---
 description: 'Markdown formatting aligned to the CommonMark specification (0.31.2)'
 applyTo: '**/*.md'
+tags:
+  - domain/agents
+  - artifact/agent
+  - source/by-interface/agents-copilot
 ---
 
 # CommonMark Markdown
@@ -56,3 +60,9 @@ Apply these rules per the [CommonMark spec 0.31.2](https://spec.commonmark.org/0
 - [ ] Autolinks use angle brackets (`<URL>`); bare URLs are not CommonMark autolinks.
 - [ ] No unbalanced parentheses in bare link destinations (use `<…>` or escape).
 - [ ] HTML block type 7 (custom/inline-level tags) is preceded by a blank line when following a paragraph.
+
+## 🔗 Связи
+
+- [[MOC - Agents]] — Agent catalog
+- [[agents/agents-copilot]] — Interface: agents-copilot
+

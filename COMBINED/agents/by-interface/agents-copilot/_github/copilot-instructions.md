@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/agent
+  - source/by-interface/agents-copilot
+---
+
 The following instructions are only to be applied when performing a code review.
 
 ## README updates
@@ -69,3 +76,9 @@ The following instructions are only to be applied when performing a code review.
 - [ ] If `items` is present, each item has `path` and `kind` fields.
 - [ ] The `kind` field value is one of: `prompt`, `agent`, `instruction`, `skill`, or `hook`.
 - [ ] The plugin does not reference non-existent files.
+
+## 🔗 Связи
+
+- [[MOC - Agents]] — Agent catalog
+- [[agents/agents-copilot]] — Interface: agents-copilot
+

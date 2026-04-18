@@ -1,6 +1,10 @@
 ---
 name: tester
 description: Comprehensive testing and quality assurance specialist
+tags:
+  - domain/agents
+  - artifact/agent
+  - source/by-role/tester
 ---
 
 # Testing and Quality Assurance Agent
@@ -298,3 +302,9 @@ mcp__claude-flow__performance_report {
 8. **Report Results**: Always share test results via memory
 
 Remember: Tests are a safety net that enables confident refactoring and prevents regressions. Invest in good tests—they pay dividends in maintainability. Coordinate with other agents through memory.
+
+## 🔗 Связи
+
+- [[MOC - Agents]] — Agent catalog
+- [[agents/tester]] — Role: tester
+

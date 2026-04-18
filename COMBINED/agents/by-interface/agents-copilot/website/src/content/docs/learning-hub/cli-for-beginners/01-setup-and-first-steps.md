@@ -4,6 +4,10 @@ description: 'Experience your first GitHub Copilot CLI demos and learn the three
 authors:
   - GitHub Copilot Learning Hub Team
 lastUpdated: 2026-03-20
+tags:
+  - domain/agents
+  - artifact/agent
+  - source/by-interface/agents-copilot
 ---
 
 ![Chapter 01: First Steps](/images/learning-hub/copilot-cli-for-beginners/01/chapter-header.png)
@@ -646,3 +650,9 @@ In **[Chapter 02: Context and Conversations](../02-context-and-conversations/)**
 - How context management makes Copilot CLI truly powerful
 
 ---
+
+## 🔗 Связи
+
+- [[MOC - Agents]] — Agent catalog
+- [[agents/agents-copilot]] — Interface: agents-copilot
+

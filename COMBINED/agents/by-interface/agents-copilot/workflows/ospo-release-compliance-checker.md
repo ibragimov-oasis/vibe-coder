@@ -27,6 +27,10 @@ safe-outputs:
     max: 1
 
 timeout-minutes: 20
+tags:
+  - domain/agents
+  - artifact/agent
+  - source/by-interface/agents-copilot
 ---
 
 You are an open source release compliance checker. Your job is to analyze a
@@ -122,3 +126,9 @@ Post **one** comment on the triggering issue with these sections:
 - Be **constructive** — help teams succeed, don't gatekeep.
 - Explain *why* missing items matter and link to guidance.
 - Celebrate what the team has already done well.
+
+## 🔗 Связи
+
+- [[MOC - Agents]] — Agent catalog
+- [[agents/agents-copilot]] — Interface: agents-copilot
+

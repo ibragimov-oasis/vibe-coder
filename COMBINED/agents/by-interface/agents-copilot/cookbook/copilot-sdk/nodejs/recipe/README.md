@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/agent
+  - source/by-interface/agents-copilot
+---
+
 # Runnable Recipe Examples
 
 This folder contains standalone, executable TypeScript examples for each cookbook recipe. Each file can be run directly with `tsx` or via npm scripts.
@@ -82,3 +89,9 @@ These examples use modern TypeScript/Node.js features:
 - [Node.js Documentation](https://nodejs.org/docs/latest/api/)
 - [GitHub Copilot SDK for Node.js](https://github.com/github/copilot-sdk/blob/main/nodejs/README.md)
 - [Parent Cookbook](../README.md)
+
+## 🔗 Связи
+
+- [[MOC - Agents]] — Agent catalog
+- [[agents/agents-copilot]] — Interface: agents-copilot
+

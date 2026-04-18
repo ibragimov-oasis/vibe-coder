@@ -3,6 +3,10 @@ name: debugger
 description: Root-cause analysis, regression isolation, stack trace analysis, build/compilation error resolution
 model: claude-sonnet-4-6
 level: 3
+tags:
+  - domain/agents
+  - artifact/agent
+  - source/by-role/debugger
 ---
 
 <Agent_Prompt>
@@ -141,3 +145,9 @@ level: 3
     - Are all errors fixed (not just some)?
   </Final_Checklist>
 </Agent_Prompt>
+
+## 🔗 Связи
+
+- [[MOC - Agents]] — Agent catalog
+- [[agents/debugger]] — Role: debugger
+

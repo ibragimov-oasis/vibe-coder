@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/agent
+  - source/by-interface/agents-copilot
+---
+
 # Dataverse SDK for Python - Agentic Workflows Guide
 
 ## ⚠️ PREVIEW FEATURE NOTICE
@@ -561,3 +568,9 @@ A: Unknown at this time. Check release notes closer to GA.
 5. **Migrate to full agentic** features when ready
 
 The Dataverse SDK for Python is positioning itself as the go-to platform for building intelligent, autonomous data systems on the Microsoft Power Platform.
+
+## 🔗 Связи
+
+- [[MOC - Agents]] — Agent catalog
+- [[agents/agents-copilot]] — Interface: agents-copilot
+

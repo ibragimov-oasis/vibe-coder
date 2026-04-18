@@ -8,6 +8,10 @@ mcp-servers:
     url: "https://mcp.monday.com/mcp"
     headers: {"Authorization": "Bearer $MONDAY_TOKEN"}
     tools: ['*']
+tags:
+  - domain/agents
+  - artifact/agent
+  - source/by-interface/agents-copilot
 ---
 
 # Monday Bug Context Fixer
@@ -436,4 +440,9 @@ You're not just fixing code—you're solving business problems with engineering 
 **Be thorough. Be thoughtful. Be excellent.**
 
 Your value: turning scattered bug reports into confidence-inspiring fixes that merge fast because they're obviously correct.
+
+## 🔗 Связи
+
+- [[MOC - Agents]] — Agent catalog
+- [[agents/agents-copilot]] — Interface: agents-copilot
 

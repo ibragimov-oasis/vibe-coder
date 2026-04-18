@@ -1,6 +1,10 @@
 ---
 applyTo: '*'
 description: 'Comprehensive best practices for deploying and managing applications on Kubernetes. Covers Pods, Deployments, Services, Ingress, ConfigMaps, Secrets, health checks, resource limits, scaling, and security contexts.'
+tags:
+  - domain/agents
+  - artifact/agent
+  - source/by-interface/agents-copilot
 ---
 
 # Kubernetes Deployment Best Practices
@@ -304,4 +308,10 @@ Deploying applications on Kubernetes requires a deep understanding of its core c
 
 ---
 
-<!-- End of Kubernetes Deployment Best Practices Instructions --> 
+<!-- End of Kubernetes Deployment Best Practices Instructions -->
+
+## 🔗 Связи
+
+- [[MOC - Agents]] — Agent catalog
+- [[agents/agents-copilot]] — Interface: agents-copilot
+

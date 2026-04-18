@@ -2,6 +2,10 @@
 description: "Create, update, or review Azure IaC in Bicep using Azure Verified Modules (AVM)."
 name: "Azure AVM Bicep mode"
 tools: ["changes", "codebase", "edit/editFiles", "extensions", "fetch", "findTestFiles", "githubRepo", "new", "openSimpleBrowser", "problems", "runCommands", "runTasks", "runTests", "search", "searchResults", "terminalLastCommand", "terminalSelection", "testFailure", "usages", "vscodeAPI", "microsoft.docs.mcp", "azure_get_deployment_best_practices", "azure_get_schema_for_Bicep"]
+tags:
+  - domain/agents
+  - artifact/agent
+  - source/by-interface/agents-copilot
 ---
 
 # Azure AVM Bicep mode
@@ -44,3 +48,9 @@ Use Azure Verified Modules for Bicep to enforce Azure best practices via pre-bui
 - Use `azure_get_deployment_best_practices` tool for deployment guidance
 - Use `azure_get_schema_for_Bicep` tool for schema validation
 - Use `microsoft.docs.mcp` tool to look up Azure service-specific guidance
+
+## 🔗 Связи
+
+- [[MOC - Agents]] — Agent catalog
+- [[agents/agents-copilot]] — Interface: agents-copilot
+

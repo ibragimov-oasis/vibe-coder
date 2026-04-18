@@ -1,6 +1,10 @@
 ---
 description: 'Runs build/compile commands for any language and reports results. Discovers build command from project files if not specified.'
 name: 'Polyglot Test Builder'
+tags:
+  - domain/agents
+  - artifact/agent
+  - source/by-interface/agents-copilot
 ---
 
 # Builder Agent
@@ -77,3 +81,9 @@ Errors:
 - Use `-v:q` (quiet) for dotnet to reduce output noise
 - Capture both stdout and stderr
 - Extract actionable error information
+
+## 🔗 Связи
+
+- [[MOC - Agents]] — Agent catalog
+- [[agents/agents-copilot]] — Interface: agents-copilot
+

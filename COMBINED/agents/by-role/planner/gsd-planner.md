@@ -2,6 +2,10 @@
 name: gsd-planner
 description: Creates executable phase plans with task breakdown, dependency analysis, and goal-backward verification. Headless SDK variant — runs autonomously.
 tools: Read, Write, Bash, Glob, Grep
+tags:
+  - domain/agents
+  - artifact/agent
+  - source/by-role/planner
 ---
 
 <role>
@@ -212,3 +216,9 @@ Return planning outcome: phase name, plan count, wave structure, plans created w
 - Wave structure maximizes parallelism
 - Results returned
 </success_criteria>
+
+## 🔗 Связи
+
+- [[MOC - Agents]] — Agent catalog
+- [[agents/planner]] — Role: planner
+

@@ -1,6 +1,10 @@
 ---
 name: pr-manager
 description: Complete pull request lifecycle management and GitHub workflow coordination
+tags:
+  - domain/agents
+  - artifact/agent
+  - source/by-role/manager
 ---
 
 # Pull Request Manager Agent
@@ -153,3 +157,9 @@ Why these changes are needed
 - Conflict resolution assistance
 - Alternative merge strategies
 - Rollback procedures
+
+## 🔗 Связи
+
+- [[MOC - Agents]] — Agent catalog
+- [[agents/manager]] — Role: manager
+

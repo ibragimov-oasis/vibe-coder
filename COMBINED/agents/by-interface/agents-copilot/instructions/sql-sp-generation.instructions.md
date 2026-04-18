@@ -1,6 +1,10 @@
 ---
 description: 'Guidelines for generating SQL statements and stored procedures'
 applyTo: '**/*.sql'
+tags:
+  - domain/agents
+  - artifact/agent
+  - source/by-interface/agents-copilot
 ---
 
 # SQL Development
@@ -72,3 +76,9 @@ applyTo: '**/*.sql'
 - avoid long-running transactions that lock tables
 - use batch processing for large data operations
 - include SET NOCOUNT ON for stored procedures that modify data
+
+## 🔗 Связи
+
+- [[MOC - Agents]] — Agent catalog
+- [[agents/agents-copilot]] — Interface: agents-copilot
+

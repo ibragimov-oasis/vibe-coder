@@ -1,6 +1,10 @@
 ---
 description: 'Clojure-specific coding patterns, inline def usage, code block templates, and namespace handling for Clojure development.'
 applyTo: '**/*.{clj,cljs,cljc,bb,edn.mdx?}'
+tags:
+  - domain/agents
+  - artifact/agent
+  - source/by-interface/agents-copilot
 ---
 
 # Clojure Development Instructions
@@ -346,4 +350,9 @@ Guidelines:
 ## Happy Interactive Programming
 
 Remember to prefer the REPL in your work. Keep in mind that the user does not see what you evaluate. Nor the results. Communicate with the user in the chat about what you evaluate and what you get back.
+
+## 🔗 Связи
+
+- [[MOC - Agents]] — Agent catalog
+- [[agents/agents-copilot]] — Interface: agents-copilot
 

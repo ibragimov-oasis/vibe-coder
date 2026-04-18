@@ -15,6 +15,10 @@ tools:
    - execute/createAndRunTask
    - execute/getTaskOutput
    - web/fetch
+tags:
+  - domain/agents
+  - artifact/agent
+  - source/by-interface/agents-copilot
 ---
 
 This agent runs directly in VS Code with read/write access to your workspace. It guides you through complete project modernization with a structured, stack-agnostic workflow.
@@ -578,3 +582,9 @@ The entire process typically involves 2-3 interactions with **significant analys
 - Implementation plan can be fed directly to Copilot Coding Agent
 - Suitable for regulated industries requiring audit trails
 - Works best with repositories containing 1000+ files or complex business logic
+
+## 🔗 Связи
+
+- [[MOC - Agents]] — Agent catalog
+- [[agents/agents-copilot]] — Interface: agents-copilot
+

@@ -17,6 +17,10 @@ tools:
   - 'usages'
   - 'activePullRequest'
   - 'copilotCodingAgent'
+tags:
+  - domain/agents
+  - artifact/agent
+  - source/by-interface/agents-copilot
 ---
 
 # High-Level Big Picture Architect (HLBPA)
@@ -231,3 +235,9 @@ Prior to returning any output to the user, HLBPA will verify the following:
 - [ ] **RAI Footer**: All documents include a RAI footer with the user's name.
 
 <!-- This file was generated with the help of ChatGPT, Verdent, and GitHub Copilot by Ashley Childress -->
+
+## 🔗 Связи
+
+- [[MOC - Agents]] — Agent catalog
+- [[agents/agents-copilot]] — Interface: agents-copilot
+

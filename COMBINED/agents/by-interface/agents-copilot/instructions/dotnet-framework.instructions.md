@@ -1,6 +1,10 @@
 ---
 description: 'Guidance for working with .NET Framework projects. Includes project structure, C# language version, NuGet management, and best practices.'
 applyTo: '**/*.csproj, **/*.cs'
+tags:
+  - domain/agents
+  - artifact/agent
+  - source/by-interface/agents-copilot
 ---
 
 # .NET Framework Development
@@ -111,3 +115,9 @@ applyTo: '**/*.csproj, **/*.cs'
 - **String interning**: Use `string.Intern()` judiciously for frequently used strings
 - **Lazy initialization**: Use `Lazy<T>` for expensive object creation
 - **Avoid reflection in hot paths**: Cache `MethodInfo`, `PropertyInfo` objects when possible
+
+## 🔗 Связи
+
+- [[MOC - Agents]] — Agent catalog
+- [[agents/agents-copilot]] — Interface: agents-copilot
+

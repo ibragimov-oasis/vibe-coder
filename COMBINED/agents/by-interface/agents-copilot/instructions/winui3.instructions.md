@@ -1,6 +1,10 @@
 ---
 description: 'WinUI 3 and Windows App SDK coding guidelines. Prevents common UWP API misuse, enforces correct XAML namespaces, threading, windowing, and MVVM patterns for desktop Windows apps.'
 applyTo: '**/*.xaml, **/*.cs, **/*.csproj'
+tags:
+  - domain/agents
+  - artifact/agent
+  - source/by-interface/agents-copilot
 ---
 
 # WinUI 3 / Windows App SDK
@@ -164,3 +168,9 @@ These UWP patterns are **wrong** for WinUI 3 desktop apps. Always use the Window
 - Store user-facing strings in `Resources.resw` files, not in code or XAML literals.
 - Use `x:Uid` in XAML for localized text binding.
 - Use DPI-qualified image assets (`logo.scale-200.png`); reference without scale qualifier (`ms-appx:///Assets/logo.png`).
+
+## 🔗 Связи
+
+- [[MOC - Agents]] — Agent catalog
+- [[agents/agents-copilot]] — Interface: agents-copilot
+

@@ -1,6 +1,10 @@
 ---
 description: 'Comprehensive guide for Power BI DevOps, Application Lifecycle Management (ALM), CI/CD pipelines, deployment automation, and version control best practices.'
 applyTo: '**/*.{yml,yaml,ps1,json,pbix,pbir}'
+tags:
+  - domain/agents
+  - artifact/agent
+  - source/by-interface/agents-copilot
 ---
 
 # Power BI DevOps and Application Lifecycle Management Best Practices
@@ -621,3 +625,9 @@ function Send-DeploymentNotification {
    - Missing audit trails
 
 Remember: DevOps for Power BI requires a combination of proper tooling, automated processes, and organizational discipline. Start with basic CI/CD and gradually mature your practices based on organizational needs and compliance requirements.
+
+## 🔗 Связи
+
+- [[MOC - Agents]] — Agent catalog
+- [[agents/agents-copilot]] — Interface: agents-copilot
+

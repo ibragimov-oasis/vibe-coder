@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/agent
+  - source/by-interface/agents-copilot
+---
+
 # GitHub Copilot SDK Cookbook — Python
 
 This folder hosts short, practical recipes for using the GitHub Copilot SDK with Python. Each recipe is concise, copy‑pasteable, and points to fuller examples and tests.
@@ -17,3 +24,9 @@ Add a new recipe by creating a markdown file in this folder and linking it above
 ## Status
 
 These recipes are complete and ready to use; new contributions and additional recipes are welcome.
+
+## 🔗 Связи
+
+- [[MOC - Agents]] — Agent catalog
+- [[agents/agents-copilot]] — Interface: agents-copilot
+

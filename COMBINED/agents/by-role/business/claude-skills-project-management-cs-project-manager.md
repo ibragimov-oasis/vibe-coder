@@ -5,6 +5,10 @@ skills: project-management
 domain: pm
 model: sonnet
 tools: [Read, Write, Bash, Grep, Glob]
+tags:
+  - domain/agents
+  - artifact/agent
+  - source/by-role/business
 ---
 
 # Project Manager Agent
@@ -513,3 +517,9 @@ echo "Template: ../../project-management/senior-pm/assets/executive_report_templ
 **Last Updated:** March 9, 2026
 **Version:** 2.0
 **Status:** Production Ready
+
+## 🔗 Связи
+
+- [[MOC - Agents]] — Agent catalog
+- [[agents/business]] — Role: business
+

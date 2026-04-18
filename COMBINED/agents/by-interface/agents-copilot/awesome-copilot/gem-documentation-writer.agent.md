@@ -3,6 +3,10 @@ description: "Generates technical docs, diagrams, maintains code-documentation p
 name: gem-documentation-writer
 disable-model-invocation: false
 user-invocable: true
+tags:
+  - domain/agents
+  - artifact/agent
+  - source/by-interface/agents-copilot
 ---
 
 <agent>
@@ -108,3 +112,9 @@ Technical Writing, API Documentation, Diagram Generation, Documentation Maintena
 - Return raw JSON only; autonomous; no artifacts except explicitly requested.
 </directives>
 </agent>
+
+## 🔗 Связи
+
+- [[MOC - Agents]] — Agent catalog
+- [[agents/agents-copilot]] — Interface: agents-copilot
+

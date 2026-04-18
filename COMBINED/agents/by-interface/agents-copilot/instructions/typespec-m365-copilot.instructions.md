@@ -1,6 +1,10 @@
 ---
 description: 'Guidelines and best practices for building TypeSpec-based declarative agents and API plugins for Microsoft 365 Copilot'
 applyTo: '**/*.tsp'
+tags:
+  - domain/agents
+  - artifact/agent
+  - source/by-interface/agents-copilot
 ---
 
 # TypeSpec for Microsoft 365 Copilot Development Guidelines
@@ -438,3 +442,9 @@ op getProjectDetails(
 - [Microsoft 365 Copilot Extensibility](https://learn.microsoft.com/microsoft-365-copilot/extensibility/)
 - [Agents Toolkit](https://aka.ms/M365AgentsToolkit)
 - [Adaptive Cards Designer](https://adaptivecards.io/designer/)
+
+## 🔗 Связи
+
+- [[MOC - Agents]] — Agent catalog
+- [[agents/agents-copilot]] — Interface: agents-copilot
+

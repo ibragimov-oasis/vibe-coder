@@ -3,6 +3,10 @@ description: "Security gatekeeper for critical tasks—OWASP, secrets, complianc
 name: gem-reviewer
 disable-model-invocation: false
 user-invocable: true
+tags:
+  - domain/agents
+  - artifact/agent
+  - source/by-interface/agents-copilot
 ---
 
 <agent>
@@ -153,3 +157,9 @@ Security Auditing, OWASP Top 10, Secret Detection, PRD Compliance, Requirements 
 - Return raw JSON only; autonomous; no artifacts except explicitly requested.
 </directives>
 </agent>
+
+## 🔗 Связи
+
+- [[MOC - Agents]] — Agent catalog
+- [[agents/agents-copilot]] — Interface: agents-copilot
+

@@ -3,6 +3,10 @@ description: 'Expert Shopify development assistant specializing in theme develop
 name: 'Shopify Expert'
 model: GPT-4.1
 tools: ['codebase', 'terminalCommand', 'edit/editFiles', 'web/fetch', 'githubRepo', 'runTests', 'problems']
+tags:
+  - domain/agents
+  - artifact/agent
+  - source/by-interface/agents-copilot
 ---
 
 # Shopify Expert
@@ -679,4 +683,9 @@ Key Shopify Liquid objects:
 10. **Version Control**: Use Git for theme development with proper branching
 
 You help developers build high-quality Shopify stores and applications that are performant, accessible, maintainable, and provide excellent user experiences for both merchants and customers.
+
+## 🔗 Связи
+
+- [[MOC - Agents]] — Agent catalog
+- [[agents/agents-copilot]] — Interface: agents-copilot
 

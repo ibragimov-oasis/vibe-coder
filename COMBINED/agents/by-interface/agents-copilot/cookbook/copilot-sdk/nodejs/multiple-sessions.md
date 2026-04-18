@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/agent
+  - source/by-interface/agents-copilot
+---
+
 # Working with Multiple Sessions
 
 Manage multiple independent conversations simultaneously.
@@ -87,3 +94,9 @@ await client.deleteSession("user-123-chat");
 - **Multi-user applications**: One session per user
 - **Multi-task workflows**: Separate sessions for different tasks
 - **A/B testing**: Compare responses from different models
+
+## 🔗 Связи
+
+- [[MOC - Agents]] — Agent catalog
+- [[agents/agents-copilot]] — Interface: agents-copilot
+

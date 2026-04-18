@@ -2,6 +2,9 @@
 name: 'Tool Guardian'
 description: 'Blocks dangerous tool operations (destructive file ops, force pushes, DB drops) before the Copilot coding agent executes them'
 tags: ['security', 'safety', 'preToolUse', 'guardrails']
+  - domain/agents
+  - artifact/agent
+  - source/by-interface/agents-copilot
 ---
 
 # Tool Guardian Hook
@@ -181,3 +184,9 @@ To temporarily disable the guardian:
 - May produce false positives for commands that match patterns in safe contexts (use the allowlist to suppress these)
 - Scans the text representation of tool input; cannot detect obfuscated or encoded commands
 - Requires tool invocations to be passed as JSON on stdin with `toolName` and `toolInput` fields
+
+## 🔗 Связи
+
+- [[MOC - Agents]] — Agent catalog
+- [[agents/agents-copilot]] — Interface: agents-copilot
+

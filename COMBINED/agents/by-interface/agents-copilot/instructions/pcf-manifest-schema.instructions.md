@@ -1,6 +1,10 @@
 ---
 description: 'Complete manifest schema reference for PCF components with all available XML elements'
 applyTo: '**/*.xml'
+tags:
+  - domain/agents
+  - artifact/agent
+  - source/by-interface/agents-copilot
 ---
 
 # Manifest Schema Reference
@@ -295,3 +299,9 @@ Common `of-type` values for properties:
 - ✅ **Portals**: Supported in Power Pages
 
 Most manifest elements are available across all platforms, but some features (like certain Device APIs or platform actions) may be platform-specific. Always test in your target environment.
+
+## 🔗 Связи
+
+- [[MOC - Agents]] — Agent catalog
+- [[agents/agents-copilot]] — Interface: agents-copilot
+

@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/mega-agent
+  - source/mega
+---
+
 # Mega Agents — ULTRACAR
 
 > **15 unified mega-agents** — start here for any task.
@@ -65,3 +72,9 @@ mega-security / Shannon (audit)
 ```
 
 See `PIPELINE.md` for full specification.
+
+## 🔗 Связи
+
+- [[MOC - Agents]] — Agent catalog
+- [[MOC - Skills]] — Skills library
+

@@ -4,6 +4,10 @@ name: Custom Agent Foundry
 argument-hint: Describe the agent role, purpose, and required capabilities
 model: Claude Sonnet 4.5
 tools: ['vscode', 'execute', 'read', 'edit', 'search', 'web', 'agent', 'github/*', 'todo']
+tags:
+  - domain/agents
+  - artifact/agent
+  - source/by-interface/agents-copilot
 ---
 
 # Custom Agent Foundry - Expert Agent Designer
@@ -179,3 +183,9 @@ Provide the complete file content, not just snippets. After creation, explain th
 - Be practical: Focus on real-world usage patterns
 - Be concise: Clear and direct without unnecessary verbosity
 - Be thorough: Don't skip important details in agent definitions
+
+## 🔗 Связи
+
+- [[MOC - Agents]] — Agent catalog
+- [[agents/agents-copilot]] — Interface: agents-copilot
+

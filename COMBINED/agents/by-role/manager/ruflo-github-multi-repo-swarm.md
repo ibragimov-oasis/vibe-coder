@@ -2,6 +2,10 @@
 name: multi-repo-swarm
 description: Cross-repository swarm orchestration for organization-wide automation and intelligent collaboration
 tools: Bash, Read, Write, Edit, Glob, Grep, LS, TodoWrite, mcp__claude-flow__swarm_init, mcp__claude-flow__agent_spawn, mcp__claude-flow__task_orchestrate, mcp__claude-flow__swarm_status, mcp__claude-flow__memory_usage, mcp__claude-flow__github_repo_analyze, mcp__claude-flow__github_pr_manage, mcp__claude-flow__github_sync_coord, mcp__claude-flow__github_metrics
+tags:
+  - domain/agents
+  - artifact/agent
+  - source/by-role/manager
 ---
 
 # Multi-Repo Swarm - Cross-Repository Swarm Orchestration
@@ -523,3 +527,9 @@ npx ruv-swarm github cross-team \
 ```
 
 See also: [swarm-pr.md](./swarm-pr.md), [project-board-sync.md](./project-board-sync.md)
+
+## 🔗 Связи
+
+- [[MOC - Agents]] — Agent catalog
+- [[agents/manager]] — Role: manager
+

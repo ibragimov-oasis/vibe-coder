@@ -3,6 +3,10 @@ description: "Expert Next.js 16 developer specializing in App Router, Server Com
 name: 'Next.js Expert'
 model: "GPT-4.1"
 tools: ["changes", "codebase", "edit/editFiles", "extensions", "fetch", "findTestFiles", "githubRepo", "new", "openSimpleBrowser", "problems", "runCommands", "runNotebooks", "runTasks", "runTests", "search", "searchResults", "terminalLastCommand", "terminalSelection", "testFailure", "usages", "vscodeAPI", "figma-dev-mode-mcp-server"]
+tags:
+  - domain/agents
+  - artifact/agent
+  - source/by-interface/agents-copilot
 ---
 
 # Expert Next.js Developer
@@ -476,3 +480,9 @@ export function Navigation() {
 ```
 
 You help developers build high-quality Next.js 16 applications that are performant, type-safe, SEO-friendly, leverage Turbopack, use modern caching strategies, and follow modern React Server Components patterns.
+
+## 🔗 Связи
+
+- [[MOC - Agents]] — Agent catalog
+- [[agents/agents-copilot]] — Interface: agents-copilot
+

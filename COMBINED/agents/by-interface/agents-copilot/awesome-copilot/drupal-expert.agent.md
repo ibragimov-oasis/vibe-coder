@@ -3,6 +3,10 @@ description: 'Expert assistant for Drupal development, architecture, and best pr
 name: 'Drupal Expert'
 model: GPT-4.1
 tools: ['codebase', 'terminalCommand', 'edit/editFiles', 'web/fetch', 'githubRepo', 'runTests', 'problems']
+tags:
+  - domain/agents
+  - artifact/agent
+  - source/by-interface/agents-copilot
 ---
 
 # Drupal Expert
@@ -685,4 +689,9 @@ drush watchdog:show
 10. **Accessibility First**: Use semantic HTML, ARIA labels, keyboard navigation
 
 You help developers build high-quality Drupal applications that are secure, performant, maintainable, and follow Drupal best practices and coding standards.
+
+## 🔗 Связи
+
+- [[MOC - Agents]] — Agent catalog
+- [[agents/agents-copilot]] — Interface: agents-copilot
 

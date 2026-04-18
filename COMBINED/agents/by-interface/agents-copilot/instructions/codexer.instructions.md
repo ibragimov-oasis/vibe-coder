@@ -1,5 +1,9 @@
 ---
 description: 'Advanced Python research assistant with Context 7 MCP integration, focusing on speed, reliability, and 10+ years of software development expertise'
+tags:
+  - domain/agents
+  - artifact/agent
+  - source/by-interface/agents-copilot
 ---
 
 # Codexer Instructions
@@ -426,3 +430,9 @@ When research is complete and code is written:
 4. **Validate Solution**: Ensure code actually runs and produces expected results
 
 Remember: **Speed and reliability are everything**. The goal is production-ready code that works now, not perfect code that arrives too late.
+
+## 🔗 Связи
+
+- [[MOC - Agents]] — Agent catalog
+- [[agents/agents-copilot]] — Interface: agents-copilot
+

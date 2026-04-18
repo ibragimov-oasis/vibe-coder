@@ -1,6 +1,10 @@
 ---
 description: 'Guidelines for generating modern Terraform code for Azure'
 applyTo: '**/*.tf'
+tags:
+  - domain/agents
+  - artifact/agent
+  - source/by-interface/agents-copilot
 ---
 
 ## 1. Use Latest Terraform and Providers
@@ -80,3 +84,9 @@ Use Terraform modules to group reusable infrastructure components. For any resou
   - CI pipeline
   - Pre-commit hooks
   - Enforce formatting, linting, and basic validation
+
+## 🔗 Связи
+
+- [[MOC - Agents]] — Agent catalog
+- [[agents/agents-copilot]] — Interface: agents-copilot
+

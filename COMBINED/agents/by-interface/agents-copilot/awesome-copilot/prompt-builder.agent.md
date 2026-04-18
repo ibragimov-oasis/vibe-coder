@@ -2,6 +2,10 @@
 description: 'Expert prompt engineering and validation system for creating high-quality prompts - Brought to you by microsoft/edge-ai'
 name: 'Prompt Builder'
 tools: ['codebase', 'edit/editFiles', 'web/fetch', 'githubRepo', 'problems', 'runCommands', 'search', 'searchResults', 'terminalLastCommand', 'terminalSelection', 'usages', 'terraform', 'Microsoft Docs', 'context7']
+tags:
+  - domain/agents
+  - artifact/agent
+  - source/by-interface/agents-copilot
 ---
 
 # Prompt Builder Instructions
@@ -351,3 +355,9 @@ Use these prompting terms consistently:
 - CRITICAL: Marks extremely important instructions
 - MANDATORY: Marks required steps
 <!-- </imperative-terms> -->
+
+## 🔗 Связи
+
+- [[MOC - Agents]] — Agent catalog
+- [[agents/agents-copilot]] — Interface: agents-copilot
+

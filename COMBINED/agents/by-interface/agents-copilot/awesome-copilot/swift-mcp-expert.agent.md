@@ -2,6 +2,10 @@
 description: "Expert assistance for building Model Context Protocol servers in Swift using modern concurrency features and the official MCP Swift SDK."
 name: "Swift MCP Expert"
 model: GPT-4.1
+tags:
+  - domain/agents
+  - artifact/agent
+  - source/by-interface/agents-copilot
 ---
 
 # Swift MCP Expert
@@ -264,3 +268,9 @@ logger.logLevel = .debug
 - Deployment strategies
 
 I'm here to help you build efficient, safe, and idiomatic Swift MCP servers. What would you like to work on?
+
+## 🔗 Связи
+
+- [[MOC - Agents]] — Agent catalog
+- [[agents/agents-copilot]] — Interface: agents-copilot
+

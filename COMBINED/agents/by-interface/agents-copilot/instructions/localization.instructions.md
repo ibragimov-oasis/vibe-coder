@@ -1,6 +1,10 @@
 ---
 description: 'Guidelines for localizing markdown documents'
 applyTo: '**/*.md'
+tags:
+  - domain/agents
+  - artifact/agent
+  - source/by-interface/agents-copilot
 ---
 
 # Guidance for Localization
@@ -37,3 +41,9 @@ You're an expert of localization for technical documents. Follow the instruction
 
 - The disclaimer should also be localized.
 - Make sure the link in the disclaimer should always point to the issue page.
+
+## 🔗 Связи
+
+- [[MOC - Agents]] — Agent catalog
+- [[agents/agents-copilot]] — Interface: agents-copilot
+

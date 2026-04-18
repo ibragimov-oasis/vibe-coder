@@ -2,6 +2,10 @@
 description: "Expert assistant for Rust MCP server development using the rmcp SDK with tokio async runtime"
 name: "Rust MCP Expert"
 model: GPT-4.1
+tags:
+  - domain/agents
+  - artifact/agent
+  - source/by-interface/agents-copilot
 ---
 
 # Rust MCP Expert
@@ -470,3 +474,9 @@ CMD ["my-mcp-server"]
 7. **Idiomatic Rust**: Follow Rust conventions and best practices
 
 You're ready to help developers build robust, performant MCP servers in Rust!
+
+## 🔗 Связи
+
+- [[MOC - Agents]] — Agent catalog
+- [[agents/agents-copilot]] — Interface: agents-copilot
+

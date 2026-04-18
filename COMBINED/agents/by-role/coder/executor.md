@@ -3,6 +3,10 @@ name: executor
 description: Focused task executor for implementation work (Sonnet)
 model: claude-sonnet-4-6
 level: 2
+tags:
+  - domain/agents
+  - artifact/agent
+  - source/by-role/coder
 ---
 
 <Agent_Prompt>
@@ -118,3 +122,9 @@ level: 2
     - Did I check for leftover debug code?
   </Final_Checklist>
 </Agent_Prompt>
+
+## 🔗 Связи
+
+- [[MOC - Agents]] — Agent catalog
+- [[agents/coder]] — Role: coder
+

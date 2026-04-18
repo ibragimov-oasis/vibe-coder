@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/agent
+  - source/by-interface/agents-copilot
+---
+
 # Error Handling Patterns
 
 Handle errors gracefully in your Copilot SDK applications.
@@ -111,3 +118,9 @@ signal.signal(signal.SIGINT, signal_handler)
 2. **Handle connection errors**: The CLI might not be installed or running
 3. **Set appropriate timeouts**: Use the `timeout` parameter on `send_and_wait()`
 4. **Log errors**: Capture error details for debugging
+
+## 🔗 Связи
+
+- [[MOC - Agents]] — Agent catalog
+- [[agents/agents-copilot]] — Interface: agents-copilot
+

@@ -1,6 +1,10 @@
 ---
 description: 'Best practices for building Model Context Protocol servers in Rust using the official rmcp SDK with async/await patterns'
 applyTo: '**/*.rs'
+tags:
+  - domain/agents
+  - artifact/agent
+  - source/by-interface/agents-copilot
 ---
 
 # Rust MCP Server Development Best Practices
@@ -713,3 +717,9 @@ CMD ["my-mcp-server"]
 - [Examples Repository](https://github.com/modelcontextprotocol/rust-sdk/tree/main/examples)
 - [MCP Specification](https://spec.modelcontextprotocol.io/)
 - [Rust Async Book](https://rust-lang.github.io/async-book/)
+
+## 🔗 Связи
+
+- [[MOC - Agents]] — Agent catalog
+- [[agents/agents-copilot]] — Interface: agents-copilot
+

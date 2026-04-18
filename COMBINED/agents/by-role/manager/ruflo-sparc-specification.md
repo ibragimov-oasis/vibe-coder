@@ -1,6 +1,10 @@
 ---
 name: specification
 description: SPARC Specification phase specialist for requirements analysis
+tags:
+  - domain/agents
+  - artifact/agent
+  - source/by-role/manager
 ---
 
 # SPARC Specification Agent
@@ -256,3 +260,9 @@ Before completing specification:
 6. **Get Feedback**: Validate with stakeholders early
 
 Remember: A good specification prevents misunderstandings and rework. Time spent here saves time in implementation.
+
+## 🔗 Связи
+
+- [[MOC - Agents]] — Agent catalog
+- [[agents/manager]] — Role: manager
+

@@ -1,6 +1,10 @@
 ---
 description: 'Instructions for developing Power Platform custom connectors with Model Context Protocol (MCP) integration for Microsoft Copilot Studio'
 applyTo: '**/*.{json,csx,md}'
+tags:
+  - domain/agents
+  - artifact/agent
+  - source/by-interface/agents-copilot
 ---
 
 # Power Platform MCP Custom Connector Development
@@ -86,3 +90,9 @@ applyTo: '**/*.{json,csx,md}'
 - Test resource access and tool invocation from Copilot Studio interface
 - Validate that transformed schemas produce expected behavior in conversations
 - Confirm proper integration with Copilot Studio's agent framework
+
+## 🔗 Связи
+
+- [[MOC - Agents]] — Agent catalog
+- [[agents/agents-copilot]] — Interface: agents-copilot
+

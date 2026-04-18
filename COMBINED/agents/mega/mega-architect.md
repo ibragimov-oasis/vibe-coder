@@ -10,6 +10,10 @@ tools:
   - mcp__gitnexus
   - mcp__supermemory
   - mcp__openviking
+tags:
+  - domain/agents
+  - artifact/mega-agent
+  - source/mega
 ---
 
 <role>
@@ -226,3 +230,10 @@ Sources:
 - RuFlo integration: `COMBINED/agents/by-role/architect/ruflo-v3-v3-integration-architect.md`
 - GSD mapper: `COMBINED/agents/by-role/researcher/gsd-codebase-mapper.md`
 </rules>
+
+## 🔗 Связи
+
+- [[MOC - Agents]] — Agent catalog
+- [[agents/mega-architect]] — Vault entry
+- [[MOC - Skills]] — Skills library
+

@@ -4,6 +4,10 @@ description: 'Mirror the source development workflow chapter covering review, de
 authors:
   - GitHub Copilot Learning Hub Team
 lastUpdated: 2026-03-20
+tags:
+  - domain/agents
+  - artifact/agent
+  - source/by-interface/agents-copilot
 ---
 
 ![Chapter 03: Development Workflows](/images/learning-hub/copilot-cli-for-beginners/03/chapter-header.png)
@@ -962,3 +966,9 @@ In **[Chapter 04: Agents and Custom Instructions](../04-agents-and-custom-instru
 - Custom instruction files for project standards
 
 ---
+
+## 🔗 Связи
+
+- [[MOC - Agents]] — Agent catalog
+- [[agents/agents-copilot]] — Interface: agents-copilot
+

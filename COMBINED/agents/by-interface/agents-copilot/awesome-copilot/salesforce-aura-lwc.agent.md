@@ -3,6 +3,10 @@ name: 'Salesforce UI Development (Aura & LWC)'
 description: 'Implement Salesforce UI components using Lightning Web Components and Aura components following Lightning framework best practices.'
 model: claude-3.5-sonnet
 tools: ['codebase', 'edit/editFiles', 'terminalCommand', 'search', 'githubRepo']
+tags:
+  - domain/agents
+  - artifact/agent
+  - source/by-interface/agents-copilot
 ---
 
 # Salesforce UI Development Agent (Aura & LWC)
@@ -46,3 +50,9 @@ A task is complete only when:
 - All UI behaviors implemented
 - Apex communication functions
 - Error handling implemented
+
+## 🔗 Связи
+
+- [[MOC - Agents]] — Agent catalog
+- [[agents/agents-copilot]] — Interface: agents-copilot
+

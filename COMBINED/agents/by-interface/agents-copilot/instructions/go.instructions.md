@@ -1,6 +1,10 @@
 ---
 description: 'Instructions for writing Go code following idiomatic Go practices and community standards'
 applyTo: '**/*.go,**/go.mod,**/go.sum'
+tags:
+  - domain/agents
+  - artifact/agent
+  - source/by-interface/agents-copilot
 ---
 
 # Go Development Instructions
@@ -371,3 +375,9 @@ Follow idiomatic Go practices and community standards when writing Go code. Thes
 - Over-using unconstrained types (e.g., `any`); prefer specific types or generic type parameters with constraints. If an unconstrained type is required, use `any` rather than `interface{}`
 - Not considering the zero value of types
 - **Creating duplicate `package` declarations** - this is a compile error; always check existing files before adding package declarations
+
+## 🔗 Связи
+
+- [[MOC - Agents]] — Agent catalog
+- [[agents/agents-copilot]] — Interface: agents-copilot
+

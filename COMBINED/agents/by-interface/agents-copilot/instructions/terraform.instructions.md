@@ -1,6 +1,10 @@
 ---
 description: 'Terraform Conventions and Guidelines'
 applyTo: '**/*.tf'
+tags:
+  - domain/agents
+  - artifact/agent
+  - source/by-interface/agents-copilot
 ---
 
 # Terraform Conventions
@@ -111,3 +115,9 @@ applyTo: '**/*.tf'
   - Use the `.tftest.hcl` extension for test files.
   - Write tests to cover both positive and negative scenarios.
   - Ensure tests are idempotent and can be run multiple times without side effects.
+
+## 🔗 Связи
+
+- [[MOC - Agents]] — Agent catalog
+- [[agents/agents-copilot]] — Interface: agents-copilot
+

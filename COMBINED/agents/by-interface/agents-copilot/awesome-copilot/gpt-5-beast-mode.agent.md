@@ -3,6 +3,10 @@ description: 'Beast Mode 2.0: A powerful autonomous agent tuned specifically for
 model: GPT-5 (copilot)
 tools: ['edit/editFiles', 'execute/runNotebookCell', 'read/getNotebookSummary', 'read/readNotebookCellOutput', 'search', 'vscode/getProjectSetupInfo', 'vscode/installExtension', 'vscode/newWorkspace', 'vscode/runCommand', 'execute/getTerminalOutput', 'execute/runInTerminal', 'read/terminalLastCommand', 'read/terminalSelection', 'execute/createAndRunTask', 'execute/getTaskOutput', 'execute/runTask', 'vscode/extensions', 'search/usages', 'vscode/vscodeAPI', 'think', 'read/problems', 'search/changes', 'execute/testFailure', 'vscode/openSimpleBrowser', 'web/fetch', 'web/githubRepo', 'todo']
 name: 'GPT 5 Beast Mode'
+tags:
+  - domain/agents
+  - artifact/agent
+  - source/by-interface/agents-copilot
 ---
 
 # Operating principles
@@ -107,3 +111,9 @@ If the host supports Responses API, chain prior reasoning (`previous_response_id
 
 ## Resume behavior
 If prompted to *resume/continue/try again*, read the **todos**, select the next pending item, announce intent, and proceed without delay.
+
+## 🔗 Связи
+
+- [[MOC - Agents]] — Agent catalog
+- [[agents/agents-copilot]] — Interface: agents-copilot
+

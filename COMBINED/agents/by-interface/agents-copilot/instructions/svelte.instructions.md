@@ -1,6 +1,10 @@
 ---
 description: 'Svelte 5 and SvelteKit development standards and best practices for component-based user interfaces and full-stack applications'
 applyTo: '**/*.svelte, **/*.ts, **/*.js, **/*.css, **/*.scss, **/*.json'
+tags:
+  - domain/agents
+  - artifact/agent
+  - source/by-interface/agents-copilot
 ---
 
 # Svelte 5 and SvelteKit Development Instructions
@@ -204,3 +208,9 @@ Instructions for building high-quality Svelte 5 and SvelteKit applications with 
 - Server-side rendering with client-side hydration for optimal performance
 - Function bindings (`bind:value={() => value, setValue}`) for two-way binding
 - Avoid `$effect()` for state synchronization - use `$derived()` or callbacks instead
+
+## 🔗 Связи
+
+- [[MOC - Agents]] — Agent catalog
+- [[agents/agents-copilot]] — Interface: agents-copilot
+

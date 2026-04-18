@@ -5,6 +5,10 @@ skills: ra-qm-team
 domain: ra-qm
 model: sonnet
 tools: [Read, Write, Bash, Grep, Glob]
+tags:
+  - domain/agents
+  - artifact/agent
+  - source/by-role/tester
 ---
 
 # cs-quality-regulatory
@@ -84,3 +88,9 @@ Regulatory affairs and quality management specialist for medical device and heal
 
 - [cs-engineering-lead](../engineering-team/cs-engineering-lead.md) -- Engineering process alignment for design controls and software validation
 - [cs-product-manager](../product/cs-product-manager.md) -- Product requirements traceability and risk-benefit analysis coordination
+
+## 🔗 Связи
+
+- [[MOC - Agents]] — Agent catalog
+- [[agents/tester]] — Role: tester
+

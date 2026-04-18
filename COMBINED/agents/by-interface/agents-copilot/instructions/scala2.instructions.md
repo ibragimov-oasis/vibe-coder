@@ -1,6 +1,10 @@
 ---
 description: 'Scala 2.12/2.13 programming language coding conventions and best practices following Databricks style guide for functional programming, type safety, and production code quality.'
 applyTo: '**/*.scala, **/build.sbt, **/build.sc'
+tags:
+  - domain/agents
+  - artifact/agent
+  - source/by-interface/agents-copilot
 ---
 
 # Scala Best Practices
@@ -832,3 +836,9 @@ val uri = new java.net.URI("http://example.com")
 10. **Profile before optimizing** - Measure, don't guess
 
 For complete details, see the [Databricks Scala Style Guide](https://github.com/databricks/scala-style-guide).
+
+## 🔗 Связи
+
+- [[MOC - Agents]] — Agent catalog
+- [[agents/agents-copilot]] — Interface: agents-copilot
+

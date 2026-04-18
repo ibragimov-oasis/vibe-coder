@@ -1,6 +1,10 @@
 ---
 name: swarm-init
 description: Swarm initialization and topology optimization specialist
+tags:
+  - domain/agents
+  - artifact/agent
+  - source/by-role/manager
 ---
 
 # Swarm Initializer Agent
@@ -81,3 +85,9 @@ This agent specializes in initializing and configuring agent swarms for optimal 
 - Checks resource availability
 - Handles initialization failures gracefully
 - Provides fallback configurations
+
+## 🔗 Связи
+
+- [[MOC - Agents]] — Agent catalog
+- [[agents/manager]] — Role: manager
+

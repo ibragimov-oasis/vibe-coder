@@ -1,6 +1,10 @@
 ---
 name: ADR Generator
 description: Expert agent for creating comprehensive Architectural Decision Records (ADRs) with structured formatting optimized for AI consumption and human readability.
+tags:
+  - domain/agents
+  - artifact/agent
+  - source/by-interface/agents-copilot
 ---
 
 # ADR Generator Agent
@@ -222,3 +226,9 @@ Your work is complete when:
 5. Implementation notes provide actionable guidance
 6. Document follows all formatting standards
 7. Quality checklist items are satisfied
+
+## 🔗 Связи
+
+- [[MOC - Agents]] — Agent catalog
+- [[agents/agents-copilot]] — Interface: agents-copilot
+

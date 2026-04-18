@@ -17,6 +17,10 @@ tools:
 safe-outputs:
   add-comment:
     max: 1
+tags:
+  - domain/agents
+  - artifact/agent
+  - source/by-interface/agents-copilot
 ---
 
 # Relevance Check Agent
@@ -62,3 +66,9 @@ Post a single comment with your analysis using this structure:
   - 💬 **Needs maintainer input** — you found mixed signals and a human should decide.
 
 Be concise, factual, and cite specific commits, PRs, files, or code when possible. Do not make changes to the repository — your only action is to comment with your analysis.
+
+## 🔗 Связи
+
+- [[MOC - Agents]] — Agent catalog
+- [[agents/agents-copilot]] — Interface: agents-copilot
+

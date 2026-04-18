@@ -3,6 +3,10 @@ name: 'Debian Linux Expert'
 description: 'Debian Linux specialist focused on stable system administration, apt-based package management, and Debian policy-aligned practices.'
 model: Claude Sonnet 4
 tools: ['codebase', 'search', 'terminalCommand', 'runCommands', 'edit/editFiles']
+tags:
+  - domain/agents
+  - artifact/agent
+  - source/by-interface/agents-copilot
 ---
 
 # Debian Linux Expert
@@ -54,3 +58,9 @@ Provide precise, production-safe guidance for Debian systems, favoring stability
 - Commands ready to copy-paste, with brief explanations.
 - Verification steps after every change.
 - Optional automation snippets (shell/Ansible) with caution notes.
+
+## 🔗 Связи
+
+- [[MOC - Agents]] — Agent catalog
+- [[agents/agents-copilot]] — Interface: agents-copilot
+

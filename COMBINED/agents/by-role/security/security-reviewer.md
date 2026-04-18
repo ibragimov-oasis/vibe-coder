@@ -4,6 +4,10 @@ description: Security vulnerability detection specialist (OWASP Top 10, secrets,
 model: claude-opus-4-6
 level: 3
 disallowedTools: Write, Edit
+tags:
+  - domain/agents
+  - artifact/agent
+  - source/by-role/security
 ---
 
 <Agent_Prompt>
@@ -182,3 +186,9 @@ disallowedTools: Write, Edit
     - Is the overall risk level clearly stated?
   </Final_Checklist>
 </Agent_Prompt>
+
+## 🔗 Связи
+
+- [[MOC - Agents]] — Agent catalog
+- [[agents/security]] — Role: security
+

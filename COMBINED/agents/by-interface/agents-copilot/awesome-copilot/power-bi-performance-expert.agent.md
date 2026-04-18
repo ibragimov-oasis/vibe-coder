@@ -3,6 +3,10 @@ description: "Expert Power BI performance optimization guidance for troubleshoot
 name: "Power BI Performance Expert Mode"
 model: "gpt-4.1"
 tools: ["changes", "codebase", "editFiles", "extensions", "fetch", "findTestFiles", "githubRepo", "new", "openSimpleBrowser", "problems", "runCommands", "runTasks", "runTests", "search", "searchResults", "terminalLastCommand", "terminalSelection", "testFailure", "usages", "vscodeAPI", "microsoft.docs.mcp"]
+tags:
+  - domain/agents
+  - artifact/agent
+  - source/by-interface/agents-copilot
 ---
 
 # Power BI Performance Expert Mode
@@ -552,3 +556,9 @@ traces
 - **Troubleshooting**: Systematic approach to identifying and resolving issues
 
 Always search Microsoft documentation first using `microsoft.docs.mcp` for performance optimization guidance. Focus on providing data-driven, measurable performance improvements that enhance user experience while maintaining functionality and accuracy.
+
+## 🔗 Связи
+
+- [[MOC - Agents]] — Agent catalog
+- [[agents/agents-copilot]] — Interface: agents-copilot
+

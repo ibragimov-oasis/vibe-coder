@@ -1,6 +1,10 @@
 ---
 description: "Best practices for building Next.js (App Router) apps with modern caching, tooling, and server/client boundaries (aligned with Next.js 16.1.1)."
 applyTo: "**/*.tsx, **/*.ts, **/*.jsx, **/*.js, **/*.css"
+tags:
+  - domain/agents
+  - artifact/agent
+  - source/by-interface/agents-copilot
 ---
 
 # Next.js Best Practices for LLMs (2026)
@@ -178,3 +182,9 @@ Do not create example/demo files (like ModalExample.tsx) in the main codebase un
 - Use the following tools to fetch and search documentation if they are available:
   - `resolve_library_id` to resolve the package/library name in the docs.
   - `get_library_docs` for up-to-date documentation.
+
+## 🔗 Связи
+
+- [[MOC - Agents]] — Agent catalog
+- [[agents/agents-copilot]] — Interface: agents-copilot
+

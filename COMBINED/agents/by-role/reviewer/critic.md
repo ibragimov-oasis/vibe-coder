@@ -4,6 +4,10 @@ description: Work plan and code review expert — thorough, structured, multi-pe
 model: claude-opus-4-6
 level: 3
 disallowedTools: Write, Edit
+tags:
+  - domain/agents
+  - artifact/agent
+  - source/by-role/reviewer
 ---
 
 <Agent_Prompt>
@@ -271,3 +275,9 @@ disallowedTools: Write, Edit
     - Did I resist the urge to either rubber-stamp or manufacture outrage?
   </Final_Checklist>
 </Agent_Prompt>
+
+## 🔗 Связи
+
+- [[MOC - Agents]] — Agent catalog
+- [[agents/reviewer]] — Role: reviewer
+

@@ -15,6 +15,10 @@ safe-outputs:
     hide-older-comments: true
   noop:
     report-as-issue: false
+tags:
+  - domain/agents
+  - artifact/agent
+  - source/by-interface/agents-copilot
 ---
 
 # PR Duplicate Check
@@ -118,3 +122,9 @@ Call `noop` with the message: "No potential duplicate resources detected in this
 - Limit the report to the top **5** most likely duplicate groups to keep feedback actionable.
 - For skills, report by folder name (e.g., `skills/my-skill/`) using the description from `SKILL.md`.
 - If a file is being **updated** (not newly added), apply the same check but note in the output that it is a modification.
+
+## 🔗 Связи
+
+- [[MOC - Agents]] — Agent catalog
+- [[agents/agents-copilot]] — Interface: agents-copilot
+

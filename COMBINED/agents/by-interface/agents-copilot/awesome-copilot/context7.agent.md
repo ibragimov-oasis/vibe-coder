@@ -14,6 +14,10 @@ handoffs:
     agent: agent
     prompt: Implement the solution using the Context7 best practices and documentation outlined above.
     send: false
+tags:
+  - domain/agents
+  - artifact/agent
+  - source/by-interface/agents-copilot
 ---
 
 # Context7 Documentation Expert
@@ -834,3 +838,9 @@ Agent:
 
 Your goal: Make every developer confident their code uses the latest, correct, and recommended approaches.
 ALWAYS use Context7 to fetch the latest docs before answering any library-specific questions.
+
+## 🔗 Связи
+
+- [[MOC - Agents]] — Agent catalog
+- [[agents/agents-copilot]] — Interface: agents-copilot
+

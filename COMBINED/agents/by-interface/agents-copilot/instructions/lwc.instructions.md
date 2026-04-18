@@ -1,6 +1,10 @@
 ---
 description: 'Guidelines and best practices for developing Lightning Web Components (LWC) on Salesforce Platform.'
 applyTo: 'force-app/main/default/lwc/**'
+tags:
+  - domain/agents
+  - artifact/agent
+  - source/by-interface/agents-copilot
 ---
 
 # LWC Development
@@ -424,3 +428,9 @@ Prefer `lwc:if`, `lwc:elseif` and `lwc:else` for conditional rendering (API v58.
 - **Hardcoded Values**: Use custom labels, custom metadata, or constants
 - **Imperative API Calls**: Prefer `@wire` over imperative `import` calls when possible
 - **Memory Leaks**: Always clean up event listeners in `disconnectedCallback()`
+
+## 🔗 Связи
+
+- [[MOC - Agents]] — Agent catalog
+- [[agents/agents-copilot]] — Interface: agents-copilot
+

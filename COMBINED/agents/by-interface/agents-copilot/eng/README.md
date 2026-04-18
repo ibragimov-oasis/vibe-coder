@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/agent
+  - source/by-interface/agents-copilot
+---
+
 # Contributor Reporting (Maintainers) 🚧
 
 This directory contains build scripts and utilities for maintaining the repository.
@@ -58,3 +65,9 @@ These are maintainer utilities. They are intentionally on-demand only (but could
 
 - Helper functions have small, deterministic behavior and include JSDoc comments.
 - The `getMissingContributors` function in `contributor-report.mjs` is the single source of truth for detecting missing contributors from `all-contributors check` output.
+
+## 🔗 Связи
+
+- [[MOC - Agents]] — Agent catalog
+- [[agents/agents-copilot]] — Interface: agents-copilot
+

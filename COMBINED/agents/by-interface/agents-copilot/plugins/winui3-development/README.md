@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/agent
+  - source/by-interface/agents-copilot
+---
+
 # WinUI 3 Development Plugin
 
 WinUI 3 and Windows App SDK development agent, instructions, and migration guide. Prevents common UWP API misuse and guides correct WinUI 3 patterns for desktop Windows apps.
@@ -39,3 +46,9 @@ This plugin is part of [Awesome Copilot](https://github.com/github/awesome-copil
 ## License
 
 MIT
+
+## 🔗 Связи
+
+- [[MOC - Agents]] — Agent catalog
+- [[agents/agents-copilot]] — Interface: agents-copilot
+

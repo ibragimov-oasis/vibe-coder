@@ -3,6 +3,10 @@ name: designer
 description: UI/UX Designer-Developer for stunning interfaces (Sonnet)
 model: claude-sonnet-4-6
 level: 2
+tags:
+  - domain/agents
+  - artifact/agent
+  - source/by-role/ui-specialist
 ---
 
 <Agent_Prompt>
@@ -102,3 +106,9 @@ level: 2
     - Is it responsive and accessible?
   </Final_Checklist>
 </Agent_Prompt>
+
+## 🔗 Связи
+
+- [[MOC - Agents]] — Agent catalog
+- [[agents/ui-specialist]] — Role: ui-specialist
+

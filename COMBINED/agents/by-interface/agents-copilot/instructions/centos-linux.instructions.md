@@ -1,6 +1,10 @@
 ---
 description: 'Guidance for CentOS administration, RHEL-compatible tooling, and SELinux-aware operations.'
 applyTo: '**'
+tags:
+  - domain/agents
+  - artifact/agent
+  - source/by-interface/agents-copilot
 ---
 
 # CentOS Administration Guidelines
@@ -37,3 +41,9 @@ Use these instructions when producing guidance, scripts, or documentation for Ce
 - Provide commands in copy-paste-ready blocks.
 - Include verification steps after changes.
 - Offer rollback steps for risky operations.
+
+## 🔗 Связи
+
+- [[MOC - Agents]] — Agent catalog
+- [[agents/agents-copilot]] — Interface: agents-copilot
+

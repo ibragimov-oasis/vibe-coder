@@ -1,6 +1,10 @@
 ---
 description: 'Using dependent libraries in PCF components'
 applyTo: '**/*.{ts,tsx,js,json,xml,pcfproj,csproj}'
+tags:
+  - domain/agents
+  - artifact/agent
+  - source/by-interface/agents-copilot
 ---
 
 # Dependent Libraries (Preview)
@@ -129,3 +133,9 @@ To enable on demand loading, you need to:
 Try a tutorial that walks you through creating a dependent library:
 
 [Tutorial: Use dependent libraries in a component](https://learn.microsoft.com/en-us/power-apps/developer/component-framework/tutorial-use-dependent-libraries)
+
+## 🔗 Связи
+
+- [[MOC - Agents]] — Agent catalog
+- [[agents/agents-copilot]] — Interface: agents-copilot
+

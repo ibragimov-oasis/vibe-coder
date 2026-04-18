@@ -3,6 +3,10 @@ description: 'Act as implementation planner for your Azure Bicep Infrastructure 
 name: 'Bicep Planning'
 tools:
   [ 'edit/editFiles', 'web/fetch', 'microsoft-docs', 'azure_design_architecture', 'get_bicep_best_practices', 'bestpractices', 'bicepschema', 'azure_get_azure_verified_module', 'todos' ]
+tags:
+  - domain/agents
+  - artifact/agent
+  - source/by-interface/agents-copilot
 ---
 
 # Azure Bicep Infrastructure Planning
@@ -111,3 +115,9 @@ avm: {module repo URL or commit} # if applicable
 
 {High-level design description}
 ````
+
+## 🔗 Связи
+
+- [[MOC - Agents]] — Agent catalog
+- [[agents/agents-copilot]] — Interface: agents-copilot
+

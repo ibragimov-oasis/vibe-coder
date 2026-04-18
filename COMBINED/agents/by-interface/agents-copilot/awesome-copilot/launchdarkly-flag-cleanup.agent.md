@@ -21,6 +21,10 @@ mcp-servers:
       "--api-key",
       "$LD_ACCESS_TOKEN"
     ]
+tags:
+  - domain/agents
+  - artifact/agent
+  - source/by-interface/agents-copilot
 ---
 
 # LaunchDarkly Flag Cleanup Agent
@@ -211,4 +215,8 @@ Create a PR with a clear, structured description:
 - Don't skip the safety checks — always verify removal readiness
 - Don't guess the forward value — always use LaunchDarkly's configuration
 
+## 🔗 Связи
+
+- [[MOC - Agents]] — Agent catalog
+- [[agents/agents-copilot]] — Interface: agents-copilot
 

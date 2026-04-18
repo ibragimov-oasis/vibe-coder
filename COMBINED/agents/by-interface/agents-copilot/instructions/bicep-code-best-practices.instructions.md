@@ -1,6 +1,10 @@
 ---
 description: 'Infrastructure as Code with Bicep'
 applyTo: '**/*.bicep'
+tags:
+  - domain/agents
+  - artifact/agent
+  - source/by-interface/agents-copilot
 ---
 
 ## Naming Conventions
@@ -52,3 +56,9 @@ applyTo: '**/*.bicep'
 ## Documentation
 
 -   Include helpful // comments within your Bicep files to improve readability
+
+## 🔗 Связи
+
+- [[MOC - Agents]] — Agent catalog
+- [[agents/agents-copilot]] — Interface: agents-copilot
+

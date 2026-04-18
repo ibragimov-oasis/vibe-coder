@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/agent
+  - source/by-interface/agents-copilot
+---
+
 # FlowStudio Power Automate Plugin
 
 Complete toolkit for managing Power Automate cloud flows via the FlowStudio MCP server. Connect, debug, and build/deploy flows using AI agents.
@@ -35,3 +42,9 @@ This plugin is part of [Awesome Copilot](https://github.com/github/awesome-copil
 ## License
 
 MIT
+
+## 🔗 Связи
+
+- [[MOC - Agents]] — Agent catalog
+- [[agents/agents-copilot]] — Interface: agents-copilot
+

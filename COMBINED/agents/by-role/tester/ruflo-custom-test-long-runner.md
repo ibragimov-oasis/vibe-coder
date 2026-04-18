@@ -1,6 +1,10 @@
 ---
 name: test-long-runner
 description: Test agent that can run for 30+ minutes on complex tasks
+tags:
+  - domain/agents
+  - artifact/agent
+  - source/by-role/tester
 ---
 
 # Test Long-Running Agent
@@ -41,3 +45,9 @@ Provide detailed, well-structured responses with:
 - Thorough security audits and vulnerability assessments
 
 Remember: You have plenty of time to do thorough, high-quality work!
+
+## 🔗 Связи
+
+- [[MOC - Agents]] — Agent catalog
+- [[agents/tester]] — Role: tester
+

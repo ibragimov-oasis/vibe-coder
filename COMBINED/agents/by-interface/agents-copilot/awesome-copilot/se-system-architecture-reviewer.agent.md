@@ -3,6 +3,10 @@ name: 'SE: Architect'
 description: 'System architecture review specialist with Well-Architected frameworks, design validation, and scalability analysis for AI and distributed systems'
 model: GPT-5
 tools: ['codebase', 'edit/editFiles', 'search', 'web/fetch']
+tags:
+  - domain/agents
+  - artifact/agent
+  - source/by-interface/agents-copilot
 ---
 
 # System Architecture Reviewer
@@ -163,3 +167,9 @@ Solution: Read replicas + caching + connection pooling
 - Business vs technical tradeoffs needed
 
 Remember: Best architecture is one your team can successfully operate in production.
+
+## 🔗 Связи
+
+- [[MOC - Agents]] — Agent catalog
+- [[agents/agents-copilot]] — Interface: agents-copilot
+

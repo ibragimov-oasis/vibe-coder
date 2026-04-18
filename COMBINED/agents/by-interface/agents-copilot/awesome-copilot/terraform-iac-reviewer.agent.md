@@ -2,6 +2,10 @@
 name: 'Terraform IaC Reviewer'
 description: 'Terraform-focused agent that reviews and creates safer IaC changes with emphasis on state safety, least privilege, module patterns, drift detection, and plan/apply discipline'
 tools: ['codebase', 'edit/editFiles', 'terminalCommand', 'search', 'githubRepo']
+tags:
+  - domain/agents
+  - artifact/agent
+  - source/by-interface/agents-copilot
 ---
 
 # Terraform IaC Reviewer
@@ -135,3 +139,9 @@ Implement automated policy checks:
 8. Validate and format before committing
 9. Have a tested rollback plan
 10. Never skip security scanning
+
+## 🔗 Связи
+
+- [[MOC - Agents]] — Agent catalog
+- [[agents/agents-copilot]] — Interface: agents-copilot
+

@@ -1,6 +1,10 @@
 ---
 description: 'Guidelines for developing Azure Logic Apps and Power Automate workflows with best practices for Workflow Definition Language (WDL), integration patterns, and enterprise automation'
 applyTo: "**/*.json,**/*.logicapp.json,**/workflow.json,**/*-definition.json,**/*.flow.json"
+tags:
+  - domain/agents
+  - artifact/agent
+  - source/by-interface/agents-copilot
 ---
 
 # Azure Logic Apps and Power Automate Instructions
@@ -1941,3 +1945,9 @@ Implement comprehensive security measures for Logic Apps and Power Automate work
 - [Logic Apps Security Overview](https://docs.microsoft.com/en-us/azure/logic-apps/logic-apps-securing-a-logic-app)
 - [API Management and Logic Apps Integration](https://docs.microsoft.com/en-us/azure/api-management/api-management-create-api-logic-app)
 - [Logic Apps Standard Networking](https://docs.microsoft.com/en-us/azure/logic-apps/connect-virtual-network-vnet-isolated-environment)
+
+## 🔗 Связи
+
+- [[MOC - Agents]] — Agent catalog
+- [[agents/agents-copilot]] — Interface: agents-copilot
+

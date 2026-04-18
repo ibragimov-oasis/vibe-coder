@@ -1,6 +1,10 @@
 ---
 description: 'Best practices and patterns for building Model Context Protocol (MCP) servers in Swift using the official MCP Swift SDK package.'
 applyTo: "**/*.swift, **/Package.swift, **/Package.resolved"
+tags:
+  - domain/agents
+  - artifact/agent
+  - source/by-interface/agents-copilot
 ---
 
 # Swift MCP Server Development Guidelines
@@ -496,3 +500,9 @@ for (index, task) in tasks.enumerated() {
     print("\(index): \(result.content)")
 }
 ```
+
+## 🔗 Связи
+
+- [[MOC - Agents]] — Agent catalog
+- [[agents/agents-copilot]] — Interface: agents-copilot
+

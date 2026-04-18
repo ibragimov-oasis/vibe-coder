@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/agent
+  - source/by-interface/agents-copilot
+---
+
 # Runnable Recipe Examples
 
 This folder contains standalone, executable Go examples for each cookbook recipe. Each file is a complete program that can be run directly with `go run`.
@@ -59,3 +66,9 @@ These examples follow Go conventions:
 - [Go Documentation](https://go.dev/doc/)
 - [GitHub Copilot SDK for Go](https://github.com/github/copilot-sdk/blob/main/go/README.md)
 - [Parent Cookbook](../README.md)
+
+## 🔗 Связи
+
+- [[MOC - Agents]] — Agent catalog
+- [[agents/agents-copilot]] — Interface: agents-copilot
+

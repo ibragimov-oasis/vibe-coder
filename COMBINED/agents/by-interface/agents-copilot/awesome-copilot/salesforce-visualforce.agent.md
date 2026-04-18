@@ -3,6 +3,10 @@ name: 'Salesforce Visualforce Development'
 description: 'Implement Visualforce pages and controllers following Salesforce MVC architecture and best practices.'
 model: claude-3.5-sonnet
 tools: ['codebase', 'edit/editFiles', 'terminalCommand', 'search', 'githubRepo']
+tags:
+  - domain/agents
+  - artifact/agent
+  - source/by-interface/agents-copilot
 ---
 
 # Salesforce Visualforce Development Agent
@@ -42,3 +46,9 @@ A task is complete when:
 - Page layout functions correctly
 - Controller logic implemented
 - Error handling implemented
+
+## 🔗 Связи
+
+- [[MOC - Agents]] — Agent catalog
+- [[agents/agents-copilot]] — Interface: agents-copilot
+

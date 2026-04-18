@@ -1,6 +1,10 @@
 ---
 description: 'Markdown formatting for GitHub-flavored markdown (GFM) files'
 applyTo: '**/*.md'
+tags:
+  - domain/agents
+  - artifact/agent
+  - source/by-interface/agents-copilot
 ---
 
 # GitHub Flavored Markdown (GFM)
@@ -66,3 +70,9 @@ Apply these rules per the [GFM spec](https://github.github.com/gfm/) when writin
 - [ ] Strikethrough uses exactly `~~` (not 3+ tildes).
 - [ ] Links use `[text](url)` or reference syntax with no whitespace before `(` or `[`.
 - [ ] No disallowed raw HTML tags (`<script>`, `<style>`, `<title>`, `<textarea>`, `<xmp>`, `<iframe>`, `<noembed>`, `<noframes>`, `<plaintext>`).
+
+## 🔗 Связи
+
+- [[MOC - Agents]] — Agent catalog
+- [[agents/agents-copilot]] — Interface: agents-copilot
+

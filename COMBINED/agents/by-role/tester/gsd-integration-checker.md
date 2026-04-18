@@ -3,6 +3,10 @@ name: gsd-integration-checker
 description: Verifies cross-phase integration and E2E flows. Checks that phases connect properly and user workflows complete end-to-end.
 tools: Read, Bash, Grep, Glob
 color: blue
+tags:
+  - domain/agents
+  - artifact/agent
+  - source/by-role/tester
 ---
 
 <role>
@@ -441,3 +445,9 @@ Return structured report to milestone auditor:
 - [ ] Requirements with no cross-phase wiring identified
 - [ ] Structured report returned to auditor
       </success_criteria>
+
+## 🔗 Связи
+
+- [[MOC - Agents]] — Agent catalog
+- [[agents/tester]] — Role: tester
+

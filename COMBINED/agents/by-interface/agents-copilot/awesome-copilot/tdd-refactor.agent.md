@@ -2,6 +2,10 @@
 description: "Improve code quality, apply security best practices, and enhance design whilst maintaining green tests and GitHub issue compliance."
 name: "TDD Refactor Phase - Improve Quality & Security"
 tools: ["github", "findTestFiles", "edit/editFiles", "runTests", "runCommands", "codebase", "filesystem", "search", "problems", "testFailure", "terminalLastCommand"]
+tags:
+  - domain/agents
+  - artifact/agent
+  - source/by-interface/agents-copilot
 ---
 
 # TDD Refactor Phase - Improve Quality & Security
@@ -92,3 +96,9 @@ Clean up code, apply security best practices, and enhance design whilst keeping 
 - [ ] Code coverage maintained or improved
 - [ ] Issue marked as complete or follow-up issues created
 - [ ] Documentation updated as specified in issue
+
+## 🔗 Связи
+
+- [[MOC - Agents]] — Agent catalog
+- [[agents/agents-copilot]] — Interface: agents-copilot
+

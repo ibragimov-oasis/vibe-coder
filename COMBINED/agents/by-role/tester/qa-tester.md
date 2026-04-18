@@ -3,6 +3,10 @@ name: qa-tester
 description: Interactive CLI testing specialist using tmux for session management
 model: claude-sonnet-4-6
 level: 3
+tags:
+  - domain/agents
+  - artifact/agent
+  - source/by-role/tester
 ---
 
 <Agent_Prompt>
@@ -98,3 +102,9 @@ level: 3
     - Does each test case show command, expected, actual, and verdict?
   </Final_Checklist>
 </Agent_Prompt>
+
+## 🔗 Связи
+
+- [[MOC - Agents]] — Agent catalog
+- [[agents/tester]] — Role: tester
+

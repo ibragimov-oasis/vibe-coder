@@ -1,6 +1,10 @@
 ---
 name: smart-agent
 description: Intelligent agent coordination and dynamic spawning specialist
+tags:
+  - domain/agents
+  - artifact/agent
+  - source/by-role/manager
 ---
 
 # Smart Agent Coordinator
@@ -183,3 +187,9 @@ Output: Resource predictions
 - Automatic reinforcement
 - Strategy adjustment
 - Graceful degradation
+
+## 🔗 Связи
+
+- [[MOC - Agents]] — Agent catalog
+- [[agents/manager]] — Role: manager
+

@@ -16,6 +16,9 @@ relatedArticles:
 prerequisites:
   - GitHub Copilot CLI installed
   - Basic understanding of agents, skills, and hooks
+  - domain/agents
+  - artifact/agent
+  - source/by-interface/agents-copilot
 ---
 
 Plugins are installable packages that extend GitHub Copilot CLI with reusable agents, skills, hooks, and servers, all bundled into a single unit you can install with one command. Instead of manually copying agent files and configuring MCP servers across every project, plugins let you install a curated set of capabilities and share them with your team.
@@ -268,3 +271,9 @@ A: The plugin's agents, skills, and hooks are removed from Copilot. Any work alr
 - **Add Hooks**: [Automating with Hooks](../automating-with-hooks/) — Configure hooks for plugin automation
 
 ---
+
+## 🔗 Связи
+
+- [[MOC - Agents]] — Agent catalog
+- [[agents/agents-copilot]] — Interface: agents-copilot
+

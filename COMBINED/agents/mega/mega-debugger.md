@@ -14,6 +14,10 @@ tools:
   - mcp__lightpanda
 permissionMode: acceptEdits
 color: orange
+tags:
+  - domain/agents
+  - artifact/mega-agent
+  - source/mega
 ---
 
 <role>
@@ -332,3 +336,10 @@ When escalating, provide:
 7. **Single hypothesis**: always generate 3+ hypotheses before investigating
 8. **Removing debug instrumentation too late**: remove after each hypothesis test
 </anti_patterns>
+
+## 🔗 Связи
+
+- [[MOC - Agents]] — Agent catalog
+- [[agents/mega-debugger]] — Vault entry
+- [[MOC - Skills]] — Skills library
+

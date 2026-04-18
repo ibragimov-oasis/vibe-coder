@@ -1,6 +1,10 @@
 ---
 name: api-docs
 description: Expert agent for creating and maintaining OpenAPI/Swagger documentation
+tags:
+  - domain/agents
+  - artifact/agent
+  - source/by-role/writer
 ---
 
 # OpenAPI Documentation Specialist
@@ -61,3 +65,9 @@ components:
 - Error response documentation
 - Security requirements
 - Rate limiting information
+
+## 🔗 Связи
+
+- [[MOC - Agents]] — Agent catalog
+- [[agents/writer]] — Role: writer
+

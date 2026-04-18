@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/agent
+  - source/INDEX.md
+---
+
 # COMBINED/agents - Master Agent Index
 
 > **Complete catalog of all AI agents across all repositories**
@@ -564,3 +571,9 @@ When adding new agents:
 
 *For detailed orchestration capabilities, see `COMBINED/orchestration/README.md`*
 *For skill-specific capabilities, see `COMBINED/skills/INDEX.md`*
+
+## 🔗 Связи
+
+- [[MOC - Agents]] — Agent catalog
+- [[MOC - Skills]] — Skills library
+

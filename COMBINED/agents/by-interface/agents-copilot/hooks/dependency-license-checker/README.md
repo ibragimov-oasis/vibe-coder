@@ -2,6 +2,9 @@
 name: 'Dependency License Checker'
 description: 'Scans newly added dependencies for license compliance (GPL, AGPL, etc.) at session end'
 tags: ['compliance', 'license', 'dependencies', 'session-end']
+  - domain/agents
+  - artifact/agent
+  - source/by-interface/agents-copilot
 ---
 
 # Dependency License Checker Hook
@@ -212,3 +215,9 @@ To temporarily disable the checker:
 - Does not perform deep transitive dependency license analysis
 - Network lookups (npm view, etc.) may fail in offline or restricted environments
 - Requires `git` to be available in the execution environment
+
+## 🔗 Связи
+
+- [[MOC - Agents]] — Agent catalog
+- [[agents/agents-copilot]] — Interface: agents-copilot
+

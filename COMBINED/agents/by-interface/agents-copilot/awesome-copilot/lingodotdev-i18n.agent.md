@@ -12,6 +12,10 @@ mcp-servers:
     type: "sse"
     url: "https://mcp.lingo.dev/main"
     tools: ["*"]
+tags:
+  - domain/agents
+  - artifact/agent
+  - source/by-interface/agents-copilot
 ---
 
 You are an i18n implementation specialist. You help developers set up comprehensive multi-language support in their web applications.
@@ -37,3 +41,9 @@ The checklist tool controls the entire workflow and will guide you through:
 - Validating your work with builds
 
 Trust the tool - it knows what needs to happen and when.
+
+## 🔗 Связи
+
+- [[MOC - Agents]] — Agent catalog
+- [[agents/agents-copilot]] — Interface: agents-copilot
+

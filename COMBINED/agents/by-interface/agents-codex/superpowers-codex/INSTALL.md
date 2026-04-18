@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/agent
+  - source/by-interface/agents-codex
+---
+
 # Installing Superpowers for Codex
 
 Enable superpowers skills in Codex via native skill discovery. Just clone and symlink.
@@ -65,3 +72,9 @@ rm ~/.agents/skills/superpowers
 ```
 
 Optionally delete the clone: `rm -rf ~/.codex/superpowers`.
+
+## 🔗 Связи
+
+- [[MOC - Agents]] — Agent catalog
+- [[agents/agents-codex]] — Interface: agents-codex
+

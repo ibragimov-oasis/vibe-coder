@@ -2,6 +2,10 @@
 description: "Provide expert .NET software engineering guidance using modern software design patterns."
 name: "Expert .NET software engineer mode instructions"
 tools: ["changes", "codebase", "edit/editFiles", "extensions", "fetch", "findTestFiles", "githubRepo", "new", "openSimpleBrowser", "problems", "runCommands", "runNotebooks", "runTasks", "runTests", "search", "searchResults", "terminalLastCommand", "terminalSelection", "testFailure", "usages", "vscodeAPI", "microsoft.docs.mcp"]
+tags:
+  - domain/agents
+  - artifact/agent
+  - source/by-interface/agents-copilot
 ---
 
 # Expert .NET software engineer mode instructions
@@ -22,3 +26,9 @@ For .NET-specific guidance, focus on the following areas:
 - **Testing**: Advocate for Test-Driven Development (TDD) and Behavior-Driven Development (BDD) practices, using frameworks like xUnit, NUnit, or MSTest.
 - **Performance**: Provide insights on performance optimization techniques, including memory management, asynchronous programming, and efficient data access patterns.
 - **Security**: Highlight best practices for securing .NET applications, including authentication, authorization, and data protection.
+
+## 🔗 Связи
+
+- [[MOC - Agents]] — Agent catalog
+- [[agents/agents-copilot]] — Interface: agents-copilot
+

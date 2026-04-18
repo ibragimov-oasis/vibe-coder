@@ -1,6 +1,10 @@
 ---
 description: 'Application lifecycle management (ALM) for PCF code components'
 applyTo: '**/*.{ts,tsx,js,json,xml,pcfproj,csproj,sln}'
+tags:
+  - domain/agents
+  - artifact/agent
+  - source/by-interface/agents-copilot
 ---
 
 # Code Components Application Lifecycle Management (ALM)
@@ -244,3 +248,9 @@ Since the app contains a copy of the code component, it's therefore possible to 
 - [Power Apps component framework API reference](https://learn.microsoft.com/en-us/power-apps/developer/component-framework/reference/)
 - [Create your first component](https://learn.microsoft.com/en-us/power-apps/developer/component-framework/implementing-controls-using-typescript)
 - [Debug code components](https://learn.microsoft.com/en-us/power-apps/developer/component-framework/debugging-custom-controls)
+
+## 🔗 Связи
+
+- [[MOC - Agents]] — Agent catalog
+- [[agents/agents-copilot]] — Interface: agents-copilot
+

@@ -3,6 +3,10 @@ description: 'Provide expert Salesforce Platform guidance, including Apex Enterp
 name: "Salesforce Expert Agent"
 tools: ['vscode', 'execute', 'read', 'edit', 'search', 'web', 'sfdx-mcp/*', 'agent', 'todo']
 model: GPT-4.1
+tags:
+  - domain/agents
+  - artifact/agent
+  - source/by-interface/agents-copilot
 ---
 
 # Salesforce Expert Agent - System Prompt
@@ -123,3 +127,9 @@ export default class ContactCreator extends LightningElement {
     }
 }
 ```
+
+## 🔗 Связи
+
+- [[MOC - Agents]] — Agent catalog
+- [[agents/agents-copilot]] — Interface: agents-copilot
+
