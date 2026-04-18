@@ -1,22 +1,93 @@
 {
   "collapse-filter": true,
   "search": "",
-  "showTags": false,
+  "showTags": true,
   "showAttachments": false,
   "hideUnresolved": false,
-  "showOrphans": true,
-  "collapse-color-groups": true,
-  "colorGroups": [],
+  "showOrphans": false,
+  "collapse-color-groups": false,
+  "colorGroups": [
+    {
+      "query": "tag:#domain/system",
+      "color": {
+        "a": 1,
+        "rgb": 14737632
+      }
+    },
+    {
+      "query": "tag:#domain/agents",
+      "color": {
+        "a": 1,
+        "rgb": 5614335
+      }
+    },
+    {
+      "query": "tag:#domain/orchestration",
+      "color": {
+        "a": 1,
+        "rgb": 16744448
+      }
+    },
+    {
+      "query": "tag:#domain/skills",
+      "color": {
+        "a": 1,
+        "rgb": 3394764
+      }
+    },
+    {
+      "query": "tag:#domain/security",
+      "color": {
+        "a": 1,
+        "rgb": 13369344
+      }
+    },
+    {
+      "query": "tag:#domain/memory",
+      "color": {
+        "a": 1,
+        "rgb": 9699329
+      }
+    },
+    {
+      "query": "tag:#domain/ui",
+      "color": {
+        "a": 1,
+        "rgb": 16744960
+      }
+    },
+    {
+      "query": "tag:#domain/mcp",
+      "color": {
+        "a": 1,
+        "rgb": 8388863
+      }
+    },
+    {
+      "query": "tag:#artifact/moc",
+      "color": {
+        "a": 1,
+        "rgb": 16777215
+      }
+    },
+    {
+      "query": "tag:#governance",
+      "color": {
+        "a": 1,
+        "rgb": 8421504
+      }
+    }
+  ],
   "collapse-display": true,
-  "showArrow": false,
+  "showArrow": true,
   "textFadeMultiplier": 0,
-  "nodeSizeMultiplier": 1,
+  "nodeSizeMultiplier": 1.3,
   "lineSizeMultiplier": 1,
   "collapse-forces": true,
   "centerStrength": 0.518713248970312,
   "repelStrength": 10,
   "linkStrength": 1,
-  "linkDistance": 250,
+  "linkDistance": 200,
   "scale": 1,
-  "close": true
+  "close": false
 }
