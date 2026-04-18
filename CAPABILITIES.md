@@ -94,6 +94,25 @@ If vulnerabilities found → fix them before marking complete.
 - Shannon PRO methodology: `COMBINED/security/security-shannon/SHANNON-PRO.md`
 - Agent: `mega-security` → `COMBINED/agents/mega/mega-security.md`
 
+### RULE #6: PROMPT QUALITY — Assess Before Acting
+
+Before routing to a mega-agent, assess whether the user prompt is clear enough to act on:
+
+```
+IF prompt is vague ("make it better", "add a feature", "fix it") OR
+   lacks specifics (no file, no error, no acceptance criteria):
+
+   → Check COMBINED/prompts/prompts-templates/ for a matching template
+   → Apply grill-me skill: COMBINED/skills/skills-planning/grill-me/
+   → Refine prompt with user before executing
+
+ELSE: proceed directly to agent routing
+```
+
+**Prompt refinement resources:**
+- Templates: `COMBINED/prompts/prompts-templates/` (PRD, debug, design, audit, security, tdd, review)
+- Planning skills: `COMBINED/skills/skills-planning/grill-me/`, `write-a-prd/`, `design-an-interface/`
+
 ---
 
 ## 🤖 15 MEGA AGENTS — Quick Reference

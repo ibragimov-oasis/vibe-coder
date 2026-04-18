@@ -17,6 +17,15 @@ If prior work exists → build on it, don't redo.
 mcp supermemory add "<what was done and why>" tags:[<domain>]
 ```
 
+## Obsidian Vault Auto-Save (⛔ MANDATORY after every non-trivial task)
+```bash
+bash obsidian-update.sh \
+  --title "<task title>" \
+  --content "<what was done, learned, decided>" \
+  --tags "<domain>,<type>"
+```
+Creates `obsidian_vibe-coder/sessions/YYYY-MM-DD-HHMM-<title>.md` and updates MOC.
+
 ## For Codebase Context
 ```
 mcp openviking read

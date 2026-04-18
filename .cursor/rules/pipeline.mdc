@@ -1,5 +1,5 @@
 ---
-description: ULTRACAR post-task pipeline enforcement — security check + self-learning after every code change
+description: ULTRACAR post-task pipeline enforcement — security check + self-learning + obsidian save after every code change
 globs: "**/*.{js,ts,jsx,tsx,py,go,rs,java,rb,php,c,cpp,cs,swift,kt}"
 alwaysApply: true
 ---
@@ -15,6 +15,7 @@ Review your changes against:
 - 🔴 Auth bypass (missing checks, hardcoded tokens)
 - 🔴 Secrets (API keys, passwords in code)
 - 🔴 SSRF / path traversal
+- 🔴 IDOR (insecure direct object references)
 
 If ANY found → fix immediately before responding.
 
@@ -25,12 +26,24 @@ If you discovered a novel pattern:
 → Create skill: `COMBINED/skills/{domain}/{name}/SKILL.md`
 → Save to supermemory: `mcp supermemory add "<insight>" tags:[domain]`
 
+## Obsidian Vault Auto-Save (⛔ MANDATORY for non-trivial tasks)
+```bash
+bash obsidian-update.sh \
+  --title "<task title>" \
+  --content "<what was done, learned, decided>" \
+  --tags "<domain>,<type>"
+```
+Creates: `obsidian_vibe-coder/sessions/YYYY-MM-DD-HHMM-<title>.md`
+Script help: `bash obsidian-update.sh --help`
+
 ## Quality Report
 End your response with:
 ```
 ✅ Security: [PASS/FIXED]
-✅ Changed: [files]
-✅ Tests: [PASS/FAIL/N/A]
+✅ Learned:  [NONE / New pattern: (describe)]
+✅ Obsidian: [SAVED to sessions/YYYY-MM-DD-title.md / SKIPPED (reason)]
+✅ Changed:  [files]
+✅ Tests:    [PASS/FAIL/N/A]
 ```
 
 ## Agent Routing

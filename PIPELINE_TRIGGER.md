@@ -53,6 +53,30 @@ npx -y supermemory search "<task keywords>"
 
 **Purpose**: Don't redo work that was already done. If prior work exists, build on it.
 
+### Step 1.5: Prompt Quality Assessment
+
+> **Before routing and executing, assess whether the user's request is clear enough to act on.**
+
+```
+IF prompt is vague (e.g. "make it better", "add a feature", "fix the thing") OR
+   prompt lacks specifics (no file path, no error message, no acceptance criteria):
+
+   → Check COMBINED/prompts/prompts-templates/ for a template matching the task type
+   → Apply grill-me skill: COMBINED/skills/skills-planning/grill-me/
+   → Rewrite the prompt using the template structure
+   → Confirm refined prompt with user before executing
+
+ELSE (prompt is clear and specific):
+   → Proceed to Step 2
+```
+
+**Signs of a weak prompt**: No target file/component specified, no expected behavior described, no acceptance criteria, overly broad scope, or contradictory requirements.
+
+**Prompt refinement resources**:
+- Templates: `COMBINED/prompts/prompts-templates/` (PRD, debug, design, audit, security, tdd, doc, review)
+- Planning skills: `COMBINED/skills/skills-planning/grill-me/`, `write-a-prd/`, `design-an-interface/`
+- The `grill-me` skill asks 3-5 targeted clarifying questions to tighten scope
+
 ### Step 2: Agent Selection
 
 Classify the user's task and select the correct mega-agent:
