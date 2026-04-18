@@ -18,32 +18,31 @@ type: moc
 
 ## 📚 Библиотека навыков по категориям
 
-| Категория | Путь | Описание |
-|-----------|------|----------|
-| `skills-claude/` | `COMBINED/skills/skills-claude/` | Claude-specific + Karpathy + 69 best practices |
-| `skills-claude/karpathy/` | `COMBINED/skills/skills-claude/karpathy/` | 4 принципа Karpathy |
-| `skills-claude/best-practice/` | `COMBINED/skills/skills-claude/best-practice/` | 69 Claude Code tips |
-| `skills-ruflo/` | `COMBINED/skills/skills-ruflo/` | Enterprise orchestration |
-| `skills-everything-cc/` | `COMBINED/skills/skills-everything-cc/` | Enterprise patterns |
-| `skills-superpowers/` | `COMBINED/skills/skills-superpowers/` | TDD, systematic dev |
-| `skills-development/` | `COMBINED/skills/skills-development/` | TDD, triage, git-guardrails (Matt Pocock) |
-| `skills-planning/` | `COMBINED/skills/skills-planning/` | write-a-prd, prd-to-plan, grill-me (Matt Pocock) |
-| `skills-design/` | `COMBINED/skills/skills-design/` | UI/UX design + Impeccable + Taste-skill + Stitch |
-| `skills-seo/` | `COMBINED/skills/skills-seo/` | SEO + SEOMachine (10 agents, 26 skills) |
-| `skills-writing/` | `COMBINED/skills/skills-writing/` | Documentation + edit-article + write-a-skill |
-| `skills-research/` | `COMBINED/skills/skills-research/` | Deep research skills |
-| `skills-devops/` | `COMBINED/skills/skills-devops/` | CI/CD, deployment |
-| `skills-hermes/` | `COMBINED/skills/skills-hermes/` | Self-learning skills |
-| `skills-deer-flow/` | `COMBINED/skills/skills-deer-flow/` | Research workflows |
-| `skills-background/` | `COMBINED/skills/skills-background/` | Async execution |
-| `skills-omc/` | `COMBINED/skills/skills-omc/` | Multi-agent coordination |
-| `skills-business/` | `COMBINED/skills/skills-business/` | Business & growth |
-| `skills-data-analysis/` | `COMBINED/skills/skills-data-analysis/` | Data processing |
-| `skills-awesome-claude/` | `COMBINED/skills/skills-awesome-claude/` | Curated community skills |
-| `skills-copilot/` | `COMBINED/skills/skills-copilot/` | GitHub Copilot skills |
-| `skills-antigravity/` | `COMBINED/skills/skills-antigravity/` | IDE plugin skills |
-| `skills-platform/` | `COMBINED/skills/skills-platform/` | Platform & meta |
-| `obsidian/` | `COMBINED/skills/platform/obsidian/` | Obsidian skills |
+| Категория | Заметка | Описание |
+|-----------|---------|----------|
+| `skills-claude/karpathy/` | [[skills/skills-claude-karpathy]] | 4 принципа Karpathy |
+| `skills-claude/best-practice/` | [[skills/skills-claude-best-practice]] | 69 Claude Code tips |
+| `skills-development/` | [[skills/skills-development]] | TDD, triage, git-guardrails (Matt Pocock 20) |
+| `skills-planning/` | [[skills/skills-planning]] | write-a-prd, prd-to-plan, grill-me (Matt Pocock) |
+| `skills-ruflo/` | [[skills/skills-ruflo]] | Enterprise orchestration |
+| `skills-everything-cc/` | [[skills/skills-everything-cc]] | Enterprise patterns |
+| `skills-superpowers/` | [[skills/skills-superpowers]] | TDD, systematic dev |
+| `skills-design/` | [[skills/skills-design]] | UI/UX design + Impeccable + Taste-skill + Stitch |
+| `skills-seo/` | [[skills/skills-seo]] | SEO + SEOMachine (10 agents, 26 skills) |
+| `skills-writing/` | [[skills/skills-writing]] | Documentation + edit-article + write-a-skill |
+| `skills-research/` | [[skills/skills-research]] | Deep research skills |
+| `skills-devops/` | [[skills/skills-devops]] | CI/CD, deployment |
+| `skills-hermes/` | [[skills/skills-hermes]] | Self-learning skills |
+| `skills-background/` | [[skills/skills-background]] | Async execution |
+| `skills-omc/` | [[skills/skills-omc]] | Multi-agent coordination |
+| `skills-business/` | [[skills/skills-business]] | Business & growth |
+| `skills-data-analysis/` | [[skills/skills-data-analysis]] | Data processing |
+| `skills-awesome-claude/` | [[skills/skills-awesome-claude]] | Curated community skills |
+| `skills-copilot/` | [[skills/skills-copilot]] | GitHub Copilot skills |
+| `skills-antigravity/` | [[skills/skills-antigravity]] | IDE plugin skills |
+| `skills-platform/` | [[skills/skills-platform]] | Platform & meta |
+| obsidian skills | [[obsidian-skills/obsidian-markdown]] + [[obsidian-skills/obsidian-bases]] | Obsidian vault skills |
+| awesome-obsidian | [[reference/awesome-obsidian]] | 500+ plugins, themes, CSS snippets |
 
 ## 🔑 Ключевые навыки (must-know)
 

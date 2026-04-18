@@ -166,6 +166,78 @@ type: moc
 
 ---
 
+## 🧠 Skills — Детали категорий
+
+| Категория | Заметка |
+|-----------|---------|
+| Karpathy 4 принципа | [[skills/skills-claude-karpathy]] |
+| Best Practice 69 советов | [[skills/skills-claude-best-practice]] |
+| Development (Matt Pocock 20) | [[skills/skills-development]] |
+| Planning | [[skills/skills-planning]] |
+| SEO (SEOMachine) | [[skills/skills-seo]] |
+| Superpowers | [[skills/skills-superpowers]] |
+| Everything CC | [[skills/skills-everything-cc]] |
+| RuFlo | [[skills/skills-ruflo]] |
+| OMC | [[skills/skills-omc]] |
+| Writing | [[skills/skills-writing]] |
+| Design | [[skills/skills-design]] |
+| Research | [[skills/skills-research]] |
+| Hermes | [[skills/skills-hermes]] |
+| DevOps | [[skills/skills-devops]] |
+
+---
+
+## 🎨 UI Design — Детали
+
+| Уровень | Заметка |
+|---------|---------|
+| 1. Galaxy (3000+) | [[ui-design/galaxy]] |
+| 2. shadcn/ui | [[ui-design/shadcn]] |
+| 3. Impeccable | [[ui-design/impeccable]] |
+| 4. Taste-skill | [[ui-design/taste-skill]] |
+| 5. Stitch | [[ui-design/stitch]] |
+| 6. UI/UX Pro Max | [[ui-design/ui-ux-pro-max]] |
+| Master Reference | [[ui-design/combined-design-system]] |
+| Cursor Rules (500+) | [[ui-design/cursor-rules]] |
+
+---
+
+## 🛡️ Security — Детали
+
+- [[security/shannon-pro]] — Shannon Pro: 5-phase audit, 13 agents
+- [[security/security-reports]] — Исторические отчёты
+
+---
+
+## 📝 Prompts Library
+
+- [[prompts/prompts-ai-systems]] — 30+ AI tool prompts
+- [[prompts/prompts-system-models]] — 35+ archive
+- [[prompts/prompts-templates]] — Reusable templates
+- [[prompts/prompts-security]] — Shannon prompts
+- [[prompts/prompts-leaked]] — Leaked AI prompts
+
+---
+
+## 📚 Reference
+
+- [[reference/claude-hud]] — Real-time monitoring
+- [[reference/cursorrules]] — 500+ cursor rules
+- [[reference/selfhosted]] — Awesome self-hosted
+- [[reference/awesome-obsidian]] — Obsidian plugins/themes
+
+---
+
+## 🤖 Агенты по ролям (19 категорий)
+
+- [[agents-by-role/index]] — Полный индекс 189 агентов
+- [[agents-by-role/manager]] — Manager (80), [[agents-by-role/coder]] — Coder (17)
+- [[agents-by-role/researcher]] — Researcher (14), [[agents-by-role/planner]] — Planner (13)
+- [[agents-by-role/tester]] — Tester (13), [[agents-by-role/reviewer]] — Reviewer (9)
+- [[agents-by-role/security]] — Security (6), [[agents-by-role/ui-specialist]] — UI (7)
+
+---
+
 ## ⚙️ Управление vault
 
 - [[_governance/VAULT_GOVERNANCE]] — Правила и инварианты
@@ -180,17 +252,23 @@ type: moc
 
 | Метрика | Значение |
 |---------|---------|
-| Волны завершены | 6/6 |
+| Волны завершены | 8/8 |
 | MOC-хабов | 9 |
 | Root doc зеркал | 26/26 |
 | Domain overviews | 9 |
 | Mega-agent заметок | 15 |
 | Orchestration system notes | 17 |
 | MCP server notes | 11 |
+| Skills category notes | 21 |
+| UI Design notes | 8 |
+| Security notes | 2 |
+| Prompts notes | 5 |
+| Reference notes | 4 |
+| Agents By Role notes | 13 |
 | obsidian-skills notes | 5 |
 | obsidian-copilot notes | 17 |
 | Governance docs | 4 |
-| **Итого заметок** | **~120+** |
+| **Итого заметок** | **~185** |
 
 ---
 

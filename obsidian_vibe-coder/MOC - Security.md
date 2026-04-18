@@ -18,6 +18,7 @@ type: moc
 
 ## 🛡️ Shannon Pro — 5-phase Security Audit
 
+**Заметка:** [[security/shannon-pro]]
 Путь: `COMBINED/security/security-shannon/`
 
 ### Фазы аудита
@@ -70,6 +71,8 @@ Shannon использует 13 специализированных агент�
 ## Связанные MOC
 
 - [[agents/mega-security]] — Мега-агент безопасности
+- [[security/security-reports]] — исторические отчёты аудитов
+- [[agents-by-role/security]] — 6 security агентов
 - [[MOC - System]] — Pipeline включает Shannon на Step 3
 - [[MOC - MCP Servers]] — Code Review Graph как MCP
 - [[000 - Map of Maps]] — Главная карта

@@ -90,4 +90,23 @@ DEFAULT (simple code)  → mega-coder
 - [[MOC - Orchestration]] — Системы оркестрации под агентами
 - [[MOC - Security]] — Shannon и security агент
 - [[combined/Agents Overview]] — COMBINED/agents структура
+- [[agents-by-role/index]] — 19 ролей, 189 агентов
 - [[000 - Map of Maps]] — Главная карта
+
+## 📂 Агенты по ролям (19 категорий, 189 агентов)
+
+| Роль | Заметка | Агентов |
+|------|---------|---------|
+| Manager | [[agents-by-role/manager]] | 80 |
+| Coder | [[agents-by-role/coder]] | 17 |
+| Planner | [[agents-by-role/planner]] | 13 |
+| Researcher | [[agents-by-role/researcher]] | 14 |
+| Tester | [[agents-by-role/tester]] | 13 |
+| Reviewer | [[agents-by-role/reviewer]] | 9 |
+| Security | [[agents-by-role/security]] | 6 |
+| UI Specialist | [[agents-by-role/ui-specialist]] | 7 |
+| Architect | [[agents-by-role/architect]] | 5 |
+| Writer | [[agents-by-role/writer]] | 4 |
+| Debugger | [[agents-by-role/debugger]] | 3 |
+| Other roles | [[agents-by-role/other-roles]] | 18 |
+

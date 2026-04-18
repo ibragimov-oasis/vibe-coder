@@ -32,39 +32,35 @@ type: moc
 
 ## 📦 Ресурсы
 
-### Galaxy (3,000+ компонентов)
-- Путь: `COMBINED/ui-design/ui-components-galaxy/`
+### [[ui-design/galaxy]] — Galaxy (3,000+ компонентов)
 - Кнопки, карточки, лоадеры, формы, и многое другое
 - Использование: проверять ПЕРВЫМ
 
-### shadcn/ui
-- Путь: `COMBINED/ui-design/ui-components-shadcn/`
+### [[ui-design/shadcn]] — shadcn/ui
 - Accessible React компоненты (Radix + Tailwind)
 - Настраиваемые, без lock-in
 
-### Impeccable (18 команд)
-- Путь: `COMBINED/ui-design/ui-impeccable/`
+### [[ui-design/impeccable]] — Impeccable (18 команд)
 - 18 дизайн-команд, 7 референсных документов
 - Anti-slop detection — обнаруживает дешёвые паттерны
-- Команды: `audit`, `design`, `layout`, `color`, `typography`, и др.
 
-### Taste-skill (7 навыков)
-- Путь: `COMBINED/ui-design/ui-taste-skill/`
+### [[ui-design/taste-skill]] — Taste-skill (7 навыков)
 - 7 premium навыков
 - 3-dial parameterization: Density × Expressivity × Professionalism
-- Для premium-качества интерфейсов
 
-### Stitch (Google Stitch)
-- Путь: `COMBINED/ui-design/ui-stitch-skills/`
+### [[ui-design/stitch]] — Stitch (Google Stitch)
 - Google Stitch design generation
 - Генерация React компонентов из DESIGN.md
-- CSS/Tailwind вывод
 
-### UI/UX Pro Max (161 правило)
-- Путь: `COMBINED/ui-design/ui-rules/ui-ux-pro-max/`
+### [[ui-design/ui-ux-pro-max]] — UI/UX Pro Max (161 правило)
 - 161 reasoning rule + 67 design styles
 - Применять к ФИНАЛЬНОМУ выводу
-- Мастер-референс: `COMBINED/ui-design/COMBINED_DESIGN_SYSTEM.md`
+
+### [[ui-design/combined-design-system]] — Master Reference
+- Объединяет все 6 уровней в единую систему
+
+### [[ui-design/cursor-rules]] — Cursor Rules (500+)
+- `.cursorrules` файлы для 30+ стеков
 
 ## 🤖 Агент для дизайна
 
