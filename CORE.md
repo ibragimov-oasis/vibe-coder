@@ -27,6 +27,8 @@ Then check `INTERFACE_MATRIX.md` for your exact tool availability.
 ```bash
 # Preferred:
 bash memory-bootstrap.sh
+# This script auto-initializes Obsidian vault if missing, builds/updates SQL graph,
+# and checks Claude-Mem, Supermemory, OpenViking status.
 
 # Manual fallback:
 if [ ! -f .code-review-graph/graph.db ]; then
@@ -182,11 +184,24 @@ YES → Create: COMBINED/skills/{domain}/{name}/SKILL.md
 NO  → Continue
 ```
 
-### C — Quality Report (include at end of every response)
+### C — Obsidian Vault Auto-Save (⛔ MANDATORY after every non-trivial task)
+```bash
+bash obsidian-update.sh \
+  --title "<task title>" \
+  --content "<what was done, learned, decided>" \
+  --tags "<domain>,<type>"
+```
+Creates: `obsidian_vibe-coder/sessions/YYYY-MM-DD-HHMM-<title>.md`
+Updates: `obsidian_vibe-coder/MOC - Sessions.md`
+Also saves to: Supermemory (if API key configured in .env)
+Script: `obsidian-update.sh` (run `bash obsidian-update.sh --help` for usage)
+
+### D — Quality Report (include at end of every response)
 ```
 ═══════════════════════════════════
 ✅ Security: [PASS / ISSUES FIXED (describe)]
 ✅ Learned:  [NONE / New pattern: (describe)]
+✅ Obsidian: [SAVED to sessions/YYYY-MM-DD-title.md / SKIPPED (reason)]
 ✅ Changed:  [list of files]
 ✅ Tests:    [PASS / FAIL / N/A]
 ═══════════════════════════════════
@@ -213,9 +228,13 @@ AUDIT_MATRIX.md         ← Gap analysis (CRITICAL/MAJOR/MINOR)
 REALITY_TEST.md         ← Execution traces for 3 test scenarios
 SYNC_CHECK.md           ← Governance drift checklist
 AGENTS.md               ← 15 mega-agent catalog
+memory-bootstrap.sh     ← Run FIRST: builds SQL graph + initializes Obsidian vault
+obsidian-update.sh      ← Run AFTER every task: saves output as Obsidian note
 COMBINED/agents/mega/   ← Mega-agent definition files
 COMBINED/skills/        ← 3,000+ skills (see INDEX.md for portability)
 COMBINED/orchestration/ ← 23 orchestration systems
 COMBINED/ui-design/     ← UI component libraries
 COMBINED/security/      ← Shannon pentesting
+COMBINED/REPO_DOCS/     ← HOW_IT_WORKS.md for all 54 repos
+obsidian_vibe-coder/    ← Obsidian vault (MOCs, sessions, governance)
 ```
