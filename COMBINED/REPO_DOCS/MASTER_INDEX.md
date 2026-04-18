@@ -36,3 +36,25 @@ Last updated: 2026-04-06
 | 30 | galaxy | 20k | UI-UX | UI-UX/galaxy/ | ✅ done | README.md |
 | 31 | shadcn | 85k | UI-UX | UI-UX/shadcn/ | ✅ done | README.md |
 | 32 | ui-ux-pro-max | 3k | UI-UX | UI-UX/ui-ux-pro-max/ | ✅ done | README.md, CLAUDE.md, .claude/skills/ |
+| 33 | obsidian-copilot | 10k | Obsidian | new_repos/obsidian-copilot/ | ✅ done | README.md, src/, docs/ |
+| 34 | awesome-obsidian | 7k | Reference | new_repos/awesome-obsidian/ | ✅ done | README.md |
+| 35 | archon | 2k | Orchestration | COMBINED/orchestration/core-archon/ | ✅ done | YAML workflows, 17 DAG templates |
+| 36 | ralph | 1k | Orchestration | COMBINED/orchestration/core-ralph/ | ✅ done | PRD loop, progress.txt |
+| 37 | squad | 3k | Orchestration | COMBINED/orchestration/core-squad/ | ✅ done | Copilot agent casting, watch mode |
+| 38 | multica | 2k | Orchestration | COMBINED/orchestration/core-multica/ | ✅ done | Board view, multi-workspace |
+| 39 | praisonai | 8k | Orchestration | COMBINED/orchestration/core-praisonai/ | ✅ done | 100+ LLMs, route/parallel/loop |
+| 40 | cc-connect | 2k | Orchestration | COMBINED/orchestration/core-cc-connect/ | ✅ done | 10 chat platforms, cron jobs |
+| 41 | claude-task-master | 5k | Orchestration | COMBINED/orchestration/core-taskmaster/ | ✅ done | 36 MCP tools, PRD→tasks |
+| 42 | refly | 3k | Orchestration | COMBINED/orchestration/core-refly/ | ✅ done | Visual skill builder |
+| 43 | code-review-graph | 4k | Tools/MCP | COMBINED/mcp-servers/mcp-code-review-graph/ | ✅ done | AST graph, 8.2x token savings |
+| 44 | mcp-toolbox | 3k | Tools/MCP | COMBINED/mcp-servers/mcp-toolbox/ | ✅ done | 20+ databases |
+| 45 | mcp-toolbox-sdk | 2k | Tools/MCP | COMBINED/mcp-servers/mcp-toolbox-sdk/ | ✅ done | Python/JS/Go/Java SDKs |
+| 46 | markitdown | 2k | Tools/MCP | COMBINED/mcp-servers/mcp-markitdown/ | ✅ done | File→Markdown |
+| 47 | impeccable | 1k | UI-UX | COMBINED/ui-design/ui-impeccable/ | ✅ done | 18 cmds, anti-slop |
+| 48 | taste-skill | 1k | UI-UX | COMBINED/ui-design/ui-taste-skill/ | ✅ done | 7 premium skills |
+| 49 | stitch-skills | 1k | UI-UX | COMBINED/ui-design/ui-stitch-skills/ | ✅ done | Google Stitch |
+| 50 | seomachine | 3k | SEO | COMBINED/skills/skills-seo/ | ✅ done | 10 agents, 26 skills |
+| 51 | claude-code-best-practice | 2k | Skills | COMBINED/skills/skills-claude/best-practice/ | ✅ done | 69 tips |
+| 52 | skills-matt-pocock | 2k | Skills | COMBINED/skills/skills-development/ | ✅ done | 20 skills, TDD |
+| 53 | karpathy-skills | 1k | Skills | COMBINED/skills/skills-claude/karpathy/ | ✅ done | 4 principles |
+| 54 | claude-hud | 1k | Reference | COMBINED/reference/claude-hud/ | ✅ done | Real-time monitoring |

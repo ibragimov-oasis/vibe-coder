@@ -182,7 +182,38 @@ After completing the task, evaluate what you learned:
 
    **Others**: Skip — codebase context will be rebuilt on next gitnexus map.
 
-### Step C: Quality Report
+### Step C: Obsidian Vault Auto-Save (⛔ MANDATORY)
+
+Save the task output as a permanent Obsidian-compatible markdown note:
+
+```bash
+bash obsidian-update.sh \
+  --title "<task title>" \
+  --content "<what was done, what was learned, key decisions>" \
+  --tags "<domain>,<type>"
+```
+
+**Examples:**
+```bash
+# After fixing a bug:
+bash obsidian-update.sh --title "Fix Redis auth pool leak" --content "Fixed stale connection pool in auth.ts. Root cause: pool never reused connections across requests." --tags "auth,bugfix,redis"
+
+# After security audit:
+bash obsidian-update.sh --title "Security audit: API endpoints" --content "Shannon audit passed. No injection found. IDOR risk in /api/user/:id mitigated with ownership check." --tags "security,api"
+
+# After implementing a feature:
+bash obsidian-update.sh --title "Add dark mode toggle" --content "Added CSS vars + localStorage persistence. Used Galaxy component BaseToggle." --tags "ui,feature,design"
+```
+
+This creates/updates:
+- `obsidian_vibe-coder/sessions/YYYY-MM-DD-HHMM-<title>.md` — the note
+- `obsidian_vibe-coder/MOC - Sessions.md` — index of all sessions
+- `obsidian_vibe-coder/_audit/SESSION_REGISTRY.md` — searchable registry
+- Supermemory (if configured) — cross-session long-term memory
+
+**Skip conditions**: Only skip for read-only informational responses with no new learnings.
+
+### Step D: Quality Report
 
 Include this at the end of every task response:
 
@@ -190,6 +221,7 @@ Include this at the end of every task response:
 ═══════════════════════════════════
 ✅ Security: [PASS / ISSUES FIXED (describe)]
 ✅ Learned:  [NONE / New pattern: (describe)]
+✅ Obsidian: [SAVED to sessions/YYYY-MM-DD-title.md / SKIPPED (reason)]
 ✅ Changed:  [list of files]
 ✅ Tests:    [PASS / FAIL / N/A]
 ═══════════════════════════════════
@@ -201,13 +233,14 @@ Include this at the end of every task response:
 
 | Task Type | Pre-Task | Post-Task |
 |-----------|----------|-----------|
-| Simple fix (typo, style) | Skip Steps 2-4 | Quick security glance only |
-| Feature implementation | All 4 steps | Full pipeline (A + B + C) |
-| UI/Design work | Steps 2-4 | Security A + Report C |
-| Bug fix | All 4 steps | Full pipeline (A + B + C) |
-| Documentation | Skip Steps 3-4 | Skip A, do B + C |
-| Architecture/Planning | Steps 1-2 | Skip A, do B + C |
-| Security audit | Steps 1-3 | B + C only |
+| Simple fix (typo, style) | Skip Steps 2-4 | Quick security glance only; skip C |
+| Feature implementation | All 4 steps | Full pipeline (A + B + C + D) |
+| UI/Design work | Steps 2-4 | Security A + Obsidian C + Report D |
+| Bug fix | All 4 steps | Full pipeline (A + B + C + D) |
+| Documentation | Skip Steps 3-4 | Skip A, do B + C + D |
+| Architecture/Planning | Steps 1-2 | Skip A, do B + C + D |
+| Security audit | Steps 1-3 | B + C + D only |
+| Read-only Q&A | Steps 0-1 | Skip A and C, do D |
 
 ---
 

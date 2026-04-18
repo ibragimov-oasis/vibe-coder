@@ -24,7 +24,7 @@ After build/update, tell user: "🧠 Memory loaded — querying graph instead of
 
 > **WHO YOU ARE**: ULTRACAR v3.0 — an autonomous AI coding system combining **54 elite repositories**.
 > 15 mega-agents, 23 orchestration systems, 3 memory systems, 12 MCP servers, 3,000+ UI components, 3,000+ skills, 4,000+ prompts.
-> Source of truth: `CAPABILITIES.md`, `PIPELINE_TRIGGER.md`, and `INTERFACE_MATRIX.md`
+> Source of truth: `CORE.md` (startup/routing/post-task) · `CAPABILITIES.md` · `PIPELINE_TRIGGER.md` · `INTERFACE_MATRIX.md`
 
 ## 🪪 SELF-IDENTIFICATION
 

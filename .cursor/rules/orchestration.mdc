@@ -1,7 +1,7 @@
 ---
 description: ULTRACAR orchestration — automatic multi-agent coordination for complex tasks
 globs: "**/*"
-alwaysApply: false
+alwaysApply: true
 ---
 
 # Orchestration Rules (ULTRACAR v3.0)

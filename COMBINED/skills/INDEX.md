@@ -1,7 +1,53 @@
 # COMBINED/skills - Master Skills Index
 
 > **Complete catalog of all AI agent skills across 31 repositories**
-> Last updated: 2026-04-04
+> Last updated: 2026-04-18
+
+---
+
+## 🌐 Interface Portability Quick Reference
+
+> Skills are NOT locked to a single interface. Use this table to find what's available to you.
+
+### UNIVERSAL — Works in ALL 6 interfaces (Claude / Cursor / Copilot / Codex / Gemini / Antigravity)
+
+| Skill Category | Location | Best For |
+|----------------|----------|----------|
+| **Karpathy 4 Principles** | `skills-claude/karpathy/` | Think → Simplify → Surgical → Goal-Driven |
+| **69 Best Practices** | `skills-claude/best-practice/` | Enterprise Claude Code tips, agent orchestration |
+| **Superpowers (14 skills)** | `skills-superpowers/` | TDD workflow, subagent-driven dev, systematic debugging |
+| **Matt Pocock Skills (20)** | `skills-development/` | PRD, TDD, triage, git-guardrails, design-interface |
+| **Planning Skills** | `skills-planning/` | write-a-prd, prd-to-plan, grill-me, prd-to-issues |
+| **Design Skills** | `skills-design/` | Impeccable (18 cmds), Taste-skill (7 skills), UI patterns |
+| **Writing Skills** | `skills-writing/` | edit-article, write-a-skill, documentation |
+| **DevOps Skills** | `skills-devops/` | CI/CD, Vercel deploy, git workflows |
+| **Research Skills** | `skills-research/` | deep-research, GitHub research, consulting analysis |
+| **SEO Skills** | `skills-seo/` | SEOMachine (10 agents, 26 skills, GA4/GSC/DataForSEO) |
+| **Hermes Skills** | `skills-hermes/` | Self-learning, pattern extraction |
+| **DeerFlow Skills** | `skills-deer-flow/` | ByteDance multi-step research, data analysis |
+| **Antigravity Skills** | `skills-antigravity/` | 1,340+ skills: AI/ML, backend, frontend, security, cloud |
+
+### INTERFACE-OPTIMIZED — Works everywhere, but primary interface has deeper integration
+
+| Skill Category | Primary Interface | Also Works In | Notes |
+|----------------|:-----------------:|:-------------:|-------|
+| **skills-copilot** (486 files) | Copilot | Claude, Cursor, Codex, Gemini, Antigravity | breakdown-epic-arch, code-review-companion, unit-test-generator, Azure skills |
+| **skills-ruflo** (130+ skills) | Claude Code | All | Q-Learning Router, 80+ agent patterns — methodology universal |
+| **skills-omc** (OMC patterns) | Claude Code | All | 19-agent team pipeline — methodology universal |
+| **skills-everything-cc** | Claude Code | Cursor, Codex | Enterprise patterns, hooks, agent orchestration |
+
+### INTERFACE-EXCLUSIVE — Only works as designed in the owning interface
+
+| Skill/Feature | Exclusive To | Why |
+|---------------|:---:|-----|
+| Claude-Mem session memory | Claude Code | Uses Claude Code plugin API |
+| Squad casting | Copilot | Copilot-native agent teams |
+| Auto-attach .mdc rules | Cursor | Cursor rules engine |
+| Browser recording (WebP) | Antigravity | Antigravity browser subagent |
+| Search grounding | Gemini | Gemini native API |
+| Sandboxed parallel execution | Codex | Codex sandbox environment |
+
+---
 
 ## Overview
 

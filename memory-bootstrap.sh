@@ -280,6 +280,22 @@ show_status() {
     fi
 
     echo ""
+
+    # Check Obsidian vault
+    local vault_dir="${REPO_ROOT}/obsidian_vibe-coder"
+    local session_count=0
+    [ -d "${vault_dir}/sessions" ] && session_count=$(find "${vault_dir}/sessions" -name "*.md" 2>/dev/null | wc -l | tr -d ' ')
+    if [ -d "$vault_dir" ]; then
+        echo "  Obsidian Vault:"
+        echo "  ├── Status:   ✅ Found ($vault_dir)"
+        echo "  ├── Sessions: $session_count saved notes"
+        echo "  └── Update:   bash obsidian-update.sh --title '...' --content '...'"
+    else
+        echo "  Obsidian Vault:"
+        echo "  └── Status:   ⚠️  Not found — run obsidian-update.sh to initialize"
+    fi
+
+    echo ""
 }
 
 # ─── Main ─────────────────────────────────────────────────────────
@@ -343,10 +359,22 @@ main() {
     local stats=$(get_graph_stats)
     write_status "true" "$first_session" "$stats"
 
-    # Step 5: Show report
+    # Step 5: Check Obsidian vault (auto-init if missing)
+    local vault_dir="${REPO_ROOT}/obsidian_vibe-coder"
+    if [ ! -d "$vault_dir" ]; then
+        log_warn "Obsidian vault not found — initializing..."
+        bash "${REPO_ROOT}/obsidian-update.sh" --title "Vault Initialized" --content "ULTRACAR Obsidian vault auto-created by memory-bootstrap.sh on first session." --tags "domain/system,artifact/session" 2>/dev/null || true
+        log_success "Obsidian vault created at $vault_dir"
+    else
+        local session_count
+        session_count=$(find "${vault_dir}/sessions" -name "*.md" 2>/dev/null | wc -l | tr -d ' ')
+        log_success "Obsidian vault ready ($session_count saved sessions)"
+    fi
+
+    # Step 6: Show report
     show_status
 
-    # Step 6: Final message
+    # Step 7: Final message
     if $first_session; then
         log_header "🎉 First-Time Memory Bootstrap Complete!"
         echo "  The code graph has been built. From now on:"

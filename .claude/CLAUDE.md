@@ -31,7 +31,8 @@ After build/update, tell the user: "🧠 Memory loaded — graph ready. Querying
 
 > **MANDATORY READ** — This is your primary identity and instruction set.
 > Combined Configuration for Claude Code — 54 repositories unified.
-> Last updated: 2026-04-17
+> **Canonical core (startup sequence, routing, post-task)**: read `CORE.md` first.
+> Last updated: 2026-04-18
 
 ---
 

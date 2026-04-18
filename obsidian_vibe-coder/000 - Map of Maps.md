@@ -280,7 +280,7 @@ type: moc
 | Метрика | Значение |
 |---------|---------|
 | Волны завершены | 11/11 |
-| MOC-хабов | 9 |
+| MOC-хабов | 10 |
 | Root doc зеркал | 26/26 |
 | Domain overviews | 9 |
 | Mega-agent заметок | 15 |
@@ -299,7 +299,20 @@ type: moc
 | obsidian-skills notes | 5 |
 | obsidian-copilot notes | 17 |
 | Governance docs | 5 |
-| **Итого заметок** | **~217** |
+| Sessions (auto-saved) | auto-growing |
+| **Итого заметок** | **~217+** |
+
+---
+
+## 🤖 Auto-Save Sessions
+
+Vault автоматически обновляется после каждой AI-задачи через `obsidian-update.sh`:
+```bash
+bash obsidian-update.sh --title "Task name" --content "What was done" --tags "domain"
+```
+- Создаёт: `sessions/YYYY-MM-DD-HHMM-<title>.md`
+- Обновляет: [[MOC - Sessions]] и [[_audit/SESSION_REGISTRY]]
+- Сохраняет в: Supermemory (при наличии API ключа)
 
 ---
 
