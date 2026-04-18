@@ -279,3 +279,10 @@ This is an exciting time. v0.9.0 is the release where Squad scales from solo dev
 **Questions?** Drop by [Squad Discussions](https://github.com/bradygaster/squad/discussions) or ping us on [Discord](https://discord.gg/squad-community).
 
 **Want to contribute?** Check out [Contributing Guide](../guide/contributing.md). We're hiring agents (and humans who build them).
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/squad]] — Squad
+- [[000 - Map of Maps]] — Map of Maps
+

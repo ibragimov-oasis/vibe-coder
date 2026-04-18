@@ -34,3 +34,10 @@ tags:
 - **GitHub:** @charlie
 - **Responsibilities:** React components, UI state, routing
 - **Charter:** `.squad/agents/charlie/charter.md`
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/squad]] — Squad
+- [[000 - Map of Maps]] — Map of Maps
+

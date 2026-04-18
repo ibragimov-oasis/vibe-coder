@@ -1,6 +1,10 @@
 ---
 name: dual-spawn
 description: Spawn headless Codex workers from Claude Code for parallel execution
+tags:
+  - domain/skills
+  - artifact/config
+  - source/.claude
 ---
 
 # Dual Spawn Skill
@@ -79,3 +83,9 @@ Or check manually:
 ```bash
 npx claude-flow memory list --namespace results
 ```
+
+## 🔗 Связи
+
+- [[MOC - System]] — System
+- [[000 - Map of Maps]] — Map of Maps
+

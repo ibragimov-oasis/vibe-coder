@@ -4,6 +4,10 @@ type: docs
 weight: 10
 description: >
   Create a new database in a Cloud SQL instance.
+tags:
+  - domain/mcp
+  - artifact/mcp-server
+  - source/mcp-servers
 ---
 
 ## About
@@ -41,3 +45,9 @@ description: "Creates a new database in a Cloud SQL instance."
 | type        |  string  |     true     | Must be "cloud-sql-create-database".             |
 | source      |  string  |     true     | The name of the `cloud-sql-admin` source to use. |
 | description |  string  |     false    | A description of the tool.                       |
+
+## 🔗 Связи
+
+- [[MOC - MCP Servers]] — mcp-servers
+- [[000 - Map of Maps]] — Map of Maps
+

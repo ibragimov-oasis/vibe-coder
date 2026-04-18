@@ -356,3 +356,10 @@ Each platform has its own toolset:
 - [WeCom Setup](wecom.md)
 - [Open WebUI + API Server](open-webui.md)
 - [Webhooks](webhooks.md)
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/hermes]] — Hermes
+- [[000 - Map of Maps]] — Map of Maps
+

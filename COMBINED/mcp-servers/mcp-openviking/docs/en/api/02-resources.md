@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/mcp
+  - artifact/mcp-server
+  - source/mcp-servers
+---
+
 # Resources
 
 Resources are external knowledge that agents can reference. This guide covers how to add, manage, and retrieve resources.
@@ -893,3 +900,9 @@ viking://resources/
 - [Retrieval](06-retrieval.md) - Search resources
 - [File System](03-filesystem.md) - File operations
 - [Context Types](../concepts/02-context-types.md) - Resource concept
+
+## 🔗 Связи
+
+- [[MOC - MCP Servers]] — mcp-servers
+- [[000 - Map of Maps]] — Map of Maps
+

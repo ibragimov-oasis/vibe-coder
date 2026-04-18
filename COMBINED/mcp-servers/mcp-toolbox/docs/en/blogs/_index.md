@@ -6,6 +6,10 @@ weight: 1
 description: Toolbox Medium Blogs
 manualLink: "https://medium.com/@mcp_toolbox"
 manualLinkTarget: _blank
+tags:
+  - domain/mcp
+  - artifact/mcp-server
+  - source/mcp-servers
 ---
 
 <html>
@@ -18,3 +22,9 @@ manualLinkTarget: _blank
     <p>If you are not automatically redirected, please <a href="https://medium.com/@mcp_toolbox">follow this link to our articles</a>.</p>
   </body>
 </html>
+
+## 🔗 Связи
+
+- [[MOC - MCP Servers]] — mcp-servers
+- [[000 - Map of Maps]] — Map of Maps
+

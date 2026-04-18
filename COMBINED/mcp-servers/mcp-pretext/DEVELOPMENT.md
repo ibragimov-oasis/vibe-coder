@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/mcp
+  - artifact/mcp-server
+  - source/mcp-servers
+---
+
 ## Development Setup
 
 ```sh
@@ -91,3 +98,9 @@ Use the right tool for each question:
   - force GC, take a before heapsnapshot, run the workload, force GC again, take an after heapsnapshot, and diff what survives
 
 A pure Bun/Node microbenchmark is still useful for cheap hypothesis checks, but it is not the final answer when the question is browser behavior.
+
+## 🔗 Связи
+
+- [[MOC - MCP Servers]] — mcp-servers
+- [[000 - Map of Maps]] — Map of Maps
+

@@ -100,3 +100,10 @@ These are already enforced by tooling — don't waste time on them:
 - ESLint rules (return types, unused vars, etc.) — `bun run lint` catches these
 - TypeScript strict mode violations — `bun run type-check` catches these
 - Formatting (quotes, commas, indentation) — Prettier handles this
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/archon]] — Archon
+- [[000 - Map of Maps]] — Map of Maps
+

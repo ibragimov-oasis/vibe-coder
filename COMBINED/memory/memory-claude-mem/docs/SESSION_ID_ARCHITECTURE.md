@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/memory
+  - artifact/memory
+  - source/memory
+---
+
 # Session ID Architecture
 
 ## Overview
@@ -237,3 +244,9 @@ WHERE s.content_session_id = 'your-session-id';
 - **Database Schema**: `src/services/sqlite/SessionStore.ts` (line 95-104)
 - **Tests**: `tests/session_id_usage_validation.test.ts`
 - **Related Tests**: `tests/session_id_refactor.test.ts`
+
+## 🔗 Связи
+
+- [[MOC - Memory]] — memory
+- [[000 - Map of Maps]] — Map of Maps
+

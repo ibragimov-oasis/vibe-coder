@@ -182,3 +182,10 @@ git commit -m "Add Squad team"
 - **Mention fragile areas.** Agents will be more cautious and add extra test coverage.
 - **Existing `.gitattributes` is safe.** Squad only appends `merge=union` rules.
 - **History accumulates fast.** After 2–3 real tasks, agents are significantly better than cold-start.
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/squad]] — Squad
+- [[000 - Map of Maps]] — Map of Maps
+

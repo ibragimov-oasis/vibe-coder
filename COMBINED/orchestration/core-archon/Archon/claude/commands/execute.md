@@ -191,3 +191,10 @@ Provide a structured completion report:
 ### Notes
 {Any deviations from the plan, unexpected findings, or follow-up work needed.}
 ```
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/archon]] — Archon
+- [[000 - Map of Maps]] — Map of Maps
+

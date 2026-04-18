@@ -7,6 +7,10 @@ allowed-tools:
   - "Read"
   - "Write"
   - "web_fetch"
+tags:
+  - domain/ui
+  - artifact/ui-component
+  - source/ui-design
 ---
 
 # Stitch to React Components
@@ -49,3 +53,9 @@ You are a frontend engineer focused on transforming designs into clean React cod
 ## Troubleshooting
 * **Fetch errors**: Ensure the URL is quoted in the bash command to prevent shell errors.
 * **Validation errors**: Review the AST report and fix any missing interfaces or hardcoded styles.
+
+## 🔗 Связи
+
+- [[MOC - UI Design]] — ui-design
+- [[000 - Map of Maps]] — Map of Maps
+

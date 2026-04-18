@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/new_repos
+---
+
 # Vault Search and Indexing
 
 Copilot can search your vault to find relevant notes and answer questions grounded in your own content. This guide explains the two types of search, how to manage the index, and how to configure what gets indexed.
@@ -179,3 +186,8 @@ On mobile, you can still use Vault QA with lexical search, but semantic search w
 - [Agent Mode and Tools](agent-mode-and-tools.md) — How @vault uses the index in Plus mode
 - [Models and Parameters](models-and-parameters.md) — Choosing an embedding model
 - [Copilot Plus and Self-Host](copilot-plus-and-self-host.md) — Miyo-powered local semantic search
+
+## 🔗 Связи
+
+- [[000 - Map of Maps]] — Map of Maps
+

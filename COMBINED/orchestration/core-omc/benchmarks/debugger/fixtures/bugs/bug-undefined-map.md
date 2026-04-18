@@ -106,3 +106,10 @@ export async function fetchUsers(params: { role?: string }) {
 - The API endpoint `/api/users` returns `{ users: [...], total: N }` correctly
 - The component worked in development with mock data
 - The crash only happens on initial render, not on subsequent role filter changes
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/omc]] — OMC
+- [[000 - Map of Maps]] — Map of Maps
+

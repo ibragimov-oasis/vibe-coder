@@ -134,3 +134,10 @@ This sprint was about **reducing uncertainty.** We came into v0.4.0 with questio
 We shipped answers. VS Code users can adopt Squad without waiting for a v0.5.0 overhaul. Long-running work feels less like a black box. The compatibility matrix gives us a roadmap for what to test next.
 
 Open source moves at the pace of clarity. We shipped that.
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/squad]] — Squad
+- [[000 - Map of Maps]] — Map of Maps
+

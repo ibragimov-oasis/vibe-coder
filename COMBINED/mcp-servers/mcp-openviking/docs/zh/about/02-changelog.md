@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/mcp
+  - artifact/mcp-server
+  - source/mcp-servers
+---
+
 # 更新日志
 
 OpenViking 的所有重要变更都将记录在此文件中。
@@ -54,3 +61,9 @@ Bug 修复。
 
 ### 安全
 安全相关的变更。
+
+## 🔗 Связи
+
+- [[MOC - MCP Servers]] — mcp-servers
+- [[000 - Map of Maps]] — Map of Maps
+

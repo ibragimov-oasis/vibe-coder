@@ -126,3 +126,10 @@ After analysis:
 /taskmaster:expand-all  # Expand all recommended
 /taskmaster:complexity-report  # View detailed report
 ```
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/task-master]] — Task-Master
+- [[000 - Map of Maps]] — Map of Maps
+

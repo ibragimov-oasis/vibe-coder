@@ -145,3 +145,10 @@ Include tier annotation only when the model was bumped or a specialist was chose
 - ❌ Applying multiple complexity adjustments (cascading bumps)
 - ❌ Forgetting to include model in spawn acknowledgment
 - ❌ Downgrading vision-required tasks from opus
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/squad]] — Squad
+- [[000 - Map of Maps]] — Map of Maps
+

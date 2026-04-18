@@ -254,3 +254,10 @@ tags:
 ```
 
 模板内的围栏代码块会造成嵌套歧义。用内联反引号替代。
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/gsd]] — GSD
+- [[000 - Map of Maps]] — Map of Maps
+

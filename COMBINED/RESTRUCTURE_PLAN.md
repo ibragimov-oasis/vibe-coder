@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/combined-root
+---
+
 # 🎯 RESTRUCTURE EXECUTION PLAN: PREFIX-SOURCE MIGRATION
 
 > **7-Phase Plan to Transform COMBINED/ Structure**
@@ -920,3 +927,8 @@ Phases have dependencies - must be sequential.
 **Status:** Phase 0 Complete, Ready for Phase 1
 **Last Updated:** April 4, 2026
 **Next Action:** Await user approval, then execute Phase 1
+
+## 🔗 Связи
+
+- [[000 - Map of Maps]] — Map of Maps
+

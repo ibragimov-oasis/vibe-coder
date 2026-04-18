@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/reference
+  - source/reference
+---
+
 # Testing Strategy
 
 This project is small, runs in a terminal, and is mostly deterministic. The testing strategy focuses on fast, reliable checks that validate core behavior and provide a safe merge gate for PRs.
@@ -71,3 +78,9 @@ These steps should be required in PR checks to ensure new changes do not regress
 - Add or update tests for behavior changes.
 - Prefer unit tests for new helpers and integration tests for user-visible output changes.
 - Keep tests deterministic and avoid time-dependent assertions unless controlled.
+
+## 🔗 Связи
+
+- [[MOC - System]] — reference
+- [[000 - Map of Maps]] — Map of Maps
+

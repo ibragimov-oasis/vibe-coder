@@ -236,3 +236,10 @@ logs/
 ```
 
 These are invaluable for debugging when training fails or produces unexpected results.
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/hermes]] — Hermes
+- [[000 - Map of Maps]] — Map of Maps
+

@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/ui
+  - artifact/ui-component
+  - source/ui-design
+---
+
 # States and Variants
 
 Component state definitions and variant patterns.
@@ -239,3 +246,9 @@ When multiple states apply, priority (highest to lowest):
 <input aria-invalid="true" aria-describedby="error-msg">
 <span id="error-msg" role="alert">Error message</span>
 ```
+
+## 🔗 Связи
+
+- [[MOC - UI Design]] — ui-design
+- [[000 - Map of Maps]] — Map of Maps
+

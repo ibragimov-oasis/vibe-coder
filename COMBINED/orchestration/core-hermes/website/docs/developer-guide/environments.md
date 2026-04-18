@@ -522,3 +522,10 @@ environments/
     ├── tblite/                 # 100 calibrated tasks (fast TB2 proxy)
     └── yc_bench/               # Long-horizon strategic benchmark
 ```
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/hermes]] — Hermes
+- [[000 - Map of Maps]] — Map of Maps
+

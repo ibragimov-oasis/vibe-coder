@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/command
+  - source/commands
+---
+
 # SPARC Modes Overview
 
 SPARC (Specification, Planning, Architecture, Review, Code) is a comprehensive development methodology with 17 specialized modes, all integrated with MCP tools for enhanced coordination and execution.
@@ -172,3 +179,9 @@ npx claude-flow sparc run innovator "propose novel solutions"
 # 3. Documentation
 npx claude-flow sparc run documenter "document findings"
 ```
+
+## 🔗 Связи
+
+- [[MOC - System]] — commands
+- [[000 - Map of Maps]] — Map of Maps
+

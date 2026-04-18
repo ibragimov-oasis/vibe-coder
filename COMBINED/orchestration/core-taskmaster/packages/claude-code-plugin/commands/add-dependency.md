@@ -60,3 +60,10 @@ After adding dependency:
 → Task #5 is now blocked until #3 completes
 → Suggested: Also consider if #5 needs #4
 ```
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/task-master]] — Task-Master
+- [[000 - Map of Maps]] — Map of Maps
+

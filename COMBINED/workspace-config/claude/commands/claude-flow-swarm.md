@@ -1,6 +1,10 @@
 ---
 name: claude-flow-swarm
 description: Coordinate multi-agent swarms for complex tasks
+tags:
+  - domain/skills
+  - artifact/config
+  - source/workspace-config
 ---
 
 # 🐝 Claude-Flow Swarm Coordination
@@ -203,3 +207,9 @@ Swarms automatically use distributed memory for collaboration:
 - Adaptive
 
 For detailed documentation, see: https://github.com/ruvnet/claude-code-flow/docs/swarm-system.md
+
+## 🔗 Связи
+
+- [[MOC - System]] — workspace-config
+- [[000 - Map of Maps]] — Map of Maps
+

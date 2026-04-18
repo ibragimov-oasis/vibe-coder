@@ -370,3 +370,10 @@ const task = await swarm.submitTask({
 1. **Gossip Consensus** - Eventually consistent
 2. **PS Command** - Process listing
 3. **Optimize Memory** - Memory optimization command
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

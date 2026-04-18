@@ -360,3 +360,10 @@ output/
 - Automated recovery procedures
 
 This architecture provides a solid foundation for building a comprehensive, scalable, and maintainable agent swarm benchmarking tool.
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

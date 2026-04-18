@@ -177,3 +177,10 @@ If issues persist with specific models:
 4. Monitor LLM responses for tool_calls in the response
 
 The fix ensures that Gemini models are properly instructed to use available tools, resolving the issue where agents would claim they don't have internet access despite having search tools available.
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/praisonai]] — PraisonAI
+- [[000 - Map of Maps]] — Map of Maps
+

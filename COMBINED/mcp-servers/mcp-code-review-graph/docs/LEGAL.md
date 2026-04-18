@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/mcp
+  - artifact/mcp-server
+  - source/mcp-servers
+---
+
 # Legal & Privacy
 
 **License:** MIT (see [LICENSE](../LICENSE) in project root)
@@ -11,3 +18,9 @@
 **Data:** Never leaves your machine.
 
 **Warranty:** Provided as-is, without warranty of any kind.
+
+## 🔗 Связи
+
+- [[MOC - MCP Servers]] — mcp-servers
+- [[000 - Map of Maps]] — Map of Maps
+

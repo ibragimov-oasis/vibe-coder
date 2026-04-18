@@ -50,3 +50,9 @@ Universal development workflow с TDD, composable skills, subagent-driven develo
 
 - [[orchestration/core-gsd]] — GSD: spec-driven
 - [[orchestration/core-ruflo]] — RuFlo: enterprise
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Parent MOC
+- [[000 - Map of Maps]] — Map of Maps
+

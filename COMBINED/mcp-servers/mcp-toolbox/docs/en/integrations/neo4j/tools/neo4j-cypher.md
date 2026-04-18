@@ -5,6 +5,10 @@ weight: 1
 description: >
   A "neo4j-cypher" tool executes a pre-defined cypher statement against a Neo4j
   database.
+tags:
+  - domain/mcp
+  - artifact/mcp-server
+  - source/mcp-servers
 ---
 
 ## About
@@ -141,3 +145,9 @@ parameters:
 | description |                 string                  |     true     | Description of the tool that is passed to the LLM.                                           |
 | statement   |                 string                  |     true     | Cypher statement to execute                                                                  |
 | parameters  | [parameters](../../../documentation/configuration/tools/_index.md#specifying-parameters) |    false     | List of [parameters](../../../documentation/configuration/tools/_index.md#specifying-parameters) that will be used with the Cypher statement. |
+
+## 🔗 Связи
+
+- [[MOC - MCP Servers]] — mcp-servers
+- [[000 - Map of Maps]] — Map of Maps
+

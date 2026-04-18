@@ -34,3 +34,9 @@ source: "../COMBINED/agents/by-role/security/"
 - **MOC:** [[MOC - Security]]
 - **Мета-агент:** [[agents/mega-security]]
 - **Shannon Pro:** [[security/shannon-pro]]
+
+## 🔗 Связи
+
+- [[MOC - Agents]] — Parent MOC
+- [[000 - Map of Maps]] — Map of Maps
+

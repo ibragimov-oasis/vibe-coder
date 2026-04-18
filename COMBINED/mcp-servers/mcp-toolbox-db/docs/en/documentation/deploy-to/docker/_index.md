@@ -4,6 +4,10 @@ type: docs
 weight: 2
 description: >
   How to deploy Toolbox using Docker Compose.
+tags:
+  - domain/mcp
+  - artifact/mcp-server
+  - source/mcp-servers
 ---
 
 <!-- Contributor: Sujith R Pillai <sujithrpillai@gmail.com> -->
@@ -110,3 +114,9 @@ from toolbox_llamaindex import ToolboxClient
 async with ToolboxClient("http://$YOUR_URL") as toolbox:
 {{< /tab >}}
 {{< /tabpane >}}
+
+## 🔗 Связи
+
+- [[MOC - MCP Servers]] — mcp-servers
+- [[000 - Map of Maps]] — Map of Maps
+

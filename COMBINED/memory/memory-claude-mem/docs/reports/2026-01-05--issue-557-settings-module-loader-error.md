@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/memory
+  - artifact/memory
+  - source/memory
+---
+
 # Investigation Report: Issue #557 - Plugin Fails to Start
 
 **Date:** January 5, 2026
@@ -341,3 +348,9 @@ This issue is a **runtime mismatch regression** where hooks built for Bun are be
 **Priority:** High (blocks plugin startup)
 **Severity:** Critical (plugin completely non-functional)
 **Effort:** Low (configuration change + minor code addition)
+
+## 🔗 Связи
+
+- [[MOC - Memory]] — memory
+- [[000 - Map of Maps]] — Map of Maps
+

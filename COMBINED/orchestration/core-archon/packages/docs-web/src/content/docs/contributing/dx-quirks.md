@@ -61,3 +61,10 @@ Worktrees auto-allocate ports (3190–4089 range, hash-based on path). Same work
 **NEVER run `bun test` from the repo root** — it discovers all test files across all packages and runs them in one process, causing ~135 mock pollution failures.
 
 Always use `bun run test` (which uses `bun --filter '*' test` for per-package isolation).
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/archon]] — Archon
+- [[000 - Map of Maps]] — Map of Maps
+

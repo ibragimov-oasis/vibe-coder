@@ -662,3 +662,10 @@ Each conversation gets its own isolated copy of the repo:
 4. **Configure**: `.archon/config.yaml` - Tweak settings
 
 Welcome to remote agentic coding!
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/archon]] — Archon
+- [[000 - Map of Maps]] — Map of Maps
+

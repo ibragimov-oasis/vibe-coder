@@ -60,3 +60,10 @@ The workflow uses the agent configuration at `.github/praisonai-reviewer.yaml` a
 
 - **OIDC Configuration (`id-token: write`)**: Any workflow utilizing the `anthropics/claude-code-action@beta` (or similar actions requiring JWTs for AWS Bedrock/GCP Vertex) MUST define `id-token: write` under the job's `permissions` block. Missing this causes deep, opaque failures like "Could not fetch an OIDC token" paired with `Bad credentials` execution limits.
 - **Valid `github_token` Payload**: Always pass `secrets.GH_TOKEN` into `github_token` inputs rather than `secrets.PAT_TOKEN`, as the latter has historically proven invalid and caused silent 401 exceptions on curl requests behind the scenes.
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/praisonai]] — PraisonAI
+- [[000 - Map of Maps]] — Map of Maps
+

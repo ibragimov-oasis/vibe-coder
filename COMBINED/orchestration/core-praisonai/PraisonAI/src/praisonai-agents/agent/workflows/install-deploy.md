@@ -841,3 +841,10 @@ make rollback
 - **ACR authentication** - Uses `acr-auth` secret in Kubernetes
 - **GitHub Secrets** - `AZURE_CREDENTIALS`, `AZURE_USERNAME`, `AZURE_PASSWORD`
 - **Never commit** `.env` files, SQL dumps, or credentials
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/praisonai]] — PraisonAI
+- [[000 - Map of Maps]] — Map of Maps
+

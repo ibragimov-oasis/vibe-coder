@@ -94,3 +94,10 @@ Replace `<issue-number>` with a real issue number from your repo. Then watch wha
 Those two commands did more than they appeared to. Archon loaded a workflow definition, created an isolated git workspace, ran multiple AI steps in sequence, and connected them through files called **artifacts**.
 
 In [Chapter 3: How Archon Actually Works →](/book/how-it-works/), we'll trace exactly what happened — step by step, file by file — so you understand the system you're working with.
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/archon]] — Archon
+- [[000 - Map of Maps]] — Map of Maps
+

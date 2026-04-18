@@ -85,3 +85,10 @@ Changes:
 - `v3/@claude-flow/cli/src/init/executor.ts` — stop counting .yaml files
 - `COMBINED/workspace-config/claude/agents/**/*.md` — 100+ files standardized
 - `COMBINED/workspace-config/claude/skills/**/SKILL.md` — 17 files standardized
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

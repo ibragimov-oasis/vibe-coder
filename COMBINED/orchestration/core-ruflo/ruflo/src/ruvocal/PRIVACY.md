@@ -46,3 +46,10 @@ HuggingChat connects to the OpenAI‑compatible Inference Providers router at `h
 We welcome any feedback on this app: please participate in the public discussion at <https://huggingface.co/spaces/huggingchat/chat-ui/discussions>
 
 <a target="_blank" href="https://huggingface.co/spaces/huggingchat/chat-ui/discussions"><img src="https://huggingface.co/datasets/huggingface/badges/raw/main/open-a-discussion-xl.svg" title="open a discussion"></a>
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

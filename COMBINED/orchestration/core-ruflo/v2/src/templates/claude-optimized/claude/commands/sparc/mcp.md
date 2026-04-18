@@ -180,3 +180,10 @@ npx claude-flow sparc run mcp-optimized "configure all external service endpoint
 • **Improved error recovery** through concurrent retry mechanisms
 • **Better resource utilization** with parallel configuration loading
 • **Faster testing cycles** with concurrent integration tests
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

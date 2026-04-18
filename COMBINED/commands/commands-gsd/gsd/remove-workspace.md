@@ -6,6 +6,10 @@ allowed-tools:
   - Bash
   - Read
   - AskUserQuestion
+tags:
+  - domain/skills
+  - artifact/command
+  - source/commands
 ---
 <context>
 **Arguments:**
@@ -24,3 +28,9 @@ Remove a workspace directory after confirmation. For worktree strategy, runs `gi
 <process>
 Execute the remove-workspace workflow from @~/.claude/get-shit-done/workflows/remove-workspace.md end-to-end.
 </process>
+
+## 🔗 Связи
+
+- [[MOC - System]] — commands
+- [[000 - Map of Maps]] — Map of Maps
+

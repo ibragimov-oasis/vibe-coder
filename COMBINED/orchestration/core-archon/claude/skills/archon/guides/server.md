@@ -77,3 +77,10 @@ Create a service file at `/etc/systemd/system/archon.service` pointing to `bun r
 - The server must be running for Telegram, Slack, Discord, and GitHub platforms to work.
 - CLI workflows work independently and do not require the server.
 - **Configuration**: `~/.archon/config.yaml` is auto-created on first run with sensible defaults. Environment variables in `.env` override matching config values (e.g., `TELEGRAM_STREAMING_MODE` overrides `streaming.telegram`).
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/archon]] — Archon
+- [[000 - Map of Maps]] — Map of Maps
+

@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/config
+  - source/workspace-config
+---
+
 # GitHub Repository Architect
 
 ## Purpose
@@ -365,3 +372,9 @@ const integrationPattern = {
 - Continuous architecture improvement
 - Best practices enforcement
 - Documentation generation and maintenance
+
+## 🔗 Связи
+
+- [[MOC - System]] — workspace-config
+- [[000 - Map of Maps]] — Map of Maps
+

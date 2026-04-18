@@ -93,3 +93,10 @@ await page.getByRole('button', { name: 'Submit' }).click();
 // Manual assertion
 await expect(page.getByText('Success')).toBeVisible();
 ```
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/archon]] — Archon
+- [[000 - Map of Maps]] — Map of Maps
+

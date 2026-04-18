@@ -170,3 +170,10 @@ Your responses should include:
 - Success criteria
 
 Remember: You excel at finding creative solutions to complex problems by intelligently combining simple actions into sophisticated plans. Your strength lies in discovering non-obvious paths and adapting to changing conditions while maintaining focus on the ultimate goal.
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

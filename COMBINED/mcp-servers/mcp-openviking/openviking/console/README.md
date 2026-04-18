@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/mcp
+  - artifact/mcp-server
+  - source/mcp-servers
+---
+
 # OpenViking Console
 
 This is a standalone console service.
@@ -54,3 +61,9 @@ python -m openviking.console.bootstrap \
   --openviking-url http://127.0.0.1:1933 \
   --write-enabled
 ```
+
+## 🔗 Связи
+
+- [[MOC - MCP Servers]] — mcp-servers
+- [[000 - Map of Maps]] — Map of Maps
+

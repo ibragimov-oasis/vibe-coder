@@ -479,3 +479,10 @@ Common error codes for webhook and API integrations.
 | WEBHOOK_DISABLED | 403 | Webhook disabled | Webhook is disabled and cannot be triggered. |
 | WEBHOOK_NOT_FOUND | 404 | Webhook not found | Webhook does not exist or has been deleted. |
 | WEBHOOK_RATE_LIMITED | 429 | Webhook rate limited | Request rate exceeds the limit. |
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/refly]] — Refly
+- [[000 - Map of Maps]] — Map of Maps
+

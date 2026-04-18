@@ -635,3 +635,10 @@ Special thanks to all contributors who made this release possible!
 - [AGENT-SPECIFICATIONS.md](./AGENT-SPECIFICATIONS.md) - Agent #15 details
 - [../migration/MIGRATION-GUIDE.md](../migration/MIGRATION-GUIDE.md) - Migration guide
 - [GITHUB-ISSUE-TRACKING.md](./GITHUB-ISSUE-TRACKING.md) - Issue workflow
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

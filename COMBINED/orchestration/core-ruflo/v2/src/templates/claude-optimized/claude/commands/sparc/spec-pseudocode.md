@@ -169,3 +169,10 @@ npx claude-flow sparc run spec-pseudocode "document database architecture using 
 2. **Convention Detection**: Identify coding patterns across the entire codebase simultaneously
 3. **Gap Analysis**: Compare existing code with requirements using parallel operations
 4. **Test Coverage Mapping**: Analyze test files and source files concurrently for coverage insights
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

@@ -232,3 +232,10 @@ Hover over a project in the sidebar and click the delete icon, or use the API to
 - [Configuration](/getting-started/configuration/) -- Customize Archon for your project
 - [Authoring Workflows](/guides/authoring-workflows/) -- Create custom workflows
 - [API Reference](/reference/api/) -- Full REST API documentation
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/archon]] — Archon
+- [[000 - Map of Maps]] — Map of Maps
+

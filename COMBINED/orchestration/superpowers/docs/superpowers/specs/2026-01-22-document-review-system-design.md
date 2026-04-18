@@ -141,3 +141,10 @@ Tasks and steps use checkbox syntax:
 **Modified files:**
 - `skills/brainstorming/SKILL.md` - add review loop after spec written
 - `skills/skills-writing-plans/SKILL.md` - add chunk-by-chunk review loop, update task syntax examples
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/superpowers]] — Superpowers
+- [[000 - Map of Maps]] — Map of Maps
+

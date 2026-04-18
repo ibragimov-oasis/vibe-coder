@@ -68,3 +68,10 @@ This distinguishes "was true" (past validity), "is true" (current validity), "wi
 - **TTL on memory entries**: Only handles expiration, not future activation or supersession
 - **Event sourcing**: Correct but requires a full event store; temporal assertions are lighter weight
 - **Temporal databases (e.g., XTDB)**: Too heavy a dependency for an embedded governance module
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

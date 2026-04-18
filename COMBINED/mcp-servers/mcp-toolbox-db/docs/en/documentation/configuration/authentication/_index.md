@@ -4,6 +4,10 @@ type: docs
 weight: 1
 description: >
   AuthServices represent services that handle authentication and authorization.
+tags:
+  - domain/mcp
+  - artifact/mcp-server
+  - source/mcp-servers
 ---
 
 AuthServices represent services that handle authentication and authorization. It
@@ -305,3 +309,9 @@ func main() {
 ```
 
 ## Types of Auth Services
+
+## 🔗 Связи
+
+- [[MOC - MCP Servers]] — mcp-servers
+- [[000 - Map of Maps]] — Map of Maps
+

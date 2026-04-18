@@ -75,3 +75,10 @@ agent-browser has a [known bug](https://github.com/vercel-labs/agent-browser/iss
 If agent-browser is not installed, the E2E workflow nodes will fail when the agent tries to invoke `agent-browser`. The AI agent is instructed (via prompt) to stop after 2 failed connection attempts and produce a code-review-only report — but this is a prompt-level instruction, not automated workflow logic. Results may vary depending on the AI model's adherence to the instruction.
 
 You can safely run all non-E2E workflows without agent-browser installed.
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/archon]] — Archon
+- [[000 - Map of Maps]] — Map of Maps
+

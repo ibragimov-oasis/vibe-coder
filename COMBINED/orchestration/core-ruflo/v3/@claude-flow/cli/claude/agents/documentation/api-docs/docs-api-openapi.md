@@ -176,3 +176,10 @@ components:
 - Error response documentation
 - Security requirements
 - Rate limiting information
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

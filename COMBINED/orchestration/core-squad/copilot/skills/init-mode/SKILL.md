@@ -104,3 +104,10 @@ The `union` merge driver keeps all lines from both sides, which is correct for a
 - ❌ Using `## Team Roster` instead of `## Members` as the header (breaks GitHub workflows)
 - ❌ Forgetting to initialize `.squad/casting/` state files
 - ❌ Reading or storing `git config user.email` (PII violation)
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/squad]] — Squad
+- [[000 - Map of Maps]] — Map of Maps
+

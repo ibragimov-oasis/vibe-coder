@@ -307,3 +307,10 @@ See: [GITHUB-ISSUE-TRACKING.md](./GITHUB-ISSUE-TRACKING.md)
 - [BENCHMARK-OPTIMIZATION.md](./BENCHMARK-OPTIMIZATION.md) - Performance plan
 - [DEPLOYMENT-PLAN.md](./DEPLOYMENT-PLAN.md) - Release strategy
 - [GITHUB-ISSUE-TRACKING.md](./GITHUB-ISSUE-TRACKING.md) - Issue workflow
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

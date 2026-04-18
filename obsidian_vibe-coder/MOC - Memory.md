@@ -74,3 +74,8 @@ fi
 - [[MOC - MCP Servers]] — Supermemory и OpenViking как MCP
 - [[MOC - Orchestration]] — Hermes пишет в Supermemory
 - [[000 - Map of Maps]] — Главная карта
+
+## 🔗 Связи
+
+- [[000 - Map of Maps]] — Map of Maps
+

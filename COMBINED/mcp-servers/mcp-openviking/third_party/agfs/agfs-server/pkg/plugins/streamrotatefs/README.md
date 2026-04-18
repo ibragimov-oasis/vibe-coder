@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/mcp
+  - artifact/mcp-server
+  - source/mcp-servers
+---
+
 # StreamRotateFS Plugin - Rotating Streaming File System
 
 This plugin extends StreamFS with automatic file rotation support. Data is streamed to readers while being saved to rotating files on local filesystem.
@@ -140,3 +147,9 @@ uv run agfs mount streamrotatefs /rotate rotation_size=50MB output_path=/s3fs/ou
 ## License
 
 Apache License 2.0
+
+## 🔗 Связи
+
+- [[MOC - MCP Servers]] — mcp-servers
+- [[000 - Map of Maps]] — Map of Maps
+

@@ -20,3 +20,10 @@ API and database layer design.
 - Python, Flask, SQLAlchemy
 - REST API design
 - Database design
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/squad]] — Squad
+- [[000 - Map of Maps]] — Map of Maps
+

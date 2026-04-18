@@ -49,3 +49,9 @@ npx -y nano-banana-2-mcp
 
 - [[combined/UI Design Overview]] — UI/Design система ULTRACAR
 - [[mcp-servers/mcp-lightpanda]] — визуальная проверка UI
+
+## 🔗 Связи
+
+- [[MOC - MCP Servers]] — Parent MOC
+- [[000 - Map of Maps]] — Map of Maps
+

@@ -175,3 +175,9 @@ This combination gives you:
 - Fast iteration cycles with easy recovery from bad edits.
 - Clean, reviewable pull requests.
 
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/hermes]] — Hermes
+- [[000 - Map of Maps]] — Map of Maps
+

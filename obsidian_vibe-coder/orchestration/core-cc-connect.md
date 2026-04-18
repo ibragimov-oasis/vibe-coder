@@ -47,3 +47,9 @@ Telegram, Slack, Discord, WeChat + 6 других
 
 - [[orchestration/core-taskmaster]] — управление задачами
 - [[orchestration/core-background-agents]] — async выполнение
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Parent MOC
+- [[000 - Map of Maps]] — Map of Maps
+

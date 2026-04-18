@@ -138,3 +138,10 @@ EOF
 node /tmp/parse_comments.js
 
 And got a nice report you could act on.
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/task-master]] — Task-Master
+- [[000 - Map of Maps]] — Map of Maps
+

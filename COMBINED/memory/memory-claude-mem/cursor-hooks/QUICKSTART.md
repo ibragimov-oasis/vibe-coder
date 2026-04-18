@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/memory
+  - artifact/memory
+  - source/memory
+---
+
 # Quick Start: Claude-Mem + Cursor Integration
 
 > **Give your Cursor AI persistent memory in under 5 minutes**
@@ -109,4 +116,9 @@ Restart Cursor to load the hooks.
 - Read [README.md](README.md) for detailed documentation
 - Read [INTEGRATION.md](INTEGRATION.md) for architecture details
 - Visit [claude-mem docs](https://docs.claude-mem.ai) for full feature set
+
+## 🔗 Связи
+
+- [[MOC - Memory]] — memory
+- [[000 - Map of Maps]] — Map of Maps
 

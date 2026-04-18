@@ -289,3 +289,10 @@ Run `bash sync-mesh.sh` (or `.\sync-mesh.ps1` on Windows) before agents start to
 - Modifying agent charters or routing rules
 - Setting up CI/CD pipelines for mesh sync
 - Creating dashboards or monitoring tools
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/squad]] — Squad
+- [[000 - Map of Maps]] — Map of Maps
+

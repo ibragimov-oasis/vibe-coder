@@ -195,3 +195,10 @@ mcp__claude-flow__memory_usage {
 - Point-in-time recovery
 - Distributed backup coordination
 - Memory reconstruction from peers
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

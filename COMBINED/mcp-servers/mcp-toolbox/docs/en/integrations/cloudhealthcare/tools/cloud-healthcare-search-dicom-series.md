@@ -4,6 +4,10 @@ type: docs
 weight: 1
 description: >
   A "cloud-healthcare-search-dicom-series" tool searches for DICOM series in a DICOM store.
+tags:
+  - domain/mcp
+  - artifact/mcp-server
+  - source/mcp-servers
 ---
 
 ## About
@@ -53,3 +57,9 @@ description: Use this tool to search for DICOM series in the DICOM store.
 | storeID                |  string  |    true*     | The DICOM store ID to search in.                                                                                                                                                                                                                                                                                                                                              |
 
 *If the `allowedDIComStores` in the source has length 1, then the `storeID` parameter is not needed.
+
+## 🔗 Связи
+
+- [[MOC - MCP Servers]] — mcp-servers
+- [[000 - Map of Maps]] — Map of Maps
+

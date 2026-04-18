@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/config
+  - source/workspace-config
+---
+
 # Automatic Topology Selection
 
 ## Purpose
@@ -60,3 +67,9 @@ Parameters: {"swarmId": "current"}
 # Auto-optimize topology via CLI
 npx claude-flow optimize topology
 ```
+
+## 🔗 Связи
+
+- [[MOC - System]] — workspace-config
+- [[000 - Map of Maps]] — Map of Maps
+

@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/mcp
+  - artifact/mcp-server
+  - source/mcp-servers
+---
+
 # API Overview
 
 This page covers how to connect to OpenViking and the conventions shared across all API endpoints.
@@ -372,3 +379,9 @@ Compact JSON with status wrapper (when `--compact` is true, which is the default
 - [Skills](04-skills.md) - Skill management
 - [System](07-system.md) - System and monitoring API
 - [Admin](08-admin.md) - Multi-tenant management API
+
+## 🔗 Связи
+
+- [[MOC - MCP Servers]] — mcp-servers
+- [[000 - Map of Maps]] — Map of Maps
+

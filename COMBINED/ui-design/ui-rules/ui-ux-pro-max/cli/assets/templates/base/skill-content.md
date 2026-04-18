@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/ui
+  - artifact/ui-component
+  - source/ui-design
+---
+
 # {{TITLE}}
 
 {{DESCRIPTION}}
@@ -351,3 +358,9 @@ Scope notice: This checklist is for App UI (iOS/Android/React Native/Flutter).
 - [ ] Color is not the only indicator
 - [ ] Reduced motion and dynamic text size are supported without layout breakage
 - [ ] Accessibility traits/roles/states (selected, disabled, expanded) are announced correctly
+
+## 🔗 Связи
+
+- [[MOC - UI Design]] — ui-design
+- [[000 - Map of Maps]] — Map of Maps
+

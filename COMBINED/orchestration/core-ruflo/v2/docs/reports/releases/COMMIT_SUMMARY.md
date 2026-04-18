@@ -252,3 +252,10 @@ memory store config "key=sk-ant-xxx" --redact
 **Commit Hash:** ee0f5e555
 **Branch:** feature/agentic-flow-integration
 **Status:** ✅ READY FOR RELEASE
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

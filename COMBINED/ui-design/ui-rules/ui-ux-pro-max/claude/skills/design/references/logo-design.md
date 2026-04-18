@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/ui
+  - artifact/ui-component
+  - source/ui-design
+---
+
 # Logo Design Reference
 
 AI-powered logo design with 55+ styles, 30 color palettes, 25 industry guides. Uses Gemini Nano Banana models.
@@ -90,3 +97,9 @@ Options: `--style`, `--industry`, `--prompt`
 export GEMINI_API_KEY="your-key"
 pip install google-genai
 ```
+
+## 🔗 Связи
+
+- [[MOC - UI Design]] — ui-design
+- [[000 - Map of Maps]] — Map of Maps
+

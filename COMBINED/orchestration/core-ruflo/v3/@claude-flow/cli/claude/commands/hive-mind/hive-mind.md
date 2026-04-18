@@ -32,3 +32,10 @@ npx claude-flow hive-mind spawn "Build microservices"
 # Check status
 npx claude-flow hive-mind status
 ```
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

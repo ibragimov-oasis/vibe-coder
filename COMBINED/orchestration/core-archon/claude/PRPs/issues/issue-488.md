@@ -258,3 +258,10 @@ bun run lint
 - **Investigated by**: Claude
 - **Timestamp**: 2026-03-10T12:00:00Z
 - **Artifact**: `.claude/PRPs/issues/issue-488.md`
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/archon]] — Archon
+- [[000 - Map of Maps]] — Map of Maps
+

@@ -4,6 +4,10 @@ type: docs
 weight: 1
 description: >
   "looker-health-pulse" performs health checks on a Looker instance, with multiple actions available (e.g., checking database connections, dashboard performance, etc).
+tags:
+  - domain/mcp
+  - artifact/mcp-server
+  - source/mcp-servers
 ---
 
 ## About
@@ -76,3 +80,9 @@ description: |
 | type        |  string  |     true     | Must be "looker-health-pulse"                      |
 | source      |  string  |     true     | Looker source name                                 |
 | description |  string  |     true     | Description of the tool that is passed to the LLM. |
+
+## 🔗 Связи
+
+- [[MOC - MCP Servers]] — mcp-servers
+- [[000 - Map of Maps]] — Map of Maps
+

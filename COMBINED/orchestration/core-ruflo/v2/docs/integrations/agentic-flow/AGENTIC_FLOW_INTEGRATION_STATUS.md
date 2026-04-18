@@ -148,3 +148,10 @@ I recommend **PAUSING HERE** and:
 **Created**: 2025-10-10
 **Status**: Awaiting direction on implementation scope
 **See**: Issue #794 for full EPIC details
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

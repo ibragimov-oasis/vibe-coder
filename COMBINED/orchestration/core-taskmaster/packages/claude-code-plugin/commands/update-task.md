@@ -77,3 +77,10 @@ After updates:
 - Log changes with context
 
 Result: Flexible, intelligent task updates with safety checks.
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/task-master]] — Task-Master
+- [[000 - Map of Maps]] — Map of Maps
+

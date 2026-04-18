@@ -409,3 +409,10 @@ To continue: `/plan {prd-path}`
 - **REPORT_CREATED**: Implementation report exists
 - **PLAN_ARCHIVED**: Plan moved to completed folder
 - **PRD_UPDATED**: Source PRD phase marked complete (if applicable)
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/archon]] — Archon
+- [[000 - Map of Maps]] — Map of Maps
+

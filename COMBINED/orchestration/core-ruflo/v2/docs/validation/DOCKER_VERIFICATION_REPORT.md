@@ -376,3 +376,10 @@ claude-flow mcp tools | grep neural
 **Verified By**: Docker Automated Test Suite
 **Status**: ✅ PASS - Production Ready
 **Approval**: Recommended for deployment
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

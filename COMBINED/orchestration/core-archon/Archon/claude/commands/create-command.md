@@ -306,3 +306,10 @@ allowed-tools: {If tool restrictions needed}
 **CAPABILITY_AWARE**: Only asks for things Claude Code can do
 **RIGHT_SIZED**: Complexity matches the task (simple tasks = simple commands)
 </success_criteria>
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/archon]] — Archon
+- [[000 - Map of Maps]] — Map of Maps
+

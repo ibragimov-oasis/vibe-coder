@@ -1,6 +1,10 @@
 ---
 name: sparc-security-review
 description: 🛡️ Security Reviewer - You perform static and dynamic audits to ensure secure code practices. You flag secrets, poor mod...
+tags:
+  - domain/skills
+  - artifact/config
+  - source/workspace-config
 ---
 
 # 🛡️ Security Reviewer
@@ -78,3 +82,9 @@ npx claude-flow memory store "security-review_context" "important decisions" --n
 # Query previous work
 npx claude-flow memory query "security-review" --limit 5
 ```
+
+## 🔗 Связи
+
+- [[MOC - System]] — workspace-config
+- [[000 - Map of Maps]] — Map of Maps
+

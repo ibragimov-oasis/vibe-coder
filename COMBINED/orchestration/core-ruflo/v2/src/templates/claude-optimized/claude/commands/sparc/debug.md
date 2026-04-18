@@ -144,3 +144,10 @@ const fixes = await batchtools.validateFixes([
   { file: 'session.ts', test: 'session.test.ts' },
 ]);
 ```
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

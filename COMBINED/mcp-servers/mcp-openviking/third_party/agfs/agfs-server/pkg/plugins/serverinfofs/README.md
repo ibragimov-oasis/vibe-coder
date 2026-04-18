@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/mcp
+  - artifact/mcp-server
+  - source/mcp-servers
+---
+
 ServerInfoFS Plugin - Server Metadata and Information
 
 This plugin provides runtime information about the AGFS server.
@@ -42,3 +49,9 @@ EXAMPLES:
 ## License
 
 Apache License 2.0
+
+## 🔗 Связи
+
+- [[MOC - MCP Servers]] — mcp-servers
+- [[000 - Map of Maps]] — Map of Maps
+

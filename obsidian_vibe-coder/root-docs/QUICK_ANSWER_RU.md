@@ -39,3 +39,9 @@ source: "../QUICK_ANSWER_RU.md"
 
 - [[000 - Map of Maps]] — полная карта vault
 - [[root-docs/AGENTS]] — полный каталог агентов
+
+## 🔗 Связи
+
+- [[000 - Map of Maps]] — Parent MOC
+- [[000 - Map of Maps]] — Map of Maps
+

@@ -217,3 +217,10 @@ Before you stop, verify ALL of these are done:
 - [ ] Updated memory with findings and backlog
 
 If any item is unchecked, you are not done. Keep going.
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/archon]] — Archon
+- [[000 - Map of Maps]] — Map of Maps
+

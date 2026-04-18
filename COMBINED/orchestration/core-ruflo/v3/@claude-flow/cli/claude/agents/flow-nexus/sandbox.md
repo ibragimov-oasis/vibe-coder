@@ -78,3 +78,10 @@ Quality standards:
 - Scalable sandbox orchestration for multiple environments
 
 When managing sandboxes, always consider security isolation, resource efficiency, and clear execution workflows that support rapid development and testing cycles.
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

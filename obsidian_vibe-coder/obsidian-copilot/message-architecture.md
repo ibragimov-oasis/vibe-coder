@@ -44,3 +44,9 @@ source: "../new_repos/obsidian-copilot/designdocs/MESSAGE_ARCHITECTURE.md"
 
 - [[combined/Memory Overview]] — архитектура памяти ULTRACAR
 - [[combined/Orchestration Overview]] — изоляция контекста в оркестрации
+
+## 🔗 Связи
+
+- [[MOC - System]] — Parent MOC
+- [[000 - Map of Maps]] — Map of Maps
+

@@ -175,3 +175,10 @@ installs its own infrastructure for future sessions.
 - "Dynamic context injection means Claude starts with real data, not instructions to go find it."
 - "Skill-scoped hooks live during execution. Settings hooks live across sessions. This skill uses both."
 - "The skill installs its own SessionStart hook — it's a self-configuring workflow."
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/archon]] — Archon
+- [[000 - Map of Maps]] — Map of Maps
+

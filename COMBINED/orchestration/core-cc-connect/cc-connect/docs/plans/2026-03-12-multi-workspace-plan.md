@@ -1359,3 +1359,10 @@ Expected: Clean build and all tests pass
 git add config.example.toml
 git commit -m "docs: add multi-workspace example to config.example.toml"
 ```
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/cc-connect]] — CC-Connect
+- [[000 - Map of Maps]] — Map of Maps
+

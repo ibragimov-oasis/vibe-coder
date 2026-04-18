@@ -1,6 +1,10 @@
 ---
 name: gitnexus-pr-review
 description: "Use when the user wants to review a pull request, understand what a PR changes, assess risk of merging, or check for missing test coverage. Examples: \"Review this PR\", \"What does PR #42 change?\", \"Is this PR safe to merge?\""
+tags:
+  - domain/mcp
+  - artifact/mcp-server
+  - source/mcp-servers
 ---
 
 # PR Review with GitNexus
@@ -161,3 +165,9 @@ Structure your review as:
 ### Recommendation
 APPROVE / REQUEST CHANGES / NEEDS DISCUSSION
 ```
+
+## 🔗 Связи
+
+- [[MOC - MCP Servers]] — mcp-servers
+- [[000 - Map of Maps]] — Map of Maps
+

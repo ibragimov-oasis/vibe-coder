@@ -168,3 +168,10 @@ How often does cleanup run?
 ```
 
 Reports the current `everyNRounds` setting from config.
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/squad]] — Squad
+- [[000 - Map of Maps]] — Map of Maps
+

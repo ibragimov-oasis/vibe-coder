@@ -305,3 +305,10 @@ Finds historical decisions related to a specific topic or keyword.
 - [Your Team](./your-team.md) — How agents use shared memory to coordinate
 - [Architecture](./architecture.md) — How the coordinator and agents share state
 - [Parallel Work](./parallel-work.md) — How agents maintain consistency while working in parallel
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/squad]] — Squad
+- [[000 - Map of Maps]] — Map of Maps
+

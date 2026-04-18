@@ -4,6 +4,10 @@ description: List active GSD workspaces and their status
 allowed-tools:
   - Bash
   - Read
+tags:
+  - domain/skills
+  - artifact/command
+  - source/commands
 ---
 <objective>
 Scan `~/gsd-workspaces/` for workspace directories containing `WORKSPACE.md` manifests. Display a summary table with name, path, repo count, strategy, and GSD project status.
@@ -17,3 +21,9 @@ Scan `~/gsd-workspaces/` for workspace directories containing `WORKSPACE.md` man
 <process>
 Execute the list-workspaces workflow from @~/.claude/get-shit-done/workflows/list-workspaces.md end-to-end.
 </process>
+
+## 🔗 Связи
+
+- [[MOC - System]] — commands
+- [[000 - Map of Maps]] — Map of Maps
+

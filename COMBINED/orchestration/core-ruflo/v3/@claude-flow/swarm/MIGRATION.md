@@ -477,3 +477,10 @@ await hub.spawnAllAgents();
 ---
 
 **Questions?** The `UnifiedSwarmCoordinator` is the future. Migrate today! 🚀
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

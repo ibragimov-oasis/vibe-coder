@@ -253,4 +253,8 @@ results = collection.query(
 - **Colab**: https://colab.research.google.com/github/openai/clip/
 - **License**: MIT
 
+## 🔗 Связи
+
+- [[000 - Map of Maps]] — REPO_DOCS
+- [[000 - Map of Maps]] — Map of Maps
 

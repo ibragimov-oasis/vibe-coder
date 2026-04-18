@@ -4,6 +4,10 @@ type: docs
 weight: 3
 description: >
   Go SDKs to connect to the MCP Toolbox server.
+tags:
+  - domain/mcp
+  - artifact/mcp-server
+  - source/mcp-servers
 ---
 
 ## Overview
@@ -72,3 +76,9 @@ Source code for [Go-sdk](https://github.com/googleapis/mcp-toolbox-sdk-go)
 {{< /notice >}}
 
 ## Explore the Go SDKs
+
+## 🔗 Связи
+
+- [[MOC - MCP Servers]] — mcp-servers
+- [[000 - Map of Maps]] — Map of Maps
+

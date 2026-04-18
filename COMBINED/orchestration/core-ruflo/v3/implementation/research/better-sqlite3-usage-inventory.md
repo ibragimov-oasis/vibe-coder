@@ -616,3 +616,10 @@ const { createDatabase } = require('./sqlite-wrapper.js');
 **Document Version**: 1.0
 **Last Updated**: 2026-01-03
 **Status**: Complete inventory for migration planning
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

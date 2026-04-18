@@ -20,3 +20,10 @@ User interface and client application.
 - React, TypeScript
 - CSS, responsive design
 - Component libraries
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/squad]] — Squad
+- [[000 - Map of Maps]] — Map of Maps
+

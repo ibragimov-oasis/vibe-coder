@@ -220,3 +220,10 @@ hermes honcho setup
 ```
 
 See the [Honcho Memory](./honcho.md) docs for full configuration, tools, and CLI reference.
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/hermes]] — Hermes
+- [[000 - Map of Maps]] — Map of Maps
+

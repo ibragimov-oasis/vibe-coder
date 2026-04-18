@@ -318,3 +318,10 @@ No migration needed - this is an additive feature. Existing users:
 
 **Decision Date:** 2026-02-08
 **Review Date:** 2026-03-08 (30 days post-implementation)
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

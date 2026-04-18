@@ -89,3 +89,10 @@ After plans pass the checker (or checker is skipped), verify all phase requireme
 - Plan checker passed (or issues logged)
 - Requirements coverage verified
 </success_criteria>
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/gsd]] — GSD
+- [[000 - Map of Maps]] — Map of Maps
+

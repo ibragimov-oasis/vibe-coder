@@ -207,3 +207,10 @@ Output: Resource predictions
 - Automatic reinforcement
 - Strategy adjustment
 - Graceful degradation
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

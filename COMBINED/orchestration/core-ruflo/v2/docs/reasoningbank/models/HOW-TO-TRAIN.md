@@ -542,3 +542,10 @@ Each script provides a complete example of:
 **Happy training!** 🚀
 
 For more examples, see `/docs/reasoningbank/models/` directory.
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

@@ -243,3 +243,10 @@ The config type system is designed for:
 - Web UI configuration
 - API-driven config updates
 - Real-time config validation
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/archon]] — Archon
+- [[000 - Map of Maps]] — Map of Maps
+

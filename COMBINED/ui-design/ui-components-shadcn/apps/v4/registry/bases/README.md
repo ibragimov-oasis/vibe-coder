@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/ui
+  - artifact/ui-component
+  - source/ui-design
+---
+
 # Registry bases (`base` and `radix`)
 
 This folder holds **two parallel registries**:
@@ -13,3 +20,9 @@ For any **shared** surface (same preview block, same card, same example intent),
 - Avoid editing only one tree unless the work is intentionally scoped to a single base.
 
 Project automation: see `.cursor/rules/registry-bases-parity.mdc` for the Cursor rule agents use when working under `apps/v4/registry/bases/`.
+
+## 🔗 Связи
+
+- [[MOC - UI Design]] — ui-design
+- [[000 - Map of Maps]] — Map of Maps
+

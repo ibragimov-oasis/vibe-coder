@@ -456,3 +456,10 @@ See fix report: `$ARTIFACTS_DIR/review/fix-report.md`
 - **VALIDATION_PASSED**: Type check, lint, tests, build all pass
 - **COMMITTED_AND_PUSHED**: Changes committed AND pushed to PR branch
 - **REPORTED**: Fix report artifact and GitHub comment created
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/archon]] — Archon
+- [[000 - Map of Maps]] — Map of Maps
+

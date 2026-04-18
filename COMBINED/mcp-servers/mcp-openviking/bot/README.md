@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/mcp
+  - artifact/mcp-server
+  - source/mcp-servers
+---
+
 # Vikingbot
 
 **Vikingbot**, built on the [Nanobot](https://github.com/HKUDS/nanobot) project, is designed to deliver an OpenClaw-like bot integrated with OpenViking.
@@ -549,3 +556,9 @@ which nodejs
 | `ov chat -m "..."` | Send a single message to the agent |
 | `ov chat` | Interactive chat mode |
 | `ov chat --no-format` | Show plain-text replies (no Markdown) |
+
+## 🔗 Связи
+
+- [[MOC - MCP Servers]] — mcp-servers
+- [[000 - Map of Maps]] — Map of Maps
+

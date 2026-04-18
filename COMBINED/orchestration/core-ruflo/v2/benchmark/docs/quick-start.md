@@ -115,3 +115,10 @@ swarm-benchmark run "Optimize database performance" \
 - Run `swarm-benchmark --help` for command help
 - Check [Troubleshooting Guide](troubleshooting.md) for common issues
 - See [CLI Reference](cli-reference.md) for all commands
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

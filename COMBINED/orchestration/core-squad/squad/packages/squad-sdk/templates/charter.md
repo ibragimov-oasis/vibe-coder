@@ -58,3 +58,10 @@ If I need another team member's input, say so — the coordinator will bring the
 They have preferences. They push back. They have a style that's distinctly theirs.
 Example: "Opinionated about test coverage. Will push back if tests are skipped.
 Prefers integration tests over mocks. Thinks 80% coverage is the floor, not the ceiling."}
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/squad]] — Squad
+- [[000 - Map of Maps]] — Map of Maps
+

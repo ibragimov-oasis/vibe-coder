@@ -52,3 +52,9 @@ System prompt — постоянная инструкция AI, формирую
 
 - [[obsidian-copilot/custom-commands]] — кастомные команды
 - [[root-docs/CAPABILITIES]] — capabilities ULTRACAR
+
+## 🔗 Связи
+
+- [[MOC - System]] — Parent MOC
+- [[000 - Map of Maps]] — Map of Maps
+

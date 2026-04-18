@@ -1022,3 +1022,10 @@ Assuming a typical agent task with ReasoningBank enabled:
 [2]: https://github.com/ruvnet/claude-flow/wiki/Memory-System "Memory System · ruvnet/claude-flow Wiki · GitHub"  
 [3]: https://github.com/ruvnet/claude-flow "GitHub - ruvnet/claude-flow"  
 [4]: https://www.anthropic.com/news/memory "Claude introduces memory for teams at work"
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

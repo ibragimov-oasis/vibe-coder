@@ -388,3 +388,10 @@ For questions or issues with the SAFLA model:
 **Status**: ✅ **PRODUCTION READY**
 
 🎉 **The SAFLA model is ready for deployment and use!**
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

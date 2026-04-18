@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/mcp
+  - artifact/mcp-server
+  - source/mcp-servers
+---
+
 # Retrieval
 
 OpenViking provides two search methods: `find` for simple semantic search and `search` for complex retrieval with session context.
@@ -542,3 +549,9 @@ results = client.search("best practices", session=session)
 - [Resources](02-resources.md) - Resource management
 - [Sessions](05-sessions.md) - Session context
 - [Context Layers](../concepts/03-context-layers.md) - L0/L1/L2
+
+## 🔗 Связи
+
+- [[MOC - MCP Servers]] — mcp-servers
+- [[000 - Map of Maps]] — Map of Maps
+

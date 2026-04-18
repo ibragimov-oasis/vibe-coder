@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/ui
+  - artifact/ui-component
+  - source/ui-design
+---
+
 # RLHF and Compute Economics
 
 ## The Cost of Token Generation
@@ -25,3 +32,9 @@ This aggressive calibration is further reinforced by safety tuning protocols, wh
 ## Dynamic Throttling
 
 Providers dynamically scale back model performance during peak demand periods. This introduces additional friction beyond what the base alignment already imposes, resulting in even shorter and less detailed outputs when server load is high.
+
+## 🔗 Связи
+
+- [[MOC - UI Design]] — ui-design
+- [[000 - Map of Maps]] — Map of Maps
+

@@ -314,3 +314,10 @@ Four rules enforced at `loader.ts:370-439`:
 | Variable substitution | `packages/workflows/src/utils/variable-substitution.ts` |
 | Idle timeout | `packages/workflows/src/utils/idle-timeout.ts` |
 | Router | `packages/workflows/src/router.ts` |
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/archon]] — Archon
+- [[000 - Map of Maps]] — Map of Maps
+

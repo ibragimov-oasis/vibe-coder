@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/mcp
+  - artifact/mcp-server
+  - source/mcp-servers
+---
+
 # OpenViking Tests
 
 Unit tests and integration tests for OpenViking.
@@ -198,3 +205,9 @@ End-to-end workflow tests.
 | File | Description | Key Test Cases |
 |------|-------------|----------------|
 | `test_full_workflow.py` | Complete workflows | Resource→vectorize→search flow; Session conversation→commit→memory extraction; Export→delete→import roundtrip; Full E2E with all components |
+
+## 🔗 Связи
+
+- [[MOC - MCP Servers]] — mcp-servers
+- [[000 - Map of Maps]] — Map of Maps
+

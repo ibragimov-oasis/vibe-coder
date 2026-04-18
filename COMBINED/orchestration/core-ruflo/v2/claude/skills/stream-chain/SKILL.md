@@ -564,3 +564,10 @@ Stream-Chain enables sophisticated multi-step workflows by:
 - **Data Transformation**: Complex processing through simple steps
 
 Use `run` for custom workflows and `pipeline` for battle-tested solutions.
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

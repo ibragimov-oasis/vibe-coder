@@ -171,3 +171,10 @@ The benchmark successfully demonstrates:
 2. Generate aggregate statistics across all scenarios
 3. Test OpenRouter with correct model ID format
 4. Measure cost savings with OpenRouter fallback optimization
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

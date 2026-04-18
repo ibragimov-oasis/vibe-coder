@@ -173,3 +173,10 @@ Configured SubSquads
 - [Multi-Codespace Setup](multi-codespace.md) — Walkthrough of the Tetris experiment
 - [SubSquads PRD](https://github.com/bradygaster/squad/blob/main/docs/_internal/specs/streams-prd.md) — Full specification
 - [SubSquads Feature Guide](../features/streams.md) — API reference
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/squad]] — Squad
+- [[000 - Map of Maps]] — Map of Maps
+

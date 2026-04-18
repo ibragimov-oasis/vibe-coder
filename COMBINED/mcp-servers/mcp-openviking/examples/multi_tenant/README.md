@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/mcp
+  - artifact/mcp-server
+  - source/mcp-servers
+---
+
 # OpenViking Multi-Tenant 示例
 
 演示 OpenViking 多租户管理功能：账户创建、用户注册、角色管理、Key 管理、数据访问。
@@ -163,3 +170,9 @@ README.md            本文件
 - [配置指南](../../docs/zh/guides/01-configuration.md) - 配置文件参考
 - [API 概览](../../docs/zh/api/01-overview.md) - 完整 API 参考
 - [Server-Client 示例](../server_client/) - 基础 Server/Client 用法
+
+## 🔗 Связи
+
+- [[MOC - MCP Servers]] — mcp-servers
+- [[000 - Map of Maps]] — Map of Maps
+

@@ -87,3 +87,10 @@ When showing multiple tasks:
 - Optimal completion order
 - Parallel work opportunities
 - Combined complexity analysis
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/task-master]] — Task-Master
+- [[000 - Map of Maps]] — Map of Maps
+

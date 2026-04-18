@@ -704,3 +704,10 @@ JSON テンプレートの書き込みの代わりにこのコマンドを呼び
 見て、GSD のソースコードを読まなくてもブランチ戦略機能が利用可能で設定変更できることを
 即座に理解できるようになる。
 ```
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/gsd]] — GSD
+- [[000 - Map of Maps]] — Map of Maps
+

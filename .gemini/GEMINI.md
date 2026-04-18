@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/config
+  - source/.gemini
+---
+
 # ⛔ STOP — MEMORY BOOTSTRAP REQUIRED BEFORE ANYTHING ELSE
 
 > **DO NOT skip this section. DO NOT "come back to it later." DO NOT start any task without completing this.**
@@ -597,3 +604,9 @@ If the user's request is vague, weak, or poorly structured:
 **Canonical core**: `CORE.md` | **Gap analysis**: `AUDIT_MATRIX.md` | **Execution traces**: `REALITY_TEST.md` | **Governance**: `SYNC_CHECK.md`
 
 **Last Updated:** 2026-04-18
+
+## 🔗 Связи
+
+- [[MOC - System]] — System
+- [[000 - Map of Maps]] — Map of Maps
+

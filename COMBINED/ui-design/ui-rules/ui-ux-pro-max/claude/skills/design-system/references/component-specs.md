@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/ui
+  - artifact/ui-component
+  - source/ui-design
+---
+
 # Component Specifications
 
 Detailed specs for core components with states and variants.
@@ -234,3 +241,9 @@ Helper text or error message
 | row height (compact) | 40px |
 | row height (default) | 48px |
 | row height (comfortable) | 56px |
+
+## 🔗 Связи
+
+- [[MOC - UI Design]] — ui-design
+- [[000 - Map of Maps]] — Map of Maps
+

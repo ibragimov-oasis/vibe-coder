@@ -6,6 +6,10 @@ weight: 1
 description: >
   Knowledge Catalog is a unified, intelligent governance solution for data and AI assets in Google Cloud. Knowledge Catalog powers AI, analytics, and business intelligence at scale.
 no_list: true
+tags:
+  - domain/mcp
+  - artifact/mcp-server
+  - source/mcp-servers
 ---
 
 ## About
@@ -373,3 +377,9 @@ This abbreviated syntax works for the qualified predicates except for `label` in
 ### Response
 1. Present the requested metadata and relationship information. 
 ```
+
+## 🔗 Связи
+
+- [[MOC - MCP Servers]] — mcp-servers
+- [[000 - Map of Maps]] — Map of Maps
+

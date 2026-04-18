@@ -136,3 +136,10 @@ See `.github/workflows/squad-ci.yml` → `publish-policy` job for implementation
 - Retro: `.squad/decisions/inbox/surgeon-v091-retrospective.md`
 - CI audit: `.squad/decisions/inbox/booster-ci-audit.md`
 - Playbook: `PUBLISH-README.md` (repo root)
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/squad]] — Squad
+- [[000 - Map of Maps]] — Map of Maps
+

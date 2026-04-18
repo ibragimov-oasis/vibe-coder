@@ -52,3 +52,9 @@ Step 1: Background Agent
 
 - [[orchestration/core-archon]] — Archon: Step 0.5
 - [[orchestration/core-ralph]] — Ralph: PRD-loop
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Parent MOC
+- [[000 - Map of Maps]] — Map of Maps
+

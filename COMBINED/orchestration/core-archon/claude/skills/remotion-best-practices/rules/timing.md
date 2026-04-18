@@ -180,3 +180,10 @@ const value1 = interpolate(frame, [0, 100], [0, 1], {
   extrapolateRight: "clamp",
 });
 ```
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/archon]] — Archon
+- [[000 - Map of Maps]] — Map of Maps
+

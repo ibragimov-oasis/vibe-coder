@@ -71,3 +71,10 @@ npm packages are built artifacts. The code you write isn't always the code users
 - **Process template introspection** — auto-detect ADO work item types (#240)
 - **Teams webhook adapter** — full CommunicationAdapter implementation (#261)
 - **Pre-existing test stabilization** — fix 14 flaky/environment-dependent tests (#273)
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/squad]] — Squad
+- [[000 - Map of Maps]] — Map of Maps
+

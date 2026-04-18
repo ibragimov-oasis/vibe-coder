@@ -236,3 +236,10 @@ The benchmark system now executes **real Claude Flow commands** and provides **a
 4. **Extend Commands**: Add new command types using the established patterns
 
 **The Claude Flow benchmark system is now ready for real-world performance analysis!** 🎉
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

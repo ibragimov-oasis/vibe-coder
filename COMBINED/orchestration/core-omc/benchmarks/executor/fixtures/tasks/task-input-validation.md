@@ -83,3 +83,10 @@ export async function createProduct(input: Partial<Product>): Promise<Product> {
 5. `sku`: required, string, must match pattern `^[A-Z]{2,4}-\d{4,8}$`
 6. Return 400 with descriptive error messages for validation failures
 7. Do not modify the Product interface or existing GET route
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/omc]] — OMC
+- [[000 - Map of Maps]] — Map of Maps
+

@@ -44,3 +44,10 @@ Based on the status filter:
 - **Review**: Indicate review duration
 - **Deferred**: Show reactivation criteria
 - **Cancelled**: Display impact analysis
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/task-master]] — Task-Master
+- [[000 - Map of Maps]] — Map of Maps
+

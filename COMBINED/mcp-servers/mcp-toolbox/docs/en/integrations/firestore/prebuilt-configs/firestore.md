@@ -2,6 +2,10 @@
 title: "Firestore"
 type: docs
 description: "Details of the Firestore prebuilt configuration."
+tags:
+  - domain/mcp
+  - artifact/mcp-server
+  - source/mcp-servers
 ---
 
 ## Firestore
@@ -27,3 +31,9 @@ description: "Details of the Firestore prebuilt configuration."
     *   `get_rules`: Retrieves the active Firestore security rules.
     *   `validate_rules`: Checks the provided Firestore Rules source for syntax
         and validation errors.
+
+## 🔗 Связи
+
+- [[MOC - MCP Servers]] — mcp-servers
+- [[000 - Map of Maps]] — Map of Maps
+

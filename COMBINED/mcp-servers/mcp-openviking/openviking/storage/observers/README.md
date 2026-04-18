@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/mcp
+  - artifact/mcp-server
+  - source/mcp-servers
+---
+
 # Storage Observers
 
 ## Overview
@@ -76,3 +83,9 @@ print(client.observer.vikingdb())
 - [QueueFS Documentation](../queuefs/README.md)
 - [Storage Documentation](../../docs/OpenViking存储.md)
 - [API Documentation](../../docs/OpenViking接口文档.md)
+
+## 🔗 Связи
+
+- [[MOC - MCP Servers]] — mcp-servers
+- [[000 - Map of Maps]] — Map of Maps
+

@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/new_repos
+---
+
 # Custom Commands
 
 Custom commands are preset AI prompts you define once and reuse on any note or selected text. They're stored as markdown files in your vault and can be triggered from the right-click context menu, the command palette, or as slash commands in chat.
@@ -152,3 +159,8 @@ Quick Ask is great for things like "rephrase this sentence," "what does this ter
 - [Chat Interface](chat-interface.md) — Using slash commands in chat
 - [Context and Mentions](context-and-mentions.md) — How context is passed to commands
 - [Agent Mode and Tools](agent-mode-and-tools.md) — More powerful note editing with @composer
+
+## 🔗 Связи
+
+- [[000 - Map of Maps]] — Map of Maps
+

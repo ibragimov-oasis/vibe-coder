@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/new_repos
+---
+
 # Getting Started with Copilot for Obsidian
 
 Copilot for Obsidian is an AI-powered plugin that brings large language models (LLMs) directly into your note-taking workflow. You can chat with AI, ask questions about your vault, run custom commands, search the web, and even have the AI edit your notes — all without leaving Obsidian.
@@ -146,3 +153,8 @@ A database that stores your notes as mathematical vectors (embeddings) so they c
 - [LLM Providers](llm-providers.md) — Set up your preferred AI provider
 - [Context and Mentions](context-and-mentions.md) — Control what context the AI sees
 - [Vault Search and Indexing](vault-search-and-indexing.md) — Set up semantic search over your notes
+
+## 🔗 Связи
+
+- [[000 - Map of Maps]] — Map of Maps
+

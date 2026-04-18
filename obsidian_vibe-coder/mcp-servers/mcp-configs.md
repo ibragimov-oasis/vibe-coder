@@ -55,3 +55,9 @@ source: "../COMBINED/mcp-servers/mcp-configs/"
 ## См. также
 
 - [[root-docs/CAPABILITIES]] — полный список возможностей
+
+## 🔗 Связи
+
+- [[MOC - MCP Servers]] — Parent MOC
+- [[000 - Map of Maps]] — Map of Maps
+

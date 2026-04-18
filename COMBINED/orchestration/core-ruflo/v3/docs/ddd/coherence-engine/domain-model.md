@@ -806,3 +806,10 @@ interface CausalQueryRepository {
 - [README](./README.md) - Domain overview
 - [Integration Points](./integration-points.md) - V3 integration details
 - [ADR-031: Prime Radiant Integration](../../implementation/adrs/ADR-031-prime-radiant-integration.md)
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

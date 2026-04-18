@@ -4,6 +4,10 @@ type: docs
 weight: 1
 description: >
   A "mongodb-insert-many" tool inserts multiple new documents into a MongoDB collection.
+tags:
+  - domain/mcp
+  - artifact/mcp-server
+  - source/mcp-servers
 ---
 
 ## About
@@ -54,3 +58,9 @@ in the `data` parameter, like this:
 | database    | string   | true         | The name of the MongoDB database containing the collection.                                                             |
 | collection  | string   | true         | The name of the MongoDB collection into which the documents will be inserted.                                           |
 | canonical   | bool     | false        | Determines if the data string is parsed using MongoDB's Canonical or Relaxed Extended JSON format. Defaults to `false`. |
+
+## 🔗 Связи
+
+- [[MOC - MCP Servers]] — mcp-servers
+- [[000 - Map of Maps]] — Map of Maps
+

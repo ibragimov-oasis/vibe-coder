@@ -704,3 +704,10 @@ feat: materialize all config defaults at new-project initialization
 `git.branching_strategy: "none"`을 확인하고 GSD 소스를 읽지 않고도
 브랜칭이 가능하고 구성 가능하다는 것을 즉시 이해할 수 있습니다.
 ```
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/gsd]] — GSD
+- [[000 - Map of Maps]] — Map of Maps
+

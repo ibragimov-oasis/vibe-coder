@@ -84,3 +84,9 @@ source: "../COMBINED/skills/skills-planning/write-a-prd/"
 - [[skills/matt-pocock/prd-to-issues]] — PRD → GitHub Issues
 - [[orchestration/core-taskmaster]] — Task Master: parse_prd
 - [[skills/skills-claude-karpathy]] — Think Before Coding принцип
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Parent MOC
+- [[000 - Map of Maps]] — Map of Maps
+

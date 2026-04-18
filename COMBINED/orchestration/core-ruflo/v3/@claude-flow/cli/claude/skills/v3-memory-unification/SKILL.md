@@ -176,3 +176,10 @@ class SONAMemoryIntegration {
 - [ ] Backward compatibility maintained
 - [ ] SONA learning patterns integrated
 - [ ] Cross-agent memory sharing operational
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

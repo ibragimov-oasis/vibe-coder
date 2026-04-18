@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/reference
+  - source/reference
+---
+
 # Next.js 15, React 19, Vercel AI SDK, Tailwind CSS .cursorrules prompt file
 
 Author: Adam Sardo
@@ -38,3 +45,9 @@ The file also provides a rich set of **best practices** and **code conventions**
 - **React and Next.js 15**: Encourages using React Server Components, Suspense, and server-side rendering to optimize performance.
 - **Async Handling and State Management**: Details on effective use of `useActionState`, `useFormStatus`, and new async components APIs.
 - **Vercel AI SDK Integration**: Walkthroughs on using AI SDK packages for both server-side and UI components to build AI-powered applications.
+
+## 🔗 Связи
+
+- [[MOC - System]] — reference
+- [[000 - Map of Maps]] — Map of Maps
+

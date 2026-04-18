@@ -551,3 +551,10 @@ Use custom commands:
 - [Configuration](./config.md)
 - [Keyboard Shortcuts](./shortcuts.md)
 - [Getting Started](./README.md)
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

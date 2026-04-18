@@ -72,3 +72,7 @@ type: moc
 - [[_audit/DOCUMENT_REGISTRY]] — полный реестр источников
 - [[_audit/COVERAGE_REPORT]] — покрытие vault
 
+## 🔗 Связи
+
+- [[000 - Map of Maps]] — Map of Maps
+

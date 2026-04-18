@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/memory
+  - artifact/memory
+  - source/memory
+---
+
 # README Translator
 
 Translate README.md files to multiple languages using the Claude Agent SDK. Perfect for build scripts and CI/CD pipelines.
@@ -237,3 +244,9 @@ Typical costs per language (varies by README length):
 ## License
 
 MIT
+
+## 🔗 Связи
+
+- [[MOC - Memory]] — memory
+- [[000 - Map of Maps]] — Map of Maps
+

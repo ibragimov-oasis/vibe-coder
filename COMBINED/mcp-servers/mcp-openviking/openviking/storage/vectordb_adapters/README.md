@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/mcp
+  - artifact/mcp-server
+  - source/mcp-servers
+---
+
 # VectorDB Adapter 接入指南（新增第三方后端）
 
 本指南说明如何在 `openviking/storage/vectordb_adapters` 下新增一个第三方向量库后端，并接入 OpenViking 现有检索链路。
@@ -239,3 +246,9 @@ class ThirdPartyCollectionAdapter(CollectionAdapter):
 - create 后可完成 upsert/get/query/delete/count 全流程。
 - 不改上层业务调用方式即可参与 `find/search` 检索链路。
 - 后端差异全部封装在 adapter 层。
+
+## 🔗 Связи
+
+- [[MOC - MCP Servers]] — mcp-servers
+- [[000 - Map of Maps]] — Map of Maps
+

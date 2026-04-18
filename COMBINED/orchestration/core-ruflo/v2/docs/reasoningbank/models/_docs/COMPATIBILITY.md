@@ -453,3 +453,10 @@ patterns = db.execute("""
 **Updated**: 2025-10-15
 **Schema Version**: 2.0 (Full compatibility)
 **Models Updated**: 5/5 ✅
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

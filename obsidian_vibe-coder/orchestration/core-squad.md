@@ -48,3 +48,9 @@ Code review            → cast: reviewer, security-reviewer
 
 - [[orchestration/core-omc]] — OMC: universal multi-agent
 - [[orchestration/core-multica]] — Multica: agent platform
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Parent MOC
+- [[000 - Map of Maps]] — Map of Maps
+

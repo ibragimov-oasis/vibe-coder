@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/config
+  - source/workspace-config
+---
+
 # Support Policy
 
 This project is maintained on a best-effort basis.
@@ -14,3 +21,9 @@ This project is maintained on a best-effort basis.
 - For security issues, see `SECURITY.md`
 
 We cannot guarantee response times, but we will triage issues as time allows.
+
+## 🔗 Связи
+
+- [[MOC - System]] — workspace-config
+- [[000 - Map of Maps]] — Map of Maps
+

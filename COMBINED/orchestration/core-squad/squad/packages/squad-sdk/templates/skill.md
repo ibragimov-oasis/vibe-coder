@@ -26,3 +26,10 @@ tags:
 
 ## Anti-Patterns
 {What to avoid}
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/squad]] — Squad
+- [[000 - Map of Maps]] — Map of Maps
+

@@ -243,3 +243,10 @@ class BackwardCompatibility {
 - `v3-performance-optimization` - Performance target validation
 - `v3-swarm-coordination` - Swarm system migration
 - `v3-security-overhaul` - Secure integration patterns
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

@@ -3,6 +3,10 @@ title: SQL Server using MCP
 type: docs
 weight: 2
 description: "Connect your IDE to SQL Server using Toolbox."
+tags:
+  - domain/mcp
+  - artifact/mcp-server
+  - source/mcp-servers
 ---
 
 [Model Context Protocol (MCP)](https://modelcontextprotocol.io/introduction) is
@@ -321,3 +325,9 @@ The following tools are available to the LLM:
 Prebuilt tools are pre-1.0, so expect some tool changes between versions. LLMs
 will adapt to the tools available, so this shouldn't affect most users.
 {{< /notice >}}
+
+## 🔗 Связи
+
+- [[MOC - MCP Servers]] — mcp-servers
+- [[000 - Map of Maps]] — Map of Maps
+

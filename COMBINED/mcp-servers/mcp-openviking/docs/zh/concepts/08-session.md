@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/mcp
+  - artifact/mcp-server
+  - source/mcp-servers
+---
+
 # 会话管理
 
 Session 负责管理对话消息、记录上下文使用、提取长期记忆。
@@ -198,3 +205,9 @@ viking://agent/memories/
 - [上下文类型](./02-context-types.md) - 三种上下文类型
 - [上下文提取](./06-extraction.md) - 提取流程
 - [上下文层级](./03-context-layers.md) - L0/L1/L2 模型
+
+## 🔗 Связи
+
+- [[MOC - MCP Servers]] — mcp-servers
+- [[000 - Map of Maps]] — Map of Maps
+

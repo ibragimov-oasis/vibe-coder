@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/ui
+  - artifact/ui-component
+  - source/ui-design
+---
+
 # Stitch-Remotion Video Walkthrough Skill
 
 Generate professional walkthrough videos from Stitch app designs using Remotion.
@@ -103,3 +110,9 @@ See the full [SKILL.md](./SKILL.md) for detailed instructions, troubleshooting, 
 ## License
 
 This is not an officially supported Google product.
+
+## 🔗 Связи
+
+- [[MOC - UI Design]] — ui-design
+- [[000 - Map of Maps]] — Map of Maps
+

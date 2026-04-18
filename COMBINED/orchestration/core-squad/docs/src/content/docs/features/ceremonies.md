@@ -141,3 +141,10 @@ disable automatic retros
 ```
 
 Turns off auto-triggering for retrospectives while keeping the ceremony defined.
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/squad]] — Squad
+- [[000 - Map of Maps]] — Map of Maps
+

@@ -165,3 +165,10 @@ Renaming the file to `.env.local`, `.env.development`, etc. **does not work** �
 **Docker deployments:**
 - `CLAUDE_USE_GLOBAL_AUTH=true` does not work in Docker (no local `claude` CLI). Provide `CLAUDE_CODE_OAUTH_TOKEN` or `CLAUDE_API_KEY` explicitly.
 - Escape `$` as `$$` in Docker Compose `.env` files to prevent variable substitution of bcrypt hashes.
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/archon]] — Archon
+- [[000 - Map of Maps]] — Map of Maps
+

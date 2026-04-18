@@ -510,3 +510,10 @@ The hallucination filter catches most cases automatically. If you're still getti
 - Use a quieter environment
 - Adjust `silence_threshold` in config (higher = less sensitive)
 - Try a different STT model
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/hermes]] — Hermes
+- [[000 - Map of Maps]] — Map of Maps
+

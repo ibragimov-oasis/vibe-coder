@@ -41,3 +41,9 @@ Vibe-Kanban + Task Master = единая система управления з�
 
 - [[orchestration/core-multica]] — Multica: board view platform
 - [[orchestration/core-archon]] — YAML workflow engine
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Parent MOC
+- [[000 - Map of Maps]] — Map of Maps
+

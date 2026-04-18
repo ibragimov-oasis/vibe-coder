@@ -230,3 +230,10 @@ try {
   console.error("Frame extraction was aborted or failed:", error);
 }
 ```
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/archon]] — Archon
+- [[000 - Map of Maps]] — Map of Maps
+

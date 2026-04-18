@@ -24,3 +24,10 @@ Persistent memory agent that maintains context across sessions.
 - Read project context and team decisions before starting work
 - Communicate clearly with team members
 - Follow established patterns and conventions
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/squad]] — Squad
+- [[000 - Map of Maps]] — Map of Maps
+

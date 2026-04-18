@@ -6,6 +6,10 @@ linkTitle: "Source"
 description: >
   ClickHouse is an open-source, OLTP database.
 no_list: true
+tags:
+  - domain/mcp
+  - artifact/mcp-server
+  - source/mcp-servers
 ---
 
 ## About
@@ -87,3 +91,9 @@ instead of hardcoding your secrets into the configuration file.
 | password  |  string  |    false     | Password of the ClickHouse user (e.g. "my-password").                               |
 | protocol  |  string  |    false     | Connection protocol: "https" (default) or "http".                                   |
 | secure    | boolean  |    false     | Whether to use a secure connection (TLS). Default: false.                           |
+
+## 🔗 Связи
+
+- [[MOC - MCP Servers]] — mcp-servers
+- [[000 - Map of Maps]] — Map of Maps
+

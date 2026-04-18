@@ -175,3 +175,10 @@ New: { "model": "pi-<stable-item-id>" }
 - Approach B (new `itemId` fields in `RoutingTarget`): cleaner semantics but adds interface complexity and requires two parallel field sets in every rule going forward.
 - Approach C (two separate maps): same behavior as A but passes two maps through the call stack — unnecessary complexity.
 - Approach D (itemId-only + migration): cleanest long-term but breaks all existing rules during migration window.
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/refly]] — Refly
+- [[000 - Map of Maps]] — Map of Maps
+

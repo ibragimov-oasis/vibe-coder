@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/ui
+  - artifact/ui-component
+  - source/ui-design
+---
+
 # Tailwind CSS Utility Reference
 
 Core utility classes for layout, spacing, typography, colors, borders, and shadows.
@@ -453,3 +460,9 @@ Use square brackets for custom values:
 <div class="select-text">Text selectable</div>
 <div class="select-all">Select all</div>
 ```
+
+## 🔗 Связи
+
+- [[MOC - UI Design]] — ui-design
+- [[000 - Map of Maps]] — Map of Maps
+

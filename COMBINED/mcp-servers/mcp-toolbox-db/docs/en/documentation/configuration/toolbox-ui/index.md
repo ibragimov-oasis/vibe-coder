@@ -4,6 +4,10 @@ type: docs
 weight: 9
 description: >
   How to effectively use Toolbox UI.
+tags:
+  - domain/mcp
+  - artifact/mcp-server
+  - source/mcp-servers
 ---
 
 Toolbox UI is a built-in web interface that allows users to visually inspect and
@@ -123,3 +127,9 @@ If the toolset name is not defined within the tools configuration file, an error
 message will be displayed.
 
 ![Toolsets Page](./toolsets.png)
+
+## 🔗 Связи
+
+- [[MOC - MCP Servers]] — mcp-servers
+- [[000 - Map of Maps]] — Map of Maps
+

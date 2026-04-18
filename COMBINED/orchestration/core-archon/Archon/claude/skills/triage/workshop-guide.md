@@ -191,3 +191,10 @@ The agent starts with real context instead of instructions to go fetch it.
 - "The prompt hook is an LLM guardrail — it catches incomplete label applications before they reach GitHub."
 - "`Bash(gh *)` is a security boundary — the agent can interact with GitHub but can't run arbitrary commands."
 - "This pattern — skill as entry point, custom agent as specialist — is how you build composable workflows."
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/archon]] — Archon
+- [[000 - Map of Maps]] — Map of Maps
+

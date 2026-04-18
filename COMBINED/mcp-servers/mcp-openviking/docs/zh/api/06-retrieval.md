@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/mcp
+  - artifact/mcp-server
+  - source/mcp-servers
+---
+
 # 检索
 
 OpenViking 提供两种搜索方法：`find` 用于简单的语义搜索，`search` 用于带会话上下文的复杂检索。
@@ -542,3 +549,9 @@ results = client.search("best practices", session=session)
 - [资源](02-resources.md) - 资源管理
 - [会话](05-sessions.md) - 会话上下文
 - [上下文层级](../concepts/03-context-layers.md) - L0/L1/L2
+
+## 🔗 Связи
+
+- [[MOC - MCP Servers]] — mcp-servers
+- [[000 - Map of Maps]] — Map of Maps
+

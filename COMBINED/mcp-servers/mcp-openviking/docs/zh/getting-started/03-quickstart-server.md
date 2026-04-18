@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/mcp
+  - artifact/mcp-server
+  - source/mcp-servers
+---
+
 # 快速开始：服务端模式
 
 将 OpenViking 作为独立 HTTP 服务运行，并从任意客户端连接。
@@ -353,3 +360,9 @@ openviking find "who is Alice"
 - [服务部署](../guides/03-deployment.md) - 配置、认证和部署选项
 - [API 概览](../api/01-overview.md) - 完整 API 参考
 - [认证](../guides/04-authentication.md) - 使用 API Key 保护你的服务
+
+## 🔗 Связи
+
+- [[MOC - MCP Servers]] — mcp-servers
+- [[000 - Map of Maps]] — Map of Maps
+

@@ -30,3 +30,10 @@ npx claude-flow memory persist --import memory-backup.json
 # Compressed export
 npx claude-flow memory persist --export memory.gz --compress
 ```
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

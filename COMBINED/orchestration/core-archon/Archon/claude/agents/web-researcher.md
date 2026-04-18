@@ -119,3 +119,10 @@ Many sites publish LLM-optimized documentation:
 - Don't ignore publication dates on technical content
 - Don't present a single source as definitive without corroboration
 - Don't skip the Gaps section - be honest about limitations
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/archon]] — Archon
+- [[000 - Map of Maps]] — Map of Maps
+

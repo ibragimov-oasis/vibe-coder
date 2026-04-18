@@ -105,3 +105,10 @@ As per MLE-STAR requirements, I will:
 2. Implement component impact measurement
 3. Execute targeted optimizations on high-impact components
 4. Document and share results through coordination system
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

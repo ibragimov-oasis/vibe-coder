@@ -1,6 +1,10 @@
 ---
 name: code-documentation
 description: Use this skill when the user requests to generate, create, or improve documentation for code, APIs, libraries, repositories, or software projects. Supports README generation, API reference documentation, inline code comments, architecture documentation, changelog generation, and developer guides. Trigger on requests like "document this code", "create a README", "generate API docs", "write developer guide", or when analyzing codebases for documentation purposes.
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/REPO_DOCS
 ---
 
 # Code Documentation Skill
@@ -413,3 +417,9 @@ After generation:
 - Documentation should be written in the same language as the project's existing docs; default to English if none exist
 - When generating changelogs, use the [Keep a Changelog](https://keepachangelog.com/) format
 - This skill works well in combination with the `deep-research` skill for documenting third-party integrations or dependencies
+
+## 🔗 Связи
+
+- [[000 - Map of Maps]] — REPO_DOCS
+- [[000 - Map of Maps]] — Map of Maps
+

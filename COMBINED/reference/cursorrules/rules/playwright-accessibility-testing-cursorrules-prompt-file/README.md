@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/reference
+  - source/reference
+---
+
 # Playwright Accessibility Testing Prompt
 
 A specialized .cursorrules prompt for creating comprehensive accessibility tests using Playwright with TypeScript and axe-core.
@@ -31,3 +38,9 @@ The .cursorrules prompt guides QA engineers in creating effective accessibility 
 - **Example Test Pattern**: Provides a detailed example of accessibility tests for a login page with automated violation checking, keyboard navigation testing, and ARIA attribute validation
 - **WCAG Standards**: Ensures tests align with WCAG 2.1 AA standards and accessibility best practices
 - **Reporting Configuration**: Guidelines for generating detailed accessibility violation reports
+
+## 🔗 Связи
+
+- [[MOC - System]] — reference
+- [[000 - Map of Maps]] — Map of Maps
+

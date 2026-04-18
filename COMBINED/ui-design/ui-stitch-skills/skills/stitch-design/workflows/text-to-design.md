@@ -1,5 +1,9 @@
 ---
 description: Generate new screens from a text prompt using Stitch MCP.
+tags:
+  - domain/ui
+  - artifact/ui-component
+  - source/ui-design
 ---
 
 # Workflow: Text-to-Design
@@ -45,3 +49,9 @@ After generation, download the HTML and screenshot urls from `outputComponents` 
 - **Be structural**: Break the page down into header, hero, features, and footer in your prompt.
 - **Specify colors**: Use hex codes for precision.
 - **Set the tone**: Explicitly mention if the design should be minimal, professional, or vibrant.
+
+## 🔗 Связи
+
+- [[MOC - UI Design]] — ui-design
+- [[000 - Map of Maps]] — Map of Maps
+

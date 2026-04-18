@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/mcp
+  - artifact/mcp-server
+  - source/mcp-servers
+---
+
 # 上下文提取
 
 OpenViking 采用三层异步架构处理文档解析和上下文提取。
@@ -236,3 +243,9 @@ await session.commit()
 - [上下文层级](./03-context-layers.md) - L0/L1/L2 模型
 - [存储架构](./05-storage.md) - AGFS 和向量库
 - [会话管理](./08-session.md) - 记忆提取详解
+
+## 🔗 Связи
+
+- [[MOC - MCP Servers]] — mcp-servers
+- [[000 - Map of Maps]] — Map of Maps
+

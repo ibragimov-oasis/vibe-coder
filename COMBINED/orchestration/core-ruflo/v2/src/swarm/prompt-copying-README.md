@@ -521,3 +521,10 @@ MIT License - see LICENSE file for details.
 - Parallel processing with worker threads
 - Configuration profiles and CLI interface
 - Comprehensive testing and documentation
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

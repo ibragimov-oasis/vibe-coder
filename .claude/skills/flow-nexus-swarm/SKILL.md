@@ -1,6 +1,10 @@
 ---
 name: flow-nexus-swarm
 description: Cloud-based AI swarm deployment and event-driven workflow automation with Flow Nexus platform
+tags:
+  - domain/skills
+  - artifact/config
+  - source/.claude
 ---
 
 # Flow Nexus Swarm & Workflow Orchestration
@@ -602,3 +606,9 @@ claude mcp add flow-nexus npx flow-nexus@latest mcp start
 ---
 
 **Remember**: Flow Nexus provides cloud-based orchestration infrastructure. For local execution and coordination, use the core `claude-flow` MCP server alongside Flow Nexus for maximum flexibility.
+
+## 🔗 Связи
+
+- [[MOC - System]] — System
+- [[000 - Map of Maps]] — Map of Maps
+

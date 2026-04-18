@@ -66,3 +66,10 @@ packages/squad-sdk/src/platform/
 - **Token-based auth** — Support PAT/token auth for CI environments
 - **Pipelines abstraction** — Normalize GitHub Actions and Azure Pipelines
 - **Board view** — Normalize GitHub Projects and ADO Boards
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/squad]] — Squad
+- [[000 - Map of Maps]] — Map of Maps
+

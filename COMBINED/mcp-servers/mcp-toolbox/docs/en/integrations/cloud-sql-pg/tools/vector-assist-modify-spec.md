@@ -6,6 +6,10 @@ description: >
   The "vector-assist-modify-spec" tool modifies an existing vector specification
   with new parameters or overrides, recalculating the generated SQL
   recommendations to match the updated requirements.
+tags:
+  - domain/mcp
+  - artifact/mcp-server
+  - source/mcp-servers
 ---
 
 ## About
@@ -70,3 +74,9 @@ description: "This tool modifies an existing vector specification (identified by
 | type        |  string  |     true     | Must be "vector-assist-modify-spec".                 |
 | source      |  string  |     true     | Name of the source the SQL should execute on.        |
 | description |  string  |    false     | Description of the tool that is passed to the agent. |
+
+## 🔗 Связи
+
+- [[MOC - MCP Servers]] — mcp-servers
+- [[000 - Map of Maps]] — Map of Maps
+

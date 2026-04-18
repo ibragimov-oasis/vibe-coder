@@ -299,3 +299,10 @@ For advanced usage patterns and comprehensive examples, see:
 5. Optimize based on results
 
 Happy benchmarking! 🚀
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

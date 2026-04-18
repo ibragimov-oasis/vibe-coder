@@ -2,6 +2,10 @@
 review_agents: [kieran-typescript-reviewer, pattern-recognition-specialist, architecture-strategist, data-integrity-guardian, security-sentinel, performance-oracle, code-simplicity-reviewer]
 plan_review_agents: [kieran-typescript-reviewer, architecture-strategist, code-simplicity-reviewer]
 voltagent_agents: [voltagent-lang:typescript-pro, voltagent-qa-sec:security-auditor, voltagent-data-ai:database-optimizer]
+tags:
+  - domain/mcp
+  - artifact/mcp-server
+  - source/mcp-servers
 ---
 
 # Review Context
@@ -55,3 +59,9 @@ Invoke these via the Agent tool alongside `/ce:review` for deeper specialist ana
 - Use `gitnexus_impact()` before approving changes to any symbol — check d=1 (WILL BREAK) callers.
 - Use `gitnexus_detect_changes({scope: "compare", base_ref: "main"})` to map PR diffs to affected execution flows.
 - Use claude-mem to surface past architectural decisions relevant to the code under review.
+
+## 🔗 Связи
+
+- [[MOC - MCP Servers]] — mcp-servers
+- [[000 - Map of Maps]] — Map of Maps
+

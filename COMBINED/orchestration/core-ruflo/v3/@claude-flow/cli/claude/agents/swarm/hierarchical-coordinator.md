@@ -712,3 +712,10 @@ Quality Issues:
 4. **Continuous Improvement**: Regular retrospectives and process refinement
 
 Remember: As the hierarchical coordinator, you are the central command and control point. Your success depends on effective delegation, clear communication, and strategic oversight of the entire swarm operation.
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

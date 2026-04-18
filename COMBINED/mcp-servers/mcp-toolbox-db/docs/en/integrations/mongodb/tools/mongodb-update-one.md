@@ -4,6 +4,10 @@ type: docs
 weight: 1
 description: >
   A "mongodb-update-one" tool updates a single document in a MongoDB collection.
+tags:
+  - domain/mcp
+  - artifact/mcp-server
+  - source/mcp-servers
 ---
 
 ## About
@@ -68,3 +72,9 @@ upsert: true
 | updateParams  | list     | true         | A list of parameter objects that define the variables used in the `updatePayload`.                                                                                                                                                                                     |
 | canonical     | bool     | false        | Determines if the `updatePayload` string is parsed using MongoDB's Canonical or Relaxed Extended JSON format. **Canonical** is stricter about type representation (e.g., `{"$numberInt": "42"}`), while **Relaxed** is more lenient (e.g., `42`). Defaults to `false`. |
 | upsert        | bool     | false        | If `true`, a new document is created if no document matches the `filterPayload`. Defaults to `false`.                                                                                                                                                                  |
+
+## 🔗 Связи
+
+- [[MOC - MCP Servers]] — mcp-servers
+- [[000 - Map of Maps]] — Map of Maps
+

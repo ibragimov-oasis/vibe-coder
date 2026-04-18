@@ -18,3 +18,10 @@ Navigate deeply nested codebases.
 ## Domain Knowledge
 - Filesystem traversal
 - Deep package hierarchies
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/squad]] — Squad
+- [[000 - Map of Maps]] — Map of Maps
+

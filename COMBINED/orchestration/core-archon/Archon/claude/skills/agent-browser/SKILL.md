@@ -274,3 +274,10 @@ agent-browser highlight @e1              # Highlight element
 agent-browser trace start                # Start recording trace
 agent-browser trace stop trace.zip       # Stop and save trace
 ```
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/archon]] — Archon
+- [[000 - Map of Maps]] — Map of Maps
+

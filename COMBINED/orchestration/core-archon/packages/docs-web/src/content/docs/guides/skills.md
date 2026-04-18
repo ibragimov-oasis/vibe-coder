@@ -243,3 +243,10 @@ To use skills, ensure the node uses Claude (the default provider, or set
 - [Hooks](/guides/hooks/) — `hooks:` field for tool permission control
 - [skills.sh](https://skills.sh) — marketplace for discovering skills
 - [agentskills.io](https://agentskills.io) — the open SKILL.md standard
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/archon]] — Archon
+- [[000 - Map of Maps]] — Map of Maps
+

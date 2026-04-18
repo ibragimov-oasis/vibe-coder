@@ -58,3 +58,9 @@ COMBINED/
 ## Исходник
 
 > 📂 `../MASTER_PLAN.md` — читать оригинал для полного контента
+
+## 🔗 Связи
+
+- [[000 - Map of Maps]] — Parent MOC
+- [[000 - Map of Maps]] — Map of Maps
+

@@ -49,3 +49,10 @@ task-master set-status --id=$ARGUMENTS --status=done
 - Display unblocked work
 - Recognize achievement
 - Capture lessons learned
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/task-master]] — Task-Master
+- [[000 - Map of Maps]] — Map of Maps
+

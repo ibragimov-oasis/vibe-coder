@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/mcp
+  - artifact/mcp-server
+  - source/mcp-servers
+---
+
 # pyagfs - AGFS Python SDK
 
 Python SDK for interacting with AGFS (Plugin-based File System) Server API.
@@ -206,3 +213,9 @@ ruff check pyagfs/
 ## License
 
 See LICENSE file for details.
+
+## 🔗 Связи
+
+- [[MOC - MCP Servers]] — mcp-servers
+- [[000 - Map of Maps]] — Map of Maps
+

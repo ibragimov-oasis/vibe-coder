@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/combined-root
+---
+
 # Phase 1.5 Complete: Prompts, Tools, UI-UX, Reference Analysis
 
 **Date:** April 3, 2026
@@ -560,3 +567,8 @@ COMBINED/prompts/system-prompts/
 ---
 
 **END OF PHASE 1.5 REPORT**
+
+## 🔗 Связи
+
+- [[000 - Map of Maps]] — Map of Maps
+

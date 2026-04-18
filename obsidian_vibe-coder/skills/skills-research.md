@@ -41,3 +41,9 @@ Deep research skills от DeerFlow системы (ByteDance, 55k⭐).
 
 - [[mcp-servers/mcp-lightpanda]] — браузер для исследований
 - [[mcp-servers/mcp-supermemory]] — сохранение результатов
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Parent MOC
+- [[000 - Map of Maps]] — Map of Maps
+

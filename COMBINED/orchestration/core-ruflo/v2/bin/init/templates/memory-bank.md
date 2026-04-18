@@ -21,3 +21,10 @@ This file serves as a persistent memory bank for important project context that 
 
 ## Session History
 <!-- Track significant session outcomes -->
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

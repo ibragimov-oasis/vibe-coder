@@ -70,3 +70,10 @@ mkdir -p "$PHASE_DIR"
 ```
 
 示例：`.planning/phases/06.1-fix-critical-auth-bug/`
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/gsd]] — GSD
+- [[000 - Map of Maps]] — Map of Maps
+

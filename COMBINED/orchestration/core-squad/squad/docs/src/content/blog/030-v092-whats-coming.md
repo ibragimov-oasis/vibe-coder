@@ -159,3 +159,10 @@ Or if you're on insider:
 ```bash
 squad upgrade --self --insider
 ```
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/squad]] — Squad
+- [[000 - Map of Maps]] — Map of Maps
+

@@ -1,6 +1,10 @@
 ---
 name: flow-nexus-neural
 description: Train and deploy neural networks in distributed E2B sandboxes with Flow Nexus
+tags:
+  - domain/skills
+  - artifact/config
+  - source/.claude
 ---
 
 # Flow Nexus Neural Networks
@@ -725,3 +729,9 @@ await mcp__flow-nexus__neural_cluster_terminate({
 ---
 
 **Note**: Distributed training requires authentication. Register at https://flow-nexus.ruv.io or use `npx flow-nexus@latest register`.
+
+## 🔗 Связи
+
+- [[MOC - System]] — System
+- [[000 - Map of Maps]] — Map of Maps
+

@@ -16,3 +16,10 @@ tags:
 ## Coverage Target
 Target: 80%
 Current: 0%
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

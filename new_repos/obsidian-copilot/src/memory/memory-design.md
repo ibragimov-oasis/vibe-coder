@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/new_repos
+---
+
 # User Memory Management Flow (Current)
 
 ## Overview
@@ -187,3 +194,8 @@ The memory system behaves differently depending on which chat mode is active:
 | User Control     | AI-driven     | Intent-driven      | Manual only   | None         |
 
 This design ensures that memory capabilities scale appropriately with the sophistication of each chat mode, while maintaining consistent memory retrieval across modes that support it.
+
+## 🔗 Связи
+
+- [[000 - Map of Maps]] — Map of Maps
+

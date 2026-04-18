@@ -1,6 +1,10 @@
 ---
 name: dual-collect
 description: Collect results from headless Codex workers
+tags:
+  - domain/skills
+  - artifact/config
+  - source/.claude
 ---
 
 # Dual Collect Skill
@@ -101,3 +105,9 @@ Workers Completed: 4/4
 
 - `/dual-spawn` - Spawn headless workers
 - `/dual-coordinate` - Full hybrid workflow
+
+## 🔗 Связи
+
+- [[MOC - System]] — System
+- [[000 - Map of Maps]] — Map of Maps
+

@@ -274,3 +274,10 @@ Key focus areas:
 5. Comprehensive testing for reliability
 
 Remember: The goal is optimization for various use cases while maintaining the integrity of the existing Claude Flow system.
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

@@ -200,3 +200,9 @@ Recommended defaults:
 - Use tweet URLs or IDs interchangeably — `x-cli` accepts both.
 - If bookmark behavior changes upstream, check the upstream README first:
   https://github.com/Infatoshi/x-cli
+
+## 🔗 Связи
+
+- [[000 - Map of Maps]] — REPO_DOCS
+- [[000 - Map of Maps]] — Map of Maps
+

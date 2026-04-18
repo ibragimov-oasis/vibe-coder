@@ -412,3 +412,10 @@ swarm-benchmark compare-modes <task-type> --agent-counts 3,5,8
 6. **Document Findings**: Record what works best
 
 Remember: The optimal coordination mode depends on your specific task requirements, team size, and performance goals. Always benchmark to find the best fit!
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

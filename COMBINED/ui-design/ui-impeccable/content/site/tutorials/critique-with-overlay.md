@@ -3,6 +3,10 @@ title: Critique with the visual overlay
 tagline: "Use /critique plus the browser overlay to review a live page with ground truth."
 order: 2
 description: "Run a full design critique that combines LLM assessment, the automated detector, and a live browser overlay so you can see exactly which elements trigger which anti-patterns on the page you're looking at."
+tags:
+  - domain/ui
+  - artifact/ui-component
+  - source/ui-design
 ---
 
 ## What you'll build
@@ -127,3 +131,9 @@ If something still fires, fix it or write a suppression comment explaining why t
 - **The overlay shows no findings but critique says there are problems**. The detector catches deterministic patterns. Critique catches judgment calls. They are complementary, not redundant.
 - **The LLM assessment and the detector disagree**. That is normal. The LLM is subjective. The detector is deterministic. When they disagree, look at both and make a call.
 - **The overlay breaks the page layout**. Rare, but some CSS can interact with the injected overlay styles. Use the [Chrome extension](https://chromewebstore.google.com/detail/impeccable/bdkgmiklpdmaojlpflclinlofgjfpabf) for the most reliable experience, or run `npx impeccable detect` from the CLI and apply findings manually.
+
+## 🔗 Связи
+
+- [[MOC - UI Design]] — ui-design
+- [[000 - Map of Maps]] — Map of Maps
+

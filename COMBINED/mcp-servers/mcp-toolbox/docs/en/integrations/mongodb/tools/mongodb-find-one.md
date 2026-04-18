@@ -4,6 +4,10 @@ type: docs
 weight: 1
 description: >
   A "mongodb-find-one" tool finds and retrieves a single document from a MongoDB collection.
+tags:
+  - domain/mcp
+  - artifact/mcp-server
+  - source/mcp-servers
 ---
 
 ## About
@@ -61,3 +65,9 @@ projectPayload: |
 | filterParams   | list     | false        | A list of parameter objects that define the variables used in the `filterPayload`.                                                           |
 | projectPayload | string   | false        | An optional MongoDB projection document to specify which fields to include (1) or exclude (0) in the result.                                 |
 | projectParams  | list     | false        | A list of parameter objects for the `projectPayload`.                                                                                        |
+
+## 🔗 Связи
+
+- [[MOC - MCP Servers]] — mcp-servers
+- [[000 - Map of Maps]] — Map of Maps
+

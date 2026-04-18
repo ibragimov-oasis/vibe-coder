@@ -1203,3 +1203,10 @@ This skill works seamlessly with:
 - **GitHub Workflows** - Git integration for commits/PRs
 - **Performance Analysis** - Metrics collection in hooks
 - **Swarm Advanced** - Multi-agent coordination via hooks
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

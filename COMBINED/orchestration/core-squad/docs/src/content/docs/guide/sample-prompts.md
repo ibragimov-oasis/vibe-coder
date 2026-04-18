@@ -158,3 +158,10 @@ Set up the team and start building.
 ```
 
 That's it. Squad figures out the team composition, casts names from a universe, and gets to work. After a few sessions, agents know your conventions and stop asking questions they've already answered.
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/squad]] — Squad
+- [[000 - Map of Maps]] — Map of Maps
+

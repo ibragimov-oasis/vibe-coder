@@ -207,3 +207,10 @@ Create a scratch file for debugging
 ```
 
 Uses `scratchFile()` to create a temp file for debugging output.
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/squad]] — Squad
+- [[000 - Map of Maps]] — Map of Maps
+

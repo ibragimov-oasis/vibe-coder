@@ -112,3 +112,10 @@ Remove anyway? (y/n)
 - Removal logging
 - Suggest alternatives
 - No cascade delete of dependents
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/task-master]] — Task-Master
+- [[000 - Map of Maps]] — Map of Maps
+

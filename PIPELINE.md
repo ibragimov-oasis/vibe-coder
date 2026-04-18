@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/root
+---
+
 # VIBE-CODER AUTONOMOUS PIPELINE v3.0
 
 > **Execution Flow for Task Master → Archon → Background Agent → Hermes → Shannon → Code Review Graph**
@@ -379,3 +386,8 @@ Source: `COMBINED/orchestration/core-cc-connect/`
 - `COMBINED/ui-design/ui-impeccable/` — Impeccable design (18 commands)
 - `COMBINED/ui-design/ui-taste-skill/` — Taste-skill (7 design skills)
 - `COMBINED/ui-design/ui-stitch-skills/` — Stitch Skills (Google design generation)
+
+## 🔗 Связи
+
+- [[000 - Map of Maps]] — Map of Maps
+

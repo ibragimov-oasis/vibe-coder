@@ -475,3 +475,10 @@ Track these metrics post-release:
 **Assignee**: @[MAINTAINER]
 **Milestone**: v2.7.35
 **Priority**: High
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

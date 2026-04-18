@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/ui
+  - artifact/ui-component
+  - source/ui-design
+---
+
 # shadcn/ui Setup Guide
 
 This guide walks you through setting up shadcn/ui in both new and existing projects.
@@ -410,3 +417,9 @@ Components will be added to `src/components/ui/` by default.
 - [Component Examples](https://ui.shadcn.com/examples)
 - [GitHub Repository](https://github.com/shadcn-ui/ui)
 - [Tailwind CSS Docs](https://tailwindcss.com/docs)
+
+## 🔗 Связи
+
+- [[MOC - UI Design]] — ui-design
+- [[000 - Map of Maps]] — Map of Maps
+

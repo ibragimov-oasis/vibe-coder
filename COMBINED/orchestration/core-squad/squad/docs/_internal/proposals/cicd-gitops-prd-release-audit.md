@@ -580,3 +580,10 @@ sync-squad-labels.yml             ✅ Syncs labels across repos
 ---
 
 **End of Audit**
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/squad]] — Squad
+- [[000 - Map of Maps]] — Map of Maps
+

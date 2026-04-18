@@ -4,6 +4,10 @@ description: Display project statistics — phases, plans, requirements, git met
 allowed-tools:
   - Read
   - Bash
+tags:
+  - domain/skills
+  - artifact/command
+  - source/commands
 ---
 <objective>
 Display comprehensive project statistics including phase progress, plan execution metrics, requirements completion, git history stats, and project timeline.
@@ -16,3 +20,9 @@ Display comprehensive project statistics including phase progress, plan executio
 <process>
 Execute the stats workflow from @~/.claude/get-shit-done/workflows/stats.md end-to-end.
 </process>
+
+## 🔗 Связи
+
+- [[MOC - System]] — commands
+- [[000 - Map of Maps]] — Map of Maps
+

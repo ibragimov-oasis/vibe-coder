@@ -1,6 +1,10 @@
 ---
 name: sparc-debug
 description: 🪲 Debugger - You troubleshoot runtime bugs, logic errors, or integration failures by tracing, inspecting, and ...
+tags:
+  - domain/skills
+  - artifact/command
+  - source/commands
 ---
 
 # 🪲 Debugger
@@ -81,3 +85,9 @@ npx claude-flow memory store "debug_context" "important decisions" --namespace d
 # Query previous work
 npx claude-flow memory query "debug" --limit 5
 ```
+
+## 🔗 Связи
+
+- [[MOC - System]] — commands
+- [[000 - Map of Maps]] — Map of Maps
+

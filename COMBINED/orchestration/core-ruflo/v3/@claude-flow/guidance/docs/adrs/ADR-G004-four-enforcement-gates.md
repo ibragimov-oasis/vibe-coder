@@ -134,3 +134,10 @@ Assign a risk score and let the model decide whether to proceed. Rejected becaus
 - `v3/@claude-flow/guidance/src/types.ts` -- `GateDecision`, `GateResult`, `GateConfig`
 - `v3/@claude-flow/guidance/src/index.ts` -- `GuidanceControlPlane.evaluateCommand()`, `evaluateToolUse()`, `evaluateEdit()`
 - ADR-G001 -- Why enforcement lives outside the model
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/mcp
+  - artifact/mcp-server
+  - source/mcp-servers
+---
+
 # Contributing to code-review-graph
 
 Thank you for your interest in contributing! This guide will help you get started.
@@ -85,3 +92,9 @@ tests/                 # Test suite
 ## License
 
 By contributing, you agree that your contributions will be licensed under the MIT License.
+
+## 🔗 Связи
+
+- [[MOC - MCP Servers]] — mcp-servers
+- [[000 - Map of Maps]] — Map of Maps
+

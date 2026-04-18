@@ -125,3 +125,10 @@ npm install -D [packages]
 - Critical for avoiding debugging time later
 
 </guidelines>
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/gsd]] — GSD
+- [[000 - Map of Maps]] — Map of Maps
+

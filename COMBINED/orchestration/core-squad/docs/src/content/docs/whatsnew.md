@@ -207,3 +207,10 @@ The big rewrite. Everything moved to TypeScript with a clean SDK + CLI split.
 - **Memory architecture** — Per-agent `history.md`, shared `decisions.md`, session `log/`
 - **Reviewer protocol** — Agents with review authority can reject work and reassign
 - **Scribe agent** — Silent memory manager, merges decisions, maintains logs
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/squad]] — Squad
+- [[000 - Map of Maps]] — Map of Maps
+

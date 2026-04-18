@@ -101,3 +101,10 @@ Each agent should reference these patterns in their charter's `## Error Recovery
 | Auth/permissions | Retry with Backoff | Escalate with Context |
 | Non-critical data missing | Graceful Degradation | — |
 | Unknown/novel error | Escalate with Context | — |
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/squad]] — Squad
+- [[000 - Map of Maps]] — Map of Maps
+

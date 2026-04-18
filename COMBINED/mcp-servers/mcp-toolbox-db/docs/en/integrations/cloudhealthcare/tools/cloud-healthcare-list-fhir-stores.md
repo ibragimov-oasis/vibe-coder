@@ -4,6 +4,10 @@ type: docs
 weight: 1
 description: >
   A "cloud-healthcare-list-fhir-stores" lists the available FHIR stores in the healthcare dataset.
+tags:
+  - domain/mcp
+  - artifact/mcp-server
+  - source/mcp-servers
 ---
 
 ## About
@@ -36,3 +40,9 @@ description: Use this tool to list FHIR stores in the healthcare dataset.
 | type        |  string  |     true     | Must be "cloud-healthcare-list-fhir-stores".       |
 | source      |  string  |     true     | Name of the healthcare source.                     |
 | description |  string  |     true     | Description of the tool that is passed to the LLM. |
+
+## 🔗 Связи
+
+- [[MOC - MCP Servers]] — mcp-servers
+- [[000 - Map of Maps]] — Map of Maps
+

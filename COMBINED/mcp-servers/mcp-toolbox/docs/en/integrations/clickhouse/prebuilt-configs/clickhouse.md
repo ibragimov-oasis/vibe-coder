@@ -2,6 +2,10 @@
 title: "ClickHouse"
 type: docs
 description: "Details of the ClickHouse prebuilt configuration."
+tags:
+  - domain/mcp
+  - artifact/mcp-server
+  - source/mcp-servers
 ---
 
 ## ClickHouse
@@ -18,3 +22,9 @@ description: "Details of the ClickHouse prebuilt configuration."
     *   `execute_sql`: Use this tool to execute SQL.
     *   `list_databases`: Use this tool to list all databases in ClickHouse.
     *   `list_tables`: Use this tool to list all tables in a specific ClickHouse database.
+
+## 🔗 Связи
+
+- [[MOC - MCP Servers]] — mcp-servers
+- [[000 - Map of Maps]] — Map of Maps
+

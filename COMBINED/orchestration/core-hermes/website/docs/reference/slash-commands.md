@@ -134,3 +134,10 @@ The messaging gateway supports the following built-in commands inside Telegram, 
 - `/status`, `/sethome`, `/update`, `/approve`, and `/deny` are **messaging-only** commands.
 - `/background`, `/voice`, `/reload-mcp`, and `/rollback` work in **both** the CLI and the messaging gateway.
 - `/voice join`, `/voice channel`, and `/voice leave` are only meaningful on Discord.
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/hermes]] — Hermes
+- [[000 - Map of Maps]] — Map of Maps
+

@@ -359,3 +359,10 @@ package our current React conventions into a plugin called react-best-practices
 ```
 
 Exports your relevant skills and decisions into a reusable plugin bundle for sharing.
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/squad]] — Squad
+- [[000 - Map of Maps]] — Map of Maps
+

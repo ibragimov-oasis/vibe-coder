@@ -3,6 +3,10 @@ title: Getting started
 tagline: "From zero to your first /polish pass in five minutes."
 order: 1
 description: "Install Impeccable, run /impeccable teach once to establish project context, and run /polish on something that already exists. The fastest path to seeing what Impeccable changes about AI-generated design."
+tags:
+  - domain/ui
+  - artifact/ui-component
+  - source/ui-design
 ---
 
 ## What you'll build
@@ -80,3 +84,9 @@ Review the diff. If something does not feel right, ask the model to explain the 
 - **The skill says "no design context found"**. You skipped step 2. Run `/impeccable teach` first.
 - **Commands do not appear in the harness**. Reload the harness after installing. If they still do not appear, check that the installer wrote files into the expected location (`.claude/skills/`, `.cursor/skills/`, etc.) and that your harness is picking up that directory.
 - **The polish pass rewrote something you liked**. Say so. Revert the change, tell the model which specific edit to undo, and continue from there.
+
+## 🔗 Связи
+
+- [[MOC - UI Design]] — ui-design
+- [[000 - Map of Maps]] — Map of Maps
+

@@ -5,6 +5,10 @@ argument-hint: "[topic] [slide-count]"
 metadata:
   author: claudekit
   version: "1.0.0"
+tags:
+  - domain/ui
+  - artifact/ui-component
+  - source/ui-design
 ---
 
 # Slides
@@ -40,3 +44,9 @@ Strategic HTML presentation design with data visualization.
 1. Parse subcommand from `$ARGUMENTS` (first word)
 2. Load corresponding `references/{subcommand}.md`
 3. Execute with remaining arguments
+
+## 🔗 Связи
+
+- [[MOC - UI Design]] — ui-design
+- [[000 - Map of Maps]] — Map of Maps
+

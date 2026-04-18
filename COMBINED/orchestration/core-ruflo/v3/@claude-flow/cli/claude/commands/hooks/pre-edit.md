@@ -118,3 +118,10 @@ Returns JSON with:
 - `Edit` - File editing tool
 - `MultiEdit` - Multiple edits tool
 - `agent spawn` - Manual agent creation
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

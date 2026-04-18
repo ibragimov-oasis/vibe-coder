@@ -83,3 +83,9 @@ source: "../COMBINED/skills/skills-planning/request-refactor-plan/"
 
 - [[skills/matt-pocock/improve-codebase-architecture]] — более глубокая архитектурная реструктуризация
 - [[skills/matt-pocock/tdd]] — TDD как защита при рефакторинге
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Parent MOC
+- [[000 - Map of Maps]] — Map of Maps
+

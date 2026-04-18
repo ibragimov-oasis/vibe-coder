@@ -116,3 +116,10 @@ export default defineSquad({
 - **Skipping discovery** — Don't hardcode squad locations. Use manifests and the discovery protocol.
 - **Sharing secrets** — Never include credentials, tokens, or internal URLs in cross-squad issues.
 - **Circular delegation** — Track delegation chains. If squad A delegates to B which delegates back to A, something is wrong.
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/squad]] — Squad
+- [[000 - Map of Maps]] — Map of Maps
+

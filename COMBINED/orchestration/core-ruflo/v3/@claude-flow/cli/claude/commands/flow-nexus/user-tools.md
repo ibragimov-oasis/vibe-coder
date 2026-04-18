@@ -154,3 +154,10 @@ mcp__flow-nexus__user_verify_email({
 4. Clean up unused subscriptions
 5. Regular audit log reviews
 6. Enable 2FA for security (coming soon)
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

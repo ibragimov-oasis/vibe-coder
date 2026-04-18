@@ -205,3 +205,10 @@ fi
 </branching_strategy_behavior>
 
 </planning_config>
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/gsd]] — GSD
+- [[000 - Map of Maps]] — Map of Maps
+

@@ -199,3 +199,10 @@ const scaled = frequencies.map((value) => {
   return (db - minDb) / (maxDb - minDb);
 });
 ```
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/archon]] — Archon
+- [[000 - Map of Maps]] — Map of Maps
+

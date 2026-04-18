@@ -100,3 +100,10 @@ Report what needs to change with specific before/after content.
 - **Codebase is truth** - Reference it, don't duplicate it
 - **Brief suggestions** - 1-2 lines max for additions
 - **Advisory only** - Report issues, don't modify files
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/archon]] — Archon
+- [[000 - Map of Maps]] — Map of Maps
+

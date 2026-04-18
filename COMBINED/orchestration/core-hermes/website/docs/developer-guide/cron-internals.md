@@ -92,3 +92,10 @@ Hermes uses lock-based protections so overlapping scheduler ticks do not execute
 
 - [Cron feature guide](../user-guide/features/cron.md)
 - [Gateway Internals](./gateway-internals.md)
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/hermes]] — Hermes
+- [[000 - Map of Maps]] — Map of Maps
+

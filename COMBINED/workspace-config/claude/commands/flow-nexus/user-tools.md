@@ -1,6 +1,10 @@
 ---
 name: flow-nexus-user-tools
 description: User management, storage, and system utilities
+tags:
+  - domain/skills
+  - artifact/config
+  - source/workspace-config
 ---
 
 # Flow Nexus User Tools
@@ -150,3 +154,9 @@ mcp__flow-nexus__user_verify_email({
 4. Clean up unused subscriptions
 5. Regular audit log reviews
 6. Enable 2FA for security (coming soon)
+
+## 🔗 Связи
+
+- [[MOC - System]] — workspace-config
+- [[000 - Map of Maps]] — Map of Maps
+

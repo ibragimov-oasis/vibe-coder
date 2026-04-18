@@ -222,3 +222,10 @@ This is an example project designed to demonstrate best practices. Feel free to:
 ## License
 
 This example is part of the Claude Code Flow project and follows the same license terms.
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/ui
+  - artifact/ui-component
+  - source/ui-design
+---
+
 # Empirical Results
 
 ## 2025 Controlled Experiments
@@ -56,3 +63,9 @@ Statistical analysis of ChatGPT outputs during November-December 2023 versus Jan
 - Measurable decrease in average output length during December
 - Correlation with reduced work output in the training data during holiday periods
 - Output length increased when the system prompt explicitly stated a non-winter month
+
+## 🔗 Связи
+
+- [[MOC - UI Design]] — ui-design
+- [[000 - Map of Maps]] — Map of Maps
+

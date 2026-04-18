@@ -153,3 +153,10 @@ Rate each potential issue 0-100:
 - **Actionable** - Every issue needs a concrete fix suggestion
 - **Guideline-anchored** - Cite the rule being violated when applicable
 - **Respect scope** - Only review what's in the diff/specified files
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/archon]] — Archon
+- [[000 - Map of Maps]] — Map of Maps
+

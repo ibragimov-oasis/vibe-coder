@@ -210,3 +210,10 @@ These community members filed issues and started discussions that drove improvem
 ---
 
 **This page is updated with every release. No contribution goes unappreciated.**
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/squad]] — Squad
+- [[000 - Map of Maps]] — Map of Maps
+

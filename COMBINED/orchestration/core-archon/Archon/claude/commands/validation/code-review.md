@@ -115,3 +115,10 @@ If no issues found: "Code review passed. No technical issues detected."
 - Flag security issues as CRITICAL
 - Reference CLAUDE.md conventions when applicable
 - Do NOT flag pre-existing issues in unchanged code
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/archon]] — Archon
+- [[000 - Map of Maps]] — Map of Maps
+

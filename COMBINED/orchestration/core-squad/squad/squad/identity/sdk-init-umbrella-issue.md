@@ -49,3 +49,10 @@ tags:
 - Adding/removing members updates squad.config.ts automatically
 - CastingEngine templates used during init (not bypassed)
 - Test matrix at 90%+ verified features
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/squad]] — Squad
+- [[000 - Map of Maps]] — Map of Maps
+

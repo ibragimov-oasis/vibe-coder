@@ -172,3 +172,10 @@ Generate the implementation plan at `.claude/archon/plans/{kebab-case-feature-na
 2. Print the plan to the conversation
 3. Summarize: number of tasks, affected packages, estimated complexity (low/medium/high),
    and any risks or open questions that need resolution before execution.
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/archon]] — Archon
+- [[000 - Map of Maps]] — Map of Maps
+

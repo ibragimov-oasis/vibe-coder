@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/mcp
+  - artifact/mcp-server
+  - source/mcp-servers
+---
+
 # VKE 部署指南
 
 本文档介绍如何将 Vikingbot 部署到火山引擎容器服务（VKE）。
@@ -446,3 +453,9 @@ kubectl delete -f deploy/vke/k8s/deployment.yaml
 - [火山引擎 CR 文档](https://www.volcengine.com/docs/6420)
 - [火山引擎 TOS 文档](https://www.volcengine.com/docs/6349)
 - [Kubernetes 官方文档](https://kubernetes.io/docs/)
+
+## 🔗 Связи
+
+- [[MOC - MCP Servers]] — mcp-servers
+- [[000 - Map of Maps]] — Map of Maps
+

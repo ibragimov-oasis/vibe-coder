@@ -68,3 +68,10 @@ npx claude-flow workflow research "modern web frameworks"
 # Export research workflow
 npx claude-flow workflow export research --format json
 ```
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

@@ -511,3 +511,10 @@ Launching 5 parallel review agents...
 - **CONTEXT_GATHERED**: Diff and file list available
 - **ARTIFACTS_DIR_CREATED**: Directory structure exists
 - **SCOPE_MANIFEST_WRITTEN**: `scope.md` file created with pre-review status
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/archon]] — Archon
+- [[000 - Map of Maps]] — Map of Maps
+

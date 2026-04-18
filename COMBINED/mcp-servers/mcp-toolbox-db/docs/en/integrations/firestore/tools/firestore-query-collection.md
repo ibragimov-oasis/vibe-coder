@@ -4,6 +4,10 @@ type: docs
 weight: 1
 description: >
   A "firestore-query-collection" tool allow to query collections in Firestore.
+tags:
+  - domain/mcp
+  - artifact/mcp-server
+  - source/mcp-servers
 ---
 
 ## About
@@ -215,3 +219,9 @@ The tool will return errors for:
 - Unsupported operators
 - Query execution failures
 - Invalid orderBy format
+
+## 🔗 Связи
+
+- [[MOC - MCP Servers]] — mcp-servers
+- [[000 - Map of Maps]] — Map of Maps
+

@@ -2,6 +2,10 @@
 title: "Dataproc"
 type: docs
 description: "Details of the Dataproc prebuilt configuration."
+tags:
+  - domain/mcp
+  - artifact/mcp-server
+  - source/mcp-servers
 ---
 
 ## Dataproc
@@ -17,3 +21,9 @@ description: "Details of the Dataproc prebuilt configuration."
     *   `get_cluster`: Gets a Dataproc cluster.
     *   `list_jobs`: Lists Dataproc jobs.
     *   `get_job`: Gets a Dataproc job.
+
+## 🔗 Связи
+
+- [[MOC - MCP Servers]] — mcp-servers
+- [[000 - Map of Maps]] — Map of Maps
+

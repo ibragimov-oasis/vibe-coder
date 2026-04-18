@@ -549,3 +549,10 @@ After 10 stalled iterations, autopilot disables itself and records a failure epi
 | `src/mcp/fastmcp/tools/index.ts` | Re-export registerAutopilotTools |
 | `src/cli/index.ts` | Re-export handleAutopilotCommand |
 | `package.json` | Add `./autopilot`, `./autopilot/cli`, `./autopilot/mcp` exports |
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

@@ -96,3 +96,9 @@ The `squad-heartbeat` workflow runs Ralph on event-based triggers (issue close, 
 | Too many agents | Start with 4-5, add specialists later |
 | Lost team knowledge | Commit `.squad/` to git |
 
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/squad]] — Squad
+- [[000 - Map of Maps]] — Map of Maps
+

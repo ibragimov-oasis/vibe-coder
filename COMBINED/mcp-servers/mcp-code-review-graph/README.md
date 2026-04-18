@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/mcp
+  - artifact/mcp-server
+  - source/mcp-servers
+---
+
 <h1 align="center">code-review-graph</h1>
 
 <p align="center">
@@ -333,3 +340,9 @@ MIT. See [LICENSE](LICENSE).
 <code>pip install code-review-graph && code-review-graph install</code><br>
 <sub>Works with Codex, Claude Code, Cursor, Windsurf, Zed, Continue, OpenCode, and Antigravity</sub>
 </p>
+
+## 🔗 Связи
+
+- [[MOC - MCP Servers]] — mcp-servers
+- [[000 - Map of Maps]] — Map of Maps
+

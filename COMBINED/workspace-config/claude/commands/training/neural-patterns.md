@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/config
+  - source/workspace-config
+---
+
 # Neural Pattern Training
 
 ## Purpose
@@ -72,3 +79,9 @@ npx claude-flow neural status
 # Analyze patterns
 npx claude-flow neural patterns --analyze
 ```
+
+## 🔗 Связи
+
+- [[MOC - System]] — workspace-config
+- [[000 - Map of Maps]] — Map of Maps
+

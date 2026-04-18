@@ -278,3 +278,10 @@ result = await engine.run_benchmark(objective)
 3. **Advanced Scheduling**: Machine learning-based task scheduling
 4. **Checkpointing**: Save and resume long-running benchmarks
 5. **Real-time Dashboard**: Web-based monitoring interface
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

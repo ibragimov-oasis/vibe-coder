@@ -142,3 +142,9 @@ MOC-хабы создают **плотные кластеры** в графе �
 - [[_governance/TAG_TAXONOMY]] — таксономия тегов
 - [[_audit/COVERAGE_REPORT]] — текущее покрытие
 - [[000 - Map of Maps]] — главная карта
+
+## 🔗 Связи
+
+- [[MOC - System]] — Parent MOC
+- [[000 - Map of Maps]] — Map of Maps
+

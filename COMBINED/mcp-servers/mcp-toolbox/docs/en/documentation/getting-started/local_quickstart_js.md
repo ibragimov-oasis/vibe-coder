@@ -6,6 +6,10 @@ description: >
   How to get started running MCP Toolbox locally with [JavaScript](https://github.com/googleapis/mcp-toolbox-sdk-js), PostgreSQL, and orchestration frameworks such as [LangChain](https://js.langchain.com/docs/introduction/), [GenkitJS](https://genkit.dev/docs/get-started/),  [LlamaIndex](https://ts.llamaindex.ai/) and [GoogleGenAI](https://github.com/googleapis/js-genai).
 sample_filters: ["JavaScript", "Quickstart", "Local", "ADK", "LangChain", "LlamaIndex", "Genkit", "Google GenAI"]
 is_sample: true
+tags:
+  - domain/mcp
+  - artifact/mcp-server
+  - source/mcp-servers
 ---
 
 ## Before you begin
@@ -127,3 +131,9 @@ npm install @google/adk
 For more information, visit the [JS SDK
 repo](https://github.com/googleapis/mcp-toolbox-sdk-js).
 {{</ notice >}}
+
+## 🔗 Связи
+
+- [[MOC - MCP Servers]] — mcp-servers
+- [[000 - Map of Maps]] — Map of Maps
+

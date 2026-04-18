@@ -220,3 +220,10 @@ agent = Agent(
 ## Contributing
 
 If you create additional examples or find improvements, please contribute back to the PraisonAI project!
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/praisonai]] — PraisonAI
+- [[000 - Map of Maps]] — Map of Maps
+

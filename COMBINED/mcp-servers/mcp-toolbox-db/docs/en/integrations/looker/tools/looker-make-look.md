@@ -5,6 +5,10 @@ weight: 1
 description: >
   "looker-make-look" generates a Looker look in the users personal folder in
   Looker
+tags:
+  - domain/mcp
+  - artifact/mcp-server
+  - source/mcp-servers
 ---
 
 ## About
@@ -66,3 +70,9 @@ description: |
 | type        |  string  |     true     | Must be "looker-make-look"                         |
 | source      |  string  |     true     | Name of the source the SQL should execute on.      |
 | description |  string  |     true     | Description of the tool that is passed to the LLM. |
+
+## 🔗 Связи
+
+- [[MOC - MCP Servers]] — mcp-servers
+- [[000 - Map of Maps]] — Map of Maps
+

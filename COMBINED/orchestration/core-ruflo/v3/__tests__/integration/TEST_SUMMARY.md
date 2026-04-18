@@ -362,3 +362,10 @@ The V3 integration test suite provides comprehensive coverage of all major archi
 
 **Total Implementation**: 10 files, 75 tests, ~2,750 lines of code, 106.1 KB
 **Status**: ✅ Complete and ready for production use
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

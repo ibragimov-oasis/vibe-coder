@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/mcp
+  - artifact/mcp-server
+  - source/mcp-servers
+---
+
 # Draft: Gitnexus vs Noodlbox Strategy
 
 ## Objectives
@@ -32,3 +39,9 @@
 - **Cursor**: Use `.cursorrules` to "shadow" default tools. Instruct agent to ALWAYS use `gitnexus_search` instead of `grep`.
 - **Claude Code**: Likely uses a private plugin API for `PreToolUse`. We can't match this exactly without an official plugin, but we can approximate it with strong prompt instructions in `AGENTS.md`.
 - **MCP Shadowing**: Define tools with names that conflict (e.g., `grep`)? No, unsafe. Better to use "Virtual Hooks" via system prompt instructions.
+
+## 🔗 Связи
+
+- [[MOC - MCP Servers]] — mcp-servers
+- [[000 - Map of Maps]] — Map of Maps
+

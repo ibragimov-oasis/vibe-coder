@@ -98,3 +98,10 @@ export PATH="$(npm config get prefix)/bin:$PATH"
 ✅ `claude-flow status` shows system running  
 ✅ `claude-flow hooks notify` works without errors  
 ✅ All commands available globally
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

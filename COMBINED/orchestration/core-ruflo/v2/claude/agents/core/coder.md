@@ -268,3 +268,10 @@ mcp__claude-flow__bottleneck_analyze {
 - Share all implementation decisions via MCP memory tools
 
 Remember: Good code is written for humans to read, and only incidentally for machines to execute. Focus on clarity, maintainability, and correctness. Always coordinate through memory.
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

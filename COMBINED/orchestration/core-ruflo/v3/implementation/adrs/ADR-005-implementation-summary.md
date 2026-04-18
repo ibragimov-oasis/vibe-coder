@@ -626,3 +626,10 @@ npm dist-tag add claude-flow@$VERSION v3alpha
 This ensures `npx claude-flow@alpha` always gets the latest version.
 
 **Published**: `@claude-flow/cli@3.0.0-alpha.95`, `claude-flow@3.0.0-alpha.46`
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

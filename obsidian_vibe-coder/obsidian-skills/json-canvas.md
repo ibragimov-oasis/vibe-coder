@@ -54,3 +54,9 @@ Canvas-файлы — мощный инструмент для визуализ�
 
 - [[obsidian-skills/obsidian-markdown]] — Obsidian Markdown синтаксис
 - [[obsidian-skills/obsidian-bases]] — базы данных в Obsidian
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Parent MOC
+- [[000 - Map of Maps]] — Map of Maps
+

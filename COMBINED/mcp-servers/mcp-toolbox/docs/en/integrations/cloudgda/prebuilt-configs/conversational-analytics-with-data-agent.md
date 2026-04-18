@@ -2,6 +2,10 @@
 title: "Conversational Analytics with Data Agent"
 type: docs
 description: "Details of the Conversational Analytics with Data Agent prebuilt configuration."
+tags:
+  - domain/mcp
+  - artifact/mcp-server
+  - source/mcp-servers
 ---
 
 ## Conversational Analytics with Data Agent
@@ -26,3 +30,9 @@ description: "Details of the Conversational Analytics with Data Agent prebuilt c
         documentation](https://cloud.google.com/gemini/docs/conversational-analytics-api/overview).
     *   `get_data_agent_info`: Retrieve details about a specific data agent.
     *   `list_accessible_data_agents`: List data agents that are accessible.
+
+## 🔗 Связи
+
+- [[MOC - MCP Servers]] — mcp-servers
+- [[000 - Map of Maps]] — Map of Maps
+

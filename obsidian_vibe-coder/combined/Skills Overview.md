@@ -79,3 +79,9 @@ npx skills add git@github.com:kepano/obsidian-skills.git
 - [[MOC - Skills]] — родительский хаб
 - [[MOC - Orchestration]] — Hermes создаёт навыки
 - [[root-docs/AGENTS]] — агенты используют навыки
+
+## 🔗 Связи
+
+- [[000 - Map of Maps]] — Parent MOC
+- [[000 - Map of Maps]] — Map of Maps
+

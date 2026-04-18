@@ -205,3 +205,10 @@ You normally never need to touch these manually.
 - **Combine with Git worktrees** for maximum safety — keep each Hermes session in its own worktree/branch, with checkpoints as an extra layer.
 
 For running multiple agents in parallel on the same repo, see the guide on [Git worktrees](./git-worktrees.md).
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/hermes]] — Hermes
+- [[000 - Map of Maps]] — Map of Maps
+

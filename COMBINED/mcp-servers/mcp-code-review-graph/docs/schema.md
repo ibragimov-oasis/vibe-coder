@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/mcp
+  - artifact/mcp-server
+  - source/mcp-servers
+---
+
 # Knowledge Graph Schema
 
 ## Node Types
@@ -219,3 +226,9 @@ CREATE VIRTUAL TABLE nodes_fts USING fts5(
 ```
 
 The `nodes` table also has a `community_id INTEGER` column (added via migration v4) linking nodes to their detected community.
+
+## 🔗 Связи
+
+- [[MOC - MCP Servers]] — mcp-servers
+- [[000 - Map of Maps]] — Map of Maps
+

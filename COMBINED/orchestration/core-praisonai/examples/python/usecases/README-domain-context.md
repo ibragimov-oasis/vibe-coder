@@ -86,3 +86,10 @@ main()
 - `README-domain-context.md` - This documentation
 
 This pattern can be adapted for any context passing scenario in PraisonAI multi-agent systems.
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/praisonai]] — PraisonAI
+- [[000 - Map of Maps]] — Map of Maps
+

@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/mcp
+  - artifact/mcp-server
+  - source/mcp-servers
+---
+
 # SQLFS2 Plugin - Plan 9 Style SQL File System
 
 A session-based SQL interface inspired by Plan 9's file system philosophy. Execute SQL queries by reading and writing virtual files.
@@ -259,3 +266,9 @@ echo "close" > /sqlfs2/tidb/$SID/ctl
 ## License
 
 Apache License 2.0
+
+## 🔗 Связи
+
+- [[MOC - MCP Servers]] — mcp-servers
+- [[000 - Map of Maps]] — Map of Maps
+

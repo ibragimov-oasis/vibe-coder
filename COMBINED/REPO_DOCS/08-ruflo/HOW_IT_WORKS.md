@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/REPO_DOCS
+---
+
 ─────────────────────────────────────────────────────────
 
 # ruflo — How It Works
@@ -53,3 +60,9 @@ These files were hidden (dot-prefix) in original but renamed in local vibe-coder
 - [x] Routing map complete
 - [x] Added to MASTER_INDEX.md
 ─────────────────────────────────────────────────────────
+
+## 🔗 Связи
+
+- [[000 - Map of Maps]] — REPO_DOCS
+- [[000 - Map of Maps]] — Map of Maps
+

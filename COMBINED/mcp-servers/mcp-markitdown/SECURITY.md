@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/mcp
+  - artifact/mcp-server
+  - source/mcp-servers
+---
+
 <!-- BEGIN MICROSOFT SECURITY.MD V0.0.9 BLOCK -->
 
 ## Security
@@ -39,3 +46,9 @@ We prefer all communications to be in English.
 Microsoft follows the principle of [Coordinated Vulnerability Disclosure](https://aka.ms/security.md/cvd).
 
 <!-- END MICROSOFT SECURITY.MD BLOCK -->
+
+## 🔗 Связи
+
+- [[MOC - MCP Servers]] — mcp-servers
+- [[000 - Map of Maps]] — Map of Maps
+

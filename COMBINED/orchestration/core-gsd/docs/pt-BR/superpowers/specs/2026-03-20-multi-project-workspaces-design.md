@@ -60,3 +60,10 @@ Introduzir workspaces multi-projeto com:
 
 > [!NOTE]
 > Esta versão em Português resume a especificação de design para uso prático. O arquivo original em inglês mantém o detalhamento normativo completo.
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/gsd]] — GSD
+- [[000 - Map of Maps]] — Map of Maps
+

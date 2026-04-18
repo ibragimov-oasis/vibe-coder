@@ -21,3 +21,10 @@ This file coordinates tasks and workflows across the project.
 
 ## Progress Tracking
 <!-- Monitor task progress -->
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/mcp
+  - artifact/mcp-server
+  - source/mcp-servers
+---
+
 # AGFS Go SDK
 
 Go client SDK for AGFS (Abstract Global File System) HTTP API. This SDK provides a simple and idiomatic Go interface for interacting with AGFS servers.
@@ -178,3 +185,9 @@ go test -v
 ## License
 
 See the LICENSE file in the root of the repository.
+
+## 🔗 Связи
+
+- [[MOC - MCP Servers]] — mcp-servers
+- [[000 - Map of Maps]] — Map of Maps
+

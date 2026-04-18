@@ -71,3 +71,10 @@ Seamlessly connect to:
 - `/project:utils:complexity-report` (if unsure)
 
 The goal: Zero friction from decision to implementation.
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/task-master]] — Task-Master
+- [[000 - Map of Maps]] — Map of Maps
+

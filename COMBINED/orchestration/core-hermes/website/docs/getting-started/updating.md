@@ -81,3 +81,10 @@ hermes gateway stop
 # macOS: launchctl remove ai.hermes.gateway
 ```
 :::
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/hermes]] — Hermes
+- [[000 - Map of Maps]] — Map of Maps
+

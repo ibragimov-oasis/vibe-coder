@@ -135,3 +135,10 @@ squad nap --dry-run
 ```
 
 Previews what a nap would clean up without making any changes.
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/squad]] — Squad
+- [[000 - Map of Maps]] — Map of Maps
+

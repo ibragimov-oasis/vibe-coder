@@ -167,3 +167,10 @@ This is the same class of bug as #315 — the adapter provides a type-level faca
 2. **F3** — Replace `as unknown as` cast with explicit mapping function.
 3. **F4** — Restrict `SquadClient.on()` types or add lifecycle event mapping.
 4. **F6 + F7** — Cleanup (can batch with any PR).
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/squad]] — Squad
+- [[000 - Map of Maps]] — Map of Maps
+

@@ -111,3 +111,10 @@ archon workflow reject <run-id> "reason for rejection"
 - **Workflow shows `running` for a long time**: The AI is doing research/implementation. Be patient — check again in a few minutes.
 - **Log file not found**: The log is at `~/.archon/workspaces/<owner>/<repo>/logs/<run-id>.jsonl`
 - **User wants to cancel**: Run `archon workflow reject <run-id>` or `archon workflow cancel <run-id>`
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/archon]] — Archon
+- [[000 - Map of Maps]] — Map of Maps
+

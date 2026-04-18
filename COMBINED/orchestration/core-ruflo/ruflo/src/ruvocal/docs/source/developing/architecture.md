@@ -53,3 +53,10 @@ npm run dev
 ```
 
 The dev server runs at `http://localhost:5173` with hot reloading.
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

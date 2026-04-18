@@ -4,6 +4,10 @@ type: docs
 weight: 1
 description: >
   The "postgres-list-locks" tool lists active locks in the database, including the associated process, lock type, relation, mode, and the query holding or waiting on the lock.
+tags:
+  - domain/mcp
+  - artifact/mcp-server
+  - source/mcp-servers
 ---
 
 ## About
@@ -74,3 +78,9 @@ Example response element (aggregated per process):
 | query   | string  | true     | SQL text associated with the session. |
 | trxid   | string  | true     | Aggregated transaction ids for the process, joined by ':' (string). Each element is the transactionid as text. |
 | locks   | string  | true     | Aggregated lock info entries for the process, joined by '||'. Each entry is a comma-separated triple: `granted,relation,mode` where `relation` may be `0` when not resolvable via regclass. |
+
+## 🔗 Связи
+
+- [[MOC - MCP Servers]] — mcp-servers
+- [[000 - Map of Maps]] — Map of Maps
+

@@ -663,3 +663,10 @@ console.log('Hook statistics:', stats);
 - See `example-usage.ts` for practical use cases
 - See `README.md` for API documentation
 - Implement hooks in your domain modules (security, memory, swarm)
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

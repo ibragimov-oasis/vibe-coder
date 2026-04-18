@@ -292,3 +292,10 @@ Archon supports four node types:
 You now have the full DAG toolkit. The same commands you built in Chapters 6 and 7 work as nodes — `command:` is the bridge. The difference is the wiring between them: explicit dependencies, conditional paths, and parallel execution by default.
 
 [Chapter 9: Hooks and Quality Loops →](/book/hooks-and-quality/) covers the next level: intercepting tool calls to inject guidance, create quality gates, or deny specific actions within a node.
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/archon]] — Archon
+- [[000 - Map of Maps]] — Map of Maps
+

@@ -4,6 +4,10 @@ type: docs
 weight: 1
 description: >
   A "valkey" tool executes a set of pre-defined Valkey commands against a Valkey instance.
+tags:
+  - domain/mcp
+  - artifact/mcp-server
+  - source/mcp-servers
 ---
 
 ## About
@@ -58,3 +62,9 @@ parameters:
     type: array
     description: The user names to be set.  
 ```
+
+## 🔗 Связи
+
+- [[MOC - MCP Servers]] — mcp-servers
+- [[000 - Map of Maps]] — Map of Maps
+

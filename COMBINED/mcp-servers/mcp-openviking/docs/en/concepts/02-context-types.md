@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/mcp
+  - artifact/mcp-server
+  - source/mcp-servers
+---
+
 # Context Types
 
 Based on a simplified mapping of human cognitive patterns and engineering considerations, OpenViking abstracts context into **three basic types: Resource, Memory, and Skill**, each serving different purposes in Agent applications.
@@ -136,3 +143,9 @@ for ctx in results.skills:
 - [Context Layers](./03-context-layers.md) - L0/L1/L2 model
 - [Viking URI](./04-viking-uri.md) - URI specification
 - [Session Management](./08-session.md) - Memory extraction mechanism
+
+## 🔗 Связи
+
+- [[MOC - MCP Servers]] — mcp-servers
+- [[000 - Map of Maps]] — Map of Maps
+

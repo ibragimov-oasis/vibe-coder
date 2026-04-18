@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/reference
+  - source/reference
+---
+
 # Manifest Backend .manifestrules Prompt
 
 ## 🚀 What you can build
@@ -50,3 +57,9 @@ This prompt file guides the generation of backends with Manifest. It embeds your
 - Manifest Docs: https://manifest.build/docs
 
 - JSON Schema: https://schema.manifest.build/schema.json
+
+## 🔗 Связи
+
+- [[MOC - System]] — reference
+- [[000 - Map of Maps]] — Map of Maps
+

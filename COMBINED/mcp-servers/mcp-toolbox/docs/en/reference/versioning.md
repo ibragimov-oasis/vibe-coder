@@ -3,6 +3,10 @@ title: "Versioning Policy"
 type: docs
 weight: 10
 description: How MCP Toolbox manages versions and breaking changes.
+tags:
+  - domain/mcp
+  - artifact/mcp-server
+  - source/mcp-servers
 ---
 
 MCP Toolbox for Databases follows [Semantic Versioning](https://semver.org/).
@@ -35,3 +39,9 @@ The following changes will **not** trigger a major version bump:
 * **Server**  
   * **Pre-built Config Modifications:** Adding, removing, or renaming individual tools within a pre-built toolset, as well as modifying server description, prompts, resources, tool descriptions or inputs, are treated as non-breaking changes.  
 * **Experimental Features:** Features or wrapper packages explicitly documented as "Preview" or "Beta" may introduce breaking changes without a major version bump to the core project.
+
+## 🔗 Связи
+
+- [[MOC - MCP Servers]] — mcp-servers
+- [[000 - Map of Maps]] — Map of Maps
+

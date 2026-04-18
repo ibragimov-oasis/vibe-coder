@@ -371,3 +371,10 @@ Semantic similarity will be a **bonus feature** in v2.8.0+, not a requirement fo
 **Version:** claude-flow v2.7.0-alpha.7
 **Assessment:** ✅ **PRODUCTION READY**
 **Confidence:** **HIGH** (validated in Docker tests)
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

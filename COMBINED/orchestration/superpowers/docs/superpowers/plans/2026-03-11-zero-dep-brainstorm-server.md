@@ -484,3 +484,10 @@ Open browser dev tools. The WebSocket connection should show as connected (no er
 ```bash
 rm -rf /tmp/brainstorm-smoke
 ```
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/superpowers]] — Superpowers
+- [[000 - Map of Maps]] — Map of Maps
+

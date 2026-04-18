@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/new_repos
+---
+
 # Miyo Node Service API
 
 Base URL: `http://127.0.0.1:8742`
@@ -469,3 +476,8 @@ Shape varies — includes at minimum:
 ```
 
 Plus live stats fields populated by the folder manager.
+
+## 🔗 Связи
+
+- [[000 - Map of Maps]] — Map of Maps
+

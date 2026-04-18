@@ -159,3 +159,10 @@ mcp__claude-flow__memory_usage({
 // 5. Sync periodically
 mcp__claude-flow__memory_sync({ target: "all" })
 ```
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

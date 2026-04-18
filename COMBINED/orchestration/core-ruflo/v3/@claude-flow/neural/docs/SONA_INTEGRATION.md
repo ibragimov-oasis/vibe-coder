@@ -465,3 +465,10 @@ console.log(status);
 ## License
 
 SONA integration follows the same license as the V3 neural module.
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

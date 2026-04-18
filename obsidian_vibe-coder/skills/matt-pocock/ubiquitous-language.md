@@ -74,3 +74,9 @@ source: "../COMBINED/skills/skills-development/ubiquitous-language/"
 
 - [[skills/matt-pocock/improve-codebase-architecture]] — архитектура использует ubiquitous language
 - [[skills/matt-pocock/write-a-prd]] — PRD строится на ubiquitous language
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Parent MOC
+- [[000 - Map of Maps]] — Map of Maps
+

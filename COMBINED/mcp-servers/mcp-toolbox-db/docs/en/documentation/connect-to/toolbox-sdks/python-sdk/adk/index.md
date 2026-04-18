@@ -4,6 +4,10 @@ type: docs
 weight: 1
 description: >
   MCP Toolbox SDK for integrating functionalities of MCP Toolbox into your ADK apps.
+tags:
+  - domain/mcp
+  - artifact/mcp-server
+  - source/mcp-servers
 ---
 
 ## Overview
@@ -271,4 +275,9 @@ toolset = ToolboxToolset(
 ```
 
 Configure your OpenTelemetry `TracerProvider` and `MeterProvider` before creating the client. See the [toolbox-core OpenTelemetry documentation](https://mcp-toolbox.dev/documentation/connect-to/toolbox-sdks/python-sdk/core/#opentelemetry) for a full setup example.
+
+## 🔗 Связи
+
+- [[MOC - MCP Servers]] — mcp-servers
+- [[000 - Map of Maps]] — Map of Maps
 

@@ -184,3 +184,10 @@ ACP temporarily installs an approval callback on the terminal tool during prompt
 - `toolsets.py` — `hermes-acp` toolset definition
 - `hermes_cli/main.py` — `hermes acp` CLI subcommand
 - `pyproject.toml` — `[acp]` optional dependency + `hermes-acp` script
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/hermes]] — Hermes
+- [[000 - Map of Maps]] — Map of Maps
+

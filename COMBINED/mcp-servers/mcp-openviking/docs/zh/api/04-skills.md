@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/mcp
+  - artifact/mcp-server
+  - source/mcp-servers
+---
+
 # 技能
 
 技能是智能体可以调用的能力。本指南介绍如何添加和管理技能。
@@ -510,3 +517,9 @@ skill = {
 - [上下文类型](../concepts/02-context-types.md) - 技能概念
 - [检索](06-retrieval.md) - 查找技能
 - [会话](05-sessions.md) - 跟踪技能使用情况
+
+## 🔗 Связи
+
+- [[MOC - MCP Servers]] — mcp-servers
+- [[000 - Map of Maps]] — Map of Maps
+

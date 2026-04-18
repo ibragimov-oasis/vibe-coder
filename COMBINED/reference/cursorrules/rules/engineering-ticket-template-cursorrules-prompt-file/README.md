@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/reference
+  - source/reference
+---
+
 # Engineering Ticket Template Prompt
 
 A specialized .cursorrules prompt for creating standardized engineering tickets with detailed requirements, implementation plans, and acceptance criteria for effective development team collaboration.
@@ -33,3 +40,9 @@ The .cursorrules prompt guides users in creating effective engineering tickets w
 - **Best Practices**: Ten key principles for writing effective engineering tickets
 - **Adaptability Guidance**: Advice for customizing tickets for different tools and teams
 - **Balance**: Focus on providing sufficient detail while allowing technical creativity
+
+## 🔗 Связи
+
+- [[MOC - System]] — reference
+- [[000 - Map of Maps]] — Map of Maps
+

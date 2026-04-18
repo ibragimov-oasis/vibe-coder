@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/mcp
+  - artifact/mcp-server
+  - source/mcp-servers
+---
+
 # OpenViking Memory Plugin — Agent Install Guide
 
 > For AI Agents (Claude Code, Cursor, etc.) to follow step-by-step.
@@ -246,3 +253,9 @@ Tell user: "OpenViking memory is connected to the remote server. I'll automatica
 | `externally-managed-environment` | Python PEP 668 restriction | Install via venv |
 | `ECONNREFUSED` | Remote server unreachable | Verify baseUrl and network connectivity |
 | Plugin not loaded | Env file not sourced | `source ~/.openclaw/openviking.env` (local mode) |
+
+## 🔗 Связи
+
+- [[MOC - MCP Servers]] — mcp-servers
+- [[000 - Map of Maps]] — Map of Maps
+

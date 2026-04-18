@@ -1,6 +1,10 @@
 ---
 name: gitnexus-impact-analysis
 description: Analyze blast radius before making code changes
+tags:
+  - domain/mcp
+  - artifact/mcp-server
+  - source/mcp-servers
 ---
 
 # Impact Analysis with GitNexus
@@ -92,3 +96,9 @@ gitnexus_detect_changes({scope: "staged"})
 
 3. Risk: 2 direct callers, 2 processes = MEDIUM
 ```
+
+## 🔗 Связи
+
+- [[MOC - MCP Servers]] — mcp-servers
+- [[000 - Map of Maps]] — Map of Maps
+

@@ -153,3 +153,10 @@ When a proposal invalidates existing wave structure:
 - "This is revolutionary" (tone ceiling violation)
 - No section on "What Stays the Same" (regression risk)
 - No risks documented (wishful thinking)
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/squad]] — Squad
+- [[000 - Map of Maps]] — Map of Maps
+

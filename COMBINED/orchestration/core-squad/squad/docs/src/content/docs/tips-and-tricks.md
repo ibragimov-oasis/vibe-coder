@@ -645,3 +645,9 @@ When you're unsure who to ask:
 | New decision | Any agent can propose, Scribe merges | Decisions are shared |
 | Edit decisions.md | You or Scribe | Plain markdown, editable anytime |
 
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/squad]] — Squad
+- [[000 - Map of Maps]] — Map of Maps
+

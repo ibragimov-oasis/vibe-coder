@@ -4,6 +4,10 @@ description: Plan the UX and UI for a feature before writing code. Runs a struct
 version: 2.1.1
 user-invocable: true
 argument-hint: "[feature to shape]"
+tags:
+  - domain/ui
+  - artifact/ui-component
+  - source/ui-design
 ---
 
 ## MANDATORY PREPARATION
@@ -94,3 +98,9 @@ Anything unresolved that the implementer should resolve during build.
 STOP and call the AskUserQuestion tool to clarify. Get explicit confirmation of the brief before finishing. If the user disagrees with any part, revisit the relevant discovery questions.
 
 Once confirmed, the brief is complete. The user can now hand it to /impeccable, or use it to guide any other implementation approach. (If the user wants the full discovery-then-build flow in one step, they should use /impeccable craft instead, which runs this skill internally.)
+
+## 🔗 Связи
+
+- [[MOC - UI Design]] — ui-design
+- [[000 - Map of Maps]] — Map of Maps
+

@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/config
+  - source/workspace-config
+---
+
 # Parallel Task Execution
 
 ## Purpose
@@ -48,3 +55,9 @@ Parameters: {"interval": 1000, "swarmId": "current"}
 ```
 
 Watch real-time parallel execution progress!
+
+## 🔗 Связи
+
+- [[MOC - System]] — workspace-config
+- [[000 - Map of Maps]] — Map of Maps
+

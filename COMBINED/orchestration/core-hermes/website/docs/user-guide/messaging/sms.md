@@ -177,3 +177,10 @@ SMS_WEBHOOK_PORT=3001
 ```
 
 Update the webhook URL in Twilio Console to match.
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/hermes]] — Hermes
+- [[000 - Map of Maps]] — Map of Maps
+

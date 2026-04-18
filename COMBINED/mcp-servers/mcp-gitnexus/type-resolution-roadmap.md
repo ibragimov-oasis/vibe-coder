@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/mcp
+  - artifact/mcp-server
+  - source/mcp-servers
+---
+
 # Type Resolution Roadmap
 
 This roadmap describes the evolution of GitNexus's type-resolution layer from a receiver-disambiguation aid into a production-grade static-analysis foundation.
@@ -270,3 +277,9 @@ That supports: better call graphs, more accurate impact analysis, stronger AI co
 **Complete:** Phases 7, 8, 9, 9C, Milestone D (A, B, C) — explicit types, constructor inference, loop inference, field/property resolution, deep chains, mixed chains, stdlib passthroughs, comment-based types, unified fixpoint with 4 binding kinds, arbitrary-depth chain propagation, MRO-aware inheritance walking, this/self resolution, object/struct destructuring, null-check narrowing — across 11 languages with full integration test coverage.
 
 **Next:** Phase 14 (cross-file binding propagation) — the architectural capstone. Phase S (Swift parity) is independent and unblocked once tree-sitter-swift Node 22 is resolved.
+
+## 🔗 Связи
+
+- [[MOC - MCP Servers]] — mcp-servers
+- [[000 - Map of Maps]] — Map of Maps
+

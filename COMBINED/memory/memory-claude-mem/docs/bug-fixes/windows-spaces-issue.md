@@ -1,5 +1,9 @@
 ---
 Title: Bug: SDK Agent fails on Windows when username contains spaces
+tags:
+  - domain/memory
+  - artifact/memory
+  - source/memory
 ---
 
 ## Bug Report
@@ -96,3 +100,9 @@ Verified on Windows 11 with username containing spaces:
 - Maintains backward compatibility with `CLAUDE_CODE_PATH` setting
 - No impact on non-Windows platforms
 - Related to Issue #733 (credential isolation) - separate fix
+
+## 🔗 Связи
+
+- [[MOC - Memory]] — memory
+- [[000 - Map of Maps]] — Map of Maps
+

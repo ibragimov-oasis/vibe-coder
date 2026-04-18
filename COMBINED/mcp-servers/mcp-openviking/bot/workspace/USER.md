@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/mcp
+  - artifact/mcp-server
+  - source/mcp-servers
+---
+
 # User Profile
 
 Information about the user to help personalize interactions.
@@ -47,3 +54,9 @@ Information about the user to help personalize interactions.
 ---
 
 *Edit this file to customize vikingbot's behavior for your needs.*
+
+## 🔗 Связи
+
+- [[MOC - MCP Servers]] — mcp-servers
+- [[000 - Map of Maps]] — Map of Maps
+

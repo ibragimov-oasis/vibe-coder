@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/mcp
+  - artifact/mcp-server
+  - source/mcp-servers
+---
+
 # MCP 集成指南
 
 OpenViking 可以作为 [MCP (Model Context Protocol)](https://modelcontextprotocol.io/) 服务器使用，任何兼容 MCP 的客户端都可以访问其记忆和资源能力。
@@ -228,3 +235,9 @@ curl http://localhost:1933/health
 - [OpenViking 配置](01-configuration.md)
 - [OpenViking 部署](03-deployment.md)
 - [相关 Issue：stdio 竞争问题 (#473)](https://github.com/volcengine/OpenViking/issues/473)
+
+## 🔗 Связи
+
+- [[MOC - MCP Servers]] — mcp-servers
+- [[000 - Map of Maps]] — Map of Maps
+

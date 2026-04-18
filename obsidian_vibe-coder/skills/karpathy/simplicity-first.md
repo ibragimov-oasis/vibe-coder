@@ -80,3 +80,9 @@ def create_user(name: str, email: str) -> User:
 
 - [[agents/mega-coder]] — coder применяет Simplicity First
 - [[agents/mega-architect]] — architect балансирует простоту и расширяемость
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Parent MOC
+- [[000 - Map of Maps]] — Map of Maps
+

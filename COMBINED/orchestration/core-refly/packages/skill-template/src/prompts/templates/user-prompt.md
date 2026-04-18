@@ -22,3 +22,10 @@ Remember: summary is unreliable — use `read_agent_result` for full content whe
 {{/if}}
 
 Question: {{query}}
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/refly]] — Refly
+- [[000 - Map of Maps]] — Map of Maps
+

@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/memory
+  - artifact/memory
+  - source/memory
+---
+
 # Claude-Mem OpenClaw Plugin — Setup Guide
 
 This guide walks through setting up the claude-mem plugin on an OpenClaw gateway. By the end, your agents will have persistent memory across sessions via system prompt context injection, and optionally a real-time observation feed streaming to a messaging channel.
@@ -460,3 +467,9 @@ A background service connects to the worker's SSE stream and forwards `new_obser
 | `observationFeed.enabled` | boolean | `false` | Stream observations to a messaging channel |
 | `observationFeed.channel` | string | — | Channel type: `telegram`, `discord`, `slack`, `signal`, `whatsapp`, `line` |
 | `observationFeed.to` | string | — | Target chat/channel/user ID |
+
+## 🔗 Связи
+
+- [[MOC - Memory]] — memory
+- [[000 - Map of Maps]] — Map of Maps
+

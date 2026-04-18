@@ -631,3 +631,10 @@ Update the PRD:
 
 **Next Step**: Review the plan, then: `/implement .agents/plans/{name}.plan.md`
 ```
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/archon]] — Archon
+- [[000 - Map of Maps]] — Map of Maps
+

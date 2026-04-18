@@ -55,3 +55,10 @@ The check command evaluates:
 - `0` - Verification passed
 - `1` - Verification failed
 - `2` - Error during verification
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

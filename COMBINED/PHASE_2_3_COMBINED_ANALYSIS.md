@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/combined-root
+---
+
 # Phase 2 (Continued) + Phase 3: Agent Analysis & Leftover Processing
 ## Date: 2026-04-07T17:02:00Z
 
@@ -471,3 +478,8 @@ According to PHASE_1_SUMMARY.md, **9,450 leftover files** were identified:
 **Generated**: 2026-04-07T17:02:00Z
 **Status**: Both phases in progress, significant findings documented
 **Next**: Complete remaining role analysis + verify leftover status
+
+## 🔗 Связи
+
+- [[000 - Map of Maps]] — Map of Maps
+

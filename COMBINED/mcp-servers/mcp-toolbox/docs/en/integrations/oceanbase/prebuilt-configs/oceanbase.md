@@ -2,6 +2,10 @@
 title: "OceanBase"
 type: docs
 description: "Details of the OceanBase prebuilt configuration."
+tags:
+  - domain/mcp
+  - artifact/mcp-server
+  - source/mcp-servers
 ---
 
 ## OceanBase
@@ -19,3 +23,9 @@ description: "Details of the OceanBase prebuilt configuration."
 *   **Tools:**
     *   `execute_sql`: Executes a SQL query.
     *   `list_tables`: Lists tables in the database.
+
+## 🔗 Связи
+
+- [[MOC - MCP Servers]] — mcp-servers
+- [[000 - Map of Maps]] — Map of Maps
+

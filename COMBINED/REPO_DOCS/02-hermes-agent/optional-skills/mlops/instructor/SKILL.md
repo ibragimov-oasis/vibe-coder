@@ -740,4 +740,8 @@ class PartialData(BaseModel):
 - `references/providers.md` - Provider-specific configuration
 - `references/examples.md` - Real-world use cases
 
+## 🔗 Связи
+
+- [[000 - Map of Maps]] — REPO_DOCS
+- [[000 - Map of Maps]] — Map of Maps
 

@@ -113,3 +113,10 @@ Once fixed:
 4. Verify the wording guides users to `/init` or similar, not just "exit and run"
 
 Run `npm run test` to check `test/repl-ux-e2e.test.ts` for first-run assertions.
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/squad]] — Squad
+- [[000 - Map of Maps]] — Map of Maps
+

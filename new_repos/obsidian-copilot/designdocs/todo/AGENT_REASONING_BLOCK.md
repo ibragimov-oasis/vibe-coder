@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/new_repos
+---
+
 # Agent Reasoning Block Implementation Plan
 
 ## Overview
@@ -570,3 +577,8 @@ const streamer = new ThinkBlockStreamer(updateCurrentAiMessage, {
 | `tailwind.css`                  | **Modify** - Add styles               |
 | `ToolCallBanner.tsx`            | **Deprecate** - Keep for old messages |
 | `toolCallParser.ts`             | **Keep** - Backward compat only       |
+
+## 🔗 Связи
+
+- [[000 - Map of Maps]] — Map of Maps
+

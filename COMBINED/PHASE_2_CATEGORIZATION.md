@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/combined-root
+---
+
 # Phase 2: Categorization & Standardization
 ## Started: 2026-04-07T16:18:30Z
 
@@ -599,3 +606,8 @@ For each merge:
 **Next**: Continue with detailed agent analysis and reference scanning in next session.
 
 **Generated**: 2026-04-07T16:18:30Z
+
+## 🔗 Связи
+
+- [[000 - Map of Maps]] — Map of Maps
+

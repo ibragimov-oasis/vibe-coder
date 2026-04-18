@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/reference
+  - source/reference
+---
+
 # TypeScript LLM Tech Stack .cursorrules prompt file
 
 Author: Raphael Mansuy
@@ -13,4 +20,9 @@ Developers can leverage this prompt to create a well-structured TypeScript codeb
 
 ## Overview of .cursorrules prompt
 The .cursorrules file outlines guidelines and best practices for a software engineer and product manager with expertise in multi-provider architectures for Large Language Models (LLMs) and functional programming in TypeScript. It emphasizes coding standards, including naming conventions, file organization, and code style, advocating for the use of TypeScript's features like type aliases and generics. The file stresses the importance of the Single Responsibility Principle, dependency injection, error handling, and comprehensive unit testing. It also highlights documentation practices using JSDoc and the effective use of specific libraries (e.g., axios, js-yaml, mime-types, node-gyp, uuid, and zod) to enhance functionality and maintainability.
+
+## 🔗 Связи
+
+- [[MOC - System]] — reference
+- [[000 - Map of Maps]] — Map of Maps
 

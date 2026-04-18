@@ -152,3 +152,10 @@ Features to defer until product-market fit is established.
 - Launch with less, validate, then expand
 
 </guidelines>
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/gsd]] — GSD
+- [[000 - Map of Maps]] — Map of Maps
+

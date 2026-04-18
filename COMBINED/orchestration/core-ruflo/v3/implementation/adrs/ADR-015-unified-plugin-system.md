@@ -309,3 +309,10 @@ TypeErrors  0 errors
 - [agentic-flow@alpha Integration](../../@claude-flow/plugins/src/integrations/agentic-flow.ts)
 - [Plugin Creator Example](../../@claude-flow/plugins/examples/plugin-creator/index.ts)
 - [README.md](../../@claude-flow/plugins/README.md)
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

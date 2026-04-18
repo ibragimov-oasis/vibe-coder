@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/command
+  - source/commands
+---
+
 # Pair Programming Modes
 
 Detailed guide to pair programming modes and their optimal use cases.
@@ -346,3 +353,9 @@ Save mode preferences:
 - [Starting Sessions](./start.md)
 - [Session Management](./session.md)
 - [Configuration](./config.md)
+
+## 🔗 Связи
+
+- [[MOC - System]] — commands
+- [[000 - Map of Maps]] — Map of Maps
+

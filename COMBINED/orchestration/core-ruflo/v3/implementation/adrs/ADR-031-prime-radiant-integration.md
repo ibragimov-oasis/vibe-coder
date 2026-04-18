@@ -1454,3 +1454,10 @@ v3/plugins/prime-radiant/
 - [prime-radiant-advanced-wasm npm](https://www.npmjs.com/package/prime-radiant-advanced-wasm)
 - [Sheaf Laplacian Theory](https://arxiv.org/abs/1808.04718)
 - [Do-Calculus for Causal Inference](https://arxiv.org/abs/1305.5506)
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

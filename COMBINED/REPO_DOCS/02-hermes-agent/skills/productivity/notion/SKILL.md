@@ -169,3 +169,9 @@ Common property formats for database items:
 - Use `is_inline: true` when creating data sources to embed them in pages
 - Add `-s` flag to curl to suppress progress bars (cleaner output for Hermes)
 - Pipe output through `jq` for readable JSON: `... | jq '.results[0].properties'`
+
+## 🔗 Связи
+
+- [[000 - Map of Maps]] — REPO_DOCS
+- [[000 - Map of Maps]] — Map of Maps
+

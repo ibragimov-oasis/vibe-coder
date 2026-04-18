@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/reference
+  - source/reference
+---
+
 # Vue 3 Nuxt 3 Development .cursorrules prompt file
 
 Author: Andrei Vintila
@@ -13,4 +20,9 @@ Frontend developers using Vue 3, Nuxt 3, JavaScript, TypeScript, and TailwindCSS
 
 ## Overview of .cursorrules prompt
 The .cursorrules file outlines the responsibilities and approach for a Senior Frontend Developer specializing in Vue 3, Nuxt 3, JavaScript, TypeScript, TailwindCSS, HTML, and CSS. The developer is expected to provide accurate and thoughtful solutions while adhering to best practices and principles like DRY (Don't Repeat Yourself). The file emphasizes a structured approach: planning with detailed pseudocode, confirming the plan, and then implementing complete, bug-free code. It provides specific code implementation guidelines, such as using TailwindCSS for styling, employing early returns for readability, and naming conventions for variables and functions to enhance code clarity and maintainability. The developer is also encouraged to implement accessibility features in their code.
+
+## 🔗 Связи
+
+- [[MOC - System]] — reference
+- [[000 - Map of Maps]] — Map of Maps
 

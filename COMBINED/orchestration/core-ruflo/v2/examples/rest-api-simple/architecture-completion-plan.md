@@ -263,3 +263,10 @@ rest-api-simple/
 - [ ] Documentation accurate and complete
 - [ ] No hardcoded values or secrets
 - [ ] Clean, maintainable code under 500 lines
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

@@ -48,3 +48,10 @@ Let me parse your request intelligently:
    - Many pending? → Suggest priority order
    - Many blocked? → Show dependency resolution
    - Looking at specific tasks? → Show related tasks
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/task-master]] — Task-Master
+- [[000 - Map of Maps]] — Map of Maps
+

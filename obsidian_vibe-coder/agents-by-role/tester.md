@@ -29,3 +29,9 @@ source: "../COMBINED/agents/by-role/tester/"
 - **MOC:** [[MOC - Agents]]
 - **Мета-агент:** [[agents/mega-tester]]
 - **Skills:** [[skills/skills-development]] (TDD skill)
+
+## 🔗 Связи
+
+- [[MOC - Agents]] — Parent MOC
+- [[000 - Map of Maps]] — Map of Maps
+

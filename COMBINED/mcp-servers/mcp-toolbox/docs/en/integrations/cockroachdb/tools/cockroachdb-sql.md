@@ -4,7 +4,10 @@ type: docs
 weight: 1
 description: >
   Execute parameterized SQL queries in CockroachDB.
-
+tags:
+  - domain/mcp
+  - artifact/mcp-server
+  - source/mcp-servers
 ---
 
 ## About
@@ -293,3 +296,9 @@ The tool automatically handles:
 - [cockroachdb-list-tables](./cockroachdb-list-tables.md) - List tables in the database
 - [cockroachdb-list-schemas](./cockroachdb-list-schemas.md) - List database schemas
 - [CockroachDB Source](../source.md) - Source configuration reference
+
+## 🔗 Связи
+
+- [[MOC - MCP Servers]] — mcp-servers
+- [[000 - Map of Maps]] — Map of Maps
+

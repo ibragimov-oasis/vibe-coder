@@ -6,6 +6,10 @@ weight: 1
 description: >
   A "cloud-monitoring" source provides a client for the Cloud Monitoring API.
 no_list: true
+tags:
+  - domain/mcp
+  - artifact/mcp-server
+  - source/mcp-servers
 ---
 
 ## About
@@ -45,3 +49,9 @@ useClientOAuth: true
 |----------------|:--------:|:------------:|------------------------------------------------------------------------------------------------------------------------------------------------|
 | type           |  string  |     true     | Must be "cloud-monitoring".                                                                                                                    |
 | useClientOAuth | boolean  |    false     | If true, the source will use client-side OAuth for authorization. Otherwise, it will use Application Default Credentials. Defaults to `false`. |
+
+## 🔗 Связи
+
+- [[MOC - MCP Servers]] — mcp-servers
+- [[000 - Map of Maps]] — Map of Maps
+

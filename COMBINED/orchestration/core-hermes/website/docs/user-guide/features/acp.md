@@ -199,3 +199,10 @@ or by editing `~/.hermes/.env`.
 - [ACP Internals](../../developer-guide/acp-internals.md)
 - [Provider Runtime Resolution](../../developer-guide/provider-runtime.md)
 - [Tools Runtime](../../developer-guide/tools-runtime.md)
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/hermes]] — Hermes
+- [[000 - Map of Maps]] — Map of Maps
+

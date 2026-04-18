@@ -75,3 +75,10 @@ Add descriptions for new models available in the HuggingFace router to chat-ui's
 - Vision models: mention "vision-language" and key visual tasks
 - Agent models: mention "agent" and automation capabilities
 - Regional models: mention language focus (e.g., "European multilingual", "Southeast Asian")
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

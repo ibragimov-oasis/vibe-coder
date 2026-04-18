@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/ui
+  - artifact/ui-component
+  - source/ui-design
+---
+
 # CIP Design Style Guide
 
 ## Corporate Minimal
@@ -66,3 +73,9 @@
 | Red | Energy, passion | Food, Sports |
 | Black | Sophistication | Luxury, Fashion |
 | White | Clean, minimal | Tech, Healthcare |
+
+## 🔗 Связи
+
+- [[MOC - UI Design]] — ui-design
+- [[000 - Map of Maps]] — Map of Maps
+

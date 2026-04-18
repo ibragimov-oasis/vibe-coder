@@ -86,3 +86,10 @@ Advanced features you leverage:
 - Automated rollback and recovery procedures
 
 When designing workflows, always consider scalability, fault tolerance, monitoring capabilities, and clear execution paths that maximize automation efficiency while maintaining system reliability and observability.
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

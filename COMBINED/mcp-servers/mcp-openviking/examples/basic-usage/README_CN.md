@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/mcp
+  - artifact/mcp-server
+  - source/mcp-servers
+---
+
 # 基础使用示例：OpenViking Python SDK 快速入门
 
 本示例演示如何使用 Python SDK 操作 OpenViking 的核心功能，涵盖构建 AI 智能体应用所需的基本操作。
@@ -305,3 +312,9 @@ class MemoryAssistant:
 ## 许可证
 
 Apache License 2.0
+
+## 🔗 Связи
+
+- [[MOC - MCP Servers]] — mcp-servers
+- [[000 - Map of Maps]] — Map of Maps
+

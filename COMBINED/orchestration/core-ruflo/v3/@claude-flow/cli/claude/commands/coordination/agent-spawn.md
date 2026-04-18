@@ -30,3 +30,10 @@ npx claude-flow agent spawn --type researcher --name "API Expert"
 # With specific skills
 npx claude-flow agent spawn --type coder --skills "python,fastapi,testing"
 ```
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

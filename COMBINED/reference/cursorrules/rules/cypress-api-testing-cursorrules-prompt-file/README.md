@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/reference
+  - source/reference
+---
+
 # Cypress API Testing .cursorrules prompt file
 
 Author: Peter M Souza Jr
@@ -17,3 +24,9 @@ This prompt empowers developers to create robust API tests that validate endpoin
 ## Overview of .cursorrules prompt
 
 The .cursorrules file provides guidance for QA engineers and developers creating API tests with Cypress. It emphasizes comprehensive validation using the cypress-ajv-schema-validator package to check response schemas, along with proper status code and error message verification. The prompt takes a TypeScript-aware approach, automatically detecting and adapting to TypeScript projects when present. It promotes best practices like descriptive test naming, test independence, and proper grouping of API tests by endpoint or resource. Tests created with this prompt focus on validating both successful operations and error handling scenarios, ensuring APIs behave correctly under various conditions. The prompt includes a detailed example demonstrating schema definition, request implementation, and validation patterns for a user API endpoint.
+
+## 🔗 Связи
+
+- [[MOC - System]] — reference
+- [[000 - Map of Maps]] — Map of Maps
+

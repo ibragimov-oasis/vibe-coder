@@ -174,3 +174,10 @@ npm test
 # PASS: EventBus publishes to all attached listeners
 # PASS: Session persists and can be resumed
 ```
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/squad]] — Squad
+- [[000 - Map of Maps]] — Map of Maps
+

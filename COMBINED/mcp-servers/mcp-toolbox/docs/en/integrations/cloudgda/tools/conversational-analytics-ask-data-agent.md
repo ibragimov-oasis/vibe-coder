@@ -6,6 +6,10 @@ description: >
   A "conversational-analytics-ask-data-agent" tool allows conversational interaction with a Conversational Analytics source.
 aliases:
 - /resources/tools/conversational-analytics-ask-data-agent
+tags:
+  - domain/mcp
+  - artifact/mcp-server
+  - source/mcp-servers
 ---
 
 ## About
@@ -62,3 +66,9 @@ tools:
 | description |  string  |     true     | Description of the tool that is passed to the LLM. |
 | location    |  string  |    false     | The Google Cloud location (default: "global").     |
 | maxResults  |  integer |    false     | The maximum number of data rows to return in the tool's final response (default: 50). This only limits the amount of data included in the final tool return to prevent excessive token consumption, and does not affect the internal analytical process or intermediate steps. |
+
+## 🔗 Связи
+
+- [[MOC - MCP Servers]] — mcp-servers
+- [[000 - Map of Maps]] — Map of Maps
+

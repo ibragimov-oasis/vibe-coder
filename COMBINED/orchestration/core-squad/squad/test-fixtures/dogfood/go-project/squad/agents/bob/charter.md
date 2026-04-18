@@ -20,3 +20,10 @@ Build systems and deployment infrastructure.
 - Go build tools
 - Docker, Kubernetes
 - Deployment automation
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/squad]] — Squad
+- [[000 - Map of Maps]] — Map of Maps
+

@@ -176,3 +176,10 @@ npx claude-flow stats --batch-ops
 # Performance profiling
 npx claude-flow profile --batch-execution
 ```
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

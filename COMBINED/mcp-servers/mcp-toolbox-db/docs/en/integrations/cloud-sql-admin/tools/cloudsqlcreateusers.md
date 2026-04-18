@@ -4,6 +4,10 @@ type: docs
 weight: 10
 description: >
   Create a new user in a Cloud SQL instance.
+tags:
+  - domain/mcp
+  - artifact/mcp-server
+  - source/mcp-servers
 ---
 
 ## About
@@ -32,3 +36,9 @@ description: "Creates a new user in a Cloud SQL instance. Both built-in and IAM 
 | type         |   string  |     true     | Must be "cloud-sql-create-users".                |
 | description  |   string  |     false    | A description of the tool.                       |
 | source       |   string  |     true     | The name of the `cloud-sql-admin` source to use. |
+
+## 🔗 Связи
+
+- [[MOC - MCP Servers]] — mcp-servers
+- [[000 - Map of Maps]] — Map of Maps
+

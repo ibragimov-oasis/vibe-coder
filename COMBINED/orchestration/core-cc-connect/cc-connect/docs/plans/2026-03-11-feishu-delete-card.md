@@ -180,3 +180,10 @@ Expected: PASS
 
 Run: `go test ./...`
 Expected: PASS
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/cc-connect]] — CC-Connect
+- [[000 - Map of Maps]] — Map of Maps
+

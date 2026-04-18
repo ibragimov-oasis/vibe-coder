@@ -85,3 +85,10 @@ npx claude-flow memory store "post-deployment-monitoring-mode_context" "importan
 # Query previous work
 npx claude-flow memory query "post-deployment-monitoring-mode" --limit 5
 ```
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

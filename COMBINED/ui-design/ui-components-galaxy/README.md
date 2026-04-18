@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/ui
+  - artifact/ui-component
+  - source/ui-design
+---
+
 ![screenshot](https://raw.githubusercontent.com/uiverse-io/.github/main/cover.png)
 
 # Galaxy
@@ -24,3 +31,9 @@ Interested in growing this universe of UI components? Contribution is simple:
 All UI elements in this repository are available under the **MIT License**, granting you the freedom to use, modify, and distribute them as you please. However, while not mandatory, we deeply value and appreciate attribution.
 
 When implementing a UI element from this collection, kindly consider giving credit to both the original creator and [Uiverse.io](https://uiverse.io/). This simple act promotes the ethos of sharing, acknowledges the designer's effort, and celebrates the community spirit.
+
+## 🔗 Связи
+
+- [[MOC - UI Design]] — ui-design
+- [[000 - Map of Maps]] — Map of Maps
+

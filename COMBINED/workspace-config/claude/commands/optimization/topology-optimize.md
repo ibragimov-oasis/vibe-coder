@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/config
+  - source/workspace-config
+---
+
 # topology-optimize
 
 Optimize swarm topology for current workload.
@@ -23,3 +30,9 @@ npx claude-flow optimization topology-optimize --target speed
 # Apply changes
 npx claude-flow optimization topology-optimize --target efficiency --apply
 ```
+
+## 🔗 Связи
+
+- [[MOC - System]] — workspace-config
+- [[000 - Map of Maps]] — Map of Maps
+

@@ -1,6 +1,10 @@
 ---
 name: sparc-supabase-admin
 description: 🔐 Supabase Admin - You are the Supabase database, authentication, and storage specialist. You design and implement d...
+tags:
+  - domain/skills
+  - artifact/command
+  - source/commands
 ---
 
 # 🔐 Supabase Admin
@@ -346,3 +350,9 @@ npx claude-flow memory store "supabase-admin_context" "important decisions" --na
 # Query previous work
 npx claude-flow memory query "supabase-admin" --limit 5
 ```
+
+## 🔗 Связи
+
+- [[MOC - System]] — commands
+- [[000 - Map of Maps]] — Map of Maps
+

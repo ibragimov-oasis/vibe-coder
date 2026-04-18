@@ -87,3 +87,10 @@ exec('git commit -m "First line\nSecond line"'); // FAILS silently in PowerShell
 - Assuming Unix-style paths work everywhere
 - Using `git -C` because it "looks cleaner" (it doesn't work)
 - Skipping `git diff --cached --quiet` check (creates empty commits)
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/squad]] — Squad
+- [[000 - Map of Maps]] — Map of Maps
+

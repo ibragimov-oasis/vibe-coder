@@ -4,6 +4,10 @@ type: docs
 weight: 2
 description: >
   Javascript SDKs to connect to the MCP Toolbox server.
+tags:
+  - domain/mcp
+  - artifact/mcp-server
+  - source/mcp-servers
 ---
 
 ## Overview
@@ -71,3 +75,9 @@ Source code for [js-sdk](https://github.com/googleapis/mcp-toolbox-sdk-js)
 {{< /notice >}}
 
 ## Explore the Javascript SDKs
+
+## 🔗 Связи
+
+- [[MOC - MCP Servers]] — mcp-servers
+- [[000 - Map of Maps]] — Map of Maps
+

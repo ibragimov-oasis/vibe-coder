@@ -3,6 +3,10 @@ title: "FAQ"
 type: docs
 weight: 2
 description: Frequently asked questions about Toolbox.
+tags:
+  - domain/mcp
+  - artifact/mcp-server
+  - source/mcp-servers
 ---
 
 ## How can I deploy or run Toolbox?
@@ -88,3 +92,9 @@ MCP Toolbox and [Google Cloud MCP Servers](https://cloud.google.com/blog/product
 
 - **Google Cloud MCP Servers** provides a managed, enterprise-grade experience with necessary stability and governance, offering a "Zero Ops" experience ideal for **[Build-Time Developers ("AI-Assisted")](../documentation/getting-started/_index.md#build-time-vs-runtime-implementation)** who need immediate, secure integration with Google Cloud services without any setup.
 - **MCP Toolbox** is open-source and self-hosted, allowing for rapid prototyping. It is designed for **[Run-Time Developers](../documentation/getting-started/_index.md#build-time-vs-runtime-implementation)** who need to build custom agents/applications, deploy custom tools, and connect to non-Google or on-premises data sources. MCP Toolbox is focused on delivering the most up to date and cutting-edge features quickly before they might be available in managed environments.
+
+## 🔗 Связи
+
+- [[MOC - MCP Servers]] — mcp-servers
+- [[000 - Map of Maps]] — Map of Maps
+

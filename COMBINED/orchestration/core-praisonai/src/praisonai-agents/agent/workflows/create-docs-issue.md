@@ -230,3 +230,10 @@ Confirm the URL: `https://github.com/MervinPraison/PraisonAIDocs/issues/<number>
 | Forgetting `provider.flush()` in examples | Async buffers need explicit flush before process exit |
 | Not testing with a real API key | Code-reading alone misses runtime errors |
 | Using `timeout` too short for first-run (downloads, auth) | Use `timeout 120` for agent runs, `timeout 30` for CLI |
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/praisonai]] — PraisonAI
+- [[000 - Map of Maps]] — Map of Maps
+

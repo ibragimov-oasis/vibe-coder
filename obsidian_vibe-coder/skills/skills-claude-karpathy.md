@@ -55,3 +55,9 @@ source: "../COMBINED/skills/skills-claude/karpathy/"
 
 - [[skills/skills-development]] — Matt Pocock 20 skills
 - [[combined/Agents Overview]] — как агенты используют принципы
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Parent MOC
+- [[000 - Map of Maps]] — Map of Maps
+

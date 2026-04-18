@@ -251,3 +251,10 @@ Write to `$ARTIFACTS_DIR/review/comment-quality-findings.md`:
 - **ACCURACY_CHECKED**: Comments verified against actual code
 - **ROT_IDENTIFIED**: Outdated comments found
 - **GAPS_DOCUMENTED**: Missing documentation noted
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/archon]] — Archon
+- [[000 - Map of Maps]] — Map of Maps
+

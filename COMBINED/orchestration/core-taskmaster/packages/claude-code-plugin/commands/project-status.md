@@ -69,3 +69,10 @@ Compare to previous periods:
 - Pattern recognition
 - Improvement areas
 - Success patterns to repeat
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/task-master]] — Task-Master
+- [[000 - Map of Maps]] — Map of Maps
+

@@ -65,3 +65,10 @@ Não inclui:
 
 > [!NOTE]
 > Esta versão em Português é uma tradução operacional do plano para consulta rápida. O documento original permanece como referência técnica canônica.
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/gsd]] — GSD
+- [[000 - Map of Maps]] — Map of Maps
+

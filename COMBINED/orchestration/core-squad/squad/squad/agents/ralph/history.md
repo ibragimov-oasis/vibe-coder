@@ -21,3 +21,10 @@ Agent Ralph initialized and ready for work.
 ## Learnings
 
 Initial setup complete.
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/squad]] — Squad
+- [[000 - Map of Maps]] — Map of Maps
+

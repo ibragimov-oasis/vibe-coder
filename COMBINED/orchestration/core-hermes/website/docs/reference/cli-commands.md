@@ -526,3 +526,10 @@ hermes claw migrate --source /home/user/old-openclaw
 - [Sessions](../user-guide/sessions.md)
 - [Skills System](../user-guide/features/skills.md)
 - [Skins & Themes](../user-guide/features/skins.md)
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/hermes]] — Hermes
+- [[000 - Map of Maps]] — Map of Maps
+

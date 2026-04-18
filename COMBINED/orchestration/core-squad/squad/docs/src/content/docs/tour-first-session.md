@@ -278,3 +278,10 @@ squad import ../my-app/squad-export.json
 - **Say "team" for big tasks.** The word "team" triggers parallel fan-out across multiple agents.
 - **Name an agent for focused work.** `"Dallas, fix the login bug"` sends work to one specific agent.
 - **Directives are sticky.** Once captured, they persist across all future sessions.
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/squad]] — Squad
+- [[000 - Map of Maps]] — Map of Maps
+

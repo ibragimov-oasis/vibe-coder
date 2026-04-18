@@ -165,3 +165,10 @@ Then [report the issue](https://github.com/bradygaster/squad/issues).
 Insiders help us ship better software. Your bug reports, feature requests, and feedback make Squad stronger. Thank you for being part of the journey.
 
 Have questions? [Start a discussion](https://github.com/bradygaster/squad/discussions).
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/squad]] — Squad
+- [[000 - Map of Maps]] — Map of Maps
+

@@ -41,3 +41,10 @@ After setting to in-progress:
 - Related files from similar tasks
 - Potential blockers to watch for
 - Recommended first steps
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/task-master]] — Task-Master
+- [[000 - Map of Maps]] — Map of Maps
+

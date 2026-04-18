@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/ui
+  - artifact/ui-component
+  - source/ui-design
+---
+
 # Slide Strategies
 
 15 proven deck structures with emotion arcs.
@@ -92,3 +99,9 @@ python COMBINED/workspace-config/claude/skills/design-system/scripts/search-slid
 | Public speaking | Conference Talk, Workshop |
 | Proving value | Case Study, Competitive Analysis |
 | Lead generation | Webinar |
+
+## 🔗 Связи
+
+- [[MOC - UI Design]] — ui-design
+- [[000 - Map of Maps]] — Map of Maps
+

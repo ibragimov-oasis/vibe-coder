@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/memory
+  - artifact/memory
+  - source/memory
+---
+
 # SessionStore Test Failures Analysis
 
 **Date:** 2026-01-04
@@ -272,3 +279,9 @@ The separation of `memory_session_id` from `content_session_id` is intentional a
 > CRITICAL: memory_session_id must NEVER equal contentSessionId - that would inject memory messages into the user's transcript!
 
 The tests should reflect and respect this architectural decision rather than assuming the two IDs are the same.
+
+## 🔗 Связи
+
+- [[MOC - Memory]] — memory
+- [[000 - Map of Maps]] — Map of Maps
+

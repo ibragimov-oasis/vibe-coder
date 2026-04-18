@@ -149,3 +149,10 @@ All production commands work correctly as evidenced by commands.test.ts.
 - ✅ All commands working correctly
 - ✅ Quality metrics exceeded
 - ⚠️ Minor test infrastructure improvements needed
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

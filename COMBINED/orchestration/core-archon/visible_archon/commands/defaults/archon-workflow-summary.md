@@ -499,3 +499,10 @@ Summary comment added to PR with:
 - **GITHUB_POSTED**: Summary comment on PR
 - **ARTIFACT_WRITTEN**: workflow-summary.md created
 - **ACTIONABLE**: User has clear next steps with minimal cognitive load
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/archon]] — Archon
+- [[000 - Map of Maps]] — Map of Maps
+

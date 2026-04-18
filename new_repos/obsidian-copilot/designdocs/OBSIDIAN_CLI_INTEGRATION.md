@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/new_repos
+---
+
 # Obsidian CLI Integration Design (MVP)
 
 **Date:** 2026-02-11
@@ -781,3 +788,8 @@ All commands return consistent error formats:
 | No results             | Command-specific empty message (e.g., `No tasks found.`, `No backlinks found.`, `No links found.`) |
 | CLI binary not found   | Process error code `ENOENT` — handled by `ObsidianCliClient` fallback resolution                   |
 | Timeout                | Process killed after `timeoutMs` — handled by `ObsidianCliClient`                                  |
+
+## 🔗 Связи
+
+- [[000 - Map of Maps]] — Map of Maps
+

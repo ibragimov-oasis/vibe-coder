@@ -237,3 +237,10 @@ The `nodes:` format you've been using covers most workflows. To add conditional 
 If your workflow starts needing an "if this, then that" branch — or structured JSON output from one node to route into another — those features are covered in the next chapter.
 
 [Chapter 8: DAG Workflows →](/book/dag-workflows/) covers conditionals, structured output routing, and trigger rules. Everything you've learned about commands and nodes carries directly over.
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/archon]] — Archon
+- [[000 - Map of Maps]] — Map of Maps
+

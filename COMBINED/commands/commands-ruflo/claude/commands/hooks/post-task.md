@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/command
+  - source/commands
+---
+
 # hook post-task
 
 Execute post-task cleanup, performance analysis, and memory storage.
@@ -110,3 +117,9 @@ Returns JSON with:
 - `performance report` - Detailed metrics
 - `memory usage` - Memory management
 - `neural patterns` - Pattern analysis
+
+## 🔗 Связи
+
+- [[MOC - System]] — commands
+- [[000 - Map of Maps]] — Map of Maps
+

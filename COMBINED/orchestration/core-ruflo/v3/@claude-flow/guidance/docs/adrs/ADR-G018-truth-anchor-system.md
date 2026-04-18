@@ -51,3 +51,10 @@ Introduce `TruthAnchorStore` and `TruthResolver`:
 - **Pinning memory entries as immutable**: Mixes internal and external state; no signature chain
 - **External oracle service**: Adds network dependency; truth anchors are local-first
 - **W3C Verifiable Credentials**: Good model but requires DID infrastructure not present in this context
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

@@ -96,3 +96,10 @@ tags:
 - Only English locale supported in v1 (i18n infrastructure in place)
 - Marketplace is read-only in this release (publish coming in v0.7)
 - Offline mode is best-effort; some features require network
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/squad]] — Squad
+- [[000 - Map of Maps]] — Map of Maps
+

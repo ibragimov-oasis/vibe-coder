@@ -94,3 +94,10 @@ All objectives achieved, all code tested, all documentation complete. The enhanc
 **GitHub Issue**: [#599](https://github.com/ruvnet/claude-flow/issues/599)
 **Date**: 2025-01-06
 **Version**: 2.0.0
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

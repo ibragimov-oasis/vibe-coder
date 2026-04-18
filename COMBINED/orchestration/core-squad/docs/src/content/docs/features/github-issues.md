@@ -168,3 +168,10 @@ what's left in the backlog?
 ```
 
 Refreshes the issue list and shows remaining open work items.
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/squad]] — Squad
+- [[000 - Map of Maps]] — Map of Maps
+

@@ -1250,3 +1250,10 @@ See `/docs/learning-algorithms.md` for algorithm descriptions.
 | Version | Date | Author | Changes |
 |---------|------|--------|---------|
 | 1.0.0 | 2026-01-16 | Architecture Team | Initial architecture document |
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

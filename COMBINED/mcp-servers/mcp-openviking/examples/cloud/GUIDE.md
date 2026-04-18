@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/mcp
+  - artifact/mcp-server
+  - source/mcp-servers
+---
+
 # OpenViking 云上部署指南（火山引擎）
 
 本文档介绍如何将 OpenViking 部署到火山引擎云上，使用 TOS（对象存储）+ VikingDB（向量数据库）+ 方舟大模型作为后端。
@@ -667,3 +674,9 @@ helm install openviking ./examples/k8s-helm -f my-values.yaml
 - 检查 `kubectl logs <pod-name>`，通常是配置字段缺失
 - 确认 values 文件中包含完整的 storage、embedding、vlm 配置（参考第 3 节 Helm 部分）
 - 确认 `openviking.config` 下的 JSON 结构正确（Helm 会将其序列化为 ov.conf）
+
+## 🔗 Связи
+
+- [[MOC - MCP Servers]] — mcp-servers
+- [[000 - Map of Maps]] — Map of Maps
+

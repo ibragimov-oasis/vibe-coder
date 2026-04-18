@@ -144,3 +144,10 @@ Displays team.md with all members, roles, and capabilities.
 Change the tester to focus on integration tests instead of unit tests
 ```
 Updates the tester's charter to adjust their focus area and expertise.
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/squad]] — Squad
+- [[000 - Map of Maps]] — Map of Maps
+

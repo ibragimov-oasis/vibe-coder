@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/mcp
+  - artifact/mcp-server
+  - source/mcp-servers
+---
+
 # Introduction
 
 **OpenViking** is an open-source context database designed specifically for AI Agents. OpenViking unifies the management of context (memory, resources, and skills) that Agents need through a **file system paradigm**, enabling **hierarchical context delivery** and **self-iteration**. The ultimate goal is to lower the barrier for Agent development, allowing developers to focus on business innovation rather than underlying context management.
@@ -113,3 +120,9 @@ Enabling Agents to become "smarter with use" through world interaction, achievin
 - [Architecture Overview](../concepts/01-architecture.md) - Understand system design
 - [Context Types](../concepts/02-context-types.md) - Deep dive into three context types
 - [Retrieval Mechanism](../concepts/07-retrieval.md) - Learn about retrieval flow
+
+## 🔗 Связи
+
+- [[MOC - MCP Servers]] — mcp-servers
+- [[000 - Map of Maps]] — Map of Maps
+

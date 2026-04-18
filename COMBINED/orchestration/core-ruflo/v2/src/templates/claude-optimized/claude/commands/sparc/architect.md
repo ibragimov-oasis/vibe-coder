@@ -102,3 +102,10 @@ await batchtools.createFiles([
   { path: '/architecture/diagrams/deployment.mmd', content: deploymentDiagram },
 ]);
 ```
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

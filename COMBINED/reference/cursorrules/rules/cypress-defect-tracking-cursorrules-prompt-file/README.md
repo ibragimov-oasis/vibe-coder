@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/reference
+  - source/reference
+---
+
 # Cypress Defect Tracking .cursorrules prompt file
 
 Author: Peter M Souza Jr
@@ -17,3 +24,9 @@ This prompt helps QA engineers create team-specific, categorized Cypress tests w
 ## Overview of .cursorrules prompt
 
 The .cursorrules file provides guidance for QA engineers implementing defect tracking and test reporting with Cypress. It focuses on using the qa-shadow-report package with a hierarchical tagging approach where common tags (team, test type, category) are applied at the describe/context level, while case IDs and specific category variations are applied at the individual test level. This results in cleaner, more maintainable test code. The prompt accepts user input for team names, test types, test categories, features to test, and case IDs, then generates properly formatted Cypress tests with appropriate tagging. It automatically detects TypeScript projects and adjusts syntax accordingly, supporting both JavaScript and TypeScript environments. The example demonstrates how to apply the common "regression" category at the describe level while only adding specific categories like "performance" to individual tests that differ from the parent category.
+
+## 🔗 Связи
+
+- [[MOC - System]] — reference
+- [[000 - Map of Maps]] — Map of Maps
+

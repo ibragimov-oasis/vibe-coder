@@ -88,3 +88,10 @@ Every verified item gets one of:
 ## Learnings
 
 Initial setup complete. Ready for verification work.
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/squad]] — Squad
+- [[000 - Map of Maps]] — Map of Maps
+

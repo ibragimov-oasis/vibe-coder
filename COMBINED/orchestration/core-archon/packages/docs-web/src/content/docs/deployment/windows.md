@@ -121,3 +121,10 @@ See also: [Port Conflicts](/reference/troubleshooting/#port-conflicts) in the tr
 - **VS Code Integration**: Install the "Remote - WSL" extension to edit WSL2 files from VS Code
 - **Terminal**: Windows Terminal provides excellent WSL2 support
 - **Git**: Use Git inside WSL2 for consistent behavior with Archon
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/archon]] — Archon
+- [[000 - Map of Maps]] — Map of Maps
+

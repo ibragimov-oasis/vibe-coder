@@ -361,3 +361,10 @@ await fn(sandbox.console, sandbox.sendMCPCommand);
 ---
 
 **This is a production-ready browser IDE powered by Claude Flow MCP + Monaco Editor!** 🚀
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

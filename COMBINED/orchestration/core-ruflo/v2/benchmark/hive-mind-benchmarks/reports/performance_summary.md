@@ -38,3 +38,10 @@ tags:
 - **Enterprise (1000+)**: Hybrid coordination with sharding
 
 **Bottom Line**: Ready for production deployment with clear optimization roadmap.
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

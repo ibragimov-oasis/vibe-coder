@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/mcp
+  - artifact/mcp-server
+  - source/mcp-servers
+---
+
 # DEVELOPER.md
 
 This document provides instructions for setting up your development environment
@@ -849,4 +856,9 @@ Trigger pull request tests for external contributors by:
 * (Suspended) .github/sync-repo-settings.yaml - configure repo settings
 * .github/release-please.yml - Creates GitHub releases
 * .github/ISSUE_TEMPLATE - templates for GitHub issues
+
+## 🔗 Связи
+
+- [[MOC - MCP Servers]] — mcp-servers
+- [[000 - Map of Maps]] — Map of Maps
 

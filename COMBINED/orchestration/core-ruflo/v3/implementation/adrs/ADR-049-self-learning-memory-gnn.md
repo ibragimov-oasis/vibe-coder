@@ -203,3 +203,10 @@ user:    ~/.claude/agent-memory/<agentName>/
 ### Risks
 - Neural system changes may require LearningBridge updates (mitigated by dynamic import + try/catch)
 - Large graphs (>5k nodes) may impact memory usage (mitigated by maxNodes cap)
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

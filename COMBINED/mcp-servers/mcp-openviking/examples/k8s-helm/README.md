@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/mcp
+  - artifact/mcp-server
+  - source/mcp-servers
+---
+
 # OpenViking Helm Chart
 
 This Helm chart deploys OpenViking on Kubernetes, providing a scalable and production-ready RAG (Retrieval-Augmented Generation) and semantic search service.
@@ -270,3 +277,9 @@ Contributions are welcome! Please see the [OpenViking repository](https://github
 ## License
 
 This Helm chart is licensed under the Apache License 2.0, matching the OpenViking project license.
+
+## 🔗 Связи
+
+- [[MOC - MCP Servers]] — mcp-servers
+- [[000 - Map of Maps]] — Map of Maps
+

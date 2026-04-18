@@ -94,3 +94,10 @@ See [OpenID configuration](./open-id) for details.
 ## Environment Variable Reference
 
 See the [`.env` file](https://github.com/huggingface/chat-ui/blob/main/.env) for the complete list of available options.
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

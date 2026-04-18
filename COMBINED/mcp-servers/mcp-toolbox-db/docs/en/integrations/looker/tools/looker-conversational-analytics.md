@@ -5,6 +5,10 @@ weight: 1
 description: >
   The "looker-conversational-analytics" tool will use the Conversational
   Analaytics API to analyze data from Looker
+tags:
+  - domain/mcp
+  - artifact/mcp-server
+  - source/mcp-servers
 ---
 
 ## About
@@ -46,3 +50,9 @@ description: |
 | type        |  string  |     true     | Must be "lookerca-conversational-analytics".       |
 | source      |  string  |     true     | Name of the source the SQL should execute on.      |
 | description |  string  |     true     | Description of the tool that is passed to the LLM. |
+
+## 🔗 Связи
+
+- [[MOC - MCP Servers]] — mcp-servers
+- [[000 - Map of Maps]] — Map of Maps
+

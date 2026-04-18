@@ -2,6 +2,10 @@
 name: agentic-jujutsu
 description: |
   Quantum-resistant, self-learning version control for AI agents with ReasoningBank intelligence and multi-agent coordination
+tags:
+  - domain/skills
+  - artifact/config
+  - source/workspace-config
 ---
 
 # Agentic Jujutsu - AI Agent Version Control
@@ -643,3 +647,9 @@ async function agentSwarm(taskList) {
 **Status**: ✅ Production Ready
 **License**: MIT
 **Maintained**: Active
+
+## 🔗 Связи
+
+- [[MOC - System]] — workspace-config
+- [[000 - Map of Maps]] — Map of Maps
+

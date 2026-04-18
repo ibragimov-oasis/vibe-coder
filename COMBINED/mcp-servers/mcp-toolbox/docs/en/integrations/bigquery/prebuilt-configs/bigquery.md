@@ -2,6 +2,10 @@
 title: "BigQuery"
 type: docs
 description: "Details of the BigQuery prebuilt configuration."
+tags:
+  - domain/mcp
+  - artifact/mcp-server
+  - source/mcp-servers
 ---
 
 ## BigQuery
@@ -43,3 +47,9 @@ description: "Details of the BigQuery prebuilt configuration."
     *   `list_dataset_ids`: Lists datasets.
     *   `list_table_ids`: Lists tables.
     *   `search_catalog`: Search for entries based on the provided query.
+
+## 🔗 Связи
+
+- [[MOC - MCP Servers]] — mcp-servers
+- [[000 - Map of Maps]] — Map of Maps
+

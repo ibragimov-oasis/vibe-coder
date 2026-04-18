@@ -153,3 +153,10 @@ When the request is about release readiness, quality gates, or risk assessment:
 - Risk-tier changes: SAFE / MONITOR / HOLD based on evidence
 </Quality_Strategy_Mode>
 </Agent_Prompt>
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/omc]] — OMC
+- [[000 - Map of Maps]] — Map of Maps
+

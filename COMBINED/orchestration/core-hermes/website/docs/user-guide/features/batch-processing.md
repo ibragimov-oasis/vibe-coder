@@ -228,3 +228,10 @@ For benchmarks requiring specific environments, each prompt can specify its own 
 ```
 
 The batch runner verifies Docker images are accessible before running each prompt.
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/hermes]] — Hermes
+- [[000 - Map of Maps]] — Map of Maps
+

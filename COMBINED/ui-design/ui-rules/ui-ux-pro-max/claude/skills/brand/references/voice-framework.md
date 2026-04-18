@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/ui
+  - artifact/ui-component
+  - source/ui-design
+---
+
 # Brand Voice Framework
 
 ## Voice vs. Tone
@@ -86,3 +93,9 @@ Ask these questions:
 Before: [Generic copy]
 After: [Branded copy]
 ```
+
+## 🔗 Связи
+
+- [[MOC - UI Design]] — ui-design
+- [[000 - Map of Maps]] — Map of Maps
+

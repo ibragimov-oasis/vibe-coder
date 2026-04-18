@@ -104,3 +104,10 @@ npx claude-flow agent list -s idle --format json | \
 - `npx claude-flow agent list` - Find agent IDs
 - `npx claude-flow agent status` - Check status before stopping
 - `npx claude-flow swarm destroy` - Stop all agents in swarm
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

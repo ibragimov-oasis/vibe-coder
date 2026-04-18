@@ -122,3 +122,10 @@ Works well with:
 - Project documentation
 - Team updates
 - Client reports
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/task-master]] — Task-Master
+- [[000 - Map of Maps]] — Map of Maps
+

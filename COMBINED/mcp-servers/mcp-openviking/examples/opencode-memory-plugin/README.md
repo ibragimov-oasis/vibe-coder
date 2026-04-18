@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/mcp
+  - artifact/mcp-server
+  - source/mcp-servers
+---
+
 # OpenViking Memory Plugin for OpenCode
 
 OpenCode plugin example that exposes OpenViking memories as explicit tools and automatically syncs conversation sessions into OpenViking.
@@ -194,3 +201,9 @@ const result = await memcommit({})
 - Service unavailable: confirm `openviking-server` is running and reachable at the configured endpoint
 - Authentication failed: check `OPENVIKING_API_KEY` or `openviking-config.json`
 - No memories extracted: check that your OpenViking server has working `vlm` and `embedding` configuration
+
+## 🔗 Связи
+
+- [[MOC - MCP Servers]] — mcp-servers
+- [[000 - Map of Maps]] — Map of Maps
+

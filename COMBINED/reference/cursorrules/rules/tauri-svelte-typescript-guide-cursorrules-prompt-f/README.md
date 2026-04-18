@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/reference
+  - source/reference
+---
+
 # Tauri Svelte TypeScript Guide .cursorrules prompt file
 
 Author: Aravindh Marimuthu
@@ -13,4 +20,9 @@ Developers creating cross-platform desktop applications will benefit by building
 
 ## Overview of .cursorrules prompt
 The .cursorrules file provides guidelines for developers building desktop applications using Tauri, Svelte, and TypeScript. It emphasizes key principles, such as type safety, responsive UI development, security, performance optimization, and testing best practices. The file outlines practices for front-end development, enabling efficient communication with backend services through Axios, and enforcing security measures like IPC handling and HTTPS usage. It also covers build and deployment strategies with Vite, and conventions for coding style and project structure. Dependencies include Tauri, Svelte, TypeScript, Vite, and Axios, with an emphasis on consulting official documentation for best practices.
+
+## 🔗 Связи
+
+- [[MOC - System]] — reference
+- [[000 - Map of Maps]] — Map of Maps
 

@@ -494,3 +494,10 @@ multica/
 | 4 | `feat(ui): extract packages/ui` | 118 文件 import 变更 | 中 — 最多文件 |
 | 5 | `feat(views): extract packages/views` | 18 文件 + 3 胖壳 | 中 |
 | 6 | `chore: final verification` | 0 | 低 |
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/multica]] — Multica
+- [[000 - Map of Maps]] — Map of Maps
+

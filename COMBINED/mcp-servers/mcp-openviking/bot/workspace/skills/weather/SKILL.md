@@ -3,6 +3,10 @@ name: weather
 description: Get current weather and forecasts (no API key required).
 homepage: https://wttr.in/:help
 metadata: {"vikingbot":{"emoji":"🌤️","requires":{"bins":["curl"]}}}
+tags:
+  - domain/mcp
+  - artifact/mcp-server
+  - source/mcp-servers
 ---
 
 # Weather
@@ -47,3 +51,9 @@ curl -s "https://api.open-meteo.com/v1/forecast?latitude=51.5&longitude=-0.12&cu
 Find coordinates for a city, then query. Returns JSON with temp, windspeed, weathercode.
 
 Docs: https://open-meteo.com/en/docs
+
+## 🔗 Связи
+
+- [[MOC - MCP Servers]] — mcp-servers
+- [[000 - Map of Maps]] — Map of Maps
+

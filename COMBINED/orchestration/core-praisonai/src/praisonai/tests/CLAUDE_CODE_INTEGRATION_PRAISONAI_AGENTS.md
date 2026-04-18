@@ -296,3 +296,10 @@ print("Repo path:", os.getenv("PRAISONAI_CODE_REPO_PATH"))
 ---
 
 For technical support or questions, please refer to the main PraisonAI documentation or submit issues to the repository.
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/praisonai]] — PraisonAI
+- [[000 - Map of Maps]] — Map of Maps
+

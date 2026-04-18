@@ -569,3 +569,10 @@ Squad maintains a clear ownership model:
 | `squad status` | Show team status and global config |
 | `squad --version` | Show installed version |
 | `squad --help` | Show help |
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/squad]] — Squad
+- [[000 - Map of Maps]] — Map of Maps
+

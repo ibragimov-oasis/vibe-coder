@@ -4,6 +4,10 @@ type: docs
 weight: 1
 description: >
   A "firestore-validate-rules" tool validates Firestore security rules syntax and semantic correctness without deploying them. It provides detailed error reporting with source positions and code snippets.
+tags:
+  - domain/mcp
+  - artifact/mcp-server
+  - source/mcp-servers
 ---
 
 ## About
@@ -126,3 +130,9 @@ The tool will return errors for:
   active rules
 - [firestore-query-collection]({{< ref "firestore-query-collection" >}}): Test
   rules by querying collections
+
+## 🔗 Связи
+
+- [[MOC - MCP Servers]] — mcp-servers
+- [[000 - Map of Maps]] — Map of Maps
+

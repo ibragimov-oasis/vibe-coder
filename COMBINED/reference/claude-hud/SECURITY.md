@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/reference
+  - source/reference
+---
+
 # Security Policy
 
 ## Supported Versions
@@ -10,3 +17,9 @@ Please report security issues to: jarrodwttsyt@gmail.com
 
 Include a clear description, reproduction steps, and any relevant logs or screenshots.
 We will acknowledge receipt within 5 business days and provide a timeline for a fix if applicable.
+
+## 🔗 Связи
+
+- [[MOC - System]] — reference
+- [[000 - Map of Maps]] — Map of Maps
+

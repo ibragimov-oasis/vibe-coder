@@ -59,3 +59,10 @@ npx claude-flow@alpha sparc run coder "implement user authentication"
 - Comprehensive error handling
 - Performance optimization
 - Security best practices
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

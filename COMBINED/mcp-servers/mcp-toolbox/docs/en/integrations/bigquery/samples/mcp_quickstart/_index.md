@@ -6,6 +6,10 @@ description: >
   How to get started running Toolbox with MCP Inspector and BigQuery as the source.
 sample_filters: ["BigQuery", "MCP Inspector"]
 is_sample: true
+tags:
+  - domain/mcp
+  - artifact/mcp-server
+  - source/mcp-servers
 ---
 
 ## Overview
@@ -252,3 +256,9 @@ In this section, we will download Toolbox, configure our tools in a
     ![inspector_tools](./inspector_tools.png)
 
 1. Test out your tools here!
+
+## 🔗 Связи
+
+- [[MOC - MCP Servers]] — mcp-servers
+- [[000 - Map of Maps]] — Map of Maps
+

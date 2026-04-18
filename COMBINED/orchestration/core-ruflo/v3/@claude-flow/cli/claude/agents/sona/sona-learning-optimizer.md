@@ -76,3 +76,10 @@ npx claude-flow@alpha hooks post-task --task-id "$ID" --success true
 
 - **Package**: @ruvector/sona@0.1.1
 - **Integration Guide**: docs/RUVECTOR_SONA_INTEGRATION.md
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

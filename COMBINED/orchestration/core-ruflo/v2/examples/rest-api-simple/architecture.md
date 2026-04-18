@@ -235,3 +235,10 @@ rest-api-simple/
 3. Create comprehensive tests
 4. Write user documentation
 5. Add example requests/responses
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

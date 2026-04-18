@@ -4,6 +4,10 @@ type: docs
 weight: 1
 description: >
   A "wait" tool pauses execution for a specified duration.
+tags:
+  - domain/mcp
+  - artifact/mcp-server
+  - source/mcp-servers
 ---
 
 ## About
@@ -36,3 +40,9 @@ timeout: 30s
 | type        |     string     |     true     | Must be "wait".                                       |
 | description |     string     |     true     | Description of the tool that is passed to the LLM.    |
 | timeout     |     string     |     true     | The default duration the tool can wait for.           |
+
+## 🔗 Связи
+
+- [[MOC - MCP Servers]] — mcp-servers
+- [[000 - Map of Maps]] — Map of Maps
+

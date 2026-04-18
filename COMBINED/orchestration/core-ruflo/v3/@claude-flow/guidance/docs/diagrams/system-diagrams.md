@@ -277,3 +277,10 @@ sequenceDiagram
     CP->>Opt: runCycle(ledger, bundle)
     Opt-->>CP: promoted[], demoted[], ADRs[]
 ```
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

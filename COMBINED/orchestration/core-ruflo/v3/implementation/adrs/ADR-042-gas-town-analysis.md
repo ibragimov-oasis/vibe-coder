@@ -351,3 +351,10 @@ The ideal system would combine Gas Town's durability guarantees with Claude Flow
 - [A Day in Gas Town](https://www.dolthub.com/blog/2026-01-15-a-day-in-gas-town/)
 - [Gas Town Decoded](https://www.alilleybrinker.com/mini/gas-town-decoded/)
 - [Hacker News Discussion](https://news.ycombinator.com/item?id=46458936)
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/mcp
+  - artifact/mcp-server
+  - source/mcp-servers
+---
+
 # Current Status
 
 Machine-readable current snapshot data for the main browser sweep and benchmark numbers lives in JSON.
@@ -44,3 +51,9 @@ Notes:
 - Corpus dashboard: [corpora/dashboard.json](/Users/chenglou/github/pretext/corpora/dashboard.json)
 - Corpus anchor rows: [corpora/representative.json](/Users/chenglou/github/pretext/corpora/representative.json)
 - Full exploration log: [RESEARCH.md](/Users/chenglou/github/pretext/RESEARCH.md)
+
+## 🔗 Связи
+
+- [[MOC - MCP Servers]] — mcp-servers
+- [[000 - Map of Maps]] — Map of Maps
+

@@ -114,3 +114,10 @@ npx claude-flow@alpha hooks notify --message "[decision]"
 npx claude-flow@alpha hooks post-task --task-id "[task]" --analyze-performance true
 npx claude-flow@alpha hooks session-end --export-metrics true
 ```
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

@@ -39,3 +39,10 @@ When APIs or public interfaces change, tests must be updated in the same commit.
 - Treating test assertion arrays as static (they evolve with content)
 - Assuming CI passing means coverage is correct (stale assertions can pass while being wrong)
 - Leaving gaps for other agents to discover
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/squad]] — Squad
+- [[000 - Map of Maps]] — Map of Maps
+

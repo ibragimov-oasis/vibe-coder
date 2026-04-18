@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/ui
+  - artifact/ui-component
+  - source/ui-design
+---
+
 # Extract Flow
 
 Identify reusable patterns, components, and design tokens, then extract and consolidate them into the design system for systematic reuse.
@@ -68,3 +75,9 @@ Update design system documentation:
 - Extract things that differ in intent (two buttons that look similar but serve different purposes should stay separate)
 
 Remember: A good design system is a living system. Extract patterns as they emerge, enrich them thoughtfully, and maintain them consistently.
+
+## 🔗 Связи
+
+- [[MOC - UI Design]] — ui-design
+- [[000 - Map of Maps]] — Map of Maps
+

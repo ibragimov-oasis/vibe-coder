@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/mcp
+  - artifact/mcp-server
+  - source/mcp-servers
+---
+
 # THIRD-PARTY SOFTWARE NOTICES AND INFORMATION
 
 **Do Not Translate or Localize**
@@ -230,3 +237,9 @@ Apache License
 
 -----------------------------------------
 END OF dwml NOTICES AND INFORMATION
+
+## 🔗 Связи
+
+- [[MOC - MCP Servers]] — mcp-servers
+- [[000 - Map of Maps]] — Map of Maps
+

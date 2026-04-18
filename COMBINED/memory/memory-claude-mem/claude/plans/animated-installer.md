@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/memory
+  - artifact/memory
+  - source/memory
+---
+
 # Comprehensive Claude-Mem Installer with @clack/prompts
 
 ## Overview
@@ -369,3 +376,9 @@ Build a beautiful, animated CLI installer for claude-mem using `@clack/prompts` 
 - [ ] grep for deprecated/non-existent APIs returns 0 results
 - [ ] No `require()` calls in source (ESM-only)
 - [ ] No `chalk` imports (use picocolors)
+
+## 🔗 Связи
+
+- [[MOC - Memory]] — memory
+- [[000 - Map of Maps]] — Map of Maps
+

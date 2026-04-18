@@ -77,3 +77,10 @@ Provide a concise summary (under 300 words) covering:
 - Any observations relevant to next task
 
 **Keep it scannable — bullets over prose.**
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/archon]] — Archon
+- [[000 - Map of Maps]] — Map of Maps
+

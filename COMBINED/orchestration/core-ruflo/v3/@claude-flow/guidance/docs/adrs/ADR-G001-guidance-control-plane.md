@@ -83,3 +83,10 @@ Route all enforcement through MCP server endpoints. Rejected for latency reasons
 - `v3/@claude-flow/guidance/src/optimizer.ts` -- `OptimizerLoop`
 - `v3/@claude-flow/guidance/src/headless.ts` -- `HeadlessRunner`
 - `v3/@claude-flow/guidance/src/types.ts` -- All type definitions
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

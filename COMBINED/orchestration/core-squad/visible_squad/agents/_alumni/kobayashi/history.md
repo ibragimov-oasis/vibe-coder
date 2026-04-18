@@ -461,3 +461,10 @@ Brady requested automated npm publishing instead of manual local publishes. Asse
 ### Accountability
 
 **This was my failure.** I rushed the release, skipped validation, and created invalid state. Brady had to fix my mistakes. These guardrails make this failure mode impossible to repeat.
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/squad]] — Squad
+- [[000 - Map of Maps]] — Map of Maps
+

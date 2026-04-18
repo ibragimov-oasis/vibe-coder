@@ -44,3 +44,10 @@ If you have reviewer authority and reject work: the original author is locked ou
 - Don't write directly to `.squad/decisions.md` — always use the inbox drop-box
 - Don't modify other agents' history.md files — that's Scribe's job
 - Don't assume CWD is the repo root — always use TEAM ROOT
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/squad]] — Squad
+- [[000 - Map of Maps]] — Map of Maps
+

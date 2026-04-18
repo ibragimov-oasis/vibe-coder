@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/root
+---
+
 # ✅ СТРУКТУРА ПРОВЕРЕНА И ПОДТВЕРЖДЕНА
 
 **Дата:** 4 апреля 2026
@@ -205,3 +212,8 @@ ln -s ../mcp-servers/openviking openviking
 **Оценка качества:** 99/100
 **Статус:** ✅ Production-ready
 **Следующий шаг:** Phase 4 (Mega-Agent Merging) когда будешь готов
+
+## 🔗 Связи
+
+- [[000 - Map of Maps]] — Map of Maps
+

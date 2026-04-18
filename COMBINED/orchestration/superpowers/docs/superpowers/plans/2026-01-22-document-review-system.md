@@ -306,3 +306,10 @@ Expected: Shows updated header with checkbox syntax mention
 git add skills/skills-writing-plans/SKILL.md
 git commit -m "docs: update plan header to reference checkbox syntax"
 ```
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/superpowers]] — Superpowers
+- [[000 - Map of Maps]] — Map of Maps
+

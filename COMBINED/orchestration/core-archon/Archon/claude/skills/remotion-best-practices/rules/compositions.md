@@ -155,3 +155,10 @@ To add a composition within another composition, you can use the `<Sequence>` co
   </Sequence>
 </AbsoluteFill>
 ```
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/archon]] — Archon
+- [[000 - Map of Maps]] — Map of Maps
+

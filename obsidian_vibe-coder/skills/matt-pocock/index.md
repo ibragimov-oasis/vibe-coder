@@ -85,3 +85,9 @@ improve-codebase-architecture
 - **Karpathy Principles:** [[skills/skills-claude-karpathy]]
 - **MOC:** [[MOC - Skills]]
 - **Map:** [[000 - Map of Maps]]
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Parent MOC
+- [[000 - Map of Maps]] — Map of Maps
+

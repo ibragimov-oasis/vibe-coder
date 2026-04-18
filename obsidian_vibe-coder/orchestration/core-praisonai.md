@@ -46,3 +46,9 @@ Multi-agent framework с поддержкой 100+ LLM провайдеров. �
 
 - [[orchestration/core-omc]] — OMC: role-based agents
 - [[orchestration/core-ruflo]] — RuFlo: enterprise orchestration
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Parent MOC
+- [[000 - Map of Maps]] — Map of Maps
+

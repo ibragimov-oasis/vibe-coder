@@ -1,6 +1,10 @@
 ---
 name: smart-explore
 description: Token-optimized structural code search using tree-sitter AST parsing. Use instead of reading full files when you need to understand code structure, find functions, or explore a codebase efficiently.
+tags:
+  - domain/memory
+  - artifact/memory
+  - source/memory
 ---
 
 # Smart Explore
@@ -143,3 +147,9 @@ Use smart_* tools for code exploration, Read for non-code files. Mix freely.
 | Explore agent | ~39,000-59,000 | Cross-file synthesis with narrative |
 
 **4-8x savings** on file understanding (outline + unfold vs Read). **11-18x savings** on codebase exploration vs Explore agent. The narrower the query, the wider the gap — a 27-line function costs 55x less to read via unfold than via an Explore agent, because the agent still reads the entire file.
+
+## 🔗 Связи
+
+- [[MOC - Memory]] — memory
+- [[000 - Map of Maps]] — Map of Maps
+

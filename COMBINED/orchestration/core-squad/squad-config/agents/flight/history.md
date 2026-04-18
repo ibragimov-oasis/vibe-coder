@@ -192,3 +192,10 @@ Decision written to `.squad/decisions/inbox/flight-release-hardening-plan.md`.
 **Pattern:** Tamir is a high-output contributor (6 PRs in 2 weeks) but needs proposal-first discipline. Joniba and diberry deliver MSFT-level quality.
 
 Decision written to `.squad/decisions/inbox/flight-triage-session-plan.md`.
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/squad]] — Squad
+- [[000 - Map of Maps]] — Map of Maps
+

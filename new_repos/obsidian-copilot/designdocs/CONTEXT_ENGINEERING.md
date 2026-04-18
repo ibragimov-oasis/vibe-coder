@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/new_repos
+---
+
 # Context Engineering - Layered Prefix System
 
 ## Table of Contents
@@ -471,3 +478,8 @@ This suite replaces the need for manual multi-turn chat testing in the UI and pr
 - `designdocs/NATIVE_TOOL_CALLING_MIGRATION.md`
 - `designdocs/todo/TECHDEBT.md`
 - `TODO.md`
+
+## 🔗 Связи
+
+- [[000 - Map of Maps]] — Map of Maps
+

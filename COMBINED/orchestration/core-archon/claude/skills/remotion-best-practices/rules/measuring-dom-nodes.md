@@ -35,3 +35,10 @@ export const MyComponent = () => {
   return <div ref={ref}>Content to measure</div>;
 };
 ```
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/archon]] — Archon
+- [[000 - Map of Maps]] — Map of Maps
+

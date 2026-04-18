@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/mcp
+  - artifact/mcp-server
+  - source/mcp-servers
+---
+
 # 操作级 Telemetry 使用指南
 
 操作级 telemetry 用来让 OpenViking 在请求结果里额外返回一份结构化摘要，帮助你了解这次操作实际发生了什么，例如耗时、token 消耗、向量检索情况、队列处理进度，以及资源导入阶段统计。
@@ -300,3 +307,9 @@ print(result["telemetry"]["summary"]["duration_ms"])
 - [监控与健康检查](05-monitoring.md)
 - [认证](04-authentication.md)
 - [系统 API](../api/07-system.md)
+
+## 🔗 Связи
+
+- [[MOC - MCP Servers]] — mcp-servers
+- [[000 - Map of Maps]] — Map of Maps
+

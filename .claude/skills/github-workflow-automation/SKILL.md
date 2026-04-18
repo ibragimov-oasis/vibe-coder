@@ -2,6 +2,10 @@
 name: github-workflow-automation
 description: |
   Advanced GitHub Actions workflow automation with AI swarm coordination, intelligent CI/CD pipelines, and comprehensive repository management
+tags:
+  - domain/skills
+  - artifact/config
+  - source/.claude
 ---
 
 # GitHub Workflow Automation Skill
@@ -1045,3 +1049,9 @@ echo "✅ GitHub workflow automation setup complete"
 **Skill Status**: ✅ Production Ready
 **Last Updated**: 2025-01-19
 **Maintainer**: claude-flow team
+
+## 🔗 Связи
+
+- [[MOC - System]] — System
+- [[000 - Map of Maps]] — Map of Maps
+

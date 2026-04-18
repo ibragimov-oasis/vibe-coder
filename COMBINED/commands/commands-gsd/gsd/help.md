@@ -1,6 +1,10 @@
 ---
 name: gsd:help
 description: Show available GSD commands and usage guide
+tags:
+  - domain/skills
+  - artifact/command
+  - source/commands
 ---
 <objective>
 Display the complete GSD command reference.
@@ -20,3 +24,9 @@ Output ONLY the reference content below. Do NOT add:
 Output the complete GSD command reference from @~/.claude/get-shit-done/workflows/help.md.
 Display the reference content directly — no additions or modifications.
 </process>
+
+## 🔗 Связи
+
+- [[MOC - System]] — commands
+- [[000 - Map of Maps]] — Map of Maps
+

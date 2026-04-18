@@ -190,3 +190,9 @@ After running sherlock, verify:
 2. Username + NSFW flag both provided
 3. Run: `sherlock --print-found --no-color --nsfw "alice" --timeout 90`
 4. Present results
+
+## 🔗 Связи
+
+- [[000 - Map of Maps]] — REPO_DOCS
+- [[000 - Map of Maps]] — Map of Maps
+

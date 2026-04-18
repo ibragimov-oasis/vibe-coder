@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/reference
+  - source/reference
+---
+
 # TypeScript Google Apps Script .cursorrules prompt file
 
 Author: Shreyas Prakash
@@ -34,3 +41,9 @@ Developers proficient with TypeScript and Google Apps Script can create powerful
 
 ## Overview of .cursorrules prompt
 The .cursorrules file provides guidelines for developing TypeScript applications using Google Apps Script and clasp. It recommends using npm as the package manager and emphasizes the importance of modular design and thorough documentation. The file promotes the use of TypeScript features like interfaces and type annotations to enhance code reliability. It specifies the use of Google Apps Script services and APIs, and encourages adherence to Google's best practices for script development. The file also advises on performance optimization through efficient use of quotas and resources, and emphasizes the importance of error handling and logging in script applications.
+
+## 🔗 Связи
+
+- [[MOC - System]] — reference
+- [[000 - Map of Maps]] — Map of Maps
+

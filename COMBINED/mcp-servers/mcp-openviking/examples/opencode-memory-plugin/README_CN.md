@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/mcp
+  - artifact/mcp-server
+  - source/mcp-servers
+---
+
 # OpenCode 的 OpenViking 记忆插件
 
 OpenCode 插件示例，将 OpenViking 记忆作为显式工具暴露，并自动同步对话会话到 OpenViking。
@@ -194,3 +201,9 @@ const result = await memcommit({})
 - 服务不可用：确认 `openviking-server` 正在运行并且在配置的端点可访问
 - 身份验证失败：检查 `OPENVIKING_API_KEY` 或 `openviking-config.json`
 - 未提取记忆：检查您的 OpenViking 服务器是否有正常工作的 `vlm` 和 `embedding` 配置
+
+## 🔗 Связи
+
+- [[MOC - MCP Servers]] — mcp-servers
+- [[000 - Map of Maps]] — Map of Maps
+

@@ -268,3 +268,10 @@ TDD 计划目标 **~40% 上下文使用率**（低于标准计划的 ~50%）。
 
 单一功能聚焦确保整个周期保持完整质量。
 </context_budget>
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/gsd]] — GSD
+- [[000 - Map of Maps]] — Map of Maps
+

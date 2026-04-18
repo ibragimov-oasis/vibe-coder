@@ -417,3 +417,10 @@ All PRs reviewed → All PRs merged → Epic closed
 - `TEAM_ROOT` passing to agents to support worktree-aware state resolution
 
 This template will be updated as worktree lifecycle support lands in #525.
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/squad]] — Squad
+- [[000 - Map of Maps]] — Map of Maps
+

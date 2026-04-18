@@ -100,3 +100,10 @@ exec('git commit -m "First line\nSecond line"'); // FAILS silently in PowerShell
   }
   // Fails: 'c:\\Users\\temp\\file'.startsWith('C:\\Users\\temp\\') → false
   ```
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/squad]] — Squad
+- [[000 - Map of Maps]] — Map of Maps
+

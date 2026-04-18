@@ -87,3 +87,9 @@ source: "../COMBINED/skills/skills-planning/design-an-interface/"
 - [[skills/matt-pocock/grill-me]] — вопросы перед дизайном
 - [[ui-design/impeccable]] — anti-slop detection
 - [[ui-design/gallery/ui-patterns]] — паттерны UI
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Parent MOC
+- [[000 - Map of Maps]] — Map of Maps
+

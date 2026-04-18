@@ -6,6 +6,10 @@ description: >
   A "conversational-analytics-list-accessible-data-agents" tool allows listing accessible Conversational Analytics data agents.
 aliases:
 - /resources/tools/conversational-analytics-list-accessible-data-agents
+tags:
+  - domain/mcp
+  - artifact/mcp-server
+  - source/mcp-servers
 ---
 
 ## About
@@ -39,3 +43,9 @@ tools:
 | source      |  string  |     true     | Name of the source.                                |
 | description |  string  |     true     | Description of the tool that is passed to the LLM. |
 | location    |  string  |    false     | The Google Cloud location (default: "global").     |
+
+## 🔗 Связи
+
+- [[MOC - MCP Servers]] — mcp-servers
+- [[000 - Map of Maps]] — Map of Maps
+

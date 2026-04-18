@@ -222,3 +222,10 @@ All 11 tools verified via API:
 | ADR-024 | Workflow context injection (partially implemented) |
 | ADR-029 | HF Chat UI deployment (current state) |
 | ADR-031 | Chat history persistence (MongoDB Atlas) |
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

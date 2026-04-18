@@ -397,3 +397,10 @@ describe('Deployment Validation', () => {
 - Test authorization with real user roles and permissions
 
 Remember: The goal is to ensure that when the application reaches production, it works exactly as tested - no surprises, no mock implementations, no fake data dependencies.
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

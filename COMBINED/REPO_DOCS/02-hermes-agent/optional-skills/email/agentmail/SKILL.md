@@ -123,3 +123,9 @@ You should see the new inbox address returned.
 - AgentMail console: https://console.agentmail.to
 - AgentMail MCP repo: https://github.com/agentmail-to/agentmail-mcp
 - Pricing: https://www.agentmail.to/pricing
+
+## 🔗 Связи
+
+- [[000 - Map of Maps]] — REPO_DOCS
+- [[000 - Map of Maps]] — Map of Maps
+

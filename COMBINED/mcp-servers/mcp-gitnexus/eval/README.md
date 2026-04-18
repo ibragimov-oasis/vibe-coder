@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/mcp
+  - artifact/mcp-server
+  - source/mcp-servers
+---
+
 # GitNexus SWE-bench Evaluation Harness
 
 Evaluate whether GitNexus code intelligence improves AI agent performance on real software engineering tasks. Runs SWE-bench instances across multiple models and compares baseline (no graph) vs GitNexus-enhanced configurations.
@@ -212,3 +219,9 @@ The model name follows [litellm conventions](https://docs.litellm.ai/docs/provid
 | GN Tool Calls | How many GitNexus tools the agent used |
 | Augment Hits | How many grep/find results got enriched |
 | Augment Hit Rate | % of search commands that got useful enrichment |
+
+## 🔗 Связи
+
+- [[MOC - MCP Servers]] — mcp-servers
+- [[000 - Map of Maps]] — Map of Maps
+

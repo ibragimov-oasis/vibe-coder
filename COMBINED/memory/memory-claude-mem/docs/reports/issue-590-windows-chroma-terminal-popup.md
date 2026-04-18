@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/memory
+  - artifact/memory
+  - source/memory
+---
+
 # Issue #590: Blank Terminal Window Pops Up on Windows When Chroma MCP Server Starts
 
 **Date:** 2026-01-07
@@ -409,3 +416,9 @@ Note the absence of `windowsHide` in the spawn options.
 | Date | Author | Changes |
 |------|--------|---------|
 | 2026-01-07 | Claude Opus 4.5 | Initial report |
+
+## 🔗 Связи
+
+- [[MOC - Memory]] — memory
+- [[000 - Map of Maps]] — Map of Maps
+

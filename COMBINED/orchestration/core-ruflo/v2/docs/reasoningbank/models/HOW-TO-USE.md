@@ -660,3 +660,10 @@ await learner.recordOutcome(patternId, wasSuccessful);
 ---
 
 **Happy reasoning!** 🧠✨
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

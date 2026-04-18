@@ -52,3 +52,10 @@ Nest sequences to both trim the beginning and delay when it appears:
 ```
 
 The inner sequence trims 15 frames from the start, and the outer sequence delays the result by 30 frames.
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/archon]] — Archon
+- [[000 - Map of Maps]] — Map of Maps
+

@@ -40,3 +40,10 @@ SQLite stores data at `~/.archon/archon.db` (or `/.archon/archon.db` in Docker).
 |-------|----------|
 | [E2E Testing](/deployment/e2e-testing/) | Developers and operators |
 | [E2E Testing on WSL](/deployment/e2e-testing-wsl/) | Developers on Windows |
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/archon]] — Archon
+- [[000 - Map of Maps]] — Map of Maps
+

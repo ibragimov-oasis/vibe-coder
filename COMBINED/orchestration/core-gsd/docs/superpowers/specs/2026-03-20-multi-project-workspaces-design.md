@@ -190,3 +190,10 @@ All tests use temp directories and clean up after themselves. Follow existing `n
 | No central registry | Avoids state drift. `list-workspaces` scans the filesystem directly |
 | Case B as special case of A | `--repos .` reuses the same machinery, no special feature-branch code needed |
 | Default path `~/gsd-workspaces/<name>` | Predictable location for `list-workspaces` to scan, keeps workspaces out of source repos |
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/gsd]] — GSD
+- [[000 - Map of Maps]] — Map of Maps
+

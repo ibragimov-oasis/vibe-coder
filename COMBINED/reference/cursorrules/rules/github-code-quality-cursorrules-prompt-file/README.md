@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/reference
+  - source/reference
+---
+
 # GitHub Code Quality .cursorrules prompt file
 
 Author: meowso
@@ -13,4 +20,9 @@ Developers working on code review tools could use this prompt to build a tool th
 
 ## Overview of .cursorrules prompt
 The .cursorrules file outlines a set of customizable rules designed to guide developers when making changes to code or documentation. Each rule specifies a pattern using regex to match specific words or phrases, and provides a message to advise or remind the developer of best practices. The rules cover various aspects such as verifying information, avoiding unnecessary comments or confirmations, preserving existing code, and ensuring edits are concise. The file aims to maintain code quality, clarity, and efficiency by enforcing these guidelines during the development and documentation process.
+
+## 🔗 Связи
+
+- [[MOC - System]] — reference
+- [[000 - Map of Maps]] — Map of Maps
 

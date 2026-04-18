@@ -198,3 +198,10 @@ const destructive = k.detectDestructive(command);  // Returns matched pattern or
 ```
 
 The WASM kernel uses the same regex patterns as the JS gates but compiled into Rust with SIMD128 acceleration.
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

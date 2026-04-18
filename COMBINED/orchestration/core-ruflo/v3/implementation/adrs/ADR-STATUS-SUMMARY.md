@@ -678,3 +678,10 @@ These are enhancements, not blockers for V3 production readiness.
 **Document Maintained By:** Architecture Team
 **Status:** ✅ V3 All ADRs Complete (22/22) - **BETA READY**
 **Next Milestone:** 3.0.0-beta.1
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

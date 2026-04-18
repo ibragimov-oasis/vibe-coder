@@ -156,3 +156,10 @@ Queries: `priority:p0 + type:feature + go:yes + release:{current milestone}`.
 Show me all issues in the backlog
 ```
 Filters for `release:backlog` or `go:no` labels.
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/squad]] — Squad
+- [[000 - Map of Maps]] — Map of Maps
+

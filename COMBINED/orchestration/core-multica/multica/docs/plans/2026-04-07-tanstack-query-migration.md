@@ -1777,3 +1777,10 @@ mv apps/web/core/ packages/core/
 ```
 
 Similarly, `components/ui/` + `components/common/` + `hooks/` + `lib/` will become `packages/ui/` in Phase 6.
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/multica]] — Multica
+- [[000 - Map of Maps]] — Map of Maps
+

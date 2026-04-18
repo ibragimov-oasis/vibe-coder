@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/mcp
+  - artifact/mcp-server
+  - source/mcp-servers
+---
+
 <!-- version: 1.2.0 -->
 <!--
   Metadata: version, last reviewed, scope, model policy, reference docs, changelog.
@@ -50,3 +57,9 @@ If always-on instructions grow, load deep conventions via conditional reads (e.g
 ## GitNexus rules
 
 GitNexus MCP rules are in the `<!-- gitnexus:start -->` … `<!-- gitnexus:end -->` block in **[AGENTS.md](AGENTS.md)** — load that section when working with MCP tools or the graph index.
+
+## 🔗 Связи
+
+- [[MOC - MCP Servers]] — mcp-servers
+- [[000 - Map of Maps]] — Map of Maps
+

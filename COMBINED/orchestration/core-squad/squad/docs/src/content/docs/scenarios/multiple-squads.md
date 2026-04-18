@@ -182,3 +182,10 @@ This **overwrites** the existing squad. Use only if you're sure.
 - **Histories are context-heavy.** Don't import histories from unrelated projects — they contain project-specific details that will confuse agents.
 - **Decisions can be manually merged.** If another squad made architectural decisions you want to preserve, copy them into `.ai-team/decisions.md` as new entries.
 - **Skill files are the cleanest transfer.** They're generic, portable, and immediately useful across projects.
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/squad]] — Squad
+- [[000 - Map of Maps]] — Map of Maps
+

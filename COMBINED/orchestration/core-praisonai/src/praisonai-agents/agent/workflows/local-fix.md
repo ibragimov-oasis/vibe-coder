@@ -225,3 +225,10 @@ python scripts/bump_and_release.py <VERSION> --agents <AGENTS_VERSION> --wait
 | Shared mutable global `_cache = {}` | Add `threading.Lock`, or make per-agent |
 | `debug=True` in production path | Remove or gate behind env var |
 | Missing `async` variant for I/O | Add async version, wrap for sync callers |
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/praisonai]] — PraisonAI
+- [[000 - Map of Maps]] — Map of Maps
+

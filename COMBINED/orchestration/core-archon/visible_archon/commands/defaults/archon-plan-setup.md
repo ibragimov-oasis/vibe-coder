@@ -343,3 +343,10 @@ Then retry.
 - **SCOPE_LIMITS_CAPTURED**: "NOT Building" section extracted (even if empty)
 - **BRANCH_READY**: On correct branch, synced with base branch
 - **ARTIFACT_WRITTEN**: `plan-context.md` contains all required sections including scope limits
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/archon]] — Archon
+- [[000 - Map of Maps]] — Map of Maps
+

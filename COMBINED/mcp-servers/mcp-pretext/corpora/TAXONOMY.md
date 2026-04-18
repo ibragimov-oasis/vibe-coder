@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/mcp
+  - artifact/mcp-server
+  - source/mcp-servers
+---
+
 # Miss Taxonomy
 
 Compact taxonomy for interpreting canary mismatches.
@@ -179,3 +186,9 @@ The main current steering classes are:
 - Arabic long-form: coarse field is clean; remaining fine field is mostly `edge-fit`
 - Chinese: mostly `glue-policy` around punctuation/quote clusters, plus some Chromium-only edge behavior
 - Urdu: currently behaving more like `boundary-discovery` / shaping-sensitive break policy than dirty data or simple edge-fit
+
+## 🔗 Связи
+
+- [[MOC - MCP Servers]] — mcp-servers
+- [[000 - Map of Maps]] — Map of Maps
+

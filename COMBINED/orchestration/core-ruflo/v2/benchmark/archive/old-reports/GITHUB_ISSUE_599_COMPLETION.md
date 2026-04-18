@@ -99,3 +99,10 @@ The reorganized structure is now ready for:
 **Date:** 2025-08-06  
 **Working Directory:** `/workspaces/claude-code-flow/benchmark/`  
 **Report:** Full details in `REORGANIZATION_REPORT.md`
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

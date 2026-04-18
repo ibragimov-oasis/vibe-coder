@@ -81,3 +81,9 @@ parse_prd → create_task (для каждой задачи) → analyze_project
 - [[orchestration/core-taskmaster]] — автоматизация плана через MCP
 - [[orchestration/core-archon]] — YAML DAG для детерминированного выполнения
 - [[skills/skills-claude-karpathy]] — Goal-Driven Execution принцип
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Parent MOC
+- [[000 - Map of Maps]] — Map of Maps
+

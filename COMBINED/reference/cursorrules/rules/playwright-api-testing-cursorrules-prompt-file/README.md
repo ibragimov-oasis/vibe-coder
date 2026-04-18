@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/reference
+  - source/reference
+---
+
 # Playwright API Testing Prompt
 
 A specialized .cursorrules prompt for creating robust API tests using Playwright with TypeScript and the pw-api-plugin package.
@@ -34,3 +41,9 @@ The .cursorrules prompt guides QA engineers in creating effective API tests usin
 - **Schema Validation**: Advanced examples using Zod for schema validation of API responses
 - **Test Organization**: Guidelines for structuring API tests logically by resource or endpoint in test.describe blocks
 - **Resource-Specific Focus**: Recommends limiting test files to 3-5 focused tests per API resource
+
+## 🔗 Связи
+
+- [[MOC - System]] — reference
+- [[000 - Map of Maps]] — Map of Maps
+

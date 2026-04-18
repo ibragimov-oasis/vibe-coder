@@ -1,6 +1,10 @@
 ---
 name: newsletter-generation
 description: Use this skill when the user requests to generate, create, write, or draft a newsletter, email digest, weekly roundup, industry briefing, or curated content summary. Supports topic-based research, content curation from multiple sources, and professional formatting for email or web distribution. Trigger on requests like "create a newsletter about X", "write a weekly digest", "generate a tech roundup", or "curate news about Y".
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/REPO_DOCS
 ---
 
 # Newsletter Generation Skill
@@ -341,3 +345,9 @@ After generation:
 - Avoid summarizing paywalled content that the reader cannot access
 - If the user provides specific URLs or articles to include, incorporate them alongside your curated findings
 - The newsletter should provide enough value in the summaries that readers benefit even without clicking through to every link
+
+## 🔗 Связи
+
+- [[000 - Map of Maps]] — REPO_DOCS
+- [[000 - Map of Maps]] — Map of Maps
+

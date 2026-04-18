@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/mcp
+  - artifact/mcp-server
+  - source/mcp-servers
+---
+
 # Code Review Graph for VS Code
 
 Visualize code dependencies, blast radius, and review context from your code graph -- directly in VS Code.
@@ -87,3 +94,9 @@ The graph database is stored locally at `.code-review-graph/graph.db` and update
 ## License
 
 MIT
+
+## 🔗 Связи
+
+- [[MOC - MCP Servers]] — mcp-servers
+- [[000 - Map of Maps]] — Map of Maps
+

@@ -95,3 +95,10 @@ The bot responds to:
 ## Further Reading
 
 - [Configuration](/getting-started/configuration/)
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/archon]] — Archon
+- [[000 - Map of Maps]] — Map of Maps
+

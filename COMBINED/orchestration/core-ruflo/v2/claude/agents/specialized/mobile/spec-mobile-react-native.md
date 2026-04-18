@@ -228,3 +228,10 @@ const styles = StyleSheet.create({
 - Android: Back button handling, material design
 - Performance: FlatList for long lists, image optimization
 - State: Context API or Redux for complex apps
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

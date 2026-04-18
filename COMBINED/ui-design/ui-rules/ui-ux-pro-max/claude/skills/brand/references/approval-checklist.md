@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/ui
+  - artifact/ui-component
+  - source/ui-design
+---
+
 # Asset Approval Checklist
 
 Comprehensive checklist for reviewing marketing assets before approval.
@@ -167,3 +174,9 @@ After approval:
 3. Move previous versions to archive
 4. Update campaign tracking
 5. Notify relevant teams
+
+## 🔗 Связи
+
+- [[MOC - UI Design]] — ui-design
+- [[000 - Map of Maps]] — Map of Maps
+

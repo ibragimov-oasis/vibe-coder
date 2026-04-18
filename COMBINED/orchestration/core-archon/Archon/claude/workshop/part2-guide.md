@@ -721,3 +721,10 @@ git worktree remove <path>   # if any remain
 gh pr list --head worktree-
 gh pr close <number>
 ```
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/archon]] — Archon
+- [[000 - Map of Maps]] — Map of Maps
+

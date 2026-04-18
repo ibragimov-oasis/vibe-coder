@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/mcp
+  - artifact/mcp-server
+  - source/mcp-servers
+---
+
 # 多租户
 
 OpenViking 的多租户不是“为每个团队部署一套独立服务”，而是在同一个 OpenViking Server 内，用 `account`、`user`、`agent` 三层身份边界来隔离和共享数据。
@@ -298,3 +305,9 @@ Root key 主要用于：
 - [多租户示例](../../../examples/multi_tenant/README.md) - 完整管理流程示例
 - [OpenClaw 插件](../../../examples/openclaw-plugin/README_CN.md) - OpenClaw 的接入方式
 - [Vikingbot](../../../bot/README_CN.md) - bot 的多用户接入方式
+
+## 🔗 Связи
+
+- [[MOC - MCP Servers]] — mcp-servers
+- [[000 - Map of Maps]] — Map of Maps
+

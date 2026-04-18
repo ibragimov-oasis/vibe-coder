@@ -2,6 +2,10 @@
 name: sparc-methodology
 description: |
   SPARC (Specification, Pseudocode, Architecture, Refinement, Completion) comprehensive development methodology with multi-agent orchestration
+tags:
+  - domain/skills
+  - artifact/config
+  - source/workspace-config
 ---
 
 # SPARC Methodology - Comprehensive Development Framework
@@ -1104,3 +1108,9 @@ mcp__claude-flow__memory_usage { action: "store", key: "...", value: "..." }
 ---
 
 Remember: **SPARC = Systematic, Parallel, Agile, Refined, Complete**
+
+## 🔗 Связи
+
+- [[MOC - System]] — workspace-config
+- [[000 - Map of Maps]] — Map of Maps
+

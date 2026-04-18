@@ -47,3 +47,10 @@ npx @claude-flow/cli memory search --query "search terms" --limit 10
 2. Use hierarchical topology for coordination
 3. Store successful patterns after completion
 4. Document any new learnings
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

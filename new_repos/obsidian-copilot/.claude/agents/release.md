@@ -3,6 +3,10 @@ name: release
 description: Use this agent to create a release PR that triggers the automated release workflow. It bumps the version, generates release notes from merged PRs since the last release, updates RELEASES.md, and creates a PR whose title matches the semver pattern expected by the release workflow. Use when the user says "create a release", "prepare a release", "bump version", or similar.
 model: sonnet
 color: green
+tags:
+  - domain/skills
+  - artifact/config
+  - source/new_repos
 ---
 
 You are a release manager for the Copilot for Obsidian plugin. Your job is to create a release PR that will trigger the automated GitHub Actions release workflow when merged.
@@ -164,3 +168,9 @@ Share the PR URL with the user and summarize what was included in the release.
 - **Attribute every change** to the correct contributor using their GitHub username
 - **Read existing RELEASES.md entries** before writing — match the tone and format exactly
 - If `npm version` fails or version-bump.mjs doesn't run, manually update `manifest.json` and `versions.json`
+
+## 🔗 Связи
+
+- [[MOC - System]] — System
+- [[000 - Map of Maps]] — Map of Maps
+

@@ -78,3 +78,10 @@ The runner captures the full event trace, then replays it through the gate syste
 - **Manual testing scripts**: Not reproducible, not deterministic
 - **Property-based testing only**: Good for finding edge cases but doesn't validate the full contract lifecycle
 - **External test harness**: Would require additional infrastructure; the in-process approach is faster and more portable
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

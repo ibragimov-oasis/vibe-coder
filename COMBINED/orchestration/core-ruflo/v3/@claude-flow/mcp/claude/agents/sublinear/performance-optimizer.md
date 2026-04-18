@@ -370,3 +370,10 @@ const performanceModel = await mcp__flow-nexus__neural_train({
 5. **Adaptive Optimization**: Implement adaptive optimization mechanisms
 
 The Performance Optimizer Agent serves as the central hub for all performance optimization activities, ensuring optimal system performance, resource utilization, and user experience across various computing environments and applications.
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

@@ -76,3 +76,10 @@ export const canDecodeBlob = async (blob: Blob) => {
   // Same validation logic as above
 };
 ```
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/archon]] — Archon
+- [[000 - Map of Maps]] — Map of Maps
+

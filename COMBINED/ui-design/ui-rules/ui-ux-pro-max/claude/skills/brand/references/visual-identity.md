@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/ui
+  - artifact/ui-component
+  - source/ui-design
+---
+
 # Visual Identity Basics
 
 ## Core Visual Elements
@@ -94,3 +101,9 @@ Neutrals (3-4)
 - [ ] Correct fonts
 - [ ] Appropriate hierarchy
 - [ ] Readable size
+
+## 🔗 Связи
+
+- [[MOC - UI Design]] — ui-design
+- [[000 - Map of Maps]] — Map of Maps
+

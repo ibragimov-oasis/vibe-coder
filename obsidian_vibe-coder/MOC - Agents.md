@@ -119,3 +119,7 @@ DEFAULT (simple code)  → mega-coder
 | Debugger | [[agents-by-role/debugger]] | 3 |
 | Other roles | [[agents-by-role/other-roles]] | 18 |
 
+## 🔗 Связи
+
+- [[000 - Map of Maps]] — Map of Maps
+

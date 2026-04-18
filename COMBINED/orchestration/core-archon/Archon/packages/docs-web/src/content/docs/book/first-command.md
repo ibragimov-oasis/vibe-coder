@@ -191,3 +191,10 @@ This lists every command available — your custom ones from `.archon/commands/`
 ---
 
 In [Chapter 7: Creating Your First Workflow →](/book/first-workflow/), you'll take the command you just built and wire it into a multi-step workflow — combining it with other steps, passing artifacts between them, and building something that runs from start to finish automatically.
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/archon]] — Archon
+- [[000 - Map of Maps]] — Map of Maps
+

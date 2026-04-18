@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/mcp
+  - artifact/mcp-server
+  - source/mcp-servers
+---
+
 # Admin (Multi-tenant)
 
 The Admin API manages accounts and users in a multi-tenant environment. It covers workspace (account) creation/deletion, user registration/removal, role changes, and API key regeneration.
@@ -447,3 +454,9 @@ curl -X DELETE http://localhost:1933/api/v1/admin/accounts/acme \
 - [API Overview](01-overview.md) - Authentication and response format
 - [Sessions](05-sessions.md) - Session management
 - [System](07-system.md) - System and monitoring API
+
+## 🔗 Связи
+
+- [[MOC - MCP Servers]] — mcp-servers
+- [[000 - Map of Maps]] — Map of Maps
+

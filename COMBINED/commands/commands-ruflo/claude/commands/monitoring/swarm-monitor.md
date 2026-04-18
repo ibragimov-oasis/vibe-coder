@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/command
+  - source/commands
+---
+
 # swarm-monitor
 
 Real-time swarm monitoring.
@@ -23,3 +30,9 @@ npx claude-flow swarm monitor --interval 5000
 # With metrics
 npx claude-flow swarm monitor --metrics
 ```
+
+## 🔗 Связи
+
+- [[MOC - System]] — commands
+- [[000 - Map of Maps]] — Map of Maps
+

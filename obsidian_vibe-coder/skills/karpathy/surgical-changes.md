@@ -92,3 +92,9 @@ git diff --staged  # проверь что собираешься коммити
 
 - [[agents/mega-reviewer]] — 7D review включает проверку blast-radius
 - [[agents/mega-debugger]] — дебаг с минимальным воздействием
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Parent MOC
+- [[000 - Map of Maps]] — Map of Maps
+

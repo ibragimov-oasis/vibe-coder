@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/root
+---
+
 # RESTORATION COMPLETE ✅
 
 ## Restoration Status: SUCCESS
@@ -101,3 +108,8 @@ This dual-location approach ensures:
 **Method**: Copy operations (cp command)
 **Files Restored**: 32 agent files + 136+ skill directories
 **Status**: ✅ SUCCESS
+
+## 🔗 Связи
+
+- [[000 - Map of Maps]] — Map of Maps
+

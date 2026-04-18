@@ -236,3 +236,10 @@ Which phases cover which requirements. Updated during roadmap creation.
 ```
 
 </example>
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/gsd]] — GSD
+- [[000 - Map of Maps]] — Map of Maps
+

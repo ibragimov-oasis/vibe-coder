@@ -122,3 +122,10 @@ mcp__flow-nexus__app_store_earn_ruv({
 3. Optimize for both correctness and speed
 4. Complete daily challenges for bonus credits
 5. Unlock achievements for extra rewards
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

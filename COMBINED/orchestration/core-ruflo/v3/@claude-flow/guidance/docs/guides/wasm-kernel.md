@@ -250,3 +250,10 @@ wasm-kernel/
 ```
 
 Each Rust module has unit tests (`cargo test` runs 15 tests).
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

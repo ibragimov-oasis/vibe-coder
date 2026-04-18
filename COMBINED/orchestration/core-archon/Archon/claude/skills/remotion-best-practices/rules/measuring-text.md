@@ -141,3 +141,10 @@ return <div style={fontStyle}>Hello</div>;
 ```tsx
 <div style={{ outline: "2px solid red" }}>Text</div>
 ```
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/archon]] — Archon
+- [[000 - Map of Maps]] — Map of Maps
+

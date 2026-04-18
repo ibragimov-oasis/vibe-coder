@@ -138,3 +138,10 @@ task = Task(
 5. Document tool parameters and return values clearly
 
 This structure maintains clean separation between API communication and actual function execution, making your AI agent system both reliable and maintainable.
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/praisonai]] — PraisonAI
+- [[000 - Map of Maps]] — Map of Maps
+

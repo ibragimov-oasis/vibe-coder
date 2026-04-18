@@ -307,3 +307,10 @@ Send daily standup to Slack on weekday mornings.
 - [Persistent Ralph](/features/persistent-ralph) — Monitor agent activity
 - [Upstream Auto-Sync](/features/upstream-sync) — Sync squads on schedule
 - [Cross-Squad Orchestration](/features/cross-squad-orchestration) — Delegate recurring work
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/squad]] — Squad
+- [[000 - Map of Maps]] — Map of Maps
+

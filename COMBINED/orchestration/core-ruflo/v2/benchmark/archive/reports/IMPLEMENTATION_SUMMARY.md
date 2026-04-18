@@ -231,3 +231,10 @@ swarm-benchmark run "Your objective here" --strategy auto
 ✅ **Working examples** with proven functionality  
 
 The project has been successfully completed according to all specifications and is ready for optimization of code swarms through comprehensive benchmarking capabilities.
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

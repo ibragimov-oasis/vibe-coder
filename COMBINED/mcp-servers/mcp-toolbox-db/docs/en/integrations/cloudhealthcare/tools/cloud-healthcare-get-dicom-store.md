@@ -4,6 +4,10 @@ type: docs
 weight: 1
 description: >
   A "cloud-healthcare-get-dicom-store" tool retrieves information about a DICOM store.
+tags:
+  - domain/mcp
+  - artifact/mcp-server
+  - source/mcp-servers
 ---
 
 ## About
@@ -42,3 +46,9 @@ description: Use this tool to get information about a DICOM store.
 | storeID   |  string  |    true*     | The DICOM store ID to get details for. |
 
 *If the `allowedDICOMStores` in the source has length 1, then the `storeID` parameter is not needed.
+
+## 🔗 Связи
+
+- [[MOC - MCP Servers]] — mcp-servers
+- [[000 - Map of Maps]] — Map of Maps
+

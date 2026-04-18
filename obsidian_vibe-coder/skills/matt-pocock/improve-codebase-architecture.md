@@ -75,3 +75,9 @@ source: "../COMBINED/skills/skills-development/improve-codebase-architecture/"
 
 - [[skills/matt-pocock/ubiquitous-language]] — единый язык как основа архитектуры
 - [[orchestration/core-ruflo]] — RuFlo code simplifier агент
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Parent MOC
+- [[000 - Map of Maps]] — Map of Maps
+

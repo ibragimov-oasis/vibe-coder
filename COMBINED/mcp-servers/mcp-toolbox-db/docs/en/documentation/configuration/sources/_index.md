@@ -4,6 +4,10 @@ type: docs
 weight: 3
 description: >
   Sources represent your different data sources that a tool can interact with.
+tags:
+  - domain/mcp
+  - artifact/mcp-server
+  - source/mcp-servers
 ---
 
 A Source represents a data sources that a tool can interact with. You can define
@@ -34,3 +38,9 @@ to connect to the database and execute the tool.
 ## Available Sources
 
 To see all supported sources and the specific tools they unlock, explore the full list of our [Integrations](../../../integrations/_index.md).
+
+## 🔗 Связи
+
+- [[MOC - MCP Servers]] — mcp-servers
+- [[000 - Map of Maps]] — Map of Maps
+

@@ -81,3 +81,7 @@ type: moc
 - [[ui-design/gallery/ui-patterns]] — Паттерны: anti-slop + Taste-skill 3-dial
 - [[ui-design/gallery/design-tokens]] — Design tokens: цвета, spacing, типография
 
+## 🔗 Связи
+
+- [[000 - Map of Maps]] — Map of Maps
+

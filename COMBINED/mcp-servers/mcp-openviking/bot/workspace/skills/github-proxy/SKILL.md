@@ -1,6 +1,10 @@
 ---
 name: github-proxy
 description: GitHub 国内访问加速 skill，使用 githubproxy.cc 代理加速 GitHub 仓库克隆、文件下载、Raw 文件访问等操作。使用场景：(1) 需要 git clone GitHub 仓库时加速，(2) 下载 GitHub Release 文件、Raw 文件、Archive 压缩包时加速，(3) 任何需要访问 GitHub 资源但速度慢的场景
+tags:
+  - domain/mcp
+  - artifact/mcp-server
+  - source/mcp-servers
 ---
 
 # GitHub 国内代理加速 Skill
@@ -67,3 +71,9 @@ python scripts/convert_url.py "https://github.com/username/repo.git"
 - 如果 githubproxy.cc 不可用，请尝试备用服务 ghfast.top
 - 不支持 SSH Key 方式的 git clone
 - Push、PR、Issue 等操作建议直接使用官方 GitHub 地址
+
+## 🔗 Связи
+
+- [[MOC - MCP Servers]] — mcp-servers
+- [[000 - Map of Maps]] — Map of Maps
+

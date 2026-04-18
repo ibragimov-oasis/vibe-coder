@@ -153,3 +153,10 @@ This gives you 1× Codespace cost instead of N×, at the expense of serial (not 
 ## Example: Multi-Codespace Setup
 
 See [Multi-Codespace Scenario](../scenarios/multi-codespace.md) for a complete walkthrough.
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/squad]] — Squad
+- [[000 - Map of Maps]] — Map of Maps
+

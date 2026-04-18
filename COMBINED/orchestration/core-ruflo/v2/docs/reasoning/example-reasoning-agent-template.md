@@ -367,3 +367,10 @@ claude-flow agent memory list --domain security
 **Version**: 1.0.0
 **Last Updated**: 2025-10-12
 **Status**: Template for custom agents
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

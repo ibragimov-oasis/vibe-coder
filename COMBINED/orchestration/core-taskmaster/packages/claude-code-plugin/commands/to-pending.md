@@ -37,3 +37,10 @@ After setting to pending:
 - Notify about freed resources
 - Suggest priority reassessment
 - Log the status change with context
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/task-master]] — Task-Master
+- [[000 - Map of Maps]] — Map of Maps
+

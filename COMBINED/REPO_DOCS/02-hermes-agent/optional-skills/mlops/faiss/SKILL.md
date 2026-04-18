@@ -221,4 +221,8 @@ vector_store = FaissVectorStore(faiss_index=faiss_index)
 - **Wiki**: https://github.com/facebookresearch/faiss/wiki
 - **License**: MIT
 
+## 🔗 Связи
+
+- [[000 - Map of Maps]] — REPO_DOCS
+- [[000 - Map of Maps]] — Map of Maps
 

@@ -5,6 +5,10 @@ weight: 1
 description: >
   Use Google's Gemini models to generate high-performance text embeddings for
   vector databases.
+tags:
+  - domain/mcp
+  - artifact/mcp-server
+  - source/mcp-servers
 ---
 
 ## About
@@ -94,3 +98,9 @@ ${ENV_NAME} instead of hardcoding your secrets into the configuration file.
 | type        |  string  |     true     | Must be `gemini`.                                                                                                                                    |
 | model       |  string  |     true     | The Gemini model ID to use (e.g., `gemini-embedding-001`).                                                                                             |
 | dimension   | integer  |    false     | The number of dimensions in the output vector (e.g., `768`).                                                                                         |
+
+## 🔗 Связи
+
+- [[MOC - MCP Servers]] — mcp-servers
+- [[000 - Map of Maps]] — Map of Maps
+

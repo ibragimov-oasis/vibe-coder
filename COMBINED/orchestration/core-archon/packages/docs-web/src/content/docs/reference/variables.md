@@ -112,3 +112,10 @@ Positional arguments (`$1` through `$9`) are substituted separately by the comma
 | `$LOOP_USER_INPUT` | Yes (loop nodes) | No | No |
 | `$REJECTION_REASON` | Yes (`on_reject` only) | No | No |
 | `$nodeId.output` | Yes (DAG nodes) | No | Yes |
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/archon]] — Archon
+- [[000 - Map of Maps]] — Map of Maps
+

@@ -399,3 +399,10 @@ sqlite3 memory.db.backup "SELECT COUNT(*) FROM patterns;" | head -1
 **Model Version**: 1.0.0
 **Database Size**: 2.39 MB
 **Query Performance**: < 5ms average
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

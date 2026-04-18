@@ -262,3 +262,10 @@ Both should succeed without authentication errors.
 - [Private repos](./private-repos) — privacy and security for Squad on enterprise repos
 - [Enterprise platforms](../features/enterprise-platforms) — Azure DevOps and Microsoft Planner support
 - [Troubleshooting](./troubleshooting) — common Squad issues and fixes
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/squad]] — Squad
+- [[000 - Map of Maps]] — Map of Maps
+

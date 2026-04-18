@@ -59,3 +59,9 @@ obsidian tasks
 - [[obsidian-skills/obsidian-bases]] — базы данных vault
 - [[obsidian-skills/obsidian-markdown]] — синтаксис markdown
 - [[_governance/NEW_DOC_CHECKLIST]] — чеклист (использует CLI команды)
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Parent MOC
+- [[000 - Map of Maps]] — Map of Maps
+

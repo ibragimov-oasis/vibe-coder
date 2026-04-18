@@ -3,6 +3,10 @@ name: impeccable
 description: Create distinctive, production-grade frontend interfaces with high design quality. Generates creative, polished code that avoids generic AI aesthetics. Use when the user asks to build web components, pages, artifacts, posters, or applications, or when any design skill requires project context. Call with 'craft' for shape-then-build, 'teach' for design context setup, or 'extract' to pull reusable components and tokens into the design system.
 version: 2.1.1
 license: Apache 2.0. Based on Anthropic's frontend-design skill. See NOTICE.md for attribution.
+tags:
+  - domain/ui
+  - artifact/ui-component
+  - source/ui-design
 ---
 
 <post-update-cleanup>
@@ -361,3 +365,9 @@ Confirm completion and summarize the key design principles that will now guide a
 ## Extract Mode
 
 If this skill is invoked with the argument "extract" (e.g., `/impeccable extract [target]`), follow the [extract flow](reference/extract.md). Pass any additional arguments as the extraction target.
+
+## 🔗 Связи
+
+- [[MOC - UI Design]] — ui-design
+- [[000 - Map of Maps]] — Map of Maps
+

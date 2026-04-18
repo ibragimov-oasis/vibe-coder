@@ -26,3 +26,10 @@ npx claude-flow hive-mind spawn "Build API"
 npx claude-flow hive-mind spawn "Research patterns" --queen-type adaptive
 npx claude-flow hive-mind spawn "Build service" --claude
 ```
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

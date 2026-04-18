@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/ui
+  - artifact/ui-component
+  - source/ui-design
+---
+
 # How to Contribute
 
 We'd love to accept your patches and contributions to this project. There are just a few small guidelines you need to follow.
@@ -23,3 +30,9 @@ This project follows [Google's Open Source Community Guidelines](https://opensou
 3.  Commit your changes
 4.  Push to the branch
 5.  Create a new Pull Request
+
+## 🔗 Связи
+
+- [[MOC - UI Design]] — ui-design
+- [[000 - Map of Maps]] — Map of Maps
+

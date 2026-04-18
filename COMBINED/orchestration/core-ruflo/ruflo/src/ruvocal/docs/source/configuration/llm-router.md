@@ -110,3 +110,10 @@ LLM_ROUTER_MAX_PREV_USER_LENGTH=400
 ```
 
 The latest user message is never trimmed.
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

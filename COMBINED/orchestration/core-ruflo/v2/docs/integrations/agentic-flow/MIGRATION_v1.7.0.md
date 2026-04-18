@@ -386,3 +386,10 @@ A: Yes! claude-flow automatically benefits via `"agentic-flow": "*"` dependency.
 ---
 
 **Happy upgrading! Enjoy 116x faster performance with zero code changes!** 🚀
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

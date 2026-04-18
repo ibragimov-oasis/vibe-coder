@@ -136,3 +136,10 @@ npm test -- --grep "lsp"
 | YAML | yaml-language-server | `yaml-language-server` | .yaml, .yml |
 
 <!-- MANUAL: -->
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/omc]] — OMC
+- [[000 - Map of Maps]] — Map of Maps
+

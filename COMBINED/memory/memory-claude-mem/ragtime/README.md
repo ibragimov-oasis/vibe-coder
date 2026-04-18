@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/memory
+  - artifact/memory
+  - source/memory
+---
+
 # Ragtime
 
 Email Investigation Batch Processor using Claude-mem's email-investigation mode.
@@ -81,3 +88,9 @@ The main claude-mem repository is licensed under AGPL 3.0, but ragtime uses the 
 ---
 
 For questions about commercial licensing, please contact the project maintainer.
+
+## 🔗 Связи
+
+- [[MOC - Memory]] — memory
+- [[000 - Map of Maps]] — Map of Maps
+

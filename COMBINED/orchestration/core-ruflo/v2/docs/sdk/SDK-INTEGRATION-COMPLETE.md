@@ -363,3 +363,10 @@ Claude Flow now has:
 **Date**: 2025-10-01
 **Validation**: 8/8 tests passed
 **MCP Tools**: 94 total (87 existing + 7 new SDK tools)
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

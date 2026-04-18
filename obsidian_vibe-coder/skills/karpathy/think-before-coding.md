@@ -92,3 +92,9 @@ AI:   [пишет точное решение]
 
 - [[skills/matt-pocock/write-a-prd]] — документация предположений
 - [[agents/mega-planner]] — планирование перед исполнением
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Parent MOC
+- [[000 - Map of Maps]] — Map of Maps
+

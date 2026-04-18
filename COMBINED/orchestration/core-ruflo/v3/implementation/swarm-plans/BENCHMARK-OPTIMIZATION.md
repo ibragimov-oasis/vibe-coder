@@ -807,3 +807,10 @@ function compareResults(
 - [AGENT-SPECIFICATIONS.md](./AGENT-SPECIFICATIONS.md) - Agent details (Agent #14)
 - [TDD-LONDON-SCHOOL-PLAN.md](./TDD-LONDON-SCHOOL-PLAN.md) - Test plan
 - [DEPLOYMENT-PLAN.md](./DEPLOYMENT-PLAN.md) - Release strategy
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

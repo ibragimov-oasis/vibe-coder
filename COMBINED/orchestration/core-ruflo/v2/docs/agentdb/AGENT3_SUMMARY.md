@@ -359,3 +359,10 @@ The potential performance gains (96x-164x) far outweigh the implementation risks
 **Status**: Standing by for Agent 1 completion
 **Coordination**: Via GitHub issue #829 and swarm memory
 **Last Updated**: 2025-10-23T05:19:37Z
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

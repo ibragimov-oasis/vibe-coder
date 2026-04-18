@@ -33,3 +33,10 @@ mcp__claude-flow__agent_spawn { type: "researcher" }
 2. Use Task tool for execution
 3. MCP only for coordination
 4. Batch all operations
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

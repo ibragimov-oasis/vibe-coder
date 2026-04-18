@@ -172,3 +172,10 @@ Document all findings from the deep capability audit of v3.5.19. Categorize by s
 - ADR-062: Cross-platform hook commands
 - PR #1362: Doctor + AgentDB bridge fixes (v3.5.19)
 - Branch: `review/deep-capability-audit`
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

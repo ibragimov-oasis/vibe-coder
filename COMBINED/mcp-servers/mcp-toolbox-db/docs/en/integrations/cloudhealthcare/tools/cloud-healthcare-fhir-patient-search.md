@@ -4,6 +4,10 @@ type: docs
 weight: 1
 description: >
   A "cloud-healthcare-fhir-patient-search" tool searches for patients in a FHIR store.
+tags:
+  - domain/mcp
+  - artifact/mcp-server
+  - source/mcp-servers
 ---
 
 ## About
@@ -64,3 +68,9 @@ description: Use this tool to search for patients in the FHIR store.
 
 *If the `allowedFHIRStores` in the source has length 1, then the `storeID`
 parameter is not needed.
+
+## 🔗 Связи
+
+- [[MOC - MCP Servers]] — mcp-servers
+- [[000 - Map of Maps]] — Map of Maps
+

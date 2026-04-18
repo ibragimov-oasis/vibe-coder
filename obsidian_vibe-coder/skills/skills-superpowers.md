@@ -42,3 +42,9 @@ Composable development skills, реализующие 7-шаговый Superpowe
 
 - [[skills/skills-development]] — Matt Pocock TDD
 - [[orchestration/core-gsd]] — GSD: spec-driven
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Parent MOC
+- [[000 - Map of Maps]] — Map of Maps
+

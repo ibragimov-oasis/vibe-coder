@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/new_repos
+---
+
 # TODO - Technical Debt & Future Improvements
 
 This document tracks technical debt items and improvements that need to be addressed in the future.
@@ -49,3 +56,8 @@ Create a new `safeFetchFormData` function that:
 ---
 
 _Last updated: 2025-07-18_
+
+## 🔗 Связи
+
+- [[000 - Map of Maps]] — Map of Maps
+

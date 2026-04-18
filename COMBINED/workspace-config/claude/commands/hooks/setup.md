@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/config
+  - source/workspace-config
+---
+
 # Setting Up ruv-swarm Hooks
 
 ## Quick Start
@@ -101,3 +108,9 @@ Already configured by default for common file types.
   }]
 }
 ```
+
+## 🔗 Связи
+
+- [[MOC - System]] — workspace-config
+- [[000 - Map of Maps]] — Map of Maps
+

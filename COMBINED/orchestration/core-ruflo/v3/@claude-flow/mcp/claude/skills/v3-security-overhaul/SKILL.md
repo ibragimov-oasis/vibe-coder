@@ -84,3 +84,10 @@ const { stdout } = await execFile('git', [userInput], { shell: false });
 - **CVE Resolution**: 100% of critical vulnerabilities fixed
 - **Test Coverage**: >95% security-critical code
 - **Implementation**: All secure patterns documented and tested
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

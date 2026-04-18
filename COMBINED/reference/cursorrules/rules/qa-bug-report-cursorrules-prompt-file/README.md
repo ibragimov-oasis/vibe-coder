@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/reference
+  - source/reference
+---
+
 # QA Bug Report Prompt
 
 A specialized .cursorrules prompt for creating standardized bug reports with clear reproduction steps and detailed environmental context for efficient bug resolution.
@@ -33,3 +40,9 @@ The .cursorrules prompt guides users in creating effective bug reports with thes
 - **Example Report**: Comprehensive example of a well-formatted bug report
 - **Adaptability Guidance**: Advice for customizing reports to specific tracking systems
 - **Objective Approach**: Focus on factual, reproducible information without blame
+
+## 🔗 Связи
+
+- [[MOC - System]] — reference
+- [[000 - Map of Maps]] — Map of Maps
+

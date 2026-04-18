@@ -98,3 +98,10 @@ praisonai persistence export --session-id demo-session --output backup.jsonl
 # 5. Import to another environment
 praisonai persistence import --file backup.jsonl
 ```
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/praisonai]] — PraisonAI
+- [[000 - Map of Maps]] — Map of Maps
+

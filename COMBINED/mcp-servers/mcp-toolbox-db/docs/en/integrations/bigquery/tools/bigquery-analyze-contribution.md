@@ -4,6 +4,10 @@ type: docs
 weight: 1
 description: >
   A "bigquery-analyze-contribution" tool performs contribution analysis in BigQuery.
+tags:
+  - domain/mcp
+  - artifact/mcp-server
+  - source/mcp-servers
 ---
 
 ## About
@@ -92,3 +96,9 @@ And use the following sample prompts to call this tool:
   `bqml_tutorial.iowa_liquor_sales_sum_data`. The test group is identified by
   the `is_test` column. The dimensions are `store_name`, `city`, `vendor_name`,
   `category_name` and `item_description`.
+
+## 🔗 Связи
+
+- [[MOC - MCP Servers]] — mcp-servers
+- [[000 - Map of Maps]] — Map of Maps
+

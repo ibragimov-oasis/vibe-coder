@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/config
+  - source/.claude
+---
+
 # ⛔ STOP — MEMORY BOOTSTRAP REQUIRED BEFORE ANYTHING ELSE
 
 > **DO NOT skip this section. DO NOT "come back to it later." DO NOT start any task without completing this.**
@@ -1214,3 +1221,9 @@ gh pr create --base dev
 *Combined from: oh-my-claudecode, claude-skills, background-agents, ruflo, get-shit-done, superpowers, everything-claude-code, awesome-claude-code, and 46 additional repositories. ULTRACAR v3.0 — 54 repositories total.*
 
 **Last Updated:** 2026-04-15
+
+## 🔗 Связи
+
+- [[MOC - System]] — System
+- [[000 - Map of Maps]] — Map of Maps
+

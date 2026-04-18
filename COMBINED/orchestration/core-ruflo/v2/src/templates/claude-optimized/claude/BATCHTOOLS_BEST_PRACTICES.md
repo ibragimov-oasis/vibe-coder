@@ -2091,3 +2091,10 @@ Remember:
 - Share knowledge with your team
 
 For questions or contributions to this guide, please contact the platform team or submit a pull request to the documentation repository.
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

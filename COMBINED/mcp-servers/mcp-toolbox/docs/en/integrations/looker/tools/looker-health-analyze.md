@@ -4,6 +4,10 @@ type: docs
 weight: 1
 description: >
   "looker-health-analyze" provides a set of analytical commands for a Looker instance, allowing users to analyze projects, models, and explores.
+tags:
+  - domain/mcp
+  - artifact/mcp-server
+  - source/mcp-servers
 ---
 
 ## About
@@ -65,3 +69,9 @@ description: |
 | type        |  string  |     true     | Must be "looker-health-analyze"                    |
 | source      |  string  |     true     | Looker source name                                 |
 | description |  string  |     true     | Description of the tool that is passed to the LLM. |
+
+## 🔗 Связи
+
+- [[MOC - MCP Servers]] — mcp-servers
+- [[000 - Map of Maps]] — Map of Maps
+

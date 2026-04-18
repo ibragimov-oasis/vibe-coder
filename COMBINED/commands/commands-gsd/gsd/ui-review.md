@@ -10,6 +10,10 @@ allowed-tools:
   - Grep
   - Task
   - AskUserQuestion
+tags:
+  - domain/skills
+  - artifact/command
+  - source/commands
 ---
 <objective>
 Conduct a retroactive 6-pillar visual audit. Produces UI-REVIEW.md with
@@ -30,3 +34,9 @@ Phase: $ARGUMENTS — optional, defaults to last completed phase.
 Execute @~/.claude/get-shit-done/workflows/ui-review.md end-to-end.
 Preserve all workflow gates.
 </process>
+
+## 🔗 Связи
+
+- [[MOC - System]] — commands
+- [[000 - Map of Maps]] — Map of Maps
+

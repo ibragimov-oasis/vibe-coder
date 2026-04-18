@@ -2,6 +2,10 @@
 title: "Cloud SQL for PostgreSQL Admin"
 type: docs
 description: "Details of the Cloud SQL for PostgreSQL Admin prebuilt configuration."
+tags:
+  - domain/mcp
+  - artifact/mcp-server
+  - source/mcp-servers
 ---
 
 ## Cloud SQL for PostgreSQL Admin
@@ -38,3 +42,9 @@ description: "Details of the Cloud SQL for PostgreSQL Admin prebuilt configurati
     *   `postgres_upgrade_precheck`: Performs a precheck for a major version upgrade of a Cloud SQL for PostgreSQL instance.
     *   `create_backup`: Creates a backup on a Cloud SQL instance.
     *   `restore_backup`: Restores a backup of a Cloud SQL instance.
+
+## 🔗 Связи
+
+- [[MOC - MCP Servers]] — mcp-servers
+- [[000 - Map of Maps]] — Map of Maps
+

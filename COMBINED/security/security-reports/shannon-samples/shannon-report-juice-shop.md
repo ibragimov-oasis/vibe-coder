@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/security
+  - artifact/security
+  - source/security
+---
+
 # Security Assessment Report
 
 ## Executive Summary
@@ -1110,3 +1117,9 @@ curl -s -i -X POST "http://juice-shop.sandbox.local:3001/api/Users" \
 **AUTHZ EXPLOITATION COMPLETE**
 
 All 10 authorization vulnerabilities have been successfully exploited with concrete evidence of unauthorized access, privilege escalation, and workflow bypasses. The application demonstrates systemic authorization failures across horizontal privilege escalation (IDOR), vertical privilege escalation (role injection), and context-based workflow bypasses.
+
+## 🔗 Связи
+
+- [[MOC - Security]] — security
+- [[000 - Map of Maps]] — Map of Maps
+

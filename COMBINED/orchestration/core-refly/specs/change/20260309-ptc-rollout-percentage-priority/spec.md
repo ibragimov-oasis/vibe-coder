@@ -97,3 +97,10 @@ tags:
 - `PTC_ROLLOUT_PERCENT=0` acts as a kill switch without touching mode/toolset config
 - Determinism verified: same uid+salt always produces the same bucket; different salts produce different assignments across a sample of 20 users
 - Live rollout test: bucket = **2** → excluded at `PTC_ROLLOUT_PERCENT=2`, included at `PTC_ROLLOUT_PERCENT=3` ✅
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/refly]] — Refly
+- [[000 - Map of Maps]] — Map of Maps
+

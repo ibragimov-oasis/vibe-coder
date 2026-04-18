@@ -188,3 +188,10 @@ If the current approach is optimal, say so and explain why.}
 - **MAIN_COMPARED**: Feature code compared against main branch code
 - **CLAUDE_MD_CHECKED**: CLAUDE.md compliance verified
 - **ARTIFACT_WRITTEN**: `$ARTIFACTS_DIR/code-review-feature.md` created
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/archon]] — Archon
+- [[000 - Map of Maps]] — Map of Maps
+

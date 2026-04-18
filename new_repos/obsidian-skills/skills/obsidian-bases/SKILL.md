@@ -1,6 +1,10 @@
 ---
 name: obsidian-bases
 description: Create and edit Obsidian Bases (.base files) with views, filters, formulas, and summaries. Use when working with .base files, creating database-like views of notes, or when the user mentions Bases, table views, card views, filters, or formulas in Obsidian.
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/new_repos
 ---
 
 # Obsidian Bases Skill
@@ -495,3 +499,8 @@ formulas:
 - [Views](https://help.obsidian.md/bases/views)
 - [Formulas](https://help.obsidian.md/formulas)
 - [Complete Functions Reference](references/FUNCTIONS_REFERENCE.md)
+
+## 🔗 Связи
+
+- [[000 - Map of Maps]] — Map of Maps
+

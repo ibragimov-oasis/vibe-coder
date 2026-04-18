@@ -109,3 +109,10 @@ Log events without running evaluators. Rejected because the evaluators are what 
 - `v3/@claude-flow/guidance/src/index.ts` -- `GuidanceControlPlane.startRun()`, `finalizeRun()`
 - ADR-G001 -- Why auditing is needed for autonomous agents
 - ADR-G008 -- How the optimizer consumes violation rankings
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

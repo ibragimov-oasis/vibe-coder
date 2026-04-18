@@ -992,3 +992,10 @@ This DDD design provides:
 6. **Extensibility** - New platforms can be added by implementing the adapter interface
 
 The design maintains consistency with V3's existing DDD patterns while introducing the flexibility needed to support multiple agentic coding platforms.
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

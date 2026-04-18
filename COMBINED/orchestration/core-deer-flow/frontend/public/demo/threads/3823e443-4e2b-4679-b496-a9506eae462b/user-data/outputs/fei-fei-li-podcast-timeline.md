@@ -207,3 +207,10 @@ The timeline shows her evolving role from academic researcher to entrepreneur wh
 6. Y Combinator Startup Podcast (June 16, 2025)
 
 _Compiled on January 25, 2026_
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/deerflow]] — DeerFlow
+- [[000 - Map of Maps]] — Map of Maps
+

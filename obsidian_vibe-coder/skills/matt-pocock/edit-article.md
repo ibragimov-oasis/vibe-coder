@@ -74,3 +74,9 @@ Output: Улучшенная версия с track changes
 
 - [[skills/matt-pocock/write-a-skill]] — написать новый навык
 - [[agents/mega-writer]] — полный workflow документации
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Parent MOC
+- [[000 - Map of Maps]] — Map of Maps
+

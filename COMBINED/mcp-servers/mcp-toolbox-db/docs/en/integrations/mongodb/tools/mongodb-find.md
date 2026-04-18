@@ -4,6 +4,10 @@ type: docs
 weight: 1
 description: >
   A "mongodb-find" tool finds and retrieves documents from a MongoDB collection.
+tags:
+  - domain/mcp
+  - artifact/mcp-server
+  - source/mcp-servers
 ---
 
 ## About
@@ -72,3 +76,9 @@ sortParams:
 | sortPayload    | string   | false        | An optional MongoDB sort document to define the order of the returned documents. Use 1 for ascending and -1 for descending. |
 | sortParams     | list     | false        | A list of parameter objects for the `sortPayload`.                                                                          |
 | limit          | integer  | false        | An optional integer specifying the maximum number of documents to return.                                                   |
+
+## 🔗 Связи
+
+- [[MOC - MCP Servers]] — mcp-servers
+- [[000 - Map of Maps]] — Map of Maps
+

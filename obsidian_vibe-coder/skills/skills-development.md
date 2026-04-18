@@ -67,3 +67,9 @@ source: "../COMBINED/skills/skills-development/"
 
 - [[skills/skills-claude-karpathy]] — Karpathy 4 принципа
 - [[skills/skills-claude-best-practice]] — 69 советов
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Parent MOC
+- [[000 - Map of Maps]] — Map of Maps
+

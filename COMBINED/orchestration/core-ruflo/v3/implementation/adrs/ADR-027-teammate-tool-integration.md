@@ -1371,3 +1371,10 @@ if (mode === 'native') {
 3. **Monitor feedback** - Track issues and feature requests
 4. **Phase 6: Memory Bridge** - Integrate with Claude Flow's HNSW memory system
 5. **Phase 7: Consensus Integration** - Bridge TeammateTool approval with Claude Flow consensus protocols
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

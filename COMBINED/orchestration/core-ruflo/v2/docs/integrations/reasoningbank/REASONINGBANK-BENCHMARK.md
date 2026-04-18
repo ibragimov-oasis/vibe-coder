@@ -401,3 +401,10 @@ Assuming a typical agent task with ReasoningBank enabled:
 **Benchmark Report Generated**: 2025-10-10
 **Tool**: `src/reasoningbank/benchmark.ts`
 **Status**: ✅ **ALL TESTS PASSED**
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

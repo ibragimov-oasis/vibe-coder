@@ -650,3 +650,10 @@ Verification commands return standard exit codes:
 - Verification Criteria: See `/docs/verification-criteria.md`
 - Integration Examples: See `/examples/verification/`
 - API Reference: See `/docs/api/verification.md`
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

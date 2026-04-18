@@ -131,3 +131,10 @@ talking points, and cleanup steps. Runs on this codebase (`coleam00/Archon`).
   !`command`           Dynamic context at load time
   $ARGUMENTS           User input passthrough
 ```
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/archon]] — Archon
+- [[000 - Map of Maps]] — Map of Maps
+

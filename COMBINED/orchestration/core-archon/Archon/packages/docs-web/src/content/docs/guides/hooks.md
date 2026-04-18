@@ -322,3 +322,10 @@ Refer to the [Anthropic Claude Agent SDK documentation](https://docs.anthropic.c
 
 - [Per-Node MCP Servers](/guides/mcp-servers/) — `mcp:` field for external tool access
 - [Per-Node Skills](/guides/skills/) — `skills:` field for domain knowledge injection
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/archon]] — Archon
+- [[000 - Map of Maps]] — Map of Maps
+

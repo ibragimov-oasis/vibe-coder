@@ -107,3 +107,10 @@ We'll dig deeper and update this thread.
 - ❌ Quoting profanity: Even when the original issue contains it, paraphrase instead
 - ❌ Link-dumping: Pasting URLs without context ("See: https://...")
 - ❌ Open-ended info requests: "Can you provide more information?" without specifying what information
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/squad]] — Squad
+- [[000 - Map of Maps]] — Map of Maps
+

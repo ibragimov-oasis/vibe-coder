@@ -666,3 +666,10 @@ export default defineSquad({
 - [SDK Reference](./reference/sdk.md) — all SDK exports
 - [Routing Guide](./features/routing.md) — deep dive on routing tiers
 - [Governance & Hooks](./reference/sdk.md) — hook pipeline and governance
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/squad]] — Squad
+- [[000 - Map of Maps]] — Map of Maps
+

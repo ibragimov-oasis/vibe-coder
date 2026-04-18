@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/ui
+  - artifact/ui-component
+  - source/ui-design
+---
+
 # shadcn
 
 A CLI for adding components to your project.
@@ -49,3 +56,9 @@ Visit https://ui.shadcn.com/docs/cli to view the documentation.
 ## License
 
 Licensed under the [MIT license](https://github.com/shadcn-ui/ui/blob/main/LICENSE.md).
+
+## 🔗 Связи
+
+- [[MOC - UI Design]] — ui-design
+- [[000 - Map of Maps]] — Map of Maps
+

@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/command
+  - source/commands
+---
+
 # COMBINED/commands - Master Commands Index
 
 > **Complete catalog of all slash commands across repositories**
@@ -661,3 +668,9 @@ When adding commands:
 *For agent capabilities, see `COMBINED/agents/INDEX.md`*
 *For skill packages, see `COMBINED/skills/INDEX.md`*
 *For automation hooks, see `COMBINED/hooks/README.md`*
+
+## 🔗 Связи
+
+- [[MOC - System]] — commands
+- [[000 - Map of Maps]] — Map of Maps
+

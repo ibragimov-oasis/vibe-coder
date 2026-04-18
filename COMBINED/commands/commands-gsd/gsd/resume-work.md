@@ -7,6 +7,10 @@ allowed-tools:
   - Write
   - AskUserQuestion
   - SlashCommand
+tags:
+  - domain/skills
+  - artifact/command
+  - source/commands
 ---
 
 <objective>
@@ -38,3 +42,9 @@ The workflow handles all resumption logic including:
 6. Routing to appropriate next command
 7. Session continuity updates
    </process>
+
+## 🔗 Связи
+
+- [[MOC - System]] — commands
+- [[000 - Map of Maps]] — Map of Maps
+

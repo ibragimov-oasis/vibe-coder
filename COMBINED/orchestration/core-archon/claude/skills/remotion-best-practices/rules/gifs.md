@@ -142,3 +142,10 @@ export const MyComposition = () => {
 ```
 
 The `<Gif>` component has the same props as `<AnimatedImage>` but only supports GIF files.
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/archon]] — Archon
+- [[000 - Map of Maps]] — Map of Maps
+

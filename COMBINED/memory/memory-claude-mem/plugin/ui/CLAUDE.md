@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/memory
+  - artifact/memory
+  - source/memory
+---
+
 <claude-mem-context>
 # Recent Activity
 
@@ -58,3 +65,9 @@
 | #32967 | " | 🔵 | ContextSettingsModal.tsx uses CSS classes defined in viewer.html | ~218 |
 | #32968 | " | 🔵 | Need to add CSS for footer to viewer.html | ~223 |
 </claude-mem-context>
+
+## 🔗 Связи
+
+- [[MOC - Memory]] — memory
+- [[000 - Map of Maps]] — Map of Maps
+

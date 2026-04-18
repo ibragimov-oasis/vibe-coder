@@ -45,3 +45,10 @@ assistants:
 ```
 
 See the [full configuration reference](/reference/configuration/) for all options.
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/archon]] — Archon
+- [[000 - Map of Maps]] — Map of Maps
+

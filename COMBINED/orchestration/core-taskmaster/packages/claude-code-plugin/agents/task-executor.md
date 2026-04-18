@@ -72,3 +72,10 @@ You work in tandem with the task-orchestrator agent. While the orchestrator iden
 - Coordinate with the broader development workflow
 
 When you complete a task, briefly summarize what was implemented and suggest whether to continue with the next task or if review/testing is needed first.
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/task-master]] — Task-Master
+- [[000 - Map of Maps]] — Map of Maps
+

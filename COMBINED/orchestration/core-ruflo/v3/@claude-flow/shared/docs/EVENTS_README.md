@@ -357,3 +357,10 @@ When adding new domain events:
 ## License
 
 Part of claude-flow V3 - See root LICENSE file.
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

@@ -348,3 +348,10 @@ Run `squad` again to restart. Check `.squad/log/` for error context.
 - [CLI Reference](../reference/cli.md) — All CLI commands
 - [VS Code](../features/vscode.md) — Squad in VS Code
 - [Parallel Execution](../features/parallel-execution.md) — How agents fan out
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/squad]] — Squad
+- [[000 - Map of Maps]] — Map of Maps
+

@@ -34,3 +34,9 @@ source: "../COMBINED/agents/by-role/coder/"
 - **Индекс:** [[agents-by-role/index]]
 - **MOC:** [[MOC - Agents]]
 - **Мета-агент:** [[agents/mega-coder]]
+
+## 🔗 Связи
+
+- [[MOC - Agents]] — Parent MOC
+- [[000 - Map of Maps]] — Map of Maps
+

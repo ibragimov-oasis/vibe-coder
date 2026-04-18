@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/memory
+  - artifact/memory
+  - source/memory
+---
+
 <claude-mem-context>
 # Recent Activity
 
@@ -10,3 +17,9 @@
 | #41877 | 12:09 PM | ⚖️ | Deploy Existing Consumer Preview Without Creating New Packages | ~361 |
 | #41873 | 12:03 PM | 🔵 | Claude-mem mode configuration system types documented | ~504 |
 </claude-mem-context>
+
+## 🔗 Связи
+
+- [[MOC - Memory]] — memory
+- [[000 - Map of Maps]] — Map of Maps
+

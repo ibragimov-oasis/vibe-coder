@@ -5,6 +5,10 @@ weight: 1
 description: >
   A "neo4j-execute-cypher" tool executes any arbitrary Cypher statement against a Neo4j
   database.
+tags:
+  - domain/mcp
+  - artifact/mcp-server
+  - source/mcp-servers
 ---
 
 ## About
@@ -59,3 +63,9 @@ description: |
 | source      |  string  |     true     | Name of the source the Cypher query should execute on.                                               |
 | description |  string  |     true     | Description of the tool that is passed to the LLM.                                                   |
 | readOnly    | boolean  |    false     | If set to `true`, the tool will reject any write operations in the Cypher query. Default is `false`. |
+
+## 🔗 Связи
+
+- [[MOC - MCP Servers]] — mcp-servers
+- [[000 - Map of Maps]] — Map of Maps
+

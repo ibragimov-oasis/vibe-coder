@@ -267,3 +267,10 @@ Link to squad docs in the description:
 - [Upstream Auto-Sync](/features/upstream-sync) — Keep squad manifests in sync
 - [Persistent Ralph](/features/persistent-ralph) — Monitor delegation status
 - [Generic Scheduler](/features/generic-scheduler) — Schedule recurring delegations
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/squad]] — Squad
+- [[000 - Map of Maps]] — Map of Maps
+

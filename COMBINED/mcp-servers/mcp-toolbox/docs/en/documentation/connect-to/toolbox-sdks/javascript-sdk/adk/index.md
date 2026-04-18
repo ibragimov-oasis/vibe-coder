@@ -4,6 +4,10 @@ type: docs
 weight: 1
 description: >
   MCP Toolbox SDK for integrating functionalities of MCP Toolbox into your ADK apps.
+tags:
+  - domain/mcp
+  - artifact/mcp-server
+  - source/mcp-servers
 ---
 
 ## Overview
@@ -472,3 +476,9 @@ async function main() {
 
 main().catch(console.error);
 ```
+
+## 🔗 Связи
+
+- [[MOC - MCP Servers]] — mcp-servers
+- [[000 - Map of Maps]] — Map of Maps
+

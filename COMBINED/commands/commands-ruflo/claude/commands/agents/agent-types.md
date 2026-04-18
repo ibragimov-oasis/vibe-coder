@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/command
+  - source/commands
+---
+
 # agent-types
 
 Complete guide to all 54 available agent types in Claude Flow.
@@ -24,3 +31,9 @@ For full list and details:
 ```bash
 npx claude-flow agents list
 ```
+
+## 🔗 Связи
+
+- [[MOC - System]] — commands
+- [[000 - Map of Maps]] — Map of Maps
+

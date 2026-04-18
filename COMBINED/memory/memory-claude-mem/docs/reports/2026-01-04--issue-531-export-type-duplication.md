@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/memory
+  - artifact/memory
+  - source/memory
+---
+
 # Issue #531: Export Script Type Duplication
 
 ## Summary
@@ -60,3 +67,9 @@ Type duplication exists across two locations:
 - Only 4 files need updates
 - No breaking changes (internal scripts)
 - Existing tests should continue to pass
+
+## 🔗 Связи
+
+- [[MOC - Memory]] — memory
+- [[000 - Map of Maps]] — Map of Maps
+

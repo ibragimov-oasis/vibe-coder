@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/ui
+  - artifact/ui-component
+  - source/ui-design
+---
+
 # shadcn/ui Accessibility Patterns
 
 ARIA patterns, keyboard navigation, screen reader support, and accessible component usage.
@@ -469,3 +476,9 @@ if (process.env.NODE_ENV === 'development') {
   })
 }
 ```
+
+## 🔗 Связи
+
+- [[MOC - UI Design]] — ui-design
+- [[000 - Map of Maps]] — Map of Maps
+

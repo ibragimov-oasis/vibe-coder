@@ -316,3 +316,10 @@ console.log(health.metrics.tasksCompleted); // Task count
 **Implementation Date**: 2026-01-04
 **Status**: ✅ Complete
 **Version**: 3.0.0-alpha.1
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

@@ -59,3 +59,10 @@ const input = new Input({
   source: new FileSource(file), // File object from input or drag-drop
 });
 ```
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/archon]] — Archon
+- [[000 - Map of Maps]] — Map of Maps
+

@@ -419,3 +419,10 @@ curl -X POST http://localhost:3090/api/workflows/archon-assist/run \
 # 3. Monitor via SSE
 curl -N http://localhost:3090/api/stream/$CONV_ID
 ```
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/archon]] — Archon
+- [[000 - Map of Maps]] — Map of Maps
+

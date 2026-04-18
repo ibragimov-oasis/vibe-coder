@@ -80,3 +80,10 @@ Based on this implementation, what should change for next time?
 - Execute command improvements: [suggestions]
 - CLAUDE.md additions: [suggestions]
 - `.claude/rules/` updates: [suggestions]
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/archon]] — Archon
+- [[000 - Map of Maps]] — Map of Maps
+

@@ -56,3 +56,10 @@ Use `\$` to produce a literal `$` in command files (prevents variable substituti
 In `bash:` nodes, `$nodeId.output` values are automatically shell-escaped before injection to prevent command injection.
 
 Unknown node references resolve to an empty string (with a warning logged).
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/archon]] — Archon
+- [[000 - Map of Maps]] — Map of Maps
+

@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/ui
+  - artifact/ui-component
+  - source/ui-design
+---
+
 # Remotion Composition Checklist
 
 Use this checklist to ensure your Remotion walkthrough video composition is complete and follows best practices.
@@ -122,3 +129,9 @@ Use this checklist to ensure your Remotion walkthrough video composition is comp
 - Add custom checklist items specific to your project
 - Review Remotion documentation for updates
 - Test final video on target platform (YouTube, social, etc.)
+
+## 🔗 Связи
+
+- [[MOC - UI Design]] — ui-design
+- [[000 - Map of Maps]] — Map of Maps
+

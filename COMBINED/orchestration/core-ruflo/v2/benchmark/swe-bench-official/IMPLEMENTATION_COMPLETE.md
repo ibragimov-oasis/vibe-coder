@@ -144,3 +144,10 @@ The implementation is complete and ready for:
 - Configuration optimization
 
 The system correctly uses claude-flow commands and generates predictions in the required format for official submission.
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

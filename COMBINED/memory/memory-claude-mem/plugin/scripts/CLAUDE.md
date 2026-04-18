@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/memory
+  - artifact/memory
+  - source/memory
+---
+
 Never read built source files in this directory. These are compiled outputs — read the source files in `src/` instead.
 
 <claude-mem-context>
@@ -123,3 +130,9 @@ Never read built source files in this directory. These are compiled outputs — 
 | #38161 | " | 🔵 | User-Message-Hook Outputs to stderr and Exits with Code 1 | ~211 |
 | #38160 | 7:18 PM | 🔵 | Context-Hook Returns JSON with hookSpecificOutput Structure | ~470 |
 </claude-mem-context>
+
+## 🔗 Связи
+
+- [[MOC - Memory]] — memory
+- [[000 - Map of Maps]] — Map of Maps
+

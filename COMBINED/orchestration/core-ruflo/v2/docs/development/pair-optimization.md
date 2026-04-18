@@ -161,3 +161,10 @@ if (output.includes('error')) {
 - [ ] Parallel verification checks
 - [ ] Custom verification commands
 - [ ] Integration with git hooks
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

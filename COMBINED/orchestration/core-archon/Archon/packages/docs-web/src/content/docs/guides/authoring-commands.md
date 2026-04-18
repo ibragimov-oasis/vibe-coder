@@ -659,3 +659,10 @@ Extract:
 3. **Use phases** - Break work into verifiable chunks
 4. **Be explicit** - Tell the AI exactly what to do, where, and how
 5. **Include everything** - The next agent works ONLY from your artifact
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/archon]] — Archon
+- [[000 - Map of Maps]] — Map of Maps
+

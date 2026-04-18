@@ -205,3 +205,10 @@ How roadmap phases should address these pitfalls.
 - Informs phase ordering and success criteria
 
 </guidelines>
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/gsd]] — GSD
+- [[000 - Map of Maps]] — Map of Maps
+

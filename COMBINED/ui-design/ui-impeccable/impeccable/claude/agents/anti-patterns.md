@@ -2,6 +2,10 @@
 name: anti-patterns
 description: Use when adding, modifying, or debugging an anti-pattern detection rule in this repo. Walks through the TDD recipe, the rule schema, all five plug-in points, jsdom constraints, the cross-validation step against the impeccable skill, and the post-implementation checklist. Trigger this for any work touching src/detect-antipatterns.mjs, tests/fixtures/antipatterns/, or extension/detector/.
 tools: Read, Edit, Write, Glob, Grep, Bash, mcp__claude-in-chrome__navigate, mcp__claude-in-chrome__javascript_tool, mcp__claude-in-chrome__tabs_context_mcp, mcp__claude-in-chrome__tabs_create_mcp
+tags:
+  - domain/ui
+  - artifact/ui-component
+  - source/ui-design
 ---
 
 # Anti-Pattern Engine Maintenance
@@ -276,3 +280,9 @@ Before you commit a new rule, all of these MUST be true. The first three are non
 - **Used a `skillGuideline` substring that doesn't appear in SKILL.md** — validator fails. Fix: the substring must appear verbatim in some `**DON'T**:` line of the named section.
 - **Used the wrong `skillSection` name** — `Color & Theme` vs `Color & Contrast` (parser normalizes the former to the latter, so use `Color & Contrast`).
 - **Wrote the fixture without explicit pixel dimensions** — jsdom returned 0×0 and the rule never matched. Fix: always set `width: Npx; height: Npx` in CSS for fixture elements, or use inline style attributes.
+
+## 🔗 Связи
+
+- [[MOC - UI Design]] — ui-design
+- [[000 - Map of Maps]] — Map of Maps
+

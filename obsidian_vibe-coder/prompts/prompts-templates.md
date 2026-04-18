@@ -48,3 +48,9 @@ source: "../COMBINED/prompts/prompts-templates/"
 
 Конкретные `.prompt.md` файлы:
 - [[obsidian-copilot/custom-commands]] — custom commands в Obsidian Copilot
+
+## 🔗 Связи
+
+- [[MOC - Prompts]] — Parent MOC
+- [[000 - Map of Maps]] — Map of Maps
+

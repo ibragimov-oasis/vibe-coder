@@ -27,3 +27,10 @@ The following sound effects are available:
 - `https://remotion.media/shutter-old.wav`
 
 For more sound effects, search the internet. A good resource is https://github.com/kapishdima/soundcn/tree/main/assets.
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/archon]] — Archon
+- [[000 - Map of Maps]] — Map of Maps
+

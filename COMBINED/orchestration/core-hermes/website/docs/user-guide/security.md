@@ -490,3 +490,10 @@ terminal:
 ```
 
 This keeps the gateway's messaging connections separate from the agent's command execution.
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/hermes]] — Hermes
+- [[000 - Map of Maps]] — Map of Maps
+

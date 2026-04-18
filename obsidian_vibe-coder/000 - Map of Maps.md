@@ -318,3 +318,9 @@ bash obsidian-update.sh --title "Task name" --content "What was done" --tags "do
 ---
 
 > 💡 **Совет:** Открой Graph View для визуализации всех связей. Используй Local Graph на этой заметке для быстрого обзора.
+
+## 🔗 Связи
+
+- [[000 - Map of Maps]] — Parent MOC
+- [[000 - Map of Maps]] — Map of Maps
+

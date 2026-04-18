@@ -1,6 +1,10 @@
 ---
 name: dual-coordinate
 description: Coordinate hybrid Claude Code + Codex workflows
+tags:
+  - domain/skills
+  - artifact/config
+  - source/.claude
 ---
 
 # Dual Coordinate Skill
@@ -83,3 +87,9 @@ This will:
 
 - `/dual-spawn` - Spawn headless workers only
 - `/dual-collect` - Collect results from workers
+
+## 🔗 Связи
+
+- [[MOC - System]] — System
+- [[000 - Map of Maps]] — Map of Maps
+

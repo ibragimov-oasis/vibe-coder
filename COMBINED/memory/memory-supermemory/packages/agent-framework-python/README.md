@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/memory
+  - artifact/memory
+  - source/memory
+---
+
 # Supermemory Microsoft Agent Framework SDK
 
 Memory tools and middleware for [Microsoft Agent Framework](https://github.com/microsoft/agent-framework) with [Supermemory](https://supermemory.ai) integration.
@@ -355,3 +362,9 @@ MIT License - see LICENSE file for details.
 - [Supermemory](https://supermemory.ai) - Infinite context memory platform
 - [Microsoft Agent Framework](https://github.com/microsoft/agent-framework) - AI agent framework
 - [Documentation](https://docs.supermemory.ai) - Full API documentation
+
+## 🔗 Связи
+
+- [[MOC - Memory]] — memory
+- [[000 - Map of Maps]] — Map of Maps
+

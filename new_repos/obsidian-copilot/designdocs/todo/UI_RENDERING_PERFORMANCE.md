@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/new_repos
+---
+
 # TODO - UI Rendering Performance Issues
 
 This document tracks UI rendering performance issues identified through a comprehensive audit of the React component tree, state management, and streaming paths. Findings are ranked by severity and organized by recommended fix priority.
@@ -444,3 +451,8 @@ These patterns were identified as already well-implemented:
 ---
 
 _Last updated: 2026-03-03_
+
+## 🔗 Связи
+
+- [[000 - Map of Maps]] — Map of Maps
+

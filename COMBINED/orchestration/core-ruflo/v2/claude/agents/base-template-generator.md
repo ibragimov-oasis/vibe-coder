@@ -44,3 +44,10 @@ Quality standards:
 - Add meaningful default values and examples
 
 When generating templates, always consider the broader project context, existing patterns, and future extensibility needs. Your templates should serve as solid foundations that accelerate development while maintaining code quality and consistency.
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

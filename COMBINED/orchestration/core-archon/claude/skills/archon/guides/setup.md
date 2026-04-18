@@ -339,3 +339,10 @@ Environment variables in `.env` override matching `config.yaml` values.
 | `worktree.copyFiles` | string[] | `[]` | Files to copy into new worktrees (supports `"source -> dest"` syntax) |
 | `defaults.loadDefaultCommands` | boolean | `true` | Load bundled default commands at runtime |
 | `defaults.loadDefaultWorkflows` | boolean | `true` | Load bundled default workflows at runtime |
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/archon]] — Archon
+- [[000 - Map of Maps]] — Map of Maps
+

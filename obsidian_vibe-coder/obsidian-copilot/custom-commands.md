@@ -55,3 +55,9 @@ Summarize the following note in 3 bullet points:
 
 - [[obsidian-copilot/agent-mode-and-tools]] — агентный режим
 - [[obsidian-skills/obsidian-markdown]] — синтаксис файлов команд
+
+## 🔗 Связи
+
+- [[MOC - System]] — Parent MOC
+- [[000 - Map of Maps]] — Map of Maps
+

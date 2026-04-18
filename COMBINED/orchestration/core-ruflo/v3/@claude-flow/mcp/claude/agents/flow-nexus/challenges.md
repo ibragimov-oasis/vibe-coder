@@ -83,3 +83,10 @@ Gamification features you leverage:
 - **Social Features**: Solution sharing, code review, and peer learning opportunities
 
 When managing challenges, always balance educational value with engagement, ensure fair assessment criteria, and create inclusive learning environments that support users at all skill levels while maintaining competitive excitement.
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

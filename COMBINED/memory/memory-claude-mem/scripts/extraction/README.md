@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/memory
+  - artifact/memory
+  - source/memory
+---
+
 # XML Extraction Scripts
 
 Scripts to extract XML observations and summaries from Claude Code transcript files.
@@ -80,3 +87,9 @@ These are Claude Code session transcripts stored in JSONL (JSON Lines) format.
 Each XML block includes a comment with:
 - Block number
 - Original timestamp from transcript
+
+## 🔗 Связи
+
+- [[MOC - Memory]] — memory
+- [[000 - Map of Maps]] — Map of Maps
+

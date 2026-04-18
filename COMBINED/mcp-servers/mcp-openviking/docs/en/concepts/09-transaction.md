@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/mcp
+  - artifact/mcp-server
+  - source/mcp-servers
+---
+
 # Path Locks and Crash Recovery
 
 OpenViking uses two simple primitives — **path locks** and **redo log** — to protect the consistency of core write operations (`rm`, `mv`, `add_resource`, `session.commit`), ensuring that VikingFS, VectorDB, and QueueManager remain consistent even when failures occur.
@@ -361,3 +368,9 @@ The lock mechanism relies on QueueFS using the SQLite backend to ensure enqueued
 - [Storage](./05-storage.md) - AGFS and vector store
 - [Session Management](./08-session.md) - Session and memory management
 - [Configuration](../guides/01-configuration.md) - Configuration reference
+
+## 🔗 Связи
+
+- [[MOC - MCP Servers]] — mcp-servers
+- [[000 - Map of Maps]] — Map of Maps
+

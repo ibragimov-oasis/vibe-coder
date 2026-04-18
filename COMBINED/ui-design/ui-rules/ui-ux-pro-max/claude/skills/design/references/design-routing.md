@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/ui
+  - artifact/ui-component
+  - source/ui-design
+---
+
 # Design Routing Guide
 
 When to use each design sub-skill.
@@ -205,3 +212,9 @@ Use **brand + design-system** when:
 Use **design-system + ui-styling** when:
 - Implementing existing brand in code
 - Building component library
+
+## 🔗 Связи
+
+- [[MOC - UI Design]] — ui-design
+- [[000 - Map of Maps]] — Map of Maps
+

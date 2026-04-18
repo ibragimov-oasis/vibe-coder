@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/mcp
+  - artifact/mcp-server
+  - source/mcp-servers
+---
+
 # Context Layers (L0/L1/L2)
 
 OpenViking uses a three-layer information model to balance retrieval efficiency and content completeness.
@@ -186,3 +193,9 @@ if needs_more_detail(overview):
 - [Viking URI](./04-viking-uri.md) - URI specification
 - [Retrieval Mechanism](./07-retrieval.md) - Retrieval process details
 - [Context Extraction](./06-extraction.md) - L0/L1 generation details
+
+## 🔗 Связи
+
+- [[MOC - MCP Servers]] — mcp-servers
+- [[000 - Map of Maps]] — Map of Maps
+

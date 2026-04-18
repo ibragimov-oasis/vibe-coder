@@ -36,3 +36,10 @@ To find your Slack user ID: click your profile > **...** > **Copy member ID**.
 ## Start the Server
 
 Follow the [Server Setup Guide](server.md) to start the server. The Slack adapter auto-starts when both `SLACK_BOT_TOKEN` and `SLACK_APP_TOKEN` are set.
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/archon]] — Archon
+- [[000 - Map of Maps]] — Map of Maps
+

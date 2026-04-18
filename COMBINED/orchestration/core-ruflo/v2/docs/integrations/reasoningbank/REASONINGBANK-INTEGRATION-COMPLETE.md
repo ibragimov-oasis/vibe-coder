@@ -254,3 +254,10 @@ Successfully integrated ReasoningBank as an **optional enhanced mode** for core 
 - Implementation: Claude Code
 - Date: 2025-10-12
 - Version: v2.7.0-alpha
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

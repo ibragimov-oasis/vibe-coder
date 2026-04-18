@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/mcp
+  - artifact/mcp-server
+  - source/mcp-servers
+---
+
 # openviking-opencode
 
 OpenViking plugin for [OpenCode](https://opencode.ai). Injects your indexed code repos into the AI's context and auto-starts the OpenViking server when needed.
@@ -64,4 +71,9 @@ Restart OpenCode — the skill is installed automatically.
 "How does fastapi handle dependency injection?"
 "Use openviking to find how JWT tokens are verified"
 ```
+
+## 🔗 Связи
+
+- [[MOC - MCP Servers]] — mcp-servers
+- [[000 - Map of Maps]] — Map of Maps
 

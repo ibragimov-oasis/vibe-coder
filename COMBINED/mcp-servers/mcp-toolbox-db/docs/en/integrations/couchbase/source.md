@@ -6,6 +6,10 @@ weight: 1
 description: >
   A "couchbase" source connects to a Couchbase database.
 no_list: true
+tags:
+  - domain/mcp
+  - artifact/mcp-server
+  - source/mcp-servers
 ---
 
 ## About
@@ -55,3 +59,9 @@ Connections](https://docs.couchbase.com/java-sdk/current/howtos/managing-connect
 | noSslVerify          | boolean  |    false     | If true, skip server certificate verification. **Warning:** This option should only be used in development or testing environments. Disabling SSL verification poses significant security risks in production as it makes your connection vulnerable to man-in-the-middle attacks.                                                                                                       |
 | profile              |  string  |    false     | Name of the connection profile to apply.                                                                                                                                                                                                                                                                                                                                                 |
 | queryScanConsistency | integer  |    false     | Query scan consistency. Controls the consistency guarantee for index scanning. Values: 1 for "not_bounded" (fastest option, but results may not include the most recent operations), 2 for "request_plus" (highest consistency level, includes all operations up until the query started, but incurs a performance penalty). If not specified, defaults to the Couchbase Go SDK default. |
+
+## 🔗 Связи
+
+- [[MOC - MCP Servers]] — mcp-servers
+- [[000 - Map of Maps]] — Map of Maps
+

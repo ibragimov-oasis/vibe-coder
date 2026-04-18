@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/command
+  - source/commands
+---
+
 # Performance Bottleneck Analysis
 
 ## Purpose
@@ -57,3 +64,9 @@ Result includes:
 
 ## Continuous Optimization
 The system learns from each task to prevent future bottlenecks!
+
+## 🔗 Связи
+
+- [[MOC - System]] — commands
+- [[000 - Map of Maps]] — Map of Maps
+

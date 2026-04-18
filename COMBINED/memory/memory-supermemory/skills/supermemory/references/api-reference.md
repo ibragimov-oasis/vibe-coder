@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/memory
+  - artifact/memory
+  - source/memory
+---
+
 # Supermemory API Reference
 
 Complete REST API documentation for Supermemory.
@@ -589,3 +596,9 @@ Coming soon: Webhooks for document processing status updates.
 - **API Issues**: Check [status.supermemory.ai](https://status.supermemory.ai)
 - **Documentation**: [supermemory.ai/docs](https://supermemory.ai/docs)
 - **Console**: [console.supermemory.ai](https://console.supermemory.ai)
+
+## 🔗 Связи
+
+- [[MOC - Memory]] — memory
+- [[000 - Map of Maps]] — Map of Maps
+

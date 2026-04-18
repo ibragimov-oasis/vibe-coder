@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/ui
+  - artifact/ui-component
+  - source/ui-design
+---
+
 # Design System: Furniture Collections List
 **Project ID:** 13534454087919359824
 
@@ -152,3 +159,9 @@ When refining existing screens:
 1. Focus on ONE component at a time (e.g., "Update the product grid cards")
 2. Be specific about what to change (e.g., "Increase the internal padding of product cards from 1.5rem to 2rem")
 3. Reference this design system language consistently
+
+## 🔗 Связи
+
+- [[MOC - UI Design]] — ui-design
+- [[000 - Map of Maps]] — Map of Maps
+

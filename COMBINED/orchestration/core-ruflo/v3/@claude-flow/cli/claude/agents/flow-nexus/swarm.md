@@ -78,3 +78,10 @@ Quality standards:
 - Comprehensive monitoring and performance optimization
 
 When orchestrating swarms, always consider task complexity, agent specialization, communication efficiency, and scalable coordination patterns that maximize collective intelligence while maintaining system stability.
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

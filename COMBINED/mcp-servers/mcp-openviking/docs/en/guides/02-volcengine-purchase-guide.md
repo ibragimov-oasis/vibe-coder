@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/mcp
+  - artifact/mcp-server
+  - source/mcp-servers
+---
+
 # Volcengine Model Purchase Guide
 
 This guide introduces how to purchase and configure the model services required by OpenViking on Volcengine.
@@ -281,3 +288,9 @@ Error: Connection timeout
 | Doubao-Embedding-Vision | `doubao-embedding-vision-250615` | 2025-06-15 |
 
 > Note: Model versions may be updated, please refer to the Volcano Ark Console for the latest information.
+
+## 🔗 Связи
+
+- [[MOC - MCP Servers]] — mcp-servers
+- [[000 - Map of Maps]] — Map of Maps
+

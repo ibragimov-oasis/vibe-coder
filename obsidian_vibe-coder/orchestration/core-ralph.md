@@ -49,3 +49,9 @@ prd.json (требования)
 
 - [[orchestration/core-taskmaster]] — Task Master: управление задачами
 - [[orchestration/core-archon]] — Archon: YAML workflow
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Parent MOC
+- [[000 - Map of Maps]] — Map of Maps
+

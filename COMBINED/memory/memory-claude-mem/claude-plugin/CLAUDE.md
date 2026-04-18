@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/memory
+  - artifact/memory
+  - source/memory
+---
+
 <claude-mem-context>
 # Recent Activity
 
@@ -134,3 +141,9 @@
 | #27553 | " | ✅ | Version consistency verified across all configuration files | ~195 |
 | #27551 | 4:47 PM | ✅ | Marketplace.json version updated to 7.3.1 | ~207 |
 </claude-mem-context>
+
+## 🔗 Связи
+
+- [[MOC - Memory]] — memory
+- [[000 - Map of Maps]] — Map of Maps
+

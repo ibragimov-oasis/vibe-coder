@@ -39,3 +39,10 @@ import { Video } from "@remotion/media";
   trimAfter={10 * fps}
 />;
 ```
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/archon]] — Archon
+- [[000 - Map of Maps]] — Map of Maps
+

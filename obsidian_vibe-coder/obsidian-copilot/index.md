@@ -49,3 +49,9 @@ source: "../new_repos/obsidian-copilot/docs/index.md"
 - **Родительский MOC:** [[MOC - Skills]]
 - **MOC навыков Obsidian:** [[MOC - Skills]]
 - **Skills от obsidian-skills:** [[obsidian-skills/obsidian-markdown]]
+
+## 🔗 Связи
+
+- [[MOC - System]] — Parent MOC
+- [[000 - Map of Maps]] — Map of Maps
+

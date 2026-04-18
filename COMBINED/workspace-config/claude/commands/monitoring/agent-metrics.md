@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/config
+  - source/workspace-config
+---
+
 # agent-metrics
 
 View agent performance metrics.
@@ -23,3 +30,9 @@ npx claude-flow agent metrics --agent-id agent-001
 # Last hour
 npx claude-flow agent metrics --period 1h
 ```
+
+## 🔗 Связи
+
+- [[MOC - System]] — workspace-config
+- [[000 - Map of Maps]] — Map of Maps
+

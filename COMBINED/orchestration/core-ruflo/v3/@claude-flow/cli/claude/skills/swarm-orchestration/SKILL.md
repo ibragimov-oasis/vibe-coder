@@ -181,3 +181,10 @@ npx agentic-flow hooks session-restore --session-id "swarm-001"
 - Swarm Guide: docs/swarm/orchestration.md
 - Topology Patterns: docs/swarm/topologies.md
 - Hooks Integration: docs/hooks/coordination.md
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

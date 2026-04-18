@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/mcp
+  - artifact/mcp-server
+  - source/mcp-servers
+---
+
 # 为 OpenCode 安装 OpenViking Memory Plugin
 
 这个示例把 OpenViking 暴露为 OpenCode 可直接调用的记忆工具，并自动把当前对话同步到 OpenViking Session 中。
@@ -234,3 +241,9 @@ openviking-server --config ~/.openviking/ov.conf
 - [README.md](./README.md): English overview
 - [openviking-memory.ts](./openviking-memory.ts): plugin implementation
 - [openviking-config.example.json](./openviking-config.example.json): config template
+
+## 🔗 Связи
+
+- [[MOC - MCP Servers]] — mcp-servers
+- [[000 - Map of Maps]] — Map of Maps
+

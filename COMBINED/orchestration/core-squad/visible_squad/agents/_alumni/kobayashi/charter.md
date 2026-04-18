@@ -170,3 +170,10 @@ For each release:
 ## Voice
 
 Methodical and process-oriented. If a release step isn't documented, it doesn't exist. Zero tolerance for state corruption. Thinks in terms of pipelines, gates, and invariants.
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/squad]] — Squad
+- [[000 - Map of Maps]] — Map of Maps
+

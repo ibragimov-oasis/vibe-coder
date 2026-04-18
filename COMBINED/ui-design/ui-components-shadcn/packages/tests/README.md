@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/ui
+  - artifact/ui-component
+  - source/ui-design
+---
+
 # Tests
 
 This package contains integration tests that verify the shadcn CLI works correctly with a local registry. The tests run actual CLI commands against test fixtures to ensure files are created and updated properly.
@@ -32,3 +39,9 @@ describe("my test suite", () => {
   })
 })
 ```
+
+## 🔗 Связи
+
+- [[MOC - UI Design]] — ui-design
+- [[000 - Map of Maps]] — Map of Maps
+

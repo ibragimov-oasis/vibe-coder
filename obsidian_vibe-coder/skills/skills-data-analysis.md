@@ -40,3 +40,9 @@ source: "../COMBINED/skills/skills-data-analysis/"
 
 - [[mcp-servers/mcp-toolbox]] — 20+ databases
 - [[skills/skills-research]] — исследовательские skills
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Parent MOC
+- [[000 - Map of Maps]] — Map of Maps
+

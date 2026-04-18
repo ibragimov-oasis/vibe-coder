@@ -39,3 +39,9 @@ source: "../COMBINED/agents/by-role/reviewer/"
 - **MOC:** [[MOC - Agents]]
 - **Мета-агент:** [[agents/mega-reviewer]]
 - **Code Review Graph:** [[mcp-servers/mcp-code-review-graph]]
+
+## 🔗 Связи
+
+- [[MOC - Agents]] — Parent MOC
+- [[000 - Map of Maps]] — Map of Maps
+

@@ -184,4 +184,11 @@ Future enhancements could include:
 - Performance benchmarking for framework integrations
 - Integration with external framework test suites
 - Notification systems for framework test failures
-- Framework version compatibility testing 
+- Framework version compatibility testing
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/praisonai]] — PraisonAI
+- [[000 - Map of Maps]] — Map of Maps
+

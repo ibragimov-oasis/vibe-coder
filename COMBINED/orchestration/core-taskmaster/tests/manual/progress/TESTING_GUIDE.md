@@ -102,3 +102,10 @@ npm test
     "projectRoot": "/path/to/project"
   }
 }
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/task-master]] — Task-Master
+- [[000 - Map of Maps]] — Map of Maps
+

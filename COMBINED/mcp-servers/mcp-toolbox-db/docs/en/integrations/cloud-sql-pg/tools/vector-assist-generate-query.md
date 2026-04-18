@@ -6,6 +6,10 @@ description: >
   The "vector-assist-generate-query" tool produces optimized SQL queries for
   vector search, leveraging metadata and specifications to enable semantic
   and similarity searches.
+tags:
+  - domain/mcp
+  - artifact/mcp-server
+  - source/mcp-servers
 ---
 
 ## About
@@ -63,3 +67,9 @@ description: "This tool generates optimized SQL queries for vector search by lev
 | type        |  string  |     true     | Must be "vector-assist-generate-query".                 |
 | source      |  string  |     true     | Name of the source the SQL should execute on.        |
 | description |  string  |    false     | Description of the tool that is passed to the agent. |
+
+## 🔗 Связи
+
+- [[MOC - MCP Servers]] — mcp-servers
+- [[000 - Map of Maps]] — Map of Maps
+

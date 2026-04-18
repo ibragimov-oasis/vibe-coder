@@ -53,3 +53,10 @@ Research mode typically:
 - Complex requirements
 - Regulatory compliance needed
 - Best practices crucial
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/task-master]] — Task-Master
+- [[000 - Map of Maps]] — Map of Maps
+

@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/mcp
+  - artifact/mcp-server
+  - source/mcp-servers
+---
+
 # Features
 
 ## v2.2.1 (Current)
@@ -128,3 +135,9 @@
 - Graph stored in `.code-review-graph/graph.db` (SQLite), auto-gitignored
 - No telemetry, no network calls
 - Respects `.gitignore` and `.code-review-graphignore`
+
+## 🔗 Связи
+
+- [[MOC - MCP Servers]] — mcp-servers
+- [[000 - Map of Maps]] — Map of Maps
+

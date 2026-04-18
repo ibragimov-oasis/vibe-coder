@@ -147,3 +147,10 @@ tags:
 - **浅层接受** — 不探查就接受模糊回答
 - **过早约束** — 还不理解想法就问技术栈
 - **用户技能** — 绝不问用户的技术经验。Claude 来构建。
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/gsd]] — GSD
+- [[000 - Map of Maps]] — Map of Maps
+

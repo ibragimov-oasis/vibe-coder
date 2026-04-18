@@ -842,3 +842,10 @@ Integrating sql.js as a fallback provider for Claude-Flow is **highly recommende
 **Research completed**: 2026-01-03
 **Researcher**: Claude Code Agent (Research Specialist)
 **Status**: Ready for implementation
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

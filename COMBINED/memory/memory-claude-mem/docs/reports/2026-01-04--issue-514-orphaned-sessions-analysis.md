@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/memory
+  - artifact/memory
+  - source/memory
+---
+
 # Issue #514: Orphaned Observer Session Files Analysis
 
 **Date:** January 4, 2026
@@ -290,3 +297,9 @@ Issue #514 was correctly diagnosed. The fix in commit 9a7f662 was the right appr
 | 005b0f8 | NULL-based initialization pattern (current) |
 | d72a81e | Queue refactoring (related to #520) |
 | eb1a78b | Claim-and-delete pattern (fixes #520) |
+
+## 🔗 Связи
+
+- [[MOC - Memory]] — memory
+- [[000 - Map of Maps]] — Map of Maps
+

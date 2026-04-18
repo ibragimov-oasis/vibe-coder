@@ -202,3 +202,10 @@ git commit -F $msgFile
 - ❌ Trusting agents to "know better" — enforce at multiple layers (prompt, hook, architecture)
 - ❌ Writing secrets to "temporary" files in `.squad/` — Scribe commits ALL `.squad/` changes
 - ❌ Extracting "just the host" from a connection string — still leaks infrastructure topology
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/squad]] — Squad
+- [[000 - Map of Maps]] — Map of Maps
+

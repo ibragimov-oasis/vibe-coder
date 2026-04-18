@@ -111,3 +111,10 @@ Create SUMMARY.md with:
 - SUMMARY.md created with substantive content
 - Deviations tracked and documented
 </success_criteria>
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/gsd]] — GSD
+- [[000 - Map of Maps]] — Map of Maps
+

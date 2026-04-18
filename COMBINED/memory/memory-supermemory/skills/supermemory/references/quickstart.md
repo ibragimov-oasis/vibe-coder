@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/memory
+  - artifact/memory
+  - source/memory
+---
+
 # Supermemory Quickstart Guide
 
 Get up and running with Supermemory in under 5 minutes.
@@ -291,3 +298,9 @@ const recommendations = generateRecommendations(profile);
 - **Documentation**: [supermemory.ai/docs](https://supermemory.ai/docs)
 - **Console**: [console.supermemory.ai](https://console.supermemory.ai)
 - **GitHub**: [github.com/supermemoryai/supermemory](https://github.com/supermemoryai/supermemory)
+
+## 🔗 Связи
+
+- [[MOC - Memory]] — memory
+- [[000 - Map of Maps]] — Map of Maps
+

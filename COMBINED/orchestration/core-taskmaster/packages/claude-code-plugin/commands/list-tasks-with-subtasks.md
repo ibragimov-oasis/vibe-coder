@@ -34,3 +34,10 @@ Based on the task hierarchy:
 - Indicate critical path items
 
 This gives you a complete tree view of your project structure.
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/task-master]] — Task-Master
+- [[000 - Map of Maps]] — Map of Maps
+

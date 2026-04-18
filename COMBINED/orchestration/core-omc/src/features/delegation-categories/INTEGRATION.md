@@ -319,3 +319,10 @@ See `test-categories.ts` for comprehensive examples of:
 - Explicit control
 - Prompt enhancement
 - Backward compatibility
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/omc]] — OMC
+- [[000 - Map of Maps]] — Map of Maps
+

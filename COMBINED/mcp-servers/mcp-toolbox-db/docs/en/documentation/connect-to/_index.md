@@ -4,6 +4,10 @@ type: docs
 weight: 4
 description: >
   Learn how to connect your applications, AI agents, CLIs, and IDEs to MCP Toolbox.
+tags:
+  - domain/mcp
+  - artifact/mcp-server
+  - source/mcp-servers
 ---
 
 Once your MCP Toolbox server is configured and running, the next step is putting those tools to work. Because MCP Toolbox is built on the Model Context Protocol (MCP), it acts as a universal control plane that can be consumed by a wide variety of clients.
@@ -33,3 +37,9 @@ By connecting the Toolbox directly to an MCP-compatible IDE, your AI coding assi
 *   **[IDEs](ides/_index.md)**: Guide for connecting your IDE to AlloyDB instances.
 
 ## Available Connection Methods
+
+## 🔗 Связи
+
+- [[MOC - MCP Servers]] — mcp-servers
+- [[000 - Map of Maps]] — Map of Maps
+

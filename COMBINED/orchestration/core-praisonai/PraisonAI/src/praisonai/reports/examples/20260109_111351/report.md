@@ -44,3 +44,10 @@ ValueError: fail
 ```
 
 **Logs**: `logs/a_fail.stderr.log`
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/praisonai]] — PraisonAI
+- [[000 - Map of Maps]] — Map of Maps
+

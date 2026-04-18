@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/config
+  - source/workspace-config
+---
+
 # Dual-Mode Skills (Claude Code + Codex)
 
 Optional skills for orchestrating Claude Code and headless Codex workers together.
@@ -69,3 +76,9 @@ All workers share memory via claude-flow MCP tools for seamless coordination.
 
 Skills are pre-installed in `COMBINED/workspace-config/claude/skills/dual-mode/`.
 Invoke with `/skill-name` in Claude Code.
+
+## 🔗 Связи
+
+- [[MOC - System]] — workspace-config
+- [[000 - Map of Maps]] — Map of Maps
+

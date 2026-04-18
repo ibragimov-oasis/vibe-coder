@@ -45,3 +45,9 @@ Step 2 основного пайплайна ULTRACAR (после Background Age
 
 - [[mcp-servers/mcp-supermemory]] — куда Hermes сохраняет
 - [[orchestration/core-refly]] — Refly: визуализирует результаты Hermes
+
+## 🔗 Связи
+
+- [[MOC - MCP Servers]] — Parent MOC
+- [[000 - Map of Maps]] — Map of Maps
+

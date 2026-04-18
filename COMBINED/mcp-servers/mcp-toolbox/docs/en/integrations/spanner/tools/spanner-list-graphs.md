@@ -5,6 +5,10 @@ weight: 3
 description: >
   A "spanner-list-graphs" tool retrieves schema information about graphs in a
   Google Cloud Spanner database.
+tags:
+  - domain/mcp
+  - artifact/mcp-server
+  - source/mcp-servers
 ---
 
 ## About
@@ -279,3 +283,9 @@ description: |
 - This tool is read-only and does not modify any data
 - The tool only works for the GoogleSQL source dialect
 - Large databases with many graphs may take longer to query
+
+## 🔗 Связи
+
+- [[MOC - MCP Servers]] — mcp-servers
+- [[000 - Map of Maps]] — Map of Maps
+

@@ -102,3 +102,10 @@ High-level summary with:
 - Success probability
 
 Result: Data-driven decisions with clear action paths.
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/task-master]] — Task-Master
+- [[000 - Map of Maps]] — Map of Maps
+

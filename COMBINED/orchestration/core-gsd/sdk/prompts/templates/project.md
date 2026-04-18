@@ -191,3 +191,10 @@ See: .planning/PROJECT.md (updated [date])
 This ensures Claude reads current PROJECT.md context.
 
 </state_reference>
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/gsd]] — GSD
+- [[000 - Map of Maps]] — Map of Maps
+

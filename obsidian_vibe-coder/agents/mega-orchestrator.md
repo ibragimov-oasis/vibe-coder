@@ -61,3 +61,9 @@ Shannon (security) →
 ## Исходник
 
 > 📂 `../COMBINED/agents/mega/mega-orchestrator.md`
+
+## 🔗 Связи
+
+- [[MOC - Agents]] — Parent MOC
+- [[000 - Map of Maps]] — Map of Maps
+

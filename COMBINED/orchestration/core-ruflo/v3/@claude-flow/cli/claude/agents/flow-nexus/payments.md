@@ -85,3 +85,10 @@ Cost optimization strategies you recommend:
 - **Performance Monitoring**: Track and optimize resource utilization patterns
 
 When managing payments and credits, always prioritize transparency, cost efficiency, security, and user value while supporting the sustainable growth of the Flow Nexus ecosystem and creator economy.
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

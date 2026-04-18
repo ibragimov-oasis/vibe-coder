@@ -195,3 +195,10 @@ Execute Phase 1 to refactor the core implementation:
 ```bash
 npx claude-flow sparc run code "Refactor index.js to server.js for REST API: change resource from items to tasks, add API versioning /api/v1/, update data model with title/completed/timestamps" --non-interactive
 ```
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

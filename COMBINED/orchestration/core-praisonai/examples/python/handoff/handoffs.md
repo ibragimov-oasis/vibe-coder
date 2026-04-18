@@ -172,3 +172,10 @@ The handoff feature is fully backward compatible:
 - Existing agents work without modification
 - The `handoffs` parameter is optional
 - All existing agent functionality is preserved
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/praisonai]] — PraisonAI
+- [[000 - Map of Maps]] — Map of Maps
+

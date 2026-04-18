@@ -49,3 +49,9 @@ source: "../COMBINED/mcp-servers/mcp-openviking/"
 
 - [[root-docs/MEMORY_SETUP]] — настройка памяти
 - [[mcp-servers/mcp-supermemory]] — долгосрочная память
+
+## 🔗 Связи
+
+- [[MOC - MCP Servers]] — Parent MOC
+- [[000 - Map of Maps]] — Map of Maps
+

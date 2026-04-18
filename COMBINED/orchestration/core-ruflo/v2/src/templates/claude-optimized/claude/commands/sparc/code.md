@@ -161,3 +161,10 @@ await batchtools.modifyFiles([
   { path: '/src/services/token.service.ts', modifications: tokenServiceRefactoring },
 ]);
 ```
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

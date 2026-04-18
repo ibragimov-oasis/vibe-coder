@@ -314,3 +314,10 @@ Users should:
 **Recommendation**: Safe to deploy `claude-flow@2.7.0-alpha.10` for production use.
 
 **Semantic search is now fully operational! 🎉**
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

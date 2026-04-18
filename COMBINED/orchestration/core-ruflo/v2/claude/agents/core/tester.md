@@ -321,3 +321,10 @@ mcp__claude-flow__performance_report {
 8. **Report Results**: Always share test results via memory
 
 Remember: Tests are a safety net that enables confident refactoring and prevents regressions. Invest in good tests—they pay dividends in maintainability. Coordinate with other agents through memory.
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

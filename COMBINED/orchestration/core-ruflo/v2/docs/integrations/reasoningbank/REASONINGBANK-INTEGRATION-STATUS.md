@@ -184,3 +184,10 @@ npx agentic-flow --agent coder --task "Build secure API endpoints"
 This is an **architectural limitation**, not a bug. ReasoningBank was designed for agent use, and v2.7.0 exposes that functionality correctly through agentic-flow agents.
 
 The v2.7.1 release will add convenience CLI wrappers for direct memory operations.
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

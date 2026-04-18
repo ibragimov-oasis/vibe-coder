@@ -90,3 +90,10 @@ Focus: Polish beyond MVP, performance optimizations, wow moments.
 - **Wave A completion:** All 17 polish items in main branch, users report "feels polished"
 - **No regressions:** Speed gate tests pass, all P0 tests green
 - **Team velocity:** 4-5 PRs per day, mean review time <1 hour
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/squad]] — Squad
+- [[000 - Map of Maps]] — Map of Maps
+

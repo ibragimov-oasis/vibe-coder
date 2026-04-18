@@ -90,3 +90,10 @@ A `/squad ask "question"` command in issue comments that triggers Squad to respo
 - **Use issues for anything that needs code.** Copilot Chat answers questions; issues drive work.
 - **Include context in your question.** Remote paths don't have your local state. Be specific about which files, features, or branches you mean.
 - **Check the default branch.** All remote paths currently read `main` (or whatever the repo's default branch is). If you're asking about unreleased work, mention the branch explicitly.
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/squad]] — Squad
+- [[000 - Map of Maps]] — Map of Maps
+

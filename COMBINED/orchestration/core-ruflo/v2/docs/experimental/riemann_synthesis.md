@@ -282,3 +282,10 @@ The quest for mathematical truth continues, armed now with powerful new weapons 
 *"Mathematics is the music of reason."* - James Joseph Sylvester
 
 **The GOAP-powered mathematical quest begins now.**
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

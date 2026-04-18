@@ -516,3 +516,10 @@ AFTER (correct):
   onDragEnd → compute position from local order → mutate → isDragging=false → TQ catches up → local follows
   Problem: none — single source of truth during drag (local), single source of truth between drags (TQ)
 ```
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/multica]] — Multica
+- [[000 - Map of Maps]] — Map of Maps
+

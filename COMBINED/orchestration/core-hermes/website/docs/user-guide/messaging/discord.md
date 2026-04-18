@@ -374,5 +374,9 @@ Always set `DISCORD_ALLOWED_USERS` to restrict who can interact with the bot. Wi
 
 For more information on securing your Hermes Agent deployment, see the [Security Guide](../security.md).
 
+## 🔗 Связи
 
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/hermes]] — Hermes
+- [[000 - Map of Maps]] — Map of Maps
 

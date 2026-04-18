@@ -17,6 +17,15 @@ This is a comprehensive design language for a mindfulness and wellness applicati
 - **Buttons**: Rounded (12px), subtle hover shadow (4px blur).
 - **Cards**: Minimal border (1px, #e2e8f0), soft shadow (8px elevation).
 - **Navigation**: Clean, top-aligned, centered menu items.
-
+tags:
+  - domain/ui
+  - artifact/ui-component
+  - source/ui-design
 ---
 💡 **Tip**: When calling `generate_screen_from_text`, include the tokens above to ensure the new screen matches this design system.
+
+## 🔗 Связи
+
+- [[MOC - UI Design]] — ui-design
+- [[000 - Map of Maps]] — Map of Maps
+

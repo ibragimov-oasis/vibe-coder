@@ -153,3 +153,10 @@ export const Title: React.FC<{ text: string }> = ({ text }) => {
   );
 };
 ```
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/archon]] — Archon
+- [[000 - Map of Maps]] — Map of Maps
+

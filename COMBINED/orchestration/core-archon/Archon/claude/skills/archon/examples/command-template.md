@@ -59,3 +59,10 @@ Provide a concise summary to the user:
 2. Key findings or decisions
 3. Any blockers or warnings
 4. Next steps (if part of a multi-step workflow)
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/archon]] — Archon
+- [[000 - Map of Maps]] — Map of Maps
+

@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/mcp
+  - artifact/mcp-server
+  - source/mcp-servers
+---
+
 # Type Resolution System
 
 GitNexus's type resolution system maps variables to likely declared types across the supported languages so the ingestion pipeline can perform **receiver-constrained call resolution**.
@@ -488,3 +495,9 @@ When modifying this system, treat the following as load-bearing invariants:
 
 5. **Return-type-aware inference already exists in constrained form**  
    Future roadmap work should extend and generalize it rather than reintroduce it from scratch.
+
+## 🔗 Связи
+
+- [[MOC - MCP Servers]] — mcp-servers
+- [[000 - Map of Maps]] — Map of Maps
+

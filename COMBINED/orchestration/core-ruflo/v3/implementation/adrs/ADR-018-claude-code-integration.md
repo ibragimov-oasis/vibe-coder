@@ -693,3 +693,10 @@ This simplifies the Claude Code integration setup from multiple commands to a si
 **Status:** ✅ Complete
 **Completed:** 2026-01-07
 **Last Updated:** 2026-01-08
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

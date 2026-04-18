@@ -192,3 +192,10 @@ result = agent.start("task")</code></pre>
 # Then set category:
 praisonaiwp update <ID> --category "PraisonAI"
 ```
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/praisonai]] — PraisonAI
+- [[000 - Map of Maps]] — Map of Maps
+

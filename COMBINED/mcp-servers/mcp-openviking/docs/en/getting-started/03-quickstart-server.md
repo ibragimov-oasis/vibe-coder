@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/mcp
+  - artifact/mcp-server
+  - source/mcp-servers
+---
+
 # Quick Start: Server Mode
 
 Run OpenViking as a standalone HTTP server and connect from any client.
@@ -369,3 +376,9 @@ openviking find "who is Alice"
 - [Server Deployment](../guides/03-deployment.md) - Configuration, authentication, and deployment options
 - [API Overview](../api/01-overview.md) - Complete API reference
 - [Authentication](../guides/04-authentication.md) - Secure your server with API keys
+
+## 🔗 Связи
+
+- [[MOC - MCP Servers]] — mcp-servers
+- [[000 - Map of Maps]] — Map of Maps
+

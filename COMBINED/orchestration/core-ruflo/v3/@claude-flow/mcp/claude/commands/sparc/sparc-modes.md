@@ -179,3 +179,10 @@ npx claude-flow sparc run innovator "propose novel solutions"
 # 3. Documentation
 npx claude-flow sparc run documenter "document findings"
 ```
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

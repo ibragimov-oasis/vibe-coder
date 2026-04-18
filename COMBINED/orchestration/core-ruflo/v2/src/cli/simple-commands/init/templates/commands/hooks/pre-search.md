@@ -117,3 +117,10 @@ Returns JSON with:
 - `Glob` - File pattern tool
 - `memory search` - Memory queries
 - `cache manage` - Cache operations
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

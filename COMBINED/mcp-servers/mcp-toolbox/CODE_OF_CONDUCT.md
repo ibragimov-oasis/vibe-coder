@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/mcp
+  - artifact/mcp-server
+  - source/mcp-servers
+---
+
 # Code of Conduct
 
 ## Our Pledge
@@ -91,3 +98,9 @@ harassment or threats to anyone's safety, we may take action without notice.
 This Code of Conduct is adapted from the Contributor Covenant, version 1.4,
 available at
 <https://www.contributor-covenant.org/version/1/4/code-of-conduct.html>
+
+## 🔗 Связи
+
+- [[MOC - MCP Servers]] — mcp-servers
+- [[000 - Map of Maps]] — Map of Maps
+

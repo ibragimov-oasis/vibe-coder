@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/mcp
+  - artifact/mcp-server
+  - source/mcp-servers
+---
+
 # Data Encryption
 
 OpenViking provides transparent at-rest data encryption to ensure data security and isolation in multi-tenant environments.
@@ -218,3 +225,9 @@ See [Configuration Guide](../guides/01-configuration.md#encryption) for detailed
 - [Storage Architecture](./05-storage.md) - VikingFS and AGFS architecture
 - [Configuration Guide](../guides/01-configuration.md) - Encryption configuration details
 - [Technical Design](../../design/multi-tenant-file-encryption-desigin.md) - Encryption technical design
+
+## 🔗 Связи
+
+- [[MOC - MCP Servers]] — mcp-servers
+- [[000 - Map of Maps]] — Map of Maps
+

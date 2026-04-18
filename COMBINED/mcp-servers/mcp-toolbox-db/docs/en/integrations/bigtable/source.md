@@ -6,6 +6,10 @@ weight: 1
 description: >
   Bigtable is a low-latency NoSQL database service for machine learning, operational analytics, and user-facing operations. It's a wide-column, key-value store that can scale to billions of rows and thousands of columns. With Bigtable, you can replicate your data to regions across the world for high availability and data resiliency.
 no_list: true
+tags:
+  - domain/mcp
+  - artifact/mcp-server
+  - source/mcp-servers
 ---
 
 ## About
@@ -73,3 +77,9 @@ instance: "test-instance"
 | type      |  string  |     true     | Must be "bigtable".                                                           |
 | project   |  string  |     true     | Id of the GCP project that the cluster was created in (e.g. "my-project-id"). |
 | instance  |  string  |     true     | Name of the Bigtable instance.                                                |
+
+## 🔗 Связи
+
+- [[MOC - MCP Servers]] — mcp-servers
+- [[000 - Map of Maps]] — Map of Maps
+

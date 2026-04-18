@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/config
+  - source/workspace-config
+---
+
 # performance-report
 
 Generate comprehensive performance reports for swarm operations.
@@ -23,3 +30,9 @@ npx claude-flow analysis performance-report --compare swarm-123
 # Full metrics report
 npx claude-flow analysis performance-report --include-metrics --format markdown
 ```
+
+## 🔗 Связи
+
+- [[MOC - System]] — workspace-config
+- [[000 - Map of Maps]] — Map of Maps
+

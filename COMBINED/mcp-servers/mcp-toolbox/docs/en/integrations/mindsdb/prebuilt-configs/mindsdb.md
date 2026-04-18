@@ -2,6 +2,10 @@
 title: "MindsDB"
 type: docs
 description: "Details of the MindsDB prebuilt configuration."
+tags:
+  - domain/mcp
+  - artifact/mcp-server
+  - source/mcp-servers
 ---
 
 ## MindsDB
@@ -16,3 +20,9 @@ description: "Details of the MindsDB prebuilt configuration."
 *   **Tools:**
     *   `mindsdb-execute-sql`: Execute SQL queries directly on MindsDB database.
     *   `mindsdb-sql`: Execute parameterized SQL queries on MindsDB database.
+
+## 🔗 Связи
+
+- [[MOC - MCP Servers]] — mcp-servers
+- [[000 - Map of Maps]] — Map of Maps
+

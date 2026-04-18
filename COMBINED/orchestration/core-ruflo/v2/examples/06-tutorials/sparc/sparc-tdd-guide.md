@@ -274,3 +274,10 @@ You've learned:
 4. Integrate with CI/CD
 
 Continue to [Advanced SPARC Patterns](./sparc-advanced-patterns.md)
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

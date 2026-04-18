@@ -10,6 +10,10 @@ allowed-tools:
   - Grep
   - AskUserQuestion
   - Task
+tags:
+  - domain/skills
+  - artifact/command
+  - source/commands
 ---
 
 <objective>
@@ -44,3 +48,9 @@ The workflow handles all logic including:
 9. Sequential artifact generation
 10. Summary with refresh diff (if applicable)
 </process>
+
+## 🔗 Связи
+
+- [[MOC - System]] — commands
+- [[000 - Map of Maps]] — Map of Maps
+

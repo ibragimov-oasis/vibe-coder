@@ -4,6 +4,10 @@ type: docs
 weight: 1
 description: >
   A "firestore-delete-documents" tool deletes multiple documents from Firestore by their paths.
+tags:
+  - domain/mcp
+  - artifact/mcp-server
+  - source/mcp-servers
 ---
 
 ## About
@@ -36,3 +40,9 @@ description: Use this tool to delete multiple documents from Firestore.
 | type        |     string     |     true     | Must be "firestore-delete-documents".                    |
 | source      |     string     |     true     | Name of the Firestore source to delete documents from.   |
 | description |     string     |     true     | Description of the tool that is passed to the LLM.       |
+
+## 🔗 Связи
+
+- [[MOC - MCP Servers]] — mcp-servers
+- [[000 - Map of Maps]] — Map of Maps
+

@@ -248,3 +248,10 @@ Common issues and solutions:
 ## Conclusion
 
 Incremental updates are fundamental to Claude Flow's distributed architecture. By following these patterns and best practices, you can build reliable, scalable systems that track changes efficiently and maintain consistency across distributed components.
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

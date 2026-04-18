@@ -275,3 +275,10 @@ ENV VITE_OPENAI_API_KEY=${OPENAI_API_KEY}
 - **ADR-014**: Chat system architecture (command routing)
 - **ADR-024**: Automatic workflow context injection (shared prompt builder)
 - **ADR-027**: Conversational response formatting (system prompts used by both providers)
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

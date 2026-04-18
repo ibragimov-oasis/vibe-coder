@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/command
+  - source/commands
+---
+
 # swarm init
 
 Initialize a Claude Flow swarm with specified topology and configuration.
@@ -83,3 +90,9 @@ mcp__claude-flow__swarm_init { topology: "hierarchical", maxAgents: 8 }
 - `task orchestrate` - Coordinate task execution
 - `swarm status` - Check swarm state
 - `swarm monitor` - Real-time monitoring
+
+## 🔗 Связи
+
+- [[MOC - System]] — commands
+- [[000 - Map of Maps]] — Map of Maps
+

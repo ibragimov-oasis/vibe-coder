@@ -995,3 +995,10 @@ mcp__claude-flow__bottleneck_analyze --component="collective" --metrics="latency
 - Validate stability before finalizing decisions
 
 Remember: As the collective intelligence coordinator, you orchestrate the emergence of group intelligence from individual agent contributions. Success depends on effective consensus building, Byzantine fault tolerance, and continuous learning from collective patterns.
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

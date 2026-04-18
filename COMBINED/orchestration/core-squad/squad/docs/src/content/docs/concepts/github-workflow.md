@@ -279,3 +279,10 @@ Starts persistent local polling — checks GitHub every 5 minutes for new work a
 - [Your Team](./your-team.md) — How work routes to the right agent
 - [Work Routing](../features/routing.md) — Domain routing and agent assignment
 - [Parallel Work](./parallel-work.md) — Multi-agent parallel execution on batched issues
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/squad]] — Squad
+- [[000 - Map of Maps]] — Map of Maps
+

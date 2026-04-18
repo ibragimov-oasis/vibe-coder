@@ -121,3 +121,10 @@ Returns JSON with:
 - `Bash` - Command execution tool
 - `cache manage` - Cache operations
 - `metrics collect` - Performance data
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

@@ -46,3 +46,10 @@ Scan the QR code to follow our WeChat official account:
 Scan the QR code to join our Lark group:
 
 ![lark](/images/lark-qrcode.webp)
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/refly]] — Refly
+- [[000 - Map of Maps]] — Map of Maps
+

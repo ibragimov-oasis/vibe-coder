@@ -112,3 +112,10 @@ const prompt = createDelegationPrompt('LOW', 'Find all usages of deprecated API'
   ]
 });
 ```
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/omc]] — OMC
+- [[000 - Map of Maps]] — Map of Maps
+

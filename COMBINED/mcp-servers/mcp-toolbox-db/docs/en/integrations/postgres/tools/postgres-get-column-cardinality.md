@@ -4,6 +4,10 @@ type: docs
 weight: 1
 description: >
   The "postgres-get-column-cardinality" tool estimates the number of unique values in one or all columns of a Postgres database table.
+tags:
+  - domain/mcp
+  - artifact/mcp-server
+  - source/mcp-servers
 ---
 
 ## About
@@ -59,3 +63,9 @@ The response is a json array with the following elements:
 For accurate results, it's recommended to run `ANALYZE` on the table before using this
 tool. The `ANALYZE` command updates the database statistics that this tool relies on
 to estimate cardinality.
+
+## 🔗 Связи
+
+- [[MOC - MCP Servers]] — mcp-servers
+- [[000 - Map of Maps]] — Map of Maps
+

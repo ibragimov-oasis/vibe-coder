@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/ui
+  - artifact/ui-component
+  - source/ui-design
+---
+
 # HTML Slide Template
 
 Complete HTML structure with navigation, tokens, and Chart.js integration.
@@ -293,3 +300,9 @@ new Chart(document.getElementById('revenueChart'), {
 | `--primitive-gradient-primary` | Title gradients |
 | `--typography-font-heading` | Headlines |
 | `--typography-font-body` | Body text |
+
+## 🔗 Связи
+
+- [[MOC - UI Design]] — ui-design
+- [[000 - Map of Maps]] — Map of Maps
+

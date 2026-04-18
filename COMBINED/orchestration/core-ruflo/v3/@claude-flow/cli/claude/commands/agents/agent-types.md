@@ -218,3 +218,10 @@ npx claude-flow agent spawn -t <agent-type>
 - [agent-capabilities](./agent-capabilities.md) - Capability matrix
 - [agent-coordination](./agent-coordination.md) - Coordination patterns
 - [spawn](./spawn.md) - Spawn command details
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

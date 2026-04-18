@@ -227,3 +227,10 @@ Document the project.
 **Verify:**
 - README accurately describes the project
 - Instructions work
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/superpowers]] — Superpowers
+- [[000 - Map of Maps]] — Map of Maps
+

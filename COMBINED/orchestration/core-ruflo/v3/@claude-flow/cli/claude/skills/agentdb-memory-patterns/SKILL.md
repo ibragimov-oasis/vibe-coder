@@ -341,3 +341,10 @@ npx agentdb@latest migrate --source .swarm/memory.db
 - Documentation: node_modules/agentic-flow/docs/AGENTDB_INTEGRATION.md
 - MCP Integration: `npx agentdb@latest mcp` for Claude Code
 - Website: https://agentdb.ruv.io
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

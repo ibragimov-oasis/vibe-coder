@@ -58,3 +58,10 @@ Some prompt-time-only layers are intentionally excluded from persisted trajector
 
 - [Environments, Benchmarks & Data Generation](./environments.md)
 - [Agent Loop Internals](./agent-loop.md)
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/hermes]] — Hermes
+- [[000 - Map of Maps]] — Map of Maps
+

@@ -11,6 +11,10 @@ allowed-tools:
   - Grep
   - Task
   - AskUserQuestion
+tags:
+  - domain/skills
+  - artifact/command
+  - source/commands
 ---
 <objective>
 Audit Nyquist validation coverage for a completed phase. Three states:
@@ -33,3 +37,9 @@ Phase: $ARGUMENTS — optional, defaults to last completed phase.
 Execute @~/.claude/get-shit-done/workflows/validate-phase.md.
 Preserve all workflow gates.
 </process>
+
+## 🔗 Связи
+
+- [[MOC - System]] — commands
+- [[000 - Map of Maps]] — Map of Maps
+

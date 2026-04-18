@@ -4,6 +4,10 @@ type: docs
 weight: 3
 description: >
   MCP Toolbox SDK for integrating functionalities of MCP Toolbox into your LangChain/LangGraph apps.
+tags:
+  - domain/mcp
+  - artifact/mcp-server
+  - source/mcp-servers
 ---
 
 ## Overview
@@ -465,3 +469,9 @@ with ToolboxClient("http://127.0.0.1:5000", telemetry_enabled=True) as toolbox:
 ```
 
 Configure your OpenTelemetry `TracerProvider` and `MeterProvider` before creating the client. See the [toolbox-core OpenTelemetry documentation](https://mcp-toolbox.dev/documentation/connect-to/toolbox-sdks/python-sdk/core/#opentelemetry) for a full setup example.
+
+## 🔗 Связи
+
+- [[MOC - MCP Servers]] — mcp-servers
+- [[000 - Map of Maps]] — Map of Maps
+

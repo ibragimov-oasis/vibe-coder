@@ -516,4 +516,8 @@ Browse all: https://huggingface.co/models?library=tokenizers
 - **Course**: https://huggingface.co/learn/nlp-course/chapter6/1
 - **Paper**: BPE (Sennrich et al., 2016), WordPiece (Schuster & Nakajima, 2012)
 
+## 🔗 Связи
+
+- [[000 - Map of Maps]] — REPO_DOCS
+- [[000 - Map of Maps]] — Map of Maps
 

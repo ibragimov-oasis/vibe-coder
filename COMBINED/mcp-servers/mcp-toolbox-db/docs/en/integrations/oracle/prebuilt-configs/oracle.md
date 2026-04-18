@@ -2,6 +2,10 @@
 title: "Oracle"
 type: docs
 description: "Details of the Oracle prebuilt configuration."
+tags:
+  - domain/mcp
+  - artifact/mcp-server
+  - source/mcp-servers
 ---
 
 ## Oracle
@@ -25,3 +29,9 @@ description: "Details of the Oracle prebuilt configuration."
     *   `list_top_sql_by_resource`: Lists top SQL statements by resource usage.
     *   `list_tablespace_usage`: Lists tablespace usage.
     *   `list_invalid_objects`: Lists invalid objects.
+
+## 🔗 Связи
+
+- [[MOC - MCP Servers]] — mcp-servers
+- [[000 - Map of Maps]] — Map of Maps
+

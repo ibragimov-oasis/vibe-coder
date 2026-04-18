@@ -286,3 +286,10 @@ CI=true
 - [npm registry API](https://github.com/npm/registry/blob/master/docs/REGISTRY-API.md)
 - [semver specification](https://semver.org/)
 - [ADR-013: Core Security Module](./ADR-013-core-security-module.md)
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

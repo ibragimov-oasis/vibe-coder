@@ -915,3 +915,10 @@ The core remains **free and open source**. Clear upgrade paths to paid value:
 ---
 
 *This document is the source of truth for the PraisonAI SDK architecture and design principles.*
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/praisonai]] — PraisonAI
+- [[000 - Map of Maps]] — Map of Maps
+

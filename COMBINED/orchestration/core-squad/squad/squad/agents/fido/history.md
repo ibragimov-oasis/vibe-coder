@@ -230,3 +230,9 @@ Reviewed 9 community PRs (8 from tamirdresher, 1 from eric-vanartsdalen). Key fi
 
 **Learning:** Community contributors consistently struggle with two things: (a) scoped npm package names in changesets, and (b) monorepo file placement. Both are preventable with better contributor docs.
 
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/squad]] — Squad
+- [[000 - Map of Maps]] — Map of Maps
+

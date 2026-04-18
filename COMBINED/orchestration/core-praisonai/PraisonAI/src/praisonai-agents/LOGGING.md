@@ -197,3 +197,10 @@ See the updated modules for examples:
 4. **Production ready**: JSON output for log aggregation systems
 5. **Zero breaking changes**: Existing code continues to work unchanged
 6. **Performance conscious**: No import-time overhead for normal usage
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/praisonai]] — PraisonAI
+- [[000 - Map of Maps]] — Map of Maps
+

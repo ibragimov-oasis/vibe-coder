@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/mcp
+  - artifact/mcp-server
+  - source/mcp-servers
+---
+
 # Heartbeat Tasks
 
 This file is checked at regular intervals by your vikingbot agent.
@@ -13,4 +20,9 @@ If this file has no tasks (only headers and comments), the agent will skip the h
 ## Completed
 
 <!-- Move completed tasks here or delete them -->
+
+## 🔗 Связи
+
+- [[MOC - MCP Servers]] — mcp-servers
+- [[000 - Map of Maps]] — Map of Maps
 

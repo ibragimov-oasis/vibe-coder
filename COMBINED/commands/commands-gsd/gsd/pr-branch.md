@@ -6,6 +6,10 @@ allowed-tools:
   - Bash
   - Read
   - AskUserQuestion
+tags:
+  - domain/skills
+  - artifact/command
+  - source/commands
 ---
 
 <objective>
@@ -23,3 +27,9 @@ changes that are irrelevant to code review.
 <process>
 Execute the pr-branch workflow from @~/.claude/get-shit-done/workflows/pr-branch.md end-to-end.
 </process>
+
+## 🔗 Связи
+
+- [[MOC - System]] — commands
+- [[000 - Map of Maps]] — Map of Maps
+

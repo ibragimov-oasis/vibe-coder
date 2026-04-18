@@ -3,6 +3,10 @@ title: cloud-sql-create-backup
 type: docs
 weight: 10
 description: "Creates a backup on a Cloud SQL instance."
+tags:
+  - domain/mcp
+  - artifact/mcp-server
+  - source/mcp-servers
 ---
 
 ## About
@@ -45,3 +49,9 @@ description: "Creates a backup on the given Cloud SQL instance."
 - [Cloud SQL Admin API documentation](https://cloud.google.com/sql/docs/mysql/admin-api)
 - [Toolbox Cloud SQL tools documentation](../source.md)
 - [Cloud SQL Backup API documentation](https://cloud.google.com/sql/docs/mysql/backup-recovery/backups)
+
+## 🔗 Связи
+
+- [[MOC - MCP Servers]] — mcp-servers
+- [[000 - Map of Maps]] — Map of Maps
+

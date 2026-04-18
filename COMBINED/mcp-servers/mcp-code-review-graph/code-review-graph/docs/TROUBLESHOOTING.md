@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/mcp
+  - artifact/mcp-server
+  - source/mcp-servers
+---
+
 # Troubleshooting
 
 ## Quick reference for common install/setup problems
@@ -158,3 +165,9 @@ If a tool returns an ImportError, install the relevant optional group:
 - `pip install code-review-graph[eval]` for evaluation benchmarks (matplotlib)
 - `pip install code-review-graph[wiki]` for wiki LLM summaries (ollama)
 - `pip install code-review-graph[all]` for everything
+
+## 🔗 Связи
+
+- [[MOC - MCP Servers]] — mcp-servers
+- [[000 - Map of Maps]] — Map of Maps
+

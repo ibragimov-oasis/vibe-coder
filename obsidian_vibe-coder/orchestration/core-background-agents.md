@@ -48,3 +48,9 @@ Step 3: Shannon        → security audit
 
 - [[orchestration/core-hermes]] — следующий шаг после выполнения
 - [[orchestration/core-taskmaster]] — подготовка задач для выполнения
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Parent MOC
+- [[000 - Map of Maps]] — Map of Maps
+

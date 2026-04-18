@@ -42,3 +42,10 @@ The appendix provides diagnostic integrity. It lets anyone verify:
 - What was lost or changed in synthesis
 
 Without raw outputs, multi-agent collaboration is unauditable.
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/squad]] — Squad
+- [[000 - Map of Maps]] — Map of Maps
+

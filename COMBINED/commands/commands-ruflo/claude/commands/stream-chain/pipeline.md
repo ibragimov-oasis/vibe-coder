@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/command
+  - source/commands
+---
+
 # stream-chain pipeline
 
 Execute predefined pipelines for common development workflows.
@@ -119,3 +126,9 @@ Then run:
 ```bash
 claude-flow stream-chain pipeline security
 ```
+
+## 🔗 Связи
+
+- [[MOC - System]] — commands
+- [[000 - Map of Maps]] — Map of Maps
+

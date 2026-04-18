@@ -366,3 +366,10 @@ The V3 optimization implementation roadmap provides a comprehensive, risk-mitiga
 *Implementation Roadmap - Version 1.0*
 *Created: 2026-01-04*
 *Next Review: Weekly during implementation*
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

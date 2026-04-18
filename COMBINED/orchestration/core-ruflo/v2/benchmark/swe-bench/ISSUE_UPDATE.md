@@ -165,3 +165,10 @@ The SWE-Bench implementation is now complete and integrated into the Claude Flow
 
 *Last Updated: 2025-01-07*
 *Branch: swe-bench*
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

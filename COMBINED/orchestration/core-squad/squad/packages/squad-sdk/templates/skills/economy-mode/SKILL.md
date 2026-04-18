@@ -116,3 +116,10 @@ After updating economy mode state and including the `💰` indicator in spawn ac
 - **Don't silently apply economy mode.** Always acknowledge when activated or deactivated.
 - **Don't treat economy mode as permanent by default.** Session phrases activate session-only; only "always" or `config.json` persist it.
 - **Don't bump premium tasks down too far.** Architecture and security reviews shift from opus to sonnet in economy mode — they do NOT go to fast/cheap models.
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/squad]] — Squad
+- [[000 - Map of Maps]] — Map of Maps
+

@@ -59,3 +59,10 @@ npx claude-flow@alpha sparc run documenter "create API documentation"
 - Cross-reference management
 - Example generation
 - Diagram creation
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

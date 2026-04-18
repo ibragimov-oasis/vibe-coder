@@ -57,3 +57,10 @@ Provide a structured report with:
 - Be constructive and specific
 - Focus on making the document better for future readers/implementers
 - Prioritize issues that would cause confusion or implementation problems
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/archon]] — Archon
+- [[000 - Map of Maps]] — Map of Maps
+

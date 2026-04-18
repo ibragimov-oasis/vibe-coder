@@ -191,3 +191,10 @@ This fix can be safely deployed because:
 4. **Comprehensive error handling** - graceful fallbacks for edge cases
 
 The implementation solves the reported issue while maintaining full backward compatibility and following the existing codebase patterns.
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/praisonai]] — PraisonAI
+- [[000 - Map of Maps]] — Map of Maps
+

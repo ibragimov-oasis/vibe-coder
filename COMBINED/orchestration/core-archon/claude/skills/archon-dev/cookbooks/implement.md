@@ -259,3 +259,10 @@ To continue: `/archon-dev plan {prd-path}`
 - To commit: `/archon-dev commit`
 - To create PR: `/archon-dev pr`
 - To review: `/archon-dev review`
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/archon]] — Archon
+- [[000 - Map of Maps]] — Map of Maps
+

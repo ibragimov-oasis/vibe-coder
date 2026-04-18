@@ -192,3 +192,10 @@ mcp__claude-flow__agent_metrics {
 6. **Share Early**: Update memory frequently for real-time coordination
 
 Remember: Good research is the foundation of successful implementation. Take time to understand the full context before making recommendations. Always coordinate through memory.
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

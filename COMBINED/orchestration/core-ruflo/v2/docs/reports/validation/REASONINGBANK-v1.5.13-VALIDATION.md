@@ -240,3 +240,10 @@ The agentic-flow@1.5.13 integration is confirmed working with:
 **Validated by**: Claude Code
 **Validation Method**: Docker + Live Testing + Test Suite
 **Result**: **100% PASS** ✅
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/config
+  - source/workspace-config
+---
+
 # Antigravity Hooks
 
 > Lifecycle hooks for Antigravity plugins.
@@ -40,3 +47,9 @@ Hook patterns are derived from:
 - `Orchestration/oh-my-claudecode/hooks/`
 
 See those directories for example implementations.
+
+## 🔗 Связи
+
+- [[MOC - System]] — workspace-config
+- [[000 - Map of Maps]] — Map of Maps
+

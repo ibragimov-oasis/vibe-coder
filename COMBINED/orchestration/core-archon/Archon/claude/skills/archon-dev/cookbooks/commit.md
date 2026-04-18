@@ -132,3 +132,10 @@ Report:
 /archon-dev commit staged                   # Already-staged only
 /archon-dev commit the auth refactor        # Context-based targeting
 ```
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/archon]] — Archon
+- [[000 - Map of Maps]] — Map of Maps
+

@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/memory
+  - artifact/memory
+  - source/memory
+---
+
 # Changelog
 
 All notable changes to claude-mem.
@@ -1122,4 +1129,9 @@ This release contains a significant refactoring of `worker-service.ts`, removing
 - Added Anti-Pattern Czar Generalization Analysis report
 - Updated README with $CMEM links and contract address
 - Added comprehensive cleanup and validation plans for worker-service.ts
+
+## 🔗 Связи
+
+- [[MOC - Memory]] — memory
+- [[000 - Map of Maps]] — Map of Maps
 

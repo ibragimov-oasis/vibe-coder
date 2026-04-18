@@ -4,6 +4,10 @@ description: Add moments of joy, personality, and unexpected touches that make i
 version: 2.1.1
 user-invocable: true
 argument-hint: "[target]"
+tags:
+  - domain/ui
+  - artifact/ui-component
+  - source/ui-design
 ---
 
 Identify opportunities to add moments of joy, personality, and unexpected polish that transform functional interfaces into delightful experiences.
@@ -302,3 +306,9 @@ Test that delight actually delights:
 - **Accessible**: Works with reduced motion, screen readers
 
 Remember: Delight is the difference between a tool and an experience. Add personality, surprise users positively, and create moments worth sharing. But always respect usability - delight should enhance, never obstruct.
+
+## 🔗 Связи
+
+- [[MOC - UI Design]] — ui-design
+- [[000 - Map of Maps]] — Map of Maps
+

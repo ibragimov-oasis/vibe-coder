@@ -295,3 +295,9 @@ After a successful run, the user should have:
 - Hermes memory files populated with converted OpenClaw knowledge
 - OpenClaw skills available under `~/.hermes/skills/openclaw-imports/`
 - a migration report showing any conflicts, omissions, or unsupported data
+
+## 🔗 Связи
+
+- [[000 - Map of Maps]] — REPO_DOCS
+- [[000 - Map of Maps]] — Map of Maps
+

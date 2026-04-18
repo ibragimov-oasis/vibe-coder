@@ -3,6 +3,10 @@ title: cloud-sql-postgres-create-instance
 type: docs
 weight: 10
 description: Create a Cloud SQL for PostgreSQL instance.
+tags:
+  - domain/mcp
+  - artifact/mcp-server
+  - source/mcp-servers
 ---
 
 ## About
@@ -43,3 +47,9 @@ description: "Creates a Postgres instance using `Production` and `Development` p
 | databaseVersion |  string  |    false     | The database version for Postgres. If not specified, defaults to the latest available version (e.g., POSTGRES_17).                                       |
 | rootPassword    |  string  |     true     | The root password for the instance.                                                                                                                      |
 | editionPreset   |  string  |    false     | The edition of the instance. Can be `Production` or `Development`. This determines the default machine type and availability. Defaults to `Development`. |
+
+## 🔗 Связи
+
+- [[MOC - MCP Servers]] — mcp-servers
+- [[000 - Map of Maps]] — Map of Maps
+

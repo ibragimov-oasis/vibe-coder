@@ -224,3 +224,10 @@ Opens the existing PR instead of creating a duplicate.
 1. Check if branch exists remotely: `git ls-remote --heads origin [branch]`
 2. If conflicts: `git pull --rebase origin $BASE_BRANCH` then retry push
 3. If permission issues: Check GitHub access
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/archon]] — Archon
+- [[000 - Map of Maps]] — Map of Maps
+

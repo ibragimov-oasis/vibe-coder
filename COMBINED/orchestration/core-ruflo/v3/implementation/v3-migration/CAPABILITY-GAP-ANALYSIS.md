@@ -313,3 +313,10 @@ The following packages could benefit from adding domain/application layers (curr
 - Optional DDD layer refinement for utility packages
 - Advanced features (SPARC CLI, GitHub CLI)
 - Documentation completion
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

@@ -6,6 +6,10 @@ weight: 1
 description: >
   MariaDB is an open-source relational database compatible with MySQL.
 no_list: true
+tags:
+  - domain/mcp
+  - artifact/mcp-server
+  - source/mcp-servers
 ---
 ## About
 
@@ -62,3 +66,9 @@ Use environment variables instead of committing credentials to source files.
 | password     |  string  |     true     | Password of the MariaDB user (e.g. "my-password").                                                |
 | queryTimeout |  string  |    false     | Maximum time to wait for query execution (e.g. "30s", "2m"). By default, no timeout is applied. |
 | queryParams | map<string,string> | false | Arbitrary DSN parameters passed to the driver (e.g. `tls: preferred`, `charset: utf8mb4`). Useful for enabling TLS or other connection options. |
+
+## 🔗 Связи
+
+- [[MOC - MCP Servers]] — mcp-servers
+- [[000 - Map of Maps]] — Map of Maps
+

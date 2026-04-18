@@ -119,3 +119,10 @@ archon complete <branch-name>
 - [Authoring Workflows](/guides/authoring-workflows/) -- Create your own multi-step workflows
 - [Authoring Commands](/guides/authoring-commands/) -- Write effective prompt templates
 - [Variable Reference](/reference/variables/) -- All supported variables
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/archon]] — Archon
+- [[000 - Map of Maps]] — Map of Maps
+

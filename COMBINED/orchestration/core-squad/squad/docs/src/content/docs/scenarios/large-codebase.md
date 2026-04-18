@@ -225,3 +225,10 @@ Agents load only the specified file and its immediate dependencies.
 - **History archiving happens automatically.** The Scribe moves old session logs to the archive, keeping current histories lean.
 - **Be explicit on monorepos.** In a 10-service monorepo, tell agents which service they're working on. Don't let them wander.
 - **Agent context is isolated.** Frontend agents don't load backend code. Backend agents don't load frontend code. This is the key to scaling.
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/squad]] — Squad
+- [[000 - Map of Maps]] — Map of Maps
+

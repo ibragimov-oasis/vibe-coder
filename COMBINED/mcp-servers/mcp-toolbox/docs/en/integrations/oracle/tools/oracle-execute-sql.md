@@ -4,6 +4,10 @@ type: docs
 weight: 1
 description: > 
   An "oracle-execute-sql" tool executes a SQL statement against an Oracle database.
+tags:
+  - domain/mcp
+  - artifact/mcp-server
+  - source/mcp-servers
 ---
 
 ## About
@@ -30,3 +34,9 @@ type: oracle-execute-sql
 source: my-oracle-instance
 description: Use this tool to execute sql statement.
 ```
+
+## 🔗 Связи
+
+- [[MOC - MCP Servers]] — mcp-servers
+- [[000 - Map of Maps]] — Map of Maps
+

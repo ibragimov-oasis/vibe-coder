@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/combined-root
+---
+
 # Phase 2 Complete: Systematic File Migration
 
 ## Summary
@@ -258,3 +265,8 @@ TOTAL           : 31,122 files
 **Generated**: 2026-04-03
 **Branch**: `claude/move-files-to-combined-structure`
 **INDEX File**: `COMBINED/INDEX_MOVEMENTS.json` (updated to Phase 2)
+
+## 🔗 Связи
+
+- [[000 - Map of Maps]] — Map of Maps
+

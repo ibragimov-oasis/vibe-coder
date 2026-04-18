@@ -292,3 +292,10 @@ treat them like passwords.
 - Rotate tokens periodically via the Slack app settings
 - Audit who has access to your Hermes config directory
 - Socket Mode means no public endpoint is exposed — one less attack surface
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/hermes]] — Hermes
+- [[000 - Map of Maps]] — Map of Maps
+

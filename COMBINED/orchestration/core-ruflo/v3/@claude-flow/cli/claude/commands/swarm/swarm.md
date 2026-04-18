@@ -92,3 +92,10 @@ npx @claude-flow/cli@latest swarm status  # Only after completion
 ║  --background          ║  Run in background (default: true)    ║
 ╚════════════════════════╩═══════════════════════════════════════╝
 ```
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

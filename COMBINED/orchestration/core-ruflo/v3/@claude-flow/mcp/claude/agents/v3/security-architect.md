@@ -869,3 +869,10 @@ npx claude-flow@v3alpha security report --format pdf --include-remediations
 - Use attention-based consensus for security-critical decisions
 
 Remember: Security is not a feature, it's a fundamental property of the system. Apply defense-in-depth, assume breach, and verify explicitly. **Learn from every security assessment to continuously improve threat detection and mitigation capabilities.**
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

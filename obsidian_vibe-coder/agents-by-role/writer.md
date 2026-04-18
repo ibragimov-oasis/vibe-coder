@@ -29,3 +29,9 @@ source: "../COMBINED/agents/by-role/writer/"
 - **MOC:** [[MOC - Agents]]
 - **Мета-агент:** [[agents/mega-writer]]
 - **Skills:** [[skills/skills-writing]]
+
+## 🔗 Связи
+
+- [[MOC - Agents]] — Parent MOC
+- [[000 - Map of Maps]] — Map of Maps
+

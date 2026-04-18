@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/root
+---
+
 # 🔧 HOW_TO_COMBINE.md — Guide for AI Agents Adding New Repos
 
 > Instructions for any AI agent tasked with adding a new repository to the Vibe-Coder Arsenal.
@@ -310,3 +317,8 @@ Use this comment block when adding content from a new repo:
 ---
 
 *Part of the [Vibe-Coder Arsenal](https://github.com/ibragimov-oasis/vibe-coder) — Instructions for AI agents.*
+
+## 🔗 Связи
+
+- [[000 - Map of Maps]] — Map of Maps
+

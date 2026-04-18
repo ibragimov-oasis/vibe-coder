@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/mcp
+  - artifact/mcp-server
+  - source/mcp-servers
+---
+
 INVENTORY RECONCILIATION REPORT
 Report ID: SPARSE-2024-INV-1234
 Warehouse: Distribution Center East
@@ -42,3 +49,9 @@ Recommendations:
 1. Immediate review of SKU-4563 handling procedures. 2. Implement additional verification for critical
 items. 3. Schedule follow-up audit for high-value products (SKU-6678, SKU-2234).
 Approval:
+
+## 🔗 Связи
+
+- [[MOC - MCP Servers]] — mcp-servers
+- [[000 - Map of Maps]] — Map of Maps
+

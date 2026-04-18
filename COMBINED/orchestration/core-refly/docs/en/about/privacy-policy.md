@@ -228,3 +228,9 @@ We respond to urgent privacy requests within **72 hours**.
 
 ---
 
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/refly]] — Refly
+- [[000 - Map of Maps]] — Map of Maps
+

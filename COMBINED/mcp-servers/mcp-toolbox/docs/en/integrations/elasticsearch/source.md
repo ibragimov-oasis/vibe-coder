@@ -8,6 +8,10 @@ description: >
   for all types of data, including textual, numerical, geospatial, structured, 
   and unstructured.
 no_list: true
+tags:
+  - domain/mcp
+  - artifact/mcp-server
+  - source/mcp-servers
 ---
 
 ## About
@@ -77,3 +81,9 @@ apikey: "my-api-key"
 | type      |  string  |     true     | Must be "elasticsearch".                   |
 | addresses | []string |     true     | List of Elasticsearch hosts to connect to. |
 | apikey    |  string  |     true     | The API key to use for authentication.     |
+
+## 🔗 Связи
+
+- [[MOC - MCP Servers]] — mcp-servers
+- [[000 - Map of Maps]] — Map of Maps
+

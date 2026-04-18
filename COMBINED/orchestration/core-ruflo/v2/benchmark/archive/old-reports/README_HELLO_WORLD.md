@@ -110,3 +110,10 @@ This implementation was created by a coordinated swarm of AI agents:
 - **TechWriter**: Documentation creation
 
 The swarm worked in parallel to deliver a production-ready hello world function with enterprise-level features.
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

@@ -45,3 +45,10 @@ tags:
 ## Notes
 
 <!-- Anything else relevant to help the issue get solved -->
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

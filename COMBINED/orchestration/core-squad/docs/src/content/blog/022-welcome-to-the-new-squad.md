@@ -803,3 +803,10 @@ Welcome to Squad v0.8.18. Let's build better software, together. 🚀
 ---
 
 _McManus (DevRel) — March 10, 2026_
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/squad]] — Squad
+- [[000 - Map of Maps]] — Map of Maps
+

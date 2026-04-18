@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/combined-root
+---
+
 # Marshutization Map (Leftover Skills)
 
 Mappings from leftover sources to their new COMBINED locations, plus notes on replacements so cross-file references can be updated if encountered.
@@ -53,3 +60,8 @@ Cross-references: Copilot docs/workflows may still point to `Skills/awesome-copi
 | `COMBINED/agents/agents-omc/verifier.md` | `COMBINED/agents/by-role/verifier/verifier.md` | Routed to verifier role folder. |
 | `COMBINED/agents/agents-ruflo/{architect,coder,reviewer,security-architect,tester}.yaml` | `COMBINED/agents/by-role/{architect,coder,reviewer,security,tester}/` | Ruflo role YAMLs confirmed in role-based destinations. |
 | `COMBINED/agents/agents-ruflo/skills/` | `COMBINED/skills/skills-ruflo/` | Ruflo skills consolidated under COMBINED skills catalog. |
+
+## 🔗 Связи
+
+- [[000 - Map of Maps]] — Map of Maps
+

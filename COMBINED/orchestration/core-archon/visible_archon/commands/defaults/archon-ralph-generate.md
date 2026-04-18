@@ -399,3 +399,10 @@ FILES_CREATED=prd.md,prd.json
 - **CRITERIA_VERIFIABLE**: All acceptance criteria are pass/fail testable
 - **TECHNICAL_GROUNDED**: Technical notes reference real files, types, and patterns from the codebase
 - **FILES_WRITTEN**: Both prd.md and prd.json exist in `.archon/ralph/{slug}/`
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/archon]] — Archon
+- [[000 - Map of Maps]] — Map of Maps
+

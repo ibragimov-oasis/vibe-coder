@@ -122,3 +122,10 @@ mcp__claude-flow__cost_analysis({
   "timeframe": "30d"
 })
 ```
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

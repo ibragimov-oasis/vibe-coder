@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/config
+  - source/workspace-config
+---
+
 # Contributing
 
 Thanks for contributing to Claude HUD. This repo is small and fast-moving, so we optimize for clarity and quick review.
@@ -73,3 +80,9 @@ We use semantic versioning (`MAJOR.MINOR.PATCH`):
 - **PATCH** (0.0.x): Bug fixes, minor improvements
 - **MINOR** (0.x.0): New features, non-breaking changes
 - **MAJOR** (x.0.0): Breaking changes
+
+## 🔗 Связи
+
+- [[MOC - System]] — workspace-config
+- [[000 - Map of Maps]] — Map of Maps
+

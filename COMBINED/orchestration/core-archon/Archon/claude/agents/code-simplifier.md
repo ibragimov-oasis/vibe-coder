@@ -119,3 +119,10 @@ Check and apply project-specific patterns from CLAUDE.md:
 - **No nested ternaries** - Suggest if/else or switch instead
 - **Project consistency** - Follow established patterns
 - **Advisory only** - Report findings, don't modify files
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/archon]] — Archon
+- [[000 - Map of Maps]] — Map of Maps
+

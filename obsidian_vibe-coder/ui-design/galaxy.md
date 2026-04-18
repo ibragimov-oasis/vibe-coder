@@ -58,3 +58,9 @@ source: "../COMBINED/ui-design/ui-components-galaxy/"
 ## Rule #3
 
 > Иерархия: Galaxy → shadcn → Impeccable → Taste-skill → Stitch → UI/UX Pro Max
+
+## 🔗 Связи
+
+- [[MOC - UI Design]] — Parent MOC
+- [[000 - Map of Maps]] — Map of Maps
+

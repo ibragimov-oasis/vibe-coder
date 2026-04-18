@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/memory
+  - artifact/memory
+  - source/memory
+---
+
 # Session ID Usage Validation Test Failures Analysis
 
 **Report Date:** 2026-01-04
@@ -322,3 +329,9 @@ These failures indicate a fundamental mismatch between expected and actual behav
 - **Implementation:** `/Users/alexnewman/Scripts/claude-mem/src/services/sqlite/SessionStore.ts`
 - **SDKAgent:** `/Users/alexnewman/Scripts/claude-mem/src/services/worker/SDKAgent.ts`
 - **Documentation:** `/Users/alexnewman/Scripts/claude-mem/docs/SESSION_ID_ARCHITECTURE.md`
+
+## 🔗 Связи
+
+- [[MOC - Memory]] — memory
+- [[000 - Map of Maps]] — Map of Maps
+

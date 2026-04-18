@@ -113,3 +113,10 @@ npx claude-flow memory store "sparc_context" "important decisions" --namespace s
 # Query previous work
 npx claude-flow memory query "sparc" --limit 5
 ```
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

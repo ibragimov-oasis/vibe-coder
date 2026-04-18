@@ -455,3 +455,10 @@ console.log(`Common improvements: ${stats.commonCritiques}`);
 - Share learning patterns with other coder agents
 
 Remember: Good code is written for humans to read, and only incidentally for machines to execute. Focus on clarity, maintainability, and correctness. **Learn from every implementation to continuously improve your coding patterns.**
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

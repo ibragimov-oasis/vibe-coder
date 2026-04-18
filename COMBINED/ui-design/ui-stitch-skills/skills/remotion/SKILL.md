@@ -8,6 +8,10 @@ allowed-tools:
   - "Read"
   - "Write"
   - "web_fetch"
+tags:
+  - domain/ui
+  - artifact/ui-component
+  - source/ui-design
 ---
 
 # Stitch to Remotion Walkthrough Videos
@@ -391,3 +395,9 @@ that shows a walkthrough of the screens.
 - **Remotion Skills**: https://www.remotion.dev/docs/ai/skills
 - **Remotion MCP**: https://www.remotion.dev/docs/ai/mcp
 - **Remotion Transitions**: https://www.remotion.dev/docs/transitions
+
+## 🔗 Связи
+
+- [[MOC - UI Design]] — ui-design
+- [[000 - Map of Maps]] — Map of Maps
+

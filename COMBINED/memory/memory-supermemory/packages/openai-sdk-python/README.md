@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/memory
+  - artifact/memory
+  - source/memory
+---
+
 # Supermemory OpenAI Python SDK
 
 Memory tools and middleware for OpenAI with Supermemory integration.
@@ -453,3 +460,9 @@ MIT License - see LICENSE file for details.
 - [Supermemory](https://supermemory.ai) - Infinite context memory platform
 - [OpenAI Python SDK](https://github.com/openai/openai-python) - Official OpenAI Python library
 - [Documentation](https://docs.supermemory.ai) - Full API documentation
+
+## 🔗 Связи
+
+- [[MOC - Memory]] — memory
+- [[000 - Map of Maps]] — Map of Maps
+

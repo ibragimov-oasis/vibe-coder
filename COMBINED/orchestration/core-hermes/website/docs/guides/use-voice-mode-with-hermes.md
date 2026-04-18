@@ -456,3 +456,10 @@ That progression keeps the debugging surface small.
 - [Discord setup](/docs/user-guide/messaging/discord)
 - [Telegram setup](/docs/user-guide/messaging/telegram)
 - [Configuration](/docs/user-guide/configuration)
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/hermes]] — Hermes
+- [[000 - Map of Maps]] — Map of Maps
+

@@ -5,6 +5,10 @@ argument-hint: "[update|review|create] [args]"
 metadata:
   author: claudekit
   version: "1.0.0"
+tags:
+  - domain/ui
+  - artifact/ui-component
+  - source/ui-design
 ---
 
 # Brand
@@ -95,3 +99,9 @@ node scripts/inject-brand-context.cjs --json | head -20
 1. Parse subcommand from `$ARGUMENTS` (first word)
 2. Load corresponding `references/{subcommand}.md`
 3. Execute with remaining arguments
+
+## 🔗 Связи
+
+- [[MOC - UI Design]] — ui-design
+- [[000 - Map of Maps]] — Map of Maps
+

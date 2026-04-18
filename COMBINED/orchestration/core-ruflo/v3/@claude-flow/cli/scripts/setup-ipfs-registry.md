@@ -371,3 +371,10 @@ export const DEFAULT_PLUGIN_STORE_CONFIG: PluginStoreConfig = {
 - [Google Cloud Functions](https://cloud.google.com/functions/docs)
 - [IPFS Gateway Spec](https://docs.ipfs.tech/concepts/ipfs-gateway/)
 - [Ed25519 Signatures](https://ed25519.cr.yp.to/)
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

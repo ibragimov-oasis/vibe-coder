@@ -214,3 +214,10 @@ See `storage-provider-azure` and `storage-provider-sqlite` samples for complete,
 - **storage-provider-azure** — Azure Blob Storage backend with connection pooling
 
 Both live in `/samples` and demonstrate patterns for production providers.
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/squad]] — Squad
+- [[000 - Map of Maps]] — Map of Maps
+

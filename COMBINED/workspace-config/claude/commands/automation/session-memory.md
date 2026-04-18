@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/config
+  - source/workspace-config
+---
+
 # Cross-Session Memory
 
 ## Purpose
@@ -88,3 +95,9 @@ export CLAUDE_FLOW_MEMORY_PERSIST=false
 - 📈 Cumulative learning
 - ⚡ Faster task completion
 - 🎯 Personalized optimization
+
+## 🔗 Связи
+
+- [[MOC - System]] — workspace-config
+- [[000 - Map of Maps]] — Map of Maps
+

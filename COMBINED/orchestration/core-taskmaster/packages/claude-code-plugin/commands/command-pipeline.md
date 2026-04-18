@@ -82,3 +82,10 @@ if:idle>1day → prompt-update
 
 This enables complex workflows like:
 `parse-prd → expand-all → filter:complex>70 → assign:senior → sprint-plan:weighted`
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/task-master]] — Task-Master
+- [[000 - Map of Maps]] — Map of Maps
+

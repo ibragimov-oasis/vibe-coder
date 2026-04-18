@@ -4,6 +4,10 @@ type: docs
 weight: 5
 description: >
   Toolsets allow you to define logical groups of tools to load together for specific agents or applications.
+tags:
+  - domain/mcp
+  - artifact/mcp-server
+  - source/mcp-servers
 ---
 
 A Toolset allows you to logically group multiple tools together so they can be loaded and managed as a single unit. You can define Toolsets as documents in your `tools.yaml` file.
@@ -67,3 +71,9 @@ allTools, err := client.LoadToolset("", ctx)
 // Load only the tools defined in 'my_second_toolset'
 mySecondToolset, err := client.LoadToolset("my-toolset", ctx)
 ```
+
+## 🔗 Связи
+
+- [[MOC - MCP Servers]] — mcp-servers
+- [[000 - Map of Maps]] — Map of Maps
+

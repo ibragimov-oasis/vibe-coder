@@ -81,3 +81,10 @@ tags:
 - Bottleneck Resolution: 100%
 - Memory Optimization: >20%
 - Execution Time: <50% of baseline
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

@@ -340,3 +340,10 @@ EOF
 - **GITHUB_POSTED**: Comment posted to original issue
 - **UNADDRESSED_DOCUMENTED**: Clear reasons for anything not fixed
 - **FOLLOWUPS_SUGGESTED**: Actionable follow-up issues recommended where appropriate
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/archon]] — Archon
+- [[000 - Map of Maps]] — Map of Maps
+

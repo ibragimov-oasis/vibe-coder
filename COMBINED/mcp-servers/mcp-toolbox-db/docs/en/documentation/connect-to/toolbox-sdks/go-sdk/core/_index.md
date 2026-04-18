@@ -5,6 +5,10 @@ type: docs
 weight: 2
 description: >
   MCP Toolbox Core SDK for integrating functionalities of MCP Toolbox into your Agentic apps.
+tags:
+  - domain/mcp
+  - artifact/mcp-server
+  - source/mcp-servers
 ---
 
 ## Overview
@@ -942,3 +946,9 @@ func main() {
 ```
 
 </details>
+
+## 🔗 Связи
+
+- [[MOC - MCP Servers]] — mcp-servers
+- [[000 - Map of Maps]] — Map of Maps
+

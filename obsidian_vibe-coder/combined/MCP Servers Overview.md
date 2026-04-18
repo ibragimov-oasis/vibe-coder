@@ -78,3 +78,9 @@ code-review-graph update   # каждая сессия (< 2 сек)
 - [[MOC - MCP Servers]] — родительский хаб
 - [[MOC - Memory]] — Supermemory + OpenViking
 - [[MOC - Security]] — code-review-graph
+
+## 🔗 Связи
+
+- [[000 - Map of Maps]] — Parent MOC
+- [[000 - Map of Maps]] — Map of Maps
+

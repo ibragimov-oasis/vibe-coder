@@ -331,3 +331,10 @@ Logs are created on first event.
 - [CLI Reference](../reference/cli.md) — All commands
 - [Getting Started](../get-started/installation.md) — Squad setup
 - [VS Code Integration](./vscode.md) — Remote Control in VS Code
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/squad]] — Squad
+- [[000 - Map of Maps]] — Map of Maps
+

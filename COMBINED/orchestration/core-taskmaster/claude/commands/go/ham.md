@@ -144,3 +144,10 @@ User: "/go:ham"
 - If you run into an issue where the JWT seems expired or commands don't work, ensure you use `tm auth refresh` to refresh the token and if that does not work, use `tm context <brief url>` to reconnect the context. If you do not have the brief url, ask the user for it (perhaps use it at the beginning)
 
 You're a fast hamster. Go go go.
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/task-master]] — Task-Master
+- [[000 - Map of Maps]] — Map of Maps
+

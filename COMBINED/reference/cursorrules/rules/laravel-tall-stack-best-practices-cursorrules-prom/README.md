@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/reference
+  - source/reference
+---
+
 # Laravel TALL Stack Best Practices .cursorrules prompt file
 
 Author: Eetu Rantanen
@@ -13,4 +20,9 @@ Developers utilizing the TALL stack can build scalable web applications with sea
 
 ## Overview of .cursorrules prompt
 The .cursorrules file provides guidelines and best practices for developers working with the TALL stack, which includes Laravel, Livewire, Alpine.js, and Tailwind CSS. It emphasizes Laravel, PHP best practices, and object-oriented programming with a focus on SOLID principles. Key areas of focus include using PHP 8.1+ features, following PSR-12 coding standards, utilizing Laravel's built-in features, and implementing proper error handling and validation. The file also outlines best practices for Livewire components, Alpine.js usage, and Tailwind CSS styling, along with performance optimization and security measures. Developers are encouraged to integrate these technologies seamlessly, ensuring efficient, reactive, and visually appealing web applications. Dependencies required include Laravel, Livewire, Alpine.js, Tailwind CSS, the Luvi UI component library, and Composer for dependency management.
+
+## 🔗 Связи
+
+- [[MOC - System]] — reference
+- [[000 - Map of Maps]] — Map of Maps
 

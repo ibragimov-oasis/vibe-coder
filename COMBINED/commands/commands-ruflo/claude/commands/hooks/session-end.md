@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/command
+  - source/commands
+---
+
 # hook session-end
 
 Cleanup and persist session state before ending work.
@@ -116,3 +123,9 @@ Returns JSON with:
 - `hook session-restore` - Session restoration
 - `performance report` - Detailed metrics
 - `memory backup` - State backup
+
+## 🔗 Связи
+
+- [[MOC - System]] — commands
+- [[000 - Map of Maps]] — Map of Maps
+

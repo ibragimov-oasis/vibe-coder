@@ -7,6 +7,10 @@ allowed-tools:
   - Bash
   - Grep
   - Glob
+tags:
+  - domain/skills
+  - artifact/command
+  - source/commands
 ---
 
 <objective>
@@ -44,3 +48,9 @@ Project state and roadmap are loaded in-workflow using targeted reads.
 - User prompted for feedback
 - User knows next steps (discuss context, plan phase, or correct assumptions)
   </success_criteria>
+
+## 🔗 Связи
+
+- [[MOC - System]] — commands
+- [[000 - Map of Maps]] — Map of Maps
+

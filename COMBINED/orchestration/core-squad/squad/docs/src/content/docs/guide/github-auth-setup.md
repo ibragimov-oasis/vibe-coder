@@ -195,3 +195,10 @@ If all four steps succeed, you're ready to manage project boards with Squad.
 - [Cross-organization authentication](../scenarios/cross-org-auth) — multi-account auth patterns for Squad agents
 - [Troubleshooting](../scenarios/troubleshooting) — common Squad issues and fixes
 - [Private repos](../scenarios/private-repos) — privacy and security for enterprise repos
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/squad]] — Squad
+- [[000 - Map of Maps]] — Map of Maps
+

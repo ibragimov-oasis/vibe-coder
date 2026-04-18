@@ -1066,3 +1066,10 @@ echo "✅ GitHub workflow automation setup complete"
 **Skill Status**: ✅ Production Ready
 **Last Updated**: 2025-01-19
 **Maintainer**: claude-flow team
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

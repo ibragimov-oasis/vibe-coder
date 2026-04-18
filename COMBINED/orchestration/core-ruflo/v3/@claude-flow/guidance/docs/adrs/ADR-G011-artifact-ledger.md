@@ -49,3 +49,10 @@ The ledger supports:
 - **Git commits alone**: Insufficient for non-code artifacts and cross-agent lineage
 - **External artifact registries (OCI)**: Too heavy for in-process use; planned as future integration
 - **Simple hash logs**: No lineage, no signature, no search
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

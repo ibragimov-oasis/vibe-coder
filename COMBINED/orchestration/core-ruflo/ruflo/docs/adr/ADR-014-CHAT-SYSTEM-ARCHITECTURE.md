@@ -1029,3 +1029,10 @@ User Input
 *Document Version: 1.4*
 *Last Updated: 2026-01-19*
 *Implementation Status: Phases 1, 2, 4 Complete; Phase 3, 5 Partial; AI Suggestions System Deployed (suggestion-agent Cloud Function + Web Worker)*
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

@@ -434,3 +434,10 @@ Example output:
 | `INTERNAL_ERROR` | Server error | Retry later or contact support |
 
 > **Note**: Invalid JSON in `--workflow-spec` will fail the command; ensure it is valid JSON.
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/refly]] — Refly
+- [[000 - Map of Maps]] — Map of Maps
+

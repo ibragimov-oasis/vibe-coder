@@ -186,3 +186,10 @@ mcp__claude-flow__memory_usage --action="retrieve" --namespace="decisions" --key
 - **ReasoningBank**: Learn from decision outcomes
 - **Claims Auth**: Control who can approve ADRs
 - **Swarm Coordination**: Distribute ADR enforcement across agents
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

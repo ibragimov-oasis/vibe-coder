@@ -167,3 +167,10 @@ User intent -> match domain skill (name/trigger) in `~/.claude/skills/`
 - `rules/node.md` - Node command reference
 - `rules/file.md` - File command reference
 - `rules/skill.md` - Customized Skill command reference
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/refly]] — Refly
+- [[000 - Map of Maps]] — Map of Maps
+

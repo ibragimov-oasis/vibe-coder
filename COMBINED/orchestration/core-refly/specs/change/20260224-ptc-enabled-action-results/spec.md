@@ -139,3 +139,10 @@ Because the code writes `ptc_enabled` in an `UPDATE` (not `INSERT`), the column 
 **Why migration-first is safe:**
 - Adding a `NOT NULL DEFAULT false` column is non-blocking on PostgreSQL (no table rewrite needed for constant defaults in Postgres 11+).
 - Old code (without `ptcEnabled` in the UPDATE) works fine with the new column present — it simply doesn't write to it, leaving it as `false`.
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/refly]] — Refly
+- [[000 - Map of Maps]] — Map of Maps
+

@@ -86,3 +86,10 @@ Summarize (under 200 words):
 
 ### Recent Changes
 - Last few frontend commits
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/archon]] — Archon
+- [[000 - Map of Maps]] — Map of Maps
+

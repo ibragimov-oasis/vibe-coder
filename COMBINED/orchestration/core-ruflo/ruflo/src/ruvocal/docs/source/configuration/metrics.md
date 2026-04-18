@@ -14,3 +14,10 @@ The server can expose prometheus metrics on port `5565` but is off by default. Y
 In development with `npm run dev`, the metrics server does not shutdown gracefully due to Sveltekit not providing hooks for restart. It's recommended to disable the metrics server in this case.
 
 </Tip>
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

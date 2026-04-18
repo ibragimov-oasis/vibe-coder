@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/mcp
+  - artifact/mcp-server
+  - source/mcp-servers
+---
+
 # Long-term Memory
 
 This file stores important information that should persist across sessions.
@@ -21,3 +28,9 @@ This file stores important information that should persist across sessions.
 ---
 
 *This file is automatically updated by vikingbot when important information should be remembered.*
+
+## 🔗 Связи
+
+- [[MOC - MCP Servers]] — mcp-servers
+- [[000 - Map of Maps]] — Map of Maps
+

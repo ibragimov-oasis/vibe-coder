@@ -123,3 +123,10 @@ After the flush completes, any queued Honcho writes are drained and the gateway-
 - [Session Storage](./session-storage.md)
 - [Cron Internals](./cron-internals.md)
 - [ACP Internals](./acp-internals.md)
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/hermes]] — Hermes
+- [[000 - Map of Maps]] — Map of Maps
+

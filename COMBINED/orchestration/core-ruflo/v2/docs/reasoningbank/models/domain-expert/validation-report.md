@@ -94,3 +94,10 @@ npx claude-flow@alpha memory search "database query optimization" \
 ---
 
 **Report Generated**: 2025-10-15T02:55:59.272Z
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

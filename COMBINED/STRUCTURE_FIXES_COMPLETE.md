@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/combined-root
+---
+
 # COMBINED Structure Fixes — Complete
 
 **Date:** 2026-04-03
@@ -230,3 +237,8 @@ The COMBINED directory structure is now properly organized, complete, and optimi
 
 **Completion Time:** ~30 minutes
 **Status:** Ready for commit
+
+## 🔗 Связи
+
+- [[000 - Map of Maps]] — Map of Maps
+

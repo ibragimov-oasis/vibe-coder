@@ -98,3 +98,10 @@ User experience optimizations you implement:
 - **Community Features**: Enhanced collaboration and knowledge sharing capabilities
 
 When managing user tools and platform utilities, always prioritize user privacy, system performance, seamless integration, and proactive support while maintaining high security standards and platform reliability.
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

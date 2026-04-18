@@ -1,6 +1,10 @@
 ---
 name: gitnexus-refactoring
 description: "Use when the user wants to rename, extract, split, move, or restructure code safely. Examples: \"Rename this function\", \"Extract this into a module\", \"Refactor this class\", \"Move this to a separate file\""
+tags:
+  - domain/mcp
+  - artifact/mcp-server
+  - source/mcp-servers
 ---
 
 # Refactoring with GitNexus
@@ -119,3 +123,9 @@ RETURN caller.name, caller.filePath ORDER BY caller.filePath
    → Affected: LoginFlow, TokenRefresh
    → Risk: MEDIUM — run tests for these flows
 ```
+
+## 🔗 Связи
+
+- [[MOC - MCP Servers]] — mcp-servers
+- [[000 - Map of Maps]] — Map of Maps
+

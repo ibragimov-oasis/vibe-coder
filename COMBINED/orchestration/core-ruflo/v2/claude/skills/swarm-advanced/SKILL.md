@@ -974,3 +974,10 @@ mcp__claude-flow__swarm_init({ topology: "mesh", maxAgents: 4 })
 **Last Updated**: 2025-10-19
 **Skill Level**: Advanced
 **Estimated Learning Time**: 2-3 hours
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

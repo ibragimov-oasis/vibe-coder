@@ -333,3 +333,10 @@ This fix transforms the MCP pattern system from partially functional (accepting 
 **Status Change**:
 - Before: ⚠️ Partial (all three operations)
 - After: ✅ **Fully Functional** (all three operations)
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

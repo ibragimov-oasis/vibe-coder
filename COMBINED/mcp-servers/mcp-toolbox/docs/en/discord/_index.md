@@ -6,6 +6,10 @@ weight: 2
 description: Join the MCP Toolbox community
 manualLink: "https://discord.gg/Dmm69peqjh"
 manualLinkTarget: _blank
+tags:
+  - domain/mcp
+  - artifact/mcp-server
+  - source/mcp-servers
 ---
 
 <html>
@@ -20,3 +24,9 @@ manualLinkTarget: _blank
     </p>
   </body>
 </html>
+
+## 🔗 Связи
+
+- [[MOC - MCP Servers]] — mcp-servers
+- [[000 - Map of Maps]] — Map of Maps
+

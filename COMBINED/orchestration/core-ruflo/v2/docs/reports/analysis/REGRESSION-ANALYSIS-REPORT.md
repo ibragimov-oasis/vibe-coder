@@ -505,3 +505,10 @@ claude-flow agent --help                                  # ✅ Agent Booster vi
 **Regressions Found**: 0 ✅
 
 **Status**: 🟢 **APPROVED FOR DEPLOYMENT**
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

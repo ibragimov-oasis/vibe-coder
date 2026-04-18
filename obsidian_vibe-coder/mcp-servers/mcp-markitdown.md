@@ -52,3 +52,9 @@ markitdown spreadsheet.xlsx > data.md
 
 - [[mcp-servers/mcp-lightpanda]] — веб → markdown (через скрапинг)
 - [[obsidian-skills/defuddle]] — URL → clean markdown
+
+## 🔗 Связи
+
+- [[MOC - MCP Servers]] — Parent MOC
+- [[000 - Map of Maps]] — Map of Maps
+

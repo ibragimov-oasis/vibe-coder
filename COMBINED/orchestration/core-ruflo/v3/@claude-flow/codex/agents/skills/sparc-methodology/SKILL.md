@@ -48,3 +48,10 @@ npx @claude-flow/cli hooks route --task "architecture: [design]"
 2. Use hierarchical topology for coordination
 3. Store successful patterns after completion
 4. Document any new learnings
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

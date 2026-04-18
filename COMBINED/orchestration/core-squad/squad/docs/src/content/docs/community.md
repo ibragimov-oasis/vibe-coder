@@ -82,3 +82,10 @@ If you're using Squad, consider:
 - **Issues & Feature Requests:** [GitHub Issues](https://github.com/bradygaster/squad/issues)
 - **Discussion & Questions:** [GitHub Discussions](https://github.com/bradygaster/squad/discussions)
 - **Security Issues:** Report privately via GitHub Security Advisory
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/squad]] — Squad
+- [[000 - Map of Maps]] — Map of Maps
+

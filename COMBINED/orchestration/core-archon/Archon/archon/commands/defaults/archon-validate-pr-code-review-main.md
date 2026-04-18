@@ -151,3 +151,10 @@ Write your analysis to `$ARTIFACTS_DIR/code-review-main.md`:
 - **MAIN_CODE_ANALYZED**: Changed files read from main branch
 - **BUG_ASSESSED**: Each PR claim verified against main branch code
 - **ARTIFACT_WRITTEN**: `$ARTIFACTS_DIR/code-review-main.md` created
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/archon]] — Archon
+- [[000 - Map of Maps]] — Map of Maps
+

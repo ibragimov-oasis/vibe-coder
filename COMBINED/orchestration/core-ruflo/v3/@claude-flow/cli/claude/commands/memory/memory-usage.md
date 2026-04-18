@@ -30,3 +30,10 @@ npx claude-flow memory usage --action retrieve --key "project-config"
 # List all keys
 npx claude-flow memory usage --action list
 ```
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

@@ -5,6 +5,10 @@ weight: 7
 description: >
   EmbeddingModels represent services that transform text into vector embeddings
   for semantic search.
+tags:
+  - domain/mcp
+  - artifact/mcp-server
+  - source/mcp-servers
 ---
 
 EmbeddingModels represent services that generate vector representations of text
@@ -106,3 +110,9 @@ parameters:
 ```
 
 ## Types of Embedding Models
+
+## 🔗 Связи
+
+- [[MOC - MCP Servers]] — mcp-servers
+- [[000 - Map of Maps]] — Map of Maps
+

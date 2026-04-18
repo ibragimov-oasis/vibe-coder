@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/workflow
+  - source/hooks
+---
+
 <!-- Parent: ../AGENTS.md -->
 <!-- Generated: 2026-01-28 | Updated: 2026-01-31 -->
 
@@ -258,3 +265,9 @@ return {
 | learner | `~/.claude/local-skills/` |
 
 <!-- MANUAL: -->
+
+## 🔗 Связи
+
+- [[MOC - System]] — hooks
+- [[000 - Map of Maps]] — Map of Maps
+

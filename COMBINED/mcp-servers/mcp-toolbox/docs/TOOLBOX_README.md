@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/mcp
+  - artifact/mcp-server
+  - source/mcp-servers
+---
+
 # MCP Toolbox for Databases Server
 
 The MCP Toolbox for Databases Server gives AI-powered development tools the ability to work with your custom tools. It is designed to simplify and secure the development of tools for interacting with databases.
@@ -50,3 +57,9 @@ Interact with your custom tools using natural language.
 ## Documentation
 
 For more information, visit the [MCP Toolbox for Databases documentation](https://mcp-toolbox.dev/documentation/introduction/).
+
+## 🔗 Связи
+
+- [[MOC - MCP Servers]] — mcp-servers
+- [[000 - Map of Maps]] — Map of Maps
+

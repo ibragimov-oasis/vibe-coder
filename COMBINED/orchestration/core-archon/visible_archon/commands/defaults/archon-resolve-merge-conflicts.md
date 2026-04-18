@@ -482,3 +482,10 @@ If type-check/tests fail after resolution:
 - **BRANCH_PUSHED**: PR branch updated with resolution
 - **PR_MERGEABLE**: GitHub shows PR as mergeable
 - **DOCUMENTED**: Resolution artifact and GitHub comment created
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/archon]] — Archon
+- [[000 - Map of Maps]] — Map of Maps
+

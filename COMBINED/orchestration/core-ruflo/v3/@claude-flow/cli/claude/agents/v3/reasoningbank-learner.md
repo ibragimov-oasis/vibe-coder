@@ -215,3 +215,10 @@ The ReasoningBank integrates with V3 hooks:
 | Verdict assignment | <1ms |
 | Distillation | <100ms |
 | Consolidation | <500ms |
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

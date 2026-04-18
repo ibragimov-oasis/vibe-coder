@@ -1,6 +1,10 @@
 ---
 name: cron
 description: Schedule reminders and recurring tasks.
+tags:
+  - domain/mcp
+  - artifact/mcp-server
+  - source/mcp-servers
 ---
 
 # Cron
@@ -45,3 +49,9 @@ cron(action="remove", job_id="abc123")
 | every day at 8am | cron_expr: "0 8 * * *" |
 | weekdays at 5pm | cron_expr: "0 17 * * 1-5" |
 | at a specific time | at: ISO datetime string (compute from current time) |
+
+## 🔗 Связи
+
+- [[MOC - MCP Servers]] — mcp-servers
+- [[000 - Map of Maps]] — Map of Maps
+

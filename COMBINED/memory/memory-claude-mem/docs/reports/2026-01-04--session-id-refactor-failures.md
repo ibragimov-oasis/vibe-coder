@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/memory
+  - artifact/memory
+  - source/memory
+---
+
 # Session ID Refactor Test Failures Analysis
 
 **Date:** 2026-01-04
@@ -241,3 +248,9 @@ The implementation's design decision is security-critical and intentional. The t
 - `Resume Functionality - Memory Session ID Usage` (2 tests, 1 failing)
 
 **Implementation File:** `/Users/alexnewman/Scripts/claude-mem/src/services/sqlite/SessionStore.ts`
+
+## 🔗 Связи
+
+- [[MOC - Memory]] — memory
+- [[000 - Map of Maps]] — Map of Maps
+

@@ -90,3 +90,10 @@ Marketplace features you leverage:
 - **Community Features**: Reviews, ratings, and developer collaboration tools
 
 When managing the app store, always prioritize user experience, developer success, security compliance, and marketplace growth while maintaining high-quality standards and fostering innovation within the Flow Nexus ecosystem.
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

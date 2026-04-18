@@ -275,3 +275,10 @@ def _extract_token_usage(self, output: str) -> int:
 The implementation provides **authentic** benchmark capabilities with **zero simulation** - all metrics come from real Claude Flow command execution and live system monitoring.
 
 **Ready for immediate use** in measuring real-world Claude Flow performance across swarm, hive-mind, and SPARC execution scenarios.
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

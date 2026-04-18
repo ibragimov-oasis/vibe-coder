@@ -3,6 +3,10 @@ title: cloud-sql-list-instances
 type: docs
 weight: 1
 description: "List Cloud SQL instances in a project.\n"
+tags:
+  - domain/mcp
+  - artifact/mcp-server
+  - source/mcp-servers
 ---
 
 ## About
@@ -46,3 +50,9 @@ description: Use this tool to list all Cloud SQL instances in a project.
 | type        |  string  |     true     | Must be "cloud-sql-list-instances".                            |
 | description |  string  |    false     | Description of the tool that is passed to the agent.           |
 | source      |  string  |     true     | The name of the `cloud-sql-admin` source to use for this tool. |
+
+## 🔗 Связи
+
+- [[MOC - MCP Servers]] — mcp-servers
+- [[000 - Map of Maps]] — Map of Maps
+

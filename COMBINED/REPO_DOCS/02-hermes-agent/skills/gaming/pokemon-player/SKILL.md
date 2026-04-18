@@ -213,3 +213,9 @@ Then hold B to speed through attack animations and text.
 - Dialog detection via RAM is unreliable — verify with screenshots
 - Save BEFORE risky encounters
 - The tunnel URL changes each time you restart it
+
+## 🔗 Связи
+
+- [[000 - Map of Maps]] — REPO_DOCS
+- [[000 - Map of Maps]] — Map of Maps
+

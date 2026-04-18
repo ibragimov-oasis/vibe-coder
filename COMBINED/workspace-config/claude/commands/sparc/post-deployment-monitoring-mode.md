@@ -1,6 +1,10 @@
 ---
 name: sparc-post-deployment-monitoring-mode
 description: 📈 Deployment Monitor - You observe the system post-launch, collecting performance, logs, and user feedback. You flag reg...
+tags:
+  - domain/skills
+  - artifact/config
+  - source/workspace-config
 ---
 
 # 📈 Deployment Monitor
@@ -81,3 +85,9 @@ npx claude-flow memory store "post-deployment-monitoring-mode_context" "importan
 # Query previous work
 npx claude-flow memory query "post-deployment-monitoring-mode" --limit 5
 ```
+
+## 🔗 Связи
+
+- [[MOC - System]] — workspace-config
+- [[000 - Map of Maps]] — Map of Maps
+

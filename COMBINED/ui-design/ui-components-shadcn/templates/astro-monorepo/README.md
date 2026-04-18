@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/ui
+  - artifact/ui-component
+  - source/ui-design
+---
+
 # Astro + React + TypeScript + shadcn/ui (Monorepo)
 
 This is a monorepo template for Astro with React, TypeScript, and shadcn/ui.
@@ -37,3 +44,9 @@ import { Button } from "@workspace/ui/components/button"
   </body>
 </html>
 ```
+
+## 🔗 Связи
+
+- [[MOC - UI Design]] — ui-design
+- [[000 - Map of Maps]] — Map of Maps
+

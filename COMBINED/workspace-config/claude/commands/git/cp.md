@@ -1,5 +1,9 @@
 ---
 description: Stage, commit, and push the current branch following git governance rules.
+tags:
+  - domain/skills
+  - artifact/config
+  - source/workspace-config
 ---
 
 1. Run `/review` to ensure lint/tests/security checks pass locally.
@@ -12,3 +16,9 @@ description: Stage, commit, and push the current branch following git governance
 6. Trigger remote checks for visibility:
    - `gh workflow run ci-quality-gate.yml --ref $(git branch --show-current)`
 7. Wait for workflow to finish (`gh run watch --workflow ci-quality-gate.yml`) before opening a pull request.
+
+## 🔗 Связи
+
+- [[MOC - System]] — workspace-config
+- [[000 - Map of Maps]] — Map of Maps
+

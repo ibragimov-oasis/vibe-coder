@@ -106,3 +106,10 @@ tags:
 - **Rasmus**: 3 skills demonstrating ~25 extensibility features (skills, agents, hooks, memory, isolation)
 - **Overlap**: Worktree isolation (different entry points — CLI vs agent frontmatter)
 - **Gaps**: HTTP hooks, /simplify standalone, plugin system, ConfigChange, auto-memory
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/archon]] — Archon
+- [[000 - Map of Maps]] — Map of Maps
+

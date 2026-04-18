@@ -33,3 +33,10 @@ npx claude-flow swarm init --topology adaptive
 - Use hierarchical for complex projects
 - Use mesh for research tasks
 - Use adaptive for unknown workloads
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

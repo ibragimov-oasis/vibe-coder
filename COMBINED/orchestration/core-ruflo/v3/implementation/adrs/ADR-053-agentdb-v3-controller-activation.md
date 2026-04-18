@@ -550,3 +550,10 @@ Phases 2-6 describe deeper integration where specific CLI commands and hooks cal
 - AgentDB v3: `agentdb@3.0.0-alpha.7` (4 deps, 3.5MB, 0 CVEs, CJS+ESM, sql.js fallback)
 - `@claude-flow/memory`: upgraded to `agentdb@^3.0.0-alpha.7`
 - AgentDB source files reviewed: `AgentDB.js`, `MutationGuard.js`, `AttestationLog.js`, `GuardedVectorBackend.js`, `factory.js`, `GraphTransformerService.js`, `SemanticRouter.js`, `SonaTrajectoryService.js`, `LLMRouter.js`, `index.js`, `controllers/index.js`
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

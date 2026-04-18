@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/new_repos
+---
+
 # Agent Planning + Reflection Visibility (v0)
 
 **Date:** 2026-02-10  
@@ -237,3 +244,8 @@ This keeps context encapsulated and token usage bounded.
 ---
 
 This v0 keeps the architecture simple: one sequential ReAct loop, one lightweight planning tool, and better reasoning visibility now, while setting up a clean context-capsule path for subagents later.
+
+## 🔗 Связи
+
+- [[000 - Map of Maps]] — Map of Maps
+

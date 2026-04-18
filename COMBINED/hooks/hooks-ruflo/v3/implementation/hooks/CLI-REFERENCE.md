@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/workflow
+  - source/hooks
+---
+
 # Claude-Flow V3 Complete CLI Reference
 
 ## Overview
@@ -1115,3 +1122,9 @@ npx claude-flow swarm task --description "<task>" [options]
 - [CLAUDE.md](/CLAUDE.md) - Project configuration
 - [Architecture Decision Records](/v3/implementation/architecture/) - V3 ADRs
 - [agentic-flow@alpha](https://github.com/ruvnet/agentic-flow) - Core framework
+
+## 🔗 Связи
+
+- [[MOC - System]] — hooks
+- [[000 - Map of Maps]] — Map of Maps
+

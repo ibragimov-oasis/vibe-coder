@@ -346,4 +346,8 @@ trainer = L.Trainer(accelerator='gpu', devices=1)
 - Discord: https://discord.gg/lightning-ai
 - Used by: Kaggle winners, research labs, production teams
 
+## 🔗 Связи
+
+- [[000 - Map of Maps]] — REPO_DOCS
+- [[000 - Map of Maps]] — Map of Maps
 

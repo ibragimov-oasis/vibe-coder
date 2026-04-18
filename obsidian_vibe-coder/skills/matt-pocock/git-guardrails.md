@@ -84,3 +84,9 @@ git branch --show-current
 
 - [[skills/matt-pocock/tdd]] — тесты как защита
 - [[agents/mega-devops]] — полный DevOps workflow
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Parent MOC
+- [[000 - Map of Maps]] — Map of Maps
+

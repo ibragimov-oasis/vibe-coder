@@ -115,3 +115,10 @@ Create CONTEXT.md capturing decisions made:
 - CONTEXT.md captures actual decisions with rationale
 - Scope maintained (no creep into deferred ideas)
 </success_criteria>
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/gsd]] — GSD
+- [[000 - Map of Maps]] — Map of Maps
+

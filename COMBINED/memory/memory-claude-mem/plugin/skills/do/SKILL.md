@@ -1,6 +1,10 @@
 ---
 name: do
 description: Execute a phased implementation plan using subagents. Use when asked to execute, run, or carry out a plan — especially one created by make-plan.
+tags:
+  - domain/memory
+  - artifact/memory
+  - source/memory
 ---
 
 # Do Plan
@@ -43,3 +47,9 @@ Deploy a "Branch/Sync" subagent to:
 - Don't add undocumented parameters — copy exact signatures
 - Don't skip verification — deploy a verification subagent and run the checklist
 - Don't commit before verification passes (or without explicit orchestrator approval)
+
+## 🔗 Связи
+
+- [[MOC - Memory]] — memory
+- [[000 - Map of Maps]] — Map of Maps
+

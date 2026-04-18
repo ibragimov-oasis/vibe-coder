@@ -6,6 +6,10 @@ description: >
   How to connect to Looker from Gemini-CLI with end-user credentials
 sample_filters: ["Gemini CLI", "Looker", "OAuth"]
 is_sample: true
+tags:
+  - domain/mcp
+  - artifact/mcp-server
+  - source/mcp-servers
 ---
 
 ## Overview
@@ -141,3 +145,9 @@ familiar to your system administrators.
 To use the shared service, just change the `localhost:5000` in the `httpUrl` in
 `~/.gemini/settings.json` to the host name and possibly the port of the shared
 service.
+
+## 🔗 Связи
+
+- [[MOC - MCP Servers]] — mcp-servers
+- [[000 - Map of Maps]] — Map of Maps
+

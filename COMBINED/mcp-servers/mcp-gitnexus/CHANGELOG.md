@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/mcp
+  - artifact/mcp-server
+  - source/mcp-servers
+---
+
 # Changelog
 
 All notable changes to GitNexus will be documented in this file.
@@ -107,3 +114,9 @@ All notable changes to GitNexus will be documented in this file.
 ### Fixed
 
 - Force-exit after analyze to prevent KuzuDB native cleanup hang (#192)
+
+## 🔗 Связи
+
+- [[MOC - MCP Servers]] — mcp-servers
+- [[000 - Map of Maps]] — Map of Maps
+

@@ -59,3 +59,9 @@ Phase 5: Polish       — чистка, документация
 ## Исходник
 
 > 📂 `../COMBINED/agents/mega/mega-planner.md`
+
+## 🔗 Связи
+
+- [[MOC - Agents]] — Parent MOC
+- [[000 - Map of Maps]] — Map of Maps
+

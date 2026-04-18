@@ -26,3 +26,10 @@ Before finishing work, verify your changes don't break existing tests. Run the t
 - Don't hardcode dev team agent names in product code or tests
 - Don't skip test verification before declaring work done
 - Don't ignore pre-existing CI failures that your changes may worsen
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/squad]] — Squad
+- [[000 - Map of Maps]] — Map of Maps
+

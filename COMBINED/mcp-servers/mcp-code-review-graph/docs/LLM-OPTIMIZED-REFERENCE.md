@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/mcp
+  - artifact/mcp-server
+  - source/mcp-servers
+---
+
 # LLM-OPTIMIZED REFERENCE -- code-review-graph v2.2.1
 
 Claude Code: Read ONLY the exact `<section>` you need. Never load the whole file.
@@ -67,3 +74,9 @@ When user asks anything about "code-review-graph", "how to use", "commands", "re
 2. Use ONLY that content + current graph state.
 3. Never include full docs or source code in your reasoning.
 This guarantees 90%+ token savings.
+
+## 🔗 Связи
+
+- [[MOC - MCP Servers]] — mcp-servers
+- [[000 - Map of Maps]] — Map of Maps
+

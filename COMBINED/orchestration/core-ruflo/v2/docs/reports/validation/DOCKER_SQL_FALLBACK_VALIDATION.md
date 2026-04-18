@@ -403,3 +403,10 @@ The "limitations" exist but are **gracefully handled** by SQL fallback, making R
 **Test Coverage:** Clean environment, no local state
 **Result:** ✅ **SQL FALLBACK CONFIRMED WORKING**
 **Confidence:** **HIGH** (validated in isolation)
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

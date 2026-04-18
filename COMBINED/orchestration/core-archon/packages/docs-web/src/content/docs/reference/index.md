@@ -25,3 +25,10 @@ Technical reference documentation for Archon internals.
 - **[Configuration Reference](/reference/configuration/)** -- Full config.yaml options, environment variables, streaming modes
 - **[Security](/reference/security/)** -- Permission model, authorization, webhook verification, data privacy
 - **[Troubleshooting](/reference/troubleshooting/)** -- Common issues and solutions
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/archon]] — Archon
+- [[000 - Map of Maps]] — Map of Maps
+

@@ -12,6 +12,10 @@ tools:
   - mcp__lightpanda
   - mcp__nano-banana
   - mcp__gitnexus
+tags:
+  - domain/skills
+  - artifact/config
+  - source/.claude
 ---
 
 <role>
@@ -312,3 +316,9 @@ Before delivering ANY UI work:
 - [ ] Color is not the only indicator
 - [ ] Reduced motion and dynamic text supported
 </pre_delivery_checklist>
+
+## 🔗 Связи
+
+- [[MOC - System]] — System
+- [[000 - Map of Maps]] — Map of Maps
+

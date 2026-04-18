@@ -127,3 +127,10 @@ Log state transitions and include the circuit state in agent status or dashboard
 
 - [PR #552](https://github.com/bradygaster/squad/pull/552) — Circuit breaker implementation
 - [Failure handling](../reference/tools-and-hooks) — Error boundaries and fallbacks
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/squad]] — Squad
+- [[000 - Map of Maps]] — Map of Maps
+

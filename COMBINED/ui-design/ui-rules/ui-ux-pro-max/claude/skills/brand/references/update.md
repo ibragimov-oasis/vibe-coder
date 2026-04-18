@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/ui
+  - artifact/ui-component
+  - source/ui-design
+---
+
 Update brand colors, typography, and style - automatically syncs to all design system files.
 
 <args>$ARGUMENTS</args>
@@ -116,3 +123,9 @@ If user specifies a preset name, use these defaults:
 - **Always sync all three files** - Never update just brand-guidelines.md alone
 - **Verify extraction** - Run inject-brand-context.cjs after update to confirm
 - **Test image generation** - Optionally generate a test image to verify brand application
+
+## 🔗 Связи
+
+- [[MOC - UI Design]] — ui-design
+- [[000 - Map of Maps]] — Map of Maps
+

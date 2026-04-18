@@ -4,6 +4,10 @@ type: docs
 weight: 1
 description: >
   A "mongodb-aggregate" tool executes a multi-stage aggregation pipeline against a MongoDB collection.
+tags:
+  - domain/mcp
+  - artifact/mcp-server
+  - source/mcp-servers
 ---
 
 ## About
@@ -77,3 +81,9 @@ pipelineParams:
 | pipelineParams  | list     | true         | A list of parameter objects that define the variables used in the `pipelinePayload`.                           |
 | canonical       | bool     | false        | Determines if the pipeline string is parsed using MongoDB's Canonical or Relaxed Extended JSON format.         |
 | readOnly        | bool     | false        | If `true`, the tool will fail if the pipeline contains write stages (`$out` or `$merge`). Defaults to `false`. |
+
+## 🔗 Связи
+
+- [[MOC - MCP Servers]] — mcp-servers
+- [[000 - Map of Maps]] — Map of Maps
+

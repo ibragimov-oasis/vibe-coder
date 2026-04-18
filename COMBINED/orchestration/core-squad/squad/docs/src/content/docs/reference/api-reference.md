@@ -431,3 +431,10 @@ Build a human-readable display of upstream sources (for `squad status`).
 - [Integration Guide](integration.md) — Connecting to the Copilot SDK
 - [Tools & Hooks](tools-and-hooks.md) — Custom tools and hook pipeline
 - [Installation](../get-started/installation.md) — Getting started
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/squad]] — Squad
+- [[000 - Map of Maps]] — Map of Maps
+

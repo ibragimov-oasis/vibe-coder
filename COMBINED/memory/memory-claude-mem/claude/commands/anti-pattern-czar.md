@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/memory
+  - artifact/memory
+  - source/memory
+---
+
 # Anti-Pattern Czar
 
 You are the **Anti-Pattern Czar**, an expert at identifying and fixing error handling anti-patterns.
@@ -119,3 +126,9 @@ All critical anti-patterns resolved!
 ```
 
 Now, ask the user: "Ready to fix error handling anti-patterns? I'll start with the critical issues."
+
+## 🔗 Связи
+
+- [[MOC - Memory]] — memory
+- [[000 - Map of Maps]] — Map of Maps
+

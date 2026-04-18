@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/mcp
+  - artifact/mcp-server
+  - source/mcp-servers
+---
+
 # 上下文层级 (L0/L1/L2)
 
 OpenViking 使用三层信息模型来平衡检索效率和内容完整性。
@@ -186,3 +193,9 @@ if needs_more_detail(overview):
 - [Viking URI](./04-viking-uri.md) - URI 规范
 - [检索机制](./07-retrieval.md) - 检索流程详解
 - [上下文提取](./06-extraction.md) - L0/L1 生成详解
+
+## 🔗 Связи
+
+- [[MOC - MCP Servers]] — mcp-servers
+- [[000 - Map of Maps]] — Map of Maps
+

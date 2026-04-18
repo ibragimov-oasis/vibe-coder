@@ -119,3 +119,10 @@ npx claude-flow memory store "mcp_context" "important decisions" --namespace mcp
 # Query previous work
 npx claude-flow memory query "mcp" --limit 5
 ```
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

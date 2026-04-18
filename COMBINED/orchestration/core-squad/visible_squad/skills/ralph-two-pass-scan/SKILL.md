@@ -40,3 +40,10 @@ gh issue view <number> --json number,title,body,labels,assignees,comments,state
 ```
 
 Then apply normal Ralph triage logic. Rule of thumb: hydrate ≤ 30% of scanned list. If more than 30% survive Pass 1, tighten filter rules.
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/squad]] — Squad
+- [[000 - Map of Maps]] — Map of Maps
+

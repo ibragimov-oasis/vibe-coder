@@ -87,3 +87,10 @@ Example workflow:
 3. Use **SDK** to build a custom deployment script that spawns agents
 
 All three modes share the same memory and decisions.
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/squad]] — Squad
+- [[000 - Map of Maps]] — Map of Maps
+

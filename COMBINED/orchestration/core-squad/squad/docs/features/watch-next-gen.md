@@ -622,3 +622,10 @@ squad watch --execute --fleet-label prod-watch --max-concurrent 1
 - [Persistent Ralph](/features/persistent-ralph) — Monitoring and trend analysis
 - [Generic Scheduler](/features/generic-scheduler) — Schedule watch via cron/systemd
 - [Cross-Squad Orchestration](/features/cross-squad-orchestration) — Watch across squad boundaries
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/squad]] — Squad
+- [[000 - Map of Maps]] — Map of Maps
+

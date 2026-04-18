@@ -295,3 +295,9 @@ mcp_servers:
       SIYUAN_TOKEN: "your_token"
       SIYUAN_URL: "http://127.0.0.1:6806"
 ```
+
+## 🔗 Связи
+
+- [[000 - Map of Maps]] — REPO_DOCS
+- [[000 - Map of Maps]] — Map of Maps
+

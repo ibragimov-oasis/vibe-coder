@@ -74,3 +74,10 @@ After compression, Hermes may re-inject compact operational state such as:
 - [Prompt Assembly](./prompt-assembly.md)
 - [Session Storage](./session-storage.md)
 - [Agent Loop Internals](./agent-loop.md)
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/hermes]] — Hermes
+- [[000 - Map of Maps]] — Map of Maps
+

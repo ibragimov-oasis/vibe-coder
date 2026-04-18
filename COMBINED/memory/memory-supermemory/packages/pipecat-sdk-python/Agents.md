@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/memory
+  - artifact/memory
+  - source/memory
+---
+
 # AGENTS.md
 
 ## Overview
@@ -70,3 +77,9 @@ memory = SupermemoryPipecatService(
 - Always place memory service after `context_aggregator.user()` and before `llm`
 - Always provide `user_id` - it's required
 - Never hardcode API keys in code - use environment variables
+
+## 🔗 Связи
+
+- [[MOC - Memory]] — memory
+- [[000 - Map of Maps]] — Map of Maps
+

@@ -234,3 +234,10 @@ See [keda-copilot-scaler](https://github.com/tamirdresher/keda-copilot-scaler) f
 - [Circuit Breaker Template](ralph-circuit-breaker.md) — Foundation patterns
 - [Squad on AKS](https://github.com/tamirdresher/squad-on-aks) — Production K8s deployment
 - [KEDA Copilot Scaler](https://github.com/tamirdresher/keda-copilot-scaler) — Custom KEDA external scaler
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/squad]] — Squad
+- [[000 - Map of Maps]] — Map of Maps
+

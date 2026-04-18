@@ -39,3 +39,9 @@ CI/CD, deployment, Git workflow навыки.
 
 - [[skills/skills-development]] — git-guardrails источник (Matt Pocock)
 - [[orchestration/core-cc-connect]] — remote access/deploy
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Parent MOC
+- [[000 - Map of Maps]] — Map of Maps
+

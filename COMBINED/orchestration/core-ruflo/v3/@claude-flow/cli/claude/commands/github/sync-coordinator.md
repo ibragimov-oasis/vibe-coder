@@ -306,3 +306,10 @@ const testMatrix = {
 - Incremental sync retry mechanisms
 - Manual intervention points for complex conflicts
 - State preservation across sync operations
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

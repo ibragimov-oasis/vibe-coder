@@ -60,3 +60,10 @@ Describe the solution you'd like.
 - [ ] Acceptance criterion 2
 - [ ] Tests covering the feature
 - [ ] Documentation updated (if user-facing)
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/archon]] — Archon
+- [[000 - Map of Maps]] — Map of Maps
+

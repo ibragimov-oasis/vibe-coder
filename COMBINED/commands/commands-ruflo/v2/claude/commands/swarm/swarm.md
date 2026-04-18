@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/command
+  - source/commands
+---
+
 # swarm
 
 Main swarm orchestration command for Claude Flow.
@@ -25,3 +32,9 @@ npx claude-flow swarm "Research AI patterns" --strategy research
 # Open in Claude Code
 npx claude-flow swarm "Build API" --claude
 ```
+
+## 🔗 Связи
+
+- [[MOC - System]] — commands
+- [[000 - Map of Maps]] — Map of Maps
+

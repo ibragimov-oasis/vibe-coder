@@ -119,3 +119,10 @@ import { createReasoningBank } from 'agentic-flow/dist/reasoningbank/wasm-adapte
 **Integration: ✅ WORKING**  
 **Performance: ✅ VERIFIED**  
 **Production: ✅ READY**
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

@@ -1406,3 +1406,10 @@ If you encounter issues not covered in this guide:
 ---
 
 **Happy Migrating! Welcome to Claude Flow v3!** 🚀
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

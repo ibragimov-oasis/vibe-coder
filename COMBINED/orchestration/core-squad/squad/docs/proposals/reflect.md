@@ -83,3 +83,10 @@ A structured reflection protocol triggered by failure or feedback events:
 ## References
 
 - Issue: bradygaster/squad#621
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/squad]] — Squad
+- [[000 - Map of Maps]] — Map of Maps
+

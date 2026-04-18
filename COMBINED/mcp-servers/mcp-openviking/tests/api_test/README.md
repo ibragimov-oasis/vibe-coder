@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/mcp
+  - artifact/mcp-server
+  - source/mcp-servers
+---
+
 # OpenViking API 自动化测试
 
 本目录包含 OpenViking 的 API 集成测试套件。
@@ -144,3 +151,9 @@ python -m pytest retrieval/ -v
 
 - OpenViking API 文档：`docs/zh/api/`
 - CI/CD 配置：`.github/workflows/api_test.yml`
+
+## 🔗 Связи
+
+- [[MOC - MCP Servers]] — mcp-servers
+- [[000 - Map of Maps]] — Map of Maps
+

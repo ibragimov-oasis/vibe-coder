@@ -424,3 +424,10 @@ import * as ReasoningBank from 'agentic-flow/reasoningbank';
 **Test Environment**: Docker (node:20-alpine equivalent)
 **Test Date**: 2025-10-24
 **Report Version**: 1.0
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

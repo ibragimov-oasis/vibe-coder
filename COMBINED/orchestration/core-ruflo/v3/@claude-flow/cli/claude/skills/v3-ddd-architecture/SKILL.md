@@ -444,3 +444,10 @@ Task("DDD architecture implementation",
 # Create domain plugin
 npm run create:plugin -- --name swarm-coordination --template domain
 ```
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

@@ -159,3 +159,10 @@ Before launch, ALL of the following must be true:
 - [ ] Audit trail format validated against template
 - [ ] `banana` / `pao resume` flow tested end-to-end
 - [ ] At least one full scan→draft→review→post cycle completed successfully
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/squad]] — Squad
+- [[000 - Map of Maps]] — Map of Maps
+

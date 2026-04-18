@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/mcp
+  - artifact/mcp-server
+  - source/mcp-servers
+---
+
 # 快速开始
 
 5 分钟上手 OpenViking。
@@ -209,3 +216,9 @@ Search results:
 - [配置详解](../guides/01-configuration.md) - 详细配置选项
 - [API 概览](../api/01-overview.md) - API 参考
 - [资源管理](../api/02-resources.md) - 资源管理 API
+
+## 🔗 Связи
+
+- [[MOC - MCP Servers]] — mcp-servers
+- [[000 - Map of Maps]] — Map of Maps
+

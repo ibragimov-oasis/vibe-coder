@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/memory
+  - artifact/memory
+  - source/memory
+---
+
 # Issue #598: Conversation History Pollution - Technical Analysis Report
 
 **Issue:** Too many messages, polluting my conversation history
@@ -363,3 +370,9 @@ if (!session.memorySessionId && message.session_id) {
 
 *Report generated: 2026-01-07*
 *Analysis based on codebase at commit: 687146ce (merge main)*
+
+## 🔗 Связи
+
+- [[MOC - Memory]] — memory
+- [[000 - Map of Maps]] — Map of Maps
+

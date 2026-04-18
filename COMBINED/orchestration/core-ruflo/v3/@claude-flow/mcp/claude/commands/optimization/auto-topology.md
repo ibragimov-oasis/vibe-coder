@@ -67,3 +67,10 @@ Parameters: {"swarmId": "current"}
 # Auto-optimize topology via CLI
 npx claude-flow optimize topology
 ```
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

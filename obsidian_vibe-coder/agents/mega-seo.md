@@ -67,3 +67,9 @@ Claude-SEO + Antigravity + **SEOMachine (10 агентов, 26 навыков, G
 ## Исходник
 
 > 📂 `../COMBINED/agents/mega/mega-seo.md`
+
+## 🔗 Связи
+
+- [[MOC - Agents]] — Parent MOC
+- [[000 - Map of Maps]] — Map of Maps
+

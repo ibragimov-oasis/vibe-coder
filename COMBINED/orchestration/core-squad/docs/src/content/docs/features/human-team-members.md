@@ -139,3 +139,10 @@ remove Sarah from the team
 ```
 
 Moves a human team member to the alumni list.
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/squad]] — Squad
+- [[000 - Map of Maps]] — Map of Maps
+

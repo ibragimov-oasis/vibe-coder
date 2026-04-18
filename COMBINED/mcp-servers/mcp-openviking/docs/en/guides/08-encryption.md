@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/mcp
+  - artifact/mcp-server
+  - source/mcp-servers
+---
+
 # Encryption Guide
 
 This guide describes how to enable and use at-rest data encryption in OpenViking.
@@ -399,3 +406,9 @@ If using encrypted files created with an older OpenViking version, partial reads
 - [Data Encryption](../concepts/10-encryption.md) - Encryption concepts
 - [Configuration Guide](./01-configuration.md) - Complete configuration reference
 - [Technical Design](../../design/multi-tenant-file-encryption-desigin.md) - Encryption technical design
+
+## 🔗 Связи
+
+- [[MOC - MCP Servers]] — mcp-servers
+- [[000 - Map of Maps]] — Map of Maps
+

@@ -150,3 +150,10 @@ getCurrentUser():
 ## Notes
 
 <!-- Optional: Alternatives considered, open questions, etc. -->
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/refly]] — Refly
+- [[000 - Map of Maps]] — Map of Maps
+

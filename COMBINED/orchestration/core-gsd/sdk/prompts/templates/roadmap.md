@@ -207,3 +207,10 @@ Plans:
 - Current/future milestones expanded
 - Continuous phase numbering (01-99)
 - Progress table includes milestone column
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/gsd]] — GSD
+- [[000 - Map of Maps]] — Map of Maps
+

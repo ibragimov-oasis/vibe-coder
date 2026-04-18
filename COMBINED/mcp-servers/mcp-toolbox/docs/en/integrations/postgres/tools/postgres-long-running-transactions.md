@@ -4,6 +4,10 @@ type: docs
 weight: 1
 description: >
   The postgres-long-running-transactions tool Identifies and lists database transactions that exceed a specified time limit. For each of the long running transactions, the output contains the process id, database name, user name, application name, client address, state, connection age, transaction age, query age, last activity age, wait event type, wait event, and query string.
+tags:
+  - domain/mcp
+  - artifact/mcp-server
+  - source/mcp-servers
 ---
 
 ## About
@@ -102,3 +106,9 @@ ORDER BY
 LIMIT 
   COALESCE($2::int, 20);
 ```
+
+## 🔗 Связи
+
+- [[MOC - MCP Servers]] — mcp-servers
+- [[000 - Map of Maps]] — Map of Maps
+

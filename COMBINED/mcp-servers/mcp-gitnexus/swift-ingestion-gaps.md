@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/mcp
+  - artifact/mcp-server
+  - source/mcp-servers
+---
+
 # Swift Ingestion Gaps
 
 Tracks missing Swift features in the GitNexus ingestion pipeline. Organized by priority.
@@ -78,3 +85,9 @@ Tracks missing Swift features in the GitNexus ingestion pipeline. Organized by p
 | `self` / `super` resolution | `lookupInEnv` handles `self`/`super` via AST walk | `16b1a63` |
 | Optional chaining `obj?.method()` | Handled via `optional_chaining_expression` | `16b1a63` |
 | Multi-inheritance specifiers | First specifier captured via `inheritance_specifier` query | `16b1a63` |
+
+## 🔗 Связи
+
+- [[MOC - MCP Servers]] — mcp-servers
+- [[000 - Map of Maps]] — Map of Maps
+

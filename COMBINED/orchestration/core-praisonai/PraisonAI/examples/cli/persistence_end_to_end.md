@@ -129,3 +129,10 @@ praisonai persistence doctor --help
 praisonai persistence run --help
 praisonai persistence resume --help
 ```
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/praisonai]] — PraisonAI
+- [[000 - Map of Maps]] — Map of Maps
+

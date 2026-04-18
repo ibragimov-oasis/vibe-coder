@@ -277,3 +277,10 @@ This document is based on active research spikes (#32, #33, #34) conducted in Fe
 - [Parallel Execution](../features/parallel-execution.md) — Background and sync patterns
 - [Worktrees](../features/worktrees.md) — Multi-branch isolation
 - [Troubleshooting](./troubleshooting.md) — Common questions and answers
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/squad]] — Squad
+- [[000 - Map of Maps]] — Map of Maps
+

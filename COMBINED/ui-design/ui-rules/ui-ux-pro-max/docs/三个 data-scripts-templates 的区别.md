@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/ui
+  - artifact/ui-component
+  - source/ui-design
+---
+
 # 三处 data / scripts / templates 的区别
 
 ## 三处分别是什么
@@ -28,3 +35,9 @@
    cp -r src/ui-ux-pro-max/scripts/* cli/assets/scripts/
    cp -r src/ui-ux-pro-max/templates/* cli/assets/templates/
    ```
+
+## 🔗 Связи
+
+- [[MOC - UI Design]] — ui-design
+- [[000 - Map of Maps]] — Map of Maps
+

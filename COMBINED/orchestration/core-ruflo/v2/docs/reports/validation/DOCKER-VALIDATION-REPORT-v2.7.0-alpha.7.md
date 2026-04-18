@@ -366,3 +366,10 @@ Node Version: 20.x LTS
 **Version**: v2.7.0-alpha.7
 **Status**: ✅ **PRODUCTION READY**
 **WASM Status**: ✅ **WORKING**
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

@@ -318,3 +318,10 @@ archon workflow run archon-assist "/command-invoke my-command some-arg"
 ---
 
 You've covered the full guide — from mental model to hooks to this reference. When you need to look something up quickly, this is the page to come back to.
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/archon]] — Archon
+- [[000 - Map of Maps]] — Map of Maps
+

@@ -40,3 +40,9 @@ source: "../MERGE_PLAN.md"
 
 - [[root-docs/HOW_TO_COMBINE]] — инструкция по методологии объединения
 - [[root-docs/PHASED_MIGRATION_PLAN]] — поэтапный план миграции
+
+## 🔗 Связи
+
+- [[000 - Map of Maps]] — Parent MOC
+- [[000 - Map of Maps]] — Map of Maps
+

@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/reference
+  - source/reference
+---
+
 # Xray Test Case Prompt
 
 A specialized .cursorrules prompt for creating structured, Jira-compatible test cases for Xray from automated tests or feature descriptions.
@@ -33,3 +40,9 @@ The .cursorrules prompt guides QA engineers in creating effective Xray test case
 - **Conversion Process**: Step-by-step guide for converting automated tests to Xray format
 - **Jira Integration**: Guidance on using Xray-specific annotations for Jira linking
 - **Data-Driven Testing**: Techniques for parameterizing tests with multiple data sets
+
+## 🔗 Связи
+
+- [[MOC - System]] — reference
+- [[000 - Map of Maps]] — Map of Maps
+

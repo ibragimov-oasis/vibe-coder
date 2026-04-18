@@ -550,3 +550,10 @@ streaming.clear();
 - [Your Team](../concepts/your-team.md) — Agent roles, charters, and team composition
 - [Architecture](../concepts/architecture.md) — How the coordinator orchestrates work
 - [SDK Reference](../reference/sdk.md) — SDK API for autonomous agents
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/squad]] — Squad
+- [[000 - Map of Maps]] — Map of Maps
+

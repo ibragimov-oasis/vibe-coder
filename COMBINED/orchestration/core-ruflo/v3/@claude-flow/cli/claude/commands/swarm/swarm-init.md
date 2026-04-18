@@ -24,3 +24,10 @@ npx claude-flow swarm init [options]
 npx claude-flow swarm init --topology mesh
 npx claude-flow swarm init --topology hierarchical --max-agents 8
 ```
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

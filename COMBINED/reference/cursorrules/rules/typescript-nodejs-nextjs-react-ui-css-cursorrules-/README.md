@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/reference
+  - source/reference
+---
+
 # TypeScript Node.js Next.js React UI CSS .cursorrules prompt file
 
 Author: virgoone
@@ -13,4 +20,9 @@ A developer building a Next.js application with TypeScript, optimized UI and per
 
 ## Overview of .cursorrules prompt
 The .cursorrules file serves as a guideline for developers working with TypeScript, Node.js, Next.js App Router, React, Shadcn UI, Radix UI, and Tailwind CSS. It emphasizes concise and technical TypeScript coding, advocating for functional and declarative programming patterns, modularization, and descriptive variable naming. The file advises using TypeScript interfaces, favoring maps over enums, and adopting functional components. It includes syntax and formatting preferences, such as the use of the "function" keyword for pure functions and declarative JSX. For UI and styling, it promotes the use of Shadcn UI, Radix, and Tailwind with a responsive design approach. Performance optimization suggestions focus on minimizing client-side hooks and using React Server Components, dynamic loading, and image optimization. Additionally, it outlines key conventions like using 'nuqs' for URL search parameters, optimizing Web Vitals, and limiting the use of client-side components, recommending adherence to Next.js documentation for data fetching, rendering, and routing.
+
+## 🔗 Связи
+
+- [[MOC - System]] — reference
+- [[000 - Map of Maps]] — Map of Maps
 

@@ -800,3 +800,10 @@ Squad's CI/CD pipeline is **functional but fragile**. The core publish workflow 
 - Document token rotation
 
 **The Goal:** Make the CI/CD pipeline disaster-proof. Every validation gap is a potential v0.8.22-style incident waiting to happen. Defense in depth is not optional for publish pipelines.
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/squad]] — Squad
+- [[000 - Map of Maps]] — Map of Maps
+

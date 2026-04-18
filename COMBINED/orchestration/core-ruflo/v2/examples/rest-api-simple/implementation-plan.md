@@ -240,3 +240,10 @@ npx claude-flow monitor
 - `NODE_ENV`: Environment (development/production)
 
 No other configuration needed!
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

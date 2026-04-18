@@ -134,3 +134,10 @@ This is a local credential purge — it does not revoke server-side tokens (not 
 - [ ] Verified calling functions are `async`
 - [ ] Set explicit `tenantId` in config (recommended for multi-tenant)
 - [ ] Tested auth flow still works after upgrade
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/squad]] — Squad
+- [[000 - Map of Maps]] — Map of Maps
+

@@ -8,6 +8,10 @@ allowed-tools:
   - "Write"
   - "Bash"
   - "web_fetch"
+tags:
+  - domain/ui
+  - artifact/ui-component
+  - source/ui-design
 ---
 
 # shadcn/ui Component Integration
@@ -324,3 +328,9 @@ See the `examples/` directory for:
 - Dashboard layouts
 - Authentication flows
 - Data table implementations
+
+## 🔗 Связи
+
+- [[MOC - UI Design]] — ui-design
+- [[000 - Map of Maps]] — Map of Maps
+

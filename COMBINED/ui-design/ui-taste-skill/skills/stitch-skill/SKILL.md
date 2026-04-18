@@ -1,6 +1,10 @@
 ---
 name: stitch-design-taste
 description: Semantic Design System Skill for Google Stitch. Generates agent-friendly DESIGN.md files that enforce premium, anti-generic UI standards — strict typography, calibrated color, asymmetric layouts, perpetual micro-motion, and hardware-accelerated performance.
+tags:
+  - domain/ui
+  - artifact/ui-component
+  - source/ui-design
 ---
 
 # Stitch Design Taste — Semantic Design System Skill
@@ -182,3 +186,9 @@ no generic placeholder names, no broken image links.)
 - Being too vague in atmosphere descriptions
 - Ignoring the anti-pattern list — these are what make the output premium
 - Defaulting to generic "safe" designs instead of enforcing the curated aesthetic
+
+## 🔗 Связи
+
+- [[MOC - UI Design]] — ui-design
+- [[000 - Map of Maps]] — Map of Maps
+

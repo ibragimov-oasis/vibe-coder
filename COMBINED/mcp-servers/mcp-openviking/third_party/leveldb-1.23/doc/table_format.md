@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/mcp
+  - artifact/mcp-server
+  - source/mcp-servers
+---
+
 leveldb File format
 ===================
 
@@ -105,3 +112,9 @@ TODO(postrelease): record following stats.
     value size (uncompressed)
     number of entries
     number of data blocks
+
+## 🔗 Связи
+
+- [[MOC - MCP Servers]] — mcp-servers
+- [[000 - Map of Maps]] — Map of Maps
+

@@ -401,3 +401,10 @@ If type-check/tests fail after rebase:
 - **NO_CONFLICTS**: All conflicts resolved (if any existed)
 - **VALIDATION_PASSED**: Type check, tests, lint all pass
 - **PUSHED**: Remote branch updated (if rebase occurred)
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/archon]] — Archon
+- [[000 - Map of Maps]] — Map of Maps
+

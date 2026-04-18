@@ -65,3 +65,10 @@ Six threat categories with configurable detection patterns:
 - **Input sanitization only**: Catches known patterns but misses novel attacks; detection + prevention is stronger
 - **Full Byzantine consensus (PBFT)**: Correct but requires 3f+1 agents for f faults; quorum voting is simpler for the common case
 - **External security service**: Adds latency and network dependency; local-first detection is faster
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

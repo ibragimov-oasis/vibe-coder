@@ -189,3 +189,10 @@ const coverage = await batchtools.analyzeCoverage([
   '/src/validators/**/*.ts',
 ]);
 ```
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/mcp
+  - artifact/mcp-server
+  - source/mcp-servers
+---
+
 ## Explore Your Code
 
 Open the **Code Graph** panel in the activity bar to browse your codebase structure.
@@ -8,3 +15,9 @@ Open the **Code Graph** panel in the activity bar to browse your codebase struct
 - **Code Graph: Find Tests** -- Find tests for any function
 - **Code Graph: Search** -- Search across your entire code graph
 - **Code Graph: Show Graph** -- Open the interactive graph visualization
+
+## 🔗 Связи
+
+- [[MOC - MCP Servers]] — mcp-servers
+- [[000 - Map of Maps]] — Map of Maps
+

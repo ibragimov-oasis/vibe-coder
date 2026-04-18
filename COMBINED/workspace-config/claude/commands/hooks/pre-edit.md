@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/config
+  - source/workspace-config
+---
+
 # hook pre-edit
 
 Execute pre-edit validations and agent assignment before file modifications.
@@ -111,3 +118,9 @@ Returns JSON with:
 - `Edit` - File editing tool
 - `MultiEdit` - Multiple edits tool
 - `agent spawn` - Manual agent creation
+
+## 🔗 Связи
+
+- [[MOC - System]] — workspace-config
+- [[000 - Map of Maps]] — Map of Maps
+

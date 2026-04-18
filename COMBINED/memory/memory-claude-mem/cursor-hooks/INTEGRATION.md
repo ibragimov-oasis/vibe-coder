@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/memory
+  - artifact/memory
+  - source/memory
+---
+
 # Claude-Mem ↔ Cursor Integration Architecture
 
 ## Overview
@@ -248,4 +255,9 @@ Located in `hooks.json`:
 ## Troubleshooting
 
 See [README.md](README.md#troubleshooting) for detailed troubleshooting steps.
+
+## 🔗 Связи
+
+- [[MOC - Memory]] — memory
+- [[000 - Map of Maps]] — Map of Maps
 

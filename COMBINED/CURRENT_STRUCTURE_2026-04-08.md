@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/combined-root
+---
+
 # 📂 COMBINED DIRECTORY STRUCTURE - CURRENT STATE
 
 > **Complete Structure Documentation**  
@@ -518,3 +525,8 @@ All second-level directories follow the pattern: `{category}-{source}`
 *For detailed usage guides, see `PHASE_6_ORCHESTRATION_INTEGRATION.md`*  
 *For complete phase history, see `ALL_PHASES_COMPLETE.md`*  
 *For validation details, see `PHASE_5_VALIDATION_AUDIT.md`*
+
+## 🔗 Связи
+
+- [[000 - Map of Maps]] — Map of Maps
+

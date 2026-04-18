@@ -58,3 +58,10 @@ See the [migration guide](https://github.com/bradygaster/squad/blob/main/docs/ge
 **Squad** — AI agent teams for any project. Open source. On npm. Ready now.
 
 [Get started →](https://github.com/bradygaster/squad)
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/squad]] — Squad
+- [[000 - Map of Maps]] — Map of Maps
+

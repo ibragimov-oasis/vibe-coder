@@ -310,3 +310,10 @@ The output URL confirms success: `https://github.com/<org>/<repo>/issues/<number
 | Forgetting API key forwarding section | Always document how secrets are passed to containers |
 | Skipping `populate_context_post_run` | Harbor uses this for token tracking and leaderboard data |
 | Missing upstream PR instructions | Specify exact files to modify upstream for first-class support |
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/praisonai]] — PraisonAI
+- [[000 - Map of Maps]] — Map of Maps
+

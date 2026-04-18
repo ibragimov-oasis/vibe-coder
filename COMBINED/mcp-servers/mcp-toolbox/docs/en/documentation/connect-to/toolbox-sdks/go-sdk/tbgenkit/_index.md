@@ -5,6 +5,10 @@ type: docs
 weight: 3
 description: >
   MCP Toolbox Genkit for integrating functionalities of MCP Toolbox into your Agentic apps.
+tags:
+  - domain/mcp
+  - artifact/mcp-server
+  - source/mcp-servers
 ---
 
 ## Overview
@@ -117,3 +121,9 @@ func main() {
 ```
 
 </details>
+
+## 🔗 Связи
+
+- [[MOC - MCP Servers]] — mcp-servers
+- [[000 - Map of Maps]] — Map of Maps
+

@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/reference
+  - source/reference
+---
+
 # Playwright Integration Testing Prompt
 
 A specialized .cursorrules prompt for creating comprehensive integration tests using Playwright with TypeScript support.
@@ -34,3 +41,9 @@ The .cursorrules prompt guides QA engineers in creating effective integration te
 - **API Mocking Strategy**: Approach for using page.route to control API responses during integration tests
 - **State Validation**: Methods for verifying UI state updates correctly based on API interactions
 - **Type Safety**: TypeScript interfaces for request and response data to ensure type safety
+
+## 🔗 Связи
+
+- [[MOC - System]] — reference
+- [[000 - Map of Maps]] — Map of Maps
+

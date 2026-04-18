@@ -175,3 +175,10 @@ After merging accepted PRs:
 **Phase 1 merge approved.** 5 clean PRs ready for immediate merge.
 **Phase 2 pending.** Review comments posted; awaiting contributor fixes.
 **Phase 3 blocked.** Contributor must rebase onto post-v3.5.22 main.
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

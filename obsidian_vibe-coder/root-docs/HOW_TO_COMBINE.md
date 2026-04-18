@@ -46,3 +46,9 @@ source: "../HOW_TO_COMBINE.md"
 
 - [[root-docs/REORGANIZATION_SUMMARY]] — итог применения методологии
 - [[root-docs/CONTRIBUTING]] — как вносить вклад в объединённый репо
+
+## 🔗 Связи
+
+- [[000 - Map of Maps]] — Parent MOC
+- [[000 - Map of Maps]] — Map of Maps
+

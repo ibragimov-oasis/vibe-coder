@@ -4,6 +4,10 @@ type: docs
 weight: 2
 description: >
     This page lists all the prebuilt configs available.
+tags:
+  - domain/mcp
+  - artifact/mcp-server
+  - source/mcp-servers
 ---
 
 Prebuilt configs are reusable, pre-packaged toolsets that are designed to extend
@@ -25,3 +29,9 @@ See [Usage Examples](../../../reference/cli.md#usage-examples).
 ## Available Prebuilt Configs
 
 {{< list-prebuilt-configs >}}
+
+## 🔗 Связи
+
+- [[MOC - MCP Servers]] — mcp-servers
+- [[000 - Map of Maps]] — Map of Maps
+

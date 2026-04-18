@@ -547,3 +547,10 @@ await adapter.retrieveWithReasoning(queryEmbedding, {
 **Category**: Machine Learning / Reinforcement Learning
 **Difficulty**: Intermediate to Advanced
 **Estimated Time**: 30-60 minutes
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

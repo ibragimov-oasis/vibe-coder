@@ -184,3 +184,10 @@ Named routing to two agents. Both spawn in parallel.
 - [Your Team](../concepts/your-team.md) — How team members and roles are defined
 - [Architecture](../concepts/architecture.md) — How the coordinator uses routing to dispatch work
 - [Parallel Work](../concepts/parallel-work.md) — Multi-agent parallel execution
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/squad]] — Squad
+- [[000 - Map of Maps]] — Map of Maps
+

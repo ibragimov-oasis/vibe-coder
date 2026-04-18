@@ -536,3 +536,10 @@ Proceeding to comprehensive code review...
 - **PR_CREATED**: PR exists and linked to issue
 - **IMPLEMENTATION_ARTIFACT**: Written to runs/$WORKFLOW_ID/
 - **READY_FOR_REVIEW**: Workflow continues to comprehensive review
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/archon]] — Archon
+- [[000 - Map of Maps]] — Map of Maps
+

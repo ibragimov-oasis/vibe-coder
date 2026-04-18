@@ -4,6 +4,10 @@ description: Update GSD to latest version with changelog display
 allowed-tools:
   - Bash
   - AskUserQuestion
+tags:
+  - domain/skills
+  - artifact/command
+  - source/commands
 ---
 
 <objective>
@@ -35,3 +39,9 @@ The workflow handles all logic including:
 7. Update execution
 8. Cache clearing
 </process>
+
+## 🔗 Связи
+
+- [[MOC - System]] — commands
+- [[000 - Map of Maps]] — Map of Maps
+

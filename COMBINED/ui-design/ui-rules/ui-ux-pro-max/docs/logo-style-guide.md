@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/ui
+  - artifact/ui-component
+  - source/ui-design
+---
+
 # Logo Style Guide
 
 ## Core Logo Types
@@ -107,3 +114,9 @@ Icon + text in unified design.
 - [ ] Works in single color
 - [ ] Maintains clarity in black/white
 - [ ] No tiny details that disappear when scaled
+
+## 🔗 Связи
+
+- [[MOC - UI Design]] — ui-design
+- [[000 - Map of Maps]] — Map of Maps
+

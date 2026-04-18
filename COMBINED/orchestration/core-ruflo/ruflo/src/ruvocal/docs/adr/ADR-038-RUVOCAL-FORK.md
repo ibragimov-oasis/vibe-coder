@@ -291,3 +291,10 @@ OPENAI_BASE_URL=https://openrouter.ai/api/v1
 1. For large deployments, future upgrade path to ruvector-postgres (PostgresAdapter already exists at `postgres.ts`)
 2. The debounced save + flush-on-exit pattern prevents data loss; WAL logging can be added if needed
 3. Keep fork minimal — only database layer changed, UI components untouched
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

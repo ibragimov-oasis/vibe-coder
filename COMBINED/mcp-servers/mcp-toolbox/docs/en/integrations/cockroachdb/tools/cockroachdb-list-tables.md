@@ -4,7 +4,10 @@ type: docs
 weight: 1
 description: >
   List tables in a CockroachDB database with schema details.
-
+tags:
+  - domain/mcp
+  - artifact/mcp-server
+  - source/mcp-servers
 ---
 
 ## About
@@ -350,3 +353,9 @@ The tool handles common errors:
 - [cockroachdb-list-schemas](./cockroachdb-list-schemas.md) - List database schemas
 - [CockroachDB Source](../source.md) - Source configuration reference
 - [CockroachDB Schema Design](https://www.cockroachlabs.com/docs/stable/schema-design-overview.html) - Best practices
+
+## 🔗 Связи
+
+- [[MOC - MCP Servers]] — mcp-servers
+- [[000 - Map of Maps]] — Map of Maps
+

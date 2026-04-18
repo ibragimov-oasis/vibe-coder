@@ -98,3 +98,10 @@ tags:
 
 **为什么用 `inherit` 而不是直接传递 `opus`？**
 Claude Code 的 `"opus"` 别名映射到特定模型版本。组织可能阻止旧版 opus 而允许新版。GSD 为 opus 级代理返回 `"inherit"`，使其使用用户在会话中配置的任何 opus 版本。这避免了版本冲突和静默回退到 Sonnet。
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/gsd]] — GSD
+- [[000 - Map of Maps]] — Map of Maps
+

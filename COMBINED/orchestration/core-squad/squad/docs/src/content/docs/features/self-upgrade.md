@@ -265,3 +265,10 @@ npm outdated -g @bradygaster/squad
 ```
 
 Checks if a newer version is available without upgrading.
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/squad]] — Squad
+- [[000 - Map of Maps]] — Map of Maps
+

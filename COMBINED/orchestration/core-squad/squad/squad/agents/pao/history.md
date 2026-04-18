@@ -292,3 +292,10 @@ Completed full PRD based on research findings. **Document:** `docs/research/jsdo
 - Four-phase approach breaks large effort into digestible increments (Phase 0 validation before JSDoc audit helps mitigate risk of TypeDoc setup failing)
 
 **Decision:** PRD approved for handoff to implementation team. Ready for execution on next sprint.
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/squad]] — Squad
+- [[000 - Map of Maps]] — Map of Maps
+

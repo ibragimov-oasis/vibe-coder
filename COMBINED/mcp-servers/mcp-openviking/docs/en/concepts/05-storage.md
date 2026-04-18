@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/mcp
+  - artifact/mcp-server
+  - source/mcp-servers
+---
+
 # Storage Architecture
 
 OpenViking uses a dual-layer storage architecture that separates content storage from index storage.
@@ -165,3 +172,9 @@ viking_fs.mv(
 - [Context Layers](./03-context-layers.md) - L0/L1/L2 model
 - [Viking URI](./04-viking-uri.md) - URI specification
 - [Retrieval Mechanism](./07-retrieval.md) - Retrieval process details
+
+## 🔗 Связи
+
+- [[MOC - MCP Servers]] — mcp-servers
+- [[000 - Map of Maps]] — Map of Maps
+

@@ -124,3 +124,10 @@ V3 Performance Gains
 - `npx claude-flow agent status` - Individual agent metrics
 - `npx claude-flow performance benchmark` - Full performance suite
 - `npx claude-flow status` - System-wide status
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

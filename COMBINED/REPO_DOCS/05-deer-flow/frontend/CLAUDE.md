@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/REPO_DOCS
+---
+
 # CLAUDE.md
 
 This file provides guidance to Claude Code (claude.ai/code) when working with code in this repository.
@@ -88,3 +95,9 @@ NEXT_PUBLIC_LANGGRAPH_BASE_URL=http://localhost:2024
 ```
 
 Requires Node.js 22+ and pnpm 10.26.2+.
+
+## 🔗 Связи
+
+- [[000 - Map of Maps]] — REPO_DOCS
+- [[000 - Map of Maps]] — Map of Maps
+

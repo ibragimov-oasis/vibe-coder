@@ -45,3 +45,10 @@ tags:
 - Implement request logging
 - Add performance monitoring
 - Consider using a CDN for static assets
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

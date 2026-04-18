@@ -791,3 +791,10 @@ packages/*/package.json @bradygaster
 ---
 
 **End of PRD**
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/squad]] — Squad
+- [[000 - Map of Maps]] — Map of Maps
+

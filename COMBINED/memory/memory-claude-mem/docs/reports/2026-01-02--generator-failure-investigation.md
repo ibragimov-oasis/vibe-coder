@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/memory
+  - artifact/memory
+  - source/memory
+---
+
 # Generator Failure Investigation Report
 
 **Date:** January 2, 2026
@@ -655,3 +662,9 @@ The "broken" state (Chroma failures crashing generator) was actually revealing a
 **Sessions Analyzed:** 7
 **Duration:** Full day (multiple sessions)
 **Final Status:** Operational with known issues documented
+
+## 🔗 Связи
+
+- [[MOC - Memory]] — memory
+- [[000 - Map of Maps]] — Map of Maps
+

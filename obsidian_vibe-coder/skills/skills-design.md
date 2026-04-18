@@ -50,3 +50,9 @@ UI/UX дизайн skills с Impeccable и Taste-skill подходами.
 
 - [[ui-design/taste-skill]] — подробнее о Taste-skill
 - [[ui-design/galaxy]] — 3000+ компонентов
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Parent MOC
+- [[000 - Map of Maps]] — Map of Maps
+

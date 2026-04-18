@@ -4,6 +4,10 @@ description: Diagnoses and fixes UI performance across loading speed, rendering,
 version: 2.1.1
 user-invocable: true
 argument-hint: "[target]"
+tags:
+  - domain/ui
+  - artifact/ui-component
+  - source/ui-design
 ---
 
 Identify and fix performance issues to create faster, smoother user experiences.
@@ -264,3 +268,9 @@ Test that optimizations worked:
 - **User perception**: Does it *feel* faster?
 
 Remember: Performance is a feature. Fast experiences feel more responsive, more polished, more professional. Optimize systematically, measure ruthlessly, and prioritize user-perceived performance.
+
+## 🔗 Связи
+
+- [[MOC - UI Design]] — ui-design
+- [[000 - Map of Maps]] — Map of Maps
+

@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/mcp
+  - artifact/mcp-server
+  - source/mcp-servers
+---
+
 # Viking URI
 
 Viking URI 是 OpenViking 中所有内容的统一资源标识符。
@@ -242,3 +249,9 @@ await client.add_skill(skill)  # 自动到 viking://agent/skills/
 - [上下文层级](./03-context-layers.md) - L0/L1/L2 模型
 - [存储架构](./05-storage.md) - VikingFS 和 AGFS
 - [会话管理](./08-session.md) - 会话存储结构
+
+## 🔗 Связи
+
+- [[MOC - MCP Servers]] — mcp-servers
+- [[000 - Map of Maps]] — Map of Maps
+

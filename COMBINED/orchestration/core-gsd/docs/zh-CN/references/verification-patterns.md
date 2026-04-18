@@ -617,3 +617,10 @@ check_substantive() {
 - 错误处理：检查点前修复损坏环境，绝不呈现有失败设置的检查点
 
 </checkpoint_automation_reference>
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/gsd]] — GSD
+- [[000 - Map of Maps]] — Map of Maps
+

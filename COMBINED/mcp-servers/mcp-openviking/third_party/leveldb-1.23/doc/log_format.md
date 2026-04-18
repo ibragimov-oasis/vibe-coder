@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/mcp
+  - artifact/mcp-server
+  - source/mcp-servers
+---
+
 leveldb Log format
 ==================
 The log file contents are a sequence of 32KB blocks.  The only exception is that
@@ -73,3 +80,9 @@ bytes free in the third block, which will be left empty as the trailer.
    format.
 
 2. No compression.  Again, this could be fixed by adding new record types.
+
+## 🔗 Связи
+
+- [[MOC - MCP Servers]] — mcp-servers
+- [[000 - Map of Maps]] — Map of Maps
+

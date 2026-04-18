@@ -355,3 +355,10 @@ Write to `$ARTIFACTS_DIR/e2e-main.md`:
 - **BUG_ASSESSED**: Each PR claim tested on main branch
 - **ARCHON_STOPPED**: Processes killed, ports freed — **VERIFY ports are free before finishing**
 - **ARTIFACT_WRITTEN**: `$ARTIFACTS_DIR/e2e-main.md` created
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/archon]] — Archon
+- [[000 - Map of Maps]] — Map of Maps
+

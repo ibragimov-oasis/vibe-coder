@@ -454,3 +454,10 @@ mcp__claude-flow__memory_usage {
 - Multi-agent incremental sync retry mechanisms
 - Intelligent intervention points for complex conflicts
 - Persistent state preservation across sync operations with memory coordination
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

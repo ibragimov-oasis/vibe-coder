@@ -350,3 +350,10 @@ npx claude-flow memory store "supabase-admin_context" "important decisions" --na
 # Query previous work
 npx claude-flow memory query "supabase-admin" --limit 5
 ```
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

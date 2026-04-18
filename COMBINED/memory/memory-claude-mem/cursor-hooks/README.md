@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/memory
+  - artifact/memory
+  - source/memory
+---
+
 # Claude-Mem Cursor Hooks Integration
 
 > **Persistent AI Memory for Cursor - Free Options Available**
@@ -244,3 +251,9 @@ Install on Ubuntu: `apt-get install jq curl`
 - [Claude-Mem Documentation](https://docs.claude-mem.ai)
 - [Cursor Hooks Reference](../docs/context/cursor-hooks-reference.md)
 - [Claude-Mem Architecture](https://docs.claude-mem.ai/architecture/overview)
+
+## 🔗 Связи
+
+- [[MOC - Memory]] — memory
+- [[000 - Map of Maps]] — Map of Maps
+

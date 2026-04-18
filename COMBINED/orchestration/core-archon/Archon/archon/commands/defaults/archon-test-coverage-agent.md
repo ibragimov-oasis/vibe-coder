@@ -275,3 +275,10 @@ describe('{feature}', () => {
 - **GAPS_IDENTIFIED**: Missing tests found with criticality scores
 - **QUALITY_EVALUATED**: Existing tests assessed
 - **TESTS_SUGGESTED**: Example test code provided for gaps
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/archon]] — Archon
+- [[000 - Map of Maps]] — Map of Maps
+

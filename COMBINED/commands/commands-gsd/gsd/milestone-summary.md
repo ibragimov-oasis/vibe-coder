@@ -9,6 +9,10 @@ allowed-tools:
   - Bash
   - Grep
   - Glob
+tags:
+  - domain/skills
+  - artifact/command
+  - source/commands
 ---
 
 <objective>
@@ -49,3 +53,9 @@ Read and execute the milestone-summary workflow from @~/.claude/get-shit-done/wo
 - Interactive Q&A offered
 - STATE.md updated
 </success_criteria>
+
+## 🔗 Связи
+
+- [[MOC - System]] — commands
+- [[000 - Map of Maps]] — Map of Maps
+

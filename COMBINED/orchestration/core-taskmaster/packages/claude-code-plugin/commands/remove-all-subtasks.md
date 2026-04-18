@@ -98,3 +98,10 @@ Next steps:
 - Re-expand complex tasks as needed
 - Check project timeline
 ```
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/task-master]] — Task-Master
+- [[000 - Map of Maps]] — Map of Maps
+

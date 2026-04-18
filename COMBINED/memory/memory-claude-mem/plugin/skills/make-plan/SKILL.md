@@ -1,6 +1,10 @@
 ---
 name: make-plan
 description: Create a detailed, phased implementation plan with documentation discovery. Use when asked to plan a feature, task, or multi-step implementation — especially before executing with do.
+tags:
+  - domain/memory
+  - artifact/memory
+  - source/memory
 ---
 
 # Make Plan
@@ -61,3 +65,9 @@ The orchestrator consolidates findings into a single Phase 0 output.
 - Adding parameters not in documentation
 - Skipping verification steps
 - Assuming structure without checking examples
+
+## 🔗 Связи
+
+- [[MOC - Memory]] — memory
+- [[000 - Map of Maps]] — Map of Maps
+

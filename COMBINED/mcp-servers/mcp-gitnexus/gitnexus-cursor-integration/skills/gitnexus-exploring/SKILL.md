@@ -1,6 +1,10 @@
 ---
 name: gitnexus-exploring
 description: Navigate unfamiliar code using GitNexus knowledge graph
+tags:
+  - domain/mcp
+  - artifact/mcp-server
+  - source/mcp-servers
 ---
 
 # Exploring Codebases with GitNexus
@@ -73,3 +77,9 @@ gitnexus_context({name: "validateUser"})
    → Outgoing: validateCard, chargeStripe, saveTransaction
 4. Read src/payments/processor.ts for implementation details
 ```
+
+## 🔗 Связи
+
+- [[MOC - MCP Servers]] — mcp-servers
+- [[000 - Map of Maps]] — Map of Maps
+

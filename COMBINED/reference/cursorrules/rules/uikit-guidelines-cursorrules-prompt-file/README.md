@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/reference
+  - source/reference
+---
+
 # UIKit Guidelines .cursorrules Prompt File
 
 Author: MoonAndEye
@@ -20,3 +27,9 @@ The principles outlined in the file include:
 4. Event Handling: Pass events using closures, and ensure the closure passes 'self' as a parameter for external object identification.
 
 By adhering to these guidelines, developers can create efficient, scalable, and maintainable iOS applications that follow best practices and Apple's MVC principles.
+
+## 🔗 Связи
+
+- [[MOC - System]] — reference
+- [[000 - Map of Maps]] — Map of Maps
+

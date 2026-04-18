@@ -48,3 +48,9 @@ Self-learning loop: после каждой задачи Hermes извлекае
 
 - [[orchestration/core-background-agents]] — Step 1 пайплайна
 - [[orchestration/core-taskmaster]] — Step 0 пайплайна
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Parent MOC
+- [[000 - Map of Maps]] — Map of Maps
+

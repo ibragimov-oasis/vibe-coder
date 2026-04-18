@@ -4,6 +4,10 @@ type: docs
 weight: 1
 description: >
   A "dataproc-get-job" tool retrieves a specific Dataproc job from the source.
+tags:
+  - domain/mcp
+  - artifact/mcp-server
+  - source/mcp-servers
 ---
 
 ## About
@@ -61,3 +65,9 @@ description: Use this tool to get details of a Dataproc job.
 | source       |  string  |     true     | Name of the source the tool should use.            |
 | description  |  string  |     true     | Description of the tool that is passed to the LLM. |
 | authRequired | string[] |    false     | List of auth services required to invoke this tool |
+
+## 🔗 Связи
+
+- [[MOC - MCP Servers]] — mcp-servers
+- [[000 - Map of Maps]] — Map of Maps
+

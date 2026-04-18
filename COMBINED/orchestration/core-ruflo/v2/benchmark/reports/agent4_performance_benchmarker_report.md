@@ -142,3 +142,9 @@ The Performance Benchmarker has successfully delivered a comprehensive suite of 
 
 **Next Steps**: Integration with main benchmark engine and coordination with other agents for complete system enhancement.
 
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

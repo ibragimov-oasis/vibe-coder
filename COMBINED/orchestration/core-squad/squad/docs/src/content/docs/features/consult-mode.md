@@ -268,3 +268,10 @@ All consultations are tracked in your personal squad at `consultations/{project}
 - **Set up a personal squad:** See [Your Personal Squad](../guide/personal-squad.md) for initial setup with `squad init --global`
 - **Learn about sharing:** See [Export & Import](./export-import.md) for portable team snapshots
 - **Upstream inheritance:** See [Upstream Inheritance](./upstream-inheritance.md) for knowledge sharing across teams
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/squad]] — Squad
+- [[000 - Map of Maps]] — Map of Maps
+

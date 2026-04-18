@@ -111,3 +111,10 @@ Invalid references produce inline warnings rather than failures:
 | URL returns no content | Warning: "no content extracted" |
 | Sensitive path | Warning: "path is a sensitive credential file" |
 | Path outside workspace | Warning: "path is outside the allowed workspace" |
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/hermes]] — Hermes
+- [[000 - Map of Maps]] — Map of Maps
+

@@ -6,6 +6,10 @@ allowed-tools:
   - Glob
   - Grep
   - Bash
+tags:
+  - domain/skills
+  - artifact/command
+  - source/commands
 ---
 <objective>
 Scan all phases for pending, skipped, blocked, and human_needed UAT items. Cross-reference against codebase to detect stale documentation. Produce prioritized human test plan.
@@ -22,3 +26,9 @@ Core planning files are loaded in-workflow via CLI.
 Glob: .planning/phases/*/*-UAT.md
 Glob: .planning/phases/*/*-VERIFICATION.md
 </context>
+
+## 🔗 Связи
+
+- [[MOC - System]] — commands
+- [[000 - Map of Maps]] — Map of Maps
+

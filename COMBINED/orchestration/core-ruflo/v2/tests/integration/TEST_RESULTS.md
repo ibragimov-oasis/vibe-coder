@@ -142,3 +142,10 @@ The Claude-Flow task system successfully demonstrates:
 - ✅ High-performance batch operations
 
 The system is ready for production use cases requiring complex task orchestration, parallel processing, and intelligent agent coordination.
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

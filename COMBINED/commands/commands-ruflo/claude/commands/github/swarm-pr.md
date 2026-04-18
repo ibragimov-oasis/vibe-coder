@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/command
+  - source/commands
+---
+
 # Swarm PR - Managing Swarms through Pull Requests
 
 ## Overview
@@ -283,3 +290,9 @@ When using with Claude Code:
 5. Final review performed before marking ready
 
 See also: [swarm-issue.md](./swarm-issue.md), [workflow-automation.md](./workflow-automation.md)
+
+## 🔗 Связи
+
+- [[MOC - System]] — commands
+- [[000 - Map of Maps]] — Map of Maps
+

@@ -118,3 +118,9 @@ npx shadcn@latest add dialog
 - **Предыдущий:** [[ui-design/gallery/galaxy-components]]
 - **Anti-slop check:** [[ui-design/gallery/ui-patterns]]
 - **Map:** [[000 - Map of Maps]]
+
+## 🔗 Связи
+
+- [[MOC - UI Design]] — Parent MOC
+- [[000 - Map of Maps]] — Map of Maps
+

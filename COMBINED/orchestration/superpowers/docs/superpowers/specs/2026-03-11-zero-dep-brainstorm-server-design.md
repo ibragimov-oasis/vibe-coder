@@ -123,3 +123,10 @@ Debounce per-filename with ~100ms timeout to prevent duplicate events (common on
 **Unit tests** (`ws-protocol.test.js`): Test WebSocket frame encoding/decoding, handshake computation, and protocol edge cases directly by requiring `server.js` exports.
 
 **Integration tests** (`server.test.js`): Test full server behavior — HTTP serving, WebSocket communication, file watching, brainstorming workflow. Uses `ws` npm package as a test-only client dependency (not shipped to end users).
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/superpowers]] — Superpowers
+- [[000 - Map of Maps]] — Map of Maps
+

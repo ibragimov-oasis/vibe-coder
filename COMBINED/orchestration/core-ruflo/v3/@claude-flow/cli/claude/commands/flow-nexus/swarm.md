@@ -89,3 +89,10 @@ mcp__flow-nexus__agent_spawn({ type: "coder", name: "Backend Dev" })
 mcp__flow-nexus__agent_spawn({ type: "coder", name: "Frontend Dev" })
 mcp__flow-nexus__task_orchestrate({ task: "Build e-commerce platform" })
 ```
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

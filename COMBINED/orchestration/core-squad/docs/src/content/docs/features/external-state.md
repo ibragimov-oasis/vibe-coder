@@ -300,3 +300,10 @@ Show me the external state path
 ```
 
 Prints the platform-specific global directory path.
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/squad]] — Squad
+- [[000 - Map of Maps]] — Map of Maps
+

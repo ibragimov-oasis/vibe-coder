@@ -20,3 +20,10 @@ Infrastructure and deployment.
 - Docker, Docker Compose
 - CI/CD pipelines
 - Cloud infrastructure
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/squad]] — Squad
+- [[000 - Map of Maps]] — Map of Maps
+

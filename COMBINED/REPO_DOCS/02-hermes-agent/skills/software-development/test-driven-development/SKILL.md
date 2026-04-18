@@ -340,3 +340,9 @@ Otherwise → not TDD
 ```
 
 No exceptions without the user's explicit permission.
+
+## 🔗 Связи
+
+- [[000 - Map of Maps]] — REPO_DOCS
+- [[000 - Map of Maps]] — Map of Maps
+

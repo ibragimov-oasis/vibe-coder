@@ -2,6 +2,10 @@
 title: "Microsoft SQL Server"
 type: docs
 description: "Details of the Microsoft SQL Server prebuilt configuration."
+tags:
+  - domain/mcp
+  - artifact/mcp-server
+  - source/mcp-servers
 ---
 
 ## Microsoft SQL Server
@@ -19,3 +23,9 @@ description: "Details of the Microsoft SQL Server prebuilt configuration."
 *   **Tools:**
     *   `execute_sql`: Executes a SQL query.
     *   `list_tables`: Lists tables in the database.
+
+## 🔗 Связи
+
+- [[MOC - MCP Servers]] — mcp-servers
+- [[000 - Map of Maps]] — Map of Maps
+

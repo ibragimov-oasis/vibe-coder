@@ -131,3 +131,10 @@ squad plugin install github/my-org/my-extension
 ---
 
 **Ready to share?** [Open a discussion](https://github.com/bradygaster/squad/discussions) in the Squad community.
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/squad]] — Squad
+- [[000 - Map of Maps]] — Map of Maps
+

@@ -101,3 +101,10 @@ mcp__claude-flow__daa_fault_tolerance({
   "strategy": "auto-recovery"
 })
 ```
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

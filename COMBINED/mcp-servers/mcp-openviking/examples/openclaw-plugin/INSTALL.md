@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/mcp
+  - artifact/mcp-server
+  - source/mcp-servers
+---
+
 # Installing OpenViking for OpenClaw
 
 Provide long-term memory capabilities for [OpenClaw](https://github.com/openclaw/openclaw) via [OpenViking](https://github.com/volcengine/OpenViking). After installing, OpenClaw will automatically **remember** important information from conversations and **recall** relevant content before replying. The latest version of OpenViking includes a [WebConsole](https://github.com/volcengine/OpenViking/tree/main/openviking/console) for debugging and operations. Method 3 in this document also provides instructions on how to verify that memories are written via the WebConsole interface. We welcome you to try it out and provide feedback.
@@ -593,3 +600,9 @@ python3 -m pip uninstall openviking -y && rm -rf ~/.openviking
 **See also:** [INSTALL-ZH.md](https://github.com/volcengine/OpenViking/blob/main/examples/openclaw-plugin/INSTALL-ZH.md) (Chinese) · [INSTALL-AGENT.md](https://github.com/volcengine/OpenViking/blob/main/examples/openclaw-plugin/INSTALL-AGENT.md) (Agent Install Guide)
 
 ---
+
+## 🔗 Связи
+
+- [[MOC - MCP Servers]] — mcp-servers
+- [[000 - Map of Maps]] — Map of Maps
+

@@ -4,6 +4,10 @@ type: docs
 weight: 1
 description: >
   Query a Firestore collection with parameterizable filters and Firestore native JSON value types
+tags:
+  - domain/mcp
+  - artifact/mcp-server
+  - source/mcp-servers
 ---
 
 ## About
@@ -435,3 +439,9 @@ curl -X POST http://localhost:5000/api/tool/your-tool-name/invoke \
 - [Firestore Source Configuration](../source.md)
 - [Firestore Query
   Documentation](https://firebase.google.com/docs/firestore/query-data/queries)
+
+## 🔗 Связи
+
+- [[MOC - MCP Servers]] — mcp-servers
+- [[000 - Map of Maps]] — Map of Maps
+

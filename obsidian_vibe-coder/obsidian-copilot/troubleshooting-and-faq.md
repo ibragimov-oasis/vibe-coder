@@ -43,3 +43,9 @@ source: "../new_repos/obsidian-copilot/docs/troubleshooting-and-faq.md"
 
 - [[obsidian-copilot/models-and-parameters]] — параметры моделей
 - [[obsidian-copilot/copilot-plus-and-self-host]] — подписка
+
+## 🔗 Связи
+
+- [[MOC - System]] — Parent MOC
+- [[000 - Map of Maps]] — Map of Maps
+

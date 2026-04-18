@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/workflow
+  - source/hooks
+---
+
 # V3 Hooks MCP Tools Reference
 
 ## Overview
@@ -590,3 +597,9 @@ Some tools support caching for improved performance:
 | hooks/explain | Yes | 5000ms |
 | hooks/metrics | Yes | 10000ms |
 | hooks/list | Yes | 5000ms |
+
+## 🔗 Связи
+
+- [[MOC - System]] — hooks
+- [[000 - Map of Maps]] — Map of Maps
+

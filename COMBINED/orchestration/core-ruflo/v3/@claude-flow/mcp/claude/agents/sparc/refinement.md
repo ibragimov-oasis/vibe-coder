@@ -804,3 +804,10 @@ function getUserProcessor(user: User): UserProcessor {
 6. **Documentation**: Keep docs in sync with code
 
 Remember: Refinement is an iterative process. Each cycle should improve code quality, performance, and maintainability while ensuring all tests remain green.
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

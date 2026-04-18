@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/combined-root
+---
+
 # Phase 6: Orchestration & Linking - The Final Phase
 
 ## Summary
@@ -657,3 +664,8 @@ COMBINED/
 **Created:** 2026-04-04
 **Branch:** `phase-6-orchestration` (to be created)
 **Target:** **v1.0.0 Production Release** 🎉
+
+## 🔗 Связи
+
+- [[000 - Map of Maps]] — Map of Maps
+

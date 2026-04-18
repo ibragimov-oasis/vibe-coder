@@ -76,3 +76,10 @@ Ralph is the work monitor. He watches your GitHub or GitLab issues, tracks work 
 - [**Work routing**](../features/routing.md) — How the coordinator decides which agents to spawn
 - [**Memory and knowledge**](memory-and-knowledge.md) — How decisions, skills, and history persist
 - [**Parallel work**](parallel-work.md) — How agents work simultaneously without conflicts
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/squad]] — Squad
+- [[000 - Map of Maps]] — Map of Maps
+

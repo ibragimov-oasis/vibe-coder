@@ -1,5 +1,9 @@
 ---
 tagline: "Five-dimension technical quality check with P0 to P3 severity."
+tags:
+  - domain/ui
+  - artifact/ui-component
+  - source/ui-design
 ---
 
 ## When to use it
@@ -48,3 +52,9 @@ Hand the P0s to `/harden`, the theming and typography P1s to `/typeset` and `/po
 - **Confusing it with `/critique`.** Audit is implementation quality. Critique is design quality. Run both for a full picture.
 - **Fixing P3s before P0s.** The severity scale exists for a reason. Start at the top.
 - **Skipping the dimensions you think are fine.** Theming and responsive are the ones most people assume are fine until they are not.
+
+## 🔗 Связи
+
+- [[MOC - UI Design]] — ui-design
+- [[000 - Map of Maps]] — Map of Maps
+

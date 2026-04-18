@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/config
+  - source/workspace-config
+---
+
 # hook pre-task
 
 Execute pre-task preparations and context loading.
@@ -109,3 +116,9 @@ Returns JSON with:
 - `agent spawn` - Manual agent creation
 - `memory usage` - Memory management
 - `swarm init` - Swarm initialization
+
+## 🔗 Связи
+
+- [[MOC - System]] — workspace-config
+- [[000 - Map of Maps]] — Map of Maps
+

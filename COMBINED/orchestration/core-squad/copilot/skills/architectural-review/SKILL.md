@@ -202,3 +202,10 @@ Brief explanation of architectural impact and any required follow-ups.
 - ❌ Approving reverse dependencies (SDK importing from CLI) for "convenience"
 - ❌ Letting new `core/` files slip in without classifying them as bootstrap vs. post-SDK
 - ❌ Rubber-stamping PRs that delete >20 files without line-by-line deletion review
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/squad]] — Squad
+- [[000 - Map of Maps]] — Map of Maps
+

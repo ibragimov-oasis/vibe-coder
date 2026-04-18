@@ -218,5 +218,8 @@ gradient_checkpointing: true
 - Models: https://huggingface.co/princeton-nlp
 - Alignment Handbook: https://github.com/huggingface/alignment-handbook
 
+## 🔗 Связи
 
+- [[000 - Map of Maps]] — REPO_DOCS
+- [[000 - Map of Maps]] — Map of Maps
 

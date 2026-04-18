@@ -135,3 +135,10 @@ const calculateMetadata: CalculateMetadataFunction = async () => {
   };
 };
 ```
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/archon]] — Archon
+- [[000 - Map of Maps]] — Map of Maps
+

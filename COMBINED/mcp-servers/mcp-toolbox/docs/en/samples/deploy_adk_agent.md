@@ -6,6 +6,10 @@ description: >
   How to deploy your ADK Agent to Vertex AI Agent Engine and connect it to an MCP Toolbox deployed on Cloud Run.
 sample_filters: ["Python", "ADK", "Agent"]
 is_sample: true
+tags:
+  - domain/mcp
+  - artifact/mcp-server
+  - source/mcp-servers
 ---
 
 ## Before you begin
@@ -145,3 +149,9 @@ Playground in your browser and start chatting with your agent to test the tools.
 For additional test scenarios, refer to the [Test deployed
 agent](https://google.github.io/adk-docs/deploy/agent-engine/#test-deployment)
 section in the ADK documentation.
+
+## 🔗 Связи
+
+- [[MOC - MCP Servers]] — mcp-servers
+- [[000 - Map of Maps]] — Map of Maps
+

@@ -376,3 +376,10 @@ swarm-benchmark run "Task" \
 6. **Customize parameters** - Fine-tune for your specific needs
 
 Remember: The best strategy depends on your specific requirements. Benchmark different approaches to find what works best!
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

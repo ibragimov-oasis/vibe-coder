@@ -55,3 +55,9 @@ Galaxy + shadcn + UI/UX Pro Max + **Impeccable (18 команд)** + **Taste-ski
 ## Исходник
 
 > 📂 `../COMBINED/agents/mega/mega-designer.md`
+
+## 🔗 Связи
+
+- [[MOC - Agents]] — Parent MOC
+- [[000 - Map of Maps]] — Map of Maps
+

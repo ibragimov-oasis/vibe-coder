@@ -116,3 +116,10 @@ ENABLE_RUFLO=true       # default: true
 - [ADR-029: HuggingFace Chat UI Cloud Run](ADR-029-HUGGINGFACE-CHAT-UI-CLOUD-RUN.md)
 - [ADR-030: MCP Tool Gap Analysis](ADR-030-MCP-TOOL-GAP-ANALYSIS.md)
 - [ADR-032: RVF Private MCP Tunnel](ADR-032-RVF-PRIVATE-MCP-TUNNEL.md)
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

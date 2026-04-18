@@ -3,6 +3,10 @@ title: alloydb-create-instance
 type: docs
 weight: 1
 description: "The \"alloydb-create-instance\" tool creates a new AlloyDB instance within a specified cluster.\n"
+tags:
+  - domain/mcp
+  - artifact/mcp-server
+  - source/mcp-servers
 ---
 
 ## About
@@ -61,3 +65,9 @@ description: Use this tool to create a new AlloyDB instance within a specified c
 | type        |  string  |     true     | Must be alloydb-create-instance.                     |
 | source      |  string  |     true     | The name of an `alloydb-admin` source.               |
 | description |  string  |     false    | Description of the tool that is passed to the agent. |
+
+## 🔗 Связи
+
+- [[MOC - MCP Servers]] — mcp-servers
+- [[000 - Map of Maps]] — Map of Maps
+

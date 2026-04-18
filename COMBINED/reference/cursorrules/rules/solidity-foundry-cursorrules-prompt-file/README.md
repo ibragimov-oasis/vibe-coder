@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/reference
+  - source/reference
+---
+
 # Solidity Foundry .cursorrules prompt file
 
 Author: heyjonbray
@@ -28,3 +35,9 @@ Smart contract developers focused on Solidity security can leverage this prompt 
 ## Overview of .cursorrules prompt
 
 The .cursorrules file establishes a set of guidelines for developing and securing Solidity smart contracts using the Foundry development framework. It emphasizes concise and accurate code implementations, encourages embracing new technologies, and outlines a variety of best practices for Solidity development. These include using specific coding patterns and tools to enhance the security, readability, and maintainability of smart contracts, such as using explicit function visibility modifiers, implementing events for state changes, and following the Checks-Effects-Interactions pattern. The file highlights Foundry-specific testing capabilities like fuzzing, invariant testing, and cheatcodes for comprehensive test coverage. It addresses performance optimization for gas efficiency using Foundry's gas snapshots and reporting tools, and provides a development workflow incorporating Foundry's specialized tools like forge, cast, and anvil. Documentation best practices are advocated, focusing on maintaining clear and current documentation for smart contracts and test scenarios.
+
+## 🔗 Связи
+
+- [[MOC - System]] — reference
+- [[000 - Map of Maps]] — Map of Maps
+

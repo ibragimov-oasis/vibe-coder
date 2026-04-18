@@ -159,3 +159,10 @@ bump the testing skill to high confidence
 ```
 
 Manually increases the confidence level after successful repeated use.
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/squad]] — Squad
+- [[000 - Map of Maps]] — Map of Maps
+

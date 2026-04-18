@@ -39,3 +39,9 @@ source: "../COMBINED/skills/skills-platform/"
 
 - [[skills/skills-hermes]] — auto-skill creation
 - [[orchestration/core-refly]] — visual skill builder
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Parent MOC
+- [[000 - Map of Maps]] — Map of Maps
+

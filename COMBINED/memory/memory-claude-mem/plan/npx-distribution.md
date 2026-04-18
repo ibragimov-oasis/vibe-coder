@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/memory
+  - artifact/memory
+  - source/memory
+---
+
 # Plan: NPX Distribution + Universal IDE/CLI Coverage for claude-mem
 
 ## Problem
@@ -734,3 +741,9 @@ This is a **full replacement**, not a deprecation.
 - **Continue.dev**: Small user base relative to other MCP tools. Can be added as a Tier 2 MCP integration later if requested.
 - **Toad / Qwen Code / Oh-my-pi**: Too early-stage or too niche. Monitor for growth.
 - **OpenClaw plugin development**: The plugin is already complete. Only installer wiring is in scope.
+
+## 🔗 Связи
+
+- [[MOC - Memory]] — memory
+- [[000 - Map of Maps]] — Map of Maps
+

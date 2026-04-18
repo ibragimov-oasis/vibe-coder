@@ -66,3 +66,10 @@ EOF
 
 gh issue comment $ISSUE_NUMBER -b "$PROMPT"
 ```
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/praisonai]] — PraisonAI
+- [[000 - Map of Maps]] — Map of Maps
+

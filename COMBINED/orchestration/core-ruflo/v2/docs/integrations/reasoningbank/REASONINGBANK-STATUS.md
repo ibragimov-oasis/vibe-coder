@@ -224,3 +224,10 @@ npx claude-flow@alpha memory store "key" "value" --reasoningbank
 ---
 
 **Bottom Line**: ReasoningBank with WASM is production-ready and 250x+ faster than Basic Mode. Use it!
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

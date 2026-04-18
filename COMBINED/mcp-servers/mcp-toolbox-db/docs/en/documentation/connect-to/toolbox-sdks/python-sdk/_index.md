@@ -4,6 +4,10 @@ type: docs
 weight: 1
 description: >
   Python SDKs to connect to the MCP Toolbox server.
+tags:
+  - domain/mcp
+  - artifact/mcp-server
+  - source/mcp-servers
 ---
 
 
@@ -100,3 +104,9 @@ Source code for [python-sdk](https://github.com/googleapis/mcp-toolbox-sdk-pytho
 
 
 ## Explore the Python SDKs
+
+## 🔗 Связи
+
+- [[MOC - MCP Servers]] — mcp-servers
+- [[000 - Map of Maps]] — Map of Maps
+

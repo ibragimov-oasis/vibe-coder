@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/command
+  - source/commands
+---
+
 # Pair Programming Configuration
 
 Complete configuration guide for pair programming sessions.
@@ -508,3 +515,9 @@ claude-flow pair config import my-config.json
 - [Session Management](./session.md)
 - [Modes](./modes.md)
 - [Templates](./templates.md)
+
+## 🔗 Связи
+
+- [[MOC - System]] — commands
+- [[000 - Map of Maps]] — Map of Maps
+

@@ -42,3 +42,9 @@ ORCHESTRATION.md сравнивает ключевые 5 оркестрацио�
 ## Исходник
 
 > 📂 `../ORCHESTRATION.md` — читать оригинал для полного контента
+
+## 🔗 Связи
+
+- [[000 - Map of Maps]] — Parent MOC
+- [[000 - Map of Maps]] — Map of Maps
+

@@ -79,3 +79,9 @@ Professionalism: Casual ←———→ Corporate
 - [[MOC - UI Design]] — родительский хаб
 - [[agents/mega-designer]] — мега-агент дизайна
 - [[MOC - Skills]] — skills-design категория
+
+## 🔗 Связи
+
+- [[000 - Map of Maps]] — Parent MOC
+- [[000 - Map of Maps]] — Map of Maps
+

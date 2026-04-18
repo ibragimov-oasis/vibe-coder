@@ -627,3 +627,10 @@ queue.process('stability-analysis', async (job) => {
 - [ADR-031: Prime Radiant Integration](../../implementation/adrs/ADR-031-prime-radiant-integration.md)
 - [ADR-006: Unified Memory Service](../../implementation/adrs/ADR-006-UNIFIED-MEMORY.md)
 - [ADR-022: AIDefence Integration](../../implementation/adrs/ADR-022-aidefence-integration.md)
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

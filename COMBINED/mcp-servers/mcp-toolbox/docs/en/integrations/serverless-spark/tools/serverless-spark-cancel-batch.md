@@ -4,6 +4,10 @@ type: docs
 weight: 2
 description: >
   A "serverless-spark-cancel-batch" tool cancels a running Spark batch operation.
+tags:
+  - domain/mcp
+  - artifact/mcp-server
+  - source/mcp-servers
 ---
 
 ## About
@@ -49,3 +53,9 @@ description: Use this tool to cancel a running serverless spark batch operation.
 | source       |  string  |     true     | Name of the source the tool should use.            |
 | description  |  string  |     true     | Description of the tool that is passed to the LLM. |
 | authRequired | string[] |    false     | List of auth services required to invoke this tool |
+
+## 🔗 Связи
+
+- [[MOC - MCP Servers]] — mcp-servers
+- [[000 - Map of Maps]] — Map of Maps
+

@@ -242,3 +242,10 @@ loops back for refinement:
 - [Per-Node MCP Servers](/guides/mcp-servers/) — how `mcp:` works on DAG nodes
 - [Remotion Documentation](https://www.remotion.dev/docs) — official Remotion docs
 - [Remotion Skills](https://github.com/remotion-dev/skills) — official skill repository
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/archon]] — Archon
+- [[000 - Map of Maps]] — Map of Maps
+

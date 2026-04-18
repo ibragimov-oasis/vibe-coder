@@ -129,3 +129,10 @@ The following checks run automatically in CI (no manual action required):
 - [GitHub Actions Workflows](../.github/workflows/)
 - [Package Configuration](../package.json)
 - [Changelog](../CHANGELOG.md)
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/squad]] — Squad
+- [[000 - Map of Maps]] — Map of Maps
+

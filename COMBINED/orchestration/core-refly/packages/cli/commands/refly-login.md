@@ -19,3 +19,10 @@ This will:
 3. Store credentials securely in `~/.refly/config.json`
 
 After successful login, you can use all workflow commands.
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/refly]] — Refly
+- [[000 - Map of Maps]] — Map of Maps
+

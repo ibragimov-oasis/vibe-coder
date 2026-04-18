@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/mcp
+  - artifact/mcp-server
+  - source/mcp-servers
+---
+
 ![MCP Toolbox Logo](https://raw.githubusercontent.com/googleapis/genai-toolbox/main/logo.png)
 
 # MCP Toolbox SDK for ADK
@@ -33,3 +40,9 @@ Contributions are welcome! Please refer to the `toolbox-core` [DEVELOPER.md](htt
 ## License
 
 This project is licensed under the Apache License 2.0.
+
+## 🔗 Связи
+
+- [[MOC - MCP Servers]] — mcp-servers
+- [[000 - Map of Maps]] — Map of Maps
+

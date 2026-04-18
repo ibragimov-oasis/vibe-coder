@@ -4,6 +4,10 @@ type: docs
 weight: 4
 description: >
   How to set up and configure Toolbox with [MCP Authorization](https://modelcontextprotocol.io/specification/2025-11-25/basic/authorization).
+tags:
+  - domain/mcp
+  - artifact/mcp-server
+  - source/mcp-servers
 ---
 
 ## Overview
@@ -119,3 +123,9 @@ Toolbox will intercept incoming connections, fetch the latest JWKS from your aut
 If your Cloud Run service also requires IAM authentication, you must pass the Cloud Run identity token using [Cloud Run's alternate auth header][cloud-run-alternate-auth-header] to avoid conflicting with Toolbox's internal authentication.
 
 [cloud-run-alternate-auth-header]: https://docs.cloud.google.com/run/docs/authenticating/service-to-service#acquire-token
+
+## 🔗 Связи
+
+- [[MOC - MCP Servers]] — mcp-servers
+- [[000 - Map of Maps]] — Map of Maps
+

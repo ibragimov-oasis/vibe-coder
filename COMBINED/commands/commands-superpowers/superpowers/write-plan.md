@@ -1,5 +1,15 @@
 ---
 description: "Deprecated - use the superpowers:writing-plans skill instead"
+tags:
+  - domain/skills
+  - artifact/command
+  - source/commands
 ---
 
 Tell your human partner that this command is deprecated and will be removed in the next major release. They should ask you to use the "superpowers writing-plans" skill instead.
+
+## 🔗 Связи
+
+- [[MOC - System]] — commands
+- [[000 - Map of Maps]] — Map of Maps
+

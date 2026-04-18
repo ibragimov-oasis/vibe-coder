@@ -43,3 +43,10 @@ Not all fields apply to every action. The `outcome` value is contextual per acti
 | delete | timestamp, action, item_number | "deleted" + original URL | reason |
 | lint_failure | timestamp, action, draft_id | violation details (free text) | — |
 | expire | timestamp, action, draft_id | "expired" | — |
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/squad]] — Squad
+- [[000 - Map of Maps]] — Map of Maps
+

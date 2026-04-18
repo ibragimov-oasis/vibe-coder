@@ -314,3 +314,10 @@ SHIPPING_API_KEY=your_shipping_key
 8. Add multi-currency support
 9. Implement product variants (size, color)
 10. Add wishlist functionality
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

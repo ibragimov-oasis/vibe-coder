@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/mcp
+  - artifact/mcp-server
+  - source/mcp-servers
+---
+
 # Changelog
 
 ## [1.0.0](https://github.com/googleapis/mcp-toolbox/compare/v0.32.0...v1.0.0) (2026-04-10)
@@ -1042,3 +1049,9 @@
 ### Continuous Integration
 
 * Add realease-please ([#15](https://github.com/googleapis/mcp-toolbox/issues/15)) ([17fbbb4](https://github.com/googleapis/mcp-toolbox/commit/17fbbb49b05996c2c43df4b72cf08488224c522a))
+
+## 🔗 Связи
+
+- [[MOC - MCP Servers]] — mcp-servers
+- [[000 - Map of Maps]] — Map of Maps
+

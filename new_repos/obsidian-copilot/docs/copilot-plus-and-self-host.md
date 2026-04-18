@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/new_repos
+---
+
 # Copilot Plus and Self-Host
 
 **Copilot Plus** is a premium tier that unlocks advanced features beyond the free, API-key-based experience. **Self-Host Mode** is an additional option for Copilot Plus Lifetime/Believer subscribers who want to run their own infrastructure.
@@ -155,3 +162,8 @@ Leave empty to use automatic local discovery.
 - [Agent Mode and Tools](agent-mode-and-tools.md) — Using the autonomous agent
 - [Vault Search and Indexing](vault-search-and-indexing.md) — How Miyo enhances semantic search
 - [Getting Started](getting-started.md) — First-time setup
+
+## 🔗 Связи
+
+- [[000 - Map of Maps]] — Map of Maps
+

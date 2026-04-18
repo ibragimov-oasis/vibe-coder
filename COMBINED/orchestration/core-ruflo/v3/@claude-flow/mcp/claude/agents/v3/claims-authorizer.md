@@ -210,3 +210,10 @@ mcp__claude-flow__memory_search --pattern="auth:*" --namespace="audit" --limit=1
   "suggestion": "Request elevation or use coordinator agent"
 }
 ```
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

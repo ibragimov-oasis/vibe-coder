@@ -117,3 +117,10 @@ The status command provides:
 - `npx claude-flow agent metrics` - Aggregate metrics
 - `npx claude-flow agent health` - Health check
 - `npx claude-flow agent logs <id>` - Activity logs
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

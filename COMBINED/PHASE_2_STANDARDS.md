@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/combined-root
+---
+
 # Vibe-Coder Arsenal: Standards & Best Practices Guide
 ## Version 1.0 - April 7, 2026
 
@@ -632,3 +639,8 @@ See: `commands/debug.md`
 **Version**: 1.0
 **Last Updated**: 2026-04-07
 **Status**: Active
+
+## 🔗 Связи
+
+- [[000 - Map of Maps]] — Map of Maps
+

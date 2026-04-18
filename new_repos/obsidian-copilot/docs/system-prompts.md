@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/new_repos
+---
+
 # System Prompts
 
 A system prompt is a set of instructions you give the AI that shapes how it behaves in all conversations. Think of it as a persistent briefing: "You are an assistant that helps me with academic writing. Always cite sources. Respond in formal English."
@@ -124,3 +131,8 @@ Each [Project](projects.md) can have its own system prompt, independent of the g
 - [Chat Interface](chat-interface.md) — Per-session gear settings
 - [Projects](projects.md) — Per-project system prompts
 - [Getting Started](getting-started.md) — Initial setup
+
+## 🔗 Связи
+
+- [[000 - Map of Maps]] — Map of Maps
+

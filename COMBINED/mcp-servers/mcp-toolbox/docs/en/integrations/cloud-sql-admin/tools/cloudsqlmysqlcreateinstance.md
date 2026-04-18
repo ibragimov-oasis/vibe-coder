@@ -3,6 +3,10 @@ title: cloud-sql-mysql-create-instance
 type: docs
 weight: 2
 description: "Create a Cloud SQL for MySQL instance."
+tags:
+  - domain/mcp
+  - artifact/mcp-server
+  - source/mcp-servers
 ---
 
 ## About
@@ -52,3 +56,9 @@ description: "Creates a MySQL instance using `Production` and `Development` pres
 | type        |  string  |     true     | Must be `cloud-sql-mysql-create-instance`.                     |
 | source      |  string  |     true     | The name of the `cloud-sql-admin` source to use for this tool. |
 | description |  string  |     false    | A description of the tool that is passed to the agent.         |
+
+## 🔗 Связи
+
+- [[MOC - MCP Servers]] — mcp-servers
+- [[000 - Map of Maps]] — Map of Maps
+

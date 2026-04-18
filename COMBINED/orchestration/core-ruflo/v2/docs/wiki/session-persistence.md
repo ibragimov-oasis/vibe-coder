@@ -347,3 +347,10 @@ The following features have been tested and verified:
 
 *Last updated: August 2025*
 *Verified with Claude Code latest version*
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

@@ -188,3 +188,10 @@ For each suggestion, consider:
 - **Pragmatic suggestions** - Consider maintenance burden
 - **Make illegal states unrepresentable** - Core goal
 - **Constructor validation is crucial** - First line of defense
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/archon]] — Archon
+- [[000 - Map of Maps]] — Map of Maps
+

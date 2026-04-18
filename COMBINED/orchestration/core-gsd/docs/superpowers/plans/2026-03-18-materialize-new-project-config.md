@@ -705,3 +705,10 @@ A developer opening `.planning/config.json` for the first time can now see
 `git.branching_strategy: "none"` and immediately understand that branching
 is available and configurable, without reading the GSD source.
 ```
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/gsd]] — GSD
+- [[000 - Map of Maps]] — Map of Maps
+

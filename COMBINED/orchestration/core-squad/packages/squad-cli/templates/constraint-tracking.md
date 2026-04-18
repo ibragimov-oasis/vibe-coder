@@ -43,3 +43,10 @@ Coordinator: Checking with user...
 Agent asks clarification: "Should we cache responses?"
 Coordinator: 📊 Question budget exhausted (3/3). Proceeding without clarification.
 ```
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/squad]] — Squad
+- [[000 - Map of Maps]] — Map of Maps
+

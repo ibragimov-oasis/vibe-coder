@@ -132,3 +132,10 @@ If gaps_found: list gaps and recommended fix plan names.
 - VERIFICATION.md created with complete report
 - Results returned to orchestrator
 </success_criteria>
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/gsd]] — GSD
+- [[000 - Map of Maps]] — Map of Maps
+

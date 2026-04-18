@@ -311,3 +311,10 @@ bun run validate
 - **Investigated by**: Claude
 - **Timestamp**: 2026-02-26T12:00:00Z
 - **Artifact**: `.claude/PRPs/issues/issue-509.md`
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/archon]] — Archon
+- [[000 - Map of Maps]] — Map of Maps
+

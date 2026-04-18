@@ -97,3 +97,10 @@ At the TOP of any script touching GitHub, define:
 function gh-personal { gh auth switch --user bradygaster 2>$null | Out-Null; gh @args }
 function gh-work { gh auth switch --user bradyg_microsoft 2>$null | Out-Null; gh @args }
 ```
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/squad]] — Squad
+- [[000 - Map of Maps]] — Map of Maps
+

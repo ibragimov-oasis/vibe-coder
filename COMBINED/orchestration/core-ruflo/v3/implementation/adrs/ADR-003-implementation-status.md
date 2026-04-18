@@ -304,3 +304,10 @@ The architecture now follows the **Single Coordination Engine** principle, with 
 2. Update documentation with new architecture
 3. Monitor adoption and provide migration support
 4. Plan SwarmHub removal for v3.1.0+
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

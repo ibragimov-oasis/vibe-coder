@@ -182,3 +182,10 @@ Scanning 12 files...
 - Works with `reviewer` agent for comprehensive code reviews
 - Findings are stored in memory for pattern learning
 - Can be triggered automatically via pre-commit hooks
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

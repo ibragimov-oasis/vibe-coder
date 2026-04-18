@@ -4,6 +4,10 @@ type: docs
 weight: 1
 description: >
   The "postgres-list-views" tool lists views in a Postgres database, with a default limit of 50 rows.
+tags:
+  - domain/mcp
+  - artifact/mcp-server
+  - source/mcp-servers
 ---
 
 ## About
@@ -40,3 +44,9 @@ source: cloudsql-pg-source
 | type        |  string  |     true     | Must be "postgres-list-views".                       |
 | source      |  string  |     true     | Name of the source the SQL should execute on.        |
 | description |  string  |    false     | Description of the tool that is passed to the agent. |
+
+## 🔗 Связи
+
+- [[MOC - MCP Servers]] — mcp-servers
+- [[000 - Map of Maps]] — Map of Maps
+

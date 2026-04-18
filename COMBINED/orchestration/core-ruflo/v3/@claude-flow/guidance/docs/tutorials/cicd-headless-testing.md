@@ -283,3 +283,10 @@ for (const v of metrics.topViolations) {
   console.log(`  ${v.ruleId}: ${v.frequency} occurrences (cost: ${v.cost})`);
 }
 ```
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

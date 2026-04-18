@@ -231,3 +231,10 @@ PR #871). When approved, the run transitions through `failed` status briefly so
 that `findResumableRun` picks it up — this avoids duplicating resume logic. The
 `metadata.approval_response` field distinguishes approved-then-resumed from
 genuinely-failed runs.
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/archon]] — Archon
+- [[000 - Map of Maps]] — Map of Maps
+

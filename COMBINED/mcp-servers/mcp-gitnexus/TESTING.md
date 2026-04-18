@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/mcp
+  - artifact/mcp-server
+  - source/mcp-servers
+---
+
 # Testing — GitNexus
 
 How we structure tests and which commands to run locally and in CI.
@@ -93,3 +100,9 @@ Or rely on the pre-commit hook which runs these automatically for staged files.
 ## User acceptance / beta (optional)
 
 For staged releases or UI betas: deploy to a staging environment, collect structured feedback, watch errors and latency, then iterate before a wider release.
+
+## 🔗 Связи
+
+- [[MOC - MCP Servers]] — mcp-servers
+- [[000 - Map of Maps]] — Map of Maps
+

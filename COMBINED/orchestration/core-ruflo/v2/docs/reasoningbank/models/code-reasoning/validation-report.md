@@ -354,3 +354,10 @@ This model is production-ready and provides:
 **Model Version**: 1.0.0
 **Confidence**: 95%
 **Status**: ✅ PRODUCTION READY
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

@@ -479,3 +479,10 @@ cp $ARGUMENTS $ARTIFACTS_DIR/../plans/completed/ 2>/dev/null || true
 - **TESTS_PASS**: Test command all green
 - **BUILD_PASS**: Build command succeeds
 - **REPORT_CREATED**: Implementation report exists
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/archon]] — Archon
+- [[000 - Map of Maps]] — Map of Maps
+

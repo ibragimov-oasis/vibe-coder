@@ -685,3 +685,10 @@ Query Operation (2-3ms):
 
 **Last Updated**: 2025-10-14
 **Version**: v2.7.0-alpha.10
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

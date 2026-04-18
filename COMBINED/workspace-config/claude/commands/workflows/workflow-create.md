@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/config
+  - source/workspace-config
+---
+
 # workflow-create
 
 Create reusable workflow templates.
@@ -23,3 +30,9 @@ npx claude-flow workflow create --name "test-suite" --from-history
 # Interactive mode
 npx claude-flow workflow create --interactive
 ```
+
+## 🔗 Связи
+
+- [[MOC - System]] — workspace-config
+- [[000 - Map of Maps]] — Map of Maps
+

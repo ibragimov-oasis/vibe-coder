@@ -253,3 +253,10 @@ a7f2d1 feat(checkout): Stripe payments with webhook verification
 - 当消费者是 Claude 而非人类时，"提交噪音"无关紧要
 
 </commit_strategy_rationale>
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/gsd]] — GSD
+- [[000 - Map of Maps]] — Map of Maps
+

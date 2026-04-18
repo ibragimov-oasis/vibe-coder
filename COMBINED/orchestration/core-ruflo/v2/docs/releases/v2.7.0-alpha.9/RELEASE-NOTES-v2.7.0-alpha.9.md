@@ -213,3 +213,10 @@ Users should:
 
 **Status**: ✅ **PRODUCTION READY**
 **Recommendation**: Safe to deploy `claude-flow@2.7.0-alpha.9` for production use.
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

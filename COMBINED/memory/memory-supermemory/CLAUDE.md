@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/memory
+  - artifact/memory
+  - source/memory
+---
+
 # CLAUDE.md
 
 This file provides guidance to Claude Code (claude.ai/code) when working with code in this repository.
@@ -118,3 +125,9 @@ All content goes through the `IngestContentWorkflow` which handles:
 - Cloudflare Workers for scalable serverless deployment
 - Source map uploads to Sentry for production debugging
 - Environment-specific configuration management
+
+## 🔗 Связи
+
+- [[MOC - Memory]] — memory
+- [[000 - Map of Maps]] — Map of Maps
+

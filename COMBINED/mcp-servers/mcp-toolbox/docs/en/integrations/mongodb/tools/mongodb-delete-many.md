@@ -4,6 +4,10 @@ type: docs
 weight: 1
 description: >
   A "mongodb-delete-many" tool deletes all documents from a MongoDB collection that match a filter.
+tags:
+  - domain/mcp
+  - artifact/mcp-server
+  - source/mcp-servers
 ---
 
 ## About
@@ -53,3 +57,9 @@ filterParams:
 | collection    | string   | true         | The name of the MongoDB collection from which to delete documents.                                                  |
 | filterPayload | string   | true         | The MongoDB query filter document to select the documents for deletion. Uses `{{json .param_name}}` for templating. |
 | filterParams  | list     | false        | A list of parameter objects that define the variables used in the `filterPayload`.                                  |
+
+## 🔗 Связи
+
+- [[MOC - MCP Servers]] — mcp-servers
+- [[000 - Map of Maps]] — Map of Maps
+

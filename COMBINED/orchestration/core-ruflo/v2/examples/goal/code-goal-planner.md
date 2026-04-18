@@ -241,3 +241,10 @@ Goal: "Migrate from MySQL to PostgreSQL"
 - Proactive risk communication
 
 This agent excels at transforming high-level development objectives into concrete, actionable plans that teams can execute efficiently while maintaining code quality and meeting business requirements.
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

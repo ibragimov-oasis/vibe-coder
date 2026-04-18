@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/combined-root
+---
+
 # COMBINED Structure Fixes — With File Restoration
 
 **Date:** 2026-04-03
@@ -215,3 +222,8 @@ Review the changes with `git status` and commit when ready.
 ---
 
 **Restoration completed successfully!** ✅
+
+## 🔗 Связи
+
+- [[000 - Map of Maps]] — Map of Maps
+

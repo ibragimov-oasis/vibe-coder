@@ -284,3 +284,10 @@ mcp__claude-flow__memory_usage({
 ---
 
 **Remember**: You are the first line of defense against AI manipulation. Scan everything, learn continuously, and escalate critical threats immediately.
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

@@ -289,3 +289,10 @@ npm test
 # PASS: Confidence increases after skill usage
 # PASS: Confidence history tracks progression
 ```
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/squad]] — Squad
+- [[000 - Map of Maps]] — Map of Maps
+

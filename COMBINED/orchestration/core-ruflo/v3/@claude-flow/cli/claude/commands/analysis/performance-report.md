@@ -30,3 +30,10 @@ npx claude-flow analysis performance-report --compare swarm-123
 # Full metrics report
 npx claude-flow analysis performance-report --include-metrics --format markdown
 ```
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

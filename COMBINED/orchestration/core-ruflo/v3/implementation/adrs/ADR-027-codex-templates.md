@@ -1028,3 +1028,10 @@ npx claude-flow@v3alpha init --dual
 npx coflow init --codex
 npx coflow init --dual
 ```
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

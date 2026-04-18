@@ -131,3 +131,10 @@ Structure your analysis with precise references:
 - Don't critique design choices
 
 Your analysis directly enables implementation success. Be thorough, precise, and factual.
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/archon]] — Archon
+- [[000 - Map of Maps]] — Map of Maps
+

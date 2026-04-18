@@ -175,3 +175,10 @@ Phases with standard patterns (skip research-phase):
 - Research flags inform phase planning
 
 </guidelines>
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/gsd]] — GSD
+- [[000 - Map of Maps]] — Map of Maps
+

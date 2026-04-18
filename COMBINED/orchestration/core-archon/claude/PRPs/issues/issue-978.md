@@ -543,3 +543,10 @@ The steps have a strict dependency chain:
 - **Investigated by**: Claude
 - **Timestamp**: 2026-04-09T12:00:00Z
 - **Artifact**: `.claude/PRPs/issues/issue-978.md`
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/archon]] — Archon
+- [[000 - Map of Maps]] — Map of Maps
+

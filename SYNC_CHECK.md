@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/root
+---
+
 # SYNC_CHECK.md — Governance Drift Prevention
 
 > **Run this checklist whenever canonical source files change.**
@@ -191,3 +198,8 @@ Signs that interface configs have drifted from canonical sources:
 8. **Missing prompt assessment** — Startup sequence lacks "Assess prompt quality" step before execution
 9. **No orchestrator trigger** — Complex task routing only says "route to mega-orchestrator" without a concrete multi-agent pipeline template
 10. **Missing IDOR check** — Security checklist in post-task lacks "🔴 IDOR (insecure direct object references)" row
+
+## 🔗 Связи
+
+- [[000 - Map of Maps]] — Map of Maps
+

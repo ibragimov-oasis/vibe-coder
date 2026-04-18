@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/reference
+  - source/reference
+---
+
 # Solidity React Blockchain Apps .cursorrules prompt file
 
 Author: brolag
@@ -13,4 +20,9 @@ Developers building secure and efficient smart contract applications on Ethereum
 
 ## Overview of .cursorrules prompt
 The .cursorrules file serves as a guide for developing Solidity smart contracts with a focus on security, best practices, testing, and optimization. It emphasizes precise coding, leveraging advanced tools, and adhering to specific coding conventions for Solidity. It also covers strategies for performance optimizations, testing methodologies, development workflows, and documentation standards. Additionally, it provides guidelines for UI and frontend development using modern frameworks and tools, while detailing integration techniques for Web3 and blockchain functionalities. This file targets developers who aim to build robust, efficient, and secure blockchain applications.
+
+## 🔗 Связи
+
+- [[MOC - System]] — reference
+- [[000 - Map of Maps]] — Map of Maps
 

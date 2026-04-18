@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/memory
+  - artifact/memory
+  - source/memory
+---
+
 # supermemory AI SDK Utilities
 
 Vercel AI SDK utilities for supermemory
@@ -304,3 +311,9 @@ MIT
 ## Support
 
 Email our [24/7 Founder/CEO/Support Executive](dhravya@supermemory.com)
+
+## 🔗 Связи
+
+- [[MOC - Memory]] — memory
+- [[000 - Map of Maps]] — Map of Maps
+

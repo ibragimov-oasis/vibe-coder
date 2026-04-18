@@ -113,3 +113,9 @@ Special pseudo-languages:
 2. **Markdown shows 0 code lines** — pygount classifies all Markdown content as comments, not code. This is expected behavior.
 3. **JSON files show low code counts** — pygount may count JSON lines conservatively. For accurate JSON line counts, use `wc -l` directly.
 4. **Large monorepos** — for very large repos, consider using `--suffix` to target specific languages rather than scanning everything.
+
+## 🔗 Связи
+
+- [[000 - Map of Maps]] — REPO_DOCS
+- [[000 - Map of Maps]] — Map of Maps
+

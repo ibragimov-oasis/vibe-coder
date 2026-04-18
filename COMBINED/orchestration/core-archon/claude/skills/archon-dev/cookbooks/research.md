@@ -165,3 +165,10 @@ Summarize key findings in 3-5 bullet points with `file:line` references. Link to
 - To dig deeper: `/archon-dev research --follow-up {topic}`
 - For strategic/external research: `/archon-dev investigate {topic}`
 - To write requirements: `/archon-dev prd {topic}`
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/archon]] — Archon
+- [[000 - Map of Maps]] — Map of Maps
+

@@ -1158,3 +1158,10 @@ mcp__flow-nexus__realtime_subscribe({
 ---
 
 *This skill consolidates 6 Flow Nexus command modules into a single comprehensive platform management interface.*
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

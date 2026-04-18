@@ -1,6 +1,10 @@
 ---
 name: flow-nexus-swarm
 description: AI swarm deployment and coordination in cloud
+tags:
+  - domain/skills
+  - artifact/command
+  - source/commands
 ---
 
 # Flow Nexus Swarms
@@ -85,3 +89,9 @@ mcp__flow-nexus__agent_spawn({ type: "coder", name: "Backend Dev" })
 mcp__flow-nexus__agent_spawn({ type: "coder", name: "Frontend Dev" })
 mcp__flow-nexus__task_orchestrate({ task: "Build e-commerce platform" })
 ```
+
+## 🔗 Связи
+
+- [[MOC - System]] — commands
+- [[000 - Map of Maps]] — Map of Maps
+

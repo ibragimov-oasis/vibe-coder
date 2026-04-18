@@ -151,3 +151,10 @@ npx claude-flow@alpha hooks --help
 
 **Author**: claude-flow
 **Co-Author**: claude-flow <noreply@ruv.io>
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

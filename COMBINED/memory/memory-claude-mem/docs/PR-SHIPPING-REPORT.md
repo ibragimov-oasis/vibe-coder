@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/memory
+  - artifact/memory
+  - source/memory
+---
+
 # Claude-Mem PR Shipping Report
 *Generated: 2026-02-04*
 
@@ -211,3 +218,9 @@ Since multiple PRs have conflicts, suggested rebase order:
 | 1 PR (#856) | 3 PRs (#700, #722, #657) | 2 PRs (#464, #863) |
 
 **Immediate action:** Merge #856, then rebase the conflict PRs in order.
+
+## 🔗 Связи
+
+- [[MOC - Memory]] — memory
+- [[000 - Map of Maps]] — Map of Maps
+

@@ -225,3 +225,10 @@ The system demonstrates enterprise-grade validation practices and production rea
 ---
 
 *This final validation summary represents the completion of comprehensive production validation assessment by the Production Validation Agent.*
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

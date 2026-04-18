@@ -30,3 +30,10 @@ npx claude-flow optimization cache-manage --action clear
 # Set limits
 npx claude-flow optimization cache-manage --max-size 100 --ttl 3600
 ```
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

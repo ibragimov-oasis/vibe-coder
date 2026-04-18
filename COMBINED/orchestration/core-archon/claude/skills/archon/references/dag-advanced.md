@@ -336,3 +336,10 @@ Separate from retry — controls how long a node can be idle (no output) before 
 ```
 
 For bash nodes, use `timeout:` instead (controls total script execution time, default: 120000ms).
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/archon]] — Archon
+- [[000 - Map of Maps]] — Map of Maps
+

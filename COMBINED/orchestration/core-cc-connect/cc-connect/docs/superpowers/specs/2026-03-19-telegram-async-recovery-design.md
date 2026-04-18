@@ -364,3 +364,10 @@ go test ./...
 4. Refactor Telegram into a background connection loop with safe disconnected behavior
 5. Add Telegram regression tests
 6. Run focused tests, then full test suite
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/cc-connect]] — CC-Connect
+- [[000 - Map of Maps]] — Map of Maps
+

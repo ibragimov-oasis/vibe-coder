@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/mcp
+  - artifact/mcp-server
+  - source/mcp-servers
+---
+
 leveldb
 =======
 
@@ -521,3 +528,9 @@ documents:
 1. [Implementation notes](impl.md)
 2. [Format of an immutable Table file](table_format.md)
 3. [Format of a log file](log_format.md)
+
+## 🔗 Связи
+
+- [[MOC - MCP Servers]] — mcp-servers
+- [[000 - Map of Maps]] — Map of Maps
+

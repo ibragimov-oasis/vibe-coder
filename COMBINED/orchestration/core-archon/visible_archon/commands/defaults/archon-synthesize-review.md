@@ -399,3 +399,10 @@ Output only a brief confirmation (this will be posted as a comment):
 - **FINDINGS_SYNTHESIZED**: Combined, deduplicated, prioritized
 - **CONSOLIDATED_CREATED**: Master artifact written
 - **GITHUB_POSTED**: PR comment visible
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/archon]] — Archon
+- [[000 - Map of Maps]] — Map of Maps
+

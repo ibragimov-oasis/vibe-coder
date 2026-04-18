@@ -404,3 +404,10 @@ If template has complex structure that's hard to fill:
 - **PR_UPDATED**: PR description reflects implementation
 - **PR_READY**: Draft status removed
 - **ARTIFACT_WRITTEN**: PR ready artifact created
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/archon]] — Archon
+- [[000 - Map of Maps]] — Map of Maps
+

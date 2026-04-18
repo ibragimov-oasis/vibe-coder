@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/memory
+  - artifact/memory
+  - source/memory
+---
+
 # Comprehensive Review: Cursor Hooks Integration
 
 ## Overview
@@ -324,4 +331,9 @@ The Cursor hooks integration is **production-ready** with:
 - ✅ Enhanced features (shell/file edit capture)
 
 The implementation handles edge cases well and follows best practices for reliability and maintainability.
+
+## 🔗 Связи
+
+- [[MOC - Memory]] — memory
+- [[000 - Map of Maps]] — Map of Maps
 

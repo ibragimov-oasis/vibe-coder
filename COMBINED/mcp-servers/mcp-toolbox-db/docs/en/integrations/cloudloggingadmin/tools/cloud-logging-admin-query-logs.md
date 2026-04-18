@@ -3,7 +3,10 @@ title: "cloud-logging-admin-query-logs"
 type: docs
 description: >
   A "cloud-logging-admin-query-logs" tool queries log entries.
-
+tags:
+  - domain/mcp
+  - artifact/mcp-server
+  - source/mcp-servers
 ---
 
 ## About
@@ -43,3 +46,9 @@ description: Queries log entries from Cloud Logging.
 | endTime | string | false | End time in RFC3339 format (e.g., 2025-12-09T23:59:59Z). Defaults to now. |
 | verbose | boolean | false | Include additional fields (insertId, trace, spanId, httpRequest, labels, operation, sourceLocation). Defaults to false. |
 | limit | integer | false | Maximum number of log entries to return. Default: `200`. |
+
+## 🔗 Связи
+
+- [[MOC - MCP Servers]] — mcp-servers
+- [[000 - Map of Maps]] — Map of Maps
+

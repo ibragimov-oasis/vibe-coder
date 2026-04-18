@@ -7,6 +7,10 @@ description: >
   SQLite is a C-language library that implements a small, fast, self-contained,
   high-reliability, full-featured, SQL database engine.
 no_list: true
+tags:
+  - domain/mcp
+  - artifact/mcp-server
+  - source/mcp-servers
 ---
 
 ## About
@@ -77,3 +81,9 @@ SQLite connections are configured with these defaults for optimal performance:
 
 - `MaxOpenConns`: 1 (SQLite only supports one writer at a time)
 - `MaxIdleConns`: 1
+
+## 🔗 Связи
+
+- [[MOC - MCP Servers]] — mcp-servers
+- [[000 - Map of Maps]] — Map of Maps
+

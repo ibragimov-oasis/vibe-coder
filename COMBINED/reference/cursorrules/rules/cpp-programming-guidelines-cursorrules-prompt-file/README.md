@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/reference
+  - source/reference
+---
+
 # C++ Programming Guidelines for Cursor AI
 
 This `.cursorrules` file provides comprehensive guidelines and best practices for C++ development when using Cursor AI. It helps maintain consistent, high-quality code across C++ projects by standardizing naming conventions, coding patterns, and other important aspects of C++ programming.
@@ -28,4 +35,10 @@ This `.cursorrules` file is designed to work with the following file patterns:
 
 ## Usage
 
-Place this `.cursorrules` file in the root of your C++ project to ensure Cursor AI generates and modifies C++ code according to these guidelines. 
+Place this `.cursorrules` file in the root of your C++ project to ensure Cursor AI generates and modifies C++ code according to these guidelines.
+
+## 🔗 Связи
+
+- [[MOC - System]] — reference
+- [[000 - Map of Maps]] — Map of Maps
+

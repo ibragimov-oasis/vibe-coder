@@ -340,3 +340,9 @@ Catch issues early
 ```
 
 **Quality is not an accident. It's the result of systematic process.**
+
+## 🔗 Связи
+
+- [[000 - Map of Maps]] — REPO_DOCS
+- [[000 - Map of Maps]] — Map of Maps
+

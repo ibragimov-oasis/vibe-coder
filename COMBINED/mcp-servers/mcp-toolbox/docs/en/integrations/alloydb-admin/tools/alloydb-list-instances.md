@@ -3,6 +3,10 @@ title: alloydb-list-instances
 type: docs
 weight: 1
 description: "The \"alloydb-list-instances\" tool lists the AlloyDB instances for a given project, cluster and location.\n"
+tags:
+  - domain/mcp
+  - artifact/mcp-server
+  - source/mcp-servers
 ---
 
 ## About
@@ -43,3 +47,9 @@ description: Use this tool to list all AlloyDB instances for a given project, cl
 | type        |  string  |     true     | Must be alloydb-list-instances.                      |
 | source      |  string  |     true     | The name of an `alloydb-admin` source.               |
 | description |  string  |     false    | Description of the tool that is passed to the agent. |
+
+## 🔗 Связи
+
+- [[MOC - MCP Servers]] — mcp-servers
+- [[000 - Map of Maps]] — Map of Maps
+

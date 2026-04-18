@@ -149,3 +149,10 @@ Before marking the task complete, ensure:
 - [ ] Public APIs have documentation
 - [ ] No console.log or debugging code remains
 - [ ] Git diff reviewed for unintended changes
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/omc]] — OMC
+- [[000 - Map of Maps]] — Map of Maps
+

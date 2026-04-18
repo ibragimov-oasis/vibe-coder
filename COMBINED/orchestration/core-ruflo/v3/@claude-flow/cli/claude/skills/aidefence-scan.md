@@ -152,3 +152,10 @@ Detection time: 0.06ms
 - No external server required
 - Learning is enabled by default for pattern improvement
 - Detection targets: <10ms (actual: ~0.06ms)
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/mcp
+  - artifact/mcp-server
+  - source/mcp-servers
+---
+
 StreamFS Plugin - Streaming File System
 
 This plugin provides streaming files that support multiple concurrent readers and writers
@@ -139,3 +146,9 @@ ARCHITECTURE DETAILS:
 ## License
 
 Apache License 2.0
+
+## 🔗 Связи
+
+- [[MOC - MCP Servers]] — mcp-servers
+- [[000 - Map of Maps]] — Map of Maps
+

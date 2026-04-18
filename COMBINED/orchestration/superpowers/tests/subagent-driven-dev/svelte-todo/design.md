@@ -75,3 +75,10 @@ type Filter = 'all' | 'active' | 'completed';
 7. Todos persist across page refresh (localStorage)
 8. Empty state shows helpful message
 9. All tests pass
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/superpowers]] — Superpowers
+- [[000 - Map of Maps]] — Map of Maps
+

@@ -257,3 +257,10 @@ Phase 3: Optimization (Dependent on Phase 2)
 ---
 
 *This analysis covers 7,739 total issues across 322 TypeScript files in the claude-code-flow project. The systematic approach ensures a stable, maintainable codebase while minimizing risk of introducing new issues.*
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

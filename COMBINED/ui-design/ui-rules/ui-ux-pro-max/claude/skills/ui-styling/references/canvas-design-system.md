@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/ui
+  - artifact/ui-component
+  - source/ui-design
+---
+
 # Canvas Design System
 
 Visual design philosophy, systematic composition, and sophisticated visual communication.
@@ -318,3 +325,9 @@ Apply canvas design for:
 - Exhibition materials
 - Coffee table books
 - Design philosophy demonstrations
+
+## 🔗 Связи
+
+- [[MOC - UI Design]] — ui-design
+- [[000 - Map of Maps]] — Map of Maps
+

@@ -39,3 +39,10 @@ report its results when it completes. You do NOT do the scanning or fixing yours
 - **Do NOT do the agent's work if it fails or hits context limits** — report the failure to the user and stop. NEVER pick up where the agent left off. You are not in a worktree and would be editing main directly.
 - **Do NOT update project memory** — the agent maintains its own memory at `.claude/agent-memory/rulecheck-agent/`. Do not duplicate run results into your project memory.
 - Trust the agent. It runs in an isolated worktree and will create a PR when done.
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/archon]] — Archon
+- [[000 - Map of Maps]] — Map of Maps
+

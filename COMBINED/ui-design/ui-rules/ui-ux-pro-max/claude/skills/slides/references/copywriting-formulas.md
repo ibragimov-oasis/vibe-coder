@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/ui
+  - artifact/ui-component
+  - source/ui-design
+---
+
 # Copywriting Formulas
 
 25 formulas for persuasive slide copy.
@@ -82,3 +89,9 @@ python COMBINED/workspace-config/claude/skills/design-system/scripts/search-slid
 | Drive action | AIDA, CTA |
 | Tell story | BAB, Story Arc |
 | Present data | Proof Stack |
+
+## 🔗 Связи
+
+- [[MOC - UI Design]] — ui-design
+- [[000 - Map of Maps]] — Map of Maps
+

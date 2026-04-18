@@ -105,3 +105,10 @@ Write report to `$ARTIFACTS_DIR/review/simplify-report.md` and output:
 ### No Changes Needed
 (If nothing to simplify, say so — "Code is already clean. No simplifications applied.")
 ```
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/archon]] — Archon
+- [[000 - Map of Maps]] — Map of Maps
+

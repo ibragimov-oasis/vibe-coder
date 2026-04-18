@@ -927,3 +927,10 @@ The deep review confirms that all critical capabilities are operational, documen
 ---
 
 *This deep review report is comprehensive and ready for distribution to stakeholders, technical reviewers, and release managers.*
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

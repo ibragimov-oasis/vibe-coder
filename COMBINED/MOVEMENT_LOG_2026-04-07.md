@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/combined-root
+---
+
 # Movement Log - April 7, 2026
 
 ## Session: Structure-8 Movements + Phase 1 Reorganization
@@ -358,3 +365,8 @@ Files that may reference old paths and need updates:
 ### Verification Targets
 - `find COMBINED/agents/agents-gsd -type f` should return no files.
 - `ls -R COMBINED/agents/by-role` should include the new role folders and moved files.
+
+## 🔗 Связи
+
+- [[000 - Map of Maps]] — Map of Maps
+

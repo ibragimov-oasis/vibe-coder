@@ -10,6 +10,10 @@ allowed-tools:
   - Edit
   - Write
   - Task
+tags:
+  - domain/skills
+  - artifact/command
+  - source/commands
 ---
 <objective>
 Validate built features through conversational testing with persistent state.
@@ -36,3 +40,9 @@ Context files are resolved inside the workflow (`init verify-work`) and delegate
 Execute the verify-work workflow from @~/.claude/get-shit-done/workflows/verify-work.md end-to-end.
 Preserve all workflow gates (session management, test presentation, diagnosis, fix planning, routing).
 </process>
+
+## 🔗 Связи
+
+- [[MOC - System]] — commands
+- [[000 - Map of Maps]] — Map of Maps
+

@@ -2,6 +2,10 @@
 name: review-pr
 description: Review a PR or branch diff using the knowledge graph for full structural context. Outputs a structured review with blast-radius analysis.
 argument-hint: "[PR number or branch name]"
+tags:
+  - domain/mcp
+  - artifact/mcp-server
+  - source/mcp-servers
 ---
 
 # Review PR
@@ -64,3 +68,9 @@ Perform a comprehensive code review of a pull request or branch diff using the k
 - For large PRs, focus on the highest-impact files first (most dependents)
 - Use `semantic_search_nodes_tool` to find related code the PR might have missed
 - Check if renamed/moved functions have updated all callers
+
+## 🔗 Связи
+
+- [[MOC - MCP Servers]] — mcp-servers
+- [[000 - Map of Maps]] — Map of Maps
+

@@ -163,3 +163,10 @@ kill %1 2>/dev/null
 - **Free tier URLs change on restart** — you'll need to update the webhook URL in GitHub each time you restart ngrok.
 - **Persistent URLs**: Use a paid ngrok plan, Cloudflare Tunnel, or cloud deployment (see `docs/cloud-deployment.md`).
 - Both the **server** (`bun run dev`) and **ngrok** must be running for GitHub webhooks to work.
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/archon]] — Archon
+- [[000 - Map of Maps]] — Map of Maps
+

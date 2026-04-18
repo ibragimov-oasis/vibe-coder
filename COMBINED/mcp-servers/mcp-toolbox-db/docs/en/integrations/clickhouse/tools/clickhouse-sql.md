@@ -4,6 +4,10 @@ type: docs
 weight: 2
 description: >
   A "clickhouse-sql" tool executes SQL queries as prepared statements in ClickHouse.
+tags:
+  - domain/mcp
+  - artifact/mcp-server
+  - source/mcp-servers
 ---
 
 ## About
@@ -81,3 +85,9 @@ parameters:
 | statement          |       string       |     true     | The SQL statement template to execute.                |
 | parameters         | array of Parameter |    false     | Parameters for prepared statement values.             |
 | templateParameters | array of Parameter |    false     | Parameters for SQL statement template customization.  |
+
+## 🔗 Связи
+
+- [[MOC - MCP Servers]] — mcp-servers
+- [[000 - Map of Maps]] — Map of Maps
+

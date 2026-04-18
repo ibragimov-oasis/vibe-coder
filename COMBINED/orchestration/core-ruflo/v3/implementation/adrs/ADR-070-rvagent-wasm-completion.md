@@ -103,3 +103,10 @@ declarations, and re-exports were already in place.
 ### Neutral
 - ADR-059 can now be considered fully implemented
 - No new code was needed — only the dependency declaration was missing
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

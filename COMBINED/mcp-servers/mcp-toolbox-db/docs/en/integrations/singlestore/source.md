@@ -6,6 +6,10 @@ weight: 1
 description: >
   SingleStore is the cloud-native database built with speed and scale to power data-intensive applications.
 no_list: true
+tags:
+  - domain/mcp
+  - artifact/mcp-server
+  - source/mcp-servers
 ---
 
 ## About
@@ -117,3 +121,9 @@ instead of hardcoding your secrets into the configuration file.
 | password         |      string       |     true     | Password of the SingleStore database user.                                                                                                                                                                                               |
 | queryTimeout     |      string       |    false     | Maximum time to wait for query execution (e.g. "30s", "2m"). By default, no timeout is applied.                                                                                                                                          |
 | connectionParams | map[string]string |    false     | Additional driver parameters appended to the DSN. Supports any [go-sql-driver/mysql DSN parameter](https://github.com/go-sql-driver/mysql#dsn-data-source-name). Commonly used for SSL configuration (see `tls` values below). |
+
+## 🔗 Связи
+
+- [[MOC - MCP Servers]] — mcp-servers
+- [[000 - Map of Maps]] — Map of Maps
+

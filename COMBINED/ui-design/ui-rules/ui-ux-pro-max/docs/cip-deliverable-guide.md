@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/ui
+  - artifact/ui-component
+  - source/ui-design
+---
+
 # CIP Deliverable Guide
 
 ## Core Identity
@@ -93,3 +100,9 @@
 - Quality over quantity
 - Useful items preferred
 - Brand colors prominent
+
+## 🔗 Связи
+
+- [[MOC - UI Design]] — ui-design
+- [[000 - Map of Maps]] — Map of Maps
+

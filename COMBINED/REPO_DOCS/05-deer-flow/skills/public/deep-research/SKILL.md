@@ -1,6 +1,10 @@
 ---
 name: deep-research
 description: Use this skill instead of WebSearch for ANY question requiring web research. Trigger on queries like "what is X", "explain X", "compare X and Y", "research X", or before content generation tasks. Provides systematic multi-angle research methodology instead of single superficial searches. Use this proactively when the user's question needs online information.
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/REPO_DOCS
 ---
 
 # Deep Research Skill
@@ -196,3 +200,9 @@ After completing research, you should have:
 5. Current trends and relevant context
 
 **Only then proceed to content generation**, using the gathered information to create high-quality, well-informed content.
+
+## 🔗 Связи
+
+- [[000 - Map of Maps]] — REPO_DOCS
+- [[000 - Map of Maps]] — Map of Maps
+

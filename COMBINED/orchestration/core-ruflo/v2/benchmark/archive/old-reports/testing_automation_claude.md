@@ -78,3 +78,10 @@ tags:
 - Test Execution Time: <5 min
 - Test Success Rate: >99%
 - Maintenance Overhead: <10%
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

@@ -25,3 +25,10 @@ PUBLIC_APP_DESCRIPTION="Making the community's best AI chat models available to 
 PUBLIC_APP_DATA_SHARING=1    # Show data sharing opt-in toggle in settings
 PUBLIC_ORIGIN=https://chat.example.com  # Your public URL (required for sharing)
 ```
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

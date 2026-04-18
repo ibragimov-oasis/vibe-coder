@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/memory
+  - artifact/memory
+  - source/memory
+---
+
 # TypeScript SDK V2 interface (preview)
 
 Preview of the simplified V2 TypeScript Agent SDK, with session-based send/receive patterns for multi-turn conversations.
@@ -388,3 +395,9 @@ Share your feedback on the V2 interface before it becomes stable. Report issues 
 - [TypeScript SDK reference (V1)](/docs/en/agent-sdk/typescript) - Full V1 SDK documentation
 - [SDK overview](/docs/en/agent-sdk/overview) - General SDK concepts
 - [V2 examples on GitHub](https://github.com/anthropics/claude-agent-sdk-demos/tree/main/hello-world-v2) - Working code examples
+
+## 🔗 Связи
+
+- [[MOC - Memory]] — memory
+- [[000 - Map of Maps]] — Map of Maps
+

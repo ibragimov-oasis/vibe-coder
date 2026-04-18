@@ -847,3 +847,10 @@ The architecture is designed to be:
 - **Maintainable**: Clear interfaces and modular design
 
 Implementation should follow the phased approach outlined, with continuous testing and validation at each stage to ensure the system meets its stringent reliability requirements.
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

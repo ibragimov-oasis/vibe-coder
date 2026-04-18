@@ -38,3 +38,10 @@ History files (.md files tracking decisions, spawns, outcomes) are read cold by 
 - Attributing decisions without confirming final direction
 - Treating history like a draft — history is the source of truth
 - Assuming readers will cross-reference or verify; they won't
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/squad]] — Squad
+- [[000 - Map of Maps]] — Map of Maps
+

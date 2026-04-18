@@ -189,3 +189,10 @@ The database has 8 tables, all prefixed with `remote_agent_`:
 | `018_fix_workflow_status_default.sql` | Fix workflow status default value |
 | `019_workflow_resume_path.sql` | Workflow resume path support |
 | `020_codebase_env_vars.sql` | Per-project environment variables |
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/archon]] — Archon
+- [[000 - Map of Maps]] — Map of Maps
+

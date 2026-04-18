@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/ui
+  - artifact/ui-component
+  - source/ui-design
+---
+
 # Baton File Schema
 
 The baton file (`next-prompt.md`) is the communication mechanism between loop iterations. It tells the next agent what to build.
@@ -59,3 +66,9 @@ Before completing an iteration, validate your baton:
 - [ ] Prompt includes the design system block
 - [ ] Prompt describes a page NOT already in `SITE.md` sitemap
 - [ ] Prompt includes specific page structure details
+
+## 🔗 Связи
+
+- [[MOC - UI Design]] — ui-design
+- [[000 - Map of Maps]] — Map of Maps
+

@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/mcp
+  - artifact/mcp-server
+  - source/mcp-servers
+---
+
 ## Description
 
 > Should include a concise description of the changes (bug or feature), it's
@@ -20,3 +27,9 @@
 - [ ] Make sure to add `!` if this involve a breaking change
 
 🛠️ Fixes #<issue_number_goes_here>
+
+## 🔗 Связи
+
+- [[MOC - MCP Servers]] — mcp-servers
+- [[000 - Map of Maps]] — Map of Maps
+

@@ -58,3 +58,10 @@ That's it! Chat UI will automatically discover available models from your endpoi
 > MongoDB is optional for development. When `MONGODB_URL` is not set, Chat UI uses an embedded database that persists to `./db`.
 
 For production deployments, see the [installation guides](./installation/local).
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

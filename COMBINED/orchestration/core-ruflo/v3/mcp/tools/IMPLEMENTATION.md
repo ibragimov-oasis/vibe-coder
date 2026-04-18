@@ -343,3 +343,10 @@ cat v3/mcp/tools/README.md
 **Total Lines**: 2,800
 **Cacheable**: 10 (77%)
 **Status**: Production-ready with stub implementations
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

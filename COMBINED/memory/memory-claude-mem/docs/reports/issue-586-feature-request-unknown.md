@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/memory
+  - artifact/memory
+  - source/memory
+---
+
 # Issue #586: Race Condition in memory_session_id Capture
 
 **Report Date:** 2026-01-07
@@ -505,3 +512,9 @@ The recommended fix is to implement a retry mechanism in `ResponseProcessor.proc
 - Is straightforward to implement and test
 
 **Immediate Action Required:** Implement Solution A (Retry Mechanism) and release a hotfix to prevent ongoing data loss.
+
+## 🔗 Связи
+
+- [[MOC - Memory]] — memory
+- [[000 - Map of Maps]] — Map of Maps
+

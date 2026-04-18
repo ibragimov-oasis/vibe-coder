@@ -37,3 +37,10 @@ Full policy documented in `.squad/skills/versioning-policy/SKILL.md`.
 - All agents must follow the versioning policy when touching `package.json`
 - Surgeon charter should reference this skill for release procedures
 - CI pipeline enforces the policy via automated gate
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/squad]] — Squad
+- [[000 - Map of Maps]] — Map of Maps
+

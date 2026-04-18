@@ -136,3 +136,10 @@ Bot responds with analysis. Continue the conversation:
 ```
 
 Bot maintains context and provides the diagram.
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/archon]] — Archon
+- [[000 - Map of Maps]] — Map of Maps
+

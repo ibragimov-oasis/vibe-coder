@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/root
+---
+
 <div align="center">
 
 # 🎯 ULTRACAR v3.0 — Vibe-Coder Arsenal
@@ -852,3 +859,8 @@ Made by [@ibragimov-oasis](https://github.com/ibragimov-oasis) — a law student
 **Last Updated:** 2026-04-14
 
 </div>
+
+## 🔗 Связи
+
+- [[000 - Map of Maps]] — Map of Maps
+

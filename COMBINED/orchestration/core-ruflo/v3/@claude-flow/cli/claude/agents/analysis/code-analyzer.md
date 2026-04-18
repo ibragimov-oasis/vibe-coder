@@ -212,3 +212,10 @@ When working in a swarm:
 5. Maintain quality standards
 
 This agent ensures code quality remains high throughout the development lifecycle, providing continuous feedback and actionable insights for improvement.
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

@@ -170,3 +170,10 @@ npx claude-flow monitor
 5. **REST** constraints
 
 This architecture provides a solid foundation for a simple REST API that can be easily understood, tested, and extended as requirements grow.
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

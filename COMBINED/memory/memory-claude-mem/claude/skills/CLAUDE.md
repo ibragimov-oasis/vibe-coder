@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/memory
+  - artifact/memory
+  - source/memory
+---
+
 # Project-Level Skills
 
 This directory contains skills **for developing and maintaining the claude-mem project itself**, not skills that are released as part of the plugin.
@@ -27,3 +34,9 @@ Manages semantic versioning for the claude-mem project itself. Handles updating 
 
 **For claude-mem development** → Add to `COMBINED/workspace-config/claude/skills/`
 **For end users** → Add to `plugin/skills/` (gets distributed with plugin)
+
+## 🔗 Связи
+
+- [[MOC - Memory]] — memory
+- [[000 - Map of Maps]] — Map of Maps
+

@@ -413,3 +413,10 @@ When rendering a map animation, make sure to render with the following flags:
 ```
 npx remotion render --gl=angle --concurrency=1
 ```
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/archon]] — Archon
+- [[000 - Map of Maps]] — Map of Maps
+

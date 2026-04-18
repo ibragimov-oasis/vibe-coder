@@ -79,5 +79,8 @@ To refresh this skill with updated documentation:
 
 <!-- Trigger re-upload 1763621536 -->
 
+## 🔗 Связи
 
+- [[000 - Map of Maps]] — REPO_DOCS
+- [[000 - Map of Maps]] — Map of Maps
 

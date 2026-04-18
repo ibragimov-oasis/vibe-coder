@@ -76,3 +76,8 @@ Shannon использует 13 специализированных агент�
 - [[MOC - System]] — Pipeline включает Shannon на Step 3
 - [[MOC - MCP Servers]] — Code Review Graph как MCP
 - [[000 - Map of Maps]] — Главная карта
+
+## 🔗 Связи
+
+- [[000 - Map of Maps]] — Map of Maps
+

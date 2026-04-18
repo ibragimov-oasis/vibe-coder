@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/ui
+  - artifact/ui-component
+  - source/ui-design
+---
+
 # Output Limits and Consumer Truncation
 
 ## Context Window Asymmetry
@@ -37,3 +44,9 @@ Purpose-built CLI tools (Gemini CLI, Claude Code, third-party wrappers) offer ad
 | Developer platform (AI Studio) | Full context, no hidden slicing | Low | Full |
 | Direct API | Full context, raw access | Minimal | Full |
 | CLI tools with local models | No corporate alignment filters | None | Full |
+
+## 🔗 Связи
+
+- [[MOC - UI Design]] — ui-design
+- [[000 - Map of Maps]] — Map of Maps
+

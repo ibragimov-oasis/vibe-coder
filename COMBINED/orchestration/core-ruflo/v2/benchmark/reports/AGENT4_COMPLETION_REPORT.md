@@ -215,3 +215,10 @@ Agent 4: Performance Benchmarker has successfully delivered a state-of-the-art p
 ---
 
 *Agent 4: Performance Benchmarker reporting mission complete. Standing by for integration and deployment orders.*
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

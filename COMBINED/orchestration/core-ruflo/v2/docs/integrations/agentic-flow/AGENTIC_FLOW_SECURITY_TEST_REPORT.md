@@ -374,3 +374,10 @@ No API keys will leak into:
 **Security Level:** MAXIMUM
 **Confidence:** HIGH
 **Ready for Production:** After API alignment updates
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

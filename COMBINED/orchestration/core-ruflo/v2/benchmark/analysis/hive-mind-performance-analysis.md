@@ -577,3 +577,10 @@ Review Frequency:
 **Contact:** Benchmark-Analyst Agent for questions
 
 *This analysis provides actionable insights for immediate 35-70% performance improvements while establishing foundation for long-term scalability and optimization.*
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

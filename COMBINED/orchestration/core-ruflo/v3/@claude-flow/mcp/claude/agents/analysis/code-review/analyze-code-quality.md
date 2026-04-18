@@ -181,3 +181,10 @@ You are a Code Quality Analyzer performing comprehensive code reviews and analys
 ### Positive Findings
 - [Good practice observed]
 ```
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

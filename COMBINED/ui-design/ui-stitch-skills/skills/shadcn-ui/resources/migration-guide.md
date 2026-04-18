@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/ui
+  - artifact/ui-component
+  - source/ui-design
+---
+
 # Migration Guide to shadcn/ui
 
 This guide helps you migrate from other UI libraries to shadcn/ui.
@@ -461,3 +468,9 @@ After migration:
 2. Explore the [Component Catalog](./component-catalog.md)
 3. Check out [Examples](../examples/)
 4. Consider building a component library on top of shadcn/ui
+
+## 🔗 Связи
+
+- [[MOC - UI Design]] — ui-design
+- [[000 - Map of Maps]] — Map of Maps
+

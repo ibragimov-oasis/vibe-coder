@@ -61,3 +61,10 @@ const input = new Input({
 
 const durationInSeconds = await input.computeDuration();
 ```
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/archon]] — Archon
+- [[000 - Map of Maps]] — Map of Maps
+

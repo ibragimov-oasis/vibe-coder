@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/reference
+  - source/reference
+---
+
 # SvelteKit RESTful API Tailwind CSS .cursorrules prompt file
 
 Author: Djordje Stojanovic
@@ -13,4 +20,9 @@ Developers working on a SvelteKit project with Supabase backend can ensure effic
 
 ## Overview of .cursorrules prompt
 The .cursorrules file serves as a comprehensive guideline for developers working on the Stojanovic-One web application project. It outlines the project's tech stack, emphasizing the use of full file paths for all file-related operations to ensure clarity and consistency. Key practices such as following Elon Musk’s algorithm for efficiency, test-driven development, file management protocols, and maintaining code quality are highlighted. The file encourages thorough documentation, truthfulness, and clarity in communication, while also stressing the importance of a systematic development workflow and adherence to best practices like responsive design and RESTful API principles. It suggests continuous improvements and stresses Windows compatibility. The document aims to provide developers with structured guidance to maintain an efficient, organized, and high-quality development process.
+
+## 🔗 Связи
+
+- [[MOC - System]] — reference
+- [[000 - Map of Maps]] — Map of Maps
 

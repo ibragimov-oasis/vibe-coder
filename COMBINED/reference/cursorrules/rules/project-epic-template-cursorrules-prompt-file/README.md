@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/reference
+  - source/reference
+---
+
 # Project Epic Template Prompt
 
 A specialized .cursorrules prompt for creating comprehensive project epics and user stories that align with agile methodologies and provide clear direction for development teams.
@@ -33,3 +40,9 @@ The .cursorrules prompt guides users in creating effective project documentation
 - **Best Practices**: Ten key principles for creating effective epics and user stories
 - **Acceptance Criteria**: Guidelines for writing clear, testable acceptance criteria
 - **Tool Adaptability**: Advice for adapting templates to specific project management tools
+
+## 🔗 Связи
+
+- [[MOC - System]] — reference
+- [[000 - Map of Maps]] — Map of Maps
+

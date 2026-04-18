@@ -205,3 +205,10 @@ mcp__claude-flow__memory_usage {
 - Coup prevention mechanisms
 - Disaster recovery procedures
 - Continuity of operations
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

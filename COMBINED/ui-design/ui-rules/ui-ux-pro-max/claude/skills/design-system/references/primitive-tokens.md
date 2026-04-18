@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/ui
+  - artifact/ui-component
+  - source/ui-design
+---
+
 # Primitive Tokens
 
 Raw design values - foundation of the design system.
@@ -201,3 +208,9 @@ Raw design values - foundation of the design system.
   --z-tooltip:  1400;
 }
 ```
+
+## 🔗 Связи
+
+- [[MOC - UI Design]] — ui-design
+- [[000 - Map of Maps]] — Map of Maps
+

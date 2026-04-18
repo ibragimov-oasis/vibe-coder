@@ -569,3 +569,10 @@ If test runner exists:
 ```
 
 Note: these tests require Claude Code with `--dangerously-skip-permissions`. If not available, document that regression tests should be run manually.
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/superpowers]] — Superpowers
+- [[000 - Map of Maps]] — Map of Maps
+

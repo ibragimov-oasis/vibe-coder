@@ -250,3 +250,10 @@ All template files are located at:
 ```
 
 The template provides a complete, production-ready solution for deploying optimized Claude Code environments with full SPARC methodology support and comprehensive batch tools integration.
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

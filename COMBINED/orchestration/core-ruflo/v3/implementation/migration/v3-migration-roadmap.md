@@ -1270,3 +1270,10 @@ npx claude-flow rollback v2
 ---
 
 **End of Migration Roadmap**
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

@@ -2,6 +2,10 @@
 title: "Neo4j"
 type: docs
 description: "Details of the Neo4j prebuilt configuration."
+tags:
+  - domain/mcp
+  - artifact/mcp-server
+  - source/mcp-servers
 ---
 
 ## Neo4j
@@ -18,3 +22,9 @@ description: "Details of the Neo4j prebuilt configuration."
 *   **Tools:**
     *   `execute_cypher`: Executes a Cypher query.
     *   `get_schema`: Retrieves the schema of the Neo4j database.
+
+## 🔗 Связи
+
+- [[MOC - MCP Servers]] — mcp-servers
+- [[000 - Map of Maps]] — Map of Maps
+

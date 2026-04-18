@@ -189,3 +189,10 @@ Connect `hooks intelligence stats` to ReasoningBank data:
 - WASM module may not load in all environments (fallback to JS required)
 - Consensus with slow/unreachable agents needs timeout handling
 - EWC++ Fisher matrices grow with pattern count — need size limits
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

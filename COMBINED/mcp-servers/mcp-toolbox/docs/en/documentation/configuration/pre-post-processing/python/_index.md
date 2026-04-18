@@ -6,6 +6,10 @@ description: >
   How to add pre- and post- processing to your Agents using Python.
 sample_filters: ["Pre & Post Processing", "Python", "ADK", "LangChain"]
 is_sample: true
+tags:
+  - domain/mcp
+  - artifact/mcp-server
+  - source/mcp-servers
 ---
 
 ## Prerequisites
@@ -48,3 +52,9 @@ AI: Booking Confirmed! You earned 500 Loyalty Points with this stay.
 
 AI: Error: Maximum stay duration is 14 days.
 ```
+
+## 🔗 Связи
+
+- [[MOC - MCP Servers]] — mcp-servers
+- [[000 - Map of Maps]] — Map of Maps
+

@@ -197,3 +197,10 @@ Add Node flag to scripts:
 **Status**: ✅ **VALIDATED AND PRODUCTION READY**  
 **Date**: 2025-10-13  
 **Validated By**: Docker testing + WASM integration verification
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

@@ -52,3 +52,10 @@ npx @bradygaster/create-squad upgrade
 ---
 
 Thanks to everyone who reported bugs. Your feedback shaped this release. 🚀
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/squad]] — Squad
+- [[000 - Map of Maps]] — Map of Maps
+

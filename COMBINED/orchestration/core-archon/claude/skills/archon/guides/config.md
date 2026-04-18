@@ -222,3 +222,10 @@ These env vars override any config file setting:
 | `SLACK_STREAMING_MODE` | `streaming.slack` |
 | `MAX_CONCURRENT_CONVERSATIONS` | `concurrency.maxConversations` |
 | `ARCHON_HOME` | Base directory for all Archon paths |
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/archon]] — Archon
+- [[000 - Map of Maps]] — Map of Maps
+

@@ -1419,3 +1419,10 @@ npx claude-flow@alpha swarm report \
 ---
 
 This comprehensive guide provides everything needed for the 6-agent swarm to successfully implement the benchmark system enhancements. Each agent has clear instructions, the architecture is fully specified, and success criteria are well-defined.
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

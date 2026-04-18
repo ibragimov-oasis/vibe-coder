@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/ui
+  - artifact/ui-component
+  - source/ui-design
+---
+
 # Layout Patterns
 
 25 slide layouts with CSS structures and animation classes.
@@ -135,3 +142,9 @@ python COMBINED/workspace-config/claude/skills/design-system/scripts/search-slid
 4. Should it break pattern?
    └─> Check position (1/3, 2/3) → Use full-bleed
 ```
+
+## 🔗 Связи
+
+- [[MOC - UI Design]] — ui-design
+- [[000 - Map of Maps]] — Map of Maps
+

@@ -305,3 +305,10 @@ The memory redaction feature is fully implemented, tested, and documented. It pr
 **Tester:** Claude Code
 **Feature Version:** v2.6.0-alpha.1
 **Confidence Level:** HIGH
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

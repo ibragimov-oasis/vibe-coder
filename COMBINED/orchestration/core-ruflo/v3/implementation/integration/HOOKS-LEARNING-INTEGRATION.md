@@ -373,3 +373,10 @@ Claude-Flow v3 should focus on:
 
 *Document created: 2026-01-03*
 *agentic-flow version: 2.0.1-alpha.50*
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

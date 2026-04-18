@@ -415,3 +415,9 @@ After setup, you should be able to do all of the following with just this skill:
 - Twilio voice: https://www.twilio.com/docs/voice/api/call-resource
 - Vapi docs: https://docs.vapi.ai/
 - Bland.ai: https://app.bland.ai/
+
+## 🔗 Связи
+
+- [[000 - Map of Maps]] — REPO_DOCS
+- [[000 - Map of Maps]] — Map of Maps
+

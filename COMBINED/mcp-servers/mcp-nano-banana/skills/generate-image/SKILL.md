@@ -2,6 +2,10 @@
 name: generate-image
 description: Generate images using nano-banana-2 MCP tools with best-practice prompting. Use this skill when the user asks to create, generate, or edit images.
 allowed-tools: mcp__nano-banana-2__generate_image, mcp__nano-banana-2__edit_image, mcp__nano-banana-2__continue_editing, mcp__nano-banana-2__get_configuration_status, mcp__nano-banana-2__get_last_image_info
+tags:
+  - domain/mcp
+  - artifact/mcp-server
+  - source/mcp-servers
 ---
 
 # Image Generation with Nano Banana 2
@@ -53,3 +57,9 @@ Before generating images, verify the API key is configured:
 ## Context Window Management
 
 When generating images in Claude Code, set `returnInlineImage: false` to prevent base64 image data from filling the context window. The image is still saved to disk — just tell the user where to find it.
+
+## 🔗 Связи
+
+- [[MOC - MCP Servers]] — mcp-servers
+- [[000 - Map of Maps]] — Map of Maps
+

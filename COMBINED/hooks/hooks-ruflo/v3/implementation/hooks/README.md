@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/workflow
+  - source/hooks
+---
+
 # V3 Hooks System Implementation
 
 ## Overview
@@ -587,3 +594,9 @@ npm test -- --coverage hooks/
 - **ADR-005**: MCP-First API Design - Hooks exposed as MCP tools
 - **ADR-006**: Unified Memory Service - ReasoningBank integration
 - **ADR-007**: Event Sourcing - Hook events as audit trail
+
+## 🔗 Связи
+
+- [[MOC - System]] — hooks
+- [[000 - Map of Maps]] — Map of Maps
+

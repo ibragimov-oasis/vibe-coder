@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/reference
+  - source/reference
+---
+
 # Claude HUD
 
 Real-time statusline showing context usage, active tools, running agents, and todo progress.
@@ -396,3 +403,9 @@ Technical documentation for agents who need to understand, modify, or debug Clau
     3. Explain the data sources and how they're combined
   </understand>
 </task_instructions>
+
+## 🔗 Связи
+
+- [[MOC - System]] — reference
+- [[000 - Map of Maps]] — Map of Maps
+

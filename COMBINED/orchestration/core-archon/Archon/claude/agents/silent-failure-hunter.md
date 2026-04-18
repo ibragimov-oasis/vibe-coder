@@ -142,3 +142,10 @@ For every error handling location, evaluate:
 - **Visible fallbacks** - Users must know when fallback behavior activates
 
 Every silent failure you catch prevents hours of debugging frustration.
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/archon]] — Archon
+- [[000 - Map of Maps]] — Map of Maps
+

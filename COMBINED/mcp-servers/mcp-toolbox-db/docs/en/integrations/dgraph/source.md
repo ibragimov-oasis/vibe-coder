@@ -6,6 +6,10 @@ weight: 1
 description: >
  Dgraph is fully open-source, built-for-scale graph database for Gen AI workloads
 no_list: true
+tags:
+  - domain/mcp
+  - artifact/mcp-server
+  - source/mcp-servers
 ---
 
 {{< notice note >}}
@@ -78,3 +82,9 @@ instead of hardcoding your secrets into the configuration file.
 | password    |  string  |     false    | Password of the Dgraph user (e.g., "password").                                                  |
 | apiKey      |  string  |     false    | API key to connect to a Dgraph Cloud instance.                                                   |
 | namespace   |  uint64  |     false    | Dgraph namespace (not required for Dgraph Cloud Shared Clusters).                                |
+
+## 🔗 Связи
+
+- [[MOC - MCP Servers]] — mcp-servers
+- [[000 - Map of Maps]] — Map of Maps
+

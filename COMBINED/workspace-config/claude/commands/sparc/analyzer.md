@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/config
+  - source/workspace-config
+---
+
 # SPARC Analyzer Mode
 
 ## Purpose
@@ -50,3 +57,9 @@ npx claude-flow@alpha sparc run analyzer "analyze codebase performance"
 - Performance metrics
 - Improvement recommendations
 - Visualizations when applicable
+
+## 🔗 Связи
+
+- [[MOC - System]] — workspace-config
+- [[000 - Map of Maps]] — Map of Maps
+

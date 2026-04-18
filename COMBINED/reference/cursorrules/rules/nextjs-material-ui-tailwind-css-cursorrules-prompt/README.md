@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/reference
+  - source/reference
+---
+
 # Next.js Material UI Tailwind CSS .cursorrules prompt file
 
 Author: LaurentP-56
@@ -13,4 +20,9 @@ Developers building a modern portfolio website using Next.js with a strong empha
 
 ## Overview of .cursorrules prompt
 The .cursorrules file outlines the setup for a project named "Portfolio2" using Next.js. It specifies the use of TypeScript and Tailwind CSS, but opts out of using ESLint and customizing the default import alias. The project structure includes the use of an `src/` directory and an App Router. The file lists a comprehensive set of dependencies crucial for the project, such as packages for UI components, styling, authentication, and a database client. Key dependencies include Material UI, Tailwind CSS, Prisma, and Next.js. Additionally, relevant devDependencies for the development environment, such as type definitions and PostCSS, are included.
+
+## 🔗 Связи
+
+- [[MOC - System]] — reference
+- [[000 - Map of Maps]] — Map of Maps
 

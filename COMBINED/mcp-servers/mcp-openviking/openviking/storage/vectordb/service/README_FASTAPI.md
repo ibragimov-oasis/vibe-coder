@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/mcp
+  - artifact/mcp-server
+  - source/mcp-servers
+---
+
 # VikingDB FastAPI Server
 
 重构后的 VikingDB Collection Server，使用 FastAPI 替代 Flask。
@@ -154,3 +161,9 @@ response = requests.post(
 )
 print(response.json())
 ```
+
+## 🔗 Связи
+
+- [[MOC - MCP Servers]] — mcp-servers
+- [[000 - Map of Maps]] — Map of Maps
+

@@ -143,3 +143,10 @@ This is why artifacts matter so much. They're the answer to "how does node 5 kno
 ---
 
 Now you understand the system. In [Chapter 4: The Essential Workflows →](/book/essential-workflows/), we'll walk through all of Archon's built-in workflows so you know exactly which one to reach for and when.
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/archon]] — Archon
+- [[000 - Map of Maps]] — Map of Maps
+

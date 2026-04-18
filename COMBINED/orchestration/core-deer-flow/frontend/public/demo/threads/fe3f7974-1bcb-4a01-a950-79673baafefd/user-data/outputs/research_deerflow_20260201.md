@@ -266,3 +266,10 @@ This report was compiled using:
 **Date:** 2026-02-01
 **Report Version:** 1.0
 **Status:** Complete
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/deerflow]] — DeerFlow
+- [[000 - Map of Maps]] — Map of Maps
+

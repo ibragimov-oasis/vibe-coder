@@ -949,3 +949,10 @@ User Request → MCP Tool → Route Decision
 ### Claude Flow V3
 - [ADR-006: Unified Memory Service](./ADR-006-unified-memory-service.md)
 - [ADR-001: Deep Agentic Flow Integration](./ADR-001-deep-agentic-flow-integration.md)
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

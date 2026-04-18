@@ -62,3 +62,9 @@ markitdown presentation.pptx > outline.md
 ## Исходник
 
 > 📂 `../COMBINED/agents/mega/mega-writer.md`
+
+## 🔗 Связи
+
+- [[MOC - Agents]] — Parent MOC
+- [[000 - Map of Maps]] — Map of Maps
+

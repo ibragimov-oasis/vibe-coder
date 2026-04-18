@@ -432,3 +432,9 @@ TrainingArguments(learning_rate=1e-4)
 - **LoRA Paper**: arXiv:2106.09685
 - **QLoRA Paper**: arXiv:2305.14314
 - **Models**: https://huggingface.co/models?library=peft
+
+## 🔗 Связи
+
+- [[000 - Map of Maps]] — REPO_DOCS
+- [[000 - Map of Maps]] — Map of Maps
+

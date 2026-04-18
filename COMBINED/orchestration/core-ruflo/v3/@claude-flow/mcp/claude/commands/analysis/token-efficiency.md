@@ -50,3 +50,10 @@ Parameters: {"operation": "session", "timeframe": "24h"}
 - 🎯 More focused operations
 - 🔄 Intelligent result reuse
 - 📊 Cumulative improvements
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

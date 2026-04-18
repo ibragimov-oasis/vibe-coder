@@ -386,3 +386,10 @@ If a task description is ambiguous:
 - **TESTS_PASS**: All tests green
 - **DEVIATIONS_DOCUMENTED**: Any plan deviations noted
 - **ARTIFACT_WRITTEN**: Implementation progress artifact created
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/archon]] — Archon
+- [[000 - Map of Maps]] — Map of Maps
+

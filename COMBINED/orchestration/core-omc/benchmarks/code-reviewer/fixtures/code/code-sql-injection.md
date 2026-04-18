@@ -89,3 +89,10 @@ router.delete('/:id', async (req, res) => {
 
 export default router;
 ```
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/omc]] — OMC
+- [[000 - Map of Maps]] — Map of Maps
+

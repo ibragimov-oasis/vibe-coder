@@ -3,6 +3,10 @@ name: openviking
 description: "Activate when the user asks about any repository listed in the system prompt under 'OpenViking — Indexed Code Repositories', or when they ask about an external library, framework, or project that may have been indexed. Also activate when the user wants to add, remove, or manage repos. Always search the local codebase first before using this skill."
 license: MIT
 compatibility: opencode
+tags:
+  - domain/mcp
+  - artifact/mcp-server
+  - source/mcp-servers
 ---
 
 # OpenViking Code Repository Search
@@ -127,3 +131,9 @@ For other issues or command details, run:
 ov help
 ov <command> --help   # e.g. ov search --help
 ```
+
+## 🔗 Связи
+
+- [[MOC - MCP Servers]] — mcp-servers
+- [[000 - Map of Maps]] — Map of Maps
+

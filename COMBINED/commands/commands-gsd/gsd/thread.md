@@ -6,6 +6,10 @@ allowed-tools:
   - Read
   - Write
   - Bash
+tags:
+  - domain/skills
+  - artifact/command
+  - source/commands
 ---
 
 <objective>
@@ -125,3 +129,9 @@ Create a new thread:
   /gsd:add-phase or /gsd:add-backlog with context from the thread
 - Thread files live in .planning/threads/ — no collision with phases or other GSD structures
 </notes>
+
+## 🔗 Связи
+
+- [[MOC - System]] — commands
+- [[000 - Map of Maps]] — Map of Maps
+

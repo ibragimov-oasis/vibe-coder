@@ -125,3 +125,10 @@ As AI continues to evolve, the most compelling work will likely come from those 
 ---
 
 _All images generated using structured prompt engineering based on Leica photography research. Prompts available upon request._
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/deerflow]] — DeerFlow
+- [[000 - Map of Maps]] — Map of Maps
+

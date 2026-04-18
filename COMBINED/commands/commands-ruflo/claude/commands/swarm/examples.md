@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/command
+  - source/commands
+---
+
 # Examples Swarm Strategy
 
 ## Common Swarm Patterns
@@ -166,3 +173,9 @@ try {
   })
 }
 ```
+
+## 🔗 Связи
+
+- [[MOC - System]] — commands
+- [[000 - Map of Maps]] — Map of Maps
+

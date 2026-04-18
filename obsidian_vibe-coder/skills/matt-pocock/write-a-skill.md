@@ -90,3 +90,9 @@ Output: ...
 
 - [[_governance/NOTE_TEMPLATE]] — vault template (аналог для заметок)
 - [[orchestration/core-hermes]] — когда создавать навыки автоматически
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Parent MOC
+- [[000 - Map of Maps]] — Map of Maps
+

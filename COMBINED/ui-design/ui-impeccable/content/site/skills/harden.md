@@ -1,5 +1,9 @@
 ---
 tagline: "Make interfaces production-ready. Edge cases, onboarding, i18n, error states, overflow."
+tags:
+  - domain/ui
+  - artifact/ui-component
+  - source/ui-design
 ---
 
 ## When to use it
@@ -43,3 +47,9 @@ Run it per-page, not all at once. The first run is the biggest; subsequent runs 
 - **Waiting for a bug report.** Harden is preventative. If you find yourself fixing the same class of bug twice, run `/harden` across the feature.
 - **Treating error and empty states as an afterthought.** Most hardening work is error and empty state UI. Budget time for it, not just a `catch` block.
 - **Skipping i18n because "we are English-only for now".** i18n-safe layouts are still better layouts. Flexible containers, proper text wrapping, generous line-height. None of that hurts English.
+
+## 🔗 Связи
+
+- [[MOC - UI Design]] — ui-design
+- [[000 - Map of Maps]] — Map of Maps
+

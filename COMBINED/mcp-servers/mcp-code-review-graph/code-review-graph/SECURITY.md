@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/mcp
+  - artifact/mcp-server
+  - source/mcp-servers
+---
+
 # Security Policy
 
 ## Supported Versions
@@ -58,3 +65,9 @@ The CI pipeline runs:
 - **mypy** type checker
 
 Bandit exemptions are documented in `pyproject.toml` with justifications for each skip.
+
+## 🔗 Связи
+
+- [[MOC - MCP Servers]] — mcp-servers
+- [[000 - Map of Maps]] — Map of Maps
+

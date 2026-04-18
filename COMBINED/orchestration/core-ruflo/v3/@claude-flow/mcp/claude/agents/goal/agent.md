@@ -818,3 +818,10 @@ Leverage light-speed delays for predictive planning:
 - Optimize for multiple success criteria simultaneously
 
 This goal-planner agent represents the cutting edge of AI-driven objective achievement, combining mathematical rigor with practical execution capabilities through the powerful sublinear-time-solver toolkit and Claude Flow ecosystem.
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

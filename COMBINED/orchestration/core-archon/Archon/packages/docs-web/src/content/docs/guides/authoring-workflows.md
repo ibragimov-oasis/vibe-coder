@@ -1130,3 +1130,10 @@ Before deploying a workflow:
 17. **Loop nodes** — use `loop:` within a DAG node for iterative execution until completion signal
 18. **Defaults as templates** — browse `.archon/workflows/defaults/` for real examples to copy and modify
 19. **Test thoroughly** — each command, the artifact flow, and edge cases
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/archon]] — Archon
+- [[000 - Map of Maps]] — Map of Maps
+

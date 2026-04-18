@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/combined-root
+---
+
 # File Structure
 
 └── 📁 COMBINED
@@ -65389,3 +65396,8 @@ COMBINED/agents/agents-omc/test-engineer.md
 COMBINED/agents/agents-omc/tracer.md
 COMBINED/agents/agents-omc/verifier.md
 COMBINED/agents/agents-omc/writer.md to COMBINED/agents/by-role - Move 19 items to COMBINED/agents/by-role: "analyst.md", "architect.md", "code-reviewer.md", "code-simplifier.md", "critic.md", "debugger.md", "designer.md", "document-specialist.md", "executor.md", "explore.md", "git-master.md", "planner.md", "qa-tester.md", "scientist.md", "security-reviewer.md", "test-engineer.md", "tracer.md", "verifier.md", "writer.md"
+
+## 🔗 Связи
+
+- [[000 - Map of Maps]] — Map of Maps
+

@@ -417,3 +417,10 @@ Not-great first servers:
 - [MCP (Model Context Protocol)](/docs/user-guide/features/mcp)
 - [FAQ](/docs/reference/faq)
 - [Slash Commands](/docs/reference/slash-commands)
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/hermes]] — Hermes
+- [[000 - Map of Maps]] — Map of Maps
+

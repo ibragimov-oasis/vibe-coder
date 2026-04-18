@@ -537,3 +537,10 @@ The ReasoningBank plugin is **production-ready** for the core infrastructure:
 **Report Generated**: 2025-10-10
 **Validated By**: Claude Code (Agentic-Flow Integration)
 **Status**: ✅ **READY FOR DEPLOYMENT**
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/security
+  - artifact/security
+  - source/security
+---
+
 <div align="center">
 
 <img src="https://raw.githubusercontent.com/KeygraphHQ/shannon/main/assets/github-banner.png" alt="Shannon — AI Pentester for Web Applications and APIs" width="100%">
@@ -20,3 +27,9 @@ It analyzes your source code, identifies attack vectors, and executes real explo
 [https://github.com/KeygraphHQ/shannon#readme](https://github.com/KeygraphHQ/shannon#readme)
 
 </div>
+
+## 🔗 Связи
+
+- [[MOC - Security]] — security
+- [[000 - Map of Maps]] — Map of Maps
+

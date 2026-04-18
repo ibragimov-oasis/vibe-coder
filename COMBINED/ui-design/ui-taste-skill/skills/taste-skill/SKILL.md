@@ -1,6 +1,10 @@
 ---
 name: design-taste-frontend
 description: Senior UI/UX Engineer. Architect digital interfaces overriding default LLM biases. Enforces metric-based rules, strict component architecture, CSS hardware acceleration, and balanced design engineering.
+tags:
+  - domain/ui
+  - artifact/ui-component
+  - source/ui-design
 ---
 
 # High-Agency Frontend Skill
@@ -224,3 +228,9 @@ Evaluate your code against this matrix before outputting. This is the **last** f
 - [ ] Are empty, loading, and error states provided?
 - [ ] Are cards omitted in favor of spacing where possible?
 - [ ] Did you strictly isolate CPU-heavy perpetual animations in their own Client Components?
+
+## 🔗 Связи
+
+- [[MOC - UI Design]] — ui-design
+- [[000 - Map of Maps]] — Map of Maps
+

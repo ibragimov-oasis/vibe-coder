@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/mcp
+  - artifact/mcp-server
+  - source/mcp-servers
+---
+
 # 火山引擎模型购买指南
 
 本指南介绍如何在火山引擎购买和配置 OpenViking 所需的模型服务。
@@ -283,3 +290,9 @@ Error: Connection timeout
 | Doubao-Embedding-Vision | `doubao-embedding-vision-250615` | 2025-06-15 |
 
 > 注：模型版本可能更新，请以火山方舟控制台显示为准。
+
+## 🔗 Связи
+
+- [[MOC - MCP Servers]] — mcp-servers
+- [[000 - Map of Maps]] — Map of Maps
+

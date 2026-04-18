@@ -121,3 +121,10 @@ npm test
 ```
 
 All tests validate SDK integration patterns — they don't require live Copilot access.
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/squad]] — Squad
+- [[000 - Map of Maps]] — Map of Maps
+

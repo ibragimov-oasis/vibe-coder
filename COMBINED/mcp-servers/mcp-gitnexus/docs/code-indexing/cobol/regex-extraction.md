@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/mcp
+  - artifact/mcp-server
+  - source/mcp-servers
+---
+
 # COBOL Regex Extraction
 
 The `extractCobolSymbolsWithRegex()` function in `cobol-preprocessor.ts` performs single-pass, state-machine-driven extraction of all COBOL symbols. This document describes the state machine, line processing flow, and every regex pattern used.
@@ -204,3 +211,9 @@ HIGH-VALUES, HIGH-VALUE, QUOTES, QUOTE, ALL
 ## Source Files
 
 - `gitnexus/src/core/ingestion/cobol-preprocessor.ts` -- `preprocessCobolSource()`, `extractCobolSymbolsWithRegex()`, all regex constants
+
+## 🔗 Связи
+
+- [[MOC - MCP Servers]] — mcp-servers
+- [[000 - Map of Maps]] — Map of Maps
+

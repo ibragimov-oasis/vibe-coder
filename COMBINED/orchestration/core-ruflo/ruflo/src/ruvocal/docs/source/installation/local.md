@@ -67,3 +67,10 @@ npm run preview
 ```
 
 The server listens on `http://localhost:4173` by default.
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

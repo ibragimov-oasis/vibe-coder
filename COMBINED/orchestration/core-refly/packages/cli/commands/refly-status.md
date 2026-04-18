@@ -21,3 +21,10 @@ Parse JSON and summarize:
 - Skill installation status
 
 If not authenticated, suggest running `refly login`.
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/refly]] — Refly
+- [[000 - Map of Maps]] — Map of Maps
+

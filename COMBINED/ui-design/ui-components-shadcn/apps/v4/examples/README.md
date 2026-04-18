@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/ui
+  - artifact/ui-component
+  - source/ui-design
+---
+
 # Examples
 
 This directory contains demo components for the component documentation.
@@ -45,3 +52,9 @@ pnpm --filter=v4 registry:build
 - Base examples should import from `@/styles/base-nova/*`. Radix examples should import from `@/styles/radix-nova/*`.
 - Both named exports and default exports are supported.
 - After adding or removing examples, run `pnpm --filter=v4 registry:build` to update the index.
+
+## 🔗 Связи
+
+- [[MOC - UI Design]] — ui-design
+- [[000 - Map of Maps]] — Map of Maps
+

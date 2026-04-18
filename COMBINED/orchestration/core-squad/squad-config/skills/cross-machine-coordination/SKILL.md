@@ -439,3 +439,10 @@ Potential expansions (Phase 2+):
 Refer to research report: `research/active/cross-machine-agents/README.md`
 
 Contact: Seven (Research & Docs) or Ralph (Work Monitor)
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/squad]] — Squad
+- [[000 - Map of Maps]] — Map of Maps
+

@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/memory
+  - artifact/memory
+  - source/memory
+---
+
 # GeminiAgent Test Failures Analysis Report
 
 **Date:** 2026-01-04
@@ -315,3 +322,9 @@ Received message: "Gemini API error: 400 - {...API key not valid...}"
 - `/Users/alexnewman/Scripts/claude-mem/src/services/worker/agents/ResponseProcessor.ts` - Shared processor
 - `/Users/alexnewman/Scripts/claude-mem/src/services/worker/agents/FallbackErrorHandler.ts` - Fallback logic
 - `/Users/alexnewman/Scripts/claude-mem/src/services/worker-types.ts` - ActiveSession type definition
+
+## 🔗 Связи
+
+- [[MOC - Memory]] — memory
+- [[000 - Map of Maps]] — Map of Maps
+

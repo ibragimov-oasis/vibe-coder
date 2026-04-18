@@ -3,6 +3,10 @@ title: cloud-monitoring-query-prometheus
 type: docs
 weight: 1
 description: The "cloud-monitoring-query-prometheus" tool fetches time series metrics for a project using a given prometheus query.
+tags:
+  - domain/mcp
+  - artifact/mcp-server
+  - source/mcp-servers
 ---
 
 The `cloud-monitoring-query-prometheus` tool fetches timeseries metrics data
@@ -75,3 +79,9 @@ description: |
 | type        |  string  |     true     | Must be cloud-monitoring-query-prometheus.           |
 | source      |  string  |     true     | The name of an `cloud-monitoring` source.            |
 | description |  string  |     true     | Description of the tool that is passed to the agent. |
+
+## 🔗 Связи
+
+- [[MOC - MCP Servers]] — mcp-servers
+- [[000 - Map of Maps]] — Map of Maps
+

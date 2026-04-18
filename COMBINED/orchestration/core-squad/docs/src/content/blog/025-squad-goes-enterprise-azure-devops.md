@@ -227,3 +227,10 @@ Full documentation: [Enterprise Platforms Guide](../features/enterprise-platform
 *The enterprise doesn't bend to your tools. Your tools bend to the enterprise. Squad now does.*
 
 PR: [#191 — Azure DevOps platform adapter](https://github.com/bradygaster/squad/pull/191)
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/squad]] — Squad
+- [[000 - Map of Maps]] — Map of Maps
+

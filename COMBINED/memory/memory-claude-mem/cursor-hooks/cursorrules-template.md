@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/memory
+  - artifact/memory
+  - source/memory
+---
+
 # Claude-Mem Rules for Cursor
 
 ## Automatic Context Injection
@@ -82,3 +89,9 @@ If you don't want to commit the auto-generated context file:
 ```
 
 The instructions file can be committed to share with your team.
+
+## 🔗 Связи
+
+- [[MOC - Memory]] — memory
+- [[000 - Map of Maps]] — Map of Maps
+

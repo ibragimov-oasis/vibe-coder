@@ -74,3 +74,10 @@ The skill provides:
 ## References
 
 - Issue: bradygaster/squad#622
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/squad]] — Squad
+- [[000 - Map of Maps]] — Map of Maps
+

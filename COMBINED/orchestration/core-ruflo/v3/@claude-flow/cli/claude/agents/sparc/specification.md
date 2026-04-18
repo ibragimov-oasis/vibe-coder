@@ -480,3 +480,10 @@ Before completing specification:
 6. **Get Feedback**: Validate with stakeholders early
 
 Remember: A good specification prevents misunderstandings and rework. Time spent here saves time in implementation.
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

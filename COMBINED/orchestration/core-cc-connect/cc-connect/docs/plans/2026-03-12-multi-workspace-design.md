@@ -110,3 +110,10 @@ Existing commands (`/sessions`, `/model`, etc.) work per-workspace.
 ## Architecture: Approach 1 (Engine-level multiplexing)
 
 The Engine itself handles multi-workspace routing. No new meta-engine or wrapper layers. The multi-workspace logic is gated behind the `mode` config field, so single-workspace projects are completely unaffected.
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/cc-connect]] — CC-Connect
+- [[000 - Map of Maps]] — Map of Maps
+

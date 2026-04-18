@@ -224,3 +224,10 @@ The adapter falls back to device code automatically. If neither works:
 - [Notifications](../src/content/docs/features/notifications.md) — Webhook-based one-way notifications (Teams, Discord, Slack)
 - [Cross-Squad Orchestration](./cross-squad-orchestration.md) — Delegate work across squads
 - [Persistent Ralph](./persistent-ralph.md) — Monitor work with continuous polling
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/squad]] — Squad
+- [[000 - Map of Maps]] — Map of Maps
+

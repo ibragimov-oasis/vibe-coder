@@ -11,3 +11,10 @@ tags:
 ---
 
 **Please use the discussions on GitHub** for getting help with setting things up instead of opening an issue: https://github.com/huggingface/chat-ui/discussions
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

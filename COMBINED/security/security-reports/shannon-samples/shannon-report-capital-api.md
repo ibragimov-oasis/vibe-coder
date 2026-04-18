@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/security
+  - artifact/security
+  - source/security
+---
+
 # Security Assessment Report
 
 ## Executive Summary
@@ -795,3 +802,9 @@ Direct HTTP access to backend demonstrates mixed content vulnerability. All auth
 - Successfully escalated privileges through self-service workflow
 - Same impact as AUTHZ-VULN-05 but represents workflow design flaw
 - Captured CTF flag: `flag{M4sS_AsS1gnm3nt}`
+
+## 🔗 Связи
+
+- [[MOC - Security]] — security
+- [[000 - Map of Maps]] — Map of Maps
+

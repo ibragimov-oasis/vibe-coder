@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/reference
+  - source/reference
+---
+
 #   Cursor AI code pair interviews .cursorrules prompt file
 
 Author: Radamés Roriz
@@ -28,3 +35,9 @@ The .cursorrules file provides Cursor AI with detailed instructions on:
 ##   Overview of .cursorrules prompt
 
 This .cursorrules prompt acts as a comprehensive guide for Cursor AI to generate code that mirrors the quality and collaborative approach expected in a code pair programming interview.  It covers not only the technical aspects of writing correct code but also the crucial elements of code clarity, style consistency, and effective communication that are essential for success in such evaluations. By adhering to these rules, Cursor AI can produce code that demonstrates a candidate's readiness for real-world software development and collaborative coding environments.
+
+## 🔗 Связи
+
+- [[MOC - System]] — reference
+- [[000 - Map of Maps]] — Map of Maps
+

@@ -2,6 +2,10 @@
 name: performance-analysis
 description: |
   Comprehensive performance analysis, bottleneck detection, and optimization recommendations for Claude Flow swarms
+tags:
+  - domain/skills
+  - artifact/config
+  - source/.claude
 ---
 
 # Performance Analysis Skill
@@ -558,3 +562,9 @@ npx claude-flow bottleneck detect --fix
 **Version**: 1.0.0
 **Last Updated**: 2025-10-19
 **Maintainer**: Claude Flow Team
+
+## 🔗 Связи
+
+- [[MOC - System]] — System
+- [[000 - Map of Maps]] — Map of Maps
+

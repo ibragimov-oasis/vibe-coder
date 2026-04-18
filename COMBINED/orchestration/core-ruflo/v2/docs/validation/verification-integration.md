@@ -195,3 +195,10 @@ While not fully integrated, you can use verification today by:
 4. Checking verification history with `truth` command
 
 The verification system provides the foundation for ensuring quality in AI-generated code, even if it's not yet fully automated.
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

@@ -1,6 +1,10 @@
 ---
 name: academic-paper-review
 description: Use this skill when the user requests to review, analyze, critique, or summarize academic papers, research articles, preprints, or scientific publications. Supports comprehensive structured reviews covering methodology assessment, contribution evaluation, literature positioning, and constructive feedback generation. Trigger on queries involving paper URLs, uploaded PDFs, arXiv links, or requests like "review this paper", "analyze this research", "summarize this study", or "write a peer review".
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/REPO_DOCS
 ---
 
 # Academic Paper Review Skill
@@ -287,3 +291,9 @@ Before finalizing the review, verify:
 - Adapt the review depth to the user's needs: a brief assessment for quick triage versus a full review for submission preparation
 - When reviewing multiple papers comparatively, maintain consistent criteria across all reviews
 - Always disclose limitations of your review (e.g., "I could not verify the proofs in Appendix B in detail")
+
+## 🔗 Связи
+
+- [[000 - Map of Maps]] — REPO_DOCS
+- [[000 - Map of Maps]] — Map of Maps
+

@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/new_repos
+---
+
 # Contribution guidlines
 
 Contributions are very welcome! If you've got a theme, plugin, tool, CSS snippet or anything exciting related to Obsidian that you want included in this list, you're welcome to submit a PR.
@@ -14,3 +21,8 @@ All PRs are manually reviewed, so don't fret if your submission is not merged at
 - If your addition is a CSS snippet, make sure that the CSS file is named fittingly, and that you include an example image in the README.
 
 As long as you follow these guidelines, you will probably get merged. If anything is unclear, just submit a draft PR, and we can discuss how to progress from there :smile:
+
+## 🔗 Связи
+
+- [[000 - Map of Maps]] — Map of Maps
+

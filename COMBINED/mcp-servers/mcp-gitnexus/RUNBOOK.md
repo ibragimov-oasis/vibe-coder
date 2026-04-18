@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/mcp
+  - artifact/mcp-server
+  - source/mcp-servers
+---
+
 # Runbook — GitNexus
 
 Short, copy-paste operations for **local development**, **MCP**, and **CI**. Commands assume a Unix shell; on Windows use Git Bash or equivalent paths.
@@ -161,3 +168,9 @@ Only one process should open a repo’s `.gitnexus/lbug` store at a time. If MCP
 - Architecture overview: [ARCHITECTURE.md](ARCHITECTURE.md)  
 - Agent safety rules: [GUARDRAILS.md](GUARDRAILS.md)  
 - Tests: [TESTING.md](TESTING.md)
+
+## 🔗 Связи
+
+- [[MOC - MCP Servers]] — mcp-servers
+- [[000 - Map of Maps]] — Map of Maps
+

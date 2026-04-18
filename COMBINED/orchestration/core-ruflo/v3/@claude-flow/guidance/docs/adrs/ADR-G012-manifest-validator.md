@@ -81,3 +81,10 @@ Risk score determines execution lane:
 - **Schema-only validation (JSON Schema)**: Cannot express semantic constraints like region conflicts or risk-based lane selection
 - **Soft validation with warnings**: Violates the Agentic Container Spec's "admission means contract" principle
 - **External policy engine (OPA/Rego)**: Adds a dependency and runtime cost; can be added later as an alternative evaluator
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

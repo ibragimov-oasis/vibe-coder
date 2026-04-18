@@ -296,3 +296,10 @@ Real token tracking in Claude Flow provides transparency into API usage and cost
 - Make informed decisions about model selection
 
 Remember: This tracks **REAL** usage, not simulated data!
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

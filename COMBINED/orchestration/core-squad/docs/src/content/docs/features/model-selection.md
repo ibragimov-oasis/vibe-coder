@@ -191,3 +191,10 @@ switch back to automatic model selection
 ```
 
 Clear any session-wide overrides and return to task-aware auto-selection.
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/squad]] — Squad
+- [[000 - Map of Maps]] — Map of Maps
+

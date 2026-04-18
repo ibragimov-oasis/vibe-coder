@@ -4,6 +4,10 @@ type: docs
 weight: 1
 description: >
   Use Google Sign-In for Oauth 2.0 flow and token lifecycle.
+tags:
+  - domain/mcp
+  - artifact/mcp-server
+  - source/mcp-servers
 ---
 
 ## Getting Started
@@ -57,3 +61,9 @@ instead of hardcoding your secrets into the configuration file.
 |-----------|:--------:|:------------:|------------------------------------------------------------------|
 | type      |  string  |     true     | Must be "google".                                                |
 | clientId  |  string  |     true     | Client ID of your application from registering your application. |
+
+## 🔗 Связи
+
+- [[MOC - MCP Servers]] — mcp-servers
+- [[000 - Map of Maps]] — Map of Maps
+

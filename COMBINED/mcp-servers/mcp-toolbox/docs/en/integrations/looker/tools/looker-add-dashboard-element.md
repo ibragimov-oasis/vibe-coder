@@ -4,6 +4,10 @@ type: docs
 weight: 1
 description: >
   "looker-add-dashboard-element" creates a dashboard element in the given dashboard.
+tags:
+  - domain/mcp
+  - artifact/mcp-server
+  - source/mcp-servers
 ---
 
 ## About
@@ -62,3 +66,9 @@ description: |
 | type        | string   | true         | Must be "looker-add-dashboard-element".            |
 | source      | string   | true         | Name of the source the SQL should execute on.      |
 | description | string   | true         | Description of the tool that is passed to the LLM. |
+
+## 🔗 Связи
+
+- [[MOC - MCP Servers]] — mcp-servers
+- [[000 - Map of Maps]] — Map of Maps
+

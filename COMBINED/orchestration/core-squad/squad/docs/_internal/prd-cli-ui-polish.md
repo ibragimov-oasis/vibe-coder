@@ -313,3 +313,10 @@ This document defines what we're shipping for **alpha release** versus what we'r
 ---
 
 **End of PRD**
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/squad]] — Squad
+- [[000 - Map of Maps]] — Map of Maps
+

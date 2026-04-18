@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/root
+---
+
 # 🔀 Skill Merge Plan — Vibe-Coder Arsenal
 
 > **For AI agents:** This document describes the merging strategy for duplicate skills across libraries. Follow these rules exactly when creating combined files.
@@ -218,3 +225,8 @@ All from `antigravity-awesome-skills` + `claude-skills`.
 - Completed: **8** (Phase 1 complete ✅)
 - In progress: **0**
 - Remaining: **111** (Phases 2-7)
+
+## 🔗 Связи
+
+- [[000 - Map of Maps]] — Map of Maps
+

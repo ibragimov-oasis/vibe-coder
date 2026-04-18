@@ -406,4 +406,8 @@ collection = client.get_or_create_collection("my_docs")
 - **Version**: 1.3.3+
 - **License**: Apache 2.0
 
+## 🔗 Связи
+
+- [[000 - Map of Maps]] — REPO_DOCS
+- [[000 - Map of Maps]] — Map of Maps
 

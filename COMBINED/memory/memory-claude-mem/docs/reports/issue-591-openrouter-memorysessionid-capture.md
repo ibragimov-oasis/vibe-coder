@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/memory
+  - artifact/memory
+  - source/memory
+---
+
 # Issue #591: OpenRouter Agent Fails to Capture memorySessionId for Empty Prompt History Sessions
 
 **Report Date:** 2026-01-07
@@ -421,3 +428,9 @@ Issue #591 is a critical bug that renders the OpenRouter provider non-functional
 The recommended fix is to generate a unique `memorySessionId` in `OpenRouterAgent.startSession()` before calling `processAgentResponse()`. This fix is straightforward, follows existing patterns, and carries low regression risk.
 
 **Immediate Action Required:** Implement Solution A and release a hotfix.
+
+## 🔗 Связи
+
+- [[MOC - Memory]] — memory
+- [[000 - Map of Maps]] — Map of Maps
+

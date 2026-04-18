@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/mcp
+  - artifact/mcp-server
+  - source/mcp-servers
+---
+
 # Architecture
 
 ## System Overview
@@ -115,3 +122,9 @@ BFS from seed nodes (changed files' contents):
 4. Collect all reached nodes as "impacted"
 
 This captures both downstream effects (things that call changed code) and upstream context (things that the changed code depends on).
+
+## 🔗 Связи
+
+- [[MOC - MCP Servers]] — mcp-servers
+- [[000 - Map of Maps]] — Map of Maps
+

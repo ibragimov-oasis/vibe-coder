@@ -123,3 +123,10 @@ router.post('/notifications', async (req, res) => {
 5. Each channel should handle its own error logging and status tracking
 6. The API route should accept an optional `channels` parameter to override user preferences
 7. Maintain backward compatibility: existing callers without the `channels` param should still work (default to email)
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/omc]] — OMC
+- [[000 - Map of Maps]] — Map of Maps
+

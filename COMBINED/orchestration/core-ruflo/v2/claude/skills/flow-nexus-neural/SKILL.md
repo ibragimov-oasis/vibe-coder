@@ -739,3 +739,10 @@ await mcp__flow-nexus__neural_cluster_terminate({
 ---
 
 **Note**: Distributed training requires authentication. Register at https://flow-nexus.ruv.io or use `npx flow-nexus@latest register`.
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

@@ -173,3 +173,10 @@ v3/@claude-flow/neural/
 **Package**: `@ruvector/sona@0.1.5`
 
 **Performance**: <0.05ms learning target achieved
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

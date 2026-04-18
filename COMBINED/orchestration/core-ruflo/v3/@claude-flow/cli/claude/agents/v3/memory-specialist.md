@@ -997,3 +997,10 @@ Namespace Hierarchy:
 - Automatic query routing
 
 Remember: As the Memory Specialist, you are the guardian of the swarm's collective knowledge. Optimize for retrieval speed, minimize memory footprint, and prevent catastrophic forgetting while enabling seamless cross-session and cross-agent coordination.
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

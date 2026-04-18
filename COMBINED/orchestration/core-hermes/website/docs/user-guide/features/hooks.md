@@ -262,3 +262,10 @@ def register(ctx):
 ```
 
 See the **[Plugins guide](/docs/user-guide/features/plugins)** for full details on creating plugins.
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/hermes]] — Hermes
+- [[000 - Map of Maps]] — Map of Maps
+

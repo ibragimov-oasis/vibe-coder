@@ -163,3 +163,10 @@ tags:
 - 横幅中缺少 `GSD ►` 前缀
 - 随机 emoji（`🚀`、`✨`、`💫`）
 - 完成后缺少下一步区块
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/gsd]] — GSD
+- [[000 - Map of Maps]] — Map of Maps
+

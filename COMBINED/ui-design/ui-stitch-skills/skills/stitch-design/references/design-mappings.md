@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/ui
+  - artifact/ui-component
+  - source/ui-design
+---
+
 # Design Mappings & Descriptors
 
 Use these mappings to transform vague user requests into precise, high-fidelity design instructions.
@@ -43,3 +50,9 @@ Convert technical values into physical descriptions for Stitch:
 - **Whisper-soft**: Diffused, light shadows for subtle lift.
 - **Floating**: High-offset, soft shadows for elements that appear high above the surface.
 - **Inset**: Inner shadows for pressable or nested elements.
+
+## 🔗 Связи
+
+- [[MOC - UI Design]] — ui-design
+- [[000 - Map of Maps]] — Map of Maps
+

@@ -163,3 +163,10 @@ If below v20, upgrade to the latest LTS:
 - Use PowerShell or Git Bash (not cmd.exe)
 - Ensure git is in your PATH
 - Ensure `gh` CLI is in your PATH
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/squad]] — Squad
+- [[000 - Map of Maps]] — Map of Maps
+

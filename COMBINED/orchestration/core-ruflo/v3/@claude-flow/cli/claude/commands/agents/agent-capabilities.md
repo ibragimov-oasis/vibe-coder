@@ -142,3 +142,10 @@ cat COMBINED/workspace-config/claude/agents/core/coder.md
 - [agent-types](./agent-types.md) - All 87 agent types
 - [agent-coordination](./agent-coordination.md) - Coordination patterns
 - [spawn](./spawn.md) - Spawn command
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

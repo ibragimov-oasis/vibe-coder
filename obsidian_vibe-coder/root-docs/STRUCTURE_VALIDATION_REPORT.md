@@ -36,3 +36,9 @@ source: "../STRUCTURE_VALIDATION_REPORT.md"
 
 - [[root-docs/ALL_PHASES_COMPLETE]] — статус завершения фаз
 - [[root-docs/AUDIT]] — аудит системы
+
+## 🔗 Связи
+
+- [[000 - Map of Maps]] — Parent MOC
+- [[000 - Map of Maps]] — Map of Maps
+

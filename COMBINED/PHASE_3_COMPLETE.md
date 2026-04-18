@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/combined-root
+---
+
 # Phase 3 Complete: Leftover Files Processing
 
 ## Summary
@@ -135,3 +142,8 @@ April 3, 2026
 **Phase 3 Status**: ✅ **COMPLETE**
 **Generated**: 2026-04-03
 **Branch**: `claude/move-files-and-verify-structure`
+
+## 🔗 Связи
+
+- [[000 - Map of Maps]] — Map of Maps
+

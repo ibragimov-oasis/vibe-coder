@@ -4,6 +4,10 @@ type: docs
 weight: 1
 description: >
   A "dataplex-lookup-entry" tool returns details of a particular entry in Knowledge Catalog.
+tags:
+  - domain/mcp
+  - artifact/mcp-server
+  - source/mcp-servers
 ---
 
 ## About
@@ -70,3 +74,9 @@ description: Use this tool to retrieve a specific entry in Knowledge Catalog.
 | type        |  string  |     true     | Must be "dataplex-lookup-entry".                   |
 | source      |  string  |     true     | Name of the source the tool should execute on.     |
 | description |  string  |     true     | Description of the tool that is passed to the LLM. |
+
+## 🔗 Связи
+
+- [[MOC - MCP Servers]] — mcp-servers
+- [[000 - Map of Maps]] — Map of Maps
+

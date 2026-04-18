@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/ui
+  - artifact/ui-component
+  - source/ui-design
+---
+
 # Impeccable
 
 The vocabulary you didn't know you needed. 1 skill, 18 commands, and curated anti-patterns for impeccable style. Works with Cursor, Claude Code, Gemini CLI, and Codex CLI.
@@ -247,4 +254,9 @@ End users can copy files directly without needing build tools.
 - [Gemini CLI GEMINI.md](https://github.com/google-gemini/gemini-cli/blob/main/docs/cli/gemini-md.md)
 - [Codex CLI Slash Commands](https://developers.openai.com/codex/guides/slash-commands)
 - [Codex CLI Skills](https://developers.openai.com/codex/skills/)
+
+## 🔗 Связи
+
+- [[MOC - UI Design]] — ui-design
+- [[000 - Map of Maps]] — Map of Maps
 

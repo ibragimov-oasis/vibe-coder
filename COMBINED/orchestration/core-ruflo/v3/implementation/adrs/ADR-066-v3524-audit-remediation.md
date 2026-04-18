@@ -82,3 +82,10 @@ All critical and high-severity security issues are remediated. Medium issues are
 - **Positive**: All swarm tools now functional with state persistence
 - **Positive**: Input validation enforced consistently across memory tools
 - **Neutral**: Two runtime issues (memory list hang, AgentDB warning) deferred to future work
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

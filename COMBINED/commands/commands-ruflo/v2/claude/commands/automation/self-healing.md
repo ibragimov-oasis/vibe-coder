@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/command
+  - source/commands
+---
+
 # Self-Healing Workflows
 
 ## Purpose
@@ -104,3 +111,9 @@ mcp__claude-flow__task_orchestrate({
 - 🔄 Automatic recovery
 - 📚 Learns from errors
 - ⏱️ Saves debugging time
+
+## 🔗 Связи
+
+- [[MOC - System]] — commands
+- [[000 - Map of Maps]] — Map of Maps
+

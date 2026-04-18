@@ -210,3 +210,10 @@ If you encounter issues:
 ---
 
 *This solution was generated in response to GitHub Issue #23*
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/praisonai]] — PraisonAI
+- [[000 - Map of Maps]] — Map of Maps
+

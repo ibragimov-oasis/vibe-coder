@@ -174,3 +174,10 @@ playwright-cli kill-all
 # Remove old browser data to free disk space
 playwright-cli -s=oldsession delete-data
 ```
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/archon]] — Archon
+- [[000 - Map of Maps]] — Map of Maps
+

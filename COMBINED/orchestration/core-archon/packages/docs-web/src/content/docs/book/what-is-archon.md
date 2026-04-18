@@ -93,3 +93,10 @@ And when the built-in workflows don't fit your process? You build your own. In [
 ---
 
 Ready to see it in action? Let's get you to your first win in five minutes. Continue to [Chapter 2: Your First Five Minutes →](/book/first-five-minutes/)
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/archon]] — Archon
+- [[000 - Map of Maps]] — Map of Maps
+

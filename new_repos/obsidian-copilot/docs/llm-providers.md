@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/new_repos
+---
+
 # LLM Providers
 
 Copilot includes 16 built-in AI providers, and you can add an unlimited number of additional models as long as they are OpenAI-compatible. You can use cloud-based services that require API keys, or run models locally on your own machine. This guide explains how to set up each provider.
@@ -186,3 +193,8 @@ For any API that follows the OpenAI API format. Useful for custom deployments, p
 
 - [Models and Parameters](models-and-parameters.md) — Enable, disable, and configure models
 - [Getting Started](getting-started.md) — First-time setup
+
+## 🔗 Связи
+
+- [[000 - Map of Maps]] — Map of Maps
+

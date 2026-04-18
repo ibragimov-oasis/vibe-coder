@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/reference
+  - source/reference
+---
+
 # Cursor Rules for Project Context Management
 
 By [@kryptobaseddev](https://github.com/kryptobaseddev)
@@ -161,3 +168,9 @@ MIT License - Feel free to use and modify for your projects.
 ---
 
 Created by [@kryptobaseddev](https://github.com/kryptobaseddev)
+
+## 🔗 Связи
+
+- [[MOC - System]] — reference
+- [[000 - Map of Maps]] — Map of Maps
+

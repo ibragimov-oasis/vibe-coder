@@ -497,3 +497,10 @@ result = ToolsetClass.tool_name(param1=value1, param2=value2)
 7. **Execution-order feature flag**: `PTC_SEQUENTIAL` provides a runtime safety switch to force serial PTC behavior without reverting prompt changes or redeploying.
 
 8. **Deterministic rollout bucketing**: `PTC_ROLLOUT_PERCENT` gates eligible users via `SHA-256(uid + salt) % 100`. Stable per-user assignment ensures consistent experience and reproducible debugging. Changing `PTC_ROLLOUT_SALT` re-buckets all users for a fresh rollout wave without modifying the percentage.
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/refly]] — Refly
+- [[000 - Map of Maps]] — Map of Maps
+

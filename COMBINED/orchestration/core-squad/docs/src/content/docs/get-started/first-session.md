@@ -308,3 +308,10 @@ squad import ../my-app/squad-export.json
 - [**Your Team**](../concepts/your-team.md) — How agents form, specialize, and collaborate
 - [**Memory & Knowledge**](../concepts/memory-and-knowledge.md) — Decisions, skills, and persistent context
 - [**Existing Repo Scenario**](../scenarios/existing-repo.md) — Bring Squad into a project that's already in flight
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/squad]] — Squad
+- [[000 - Map of Maps]] — Map of Maps
+

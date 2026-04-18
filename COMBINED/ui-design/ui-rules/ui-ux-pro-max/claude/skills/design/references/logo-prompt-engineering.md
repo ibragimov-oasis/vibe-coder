@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/ui
+  - artifact/ui-component
+  - source/ui-design
+---
+
 # Logo AI Prompt Engineering
 
 ## Core Prompt Structure
@@ -156,3 +163,9 @@ Style direction: [new style keywords]
 3. **Text issues** - AI struggles with text; generate mark separately
 4. **Wrong aspect** - Specify "1:1 square" or "horizontal"
 5. **Realistic style** - Add "illustration, vector-style, not photorealistic"
+
+## 🔗 Связи
+
+- [[MOC - UI Design]] — ui-design
+- [[000 - Map of Maps]] — Map of Maps
+

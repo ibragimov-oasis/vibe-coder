@@ -64,3 +64,10 @@ In the Discord channel where you invited the bot:
 ```
 
 The bot should respond with available commands.
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/archon]] — Archon
+- [[000 - Map of Maps]] — Map of Maps
+

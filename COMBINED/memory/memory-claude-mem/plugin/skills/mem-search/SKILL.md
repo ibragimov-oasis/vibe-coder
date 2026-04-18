@@ -1,6 +1,10 @@
 ---
 name: mem-search
 description: Search claude-mem's persistent cross-session memory database. Use when user asks "did we already solve this?", "how did we do X last time?", or needs work from previous sessions.
+tags:
+  - domain/memory
+  - artifact/memory
+  - source/memory
 ---
 
 # Memory Search
@@ -125,3 +129,9 @@ get_observations(ids=[11131, 10942, 10855], orderBy="date_desc")
 - **Full observation:** ~500-1000 tokens each
 - **Batch fetch:** 1 HTTP request vs N individual requests
 - **10x token savings** by filtering before fetching
+
+## 🔗 Связи
+
+- [[MOC - Memory]] — memory
+- [[000 - Map of Maps]] — Map of Maps
+

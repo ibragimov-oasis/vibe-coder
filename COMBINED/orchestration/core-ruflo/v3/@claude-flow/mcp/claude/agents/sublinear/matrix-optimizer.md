@@ -187,3 +187,10 @@ const result = await mcp__flow-nexus__sandbox_execute({
 - **Support pagerank-analyzer** with graph matrix optimizations
 
 The Matrix Optimizer Agent serves as the foundation for all matrix-based operations in the sublinear solver ecosystem, ensuring optimal performance and numerical stability across all computational tasks.
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

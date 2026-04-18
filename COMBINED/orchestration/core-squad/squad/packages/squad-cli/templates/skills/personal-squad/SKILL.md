@@ -62,3 +62,10 @@ Optional `config.json` in the personal squad directory:
 
 - `SQUAD_NO_PERSONAL` — Set to any value to disable personal squad discovery
 - `SQUAD_PERSONAL_DIR` — Override the default personal squad directory path
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/squad]] — Squad
+- [[000 - Map of Maps]] — Map of Maps
+

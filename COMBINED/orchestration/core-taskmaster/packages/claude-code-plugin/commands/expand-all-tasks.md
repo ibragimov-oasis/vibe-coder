@@ -56,3 +56,10 @@ After bulk expansion:
 - New subtask count
 - Updated complexity metrics
 - Suggested task order
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/task-master]] — Task-Master
+- [[000 - Map of Maps]] — Map of Maps
+

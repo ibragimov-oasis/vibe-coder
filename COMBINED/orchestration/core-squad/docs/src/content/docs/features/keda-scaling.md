@@ -85,3 +85,10 @@ Use KEDA autoscaling when:
 
 - [Capability Routing](capability-routing.md) — route specific issues to specific agent types
 - [Ralph — Work Monitor](ralph.md) — how Ralph picks up queued issues
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/squad]] — Squad
+- [[000 - Map of Maps]] — Map of Maps
+

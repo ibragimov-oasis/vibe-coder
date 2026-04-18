@@ -539,3 +539,10 @@ export function checkProtectedFiles(files) {
 | Protected file warning (Check 11) | Informational | No | Implemented |
 
 All three use data that `pr-readiness.mjs` already fetches — no new API calls needed. Total addition: ~60 lines of check functions + ~10 lines of orchestration wiring.
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/squad]] — Squad
+- [[000 - Map of Maps]] — Map of Maps
+

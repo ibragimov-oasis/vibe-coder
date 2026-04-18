@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/new_repos
+---
+
 ![](media/banner.png)
 
 <div align="center">
@@ -541,3 +548,8 @@ Most themes should be available through the `Appearance` => `Community themes` i
 - [What tools and libraries are used in Obsidian?](https://web.archive.org/web/20220626022347/https://konhi.me/obsidian-stack.html)
 
 </details>
+
+## 🔗 Связи
+
+- [[000 - Map of Maps]] — Map of Maps
+

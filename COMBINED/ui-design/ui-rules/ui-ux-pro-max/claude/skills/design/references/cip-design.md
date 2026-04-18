@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/ui
+  - artifact/ui-component
+  - source/ui-design
+---
+
 # CIP Design Reference
 
 Corporate Identity Program design with 50+ deliverables, 20 styles, 20 industries. Generate mockups with Gemini Nano Banana (Flash/Pro).
@@ -119,3 +126,9 @@ python3 ~/COMBINED/workspace-config/claude/skills/design/scripts/cip/render-html
 export GEMINI_API_KEY="your-key"
 pip install google-genai pillow
 ```
+
+## 🔗 Связи
+
+- [[MOC - UI Design]] — ui-design
+- [[000 - Map of Maps]] — Map of Maps
+

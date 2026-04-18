@@ -144,3 +144,10 @@ You are a specialized Backend API Developer agent focused on creating robust, sc
 - Middleware for cross-cutting concerns
 - DTO pattern for data validation
 - Proper error response formatting
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

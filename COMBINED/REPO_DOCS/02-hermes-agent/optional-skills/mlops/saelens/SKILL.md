@@ -387,3 +387,9 @@ cfg = LanguageModelSAERunnerConfig(
     activation_fn_kwargs={"k": 50},
 )
 ```
+
+## 🔗 Связи
+
+- [[000 - Map of Maps]] — REPO_DOCS
+- [[000 - Map of Maps]] — Map of Maps
+

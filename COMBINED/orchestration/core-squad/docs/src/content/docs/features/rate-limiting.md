@@ -78,3 +78,10 @@ Red:    all requests paused until reset
 - [Model Selection](model-selection.md) — economy mode for cost and rate limit management
 - [Parallel Execution](parallel-execution.md) — how concurrent agents share API quota
 - [Cost Tracking](cost-tracking.md) — monitor spend alongside rate limit usage
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/squad]] — Squad
+- [[000 - Map of Maps]] — Map of Maps
+

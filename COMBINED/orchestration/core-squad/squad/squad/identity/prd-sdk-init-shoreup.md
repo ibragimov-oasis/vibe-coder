@@ -208,3 +208,10 @@ The `CastingEngine` class is Squad's universe template system — it knows Apoll
 ---
 
 **Next steps:** Phase 1 kickoff. EECOM + CAPCOM to review and estimate.
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/squad]] — Squad
+- [[000 - Map of Maps]] — Map of Maps
+

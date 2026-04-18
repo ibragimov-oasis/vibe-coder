@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/ui
+  - artifact/ui-component
+  - source/ui-design
+---
+
 # COMBINED_DESIGN_SYSTEM.md — Vibe-Coder Arsenal UI/UX Reference
 
 > **Master UI/UX Design System**
@@ -351,3 +358,9 @@ On a 500-text batch:
 *Combined from: galaxy, ui (shadcn), ui-ux-pro-max-skill, pretext*
 
 **Last Updated:** 2026-04-01
+
+## 🔗 Связи
+
+- [[MOC - UI Design]] — ui-design
+- [[000 - Map of Maps]] — Map of Maps
+

@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/memory
+  - artifact/memory
+  - source/memory
+---
+
 # Logging Analysis and Recommendations
 
 **Date**: 2026-01-04
@@ -315,3 +322,9 @@ After implementing changes, verify:
 - [ ] Errors are OBVIOUS and include context for debugging
 - [ ] Noise is reduced to the point where INFO level is useful
 - [ ] A "normal" session produces ~10-15 INFO logs, not 50+
+
+## 🔗 Связи
+
+- [[MOC - Memory]] — memory
+- [[000 - Map of Maps]] — Map of Maps
+

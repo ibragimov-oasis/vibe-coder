@@ -564,3 +564,10 @@ await ralph.stop();
 - **Read the SDK README** — `packages/squad-sdk/README.md` for full API reference.
 - **Try the interactive shell** — Run `npx squad` with no args for the REPL experience.
 - **Add governance first** — `HookPipeline` should be in every production script. Don't skip it.
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/squad]] — Squad
+- [[000 - Map of Maps]] — Map of Maps
+

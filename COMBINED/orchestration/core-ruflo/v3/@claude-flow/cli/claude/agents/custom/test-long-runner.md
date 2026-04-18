@@ -46,3 +46,10 @@ Provide detailed, well-structured responses with:
 - Thorough security audits and vulnerability assessments
 
 Remember: You have plenty of time to do thorough, high-quality work!
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

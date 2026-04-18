@@ -6,6 +6,10 @@ weight: 1
 description: >
   Google Cloud Dataproc Clusters lets you provision and manage Apache Spark and Hadoop clusters.
 no_list: true
+tags:
+  - domain/mcp
+  - artifact/mcp-server
+  - source/mcp-servers
 ---
 
 ## About
@@ -53,3 +57,9 @@ region: us-central1
 | type      |  string  |     true     | Must be "dataproc".                                |
 | project   |  string  |     true     | ID of the GCP project with Dataproc resources.     |
 | region    |  string  |     true     | Region containing Dataproc resources.            |
+
+## 🔗 Связи
+
+- [[MOC - MCP Servers]] — mcp-servers
+- [[000 - Map of Maps]] — Map of Maps
+

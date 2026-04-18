@@ -92,3 +92,10 @@ Squad read your description, formed a team of specialists, wrote their charters 
 ## Next steps
 
 [**Your first session**](first-session) — Step-by-step walkthrough of parallel work, decisions, and memory.
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/squad]] — Squad
+- [[000 - Map of Maps]] — Map of Maps
+

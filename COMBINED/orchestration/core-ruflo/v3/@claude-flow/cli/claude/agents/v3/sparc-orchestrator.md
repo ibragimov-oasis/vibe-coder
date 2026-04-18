@@ -184,3 +184,10 @@ mcp__claude-flow__memory_search --pattern="sparc:*:$PROJECT_TYPE" --namespace="p
 - **Flash Attention**: Process large specifications efficiently
 - **EWC++**: Prevent forgetting successful patterns
 - **Claims Auth**: Enforce phase access control
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

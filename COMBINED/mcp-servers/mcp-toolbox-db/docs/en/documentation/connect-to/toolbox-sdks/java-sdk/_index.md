@@ -4,6 +4,10 @@ type: docs
 weight: 4
 description: >
   Java SDKs to connect to the MCP Toolbox server.
+tags:
+  - domain/mcp
+  - artifact/mcp-server
+  - source/mcp-servers
 ---
 
 
@@ -56,3 +60,9 @@ dependencies {
 {{< notice note >}}
 Source code for [Java-sdk](https://github.com/googleapis/mcp-toolbox-sdk-java)
 {{< /notice >}}
+
+## 🔗 Связи
+
+- [[MOC - MCP Servers]] — mcp-servers
+- [[000 - Map of Maps]] — Map of Maps
+

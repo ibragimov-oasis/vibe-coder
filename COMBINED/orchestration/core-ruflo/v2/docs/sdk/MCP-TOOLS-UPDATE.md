@@ -275,3 +275,10 @@ npx tsx scripts/validate-sdk-integration.ts
 1. Use MCP tools in Claude Code for SDK features
 2. CLI command routing can be added in future if needed
 3. All functionality is accessible via MCP tools NOW
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

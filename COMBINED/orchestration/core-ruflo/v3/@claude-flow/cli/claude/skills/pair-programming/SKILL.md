@@ -1204,3 +1204,10 @@ Default shortcuts:
 - `claude-flow pair profile` - Manage profiles
 - `claude-flow pair templates` - List templates
 - `claude-flow pair agents` - List available agents
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

@@ -166,3 +166,10 @@ Execution Time: 9198.623 ms
 ---
 
 *Postmortem authored by Fatima Al-Hassan. Review meeting held 2026-02-26 with Platform Engineering and DBOPS teams present. This document is finalized and filed in Confluence under [Engineering > Incidents > 2026](https://internal.confluence/incidents/2026).*
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/omc]] — OMC
+- [[000 - Map of Maps]] — Map of Maps
+

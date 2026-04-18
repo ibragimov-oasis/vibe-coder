@@ -248,3 +248,10 @@ Link to the artifact.
 - To write requirements: `/archon-dev prd {recommended approach}`
 - To plan implementation: `/archon-dev plan {recommended approach}`
 - For deeper codebase context: `/archon-dev research {specific component}`
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/archon]] — Archon
+- [[000 - Map of Maps]] — Map of Maps
+

@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/memory
+  - artifact/memory
+  - source/memory
+---
+
 # Technical Report: Issue #587 - Observations Not Being Stored
 
 **Issue:** v9.0.0: Observations not being stored - SDK agent stuck on 'Awaiting tool execution data'
@@ -335,3 +342,9 @@ This should be addressed immediately with a patch release (v9.0.1).
 [INFO ] [SDK   ] [session-1] <- Response received (72 chars) {promptNumber=57} Ready to observe. Awaiting tool execution data from the primary session.
 [INFO ] [DB    ] [session-1] STORED | sessionDbId=1 | ... | obsCount=0 | obsIds=[] | summaryId=none
 ```
+
+## 🔗 Связи
+
+- [[MOC - Memory]] — memory
+- [[000 - Map of Maps]] — Map of Maps
+

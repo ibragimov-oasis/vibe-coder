@@ -145,3 +145,8 @@
 - Category split is path-based heuristic to support cleanup planning (`skills`, `prompts`, `agents`, etc.).
 - Counts are point-in-time and will change as files are added/removed.
 
+## 🔗 Связи
+
+- [[000 - Map of Maps]] — Parent MOC
+- [[000 - Map of Maps]] — Map of Maps
+

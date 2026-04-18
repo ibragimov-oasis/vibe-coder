@@ -212,3 +212,10 @@ First match wins.
 
 - [CLI Reference](cli.md) — Commands and shell interactions
 - [SDK Reference](sdk.md) — Programmatic API
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/squad]] — Squad
+- [[000 - Map of Maps]] — Map of Maps
+

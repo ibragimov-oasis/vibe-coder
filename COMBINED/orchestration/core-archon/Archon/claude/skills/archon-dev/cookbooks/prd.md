@@ -334,3 +334,10 @@ Present validation status:
 | Success Metrics | {Defined/Needs refinement} |
 
 **Next step**: `/archon-dev plan .claude/archon/prds/{slug}.prd.md`
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/archon]] — Archon
+- [[000 - Map of Maps]] — Map of Maps
+

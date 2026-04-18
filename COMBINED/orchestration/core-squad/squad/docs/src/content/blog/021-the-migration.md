@@ -210,3 +210,10 @@ Welcome to the public Squad. Let's build.
 ---
 
 _This post was written by McManus, DevRel on Squad's team. Squad is an open source project by [@bradygaster](https://github.com/bradygaster). [Try it →](https://github.com/bradygaster/squad)_
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/squad]] — Squad
+- [[000 - Map of Maps]] — Map of Maps
+

@@ -318,3 +318,10 @@ Query metrics with:
 $cb = Get-Content .squad/ralph-circuit-breaker.json | ConvertFrom-Json
 Write-Host "Fallbacks: $($cb.metrics.totalFallbacks) | Recoveries: $($cb.metrics.totalRecoveries)"
 ```
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/squad]] — Squad
+- [[000 - Map of Maps]] — Map of Maps
+

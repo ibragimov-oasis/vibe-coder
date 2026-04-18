@@ -170,3 +170,10 @@ The agentic-flow integration is **PRODUCTION READY**. All Phase 2 tasks are comp
 **Test Environment:** Linux 6.8.0-1030-azure
 **Node Version:** v23.6.0
 **Claude-Flow Version:** 2.6.0-alpha.2
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

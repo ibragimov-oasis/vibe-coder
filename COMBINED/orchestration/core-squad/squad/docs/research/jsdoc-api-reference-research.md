@@ -343,3 +343,10 @@ pm run build from docs/
 - **typedoc-plugin-markdown:** https://github.com/tgreyuk/typedoc-plugin-markdown
 - **Astro Integration API:** https://docs.astro.build/en/guides/integrations-guide
 - **Pagefind:** https://pagefind.app
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/squad]] — Squad
+- [[000 - Map of Maps]] — Map of Maps
+

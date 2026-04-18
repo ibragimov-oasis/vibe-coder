@@ -528,3 +528,10 @@ Expected: No hits outside of release notes and the spec/plan docs (which are his
 git status
 # Review untracked/modified files, stage specific files as needed, commit if clean
 ```
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/superpowers]] — Superpowers
+- [[000 - Map of Maps]] — Map of Maps
+

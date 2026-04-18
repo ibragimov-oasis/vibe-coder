@@ -425,3 +425,10 @@ CLAUDE_FLOW_ENABLE_PAUSE_RESUME=true
 **Target Release:** v2.5.0-alpha.140+ (with SDK integration)
 
 **All SDK code is functional and validated. Integration into existing NPX/MCP commands is the next step.**
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

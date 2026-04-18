@@ -147,3 +147,10 @@ Provide a comprehensive report:
 - Next steps for enhancement
 
 Be thorough but constructive. Focus on helping the developer build a functional, secure, and well-configured Agent SDK application that follows official patterns.
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/archon]] — Archon
+- [[000 - Map of Maps]] — Map of Maps
+

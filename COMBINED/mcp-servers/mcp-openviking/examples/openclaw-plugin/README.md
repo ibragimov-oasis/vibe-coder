@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/mcp
+  - artifact/mcp-server
+  - source/mcp-servers
+---
+
 # OpenClaw + OpenViking Context-Engine Plugin
 
 Use [OpenViking](https://github.com/volcengine/OpenViking) as the long-term memory backend for [OpenClaw](https://github.com/openclaw/openclaw). In OpenClaw, this plugin is registered as the `openviking` context engine. Once installed, OpenClaw will automatically **remember** important information from conversations and **recall** relevant context before responding.
@@ -454,3 +461,9 @@ python3 -m pip uninstall openviking -y && rm -rf ~/.openviking
 ---
 
 **See also:** [INSTALL-ZH.md](./INSTALL-ZH.md) (中文详细安装指南) · [INSTALL.md](./INSTALL.md) (English Install Guide) · [INSTALL-AGENT.md](./INSTALL-AGENT.md) (Agent Install Guide)
+
+## 🔗 Связи
+
+- [[MOC - MCP Servers]] — mcp-servers
+- [[000 - Map of Maps]] — Map of Maps
+

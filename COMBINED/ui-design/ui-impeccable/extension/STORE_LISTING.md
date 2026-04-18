@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/ui
+  - artifact/ui-component
+  - source/ui-design
+---
+
 # Chrome Web Store Listing
 
 ## Name
@@ -61,3 +68,9 @@ https://impeccable.style/privacy
 
 ## Single purpose description
 Detects and highlights UI anti-patterns (AI-generated design tells and general quality issues) on any web page.
+
+## 🔗 Связи
+
+- [[MOC - UI Design]] — ui-design
+- [[000 - Map of Maps]] — Map of Maps
+

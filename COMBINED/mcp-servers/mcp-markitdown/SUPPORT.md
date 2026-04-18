@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/mcp
+  - artifact/mcp-server
+  - source/mcp-servers
+---
+
 # TODO: The maintainer of this repo has not yet edited this file
 
 **REPO OWNER**: Do you want Customer Service & Support (CSS) support for this product/project?
@@ -23,3 +30,9 @@ CHANNEL. WHERE WILL YOU HELP PEOPLE?**.
 ## Microsoft Support Policy  
 
 Support for this **PROJECT or PRODUCT** is limited to the resources listed above.
+
+## 🔗 Связи
+
+- [[MOC - MCP Servers]] — mcp-servers
+- [[000 - Map of Maps]] — Map of Maps
+

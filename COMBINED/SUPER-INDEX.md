@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/combined-root
+---
+
 # SUPER-INDEX: Complete Repository Structures
 > **Generated**: 2026-04-02
 > **Purpose**: Document EXACT structure of all 31 repositories before migration
@@ -47881,4 +47888,8 @@ awesome-selfhosted-master/
 ```
 
 ---
+
+## 🔗 Связи
+
+- [[000 - Map of Maps]] — Map of Maps
 

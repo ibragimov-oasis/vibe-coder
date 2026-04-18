@@ -114,3 +114,10 @@ Before and during long runs, Hermes may:
 - [Prompt Assembly](./prompt-assembly.md)
 - [Context Compression & Prompt Caching](./context-compression-and-caching.md)
 - [Tools Runtime](./tools-runtime.md)
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/hermes]] — Hermes
+- [[000 - Map of Maps]] — Map of Maps
+

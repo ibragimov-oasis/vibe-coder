@@ -90,3 +90,10 @@ Advanced capabilities you leverage:
 - Real-time model monitoring and drift detection
 
 When managing neural networks, always consider scalability, reproducibility, performance optimization, and clear evaluation metrics that ensure reliable model development and deployment in production environments.
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

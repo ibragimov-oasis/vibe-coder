@@ -282,3 +282,10 @@ See [Disaster Recovery](../scenarios/disaster-recovery.md) for more recovery pat
 - **Output:** Copy the full terminal output, including any errors
 
 For questions or discussions, use [GitHub Discussions](https://github.com/bradygaster/squad/discussions).
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/squad]] — Squad
+- [[000 - Map of Maps]] — Map of Maps
+

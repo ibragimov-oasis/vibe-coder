@@ -76,3 +76,10 @@ mcp__claude-flow__memory_usage {
   ttl: 604800  // 7 days
 }
 ```
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

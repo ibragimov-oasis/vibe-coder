@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/mcp
+  - artifact/mcp-server
+  - source/mcp-servers
+---
+
 ## Description
 
 <!-- Provide a brief description of the changes in this PR -->
@@ -54,3 +61,9 @@
 ## Additional Notes
 
 <!-- Add any additional notes or context about the PR -->
+
+## 🔗 Связи
+
+- [[MOC - MCP Servers]] — mcp-servers
+- [[000 - Map of Maps]] — Map of Maps
+

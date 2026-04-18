@@ -299,3 +299,10 @@ Each agent logs what they did in their `history.md`.
 - **Upgrades don't touch `.ai-team/`.** Your team's knowledge is safe across upgrades.
 - **Edit skill files directly.** They're just markdown. If a skill is wrong, fix it or delete it.
 - **Agent histories are the audit log.** Check them to see what each agent did.
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/squad]] — Squad
+- [[000 - Map of Maps]] — Map of Maps
+

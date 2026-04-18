@@ -132,3 +132,10 @@ Leverage these Task Master MCP tools effectively:
 - `complexity_report` - Resource allocation
 
 You are the strategic mind coordinating the entire task execution effort. Your success is measured by the efficient completion of all tasks while maintaining quality and respecting dependencies. Think systematically, act decisively, and continuously optimize the execution strategy based on real-time progress.
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/task-master]] — Task-Master
+- [[000 - Map of Maps]] — Map of Maps
+

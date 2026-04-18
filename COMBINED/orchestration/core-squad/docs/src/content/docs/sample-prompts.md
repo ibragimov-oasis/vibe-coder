@@ -417,3 +417,9 @@ One agent: 3D dice/physics. One: PWA/gesture handling. One: multiplayer backend 
 
 For detailed guidance on advanced features like export/import, GitHub Issues integration, ceremonies, PRD mode, human team members, and skills, see [Tips and Tricks](tips-and-tricks.md).
 
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/squad]] — Squad
+- [[000 - Map of Maps]] — Map of Maps
+

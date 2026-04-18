@@ -655,3 +655,10 @@ One prompt at top (near header), one at bottom.
 | Date | Author | Change |
 |------|--------|--------|
 | 2026-03-05 | Marquez | Initial proposal — ASCII wireframes, feasibility analysis, phasing plan |
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/squad]] — Squad
+- [[000 - Map of Maps]] — Map of Maps
+

@@ -1,5 +1,9 @@
 ---
 tagline: "Pull reusable components, tokens, and patterns into the design system."
+tags:
+  - domain/ui
+  - artifact/ui-component
+  - source/ui-design
 ---
 
 ## When to use it
@@ -41,3 +45,9 @@ Expected output:
 - **Over-generalizing.** The extracted component should match the current use cases closely, not anticipate every possible future one. You can always add variants later.
 - **Forgetting the migration.** Extraction without migration leaves the old duplicated code around and creates a third way of doing the same thing. Always migrate in the same pass.
 - **Extracting things that differ in intent.** Two buttons that look similar but serve different purposes (primary action vs link styled as button) should probably stay separate.
+
+## 🔗 Связи
+
+- [[MOC - UI Design]] — ui-design
+- [[000 - Map of Maps]] — Map of Maps
+

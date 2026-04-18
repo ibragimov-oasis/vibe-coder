@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/memory
+  - artifact/memory
+  - source/memory
+---
+
 # Issue #545: formatTool Crashes on Non-JSON Tool Input Strings
 
 ## Summary
@@ -239,3 +246,9 @@ expect(logger.formatTool('Bash', null)).toBe('Bash');
 - GitHub Issue: #545
 - Related file with correct pattern: `src/sdk/prompts.ts` (lines 96-102)
 - Logger source: `src/utils/logger.ts` (lines 136-197)
+
+## 🔗 Связи
+
+- [[MOC - Memory]] — memory
+- [[000 - Map of Maps]] — Map of Maps
+

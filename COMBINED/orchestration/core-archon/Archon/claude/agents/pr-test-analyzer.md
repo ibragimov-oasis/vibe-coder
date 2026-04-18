@@ -133,3 +133,10 @@ For each significant change, identify:
 - **Cost/benefit analysis** - Every suggestion should justify its value
 - **Existing coverage awareness** - Check integration tests before flagging gaps
 - **Specific recommendations** - Include test outlines, not vague suggestions
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/archon]] — Archon
+- [[000 - Map of Maps]] — Map of Maps
+

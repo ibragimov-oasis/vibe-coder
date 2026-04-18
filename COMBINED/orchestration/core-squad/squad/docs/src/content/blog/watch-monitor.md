@@ -175,3 +175,10 @@ squad watch --execute --board --two-pass --monitor-teams --retro --decision-hygi
 ---
 
 _PR #709 · Issue #708 · Shipped 2026-03-30_
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/squad]] — Squad
+- [[000 - Map of Maps]] — Map of Maps
+

@@ -176,3 +176,10 @@ glab auth login
 | `glab mr diff <IID>` | View MR diff |
 | `glab mr note <IID> -m "..."` | Comment on MR |
 | `glab mr create --title "..." --description "..."` | Create MR |
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/archon]] — Archon
+- [[000 - Map of Maps]] — Map of Maps
+

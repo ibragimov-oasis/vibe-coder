@@ -220,3 +220,10 @@ If your repository is private and you're security-conscious:
 - **Use `.gitignore` for sensitive files.** If you don't want histories committed, exclude them.
 - **GitHub Actions workflows use your repo's auth.** Make sure token permissions are scoped correctly.
 - **No external services.** Squad doesn't phone home or send telemetry.
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/squad]] — Squad
+- [[000 - Map of Maps]] — Map of Maps
+

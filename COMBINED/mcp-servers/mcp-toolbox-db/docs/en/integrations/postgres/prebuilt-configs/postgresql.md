@@ -2,6 +2,10 @@
 title: "PostgreSQL"
 type: docs
 description: "Details of the PostgreSQL prebuilt configuration."
+tags:
+  - domain/mcp
+  - artifact/mcp-server
+  - source/mcp-servers
 ---
 
 ## PostgreSQL
@@ -52,3 +56,9 @@ description: "Details of the PostgreSQL prebuilt configuration."
         each database in the PostgreSQL server.
     *   `list_roles`: Lists all the user-created roles in PostgreSQL database.
     *   `list_stored_procedure`: Lists stored procedures.
+
+## 🔗 Связи
+
+- [[MOC - MCP Servers]] — mcp-servers
+- [[000 - Map of Maps]] — Map of Maps
+

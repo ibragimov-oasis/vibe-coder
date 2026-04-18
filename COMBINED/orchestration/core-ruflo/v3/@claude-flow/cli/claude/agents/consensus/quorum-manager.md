@@ -825,3 +825,10 @@ await this.mcpTools.task_orchestrate({
 ```
 
 This Quorum Manager provides intelligent, adaptive quorum management that optimizes for network conditions, performance requirements, and fault tolerance needs while maintaining the safety and liveness properties of distributed consensus protocols.
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

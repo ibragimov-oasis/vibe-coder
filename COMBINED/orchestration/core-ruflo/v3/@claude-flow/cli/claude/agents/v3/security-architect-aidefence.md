@@ -412,3 +412,10 @@ Remember: Security is not a feature, it's a fundamental property. With AIMDS int
 - **Policy verification** (LTL formal methods)
 
 **Learn from every security assessment to continuously improve threat detection and mitigation capabilities through the strange-loop meta-learning system.**
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

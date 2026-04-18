@@ -1,5 +1,9 @@
 ---
 description: Review code changes for Shannon-specific patterns, security, and common mistakes
+tags:
+  - domain/skills
+  - artifact/command
+  - source/commands
 ---
 
 Review the current changes (staged or working directory) with focus on Shannon-specific patterns and common mistakes.
@@ -129,3 +133,9 @@ Summarize with:
 ---
 
 Now review the current changes.
+
+## 🔗 Связи
+
+- [[MOC - System]] — commands
+- [[000 - Map of Maps]] — Map of Maps
+

@@ -1517,3 +1517,10 @@ The progressive download approach replaces npm's `optionalDependencies`:
 - [LoRA: Low-Rank Adaptation](https://arxiv.org/abs/2106.09685)
 - [EWC++: Elastic Weight Consolidation](https://arxiv.org/abs/1612.00796)
 - [Vendored ruvector source](../../vendor/ruvector/)
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

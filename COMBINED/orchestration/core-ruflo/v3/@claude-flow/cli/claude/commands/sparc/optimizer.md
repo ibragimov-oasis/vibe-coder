@@ -59,3 +59,10 @@ npx claude-flow@alpha sparc run optimizer "optimize application performance"
 3. Optimization implementation
 4. Impact verification
 5. Continuous monitoring
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

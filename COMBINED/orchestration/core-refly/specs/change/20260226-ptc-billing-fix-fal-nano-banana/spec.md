@@ -85,3 +85,10 @@ python specs/current/ptc/scripts/ptc_verify.py c-tdtgj6ipbvf7akof5zota0pj "fal p
 python specs/current/ptc/scripts/ptc_verify.py c-tdtgj6ipbvf7akof5zota0pj "nano banana ptc"
 ```
 Expected: all nodes show ✓ billing linkage, 0 unbilled calls (ignoring temp API key warning).
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/refly]] — Refly
+- [[000 - Map of Maps]] — Map of Maps
+

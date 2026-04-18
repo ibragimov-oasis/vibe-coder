@@ -141,3 +141,10 @@ The Task Orchestrator is the central coordination agent responsible for breaking
 - Critical path optimization
 - Resource contention resolution
 - Deadline-aware scheduling
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

@@ -608,3 +608,10 @@ For always-on access from any device, see the [Docker Deployment Guide](/deploym
 - [AI Assistants](/getting-started/ai-assistants/) — Claude and Codex setup details
 - [CLI Reference](/reference/cli/) — Full CLI documentation
 - [Authoring Workflows](/guides/authoring-workflows/) — Creating custom workflows
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/archon]] — Archon
+- [[000 - Map of Maps]] — Map of Maps
+

@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/ui
+  - artifact/ui-component
+  - source/ui-design
+---
+
 # Architecture Quality Gate
 
 ### Structural integrity
@@ -13,3 +20,9 @@
 ### Styling and theming
 - [ ] Dark mode (`dark:`) applied to all color classes.
 - [ ] No hardcoded hex values; use theme-mapped Tailwind classes.
+
+## 🔗 Связи
+
+- [[MOC - UI Design]] — ui-design
+- [[000 - Map of Maps]] — Map of Maps
+

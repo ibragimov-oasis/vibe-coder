@@ -137,3 +137,10 @@ Your upgrade command's job is to make old installs current without touching what
 ---
 
 *We tested 23 repos in about 5 minutes. Found 3 bugs (1 real, 2 messaging). Fixed them before merging. The upgrade shipped the next morning.*
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/squad]] — Squad
+- [[000 - Map of Maps]] — Map of Maps
+

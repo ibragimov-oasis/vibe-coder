@@ -4,6 +4,10 @@ type: docs
 weight: 1
 description: >
   Custom prompts defined by the user.
+tags:
+  - domain/mcp
+  - artifact/mcp-server
+  - source/mcp-servers
 ---
 
 Custom prompts are defined by the user to be exposed through their MCP server.
@@ -66,3 +70,9 @@ Refer to the default prompt [Message Schema](../_index.md#message-schema).
 ### Argument Schema
 
 Refer to the default prompt [Argument Schema](../_index.md#argument-schema).
+
+## 🔗 Связи
+
+- [[MOC - MCP Servers]] — mcp-servers
+- [[000 - Map of Maps]] — Map of Maps
+

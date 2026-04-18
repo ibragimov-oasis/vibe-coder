@@ -198,3 +198,10 @@ const totalDuration =
   transition2Duration;
 // 60 + 60 + 60 - 15 - 20 = 145 frames
 ```
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/archon]] — Archon
+- [[000 - Map of Maps]] — Map of Maps
+

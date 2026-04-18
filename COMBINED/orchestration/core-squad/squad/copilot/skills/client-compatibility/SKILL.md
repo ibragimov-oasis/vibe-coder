@@ -91,3 +91,10 @@ runSubagent({ prompt: "...Scribe charter + task..." }) // Last in group
 - ❌ Apologizing or explaining platform limitations to the user
 - ❌ Using `task` when only `runSubagent` is available
 - ❌ Dropping prompt structure (charter/identity/task) on non-CLI platforms
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/squad]] — Squad
+- [[000 - Map of Maps]] — Map of Maps
+

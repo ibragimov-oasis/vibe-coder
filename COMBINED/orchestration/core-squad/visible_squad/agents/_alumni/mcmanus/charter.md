@@ -47,3 +47,10 @@ tags:
 
 ## Model
 Preferred: claude-haiku-4.5
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/squad]] — Squad
+- [[000 - Map of Maps]] — Map of Maps
+

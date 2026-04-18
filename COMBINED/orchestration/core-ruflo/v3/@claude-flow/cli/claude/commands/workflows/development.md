@@ -83,3 +83,10 @@ npx claude-flow workflow create --name "api-dev" --steps "design,implement,test,
 # Execute saved workflow
 npx claude-flow workflow execute api-dev
 ```
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

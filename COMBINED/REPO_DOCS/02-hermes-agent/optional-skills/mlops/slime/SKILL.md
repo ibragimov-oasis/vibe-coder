@@ -465,3 +465,8 @@ class CustomRewardModel:
 - **Blog**: https://lmsys.org/blog/2025-07-09-slime/
 - **Examples**: See `examples/` directory for 14+ worked examples
 
+## 🔗 Связи
+
+- [[000 - Map of Maps]] — REPO_DOCS
+- [[000 - Map of Maps]] — Map of Maps
+

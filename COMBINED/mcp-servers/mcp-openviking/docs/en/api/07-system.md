@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/mcp
+  - artifact/mcp-server
+  - source/mcp-servers
+---
+
 # System and Monitoring
 
 OpenViking provides system health, observability, and debug APIs for monitoring component status.
@@ -440,3 +447,9 @@ Overall system status including all components.
 - [Resources](02-resources.md) - Resource management
 - [Retrieval](06-retrieval.md) - Search and retrieval
 - [Sessions](05-sessions.md) - Session management
+
+## 🔗 Связи
+
+- [[MOC - MCP Servers]] — mcp-servers
+- [[000 - Map of Maps]] — Map of Maps
+

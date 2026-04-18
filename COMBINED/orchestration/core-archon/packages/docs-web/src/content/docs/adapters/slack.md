@@ -193,3 +193,10 @@ Ensure these scopes are added:
 - [Bolt for JavaScript](https://tools.slack.dev/bolt-js/)
 - [Socket Mode Guide](https://api.slack.com/apis/connections/socket)
 - [Permission Scopes](https://api.slack.com/scopes)
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/archon]] — Archon
+- [[000 - Map of Maps]] — Map of Maps
+

@@ -286,3 +286,10 @@ await prepareRelease({ bumpType: 'patch' });
 - [Full Documentation](./README.md)
 - [Implementation Details](./IMPLEMENTATION.md)
 - [Examples](./examples/)
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

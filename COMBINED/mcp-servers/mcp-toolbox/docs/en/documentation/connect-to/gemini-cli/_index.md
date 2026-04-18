@@ -3,6 +3,10 @@ title: Gemini CLI Extensions
 type: docs
 weight: 3
 description: "Connect to Toolbox via Gemini CLI Extensions."
+tags:
+  - domain/mcp
+  - artifact/mcp-server
+  - source/mcp-servers
 ---
 
 ## Gemini CLI Extensions
@@ -44,3 +48,9 @@ Below are a list of Gemini CLI Extensions powered by MCP Toolbox:
 * [postgres](https://github.com/gemini-cli-extensions/postgres)
 * [spanner](https://github.com/gemini-cli-extensions/spanner)
 * [sql-server](https://github.com/gemini-cli-extensions/sql-server)
+
+## 🔗 Связи
+
+- [[MOC - MCP Servers]] — mcp-servers
+- [[000 - Map of Maps]] — Map of Maps
+

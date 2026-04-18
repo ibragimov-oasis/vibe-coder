@@ -5,6 +5,10 @@ weight: 1
 description: >
   The "postgres-list-tables" tool lists schema information for all or specified
   tables in a Postgres database.
+tags:
+  - domain/mcp
+  - artifact/mcp-server
+  - source/mcp-servers
 ---
 
 ## About
@@ -43,3 +47,9 @@ description: Use this tool to retrieve schema information for all or
 | type        |  string  |     true     | Must be "postgres-list-tables".                      |
 | source      |  string  |     true     | Name of the source the SQL should execute on.        |
 | description |  string  |     true     | Description of the tool that is passed to the agent. |
+
+## 🔗 Связи
+
+- [[MOC - MCP Servers]] — mcp-servers
+- [[000 - Map of Maps]] — Map of Maps
+

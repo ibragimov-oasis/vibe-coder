@@ -700,3 +700,10 @@ npm run typecheck
 
 **Last Updated:** 2026-01-03
 **Document Version:** 1.0
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

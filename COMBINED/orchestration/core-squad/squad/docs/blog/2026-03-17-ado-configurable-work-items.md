@@ -278,3 +278,10 @@ If config is missing or invalid:
 - [Persistent Ralph](/features/persistent-ralph) — Ralph creates work with your config
 - [Cross-Squad Orchestration](/features/cross-squad-orchestration) — Delegate work with correct types
 - [Generic Scheduler](/features/generic-scheduler) — Run ADO operations on schedule
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/squad]] — Squad
+- [[000 - Map of Maps]] — Map of Maps
+

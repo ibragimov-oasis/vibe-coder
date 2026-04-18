@@ -168,3 +168,10 @@ Structure your findings like this:
 - Don't suggest improvements
 
 Document the codebase exactly as it exists today, without judgment or suggestions for change.
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/archon]] — Archon
+- [[000 - Map of Maps]] — Map of Maps
+

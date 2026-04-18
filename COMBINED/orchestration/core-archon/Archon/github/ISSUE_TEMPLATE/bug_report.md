@@ -66,3 +66,10 @@ Paste relevant logs here (redact any tokens/secrets)
 
 - Package(s) likely involved: `core|workflows|isolation|git|adapters|server|web|cli|paths`
 - Module (if known): e.g. `workflows:executor`, `adapters:slack`
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/archon]] — Archon
+- [[000 - Map of Maps]] — Map of Maps
+

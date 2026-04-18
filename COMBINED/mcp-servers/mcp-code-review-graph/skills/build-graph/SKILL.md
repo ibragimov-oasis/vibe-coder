@@ -2,6 +2,10 @@
 name: build-graph
 description: Build or update the code review knowledge graph. Run this first to initialize, or let hooks keep it updated automatically.
 argument-hint: "[full]"
+tags:
+  - domain/mcp
+  - artifact/mcp-server
+  - source/mcp-servers
 ---
 
 # Build Graph
@@ -36,3 +40,9 @@ Build or incrementally update the persistent code knowledge graph for this repos
 - The graph is stored as a SQLite database (`.code-review-graph/graph.db`) in the repo root
 - Binary files, generated files, and patterns in `.code-review-graphignore` are skipped
 - Supported languages: Python, TypeScript/JavaScript, Vue, Go, Rust, Java, Scala, C#, Ruby, Kotlin, Swift, PHP, Solidity, C/C++
+
+## 🔗 Связи
+
+- [[MOC - MCP Servers]] — mcp-servers
+- [[000 - Map of Maps]] — Map of Maps
+

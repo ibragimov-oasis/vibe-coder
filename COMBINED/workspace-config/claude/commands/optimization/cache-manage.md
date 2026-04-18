@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/config
+  - source/workspace-config
+---
+
 # cache-manage
 
 Manage operation cache for performance.
@@ -23,3 +30,9 @@ npx claude-flow optimization cache-manage --action clear
 # Set limits
 npx claude-flow optimization cache-manage --max-size 100 --ttl 3600
 ```
+
+## 🔗 Связи
+
+- [[MOC - System]] — workspace-config
+- [[000 - Map of Maps]] — Map of Maps
+

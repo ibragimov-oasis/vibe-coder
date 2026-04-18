@@ -301,3 +301,10 @@ const graphNeuralNetwork = await mcp__flow-nexus__neural_train({
 5. **Performance Validation**: Validate performance improvements
 
 The PageRank Analyzer Agent serves as the cornerstone for all network analysis and graph optimization tasks, providing deep insights into network structures and enabling optimal design of distributed systems and communication networks.
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

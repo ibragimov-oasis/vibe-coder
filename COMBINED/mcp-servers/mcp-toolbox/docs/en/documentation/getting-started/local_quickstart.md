@@ -7,6 +7,10 @@ description: >
   [LangGraph](https://www.langchain.com/langgraph), [LlamaIndex](https://www.llamaindex.ai/) or [GoogleGenAI](https://pypi.org/project/google-genai/).
 sample_filters: ["Python", "Quickstart", "Local", "ADK", "LangChain", "LlamaIndex", "Google GenAI"]
 is_sample: true
+tags:
+  - domain/mcp
+  - artifact/mcp-server
+  - source/mcp-servers
 ---
 
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/googleapis/mcp-toolbox/blob/main/docs/en/getting-started/colab_quickstart.ipynb)
@@ -195,3 +199,9 @@ python agent.py
 For more information, visit the [Python SDK
 repo](https://github.com/googleapis/mcp-toolbox-sdk-python).
 {{</ notice >}}
+
+## 🔗 Связи
+
+- [[MOC - MCP Servers]] — mcp-servers
+- [[000 - Map of Maps]] — Map of Maps
+

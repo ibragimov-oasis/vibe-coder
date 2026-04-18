@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/memory
+  - artifact/memory
+  - source/memory
+---
+
 # Hooks
 
 Hooks let you observe, control, and extend the agent loop using custom scripts. Hooks are spawned processes that communicate over stdio using JSON in both directions. They run before or after defined stages of the agent loop and can observe, block, or modify behavior.
@@ -584,3 +591,9 @@ There is a Hooks tab in Cursor Settings to debug configured and executed hooks, 
 
 - Restart Cursor to ensure the hooks service is running.
 - Ensure hook script paths are relative to `hooks.json` when using relative paths.
+
+## 🔗 Связи
+
+- [[MOC - Memory]] — memory
+- [[000 - Map of Maps]] — Map of Maps
+

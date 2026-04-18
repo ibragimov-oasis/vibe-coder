@@ -563,3 +563,10 @@ claude-flow agent run coder "Critical bug" --enable-memory --provider anthropic 
 **ReasoningBank integration is complete and ready for production use!** 🚀
 
 Users can now run `claude-flow agent run coder "task" --enable-memory` to leverage experience-based learning that improves success rates from 23% to 98%.
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

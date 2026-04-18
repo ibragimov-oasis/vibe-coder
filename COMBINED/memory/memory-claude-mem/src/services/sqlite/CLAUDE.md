@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/memory
+  - artifact/memory
+  - source/memory
+---
+
 <claude-mem-context>
 # Recent Activity
 
@@ -91,3 +98,9 @@
 | #36163 | 6:48 PM | 🔵 | SessionStore Method Inventory and Extraction Boundaries | ~692 |
 | #36162 | 6:47 PM | 🔵 | SessionStore Architecture and Migration History | ~593 |
 </claude-mem-context>
+
+## 🔗 Связи
+
+- [[MOC - Memory]] — memory
+- [[000 - Map of Maps]] — Map of Maps
+

@@ -143,3 +143,10 @@ Pre-built SubSquad configurations for common architectures:
 - **Monorepo** — 1 SubSquad per package
 - **Microservices** — 1 SubSquad per service
 - **Feature teams** — dynamic SubSquads per feature area
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/squad]] — Squad
+- [[000 - Map of Maps]] — Map of Maps
+

@@ -118,3 +118,10 @@ Fallback stubs           →  HierarchicalMemory, MemoryConsolidation (if agentd
 - `v3/@claude-flow/cli/src/mcp-tools/agentdb-tools.ts` — Tier enum, input validation (phase 1)
 - `v3/@claude-flow/memory/package.json` — agentdb dependency `^3.0.0-alpha.10`
 - `README.md` — Tier names, capacity/TTL claims, RVFOptimizer categorization (phase 1)
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

@@ -171,3 +171,10 @@ search past decisions for database choices
 ```
 
 Finds historical decisions related to a specific topic or keyword.
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/squad]] — Squad
+- [[000 - Map of Maps]] — Map of Maps
+

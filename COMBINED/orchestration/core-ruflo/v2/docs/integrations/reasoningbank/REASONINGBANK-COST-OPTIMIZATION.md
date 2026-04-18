@@ -334,3 +334,10 @@ claude-flow agent memory list --sort confidence
 **Version**: 1.0.0
 **Last Updated**: 2025-10-12
 **Status**: Production-ready
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

@@ -6,6 +6,10 @@ weight: 1
 description: >
   SQL Server is a relational database management system (RDBMS).
 no_list: true
+tags:
+  - domain/mcp
+  - artifact/mcp-server
+  - source/mcp-servers
 ---
 
 ## About
@@ -62,3 +66,9 @@ instead of hardcoding your secrets into the configuration file.
 | user      |  string  |     true     | Name of the SQL Server user to connect as (e.g. "my-user").                                                                                                                                                                                                              |
 | password  |  string  |     true     | Password of the SQL Server user (e.g. "my-password").                                                                                                                                                                                                                    |
 | encrypt   |  string  |    false     | Encryption level for data transmitted between the client and server (e.g., "strict"). If not specified, defaults to the [github.com/microsoft/go-mssqldb](https://github.com/microsoft/go-mssqldb?tab=readme-ov-file#common-parameters) package's default encrypt value. |
+
+## 🔗 Связи
+
+- [[MOC - MCP Servers]] — mcp-servers
+- [[000 - Map of Maps]] — Map of Maps
+

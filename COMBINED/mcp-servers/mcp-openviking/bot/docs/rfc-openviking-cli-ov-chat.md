@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/mcp
+  - artifact/mcp-server
+  - source/mcp-servers
+---
+
 # RFC: OpenViking CLI Support for ov chat Command
 
 **Author:** OpenViking Team
@@ -339,3 +346,9 @@ openviking-server --config /path/to/ov.conf
 ---
 
 *End of Document*
+
+## 🔗 Связи
+
+- [[MOC - MCP Servers]] — mcp-servers
+- [[000 - Map of Maps]] — Map of Maps
+

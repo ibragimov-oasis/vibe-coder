@@ -132,3 +132,10 @@ npx claude-flow agent logs coder-lx7m9k2 --since "today"
 - `npx claude-flow agent status` - Current agent status
 - `npx claude-flow agent health` - Health monitoring
 - `npx claude-flow agent metrics` - Performance metrics
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

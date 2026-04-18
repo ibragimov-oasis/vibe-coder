@@ -256,3 +256,10 @@ tags:
     - Did I resist the urge to either rubber-stamp or manufacture outrage?
   </Final_Checklist>
 </Agent_Prompt>
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/omc]] — OMC
+- [[000 - Map of Maps]] — Map of Maps
+

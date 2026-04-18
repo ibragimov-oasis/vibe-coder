@@ -317,4 +317,8 @@ Full list: 99 languages total
 - **Colab**: Available in repo
 - **License**: MIT
 
+## 🔗 Связи
+
+- [[000 - Map of Maps]] — REPO_DOCS
+- [[000 - Map of Maps]] — Map of Maps
 

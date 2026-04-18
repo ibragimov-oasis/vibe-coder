@@ -121,3 +121,10 @@ npm test -- --grep "diagnostics"
 **Recommendation**: Always prefer `tsc` for TypeScript projects.
 
 <!-- MANUAL: -->
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/omc]] — OMC
+- [[000 - Map of Maps]] — Map of Maps
+

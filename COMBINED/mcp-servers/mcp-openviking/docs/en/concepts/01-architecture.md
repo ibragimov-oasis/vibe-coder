@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/mcp
+  - artifact/mcp-server
+  - source/mcp-servers
+---
+
 # Architecture Overview
 
 OpenViking is a context database designed for AI Agents, unifying all context types (Memory, Resource, Skill) into a directory structure with semantic retrieval and progressive content loading.
@@ -173,3 +180,9 @@ curl http://localhost:1933/api/v1/search/find \
 - [Retrieval Mechanism](./07-retrieval.md) - Retrieval process details
 - [Context Extraction](./06-extraction.md) - Parsing and extraction process
 - [Session Management](./08-session.md) - Session and memory management
+
+## 🔗 Связи
+
+- [[MOC - MCP Servers]] — mcp-servers
+- [[000 - Map of Maps]] — Map of Maps
+

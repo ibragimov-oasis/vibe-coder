@@ -37,3 +37,10 @@ class NanoBanana(ToolsetBase):
         """
         pass
 ```
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/refly]] — Refly
+- [[000 - Map of Maps]] — Map of Maps
+

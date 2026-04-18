@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/memory
+  - artifact/memory
+  - source/memory
+---
+
 <claude-mem-context>
 # Recent Activity
 
@@ -111,3 +118,9 @@
 |----|------|---|-------|------|
 | #38175 | 7:26 PM | 🔵 | Complete Claude-Mem Hook Output Architecture Documented | ~530 |
 </claude-mem-context>
+
+## 🔗 Связи
+
+- [[MOC - Memory]] — memory
+- [[000 - Map of Maps]] — Map of Maps
+

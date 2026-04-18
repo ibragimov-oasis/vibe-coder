@@ -1,5 +1,9 @@
 ---
 tagline: "The meticulous final pass between good and great."
+tags:
+  - domain/ui
+  - artifact/ui-component
+  - source/ui-design
 ---
 
 ## When to use it
@@ -44,3 +48,9 @@ Five small fixes, no rewrites. That is the shape of a good polish pass.
 - **Polishing work that is not done.** If there are TODOs in the code, you are not ready. Run `/polish` on finished features only.
 - **Treating polish as redesign.** Polish refines what exists. If you find yourself rearchitecting a layout, you needed `/critique` or `/layout` instead.
 - **Running `/polish` without `/audit` first.** Polish catches feel-based issues. Audit catches measurable ones. Use both.
+
+## 🔗 Связи
+
+- [[MOC - UI Design]] — ui-design
+- [[000 - Map of Maps]] — Map of Maps
+

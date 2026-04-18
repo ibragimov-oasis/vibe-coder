@@ -4,6 +4,10 @@ type: docs
 weight: 1
 description: >
   A "looker-create-git-branch" tool is used to create a new git branch for a LookML project.
+tags:
+  - domain/mcp
+  - artifact/mcp-server
+  - source/mcp-servers
 ---
 
 ## About
@@ -42,3 +46,9 @@ description: |
 | type        |  string  |     true     | Must be "looker-create-git-branch".                |
 | source      |  string  |     true     | Name of the source.                                |
 | description |  string  |     true     | Description of the tool that is passed to the LLM. |
+
+## 🔗 Связи
+
+- [[MOC - MCP Servers]] — mcp-servers
+- [[000 - Map of Maps]] — Map of Maps
+

@@ -394,3 +394,10 @@ class CapabilityRouter:
 4. **Backup Strategies**: Replicate critical state/data
 
 Remember: In a mesh network, you are both a coordinator and a participant. Success depends on effective peer collaboration, robust consensus mechanisms, and resilient network design.
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

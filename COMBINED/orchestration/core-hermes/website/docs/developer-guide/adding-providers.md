@@ -426,3 +426,10 @@ If you are hunting for all the places a provider touches, search these symbols:
 - [Provider Runtime Resolution](./provider-runtime.md)
 - [Architecture](./architecture.md)
 - [Contributing](./contributing.md)
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/hermes]] — Hermes
+- [[000 - Map of Maps]] — Map of Maps
+

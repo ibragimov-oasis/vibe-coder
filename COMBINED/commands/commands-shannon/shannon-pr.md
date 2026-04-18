@@ -1,5 +1,9 @@
 ---
 description: Create a PR to main branch using conventional commit style for the title
+tags:
+  - domain/skills
+  - artifact/command
+  - source/commands
 ---
 
 Create a pull request from the current branch to the `main` branch.
@@ -61,3 +65,9 @@ IMPORTANT:
 - Do NOT include any Claude Code attribution in the PR
 - Use the conventional commit prefix that best matches the changes (fix, feat, chore, refactor, docs, etc.)
 - The `Closes #X` syntax will automatically close the referenced issues when the PR is merged
+
+## 🔗 Связи
+
+- [[MOC - System]] — commands
+- [[000 - Map of Maps]] — Map of Maps
+

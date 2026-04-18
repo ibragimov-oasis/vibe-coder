@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/memory
+  - artifact/memory
+  - source/memory
+---
+
 # Error Handling Anti-Pattern Rules
 
 This folder contains `detect-error-handling-antipatterns.ts` - run it before committing any error handling changes.
@@ -135,3 +142,9 @@ These files are **NEVER** allowed to have catch-and-continue:
 - `worker-service.ts` - Core service errors must be visible
 
 On critical paths, prefer **NO TRY-CATCH** and let errors propagate naturally.
+
+## 🔗 Связи
+
+- [[MOC - Memory]] — memory
+- [[000 - Map of Maps]] — Map of Maps
+

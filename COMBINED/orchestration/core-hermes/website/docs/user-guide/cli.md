@@ -351,3 +351,10 @@ For debug output:
 ```bash
 hermes chat --verbose
 ```
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/hermes]] — Hermes
+- [[000 - Map of Maps]] — Map of Maps
+

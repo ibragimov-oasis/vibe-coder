@@ -58,3 +58,10 @@ Describe a key convention or practice used in this codebase. Be specific about w
 
 <!-- List things to avoid in this codebase -->
 - **[Anti-pattern]** — Explanation of what not to do and why.
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/squad]] — Squad
+- [[000 - Map of Maps]] — Map of Maps
+

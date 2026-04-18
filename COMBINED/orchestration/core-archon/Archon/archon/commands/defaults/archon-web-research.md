@@ -267,3 +267,10 @@ Based on research:
 - **SOURCES_CITED**: All findings have source URLs
 - **ARTIFACT_WRITTEN**: Research saved to `$ARTIFACTS_DIR/web-research.md`
 - **ACTIONABLE**: Findings directly inform implementation decisions
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/archon]] — Archon
+- [[000 - Map of Maps]] — Map of Maps
+

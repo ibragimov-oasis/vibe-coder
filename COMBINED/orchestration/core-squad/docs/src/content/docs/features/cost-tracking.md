@@ -94,3 +94,10 @@ export default defineSquad({
 - Token metrics are exported as OpenTelemetry counters when telemetry is enabled
 - Compatible with Aspire dashboard, Grafana, and any OTel-compatible backend
 - Metrics: `squad.tokens.input`, `squad.tokens.output`, `squad.tokens.cost`
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/squad]] — Squad
+- [[000 - Map of Maps]] — Map of Maps
+

@@ -74,3 +74,10 @@ plus prompt templates for each pattern that agents can use in their reasoning.
 ## References
 
 - Issue: bradygaster/squad#623
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/squad]] — Squad
+- [[000 - Map of Maps]] — Map of Maps
+

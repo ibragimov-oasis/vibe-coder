@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/root
+---
+
 # MEMORY_SETUP.md — Memory & Context Systems Guide
 
 > **Combined Memory System Documentation**
@@ -505,3 +512,8 @@ pip install openviking --upgrade --force-reinstall
 *Combined from: claude-mem, supermemory, OpenViking*
 
 **Last Updated:** 2026-04-01
+
+## 🔗 Связи
+
+- [[000 - Map of Maps]] — Map of Maps
+

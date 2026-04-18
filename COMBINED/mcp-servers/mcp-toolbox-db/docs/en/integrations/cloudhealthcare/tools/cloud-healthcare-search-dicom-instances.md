@@ -4,6 +4,10 @@ type: docs
 weight: 1
 description: >
   A "cloud-healthcare-search-dicom-instances" tool searches for DICOM instances in a DICOM store.
+tags:
+  - domain/mcp
+  - artifact/mcp-server
+  - source/mcp-servers
 ---
 
 ## About
@@ -56,3 +60,9 @@ description: Use this tool to search for DICOM instances in the DICOM store.
 
 *If the `allowedDICOMStores` in the source has length 1, then the `storeID`
 parameter is not needed.
+
+## 🔗 Связи
+
+- [[MOC - MCP Servers]] — mcp-servers
+- [[000 - Map of Maps]] — Map of Maps
+

@@ -475,3 +475,10 @@ Proceeding to PR creation...
 - **CHANGES_COMMITTED**: All changes committed to branch
 - **IMPLEMENTATION_ARTIFACT**: Written to $ARTIFACTS_DIR/
 - **READY_FOR_PR**: Workflow continues to PR creation
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/archon]] — Archon
+- [[000 - Map of Maps]] — Map of Maps
+

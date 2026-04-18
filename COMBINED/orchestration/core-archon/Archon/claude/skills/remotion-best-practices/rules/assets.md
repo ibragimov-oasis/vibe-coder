@@ -79,3 +79,10 @@ Remote URLs can be used directly without `staticFile()`:
 
 - Remotion components (`<Img>`, `<Video>`, `<Audio>`) ensure assets are fully loaded before rendering
 - Special characters in filenames (`#`, `?`, `&`) are automatically encoded
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/archon]] — Archon
+- [[000 - Map of Maps]] — Map of Maps
+

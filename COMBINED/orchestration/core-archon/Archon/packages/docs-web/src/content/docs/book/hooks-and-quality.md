@@ -242,3 +242,10 @@ The `response` object (top-level fields):
 You now have the full toolkit: commands that define tasks, workflows that orchestrate them, DAG graphs that route conditionally, and hooks that steer behavior in real time.
 
 [Chapter 10: Quick Reference →](/book/quick-reference/) collects every CLI command, variable, and YAML option in one scannable place.
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/archon]] — Archon
+- [[000 - Map of Maps]] — Map of Maps
+

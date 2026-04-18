@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/combined-root
+---
+
 # ✅ ULTRACAR Project Completion - April 4, 2026
 
 ## 🎉 Work Completed
@@ -275,3 +282,8 @@ All remaining phases (4-6) are now:
 **Status:** ✅ **All Planning Complete - Ready for Execution**
 
 🎯 **The foundation is built. The plans are ready. The path to v1.0.0 is clear!** 🎯
+
+## 🔗 Связи
+
+- [[000 - Map of Maps]] — Map of Maps
+

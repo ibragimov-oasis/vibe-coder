@@ -123,3 +123,10 @@ Returns JSON with:
 - `hook session-restore` - Session restoration
 - `performance report` - Detailed metrics
 - `memory backup` - State backup
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

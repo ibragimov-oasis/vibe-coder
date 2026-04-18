@@ -104,3 +104,7 @@ description: Что делает навык
 - [[skills/matt-pocock/index]] — Matt Pocock 20 skills index
 - [[skills/karpathy/index]] — Karpathy 4 Principles index
 
+## 🔗 Связи
+
+- [[000 - Map of Maps]] — Map of Maps
+

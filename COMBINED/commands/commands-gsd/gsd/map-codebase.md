@@ -9,6 +9,10 @@ allowed-tools:
   - Grep
   - Write
   - Task
+tags:
+  - domain/skills
+  - artifact/command
+  - source/commands
 ---
 
 <objective>
@@ -69,3 +73,9 @@ Check for .planning/STATE.md - loads context if project already initialized
 - [ ] Parallel agents completed without errors
 - [ ] User knows next steps
 </success_criteria>
+
+## 🔗 Связи
+
+- [[MOC - System]] — commands
+- [[000 - Map of Maps]] — Map of Maps
+

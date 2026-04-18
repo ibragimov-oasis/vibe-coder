@@ -443,3 +443,10 @@ You've got a working team Telegram assistant. Here are some next steps:
 ---
 
 *Questions or issues? Open an issue on GitHub — contributions are welcome.*
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/hermes]] — Hermes
+- [[000 - Map of Maps]] — Map of Maps
+

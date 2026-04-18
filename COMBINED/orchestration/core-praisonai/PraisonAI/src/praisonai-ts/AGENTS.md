@@ -960,3 +960,10 @@ This TypeScript SDK maintains feature parity with the Python SDK:
 ---
 
 *This document is the source of truth for the PraisonAI TypeScript SDK architecture and design principles.*
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/praisonai]] — PraisonAI
+- [[000 - Map of Maps]] — Map of Maps
+

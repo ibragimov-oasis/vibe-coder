@@ -323,3 +323,10 @@ results = await engine.run_benchmark("Create a web scraper")
 ## Conclusion
 
 The Real Benchmark Engine provides a robust, extensible framework for systematically evaluating claude-flow performance across all supported modes and strategies. Its modular architecture enables easy extension while maintaining reliability and accuracy in measurements.
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

@@ -153,3 +153,10 @@ function Invoke-RoundStart {
 | **Dependencies** | `.squad/log/` directory, GitHub Issues API |
 | **Tested in** | tamirdresher/tamresearch1 (production, March 2026) |
 | **Outcome** | Retro cadence restored; action item completion 0% → 100% |
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/squad]] — Squad
+- [[000 - Map of Maps]] — Map of Maps
+

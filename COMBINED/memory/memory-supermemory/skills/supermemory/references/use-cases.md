@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/memory
+  - artifact/memory
+  - source/memory
+---
+
 # Supermemory Use Cases & Examples
 
 Concrete examples showing how to use Supermemory for common AI application patterns.
@@ -1031,3 +1038,9 @@ const teamSpecific = await memory.search.memories({
 Ready to build your own use case? Start with the [Quickstart Guide](quickstart.md) or explore the [SDK Documentation](sdk-guide.md).
 
 For questions or custom use cases, visit [console.supermemory.ai](https://console.supermemory.ai).
+
+## 🔗 Связи
+
+- [[MOC - Memory]] — memory
+- [[000 - Map of Maps]] — Map of Maps
+

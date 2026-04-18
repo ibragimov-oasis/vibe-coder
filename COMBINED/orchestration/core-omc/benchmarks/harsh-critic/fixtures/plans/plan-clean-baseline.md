@@ -232,3 +232,10 @@ If the SQS queue accumulates a backlog during an outage, messages will be proces
 | SRE / On-Call Lead | Darius Mensah | 2026-02-25 |
 | Security Review | Elena Sorokina | 2026-02-26 |
 | Product | James Okafor | 2026-02-27 |
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/omc]] — OMC
+- [[000 - Map of Maps]] — Map of Maps
+

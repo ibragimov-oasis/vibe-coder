@@ -122,3 +122,10 @@ Returns JSON with:
 - `hook session-restore` - Manual restoration
 - `swarm init` - Swarm initialization
 - `memory usage` - Memory management
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

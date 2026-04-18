@@ -1,6 +1,10 @@
 ---
 name: gitnexus-impact-analysis
 description: "Use when the user wants to know what will break if they change something, or needs safety analysis before editing code. Examples: \"Is it safe to change X?\", \"What depends on this?\", \"What will break?\""
+tags:
+  - domain/mcp
+  - artifact/mcp-server
+  - source/mcp-servers
 ---
 
 # Impact Analysis with GitNexus
@@ -95,3 +99,9 @@ gitnexus_detect_changes({scope: "staged"})
 
 3. Risk: 2 direct callers, 2 processes = MEDIUM
 ```
+
+## 🔗 Связи
+
+- [[MOC - MCP Servers]] — mcp-servers
+- [[000 - Map of Maps]] — Map of Maps
+

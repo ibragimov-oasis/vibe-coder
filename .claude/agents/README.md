@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/config
+  - source/.claude
+---
+
 # COMBINED/agents/mega — Mega Agents
 
 > **The unified best-of-breed agents from all 31 repositories.**
@@ -68,3 +75,9 @@ Follow this process:
 3. Extract: best role definition, strongest heuristics, clearest output format
 4. Merge into a single agent file in this directory
 5. Update this README and `COMBINED/agents/INDEX.md`
+
+## 🔗 Связи
+
+- [[MOC - System]] — System
+- [[000 - Map of Maps]] — Map of Maps
+

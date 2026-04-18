@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/workflow
+  - source/hooks
+---
+
 # Setup Hook
 
 Handles OMC initialization and maintenance tasks.
@@ -298,3 +305,9 @@ All errors are caught and added to the `errors` array in `SetupResult`. The hook
 - Environment variable setting requires `CLAUDE_ENV_FILE` to be set
 - SQLite VACUUM requires `sqlite3` command to be available
 - All operations are safe and won't delete active/critical state
+
+## 🔗 Связи
+
+- [[MOC - System]] — hooks
+- [[000 - Map of Maps]] — Map of Maps
+

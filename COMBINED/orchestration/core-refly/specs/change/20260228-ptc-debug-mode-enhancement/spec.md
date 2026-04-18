@@ -76,3 +76,10 @@ PTC_MODE=on/partial and user allowed
 - `PTC_DEBUG=true` is kept as a legacy alias for `opt-in` to avoid breaking existing dev setups.
 - Title matching is case-insensitive (`toLowerCase()`). Keywords are "useptc" (opt-in) and "nonptc" (opt-out) — chosen to be disjoint substrings with no overlap.
 - `REFLY_PTC_DEBUG` in the sandbox reflects whether *any* debug mode is active, not which mode — the sandbox only needs to know it's a debug run.
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/refly]] — Refly
+- [[000 - Map of Maps]] — Map of Maps
+

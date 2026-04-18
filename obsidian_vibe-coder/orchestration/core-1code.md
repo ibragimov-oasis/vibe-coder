@@ -37,3 +37,9 @@ source: "../COMBINED/orchestration/core-1code/"
 
 - [[orchestration/core-ruflo]] — RuFlo: когда нужна enterprise мощь
 - [[orchestration/core-gsd]] — GSD: spec-driven
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Parent MOC
+- [[000 - Map of Maps]] — Map of Maps
+

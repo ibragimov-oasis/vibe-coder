@@ -510,3 +510,10 @@ Common YAML syntax issues:
 - Unquoted values with special characters
 
 The application will continue running with default settings until the config file is fixed.
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/archon]] — Archon
+- [[000 - Map of Maps]] — Map of Maps
+

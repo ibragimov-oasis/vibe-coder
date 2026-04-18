@@ -799,3 +799,10 @@ Task("Task domain implementation",
      "Implement task management domain with entities, services, and repositories",
      "core-implementer")
 ```
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

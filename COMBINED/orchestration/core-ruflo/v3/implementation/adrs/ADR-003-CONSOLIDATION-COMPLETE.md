@@ -392,3 +392,10 @@ The architecture now follows the **Single Coordination Engine** principle, with 
 **Implementation**: Claude Code
 **Date**: 2026-01-04
 **ADR**: ADR-003 (Single Coordination Engine)
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

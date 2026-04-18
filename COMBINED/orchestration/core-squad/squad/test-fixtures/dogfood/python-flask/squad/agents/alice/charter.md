@@ -20,3 +20,10 @@ API design and platform engineering for the Flask service.
 - Flask, SQLAlchemy
 - REST API best practices
 - Database design
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/squad]] — Squad
+- [[000 - Map of Maps]] — Map of Maps
+

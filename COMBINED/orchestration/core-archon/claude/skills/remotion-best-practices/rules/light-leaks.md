@@ -74,3 +74,10 @@ const MyComp: React.FC = () => (
   </AbsoluteFill>
 );
 ```
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/archon]] — Archon
+- [[000 - Map of Maps]] — Map of Maps
+

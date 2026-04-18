@@ -3,6 +3,10 @@ name: summarize
 description: Summarize or extract text/transcripts from URLs, podcasts, and local files (great fallback for “transcribe this YouTube/video”).
 homepage: https://summarize.sh
 metadata: {"vikingbot":{"emoji":"🧾","requires":{"bins":["summarize"]},"install":[{"id":"brew","kind":"brew","formula":"steipete/tap/summarize","bins":["summarize"],"label":"Install summarize (brew)"}]}}
+tags:
+  - domain/mcp
+  - artifact/mcp-server
+  - source/mcp-servers
 ---
 
 # Summarize
@@ -65,3 +69,9 @@ Optional config file: `~/.summarize/config.json`
 Optional services:
 - `FIRECRAWL_API_KEY` for blocked sites
 - `APIFY_API_TOKEN` for YouTube fallback
+
+## 🔗 Связи
+
+- [[MOC - MCP Servers]] — mcp-servers
+- [[000 - Map of Maps]] — Map of Maps
+

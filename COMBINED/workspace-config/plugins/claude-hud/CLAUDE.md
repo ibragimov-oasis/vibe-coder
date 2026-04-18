@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/config
+  - source/workspace-config
+---
+
 # CLAUDE.md
 
 This file provides guidance to Claude Code when working with this repository.
@@ -118,3 +125,9 @@ Note: `statusLine` is NOT a valid plugin.json field. It must be configured in se
 
 - **Runtime**: Node.js 18+ or Bun
 - **Build**: TypeScript 5, ES2022 target, NodeNext modules
+
+## 🔗 Связи
+
+- [[MOC - System]] — workspace-config
+- [[000 - Map of Maps]] — Map of Maps
+

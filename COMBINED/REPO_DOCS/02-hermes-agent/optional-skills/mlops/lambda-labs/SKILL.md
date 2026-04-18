@@ -546,3 +546,9 @@ python inference.py \
 - **Pricing**: https://lambda.ai/instances
 - **Support**: https://support.lambdalabs.com
 - **Blog**: https://lambda.ai/blog
+
+## 🔗 Связи
+
+- [[000 - Map of Maps]] — REPO_DOCS
+- [[000 - Map of Maps]] — Map of Maps
+

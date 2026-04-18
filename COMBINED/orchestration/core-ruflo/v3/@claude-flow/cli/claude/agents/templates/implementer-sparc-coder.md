@@ -261,3 +261,10 @@ async function retryOperation(fn, maxRetries = 3) {
 - Setup instructions
 - Configuration options
 - Usage examples
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

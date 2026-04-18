@@ -73,3 +73,10 @@ You can install Squad with npm & configure it... // Ampersand in prose
 - Long paragraphs of dense text (breaks scannability)
 - Adding doc pages without updating test assertions
 - Using ampersands outside code blocks
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/squad]] — Squad
+- [[000 - Map of Maps]] — Map of Maps
+

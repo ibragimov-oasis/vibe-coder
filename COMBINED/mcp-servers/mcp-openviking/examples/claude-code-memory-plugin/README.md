@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/mcp
+  - artifact/mcp-server
+  - source/mcp-servers
+---
+
 # OpenViking Memory Plugin for Claude Code
 
 Long-term semantic memory for Claude Code, powered by [OpenViking](https://github.com/volcengine/OpenViking).
@@ -308,3 +315,9 @@ Claude Code has a built-in auto-memory system using `MEMORY.md` files. This plug
 ## License
 
 Apache-2.0 — same as [OpenViking](https://github.com/volcengine/OpenViking).
+
+## 🔗 Связи
+
+- [[MOC - MCP Servers]] — mcp-servers
+- [[000 - Map of Maps]] — Map of Maps
+

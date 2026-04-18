@@ -1,5 +1,9 @@
 ---
 tagline: "Pull drifted UI back into the design system."
+tags:
+  - domain/ui
+  - artifact/ui-component
+  - source/ui-design
 ---
 
 ## When to use it
@@ -39,3 +43,9 @@ Typical diff:
 - **Using normalize to redesign.** If you find yourself wanting to change how things look, not just make them consistent, you want `/polish` or `/arrange`. Normalize enforces consistency with what exists.
 - **Skipping the token gap analysis.** When normalize flags "no token fits", that is signal. Extend the token system before shipping, or the drift will come back.
 - **Running normalize on a prototype.** If the feature is still exploring, consistency is premature optimization. Normalize ships-ready features.
+
+## 🔗 Связи
+
+- [[MOC - UI Design]] — ui-design
+- [[000 - Map of Maps]] — Map of Maps
+

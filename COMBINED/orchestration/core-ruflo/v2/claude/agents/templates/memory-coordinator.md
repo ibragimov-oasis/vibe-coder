@@ -189,3 +189,10 @@ Global Memory (Long-term)
 - Sharding by namespace
 - Replication for reliability
 - Load balancing
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

@@ -1,6 +1,10 @@
 ---
 name: image-generation
 description: Use this skill when the user requests to generate, create, imagine, or visualize images including characters, scenes, products, or any visual content. Supports structured prompts and reference images for guided generation.
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/REPO_DOCS
 ---
 
 # Image Generation Skill
@@ -185,3 +189,9 @@ This approach significantly improves generation quality by providing the model w
 - Reference images enhance generation quality significantly
 - Iterative refinement is normal for optimal results
 - For character generation, include the detailed character object plus a consolidated prompt field
+
+## 🔗 Связи
+
+- [[000 - Map of Maps]] — REPO_DOCS
+- [[000 - Map of Maps]] — Map of Maps
+

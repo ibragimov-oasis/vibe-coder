@@ -1,6 +1,10 @@
 ---
 name: "V3 Security Overhaul"
 description: "Complete security architecture overhaul for claude-flow v3. Addresses critical CVEs (CVE-1, CVE-2, CVE-3) and implements secure-by-default patterns. Use for security-first v3 implementation."
+tags:
+  - domain/skills
+  - artifact/config
+  - source/workspace-config
 ---
 
 # V3 Security Overhaul
@@ -80,3 +84,9 @@ const { stdout } = await execFile('git', [userInput], { shell: false });
 - **CVE Resolution**: 100% of critical vulnerabilities fixed
 - **Test Coverage**: >95% security-critical code
 - **Implementation**: All secure patterns documented and tested
+
+## 🔗 Связи
+
+- [[MOC - System]] — workspace-config
+- [[000 - Map of Maps]] — Map of Maps
+

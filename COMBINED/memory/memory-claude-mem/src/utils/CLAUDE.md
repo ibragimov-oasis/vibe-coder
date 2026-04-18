@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/memory
+  - artifact/memory
+  - source/memory
+---
+
 <claude-mem-context>
 # Recent Activity
 
@@ -56,3 +63,9 @@
 |----|------|---|-------|------|
 | #30883 | 6:38 PM | 🔵 | Tag-Stripping DRY Violation Analysis | ~152 |
 </claude-mem-context>
+
+## 🔗 Связи
+
+- [[MOC - Memory]] — memory
+- [[000 - Map of Maps]] — Map of Maps
+

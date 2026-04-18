@@ -55,3 +55,10 @@ If PRD file provided:
 /taskmaster:init my-prd.md
 → Automatically runs parse-prd after init
 ```
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/task-master]] — Task-Master
+- [[000 - Map of Maps]] — Map of Maps
+

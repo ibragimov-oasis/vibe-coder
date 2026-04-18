@@ -231,3 +231,10 @@ User: "Perfect! This is exactly the format I want for all PRs"
 - `.squad/decisions.md` — Team-wide decisions
 - `.squad/agents/*/history.md` — Agent-specific learnings
 - `.squad/routing.md` — Work assignment patterns
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/squad]] — Squad
+- [[000 - Map of Maps]] — Map of Maps
+

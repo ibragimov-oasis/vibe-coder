@@ -419,3 +419,10 @@ npm publish --tag alpha
 *Generated: 2025-10-10*
 *Status: ✅ PRODUCTION READY*
 *Version: v2.6.0-alpha.2*
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

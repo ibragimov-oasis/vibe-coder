@@ -4,6 +4,10 @@ type: docs
 weight: 10
 description: >
   Learn how to invoke your tools directly from the command line using the `invoke` command.
+tags:
+  - domain/mcp
+  - artifact/mcp-server
+  - source/mcp-servers
 ---
 
 The `invoke` command allows you to invoke tools defined in your configuration directly from the CLI. This is useful for:
@@ -73,3 +77,9 @@ toolbox --prebuilt cloudsql-postgres invoke cloudsql-postgres-list-instances
 - **Tool not found:** Ensure the `<tool-name>` matches exactly what is in your YAML file and that the file is correctly loaded via `--config`.
 - **Invalid parameters:** Double-check your JSON syntax. The error message will usually indicate if the JSON parsing failed or if the parameters didn't match the tool's schema.
 - **Auth errors:** The `invoke` command currently does not support flows requiring client-side authorization (like OAuth flow initiation via the CLI). It works best for tools using service-side authentication (e.g., Application Default Credentials).
+
+## 🔗 Связи
+
+- [[MOC - MCP Servers]] — mcp-servers
+- [[000 - Map of Maps]] — Map of Maps
+

@@ -263,3 +263,10 @@ Existing code in `legacy-auth-middleware` uses `authToken` in some places. Do no
 | Security Review | Andrei Volkov | 2026-02-15 |
 | Data Platform | Marcus Webb | 2026-02-17 |
 | Product | Priya Nair | 2026-02-18 |
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/omc]] — OMC
+- [[000 - Map of Maps]] — Map of Maps
+

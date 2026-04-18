@@ -48,3 +48,10 @@ playwright-cli video-stop recordings/checkout-test-run-42.webm
 
 - Recording adds slight overhead to automation
 - Large recordings can consume significant disk space
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/archon]] — Archon
+- [[000 - Map of Maps]] — Map of Maps
+

@@ -52,3 +52,9 @@ fi
 
 - [[root-docs/QUICKSTART]] — быстрый старт со всеми обязательными шагами
 - [[combined/Memory Overview]] — полный обзор систем памяти
+
+## 🔗 Связи
+
+- [[000 - Map of Maps]] — Parent MOC
+- [[000 - Map of Maps]] — Map of Maps
+

@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/memory
+  - artifact/memory
+  - source/memory
+---
+
 # Observation Saving Failure Investigation
 
 **Date**: 2026-01-03
@@ -182,3 +189,9 @@ The two bugs are fixed, but observations still aren't being saved. The problem i
 ---
 
 **Investigation needed**: This report documents what was fixed and what's still broken. The actual root cause of why observations stopped saving needs deeper investigation of the hook execution and message creation pipeline.
+
+## 🔗 Связи
+
+- [[MOC - Memory]] — memory
+- [[000 - Map of Maps]] — Map of Maps
+

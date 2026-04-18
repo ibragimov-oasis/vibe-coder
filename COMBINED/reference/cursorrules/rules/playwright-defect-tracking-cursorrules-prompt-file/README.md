@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/reference
+  - source/reference
+---
+
 # Playwright Defect Tracking Prompt
 
 A specialized .cursorrules prompt for creating comprehensive defect reproduction and tracking tests using Playwright with TypeScript and case ID tagging.
@@ -37,3 +44,9 @@ The .cursorrules prompt guides QA engineers in creating effective defect trackin
 - **Example Test Patterns**: Detailed examples of defect tracking tests with proper ID tagging
 - **Structured Organization**: Guidelines for organizing tests in a logical hierarchy
 - **Best Practices**: Eight essential practices for effective defect tracking and reporting
+
+## 🔗 Связи
+
+- [[MOC - System]] — reference
+- [[000 - Map of Maps]] — Map of Maps
+

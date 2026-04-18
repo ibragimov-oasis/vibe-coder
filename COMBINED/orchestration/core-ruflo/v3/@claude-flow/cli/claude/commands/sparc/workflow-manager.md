@@ -59,3 +59,10 @@ npx claude-flow@alpha sparc run workflow-manager "automate deployment"
 - Progress tracking
 - Result validation
 - Rollback capability
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

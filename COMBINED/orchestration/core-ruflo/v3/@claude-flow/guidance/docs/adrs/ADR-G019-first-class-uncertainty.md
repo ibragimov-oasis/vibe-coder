@@ -64,3 +64,10 @@ Introduce `UncertaintyLedger` and `UncertaintyAggregator`:
 - **Probability distributions per entry**: Too heavy for the common case; confidence intervals are sufficient
 - **Bayesian networks**: Correct but requires a full probabilistic programming runtime
 - **Simple confidence score (single float)**: Loses the interval and evidence trail; insufficient for contested detection
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

@@ -631,3 +631,10 @@ export const neuralTools = [
 1. Parallel agent spawn
 2. Swarm monitoring
 3. Benchmark tools
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

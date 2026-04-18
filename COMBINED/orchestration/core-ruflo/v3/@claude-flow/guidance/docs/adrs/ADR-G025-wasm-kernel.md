@@ -122,3 +122,10 @@ SIMD vs non-SIMD WASM:
 - `wasm-pkg/` — Built WASM package (committed, ready to use)
 - `src/wasm-kernel.ts` — Node host bridge with JS fallback
 - `tests/wasm-kernel.test.ts` — 15 acceptance tests (parity + throughput)
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

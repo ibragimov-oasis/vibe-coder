@@ -342,3 +342,9 @@ if __name__ == "__main__":
 - **Examples**: https://github.com/modal-labs/modal-examples
 - **Pricing**: https://modal.com/pricing
 - **Discord**: https://discord.gg/modal
+
+## 🔗 Связи
+
+- [[000 - Map of Maps]] — REPO_DOCS
+- [[000 - Map of Maps]] — Map of Maps
+

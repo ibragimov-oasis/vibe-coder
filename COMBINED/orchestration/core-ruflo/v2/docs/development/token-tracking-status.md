@@ -108,3 +108,10 @@ To fully enable real token tracking, consider:
 ## Conclusion
 
 Real token tracking infrastructure is implemented and functional. The main constraint is Claude Code's telemetry system outputting to console in interactive mode. The solution currently disables telemetry for interactive sessions to ensure proper Claude operation. For production token tracking, implementing a local OTLP collector would be the ideal solution.
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

@@ -475,3 +475,10 @@ await store.append(createMemoryDeletedEvent(id, ns, key));
 - [Example](./example-usage.ts) - Working code example
 - [Tests](./event-store.test.ts) - Test suite
 - [Summary](./IMPLEMENTATION_SUMMARY.md) - Implementation overview
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

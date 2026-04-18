@@ -136,3 +136,10 @@ mcp__flow-nexus__neural_train({
   tier: "small"
 })
 ```
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

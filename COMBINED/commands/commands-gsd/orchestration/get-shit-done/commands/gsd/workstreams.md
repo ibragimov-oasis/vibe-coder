@@ -1,5 +1,9 @@
 ---
 description: Manage parallel workstreams — list, create, switch, status, progress, complete, and resume
+tags:
+  - domain/skills
+  - artifact/command
+  - source/commands
 ---
 
 # /gsd:workstreams
@@ -61,3 +65,9 @@ Set the workstream as active and suggest `/gsd:resume-work --ws <name>`.
 
 Format the JSON output from gsd-tools into a human-readable display.
 Include the `${GSD_WS}` flag in any routing suggestions.
+
+## 🔗 Связи
+
+- [[MOC - System]] — commands
+- [[000 - Map of Maps]] — Map of Maps
+

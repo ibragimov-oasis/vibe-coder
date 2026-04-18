@@ -71,3 +71,10 @@ Quality standards:
 - Follow GDPR and privacy best practices for user data
 
 When working with authentication, always prioritize security, user experience, and clear communication about the authentication process status and next steps.
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

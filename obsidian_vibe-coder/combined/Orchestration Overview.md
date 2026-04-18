@@ -66,3 +66,9 @@ COMBINED/orchestration/
 - [[MOC - Orchestration]] — родительский хаб
 - [[root-docs/ORCHESTRATION]] — сравнение 5 основных
 - [[root-docs/PIPELINE]] — pipeline порядок
+
+## 🔗 Связи
+
+- [[000 - Map of Maps]] — Parent MOC
+- [[000 - Map of Maps]] — Map of Maps
+

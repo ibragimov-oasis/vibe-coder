@@ -132,3 +132,10 @@ squad subsquads status
 2. **Use branch-per-issue** — direct commits across SubSquads cause merge hell
 3. **Label everything** — unlabeled issues get lost between SubSquads
 4. **Start with 2 SubSquads** — add more once the team finds its rhythm
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/squad]] — Squad
+- [[000 - Map of Maps]] — Map of Maps
+

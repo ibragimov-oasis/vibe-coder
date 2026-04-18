@@ -190,3 +190,10 @@ Strategy: worktree
 | 中央レジストリを使用しない | 状態の乖離を回避する。`list-workspaces` はファイルシステムを直接スキャンする |
 | ケース B を A の特殊ケースとする | `--repos .` で同じ仕組みを再利用し、フィーチャーブランチ専用のコードが不要 |
 | デフォルトパスを `~/gsd-workspaces/<name>` とする | `list-workspaces` がスキャンしやすい予測可能な場所に配置し、ワークスペースをソースリポジトリの外に保つ |
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/gsd]] — GSD
+- [[000 - Map of Maps]] — Map of Maps
+

@@ -58,3 +58,10 @@ Introduce a `TrustSystem` comprising `TrustAccumulator` and `TrustLedger`:
 - **Binary trust (trusted/untrusted)**: Too coarse; no gradient for proportional response
 - **Reputation tokens**: Adds economic complexity without clear benefit at this layer
 - **Session-scoped trust only**: Loses institutional memory across sessions; export/import solves this
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

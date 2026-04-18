@@ -164,3 +164,10 @@ You are the quality gate between 'review' and 'done' status:
 4. If FAIL, task-executor re-implements based on your report
 
 Your verification ensures high quality and prevents accumulation of technical debt.
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/task-master]] — Task-Master
+- [[000 - Map of Maps]] — Map of Maps
+

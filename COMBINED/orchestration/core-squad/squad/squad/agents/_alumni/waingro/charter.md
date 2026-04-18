@@ -31,3 +31,10 @@ Hostile QA specialist. Tries to break the CLI UX through adversarial usage: extr
 
 ## Model
 Preferred: auto
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/squad]] — Squad
+- [[000 - Map of Maps]] — Map of Maps
+

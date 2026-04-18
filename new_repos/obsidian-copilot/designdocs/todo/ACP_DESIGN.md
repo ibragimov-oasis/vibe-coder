@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/new_repos
+---
+
 # ACP Integration Design (Final)
 
 Status: Final draft for implementation
@@ -581,3 +588,8 @@ The following items are intentionally deferred from MVP and should be revisited 
 - ACP mode avoids LangChain context/model/tool/memory pipelines.
 - ACP mode never invokes LangChain autonomous tool planning/execution loops.
 - Agent Skills (md files + scripts) are surfaced as context; agent reads and executes them, not Copilot.
+
+## 🔗 Связи
+
+- [[000 - Map of Maps]] — Map of Maps
+

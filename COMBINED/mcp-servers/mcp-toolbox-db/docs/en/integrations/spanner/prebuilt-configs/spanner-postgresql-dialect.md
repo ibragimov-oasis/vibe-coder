@@ -2,6 +2,10 @@
 title: "Spanner (PostgreSQL dialect)"
 type: docs
 description: "Details of the Spanner (PostgreSQL dialect) prebuilt configuration."
+tags:
+  - domain/mcp
+  - artifact/mcp-server
+  - source/mcp-servers
 ---
 
 ## Spanner (PostgreSQL dialect)
@@ -22,3 +26,9 @@ description: "Details of the Spanner (PostgreSQL dialect) prebuilt configuration
     *   `execute_sql_dql`: Executes a DQL SQL query using the PostgreSQL
         interface for Spanner.
     *   `list_tables`: Lists tables in the database.
+
+## 🔗 Связи
+
+- [[MOC - MCP Servers]] — mcp-servers
+- [[000 - Map of Maps]] — Map of Maps
+

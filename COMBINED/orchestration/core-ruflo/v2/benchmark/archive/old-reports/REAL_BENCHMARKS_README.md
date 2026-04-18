@@ -409,3 +409,10 @@ def run_ci_benchmarks():
 ```
 
 This real benchmark implementation provides comprehensive, accurate performance measurement for Claude Flow operations using actual command execution and real-world metrics.
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

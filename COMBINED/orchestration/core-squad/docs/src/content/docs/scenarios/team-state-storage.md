@@ -334,3 +334,10 @@ Use these prompts with Squad to implement specific strategies:
 - **[Squad for Solo Developers](solo-dev.md)** — Building alone? Here's how Squad becomes your team.
 - **[Multiple Squads](multiple-squads.md)** — Managing more than one AI team.
 - **[Team Portability](team-portability.md)** — Moving your squad to a new repo or machine.
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/squad]] — Squad
+- [[000 - Map of Maps]] — Map of Maps
+

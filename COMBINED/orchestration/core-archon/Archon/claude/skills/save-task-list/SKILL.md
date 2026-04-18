@@ -101,3 +101,10 @@ Save the current session's task list so it can be restored in future sessions.
 
 6. **Show the current task summary** so the user knows what's preserved
    (task subjects, statuses, and any dependencies).
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/archon]] — Archon
+- [[000 - Map of Maps]] — Map of Maps
+

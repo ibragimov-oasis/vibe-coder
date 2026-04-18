@@ -121,3 +121,10 @@ Added a `Map<string, RegExp>` cache to `ShardRetriever` so that each glob patter
 - `src/retriever.ts` -- HashEmbeddingProvider documentation, matchGlob cache
 - ADR-G005 -- Proof envelope model (updated to reflect signing key requirement)
 - ADR-G014 -- Conformance kit (updated to reflect explicit key requirement)
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

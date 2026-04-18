@@ -200,3 +200,10 @@ Resolves main worktree path, reads `team.md` from there (useful when in a featur
 Convert this worktree to use the main team
 ```
 Removes worktree-local `.squad/` and creates symlink to main worktree's `.squad/`.
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/squad]] — Squad
+- [[000 - Map of Maps]] — Map of Maps
+

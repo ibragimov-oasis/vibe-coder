@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/mcp
+  - artifact/mcp-server
+  - source/mcp-servers
+---
+
 # nano-banana-2-mcp
 
 MCP server for Google Gemini image generation, upgraded for **Nano Banana 2** (`gemini-3.1-flash-image-preview`).
@@ -143,3 +150,9 @@ Based on [ConechoAI/Nano-Banana-MCP](https://github.com/ConechoAI/Nano-Banana-MC
 ## License
 
 MIT
+
+## 🔗 Связи
+
+- [[MOC - MCP Servers]] — mcp-servers
+- [[000 - Map of Maps]] — Map of Maps
+

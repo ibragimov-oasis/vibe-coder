@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/ui
+  - artifact/ui-component
+  - source/ui-design
+---
+
 # shadcn MCP Server
 
 The CLI includes an MCP server that lets AI assistants search, browse, view, and install components from registries.
@@ -92,3 +99,9 @@ Registries are set in `components.json`. The `@shadcn` registry is always built-
 - `${VAR}` references are resolved from environment variables.
 
 Community registry index: `https://ui.shadcn.com/r/registries.json`
+
+## 🔗 Связи
+
+- [[MOC - UI Design]] — ui-design
+- [[000 - Map of Maps]] — Map of Maps
+

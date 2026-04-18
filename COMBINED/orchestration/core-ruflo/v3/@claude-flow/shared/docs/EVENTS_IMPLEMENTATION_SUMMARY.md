@@ -393,3 +393,10 @@ The Event Store Persistence implementation for ADR-007 is **complete and product
 **Implementation completed**: 2026-01-04
 **Module location**: `/workspaces/claude-flow/v3/@claude-flow/shared/src/events/`
 **Status**: ✅ Production Ready
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

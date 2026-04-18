@@ -30,3 +30,10 @@ npx claude-flow training model-update --model agent-selector
 # Incremental with validation
 npx claude-flow training model-update --incremental --validate
 ```
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

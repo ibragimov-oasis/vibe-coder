@@ -236,3 +236,10 @@ If blocked or uncertain:
 - Wiki adds variable size; only include specific relevant docs
 - See `skills/tiered-memory/SKILL.md` for full tier reference
 - See `docs/tiered-memory-guide.md` for wiring instructions
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/squad]] — Squad
+- [[000 - Map of Maps]] — Map of Maps
+

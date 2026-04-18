@@ -81,3 +81,10 @@ task-master add-subtask --parent=<id> --task-id=<existing-id>
 - Suggest logical next subtasks
 - Update complexity estimates
 - Recommend subtask order
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/task-master]] — Task-Master
+- [[000 - Map of Maps]] — Map of Maps
+

@@ -30,3 +30,10 @@ npx claude-flow task orchestrate --task "Fix production bug" --priority critical
 # With specific strategy
 npx claude-flow task orchestrate --task "Refactor codebase" --strategy parallel
 ```
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

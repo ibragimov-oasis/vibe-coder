@@ -3,6 +3,10 @@ title: postgres-upgrade-precheck
 type: docs
 weight: 11
 description: Perform a pre-check for a Cloud SQL for PostgreSQL major version upgrade.
+tags:
+  - domain/mcp
+  - artifact/mcp-server
+  - source/mcp-servers
 ---
 
 ## About
@@ -38,3 +42,9 @@ description: "Checks if a Cloud SQL PostgreSQL instance is ready for a major ver
 | project                 |  string  |     true     | The project ID containing the instance.                                         |
 | instance                    |  string  |     true     | The name of the Cloud SQL instance to check.                                    |
 | targetDatabaseVersion   |  string  |     false     | The target PostgreSQL major version for the upgrade (e.g., `POSTGRES_18`).  If not specified, defaults to the PostgreSQL 18. |
+
+## 🔗 Связи
+
+- [[MOC - MCP Servers]] — mcp-servers
+- [[000 - Map of Maps]] — Map of Maps
+

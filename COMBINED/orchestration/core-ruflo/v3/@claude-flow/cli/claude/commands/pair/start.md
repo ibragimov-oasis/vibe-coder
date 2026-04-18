@@ -214,3 +214,10 @@ claude-flow pair --start --ide vscode
 - `pair --status` - Check session status
 - `pair --history` - View past sessions
 - `pair --config` - Configure defaults
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

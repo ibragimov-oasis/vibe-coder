@@ -46,3 +46,9 @@ team-plan → team-prd → team-exec → team-verify → team-fix (loop)
 
 - [[orchestration/core-ruflo]] — RuFlo: 80+ агентов
 - [[orchestration/core-squad]] — Squad: команды в Copilot
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Parent MOC
+- [[000 - Map of Maps]] — Map of Maps
+

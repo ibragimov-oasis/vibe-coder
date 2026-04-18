@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/mcp
+  - artifact/mcp-server
+  - source/mcp-servers
+---
+
 # 会话管理
 
 会话用于管理对话状态、跟踪上下文使用情况，并提取长期记忆。
@@ -917,3 +924,9 @@ session.load()
 - [上下文类型](../concepts/02-context-types.md) - 记忆类型
 - [检索](06-retrieval.md) - 结合会话进行搜索
 - [资源管理](02-resources.md) - 资源管理
+
+## 🔗 Связи
+
+- [[MOC - MCP Servers]] — mcp-servers
+- [[000 - Map of Maps]] — Map of Maps
+

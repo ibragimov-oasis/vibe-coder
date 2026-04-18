@@ -359,3 +359,8 @@ Create seed checkpoint first (see Workflow 4, Step 1).
 - ICLR 2025: https://iclr.cc/virtual/2025/poster/29620
 - PyTorch Forum: https://discuss.pytorch.org/c/distributed/torchtitan/44
 
+## 🔗 Связи
+
+- [[000 - Map of Maps]] — REPO_DOCS
+- [[000 - Map of Maps]] — Map of Maps
+

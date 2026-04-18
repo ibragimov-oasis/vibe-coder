@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/memory
+  - artifact/memory
+  - source/memory
+---
+
 # Claude-Mem for Cursor (No Claude Code Required)
 
 > **Persistent AI Memory for Cursor - Zero Cost to Start**
@@ -291,3 +298,9 @@ Get-NetTCPConnection -LocalPort 37777
 **Antivirus blocking scripts**
 
 Some antivirus software may block PowerShell scripts. Add an exception for the `.cursor\hooks\` directory if needed.
+
+## 🔗 Связи
+
+- [[MOC - Memory]] — memory
+- [[000 - Map of Maps]] — Map of Maps
+

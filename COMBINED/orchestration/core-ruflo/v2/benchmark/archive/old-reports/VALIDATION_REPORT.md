@@ -227,3 +227,10 @@ The Python code reorganization has been successfully completed with all critical
 
 **Validation completed by Agent 3 - Test Validator**  
 **Next step:** Report results to GitHub issue #599
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

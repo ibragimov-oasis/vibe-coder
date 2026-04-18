@@ -40,3 +40,10 @@ Activate this skill when:
 - Handle encrypted PDFs gracefully with appropriate error messages
 - For scanned PDFs, note that OCR may be required
 - Preserve important formatting like tables and lists
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/praisonai]] — PraisonAI
+- [[000 - Map of Maps]] — Map of Maps
+

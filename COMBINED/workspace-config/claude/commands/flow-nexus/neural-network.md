@@ -1,6 +1,10 @@
 ---
 name: flow-nexus-neural
 description: Train and deploy neural networks in distributed sandboxes
+tags:
+  - domain/skills
+  - artifact/config
+  - source/workspace-config
 ---
 
 # Flow Nexus Neural Networks
@@ -132,3 +136,9 @@ mcp__flow-nexus__neural_train({
   tier: "small"
 })
 ```
+
+## 🔗 Связи
+
+- [[MOC - System]] — workspace-config
+- [[000 - Map of Maps]] — Map of Maps
+

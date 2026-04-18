@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/ui
+  - artifact/ui-component
+  - source/ui-design
+---
+
 # Brand Guidelines Template
 
 Use this template to create comprehensive brand guidelines for any project.
@@ -138,3 +145,9 @@ Scripts can extract:
 - `typography.heading`, `typography.body`
 - `voice.traits`, `voice.prohibited`
 - `logo.variants`, `logo.minSize`
+
+## 🔗 Связи
+
+- [[MOC - UI Design]] — ui-design
+- [[000 - Map of Maps]] — Map of Maps
+

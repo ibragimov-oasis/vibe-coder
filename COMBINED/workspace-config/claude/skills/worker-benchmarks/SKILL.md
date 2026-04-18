@@ -2,6 +2,10 @@
 name: worker-benchmarks
 description: Run comprehensive worker system benchmarks and performance analysis
 user-invocable: true
+tags:
+  - domain/skills
+  - artifact/config
+  - source/workspace-config
 ---
 
 # Worker Benchmarks Skill
@@ -127,3 +131,9 @@ const registryResult = await workerBenchmarks.benchmarkRegistryOperations(500);
 2. **Parallel Workers**: Enable with `CLAUDE_FLOW_WORKER_PARALLEL=true`
 3. **Warning Suppression**: Enable with `CLAUDE_FLOW_SUPPRESS_WARNINGS=true`
 4. **SQLite WAL Mode**: Automatic for better concurrent performance
+
+## 🔗 Связи
+
+- [[MOC - System]] — workspace-config
+- [[000 - Map of Maps]] — Map of Maps
+

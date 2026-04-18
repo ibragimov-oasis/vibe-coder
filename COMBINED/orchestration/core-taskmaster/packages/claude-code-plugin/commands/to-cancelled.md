@@ -60,3 +60,10 @@ When cancelling:
 - Tag with cancellation reason
 - Link to replacement if any
 - Maintain audit trail
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/task-master]] — Task-Master
+- [[000 - Map of Maps]] — Map of Maps
+

@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/mcp
+  - artifact/mcp-server
+  - source/mcp-servers
+---
+
 # How to contribute
 
 We'd love to accept your patches and contributions to this project.
@@ -119,3 +126,9 @@ resources.
   include a concise description of the changes, it's impact, along with a
   summary of the solution. If the PR is related to a specific issue, the issue
   number should be mentioned in the PR description (e.g. `Fixes #1`).
+
+## 🔗 Связи
+
+- [[MOC - MCP Servers]] — mcp-servers
+- [[000 - Map of Maps]] — Map of Maps
+

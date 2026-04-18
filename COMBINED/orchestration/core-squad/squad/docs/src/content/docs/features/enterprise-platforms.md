@@ -192,3 +192,10 @@ az repos pr create --source-branch ... --target-branch ...
 gh pr list --state open
 gh pr create --head ... --base ...
 ```
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/squad]] — Squad
+- [[000 - Map of Maps]] — Map of Maps
+

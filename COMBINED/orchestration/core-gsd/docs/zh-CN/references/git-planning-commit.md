@@ -43,3 +43,10 @@ node "$HOME/.claude/get-shit-done/bin/gsd-tools.cjs" commit "" --files .planning
 - config 中 `commit_docs: false`
 - `.planning/` 被 gitignore
 - 无变更可提交（用 `git status --porcelain .planning/` 检查）
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/gsd]] — GSD
+- [[000 - Map of Maps]] — Map of Maps
+

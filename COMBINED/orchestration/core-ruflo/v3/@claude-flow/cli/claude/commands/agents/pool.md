@@ -129,3 +129,10 @@ agent:
 - `npx claude-flow agent spawn` - Manual agent spawning
 - `npx claude-flow agent list` - View active agents
 - `npx claude-flow swarm scale` - Swarm-level scaling
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

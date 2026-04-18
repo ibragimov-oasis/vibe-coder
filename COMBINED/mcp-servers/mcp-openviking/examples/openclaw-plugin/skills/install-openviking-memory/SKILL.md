@@ -1,6 +1,10 @@
 ---
 name: openviking-memory
 description: OpenViking long-term memory plugin guide. Once installed, the plugin automatically remembers important facts from conversations and recalls relevant context before responding.
+tags:
+  - domain/mcp
+  - artifact/mcp-server
+  - source/mcp-servers
 ---
 
 # OpenViking Memory Guide
@@ -117,3 +121,9 @@ OPENCLAW_STATE_DIR=~/.openclaw-openclaw-second openclaw config set ...
 | `port occupied` | Port used by another process | Change port: `openclaw config set plugins.entries.openviking.config.port 1934` |
 | Plugin not loaded | Env file not sourced or slot not configured | Check `openclaw status` output |
 | Inaccurate recall | recallScoreThreshold too low | Increase threshold or adjust recallLimit |
+
+## 🔗 Связи
+
+- [[MOC - MCP Servers]] — mcp-servers
+- [[000 - Map of Maps]] — Map of Maps
+

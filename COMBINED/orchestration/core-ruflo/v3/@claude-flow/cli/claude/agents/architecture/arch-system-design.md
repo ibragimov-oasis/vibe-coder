@@ -159,3 +159,10 @@ You are a System Architecture Designer responsible for high-level technical deci
 - What are the trade-offs of each option?
 - How does this align with business goals?
 - What are the risks and mitigation strategies?
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

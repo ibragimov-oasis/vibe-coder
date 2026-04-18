@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/reference
+  - source/reference
+---
+
 # Cypress Accessibility Testing .cursorrules prompt file
 
 Author: Peter M Souza Jr
@@ -17,3 +24,9 @@ This prompt empowers developers to create comprehensive accessibility tests that
 ## Overview of .cursorrules prompt
 
 The .cursorrules file provides guidance for QA engineers and developers creating accessibility tests with Cypress. It emphasizes using the wick-a11y package to validate compliance with WCAG standards, along with custom tests for keyboard navigation, ARIA attributes, and screen reader compatibility. The prompt takes a TypeScript-aware approach, automatically detecting and adapting to TypeScript projects when present. It promotes best practices like descriptive test naming, grouping tests by page or component, and creating focused test files with 3-5 tests each. Tests created with this prompt validate critical accessibility concerns such as keyboard navigation, proper ARIA attributes, color contrast, and focus management. The prompt includes a comprehensive example demonstrating automated accessibility checks, keyboard navigation testing, ARIA attribute validation, and screen reader compatibility tests.
+
+## 🔗 Связи
+
+- [[MOC - System]] — reference
+- [[000 - Map of Maps]] — Map of Maps
+

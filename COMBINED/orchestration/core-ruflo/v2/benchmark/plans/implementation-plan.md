@@ -190,3 +190,10 @@ benchmark/
 - Backup and recovery procedures
 
 This implementation plan provides a comprehensive roadmap for building a robust, scalable, and maintainable agent swarm benchmarking tool that will help optimize code swarms effectively.
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

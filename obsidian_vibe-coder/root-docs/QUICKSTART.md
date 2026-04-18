@@ -54,3 +54,9 @@ QUICKSTART.md — первый файл для новых пользовател
 ## Исходник
 
 > 📂 `../QUICKSTART.md` — читать оригинал для полного контента
+
+## 🔗 Связи
+
+- [[000 - Map of Maps]] — Parent MOC
+- [[000 - Map of Maps]] — Map of Maps
+

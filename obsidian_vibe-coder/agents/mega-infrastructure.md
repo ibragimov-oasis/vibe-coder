@@ -65,3 +65,9 @@ Enterprise-grade оркестрация:
 ## Исходник
 
 > 📂 `../COMBINED/agents/mega/mega-infrastructure.md`
+
+## 🔗 Связи
+
+- [[MOC - Agents]] — Parent MOC
+- [[000 - Map of Maps]] — Map of Maps
+

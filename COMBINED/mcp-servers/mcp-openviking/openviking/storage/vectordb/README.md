@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/mcp
+  - artifact/mcp-server
+  - source/mcp-servers
+---
+
 # VikingVectorIndex
 
 OpenViking 项目的高性能向量数据库模块，专为 AI Agent 场景设计，提供向量存储、检索和聚合分析能力。
@@ -963,3 +970,9 @@ result = collection.search_by_vector(
 ## 许可证
 
 本项目遵循 OpenViking 项目的许可证协议。
+
+## 🔗 Связи
+
+- [[MOC - MCP Servers]] — mcp-servers
+- [[000 - Map of Maps]] — Map of Maps
+

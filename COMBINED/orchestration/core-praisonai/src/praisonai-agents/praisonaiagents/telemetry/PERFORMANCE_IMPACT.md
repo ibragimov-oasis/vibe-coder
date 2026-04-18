@@ -223,3 +223,10 @@ If you experience performance degradation:
 
 **Last Updated**: July 26, 2025  
 **Version**: PraisonAI Agents v1.0.0+
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/praisonai]] — PraisonAI
+- [[000 - Map of Maps]] — Map of Maps
+

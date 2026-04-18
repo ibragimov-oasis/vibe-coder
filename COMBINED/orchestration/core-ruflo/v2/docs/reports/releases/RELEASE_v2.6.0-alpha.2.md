@@ -663,3 +663,10 @@ KNOWN ISSUES:
 **Confidence Level:** HIGH
 **Production Ready:** YES (after Phase 2 API alignment)
 **Security Level:** MAXIMUM
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

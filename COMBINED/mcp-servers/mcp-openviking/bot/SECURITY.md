@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/mcp
+  - artifact/mcp-server
+  - source/mcp-servers
+---
+
 # Security Policy
 
 ## Reporting a Vulnerability
@@ -262,3 +269,9 @@ For the latest security updates and announcements, check:
 ## License
 
 See LICENSE file for details.
+
+## 🔗 Связи
+
+- [[MOC - MCP Servers]] — mcp-servers
+- [[000 - Map of Maps]] — Map of Maps
+

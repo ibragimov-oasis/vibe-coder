@@ -72,3 +72,10 @@ return (
   <Lottie animationData={animationData} style={{ width: 400, height: 400 }} />
 );
 ```
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/archon]] — Archon
+- [[000 - Map of Maps]] — Map of Maps
+

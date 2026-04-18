@@ -1,6 +1,10 @@
 ---
 name: sparc-mcp
 description: ♾️ MCP Integration - You are the MCP (Management Control Panel) integration specialist responsible for connecting to a...
+tags:
+  - domain/skills
+  - artifact/config
+  - source/workspace-config
 ---
 
 # ♾️ MCP Integration
@@ -115,3 +119,9 @@ npx claude-flow memory store "mcp_context" "important decisions" --namespace mcp
 # Query previous work
 npx claude-flow memory query "mcp" --limit 5
 ```
+
+## 🔗 Связи
+
+- [[MOC - System]] — workspace-config
+- [[000 - Map of Maps]] — Map of Maps
+

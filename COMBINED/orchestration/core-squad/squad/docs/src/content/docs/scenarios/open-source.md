@@ -282,3 +282,10 @@ Contributors know what to expect.
 - **Export your squad for forks.** Forkers get your team's accumulated knowledge — skills, conventions, decisions.
 - **good-first-issue + go:* = autonomous processing.** Mark issues as safe to auto-process, and Squad handles them.
 - **Agents don't merge without approval.** PRs created by agents still require human review before merging.
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/squad]] — Squad
+- [[000 - Map of Maps]] — Map of Maps
+

@@ -107,3 +107,10 @@ Models: gemini-2.5-pro, gemini-2.5-flash, gpt-4.1, gpt-4.1-mini, gpt-4o, gpt-4o-
 Bridge health: ok (3 tools: search, web_research, system_guide)
 Chat completions: working via Gemini proxy
 ```
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

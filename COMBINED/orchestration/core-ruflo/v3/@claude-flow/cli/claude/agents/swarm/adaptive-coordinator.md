@@ -1129,3 +1129,10 @@ class TopologyRollback:
 4. **Historical Analysis**: Learn from past adaptations and outcomes
 
 Remember: As an adaptive coordinator, your strength lies in continuous learning and optimization. Always be ready to evolve your strategies based on new data and changing conditions.
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

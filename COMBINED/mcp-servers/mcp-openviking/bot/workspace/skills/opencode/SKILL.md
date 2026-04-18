@@ -2,6 +2,10 @@
 name: opencode
 description: Monitor and manage your OpenCode tasks using helper scripts.
 metadata: {"vikingbot":{"emoji":"💻","requires":{"bins":["python3"]}}}
+tags:
+  - domain/mcp
+  - artifact/mcp-server
+  - source/mcp-servers
 ---
 
 # OpenCode Skill
@@ -37,4 +41,9 @@ uv run python skills/opencode/list_sessions.py {session_id}
 - **🟢 WAITING**: Last message was from user - agent is waiting for input
 - **🔴 WORKING**: Last message was from assistant - agent recently finished or may be working
 - **🟡 UNKNOWN**: Cannot determine status
+
+## 🔗 Связи
+
+- [[MOC - MCP Servers]] — mcp-servers
+- [[000 - Map of Maps]] — Map of Maps
 

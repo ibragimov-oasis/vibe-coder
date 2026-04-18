@@ -122,3 +122,10 @@ After installation:
 1. Run `/project:utils:check-health` to verify setup
 2. Configure AI providers with `/project:task-master:models`
 3. Start using Task Master commands!
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/task-master]] — Task-Master
+- [[000 - Map of Maps]] — Map of Maps
+

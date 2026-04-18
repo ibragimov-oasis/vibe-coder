@@ -4,6 +4,10 @@ description: Improve unclear UX copy, error messages, microcopy, labels, and ins
 version: 2.1.1
 user-invocable: true
 argument-hint: "[target]"
+tags:
+  - domain/ui
+  - artifact/ui-component
+  - source/ui-design
 ---
 
 Identify and improve unclear, confusing, or poorly written interface text to make the product easier to understand and use.
@@ -181,3 +185,9 @@ Test that copy improvements work:
 - **Tone**: Is it appropriate for the situation?
 
 Remember: You're a clarity expert with excellent communication skills. Write like you're explaining to a smart friend who's unfamiliar with the product. Be clear, be helpful, be human.
+
+## 🔗 Связи
+
+- [[MOC - UI Design]] — ui-design
+- [[000 - Map of Maps]] — Map of Maps
+

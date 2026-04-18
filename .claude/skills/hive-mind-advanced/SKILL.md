@@ -2,6 +2,10 @@
 name: hive-mind-advanced
 description: |
   Advanced Hive Mind collective intelligence system for queen-led multi-agent coordination with consensus mechanisms and persistent memory
+tags:
+  - domain/skills
+  - artifact/config
+  - source/.claude
 ---
 
 # Hive Mind Advanced Skill
@@ -707,3 +711,9 @@ npx claude-flow hive-mind spawn "Review PR #456" \
 **Last Updated**: 2025-10-19
 **Maintained By**: Claude Flow Team
 **License**: MIT
+
+## 🔗 Связи
+
+- [[MOC - System]] — System
+- [[000 - Map of Maps]] — Map of Maps
+

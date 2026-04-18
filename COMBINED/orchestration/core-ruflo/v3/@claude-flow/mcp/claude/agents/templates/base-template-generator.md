@@ -270,3 +270,10 @@ When generating templates, always:
 5. Consider the broader project context, existing patterns, and future extensibility needs
 
 Your templates should serve as solid foundations that accelerate development while maintaining code quality and consistency.
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/mcp
+  - artifact/mcp-server
+  - source/mcp-servers
+---
+
 # COBOL COPY Expansion
 
 The COPY statement is COBOL's include mechanism -- analogous to `#include` in C or `import` in modern languages. GitNexus expands COPY statements **before** regex extraction so that symbols defined inside copybooks (data items, paragraphs, etc.) are visible in the program's extracted graph.
@@ -155,3 +162,9 @@ The copy expander's `stripInlineComment()` helper is quote-aware: pipe character
 
 - `gitnexus/src/core/ingestion/cobol-copy-expander.ts` -- `expandCopies()`, `parseReplacingClause()`, `applyReplacing()`
 - `gitnexus/src/core/ingestion/pipeline.ts` -- `expandCobolCopies()`, copybook map construction, chunk integration
+
+## 🔗 Связи
+
+- [[MOC - MCP Servers]] — mcp-servers
+- [[000 - Map of Maps]] — Map of Maps
+

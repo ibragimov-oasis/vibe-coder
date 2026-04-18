@@ -2,6 +2,10 @@
 title: "Snowflake"
 type: docs
 description: "Details of the Snowflake prebuilt configuration."
+tags:
+  - domain/mcp
+  - artifact/mcp-server
+  - source/mcp-servers
 ---
 
 ## Snowflake
@@ -18,3 +22,9 @@ description: "Details of the Snowflake prebuilt configuration."
 *   **Tools:**
     *   `execute_sql`: Use this tool to execute SQL.
     *   `list_tables`: Lists detailed schema information for user-created tables.
+
+## 🔗 Связи
+
+- [[MOC - MCP Servers]] — mcp-servers
+- [[000 - Map of Maps]] — Map of Maps
+

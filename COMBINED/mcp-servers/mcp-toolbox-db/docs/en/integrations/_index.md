@@ -5,6 +5,10 @@ weight: 4
 description: >
   Integrations connect the MCP Toolbox to your external data sources, unlocking specific sets of tools for your agents.
 no_list: true
+tags:
+  - domain/mcp
+  - artifact/mcp-server
+  - source/mcp-servers
 ---
 
 An **Integration** represents a connection to a database or a HTTP Server.
@@ -16,3 +20,9 @@ You can define the connection the **Source** just once in your `tools.yaml` file
 Select an integration below to view its configuration requirements. Depending on the integration, the documentation will provide the tools.yaml snippets needed to establish a source connection, detail any specific tools available to your agents, or both.
 
 {{< list-db >}}
+
+## 🔗 Связи
+
+- [[MOC - MCP Servers]] — mcp-servers
+- [[000 - Map of Maps]] — Map of Maps
+

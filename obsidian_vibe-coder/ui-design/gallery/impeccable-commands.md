@@ -105,3 +105,9 @@ Impeccable обнаруживает "дешёвые" паттерны:
 - **Taste-skill:** [[ui-design/gallery/ui-patterns]]
 - **Design tokens:** [[ui-design/gallery/design-tokens]]
 - **Map:** [[000 - Map of Maps]]
+
+## 🔗 Связи
+
+- [[MOC - UI Design]] — Parent MOC
+- [[000 - Map of Maps]] — Map of Maps
+

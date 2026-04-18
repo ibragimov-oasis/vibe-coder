@@ -386,3 +386,10 @@ Each step is independently revertable. Ship as one commit but structure for cher
 ---
 
 *Flight out. The coordinator's job: read the team charter, read the routing, route. Simple. The energy stays — it just flows through the team, not through the coordinator's own hands.*
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/squad]] — Squad
+- [[000 - Map of Maps]] — Map of Maps
+

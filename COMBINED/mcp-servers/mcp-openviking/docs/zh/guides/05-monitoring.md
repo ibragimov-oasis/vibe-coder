@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/mcp
+  - artifact/mcp-server
+  - source/mcp-servers
+---
+
 # 监控与健康检查
 
 OpenViking Server 提供了用于监控系统健康状态和组件状态的端点。
@@ -92,3 +99,9 @@ curl -v http://localhost:1933/api/v1/fs/ls?uri=viking:// \
 
 - [部署](03-deployment.md) - 服务器设置
 - [系统 API](../api/07-system.md) - 系统 API 参考
+
+## 🔗 Связи
+
+- [[MOC - MCP Servers]] — mcp-servers
+- [[000 - Map of Maps]] — Map of Maps
+

@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/mcp
+  - artifact/mcp-server
+  - source/mcp-servers
+---
+
 # OpenViking 文件系统挂载模块
 
 这个模块将 OpenViking 的虚拟文件系统挂载到本地文件系统路径，让用户可以像操作普通文件一样操作 OpenViking 上的数据。
@@ -202,3 +209,9 @@ cd /Users/bytedance/workspace/openviking/bot
 - 添加 FUSE 支持实现真正的文件系统挂载
 - 实现更完善的双向同步机制
 - 添加更多测试用例
+
+## 🔗 Связи
+
+- [[MOC - MCP Servers]] — mcp-servers
+- [[000 - Map of Maps]] — Map of Maps
+

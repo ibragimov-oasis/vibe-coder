@@ -45,3 +45,10 @@ Commit & Pull Request Guidelines
 - Outline pull request requirements (descriptions, linked issues, screenshots, etc.).
 
 (Optional) Add other sections if relevant, such as Security & Configuration Tips, Architecture Overview, or Agent-Specific Instructions.
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/vibe-kanban]] — Vibe-Kanban
+- [[000 - Map of Maps]] — Map of Maps
+

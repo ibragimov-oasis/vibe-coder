@@ -1,5 +1,9 @@
 ---
 tagline: "Diagnose and fix UI performance from LCP to bundle size."
+tags:
+  - domain/ui
+  - artifact/ui-component
+  - source/ui-design
 ---
 
 ## When to use it
@@ -54,3 +58,9 @@ Bundle: 340KB → 180KB
 - **Optimizing before measuring.** Without baseline metrics, you cannot tell what helped. Run `/optimize` with specific Web Vitals numbers, not vibes.
 - **Chasing tiny wins.** A 20ms improvement in INP that takes a week is rarely worth it. Optimize has diminishing returns; know when to stop.
 - **Forgetting to re-measure after every change.** The build could have made things worse in a way the skill did not predict. Verify.
+
+## 🔗 Связи
+
+- [[MOC - UI Design]] — ui-design
+- [[000 - Map of Maps]] — Map of Maps
+

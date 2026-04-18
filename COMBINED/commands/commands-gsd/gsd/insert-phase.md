@@ -6,6 +6,10 @@ allowed-tools:
   - Read
   - Write
   - Bash
+tags:
+  - domain/skills
+  - artifact/command
+  - source/commands
 ---
 
 <objective>
@@ -30,3 +34,9 @@ Roadmap and state are resolved in-workflow via `init phase-op` and targeted tool
 Execute the insert-phase workflow from @~/.claude/get-shit-done/workflows/insert-phase.md end-to-end.
 Preserve all validation gates (argument parsing, phase verification, decimal calculation, roadmap updates).
 </process>
+
+## 🔗 Связи
+
+- [[MOC - System]] — commands
+- [[000 - Map of Maps]] — Map of Maps
+

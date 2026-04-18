@@ -441,3 +441,10 @@ describe('V2 Compatibility', () => {
 | **v3.1.0** | Deprecation warnings added |
 | **v3.2.0** | Compatibility mode opt-in |
 | **v4.0.0** | V2 compatibility removed |
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

@@ -136,3 +136,10 @@ router.get('/health', (req, res) => {
 - `redis-cli PING` from within the pod returns PONG immediately
 - The old pods shut down and new pods start during rolling restart
 - ~200 concurrent users during the affected window
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/omc]] — OMC
+- [[000 - Map of Maps]] — Map of Maps
+

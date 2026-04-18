@@ -4,6 +4,10 @@ type: docs
 weight: 1
 description: >
   A "bigquery-conversational-analytics" tool allows conversational interaction with a BigQuery source.
+tags:
+  - domain/mcp
+  - artifact/mcp-server
+  - source/mcp-servers
 ---
 
 ## About
@@ -68,3 +72,9 @@ description: |
 | type        |  string  |     true     | Must be "bigquery-conversational-analytics".       |
 | source      |  string  |     true     | Name of the source for chat.                       |
 | description |  string  |     true     | Description of the tool that is passed to the LLM. |
+
+## 🔗 Связи
+
+- [[MOC - MCP Servers]] — mcp-servers
+- [[000 - Map of Maps]] — Map of Maps
+

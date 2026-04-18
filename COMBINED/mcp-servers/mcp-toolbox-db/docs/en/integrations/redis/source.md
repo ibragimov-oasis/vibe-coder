@@ -6,6 +6,10 @@ weight: 1
 description: >
   Redis is a in-memory data structure store.
 no_list: true
+tags:
+  - domain/mcp
+  - artifact/mcp-server
+  - source/mcp-servers
 ---
 
 ## About
@@ -106,3 +110,9 @@ clusterEnabled: true
 | useGCPIAM              |   bool   |    false     | Set it to `true` if you are using GCP's IAM authentication. Defaults to `false`.                                                              |
 
 [auth]: https://cloud.google.com/memorystore/docs/redis/about-redis-auth
+
+## 🔗 Связи
+
+- [[MOC - MCP Servers]] — mcp-servers
+- [[000 - Map of Maps]] — Map of Maps
+

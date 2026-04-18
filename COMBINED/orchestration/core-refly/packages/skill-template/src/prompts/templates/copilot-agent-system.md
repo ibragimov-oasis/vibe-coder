@@ -375,3 +375,10 @@ Use this data to understand the current canvas and make informed decisions about
 ---
 
 Now begin!
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/refly]] — Refly
+- [[000 - Map of Maps]] — Map of Maps
+

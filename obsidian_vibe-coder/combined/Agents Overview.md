@@ -74,3 +74,9 @@ Architecture, Debugging, Coding & Execution, Research, Design, Security, Code Re
 - [[MOC - Agents]] — родительский хаб
 - [[root-docs/AGENTS]] — полный каталог
 - [[000 - Map of Maps]] — главная карта
+
+## 🔗 Связи
+
+- [[000 - Map of Maps]] — Parent MOC
+- [[000 - Map of Maps]] — Map of Maps
+

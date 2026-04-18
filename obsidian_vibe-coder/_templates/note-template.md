@@ -35,3 +35,9 @@ type: template
 
 - [[{{related_1}}]]
 - [[{{related_2}}]]
+
+## 🔗 Связи
+
+- [[MOC - System]] — Parent MOC
+- [[000 - Map of Maps]] — Map of Maps
+

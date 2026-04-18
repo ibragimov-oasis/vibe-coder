@@ -43,3 +43,10 @@ For production, verify:
 - `MONGODB_URL` is a valid connection string
 - Your IP is whitelisted (for MongoDB Atlas)
 - The database user has read/write permissions
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

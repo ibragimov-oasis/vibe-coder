@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/combined-root
+---
+
 # ОТЧЕТ: Полная Структура Всех 31 Репозиториев
 
 > **Дата**: 2 апреля 2026
@@ -171,3 +178,8 @@ antigravity-awesome-skills/
 ---
 
 **Документация готова**: `COMBINED/SUPER-INDEX.md` - полная карта всех 31 репозиториев. Прочитай ее польностью и используй ее.
+
+## 🔗 Связи
+
+- [[000 - Map of Maps]] — Map of Maps
+

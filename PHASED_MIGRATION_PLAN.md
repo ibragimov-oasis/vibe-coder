@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/root
+---
+
 # ПЛАН ПОЭТАПНОЙ МИГРАЦИИ VIBE-CODER ARSENAL
 # ULTRACAR Migration - Phased Implementation Plan
 
@@ -1227,3 +1234,8 @@ COMBINED/
 **ГОТОВО К УТВЕРЖДЕНИЮ И НАЧАЛУ РАБОТЫ**
 
 Как только этот план утверждён, можем начинать с **ЭТАП 1, Фаза 1.1**.
+
+## 🔗 Связи
+
+- [[000 - Map of Maps]] — Map of Maps
+

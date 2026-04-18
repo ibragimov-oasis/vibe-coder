@@ -157,3 +157,10 @@ copilot --resume SESSION_ID
 - ❌ Skipping the automated-session filter — high-volume automated sessions will flood results
 - ❌ Assuming FTS5 is semantic search — it's keyword-based; always expand queries with synonyms
 - ❌ Ignoring checkpoint data — checkpoints show exactly where the session stopped
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/squad]] — Squad
+- [[000 - Map of Maps]] — Map of Maps
+

@@ -81,3 +81,10 @@ npx claude-flow memory store "tutorial_context" "important decisions" --namespac
 # Query previous work
 npx claude-flow memory query "tutorial" --limit 5
 ```
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

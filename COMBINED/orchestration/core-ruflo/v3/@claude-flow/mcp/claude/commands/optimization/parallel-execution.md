@@ -55,3 +55,10 @@ Parameters: {"interval": 1000, "swarmId": "current"}
 ```
 
 Watch real-time parallel execution progress!
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

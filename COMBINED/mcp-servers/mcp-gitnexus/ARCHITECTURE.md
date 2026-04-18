@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/mcp
+  - artifact/mcp-server
+  - source/mcp-servers
+---
+
 # Architecture — GitNexus
 
 This repository is a **monorepo** with two main products: the **CLI / MCP package** (`gitnexus/`) and the **browser UI** (`gitnexus-web/`). Supporting folders ship editor integrations and plugins without changing the core graph engine.
@@ -64,3 +71,9 @@ This repository is a **monorepo** with two main products: the **CLI / MCP packag
 - [GUARDRAILS.md](GUARDRAILS.md) — safety boundaries for humans and agents.  
 - [TESTING.md](TESTING.md) — how to run tests.  
 - `AGENTS.md` / `CLAUDE.md` — agent workflows and tool usage expectations for **this** repo when indexed by GitNexus.
+
+## 🔗 Связи
+
+- [[MOC - MCP Servers]] — mcp-servers
+- [[000 - Map of Maps]] — Map of Maps
+

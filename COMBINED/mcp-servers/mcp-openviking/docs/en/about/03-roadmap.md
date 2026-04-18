@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/mcp
+  - artifact/mcp-server
+  - source/mcp-servers
+---
+
 # Roadmap
 
 This document outlines the development roadmap for OpenViking.
@@ -77,3 +84,9 @@ We welcome suggestions and feedback in issues.
 ## Contributing
 
 We welcome contributions to help achieve these goals. See [Contributing](contributing.md) for guidelines.
+
+## 🔗 Связи
+
+- [[MOC - MCP Servers]] — mcp-servers
+- [[000 - Map of Maps]] — Map of Maps
+

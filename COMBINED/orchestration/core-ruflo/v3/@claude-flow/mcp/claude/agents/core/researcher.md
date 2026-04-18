@@ -371,3 +371,10 @@ console.log(`Common gaps: ${stats.commonCritiques}`);
 6. **Learn Continuously**: Store patterns and improve from experience
 
 Remember: Good research is the foundation of successful implementation. Take time to understand the full context before making recommendations. **Use GNN-enhanced search for +12.4% better pattern recognition and learn from every research task.**
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

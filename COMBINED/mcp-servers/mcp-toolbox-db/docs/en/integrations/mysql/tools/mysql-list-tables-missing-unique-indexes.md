@@ -4,6 +4,10 @@ type: docs
 weight: 1
 description: >
   A "mysql-list-tables-missing-unique-indexes" tool lists tables that do not have primary or unique indices in a MySQL instance.
+tags:
+  - domain/mcp
+  - artifact/mcp-server
+  - source/mcp-servers
 ---
 
 ## About
@@ -49,3 +53,9 @@ The response is a json array with the following fields:
 | type        |  string  |     true     | Must be "mysql-list-active-queries".               |
 | source      |  string  |     true     | Name of the source the SQL should execute on.      |
 | description |  string  |     true     | Description of the tool that is passed to the LLM. |
+
+## 🔗 Связи
+
+- [[MOC - MCP Servers]] — mcp-servers
+- [[000 - Map of Maps]] — Map of Maps
+

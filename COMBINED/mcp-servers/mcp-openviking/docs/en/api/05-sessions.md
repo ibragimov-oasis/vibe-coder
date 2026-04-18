@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/mcp
+  - artifact/mcp-server
+  - source/mcp-servers
+---
+
 # Sessions
 
 Sessions manage conversation state, track context usage, and extract long-term memories.
@@ -917,3 +924,9 @@ session.load()
 - [Context Types](../concepts/02-context-types.md) - Memory types
 - [Retrieval](06-retrieval.md) - Search with session
 - [Resources](02-resources.md) - Resource management
+
+## 🔗 Связи
+
+- [[MOC - MCP Servers]] — mcp-servers
+- [[000 - Map of Maps]] — Map of Maps
+

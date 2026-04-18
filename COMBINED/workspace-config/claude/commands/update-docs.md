@@ -1,5 +1,9 @@
 ---
 description: Update all the documentation related files.
+tags:
+  - domain/skills
+  - artifact/config
+  - source/workspace-config
 ---
 
 After completing any skill creation, agent creation, or command creation in this repository, run the full post-creation sync pipeline below. Execute every step — never skip a task. If something is unclear or a step fails, ask the user for guidance before continuing.
@@ -226,3 +230,9 @@ Present a summary to the user:
 | Consistency check | pass/fail |
 
 Ask the user if they want to commit and push the changes.
+
+## 🔗 Связи
+
+- [[MOC - System]] — workspace-config
+- [[000 - Map of Maps]] — Map of Maps
+

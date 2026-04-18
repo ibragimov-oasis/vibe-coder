@@ -58,3 +58,10 @@ npx claude-flow@alpha sparc run architect "design microservices architecture"
 - Domain-driven design
 - Hexagonal architecture
 - CQRS and Event Sourcing
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

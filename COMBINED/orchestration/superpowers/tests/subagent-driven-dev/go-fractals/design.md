@@ -86,3 +86,10 @@ internal/
 5. `--char` customizes output character
 6. Invalid inputs produce clear error messages
 7. All tests pass
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/superpowers]] — Superpowers
+- [[000 - Map of Maps]] — Map of Maps
+

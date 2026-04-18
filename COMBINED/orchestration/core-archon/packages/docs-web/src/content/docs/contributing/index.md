@@ -20,3 +20,9 @@ Guides for developers contributing to the Archon codebase.
 - **[Releasing](/contributing/releasing/)** — Version management and release process
 - **[DX Quirks](/contributing/dx-quirks/)** — Known development experience issues and workarounds
 
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/archon]] — Archon
+- [[000 - Map of Maps]] — Map of Maps
+

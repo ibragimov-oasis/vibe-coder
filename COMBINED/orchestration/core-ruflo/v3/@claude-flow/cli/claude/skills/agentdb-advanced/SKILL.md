@@ -552,3 +552,10 @@ const result = await adapter.retrieveWithReasoning(queryEmbedding, {
 **Category**: Advanced / Distributed Systems
 **Difficulty**: Advanced
 **Estimated Time**: 45-60 minutes
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

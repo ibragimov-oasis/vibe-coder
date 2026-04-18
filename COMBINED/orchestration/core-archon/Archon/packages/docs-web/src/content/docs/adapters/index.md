@@ -52,3 +52,10 @@ All adapters implement the `IPlatformAdapter` interface. They handle:
 - **Discord** works well for community or team servers.
 
 You can run multiple adapters simultaneously. Any adapter with the required environment variables set will start automatically when you launch the server.
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/archon]] — Archon
+- [[000 - Map of Maps]] — Map of Maps
+

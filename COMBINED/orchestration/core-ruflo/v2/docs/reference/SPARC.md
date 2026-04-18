@@ -722,3 +722,10 @@ Key advantages:
 - **Quality Assurance**: Built-in best practices and validation
 
 Start with `npx claude-flow@alpha sparc modes` to explore available modes, and use `npx claude-flow@alpha sparc run <mode> "<task>"` to begin systematic development with SPARC.
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

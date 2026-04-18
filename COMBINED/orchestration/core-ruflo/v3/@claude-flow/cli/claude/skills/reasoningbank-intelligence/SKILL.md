@@ -203,3 +203,10 @@ console.log(`
 - ReasoningBank Guide: agentic-flow/src/reasoningbank/README.md
 - AgentDB Integration: packages/agentdb/docs/reasoningbank.md
 - Pattern Learning: docs/reasoning/patterns.md
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

@@ -237,3 +237,10 @@ To customize hooks after initialization:
 2. Modify hook commands or add new matchers
 3. Adjust timeouts as needed
 4. Add custom hooks for project-specific needs
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

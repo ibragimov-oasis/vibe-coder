@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/REPO_DOCS
+---
+
 # Agents Architecture
 
 ## Overview
@@ -103,3 +110,9 @@ When adding new agent features:
 ## License
 
 This agent architecture is part of the DeerFlow project.
+
+## 🔗 Связи
+
+- [[000 - Map of Maps]] — REPO_DOCS
+- [[000 - Map of Maps]] — Map of Maps
+

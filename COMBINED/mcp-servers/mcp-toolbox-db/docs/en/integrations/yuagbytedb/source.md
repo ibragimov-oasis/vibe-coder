@@ -6,6 +6,10 @@ weight: 1
 description: >
   YugabyteDB is a high-performance, distributed SQL database.
 no_list: true
+tags:
+  - domain/mcp
+  - artifact/mcp-server
+  - source/mcp-servers
 ---
 
 ## About
@@ -52,3 +56,9 @@ topologyKeys: cloud.region.zone1:1,cloud.region.zone2:2
 | ybServersRefreshInterval     | integer  |    false     | The interval (in seconds) to refresh the servers list; ignored if loadBalance is false. The default value of ybServersRefreshInterval is 300.                         |
 | fallbackToTopologyKeysOnly   | boolean  |    false     | If set to true and topologyKeys are specified, only connect to nodes specified in topologyKeys. By defualt, this is set to false.                                     |
 | failedHostReconnectDelaySecs | integer  |    false     | Time (in seconds) to wait before trying to connect to failed nodes. The default value of is 5.                                                                        |
+
+## 🔗 Связи
+
+- [[MOC - MCP Servers]] — mcp-servers
+- [[000 - Map of Maps]] — Map of Maps
+

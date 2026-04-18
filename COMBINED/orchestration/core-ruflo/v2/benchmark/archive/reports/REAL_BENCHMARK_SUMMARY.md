@@ -209,3 +209,10 @@ python -m swarm_benchmark real "Build complete app" \
 ## Conclusion
 
 The Real Benchmark Engine provides a robust, production-ready system for systematically evaluating `claude-flow` performance. Its comprehensive monitoring, parallel execution capabilities, and detailed quality assessments make it an essential tool for understanding and optimizing claude-flow deployments.
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

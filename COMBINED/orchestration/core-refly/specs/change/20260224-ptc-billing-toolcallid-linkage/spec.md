@@ -46,3 +46,10 @@ Propagate `toolCallId` through the entire tool execution pipeline — from the L
 ## Notes
 
 Linear issue: REF-1454
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/refly]] — Refly
+- [[000 - Map of Maps]] — Map of Maps
+

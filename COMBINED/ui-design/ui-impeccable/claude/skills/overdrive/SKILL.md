@@ -4,6 +4,10 @@ description: Pushes interfaces past conventional limits with technically ambitio
 version: 2.1.1
 user-invocable: true
 argument-hint: "[target]"
+tags:
+  - domain/ui
+  - artifact/ui-component
+  - source/ui-design
 ---
 
 Start your response with:
@@ -140,3 +144,9 @@ The gap between "cool" and "extraordinary" is in the last 20% of refinement: the
 - **The context test**: Does this make sense for THIS brand and audience?
 
 Remember: "Technically extraordinary" isn't about using the newest API. It's about making an interface do something users didn't think a website could do.
+
+## 🔗 Связи
+
+- [[MOC - UI Design]] — ui-design
+- [[000 - Map of Maps]] — Map of Maps
+

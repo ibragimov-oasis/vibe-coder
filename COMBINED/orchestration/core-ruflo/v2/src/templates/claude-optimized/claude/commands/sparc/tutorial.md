@@ -199,3 +199,10 @@ npx claude-flow sparc run tutorial "build hands-on SPARC workshop with concurren
 2. **Version Control**: Track tutorial versions with parallel diff generation
 3. **Quality Assurance**: Validate all examples and exercises concurrently
 4. **Feedback Integration**: Process user feedback and update tutorials in batch
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

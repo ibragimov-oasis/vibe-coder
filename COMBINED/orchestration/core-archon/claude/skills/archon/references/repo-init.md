@@ -94,3 +94,10 @@ archon workflow list
 
 # Should show bundled workflows + any custom ones you've added
 ```
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/archon]] — Archon
+- [[000 - Map of Maps]] — Map of Maps
+

@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/memory
+  - artifact/memory
+  - source/memory
+---
+
 # Issue #511: GeminiAgent Missing gemini-3-flash Model
 
 ## Summary
@@ -68,3 +75,9 @@ const validModels: GeminiModel[] = [
 - 3 lines to add in 1 file
 - No test changes required
 - Fully backward compatible
+
+## 🔗 Связи
+
+- [[MOC - Memory]] — memory
+- [[000 - Map of Maps]] — Map of Maps
+

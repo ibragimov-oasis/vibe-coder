@@ -231,3 +231,10 @@ def log_metrics(request_id):
     metrics = tracker.get_metrics(request_id)
     logging.info(f"Latency metrics: {json.dumps(metrics)}")
 ```
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/praisonai]] — PraisonAI
+- [[000 - Map of Maps]] — Map of Maps
+

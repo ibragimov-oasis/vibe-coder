@@ -126,3 +126,10 @@ mcp__claude-flow__swarm_init({
 ```
 
 ## 🔄 Agent Coordination Protocol
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

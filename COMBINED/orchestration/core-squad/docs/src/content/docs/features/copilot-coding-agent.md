@@ -226,3 +226,10 @@ review copilot's PR on #56
 ```
 
 Spawns the appropriate squad member to review @copilot's pull request.
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/squad]] — Squad
+- [[000 - Map of Maps]] — Map of Maps
+

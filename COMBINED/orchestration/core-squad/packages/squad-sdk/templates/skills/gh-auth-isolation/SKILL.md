@@ -185,3 +185,10 @@ git push https://personaluser:$token@github.com/personaluser/repo.git main
 - ❌ **Ignoring token cleanup** after inline HTTPS pushes. Always reset the remote URL to avoid persisting tokens.
 - ❌ **Using `gh auth switch`** in multi-agent sessions. One agent switching affects all others sharing the shell.
 - ❌ **Mixing EMU and personal operations** in the same git clone. Use separate clones or explicit remote URLs per operation.
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/squad]] — Squad
+- [[000 - Map of Maps]] — Map of Maps
+

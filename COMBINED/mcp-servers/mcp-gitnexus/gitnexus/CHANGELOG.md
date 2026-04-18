@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/mcp
+  - artifact/mcp-server
+  - source/mcp-servers
+---
+
 # Changelog
 
 All notable changes to GitNexus will be documented in this file.
@@ -200,3 +207,9 @@ All notable changes to GitNexus will be documented in this file.
 - Template string incorrectly included in AST pruning set (contains interpolated expressions)
 
 ## [1.4.0] - Previous release
+
+## 🔗 Связи
+
+- [[MOC - MCP Servers]] — mcp-servers
+- [[000 - Map of Maps]] — Map of Maps
+

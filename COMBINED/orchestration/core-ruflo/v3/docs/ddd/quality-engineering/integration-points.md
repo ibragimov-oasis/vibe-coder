@@ -915,3 +915,10 @@ Memory Namespace Hierarchy
 - [ADR-006: Unified Memory Service](../../implementation/adrs/ADR-006-UNIFIED-MEMORY.md)
 - [ADR-013: Core Security Module](../../implementation/adrs/ADR-013-core-security-module.md)
 - [ADR-026: Agent Booster Model Routing](../../implementation/adrs/ADR-026-agent-booster-model-routing.md)
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

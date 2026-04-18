@@ -527,3 +527,10 @@ Claude Max users benefit significantly because Opus consumes ~5x more quota than
 **Priority:** High
 **Completed:** 2026-01-14
 **Dependencies:** Built-in (no external dependencies required)
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

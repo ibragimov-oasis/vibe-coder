@@ -152,3 +152,10 @@ None. All changes are additive. Repos without ADO remotes work exactly as before
 - **Teams webhook adapter** — full CommunicationAdapter implementation (#261)
 - **Pre-existing test stabilization** — fix 14 flaky/environment-dependent tests (#273)
 - **Persistent Ralph** — `squad watch` heartbeat improvements (#236)
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/squad]] — Squad
+- [[000 - Map of Maps]] — Map of Maps
+

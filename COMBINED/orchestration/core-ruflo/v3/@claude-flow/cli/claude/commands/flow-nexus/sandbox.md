@@ -85,3 +85,10 @@ mcp__flow-nexus__sandbox_create({
   install_packages: ["numpy", "pandas", "scikit-learn"]
 })
 ```
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

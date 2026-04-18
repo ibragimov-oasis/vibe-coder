@@ -35,3 +35,10 @@ Fix any issues that arise until all checks pass:
 - Linting: `bun run lint` (zero warnings enforced)
 - Formatting: `bun run format:check`
 - Tests: `bun run test`
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/archon]] — Archon
+- [[000 - Map of Maps]] — Map of Maps
+

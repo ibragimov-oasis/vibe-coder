@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/memory
+  - artifact/memory
+  - source/memory
+---
+
 # Chat App - Test Application
 
 This is a basic Next.js chat application created for testing the Supermemory packages and tools. It demonstrates how to integrate Supermemory with a simple chat interface.
@@ -75,3 +82,9 @@ app/
 ├── layout.tsx           # Root layout with fonts and metadata
 └── page.tsx            # Main chat interface component
 ```
+
+## 🔗 Связи
+
+- [[MOC - Memory]] — memory
+- [[000 - Map of Maps]] — Map of Maps
+

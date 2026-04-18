@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/command
+  - source/commands
+---
+
 # workflow-execute
 
 Execute saved workflows.
@@ -23,3 +30,9 @@ npx claude-flow workflow execute --name "test-suite" --params '{"env": "staging"
 # Dry run
 npx claude-flow workflow execute --name "deploy-api" --dry-run
 ```
+
+## 🔗 Связи
+
+- [[MOC - System]] — commands
+- [[000 - Map of Maps]] — Map of Maps
+

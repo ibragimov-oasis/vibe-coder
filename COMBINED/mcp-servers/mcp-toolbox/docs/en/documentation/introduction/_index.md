@@ -4,6 +4,10 @@ type: docs
 weight: 1
 description: >
   An introduction to MCP Toolbox for Databases.
+tags:
+  - domain/mcp
+  - artifact/mcp-server
+  - source/mcp-servers
 ---
 
 MCP Toolbox for Databases is an open source Model Context Protocol (MCP) server that connects your AI agents, IDEs, and applications directly to your enterprise databases.
@@ -742,3 +746,9 @@ For more detailed instructions on using the Toolbox Go SDK, see the
 [README](https://github.com/googleapis/mcp-toolbox-sdk-go/blob/main/core/README.md).
 
 For more details, see the [Agent Skills guide](https://mcp-toolbox.dev/documentation/configuration/skills/).
+
+## 🔗 Связи
+
+- [[MOC - MCP Servers]] — mcp-servers
+- [[000 - Map of Maps]] — Map of Maps
+

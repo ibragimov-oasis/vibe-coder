@@ -1116,3 +1116,10 @@ mcp__claude-flow__memory_usage { action: "store", key: "...", value: "..." }
 ---
 
 Remember: **SPARC = Systematic, Parallel, Agile, Refined, Complete**
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

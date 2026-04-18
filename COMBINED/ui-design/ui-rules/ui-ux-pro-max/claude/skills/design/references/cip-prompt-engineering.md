@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/ui
+  - artifact/ui-component
+  - source/ui-design
+---
+
 # CIP Mockup Prompt Engineering
 
 ## Base Prompt Structure
@@ -82,3 +89,9 @@ photorealistic, professional photography, high quality, 8k resolution, detailed,
 ```
 blurry, low quality, distorted text, misspelled, amateur, clipart, cartoon, illustration, watermark
 ```
+
+## 🔗 Связи
+
+- [[MOC - UI Design]] — ui-design
+- [[000 - Map of Maps]] — Map of Maps
+
