@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/command
+  - source/claude-commands
+---
+
 # Initialize Coordination Framework
 
 ## 🎯 Key Principle
@@ -42,3 +49,9 @@ Remember: This does NOT create actual coding agents. It creates a coordination p
 - Main documentation: /claude.md
 - Other commands in this category
 - Workflow examples in /workflows/
+
+## 🔗 Связи
+
+- [[MOC - System]] — System commands
+- [[MOC - Skills]] — Skills library
+

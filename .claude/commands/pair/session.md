@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/command
+  - source/claude-commands
+---
+
 # Pair Programming Session Management
 
 Complete guide to managing pair programming sessions.
@@ -405,3 +412,9 @@ Deep analysis of session patterns.
 - `pair --config` - Configure settings
 - `pair --templates` - Manage templates
 - `pair --analytics` - View analytics
+
+## 🔗 Связи
+
+- [[MOC - System]] — System commands
+- [[MOC - Skills]] — Skills library
+

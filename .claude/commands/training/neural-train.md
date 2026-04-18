@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/command
+  - source/claude-commands
+---
+
 # neural-train
 
 Train neural patterns from operations.
@@ -23,3 +30,9 @@ npx claude-flow training neural-train --model task-predictor
 # Custom epochs
 npx claude-flow training neural-train --epochs 100
 ```
+
+## 🔗 Связи
+
+- [[MOC - System]] — System commands
+- [[MOC - Skills]] — Skills library
+

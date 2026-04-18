@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/command
+  - source/claude-commands
+---
+
 # Code Review Swarm - Automated Code Review with AI Agents
 
 ## Overview
@@ -512,3 +519,9 @@ npx ruv-swarm github review-report \
 ```
 
 See also: [swarm-pr.md](./swarm-pr.md), [workflow-automation.md](./workflow-automation.md)
+
+## 🔗 Связи
+
+- [[MOC - System]] — System commands
+- [[MOC - Skills]] — Skills library
+

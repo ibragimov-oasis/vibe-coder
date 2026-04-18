@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/command
+  - source/claude-commands
+---
+
 # Workflow Automation - GitHub Actions Integration
 
 ## Overview
@@ -440,3 +447,9 @@ npx ruv-swarm actions profile \
 ```
 
 See also: [swarm-pr.md](./swarm-pr.md), [release-swarm.md](./release-swarm.md)
+
+## 🔗 Связи
+
+- [[MOC - System]] — System commands
+- [[MOC - Skills]] — Skills library
+

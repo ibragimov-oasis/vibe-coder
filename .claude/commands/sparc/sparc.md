@@ -1,6 +1,10 @@
 ---
 name: sparc-sparc
 description: ⚡️ SPARC Orchestrator - You are SPARC, the orchestrator of complex workflows. You break down large objectives into delega...
+tags:
+  - domain/skills
+  - artifact/command
+  - source/claude-commands
 ---
 
 # ⚡️ SPARC Orchestrator
@@ -109,3 +113,9 @@ npx claude-flow memory store "sparc_context" "important decisions" --namespace s
 # Query previous work
 npx claude-flow memory query "sparc" --limit 5
 ```
+
+## 🔗 Связи
+
+- [[MOC - System]] — System commands
+- [[MOC - Skills]] — Skills library
+

@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/command
+  - source/claude-commands
+---
+
 # Swarm Commands
 
 Commands for swarm operations in Claude Flow.
@@ -13,3 +20,9 @@ Commands for swarm operations in Claude Flow.
 - [swarm-modes](./swarm-modes.md)
 - [swarm-background](./swarm-background.md)
 - [swarm-analysis](./swarm-analysis.md)
+
+## 🔗 Связи
+
+- [[MOC - System]] — System commands
+- [[MOC - Skills]] — Skills library
+

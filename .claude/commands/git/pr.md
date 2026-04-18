@@ -1,6 +1,10 @@
 ---
 description: Create a pull request from the current branch.
 argument-hint: [target-branch]
+tags:
+  - domain/skills
+  - artifact/command
+  - source/claude-commands
 ---
 
 ## Variables
@@ -23,3 +27,9 @@ SOURCE_BRANCH: current branch (`git branch --show-current`)
    If no template exists, provide a summary referencing Context, Testing, and Security results.
 4. Add labels (`gh pr edit --add-label "status: in-review"`).
 5. Share the PR link with reviewers and ensure at least one human approval is obtained.
+
+## 🔗 Связи
+
+- [[MOC - System]] — System commands
+- [[MOC - Skills]] — Skills library
+

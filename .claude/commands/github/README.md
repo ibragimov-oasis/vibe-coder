@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/command
+  - source/claude-commands
+---
+
 # Github Commands
 
 Commands for github operations in Claude Flow.
@@ -9,3 +16,9 @@ Commands for github operations in Claude Flow.
 - [pr-enhance](./pr-enhance.md)
 - [issue-triage](./issue-triage.md)
 - [code-review](./code-review.md)
+
+## 🔗 Связи
+
+- [[MOC - System]] — System commands
+- [[MOC - Skills]] — Skills library
+

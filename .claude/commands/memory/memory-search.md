@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/command
+  - source/claude-commands
+---
+
 # memory-search
 
 Search through stored memory.
@@ -23,3 +30,9 @@ npx claude-flow memory search --pattern "api-.*"
 # Limited results
 npx claude-flow memory search --query "config" --limit 10
 ```
+
+## 🔗 Связи
+
+- [[MOC - System]] — System commands
+- [[MOC - Skills]] — Skills library
+

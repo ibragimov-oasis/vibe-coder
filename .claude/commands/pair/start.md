@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/command
+  - source/claude-commands
+---
+
 # pair --start
 
 Start a new pair programming session with AI assistance.
@@ -207,3 +214,9 @@ claude-flow pair --start --ide vscode
 - `pair --status` - Check session status
 - `pair --history` - View past sessions
 - `pair --config` - Configure defaults
+
+## 🔗 Связи
+
+- [[MOC - System]] — System commands
+- [[MOC - Skills]] — Skills library
+

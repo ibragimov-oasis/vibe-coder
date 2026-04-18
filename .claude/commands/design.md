@@ -1,5 +1,9 @@
 ---
 description: Activate the design agent with full Galaxy + shadcn + UI/UX Pro Max hierarchy. Use for any UI, component, or design task.
+tags:
+  - domain/skills
+  - artifact/command
+  - source/claude-commands
 ---
 
 # /design — Design Agent Launcher
@@ -70,3 +74,9 @@ mcp nano-banana generate "{description}"
 - `COMBINED/ui-design/ui-components-galaxy/` — 3,000+ components
 - `COMBINED/ui-design/ui-components-shadcn/` — accessible React components
 - `COMBINED/ui-design/ui-rules/ui-ux-pro-max/` — 161 rules + search CLI
+
+## 🔗 Связи
+
+- [[MOC - System]] — System commands
+- [[MOC - Skills]] — Skills library
+

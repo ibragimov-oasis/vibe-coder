@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/command
+  - source/claude-commands
+---
+
 # SPARC Architect Mode
 
 ## Purpose
@@ -51,3 +58,9 @@ npx claude-flow@alpha sparc run architect "design microservices architecture"
 - Domain-driven design
 - Hexagonal architecture
 - CQRS and Event Sourcing
+
+## 🔗 Связи
+
+- [[MOC - System]] — System commands
+- [[MOC - Skills]] — Skills library
+

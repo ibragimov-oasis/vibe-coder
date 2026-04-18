@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/command
+  - source/claude-commands
+---
+
 # swarm-init
 
 Initialize a new swarm with specified topology.
@@ -17,3 +24,9 @@ npx claude-flow swarm init [options]
 npx claude-flow swarm init --topology mesh
 npx claude-flow swarm init --topology hierarchical --max-agents 8
 ```
+
+## 🔗 Связи
+
+- [[MOC - System]] — System commands
+- [[MOC - Skills]] — Skills library
+

@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/command
+  - source/claude-commands
+---
+
 # workflow-select
 
 Automatically select optimal workflow based on task type.
@@ -23,3 +30,9 @@ npx claude-flow automation workflow-select --constraints "no-downtime,rollback"
 # Preview mode
 npx claude-flow automation workflow-select --task "Database migration" --preview
 ```
+
+## 🔗 Связи
+
+- [[MOC - System]] — System commands
+- [[MOC - Skills]] — Skills library
+

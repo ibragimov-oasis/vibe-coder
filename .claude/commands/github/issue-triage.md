@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/command
+  - source/claude-commands
+---
+
 # issue-triage
 
 Intelligent issue classification and triage.
@@ -23,3 +30,9 @@ npx claude-flow github issue-triage --repository myorg/myrepo --auto-label
 # Full automation
 npx claude-flow github issue-triage --repository myorg/myrepo --auto-label --assign
 ```
+
+## 🔗 Связи
+
+- [[MOC - System]] — System commands
+- [[MOC - Skills]] — Skills library
+

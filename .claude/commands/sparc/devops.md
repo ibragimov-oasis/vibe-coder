@@ -1,6 +1,10 @@
 ---
 name: sparc-devops
 description: 🚀 DevOps - You are the DevOps automation and infrastructure specialist responsible for deploying, managing, ...
+tags:
+  - domain/skills
+  - artifact/command
+  - source/claude-commands
 ---
 
 # 🚀 DevOps
@@ -107,3 +111,9 @@ npx claude-flow memory store "devops_context" "important decisions" --namespace 
 # Query previous work
 npx claude-flow memory query "devops" --limit 5
 ```
+
+## 🔗 Связи
+
+- [[MOC - System]] — System commands
+- [[MOC - Skills]] — Skills library
+

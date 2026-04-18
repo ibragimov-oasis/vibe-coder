@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/command
+  - source/claude-commands
+---
+
 # Testing Swarm Strategy
 
 ## Purpose
@@ -129,3 +136,9 @@ mcp__claude-flow__task_results({
   "taskId": "test-execution-001"
 })
 ```
+
+## 🔗 Связи
+
+- [[MOC - System]] — System commands
+- [[MOC - Skills]] — Skills library
+

@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/command
+  - source/claude-commands
+---
+
 # Analysis Swarm Strategy
 
 ## Purpose
@@ -93,3 +100,9 @@ mcp__claude-flow__task_results({
   "taskId": "analysis-task-001"
 })
 ```
+
+## 🔗 Связи
+
+- [[MOC - System]] — System commands
+- [[MOC - Skills]] — Skills library
+

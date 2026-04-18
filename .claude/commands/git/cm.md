@@ -1,5 +1,9 @@
 ---
 description: Stage working tree changes and create a Conventional Commit (no push).
+tags:
+  - domain/skills
+  - artifact/command
+  - source/claude-commands
 ---
 
 1. Run `git status --short` to review pending changes.
@@ -12,3 +16,9 @@ description: Stage working tree changes and create a Conventional Commit (no pus
 5. Run `git commit` and paste the generated message + context from the template.
 6. Show the resulting commit (`git log -1 --stat`) and keep the commit hash handy.
 7. **Do not push** in this command. Use `git/cp.md` when you're ready to publish.
+
+## 🔗 Связи
+
+- [[MOC - System]] — System commands
+- [[MOC - Skills]] — Skills library
+

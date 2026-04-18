@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/command
+  - source/claude-commands
+---
+
 # Cross-Session Memory
 
 ## Purpose
@@ -88,3 +95,9 @@ export CLAUDE_FLOW_MEMORY_PERSIST=false
 - 📈 Cumulative learning
 - ⚡ Faster task completion
 - 🎯 Personalized optimization
+
+## 🔗 Связи
+
+- [[MOC - System]] — System commands
+- [[MOC - Skills]] — Skills library
+

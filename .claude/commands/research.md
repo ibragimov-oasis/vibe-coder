@@ -1,5 +1,9 @@
 ---
 description: Activate the research agent with supermemory integration. Use for web research, technical analysis, competitive analysis, or codebase investigation.
+tags:
+  - domain/skills
+  - artifact/command
+  - source/claude-commands
 ---
 
 # /research — Research Agent Launcher
@@ -58,3 +62,9 @@ After research completes, `/research` automatically triggers the Hermes loop to:
 - `.claude/agents/mega-orchestrator.md` — pipeline context
 - `COMBINED/agents/agents-hermes/` — Hermes self-learning system
 - `COMBINED/orchestration/core-deer-flow/` — deep research orchestration
+
+## 🔗 Связи
+
+- [[MOC - System]] — System commands
+- [[MOC - Skills]] — Skills library
+

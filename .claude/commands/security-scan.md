@@ -1,5 +1,9 @@
 ---
 description: Run Shannon security audit on changed files. Performs SAST, business logic testing, SCA reachability, and dynamic attacks via Lightpanda.
+tags:
+  - domain/skills
+  - artifact/command
+  - source/claude-commands
 ---
 
 # /security — Shannon Security Audit
@@ -51,3 +55,9 @@ This command runs **mega-security** (Shannon Pro) on your changed files.
 - `.claude/agents/mega-security.md` — full agent spec (445 lines, Shannon Pro methodology)
 - `COMBINED/security/security-shannon/` — Shannon source
 - `COMBINED/security/security-shannon/SHANNON-PRO.md` — full pentesting methodology
+
+## 🔗 Связи
+
+- [[MOC - System]] — System commands
+- [[MOC - Skills]] — Skills library
+

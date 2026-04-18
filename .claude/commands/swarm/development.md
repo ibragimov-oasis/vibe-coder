@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/command
+  - source/claude-commands
+---
+
 # Development Swarm Strategy
 
 ## Purpose
@@ -94,3 +101,9 @@ mcp__claude-flow__daa_fault_tolerance({
   "strategy": "auto-recovery"
 })
 ```
+
+## 🔗 Связи
+
+- [[MOC - System]] — System commands
+- [[MOC - Skills]] — Skills library
+

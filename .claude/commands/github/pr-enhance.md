@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/command
+  - source/claude-commands
+---
+
 # pr-enhance
 
 AI-powered pull request enhancements.
@@ -24,3 +31,9 @@ npx claude-flow github pr-enhance --pr-number 123 --add-tests
 # Full enhancement
 npx claude-flow github pr-enhance --pr-number 123 --add-tests --improve-docs
 ```
+
+## 🔗 Связи
+
+- [[MOC - System]] — System commands
+- [[MOC - Skills]] — Skills library
+

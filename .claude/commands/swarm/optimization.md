@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/command
+  - source/claude-commands
+---
+
 # Optimization Swarm Strategy
 
 ## Purpose
@@ -115,3 +122,9 @@ mcp__claude-flow__cost_analysis({
   "timeframe": "30d"
 })
 ```
+
+## 🔗 Связи
+
+- [[MOC - System]] — System commands
+- [[MOC - Skills]] — Skills library
+

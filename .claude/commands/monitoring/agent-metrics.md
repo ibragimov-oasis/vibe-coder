@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/command
+  - source/claude-commands
+---
+
 # agent-metrics
 
 View agent performance metrics.
@@ -23,3 +30,9 @@ npx claude-flow agent metrics --agent-id agent-001
 # Last hour
 npx claude-flow agent metrics --period 1h
 ```
+
+## 🔗 Связи
+
+- [[MOC - System]] — System commands
+- [[MOC - Skills]] — Skills library
+

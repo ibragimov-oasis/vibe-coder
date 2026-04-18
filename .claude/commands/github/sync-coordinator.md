@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/command
+  - source/claude-commands
+---
+
 # GitHub Sync Coordinator
 
 ## Purpose
@@ -299,3 +306,9 @@ const testMatrix = {
 - Incremental sync retry mechanisms
 - Manual intervention points for complex conflicts
 - State preservation across sync operations
+
+## 🔗 Связи
+
+- [[MOC - System]] — System commands
+- [[MOC - Skills]] — Skills library
+

@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/command
+  - source/claude-commands
+---
+
 # SPARC Orchestrator Mode
 
 ## Purpose
@@ -130,3 +137,9 @@ npx claude-flow sparc run orchestrator "develop user management system" --parall
 # 4. Monitor progress
 npx claude-flow swarm monitor --interval 5000
 ```
+
+## 🔗 Связи
+
+- [[MOC - System]] — System commands
+- [[MOC - Skills]] — Skills library
+

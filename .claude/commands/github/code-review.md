@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/command
+  - source/claude-commands
+---
+
 # code-review
 
 Automated code review with swarm intelligence.
@@ -23,3 +30,9 @@ npx claude-flow github code-review --pr-number 456 --focus security
 # With fix suggestions
 npx claude-flow github code-review --pr-number 456 --suggest-fixes
 ```
+
+## 🔗 Связи
+
+- [[MOC - System]] — System commands
+- [[MOC - Skills]] — Skills library
+

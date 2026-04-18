@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/command
+  - source/claude-commands
+---
+
 # Neural Pattern Training
 
 ## Purpose
@@ -72,3 +79,9 @@ npx claude-flow neural status
 # Analyze patterns
 npx claude-flow neural patterns --analyze
 ```
+
+## 🔗 Связи
+
+- [[MOC - System]] — System commands
+- [[MOC - Skills]] — Skills library
+

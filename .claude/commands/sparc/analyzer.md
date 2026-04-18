@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/command
+  - source/claude-commands
+---
+
 # SPARC Analyzer Mode
 
 ## Purpose
@@ -50,3 +57,9 @@ npx claude-flow@alpha sparc run analyzer "analyze codebase performance"
 - Performance metrics
 - Improvement recommendations
 - Visualizations when applicable
+
+## 🔗 Связи
+
+- [[MOC - System]] — System commands
+- [[MOC - Skills]] — Skills library
+

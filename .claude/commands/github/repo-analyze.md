@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/command
+  - source/claude-commands
+---
+
 # repo-analyze
 
 Deep analysis of GitHub repository with AI insights.
@@ -23,3 +30,9 @@ npx claude-flow github repo-analyze --repository myorg/myrepo --deep
 # Specific areas
 npx claude-flow github repo-analyze --repository myorg/myrepo --include issues,prs
 ```
+
+## 🔗 Связи
+
+- [[MOC - System]] — System commands
+- [[MOC - Skills]] — Skills library
+

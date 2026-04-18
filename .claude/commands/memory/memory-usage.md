@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/command
+  - source/claude-commands
+---
+
 # memory-usage
 
 Manage persistent memory storage.
@@ -23,3 +30,9 @@ npx claude-flow memory usage --action retrieve --key "project-config"
 # List all keys
 npx claude-flow memory usage --action list
 ```
+
+## 🔗 Связи
+
+- [[MOC - System]] — System commands
+- [[MOC - Skills]] — Skills library
+

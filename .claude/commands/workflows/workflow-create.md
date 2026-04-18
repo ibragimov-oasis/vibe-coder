@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/command
+  - source/claude-commands
+---
+
 # workflow-create
 
 Create reusable workflow templates.
@@ -23,3 +30,9 @@ npx claude-flow workflow create --name "test-suite" --from-history
 # Interactive mode
 npx claude-flow workflow create --interactive
 ```
+
+## 🔗 Связи
+
+- [[MOC - System]] — System commands
+- [[MOC - Skills]] — Skills library
+

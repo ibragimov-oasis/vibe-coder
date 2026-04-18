@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/command
+  - source/claude-commands
+---
+
 # GitHub PR Manager
 
 ## Purpose
@@ -168,3 +175,9 @@ mcp__claude-flow__memory_usage {
 - Automatic agent failover
 - Progress preservation across interruptions
 - Comprehensive error reporting and recovery
+
+## 🔗 Связи
+
+- [[MOC - System]] — System commands
+- [[MOC - Skills]] — Skills library
+

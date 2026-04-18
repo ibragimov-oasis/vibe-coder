@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/command
+  - source/claude-commands
+---
+
 # Smart Agent Auto-Spawning
 
 ## Purpose
@@ -71,3 +78,9 @@ npx claude-flow hook pre-task --auto-spawn-agents
 - 🎯 Perfect agent selection
 - 📈 Dynamic scaling
 - 💾 Resource efficiency
+
+## 🔗 Связи
+
+- [[MOC - System]] — System commands
+- [[MOC - Skills]] — Skills library
+
