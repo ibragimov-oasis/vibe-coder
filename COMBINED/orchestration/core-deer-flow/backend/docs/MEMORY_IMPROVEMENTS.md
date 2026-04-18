@@ -70,3 +70,10 @@ Current regression coverage includes:
 
 Tests:
 - `backend/tests/test_memory_prompt_injection.py`
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-deer-flow]] — core-deer-flow
+- [[MOC - Skills]] — Skills library
+

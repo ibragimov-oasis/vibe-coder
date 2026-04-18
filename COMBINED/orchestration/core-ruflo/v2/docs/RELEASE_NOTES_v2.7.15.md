@@ -337,3 +337,10 @@ mcp__ruv-swarm__swarm_status()
 ---
 
 **Next Release:** v2.8.0 (Ed25519 integration, TypeScript fixes)
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-ruflo]] — core-ruflo
+- [[MOC - Skills]] — Skills library
+

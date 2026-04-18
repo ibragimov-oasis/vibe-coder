@@ -254,3 +254,10 @@ async function withLspClient(filePath, operation, fn) {
 JavaScript, TypeScript, TSX, Python, Ruby, Go, Rust, Java, Kotlin, Swift, C, C++, C#, HTML, CSS, JSON, YAML
 
 <!-- MANUAL: -->
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-omc]] — core-omc
+- [[MOC - Skills]] — Skills library
+

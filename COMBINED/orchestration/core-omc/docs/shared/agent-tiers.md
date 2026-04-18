@@ -161,3 +161,10 @@ For complex rename or refactoring tasks requiring implementation, delegate to `e
 - **Need single-file error checking?** Use `lsp_diagnostics` via many agents (see matrix)
 - **Need data analysis / computation?** Use `python_repl` via `scientist` or `scientist-high`
 - **Need quick type info or definition lookup?** Use `lsp_hover`/`lsp_goto_definition` directly (orchestrator-direct tools)
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-omc]] — core-omc
+- [[MOC - Skills]] — Skills library
+

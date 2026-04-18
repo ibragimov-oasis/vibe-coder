@@ -508,3 +508,10 @@ graph TB
 - `RuntimeFeatures`、`@Next/@Prev`、排序机制只作用于**主 agent**
 - Subagent 链短且固定（4 个），不需要动态组装
 - `extra_middleware` 当前只影响主 agent，不传递给 subagent
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-deer-flow]] — core-deer-flow
+- [[MOC - Skills]] — Skills library
+

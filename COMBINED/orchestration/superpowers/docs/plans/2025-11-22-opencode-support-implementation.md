@@ -1100,3 +1100,10 @@ These steps require OpenCode to be installed and are not part of the automated i
 - [ ] README and RELEASE-NOTES updated
 - [ ] All changes committed
 - [ ] Working tree clean
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/superpowers]] — superpowers
+- [[MOC - Skills]] — Skills library
+

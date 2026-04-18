@@ -70,3 +70,10 @@ MCP servers can provide access to:
 
 For detailed documentation about the Model Context Protocol, visit:  
 https://modelcontextprotocol.io
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-deer-flow]] — core-deer-flow
+- [[MOC - Skills]] — Skills library
+

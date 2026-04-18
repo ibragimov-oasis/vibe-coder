@@ -274,3 +274,10 @@ node mcp-server/tests/test-command.js newFeature
 3. **Consistent Error Handling** - Standardize error formats for both interfaces
 4. **Documentation** - Update MCP tool documentation when adding new features
 5. **Testing** - Test both CLI and MCP interfaces for any new or modified feature
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-taskmaster]] — core-taskmaster
+- [[MOC - Skills]] — Skills library
+

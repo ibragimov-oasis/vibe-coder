@@ -131,3 +131,10 @@ Structure your analysis with precise references:
 - Don't critique design choices
 
 Your analysis directly enables implementation success. Be thorough, precise, and factual.
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-archon]] — core-archon
+- [[MOC - Skills]] — Skills library
+

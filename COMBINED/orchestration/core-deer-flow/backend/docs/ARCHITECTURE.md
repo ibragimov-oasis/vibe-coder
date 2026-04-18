@@ -489,3 +489,10 @@ SKILL.md Format:
 - Summarization middleware reduces context when limits approached
 - Configurable triggers: tokens, messages, or fraction
 - Preserves recent messages while summarizing older ones
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-deer-flow]] — core-deer-flow
+- [[MOC - Skills]] — Skills library
+

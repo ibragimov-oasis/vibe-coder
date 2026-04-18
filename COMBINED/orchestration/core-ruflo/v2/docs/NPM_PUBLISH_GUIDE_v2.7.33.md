@@ -633,3 +633,10 @@ If issues arise during publishing:
 **Risk Level**: ✅ MINIMAL (100% backward compatible)
 
 Good luck with the release! 🚀
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-ruflo]] — core-ruflo
+- [[MOC - Skills]] — Skills library
+

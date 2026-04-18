@@ -19,3 +19,10 @@ Now both code paths iterate TEMPLATE_MANIFEST entries:
 - upgrade (CLI): syncAllSkills() reads manifest entries, respects overwriteOnUpgrade
 
 Fixes #833
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-squad]] — core-squad
+- [[MOC - Skills]] — Skills library
+

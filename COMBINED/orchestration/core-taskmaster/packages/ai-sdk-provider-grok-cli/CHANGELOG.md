@@ -28,3 +28,10 @@ tags:
 ## null
 
 ## null
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-taskmaster]] — core-taskmaster
+- [[MOC - Skills]] — Skills library
+

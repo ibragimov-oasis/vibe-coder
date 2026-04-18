@@ -82,3 +82,10 @@ GSD suporta evolução por:
 
 > [!NOTE]
 > Esta versão foi criada para consulta de arquitetura em Português. A especificação canônica e completa continua no documento em inglês.
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-gsd]] — core-gsd
+- [[MOC - Skills]] — Skills library
+

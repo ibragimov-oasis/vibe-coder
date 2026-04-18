@@ -69,3 +69,10 @@ Cada agente tem responsabilidade clara, entradas/saídas definidas e contexto de
 
 > [!NOTE]
 > Esta versão em Português é uma referência operacional. Se você estiver contribuindo com o núcleo do framework ou alterando comportamento de agentes, consulte sempre o documento em inglês para detalhes normativos.
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-gsd]] — core-gsd
+- [[MOC - Skills]] — Skills library
+

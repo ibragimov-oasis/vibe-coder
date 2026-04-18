@@ -870,3 +870,10 @@ Body: { "enabled": false }
 **文档版本**: 1.0  
 **最后更新**: 2026-02-10  
 **维护者**: AI Assistant
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-deer-flow]] — core-deer-flow
+- [[MOC - Skills]] — Skills library
+

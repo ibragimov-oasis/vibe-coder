@@ -107,3 +107,10 @@ try {
 - Auto-cleanup before creating new if at limit
 
 ### Recent Changes
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-archon]] — core-archon
+- [[MOC - Skills]] — Skills library
+

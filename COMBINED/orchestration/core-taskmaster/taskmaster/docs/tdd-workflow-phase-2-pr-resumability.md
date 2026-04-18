@@ -438,3 +438,10 @@ Test with:
 - Missing `gh` CLI (fallback to manual)
 - Lint/format integration enabled
 - Multiple interrupted runs (selection UI)
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-taskmaster]] — core-taskmaster
+- [[MOC - Skills]] — Skills library
+

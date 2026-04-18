@@ -532,3 +532,10 @@ GSDは統一されたコマンド/ワークフローアーキテクチャを通�
 5. **モデル参照** — `inherit` プロファイルにより、GSDはランタイムのモデル選択に委譲
 
 インストーラーはインストール時にすべての変換を処理します。ワークフローとエージェントはClaude Codeのネイティブ形式で記述され、デプロイ時に変換されます。
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-gsd]] — core-gsd
+- [[MOC - Skills]] — Skills library
+

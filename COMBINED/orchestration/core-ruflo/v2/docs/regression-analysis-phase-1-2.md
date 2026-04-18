@@ -560,3 +560,10 @@ The Phase 1 & 2 implementation (Progressive Disclosure pattern) is **100% backwa
 **Analysis Completed**: 2025-11-12
 **Analyzed By**: Claude (Deep Analysis)
 **Status**: ✅ **NO REGRESSIONS - PRODUCTION READY**
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-ruflo]] — core-ruflo
+- [[MOC - Skills]] — Skills library
+

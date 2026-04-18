@@ -7857,5 +7857,11 @@ ame: "{name}" parameter to ALL spawn templates
 **By:** Procedures (Prompt Engineer)  
 **Date:** 2026-03-25  
 **Issue:** #613 — VSCode Autopilot breaks Squad agent execution  
-**Status:** DRAFT — awaiting Flight review  
+**Status:** DRAFT — awaiting Flight review
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-squad]] — core-squad
+- [[MOC - Skills]] — Skills library
 

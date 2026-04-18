@@ -68,3 +68,10 @@ Template for `.planning/phases/XX-name/{phase_num}-DISCUSSION-LOG.md` — audit 
 - Clearly marked as audit-only, not an implementation artifact
 - Does NOT interfere with CONTEXT.md generation or downstream agent behavior
 - Committed alongside CONTEXT.md in the same git commit
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-gsd]] — core-gsd
+- [[MOC - Skills]] — Skills library
+

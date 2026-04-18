@@ -1295,3 +1295,10 @@ Claude が GSD ワークフローコンテキスト外でファイル編集を�
 1. **検出** — システム上で利用可能な AI CLI ランタイムを特定
 2. **プロンプト** — ランタイム選択のためのマルチセレクトインターフェースを提示
 3. **インストール** — 1回のセッションで選択されたすべてのランタイムに対して GSD を設定
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-gsd]] — core-gsd
+- [[MOC - Skills]] — Skills library
+

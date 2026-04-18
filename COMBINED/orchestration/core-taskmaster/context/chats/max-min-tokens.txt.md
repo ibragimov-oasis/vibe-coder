@@ -373,3 +373,10 @@ After this, we'll move to:
                                 // but the model card mentions 128k total. The API call parameter for `max_tokens` sets this output cap.
 }
 ```
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-taskmaster]] — core-taskmaster
+- [[MOC - Skills]] — Skills library
+

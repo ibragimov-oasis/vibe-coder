@@ -96,3 +96,10 @@ Debug file: @.planning/debug/{slug}.md
 goal: {goal}
 </mode>
 ```
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-gsd]] — core-gsd
+- [[MOC - Skills]] — Skills library
+

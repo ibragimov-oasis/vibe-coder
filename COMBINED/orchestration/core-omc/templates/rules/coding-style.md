@@ -79,3 +79,10 @@ Add your project-specific coding style rules here:
 - Naming conventions
 - File structure requirements
 - Framework-specific patterns
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-omc]] — core-omc
+- [[MOC - Skills]] — Skills library
+

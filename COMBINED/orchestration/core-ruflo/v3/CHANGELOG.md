@@ -306,3 +306,10 @@ npx @claude-flow/swarm coordinate --agents 15
 ---
 
 **Full Changelog**: https://github.com/ruvnet/agentic-flow/compare/v2.0.1...v3.0.0-alpha.1
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-ruflo]] — core-ruflo
+- [[MOC - Skills]] — Skills library
+

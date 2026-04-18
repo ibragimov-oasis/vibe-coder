@@ -294,3 +294,10 @@ mcp__claude-flow__memory_usage({ action: "retrieve" })  ✅
 **Date Fixed:** 2025-10-25
 **Installed:** onnxruntime-node@1.23.0 (local node_modules)
 **Workaround:** Use local binary, not npx
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-ruflo]] — core-ruflo
+- [[MOC - Skills]] — Skills library
+

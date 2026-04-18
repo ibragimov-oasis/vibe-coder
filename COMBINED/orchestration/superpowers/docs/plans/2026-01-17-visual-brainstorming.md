@@ -576,3 +576,10 @@ After completing all tasks:
 2. Tell user to open `http://localhost:3333`
 3. Write HTML to `/tmp/brainstorm/screen.html`
 4. Check task output for user events
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/superpowers]] — superpowers
+- [[MOC - Skills]] — Skills library
+

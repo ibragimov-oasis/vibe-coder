@@ -308,3 +308,10 @@ Session transcripts are JSONL (JSON Lines) files where each line is a JSON objec
 ```
 
 The `agentId` field links to subagent sessions, and the `usage` field contains token usage for that specific subagent invocation.
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/superpowers]] — superpowers
+- [[MOC - Skills]] — Skills library
+

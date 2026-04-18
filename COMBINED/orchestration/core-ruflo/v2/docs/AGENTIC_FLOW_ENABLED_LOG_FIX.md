@@ -228,3 +228,10 @@ npx claude-flow@alpha memory store "test" "value"
 ---
 
 **Summary:** The "Enabled: false" message needs to be fixed in agentic-flow's source code and published as v1.8.5, just like the better-sqlite3 fix was published in v1.8.4.
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-ruflo]] — core-ruflo
+- [[MOC - Skills]] — Skills library
+

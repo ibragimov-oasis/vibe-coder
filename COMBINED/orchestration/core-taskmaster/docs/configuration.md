@@ -655,3 +655,10 @@ The Codex CLI provider integrates Task Master with OpenAI's Codex CLI, allowing 
     - Limited to OAuth-available models only (`gpt-5` and `gpt-5-codex`)
     - Pricing information is not available for OAuth models (shows as "Unknown" in cost calculations)
     - See [Codex CLI Provider Documentation](./providers/codex-cli.md) for more details
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-taskmaster]] — core-taskmaster
+- [[MOC - Skills]] — Skills library
+

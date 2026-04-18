@@ -881,3 +881,10 @@ asyncio.run(main())
   }
 }
 ```
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-cc-connect]] — core-cc-connect
+- [[MOC - Skills]] — Skills library
+

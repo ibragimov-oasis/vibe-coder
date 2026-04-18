@@ -881,3 +881,10 @@ The protocol version is declared in the `register` message via `metadata.protoco
   }
 }
 ```
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-cc-connect]] — core-cc-connect
+- [[MOC - Skills]] — Skills library
+

@@ -1239,3 +1239,10 @@ pip install praisonai-tools
 ```
 
 See [PraisonAI-tools](https://github.com/MervinPraison/PraisonAI-tools) for available tools.
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-praisonai]] — core-praisonai
+- [[MOC - Skills]] — Skills library
+

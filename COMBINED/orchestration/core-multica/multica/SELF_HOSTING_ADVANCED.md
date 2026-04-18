@@ -244,3 +244,10 @@ docker compose -f docker-compose.selfhost.yml up -d --build
 ```
 
 Migrations run automatically on backend startup. They are idempotent — running them multiple times has no effect.
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-multica]] — core-multica
+- [[MOC - Skills]] — Skills library
+

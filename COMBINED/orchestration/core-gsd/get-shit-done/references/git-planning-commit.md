@@ -43,3 +43,10 @@ node "$HOME/.claude/get-shit-done/bin/gsd-tools.cjs" commit "" --files .planning
 - `commit_docs: false` in config
 - `.planning/` is gitignored
 - No changes to commit (check with `git status --porcelain .planning/`)
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-gsd]] — core-gsd
+- [[MOC - Skills]] — Skills library
+

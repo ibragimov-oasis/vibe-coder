@@ -142,3 +142,10 @@ For every error handling location, evaluate:
 - **Visible fallbacks** - Users must know when fallback behavior activates
 
 Every silent failure you catch prevents hours of debugging frustration.
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-archon]] — core-archon
+- [[MOC - Skills]] — Skills library
+

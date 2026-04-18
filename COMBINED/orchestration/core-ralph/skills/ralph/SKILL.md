@@ -260,3 +260,10 @@ Before writing prd.json, verify:
 - [ ] UI stories have "Verify in browser using dev-browser skill" as criterion
 - [ ] Acceptance criteria are verifiable (not vague)
 - [ ] No story depends on a later story
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-ralph]] — core-ralph
+- [[MOC - Skills]] — Skills library
+

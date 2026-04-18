@@ -77,3 +77,10 @@ Commands will execute but may fail if Claude CLI is not properly configured.
 
 ### Workaround
 Use SPARC commands for benchmarking without Claude CLI dependency.
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-ruflo]] — core-ruflo
+- [[MOC - Skills]] — Skills library
+

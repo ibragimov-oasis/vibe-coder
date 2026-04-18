@@ -345,3 +345,10 @@ All requirements met. No critical blockers. Accumulated tech debt needs review.
 - [ ] Missing VALIDATION.md phases flagged with validate-phase suggestion
 - [ ] Results presented with actionable next steps
 </success_criteria>
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-gsd]] — core-gsd
+- [[MOC - Skills]] — Skills library
+

@@ -10,4 +10,9 @@ tags:
   - source/core-refly
 ---
 
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-refly]] — core-refly
+- [[MOC - Skills]] — Skills library
 

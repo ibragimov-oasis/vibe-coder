@@ -233,3 +233,10 @@ Clean up temp files.
 - [ ] Temp files cleaned up
 - [ ] User knows how to use feedback (/gsd:plan-phase --reviews)
 </success_criteria>
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-gsd]] — core-gsd
+- [[MOC - Skills]] — Skills library
+

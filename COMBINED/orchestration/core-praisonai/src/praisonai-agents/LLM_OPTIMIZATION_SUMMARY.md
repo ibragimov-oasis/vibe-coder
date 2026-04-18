@@ -77,3 +77,10 @@ Verified with:
 - Console usage - Lazy loading works as expected
 
 The optimizations significantly improve performance while maintaining all functionality.
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-praisonai]] — core-praisonai
+- [[MOC - Skills]] — Skills library
+

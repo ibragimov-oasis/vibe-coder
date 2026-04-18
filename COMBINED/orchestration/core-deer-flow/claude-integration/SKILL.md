@@ -219,3 +219,10 @@ The stream returns SSE events. To extract the final AI response from a `values` 
 - For research tasks, use pro or ultra mode (enables planning and sub-agents).
 - You can upload files first, then reference them in your message.
 - Thread IDs persist — you can return to a conversation later.
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-deer-flow]] — core-deer-flow
+- [[MOC - Skills]] — Skills library
+

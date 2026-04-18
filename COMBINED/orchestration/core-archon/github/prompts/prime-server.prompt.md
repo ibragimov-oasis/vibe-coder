@@ -39,3 +39,10 @@ Produce a scannable summary of what you learned:
 - **Patterns**: Database patterns, error handling, validation approach
 
 Use bullet points. Keep it concise.
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-archon]] — core-archon
+- [[MOC - Skills]] — Skills library
+

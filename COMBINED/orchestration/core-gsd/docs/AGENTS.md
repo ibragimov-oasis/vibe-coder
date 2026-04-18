@@ -433,3 +433,10 @@ Communication style, decision patterns, debugging approach, UX preferences, vend
 - Researchers have web access — they need current ecosystem information
 - Executors have Edit — they modify code but not web access
 - Mappers have Write — they write analysis documents but not Edit (no code changes)
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-gsd]] — core-gsd
+- [[MOC - Skills]] — Skills library
+

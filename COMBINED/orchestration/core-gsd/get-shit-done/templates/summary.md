@@ -253,3 +253,10 @@ The one-liner should tell someone what actually shipped.
 
 **After creation:** STATE.md updated with position, decisions, issues.
 </guidelines>
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-gsd]] — core-gsd
+- [[MOC - Skills]] — Skills library
+

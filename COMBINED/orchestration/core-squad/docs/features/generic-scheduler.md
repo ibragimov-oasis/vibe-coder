@@ -331,3 +331,10 @@ If a task fails:
 - [Upstream Auto-Sync](/features/upstream-sync) — Use scheduler to sync automatically
 - [Persistent Ralph](/features/persistent-ralph) — Monitor squad work continuously
 - [Cross-Squad Orchestration](/features/cross-squad-orchestration) — Delegate across squads
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-squad]] — core-squad
+- [[MOC - Skills]] — Skills library
+

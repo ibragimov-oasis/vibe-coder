@@ -466,3 +466,10 @@ MIT License
 <p align="center">
   <sub>由 cc-connect 社区用 ❤️ 构建</sub>
 </p>
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-cc-connect]] — core-cc-connect
+- [[MOC - Skills]] — Skills library
+

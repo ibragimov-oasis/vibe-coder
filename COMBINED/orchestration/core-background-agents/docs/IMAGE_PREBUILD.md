@@ -151,3 +151,10 @@ Images settings page to trigger a manual rebuild.
 To stop using pre-built images for a repository, toggle the switch off in Settings > Images. New
 sessions will return to the normal startup flow (full clone + setup). Existing sessions are not
 affected.
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-background-agents]] — core-background-agents
+- [[MOC - Skills]] — Skills library
+

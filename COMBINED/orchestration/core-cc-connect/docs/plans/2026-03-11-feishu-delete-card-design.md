@@ -71,3 +71,10 @@ All delete-mode actions should update the card in place on Feishu. They should n
 - Submit path deleting only selected session IDs
 - Active-session protection in card-driven batch delete
 - Explicit `/delete 1,3-5,8` continuing to work outside card mode
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-cc-connect]] — core-cc-connect
+- [[MOC - Skills]] — Skills library
+

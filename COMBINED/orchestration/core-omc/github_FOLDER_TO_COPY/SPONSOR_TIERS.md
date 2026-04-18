@@ -49,3 +49,10 @@ Everything in Team, plus:
 - 📝 Contribute code
 
 Every contribution matters! 🦞
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-omc]] — core-omc
+- [[MOC - Skills]] — Skills library
+

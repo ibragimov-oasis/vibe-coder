@@ -464,3 +464,10 @@ Ready for deployment with optional MCP 2025-11 features.
 **Implementation Date**: 2025-11-12
 **Version**: Claude Flow v2.7.32
 **Next Release**: v2.8.0 (with MCP 2025-11 enabled by default)
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-ruflo]] — core-ruflo
+- [[MOC - Skills]] — Skills library
+

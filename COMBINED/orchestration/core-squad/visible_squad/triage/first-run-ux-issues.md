@@ -113,3 +113,10 @@ Once fixed:
 4. Verify the wording guides users to `/init` or similar, not just "exit and run"
 
 Run `npm run test` to check `test/repl-ux-e2e.test.ts` for first-run assertions.
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-squad]] — core-squad
+- [[MOC - Skills]] — Skills library
+

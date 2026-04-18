@@ -129,3 +129,10 @@ The following checks run automatically in CI (no manual action required):
 - [GitHub Actions Workflows](../.github/workflows/)
 - [Package Configuration](../package.json)
 - [Changelog](../CHANGELOG.md)
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-squad]] — core-squad
+- [[MOC - Skills]] — Skills library
+

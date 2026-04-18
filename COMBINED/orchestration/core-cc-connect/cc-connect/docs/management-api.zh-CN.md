@@ -1161,3 +1161,10 @@ cors_origins = ["http://localhost:3000", "https://dashboard.example.com"]
 - [Bridge 协议](bridge-protocol.md) — 外部平台适配器的 WebSocket 协议
 - [使用指南](usage.md) — 终端用户功能与斜杠命令
 - [config.example.toml](../config.example.toml) — 配置模板
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-cc-connect]] — core-cc-connect
+- [[MOC - Skills]] — Skills library
+

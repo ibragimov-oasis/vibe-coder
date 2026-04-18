@@ -107,3 +107,10 @@ None - pure markdown files.
 <!-- MANUAL:
 - When documenting `plan`/`ralplan`, include consensus structured deliberation (RALPLAN-DR) and note `--deliberate` high-risk mode behavior.
 -->
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-omc]] — core-omc
+- [[MOC - Skills]] — Skills library
+

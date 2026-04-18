@@ -195,3 +195,10 @@ Read paths no longer have `mkdir` side effects — non-existent directories retu
 | `client` e2e | `tests/test_client_e2e.py` (new file) | ~20 |
 
 Coverage: unsafe zip / symlink / zip bomb / frontmatter / duplicate / extension / macOS filter / normalize / deduplicate / traversal / list / delete / agent invalidation / upload lifecycle / thread isolation / URL encoding / config pollution.
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-deer-flow]] — core-deer-flow
+- [[MOC - Skills]] — Skills library
+

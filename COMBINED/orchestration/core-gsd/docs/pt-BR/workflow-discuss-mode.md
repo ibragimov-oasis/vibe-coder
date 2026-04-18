@@ -67,3 +67,10 @@ Via `/gsd:settings`, defina:
 
 > [!NOTE]
 > Para ambientes com múltiplos runtimes e perfis de modelo dinâmicos, prefira `assumptions` quando o reuso de padrões de código for prioridade.
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-gsd]] — core-gsd
+- [[MOC - Skills]] — Skills library
+

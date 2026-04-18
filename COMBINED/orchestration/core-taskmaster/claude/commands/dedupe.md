@@ -40,3 +40,10 @@ This issue will be automatically closed as a duplicate in 3 days.
 🤖 Generated with \[Task Master Bot\]
 
 ---
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-taskmaster]] — core-taskmaster
+- [[MOC - Skills]] — Skills library
+

@@ -129,3 +129,10 @@ praisonai persistence doctor --help
 praisonai persistence run --help
 praisonai persistence resume --help
 ```
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-praisonai]] — core-praisonai
+- [[MOC - Skills]] — Skills library
+

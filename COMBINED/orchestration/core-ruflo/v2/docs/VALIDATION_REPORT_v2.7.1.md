@@ -321,3 +321,10 @@ npm error path .../node_modules/better-sqlite3
 **Test Date**: October 25, 2025
 **Test Duration**: Comprehensive (multiple Docker environments)
 **Overall Result**: ✅ **PASS - PRODUCTION READY**
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-ruflo]] — core-ruflo
+- [[MOC - Skills]] — Skills library
+

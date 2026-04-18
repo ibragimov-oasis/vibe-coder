@@ -86,3 +86,10 @@ Summarize (under 200 words):
 
 ### Recent Changes
 - Last few frontend commits
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-archon]] — core-archon
+- [[MOC - Skills]] — Skills library
+

@@ -14,3 +14,10 @@ Closes five gaps discovered during PR #217:
 - Changeset is a required step in the PR process checklist
 - `bradygaster/dev` now correctly described as the PR target for all contributions
 - New "Keeping Your Fork in Sync" section with rebase-on-upstream/dev instructions
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-squad]] — core-squad
+- [[MOC - Skills]] — Skills library
+

@@ -70,3 +70,10 @@ gsd-tools config-set workflow.discuss_mode discuss
 - `<deferred>` — 향후 단계를 위해 기록된 아이디어
 
 하위 에이전트(researcher, planner, checker)는 모드에 관계없이 동일하게 이 파일을 사용합니다.
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-gsd]] — core-gsd
+- [[MOC - Skills]] — Skills library
+

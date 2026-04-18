@@ -551,3 +551,10 @@ A:
 - For very complex tasks, use ralplan first to create a solid plan
 - Combine with ultrawork for speed: "ralph ulw: migrate all services"
 - Trust the verification - if architect rejects, there's a reason
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-omc]] — core-omc
+- [[MOC - Skills]] — Skills library
+

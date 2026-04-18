@@ -95,3 +95,10 @@ The system has been updated to:
 
 ## Recommended Usage
 For benchmarking without Claude CLI, use SPARC commands which provide real workflow information and execution metrics.
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-ruflo]] — core-ruflo
+- [[MOC - Skills]] — Skills library
+

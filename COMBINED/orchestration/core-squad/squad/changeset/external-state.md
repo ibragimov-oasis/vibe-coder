@@ -18,3 +18,10 @@ Add external state storage — move .squad/ out of the working tree (#792)
 - Thin `.squad/config.json` marker stays in repo (gitignored)
 - Path traversal protection on projectKey
 - 12 new tests
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-squad]] — core-squad
+- [[MOC - Skills]] — Skills library
+

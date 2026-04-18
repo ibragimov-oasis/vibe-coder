@@ -14,3 +14,10 @@ Add retro enforcement skill with Test-RetroOverdue and ceremonies template updat
 - Production data: 0% to 100% completion rate after switching formats
 - Test-RetroOverdue PowerShell function detects overdue retros and blocks work queue
 - Ceremonies template updated with enforcement-aware retrospective definition
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-squad]] — core-squad
+- [[MOC - Skills]] — Skills library
+

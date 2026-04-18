@@ -165,3 +165,10 @@ Always at end of major completions.
 - Missing Next Up block after completions
 
 </ui_patterns>
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-gsd]] — core-gsd
+- [[MOC - Skills]] — Skills library
+

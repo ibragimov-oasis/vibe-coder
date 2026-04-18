@@ -252,3 +252,9 @@ Triaged 14 untriaged issues (3 docs, 6 community features, 3 bugs, 2 questions).
 - #357, #336, #335, #334, #333, #332, #316 (A2A) — stays shelved per existing decision
 - #581 (ADO PRD) — P2, blocked until #341 (SDK-first parity) ships
 
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-squad]] — core-squad
+- [[MOC - Skills]] — Skills library
+

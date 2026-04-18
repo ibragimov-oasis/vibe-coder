@@ -39,3 +39,10 @@ tags:
 
 - [x] Make sure that no duplicated files in `state.artifacts`
 - [x] Long thinking but with empty content (answer inside thinking process)
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-deer-flow]] — core-deer-flow
+- [[MOC - Skills]] — Skills library
+

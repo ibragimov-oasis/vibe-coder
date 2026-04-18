@@ -131,3 +131,10 @@ talking points, and cleanup steps. Runs on this codebase (`coleam00/Archon`).
   !`command`           Dynamic context at load time
   $ARGUMENTS           User input passthrough
 ```
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-archon]] — core-archon
+- [[MOC - Skills]] — Skills library
+

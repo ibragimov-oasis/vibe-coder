@@ -8,3 +8,10 @@ tags:
 ---
 
 feat: add notification-routing skill for pub-sub channel routing
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-squad]] — core-squad
+- [[MOC - Skills]] — Skills library
+

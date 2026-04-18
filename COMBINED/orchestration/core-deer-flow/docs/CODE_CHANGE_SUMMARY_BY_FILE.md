@@ -944,3 +944,10 @@ export function MarkdownContent({
 | 总行数变化 | +62 / -894（diff stat） |
 
 以上为按文件、细到每一行 diff 的代码更改总结。
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-deer-flow]] — core-deer-flow
+- [[MOC - Skills]] — Skills library
+

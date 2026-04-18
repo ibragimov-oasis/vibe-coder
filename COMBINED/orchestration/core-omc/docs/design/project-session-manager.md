@@ -1038,3 +1038,10 @@ Attaching to session...
 
 *Document Version: 1.0.0*
 *Last Updated: 2024-01-26*
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-omc]] — core-omc
+- [[MOC - Skills]] — Skills library
+

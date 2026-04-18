@@ -95,3 +95,10 @@ Users configure MCP servers at these locations (checked in priority order):
 - **Aspire uses the dashboard URL** — typically `http://localhost:18888` during local dev
 
 Auth is a real blocker for some MCP servers. Users need separate tokens for GitHub MCP, Azure MCP, Trello MCP, etc. This is a documentation problem, not a code problem.
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-squad]] — core-squad
+- [[MOC - Skills]] — Skills library
+

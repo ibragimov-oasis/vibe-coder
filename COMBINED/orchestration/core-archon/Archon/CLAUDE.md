@@ -801,3 +801,10 @@ Pattern: Use `classifyIsolationError()` (from `@archon/isolation`) to map git er
 - Parse `@archon` in issue/PR **comments only** (not descriptions)
 - Events: `issue_comment` only
 - Note: Descriptions often contain example commands or documentation - these are NOT command invocations (see #96)
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-archon]] — core-archon
+- [[MOC - Skills]] — Skills library
+

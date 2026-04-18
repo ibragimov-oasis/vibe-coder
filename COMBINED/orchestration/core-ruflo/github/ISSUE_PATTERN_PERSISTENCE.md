@@ -241,3 +241,10 @@ After this fix:
 **Priority**: High
 **Type**: Bug Fix
 **Module**: MCP Server - Neural Patterns
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-ruflo]] — core-ruflo
+- [[MOC - Skills]] — Skills library
+

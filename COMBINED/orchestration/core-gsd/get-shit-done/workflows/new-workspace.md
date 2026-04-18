@@ -242,3 +242,10 @@ Use AskUserQuestion:
 - [ ] `.planning/` directory initialized at workspace root
 - [ ] User informed of workspace path and next steps
 </success_criteria>
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-gsd]] — core-gsd
+- [[MOC - Skills]] — Skills library
+

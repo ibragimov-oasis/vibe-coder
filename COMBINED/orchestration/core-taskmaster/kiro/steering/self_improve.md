@@ -72,3 +72,10 @@ tags:
   - Maintain links between related rules
   - Document breaking changes
 Follow [kiro_rules.md](.kiro/steering/kiro_rules.md) for proper rule formatting and structure.
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-taskmaster]] — core-taskmaster
+- [[MOC - Skills]] — Skills library
+

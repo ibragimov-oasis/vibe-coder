@@ -425,3 +425,10 @@ cursor .   # or claude, windsurf, code, etc.
 ```
 
 **Simple, fast, editor-agnostic.** 🚀
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-taskmaster]] — core-taskmaster
+- [[MOC - Skills]] — Skills library
+

@@ -40,3 +40,10 @@ Produce a scannable summary of what you learned:
 - **Current State**: Recent commits, current branch
 
 Use bullet points. Keep it concise.
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-archon]] — core-archon
+- [[MOC - Skills]] — Skills library
+

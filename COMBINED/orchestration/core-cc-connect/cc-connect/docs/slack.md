@@ -330,3 +330,10 @@ Make sure:
 - [Telegram Setup](./telegram.md)
 - [Discord Setup](./discord.md)
 - [Back to README](../README.md)
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-cc-connect]] — core-cc-connect
+- [[MOC - Skills]] — Skills library
+

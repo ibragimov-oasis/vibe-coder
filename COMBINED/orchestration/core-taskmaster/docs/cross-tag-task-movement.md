@@ -290,3 +290,10 @@ task-master move --from=5 --from-tag=backlog --to-tag=in-progress
 # Option 2: Move parent with all subtasks
 task-master move --from=5 --from-tag=backlog --to-tag=in-progress --with-dependencies
 ```
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-taskmaster]] — core-taskmaster
+- [[MOC - Skills]] — Skills library
+

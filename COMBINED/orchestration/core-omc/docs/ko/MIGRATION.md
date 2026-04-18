@@ -992,3 +992,10 @@ A: 키워드는 명시적 단축키입니다. 자연어는 자동 감지를 트�
 4. **팀 온보딩을 위해**: 이 가이드를 팀원들과 공유하세요
 
 oh-my-claudecode에 오신 것을 환영합니다!
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-omc]] — core-omc
+- [[MOC - Skills]] — Skills library
+

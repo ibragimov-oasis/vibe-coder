@@ -206,3 +206,10 @@ This implementation provides the foundation for advanced usage analytics, cost m
 **Documentation**: 📖 Comprehensive wiki updated  
 **Testing**: 🧪 Manually verified and confirmed working  
 **Next Steps**: 🔮 Ready for Phase 2 enhancements
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-ruflo]] — core-ruflo
+- [[MOC - Skills]] — Skills library
+

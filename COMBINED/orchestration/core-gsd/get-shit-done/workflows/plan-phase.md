@@ -864,3 +864,10 @@ If freezes persist, try `--skip-research` to reduce the agent chain from 3 to 2 
 - [ ] User sees status between agent spawns
 - [ ] User knows next steps
 </success_criteria>
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-gsd]] — core-gsd
+- [[MOC - Skills]] — Skills library
+

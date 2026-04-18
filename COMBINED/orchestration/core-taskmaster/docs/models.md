@@ -297,3 +297,10 @@ tags:
 | openrouter | deepseek/deepseek-chat-v3-0324:free           | Free OpenRouter models are not supported due to severe rate limits, lack of tool use support, and other reliability issues that make them impractical for production use. |
 | openrouter | mistralai/mistral-small-3.1-24b-instruct:free | Free OpenRouter models are not supported due to severe rate limits, lack of tool use support, and other reliability issues that make them impractical for production use. |
 | openrouter | thudm/glm-4-32b:free                          | Free OpenRouter models are not supported due to severe rate limits, lack of tool use support, and other reliability issues that make them impractical for production use. |
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-taskmaster]] — core-taskmaster
+- [[MOC - Skills]] — Skills library
+

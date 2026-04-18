@@ -61,3 +61,10 @@ Para catálogo completo e detalhamento exaustivo, consulte [FEATURES.md em ingl�
 
 > [!NOTE]
 > Este arquivo é uma versão de referência rápida em Português para facilitar uso diário. Para detalhes de baixo nível, requisitos formais e comportamento completo de cada recurso, use o documento original em inglês.
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-gsd]] — core-gsd
+- [[MOC - Skills]] — Skills library
+

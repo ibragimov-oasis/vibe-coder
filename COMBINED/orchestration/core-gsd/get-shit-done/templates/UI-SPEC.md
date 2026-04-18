@@ -102,3 +102,10 @@ Accent reserved for: {explicit list — never "all interactive elements"}
 - [ ] Dimension 6 Registry Safety: PASS
 
 **Approval:** {pending / approved YYYY-MM-DD}
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-gsd]] — core-gsd
+- [[MOC - Skills]] — Skills library
+

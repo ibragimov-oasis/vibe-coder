@@ -81,3 +81,10 @@ As you process issues, track:
 - **Supersedes** — broader issue encompassing a narrower one
 
 Use `Glob` and `Grep` to verify relationships by checking if issues touch the same code.
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-archon]] — core-archon
+- [[MOC - Skills]] — Skills library
+

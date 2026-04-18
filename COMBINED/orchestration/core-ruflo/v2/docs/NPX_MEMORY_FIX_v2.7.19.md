@@ -310,3 +310,10 @@ mcp__claude-flow__memory_usage({
 ---
 
 **All npx memory commands now work correctly with automatic JSON fallback!**
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-ruflo]] — core-ruflo
+- [[MOC - Skills]] — Skills library
+

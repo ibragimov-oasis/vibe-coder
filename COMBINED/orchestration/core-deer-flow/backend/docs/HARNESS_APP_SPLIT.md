@@ -348,3 +348,10 @@ Dockerfile 中的 module 引用从 `src.` 改为 `deerflow.` / `app.`，`COPY` �
 - **独立发布**：harness 可以发布到内部 PyPI，让其他项目直接 `pip install deerflow-harness`
 - **插件化 App**：不同的 app（web、CLI、bot）可以各自独立，都依赖同一个 harness
 - **更细粒度拆分**：如果 harness 内部模块继续增长，可以进一步拆分（如 `deerflow-sandbox`、`deerflow-mcp`）
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-deer-flow]] — core-deer-flow
+- [[MOC - Skills]] — Skills library
+

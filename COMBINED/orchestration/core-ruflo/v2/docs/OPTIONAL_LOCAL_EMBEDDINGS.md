@@ -467,3 +467,10 @@ This approach gives you:
 ✅ **Zero breaking changes** - Existing functionality unchanged
 
 **Recommendation:** Implement this optional approach for maximum user flexibility and zero friction.
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-ruflo]] — core-ruflo
+- [[MOC - Skills]] — Skills library
+

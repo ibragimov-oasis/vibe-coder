@@ -144,3 +144,10 @@ Claude Code's `"opus"` alias maps to a specific model version. Organizations may
 
 **Why `inherit` profile?**
 Some runtimes (including OpenCode) let users switch models at runtime (`/model`). The `inherit` profile keeps all GSD subagents aligned to that live selection.
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-gsd]] — core-gsd
+- [[MOC - Skills]] — Skills library
+

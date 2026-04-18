@@ -7,3 +7,10 @@ tags:
 ---
 
 Extend SQUAD_TEAM_ROOT to all resolveSquad() call sites for subprocess compatibility
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-squad]] — core-squad
+- [[MOC - Skills]] — Skills library
+

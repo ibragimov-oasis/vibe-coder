@@ -181,3 +181,10 @@ It's a DIGEST, not an archive. If accumulated context grows too large:
 The goal is "read once, know where we are" — if it's too long, that fails.
 
 </size_constraint>
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-gsd]] — core-gsd
+- [[MOC - Skills]] — Skills library
+

@@ -74,3 +74,10 @@ The skill provides:
 ## References
 
 - Issue: bradygaster/squad#622
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-squad]] — core-squad
+- [[MOC - Skills]] — Skills library
+

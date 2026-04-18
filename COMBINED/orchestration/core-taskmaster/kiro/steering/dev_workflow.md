@@ -424,3 +424,10 @@ Once a task has been broken down into subtasks using `expand_task` or similar me
 
 ---
 *This workflow provides a general guideline. Adapt it based on your specific project needs and team practices.*
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-taskmaster]] — core-taskmaster
+- [[MOC - Skills]] — Skills library
+

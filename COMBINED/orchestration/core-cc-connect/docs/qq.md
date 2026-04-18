@@ -134,3 +134,10 @@ Group chat is supported. Each user gets their own independent session, even in g
 
 只要支持正向 WebSocket 的 OneBot v11 实现都可以使用。
 Any OneBot v11 implementation with Forward WebSocket support should work.
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-cc-connect]] — core-cc-connect
+- [[MOC - Skills]] — Skills library
+

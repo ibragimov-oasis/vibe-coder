@@ -220,3 +220,10 @@ Chrome Web Store entirely, and also will increase adoption by putting it in your
 You’ll need to stand up an extension update server; these return a pretty simple manifest and the
 CRX. Follow the attached link to build a compliant server. Then, you’ll set the
 ExtensionInstallForcelist MDM property, pointing it to your extension update server.
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-background-agents]] — core-background-agents
+- [[MOC - Skills]] — Skills library
+

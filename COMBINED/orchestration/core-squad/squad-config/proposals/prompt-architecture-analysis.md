@@ -444,3 +444,10 @@ These were discovered during work. They represent the team's institutional knowl
 ---
 
 *This analysis was produced by Procedures reading the full coordinator prompt (1298 lines), all 17 Copilot-level skills, and all 10 team-level skills. Every quote is cited to its source line in `.squad-templates/squad.agent.md`.*
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-squad]] — core-squad
+- [[MOC - Skills]] — Skills library
+

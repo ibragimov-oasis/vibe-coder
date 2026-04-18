@@ -296,3 +296,10 @@ Once implemented, hermes-agent works as a drop-in backend for:
 | AionUI | 18k | Custom API endpoint |
 | HF Chat-UI | 8k | OPENAI_BASE_URL env var |
 | big-AGI | 7k | Custom endpoint |
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-hermes]] — core-hermes
+- [[MOC - Skills]] — Skills library
+

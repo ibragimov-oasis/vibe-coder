@@ -847,3 +847,10 @@ Windows でインストーラーが `EPERM: operation not permitted, scandir` �
       XX-UI-REVIEW.md     # ビジュアル監査スコア（/gsd:ui-review から）
   ui-reviews/             # /gsd:ui-review からのスクリーンショット（gitignore 対象）
 ```
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-gsd]] — core-gsd
+- [[MOC - Skills]] — Skills library
+

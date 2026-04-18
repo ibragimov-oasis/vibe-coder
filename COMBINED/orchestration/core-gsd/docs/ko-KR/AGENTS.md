@@ -433,3 +433,10 @@ GSD는 멀티 에이전트 아키텍처를 사용합니다. 가벼운 오케스�
 - Researcher는 웹 접근 권한을 가집니다 — 최신 생태계 정보가 필요하기 때문입니다
 - Executor는 Edit 권한을 가집니다 — 코드를 수정하지만 웹 접근은 없습니다
 - Mapper는 Write 권한을 가집니다 — 분석 문서를 작성하지만 Edit은 없습니다 (코드 변경 없음)
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-gsd]] — core-gsd
+- [[MOC - Skills]] — Skills library
+

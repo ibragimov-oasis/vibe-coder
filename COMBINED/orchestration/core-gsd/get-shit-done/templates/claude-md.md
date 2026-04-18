@@ -127,3 +127,10 @@ When a source file is missing, fallback text provides Claude-actionable guidance
 - Guides Claude's behavior in the absence of data
 - Not placeholder ads or "missing" notices
 - Each fallback tells Claude what to do, not just what's absent
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-gsd]] — core-gsd
+- [[MOC - Skills]] — Skills library
+

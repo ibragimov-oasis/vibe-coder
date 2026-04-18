@@ -298,3 +298,10 @@ async function listFiles(threadId: string) {
 4. **版本控制**：保留文件的多个版本
 5. **压缩包支持**：自动解压 zip 文件
 6. **图片 OCR**：对上传的图片进行 OCR 识别
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-deer-flow]] — core-deer-flow
+- [[MOC - Skills]] — Skills library
+

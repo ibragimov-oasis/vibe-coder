@@ -9,3 +9,10 @@ tags:
 
 - Tests → Hockney
 - Core features → Fenster
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-squad]] — core-squad
+- [[MOC - Skills]] — Skills library
+

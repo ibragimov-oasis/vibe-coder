@@ -382,3 +382,10 @@ End workflow.
 - Clear completion summary with line counts
 - User offered clear next steps in GSD style
 </success_criteria>
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-gsd]] — core-gsd
+- [[MOC - Skills]] — Skills library
+

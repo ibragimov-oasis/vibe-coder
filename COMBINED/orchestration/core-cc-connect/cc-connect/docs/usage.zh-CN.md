@@ -934,3 +934,10 @@ type = "feishu"  # 或 dingtalk, telegram, slack, discord, wecom, weixin, line, 
 [projects.platforms.options]
 # 平台特定配置
 ```
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-cc-connect]] — core-cc-connect
+- [[MOC - Skills]] — Skills library
+

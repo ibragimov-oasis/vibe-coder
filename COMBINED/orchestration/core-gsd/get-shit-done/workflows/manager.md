@@ -367,3 +367,10 @@ Display final status with progress bar:
 - [ ] "Other" free-text input parsed for phase number and action
 - [ ] Manager loop continues until user exits or milestone completes
 </success_criteria>
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-gsd]] — core-gsd
+- [[MOC - Skills]] — Skills library
+

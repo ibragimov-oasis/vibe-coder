@@ -1140,3 +1140,10 @@ panic = "abort"      # Abort on panic (smaller binary)
 ---
 
 *This document is the source of truth for the PraisonAI Rust SDK architecture and development guidelines.*
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-praisonai]] — core-praisonai
+- [[MOC - Skills]] — Skills library
+

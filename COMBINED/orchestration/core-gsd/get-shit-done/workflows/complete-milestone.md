@@ -772,3 +772,10 @@ Milestone completion is successful when:
 - [ ] User knows next step (/gsd:new-milestone)
 
 </success_criteria>
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-gsd]] — core-gsd
+- [[MOC - Skills]] — Skills library
+

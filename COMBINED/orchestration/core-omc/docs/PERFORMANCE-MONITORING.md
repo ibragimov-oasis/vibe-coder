@@ -510,3 +510,10 @@ cleanupReplayFiles(directory: string): number
 - [Analytics System](./ANALYTICS-SYSTEM.md) - Historical note on the removed analytics subsystem and current replacements
 - [Reference](./REFERENCE.md) - Complete feature reference
 - [Architecture](./ARCHITECTURE.md) - System architecture overview
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-omc]] — core-omc
+- [[MOC - Skills]] — Skills library
+

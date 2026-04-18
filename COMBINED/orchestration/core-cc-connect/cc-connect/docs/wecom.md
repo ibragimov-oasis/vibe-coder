@@ -447,3 +447,10 @@ proxy = "http://vps-ip:8888"
 - [接入 Slack](./slack.md)
 - [接入 Discord](./discord.md)
 - [返回首页](../README.md)
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-cc-connect]] — core-cc-connect
+- [[MOC - Skills]] — Skills library
+

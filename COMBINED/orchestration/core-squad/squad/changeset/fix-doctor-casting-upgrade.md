@@ -7,3 +7,10 @@ tags:
 ---
 
 Fix squad doctor and upgrade for insiders installs: add .squad/casting/ to ENSURE_DIRECTORIES, scaffold casting defaults from templates with permission-safe fallback, and clarify ESM warnings for global installs.
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-squad]] — core-squad
+- [[MOC - Skills]] — Skills library
+

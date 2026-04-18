@@ -783,3 +783,10 @@ Checkpoints formalize human-in-the-loop points for verification and decisions, n
 - Code correctness (tests and static analysis)
 - Anything automatable via CLI/API
 </summary>
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-gsd]] — core-gsd
+- [[MOC - Skills]] — Skills library
+

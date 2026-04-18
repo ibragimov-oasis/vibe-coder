@@ -108,3 +108,10 @@ Connect with the Refly community:
 ## License
 
 This repository is licensed under the [ReflyAI Open Source License](https://github.com/refly-ai/refly/blob/main/LICENSE), which is essentially the Apache 2.0 License with some additional restrictions.
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-refly]] — core-refly
+- [[MOC - Skills]] — Skills library
+

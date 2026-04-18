@@ -35,4 +35,11 @@ tags:
 <!-- What actually happened -->
 
 ## Additional Context
-<!-- Add any other context about the problem here, such as screenshots, logs, etc. --> 
+<!-- Add any other context about the problem here, such as screenshots, logs, etc. -->
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-praisonai]] — core-praisonai
+- [[MOC - Skills]] — Skills library
+

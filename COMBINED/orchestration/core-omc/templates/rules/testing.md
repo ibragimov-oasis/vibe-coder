@@ -47,3 +47,10 @@ Add your project-specific testing requirements here:
 - Test framework configuration
 - Mock setup patterns
 - E2E test scenarios
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-omc]] — core-omc
+- [[MOC - Skills]] — Skills library
+

@@ -467,3 +467,10 @@ A:
 
 **Q: Can I share plans with my team?**
 A: Yes! Plans are markdown files. Commit to git, share in docs, use as RFCs. They're human-readable and version-controllable.
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-omc]] — core-omc
+- [[MOC - Skills]] — Skills library
+

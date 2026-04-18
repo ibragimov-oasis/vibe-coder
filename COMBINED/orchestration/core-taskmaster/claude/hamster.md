@@ -132,3 +132,10 @@ When working with Hamster briefs, follow standard Git workflow patterns:
 - **Clear Communication**: Confirm with human before splitting work across multiple PRs
 - **Efficient Context Gathering**: Use comma-separated IDs when viewing multiple tasks
 - **Authentication Management**: Proactively refresh tokens and reconnect context when needed
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-taskmaster]] — core-taskmaster
+- [[MOC - Skills]] — Skills library
+

@@ -268,3 +268,10 @@ Each phase involves reading files, running commands, analyzing output. The back-
 
 Single feature focus ensures full quality throughout the cycle.
 </context_budget>
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-gsd]] — core-gsd
+- [[MOC - Skills]] — Skills library
+

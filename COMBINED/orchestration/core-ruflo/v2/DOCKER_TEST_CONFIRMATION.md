@@ -242,3 +242,10 @@ docker run --rm ubuntu:22.04 bash -c "
 **Tested By**: Automated Docker Testing
 **Status**: ✅ **CONFIRMED WORKING**
 **Action**: 🚀 **Ready for GitHub Issue & Release**
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-ruflo]] — core-ruflo
+- [[MOC - Skills]] — Skills library
+

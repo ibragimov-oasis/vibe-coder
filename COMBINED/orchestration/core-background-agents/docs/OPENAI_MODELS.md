@@ -95,3 +95,10 @@ fresh credentials.
 
 The OAuth refresh token may have been revoked or expired. Re-authenticate by repeating Step 1 and
 updating the secrets in your Settings page.
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-background-agents]] — core-background-agents
+- [[MOC - Skills]] — Skills library
+

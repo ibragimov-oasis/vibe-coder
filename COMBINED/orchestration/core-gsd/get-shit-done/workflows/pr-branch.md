@@ -134,3 +134,10 @@ Or use /gsd:ship to create the PR automatically.
 - [ ] Commit messages preserved from original
 - [ ] User shown next steps
 </success_criteria>
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-gsd]] — core-gsd
+- [[MOC - Skills]] — Skills library
+

@@ -671,3 +671,10 @@ The system is stable, performant, and fully functional. Minor issues identified 
 2. Consider adding metrics dashboard command
 3. Monitor ruv-swarm timeout behavior in production
 4. Document version 2.7.14 changes in CHANGELOG.md
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-ruflo]] — core-ruflo
+- [[MOC - Skills]] — Skills library
+

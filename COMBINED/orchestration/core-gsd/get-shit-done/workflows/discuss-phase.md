@@ -1054,3 +1054,10 @@ Route to `confirm_creation` step (existing behavior — show manual next steps).
 - STATE.md updated with session info
 - User knows next steps
 </success_criteria>
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-gsd]] — core-gsd
+- [[MOC - Skills]] — Skills library
+

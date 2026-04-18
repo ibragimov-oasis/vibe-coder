@@ -61,3 +61,10 @@ Closes #
 ## Screenshots (optional)
 
 <!-- If applicable, add screenshots showing the change in action. -->
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-multica]] — core-multica
+- [[MOC - Skills]] — Skills library
+

@@ -310,3 +310,10 @@ cc-connect 内置了自动重连机制，断开后会自动尝试重新连接。
 - [接入 Slack](./slack.md)
 - [接入 Discord](./discord.md)
 - [返回首页](../README.md)
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-cc-connect]] — core-cc-connect
+- [[MOC - Skills]] — Skills library
+

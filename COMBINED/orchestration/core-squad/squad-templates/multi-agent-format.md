@@ -33,3 +33,10 @@ The assembled result goes at the top. Below it, include:
 This appendix is for diagnostic integrity. Do not edit, summarize, or polish the raw outputs. The Coordinator may not rewrite raw agent outputs; it may only paste them verbatim and assemble the final artifact above.
 
 See `.squad/templates/run-output.md` for the complete output format template.
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-squad]] — core-squad
+- [[MOC - Skills]] — Skills library
+

@@ -356,3 +356,10 @@ Present next steps:
 - [ ] Coverage gaps documented
 - [ ] Next steps presented to user
 </success_criteria>
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-gsd]] — core-gsd
+- [[MOC - Skills]] — Skills library
+

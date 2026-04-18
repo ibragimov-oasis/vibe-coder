@@ -366,3 +366,10 @@ chmod -R 755 ~/COMBINED/workspace-config/claude/agents/
 Start building with Claude Flow's enterprise AI agent orchestration.
 
 **Happy coding!** 🎉
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-ruflo]] — core-ruflo
+- [[MOC - Skills]] — Skills library
+

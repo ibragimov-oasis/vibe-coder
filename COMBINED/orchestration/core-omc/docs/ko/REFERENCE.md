@@ -728,3 +728,10 @@ MIT - [LICENSE](../../LICENSE) 참조
 ## 크레딧
 
 code-yeongyu의 [oh-my-opencode](https://github.com/code-yeongyu/oh-my-opencode)에서 영감을 받았습니다.
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-omc]] — core-omc
+- [[MOC - Skills]] — Skills library
+

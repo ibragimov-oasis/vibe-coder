@@ -108,3 +108,10 @@ result = await engine.run_real_benchmark("Your task")
 **Version**: 2.0.0
 **Date**: 2025-01-06
 **Issue**: #599 (Resolved)
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-ruflo]] — core-ruflo
+- [[MOC - Skills]] — Skills library
+

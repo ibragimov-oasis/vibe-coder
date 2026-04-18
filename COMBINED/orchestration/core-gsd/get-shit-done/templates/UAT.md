@@ -270,3 +270,10 @@ skipped: 0
   debug_session: ".planning/debug/comment-not-refreshing.md"
 ```
 </good_example>
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-gsd]] — core-gsd
+- [[MOC - Skills]] — Skills library
+

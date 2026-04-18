@@ -40,3 +40,10 @@ Produce a scannable summary of what you learned:
 - **State**: How local state is managed in components
 
 Use bullet points. Keep it concise.
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-archon]] — core-archon
+- [[MOC - Skills]] — Skills library
+

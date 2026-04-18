@@ -42,3 +42,10 @@ implementation.
   flaky timeout failures under parallel test execution
 - `journey-next-day.test.ts`: added `tick(50)` between session saves to prevent
   race condition when both sessions receive the same `lastActiveAt` timestamp
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-squad]] — core-squad
+- [[MOC - Skills]] — Skills library
+

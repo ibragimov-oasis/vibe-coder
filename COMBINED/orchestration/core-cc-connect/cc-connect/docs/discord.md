@@ -313,3 +313,10 @@ Check:
 - [Telegram Setup](./telegram.md)
 - [Slack Setup](./slack.md)
 - [Back to README](../README.md)
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-cc-connect]] — core-cc-connect
+- [[MOC - Skills]] — Skills library
+

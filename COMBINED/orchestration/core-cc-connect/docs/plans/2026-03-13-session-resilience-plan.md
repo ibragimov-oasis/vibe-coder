@@ -798,3 +798,10 @@ Verify the commit sequence matches the plan:
 ```bash
 git add -A && git commit -m "fix: address issues found during integration verification"
 ```
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-cc-connect]] — core-cc-connect
+- [[MOC - Skills]] — Skills library
+

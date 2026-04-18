@@ -118,3 +118,10 @@ npx vitest run
 **Expected:**
 - [x] All tests pass
 - [x] Tests cover: routing, demo responses, pipeline wiring, agent casting
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-squad]] — core-squad
+- [[MOC - Skills]] — Skills library
+

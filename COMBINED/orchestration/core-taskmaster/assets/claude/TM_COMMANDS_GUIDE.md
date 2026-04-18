@@ -152,3 +152,10 @@ Commands analyze project state and provide intelligent suggestions based on:
 3. Commands provide smart defaults
 4. Chain commands for automation
 5. Check `/project:tm/learn` for interactive help
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-taskmaster]] — core-taskmaster
+- [[MOC - Skills]] — Skills library
+

@@ -121,3 +121,10 @@ npm test
 ```
 
 All tests validate SDK integration patterns — they don't require live Copilot access.
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-squad]] — core-squad
+- [[MOC - Skills]] — Skills library
+

@@ -45,3 +45,10 @@ Para detalhes completos de implementação, veja [context-monitor.md em inglês]
 
 > [!TIP]
 > O monitor não substitui boas práticas de escopo. Planos pequenos e verificáveis continuam sendo o principal fator de qualidade.
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-gsd]] — core-gsd
+- [[MOC - Skills]] — Skills library
+

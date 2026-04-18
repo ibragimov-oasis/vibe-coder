@@ -63,3 +63,10 @@ tags:
 - **Claude Code SDK**: `@anthropic-ai/claude-code` for AI interactions
 - **21st.dev CDN**: Auto-update manifests and releases at `cdn.21st.dev`
 - **OAuth Provider**: Authentication flow
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-1code]] — core-1code
+- [[MOC - Skills]] — Skills library
+

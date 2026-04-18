@@ -123,3 +123,10 @@ Structured `slog` logging at key lifecycle points:
 2. Diagnostic logging (needed to verify the other changes work)
 3. Resume failure fallback (highest-value fix)
 4. Context consumption indicator (most complex, benefits from logging already being in place)
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-cc-connect]] — core-cc-connect
+- [[MOC - Skills]] — Skills library
+

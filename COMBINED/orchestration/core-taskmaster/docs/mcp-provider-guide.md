@@ -569,3 +569,10 @@ Planned improvements for MCP provider:
 4. **Advanced Error Recovery** - Intelligent retry and fallback strategies
 
 **Note**: True streaming support depends on future MCP protocol enhancements. Current implementation provides text generation without streaming capabilities.
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-taskmaster]] — core-taskmaster
+- [[MOC - Skills]] — Skills library
+

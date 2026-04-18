@@ -102,3 +102,10 @@ This roadmap defines the next wave: agent utilization cleanup, routing simplific
 - Alias-first migration (never hard-remove first).
 - Protected-mode regression suite required on every consolidation PR.
 - Incremental rollout with clear rollback path.
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-omc]] — core-omc
+- [[MOC - Skills]] — Skills library
+

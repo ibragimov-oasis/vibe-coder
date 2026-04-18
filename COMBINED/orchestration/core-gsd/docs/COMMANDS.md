@@ -938,3 +938,10 @@ Open Discord community invite.
 ```bash
 /gsd:join-discord
 ```
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-gsd]] — core-gsd
+- [[MOC - Skills]] — Skills library
+

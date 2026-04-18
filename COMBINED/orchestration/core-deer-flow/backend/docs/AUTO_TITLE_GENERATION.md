@@ -263,3 +263,10 @@ def after_agent(self, state: TitleMiddlewareState, runtime: Runtime) -> dict | N
 - [LangGraph Checkpointer 文档](https://langchain-ai.github.io/langgraph/concepts/persistence/)
 - [LangGraph State 管理](https://langchain-ai.github.io/langgraph/concepts/low_level/#state)
 - [LangGraph Middleware](https://langchain-ai.github.io/langgraph/concepts/middleware/)
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-deer-flow]] — core-deer-flow
+- [[MOC - Skills]] — Skills library
+

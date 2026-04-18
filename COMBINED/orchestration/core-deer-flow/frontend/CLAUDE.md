@@ -95,3 +95,10 @@ NEXT_PUBLIC_LANGGRAPH_BASE_URL=http://localhost:2024
 ```
 
 Requires Node.js 22+ and pnpm 10.26.2+.
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-deer-flow]] — core-deer-flow
+- [[MOC - Skills]] — Skills library
+

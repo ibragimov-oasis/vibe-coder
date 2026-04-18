@@ -147,3 +147,10 @@ Provide a comprehensive report:
 - Next steps for enhancement
 
 Be thorough but constructive. Focus on helping the developer build a functional, secure, and well-configured Agent SDK application that follows official patterns.
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-archon]] — core-archon
+- [[MOC - Skills]] — Skills library
+

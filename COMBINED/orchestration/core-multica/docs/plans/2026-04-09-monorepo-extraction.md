@@ -873,3 +873,10 @@ apps/desktop/
 | Desktop placeholders | 3 个 | 0 |
 | 共享 views 模块 | 7 个 | 12 个 |
 | 两端重复代码 | ~1,500 行 | 0 行 |
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-multica]] — core-multica
+- [[MOC - Skills]] — Skills library
+

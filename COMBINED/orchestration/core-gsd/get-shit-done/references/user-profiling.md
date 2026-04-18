@@ -686,3 +686,10 @@ Context-dependent splits are resolved during Phase 3 orchestration. The orchestr
 *Reference document version: 1.0*
 *Dimensions: 8*
 *Schema: profile_version 1.0*
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-gsd]] — core-gsd
+- [[MOC - Skills]] — Skills library
+

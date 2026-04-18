@@ -7,3 +7,10 @@ tags:
 ---
 
 fix(watch): 3 UX improvements — round timing output, --log-file tee flag, immediate startup feedback (#2141)
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-squad]] — core-squad
+- [[MOC - Skills]] — Skills library
+

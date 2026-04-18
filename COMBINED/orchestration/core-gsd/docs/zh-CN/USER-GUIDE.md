@@ -497,3 +497,10 @@ claude --dangerously-skip-permissions
       RESEARCH.md         # 生态研究发现
       VERIFICATION.md     # 执行后验证结果
 ```
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-gsd]] — core-gsd
+- [[MOC - Skills]] — Skills library
+

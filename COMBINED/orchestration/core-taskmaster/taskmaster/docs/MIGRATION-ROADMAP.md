@@ -193,3 +193,10 @@ describe('List Tasks', () => {
 4. **Communicate**: Discuss in PRs if architecture needs adjustment
 
 This is a living document - update as the migration progresses!
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-taskmaster]] — core-taskmaster
+- [[MOC - Skills]] — Skills library
+

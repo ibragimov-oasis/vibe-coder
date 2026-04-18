@@ -42,3 +42,10 @@ completed: YYYY-MM-DD
 
 ## Next Phase Readiness
 [Ready for next phase]
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-gsd]] — core-gsd
+- [[MOC - Skills]] — Skills library
+

@@ -716,3 +716,10 @@ How do we know these improvements work?
 - Implementer-fix workflow change needs careful evaluation
 
 These changes address real problems documented by users while minimizing risk of making skills worse.
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/superpowers]] — superpowers
+- [[MOC - Skills]] — Skills library
+

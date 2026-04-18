@@ -46,3 +46,10 @@ Add your project-specific git workflow here:
 - Branch protection rules
 - Required reviewers
 - CI/CD requirements
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-omc]] — core-omc
+- [[MOC - Skills]] — Skills library
+

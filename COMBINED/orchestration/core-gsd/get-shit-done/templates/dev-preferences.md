@@ -23,3 +23,10 @@ that's off").
 ## Stack Preferences
 
 {{stack_preferences}}
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-gsd]] — core-gsd
+- [[MOC - Skills]] — Skills library
+

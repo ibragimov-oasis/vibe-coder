@@ -217,3 +217,10 @@ Before you stop, verify ALL of these are done:
 - [ ] Updated memory with findings and backlog
 
 If any item is unchecked, you are not done. Keep going.
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-archon]] — core-archon
+- [[MOC - Skills]] — Skills library
+

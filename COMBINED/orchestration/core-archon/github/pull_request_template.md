@@ -134,3 +134,10 @@ List real risks in this PR (or write `None`).
 
 - Risk:
   - Mitigation:
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-archon]] — core-archon
+- [[MOC - Skills]] — Skills library
+

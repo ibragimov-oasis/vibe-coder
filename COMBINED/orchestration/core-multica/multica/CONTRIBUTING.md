@@ -453,3 +453,10 @@ Worktree:
 ```bash
 make check-worktree
 ```
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-multica]] — core-multica
+- [[MOC - Skills]] — Skills library
+

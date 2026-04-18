@@ -441,3 +441,10 @@ The current branch (`claude/align-flow-with-mcp-011CV45c34eF2MawJHUpj9XD`) **suc
 **Date**: 2025-11-12
 **Status**: ✅ **APPROVED FOR RELEASE**
 **Action**: ✅ **NO MERGE NEEDED** - Proceed with current branch
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-ruflo]] — core-ruflo
+- [[MOC - Skills]] — Skills library
+

@@ -328,3 +328,10 @@ Run /gsd:reapply-patches to merge your modifications into the new version.
 - [ ] Update executed successfully
 - [ ] Restart reminder shown
 </success_criteria>
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-gsd]] — core-gsd
+- [[MOC - Skills]] — Skills library
+

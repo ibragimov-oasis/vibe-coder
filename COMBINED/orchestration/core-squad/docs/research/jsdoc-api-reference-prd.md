@@ -457,3 +457,10 @@ Please review and approve:
 - **Astro Integration API**: https://docs.astro.build/en/guides/integrations-guide/
 - **Pagefind**: https://pagefind.app/
 - **Related PR**: #481 (StorageProvider interface, Phase 2 state layer)
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-squad]] — core-squad
+- [[MOC - Skills]] — Skills library
+

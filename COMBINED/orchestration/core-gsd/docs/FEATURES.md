@@ -1295,3 +1295,10 @@ Test suite that scans all agent, workflow, and command files for embedded inject
 1. **Detect** — Identify available AI CLI runtimes on the system
 2. **Prompt** — Present multi-select interface for runtime selection
 3. **Install** — Configure GSD for all selected runtimes in a single session
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-gsd]] — core-gsd
+- [[MOC - Skills]] — Skills library
+

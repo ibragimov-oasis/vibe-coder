@@ -167,3 +167,10 @@ Loop until "Create PROJECT.md" selected.
 </anti_patterns>
 
 </questioning_guide>
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-gsd]] — core-gsd
+- [[MOC - Skills]] — Skills library
+

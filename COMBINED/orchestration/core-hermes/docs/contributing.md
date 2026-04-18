@@ -235,3 +235,10 @@ fix(security): prevent shell injection in sudo password piping
 ## License
 
 By contributing, you agree that your contributions will be licensed under the [MIT License](https://github.com/NousResearch/hermes-agent/blob/main/LICENSE).
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-hermes]] — core-hermes
+- [[MOC - Skills]] — Skills library
+

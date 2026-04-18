@@ -450,3 +450,10 @@ This command:
    - For subtasks, provides a link to view the parent task
 
 This command is particularly useful when you need to examine a specific task in detail before implementing it or when you want to check the status and details of a particular task.
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-taskmaster]] — core-taskmaster
+- [[MOC - Skills]] — Skills library
+

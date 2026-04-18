@@ -136,3 +136,10 @@ await listCommand.parseAsync(['node', 'script', '--format', 'json']);
 - Remove old implementations gradually
 
 This POC proves the pattern works and provides a clean migration path!
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-taskmaster]] — core-taskmaster
+- [[MOC - Skills]] — Skills library
+

@@ -279,3 +279,10 @@ test("example", async ({ page }) => {
   // api.cleanup() in afterEach removes the issue
 });
 ```
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-multica]] — core-multica
+- [[MOC - Skills]] — Skills library
+

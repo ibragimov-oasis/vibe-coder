@@ -234,3 +234,10 @@ HERMES_LOG_LEVEL=DEBUG hermes acp
 - [ACP Specification](https://github.com/anysphere/acp)
 - [Hermes Agent Documentation](https://github.com/NousResearch/hermes-agent)
 - Run `hermes --help` for all CLI options
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-hermes]] — core-hermes
+- [[MOC - Skills]] — Skills library
+

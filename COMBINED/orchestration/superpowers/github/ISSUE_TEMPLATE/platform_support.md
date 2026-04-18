@@ -25,3 +25,10 @@ requested or discussed.
 ## Have you tried manual installation?
 <!-- Many tools work with Superpowers through manual setup even without
      official support. Did you try? What happened? -->
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/superpowers]] — superpowers
+- [[MOC - Skills]] — Skills library
+

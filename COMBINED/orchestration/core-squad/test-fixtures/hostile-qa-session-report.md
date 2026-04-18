@@ -137,3 +137,10 @@ These were filed earlier (2025-07-25) and remain open:
 The proper entry point (`packages/squad-cli/dist/cli-entry.js`) works well. The root bundle is the problem. Fix the stale bundle, add loading feedback, and tier the help output to eliminate friction.
 
 Edge case handling, error messages, and unicode support are all solid. The happy path works — it's the entry experience that needs polish.
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-squad]] — core-squad
+- [[MOC - Skills]] — Skills library
+

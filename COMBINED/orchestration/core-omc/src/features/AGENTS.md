@@ -193,3 +193,10 @@ npm test -- --grep "features"
 | rate-limit-wait | Rate limit handling | `.omc/state/rate-limits.json` |
 
 <!-- MANUAL: -->
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-omc]] — core-omc
+- [[MOC - Skills]] — Skills library
+

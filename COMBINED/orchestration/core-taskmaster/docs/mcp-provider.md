@@ -355,3 +355,10 @@ Error: MCP session must have client sampling capabilities
 3. **Tool Integration** - Add support for function calling through MCP tools
 4. **Monitoring** - Add metrics and logging for provider usage
 5. **Documentation** - Update user guides and API documentation
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-taskmaster]] — core-taskmaster
+- [[MOC - Skills]] — Skills library
+

@@ -350,3 +350,10 @@ With proper memory writes, agents can:
 - Wait for dependencies intelligently
 - Coordinate complex multi-step tasks
 - Provide visibility into swarm operations
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-ruflo]] — core-ruflo
+- [[MOC - Skills]] — Skills library
+

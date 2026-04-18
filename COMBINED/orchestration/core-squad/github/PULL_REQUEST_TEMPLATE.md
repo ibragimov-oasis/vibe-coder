@@ -59,3 +59,10 @@ tags:
 
 ### Waivers
 <!-- If skipping any REQUIRED item: 1) Request waiver in this section, 2) Named reviewer must approve in PR comments BEFORE merge. Format: "Waived: {item}, reason: {why}, approved by: {Flight|FIDO}" -->
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-squad]] — core-squad
+- [[MOC - Skills]] — Skills library
+

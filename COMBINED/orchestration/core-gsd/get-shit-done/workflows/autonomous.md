@@ -896,3 +896,10 @@ When any phase operation fails or a blocker is detected, present 3 options via A
 - [ ] UI phase and UI review respect workflow.ui_phase and workflow.ui_review config toggles
 - [ ] UI review is advisory (non-blocking) — phase proceeds to iterate regardless of score
 </success_criteria>
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-gsd]] — core-gsd
+- [[MOC - Skills]] — Skills library
+

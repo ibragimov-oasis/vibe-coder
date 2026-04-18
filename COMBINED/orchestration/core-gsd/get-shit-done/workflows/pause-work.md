@@ -181,3 +181,10 @@ To resume: /gsd:resume-work
 - [ ] Committed as WIP
 - [ ] User knows location and how to resume
 </success_criteria>
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-gsd]] — core-gsd
+- [[MOC - Skills]] — Skills library
+

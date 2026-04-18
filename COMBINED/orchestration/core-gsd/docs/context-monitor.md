@@ -120,3 +120,10 @@ For Gemini CLI (`~/.gemini/settings.json`), use `AfterTool` instead of `PostTool
 - It never blocks tool execution — a broken monitor should not break the agent's workflow
 - Stale metrics (older than 60s) are ignored
 - Missing bridge files are handled gracefully (subagents, fresh sessions)
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-gsd]] — core-gsd
+- [[MOC - Skills]] — Skills library
+

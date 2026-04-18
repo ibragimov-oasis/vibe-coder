@@ -857,3 +857,10 @@ For reference, here is what GSD creates in your project:
       XX-UI-REVIEW.md     # Visual audit scores (from /gsd:ui-review)
   ui-reviews/             # Screenshots from /gsd:ui-review (gitignored)
 ```
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-gsd]] — core-gsd
+- [[MOC - Skills]] — Skills library
+

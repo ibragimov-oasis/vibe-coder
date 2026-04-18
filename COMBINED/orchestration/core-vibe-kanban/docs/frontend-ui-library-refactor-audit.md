@@ -433,3 +433,10 @@ Date: 2026-02-21
 - `packages/ui`: design tokens, core primitives, small reusable composed controls.
 - `packages/editor-ui` (later): WYSIWYG/editor-specific nodes and plugins.
 - `frontend`: feature views/containers/dialogs and integration-heavy components.
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-vibe-kanban]] — core-vibe-kanban
+- [[MOC - Skills]] — Skills library
+

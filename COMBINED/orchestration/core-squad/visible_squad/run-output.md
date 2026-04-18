@@ -55,3 +55,10 @@ tags:
 ### {Name} ({Role}) — Raw Output
 
 {Paste agent's verbatim response here, unedited}
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-squad]] — core-squad
+- [[MOC - Skills]] — Skills library
+

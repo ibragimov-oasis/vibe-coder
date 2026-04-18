@@ -115,3 +115,10 @@ hermes skills install openclaw-migration
 
 ### Memory overflow
 If your OpenClaw MEMORY.md or USER.md exceeds Hermes' character limits, excess entries are exported to an overflow file in the migration report directory. You can manually review and add the most important ones.
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-hermes]] — core-hermes
+- [[MOC - Skills]] — Skills library
+

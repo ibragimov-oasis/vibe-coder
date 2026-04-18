@@ -15,3 +15,10 @@ Add `--notify-level` to control watch round reporting noise (#803)
   (shown in round headers when the board has items, and in "Board is clear" message)
 - Configurable via `.squad/config.json` watch section: `"notifyLevel": "important"`
 - Empty rounds silenced by default — no more "Round 160, Round 161" spam
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-squad]] — core-squad
+- [[MOC - Skills]] — Skills library
+

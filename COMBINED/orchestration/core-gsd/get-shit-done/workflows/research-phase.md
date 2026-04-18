@@ -87,3 +87,10 @@ Write to: .planning/phases/${PHASE}-{slug}/${PHASE}-RESEARCH.md
 - `## RESEARCH INCONCLUSIVE` — Show attempts, offer: Add context/Try different mode/Manual
 
 </process>
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-gsd]] — core-gsd
+- [[MOC - Skills]] — Skills library
+

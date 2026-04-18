@@ -148,3 +148,10 @@ go build -tags no_weixin ./cmd/cc-connect
 - 仓库内示例配置：[config.example.toml](../config.example.toml)  
 - 使用指南中的 CLI 摘要：[usage.zh-CN.md](./usage.zh-CN.md)（「微信个人号配置 CLI」）  
 - OpenClaw 同类插件（参考实现）：`openclaw-weixin`
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-cc-connect]] — core-cc-connect
+- [[MOC - Skills]] — Skills library
+

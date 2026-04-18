@@ -444,3 +444,10 @@ With **NO REGRESSIONS**, **massive performance gains**, and **comprehensive docu
 **Version**: v2.7.32
 **Status**: ✅ **PRODUCTION READY**
 **Merge Status**: ✅ **APPROVED**
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-ruflo]] — core-ruflo
+- [[MOC - Skills]] — Skills library
+

@@ -642,3 +642,10 @@ npx claude-flow@alpha memory status  # May still error if ONNX not installed (OK
 **Recommendation:** UPDATE LIBRARIES (10 minutes, low risk, high benefit)
 
 **Next Review:** After upgrading to latest versions
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-ruflo]] — core-ruflo
+- [[MOC - Skills]] — Skills library
+

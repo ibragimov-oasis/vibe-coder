@@ -360,3 +360,10 @@ Users can check ReasoningBank data using:
 - `/workspaces/claude-code-flow/src/reasoningbank/reasoningbank-adapter.js` (working `getStatus()` function)
 - `.swarm/memory.db` (SQLite database with 19 entries)
 - `./memory/memory-store.json` (empty JSON file)
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-ruflo]] — core-ruflo
+- [[MOC - Skills]] — Skills library
+

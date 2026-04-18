@@ -972,3 +972,10 @@ Good luck. You've got this.
 ---
 
 *These notes are optimized for a 60-minute seminar with live demos. Adjust timing based on audience engagement and technical difficulties. Always prioritize the demos - seeing is believing.*
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-omc]] — core-omc
+- [[MOC - Skills]] — Skills library
+

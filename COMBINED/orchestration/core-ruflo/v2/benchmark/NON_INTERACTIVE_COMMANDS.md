@@ -114,3 +114,10 @@ npx claude-flow@v2.0.0-alpha.83 hive-mind spawn "Simple task" --count 2 --non-in
 # Test SPARC (already non-interactive)
 npx claude-flow@v2.0.0-alpha.83 sparc tdd "Simple function"
 ```
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-ruflo]] — core-ruflo
+- [[MOC - Skills]] — Skills library
+

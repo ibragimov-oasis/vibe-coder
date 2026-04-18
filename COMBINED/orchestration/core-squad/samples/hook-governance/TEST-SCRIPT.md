@@ -56,3 +56,10 @@ npx tsc --noEmit
 ### 5. Verify combined policies
 
 Look at the "Combined Pipeline" test in `tests/hook-governance.test.ts` — it creates a single pipeline with all four policies active and verifies they all enforce simultaneously.
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-squad]] — core-squad
+- [[MOC - Skills]] — Skills library
+

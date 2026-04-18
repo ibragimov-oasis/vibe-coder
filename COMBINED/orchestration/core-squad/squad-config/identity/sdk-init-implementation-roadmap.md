@@ -732,3 +732,10 @@ Fix 7 (Ralph during init)
 4. Assign to team members based on expertise
 
 **END OF ROADMAP**
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-squad]] — core-squad
+- [[MOC - Skills]] — Skills library
+

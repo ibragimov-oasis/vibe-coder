@@ -623,3 +623,10 @@ Claude Flow v2.7.33 is a **major feature release** that brings:
 **Status**: ✅ **READY FOR PRODUCTION DEPLOYMENT**
 
 🚀 **Happy orchestrating!**
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-ruflo]] — core-ruflo
+- [[MOC - Skills]] — Skills library
+

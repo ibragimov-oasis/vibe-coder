@@ -254,3 +254,10 @@ Sounds like an afterthought. Use "Also available:" instead.
 ```
 
 Fenced blocks inside templates create nesting ambiguity. Use inline backticks instead.
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-gsd]] — core-gsd
+- [[MOC - Skills]] — Skills library
+

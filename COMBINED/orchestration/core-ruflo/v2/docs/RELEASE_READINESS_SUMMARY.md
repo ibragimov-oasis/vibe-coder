@@ -382,3 +382,10 @@ npx claude-flow mcp start --mcp2025
 **Risk**: ✅ **MINIMAL (Zero breaking changes)**
 
 🚀 **Ready for immediate deployment!**
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-ruflo]] — core-ruflo
+- [[MOC - Skills]] — Skills library
+

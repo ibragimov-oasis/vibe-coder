@@ -128,3 +128,10 @@ Created test files demonstrate:
 ## Conclusion
 
 The telemetry infrastructure is well-designed but incomplete. The main issue is that telemetry code exists in isolation and is never called by the core Agent/PraisonAIAgents classes. Additionally, even if it were integrated, the lack of automatic flush mechanisms means data would never reach PostHog.
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-praisonai]] — core-praisonai
+- [[MOC - Skills]] — Skills library
+

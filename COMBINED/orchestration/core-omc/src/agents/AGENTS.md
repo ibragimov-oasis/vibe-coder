@@ -253,3 +253,10 @@ None - pure TypeScript definitions.
 - Legacy alias wording was removed from active prompts to keep agent naming consistent with current conventions.
 - Consensus planning prompts (planner/architect/critic) now enforce RALPLAN-DR structured deliberation, including `--deliberate` high-risk checks.
 -->
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-omc]] — core-omc
+- [[MOC - Skills]] — Skills library
+

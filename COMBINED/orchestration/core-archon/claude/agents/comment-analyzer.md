@@ -118,3 +118,10 @@ Look for comment rot indicators:
 - **"Why" over "what"** - Prefer comments explaining intent
 - **Evidence-based** - Every issue needs code reference proving it
 - **Advisory only** - Report issues, don't fix them yourself
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-archon]] — core-archon
+- [[MOC - Skills]] — Skills library
+

@@ -97,3 +97,10 @@ that documents the enforcement behavior, cadence, and required output format.
 
 - Issue: bradygaster/squad#601
 - Production data: tamirdresher/tamresearch1 (0% vs 85%+ completion, 6 retrospectives)
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-squad]] — core-squad
+- [[MOC - Skills]] — Skills library
+

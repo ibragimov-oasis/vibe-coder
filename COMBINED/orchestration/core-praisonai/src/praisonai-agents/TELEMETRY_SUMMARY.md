@@ -38,3 +38,10 @@ Telemetry metrics collected:
 Set any of these environment variables:
 - `PRAISONAI_TELEMETRY_DISABLED=true`
 - `DO_NOT_TRACK=true`
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-praisonai]] — core-praisonai
+- [[MOC - Skills]] — Skills library
+

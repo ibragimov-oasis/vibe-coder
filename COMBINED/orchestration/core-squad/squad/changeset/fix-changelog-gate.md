@@ -7,3 +7,10 @@ tags:
 ---
 
 Fix changelog-gate CI to accept .changeset/ files as alternative to direct CHANGELOG.md edits
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-squad]] — core-squad
+- [[MOC - Skills]] — Skills library
+

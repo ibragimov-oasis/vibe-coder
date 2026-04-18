@@ -131,3 +131,10 @@ Junctions normally work without special permissions. If creation fails, try runn
 
 - Report issues: https://github.com/obra/superpowers/issues
 - Main documentation: https://github.com/obra/superpowers
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/superpowers]] — superpowers
+- [[MOC - Skills]] — Skills library
+

@@ -72,3 +72,10 @@ rm ~/.agents/skills/superpowers
 ```
 
 Optionally delete the clone: `rm -rf ~/.codex/superpowers`.
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/superpowers]] — superpowers
+- [[MOC - Skills]] — Skills library
+

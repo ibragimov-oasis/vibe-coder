@@ -161,3 +161,10 @@ Promoted from quick note captured on {original date}.
 - [ ] Promote: Source note marked as promoted
 - [ ] Global fallback: Works when no `.planning/` exists
 </success_criteria>
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-gsd]] — core-gsd
+- [[MOC - Skills]] — Skills library
+

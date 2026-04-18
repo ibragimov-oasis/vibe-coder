@@ -213,3 +213,9 @@ These are moments where users see nothing or insufficient feedback:
 
 This spec is actionable. Each proposed change includes rationale. Implement in priority order.
 
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-squad]] — core-squad
+- [[MOC - Skills]] — Skills library
+

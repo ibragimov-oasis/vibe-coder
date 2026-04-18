@@ -55,3 +55,10 @@ existing GitHub behavior and prevents unsafe coupling during future provider con
 - Add new provider logic under `packages/control-plane/src/source-control/providers`.
 - Register provider in factory and env resolver.
 - Do not add provider-specific URL/token logic to router/session/slack layers.
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-background-agents]] — core-background-agents
+- [[MOC - Skills]] — Skills library
+

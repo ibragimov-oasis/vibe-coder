@@ -257,3 +257,10 @@ When contributing:
 2. Add comprehensive tests for security features
 3. Ensure graceful fallback when sandlock unavailable
 4. Update documentation with new capabilities
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-praisonai]] — core-praisonai
+- [[MOC - Skills]] — Skills library
+

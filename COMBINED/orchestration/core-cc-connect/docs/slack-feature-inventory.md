@@ -83,3 +83,10 @@ All Slack-specific code lives in `platform/slack/`. Core uses interface-based ca
 - `ChannelNameResolver` for channel name lookup
 - `StartTyping()` via `TypingIndicator` interface (if implemented)
 - No hardcoded "slack" references in core/
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-cc-connect]] — core-cc-connect
+- [[MOC - Skills]] — Skills library
+

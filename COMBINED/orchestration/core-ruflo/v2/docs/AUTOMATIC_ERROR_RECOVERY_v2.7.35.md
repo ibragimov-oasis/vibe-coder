@@ -326,3 +326,10 @@ Closes:
 
 **Status**: ✅ Implementation Complete - Ready for Testing
 **Next**: Docker validation and beta release
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-ruflo]] — core-ruflo
+- [[MOC - Skills]] — Skills library
+

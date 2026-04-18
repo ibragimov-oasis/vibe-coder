@@ -484,3 +484,10 @@ This is the first stable release of cc-connect 1.2.0, consolidating all beta cha
 - Claude Code agent support
 - Platforms: Feishu, DingTalk, Telegram, Slack, Discord, LINE, WeChat Work
 - Commands: `/new`, `/list`, `/switch`, `/history`, `/quiet`, `/mode`, `/allow`, `/stop`, `/help`
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-cc-connect]] — core-cc-connect
+- [[MOC - Skills]] — Skills library
+

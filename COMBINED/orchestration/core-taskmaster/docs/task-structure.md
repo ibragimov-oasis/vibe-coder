@@ -431,3 +431,10 @@ When Task Master encounters a legacy format `tasks.json` file:
 - **Clear Dependencies**: Define subtask dependencies to show implementation order
 - **Implementation Notes**: Use subtask details to track progress and decisions
 - **Status Tracking**: Keep subtask status updated as work progresses
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-taskmaster]] — core-taskmaster
+- [[MOC - Skills]] — Skills library
+

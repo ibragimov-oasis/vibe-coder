@@ -227,3 +227,10 @@ pytest
 ---
 
 *实现完成时间: 2026-01-14*
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-deer-flow]] — core-deer-flow
+- [[MOC - Skills]] — Skills library
+

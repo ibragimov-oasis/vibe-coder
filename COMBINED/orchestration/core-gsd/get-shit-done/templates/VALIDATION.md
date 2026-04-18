@@ -78,3 +78,10 @@ tags:
 - [ ] `nyquist_compliant: true` set in frontmatter
 
 **Approval:** {pending / approved YYYY-MM-DD}
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-gsd]] — core-gsd
+- [[MOC - Skills]] — Skills library
+

@@ -42,3 +42,10 @@ The appendix provides diagnostic integrity. It lets anyone verify:
 - What was lost or changed in synthesis
 
 Without raw outputs, multi-agent collaboration is unauditable.
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-squad]] — core-squad
+- [[MOC - Skills]] — Skills library
+

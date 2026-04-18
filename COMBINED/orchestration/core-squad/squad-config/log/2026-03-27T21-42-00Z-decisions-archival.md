@@ -53,3 +53,10 @@ Successfully archived 71 dated decision entries spanning 33 days of team decisio
 - **No functionality loss:** Archived decisions remain accessible via decisions-archive.md
 - **Append-only integrity:** Archive file can only grow; merge conflicts impossible
 - **Future gate compliance:** Next archival not needed until decisions.md reaches 20KB again
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-squad]] — core-squad
+- [[MOC - Skills]] — Skills library
+

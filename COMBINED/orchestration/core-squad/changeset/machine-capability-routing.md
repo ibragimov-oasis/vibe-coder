@@ -17,3 +17,10 @@ This enables multi-machine Squad deployments where different machines handle
 different types of work based on their available tooling.
 
 Closes #514
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-squad]] — core-squad
+- [[MOC - Skills]] — Skills library
+

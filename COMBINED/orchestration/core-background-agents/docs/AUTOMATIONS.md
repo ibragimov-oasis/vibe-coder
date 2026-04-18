@@ -174,3 +174,10 @@ auto-pause threshold.
 | Concurrent runs per automation         | 1                 |
 | Consecutive failures before auto-pause | 3                 |
 | Run execution timeout                  | 90 minutes        |
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-background-agents]] — core-background-agents
+- [[MOC - Skills]] — Skills library
+

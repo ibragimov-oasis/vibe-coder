@@ -191,3 +191,10 @@ See: .planning/PROJECT.md (updated [date])
 This ensures Claude reads current PROJECT.md context.
 
 </state_reference>
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-gsd]] — core-gsd
+- [[MOC - Skills]] — Skills library
+

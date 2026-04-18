@@ -1203,3 +1203,10 @@ This integration plan provides:
 - **Phase 2** (After Nov 25): Production rollout
 
 Ready to start implementation? I can begin with Phase 0A (Async Operations) for Agentic Flow.
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-ruflo]] — core-ruflo
+- [[MOC - Skills]] — Skills library
+

@@ -469,3 +469,10 @@ OUTPUT: Summary + next steps
 - **SCOPE_BOUNDED**: Clear must-haves and explicit out-of-scope
 - **QUESTIONS_ACKNOWLEDGED**: Uncertainties are listed, not hidden
 - **ACTIONABLE**: A skeptic could understand why this is worth building
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-archon]] — core-archon
+- [[MOC - Skills]] — Skills library
+

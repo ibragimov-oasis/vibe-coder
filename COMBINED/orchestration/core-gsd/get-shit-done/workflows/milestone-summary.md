@@ -228,3 +228,10 @@ gsd-tools.cjs state record-session \
   --stopped-at "Milestone v${VERSION} summary generated" \
   --resume-file ".planning/reports/MILESTONE_SUMMARY-v${VERSION}.md"
 ```
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-gsd]] — core-gsd
+- [[MOC - Skills]] — Skills library
+

@@ -135,3 +135,10 @@ Phase insertion is complete when:
 - [ ] STATE.md updated with roadmap evolution note
 - [ ] User informed of next steps and dependency implications
 </success_criteria>
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-gsd]] — core-gsd
+- [[MOC - Skills]] — Skills library
+

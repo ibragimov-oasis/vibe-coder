@@ -77,3 +77,10 @@ console.log(skills); // Should be []
 
 **Expected:**
 - [ ] Returns empty array, no error thrown
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-squad]] — core-squad
+- [[MOC - Skills]] — Skills library
+

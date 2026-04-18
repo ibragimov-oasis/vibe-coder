@@ -349,3 +349,10 @@ Ralph, show me productivity for week of March 10
 - [Generic Scheduler](/features/generic-scheduler) — Schedule Ralph's heartbeat
 - [Upstream Auto-Sync](/features/upstream-sync) — Ralph monitors sync status
 - [Cross-Squad Orchestration](/features/cross-squad-orchestration) — Ralph tracks delegation
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-squad]] — core-squad
+- [[MOC - Skills]] — Skills library
+

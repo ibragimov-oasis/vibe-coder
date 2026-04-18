@@ -233,3 +233,10 @@ After shipping:
 - [ ] STATE.md updated with shipping status
 - [ ] User knows PR number and next steps
 </success_criteria>
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-gsd]] — core-gsd
+- [[MOC - Skills]] — Skills library
+

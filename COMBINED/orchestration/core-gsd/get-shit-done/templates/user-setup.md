@@ -316,3 +316,10 @@ curl -X POST http://localhost:3000/api/test-email \
 **Naming:** `{phase}-USER-SETUP.md` matches the phase number pattern.
 **Status tracking:** User marks checkboxes and updates status line when complete.
 **Searchability:** `grep -r "USER-SETUP" .planning/` finds all phases with user requirements.
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-gsd]] — core-gsd
+- [[MOC - Skills]] — Skills library
+

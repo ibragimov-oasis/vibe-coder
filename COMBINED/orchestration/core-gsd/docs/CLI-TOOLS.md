@@ -371,3 +371,10 @@ node gsd-tools.cjs websearch <query> [--limit N] [--freshness day|week|month]
 | UAT | `lib/uat.cjs` | Cross-phase UAT/verification audit |
 | Profile Output | `lib/profile-output.cjs` | Developer profile formatting |
 | Profile Pipeline | `lib/profile-pipeline.cjs` | Session analysis pipeline |
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-gsd]] — core-gsd
+- [[MOC - Skills]] — Skills library
+

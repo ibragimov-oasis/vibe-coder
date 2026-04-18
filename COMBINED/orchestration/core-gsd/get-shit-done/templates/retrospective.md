@@ -59,3 +59,10 @@ tags:
 
 1. {Lesson verified by multiple milestones}
 2. {Another cross-validated lesson}
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-gsd]] — core-gsd
+- [[MOC - Skills]] — Skills library
+

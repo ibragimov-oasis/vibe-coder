@@ -401,3 +401,10 @@ Open an issue or ask in `.squad/` discussion channels. The team is here to help.
 ## License
 
 All contributions are MIT-licensed. By submitting a PR, you agree to this license.
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-squad]] — core-squad
+- [[MOC - Skills]] — Skills library
+

@@ -102,3 +102,10 @@ Do not ask for confirmation — the whole point of `/gsd:next` is zero-friction 
 - [ ] Command invoked immediately without user confirmation
 - [ ] Clear status shown before invoking
 </success_criteria>
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-gsd]] — core-gsd
+- [[MOC - Skills]] — Skills library
+

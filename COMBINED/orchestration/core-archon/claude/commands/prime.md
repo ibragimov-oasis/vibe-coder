@@ -77,3 +77,10 @@ Provide a concise summary (under 300 words) covering:
 - Any observations relevant to next task
 
 **Keep it scannable — bullets over prose.**
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-archon]] — core-archon
+- [[MOC - Skills]] — Skills library
+

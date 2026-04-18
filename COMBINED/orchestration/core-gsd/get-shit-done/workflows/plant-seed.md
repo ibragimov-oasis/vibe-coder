@@ -174,3 +174,10 @@ and the milestone scope matches the trigger condition.
 - [ ] Committed to git
 - [ ] User shown confirmation with trigger info
 </success_criteria>
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-gsd]] — core-gsd
+- [[MOC - Skills]] — Skills library
+

@@ -446,3 +446,10 @@ jobs:
 5. **Integrate with SPARC**: Enable SPARC for advanced development workflows
 
 For more information, see the [Batch Initialization Documentation](../docs/batch-initialization.md).
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-ruflo]] — core-ruflo
+- [[MOC - Skills]] — Skills library
+

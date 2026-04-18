@@ -170,3 +170,10 @@ node "$HOME/.claude/get-shit-done/bin/gsd-tools.cjs" commit "docs(${padded_phase
 - [ ] Score summary displayed to user
 - [ ] Next steps presented
 </success_criteria>
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-gsd]] — core-gsd
+- [[MOC - Skills]] — Skills library
+

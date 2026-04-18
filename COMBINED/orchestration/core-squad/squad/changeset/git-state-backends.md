@@ -19,3 +19,10 @@ and external directory approaches:
 
 Configure via `.squad/config.json`: `{ "stateBackend": "git-notes" }` or
 the `--state-backend` CLI flag.
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-squad]] — core-squad
+- [[MOC - Skills]] — Skills library
+

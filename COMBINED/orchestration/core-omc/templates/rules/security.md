@@ -46,3 +46,10 @@ Add your project-specific security requirements here:
 - Authorization rules
 - Data encryption requirements
 - Compliance requirements (GDPR, HIPAA, etc.)
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-omc]] — core-omc
+- [[MOC - Skills]] — Skills library
+

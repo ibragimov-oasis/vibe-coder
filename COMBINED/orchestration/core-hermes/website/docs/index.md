@@ -58,3 +58,10 @@ It's not a coding copilot tethered to an IDE or a chatbot wrapper around a singl
 - **Full web control** — Search, extract, browse, vision, image generation, TTS
 - **MCP support** — Connect to any MCP server for extended tool capabilities
 - **Research-ready** — Batch processing, trajectory export, RL training with Atropos. Built by [Nous Research](https://nousresearch.com) — the lab behind Hermes, Nomos, and Psyche models
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-hermes]] — core-hermes
+- [[MOC - Skills]] — Skills library
+

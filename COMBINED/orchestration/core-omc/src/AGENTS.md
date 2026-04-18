@@ -166,3 +166,10 @@ index.ts
 ```
 
 <!-- MANUAL: -->
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-omc]] — core-omc
+- [[MOC - Skills]] — Skills library
+

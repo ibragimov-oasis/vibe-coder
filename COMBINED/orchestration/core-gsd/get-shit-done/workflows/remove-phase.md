@@ -160,3 +160,10 @@ Phase removal is complete when:
 - [ ] Changes committed with descriptive message
 - [ ] User informed of changes
 </success_criteria>
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-gsd]] — core-gsd
+- [[MOC - Skills]] — Skills library
+

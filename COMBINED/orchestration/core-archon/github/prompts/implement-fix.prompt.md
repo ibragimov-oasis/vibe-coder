@@ -479,3 +479,10 @@ Archived to `.agents/investigations/completed/issue-{number}.md`
 - **PR_CREATED**: PR exists and linked to issue
 - **REVIEW_POSTED**: Self-review comment on PR
 - **ARTIFACT_ARCHIVED**: Moved to completed folder
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-archon]] — core-archon
+- [[MOC - Skills]] — Skills library
+

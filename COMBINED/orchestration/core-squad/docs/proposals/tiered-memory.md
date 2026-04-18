@@ -93,3 +93,10 @@ Scribe automates tier promotion:
 
 - Issue: bradygaster/squad#600
 - Production measurements: tamirdresher/tamresearch1 (June 2025)
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-squad]] — core-squad
+- [[MOC - Skills]] — Skills library
+

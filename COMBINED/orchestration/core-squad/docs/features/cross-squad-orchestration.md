@@ -205,3 +205,10 @@ Delegates know whether their work fits.
 - [Upstream Auto-Sync](/features/upstream-sync) — Keep squads in sync automatically
 - [Persistent Ralph](/features/persistent-ralph) — Track all squad activity
 - [Generic Scheduler](/features/generic-scheduler) — Schedule cross-squad workflows
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-squad]] — core-squad
+- [[MOC - Skills]] — Skills library
+

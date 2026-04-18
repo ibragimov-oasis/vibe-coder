@@ -98,3 +98,10 @@ Summarize (under 250 words):
 - List the key default workflow names and their purposes
 
 ### Recent Changes
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-archon]] — core-archon
+- [[MOC - Skills]] — Skills library
+

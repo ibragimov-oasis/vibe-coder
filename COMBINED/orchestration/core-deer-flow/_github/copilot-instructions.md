@@ -218,3 +218,10 @@ Only do broad repo searches (`grep/find/code search`) when:
 - you need file-level implementation details not listed here,
 - a command here fails and you need updated replacement behavior,
 - or CI/workflow definitions have changed since this file was written.
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-deer-flow]] — core-deer-flow
+- [[MOC - Skills]] — Skills library
+

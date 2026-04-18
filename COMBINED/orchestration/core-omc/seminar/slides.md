@@ -1370,3 +1370,10 @@ autopilot eco: task    # Auto + Efficient (eco wins)
 ```
 
 Note: When keywords conflict, more restrictive mode wins (eco beats ulw).
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-omc]] — core-omc
+- [[MOC - Skills]] — Skills library
+

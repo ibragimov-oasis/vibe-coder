@@ -120,3 +120,10 @@ If MILESTONES.md doesn't exist, create it with header:
 **What's next:** Security audit and hardening for v1.1
 ```
 </example>
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-gsd]] — core-gsd
+- [[MOC - Skills]] — Skills library
+

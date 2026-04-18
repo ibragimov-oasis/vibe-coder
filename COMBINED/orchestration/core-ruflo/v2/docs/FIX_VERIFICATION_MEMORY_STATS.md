@@ -240,3 +240,10 @@ The fix successfully resolves the bug where `memory stats` returned zeros for Re
 **Build Status**: ✅ Successful (warnings are expected from pkg binary compilation)
 
 **Ready for**: v2.7.32 release
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-ruflo]] — core-ruflo
+- [[MOC - Skills]] — Skills library
+

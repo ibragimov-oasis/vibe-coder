@@ -150,3 +150,10 @@ make start
 ## 开源协议
 
 [Apache 2.0](LICENSE)
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-multica]] — core-multica
+- [[MOC - Skills]] — Skills library
+

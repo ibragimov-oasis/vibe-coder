@@ -83,3 +83,10 @@ Required YAML frontmatter:
 - The `<next_action>` should be actionable without reading anything else
 - This file gets DELETED after resume - it's not permanent storage
 </guidelines>
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-gsd]] — core-gsd
+- [[MOC - Skills]] — Skills library
+

@@ -74,3 +74,10 @@ plus prompt templates for each pattern that agents can use in their reasoning.
 ## References
 
 - Issue: bradygaster/squad#623
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-squad]] — core-squad
+- [[MOC - Skills]] — Skills library
+

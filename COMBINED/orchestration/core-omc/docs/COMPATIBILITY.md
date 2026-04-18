@@ -1073,3 +1073,10 @@ if (!result.success) {
 8. **Document permissions** - Clearly explain why plugins need specific scopes
 9. **Handle errors** - MCP connections can fail; implement retry logic
 10. **Clean up** - Call `disconnectAll()` and `resetMcpBridge()` on shutdown
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-omc]] — core-omc
+- [[MOC - Skills]] — Skills library
+

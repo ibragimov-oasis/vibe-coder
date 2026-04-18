@@ -938,3 +938,10 @@ Discord 커뮤니티 초대 링크를 엽니다.
 ```bash
 /gsd:join-discord
 ```
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-gsd]] — core-gsd
+- [[MOC - Skills]] — Skills library
+

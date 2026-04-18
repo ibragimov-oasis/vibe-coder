@@ -917,3 +917,9 @@ Topological traversal (implementation order):
 
  - Surgical Test Generator: .claude/agents/surgical-test-generator.md
 
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-taskmaster]] — core-taskmaster
+- [[MOC - Skills]] — Skills library
+

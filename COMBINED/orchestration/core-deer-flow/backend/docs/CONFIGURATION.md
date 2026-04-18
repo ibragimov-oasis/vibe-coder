@@ -366,3 +366,10 @@ DeerFlow searches for configuration in this order:
 ## Examples
 
 See `config.example.yaml` for complete examples of all configuration options.
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-deer-flow]] — core-deer-flow
+- [[MOC - Skills]] — Skills library
+

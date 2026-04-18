@@ -611,3 +611,10 @@ Example config:
 - Check `.planning/ROADMAP.md` for phase status
 - Run `/gsd:progress` to check where you're up to
 </reference>
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-gsd]] — core-gsd
+- [[MOC - Skills]] — Skills library
+

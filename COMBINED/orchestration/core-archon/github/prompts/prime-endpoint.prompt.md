@@ -44,3 +44,10 @@ Produce a scannable summary of what you learned:
 - **React Query**: How queries and mutations are used
 
 Use bullet points. Keep it concise.
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-archon]] — core-archon
+- [[MOC - Skills]] — Skills library
+

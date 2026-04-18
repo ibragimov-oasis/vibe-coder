@@ -146,3 +146,10 @@ curl -s -X POST http://localhost:3001/mcp \
     "params":{"name":"lookup_customer","arguments":{"customerId":"CUST-1234"}}
   }' | jq '.result.content[0].text' -r | jq .
 ```
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-ruflo]] — core-ruflo
+- [[MOC - Skills]] — Skills library
+

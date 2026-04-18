@@ -168,3 +168,10 @@ Use the template at `.github/copilot-instructions-template.md` as a starting poi
 - Don't duplicate information that's in other docs (link instead)
 - Focus on patterns and conventions, not exhaustive documentation
 - Update it as the project evolves
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-archon]] — core-archon
+- [[MOC - Skills]] — Skills library
+

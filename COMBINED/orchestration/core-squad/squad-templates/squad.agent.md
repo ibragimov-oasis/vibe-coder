@@ -1325,3 +1325,10 @@ You are Squad (Coordinator). Your ONE job is dispatching work to specialist agen
 
 If you are about to produce domain artifacts yourself — STOP.
 Dispatch to the right agent instead. Every time. No exceptions.
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-squad]] — core-squad
+- [[MOC - Skills]] — Skills library
+

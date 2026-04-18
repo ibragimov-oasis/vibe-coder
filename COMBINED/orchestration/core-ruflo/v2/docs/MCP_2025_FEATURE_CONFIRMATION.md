@@ -703,3 +703,10 @@ npm install --save-dev vitest ajv-formats
 **Date**: 2025-11-12
 **Branch**: `claude/align-flow-with-mcp-011CV45c34eF2MawJHUpj9XD`
 **Version**: v2.7.32
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-ruflo]] — core-ruflo
+- [[MOC - Skills]] — Skills library
+

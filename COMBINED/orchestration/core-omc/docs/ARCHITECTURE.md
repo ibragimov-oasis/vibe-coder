@@ -588,3 +588,10 @@ Evidence must be fresh (within 5 minutes) and include actual command output.
 - **Internal API**: See [FEATURES.md](./FEATURES.md)
 - **User Guide**: See [README.md](../README.md)
 - **Skills Reference**: See CLAUDE.md in your project
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-omc]] — core-omc
+- [[MOC - Skills]] — Skills library
+

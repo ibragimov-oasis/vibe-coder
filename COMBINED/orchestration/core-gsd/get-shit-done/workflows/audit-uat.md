@@ -114,3 +114,10 @@ Prerequisites: {what needs to be running/configured}
 </step>
 
 </process>
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-gsd]] — core-gsd
+- [[MOC - Skills]] — Skills library
+

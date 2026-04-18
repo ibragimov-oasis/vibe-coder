@@ -91,3 +91,10 @@ When working on issues, follow the Squad branching model:
 - **Distribution:** npm (`npm install -g @bradygaster/squad-cli` for CLI, `npm install @bradygaster/squad-sdk` for SDK)
 - **Universe:** Apollo 13 / NASA Mission Control
 - **Created:** 2026-02-21
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-squad]] — core-squad
+- [[MOC - Skills]] — Skills library
+

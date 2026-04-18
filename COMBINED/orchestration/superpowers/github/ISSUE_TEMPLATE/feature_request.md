@@ -36,3 +36,10 @@ progress, and some were intentionally declined.
 
 ## Context
 <!-- Optional: version info, harness, model, workflow where you hit this. -->
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/superpowers]] — superpowers
+- [[MOC - Skills]] — Skills library
+

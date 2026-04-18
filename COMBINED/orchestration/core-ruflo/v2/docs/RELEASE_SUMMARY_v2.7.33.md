@@ -461,3 +461,10 @@ npx claude-flow --version  # Should show v2.7.33
 **Quality Score**: ⭐⭐⭐⭐⭐ 4.8/5.0
 **Risk Level**: ✅ MINIMAL
 **Status**: 🚀 **READY TO DEPLOY**
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-ruflo]] — core-ruflo
+- [[MOC - Skills]] — Skills library
+

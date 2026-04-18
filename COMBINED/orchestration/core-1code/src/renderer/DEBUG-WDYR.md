@@ -222,3 +222,10 @@ The crash might happen before WDYR initializes. Try:
 | `src/renderer/wdyr.ts` | WDYR config with loop detection |
 | `electron.vite.config.ts` | JSX import source (dev only) |
 | `src/renderer/main.tsx` | Imports wdyr.ts (must be first import) |
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-1code]] — core-1code
+- [[MOC - Skills]] — Skills library
+

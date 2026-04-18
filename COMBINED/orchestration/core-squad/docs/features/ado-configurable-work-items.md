@@ -283,3 +283,10 @@ If config is not set or validation fails:
 - [Persistent Ralph](/features/persistent-ralph) — Monitor work with your ADO config
 - [Cross-Squad Orchestration](/features/cross-squad-orchestration) — Delegate work across squads
 - [Generic Scheduler](/features/generic-scheduler) — Run ADO operations on schedule
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-squad]] — core-squad
+- [[MOC - Skills]] — Skills library
+

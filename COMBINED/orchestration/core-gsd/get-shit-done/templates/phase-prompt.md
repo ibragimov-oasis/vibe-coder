@@ -615,3 +615,10 @@ Task completion ≠ Goal achievement. A task "create chat component" can complet
 6. All must_haves pass → phase complete
 
 See `~/.claude/get-shit-done/workflows/verify-phase.md` for verification logic.
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-gsd]] — core-gsd
+- [[MOC - Skills]] — Skills library
+

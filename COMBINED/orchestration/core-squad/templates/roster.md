@@ -65,3 +65,10 @@ tags:
 - **Stack:** {languages, frameworks, tools}
 - **Description:** {what the project does, in one sentence}
 - **Created:** {timestamp}
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-squad]] — core-squad
+- [[MOC - Skills]] — Skills library
+

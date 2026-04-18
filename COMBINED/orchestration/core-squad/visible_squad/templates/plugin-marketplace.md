@@ -54,3 +54,10 @@ During the **Adding Team Members** flow, AFTER allocating a name but BEFORE gene
 - **No marketplaces configured:** Skip the marketplace check entirely. No warning, no prompt.
 - **Marketplace unreachable:** Warn the user (*"⚠ Couldn't reach {marketplace} — continuing without it"*) and proceed with team member creation normally.
 - **No matching plugins:** Inform the user (*"No matching plugins found in configured marketplaces"*) and proceed.
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-squad]] — core-squad
+- [[MOC - Skills]] — Skills library
+

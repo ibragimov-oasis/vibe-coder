@@ -49,3 +49,10 @@ tags:
 - Adding/removing members updates squad.config.ts automatically
 - CastingEngine templates used during init (not bypassed)
 - Test matrix at 90%+ verified features
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-squad]] — core-squad
+- [[MOC - Skills]] — Skills library
+

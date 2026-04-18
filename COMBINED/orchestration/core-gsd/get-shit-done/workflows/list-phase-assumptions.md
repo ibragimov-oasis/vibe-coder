@@ -183,3 +183,10 @@ If "Re-examine": Return to analyze_phase with updated understanding
 - User feedback acknowledged
 - Clear next steps offered
 </success_criteria>
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-gsd]] — core-gsd
+- [[MOC - Skills]] — Skills library
+

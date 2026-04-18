@@ -1164,3 +1164,10 @@ Add error reference:
 **Recommendation**: ✅ **APPROVE FOR v2.7.33 RELEASE**
 **Risk Level**: ✅ **MINIMAL**
 **Quality Score**: ⭐⭐⭐⭐⭐ **4.8/5.0**
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-ruflo]] — core-ruflo
+- [[MOC - Skills]] — Skills library
+

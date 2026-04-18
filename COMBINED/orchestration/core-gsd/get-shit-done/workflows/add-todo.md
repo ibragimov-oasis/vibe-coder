@@ -163,3 +163,10 @@ Would you like to:
 - [ ] STATE.md updated if exists
 - [ ] Todo and state committed to git
 </success_criteria>
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-gsd]] — core-gsd
+- [[MOC - Skills]] — Skills library
+

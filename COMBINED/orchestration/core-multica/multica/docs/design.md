@@ -426,3 +426,10 @@ aria-invalid:border-destructive aria-invalid:ring-destructive/20
 - [ ] 有没有不必要的分割线（可以用间距替代）？
 - [ ] Dropdown / Popover 是否 `w-auto`？
 - [ ] 一个视图里 primary 按钮是否不超过 1 个？
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-multica]] — core-multica
+- [[MOC - Skills]] — Skills library
+

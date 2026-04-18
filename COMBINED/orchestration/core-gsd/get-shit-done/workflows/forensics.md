@@ -270,3 +270,10 @@ gsd-tools.cjs state record-session \
   --stopped-at "Forensic investigation complete" \
   --resume-file ".planning/forensics/report-{timestamp}.md"
 ```
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-gsd]] — core-gsd
+- [[MOC - Skills]] — Skills library
+

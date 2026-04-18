@@ -382,3 +382,10 @@ Greenfield integration. Start from openclaw-honcho's architecture and apply all 
 - [ ] CLI: `setup`, `status`, `sessions`, `map`, `mode`, `identity`
 - [ ] CLI surface injection into system prompt
 - [ ] AI peer name wired into agent identity
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-hermes]] — core-hermes
+- [[MOC - Skills]] — Skills library
+

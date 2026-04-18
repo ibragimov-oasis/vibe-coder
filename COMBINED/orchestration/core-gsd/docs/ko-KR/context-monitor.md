@@ -120,3 +120,10 @@ Gemini CLI (`~/.gemini/settings.json`)의 경우 `PostToolUse` 대신 `AfterTool
 - 도구 실행을 절대 차단하지 않습니다. 모니터에 문제가 생겨도 에이전트 워크플로우가 중단되지 않습니다.
 - 60초 이상 된 오래된 메트릭은 무시됩니다.
 - 누락된 브리지 파일은 정상적으로 처리됩니다 (서브에이전트, 새 세션 등의 경우).
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-gsd]] — core-gsd
+- [[MOC - Skills]] — Skills library
+

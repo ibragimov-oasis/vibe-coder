@@ -109,3 +109,10 @@ After invoking the command, stop. The dispatched command handles everything from
 - [ ] Command invoked with appropriate arguments
 - [ ] No work done directly — dispatcher only
 </success_criteria>
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-gsd]] — core-gsd
+- [[MOC - Skills]] — Skills library
+

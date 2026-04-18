@@ -310,3 +310,10 @@ The error recovery system is **production-ready** and can be released as v2.7.35
 **Test Executed By**: Automated Docker Testing
 **Test Date**: 2025-11-13
 **Sign-off**: Ready for Production Release ✅
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-ruflo]] — core-ruflo
+- [[MOC - Skills]] — Skills library
+

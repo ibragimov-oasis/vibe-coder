@@ -112,3 +112,10 @@ const { agent, model } = getVerificationAgent(tier);
 // Spawn appropriate verification agent
 Task(subagent_type=`oh-my-claudecode:${agent}`, model, prompt="Verify...")
 ```
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-omc]] — core-omc
+- [[MOC - Skills]] — Skills library
+

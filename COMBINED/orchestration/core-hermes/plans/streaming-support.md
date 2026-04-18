@@ -710,3 +710,10 @@ streaming:
 # Environment variable override
 HERMES_STREAMING_ENABLED=true
 ```
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-hermes]] — core-hermes
+- [[MOC - Skills]] — Skills library
+

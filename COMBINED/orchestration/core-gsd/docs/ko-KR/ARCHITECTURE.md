@@ -532,3 +532,10 @@ GSD는 통합된 명령어/워크플로우 아키텍처를 통해 6개의 AI 코
 5. **모델 참조** — `inherit` 프로필을 통해 GSD가 런타임의 모델 선택에 위임합니다
 
 인스톨러는 설치 시 모든 변환을 처리합니다. 워크플로우와 에이전트는 Claude Code의 네이티브 형식으로 작성되어 배포 중에 변환됩니다.
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-gsd]] — core-gsd
+- [[MOC - Skills]] — Skills library
+

@@ -450,3 +450,10 @@ You can configure environment variables (API keys, credentials) per repository:
 
 - **[Getting Started](./GETTING_STARTED.md)**: Deploy your own instance
 - **[Debugging Playbook](./DEBUGGING_PLAYBOOK.md)**: Troubleshoot issues with structured logs
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-background-agents]] — core-background-agents
+- [[MOC - Skills]] — Skills library
+

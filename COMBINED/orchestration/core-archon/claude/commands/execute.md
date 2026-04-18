@@ -191,3 +191,10 @@ Provide a structured completion report:
 ### Notes
 {Any deviations from the plan, unexpected findings, or follow-up work needed.}
 ```
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-archon]] — core-archon
+- [[MOC - Skills]] — Skills library
+

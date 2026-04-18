@@ -188,3 +188,10 @@ For each suggestion, consider:
 - **Pragmatic suggestions** - Consider maintenance burden
 - **Make illegal states unrepresentable** - Core goal
 - **Constructor validation is crucial** - First line of defense
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-archon]] — core-archon
+- [[MOC - Skills]] — Skills library
+

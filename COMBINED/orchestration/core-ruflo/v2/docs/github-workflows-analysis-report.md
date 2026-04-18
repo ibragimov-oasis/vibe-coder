@@ -825,3 +825,10 @@ cat package.json | jq '.scripts | keys | group_by(.) | map(select(length > 1))'
 ---
 
 **End of Report**
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-ruflo]] — core-ruflo
+- [[MOC - Skills]] — Skills library
+

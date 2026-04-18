@@ -33,3 +33,10 @@ Attach screenshots, logs, or examples that illustrate the feedback.
 ### Additional Notes
 
 Any additional context or related information.
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-taskmaster]] — core-taskmaster
+- [[MOC - Skills]] — Skills library
+

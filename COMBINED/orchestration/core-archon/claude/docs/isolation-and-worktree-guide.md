@@ -236,3 +236,10 @@ If merged cleanup frees space → proceed with creation. If not → block with f
 | Error classification | `packages/isolation/src/errors.ts` |
 | Cleanup service | `packages/core/src/services/cleanup-service.ts` |
 | Port allocation | `packages/core/src/utils/port-allocation.ts` |
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-archon]] — core-archon
+- [[MOC - Skills]] — Skills library
+

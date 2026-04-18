@@ -197,3 +197,10 @@ yourdomain.com {
 ```
 
 Set `PUBLIC_ORIGIN=https://yourdomain.com` and `COOKIE_SECURE=true` in `.env`.
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-ruflo]] — core-ruflo
+- [[MOC - Skills]] — Skills library
+

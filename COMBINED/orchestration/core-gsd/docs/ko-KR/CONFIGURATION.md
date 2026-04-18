@@ -347,3 +347,10 @@ quick 태스크 브랜칭 예시:
 **위치:** `~/.gsd/defaults.json`
 
 `/gsd:new-project`가 새 `config.json`을 생성할 때 전역 기본값을 읽어 초기 설정으로 병합합니다. 프로젝트별 설정은 항상 전역 설정보다 우선합니다.
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-gsd]] — core-gsd
+- [[MOC - Skills]] — Skills library
+

@@ -372,3 +372,10 @@ node gsd-tools.cjs websearch <query> [--limit N] [--freshness day|week|month]
 | UAT | `lib/uat.cjs` | 단계 간 UAT/verification 감사 |
 | Profile Output | `lib/profile-output.cjs` | 개발자 프로필 포매팅 |
 | Profile Pipeline | `lib/profile-pipeline.cjs` | 세션 분석 파이프라인 |
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-gsd]] — core-gsd
+- [[MOC - Skills]] — Skills library
+

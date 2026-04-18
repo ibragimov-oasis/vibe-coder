@@ -390,3 +390,10 @@ config.example.yaml          # Three provider options documented
 tests/test_guardrail_middleware.py  # 25 tests
 docs/GUARDRAILS.md           # This file
 ```
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-deer-flow]] — core-deer-flow
+- [[MOC - Skills]] — Skills library
+

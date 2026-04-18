@@ -115,3 +115,10 @@ As a Gemini CLI assistant with Task Master:
 ---
 
 *See AGENTS.md for complete Task Master commands, workflows, and best practices.*
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-taskmaster]] — core-taskmaster
+- [[MOC - Skills]] — Skills library
+

@@ -133,3 +133,10 @@ The plugin configures 3 MCP servers:
 ## Status
 
 ✅ **PRODUCTION READY**
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-ruflo]] — core-ruflo
+- [[MOC - Skills]] — Skills library
+

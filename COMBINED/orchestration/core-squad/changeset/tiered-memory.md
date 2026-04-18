@@ -7,3 +7,10 @@ tags:
   - source/core-squad
 ---
 feat: add tiered-memory skill for hot/cold/wiki agent context management
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-squad]] — core-squad
+- [[MOC - Skills]] — Skills library
+

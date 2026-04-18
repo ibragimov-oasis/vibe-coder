@@ -127,3 +127,10 @@ Standardized state file locations.
 **Important:** Never store OMC state in `~/.claude/` - that directory is reserved for Claude Code itself.
 
 Legacy locations auto-migrated on read.
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-omc]] — core-omc
+- [[MOC - Skills]] — Skills library
+

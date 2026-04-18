@@ -1149,3 +1149,10 @@ Test with:
 - Verify commit messages include task metadata
 - Verify project directory contains no runtime artifacts after run
 - Test with multiple worktrees (independent state per worktree)
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-taskmaster]] — core-taskmaster
+- [[MOC - Skills]] — Skills library
+

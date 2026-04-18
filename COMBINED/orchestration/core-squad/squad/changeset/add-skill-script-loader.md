@@ -7,3 +7,10 @@ tags:
 ---
 
 Add SkillScriptLoader, handler types, and applySkillHandlers for executable skill handler scripts
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-squad]] — core-squad
+- [[MOC - Skills]] — Skills library
+

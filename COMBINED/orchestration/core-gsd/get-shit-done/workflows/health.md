@@ -186,3 +186,10 @@ fi
 
 Report as info diagnostic: `I002 | info | Stale subagent task directories found | Yes (--repair removes them)`
 </stale_task_cleanup>
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-gsd]] — core-gsd
+- [[MOC - Skills]] — Skills library
+

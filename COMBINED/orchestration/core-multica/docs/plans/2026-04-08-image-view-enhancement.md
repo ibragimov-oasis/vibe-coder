@@ -457,3 +457,10 @@ Uses `createPortal` to render outside the editor DOM tree, with a keyboard liste
 | Readonly images are static | Click to zoom, hover for toolbar (minus Delete) |
 | Delete image: select + backspace only | Toolbar Delete button + keyboard |
 | No visual selection feedback | Blue outline on selected image |
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-multica]] — core-multica
+- [[MOC - Skills]] — Skills library
+

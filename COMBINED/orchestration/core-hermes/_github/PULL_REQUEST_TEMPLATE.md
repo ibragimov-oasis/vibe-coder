@@ -80,3 +80,9 @@ Fixes #
 
 <!-- If applicable, add screenshots or log output showing the fix/feature in action. -->
 
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-hermes]] — core-hermes
+- [[MOC - Skills]] — Skills library
+

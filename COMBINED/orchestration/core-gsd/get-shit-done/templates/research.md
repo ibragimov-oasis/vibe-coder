@@ -557,3 +557,10 @@ function useVehicleControls(rigidBodyRef) {
 - File lives in phase directory: `.planning/phases/XX-name/{phase_num}-RESEARCH.md`
 - Referenced during planning workflow
 - plan-phase loads it automatically when present
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-gsd]] — core-gsd
+- [[MOC - Skills]] — Skills library
+

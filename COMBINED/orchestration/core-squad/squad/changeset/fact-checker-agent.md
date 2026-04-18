@@ -14,3 +14,10 @@ Add fact-checker as a built-in agent role (#789)
 - Added to `AGENT_TEMPLATES` for init scaffolding
 - Template manifest entry for init/upgrade distribution
 - Routing patterns: fact-check, verify, validate, audit, double-check, hallucination, devil's advocate
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-squad]] — core-squad
+- [[MOC - Skills]] — Skills library
+

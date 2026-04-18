@@ -62,3 +62,10 @@ See [CLAUDE.md](./CLAUDE.md) for detailed architecture documentation.
 ## Questions?
 
 Open an [issue](https://github.com/coleam00/Archon/issues) or start a [discussion](https://github.com/coleam00/Archon/discussions).
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-archon]] — core-archon
+- [[MOC - Skills]] — Skills library
+

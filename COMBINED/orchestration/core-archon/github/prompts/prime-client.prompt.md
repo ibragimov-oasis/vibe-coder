@@ -38,3 +38,10 @@ Produce a scannable summary of what you learned:
 - **Patterns**: Component patterns, styling approach
 
 Use bullet points. Keep it concise.
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-archon]] — core-archon
+- [[MOC - Skills]] — Skills library
+

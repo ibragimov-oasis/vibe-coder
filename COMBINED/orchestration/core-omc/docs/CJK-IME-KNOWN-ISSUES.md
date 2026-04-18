@@ -184,3 +184,10 @@ If you have additional workarounds or find a solution, please:
 - [Terminal-friendly application with Node.js - User Inputs](https://blog.soulserv.net/terminal-friendly-application-with-node-js-part-iii-user-inputs/)
 - [React IME Composition Events Issue #8683](https://github.com/facebook/react/issues/8683)
 - [Node.js Readline Documentation](https://nodejs.org/api/readline.html)
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-omc]] — core-omc
+- [[MOC - Skills]] — Skills library
+

@@ -54,3 +54,10 @@ If a personal agent's advice conflicts with a project agent's work:
 2. Conflict is logged in orchestration log
 3. User is notified of the disagreement
 4. User decides (personal agents don't override project decisions)
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-squad]] — core-squad
+- [[MOC - Skills]] — Skills library
+

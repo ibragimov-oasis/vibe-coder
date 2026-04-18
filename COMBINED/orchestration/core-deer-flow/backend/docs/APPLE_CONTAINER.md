@@ -243,3 +243,10 @@ This will:
 - [Apple Container GitHub](https://github.com/apple/container)
 - [Apple Container Documentation](https://github.com/apple/container/blob/main/docs/)
 - [OCI Image Spec](https://github.com/opencontainers/image-spec)
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-deer-flow]] — core-deer-flow
+- [[MOC - Skills]] — Skills library
+

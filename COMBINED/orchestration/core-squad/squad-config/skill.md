@@ -26,3 +26,10 @@ tags:
 
 ## Anti-Patterns
 {What to avoid}
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-squad]] — core-squad
+- [[MOC - Skills]] — Skills library
+

@@ -46,3 +46,10 @@ tags:
 2. Root cause analysis
 3. What should change?
 4. Action items for next iteration
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-squad]] — core-squad
+- [[MOC - Skills]] — Skills library
+

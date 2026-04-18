@@ -15,3 +15,10 @@ tags:
 ## Learnings
 
 <!-- Append new learnings below. Each entry is something lasting about the project. -->
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-squad]] — core-squad
+- [[MOC - Skills]] — Skills library
+

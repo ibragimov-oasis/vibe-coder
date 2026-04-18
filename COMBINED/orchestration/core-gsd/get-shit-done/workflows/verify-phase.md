@@ -259,3 +259,10 @@ Orchestrator routes: `passed` → update_roadmap | `gaps_found` → create/execu
 - [ ] VERIFICATION.md created with complete report
 - [ ] Results returned to orchestrator
 </success_criteria>
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-gsd]] — core-gsd
+- [[MOC - Skills]] — Skills library
+

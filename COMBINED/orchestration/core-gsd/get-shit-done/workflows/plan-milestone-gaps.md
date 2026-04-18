@@ -278,3 +278,10 @@ becomes:
 - [ ] Changes committed (includes REQUIREMENTS.md)
 - [ ] User knows to run `/gsd:plan-phase` next
 </success_criteria>
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-gsd]] — core-gsd
+- [[MOC - Skills]] — Skills library
+

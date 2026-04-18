@@ -88,3 +88,10 @@ tags:
 ---
 
 *Status: design draft — 实现跟踪可在本文件追加「Implementation log」小节或单独 tasks JSON。*
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-cc-connect]] — core-cc-connect
+- [[MOC - Skills]] — Skills library
+

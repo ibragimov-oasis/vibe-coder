@@ -131,3 +131,10 @@ All work through PRs. Branch naming: `squad/{issue-number}-{slug}`. Releases dri
 **Apollo 13 / NASA Mission Control:** Flight (Lead), EECOM, FIDO, PAO, CAPCOM, CONTROL, SURGEON, Booster, GNC, Network, RETRO, INCO, GUIDO, Telemetry, VOX, DSKY, Sims, Handbook. Scribe (Session Logger), Ralph (Autonomy Agent). @copilot (Coordinator).
 
 **Status:** Team stable, process hardened, community engaged, next cycle ready.
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-squad]] — core-squad
+- [[MOC - Skills]] — Skills library
+

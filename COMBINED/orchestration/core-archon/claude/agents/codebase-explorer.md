@@ -168,3 +168,10 @@ Structure your findings like this:
 - Don't suggest improvements
 
 Document the codebase exactly as it exists today, without judgment or suggestions for change.
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-archon]] — core-archon
+- [[MOC - Skills]] — Skills library
+

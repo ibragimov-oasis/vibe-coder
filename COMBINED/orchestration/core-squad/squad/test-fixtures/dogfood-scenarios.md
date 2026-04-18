@@ -403,3 +403,10 @@ exit
 - All fixture-specific commands complete in <3s
 - No crashes, hangs, or unhandled exceptions
 - Context output is meaningful (not generic or empty)
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-squad]] — core-squad
+- [[MOC - Skills]] — Skills library
+

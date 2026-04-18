@@ -71,3 +71,10 @@ Expected: PASS
 
 Run: `go test ./core/...`
 Expected: PASS
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-cc-connect]] — core-cc-connect
+- [[MOC - Skills]] — Skills library
+

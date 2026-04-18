@@ -327,3 +327,10 @@ None needed until automated gaps are fixed.
 *Verified: 2025-01-15T14:30:00Z*
 *Verifier: Claude (subagent)*
 ```
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-gsd]] — core-gsd
+- [[MOC - Skills]] — Skills library
+

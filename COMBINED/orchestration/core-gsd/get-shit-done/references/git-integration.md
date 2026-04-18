@@ -300,3 +300,10 @@ This stages `src/api/users.ts` and `src/types/user.ts` in the `backend/` repo, a
 Files that don't match any configured sub-repo are reported as unmatched.
 
 </sub_repos_support>
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-gsd]] — core-gsd
+- [[MOC - Skills]] — Skills library
+

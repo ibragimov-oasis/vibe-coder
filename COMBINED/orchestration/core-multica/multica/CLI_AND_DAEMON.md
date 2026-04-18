@@ -401,3 +401,10 @@ Most commands support `--output` with two formats:
 multica issue list --output json
 multica daemon status --output json
 ```
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-multica]] — core-multica
+- [[MOC - Skills]] — Skills library
+

@@ -41,3 +41,10 @@ Provide screenshots, logs, or error messages if applicable.
 ### Additional Context
 
 Any additional information or context that might help diagnose the issue.
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-taskmaster]] — core-taskmaster
+- [[MOC - Skills]] — Skills library
+

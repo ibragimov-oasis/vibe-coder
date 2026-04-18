@@ -773,3 +773,10 @@ The following additional features are available:
 - **WeChat Work can't send messages** — Ensure your outbound IP is in the Trusted IP whitelist. If using a proxy, check the proxy is reachable.
 - **LINE/WeChat Work can't receive messages** — Ensure your webhook URL is publicly accessible (ngrok/cloudflared running).
 - **macOS binary won't open** — Run `xattr -d com.apple.quarantine cc-connect` to remove quarantine flag.
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-cc-connect]] — core-cc-connect
+- [[MOC - Skills]] — Skills library
+

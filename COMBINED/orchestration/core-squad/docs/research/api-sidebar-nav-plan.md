@@ -131,3 +131,10 @@ docs/src/api-nav-generated.json
 3. Should we add item counts to category headers? e.g., "Classes (15)" (Recommend: yes)
 4. Does the Astro build fail gracefully if the generated JSON doesn't exist? (Need fallback for fresh clones before first `docs:api` run)
 5. **CI/CD build order:** `npm run docs:api` must run **before** `npm run docs:build` in CI pipelines, since the Astro build reads the generated nav JSON and API markdown at compile time. If the generated `api-nav-generated.json` is missing (e.g., first clone, or `docs:api` was skipped), the sidebar should fall back to showing a single flat "API Reference" link pointing to `/reference/api/` instead of rendering category groups. The build must not fail on a missing nav fragment.
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-squad]] — core-squad
+- [[MOC - Skills]] — Skills library
+

@@ -45,3 +45,10 @@ npm install && npm run build && npm test
 | MCP Response | <100ms | Achieved |
 | CLI Startup | <500ms | Achieved |
 | Flash Attention | 2.49x-7.47x speedup | In progress |
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-ruflo]] — core-ruflo
+- [[MOC - Skills]] — Skills library
+

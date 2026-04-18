@@ -8,3 +8,10 @@ tags:
 ---
 
 Cross-squad orchestration — discovery, delegation, and manifest (#316). Adds manifest schema, `squad discover` / `squad delegate` commands, and runtime module for coordinating work across multiple Squad instances.
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-squad]] — core-squad
+- [[MOC - Skills]] — Skills library
+

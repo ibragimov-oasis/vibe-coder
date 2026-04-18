@@ -334,3 +334,10 @@ git branch -d hamster-brief
 
 - Full guidelines: [hamster.mdc](mdc:.cursor/rules/hamster.mdc)
 - Git workflow: [git_workflow.mdc](mdc:.cursor/rules/git_workflow.mdc)
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-taskmaster]] — core-taskmaster
+- [[MOC - Skills]] — Skills library
+

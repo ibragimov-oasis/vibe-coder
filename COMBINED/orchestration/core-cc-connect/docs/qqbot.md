@@ -141,3 +141,10 @@ One-on-one private messages are supported without @mention.
 开发测试时可以使用沙箱环境，设置 `sandbox = true`。沙箱环境使用独立的 API 端点 (`sandbox.api.sgroup.qq.com`)，不影响生产环境。
 
 For development and testing, set `sandbox = true`. The sandbox uses a separate API endpoint (`sandbox.api.sgroup.qq.com`) and doesn't affect production.
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-cc-connect]] — core-cc-connect
+- [[MOC - Skills]] — Skills library
+
