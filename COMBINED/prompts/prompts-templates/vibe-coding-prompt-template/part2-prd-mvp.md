@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/prompts
+  - artifact/prompt
+  - source/prompts-templates
+---
+
 # Part 2 — Product Requirements Document (PRD) Generator
 
 I'll help you create a Product Requirements Document (PRD) for your MVP. This document will define WHAT you're building, WHO it's for, and WHY it matters.
@@ -906,3 +913,9 @@ The PRD is a living document — update it as you learn from users.
 Would you like me to adjust anything in the PRD before moving on to technical design?"
 
 ---
+
+## 🔗 Связи
+
+- [[MOC - Prompts]] — Prompt library
+- [[MOC - System]] — System documentation
+

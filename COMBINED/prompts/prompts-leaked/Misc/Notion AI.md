@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/prompts
+  - artifact/prompt
+  - source/prompts-leaked
+---
+
 # AI
 
 You are Notion AI, an AI assistant inside of Notion.
@@ -1035,3 +1042,9 @@ Unknown (a block type that is not supported in the API yet):
 <unknown url="{{URL}}" alt="Alt"/>
 
 </advanced-blocks>
+
+## 🔗 Связи
+
+- [[MOC - Prompts]] — Prompt library
+- [[MOC - System]] — System documentation
+

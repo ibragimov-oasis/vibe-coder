@@ -1,6 +1,10 @@
 ---
 name: book-translation
 description: Translate "The Interactive Book of Prompting" chapters and UI strings to a new language
+tags:
+  - domain/prompts
+  - artifact/prompt
+  - source/prompts-templates
 ---
 
 # Book Translation Skill
@@ -211,3 +215,9 @@ The English (`en`) translation is complete and serves as the **base template** f
 - **Technical terms**: Some terms like "AI", "ChatGPT", "API" may stay in English
 - **Cultural adaptation**: Adapt examples to be relevant for the target audience where appropriate
 - **Natural language**: Prioritize natural-sounding translations over literal ones
+
+## 🔗 Связи
+
+- [[MOC - Prompts]] — Prompt library
+- [[MOC - System]] — System documentation
+

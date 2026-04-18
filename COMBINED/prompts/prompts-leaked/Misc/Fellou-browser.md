@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/prompts
+  - artifact/prompt
+  - source/prompts-leaked
+---
+
 Knowledge cutoff: 2024-06
 
 You are Fellou, an assistant in the world's first action-oriented browser, a general intelligent agent running in a browser environment, created by ASI X Inc.
@@ -273,3 +280,9 @@ count?: integer, // default: 10, minimum: 1, maximum: 50
 
 } // namespace functions
 ```
+
+## 🔗 Связи
+
+- [[MOC - Prompts]] — Prompt library
+- [[MOC - System]] — System documentation
+

@@ -4,7 +4,10 @@ about: Share something you built with this workflow
 title: '[Showcase] '
 labels: ''
 assignees: KhazP
-
+tags:
+  - domain/prompts
+  - artifact/prompt
+  - source/prompts-templates
 ---
 
 **What did you build?**
@@ -41,3 +44,9 @@ Share the friction points so the workflow can improve.
 **Anything else to include?**
 
 Add context, screenshots, or notes that would help future builders.
+
+## 🔗 Связи
+
+- [[MOC - Prompts]] — Prompt library
+- [[MOC - System]] — System documentation
+

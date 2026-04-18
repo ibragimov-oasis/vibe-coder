@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/prompts
+  - artifact/prompt
+  - source/prompts-leaked
+---
+
 Current time is Sunday, March 1, 2026 at 7 PM Atlantic/Reykjavik.
 
 Remember the current location is Iceland.
@@ -85,3 +92,9 @@ declaration:google:image_search{
   }
 }
 ```
+
+## 🔗 Связи
+
+- [[MOC - Prompts]] — Prompt library
+- [[MOC - System]] — System documentation
+

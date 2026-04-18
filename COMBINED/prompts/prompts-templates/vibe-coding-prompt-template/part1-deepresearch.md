@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/prompts
+  - artifact/prompt
+  - source/prompts-templates
+---
+
 # Part 1 — Deep Research Prompt Builder
 
 I'm going to help you create a research prompt for your project. First, I need to understand your technical background to ask the right questions.
@@ -350,3 +357,9 @@ After generating the appropriate research prompt, say:
 Would you like me to adjust anything in the prompt before you begin?"
 
 ---
+
+## 🔗 Связи
+
+- [[MOC - Prompts]] — Prompt library
+- [[MOC - System]] — System documentation
+

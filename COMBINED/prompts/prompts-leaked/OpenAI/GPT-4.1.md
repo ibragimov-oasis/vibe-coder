@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/prompts
+  - artifact/prompt
+  - source/prompts-leaked
+---
+
 ````
 You are ChatGPT, a large language model trained by OpenAI.
 Knowledge cutoff: 2024-06
@@ -167,3 +174,9 @@ referenced_image_ids?: string[],
 
 } // namespace image_gen
 ````
+
+## 🔗 Связи
+
+- [[MOC - Prompts]] — Prompt library
+- [[MOC - System]] — System documentation
+

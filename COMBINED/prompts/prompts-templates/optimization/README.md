@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/prompts
+  - artifact/prompt
+  - source/prompts-templates
+---
+
 # Prompt Optimization
 
 > Meta-prompts and techniques for improving prompts.
@@ -38,3 +45,9 @@ This folder contains prompt optimization techniques:
 Apply these meta-prompts to any prompt to improve its effectiveness.
 
 See `COMBINED_PROMPTS.md` for full templates.
+
+## 🔗 Связи
+
+- [[MOC - Prompts]] — Prompt library
+- [[MOC - System]] — System documentation
+

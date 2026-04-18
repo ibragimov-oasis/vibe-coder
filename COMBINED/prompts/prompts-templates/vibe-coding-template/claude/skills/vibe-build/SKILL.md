@@ -1,6 +1,10 @@
 ---
 name: vibe-build
 description: Build your MVP following the AGENTS.md plan. Use when the user wants to start building, implement features, or says "build my MVP", "start coding", or "implement the project".
+tags:
+  - domain/prompts
+  - artifact/prompt
+  - source/prompts-templates
 ---
 
 # Vibe-Coding MVP Builder
@@ -189,3 +193,9 @@ When the MVP is fully built:
 > 3. Prioritize v2 features
 >
 > Congratulations on shipping your MVP!
+
+## 🔗 Связи
+
+- [[MOC - Prompts]] — Prompt library
+- [[MOC - System]] — System documentation
+

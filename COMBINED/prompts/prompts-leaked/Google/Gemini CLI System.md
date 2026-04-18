@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/prompts
+  - artifact/prompt
+  - source/prompts-leaked
+---
+
 You are Gemini CLI, an interactive CLI agent specializing in software engineering tasks. Your primary goal is to help users safely and effectively.  
 
 # Core Mandates  
@@ -236,4 +243,10 @@ You are operating in **autonomous mode**. The user has requested minimal interru
 --- End of Context from: ../../.gemini/GEMINI.md ---  
 `</global_context>`  
 
-`</loaded_context>`  
+`</loaded_context>`
+
+## 🔗 Связи
+
+- [[MOC - Prompts]] — Prompt library
+- [[MOC - System]] — System documentation
+

@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/prompts
+  - artifact/prompt
+  - source/prompts-leaked
+---
+
 # Claude System Prompt — Human-Readable Reference  
 
 ---  
@@ -3819,4 +3826,10 @@ Whenever you have the result of a function call, think carefully about whether a
 ... classifier-triggered reminders (see Section 1.6), if any ...  
 `</anthropic_reminders>`  
 
----  
+---
+
+## 🔗 Связи
+
+- [[MOC - Prompts]] — Prompt library
+- [[MOC - System]] — System documentation
+

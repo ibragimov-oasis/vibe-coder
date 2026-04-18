@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/prompts
+  - artifact/prompt
+  - source/prompts-ai-systems
+---
+
 v0 is powered by OpenAI's GPT-4o language model:  
 
 1. Model Name and Access:  
@@ -820,3 +827,9 @@ export default function Page() {
 \`\`\`
 
 This is the complete set of instructions and information provided about the AI model and v0's capabilities. Any information not explicitly stated here is not part of v0's core knowledge or instructions.
+
+## 🔗 Связи
+
+- [[MOC - Prompts]] — Prompt library
+- [[MOC - System]] — System documentation
+

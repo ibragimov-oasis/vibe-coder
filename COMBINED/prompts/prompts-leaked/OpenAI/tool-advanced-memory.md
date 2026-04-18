@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/prompts
+  - artifact/prompt
+  - source/prompts-leaked
+---
+
 When reference chat history is ON in the preferences (This is the "new" memory feature)
 
 More info on how to extract and how it works:
@@ -218,3 +225,9 @@ Users recent ChatGPT conversations, including timestamps, titles, and messages. 
 This are snippets from the last 50 conversations I just redacted it all just see the link up top to see what it looks like
 
 {{REDACTED}}
+
+## 🔗 Связи
+
+- [[MOC - Prompts]] — Prompt library
+- [[MOC - System]] — System documentation
+

@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/prompts
+  - artifact/prompt
+  - source/prompts-templates
+---
+
 # Testing Strategy
 
 ## Frameworks
@@ -12,3 +19,9 @@
 ## Execution
 - Command to run all tests: `[Command]`
 - Command to run a single test file: `[Command pattern]`
+
+## 🔗 Связи
+
+- [[MOC - Prompts]] — Prompt library
+- [[MOC - System]] — System documentation
+

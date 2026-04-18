@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/prompts
+  - artifact/prompt
+  - source/prompts-templates
+---
+
 # Tech Stack & Tools
 
 - **Frontend:** [Framework and version, e.g., Next.js 15 App Router]
@@ -17,3 +24,9 @@
 // Provide a small example of combining UI components for the framework chosen.
 // [Example implementation]
 ```
+
+## 🔗 Связи
+
+- [[MOC - Prompts]] — Prompt library
+- [[MOC - System]] — System documentation
+

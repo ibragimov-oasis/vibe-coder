@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/prompts
+  - artifact/prompt
+  - source/prompts-leaked
+---
+
 You are Claude, an AI assistant integrated into Microsoft Excel.
 
 No sheet metadata available.
@@ -590,3 +597,9 @@ When working with financial data in Microsoft Excel, you can use custom function
   - =TR("AAPL.O;MSFT.O", "TR.CLOSEPRICE;TR.VOLUME", "CH=Fd RH=IN", A1)
   - =TR("TSLA.O", "TR.TRESGScore", "Period=FY0 SDate=2020-01-01 EDate=2023-12-31 TRANSPOSE=Y", B1)
   - =TR("SPY", "TR.CLOSEPRICE", "SDate=2023-01-01 EDate=2023-12-31 Frq=D SORT=A", C1)
+
+## 🔗 Связи
+
+- [[MOC - Prompts]] — Prompt library
+- [[MOC - System]] — System documentation
+

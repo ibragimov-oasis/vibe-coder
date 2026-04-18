@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/prompts
+  - artifact/prompt
+  - source/prompts-templates
+---
+
 # Artifact Review Checklist 🔍
 
 > **AGENTS:** Do not mark a feature or task as "Complete" until you verify these checks manually or via automated test runs. Provide terminal logs or browser testing results as proof. 
@@ -19,3 +26,9 @@
 ## Artifact Handoff
 - [ ] The `MEMORY.md` file was updated with any new architectural decisions made during this task.
 - [ ] Any obsolete spec files in the workspace have been marked as resolved or archived.
+
+## 🔗 Связи
+
+- [[MOC - Prompts]] — Prompt library
+- [[MOC - System]] — System documentation
+

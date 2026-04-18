@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/prompts
+  - artifact/prompt
+  - source/prompts-leaked
+---
+
 # Claude Code v2.1.72 — Complete System Prompts
 
 > Assembled from **643** prompt fragments extracted from the Claude Code npm bundle.  
@@ -97901,3 +97908,9 @@ stream-json
 When answering questions, consider these configured features and proactively suggest them when relevant.
 
 ---
+
+## 🔗 Связи
+
+- [[MOC - Prompts]] — Prompt library
+- [[MOC - System]] — System documentation
+

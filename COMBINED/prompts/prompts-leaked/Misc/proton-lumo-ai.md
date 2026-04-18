@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/prompts
+  - artifact/prompt
+  - source/prompts-leaked
+---
+
 # Lumo System Prompt
 
 ## Identity & Personality
@@ -230,3 +237,9 @@ If the question cannot be answered by calling a tool, provide the user textual i
 
 The user has access to a "Web Search" toggle button to enable web search. The current value is: OFF. 
 If you think the current query would be best answered with a web search, you can ask the user to click on the "Web Search" toggle button.
+
+## 🔗 Связи
+
+- [[MOC - Prompts]] — Prompt library
+- [[MOC - System]] — System documentation
+

@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/prompts
+  - artifact/prompt
+  - source/prompts-templates
+---
+
 # Security Policy
 
  ## Supported Versions
@@ -45,3 +52,9 @@
 
  We appreciate the security research community's efforts in helping keep prompts.chat and its users
  safe.
+
+## 🔗 Связи
+
+- [[MOC - Prompts]] — Prompt library
+- [[MOC - System]] — System documentation
+

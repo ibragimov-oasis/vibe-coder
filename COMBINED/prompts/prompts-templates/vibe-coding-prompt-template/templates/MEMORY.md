@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/prompts
+  - artifact/prompt
+  - source/prompts-templates
+---
+
 # System Memory & Context 🧠
 <!--
 AGENTS: Update this file after every major milestone, structural change, or resolved bug.
@@ -24,3 +31,9 @@ DO NOT delete historical context if it is still relevant. Compress older complet
 - [ ] Initial scaffold
 - [ ] Database schema creation
 - [ ] Auth integration
+
+## 🔗 Связи
+
+- [[MOC - Prompts]] — Prompt library
+- [[MOC - System]] — System documentation
+

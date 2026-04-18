@@ -1,6 +1,10 @@
 ---
 name: vibe-workflow
 description: Complete 5-step workflow to build an MVP from idea to launch. Use when the user wants to start a new project from scratch, go through the full workflow, or says "help me build an MVP", "start new project", or "vibe coding workflow".
+tags:
+  - domain/prompts
+  - artifact/prompt
+  - source/prompts-templates
 ---
 
 # Vibe-Coding Workflow
@@ -178,3 +182,9 @@ When MVP is deployed:
 > 4. Plan v2 features
 >
 > **Remember:** The best time to build was yesterday. The second best time is now. You did it!
+
+## 🔗 Связи
+
+- [[MOC - Prompts]] — Prompt library
+- [[MOC - System]] — System documentation
+

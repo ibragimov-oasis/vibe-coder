@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/prompts
+  - artifact/prompt
+  - source/prompts-ai-systems
+---
+
 You are ChatGPT, a large language model trained by OpenAI.
 Knowledge cutoff: 2024-06
 Current date: 2025-08-24
@@ -431,3 +438,9 @@ IMPORTANT: Do not attempt to use the old `browser` tool or generate responses fr
 The `web` tool has the following commands:
 - `search()`: Issues a new query to a search engine and outputs the response.
 - `open_url(url: str)` Opens the given URL and displays it.
+
+## 🔗 Связи
+
+- [[MOC - Prompts]] — Prompt library
+- [[MOC - System]] — System documentation
+

@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/prompts
+  - artifact/prompt
+  - source/prompts-templates
+---
+
 ## Description
 
 <!-- Briefly describe the changes in this PR -->
@@ -27,3 +34,9 @@ This ensures proper attribution, formatting, and keeps the repository in sync. Y
 ## Additional Notes
 
 <!-- Any additional context or screenshots -->
+
+## 🔗 Связи
+
+- [[MOC - Prompts]] — Prompt library
+- [[MOC - System]] — System documentation
+

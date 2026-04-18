@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/prompts
+  - artifact/prompt
+  - source/prompts-templates
+---
+
 # Docker Deployment Guide
 
 Run your own prompts.chat instance with a single command.
@@ -319,3 +326,9 @@ server {
 ## License
 
 MIT
+
+## 🔗 Связи
+
+- [[MOC - Prompts]] — Prompt library
+- [[MOC - System]] — System documentation
+

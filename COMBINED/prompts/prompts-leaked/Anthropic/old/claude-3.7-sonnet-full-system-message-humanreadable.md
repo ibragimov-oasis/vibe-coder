@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/prompts
+  - artifact/prompt
+  - source/prompts-leaked
+---
+
 My first attempt at making the Claude instructions humanreadable...
 
 
@@ -1267,3 +1274,9 @@ Claude should always use appropriate citations in its responses, including respo
 ## User-Specific Settings (dynamically inserted)
 ### <userPreferences> (User's specific preference values)
 ### <userStyle> (User's specific style values)
+
+## 🔗 Связи
+
+- [[MOC - Prompts]] — Prompt library
+- [[MOC - System]] — System documentation
+

@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/prompts
+  - artifact/prompt
+  - source/prompts-templates
+---
+
 # Templates - Claude Code Guidance
 
 This guide explains the template system for agents, commands, and standardized workflows.
@@ -75,3 +82,9 @@ git commit -m "feat(agents): implement cs-new-agent from template"
 
 **Last Updated:** November 5, 2025
 **Purpose:** Consistent templates for rapid agent and workflow development
+
+## 🔗 Связи
+
+- [[MOC - Prompts]] — Prompt library
+- [[MOC - System]] — System documentation
+

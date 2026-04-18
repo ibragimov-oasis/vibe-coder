@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/prompts
+  - artifact/prompt
+  - source/prompts-templates
+---
+
 # Self-Hosting Guide
 
 ## Capabilities
@@ -203,3 +210,9 @@ This is ideal for organizations that want to deploy their own white-labeled prom
 ## Support
 
 For issues and questions, please open a [GitHub Issue](https://github.com/f/prompts.chat/issues).
+
+## 🔗 Связи
+
+- [[MOC - Prompts]] — Prompt library
+- [[MOC - System]] — System documentation
+

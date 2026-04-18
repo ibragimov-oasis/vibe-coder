@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/prompts
+  - artifact/prompt
+  - source/prompts-templates
+---
+
 # System Prompts Reference
 
 > Reference collection of system prompts from major AI tools.
@@ -37,3 +44,9 @@ Study these prompts to understand:
 - **Behavior Guidelines** — Response patterns
 - **Safety Rules** — Refusal criteria
 - **Output Format** — Structure requirements
+
+## 🔗 Связи
+
+- [[MOC - Prompts]] — Prompt library
+- [[MOC - System]] — System documentation
+

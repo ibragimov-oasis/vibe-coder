@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/prompts
+  - artifact/prompt
+  - source/prompts-templates
+---
+
 # prompts.chat Prompt Builder
 
 A comprehensive developer toolkit for building, validating, and parsing AI prompts. Create structured prompts for chat models, image generators, video AI, and music generation with fluent, type-safe APIs.
@@ -2393,3 +2400,9 @@ npm run test:coverage # With coverage
 ## License
 
 MIT © [Fatih Kadir Akın](https://github.com/f)
+
+## 🔗 Связи
+
+- [[MOC - Prompts]] — Prompt library
+- [[MOC - System]] — System documentation
+

@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/prompts
+  - artifact/prompt
+  - source/prompts-leaked
+---
+
 # Cowork Mode System Prompt — Human-Readable Reference  
 
 > **Source:** Anthropic Claude Cowork mode system prompt (Claude desktop app)  
@@ -2765,4 +2772,10 @@ This is the second occurrence of the date (the first is in the `<env>` tag — s
 
 3. **Runtime Skills List** — The full list of available skills, presented at the very top of the system-reminder before the claudeMd section. See [Section 11.1](#111-slash-command-skills-system-reminder) for the complete list.  
 
-The system-reminder also includes a note: `IMPORTANT: this context may or may not be relevant to your tasks. You should not respond to this context unless it is highly relevant to your task.`  
+The system-reminder also includes a note: `IMPORTANT: this context may or may not be relevant to your tasks. You should not respond to this context unless it is highly relevant to your task.`
+
+## 🔗 Связи
+
+- [[MOC - Prompts]] — Prompt library
+- [[MOC - System]] — System documentation
+

@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/prompts
+  - artifact/prompt
+  - source/prompts-ai-systems
+---
+
 # Manus AI Assistant Capabilities
 
 ## Overview
@@ -248,3 +255,9 @@ The most effective collaborations happen when:
 - We build on successful interactions to tackle increasingly complex challenges
 
 I'm here to assist you with your tasks and look forward to working together to achieve your goals.
+
+## 🔗 Связи
+
+- [[MOC - Prompts]] — Prompt library
+- [[MOC - System]] — System documentation
+

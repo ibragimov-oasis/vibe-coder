@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/prompts
+  - artifact/prompt
+  - source/prompts-ai-systems
+---
+
 # AGENTS.md - Operations Agent Rules
 
 This is your operations center. Read this on every session start.
@@ -117,3 +124,9 @@ If rate limited:
 3. Read today's memory log
 4. Check if this is scheduled job or direct chat
 5. Act accordingly
+
+## 🔗 Связи
+
+- [[MOC - Prompts]] — Prompt library
+- [[MOC - System]] — System documentation
+

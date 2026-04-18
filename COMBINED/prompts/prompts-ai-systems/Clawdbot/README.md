@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/prompts
+  - artifact/prompt
+  - source/prompts-ai-systems
+---
+
 # Clawdbot System Prompts
 
 [Clawdbot](https://github.com/clawdbot/clawdbot) is an open-source AI agent platform that runs on messaging channels (WhatsApp, Discord, Telegram, Slack, etc.) and provides agentic capabilities through a modular prompt architecture.
@@ -66,3 +73,9 @@ workspace/
 ## License
 
 MIT - Same as Clawdbot
+
+## 🔗 Связи
+
+- [[MOC - Prompts]] — Prompt library
+- [[MOC - System]] — System documentation
+

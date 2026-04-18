@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/prompts
+  - artifact/prompt
+  - source/prompts-leaked
+---
+
 ## image_gen  
 
 // The `image_gen` tool enables image generation from descriptions and editing of existing images based on specific instructions. Use it when:  
@@ -18,4 +25,10 @@ transparent_background?: boolean,
 referenced_image_ids?: string[],  
 }) => any;  
 
-} // namespace image_gen  
+} // namespace image_gen
+
+## 🔗 Связи
+
+- [[MOC - Prompts]] — Prompt library
+- [[MOC - System]] — System documentation
+

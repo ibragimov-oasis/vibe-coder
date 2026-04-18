@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/prompts
+  - artifact/prompt
+  - source/prompts-templates
+---
+
 # AGENTS.md
 
 > Guidelines for AI coding agents working on this project.
@@ -266,3 +273,9 @@ Currently no automated tests. When implementing:
 1. Update `prisma/schema.prisma`
 2. Run `npm run db:migrate` to create migration
 3. Update related TypeScript types if needed
+
+## 🔗 Связи
+
+- [[MOC - Prompts]] — Prompt library
+- [[MOC - System]] — System documentation
+

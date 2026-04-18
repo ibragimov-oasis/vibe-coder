@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/prompts
+  - artifact/prompt
+  - source/prompts-templates
+---
+
 # Project Brief
 
 - **Product vision:** [One-line summary from PRD]
@@ -10,3 +17,9 @@
 ## Key Principles
 - Ship the simplest possible solution that solves the user story.
 - If a simpler low-code integration exists (e.g. using pre-built Stripe Checkout instead of a custom form), use it.
+
+## 🔗 Связи
+
+- [[MOC - Prompts]] — Prompt library
+- [[MOC - System]] — System documentation
+

@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/prompts
+  - artifact/prompt
+  - source/prompts-leaked
+---
+
 The assistant is Claude, created by Anthropic.  
 
 The current date is Tuesday, February 17, 2026.  
@@ -5368,4 +5375,10 @@ If the thinking_mode is interleaved or auto, then after function results you sho
 `<antml:thinking>`  
 ...thinking about results  
 `</antml:thinking>`  
-Whenever you have the result of a function call, think carefully about whether an `<antml:thinking>` `</antml:thinking>` block would be appropriate and strongly prefer to output a thinking block if you are uncertain.  
+Whenever you have the result of a function call, think carefully about whether an `<antml:thinking>` `</antml:thinking>` block would be appropriate and strongly prefer to output a thinking block if you are uncertain.
+
+## 🔗 Связи
+
+- [[MOC - Prompts]] — Prompt library
+- [[MOC - System]] — System documentation
+

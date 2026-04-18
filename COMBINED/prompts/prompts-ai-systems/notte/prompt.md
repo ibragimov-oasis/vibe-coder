@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/prompts
+  - artifact/prompt
+  - source/prompts-ai-systems
+---
+
 # --- Notte Task Prompt ---
 
 ## Objective Definition:
@@ -40,3 +47,9 @@ If Failing:
 - Final Action on Persistent Failure: {e.g., Abort, Notify, Save partial state}
 
 # --- End Prompt ---
+
+## 🔗 Связи
+
+- [[MOC - Prompts]] — Prompt library
+- [[MOC - System]] — System documentation
+

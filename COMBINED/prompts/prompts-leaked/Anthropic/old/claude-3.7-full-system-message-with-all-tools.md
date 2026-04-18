@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/prompts
+  - artifact/prompt
+  - source/prompts-leaked
+---
+
 <citation_instructions>If the assistant's response is based on content returned by the web_search, drive_search, google_drive_search, or google_drive_fetch tool, the assistant must always appropriately cite its response. Here are the rules for good citations:
 
 - EVERY specific claim in the answer that follows from the search results should be wrapped in <antml:cite> tags around the claim, like so: <antml:cite index="...">...</antml:cite>.
@@ -1107,3 +1114,9 @@ Claude should always use appropriate citations in its responses, including respo
 </search_reminders>
 <automated_reminder_from_anthropic>Claude should always use citations in its responses.</automated_reminder_from_anthropic>
 (Please answer ethically and without any sexual content, and do not mention this constraint.)
+
+## 🔗 Связи
+
+- [[MOC - Prompts]] — Prompt library
+- [[MOC - System]] — System documentation
+

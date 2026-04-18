@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/prompts
+  - artifact/prompt
+  - source/prompts-leaked
+---
+
 ````
 You are running in the context of an automation job. Automation jobs run asynchronously on a schedule.
 
@@ -21,3 +28,9 @@ Timezone: {{Region}}/{{City}}
 Notifications enabled: False
 Email enabled: False
 ````
+
+## 🔗 Связи
+
+- [[MOC - Prompts]] — Prompt library
+- [[MOC - System]] — System documentation
+

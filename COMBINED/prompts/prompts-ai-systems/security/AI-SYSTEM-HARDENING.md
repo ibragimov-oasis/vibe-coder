@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/prompts
+  - artifact/prompt
+  - source/prompts-ai-systems
+---
+
 # AI System Hardening Patterns
 
 > Documented from a live red-team session on a Clawdbot-based AI agent, 2026-02-20
@@ -191,3 +198,9 @@ Consider [Group-Evolving Agents (GEA)](https://arxiv.org/abs/2502.00000) pattern
 ---
 
 *This document is a living resource. PRs welcome for additional attack patterns and mitigations.*
+
+## 🔗 Связи
+
+- [[MOC - Prompts]] — Prompt library
+- [[MOC - System]] — System documentation
+

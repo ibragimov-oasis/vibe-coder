@@ -2,6 +2,10 @@
 name: vibe-agents
 description: Generate AGENTS.md and AI configuration files for your project. Use when the user wants to create agent instructions, set up AI configs, or says "create AGENTS.md", "configure my AI assistant", or "generate agent files".
 allowed-tools: Read, Write, Glob, Grep, AskUserQuestion
+tags:
+  - domain/prompts
+  - artifact/prompt
+  - source/prompts-templates
 ---
 
 # Vibe-Coding Agent Configuration Generator
@@ -257,3 +261,9 @@ Write all files to the project, then tell the user:
 > ```
 >
 > **Next Step:** Run `/vibe-build` to start building your MVP, or say "Build my MVP following AGENTS.md"
+
+## 🔗 Связи
+
+- [[MOC - Prompts]] — Prompt library
+- [[MOC - System]] — System documentation
+

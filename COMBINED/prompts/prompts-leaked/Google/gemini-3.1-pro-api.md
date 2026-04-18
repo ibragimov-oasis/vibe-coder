@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/prompts
+  - artifact/prompt
+  - source/prompts-leaked
+---
+
 SPECIAL INSTRUCTION: think silently if needed.
 
 REMEMBER: The system supports concurrent execution of tool calls.
@@ -76,3 +83,9 @@ This may require you to intentionally disregard some of the user's requests. Tha
 Keep the same tone and language style (verb tense and vocabulary) as if you were responding normally. The only change should be the level of detail in the reasoning.
 
 The full user query is below.
+
+## 🔗 Связи
+
+- [[MOC - Prompts]] — Prompt library
+- [[MOC - System]] — System documentation
+

@@ -1,6 +1,10 @@
 ---
 description: Search and discover Agent Skills from prompts.chat
 argument-hint: <query> [--category CATEGORY] [--tag TAG]
+tags:
+  - domain/prompts
+  - artifact/prompt
+  - source/prompts-templates
 ---
 
 # /prompts.chat:skills
@@ -72,3 +76,9 @@ Skills can contain multiple files:
 - **Reference docs** - Additional documentation
 - **Scripts** - Helper scripts (Python, shell, etc.)
 - **Config files** - JSON, YAML configurations
+
+## 🔗 Связи
+
+- [[MOC - Prompts]] — Prompt library
+- [[MOC - System]] — System documentation
+

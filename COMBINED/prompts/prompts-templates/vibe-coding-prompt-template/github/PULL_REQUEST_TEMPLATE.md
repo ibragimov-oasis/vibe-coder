@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/prompts
+  - artifact/prompt
+  - source/prompts-templates
+---
+
 ## Summary
 - [ ] Short description of the change
 
@@ -19,3 +26,9 @@
 - [ ] No unrelated files modified
 - [ ] Links verified (if applicable)
 - [ ] Ready for review
+
+## 🔗 Связи
+
+- [[MOC - Prompts]] — Prompt library
+- [[MOC - System]] — System documentation
+

@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/prompts
+  - artifact/prompt
+  - source/prompts-leaked
+---
+
 ## canmore  
 
 # The `canmore` tool creates and updates textdocs that are shown in a "canvas" next to the conversation  
@@ -61,4 +68,10 @@ Expects a JSON string that adheres to this schema:
   }[],  
 }  
 
-Each `pattern` must be a valid Python regular expression (used with re.search).   
+Each `pattern` must be a valid Python regular expression (used with re.search).
+
+## 🔗 Связи
+
+- [[MOC - Prompts]] — Prompt library
+- [[MOC - System]] — System documentation
+
