@@ -8,7 +8,9 @@ dependencies: [nemo-curator, cudf, dask, rapids]
 metadata:
   hermes:
     tags: [Data Processing, NeMo Curator, Data Curation, GPU Acceleration, Deduplication, Quality Filtering, NVIDIA, RAPIDS, PII Redaction, Multimodal, LLM Training Data]
-
+  - domain/skills
+  - artifact/skill
+  - source/skills-hermes
 ---
 
 # NeMo Curator - GPU-Accelerated Data Curation
@@ -382,5 +384,8 @@ cluster.close()
 - **Version**: 0.4.0+
 - **License**: Apache 2.0
 
+## 🔗 Связи
 
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-hermes]] — Category: skills-hermes
 

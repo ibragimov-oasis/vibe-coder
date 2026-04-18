@@ -7,6 +7,10 @@ metadata:
   author: Alireza Rezvani
   category: marketing
   updated: 2026-03-06
+tags:
+  - domain/agents
+  - artifact/skill
+  - source/skills-claude
 ---
 
 # AI SEO
@@ -329,3 +333,10 @@ AI SEO is still a young field. Be honest about confidence levels. What gets cite
 - **content-humanizer**: Use after writing for AI SEO. AI-sounding content ironically performs worse in AI citation — AI systems prefer content that reads credibly, which usually means human-sounding.
 - **seo-audit**: Use for traditional search ranking optimization. Run both — AI SEO and traditional SEO are complementary, not competing. Many signals overlap.
 - **content-strategy**: Use when deciding which topics and queries to target for AI visibility. Strategy first, then optimize.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+- [[MOC - Agents]] — Claude agents
+

@@ -1,6 +1,10 @@
 ---
 name: "observability-designer"
 description: "Observability Designer (POWERFUL)"
+tags:
+  - domain/agents
+  - artifact/skill
+  - source/skills-claude
 ---
 
 # Observability Designer (POWERFUL)
@@ -267,3 +271,10 @@ Creates comprehensive dashboard specifications:
 - **Customer Satisfaction:** User-reported reliability and performance satisfaction
 
 This comprehensive observability design skill enables organizations to build robust, scalable monitoring and alerting systems that provide actionable insights while maintaining cost efficiency and operational excellence.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+- [[MOC - Agents]] — Claude agents
+

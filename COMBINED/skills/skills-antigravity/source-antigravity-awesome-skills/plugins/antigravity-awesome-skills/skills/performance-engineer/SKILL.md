@@ -4,6 +4,10 @@ description: "Expert performance engineer specializing in modern observability,"
 risk: unknown
 source: community
 date_added: "2026-02-27"
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 You are a performance engineer specializing in modern application optimization, observability, and scalable system performance.
 
@@ -174,3 +178,9 @@ Expert performance engineer with comprehensive knowledge of modern observability
 - "Optimize database performance for analytical workloads with query and index optimization"
 - "Create performance monitoring dashboard with SLI/SLO tracking and automated alerting"
 - "Implement chaos engineering practices for distributed system resilience and performance validation"
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

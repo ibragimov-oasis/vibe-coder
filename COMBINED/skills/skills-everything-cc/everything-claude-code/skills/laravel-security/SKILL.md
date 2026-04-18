@@ -2,6 +2,10 @@
 name: laravel-security
 description: Laravel security best practices for authn/authz, validation, CSRF, mass assignment, file uploads, secrets, rate limiting, and secure deployment.
 origin: ECC
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-everything-cc
 ---
 
 # Laravel Security Best Practices
@@ -283,3 +287,9 @@ Route::get('/invoices/{invoice}/download', [InvoiceController::class, 'download'
     ->name('downloads.invoice')
     ->middleware('signed');
 ```
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

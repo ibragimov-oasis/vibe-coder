@@ -1,6 +1,10 @@
 ---
 name: apple-appstore-reviewer
 description: 'Serves as a reviewer of the codebase with instructions on looking for Apple App Store optimizations or rejection reasons.'
+tags:
+  - domain/agents
+  - artifact/skill
+  - source/skills-copilot
 ---
 
 # Apple App Store Review Specialist
@@ -303,3 +307,10 @@ Typical P2/P3 examples:
 ## Final Reminder
 
 You are **not** the developer. You are the **review gatekeeper**. Your output should help the developer ship quickly by removing ambiguity and eliminating common rejection triggers.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-copilot]] — Category: skills-copilot
+- [[MOC - Agents]] — Copilot agents
+

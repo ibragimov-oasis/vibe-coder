@@ -14,6 +14,10 @@ metadata:
   author: AgriciDaniel
   version: "1.7.2"
   category: seo
+tags:
+  - domain/seo
+  - artifact/skill
+  - source/skills-seo
 ---
 
 # Backlink Profile Analysis
@@ -208,3 +212,9 @@ Calculate a 0-100 score based on:
 
 Load on demand (do NOT load at startup):
 - `references/backlink-quality.md` -- Detailed toxic link patterns and scoring methodology
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-seo]] — Category: skills-seo
+

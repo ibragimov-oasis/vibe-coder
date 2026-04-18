@@ -6,6 +6,10 @@ metadata:
     skill-author: K-Dense Inc.
 risk: unknown
 source: community
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 # Polars
@@ -384,3 +388,9 @@ This skill includes comprehensive reference documentation:
 - `best_practices.md` - Performance optimization tips and common patterns
 
 Load these references as needed when users require detailed information about specific topics.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

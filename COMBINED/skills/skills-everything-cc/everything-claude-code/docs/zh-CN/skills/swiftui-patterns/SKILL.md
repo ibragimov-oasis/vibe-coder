@@ -1,6 +1,10 @@
 ---
 name: swiftui-patterns
 description: SwiftUI 架构模式，使用 @Observable 进行状态管理，视图组合，导航，性能优化，以及现代 iOS/macOS UI 最佳实践。
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-everything-cc
 ---
 
 # SwiftUI 模式
@@ -257,3 +261,9 @@ struct ExpensiveChartView: View, Equatable {
 
 查看技能：`swift-actor-persistence` 以了解基于 Actor 的持久化模式。
 查看技能：`swift-protocol-di-testing` 以了解基于协议的 DI 和使用 Swift Testing 进行测试。
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

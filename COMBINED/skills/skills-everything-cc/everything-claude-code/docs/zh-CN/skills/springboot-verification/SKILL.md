@@ -2,6 +2,10 @@
 name: springboot-verification
 description: "Spring Boot项目验证循环：构建、静态分析、测试覆盖、安全扫描，以及发布或PR前的差异审查。"
 origin: ECC
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-everything-cc
 ---
 
 # Spring Boot 验证循环
@@ -233,3 +237,9 @@ git diff
 * 保持短循环：`mvn -T 4 test` + spotbugs 以获取快速反馈
 
 **记住**：快速反馈胜过意外惊喜。保持关卡严格——将警告视为生产系统中的缺陷。
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

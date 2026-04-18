@@ -4,6 +4,10 @@ description: 分析康复训练数据、识别康复模式、评估康复进展�
 allowed-tools: Read, Grep, Glob, Write, Edit
 risk: unknown
 source: community
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 # 康复训练分析技能
@@ -636,3 +640,9 @@ source: community
 **技能版本**: v1.0
 **最后更新**: 2026-01-06
 **维护者**: WellAlly Tech
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

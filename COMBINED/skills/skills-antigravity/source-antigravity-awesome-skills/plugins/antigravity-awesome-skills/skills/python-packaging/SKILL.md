@@ -4,6 +4,10 @@ description: "Comprehensive guide to creating, structuring, and distributing Pyt
 risk: safe
 source: community
 date_added: "2026-02-27"
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 # Python Packaging
@@ -37,3 +41,9 @@ Comprehensive guide to creating, structuring, and distributing Python packages u
 ## Resources
 
 - `resources/implementation-playbook.md` for detailed patterns and examples.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

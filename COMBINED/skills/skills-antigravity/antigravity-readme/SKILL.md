@@ -4,6 +4,10 @@ description: "You are an expert technical writer creating comprehensive project 
 risk: safe
 source: "https://github.com/Shpigford/skills/tree/main/readme"
 date_added: "2026-02-27"
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 # README Generator
@@ -841,3 +845,9 @@ Generate a complete README.md file with:
 - Linked table of contents for long documents
 
 Write the README directly to `README.md` in the project root.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

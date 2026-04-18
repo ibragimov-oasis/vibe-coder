@@ -2,6 +2,10 @@
 name: chrome-devtools
 description: 'Expert-level browser automation, debugging, and performance analysis using Chrome DevTools MCP. Use for interacting with web pages, capturing screenshots, analyzing network traffic, and profiling performance.'
 license: MIT
+tags:
+  - domain/agents
+  - artifact/skill
+  - source/skills-copilot
 ---
 
 # Chrome DevTools Agent
@@ -95,3 +99,10 @@ Identify why a page is slow.
 - **Snapshots**: Take a new snapshot after any major navigation or DOM change, as `uid` values may change.
 - **Timeouts**: Use reasonable timeouts for `wait_for` to avoid hanging on slow-loading elements.
 - **Screenshots**: Use `take_screenshot` sparingly for visual verification, but rely on `take_snapshot` for logic.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-copilot]] — Category: skills-copilot
+- [[MOC - Agents]] — Copilot agents
+

@@ -4,6 +4,10 @@ description: Build high-performance async APIs with FastAPI, SQLAlchemy 2.0, and
 risk: unknown
 source: community
 date_added: '2026-02-27'
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 ## Use this skill when
@@ -188,3 +192,9 @@ Expert FastAPI developer specializing in high-performance, async-first API devel
 - "Implement rate limiting and circuit breaker for external API calls"
 - "Create a GraphQL endpoint alongside REST in FastAPI"
 - "Build a file upload system with progress tracking"
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

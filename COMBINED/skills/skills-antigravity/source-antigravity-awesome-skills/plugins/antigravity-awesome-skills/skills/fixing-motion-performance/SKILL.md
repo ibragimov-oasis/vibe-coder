@@ -3,6 +3,10 @@ name: fixing-motion-performance
 description: Audit and fix animation performance issues including layout thrashing, compositor properties, scroll-linked motion, and blur effects. Use when animations stutter, transitions jank, or reviewing CSS/JS animation performance.
 risk: safe
 source: community
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 # fixing-motion-performance
@@ -150,3 +154,9 @@ requestAnimationFrame(() => { el.style.transition = 'transform 0.3s'; el.style.t
 - choose the least expensive rendering work that matches the intent
 - for any non-default choice, state the constraint that justifies it (surface size, duration, or interaction requirement)
 - when reviewing, prefer actionable notes and concrete alternatives over theory
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

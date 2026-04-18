@@ -1,6 +1,10 @@
 ---
 name: agent-dev-backend-api
 description: Agent skill for dev-backend-api - invoke with $agent-dev-backend-api
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-ruflo
 ---
 
 ---
@@ -348,3 +352,9 @@ const bestApproach = Object.entries(endpointStats)
 - Proper error response formatting
 - **NEW**: ReasoningBank pattern storage and retrieval
 - **NEW**: GNN-enhanced dependency graph search
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-ruflo]] — Category: skills-ruflo
+

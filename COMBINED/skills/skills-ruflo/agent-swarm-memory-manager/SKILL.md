@@ -1,6 +1,10 @@
 ---
 name: agent-swarm-memory-manager
 description: Agent skill for swarm-memory-manager - invoke with $agent-swarm-memory-manager
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-ruflo
 ---
 
 ---
@@ -196,3 +200,9 @@ mcp__claude-flow__memory_usage {
 - Point-in-time recovery
 - Distributed backup coordination
 - Memory reconstruction from peers
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-ruflo]] — Category: skills-ruflo
+

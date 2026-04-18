@@ -3,6 +3,10 @@ name: skill-writer
 description: Create and improve agent skills following the Agent Skills specification. Use when asked to create, write, or update skills.
 risk: unknown
 source: community
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 # Skill Writer
@@ -106,3 +110,9 @@ Return:
 
 ## When to Use
 Use this skill when tackling tasks related to its primary domain or functionality as described above.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

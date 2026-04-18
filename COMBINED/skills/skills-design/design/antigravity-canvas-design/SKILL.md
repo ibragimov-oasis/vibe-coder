@@ -4,6 +4,10 @@ description: "These are instructions for creating design philosophies - aestheti
 risk: unknown
 source: community
 date_added: "2026-02-27"
+tags:
+  - domain/ui
+  - artifact/skill
+  - source/skills-design
 ---
 
 These are instructions for creating design philosophies - aesthetic movements that are then EXPRESSED VISUALLY. Output only .md files, .pdf files, and .png files.
@@ -133,3 +137,10 @@ To create additional pages when requested, create more creative pages along the 
 
 ## When to Use
 This skill is applicable to execute the workflow or actions described in the overview.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-design]] — Category: skills-design
+- [[MOC - UI Design]] — Design & UI
+

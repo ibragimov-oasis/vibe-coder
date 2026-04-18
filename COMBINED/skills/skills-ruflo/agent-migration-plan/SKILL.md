@@ -1,6 +1,10 @@
 ---
 name: agent-migration-plan
 description: Agent skill for migration-plan - invoke with $agent-migration-plan
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-ruflo
 ---
 
 ---
@@ -749,3 +753,9 @@ triggers:
 - Improved natural language understanding
 - Better task decomposition and parallelization
 - Enhanced error handling and recovery
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-ruflo]] — Category: skills-ruflo
+

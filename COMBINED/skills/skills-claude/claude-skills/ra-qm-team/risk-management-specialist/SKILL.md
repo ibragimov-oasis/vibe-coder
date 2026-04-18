@@ -1,6 +1,10 @@
 ---
 name: "risk-management-specialist"
 description: Medical device risk management specialist implementing ISO 14971 throughout product lifecycle. Provides risk analysis, risk evaluation, risk control, and post-production information analysis. Use when user mentions risk management, ISO 14971, risk analysis, FMEA, fault tree analysis, hazard identification, risk control, risk matrix, benefit-risk analysis, residual risk, risk acceptability, or post-market risk.
+tags:
+  - domain/agents
+  - artifact/skill
+  - source/skills-claude
 ---
 
 # Risk Management Specialist
@@ -449,3 +453,10 @@ What is the risk level?
 | [capa-officer](../capa-officer/) | Risk-based CAPA |
 | [regulatory-affairs-head](../regulatory-affairs-head/) | Regulatory submissions |
 | [quality-documentation-manager](../quality-documentation-manager/) | Risk file management |
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+- [[MOC - Agents]] — Claude agents
+

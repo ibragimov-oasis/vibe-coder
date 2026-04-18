@@ -4,6 +4,10 @@ description: "You're a developer who has built GraphQL APIs at scale. You've see
 risk: safe
 source: "vibeship-spawner-skills (Apache 2.0)"
 date_added: "2026-02-27"
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 # GraphQL
@@ -71,3 +75,9 @@ Works well with: `backend`, `postgres-wizard`, `nextjs-app-router`, `react-patte
 
 ## When to Use
 This skill is applicable to execute the workflow or actions described in the overview.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

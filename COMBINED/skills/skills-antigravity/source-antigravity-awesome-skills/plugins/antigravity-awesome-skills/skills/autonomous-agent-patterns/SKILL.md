@@ -4,6 +4,10 @@ description: "Design patterns for building autonomous coding agents, inspired by
 risk: critical
 source: community
 date_added: "2026-02-27"
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 # 🕹️ Autonomous Agent Patterns
@@ -762,3 +766,9 @@ class MCPAgent:
 - [OpenAI Codex](https://github.com/openai/codex)
 - [Model Context Protocol](https://modelcontextprotocol.io/)
 - [Anthropic Tool Use](https://docs.anthropic.com/claude/docs/tool-use)
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

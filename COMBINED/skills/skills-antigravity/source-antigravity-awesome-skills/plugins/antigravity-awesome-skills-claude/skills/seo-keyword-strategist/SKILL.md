@@ -4,6 +4,10 @@ description: Analyzes keyword usage in provided content, calculates density, sug
 risk: unknown
 source: community
 date_added: '2026-02-27'
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 ## Use this skill when
@@ -92,3 +96,9 @@ Entities: [related concepts to include]
 - Static sites: Frontmatter keyword schema
 
 Focus on natural keyword integration and semantic relevance. Build topical depth through related concepts.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

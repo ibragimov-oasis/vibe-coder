@@ -6,6 +6,10 @@ metadata:
     skill-author: K-Dense Inc.
 risk: unknown
 source: community
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 # Scikit-learn
@@ -518,4 +522,9 @@ model = MiniBatchKMeans(n_clusters=8, batch_size=100)
 - User Guide: https://scikit-learn.org/stable/user_guide.html
 - API Reference: https://scikit-learn.org/stable/api/index.html
 - Examples Gallery: https://scikit-learn.org/stable/auto_examples/index.html
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
 

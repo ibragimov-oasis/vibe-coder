@@ -1,6 +1,10 @@
 ---
 name: java-junit
 description: 'Get best practices for JUnit 5 unit testing, including data-driven tests'
+tags:
+  - domain/agents
+  - artifact/skill
+  - source/skills-copilot
 ---
 
 # JUnit 5+ Best Practices
@@ -61,3 +65,10 @@ Your goal is to help me write effective unit tests with JUnit 5, covering both s
 - Use `@TestMethodOrder(MethodOrderer.OrderAnnotation.class)` and `@Order` to control test execution order when strictly necessary.
 - Use `@Disabled` to temporarily skip a test method or class, providing a reason.
 - Use `@Nested` to group tests in a nested inner class for better organization and structure.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-copilot]] — Category: skills-copilot
+- [[MOC - Agents]] — Copilot agents
+

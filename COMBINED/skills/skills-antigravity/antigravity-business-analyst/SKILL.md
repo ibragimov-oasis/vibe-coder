@@ -4,6 +4,10 @@ description: Master modern business analysis with AI-powered analytics, real-tim
 risk: unknown
 source: community
 date_added: '2026-02-27'
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 ## Use this skill when
@@ -178,3 +182,9 @@ Expert business analyst focused on transforming complex business data into actio
 - "Build an executive dashboard showing key business metrics with trend analysis"
 - "Analyze our sales funnel performance and identify optimization opportunities"
 - "Create a competitive intelligence framework with automated data collection"
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

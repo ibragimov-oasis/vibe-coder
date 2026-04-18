@@ -15,6 +15,10 @@ metadata:
   author: evos
   clawdbot:
     emoji: ""
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-everything-cc
 ---
 
 # Logistics Exception Management
@@ -220,3 +224,9 @@ Track these metrics weekly and trend monthly:
 
 - Pair this skill with your internal claims deadlines, mode-specific escalation matrix, and insurer notice requirements.
 - Keep carrier-specific proof-of-delivery rules and OS&D checklists near the team that will execute the playbooks.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

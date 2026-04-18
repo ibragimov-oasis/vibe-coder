@@ -2,6 +2,10 @@
 name: agentic-engineering
 description: 作为代理工程师，采用评估优先执行、分解和成本感知模型路由进行操作。
 origin: ECC
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-everything-cc
 ---
 
 # 智能体工程
@@ -64,3 +68,9 @@ origin: ECC
 * 成功/失败
 
 仅当较低层级的模型失败且存在清晰的推理差距时，才升级模型层级。
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

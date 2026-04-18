@@ -1,6 +1,10 @@
 ---
 name: java-coding-standards
 description: Spring Bootサービス向けのJavaコーディング標準：命名、不変性、Optional使用、ストリーム、例外、ジェネリクス、プロジェクトレイアウト。
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-everything-cc
 ---
 
 # Javaコーディング標準
@@ -136,3 +140,9 @@ log.error("failed_fetch_market slug={}", slug, ex);
 - 決定論的テストを優先; 隠れたsleepなし
 
 **覚えておく**: コードを意図的、型付き、観察可能に保つ。必要性が証明されない限り、マイクロ最適化よりも保守性を最適化します。
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

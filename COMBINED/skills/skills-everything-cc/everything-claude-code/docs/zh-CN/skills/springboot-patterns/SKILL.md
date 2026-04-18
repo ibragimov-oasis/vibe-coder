@@ -2,6 +2,10 @@
 name: springboot-patterns
 description: Spring Boot架构模式、REST API设计、分层服务、数据访问、缓存、异步处理和日志记录。用于Java Spring Boot后端工作。
 origin: ECC
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-everything-cc
 ---
 
 # Spring Boot 开发模式
@@ -311,3 +315,9 @@ public class RateLimitFilter extends OncePerRequestFilter {
 * 在适当的地方通过 `@NonNull` 和 `Optional` 强制执行空值安全
 
 **记住**：保持控制器精简、服务专注、仓库简单，并集中处理错误。为可维护性和可测试性进行优化。
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

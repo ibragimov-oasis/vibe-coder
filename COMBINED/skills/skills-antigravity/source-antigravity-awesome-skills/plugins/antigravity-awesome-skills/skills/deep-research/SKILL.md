@@ -4,6 +4,10 @@ description: "Run autonomous research tasks that plan, search, read, and synthes
 risk: safe
 source: "https://github.com/sanjay3290/ai-skills/tree/main/skills/deep-research"
 date_added: "2026-02-27"
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 # Gemini Deep Research Skill
@@ -113,3 +117,9 @@ python3 scripts/research.py --list
 - **0**: Success
 - **1**: Error (API error, config issue, timeout)
 - **130**: Cancelled by user (Ctrl+C)
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

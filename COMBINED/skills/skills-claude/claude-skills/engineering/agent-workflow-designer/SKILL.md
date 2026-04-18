@@ -1,6 +1,10 @@
 ---
 name: "agent-workflow-designer"
 description: "Agent Workflow Designer"
+tags:
+  - domain/agents
+  - artifact/skill
+  - source/skills-claude
 ---
 
 # Agent Workflow Designer
@@ -81,3 +85,10 @@ Detailed templates: `references/workflow-patterns.md`
 2. Keep handoff payloads explicit and bounded.
 3. Validate intermediate outputs before fan-in synthesis.
 4. Enforce budget and timeout limits in every step.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+- [[MOC - Agents]] — Claude agents
+

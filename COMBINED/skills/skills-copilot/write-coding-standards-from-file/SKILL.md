@@ -1,6 +1,10 @@
 ---
 name: write-coding-standards-from-file
 description: 'Write a coding standards document for a project using the coding styles from the file(s) and/or folder(s) passed as arguments in the prompt.'
+tags:
+  - domain/agents
+  - artifact/skill
+  - source/skills-copilot
 ---
 
 # Write Coding Standards From File
@@ -314,3 +318,10 @@ Depending on the programming language, for each link in list below, run `#fetch 
     Propose improvements by opening an issue or sending a patch updating this document.
     ```
 ```
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-copilot]] — Category: skills-copilot
+- [[MOC - Agents]] — Copilot agents
+

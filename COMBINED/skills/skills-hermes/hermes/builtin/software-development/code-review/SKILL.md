@@ -1,6 +1,10 @@
 ---
 name: code-review
 description: Guidelines for performing thorough code reviews with security and quality focus
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-hermes
 ---
 
 # Code Review Skill
@@ -79,3 +83,9 @@ element.textContent = userInput;
 - Explain *why* something is an issue, not just *what*
 - Offer solutions, not just problems
 - Acknowledge good patterns you see
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-hermes]] — Category: skills-hermes
+

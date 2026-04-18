@@ -1,6 +1,10 @@
 ---
 name: agent-code-review-swarm
 description: Agent skill for code-review-swarm - invoke with $agent-code-review-swarm
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-ruflo
 ---
 
 ---
@@ -541,3 +545,9 @@ npx ruv-swarm github review-report \
 ```
 
 See also: [swarm-pr.md](.$swarm-pr.md), [workflow-automation.md](.$workflow-automation.md)
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-ruflo]] — Category: skills-ruflo
+

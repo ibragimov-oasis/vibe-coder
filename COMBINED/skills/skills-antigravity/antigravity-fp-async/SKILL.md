@@ -14,6 +14,9 @@ tags:
   - promises
   - api
   - fetch
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 # Practical Async Patterns with fp-ts
@@ -964,3 +967,9 @@ const getData = (id: string) =>
     TE.getOrElse(() => T.of(defaultValue))
   )
 ```
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

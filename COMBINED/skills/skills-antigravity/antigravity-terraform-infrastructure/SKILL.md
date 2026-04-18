@@ -5,6 +5,10 @@ category: granular-workflow-bundle
 risk: safe
 source: personal
 date_added: "2026-02-27"
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 # Terraform Infrastructure Workflow
@@ -161,3 +165,9 @@ Use @secrets-management to secure Terraform secrets
 - `cloud-devops` - Cloud/DevOps
 - `kubernetes-deployment` - Kubernetes
 - `aws-infrastructure` - AWS specific
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

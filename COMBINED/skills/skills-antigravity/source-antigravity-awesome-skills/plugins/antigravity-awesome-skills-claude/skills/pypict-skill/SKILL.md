@@ -4,6 +4,10 @@ description: "Pairwise test generation"
 risk: safe
 source: "https://github.com/omkamal/pypict-claude-skill/blob/main/SKILL.md"
 date_added: "2026-02-27"
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 # Pypict Skill
@@ -21,3 +25,9 @@ Use this skill when you need to work with pairwise test generation.
 This skill provides guidance and patterns for pairwise test generation.
 
 For more information, see the [source repository](https://github.com/omkamal/pypict-claude-skill/blob/main/SKILL.md).
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

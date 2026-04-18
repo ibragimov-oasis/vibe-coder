@@ -3,6 +3,10 @@ name: fda-medtech-compliance-auditor
 description: "Expert AI auditor for Medical Device (SaMD) compliance, IEC 62304, and 21 CFR Part 820. Reviews DHFs, technical files, and software validation."
 risk: unknown
 source: community
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 # FDA MedTech Compliance Auditor
@@ -60,3 +64,9 @@ Required Actions:
 - ✅ **Do:** Expect strict interpretations — the goal is to find weaknesses before a real inspector does.
 - ❌ **Don't:** Forget to link every software defect to a clinical risk item in your ISO 14971 risk file.
 - ❌ **Don't:** Assume "we tested it and it works" satisfies IEC 62304 software verification requirements.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

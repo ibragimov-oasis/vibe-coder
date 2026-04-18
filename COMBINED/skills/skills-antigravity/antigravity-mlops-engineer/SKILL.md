@@ -4,6 +4,10 @@ description: Build comprehensive ML pipelines, experiment tracking, and model re
 risk: unknown
 source: community
 date_added: '2026-02-27'
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 ## Use this skill when
@@ -215,3 +219,9 @@ Expert MLOps engineer specializing in building scalable ML infrastructure and au
 - "Implement GitOps workflow for ML model deployment with approval gates"
 - "Build monitoring system for detecting data drift and model performance issues"
 - "Create cost-optimized training infrastructure using spot instances and auto-scaling"
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

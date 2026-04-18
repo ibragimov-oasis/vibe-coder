@@ -8,7 +8,10 @@ required_credential_files:
   - path: google_token.json
     description: Google OAuth2 token (created by setup script)
   - path: google_client_secret.json
-    description: Google OAuth2 client credentials (downloaded from Google Cloud Console)
+
+  - domain/skills
+  - artifact/skill
+  - source/skills-hermes    description: Google OAuth2 client credentials (downloaded from Google Cloud Console)
 metadata:
   hermes:
     tags: [Google, Gmail, Calendar, Drive, Sheets, Docs, Contacts, Email, OAuth]
@@ -246,3 +249,9 @@ All commands return JSON. Parse with `jq` or read directly. Key fields:
 ```bash
 $GSETUP --revoke
 ```
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-hermes]] — Category: skills-hermes
+

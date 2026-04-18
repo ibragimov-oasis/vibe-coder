@@ -1,6 +1,10 @@
 ---
 name: email-drafter
 description: 'Draft and review professional emails that match your personal writing style. Analyzes your sent emails for tone, greeting, structure, and sign-off patterns via WorkIQ, then generates context-aware drafts for any recipient. USE FOR: draft email, write email, compose email, reply email, follow-up email, analyze email tone, email style.'
+tags:
+  - domain/agents
+  - artifact/skill
+  - source/skills-copilot
 ---
 
 # Email Drafter
@@ -98,3 +102,10 @@ Apply the discovered (or default) style rules:
 - **WorkIQ MCP tool** is recommended for tone analysis and recipient context (Microsoft 365 / Outlook)
 - Without WorkIQ, the skill still works but uses professional defaults instead of personalized tone matching
 - Output is saved as markdown files in the workspace
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-copilot]] — Category: skills-copilot
+- [[MOC - Agents]] — Copilot agents
+

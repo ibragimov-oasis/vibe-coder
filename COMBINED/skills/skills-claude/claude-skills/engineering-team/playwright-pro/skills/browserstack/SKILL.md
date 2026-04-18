@@ -4,6 +4,10 @@ description: >-
   Run tests on BrowserStack. Use when user mentions "browserstack",
   "cross-browser", "cloud testing", "browser matrix", "test on safari",
   "test on firefox", or "browser compatibility".
+tags:
+  - domain/agents
+  - artifact/skill
+  - source/skills-claude
 ---
 
 # BrowserStack Integration
@@ -166,3 +170,10 @@ For testing localhost or staging behind firewall:
 - Per-browser pass/fail status
 - Links to BrowserStack dashboard for video/screenshots
 - Any browser-specific failures highlighted
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+- [[MOC - Agents]] — Claude agents
+

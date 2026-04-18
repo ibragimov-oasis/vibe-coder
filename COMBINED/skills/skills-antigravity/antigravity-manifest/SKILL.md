@@ -4,6 +4,10 @@ description: "Install and configure the Manifest observability plugin for your a
 risk: unknown
 source: community
 date_added: "2026-02-27"
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 # Manifest Setup
@@ -125,3 +129,9 @@ Use @manifest to connect my agent to my self-hosted Manifest instance at https:/
 - The default endpoint works for most users — only change it if self-hosting
 - API keys always start with `mnfst_` — any other format is invalid
 - Check gateway logs first when debugging any plugin issue
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

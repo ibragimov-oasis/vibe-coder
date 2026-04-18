@@ -1,6 +1,10 @@
 ---
 name: create-github-issues-feature-from-implementation-plan
 description: 'Create GitHub Issues from implementation plan phases using feature_request.yml or chore_request.yml templates.'
+tags:
+  - domain/agents
+  - artifact/skill
+  - source/skills-copilot
 ---
 
 # Create GitHub Issue from Implementation Plan
@@ -26,3 +30,10 @@ Create GitHub Issues for the implementation plan at `${file}`.
 - Title: Phase name from implementation plan
 - Description: Phase details, requirements, and context
 - Labels: Appropriate for issue type (feature/chore)
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-copilot]] — Category: skills-copilot
+- [[MOC - Agents]] — Copilot agents
+

@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-everything-cc
+---
+
 # 検証ループスキル
 
 Claude Codeセッション向けの包括的な検証システム。
@@ -118,3 +125,9 @@ Lint:       [成功/失敗] (X警告)
 
 このスキルはPostToolUseフックを補完しますが、より深い検証を提供します。
 フックは問題を即座に捕捉; このスキルは包括的なレビューを提供。
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

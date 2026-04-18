@@ -8,6 +8,10 @@ metadata:
   author: evos
   clawdbot:
     emoji: ""
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-everything-cc
 ---
 
 # 承运商关系管理
@@ -197,3 +201,9 @@ metadata:
 
 * 在同一运营审查中跟踪承运人记分卡、异常趋势和路由指南合规情况，以便定价和服务决策保持关联。
 * 在将此技能用于生产环境之前，请先记录您组织偏好的谈判立场、附加费护栏和升级触发条件。
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

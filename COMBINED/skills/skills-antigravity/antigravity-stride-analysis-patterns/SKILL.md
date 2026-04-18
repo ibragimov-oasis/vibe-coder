@@ -4,6 +4,10 @@ description: "Apply STRIDE methodology to systematically identify threats. Use w
 risk: safe
 source: community
 date_added: "2026-02-27"
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 # STRIDE Analysis Patterns
@@ -34,3 +38,9 @@ Systematic threat identification using the STRIDE methodology.
 ## Resources
 
 - `resources/implementation-playbook.md` for detailed patterns and examples.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

@@ -4,6 +4,10 @@ description: "Master Electron desktop app development with secure IPC, contextIs
 risk: safe
 source: community
 date_added: "2026-03-12"
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 # Electron Development
@@ -854,3 +858,9 @@ app.on('web-contents-created', (_event, contents) => {
 - `typescript-pro` — When setting up advanced TypeScript configurations for multi-target builds
 - `nodejs-backend-patterns` — When the main process needs complex backend logic
 - `github-actions-templates` — When setting up CI/CD for cross-platform Electron builds
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

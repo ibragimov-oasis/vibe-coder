@@ -4,6 +4,10 @@ description: Azure Bot Service Management SDK for Python. Use for creating, mana
 risk: unknown
 source: community
 date_added: '2026-02-27'
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 # Azure Bot Service Management SDK for Python
@@ -322,3 +326,9 @@ for conn in connections:
 
 ## When to Use
 This skill is applicable to execute the workflow or actions described in the overview.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

@@ -4,6 +4,10 @@ description: 分析心理健康数据、识别心理模式、评估心理健康�
 allowed-tools: Read, Grep, Glob, Write, Edit
 risk: unknown
 source: community
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 # 心理健康分析技能
@@ -981,3 +985,9 @@ source: community
 **技能版本**: v1.0.0
 **最后更新**: 2025-01-06
 **维护者**: WellAlly Tech
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

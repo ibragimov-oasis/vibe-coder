@@ -8,7 +8,9 @@ dependencies: [transformers, torch, pillow]
 metadata:
   hermes:
     tags: [LLaVA, Vision-Language, Multimodal, Visual Question Answering, Image Chat, CLIP, Vicuna, Conversational AI, Instruction Tuning, VQA]
-
+  - domain/skills
+  - artifact/skill
+  - source/skills-hermes
 ---
 
 # LLaVA - Large Language and Vision Assistant
@@ -304,4 +306,8 @@ demo.launch()
 - **Models**: https://huggingface.co/liuhaotian
 - **License**: Apache 2.0
 
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-hermes]] — Category: skills-hermes
 

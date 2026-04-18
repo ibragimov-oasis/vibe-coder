@@ -1,6 +1,10 @@
 ---
 name: visa-doc-translate
 description: Translate visa application documents (images) to English and create a bilingual PDF with original and translation
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-everything-cc
 ---
 
 You are helping translate visa application documents for visa applications.
@@ -115,3 +119,9 @@ The skill will:
    - Page 2: Professional English translation
 
 Perfect for visa applications to Australia, USA, Canada, UK, and other countries requiring translated documents.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

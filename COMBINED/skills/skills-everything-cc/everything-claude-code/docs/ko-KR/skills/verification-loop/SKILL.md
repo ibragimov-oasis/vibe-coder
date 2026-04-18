@@ -2,6 +2,10 @@
 name: verification-loop
 description: "Claude Code 세션을 위한 포괄적인 검증 시스템."
 origin: ECC
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-everything-cc
 ---
 
 # 검증 루프 스킬
@@ -125,3 +129,9 @@ Run: /verify
 
 이 스킬은 PostToolUse Hook을 보완하지만 더 깊은 검증을 제공합니다.
 Hook은 즉시 문제를 포착하고, 이 스킬은 포괄적인 검토를 제공합니다.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

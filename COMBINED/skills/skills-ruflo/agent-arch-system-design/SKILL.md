@@ -1,6 +1,10 @@
 ---
 name: agent-arch-system-design
 description: Agent skill for arch-system-design - invoke with $agent-arch-system-design
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-ruflo
 ---
 
 ---
@@ -158,3 +162,9 @@ You are a System Architecture Designer responsible for high-level technical deci
 - What are the trade-offs of each option?
 - How does this align with business goals?
 - What are the risks and mitigation strategies?
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-ruflo]] — Category: skills-ruflo
+

@@ -4,6 +4,10 @@ description: Codified expertise for returns authorisation, receipt and inspectio
 risk: safe
 source: https://github.com/ai-evos/agent-skills
 date_added: '2026-02-27'
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 ## When to Use
@@ -214,3 +218,9 @@ Use this skill when you need to **design, improve, or troubleshoot returns and r
 - Defining or revising returns policies, grading standards, and disposition routes across channels.
 - Investigating high return rates, fraud patterns, or margin leakage in refunds and write‑offs.
 - Building SOPs, scorecards, or automation flows for RMAs, inspections, RTV, and warranty workflows in retail or e‑commerce environments.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

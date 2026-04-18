@@ -1,6 +1,10 @@
 ---
 name: typescript-mcp-server-generator
 description: 'Generate a complete MCP server project in TypeScript with tools, resources, and proper configuration'
+tags:
+  - domain/agents
+  - artifact/skill
+  - source/skills-copilot
 ---
 
 # Generate TypeScript MCP Server
@@ -88,3 +92,10 @@ Create a complete Model Context Protocol (MCP) server in TypeScript with the fol
 - Resource links for efficient data references
 
 Generate a complete, production-ready MCP server with comprehensive documentation, type safety, and error handling.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-copilot]] — Category: skills-copilot
+- [[MOC - Agents]] — Copilot agents
+

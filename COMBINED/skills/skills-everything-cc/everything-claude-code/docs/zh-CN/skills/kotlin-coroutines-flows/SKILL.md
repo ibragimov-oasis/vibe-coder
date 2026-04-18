@@ -2,6 +2,10 @@
 name: kotlin-coroutines-flows
 description: Kotlin协程与Flow在Android和KMP中的模式——结构化并发、Flow操作符、StateFlow、错误处理和测试。
 origin: ECC
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-everything-cc
 ---
 
 # Kotlin 协程与 Flow
@@ -282,3 +286,9 @@ class FakeItemRepository : ItemRepository {
 
 关于 Flow 在 UI 层的消费，请参阅技能：`compose-multiplatform-patterns`。
 关于协程在各层中的适用位置，请参阅技能：`android-clean-architecture`。
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

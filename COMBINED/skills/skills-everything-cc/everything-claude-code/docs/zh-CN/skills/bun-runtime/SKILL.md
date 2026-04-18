@@ -2,6 +2,10 @@
 name: bun-runtime
 description: Bun 作为运行时、包管理器、打包器和测试运行器。何时选择 Bun 而非 Node、迁移注意事项以及 Vercel 支持。
 origin: ECC
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-everything-cc
 ---
 
 # Bun 运行时
@@ -82,3 +86,9 @@ Bun.serve({
 * 提交锁文件（`bun.lock` 或 `bun.lockb`）以实现可重复的安装。
 * 在脚本中优先使用 `bun run`。对于 TypeScript，Bun 原生运行 `.ts`。
 * 保持依赖项最新；Bun 和生态系统发展迅速。
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

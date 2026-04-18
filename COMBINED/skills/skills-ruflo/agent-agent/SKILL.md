@@ -1,6 +1,10 @@
 ---
 name: agent-agent
 description: Agent skill for agent - invoke with $agent-agent
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-ruflo
 ---
 
 ---
@@ -819,3 +823,9 @@ Leverage light-speed delays for predictive planning:
 - Optimize for multiple success criteria simultaneously
 
 This goal-planner agent represents the cutting edge of AI-driven objective achievement, combining mathematical rigor with practical execution capabilities through the powerful sublinear-time-solver toolkit and Claude Flow ecosystem.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-ruflo]] — Category: skills-ruflo
+

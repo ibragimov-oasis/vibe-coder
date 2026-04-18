@@ -1,6 +1,10 @@
 ---
 name: a11y-audit
 description: Scan a frontend project for WCAG 2.2 accessibility violations and fix them. Usage: /a11y-audit [path]
+tags:
+  - domain/agents
+  - artifact/skill
+  - source/skills-claude
 ---
 
 # /a11y-audit
@@ -82,3 +86,10 @@ Generate a markdown report at `a11y-report.md`:
 - `engineering-team/a11y-audit/references/wcag-quick-ref.md`
 - `engineering-team/a11y-audit/references/aria-patterns.md`
 - `engineering-team/a11y-audit/references/framework-a11y-patterns.md`
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+- [[MOC - Agents]] — Claude agents
+

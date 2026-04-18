@@ -1,6 +1,10 @@
 ---
 name: finalize-agent-prompt
 description: 'Finalize prompt file using the role of an AI agent to polish the prompt for the end user.'
+tags:
+  - domain/agents
+  - artifact/skill
+  - source/skills-copilot
 ---
 
 # Finalize Agent Prompt
@@ -24,3 +28,10 @@ current prompt so it aligns with proven best practices.
    organization to match the successful patterns you have observed.
 2. Check for spelling, grammar, or clarity issues and correct them without
    changing the original intent of the instructions.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-copilot]] — Category: skills-copilot
+- [[MOC - Agents]] — Copilot agents
+

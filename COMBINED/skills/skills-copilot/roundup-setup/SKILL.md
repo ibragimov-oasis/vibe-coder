@@ -1,6 +1,10 @@
 ---
 name: roundup-setup
 description: 'Interactive onboarding that learns your communication style, audiences, and data sources to configure personalized status briefings. Paste in examples of updates you already write, answer a few questions, and roundup calibrates itself to your workflow.'
+tags:
+  - domain/agents
+  - artifact/skill
+  - source/skills-copilot
 ---
 
 # Roundup Setup
@@ -236,3 +240,10 @@ If they're starting from scratch with no prior pattern, help them think through 
 
 ### Config file already exists
 If `~/.config/roundup/config.md` already exists, ask before overwriting: "You already have a roundup config. Want to start fresh, or keep your current setup?" If they want to keep it, offer to open it for manual editing instead.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-copilot]] — Category: skills-copilot
+- [[MOC - Agents]] — Copilot agents
+

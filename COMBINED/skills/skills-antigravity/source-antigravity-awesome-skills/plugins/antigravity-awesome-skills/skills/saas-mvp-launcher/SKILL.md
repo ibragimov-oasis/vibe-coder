@@ -4,6 +4,10 @@ description: "Use when planning or building a SaaS MVP from scratch. Provides a 
 risk: safe
 source: community
 date_added: "2026-03-04"
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 # SaaS MVP Launcher
@@ -216,3 +220,9 @@ export async function createCheckoutSession(userId: string, priceId: string) {
 
 **Problem:** Database migrations failing in production
 **Solution:** Always run `prisma migrate deploy` (not `prisma migrate dev`) in production environments.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

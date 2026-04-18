@@ -5,6 +5,10 @@ category: spreadsheet-processing
 risk: safe
 source: personal
 date_added: "2026-02-27"
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 # LibreOffice Calc
@@ -198,3 +202,9 @@ soffice --headless --accept="socket,host=localhost,port=8100;urp;"
 - base
 - xlsx-official
 - workflow-automation
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

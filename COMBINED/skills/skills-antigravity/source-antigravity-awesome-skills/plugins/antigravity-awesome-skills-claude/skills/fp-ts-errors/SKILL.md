@@ -4,6 +4,10 @@ description: "Handle errors as values using fp-ts Either and TaskEither for clea
 risk: safe
 source: "https://github.com/whatiskadudoing/fp-ts-skills"
 date_added: "2026-02-27"
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 # Practical Error Handling with fp-ts
@@ -855,3 +859,9 @@ All Either operations have TaskEither equivalents:
 5. **Match at the end** - Use `fold` to handle both cases when you're ready to act
 
 The payoff: TypeScript tracks your errors, no more forgotten try/catch, clear control flow, and composable error handling.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

@@ -3,6 +3,10 @@ name: odoo-woocommerce-bridge
 description: "Sync Odoo with WooCommerce: products, inventory, orders, and customers via WooCommerce REST API and Odoo external API."
 risk: unknown
 source: community
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 # Odoo ↔ WooCommerce Bridge
@@ -133,3 +137,9 @@ def sync_inventory_to_woocommerce():
 - ✅ **Do:** Log all API calls and errors to a database table for debugging.
 - ❌ **Don't:** Process the same WooCommerce order twice — flag it as processed immediately after import.
 - ❌ **Don't:** Sync draft or cancelled WooCommerce orders to Odoo — filter by `status = processing` or `completed`.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

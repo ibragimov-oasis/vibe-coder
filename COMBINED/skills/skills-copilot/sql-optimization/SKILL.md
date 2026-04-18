@@ -1,6 +1,10 @@
 ---
 name: sql-optimization
 description: 'Universal SQL performance optimization assistant for comprehensive query tuning, indexing strategies, and database performance analysis across all SQL databases (MySQL, PostgreSQL, SQL Server, Oracle). Provides execution plan analysis, pagination optimization, batch operations, and performance monitoring guidance.'
+tags:
+  - domain/agents
+  - artifact/skill
+  - source/skills-copilot
 ---
 
 # SQL Performance Optimization Assistant
@@ -294,3 +298,10 @@ ORDER BY avg_elapsed_time DESC;
 6. **Iterate**: Regular performance review and optimization
 
 Focus on measurable performance improvements and always test optimizations with realistic data volumes and query patterns.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-copilot]] — Category: skills-copilot
+- [[MOC - Agents]] — Copilot agents
+

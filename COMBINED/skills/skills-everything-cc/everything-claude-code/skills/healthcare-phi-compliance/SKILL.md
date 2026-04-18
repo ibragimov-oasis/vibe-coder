@@ -3,6 +3,10 @@ name: healthcare-phi-compliance
 description: Protected Health Information (PHI) and Personally Identifiable Information (PII) compliance patterns for healthcare applications. Covers data classification, access control, audit trails, encryption, and common leak vectors.
 origin: Health1 Super Speciality Hospitals — contributed by Dr. Keyur Patel
 version: "1.0.0"
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-everything-cc
 ---
 
 # Healthcare PHI/PII Compliance Patterns
@@ -143,3 +147,9 @@ console.log('Processing patient:', patient);
 console.log('Processing record:', patient.id);
 // Note: even patient.id should be an opaque UUID, not a medical record number
 ```
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

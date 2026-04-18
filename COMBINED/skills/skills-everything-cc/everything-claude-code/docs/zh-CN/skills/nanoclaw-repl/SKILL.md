@@ -2,6 +2,10 @@
 name: nanoclaw-repl
 description: 操作并扩展NanoClaw v2，这是ECC基于claude -p构建的零依赖会话感知REPL。
 origin: ECC
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-everything-cc
 ---
 
 # NanoClaw REPL
@@ -31,3 +35,9 @@ origin: ECC
 * 保持零外部运行时依赖
 * 保持以 Markdown 作为数据库的兼容性
 * 保持命令处理器的确定性和本地性
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

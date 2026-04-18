@@ -4,6 +4,10 @@ description: Use when a coding task must be completed against explicit acceptanc
 risk: safe
 source: community
 date_added: "2026-03-12"
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 # Closed-Loop Delivery
@@ -114,3 +118,9 @@ When claiming completion, always include:
 - PR status (new actionable comments count)
 
 Do not claim success without evidence.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

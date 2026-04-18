@@ -4,6 +4,10 @@ description: "Skill for discovering and researching autonomous AI agents, tools,
 risk: safe
 source: agentfolio.io
 date_added: "2026-02-27"
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 # AgentFolio
@@ -93,4 +97,9 @@ This skill is applicable when you need to **discover or compare autonomous AI ag
 - At the start of a new agent or workflow project.
 - When evaluating vendors or tools to integrate.
 - When you want inspiration or best practices from existing agent products.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
 

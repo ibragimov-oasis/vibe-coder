@@ -1,6 +1,10 @@
 ---
 name: image-generation
 description: Use this skill when the user requests to generate, create, imagine, or visualize images including characters, scenes, products, or any visual content. Supports structured prompts and reference images for guided generation.
+tags:
+  - domain/ui
+  - artifact/skill
+  - source/skills-design
 ---
 
 # Image Generation Skill
@@ -185,3 +189,10 @@ This approach significantly improves generation quality by providing the model w
 - Reference images enhance generation quality significantly
 - Iterative refinement is normal for optimal results
 - For character generation, include the detailed character object plus a consolidated prompt field
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-design]] — Category: skills-design
+- [[MOC - UI Design]] — Design & UI
+

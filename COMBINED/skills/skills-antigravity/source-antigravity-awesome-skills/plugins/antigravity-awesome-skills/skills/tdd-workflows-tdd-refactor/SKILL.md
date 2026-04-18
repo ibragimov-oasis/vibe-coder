@@ -4,6 +4,10 @@ description: "Use when working with tdd workflows tdd refactor"
 risk: unknown
 source: community
 date_added: "2026-02-27"
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 ## Use this skill when
@@ -188,3 +192,9 @@ class OrderProcessor {
 **Applied:** Extract Method, Value Objects, Dependency Injection, Async patterns
 
 Code to refactor: $ARGUMENTS"
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

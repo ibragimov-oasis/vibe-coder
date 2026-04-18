@@ -2,6 +2,10 @@
 name: ultraqa
 description: QA cycling workflow - test, verify, fix, repeat until goal met
 level: 3
+tags:
+  - domain/orchestration
+  - artifact/skill
+  - source/skills-omc
 ---
 
 # UltraQA Skill
@@ -134,3 +138,10 @@ This ensures clean state for future sessions. Stale state files with `active: fa
 ---
 
 Begin ULTRAQA cycling now. Parse the goal and start cycle 1.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-omc]] — Category: skills-omc
+- [[MOC - Orchestration]] — Multi-agent orchestration
+

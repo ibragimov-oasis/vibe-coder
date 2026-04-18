@@ -4,6 +4,10 @@ description: "Use when implementing any feature or bugfix, before writing implem
 risk: unknown
 source: community
 date_added: "2026-02-27"
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 # Test-Driven Development (TDD)
@@ -371,3 +375,9 @@ Otherwise → not TDD
 ```
 
 No exceptions without your human partner's permission.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-everything-cc
+---
+
 # プロジェクトガイドラインスキル（例）
 
 これはプロジェクト固有のスキルの例です。自分のプロジェクトのテンプレートとして使用してください。
@@ -343,3 +350,9 @@ SUPABASE_KEY=eyJ...
 - `backend-patterns.md` - APIとデータベースパターン
 - `frontend-patterns.md` - ReactとNext.jsパターン
 - `tdd-workflow/` - テスト駆動開発の方法論
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

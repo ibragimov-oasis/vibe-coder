@@ -1,6 +1,10 @@
 ---
 name: qa
 description: Interactive QA session where user reports bugs or issues conversationally, and the agent files GitHub issues. Explores the codebase in the background for context and domain language. Use when user wants to report bugs, do QA, file issues conversationally, or mentions "QA session".
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-development
 ---
 
 # QA Session
@@ -128,3 +132,9 @@ After filing, print all issue URLs (with blocking relationships summarized) and 
 ### 5. Continue the session
 
 Keep going until the user says they're done. Each issue is independent — don't batch them.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-development]] — Category: skills-development
+

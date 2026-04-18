@@ -8,7 +8,9 @@ dependencies: [wandb]
 metadata:
   hermes:
     tags: [MLOps, Weights And Biases, WandB, Experiment Tracking, Hyperparameter Tuning, Model Registry, Collaboration, Real-Time Visualization, PyTorch, TensorFlow, HuggingFace]
-
+  - domain/skills
+  - artifact/skill
+  - source/skills-hermes
 ---
 
 # Weights & Biases: ML Experiment Tracking & MLOps
@@ -590,4 +592,8 @@ print(f"Share this URL: {run.url}")
 - `references/artifacts.md` - Data and model versioning patterns
 - `references/integrations.md` - Framework-specific examples
 
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-hermes]] — Category: skills-hermes
 

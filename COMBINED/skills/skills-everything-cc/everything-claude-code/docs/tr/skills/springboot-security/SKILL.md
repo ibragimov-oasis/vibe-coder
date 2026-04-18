@@ -2,6 +2,10 @@
 name: springboot-security
 description: Spring Security best practices for authn/authz, validation, CSRF, secrets, headers, rate limiting, and dependency security in Java Spring Boot services.
 origin: ECC
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-everything-cc
 ---
 
 # Spring Boot Güvenlik İncelemesi
@@ -270,3 +274,9 @@ public class RateLimitFilter extends OncePerRequestFilter {
 - [ ] Loglar hassas verilerden arınmış
 
 **Unutmayın**: Varsayılan olarak reddet, girişleri doğrula, en az ayrıcalık ve önce yapılandırma ile güvenli.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

@@ -6,6 +6,10 @@ risk: unknown
 source: community
 version: 1.0.0
 license: MIT License
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 # EAS Workflows Skill
@@ -92,3 +96,9 @@ The validator fetches the latest schema and checks the YAML structure. Fix any r
 ## Answering Questions
 
 When users ask about available options (job types, triggers, runner types, etc.), fetch the schema and derive the answer from it rather than relying on potentially outdated information.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

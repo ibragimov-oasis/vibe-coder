@@ -2,6 +2,10 @@
 name: laravel-tdd
 description: Test-driven development for Laravel with PHPUnit and Pest, factories, database testing, fakes, and coverage targets.
 origin: ECC
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-everything-cc
 ---
 
 # Laravel TDD İş Akışı
@@ -281,3 +285,9 @@ final class DashboardInertiaTest extends TestCase
 ```
 
 Testleri Inertia yanıtlarıyla uyumlu tutmak için ham JSON assertion'ları yerine `assertInertia` tercih edin.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

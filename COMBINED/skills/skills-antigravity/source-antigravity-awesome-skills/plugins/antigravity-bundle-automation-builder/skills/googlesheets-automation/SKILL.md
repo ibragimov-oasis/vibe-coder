@@ -4,6 +4,10 @@ description: "Automate Google Sheets operations (read, write, format, filter, ma
 risk: critical
 source: community
 date_added: "2026-02-27"
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 # Google Sheets Automation via Rube MCP
@@ -198,3 +202,9 @@ Google Sheets enforces strict rate limits:
 
 ## When to Use
 This skill is applicable to execute the workflow or actions described in the overview.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

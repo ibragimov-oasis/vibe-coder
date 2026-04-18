@@ -4,6 +4,10 @@ description: Write modern C# code with advanced features like records, pattern m
 risk: unknown
 source: community
 date_added: '2026-02-27'
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 ## Use this skill when
@@ -55,3 +59,9 @@ You are a C# expert specializing in modern .NET development and enterprise-grade
 - Enterprise architecture patterns when applicable
 
 Follow .NET coding standards and include comprehensive XML documentation.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

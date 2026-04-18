@@ -4,6 +4,10 @@ description: Build, refactor, or review SwiftUI macOS menubar apps that use Tuis
 risk: safe
 source: "Dimillian/Skills (MIT)"
 date_added: "2026-03-25"
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 # macos-menubar-tuist-app
@@ -107,3 +111,9 @@ Trace root cause in model/client/store before changing row/menu presentation.
 - Keep Tuist manifests and run scripts aligned with actual build/run flow.
 - Run the validation matrix for touched areas.
 - Report concrete commands run and outcomes.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

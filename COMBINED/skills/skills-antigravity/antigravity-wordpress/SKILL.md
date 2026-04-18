@@ -5,6 +5,10 @@ category: workflow-bundle
 risk: safe
 source: personal
 date_added: "2026-02-27"
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 # WordPress Development Workflow Bundle
@@ -593,3 +597,9 @@ Before moving to next phase, verify:
 - `ecommerce` - E-commerce development
 
 (End of file - total 440 lines)
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

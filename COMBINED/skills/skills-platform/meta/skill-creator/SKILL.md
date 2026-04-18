@@ -12,7 +12,10 @@ sources:
     repo: https://github.com/OpenViking/openviking
     path: bot/workspace/skills/skill-creator/SKILL.md
   - name: antigravity-awesome-skills
-    repo: https://github.com/anthropics/antigravity-awesome-skills
+
+  - domain/skills
+  - artifact/skill
+  - source/skills-platform    repo: https://github.com/anthropics/antigravity-awesome-skills
     path: skills/skill-creator/SKILL.md
 related_skills: [prompt-engineer]
 ---
@@ -289,3 +292,9 @@ ln -sf "$SKILLS_REPO/COMBINED/workspace-config/claude/skills/$SKILL_NAME" "$HOME
 - The skill should never surprise the user in its intent
 - Must not contain malware, exploit code, or malicious content
 - "Roleplay as X" skills are OK; data exfiltration or unauthorized access skills are not
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-platform]] — Category: skills-platform
+

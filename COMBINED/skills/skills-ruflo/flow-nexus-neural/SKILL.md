@@ -10,7 +10,10 @@ tags:
   - deep-learning
   - flow-nexus
   - e2b-sandboxes
-requires_auth: true
+
+  - domain/skills
+  - artifact/skill
+  - source/skills-ruflorequires_auth: true
 mcp_server: flow-nexus
 ---
 
@@ -736,3 +739,9 @@ await mcp__flow-nexus__neural_cluster_terminate({
 ---
 
 **Note**: Distributed training requires authentication. Register at https:/$flow-nexus.ruv.io or use `npx flow-nexus@latest register`.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-ruflo]] — Category: skills-ruflo
+

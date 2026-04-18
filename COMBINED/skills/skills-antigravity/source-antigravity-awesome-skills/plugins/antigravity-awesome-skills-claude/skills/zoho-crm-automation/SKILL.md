@@ -4,6 +4,10 @@ description: "Automate Zoho CRM tasks via Rube MCP (Composio): create/update rec
 risk: critical
 source: community
 date_added: "2026-02-27"
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 # Zoho CRM Automation via Rube MCP
@@ -208,3 +212,9 @@ criteria: '((Last_Name:equals:Doe)AND(Email:contains:example.com))'
 
 ## When to Use
 This skill is applicable to execute the workflow or actions described in the overview.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

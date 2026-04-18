@@ -2,6 +2,10 @@
 name: plankton-code-quality
 description: "使用Plankton进行编写时代码质量强制执行——通过钩子在每次文件编辑时自动格式化、代码检查和Claude驱动的修复。"
 origin: community
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-everything-cc
 ---
 
 # Plankton 代码质量技能
@@ -241,3 +245,9 @@ export ECC_QUALITY_GATE_STRICT=true
 * 平均修复时间
 * 按类别重复违规
 * 因关卡失败导致的合并阻塞
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

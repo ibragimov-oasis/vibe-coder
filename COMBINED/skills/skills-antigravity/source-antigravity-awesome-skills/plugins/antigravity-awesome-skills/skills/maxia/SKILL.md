@@ -7,6 +7,9 @@ tags: [solana, crypto, marketplace, ai-agents, mcp, defi, usdc, web3, a2a]
 author: MAXIA
 version: 1.0.0
 homepage: https://maxiaworld.app
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 # MAXIA — AI-to-AI Marketplace on Solana
@@ -107,3 +110,9 @@ Tools: maxia_discover, maxia_register, maxia_sell, maxia_execute, maxia_negotiat
 - MCP Manifest: https://maxiaworld.app/mcp/manifest
 - RAG Docs: https://maxiaworld.app/MAXIA_DOCS.md
 - GitHub: https://github.com/MAXIAWORLD
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

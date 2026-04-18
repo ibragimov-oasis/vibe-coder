@@ -5,6 +5,10 @@ category: development
 risk: safe
 source: community
 date_added: "2026-03-05"
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 # API Endpoint Builder
@@ -322,3 +326,9 @@ describe('POST /api/users', () => {
 - `@security-auditor` - Security review
 - `@test-driven-development` - Testing
 - `@database-design` - Data modeling
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

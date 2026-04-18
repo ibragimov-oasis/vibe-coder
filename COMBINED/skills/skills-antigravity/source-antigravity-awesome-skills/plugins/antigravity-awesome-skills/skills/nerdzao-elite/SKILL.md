@@ -4,6 +4,10 @@ description: "Senior Elite Software Engineer (15+) and Senior Product Designer. 
 risk: safe
 source: community
 date_added: "2026-02-27"
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 # @nerdzao-elite
@@ -29,3 +33,9 @@ Nunca entregue UI quebrada. Priorize sempre pixel-perfect + produção-grade.
 
 ## When to Use
 Use when you need a full senior engineering workflow with planning, architecture, TDD, clean code, and pixel-perfect UX validation in Portuguese (Brazil).
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

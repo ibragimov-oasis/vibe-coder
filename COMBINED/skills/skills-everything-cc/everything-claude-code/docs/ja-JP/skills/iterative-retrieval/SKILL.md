@@ -1,6 +1,10 @@
 ---
 name: iterative-retrieval
 description: サブエージェントのコンテキスト問題を解決するために、コンテキスト取得を段階的に洗練するパターン
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-everything-cc
 ---
 
 # 反復検索パターン
@@ -200,3 +204,9 @@ async function iterativeRetrieve(task, maxCycles = 3) {
 - [The Longform Guide](https://x.com/affaanmustafa/status/2014040193557471352) - サブエージェントオーケストレーションセクション
 - `continuous-learning`スキル - 時間とともに改善するパターン用
 - `~/COMBINED/workspace-config/claude/agents/`内のエージェント定義
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

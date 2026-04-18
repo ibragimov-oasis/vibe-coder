@@ -1,6 +1,10 @@
 ---
 name: springboot-verification
 description: Verification loop for Spring Boot projects: build, static analysis, tests with coverage, security scans, and diff review before release or PR.
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-everything-cc
 ---
 
 # Spring Boot 検証ループ
@@ -98,3 +102,9 @@ git diff
 - 短いループを維持: `mvn -T 4 test` + spotbugs で迅速なフィードバック
 
 **注意**: 迅速なフィードバックは遅い驚きに勝ります。ゲートを厳格に保ち、本番システムでは警告を欠陥として扱います。
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

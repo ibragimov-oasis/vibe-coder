@@ -4,6 +4,10 @@ description: "Build tools that agents can use effectively, including architectur
 risk: safe
 source: "https://github.com/muratcankoylan/Agent-Skills-for-Context-Engineering/tree/main/skills/tool-design"
 date_added: "2026-02-27"
+tags:
+  - domain/ui
+  - artifact/skill
+  - source/skills-design
 ---
 
 ## When to Use This Skill
@@ -316,3 +320,10 @@ External resources:
 **Last Updated**: 2025-12-23
 **Author**: Agent Skills for Context Engineering Contributors
 **Version**: 1.1.0
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-design]] — Category: skills-design
+- [[MOC - UI Design]] — Design & UI
+

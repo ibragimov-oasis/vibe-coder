@@ -1,6 +1,10 @@
 ---
 name: csharp-mstest
 description: 'Get best practices for MSTest 3.x/4.x unit testing, including modern assertion APIs and data-driven tests'
+tags:
+  - domain/agents
+  - artifact/skill
+  - source/skills-copilot
 ---
 
 # MSTest Best Practices (MSTest 3.x/4.x)
@@ -476,3 +480,10 @@ public TestContext TestContext { get; set; }
 - Use Moq or NSubstitute for mocking dependencies
 - Use interfaces to facilitate mocking
 - Mock dependencies to isolate units under test
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-copilot]] — Category: skills-copilot
+- [[MOC - Agents]] — Copilot agents
+

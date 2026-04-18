@@ -2,6 +2,10 @@
 name: learner
 description: Extract a learned skill from the current conversation
 level: 7
+tags:
+  - domain/orchestration
+  - artifact/skill
+  - source/skills-omc
 ---
 
 # Learner Skill
@@ -139,3 +143,10 @@ If code helps, show it - but as illustration of the principle, not copy-paste ma
 
 - /oh-my-claudecode:note - Save quick notes that survive compaction (less formal than skills)
 - /oh-my-claudecode:ralph - Start a development loop with learning capture
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-omc]] — Category: skills-omc
+- [[MOC - Orchestration]] — Multi-agent orchestration
+

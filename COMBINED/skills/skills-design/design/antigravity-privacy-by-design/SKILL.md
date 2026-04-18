@@ -4,6 +4,10 @@ description: "Use when building apps that collect user data. Ensures privacy pro
 risk: safe
 source: community
 date_added: "2026-02-23"
+tags:
+  - domain/ui
+  - artifact/skill
+  - source/skills-design
 ---
 
 # Privacy by Design
@@ -206,3 +210,10 @@ When building a feature that touches user data:
 
 ## When to Use
 This skill is applicable when building software that collects, stores, or processes personal data. Apply it proactively during design and implementation.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-design]] — Category: skills-design
+- [[MOC - UI Design]] — Design & UI
+

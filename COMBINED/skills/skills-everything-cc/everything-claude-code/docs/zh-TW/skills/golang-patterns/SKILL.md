@@ -1,6 +1,10 @@
 ---
 name: golang-patterns
 description: Idiomatic Go patterns, best practices, and conventions for building robust, efficient, and maintainable Go applications.
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-everything-cc
 ---
 
 # Go 開發模式
@@ -671,3 +675,9 @@ func (c *Counter) Increment() { c.n++ }        // 指標接收器
 ```
 
 **記住**：Go 程式碼應該以最好的方式無聊 - 可預測、一致且易於理解。有疑慮時，保持簡單。
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

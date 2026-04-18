@@ -6,6 +6,9 @@ risk: safe
 source: community
 tags: "[twitter, x-api, scraping, mcp, social-media, data-extraction, giveaway, monitoring, webhooks]"
 date_added: "2026-02-28"
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 # X (Twitter) Scraper — Xquik
@@ -127,3 +130,9 @@ export XQUIK_API_KEY="xq_YOUR_KEY_HERE"
 https://github.com/Xquik-dev/x-twitter-scraper
 
 **Maintained By:** [Xquik](https://xquik.com)
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

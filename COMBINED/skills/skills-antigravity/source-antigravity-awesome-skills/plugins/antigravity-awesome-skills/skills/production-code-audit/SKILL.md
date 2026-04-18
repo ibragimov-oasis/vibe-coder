@@ -4,6 +4,10 @@ description: "Autonomously deep-scan entire codebase line-by-line, understand ar
 risk: unknown
 source: community
 date_added: "2026-02-27"
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 # Production Code Audit
@@ -541,3 +545,9 @@ Current metrics:
 ---
 
 **Pro Tip:** Schedule regular audits (quarterly) to maintain code quality. Prevention is cheaper than fixing production bugs!
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

@@ -1,6 +1,10 @@
 ---
 name: agent-sync-coordinator
 description: Agent skill for sync-coordinator - invoke with $agent-sync-coordinator
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-ruflo
 ---
 
 ---
@@ -455,3 +459,9 @@ mcp__claude-flow__memory_usage {
 - Multi-agent incremental sync retry mechanisms
 - Intelligent intervention points for complex conflicts
 - Persistent state preservation across sync operations with memory coordination
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-ruflo]] — Category: skills-ruflo
+

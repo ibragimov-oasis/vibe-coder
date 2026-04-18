@@ -2,6 +2,10 @@
 name: security-review
 description: 在添加身份验证、处理用户输入、处理机密信息、创建API端点或实现支付/敏感功能时使用此技能。提供全面的安全检查清单和模式。
 origin: ECC
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-everything-cc
 ---
 
 # 安全审查技能
@@ -525,3 +529,9 @@ test('enforces rate limits', async () => {
 ***
 
 **请记住**：安全不是可选项。一个漏洞就可能危及整个平台。如有疑问，请谨慎行事。
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

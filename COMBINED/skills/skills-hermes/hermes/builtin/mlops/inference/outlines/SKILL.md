@@ -8,7 +8,9 @@ dependencies: [outlines, transformers, vllm, pydantic]
 metadata:
   hermes:
     tags: [Prompt Engineering, Outlines, Structured Generation, JSON Schema, Pydantic, Local Models, Grammar-Based Generation, vLLM, Transformers, Type Safety]
-
+  - domain/skills
+  - artifact/skill
+  - source/skills-hermes
 ---
 
 # Outlines: Structured Text Generation
@@ -652,4 +654,8 @@ class Article(BaseModel):
 - `references/backends.md` - Backend-specific configuration
 - `references/examples.md` - Production-ready examples
 
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-hermes]] — Category: skills-hermes
 

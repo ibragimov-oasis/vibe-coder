@@ -4,6 +4,10 @@ description: "You know AI wrappers get a bad rap, but the good ones solve real p
 risk: unknown
 source: "vibeship-spawner-skills (Apache 2.0)"
 date_added: "2026-02-27"
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 # AI Wrapper Product
@@ -276,3 +280,9 @@ Works well with: `llm-architect`, `micro-saas-launcher`, `frontend`, `backend`
 
 ## When to Use
 This skill is applicable to execute the workflow or actions described in the overview.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

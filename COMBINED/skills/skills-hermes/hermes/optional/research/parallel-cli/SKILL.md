@@ -8,6 +8,9 @@ metadata:
   hermes:
     tags: [Research, Web, Search, Deep-Research, Enrichment, CLI]
     related_skills: [duckduckgo-search, mcporter]
+  - domain/skills
+  - artifact/skill
+  - source/skills-hermes
 ---
 
 # Parallel CLI
@@ -388,3 +391,9 @@ parallel-cli config auto-update-check off
 - For large result sets, save JSON to `/tmp/*.json` instead of stuffing everything into context.
 - Do not silently choose Parallel when Hermes native tools are already sufficient.
 - Remember this is a vendor workflow that usually requires account auth and paid usage beyond the free tier.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-hermes]] — Category: skills-hermes
+

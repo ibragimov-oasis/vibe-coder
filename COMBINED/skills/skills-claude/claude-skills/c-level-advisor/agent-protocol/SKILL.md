@@ -9,6 +9,10 @@ metadata:
   domain: agent-orchestration
   updated: 2026-03-05
   frameworks: invocation-patterns
+tags:
+  - domain/agents
+  - artifact/skill
+  - source/skills-claude
 ---
 
 # Inter-Agent Protocol
@@ -416,3 +420,10 @@ ACTION ITEMS
 
 ## Reference
 - `references/invocation-patterns.md` — common cross-functional patterns with examples
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+- [[MOC - Agents]] — Claude agents
+

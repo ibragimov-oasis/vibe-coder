@@ -7,6 +7,9 @@ metadata:
   hermes:
     tags: [bioinformatics, genomics, sequencing, biology, research, science]
     category: research
+  - domain/skills
+  - artifact/skill
+  - source/skills-hermes
 ---
 
 # Bioinformatics Skills Gateway
@@ -233,3 +236,9 @@ conda install -c bioconda samtools bcftools blast minimap2 bedtools fastp kraken
 - Both repos assume bioinformatics tools are installed. Check prerequisites before running pipelines.
 - For ClawBio, run `pip install -r requirements.txt` in the cloned repo first.
 - Genomic data files can be very large. Be mindful of disk space when downloading reference genomes, SRA datasets, or building indices.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-hermes]] — Category: skills-hermes
+

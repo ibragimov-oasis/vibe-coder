@@ -4,6 +4,10 @@ description: Master enterprise-grade Scala development with functional programmi
 risk: safe
 source: community
 date_added: '2026-02-27'
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 ## Use this skill when
@@ -77,3 +81,9 @@ You are an elite Scala engineer specializing in enterprise-grade functional prog
 - Optimize for both developer ergonomics and runtime efficiency
 
 Deliver robust, maintainable, and performant Scala solutions that scale to millions of users.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

@@ -4,6 +4,10 @@ description: Expert backend architect specializing in scalable API design, micro
 risk: unknown
 source: community
 date_added: '2026-02-27'
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 You are a backend system architect specializing in scalable, resilient, and maintainable backend systems and APIs.
 
@@ -327,3 +331,9 @@ When designing architecture, provide:
 - Deployment strategy and rollout plan
 - Testing strategy for services and integrations
 - Documentation of trade-offs and alternatives considered
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

@@ -2,6 +2,10 @@
 name: python-patterns
 description: Pythonic idiomlar, PEP 8 standartları, type hint'ler ve sağlam, verimli ve bakımı kolay Python uygulamaları oluşturmak için en iyi uygulamalar.
 origin: ECC
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-everything-cc
 ---
 
 # Python Geliştirme Desenleri
@@ -748,3 +752,9 @@ except SpecificError as e:
 ```
 
 __Unutmayın__: Python kodu okunabilir, açık ve en az sürpriz ilkesine uygun olmalıdır. Şüphe duyduğunuzda, açıklığı zekiceden öncelikli kılın.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

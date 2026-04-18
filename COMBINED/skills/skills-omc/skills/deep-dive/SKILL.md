@@ -11,6 +11,10 @@ pipeline: [deep-dive, omc-plan, autopilot]
 next-skill: omc-plan
 next-skill-args: --consensus --direct
 handoff: .omc/specs/deep-dive-{slug}.md
+tags:
+  - domain/orchestration
+  - artifact/skill
+  - source/skills-omc
 ---
 
 <Purpose>
@@ -474,3 +478,10 @@ The execution bridge passes `spec_path` explicitly to downstream skills. autopil
 
 Deep-dive is an orchestrator — it does not replace `/trace` or `/deep-interview` as standalone skills.
 </Advanced>
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-omc]] — Category: skills-omc
+- [[MOC - Orchestration]] — Multi-agent orchestration
+

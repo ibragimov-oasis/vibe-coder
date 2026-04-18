@@ -4,6 +4,10 @@ description: "You are a documentation expert specializing in creating comprehens
 risk: safe
 source: community
 date_added: "2026-02-27"
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 # Automated Documentation Generation
@@ -49,3 +53,9 @@ $ARGUMENTS
 ## Resources
 
 - `resources/implementation-playbook.md` for detailed examples and templates.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

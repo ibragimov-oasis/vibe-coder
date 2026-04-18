@@ -4,6 +4,10 @@ description: "Web search, content extraction, crawling, and research capabilitie
 risk: unknown
 source: community
 date_added: "2026-02-27"
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 # tavily-web
@@ -37,3 +41,9 @@ See the GitHub repository for troubleshooting guides.
 
 ## Related Skills
 - context7-auto-research, exa-search, firecrawl-scraper, codex-review
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

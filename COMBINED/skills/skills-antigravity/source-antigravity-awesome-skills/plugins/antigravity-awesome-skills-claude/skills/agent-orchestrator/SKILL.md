@@ -16,6 +16,9 @@ tools:
 - cursor
 - gemini-cli
 - codex-cli
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 # Agent Orchestrator
@@ -314,3 +317,9 @@ python agent-orchestrator/scripts/scan_registry.py --status
 
 - `multi-advisor` - Complementary skill for enhanced analysis
 - `task-intelligence` - Complementary skill for enhanced analysis
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

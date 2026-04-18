@@ -3,6 +3,10 @@ name: speckit-updater
 description: SpecKit Safe Update
 risk: unknown
 source: community
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 # SpecKit Safe Update
@@ -165,3 +169,9 @@ pwsh -NoProfile -Command "& '{skill_path}/scripts/update-wrapper.ps1' [parameter
 | 4 | Git error |
 | 5 | User cancelled |
 | 6 | Rollback required (automatic) |
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

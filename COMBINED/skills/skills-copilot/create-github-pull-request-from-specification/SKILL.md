@@ -1,6 +1,10 @@
 ---
 name: create-github-pull-request-from-specification
 description: 'Create GitHub Pull Request for feature request from specification file using pull_request_template.md template.'
+tags:
+  - domain/agents
+  - artifact/skill
+  - source/skills-copilot
 ---
 
 # Create GitHub Pull Request from Specification
@@ -22,3 +26,10 @@ Create GitHub Pull Request for the specification at `${workspaceFolder}/.github/
 - Clear title/pull_request_template.md identifying the specification
 - Fill enough information into pull_request_template.md
 - Verify against existing pull requests before creation
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-copilot]] — Category: skills-copilot
+- [[MOC - Agents]] — Copilot agents
+

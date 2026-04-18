@@ -4,6 +4,10 @@ description: "Common AWS CDK patterns and constructs for building cloud infrastr
 risk: unknown
 source: community
 date_added: "2026-02-27"
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 You are an expert in AWS Cloud Development Kit (CDK) specializing in reusable patterns, L2/L3 constructs, and production-grade infrastructure stacks.
 
@@ -76,3 +80,9 @@ export class ServerlessApiPattern extends Construct {
 
 **Problem:** Circular dependency between stacks
 **Solution:** Extract shared resources into a dedicated base stack and pass references via constructor props.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

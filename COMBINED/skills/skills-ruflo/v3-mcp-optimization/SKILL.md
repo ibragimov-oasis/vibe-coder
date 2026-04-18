@@ -1,6 +1,10 @@
 ---
 name: "V3 MCP Optimization"
 description: "MCP server optimization and transport layer enhancement for claude-flow v3. Implements connection pooling, load balancing, tool registry optimization, and performance monitoring for sub-100ms response times."
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-ruflo
 ---
 
 # V3 MCP Optimization
@@ -775,3 +779,9 @@ Task("MCP connection pooling",
      "Implement advanced connection pooling with health monitoring",
      "mcp-specialist")
 ```
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-ruflo]] — Category: skills-ruflo
+

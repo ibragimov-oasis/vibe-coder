@@ -1,6 +1,10 @@
 ---
 name: liquid-glass-design
 description: iOS 26 Liquid Glass design system — dynamic glass material with blur, reflection, and interactive morphing for SwiftUI, UIKit, and WidgetKit.
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-everything-cc
 ---
 
 # Liquid Glass Design System (iOS 26)
@@ -277,3 +281,9 @@ VStack { /* content */ }
 - Interactive controls that need visual depth and touch feedback
 - Widgets that should integrate with the system's Liquid Glass appearance
 - Morphing transitions between related UI states
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

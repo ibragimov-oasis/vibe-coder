@@ -1,6 +1,10 @@
 ---
 name: csharp-xunit
 description: 'Get best practices for XUnit unit testing, including data-driven tests'
+tags:
+  - domain/agents
+  - artifact/skill
+  - source/skills-copilot
 ---
 
 # XUnit Best Practices
@@ -66,3 +70,10 @@ Your goal is to help me write effective unit tests with XUnit, covering both sta
 - Use collection fixtures to group tests with shared dependencies
 - Consider output helpers (`ITestOutputHelper`) for test diagnostics
 - Skip tests conditionally with `Skip = "reason"` in fact/theory attributes
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-copilot]] — Category: skills-copilot
+- [[MOC - Agents]] — Copilot agents
+

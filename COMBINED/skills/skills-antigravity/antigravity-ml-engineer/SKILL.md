@@ -4,6 +4,10 @@ description: Build production ML systems with PyTorch 2.x, TensorFlow, and moder
 risk: unknown
 source: community
 date_added: '2026-02-27'
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 ## Use this skill when
@@ -164,3 +168,9 @@ Expert ML engineer specializing in production-ready machine learning systems. Ma
 - "Implement cost-optimized batch inference pipeline for processing millions of records"
 - "Build ML serving architecture with auto-scaling and load balancing"
 - "Create continuous training pipeline that automatically retrains models based on performance"
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

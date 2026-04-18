@@ -2,6 +2,9 @@
 name: minecraft-modpack-server
 description: Set up a modded Minecraft server from a CurseForge/Modrinth server pack zip. Covers NeoForge/Forge install, Java version, JVM tuning, firewall, LAN config, backups, and launch scripts.
 tags: [minecraft, gaming, server, neoforge, forge, modpack]
+  - domain/skills
+  - artifact/skill
+  - source/skills-hermes
 ---
 
 # Minecraft Modpack Server Setup
@@ -184,3 +187,9 @@ Add hourly cron:
 - Check logs: `tail -f ~/minecraft-server/server/logs/latest.log`
 - Look for "Done (Xs)!" in the log = server is ready
 - Test connection: player adds server IP in Multiplayer
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-hermes]] — Category: skills-hermes
+

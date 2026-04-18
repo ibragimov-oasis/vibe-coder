@@ -2,6 +2,10 @@
 name: nutrient-document-processing
 description: 使用Nutrient DWS API处理、转换、OCR识别、提取、编辑、签名和填写文档。支持PDF、DOCX、XLSX、PPTX、HTML和图像格式。
 origin: ECC
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-everything-cc
 ---
 
 # 文档处理
@@ -163,3 +167,9 @@ curl -X POST https://api.nutrient.io/build \
 * [API 游乐场](https://dashboard.nutrient.io/processor-api/playground/)
 * [完整 API 文档](https://www.nutrient.io/guides/dws-processor/)
 * [npm MCP 服务器](https://www.npmjs.com/package/@nutrient-sdk/dws-mcp-server)
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

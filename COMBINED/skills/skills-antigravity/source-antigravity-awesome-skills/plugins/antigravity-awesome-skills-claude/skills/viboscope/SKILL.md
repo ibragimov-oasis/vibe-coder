@@ -8,6 +8,9 @@ date_added: "2026-03-29"
 author: ivanschmidt
 tags: [matching, psychology, compatibility, networking, collaboration]
 tools: [claude, cursor, codex, gemini, windsurf]
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 # Viboscope
@@ -62,3 +65,9 @@ When someone opens it with their AI agent, both see a compatibility breakdown.
 - Website: https://viboscope.com
 - GitHub: https://github.com/ivankoriako/viboscope
 - API: https://viboscope.com/api/v1
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

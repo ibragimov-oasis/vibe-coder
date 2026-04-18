@@ -4,6 +4,10 @@ description: "You are an expert error analysis specialist with deep expertise in
 risk: safe
 source: community
 date_added: "2026-02-27"
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 # Error Analysis and Resolution
@@ -48,3 +52,9 @@ The analysis scope may include specific error messages, stack traces, log files,
 ## Resources
 
 - `resources/implementation-playbook.md` for detailed analysis frameworks and checklists.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

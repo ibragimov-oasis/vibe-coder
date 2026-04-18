@@ -4,6 +4,10 @@ description: Codified expertise for demand forecasting, safety stock optimisatio
 risk: safe
 source: https://github.com/ai-evos/agent-skills
 date_added: '2026-02-27'
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 ## When to Use
@@ -222,3 +226,9 @@ Use this skill when you need to **forecast demand and shape inventory policy acr
 - Selecting and tuning forecasting methods, safety stock policies, and reorder logic for different demand patterns.
 - Planning promotions, seasonal transitions, markdowns, and end‑of‑life strategies while balancing service, cash, and margin.
 - Investigating chronic stockouts, excess inventory, or forecast bias and redesigning the planning process with clearer decision frameworks.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

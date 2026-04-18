@@ -10,6 +10,10 @@ description: 'Draft cold emails, follow-ups, and proposal templates. Creates
 risk: unknown
 source: community
 date_added: '2026-02-27'
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 ## Use this skill when
@@ -58,3 +62,9 @@ You are a sales automation specialist focused on conversions and relationships.
 - Tracking metrics to monitor
 
 Write conversationally. Show empathy for customer problems.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

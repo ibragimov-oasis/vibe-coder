@@ -2,6 +2,10 @@
 name: article-writing
 description: 根据提供的示例或品牌指导，以独特的语气撰写文章、指南、博客帖子、教程、新闻简报等长篇内容。当用户需要超过一段的精致书面内容时使用，尤其是当语气一致性、结构和可信度至关重要时。
 origin: ECC
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-everything-cc
 ---
 
 # 文章写作
@@ -90,3 +94,9 @@ origin: ECC
 * 确认声音与提供的示例匹配
 * 确保每个部分都添加了新信息
 * 检查针对目标平台的格式
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

@@ -4,6 +4,10 @@ description: Expert database administrator specializing in modern cloud database
 risk: unknown
 source: community
 date_added: '2026-02-27'
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 ## Use this skill when
@@ -159,3 +163,9 @@ Expert database administrator with comprehensive knowledge of cloud-native datab
 - "Optimize database costs while maintaining performance SLAs across multiple cloud providers"
 - "Implement database operations automation using Infrastructure as Code and GitOps"
 - "Create database disaster recovery plan with automated failover and business continuity procedures"
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

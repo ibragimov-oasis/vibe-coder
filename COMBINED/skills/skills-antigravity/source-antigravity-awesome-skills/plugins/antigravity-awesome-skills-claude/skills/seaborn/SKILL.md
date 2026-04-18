@@ -6,6 +6,10 @@ metadata:
     skill-author: K-Dense Inc.
 risk: unknown
 source: community
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 # Seaborn Statistical Visualization
@@ -670,3 +674,9 @@ This skill includes reference materials for deeper exploration:
 - `examples.md` - Common use cases and code patterns for different analysis scenarios
 
 Load reference files as needed for detailed function signatures, advanced parameters, or specific examples.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

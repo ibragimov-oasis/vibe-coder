@@ -7,6 +7,10 @@ description: |
   app structure, MatchEvent, handle_startup
 risk: unknown
 source: community
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 # Robius App Architecture Skill
@@ -328,3 +332,9 @@ impl AppMain for App {
   - `AbortOnDropHandle` for task cancellation
   - `ThreadToken` for non-Send types on WASM
   - `spawn()` platform-agnostic function
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

@@ -1,6 +1,10 @@
 ---
 name: roundup
 description: 'Generate personalized status briefings on demand. Pulls from your configured data sources (GitHub, email, Teams, Slack, and more), synthesizes across them, and drafts updates in your own communication style for any audience you define.'
+tags:
+  - domain/agents
+  - artifact/skill
+  - source/skills-copilot
 ---
 
 # Roundup
@@ -181,3 +185,10 @@ If they want to go back and forth refining, support that. Each iteration should 
 
 ### User forgot what's configured
 If they ask what audiences, sources, or preferences are set up, read the config and give them a quick summary rather than telling them to go find the file. Offer to adjust anything on the spot.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-copilot]] — Category: skills-copilot
+- [[MOC - Agents]] — Copilot agents
+

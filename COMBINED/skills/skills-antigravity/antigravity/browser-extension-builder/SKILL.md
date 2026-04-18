@@ -4,6 +4,10 @@ description: "You extend the browser to give users superpowers. You understand t
 risk: unknown
 source: "vibeship-spawner-skills (Apache 2.0)"
 date_added: "2026-02-27"
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 # Browser Extension Builder
@@ -252,3 +256,9 @@ Works well with: `frontend`, `micro-saas-launcher`, `personal-tool-builder`
 
 ## When to Use
 This skill is applicable to execute the workflow or actions described in the overview.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

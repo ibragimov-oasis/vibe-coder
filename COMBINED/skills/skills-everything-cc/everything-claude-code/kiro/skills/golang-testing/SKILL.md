@@ -7,6 +7,10 @@ description: >
 metadata:
   origin: ECC
   globs: ["**/*.go", "**/go.mod", "**/go.sum"]
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-everything-cc
 ---
 
 # Go Testing
@@ -330,3 +334,9 @@ func TestWithTimeout(t *testing.T) {
 - Debugging flaky tests
 - Optimizing test performance
 - Implementing integration tests
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

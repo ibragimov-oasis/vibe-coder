@@ -4,6 +4,10 @@ description: "Guide developers through setting up development environments with 
 risk: unknown
 source: community
 date_added: "2026-02-27"
+tags:
+  - domain/ui
+  - artifact/skill
+  - source/skills-design
 ---
 
 # Environment Setup Guide
@@ -480,3 +484,10 @@ echo "✅ Setup complete! Run 'npm run dev' to start"
 ---
 
 **Pro Tip:** Create a `setup.sh` or `setup.ps1` script to automate the entire setup process. Test it on a clean system to ensure it works!
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-design]] — Category: skills-design
+- [[MOC - UI Design]] — Design & UI
+

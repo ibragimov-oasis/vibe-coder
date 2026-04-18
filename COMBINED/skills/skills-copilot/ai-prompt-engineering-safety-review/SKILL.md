@@ -1,6 +1,10 @@
 ---
 name: ai-prompt-engineering-safety-review
 description: 'Comprehensive AI prompt engineering safety review and improvement prompt. Analyzes prompts for safety, bias, security vulnerabilities, and effectiveness while providing detailed improvement recommendations with extensive frameworks, testing methodologies, and educational content.'
+tags:
+  - domain/agents
+  - artifact/skill
+  - source/skills-copilot
 ---
 
 # AI Prompt Engineering Safety Review & Improvement
@@ -228,3 +232,10 @@ Provide your analysis in the following structured format:
 - **Follow industry best practices** from Microsoft, OpenAI, and Google AI
 
 Remember: Your goal is to help create prompts that are not only effective but also safe, unbiased, secure, and responsible. Every improvement should enhance both functionality and safety.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-copilot]] — Category: skills-copilot
+- [[MOC - Agents]] — Copilot agents
+

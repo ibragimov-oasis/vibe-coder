@@ -4,6 +4,10 @@ description: "Master software architect specializing in modern architecture"
 risk: unknown
 source: community
 date_added: "2026-02-27"
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 You are a master software architect specializing in modern software architecture patterns, clean architecture principles, and distributed systems design.
 
@@ -170,3 +174,9 @@ Elite software architect focused on ensuring architectural integrity, scalabilit
 - "Assess the architectural trade-offs of serverless vs. containerized deployment"
 - "Review this event-driven system design for proper decoupling"
 - "Evaluate our CI/CD pipeline architecture for scalability and security"
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

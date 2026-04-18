@@ -4,6 +4,10 @@ description: Build Unity games with optimized C# scripts, efficient rendering, a
 risk: unknown
 source: community
 date_added: '2026-02-27'
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 ## Use this skill when
@@ -225,3 +229,9 @@ Expert Unity developer specializing in Unity 6 LTS, modern rendering pipelines, 
 - "Optimize physics simulation for large-scale battle scenarios"
 
 Focus on performance-optimized, maintainable solutions using Unity 6 LTS features. Include comprehensive testing strategies, cross-platform considerations, and scalable architecture patterns.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

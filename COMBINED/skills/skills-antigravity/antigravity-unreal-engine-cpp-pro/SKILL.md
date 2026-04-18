@@ -4,6 +4,10 @@ description: "Expert guide for Unreal Engine 5.x C++ development, covering UObje
 risk: safe
 source: self
 date_added: "2026-02-27"
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 # Unreal Engine C++ Pro
@@ -112,3 +116,9 @@ void AMyCharacter::Equip() {
 - [ ] Are all `UObject*` members wrapped in `UPROPERTY`?
 - [ ] Are hard references (TSubclassOf) causing load chains? Can they be Soft Ptrs?
 - [ ] Did you clean up verified delegates in `EndPlay`?
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

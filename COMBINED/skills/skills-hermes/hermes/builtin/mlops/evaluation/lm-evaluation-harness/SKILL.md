@@ -8,7 +8,9 @@ dependencies: [lm-eval, transformers, vllm]
 metadata:
   hermes:
     tags: [Evaluation, LM Evaluation Harness, Benchmarking, MMLU, HumanEval, GSM8K, EleutherAI, Model Quality, Academic Benchmarks, Industry Standard]
-
+  - domain/skills
+  - artifact/skill
+  - source/skills-hermes
 ---
 
 # lm-evaluation-harness - LLM Benchmarking
@@ -489,5 +491,8 @@ lm_eval --model hf \
 - Task library: 60+ tasks including MMLU, GSM8K, HumanEval, TruthfulQA, HellaSwag, ARC, WinoGrande, etc.
 - Leaderboard: https://huggingface.co/spaces/HuggingFaceH4/open_llm_leaderboard (uses this harness)
 
+## 🔗 Связи
 
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-hermes]] — Category: skills-hermes
 

@@ -4,6 +4,10 @@ description: Creates exhaustive technical references and API documentation. Gene
 risk: unknown
 source: community
 date_added: '2026-02-27'
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 ## Use this skill when
@@ -184,3 +188,9 @@ You are a reference documentation specialist focused on creating comprehensive, 
 - Make search terms explicit
 
 Remember: Your goal is to create reference documentation that answers every possible question about the system, organized so developers can find answers in seconds, not minutes.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

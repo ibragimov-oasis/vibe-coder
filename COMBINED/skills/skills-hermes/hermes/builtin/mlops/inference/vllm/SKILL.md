@@ -8,7 +8,9 @@ dependencies: [vllm, torch, transformers]
 metadata:
   hermes:
     tags: [vLLM, Inference Serving, PagedAttention, Continuous Batching, High Throughput, Production, OpenAI API, Quantization, Tensor Parallelism]
-
+  - domain/skills
+  - artifact/skill
+  - source/skills-hermes
 ---
 
 # vLLM - High-Performance LLM Serving
@@ -363,5 +365,8 @@ Supported platforms: NVIDIA (primary), AMD ROCm, Intel GPUs, TPUs
 - Paper: "Efficient Memory Management for Large Language Model Serving with PagedAttention" (SOSP 2023)
 - Community: https://discuss.vllm.ai
 
+## 🔗 Связи
 
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-hermes]] — Category: skills-hermes
 

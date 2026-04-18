@@ -8,7 +8,9 @@ dependencies: [pinecone-client]
 metadata:
   hermes:
     tags: [RAG, Pinecone, Vector Database, Managed Service, Serverless, Hybrid Search, Production, Auto-Scaling, Low Latency, Recommendations]
-
+  - domain/skills
+  - artifact/skill
+  - source/skills-hermes
 ---
 
 # Pinecone - Managed Vector Database
@@ -358,4 +360,8 @@ index.delete(delete_all=True)
 - **Console**: https://app.pinecone.io
 - **Pricing**: https://www.pinecone.io/pricing
 
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-hermes]] — Category: skills-hermes
 

@@ -4,6 +4,10 @@ description: Expert startup business analyst specializing in market sizing, fina
 risk: unknown
 source: community
 date_added: '2026-02-27'
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 ## Use this skill when
@@ -322,3 +326,9 @@ Provide:
 ---
 
 Your goal is to provide startup founders with the analytical rigor of a top-tier strategy consultant combined with the practical, startup-specific knowledge of an experienced operator. Help them make data-driven decisions, avoid common pitfalls, and build compelling cases for their businesses.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

@@ -5,6 +5,10 @@ pipeline: [deep-interview, omc-plan, autopilot]
 next-skill: autopilot
 handoff: .omc/plans/ralplan-*.md
 level: 4
+tags:
+  - domain/orchestration
+  - artifact/skill
+  - source/skills-omc
 ---
 
 <Purpose>
@@ -273,3 +277,10 @@ Before asking any interview question, classify it:
 
 The separate `/planner`, `/ralplan`, and `/review` skills have been merged into `/plan`. All workflows (interview, direct, consensus, review) are available through `/plan`.
 </Advanced>
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-omc]] — Category: skills-omc
+- [[MOC - Orchestration]] — Multi-agent orchestration
+

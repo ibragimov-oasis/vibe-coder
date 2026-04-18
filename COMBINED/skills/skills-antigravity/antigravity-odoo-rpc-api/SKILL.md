@@ -3,6 +3,10 @@ name: odoo-rpc-api
 description: "Expert on Odoo's external JSON-RPC and XML-RPC APIs. Covers authentication, model calls, record CRUD, and real-world integration examples in Python, JavaScript, and curl."
 risk: safe
 source: "self"
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 # Odoo RPC API
@@ -101,3 +105,9 @@ curl -X POST https://myodoo.example.com/web/dataset/call_kw \
 - **Rate limiting** is not built into the Odoo XMLRPC layer; you must implement throttling client-side.
 - The XML-RPC endpoint (`/xmlrpc/2/`) does not support file uploads — use the REST-based `ir.attachment` model via JSON-RPC for binary data.
 - Odoo.sh (SaaS) may block some API calls depending on plan; verify your subscription supports external API access.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

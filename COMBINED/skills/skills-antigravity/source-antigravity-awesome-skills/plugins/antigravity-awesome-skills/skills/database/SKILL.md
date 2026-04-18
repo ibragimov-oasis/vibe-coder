@@ -5,6 +5,10 @@ category: workflow-bundle
 risk: safe
 source: personal
 date_added: "2026-02-27"
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 # Database Workflow Bundle
@@ -210,3 +214,9 @@ Skills: clickhouse-io, dbt-transformation-patterns
 - `cloud-devops` - Infrastructure
 - `ai-ml` - AI/ML data pipelines
 - `testing-qa` - Data testing
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

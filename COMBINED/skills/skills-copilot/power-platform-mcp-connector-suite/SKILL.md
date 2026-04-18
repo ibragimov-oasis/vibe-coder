@@ -1,6 +1,10 @@
 ---
 name: power-platform-mcp-connector-suite
 description: 'Generate complete Power Platform custom connector with MCP integration for Copilot Studio - includes schema generation, troubleshooting, and validation'
+tags:
+  - domain/agents
+  - artifact/skill
+  - source/skills-copilot
 ---
 
 # Power Platform MCP Connector Suite
@@ -154,3 +158,10 @@ Authentication: oauth2
 Host Environment: Azure Function
 Target APIs: CRM REST API
 ```
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-copilot]] — Category: skills-copilot
+- [[MOC - Agents]] — Copilot agents
+

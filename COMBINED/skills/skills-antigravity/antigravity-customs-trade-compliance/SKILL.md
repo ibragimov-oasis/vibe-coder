@@ -4,6 +4,10 @@ description: Codified expertise for customs documentation, tariff classification
 risk: safe
 source: https://github.com/ai-evos/agent-skills
 date_added: '2026-02-27'
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 ## When to Use
@@ -238,3 +242,9 @@ Use this skill when you are **planning, auditing, or remediating customs and tra
 - Classifying products (HS/HTS/TARIC), designing documentation flows, or implementing Incoterms for new trade lanes.
 - Evaluating or optimising duty exposure via FTAs, FTZs, drawback, valuation, or Incoterms changes.
 - Investigating compliance risk, penalty exposure, or restricted‑party screening issues across import/export operations.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

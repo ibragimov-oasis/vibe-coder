@@ -8,6 +8,10 @@ description: |
   - Designing rubric-based or LLM-as-judge evaluation systems
   - Adding iterative improvement to agent outputs (code, reports, analysis)
   - Measuring and improving agent response quality
+tags:
+  - domain/agents
+  - artifact/skill
+  - source/skills-copilot
 ---
 
 # Agentic Evaluation Patterns
@@ -187,3 +191,10 @@ def evaluate_with_rubric(output: str, rubric: dict) -> float:
 - [ ] Log all iterations for debugging
 - [ ] Handle evaluation parse failures gracefully
 ```
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-copilot]] — Category: skills-copilot
+- [[MOC - Agents]] — Copilot agents
+

@@ -4,6 +4,10 @@ description: "Design optimal team structures, hiring plans, compensation strateg
 risk: unknown
 source: community
 date_added: '2026-02-27'
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 # Team Composition Analysis
@@ -409,3 +413,9 @@ To plan team composition:
 8. **Allocate equity** - Fair allocation that preserves pool
 
 For detailed compensation benchmarks and hiring plan templates, see `references/` and `examples/`.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

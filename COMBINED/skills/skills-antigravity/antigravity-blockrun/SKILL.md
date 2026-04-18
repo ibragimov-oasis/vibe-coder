@@ -4,6 +4,10 @@ description: "BlockRun works with Claude Code and Google Antigravity."
 risk: unknown
 source: community
 date_added: "2026-02-27"
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 # BlockRun
@@ -291,3 +295,9 @@ response = client.chat("xai/grok-3", "What's trending?", search=True)
 ```bash
 pip install --upgrade blockrun-llm
 ```
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

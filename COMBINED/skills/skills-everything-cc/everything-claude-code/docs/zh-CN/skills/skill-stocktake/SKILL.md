@@ -1,6 +1,10 @@
 ---
 description: "用于审计Claude技能和命令的质量。支持快速扫描（仅变更技能）和全面盘点模式，采用顺序子代理批量评估。"
 origin: ECC
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-everything-cc
 ---
 
 # skill-stocktake
@@ -191,3 +195,9 @@ Agent(
 * 评估是盲目的：无论来源如何（ECC、自创、自动提取），所有技能都应用相同的检查清单
 * 归档 / 删除操作始终需要明确的用户确认
 * 不按技能来源进行判定分支
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

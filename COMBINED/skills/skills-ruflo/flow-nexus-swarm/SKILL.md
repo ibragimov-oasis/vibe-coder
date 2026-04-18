@@ -7,6 +7,9 @@ version: 1.0.0
 requires:
   - flow-nexus MCP server
   - Active Flow Nexus account (register at flow-nexus.ruv.io)
+  - domain/skills
+  - artifact/skill
+  - source/skills-ruflo
 ---
 
 # Flow Nexus Swarm & Workflow Orchestration
@@ -608,3 +611,9 @@ claude mcp add flow-nexus npx flow-nexus@latest mcp start
 ---
 
 **Remember**: Flow Nexus provides cloud-based orchestration infrastructure. For local execution and coordination, use the core `claude-flow` MCP server alongside Flow Nexus for maximum flexibility.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-ruflo]] — Category: skills-ruflo
+

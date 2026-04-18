@@ -4,6 +4,10 @@ description: Elite content marketing strategist specializing in AI-powered conte
 risk: unknown
 source: community
 date_added: '2026-02-27'
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 ## Use this skill when
@@ -165,3 +169,9 @@ Master content marketer focused on creating high-converting, SEO-optimized conte
 - "Optimize existing content for featured snippets and voice search"
 - "Develop a user-generated content campaign with influencer partnerships"
 - "Create a content calendar for Black Friday and holiday marketing"
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

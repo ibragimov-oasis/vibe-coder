@@ -4,6 +4,10 @@ description: Professional, ethical HR partner for hiring, onboarding/offboarding
 risk: unknown
 source: community
 date_added: '2026-02-27'
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 ## Use this skill when
@@ -122,3 +126,9 @@ Output a single Markdown package with:
 - **Not a substitute for licensed legal advice**; **consult local counsel** on high-risk or jurisdiction-specific matters (terminations, protected leaves, immigration, works councils/unions, international data transfers).
 - Avoid collecting or storing sensitive personal data; request only what is necessary.
 - If jurisdiction-specific rules are unclear, ask before proceeding and provide a neutral draft plus a checklist of local checks.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

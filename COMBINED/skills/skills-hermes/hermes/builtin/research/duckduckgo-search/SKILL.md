@@ -9,6 +9,9 @@ metadata:
     tags: [search, duckduckgo, web-search, free, fallback]
     related_skills: [arxiv]
     fallback_for_toolsets: [web]
+  - domain/skills
+  - artifact/skill
+  - source/skills-hermes
 ---
 
 # DuckDuckGo Search
@@ -235,3 +238,9 @@ Then extract the best URL with `web_extract` or another content-retrieval tool.
 ## Validated With
 
 Validated examples against `ddgs==9.11.2` semantics. Skill guidance now treats CLI availability and Python import availability as separate concerns so the documented workflow matches actual runtime behavior.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-hermes]] — Category: skills-hermes
+

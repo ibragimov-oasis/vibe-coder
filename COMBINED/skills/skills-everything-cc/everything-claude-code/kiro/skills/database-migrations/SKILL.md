@@ -7,6 +7,10 @@ description: >
   database schema changes.
 metadata:
   origin: ECC
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-everything-cc
 ---
 
 # Database Migration Patterns
@@ -346,3 +350,9 @@ Day 7: Migration drops old status column
 - Setting up migration tooling
 - Troubleshooting migration issues
 - Reviewing migration pull requests
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

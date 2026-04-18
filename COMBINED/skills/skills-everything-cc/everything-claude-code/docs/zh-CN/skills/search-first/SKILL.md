@@ -2,6 +2,10 @@
 name: search-first
 description: 研究优先于编码的工作流程。在编写自定义代码之前，搜索现有的工具、库和模式。调用研究员代理。
 origin: ECC
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-everything-cc
 ---
 
 # /search-first — 编码前先研究
@@ -173,3 +177,9 @@ origin: ECC
 * **忽略 MCP**：不检查 MCP 服务器是否已提供该能力
 * **过度定制**：对库进行如此厚重的包装以至于失去了其优势
 * **依赖项膨胀**：为了一个小功能安装一个庞大的包
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

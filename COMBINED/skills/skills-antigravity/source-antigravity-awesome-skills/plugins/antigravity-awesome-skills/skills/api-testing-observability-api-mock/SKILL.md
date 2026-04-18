@@ -4,6 +4,10 @@ description: "You are an API mocking expert specializing in realistic mock servi
 risk: unknown
 source: community
 date_added: "2026-02-27"
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 # API Mocking Framework
@@ -47,3 +51,9 @@ $ARGUMENTS
 ## Resources
 
 - `resources/implementation-playbook.md` for code samples, checklists, and templates.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

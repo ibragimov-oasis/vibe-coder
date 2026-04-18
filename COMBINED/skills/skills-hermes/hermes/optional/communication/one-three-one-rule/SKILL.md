@@ -15,6 +15,9 @@ category: communication
 metadata:
   hermes:
     tags: [communication, decision-making, proposals, trade-offs]
+  - domain/skills
+  - artifact/skill
+  - source/skills-hermes
 ---
 
 # 1-3-1 Communication Rule
@@ -101,3 +104,9 @@ Agent:
 3. Wrap existing API calls in `api_client.py` with the retry utility.
 4. Add unit tests mocking HTTP responses for each retry scenario.
 5. Verify under load with a simple stress test against a flaky endpoint mock.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-hermes]] — Category: skills-hermes
+

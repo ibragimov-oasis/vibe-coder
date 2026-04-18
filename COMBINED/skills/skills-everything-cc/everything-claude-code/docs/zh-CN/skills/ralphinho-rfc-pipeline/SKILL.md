@@ -2,6 +2,10 @@
 name: ralphinho-rfc-pipeline
 description: 基于RFC驱动的多智能体DAG执行模式，包含质量门、合并队列和工作单元编排。
 origin: ECC
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-everything-cc
 ---
 
 # Ralphinho RFC 管道
@@ -67,3 +71,9 @@ origin: ECC
 * 单元记分卡
 * 依赖关系图快照
 * 集成风险摘要
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

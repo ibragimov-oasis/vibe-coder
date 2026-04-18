@@ -4,6 +4,10 @@ description: "Upgrade Expo SDK versions"
 risk: safe
 source: "https://github.com/expo/skills/tree/main/plugins/upgrading-expo"
 date_added: "2026-02-27"
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 # Upgrading Expo
@@ -117,3 +121,9 @@ npx expo-doctor
 ## Resources
 
 For more information, see the [source repository](https://github.com/expo/skills/tree/main/plugins/upgrading-expo).
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

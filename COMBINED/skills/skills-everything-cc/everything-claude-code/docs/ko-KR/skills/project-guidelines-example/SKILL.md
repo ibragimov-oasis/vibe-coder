@@ -2,6 +2,10 @@
 name: project-guidelines-example
 description: "실제 프로덕션 애플리케이션을 기반으로 한 프로젝트별 스킬 템플릿 예시."
 origin: ECC
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-everything-cc
 ---
 
 # 프로젝트 가이드라인 스킬 (예시)
@@ -347,3 +351,9 @@ SUPABASE_KEY=eyJ...
 - `backend-patterns.md` - API 및 데이터베이스 패턴
 - `frontend-patterns.md` - React 및 Next.js 패턴
 - `tdd-workflow/` - 테스트 주도 개발 방법론
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

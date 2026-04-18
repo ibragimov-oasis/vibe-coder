@@ -2,6 +2,10 @@
 name: visual-verdict
 description: Structured visual QA verdict for screenshot-to-reference comparisons
 level: 2
+tags:
+  - domain/orchestration
+  - artifact/skill
+  - source/skills-omc
 ---
 
 <Purpose>
@@ -75,3 +79,10 @@ When mismatch diagnosis is hard:
 </Example>
 
 Task: {{ARGUMENTS}}
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-omc]] — Category: skills-omc
+- [[MOC - Orchestration]] — Multi-agent orchestration
+

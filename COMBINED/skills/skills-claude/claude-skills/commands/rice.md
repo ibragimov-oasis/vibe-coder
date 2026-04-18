@@ -1,6 +1,10 @@
 ---
 name: rice
 description: RICE feature prioritization with scoring and capacity planning. Usage: /rice prioritize <features.csv> [options]
+tags:
+  - domain/agents
+  - artifact/skill
+  - source/skills-claude
 ---
 
 # /rice
@@ -37,3 +41,10 @@ Mobile app,20000,3,0.5,13
 
 ## Skill Reference
 > `product-team/product-manager-toolkit/SKILL.md`
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+- [[MOC - Agents]] — Claude agents
+

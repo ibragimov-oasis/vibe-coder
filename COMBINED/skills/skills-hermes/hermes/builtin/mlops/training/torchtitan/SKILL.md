@@ -8,7 +8,9 @@ dependencies: [torch>=2.6.0, torchtitan>=0.2.0, torchao>=0.5.0]
 metadata:
   hermes:
     tags: [Model Architecture, Distributed Training, TorchTitan, FSDP2, Tensor Parallel, Pipeline Parallel, Context Parallel, Float8, Llama, Pretraining]
-
+  - domain/skills
+  - artifact/skill
+  - source/skills-hermes
 ---
 
 # TorchTitan - PyTorch Native Distributed LLM Pretraining
@@ -358,4 +360,9 @@ Create seed checkpoint first (see Workflow 4, Step 1).
 - Paper: https://arxiv.org/abs/2410.06511
 - ICLR 2025: https://iclr.cc/virtual/2025/poster/29620
 - PyTorch Forum: https://discuss.pytorch.org/c/distributed/torchtitan/44
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-hermes]] — Category: skills-hermes
 

@@ -4,6 +4,10 @@ description: "You are a workflow automation expert specializing in creating effi
 risk: unknown
 source: community
 date_added: "2026-02-27"
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 # Workflow Automation
@@ -52,3 +56,9 @@ $ARGUMENTS
 ## Resources
 
 - `resources/implementation-playbook.md` for detailed workflow patterns and examples.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

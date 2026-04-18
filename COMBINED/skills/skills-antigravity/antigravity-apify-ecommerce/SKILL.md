@@ -3,6 +3,10 @@ name: apify-ecommerce
 description: "Extract product data, prices, reviews, and seller information from any e-commerce platform using Apify's E-commerce Scraping Tool."
 risk: unknown
 source: community
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 # E-commerce Data Extraction
@@ -263,3 +267,9 @@ Report:
 | `Timeout` | Reduce `maxProductResults` or increase `--timeout` |
 | `No results` | Verify URLs are valid and accessible |
 | `Invalid marketplace` | Check marketplace value matches supported list exactly |
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

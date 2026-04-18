@@ -4,6 +4,10 @@ description: Design, audit, and improve analytics tracking systems that produce 
 risk: unknown
 source: community
 date_added: '2026-02-27'
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 # Analytics Tracking & Measurement Strategy
@@ -403,3 +407,9 @@ Analytics that violate trust undermine optimization.
 
 ## When to Use
 This skill is applicable to execute the workflow or actions described in the overview.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

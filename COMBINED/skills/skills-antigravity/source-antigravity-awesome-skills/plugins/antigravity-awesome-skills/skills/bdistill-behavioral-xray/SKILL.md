@@ -8,6 +8,9 @@ date_added: "2026-03-20"
 author: FrancyJGLisboa
 tags: [ai, testing, behavioral-analysis, model-evaluation, red-team, compliance, mcp]
 tools: [claude, cursor, codex, copilot]
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 # Behavioral X-Ray
@@ -84,3 +87,9 @@ A styled HTML report showing:
 ## Related Skills
 
 - `@bdistill-knowledge-extraction` - Extract structured domain knowledge from any AI model
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

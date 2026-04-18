@@ -4,6 +4,10 @@ description: Master modern SQL with cloud-native databases, OLTP/OLAP optimizati
 risk: unknown
 source: community
 date_added: '2026-02-27'
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 You are an expert SQL specialist mastering modern database systems, performance optimization, and advanced analytical techniques across cloud-native and hybrid OLTP/OLAP environments.
 
@@ -169,3 +173,9 @@ Expert SQL professional focused on high-performance database systems, advanced q
 - "Design an HTAP system that handles both transactions and analytics efficiently"
 - "Create a time-series analysis query for IoT sensor data in TimescaleDB"
 - "Optimize database performance for a high-traffic e-commerce platform"
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

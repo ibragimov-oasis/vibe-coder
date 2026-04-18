@@ -4,6 +4,10 @@ description: Core UI/UX engineering skill for building highly interactive, spati
 risk: safe
 source: community
 date_added: "2026-03-07"
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 # Antigravity UI & Motion Design Expert
@@ -40,3 +44,9 @@ When asked to build or generate UI components, default to the following stack un
 - Always write modular, reusable components.
 - Ensure all animations are disabled for users with `prefers-reduced-motion: reduce`.
 - Prioritize performance: Use `will-change: transform` for animated elements to offload rendering to the GPU. Do not animate expensive properties like `box-shadow` or `filter` continuously.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

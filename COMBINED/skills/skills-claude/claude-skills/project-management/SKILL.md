@@ -15,6 +15,9 @@ agents:
   - claude-code
   - codex-cli
   - openclaw
+  - domain/agents
+  - artifact/skill
+  - source/skills-claude
 ---
 
 # Project Management Skills
@@ -57,3 +60,10 @@ python3 scrum-master/scripts/velocity_analyzer.py --help
 
 - Load only the specific skill SKILL.md you need
 - Use MCP tools for live Jira/Confluence operations when available
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+- [[MOC - Agents]] — Claude agents
+

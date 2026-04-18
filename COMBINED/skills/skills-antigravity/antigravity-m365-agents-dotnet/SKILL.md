@@ -4,6 +4,10 @@ description: Microsoft 365 Agents SDK for .NET. Build multichannel agents for Te
 risk: unknown
 source: community
 date_added: '2026-02-27'
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 # Microsoft 365 Agents SDK (.NET)
@@ -292,3 +296,9 @@ await foreach (var activity in client.AskQuestionAsync("Hello!", null))
 
 ## When to Use
 This skill is applicable to execute the workflow or actions described in the overview.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

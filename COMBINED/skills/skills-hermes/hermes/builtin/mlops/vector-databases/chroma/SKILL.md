@@ -8,7 +8,9 @@ dependencies: [chromadb, sentence-transformers]
 metadata:
   hermes:
     tags: [RAG, Chroma, Vector Database, Embeddings, Semantic Search, Open Source, Self-Hosted, Document Retrieval, Metadata Filtering]
-
+  - domain/skills
+  - artifact/skill
+  - source/skills-hermes
 ---
 
 # Chroma - Open-Source Embedding Database
@@ -406,4 +408,8 @@ collection = client.get_or_create_collection("my_docs")
 - **Version**: 1.3.3+
 - **License**: Apache 2.0
 
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-hermes]] — Category: skills-hermes
 

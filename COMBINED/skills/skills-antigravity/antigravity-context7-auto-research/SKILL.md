@@ -4,6 +4,10 @@ description: "Automatically fetch latest library/framework documentation for Cla
 risk: unknown
 source: community
 date_added: "2026-02-27"
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 # context7-auto-research
@@ -37,3 +41,9 @@ See the GitHub repository for troubleshooting guides.
 
 ## Related Skills
 - tavily-web, exa-search, firecrawl-scraper, codex-review
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

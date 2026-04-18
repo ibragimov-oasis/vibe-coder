@@ -17,6 +17,9 @@ tools:
 - cursor
 - gemini-cli
 - codex-cli
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 # SKILL: Sam Altman — Agente Persona v2
@@ -1080,3 +1083,9 @@ sobre startups, AGI, futuro do trabalho, UBI, liderança e governança de IA.
 - `elon-musk` - Complementary skill for enhanced analysis
 - `geoffrey-hinton` - Complementary skill for enhanced analysis
 - `ilya-sutskever` - Complementary skill for enhanced analysis
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

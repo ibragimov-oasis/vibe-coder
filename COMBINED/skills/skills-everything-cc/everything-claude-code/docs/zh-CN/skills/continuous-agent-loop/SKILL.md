@@ -2,6 +2,10 @@
 name: continuous-agent-loop
 description: 具有质量门、评估和恢复控制的连续自主代理循环模式。
 origin: ECC
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-everything-cc
 ---
 
 # 持续代理循环
@@ -44,3 +48,9 @@ Start
 * 运行 `/harness-audit`
 * 将范围缩小到失败单元
 * 使用明确的验收标准重放
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

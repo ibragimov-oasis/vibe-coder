@@ -4,6 +4,10 @@ description: "Master comprehensive evaluation strategies for LLM applications, f
 risk: unknown
 source: community
 date_added: "2026-02-27"
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 # LLM Evaluation
@@ -484,3 +488,9 @@ class BenchmarkRunner:
 - **Data Contamination**: Testing on training data
 - **Ignoring Variance**: Not accounting for statistical uncertainty
 - **Metric Mismatch**: Using metrics not aligned with business goals
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

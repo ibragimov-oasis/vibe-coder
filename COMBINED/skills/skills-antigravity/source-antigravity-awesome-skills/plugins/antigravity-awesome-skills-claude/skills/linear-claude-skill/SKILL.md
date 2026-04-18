@@ -4,6 +4,10 @@ description: "Manage Linear issues, projects, and teams"
 risk: safe
 source: "https://github.com/wrsmith108/linear-claude-skill"
 date_added: "2026-02-27"
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 ## When to Use This Skill
@@ -540,3 +544,9 @@ npx tsx scripts/linear-ops.ts project-status "My Project" completed
 | docs/labels.md | Label taxonomy |
 
 **External:** [Linear MCP Documentation](https://linear.app/docs/mcp.md)
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

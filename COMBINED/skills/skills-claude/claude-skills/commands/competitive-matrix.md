@@ -1,6 +1,10 @@
 ---
 name: competitive-matrix
 description: Build competitive analysis matrices with scoring and gap analysis. Usage: /competitive-matrix <analyze> [options]
+tags:
+  - domain/agents
+  - artifact/skill
+  - source/skills-claude
 ---
 
 # /competitive-matrix
@@ -38,3 +42,10 @@ Build competitive matrices with weighted scoring, gap analysis, and market posit
 
 ## Skill Reference
 → `product-team/competitive-teardown/SKILL.md`
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+- [[MOC - Agents]] — Claude agents
+

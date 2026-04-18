@@ -1,6 +1,10 @@
 ---
 name: tdd-workflow
 description: Use this skill when writing new features, fixing bugs, or refactoring code. Enforces test-driven development with 80%+ coverage including unit, integration, and E2E tests.
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-everything-cc
 ---
 
 # 測試驅動開發工作流程
@@ -407,3 +411,9 @@ npm test && npm run lint
 ---
 
 **記住**：測試不是可選的。它們是實現自信重構、快速開發和生產可靠性的安全網。
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

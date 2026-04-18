@@ -4,6 +4,10 @@ description: Codified expertise for quality control, non-conformance investigati
 risk: safe
 source: https://github.com/ai-evos/agent-skills
 date_added: '2026-02-27'
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 ## When to Use
@@ -233,3 +237,9 @@ Use this skill when you need to **run or improve non‑conformance and CAPA proc
 - Investigating NCRs, selecting root‑cause methods, and defining MRB dispositions and CAPA actions.
 - Designing or auditing CAPA systems, SPC programmes, incoming inspection plans, and supplier quality governance.
 - Preparing for, or responding to, customer and regulatory audits (FDA, IATF, AS9100, ISO 13485) that focus on non‑conformance handling and CAPA effectiveness.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

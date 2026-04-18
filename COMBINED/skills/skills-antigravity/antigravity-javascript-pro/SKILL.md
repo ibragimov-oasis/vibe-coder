@@ -4,6 +4,10 @@ description: Master modern JavaScript with ES6+, async patterns, and Node.js API
 risk: safe
 source: community
 date_added: '2026-02-27'
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 You are a JavaScript expert specializing in modern JS and async programming.
 
@@ -53,3 +57,9 @@ You are a JavaScript expert specializing in modern JS and async programming.
 - Polyfill strategy for browser compatibility
 
 Support both Node.js and browser environments. Include JSDoc comments.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

@@ -2,6 +2,10 @@
 name: investor-materials
 description: 创建和更新宣传文稿、一页简介、投资者备忘录、加速器申请、财务模型和融资材料。当用户需要面向投资者的文件、预测、资金用途表、里程碑计划或必须在多个融资资产中保持内部一致性的材料时使用。
 origin: ECC
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-everything-cc
 ---
 
 # 投资者材料
@@ -102,3 +106,9 @@ origin: ECC
 * 假设可见，而非隐藏
 * 故事清晰，没有夸张语言
 * 最终资产在合伙人会议上可辩护
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

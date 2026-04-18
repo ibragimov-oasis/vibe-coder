@@ -3,6 +3,10 @@ name: filesystem-context
 description: Use for file-based context management, dynamic context discovery, and reducing context window bloat. Offload context to files for just-in-time loading.
 risk: unknown
 source: community
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 # Filesystem-Based Context Engineering
@@ -319,4 +323,9 @@ External resources:
 **Last Updated**: 2026-01-07
 **Author**: Agent Skills for Context Engineering Contributors
 **Version**: 1.0.0
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
 

@@ -4,6 +4,10 @@ description: "Find exploitable vulnerabilities in GitHub Actions workflows. Ever
 risk: safe
 source: community
 date_added: 2026-03-16
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 <!--
@@ -186,3 +190,9 @@ If any link is broken, mark MEDIUM (needs verification) or drop the finding.
 ````
 
 If no findings: "No exploitable vulnerabilities identified. All workflows reviewed and cleared."
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

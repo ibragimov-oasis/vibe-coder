@@ -1,6 +1,10 @@
 ---
 name: agent-swarm-pr
 description: Agent skill for swarm-pr - invoke with $agent-swarm-pr
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-ruflo
 ---
 
 ---
@@ -431,3 +435,9 @@ mcp__claude-flow__memory_usage {
 ```
 
 See also: [swarm-issue.md](.$swarm-issue.md), [sync-coordinator.md](.$sync-coordinator.md), [workflow-automation.md](.$workflow-automation.md)
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-ruflo]] — Category: skills-ruflo
+

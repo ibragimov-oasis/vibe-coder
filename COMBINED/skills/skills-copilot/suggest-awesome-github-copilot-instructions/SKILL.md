@@ -1,6 +1,10 @@
 ---
 name: suggest-awesome-github-copilot-instructions
 description: 'Suggest relevant GitHub Copilot instruction files from the awesome-copilot repository based on current repository context and chat history, avoiding duplicates with existing instructions in this repository, and identifying outdated instructions that need updates.'
+tags:
+  - domain/agents
+  - artifact/skill
+  - source/skills-copilot
 ---
 
 # Suggest Awesome GitHub Copilot Instructions
@@ -120,3 +124,10 @@ When outdated instructions are identified:
 3. Provide recommendation to update with key changes noted
 4. When user requests update, replace entire local file with remote version
 5. Preserve file location in `.github/instructions/` directory
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-copilot]] — Category: skills-copilot
+- [[MOC - Agents]] — Copilot agents
+

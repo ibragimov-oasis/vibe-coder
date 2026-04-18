@@ -16,6 +16,9 @@ agents:
   - claude-code
   - codex-cli
   - openclaw
+  - domain/agents
+  - artifact/skill
+  - source/skills-claude
 ---
 
 # Engineering Advanced Skills (POWERFUL Tier)
@@ -68,3 +71,10 @@ npx agent-skills-cli add alirezarezvani/claude-skills/engineering
 
 - Load only the specific skill SKILL.md you need
 - These are advanced skills — combine with engineering-team/ core skills as needed
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+- [[MOC - Agents]] — Claude agents
+

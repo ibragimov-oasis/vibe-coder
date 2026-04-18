@@ -4,6 +4,10 @@ description: "Display project status, active tracks, and next actions"
 risk: unknown
 source: community
 date_added: "2026-02-27"
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 # Conductor Status
@@ -337,3 +341,9 @@ If invoked with `--json`:
   "blockers": []
 }
 ```
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

@@ -4,6 +4,10 @@ description: "Universal coding standards, best practices, and patterns for TypeS
 risk: unknown
 source: community
 date_added: "2026-02-27"
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 # Coding Standards & Best Practices
@@ -524,3 +528,9 @@ setTimeout(callback, DEBOUNCE_DELAY_MS)
 
 ## When to Use
 This skill is applicable to execute the workflow or actions described in the overview.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

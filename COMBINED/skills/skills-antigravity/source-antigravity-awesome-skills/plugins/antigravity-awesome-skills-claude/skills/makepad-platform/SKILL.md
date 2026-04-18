@@ -8,6 +8,10 @@ description: |
   makepad 跨平台, makepad 平台支持
 risk: unknown
 source: community
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 # Makepad Platform Skill
@@ -162,3 +166,9 @@ impl AppMain for App {
 3. Platform-specific code is in `platform/src/os/` directory
 4. Use `cx.os_type()` for runtime platform detection
 5. Use `#[cfg(target_os = "...")]` for compile-time platform detection
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

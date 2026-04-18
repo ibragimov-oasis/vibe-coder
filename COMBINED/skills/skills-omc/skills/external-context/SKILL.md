@@ -3,6 +3,10 @@ name: external-context
 description: Invoke parallel document-specialist agents for external web searches and documentation lookup
 argument-hint: <search query or topic>
 level: 4
+tags:
+  - domain/orchestration
+  - artifact/skill
+  - source/skills-omc
 ---
 
 # External Context Skill
@@ -82,3 +86,10 @@ Present synthesized results in this format:
 
 - Maximum 5 parallel document-specialist agents
 - No magic keyword trigger - explicit invocation only
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-omc]] — Category: skills-omc
+- [[MOC - Orchestration]] — Multi-agent orchestration
+

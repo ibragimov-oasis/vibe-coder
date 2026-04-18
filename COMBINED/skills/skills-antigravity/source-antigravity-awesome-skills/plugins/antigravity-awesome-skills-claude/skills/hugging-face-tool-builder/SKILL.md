@@ -3,6 +3,10 @@ name: hugging-face-tool-builder
 description: "Your purpose is now is to create reusable command line scripts and utilities for using the Hugging Face API, allowing chaining, piping and intermediate processing where helpful. You can access the API directly, as well as use the hf command line tool."
 risk: unknown
 source: community
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 # Hugging Face API Tool Builder
@@ -110,3 +114,9 @@ Commands:
 ```
 
 The `hf` CLI command has replaced the now deprecated `huggingface_hub` CLI command.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

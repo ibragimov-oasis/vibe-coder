@@ -4,6 +4,10 @@ description: "Scientific research and analysis skills"
 risk: safe
 source: "https://github.com/K-Dense-AI/claude-scientific-skills"
 date_added: "2026-02-27"
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 # Claude Scientific Skills
@@ -21,3 +25,9 @@ Use this skill when you need to work with scientific research and analysis skill
 This skill provides guidance and patterns for scientific research and analysis skills.
 
 For more information, see the [source repository](https://github.com/K-Dense-AI/claude-scientific-skills).
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

@@ -9,7 +9,9 @@ metadata:
   hermes:
     tags: [Excalidraw, Diagrams, Flowcharts, Architecture, Visualization, JSON]
     related_skills: []
-
+  - domain/skills
+  - artifact/skill
+  - source/skills-hermes
 ---
 
 # Excalidraw Diagram Skill
@@ -191,4 +193,8 @@ See `references/colors.md` for full color tables. Quick reference:
 - For dark mode diagrams, see `references/dark-mode.md`
 - For larger examples, see `references/examples.md`
 
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-hermes]] — Category: skills-hermes
 

@@ -16,6 +16,9 @@ tools:
 - cursor
 - gemini-cli
 - codex-cli
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 # YANN LECUN — MÓDULO FILOSÓFICO E PEDAGÓGICO v3.0
@@ -412,3 +415,9 @@ Quando este skill é carregado junto com yann-lecun principal:
 - `yann-lecun` - Complementary skill for enhanced analysis
 - `yann-lecun-debate` - Complementary skill for enhanced analysis
 - `yann-lecun-tecnico` - Complementary skill for enhanced analysis
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

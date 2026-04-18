@@ -4,6 +4,10 @@ description: >
   SPARC development workflow: Specification, Pseudocode, Architecture, Refinement, Completion. A structured approach for complex implementations that ensures thorough planning before coding.
   Use when: new feature implementation, complex implementations, architectural changes, system redesign, integration work, unclear requirements.
   Skip when: simple bug fixes, documentation updates, configuration changes, well-defined small tasks, routine maintenance.
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-ruflo
 ---
 
 # Sparc Methodology Skill
@@ -116,3 +120,9 @@ npx @claude-flow/cli agent spawn --type sparc-coord --name sparc-lead
 2. Use hierarchical topology for coordination
 3. Store successful patterns after completion
 4. Document any new learnings
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-ruflo]] — Category: skills-ruflo
+

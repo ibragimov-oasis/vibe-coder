@@ -9,6 +9,9 @@ metadata:
     tags: [creative, memes, humor, images]
     related_skills: [ascii-art, generative-widgets]
     category: creative
+  - domain/skills
+  - artifact/skill
+  - source/skills-hermes
 ---
 
 # Meme Generation
@@ -127,3 +130,9 @@ The output is correct if:
 - Text is legible (white with black outline) on the template
 - The joke lands — caption matches the template's intended structure
 - File can be delivered via MEDIA: path
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-hermes]] — Category: skills-hermes
+

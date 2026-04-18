@@ -4,6 +4,10 @@ description: "Vector-powered CLI for semantic file search with a Claude/Codex sk
 risk: safe
 source: "https://github.com/scarletkc/vexor"
 date_added: "2026-02-27"
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 # Vexor
@@ -21,3 +25,9 @@ Use this skill when you need to work with vector-powered cli for semantic file s
 This skill provides guidance and patterns for vector-powered cli for semantic file search with a claude/codex skill.
 
 For more information, see the [source repository](https://github.com/scarletkc/vexor).
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

@@ -4,6 +4,10 @@ description: Expert C4 Context-level documentation specialist. Creates high-leve
 risk: unknown
 source: community
 date_added: '2026-02-27'
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 # C4 Context Level: System Context
@@ -144,3 +148,9 @@ When creating context documentation, provide:
 - Links to container and component documentation
 - Stakeholder-friendly documentation understandable by non-technical audiences
 - Consistent documentation format
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

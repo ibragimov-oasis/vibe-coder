@@ -4,6 +4,10 @@ description: "You are a configuration management expert specializing in validati
 risk: critical
 source: community
 date_added: "2026-02-27"
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 # Configuration Validation
@@ -497,3 +501,9 @@ class ConfigDocGenerator:
 7. **Documentation**: Auto-generated reference
 
 Focus on preventing configuration errors, ensuring consistency, and maintaining security best practices.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

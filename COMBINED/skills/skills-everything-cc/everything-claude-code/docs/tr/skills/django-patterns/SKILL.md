@@ -2,6 +2,10 @@
 name: django-patterns
 description: DRF ile Django mimari desenleri, REST API tasarımı, ORM en iyi uygulamaları, caching, signal'ler, middleware ve production-grade Django uygulamaları.
 origin: ECC
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-everything-cc
 ---
 
 # Django Geliştirme Desenleri
@@ -732,3 +736,9 @@ Product.objects.filter(stock=0).delete()
 | Middleware | Request/response işleme |
 
 Unutmayın: Django birçok kısayol sağlar, ancak production uygulamaları için yapı ve organizasyon kısa koddan daha önemlidir. Bakımı kolay olacak şekilde oluşturun.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

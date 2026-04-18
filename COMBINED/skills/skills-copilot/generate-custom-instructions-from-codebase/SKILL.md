@@ -1,6 +1,10 @@
 ---
 name: generate-custom-instructions-from-codebase
 description: 'Migration and code evolution instructions generator for GitHub Copilot. Analyzes differences between two project versions (branches, commits, or releases) to create precise instructions allowing Copilot to maintain consistency during technology migrations, major refactoring, or framework version upgrades.'
+tags:
+  - domain/agents
+  - artifact/skill
+  - source/skills-copilot
 ---
 
 # Migration and Code Evolution Instructions Generator
@@ -238,3 +242,10 @@ Instead of generic advice, generates instructions tailored to your specific code
 
 ### ⚡ **Automated Consistency**
 Ensures that new code additions automatically follow the new conventions, preventing architectural regression and maintaining code evolution coherence.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-copilot]] — Category: skills-copilot
+- [[MOC - Agents]] — Copilot agents
+

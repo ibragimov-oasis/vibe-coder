@@ -4,6 +4,10 @@ description: "Expert in event sourcing, CQRS, and event-driven architecture patt
 risk: unknown
 source: community
 date_added: "2026-02-27"
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 # Event Sourcing Architect
@@ -64,3 +68,9 @@ Expert in event sourcing, CQRS, and event-driven architecture patterns. Masters 
 ## Related Skills
 
 Works well with: `saga-orchestration`, `architecture-patterns`, `dbos-*`
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

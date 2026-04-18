@@ -1,6 +1,10 @@
 ---
 name: csharp-mcp-server-generator
 description: 'Generate a complete MCP server project in C# with tools, prompts, and proper configuration'
+tags:
+  - domain/agents
+  - artifact/skill
+  - source/skills-copilot
 ---
 
 # Generate C# MCP Server
@@ -57,3 +61,10 @@ Create a complete Model Context Protocol (MCP) server in C# with the following s
 - Include troubleshooting tips
 
 Generate a complete, production-ready MCP server with comprehensive documentation and error handling.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-copilot]] — Category: skills-copilot
+- [[MOC - Agents]] — Copilot agents
+

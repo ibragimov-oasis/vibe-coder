@@ -8,7 +8,9 @@ dependencies: [openai-whisper, transformers, torch]
 metadata:
   hermes:
     tags: [Whisper, Speech Recognition, ASR, Multimodal, Multilingual, OpenAI, Speech-To-Text, Transcription, Translation, Audio Processing]
-
+  - domain/skills
+  - artifact/skill
+  - source/skills-hermes
 ---
 
 # Whisper - Robust Speech Recognition
@@ -317,4 +319,8 @@ Full list: 99 languages total
 - **Colab**: Available in repo
 - **License**: MIT
 
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-hermes]] — Category: skills-hermes
 

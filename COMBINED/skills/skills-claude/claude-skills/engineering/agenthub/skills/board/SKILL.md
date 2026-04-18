@@ -2,6 +2,10 @@
 name: "board"
 description: "Read, write, and browse the AgentHub message board for agent coordination."
 command: /hub:board
+tags:
+  - domain/agents
+  - artifact/skill
+  - source/skills-claude
 ---
 
 # /hub:board — Message Board
@@ -104,3 +108,10 @@ parent: null
 - **Append-only** — never edit or delete existing posts
 - **Unique filenames** — `{seq:03d}-{author}-{timestamp}.md`
 - **Frontmatter required** — every post has author, timestamp, channel
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+- [[MOC - Agents]] — Claude agents
+

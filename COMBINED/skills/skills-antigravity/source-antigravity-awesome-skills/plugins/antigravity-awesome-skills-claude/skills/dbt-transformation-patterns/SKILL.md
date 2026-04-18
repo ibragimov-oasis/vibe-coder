@@ -4,6 +4,10 @@ description: "Production-ready patterns for dbt (data build tool) including mode
 risk: none
 source: community
 date_added: "2026-02-27"
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 # dbt Transformation Patterns
@@ -35,3 +39,9 @@ Production-ready patterns for dbt (data build tool) including model organization
 ## Resources
 
 - `resources/implementation-playbook.md` for detailed dbt patterns and examples.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

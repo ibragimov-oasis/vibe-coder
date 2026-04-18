@@ -4,6 +4,10 @@ description: "Expert web researcher using advanced search techniques and"
 risk: unknown
 source: community
 date_added: "2026-02-27"
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 ## Use this skill when
@@ -76,3 +80,9 @@ You are a search specialist expert at finding and synthesizing information from 
 - Recommendations for further research
 
 Focus on actionable insights. Always provide direct quotes for important claims.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

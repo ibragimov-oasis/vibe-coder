@@ -2,6 +2,10 @@
 name: springboot-security
 description: Java Spring Boot 服务中认证/授权、验证、CSRF、密钥、标头、速率限制和依赖安全性的 Spring Security 最佳实践。
 origin: ECC
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-everything-cc
 ---
 
 # Spring Boot 安全审查
@@ -270,3 +274,9 @@ public class RateLimitFilter extends OncePerRequestFilter {
 * \[ ] 日志不包含敏感数据
 
 **记住**：默认拒绝、验证输入、最小权限、优先采用安全配置。
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

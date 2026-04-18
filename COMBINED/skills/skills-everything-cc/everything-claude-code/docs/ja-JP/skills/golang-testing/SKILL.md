@@ -1,6 +1,10 @@
 ---
 name: golang-testing
 description: テスト駆動開発とGoコードの高品質を保証するための包括的なテスト戦略。
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-everything-cc
 ---
 
 # Go テスト
@@ -957,3 +961,9 @@ func TestCheckError(t *testing.T) {
 | `-tags=integration` | ビルドタグでテストを実行 |
 
 **覚えておいてください**: 良いテストは高速で、信頼性があり、保守可能で、明確です。複雑さより明確さを目指してください。
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

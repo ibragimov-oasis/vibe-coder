@@ -2,6 +2,10 @@
 name: team-builder
 description: 用于组合和派遣并行团队的交互式代理选择器
 origin: community
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-everything-cc
 ---
 
 # 团队构建器
@@ -163,3 +167,9 @@ Claude:
 冲突点：安全建议的CSP阻止内联样式，SEO需要内联模式标记。解决方案：[...]
 后续步骤：[...]
 ```
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

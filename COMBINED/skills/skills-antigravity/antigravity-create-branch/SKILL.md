@@ -4,6 +4,10 @@ description: Create a git branch following Sentry naming conventions. Use when a
 argument-hint: '[optional description of the work]'
 risk: critical
 source: community
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 # Create Branch
@@ -107,3 +111,9 @@ Restore any stashed changes after the branch is created.
 ## References
 
 - [Sentry Branch Naming](https://develop.sentry.dev/sdk/getting-started/standards/code-submission/#branch-naming)
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

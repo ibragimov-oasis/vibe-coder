@@ -2,6 +2,10 @@
 name: "merge"
 description: "Merge the winning agent's branch into base, archive losers, and clean up worktrees."
 command: /hub:merge
+tags:
+  - domain/agents
+  - artifact/skill
+  - source/skills-claude
 ---
 
 # /hub:merge — Merge Winner
@@ -92,3 +96,10 @@ Tell the user:
 - Losers archived with tags `hub/archive/{session-id}/agent-{N}`
 - Worktrees cleaned up
 - Session state: `merged`
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+- [[MOC - Agents]] — Claude agents
+

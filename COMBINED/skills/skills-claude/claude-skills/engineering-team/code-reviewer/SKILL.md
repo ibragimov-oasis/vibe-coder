@@ -1,6 +1,10 @@
 ---
 name: "code-reviewer"
 description: Code review automation for TypeScript, JavaScript, Python, Go, Swift, Kotlin. Analyzes PRs for complexity and risk, checks code quality for SOLID violations and code smells, generates review reports. Use when reviewing pull requests, analyzing code quality, identifying issues, generating review checklists.
+tags:
+  - domain/agents
+  - artifact/skill
+  - source/skills-claude
 ---
 
 # Code Reviewer
@@ -175,3 +179,10 @@ Antipattern catalog with examples and fixes:
 | Go | `.go` |
 | Swift | `.swift` |
 | Kotlin | `.kt`, `.kts` |
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+- [[MOC - Agents]] — Claude agents
+

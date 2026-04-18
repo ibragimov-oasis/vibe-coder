@@ -4,6 +4,10 @@ description: Refactor legacy codebases, migrate outdated frameworks, and impleme
 risk: safe
 source: community
 date_added: '2026-02-27'
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 ## Use this skill when
@@ -49,3 +53,9 @@ You are a legacy modernization specialist focused on safe, incremental upgrades.
 - Rollback procedures for each phase
 
 Focus on risk mitigation. Never break existing functionality without migration path.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

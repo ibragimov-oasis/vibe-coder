@@ -2,6 +2,10 @@
 name: swift-actor-persistence
 description: 在 Swift 中使用 actor 实现线程安全的数据持久化——基于内存缓存与文件支持的存储，通过设计消除数据竞争。
 origin: ECC
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-everything-cc
 ---
 
 # 用于线程安全持久化的 Swift Actor
@@ -141,3 +145,9 @@ final class QuestionListViewModel {
 * 稍后同步到服务器的离线优先架构
 * 应用中多个部分并发访问的任何共享可变状态
 * 用现代 Swift 并发性替换基于 `DispatchQueue` 的旧式线程安全机制
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

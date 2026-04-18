@@ -5,6 +5,10 @@ category: graphics-processing
 risk: safe
 source: personal
 date_added: "2026-02-27"
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 # LibreOffice Draw
@@ -162,3 +166,9 @@ soffice --headless --convert-to png:PNG_drawing_Export \
 - impress
 - base
 - workflow-automation
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

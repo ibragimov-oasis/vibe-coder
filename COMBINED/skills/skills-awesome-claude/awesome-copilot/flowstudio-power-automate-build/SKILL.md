@@ -7,6 +7,10 @@ description: >-
   JSON, update an existing flow's actions, patch a flow definition, add actions
   to a flow, wire up connections, or generate a workflow definition from scratch.
   Requires a FlowStudio MCP subscription — see https://mcp.flowstudio.app
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-awesome-claude
 ---
 
 # Build & Deploy Power Automate Flows with FlowStudio MCP
@@ -458,3 +462,9 @@ The `body/recipient` parameter format depends on the `location` value:
 
 - `flowstudio-power-automate-mcp` — Core connection setup and tool reference
 - `flowstudio-power-automate-debug` — Debug failing flows after deployment
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-awesome-claude]] — Category: skills-awesome-claude
+

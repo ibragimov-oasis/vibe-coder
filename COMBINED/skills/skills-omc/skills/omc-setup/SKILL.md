@@ -2,6 +2,10 @@
 name: omc-setup
 description: Install or refresh oh-my-claudecode for plugin, npm, and local-dev setups from the canonical setup flow
 level: 2
+tags:
+  - domain/orchestration
+  - artifact/skill
+  - source/skills-omc
 ---
 
 # OMC Setup
@@ -184,3 +188,10 @@ After installing oh-my-claudecode updates (via npm or plugin update):
 - `/oh-my-claudecode:omc-setup --force` to re-run the full wizard (reconfigure preferences)
 
 This ensures you have the newest features and agent configurations without the token cost of repeating the full setup.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-omc]] — Category: skills-omc
+- [[MOC - Orchestration]] — Multi-agent orchestration
+

@@ -8,6 +8,9 @@ date_added: "2026-03-27"
 author: digitamaz
 tags: [mcp, aeo, tool-quality, agent-readiness, api-scoring, clarvia]
 tools: [claude, cursor, windsurf, cline]
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 # Clarvia AEO Check
@@ -131,3 +134,9 @@ Add to your CI pipeline using the GitHub Action:
 
 - `@mcp-builder` - Build a new MCP server that scores well on AEO
 - `@agent-evaluation` - Broader agent quality evaluation framework
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

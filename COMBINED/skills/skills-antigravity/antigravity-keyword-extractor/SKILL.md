@@ -5,6 +5,10 @@ description: >
 risk: safe
 source: original
 date_added: "2026-03-11"
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 # Keyword Extractor
@@ -159,3 +163,9 @@ If any rule fails regenerate the list.
 If text is very short, infer likely topics and still generate keywords. Never exceed 50 keywords.
 
 ---
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

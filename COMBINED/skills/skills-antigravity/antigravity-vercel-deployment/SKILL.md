@@ -4,6 +4,10 @@ description: "Expert knowledge for deploying to Vercel with Next.js Use when: ve
 risk: safe
 source: "vibeship-spawner-skills (Apache 2.0)"
 date_added: "2026-02-27"
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 # Vercel Deployment
@@ -78,3 +82,9 @@ Optimize build for faster deployments and smaller bundles
 ## Related Skills
 
 Works well with: `nextjs-app-router`, `supabase-backend`
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

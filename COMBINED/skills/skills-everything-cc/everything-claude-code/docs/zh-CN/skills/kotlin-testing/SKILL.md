@@ -2,6 +2,10 @@
 name: kotlin-testing
 description: 使用Kotest、MockK、协程测试、基于属性的测试和Kover覆盖率的Kotlin测试模式。遵循TDD方法论和地道的Kotlin实践。
 origin: ECC
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-everything-cc
 ---
 
 # Kotlin 测试模式
@@ -824,3 +828,9 @@ test:
 ```
 
 **记住**：测试就是文档。它们展示了你的 Kotlin 代码应如何使用。使用 Kotest 富有表现力的匹配器使测试可读，并使用 MockK 来清晰地模拟依赖项。
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

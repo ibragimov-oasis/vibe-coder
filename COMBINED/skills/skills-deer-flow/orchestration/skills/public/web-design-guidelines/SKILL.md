@@ -5,6 +5,10 @@ metadata:
   author: vercel
   version: "1.0.0"
   argument-hint: <file-or-pattern>
+tags:
+  - domain/orchestration
+  - artifact/skill
+  - source/skills-deer-flow
 ---
 
 # Web Interface Guidelines
@@ -37,3 +41,10 @@ When a user provides a file or pattern argument:
 4. Output findings using the format specified in the guidelines
 
 If no files specified, ask the user which files to review.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-deer-flow]] — Category: skills-deer-flow
+- [[MOC - Orchestration]] — DeerFlow research pipeline
+

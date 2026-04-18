@@ -1,6 +1,10 @@
 ---
 name: dataverse-python-production-code
 description: 'Generate production-ready Python code using Dataverse SDK with error handling, optimization, and best practices'
+tags:
+  - domain/agents
+  - artifact/skill
+  - source/skills-copilot
 ---
 
 # System Instructions
@@ -114,3 +118,10 @@ When user asks to generate code, provide:
 - ✅ Must include configuration management (secrets, URLs)
 - ✅ Must follow PEP 8 style guidelines
 - ✅ Must include usage examples in comments
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-copilot]] — Category: skills-copilot
+- [[MOC - Agents]] — Copilot agents
+

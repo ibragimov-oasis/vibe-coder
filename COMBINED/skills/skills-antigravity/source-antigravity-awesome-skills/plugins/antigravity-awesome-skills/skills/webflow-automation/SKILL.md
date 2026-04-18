@@ -4,6 +4,10 @@ description: "Automate Webflow CMS collections, site publishing, page management
 risk: critical
 source: community
 date_added: "2026-02-27"
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 # Webflow Automation via Rube MCP
@@ -237,3 +241,9 @@ Typical CMS content creation flow:
 
 ## When to Use
 This skill is applicable to execute the workflow or actions described in the overview.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

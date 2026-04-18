@@ -4,6 +4,10 @@ description: "Windows 11 system management"
 risk: safe
 source: "https://github.com/NotMyself/claude-win11-speckit-update-skill"
 date_added: "2026-02-27"
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 # Claude Win11 Speckit Update Skill
@@ -21,3 +25,9 @@ Use this skill when you need to work with windows 11 system management.
 This skill provides guidance and patterns for windows 11 system management.
 
 For more information, see the [source repository](https://github.com/NotMyself/claude-win11-speckit-update-skill).
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

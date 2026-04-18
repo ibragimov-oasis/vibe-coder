@@ -2,6 +2,10 @@
 name: django-security
 description: Django 安全最佳实践、认证、授权、CSRF 防护、SQL 注入预防、XSS 预防和安全部署配置。
 origin: ECC
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-everything-cc
 ---
 
 # Django 安全最佳实践
@@ -591,3 +595,9 @@ LOGGING = {
 | 更新 | 保持 Django 及其依赖项为最新版本 |
 
 请记住：安全是一个过程，而非产品。请定期审查并更新您的安全实践。
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

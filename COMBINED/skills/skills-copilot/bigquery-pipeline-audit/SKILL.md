@@ -1,6 +1,10 @@
 ---
 name: bigquery-pipeline-audit
 description: 'Audits Python + BigQuery pipelines for cost safety, idempotency, and production readiness. Returns a structured report with exact patch locations.'
+tags:
+  - domain/agents
+  - artifact/skill
+  - source/skills-copilot
 ---
 
 # BigQuery Pipeline Audit: Cost, Safety and Production Readiness
@@ -127,3 +131,10 @@ If `run_id` is missing, propose a one-line fix:
 **2. Patch list** ordered by risk, referencing exact functions to change.
 **3. If FAIL: Top 3 cost risks** with a rough worst-case estimate
 (e.g., "loop over 90 dates x 3 retries = 270 BQ jobs").
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-copilot]] — Category: skills-copilot
+- [[MOC - Agents]] — Copilot agents
+

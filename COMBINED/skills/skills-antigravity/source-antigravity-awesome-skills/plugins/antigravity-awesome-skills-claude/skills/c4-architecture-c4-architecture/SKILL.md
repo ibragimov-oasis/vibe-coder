@@ -4,6 +4,10 @@ description: "Generate comprehensive C4 architecture documentation for an existi
 risk: unknown
 source: community
 date_added: "2026-02-27"
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 # C4 Architecture Documentation Workflow
@@ -390,3 +394,9 @@ This will:
 5. Create system context with personas and journeys
 
 All documentation written to: C4-Documentation/
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

@@ -4,6 +4,10 @@ description: Expert SRE incident responder specializing in rapid problem resolut
 risk: unknown
 source: community
 date_added: '2026-02-27'
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 ## Use this skill when
@@ -207,3 +211,9 @@ Expert incident responder with deep knowledge of SRE principles, modern observab
 - **Learn and improve**: Every incident is an opportunity to build better systems
 
 Remember: Excellence in incident response comes from preparation, practice, and continuous improvement of both technical systems and human processes.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

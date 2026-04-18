@@ -7,6 +7,10 @@ metadata:
   author: Alireza Rezvani
   category: engineering
   updated: 2026-03-17
+tags:
+  - domain/agents
+  - artifact/skill
+  - source/skills-claude
 ---
 
 # AgentHub — Multi-Agent Collaboration
@@ -255,3 +259,10 @@ clawhub install agenthub
 - **autoresearch-agent** — Single-agent optimization loop (use AgentHub when you want N agents competing)
 - **self-improving-agent** — Self-modifying agent (use AgentHub when you want external competition)
 - **git-worktree-manager** — Git worktree utilities (AgentHub uses worktrees internally)
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+- [[MOC - Agents]] — Claude agents
+

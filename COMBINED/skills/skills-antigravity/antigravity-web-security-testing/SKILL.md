@@ -5,6 +5,10 @@ category: granular-workflow-bundle
 risk: safe
 source: personal
 date_added: "2026-02-27"
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 # Web Security Testing Workflow
@@ -181,3 +185,9 @@ Use @reporting-standards to create security report
 - `security-audit` - Security auditing
 - `api-security-testing` - API security
 - `wordpress-security` - WordPress security
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

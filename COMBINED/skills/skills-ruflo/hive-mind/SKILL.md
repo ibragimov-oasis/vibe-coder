@@ -4,6 +4,10 @@ description: >
   Byzantine fault-tolerant consensus and distributed coordination. Queen-led hierarchical swarm management with multiple consensus strategies.
   Use when: distributed coordination, fault-tolerant operations, multi-agent consensus, collective decision making.
   Skip when: single-agent tasks, simple operations, local-only work.
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-ruflo
 ---
 
 # Hive-Mind Skill
@@ -63,3 +67,9 @@ npx claude-flow hive-mind sessions --active
 2. Use raft consensus for consistency
 3. Keep agent count under 8 for coordination
 4. Run frequent checkpoints
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-ruflo]] — Category: skills-ruflo
+

@@ -4,6 +4,10 @@ description: "Generate two complementary onboarding documents that together give
 risk: unknown
 source: community
 date_added: "2026-02-27"
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 # Wiki Onboarding Guide Generator
@@ -80,3 +84,9 @@ Scan the repository for build files to determine the primary language for code e
 
 ## When to Use
 This skill is applicable to execute the workflow or actions described in the overview.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

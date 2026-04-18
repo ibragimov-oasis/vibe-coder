@@ -4,6 +4,10 @@ description: "Comprehensive techniques for capturing, analyzing, and documenting
 risk: safe
 source: community
 date_added: "2026-02-27"
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 # Protocol Reverse Engineering
@@ -30,3 +34,9 @@ Comprehensive techniques for capturing, analyzing, and documenting network proto
 ## Resources
 
 - `resources/implementation-playbook.md` for detailed patterns and examples.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

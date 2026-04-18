@@ -1,6 +1,10 @@
 ---
 name: code-to-prd
 description: Reverse-engineer a frontend codebase into a PRD. Usage: /code-to-prd [path]
+tags:
+  - domain/agents
+  - artifact/skill
+  - source/skills-claude
 ---
 
 # /code-to-prd
@@ -76,3 +80,10 @@ A `prd/` directory containing:
 - `product-team/code-to-prd/scripts/codebase_analyzer.py`
 - `product-team/code-to-prd/scripts/prd_scaffolder.py`
 - `product-team/code-to-prd/references/prd-quality-checklist.md`
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+- [[MOC - Agents]] — Claude agents
+

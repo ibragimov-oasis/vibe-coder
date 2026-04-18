@@ -16,6 +16,9 @@ tools:
 - cursor
 - gemini-cli
 - codex-cli
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 # WhatsApp Cloud API - Integracao Profissional
@@ -486,3 +489,9 @@ python scripts/validate_config.py
 - `instagram` - Complementary skill for enhanced analysis
 - `social-orchestrator` - Complementary skill for enhanced analysis
 - `telegram` - Complementary skill for enhanced analysis
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

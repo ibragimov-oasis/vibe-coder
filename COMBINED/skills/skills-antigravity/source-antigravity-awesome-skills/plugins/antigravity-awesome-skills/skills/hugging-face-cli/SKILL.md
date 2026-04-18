@@ -3,6 +3,10 @@ source: "https://github.com/huggingface/skills/tree/main/skills/hf-cli"
 name: hugging-face-cli
 description: "Use the Hugging Face Hub CLI (`hf`) to download, upload, and manage models, datasets, and Spaces."
 risk: unknown
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 Install by downloading the installer script first, reviewing it, and then running it locally. Example:
@@ -194,3 +198,9 @@ Some command examples:
 
 - Use `hf <command> --help` for full options, descriptions, usage, and real-world examples
 - Authenticate with `HF_TOKEN` env var (recommended) or with `--token`
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

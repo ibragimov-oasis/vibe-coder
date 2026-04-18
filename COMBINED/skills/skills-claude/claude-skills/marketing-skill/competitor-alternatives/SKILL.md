@@ -7,6 +7,10 @@ metadata:
   author: Alireza Rezvani
   category: marketing
   updated: 2026-03-06
+tags:
+  - domain/agents
+  - artifact/skill
+  - source/skills-claude
 ---
 
 # Competitor & Alternative Pages
@@ -288,3 +292,10 @@ All competitor page outputs should be factually accurate, legally safe (no false
 - **content-strategy** — USE when planning a full competitive content program across multiple pages; NOT for single-page execution.
 - **competitive-intel** — USE when C-level strategic competitive analysis is needed beyond page creation; NOT for tactical page writing.
 - **marketing-context** — USE as foundation before any competitor page work to align positioning; always load first.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+- [[MOC - Agents]] — Claude agents
+

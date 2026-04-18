@@ -9,6 +9,10 @@ source: community
 metadata:
   author: Shpigford
   version: "1.0"
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 Generate a complete set of favicons from the source image at `$1` and update the project's HTML with the appropriate link tags.
@@ -231,3 +235,9 @@ Report completion with:
 - If the source image doesn't exist, report the exact path that was tried and stop
 - If ImageMagick commands fail, report the specific error message
 - If the layout file cannot be found for HTML updates, generate files anyway and instruct on manual HTML addition
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

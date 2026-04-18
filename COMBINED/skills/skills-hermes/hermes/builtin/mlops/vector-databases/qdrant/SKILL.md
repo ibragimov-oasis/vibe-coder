@@ -8,7 +8,9 @@ dependencies: [qdrant-client>=1.12.0]
 metadata:
   hermes:
     tags: [RAG, Vector Search, Qdrant, Semantic Search, Embeddings, Similarity Search, HNSW, Production, Distributed]
-
+  - domain/skills
+  - artifact/skill
+  - source/skills-hermes
 ---
 
 # Qdrant - Vector Similarity Search Engine
@@ -494,3 +496,9 @@ client = QdrantClient(
 - **Cloud**: https://cloud.qdrant.io
 - **Version**: 1.12.0+
 - **License**: Apache 2.0
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-hermes]] — Category: skills-hermes
+

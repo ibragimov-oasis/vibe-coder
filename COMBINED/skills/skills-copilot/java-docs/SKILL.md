@@ -1,6 +1,10 @@
 ---
 name: java-docs
 description: 'Ensure that Java types are documented with Javadoc comments and follow best practices for documentation.'
+tags:
+  - domain/agents
+  - artifact/skill
+  - source/skills-copilot
 ---
 
 # Java Documentation (Javadoc) Best Practices
@@ -21,3 +25,10 @@ description: 'Ensure that Java types are documented with Javadoc comments and fo
 - Use `@version` to specify the version of the member.
 - Use `@author` to specify the author of the code.
 - Use `@deprecated` to mark a member as deprecated and provide an alternative.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-copilot]] — Category: skills-copilot
+- [[MOC - Agents]] — Copilot agents
+

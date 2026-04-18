@@ -3,6 +3,10 @@ name: sharp-edges
 description: sharp-edges
 risk: unknown
 source: community
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 ---
@@ -292,3 +296,9 @@ Before concluding analysis:
 - [ ] Verified error paths don't bypass security
 - [ ] Checked configuration validation
 - [ ] Constructor params validated (not just defaulted) - see config-patterns.md
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

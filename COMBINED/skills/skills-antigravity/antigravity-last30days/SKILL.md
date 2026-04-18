@@ -4,6 +4,10 @@ description: "Research a topic from the last 30 days on Reddit + X + Web, become
 risk: unknown
 source: community
 date_added: "2026-02-27"
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 # last30days: Research Any Topic from the Last 30 Days
@@ -425,3 +429,9 @@ Want another prompt? Just tell me what you're creating next.
 
 ## When to Use
 This skill is applicable to execute the workflow or actions described in the overview.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

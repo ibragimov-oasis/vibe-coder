@@ -8,7 +8,9 @@ dependencies: [flash-attn, torch, transformers]
 metadata:
   hermes:
     tags: [Optimization, Flash Attention, Attention Optimization, Memory Efficiency, Speed Optimization, Long Context, PyTorch, SDPA, H100, FP8, Transformers]
-
+  - domain/skills
+  - artifact/skill
+  - source/skills-hermes
 ---
 
 # Flash Attention - Fast Memory-Efficient Attention
@@ -366,5 +368,8 @@ Flash Attention uses float16/bfloat16 for speed. Float32 not supported.
 - GitHub: https://github.com/Dao-AILab/flash-attention
 - PyTorch docs: https://pytorch.org/docs/stable/generated/torch.nn.functional.scaled_dot_product_attention.html
 
+## 🔗 Связи
 
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-hermes]] — Category: skills-hermes
 

@@ -5,6 +5,10 @@ category: planning
 risk: safe
 source: community
 date_added: "2026-03-10"
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 # Blueprint — Construction Plan Generator
@@ -68,3 +72,9 @@ git clone https://github.com/antbotlab/blueprint.git ~/COMBINED/workspace-config
 - [GitHub Repository](https://github.com/antbotlab/blueprint)
 - [Examples: small plan](https://github.com/antbotlab/blueprint/blob/main/examples/small-plan.md)
 - [Examples: large plan](https://github.com/antbotlab/blueprint/blob/main/examples/large-plan.md)
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

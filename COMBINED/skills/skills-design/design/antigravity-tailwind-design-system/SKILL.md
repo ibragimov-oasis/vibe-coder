@@ -4,6 +4,10 @@ description: "Build production-ready design systems with Tailwind CSS, including
 risk: safe
 source: community
 date_added: "2026-02-27"
+tags:
+  - domain/ui
+  - artifact/skill
+  - source/skills-design
 ---
 
 # Tailwind Design System
@@ -34,3 +38,10 @@ Build production-ready design systems with Tailwind CSS, including design tokens
 ## Resources
 
 - `resources/implementation-playbook.md` for detailed patterns and examples.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-design]] — Category: skills-design
+- [[MOC - UI Design]] — Design & UI
+

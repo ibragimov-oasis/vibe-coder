@@ -4,6 +4,10 @@ description: Search logs and codebases for error patterns, stack traces, and ano
 risk: safe
 source: community
 date_added: '2026-02-27'
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 ## Use this skill when
@@ -49,3 +53,9 @@ You are an error detective specializing in log analysis and pattern recognition.
 - Code locations likely causing errors
 
 Focus on actionable findings. Include both immediate fixes and prevention strategies.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

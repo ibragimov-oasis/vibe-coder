@@ -2,6 +2,10 @@
 name: frontend-patterns
 description: React、Next.js、状态管理、性能优化和UI最佳实践的前端开发模式。
 origin: ECC
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-everything-cc
 ---
 
 # 前端开发模式
@@ -640,3 +644,9 @@ export function Modal({ isOpen, onClose, children }: ModalProps) {
 ```
 
 **记住**：现代前端模式能实现可维护、高性能的用户界面。选择适合你项目复杂度的模式。
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

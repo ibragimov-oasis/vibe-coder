@@ -2,6 +2,10 @@
 name: autopilot
 description: Full autonomous execution from idea to working code
 level: 4
+tags:
+  - domain/orchestration
+  - artifact/skill
+  - source/skills-omc
 ---
 
 <Purpose>
@@ -187,3 +191,10 @@ When autopilot detects a ralplan consensus plan (`.omc/plans/ralplan-*.md` or `.
 
 Autopilot starts directly at Phase 2 (Execution via Ralph + Ultrawork).
 </Advanced>
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-omc]] — Category: skills-omc
+- [[MOC - Orchestration]] — Multi-agent orchestration
+

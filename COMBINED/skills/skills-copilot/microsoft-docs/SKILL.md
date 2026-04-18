@@ -1,6 +1,10 @@
 ---
 name: microsoft-docs
 description: 'Query official Microsoft documentation to find concepts, tutorials, and code examples across Azure, .NET, Agent Framework, Aspire, VS Code, GitHub, and more. Uses Microsoft Learn MCP as the default, with Context7 and Aspire MCP for content that lives outside learn.microsoft.com.'
+tags:
+  - domain/agents
+  - artifact/skill
+  - source/skills-copilot
 ---
 
 # Microsoft Docs
@@ -132,3 +136,10 @@ Include context:
 - **Version** when relevant (`.NET 8`, `Aspire 13`, `VS Code 1.96`)
 - **Task intent** (`quickstart`, `tutorial`, `overview`, `limits`, `API reference`)
 - **Language** for polyglot docs (`Python`, `TypeScript`, `C#`)
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-copilot]] — Category: skills-copilot
+- [[MOC - Agents]] — Copilot agents
+

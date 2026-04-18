@@ -2,6 +2,10 @@
 name: laravel-tdd
 description: 使用 PHPUnit 和 Pest、工厂、数据库测试、模拟以及覆盖率目标进行 Laravel 的测试驱动开发。
 origin: ECC
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-everything-cc
 ---
 
 # Laravel TDD 工作流
@@ -281,3 +285,9 @@ final class DashboardInertiaTest extends TestCase
 ```
 
 优先使用 `assertInertia` 而非原始 JSON 断言，以保持测试与 Inertia 响应一致。
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

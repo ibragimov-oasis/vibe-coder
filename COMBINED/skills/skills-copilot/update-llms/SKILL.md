@@ -1,6 +1,10 @@
 ---
 name: update-llms
 description: 'Update the llms.txt file in the root folder to reflect changes in documentation or specifications following the llms.txt specification at https://llmstxt.org/'
+tags:
+  - domain/agents
+  - artifact/skill
+  - source/skills-copilot
 ---
 
 # Update LLMs.txt File
@@ -214,3 +218,10 @@ The updated `llms.txt` file should:
 6. Maintain logical organization for easy LLM consumption
 7. Use clear, unambiguous language throughout
 8. Continue to serve both human and machine readers effectively
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-copilot]] — Category: skills-copilot
+- [[MOC - Agents]] — Copilot agents
+

@@ -4,6 +4,10 @@ description: >
   Neural pattern training with SONA (Self-Optimizing Neural Architecture), MoE (Mixture of Experts), and EWC++ for knowledge consolidation.
   Use when: pattern learning, model optimization, knowledge transfer, adaptive routing.
   Skip when: simple tasks, no learning required, one-off operations.
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-ruflo
 ---
 
 # Neural Training Skill
@@ -66,3 +70,9 @@ npx claude-flow neural optimize --target latency
 2. Store successful patterns after completion
 3. Consolidate regularly to prevent forgetting
 4. Route based on task complexity
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-ruflo]] — Category: skills-ruflo
+

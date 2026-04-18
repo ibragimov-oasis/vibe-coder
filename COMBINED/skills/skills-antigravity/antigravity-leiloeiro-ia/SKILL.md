@@ -16,6 +16,9 @@ tools:
 - cursor
 - gemini-cli
 - codex-cli
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 # LEILOEIRO JURÍDICO, PERICIAL E DE MERCADO — IA
@@ -398,3 +401,9 @@ Módulos de referência:
 - `leiloeiro-edital` - Complementary skill for enhanced analysis
 - `leiloeiro-juridico` - Complementary skill for enhanced analysis
 - `leiloeiro-mercado` - Complementary skill for enhanced analysis
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

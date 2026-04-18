@@ -16,6 +16,9 @@ tools:
 - cursor
 - gemini-cli
 - codex-cli
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 # Skill: Instagram Integration
@@ -412,3 +415,9 @@ Consultar quando precisar de detalhes:
 - `social-orchestrator` - Complementary skill for enhanced analysis
 - `telegram` - Complementary skill for enhanced analysis
 - `whatsapp-cloud-api` - Complementary skill for enhanced analysis
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

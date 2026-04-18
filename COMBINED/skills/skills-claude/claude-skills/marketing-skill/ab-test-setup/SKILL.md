@@ -7,6 +7,10 @@ metadata:
   author: Alireza Rezvani
   category: marketing
   updated: 2026-03-06
+tags:
+  - domain/agents
+  - artifact/skill
+  - source/skills-claude
 ---
 
 # A/B Test Setup
@@ -300,3 +304,10 @@ All outputs should meet the quality standard: clear hypothesis, pre-registered m
 - **campaign-analytics** — USE after tests conclude to fold results into broader campaign attribution; NOT during the test itself.
 - **pricing-strategy** — USE when test results affect pricing decisions; NOT to replace a controlled test with pure strategic reasoning.
 - **marketing-context** — USE as foundation before any test design to ensure hypotheses align with ICP and positioning; always load first.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+- [[MOC - Agents]] — Claude agents
+

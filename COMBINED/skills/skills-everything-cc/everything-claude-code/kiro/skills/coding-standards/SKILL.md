@@ -4,6 +4,10 @@ description: >
   Universal coding standards, best practices, and patterns for TypeScript, JavaScript, React, and Node.js development.
 metadata:
   origin: ECC
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-everything-cc
 ---
 
 # Coding Standards & Best Practices
@@ -530,3 +534,9 @@ setTimeout(callback, DEBOUNCE_DELAY_MS)
 ```
 
 **Remember**: Code quality is not negotiable. Clear, maintainable code enables rapid development and confident refactoring.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

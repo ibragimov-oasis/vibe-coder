@@ -8,6 +8,9 @@ date_added: "2026-03-15"
 author: viliawang-pm
 tags: [prompt-engineering, rag, security, evaluation, ai-engineering, llm]
 tools: [claude, cursor, gemini, copilot]
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 # AI Engineering Toolkit
@@ -105,3 +108,9 @@ cp -r ai-engineering-toolkit/skills/* ~/COMBINED/workspace-config/claude/skills/
 
 **Repository**: [github.com/viliawang-pm/ai-engineering-toolkit](https://github.com/viliawang-pm/ai-engineering-toolkit)
 **License**: MIT
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

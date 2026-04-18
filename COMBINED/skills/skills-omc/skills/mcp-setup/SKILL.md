@@ -2,6 +2,10 @@
 name: mcp-setup
 description: Configure popular MCP servers for enhanced agent capabilities
 level: 2
+tags:
+  - domain/orchestration
+  - artifact/skill
+  - source/skills-omc
 ---
 
 # MCP Setup
@@ -184,3 +188,10 @@ claude mcp add --transport http --header "Authorization: Bearer <token>" <server
 ### Removing or Updating a Server
 - Remove: `claude mcp remove <server-name>`
 - Update: Remove the old server, then add it again with new configuration
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-omc]] — Category: skills-omc
+- [[MOC - Orchestration]] — Multi-agent orchestration
+

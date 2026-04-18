@@ -4,6 +4,10 @@ description: "A comprehensive collection of battle-tested prompts inspired by [a
 risk: unknown
 source: community
 date_added: "2026-02-27"
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 # 📝 Prompt Library
@@ -323,3 +327,9 @@ When crafting prompts, ensure:
 ---
 
 > 💡 **Tip**: The best prompts are specific, provide context, and include examples of desired output.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

@@ -1,6 +1,10 @@
 ---
 name: semantic-kernel
 description: 'Create, update, refactor, explain, or review Semantic Kernel solutions using shared guidance plus language-specific references for .NET and Python.'
+tags:
+  - domain/agents
+  - artifact/skill
+  - source/skills-copilot
 ---
 
 # Semantic Kernel
@@ -54,3 +58,10 @@ When working with Semantic Kernel in any language:
 - Recommendations match the target language.
 - Package names, repository paths, and sample locations match the selected ecosystem.
 - Guidance reflects current Semantic Kernel documentation rather than stale assumptions.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-copilot]] — Category: skills-copilot
+- [[MOC - Agents]] — Copilot agents
+

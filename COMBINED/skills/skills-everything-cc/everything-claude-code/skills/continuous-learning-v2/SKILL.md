@@ -3,6 +3,10 @@ name: continuous-learning-v2
 description: Instinct-based learning system that observes sessions via hooks, creates atomic instincts with confidence scoring, and evolves them into skills/commands/agents. v2.1 adds project-scoped instincts to prevent cross-project contamination.
 origin: ECC
 version: 2.1.0
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-everything-cc
 ---
 
 # Continuous Learning v2.1 - Instinct
@@ -363,3 +367,9 @@ v2.1 is fully compatible with v2.0 and v1:
 ---
 
 *Instinct-based learning: teaching Claude your patterns, one project at a time.*
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

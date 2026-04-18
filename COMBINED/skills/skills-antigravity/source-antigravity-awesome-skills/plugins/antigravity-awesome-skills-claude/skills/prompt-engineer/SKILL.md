@@ -6,6 +6,9 @@ risk: safe
 source: community
 tags: "[prompt-engineering, optimization, frameworks, ai-enhancement]"
 date_added: "2026-02-27"
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 ## Purpose
@@ -246,3 +249,9 @@ This skill is **platform-agnostic** and works in any terminal context where GitH
 - External files or templates
 
 The skill is entirely self-contained, operating purely on user input and framework knowledge.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

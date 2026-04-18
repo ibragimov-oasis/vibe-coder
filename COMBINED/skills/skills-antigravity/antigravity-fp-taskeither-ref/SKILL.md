@@ -5,6 +5,9 @@ risk: unknown
 source: community
 version: 1.0.0
 tags: [fp-ts, taskeither, async, promise, error-handling, quick-reference]
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 # TaskEither Quick Reference
@@ -103,3 +106,9 @@ const getUser = (id: string) => pipe(
 ```
 
 Use TaskEither when you need **typed errors** for async operations.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

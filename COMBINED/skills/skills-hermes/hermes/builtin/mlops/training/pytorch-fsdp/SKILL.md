@@ -8,7 +8,9 @@ dependencies: [torch>=2.0, transformers]
 metadata:
   hermes:
     tags: [Distributed Training, PyTorch, FSDP, Data Parallel, Sharding, Mixed Precision, CPU Offloading, FSDP2, Large-Scale Training]
-
+  - domain/skills
+  - artifact/skill
+  - source/skills-hermes
 ---
 
 # Pytorch-Fsdp Skill
@@ -126,4 +128,8 @@ To refresh this skill with updated documentation:
 1. Re-run the scraper with the same configuration
 2. The skill will be rebuilt with the latest information
 
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-hermes]] — Category: skills-hermes
 

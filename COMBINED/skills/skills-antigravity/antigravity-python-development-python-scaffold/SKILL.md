@@ -4,6 +4,10 @@ description: "You are a Python project architecture expert specializing in scaff
 risk: critical
 source: community
 date_added: "2026-02-27"
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 # Python Project Scaffolding
@@ -332,3 +336,9 @@ clean:
 6. **Development Tools**: Makefile, .env.example, .gitignore
 
 Focus on creating production-ready Python projects with modern tooling, type safety, and comprehensive testing setup.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

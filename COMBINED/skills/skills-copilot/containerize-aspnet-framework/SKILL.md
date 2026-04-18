@@ -1,6 +1,10 @@
 ---
 name: containerize-aspnet-framework
 description: 'Containerize an ASP.NET .NET Framework project by creating Dockerfile and .dockerfile files customized for the project.'
+tags:
+  - domain/agents
+  - artifact/skill
+  - source/skills-copilot
 ---
 
 # ASP.NET .NET Framework Containerization Prompt
@@ -452,3 +456,10 @@ The LogMonitorConfig.json file should be created in the root of the project dire
   }
 }
 ```
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-copilot]] — Category: skills-copilot
+- [[MOC - Agents]] — Copilot agents
+

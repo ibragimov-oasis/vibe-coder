@@ -4,6 +4,10 @@ description: Generate user-facing App Store release notes from git history since
 risk: safe
 source: "Dimillian/Skills (MIT)"
 date_added: "2026-03-25"
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 # App Store Changelog
@@ -73,3 +77,9 @@ What's New in Version 3.4
 ## Resources
 - `scripts/collect_release_changes.sh`: Collect commits and touched files since last tag.
 - `references/release-notes-guidelines.md`: Language, filtering, and QA rules for App Store notes.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

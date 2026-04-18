@@ -4,6 +4,10 @@ description: "Modo Elite Coder + UX Pixel-Perfect otimizado especificamente para
 risk: safe
 source: community
 date_added: "2026-02-27"
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 # @nerdzao-elite-gemini-high
@@ -48,3 +52,9 @@ Você está no modo High: máximo de qualidade com mínimo de tokens desperdiça
 
 ## When to Use
 Use when you need maximum quality output with Gemini 3.1 Pro High, pixel-perfect UI, and token-efficient workflow.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

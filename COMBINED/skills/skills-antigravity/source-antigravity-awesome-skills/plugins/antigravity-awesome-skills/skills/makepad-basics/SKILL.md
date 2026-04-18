@@ -7,6 +7,10 @@ description: |
   makepad 入门, 创建 makepad 应用, makepad 教程, makepad 项目结构
 risk: unknown
 source: "https://github.com/makepad/makepad"
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 # Makepad Basics Skill
@@ -152,3 +156,9 @@ let text = input.text();
 2. Makepad is GPU-first - all rendering is shader-based
 3. Cross-platform: same code runs on Android, iOS, Linux, macOS, Windows, Web
 4. Recommend UI Zoo example for widget exploration
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

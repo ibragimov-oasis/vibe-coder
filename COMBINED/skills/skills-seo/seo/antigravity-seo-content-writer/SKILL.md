@@ -4,6 +4,10 @@ description: Writes SEO-optimized content based on provided keywords and topic b
 risk: unknown
 source: community
 date_added: '2026-02-27'
+tags:
+  - domain/seo
+  - artifact/skill
+  - source/skills-seo
 ---
 
 ## Use this skill when
@@ -93,3 +97,9 @@ You are an SEO content writer creating comprehensive, engaging content optimized
 - Practical, actionable advice
 
 Focus on value-first content. Write for humans while optimizing for search engines.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-seo]] — Category: skills-seo
+

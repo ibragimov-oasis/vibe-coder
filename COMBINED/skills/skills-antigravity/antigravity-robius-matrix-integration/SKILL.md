@@ -7,6 +7,10 @@ description: |
   Matrix 集成, 聊天客户端
 risk: unknown
 source: community
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 # Robius Matrix SDK Integration Skill
@@ -428,3 +432,9 @@ async fn build_client(
   - Tool approval flow
   - MolyClient for local server
   - BotContext for multi-provider support
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

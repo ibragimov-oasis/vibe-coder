@@ -3,6 +3,10 @@ name: project-session-manager
 description: Worktree-first dev environment manager for issues, PRs, and features with optional tmux sessions
 aliases: [psm]
 level: 2
+tags:
+  - domain/orchestration
+  - artifact/skill
+  - source/skills-omc
 ---
 
 # Project Session Manager (PSM) Skill
@@ -563,3 +567,10 @@ if [[ ! -f ~/.psm/sessions.json ]]; then
   echo '{"version":1,"sessions":{},"stats":{"total_created":0,"total_cleaned":0}}' > ~/.psm/sessions.json
 fi
 ```
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-omc]] — Category: skills-omc
+- [[MOC - Orchestration]] — Multi-agent orchestration
+

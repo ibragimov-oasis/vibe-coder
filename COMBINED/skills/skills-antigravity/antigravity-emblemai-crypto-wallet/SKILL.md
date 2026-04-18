@@ -4,6 +4,10 @@ description: "Crypto wallet management across 7 blockchains via EmblemAI Agent H
 risk: critical
 source: "EmblemCompany/Agent-skills (MIT)"
 date_added: "2026-03-06"
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 # EmblemAI Crypto Wallet
@@ -70,3 +74,9 @@ Authentication requires an API key passed as `x-api-key` header.
 - [Full skill with references](https://github.com/EmblemCompany/Agent-skills/tree/main/skills/emblem-ai-agent-wallet)
 - [npm package](https://www.npmjs.com/package/@emblemvault/agentwallet)
 - [EmblemAI](https://agenthustle.ai)
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

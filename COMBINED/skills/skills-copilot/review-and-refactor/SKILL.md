@@ -1,6 +1,10 @@
 ---
 name: review-and-refactor
 description: 'Review and refactor code in your project according to defined instructions'
+tags:
+  - domain/agents
+  - artifact/skill
+  - source/skills-copilot
 ---
 
 ## Role
@@ -13,3 +17,10 @@ You're a senior expert software engineer with extensive experience in maintainin
 2. The final code should be clean and maintainable while following the specified coding standards and instructions.
 3. Do not split up the code, keep the existing files intact.
 4. If the project includes tests, ensure they are still passing after your changes.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-copilot]] — Category: skills-copilot
+- [[MOC - Agents]] — Copilot agents
+

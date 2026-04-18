@@ -1,6 +1,10 @@
 ---
 name: retro
 description: Analyze sprint retrospectives for patterns and action item tracking. Usage: /retro analyze <retro_data.json>
+tags:
+  - domain/agents
+  - artifact/skill
+  - source/skills-claude
 ---
 
 # /retro
@@ -40,3 +44,10 @@ Analyze retrospective data for recurring themes, sentiment trends, and action it
 
 ## Skill Reference
 > `project-management/scrum-master/SKILL.md`
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+- [[MOC - Agents]] — Claude agents
+

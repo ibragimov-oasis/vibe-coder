@@ -1,6 +1,10 @@
 ---
 name: swiftui-patterns
 description: SwiftUI architecture patterns, state management with @Observable, view composition, navigation, performance optimization, and modern iOS/macOS UI best practices.
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-everything-cc
 ---
 
 # SwiftUI Patterns
@@ -257,3 +261,9 @@ Use `#Preview` macro with inline mock data for fast iteration:
 
 See skill: `swift-actor-persistence` for actor-based persistence patterns.
 See skill: `swift-protocol-di-testing` for protocol-based DI and testing with Swift Testing.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

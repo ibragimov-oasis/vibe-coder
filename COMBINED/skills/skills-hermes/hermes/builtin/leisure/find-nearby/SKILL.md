@@ -6,6 +6,9 @@ metadata:
   hermes:
     tags: [location, maps, nearby, places, restaurants, local]
     related_skills: []
+  - domain/skills
+  - artifact/skill
+  - source/skills-hermes
 ---
 
 # Find Nearby — Local Place Discovery
@@ -67,3 +70,9 @@ python3 SKILL_DIR/scripts/find_nearby.py --near "90210" --type pharmacy --json
 - For "open now" requests: check the `hours` field in results, cross-reference with `web_search` for accuracy since OSM hours aren't always complete
 - Zip codes alone can be ambiguous globally — prompt the user for country/state if results look wrong
 - The script uses OpenStreetMap data which is community-maintained; coverage varies by region
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-hermes]] — Category: skills-hermes
+

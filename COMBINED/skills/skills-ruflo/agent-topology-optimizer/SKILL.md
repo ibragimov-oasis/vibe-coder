@@ -1,6 +1,10 @@
 ---
 name: agent-topology-optimizer
 description: Agent skill for topology-optimizer - invoke with $agent-topology-optimizer
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-ruflo
 ---
 
 ---
@@ -811,3 +815,9 @@ const topologyMetrics = {
 ```
 
 This Topology Optimizer agent provides sophisticated swarm topology optimization with AI-powered decision making, advanced algorithms, and comprehensive performance monitoring for optimal swarm coordination.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-ruflo]] — Category: skills-ruflo
+

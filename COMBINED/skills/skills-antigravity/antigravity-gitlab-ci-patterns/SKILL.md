@@ -4,6 +4,10 @@ description: "Comprehensive GitLab CI/CD pipeline patterns for automated testing
 risk: critical
 source: community
 date_added: "2026-02-27"
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 # GitLab CI Patterns
@@ -284,3 +288,9 @@ trigger-child:
 - `github-actions-templates` - For GitHub Actions
 - `deployment-pipeline-design` - For architecture
 - `secrets-management` - For secrets handling
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

@@ -12,6 +12,10 @@ triggers:
   - audit finding
   - external audit prep
   - audit schedule
+tags:
+  - domain/agents
+  - artifact/skill
+  - source/skills-claude
 ---
 
 # QMS Audit Expert
@@ -321,3 +325,10 @@ Track audit program effectiveness:
 | Repeat findings | <10% | Same finding in consecutive audits |
 | CAPA effectiveness | >90% | Verified effective at follow-up |
 | Auditor utilization | 4 days/month | Audit days per qualified auditor |
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+- [[MOC - Agents]] — Claude agents
+

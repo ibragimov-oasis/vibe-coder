@@ -4,6 +4,10 @@ description: "Comprehensive checklist for conducting thorough code reviews cover
 risk: unknown
 source: community
 date_added: "2026-02-27"
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 # Code Review Checklist
@@ -445,3 +449,9 @@ This is great because [explain why]
 ---
 
 **Pro Tip:** Use a checklist template for every review to ensure consistency and thoroughness. Customize it for your team's specific needs!
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

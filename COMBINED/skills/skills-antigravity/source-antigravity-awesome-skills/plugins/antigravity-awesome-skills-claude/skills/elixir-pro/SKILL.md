@@ -4,6 +4,10 @@ description: Write idiomatic Elixir code with OTP patterns, supervision trees, a
 risk: unknown
 source: community
 date_added: '2026-02-27'
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 ## Use this skill when
@@ -55,3 +59,9 @@ You are an Elixir expert specializing in concurrent, fault-tolerant, and distrib
 - Telemetry instrumentation for observability
 
 Follow Elixir conventions. Design for fault tolerance and horizontal scaling.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

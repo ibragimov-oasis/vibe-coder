@@ -6,6 +6,10 @@ metadata:
     skill-author: K-Dense Inc.
 risk: unknown
 source: "https://github.com/sympy/sympy"
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 # SymPy - Symbolic Mathematics in Python
@@ -497,3 +501,9 @@ f(np.array([1, 2, 3]))
 - Tutorial: https://docs.sympy.org/latest/tutorials/intro-tutorial/index.html
 - API Reference: https://docs.sympy.org/latest/reference/index.html
 - Examples: https://github.com/sympy/sympy/tree/master/examples
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

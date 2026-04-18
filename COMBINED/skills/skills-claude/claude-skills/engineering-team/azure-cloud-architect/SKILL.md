@@ -1,6 +1,10 @@
 ---
 name: "azure-cloud-architect"
 description: "Design Azure architectures for startups and enterprises. Use when asked to design Azure infrastructure, create Bicep/ARM templates, optimize Azure costs, set up Azure DevOps pipelines, or migrate to Azure. Covers AKS, App Service, Azure Functions, Cosmos DB, and cost optimization."
+tags:
+  - domain/agents
+  - artifact/skill
+  - source/skills-claude
 ---
 
 # Azure Cloud Architect
@@ -461,3 +465,10 @@ Provide these details for architecture design:
 | `references/architecture_patterns.md` | 5 patterns: web app, microservices/AKS, serverless, data pipeline, multi-region |
 | `references/service_selection.md` | Decision matrices for compute, database, storage, messaging, networking |
 | `references/best_practices.md` | Naming conventions, tagging, RBAC, network security, monitoring, DR |
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+- [[MOC - Agents]] — Claude agents
+

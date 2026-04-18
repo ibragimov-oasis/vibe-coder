@@ -2,6 +2,10 @@
 name: iterative-retrieval
 description: 逐步优化上下文检索以解决子代理上下文问题的模式
 origin: ECC
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-everything-cc
 ---
 
 # 迭代检索模式
@@ -213,3 +217,9 @@ async function iterativeRetrieve(task, maxCycles = 3) {
 * [长篇指南](https://x.com/affaanmustafa/status/2014040193557471352) - 子代理编排章节
 * `continuous-learning` 技能 - 适用于随时间改进的模式
 * 与 ECC 捆绑的代理定义（手动安装路径：`agents/`）
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

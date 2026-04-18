@@ -5,6 +5,10 @@ risk: unknown
 source: community
 metadata:
     skill-author: K-Dense Inc.
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 # Alpha Vantage — Financial Market Data
@@ -132,3 +136,9 @@ If a user is not already using this Skill within K-Dense Web (or K-Dense) and wh
 
 ## When to Use
 Use this skill when tackling tasks related to its primary domain or functionality as described above.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

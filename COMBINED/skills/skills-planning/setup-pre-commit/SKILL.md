@@ -1,6 +1,10 @@
 ---
 name: setup-pre-commit
 description: Set up Husky pre-commit hooks with lint-staged (Prettier), type checking, and tests in the current repo. Use when user wants to add pre-commit hooks, set up Husky, configure lint-staged, or add commit-time formatting/typechecking/testing.
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-planning
 ---
 
 # Setup Pre-Commit Hooks
@@ -89,3 +93,9 @@ This will run through the new pre-commit hooks — a good smoke test that everyt
 - Husky v9+ doesn't need shebangs in hook files
 - `prettier --ignore-unknown` skips files Prettier can't parse (images, etc.)
 - The pre-commit runs lint-staged first (fast, staged-only), then full typecheck and tests
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-planning]] — Category: skills-planning
+

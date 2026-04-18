@@ -4,6 +4,10 @@ description: Azure Monitor Ingestion SDK for Java. Send custom logs to Azure Mon
 risk: unknown
 source: community
 date_added: '2026-02-27'
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 # Azure Monitor Ingestion SDK for Java
@@ -231,3 +235,9 @@ String query = "MyTable_CL | where TimeGenerated > ago(1h) | limit 10";
 
 ## When to Use
 This skill is applicable to execute the workflow or actions described in the overview.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

@@ -6,6 +6,10 @@ category: andruia
 risk: safe
 source: personal
 date_added: "2026-02-25"
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 # 🔨 Andru.ia Skill-Smith (The Forge)
@@ -42,3 +46,9 @@ Generar el código para los siguientes archivos:
 ## ⚠️ Reglas de Oro
 - **Prefijos Numéricos:** Asignar un número correlativo a la carpeta (ej. 11, 12, 13) para mantener el orden.
 - **Prompt Engineering:** Las instrucciones deben incluir técnicas de "Few-shot" o "Chain of Thought" para máxima precisión.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

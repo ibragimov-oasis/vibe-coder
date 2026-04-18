@@ -1,6 +1,10 @@
 ---
 name: edit-article
 description: Edit and improve articles by restructuring sections, improving clarity, and tightening prose. Use when user wants to edit, revise, or improve an article draft.
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-development
 ---
 
 1. First, divide the article into sections based on its headings. Think about the main points you want to make during those sections.
@@ -12,3 +16,9 @@ Confirm the sections with the user.
 2. For each section:
 
 2a. Rewrite the section to improve clarity, coherence, and flow. Use maximum 240 characters per paragraph.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-development]] — Category: skills-development
+

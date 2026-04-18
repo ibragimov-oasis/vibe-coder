@@ -17,6 +17,9 @@ tools:
 - cursor
 - gemini-cli
 - codex-cli
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 # PRODUCT DESIGN — Nivel Apple
@@ -356,3 +359,9 @@ Sexta:   Testar — 5 usuarios, insights, iterar
 - `growth-engine` - Complementary skill for enhanced analysis
 - `monetization` - Complementary skill for enhanced analysis
 - `product-inventor` - Complementary skill for enhanced analysis
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

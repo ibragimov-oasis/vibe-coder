@@ -7,6 +7,10 @@ description: |
   makepad 字体, makepad 文字, makepad 排版, makepad 字形
 risk: safe
 source: community
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 # Makepad Font Skill
@@ -227,3 +231,9 @@ pub struct rasterizer::Settings {
 
 ## When to Use
 Use this skill when tackling tasks related to its primary domain or functionality as described above.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

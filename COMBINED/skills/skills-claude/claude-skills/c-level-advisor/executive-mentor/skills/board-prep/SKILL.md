@@ -1,6 +1,10 @@
 ---
 name: "board-prep"
 description: "/em -board-prep — Board Meeting Preparation"
+tags:
+  - domain/agents
+  - artifact/skill
+  - source/skills-claude
 ---
 
 # /em:board-prep — Board Meeting Preparation
@@ -154,3 +158,10 @@ Within 24 hours:
 - Schedule follow-up with any director who seemed unsatisfied
 
 The next board prep starts now.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+- [[MOC - Agents]] — Claude agents
+

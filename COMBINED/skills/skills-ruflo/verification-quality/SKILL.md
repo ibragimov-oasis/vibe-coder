@@ -4,6 +4,9 @@ description: "Comprehensive truth scoring, code quality verification, and automa
 version: "2.0.0"
 category: "quality-assurance"
 tags: ["verification", "truth-scoring", "quality", "rollback", "metrics", "ci-cd"]
+  - domain/skills
+  - artifact/skill
+  - source/skills-ruflo
 ---
 
 # Verification & Quality Assurance Skill
@@ -647,3 +650,9 @@ Verification commands return standard exit codes:
 - Verification Criteria: See `$docs$verification-criteria.md`
 - Integration Examples: See `$examples$verification/`
 - API Reference: See `$docs$api$verification.md`
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-ruflo]] — Category: skills-ruflo
+

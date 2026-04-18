@@ -4,6 +4,10 @@ description: "Comprehensive guide for implementing robust testing strategies in 
 risk: safe
 source: community
 date_added: "2026-02-27"
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 # JavaScript Testing Patterns
@@ -36,3 +40,9 @@ Comprehensive guide for implementing robust testing strategies in JavaScript/Typ
 ## Resources
 
 - `resources/implementation-playbook.md` for detailed patterns and examples.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

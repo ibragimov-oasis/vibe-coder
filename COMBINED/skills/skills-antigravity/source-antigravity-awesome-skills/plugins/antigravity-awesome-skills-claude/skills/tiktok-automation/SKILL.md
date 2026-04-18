@@ -4,6 +4,10 @@ description: "Automate TikTok tasks via Rube MCP (Composio): upload/publish vide
 risk: critical
 source: community
 date_added: "2026-02-27"
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 # TikTok Automation via Rube MCP
@@ -180,3 +184,9 @@ Automate TikTok content creation and profile operations through Composio's TikTo
 
 ## When to Use
 This skill is applicable to execute the workflow or actions described in the overview.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

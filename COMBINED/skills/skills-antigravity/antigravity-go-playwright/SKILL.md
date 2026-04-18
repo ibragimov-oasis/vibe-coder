@@ -4,6 +4,10 @@ description: "Expert capability for robust, stealthy, and efficient browser auto
 risk: safe
 source: "https://github.com/playwright-community/playwright-go"
 date_added: "2026-02-27"
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 # Playwright Go Automation Expert
@@ -74,3 +78,9 @@ To bypass anti-bot systems (Cloudflare, Akamai), the generated code must **imita
  - Is it a new user identity? -> `NewContext`, apply new Proxy, rotate `User-Agent`.
  - Is the action critical? -> Wrap in `SafeAction` with Zap logging.
  - Is the target guarded (Cloudflare/Akamai)? -> Enable `HumanType`, `BezierMouse`, and Stealth Scripts.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

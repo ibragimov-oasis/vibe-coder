@@ -10,6 +10,10 @@ description: 'Validates Conductor project artifacts for completeness,
 risk: safe
 source: community
 date_added: '2026-02-27'
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 # Check if conductor directory exists
@@ -63,3 +67,9 @@ ls conductor/index.md conductor/product.md conductor/tech-stack.md conductor/wor
 <type>_<name>_<YYYYMMDD>
 Example: feature_user_auth_20250115
 ```
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

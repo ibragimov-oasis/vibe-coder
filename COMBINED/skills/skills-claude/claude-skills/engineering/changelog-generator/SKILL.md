@@ -1,6 +1,10 @@
 ---
 name: "changelog-generator"
 description: "Changelog Generator"
+tags:
+  - domain/agents
+  - artifact/skill
+  - source/skills-claude
 ---
 
 # Changelog Generator
@@ -163,3 +167,10 @@ Use this release flow for predictability:
 - If no valid conventional commits found: fail early, do not generate misleading empty notes.
 - If git range invalid: surface explicit range in error output.
 - If write target missing: create safe changelog header scaffolding.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+- [[MOC - Agents]] — Claude agents
+

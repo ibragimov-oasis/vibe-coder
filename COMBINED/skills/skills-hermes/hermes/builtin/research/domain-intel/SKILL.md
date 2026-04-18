@@ -1,6 +1,10 @@
 ---
 name: domain-intel
 description: Passive domain reconnaissance using Python stdlib. Subdomain discovery, SSL certificate inspection, WHOIS lookups, DNS records, domain availability checks, and bulk multi-domain analysis. No API keys required.
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-hermes
 ---
 
 # Domain Intelligence — Passive OSINT
@@ -94,3 +98,9 @@ All queries are **passive** — no port scanning, no vulnerability testing:
 ---
 
 *Contributed by [@FurkanL0](https://github.com/FurkanL0)*
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-hermes]] — Category: skills-hermes
+

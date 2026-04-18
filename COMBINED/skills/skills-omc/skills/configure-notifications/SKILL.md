@@ -14,6 +14,10 @@ triggers:
   - "setup slack"
   - "slack webhook"
 level: 2
+tags:
+  - domain/orchestration
+  - artifact/skill
+  - source/skills-omc
 ---
 
 # Configure Notifications
@@ -1212,3 +1216,10 @@ Ask-user-question only:
 - Template variables: `src/notifications/template-variables.ts`
 - Validation: `src/notifications/validation.ts`
 - Presets: `src/notifications/presets.ts`
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-omc]] — Category: skills-omc
+- [[MOC - Orchestration]] — Multi-agent orchestration
+

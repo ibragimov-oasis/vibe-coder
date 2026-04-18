@@ -1,6 +1,10 @@
 ---
 name: snowflake-semanticview
 description: Create, alter, and validate Snowflake semantic views using Snowflake CLI (snow). Use when asked to build or troubleshoot semantic views/semantic layer definitions with CREATE/ALTER SEMANTIC VIEW, to validate semantic-view DDL against Snowflake via CLI, or to guide Snowflake CLI installation and connection setup.
+tags:
+  - domain/agents
+  - artifact/skill
+  - source/skills-copilot
 ---
 
 # Snowflake Semantic Views
@@ -81,3 +85,10 @@ snow sql --help
 - Treat installation and connection setup as one-time steps, but confirm they are done before the first validation.
 - Keep the final semantic view definition identical to the validated temporary definition except for the name.
 - Do not omit synonyms or comments; consider them required for completeness even if optional in syntax.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-copilot]] — Category: skills-copilot
+- [[MOC - Agents]] — Copilot agents
+

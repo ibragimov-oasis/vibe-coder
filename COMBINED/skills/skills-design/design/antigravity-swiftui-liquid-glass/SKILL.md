@@ -4,6 +4,10 @@ description: Implement or review SwiftUI Liquid Glass APIs with correct fallback
 risk: safe
 source: "Dimillian/Skills (MIT)"
 date_added: "2026-03-25"
+tags:
+  - domain/ui
+  - artifact/skill
+  - source/skills-design
 ---
 
 # SwiftUI Liquid Glass
@@ -96,3 +100,10 @@ Button("Confirm") { }
 ## Resources
 - Reference guide: `references/liquid-glass.md`
 - Prefer Apple docs for up-to-date API details.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-design]] — Category: skills-design
+- [[MOC - UI Design]] — Design & UI
+

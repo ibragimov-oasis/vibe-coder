@@ -1,6 +1,10 @@
 ---
 name: "AgentDB Learning Plugins"
 description: "Create and train AI learning plugins with AgentDB's 9 reinforcement learning algorithms. Includes Decision Transformer, Q-Learning, SARSA, Actor-Critic, and more. Use when building self-learning agents, implementing RL, or optimizing agent behavior through experience."
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-ruflo
 ---
 
 # AgentDB Learning Plugins
@@ -543,3 +547,9 @@ await adapter.retrieveWithReasoning(queryEmbedding, {
 **Category**: Machine Learning / Reinforcement Learning
 **Difficulty**: Intermediate to Advanced
 **Estimated Time**: 30-60 minutes
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-ruflo]] — Category: skills-ruflo
+

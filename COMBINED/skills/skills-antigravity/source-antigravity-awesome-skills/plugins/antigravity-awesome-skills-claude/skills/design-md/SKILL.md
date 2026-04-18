@@ -4,6 +4,10 @@ description: "Analyze Stitch projects and synthesize a semantic design system in
 risk: safe
 source: "https://github.com/google-labs-code/stitch-skills/tree/main/skills/design-md"
 date_added: "2026-02-27"
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 # Stitch DESIGN.md Skill
@@ -177,3 +181,9 @@ To use this skill for the Furniture Collection project:
 - ❌ Forgetting to explain functional roles of design elements
 - ❌ Being too vague in atmosphere descriptions
 - ❌ Ignoring subtle design details like shadows or spacing patterns
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

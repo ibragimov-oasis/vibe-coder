@@ -1,6 +1,10 @@
 ---
 name: agent-architecture
 description: Agent skill for architecture - invoke with $agent-architecture
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-ruflo
 ---
 
 ---
@@ -475,3 +479,9 @@ scalability_patterns:
 6. **Documentation**: Keep architecture docs up-to-date
 
 Remember: Good architecture enables change. Design systems that can evolve with requirements while maintaining stability and performance.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-ruflo]] — Category: skills-ruflo
+

@@ -4,6 +4,10 @@ description: Expert database optimizer specializing in modern performance tuning
 risk: unknown
 source: community
 date_added: '2026-02-27'
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 ## Use this skill when
@@ -161,3 +165,9 @@ Expert database optimizer with comprehensive knowledge of modern database perfor
 - "Design zero-downtime database migration strategy for large production table"
 - "Create performance monitoring and alerting system for database optimization"
 - "Implement database sharding strategy for horizontally scaling write-heavy workload"
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

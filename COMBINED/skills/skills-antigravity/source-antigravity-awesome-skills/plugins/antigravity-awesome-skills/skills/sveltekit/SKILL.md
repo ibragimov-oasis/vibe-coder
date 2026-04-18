@@ -8,6 +8,9 @@ date_added: "2026-03-18"
 author: suhaibjanjua
 tags: [svelte, sveltekit, fullstack, ssr, ssg, typescript]
 tools: [claude, cursor, gemini]
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 # SvelteKit Full-Stack Development
@@ -284,3 +287,9 @@ export const handle: Handle = async ({ event, resolve }) => {
 - `@trpc-fullstack` — Add end-to-end type safety to SvelteKit API routes
 - `@auth-implementation-patterns` — Authentication patterns usable with SvelteKit hooks
 - `@tailwind-patterns` — Styling SvelteKit apps with Tailwind CSS
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

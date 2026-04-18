@@ -4,6 +4,10 @@ description: Write idiomatic Ruby code with metaprogramming, Rails patterns, and
 risk: unknown
 source: community
 date_added: '2026-02-27'
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 ## Use this skill when
@@ -52,3 +56,9 @@ You are a Ruby expert specializing in clean, maintainable, and performant Ruby c
 - Refactoring suggestions for legacy Ruby code
 
 Favor Ruby's expressiveness. Include Gemfile and .rubocop.yml when relevant.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

@@ -4,6 +4,10 @@ description: "Use when working with performance testing review multi agent revie
 risk: unknown
 source: community
 date_added: "2026-02-27"
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 # Multi-Agent Code Review Orchestration Tool
@@ -217,3 +221,9 @@ The tool is designed with a plugin-based architecture, allowing easy addition of
 ## Invocation
 
 Target for review: $ARGUMENTS
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

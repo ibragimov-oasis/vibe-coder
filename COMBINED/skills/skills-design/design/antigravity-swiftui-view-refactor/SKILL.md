@@ -4,6 +4,10 @@ description: Refactor SwiftUI views into smaller components with stable, explici
 risk: safe
 source: "Dimillian/Skills (MIT)"
 date_added: "2026-03-25"
+tags:
+  - domain/ui
+  - artifact/skill
+  - source/skills-design
 ---
 
 # SwiftUI View Refactor
@@ -208,3 +212,10 @@ init(dependency: Dependency) {
 ## Large-view handling
 
 When a SwiftUI view file exceeds ~300 lines, split it aggressively. Extract meaningful sections into dedicated `View` types instead of hiding complexity in many computed properties. Use `private` extensions with `// MARK: -` comments for actions and helpers, but do not treat extensions as a substitute for breaking a giant screen into smaller view types. If an extracted subview is reused or independently meaningful, move it into its own file.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-design]] — Category: skills-design
+- [[MOC - UI Design]] — Design & UI
+

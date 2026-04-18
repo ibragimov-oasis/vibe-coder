@@ -2,6 +2,10 @@
 name: ai-slop-cleaner
 description: Clean AI-generated code slop with a regression-safe, deletion-first workflow and optional reviewer-only mode
 level: 3
+tags:
+  - domain/orchestration
+  - artifact/skill
+  - source/skills-omc
 ---
 
 # AI Slop Cleaner
@@ -131,3 +135,10 @@ In review mode:
 **Bad:** `refactor auth to support SSO`
 
 **Bad:** `clean up formatting`
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-omc]] — Category: skills-omc
+- [[MOC - Orchestration]] — Multi-agent orchestration
+

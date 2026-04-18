@@ -2,6 +2,10 @@
 name: configure-ecc
 description: Everything Claude Code 的交互式安装程序 — 引导用户选择并安装技能和规则到用户级或项目级目录，验证路径，并可选择优化已安装文件。
 origin: ECC
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-everything-cc
 ---
 
 # 配置 Everything Claude Code (ECC)
@@ -382,3 +386,9 @@ rm -rf /tmp/everything-claude-code
 
 * 有些技能假设 `~/.claude/` 路径。运行步骤 4 验证来查找并修复这些问题。
 * 对于 `continuous-learning-v2`，`~/.claude/homunculus/` 目录始终是用户级别的 — 这是预期的，不是错误。
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

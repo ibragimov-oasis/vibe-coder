@@ -2,6 +2,10 @@
 name: "init"
 description: "Create a new AgentHub collaboration session with task, agent count, and evaluation criteria."
 command: /hub:init
+tags:
+  - domain/agents
+  - artifact/skill
+  - source/skills-claude
 ---
 
 # /hub:init — Create New Session
@@ -87,3 +91,10 @@ Tell the user:
 - Baseline metric (if captured)
 - Next step: `/hub:spawn` to launch agents
 - Or `/hub:spawn {session-id}` if multiple sessions exist
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+- [[MOC - Agents]] — Claude agents
+

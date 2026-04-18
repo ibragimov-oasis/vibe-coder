@@ -10,6 +10,10 @@ metadata:
   updated: 2026-02-06
   python-tools: attribution_analyzer.py, funnel_analyzer.py, campaign_roi_calculator.py
   tech-stack: marketing-analytics, attribution-modeling
+tags:
+  - domain/agents
+  - artifact/skill
+  - source/skills-claude
 ---
 
 # Campaign Analytics
@@ -226,3 +230,10 @@ Calculates comprehensive ROI metrics with industry benchmarking:
 - **ab-test-setup**: For designing experiments to test what analytics reveals.
 - **marketing-ops**: For routing insights to the right execution skill.
 - **paid-ads**: For optimizing ad spend based on analytics findings.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+- [[MOC - Agents]] — Claude agents
+

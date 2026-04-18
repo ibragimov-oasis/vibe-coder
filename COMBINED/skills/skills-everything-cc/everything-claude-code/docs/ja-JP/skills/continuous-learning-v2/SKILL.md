@@ -2,6 +2,10 @@
 name: continuous-learning-v2
 description: フックを介してセッションを観察し、信頼度スコアリング付きのアトミックなインスティンクトを作成し、スキル/コマンド/エージェントに進化させるインスティンクトベースの学習システム。
 version: 2.0.0
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-everything-cc
 ---
 
 # Continuous Learning v2 - インスティンクトベースアーキテクチャ
@@ -282,3 +286,9 @@ v2はv1と完全に互換性があります：
 ---
 
 *インスティンクトベースの学習：一度に1つの観察で、Claudeにあなたのパターンを教える。*
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

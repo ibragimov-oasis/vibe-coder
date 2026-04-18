@@ -1,6 +1,10 @@
 ---
 name: test-driven-development
 description: Use when implementing any feature or bugfix, before writing implementation code
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-superpowers
 ---
 
 # Test-Driven Development (TDD)
@@ -369,3 +373,9 @@ Otherwise → not TDD
 ```
 
 No exceptions without your human partner's permission.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-superpowers]] — Category: skills-superpowers
+

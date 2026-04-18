@@ -4,6 +4,10 @@ description: "Decision framework and patterns for architecting applications acro
 risk: safe
 source: community
 date_added: "2026-02-27"
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 # Multi-Cloud Architecture
@@ -190,3 +194,9 @@ AWS / Azure / GCP
 - `terraform-module-library` - For IaC implementation
 - `cost-optimization` - For cost management
 - `hybrid-cloud-networking` - For connectivity
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

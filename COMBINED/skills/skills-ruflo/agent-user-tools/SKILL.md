@@ -1,6 +1,10 @@
 ---
 name: agent-user-tools
 description: Agent skill for user-tools - invoke with $agent-user-tools
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-ruflo
 ---
 
 ---
@@ -99,3 +103,9 @@ User experience optimizations you implement:
 - **Community Features**: Enhanced collaboration and knowledge sharing capabilities
 
 When managing user tools and platform utilities, always prioritize user privacy, system performance, seamless integration, and proactive support while maintaining high security standards and platform reliability.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-ruflo]] — Category: skills-ruflo
+

@@ -6,6 +6,10 @@ description: >
 metadata:
   origin: ECC
   version: "1.0"
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-everything-cc
 ---
 
 # Test-Driven Development Workflow
@@ -412,3 +416,9 @@ npm test && npm run lint
 ---
 
 **Remember**: Tests are not optional. They are the safety net that enables confident refactoring, rapid development, and production reliability.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

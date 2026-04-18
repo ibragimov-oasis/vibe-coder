@@ -5,6 +5,10 @@ category: granular-workflow-bundle
 risk: safe
 source: personal
 date_added: "2026-02-27"
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 # React/Next.js Development Workflow
@@ -226,3 +230,9 @@ Use @vercel-deployment to deploy Next.js app to production
 - `testing-qa` - Testing workflow
 - `documentation` - Documentation
 - `typescript-development` - TypeScript patterns
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

@@ -3,6 +3,10 @@ name: skill
 description: Manage local skills - list, add, remove, search, edit, setup wizard
 argument-hint: "<command> [args]"
 level: 2
+tags:
+  - domain/orchestration
+  - artifact/skill
+  - source/skills-omc
 ---
 
 # Skill Management CLI
@@ -845,3 +849,10 @@ What would you like to do?
 - `/skill stats` - Show usage statistics across all skills
 - `/skill validate` - Check all skills for format errors
 - `/skill template <type>` - Create from predefined templates
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-omc]] — Category: skills-omc
+- [[MOC - Orchestration]] — Multi-agent orchestration
+

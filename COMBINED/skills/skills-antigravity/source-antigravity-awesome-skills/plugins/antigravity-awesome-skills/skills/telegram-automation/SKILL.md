@@ -4,6 +4,10 @@ description: "Automate Telegram tasks via Rube MCP (Composio): send messages, ma
 risk: critical
 source: community
 date_added: "2026-02-27"
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 # Telegram Automation via Rube MCP
@@ -221,3 +225,9 @@ Automate Telegram operations through Composio's Telegram toolkit via Rube MCP.
 
 ## When to Use
 This skill is applicable to execute the workflow or actions described in the overview.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

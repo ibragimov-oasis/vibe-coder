@@ -2,6 +2,10 @@
 name: flutter-dart-code-review
 description: Library-agnostic Flutter/Dart code review checklist covering widget best practices, state management patterns (BLoC, Riverpod, Provider, GetX, MobX, Signals), Dart idioms, performance, accessibility, security, and clean architecture.
 origin: ECC
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-everything-cc
 ---
 
 # Flutter/Dart Code Review Best Practices
@@ -433,3 +437,9 @@ The table below maps universal principles to their implementation in popular sol
 - [Flutter Navigation and Routing](https://docs.flutter.dev/ui/navigation)
 - [Flutter Error Handling](https://docs.flutter.dev/testing/errors)
 - [Flutter State Management Options](https://docs.flutter.dev/data-and-backend/state-mgmt/options)
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

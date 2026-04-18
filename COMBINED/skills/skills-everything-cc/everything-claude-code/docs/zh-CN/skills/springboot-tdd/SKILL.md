@@ -2,6 +2,10 @@
 name: springboot-tdd
 description: 使用JUnit 5、Mockito、MockMvc、Testcontainers和JaCoCo进行Spring Boot的测试驱动开发。适用于添加功能、修复错误或重构时。
 origin: ECC
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-everything-cc
 ---
 
 # Spring Boot TDD 工作流程
@@ -158,3 +162,9 @@ class MarketBuilder {
 * Gradle: `./gradlew test jacocoTestReport`
 
 **记住**：保持测试快速、隔离且确定。测试行为，而非实现细节。
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

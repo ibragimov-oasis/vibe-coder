@@ -17,6 +17,9 @@ tools:
 - cursor
 - gemini-cli
 - codex-cli
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 # CRED-OMEGA: Security Engine for All API Keys (Enterprise)
@@ -879,3 +882,9 @@ Qualquer skill que lide com APIs externas deve consultar cred-omega para:
 ## Related Skills
 
 - `007` - Complementary skill for enhanced analysis
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

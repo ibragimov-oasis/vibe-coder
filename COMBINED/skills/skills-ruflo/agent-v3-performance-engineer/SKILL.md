@@ -1,6 +1,10 @@
 ---
 name: agent-v3-performance-engineer
 description: Agent skill for v3-performance-engineer - invoke with $agent-v3-performance-engineer
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-ruflo
 ---
 
 ---
@@ -400,3 +404,9 @@ class PerformanceRegression {
 ---
 
 **⚡ Mission**: Validate and achieve industry-leading performance improvements that make claude-flow v3 the fastest and most efficient agent orchestration platform.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-ruflo]] — Category: skills-ruflo
+

@@ -4,6 +4,10 @@ description: "Master comprehensive testing strategies for smart contracts using 
 risk: unknown
 source: community
 date_added: "2026-02-27"
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 # Web3 Smart Contract Testing
@@ -428,3 +432,9 @@ jobs:
 8. **Mainnet Fork**: Test with real contracts
 9. **Fuzzing**: Use property-based testing
 10. **CI/CD**: Automate testing on every commit
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

@@ -1,6 +1,10 @@
 ---
 name: finnish-humanizer
 description: 'Detect and remove AI-generated markers from Finnish text, making it sound like a native Finnish speaker wrote it. Use when asked to "humanize", "naturalize", or "remove AI feel" from Finnish text, or when editing .md/.txt files containing Finnish content. Identifies 26 patterns (12 Finnish-specific + 14 universal) and 4 style markers.'
+tags:
+  - domain/agents
+  - artifact/skill
+  - source/skills-copilot
 ---
 
 # Finnish Humanizer
@@ -143,3 +147,10 @@ Jos käyttäjä pyytää vain tekstiä ilman selityksiä, jätä muutosyhteenvet
 
 - Full 26-pattern list with examples: [references/patterns.md](references/patterns.md)
 - Source repository: [Hakku/finnish-humanizer](https://github.com/Hakku/finnish-humanizer) (MIT)
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-copilot]] — Category: skills-copilot
+- [[MOC - Agents]] — Copilot agents
+

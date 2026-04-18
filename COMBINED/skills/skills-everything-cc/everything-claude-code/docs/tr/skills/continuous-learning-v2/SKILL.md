@@ -3,6 +3,10 @@ name: continuous-learning-v2
 description: Hook'lar aracılığıyla oturumları gözlemleyen, güven skorlaması ile atomik instinct'ler oluşturan ve bunları skill/command/agent'lara evriltiren instinct tabanlı öğrenme sistemi. v2.1 çapraz proje kontaminasyonunu önlemek için proje kapsamlı instinct'ler ekler.
 origin: ECC
 version: 2.1.0
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-everything-cc
 ---
 
 # Sürekli Öğrenme v2.1 - Instinct Tabanlı Mimari
@@ -362,3 +366,9 @@ v2.1, v2.0 ve v1 ile tamamen uyumludur:
 ---
 
 *Instinct tabanlı öğrenme: Claude'a kalıplarınızı öğretmek, her seferinde bir proje.*
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

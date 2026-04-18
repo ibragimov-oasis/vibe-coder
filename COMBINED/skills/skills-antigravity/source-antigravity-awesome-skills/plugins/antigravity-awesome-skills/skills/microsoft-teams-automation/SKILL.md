@@ -4,6 +4,10 @@ description: "Automate Microsoft Teams tasks via Rube MCP (Composio): send messa
 risk: critical
 source: community
 date_added: "2026-02-27"
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 # Microsoft Teams Automation via Rube MCP
@@ -213,3 +217,9 @@ Automate Microsoft Teams operations through Composio's Microsoft Teams toolkit v
 
 ## When to Use
 This skill is applicable to execute the workflow or actions described in the overview.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

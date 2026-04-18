@@ -1,6 +1,10 @@
 ---
 name: agent-automation-smart-agent
 description: Agent skill for automation-smart-agent - invoke with $agent-automation-smart-agent
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-ruflo
 ---
 
 ---
@@ -208,3 +212,9 @@ Output: Resource predictions
 - Automatic reinforcement
 - Strategy adjustment
 - Graceful degradation
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-ruflo]] — Category: skills-ruflo
+

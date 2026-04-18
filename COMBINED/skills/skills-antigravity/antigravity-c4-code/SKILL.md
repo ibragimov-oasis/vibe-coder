@@ -4,6 +4,10 @@ description: Expert C4 Code-level documentation specialist. Analyzes code direct
 risk: unknown
 source: community
 date_added: '2026-02-27'
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 # C4 Code Level: [Directory Name]
@@ -239,3 +243,9 @@ When analyzing code, provide:
 - Consistent naming and formatting across all code documentation
 
 ```
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

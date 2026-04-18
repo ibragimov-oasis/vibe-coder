@@ -1,6 +1,10 @@
 ---
 name: containerize-aspnetcore
 description: 'Containerize an ASP.NET Core project by creating Dockerfile and .dockerfile files customized for the project.'
+tags:
+  - domain/agents
+  - artifact/skill
+  - source/skills-copilot
 ---
 
 # ASP.NET Core Docker Containerization Prompt
@@ -390,3 +394,10 @@ RUN tdnf update -y && tdnf install -y curl ca-certificates && tdnf clean all
 - Minimize the number of installed packages
 - Keep base images updated
 - Use multi-stage builds to exclude build dependencies from the final image
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-copilot]] — Category: skills-copilot
+- [[MOC - Agents]] — Copilot agents
+

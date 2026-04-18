@@ -4,6 +4,10 @@ description: "Use before creative or constructive work (features, architecture, 
 risk: unknown
 source: community
 date_added: "2026-02-27"
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 # Brainstorming Ideas Into Designs
@@ -230,3 +234,9 @@ If the design is high-impact, high-risk, or requires elevated confidence, you MU
 
 ## When to Use
 This skill is applicable to execute the workflow or actions described in the overview.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

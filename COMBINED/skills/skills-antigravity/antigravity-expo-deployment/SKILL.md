@@ -4,6 +4,10 @@ description: "Deploy Expo apps to production"
 risk: safe
 source: "https://github.com/expo/skills/tree/main/plugins/expo-deployment"
 date_added: "2026-02-27"
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 # Expo Deployment
@@ -71,3 +75,9 @@ This skill provides guidance for deploying Expo apps:
 ## Resources
 
 For more information, see the [source repository](https://github.com/expo/skills/tree/main/plugins/expo-deployment).
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

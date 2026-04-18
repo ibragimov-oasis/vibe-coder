@@ -4,6 +4,10 @@ description: "You are a debugging expert specializing in setting up comprehensiv
 risk: unknown
 source: community
 date_added: "2026-02-27"
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 # Debug and Trace Configuration
@@ -45,3 +49,9 @@ $ARGUMENTS
 ## Resources
 
 - `resources/implementation-playbook.md` for detailed tooling and configuration patterns.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

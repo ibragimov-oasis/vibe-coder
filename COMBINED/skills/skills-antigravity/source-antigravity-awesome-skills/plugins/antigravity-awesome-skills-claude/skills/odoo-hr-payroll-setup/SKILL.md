@@ -3,6 +3,10 @@ name: odoo-hr-payroll-setup
 description: "Expert guide for Odoo HR and Payroll: salary structures, payslip rules, leave policies, employee contracts, and payroll journal entries."
 risk: safe
 source: "self"
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 # Odoo HR & Payroll Setup
@@ -104,3 +108,9 @@ Employer taxes (e.g., FUTA, SUTA) post as separate journal entries.
 - US-specific compliance (W2, 941, state SUI/SDI filing) requires additional modules beyond the base localization; Odoo does not generate tax filings directly.
 - Does not cover **multi-country payroll** (employees in different countries require separate structures and localizations).
 - **Expense reimbursements** via payslip (e.g., mileage, home office) require a custom salary rule input and are not covered in standard HR Payroll documentation.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

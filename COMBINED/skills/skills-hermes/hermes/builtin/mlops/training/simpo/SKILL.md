@@ -8,7 +8,9 @@ dependencies: [torch, transformers, datasets, trl, accelerate]
 metadata:
   hermes:
     tags: [Post-Training, SimPO, Preference Optimization, Alignment, DPO Alternative, Reference-Free, LLM Alignment, Efficient Training]
-
+  - domain/skills
+  - artifact/skill
+  - source/skills-hermes
 ---
 
 # SimPO - Simple Preference Optimization
@@ -218,5 +220,8 @@ gradient_checkpointing: true
 - Models: https://huggingface.co/princeton-nlp
 - Alignment Handbook: https://github.com/huggingface/alignment-handbook
 
+## 🔗 Связи
 
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-hermes]] — Category: skills-hermes
 

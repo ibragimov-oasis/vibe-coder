@@ -3,6 +3,10 @@ name: eval-harness
 description: 평가 주도 개발(EDD) 원칙을 구현하는 Claude Code 세션용 공식 평가 프레임워크
 origin: ECC
 tools: Read, Write, Edit, Bash, Grep, Glob
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-everything-cc
 ---
 
 # 평가 하네스 스킬
@@ -268,3 +272,9 @@ Status: SHIP IT
 - `.claude/evals/<feature>.md` 정의
 - `.claude/evals/<feature>.log` 실행 이력
 - `docs/releases/<version>/eval-summary.md` 릴리스 스냅샷
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

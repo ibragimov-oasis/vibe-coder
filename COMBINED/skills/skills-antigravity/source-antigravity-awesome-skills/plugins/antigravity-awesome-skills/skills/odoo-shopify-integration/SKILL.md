@@ -3,6 +3,10 @@ name: odoo-shopify-integration
 description: "Connect Odoo with Shopify: sync products, inventory, orders, and customers using the Shopify API and Odoo's external API or connector modules."
 risk: unknown
 source: community
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 # Odoo ↔ Shopify Integration
@@ -99,3 +103,9 @@ def shopify_order_webhook():
 - ✅ **Do:** Validate Shopify webhook HMAC signatures before processing any payload.
 - ❌ **Don't:** Sync inventory from both systems simultaneously without a "master system" — pick one as the source of truth.
 - ❌ **Don't:** Use Shopify product IDs as the key — use SKUs which are stable across platforms.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

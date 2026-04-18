@@ -4,6 +4,10 @@ description: "AWS development with infrastructure automation and cloud architect
 risk: safe
 source: "https://github.com/zxkane/aws-skills"
 date_added: "2026-02-27"
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 # Aws Skills
@@ -21,3 +25,9 @@ Use this skill when you need to work with aws development with infrastructure au
 This skill provides guidance and patterns for aws development with infrastructure automation and cloud architecture patterns.
 
 For more information, see the [source repository](https://github.com/zxkane/aws-skills).
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

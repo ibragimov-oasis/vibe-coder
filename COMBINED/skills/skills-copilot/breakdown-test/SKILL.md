@@ -1,6 +1,10 @@
 ---
 name: breakdown-test
 description: 'Test Planning and Quality Assurance prompt that generates comprehensive test strategies, task breakdowns, and quality validation plans for GitHub projects.'
+tags:
+  - domain/agents
+  - artifact/skill
+  - source/skills-copilot
 ---
 
 # Test Planning & Quality Assurance Prompt
@@ -363,3 +367,10 @@ Create comprehensive quality validation checkpoints:
 - **Documentation Completeness**: 100% test issues have complete template information
 
 This comprehensive test planning approach ensures thorough quality validation aligned with industry standards while maintaining efficient project management and clear accountability for all testing activities.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-copilot]] — Category: skills-copilot
+- [[MOC - Agents]] — Copilot agents
+

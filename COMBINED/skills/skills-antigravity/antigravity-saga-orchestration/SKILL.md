@@ -4,6 +4,10 @@ description: "Patterns for managing distributed transactions and long-running bu
 risk: unknown
 source: community
 date_added: "2026-02-27"
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 # Saga Orchestration
@@ -505,3 +509,9 @@ Works well with: `event-sourcing-architect`, `workflow-automation`, `dbos-*`
 
 - [Saga Pattern](https://microservices.io/patterns/data/saga.html)
 - [Designing Data-Intensive Applications](https://dataintensive.net/)
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

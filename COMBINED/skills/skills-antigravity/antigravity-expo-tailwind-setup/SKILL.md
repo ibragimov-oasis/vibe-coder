@@ -5,6 +5,10 @@ risk: unknown
 source: community
 version: 1.0.0
 license: MIT
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 # Tailwind CSS Setup for Expo with react-native-css
@@ -480,3 +484,9 @@ Add className to component props:
 ```tsx
 type Props = React.ComponentProps<typeof RNView> & { className?: string };
 ```
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

@@ -2,6 +2,10 @@
 name: winmd-api-search
 description: 'Find and explore Windows desktop APIs. Use when building features that need platform capabilities — camera, file access, notifications, UI controls, AI/ML, sensors, networking, etc. Discovers the right API for a task and retrieves full type details (methods, properties, events, enumeration values).'
 license: Complete terms in LICENSE.txt
+tags:
+  - domain/agents
+  - artifact/skill
+  - source/skills-copilot
 ---
 
 # WinMD API Search
@@ -190,3 +194,10 @@ Results are grouped by namespace. Higher-scored namespaces appear first.
 
 - [Windows Platform SDK API reference](https://learn.microsoft.com/uwp/api/) — documentation for `Windows.*` namespaces
 - [Windows App SDK API reference](https://learn.microsoft.com/windows/windows-app-sdk/api/winrt/) — documentation for `Microsoft.*` WinAppSDK namespaces
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-copilot]] — Category: skills-copilot
+- [[MOC - Agents]] — Copilot agents
+

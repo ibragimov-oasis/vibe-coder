@@ -2,6 +2,10 @@
 name: fal-ai-media
 description: 通过 fal.ai MCP 实现统一的媒体生成——图像、视频和音频。涵盖文本到图像（Nano Banana）、文本/图像到视频（Seedance、Kling、Veo 3）、文本到语音（CSM-1B），以及视频到音频（ThinkSound）。当用户想要使用 AI 生成图像、视频或音频时使用。
 origin: ECC
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-everything-cc
 ---
 
 # fal.ai 媒体生成
@@ -294,3 +298,9 @@ models()
 * `videodb` — 视频处理、编辑和流媒体
 * `video-editing` — AI 驱动的视频编辑工作流
 * `content-engine` — 社交媒体平台内容创作
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

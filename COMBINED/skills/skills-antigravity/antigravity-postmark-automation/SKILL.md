@@ -4,6 +4,10 @@ description: "Automate Postmark email delivery tasks via Rube MCP (Composio): se
 risk: critical
 source: community
 date_added: "2026-02-27"
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 # Postmark Automation via Rube MCP
@@ -189,3 +193,9 @@ Automate Postmark transactional email operations through Composio's Postmark too
 
 ## When to Use
 This skill is applicable to execute the workflow or actions described in the overview.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

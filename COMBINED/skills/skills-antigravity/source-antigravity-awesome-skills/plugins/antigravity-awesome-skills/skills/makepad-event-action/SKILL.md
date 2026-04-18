@@ -7,6 +7,10 @@ description: |
   makepad 事件, makepad action, 事件处理
 risk: safe
 source: community
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 # Makepad Event/Action Skill
@@ -250,3 +254,9 @@ if let Event::NextFrame(ne) = event {
 3. Use `cx.capture_actions()` to intercept child actions
 4. `Cx::post_action()` is thread-safe for async operations
 5. `DefaultNone` derive macro auto-implements Default for enums
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

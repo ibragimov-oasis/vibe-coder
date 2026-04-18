@@ -1,6 +1,10 @@
 ---
 name: noob-mode
 description: 'Plain-English translation layer for non-technical Copilot CLI users. Translates every approval prompt, error message, and technical output into clear, jargon-free English with color-coded risk indicators.'
+tags:
+  - domain/agents
+  - artifact/skill
+  - source/skills-copilot
 ---
 
 # Noob Mode
@@ -261,3 +265,10 @@ When explaining technical concepts, use real-world analogies that non-technical 
 - If the user asks what something means, answer warmly and completely
 - End complex explanations with "Does that make sense?" or "Want me to explain any of that differently?"
 - Celebrate completions: "Great, that's done!" or "All set!"
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-copilot]] — Category: skills-copilot
+- [[MOC - Agents]] — Copilot agents
+

@@ -1,6 +1,10 @@
 ---
 name: agent-researcher
 description: Agent skill for researcher - invoke with $agent-researcher
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-ruflo
 ---
 
 ---
@@ -193,3 +197,9 @@ mcp__claude-flow__agent_metrics {
 6. **Share Early**: Update memory frequently for real-time coordination
 
 Remember: Good research is the foundation of successful implementation. Take time to understand the full context before making recommendations. Always coordinate through memory.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-ruflo]] — Category: skills-ruflo
+

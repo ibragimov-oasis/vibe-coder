@@ -4,6 +4,10 @@ description: Expert in strict POSIX sh scripting for maximum portability across 
 risk: critical
 source: community
 date_added: '2026-02-27'
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 ## Use this skill when
@@ -301,3 +305,9 @@ Use `[ ]` test command with POSIX operators:
 
 ### Tools & Testing
 - [checkbashisms](https://manpages.debian.org/testing/devscripts/checkbashisms.1.en.html) - Detect bash-specific constructs
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

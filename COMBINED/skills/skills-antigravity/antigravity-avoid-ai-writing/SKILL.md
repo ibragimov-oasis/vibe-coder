@@ -4,6 +4,10 @@ description: "Audit and rewrite content to remove 21 categories of AI writing pa
 risk: none
 source: https://github.com/conorbronsdon/avoid-ai-writing
 date_added: "2026-03-06"
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 # Avoid AI Writing — Audit & Rewrite
@@ -42,3 +46,9 @@ Audit this for AI writing patterns:
 - Pattern matching is guideline-based, not absolute — some flagged words are fine in context
 - The replacement table suggests alternatives but the best choice depends on context
 - Cannot verify factual claims or find real citations to replace vague attributions
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

@@ -10,6 +10,10 @@ description: >
   - "Foundry is slow", "I want to reduce costs", "Strengthen security" (natural language modification)
   - Azure resource deployment, Bicep template generation, IaC code generation
   - Microsoft Foundry, AI Search, OpenAI, Fabric, ADLS Gen2, Databricks, and all Azure services
+tags:
+  - domain/agents
+  - artifact/skill
+  - source/skills-copilot
 ---
 
 # Azure Architecture Builder
@@ -168,3 +172,10 @@ All supported — MS Docs are automatically consulted to generate at the same qu
 | `references/azure-dynamic-sources.md` | MS Docs URL registry |
 | `references/azure-common-patterns.md` | PE/security/naming patterns |
 | `references/ai-data.md` | AI/Data service guide |
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-copilot]] — Category: skills-copilot
+- [[MOC - Agents]] — Copilot agents
+

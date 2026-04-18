@@ -8,7 +8,9 @@ dependencies: [segment-anything, transformers>=4.30.0, torch>=1.7.0]
 metadata:
   hermes:
     tags: [Multimodal, Image Segmentation, Computer Vision, SAM, Zero-Shot]
-
+  - domain/skills
+  - artifact/skill
+  - source/skills-hermes
 ---
 
 # Segment Anything Model (SAM)
@@ -501,3 +503,9 @@ mask_generator = SamAutomaticMaskGenerator(
 - **Demo**: https://segment-anything.com
 - **SAM 2 (Video)**: https://github.com/facebookresearch/segment-anything-2
 - **HuggingFace**: https://huggingface.co/facebook/sam-vit-huge
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-hermes]] — Category: skills-hermes
+

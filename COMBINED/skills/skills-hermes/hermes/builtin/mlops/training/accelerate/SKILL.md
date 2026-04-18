@@ -8,7 +8,9 @@ dependencies: [accelerate, torch, transformers]
 metadata:
   hermes:
     tags: [Distributed Training, HuggingFace, Accelerate, DeepSpeed, FSDP, Mixed Precision, PyTorch, DDP, Unified API, Simple]
-
+  - domain/skills
+  - artifact/skill
+  - source/skills-hermes
 ---
 
 # HuggingFace Accelerate - Unified Distributed Training
@@ -331,5 +333,8 @@ set_seed(42)
 - Examples: https://github.com/huggingface/accelerate/tree/main/examples
 - Used by: HuggingFace Transformers, TRL, PEFT, all HF libraries
 
+## 🔗 Связи
 
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-hermes]] — Category: skills-hermes
 

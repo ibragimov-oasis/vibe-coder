@@ -4,6 +4,10 @@ description: "Guide for continuous improvement, error proofing, and standardizat
 risk: unknown
 source: community
 date_added: "2026-02-27"
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 # Kaizen: Continuous Improvement
@@ -730,3 +734,9 @@ Use commands for structured problem-solving. Apply skill for day-to-day developm
 - Premature optimization
 
 **Mindset:** Good enough today, better tomorrow. Repeat.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

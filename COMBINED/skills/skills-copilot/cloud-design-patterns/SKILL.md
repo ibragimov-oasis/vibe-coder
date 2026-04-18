@@ -1,6 +1,10 @@
 ---
 name: cloud-design-patterns
 description: 'Cloud design patterns for distributed systems architecture covering 42 industry-standard patterns across reliability, performance, messaging, security, and deployment categories. Use when designing, reviewing, or implementing distributed system architectures.'
+tags:
+  - domain/agents
+  - artifact/skill
+  - source/skills-copilot
 ---
 
 # Cloud Design Patterns
@@ -60,3 +64,10 @@ These misconceptions can result in flawed workload designs. Design patterns don'
 
 - [Cloud Design Patterns - Azure Architecture Center](https://learn.microsoft.com/azure/architecture/patterns/)
 - [Azure Well-Architected Framework](https://learn.microsoft.com/azure/architecture/framework/)
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-copilot]] — Category: skills-copilot
+- [[MOC - Agents]] — Copilot agents
+

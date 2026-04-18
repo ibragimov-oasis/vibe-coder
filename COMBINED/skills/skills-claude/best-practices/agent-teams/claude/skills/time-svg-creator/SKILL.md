@@ -2,6 +2,10 @@
 name: time-svg-creator
 description: Creates an SVG time card showing the current time for Dubai. Writes the SVG to agent-teams/output/dubai-time.svg and updates agent-teams/output/output.md.
 allowed-tools: Write, Read
+tags:
+  - domain/agents
+  - artifact/skill
+  - source/skills-claude
 ---
 
 # Time SVG Creator Skill
@@ -28,3 +32,10 @@ You will receive three fields from the calling context: `time`, `timezone`, and 
 
 - For SVG template, output template, and design specs, see [reference.md](reference.md)
 - For example input/output pairs, see [examples.md](examples.md)
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+- [[MOC - Agents]] — Claude agents
+

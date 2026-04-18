@@ -6,6 +6,9 @@ source: community
 date_added: "2026-03-28"
 tags: [multi-tenancy, saas, row-level-security, postgresql, tenant-isolation]
 tools: [claude, cursor, gemini]
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 # SaaS Multi-Tenant Architecture
@@ -181,3 +184,9 @@ function createTenantPrisma(tenantId: string): PrismaClient {
 5. **Test with at least 3 tenants in your seed data.** A single tenant in development hides every multi-tenancy bug. Two tenants hides bugs where the first tenant's data leaks to the second but not vice versa. Three tenants catches ordering and filtering bugs that only appear with multiple peers.
 
 6. **Rate-limit and quota per tenant, not globally.** A global rate limit of 1000 requests/minute means one noisy tenant can exhaust the quota for everyone. Implement per-tenant rate limiting using a Redis key pattern like `ratelimit:{tenant_id}:{endpoint}` with a sliding window counter.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

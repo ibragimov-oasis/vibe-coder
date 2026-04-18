@@ -9,6 +9,10 @@ metadata:
   domain: orchestration
   updated: 2026-03-05
   frameworks: context-loading, anonymization, context-enrichment
+tags:
+  - domain/agents
+  - artifact/skill
+  - source/skills-claude
 ---
 
 # Company Context Engine
@@ -132,3 +136,10 @@ Missing required fields: note gaps, work around in session, ask in-session only 
 
 ## References
 - `references/anonymization-protocol.md` — detailed rules for stripping sensitive data before external calls
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+- [[MOC - Agents]] — Claude agents
+

@@ -4,6 +4,10 @@ description: "Automate GitLab project management, issues, merge requests, pipeli
 risk: critical
 source: community
 date_added: "2026-02-27"
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 # GitLab Automation via Rube MCP
@@ -255,3 +259,9 @@ When using project paths as identifiers:
 
 ## When to Use
 This skill is applicable to execute the workflow or actions described in the overview.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

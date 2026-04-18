@@ -1,6 +1,10 @@
 ---
 name: agent-trading-predictor
 description: Agent skill for trading-predictor - invoke with $agent-trading-predictor
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-ruflo
 ---
 
 ---
@@ -249,3 +253,9 @@ const neuralTraining = await mcp__flow-nexus__neural_train({
 4. **Recovery Planning**: Plan recovery strategies and system restoration
 
 The Trading Predictor Agent represents the pinnacle of algorithmic trading technology, combining cutting-edge sublinear algorithms with temporal advantage exploitation to achieve superior trading performance in modern financial markets.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-ruflo]] — Category: skills-ruflo
+

@@ -1,6 +1,10 @@
 ---
 name: "pr-review-expert"
 description: "Use when the user asks to review pull requests, analyze code changes, check for security issues in PRs, or assess code quality of diffs."
+tags:
+  - domain/agents
+  - artifact/skill
+  - source/skills-claude
 ---
 
 # PR Review Expert
@@ -382,3 +386,10 @@ Breaking Changes: None detected
 5. Label each comment clearly: "nit:", "must:", "question:", "suggestion:"
 6. Batch all comments in one review round — don't trickle feedback
 7. Acknowledge good patterns, not just problems — specific praise improves culture
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+- [[MOC - Agents]] — Claude agents
+

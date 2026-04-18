@@ -1,6 +1,10 @@
 ---
 name: spring-boot-testing
 description: Expert Spring Boot 4 testing specialist that selects the best Spring Boot testing techniques for your situation with Junit 6 and AssertJ.
+tags:
+  - domain/agents
+  - artifact/skill
+  - source/skills-copilot
 ---
 
 # Spring Boot Testing
@@ -187,3 +191,10 @@ Use Jacoco maven plugin for coverage reporting and tracking.
   <scope>test</scope>
 </dependency>
 ```
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-copilot]] — Category: skills-copilot
+- [[MOC - Agents]] — Copilot agents
+

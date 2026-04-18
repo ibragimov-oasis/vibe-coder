@@ -1,6 +1,10 @@
 ---
 name: pdftk-server
 description: 'Skill for using the command-line tool pdftk (PDFtk Server) for working with PDF files. Use when asked to merge PDFs, split PDFs, rotate pages, encrypt or decrypt PDFs, fill PDF forms, apply watermarks, stamp overlays, extract metadata, burst documents into pages, repair corrupted PDFs, attach or extract files, or perform any PDF manipulation from the command line.'
+tags:
+  - domain/agents
+  - artifact/skill
+  - source/skills-copilot
 ---
 
 # PDFtk Server
@@ -160,3 +164,10 @@ Bundled reference documents in the `references/` folder:
 - [download.md](references/download.md) - Installation and download instructions for all platforms
 - [pdftk-server-license.md](references/pdftk-server-license.md) - PDFtk Server licensing information
 - [third-party-materials.md](references/third-party-materials.md) - Third-party library licenses
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-copilot]] — Category: skills-copilot
+- [[MOC - Agents]] — Copilot agents
+

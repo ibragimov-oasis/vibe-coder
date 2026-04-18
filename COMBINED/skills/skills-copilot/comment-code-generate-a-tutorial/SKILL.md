@@ -1,6 +1,10 @@
 ---
 name: comment-code-generate-a-tutorial
 description: 'Transform this Python script into a polished, beginner-friendly project by refactoring the code, adding clear instructional comments, and generating a complete markdown tutorial.'
+tags:
+  - domain/agents
+  - artifact/skill
+  - source/skills-copilot
 ---
 
 Transform this Python script into a polished, beginner-friendly project by refactoring the code, adding clear instructional comments, and generating a complete markdown tutorial.
@@ -24,3 +28,10 @@ Transform this Python script into a polished, beginner-friendly project by refac
    - **Example Usage:** A code snippet showing how to use it  
    - **Sample Output:** (Optional) Include if the script returns visible results  
    - Use clear, readable Markdown formatting
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-copilot]] — Category: skills-copilot
+- [[MOC - Agents]] — Copilot agents
+

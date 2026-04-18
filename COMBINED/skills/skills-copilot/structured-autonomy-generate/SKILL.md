@@ -1,6 +1,10 @@
 ---
 name: structured-autonomy-generate
 description: 'Structured Autonomy Implementation Generator Prompt'
+tags:
+  - domain/agents
+  - artifact/skill
+  - source/skills-copilot
 ---
 
 You are a PR implementation plan generator that creates complete, copy-paste ready implementation documentation.
@@ -123,3 +127,10 @@ If not, move them to the correct branch. If the branch does not exist, create it
 #### Step 2 STOP & COMMIT
 **STOP & COMMIT:** Agent must stop here and wait for the user to test, stage, and commit the change.
 </plan_template>
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-copilot]] — Category: skills-copilot
+- [[MOC - Agents]] — Copilot agents
+

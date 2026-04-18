@@ -1,6 +1,10 @@
 ---
 name: "dependency-auditor"
 description: "Dependency Auditor"
+tags:
+  - domain/agents
+  - artifact/skill
+  - source/skills-claude
 ---
 
 # Dependency Auditor
@@ -336,3 +340,10 @@ For detailed usage instructions, see [README.md](README.md).
 ---
 
 *This skill provides comprehensive dependency management capabilities essential for maintaining secure, compliant, and efficient software projects. Regular use helps teams stay ahead of security threats, maintain legal compliance, and optimize their dependency ecosystems.*
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+- [[MOC - Agents]] — Claude agents
+

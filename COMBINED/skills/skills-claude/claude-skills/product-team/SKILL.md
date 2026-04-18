@@ -15,6 +15,9 @@ agents:
   - claude-code
   - codex-cli
   - openclaw
+  - domain/agents
+  - artifact/skill
+  - source/skills-claude
 ---
 
 # Product Team Skills
@@ -59,3 +62,10 @@ python3 product-strategist/scripts/okr_cascade_generator.py --help
 
 - Load only the specific skill SKILL.md you need
 - Use Python tools for scoring and analysis, not manual judgment
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+- [[MOC - Agents]] — Claude agents
+

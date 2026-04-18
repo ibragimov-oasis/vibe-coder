@@ -8,7 +8,9 @@ dependencies: [axolotl, torch, transformers, datasets, peft, accelerate, deepspe
 metadata:
   hermes:
     tags: [Fine-Tuning, Axolotl, LLM, LoRA, QLoRA, DPO, KTO, ORPO, GRPO, YAML, HuggingFace, DeepSpeed, Multimodal]
-
+  - domain/skills
+  - artifact/skill
+  - source/skills-hermes
 ---
 
 # Axolotl Skill
@@ -158,4 +160,8 @@ To refresh this skill with updated documentation:
 1. Re-run the scraper with the same configuration
 2. The skill will be rebuilt with the latest information
 
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-hermes]] — Category: skills-hermes
 

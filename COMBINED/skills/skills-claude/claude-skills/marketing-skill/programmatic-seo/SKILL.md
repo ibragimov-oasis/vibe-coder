@@ -7,6 +7,10 @@ metadata:
   author: Alireza Rezvani
   category: marketing
   updated: 2026-03-06
+tags:
+  - domain/agents
+  - artifact/skill
+  - source/skills-claude
 ---
 
 # Programmatic SEO
@@ -278,3 +282,10 @@ Automatically surface programmatic-seo when:
 | Page Template Spec | Markdown with annotated sections | URL pattern, title/meta templates, content block structure, unique value rules |
 | Pre-Launch Checklist | Checkbox list | Content quality, technical SEO, internal linking, indexation gates |
 | Post-Launch Monitoring Plan | Table | Metrics to track × tools × alert thresholds × review cadence |
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+- [[MOC - Agents]] — Claude agents
+

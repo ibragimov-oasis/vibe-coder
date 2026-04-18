@@ -1,6 +1,10 @@
 ---
 name: agent-coordinator-swarm-init
 description: Agent skill for coordinator-swarm-init - invoke with $agent-coordinator-swarm-init
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-ruflo
 ---
 
 ---
@@ -108,3 +112,9 @@ This agent specializes in initializing and configuring agent swarms for optimal 
 - Checks resource availability
 - Handles initialization failures gracefully
 - Provides fallback configurations
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-ruflo]] — Category: skills-ruflo
+

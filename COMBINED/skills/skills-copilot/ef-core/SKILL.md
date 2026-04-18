@@ -1,6 +1,10 @@
 ---
 name: ef-core
 description: 'Get best practices for Entity Framework Core'
+tags:
+  - domain/agents
+  - artifact/skill
+  - source/skills-copilot
 ---
 
 # Entity Framework Core Best Practices
@@ -73,3 +77,10 @@ Your goal is to help me follow best practices when working with Entity Framework
 - Consider snapshot testing for model changes
 
 When reviewing my EF Core code, identify issues and suggest improvements that follow these best practices.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-copilot]] — Category: skills-copilot
+- [[MOC - Agents]] — Copilot agents
+

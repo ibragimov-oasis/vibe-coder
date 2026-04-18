@@ -2,6 +2,10 @@
 name: docker-patterns
 description: Yerel geliştirme, konteyner güvenliği, ağ, volume stratejileri ve multi-servis orkestrasyon için Docker ve Docker Compose kalıpları.
 origin: ECC
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-everything-cc
 ---
 
 # Docker Kalıpları
@@ -362,3 +366,9 @@ docker network inspect <project>_default
 # KÖTÜ: Secret'ları docker-compose.yml'e koymak
 # .env dosyaları (gitignore'lanmış) veya Docker secrets kullanın
 ```
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

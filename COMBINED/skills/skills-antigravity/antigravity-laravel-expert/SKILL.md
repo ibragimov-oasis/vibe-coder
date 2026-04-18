@@ -4,6 +4,10 @@ description: "Senior Laravel Engineer role for production-grade, maintainable, a
 risk: safe
 source: community
 date_added: "2026-02-27"
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 # Laravel Expert
@@ -184,3 +188,9 @@ When refactoring:
 - Do not introduce microservice architecture unless requested
 - Do not assume cloud infrastructure
 - Keep solutions pragmatic and realistic
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

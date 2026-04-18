@@ -4,6 +4,10 @@ description: "Build production-grade Azure Cosmos DB NoSQL services following cl
 risk: unknown
 source: community
 date_added: "2026-02-27"
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 # Cosmos DB Service Implementation
@@ -242,3 +246,9 @@ async def test_get_project_by_id_returns_project(mock_cosmos_container):
 
 ## When to Use
 This skill is applicable to execute the workflow or actions described in the overview.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

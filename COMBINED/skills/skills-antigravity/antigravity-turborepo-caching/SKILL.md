@@ -4,6 +4,10 @@ description: "Configure Turborepo for efficient monorepo builds with local and r
 risk: critical
 source: community
 date_added: "2026-02-27"
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 # Turborepo Caching
@@ -420,3 +424,9 @@ TURBO_LOG_VERBOSITY=debug turbo build --filter=@myorg/web
 - [Turborepo Documentation](https://turbo.build/repo/docs)
 - [Caching Guide](https://turbo.build/repo/docs/core-concepts/caching)
 - [Remote Caching](https://turbo.build/repo/docs/core-concepts/remote-caching)
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

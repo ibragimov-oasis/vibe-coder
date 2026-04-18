@@ -4,6 +4,10 @@ description: Apply proven SwiftUI UI patterns for navigation, sheets, async stat
 risk: safe
 source: "Dimillian/Skills (MIT)"
 date_added: "2026-03-25"
+tags:
+  - domain/ui
+  - artifact/skill
+  - source/skills-design
 ---
 
 # SwiftUI UI Patterns
@@ -101,3 +105,10 @@ Use `references/components-index.md` as the entry point. Each component referenc
 - Create `references/<component>.md`.
 - Keep it short and actionable; link to concrete files in the current repo.
 - Update `references/components-index.md` with the new entry.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-design]] — Category: skills-design
+- [[MOC - UI Design]] — Design & UI
+

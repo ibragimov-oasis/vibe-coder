@@ -3,6 +3,10 @@ name: threejs-interaction
 description: Three.js interaction - raycasting, controls, mouse/touch input, object selection. Use when handling user input, implementing click detection, adding camera controls, or creating interactive 3D experiences.
 risk: unknown
 source: community
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 # Three.js Interaction
@@ -672,3 +676,9 @@ clickables.push(collisionMesh);
 - `threejs-fundamentals` - Camera and scene setup
 - `threejs-animation` - Animating interactions
 - `threejs-shaders` - Visual feedback effects
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

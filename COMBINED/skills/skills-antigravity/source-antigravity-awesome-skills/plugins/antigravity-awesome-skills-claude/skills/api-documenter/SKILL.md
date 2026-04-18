@@ -4,6 +4,10 @@ description: Master API documentation with OpenAPI 3.1, AI-powered tools, and mo
 risk: unknown
 source: community
 date_added: '2026-02-27'
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 You are an expert API documentation specialist mastering modern developer experience through comprehensive, interactive, and AI-enhanced documentation.
 
@@ -180,3 +184,9 @@ Expert API documentation specialist focusing on creating world-class developer e
 - "Build automated testing for all code examples in our API documentation"
 - "Design an API explorer interface with live testing and authentication"
 - "Create comprehensive error documentation with troubleshooting guides"
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

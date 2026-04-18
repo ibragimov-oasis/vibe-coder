@@ -3,6 +3,10 @@ name: odoo-inventory-optimizer
 description: "Expert guide for Odoo Inventory: stock valuation (FIFO/AVCO), reordering rules, putaway strategies, routes, and multi-warehouse configuration."
 risk: safe
 source: "self"
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 # Odoo Inventory Optimizer
@@ -109,3 +113,9 @@ Operations created automatically:
 - Does not cover **landed costs** (import duties, freight allocation to product cost) — that requires the `stock_landed_costs` module.
 - **Cross-warehouse stock transfers** have routing complexities (transit locations, intercompany invoicing) not fully covered here.
 - Automated inventory valuation requires the **Accounting** module; Community Edition installations without it cannot post stock journal entries.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

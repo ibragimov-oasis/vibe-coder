@@ -1,6 +1,10 @@
 ---
 name: tdd
 description: Generate tests, analyze coverage, and run TDD workflows. Usage: /tdd <generate|coverage|validate> [options]
+tags:
+  - domain/agents
+  - artifact/skill
+  - source/skills-claude
 ---
 
 # /tdd
@@ -34,3 +38,10 @@ Generate tests, analyze coverage, and validate test quality using the TDD Guide 
 
 ## Skill Reference
 → `engineering-team/tdd-guide/SKILL.md`
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+- [[MOC - Agents]] — Claude agents
+

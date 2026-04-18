@@ -4,6 +4,10 @@ description: Analyze Azure resource groups and generate detailed Mermaid archite
 license: Complete terms in LICENSE.txt
 metadata:
   author: Tom Meschter (tom.meschter@microsoft.com)
+tags:
+  - domain/agents
+  - artifact/skill
+  - source/skills-copilot
 ---
 
 # Azure Resource Visualizer - Architecture Diagram Generator
@@ -231,3 +235,10 @@ A successful analysis includes:
 - ✅ Professional, architect-level output
 
 Your goal is to provide clarity and insight into Azure architectures, making complex resource relationships easy to understand through excellent visualization.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-copilot]] — Category: skills-copilot
+- [[MOC - Agents]] — Copilot agents
+

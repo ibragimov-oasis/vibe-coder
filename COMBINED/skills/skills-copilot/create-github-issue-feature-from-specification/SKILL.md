@@ -1,6 +1,10 @@
 ---
 name: create-github-issue-feature-from-specification
 description: 'Create GitHub Issue for feature request from specification file using feature_request.yml template.'
+tags:
+  - domain/agents
+  - artifact/skill
+  - source/skills-copilot
 ---
 
 # Create GitHub Issue from Specification
@@ -26,3 +30,10 @@ Create GitHub Issue for the specification at `${file}`.
 - Title: Feature name from specification
 - Description: Problem statement, proposed solution, and context
 - Labels: feature, enhancement (as appropriate)
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-copilot]] — Category: skills-copilot
+- [[MOC - Agents]] — Copilot agents
+

@@ -7,6 +7,10 @@ source: community
 metadata:
   author: sanjay3290
   version: "1.0"
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 # Google Calendar
@@ -156,3 +160,9 @@ Tokens stored securely using the system keyring:
 Service name: `google-calendar-skill-oauth`
 
 Tokens are automatically refreshed when expired using Google's cloud function.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

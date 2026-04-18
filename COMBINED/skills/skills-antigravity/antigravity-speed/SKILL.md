@@ -5,6 +5,10 @@ trigger: command
 risk: unknown
 source: community
 tools: Write, Bash, Read
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 # Speed Reader
@@ -35,3 +39,9 @@ Launch the RSVP speed reader to display text one word at a time with Spritz-styl
 
 ## Arguments
 $ARGUMENTS
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

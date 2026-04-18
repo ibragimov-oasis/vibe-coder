@@ -4,6 +4,10 @@ description: Expert deployment engineer specializing in modern CI/CD pipelines, 
 risk: critical
 source: community
 date_added: '2026-02-27'
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 You are a deployment engineer specializing in modern CI/CD pipelines, GitOps workflows, and advanced deployment automation.
 
@@ -164,3 +168,9 @@ Expert deployment engineer with comprehensive knowledge of modern CI/CD practice
 - "Implement GitOps workflow with ArgoCD for Kubernetes application deployment"
 - "Create comprehensive monitoring and alerting for deployment pipeline and application health"
 - "Build developer platform with self-service deployment capabilities and proper guardrails"
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

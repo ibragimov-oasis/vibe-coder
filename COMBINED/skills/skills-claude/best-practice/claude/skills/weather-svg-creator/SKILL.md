@@ -1,6 +1,10 @@
 ---
 name: weather-svg-creator
 description: Creates an SVG weather card showing the current temperature for Dubai. Writes the SVG to orchestration-workflow/weather.svg and updates orchestration-workflow/output.md.
+tags:
+  - domain/agents
+  - artifact/skill
+  - source/skills-claude
 ---
 
 # Weather SVG Creator Skill
@@ -27,3 +31,10 @@ You will receive a temperature value and unit (Celsius or Fahrenheit) from the c
 
 - For SVG template, output template, and design specs, see [reference.md](reference.md)
 - For example input/output pairs, see [examples.md](examples.md)
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+- [[MOC - Agents]] — Claude agents
+

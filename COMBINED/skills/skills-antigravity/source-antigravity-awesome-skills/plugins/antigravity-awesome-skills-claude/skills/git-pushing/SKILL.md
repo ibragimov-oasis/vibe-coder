@@ -4,6 +4,10 @@ description: "Stage all changes, create a conventional commit, and push to the r
 risk: critical
 source: community
 date_added: "2026-02-27"
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 # Git Push Workflow
@@ -33,3 +37,9 @@ bash skills/git-pushing/scripts/smart_commit.sh "feat: add feature"
 ```
 
 Script handles: staging, conventional commit message, Claude footer, push with -u flag.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

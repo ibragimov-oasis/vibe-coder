@@ -4,6 +4,10 @@ description: "Implement secure API design patterns including authentication, aut
 risk: unknown
 source: community
 date_added: "2026-02-27"
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 # API Security Best Practices
@@ -908,3 +912,9 @@ app.post('/api/users', async (req, res) => {
 ---
 
 **Pro Tip:** Security is not a one-time task - regularly audit your APIs, keep dependencies updated, and stay informed about new vulnerabilities!
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

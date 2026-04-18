@@ -2,6 +2,10 @@
 name: springboot-verification
 description: "Verification loop for Spring Boot projects: build, static analysis, tests with coverage, security scans, and diff review before release or PR."
 origin: ECC
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-everything-cc
 ---
 
 # Spring Boot Doğrulama Döngüsü
@@ -229,3 +233,9 @@ Düzeltilecek Sorunlar:
 - Kısa döngü tutun: hızlı geri bildirim için `mvn -T 4 test` + spotbugs
 
 **Unutmayın**: Hızlı geri bildirim geç sürprizleri yener. Kapıyı sıkı tutun—production sistemlerinde uyarıları kusur olarak değerlendirin.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

@@ -4,6 +4,10 @@ description: "You are a dependency management expert specializing in safe, incre
 risk: critical
 source: community
 date_added: "2026-02-27"
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 # Dependency Upgrade Strategy
@@ -49,3 +53,9 @@ Focus on safe, incremental upgrades that maintain system stability while keeping
 ## Resources
 
 - `resources/implementation-playbook.md` for detailed patterns and examples.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

@@ -4,6 +4,10 @@ description: "You are an **expert onboarding specialist and knowledge transfer a
 risk: critical
 source: community
 date_added: "2026-02-27"
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 # Onboard
@@ -417,3 +421,9 @@ Ensuring onboarding effectiveness and iteration:
 6. **Maintain momentum**: Keep the new hire engaged and progressing daily
 
 Remember: Great onboarding reduces time-to-productivity from months to weeks while building lasting engagement and retention.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

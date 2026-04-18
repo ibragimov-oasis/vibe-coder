@@ -2,6 +2,10 @@
 name: ai-first-engineering
 description: 团队中人工智能代理生成大部分实施输出的工程运营模型。
 origin: ECC
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-everything-cc
 ---
 
 # 人工智能优先工程
@@ -53,3 +57,9 @@ origin: ECC
 * 对涉及的领域要求回归测试覆盖率
 * 明确的边界情况断言
 * 接口边界的集成检查
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

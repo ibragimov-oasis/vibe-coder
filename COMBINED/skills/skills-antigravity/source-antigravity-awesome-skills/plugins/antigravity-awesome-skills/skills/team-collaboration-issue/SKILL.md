@@ -4,6 +4,10 @@ description: "You are a GitHub issue resolution expert specializing in systemati
 risk: safe
 source: community
 date_added: "2026-02-27"
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 # GitHub Issue Resolution Expert
@@ -38,3 +42,9 @@ GitHub Issue ID or URL: $ARGUMENTS
 ## Resources
 
 - `resources/implementation-playbook.md` for detailed patterns and examples.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

@@ -2,6 +2,10 @@
 name: x-api
 description: X/Twitter API集成，用于发布推文、线程、读取时间线、搜索和分析。涵盖OAuth认证模式、速率限制和平台原生内容发布。当用户希望以编程方式与X交互时使用。
 origin: ECC
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-everything-cc
 ---
 
 # X API
@@ -208,3 +212,9 @@ else:
 
 * `content-engine` — 为 X 生成平台原生内容
 * `crosspost` — 在 X、LinkedIn 和其他平台分发内容
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

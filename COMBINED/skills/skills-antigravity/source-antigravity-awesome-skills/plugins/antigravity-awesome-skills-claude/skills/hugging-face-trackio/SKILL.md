@@ -3,6 +3,10 @@ source: "https://github.com/huggingface/skills/tree/main/skills/huggingface-trac
 name: hugging-face-trackio
 description: Track ML experiments with Trackio using Python logging, alerts, and CLI metric retrieval.
 risk: unknown
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 # Trackio - Experiment Tracking for ML Training
@@ -115,3 +119,9 @@ Then poll from a separate terminal/process:
 ```bash
 trackio list alerts --project my-project --json --since "2025-01-01T00:00:00"
 ```
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

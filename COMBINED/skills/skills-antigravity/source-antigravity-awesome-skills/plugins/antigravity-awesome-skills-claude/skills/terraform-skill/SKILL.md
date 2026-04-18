@@ -4,6 +4,10 @@ description: "Terraform infrastructure as code best practices"
 risk: safe
 source: "https://github.com/antonbabenko/terraform-skill"
 date_added: "2026-02-27"
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 # Terraform Skill for Claude
 
@@ -512,3 +516,9 @@ This skill uses **progressive disclosure** - essential information is in this ma
 This skill is licensed under the **Apache License 2.0**. See the LICENSE file for full terms.
 
 **Copyright © 2026 Anton Babenko**
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

@@ -1,6 +1,10 @@
 ---
 name: breakdown-feature-implementation
 description: 'Prompt for creating detailed feature implementation plans, following Epoch monorepo structure.'
+tags:
+  - domain/agents
+  - artifact/skill
+  - source/skills-copilot
 ---
 
 # Feature Implementation Plan Prompt
@@ -126,3 +130,10 @@ Recipe Library Page
 ## Context Template
 
 - **Feature PRD:** [The content of the Feature PRD markdown file]
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-copilot]] — Category: skills-copilot
+- [[MOC - Agents]] — Copilot agents
+

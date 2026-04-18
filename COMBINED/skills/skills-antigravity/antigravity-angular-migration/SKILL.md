@@ -4,6 +4,10 @@ description: "Master AngularJS to Angular migration, including hybrid apps, comp
 risk: unknown
 source: community
 date_added: "2026-02-27"
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 # Angular Migration
@@ -429,3 +433,9 @@ Phase 4: Cleanup (1-2 weeks)
 - Not handling scope properly
 - Mixing patterns (AngularJS + Angular)
 - Inadequate testing
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

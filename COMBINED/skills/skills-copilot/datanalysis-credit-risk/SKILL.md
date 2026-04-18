@@ -1,6 +1,10 @@
 ---
 name: datanalysis-credit-risk
 description: Credit risk data cleaning and variable screening pipeline for pre-loan modeling. Use when working with raw credit data that needs quality assessment,  missing value analysis, or variable selection before modeling. it covers data loading and formatting, abnormal period filtering, missing rate calculation, high-missing variable removal,low-IV variable filtering, high-PSI variable removal, Null Importance denoising, high-correlation variable removal, and cleaning report generation. Applicable scenarios arecredit risk data cleaning, variable screening, pre-loan modeling preprocessing.
+tags:
+  - domain/agents
+  - artifact/skill
+  - source/skills-copilot
 ---
 
 # Data Cleaning and Variable Screening
@@ -111,3 +115,10 @@ The generated Excel report contains the following sheets:
 - **Complete Report**: Generate complete Excel report containing details, statistics, and distributions
 - **Multi-process Support**: IV and PSI calculations support multi-process acceleration
 - **Organization-level Analysis**: Support organization-level statistics and modeling/OOS distinction
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-copilot]] — Category: skills-copilot
+- [[MOC - Agents]] — Copilot agents
+

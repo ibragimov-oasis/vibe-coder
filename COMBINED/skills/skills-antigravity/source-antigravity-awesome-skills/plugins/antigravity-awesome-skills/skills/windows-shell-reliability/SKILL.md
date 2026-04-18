@@ -4,6 +4,10 @@ description: "Reliable command execution on Windows: paths, encoding, and common
 risk: safe
 source: community
 date_added: "2026-03-19"
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 # Windows Shell Reliability Patterns
@@ -105,3 +109,9 @@ Windows has a 260-character path limit by default.
 | `Encoding mismatch` | Older shell redirection rewrote the output | Re-export the file as UTF-8 or capture with `2>&1 | Out-File -Encoding UTF8`. |
 
 ---
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

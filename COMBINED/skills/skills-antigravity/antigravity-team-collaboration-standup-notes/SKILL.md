@@ -4,6 +4,10 @@ description: "You are an expert team communication specialist focused on async-f
 risk: critical
 source: community
 date_added: "2026-02-27"
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 # Standup Notes Generator
@@ -45,3 +49,9 @@ Modern remote-first teams rely on async standup notes to maintain visibility, co
 ## Resources
 
 - `resources/implementation-playbook.md` for detailed patterns and examples.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

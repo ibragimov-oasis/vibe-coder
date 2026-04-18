@@ -3,6 +3,10 @@ name: debug-buttercup
 description: "All pods run in namespace crs. Use when pods in the crs namespace are in CrashLoopBackOff, OOMKilled, or restarting, multiple services restart simultaneously (cascade failure), or redis is unresponsive or showing AOF warnings."
 risk: unknown
 source: community
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 # Debug Buttercup
@@ -272,3 +276,9 @@ bash {baseDir}/scripts/diagnose.sh --full
 ```
 
 This collects pod status, events, resource usage, Redis health, and queue depths in one pass.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

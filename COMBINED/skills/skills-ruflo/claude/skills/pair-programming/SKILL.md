@@ -1,6 +1,10 @@
 ---
 name: Pair Programming
 description: AI-assisted pair programming with multiple modes (driver/navigator/switch), real-time verification, quality monitoring, and comprehensive testing. Supports TDD, debugging, refactoring, and learning sessions. Features automatic role switching, continuous code review, security scanning, and performance optimization with truth-score verification.
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-ruflo
 ---
 
 # Pair Programming
@@ -1200,3 +1204,9 @@ Default shortcuts:
 - `claude-flow pair profile` - Manage profiles
 - `claude-flow pair templates` - List templates
 - `claude-flow pair agents` - List available agents
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-ruflo]] — Category: skills-ruflo
+

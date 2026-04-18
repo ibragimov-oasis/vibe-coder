@@ -2,6 +2,10 @@
 name: x-api
 description: X/Twitter API integration for posting tweets, threads, reading timelines, search, and analytics. Covers OAuth auth patterns, rate limits, and platform-native content posting. Use when the user wants to interact with X programmatically.
 origin: ECC
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-everything-cc
 ---
 
 # X API
@@ -206,3 +210,9 @@ Use `content-engine` skill to generate platform-native content, then post via X 
 
 - `content-engine` — Generate platform-native content for X
 - `crosspost` — Distribute content across X, LinkedIn, and other platforms
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

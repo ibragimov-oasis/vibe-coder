@@ -4,6 +4,10 @@ description: "Complete guide to observability patterns for Istio, Linkerd, and s
 risk: critical
 source: community
 date_added: "2026-02-27"
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 # Service Mesh Observability
@@ -396,3 +400,9 @@ spec:
 - [Linkerd Observability](https://linkerd.io/2.14/features/dashboard/)
 - [OpenTelemetry](https://opentelemetry.io/)
 - [Kiali](https://kiali.io/)
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

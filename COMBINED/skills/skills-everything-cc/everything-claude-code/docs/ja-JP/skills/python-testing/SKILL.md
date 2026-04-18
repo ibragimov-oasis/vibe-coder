@@ -1,6 +1,10 @@
 ---
 name: python-testing
 description: pytest、TDD手法、フィクスチャ、モック、パラメータ化、カバレッジ要件を使用したPythonテスト戦略。
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-everything-cc
 ---
 
 # Pythonテストパターン
@@ -813,3 +817,9 @@ pytest --pdb
 | `assert` | シンプルで読みやすいアサーション |
 
 **覚えておいてください**: テストもコードです。それらをクリーンで、読みやすく、保守可能に保ちましょう。良いテストはバグをキャッチし、優れたテストはそれらを防ぎます。
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

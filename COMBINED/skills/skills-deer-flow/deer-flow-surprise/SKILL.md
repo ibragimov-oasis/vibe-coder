@@ -1,6 +1,10 @@
 ---
 name: surprise-me
 description: Create a delightful, unexpected "wow" experience for the user by dynamically discovering and creatively combining other enabled skills. Triggers when the user says "surprise me" or any request expressing a desire for an unexpected creative showcase. Also triggers when the user is bored, wants inspiration, or asks for "something interesting".
+tags:
+  - domain/orchestration
+  - artifact/skill
+  - source/skills-deer-flow
 ---
 
 # Surprise Me
@@ -51,3 +55,10 @@ Present the surprise with minimal spoilers. A short teaser line, then the artifa
 
 - **Good reveal:** "I made you something ✨" + [the artifact]
 - **Bad reveal:** "I decided to combine the pptx skill with the canvas-design skill to create a presentation about..." (kills the surprise)
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-deer-flow]] — Category: skills-deer-flow
+- [[MOC - Orchestration]] — DeerFlow research pipeline
+

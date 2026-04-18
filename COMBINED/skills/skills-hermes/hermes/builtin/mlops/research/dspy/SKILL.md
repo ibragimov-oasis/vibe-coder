@@ -8,7 +8,9 @@ dependencies: [dspy, openai, anthropic]
 metadata:
   hermes:
     tags: [Prompt Engineering, DSPy, Declarative Programming, RAG, Agents, Prompt Optimization, LM Programming, Stanford NLP, Automatic Optimization, Modular AI]
-
+  - domain/skills
+  - artifact/skill
+  - source/skills-hermes
 ---
 
 # DSPy: Declarative Language Model Programming
@@ -590,4 +592,8 @@ for call in dspy.settings.trace:
 - `references/optimizers.md` - Optimization algorithms (BootstrapFewShot, MIPRO, BootstrapFinetune)
 - `references/examples.md` - Real-world examples (RAG, agents, classifiers)
 
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-hermes]] — Category: skills-hermes
 

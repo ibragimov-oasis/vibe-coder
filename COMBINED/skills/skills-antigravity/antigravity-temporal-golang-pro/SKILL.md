@@ -4,6 +4,10 @@ description: "Use when building durable distributed systems with Temporal Go SDK
 risk: safe
 source: self
 date_added: "2026-02-27"
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 # Temporal Go SDK (temporal-golang-pro)
@@ -214,3 +218,9 @@ func ApprovalWorkflow(ctx workflow.Context) (string, error) {
 - `grpc-golang` - Internal transport protocol and Protobuf design.
 - `golang-pro` - General Go performance tuning and advanced syntax.
 - `workflow-orchestration-patterns` - Language-agnostic orchestration strategy.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

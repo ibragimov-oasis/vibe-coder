@@ -1,6 +1,10 @@
 ---
 name: agent-collective-intelligence-coordinator
 description: Agent skill for collective-intelligence-coordinator - invoke with $agent-collective-intelligence-coordinator
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-ruflo
 ---
 
 ---
@@ -133,3 +137,9 @@ mcp__claude-flow__memory_usage {
 - Implement quorum-based recovery
 - Maintain decision audit trail
 - Support rollback mechanisms
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-ruflo]] — Category: skills-ruflo
+

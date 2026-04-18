@@ -1,6 +1,10 @@
 ---
 name: gen-specs-as-issues
 description: 'This workflow guides you through a systematic approach to identify missing features, prioritize them, and create detailed specifications for implementation.'
+tags:
+  - domain/agents
+  - artifact/skill
+  - source/skills-copilot
 ---
 
 # Product Manager Assistant: Feature Identification and Specification
@@ -163,3 +167,10 @@ Remember throughout this process:
 - Consider the open-source community and contribution model
 
 This workflow embodiment of our approach should help maintain consistency in how features are specified and prioritized, ensuring that software projects evolve in a thoughtful, user-centered way.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-copilot]] — Category: skills-copilot
+- [[MOC - Agents]] — Copilot agents
+

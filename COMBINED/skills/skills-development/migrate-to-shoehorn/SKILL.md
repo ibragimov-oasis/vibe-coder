@@ -1,6 +1,10 @@
 ---
 name: migrate-to-shoehorn
 description: Migrate test files from `as` type assertions to @total-typescript/shoehorn. Use when user mentions shoehorn, wants to replace `as` in tests, or needs partial test data.
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-development
 ---
 
 # Migrate to Shoehorn
@@ -116,3 +120,9 @@ getUser(fromAny({ body: { id: 123 } }));
    - [ ] Replace `as unknown as Type` with `fromAny()`
    - [ ] Add imports from `@total-typescript/shoehorn`
    - [ ] Run type check to verify
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-development]] — Category: skills-development
+

@@ -4,6 +4,10 @@ description: "To provide a comprehensive reference for configuring and using Cla
 risk: unknown
 source: community
 date_added: "2026-02-27"
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 # Claude Code Guide
@@ -72,3 +76,9 @@ Based on [Claude Code Guide by zebbern](https://github.com/zebbern/claude-code-g
 
 ## When to Use
 This skill is applicable to execute the workflow or actions described in the overview.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

@@ -6,6 +6,10 @@ description: >
   setting up containerized development environments or reviewing Docker configurations.
 metadata:
   origin: ECC
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-everything-cc
 ---
 
 # Docker Patterns
@@ -374,3 +378,9 @@ docker network inspect <project>_default
 - Troubleshooting container issues
 - Reviewing Dockerfiles for security
 - Implementing container best practices
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

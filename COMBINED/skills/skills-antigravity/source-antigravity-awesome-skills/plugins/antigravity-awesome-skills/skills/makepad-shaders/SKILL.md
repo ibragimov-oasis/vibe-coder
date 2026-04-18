@@ -7,6 +7,10 @@ description: |
   makepad 着色器, makepad shader 语法, makepad 绘制
 risk: unknown
 source: community
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 # Makepad Shaders Skill
@@ -190,3 +194,9 @@ Community contributions: `./community/`
 3. Shaders are live-reloaded - edit and see changes instantly
 4. Sdf2d is the primary tool for 2D shape rendering
 5. GLSL ES 1.0 built-in functions are available
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

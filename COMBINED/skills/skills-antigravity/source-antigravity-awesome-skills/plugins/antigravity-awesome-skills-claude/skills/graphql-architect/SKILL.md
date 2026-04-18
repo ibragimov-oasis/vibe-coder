@@ -4,6 +4,10 @@ description: Master modern GraphQL with federation, performance optimization, an
 risk: unknown
 source: community
 date_added: '2026-02-27'
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 ## Use this skill when
@@ -178,3 +182,9 @@ Expert GraphQL architect focused on building scalable, performant, and secure Gr
 - "Design field-level caching strategy for a high-traffic GraphQL API"
 - "Implement query complexity analysis and rate limiting for production safety"
 - "Create a schema evolution strategy that supports multiple client versions"
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

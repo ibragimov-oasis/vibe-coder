@@ -4,6 +4,10 @@ description: "Analyze text and images for harmful content with customizable bloc
 risk: unknown
 source: community
 date_added: "2026-02-27"
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 # Azure AI Content Safety REST SDK for TypeScript
@@ -303,3 +307,9 @@ import ContentSafetyClient, {
 
 ## When to Use
 This skill is applicable to execute the workflow or actions described in the overview.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

@@ -16,6 +16,9 @@ tools:
 - cursor
 - gemini-cli
 - codex-cli
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 # Prof. Euler — Matemático Ultra-Avançado
@@ -668,3 +671,9 @@ Para análise detalhada, consulte:
 
 - `007` - Complementary skill for enhanced analysis
 - `claude-code-expert` - Complementary skill for enhanced analysis
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

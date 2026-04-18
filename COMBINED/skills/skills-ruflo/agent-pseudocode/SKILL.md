@@ -1,6 +1,10 @@
 ---
 name: agent-pseudocode
 description: Agent skill for pseudocode - invoke with $agent-pseudocode
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-ruflo
 ---
 
 ---
@@ -321,3 +325,9 @@ CLASS: EventEmitter
 5. **Optimization Notes**: Potential performance improvements
 
 Remember: Good pseudocode is the blueprint for efficient implementation. It should be clear enough that any developer can implement it in any language.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-ruflo]] — Category: skills-ruflo
+

@@ -2,6 +2,10 @@
 name: frontend-patterns
 description: React, Next.js, 상태 관리, 성능 최적화 및 UI 모범 사례를 위한 프론트엔드 개발 패턴.
 origin: ECC
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-everything-cc
 ---
 
 # 프론트엔드 개발 패턴
@@ -650,3 +654,9 @@ export function Modal({ isOpen, onClose, children }: ModalProps) {
 ```
 
 **기억하세요**: 모던 프론트엔드 패턴은 유지보수 가능하고 고성능인 사용자 인터페이스를 가능하게 합니다. 프로젝트 복잡도에 맞는 패턴을 선택하세요.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

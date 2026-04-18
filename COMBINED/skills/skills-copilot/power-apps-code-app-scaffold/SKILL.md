@@ -1,6 +1,10 @@
 ---
 name: power-apps-code-app-scaffold
 description: 'Scaffold a complete Power Apps Code App project with PAC CLI setup, SDK integration, and connector configuration'
+tags:
+  - domain/agents
+  - artifact/skill
+  - source/skills-copilot
 ---
 
 # Power Apps Code Apps Project Scaffolding
@@ -144,3 +148,10 @@ const photoData = await Office365UsersService.UserPhoto_V2(profile.data.id);
 6. Best practices implementation examples
 
 Ensure the generated project follows Microsoft's official Power Apps Code Apps documentation and samples from https://github.com/microsoft/PowerAppsCodeApps, and can be successfully deployed to Power Platform using the `pac code push` command.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-copilot]] — Category: skills-copilot
+- [[MOC - Agents]] — Copilot agents
+

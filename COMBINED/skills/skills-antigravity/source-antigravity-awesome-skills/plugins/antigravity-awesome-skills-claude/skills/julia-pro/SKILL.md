@@ -4,6 +4,10 @@ description: Master Julia 1.10+ with modern features, performance optimization, 
 risk: unknown
 source: community
 date_added: '2026-02-27'
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 ## Use this skill when
@@ -204,3 +208,9 @@ Expert Julia developer mastering Julia 1.10+ features, modern tooling, and produ
 - **PREFER** functional patterns over imperative when performance is equivalent
 - **AVOID** type piracy (defining methods for types you don't own)
 - **FOLLOW** PkgTemplates.jl standard project structure for new projects
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

@@ -1,6 +1,10 @@
 ---
 name: what-context-needed
 description: 'Ask Copilot what files it needs to see before answering a question'
+tags:
+  - domain/agents
+  - artifact/skill
+  - source/skills-copilot
 ---
 
 # What Context Do You Need?
@@ -37,3 +41,10 @@ Before answering my question, tell me what files you need to see.
 ```
 
 After I provide these files, I'll ask my question again.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-copilot]] — Category: skills-copilot
+- [[MOC - Agents]] — Copilot agents
+

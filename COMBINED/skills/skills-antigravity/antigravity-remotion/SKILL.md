@@ -10,6 +10,10 @@ allowed-tools:
   - "web_fetch"
 risk: unknown
 source: community
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 # Stitch to Remotion Walkthrough Videos
@@ -397,3 +401,9 @@ that shows a walkthrough of the screens.
 
 ## When to Use
 Use this skill when tackling tasks related to its primary domain or functionality as described above.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

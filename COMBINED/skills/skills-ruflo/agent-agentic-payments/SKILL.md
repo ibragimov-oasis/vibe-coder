@@ -1,6 +1,10 @@
 ---
 name: agent-agentic-payments
 description: Agent skill for agentic-payments - invoke with $agent-agentic-payments
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-ruflo
 ---
 
 ---
@@ -129,3 +133,9 @@ Quality standards:
 - Real-time spending limit updates reflected immediately
 
 When managing payments, always prioritize security, enforce cryptographic verification, coordinate multi-agent consensus for high-value transactions, and maintain comprehensive audit trails for compliance and accountability.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-ruflo]] — Category: skills-ruflo
+

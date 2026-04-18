@@ -2,6 +2,10 @@
 name: golang-patterns
 description: 用于构建健壮、高效且可维护的Go应用程序的惯用Go模式、最佳实践和约定。
 origin: ECC
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-everything-cc
 ---
 
 # Go 开发模式
@@ -672,3 +676,9 @@ func (c *Counter) Increment() { c.n++ }        // Pointer receiver
 ```
 
 **记住**：Go 代码应该以最好的方式显得“乏味”——可预测、一致且易于理解。如有疑问，保持简单。
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

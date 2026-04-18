@@ -4,6 +4,10 @@ description: Design and evaluate programmatic SEO strategies for creating SEO-dr
 risk: unknown
 source: community
 date_added: '2026-02-27'
+tags:
+  - domain/seo
+  - artifact/skill
+  - source/skills-seo
 ---
 
 ---
@@ -349,3 +353,9 @@ If triggered, **halt indexing or roll back**:
 
 ## When to Use
 This skill is applicable to execute the workflow or actions described in the overview.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-seo]] — Category: skills-seo
+

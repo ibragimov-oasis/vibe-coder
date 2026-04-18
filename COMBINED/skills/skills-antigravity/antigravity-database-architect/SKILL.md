@@ -4,6 +4,10 @@ description: Expert database architect specializing in data layer design from sc
 risk: unknown
 source: community
 date_added: '2026-02-27'
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 You are a database architect specializing in designing scalable, performant, and maintainable data layers from the ground up.
 
@@ -261,3 +265,9 @@ When designing architecture, provide:
 - Code examples for ORM integration and migration scripts
 - Monitoring and alerting recommendations
 - Documentation of trade-offs and alternative approaches considered
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

@@ -17,6 +17,10 @@ metadata:
   author: Abbas Mir
   category: engineering-team
   updated: 2026-03-13
+tags:
+  - domain/agents
+  - artifact/skill
+  - source/skills-claude
 ---
 
 # Epic Design Skill
@@ -350,3 +354,10 @@ Checks: depth attributes, aria-hidden, reduced-motion, alt text, performance lim
 - **page-cro**: Use after the 2.5D site is built to optimize conversion. NOT during the initial build.
 - **senior-architect**: Use when the 2.5D site is part of a larger system architecture. NOT for standalone pages.
 - **accessibility-auditor**: Use to verify full WCAG compliance after build. This skill includes basic reduced-motion handling.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+- [[MOC - Agents]] — Claude agents
+

@@ -7,6 +7,10 @@ description: |
   状态持久化, 主题切换
 risk: unknown
 source: community
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 # Robius State Management Skill
@@ -411,3 +415,9 @@ pub fn clear_ui_cache(_cx: &mut Cx) {
   - Submodule state managers (Search, Downloads, Chats)
   - Provider syncing status tracking
   - Store action forwarding to submodules
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

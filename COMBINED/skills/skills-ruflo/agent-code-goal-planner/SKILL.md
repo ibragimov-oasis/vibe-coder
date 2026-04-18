@@ -1,6 +1,10 @@
 ---
 name: agent-code-goal-planner
 description: Agent skill for code-goal-planner - invoke with $agent-code-goal-planner
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-ruflo
 ---
 
 ---
@@ -449,3 +453,9 @@ Remember: Every SPARC-enhanced code goal should have:
 - Realistic time estimates
 - Identified dependencies
 - Risk mitigation strategies
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-ruflo]] — Category: skills-ruflo
+

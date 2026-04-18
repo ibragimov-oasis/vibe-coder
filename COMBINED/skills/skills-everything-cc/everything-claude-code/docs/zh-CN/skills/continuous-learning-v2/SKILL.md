@@ -3,6 +3,10 @@ name: continuous-learning-v2
 description: 基于本能的学习系统，通过钩子观察会话，创建带置信度评分的原子本能，并将其进化为技能/命令/代理。v2.1版本增加了项目范围的本能，以防止跨项目污染。
 origin: ECC
 version: 2.1.0
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-everything-cc
 ---
 
 # 持续学习 v2.1 - 基于本能
@@ -370,3 +374,9 @@ v2.1 与 v2.0 和 v1 完全兼容：
 ***
 
 *基于本能的学习：一次一个项目，教会 Claude 您的模式。*
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

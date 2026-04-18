@@ -8,6 +8,9 @@ platforms: [macos]
 metadata:
   hermes:
     tags: [FindMy, AirTag, location, tracking, macOS, Apple]
+  - domain/skills
+  - artifact/skill
+  - source/skills-hermes
 ---
 
 # Find My (Apple)
@@ -129,3 +132,9 @@ Analyze each screenshot with vision to extract coordinates, then compile a route
 2. Use `vision_analyze` to read screenshot content — don't try to parse pixels
 3. For ongoing tracking, use a cronjob to periodically capture and log locations
 4. Respect privacy — only track devices/items the user owns
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-hermes]] — Category: skills-hermes
+

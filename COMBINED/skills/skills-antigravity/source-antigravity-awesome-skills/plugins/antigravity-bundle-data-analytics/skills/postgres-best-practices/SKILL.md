@@ -4,6 +4,10 @@ description: "Postgres performance optimization and best practices from Supabase
 risk: safe
 source: community
 date_added: "2026-02-27"
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 # Supabase Postgres Best Practices
@@ -56,3 +60,9 @@ For the complete guide with all rules expanded: `AGENTS.md`
 
 ## When to Use
 This skill is applicable to execute the workflow or actions described in the overview.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

@@ -4,6 +4,10 @@ description: >
   GitHub workflow automation, PR management, issue tracking, and code review coordination. Integrates with GitHub Actions and repository management.
   Use when: PR creation, code review, issue management, release automation, workflow setup.
   Skip when: local-only changes, non-GitHub repositories.
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-ruflo
 ---
 
 # GitHub Automation Skill
@@ -61,3 +65,9 @@ npx claude-flow deployment release --version 1.0.0
 2. Require reviews before merge
 3. Run CI on all PRs
 4. Automate release notes
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-ruflo]] — Category: skills-ruflo
+

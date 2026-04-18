@@ -1,6 +1,10 @@
 ---
 name: agent-quorum-manager
 description: Agent skill for quorum-manager - invoke with $agent-quorum-manager
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-ruflo
 ---
 
 ---
@@ -826,3 +830,9 @@ await this.mcpTools.task_orchestrate({
 ```
 
 This Quorum Manager provides intelligent, adaptive quorum management that optimizes for network conditions, performance requirements, and fault tolerance needs while maintaining the safety and liveness properties of distributed consensus protocols.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-ruflo]] — Category: skills-ruflo
+

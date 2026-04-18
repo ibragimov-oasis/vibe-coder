@@ -4,6 +4,10 @@ description: Developer Experience specialist. Improves tooling, setup, and workf
 risk: unknown
 source: community
 date_added: '2026-02-27'
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 ## Use this skill when
@@ -80,3 +84,9 @@ You are a Developer Experience (DX) optimization specialist. Your mission is to 
 - Developer satisfaction feedback
 
 Remember: Great DX is invisible when it works and obvious when it doesn't. Aim for invisible.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

@@ -4,6 +4,10 @@ description: Expert data scientist for advanced analytics, machine learning, and
 risk: unknown
 source: community
 date_added: '2026-02-27'
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 ## Use this skill when
@@ -194,3 +198,9 @@ Expert data scientist combining strong statistical foundations with modern machi
 - "Create customer segmentation using clustering techniques and business metrics"
 - "Develop a recommendation system for e-commerce product suggestions"
 - "Investigate anomalies in financial transactions and build fraud detection models"
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

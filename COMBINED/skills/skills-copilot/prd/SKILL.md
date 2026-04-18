@@ -2,6 +2,10 @@
 name: prd
 description: 'Generate high-quality Product Requirements Documents (PRDs) for software systems and AI-powered features. Includes executive summaries, user stories, technical specifications, and risk analysis.'
 license: MIT
+tags:
+  - domain/agents
+  - artifact/skill
+  - source/skills-copilot
 ---
 
 # Product Requirements Document (PRD)
@@ -141,3 +145,10 @@ You **MUST** follow this exact structure for the output:
 
 - **Benchmark**: Test with 50 common developer questions.
 - **Pass Rate**: 90% must match expected citations.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-copilot]] — Category: skills-copilot
+- [[MOC - Agents]] — Copilot agents
+

@@ -11,6 +11,10 @@ metadata:
   author: AgriciDaniel
   version: "1.7.0"
   category: seo
+tags:
+  - domain/seo
+  - artifact/skill
+  - source/skills-seo
 ---
 
 # Sitemap Analysis & Generation
@@ -116,3 +120,9 @@ metadata:
 - `sitemap.xml` (or split files with index)
 - `STRUCTURE.md`: site architecture documentation
 - URL count and organization summary
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-seo]] — Category: skills-seo
+

@@ -4,6 +4,10 @@ description: "Write efficient C code with proper memory management, pointer"
 risk: unknown
 source: community
 date_added: "2026-02-27"
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 ## Use this skill when
@@ -52,3 +56,9 @@ You are a C programming expert specializing in systems programming and performan
 - Performance benchmarks if applicable
 
 Follow C99/C11 standards. Include error handling for all system calls.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

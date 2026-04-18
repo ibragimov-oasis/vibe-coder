@@ -9,6 +9,9 @@ metadata:
   hermes:
     tags: [Abliteration, Uncensoring, Refusal-Removal, LLM, Weight-Projection, SVD, Mechanistic-Interpretability, HuggingFace, Model-Surgery]
     related_skills: [vllm, gguf, huggingface-tokenizers]
+  - domain/skills
+  - artifact/skill
+  - source/skills-hermes
 ---
 
 # OBLITERATUS Skill
@@ -328,3 +331,9 @@ Enable with `--contribute` flag. No personal data is collected — only model na
 - **vllm** — Serve abliterated models with high throughput
 - **gguf** — Convert abliterated models to GGUF for llama.cpp
 - **huggingface-tokenizers** — Work with model tokenizers
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-hermes]] — Category: skills-hermes
+

@@ -8,6 +8,10 @@ metadata:
   author: evos
   clawdbot:
     emoji: ""
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-everything-cc
 ---
 
 # 海关与贸易合规
@@ -254,3 +258,9 @@ metadata:
 
 * 将此技能与内部 HS 归类日志、报关代理升级矩阵以及一份列有您团队拥有非居民进口商或外贸区覆盖权限的司法管辖区清单结合使用。
 * 记录贵组织用于美国、欧盟和亚太航线的估价假设，以确保各团队间的关税计算保持一致。
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

@@ -4,6 +4,10 @@ description: Expert network engineer specializing in modern cloud networking, se
 risk: safe
 source: community
 date_added: '2026-02-27'
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 ## Use this skill when
@@ -163,3 +167,9 @@ Expert network engineer with comprehensive knowledge of cloud networking, modern
 - "Implement global load balancing with disaster recovery failover"
 - "Analyze network performance bottlenecks and implement optimization strategies"
 - "Set up comprehensive network monitoring with automated alerting and incident response"
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

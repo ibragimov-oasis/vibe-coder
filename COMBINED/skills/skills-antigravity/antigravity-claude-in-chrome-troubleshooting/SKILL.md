@@ -3,6 +3,10 @@ name: claude-in-chrome-troubleshooting
 description: Diagnose and fix Claude in Chrome MCP extension connectivity issues. Use when mcp__claude-in-chrome__* tools fail, return "Browser extension is not connected", or behave erratically.
 risk: critical
 source: community
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 # Claude in Chrome MCP Troubleshooting
@@ -250,3 +254,9 @@ echo "Expected: $(getconf DARWIN_USER_TEMP_DIR)"
 ---
 
 *Original skill by [@jeffzwang](https://github.com/jeffzwang) from [@ExaAILabs](https://github.com/ExaAILabs). Enhanced and updated for current versions of Claude Desktop and Claude Code.*
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

@@ -5,6 +5,10 @@ license: MIT
 compatibility: Python 3.11+
 metadata:
   version: 0.1.11
+tags:
+  - domain/agents
+  - artifact/skill
+  - source/skills-copilot
 ---
 
 # Evaluation-Driven Development for Python LLM Applications
@@ -860,3 +864,10 @@ pixie test pixie_qa/tests/test_<feature>.py -v
 ## Reference
 
 See `references/pixie-api.md` for all CLI commands, evaluator signatures, and the Python dataset/store API.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-copilot]] — Category: skills-copilot
+- [[MOC - Agents]] — Copilot agents
+

@@ -8,6 +8,10 @@ metadata:
   author: evos
   clawdbot:
     emoji: ""
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-everything-cc
 ---
 
 # 能源采购
@@ -218,3 +222,9 @@ metadata:
 
 * 在本技能之外，还需维护经批准的内部对冲政策、交易对手名单和费率变更日历。
 * 将特定设施的负荷曲线和公用事业合同元数据保持在规划工作流附近，以确保建议基于实际需求模式。
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

@@ -5,6 +5,9 @@ version: 1.0.0
 metadata:
   hermes:
     tags: [webhook, events, automation, integrations]
+  - domain/skills
+  - artifact/skill
+  - source/skills-hermes
 ---
 
 # Webhook Subscriptions
@@ -178,3 +181,9 @@ If webhooks aren't working:
 4. **Signature mismatch?** Verify the secret in your service matches the one from `hermes webhook list`. GitHub sends `X-Hub-Signature-256`, GitLab sends `X-Gitlab-Token`.
 5. **Firewall/NAT?** The webhook URL must be reachable from the service. For local development, use a tunnel (ngrok, cloudflared).
 6. **Wrong event type?** Check `--events` filter matches what the service sends. Use `hermes webhook test <name>` to verify the route works.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-hermes]] — Category: skills-hermes
+

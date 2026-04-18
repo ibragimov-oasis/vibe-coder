@@ -4,6 +4,10 @@ description: >-
   Review Playwright tests for quality. Use when user says "review tests",
   "check test quality", "audit tests", "improve tests", "test code review",
   or "playwright best practices check".
+tags:
+  - domain/agents
+  - artifact/skill
+  - source/skills-claude
 ---
 
 # Review Playwright Tests
@@ -100,3 +104,10 @@ If yes, apply all fixes using `Edit` tool.
 - Summary: total files, average score, critical issue count
 - Actionable fix list
 - Coverage gaps identified (pages/features with no tests)
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+- [[MOC - Agents]] — Claude agents
+

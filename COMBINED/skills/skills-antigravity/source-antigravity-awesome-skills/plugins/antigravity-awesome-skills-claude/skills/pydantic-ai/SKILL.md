@@ -8,6 +8,9 @@ date_added: "2026-03-18"
 author: suhaibjanjua
 tags: [pydantic-ai, ai-agents, llm, openai, anthropic, gemini, tool-use, structured-output, python]
 tools: [claude, cursor, gemini]
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 # PydanticAI — Typed AI Agents in Python
@@ -348,3 +351,9 @@ async def research_and_write(topic: str) -> BlogPost:
 - `@llm-application-dev-ai-assistant` — General LLM application development patterns
 - `@fastapi-templates` — Serving PydanticAI agents via FastAPI endpoints
 - `@agent-orchestration-multi-agent-optimize` — Orchestrating multiple PydanticAI agents
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

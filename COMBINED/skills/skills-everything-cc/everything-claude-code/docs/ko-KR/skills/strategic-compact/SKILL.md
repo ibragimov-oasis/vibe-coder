@@ -2,6 +2,10 @@
 name: strategic-compact
 description: 임의의 자동 컴팩션 대신 논리적 간격에서 수동 컨텍스트 압축을 제안하여 작업 단계를 통해 컨텍스트를 보존합니다.
 origin: ECC
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-everything-cc
 ---
 
 # 전략적 컴팩트 스킬
@@ -103,3 +107,9 @@ origin: ECC
 - [The Longform Guide](https://x.com/affaanmustafa/status/2014040193557471352) -- 토큰 최적화 섹션
 - 메모리 영속성 Hook -- 컴팩션에서 살아남는 상태를 위해
 - `continuous-learning` 스킬 -- 세션 종료 전 패턴 추출
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

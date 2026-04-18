@@ -2,6 +2,10 @@
 name: "spawn"
 description: "Launch N parallel subagents in isolated git worktrees to compete on the session task."
 command: /hub:spawn
+tags:
+  - domain/agents
+  - artifact/skill
+  - source/skills-claude
 ---
 
 # /hub:spawn — Launch Parallel Agents
@@ -81,3 +85,10 @@ Tell the user:
 - Each working in an isolated worktree
 - Monitor with `/hub:status`
 - Evaluate when done with `/hub:eval`
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+- [[MOC - Agents]] — Claude agents
+

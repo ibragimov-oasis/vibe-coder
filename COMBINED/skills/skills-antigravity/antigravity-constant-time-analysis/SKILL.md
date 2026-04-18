@@ -3,6 +3,10 @@ name: constant-time-analysis
 description: "Analyze cryptographic code to detect operations that leak secret data through execution timing variations."
 risk: unknown
 source: community
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 # Constant-Time Analysis
@@ -218,3 +222,9 @@ For each flagged violation, ask: **Does this operation's input depend on secret 
 - [Cryptocoding Guidelines](https://github.com/veorq/cryptocoding) - Defensive coding for crypto
 - [KyberSlash](https://kyberslash.cr.yp.to/) - Division timing in post-quantum crypto
 - [BearSSL Constant-Time](https://www.bearssl.org/constanttime.html) - Practical constant-time techniques
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

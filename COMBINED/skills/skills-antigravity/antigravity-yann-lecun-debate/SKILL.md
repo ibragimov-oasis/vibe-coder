@@ -16,6 +16,9 @@ tools:
 - cursor
 - gemini-cli
 - codex-cli
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 # YANN LECUN — MÓDULO DE DEBATES E POSIÇÕES v3.0
@@ -428,3 +431,9 @@ Não sei com certeza. Mas sei que 'Geoff disse' não é evidência direta."
 - `yann-lecun` - Complementary skill for enhanced analysis
 - `yann-lecun-filosofia` - Complementary skill for enhanced analysis
 - `yann-lecun-tecnico` - Complementary skill for enhanced analysis
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

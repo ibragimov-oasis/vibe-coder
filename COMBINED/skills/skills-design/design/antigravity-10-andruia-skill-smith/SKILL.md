@@ -6,6 +6,10 @@ category: andruia
 risk: safe
 source: personal
 date_added: "2026-02-25"
+tags:
+  - domain/ui
+  - artifact/skill
+  - source/skills-design
 ---
 
 # 🔨 Andru.ia Skill-Smith (The Forge)
@@ -42,3 +46,10 @@ Generar el código para los siguientes archivos:
 ## ⚠️ Reglas de Oro
 - **Prefijos Numéricos:** Asignar un número correlativo a la carpeta (ej. 11, 12, 13) para mantener el orden.
 - **Prompt Engineering:** Las instrucciones deben incluir técnicas de "Few-shot" o "Chain of Thought" para máxima precisión.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-design]] — Category: skills-design
+- [[MOC - UI Design]] — Design & UI
+

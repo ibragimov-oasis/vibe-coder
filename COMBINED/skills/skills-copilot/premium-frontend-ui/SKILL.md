@@ -1,6 +1,10 @@
 ---
 name: premium-frontend-ui
 description: 'A comprehensive guide for GitHub Copilot to craft immersive, high-performance web experiences with advanced motion, typography, and architectural craftsmanship.'
+tags:
+  - domain/agents
+  - artifact/skill
+  - source/skills-copilot
 ---
 
 # Immersive Frontend UI Craftsmanship
@@ -108,3 +112,10 @@ Whenever you receive a prompt to "Build a premium landing page," "Create an Awww
 3. Integrate sweeping, staggered component entrances.
 4. Elevate the typography using fluid scales.
 5. Create an intentional, memorable aesthetic footprint.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-copilot]] — Category: skills-copilot
+- [[MOC - Agents]] — Copilot agents
+

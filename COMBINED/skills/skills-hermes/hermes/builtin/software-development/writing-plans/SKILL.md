@@ -8,6 +8,9 @@ metadata:
   hermes:
     tags: [planning, design, implementation, workflow, documentation]
     related_skills: [subagent-driven-development, test-driven-development, requesting-code-review]
+  - domain/skills
+  - artifact/skill
+  - source/skills-hermes
 ---
 
 # Writing Implementation Plans
@@ -294,3 +297,9 @@ Frequent commits
 ```
 
 **A good plan makes implementation obvious.**
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-hermes]] — Category: skills-hermes
+

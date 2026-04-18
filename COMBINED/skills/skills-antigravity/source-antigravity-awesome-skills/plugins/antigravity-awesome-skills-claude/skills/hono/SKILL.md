@@ -8,6 +8,9 @@ date_added: "2026-03-18"
 author: suhaibjanjua
 tags: [hono, edge, cloudflare-workers, bun, deno, api, typescript, web-standards]
 tools: [claude, cursor, gemini]
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 # Hono Web Framework
@@ -346,3 +349,9 @@ app.get('/stream', c =>
 - `@trpc-fullstack` — Alternative RPC approach for TypeScript full-stack apps
 - `@zod-validation-expert` — Detailed Zod schema patterns used with `@hono/zod-validator`
 - `@nodejs-backend-patterns` — When you need a Node.js-specific backend (not edge)
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

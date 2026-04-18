@@ -7,6 +7,10 @@ description: >
 metadata:
   origin: ECC
   globs: ["**/*.py", "**/*.pyi"]
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-everything-cc
 ---
 
 # Python Testing
@@ -495,3 +499,9 @@ pytest --ff
 - Debugging flaky tests
 - Implementing integration tests
 - Testing async Python code
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

@@ -12,6 +12,9 @@ metadata:
   hermes:
     tags: [twitter, x, social-media, x-cli]
     homepage: https://github.com/Infatoshi/x-cli
+  - domain/skills
+  - artifact/skill
+  - source/skills-hermes
 ---
 
 # Xitter — X/Twitter via x-cli
@@ -200,3 +203,9 @@ Recommended defaults:
 - Use tweet URLs or IDs interchangeably — `x-cli` accepts both.
 - If bookmark behavior changes upstream, check the upstream README first:
   https://github.com/Infatoshi/x-cli
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-hermes]] — Category: skills-hermes
+

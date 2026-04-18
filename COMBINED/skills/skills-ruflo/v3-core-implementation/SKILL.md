@@ -1,6 +1,10 @@
 ---
 name: "V3 Core Implementation"
 description: "Core module implementation for claude-flow v3. Implements DDD domains, clean architecture patterns, dependency injection, and modular TypeScript codebase with comprehensive testing."
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-ruflo
 ---
 
 # V3 Core Implementation
@@ -795,3 +799,9 @@ Task("Task domain implementation",
      "Implement task management domain with entities, services, and repositories",
      "core-implementer")
 ```
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-ruflo]] — Category: skills-ruflo
+

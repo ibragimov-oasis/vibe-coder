@@ -4,6 +4,10 @@ description: "Comprehensive guide to tracking, calculating, and optimizing key p
 risk: safe
 source: community
 date_added: '2026-02-27'
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 # Startup Metrics Framework
@@ -30,3 +34,9 @@ Comprehensive guide to tracking, calculating, and optimizing key performance met
 ## Resources
 
 - `resources/implementation-playbook.md` for detailed patterns and examples.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

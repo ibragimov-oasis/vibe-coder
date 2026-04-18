@@ -4,6 +4,10 @@ description: >
   Multi-agent swarm coordination for complex tasks. Uses hierarchical topology with specialized agents to break down and execute complex work across multiple files and modules.
   Use when: 3+ files need changes, new feature implementation, cross-module refactoring, API changes with tests, security-related changes, performance optimization across codebase, database schema changes.
   Skip when: single file edits, simple bug fixes (1-2 lines), documentation updates, configuration changes, quick exploration.
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-ruflo
 ---
 
 # Swarm Orchestration Skill
@@ -112,3 +116,9 @@ npx @claude-flow/cli agent list --filter active
 2. Use hierarchical topology for coordination
 3. Store successful patterns after completion
 4. Document any new learnings
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-ruflo]] — Category: skills-ruflo
+

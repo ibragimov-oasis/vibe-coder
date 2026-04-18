@@ -3,6 +3,10 @@ source: "https://github.com/huggingface/skills/tree/main/skills/huggingface-grad
 name: hugging-face-gradio
 description: Build or edit Gradio apps, layouts, components, and chat interfaces in Python.
 risk: unknown
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 # Gradio
@@ -302,3 +306,9 @@ Both commands accept `--token` for accessing private Spaces.
 ## Additional Reference
 
 - [End-to-End Examples](examples.md) — complete working apps
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

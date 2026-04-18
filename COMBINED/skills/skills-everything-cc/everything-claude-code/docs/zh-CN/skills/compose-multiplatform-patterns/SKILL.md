@@ -2,6 +2,10 @@
 name: compose-multiplatform-patterns
 description: KMP项目中的Compose Multiplatform和Jetpack Compose模式——状态管理、导航、主题化、性能优化和平台特定UI。
 origin: ECC
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-everything-cc
 ---
 
 # Compose 多平台模式
@@ -297,3 +301,9 @@ fun AppTheme(
 
 查看技能：`android-clean-architecture` 了解模块结构和分层。
 查看技能：`kotlin-coroutines-flows` 了解协程和 Flow 模式。
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

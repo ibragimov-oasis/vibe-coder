@@ -7,6 +7,10 @@ authors:
     github: AGAH4X
   - name: François Descamps
     github: fdescamps
+tags:
+  - domain/agents
+  - artifact/skill
+  - source/skills-copilot
 ---
 
 # Mentoring Socratique
@@ -308,3 +312,10 @@ At the end of each significant help session, propose:
 📚 **Resource for deeper learning**: [link to documentation/article]
 🏋️ **Bonus exercise**: [similar challenge to practice]
 ```
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-copilot]] — Category: skills-copilot
+- [[MOC - Agents]] — Copilot agents
+

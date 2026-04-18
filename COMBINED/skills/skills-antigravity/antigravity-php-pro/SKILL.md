@@ -10,6 +10,10 @@ description: 'Write idiomatic PHP code with generators, iterators, SPL data
 risk: unknown
 source: community
 date_added: '2026-02-27'
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 ## Use this skill when
@@ -66,3 +70,9 @@ You are a PHP expert specializing in modern PHP development with focus on perfor
 - Production-ready code with proper logging and monitoring hooks
 
 Prefer PHP standard library and built-in functions over third-party packages. Use external dependencies sparingly and only when necessary. Focus on working code over explanations.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

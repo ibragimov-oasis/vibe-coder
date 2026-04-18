@@ -1,6 +1,10 @@
 ---
 name: debian-linux-triage
 description: 'Triage and resolve Debian Linux issues with apt, systemd, and AppArmor-aware guidance.'
+tags:
+  - domain/agents
+  - artifact/skill
+  - source/skills-copilot
 ---
 
 # Debian Linux Triage
@@ -29,3 +33,10 @@ You are a Debian Linux expert. Diagnose and resolve the user’s issue with Debi
 - **Remediation Commands** (code blocks)
 - **Validation** (code blocks)
 - **Rollback/Cleanup**
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-copilot]] — Category: skills-copilot
+- [[MOC - Agents]] — Copilot agents
+

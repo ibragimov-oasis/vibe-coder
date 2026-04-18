@@ -1,6 +1,10 @@
 ---
 name: java-add-graalvm-native-image-support
 description: 'GraalVM Native Image expert that adds native image support to Java applications, builds the project, analyzes build errors, applies fixes, and iterates until successful compilation using Oracle best practices.'
+tags:
+  - domain/agents
+  - artifact/skill
+  - source/skills-copilot
 ---
 
 # GraalVM Native Image Agent
@@ -447,3 +451,10 @@ public class Application {
 - [Micronaut GraalVM Support](https://docs.micronaut.io/latest/guide/index.html#graal)
 - [GraalVM Reachability Metadata](https://github.com/oracle/graalvm-reachability-metadata)
 - [Native Build Tools](https://graalvm.github.io/native-build-tools/latest/index.html)
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-copilot]] — Category: skills-copilot
+- [[MOC - Agents]] — Copilot agents
+

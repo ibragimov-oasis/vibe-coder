@@ -4,6 +4,10 @@ description: "Convert human-written CLAUDE.md into AI-native structured-label fo
 risk: safe
 source: community
 date_added: "2026-03-11"
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 # AI.MD v4 — The Complete AI-Native Conversion System
@@ -516,3 +520,9 @@ Key findings:
 
 **The uncomfortable truth: Your beautiful, carefully-written CLAUDE.md
 might be HURTING your AI's performance. Structure > Prose. Always.**
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

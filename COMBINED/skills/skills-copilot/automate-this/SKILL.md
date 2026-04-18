@@ -1,6 +1,10 @@
 ---
 name: automate-this
 description: 'Analyze a screen recording of a manual process and produce targeted, working automation scripts. Extracts frames and audio narration from video files, reconstructs the step-by-step workflow, and proposes automation at multiple complexity levels using tools already installed on the user machine.'
+tags:
+  - domain/agents
+  - artifact/skill
+  - source/skills-copilot
 ---
 
 # Automate This
@@ -242,3 +246,10 @@ rm -rf "$WORK_DIR"
 ```
 
 Tell the user you're cleaning up temporary files so they know nothing is left behind.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-copilot]] — Category: skills-copilot
+- [[MOC - Agents]] — Copilot agents
+

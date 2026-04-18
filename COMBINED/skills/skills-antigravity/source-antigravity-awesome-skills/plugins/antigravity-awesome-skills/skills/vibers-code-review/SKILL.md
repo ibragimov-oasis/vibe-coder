@@ -4,6 +4,10 @@ description: Human review workflow for AI-generated GitHub projects with spec-ba
 risk: critical
 source: https://github.com/marsiandeployer/vibers-action
 date_added: "2026-03-17"
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 # Vibers — Human Code Review for AI-Generated Projects
@@ -138,3 +142,9 @@ Comment on the PR. We discuss and adjust.
 
 **Can I use this without GitHub?**
 Yes — write to Telegram with your code and spec.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

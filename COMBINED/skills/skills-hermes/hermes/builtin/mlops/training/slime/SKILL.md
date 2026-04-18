@@ -8,7 +8,9 @@ dependencies: [sglang-router>=0.2.3, ray, torch>=2.0.0, transformers>=4.40.0]
 metadata:
   hermes:
     tags: [Reinforcement Learning, Megatron-LM, SGLang, GRPO, Post-Training, GLM]
-
+  - domain/skills
+  - artifact/skill
+  - source/skills-hermes
 ---
 
 # slime: LLM Post-Training Framework for RL Scaling
@@ -464,4 +466,9 @@ class CustomRewardModel:
 - **GitHub**: https://github.com/THUDM/slime
 - **Blog**: https://lmsys.org/blog/2025-07-09-slime/
 - **Examples**: See `examples/` directory for 14+ worked examples
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-hermes]] — Category: skills-hermes
 

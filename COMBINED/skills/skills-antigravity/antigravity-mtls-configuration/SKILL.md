@@ -4,6 +4,10 @@ description: "Configure mutual TLS (mTLS) for zero-trust service-to-service comm
 risk: unknown
 source: community
 date_added: "2026-02-27"
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 # mTLS Configuration
@@ -360,3 +364,9 @@ linkerd viz tap deploy/my-app --to deploy/my-backend
 - [SPIFFE/SPIRE](https://spiffe.io/)
 - [cert-manager](https://cert-manager.io/)
 - [Zero Trust Architecture (NIST)](https://www.nist.gov/publications/zero-trust-architecture)
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

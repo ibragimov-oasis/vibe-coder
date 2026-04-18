@@ -1,6 +1,10 @@
 ---
 name: "AgentDB Performance Optimization"
 description: "Optimize AgentDB performance with quantization (4-32x memory reduction), HNSW indexing (150x faster search), caching, and batch operations. Use when optimizing memory usage, improving search speed, or scaling to millions of vectors."
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-ruflo
 ---
 
 # AgentDB Performance Optimization
@@ -507,3 +511,9 @@ const adapter = await createAgentDBAdapter({
 **Category**: Performance / Optimization
 **Difficulty**: Intermediate
 **Estimated Time**: 20-30 minutes
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-ruflo]] — Category: skills-ruflo
+

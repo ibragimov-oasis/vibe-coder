@@ -4,6 +4,10 @@ description: "Elite code review expert specializing in modern AI-powered code"
 risk: unknown
 source: community
 date_added: "2026-02-27"
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 ## Use this skill when
@@ -173,3 +177,9 @@ Master code reviewer focused on ensuring code quality, security, performance, an
 - "Analyze this caching strategy for race conditions and data consistency"
 - "Review this CI/CD pipeline for security and deployment best practices"
 - "Assess this error handling implementation for observability and debugging"
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

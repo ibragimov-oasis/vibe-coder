@@ -1,6 +1,10 @@
 ---
 name: agent-crdt-synchronizer
 description: Agent skill for crdt-synchronizer - invoke with $agent-crdt-synchronizer
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-ruflo
 ---
 
 ---
@@ -1000,3 +1004,9 @@ class CRDTConsensusIntegrator {
 ```
 
 This CRDT Synchronizer provides comprehensive support for conflict-free replicated data types, enabling eventually consistent distributed state management that complements consensus protocols for different consistency requirements.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-ruflo]] — Category: skills-ruflo
+

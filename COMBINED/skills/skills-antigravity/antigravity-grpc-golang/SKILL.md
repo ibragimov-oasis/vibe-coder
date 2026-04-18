@@ -4,6 +4,10 @@ description: "Build production-ready gRPC services in Go with mTLS, streaming, a
 risk: safe
 source: self
 date_added: "2026-02-27"
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 # gRPC Golang (gRPC-Go)
@@ -102,3 +106,9 @@ message GetUserResponse {
 - @go-concurrency-patterns - Advanced goroutine lifecycle management for streaming handlers.
 - @api-design-principles - Resource naming and versioning strategy before writing `.proto` files.
 - @docker-expert - Containerizing gRPC services and configuring TLS cert injection via Docker secrets.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

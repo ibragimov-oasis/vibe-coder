@@ -2,6 +2,10 @@
 name: python-testing
 description: pytest, TDD metodolojisi, fixture'lar, mocking, parametrizasyon ve coverage gereksinimleri kullanarak Python test stratejileri.
 origin: ECC
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-everything-cc
 ---
 
 # Python Test Desenleri
@@ -814,3 +818,9 @@ pytest --pdb
 | `assert` | Basit ve okunabilir assertion'lar |
 
 **Unutmayın**: Testler de koddur. Temiz, okunabilir ve bakımı kolay tutun. İyi testler hata yakalar; harika testler hataları önler.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

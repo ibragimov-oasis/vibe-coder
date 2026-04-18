@@ -8,6 +8,10 @@ description: 'Generate comprehensive investor-ready business case document with
 risk: unknown
 source: community
 date_added: '2026-02-27'
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 # Business Case Generator
@@ -490,3 +494,9 @@ What materials do you have?
 - Update quarterly or for funding rounds
 - Customize sections based on audience
 - Keep executive summary to 2 pages max
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

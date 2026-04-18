@@ -16,6 +16,9 @@ tools:
 - cursor
 - gemini-cli
 - codex-cli
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 # SKILL JURÍDICA — LEILÕES DE IMÓVEIS
@@ -473,3 +476,9 @@ Fontes normativas e referências:
 - `leiloeiro-edital` - Complementary skill for enhanced analysis
 - `leiloeiro-ia` - Complementary skill for enhanced analysis
 - `leiloeiro-mercado` - Complementary skill for enhanced analysis
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

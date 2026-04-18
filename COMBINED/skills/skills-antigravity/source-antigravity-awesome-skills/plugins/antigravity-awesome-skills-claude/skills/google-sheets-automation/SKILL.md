@@ -7,6 +7,10 @@ license: Apache-2.0
 metadata:
   author: sanjay3290
   version: "1.0"
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 # Google Sheets
@@ -142,3 +146,9 @@ Tokens automatically refresh when expired using Google's cloud function.
 
 ## When to Use
 Use this skill when tackling tasks related to its primary domain or functionality as described above.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

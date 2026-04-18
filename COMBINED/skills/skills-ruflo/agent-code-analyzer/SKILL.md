@@ -1,6 +1,10 @@
 ---
 name: agent-code-analyzer
 description: Agent skill for code-analyzer - invoke with $agent-code-analyzer
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-ruflo
 ---
 
 ---
@@ -213,3 +217,9 @@ When working in a swarm:
 5. Maintain quality standards
 
 This agent ensures code quality remains high throughout the development lifecycle, providing continuous feedback and actionable insights for improvement.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-ruflo]] — Category: skills-ruflo
+

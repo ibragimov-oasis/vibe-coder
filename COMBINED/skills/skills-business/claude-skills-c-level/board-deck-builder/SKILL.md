@@ -9,6 +9,10 @@ metadata:
   domain: board-governance
   updated: 2026-03-05
   frameworks: deck-frameworks, board-deck-template
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-business
 ---
 
 # Board Deck Builder
@@ -181,3 +185,9 @@ Never bury it. Boards find out eventually. Finding out late makes it worse.
 ## References
 - `references/deck-frameworks.md` — SaaS board pack format, Sequoia structure, investor tailoring
 - `templates/board-deck-template.md` — fill-in template for complete board decks
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-business]] — Category: skills-business
+

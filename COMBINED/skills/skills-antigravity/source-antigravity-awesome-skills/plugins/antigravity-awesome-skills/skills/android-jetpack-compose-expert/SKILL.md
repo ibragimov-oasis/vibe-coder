@@ -4,6 +4,10 @@ description: "Expert guidance for building modern Android UIs with Jetpack Compo
 risk: safe
 source: community
 date_added: "2026-02-27"
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 # Android Jetpack Compose Expert
@@ -151,3 +155,9 @@ fun AppNavHost(navController: NavHostController) {
 
 **Problem:** Infinite Recomposition loop.
 **Solution:** Check if you are creating new object instances (like `List` or `Modifier`) inside the composition without `remember`, or if you are updating state inside the composition phase instead of a side-effect or callback. Use Layout Inspector to debug recomposition counts.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

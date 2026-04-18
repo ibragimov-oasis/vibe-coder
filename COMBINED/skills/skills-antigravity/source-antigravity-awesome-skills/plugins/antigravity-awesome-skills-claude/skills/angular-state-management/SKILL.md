@@ -4,6 +4,10 @@ description: "Master modern Angular state management with Signals, NgRx, and RxJ
 risk: safe
 source: self
 date_added: "2026-02-27"
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 # Angular State Management
@@ -633,3 +637,9 @@ export class DataService {
 - [NgRx Documentation](https://ngrx.io/)
 - [NgRx SignalStore](https://ngrx.io/guide/signals)
 - [RxAngular](https://www.rx-angular.io/)
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

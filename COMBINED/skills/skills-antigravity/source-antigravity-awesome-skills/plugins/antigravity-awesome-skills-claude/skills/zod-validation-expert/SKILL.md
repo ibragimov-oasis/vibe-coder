@@ -4,6 +4,10 @@ description: "Expert in Zod — TypeScript-first schema validation. Covers parsi
 risk: safe
 source: community
 date_added: "2026-03-05"
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 # Zod Validation Expert
@@ -265,3 +269,9 @@ export default env;
 
 **Problem:** Empty strings pass validation when using `.optional()`.
 **Solution:** `.optional()` permits `undefined`, not empty strings. If an empty string means "no value," use `.or(z.literal(""))` or preprocess it: `z.string().transform(v => v === "" ? undefined : v).optional()`.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

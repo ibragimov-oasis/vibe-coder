@@ -16,6 +16,10 @@ allowed-tools:
   - Bash
   - WebFetch
   - Write
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 # Sitemap Analysis & Generation
@@ -127,3 +131,9 @@ allowed-tools:
 - `sitemap.xml` (or split files with index)
 - `STRUCTURE.md`: site architecture documentation
 - URL count and organization summary
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

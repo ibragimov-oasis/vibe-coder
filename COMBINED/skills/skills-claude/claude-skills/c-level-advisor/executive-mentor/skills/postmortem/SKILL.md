@@ -1,6 +1,10 @@
 ---
 name: "postmortem"
 description: "/em -postmortem — Honest Analysis of What Went Wrong"
+tags:
+  - domain/agents
+  - artifact/skill
+  - source/skills-claude
 ---
 
 # /em:postmortem — Honest Analysis of What Went Wrong
@@ -191,3 +195,10 @@ The goal isn't to establish that someone made a mistake. The goal is to understa
 The first version fires or shames someone. The second version builds a more resilient organization.
 
 Both might be true simultaneously. The distinction is: which one actually prevents recurrence?
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+- [[MOC - Agents]] — Claude agents
+

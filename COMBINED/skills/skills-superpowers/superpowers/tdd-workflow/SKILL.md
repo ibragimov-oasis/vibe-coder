@@ -12,6 +12,10 @@ sources:
   - library: "antigravity-awesome-skills"
     path: "Skills/antigravity-awesome-skills/skills/tdd-workflow/SKILL.md"
 merge_date: "2026-04-01"
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-superpowers
 ---
 
 # Test-Driven Development (TDD) — Combined Mega-Skill
@@ -960,3 +964,9 @@ Otherwise → not TDD
 No exceptions without your human partner's explicit permission.
 
 > **Remember:** The test is the specification. If you can't write a test, you don't understand the requirement.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-superpowers]] — Category: skills-superpowers
+

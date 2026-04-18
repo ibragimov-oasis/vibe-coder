@@ -18,6 +18,9 @@ tools:
 - cursor
 - gemini-cli
 - codex-cli
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 # 007 — Licenca para Auditar
@@ -648,3 +651,9 @@ O proprio 007 pratica o que prega:
 - `claude-code-expert` - Complementary skill for enhanced analysis
 - `cred-omega` - Complementary skill for enhanced analysis
 - `matematico-tao` - Complementary skill for enhanced analysis
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

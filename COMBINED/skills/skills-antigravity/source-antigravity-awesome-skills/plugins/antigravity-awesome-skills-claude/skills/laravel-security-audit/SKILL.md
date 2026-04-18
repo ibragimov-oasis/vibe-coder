@@ -4,6 +4,10 @@ description: "Security auditor for Laravel applications. Analyzes code for vulne
 risk: safe
 source: community
 date_added: "2026-02-27"
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 # Laravel Security Audit
@@ -222,3 +226,9 @@ Refactored Example:
 $post = Post::where('user_id', auth()->id())
     ->findOrFail($id);
 ```
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

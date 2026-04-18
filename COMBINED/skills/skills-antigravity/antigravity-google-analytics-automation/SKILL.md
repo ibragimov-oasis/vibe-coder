@@ -4,6 +4,10 @@ description: "Automate Google Analytics tasks via Rube MCP (Composio): run repor
 risk: critical
 source: community
 date_added: "2026-02-27"
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 # Google Analytics Automation via Rube MCP
@@ -229,3 +233,9 @@ Automate Google Analytics 4 (GA4) reporting and property management through Comp
 
 ## When to Use
 This skill is applicable to execute the workflow or actions described in the overview.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

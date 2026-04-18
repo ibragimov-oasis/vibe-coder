@@ -4,6 +4,10 @@ description: "6. Reduces Clutter: Identifies old files you probably don't need a
 risk: unknown
 source: community
 date_added: "2026-02-27"
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 # File Organizer
@@ -251,3 +255,9 @@ When a user requests file organization help:
 - Completed work that might be referenced later
 - Old versions after migration to new systems
 - Files you're hesitant to delete (archive first)
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

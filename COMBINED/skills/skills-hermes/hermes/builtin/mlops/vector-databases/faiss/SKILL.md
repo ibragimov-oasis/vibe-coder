@@ -8,7 +8,9 @@ dependencies: [faiss-cpu, faiss-gpu, numpy]
 metadata:
   hermes:
     tags: [RAG, FAISS, Similarity Search, Vector Search, Facebook AI, GPU Acceleration, Billion-Scale, K-NN, HNSW, High Performance, Large Scale]
-
+  - domain/skills
+  - artifact/skill
+  - source/skills-hermes
 ---
 
 # FAISS - Efficient Similarity Search
@@ -221,4 +223,8 @@ vector_store = FaissVectorStore(faiss_index=faiss_index)
 - **Wiki**: https://github.com/facebookresearch/faiss/wiki
 - **License**: MIT
 
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-hermes]] — Category: skills-hermes
 

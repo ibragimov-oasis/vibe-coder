@@ -8,6 +8,9 @@ date_added: "2026-03-13"
 author: christopherlhammer11-ai
 tags: [memory, context, rag, summarization, compression, long-context, agent-infrastructure]
 tools: [claude, cursor, codex, gemini, copilot, windsurf, antigravity, grok]
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 # RecallMax — God-Tier Long-Context Memory
@@ -75,3 +78,9 @@ Built-in cross-reference checks for controversial or ambiguous claims within the
 - **Repo:** https://github.com/christopherlhammer11-ai/recallmax
 - **Marketplace:** https://genesis-node-api.vercel.app
 - **Browse skills:** https://genesis-marketplace.vercel.app
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

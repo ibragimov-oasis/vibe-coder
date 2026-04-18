@@ -4,6 +4,10 @@ description: "Implement DeFi protocols with production-ready templates for staki
 risk: unknown
 source: community
 date_added: "2026-02-27"
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 # DeFi Protocol Templates
@@ -467,3 +471,9 @@ contract FlashLoanReceiver is IFlashLoanReceiver {
 - **Vesting**: Lock tokens with gradual release
 - **Multisig**: Require multiple signatures for critical operations
 - **Timelocks**: Delay execution of governance decisions
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

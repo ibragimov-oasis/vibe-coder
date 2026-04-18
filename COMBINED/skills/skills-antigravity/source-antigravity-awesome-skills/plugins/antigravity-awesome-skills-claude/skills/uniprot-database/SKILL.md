@@ -6,6 +6,10 @@ metadata:
     skill-author: K-Dense Inc.
 risk: safe
 source: community
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 # UniProt Database
@@ -192,4 +196,9 @@ See `/references/query_syntax.md` for comprehensive syntax documentation.
 - **REST Tutorial**: https://www.uniprot.org/help/uniprot_rest_tutorial
 - **Query Syntax Help**: https://www.uniprot.org/help/query-fields
 - **SPARQL Endpoint**: https://sparql.uniprot.org/ (for advanced graph queries)
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
 

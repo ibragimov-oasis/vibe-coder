@@ -4,6 +4,10 @@ description: "Optimize Bazel builds for large-scale monorepos. Use when configur
 risk: unknown
 source: community
 date_added: "2026-02-27"
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 # Bazel Build Optimization
@@ -398,3 +402,9 @@ bazel build //... --notrack_incremental_state
 - [Bazel Documentation](https://bazel.build/docs)
 - [Bazel Remote Execution](https://bazel.build/docs/remote-execution)
 - [rules_js](https://github.com/aspect-build/rules_js)
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

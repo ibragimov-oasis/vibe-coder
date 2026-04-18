@@ -4,6 +4,10 @@ description: "A user may ask you to create, edit, or analyze the contents of a .
 risk: unknown
 source: community
 date_added: "2026-02-27"
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 # DOCX creation, editing, and analysis
@@ -200,3 +204,9 @@ Required dependencies (install if not available):
 
 ## When to Use
 This skill is applicable to execute the workflow or actions described in the overview.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

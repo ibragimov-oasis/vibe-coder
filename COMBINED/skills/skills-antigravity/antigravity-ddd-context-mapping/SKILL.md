@@ -5,6 +5,9 @@ risk: safe
 source: self
 tags: "[ddd, context-map, anti-corruption-layer, integration]"
 date_added: "2026-02-27"
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 # DDD Context Mapping
@@ -50,3 +53,9 @@ Inventory, and Fraud contexts, including ACL and contract ownership.
 - This skill does not replace API-level schema design.
 - It does not guarantee organizational alignment by itself.
 - It should be revisited when team ownership changes.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

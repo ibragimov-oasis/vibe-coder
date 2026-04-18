@@ -4,6 +4,10 @@ description: "Master database schema and data migrations across ORMs (Sequelize,
 risk: unknown
 source: community
 date_added: "2026-02-27"
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 # Database Migration
@@ -437,3 +441,9 @@ module.exports = {
 - Not considering index performance
 - Ignoring foreign key constraints
 - Migrating too much data at once
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

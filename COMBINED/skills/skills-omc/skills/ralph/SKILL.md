@@ -2,6 +2,10 @@
 name: ralph
 description: Self-referential loop until task completion with configurable verification reviewer
 level: 4
+tags:
+  - domain/orchestration
+  - artifact/skill
+  - source/skills-omc
 ---
 
 [RALPH + ULTRAWORK - ITERATION {{ITERATION}}/{{MAX}}]
@@ -227,3 +231,10 @@ Why bad: Did not refine scaffold criteria into task-specific ones. This is PRD t
 
 Original task:
 {{PROMPT}}
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-omc]] — Category: skills-omc
+- [[MOC - Orchestration]] — Multi-agent orchestration
+

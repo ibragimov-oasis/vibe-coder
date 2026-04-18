@@ -1,6 +1,10 @@
 ---
 name: legacy-circuit-mockups
 description: 'Generate breadboard circuit mockups and visual diagrams using HTML5 Canvas drawing techniques. Use when asked to create circuit layouts, visualize electronic component placements, draw breadboard diagrams, mockup 6502 builds, generate retro computer schematics, or design vintage electronics projects. Supports 555 timers, W65C02S microprocessors, 28C256 EEPROMs, W65C22 VIA chips, 7400-series logic gates, LEDs, resistors, capacitors, switches, buttons, crystals, and wires.'
+tags:
+  - domain/agents
+  - artifact/skill
+  - source/skills-copilot
 ---
 
 # Legacy Circuit Mockups
@@ -274,3 +278,10 @@ Detailed component specifications are available in the bundled reference files:
 - [lcd.md](references/lcd.md) - LCD display interfacing
 - [minipro.md](references/minipro.md) - EEPROM programmer usage
 - [t48eeprom-programmer.md](references/t48eeprom-programmer.md) - T48 programmer reference
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-copilot]] — Category: skills-copilot
+- [[MOC - Agents]] — Copilot agents
+

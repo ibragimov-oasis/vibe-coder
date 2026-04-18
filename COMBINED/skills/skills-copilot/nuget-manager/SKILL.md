@@ -1,6 +1,10 @@
 ---
 name: nuget-manager
 description: 'Manage NuGet packages in .NET projects/solutions. Use this skill when adding, removing, or updating NuGet package versions. It enforces using `dotnet` CLI for package management and provides strict procedures for direct file edits only when updating versions.'
+tags:
+  - domain/agents
+  - artifact/skill
+  - source/skills-copilot
 ---
 
 # NuGet Manager
@@ -66,3 +70,10 @@ When updating a version, follow these steps:
 2. Find where it's defined (e.g., `Directory.Packages.props`).
 3. Edit the file to update the version.
 4. Run `dotnet restore`.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-copilot]] — Category: skills-copilot
+- [[MOC - Agents]] — Copilot agents
+

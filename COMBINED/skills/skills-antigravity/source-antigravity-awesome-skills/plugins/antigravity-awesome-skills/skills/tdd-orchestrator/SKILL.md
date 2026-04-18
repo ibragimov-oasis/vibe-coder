@@ -4,6 +4,10 @@ description: Master TDD orchestrator specializing in red-green-refactor discipli
 risk: unknown
 source: community
 date_added: '2026-02-27'
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 ## Use this skill when
@@ -200,3 +204,9 @@ Elite TDD orchestrator focused on enforcing disciplined test-driven development 
 - "Orchestrate performance TDD workflow with load testing integration"
 - "Implement mutation testing pipeline for test suite quality validation"
 - "Design AI-assisted test generation workflow for rapid TDD cycle acceleration"
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

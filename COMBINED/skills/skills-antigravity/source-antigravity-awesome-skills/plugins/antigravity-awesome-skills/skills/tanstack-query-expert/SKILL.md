@@ -4,6 +4,10 @@ description: "Expert in TanStack Query (React Query) — asynchronous state mana
 risk: safe
 source: community
 date_added: "2026-03-07"
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 # TanStack Query Expert
@@ -240,3 +244,9 @@ export default function PostsList() {
 
 **Problem:** `staleTime` vs `gcTime` (formerly `cacheTime`) confusion.
 **Solution:** `staleTime` governs when a background refetch is triggered. `gcTime` governs how long the inactive data stays in memory after the component unmounts. If `gcTime` < `staleTime`, data will be deleted before it even gets stale!
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

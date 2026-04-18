@@ -4,6 +4,10 @@ description: "Master ERC-721 and ERC-1155 NFT standards, metadata best practices
 risk: unknown
 source: community
 date_added: "2026-02-27"
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 # NFT Standards
@@ -396,3 +400,9 @@ contract OptimizedNFT is ERC721A {
 - LooksRare: Royalty enforcement
 - Rarible: Protocol fees, lazy minting
 - Blur: Gas-optimized trading
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

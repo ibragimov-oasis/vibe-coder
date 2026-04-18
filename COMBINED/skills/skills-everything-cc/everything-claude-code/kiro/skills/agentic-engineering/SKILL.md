@@ -6,6 +6,10 @@ description: >
   work and humans enforce quality and risk controls.
 metadata:
   origin: ECC
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-everything-cc
 ---
 
 # Agentic Engineering
@@ -133,3 +137,9 @@ Outcome: Success
 - **verification-loop**: Use for continuous validation during implementation
 - **search-first**: Apply before implementation to find existing solutions
 - **coding-standards**: Reference during code review phase
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

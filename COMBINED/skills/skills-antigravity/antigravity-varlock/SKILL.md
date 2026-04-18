@@ -4,6 +4,10 @@ description: "Secure-by-default environment variable management for Claude Code 
 risk: critical
 source: "https://github.com/dmno-dev/varlock"
 version: 1.0.0
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 <!-- security-allowlist: curl-pipe-bash -->
@@ -436,3 +440,9 @@ Add these to your package.json:
 
 *Last updated: December 22, 2025*
 *Secure-by-default environment management for Claude Code*
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

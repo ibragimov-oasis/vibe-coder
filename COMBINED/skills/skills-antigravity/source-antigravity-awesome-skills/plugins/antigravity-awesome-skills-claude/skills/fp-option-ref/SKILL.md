@@ -5,6 +5,9 @@ risk: unknown
 source: community
 version: 1.0.0
 tags: [fp-ts, option, nullable, maybe, quick-reference]
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 # Option Quick Reference
@@ -79,3 +82,9 @@ pipe(
 ```
 
 Use Option when you need to **chain** operations on optional values.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

@@ -2,6 +2,10 @@
 name: security-review
 description: 인증 추가, 사용자 입력 처리, 시크릿 관리, API 엔드포인트 생성, 결제/민감한 기능 구현 시 이 스킬을 사용하세요. 포괄적인 보안 체크리스트와 패턴을 제공합니다.
 origin: ECC
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-everything-cc
 ---
 
 # 보안 리뷰 스킬
@@ -502,3 +506,9 @@ test('enforces rate limits', async () => {
 ---
 
 **기억하세요**: 보안은 선택 사항이 아닙니다. 하나의 취약점이 전체 플랫폼을 침해할 수 있습니다. 의심스러울 때는 보수적으로 대응하세요.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

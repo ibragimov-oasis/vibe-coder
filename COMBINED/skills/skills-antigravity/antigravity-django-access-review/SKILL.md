@@ -3,6 +3,10 @@ name: django-access-review
 description: django-access-review
 risk: unknown
 source: community
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 ---
@@ -344,3 +348,9 @@ Use this to guide your review, not as a pass/fail checklist:
 □ I've verified my findings by checking parent classes and middleware
 □ I've only reported issues I've confirmed through investigation
 ```
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

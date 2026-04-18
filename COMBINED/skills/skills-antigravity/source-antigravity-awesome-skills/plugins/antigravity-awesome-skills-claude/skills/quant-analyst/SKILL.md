@@ -4,6 +4,10 @@ description: Build financial models, backtest trading strategies, and analyze ma
 risk: safe
 source: community
 date_added: '2026-02-27'
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 ## Use this skill when
@@ -49,3 +53,9 @@ You are a quantitative analyst specializing in algorithmic trading and financial
 - Parameter sensitivity analysis
 
 Use pandas, numpy, and scipy. Include realistic assumptions about market microstructure.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

@@ -1,6 +1,10 @@
 ---
 name: design-an-interface
 description: Generate multiple radically different interface designs for a module using parallel sub-agents. Use when user wants to design an API, explore interface options, compare module shapes, or mentions "design it twice".
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-planning
 ---
 
 # Design an Interface
@@ -92,3 +96,9 @@ From "A Philosophy of Software Design":
 - Don't skip comparison - the value is in contrast
 - Don't implement - this is purely about interface shape
 - Don't evaluate based on implementation effort
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-planning]] — Category: skills-planning
+

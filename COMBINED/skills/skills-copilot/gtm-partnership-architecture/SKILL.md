@@ -5,6 +5,10 @@ license: MIT
 metadata:
   author: Smit Patel (https://linkedin.com/in/smitkpatel)
   source: https://github.com/beingsmit/technical-product-gtm
+tags:
+  - domain/agents
+  - artifact/skill
+  - source/skills-copilot
 ---
 
 # Partnership Architecture
@@ -468,3 +472,10 @@ Did Crawl phase meet success criteria?
 ---
 
 *Based on partnerships work across multiple platform companies during hypergrowth, including running a developer marketplace ecosystem (open vs curated decision) and leveraging cloud provider certification requirements for channel growth. Not theory — patterns from partnerships that actually drove revenue and platform adoption.*
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-copilot]] — Category: skills-copilot
+- [[MOC - Agents]] — Copilot agents
+

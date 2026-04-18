@@ -2,6 +2,10 @@
 name: enterprise-agent-ops
 description: 通过可观测性、安全边界和生命周期管理来操作长期运行的代理工作负载。
 origin: ECC
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-everything-cc
 ---
 
 # 企业级智能体运维
@@ -50,3 +54,9 @@ origin: ECC
 * systemd 服务
 * 容器编排器
 * CI/CD 门控
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

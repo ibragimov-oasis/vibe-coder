@@ -4,6 +4,10 @@ description: "Expert in the Vercel AI SDK. Covers Core API (generateText, stream
 risk: safe
 source: community
 date_added: "2026-03-06"
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 # Vercel AI SDK Expert
@@ -220,3 +224,9 @@ When using `maxSteps`, the `useChat` hook will display intermediate tool calls i
 
 **Problem:** "Tool execution failed" or the LLM didn't return an answer after using a tool.
 **Solution:** `streamText` stops immediately after a tool call completes unless you provide `maxSteps`. Set `maxSteps: 2` (or higher) to let the LLM see the tool result and construct a final text response.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

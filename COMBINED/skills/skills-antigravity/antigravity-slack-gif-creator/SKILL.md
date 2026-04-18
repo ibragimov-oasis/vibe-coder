@@ -4,6 +4,10 @@ description: "A toolkit providing utilities and knowledge for creating animated 
 risk: unknown
 source: community
 date_added: "2026-02-27"
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 # Slack GIF Creator
@@ -257,3 +261,9 @@ pip install pillow imageio numpy
 
 ## When to Use
 This skill is applicable to execute the workflow or actions described in the overview.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

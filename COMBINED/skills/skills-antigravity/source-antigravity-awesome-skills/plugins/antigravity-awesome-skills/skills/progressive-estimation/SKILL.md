@@ -14,6 +14,9 @@ tags:
   - ai-agents
 tools:
   - claude
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 # Progressive Estimation
@@ -82,3 +85,9 @@ Progressive Estimation adapts to your team's working mode — human-only, hybrid
 - [Source Repository](https://github.com/Enreign/progressive-estimation)
 - [Installation Guide](https://github.com/Enreign/progressive-estimation/blob/main/INSTALLATION.md)
 - [Research References](https://github.com/Enreign/progressive-estimation/tree/main/references)
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

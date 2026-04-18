@@ -4,6 +4,10 @@ description: "Use when debugging any bug. Enforces a 5-phase protocol where code
 risk: safe
 source: community
 date_added: "2026-03-28"
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 # Phase-Gated Debugging
@@ -68,3 +72,9 @@ If verification fails: root cause was wrong, go back to Phase 2.
 2. NEVER proceed past phase 3 without user confirmation
 3. ALWAYS reproduce before investigating
 4. ALWAYS verify after fixing
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

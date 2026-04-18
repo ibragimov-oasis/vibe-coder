@@ -1,6 +1,10 @@
 ---
 name: triage-issue
 description: Triage a bug or issue by exploring the codebase to find root cause, then create a GitHub issue with a TDD-based fix plan. Use when user reports a bug, wants to file an issue, mentions "triage", or wants to investigate and plan a fix for a problem.
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-development
 ---
 
 # Triage Issue
@@ -100,3 +104,9 @@ A numbered list of RED-GREEN cycles:
 </issue-template>
 
 After creating the issue, print the issue URL and a one-line summary of the root cause.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-development]] — Category: skills-development
+

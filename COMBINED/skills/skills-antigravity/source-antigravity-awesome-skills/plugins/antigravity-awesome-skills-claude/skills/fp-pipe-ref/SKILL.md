@@ -5,6 +5,9 @@ risk: unknown
 source: community
 version: 1.0.0
 tags: [fp-ts, pipe, flow, composition, quick-reference]
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 # pipe & flow Quick Reference
@@ -82,3 +85,9 @@ const getActiveNames = flow(
 getActiveNames(users1)
 getActiveNames(users2)
 ```
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

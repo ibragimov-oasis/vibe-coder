@@ -3,6 +3,10 @@ name: build
 description: build
 risk: unknown
 source: community
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 ---
@@ -642,3 +646,9 @@ When implementing phases:
 - Don't assume code works - verify it
 - If something doesn't work, fix it before moving on
 - The goal is working software, not just written code
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

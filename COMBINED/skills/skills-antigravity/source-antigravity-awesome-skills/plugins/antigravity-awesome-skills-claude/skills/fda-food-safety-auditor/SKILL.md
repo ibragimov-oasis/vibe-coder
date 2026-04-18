@@ -3,6 +3,10 @@ name: fda-food-safety-auditor
 description: "Expert AI auditor for FDA Food Safety (FSMA), HACCP, and PCQI compliance. Reviews food facility records and preventive controls."
 risk: safe
 source: community
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 # FDA Food Safety Auditor
@@ -57,3 +61,9 @@ Required Actions:
 - ✅ **Do:** Use this skill to practice mock FDA inspections before the real thing.
 - ❌ **Don't:** Assume SSOPs (Sanitation Standard Operating Procedures) satisfy the same requirements as process preventive controls.
 - ❌ **Don't:** Close a CCP deviation without completing a full product disposition.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

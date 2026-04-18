@@ -4,6 +4,10 @@ description: "Verify fix commits address audit findings without new bugs"
 risk: safe
 source: "https://github.com/trailofbits/skills/tree/main/plugins/fix-review"
 date_added: "2026-02-27"
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 # Fix Review
@@ -52,3 +56,9 @@ When reviewing fix commits:
 ## Resources
 
 For more information, see the [source repository](https://github.com/trailofbits/skills/tree/main/plugins/fix-review).
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

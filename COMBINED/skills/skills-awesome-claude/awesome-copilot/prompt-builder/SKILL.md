@@ -1,6 +1,10 @@
 ---
 name: prompt-builder
 description: 'Guide users through creating high-quality GitHub Copilot prompts with proper structure, tools, and best practices.'
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-awesome-claude
 ---
 
 # Professional Prompt Builder
@@ -139,3 +143,9 @@ Each prompt will be optimized for:
 - **Reliability**: Comprehensive instructions and error handling
 
 Please start by telling me the name and description for the new prompt you want to build.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-awesome-claude]] — Category: skills-awesome-claude
+

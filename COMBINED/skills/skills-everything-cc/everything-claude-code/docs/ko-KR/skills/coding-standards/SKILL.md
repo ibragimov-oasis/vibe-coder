@@ -2,6 +2,10 @@
 name: coding-standards
 description: TypeScript, JavaScript, React, Node.js 개발을 위한 범용 코딩 표준, 모범 사례 및 패턴.
 origin: ECC
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-everything-cc
 ---
 
 # 코딩 표준 및 모범 사례
@@ -528,3 +532,9 @@ setTimeout(callback, DEBOUNCE_DELAY_MS)
 ```
 
 **기억하세요**: 코드 품질은 타협할 수 없습니다. 명확하고 유지보수 가능한 코드가 빠른 개발과 자신감 있는 리팩터링을 가능하게 합니다.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

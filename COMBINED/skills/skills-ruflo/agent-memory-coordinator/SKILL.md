@@ -1,6 +1,10 @@
 ---
 name: agent-memory-coordinator
 description: Agent skill for memory-coordinator - invoke with $agent-memory-coordinator
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-ruflo
 ---
 
 ---
@@ -190,3 +194,9 @@ Global Memory (Long-term)
 - Sharding by namespace
 - Replication for reliability
 - Load balancing
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-ruflo]] — Category: skills-ruflo
+

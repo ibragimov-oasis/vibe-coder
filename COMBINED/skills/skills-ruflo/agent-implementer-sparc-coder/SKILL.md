@@ -1,6 +1,10 @@
 ---
 name: agent-implementer-sparc-coder
 description: Agent skill for implementer-sparc-coder - invoke with $agent-implementer-sparc-coder
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-ruflo
 ---
 
 ---
@@ -262,3 +266,9 @@ async function retryOperation(fn, maxRetries = 3) {
 - Setup instructions
 - Configuration options
 - Usage examples
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-ruflo]] — Category: skills-ruflo
+

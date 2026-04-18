@@ -4,6 +4,10 @@ description: Automated end-to-end UI testing and verification on an Android Emul
 risk: safe
 source: community
 date_added: "2026-02-28"
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 # Android UI Verification Skill
@@ -64,3 +68,9 @@ Always store generated files in the `artifacts/` folder to satisfy project organ
 - **Center Taps**: Calculate the arithmetic mean of `[x1,y1][x2,y2]` for the most reliable tap target.
 - **Log Markers**: Use distinct log messages in the code (e.g., `✅ Action Successful`) to make `grep` verification easy.
 - **Fail Fast**: If a `uiautomator dump` fails or doesn't find the expected text, stop and troubleshoot rather than blind-tapping.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

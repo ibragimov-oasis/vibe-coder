@@ -3,6 +3,10 @@ name: variant-analysis
 description: Find similar vulnerabilities and bugs across codebases using pattern-based analysis. Use when hunting bug variants, building CodeQL/Semgrep queries, analyzing security vulnerabilities, or performing systematic code audits after finding an initial issue.
 risk: unknown
 source: community
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 # Variant Analysis
@@ -141,3 +145,9 @@ Ready-to-use templates in `resources/`:
 - `python.yaml`, `javascript.yaml`, `java.yaml`, `go.yaml`, `cpp.yaml`
 
 **Report**: `resources/variant-report-template.md`
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

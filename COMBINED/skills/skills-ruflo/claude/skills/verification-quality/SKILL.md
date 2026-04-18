@@ -2,6 +2,10 @@
 name: "Verification & Quality Assurance"
 description: |
   Comprehensive truth scoring, code quality verification, and automatic rollback system with 0.95 accuracy threshold for ensuring high-quality agent outputs and codebase reliability.
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-ruflo
 ---
 
 # Verification & Quality Assurance Skill
@@ -645,3 +649,9 @@ Verification commands return standard exit codes:
 - Verification Criteria: See `/docs/verification-criteria.md`
 - Integration Examples: See `/examples/verification/`
 - API Reference: See `/docs/api/verification.md`
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-ruflo]] — Category: skills-ruflo
+

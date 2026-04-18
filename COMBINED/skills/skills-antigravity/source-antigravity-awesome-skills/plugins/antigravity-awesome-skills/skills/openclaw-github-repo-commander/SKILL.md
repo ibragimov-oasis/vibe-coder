@@ -8,6 +8,9 @@ date_added: "2026-03-18"
 author: wd041216-bit
 tags: [github, git, repository, audit, cleanup, workflow, devtools, automation, code-review, security]
 tools: [claude, cursor]
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 # OpenClaw GitHub Repo Commander
 
@@ -93,3 +96,9 @@ Compare my skill repo with the top 5 similar repos on GitHub
 [github.com/wd041216-bit/openclaw-github-repo-commander](https://github.com/wd041216-bit/openclaw-github-repo-commander)
 
 **License**: MIT | **Version**: 4.0.0
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

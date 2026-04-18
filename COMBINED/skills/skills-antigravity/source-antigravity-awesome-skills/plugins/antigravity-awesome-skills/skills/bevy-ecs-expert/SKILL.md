@@ -4,6 +4,10 @@ description: "Master Bevy's Entity Component System (ECS) in Rust, covering Syst
 risk: safe
 source: community
 date_added: "2026-02-27"
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 # Bevy ECS Expert
@@ -134,3 +138,9 @@ fn enemy_behavior(
 
 **Problem:** System panic with "Conflict" error.
 **Solution:** You are likely trying to access the same component mutably in two systems running in parallel. Use `.chain()` to order them or split the logic.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

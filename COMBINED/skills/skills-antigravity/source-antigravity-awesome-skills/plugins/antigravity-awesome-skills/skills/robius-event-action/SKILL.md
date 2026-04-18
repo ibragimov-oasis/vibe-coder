@@ -7,6 +7,10 @@ description: |
   事件处理, 自定义动作
 risk: unknown
 source: community
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 # Robius Event and Action Patterns Skill
@@ -359,3 +363,9 @@ if let ItemAction::Selected(item_id) = action.as_widget_action().cast() {
   - External link handling
   - Platform-conditional actions (#[cfg])
   - UiRunner event handling
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

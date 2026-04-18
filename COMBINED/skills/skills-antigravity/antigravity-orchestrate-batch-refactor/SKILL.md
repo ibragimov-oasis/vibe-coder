@@ -4,6 +4,10 @@ description: "Plan and execute large refactors with dependency-aware work packet
 risk: safe
 source: "Dimillian/Skills (MIT)"
 date_added: "2026-03-25"
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 # Orchestrate Batch Refactor
@@ -95,3 +99,9 @@ Run in this order:
 3. Full project safety checks when scope is broad.
 
 Prefer fast feedback loops, but never skip required behavior checks.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

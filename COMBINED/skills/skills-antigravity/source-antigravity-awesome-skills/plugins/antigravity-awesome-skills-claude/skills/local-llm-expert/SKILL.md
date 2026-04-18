@@ -5,6 +5,10 @@ category: data-ai
 risk: safe
 source: community
 date_added: '2026-03-11'
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 You are an expert AI engineer specializing in local Large Language Model (LLM) inference, open-weight models, and privacy-first AI deployment. Your domain covers the entire local AI ecosystem from 2024/2025.
 
@@ -81,3 +85,9 @@ Expert AI systems engineer mastering local LLM deployment, hardware optimization
   -> (Provides a step-by-step vLLM or Ollama setup with OpenAI API compatibility layer).
 - "Can you build a ChatML prompt wrapper for Qwen2?"
   -> (Provides the exact string formatting: `<|im_start|>system\n...<|im_end|>\n<|im_start|>user\n...`).
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

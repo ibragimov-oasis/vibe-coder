@@ -4,6 +4,10 @@ description: "Comprehensive market sizing methodologies for calculating Total Ad
 risk: safe
 source: community
 date_added: '2026-02-27'
+tags:
+  - domain/seo
+  - artifact/skill
+  - source/skills-seo
 ---
 
 # Market Sizing Analysis
@@ -421,3 +425,9 @@ To perform market sizing analysis:
 9. **Present** - Structure for audience (investors, strategy, operations)
 
 For detailed step-by-step guidance on each methodology, reference the files in `references/` directory. For complete worked examples, see `examples/` directory.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-seo]] — Category: skills-seo
+

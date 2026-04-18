@@ -7,6 +7,10 @@ metadata:
   author: Alireza Rezvani
   category: marketing
   updated: 2026-03-06
+tags:
+  - domain/agents
+  - artifact/skill
+  - source/skills-claude
 ---
 
 # Page Conversion Rate Optimization (CRO)
@@ -222,3 +226,10 @@ Automatically surface page-cro recommendations when:
 | High-Impact Recommendations | Structured list | Each with rationale, effort estimate, and success metric |
 | Copy Alternatives | Side-by-side table | 2-3 variants per key element (headline, CTA, subhead) with reasoning |
 | A/B Test Hypotheses | Table | Hypothesis × variant description × success metric × priority |
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+- [[MOC - Agents]] — Claude agents
+

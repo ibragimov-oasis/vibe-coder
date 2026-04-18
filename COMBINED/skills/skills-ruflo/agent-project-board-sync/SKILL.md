@@ -1,6 +1,10 @@
 ---
 name: agent-project-board-sync
 description: Agent skill for project-board-sync - invoke with $agent-project-board-sync
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-ruflo
 ---
 
 ---
@@ -512,3 +516,9 @@ npx ruv-swarm github team-metrics \
 ```
 
 See also: [swarm-issue.md](.$swarm-issue.md), [multi-repo-swarm.md](.$multi-repo-swarm.md)
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-ruflo]] — Category: skills-ruflo
+

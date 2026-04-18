@@ -4,6 +4,10 @@ description: Codified expertise for managing carrier portfolios, negotiating fre
 risk: safe
 source: https://github.com/ai-evos/agent-skills
 date_added: '2026-02-27'
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 ## When to Use
@@ -187,3 +191,9 @@ Use this skill when you are **designing or tuning your carrier portfolio, routin
 - Running freight RFPs, renegotiating contract and fuel tables, or balancing spot vs. contract exposure.
 - Building carrier scorecards, exit criteria, and escalation protocols to manage performance and risk.
 - Deciding how to allocate lanes across asset carriers, brokers, and regional specialists to protect service while controlling logistics spend.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

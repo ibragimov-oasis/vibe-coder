@@ -1,6 +1,10 @@
 ---
 name: tech-debt
 description: Scan, prioritize, and report technical debt. Usage: /tech-debt <scan|prioritize|report> [options]
+tags:
+  - domain/agents
+  - artifact/skill
+  - source/skills-claude
 ---
 
 # /tech-debt
@@ -30,3 +34,10 @@ Scan codebases for technical debt, score severity, and generate prioritized reme
 
 ## Skill Reference
 → `engineering/tech-debt-tracker/SKILL.md`
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+- [[MOC - Agents]] — Claude agents
+

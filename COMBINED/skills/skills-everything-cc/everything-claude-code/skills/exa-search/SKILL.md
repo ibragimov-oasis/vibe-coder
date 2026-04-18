@@ -2,6 +2,10 @@
 name: exa-search
 description: Neural search via Exa MCP for web, code, and company research. Use when the user needs web search, code examples, company intel, people lookup, or AI-powered deep research with Exa's neural search engine.
 origin: ECC
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-everything-cc
 ---
 
 # Exa Search
@@ -101,3 +105,9 @@ get_code_context_exa(query: "WebAssembly component model examples", tokensNum: 4
 
 - `deep-research` — Full research workflow using firecrawl + exa together
 - `market-research` — Business-oriented research with decision frameworks
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

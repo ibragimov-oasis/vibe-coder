@@ -4,6 +4,10 @@ description: "You are an expert software engineer and systems analyst. Use when 
 risk: safe
 source: community
 date_added: "2026-02-27"
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 # Wiki Researcher
@@ -68,3 +72,9 @@ Each iteration takes a different lens and builds on all prior findings:
 
 ## When to Use
 This skill is applicable to execute the workflow or actions described in the overview.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

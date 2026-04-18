@@ -4,6 +4,10 @@ description: "Generate comprehensive, developer-friendly API documentation from 
 risk: unknown
 source: community
 date_added: "2026-02-27"
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 # API Documentation Generator
@@ -485,3 +489,9 @@ Export collection for easy testing:
 ---
 
 **Pro Tip:** Keep your API documentation as close to your code as possible. Use tools that generate docs from code comments to ensure they stay in sync!
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

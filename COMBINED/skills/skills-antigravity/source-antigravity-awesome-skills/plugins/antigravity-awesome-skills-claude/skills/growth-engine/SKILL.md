@@ -17,6 +17,9 @@ tools:
 - cursor
 - gemini-cli
 - codex-cli
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 # GROWTH-ENGINE -- Crescimento Exponencial
@@ -241,3 +244,9 @@ Dia 0 -- Boas-vindas (imediato apos cadastro)
 - `monetization` - Complementary skill for enhanced analysis
 - `product-design` - Complementary skill for enhanced analysis
 - `product-inventor` - Complementary skill for enhanced analysis
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

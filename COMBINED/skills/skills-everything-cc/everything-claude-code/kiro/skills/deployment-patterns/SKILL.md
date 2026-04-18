@@ -6,6 +6,10 @@ description: >
   applications. Use when setting up deployment infrastructure or planning releases.
 metadata:
   origin: ECC
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-everything-cc
 ---
 
 # Deployment Patterns
@@ -438,3 +442,9 @@ Before any production deployment:
 - Implementing health checks
 - Preparing for production releases
 - Troubleshooting deployment issues
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

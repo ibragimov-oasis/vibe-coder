@@ -8,7 +8,9 @@ dependencies: [transformers>=4.47.0, trl>=0.14.0, datasets>=3.2.0, peft>=0.14.0,
 metadata:
   hermes:
     tags: [Post-Training, Reinforcement Learning, GRPO, TRL, RLHF, Reward Modeling, Reasoning, DPO, PPO, Structured Output]
-
+  - domain/skills
+  - artifact/skill
+  - source/skills-hermes
 ---
 
 # GRPO/RL Training with TRL
@@ -571,5 +573,8 @@ When this skill is loaded:
 
 This skill is designed for **expert-level implementation**. Beginners should start with supervised fine-tuning before attempting GRPO.
 
+## 🔗 Связи
 
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-hermes]] — Category: skills-hermes
 

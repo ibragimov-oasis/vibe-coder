@@ -4,6 +4,10 @@ description: "Secure environment variable management ensuring secrets are never 
 risk: safe
 source: "https://github.com/wrsmith108/varlock-claude-skill"
 date_added: "2026-02-27"
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 # Varlock Claude Skill
@@ -21,3 +25,9 @@ Use this skill when you need to work with secure environment variable management
 This skill provides guidance and patterns for secure environment variable management ensuring secrets are never exposed in claude sessions, terminals, logs, or git commits.
 
 For more information, see the [source repository](https://github.com/wrsmith108/varlock-claude-skill).
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

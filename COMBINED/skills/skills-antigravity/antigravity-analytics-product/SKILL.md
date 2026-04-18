@@ -17,6 +17,9 @@ tools:
 - cursor
 - gemini-cli
 - codex-cli
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 # ANALYTICS-PRODUCT — Decida com Dados
@@ -299,3 +302,9 @@ def ab_test_significance(
 - `monetization` - Complementary skill for enhanced analysis
 - `product-design` - Complementary skill for enhanced analysis
 - `product-inventor` - Complementary skill for enhanced analysis
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

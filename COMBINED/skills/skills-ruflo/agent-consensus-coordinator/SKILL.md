@@ -1,6 +1,10 @@
 ---
 name: agent-consensus-coordinator
 description: Agent skill for consensus-coordinator - invoke with $agent-consensus-coordinator
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-ruflo
 ---
 
 ---
@@ -341,3 +345,9 @@ const blockchainConsensus = await mcp__flow-nexus__neural_train({
 5. **Performance Monitoring**: Monitor coordination effectiveness
 
 The Consensus Coordinator Agent serves as the backbone for all distributed coordination and agreement protocols, ensuring reliable and efficient consensus across various distributed computing environments and multi-agent systems.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-ruflo]] — Category: skills-ruflo
+

@@ -4,6 +4,10 @@ description: "Comprehensive guidance for building scalable, maintainable, and pr
 risk: safe
 source: community
 date_added: "2026-02-27"
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 # Node.js Backend Patterns
@@ -36,3 +40,9 @@ Comprehensive guidance for building scalable, maintainable, and production-ready
 ## Resources
 
 - `resources/implementation-playbook.md` for detailed patterns and examples.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

@@ -9,6 +9,10 @@ metadata:
   domain: orchestration
   updated: 2026-03-05
   frameworks: founder-interview, context-capture, quarterly-refresh
+tags:
+  - domain/agents
+  - artifact/skill
+  - source/skills-claude
 ---
 
 # C-Suite Onboarding
@@ -106,3 +110,10 @@ Update the context file, refresh timestamp, reset to `fresh`.
 ## References
 - `templates/company-context-template.md` — blank template for output
 - `references/interview-guide.md` — deep interview craft: probes, red flags, handling reluctant founders
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+- [[MOC - Agents]] — Claude agents
+

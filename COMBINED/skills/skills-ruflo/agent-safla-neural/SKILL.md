@@ -1,6 +1,10 @@
 ---
 name: agent-safla-neural
 description: Agent skill for safla-neural - invoke with $agent-safla-neural
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-ruflo
 ---
 
 ---
@@ -77,3 +81,9 @@ mcp__claude-flow__memory_usage {
   ttl: 604800  // 7 days
 }
 ```
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-ruflo]] — Category: skills-ruflo
+

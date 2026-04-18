@@ -4,6 +4,10 @@ description: Azure Data Lake Storage Gen2 SDK for Python. Use for hierarchical f
 risk: unknown
 source: community
 date_added: '2026-02-27'
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 # Azure Data Lake Storage Gen2 SDK for Python
@@ -212,3 +216,9 @@ asyncio.run(datalake_operations())
 
 ## When to Use
 This skill is applicable to execute the workflow or actions described in the overview.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

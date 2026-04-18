@@ -4,6 +4,10 @@ description: "Expert in Drizzle ORM for TypeScript — schema design, relational
 risk: safe
 source: community
 date_added: "2026-03-04"
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 # Drizzle ORM Expert
@@ -361,3 +365,9 @@ export async function createUser(formData: FormData) {
 
 **Problem:** Type errors on `.returning()` with MySQL
 **Solution:** MySQL does not support `RETURNING`. Use `.execute()` and read `insertId` from the result instead.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

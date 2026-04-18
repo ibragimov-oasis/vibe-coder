@@ -1,6 +1,10 @@
 ---
 name: aws-cdk-python-setup
 description: Setup and initialization guide for developing AWS CDK (Cloud Development Kit) applications in Python. This skill enables users to configure environment prerequisites, create new CDK projects, manage dependencies, and deploy to AWS.
+tags:
+  - domain/agents
+  - artifact/skill
+  - source/skills-copilot
 ---
 # AWS CDK Python Setup Instructions
 
@@ -109,3 +113,10 @@ If issues occur, check:
 - Default region is set properly.
 - Node.js and Python versions meet minimum requirements.
 - Run `cdk doctor` to diagnose environment issues.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-copilot]] — Category: skills-copilot
+- [[MOC - Agents]] — Copilot agents
+

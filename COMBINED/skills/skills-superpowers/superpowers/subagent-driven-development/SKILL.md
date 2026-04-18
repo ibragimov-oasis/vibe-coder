@@ -12,7 +12,10 @@ sources:
     repo: https://github.com/anthropics/hermes-agent
     path: skills/software-development/subagent-driven-development/SKILL.md
   - name: antigravity-awesome-skills
-    repo: https://github.com/anthropics/antigravity-awesome-skills
+
+  - domain/skills
+  - artifact/skill
+  - source/skills-superpowers    repo: https://github.com/anthropics/antigravity-awesome-skills
     path: skills/subagent-driven-development/SKILL.md
 related_skills: [writing-plans, requesting-code-review, test-driven-development, executing-plans, finishing-a-development-branch]
 ---
@@ -456,3 +459,9 @@ Catch issues early
 ```
 
 **Quality is not an accident. It's the result of systematic process.**
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-superpowers]] — Category: skills-superpowers
+

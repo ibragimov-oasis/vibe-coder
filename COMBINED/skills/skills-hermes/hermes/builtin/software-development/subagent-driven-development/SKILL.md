@@ -8,6 +8,9 @@ metadata:
   hermes:
     tags: [delegation, subagent, implementation, workflow, parallel]
     related_skills: [writing-plans, requesting-code-review, test-driven-development]
+  - domain/skills
+  - artifact/skill
+  - source/skills-hermes
 ---
 
 # Subagent-Driven Development
@@ -340,3 +343,9 @@ Catch issues early
 ```
 
 **Quality is not an accident. It's the result of systematic process.**
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-hermes]] — Category: skills-hermes
+

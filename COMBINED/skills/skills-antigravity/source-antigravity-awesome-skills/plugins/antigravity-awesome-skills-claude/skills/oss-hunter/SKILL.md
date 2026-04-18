@@ -4,6 +4,10 @@ description: "Automatically hunt for high-impact OSS contribution opportunities 
 risk: safe
 source: "https://github.com/jackjin1997/ClawForge"
 date_added: "2026-02-27"
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 # OSS Hunter 🎯
@@ -72,3 +76,9 @@ Generate a structured report for the human:
 Build a better hunter by adding new heuristics to Phase 3. Submit your improvements to the [ClawForge](https://github.com/jackjin1997/ClawForge).
 
 *Powered by OpenClaw & ClawForge.*
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

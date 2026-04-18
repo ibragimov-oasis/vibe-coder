@@ -3,6 +3,10 @@ name: skill-improver
 description: "Iteratively improve a Claude Code skill using the skill-reviewer agent until it meets quality standards. Use when improving a skill with multiple quality issues, iterating on a new skill until it meets standards, or automated fix-review cycles instead of manual editing."
 risk: unknown
 source: community
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 # Skill Improvement Methodology
@@ -144,3 +148,9 @@ The marker is the ONLY way to complete the loop. Natural language like "looks go
 - "This minor issue seems wrong, I'll skip all of them" - Evaluate each one individually
 - "The reviewer is being too strict" - The quality bar exists for a reason
 - "It's good enough" - If there are major issues, it's not good enough
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

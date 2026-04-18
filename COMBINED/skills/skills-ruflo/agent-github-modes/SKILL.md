@@ -1,6 +1,10 @@
 ---
 name: agent-github-modes
 description: Agent skill for github-modes - invoke with $agent-github-modes
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-ruflo
 ---
 
 ---
@@ -176,3 +180,9 @@ mcp__claude-flow__agent_spawn { type: "tester", name: "QA Agent" }
 // Execute GitHub workflow with coordination
 mcp__claude-flow__task_orchestrate { task: "GitHub workflow", strategy: "parallel" }
 ```
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-ruflo]] — Category: skills-ruflo
+

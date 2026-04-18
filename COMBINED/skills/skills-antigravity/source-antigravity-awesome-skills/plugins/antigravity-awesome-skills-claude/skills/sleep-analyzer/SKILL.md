@@ -4,6 +4,10 @@ description: 分析睡眠数据、识别睡眠模式、评估睡眠质量，并�
 allowed-tools: Read, Grep, Glob, Write
 risk: unknown
 source: community
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 # 睡眠分析器技能
@@ -773,3 +777,9 @@ def calculate_correlation(sleep_data, other_data, lag_days=0):
 **技能版本**: v1.0
 **创建日期**: 2026-01-02
 **维护者**: WellAlly Tech
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

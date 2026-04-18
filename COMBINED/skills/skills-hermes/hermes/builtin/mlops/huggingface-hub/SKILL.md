@@ -5,6 +5,9 @@ version: 1.0.0
 author: Hugging Face
 license: MIT
 tags: [huggingface, hf, models, datasets, hub, mlops]
+  - domain/skills
+  - artifact/skill
+  - source/skills-hermes
 ---
 
 # Hugging Face CLI (`hf`) Reference Guide
@@ -78,3 +81,9 @@ The `hf` command is the modern command-line interface for interacting with the H
 ### Extensions & Skills
 *   **Extensions:** Extend CLI functionality via GitHub repositories using `hf extensions install REPO_ID`.
 *   **Skills:** Manage AI assistant skills with `hf skills add`.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-hermes]] — Category: skills-hermes
+

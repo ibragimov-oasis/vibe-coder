@@ -4,6 +4,10 @@ description: "Scoped CLAUDE.md memory system that reduces context token spend. C
 risk: safe
 source: "https://github.com/kromahlusenii-ops/ham"
 date_added: "2026-02-27"
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 # Hierarchical Agent Memory (HAM)
@@ -131,3 +135,9 @@ Agent:
 
 - `agent-memory-systems` — general agent memory architecture patterns
 - `agent-memory-mcp` — MCP-based memory integration
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

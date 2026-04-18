@@ -5,6 +5,9 @@ risk: safe
 source: community
 version: 1.0.0
 tags: [fp-ts, typescript, quick-reference, option, either, task]
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 # fp-ts Quick Reference
@@ -66,3 +69,9 @@ pipe(result, E.match(
   (val) => `success: ${val}`
 ))
 ```
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

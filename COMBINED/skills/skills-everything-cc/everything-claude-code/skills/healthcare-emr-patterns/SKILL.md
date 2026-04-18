@@ -3,6 +3,10 @@ name: healthcare-emr-patterns
 description: EMR/EHR development patterns for healthcare applications. Clinical safety, encounter workflows, prescription generation, clinical decision support integration, and accessibility-first UI for medical data entry.
 origin: Health1 Super Speciality Hospitals — contributed by Dr. Keyur Patel
 version: "1.0.0"
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-everything-cc
 ---
 
 # Healthcare EMR Development Patterns
@@ -157,3 +161,9 @@ Encounter #E-2024-0891 signed by Dr. Shah at 14:30
   → New record E-2024-0891-A1 linked to original
   → Timeline shows both: original encounter + addendum with timestamps
 ```
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

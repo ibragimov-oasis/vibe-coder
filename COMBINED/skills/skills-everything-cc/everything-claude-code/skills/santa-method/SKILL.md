@@ -2,6 +2,10 @@
 name: santa-method
 description: "Multi-agent adversarial verification with convergence loop. Two independent review agents must both pass before output ships."
 origin: "Ronald Skelton - Founder, RapportScore.ai"
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-everything-cc
 ---
 
 # Santa Method
@@ -304,3 +308,9 @@ Cost of NOT Santa = (reputation damage) + (correction effort) + (trust erosion)
 ```
 
 For batch operations, the sampling pattern reduces cost to ~15-20% of full verification while catching >90% of systematic issues.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

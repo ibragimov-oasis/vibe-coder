@@ -8,7 +8,9 @@ dependencies: [transformers, torch, pillow]
 metadata:
   hermes:
     tags: [Multimodal, CLIP, Vision-Language, Zero-Shot, Image Classification, OpenAI, Image Search, Cross-Modal Retrieval, Content Moderation]
-
+  - domain/skills
+  - artifact/skill
+  - source/skills-hermes
 ---
 
 # CLIP - Contrastive Language-Image Pre-Training
@@ -253,4 +255,8 @@ results = collection.query(
 - **Colab**: https://colab.research.google.com/github/openai/clip/
 - **License**: MIT
 
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-hermes]] — Category: skills-hermes
 

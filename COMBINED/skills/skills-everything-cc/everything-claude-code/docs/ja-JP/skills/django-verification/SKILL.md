@@ -1,6 +1,10 @@
 ---
 name: django-verification
 description: Verification loop for Django projects: migrations, linting, tests with coverage, security scans, and deployment readiness checks before release or PR.
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-everything-cc
 ---
 
 # Django 検証ループ
@@ -458,3 +462,9 @@ jobs:
 | 差分統計 | `git diff --stat` |
 
 **覚えておいてください**: 自動化された検証は一般的な問題を捕捉しますが、手動でのコードレビューとステージング環境でのテストに代わるものではありません。
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

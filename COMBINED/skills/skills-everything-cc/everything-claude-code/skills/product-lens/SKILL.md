@@ -2,6 +2,10 @@
 name: product-lens
 description: Use this skill to validate the "why" before building, run product diagnostics, and convert vague ideas into specs.
 origin: ECC
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-everything-cc
 ---
 
 # Product Lens — Think Before You Build
@@ -83,3 +87,9 @@ Pair with:
 - `/browser-qa` to verify the user journey audit findings
 - `/design-system audit` for visual polish assessment
 - `/canary-watch` for post-launch monitoring
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

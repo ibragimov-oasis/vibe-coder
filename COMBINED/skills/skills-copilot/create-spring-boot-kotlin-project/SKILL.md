@@ -1,6 +1,10 @@
 ---
 name: create-spring-boot-kotlin-project
 description: 'Create Spring Boot Kotlin Project Skeleton'
+tags:
+  - domain/agents
+  - artifact/skill
+  - source/skills-copilot
 ---
 
 # Create Spring Boot Kotlin project prompt
@@ -145,3 +149,10 @@ spring.data.mongodb.database=test
 - (Optional) `docker-compose up -d` to start the services, `./gradlew spring-boot:run` to run the Spring Boot project, `docker-compose rm -sf` to stop the services.
 
 Let's do this step by step.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-copilot]] — Category: skills-copilot
+- [[MOC - Agents]] — Copilot agents
+

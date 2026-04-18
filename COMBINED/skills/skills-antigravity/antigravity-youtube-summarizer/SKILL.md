@@ -6,6 +6,9 @@ risk: safe
 source: community
 tags: "[video, summarization, transcription, youtube, content-analysis]"
 date_added: "2026-02-27"
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 # youtube-summarizer
@@ -406,3 +409,9 @@ Welcome to this comprehensive tutorial on machine learning fundamentals. In toda
 **Version:** 1.2.0
 **Last Updated:** 2026-02-02
 **Maintained By:** Eric Andrade
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

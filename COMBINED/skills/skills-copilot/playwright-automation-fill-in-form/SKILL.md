@@ -1,6 +1,10 @@
 ---
 name: playwright-automation-fill-in-form
 description: 'Automate filling in a form using Playwright MCP'
+tags:
+  - domain/agents
+  - artifact/skill
+  - source/skills-copilot
 ---
 
 # Automating Filling in a Form with Playwright MCP
@@ -26,3 +30,10 @@ Navigate to https://forms.microsoft.com/url-of-my-form
 DO NOT SUBMIT THE FORM. 
 
 Ask for a review of the form before submitting it.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-copilot]] — Category: skills-copilot
+- [[MOC - Agents]] — Copilot agents
+

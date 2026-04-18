@@ -1,6 +1,10 @@
 ---
 name: agent-scout-explorer
 description: Agent skill for scout-explorer - invoke with $agent-scout-explorer
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-ruflo
 ---
 
 ---
@@ -245,3 +249,9 @@ mcp__claude-flow__memory_usage {
   })
 }
 ```
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-ruflo]] — Category: skills-ruflo
+

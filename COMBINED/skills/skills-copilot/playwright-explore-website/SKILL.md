@@ -1,6 +1,10 @@
 ---
 name: playwright-explore-website
 description: 'Website exploration for testing using Playwright MCP'
+tags:
+  - domain/agents
+  - artifact/skill
+  - source/skills-copilot
 ---
 
 # Website Exploration for Testing
@@ -15,3 +19,10 @@ Your goal is to explore the website and identify key functionalities.
 4. Close the browser context upon completion.
 5. Provide a concise summary of your findings.
 6. Propose and generate test cases based on the exploration.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-copilot]] — Category: skills-copilot
+- [[MOC - Agents]] — Copilot agents
+

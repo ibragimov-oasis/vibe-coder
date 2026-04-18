@@ -4,6 +4,10 @@ description: "Use when working with tdd workflows tdd cycle"
 risk: unknown
 source: community
 date_added: "2026-02-27"
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 ## Use this skill when
@@ -222,3 +226,9 @@ Track and report:
 - Tests should be independent and isolated
 
 TDD implementation for: $ARGUMENTS
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

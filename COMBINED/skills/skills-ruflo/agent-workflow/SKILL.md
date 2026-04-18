@@ -1,6 +1,10 @@
 ---
 name: agent-workflow
 description: Agent skill for workflow - invoke with $agent-workflow
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-ruflo
 ---
 
 ---
@@ -87,3 +91,9 @@ Advanced features you leverage:
 - Automated rollback and recovery procedures
 
 When designing workflows, always consider scalability, fault tolerance, monitoring capabilities, and clear execution paths that maximize automation efficiency while maintaining system reliability and observability.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-ruflo]] — Category: skills-ruflo
+

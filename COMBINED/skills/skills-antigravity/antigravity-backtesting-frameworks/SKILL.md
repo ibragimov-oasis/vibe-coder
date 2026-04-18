@@ -4,6 +4,10 @@ description: "Build robust, production-grade backtesting systems that avoid comm
 risk: safe
 source: community
 date_added: "2026-02-27"
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 # Backtesting Frameworks
@@ -40,3 +44,9 @@ Build robust, production-grade backtesting systems that avoid common pitfalls an
 ## Resources
 
 - `resources/implementation-playbook.md` for detailed patterns and examples.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

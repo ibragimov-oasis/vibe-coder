@@ -1,6 +1,10 @@
 ---
 name: doublecheck
 description: 'Three-layer verification pipeline for AI output. Extracts verifiable claims, finds supporting or contradicting sources via web search, runs adversarial review for hallucination patterns, and produces a structured verification report with source links for human review.'
+tags:
+  - domain/agents
+  - artifact/skill
+  - source/skills-copilot
 ---
 
 # Doublecheck
@@ -275,3 +279,10 @@ For legal content, give extra scrutiny to: case citations, statutory references,
 - Verify CVE numbers, vulnerability descriptions, and affected versions
 - Check that API specifications and configuration instructions match current documentation
 - Watch for version-specific information that may be outdated
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-copilot]] — Category: skills-copilot
+- [[MOC - Agents]] — Copilot agents
+

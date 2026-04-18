@@ -1,6 +1,10 @@
 ---
 name: create-technical-spike
 description: 'Create time-boxed technical spike documents for researching and resolving critical development decisions before implementation.'
+tags:
+  - domain/agents
+  - artifact/skill
+  - source/skills-copilot
 ---
 
 # Create Technical Spike Document
@@ -228,3 +232,10 @@ Use descriptive, kebab-case names that indicate the category and specific unknow
 - **vscodeAPI:** Test VS Code extension capabilities and limitations
 
 Focus on time-boxed research that resolves critical technical decisions and unblocks development progress.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-copilot]] — Category: skills-copilot
+- [[MOC - Agents]] — Copilot agents
+

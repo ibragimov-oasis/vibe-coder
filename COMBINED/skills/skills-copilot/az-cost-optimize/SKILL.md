@@ -1,6 +1,10 @@
 ---
 name: az-cost-optimize
 description: 'Analyze Azure resources used in the app (IaC files and/or resources in a target rg) and optimize costs - creating GitHub issues for identified optimizations.'
+tags:
+  - domain/agents
+  - artifact/skill
+  - source/skills-copilot
 ---
 
 # Azure Cost Optimize
@@ -303,3 +307,10 @@ This workflow analyzes Infrastructure-as-Code (IaC) files and Azure resources to
 - ✅ Priority scoring enables ROI-focused implementation
 - ✅ Architecture diagram accurately represents current state
 - ✅ User confirmation prevents unwanted issue creation
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-copilot]] — Category: skills-copilot
+- [[MOC - Agents]] — Copilot agents
+

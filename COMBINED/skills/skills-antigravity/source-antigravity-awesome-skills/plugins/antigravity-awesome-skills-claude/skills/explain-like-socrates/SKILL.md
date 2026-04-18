@@ -5,6 +5,10 @@ description: >
 risk: safe
 source: original
 date_added: "2026-03-11"
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 # EXPLAIN LIKE SOCRATES
@@ -158,3 +162,9 @@ Optionally invite reflection with a prompt such as:
 - "Does the picture feel clearer?"
 
 Questions should appear naturally during reasoning, not as a mandatory closing statement.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

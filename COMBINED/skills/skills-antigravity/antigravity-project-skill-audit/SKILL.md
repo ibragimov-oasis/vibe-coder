@@ -4,6 +4,10 @@ description: Audit a project and recommend the highest-value skills to add or up
 risk: safe
 source: "Dimillian/Skills (MIT)"
 date_added: "2026-03-25"
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 # Project Skill Audit
@@ -188,3 +192,9 @@ Return a compact audit with:
 ## Follow-up
 
 If the user asks to actually create or update one of the recommended skills, switch to [$skill-creator](/Users/dimillian/.codex/skills/.system/skill-creator/SKILL.md) and implement the chosen skill rather than continuing the audit.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

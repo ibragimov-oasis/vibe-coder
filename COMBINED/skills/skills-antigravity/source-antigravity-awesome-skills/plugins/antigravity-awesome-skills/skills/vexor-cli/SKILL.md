@@ -3,6 +3,10 @@ name: vexor-cli
 description: Semantic file discovery via `vexor`. Use whenever locating where something is implemented/loaded/defined in a medium or large repo, or when the file location is unclear. Prefer this over manual browsing.
 risk: unknown
 source: community
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 # Vexor CLI Skill
@@ -79,3 +83,9 @@ vexor search "config loader" --path . --exclude-pattern tests/** --exclude-patte
 - First time search will index files (may take a minute). Subsequent searches are fast. Use longer timeouts if needed.
 - Results return similarity ranking, exact file location, line numbers, and matching snippet preview.
 - Combine `--ext` with `--exclude-pattern` to focus on a subset (exclude rules apply on top).
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

@@ -11,6 +11,10 @@ description: >-
   DO NOT TRIGGER when: task is completable in a single PR or fewer
   than 3 tool calls, or user says "just do it".
 origin: community
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-everything-cc
 ---
 
 # Blueprint — Construction Plan Generator
@@ -103,3 +107,9 @@ If you are vendoring only this skill outside the full ECC install, copy the revi
 ## Source
 
 Inspired by antbotlab/blueprint — upstream project and reference design.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

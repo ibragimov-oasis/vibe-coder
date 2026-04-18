@@ -8,7 +8,9 @@ dependencies: [modal>=0.64.0]
 metadata:
   hermes:
     tags: [Infrastructure, Serverless, GPU, Cloud, Deployment, Modal]
-
+  - domain/skills
+  - artifact/skill
+  - source/skills-hermes
 ---
 
 # Modal Serverless GPU
@@ -342,3 +344,9 @@ if __name__ == "__main__":
 - **Examples**: https://github.com/modal-labs/modal-examples
 - **Pricing**: https://modal.com/pricing
 - **Discord**: https://discord.gg/modal
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-hermes]] — Category: skills-hermes
+

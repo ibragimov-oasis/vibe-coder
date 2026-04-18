@@ -7,6 +7,10 @@ metadata:
   author: Alireza Rezvani
   category: marketing
   updated: 2026-03-06
+tags:
+  - domain/agents
+  - artifact/skill
+  - source/skills-claude
 ---
 
 # Marketing Ops
@@ -188,3 +192,10 @@ All output passes quality verification:
 - **marketing-context**: Foundation — run this first if it doesn't exist.
 - **cmo-advisor** (C-Suite): Strategic marketing decisions. Marketing-ops handles execution routing.
 - **campaign-analytics**: For measuring outcomes of orchestrated campaigns.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+- [[MOC - Agents]] — Claude agents
+

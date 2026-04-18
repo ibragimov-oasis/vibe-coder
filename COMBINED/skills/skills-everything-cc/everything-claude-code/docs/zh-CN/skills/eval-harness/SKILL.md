@@ -3,6 +3,10 @@ name: eval-harness
 description: 克劳德代码会话的正式评估框架，实施评估驱动开发（EDD）原则
 origin: ECC
 tools: Read, Write, Edit, Bash, Grep, Glob
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-everything-cc
 ---
 
 # Eval Harness 技能
@@ -302,3 +306,9 @@ npm test -- --testPathPattern="existing"
 * `.claude/evals/<feature>.md` 定义
 * `.claude/evals/<feature>.log` 运行历史
 * `docs/releases/<version>/eval-summary.md` 发布快照
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

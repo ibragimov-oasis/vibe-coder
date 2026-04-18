@@ -4,6 +4,10 @@ description: Expert reverse engineer specializing in binary analysis, disassembl
 risk: offensive
 source: community
 date_added: '2026-02-27'
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 # Common RE scripting environments
@@ -167,3 +171,9 @@ Response: For authorized analysis of the DLL:
    - Map data structures
    - Note any security considerations
 ```
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

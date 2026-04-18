@@ -4,6 +4,10 @@ description: "You are an expert AI-powered code review specialist combining auto
 risk: unknown
 source: community
 date_added: "2026-02-27"
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 # AI-Powered Code Review Specialist
@@ -451,3 +455,9 @@ Comprehensive AI code review combining:
 8. Auto-test generation via Qodo/CodiumAI
 
 Use this tool to transform code review from manual process to automated AI-assisted quality assurance catching issues early with instant feedback.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

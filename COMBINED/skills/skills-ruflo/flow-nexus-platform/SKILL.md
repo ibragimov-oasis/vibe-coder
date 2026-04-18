@@ -5,6 +5,9 @@ category: platform
 version: 1.0.0
 author: Flow Nexus
 tags: [authentication, sandboxes, deployment, payments, gamification, cloud]
+  - domain/skills
+  - artifact/skill
+  - source/skills-ruflo
 ---
 
 # Flow Nexus Platform Management
@@ -1155,3 +1158,9 @@ mcp__flow-nexus__realtime_subscribe({
 ---
 
 *This skill consolidates 6 Flow Nexus command modules into a single comprehensive platform management interface.*
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-ruflo]] — Category: skills-ruflo
+

@@ -6,6 +6,9 @@ risk: safe
 source: community
 tags: [sankhya, dashboard, jsp, html, sql, best-practices]
 date_added: "2026-03-10"
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 # sankhya-dashboard-html-jsp-custom-best-pratices
@@ -437,3 +440,9 @@ function onGraficoClick(grupo) {
 **Variáveis internas de segurança**
 - Aproveitar variáveis de sessão para segurança em nível de linha (`CODUSU_LOG`, `CODGRU_LOG`, `CODVEN_LOG`).
 - Restringir dados por contexto do usuário antes de montar visualizações.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

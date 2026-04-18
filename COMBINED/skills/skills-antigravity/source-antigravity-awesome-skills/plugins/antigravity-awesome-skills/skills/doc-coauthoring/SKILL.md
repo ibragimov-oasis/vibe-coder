@@ -4,6 +4,10 @@ description: "This skill provides a structured workflow for guiding users throug
 risk: unknown
 source: community
 date_added: "2026-02-27"
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 # Doc Co-Authoring Workflow
@@ -379,3 +383,9 @@ Announce document completion. Provide a few final tips:
 
 ## When to Use
 This skill is applicable to execute the workflow or actions described in the overview.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

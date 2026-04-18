@@ -2,6 +2,10 @@
 name: release
 description: Automated release workflow for oh-my-claudecode
 level: 3
+tags:
+  - domain/orchestration
+  - artifact/skill
+  - source/skills-omc
 ---
 
 # Release Skill
@@ -86,3 +90,10 @@ gh release create v<version> --title "v<version> - <title>" --notes "<release no
 - Always run tests before publishing
 - Create release notes summarizing changes
 - Plugin marketplace syncs automatically from GitHub releases
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-omc]] — Category: skills-omc
+- [[MOC - Orchestration]] — Multi-agent orchestration
+

@@ -1,6 +1,10 @@
 ---
 name: liquid-glass-design
 description: iOS 26 液态玻璃设计系统 — 适用于 SwiftUI、UIKit 和 WidgetKit 的动态玻璃材质，具有模糊、反射和交互式变形效果。
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-everything-cc
 ---
 
 # Liquid Glass 设计系统 (iOS 26)
@@ -278,3 +282,9 @@ VStack { /* content */ }
 * 需要视觉深度和触摸反馈的交互控件
 * 应与系统 Liquid Glass 外观集成的小组件
 * 相关 UI 状态之间的变形过渡
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

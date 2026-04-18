@@ -1,6 +1,10 @@
 ---
 name: persona
 description: Generate data-driven user personas for UX research and product design. Usage: /persona generate [options]
+tags:
+  - domain/agents
+  - artifact/skill
+  - source/skills-claude
 ---
 
 # /persona
@@ -38,3 +42,10 @@ Interactive mode prompts for product context. Alternatively, provide context inl
 
 ## Skill Reference
 > `product-team/ux-researcher-designer/SKILL.md`
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+- [[MOC - Agents]] — Claude agents
+

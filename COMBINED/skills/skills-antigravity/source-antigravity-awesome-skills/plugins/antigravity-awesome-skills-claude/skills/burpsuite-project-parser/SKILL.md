@@ -6,6 +6,10 @@ allowed-tools:
   - Read
 risk: unknown
 source: community
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 # Burp Project Parser
@@ -357,3 +361,9 @@ If not using the wrapper script, invoke directly:
 "$BURP_JAVA" -jar -Djava.awt.headless=true "$BURP_JAR" \
   --project-file=/path/to/project.burp [FLAGS]
 ```
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

@@ -5,6 +5,10 @@ description: |
   quality, security, marketplace compliance, cross-platform compatibility, and ecosystem integration.
   Runs all built-in validation tools, invokes domain-appropriate agents for code review,
   and produces a pass/fail gate report. Usage: /plugin-audit <skill-path>
+tags:
+  - domain/agents
+  - artifact/skill
+  - source/skills-claude
 ---
 
 # /plugin-audit
@@ -310,3 +314,10 @@ Present results as a structured table:
 | Quality Standards | `standards/quality/quality-standards.md` |
 | Security Standards | `standards/security/security-standards.md` |
 | Git Standards | `standards/git/git-workflow-standards.md` |
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+- [[MOC - Agents]] — Claude agents
+

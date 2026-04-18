@@ -4,6 +4,10 @@ description: "Templates and patterns for creating legally sound employment docum
 risk: safe
 source: community
 date_added: "2026-02-27"
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 # Employment Contract Templates
@@ -40,3 +44,9 @@ Templates and patterns for creating legally sound employment documentation inclu
 ## Resources
 
 - `resources/implementation-playbook.md` for detailed templates and checklists.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

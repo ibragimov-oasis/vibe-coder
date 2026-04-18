@@ -1,6 +1,10 @@
 ---
 name: mcp-create-adaptive-cards
 description: 'Skill converted from mcp-create-adaptive-cards.prompt.md'
+tags:
+  - domain/agents
+  - artifact/skill
+  - source/skills-copilot
 ---
 
 ````prompt
@@ -530,3 +534,10 @@ Then generate:
 ```
 
 ````
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-copilot]] — Category: skills-copilot
+- [[MOC - Agents]] — Copilot agents
+

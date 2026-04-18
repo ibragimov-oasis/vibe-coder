@@ -4,6 +4,10 @@ description: "Use when improving prompts for any LLM. Applies proven prompt engi
 risk: safe
 source: community
 date_added: "2026-03-04"
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 # LLM Prompt Optimizer
@@ -180,3 +184,9 @@ Before using a prompt in production:
 
 **Problem:** Output is too long
 **Solution:** Add explicit word/sentence limits: "Respond in exactly 3 bullet points, each under 20 words."
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

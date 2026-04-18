@@ -4,6 +4,10 @@ description: "Automate Basecamp project management, to-dos, messages, people, an
 risk: critical
 source: community
 date_added: "2026-02-27"
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 # Basecamp Automation via Rube MCP
@@ -235,3 +239,9 @@ Basecamp uses page-based pagination on list endpoints:
 
 ## When to Use
 This skill is applicable to execute the workflow or actions described in the overview.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

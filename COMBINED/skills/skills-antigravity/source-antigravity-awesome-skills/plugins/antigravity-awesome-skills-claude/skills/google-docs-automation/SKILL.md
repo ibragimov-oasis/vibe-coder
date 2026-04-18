@@ -7,6 +7,10 @@ source: community
 metadata:
   author: sanjay3290
   version: "1.0"
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 # Google Docs
@@ -79,3 +83,9 @@ Tokens stored securely using the system keyring:
 Service name: `google-docs-skill-oauth`
 
 Access tokens are automatically refreshed when expired using Google's cloud function.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

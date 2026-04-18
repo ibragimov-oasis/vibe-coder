@@ -4,6 +4,10 @@ description: "33+ essential JavaScript concepts every developer should know, ins
 risk: unknown
 source: community
 date_added: "2026-02-27"
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 # 🧠 JavaScript Mastery
@@ -646,3 +650,9 @@ const value2 = 0 || "default"; // "default" (0 is falsy)
 - [JavaScript.info](https://javascript.info/)
 - [MDN JavaScript Guide](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide)
 - [You Don't Know JS](https://github.com/getify/You-Dont-Know-JS)
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

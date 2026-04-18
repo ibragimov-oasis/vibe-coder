@@ -7,6 +7,10 @@ metadata:
 risk: safe
 source: community
 date_added: "2026-03-07"
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 ## Capabilities
@@ -301,3 +305,9 @@ Pipecat integrates with:
 ---
 
 > For additional documentation and navigation, see: https://docs.pipecat.ai/llms.txt
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

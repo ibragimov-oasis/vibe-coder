@@ -1,6 +1,10 @@
 ---
 name: bootstrap
 description: Generate a personalized SOUL.md through a warm, adaptive onboarding conversation. Trigger when the user wants to create, set up, or initialize their AI partner's identity — e.g., "create my SOUL.md", "bootstrap my agent", "set up my AI partner", "define who you are", "let's do onboarding", "personalize this AI", "make you mine", or when a SOUL.md is missing. Also trigger for updates: "update my SOUL.md", "change my AI's personality", "tweak the soul".
+tags:
+  - domain/orchestration
+  - artifact/skill
+  - source/skills-deer-flow
 ---
 
 # Bootstrap Soul
@@ -86,3 +90,10 @@ Once you have enough information:
 - Growth section is mandatory and mostly fixed (see template).
 - You **must** call `setup_agent` — do not write the file manually with bash tools.
 - If `setup_agent` returns an error, report it to the user and do not claim success.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-deer-flow]] — Category: skills-deer-flow
+- [[MOC - Orchestration]] — DeerFlow research pipeline
+

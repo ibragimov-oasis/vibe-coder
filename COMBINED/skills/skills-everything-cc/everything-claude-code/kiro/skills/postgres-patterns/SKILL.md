@@ -7,6 +7,10 @@ description: >
 metadata:
   origin: ECC
   credit: Supabase team (MIT License)
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-everything-cc
 ---
 
 # PostgreSQL Patterns
@@ -159,3 +163,9 @@ SELECT pg_reload_conf();
 ---
 
 *Based on Supabase Agent Skills (credit: Supabase team) (MIT License)*
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

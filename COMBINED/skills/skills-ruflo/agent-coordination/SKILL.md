@@ -4,6 +4,10 @@ description: >
   Agent spawning, lifecycle management, and coordination patterns. Manages 60+ agent types with specialized capabilities.
   Use when: spawning agents, coordinating multi-agent tasks, managing agent pools.
   Skip when: single-agent work, no coordination needed.
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-ruflo
 ---
 
 # Agent Coordination Skill
@@ -78,3 +82,9 @@ npx claude-flow agent pool --size 5 --type coder
 2. Keep agent count under 8 for tight coordination
 3. Use specialized agents for specific tasks
 4. Coordinate via memory, not direct communication
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-ruflo]] — Category: skills-ruflo
+

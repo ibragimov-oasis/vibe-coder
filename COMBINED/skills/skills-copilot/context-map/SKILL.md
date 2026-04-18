@@ -1,6 +1,10 @@
 ---
 name: context-map
 description: 'Generate a map of all files relevant to a task before making changes'
+tags:
+  - domain/agents
+  - artifact/skill
+  - source/skills-copilot
 ---
 
 # Context Map
@@ -50,3 +54,10 @@ Before implementing any changes, analyze the codebase and create a context map.
 ```
 
 Do not proceed with implementation until this map is reviewed.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-copilot]] — Category: skills-copilot
+- [[MOC - Agents]] — Copilot agents
+

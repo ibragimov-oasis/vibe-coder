@@ -7,6 +7,10 @@ description: |
   Chat widget, Messages, PromptInput, Avatar, LLM
 risk: unknown
 source: community
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 # MolyKit Skill
@@ -364,3 +368,9 @@ fn send(&mut self, ...) -> BoxPlatformSendStream<...> {
 ## Reference Files
 
 - `llms.txt` - Complete MolyKit API reference
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

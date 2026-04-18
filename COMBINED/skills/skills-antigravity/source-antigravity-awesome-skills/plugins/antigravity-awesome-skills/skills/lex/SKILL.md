@@ -8,6 +8,9 @@ date_added: "2026-03-10"
 author: Svobikl
 tags: [legal, context, cross-jurisdictional, compliance, scaffolding]
 tools: [claude, cursor, gemini]
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 # LEX: Legal-Entity-X-ref
@@ -69,3 +72,9 @@ lex draft "Czech house sale contract"
 - `@employment-contract-templates` - For more specific HR policy phrasing.
 - `@legal-advisor` - For general legal framework architecture.
 - `@security-auditor` - For reviewing the final repository security.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

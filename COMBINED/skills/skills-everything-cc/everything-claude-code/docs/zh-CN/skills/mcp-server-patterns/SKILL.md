@@ -2,6 +2,10 @@
 name: mcp-server-patterns
 description: 使用Node/TypeScript SDK构建MCP服务器——工具、资源、提示、Zod验证、stdio与可流式HTTP对比。使用Context7或官方MCP文档获取最新API信息。
 origin: ECC
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-everything-cc
 ---
 
 # MCP 服务器模式
@@ -65,3 +69,9 @@ const server = new McpServer({ name: "my-server", version: "1.0.0" });
 * **JavaScript/TypeScript**：`@modelcontextprotocol/sdk` (npm)。使用库名 "MCP" 的 Context7 以获取当前的注册和传输模式。
 * **Go**：GitHub 上的官方 Go SDK (`modelcontextprotocol/go-sdk`)。
 * **C#**：适用于 .NET 的官方 C# SDK。
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

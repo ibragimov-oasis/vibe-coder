@@ -4,6 +4,10 @@ description: "-Automatically convert documentation websites, GitHub repositories
 risk: safe
 source: "https://github.com/yusufkaraaslan/Skill_Seekers"
 date_added: "2026-02-27"
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 # Skill Seekers
@@ -21,3 +25,9 @@ Use this skill when you need to work with -automatically convert documentation w
 This skill provides guidance and patterns for -automatically convert documentation websites, github repositories, and pdfs into claude ai skills in minutes..
 
 For more information, see the [source repository](https://github.com/yusufkaraaslan/Skill_Seekers).
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

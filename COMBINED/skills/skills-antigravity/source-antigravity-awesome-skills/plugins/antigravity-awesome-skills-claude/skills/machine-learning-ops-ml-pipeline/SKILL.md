@@ -4,6 +4,10 @@ description: "Design and implement a complete ML pipeline for: $ARGUMENTS"
 risk: unknown
 source: community
 date_added: "2026-02-27"
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 # Machine Learning Pipeline - Multi-Agent MLOps Orchestration
@@ -315,3 +319,9 @@ Upon completion, the orchestrated pipeline will provide:
 - CI/CD pipelines for continuous improvement
 - Cost optimization and scaling strategies
 - Disaster recovery and rollback procedures
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

@@ -4,6 +4,10 @@ description: "Systematic improvement of existing agents through performance anal
 risk: unknown
 source: community
 date_added: "2026-02-27"
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 # Agent Performance Optimization Workflow
@@ -350,3 +354,9 @@ Establish regular improvement cadence:
 - **Annually**: Strategic review and architecture updates
 
 Remember: Agent optimization is an iterative process. Each cycle builds upon previous learnings, gradually improving performance while maintaining stability and safety.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

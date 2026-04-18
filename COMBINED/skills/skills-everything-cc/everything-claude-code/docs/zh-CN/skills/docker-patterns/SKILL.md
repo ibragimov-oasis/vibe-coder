@@ -2,6 +2,10 @@
 name: docker-patterns
 description: 用于本地开发的Docker和Docker Compose模式，包括容器安全、网络、卷策略和多服务编排。
 origin: ECC
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-everything-cc
 ---
 
 # Docker 模式
@@ -363,3 +367,9 @@ docker network inspect <project>_default
 # 错误做法：将密钥放入 docker-compose.yml
 # 使用 .env 文件（在 git 中忽略）或 Docker secrets
 ```
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

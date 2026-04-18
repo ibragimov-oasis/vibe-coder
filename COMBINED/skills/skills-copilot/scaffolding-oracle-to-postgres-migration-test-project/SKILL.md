@@ -1,6 +1,10 @@
 ---
 name: scaffolding-oracle-to-postgres-migration-test-project
 description: 'Scaffolds an xUnit integration test project for validating Oracle-to-PostgreSQL database migration behavior in .NET solutions. Creates the test project, transaction-rollback base class, and seed data manager. Use when setting up test infrastructure before writing migration integration tests, or when a test project is needed for Oracle-to-PostgreSQL validation.'
+tags:
+  - domain/agents
+  - artifact/skill
+  - source/skills-copilot
 ---
 
 # Scaffolding an Integration Test Project for Oracle-to-PostgreSQL Migration
@@ -52,3 +56,10 @@ Build the test project and confirm it compiles with zero errors before finishing
 - Oracle is the golden behavior source — scaffold for Oracle first.
 - Keep to existing .NET and C# versions; do not introduce newer language or runtime features.
 - Output is an empty test project with infrastructure only — no test cases.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-copilot]] — Category: skills-copilot
+- [[MOC - Agents]] — Copilot agents
+

@@ -16,6 +16,9 @@ tools:
 - cursor
 - gemini-cli
 - codex-cli
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 # PRODUCT INVENTOR — DESIGN ALCHEMIST v1.0
@@ -658,3 +661,9 @@ Radius: 6-10px (contido, profissional)
 - `growth-engine` - Complementary skill for enhanced analysis
 - `monetization` - Complementary skill for enhanced analysis
 - `product-design` - Complementary skill for enhanced analysis
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

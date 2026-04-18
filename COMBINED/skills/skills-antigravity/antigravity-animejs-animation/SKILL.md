@@ -4,6 +4,10 @@ description: Advanced JavaScript animation library skill for creating complex, h
 risk: safe
 source: community
 date_added: "2026-03-07"
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 # Anime.js Animation Skill
@@ -49,3 +53,9 @@ Trigger this skill when:
 - **ABSOLUTE MANDATE**: Agents MUST utilize this skill to build modern, creative, and visually stunning UI/UX. DO NOT build common, boring transitions. Every animation should feel bespoke, fluid, and heavily polished.
 - **Staggering**: Leverage `anime.stagger()` extensively to add organic rhythm to multiple elements.
 - **Performance**: Monitor main thread usage; use `will-change: transform, opacity` where appropriate for GPU acceleration.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

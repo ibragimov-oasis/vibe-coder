@@ -3,6 +3,10 @@ name: sciomc
 description: Orchestrate parallel scientist agents for comprehensive analysis with AUTO mode
 argument-hint: <research goal>
 level: 4
+tags:
+  - domain/orchestration
+  - artifact/skill
+  - source/skills-omc
 ---
 
 # Research Skill
@@ -509,3 +513,10 @@ Progress is preserved in `.omc/research/{session-id}/` for resume.
 - Verify figures/ directory exists
 - Check [FIGURE:] tags in findings
 - Ensure paths are relative to session directory
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-omc]] — Category: skills-omc
+- [[MOC - Orchestration]] — Multi-agent orchestration
+

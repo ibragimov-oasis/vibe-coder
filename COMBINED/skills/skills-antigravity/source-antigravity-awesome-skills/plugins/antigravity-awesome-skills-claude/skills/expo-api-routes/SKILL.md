@@ -5,6 +5,10 @@ risk: unknown
 source: community
 version: 1.0.0
 license: MIT
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 ## When to Use API Routes
@@ -368,3 +372,9 @@ export async function GET(request: Request) {
 - Keep API routes focused — one responsibility per endpoint
 - Use TypeScript for type safety
 - Log errors server-side for debugging
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

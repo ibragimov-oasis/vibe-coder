@@ -1,6 +1,10 @@
 ---
 name: "performance-profiler"
 description: "Performance Profiler"
+tags:
+  - domain/agents
+  - artifact/skill
+  - source/skills-claude
 ---
 
 # Performance Profiler
@@ -168,3 +172,10 @@ API
 5. **Monitor continuously** — add Datadog/Prometheus metrics for key paths
 6. **Cache invalidation strategy** — cache aggressively, invalidate precisely
 7. **Document the win** — before/after in the PR description motivates the team
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+- [[MOC - Agents]] — Claude agents
+

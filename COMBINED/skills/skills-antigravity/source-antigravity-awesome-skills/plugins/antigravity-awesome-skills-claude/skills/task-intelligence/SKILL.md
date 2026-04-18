@@ -16,6 +16,9 @@ tools:
 - cursor
 - gemini-cli
 - codex-cli
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 # Task Intelligence — Protocolo de Amplificação Pré-Tarefa
@@ -302,3 +305,9 @@ ROLLBACK PLAN:
 
 - `agent-orchestrator` - Complementary skill for enhanced analysis
 - `multi-advisor` - Complementary skill for enhanced analysis
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

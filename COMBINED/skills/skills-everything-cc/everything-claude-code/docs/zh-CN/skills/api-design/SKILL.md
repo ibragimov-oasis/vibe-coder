@@ -2,6 +2,10 @@
 name: api-design
 description: REST API设计模式，包括资源命名、状态码、分页、过滤、错误响应、版本控制和生产API的速率限制。
 origin: ECC
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-everything-cc
 ---
 
 # API 设计模式
@@ -521,3 +525,9 @@ func (h *UserHandler) CreateUser(w http.ResponseWriter, r *http.Request) {
 * \[ ] 响应未泄露内部细节（堆栈跟踪、SQL 错误）
 * \[ ] 与现有端点命名一致（camelCase 对比 snake\_case）
 * \[ ] 已记录（更新了 OpenAPI/Swagger 规范）
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

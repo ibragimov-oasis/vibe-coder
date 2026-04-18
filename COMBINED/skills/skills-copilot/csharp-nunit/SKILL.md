@@ -1,6 +1,10 @@
 ---
 name: csharp-nunit
 description: 'Get best practices for NUnit unit testing, including data-driven tests'
+tags:
+  - domain/agents
+  - artifact/skill
+  - source/skills-copilot
 ---
 
 # NUnit Best Practices
@@ -69,3 +73,10 @@ Your goal is to help me write effective unit tests with NUnit, covering both sta
 - Use `[Description]` to provide additional test information
 - Consider `[Explicit]` for tests that shouldn't run automatically
 - Use `[Ignore("Reason")]` to temporarily skip tests
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-copilot]] — Category: skills-copilot
+- [[MOC - Agents]] — Copilot agents
+

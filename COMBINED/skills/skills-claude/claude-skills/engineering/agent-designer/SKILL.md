@@ -1,6 +1,10 @@
 ---
 name: "agent-designer"
 description: "Use when the user asks to design multi-agent systems, create agent architectures, define agent communication patterns, or build autonomous agent workflows."
+tags:
+  - domain/agents
+  - artifact/skill
+  - source/skills-claude
 ---
 
 # Agent Designer - Multi-Agent System Architecture
@@ -277,3 +281,10 @@ Agent Designer is a comprehensive toolkit for designing, architecting, and evalu
 - **Knowledge Base Updates:** Continuous learning and adaptation
 
 This skill provides the foundation for designing robust, scalable multi-agent systems that can handle complex tasks while maintaining safety, reliability, and performance at scale.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+- [[MOC - Agents]] — Claude agents
+

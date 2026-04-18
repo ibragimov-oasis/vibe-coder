@@ -12,7 +12,10 @@ sources:
     repo: https://github.com/anthropics/hermes-agent
     path: skills/software-development/requesting-code-review/SKILL.md
   - name: antigravity-awesome-skills
-    repo: https://github.com/anthropics/antigravity-awesome-skills
+
+  - domain/skills
+  - artifact/skill
+  - source/skills-superpowers    repo: https://github.com/anthropics/antigravity-awesome-skills
     path: skills/requesting-code-review/SKILL.md
 related_skills: [subagent-driven-development, writing-plans, test-driven-development]
 ---
@@ -280,3 +283,9 @@ Quality over speed
 **A good review catches what you missed.**
 
 See template at: `requesting-code-review/code-reviewer.md`
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-superpowers]] — Category: skills-superpowers
+

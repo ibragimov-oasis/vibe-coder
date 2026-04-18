@@ -15,6 +15,9 @@ setup:
       prompt: "1Password Service Account Token"
       provider_url: "https://developer.1password.com/docs/service-accounts/"
       secret: true
+  - domain/skills
+  - artifact/skill
+  - source/skills-hermes
 ---
 
 # 1Password CLI
@@ -160,3 +163,9 @@ Service accounts require CLI v2.18.0+.
 - `references/cli-examples.md`
 - https://developer.1password.com/docs/cli/
 - https://developer.1password.com/docs/service-accounts/
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-hermes]] — Category: skills-hermes
+

@@ -16,6 +16,9 @@ agents:
   - claude-code
   - codex-cli
   - openclaw
+  - domain/agents
+  - artifact/skill
+  - source/skills-claude
 ---
 
 # Marketing Skills Division
@@ -103,3 +106,10 @@ python3 marketing-skill/analytics-tracking/scripts/tracking_plan_generator.py
 - **Context Foundation** — One brand context file feeds all 42 skills
 - **Orchestration Router** — Smart routing by keyword + complexity scoring
 - **Zero Dependencies** — All Python tools use stdlib only
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+- [[MOC - Agents]] — Claude agents
+

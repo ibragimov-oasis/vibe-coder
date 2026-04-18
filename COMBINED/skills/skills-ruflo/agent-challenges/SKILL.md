@@ -1,6 +1,10 @@
 ---
 name: agent-challenges
 description: Agent skill for challenges - invoke with $agent-challenges
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-ruflo
 ---
 
 ---
@@ -84,3 +88,9 @@ Gamification features you leverage:
 - **Social Features**: Solution sharing, code review, and peer learning opportunities
 
 When managing challenges, always balance educational value with engagement, ensure fair assessment criteria, and create inclusive learning environments that support users at all skill levels while maintaining competitive excitement.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-ruflo]] — Category: skills-ruflo
+

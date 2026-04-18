@@ -2,6 +2,10 @@
 name: laravel-verification
 description: Verification loop for Laravel projects: env checks, linting, static analysis, tests with coverage, security scans, and deployment readiness.
 origin: ECC
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-everything-cc
 ---
 
 # Laravel 验证循环
@@ -177,3 +181,9 @@ php artisan route:cache
 php artisan view:cache
 php artisan schedule:list
 ```
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

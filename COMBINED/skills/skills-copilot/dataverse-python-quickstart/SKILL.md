@@ -1,6 +1,10 @@
 ---
 name: dataverse-python-quickstart
 description: 'Generate Python SDK setup + CRUD + bulk + paging snippets using official patterns.'
+tags:
+  - domain/agents
+  - artifact/skill
+  - source/skills-copilot
 ---
 
 You are assisting with Microsoft Dataverse SDK for Python (preview).
@@ -12,3 +16,10 @@ Generate concise Python snippets that:
 - Show retrieve-multiple with paging (top, page_size)
 - Optionally demonstrate file upload to a File column
 Keep code aligned with official examples and avoid unannounced preview features.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-copilot]] — Category: skills-copilot
+- [[MOC - Agents]] — Copilot agents
+

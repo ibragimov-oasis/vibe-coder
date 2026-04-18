@@ -4,6 +4,10 @@ description: Expert C4 Component-level documentation specialist. Synthesizes C4 
 risk: unknown
 source: community
 date_added: '2026-02-27'
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 # C4 Component Level: [Component Name]
@@ -148,3 +152,9 @@ When synthesizing components, provide:
 - Mermaid component diagrams showing relationships
 - Master component index with all components
 - Consistent documentation format across all components
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

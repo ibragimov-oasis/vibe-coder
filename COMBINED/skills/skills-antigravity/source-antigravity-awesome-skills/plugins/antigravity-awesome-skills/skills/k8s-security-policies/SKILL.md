@@ -4,6 +4,10 @@ description: "Comprehensive guide for implementing NetworkPolicy, PodSecurityPol
 risk: unknown
 source: community
 date_added: "2026-02-27"
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 # Kubernetes Security Policies
@@ -347,3 +351,9 @@ kubectl auth can-i '*' '*' --as system:serviceaccount:default:my-sa
 
 - `k8s-manifest-generator` - For creating secure manifests
 - `gitops-workflow` - For automated policy deployment
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

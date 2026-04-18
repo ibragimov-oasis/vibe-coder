@@ -4,6 +4,10 @@ description: "Core component library and design system patterns. Use when buildi
 risk: unknown
 source: community
 date_added: "2026-02-27"
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 # Core Components
@@ -268,3 +272,9 @@ const Card = ({ padding = '$4', variant = 'elevated', children }: CardProps) => 
 
 ## When to Use
 This skill is applicable to execute the workflow or actions described in the overview.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

@@ -4,6 +4,10 @@ description: "Create a linktoken for Plaid Link, exchange publictoken for access
 risk: unknown
 source: "vibeship-spawner-skills (Apache 2.0)"
 date_added: "2026-02-27"
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 # Plaid Fintech
@@ -50,3 +54,9 @@ Listen for PENDING_DISCONNECT webhook to proactively prompt users.
 
 ## When to Use
 This skill is applicable to execute the workflow or actions described in the overview.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

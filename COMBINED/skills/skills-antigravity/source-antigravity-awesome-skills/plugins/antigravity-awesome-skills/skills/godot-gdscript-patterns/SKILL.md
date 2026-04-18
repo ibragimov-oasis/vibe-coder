@@ -4,6 +4,10 @@ description: "Master Godot 4 GDScript patterns including signals, scenes, state 
 risk: safe
 source: community
 date_added: "2026-02-27"
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 # Godot GDScript Patterns
@@ -34,3 +38,9 @@ Production patterns for Godot 4.x game development with GDScript, covering archi
 ## Resources
 
 - `resources/implementation-playbook.md` for detailed patterns and examples.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

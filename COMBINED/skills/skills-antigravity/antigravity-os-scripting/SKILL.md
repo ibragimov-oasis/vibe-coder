@@ -5,6 +5,10 @@ category: workflow-bundle
 risk: safe
 source: personal
 date_added: "2026-02-27"
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 # OS/Shell Scripting Troubleshooting Workflow Bundle
@@ -426,3 +430,9 @@ Before completing workflow, verify:
 - `cloud-devops` - Cloud and DevOps
 - `security-audit` - Security testing
 - `database` - Database operations
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

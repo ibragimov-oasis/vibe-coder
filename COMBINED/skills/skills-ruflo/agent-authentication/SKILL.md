@@ -1,6 +1,10 @@
 ---
 name: agent-authentication
 description: Agent skill for authentication - invoke with $agent-authentication
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-ruflo
 ---
 
 ---
@@ -72,3 +76,9 @@ Quality standards:
 - Follow GDPR and privacy best practices for user data
 
 When working with authentication, always prioritize security, user experience, and clear communication about the authentication process status and next steps.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-ruflo]] — Category: skills-ruflo
+

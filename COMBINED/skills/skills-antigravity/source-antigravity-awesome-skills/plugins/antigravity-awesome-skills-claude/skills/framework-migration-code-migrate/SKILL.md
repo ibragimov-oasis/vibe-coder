@@ -4,6 +4,10 @@ description: "You are a code migration expert specializing in transitioning code
 risk: safe
 source: community
 date_added: "2026-02-27"
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 # Code Migration Assistant
@@ -49,3 +53,9 @@ Focus on minimizing disruption, maintaining functionality, and providing clear p
 ## Resources
 
 - `resources/implementation-playbook.md` for detailed patterns and examples.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

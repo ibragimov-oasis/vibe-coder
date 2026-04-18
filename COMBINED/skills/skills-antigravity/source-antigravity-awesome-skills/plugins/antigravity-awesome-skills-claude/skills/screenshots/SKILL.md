@@ -4,6 +4,10 @@ description: "Generate marketing screenshots of your app using Playwright. Use w
 risk: safe
 source: "https://github.com/Shpigford/skills/tree/main/screenshots"
 date_added: "2026-02-27"
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 # Screenshots
@@ -400,3 +404,9 @@ All screenshots are true retina-quality (2x deviceScaleFactor) and ready for mar
 3. **Wait for content**: Use `waitForLoadState('networkidle')` to ensure all content loads
 4. **Hide dev tools**: Ensure no browser extensions or dev overlays are visible
 5. **Dark mode variants**: Consider capturing both light and dark mode if supported
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

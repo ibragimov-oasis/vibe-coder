@@ -4,6 +4,10 @@ description: Codified expertise for production scheduling, job sequencing, line 
 risk: safe
 source: https://github.com/ai-evos/agent-skills
 date_added: '2026-02-27'
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 ## When to Use
@@ -212,3 +216,9 @@ Use this skill when you need to **design or adjust production schedules and cons
 - Sequencing jobs, balancing lines, and optimising changeovers in discrete or batch manufacturing.
 - Responding to disruptions (machine breakdowns, shortages, quality holds, absenteeism) while protecting the bottleneck and customer commitments.
 - Building scheduling rules, KPIs, and communication patterns between planning, production, maintenance, and quality teams.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

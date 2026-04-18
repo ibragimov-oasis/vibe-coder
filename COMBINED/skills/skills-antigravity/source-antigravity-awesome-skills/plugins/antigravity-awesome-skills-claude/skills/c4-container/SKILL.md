@@ -4,6 +4,10 @@ description: Expert C4 Container-level documentation specialist.
 risk: unknown
 source: community
 date_added: '2026-02-27'
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 # C4 Container Level: System Deployment
@@ -166,3 +170,9 @@ When synthesizing containers, provide:
 - Links to deployment configurations (Dockerfiles, K8s manifests, etc.)
 - Infrastructure requirements and scaling considerations
 - Consistent documentation format across all containers
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

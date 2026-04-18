@@ -9,6 +9,9 @@ metadata:
     tags: [Agent, Hermes, Multi-Agent, Orchestration, Subprocess, Interactive]
     homepage: https://github.com/NousResearch/hermes-agent
     related_skills: [claude-code, codex]
+  - domain/skills
+  - artifact/skill
+  - source/skills-hermes
 ---
 
 # Spawning Hermes Agent Instances
@@ -201,3 +204,9 @@ tmux kill-session -t hermes-session
 6. **Prefer `delegate_task` for quick subtasks** — spawning a full process has more overhead
 7. **Each instance is independent** — they don't share conversation context with the parent
 8. **Check results** — after completion, read the output files or logs the agent produced
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-hermes]] — Category: skills-hermes
+

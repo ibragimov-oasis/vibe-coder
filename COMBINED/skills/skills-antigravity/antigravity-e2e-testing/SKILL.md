@@ -5,6 +5,10 @@ category: granular-workflow-bundle
 risk: safe
 source: personal
 date_added: "2026-02-27"
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 # E2E Testing Workflow
@@ -163,3 +167,9 @@ Use @github-actions-templates to integrate E2E tests with CI
 - `testing-qa` - Testing workflow
 - `development` - Development
 - `web-performance-optimization` - Performance
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+
