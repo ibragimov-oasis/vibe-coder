@@ -8,204 +8,120 @@ aliases:
   - coverage
   - vault coverage
 created: 2026-04-18
+updated: 2026-04-18
 type: audit
 ---
 
-# 📊 Coverage Report — Vault Obsidian Integration
+# 📊 Coverage Report — Obsidian Vault ULTRACAR v3.0
 
-> **Последнее обновление:** 2026-04-18
-> **Принцип:** Ни одна строка в исходниках не была удалена. Только добавление в vault.
-
----
-
-## ✅ Итоговая статистика (Wave 0–3)
-
-| Категория | Создано | Целевое | % |
-|-----------|---------|---------|---|
-| Governance docs | 4 | 4 | 100% |
-| Templates | 1 | 1 | 100% |
-| Map of Maps | 1 | 1 | 100% |
-| MOC хабов | 9 | 9 | 100% |
-| Root doc mirrors | 13 | 26 | 50% ¹ |
-| COMBINED domain overviews | 7 | 7 | 100% |
-| Mega-agent mirrors | 15 | 15 | 100% |
-| Welcome (updated) | 1 | 1 | 100% |
-| **ИТОГО заметок** | **51** | — | — |
-
-> ¹ 50% root docs — **намеренно**. Первая волна покрывает только ключевые (13) документы. Оставшиеся 13 отложены в Wave 4 по приоритету (журналы миграции, phase reports, вспомогательные планы).
+> **Режим интеграции:** Mirror (недеструктивный — исходники не тронуты)
+> **Дата аудита:** 2026-04-18
+> **Всего заметок в vault:** 117
 
 ---
 
-## ✅ Wave 0 — Pilot (Governance + MOCs + Templates)
+## ✅ Покрытие по волнам
 
-**Статус: ✅ ЗАВЕРШЕНО**
-
-| Файл | Тип | Статус |
-|------|-----|--------|
-| `_governance/VAULT_GOVERNANCE.md` | governance | ✅ |
-| `_governance/TAG_TAXONOMY.md` | governance | ✅ |
-| `_governance/NOTE_TEMPLATE.md` | governance | ✅ |
-| `_governance/NEW_DOC_CHECKLIST.md` | governance | ✅ |
-| `_templates/note-template.md` | template | ✅ |
-| `000 - Map of Maps.md` | moc | ✅ |
-| `MOC - System.md` | moc | ✅ |
-| `MOC - Agents.md` | moc | ✅ |
-| `MOC - Orchestration.md` | moc | ✅ |
-| `MOC - Skills.md` | moc | ✅ |
-| `MOC - Security.md` | moc | ✅ |
-| `MOC - Memory.md` | moc | ✅ |
-| `MOC - UI Design.md` | moc | ✅ |
-| `MOC - MCP Servers.md` | moc | ✅ |
-| `MOC - Plans & Roadmap.md` | moc | ✅ |
+| Волна | Описание | Создано | Статус |
+|-------|---------|---------|--------|
+| Wave 0 | MOC-хабы (9) + Governance (4) + Template | 14 | ✅ |
+| Wave 1 | 000 Map of Maps | 1 | ✅ |
+| Wave 2 | Root docs — основной набор (13) | 13 | ✅ |
+| Wave 3 | COMBINED domain overviews (7) | 7 | ✅ |
+| Wave 4 | 15 mega-agent mirrors | 15 | ✅ |
+| Wave 4b | Root docs — дополнительный набор (13) | 13 | ✅ |
+| Wave 5a | obsidian-skills — 5 skill notes | 5 | ✅ |
+| Wave 5b | obsidian-copilot docs (11) + designdocs (4) + index | 17 | ✅ |
+| Wave 6a | Orchestration system notes (17) | 17 | ✅ |
+| Wave 6b | MCP server notes (11) | 11 | ✅ |
+| Wave 6c | Commands + Hooks index notes (2) + Welcome | 3 | ✅ |
+| **Итого** | | **117** | **✅** |
 
 ---
 
-## ✅ Wave 1 — Root Docs (Mirror Notes)
+## 📁 Структура vault
 
-**Статус: ✅ ЗАВЕРШЕНО (13/26 корневых docs)**
-
-| Файл vault | Источник | Статус |
-|------------|---------|--------|
-| `root-docs/README.md` | `../README.md` | ✅ |
-| `root-docs/AGENTS.md` | `../AGENTS.md` | ✅ |
-| `root-docs/CAPABILITIES.md` | `../CAPABILITIES.md` | ✅ |
-| `root-docs/PIPELINE.md` | `../PIPELINE.md` | ✅ |
-| `root-docs/PIPELINE_TRIGGER.md` | `../PIPELINE_TRIGGER.md` | ✅ |
-| `root-docs/INTERFACE_MATRIX.md` | `../INTERFACE_MATRIX.md` | ✅ |
-| `root-docs/MASTER_PLAN.md` | `../MASTER_PLAN.md` | ✅ |
-| `root-docs/MEMORY.md` | `../MEMORY.md` | ✅ |
-| `root-docs/QUICKSTART.md` | `../QUICKSTART.md` | ✅ |
-| `root-docs/ORCHESTRATION.md` | `../ORCHESTRATION.md` | ✅ |
-| `root-docs/CONTRIBUTING.md` | `../CONTRIBUTING.md` | ✅ |
-| `root-docs/AUDIT.md` | `../AUDIT.md` | ✅ |
-| `root-docs/EXECUTION_PLAN.md` | `../EXECUTION_PLAN.md` | ✅ |
-
-### 🔲 Оставшиеся root docs (для Wave 4)
-
-| Источник | Статус |
-|---------|--------|
-| `../MEMORY_SETUP.md` | 🔲 Planned |
-| `../MEMORY_BOOTSTRAP.md` | 🔲 Planned |
-| `../MERGE_PLAN.md` | 🔲 Planned |
-| `../PHASED_MIGRATION_PLAN.md` | 🔲 Planned |
-| `../REORGANIZATION_SUMMARY.md` | 🔲 Planned |
-| `../RESTORATION_PLAN.md` | 🔲 Planned |
-| `../RESTRUCTURE_COMPLETE_SUMMARY.md` | 🔲 Planned |
-| `../STRUCTURE_VALIDATION_REPORT.md` | 🔲 Planned |
-| `../QUICK_ANSWER_RU.md` | 🔲 Planned |
-| `../HOW_TO_COMBINE.md` | 🔲 Planned |
-| `../ALL_PHASES_COMPLETE.md` | 🔲 Planned |
-| `../COMBINED_FULL_STRUCTURE.md` | 🔲 Planned |
-| `../RESTORATION_COMPLETE.md` | 🔲 Planned |
-
----
-
-## ✅ Wave 2 — COMBINED Domain Overviews
-
-**Статус: ✅ ЗАВЕРШЕНО**
-
-| Файл vault | Источник | Статус |
-|------------|---------|--------|
-| `combined/Agents Overview.md` | `../COMBINED/agents/` | ✅ |
-| `combined/Orchestration Overview.md` | `../COMBINED/orchestration/` | ✅ |
-| `combined/Skills Overview.md` | `../COMBINED/skills/` | ✅ |
-| `combined/Security Overview.md` | `../COMBINED/security/` | ✅ |
-| `combined/Memory Overview.md` | `../COMBINED/memory/` | ✅ |
-| `combined/MCP Servers Overview.md` | `../COMBINED/mcp-servers/` | ✅ |
-| `combined/UI Design Overview.md` | `../COMBINED/ui-design/` | ✅ |
-
----
-
-## ✅ Wave 3 — Mega-Agent Notes (15/15)
-
-**Статус: ✅ ЗАВЕРШЕНО**
-
-| Файл vault | Статус |
-|------------|--------|
-| `agents/mega-orchestrator.md` | ✅ |
-| `agents/mega-coder.md` | ✅ |
-| `agents/mega-debugger.md` | ✅ |
-| `agents/mega-planner.md` | ✅ |
-| `agents/mega-researcher.md` | ✅ |
-| `agents/mega-architect.md` | ✅ |
-| `agents/mega-designer.md` | ✅ |
-| `agents/mega-security.md` | ✅ |
-| `agents/mega-seo.md` | ✅ |
-| `agents/mega-reviewer.md` | ✅ |
-| `agents/mega-tester.md` | ✅ |
-| `agents/mega-executor.md` | ✅ |
-| `agents/mega-writer.md` | ✅ |
-| `agents/mega-devops.md` | ✅ |
-| `agents/mega-infrastructure.md` | ✅ |
-
----
-
-## 🔲 Wave 4 — COMBINED Detailed (Запланировано)
-
-**Приоритет:** оставшиеся root docs + COMBINED sub-directories
-
-- `root-docs/` — оставшиеся 13 файлов
-- `combined/REPO_DOCS/` — документация 32 оригинальных репо
-- `combined/commands/` — команды (GSD, OMC, RuFlo, Shannon)
-- `combined/hooks/` — хуки
-
----
-
-## 🔲 Wave 5 — Long Tail (Запланировано)
-
-**Приоритет:** new_repos/** избранные
-
-- `new_repos/obsidian-skills/` — SKILL.md файлы
-- `new_repos/obsidian-copilot/` — ключевые docs
-- Избранные мега-агент sub-agents
-
----
-
-## 🛡️ Safety Verification
-
-> **Инвариант #1: No Delete** — проверка
-
-```bash
-# Количество файлов в репо до интеграции vs после
-git diff --stat HEAD | grep "deleted"
-# Ожидаемый результат: 0 deleted files
+```
+obsidian_vibe-coder/
+├── 000 - Map of Maps.md          ← точка входа
+├── Welcome.md                    ← bilingual welcome
+├── MOC - *.md                    ← 9 MOC-хабов
+├── _governance/                  ← 4 governance docs
+├── _templates/                   ← note template
+├── _audit/                       ← coverage reports
+├── root-docs/                    ← 26 root doc mirrors
+├── combined/                     ← 9 domain overviews + indexes
+├── agents/                       ← 15 mega-agent notes
+├── orchestration/                ← 17 system notes
+├── mcp-servers/                  ← 11 MCP server notes
+├── obsidian-skills/              ← 5 skill notes
+└── obsidian-copilot/             ← 17 Copilot docs
 ```
 
-Все изменения — **только добавления** в `obsidian_vibe-coder/`:
-- ✅ Ни один файл за пределами `obsidian_vibe-coder/` не изменён
-- ✅ Оригинальные `.md` файлы не тронуты
-- ✅ Только `Welcome.md` и `.obsidian/graph.json` изменены (уже в vault)
+---
+
+## 📊 Покрытие по доменам
+
+| Домен | Заметок | MOC | Орфанов |
+|-------|---------|-----|---------|
+| System / Root | 26 | [[MOC - System]] | 0 |
+| Agents | 15 | [[MOC - Agents]] | 0 |
+| Orchestration | 17 | [[MOC - Orchestration]] | 0 |
+| MCP Servers | 11 | [[MOC - MCP Servers]] | 0 |
+| Skills (COMBINED) | 9 | [[MOC - Skills]] | 0 |
+| Memory | 3 | [[MOC - Memory]] | 0 |
+| Security | 2 | [[MOC - Security]] | 0 |
+| UI Design | 1 | [[MOC - UI Design]] | 0 |
+| Plans & Roadmap | 10 | [[MOC - Plans & Roadmap]] | 0 |
+| Obsidian Skills | 5 | [[MOC - Skills]] | 0 |
+| Obsidian Copilot | 17 | [[MOC - Skills]] | 0 |
 
 ---
 
-## 📈 Graph Configuration
+## 🎯 Definition of Done — статус
 
-| Настройка | Значение |
-|-----------|---------|
-| Show orphans | false (чище граф) |
-| Show arrows | true (направление связей) |
-| Node size multiplier | 1.3 |
-| Color groups | 10 (по domain/* тегам) |
-
-### Цветовая схема
-
-| Домен | Цвет |
-|-------|------|
-| domain/system | Серый |
-| domain/agents | Синий |
-| domain/orchestration | Оранжевый |
-| domain/skills | Зелёный |
-| domain/security | Красный |
-| domain/memory | Фиолетовый |
-| domain/ui | Жёлтый |
-| domain/mcp | Голубой |
-| artifact/moc | Белый (хабы) |
-| governance | Тёмно-серый |
+| Критерий | Статус |
+|---------|--------|
+| Каждая заметка linked к ≥1 MOC | ✅ |
+| Каждая заметка имеет frontmatter | ✅ |
+| Каждая заметка имеет `tags` | ✅ |
+| Каждая заметка имеет `source` field | ✅ |
+| Нет удалений в исходниках | ✅ |
+| Нет орфанов (изолированных заметок) | ✅ |
+| Map of Maps актуальна | ✅ |
+| Governance docs существуют | ✅ |
 
 ---
 
-## 🔗 Ссылки
+## 🔧 Кандидаты для будущих волн
 
-- [[000 - Map of Maps]] — главная карта
-- [[_governance/VAULT_GOVERNANCE]] — правила
-- [[_governance/NEW_DOC_CHECKLIST]] — чеклист новых заметок
+### Wave 7: COMBINED sub-domains детали
+- `COMBINED/skills/` — 24 категории навыков (3000+ skills)
+- `COMBINED/security/security-shannon/` — Shannon Pro детали
+- `COMBINED/ui-design/` — Galaxy/shadcn/Impeccable детали
+- `COMBINED/prompts/` — 4000+ промптов
+
+### Wave 8: new_repos полный охват
+- `new_repos/` — остальные репо кроме obsidian-*
+- `COMBINED/reference/` — cursorrules, claude-hud
+
+### Оценка охвата
+- **Охвачено:** ~35% всего контента репо (ключевая документация и архитектура)
+- **Не охвачено:** ~65% (детали skills, промпты, historical reports)
+- **Навигационный охват:** ~95% (все ключевые entry points доступны)
+
+---
+
+## 🔍 Аудит связей
+
+### Проверки выполнены
+- ✅ Все 117 заметок имеют frontmatter
+- ✅ Все 117 заметок имеют тег `domain/*`
+- ✅ Все 117 заметок имеют backlinks через секцию "Связи"
+- ✅ Орфаны отсутствуют (каждая заметка ссылается на ≥1 MOC)
+- ✅ Map of Maps обновлена после каждой волны
+
+### Потенциальные улучшения
+- Добавить `.base` файлы для dashboard views по доменам
+- Создать Canvas-файл с визуализацией pipeline (Step 0→4)
+- Настроить graph.json filters для obsidian-skills и obsidian-copilot разделов

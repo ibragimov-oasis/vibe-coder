@@ -19,25 +19,29 @@ type: moc
 
 ## ✅ Активные MCP серверы (9)
 
-| Сервер | Назначение | Ключ | Путь |
-|--------|-----------|------|------|
-| **Lightpanda** | Browser (9x faster, 16x less mem) | `lightpanda` | `COMBINED/mcp-servers/mcp-lightpanda/` |
-| **GitNexus** | Codebase map and analysis | `gitnexus` | `COMBINED/mcp-servers/mcp-gitnexus/` |
-| **Supermemory** | Long-term memory (#1 benchmarks) | `supermemory` | `https://mcp.supermemory.ai/mcp` |
-| **OpenViking** | Codebase context (ByteDance) | `openviking` | `COMBINED/mcp-servers/mcp-openviking/` |
-| **Nano-Banana** | Image generation (Gemini) | `nano-banana` | `COMBINED/mcp-servers/mcp-nano-banana/` |
-| **mcp-toolbox** | Database access (20+ DBs) | `mcp-toolbox` | `COMBINED/mcp-servers/mcp-toolbox/` |
-| **markitdown** | File→Markdown (PDF, DOCX, images, audio) | `markitdown` | `COMBINED/mcp-servers/mcp-markitdown/` |
-| **code-review-graph** | AST analysis (8.2x reduction, 22 tools) | `code-review-graph` | `COMBINED/mcp-servers/mcp-code-review-graph/` |
-| **claude-flow** | Agent teams (Claude Code only) | `claude-flow` | — |
+| Сервер | Заметка | Назначение | Ключ |
+|--------|---------|-----------|------|
+| **Lightpanda** | [[mcp-servers/mcp-lightpanda]] | Browser (9x faster, 16x less mem) | `lightpanda` |
+| **GitNexus** | [[mcp-servers/mcp-gitnexus]] | Codebase map and analysis | `gitnexus` |
+| **Supermemory** | [[mcp-servers/mcp-supermemory]] | Long-term memory (#1 benchmarks) | `supermemory` |
+| **OpenViking** | [[mcp-servers/mcp-openviking]] | Codebase context (ByteDance) | `openviking` |
+| **Nano-Banana** | [[mcp-servers/mcp-nano-banana]] | Image generation (Gemini) | `nano-banana` |
+| **mcp-toolbox** | [[mcp-servers/mcp-toolbox]] | Database access (20+ DBs) | `mcp-toolbox` |
+| **markitdown** | [[mcp-servers/mcp-markitdown]] | File→Markdown (PDF, DOCX, images, audio) | `markitdown` |
+| **code-review-graph** | [[mcp-servers/mcp-code-review-graph]] | AST analysis (8.2x reduction, 22 tools) | `code-review-graph` |
+| **Hermes MCP** | [[mcp-servers/mcp-hermes]] | Self-learning tools | `hermes` |
 
-## ✅ Недавно активированные
+## ✅ Недавно активированные / Запланированные
 
-| Сервер | Статус | CLI |
-|--------|--------|-----|
-| **Task Master AI** | ✅ ACTIVE | `npx -y task-master-ai` |
-| **Archon** | ⚡ CLI | `npx archon run <workflow.yaml>` |
-| **Pretext** | ⚠️ Planned | — |
+| Сервер | Заметка | Статус | CLI |
+|--------|---------|--------|-----|
+| **Task Master AI** | [[orchestration/core-taskmaster]] | ✅ ACTIVE | `npx -y task-master-ai` |
+| **Archon** | [[orchestration/core-archon]] | ⚡ CLI | `npx archon run <workflow.yaml>` |
+| **Pretext** | [[mcp-servers/mcp-pretext]] | ⚠️ Planned | — |
+
+## 📋 Конфигурация
+
+- [[mcp-servers/mcp-configs]] — все конфигурационные файлы по интерфейсам
 
 ## 🌐 Lightpanda — ОБЯЗАТЕЛЬНЫЙ браузер
 

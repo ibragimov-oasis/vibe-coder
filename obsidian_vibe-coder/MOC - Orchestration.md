@@ -20,31 +20,35 @@ type: moc
 
 ### Оригинальные системы (входили в первые 31 репо)
 
-| Система | Назначение | Путь |
-|---------|-----------|------|
-| **RuFlo** | Enterprise AI orchestration, 100+ agents, Q-Learning Router | `COMBINED/orchestration/core-ruflo/` |
-| **GSD** | Spec-driven development, context engineering, solves context rot | `COMBINED/orchestration/core-gsd/` |
-| **OMC** | Multi-agent teams, 19 роль, team pipeline | `COMBINED/orchestration/core-omc/` |
-| **DeerFlow** | Deep research, LangGraph + FastAPI, ByteDance | `COMBINED/orchestration/core-deer-flow/` |
-| **Hermes** | Self-learning loop, pattern extraction, skill creation | `COMBINED/orchestration/core-hermes/` |
-| **Background Agents** | Async tasks, sandboxed environments | `COMBINED/orchestration/core-background-agents/` |
-| **1Code** | Lightweight orchestration | `COMBINED/orchestration/core-1code/` |
-| **Superpowers** | TDD, composable skills, git worktrees | `COMBINED/orchestration/superpowers/` |
-| **Vibe-Kanban** | Visual task management | `COMBINED/orchestration/core-vibe-kanban/` |
-| **Terraform** | Infrastructure-as-code workflows | `COMBINED/orchestration/workflows-terraform/` |
+| Система | Заметка | Назначение |
+|---------|---------|-----------|
+| **RuFlo** | [[orchestration/core-ruflo]] | Enterprise AI orchestration, 100+ agents, Q-Learning Router |
+| **GSD** | [[orchestration/core-gsd]] | Spec-driven development, context engineering, solves context rot |
+| **OMC** | [[orchestration/core-omc]] | Multi-agent teams, 19 ролей, team pipeline |
+| **DeerFlow** | [[orchestration/core-deer-flow]] | Deep research, LangGraph + FastAPI, ByteDance |
+| **Hermes** | [[orchestration/core-hermes]] | Self-learning loop, pattern extraction, skill creation |
+| **Background Agents** | [[orchestration/core-background-agents]] | Async tasks, sandboxed environments |
+| **1Code** | [[orchestration/core-1code]] | Lightweight orchestration |
+| **Superpowers** | [[orchestration/superpowers]] | TDD, composable skills, git worktrees |
+| **Vibe-Kanban** | [[orchestration/core-vibe-kanban]] | Visual task management |
 
 ### Новые системы (23 добавленных репо)
 
-| Система | Назначение | Путь |
-|---------|-----------|------|
-| **Archon** | YAML DAG workflows, 17 default, deterministic | `COMBINED/orchestration/core-archon/` |
-| **Ralph** | PRD-driven loop, progress.txt, fresh context | `COMBINED/orchestration/core-ralph/` |
-| **Squad** | AI teams via Copilot, casting, watch mode | `COMBINED/orchestration/core-squad/` |
-| **Multica** | Agent platform, board view, multi-workspace | `COMBINED/orchestration/core-multica/` |
-| **PraisonAI** | 100+ LLMs, route/parallel/loop/repeat, MCP | `COMBINED/orchestration/core-praisonai/` |
-| **cc-connect** | Remote access, 7 agents × 10 chat platforms | `COMBINED/orchestration/core-cc-connect/` |
-| **Task Master** | MCP-based, PRD→tasks, 36 tools | `COMBINED/orchestration/core-taskmaster/` |
-| **Refly** | Skills builder, visual workflow, MCP export | `COMBINED/orchestration/core-refly/` |
+| Система | Заметка | Назначение |
+|---------|---------|-----------|
+| **Archon** | [[orchestration/core-archon]] | YAML DAG workflows, 17 default, deterministic |
+| **Ralph** | [[orchestration/core-ralph]] | PRD-driven loop, progress.txt, fresh context |
+| **Squad** | [[orchestration/core-squad]] | AI teams via Copilot, casting, watch mode |
+| **Multica** | [[orchestration/core-multica]] | Agent platform, board view, multi-workspace |
+| **PraisonAI** | [[orchestration/core-praisonai]] | 100+ LLMs, route/parallel/loop/repeat, MCP |
+| **cc-connect** | [[orchestration/core-cc-connect]] | Remote access, 7 agents × 10 chat platforms |
+| **Task Master** | [[orchestration/core-taskmaster]] | MCP-based, PRD→tasks, 36 tools |
+| **Refly** | [[orchestration/core-refly]] | Skills builder, visual workflow, MCP export |
+
+### Команды и хуки
+
+- [[combined/COMBINED Commands Index]] — GSD, OMC, RuFlo, Shannon, Superpowers команды
+- [[combined/COMBINED Hooks Index]] — pre/post хуки всех систем
 
 ## 🏗️ Pipeline порядок
 

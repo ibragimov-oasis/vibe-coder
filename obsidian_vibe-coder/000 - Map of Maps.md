@@ -77,6 +77,7 @@ type: moc
 
 ## 🏗️ COMBINED — Структура хранилища
 
+### Domain Overviews
 - [[combined/Agents Overview]] — Все агенты по ролям и интерфейсам
 - [[combined/Orchestration Overview]] — Детали 23 систем
 - [[combined/Skills Overview]] — Навыки по категориям
@@ -84,6 +85,84 @@ type: moc
 - [[combined/Memory Overview]] — Системы памяти детали
 - [[combined/MCP Servers Overview]] — Конфигурации MCP серверов
 - [[combined/UI Design Overview]] — Дизайн-система детали
+- [[combined/COMBINED Commands Index]] — GSD, OMC, RuFlo, Shannon команды
+- [[combined/COMBINED Hooks Index]] — pre/post хуки
+
+---
+
+## 🤖 Мега-агенты (прямые ссылки)
+
+| Задача | Агент |
+|--------|-------|
+| Код | [[agents/mega-coder]] |
+| Дебаг | [[agents/mega-debugger]] |
+| Планирование | [[agents/mega-planner]] |
+| Архитектура | [[agents/mega-architect]] |
+| Исследование | [[agents/mega-researcher]] |
+| Безопасность | [[agents/mega-security]] |
+| Дизайн | [[agents/mega-designer]] |
+| Ревью | [[agents/mega-reviewer]] |
+| Тесты | [[agents/mega-tester]] |
+| Документация | [[agents/mega-writer]] |
+| DevOps | [[agents/mega-devops]] |
+| SEO | [[agents/mega-seo]] |
+| Выполнение плана | [[agents/mega-executor]] |
+| Инфраструктура | [[agents/mega-infrastructure]] |
+| Весь пайплайн | [[agents/mega-orchestrator]] |
+
+---
+
+## 🔄 Оркестрация — Детали систем
+
+| Система | Заметка |
+|---------|---------|
+| Task Master (Step 0) | [[orchestration/core-taskmaster]] |
+| Archon (Step 0.5) | [[orchestration/core-archon]] |
+| Background Agents (Step 1) | [[orchestration/core-background-agents]] |
+| Hermes (Step 2) | [[orchestration/core-hermes]] |
+| RuFlo | [[orchestration/core-ruflo]] |
+| GSD | [[orchestration/core-gsd]] |
+| OMC | [[orchestration/core-omc]] |
+| Ralph | [[orchestration/core-ralph]] |
+| Squad | [[orchestration/core-squad]] |
+| DeerFlow | [[orchestration/core-deer-flow]] |
+| PraisonAI | [[orchestration/core-praisonai]] |
+| Multica | [[orchestration/core-multica]] |
+| cc-connect | [[orchestration/core-cc-connect]] |
+| Refly | [[orchestration/core-refly]] |
+
+---
+
+## 🔌 MCP серверы — Детали
+
+| Сервер | Заметка |
+|--------|---------|
+| Lightpanda (⚠️ Rule #1) | [[mcp-servers/mcp-lightpanda]] |
+| GitNexus | [[mcp-servers/mcp-gitnexus]] |
+| Supermemory (Rule #2) | [[mcp-servers/mcp-supermemory]] |
+| OpenViking | [[mcp-servers/mcp-openviking]] |
+| Code Review Graph | [[mcp-servers/mcp-code-review-graph]] |
+| MarkItDown | [[mcp-servers/mcp-markitdown]] |
+| MCP Toolbox | [[mcp-servers/mcp-toolbox]] |
+| Nano-Banana | [[mcp-servers/mcp-nano-banana]] |
+| Configs | [[mcp-servers/mcp-configs]] |
+
+---
+
+## 📘 Obsidian Skills & Copilot
+
+### obsidian-skills
+- [[obsidian-skills/obsidian-markdown]] — Obsidian Flavored Markdown
+- [[obsidian-skills/obsidian-cli]] — Vault CLI
+- [[obsidian-skills/obsidian-bases]] — Database views
+- [[obsidian-skills/json-canvas]] — Visual maps
+- [[obsidian-skills/defuddle]] — Web → clean markdown
+
+### obsidian-copilot
+- [[obsidian-copilot/index]] — Полный индекс
+- [[obsidian-copilot/getting-started]] — Начало работы
+- [[obsidian-copilot/agent-mode-and-tools]] — Агентный режим
+- [[obsidian-copilot/context-engineering-design]] — Context L1-L5
 
 ---
 
@@ -101,13 +180,17 @@ type: moc
 
 | Метрика | Значение |
 |---------|---------|
-| Волны завершены | 3/5 |
+| Волны завершены | 6/6 |
 | MOC-хабов | 9 |
-| Root doc зеркал | 13 |
-| Domain overviews | 7 |
+| Root doc зеркал | 26/26 |
+| Domain overviews | 9 |
 | Mega-agent заметок | 15 |
+| Orchestration system notes | 17 |
+| MCP server notes | 11 |
+| obsidian-skills notes | 5 |
+| obsidian-copilot notes | 17 |
 | Governance docs | 4 |
-| **Итого заметок** | **~48+** |
+| **Итого заметок** | **~120+** |
 
 ---
 
