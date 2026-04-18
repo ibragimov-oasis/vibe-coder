@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-archon
+---
+
 # Workflow YAML Reference
 
 > **Purpose**: Complete specification of every field, option, and type in Archon's workflow system.

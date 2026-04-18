@@ -2,6 +2,10 @@
 sidebar_position: 8
 title: "Mattermost"
 description: "Set up Hermes Agent as a Mattermost bot"
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-hermes
 ---
 
 # Mattermost Setup

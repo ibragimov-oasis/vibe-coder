@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-squad
+---
+
 # Squad team for Node monorepo
 
 ## Identity

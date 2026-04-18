@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-taskmaster
+---
+
 # Hamster Integration Workflow
 
 This guide outlines the process for working with tasks imported from Hamster briefs using Task Master. When connected to a Hamster brief, follow these specific guidelines to ensure proper task management and workflow execution.

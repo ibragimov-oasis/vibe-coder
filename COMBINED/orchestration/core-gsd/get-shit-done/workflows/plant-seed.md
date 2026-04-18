@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-gsd
+---
+
 <purpose>
 Capture a forward-looking idea as a structured seed file with trigger conditions.
 Seeds auto-surface during /gsd:new-milestone when trigger conditions match the

@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-archon
+---
+
 # Triage — Workshop Guide
 
 ## What This Skill Demonstrates

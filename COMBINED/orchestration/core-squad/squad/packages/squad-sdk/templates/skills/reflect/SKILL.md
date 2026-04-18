@@ -5,6 +5,10 @@ license: MIT
 version: 1.0.0-squad
 domain: team-memory, learning
 confidence: high
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-squad
 ---
 
 # Reflect Skill

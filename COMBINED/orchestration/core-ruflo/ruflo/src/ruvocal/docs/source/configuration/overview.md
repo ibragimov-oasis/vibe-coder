@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # Configuration Overview
 
 Chat UI is configured through environment variables. Default values are in `.env`; override them in `.env.local` or via your environment.

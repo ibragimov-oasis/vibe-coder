@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-cc-connect
+---
+
 # Telegram Async Recovery Design
 
 **Date:** 2026-03-19

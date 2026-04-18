@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-praisonai
+---
+
 # Claude Code Integration with PraisonAI Agents
 
 This document describes the integration of Claude Code with PraisonAI Agents, allowing AI agents to intelligently decide when to use Claude Code for file modifications and coding tasks.

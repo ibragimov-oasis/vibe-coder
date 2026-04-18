@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-gsd
+---
+
 # 提问指南
 
 项目初始化是梦想提取，而非需求收集。你在帮助用户发现和表达他们想构建的内容。这不是合同谈判 —— 是协作思考。

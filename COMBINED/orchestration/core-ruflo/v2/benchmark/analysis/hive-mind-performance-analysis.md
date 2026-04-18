@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # Hive Mind Performance Analysis Report
 ## Statistical Analysis & Optimization Recommendations
 

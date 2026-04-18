@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-omc
+---
+
 <!-- OMC:START -->
 <!-- OMC:VERSION:4.9.3 -->
 

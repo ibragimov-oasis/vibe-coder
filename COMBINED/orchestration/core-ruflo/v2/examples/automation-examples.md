@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # Claude Flow Automation Examples
 
 This document provides practical examples of using Claude Flow's automation features.

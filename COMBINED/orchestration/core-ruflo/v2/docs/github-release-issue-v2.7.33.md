@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # Release v2.7.33 - MCP 2025-11 Compliance & Progressive Disclosure
 
 **Target Date**: 2025-11-12

@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # Commit Summary: Agentic-Flow Integration Complete
 
 **Commit:** `ee0f5e555` - [feat] Complete agentic-flow integration with execution layer fixes

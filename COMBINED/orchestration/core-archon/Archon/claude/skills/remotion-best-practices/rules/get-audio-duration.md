@@ -3,6 +3,9 @@ name: get-audio-duration
 description: Getting the duration of an audio file in seconds with Mediabunny
 metadata:
   tags: duration, audio, length, time, seconds, mp3, wav
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-archon
 ---
 
 # Getting audio duration with Mediabunny

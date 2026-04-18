@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-archon
+---
+
 # Documentation Review
 
 Review the document at `$ARGUMENTS` for clarity, consistency, and simplicity.

@@ -4,6 +4,10 @@ description: "Standard recovery patterns for all squad agents. When something fa
 domain: "reliability, agent-coordination"
 confidence: "high"
 license: MIT
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-squad
 ---
 
 # Error Recovery Patterns

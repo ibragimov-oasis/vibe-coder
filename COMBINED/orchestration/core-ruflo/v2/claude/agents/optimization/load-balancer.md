@@ -3,6 +3,10 @@ name: Load Balancing Coordinator
 type: agent
 category: optimization
 description: Dynamic task distribution, work-stealing algorithms and adaptive load balancing
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
 ---
 
 # Load Balancing Coordinator Agent

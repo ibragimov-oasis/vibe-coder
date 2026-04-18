@@ -1,5 +1,9 @@
 ---
 sidebar_position: 2
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-hermes
 ---
 
 # Profiles: Running Multiple Agents

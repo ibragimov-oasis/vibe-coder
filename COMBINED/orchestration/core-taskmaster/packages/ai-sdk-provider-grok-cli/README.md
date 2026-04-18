@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-taskmaster
+---
+
 # AI SDK Provider for Grok CLI
 
 A provider for the [AI SDK](https://sdk.vercel.ai) that integrates with [Grok CLI](https://docs.x.ai/api) for accessing xAI's Grok language models.
@@ -163,3 +170,9 @@ npm test
 ```
 
 **Important**: Always run `npm run dev` and keep it running during development. This ensures proper compilation and hot-reloading of TypeScript files.
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-taskmaster]] — core-taskmaster
+

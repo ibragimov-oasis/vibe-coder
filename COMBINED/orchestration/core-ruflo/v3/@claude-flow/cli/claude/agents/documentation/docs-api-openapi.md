@@ -169,6 +169,10 @@ examples:
     response: "I'll create comprehensive OpenAPI 3.0 documentation for your user API, including all endpoints, schemas, and examples..."
   - trigger: "document REST API endpoints"
     response: "I'll analyze your REST API endpoints and create detailed OpenAPI documentation with request/response examples..."
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
 ---
 
 # OpenAPI Documentation Specialist v3.0.0-alpha.1

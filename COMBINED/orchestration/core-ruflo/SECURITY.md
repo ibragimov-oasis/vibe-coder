@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # Security Policy
 
 ## Supported Versions
@@ -51,3 +58,9 @@ This project employs the following security measures at system boundaries:
 - **Command injection protection** via the `SafeExecutor` module
 
 For questions about this policy, contact security@ruv.io.
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-ruflo]] — core-ruflo
+

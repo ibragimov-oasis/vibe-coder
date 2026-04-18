@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-squad
+---
+
 # Result Persistence
 
 > Mandatory archival of agent results before context expires.

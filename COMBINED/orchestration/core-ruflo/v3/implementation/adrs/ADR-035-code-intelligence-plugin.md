@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # ADR-035: Advanced Code Intelligence Plugin
 
 **Status:** Proposed

@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # V3 Integration Test Suite - Implementation Summary
 
 ## Overview

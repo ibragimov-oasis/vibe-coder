@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # V3 Capability Gap Analysis
 
 > Complete analysis of features present in V2 but missing or changed in V3

@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # ReasoningBank v1.5.13 Validation Report
 
 **Package**: `claude-flow@2.7.0-alpha.8`

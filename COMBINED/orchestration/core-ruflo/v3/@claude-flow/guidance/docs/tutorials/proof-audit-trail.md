@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # Tutorial: Proof Chain and Audit Trails
 
 This tutorial shows how to create tamper-evident audit trails for agent sessions using the ProofChain.

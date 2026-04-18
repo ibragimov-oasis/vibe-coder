@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-taskmaster
+---
+
 # Configuration
 
 Taskmaster uses two primary methods for configuration:

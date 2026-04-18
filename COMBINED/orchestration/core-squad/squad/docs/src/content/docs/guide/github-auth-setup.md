@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-squad
+---
+
 # GitHub auth setup for project boards
 
 **Try this to verify your auth setup:**

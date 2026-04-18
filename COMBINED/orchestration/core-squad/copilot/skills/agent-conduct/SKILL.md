@@ -4,6 +4,10 @@ description: "Shared hard rules enforced across all squad agents"
 domain: "team-governance"
 confidence: "high"
 source: "reskill extraction — Product Isolation Rule and Peer Quality Check appeared in all 20 agent charters"
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-squad
 ---
 
 ## Context

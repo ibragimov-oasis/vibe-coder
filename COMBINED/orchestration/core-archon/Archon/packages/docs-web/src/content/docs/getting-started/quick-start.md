@@ -5,6 +5,10 @@ category: getting-started
 audience: [user]
 sidebar:
   order: 2
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-archon
 ---
 
 ## Prerequisites

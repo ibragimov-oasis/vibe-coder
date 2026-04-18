@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-squad
+---
+
 # Skill Discovery — SDK Sample PRD
 
 ## Overview

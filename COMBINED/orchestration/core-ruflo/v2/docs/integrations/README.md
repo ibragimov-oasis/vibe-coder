@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # 🔌 Platform Integrations
 
 This directory contains documentation for all major platform integrations with Claude Flow.
@@ -59,3 +66,9 @@ Each integration directory contains:
 - Usage examples
 
 Navigate to specific integration directories for detailed documentation.
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-ruflo]] — core-ruflo
+

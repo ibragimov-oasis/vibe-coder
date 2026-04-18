@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # ADR-G026: Review Remediation -- Security, Memory Safety, and Code Quality Fixes
 
 ## Status

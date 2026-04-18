@@ -6,6 +6,9 @@ wave: 8
 tags: [squad, release, v0.9.0, features, personal-squad, worktree, rate-limiting, economy-mode]
 status: published
 hero: "Squad's biggest release yet — personal agents that follow you across repos, isolated worktrees for conflict-free parallel work, cooperative rate limiting, economy mode for cost control, and a refreshed docs site."
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-squad
 ---
 
 # What's New in v0.9.0

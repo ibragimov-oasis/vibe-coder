@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # Claude-Flow v2 to v3 Migration Guide
 
 ## Overview

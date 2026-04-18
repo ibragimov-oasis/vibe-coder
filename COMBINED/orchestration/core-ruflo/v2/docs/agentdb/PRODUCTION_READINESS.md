@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # AgentDB Integration - Production Readiness Checklist
 
 **Version**: 1.3.9

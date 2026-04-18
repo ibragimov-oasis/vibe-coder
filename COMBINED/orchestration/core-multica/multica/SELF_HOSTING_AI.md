@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-multica
+---
+
 # Self-Hosting Setup (for AI Agents)
 
 This document is designed for AI agents to execute. Follow these steps exactly to deploy a local Multica instance and connect to it.

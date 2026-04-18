@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # Non-Interactive Claude Flow Commands
 
 ## Working Commands (alpha.83)

@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-gsd
+---
+
 <purpose>
 Remove a GSD workspace, cleaning up git worktrees and deleting the workspace directory.
 </purpose>

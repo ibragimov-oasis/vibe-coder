@@ -1,6 +1,10 @@
 ---
 "@bradygaster/squad-sdk": minor
 "@bradygaster/squad-cli": minor
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-squad
 ---
 
 Add external state storage — move .squad/ out of the working tree (#792)

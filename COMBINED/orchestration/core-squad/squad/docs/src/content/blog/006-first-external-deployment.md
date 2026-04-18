@@ -6,6 +6,9 @@ wave: null
 tags: [squad, community, deployment, prd-to-issues, github-native]
 status: published
 hero: "Shayne Boyer used Squad to decompose a PRD into 9 GitHub Issues on his slidemaker project — the first time someone outside the team ran the full planning pipeline."
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-squad
 ---
 
 # First External Deployment: Shayne Boyer's slidemaker

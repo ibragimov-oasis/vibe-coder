@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-gsd
+---
+
 <purpose>
 Orchestrate parallel debug agents to investigate UAT gaps and find root causes.
 

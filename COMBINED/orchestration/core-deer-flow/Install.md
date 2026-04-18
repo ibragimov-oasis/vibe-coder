@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-deer-flow
+---
+
 # DeerFlow Install
 
 This file is for coding agents. If the DeerFlow repository is not already cloned and open, clone `https://github.com/bytedance/deer-flow.git` first, then continue from the repository root.
@@ -85,3 +92,9 @@ Return a short status report with:
 ## EXECUTE NOW
 
 Complete the steps above. When finished, stop after the setup boundary and report status instead of continuing into unrelated project work.
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-deer-flow]] — core-deer-flow
+

@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-gsd
+---
+
 # Technology Stack Template
 
 Template for `.planning/codebase/STACK.md` - captures the technology foundation.

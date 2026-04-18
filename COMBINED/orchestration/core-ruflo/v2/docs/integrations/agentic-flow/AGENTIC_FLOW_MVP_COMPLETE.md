@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # 🚀 Agentic-Flow Integration - Phase 1 MVP Complete
 
 ## ✅ Status: COMPLETE

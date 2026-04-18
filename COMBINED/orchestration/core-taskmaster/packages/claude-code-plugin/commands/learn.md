@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-taskmaster
+---
+
 Learn about Task Master capabilities through interactive exploration.
 
 Arguments: $ARGUMENTS

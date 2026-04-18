@@ -3,6 +3,9 @@ name: fonts
 description: Loading Google Fonts and local fonts in Remotion
 metadata:
   tags: fonts, google-fonts, typography, text
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-archon
 ---
 
 # Using fonts in Remotion

@@ -77,6 +77,10 @@ hooks:
 
     # 5. Trigger audit worker for security analysis
     npx claude-flow@v3alpha hooks worker dispatch --trigger audit
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
 ---
 
 # Code Review Agent

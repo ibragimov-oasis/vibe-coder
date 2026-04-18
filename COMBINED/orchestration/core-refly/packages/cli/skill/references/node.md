@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-refly
+---
+
 # Node Reference
 
 ## Node Types

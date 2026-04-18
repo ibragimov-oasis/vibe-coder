@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # Enhanced Benchmark Reporting Tools
 
 This directory contains advanced tools for viewing, analyzing, and comparing Claude Flow benchmark reports with detailed metrics and file references.
@@ -221,3 +228,9 @@ for report in viewer.reports:
 - All timestamps are in ISO format for consistency
 - Metrics are aggregated at multiple levels for flexibility
 - File references use absolute paths when possible
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-ruflo]] — core-ruflo
+

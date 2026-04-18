@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # 📋 Publishing Checklist - AgentDB v1.3.9 Integration
 
 ## 🎯 Pre-Publishing Verification

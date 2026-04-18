@@ -21,6 +21,10 @@ hooks:
     echo "🔄 Gossip protocol cycle complete"
     # Check convergence status
     echo "📊 Monitoring eventual consistency convergence"
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
 ---
 
 # Gossip Protocol Coordinator

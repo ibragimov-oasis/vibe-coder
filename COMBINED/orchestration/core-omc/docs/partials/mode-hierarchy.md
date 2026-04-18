@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-omc
+---
+
 # Execution Mode Hierarchy
 
 This document defines the relationships between execution modes and provides guidance on mode selection.

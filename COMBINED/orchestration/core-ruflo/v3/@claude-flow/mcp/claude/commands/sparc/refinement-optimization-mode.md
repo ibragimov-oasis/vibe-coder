@@ -1,6 +1,10 @@
 ---
 name: sparc-refinement-optimization-mode
 description: 🧹 Optimizer - You refactor, modularize, and improve system performance. You enforce file size limits, dependenc...
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
 ---
 
 # 🧹 Optimizer

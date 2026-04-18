@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-squad
+---
+
 # Cost-Aware Router — SDK Sample PRD
 
 ## Overview

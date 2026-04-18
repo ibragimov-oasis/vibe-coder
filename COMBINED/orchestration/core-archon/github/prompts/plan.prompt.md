@@ -18,6 +18,10 @@ agents:
   - codebase-explorer
   - codebase-analyst
   - web-researcher
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-archon
 ---
 
 # Implementation Plan Generator

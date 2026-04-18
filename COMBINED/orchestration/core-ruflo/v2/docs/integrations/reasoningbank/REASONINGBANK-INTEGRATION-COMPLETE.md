@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # ReasoningBank Core Integration - COMPLETE ✅
 
 **Date**: 2025-10-12

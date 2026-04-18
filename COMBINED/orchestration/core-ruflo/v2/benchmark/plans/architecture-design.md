@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # Agent Swarm Benchmarking Tool - Architecture Design
 
 ## 🏗️ System Architecture Overview

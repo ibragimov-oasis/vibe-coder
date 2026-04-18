@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # How to Use Pre-Trained ReasoningBank Models
 
 This guide shows you how to copy, install, and use pre-trained ReasoningBank models in your projects.

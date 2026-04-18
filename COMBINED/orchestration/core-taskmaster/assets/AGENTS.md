@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-taskmaster
+---
+
 # Task Master AI - Agent Integration Guide
 
 ## Essential Commands

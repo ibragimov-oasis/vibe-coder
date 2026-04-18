@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-gsd
+---
+
 # Forensics Workflow
 
 Post-mortem investigation for failed or stuck GSD workflows. Analyzes git history,

@@ -1,5 +1,9 @@
 ---
 description: Run Archon's full validation suite with per-level reporting
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-archon
 ---
 
 # Validate: Comprehensive Archon Validation

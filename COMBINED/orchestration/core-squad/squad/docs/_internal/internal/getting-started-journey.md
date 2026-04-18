@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-squad
+---
+
 # Getting Started with Squad: Empty Directory to Multi-Agent App
 
 > Internal doc. For experienced developers with 30 minutes.

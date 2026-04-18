@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-squad
+---
+
 # Switching AI Models — Budget vs Quality
 
 **Try this to reduce costs temporarily:**

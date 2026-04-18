@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # Pair Programming Modes
 
 Detailed guide to pair programming modes and their optimal use cases.

@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-squad
+---
+
 # Flight — Project History
 
 > Knowledge accumulated through leading Squad development.

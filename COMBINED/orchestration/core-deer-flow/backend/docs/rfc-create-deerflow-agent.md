@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-deer-flow
+---
+
 # RFC: `create_deerflow_agent` — 纯参数的 SDK 工厂 API
 
 ## 1. 问题

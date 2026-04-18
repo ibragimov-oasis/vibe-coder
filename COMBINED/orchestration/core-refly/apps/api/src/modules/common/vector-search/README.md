@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-refly
+---
+
 # Vector Search Service
 
 A flexible, backend-agnostic vector search service that supports multiple vector database backends including Qdrant and LanceDB.
@@ -289,4 +296,10 @@ VectorSearchService
 └── [Future backends...]
 ```
 
-The service uses a factory pattern to create the appropriate backend based on configuration, ensuring a consistent API regardless of the underlying vector database. 
+The service uses a factory pattern to create the appropriate backend based on configuration, ensuring a consistent API regardless of the underlying vector database.
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-refly]] — core-refly
+

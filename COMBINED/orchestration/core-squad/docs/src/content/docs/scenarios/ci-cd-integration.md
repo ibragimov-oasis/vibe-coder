@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-squad
+---
+
 # Squad in CI/CD Pipelines
 
 > ⚠️ **Experimental** — Squad is alpha software. APIs, commands, and behavior may change between releases.

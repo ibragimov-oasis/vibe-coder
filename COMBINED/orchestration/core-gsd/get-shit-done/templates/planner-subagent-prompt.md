@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-gsd
+---
+
 # Planner Subagent Prompt Template
 
 Template for spawning gsd-planner agent. The agent contains all planning expertise - this template provides planning context only.

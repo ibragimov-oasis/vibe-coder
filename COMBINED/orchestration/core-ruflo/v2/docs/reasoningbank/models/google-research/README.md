@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # Google Research ReasoningBank Model
 
 **Based on:** "ReasoningBank: Scaling Agent Self-Evolving with Reasoning Memory" (arXiv:2509.25140)
@@ -453,3 +460,9 @@ This model is provided for research and educational purposes. Please refer to th
 **Model Version:** 1.0.0
 **Last Updated:** 2025-10-15
 **Status:** Production Ready ✅
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-ruflo]] — core-ruflo
+

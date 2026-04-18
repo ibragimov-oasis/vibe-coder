@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # CLI Commands Refactoring Summary
 
 ## ADR-005 Implementation: MCP-First API Design

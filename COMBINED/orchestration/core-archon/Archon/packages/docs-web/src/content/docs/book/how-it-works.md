@@ -6,6 +6,10 @@ part: orientation
 audience: [user]
 sidebar:
   order: 3
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-archon
 ---
 
 Let's trace exactly what happened when you ran `archon-fix-github-issue`. What looked like one command was actually multiple AI nodes running in a DAG, a shared workspace, and a chain of files passing context from phase to phase.

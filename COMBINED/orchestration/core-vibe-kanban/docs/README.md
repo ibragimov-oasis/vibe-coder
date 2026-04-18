@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-vibe-kanban
+---
+
 # Mintlify Starter Kit
 
 **[Mintlify Quickstart Guide](https://starter.mintlify.com/quickstart)**
@@ -32,3 +39,9 @@ Install our GitHub app from your [dashboard](https://dashboard.mintlify.com/sett
 ### Resources
 - [Mintlify documentation](https://mintlify.com/docs)
 - [Mintlify community](https://mintlify.com/community)
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-vibe-kanban]] — core-vibe-kanban
+

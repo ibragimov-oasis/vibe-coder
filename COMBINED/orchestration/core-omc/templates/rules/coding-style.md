@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-omc
+---
+
 # Coding Style Rules
 
 ## Immutability (CRITICAL)

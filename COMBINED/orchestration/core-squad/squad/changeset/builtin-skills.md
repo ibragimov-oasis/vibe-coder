@@ -1,5 +1,9 @@
 ---
 "@bradygaster/squad-cli": minor
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-squad
 ---
 
 Ship 8 built-in skills with squad init/upgrade (#788)

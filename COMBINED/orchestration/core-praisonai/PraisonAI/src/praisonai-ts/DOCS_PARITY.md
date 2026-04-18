@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-praisonai
+---
+
 # Documentation Parity Tracker (TypeScript/JavaScript)
 
 > **Categories:** 74 | **Documented:** 74 | **Parity:** 100.0%

@@ -7,6 +7,10 @@ audience: [operator]
 status: current
 sidebar:
   order: 4
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-archon
 ---
 
 Archon runs on Windows in two ways:

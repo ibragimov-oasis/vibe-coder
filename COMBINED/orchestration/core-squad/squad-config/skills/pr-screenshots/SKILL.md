@@ -4,6 +4,10 @@ description: "Capture Playwright screenshots and embed them in GitHub PR descrip
 domain: "pull-requests, visual-review, docs, testing"
 confidence: "high"
 source: "earned (multiple sessions establishing the pattern for PR #11 TypeDoc API reference)"
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-squad
 ---
 
 ## Context

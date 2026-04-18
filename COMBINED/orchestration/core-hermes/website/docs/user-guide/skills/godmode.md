@@ -1,6 +1,10 @@
 ---
 title: "G0DM0D3 — Godmode Jailbreaking"
 description: "Automated LLM jailbreaking using G0DM0D3 techniques — system prompt templates, input obfuscation, and multi-model racing"
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-hermes
 ---
 
 # G0DM0D3 — Godmode Jailbreaking Skill

@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # Phase 1 & 2 Implementation Summary
 
 **Implementation Date**: 2025-11-12

@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-praisonai
+---
+
 # AGENTS.md - PraisonAI TypeScript SDK Comprehensive Guide
 
 > **For AI Agents and Developers**: This document provides the complete context needed to work with the PraisonAI TypeScript SDK, including design principles, architecture, repository structure, and implementation guidelines.

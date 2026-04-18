@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-gsd
+---
+
 # Referência de Ferramentas CLI
 
 Resumo em Português das ferramentas CLI do GSD.  

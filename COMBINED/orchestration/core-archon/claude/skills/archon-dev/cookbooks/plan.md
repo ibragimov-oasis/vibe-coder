@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-archon
+---
+
 # Plan Cookbook
 
 Detailed implementation plans with codebase intelligence. The most critical cookbook — plans drive everything downstream. Creates a context-rich document that enables one-pass implementation success.

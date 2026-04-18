@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-gsd
+---
+
 # GSD CLI ツールリファレンス
 
 > `gsd-tools.cjs` のプログラマティック API リファレンスです。ワークフローやエージェントが内部的に使用します。ユーザー向けコマンドについては、[コマンドリファレンス](COMMANDS.md) を参照してください。

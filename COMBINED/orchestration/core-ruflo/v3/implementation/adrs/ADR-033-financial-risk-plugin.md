@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # ADR-033: Financial Risk Analysis Plugin
 
 **Status:** Proposed

@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-praisonai
+---
+
 # Framework Integration Tests - Workflow Integration
 
 This document summarizes how the AutoGen and CrewAI integration tests have been integrated into the GitHub workflows.

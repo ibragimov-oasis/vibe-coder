@@ -1,5 +1,9 @@
 ---
 last_updated: 2026-03-08T00:00:00Z
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-squad
 ---
 
 # Team Wisdom

@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-omc
+---
+
 # Tiered Agents v2 Architecture Design
 
 ## Overview

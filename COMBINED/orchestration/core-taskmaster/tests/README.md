@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-taskmaster
+---
+
 # Task Master Test Suite
 
 This directory contains tests for the Task Master CLI. The tests are organized into different categories to ensure comprehensive test coverage.
@@ -61,3 +68,9 @@ We aim for at least 80% test coverage for all code paths. Coverage reports can b
 ```bash
 npm run test:coverage
 ```
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-taskmaster]] — core-taskmaster
+

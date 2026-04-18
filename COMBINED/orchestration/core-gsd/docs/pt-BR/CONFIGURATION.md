@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-gsd
+---
+
 # Referência de Configuração do GSD
 
 Configurações do projeto ficam em `.planning/config.json`.  

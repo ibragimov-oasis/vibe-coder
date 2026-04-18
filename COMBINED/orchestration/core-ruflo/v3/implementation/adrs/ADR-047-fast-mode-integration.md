@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # ADR-047: Fast Mode Integration for Claude Code
 
 **Status:** Proposed

@@ -3,6 +3,9 @@ name: transcribe-captions
 description: Transcribing audio to generate captions in Remotion
 metadata:
   tags: captions, transcribe, whisper, audio, speech-to-text
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-archon
 ---
 
 # Transcribing audio

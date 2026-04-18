@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # hook post-edit
 
 Execute post-edit processing including formatting, validation, and memory updates.

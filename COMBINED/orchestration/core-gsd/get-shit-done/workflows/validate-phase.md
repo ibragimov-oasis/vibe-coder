@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-gsd
+---
+
 <purpose>
 Audit Nyquist validation gaps for a completed phase. Generate missing tests. Update VALIDATION.md.
 </purpose>

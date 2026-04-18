@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-squad
+---
+
 # Human Team Members
 
 > ⚠️ **Experimental** — Squad is alpha software. APIs, commands, and behavior may change between releases.

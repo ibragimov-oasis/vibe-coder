@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-squad
+---
+
 # Cross-organization authentication
 
 **Try this when you have repos in multiple GitHub accounts:**

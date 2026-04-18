@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-omc
+---
+
 [English](README.md) | [한국어](README.ko.md) | [中文](README.zh.md) | [日本語](README.ja.md) | Español | [Tiếng Việt](README.vi.md) | [Português](README.pt.md)
 
 # oh-my-claudecode
@@ -388,3 +395,9 @@ Si Oh-My-ClaudeCode ayuda a tu flujo de trabajo, considera patrocinar:
 - 🐛 Reporta errores
 - 💡 Sugiere características
 - 📝 Contribuye código
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-omc]] — core-omc
+

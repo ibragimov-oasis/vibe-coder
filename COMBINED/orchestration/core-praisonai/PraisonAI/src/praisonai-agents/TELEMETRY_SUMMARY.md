@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-praisonai
+---
+
 # Telemetry Implementation Summary
 
 ## What Was Fixed

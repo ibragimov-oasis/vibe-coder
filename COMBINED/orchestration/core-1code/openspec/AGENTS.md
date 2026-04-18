@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-1code
+---
+
 # OpenSpec Instructions
 
 Instructions for AI coding assistants using OpenSpec for spec-driven development.

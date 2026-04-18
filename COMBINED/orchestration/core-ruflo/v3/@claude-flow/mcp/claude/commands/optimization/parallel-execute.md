@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # parallel-execute
 
 Execute tasks in parallel for maximum efficiency.

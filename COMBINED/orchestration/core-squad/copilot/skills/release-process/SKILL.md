@@ -4,6 +4,10 @@ description: "Step-by-step release checklist for Squad — prevents v0.8.22-styl
 domain: "release-management"
 confidence: "high"
 source: "team-decision"
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-squad
 ---
 
 ## Context

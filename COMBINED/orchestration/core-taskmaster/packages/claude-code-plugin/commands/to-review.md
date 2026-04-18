@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-taskmaster
+---
+
 Set a task's status to review.
 
 Arguments: $ARGUMENTS (task ID)

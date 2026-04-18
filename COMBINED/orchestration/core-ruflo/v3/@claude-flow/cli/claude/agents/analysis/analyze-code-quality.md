@@ -122,6 +122,10 @@ examples:
     response: "I'll perform a comprehensive code quality analysis of the authentication module, checking for code smells, complexity, and improvement opportunities..."
   - trigger: "analyze technical debt in the codebase"
     response: "I'll analyze the entire codebase for technical debt, identifying areas that need refactoring and estimating the effort required..."
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
 ---
 
 # Code Quality Analyzer

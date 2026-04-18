@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # 🚀 AgentDB v1.3.9 Integration Documentation
 
 Complete documentation for AgentDB vector database integration (PR #830).
@@ -56,3 +63,9 @@ npm install agentdb@1.3.9
 ---
 
 [← Back to Documentation Index](../README.md)
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-ruflo]] — core-ruflo
+

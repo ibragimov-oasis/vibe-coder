@@ -21,6 +21,10 @@ hooks:
     echo "⚖️  Quorum adjustment complete"
     # Validate new quorum configuration
     echo "✅ Verifying fault tolerance and availability guarantees"
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
 ---
 
 # Quorum Manager

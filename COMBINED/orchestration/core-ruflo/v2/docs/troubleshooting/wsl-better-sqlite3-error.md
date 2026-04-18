@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # WSL better-sqlite3 Error - Troubleshooting Guide
 
 ## ⚡ Automatic Error Recovery (v2.7.35+)

@@ -16,6 +16,10 @@ agents:
   - web-researcher
   - codebase-explorer
   - codebase-analyst
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-archon
 ---
 
 # Product Requirements Document Generator

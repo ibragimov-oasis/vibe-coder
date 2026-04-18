@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # ADR-G012: Manifest Validator and Conformance Suite
 
 **Status:** Accepted

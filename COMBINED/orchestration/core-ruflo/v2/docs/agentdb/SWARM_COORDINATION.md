@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # AgentDB Integration - Swarm Coordination Summary
 
 **Feature Branch**: `feature/agentdb-integration`

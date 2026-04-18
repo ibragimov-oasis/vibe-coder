@@ -2,6 +2,10 @@
 name: tailwind
 description: Using TailwindCSS in Remotion.
 metadata:
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-archon
 ---
 
 You can and should use TailwindCSS in Remotion, if TailwindCSS is installed in the project.

@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # ADR-G002: Constitution / Shard Split -- Always-Loaded Core Rules vs. Task-Scoped Retrieval
 
 ## Status

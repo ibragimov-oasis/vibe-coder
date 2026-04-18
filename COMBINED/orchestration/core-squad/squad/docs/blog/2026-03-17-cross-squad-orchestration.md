@@ -6,6 +6,9 @@ wave: null
 tags: [squad, orchestration, discovery, delegation, mesh]
 status: published
 hero: "Squads discover each other's capabilities and delegate work directly. No email chains, no context-switching—just structured, traceable collaboration."
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-squad
 ---
 
 # Cross-Squad Orchestration: Work as a Network

@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-hermes
+---
+
 # Streaming LLM Response Support for Hermes Agent
 
 ## Overview

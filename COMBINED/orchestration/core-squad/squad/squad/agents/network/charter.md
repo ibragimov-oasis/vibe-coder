@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-squad
+---
+
 # Network — Distribution
 
 > User-first. If users have to think about installation, install is broken.

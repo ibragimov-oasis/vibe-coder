@@ -52,6 +52,10 @@ hooks:
       --key "$AIDEFENCE_SESSION_ID" \
       --value "{\"scans\": $SCANS_COMPLETED, \"blocked\": $THREATS_BLOCKED, \"warned\": $THREATS_WARNED}" \
       2>/dev/null
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
 ---
 
 # AIDefence Guardian Agent

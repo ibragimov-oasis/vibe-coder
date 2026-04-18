@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-squad
+---
+
 # Autonomous pipeline
 
 Showcase sample that demonstrates a complete autonomous multi-agent development pipeline. A team of agents picks up tasks, routes follow-ups to teammates, records architectural decisions, accumulates learnings, and orchestrates the full run with cost tracking, telemetry collection, and real-time dashboards.
@@ -138,3 +145,9 @@ Tests validate:
 - See [azure-function-squad](../azure-function-squad/README.md) for deployment on Azure Functions
 - Check the [Squad SDK documentation](../../README.md) for more patterns and best practices
 - Review individual sample READMEs for focused concepts
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-squad]] — core-squad
+

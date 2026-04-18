@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-squad
+---
+
 # Tone Validation Test Specification
 
 > Quality gates for PAO's external communications. All tests must pass before a draft enters the review table.

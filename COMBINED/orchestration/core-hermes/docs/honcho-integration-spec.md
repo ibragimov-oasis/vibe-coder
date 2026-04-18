@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-hermes
+---
+
 # honcho-integration-spec
 
 Comparison of Hermes Agent vs. openclaw-honcho — and a porting spec for bringing Hermes patterns into other Honcho integrations.

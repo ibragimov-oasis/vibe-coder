@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # Claude-Flow v3 Architecture Assessment
 
 **Date:** 2026-01-03

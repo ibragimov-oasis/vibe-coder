@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-squad
+---
+
 # Squad Entry Markdown (SEM) Format Specification
 
 **Version:** 1.0  

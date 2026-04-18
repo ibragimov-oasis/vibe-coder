@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-squad
+---
+
 # Saul — Aspire & Observability
 
 > Infrastructure-aware. Telemetry-native. If you can't see it, it didn't happen.

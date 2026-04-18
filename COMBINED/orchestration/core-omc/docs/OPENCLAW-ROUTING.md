@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-omc
+---
+
 # OpenClaw / Clawhip Routing Contract
 
 This document defines the normalized event contract OMC emits through the OpenClaw bridge for native Clawhip-style consumers.

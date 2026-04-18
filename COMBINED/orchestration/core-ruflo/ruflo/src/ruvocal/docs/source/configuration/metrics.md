@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # Metrics
 
 The server can expose prometheus metrics on port `5565` but is off by default. You may enable the metrics server with `METRICS_ENABLED=true` and change the port with `METRICS_PORT=1234`.

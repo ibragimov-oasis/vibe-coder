@@ -1,5 +1,9 @@
 ---
 description: Create an atomic commit for current changes
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-archon
 ---
 
 # Commit Changes

@@ -4,6 +4,10 @@ name: Bedrock Compatible Ptc Tool Call Id
 status: implemented
 created: '2026-03-02'
 linear_issue_id: REF-1474
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-refly
 ---
 
 ## Overview

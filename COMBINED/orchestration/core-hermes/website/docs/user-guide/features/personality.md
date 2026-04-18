@@ -2,6 +2,10 @@
 sidebar_position: 9
 title: "Personality & SOUL.md"
 description: "Customize Hermes Agent's personality with a global SOUL.md, built-in personalities, and custom persona definitions"
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-hermes
 ---
 
 # Personality & SOUL.md

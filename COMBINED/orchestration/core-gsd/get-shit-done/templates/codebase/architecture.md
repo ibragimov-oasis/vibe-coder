@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-gsd
+---
+
 # Architecture Template
 
 Template for `.planning/codebase/ARCHITECTURE.md` - captures conceptual code organization.

@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # Performance Module Test Suite
 
 Comprehensive test coverage for the `@claude-flow/performance` module, focusing on Flash Attention optimization and benchmark validation.
@@ -240,3 +247,9 @@ To improve coverage further, consider:
 
 Last Updated: 2026-01-04
 Test Suite Version: 1.0.0
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-ruflo]] — core-ruflo
+

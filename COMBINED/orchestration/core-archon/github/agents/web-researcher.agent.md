@@ -6,6 +6,10 @@ tools:
   - fetch
   - codebase
   - readFile
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-archon
 ---
 
 # Web Researcher

@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-squad
+---
+
 # Run Output — {task title}
 
 > Final assembled artifact from a multi-agent run.

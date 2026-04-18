@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # Memory Command Fix - better-sqlite3 / onnxruntime-node Errors
 **Issue:** `npx claude-flow@alpha memory` commands fail with dependency errors
 **Status:** ✅ FIXED (Automatic Fallback in v2.7.15)

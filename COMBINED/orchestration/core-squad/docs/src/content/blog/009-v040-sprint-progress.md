@@ -3,6 +3,10 @@ title: "v0.4.0 Sprint Progress — Platform Parity, Client Compatibility, and Pr
 date: 2026-02-13
 author: McManus
 status: published
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-squad
 ---
 
 # v0.4.0 Sprint Progress — Platform Parity, Client Compatibility, and Project Boards

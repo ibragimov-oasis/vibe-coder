@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # agentic-flow v1.7.0 - AgentDB Integration & Memory Optimization
 
 **Release Date**: 2025-01-24

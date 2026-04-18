@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # hive-mind-init
 
 Initialize the Hive Mind collective intelligence system.

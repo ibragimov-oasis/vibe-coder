@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-squad
+---
+
 # Proposal: Contributor Guide Improvements
 
 > **Author:** Flight (Lead)

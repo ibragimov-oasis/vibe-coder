@@ -7,6 +7,10 @@ audience: [user]
 status: current
 sidebar:
   order: 1
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-archon
 ---
 
 This guide explains how to create workflows that orchestrate multiple commands into automated pipelines. Read [Authoring Commands](/guides/authoring-commands/) first — workflows are built from commands.

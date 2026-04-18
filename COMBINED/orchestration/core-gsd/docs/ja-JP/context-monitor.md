@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-gsd
+---
+
 # コンテキストウィンドウモニター
 
 ツール使用後に実行されるフック（Claude Code では `PostToolUse`、Gemini CLI では `AfterTool`）で、コンテキストウィンドウの使用量が高くなった際にエージェントに警告します。

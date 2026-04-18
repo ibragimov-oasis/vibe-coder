@@ -21,6 +21,9 @@ patterns-established:
   - "Pattern 1: description"
 duration: Xmin
 completed: YYYY-MM-DD
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-gsd
 ---
 
 # Phase [X]: [Name] Summary (Complex)

@@ -6,6 +6,10 @@ audience: [developer]
 status: current
 sidebar:
   order: 1
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-archon
 ---
 
 > **TL;DR**: Archon lets you control AI coding assistants (Claude Code, Codex) from your phone via Telegram, Slack, Discord, or GitHub. Think of it as a remote control for AI pair programming.

@@ -2,6 +2,10 @@
 name: test-long-runner
 description: Test agent that can run for 30+ minutes on complex tasks
 category: custom
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
 ---
 
 # Test Long-Running Agent

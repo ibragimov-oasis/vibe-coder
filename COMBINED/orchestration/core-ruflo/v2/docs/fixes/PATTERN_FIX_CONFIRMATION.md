@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # Pattern Persistence Fix Confirmation - v2.7.1
 
 **Date**: 2025-10-22

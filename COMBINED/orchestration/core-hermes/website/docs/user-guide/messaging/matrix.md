@@ -2,6 +2,10 @@
 sidebar_position: 9
 title: "Matrix"
 description: "Set up Hermes Agent as a Matrix bot"
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-hermes
 ---
 
 # Matrix Setup

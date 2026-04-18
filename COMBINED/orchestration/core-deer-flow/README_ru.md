@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-deer-flow
+---
+
 # 🦌 DeerFlow - 2.0
 
 [English](./README.md) | [中文](./README_zh.md) | [日本語](./README_ja.md) | [Français](./README_fr.md) | Русский
@@ -488,3 +495,9 @@ DeerFlow стоит на плечах open-source сообщества. Спас
 ## История звёзд
 
 [![Star History Chart](https://api.star-history.com/svg?repos=bytedance/deer-flow&type=Date)](https://star-history.com/#bytedance/deer-flow&Date)
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-deer-flow]] — core-deer-flow
+

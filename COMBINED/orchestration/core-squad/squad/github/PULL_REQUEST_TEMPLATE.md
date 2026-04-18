@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-squad
+---
+
 ### What
 <!-- One paragraph: what does this PR change? -->
 

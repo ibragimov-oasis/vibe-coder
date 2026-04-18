@@ -6,6 +6,9 @@ wave: null
 tags: [squad, release, versioning, npm, publishing, ci]
 status: published
 hero: "The CLI was at 0.8.1. The SDK was at 0.8.0. The root was at 0.6.0-alpha.0. We snapped everything to 0.8.2 and published to npm. Then CI told us what we got wrong."
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-squad
 ---
 
 # Snapping to 0.8.2

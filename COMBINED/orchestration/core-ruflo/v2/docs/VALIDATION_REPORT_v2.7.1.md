@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # Comprehensive Validation Report - v2.7.1 Pre-AgentDB Stable Branch
 
 **Branch**: `revert/pre-agentdb-stable`

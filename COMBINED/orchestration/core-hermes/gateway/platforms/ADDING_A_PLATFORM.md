@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-hermes
+---
+
 # Adding a New Messaging Platform
 
 Checklist for integrating a new messaging platform into the Hermes gateway.

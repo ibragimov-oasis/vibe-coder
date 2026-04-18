@@ -1,6 +1,10 @@
 ---
 description: Auto-fix all review findings unless clear YAGNI violations, post fix report
 argument-hint: (none - reads all review artifacts from $ARTIFACTS_DIR/review/)
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-archon
 ---
 
 # Auto-Fix Review Findings

@@ -4,6 +4,10 @@ description: >
   SPARC development workflow (Specification, Pseudocode, Architecture, Refinement, Completion).
   Use when: new features, complex implementations, architectural changes.
   Skip when: simple fixes, documentation, configuration.
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
 ---
 
 # Sparc Methodology Skill

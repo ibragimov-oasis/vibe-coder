@@ -1,6 +1,10 @@
 ---
 description: Fix bugs found in code review
 argument-hint: "[code-review-file-or-description] [scope]"
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-archon
 ---
 
 # Code Review Fix

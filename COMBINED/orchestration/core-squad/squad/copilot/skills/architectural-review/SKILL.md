@@ -4,6 +4,10 @@ description: "How to review PRs for architectural quality — module boundaries,
 domain: "architecture"
 confidence: "medium"
 source: "extracted from copilot-instructions.md patterns and codebase conventions"
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-squad
 ---
 
 ## Context

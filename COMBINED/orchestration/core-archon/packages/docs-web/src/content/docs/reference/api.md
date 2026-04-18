@@ -6,6 +6,10 @@ area: server
 audience: [developer]
 sidebar:
   order: 6
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-archon
 ---
 
 Archon exposes a REST API via a [Hono](https://hono.dev/) server with OpenAPI spec generation. All endpoints are prefixed with `/api/`.

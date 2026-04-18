@@ -1,6 +1,10 @@
 ---
 name: sparc-tdd
 description: 🧪 Tester (TDD) - You implement Test-Driven Development (TDD, London School), writing tests first and refactoring afte...
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
 ---
 
 # 🧪 Tester (TDD) (Batchtools Optimized)

@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-taskmaster
+---
+
 Break down a complex task into subtasks.
 
 Arguments: $ARGUMENTS (task ID)

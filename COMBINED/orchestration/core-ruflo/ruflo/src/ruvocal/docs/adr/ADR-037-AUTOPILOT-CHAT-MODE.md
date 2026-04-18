@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # ADR-037: Autopilot Mode with Parallel Task UI, Web Workers & RuVector WASM
 
 **Status:** Accepted

@@ -1,5 +1,9 @@
 ---
 '@bradygaster/squad-sdk': patch
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-squad
 ---
 
 Eliminate shell injection vectors in scheduler and state backend

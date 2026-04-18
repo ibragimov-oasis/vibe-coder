@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-taskmaster
+---
+
 Check if Task Master is installed and install it if needed.
 
 This command helps you get Task Master set up globally on your system.

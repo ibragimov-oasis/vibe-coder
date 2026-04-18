@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # 🚀 Claude Flow Documentation Hub
 
 ## Welcome to Claude Flow v2.0.0-alpha.88

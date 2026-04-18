@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-refly
+---
+
 # Enhanced VectorFilter System
 
 This document describes the enhanced `VectorFilter` system that provides compatibility with both Qdrant and LanceDB vector search backends.
@@ -413,4 +420,10 @@ console.log('LanceDB format:', FilterUtils.toLanceDBFilter(filter));
 
 // Validate filter
 console.log('Is valid:', FilterUtils.validateFilter(filter));
-``` 
+```
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-refly]] — core-refly
+

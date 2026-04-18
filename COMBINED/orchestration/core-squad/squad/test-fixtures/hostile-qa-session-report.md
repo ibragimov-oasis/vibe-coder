@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-squad
+---
+
 # Hostile QA Session Report — First 30 Seconds
 
 **Date:** 2026-02-24  

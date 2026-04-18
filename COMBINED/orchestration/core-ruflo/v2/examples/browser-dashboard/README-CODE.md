@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # Claude Flow + Claude Code - Browser IDE
 
 **Browser-based IDE combining swarm orchestration with interactive code editing**

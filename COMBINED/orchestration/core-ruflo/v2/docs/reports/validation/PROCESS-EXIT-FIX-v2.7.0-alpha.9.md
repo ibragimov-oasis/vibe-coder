@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # Process Exit Fix - v2.7.0-alpha.9
 
 **Release Date**: 2025-10-13

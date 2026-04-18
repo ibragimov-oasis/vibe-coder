@@ -1,6 +1,10 @@
 ---
 description: Final workflow summary with decision matrix for follow-up actions
 argument-hint: (no arguments - reads from workflow artifacts)
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-archon
 ---
 
 # Workflow Summary

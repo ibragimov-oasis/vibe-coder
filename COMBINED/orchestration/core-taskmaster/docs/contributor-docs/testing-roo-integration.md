@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-taskmaster
+---
+
 # Testing Roo Integration
 
 This document provides instructions for testing the Roo integration in the Task Master package.

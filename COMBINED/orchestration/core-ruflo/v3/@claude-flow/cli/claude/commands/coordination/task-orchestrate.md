@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # task-orchestrate
 
 Orchestrate complex tasks across the swarm.

@@ -1,5 +1,9 @@
 ---
 description: instruction
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-praisonai
 ---
 
 Create multiple TODOs and sub-TODOs, get all things done.

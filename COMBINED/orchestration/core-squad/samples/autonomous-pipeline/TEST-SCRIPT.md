@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-squad
+---
+
 # TEST-SCRIPT.md — Autonomous Pipeline Demo Walkthrough
 
 > Step-by-step script for presenting the autonomous pipeline demo at MVP Summit.

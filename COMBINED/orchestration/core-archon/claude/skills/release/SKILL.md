@@ -9,6 +9,10 @@ description: |
   - "/release minor" - create a minor release
   - "/release major" - create a major release
   - "make a release", "cut a release", "ship it", "release to main"
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-archon
 ---
 
 # Release Skill

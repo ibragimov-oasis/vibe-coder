@@ -6,6 +6,9 @@ wave: 1
 tags: [squad, wave-1, distribution, branch-strategy, dogfooding, kobayashi]
 status: published
 hero: "Squad is built by a Squad. When users install the product, they shouldn't get the team that made it."
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-squad
 ---
 
 # The Squad Squad Problem

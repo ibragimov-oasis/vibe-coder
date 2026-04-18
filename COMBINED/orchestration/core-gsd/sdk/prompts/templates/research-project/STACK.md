@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-gsd
+---
+
 # Stack Research Template
 
 Template for `.planning/research/STACK.md` — recommended technologies for the project domain.

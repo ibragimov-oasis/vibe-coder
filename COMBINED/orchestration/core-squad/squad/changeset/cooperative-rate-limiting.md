@@ -1,5 +1,9 @@
 ---
 "@bradygaster/squad-sdk": minor
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-squad
 ---
 
 feat: Cooperative rate limiting with predictive circuit breaker

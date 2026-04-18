@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # repo-analyze
 
 Deep analysis of GitHub repository with AI insights.

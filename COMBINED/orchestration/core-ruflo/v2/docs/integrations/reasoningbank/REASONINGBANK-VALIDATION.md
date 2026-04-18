@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # ReasoningBank Plugin - Validation Report
 
 **Date**: 2025-10-10

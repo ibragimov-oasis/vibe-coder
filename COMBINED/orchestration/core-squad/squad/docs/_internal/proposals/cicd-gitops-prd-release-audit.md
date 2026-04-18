@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-squad
+---
+
 # Release & GitOps Audit — CI/CD PRD Input
 
 **Author:** Trejo (Release Manager)  

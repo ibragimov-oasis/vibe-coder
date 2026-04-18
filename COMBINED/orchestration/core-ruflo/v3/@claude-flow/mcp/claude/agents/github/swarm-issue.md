@@ -28,6 +28,10 @@ hooks:
     - "Update issue with swarm progress and agent assignments"
     - "Create follow-up tasks based on swarm analysis results"
     - "Generate comprehensive swarm coordination report"
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
 ---
 
 # Swarm Issue - Issue-Based Swarm Coordination

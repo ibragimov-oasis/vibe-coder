@@ -30,6 +30,10 @@ hooks:
     mcp__claude-flow__memory_usage store "mesh:metrics:${TASK_ID}" "$(mcp__claude-flow__swarm_status)" --namespace=mesh
     # Graceful network shutdown
     mcp__claude-flow__daa_communication --from="mesh-coordinator" --to="all" --message="{\"type\":\"network_shutdown\",\"reason\":\"task_complete\"}"
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
 ---
 
 # Mesh Network Swarm Coordinator

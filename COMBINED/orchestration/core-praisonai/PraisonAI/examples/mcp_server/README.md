@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-praisonai
+---
+
 # PraisonAI MCP Server Examples
 
 This directory contains examples for running PraisonAI as an MCP (Model Context Protocol) server.
@@ -161,3 +168,9 @@ Run `praisonai mcp list-tools` to see all available tools, including:
 - `context-engineering` - Generate context engineering prompts
 - `eval-criteria` - Generate evaluation criteria prompts
 - `agent-instructions` - Generate agent instructions prompts
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-praisonai]] — core-praisonai
+

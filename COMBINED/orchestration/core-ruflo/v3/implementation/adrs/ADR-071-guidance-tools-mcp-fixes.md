@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # ADR-071: Guidance MCP Tools, Agent/Skill YAML Standardization, and MCP Server Fixes
 
 - **Status**: Implemented

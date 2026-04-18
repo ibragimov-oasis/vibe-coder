@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # Domain Expert Model - Usage Guide
 
 This guide shows how to leverage the Domain Expert ReasoningBank model for expert-level technical decision-making across 5 domains.

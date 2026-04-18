@@ -7,6 +7,9 @@ version: 1.0.0
 requires:
   - flow-nexus MCP server
   - Active Flow Nexus account (register at flow-nexus.ruv.io)
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
 ---
 
 # Flow Nexus Swarm & Workflow Orchestration

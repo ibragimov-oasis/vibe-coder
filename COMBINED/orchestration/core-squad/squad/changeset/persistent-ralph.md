@@ -1,6 +1,10 @@
 ---
 '@bradygaster/squad-sdk': minor
 '@bradygaster/squad-cli': minor
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-squad
 ---
 
 Enable persistent Ralph — heartbeat cron + healthCheck timer

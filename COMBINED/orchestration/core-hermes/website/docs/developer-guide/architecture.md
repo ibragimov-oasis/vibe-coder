@@ -2,6 +2,10 @@
 sidebar_position: 1
 title: "Architecture"
 description: "Hermes Agent internals — major subsystems, execution paths, and where to read next"
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-hermes
 ---
 
 # Architecture

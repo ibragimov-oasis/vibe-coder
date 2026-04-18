@@ -1,5 +1,9 @@
 ---
 "@bradygaster/squad-cli": minor
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-squad
 ---
 
 Add `--notify-level` to control watch round reporting noise (#803)

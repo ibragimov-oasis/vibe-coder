@@ -19,6 +19,9 @@ related_skills:
   - github-issue-tracking
   - github-workflow-automation
   - multi-repo-coordination
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
 ---
 
 # GitHub Release Management Skill

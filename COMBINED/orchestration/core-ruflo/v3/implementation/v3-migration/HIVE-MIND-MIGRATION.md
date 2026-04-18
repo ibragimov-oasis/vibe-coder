@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # Hive-Mind Migration Guide
 
 > Migrating from V2 Hive-Mind to V3 Swarm Coordination

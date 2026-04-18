@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/pipeline
+  - artifact/workflow
+  - source/workflows-terraform
+---
+
 # Terraform Infrastructure
 
 This directory contains Infrastructure as Code (IaC) for deploying the Open-Inspect system using
@@ -426,3 +433,9 @@ terraform apply
 - Use GitHub Secrets for CI/CD
 - Rotate secrets regularly
 - Review plan output before applying
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/workflows-terraform]] — workflows-terraform
+

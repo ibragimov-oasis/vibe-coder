@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-squad
+---
+
 # GUIDO — VS Code Extension
 
 > Hands-on, detail-oriented. Bridges Squad and VS Code runtime.

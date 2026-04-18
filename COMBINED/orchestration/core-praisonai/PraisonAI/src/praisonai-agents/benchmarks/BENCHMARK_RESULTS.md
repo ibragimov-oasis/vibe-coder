@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-praisonai
+---
+
 # PraisonAI Agents - Benchmark Results
 
 **Generated:** 2025-12-18 14:40:22

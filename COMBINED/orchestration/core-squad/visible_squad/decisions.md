@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-squad
+---
+
 # Decisions
 
 > Team decisions that all agents must respect. Managed by Scribe.
@@ -58,7 +65,8 @@ Three factors combine to create the VS Code routing failure. Ranked by dominance
 
 #### 1. 🔴 CLI-Centric Enforcement Language (DOMINANT)
 
-The routing constraint is expressed exclusively in CLI terms. The CRITICAL RULE references 	ask tool only. When the coordinator reads this in VS Code, where the tool is unSubagent, it doesn't reliably make the substitution. It falls through to Platform Detection's Fallback mode: 'work inline.' This enforcement language creates a logical gap.
+The routing constraint is expressed exclusively in CLI terms. The CRITICAL RULE references 	ask tool only. When the coordinator reads this in VS Code, where the tool is 
+unSubagent, it doesn't reliably make the substitution. It falls through to Platform Detection's Fallback mode: 'work inline.' This enforcement language creates a logical gap.
 
 #### 2. 🟡 Prompt Saturation (AMPLIFYING)
 
@@ -72,7 +80,8 @@ CLI 1.0.11 discovers all \*.agent.md\ files from cwd to git root. Squad has 5 co
 
 **Fix 1: Platform-Neutral Enforcement Language (P0)**
 - Rewrite CRITICAL RULE to be platform-neutral: 'You are a DISPATCHER, not a DOER. Every task that needs domain expertise MUST be dispatched to a specialist agent.'
-- List dispatch mechanisms: CLI (\	ask\ tool), VS Code (\unSubagent\ tool), or fallback (work inline)
+- List dispatch mechanisms: CLI (\	ask\ tool), VS Code (\
+unSubagent\ tool), or fallback (work inline)
 - Update anti-patterns and constraints sections with same substitution
 
 **Fix 2: Top-and-Bottom Reinforcement (P0)**
@@ -90,7 +99,8 @@ CLI 1.0.11 discovers all \*.agent.md\ files from cwd to git root. Squad has 5 co
 **Fix 5: VS Code-Specific Hardening Block (P1)**
 - Move VS Code adaptations section higher (from line 458 to immediately after CRITICAL RULE)
 - Restructure as active enforcement block with platform detection table
-- Make clear: if \unSubagent\ is available, it MUST be used for domain work
+- Make clear: if \
+unSubagent\ is available, it MUST be used for domain work
 
 ### Priority Ordering
 
@@ -109,7 +119,8 @@ CLI 1.0.11 discovers all \*.agent.md\ files from cwd to git root. Squad has 5 co
 After implementing, test with Andreas's reproduction case:
 1. Open VS Code with squadified project
 2. Ask coordinator to do domain work that matches routing rule
-3. Verify: coordinator dispatches via \unSubagent\ instead of working inline
+3. Verify: coordinator dispatches via \
+unSubagent\ instead of working inline
 4. Verify: coordinator cites the routing rule when dispatching
 
 FIDO should own the test scenario. GUIDO should validate the VS Code runtime behavior.
@@ -118,7 +129,8 @@ FIDO should own the test scenario. GUIDO should validate the VS Code runtime beh
 
 1. Does CLI 1.0.11 support exclusion patterns (.copilotignore)? If yes, Fix 4 becomes simpler.
 2. Should we version-gate the VS Code adaptations (detect CLI version)?
-3. Is \unSubagent\ still the correct tool name, or has it changed?
+3. Is \
+unSubagent\ still the correct tool name, or has it changed?
 ---
 
 # Decision: PR Review Batch — Overlap Resolution

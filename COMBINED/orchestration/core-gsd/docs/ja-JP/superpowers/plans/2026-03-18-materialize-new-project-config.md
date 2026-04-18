@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-gsd
+---
+
 # 初期化時に new-project の設定を完全展開する
 
 > **エージェント型ワーカー向け:** 必須サブスキル: superpowers:subagent-driven-development（推奨）または superpowers:executing-plans を使用して、このプランをタスクごとに実装してください。各ステップはチェックボックス（`- [ ]`）構文で進捗を追跡します。

@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # ReasoningBank Status - v2.7.0-alpha.7
 
 ## Current Status: ✅ Production-Ready with ESM WASM

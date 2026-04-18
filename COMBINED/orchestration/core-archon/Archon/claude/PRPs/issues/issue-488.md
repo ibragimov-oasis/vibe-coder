@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-archon
+---
+
 # Investigation: CLI --branch + --no-worktree silently checks out in main repo
 
 **Issue**: #488 (https://github.com/dynamous-community/remote-coding-agent/issues/488)

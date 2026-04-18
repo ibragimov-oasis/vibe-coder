@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-squad
+---
+
 # @bradygaster/squad-sdk
 
 **Programmable multi-agent runtime for GitHub Copilot.** Build AI teams that persist, learn, and coordinate — with real governance, not vibes.
@@ -338,3 +345,9 @@ When agents complete work, record decisions, or hit errors — Ralph knows. If a
 ## License
 
 MIT
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-squad]] — core-squad
+

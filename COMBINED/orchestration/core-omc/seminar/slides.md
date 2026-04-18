@@ -3,6 +3,10 @@ title: Oh-My-ClaudeCode
 subtitle: Multi-Agent Orchestration for Autonomous Development
 author: Yeachan Heo
 theme: night
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-omc
 ---
 
 # Oh-My-ClaudeCode

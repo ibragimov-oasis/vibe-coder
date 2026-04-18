@@ -2,6 +2,10 @@
 sidebar_position: 8
 title: "Open WebUI"
 description: "Connect Open WebUI to Hermes Agent via the OpenAI-compatible API server"
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-hermes
 ---
 
 # Open WebUI Integration

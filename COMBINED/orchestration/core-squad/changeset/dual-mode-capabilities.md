@@ -1,5 +1,9 @@
 ---
 '@bradygaster/squad-sdk': minor
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-squad
 ---
 
 Add dual-mode deployment support for capabilities routing.

@@ -11,6 +11,10 @@ description: |
   (build locally via scripts/build-binaries.sh first), or running the full
   validate suite (bun run validate is separate).
 argument-hint: "[brew|curl-mac|curl-vps] [optional: version to verify] [optional: vps-target]"
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-archon
 ---
 
 # Test Release

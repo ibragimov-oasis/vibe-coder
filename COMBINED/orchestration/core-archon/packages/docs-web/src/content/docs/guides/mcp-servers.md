@@ -7,6 +7,10 @@ audience: [user]
 status: current
 sidebar:
   order: 6
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-archon
 ---
 
 DAG workflow nodes support a `mcp` field that attaches MCP (Model Context Protocol)

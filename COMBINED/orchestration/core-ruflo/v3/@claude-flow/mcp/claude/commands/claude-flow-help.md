@@ -1,6 +1,10 @@
 ---
 name: claude-flow-help
 description: Show Claude-Flow commands and usage
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
 ---
 
 # Claude-Flow Commands

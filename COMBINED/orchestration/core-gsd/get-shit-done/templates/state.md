@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-gsd
+---
+
 # State Template
 
 Template for `.planning/STATE.md` — the project's living memory.

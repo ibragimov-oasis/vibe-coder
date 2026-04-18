@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-cc-connect
+---
+
 # Integration Test Plan
 
 Integration tests verify real agent-platform interactions using actual agent binaries

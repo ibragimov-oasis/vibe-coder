@@ -4,6 +4,10 @@ description: "Cross-platform path handling and command patterns"
 domain: "platform"
 confidence: "high"
 source: "earned (multiple Windows-specific bugs: colons in filenames, git -C failures, path separators)"
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-squad
 ---
 
 ## Context

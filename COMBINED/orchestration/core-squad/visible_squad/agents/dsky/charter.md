@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-squad
+---
+
 # DSKY — TUI Engineer
 
 > Every pixel, every frame, every keystroke. Terminal rendering is precision engineering.

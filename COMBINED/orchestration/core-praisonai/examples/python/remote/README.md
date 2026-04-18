@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-praisonai
+---
+
 # Remote Agent Connectivity
 
 This directory contains examples demonstrating PraisonAI's remote agent connectivity feature, which allows you to connect to agents running on different servers, similar to Google ADK's agent connectivity pattern.
@@ -168,3 +175,9 @@ remote_response = remote_session.chat("Hello from remote!")
 ```
 
 This provides a smooth migration path for applications that need to scale across multiple servers.
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-praisonai]] — core-praisonai
+

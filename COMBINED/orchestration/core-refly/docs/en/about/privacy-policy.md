@@ -1,6 +1,10 @@
 ---
 title: Privacy Policy
 description: Refly AI Workflow Engine Privacy Policy (Restricted Scopes & Limited Use Compliant)
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-refly
 ---
 
 # Refly AI Privacy Policy 

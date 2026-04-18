@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-omc
+---
+
 # MCP/Plugin Compatibility Layer
 
 The Compatibility Layer enables oh-my-claudecode to discover, register, and use external plugins, MCP servers, and tools. It provides a unified interface for managing external tools while maintaining security through an integrated permission system.

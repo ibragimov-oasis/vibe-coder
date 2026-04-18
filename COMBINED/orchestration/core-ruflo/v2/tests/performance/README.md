@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # AgentDB Performance Testing Suite
 
 Comprehensive performance testing and optimization tools for AgentDB v1.3.9 integration.
@@ -252,3 +259,9 @@ When adding new benchmarks:
 - Vector Quantization: https://en.wikipedia.org/wiki/Vector_quantization
 - Claude-Flow Integration Plan: `/docs/AGENTDB_INTEGRATION_PLAN.md`
 - Production Readiness: `/docs/agentdb/PRODUCTION_READINESS.md`
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-ruflo]] — core-ruflo
+

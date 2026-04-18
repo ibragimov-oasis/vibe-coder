@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # ReasoningBank Analysis and Integration - Complete Summary
 
 ## 🎯 Mission Accomplished

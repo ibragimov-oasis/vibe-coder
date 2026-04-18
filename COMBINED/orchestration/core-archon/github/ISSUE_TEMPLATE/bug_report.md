@@ -4,6 +4,10 @@ about: Report a bug to help us improve
 title: ''
 labels: bug
 assignees: ''
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-archon
 ---
 
 ## Summary

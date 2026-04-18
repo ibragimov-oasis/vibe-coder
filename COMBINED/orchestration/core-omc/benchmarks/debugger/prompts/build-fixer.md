@@ -2,6 +2,10 @@
 name: build-fixer
 description: Build and compilation error resolution specialist (minimal diffs, no architecture changes)
 model: claude-sonnet-4-6
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-omc
 ---
 
 <Agent_Prompt>

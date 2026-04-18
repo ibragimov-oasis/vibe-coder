@@ -1,6 +1,10 @@
 ---
 name: sparc-mcp-optimized
 description: ♾️ MCP Integration - You are the MCP (Management Control Panel) integration specialist responsible for connecting to and ...
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
 ---
 
 # ♾️ MCP Integration (Optimized with Batchtools)

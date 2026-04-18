@@ -7,6 +7,10 @@ audience: [user]
 status: current
 sidebar:
   order: 1
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-archon
 ---
 
 The Web UI is the built-in interface for interacting with Archon. It requires no tokens, API keys, or external services -- just start the server and open your browser.

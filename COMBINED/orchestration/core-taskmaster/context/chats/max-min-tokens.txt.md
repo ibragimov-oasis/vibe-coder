@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-taskmaster
+---
+
 We want to refine how Task Master handles AI model token limits to be more precise, by:
 
 1.  Distinguishing between `maxInputTokens` and `maxOutputTokens` in the configuration.

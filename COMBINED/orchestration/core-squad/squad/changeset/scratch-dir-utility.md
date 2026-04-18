@@ -1,5 +1,9 @@
 ---
 "@bradygaster/squad-sdk": minor
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-squad
 ---
 
 Add `.squad/.scratch/` directory for organized temp file management (#790)

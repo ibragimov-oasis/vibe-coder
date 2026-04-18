@@ -3,6 +3,9 @@ name: transparent-videos
 description: Rendering transparent videos in Remotion
 metadata:
   tags: transparent, alpha, codec, vp9, prores, webm
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-archon
 ---
 
 # Rendering Transparent Videos

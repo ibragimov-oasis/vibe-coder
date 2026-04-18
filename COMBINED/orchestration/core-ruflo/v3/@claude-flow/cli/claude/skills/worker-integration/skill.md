@@ -9,6 +9,10 @@ capabilities:
   - performance_tracking
   - memory_coordination
   - self_learning
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
 ---
 
 # Worker-Agent Integration Skill

@@ -6,6 +6,10 @@ part: advanced
 audience: [user]
 sidebar:
   order: 10
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-archon
 ---
 
 This chapter collects every CLI command, variable, and YAML option in one place. No explanations — just the facts. Use it when you know what you need and just need the syntax.

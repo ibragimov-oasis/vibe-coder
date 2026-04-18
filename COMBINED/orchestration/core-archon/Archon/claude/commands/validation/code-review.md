@@ -1,5 +1,9 @@
 ---
 description: Technical code review for quality, bugs, and CLAUDE.md compliance
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-archon
 ---
 
 # Code Review: Pre-Commit Quality Check

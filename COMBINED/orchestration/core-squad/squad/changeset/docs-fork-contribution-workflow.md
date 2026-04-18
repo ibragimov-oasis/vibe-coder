@@ -1,5 +1,9 @@
 ---
 "@bradygaster/squad-cli": patch
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-squad
 ---
 
 docs: add fork contribution workflow to CONTRIBUTING.md

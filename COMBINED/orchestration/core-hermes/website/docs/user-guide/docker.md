@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-hermes
+---
+
 # Hermes Agent — Docker
 
 Want to run Hermes Agent, but without installing packages on your host? This'll sort you out.

@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # Visualization and Pattern Discovery for the Riemann Hypothesis
 
 ## Visual GOAP: Using Visualization for Mathematical Breakthrough

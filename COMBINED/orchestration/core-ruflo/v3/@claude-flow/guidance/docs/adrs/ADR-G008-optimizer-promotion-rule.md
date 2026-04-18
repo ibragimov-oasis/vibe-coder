@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # ADR-G008: Optimizer Promotion Rule -- "Win Twice to Promote" for Rule Evolution
 
 ## Status

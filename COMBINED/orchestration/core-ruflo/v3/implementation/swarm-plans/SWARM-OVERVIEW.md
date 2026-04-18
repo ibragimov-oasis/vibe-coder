@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # Claude-Flow v3: 15-Agent Concurrent Swarm Implementation Plan
 
 ## Overview

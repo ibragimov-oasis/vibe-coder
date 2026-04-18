@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-squad
+---
+
 # Scaling with SubSquads
 
 > Partition your repo's work across multiple Squad instances for horizontal scaling.

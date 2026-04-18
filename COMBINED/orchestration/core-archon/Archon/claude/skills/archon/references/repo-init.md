@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-archon
+---
+
 # Initializing Archon in a Repository
 
 Set up the `.archon/` directory structure in any git repository to enable custom workflows and commands.

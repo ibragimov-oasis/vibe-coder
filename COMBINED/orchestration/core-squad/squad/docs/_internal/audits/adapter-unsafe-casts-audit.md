@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-squad
+---
+
 # Adapter Layer Audit — Unsafe Casts & Method Mismatches
 
 **Auditor:** Fenster (Core Dev)

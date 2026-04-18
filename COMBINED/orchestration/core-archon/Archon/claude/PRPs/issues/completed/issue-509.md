@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-archon
+---
+
 # Investigation: 23 test pollution failures from unrestored mocks
 
 **Issue**: #509 (https://github.com/dynamous-community/remote-coding-agent/issues/509)

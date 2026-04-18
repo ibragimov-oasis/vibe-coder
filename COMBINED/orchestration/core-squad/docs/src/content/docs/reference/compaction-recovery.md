@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-squad
+---
+
 # Compaction Recovery
 
 > Recovery mechanism for when conversation context is compacted.

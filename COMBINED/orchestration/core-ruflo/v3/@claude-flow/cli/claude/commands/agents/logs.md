@@ -2,6 +2,10 @@
 name: logs
 description: Show agent activity logs
 type: command
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
 ---
 
 # Agent Logs Command

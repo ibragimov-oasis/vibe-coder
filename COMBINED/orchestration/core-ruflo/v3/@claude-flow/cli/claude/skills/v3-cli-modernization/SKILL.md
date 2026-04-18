@@ -1,6 +1,10 @@
 ---
 name: "V3 CLI Modernization"
 description: "CLI modernization and hooks system enhancement for claude-flow v3. Implements interactive prompts, command decomposition, enhanced hooks integration, and intelligent workflow automation."
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
 ---
 
 # V3 CLI Modernization

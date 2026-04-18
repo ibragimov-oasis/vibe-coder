@@ -3,6 +3,10 @@ title: Image Generation
 description: Generate high-quality images using FLUX 2 Pro with automatic upscaling via FAL.ai.
 sidebar_label: Image Generation
 sidebar_position: 6
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-hermes
 ---
 
 # Image Generation

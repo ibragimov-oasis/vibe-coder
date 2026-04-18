@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-taskmaster
+---
+
 Cancel a task permanently.
 
 Arguments: $ARGUMENTS (task ID)

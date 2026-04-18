@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-omc
+---
+
 # Delegation Enforcer
 
 **Automatic model parameter injection for Task/Agent calls**

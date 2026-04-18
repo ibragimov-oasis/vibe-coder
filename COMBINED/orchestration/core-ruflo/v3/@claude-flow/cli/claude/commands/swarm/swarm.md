@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # /swarm
 
 Main swarm orchestration command for Claude Flow V3.

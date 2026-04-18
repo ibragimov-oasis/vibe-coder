@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-gsd
+---
+
 # Phase Prompt Template
 
 > **Note:** Planning methodology is in `agents/gsd-planner.md`.

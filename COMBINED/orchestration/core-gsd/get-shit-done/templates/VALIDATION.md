@@ -5,6 +5,10 @@ status: draft
 nyquist_compliant: false
 wave_0_complete: false
 created: {date}
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-gsd
 ---
 
 # Phase {N} — Validation Strategy

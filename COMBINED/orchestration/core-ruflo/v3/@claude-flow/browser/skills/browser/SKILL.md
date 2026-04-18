@@ -16,6 +16,10 @@ tools:
   - browser/fill
   - browser/screenshot
   - browser/close
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
 ---
 
 # Browser Automation Skill

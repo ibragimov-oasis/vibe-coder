@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-cc-connect
+---
+
 # cc-connect Management API Specification
 
 > **Version:** 1.1-draft  

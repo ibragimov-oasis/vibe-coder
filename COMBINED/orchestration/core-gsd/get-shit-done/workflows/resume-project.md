@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-gsd
+---
+
 <trigger>
 Use this workflow when:
 - Starting a new session on an existing project

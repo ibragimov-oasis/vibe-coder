@@ -4,6 +4,10 @@ description: "Shifts Layer 3 model selection to cost-optimized alternatives when
 domain: "model-selection"
 confidence: "low"
 source: "manual"
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-squad
 ---
 
 ## SCOPE

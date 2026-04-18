@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-taskmaster
+---
+
 # Codex CLI Provider
 
 The `codex-cli` provider integrates Task Master with OpenAI's Codex CLI via the community AI SDK provider [`ai-sdk-provider-codex-cli`](https://github.com/ben-vargas/ai-sdk-provider-codex-cli). It uses your ChatGPT subscription (OAuth) via `codex login`, with optional `OPENAI_CODEX_API_KEY` support.

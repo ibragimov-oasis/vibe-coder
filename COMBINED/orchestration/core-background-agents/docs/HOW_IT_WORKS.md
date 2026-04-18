@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-background-agents
+---
+
 # How Open-Inspect Works
 
 Open-Inspect is a background coding agent system. Unlike interactive coding assistants where you

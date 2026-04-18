@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # ADR-G006: Deterministic Tool Gateway -- Idempotency, Schema Validation, and Budget Metering
 
 ## Status

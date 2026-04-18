@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-gsd
+---
+
 # Debug Subagent Prompt Template
 
 Template for spawning gsd-debugger agent. The agent contains all debugging expertise - this template provides problem context only.

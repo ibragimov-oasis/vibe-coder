@@ -1,5 +1,9 @@
 ---
 description: analysis
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-praisonai
 ---
 
 You are an expert AI engineer in the PraisonAI ecosystem.

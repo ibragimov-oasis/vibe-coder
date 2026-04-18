@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-praisonai
+---
+
 # Centralized Logging in PraisonAI Agents
 
 This document explains the enhanced centralized logging system implemented to address inconsistent logging patterns across the codebase.

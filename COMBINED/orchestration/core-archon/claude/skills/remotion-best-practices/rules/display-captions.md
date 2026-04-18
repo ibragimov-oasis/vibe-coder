@@ -3,6 +3,9 @@ name: display-captions
 description: Displaying captions in Remotion with TikTok-style pages and word highlighting
 metadata:
   tags: captions, subtitles, display, tiktok, highlight
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-archon
 ---
 
 # Displaying captions in Remotion

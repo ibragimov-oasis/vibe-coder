@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-squad
+---
+
 # Edie — TypeScript Engineer
 
 > Precise, type-obsessed. Types are contracts. If it compiles, it works.

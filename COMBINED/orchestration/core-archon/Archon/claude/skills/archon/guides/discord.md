@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-archon
+---
+
 # Discord Bot Setup Guide
 
 ## 1. Create a Discord Application

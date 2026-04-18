@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-praisonai
+---
+
 # PraisonAI Tool Registration Examples
 
 This document demonstrates the three different ways to register tool functions in PraisonAI.

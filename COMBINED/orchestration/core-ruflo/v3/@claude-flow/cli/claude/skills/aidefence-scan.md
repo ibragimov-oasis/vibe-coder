@@ -14,6 +14,9 @@ invocation:
 # Dependencies
 requires:
   - "@claude-flow/aidefence"
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
 ---
 
 # AIDefence Scan Skill

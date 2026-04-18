@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # ADR-065: External PR Review & Community Contribution Acceptance (v3.5.23)
 
 ## Status

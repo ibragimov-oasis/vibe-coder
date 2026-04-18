@@ -1,4 +1,8 @@
 ---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-squad
 ---
 
 ci: add PR contamination prevention guard

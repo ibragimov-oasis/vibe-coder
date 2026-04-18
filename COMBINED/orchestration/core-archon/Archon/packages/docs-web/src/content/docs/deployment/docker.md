@@ -7,6 +7,10 @@ audience: [operator]
 status: current
 sidebar:
   order: 2
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-archon
 ---
 
 Deploy Archon on a server with Docker. Includes automatic HTTPS, PostgreSQL, and the Web UI.

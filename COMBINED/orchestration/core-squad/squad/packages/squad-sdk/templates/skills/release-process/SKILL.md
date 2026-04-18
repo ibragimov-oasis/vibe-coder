@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-squad
+---
+
 # Release Process
 
 > Earned knowledge from the v0.9.0→v0.9.1 incident. Every agent involved in releases MUST read this before starting release work.

@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-praisonai
+---
+
 # PraisonAI Tools Guide
 
 Welcome to the PraisonAI Tools directory! This guide will help you understand how our tools work and how to create new ones, whether you're a beginner or an experienced programmer.
@@ -245,3 +252,9 @@ Ask yourself these questions:
 - Don't hesitate to ask questions!
 
 Remember: The goal is to make tools that are easy to use and maintain. Choose the approach that makes the most sense for your specific tool's needs.
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-praisonai]] — core-praisonai
+

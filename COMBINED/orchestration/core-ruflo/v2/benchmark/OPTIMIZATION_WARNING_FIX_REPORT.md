@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # Optimization Warning Fix - Completion Report
 
 ## 🎯 Mission Accomplished

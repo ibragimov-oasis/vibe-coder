@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-squad
+---
+
 # Autonomous Pipeline — SDK Sample PRD
 
 ## Overview

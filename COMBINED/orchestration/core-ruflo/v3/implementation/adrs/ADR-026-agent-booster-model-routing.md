@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # ADR-026: Agent Booster AST-Based Dynamic Model Routing
 
 **Status:** Implemented ✅

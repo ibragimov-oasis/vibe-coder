@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-gsd
+---
+
 # Context Window Monitor
 
 A post-tool hook (`PostToolUse` for Claude Code, `AfterTool` for Gemini CLI) that warns the agent when context window usage is high.

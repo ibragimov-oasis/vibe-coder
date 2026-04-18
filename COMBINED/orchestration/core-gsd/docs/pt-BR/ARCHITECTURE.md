@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-gsd
+---
+
 # Arquitetura do GSD
 
 Visão arquitetural do Get Shit Done (GSD) em Português.  

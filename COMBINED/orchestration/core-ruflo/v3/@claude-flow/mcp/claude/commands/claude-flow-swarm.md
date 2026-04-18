@@ -1,6 +1,10 @@
 ---
 name: claude-flow-swarm
 description: Coordinate multi-agent swarms for complex tasks
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
 ---
 
 # 🐝 Claude-Flow Swarm Coordination

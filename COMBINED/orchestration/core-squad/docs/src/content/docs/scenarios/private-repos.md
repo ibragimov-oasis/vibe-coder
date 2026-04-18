@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-squad
+---
+
 # Squad on Private Repositories — Privacy & Security
 
 **Try this to use Squad with enterprise:**

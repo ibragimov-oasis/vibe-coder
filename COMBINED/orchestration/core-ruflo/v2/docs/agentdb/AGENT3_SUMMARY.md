@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # Agent 3: Optimization Specialist - Summary
 
 **Role**: Performance Validation & Optimization

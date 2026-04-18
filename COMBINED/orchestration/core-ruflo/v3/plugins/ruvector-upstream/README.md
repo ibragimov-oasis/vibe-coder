@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # RuVector Upstream WASM Packages
 
 This directory contains references and integration bridges for upstream RuVector WASM packages used by Claude Flow plugins.
@@ -69,3 +76,9 @@ export const plugin: ClaudeFlowPlugin = {
   },
 };
 ```
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-ruflo]] — core-ruflo
+

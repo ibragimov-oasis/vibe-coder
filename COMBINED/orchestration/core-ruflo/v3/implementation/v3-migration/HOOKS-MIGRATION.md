@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # Hooks System Migration Guide
 
 > Migrating from V2 Self-Learning Hooks to V3 ReasoningBank-Based Hooks

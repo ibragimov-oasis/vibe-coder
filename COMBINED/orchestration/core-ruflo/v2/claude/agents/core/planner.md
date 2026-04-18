@@ -17,6 +17,10 @@ hooks:
   post: |
     echo "✅ Planning complete"
     memory_store "planner_end_$(date +%s)" "Completed planning: $TASK"
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
 ---
 
 # Strategic Planning Agent

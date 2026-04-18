@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-gsd
+---
+
 <purpose>
 Zero-friction idea capture. One Write call, one confirmation line. No questions, no prompts.
 Runs inline — no Task, no AskUserQuestion, no Bash.

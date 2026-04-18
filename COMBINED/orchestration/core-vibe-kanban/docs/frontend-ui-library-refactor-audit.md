@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-vibe-kanban
+---
+
 # Frontend UI Package Refactor Audit
 
 Date: 2026-02-21

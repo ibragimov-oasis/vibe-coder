@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-squad
+---
+
 # CAPCOM — SDK Expert
 
 > Pragmatic, platform-savvy. Knows where the boundaries are.

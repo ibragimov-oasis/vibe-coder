@@ -6,6 +6,9 @@ wave: null
 tags: [squad, migration, npm, distribution, github, public-repo, release]
 status: published
 hero: "Squad moves from private repo (bradygaster/squad-pr) to public (bradygaster/squad). New install path. Unified distribution. v0.5.4 → v0.8.18. Here's what changed and how to upgrade."
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-squad
 ---
 
 # The Migration: Private to Public, GitHub to npm

@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-deer-flow
+---
+
 # Agents Architecture
 
 ## Overview

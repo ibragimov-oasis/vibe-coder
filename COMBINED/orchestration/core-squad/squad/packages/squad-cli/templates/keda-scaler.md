@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-squad
+---
+
 # KEDA External Scaler for GitHub Issue-Driven Agent Autoscaling
 
 > Scale agent pods to zero when idle, up when work arrives — driven by GitHub Issues.

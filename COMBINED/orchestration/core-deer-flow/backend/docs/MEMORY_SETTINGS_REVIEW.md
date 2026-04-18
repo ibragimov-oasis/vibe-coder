@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-deer-flow
+---
+
 # Memory Settings Review
 
 Use this when reviewing the Memory Settings add/edit flow locally with the fewest possible manual steps.

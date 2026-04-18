@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-refly
+---
+
 # 私有部署
 
 ## 前置要求 {#prerequisites}

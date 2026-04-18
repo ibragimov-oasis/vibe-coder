@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # AgentDB Branch Merge Verification Report
 
 **Date**: 2025-11-12

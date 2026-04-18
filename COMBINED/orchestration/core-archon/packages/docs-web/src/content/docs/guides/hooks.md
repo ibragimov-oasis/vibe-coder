@@ -7,6 +7,10 @@ audience: [user]
 status: current
 sidebar:
   order: 5
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-archon
 ---
 
 DAG workflow nodes support a `hooks` field that attaches Claude Agent SDK hooks

@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # Event Store Persistence Implementation Summary
 
 **Implementation Date**: 2026-01-04

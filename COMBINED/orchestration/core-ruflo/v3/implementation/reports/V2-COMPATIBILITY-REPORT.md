@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # V2 Compatibility Validation Report
 
 > **Generated**: 2026-01-05T00:00:00.000Z

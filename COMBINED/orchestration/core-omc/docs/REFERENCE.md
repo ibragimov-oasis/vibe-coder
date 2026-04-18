@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-omc
+---
+
 # Reference Documentation
 
 Complete reference for oh-my-claudecode. For quick start, see the main [README.md](../README.md).

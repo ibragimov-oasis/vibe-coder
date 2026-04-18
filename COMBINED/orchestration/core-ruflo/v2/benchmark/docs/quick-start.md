@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # Quick Start Guide
 
 Get started with swarm benchmarking in 5 minutes!

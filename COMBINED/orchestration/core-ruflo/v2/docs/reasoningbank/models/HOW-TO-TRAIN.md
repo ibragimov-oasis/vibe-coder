@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # How to Train Your Own ReasoningBank Models
 
 This guide shows you how to create custom pre-trained ReasoningBank models with thousands of optimized patterns.

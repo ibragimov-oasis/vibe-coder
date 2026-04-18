@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # CLI Module Tests
 
 This directory contains comprehensive tests for the V3 CLI module using Vitest.
@@ -138,3 +145,9 @@ expect(output).toContain('Expected text');
 - Process exits are converted to exceptions
 - MCP client is fully isolated from actual MCP server
 - Tests use unique command names to avoid conflicts
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-ruflo]] — core-ruflo
+

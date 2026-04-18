@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-squad
+---
+
 # Next-Wave PRD: 4-Wave Execution Plan
 
 **Date:** 2026-02-24  

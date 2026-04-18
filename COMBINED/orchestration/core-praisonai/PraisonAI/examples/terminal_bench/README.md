@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-praisonai
+---
+
 # Terminal-Bench 2.0 Integration with PraisonAI
 
 This directory contains examples for integrating PraisonAI Agents with **Terminal-Bench 2.0** via the **Harbor framework** for AI agent benchmarking.
@@ -138,3 +145,9 @@ Each task provides:
 - [Harbor Framework Docs](https://www.harborframework.com/docs)
 - [Terminal-Bench Leaderboard](https://tbench.ai/leaderboard)
 - [Harbor GitHub Repo](https://github.com/laude-institute/harbor)
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-praisonai]] — core-praisonai
+

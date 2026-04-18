@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # Real Claude-Flow Benchmark Quick Start Guide
 
 ## Overview

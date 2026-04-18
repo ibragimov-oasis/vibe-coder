@@ -18,6 +18,10 @@ hooks:
   post: |
     echo "✅ Review complete"
     echo "📝 Review summary stored in memory"
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
 ---
 
 # Code Review Agent

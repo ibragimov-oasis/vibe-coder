@@ -71,6 +71,10 @@ hooks:
     fi
 
     memory_store "spec_complete_$(date +%s)" "Specification documented with learning"
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
 ---
 
 # SPARC Specification Agent

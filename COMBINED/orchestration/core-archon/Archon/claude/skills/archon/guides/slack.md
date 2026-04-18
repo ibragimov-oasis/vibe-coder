@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-archon
+---
+
 # Slack Bot Setup Guide
 
 Slack setup is more involved than other platforms. A detailed walkthrough is available in the main docs.

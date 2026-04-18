@@ -2,6 +2,10 @@
 sidebar_position: 5
 title: "Prompt Assembly"
 description: "How Hermes builds the system prompt, preserves cache stability, and injects ephemeral layers"
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-hermes
 ---
 
 # Prompt Assembly

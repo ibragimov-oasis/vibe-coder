@@ -6,6 +6,10 @@ part: orientation
 audience: [user]
 sidebar:
   order: 1
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-archon
 ---
 
 Archon makes your AI coding assistant predictable. Not by limiting it — by giving it a process to follow.

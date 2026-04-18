@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # ADR-033: RuVector + Ruflo MCP Tool Integration
 
 **Status:** Accepted

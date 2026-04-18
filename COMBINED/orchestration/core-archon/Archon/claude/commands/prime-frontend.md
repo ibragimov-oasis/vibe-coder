@@ -1,5 +1,9 @@
 ---
 description: Prime agent with Archon frontend (React/Web UI) context
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-archon
 ---
 
 # Prime Frontend: Web UI Orientation

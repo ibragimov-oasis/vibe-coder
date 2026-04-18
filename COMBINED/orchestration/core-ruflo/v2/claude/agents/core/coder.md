@@ -23,6 +23,10 @@ hooks:
     if [ -f "package.json" ]; then
       npm run lint --if-present
     fi
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
 ---
 
 # Code Implementation Agent

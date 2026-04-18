@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-archon
+---
+
 # Debug Cookbook
 
 Systematic root cause analysis using hypothesis testing and evidence chains. No guessing — every claim requires proof.

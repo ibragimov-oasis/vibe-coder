@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-multica
+---
+
 # Self-Hosting Guide
 
 Deploy Multica on your own infrastructure in minutes.
@@ -209,3 +216,9 @@ multica daemon start
 ## Advanced Configuration
 
 For environment variables, manual setup (without Docker), reverse proxy configuration, database setup, and more, see the [Advanced Configuration Guide](SELF_HOSTING_ADVANCED.md).
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-multica]] — core-multica
+

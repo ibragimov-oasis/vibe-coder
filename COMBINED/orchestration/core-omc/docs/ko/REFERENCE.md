@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-omc
+---
+
 # 레퍼런스 문서
 
 oh-my-claudecode의 전체 레퍼런스입니다. 빠른 시작은 메인 [README.md](../../README.md)를 참조하세요.

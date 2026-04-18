@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # 🚀 Release v2.6.0-alpha.2 - Agentic-Flow Integration & Security Enhancements
 
 **Release Date:** TBD (Pending Final Review)

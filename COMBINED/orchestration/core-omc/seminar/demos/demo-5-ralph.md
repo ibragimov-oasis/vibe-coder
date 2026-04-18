@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-omc
+---
+
 # Demo 5: Ralph - Persistence Until Complete
 
 **Duration:** 2 minutes

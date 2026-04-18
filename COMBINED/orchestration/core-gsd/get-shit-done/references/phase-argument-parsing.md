@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-gsd
+---
+
 # Phase Argument Parsing
 
 Parse and normalize phase arguments for commands that operate on phases.

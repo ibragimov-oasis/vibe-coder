@@ -6,6 +6,10 @@ part: customization
 audience: [user]
 sidebar:
   order: 7
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-archon
 ---
 
 In [Chapter 6](/book/first-command/) you built a `run-tests` command — a focused task the AI can execute on demand. A command is great for one thing. A workflow strings several commands together and runs them automatically, in order, without you having to supervise.

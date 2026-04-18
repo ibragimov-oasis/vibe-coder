@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # Final Validation Report - Agentic-Flow Integration v2.6.0-alpha.2
 
 **Date:** 2025-10-10

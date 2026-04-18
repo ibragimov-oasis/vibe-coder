@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-taskmaster
+---
+
 # Hamster (Go ham!) Run Task Workflow
 
 This command initiates the HAM (Hamster Automated Management) workflow for task execution.

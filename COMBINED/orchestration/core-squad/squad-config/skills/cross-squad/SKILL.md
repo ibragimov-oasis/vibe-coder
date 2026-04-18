@@ -11,6 +11,10 @@ tools:
   - name: "squad-delegate"
     description: "Create work in another squad's repository"
     when: "When a task belongs to another squad's domain"
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-squad
 ---
 
 ## Context

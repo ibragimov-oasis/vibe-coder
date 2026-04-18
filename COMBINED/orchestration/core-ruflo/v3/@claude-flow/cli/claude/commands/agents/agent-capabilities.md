@@ -2,6 +2,10 @@
 name: agent-capabilities
 description: Capability matrix for all agent types
 type: reference
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
 ---
 
 # Agent Capabilities Reference

@@ -5,6 +5,10 @@ category: getting-started
 audience: [user, operator]
 sidebar:
   order: 0
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-archon
 ---
 
 ## Quick Install

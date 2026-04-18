@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # swarm-strategies
 
 Command documentation for swarm-strategies in category swarm.

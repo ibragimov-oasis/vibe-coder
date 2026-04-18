@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-gsd
+---
+
 # Discovery Template
 
 Template for `.planning/phases/XX-name/DISCOVERY.md` - shallow research for library/option decisions.

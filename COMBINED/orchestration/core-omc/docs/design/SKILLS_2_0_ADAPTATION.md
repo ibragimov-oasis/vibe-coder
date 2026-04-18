@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-omc
+---
+
 # Skills 2.0 Adaptation for OMC (MVP)
 
 ## Context

@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-omc
+---
+
 # Verification Tiers
 
 Verification scales with task complexity to optimize cost while maintaining quality.

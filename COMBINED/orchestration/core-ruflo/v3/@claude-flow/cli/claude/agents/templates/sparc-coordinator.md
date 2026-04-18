@@ -93,6 +93,10 @@ hooks:
 
     memory_store "sparc_coord_complete_$(date +%s)" "SPARC methodology phases coordinated with learning ($SUCCESS_COUNT/$PHASE_COUNT successful)"
     echo "📊 Phase progress tracked in memory with learning metrics"
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
 ---
 
 # SPARC Methodology Orchestrator Agent

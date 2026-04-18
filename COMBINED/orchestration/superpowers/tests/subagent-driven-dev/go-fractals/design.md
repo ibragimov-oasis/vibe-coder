@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/superpowers
+---
+
 # Go Fractals CLI - Design
 
 ## Overview

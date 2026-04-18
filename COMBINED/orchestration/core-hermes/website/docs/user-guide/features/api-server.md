@@ -2,6 +2,10 @@
 sidebar_position: 14
 title: "API Server"
 description: "Expose hermes-agent as an OpenAI-compatible API for any frontend"
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-hermes
 ---
 
 # API Server

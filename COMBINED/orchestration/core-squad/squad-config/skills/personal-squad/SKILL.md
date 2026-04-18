@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-squad
+---
+
 # Personal Squad — Skill Document
 
 ## What is a Personal Squad?

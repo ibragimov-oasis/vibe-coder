@@ -4,6 +4,10 @@ description: Record final outcomes to history.md, not intermediate requests or r
 domain: documentation, team-collaboration
 confidence: high
 source: earned (Kobayashi v0.6.0 incident, team intervention)
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-squad
 ---
 
 ## Context

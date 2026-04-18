@@ -2,6 +2,10 @@
 sidebar_position: 10
 title: "Skins & Themes"
 description: "Customize the Hermes CLI with built-in and user-defined skins"
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-hermes
 ---
 
 # Skins & Themes

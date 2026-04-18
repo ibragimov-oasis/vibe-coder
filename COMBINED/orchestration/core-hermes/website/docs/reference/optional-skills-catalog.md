@@ -2,6 +2,10 @@
 sidebar_position: 6
 title: "Official Optional Skills Catalog"
 description: "Catalog of official optional skills available from the repository"
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-hermes
 ---
 
 # Official Optional Skills Catalog

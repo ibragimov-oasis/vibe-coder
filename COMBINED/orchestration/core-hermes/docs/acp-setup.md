@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-hermes
+---
+
 # Hermes Agent — ACP (Agent Client Protocol) Setup Guide
 
 Hermes Agent supports the **Agent Client Protocol (ACP)**, allowing it to run as

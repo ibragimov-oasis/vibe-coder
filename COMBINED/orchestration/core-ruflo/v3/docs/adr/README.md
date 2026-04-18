@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # Claude Flow V3 - Architecture Decision Records
 
 All ADRs are located in [`/v3/implementation/adrs/`](../../implementation/adrs/).
@@ -72,3 +79,9 @@ All ADRs are located in [`/v3/implementation/adrs/`](../../implementation/adrs/)
 
 **Last Updated:** 2026-01-14
 **CLI Version:** @claude-flow/cli@3.0.0-alpha.104
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-ruflo]] — core-ruflo
+

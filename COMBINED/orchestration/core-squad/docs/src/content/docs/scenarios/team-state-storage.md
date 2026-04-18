@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-squad
+---
+
 # Keeping Your Squad Where You Want It
 
 Your `.ai-team/` directory contains everything—team rosters, skills, decisions, agent histories. The question isn't whether to track it, but *how* and *where* to track it. Here are the real options, with honest tradeoffs.

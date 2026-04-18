@@ -3,6 +3,9 @@ name: timing
 description: Interpolation curves in Remotion - linear, easing, spring animations
 metadata:
   tags: spring, bounce, easing, interpolation
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-archon
 ---
 
 A simple linear interpolation is done using the `interpolate` function.

@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # Claude-Flow Performance Systems Status
 
 **Last Updated**: 2025-10-12

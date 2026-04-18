@@ -1,6 +1,10 @@
 ---
 description: Synthesize all review agent findings into consolidated report and post to GitHub
 argument-hint: (none - reads from review artifacts)
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-archon
 ---
 
 # Synthesize Review

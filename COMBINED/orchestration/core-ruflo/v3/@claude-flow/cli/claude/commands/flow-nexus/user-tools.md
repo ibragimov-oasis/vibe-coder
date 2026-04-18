@@ -1,6 +1,10 @@
 ---
 name: flow-nexus-user-tools
 description: User management, storage, and system utilities
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
 ---
 
 # Flow Nexus User Tools

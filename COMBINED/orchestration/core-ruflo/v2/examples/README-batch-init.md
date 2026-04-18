@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # Batch Initialization Examples
 
 This directory contains comprehensive examples demonstrating the powerful batch initialization features of Claude-Flow.

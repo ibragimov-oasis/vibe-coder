@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-refly
+---
+
 # PTC (Programmatic Tool Calling) — Reference
 
 ## Design Principle

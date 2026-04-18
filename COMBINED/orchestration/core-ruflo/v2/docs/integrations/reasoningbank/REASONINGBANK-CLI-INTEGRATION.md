@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # ReasoningBank CLI Integration Validation
 
 **Status**: ✅ **100% Complete and Working**

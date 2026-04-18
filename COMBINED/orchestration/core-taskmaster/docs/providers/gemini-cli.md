@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-taskmaster
+---
+
 # Gemini CLI Provider
 
 The Gemini CLI provider allows you to use Google's Gemini models through the Gemini CLI tool, leveraging your existing Gemini subscription and OAuth authentication.

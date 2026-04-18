@@ -4,6 +4,10 @@ about: Suggest new features to be added to chat-ui
 title: ""
 labels: enhancement
 assignees: ""
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
 ---
 
 ## Describe your feature request

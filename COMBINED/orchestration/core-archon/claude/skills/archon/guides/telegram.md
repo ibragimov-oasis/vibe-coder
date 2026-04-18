@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-archon
+---
+
 # Telegram Bot Setup Guide
 
 ## 1. Create a Bot via BotFather

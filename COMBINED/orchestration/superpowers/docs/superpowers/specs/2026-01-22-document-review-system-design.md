@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/superpowers
+---
+
 # Document Review System Design
 
 ## Overview

@@ -4,6 +4,10 @@ description: "Core conventions and patterns used in the Squad codebase"
 domain: "project-conventions"
 confidence: "high"
 source: "manual"
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-squad
 ---
 
 ## Context

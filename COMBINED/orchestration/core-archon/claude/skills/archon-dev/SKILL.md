@@ -27,6 +27,10 @@ description: |
   planning, building, reviewing, debugging, committing, or shipping code.
   NOT for: Running Archon CLI workflows in worktrees (use /archon instead).
 argument-hint: "[cookbook] [task description or issue number]"
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-archon
 ---
 
 # archon-dev

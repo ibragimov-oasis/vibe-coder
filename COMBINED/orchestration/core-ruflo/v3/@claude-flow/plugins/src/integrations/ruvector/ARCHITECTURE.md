@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # RuVector PostgreSQL Bridge Plugin Architecture
 
 ## Document Information

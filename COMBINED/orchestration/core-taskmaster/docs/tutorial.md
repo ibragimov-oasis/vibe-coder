@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-taskmaster
+---
+
 # Task Master Tutorial
 
 This tutorial will guide you through setting up and using Task Master for AI-driven development.

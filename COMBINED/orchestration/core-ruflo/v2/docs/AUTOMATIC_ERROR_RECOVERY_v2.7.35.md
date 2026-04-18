@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # Automatic Error Recovery Implementation - v2.7.35
 
 ## Summary

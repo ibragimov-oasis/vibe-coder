@@ -2,6 +2,10 @@
 sidebar_position: 3
 title: "Nix & NixOS Setup"
 description: "Install and deploy Hermes Agent with Nix — from quick `nix run` to fully declarative NixOS module with container mode"
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-hermes
 ---
 
 # Nix & NixOS Setup

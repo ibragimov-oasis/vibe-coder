@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-omc
+---
+
 # TypeScript Build Errors — 3 failures blocking CI
 
 ## Environment

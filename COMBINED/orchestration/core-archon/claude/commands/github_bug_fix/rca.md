@@ -1,6 +1,10 @@
 ---
 description: Analyze and document root cause for a GitHub issue
 argument-hint: "[github-issue-id]"
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-archon
 ---
 
 # Root Cause Analysis: GitHub Issue #$ARGUMENTS

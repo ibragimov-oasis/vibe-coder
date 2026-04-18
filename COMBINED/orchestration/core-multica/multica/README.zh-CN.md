@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-multica
+---
+
 <p align="center">
   <img src="docs/assets/banner.jpg" alt="Multica — 人类与 AI，并肩前行" width="100%">
 </p>

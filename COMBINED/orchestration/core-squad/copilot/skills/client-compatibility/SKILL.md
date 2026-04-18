@@ -4,6 +4,10 @@ description: "Platform detection and adaptive spawning for CLI vs VS Code vs oth
 domain: "orchestration"
 confidence: "high"
 source: "extracted"
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-squad
 ---
 
 ## Context

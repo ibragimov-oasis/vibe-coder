@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # SWE-Bench Official Implementation Complete
 
 ## ✅ Implementation Status

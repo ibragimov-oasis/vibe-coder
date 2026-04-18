@@ -7,6 +7,10 @@ audience: [developer]
 status: current
 sidebar:
   order: 2
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-archon
 ---
 
 This document explains the Archon directory structure and configuration system for developers contributing to or extending Archon.

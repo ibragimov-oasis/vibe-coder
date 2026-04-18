@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # Coordination Modes Guide
 
 This guide explains the 5 coordination modes available for agent swarm orchestration and when to use each one.

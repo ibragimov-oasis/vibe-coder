@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-praisonai
+---
+
 # Domain Context Solution
 
 This example demonstrates how to solve domain context issues in multi-agent systems using existing PraisonAI features.

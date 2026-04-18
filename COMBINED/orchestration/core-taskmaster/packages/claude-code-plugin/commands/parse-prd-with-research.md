@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-taskmaster
+---
+
 Parse PRD with enhanced research mode for better task generation.
 
 Arguments: $ARGUMENTS (PRD file path)

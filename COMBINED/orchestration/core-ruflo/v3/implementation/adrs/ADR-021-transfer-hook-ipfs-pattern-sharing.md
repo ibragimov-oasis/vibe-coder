@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # ADR-021: Transfer Hook - IPFS-Based Pattern Sharing System
 
 **Status:** Fully Implemented (Phase 1-5 Complete)

@@ -1,4 +1,8 @@
 ---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-squad
 ---
 
 ci: re-run PR readiness check after Squad CI completes

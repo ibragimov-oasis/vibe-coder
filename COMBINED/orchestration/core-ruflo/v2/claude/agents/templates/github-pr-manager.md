@@ -23,6 +23,10 @@ hooks:
     echo "✅ Pull request operations completed"
     memory_store "pr_activity_$(date +%s)" "Pull request lifecycle management executed"
     echo "🎯 All CI/CD checks and reviews coordinated"
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
 ---
 
 # Pull Request Manager Agent

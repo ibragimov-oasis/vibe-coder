@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-omc
+---
+
 # Speaker Notes: oh-my-claudecode Seminar
 
 ## Time Allocation (60 minutes total)

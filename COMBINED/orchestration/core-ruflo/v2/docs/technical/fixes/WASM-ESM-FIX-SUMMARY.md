@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # ReasoningBank WASM Integration - COMPLETE ✅
 
 **Status:** Production-Ready  

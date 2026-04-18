@@ -1,5 +1,9 @@
 ---
 description: PR review chain — how automated reviews flow for every PR
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-praisonai
 ---
 
 ## Review Chain (Sequential)

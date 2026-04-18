@@ -4,6 +4,10 @@ about: Give us specific feedback on the product/approach/tech
 title: 'feedback: '
 labels: feedback
 assignees: ''
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-taskmaster
 ---
 
 ### Feedback Summary

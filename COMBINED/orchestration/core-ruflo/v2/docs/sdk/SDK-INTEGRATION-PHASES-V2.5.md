@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # Claude-Flow v2.5.0-alpha.130 - SDK Integration Phases
 ## Updated Implementation Plan with Critical & High Priority Features
 

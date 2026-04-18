@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-gsd
+---
+
 # GSD Agent Reference
 
 > All 18 specialized agents — roles, tools, spawn patterns, and relationships. For architecture context, see [Architecture](ARCHITECTURE.md).

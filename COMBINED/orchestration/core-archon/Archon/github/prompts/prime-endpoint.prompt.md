@@ -8,6 +8,10 @@ tools:
   - fileSearch
   - listDirectory
   - usages
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-archon
 ---
 
 # Prime Endpoint: How to Build New Endpoints

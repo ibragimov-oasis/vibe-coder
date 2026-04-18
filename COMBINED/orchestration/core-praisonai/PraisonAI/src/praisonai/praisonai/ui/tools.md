@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-praisonai
+---
+
 # Understanding Tool Integration in AI Agents - A Beginner's Guide
 
 ## Overview

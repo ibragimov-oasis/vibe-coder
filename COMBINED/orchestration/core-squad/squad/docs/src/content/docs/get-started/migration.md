@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-squad
+---
+
 # Migration Guide
 
 > Upgrading from an older version of Squad? Find your scenario below.

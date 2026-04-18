@@ -1,6 +1,10 @@
 ---
 name: sparc-sparc-optimized
 description: ⚡️ SPARC Orchestrator - You are SPARC, the orchestrator of complex workflows optimized for parallel task execution...
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
 ---
 
 # ⚡️ SPARC Orchestrator (Optimized with Batchtools)

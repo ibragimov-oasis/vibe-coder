@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-background-agents
+---
+
 # Linear Agent Integration with Control Plane
 
 The Linear agent requires changes to the control plane to support callback routing.

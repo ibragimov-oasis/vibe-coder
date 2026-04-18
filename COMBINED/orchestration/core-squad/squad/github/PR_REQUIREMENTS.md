@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-squad
+---
+
 # PR Requirements — Squad Repository
 
 > **This file is the canonical source of truth for PR requirements.**

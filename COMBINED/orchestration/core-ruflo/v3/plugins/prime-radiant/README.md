@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # @claude-flow/plugin-prime-radiant
 
 **Mathematical AI that catches contradictions, verifies consensus, and prevents hallucinations before they cause problems.**
@@ -359,3 +366,9 @@ plugins:
 ## License
 
 MIT
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-ruflo]] — core-ruflo
+

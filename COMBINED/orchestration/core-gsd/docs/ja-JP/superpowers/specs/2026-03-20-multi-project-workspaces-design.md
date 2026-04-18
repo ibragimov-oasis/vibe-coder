@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-gsd
+---
+
 # マルチプロジェクトワークスペース (`/gsd:new-workspace`)
 
 **Issue:** #1241

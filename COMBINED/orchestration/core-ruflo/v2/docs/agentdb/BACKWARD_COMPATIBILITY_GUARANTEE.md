@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # 🛡️ Backward Compatibility Guarantee - AgentDB v1.3.9 Integration
 
 ## ✅ 100% Backward Compatibility Confirmed

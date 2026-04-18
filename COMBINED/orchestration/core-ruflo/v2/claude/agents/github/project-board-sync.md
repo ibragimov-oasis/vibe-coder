@@ -34,6 +34,10 @@ hooks:
     - "gh issue list --limit 3 --json number,title,state"
     - "git branch --show-current || echo 'Not on a branch'"
     - "gh repo view --json name,description"
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
 ---
 
 # Project Board Sync - GitHub Projects Integration

@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-gsd
+---
+
 # GSD 명령어 레퍼런스
 
 > 전체 명령어 문법, 플래그, 옵션, 사용 예시를 다룹니다. 기능 상세 설명은 [Feature Reference](FEATURES.md)를 참고하세요. 워크플로우 안내는 [User Guide](USER-GUIDE.md)를 참고하세요.

@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-squad
+---
+
 # Plugin Marketplace
 
 Plugins are curated agent templates, skills, instructions, and prompts shared by the community via GitHub repositories (e.g., `github/awesome-copilot`, `anthropics/skills`). They provide ready-made expertise for common domains — cloud platforms, frameworks, testing strategies, etc.

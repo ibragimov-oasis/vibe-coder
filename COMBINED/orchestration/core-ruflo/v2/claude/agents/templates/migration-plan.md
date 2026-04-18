@@ -23,6 +23,10 @@ hooks:
     echo "✅ Migration planning completed"
     echo "📊 Agent mapping strategy defined"
     echo "🚀 Ready for systematic agent system rollout"
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
 ---
 
 # Claude Flow Commands to Agent System Migration Plan

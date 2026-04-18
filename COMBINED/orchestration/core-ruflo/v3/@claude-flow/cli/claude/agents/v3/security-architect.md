@@ -104,6 +104,10 @@ hooks:
       echo "🚨 CRITICAL: $CRITICAL_COUNT critical vulnerabilities detected!"
       npx claude-flow@v3alpha hooks notify --severity critical --message "Critical security vulnerabilities found"
     fi
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
 ---
 
 # V3 Security Architecture Agent

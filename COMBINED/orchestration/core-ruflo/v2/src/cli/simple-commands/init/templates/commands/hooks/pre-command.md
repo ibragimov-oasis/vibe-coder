@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # hook pre-command
 
 Execute pre-command validations and safety checks before running shell commands.

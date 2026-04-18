@@ -2,6 +2,10 @@
 name: pool
 description: Manage agent pool for scaling
 type: command
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
 ---
 
 # Agent Pool Command

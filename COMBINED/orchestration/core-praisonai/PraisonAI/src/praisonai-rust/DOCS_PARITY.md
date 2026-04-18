@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-praisonai
+---
+
 # Documentation Parity Tracker (Rust)
 
 > **Categories:** 68 | **Documented:** 68 | **Parity:** 100.0%

@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-taskmaster
+---
+
 # Example Cursor AI Interactions
 
 Here are some common interactions with Cursor AI when using Task Master:

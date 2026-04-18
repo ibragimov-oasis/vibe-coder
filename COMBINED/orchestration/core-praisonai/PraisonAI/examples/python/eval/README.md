@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-praisonai
+---
+
 # EvaluationLoop Examples
 
 Examples demonstrating iterative evaluation and improvement patterns.
@@ -41,3 +48,9 @@ python multi_step_task_loop.py
 # CLI recipe loop
 python recipe_optimization_loop.py "research AI trends"
 ```
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-praisonai]] — core-praisonai
+

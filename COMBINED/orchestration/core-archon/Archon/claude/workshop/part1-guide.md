@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-archon
+---
+
 # Claude Code Latest Features Workshop Guide
 
 **Host**: Thomas | **Date**: March 7, 2026

@@ -16,6 +16,9 @@ key-decisions:
   - "Decision 1"
 duration: Xmin
 completed: YYYY-MM-DD
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-gsd
 ---
 
 # Phase [X]: [Name] Summary

@@ -1,6 +1,10 @@
 ---
 name: "ReasoningBank Intelligence"
 description: "Implement adaptive learning with ReasoningBank for pattern recognition, strategy optimization, and continuous improvement. Use when building self-learning agents, optimizing workflows, or implementing meta-cognitive systems."
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
 ---
 
 # ReasoningBank Intelligence

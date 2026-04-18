@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-refly
+---
+
 # FAQ: Accessing via IP address
 
 If you are deploying Refly on a cloud server and accessing it via `http://<Public IP>:5700`, you might encounter issues with redirection after login. This is caused by mismatched Cookie domain configurations.

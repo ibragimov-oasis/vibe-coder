@@ -2,6 +2,10 @@
 sidebar_position: 9
 title: "Git Worktrees"
 description: "Run multiple Hermes agents safely on the same repository using git worktrees and isolated checkouts"
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-hermes
 ---
 
 # Git Worktrees

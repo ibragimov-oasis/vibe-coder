@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-gsd
+---
+
 # Requirements Template
 
 Template for `.planning/REQUIREMENTS.md` — checkable requirements that define "done."

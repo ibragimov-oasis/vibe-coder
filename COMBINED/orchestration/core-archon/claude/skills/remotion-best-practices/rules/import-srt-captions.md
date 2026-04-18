@@ -3,6 +3,9 @@ name: import-srt-captions
 description: Importing .srt subtitle files into Remotion using @remotion/captions
 metadata:
   tags: captions, subtitles, srt, import, parse
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-archon
 ---
 
 # Importing .srt subtitles into Remotion

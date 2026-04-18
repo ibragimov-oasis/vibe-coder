@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-taskmaster
+---
+
 <rpg-method>
 # Repository Planning Graph (RPG) Method - PRD Template
 

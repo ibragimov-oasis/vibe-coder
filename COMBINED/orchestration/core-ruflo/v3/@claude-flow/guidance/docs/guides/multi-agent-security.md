@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # Multi-Agent Security Guide
 
 When multiple agents share memory and tools, new threat vectors emerge: prompt injection through shared context, collusion between agents, memory poisoning, and privilege escalation. This guide covers the modules that defend against these threats.

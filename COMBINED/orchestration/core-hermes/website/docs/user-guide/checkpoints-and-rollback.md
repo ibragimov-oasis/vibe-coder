@@ -2,6 +2,10 @@
 sidebar_position: 8
 title: "Checkpoints and /rollback"
 description: "Filesystem safety nets for destructive operations using shadow git repos and automatic snapshots"
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-hermes
 ---
 
 # Checkpoints and `/rollback`

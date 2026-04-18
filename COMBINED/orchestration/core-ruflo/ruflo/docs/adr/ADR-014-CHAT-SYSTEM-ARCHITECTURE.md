@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # ADR-014: Conveyor AI Chat System Architecture
 
 **Status:** Implemented

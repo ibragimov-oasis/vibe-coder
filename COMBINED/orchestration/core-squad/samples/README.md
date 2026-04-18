@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-squad
+---
+
 # Squad SDK Samples
 
 Learn the Squad SDK by example. Each sample is a complete, working application demonstrating core patterns: agent casting, session management, streaming responses, governance, cost tracking, and real-time collaboration. Start with the beginner samples, then explore intermediate patterns, and finally the advanced showcase.
@@ -83,4 +90,9 @@ See each sample's `README.md` for detailed setup, expected output, and customiza
 ## Questions?
 
 Open an issue or check the [Squad SDK documentation](../../README.md).
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-squad]] — core-squad
 

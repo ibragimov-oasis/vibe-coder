@@ -1,5 +1,9 @@
 ---
 "@bradygaster/squad-cli": minor
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-squad
 ---
 
 Add `squad upgrade --self` to upgrade the CLI package itself (#798)

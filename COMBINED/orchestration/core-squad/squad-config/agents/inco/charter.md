@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-squad
+---
+
 # INCO — CLI UX & Visual Design
 
 > Visual-first, interaction-obsessed. Design rationale over decoration.

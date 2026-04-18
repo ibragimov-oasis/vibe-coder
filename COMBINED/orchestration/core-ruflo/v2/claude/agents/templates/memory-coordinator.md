@@ -25,6 +25,10 @@ hooks:
     echo "🔄 Cross-session persistence enabled"
     # Log memory operation summary
     echo "📋 Memory coordination session summary stored"
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
 ---
 
 # Memory Coordination Specialist Agent

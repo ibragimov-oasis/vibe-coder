@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-omc
+---
+
 # API Layer Refactor Plan
 **Version:** 2.1
 **Owner:** Backend Platform Team

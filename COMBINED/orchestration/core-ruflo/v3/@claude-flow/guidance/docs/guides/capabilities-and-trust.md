@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # Capabilities and Trust Guide
 
 This guide covers three related modules that control what agents can do and how much latitude they earn over time:

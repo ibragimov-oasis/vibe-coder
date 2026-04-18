@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # ADR-018: Claude Code Deep Integration Architecture
 
 **Status:** Accepted

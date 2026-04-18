@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # Swarm-Created Applications
 
 This directory contains complete applications created by the Claude Flow swarm system, demonstrating the quality and completeness of swarm-generated code.
@@ -90,3 +97,9 @@ These aren't templates or boilerplate - each application was:
 5. **Documented** for easy understanding
 
 The swarm system demonstrates it can create production-ready applications that developers would be proud to ship.
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-ruflo]] — core-ruflo
+

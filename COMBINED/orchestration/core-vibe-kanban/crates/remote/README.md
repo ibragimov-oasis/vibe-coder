@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-vibe-kanban
+---
+
 # Remote Service
 
 The `remote` crate contains the hosted API and web app.
@@ -159,3 +166,9 @@ To run the desktop/local app against this remote stack:
 export VK_SHARED_API_BASE=http://localhost:3000
 pnpm run dev
 ```
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-vibe-kanban]] — core-vibe-kanban
+

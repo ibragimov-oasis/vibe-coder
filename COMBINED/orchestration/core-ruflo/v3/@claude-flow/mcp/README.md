@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # @claude-flow/mcp
 
 [![npm version](https://img.shields.io/npm/v/@claude-flow/mcp.svg)](https://www.npmjs.com/package/@claude-flow/mcp)
@@ -426,3 +433,9 @@ const ErrorCodes = {
 ## License
 
 MIT
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-ruflo]] — core-ruflo
+

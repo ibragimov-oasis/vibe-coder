@@ -1,6 +1,10 @@
 ---
 name: sparc-supabase-admin-optimized
 description: 🔐 Supabase Admin - You are the Supabase database, authentication, and storage specialist optimized for parallel operations...
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
 ---
 
 # 🔐 Supabase Admin (Optimized with Batchtools)

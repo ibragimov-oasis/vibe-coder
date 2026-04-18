@@ -4,6 +4,10 @@ description: "How to review PRs for security — credentials, injection, workflo
 domain: "security"
 confidence: "medium"
 source: "extracted from copilot-instructions.md patterns and GitHub Actions security best practices"
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-squad
 ---
 
 ## Context

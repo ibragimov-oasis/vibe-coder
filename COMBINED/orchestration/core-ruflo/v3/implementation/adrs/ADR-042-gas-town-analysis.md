@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # ADR-042: Gas Town & Beads Analysis - Lessons for Claude Flow V3
 
 ## Status

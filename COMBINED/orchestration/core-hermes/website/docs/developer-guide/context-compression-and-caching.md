@@ -2,6 +2,10 @@
 sidebar_position: 6
 title: "Context Compression & Prompt Caching"
 description: "How Hermes compresses long conversations and applies provider-side prompt caching"
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-hermes
 ---
 
 # Context Compression & Prompt Caching

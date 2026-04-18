@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-praisonai
+---
+
 # CSV Processing with PraisonAI Agents
 
 This document answers GitHub Issue #23: "How to pass in a CSV file" and provides multiple solutions for processing CSV files with PraisonAI agents.

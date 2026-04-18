@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-gsd
+---
+
 # Roadmap Template
 
 Template for `.planning/ROADMAP.md`.

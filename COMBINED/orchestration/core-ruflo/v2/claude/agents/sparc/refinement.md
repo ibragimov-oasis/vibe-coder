@@ -22,6 +22,10 @@ hooks:
     # Run final test suite
     npm test || echo "Tests need attention"
     memory_store "refine_complete_$(date +%s)" "Code refined and tested"
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
 ---
 
 # SPARC Refinement Agent

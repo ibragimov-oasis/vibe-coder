@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-praisonai
+---
+
 # AI Code Editor Smoke Test Verification Ledger
 
 **Date**: January 2026  

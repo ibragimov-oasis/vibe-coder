@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-taskmaster
+---
+
 Enhanced status command with comprehensive project insights.
 
 Arguments: $ARGUMENTS

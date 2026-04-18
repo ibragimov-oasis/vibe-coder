@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-omc
+---
+
 # Rules Templates
 
 This directory contains rule templates that you can copy to your project's `.claude/rules/` directory.
@@ -39,3 +46,9 @@ cp templates/rules/testing.md .claude/rules/
 ## Customization
 
 Each template has `[CUSTOMIZE]` markers where you should add project-specific guidelines.
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-omc]] — core-omc
+

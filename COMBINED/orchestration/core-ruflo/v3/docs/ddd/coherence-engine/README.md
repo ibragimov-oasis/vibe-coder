@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # Coherence Engine Domain
 
 ## Overview
@@ -309,3 +316,9 @@ All Coherence Engine data is stored under the `pr/` namespace prefix:
 - [Integration Points](./integration-points.md)
 - [ADR-006: Unified Memory Service](../../implementation/adrs/ADR-006-UNIFIED-MEMORY.md)
 - [ADR-022: AIDefence Integration](../../implementation/adrs/ADR-022-aidefence-integration.md)
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-ruflo]] — core-ruflo
+

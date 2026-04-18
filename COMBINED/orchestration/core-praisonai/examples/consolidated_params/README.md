@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-praisonai
+---
+
 # Consolidated Params Examples
 
 Examples demonstrating the **Agent-Centric API** with consolidated parameters.
@@ -94,3 +101,9 @@ export OPENAI_API_KEY=your_key_here
 # Run any example
 python basic_agent.py
 ```
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-praisonai]] — core-praisonai
+

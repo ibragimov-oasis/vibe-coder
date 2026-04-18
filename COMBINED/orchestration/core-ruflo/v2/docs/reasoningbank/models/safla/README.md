@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # SAFLA (Self-Aware Feedback Loop Algorithm) Model
 
 ## Overview
@@ -455,3 +462,9 @@ This model is part of the Claude Flow project and follows the same license terms
 **Total Patterns**: 2,000
 **Database Version**: 1.0.0
 **Embedding Dimensions**: 1,024
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-ruflo]] — core-ruflo
+

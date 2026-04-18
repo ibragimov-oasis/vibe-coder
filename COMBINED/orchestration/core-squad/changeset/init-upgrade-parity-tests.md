@@ -1,4 +1,8 @@
 ---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-squad
 ---
 
 test: add init/upgrade/doctor parity test suite

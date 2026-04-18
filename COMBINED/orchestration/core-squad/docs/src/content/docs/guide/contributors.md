@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-squad
+---
+
 # Squad Contributors Guide
 
 Thank you to every contributor who has helped make Squad better. This page honors everyone who has submitted code, filed issues, started discussions, and shared ideas that have shaped this project. This page is updated with every release.

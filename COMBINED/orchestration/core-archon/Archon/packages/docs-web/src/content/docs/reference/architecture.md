@@ -6,6 +6,10 @@ audience: [developer]
 status: current
 sidebar:
   order: 1
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-archon
 ---
 
 Comprehensive guide to understanding and extending Archon.

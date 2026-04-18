@@ -5,6 +5,10 @@ category: reference
 audience: [user, operator]
 sidebar:
   order: 8
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-archon
 ---
 
 This page covers Archon's security model: how AI permissions work, how platform access is controlled, how webhooks are verified, and what data is and is not logged.

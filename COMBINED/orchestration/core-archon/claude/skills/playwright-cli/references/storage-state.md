@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-archon
+---
+
 # Storage Management
 
 Manage cookies, localStorage, sessionStorage, and browser storage state.

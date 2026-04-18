@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # Architecture Overview
 
 ## Starting Point: CLAUDE.md as Memory

@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-squad
+---
+
 # Mission Control — squad-sdk
 
 > The programmable multi-agent runtime for GitHub Copilot.

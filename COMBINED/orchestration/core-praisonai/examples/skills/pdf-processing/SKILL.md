@@ -6,6 +6,10 @@ compatibility: Works with PraisonAI Agents
 metadata:
   author: praisonai
   version: "1.0"
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-praisonai
 ---
 
 # PDF Processing Skill

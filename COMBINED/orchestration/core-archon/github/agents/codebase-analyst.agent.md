@@ -8,6 +8,10 @@ tools:
   - textSearch
   - fileSearch
   - usages
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-archon
 ---
 
 # Codebase Analyst

@@ -1,5 +1,9 @@
 ---
 "@bradygaster/squad-cli": patch
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-squad
 ---
 
 fix(nap): account for separator newlines in decision archival budget

@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-background-agents
+---
+
 # ADR 0002: Shared Session Contracts and Correlation Boundary Rules
 
 ## Status

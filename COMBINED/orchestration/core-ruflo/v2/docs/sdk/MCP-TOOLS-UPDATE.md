@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # MCP Tools Update - SDK Integration
 
 **Date**: 2025-10-01

@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # ADR-059: Bug Triage & Priority Matrix — March 2026
 
 **Status:** Accepted — Fixes Verified

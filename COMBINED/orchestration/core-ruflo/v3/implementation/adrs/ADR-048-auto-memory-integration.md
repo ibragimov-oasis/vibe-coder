@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # ADR-048: Claude Code Auto Memory Integration
 
 **Status:** Implemented

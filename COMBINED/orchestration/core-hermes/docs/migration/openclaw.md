@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-hermes
+---
+
 # Migrating from OpenClaw to Hermes Agent
 
 This guide covers how to import your OpenClaw settings, memories, skills, and API keys into Hermes Agent.

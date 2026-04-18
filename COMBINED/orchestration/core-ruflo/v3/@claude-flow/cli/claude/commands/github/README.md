@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # Github Commands
 
 Commands for github operations in Claude Flow.
@@ -9,3 +16,9 @@ Commands for github operations in Claude Flow.
 - [pr-enhance](./pr-enhance.md)
 - [issue-triage](./issue-triage.md)
 - [code-review](./code-review.md)
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-ruflo]] — core-ruflo
+

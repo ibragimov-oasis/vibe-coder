@@ -6,6 +6,10 @@ area: config
 audience: [user, operator]
 sidebar:
   order: 3
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-archon
 ---
 
 ## Environment Variables

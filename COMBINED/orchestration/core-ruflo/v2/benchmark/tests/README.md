@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # Benchmark Test Suite
 
 Comprehensive test suite for the Claude Flow benchmark enhancement project, providing thorough validation of all new functionality including MLE-STAR integration, automation systems, advanced metrics, collective intelligence, and CLAUDE.md optimization.
@@ -306,3 +313,9 @@ For test-related issues:
 ---
 
 This test suite ensures the benchmark enhancement project meets the highest quality standards with comprehensive validation, performance monitoring, and continuous integration.
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-ruflo]] — core-ruflo
+

@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-cc-connect
+---
+
 # QQ Bot 官方平台接入指南 / QQ Bot Official Platform Setup Guide
 
 cc-connect 通过 [QQ 官方机器人 API v2](https://bot.q.qq.com/wiki/) 连接 QQ，无需第三方适配器，无需公网 IP。

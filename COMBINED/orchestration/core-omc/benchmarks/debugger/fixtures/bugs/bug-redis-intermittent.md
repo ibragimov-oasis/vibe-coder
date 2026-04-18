@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-omc
+---
+
 # Bug Report: Intermittent Redis ECONNREFUSED after deployments
 
 ## Environment

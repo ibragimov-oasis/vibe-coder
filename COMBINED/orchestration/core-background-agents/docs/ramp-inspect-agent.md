@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-background-agents
+---
+
 We built our own background coding agent: Inspect. Inspect writes the code like any other coding
 agent, but closes the loop on verifying its work by having all the context and tools needed to prove
 it, as a Ramp engineer would.

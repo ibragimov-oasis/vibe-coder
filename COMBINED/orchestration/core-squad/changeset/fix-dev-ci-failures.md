@@ -1,5 +1,9 @@
 ---
 "@bradygaster/squad-cli": patch
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-squad
 ---
 
 fix: restore CI green on dev — 25 regression fixes + 6 test corrections

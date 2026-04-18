@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # ADR-027 Supplement: @openai/codex Package Deep Analysis
 
 ## Package Overview

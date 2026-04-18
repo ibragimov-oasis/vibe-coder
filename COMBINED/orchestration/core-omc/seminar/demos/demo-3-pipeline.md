@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-omc
+---
+
 # Demo 3: Pipeline - Sequential Agent Chaining
 
 **Duration:** 3 minutes

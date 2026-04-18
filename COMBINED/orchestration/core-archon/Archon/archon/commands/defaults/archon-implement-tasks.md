@@ -1,6 +1,10 @@
 ---
 description: Execute plan tasks with type-checking after each change
 argument-hint: (no arguments - reads from workflow artifacts)
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-archon
 ---
 
 # Implement Tasks

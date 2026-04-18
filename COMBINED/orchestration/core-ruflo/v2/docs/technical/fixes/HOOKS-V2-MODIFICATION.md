@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # PreToolUse Modification Hooks (v2.0.10+)
 
 ## ✅ Implementation Complete

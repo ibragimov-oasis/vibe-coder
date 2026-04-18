@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # Deep Code Review - Claude Flow v2.7.33
 
 **Review Date**: 2025-11-12

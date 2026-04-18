@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # ADR-038: Multi-Agent Neural Coordination Plugin
 
 **Status:** Proposed

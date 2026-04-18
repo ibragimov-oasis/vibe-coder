@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # CLI Reference Guide
 
 Complete command-line interface documentation for the swarm benchmarking tool.

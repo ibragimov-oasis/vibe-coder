@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-archon
+---
+
 # Commit Cookbook
 
 Analyze changes and create well-structured commits. Supports natural language file targeting. Acts on git directly — no artifact file.

@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/superpowers
+---
+
 # Go Fractals CLI - Implementation Plan
 
 Execute this plan using the `superpowers:subagent-driven-development` skill.

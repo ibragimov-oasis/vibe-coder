@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-taskmaster
+---
+
 # @task-master/tm-core
 
 Core library for Task Master AI - providing task management and orchestration capabilities with TypeScript support.
@@ -224,3 +231,9 @@ MIT - See the main project's LICENSE file for details.
 ## Support
 
 For questions and support, please refer to the main Task Master AI documentation.
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-taskmaster]] — core-taskmaster
+

@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # Changelog
 
 All notable changes to the Ruflo project (formerly Claude Flow) are documented here.
@@ -233,3 +240,9 @@ This release marks the official rebranding from **Claude Flow** to **Ruflo** and
 | Guidance Control Plane | v3.0.0-alpha.100 | 2026-01 | WASM policy kernel, ContinueGate |
 | AgentDB v3 | v3.1.0-alpha.55 | 2026-02 | 8 controllers, MutationGuard |
 | **Ruflo v3.5** | **v3.5.0** | **2026-02-27** | **First stable release, rebranding** |
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-ruflo]] — core-ruflo
+

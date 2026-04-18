@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-squad
+---
+
 # Cooperative Rate Limiting for Multi-Agent Deployments
 
 > Coordinate API quota across multiple Ralph instances to prevent cascading failures.

@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-squad
+---
+
 # TEST-SCRIPT.md — Cost-Aware Router Live Demo
 
 Use this script for the **MVP Summit** live walkthrough.

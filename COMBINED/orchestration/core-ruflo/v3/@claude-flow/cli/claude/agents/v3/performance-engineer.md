@@ -111,6 +111,10 @@ hooks:
     echo "  - Recommendations stored in memory"
     echo "  - Optimization patterns learned via SONA"
     echo "======================================"
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
 ---
 
 # V3 Performance Engineer Agent

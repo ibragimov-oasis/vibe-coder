@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # Claude Flow V3 Helper System
 
 The V3 Helper System provides cross-platform automation and development tools for claude-flow v3 users. These helpers enable automatic progress tracking, checkpointing, GitHub integration, and development workflow automation.
@@ -251,3 +258,9 @@ export PATH="$PATH:$(pwd)/.claude/helpers"
 ---
 
 *Claude Flow V3 Helper System - Enabling cross-platform development automation*
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-ruflo]] — core-ruflo
+

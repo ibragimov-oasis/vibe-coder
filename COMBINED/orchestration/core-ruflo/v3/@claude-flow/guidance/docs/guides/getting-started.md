@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # Getting Started with @claude-flow/guidance
 
 ## Background: How Claude Code Uses Memory Files

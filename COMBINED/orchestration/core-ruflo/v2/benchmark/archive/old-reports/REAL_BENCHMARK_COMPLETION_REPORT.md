@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # Real Benchmark Implementation - Completion Report
 
 ## 🎯 Mission Accomplished

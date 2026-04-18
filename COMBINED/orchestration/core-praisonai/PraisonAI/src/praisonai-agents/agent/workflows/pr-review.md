@@ -1,5 +1,9 @@
 ---
 description: Review, validate, and merge GitHub pull requests or triage issues
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-praisonai
 ---
 
 # PR / Issue Review Workflow

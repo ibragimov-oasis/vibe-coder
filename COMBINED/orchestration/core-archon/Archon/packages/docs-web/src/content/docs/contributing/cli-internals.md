@@ -7,6 +7,10 @@ audience: [developer]
 status: current
 sidebar:
   order: 2
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-archon
 ---
 
 Technical reference for understanding CLI internals.

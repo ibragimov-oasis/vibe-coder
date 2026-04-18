@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-omc
+---
+
 # CJK IME Input Known Issues
 
 This document describes known issues with CJK (Chinese, Japanese, Korean) IME input in Claude Code CLI and provides workarounds for affected users.

@@ -2,6 +2,10 @@
 sidebar_position: 4
 title: "Using Hermes as a Python Library"
 description: "Embed AIAgent in your own Python scripts, web apps, or automation pipelines — no CLI required"
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-hermes
 ---
 
 # Using Hermes as a Python Library

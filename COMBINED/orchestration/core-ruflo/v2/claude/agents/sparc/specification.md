@@ -19,6 +19,10 @@ hooks:
   post: |
     echo "✅ Specification phase complete"
     memory_store "spec_complete_$(date +%s)" "Specification documented"
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
 ---
 
 # SPARC Specification Agent

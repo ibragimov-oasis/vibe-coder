@@ -1,5 +1,9 @@
 ---
 description: Write a session handoff document for the next agent or session
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-archon
 ---
 
 # Handoff: Capture Session State for Continuation

@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-praisonai
+---
+
 # Policy Packs Example
 
 This example demonstrates how to use PraisonAI policy packs for managing tool permissions, data policies, and execution modes.
@@ -78,3 +85,9 @@ modes:
 # Run with policy file
 praisonai recipe run my-recipe --policy my-policy.yaml --mode prod
 ```
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-praisonai]] — core-praisonai
+

@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-omc
+---
+
 # 아키텍처
 
 > oh-my-claudecode가 멀티 에이전트 워크플로우를 오케스트레이션하는 방법.

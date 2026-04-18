@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-deer-flow
+---
+
 # Copilot Onboarding Instructions for DeerFlow
 
 Use this file as the default operating guide for this repository. Follow it first, and only search the codebase when this file is incomplete or incorrect.

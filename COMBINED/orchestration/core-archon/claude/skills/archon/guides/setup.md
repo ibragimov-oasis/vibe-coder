@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-archon
+---
+
 # Archon Setup Wizard
 
 Interactive setup guide. Follow these steps in order, using AskUserQuestion to gather input.

@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-taskmaster
+---
+
 # Codex CLI Provider Usage Examples
 
 This guide provides practical examples of using Task Master with the Codex CLI provider.

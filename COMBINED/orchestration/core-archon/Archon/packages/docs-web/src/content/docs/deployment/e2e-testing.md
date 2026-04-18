@@ -7,6 +7,10 @@ audience: [developer, operator]
 status: current
 sidebar:
   order: 5
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-archon
 ---
 
 Archon uses [agent-browser](https://github.com/vercel-labs/agent-browser) (by Vercel Labs) for end-to-end browser testing in workflows like `archon-validate-pr`. It is an **optional** external dependency — core Archon functionality works without it.

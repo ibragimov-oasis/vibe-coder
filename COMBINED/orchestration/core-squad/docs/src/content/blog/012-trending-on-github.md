@@ -6,6 +6,9 @@ wave: null
 tags: [squad, community, milestone, trending]
 status: published
 hero: "Squad hit #9 on GitHub Trending Developers today, February 19. Started February 7. 12 days from launch to GitHub's top trending."
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-squad
 ---
 
 # #9 on GitHub Trending Developers

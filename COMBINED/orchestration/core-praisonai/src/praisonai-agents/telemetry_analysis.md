@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-praisonai
+---
+
 # Telemetry Analysis: Why PostHog Events Aren't Being Sent by Default
 
 ## Executive Summary

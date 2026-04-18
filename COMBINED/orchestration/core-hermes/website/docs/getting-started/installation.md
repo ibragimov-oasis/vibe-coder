@@ -2,6 +2,10 @@
 sidebar_position: 2
 title: "Installation"
 description: "Install Hermes Agent on Linux, macOS, or WSL2"
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-hermes
 ---
 
 # Installation

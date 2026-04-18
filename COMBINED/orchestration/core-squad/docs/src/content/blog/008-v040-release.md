@@ -6,6 +6,9 @@ wave: 6
 tags: [squad, release, v0.4.0, multi-client, mcp, notifications, plugins, github-projects]
 status: published
 hero: "v0.4.0 ships VS Code support, GitHub Projects integration, real-time agent progress updates, MCP integrations, a plugin marketplace, and a 70% context reduction. Squad is no longer CLI-only."
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-squad
 ---
 
 # v0.4.0: Squad Works Everywhere, Talks to You, and Brings Friends

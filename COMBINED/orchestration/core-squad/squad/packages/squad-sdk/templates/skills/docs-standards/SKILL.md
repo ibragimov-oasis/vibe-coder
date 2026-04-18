@@ -4,6 +4,10 @@ description: "Microsoft Style Guide + Squad-specific documentation patterns"
 domain: "documentation"
 confidence: "high"
 source: "earned (PAO charter, multiple doc PR reviews)"
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-squad
 ---
 
 ## Context

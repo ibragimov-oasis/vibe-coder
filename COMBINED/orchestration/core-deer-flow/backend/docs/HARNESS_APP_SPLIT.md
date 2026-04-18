@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-deer-flow
+---
+
 # DeerFlow 后端拆分设计文档：Harness + App
 
 > 状态：Draft

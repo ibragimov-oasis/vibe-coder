@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-cc-connect
+---
+
 # Bridge Platform Protocol Specification
 
 > Version: 1.0-draft  

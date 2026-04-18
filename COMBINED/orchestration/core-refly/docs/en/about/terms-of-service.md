@@ -1,6 +1,10 @@
 ---
 title: Terms of Service
 description: Refly AI Content Creation Engine Terms of Service
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-refly
 ---
 
 # Terms of Service

@@ -2,6 +2,10 @@
 sidebar_position: 3
 title: "Agent Loop Internals"
 description: "Detailed walkthrough of AIAgent execution, API modes, tools, callbacks, and fallback behavior"
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-hermes
 ---
 
 # Agent Loop Internals

@@ -1,6 +1,10 @@
 ---
 description: Setup for plan execution - read plan, ensure branch ready, write context artifact
 argument-hint: <path/to/plan.md>
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-archon
 ---
 
 # Plan Setup

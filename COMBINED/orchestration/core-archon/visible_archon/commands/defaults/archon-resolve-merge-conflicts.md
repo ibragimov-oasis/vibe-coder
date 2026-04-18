@@ -1,6 +1,10 @@
 ---
 description: Analyze and resolve merge conflicts in a PR
 argument-hint: <pr-number|url>
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-archon
 ---
 
 # Resolve Merge Conflicts

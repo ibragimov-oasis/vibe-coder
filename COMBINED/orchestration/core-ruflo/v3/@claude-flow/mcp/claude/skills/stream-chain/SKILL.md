@@ -4,6 +4,9 @@ description: Stream-JSON chaining for multi-agent pipelines, data transformation
 version: 1.0.0
 category: workflow
 tags: [streaming, pipeline, chaining, multi-agent, workflow]
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
 ---
 
 # Stream-Chain Skill

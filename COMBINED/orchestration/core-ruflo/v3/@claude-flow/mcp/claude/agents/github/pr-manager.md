@@ -88,6 +88,10 @@ hooks:
         --training-data "$PR_OUTPUT" \
         --epochs 50
     fi
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
 ---
 
 # GitHub PR Manager

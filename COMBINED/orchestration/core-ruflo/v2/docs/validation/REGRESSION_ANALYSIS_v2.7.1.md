@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # Regression Analysis Report - v2.7.1
 
 **Analysis Date**: 2025-01-24

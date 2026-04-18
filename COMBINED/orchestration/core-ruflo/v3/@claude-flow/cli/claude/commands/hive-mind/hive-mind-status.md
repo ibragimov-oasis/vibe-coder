@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # hive-mind-status
 
 Command documentation for hive-mind-status in category hive-mind.

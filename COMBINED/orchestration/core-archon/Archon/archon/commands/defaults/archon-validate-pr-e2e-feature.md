@@ -1,6 +1,10 @@
 ---
 description: Start Archon from the feature branch, use agent-browser to verify the fix works correctly
 argument-hint: (none - reads from artifacts)
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-archon
 ---
 
 # E2E Testing: Feature Branch (Verify Fix)

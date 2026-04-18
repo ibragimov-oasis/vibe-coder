@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # REST API
 
 This REST API was created by the Claude Flow Swarm system.
@@ -40,3 +47,9 @@ npm test
 
 ---
 Created by Claude Flow Swarm
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-ruflo]] — core-ruflo
+

@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-squad
+---
+
 # PAO External Communications
 
 > Phase 1: Manual-trigger, draft-only mode with human review gate.
@@ -25,3 +32,9 @@
 - All responses require explicit human approval
 - Audit trail is append-only and runtime-only
 - SQLite lease prevents concurrent review race conditions
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-squad]] — core-squad
+

@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-squad
+---
+
 # Decision: Versioning Policy — No Prerelease Versions on dev/main
 
 **By:** Flight (Lead)

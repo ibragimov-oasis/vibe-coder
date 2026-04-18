@@ -2,6 +2,10 @@
 sidebar_position: 1
 title: "Telegram"
 description: "Set up Hermes Agent as a Telegram bot"
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-hermes
 ---
 
 # Telegram Setup

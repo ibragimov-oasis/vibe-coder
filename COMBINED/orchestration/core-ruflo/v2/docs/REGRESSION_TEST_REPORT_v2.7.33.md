@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # Regression Test Report - Claude Flow v2.7.33
 
 **Test Date**: 2025-11-12

@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-deer-flow
+---
+
 # Configuration Guide
 
 This guide explains how to configure DeerFlow for your environment.

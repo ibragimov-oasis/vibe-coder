@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # Release Notes - Claude-Flow v2.7.15
 **Release Date:** 2025-10-25
 **Type:** Point Release (Dependency Updates + Fixes)

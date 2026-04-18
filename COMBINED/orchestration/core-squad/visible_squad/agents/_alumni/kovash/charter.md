@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-squad
+---
+
 # Kovash — REPL & Interactive Shell
 
 > If the user typed it and nothing happened, that's on me.

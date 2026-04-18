@@ -1,5 +1,9 @@
 ---
 "@bradygaster/squad-cli": patch
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-squad
 ---
 
 fix: `/init` with no args now accepts follow-up message as cast prompt, and `createTeam` correctly creates `team.md`/`routing.md` in fresh projects

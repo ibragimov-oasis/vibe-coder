@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-taskmaster
+---
+
 ## Summary
 
 - Put the existing git and test workflows on rails: a repeatable, automated process that can run autonomously, with guardrails and a compact TUI for visibility.

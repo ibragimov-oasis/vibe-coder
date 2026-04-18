@@ -1,6 +1,10 @@
 ---
 description: Analyze code on the main/base branch to confirm the bug or gap exists before the PR's changes
 argument-hint: (none - reads from artifacts)
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-archon
 ---
 
 # Code Review: Main Branch (Pre-PR State)

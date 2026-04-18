@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-taskmaster
+---
+
 # Phase 0: Spike - Autonomous TDD Workflow ✅ COMPLETE
 
 ## Objective

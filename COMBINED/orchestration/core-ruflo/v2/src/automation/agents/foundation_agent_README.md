@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # Foundation Model Builder Agent for MLE-STAR
 
 ## Overview

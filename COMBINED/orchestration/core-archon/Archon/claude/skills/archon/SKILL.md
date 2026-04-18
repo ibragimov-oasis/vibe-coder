@@ -17,6 +17,10 @@ description: |
   Also: Creates and manages workflow YAML files, command files, and configuration.
   NOT for: Direct Claude Code work - only for delegating to Archon CLI.
 argument-hint: "[workflow] [message or issue number]"
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-archon
 ---
 
 # Archon CLI Skill

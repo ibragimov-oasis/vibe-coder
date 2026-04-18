@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # hive-mind-sessions
 
 Command documentation for hive-mind-sessions in category hive-mind.

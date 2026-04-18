@@ -1,6 +1,10 @@
 ---
 description: Synthesize all validation findings into a final PR verdict report
 argument-hint: (none - reads from artifacts)
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-archon
 ---
 
 # PR Validation Report

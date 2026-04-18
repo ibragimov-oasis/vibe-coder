@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # ADR-072: Autopilot Integration — Persistent Swarm Completion for Claude-Flow CLI
 
 - **Status**: Proposed

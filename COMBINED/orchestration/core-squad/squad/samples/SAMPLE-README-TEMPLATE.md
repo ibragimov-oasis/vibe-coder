@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-squad
+---
+
 <!-- 
   SAMPLE README TEMPLATE
   Copy this file to your-sample/README.md and fill in the sections.

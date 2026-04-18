@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-gsd
+---
+
 # Continue-Here Template
 
 Copy and fill this structure for `.planning/phases/XX-name/.continue-here.md`:

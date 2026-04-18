@@ -4,6 +4,10 @@ description: "Team-wide charter and history optimization through skill extractio
 domain: "team-optimization"
 confidence: "high"
 source: "manual — Brady directive to reduce per-agent context overhead"
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-squad
 ---
 
 ## Context

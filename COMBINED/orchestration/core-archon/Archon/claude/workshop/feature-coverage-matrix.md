@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-archon
+---
+
 # Claude Code Workshop — Feature Coverage Matrix
 
 **Host**: Rasmus | Thomas prepped the platform features section, Rasmus prepped the extensibility skills

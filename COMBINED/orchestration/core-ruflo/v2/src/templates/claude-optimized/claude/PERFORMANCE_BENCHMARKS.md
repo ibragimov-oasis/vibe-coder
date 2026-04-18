@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # Claude Code Flow Performance Benchmarks
 
 ## 🚀 Executive Summary

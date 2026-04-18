@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-omc
+---
+
 # SWE-bench Benchmark Suite
 
 Automated benchmark comparison between vanilla Claude Code and OMC-enhanced Claude Code.
@@ -270,3 +277,9 @@ The `results/comparison_report.md` includes:
 ## License
 
 Same as parent project (MIT)
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-omc]] — core-omc
+

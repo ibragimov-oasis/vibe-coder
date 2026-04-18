@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-praisonai
+---
+
 # Examples Run Report
 
 **Generated**: 2026-01-09T11:13:51.223609+00:00

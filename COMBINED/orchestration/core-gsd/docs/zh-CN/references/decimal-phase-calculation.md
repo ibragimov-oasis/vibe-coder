@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-gsd
+---
+
 # 小数阶段计算
 
 为紧急插入计算下一个小数阶段编号。

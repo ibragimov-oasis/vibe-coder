@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # Windows Support via sql.js - Executive Summary
 
 **Date**: 2026-01-03

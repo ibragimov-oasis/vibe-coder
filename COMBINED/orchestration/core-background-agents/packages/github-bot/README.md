@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-background-agents
+---
+
 # GitHub Bot
 
 A stateless Cloudflare Worker that translates GitHub webhook events into Open-Inspect coding agent
@@ -248,3 +255,9 @@ test/
 ├── github-auth.test.ts # JWT generation and reactions (7 tests)
 └── handlers.test.ts  # Event handler flows and edge cases (15 tests)
 ```
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-background-agents]] — core-background-agents
+

@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-squad
+---
+
 # Squad (AI 开发小队)
 
 [English](README.md) | [中文](README.zh.md)

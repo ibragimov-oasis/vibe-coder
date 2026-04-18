@@ -1,6 +1,10 @@
 ---
 name: claude-flow-memory
 description: Interact with Claude-Flow memory system using batchtools optimization
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
 ---
 
 # Claude-Flow Memory System (Batchtools Optimized)

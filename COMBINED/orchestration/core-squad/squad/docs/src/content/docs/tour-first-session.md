@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-squad
+---
+
 # First Session Walkthrough
 
 A step-by-step tour of your first time using Squad. Follow along in your terminal.

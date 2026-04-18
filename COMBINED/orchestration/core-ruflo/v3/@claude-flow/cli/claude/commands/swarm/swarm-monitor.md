@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # swarm-monitor
 
 Command documentation for swarm-monitor in category swarm.

@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # Tutorial: Enforcement Gates
 
 This tutorial shows how to wire enforcement gates into your agent workflow to block dangerous operations before they execute.

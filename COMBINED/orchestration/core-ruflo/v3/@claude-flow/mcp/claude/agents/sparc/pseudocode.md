@@ -76,6 +76,10 @@ hooks:
     fi
 
     memory_store "pseudo_complete_$(date +%s)" "Algorithms designed with learning"
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
 ---
 
 # SPARC Pseudocode Agent

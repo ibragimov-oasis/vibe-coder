@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-taskmaster
+---
+
 Convert an existing task into a subtask.
 
 Arguments: $ARGUMENTS

@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # RuVector PostgreSQL Bridge Examples
 
 Comprehensive examples demonstrating the RuVector PostgreSQL Bridge plugin features.
@@ -286,3 +293,9 @@ docker compose down -v
 - [RuVector Plugin Documentation](../../src/integrations/ruvector/README.md)
 - [HNSW Algorithm Paper](https://arxiv.org/abs/1603.09320)
 - [Poincare Embeddings Paper](https://arxiv.org/abs/1705.08039)
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-ruflo]] — core-ruflo
+

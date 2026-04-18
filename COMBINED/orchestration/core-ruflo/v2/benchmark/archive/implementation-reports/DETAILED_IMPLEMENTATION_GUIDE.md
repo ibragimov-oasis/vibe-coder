@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # 📚 Detailed Implementation Guide for Benchmark System Enhancement
 
 ## Complete Agent Instructions & Technical Specifications

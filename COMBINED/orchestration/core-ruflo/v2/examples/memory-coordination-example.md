@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # Memory Coordination Example for Multi-Agent Swarms
 
 ## Problem: Agents Not Writing to Memory

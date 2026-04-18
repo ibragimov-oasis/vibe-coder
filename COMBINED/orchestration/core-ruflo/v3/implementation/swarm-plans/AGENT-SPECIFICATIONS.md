@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # Agent Specifications: 15-Agent Swarm
 
 ## Agent Configuration Schema

@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-cc-connect
+---
+
 <p align="center">
   <img src="./docs/images/banner.svg" alt="CC-Connect Banner" width="800"/>
 </p>

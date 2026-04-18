@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-taskmaster
+---
+
 # Taskmaster AI - Claude Code Marketplace
 
 This repository includes a Claude Code plugin marketplace in `.claude-plugin/marketplace.json`.
@@ -138,3 +145,9 @@ Team members who trust the repository folder will automatically get the marketpl
 
 - [Claude Code Plugin Docs](https://docs.claude.com/en/docs/claude-code/plugins)
 - [Marketplace Documentation](https://docs.claude.com/en/docs/claude-code/plugin-marketplaces)
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-taskmaster]] — core-taskmaster
+

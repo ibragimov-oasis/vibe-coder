@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # Pair Programming Commands Reference
 
 Complete reference for all pair programming session commands.

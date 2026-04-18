@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # Real Claude Flow Integration - Implementation Report
 
 ## 🎯 Mission Accomplished

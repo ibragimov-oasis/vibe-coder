@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # ADR-G007: Memory Write Gating -- Authority, Rate Limiting, TTL, and Decay
 
 ## Status

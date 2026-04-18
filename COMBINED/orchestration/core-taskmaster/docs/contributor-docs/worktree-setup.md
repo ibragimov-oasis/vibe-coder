@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-taskmaster
+---
+
 # Git Worktree Setup for Parallel Development
 
 Simple git worktree setup for running multiple AI coding assistants in parallel.

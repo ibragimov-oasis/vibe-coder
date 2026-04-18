@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-multica
+---
+
 # Repository Guidelines
 
 This file provides guidance to AI agents when working with code in this repository.

@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # Neural Domain Mapper Examples
 
 This document provides comprehensive examples of how to use the NeuralDomainMapper class for GNN-style domain relationship mapping.

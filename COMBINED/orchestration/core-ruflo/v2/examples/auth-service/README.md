@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # Swarm Application
 
 This application was created by the Claude Flow Swarm system.
@@ -14,3 +21,9 @@ create an authentication service with JWT tokens and user registration in ./exam
 ```bash
 npm start
 ```
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-ruflo]] — core-ruflo
+

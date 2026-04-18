@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # Docker Deployment Guide
 
 ## Quick Start (Local / Self-Hosted)

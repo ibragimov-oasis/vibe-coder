@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # Validation Report: Problem Solving Model
 
 **Generated**: 2025-10-15T02:52:00.000Z

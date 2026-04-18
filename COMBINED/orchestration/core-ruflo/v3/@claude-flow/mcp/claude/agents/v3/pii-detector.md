@@ -20,6 +20,10 @@ hooks:
     echo "🔐 PII Detector scanning for sensitive data..."
   post: |
     echo "✅ PII scan complete"
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
 ---
 
 # PII Detector Agent

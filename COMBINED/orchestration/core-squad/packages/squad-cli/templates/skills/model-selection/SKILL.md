@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-squad
+---
+
 # Model Selection
 
 > Determines which LLM model to use for each agent spawn.

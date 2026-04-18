@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # Incremental Updates Guide for Claude Flow
 
 This guide demonstrates and tests various incremental update mechanisms implemented throughout the Claude Flow system.

@@ -2,6 +2,10 @@
 sidebar_position: 3
 title: "Built-in Tools Reference"
 description: "Authoritative reference for Hermes built-in tools, grouped by toolset"
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-hermes
 ---
 
 # Built-in Tools Reference

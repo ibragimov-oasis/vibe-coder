@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-background-agents
+---
+
 # AGENTS.md
 
 Open-Inspect is a background coding agent system that spawns sandboxed dev environments to work on
@@ -157,3 +164,9 @@ CI runs lint, typecheck, and tests for all TypeScript and Python packages on eve
   protocol, D1 schema, security model
 - [packages/modal-infra/README.md](packages/modal-infra/README.md) — sandbox internals, Modal
   deployment, endpoint URLs
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-background-agents]] — core-background-agents
+

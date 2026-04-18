@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # ADR-034: Optional MCP Backends — Claude Code, Gemini, Codex
 
 **Status:** Accepted

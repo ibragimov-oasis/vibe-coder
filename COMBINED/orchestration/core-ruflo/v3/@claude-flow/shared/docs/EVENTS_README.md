@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # Event Store Persistence (ADR-007)
 
 Complete event sourcing implementation for V3 Claude Flow with persistent storage, projections, and event replay.

@@ -14,6 +14,10 @@ hero:
       link: /book/what-is-archon/
       icon: right-arrow
       variant: primary
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-archon
 ---
 
 ## How to Use This Guide

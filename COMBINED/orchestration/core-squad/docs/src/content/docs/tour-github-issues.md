@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-squad
+---
+
 # GitHub Issues Walkthrough
 
 A step-by-step tour of Squad's GitHub Issues workflow. This connects your team to a real repository's issue tracker so agents can pick up issues, create branches, open PRs, and handle review feedback.

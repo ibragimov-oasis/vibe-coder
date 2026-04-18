@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-taskmaster
+---
+
 # Phase 2: PR + Resumability - Autonomous TDD Workflow
 
 ## Objective

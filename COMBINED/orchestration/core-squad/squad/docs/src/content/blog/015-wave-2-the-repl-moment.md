@@ -6,6 +6,9 @@ wave: 2
 tags: [squad, wave-2, repl, shell, security, testing, developer-experience]
 status: published
 hero: "We built an interactive shell that makes you forget you're talking to agents. Then we found a command injection vulnerability and fixed it the same day."
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-squad
 ---
 
 # Wave 2: The REPL Moment

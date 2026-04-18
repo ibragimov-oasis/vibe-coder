@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-vibe-kanban
+---
+
 ## New Design System Styling Guidelines
 
 ### CSS Variables & Tailwind Config

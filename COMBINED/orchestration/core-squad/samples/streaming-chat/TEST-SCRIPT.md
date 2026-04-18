@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-squad
+---
+
 # TEST-SCRIPT: streaming-chat
 
 Manual test walkthrough for the streaming-chat MVP Summit demo.

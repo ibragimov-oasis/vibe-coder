@@ -4,6 +4,10 @@ description: "Core conventions and patterns for this codebase"
 domain: "project-conventions"
 confidence: "medium"
 source: "template"
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-squad
 ---
 
 ## Context

@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-multica
+---
+
 # Self-Hosting — Advanced Configuration
 
 This document covers advanced configuration for self-hosted Multica deployments. For the quick start guide, see [SELF_HOSTING.md](SELF_HOSTING.md).
@@ -237,3 +244,9 @@ docker compose -f docker-compose.selfhost.yml up -d --build
 ```
 
 Migrations run automatically on backend startup. They are idempotent — running them multiple times has no effect.
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-multica]] — core-multica
+

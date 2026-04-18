@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # Known Issues with Claude Flow Benchmark System
 
 ## Issue 1: Non-Interactive Mode Not Working in Claude Flow

@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # swarm init
 
 Initialize a Claude Flow swarm with specified topology and configuration.

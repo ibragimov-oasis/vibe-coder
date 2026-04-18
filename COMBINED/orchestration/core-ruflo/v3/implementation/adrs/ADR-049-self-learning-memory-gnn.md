@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # ADR-049: Self-Learning Memory with GNN & RuVector Integration
 
 **Status:** Implemented

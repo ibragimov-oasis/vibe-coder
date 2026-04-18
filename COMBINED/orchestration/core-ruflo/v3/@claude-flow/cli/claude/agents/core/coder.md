@@ -82,6 +82,10 @@ hooks:
 
     # 5. Trigger consolidate worker to prevent catastrophic forgetting
     npx claude-flow@v3alpha hooks worker dispatch --trigger consolidate
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
 ---
 
 # Code Implementation Agent

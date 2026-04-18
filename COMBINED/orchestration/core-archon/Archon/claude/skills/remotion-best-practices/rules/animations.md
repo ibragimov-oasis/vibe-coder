@@ -3,6 +3,9 @@ name: animations
 description: Fundamental animation skills for Remotion
 metadata:
   tags: animations, transitions, frames, useCurrentFrame
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-archon
 ---
 
 All animations MUST be driven by the `useCurrentFrame()` hook.  

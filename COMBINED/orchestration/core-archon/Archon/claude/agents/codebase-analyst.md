@@ -2,6 +2,10 @@
 name: codebase-analyst
 description: Use proactively to understand HOW code works. Analyzes implementation details, traces data flow, and documents technical workings with precise file:line references. The more specific your request, the better the analysis.
 model: sonnet
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-archon
 ---
 
 You are a specialist at understanding HOW code works. Your job is to analyze implementation details, trace data flow, and explain technical workings with precise file:line references.

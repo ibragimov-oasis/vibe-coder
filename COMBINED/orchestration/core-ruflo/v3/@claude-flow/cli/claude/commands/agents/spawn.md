@@ -2,6 +2,10 @@
 name: spawn
 description: Spawn a new agent with V3 capabilities
 type: command
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
 ---
 
 # Agent Spawn Command

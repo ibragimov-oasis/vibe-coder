@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 An algorithmic outline to implement a ReasoningBank-style system on top of your Claude Flow Memory Space. It maps cleanly to your SQLite-backed memory at `.swarm/memory.db` and the hooks system so you can drop this into flows immediately. Where I reference paper specifics or your repo’s schemas, I cite them.
 
 ---

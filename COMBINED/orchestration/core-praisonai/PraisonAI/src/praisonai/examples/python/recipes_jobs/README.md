@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-praisonai
+---
+
 # Recipe Async Jobs Example
 
 This example demonstrates how to submit recipes as async jobs to a jobs server.
@@ -95,3 +102,9 @@ praisonai run cancel <job_id>
 |---------|---------|-------------|
 | `timeout` | 3600 | Maximum execution time (1 hour) |
 | `api_url` | http://127.0.0.1:8005 | Jobs server URL |
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-praisonai]] — core-praisonai
+

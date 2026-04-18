@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-cc-connect
+---
+
 # 微信个人号（Weixin / ilink）接入指南
 
 本文档说明如何通过 **cc-connect** 接入**微信个人号**侧的对话能力。底层使用腾讯 **ilink 机器人 HTTP 网关**（与 OpenClaw 插件 `openclaw-weixin` 同类接口：`getUpdates` 长轮询 + `sendMessage` 下发）。

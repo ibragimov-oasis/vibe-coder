@@ -8,6 +8,10 @@ tools:
   - name: "ask_user"
     description: "Confirm team roster with selectable menu"
     when: "Phase 1 proposal — requires explicit user confirmation"
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-squad
 ---
 
 ## Context

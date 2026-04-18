@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # SONA Integration Guide
 
 Integration of `@ruvector/sona` package (v0.1.5) into the V3 Neural Module.

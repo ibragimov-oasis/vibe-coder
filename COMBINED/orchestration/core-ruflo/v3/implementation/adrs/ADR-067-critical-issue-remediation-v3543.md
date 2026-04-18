@@ -1,5 +1,9 @@
 ---
 # ADR-067: Critical Issue Remediation — v3.5.43
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
 ---
 
 **Status**: Implemented

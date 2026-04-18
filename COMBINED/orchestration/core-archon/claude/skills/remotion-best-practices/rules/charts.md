@@ -3,6 +3,9 @@ name: charts
 description: Chart and data visualization patterns for Remotion. Use when creating bar charts, pie charts, line charts, stock graphs, or any data-driven animations.
 metadata:
   tags: charts, data, visualization, bar-chart, pie-chart, line-chart, stock-chart, svg-paths, graphs
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-archon
 ---
 
 # Charts in Remotion

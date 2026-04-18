@@ -21,6 +21,10 @@ hooks:
     echo "🎯 CRDT synchronization complete"
     # Verify eventual consistency
     echo "✅ Validating conflict-free state convergence"
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
 ---
 
 # CRDT Synchronizer

@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # Claude-Flow Compatibility - Schema Reference
 
 ## ✅ All Models Are Now Fully Compatible!

@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # agent-spawning
 
 Guide to spawning agents with Claude Code's Task tool.

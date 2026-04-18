@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # Claude-Flow Migration System
 
 A comprehensive migration system for existing claude-flow projects to adopt optimized prompts and configurations.
@@ -495,3 +502,9 @@ This migration system is part of claude-code-flow and follows the same license t
 ---
 
 For more information, see the [main claude-code-flow documentation](../../README.md).
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-ruflo]] — core-ruflo
+

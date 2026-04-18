@@ -4,6 +4,10 @@ description: "Squad branching model: dev-first workflow with insiders preview ch
 domain: "version-control"
 confidence: "high"
 source: "team-decision"
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-squad
 ---
 
 ## Context

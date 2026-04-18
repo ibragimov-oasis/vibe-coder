@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-gsd
+---
+
 # Decimal Phase Calculation
 
 Calculate the next decimal phase number for urgent insertions.

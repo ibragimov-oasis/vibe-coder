@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # Hello World Function Implementation
 
 A simple yet comprehensive hello world function implementation with parameter support, multiple styles, and thorough testing.

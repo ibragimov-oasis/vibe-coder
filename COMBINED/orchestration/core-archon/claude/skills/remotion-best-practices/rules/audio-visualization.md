@@ -3,6 +3,9 @@ name: audio-visualization
 description: Audio visualization patterns - spectrum bars, waveforms, bass-reactive effects
 metadata:
   tags: audio, visualization, spectrum, waveform, bass, music, audiogram, frequency
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-archon
 ---
 
 # Audio Visualization in Remotion

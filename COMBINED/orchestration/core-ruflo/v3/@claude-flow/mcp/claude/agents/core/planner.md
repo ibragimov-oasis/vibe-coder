@@ -76,6 +76,10 @@ hooks:
 
     # 5. Trigger map worker for codebase analysis
     npx claude-flow@v3alpha hooks worker dispatch --trigger map
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
 ---
 
 # Strategic Planning Agent

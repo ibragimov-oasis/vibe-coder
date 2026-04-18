@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # 🚀 ReasoningBank SQL Fallback - Validation Report
 
 **Feature:** Automatic SQL fallback when semantic search returns empty

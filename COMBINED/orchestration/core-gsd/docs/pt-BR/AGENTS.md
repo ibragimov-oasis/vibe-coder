@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-gsd
+---
+
 # Referência de Agentes do GSD
 
 Este documento descreve os papéis dos agentes especializados no ecossistema GSD.  

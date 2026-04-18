@@ -2,6 +2,10 @@
 sidebar_position: 3
 title: "Discord"
 description: "Set up Hermes Agent as a Discord bot"
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-hermes
 ---
 
 # Discord Setup

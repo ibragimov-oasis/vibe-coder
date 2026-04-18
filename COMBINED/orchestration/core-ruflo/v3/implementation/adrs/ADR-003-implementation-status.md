@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # ADR-003 Implementation Status: Single Coordination Engine
 
 **Status**: ✅ IMPLEMENTED

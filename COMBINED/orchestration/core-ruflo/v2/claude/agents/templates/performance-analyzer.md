@@ -21,6 +21,10 @@ hooks:
     echo "✅ Performance analysis complete"
     memory_store "perf_analysis_complete_$(date +%s)" "Performance report generated"
     echo "💡 Optimization recommendations available"
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
 ---
 
 # Performance Bottleneck Analyzer Agent

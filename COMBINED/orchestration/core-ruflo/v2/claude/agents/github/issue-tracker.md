@@ -23,6 +23,10 @@ hooks:
     echo "Issues created and coordinated"
     echo "Progress tracking initialized"
     echo "Swarm memory updated with issue state"
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
 ---
 
 # GitHub Issue Tracker

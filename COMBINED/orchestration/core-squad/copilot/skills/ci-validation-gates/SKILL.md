@@ -4,6 +4,10 @@ description: "Defensive CI/CD patterns: semver validation, token checks, retry l
 domain: "ci-cd"
 confidence: "high"
 source: "extracted from Drucker and Trejo charters — earned knowledge from v0.8.22 release incident"
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-squad
 ---
 
 ## Context

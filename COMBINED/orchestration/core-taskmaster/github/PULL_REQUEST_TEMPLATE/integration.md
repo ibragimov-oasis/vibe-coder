@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-taskmaster
+---
+
 # 🔌 New Integration
 
 ## What tool/IDE is being integrated?

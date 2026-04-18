@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-squad
+---
+
 # CI Tone Lint Gate
 
 > Automated quality checks for PAO community response drafts.

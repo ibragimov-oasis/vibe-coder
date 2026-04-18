@@ -23,6 +23,10 @@ hooks:
     if [ -f "package.json" ]; then
       npm test --if-present
     fi
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
 ---
 
 # TDD London School Swarm Agent

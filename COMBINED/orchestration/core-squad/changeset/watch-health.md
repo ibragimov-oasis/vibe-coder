@@ -1,5 +1,9 @@
 ---
 "@bradygaster/squad-cli": minor
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-squad
 ---
 
 feat(watch): health check — show running watch instance status (#808)

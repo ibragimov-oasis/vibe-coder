@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-gsd
+---
+
 # Monitor de Contexto
 
 O monitor de contexto ajuda a evitar degradação de qualidade em sessões longas, alertando sobre uso excessivo da janela de contexto.

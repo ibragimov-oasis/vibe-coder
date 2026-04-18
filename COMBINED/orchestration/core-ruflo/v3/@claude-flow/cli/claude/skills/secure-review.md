@@ -11,6 +11,9 @@ invocation:
 
 requires:
   - "@claude-flow/aidefence"
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
 ---
 
 # Secure Review Skill

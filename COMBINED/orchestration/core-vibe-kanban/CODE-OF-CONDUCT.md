@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-vibe-kanban
+---
+
 # Contributor Covenant Code of Conduct
 
 ## Our Pledge
@@ -87,3 +94,9 @@ For answers to common questions about this code of conduct, see the FAQ at
 [v2.1]: https://www.contributor-covenant.org/version/2/1/code_of_conduct.html
 [FAQ]: https://www.contributor-covenant.org/faq
 [translations]: https://www.contributor-covenant.org/translations
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-vibe-kanban]] — core-vibe-kanban
+

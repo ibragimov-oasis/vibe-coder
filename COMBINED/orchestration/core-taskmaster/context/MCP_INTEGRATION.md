@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-taskmaster
+---
+
 # Task Master MCP Integration
 
 This document outlines how Task Master CLI functionality is integrated with MCP (Master Control Program) architecture to provide both CLI and programmatic API access to features.

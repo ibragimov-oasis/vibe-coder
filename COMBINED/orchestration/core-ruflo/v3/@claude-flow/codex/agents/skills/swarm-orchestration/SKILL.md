@@ -4,6 +4,10 @@ description: >
   Multi-agent swarm coordination for complex tasks.
   Use when: 3+ files need changes, new features, refactoring.
   Skip when: single file edits, simple fixes, documentation.
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
 ---
 
 # Swarm Orchestration Skill

@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-gsd
+---
+
 # Research Summary Template
 
 Template for `.planning/research/SUMMARY.md` — executive summary of project research with roadmap implications.

@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-taskmaster
+---
+
 Execute an intelligent workflow based on current project state and recent commands.
 
 This command analyzes:

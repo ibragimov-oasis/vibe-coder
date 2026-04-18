@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-vibe-kanban
+---
+
 # Remote Crate — Agent Guidelines
 
 The `remote` crate is the hosted Vibe Kanban Cloud server: an Axum HTTP API, a React SPA frontend, and real-time sync via ElectricSQL.

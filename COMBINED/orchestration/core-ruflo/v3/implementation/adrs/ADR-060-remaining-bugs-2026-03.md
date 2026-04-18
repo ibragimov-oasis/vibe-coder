@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # ADR-060: Remaining Bug & Wiring Fixes — March 2026
 
 **Status:** Accepted — Sprint 1+2 Verified

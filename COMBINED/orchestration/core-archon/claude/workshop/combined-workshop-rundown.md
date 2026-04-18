@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-archon
+---
+
 # Combined Workshop Rundown
 
 **Host**: Rasmus (Thomas prepped the platform features section)

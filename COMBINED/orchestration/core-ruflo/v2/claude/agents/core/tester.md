@@ -20,6 +20,10 @@ hooks:
   post: |
     echo "📋 Test results summary:"
     npm test -- --reporter=json 2>/dev/null | jq '.numPassedTests, .numFailedTests' 2>/dev/null || echo "Tests completed"
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
 ---
 
 # Testing and Quality Assurance Agent

@@ -6,6 +6,10 @@ area: workflows
 audience: [user]
 sidebar:
   order: 5
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-archon
 ---
 
 Archon substitutes variables in command files, inline prompts, and bash scripts before execution. There are three categories of variables: workflow variables (substituted by the workflow engine), positional arguments (substituted by the command handler), and node output references (DAG workflows only).

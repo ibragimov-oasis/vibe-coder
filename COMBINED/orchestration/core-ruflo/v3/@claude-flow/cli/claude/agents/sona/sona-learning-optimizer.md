@@ -10,6 +10,10 @@ capabilities:
   - llm_routing
   - quality_optimization
   - sub_ms_learning
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
 ---
 
 # SONA Learning Optimizer

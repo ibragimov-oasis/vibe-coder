@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-squad
+---
+
 # Context Hygiene: Nap, Reskill, and Compact
 
 > ⚠️ **Experimental** — Squad is alpha software. APIs, commands, and behavior may change between releases.

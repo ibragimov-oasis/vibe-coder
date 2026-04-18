@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-squad
+---
+
 # EECOM — Core Dev
 
 > Practical, thorough, makes it work then makes it right.

@@ -7,6 +7,10 @@ audience: [user, operator]
 status: current
 sidebar:
   order: 0
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-archon
 ---
 
 Archon supports multiple platform adapters. Each adapter connects Archon to a different communication channel, letting you trigger workflows and interact with AI agents from wherever you work.

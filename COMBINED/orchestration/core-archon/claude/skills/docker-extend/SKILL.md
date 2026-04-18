@@ -10,6 +10,10 @@ description: |
   add personal tools to their Docker environment without affecting maintainer files or
   committing user-specific config to git.
 argument-hint: '[optional: tools to install, e.g. "vim ripgrep jq"]'
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-archon
 ---
 
 # Docker Extend

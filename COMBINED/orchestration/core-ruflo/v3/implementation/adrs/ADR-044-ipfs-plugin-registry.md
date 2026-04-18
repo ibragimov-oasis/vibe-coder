@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # ADR-044: Live IPFS Plugin Registry on Google Cloud
 
 ## Status

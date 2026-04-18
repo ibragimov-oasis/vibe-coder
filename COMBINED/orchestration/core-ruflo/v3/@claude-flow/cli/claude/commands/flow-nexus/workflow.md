@@ -1,6 +1,10 @@
 ---
 name: flow-nexus-workflow
 description: Event-driven workflow automation with message queues
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
 ---
 
 # Flow Nexus Workflows

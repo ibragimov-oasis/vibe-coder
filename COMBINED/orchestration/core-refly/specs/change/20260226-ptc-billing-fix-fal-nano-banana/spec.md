@@ -3,6 +3,10 @@ id: 20260226-ptc-billing-fix-fal-nano-banana
 name: Ptc Billing Fix Fal Nano Banana
 status: implemented
 created: '2026-02-26'
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-refly
 ---
 
 ## Overview

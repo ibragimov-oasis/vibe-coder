@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-squad
+---
+
 # Contributors
 
 Squad is built by contributors from across the open source community. Thank you.

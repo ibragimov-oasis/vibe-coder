@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # SDK Integration Validation Results
 **Claude-Flow v2.5-alpha.130+**
 

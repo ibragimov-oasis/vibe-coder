@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # Architectural Comparison: Claude Flow V3 vs Claude Code TeammateTool
 
 **Date:** 2026-01-25

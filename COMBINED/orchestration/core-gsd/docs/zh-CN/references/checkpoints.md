@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-gsd
+---
+
 # 检查点
 
 计划自主执行。检查点用于规范化需要人工验证或决策的交互点。

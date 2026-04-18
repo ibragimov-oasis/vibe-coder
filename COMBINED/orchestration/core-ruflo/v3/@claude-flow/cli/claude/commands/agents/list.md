@@ -3,6 +3,10 @@ name: list
 description: List all active agents
 aliases: [ls]
 type: command
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
 ---
 
 # Agent List Command

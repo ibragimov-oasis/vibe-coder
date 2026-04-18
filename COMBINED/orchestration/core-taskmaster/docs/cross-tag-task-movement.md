@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-taskmaster
+---
+
 # Cross-Tag Task Movement
 
 Task Master now supports moving tasks between different tag contexts, allowing you to organize your work across multiple project contexts, feature branches, or development phases.

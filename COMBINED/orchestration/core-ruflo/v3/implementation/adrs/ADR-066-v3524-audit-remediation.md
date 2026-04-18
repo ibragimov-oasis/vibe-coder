@@ -1,4 +1,11 @@
 ---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
+---
 # ADR-066: v3.5.24 Deep Audit Remediation
 
 **Status**: Accepted

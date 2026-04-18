@@ -86,6 +86,10 @@ hooks:
 
     # 5. End audit session with metrics
     npx claude-flow@v3alpha hooks session-end --export-metrics true
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
 ---
 
 # Security Auditor Agent (V3)

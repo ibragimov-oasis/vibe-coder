@@ -2,6 +2,10 @@
 sidebar_position: 1
 title: "Quickstart"
 description: "Your first conversation with Hermes Agent — from install to chatting in 2 minutes"
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-hermes
 ---
 
 # Quickstart

@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-cc-connect
+---
+
 # Contributing to cc-connect
 
 [中文](#为-cc-connect-做贡献) | [English](#contributing-to-cc-connect)

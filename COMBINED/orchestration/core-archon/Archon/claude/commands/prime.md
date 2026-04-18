@@ -1,5 +1,9 @@
 ---
 description: Prime agent with full Archon codebase understanding
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-archon
 ---
 
 # Prime: Load Archon Project Context

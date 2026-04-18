@@ -2,6 +2,10 @@
 sidebar_position: 5
 title: "Bundled Skills Catalog"
 description: "Catalog of bundled skills that ship with Hermes Agent"
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-hermes
 ---
 
 # Bundled Skills Catalog

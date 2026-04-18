@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # Windows Installation Support via sql.js Migration Research
 
 **Research Date**: 2026-01-03

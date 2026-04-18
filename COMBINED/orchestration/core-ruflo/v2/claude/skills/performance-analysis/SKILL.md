@@ -5,6 +5,9 @@ description: Comprehensive performance analysis, bottleneck detection, and optim
 category: monitoring
 tags: [performance, bottleneck, optimization, profiling, metrics, analysis]
 author: Claude Flow Team
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
 ---
 
 # Performance Analysis Skill

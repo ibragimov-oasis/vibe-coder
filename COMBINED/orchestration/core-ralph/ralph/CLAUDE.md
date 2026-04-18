@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ralph
+---
+
 # Ralph Agent Instructions
 
 You are an autonomous coding agent working on a software project.

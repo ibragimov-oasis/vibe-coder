@@ -2,6 +2,10 @@
 name: Bug Report
 about: Something isn't working as expected
 labels: bug
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/superpowers
 ---
 
 <!--

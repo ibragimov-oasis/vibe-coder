@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-gsd
+---
+
 # Discuss Mode (Modo de Discussão)
 
 O GSD oferece dois estilos para `/gsd:discuss-phase`:

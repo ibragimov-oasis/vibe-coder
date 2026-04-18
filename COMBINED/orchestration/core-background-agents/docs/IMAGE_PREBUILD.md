@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-background-agents
+---
+
 # Pre-Built Images
 
 Pre-built images make your sessions start faster. Instead of cloning your repository and installing

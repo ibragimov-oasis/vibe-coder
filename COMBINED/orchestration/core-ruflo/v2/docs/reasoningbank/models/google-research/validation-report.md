@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # Google Research Validation Report
 
 **Generated:** 2025-10-15T02:51:14.566Z

@@ -6,6 +6,9 @@ wave: null
 tags: [squad, azure-devops, enterprise, platform-adapter, work-items, area-paths, iteration-paths]
 status: published
 hero: "Squad now speaks Azure DevOps natively — auto-detection, configurable work item types, area/iteration paths, and cross-project support for enterprise environments."
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-squad
 ---
 
 # Squad Goes Enterprise — Azure DevOps, Area Paths, and Cross-Project Work Items

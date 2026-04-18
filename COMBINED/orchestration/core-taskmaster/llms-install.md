@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-taskmaster
+---
+
 # Taskmaster AI Installation Guide
 
 This guide helps AI assistants install and configure Taskmaster for users in their development projects.
@@ -129,3 +136,9 @@ Once installed, users can:
 - Explore advanced features like research mode and complexity analysis
 
 For detailed documentation, refer to the Task Master docs directory.``
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-taskmaster]] — core-taskmaster
+

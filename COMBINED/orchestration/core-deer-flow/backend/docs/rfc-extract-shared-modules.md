@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-deer-flow
+---
+
 # RFC: Extract Shared Skill Installer and Upload Manager into Harness
 
 ## 1. Problem

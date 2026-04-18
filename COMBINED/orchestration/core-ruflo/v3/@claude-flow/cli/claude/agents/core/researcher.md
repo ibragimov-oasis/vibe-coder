@@ -70,6 +70,10 @@ hooks:
 
     # 5. Trigger deepdive worker for extended analysis
     npx claude-flow@v3alpha hooks worker dispatch --trigger deepdive
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
 ---
 
 # Research and Analysis Agent

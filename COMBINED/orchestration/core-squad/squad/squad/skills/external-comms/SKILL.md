@@ -17,6 +17,10 @@ tools:
   - name: "gh CLI"
     description: "Fallback for GitHub issue comments and discussions workflows"
     when: "Use gh issue list/comment and gh api or gh api graphql when MCP coverage is incomplete"
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-squad
 ---
 
 ## Context

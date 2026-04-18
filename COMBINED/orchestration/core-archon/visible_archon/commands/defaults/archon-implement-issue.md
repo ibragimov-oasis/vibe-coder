@@ -1,6 +1,10 @@
 ---
 description: Implement a fix from investigation artifact - code changes, PR, and self-review
 argument-hint: <issue-number|artifact-path>
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-archon
 ---
 
 # Implement Issue

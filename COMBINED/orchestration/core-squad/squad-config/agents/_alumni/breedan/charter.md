@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-squad
+---
+
 # Breedan — E2E Test Engineer (Terminal)
 
 ## Role

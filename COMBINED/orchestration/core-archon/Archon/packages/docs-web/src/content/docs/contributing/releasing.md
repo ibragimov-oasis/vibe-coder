@@ -7,6 +7,10 @@ audience: [developer]
 status: current
 sidebar:
   order: 3
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-archon
 ---
 
 This guide covers how to create a new release of the Archon CLI.

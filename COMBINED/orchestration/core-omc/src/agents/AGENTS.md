@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-omc
+---
+
 <!-- Parent: ../AGENTS.md -->
 <!-- Generated: 2026-01-28 | Updated: 2026-02-24 -->
 

@@ -12,6 +12,10 @@ description: |
 argument-hint: "[focus-area]"
 disable-model-invocation: true
 allowed-tools: Bash, Read, Grep, Glob, Edit, Write, Task
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-archon
 ---
 
 # Archon Web UI — Comprehensive E2E Validation

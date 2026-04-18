@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # ReasoningBank Integration Status (v2.7.0-alpha)
 
 ## Current Status: ⚠️ Partially Implemented

@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # @claude-flow/embeddings
 
 [![npm version](https://img.shields.io/npm/v/@claude-flow/embeddings.svg)](https://www.npmjs.com/package/@claude-flow/embeddings)
@@ -649,3 +656,9 @@ claude-flow embeddings cache clear --older-than 7d
 ## License
 
 MIT
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-ruflo]] — core-ruflo
+

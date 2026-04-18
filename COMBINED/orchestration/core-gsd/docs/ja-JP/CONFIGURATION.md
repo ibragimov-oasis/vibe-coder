@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-gsd
+---
+
 # GSD 設定リファレンス
 
 > 設定スキーマの全容、ワークフロートグル、モデルプロファイル、Git ブランチオプション。機能の詳細については[機能リファレンス](FEATURES.md)を参照してください。

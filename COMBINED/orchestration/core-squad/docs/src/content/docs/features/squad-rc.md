@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-squad
+---
+
 # squad rc
 
 > **Full remote control of GitHub Copilot from any device.** ACP passthrough mode for complete Copilot CLI access via secure tunnel.

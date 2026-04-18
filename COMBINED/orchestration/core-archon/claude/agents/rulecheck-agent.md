@@ -68,6 +68,10 @@ hooks:
             Always return `{"ok": true}` — the agent should always be allowed to stop.
             The value is in the written feedback, not in blocking.
           statusMessage: "Running meta-judge evaluation..."
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-archon
 ---
 
 You are a fully autonomous code quality agent. You run in an isolated worktree,

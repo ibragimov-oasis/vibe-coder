@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # Epic: Claude Agent SDK Integration for Claude-Flow v3.0.0-alpha.130
 
 ## 🎯 Epic Overview

@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-squad
+---
+
 # SubSquads PRD — Product Requirements Document
 
 > Scaling Squad across multiple Codespaces via labeled SubSquads.

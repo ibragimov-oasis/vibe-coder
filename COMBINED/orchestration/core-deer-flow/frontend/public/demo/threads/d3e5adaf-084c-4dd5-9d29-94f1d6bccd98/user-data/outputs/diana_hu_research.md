@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-deer-flow
+---
+
 # Diana Hu: Technical Startup Founder Advice - Comprehensive Research
 
 ## Video Overview

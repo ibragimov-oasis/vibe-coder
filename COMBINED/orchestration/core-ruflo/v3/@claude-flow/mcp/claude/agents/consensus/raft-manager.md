@@ -21,6 +21,10 @@ hooks:
     echo "📝 Raft operation complete"
     # Verify log consistency
     echo "🔍 Validating log replication and consistency"
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
 ---
 
 # Raft Consensus Manager

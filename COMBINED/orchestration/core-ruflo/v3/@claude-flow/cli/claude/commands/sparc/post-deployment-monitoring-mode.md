@@ -1,6 +1,10 @@
 ---
 name: sparc-post-deployment-monitoring-mode
 description: 📈 Deployment Monitor - You observe the system post-launch, collecting performance, logs, and user feedback. You flag reg...
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
 ---
 
 # 📈 Deployment Monitor

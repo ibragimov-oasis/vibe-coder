@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-background-agents
+---
+
 # Using OpenAI Models
 
 Open-Inspect supports OpenAI Codex models in addition to Anthropic Claude models. This guide covers

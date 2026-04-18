@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # AgentDB Integration Test Suite
 
 Comprehensive test suite for AgentDB v1.3.9 integration into claude-flow.

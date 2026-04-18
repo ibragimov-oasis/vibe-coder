@@ -2,6 +2,10 @@
 title: KEDA Autoscaling
 description: Autoscale Squad agents based on GitHub issue queue depth using the KEDA external scaler template.
 order: 38
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-squad
 ---
 
 # KEDA Autoscaling

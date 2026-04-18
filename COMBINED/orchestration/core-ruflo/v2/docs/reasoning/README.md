@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # Reasoning Agents for Claude-Flow
 
 ## Overview
@@ -169,3 +176,9 @@ For issues or questions:
 ---
 
 **Remember: Reasoning agents learn from experience and get better over time!** 🧠✨
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-ruflo]] — core-ruflo
+

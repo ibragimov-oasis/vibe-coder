@@ -6,6 +6,9 @@ wave: null
 tags: [squad, skills, memory, learning, anthropic, open-standard]
 status: published
 hero: "Squad agents generate portable SKILL.md files from real work, codifying what they learned. Other tools make humans write skills by hand. Squad earns them."
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-squad
 ---
 
 # Skills System: Agents That Learn From Work

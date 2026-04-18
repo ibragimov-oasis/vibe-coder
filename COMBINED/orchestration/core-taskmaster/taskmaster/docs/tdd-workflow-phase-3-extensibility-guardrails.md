@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-taskmaster
+---
+
 # Phase 3: Extensibility + Guardrails - Autonomous TDD Workflow
 
 ## Objective

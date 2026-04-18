@@ -1,5 +1,9 @@
 ---
 description: Update install.sh and deploy PraisonAI to Kubernetes via Helm (CI/CD Pipeline)
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-praisonai
 ---
 
 # Install.sh Update & Helm Deployment Workflow

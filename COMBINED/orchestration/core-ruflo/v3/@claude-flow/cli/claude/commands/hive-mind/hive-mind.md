@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # hive-mind
 
 Hive Mind collective intelligence system for advanced swarm coordination.

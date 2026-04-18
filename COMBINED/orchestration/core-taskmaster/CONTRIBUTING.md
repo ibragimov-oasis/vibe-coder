@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-taskmaster
+---
+
 # Contributing to Task Master
 
 Thank you for your interest in contributing to Task Master! We're excited to work with you and appreciate your help in making this project better. 🚀
@@ -333,3 +340,9 @@ By contributing, you agree that your contributions will be licensed under the sa
 **Thank you for contributing to Task Master!** 🎉
 
 Your contributions help make AI-driven development more accessible and efficient for everyone.
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-taskmaster]] — core-taskmaster
+

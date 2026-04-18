@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # stream-chain pipeline
 
 Execute predefined pipelines for common development workflows.

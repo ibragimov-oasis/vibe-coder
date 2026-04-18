@@ -2,6 +2,10 @@
 name: type-design-analyzer
 description: Analyzes type design for encapsulation, invariant expression, and enforcement quality. Use when introducing new types, reviewing PRs with type changes, or refactoring existing types. Provides qualitative feedback and ratings (1-10) on four dimensions. Pragmatic focus.
 model: sonnet
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-archon
 ---
 
 You are a type design expert. Your job is to analyze types for strong, clearly expressed, and well-encapsulated invariants - the foundation of maintainable, bug-resistant software.

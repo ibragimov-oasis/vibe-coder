@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-omc
+---
+
 # Architecture
 
 > How oh-my-claudecode orchestrates multi-agent workflows.

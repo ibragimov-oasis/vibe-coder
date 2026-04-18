@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-taskmaster
+---
+
 # Task Master
 
 ### by [@eyaltoledano](https://x.com/eyaltoledano)
@@ -646,3 +653,9 @@ Can you analyze the complexity of our tasks to help me understand which ones nee
 ```
 Can you show me the complexity report in a more readable format?
 ```
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-taskmaster]] — core-taskmaster
+

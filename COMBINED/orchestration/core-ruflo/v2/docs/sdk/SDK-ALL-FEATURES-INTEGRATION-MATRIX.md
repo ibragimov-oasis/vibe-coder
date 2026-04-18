@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # Complete SDK Feature Integration Matrix
 ## All 10 Advanced Features → Claude-Flow Swarm Orchestration
 

@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-archon
+---
+
 # Implement Cookbook
 
 Execute a plan file step by step with validation gates. No auto-retry — failures are surfaced to the user.

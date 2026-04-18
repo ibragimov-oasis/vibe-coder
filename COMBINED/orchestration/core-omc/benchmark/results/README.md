@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-omc
+---
+
 # SWE-bench Verified Results
 
 ## Summary
@@ -177,3 +184,9 @@ results/
 ---
 
 *Last updated: [DATE]*
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-omc]] — core-omc
+

@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-gsd
+---
+
 <purpose>
 Extract implementation decisions that downstream agents need — using codebase-first analysis
 and assumption surfacing instead of interview-style questioning.

@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # LLM Router
 
 Chat UI includes an intelligent routing system that automatically selects the best model for each request. When enabled, users see a virtual "Omni" model that routes to specialized models based on the conversation context.

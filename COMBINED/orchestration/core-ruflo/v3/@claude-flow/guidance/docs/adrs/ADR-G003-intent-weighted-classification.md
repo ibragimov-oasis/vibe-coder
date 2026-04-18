@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # ADR-G003: Intent-Weighted Classification -- Deterministic Task Intent Without LLM Calls
 
 ## Status

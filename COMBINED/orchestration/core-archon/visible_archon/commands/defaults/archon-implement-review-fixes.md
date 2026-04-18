@@ -1,6 +1,10 @@
 ---
 description: Implement CRITICAL and HIGH fixes from review, add tests, report remaining issues
 argument-hint: (none - reads from consolidated review artifact)
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-archon
 ---
 
 # Implement Review Fixes

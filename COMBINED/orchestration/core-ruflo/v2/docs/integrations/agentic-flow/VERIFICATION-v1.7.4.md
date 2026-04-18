@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # agentic-flow v1.7.4 Verification Report
 
 **Test Date**: 2025-10-24

@@ -1,6 +1,10 @@
 ---
 "@bradygaster/squad-cli": minor
 "@bradygaster/squad-sdk": patch
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-squad
 ---
 
 Add retro enforcement skill with Test-RetroOverdue and ceremonies template update.

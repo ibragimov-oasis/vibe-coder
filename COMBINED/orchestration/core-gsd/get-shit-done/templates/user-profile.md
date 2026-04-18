@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-gsd
+---
+
 # Developer Profile
 
 > This profile was generated from session analysis. It contains behavioral directives

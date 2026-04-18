@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # Claude-Flow v3 SDK Architecture Analysis
 
 ## Deep Review: agentic-flow@alpha + ruvector Ecosystem

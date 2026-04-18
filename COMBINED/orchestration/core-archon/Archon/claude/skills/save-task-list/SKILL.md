@@ -27,6 +27,10 @@ hooks:
           command: "jq -r '[.tool_name, .tool_input.command // \"n/a\"] | join(\": \")' | head -1"
           statusMessage: "Logging tool use..."
           once: true
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-archon
 ---
 
 # Save Task List for Reuse

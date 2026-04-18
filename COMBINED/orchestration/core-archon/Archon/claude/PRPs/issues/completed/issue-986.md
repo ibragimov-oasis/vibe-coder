@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-archon
+---
+
 # Investigation: Release workflow bypasses scripts/build-binaries.sh — v0.2.13 and v0.3.0 binaries are broken
 
 **Issue**: #986 (https://github.com/coleam00/Archon/issues/986)

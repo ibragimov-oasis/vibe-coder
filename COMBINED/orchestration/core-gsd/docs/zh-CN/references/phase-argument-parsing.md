@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-gsd
+---
+
 # 阶段参数解析
 
 为操作阶段的命令解析和规范化阶段参数。

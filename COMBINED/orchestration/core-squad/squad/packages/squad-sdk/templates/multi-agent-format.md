@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-squad
+---
+
 # Multi-Agent Artifact Format
 
 When multiple agents contribute to a final artifact (document, analysis, design), use this format. The assembled result must include:

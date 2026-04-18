@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-taskmaster
+---
+
 # Task Title Formatting Issue Discussion
 
 _Exported on 5/22/2025 at 00:05:09 EDT from Cursor (0.50.5)_

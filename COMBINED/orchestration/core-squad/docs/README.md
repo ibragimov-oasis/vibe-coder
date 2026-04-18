@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-squad
+---
+
 # Squad Docs
 
 The documentation site for Squad, built with [Astro](https://astro.build/), [Tailwind CSS](https://tailwindcss.com/), and [Pagefind](https://pagefind.app/) for search.
@@ -103,3 +110,9 @@ Post content here.
 ```
 
 Blog posts are automatically discovered and listed on the blog index page.
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-squad]] — core-squad
+

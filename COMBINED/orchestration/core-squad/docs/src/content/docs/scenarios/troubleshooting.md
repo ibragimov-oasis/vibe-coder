@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-squad
+---
+
 # Troubleshooting
 
 Common issues and fixes for Squad installation and usage.

@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # @claude-flow/plugin-hyperbolic-reasoning
 
 [![npm version](https://img.shields.io/npm/v/@claude-flow/plugin-hyperbolic-reasoning.svg)](https://www.npmjs.com/package/@claude-flow/plugin-hyperbolic-reasoning)
@@ -316,3 +323,9 @@ The plugin supports learning optimal curvature per hierarchy:
 ## License
 
 MIT
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-ruflo]] — core-ruflo
+

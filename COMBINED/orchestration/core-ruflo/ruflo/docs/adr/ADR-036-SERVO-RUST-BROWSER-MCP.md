@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # ADR-036: Servo Replaces Playwright as Browser Engine for @claude-flow/browser
 
 **Status:** Accepted

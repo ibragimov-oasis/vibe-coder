@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # agent-coordination
 
 Coordination patterns for multi-agent collaboration.

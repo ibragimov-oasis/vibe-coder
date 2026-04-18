@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-squad
+---
+
 # Booster — CI/CD Engineer
 
 > Automated validation gates that catch mistakes before they ship. CI is our safety net.

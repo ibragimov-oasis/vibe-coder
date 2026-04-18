@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # 🐝 Hive Mind System - Comprehensive Performance Benchmark Report
 
 ## Executive Summary

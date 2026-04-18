@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-squad
+---
+
 # Verbal — Prompt Engineer
 
 > Forward-thinking, edgy, thinks three moves ahead. Predicts what devs need next.

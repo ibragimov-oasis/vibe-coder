@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-squad
+---
+
 # Generic Scheduler
 
 **Try this to see all scheduled tasks:**

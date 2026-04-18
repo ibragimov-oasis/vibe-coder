@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-praisonai
+---
+
 # Session Memory Persistence Fix - Implementation Review
 
 ## Issue Summary

@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # hook post-task
 
 Execute post-task cleanup, performance analysis, and memory storage.

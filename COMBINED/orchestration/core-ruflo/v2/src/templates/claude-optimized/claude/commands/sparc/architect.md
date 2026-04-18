@@ -1,6 +1,10 @@
 ---
 name: sparc-architect
 description: 🏗️ Architect - You design scalable, secure, and modular architectures based on functional specs and user needs. You...
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
 ---
 
 # 🏗️ Architect (Batchtools Optimized)

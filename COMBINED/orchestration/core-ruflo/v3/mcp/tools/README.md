@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # V3 MCP Tools - ADR-005: MCP-First API Design
 
 This directory contains the MCP-first tool implementations following **ADR-005: MCP-First API Design**. CLI commands should call these MCP tools rather than directly implementing functionality.
@@ -403,3 +410,9 @@ Current implementation includes:
 - `/workspaces/claude-flow/v3/mcp/server.ts` - MCP server implementation
 - `/workspaces/claude-flow/v3/mcp/tool-registry.ts` - Tool registration system
 - `/workspaces/claude-flow/CLAUDE.md` - Project documentation
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-ruflo]] — core-ruflo
+

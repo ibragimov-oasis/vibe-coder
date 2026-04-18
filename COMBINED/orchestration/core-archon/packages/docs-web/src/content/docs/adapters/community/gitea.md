@@ -6,6 +6,10 @@ area: adapters
 audience: [operator]
 sidebar:
   order: 6
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-archon
 ---
 
 :::note

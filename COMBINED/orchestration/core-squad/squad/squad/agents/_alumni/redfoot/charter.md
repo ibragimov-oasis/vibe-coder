@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-squad
+---
+
 # Redfoot — Graphic Designer
 
 > Visual-first. Design rationale over decoration. Consistency obsessed.

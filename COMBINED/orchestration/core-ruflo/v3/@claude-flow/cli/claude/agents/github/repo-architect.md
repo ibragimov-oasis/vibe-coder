@@ -36,6 +36,10 @@ hooks:
   notification: |
     echo "📋 Notifying stakeholders of architecture improvements..."
     npx claude-flow@v3alpha hook notification --mode repo-architect
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
 ---
 
 # GitHub Repository Architect

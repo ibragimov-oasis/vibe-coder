@@ -3,6 +3,9 @@ name: transitions
 description: Scene transitions and overlays for Remotion using TransitionSeries.
 metadata:
   tags: transitions, overlays, fade, slide, wipe, scenes
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-archon
 ---
 
 ## TransitionSeries

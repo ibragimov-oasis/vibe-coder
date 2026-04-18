@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-archon
+---
+
 # Community Forge Adapters
 
 Forge adapters connect Archon to code hosting platforms (GitHub, GitLab, etc.) via webhooks.
@@ -116,3 +123,9 @@ getLog().error({ err }, 'error_posting');
 ## Reference
 
 See the GitHub adapter (`packages/adapters/src/forge/github/`) for a complete working example.
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-archon]] — core-archon
+

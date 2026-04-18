@@ -30,6 +30,9 @@ related_skills:
   - github-release-management
   - sparc-orchestrator
 estimated_time: 30-45 minutes
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
 ---
 
 # GitHub Project Management

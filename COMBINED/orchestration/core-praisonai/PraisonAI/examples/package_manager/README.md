@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-praisonai
+---
+
 # Package Manager Example
 
 This example demonstrates how to use the PraisonAI package manager for installing and managing Python packages with security defaults.
@@ -99,3 +106,9 @@ praisonai install mypackage \
 
 - `PRAISONAI_PACKAGE_INDEX_URL` - Override primary index URL
 - `PIP_INDEX_URL` - Fallback to pip's index URL
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-praisonai]] — core-praisonai
+

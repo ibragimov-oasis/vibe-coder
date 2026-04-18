@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-archon
+---
+
 # Issue Cookbook
 
 Create well-structured GitHub issues from conversation context. Classifies bug vs feature, finds the right template, validates with a subagent, and submits via `gh`.

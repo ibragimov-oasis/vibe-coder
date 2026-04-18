@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-background-agents
+---
+
 # Open-Inspect Modal Infrastructure
 
 Modal-based sandbox infrastructure for the Open-Inspect coding agent system.
@@ -214,3 +221,9 @@ modal run src/cli.py::list_repos
 # Register a repository (for testing)
 modal run src/cli.py::register_repo --owner your-org --name your-repo
 ```
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-background-agents]] — core-background-agents
+

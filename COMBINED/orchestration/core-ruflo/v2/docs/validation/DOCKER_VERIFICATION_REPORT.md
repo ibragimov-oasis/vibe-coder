@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # Docker Verification Report - claude-flow@2.7.1
 
 **Date**: 2025-10-22

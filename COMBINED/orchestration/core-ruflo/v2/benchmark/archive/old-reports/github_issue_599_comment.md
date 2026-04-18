@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # Agent 3 Validation Report - Issue #599
 
 ## ✅ VALIDATION COMPLETE - SUCCESS

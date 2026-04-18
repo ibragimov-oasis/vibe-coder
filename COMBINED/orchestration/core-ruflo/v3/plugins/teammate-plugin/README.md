@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # @claude-flow/teammate-plugin
 
 Native **TeammateTool** integration plugin for Claude Flow. Bridges Claude Code v2.1.19+ multi-agent orchestration capabilities with Claude Flow's swarm system.
@@ -711,3 +718,9 @@ MIT
 - [Claude Flow](https://github.com/ruvnet/claude-flow) - Multi-agent orchestration framework
 - [Claude Code](https://github.com/anthropics/claude-code) - Anthropic's CLI for Claude
 - [ADR-027](../implementation/adrs/ADR-027-teammate-tool-integration.md) - Architecture decision record
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-ruflo]] — core-ruflo
+

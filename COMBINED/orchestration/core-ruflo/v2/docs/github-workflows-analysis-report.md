@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # GitHub Actions Workflow Failures - Detailed Analysis Report
 
 **Generated**: 2025-11-24

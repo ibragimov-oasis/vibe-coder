@@ -2,6 +2,10 @@
 sidebar_position: 10
 title: "DingTalk"
 description: "Set up Hermes Agent as a DingTalk chatbot"
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-hermes
 ---
 
 # DingTalk Setup

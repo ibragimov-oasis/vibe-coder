@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-gsd
+---
+
 # GSD アーキテクチャ
 
 > コントリビューターおよび上級ユーザー向けのシステムアーキテクチャ文書です。ユーザー向けドキュメントは[機能リファレンス](FEATURES.md)または[ユーザーガイド](USER-GUIDE.md)をご覧ください。

@@ -1,6 +1,10 @@
 ---
 description: Simplify code changed in this PR — implements fixes directly, commits, and pushes
 argument-hint: (none - operates on the current branch diff against $BASE_BRANCH)
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-archon
 ---
 
 # Simplify Changed Code

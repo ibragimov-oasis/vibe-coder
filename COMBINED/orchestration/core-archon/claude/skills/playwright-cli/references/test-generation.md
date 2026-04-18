@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-archon
+---
+
 # Test Generation
 
 Generate Playwright test code automatically as you interact with the browser.

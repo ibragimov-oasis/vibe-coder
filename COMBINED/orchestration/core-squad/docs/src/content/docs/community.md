@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-squad
+---
+
 # Squad Community
 
 Squad is built by contributors who believe in democratizing multi-agent development. This page recognizes everyone who shapes the project — through code, feedback, ideas, and engagement.

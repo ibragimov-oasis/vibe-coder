@@ -1,5 +1,9 @@
 ---
 "@bradygaster/squad-cli": patch
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-squad
 ---
 
 docs: Add KEDA external scaler template for GitHub issue-driven autoscaling

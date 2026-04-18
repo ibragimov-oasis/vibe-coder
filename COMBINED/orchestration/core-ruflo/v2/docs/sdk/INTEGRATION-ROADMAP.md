@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # SDK Integration Roadmap
 **Making NPX commands and MCP tools use real SDK features**
 

@@ -8,6 +8,10 @@ capabilities:
   - performance_testing
   - metrics_collection
   - optimization_recommendations
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
 ---
 
 # Worker Benchmarks Skill

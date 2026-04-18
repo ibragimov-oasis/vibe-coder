@@ -6,6 +6,10 @@ audience: [user]
 status: current
 sidebar:
   order: 0
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-archon
 ---
 
 Everything you need to go from zero to a working Archon setup — whether you prefer the Web UI or the CLI.

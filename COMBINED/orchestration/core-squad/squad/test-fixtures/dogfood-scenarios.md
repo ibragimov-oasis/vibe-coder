@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-squad
+---
+
 # Dogfood Scenarios — Squad REPL Testing
 
 ## Overview

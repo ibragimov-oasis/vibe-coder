@@ -6,6 +6,9 @@ wave: 3
 tags: [squad, wave-3, docs, site-generator, markdown-it, guides]
 status: published
 hero: "We built a docs engine from scratch because the docs should teach you how to solve problems, not how to call functions."
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-squad
 ---
 
 # Wave 3: Docs That Teach

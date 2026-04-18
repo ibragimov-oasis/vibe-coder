@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # ADR-064: Stub Remediation & Full Implementation — v3.5.22
 
 **Date:** 2026-03-17

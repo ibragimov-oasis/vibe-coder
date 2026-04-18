@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-squad
+---
+
 # Streaming-chat
 
 Interactive multi-agent streaming chat demonstrating how to route user messages to the right agent, display token-by-token responses, and work with both live Copilot sessions and demo mode for testing.
@@ -81,3 +88,9 @@ Messages without keyword matches default to Backend.
 - Check [cost-aware-router](../cost-aware-router/README.md) to learn tier selection and budget tracking
 - See [rock-paper-scissors](../rock-paper-scissors/README.md) for advanced multi-agent competition with learning
 - Read the [Squad SDK documentation](../../README.md) for more routing and session patterns
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-squad]] — core-squad
+

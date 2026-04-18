@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # AgentDB Integration - Optimization & Performance Analysis
 
 **Agent**: Agent 3 - Optimization Specialist

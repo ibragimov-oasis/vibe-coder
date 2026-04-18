@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/superpowers
+---
+
 # Visual Brainstorming Refactor: Browser Displays, Terminal Commands
 
 **Date:** 2026-02-19

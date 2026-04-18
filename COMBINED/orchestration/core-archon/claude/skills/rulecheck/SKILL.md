@@ -7,6 +7,10 @@ description: |
 disable-model-invocation: true
 agent: rulecheck-agent
 argument-hint: "[focus area]"
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-archon
 ---
 
 # Rulecheck

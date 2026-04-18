@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # ✅ DOCKER TEST CONFIRMATION - WSL ENOTEMPTY Fix
 
 **Status**: 🟢 **CONFIRMED - FIX WORKING**

@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # ADR-005: MCP-First API Design - Implementation Summary
 
 **Date**: 2026-01-04

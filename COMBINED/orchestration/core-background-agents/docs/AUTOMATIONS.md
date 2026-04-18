@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-background-agents
+---
+
 # Automations
 
 Automations let you run coding agents on a recurring schedule. Define a task, pick a repository and

@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-squad
+---
+
 # Design Spec: Fixed Bottom Input Box
 
 **Issue:** #679  

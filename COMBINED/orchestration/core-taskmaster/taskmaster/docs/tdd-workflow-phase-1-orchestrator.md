@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-taskmaster
+---
+
 # Phase 1: Core Rails - State Machine & Orchestration
 
 ## Objective

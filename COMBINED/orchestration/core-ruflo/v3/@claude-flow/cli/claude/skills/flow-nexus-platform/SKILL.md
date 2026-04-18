@@ -5,6 +5,9 @@ category: platform
 version: 1.0.0
 author: Flow Nexus
 tags: [authentication, sandboxes, deployment, payments, gamification, cloud]
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
 ---
 
 # Flow Nexus Platform Management

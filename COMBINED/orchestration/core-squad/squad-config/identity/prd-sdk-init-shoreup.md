@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-squad
+---
+
 # PRD: SDK Init Shore-Up
 **Initiative:** Comprehensive SDK Init Quality Gate  
 **Owner:** Flight  

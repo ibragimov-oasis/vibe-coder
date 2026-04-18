@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-archon
+---
+
 # Architecture Deep Dive
 
 > **Purpose**: End-to-end flow traces across the entire Archon system with file:line references.

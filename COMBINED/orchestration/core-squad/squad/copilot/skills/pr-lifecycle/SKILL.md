@@ -4,6 +4,10 @@ description: "Complete issue → PR → merge lifecycle with readiness checks"
 domain: "workflow"
 confidence: "high"
 source: "extracted from CONTRIBUTING.md, PR_REQUIREMENTS.md, squad-ci.yml"
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-squad
 ---
 
 ## Context

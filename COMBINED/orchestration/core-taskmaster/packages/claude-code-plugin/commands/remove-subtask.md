@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-taskmaster
+---
+
 Remove a subtask from its parent task.
 
 Arguments: $ARGUMENTS

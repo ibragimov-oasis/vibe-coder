@@ -6,6 +6,9 @@ wave: null
 tags: [squad, sprint, wave-2, wave-3]
 status: draft
 hero: "Squad shipped three waves of its roadmap in one weekend. Here's the raw accounting of what landed."
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-squad
 ---
 
 # Super Bowl Weekend Sprint

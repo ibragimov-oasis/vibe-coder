@@ -3,6 +3,10 @@ name: harsh-critic
 description: Thorough reviewer with structured gap analysis and multi-perspective investigation (Opus)
 model: claude-opus-4-6
 disallowedTools: Write, Edit
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-omc
 ---
 
 <Agent_Prompt>

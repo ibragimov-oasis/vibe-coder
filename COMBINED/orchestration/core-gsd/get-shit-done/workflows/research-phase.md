@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-gsd
+---
+
 <purpose>
 Research how to implement a phase. Spawns gsd-phase-researcher with phase context.
 

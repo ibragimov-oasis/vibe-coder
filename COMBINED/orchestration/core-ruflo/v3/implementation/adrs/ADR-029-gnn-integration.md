@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # ADR-029: Graph Neural Network Integration for Claude-Flow V3
 
 **Status:** Proposed

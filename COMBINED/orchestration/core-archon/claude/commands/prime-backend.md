@@ -1,5 +1,9 @@
 ---
 description: Prime agent with Archon backend (core + server) context
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-archon
 ---
 
 # Prime Backend: Core and Server Orientation

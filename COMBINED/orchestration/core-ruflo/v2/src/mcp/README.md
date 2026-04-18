@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # MCP (Model Context Protocol) Implementation
 
 This directory contains a comprehensive implementation of the Model Context Protocol (MCP) for Claude-Flow, providing robust server lifecycle management, tool registration and discovery, protocol version negotiation, security, performance monitoring, and integration with the broader orchestration system.
@@ -527,3 +534,9 @@ See the individual component files for detailed API documentation:
 - [Auth Manager API](./auth.ts)
 - [Performance Monitor API](./performance-monitor.ts)
 - [Orchestration Integration API](./orchestration-integration.ts)
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-ruflo]] — core-ruflo
+

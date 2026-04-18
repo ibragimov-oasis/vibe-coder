@@ -21,6 +21,10 @@ metadata:
     - Best practices validation
     - Code smell detection
     - Refactoring suggestions
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
 ---
 
 # Code Analyzer Agent

@@ -4,6 +4,10 @@ agent: "agent"
 tools:
   - runInTerminal
   - readFile
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-archon
 ---
 
 # Install

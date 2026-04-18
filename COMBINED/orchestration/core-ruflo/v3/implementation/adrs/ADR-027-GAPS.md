@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # ADR-027 Gap Analysis: Missing Plugin Features
 
 **Date:** 2026-01-25

@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-praisonai
+---
+
 # SandlockSandbox: Kernel-Level Code Isolation
 
 SandlockSandbox provides the highest security level available for code execution on Linux systems, using kernel-level isolation via **Landlock** and **seccomp-bpf**.

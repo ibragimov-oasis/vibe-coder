@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # Claude Optimized Template Changelog
 
 All notable changes to the Claude optimized template will be documented in this file.

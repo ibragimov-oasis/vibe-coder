@@ -1,6 +1,10 @@
 ---
 description: Verify plan research is still valid - check patterns exist, code hasn't drifted
 argument-hint: (no arguments - reads from workflow artifacts)
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-archon
 ---
 
 # Confirm Plan Research

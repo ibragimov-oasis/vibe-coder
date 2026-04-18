@@ -1,6 +1,10 @@
 ---
 name: flow-nexus-neural
 description: Train and deploy neural networks in distributed sandboxes
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
 ---
 
 # Flow Nexus Neural Networks

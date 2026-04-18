@@ -92,6 +92,10 @@ hooks:
     fi
 
     memory_store "refine_complete_$(date +%s)" "Code refined and tested with learning (coverage: $TEST_COVERAGE%)"
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
 ---
 
 # SPARC Refinement Agent

@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-taskmaster
+---
+
 Add new tasks with intelligent parsing and context awareness.
 
 Arguments: $ARGUMENTS

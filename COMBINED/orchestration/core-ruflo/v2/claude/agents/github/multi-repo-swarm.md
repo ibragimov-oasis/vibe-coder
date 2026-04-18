@@ -30,6 +30,10 @@ hooks:
     - "gh pr list --state open --limit 5 | grep -q . && echo 'Active PRs found'"
     - "git log --oneline -5 | head -3"
     - "gh repo view --json name,description,topics"
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
 ---
 
 # Multi-Repo Swarm - Cross-Repository Swarm Orchestration

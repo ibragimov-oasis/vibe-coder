@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # ADR-054: RVF-Powered Plugin Marketplace & Hosted Registry
 
 **Status:** Proposed

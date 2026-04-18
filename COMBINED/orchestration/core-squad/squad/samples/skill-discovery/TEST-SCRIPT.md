@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-squad
+---
+
 # Skill Discovery — Test Script
 
 Manual verification steps for the skill-discovery sample.

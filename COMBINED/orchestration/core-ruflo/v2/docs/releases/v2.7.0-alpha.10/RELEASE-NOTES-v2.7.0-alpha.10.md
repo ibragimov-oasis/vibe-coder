@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # Release Notes: v2.7.0-alpha.10
 
 **Release Date**: October 13, 2025

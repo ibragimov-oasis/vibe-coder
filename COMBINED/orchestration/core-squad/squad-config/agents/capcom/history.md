@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-squad
+---
+
 # CAPCOM — History
 
 > Knowledge base for the SDK Expert. Append-only, union-merged across branches.

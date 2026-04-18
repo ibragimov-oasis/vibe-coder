@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-archon
+---
+
 # Archon Configuration Guide
 
 Interactive guide for viewing and modifying Archon configuration. Use this when the user wants to change, view, or understand their config — at any point, not just during initial setup.

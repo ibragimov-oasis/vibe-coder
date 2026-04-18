@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # Your First Claude Flow Swarm
 
 This tutorial will guide you through creating your first swarm and understanding how Claude Flow works.

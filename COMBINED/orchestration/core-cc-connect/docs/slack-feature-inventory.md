@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-cc-connect
+---
+
 # Slack Platform Feature Inventory
 
 ## What Existed Before Our Work (on main)

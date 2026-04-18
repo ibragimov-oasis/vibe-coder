@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-squad
+---
+
 # RETRO — Security
 
 > Thorough but pragmatic. Raises real risks, not hypothetical ones.

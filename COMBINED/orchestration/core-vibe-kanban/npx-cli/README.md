@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-vibe-kanban
+---
+
 # Vibe Kanban
 
 > A visual project management tool for developers that integrates with git repositories and coding agents like Claude Code and Amp.
@@ -180,3 +187,9 @@ npx vibe-kanban
 ```
 
 _Start managing your projects with the power of AI coding agents today!_
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-vibe-kanban]] — core-vibe-kanban
+

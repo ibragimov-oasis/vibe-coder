@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-archon
+---
+
 # Part 2: Extensibility — Skills, Agents & Hooks
 
 **Host**: Rasmus

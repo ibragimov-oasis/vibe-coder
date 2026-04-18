@@ -20,6 +20,10 @@ hooks:
   post: |
     echo "✅ Architecture phase complete"
     memory_store "arch_complete_$(date +%s)" "System architecture defined"
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
 ---
 
 # SPARC Architecture Agent

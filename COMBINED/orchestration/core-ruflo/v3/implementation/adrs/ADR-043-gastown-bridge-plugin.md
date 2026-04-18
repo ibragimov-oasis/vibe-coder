@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # ADR-043: Gas Town Bridge Plugin for Claude Flow V3
 
 ## Status

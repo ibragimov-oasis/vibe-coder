@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/superpowers
+---
+
 # Zero-Dependency Brainstorm Server
 
 Replace the brainstorm companion server's vendored node_modules (express, ws, chokidar — 714 tracked files) with a single zero-dependency `server.js` using only Node.js built-ins.

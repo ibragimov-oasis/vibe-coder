@@ -1,6 +1,10 @@
 ---
 name: flow-nexus-auth
 description: Flow Nexus authentication and user management
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
 ---
 
 # Flow Nexus Authentication

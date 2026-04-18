@@ -6,6 +6,10 @@ part: core-workflows
 audience: [user]
 sidebar:
   order: 4
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-archon
 ---
 
 You now know how Archon works. The question becomes: which workflow do I reach for?

@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-cc-connect
+---
+
 # Discord Setup Guide
 
 This guide walks you through connecting **cc-connect** to Discord, so you can chat with your local Claude Code via a Discord bot.

@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-squad
+---
+
 ## SDK Init Shore-Up — Umbrella Issue
 
 **Consolidates:** #337, #338, #339, #340, #341, #342

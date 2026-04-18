@@ -2,6 +2,10 @@
 sidebar_position: 8
 title: "Session Storage"
 description: "How Hermes stores sessions in SQLite, maintains lineage, and exposes recall/search"
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-hermes
 ---
 
 # Session Storage

@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # @claude-flow/neural
 
 [![npm version](https://img.shields.io/npm/v/@claude-flow/neural.svg)](https://www.npmjs.com/package/@claude-flow/neural)
@@ -258,3 +265,9 @@ import type {
 ## License
 
 MIT
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-ruflo]] — core-ruflo
+

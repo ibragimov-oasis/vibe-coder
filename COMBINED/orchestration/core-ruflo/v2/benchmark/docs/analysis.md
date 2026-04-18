@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # Benchmark Analysis Guide
 
 Learn how to analyze and interpret benchmark results to optimize your swarm performance.

@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-hermes
+---
+
 # Filesystem Checkpoints
 
 Hermes automatically snapshots your working directory before making file changes, giving you a safety net to roll back if something goes wrong. Checkpoints are **enabled by default**.

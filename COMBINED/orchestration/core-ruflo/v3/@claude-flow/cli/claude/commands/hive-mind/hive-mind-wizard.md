@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # hive-mind-wizard
 
 Command documentation for hive-mind-wizard in category hive-mind.

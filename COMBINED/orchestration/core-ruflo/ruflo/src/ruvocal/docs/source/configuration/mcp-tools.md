@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # MCP Tools
 
 Chat UI supports tool calling via the [Model Context Protocol (MCP)](https://modelcontextprotocol.io/). MCP servers expose tools that models can invoke during conversations.

@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # Release Summary - claude-flow v2.7.1
 
 ## 🎉 Release Complete & Verified

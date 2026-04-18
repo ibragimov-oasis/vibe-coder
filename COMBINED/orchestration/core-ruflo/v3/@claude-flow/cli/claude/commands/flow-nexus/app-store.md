@@ -1,6 +1,10 @@
 ---
 name: flow-nexus-app-store
 description: Browse, publish, and deploy applications
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
 ---
 
 # Flow Nexus App Store

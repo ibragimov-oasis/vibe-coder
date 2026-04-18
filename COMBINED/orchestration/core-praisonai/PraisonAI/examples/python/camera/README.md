@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-praisonai
+---
+
 # Camera Integration Examples
 
 This directory contains examples demonstrating how to integrate camera feeds with PraisonAI multimodal agents for real-time visual analysis.
@@ -171,3 +178,9 @@ for i in range(4):  # Check first 4 camera indices
 ## 🤝 Contributing
 
 Feel free to contribute additional camera integration examples or improvements to existing ones!
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-praisonai]] — core-praisonai
+

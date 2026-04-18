@@ -7,6 +7,10 @@ audience: [user]
 status: current
 sidebar:
   order: 8
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-archon
 ---
 
 Workflows placed in `~/.archon/.archon/workflows/` are loaded globally -- they appear in

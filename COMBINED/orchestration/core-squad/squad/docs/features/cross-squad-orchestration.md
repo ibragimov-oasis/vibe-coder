@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-squad
+---
+
 # Cross-Squad Orchestration
 
 **Try this to discover known squads:**

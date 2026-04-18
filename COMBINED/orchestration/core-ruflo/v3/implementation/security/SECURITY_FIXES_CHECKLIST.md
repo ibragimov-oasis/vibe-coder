@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # Security Fixes Checklist for v3.0.0
 
 This checklist provides actionable steps to address all security vulnerabilities identified in the security audit.

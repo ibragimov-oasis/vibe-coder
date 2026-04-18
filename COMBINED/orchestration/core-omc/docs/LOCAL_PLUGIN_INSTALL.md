@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-omc
+---
+
 # Local Plugin Installation
 
 How to install oh-my-claudecode from a local development directory as a Claude Code plugin.

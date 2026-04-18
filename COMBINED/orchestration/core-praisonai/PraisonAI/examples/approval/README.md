@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-praisonai
+---
+
 # Approval Examples
 
 Minimal examples showing how to route tool-execution approvals through
@@ -29,3 +36,9 @@ export PRAISONAI_TELEGRAM_SSL_VERIFY=false
 ```
 
 Default is `true` (secure).
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-praisonai]] — core-praisonai
+

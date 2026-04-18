@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-squad
+---
+
 # Skill: Ralph — Two-Pass Issue Scanning
 **Confidence:** high
 **Domain:** work-monitoring

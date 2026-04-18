@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-gsd
+---
+
 # GSD 用户指南
 
 工作流、故障排除和配置的详细参考。快速入门设置请参阅 [README](README.md)。

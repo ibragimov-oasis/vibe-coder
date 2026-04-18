@@ -2,6 +2,10 @@
 updated_at: {timestamp}
 focus_area: {brief description}
 active_issues: []
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-squad
 ---
 
 # What We're Focused On

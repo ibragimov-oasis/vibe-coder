@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-archon
+---
+
 # Research Cookbook
 
 Pure codebase cartography. Documents what IS, not what SHOULD BE. Answer questions about the codebase with evidence.

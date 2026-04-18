@@ -21,6 +21,10 @@ hooks:
     echo "✅ Byzantine consensus complete"
     # Validate consensus results
     echo "🔐 Verifying message signatures and ordering"
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
 ---
 
 # Byzantine Consensus Coordinator

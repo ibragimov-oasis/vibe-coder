@@ -25,6 +25,10 @@ hooks:
   post: |
     echo "✅ Integration analysis complete"
     mcp__claude-flow__memory_usage --action="store" --namespace="architecture" --key="integration:analysis:$(date +%s)" --value="ADR-001 compliance checked"
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
 ---
 
 # V3 Integration Architect Agent

@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-gsd
+---
+
 # Verification Report Template
 
 Template for `.planning/phases/XX-name/{phase_num}-VERIFICATION.md` — phase goal verification results.

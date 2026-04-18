@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-taskmaster
+---
+
 List tasks with intelligent argument parsing.
 
 Parse arguments to determine filters and display options:

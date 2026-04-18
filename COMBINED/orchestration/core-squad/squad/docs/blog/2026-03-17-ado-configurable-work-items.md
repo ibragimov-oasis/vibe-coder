@@ -6,6 +6,9 @@ wave: null
 tags: [squad, azure-devops, ado, work-items, configuration]
 status: published
 hero: "Squad now adapts to your Azure DevOps process template. Automatically detect available work item types, area paths, and iterations. No more hardcoded defaults."
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-squad
 ---
 
 # ADO Configurable Work Items: Match Your Process

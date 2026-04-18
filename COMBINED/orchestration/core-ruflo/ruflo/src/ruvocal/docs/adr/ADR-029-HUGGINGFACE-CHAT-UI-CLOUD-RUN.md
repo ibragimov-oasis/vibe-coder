@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # ADR-029: HuggingFace Chat UI on Cloud Run — chat.conveyorclaims.ai
 
 ## Status

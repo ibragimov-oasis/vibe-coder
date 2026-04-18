@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # NPX Memory Command Fix - v2.7.19 Final Solution
 
 **Issue:** `npx claude-flow@alpha memory` commands fail with BetterSqlite3 constructor error

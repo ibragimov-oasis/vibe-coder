@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-omc
+---
+
 # Delegation Categories
 
 Category-based delegation system that layers on top of the ComplexityTier system. Provides semantic grouping with automatic tier, temperature, and thinking budget configuration.
@@ -265,3 +272,9 @@ Potential enhancements:
 - User-defined custom categories
 - Category learning from successful delegations
 - Dynamic category detection using model analysis
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-omc]] — core-omc
+

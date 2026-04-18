@@ -3,6 +3,10 @@ name: Benchmark Suite
 type: agent
 category: optimization
 description: Comprehensive performance benchmarking, regression detection and performance validation
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
 ---
 
 # Benchmark Suite Agent

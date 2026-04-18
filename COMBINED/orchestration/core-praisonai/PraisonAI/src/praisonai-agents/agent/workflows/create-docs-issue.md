@@ -1,5 +1,9 @@
 ---
 description: Audit existing docs against live code, then create a comprehensive GitHub issue in PraisonAIDocs with correct, tested information ready for a writer/agent to implement immediately
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-praisonai
 ---
 
 # Create PraisonAIDocs Issue Workflow

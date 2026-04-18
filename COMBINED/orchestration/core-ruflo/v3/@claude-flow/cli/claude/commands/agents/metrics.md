@@ -2,6 +2,10 @@
 name: metrics
 description: Show agent performance metrics
 type: command
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
 ---
 
 # Agent Metrics Command

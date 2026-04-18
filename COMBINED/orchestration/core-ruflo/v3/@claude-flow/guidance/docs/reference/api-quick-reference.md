@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # API Quick Reference
 
 All exports from `@claude-flow/guidance`. Each module is also available as a standalone import.

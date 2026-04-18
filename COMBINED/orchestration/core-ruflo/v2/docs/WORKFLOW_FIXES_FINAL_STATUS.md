@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # GitHub Actions Workflow Fixes - Final Status Report
 
 ## 📊 Executive Summary

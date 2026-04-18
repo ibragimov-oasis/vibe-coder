@@ -3,6 +3,9 @@ name: sfx
 description: Including sound effects
 metadata:
   tags: sfx, sound, effect, audio
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-archon
 ---
 
 To include a sound effect, use the `<Audio>` tag:

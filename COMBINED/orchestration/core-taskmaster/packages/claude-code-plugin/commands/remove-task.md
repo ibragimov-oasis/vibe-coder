@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-taskmaster
+---
+
 Remove a task permanently from the project.
 
 Arguments: $ARGUMENTS (task ID)

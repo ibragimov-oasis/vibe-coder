@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-squad
+---
+
 # PRD: Squad CLI UI Polish
 **Status:** Draft  
 **Author:** Keaton (Lead)  

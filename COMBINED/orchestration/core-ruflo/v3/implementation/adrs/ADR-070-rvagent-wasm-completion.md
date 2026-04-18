@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # ADR-070: Complete @ruvector/rvagent-wasm & ruvllm-wasm Integration
 
 **Status**: Implemented

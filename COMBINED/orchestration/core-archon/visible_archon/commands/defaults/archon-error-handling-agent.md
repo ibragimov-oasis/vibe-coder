@@ -1,6 +1,10 @@
 ---
 description: Review error handling for silent failures, inadequate catch blocks, and poor fallbacks
 argument-hint: (none - reads from scope artifact)
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-archon
 ---
 
 # Error Handling Agent

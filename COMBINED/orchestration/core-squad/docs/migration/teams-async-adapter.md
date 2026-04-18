@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-squad
+---
+
 # Migration Guide: Teams Adapter — Async Factory + Token Security
 
 > **Applies to:** Squad SDK ≥ v0.10.0 (PR #768)

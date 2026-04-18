@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-taskmaster
+---
+
 # ListTasks Architecture - End-to-End POC
 
 ## Current Implementation Structure

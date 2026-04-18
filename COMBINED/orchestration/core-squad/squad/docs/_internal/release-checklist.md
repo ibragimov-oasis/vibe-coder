@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-squad
+---
+
 # Release Checklist
 
 This document outlines the steps for preparing and shipping Squad releases. Follow the appropriate checklist based on the release type.

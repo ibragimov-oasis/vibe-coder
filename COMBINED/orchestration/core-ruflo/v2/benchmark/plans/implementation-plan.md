@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # Agent Swarm Benchmarking Tool - Implementation Plan
 
 ## Project Overview

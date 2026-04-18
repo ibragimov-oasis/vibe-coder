@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/superpowers
+---
+
 # Superpowers for OpenCode
 
 Complete guide for using Superpowers with [OpenCode.ai](https://opencode.ai).

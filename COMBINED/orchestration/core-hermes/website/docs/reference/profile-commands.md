@@ -1,5 +1,9 @@
 ---
 sidebar_position: 7
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-hermes
 ---
 
 # Profile Commands Reference

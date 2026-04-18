@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-archon
+---
+
 # PRD Cookbook
 
 Problem-first, hypothesis-driven product requirements. Interactive multi-round interview that focuses on WHAT and WHY, not HOW.

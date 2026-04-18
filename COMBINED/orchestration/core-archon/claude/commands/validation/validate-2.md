@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-archon
+---
+
 # Ultimate Validation Command (Updated January 2026)
 
 Run comprehensive end-to-end validation of the Remote Agentic Coding Platform including Docker, Test Adapter, Database, and **full GitHub workflow execution**.

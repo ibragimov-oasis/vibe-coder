@@ -3,6 +3,9 @@ name: gif
 description: Displaying GIFs, APNG, AVIF and WebP in Remotion
 metadata:
   tags: gif, animation, images, animated, apng, avif, webp
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-archon
 ---
 
 # Using Animated images in Remotion

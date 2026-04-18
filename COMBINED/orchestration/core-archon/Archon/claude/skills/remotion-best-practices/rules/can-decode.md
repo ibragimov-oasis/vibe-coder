@@ -3,6 +3,9 @@ name: can-decode
 description: Check if a video can be decoded by the browser using Mediabunny
 metadata:
   tags: decode, validation, video, audio, compatibility, browser
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-archon
 ---
 
 # Checking if a video can be decoded

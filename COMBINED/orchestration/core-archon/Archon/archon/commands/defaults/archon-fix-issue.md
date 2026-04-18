@@ -1,6 +1,10 @@
 ---
 description: Implement a fix from investigation artifact - code changes, validation, and commit (no PR)
 argument-hint: <issue-number|artifact-path>
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-archon
 ---
 
 # Fix Issue

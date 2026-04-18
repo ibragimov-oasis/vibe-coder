@@ -1,6 +1,10 @@
 ---
 description: Create comprehensive feature implementation plan with codebase analysis and research
 argument-hint: <feature description | path/to/prd.md>
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-archon
 ---
 
 # Create Implementation Plan

@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-gsd
+---
+
 # Instructions for GSD
 
 - Use the get-shit-done skill when the user asks for GSD or uses a `gsd-*` command.

@@ -6,6 +6,9 @@ wave: null
 tags: [squad, scheduler, automation, cron, tasks]
 status: published
 hero: "Stop scattering cron jobs, polling scripts, and manual triggers. Define all recurring squad tasks in one place and let Squad run them locally or on GitHub Actions."
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-squad
 ---
 
 # Generic Scheduler: Unified Task Orchestration

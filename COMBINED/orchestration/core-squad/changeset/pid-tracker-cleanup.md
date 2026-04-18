@@ -1,5 +1,9 @@
 ---
 '@bradygaster/squad-cli': patch
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-squad
 ---
 
 fix(watch): track child process PIDs and cleanup orphans on exit

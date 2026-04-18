@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-omc
+---
+
 # Agent Tiers Reference
 
 This is the single source of truth for all agent tier information. All skill files and documentation should reference this file instead of duplicating the table.

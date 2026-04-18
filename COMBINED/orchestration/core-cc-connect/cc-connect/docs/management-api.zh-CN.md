@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-cc-connect
+---
+
 # cc-connect 管理 API 规范
 
 > **版本：** 1.0-draft  

@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-squad
+---
+
 # Proposal: Tiered Agent Memory Skill
 
 **Issue:** bradygaster/squad#600

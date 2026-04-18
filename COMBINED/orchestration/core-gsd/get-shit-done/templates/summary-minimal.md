@@ -15,6 +15,9 @@ key-files:
 key-decisions: []
 duration: Xmin
 completed: YYYY-MM-DD
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-gsd
 ---
 
 # Phase [X]: [Name] Summary (Minimal)

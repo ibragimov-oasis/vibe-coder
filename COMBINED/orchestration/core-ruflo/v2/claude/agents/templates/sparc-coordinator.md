@@ -21,6 +21,10 @@ hooks:
     echo "✅ SPARC coordination phase complete"
     memory_store "sparc_coord_complete_$(date +%s)" "SPARC methodology phases coordinated"
     echo "📊 Phase progress tracked in memory"
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
 ---
 
 # SPARC Methodology Orchestrator Agent

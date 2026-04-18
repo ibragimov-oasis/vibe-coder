@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-cc-connect
+---
+
 # 企业微信 (WeChat Work) 接入指南
 
 本文档介绍如何将 **cc-connect** 接入企业微信，让你可以通过企业微信（甚至个人微信）远程调用 Claude Code。

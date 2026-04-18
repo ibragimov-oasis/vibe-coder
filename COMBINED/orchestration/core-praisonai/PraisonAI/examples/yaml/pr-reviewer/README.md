@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-praisonai
+---
+
 # PraisonAI PR Reviewer Integration Guide
 
 This guide provides step-by-step instructions for integrating PraisonAI as an automated PR reviewer in your GitHub CI/CD pipeline.
@@ -234,3 +241,9 @@ For issues and questions:
 ---
 
 *Generated as part of PraisonAI CI/CD PR Reviewer Integration (Issue #1329)*
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-praisonai]] — core-praisonai
+

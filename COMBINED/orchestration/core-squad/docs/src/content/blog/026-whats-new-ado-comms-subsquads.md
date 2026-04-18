@@ -6,6 +6,9 @@ wave: 7
 tags: [squad, azure-devops, enterprise, platform-adapter, communication, subsquads, security]
 status: published
 hero: "Squad goes enterprise with native Azure DevOps support, adds a CommunicationAdapter for platform-agnostic agent-human messaging, renames Workstreams to SubSquads, and ships critical security hardening across all platform adapters."
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-squad
 ---
 
 # What's New: Azure DevOps Adapter, CommunicationAdapter, SubSquads, and Security Hardening

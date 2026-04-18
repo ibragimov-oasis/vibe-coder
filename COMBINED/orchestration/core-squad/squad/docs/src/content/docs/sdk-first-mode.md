@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-squad
+---
+
 # SDK-First Squad Mode
 
 > **Phase 1** — Type-safe team configuration with builder functions.

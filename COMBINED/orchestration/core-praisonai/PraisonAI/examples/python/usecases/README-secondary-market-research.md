@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-praisonai
+---
+
 # Secondary Market Research Agent System
 
 A comprehensive multi-agent system for generating customized secondary market research reports with FastAPI integration.

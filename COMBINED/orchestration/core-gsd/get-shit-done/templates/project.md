@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-gsd
+---
+
 # PROJECT.md Template
 
 Template for `.planning/PROJECT.md` — the living project context document.

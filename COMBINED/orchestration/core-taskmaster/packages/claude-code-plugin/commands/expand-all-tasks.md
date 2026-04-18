@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-taskmaster
+---
+
 Expand all pending tasks that need subtasks.
 
 ## Bulk Task Expansion

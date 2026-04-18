@@ -3,6 +3,10 @@ title: Honcho Memory
 description: AI-native persistent memory for cross-session user modeling and personalization.
 sidebar_label: Honcho Memory
 sidebar_position: 8
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-hermes
 ---
 
 # Honcho Memory

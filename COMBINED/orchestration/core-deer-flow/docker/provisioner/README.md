@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-deer-flow
+---
+
 # DeerFlow Sandbox Provisioner
 
 The **Sandbox Provisioner** is a FastAPI service that dynamically manages sandbox Pods in Kubernetes. It provides a REST API for the DeerFlow backend to create, monitor, and destroy isolated sandbox environments for code execution.
@@ -328,3 +335,9 @@ docker exec deer-flow-gateway curl -s $SANDBOX_URL/v1/sandbox
 - [ ] Multi-cluster support (route to different K8s clusters)
 - [ ] Pod affinity/anti-affinity rules for better placement
 - [ ] NetworkPolicy templates for sandbox isolation
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-deer-flow]] — core-deer-flow
+

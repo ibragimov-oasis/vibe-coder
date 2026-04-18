@@ -3,6 +3,10 @@ name: Topology Optimizer
 type: agent
 category: optimization
 description: Dynamic swarm topology reconfiguration and communication pattern optimization
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
 ---
 
 # Topology Optimizer Agent

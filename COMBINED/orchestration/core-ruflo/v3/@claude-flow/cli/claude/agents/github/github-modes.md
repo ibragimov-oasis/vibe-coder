@@ -22,6 +22,10 @@ hooks:
     echo "Completed github-modes"
     echo "GitHub operations synchronized"
     echo "Workflow coordination finalized"
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
 ---
 
 # GitHub Integration Modes

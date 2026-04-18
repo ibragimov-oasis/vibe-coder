@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # Claude-Flow v3: Complete Reimagining with agentic-flow@alpha Foundation
 
 ## Executive Summary

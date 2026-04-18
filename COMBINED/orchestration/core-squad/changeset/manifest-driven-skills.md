@@ -1,6 +1,10 @@
 ---
 "@bradygaster/squad-sdk": patch
 "@bradygaster/squad-cli": patch
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-squad
 ---
 
 fix: use TEMPLATE_MANIFEST to drive skill installation instead of wholesale directory copy

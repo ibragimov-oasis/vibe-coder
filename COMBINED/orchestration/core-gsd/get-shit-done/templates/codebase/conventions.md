@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-gsd
+---
+
 # Coding Conventions Template
 
 Template for `.planning/codebase/CONVENTIONS.md` - captures coding style and patterns.

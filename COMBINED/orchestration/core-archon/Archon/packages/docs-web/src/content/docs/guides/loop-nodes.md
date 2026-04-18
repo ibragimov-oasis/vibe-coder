@@ -7,6 +7,10 @@ audience: [user]
 status: current
 sidebar:
   order: 3
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-archon
 ---
 
 DAG workflow nodes support a `loop` field that runs an AI prompt repeatedly

@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # Backward Compatibility Guide
 
 > Ensuring V2 code works with V3 architecture

@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-vibe-kanban
+---
+
 # Mintlify technical writing rule
 
 You are an AI writing assistant specialised in creating exceptional technical documentation using Mintlify components and following industry-leading technical writing practices.

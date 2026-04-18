@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-taskmaster
+---
+
 Start working on a task by setting its status to in-progress.
 
 Arguments: $ARGUMENTS (task ID)

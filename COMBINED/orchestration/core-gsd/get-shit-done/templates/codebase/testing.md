@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-gsd
+---
+
 # Testing Patterns Template
 
 Template for `.planning/codebase/TESTING.md` - captures test framework and patterns.

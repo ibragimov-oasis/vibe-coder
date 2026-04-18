@@ -4,6 +4,10 @@ description: "Reviewer rejection workflow and strict lockout semantics"
 domain: "orchestration"
 confidence: "high"
 source: "extracted"
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-squad
 ---
 
 ## Context

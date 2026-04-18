@@ -1,5 +1,9 @@
 ---
 description: Load developer preferences into this session
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-gsd
 ---
 
 # Developer Preferences

@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # neural-train
 
 Train neural patterns with SONA (Self-Optimizing Neural Architecture) for adaptive learning and pattern recognition.

@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-taskmaster
+---
+
 Parse a PRD document to generate tasks.
 
 Arguments: $ARGUMENTS (PRD file path)

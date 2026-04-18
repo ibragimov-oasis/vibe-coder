@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # System Diagrams
 
 Mermaid diagrams for the Guidance Control Plane. Render with any Mermaid-compatible viewer (GitHub, VS Code, etc.).

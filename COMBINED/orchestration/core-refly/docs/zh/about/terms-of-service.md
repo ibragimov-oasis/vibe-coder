@@ -1,6 +1,10 @@
 ---
 title: 服务条款
 description: Refly AI 内容创作引擎服务条款
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-refly
 ---
 
 # 服务条款

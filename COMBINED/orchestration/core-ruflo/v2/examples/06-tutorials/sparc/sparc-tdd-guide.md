@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # SPARC Test-Driven Development Guide
 
 Learn how to use SPARC methodology for systematic TDD with Claude Flow.

@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-squad
+---
+
 # Adding Squad Mid-Project
 
 **Try this to catch up on current state:**

@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-multica
+---
+
 # Multica Design System
 
 本文档定义 Multica 的视觉语言和交互规范。所有 UI 开发以此为准。

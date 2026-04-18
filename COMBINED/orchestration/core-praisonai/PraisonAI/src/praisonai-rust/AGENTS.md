@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-praisonai
+---
+
 # AGENTS.md - PraisonAI Rust SDK Comprehensive Guide
 
 > **For AI Agents and Developers**: Complete context for working with the PraisonAI Rust SDK, including architecture, crate structure, and development guidelines.

@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-taskmaster
+---
+
 Intelligently determine and prepare the next action based on comprehensive context.
 
 This enhanced version of 'next' considers:

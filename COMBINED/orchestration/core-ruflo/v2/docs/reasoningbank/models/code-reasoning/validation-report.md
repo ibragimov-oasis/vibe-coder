@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # Code Reasoning ReasoningBank - Validation Report
 
 **Model**: code-reasoning

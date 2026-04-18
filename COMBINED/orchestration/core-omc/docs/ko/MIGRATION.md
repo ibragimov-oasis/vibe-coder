@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-omc
+---
+
 # 마이그레이션 가이드
 
 이 가이드는 oh-my-claudecode의 모든 마이그레이션 경로를 다룹니다. 아래에서 현재 사용 중인 버전을 찾아주세요.

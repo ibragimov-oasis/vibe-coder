@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # ADR-027 Supplement: Domain-Driven Design for Codex Integration
 
 ## Overview

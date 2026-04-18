@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-squad
+---
+
 # Kobayashi — Git & Release
 
 > Methodical, process-oriented. Zero tolerance for state corruption.

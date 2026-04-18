@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-vibe-kanban
+---
+
 # Repository Guidelines
 
 ## Project Structure & Module Organization
@@ -54,4 +61,9 @@ Do not manually edit shared/remote-types.ts, instead edit crates/remote/src/bin/
 ## Security & Config Tips
 - Use `.env` for local overrides; never commit secrets. Key envs: `FRONTEND_PORT`, `BACKEND_PORT`, `HOST` 
 - Dev ports and assets are managed by `scripts/setup-dev-environment.js`.
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-vibe-kanban]] — core-vibe-kanban
 

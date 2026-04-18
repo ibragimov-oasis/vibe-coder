@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # Claude-Flow v3 - Architecture Decision Records
 
 **Project:** Claude-Flow v3 Reimagining

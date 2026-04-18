@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-squad
+---
+
 # Proposal: Retro Enforcement Skill
 
 **Issue:** bradygaster/squad#601

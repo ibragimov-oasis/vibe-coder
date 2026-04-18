@@ -4,6 +4,10 @@ description: Detect and set up account-locked gh aliases for multi-account GitHu
 confidence: high
 source: https://github.com/tamirdresher/squad-skills/tree/main/plugins/github-multi-account
 author: tamirdresher
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-squad
 ---
 
 # GitHub Multi-Account — AI-Driven Setup

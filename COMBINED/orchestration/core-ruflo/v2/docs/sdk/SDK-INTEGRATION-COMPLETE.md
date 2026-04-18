@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # SDK Integration - COMPLETE ✅
 **Claude-Flow v2.5.0-alpha.138+**
 

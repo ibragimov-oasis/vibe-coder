@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-squad
+---
+
 # Machine Capability Discovery & Label-Based Routing
 
 > Enable Ralph to skip issues requiring capabilities the current machine lacks.

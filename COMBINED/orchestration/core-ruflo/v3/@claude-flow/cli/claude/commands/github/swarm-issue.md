@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # Swarm Issue - Issue-Based Swarm Coordination
 
 ## Overview

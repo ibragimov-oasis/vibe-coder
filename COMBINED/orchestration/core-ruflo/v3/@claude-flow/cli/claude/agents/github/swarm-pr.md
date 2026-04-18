@@ -32,6 +32,10 @@ hooks:
     - "Update PR with comprehensive swarm review results"
     - "Coordinate merge decisions based on swarm analysis"
     - "Generate PR completion metrics and learnings"
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
 ---
 
 # Swarm PR - Managing Swarms through Pull Requests

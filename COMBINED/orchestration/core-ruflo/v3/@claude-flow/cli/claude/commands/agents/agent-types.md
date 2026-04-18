@@ -2,6 +2,10 @@
 name: agent-types
 description: Complete guide to all 87 available agent types in Claude Flow V3
 type: reference
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
 ---
 
 # Agent Types Reference

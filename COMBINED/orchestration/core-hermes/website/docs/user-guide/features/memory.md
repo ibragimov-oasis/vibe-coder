@@ -2,6 +2,10 @@
 sidebar_position: 3
 title: "Persistent Memory"
 description: "How Hermes Agent remembers across sessions — MEMORY.md, USER.md, and session search"
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-hermes
 ---
 
 # Persistent Memory

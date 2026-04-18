@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # bottleneck detect
 
 Analyze performance bottlenecks in swarm operations and suggest optimizations.

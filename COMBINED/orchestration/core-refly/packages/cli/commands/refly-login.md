@@ -1,6 +1,10 @@
 ---
 name: refly-login
 description: Authenticate with Refly
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-refly
 ---
 
 Run:

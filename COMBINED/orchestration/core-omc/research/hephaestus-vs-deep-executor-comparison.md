@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-omc
+---
+
 # Hephaestus vs Deep-Executor: Comparative Analysis
 
 ## Analysis Summary

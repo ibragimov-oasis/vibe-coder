@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # ReasoningBank Integration Plan for claude-flow v2.7.0
 
 **Status**: 🟡 Proposal

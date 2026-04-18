@@ -6,6 +6,9 @@ wave: null
 tags: [squad, ralph, monitoring, health, state, persistence]
 status: published
 hero: "Ralph evolved from ephemeral monitor to persistent guardian. Track agent activity 24/7, detect stale sessions, and maintain squad health with continuous state tracking."
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-squad
 ---
 
 # Persistent Ralph: Monitor Squad Health 24/7

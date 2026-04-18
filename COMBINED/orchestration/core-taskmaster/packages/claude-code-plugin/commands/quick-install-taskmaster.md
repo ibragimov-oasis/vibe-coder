@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-taskmaster
+---
+
 Quick install Task Master globally if not already installed.
 
 Execute this streamlined installation:

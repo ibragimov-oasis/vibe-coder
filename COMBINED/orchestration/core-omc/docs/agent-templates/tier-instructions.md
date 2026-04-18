@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-omc
+---
+
 # Tier-Specific Instructions
 
 This document defines the behavioral differences between agent tiers (LOW/MEDIUM/HIGH).

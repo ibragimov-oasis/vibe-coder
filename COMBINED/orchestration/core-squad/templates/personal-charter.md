@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-squad
+---
+
 # {Name} — Personal Agent
 
 > {One-line personality or specialty}

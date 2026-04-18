@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-vibe-kanban
+---
+
 # Relay Test Client
 
 Standalone browser client for testing relay path routing without modifying the
@@ -42,3 +49,9 @@ sign in again.
 
 The output includes the derived relay session prefix and full local backend
 response payload.
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-vibe-kanban]] — core-vibe-kanban
+

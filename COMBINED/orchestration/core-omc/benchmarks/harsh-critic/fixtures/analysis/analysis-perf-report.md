@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-omc
+---
+
 # Performance Analysis Report: API Latency Regression
 **Report ID:** PERF-2026-011
 **Author:** Rodrigo Alves, Platform Engineering

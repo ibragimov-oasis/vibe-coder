@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-omc
+---
+
 # Incident Postmortem: Payment Service Outage
 **Incident ID:** INC-2026-0089
 **Date of Incident:** 2026-02-19

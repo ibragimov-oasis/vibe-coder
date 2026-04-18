@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # Agent 3: Optimization Specialist - Final Report
 
 **Date**: 2025-10-23

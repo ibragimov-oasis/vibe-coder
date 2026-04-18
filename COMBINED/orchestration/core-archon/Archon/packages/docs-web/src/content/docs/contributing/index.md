@@ -5,6 +5,10 @@ category: contributing
 audience: [developer]
 sidebar:
   order: 0
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-archon
 ---
 
 Guides for developers contributing to the Archon codebase.

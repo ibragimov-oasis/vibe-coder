@@ -20,6 +20,9 @@ requires:
   - node (v16+)
 priority: high
 progressive_disclosure: true
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
 ---
 
 # GitHub Workflow Automation Skill

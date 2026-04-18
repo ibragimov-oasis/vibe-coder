@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-archon
+---
+
 # Investigation: Test adapter improvements — store user messages, fix response format
 
 **Issue**: #396 (https://github.com/dynamous-community/remote-coding-agent/issues/396)

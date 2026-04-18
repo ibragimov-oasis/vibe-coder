@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # 🔧 Agentic-Flow Execution Layer Fix - Test Report
 
 **Issue:** MCP API Alignment (Phase 2 Completion)

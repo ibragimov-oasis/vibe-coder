@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-taskmaster
+---
+
 # PRD: Task Master Loop (`tm loop`)
 
 ## Overview

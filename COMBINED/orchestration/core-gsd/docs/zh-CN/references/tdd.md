@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-gsd
+---
+
 <overview>
 TDD 关乎设计质量，而非覆盖率指标。红-绿-重构循环迫使你在实现前思考行为，从而产生更清晰的接口和更可测试的代码。
 

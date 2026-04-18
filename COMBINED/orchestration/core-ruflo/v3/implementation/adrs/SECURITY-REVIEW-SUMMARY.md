@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # Security Review Summary: ADRs 032-041
 
 **Review Date:** 2026-01-24

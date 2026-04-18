@@ -4,6 +4,10 @@ description: "How to coordinate with squads on different machines using git as t
 domain: "distributed-coordination"
 confidence: "high"
 source: "multi-model-consensus (Opus 4.6, Sonnet 4.5, GPT-5.4)"
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-squad
 ---
 
 ## SCOPE

@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-omc
+---
+
 # Migration Guide
 
 This guide covers all migration paths for oh-my-claudecode. Find your current version below.

@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-praisonai
+---
+
 # 🧠 Agentic RAG with GPT-5
 
 An agentic RAG application built with the PraisonAI Agents framework, featuring GPT-5 and built-in vector search for efficient knowledge retrieval and question answering.
@@ -152,3 +159,9 @@ python-dotenv>=1.0.0
 - **Content Discovery**: Find relevant information across multiple sources
 
 **Built with ❤️ using PraisonAI Agents and GPT-5**
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-praisonai]] — core-praisonai
+

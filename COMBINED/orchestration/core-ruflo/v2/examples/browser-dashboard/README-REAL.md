@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # Real Claude Flow MCP Integration
 
 This demonstrates the dashboard with **actual Claude Flow MCP tools** instead of simulation.

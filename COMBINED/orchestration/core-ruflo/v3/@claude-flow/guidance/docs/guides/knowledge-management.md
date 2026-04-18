@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # Knowledge Management Guide
 
 Three modules handle how the system knows what it knows — and how certain it is about it:

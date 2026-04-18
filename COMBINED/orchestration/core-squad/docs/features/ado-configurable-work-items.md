@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-squad
+---
+
 # ADO Configurable Work Items
 
 **Try this to see available work item types:**

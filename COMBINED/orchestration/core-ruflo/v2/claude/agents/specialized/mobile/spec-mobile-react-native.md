@@ -139,6 +139,10 @@ examples:
     response: "I'll create a complete login screen with form validation, secure text input, and navigation integration for both iOS and Android..."
   - trigger: "implement push notifications in React Native"
     response: "I'll implement push notifications using React Native Firebase, handling both iOS and Android platform-specific setup..."
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
 ---
 
 # React Native Mobile Developer

@@ -17,6 +17,10 @@ hooks:
   post: |
     echo "📊 Research findings documented"
     memory_search "research_*" | head -5
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
 ---
 
 # Research and Analysis Agent

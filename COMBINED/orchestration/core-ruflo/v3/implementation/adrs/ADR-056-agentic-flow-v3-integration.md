@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # ADR-056: agentic-flow 3.0.0-alpha.1 Integration
 
 ## Status

@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # GitHub Workflows Architecture Diagram
 
 **Visual representation of current vs. optimized workflow architecture**

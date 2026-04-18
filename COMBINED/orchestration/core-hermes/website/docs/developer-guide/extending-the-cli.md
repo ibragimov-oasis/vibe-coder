@@ -2,6 +2,10 @@
 sidebar_position: 8
 title: "Extending the CLI"
 description: "Build wrapper CLIs that extend the Hermes TUI with custom widgets, keybindings, and layout changes"
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-hermes
 ---
 
 # Extending the CLI

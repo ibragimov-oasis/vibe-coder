@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-gsd
+---
+
 # Structure Template
 
 Template for `.planning/codebase/STRUCTURE.md` - captures physical file organization.

@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-praisonai
+---
+
 # Security Features Example
 
 This example demonstrates PraisonAI security features including SBOM generation, lockfile validation, dependency auditing, and PII redaction.
@@ -58,3 +65,9 @@ data_policy:
       - ssn
       - credit_card
 ```
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-praisonai]] — core-praisonai
+

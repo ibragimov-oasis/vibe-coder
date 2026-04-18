@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # ADR-040: Quantum-Inspired Optimization Plugin
 
 **Status:** Proposed

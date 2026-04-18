@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-gsd
+---
+
 # GSD 기능 참조
 
 > 기능 및 함수에 대한 완전한 문서와 요구사항입니다. 아키텍처 세부 사항은 [Architecture](ARCHITECTURE.md)를, 명령어 문법은 [Command Reference](COMMANDS.md)를 참조하세요.

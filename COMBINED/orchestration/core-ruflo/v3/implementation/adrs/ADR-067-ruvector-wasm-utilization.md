@@ -1,4 +1,11 @@
 ---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
+---
 # ADR-067: RuVector WASM Utilization Improvement Plan
 
 **Status**: Proposed

@@ -23,6 +23,10 @@ hooks:
       npm run test:production --if-present
       npm run test:e2e --if-present
     fi
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
 ---
 
 # Production Validation Agent

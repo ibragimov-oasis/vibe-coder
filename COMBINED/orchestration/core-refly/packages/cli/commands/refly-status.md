@@ -1,6 +1,10 @@
 ---
 name: refly-status
 description: Check Refly CLI configuration and authentication status
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-refly
 ---
 
 Run:

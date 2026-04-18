@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # Configuration Examples
 
 This directory contains configuration files for Claude Flow system settings and orchestration, organized by complexity and use case.
@@ -72,3 +79,9 @@ The original comprehensive configuration example showing all available options:
 - `level`: Detail level ("debug", "info", "warn", "error")
 - `format`: Output format ("json", "text", "pretty")
 - `destination`: Where logs go ("console", "file", "both")
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-ruflo]] — core-ruflo
+

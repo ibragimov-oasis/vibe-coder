@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-gsd
+---
+
 # Referência de Recursos do GSD
 
 Visão em Português dos recursos centrais do GSD.  

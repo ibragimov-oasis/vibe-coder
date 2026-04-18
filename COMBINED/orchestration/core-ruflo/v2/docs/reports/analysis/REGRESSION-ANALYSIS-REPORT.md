@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # Regression Analysis Report - Agent Booster Integration
 
 **Date**: 2025-10-12

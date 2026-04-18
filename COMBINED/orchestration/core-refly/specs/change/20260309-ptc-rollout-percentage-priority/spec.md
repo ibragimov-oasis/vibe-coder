@@ -3,6 +3,10 @@ id: 20260309-ptc-rollout-percentage-priority
 name: PTC Rollout Percentage Priority
 status: implemented
 created: '2026-03-09'
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-refly
 ---
 
 ## Overview

@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # Agents Commands
 
 Complete agent management commands for Claude Flow V3.
@@ -48,3 +55,9 @@ npx claude-flow agent metrics --period 24h
 - **Consensus**: byzantine-coordinator, raft-manager, gossip-coordinator
 - **GitHub**: pr-manager, code-review-swarm, release-manager
 - **SPARC**: sparc-coordinator, specification, architecture, refinement
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-ruflo]] — core-ruflo
+

@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # ADR-G001: Guidance Control Plane -- A Parallel Enforcement Layer Beside Claude Code
 
 ## Status

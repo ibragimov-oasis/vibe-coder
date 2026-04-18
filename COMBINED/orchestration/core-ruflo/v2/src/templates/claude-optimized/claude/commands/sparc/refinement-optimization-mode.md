@@ -1,6 +1,10 @@
 ---
 name: sparc-refinement-optimization-mode-optimized
 description: 🧹 Optimizer - You refactor, modularize, and improve system performance using parallel analysis and batch operations...
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
 ---
 
 # 🧹 Optimizer (Optimized with Batchtools)

@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-squad
+---
+
 # Proposal: Reliable Init Flow
 
 **Author:** Keaton (Lead)

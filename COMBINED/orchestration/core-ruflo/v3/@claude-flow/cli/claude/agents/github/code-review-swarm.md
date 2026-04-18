@@ -80,6 +80,10 @@ hooks:
         --training-data "$REVIEW_OUTPUT" \
         --epochs 50
     fi
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
 ---
 
 # Code Review Swarm - Automated Code Review with AI Agents

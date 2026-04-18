@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-gsd
+---
+
 # 초기화 시 new-project config 완전 구체화
 
 > **에이전트 작업자를 위한 안내:** 필수 하위 기술: superpowers:subagent-driven-development(권장) 또는 superpowers:executing-plans를 사용하여 이 계획을 작업 단위로 구현하세요. 단계는 체크박스(`- [ ]`) 형식으로 진행 상황을 추적합니다.

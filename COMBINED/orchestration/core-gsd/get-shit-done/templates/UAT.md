@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-gsd
+---
+
 # UAT Template
 
 Template for `.planning/phases/XX-name/{phase_num}-UAT.md` — persistent UAT session tracking.

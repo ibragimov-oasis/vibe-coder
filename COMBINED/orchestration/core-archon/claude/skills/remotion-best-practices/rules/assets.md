@@ -3,6 +3,9 @@ name: assets
 description: Importing images, videos, audio, and fonts into Remotion
 metadata:
   tags: assets, staticFile, images, fonts, public
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-archon
 ---
 
 # Importing assets in Remotion

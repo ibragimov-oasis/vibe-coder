@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # 🐳 Docker Validation: SQL Fallback Confirmation
 
 **Test Date:** 2025-10-13

@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/superpowers
+---
+
 # Codex App Compatibility: Worktree and Finishing Skill Adaptation
 
 Make superpowers skills work in the Codex App's sandboxed worktree environment without breaking existing Claude Code or Codex CLI behavior.

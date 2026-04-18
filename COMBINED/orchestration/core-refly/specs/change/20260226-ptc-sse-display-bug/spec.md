@@ -3,6 +3,10 @@ id: 20260226-ptc-sse-display-bug
 name: Ptc Sse Display Bug
 status: implemented
 created: '2026-02-26'
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-refly
 ---
 
 ## Overview

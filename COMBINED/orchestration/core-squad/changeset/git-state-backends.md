@@ -1,6 +1,10 @@
 ---
 "@bradygaster/squad-sdk": minor
 "@bradygaster/squad-cli": minor
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-squad
 ---
 
 feat(sdk): git-notes + orphan-branch state backends for .squad/

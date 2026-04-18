@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-gsd
+---
+
 # ディスカスモード: Assumptions vs Interview
 
 GSD の discuss フェーズには、プランニング前に実装コンテキストを収集するための2つのモードがあります。

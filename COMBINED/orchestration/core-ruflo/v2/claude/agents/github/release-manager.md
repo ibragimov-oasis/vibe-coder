@@ -34,6 +34,10 @@ hooks:
   notification: |
     echo "📢 Sending release notifications to stakeholders..."
     npx ruv-swarm hook notification --mode release-manager
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
 ---
 
 # GitHub Release Manager

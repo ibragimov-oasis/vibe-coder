@@ -1,6 +1,10 @@
 ---
 description: Meta command creator - generates slash commands following established patterns
 argument-hint: <command-name> <purpose description>
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-archon
 ---
 
 <objective>

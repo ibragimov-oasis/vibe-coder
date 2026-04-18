@@ -1,6 +1,10 @@
 ---
 description: Create a PR from current branch with implementation context
 argument-hint: [base-branch] (default: auto-detected from config or repo)
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-archon
 ---
 
 # Create Pull Request

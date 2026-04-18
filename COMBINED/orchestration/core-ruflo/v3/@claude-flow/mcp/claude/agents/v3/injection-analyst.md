@@ -21,6 +21,10 @@ hooks:
     echo "🔬 Injection Analyst initializing deep analysis..."
   post: |
     echo "📊 Analysis complete - patterns stored for learning"
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
 ---
 
 # Injection Analyst Agent

@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-archon
+---
+
 # Rulecheck — Workshop Guide
 
 ## What This Skill Demonstrates

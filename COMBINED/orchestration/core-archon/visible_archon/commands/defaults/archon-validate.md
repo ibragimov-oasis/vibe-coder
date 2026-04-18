@@ -1,6 +1,10 @@
 ---
 description: Run full validation suite - type-check, lint, tests, build
 argument-hint: (no arguments - reads from workflow artifacts)
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-archon
 ---
 
 # Validate Implementation

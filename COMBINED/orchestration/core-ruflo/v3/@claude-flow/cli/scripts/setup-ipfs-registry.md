@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # IPFS Plugin Registry Setup Guide
 
 This guide walks through setting up a live IPFS plugin registry using Google Cloud and Pinata.

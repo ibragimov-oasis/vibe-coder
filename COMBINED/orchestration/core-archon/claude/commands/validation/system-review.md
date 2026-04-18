@@ -1,6 +1,10 @@
 ---
 description: Analyze implementation against plan for process improvements
 argument-hint: "[plan-file] [execution-report-file]"
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-archon
 ---
 
 # System Review

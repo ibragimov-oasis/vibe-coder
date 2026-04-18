@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-cc-connect
+---
+
 # 钉钉 (DingTalk) 接入指南
 
 本文档介绍如何将 **cc-connect** 接入钉钉，让你可以通过钉钉机器人远程调用 Claude Code。

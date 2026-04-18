@@ -1,6 +1,10 @@
 ---
 description: Post completion report to GitHub issue with results, unaddressed items, and follow-up suggestions
 argument-hint: (none - reads from workflow artifacts)
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-archon
 ---
 
 # Issue Completion Report

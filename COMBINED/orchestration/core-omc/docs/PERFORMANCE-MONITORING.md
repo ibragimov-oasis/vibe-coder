@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-omc
+---
+
 # Performance Monitoring Guide
 
 Comprehensive guide to monitoring, debugging, and optimizing Claude Code and oh-my-claudecode performance.

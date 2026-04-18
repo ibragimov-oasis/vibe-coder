@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-squad
+---
+
 # Flight — Lead
 
 > Architecture patterns that compound — decisions that make future features easier.

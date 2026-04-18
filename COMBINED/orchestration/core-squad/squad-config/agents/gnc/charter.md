@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-squad
+---
+
 # GNC — Node.js Runtime
 
 > Performance-aware. Event-driven thinking. The event loop is truth.

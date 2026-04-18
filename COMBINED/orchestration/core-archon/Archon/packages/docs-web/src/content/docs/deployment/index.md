@@ -7,6 +7,10 @@ audience: [operator]
 status: current
 sidebar:
   order: 0
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-archon
 ---
 
 Archon can run locally for development or be deployed to a server for always-on operation.

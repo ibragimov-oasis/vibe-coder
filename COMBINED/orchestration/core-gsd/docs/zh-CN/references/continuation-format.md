@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-gsd
+---
+
 # 续接格式
 
 完成命令或工作流后展示下一步的标准格式。

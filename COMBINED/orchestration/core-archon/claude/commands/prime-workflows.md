@@ -1,5 +1,9 @@
 ---
 description: Prime agent with Archon workflow engine context
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-archon
 ---
 
 # Prime Workflows: Workflow Engine Orientation

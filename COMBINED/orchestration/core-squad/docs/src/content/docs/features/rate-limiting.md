@@ -2,6 +2,10 @@
 title: Rate Limiting
 description: Cooperative rate limiting with a predictive circuit breaker that pauses before hitting API limits.
 order: 36
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-squad
 ---
 
 # Rate Limiting

@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-archon
+---
+
 # CLI Setup Guide
 
 Steps to install and configure the Archon CLI. Always run these first.

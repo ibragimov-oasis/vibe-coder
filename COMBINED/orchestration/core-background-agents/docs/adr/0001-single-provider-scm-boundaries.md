@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-background-agents
+---
+
 # ADR 0001: Single-Provider SCM Deployment and Boundary Rules
 
 ## Status

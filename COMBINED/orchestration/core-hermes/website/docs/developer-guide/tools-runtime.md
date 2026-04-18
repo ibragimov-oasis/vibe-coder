@@ -2,6 +2,10 @@
 sidebar_position: 9
 title: "Tools Runtime"
 description: "Runtime behavior of the tool registry, toolsets, dispatch, and terminal environments"
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-hermes
 ---
 
 # Tools Runtime

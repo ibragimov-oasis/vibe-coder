@@ -1,6 +1,10 @@
 ---
 name: "AgentDB Performance Optimization"
 description: "Optimize AgentDB performance with quantization (4-32x memory reduction), HNSW indexing (150x faster search), caching, and batch operations. Use when optimizing memory usage, improving search speed, or scaling to millions of vectors."
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
 ---
 
 # AgentDB Performance Optimization

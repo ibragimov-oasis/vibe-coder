@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-gsd
+---
+
 # External Integrations Template
 
 Template for `.planning/codebase/INTEGRATIONS.md` - captures external service dependencies.

@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-omc
+---
+
 # Demo 1: Autopilot - Full Autonomous Execution
 
 **Duration:** 5 minutes

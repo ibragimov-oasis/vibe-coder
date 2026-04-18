@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-taskmaster
+---
+
 Analyze task complexity and generate expansion recommendations.
 
 Arguments: $ARGUMENTS

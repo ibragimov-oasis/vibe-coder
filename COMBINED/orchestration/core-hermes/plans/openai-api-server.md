@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-hermes
+---
+
 # OpenAI-Compatible API Server for Hermes Agent
 
 ## Motivation

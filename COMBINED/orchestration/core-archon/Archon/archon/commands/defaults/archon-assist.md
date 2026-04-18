@@ -1,6 +1,10 @@
 ---
 description: General assistance - questions, debugging, one-off tasks, exploration
 argument-hint: <any request>
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-archon
 ---
 
 # Assist Mode

@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # @claude-flow/browser
 
 <div align="center">
@@ -728,3 +735,9 @@ MIT License - see [LICENSE](../../LICENSE) for details.
 Made with ❤️ by [ruvnet](https://github.com/ruvnet)
 
 </div>
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-ruflo]] — core-ruflo
+

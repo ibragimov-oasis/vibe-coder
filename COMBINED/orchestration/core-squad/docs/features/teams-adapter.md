@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-squad
+---
+
 # Teams Communication Adapter
 
 **Try this to enable Teams messaging:**

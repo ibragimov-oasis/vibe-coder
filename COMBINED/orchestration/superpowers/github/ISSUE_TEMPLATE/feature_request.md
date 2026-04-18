@@ -2,6 +2,10 @@
 name: Feature Request
 about: Propose a change or addition to Superpowers
 labels: enhancement
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/superpowers
 ---
 
 <!--

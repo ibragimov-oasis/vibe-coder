@@ -1,6 +1,10 @@
 ---
 description: Review code comments for accuracy, completeness, and maintainability
 argument-hint: (none - reads from scope artifact)
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-archon
 ---
 
 # Comment Quality Agent

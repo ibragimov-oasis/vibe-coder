@@ -3,6 +3,9 @@ name: ffmpeg
 description: Using FFmpeg and FFprobe in Remotion
 metadata:
   tags: ffmpeg, ffprobe, video, trimming
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-archon
 ---
 
 ## FFmpeg in Remotion

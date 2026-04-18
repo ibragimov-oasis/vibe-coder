@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-cc-connect
+---
+
 # Changelog
 
 ## v1.2.2-beta.5 (2026-03-31)

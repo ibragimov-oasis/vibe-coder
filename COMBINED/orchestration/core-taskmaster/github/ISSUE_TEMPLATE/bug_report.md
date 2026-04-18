@@ -4,6 +4,10 @@ about: Create a report to help us improve
 title: 'bug: '
 labels: bug
 assignees: ''
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-taskmaster
 ---
 
 ### Description

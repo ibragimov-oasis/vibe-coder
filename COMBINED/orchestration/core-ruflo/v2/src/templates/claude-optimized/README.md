@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # Claude Optimized Template
 
 This directory contains the optimized Claude Code template with SPARC methodology support and batch tools integration.
@@ -123,3 +130,9 @@ For issues or questions:
 - Check the documentation files
 - Run the test suite for validation
 - Refer to Claude Flow documentation
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-ruflo]] — core-ruflo
+

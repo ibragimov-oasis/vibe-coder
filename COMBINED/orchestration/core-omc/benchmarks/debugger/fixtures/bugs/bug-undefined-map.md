@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-omc
+---
+
 # Bug Report: TypeError: Cannot read properties of undefined (reading 'map')
 
 ## Environment

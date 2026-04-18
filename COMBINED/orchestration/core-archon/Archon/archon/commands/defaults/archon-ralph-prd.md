@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-archon
+---
+
 # Ralph PRD Generator
 
 **Input**: $ARGUMENTS

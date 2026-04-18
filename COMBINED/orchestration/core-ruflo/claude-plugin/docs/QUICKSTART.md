@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # 🚀 Claude Flow Plugin - Quickstart Guide
 
 Get started with Claude Flow in 5 minutes!

@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # Hive Mind Load Testing Implementation Report
 
 **Benchmark-Tester Agent** - Load Testing Suite Implementation  

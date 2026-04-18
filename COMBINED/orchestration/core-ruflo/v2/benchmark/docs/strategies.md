@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # Swarm Strategies Guide
 
 This guide provides detailed information about each of the 7 swarm strategies available in the benchmarking tool.

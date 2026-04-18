@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # Tutorial: CI/CD and Headless Compliance Testing
 
 This tutorial shows how to run automated compliance tests against your guidance rules using the headless runner and how to integrate it into CI/CD pipelines.

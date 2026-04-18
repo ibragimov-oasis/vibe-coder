@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-praisonai
+---
+
 # Multi-Provider/Multi-Model Support
 
 PraisonAI now supports intelligent multi-provider and multi-model capabilities, allowing agents to automatically select the most appropriate AI model based on task requirements, cost considerations, and performance needs.

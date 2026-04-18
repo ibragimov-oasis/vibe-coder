@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # GitHub Workflows - Critical Fixes Applied
 
 **Date**: 2025-11-24

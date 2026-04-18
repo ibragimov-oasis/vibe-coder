@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-taskmaster
+---
+
 # Task Master Prompt Management System
 
 This directory contains the centralized prompt templates for all AI-powered features in Task Master.
@@ -570,3 +577,9 @@ console.log('Metadata:', result.metadata);
 - Verify caching is working correctly
 - Monitor template loading frequency
 - Consider simplifying complex conditions
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-taskmaster]] — core-taskmaster
+

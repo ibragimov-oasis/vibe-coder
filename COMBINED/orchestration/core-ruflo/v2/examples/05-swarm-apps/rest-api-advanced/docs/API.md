@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # REST API Advanced - Complete API Documentation
 
 ## Table of Contents

@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # MLE-STAR Ensemble Integration - Implementation Report
 
 ## 🎯 Mission Accomplished

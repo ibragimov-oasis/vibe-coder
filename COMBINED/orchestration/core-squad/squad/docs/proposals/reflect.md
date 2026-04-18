@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-squad
+---
+
 # Proposal: Reflect Skill
 
 **Issue:** bradygaster/squad#621

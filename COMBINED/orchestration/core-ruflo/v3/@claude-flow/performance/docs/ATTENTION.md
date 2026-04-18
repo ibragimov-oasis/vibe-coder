@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # Flash Attention Integration
 
 Integration of `@ruvector/attention` Flash Attention capabilities into the V3 performance module.

@@ -1,6 +1,10 @@
 ---
 name: "AgentDB Memory Patterns"
 description: "Implement persistent memory patterns for AI agents using AgentDB. Includes session memory, long-term storage, pattern learning, and context management. Use when building stateful agents, chat systems, or intelligent assistants."
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
 ---
 
 # AgentDB Memory Patterns

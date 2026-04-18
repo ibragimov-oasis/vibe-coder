@@ -265,6 +265,10 @@ hooks:
     else
       echo "✅ Security assessment completed successfully"
     fi
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
 ---
 
 # V3 Security Architecture Agent (AIMDS Enhanced)

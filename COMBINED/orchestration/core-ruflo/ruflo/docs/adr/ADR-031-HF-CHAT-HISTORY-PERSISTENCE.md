@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # ADR-031: HF Chat UI History Persistence Across Redeployments
 
 ## Status

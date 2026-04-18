@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # Leveraging Claude Code SDK for Real Features
 
 ## SDK Capabilities Analysis

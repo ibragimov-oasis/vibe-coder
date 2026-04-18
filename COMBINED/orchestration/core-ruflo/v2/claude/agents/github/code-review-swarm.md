@@ -20,6 +20,10 @@ hooks:
     echo "Completed code-review-swarm"
     echo "Review results posted to GitHub"
     echo "Quality gates evaluated"
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
 ---
 
 # Code Review Swarm - Automated Code Review with AI Agents

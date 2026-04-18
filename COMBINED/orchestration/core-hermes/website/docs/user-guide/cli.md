@@ -2,6 +2,10 @@
 sidebar_position: 1
 title: "CLI Interface"
 description: "Master the Hermes Agent terminal interface — commands, keybindings, personalities, and more"
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-hermes
 ---
 
 # CLI Interface

@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-archon
+---
+
 # Interactive Workflow Guide
 
 Interactive workflows use human-in-the-loop approval gates and interactive loops. When you invoke one, you become a **transparent relay** between the user and the running workflow — not a commentator.

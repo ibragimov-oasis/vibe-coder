@@ -9,6 +9,10 @@ tools:
   - fileSearch
   - listDirectory
   - usages
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-archon
 ---
 
 # Codebase Explorer

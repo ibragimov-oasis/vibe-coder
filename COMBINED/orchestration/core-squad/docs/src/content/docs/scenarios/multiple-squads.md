@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-squad
+---
+
 # Combining Knowledge from Multiple Squads
 
 **Try this to coordinate cross-team work:**

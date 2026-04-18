@@ -36,6 +36,10 @@ hooks:
     mcp__claude-flow__memory_usage --action="store" --namespace="sparc" --key="complete:$SESSION_ID" --value="$(date -Iseconds): SPARC workflow completed"
     # Train on successful pattern
     npx claude-flow@v3alpha hooks intelligence trajectory-end --session-id "$SESSION_ID" --verdict "success"
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
 ---
 
 # V3 SPARC Orchestrator Agent

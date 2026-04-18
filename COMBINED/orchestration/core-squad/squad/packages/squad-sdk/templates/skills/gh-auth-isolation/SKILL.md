@@ -8,6 +8,10 @@ tools:
   - name: "gh"
     description: "GitHub CLI for authenticated operations"
     when: "When accessing GitHub resources requiring authentication"
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-squad
 ---
 
 ## Context

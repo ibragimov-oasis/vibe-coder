@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/superpowers
+---
+
 # Superpowers for Codex
 
 Guide for using Superpowers with OpenAI Codex via native skill discovery.

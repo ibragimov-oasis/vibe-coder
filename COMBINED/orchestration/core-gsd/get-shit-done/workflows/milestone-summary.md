@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-gsd
+---
+
 # Milestone Summary Workflow
 
 Generate a comprehensive, human-friendly project summary from completed milestone artifacts.

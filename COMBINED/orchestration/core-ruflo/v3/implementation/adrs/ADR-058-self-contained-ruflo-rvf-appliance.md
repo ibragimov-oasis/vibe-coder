@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # ADR-058: Self-Contained Ruflo RVF Appliance — Linux Kernel + Claude Code + ruvLLM
 
 | Field | Value |

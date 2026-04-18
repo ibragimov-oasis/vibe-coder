@@ -4,6 +4,10 @@ description: Never read .env files or write secrets to .squad/ committed files
 domain: security, file-operations, team-collaboration
 confidence: high
 source: earned (issue #267 — credential leak incident)
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-squad
 ---
 
 ## Context

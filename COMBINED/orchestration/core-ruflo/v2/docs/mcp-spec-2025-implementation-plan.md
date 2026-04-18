@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # MCP Spec 2025 Implementation Plan for Claude Flow
 
 **Timeline**: RC November 14, 2025 → Final November 25, 2025

@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-deer-flow
+---
+
 # 自动 Title 生成功能实现总结
 
 ## ✅ 已完成的工作

@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # Performance Optimization Guide
 
 This guide provides comprehensive strategies for optimizing swarm performance based on benchmark results.

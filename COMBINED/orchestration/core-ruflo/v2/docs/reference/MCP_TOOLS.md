@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # Claude Flow MCP Tools Reference
 
 This document provides a comprehensive reference for all 112 MCP (Model Context Protocol) tools available in the Claude Flow ecosystem.

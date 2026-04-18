@@ -1,4 +1,8 @@
 ---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-squad
 ---
 
 test: add Copilot CLI subprocess integration tests for SQUAD_TEAM_ROOT

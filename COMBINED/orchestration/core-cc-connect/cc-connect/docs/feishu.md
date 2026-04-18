@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-cc-connect
+---
+
 # 飞书 (Feishu/Lark) 接入指南
 
 本文档介绍如何将 **cc-connect** 接入飞书，让你可以通过飞书机器人远程调用 Claude Code。

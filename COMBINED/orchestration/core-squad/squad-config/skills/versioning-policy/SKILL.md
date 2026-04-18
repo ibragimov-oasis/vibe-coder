@@ -4,6 +4,10 @@ description: "Semver versioning rules for Squad SDK and CLI — prevents prerele
 domain: "release, versioning, npm, CI"
 confidence: "medium"
 source: "earned (PR #640 workspace resolution incident, PR #116 prerelease leak, CI gate implementation)"
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-squad
 ---
 
 ## Context

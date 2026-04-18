@@ -2,6 +2,10 @@
 sidebar_position: 7
 title: "Email"
 description: "Set up Hermes Agent as an email assistant via IMAP/SMTP"
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-hermes
 ---
 
 # Email Setup

@@ -2,6 +2,10 @@
 title: Capability Routing
 description: Machine capability discovery and needs:* label routing for hardware-specific and OS-specific work.
 order: 35
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-squad
 ---
 
 # Capability Routing

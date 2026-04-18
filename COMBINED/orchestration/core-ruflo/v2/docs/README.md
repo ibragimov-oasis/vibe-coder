@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # 📚 Claude-Flow Documentation
 
 Welcome to the Claude-Flow documentation! This directory contains comprehensive guides and references for using Claude-Flow v2.7.0.
@@ -121,3 +128,9 @@ Third-party platform integrations
 ---
 
 *Last Updated: January 2025 | Version: v2.7.1*
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-ruflo]] — core-ruflo
+

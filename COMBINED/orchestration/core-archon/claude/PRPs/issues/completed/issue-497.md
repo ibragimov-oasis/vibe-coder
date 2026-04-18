@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-archon
+---
+
 # Investigation: output_format produces mixed prose+JSON, breaking condition evaluation
 
 **Issue**: #497 (https://github.com/dynamous-community/remote-coding-agent/issues/497)

@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-taskmaster
+---
+
 Clear all subtasks from a specific task.
 
 Arguments: $ARGUMENTS (task ID)

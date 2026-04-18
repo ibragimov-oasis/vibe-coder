@@ -7,6 +7,10 @@ audience: [user]
 status: current
 sidebar:
   order: 9
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-archon
 ---
 
 The `archon-remotion-generate` workflow uses AI to create Remotion video compositions.

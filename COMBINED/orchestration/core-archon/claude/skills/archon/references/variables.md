@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-archon
+---
+
 # Variable Substitution Reference
 
 Variables are placeholders in command files and workflow prompts that get replaced at execution time.

@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-gsd
+---
+
 # Referência de Comandos do GSD
 
 Este documento descreve os comandos principais do GSD em Português.  

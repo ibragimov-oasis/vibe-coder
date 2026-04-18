@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-gsd
+---
+
 # 컨텍스트 윈도우 모니터
 
 에이전트의 컨텍스트 윈도우 사용량이 높을 때 경고를 주는 post-tool 훅입니다 (Claude Code의 경우 `PostToolUse`, Gemini CLI의 경우 `AfterTool`).

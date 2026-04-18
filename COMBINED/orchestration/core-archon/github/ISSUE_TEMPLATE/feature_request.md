@@ -4,6 +4,10 @@ about: Suggest an idea for this project
 title: ''
 labels: enhancement
 assignees: ''
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-archon
 ---
 
 ## Problem

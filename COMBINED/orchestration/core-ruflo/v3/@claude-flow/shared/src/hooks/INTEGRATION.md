@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # V3 Hooks System - Integration Guide
 
 This guide shows how to integrate the hooks system with V3's event bus, event store, and other core components.

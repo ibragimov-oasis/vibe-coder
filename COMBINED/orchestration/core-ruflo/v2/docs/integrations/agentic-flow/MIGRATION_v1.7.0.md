@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # Migration Guide: agentic-flow v1.7.0
 
 **Upgrading from**: v1.6.x → v1.7.0

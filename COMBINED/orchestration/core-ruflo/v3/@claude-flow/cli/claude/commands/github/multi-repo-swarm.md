@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # Multi-Repo Swarm - Cross-Repository Swarm Orchestration
 
 ## Overview

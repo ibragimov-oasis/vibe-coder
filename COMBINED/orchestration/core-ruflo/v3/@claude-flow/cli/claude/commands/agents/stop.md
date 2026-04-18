@@ -3,6 +3,10 @@ name: stop
 description: Stop a running agent
 aliases: [kill]
 type: command
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
 ---
 
 # Agent Stop Command

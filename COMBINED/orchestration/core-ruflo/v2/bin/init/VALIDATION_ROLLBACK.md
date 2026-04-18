@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # Validation and Rollback Systems
 
 This document describes the comprehensive validation and rollback mechanisms implemented for SPARC initialization to ensure safe and reliable setup.

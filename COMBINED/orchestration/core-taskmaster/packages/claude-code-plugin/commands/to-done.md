@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-taskmaster
+---
+
 Mark a task as completed.
 
 Arguments: $ARGUMENTS (task ID)

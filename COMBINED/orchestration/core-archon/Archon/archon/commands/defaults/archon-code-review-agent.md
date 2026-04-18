@@ -1,6 +1,10 @@
 ---
 description: Review code quality, CLAUDE.md compliance, and detect bugs
 argument-hint: (none - reads from scope artifact)
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-archon
 ---
 
 # Code Review Agent

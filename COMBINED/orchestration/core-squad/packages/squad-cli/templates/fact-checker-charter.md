@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-squad
+---
+
 # Fact Checker
 
 > Trust, but verify. Every claim gets a source check.

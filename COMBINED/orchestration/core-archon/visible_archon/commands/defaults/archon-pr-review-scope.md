@@ -1,6 +1,10 @@
 ---
 description: Gather PR context, verify reviewability, and prepare artifacts directory for comprehensive review
 argument-hint: <pr-number|url>
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-archon
 ---
 
 # PR Review Scope

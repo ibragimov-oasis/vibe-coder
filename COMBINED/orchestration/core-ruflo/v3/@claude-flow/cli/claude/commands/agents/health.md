@@ -2,6 +2,10 @@
 name: health
 description: Show agent health and metrics
 type: command
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
 ---
 
 # Agent Health Command

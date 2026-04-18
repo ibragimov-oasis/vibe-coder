@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-gsd
+---
+
 # User Profiling: Detection Heuristics Reference
 
 This reference document defines detection heuristics for behavioral profiling across 8 dimensions. The gsd-user-profiler agent applies these rules when analyzing extracted session messages. Do not invent dimensions or scoring rules beyond what is defined here.

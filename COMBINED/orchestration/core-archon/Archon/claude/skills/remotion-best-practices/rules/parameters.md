@@ -3,6 +3,9 @@ name: parameters
 description: Make a video parametrizable by adding a Zod schema
 metadata:
   tags: parameters, zod, schema
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-archon
 ---
 
 To make a video parametrizable, a Zod schema can be added to a composition.

@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # Claude-Flow Parallel Agent Testing
 
 This example demonstrates how to run multiple Claude-Flow SPARC agents in parallel to test their capabilities and measure performance.
@@ -172,3 +179,9 @@ To contribute new test cases or improvements:
 ## License
 
 This example is part of the Claude-Flow project and follows the same license terms.
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-ruflo]] — core-ruflo
+

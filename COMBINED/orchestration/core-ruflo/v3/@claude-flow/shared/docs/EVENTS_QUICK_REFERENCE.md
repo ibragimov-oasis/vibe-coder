@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # Event Store Quick Reference
 
 Fast reference guide for using the Event Store system.

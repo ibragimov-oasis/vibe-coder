@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # Domain Expert Model - Validation Report
 
 **Validation Date**: 2025-10-15T02:55:59.272Z

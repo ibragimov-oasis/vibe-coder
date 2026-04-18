@@ -6,6 +6,9 @@ wave: 7
 tags: [squad, docs, community, astro, contributions]
 status: published
 hero: "Squad's documentation gets a complete rebuild — powered by Astro, Tailwind CSS, and community contributors."
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-squad
 ---
 
 # New Docs Site: Built by the Community

@@ -6,6 +6,9 @@ wave: 7
 tags: [squad, release, v0.8.25, testing, cli, quality, npm]
 status: published
 hero: "Squad now smoke-tests every CLI command in the packaged npm artifact before publishing."
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-squad
 ---
 
 # v0.8.25: Pre-Publish Quality Gate and CLI Smoke Testing

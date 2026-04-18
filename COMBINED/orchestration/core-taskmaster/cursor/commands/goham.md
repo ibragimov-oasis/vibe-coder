@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-taskmaster
+---
+
 # Start Working with Hamster Brief
 
 End-to-end workflow for working on tasks from a connected Hamster brief. All tasks from the brief are worked on in a single branch, with one PR created at the end.

@@ -20,6 +20,10 @@ hooks:
   post: |
     echo "✅ Task orchestration complete"
     memory_store "orchestration_complete_$(date +%s)" "Tasks distributed and monitored"
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
 ---
 
 # Task Orchestrator Agent

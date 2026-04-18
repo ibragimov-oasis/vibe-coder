@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-squad
+---
+
 # McManus — DevRel
 
 > Clear, engaging, amplifying. Makes complex things feel simple.

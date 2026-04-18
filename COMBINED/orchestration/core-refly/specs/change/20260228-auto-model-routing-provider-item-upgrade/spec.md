@@ -3,6 +3,10 @@ id: 20260228-auto-model-routing-provider-item-upgrade
 name: Auto Model Routing Provider Item Upgrade
 status: implemented
 created: '2026-02-28'
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-refly
 ---
 
 ## Overview

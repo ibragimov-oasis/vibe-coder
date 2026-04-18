@@ -2,6 +2,10 @@
 sidebar_position: 1
 title: "Tips & Best Practices"
 description: "Practical advice to get the most out of Hermes Agent — prompt tips, CLI shortcuts, context files, memory, cost optimization, and security"
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-hermes
 ---
 
 # Tips & Best Practices

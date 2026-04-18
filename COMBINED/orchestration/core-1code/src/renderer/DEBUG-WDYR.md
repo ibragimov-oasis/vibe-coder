@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-1code
+---
+
 # Why Did You Render (WDYR) - React Re-render Debugging
 
 This document explains how to use the WDYR library to debug infinite re-render loops and unnecessary re-renders in the desktop app.

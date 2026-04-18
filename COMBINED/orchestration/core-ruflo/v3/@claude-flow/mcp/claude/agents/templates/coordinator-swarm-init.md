@@ -20,6 +20,10 @@ hooks:
     echo "✅ Swarm initialization complete"
     memory_store "swarm_init_$(date +%s)" "Swarm successfully initialized with optimal topology"
     echo "🌐 Inter-agent communication channels established"
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
 ---
 
 # Swarm Initializer Agent

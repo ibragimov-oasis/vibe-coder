@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-praisonai
+---
+
 # Save Agent Output Examples
 
 Examples demonstrating different methods to save agent output to files.
@@ -33,3 +40,9 @@ python 04_manual_save.py
 - **Task.output_file**: For task-based workflows with auto-save
 - **Workflow output_file**: For YAML workflows with variable substitution
 - **Manual**: When you need full control over the saving process
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-praisonai]] — core-praisonai
+

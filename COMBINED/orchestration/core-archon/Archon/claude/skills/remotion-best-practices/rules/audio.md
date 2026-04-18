@@ -3,6 +3,9 @@ name: audio
 description: Using audio and sound in Remotion - importing, trimming, volume, speed, pitch
 metadata:
   tags: audio, media, trim, volume, speed, loop, pitch, mute, sound, sfx
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-archon
 ---
 
 # Using audio in Remotion

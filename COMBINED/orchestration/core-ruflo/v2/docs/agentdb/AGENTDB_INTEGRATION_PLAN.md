@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # AgentDB Integration Plan for Claude-Flow Memory System
 
 **Version**: 4.0 (Updated with v1.3.9 Latest Release)

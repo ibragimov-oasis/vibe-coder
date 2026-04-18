@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-background-agents
+---
+
 # Open-Inspect Setup Guide
 
 This is the primary setup guide for users and contributors.

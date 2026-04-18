@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # Pair Programming Examples
 
 Real-world examples and scenarios for pair programming sessions.

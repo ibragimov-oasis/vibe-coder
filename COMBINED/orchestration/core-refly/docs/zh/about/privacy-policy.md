@@ -1,6 +1,10 @@
 ---
 title: 隐私政策
 description: Refly AI Workflow 引擎隐私政策
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-refly
 ---
 
 # 隐私政策

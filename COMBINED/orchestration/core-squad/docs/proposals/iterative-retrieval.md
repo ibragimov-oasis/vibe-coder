@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-squad
+---
+
 # Proposal: Iterative Retrieval Skill
 
 **Issue:** bradygaster/squad#622

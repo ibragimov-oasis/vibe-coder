@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-squad
+---
+
 # Ghost Protocol — Personal Agent Behavior in Project Context
 
 > **Applies to:** Personal agents operating in a project squad context.

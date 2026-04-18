@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-squad
+---
+
 # Contributing to Squad
 
 Squad is an open-source project built by contributors who believe in democratizing multi-agent development. Whether you're fixing a bug, adding a feature, or improving documentation, your work helps the entire community.

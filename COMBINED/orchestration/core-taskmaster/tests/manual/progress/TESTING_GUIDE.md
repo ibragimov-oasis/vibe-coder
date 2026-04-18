@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-taskmaster
+---
+
 # Task Master Progress Testing Guide
 
 Quick reference for testing streaming/non-streaming functionality with token tracking.

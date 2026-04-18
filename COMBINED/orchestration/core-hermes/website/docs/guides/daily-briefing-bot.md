@@ -2,6 +2,10 @@
 sidebar_position: 2
 title: "Tutorial: Daily Briefing Bot"
 description: "Build an automated daily briefing bot that researches topics, summarizes findings, and delivers them to Telegram or Discord every morning"
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-hermes
 ---
 
 # Tutorial: Build a Daily Briefing Bot

@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-praisonai
+---
+
 # PraisonAI CLI - Benchmark Results
 
 **Generated:** 2025-12-19 16:04:40

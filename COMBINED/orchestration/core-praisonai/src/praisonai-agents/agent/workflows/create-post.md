@@ -1,5 +1,9 @@
 ---
 description: create and publish a post on mer.vin using praisonaiwp
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-praisonai
 ---
 
 ## Config

@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # V3 Architecture Decision Records (ADRs)
 
 This directory contains all Architecture Decision Records for Claude-Flow v3.
@@ -655,3 +662,9 @@ claude-flow memory search --semantic "query"   # Uses @claude-flow/memory (HNSW)
 - [ ] Integrate GNN layers for dependency graphs
 
 *Note: SONA, Flash Attention, HNSW already in claude-flow - no need to import.*
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-ruflo]] — core-ruflo
+

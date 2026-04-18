@@ -174,6 +174,10 @@ examples:
     response: "I'll develop a machine learning pipeline for customer churn prediction, including data preprocessing, model selection, training, and evaluation..."
   - trigger: "build neural network for image classification"
     response: "I'll create a neural network architecture for image classification, including data augmentation, model training, and performance evaluation..."
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
 ---
 
 # Machine Learning Model Developer v2.0.0-alpha

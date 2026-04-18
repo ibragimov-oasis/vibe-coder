@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-archon
+---
+
 # Community Chat Adapters
 
 Chat adapters connect Archon to messaging platforms (Slack, Telegram, Discord, etc.) via polling or WebSocket.
@@ -103,3 +110,9 @@ function getLog(): ReturnType<typeof createLogger> {
 ## Reference
 
 See the Discord adapter (`discord/`) for a complete working example.
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-archon]] — core-archon
+

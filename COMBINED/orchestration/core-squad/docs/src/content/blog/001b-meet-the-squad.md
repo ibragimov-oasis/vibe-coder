@@ -5,6 +5,9 @@ author: "McManus (DevRel)"
 tags: [squad, team, roster, introductions, redfoot]
 status: published
 hero: "Eight specialists and one silent observer. Here's who builds Squad — and what happens when you give each of them a job."
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-squad
 ---
 
 # Meet the Squad

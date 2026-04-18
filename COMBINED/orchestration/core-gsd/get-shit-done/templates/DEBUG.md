@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-gsd
+---
+
 # Debug Template
 
 Template for `.planning/debug/[slug].md` — active debug session tracking.

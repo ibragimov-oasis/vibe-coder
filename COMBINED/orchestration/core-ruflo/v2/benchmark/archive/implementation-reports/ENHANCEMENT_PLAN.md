@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # 🚀 Benchmark System Enhancement Plan: Claude Flow Integration
 
 ## Executive Summary

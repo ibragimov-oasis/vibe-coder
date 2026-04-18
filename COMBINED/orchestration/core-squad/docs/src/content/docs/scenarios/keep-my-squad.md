@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-squad
+---
+
 # Keeping Your Squad Across Many Projects
 
 **Try this to prevent re-casting:**

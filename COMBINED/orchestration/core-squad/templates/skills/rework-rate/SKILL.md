@@ -8,6 +8,10 @@ tools:
   - name: "squad rework"
     description: "Analyze PR rework rate from merged PRs"
     when: "When measuring code quality, review efficiency, or team health metrics"
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-squad
 ---
 
 ## Context

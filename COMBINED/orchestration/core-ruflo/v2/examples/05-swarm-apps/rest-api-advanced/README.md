@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # Advanced REST API
 
 A production-ready REST API built with Node.js, Express, and MongoDB, featuring comprehensive authentication, e-commerce functionality, and enterprise-grade security.
@@ -542,3 +549,9 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 ## Support
 
 For support, email support@example.com or create an issue in the repository.
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-ruflo]] — core-ruflo
+

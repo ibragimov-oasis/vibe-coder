@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-gsd
+---
+
 # Verification Patterns
 
 How to verify different types of artifacts are real implementations, not stubs or placeholders.

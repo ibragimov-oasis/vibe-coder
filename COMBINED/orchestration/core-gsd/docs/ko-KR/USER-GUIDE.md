@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-gsd
+---
+
 # GSD 사용자 가이드
 
 워크플로우, 문제 해결, 설정에 대한 상세 레퍼런스입니다. 빠른 시작 설정은 [README](../README.md)를 참고하세요.

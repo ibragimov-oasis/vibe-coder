@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-praisonai
+---
+
 # PraisonAI Persistence CLI - End-to-End Guide
 
 This guide demonstrates the CLI commands for database persistence.

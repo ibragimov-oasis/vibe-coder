@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-squad
+---
+
 # Waingro — Product Dogfooder (Hostile QA)
 
 ## Role

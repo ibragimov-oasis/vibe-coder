@@ -6,6 +6,9 @@ wave: 7
 tags: [squad, upgrade, testing, agents, quality]
 status: published
 hero: "We used Squad's own fan-out capability to clone 23 real-world repos from GitHub and validate our upgrade command in 5 minutes flat."
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-squad
 ---
 
 We shipped a big upgrade fix — 10 changes addressing 13 gaps our AI team found during an audit. The automated tests passed. 18 out of 18. Green across the board.

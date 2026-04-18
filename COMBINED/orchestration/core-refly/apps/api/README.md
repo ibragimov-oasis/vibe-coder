@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-refly
+---
+
 # Refly API
 
 ## Docker Images
@@ -42,3 +49,9 @@ $ npm run test:e2e
 # test coverage
 $ npm run test:cov
 ```
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-refly]] — core-refly
+

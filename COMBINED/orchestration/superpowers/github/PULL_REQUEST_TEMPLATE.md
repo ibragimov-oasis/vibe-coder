@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/superpowers
+---
+
 <!--
 BEFORE SUBMITTING: Read every word of this template. PRs that leave
 sections blank, contain multiple unrelated changes, or show no evidence

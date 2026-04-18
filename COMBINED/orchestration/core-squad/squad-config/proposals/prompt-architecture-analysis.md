@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-squad
+---
+
 # Prompt Architecture Analysis: Coordinator Aggression Rebalancing
 
 **Author:** Procedures (Prompt Engineer)

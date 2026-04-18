@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # Fix for agentic-flow "Enabled: false" Log Message
 
 ## Problem

@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # ADR-G005: Proof Envelopes -- Cryptographic Run Auditing With Hash-Chained Events
 
 ## Status

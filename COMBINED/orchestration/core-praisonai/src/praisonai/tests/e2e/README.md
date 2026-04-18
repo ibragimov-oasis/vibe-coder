@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-praisonai
+---
+
 # Real End-to-End Tests
 
 ⚠️ **WARNING: These tests make real API calls and may incur costs!**
@@ -215,4 +222,10 @@ Tests automatically skip if:
 | **Reliability** | High | Depends on external services |
 | **Frequency** | Every commit | Manual/scheduled |
 
-Both test types are important and complementary - mock tests for development velocity, real tests for production confidence! 
+Both test types are important and complementary - mock tests for development velocity, real tests for production confidence!
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-praisonai]] — core-praisonai
+

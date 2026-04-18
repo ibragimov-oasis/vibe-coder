@@ -1,6 +1,10 @@
 ---
 name: refly-upgrade
 description: Upgrade Refly CLI skill files
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-refly
 ---
 
 Run:

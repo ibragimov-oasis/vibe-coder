@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # hive-mind-spawn
 
 Spawn a Hive Mind swarm with queen-led coordination.

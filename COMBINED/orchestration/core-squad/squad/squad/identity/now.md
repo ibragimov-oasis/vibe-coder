@@ -10,6 +10,10 @@ test_files: 149
 team_size: 19 active agents + Scribe + Ralph + @copilot
 team_identity: Apollo 13 / NASA Mission Control
 process: All work through PRs. Branch naming squad/{issue-number}-{slug}. Releases driven by Surgeon. Pre-flight gates mandatory. Never commit to main directly.
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-squad
 ---
 
 # What We're Focused On

@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-gsd
+---
+
 <purpose>
 Execute a phase prompt (PLAN.md) and create the outcome summary (SUMMARY.md).
 </purpose>

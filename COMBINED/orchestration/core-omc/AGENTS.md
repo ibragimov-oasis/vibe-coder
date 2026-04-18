@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-omc
+---
+
 # oh-my-claudecode - Intelligent Multi-Agent Orchestration
 
 You are running with oh-my-claudecode (OMC), a multi-agent orchestration layer for Claude Code.
@@ -405,3 +412,9 @@ Run `omc setup` to install all components. Run `omc doctor` to verify installati
 - Configuration changes must be backward-compatible or include migration notes.
 - MCP tool definitions must validate inputs and handle timeouts gracefully.
 - Agent orchestration changes: verify state machine transitions are complete and recoverable.
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-omc]] — core-omc
+

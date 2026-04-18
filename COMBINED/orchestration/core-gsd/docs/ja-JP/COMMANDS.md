@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-gsd
+---
+
 # GSD コマンドリファレンス
 
 > コマンド構文、フラグ、オプション、使用例の完全なリファレンスです。機能の詳細については[機能リファレンス](FEATURES.md)を、ワークフローのチュートリアルについては[ユーザーガイド](USER-GUIDE.md)をご覧ください。

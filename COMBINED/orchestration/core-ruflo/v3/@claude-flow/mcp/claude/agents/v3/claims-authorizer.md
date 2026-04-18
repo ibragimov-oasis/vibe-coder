@@ -24,6 +24,10 @@ hooks:
     echo "✅ Authorization complete"
     # Log authorization decision
     mcp__claude-flow__memory_usage --action="store" --namespace="audit" --key="auth:$(date +%s)" --value="$AUTH_DECISION"
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
 ---
 
 # V3 Claims Authorizer Agent

@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # Claude-Flow Integration Tests
 
 This directory contains comprehensive integration tests for benchmarking claude-flow's SPARC modes and swarm strategies.
@@ -113,3 +120,9 @@ Tests will fail if these thresholds are exceeded.
 - psutil (for performance monitoring)
 - claude-flow installed and accessible
 - Non-interactive mode support in claude-flow
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-ruflo]] — core-ruflo
+

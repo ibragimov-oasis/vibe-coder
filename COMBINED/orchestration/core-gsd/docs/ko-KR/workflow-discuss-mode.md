@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-gsd
+---
+
 # Discuss 모드: Assumptions vs Interview
 
 GSD의 discuss 단계는 플래닝 전에 구현 컨텍스트를 수집하는 두 가지 모드를 제공합니다.

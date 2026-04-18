@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # Real Claude Flow Benchmarks
 
 **CRITICAL**: These are REAL benchmarks that execute actual `./claude-flow` commands. NO simulations.

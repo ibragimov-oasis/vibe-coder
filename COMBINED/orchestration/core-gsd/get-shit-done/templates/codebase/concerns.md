@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-gsd
+---
+
 # Codebase Concerns Template
 
 Template for `.planning/codebase/CONCERNS.md` - captures known issues and areas requiring care.

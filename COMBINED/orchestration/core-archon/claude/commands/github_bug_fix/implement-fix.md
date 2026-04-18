@@ -1,6 +1,10 @@
 ---
 description: Implement fix from RCA document for GitHub issue
 argument-hint: "[github-issue-id]"
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-archon
 ---
 
 # Implement Fix: GitHub Issue #$ARGUMENTS

@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # Agent Swarm Benchmarking Tool - Testing Strategy
 
 ## 🧪 Test-Driven Development (TDD) Approach

@@ -11,6 +11,10 @@ tools:
   - name: "create"
     description: "Create proposal in docs/proposals/ with structured format"
     when: "After gathering context, before any implementation work begins"
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-squad
 ---
 
 ## Context

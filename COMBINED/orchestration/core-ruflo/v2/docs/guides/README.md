@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # 📚 User Guides & Tutorials
 
 Comprehensive guides and tutorials for using claude-flow.
@@ -27,3 +34,9 @@ Browse other guides in this directory or see:
 ---
 
 [← Back to Documentation Index](../README.md)
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-ruflo]] — core-ruflo
+

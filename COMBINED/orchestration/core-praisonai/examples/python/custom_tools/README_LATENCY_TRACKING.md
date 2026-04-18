@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-praisonai
+---
+
 # Minimal Latency Tracking for PraisonAI MCP Server
 
 This solution provides latency tracking for MCP servers without modifying any PraisonAI core files. It's implemented as a custom tool that can be used externally.

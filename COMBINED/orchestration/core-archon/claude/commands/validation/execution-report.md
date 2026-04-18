@@ -1,5 +1,9 @@
 ---
 description: Generate implementation report reflecting on completed work
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-archon
 ---
 
 # Execution Report

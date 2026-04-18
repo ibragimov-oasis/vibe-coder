@@ -33,6 +33,10 @@ hooks:
     - "Deploy optimized workflows with continuous performance monitoring"
     - "Generate workflow automation metrics and optimization recommendations"
     - "Update automation rules based on swarm learning and performance data"
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
 ---
 
 # Workflow Automation - GitHub Actions Integration

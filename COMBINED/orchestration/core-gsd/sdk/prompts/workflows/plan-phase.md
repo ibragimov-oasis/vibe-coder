@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-gsd
+---
+
 <purpose>
 Create executable phase plans (PLAN.md files) for a roadmap phase with integrated research and verification.
 Headless SDK variant — runs autonomously. Research, planning, and plan-checking proceed without user prompts.

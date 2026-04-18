@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-taskmaster
+---
+
 Export tasks to README.md with professional formatting.
 
 Arguments: $ARGUMENTS

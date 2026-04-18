@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 ## Agent 2: Import Fixer - COMPLETION REPORT
 
 ### Summary

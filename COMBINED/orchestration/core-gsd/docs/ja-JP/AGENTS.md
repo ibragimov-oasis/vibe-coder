@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-gsd
+---
+
 # GSD エージェントリファレンス
 
 > 全18種の専門エージェント — 役割、ツール、スポーンパターン、相互関係。アーキテクチャの詳細は[アーキテクチャ](ARCHITECTURE.md)を参照してください。

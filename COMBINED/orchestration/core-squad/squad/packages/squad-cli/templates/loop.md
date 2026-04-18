@@ -3,6 +3,10 @@ configured: false
 interval: 10
 timeout: 30
 description: "My squad work loop"
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-squad
 ---
 
 # Squad Work Loop

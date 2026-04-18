@@ -1,6 +1,10 @@
 ---
 name: flow-nexus-challenges
 description: Coding challenges, achievements, and leaderboards
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
 ---
 
 # Flow Nexus Challenges

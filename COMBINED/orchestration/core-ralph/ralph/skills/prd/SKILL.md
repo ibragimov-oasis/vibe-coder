@@ -2,6 +2,10 @@
 name: prd
 description: "Generate a Product Requirements Document (PRD) for a new feature. Use when planning a feature, starting a new project, or when asked to create a PRD. Triggers on: create a prd, write prd for, plan this feature, requirements for, spec out."
 user-invocable: true
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ralph
 ---
 
 # PRD Generator

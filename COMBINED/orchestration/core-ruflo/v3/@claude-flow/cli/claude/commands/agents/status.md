@@ -2,6 +2,10 @@
 name: status
 description: Show detailed status of an agent
 type: command
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
 ---
 
 # Agent Status Command

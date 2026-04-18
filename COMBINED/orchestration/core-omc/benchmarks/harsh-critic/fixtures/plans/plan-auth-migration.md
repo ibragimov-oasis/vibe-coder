@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-omc
+---
+
 # Auth System Migration Plan
 **Version:** 1.4
 **Owner:** Platform Security Team

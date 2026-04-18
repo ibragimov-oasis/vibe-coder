@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # ReasoningBank vs Traditional Approach - Live Demo Results
 
 **Scenario**: Agent attempting to login to an admin panel with CSRF token validation and rate limiting

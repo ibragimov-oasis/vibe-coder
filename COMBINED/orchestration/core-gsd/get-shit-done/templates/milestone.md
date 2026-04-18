@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-gsd
+---
+
 # Milestone Entry Template
 
 Add this entry to `.planning/MILESTONES.md` when completing a milestone:

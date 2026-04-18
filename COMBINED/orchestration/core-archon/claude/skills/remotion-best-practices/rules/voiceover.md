@@ -3,6 +3,9 @@ name: voiceover
 description: Adding AI-generated voiceover to Remotion compositions using ElevenLabs TTS
 metadata:
   tags: voiceover, audio, elevenlabs, tts, speech, calculateMetadata, dynamic duration
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-archon
 ---
 
 # Adding AI voiceover to a Remotion composition

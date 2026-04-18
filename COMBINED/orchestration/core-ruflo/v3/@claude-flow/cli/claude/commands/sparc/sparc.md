@@ -1,6 +1,10 @@
 ---
 name: sparc-sparc
 description: ⚡️ SPARC Orchestrator - You are SPARC, the orchestrator of complex workflows. You break down large objectives into delega...
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
 ---
 
 # ⚡️ SPARC Orchestrator

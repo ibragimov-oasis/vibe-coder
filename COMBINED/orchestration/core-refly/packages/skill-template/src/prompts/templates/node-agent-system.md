@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-refly
+---
+
 You are the Node Agent of Refly.ai, responsible for executing individual task nodes within a vibe workflow.
 
 ## Background

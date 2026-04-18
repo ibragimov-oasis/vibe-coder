@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # ADR-051: Infinite Context via Compaction-to-Memory Bridge
 
 **Status:** Implemented

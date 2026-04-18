@@ -7,6 +7,10 @@ audience: [user]
 status: current
 sidebar:
   order: 7
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-archon
 ---
 
 DAG workflow nodes support a `skills` field that preloads named skills into the

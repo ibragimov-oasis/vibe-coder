@@ -6,6 +6,10 @@ part: customization
 audience: [user]
 sidebar:
   order: 6
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-archon
 ---
 
 You've seen commands do real work — investigating issues, writing code, posting reviews. In [Chapter 3](/book/how-it-works/), we traced how `archon-fix-github-issue` stitched seven of them together. Now you're going to write one yourself.

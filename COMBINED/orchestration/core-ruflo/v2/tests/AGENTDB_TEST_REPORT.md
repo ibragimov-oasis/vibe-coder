@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # AgentDB Integration Test Suite - Completion Report
 
 **Agent**: Agent 2 (Testing Specialist)

@@ -12,6 +12,9 @@ tags:
   - e2b-sandboxes
 requires_auth: true
 mcp_server: flow-nexus
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
 ---
 
 # Flow Nexus Neural Networks

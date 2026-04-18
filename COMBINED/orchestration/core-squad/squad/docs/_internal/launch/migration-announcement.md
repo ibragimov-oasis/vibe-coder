@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-squad
+---
+
 # Squad Is Now Public
 
 Squad, the AI agent team framework for GitHub Copilot, moves from private repo to public distribution on npm.

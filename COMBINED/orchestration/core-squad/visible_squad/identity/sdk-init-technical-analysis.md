@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-squad
+---
+
 # SDK Init — Deep Technical Analysis
 
 **By:** CAPCOM (SDK Expert)  

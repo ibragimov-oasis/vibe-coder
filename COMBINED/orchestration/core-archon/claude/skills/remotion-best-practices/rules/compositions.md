@@ -3,6 +3,9 @@ name: compositions
 description: Defining compositions, stills, folders, default props and dynamic metadata
 metadata:
   tags: composition, still, folder, props, metadata
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-archon
 ---
 
 A `<Composition>` defines the component, width, height, fps and duration of a renderable video.

@@ -6,6 +6,10 @@ part: orientation
 audience: [user]
 sidebar:
   order: 2
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-archon
 ---
 
 Let's skip the theory and get you to a win. By the end of this chapter, you'll have run two real Archon workflows against your own codebase.

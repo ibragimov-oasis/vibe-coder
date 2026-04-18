@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # 👥 Pair Programming Command
 
 Collaborative development with real-time verification and AI assistance.
@@ -259,3 +266,9 @@ Configure pair programming in `.claude-flow/config.json`:
 - `truth` - View quality metrics
 - `test` - Run test suites
 - `review` - Code review tools
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-ruflo]] — core-ruflo
+

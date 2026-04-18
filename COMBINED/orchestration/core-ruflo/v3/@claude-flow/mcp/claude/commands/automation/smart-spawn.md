@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # smart-spawn
 
 Intelligently spawn agents based on workload analysis.

@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-taskmaster
+---
+
 Quick initialization with auto-confirmation.
 
 Arguments: $ARGUMENTS

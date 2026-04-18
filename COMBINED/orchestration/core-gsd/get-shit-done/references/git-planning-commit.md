@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-gsd
+---
+
 # Git Planning Commit
 
 Commit planning artifacts using the gsd-tools CLI, which automatically checks `commit_docs` config and gitignore status.

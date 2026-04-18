@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # Tutorial: ContinueGate for Long-Running Agents
 
 This tutorial shows how to prevent runaway agent loops using the ContinueGate.

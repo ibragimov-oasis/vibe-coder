@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # Security Audit Report: agentic-qe and prime-radiant Plugins
 
 **Initial Audit Date:** 2026-01-23

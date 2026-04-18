@@ -4,6 +4,10 @@ description: "Route agent notifications to specific channels by type — prevent
 domain: "communication"
 confidence: "high"
 source: "earned"
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-squad
 ---
 
 ## Context

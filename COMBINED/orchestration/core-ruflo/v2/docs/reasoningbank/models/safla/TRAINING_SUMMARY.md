@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # SAFLA Model Training Summary
 
 ## 🎉 Mission Accomplished

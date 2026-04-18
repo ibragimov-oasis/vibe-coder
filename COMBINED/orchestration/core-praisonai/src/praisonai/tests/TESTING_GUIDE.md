@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-praisonai
+---
+
 # PraisonAI Testing Guide
 
 This guide explains the complete testing structure for PraisonAI, including both mock and real tests.

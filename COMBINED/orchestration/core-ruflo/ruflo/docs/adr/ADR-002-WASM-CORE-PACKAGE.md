@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # ADR-002: WASM Core Package for AI Algorithms
 
 **Status:** Implemented

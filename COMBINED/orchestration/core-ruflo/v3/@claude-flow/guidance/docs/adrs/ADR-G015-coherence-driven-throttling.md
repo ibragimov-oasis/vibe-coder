@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # ADR-G015: Coherence-Driven Privilege Throttling
 
 **Status:** Accepted

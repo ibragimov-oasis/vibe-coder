@@ -1,5 +1,9 @@
 ---
 sidebar_position: 20
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-hermes
 ---
 
 # Plugins

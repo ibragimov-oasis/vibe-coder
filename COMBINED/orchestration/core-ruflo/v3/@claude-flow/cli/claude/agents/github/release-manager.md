@@ -77,6 +77,10 @@ hooks:
         --training-data "$RELEASE_OUTPUT" \
         --epochs 50
     fi
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
 ---
 
 # GitHub Release Manager

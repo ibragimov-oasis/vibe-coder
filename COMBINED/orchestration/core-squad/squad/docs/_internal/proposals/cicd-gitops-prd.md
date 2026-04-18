@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-squad
+---
+
 # CI/CD & GitOps Improvement PRD
 
 **Authors:** Keaton (Lead) — synthesized from audits by Trejo (Release Manager) and Drucker (CI/CD Engineer)  

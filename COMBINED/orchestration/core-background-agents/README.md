@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-background-agents
+---
+
 # Background Agents: Open-Inspect
 
 An open-source background agents coding system inspired by
@@ -205,3 +212,9 @@ built with:
 - [Cloudflare Workers](https://workers.cloudflare.com) - Edge computing
 - [OpenCode](https://opencode.ai) - Coding agent runtime
 - [Next.js](https://nextjs.org) - Web framework
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-background-agents]] — core-background-agents
+

@@ -1,5 +1,9 @@
 ---
 "@bradygaster/squad-cli": patch
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-squad
 ---
 
 fix(cli): wire --team-root / SQUAD_TEAM_ROOT into squad resolution for nap, status, and cost commands (#734)

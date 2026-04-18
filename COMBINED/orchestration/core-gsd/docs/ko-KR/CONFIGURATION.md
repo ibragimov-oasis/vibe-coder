@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-gsd
+---
+
 # GSD 설정 레퍼런스
 
 > 전체 설정 스키마, 워크플로우 토글, 모델 프로필, git 브랜칭 옵션입니다. 기능에 대한 맥락은 [Feature Reference](FEATURES.md)를 참조하세요.

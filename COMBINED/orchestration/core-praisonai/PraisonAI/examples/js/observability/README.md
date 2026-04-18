@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-praisonai
+---
+
 # Observability Examples
 
 Examples demonstrating how to use observability integrations with PraisonAI TypeScript.
@@ -48,3 +55,9 @@ LANGFUSE_SECRET_KEY=sk-... npx tsx examples/js/observability/langfuse-integratio
 | Helicone | `HELICONE_API_KEY` | `@helicone/helicone` |
 | Console | (none) | built-in |
 | Memory | (none) | built-in |
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-praisonai]] — core-praisonai
+

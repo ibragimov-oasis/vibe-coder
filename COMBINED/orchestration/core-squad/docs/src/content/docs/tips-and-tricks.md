@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-squad
+---
+
 # Tips and Tricks for Managing Your Squad
 
 > **Quick Start Prompts:**  

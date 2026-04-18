@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-praisonai
+---
+
 # Creator Suite Examples
 
 Examples for the PraisonAI Creator Automation Suite - a complete toolkit for AI content creators.
@@ -75,3 +82,9 @@ cp .env.example .env
 ## Documentation
 
 Full documentation: https://docs.praison.ai/docs/ai-tools/creator-suite/
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-praisonai]] — core-praisonai
+

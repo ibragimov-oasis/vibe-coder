@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # Built at 38,000 ft: A Governance Control Plane in One Flight
 
 **Route**: Toronto (YYZ) → Bangalore (BLR)

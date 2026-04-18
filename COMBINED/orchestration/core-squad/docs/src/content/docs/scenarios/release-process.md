@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-squad
+---
+
 # Release Process for Squad Maintainers
 
 **Try this to ship a new version:**

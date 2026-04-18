@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # ADR-030: MCP Tool Gap Analysis — Old Chat System vs HF Chat UI
 
 ## Status

@@ -2,6 +2,10 @@
 sidebar_position: 8
 title: "SMS (Twilio)"
 description: "Set up Hermes Agent as an SMS chatbot via Twilio"
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-hermes
 ---
 
 # SMS Setup (Twilio)

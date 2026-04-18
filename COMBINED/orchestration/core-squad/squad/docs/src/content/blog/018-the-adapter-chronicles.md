@@ -6,6 +6,9 @@ wave: null
 tags: [squad, adapter, copilot-sdk, typescript, type-safety, codespace, bug]
 status: published
 hero: "A P0 crash in Codespaces led to a 7-issue sprint that eliminated every unsafe cast in Squad's adapter layer. Zero `as any` remaining."
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-squad
 ---
 
 # The Adapter Chronicles

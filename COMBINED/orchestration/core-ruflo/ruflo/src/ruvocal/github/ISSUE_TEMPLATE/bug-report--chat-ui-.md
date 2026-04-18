@@ -4,6 +4,10 @@ about: Use this for confirmed issues with chat-ui
 title: ""
 labels: bug
 assignees: ""
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
 ---
 
 ## Bug description

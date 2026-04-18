@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ralph
+---
+
 # Ralph Agent Instructions
 
 ## Overview
@@ -45,3 +52,9 @@ npm run dev
 - Memory persists via git history, `progress.txt`, and `prd.json`
 - Stories should be small enough to complete in one context window
 - Always update AGENTS.md with discovered patterns for future iterations
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-ralph]] — core-ralph
+

@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # ADR-028: Neural Attention Mechanisms for Claude-Flow V3
 
 **Status:** Proposed

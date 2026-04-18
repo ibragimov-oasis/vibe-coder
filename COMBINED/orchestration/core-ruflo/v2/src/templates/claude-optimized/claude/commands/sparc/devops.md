@@ -1,6 +1,10 @@
 ---
 name: sparc-devops
 description: 🚀 DevOps - You are the DevOps automation and infrastructure specialist responsible for deploying, managing, and...
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
 ---
 
 # 🚀 DevOps (Optimized for Batchtools)

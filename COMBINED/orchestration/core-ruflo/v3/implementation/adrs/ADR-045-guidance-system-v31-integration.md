@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # ADR-045: Guidance System Integration — Claude Flow v3.1
 
 **Status:** Accepted

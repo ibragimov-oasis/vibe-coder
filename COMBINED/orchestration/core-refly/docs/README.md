@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-refly
+---
+
 # Refly.AI Documentation
 
 This repository contains the official documentation for [Refly.AI](https://refly.ai), an AI-native content creation platform built on the concept of "Free Canvas". The documentation site is built using [VitePress](https://vitepress.dev/), a static site generator powered by Vue.
@@ -83,3 +90,9 @@ Contributions to other language translations are welcome!
 ## Contributing
 
 We welcome contributions to the Refly documentation! Please feel free to submit pull requests with improvements, corrections, or translations.
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-refly]] — core-refly
+

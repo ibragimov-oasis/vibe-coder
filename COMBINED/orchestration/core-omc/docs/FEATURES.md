@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-omc
+---
+
 # Developer API Reference
 
 > Internal API documentation for oh-my-claudecode developers and contributors.

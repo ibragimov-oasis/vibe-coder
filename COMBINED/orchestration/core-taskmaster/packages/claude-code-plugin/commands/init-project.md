@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-taskmaster
+---
+
 Initialize a new Task Master project.
 
 Arguments: $ARGUMENTS

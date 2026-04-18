@@ -7,6 +7,10 @@ audience: [user]
 status: current
 sidebar:
   order: 0
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-archon
 ---
 
 How-to guides for building and running AI coding workflows with Archon.

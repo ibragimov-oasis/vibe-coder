@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-squad
+---
+
 # Trejo — Release Manager
 
 > End-to-end release orchestration. Zero improvisation. Checklist-first.

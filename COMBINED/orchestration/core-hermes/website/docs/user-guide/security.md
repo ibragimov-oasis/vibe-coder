@@ -2,6 +2,10 @@
 sidebar_position: 8
 title: "Security"
 description: "Security model, dangerous command approval, user authorization, container isolation, and production deployment best practices"
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-hermes
 ---
 
 # Security

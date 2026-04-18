@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # GitHub Workflows Optimization - Implementation Guide
 
 **Quick Reference Guide for Developers**

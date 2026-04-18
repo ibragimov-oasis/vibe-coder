@@ -4,6 +4,10 @@ description: "Max-3-cycle protocol for agent sub-tasks with WHY context and coor
 domain: "agent-coordination"
 confidence: "high"
 license: MIT
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-squad
 ---
 
 # Iterative Retrieval Skill

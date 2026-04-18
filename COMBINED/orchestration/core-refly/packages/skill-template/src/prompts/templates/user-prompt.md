@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-refly
+---
+
 User provided following context, please use them wisely to understand the task and solve the problem:
 
 {{#if hasResultsMeta}}

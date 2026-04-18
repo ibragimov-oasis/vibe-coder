@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # Real Metrics Collection for Claude-Flow Benchmarks
 
 ## Overview

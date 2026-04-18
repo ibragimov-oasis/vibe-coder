@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-squad
+---
+
 # Insider Program
 
 Get early access to Squad development builds and shape the future of the project.

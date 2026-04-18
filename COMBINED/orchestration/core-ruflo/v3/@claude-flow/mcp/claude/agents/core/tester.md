@@ -81,6 +81,10 @@ hooks:
 
     # 5. Trigger testgaps worker for coverage analysis
     npx claude-flow@v3alpha hooks worker dispatch --trigger testgaps
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
 ---
 
 # Testing and Quality Assurance Agent

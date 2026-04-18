@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # Pair Programming Configuration
 
 Complete configuration guide for pair programming sessions.

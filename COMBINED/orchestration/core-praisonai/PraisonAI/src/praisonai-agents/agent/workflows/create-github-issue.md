@@ -1,5 +1,9 @@
 ---
 description: Research a topic in-depth, analyze both external and local codebases, and create a comprehensive GitHub issue — ready for another agent/developer to act on immediately
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-praisonai
 ---
 
 # Create GitHub Issue Workflow

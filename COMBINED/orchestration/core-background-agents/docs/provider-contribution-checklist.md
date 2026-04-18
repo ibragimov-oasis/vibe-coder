@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-background-agents
+---
+
 # Provider Contribution Checklist
 
 Use this checklist before opening a pull request for a new source-control provider.

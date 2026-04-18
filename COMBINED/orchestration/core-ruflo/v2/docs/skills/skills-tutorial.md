@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # 🎓 Claude Code Skills Capabilities Guide
 
 **Version**: 2.0.0

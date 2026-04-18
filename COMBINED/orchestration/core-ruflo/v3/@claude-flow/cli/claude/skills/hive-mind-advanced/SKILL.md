@@ -5,6 +5,9 @@ version: 1.0.0
 category: coordination
 tags: [hive-mind, swarm, queen-worker, consensus, collective-intelligence, multi-agent, coordination]
 author: Claude Flow Team
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
 ---
 
 # Hive Mind Advanced Skill

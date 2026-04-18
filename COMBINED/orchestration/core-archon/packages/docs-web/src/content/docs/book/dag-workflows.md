@@ -6,6 +6,10 @@ part: advanced
 audience: [user]
 sidebar:
   order: 8
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-archon
 ---
 
 In [Chapter 7](/book/first-workflow/) you built a workflow that runs commands in sequence, one after another. That covers a lot of ground — plan, implement, validate, review. But there's a class of problems sequential steps can't solve cleanly: "run this node only if the previous result was a bug, not a feature request" or "wait for three independent reviewers to finish, then merge their findings."

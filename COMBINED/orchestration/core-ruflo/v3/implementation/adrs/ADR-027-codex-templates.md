@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # ADR-027 Supplement: Codex Template Specifications
 
 > **Branding Note**: This package is published as `@claude-flow/codex` and is the first step in transitioning to the `coflow` brand. The future umbrella package will be `npm/npx coflow`.

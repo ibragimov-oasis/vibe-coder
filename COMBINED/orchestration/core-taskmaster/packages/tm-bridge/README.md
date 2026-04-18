@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-taskmaster
+---
+
 # @tm/bridge
 
 > ⚠️ **TEMPORARY PACKAGE - DELETE WHEN LEGACY CODE IS REMOVED** ⚠️
@@ -51,3 +58,9 @@ const result = await tryUpdateViaRemote({
 ---
 
 **Remember:** This package should NOT accumulate new features. It's a temporary migration aid only.
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-taskmaster]] — core-taskmaster
+

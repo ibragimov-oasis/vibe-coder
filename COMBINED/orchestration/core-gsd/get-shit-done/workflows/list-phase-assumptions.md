@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-gsd
+---
+
 <purpose>
 Surface Claude's assumptions about a phase before planning, enabling users to correct misconceptions early.
 

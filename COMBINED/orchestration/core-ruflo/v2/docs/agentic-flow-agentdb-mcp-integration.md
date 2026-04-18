@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # Agentic Flow & AgentDB MCP 2025 Integration
 
 **Purpose**: Map MCP 2025 spec changes onto Agentic Flow and AgentDB with concrete interface updates

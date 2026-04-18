@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-deer-flow
+---
+
 # Architecture Overview
 
 This document provides a comprehensive overview of the DeerFlow backend architecture.

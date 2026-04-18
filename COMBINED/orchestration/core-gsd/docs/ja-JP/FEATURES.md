@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-gsd
+---
+
 # GSD 機能リファレンス
 
 > 全機能と要件の完全なドキュメントです。アーキテクチャの詳細については[アーキテクチャ](ARCHITECTURE.md)を、コマンド構文については[コマンドリファレンス](COMMANDS.md)をご覧ください。

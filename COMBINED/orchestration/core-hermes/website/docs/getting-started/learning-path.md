@@ -2,6 +2,10 @@
 sidebar_position: 3
 title: 'Learning Path'
 description: 'Choose your learning path through the Hermes Agent documentation based on your experience level and goals.'
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-hermes
 ---
 
 # Learning Path

@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # GitHub Issue #599 - Python Package Reorganization Complete
 
 ## Status: ✅ COMPLETED

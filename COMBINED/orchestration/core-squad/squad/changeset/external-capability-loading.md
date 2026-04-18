@@ -1,5 +1,9 @@
 ---
 '@bradygaster/squad-cli': minor
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-squad
 ---
 
 feat(watch): load external WatchCapabilities from .squad/capabilities/

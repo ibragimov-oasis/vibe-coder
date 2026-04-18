@@ -3,6 +3,9 @@ name: maps
 description: Make map animations with Mapbox
 metadata:
   tags: map, map animation, mapbox
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-archon
 ---
 
 Maps can be added to a Remotion video with Mapbox.  

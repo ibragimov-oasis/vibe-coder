@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/superpowers
+---
+
 # Claude Code Skills Tests
 
 Automated tests for superpowers skills using Claude Code CLI.
@@ -156,3 +163,9 @@ To run in CI:
 - Focus on verifying key skill requirements
 - Tests should be deterministic
 - Avoid testing implementation details
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/superpowers]] — superpowers
+

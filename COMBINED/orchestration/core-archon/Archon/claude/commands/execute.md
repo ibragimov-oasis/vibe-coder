@@ -1,6 +1,10 @@
 ---
 description: Execute an Archon implementation plan file
 argument-hint: <path-to-plan.md>
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-archon
 ---
 
 # Execute: Implement an Archon Plan

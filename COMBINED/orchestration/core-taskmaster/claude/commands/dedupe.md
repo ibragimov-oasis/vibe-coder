@@ -1,6 +1,10 @@
 ---
 allowed-tools: Bash(gh issue view:*), Bash(gh search:*), Bash(gh issue list:*), Bash(gh api:*), Bash(gh issue comment:*)
 description: Find duplicate GitHub issues
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-taskmaster
 ---
 
 Find up to 3 likely duplicate issues for a given GitHub issue.

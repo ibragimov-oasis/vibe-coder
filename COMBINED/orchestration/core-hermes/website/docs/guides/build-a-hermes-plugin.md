@@ -1,5 +1,9 @@
 ---
 sidebar_position: 10
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-hermes
 ---
 
 # Build a Hermes Plugin

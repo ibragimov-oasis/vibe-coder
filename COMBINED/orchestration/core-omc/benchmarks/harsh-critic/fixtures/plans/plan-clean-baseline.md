@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-omc
+---
+
 # Notifications Service Deployment Plan
 **Version:** 1.0
 **Owner:** Growth Engineering Team

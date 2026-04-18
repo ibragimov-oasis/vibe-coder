@@ -5,6 +5,10 @@ date: 6/14/2025
 time: 4:35:03 PM
 timestamp: 2025-06-14T20:35:03.231Z
 exchanges: 2
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-taskmaster
 ---
 
 # Research Session

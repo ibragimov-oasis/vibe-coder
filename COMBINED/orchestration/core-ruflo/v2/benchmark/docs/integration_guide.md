@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # Claude-Flow Integration Guide
 
 This guide explains how to use the claude-flow integration layer for benchmark testing and automation.

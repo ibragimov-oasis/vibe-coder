@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-archon
+---
+
 # Advanced Features: Hooks, MCP, Skills, Retry
 
 These features are available on **command and prompt nodes** (hooks, MCP, skills, tool restrictions) and **command, prompt, and bash nodes** (retry, output_format). Loop nodes do not support these features (`retry` on loop nodes is a hard error; others are silently ignored).

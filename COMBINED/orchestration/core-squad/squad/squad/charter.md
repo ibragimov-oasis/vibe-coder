@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-squad
+---
+
 # {Name} — {Role}
 
 > {One-line personality statement — what makes this person tick}

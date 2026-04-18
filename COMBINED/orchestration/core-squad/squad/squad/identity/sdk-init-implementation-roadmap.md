@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-squad
+---
+
 # SDK Init Implementation Roadmap
 
 > Deep dive analysis and implementation plan for `squad init --sdk`

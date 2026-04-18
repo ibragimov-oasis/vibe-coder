@@ -6,6 +6,9 @@ wave: null
 tags: [squad, docs, github-pages, restructure, dark-mode, search, site-generator]
 status: published
 hero: "77 pages across 6 sections. Dark mode. Client-side search. Sidebar navigation. The beta's best UI, rebuilt for v1's content. Squad's docs are a real site now."
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-squad
 ---
 
 # Docs Reborn

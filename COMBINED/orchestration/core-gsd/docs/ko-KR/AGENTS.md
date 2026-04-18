@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-gsd
+---
+
 # GSD 에이전트 레퍼런스
 
 > 18개의 전문화된 에이전트 — 역할, 도구, 생성 패턴, 관계를 모두 포함합니다. 아키텍처 맥락은 [Architecture](ARCHITECTURE.md)를 참조하세요.

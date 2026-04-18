@@ -1,6 +1,10 @@
 ---
 description: Commit changes, create PR with template, mark ready for review
 argument-hint: (no arguments - reads from workflow artifacts)
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-archon
 ---
 
 # Finalize Pull Request

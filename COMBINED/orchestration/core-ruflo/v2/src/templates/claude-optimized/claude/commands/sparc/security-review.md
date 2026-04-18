@@ -1,6 +1,10 @@
 ---
 name: sparc-security-review
 description: 🛡️ Security Reviewer - You perform static and dynamic audits to ensure secure code practices. You flag secrets, poor modula...
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
 ---
 
 # 🛡️ Security Reviewer (Optimized for Batchtools)

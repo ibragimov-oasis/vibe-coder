@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-squad
+---
+
 # Squad SubSquads
 
 > Scale Squad across multiple Codespaces by partitioning work into labeled SubSquads.

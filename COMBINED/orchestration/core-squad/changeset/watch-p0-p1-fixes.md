@@ -1,5 +1,9 @@
 ---
 '@bradygaster/squad-cli': patch
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-squad
 ---
 
 fix(watch): wire missing CLI flags to config, validate --state-backend, fix auth stderr parsing (#834)

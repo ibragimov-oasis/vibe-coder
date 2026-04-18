@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-gsd
+---
+
 # Model Profile Resolution
 
 Resolve model profile once at the start of orchestration, then use it for all Task spawns.

@@ -1,6 +1,10 @@
 ---
 description: Review test coverage quality, identify gaps, and evaluate test effectiveness
 argument-hint: (none - reads from scope artifact)
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-archon
 ---
 
 # Test Coverage Agent

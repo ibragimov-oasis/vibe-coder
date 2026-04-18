@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-praisonai
+---
+
 # PraisonAI API Reference
 
 This file is auto-generated. Do not edit manually.
@@ -1232,3 +1239,9 @@ pip install praisonai-tools
 ```
 
 See [PraisonAI-tools](https://github.com/MervinPraison/PraisonAI-tools) for available tools.
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-praisonai]] — core-praisonai
+

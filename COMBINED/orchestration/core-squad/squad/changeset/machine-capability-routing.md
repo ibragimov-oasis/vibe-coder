@@ -1,6 +1,10 @@
 ---
 "@bradygaster/squad-sdk": minor
 "@bradygaster/squad-cli": minor
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-squad
 ---
 
 feat: Machine capability discovery and `needs:*` label-based issue routing

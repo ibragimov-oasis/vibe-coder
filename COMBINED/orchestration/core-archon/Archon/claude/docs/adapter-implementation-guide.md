@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-archon
+---
+
 # Adapter Implementation Guide
 
 > **Purpose**: Complete reference for understanding and building platform adapters in Archon.

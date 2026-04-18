@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-gsd
+---
+
 <purpose>
 List all GSD workspaces found in ~/gsd-workspaces/ with their status.
 </purpose>

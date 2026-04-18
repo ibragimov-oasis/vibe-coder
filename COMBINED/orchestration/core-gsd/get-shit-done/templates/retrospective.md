@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-gsd
+---
+
 # Project Retrospective
 
 *A living document updated after each milestone. Lessons feed forward into future planning.*

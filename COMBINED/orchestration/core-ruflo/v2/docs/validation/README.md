@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # ✅ Validation & Testing
 
 Test reports, validation results, and quality assurance documentation.
@@ -23,3 +30,9 @@ Test reports, validation results, and quality assurance documentation.
 ---
 
 [← Back to Documentation Index](../README.md)
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-ruflo]] — core-ruflo
+

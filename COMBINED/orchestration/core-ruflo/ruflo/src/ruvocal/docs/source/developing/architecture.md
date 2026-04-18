@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # Architecture
 
 This document provides a high-level overview of the Chat UI codebase. If you're looking to contribute or understand how the codebase works, this is the place for you!

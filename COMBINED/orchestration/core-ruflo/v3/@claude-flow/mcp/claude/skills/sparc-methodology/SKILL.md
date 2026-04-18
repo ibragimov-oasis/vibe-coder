@@ -11,6 +11,9 @@ tags:
   - methodology
   - multi-agent
 author: Claude Flow
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
 ---
 
 # SPARC Methodology - Comprehensive Development Framework

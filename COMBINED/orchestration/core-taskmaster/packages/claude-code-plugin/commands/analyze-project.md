@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-taskmaster
+---
+
 Advanced project analysis with actionable insights and recommendations.
 
 Arguments: $ARGUMENTS

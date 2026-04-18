@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-praisonai
+---
+
 # Run History Example
 
 This example demonstrates how to use PraisonAI run history for storing, querying, and exporting recipe runs.
@@ -41,3 +48,9 @@ praisonai recipe runs cleanup
 ## Default Storage Location
 
 Run history is stored at `~/.praison/runs`.
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-praisonai]] — core-praisonai
+

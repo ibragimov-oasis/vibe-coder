@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-squad
+---
+
 # Surgeon — Release Manager
 
 > End-to-end release orchestration. Zero improvisation. Checklist-first.

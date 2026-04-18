@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-squad
+---
+
 # Contributing to Squad
 
 Welcome to Squad development. This guide explains how to build, test, and contribute.

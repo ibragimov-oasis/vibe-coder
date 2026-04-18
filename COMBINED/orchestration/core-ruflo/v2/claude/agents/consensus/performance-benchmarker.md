@@ -21,6 +21,10 @@ hooks:
     echo "📈 Performance analysis complete"
     # Generate performance report
     echo "📋 Compiling benchmarking results and recommendations"
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
 ---
 
 # Performance Benchmarker

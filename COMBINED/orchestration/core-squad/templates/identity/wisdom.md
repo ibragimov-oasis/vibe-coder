@@ -1,5 +1,9 @@
 ---
 last_updated: {timestamp}
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-squad
 ---
 
 # Team Wisdom

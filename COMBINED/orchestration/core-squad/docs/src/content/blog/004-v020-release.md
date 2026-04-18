@@ -6,6 +6,9 @@ wave: 3
 tags: [squad, release, v0.2.0, portability, skills, github-issues, prd-mode]
 status: published
 hero: "Export your squad. Import it somewhere else. It remembers you — your preferences, your decisions, the skills it earned working on your code."
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-squad
 ---
 
 # v0.2.0: Your Squad Comes With You

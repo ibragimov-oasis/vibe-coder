@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # Bug Report: `memory stats` Command Returns Zero for ReasoningBank Data
 
 ## Executive Summary

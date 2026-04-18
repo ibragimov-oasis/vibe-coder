@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # Final Pre-Publish Validation Report
 # Claude-Flow v2.6.0-alpha.2
 

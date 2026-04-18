@@ -21,6 +21,10 @@ hooks:
     echo "✅ Smart coordination complete"
     memory_store "last_coordination_$(date +%s)" "Intelligent agent coordination executed"
     echo "💡 Agent spawning patterns learned and stored"
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
 ---
 
 # Smart Agent Coordinator

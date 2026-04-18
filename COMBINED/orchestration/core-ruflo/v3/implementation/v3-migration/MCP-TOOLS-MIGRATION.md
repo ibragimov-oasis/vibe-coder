@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # MCP Tools Migration Guide
 
 > Migrating from V2 MCP Tools (65) to V3 MCP Tools (22)

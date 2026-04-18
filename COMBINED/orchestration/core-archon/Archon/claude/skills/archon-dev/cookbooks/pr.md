@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-archon
+---
+
 # PR Cookbook
 
 Create well-structured pull requests. Detects PR templates, auto-detects base branch, and links related artifacts. The PR itself is the artifact — no file written.

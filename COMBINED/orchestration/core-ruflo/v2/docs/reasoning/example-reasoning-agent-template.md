@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # Example Reasoning Agent Template
 
 This template demonstrates how to create a custom reasoning agent that leverages ReasoningBank's closed-loop learning system.

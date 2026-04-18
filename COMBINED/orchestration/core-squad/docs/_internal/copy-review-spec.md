@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-squad
+---
+
 # Copy Review Spec — Issue #668
 
 **Requested by:** Brady  

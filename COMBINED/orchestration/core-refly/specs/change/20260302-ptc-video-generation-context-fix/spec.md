@@ -4,6 +4,10 @@ name: Ptc Video Generation Context Fix
 status: implemented
 created: '2026-03-02'
 linear_issue_id: REF-1472
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-refly
 ---
 
 ## Overview

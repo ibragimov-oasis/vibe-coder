@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # ADR-041: Hyperbolic Reasoning Plugin
 
 **Status:** Proposed

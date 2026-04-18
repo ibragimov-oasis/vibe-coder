@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # ADR-G009: Headless Testing Harness -- Claude Code as the Evaluation Primitive
 
 ## Status

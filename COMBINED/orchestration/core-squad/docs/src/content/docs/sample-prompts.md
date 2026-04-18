@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-squad
+---
+
 # Sample Prompts
 
 Ready-to-use prompts for Squad. Copy any prompt, open Copilot, select **Squad**, and paste it in.

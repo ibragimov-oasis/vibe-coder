@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-gsd
+---
+
 # UI 品牌规范
 
 面向用户的 GSD 输出的视觉模式。编排器通过 @ 引用此文件。

@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-taskmaster
+---
+
 Execute a pipeline of commands based on a specification.
 
 Arguments: $ARGUMENTS

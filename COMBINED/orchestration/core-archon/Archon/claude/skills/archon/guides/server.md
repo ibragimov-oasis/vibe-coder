@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-archon
+---
+
 # Server Setup Guide
 
 Shared setup for all non-CLI platforms (Telegram, Slack, Discord, GitHub). Run the CLI setup first.

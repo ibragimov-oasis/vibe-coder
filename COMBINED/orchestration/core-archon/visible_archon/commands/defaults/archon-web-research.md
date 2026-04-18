@@ -1,6 +1,10 @@
 ---
 description: Research web sources for context relevant to a GitHub issue or feature
 argument-hint: <issue-number or search context>
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-archon
 ---
 
 # Web Research

@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-praisonai
+---
+
 # PostHog Telemetry Performance Impact Analysis
 
 This document provides detailed analysis of the performance impact when PostHog telemetry is enabled by default in PraisonAI Agents.

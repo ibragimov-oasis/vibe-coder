@@ -6,6 +6,9 @@ wave: null
 tags: [squad, community, video, first-coverage]
 status: published
 hero: "Jeff Fritz published the first public video of Squad — a full demo building a cyberpunk text adventure game with an Avengers-themed cast, 131 passing tests, and a working game in one session."
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-squad
 ---
 
 # First Video Coverage: Jeff Fritz's Squad Demo

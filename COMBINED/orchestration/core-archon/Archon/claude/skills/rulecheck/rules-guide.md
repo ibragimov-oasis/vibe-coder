@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-archon
+---
+
 # Rules Guide — Where to Find Project Rules
 
 Reference for the rulecheck agent. Focus on rules that **linters can't enforce** —

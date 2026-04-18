@@ -3,6 +3,9 @@ name: text-animations
 description: Typography and text animation patterns for Remotion.
 metadata:
   tags: typography, text, typewriter, highlighter ken
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-archon
 ---
 
 ## Text animations

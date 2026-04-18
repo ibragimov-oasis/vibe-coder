@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # 🏗️ Claude-Flow Architecture Documentation
 
 ## Table of Contents

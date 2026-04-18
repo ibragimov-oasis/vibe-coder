@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-taskmaster
+---
+
 List tasks filtered by a specific status.
 
 Arguments: $ARGUMENTS

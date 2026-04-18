@@ -5,6 +5,10 @@ status: draft
 shadcn_initialized: false
 preset: none
 created: {date}
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-gsd
 ---
 
 # Phase {N} — UI Design Contract

@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # Task Management System
 
 Comprehensive task management with orchestration features for Claude-Flow. Integrates seamlessly with TodoWrite/TodoRead for coordination and Memory for state persistence.
@@ -437,3 +444,9 @@ Detailed API documentation is available in the [API docs](./docs/api.md).
 ## Contributing
 
 See [CONTRIBUTING.md](../../CONTRIBUTING.md) for guidelines on contributing to the task management system.
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-ruflo]] — core-ruflo
+

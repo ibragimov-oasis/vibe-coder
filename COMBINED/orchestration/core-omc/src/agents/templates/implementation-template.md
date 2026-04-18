@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-omc
+---
+
 # Implementation Task Template
 
 Use this template when delegating code implementation, refactoring, or modification tasks.

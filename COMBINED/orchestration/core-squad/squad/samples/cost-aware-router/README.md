@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-squad
+---
+
 # Cost-aware router
 
 Demonstrates how the Squad SDK selects response tiers based on task complexity, routes tasks to the cheapest model that can handle them, tracks costs per agent and session, and provides budget warnings and final cost reports.
@@ -78,3 +85,9 @@ import {
 - See [skill-discovery](../skill-discovery/README.md) to learn how agents discover and share domain knowledge
 - Check [autonomous-pipeline](../autonomous-pipeline/README.md) for a showcase combining multiple SDK components
 - Read the [Cost Management Guide](../../README.md#cost-tracking) in the main documentation
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-squad]] — core-squad
+

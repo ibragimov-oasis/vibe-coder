@@ -1,5 +1,9 @@
 ---
 "@bradygaster/squad-sdk": minor
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-squad
 ---
 
 ADO configurable work item types, area paths, and iteration support (#240)

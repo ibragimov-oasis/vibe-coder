@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-omc
+---
+
 # Project Session Manager (PSM) - Design Document
 
 > **Skill Name:** `project-session-manager` (alias: `psm`)

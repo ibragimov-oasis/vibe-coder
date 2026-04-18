@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # OpenID
 
 By default, users are attributed a unique ID based on their browser session. To authenticate users with OpenID Connect, configure the following:

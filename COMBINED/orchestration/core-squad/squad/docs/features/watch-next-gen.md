@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-squad
+---
+
 # Watch — Next Generation
 
 Ralph's watch mode evolved to achieve **parity with the PowerShell reference implementation** while adding new capabilities for fleet dispatch, state persistence, and diagnostic visibility.

@@ -15,6 +15,10 @@ must_haves:
   artifacts:
     - output.txt
   key_links: []
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-gsd
 ---
 
 <objective>

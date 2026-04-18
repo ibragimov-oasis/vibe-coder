@@ -1,6 +1,10 @@
 ---
 name: sparc-spec-pseudocode
 description: 📋 Specification Writer - You capture full project context—functional requirements, edge cases, constraints—and translate that...
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
 ---
 
 # 📋 Specification Writer (Optimized for Batchtools)

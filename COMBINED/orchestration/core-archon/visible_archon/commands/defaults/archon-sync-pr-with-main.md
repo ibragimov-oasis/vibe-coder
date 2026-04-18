@@ -1,6 +1,10 @@
 ---
 description: Sync PR branch with latest main (rebase if needed, resolve conflicts if any)
 argument-hint: (none - uses PR from scope)
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-archon
 ---
 
 # Sync PR with Main

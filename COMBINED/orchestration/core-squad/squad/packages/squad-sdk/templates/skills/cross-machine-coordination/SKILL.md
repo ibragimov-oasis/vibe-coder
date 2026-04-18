@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-squad
+---
+
 # Skill: Cross-Machine Coordination Pattern
 
 **Skill ID:** `cross-machine-coordination`  

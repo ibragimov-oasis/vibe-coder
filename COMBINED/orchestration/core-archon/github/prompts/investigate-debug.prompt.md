@@ -17,6 +17,10 @@ tools:
 agents:
   - codebase-explorer
   - codebase-analyst
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-archon
 ---
 
 # Investigate Issue

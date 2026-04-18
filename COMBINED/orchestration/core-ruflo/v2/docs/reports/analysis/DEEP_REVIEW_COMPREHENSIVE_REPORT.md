@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # Deep Review: Comprehensive Capability & Functionality Report
 # Claude-Flow v2.6.0-alpha.2 with Agentic-Flow Integration
 

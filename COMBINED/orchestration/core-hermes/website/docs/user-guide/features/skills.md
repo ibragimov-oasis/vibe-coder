@@ -2,6 +2,10 @@
 sidebar_position: 2
 title: "Skills System"
 description: "On-demand knowledge documents — progressive disclosure, agent-managed skills, and the Skills Hub"
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-hermes
 ---
 
 # Skills System

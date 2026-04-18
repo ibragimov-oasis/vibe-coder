@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-gsd
+---
+
 <purpose>
 List all pending todos, allow selection, load full context for the selected todo, and route to appropriate action.
 </purpose>

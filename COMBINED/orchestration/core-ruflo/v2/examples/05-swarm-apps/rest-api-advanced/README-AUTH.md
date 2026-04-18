@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # Authentication System Documentation
 
 This REST API includes a comprehensive authentication system with JWT tokens, refresh tokens, email verification, and password reset functionality.

@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # AgentDB v1.3.9 Integration - Implementation Summary
 
 **Date**: 2025-10-23

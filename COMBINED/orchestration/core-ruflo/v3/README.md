@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # Claude Flow V3
 
 > **Modular AI Agent Coordination System** - A complete reimagining of Claude-Flow with 15-agent hierarchical mesh swarm coordination.
@@ -491,3 +498,9 @@ MIT License - See [LICENSE](../LICENSE) for details.
 ---
 
 **Built with the SPARC methodology and 15-agent hierarchical mesh coordination.**
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-ruflo]] — core-ruflo
+

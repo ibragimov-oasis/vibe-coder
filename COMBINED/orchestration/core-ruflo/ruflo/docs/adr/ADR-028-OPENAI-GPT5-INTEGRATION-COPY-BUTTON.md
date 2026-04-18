@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # ADR-028: OpenAI GPT-5 Integration + Copy Message Button
 
 ## Status

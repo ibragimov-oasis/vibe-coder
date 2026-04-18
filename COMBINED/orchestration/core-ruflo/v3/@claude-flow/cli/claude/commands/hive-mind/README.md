@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # Hive-mind Commands
 
 Commands for hive-mind operations in Claude Flow.
@@ -15,3 +22,9 @@ Commands for hive-mind operations in Claude Flow.
 - [hive-mind-memory](./hive-mind-memory.md)
 - [hive-mind-metrics](./hive-mind-metrics.md)
 - [hive-mind-wizard](./hive-mind-wizard.md)
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-ruflo]] — core-ruflo
+

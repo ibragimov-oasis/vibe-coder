@@ -7,6 +7,10 @@ audience: [user]
 status: current
 sidebar:
   order: 4
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-archon
 ---
 
 You must configure **at least one** AI assistant. Both can be configured if desired.

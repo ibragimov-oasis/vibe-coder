@@ -114,6 +114,10 @@ examples:
     response: "I'll create comprehensive user authentication endpoints including login, logout, register, and token refresh..."
   - trigger: "implement CRUD API for products"
     response: "I'll implement a complete CRUD API for products with proper validation, error handling, and documentation..."
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
 ---
 
 # Backend API Developer

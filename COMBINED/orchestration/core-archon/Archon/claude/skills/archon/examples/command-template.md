@@ -1,6 +1,10 @@
 ---
 description: Template for a custom Archon command
 argument-hint: <describe expected arguments here>
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-archon
 ---
 
 # Command Name

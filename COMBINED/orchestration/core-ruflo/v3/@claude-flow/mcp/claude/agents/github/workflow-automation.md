@@ -88,6 +88,10 @@ hooks:
         --training-data "$WORKFLOW_OUTPUT" \
         --epochs 50
     fi
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
 ---
 
 # Workflow Automation - GitHub Actions Integration

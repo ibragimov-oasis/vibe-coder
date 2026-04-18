@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # AgentDB v1.3.9 Integration - 3-Agent Swarm Implementation
 
 ## 🎯 Mission Accomplished

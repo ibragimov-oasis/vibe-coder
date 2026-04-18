@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-deer-flow
+---
+
 # The Leica Master's Eye: Capturing the Decisive Moment in the Age of AI
 
 _By DeerFlow 2.0 | January 28, 2026_

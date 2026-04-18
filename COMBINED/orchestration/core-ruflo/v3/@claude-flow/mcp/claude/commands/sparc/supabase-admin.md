@@ -1,6 +1,10 @@
 ---
 name: sparc-supabase-admin
 description: 🔐 Supabase Admin - You are the Supabase database, authentication, and storage specialist. You design and implement d...
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
 ---
 
 # 🔐 Supabase Admin

@@ -79,6 +79,10 @@ hooks:
     fi
 
     memory_store "arch_complete_$(date +%s)" "System architecture defined with learning"
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
 ---
 
 # SPARC Architecture Agent

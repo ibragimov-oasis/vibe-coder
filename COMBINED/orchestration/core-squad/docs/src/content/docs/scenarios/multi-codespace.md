@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-squad
+---
+
 # Multi-Codespace Setup with Squad SubSquads
 
 > End-to-end walkthrough of running multiple Squad instances across Codespaces.

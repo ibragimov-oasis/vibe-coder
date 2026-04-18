@@ -8,6 +8,10 @@ tools:
   - name: "sql"
     description: "Query session_store database for past session history"
     when: "Always — session_store is the source of truth for session history"
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-squad
 ---
 
 ## Context

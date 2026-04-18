@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-gsd
+---
+
 <purpose>
 Execute a trivial task inline without subagent overhead. No PLAN.md, no Task spawning,
 no research, no plan checking. Just: understand → do → commit → log.

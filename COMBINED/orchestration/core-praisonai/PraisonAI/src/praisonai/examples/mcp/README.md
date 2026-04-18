@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-praisonai
+---
+
 # MCP Server Examples
 
 Examples demonstrating the MCP Server v2 features per MCP Protocol Version 2025-11-25.
@@ -130,3 +137,9 @@ These examples comply with MCP Protocol Version 2025-11-25:
   - `destructiveHint`: true
   - `idempotentHint`: false
   - `openWorldHint`: true
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-praisonai]] — core-praisonai
+

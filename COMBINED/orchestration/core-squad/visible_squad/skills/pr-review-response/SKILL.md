@@ -11,6 +11,10 @@ tools:
   - name: "gh api (REST)"
     description: "Reply to review comment threads and resolve threads via GraphQL"
     when: "Step 3 — posting reply to each comment thread after fixing"
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-squad
 ---
 
 ## Context

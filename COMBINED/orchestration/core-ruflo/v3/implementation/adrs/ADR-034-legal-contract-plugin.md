@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # ADR-034: Legal Contract Analysis Plugin
 
 **Status:** Proposed

@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-squad
+---
+
 # Azure Function Squad
 
 Content review squad deployed as an HTTP-triggered Azure Function. A multi-agent review pipeline analyzes submitted content through three specialist agents: tone reviewer, technical reviewer, and copy editor. Results are aggregated into a structured JSON response with per-agent scores and findings.
@@ -128,3 +135,9 @@ func start      # Start runtime
 - See [autonomous-pipeline](../autonomous-pipeline/README.md) for a full showcase of Squad SDK features
 - Check the [Squad SDK documentation](../../README.md) for builder API details
 - Review Azure Functions [documentation](https://learn.microsoft.com/en-us/azure/azure-functions/) for deployment options
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-squad]] — core-squad
+

@@ -6,6 +6,9 @@ wave: null
 tags: [squad, replatform, typescript, architecture, sdk, cli]
 status: published
 hero: "We threw away everything that worked and rewrote Squad from scratch in TypeScript. Here's why that was the only honest move."
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-squad
 ---
 
 # The Replatform Begins

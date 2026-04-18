@@ -6,6 +6,9 @@ wave: 6
 tags: [squad, release, v0.4.1, patch, quality]
 status: published
 hero: "v0.4.1 lands five targeted fixes for logging, team setup, CLI UX, docs formatting, and blog chronology. Responsive to user feedback."
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-squad
 ---
 
 # v0.4.1: Quick Quality Patch

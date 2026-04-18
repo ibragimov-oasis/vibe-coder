@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # ADR-062: Cross-Platform Hook Command Generation
 
 **Date:** 2026-03-05

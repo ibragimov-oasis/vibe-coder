@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # 🔧 Technical Documentation
 
 This directory contains technical implementation details, fixes, and performance documentation.
@@ -34,3 +41,9 @@ For higher-level documentation, see:
 - `/docs/architecture/` - System architecture
 - `/docs/guides/` - User guides
 - `/docs/reference/` - API reference
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-ruflo]] — core-ruflo
+

@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # Performance.json Improvements - v2.7.0-alpha.7
 
 ## Summary

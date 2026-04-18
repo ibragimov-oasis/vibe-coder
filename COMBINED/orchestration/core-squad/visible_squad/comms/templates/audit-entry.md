@@ -1,6 +1,10 @@
 ---
 timestamp: "{ISO-8601}"
 action: "scan|draft|approve|edit|skip|post|halt|resume|delete|lint_failure|expire"
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-squad
 ---
 
 > All other fields are conditional on the action type. See **Conditional Fields** table below.

@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # ADR-050: Intelligence Loop (Close the Memory Gap)
 
 **Status**: Accepted

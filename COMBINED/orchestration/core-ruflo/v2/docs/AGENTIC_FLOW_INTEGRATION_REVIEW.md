@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # Agentic-Flow NPM Integration Review
 **Date:** 2025-10-25
 **Claude-Flow Version:** 2.7.14

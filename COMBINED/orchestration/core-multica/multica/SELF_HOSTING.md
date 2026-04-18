@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-multica
+---
+
 # Self-Hosting Guide
 
 Deploy Multica on your own infrastructure in minutes.

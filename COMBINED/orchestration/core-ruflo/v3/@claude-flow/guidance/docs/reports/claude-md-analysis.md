@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # CLAUDE.md Analysis Report
 
 Generated: 2026-02-01 by `@claude-flow/guidance/analyzer`

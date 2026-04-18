@@ -6,6 +6,9 @@ wave: null
 tags: [squad, remote-mode, community, spboyer, doctor, link, collaboration]
 status: published
 hero: "Shayne Boyer built remote squad mode in the beta. We ported it to the replatform — and it taught us something about how teams actually work."
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-squad
 ---
 
 # Shayne's Remote Mode

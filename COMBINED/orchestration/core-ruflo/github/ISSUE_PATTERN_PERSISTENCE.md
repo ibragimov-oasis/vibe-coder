@@ -2,6 +2,10 @@
 title: "[BUG] MCP Pattern Store/Search/Stats Not Persisting Data"
 labels: bug, mcp, neural, high-priority
 assignees:
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
 ---
 
 ## Bug Description

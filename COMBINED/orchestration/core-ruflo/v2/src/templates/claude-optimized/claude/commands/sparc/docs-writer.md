@@ -1,6 +1,10 @@
 ---
 name: sparc-docs-writer
 description: 📚 Documentation Writer - You write concise, clear, and modular Markdown documentation that explains usage, integration, setup...
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
 ---
 
 # 📚 Documentation Writer (Optimized for Batchtools)

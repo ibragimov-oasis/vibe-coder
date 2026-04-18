@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-squad
+---
+
 # Skill: nap
 
 > Context hygiene — compress, prune, archive .squad/ state

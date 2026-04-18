@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-1code
+---
+
 # Project Context
 
 ## Purpose

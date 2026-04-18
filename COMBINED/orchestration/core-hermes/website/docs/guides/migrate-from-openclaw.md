@@ -2,6 +2,10 @@
 sidebar_position: 7
 title: "Migrate from OpenClaw"
 description: "Complete guide to migrating your OpenClaw / Clawdbot setup to Hermes Agent — what gets migrated, how config maps, and what to check after."
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-hermes
 ---
 
 # Migrate from OpenClaw

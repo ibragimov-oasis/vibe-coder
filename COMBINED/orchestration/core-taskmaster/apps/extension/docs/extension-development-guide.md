@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-taskmaster
+---
+
 # VS Code Extension Development Guide
 
 ## 📁 File Structure Overview

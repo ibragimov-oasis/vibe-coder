@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-praisonai
+---
+
 # Gemini Embedding Support in PraisonAI
 
 This document describes how to use Google's Gemini embedding models with PraisonAI's memory system.

@@ -4,6 +4,10 @@ description: >
   Security scanning and vulnerability detection.
   Use when: authentication, authorization, payment processing, user data.
   Skip when: read-only operations, internal tooling.
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
 ---
 
 # Security Audit Skill

@@ -1,6 +1,10 @@
 ---
 description: Execute an implementation plan with rigorous validation loops
 argument-hint: <path/to/plan.md or GitHub issue URL>
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-archon
 ---
 
 # Implement Plan

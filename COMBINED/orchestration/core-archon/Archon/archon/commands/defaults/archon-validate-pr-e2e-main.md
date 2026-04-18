@@ -1,6 +1,10 @@
 ---
 description: Start Archon from main branch, use agent-browser to reproduce the bug via E2E testing
 argument-hint: (none - reads from artifacts)
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-archon
 ---
 
 # E2E Testing: Main Branch (Reproduce Bug)

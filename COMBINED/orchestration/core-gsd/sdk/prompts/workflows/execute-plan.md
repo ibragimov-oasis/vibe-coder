@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-gsd
+---
+
 <purpose>
 Execute a phase plan (PLAN.md) and create the outcome summary (SUMMARY.md).
 Headless SDK variant — runs autonomously without interactive checkpoints or user prompts.

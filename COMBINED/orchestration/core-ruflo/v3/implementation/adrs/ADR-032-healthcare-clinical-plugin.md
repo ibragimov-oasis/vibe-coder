@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # ADR-032: Healthcare Clinical Decision Support Plugin
 
 **Status:** Proposed

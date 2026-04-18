@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-praisonai
+---
+
 # PraisonAI Concept Examples
 
 This directory contains examples demonstrating core concepts of the PraisonAI package.
@@ -91,3 +98,9 @@ const result = await system.start();
    - Verbose logging
    - Error handling
    - Dependency resolution
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-praisonai]] — core-praisonai
+

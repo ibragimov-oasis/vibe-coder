@@ -1,6 +1,10 @@
 ---
 description: Create a comprehensive implementation plan for an Archon feature
 argument-hint: <feature-name-or-description>
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-archon
 ---
 
 # Plan Feature: Comprehensive Archon Implementation Planning

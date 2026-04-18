@@ -2,6 +2,10 @@
 sidebar_position: 5
 title: "Adding Providers"
 description: "How to add a new inference provider to Hermes Agent — auth, runtime resolution, CLI flows, adapters, tests, and docs"
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-hermes
 ---
 
 # Adding Providers

@@ -1,6 +1,10 @@
 ---
 name: "V3 DDD Architecture"
 description: "Domain-Driven Design architecture for claude-flow v3. Implements modular, bounded context architecture with clean separation of concerns and microkernel pattern."
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
 ---
 
 # V3 DDD Architecture

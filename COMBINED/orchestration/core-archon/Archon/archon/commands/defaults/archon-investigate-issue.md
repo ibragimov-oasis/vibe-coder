@@ -1,6 +1,10 @@
 ---
 description: Investigate a GitHub issue or problem - analyze codebase, create plan, post to GitHub
 argument-hint: <issue-number|url|"description">
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-archon
 ---
 
 # Investigate Issue

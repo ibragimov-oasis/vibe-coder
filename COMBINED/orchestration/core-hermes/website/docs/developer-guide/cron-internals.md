@@ -2,6 +2,10 @@
 sidebar_position: 11
 title: "Cron Internals"
 description: "How Hermes stores, schedules, edits, pauses, skill-loads, and delivers cron jobs"
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-hermes
 ---
 
 # Cron Internals

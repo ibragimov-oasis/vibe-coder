@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-praisonai
+---
+
 # Recipe Registry Example
 
 This example demonstrates how to use the PraisonAI recipe registry for publishing and pulling recipes via both local filesystem and HTTP server.
@@ -69,3 +76,9 @@ praisonai recipe publish ./my-recipe --registry /path/to/registry
 ## Default Registry Location
 
 By default, the local registry is stored at `~/.praison/registry`.
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-praisonai]] — core-praisonai
+

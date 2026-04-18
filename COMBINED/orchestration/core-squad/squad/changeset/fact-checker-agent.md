@@ -1,6 +1,10 @@
 ---
 "@bradygaster/squad-sdk": minor
 "@bradygaster/squad-cli": minor
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-squad
 ---
 
 Add fact-checker as a built-in agent role (#789)

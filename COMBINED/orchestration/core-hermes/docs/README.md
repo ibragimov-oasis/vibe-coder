@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-hermes
+---
+
 # Website
 
 This website is built using [Docusaurus](https://docusaurus.io/), a modern static website generator.
@@ -43,3 +50,9 @@ If you are using GitHub pages for hosting, this command is a convenient way to b
 ## Diagram Linting
 
 CI runs `ascii-guard` to lint docs for ASCII box diagrams. Use Mermaid (````mermaid`) or plain lists/tables instead of ASCII boxes to avoid CI failures.
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-hermes]] — core-hermes
+

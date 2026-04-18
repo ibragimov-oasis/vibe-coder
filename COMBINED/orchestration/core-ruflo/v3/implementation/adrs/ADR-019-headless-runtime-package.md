@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # ADR-019: @claude-flow/headless Runtime Package
 
 **Status:** Proposed

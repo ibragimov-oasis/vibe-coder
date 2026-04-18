@@ -6,6 +6,10 @@ part: advanced
 audience: [user]
 sidebar:
   order: 9
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-archon
 ---
 
 In [Chapter 8](/book/dag-workflows/) you learned to route work through a graph — classify, branch, parallelize. But routing only controls *which* nodes run and in *what order*. Once a node is running, the AI is on its own: it reads files, writes code, runs commands, and you see the results after the fact.

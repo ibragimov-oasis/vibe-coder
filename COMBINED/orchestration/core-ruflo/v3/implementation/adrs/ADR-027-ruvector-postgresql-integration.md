@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # ADR-027: RuVector PostgreSQL Integration for Claude-Flow v3
 
 **Status:** Proposed

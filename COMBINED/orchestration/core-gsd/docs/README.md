@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-gsd
+---
+
 # GSD Documentation
 
 Comprehensive documentation for the Get Shit Done (GSD) framework — a meta-prompting, context engineering, and spec-driven development system for AI coding agents.
@@ -27,3 +34,9 @@ Language versions: [English](README.md) · [Português (pt-BR)](pt-BR/README.md)
 - **Configuring GSD:** [Configuration Reference](CONFIGURATION.md)
 - **How the system works internally:** [Architecture](ARCHITECTURE.md)
 - **Contributing or extending:** [CLI Tools Reference](CLI-TOOLS.md) + [Agent Reference](AGENTS.md)
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-gsd]] — core-gsd
+

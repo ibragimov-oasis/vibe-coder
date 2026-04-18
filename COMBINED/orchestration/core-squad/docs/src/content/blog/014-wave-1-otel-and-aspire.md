@@ -6,6 +6,9 @@ wave: 1
 tags: [squad, wave-1, otel, aspire, observability, telemetry]
 status: published
 hero: "Multi-agent systems without observability are black boxes. Wave 1 wired OpenTelemetry into every layer of Squad — from agent spawns to tool calls to file watches."
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-squad
 ---
 
 # Wave 1: Giving Squad Eyes

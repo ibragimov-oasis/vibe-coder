@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-squad
+---
+
 # Constraint Budget Tracking
 
 When the user or system imposes constraints (question limits, revision limits, time budgets), maintain a visible counter in your responses and in the artifact.

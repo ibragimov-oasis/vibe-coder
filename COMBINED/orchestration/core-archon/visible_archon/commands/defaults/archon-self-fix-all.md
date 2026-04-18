@@ -1,6 +1,10 @@
 ---
 description: Aggressively fix all review findings - lean towards fixing unless clearly a new concern
 argument-hint: (none - reads all review artifacts from $ARTIFACTS_DIR/review/)
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-archon
 ---
 
 # Self-Fix All Review Findings

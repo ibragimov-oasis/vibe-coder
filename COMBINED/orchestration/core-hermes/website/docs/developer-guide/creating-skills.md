@@ -2,6 +2,10 @@
 sidebar_position: 3
 title: "Creating Skills"
 description: "How to create skills for Hermes Agent — SKILL.md format, guidelines, and publishing"
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-hermes
 ---
 
 # Creating Skills

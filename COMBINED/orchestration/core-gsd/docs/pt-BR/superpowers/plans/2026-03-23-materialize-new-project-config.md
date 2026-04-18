@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-gsd
+---
+
 # Plano: Materializar Configuração no `new-project` (pt-BR)
 
 Data original: 2026-03-23  

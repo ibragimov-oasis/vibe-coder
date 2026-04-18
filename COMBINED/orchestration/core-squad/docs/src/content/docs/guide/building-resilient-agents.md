@@ -1,6 +1,10 @@
 ---
 title: "Building resilient agents"
 description: "Use the circuit breaker pattern to handle transient failures gracefully."
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-squad
 ---
 
 Long-running agents face inevitable transient failures: rate limits, network timeouts, upstream service degradation. The circuit breaker pattern protects your agents from cascading failures by stopping requests before they fail, and automatically recovering when the system stabilizes.

@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-squad
+---
+
 # Handbook — SDK Usability
 
 > Makes sure everyone — humans and AIs alike — can read the manual.

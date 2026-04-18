@@ -2,6 +2,10 @@
 sidebar_position: 4
 title: "Contributing"
 description: "How to contribute to Hermes Agent — dev setup, code style, PR process"
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-hermes
 ---
 
 # Contributing

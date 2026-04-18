@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-archon
+---
+
 # Investigation: One-command web UI install via `archon serve`
 
 **Issue**: #978 (https://github.com/coleam00/Archon/issues/978)

@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # Claude-Flow Tool Validation Report
 **Date:** 2025-10-25
 **Version:** 2.7.14 (package.json shows 2.7.12, binary shows 2.7.14)

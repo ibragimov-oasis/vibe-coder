@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-squad
+---
+
 # Issue Lifecycle — Repo Connection & PR Flow
 
 Reference for connecting Squad to a repository and managing the issue→branch→PR→merge lifecycle.

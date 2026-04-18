@@ -6,6 +6,9 @@ wave: 4
 tags: [squad, preview, v0.3.0, model-selection, backlog, github-native]
 status: draft
 hero: "v0.3.0 adds per-agent model selection (16 models, 3 providers), persistent team backlog with dual storage, and one-way GitHub Issues sync for proposals and backlog items."
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-squad
 ---
 
 # v0.3.0 Preview: Give It a Brain

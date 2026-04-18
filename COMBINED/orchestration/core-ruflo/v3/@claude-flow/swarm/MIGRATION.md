@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # SwarmHub → UnifiedSwarmCoordinator Migration Guide
 
 Quick reference for migrating from `SwarmHub` to `UnifiedSwarmCoordinator`

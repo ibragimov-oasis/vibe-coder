@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-taskmaster
+---
+
 Clear all subtasks from all tasks globally.
 
 ## Global Subtask Clearing

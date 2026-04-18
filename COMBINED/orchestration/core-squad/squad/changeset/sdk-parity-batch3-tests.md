@@ -1,5 +1,9 @@
 ---
 "@bradygaster/squad-sdk": patch
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-squad
 ---
 
 test: SDK feature parity batch 3 — 46 tests for #31, #47, #45, #46

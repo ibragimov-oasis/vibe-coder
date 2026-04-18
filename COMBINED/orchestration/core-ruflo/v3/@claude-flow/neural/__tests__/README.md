@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # Neural Module Test Suite
 
 Comprehensive test coverage for the V3 neural module with **106 tests** across 3 test files.
@@ -233,3 +240,9 @@ Tests validate the 4-step ReasoningBank pipeline:
 - Performance tests allow overhead for mocking/setup
 - Helper functions generate realistic test trajectories
 - Tests cover edge cases (empty trajectories, incomplete data, etc.)
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-ruflo]] — core-ruflo
+

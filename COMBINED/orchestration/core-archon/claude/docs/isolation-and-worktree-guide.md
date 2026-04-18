@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-archon
+---
+
 # Isolation & Worktree System Guide
 
 > **Purpose**: Complete reference for how Archon creates, manages, and cleans up git worktrees for parallel development.

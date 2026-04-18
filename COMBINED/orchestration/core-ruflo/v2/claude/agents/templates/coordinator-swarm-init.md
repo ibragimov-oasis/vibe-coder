@@ -23,6 +23,10 @@ hooks:
     # Write completion status with topology details
     npx claude-flow@alpha memory store "swarm/init/complete" "{\"status\":\"ready\",\"topology\":\"$TOPOLOGY\",\"agents\":$AGENT_COUNT}" --namespace coordination
     echo "🌐 Inter-agent communication channels established"
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
 ---
 
 # Swarm Initializer Agent

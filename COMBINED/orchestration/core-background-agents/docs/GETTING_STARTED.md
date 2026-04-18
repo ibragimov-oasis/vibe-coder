@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-background-agents
+---
+
 # Getting Started with Open-Inspect
 
 This guide walks you through deploying your own instance of Open-Inspect using Terraform.

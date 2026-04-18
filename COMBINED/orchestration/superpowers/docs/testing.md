@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/superpowers
+---
+
 # Testing Superpowers Skills
 
 This document describes how to test Superpowers skills, particularly the integration tests for complex skills like `subagent-driven-development`.

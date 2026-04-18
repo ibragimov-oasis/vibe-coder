@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-gsd
+---
+
 <purpose>
 Execute discovery at the appropriate depth level.
 Produces DISCOVERY.md (for Level 2-3) that informs PLAN.md creation.

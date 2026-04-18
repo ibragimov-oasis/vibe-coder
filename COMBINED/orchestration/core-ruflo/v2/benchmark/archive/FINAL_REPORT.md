@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # 🎯 Claude Flow Benchmark Enhancement - Final Report
 
 ## Executive Summary

@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # ADR-057: RVF Native Storage Backend — Replace sql.js with RuVector Format
 
 | Field | Value |

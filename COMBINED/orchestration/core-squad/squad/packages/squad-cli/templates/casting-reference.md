@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-squad
+---
+
 # Casting Reference
 
 On-demand reference for Squad's casting system. Loaded during Init Mode or when adding team members.

@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # Alpha Tag Update - claude-flow@alpha
 
 **Date**: 2025-10-22

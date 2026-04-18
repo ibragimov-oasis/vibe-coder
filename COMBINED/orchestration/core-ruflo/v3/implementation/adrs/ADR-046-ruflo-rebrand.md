@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # ADR-046: Dual Umbrella Packages — claude-flow + ruflo
 
 **Status:** Accepted

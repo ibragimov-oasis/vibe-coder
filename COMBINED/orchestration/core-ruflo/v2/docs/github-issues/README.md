@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # GitHub Issue Templates
 
 This directory contains ready-to-use GitHub issue templates for documenting fixes and features.
@@ -86,3 +93,9 @@ bash scripts/create-github-issue.sh
 
 **Last Updated**: 2025-11-13
 **Status**: Ready for GitHub issue creation ✅
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-ruflo]] — core-ruflo
+

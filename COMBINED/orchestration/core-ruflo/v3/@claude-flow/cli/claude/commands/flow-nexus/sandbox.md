@@ -1,6 +1,10 @@
 ---
 name: flow-nexus-sandbox
 description: E2B sandbox management for isolated code execution
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
 ---
 
 # Flow Nexus Sandboxes

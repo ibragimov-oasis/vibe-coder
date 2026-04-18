@@ -28,6 +28,10 @@ hooks:
     mcp__claude-flow__memory_usage store "swarm:hierarchy:${TASK_ID}:complete" "$(date): Task completed with $(mcp__claude-flow__swarm_status | jq '.agents.total') agents"
     # Cleanup resources
     mcp__claude-flow__coordination_sync --swarmId="${SWARM_ID}"
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
 ---
 
 # Hierarchical Swarm Coordinator

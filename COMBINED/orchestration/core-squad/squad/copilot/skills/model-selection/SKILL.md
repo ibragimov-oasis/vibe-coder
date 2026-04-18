@@ -4,6 +4,10 @@ description: "Per-agent model selection with 4-layer hierarchy and fallback chai
 domain: "orchestration"
 confidence: "high"
 source: "extracted"
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-squad
 ---
 
 ## Context

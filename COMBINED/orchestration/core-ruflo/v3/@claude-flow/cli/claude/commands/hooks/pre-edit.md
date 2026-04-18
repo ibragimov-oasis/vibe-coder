@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # hook pre-edit
 
 Execute pre-edit validations and agent assignment before file modifications.

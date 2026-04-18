@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-taskmaster
+---
+
 # Task Structure
 
 Tasks in Task Master follow a specific format designed to provide comprehensive information for both humans and AI assistants.

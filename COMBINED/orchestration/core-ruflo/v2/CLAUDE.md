@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # Claude Code Configuration - SPARC Development Environment
 
 ## 🚨 CRITICAL: CONCURRENT EXECUTION & FILE MANAGEMENT

@@ -2,6 +2,10 @@
 name: deep-executor
 description: Autonomous deep worker for complex goal-oriented tasks (Opus)
 model: claude-opus-4-6
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-omc
 ---
 
 <Agent_Prompt>

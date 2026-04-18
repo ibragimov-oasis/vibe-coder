@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-omc
+---
+
 # Screenshot Guide for OMC Seminar
 
 This guide documents all screenshots needed for the seminar presentation, with detailed capture instructions and ASCII mockups that can serve as standalone visuals.
@@ -1111,3 +1118,9 @@ Before seminar day:
 - Have backup static diagrams for agent-tiers and -savings
 
 For questions or issues capturing screenshots, refer to the ASCII mockups as reference or create diagrams using the layout shown.
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-omc]] — core-omc
+

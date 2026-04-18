@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # ADR-G004: Four Enforcement Gates -- Destructive Ops, Tool Allowlist, Diff Size, Secrets
 
 ## Status

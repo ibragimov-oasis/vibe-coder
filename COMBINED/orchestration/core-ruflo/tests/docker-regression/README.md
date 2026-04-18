@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # Claude-Flow Deep Regression Test Suite
 
 Comprehensive Docker-based test suite for verifying all Claude-Flow capabilities.
@@ -231,3 +238,9 @@ docker-compose up unit-tests
 ## License
 
 MIT - Part of Claude-Flow
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-ruflo]] — core-ruflo
+

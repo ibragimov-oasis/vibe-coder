@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-taskmaster
+---
+
 Show detailed task information with rich context and insights.
 
 Arguments: $ARGUMENTS

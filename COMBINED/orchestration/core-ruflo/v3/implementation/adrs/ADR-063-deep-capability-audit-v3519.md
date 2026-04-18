@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # ADR-063: Deep Capability Audit — v3.5.19
 
 **Date:** 2026-03-17

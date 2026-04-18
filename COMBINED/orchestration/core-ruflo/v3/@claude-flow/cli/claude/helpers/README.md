@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # Claude Flow V3 Helpers
 
 This directory contains helper scripts and utilities for V3 development.
@@ -95,3 +102,9 @@ Helpers are configured in `.claude/settings.json`:
 3. Add to settings.json helpers section
 4. Test thoroughly before committing
 5. Update this README with usage documentation
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-ruflo]] — core-ruflo
+

@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/superpowers
+---
+
 # Installing Superpowers for Codex
 
 Enable superpowers skills in Codex via native skill discovery. Just clone and symlink.

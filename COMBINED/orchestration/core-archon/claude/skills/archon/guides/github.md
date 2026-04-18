@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-archon
+---
+
 # GitHub Webhook Setup Guide
 
 GitHub integration lets Archon respond to issue comments, PR comments, and @mentions via webhooks.

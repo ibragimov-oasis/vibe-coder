@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-squad
+---
+
 # Starting a New Project with Squad
 
 **Try this to bootstrap a modern web app:**

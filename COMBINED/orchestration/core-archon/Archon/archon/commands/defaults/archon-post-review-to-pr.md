@@ -1,6 +1,10 @@
 ---
 description: Post code review findings as a comment on the PR
 argument-hint: (none - reads from artifacts)
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-archon
 ---
 
 # Post Review to PR

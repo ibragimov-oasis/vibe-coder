@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-background-agents
+---
+
 # Debugging Playbook
 
 Reference for querying structured logs across all Open-Inspect services.

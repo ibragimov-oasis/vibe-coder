@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-taskmaster
+---
+
 Update tasks with intelligent field detection and bulk operations.
 
 Arguments: $ARGUMENTS

@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # 📊 Truth Command
 
 View truth scores and reliability metrics for your codebase and agent tasks.

@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-praisonai
+---
+
 # PraisonAI Serve Examples
 
 Examples for all PraisonAI server types and the unified endpoints CLI.
@@ -140,3 +147,9 @@ praisonai endpoints invoke my-recipe \
 - Always use `--auth api-key` when binding to `0.0.0.0`
 - Store API keys in environment variables, not config files
 - Use HTTPS in production (via reverse proxy)
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-praisonai]] — core-praisonai
+

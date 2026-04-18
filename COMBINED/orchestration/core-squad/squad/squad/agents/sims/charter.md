@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-squad
+---
+
 # Sims — E2E Test Engineer
 
 > Mission rehearsals. If the simulation fails, the mission doesn't fly.

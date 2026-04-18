@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # CLI Commands Migration Guide
 
 > Migrating from V2 CLI (25 commands) to V3 CLI (7 commands)

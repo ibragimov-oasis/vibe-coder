@@ -1,6 +1,10 @@
 ---
 name: flow-nexus-payments
 description: Credit management, billing, and payment configuration
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
 ---
 
 # Flow Nexus Payments

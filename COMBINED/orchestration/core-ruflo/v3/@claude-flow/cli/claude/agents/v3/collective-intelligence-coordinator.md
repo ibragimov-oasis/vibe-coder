@@ -42,6 +42,10 @@ hooks:
     mcp__claude-flow__model_save "collective-intelligence-${TASK_ID}" "/tmp/collective-model-$(date +%s).json"
     # Synchronize final CRDT state
     mcp__claude-flow__coordination_sync --swarmId="${SWARM_ID}"
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
 ---
 
 # Collective Intelligence Coordinator

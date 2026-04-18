@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # Git Checkpoint System Demo
 
 This example demonstrates how to use the automatic Git checkpoint system with Claude Code.

@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-squad
+---
+
 # First-Run UX Triage Report
 
 Analyzed screenshot from Brady (images/001.png) showing Squad CLI shell first-run experience.

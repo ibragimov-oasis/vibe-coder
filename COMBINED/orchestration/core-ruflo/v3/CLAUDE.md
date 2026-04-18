@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # V3 Module Development
 
 This directory contains the V3 monorepo packages. Root CLAUDE.md rules apply here.

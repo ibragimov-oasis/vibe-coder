@@ -1,6 +1,10 @@
 ---
 description: Analyze code on the feature branch to verify the PR's fix is correct and optimal
 argument-hint: (none - reads from artifacts)
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-archon
 ---
 
 # Code Review: Feature Branch (Post-PR State)

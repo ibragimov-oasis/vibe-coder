@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-squad
+---
+
 # Skill: CLI Command Wiring
 
 **Bug class:** Commands implemented in `packages/squad-cli/src/cli/commands/` but never routed in `cli-entry.ts`.

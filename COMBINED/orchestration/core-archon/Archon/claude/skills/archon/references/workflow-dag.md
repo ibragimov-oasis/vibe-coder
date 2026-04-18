@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-archon
+---
+
 # Workflow Authoring
 
 Archon workflows use a DAG (Directed Acyclic Graph) format: nodes with explicit dependency edges. Independent nodes run in parallel, conditions enable routing, and data flows between nodes via `$nodeId.output`. This is the only workflow format — there are no other workflow types.

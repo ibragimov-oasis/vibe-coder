@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # ADR-027: Native TeammateTool Integration for Claude Flow
 
 **Status:** Implemented ✅

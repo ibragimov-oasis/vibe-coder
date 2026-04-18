@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-praisonai
+---
+
 # ACP (Agent Client Protocol) Examples
 
 This directory contains examples for using PraisonAI with the Agent Client Protocol (ACP).
@@ -135,3 +142,9 @@ ACP uses JSON-RPC 2.0 over stdio:
 - `fs/write_text_file` - Write file contents
 - `terminal/create` - Create terminal
 - `terminal/output` - Get terminal output
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-praisonai]] — core-praisonai
+

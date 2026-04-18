@@ -2,6 +2,10 @@
 sidebar_position: 9
 title: "Context References"
 description: "Inline @-syntax for attaching files, folders, git diffs, and URLs directly into your messages"
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-hermes
 ---
 
 # Context References

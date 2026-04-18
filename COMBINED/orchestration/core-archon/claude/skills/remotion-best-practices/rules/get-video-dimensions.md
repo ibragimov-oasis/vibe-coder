@@ -3,6 +3,9 @@ name: get-video-dimensions
 description: Getting the width and height of a video file with Mediabunny
 metadata:
   tags: dimensions, width, height, resolution, size, video
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-archon
 ---
 
 # Getting video dimensions with Mediabunny

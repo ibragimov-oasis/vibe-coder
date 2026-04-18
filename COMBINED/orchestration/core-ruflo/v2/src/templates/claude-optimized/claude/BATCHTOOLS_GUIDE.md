@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # Batchtools Usage Guide for Claude-Flow SPARC Prompts
 
 ## Table of Contents

@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # Python Code Reorganization Validation Report
 
 ## Agent 3: Test Validator - Final Report

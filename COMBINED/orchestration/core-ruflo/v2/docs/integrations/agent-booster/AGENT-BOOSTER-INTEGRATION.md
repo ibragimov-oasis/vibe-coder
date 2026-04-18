@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # Agent Booster Integration - Ultra-Fast Code Editing
 
 **Status**: ✅ Fully Integrated (v2.6.0-alpha.2)

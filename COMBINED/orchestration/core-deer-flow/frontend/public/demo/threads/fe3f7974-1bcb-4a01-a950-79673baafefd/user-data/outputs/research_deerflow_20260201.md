@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-deer-flow
+---
+
 # DeerFlow Deep Research Report
 
 - **Research Date:** 2026-02-01

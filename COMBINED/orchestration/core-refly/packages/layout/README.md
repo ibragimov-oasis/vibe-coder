@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-refly
+---
+
 # @refly/layout
 
 A core layout component package for Refly AI Workspace, providing a complete page layout solution. This package adopts a slot-based rendering mode, supporting flexible layout configuration and context management.
@@ -309,3 +316,9 @@ const LAYOUT_SETTINGS_BY_CONDITION = [
   },
 ];
 ``
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-refly]] — core-refly
+

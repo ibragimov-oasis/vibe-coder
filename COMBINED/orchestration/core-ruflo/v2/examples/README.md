@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # Claude Flow Examples
 
 This directory contains examples demonstrating various features and capabilities of the Claude Flow system, organized by category.
@@ -68,3 +75,9 @@ When adding new examples:
 2. Include clear comments and documentation
 3. Test the example thoroughly
 4. Update this README if adding new categories
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-ruflo]] — core-ruflo
+

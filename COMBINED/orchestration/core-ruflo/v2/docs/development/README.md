@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # 🛠️ Development Documentation
 
 Internal development reports, implementation details, and architectural decisions.
@@ -20,3 +27,9 @@ Internal development reports, implementation details, and architectural decision
 ---
 
 [← Back to Documentation Index](../README.md)
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-ruflo]] — core-ruflo
+

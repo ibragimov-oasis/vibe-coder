@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # Claude-Flow V3 Plugin System
 
 > Domain-Driven Design Plugin-Based Architecture (ADR-004)
@@ -372,3 +379,9 @@ interface PluginConfig {
 - **ADR-004**: Plugin-Based Architecture (Microkernel Pattern)
 - **ADR-005**: MCP-First API Design
 - **ADR-007**: Event Sourcing for State Changes
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-ruflo]] — core-ruflo
+

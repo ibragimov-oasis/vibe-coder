@@ -7,6 +7,10 @@ audience: [user, operator]
 status: current
 sidebar:
   order: 3
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-archon
 ---
 
 Connect Archon to Telegram so you can interact with your AI coding assistant from any Telegram client.

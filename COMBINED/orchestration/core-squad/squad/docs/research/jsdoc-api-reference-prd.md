@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-squad
+---
+
 # JSDoc API Reference Documentation PRD
 
 > Auto-generate discoverable, searchable API reference docs for Squad SDK and CLI using TypeDoc + Markdown.

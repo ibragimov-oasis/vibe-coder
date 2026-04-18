@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # Multi-Agent Coordination Tutorial
 
 Learn how to orchestrate complex workflows with multiple specialized agents working in harmony.

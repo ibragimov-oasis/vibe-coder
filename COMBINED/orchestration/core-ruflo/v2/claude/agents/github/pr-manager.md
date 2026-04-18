@@ -31,6 +31,10 @@ hooks:
     - "git branch --show-current"
     - "gh pr checks || echo 'No PR checks available'"
     - "git log --oneline -3"
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
 ---
 
 # GitHub PR Manager

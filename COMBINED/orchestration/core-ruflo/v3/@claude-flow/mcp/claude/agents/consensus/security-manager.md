@@ -21,6 +21,10 @@ hooks:
     echo "✅ Security protocols verified"
     # Run security audit
     echo "🔍 Conducting post-operation security audit"
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
 ---
 
 # Consensus Security Manager

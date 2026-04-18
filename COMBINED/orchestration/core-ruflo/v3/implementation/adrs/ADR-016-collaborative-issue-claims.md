@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # ADR-016: Collaborative Issue Claims for Human-Agent Workflows
 
 **Status:** ✅ Complete

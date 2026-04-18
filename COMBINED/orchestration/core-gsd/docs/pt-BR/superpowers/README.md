@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-gsd
+---
+
 # Superpowers (pt-BR)
 
 Documentos avançados traduzidos:
@@ -9,3 +16,9 @@ Documentos avançados traduzidos:
 ## Specs
 
 - [2026-03-20-multi-project-workspaces-design](specs/2026-03-20-multi-project-workspaces-design.md)
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-gsd]] — core-gsd
+

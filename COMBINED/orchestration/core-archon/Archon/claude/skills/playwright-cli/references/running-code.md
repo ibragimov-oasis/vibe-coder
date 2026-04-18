@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-archon
+---
+
 # Running Custom Playwright Code
 
 Use `run-code` to execute arbitrary Playwright code for advanced scenarios not covered by CLI commands.

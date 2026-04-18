@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-praisonai
+---
+
 # Feature Parity Tracker
 
 > **Version:** 1.5.87 | **Last Updated:** 2026-04-11

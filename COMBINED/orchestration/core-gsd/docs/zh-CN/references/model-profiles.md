@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-gsd
+---
+
 # 模型配置
 
 模型配置控制每个 GSD 代理使用哪个 Claude 模型。这允许平衡质量和 token 消耗。

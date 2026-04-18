@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 -can # Build Analysis Report - Claude Code Flow Project
 
 ## Executive Summary

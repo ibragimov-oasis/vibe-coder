@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # 🎯 ReasoningBank Status Update - v2.7.0-alpha.7
 
 **Date:** 2025-10-13

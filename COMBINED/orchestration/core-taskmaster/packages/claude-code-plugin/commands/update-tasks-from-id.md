@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-taskmaster
+---
+
 Update multiple tasks starting from a specific ID.
 
 Arguments: $ARGUMENTS

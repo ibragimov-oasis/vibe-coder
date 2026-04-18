@@ -1,6 +1,10 @@
 ---
 description: Autonomously generate Ralph PRD files (prd.md + prd.json) from an idea or existing PRD
 argument-hint: <feature idea | path/to/existing-prd.md>
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-archon
 ---
 
 # Ralph PRD Generator (Autonomous)

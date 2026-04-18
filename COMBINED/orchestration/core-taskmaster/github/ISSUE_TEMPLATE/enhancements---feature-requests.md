@@ -4,6 +4,10 @@ about: Suggest an idea for this project
 title: 'feat: '
 labels: enhancement
 assignees: ''
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-taskmaster
 ---
 
 > "Direct quote or clear summary of user request or need or user story."

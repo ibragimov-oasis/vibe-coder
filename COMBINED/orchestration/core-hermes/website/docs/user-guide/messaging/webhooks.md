@@ -2,6 +2,10 @@
 sidebar_position: 13
 title: "Webhooks"
 description: "Receive events from GitHub, GitLab, and other services to trigger Hermes agent runs"
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-hermes
 ---
 
 # Webhooks

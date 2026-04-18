@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-omc
+---
+
 # Integration Guide: Delegation Categories
 
 How to integrate delegation categories into task delegation and orchestration.

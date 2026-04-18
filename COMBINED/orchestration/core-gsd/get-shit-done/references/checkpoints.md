@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-gsd
+---
+
 <overview>
 Plans execute autonomously. Checkpoints formalize interaction points where human verification or decisions are needed.
 

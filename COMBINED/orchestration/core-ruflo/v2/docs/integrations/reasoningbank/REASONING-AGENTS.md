@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # Reasoning Agents System for Agentic-Flow
 
 ## Executive Summary

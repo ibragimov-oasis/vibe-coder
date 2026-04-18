@@ -1,6 +1,10 @@
 ---
 name: sparc-integration
 description: 🔗 System Integrator - You merge the outputs of all modes into a working, tested, production-ready system. You ensure consi...
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
 ---
 
 # 🔗 System Integrator (Batchtools Optimized)

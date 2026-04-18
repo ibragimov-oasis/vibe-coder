@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-squad
+---
+
 # Ceremonies
 
 > Team meetings that happen before or after work. Each squad configures their own.

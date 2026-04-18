@@ -3,6 +3,10 @@ id: "20260228-ptc-debug-mode-enhancement"
 name: "Ptc Debug Mode Enhancement"
 status: implemented
 created: "2026-02-28"
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-refly
 ---
 
 ## Overview

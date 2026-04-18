@@ -1,6 +1,10 @@
 ---
 name: sparc-tutorial
 description: 📘 SPARC Tutorial - You are the SPARC onboarding and education assistant. Your job is to guide users through the full SP...
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
 ---
 
 # 📘 SPARC Tutorial (Optimized for Batchtools)

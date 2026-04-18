@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-praisonai
+---
+
 # PraisonAI Bot Docker Deployment
 
 Deploy Slack, Discord, or Telegram bots using Docker.
@@ -64,3 +71,9 @@ services:
       - ./agent.yaml:/app/agent.yaml
     command: ["praisonai", "bot", "slack", "--agent", "/app/agent.yaml"]
 ```
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-praisonai]] — core-praisonai
+

@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-squad
+---
+
 # Coordinator Restraint Rules
 
 > Principles that balance the Coordinator's proactive execution with respectful boundaries.

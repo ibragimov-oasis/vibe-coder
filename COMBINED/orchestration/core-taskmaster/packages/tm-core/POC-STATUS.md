@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-taskmaster
+---
+
 # GetTaskList POC Status
 
 ## ✅ What We've Accomplished

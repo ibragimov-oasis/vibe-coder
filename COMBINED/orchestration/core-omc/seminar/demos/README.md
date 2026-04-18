@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-omc
+---
+
 # OMC Seminar Demo Scripts
 
 This directory contains demo scripts for showcasing Oh-My-ClaudeCode's capabilities.
@@ -122,3 +129,9 @@ If all demos fail:
 - Walk through the expected behavior while showing outputs
 - Explain the architecture and benefits verbally
 - Show GitHub repo and documentation
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-omc]] — core-omc
+

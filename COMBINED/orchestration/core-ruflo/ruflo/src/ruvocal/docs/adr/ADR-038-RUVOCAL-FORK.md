@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # ADR-038: RuVocal — HF Chat UI Fork with Self-Contained RVF Document Store
 
 **Status:** Implemented

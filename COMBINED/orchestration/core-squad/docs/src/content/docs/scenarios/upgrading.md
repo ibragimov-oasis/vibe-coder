@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-squad
+---
+
 # Upgrading Squad
 
 Update Squad-owned files to the latest version without touching your team state.

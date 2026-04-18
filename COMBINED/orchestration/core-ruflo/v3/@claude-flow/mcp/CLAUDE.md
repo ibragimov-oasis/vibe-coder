@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # Claude Code Configuration - Claude Flow V3
 
 ## 🚨 AUTOMATIC SWARM ORCHESTRATION

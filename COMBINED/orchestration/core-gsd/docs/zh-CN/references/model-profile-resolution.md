@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-gsd
+---
+
 # 模型配置解析
 
 在编排开始时解析一次模型配置，然后在所有 Task 生成时使用。

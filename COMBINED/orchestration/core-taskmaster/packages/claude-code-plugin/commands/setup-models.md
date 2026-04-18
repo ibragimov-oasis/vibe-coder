@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-taskmaster
+---
+
 Run interactive setup to configure AI models.
 
 ## Interactive Model Configuration

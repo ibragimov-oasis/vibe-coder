@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-squad
+---
+
 # GitLab Issues Walkthrough
 
 > **🧪 Experimental.** GitLab Issues Mode is new. Commands, behavior, and integration details may change. [Feedback welcome.](https://github.com/bradygaster/squad/issues)

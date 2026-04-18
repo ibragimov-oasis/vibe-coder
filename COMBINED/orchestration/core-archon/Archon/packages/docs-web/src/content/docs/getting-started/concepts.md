@@ -5,6 +5,10 @@ category: getting-started
 audience: [user]
 sidebar:
   order: 1
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-archon
 ---
 
 Archon orchestrates AI coding agents through four core concepts. Understanding these will make everything else click.

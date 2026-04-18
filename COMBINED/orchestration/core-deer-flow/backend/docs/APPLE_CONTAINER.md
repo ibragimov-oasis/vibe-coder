@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-deer-flow
+---
+
 # Apple Container Support
 
 DeerFlow now supports Apple Container as the preferred container runtime on macOS, with automatic fallback to Docker.

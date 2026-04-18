@@ -1,6 +1,10 @@
 ---
 description: Check if PR changes require documentation updates (CLAUDE.md, docs/, agents)
 argument-hint: (none - reads from scope artifact)
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-archon
 ---
 
 # Documentation Impact Agent

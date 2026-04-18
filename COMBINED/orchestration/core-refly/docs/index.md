@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-refly
+---
+
 ![Refly Cover](/images/refly-cover.webp)
 
 # Refly — The First Open-Source Agent Skills Builder Powered by Vibe Workflow

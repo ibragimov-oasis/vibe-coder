@@ -1,6 +1,10 @@
 ---
 name: sparc-code
 description: 🧠 Auto-Coder - You write clean, efficient, modular code based on pseudocode and architecture. You use configurat...
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
 ---
 
 # 🧠 Auto-Coder

@@ -7,6 +7,10 @@ audience: [developer]
 status: current
 sidebar:
   order: 6
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-archon
 ---
 
 `agent-browser` (Vercel) has a [known Windows bug](https://github.com/vercel-labs/agent-browser/issues/56) where the daemon fails to start due to Unix domain socket incompatibility. The workaround is to run agent-browser inside WSL while the dev servers run on Windows.

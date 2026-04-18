@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-squad
+---
+
 # Orchestration Log Entry
 
 > One file per agent spawn. Saved to `.squad/orchestration-log/{timestamp}-{agent-name}.md`

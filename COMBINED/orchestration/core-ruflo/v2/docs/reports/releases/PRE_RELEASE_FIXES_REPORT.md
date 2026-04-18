@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # Pre-Release Fixes Report - Priority 1 Issues
 # Claude-Flow v2.6.0-alpha.2
 

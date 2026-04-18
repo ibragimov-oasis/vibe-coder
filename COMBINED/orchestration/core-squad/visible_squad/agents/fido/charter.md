@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-squad
+---
+
 # FIDO — Quality Owner
 
 > Skeptical, relentless. If it can break, he'll find how.

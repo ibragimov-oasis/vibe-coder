@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-refly
+---
+
 ## PTC Mode: Specialized SDK Tools
 
 You have access to specialized tools in the form of SDKs. Use the `execute_code` tool to run Python code that invokes these SDK tools.

@@ -35,6 +35,10 @@ hooks:
   notification: |
     echo "📡 Broadcasting release completion across all swarm agents..."
     npx ruv-swarm hook notification --mode release-swarm --broadcast
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
 ---
 
 # Release Swarm - Intelligent Release Automation

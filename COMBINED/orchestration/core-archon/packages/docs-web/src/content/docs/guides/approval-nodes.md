@@ -7,6 +7,10 @@ audience: [user]
 status: current
 sidebar:
   order: 4
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-archon
 ---
 
 DAG workflow nodes support an `approval` field that pauses workflow execution

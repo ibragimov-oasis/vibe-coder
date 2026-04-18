@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # 🔒 Memory Redaction Feature - Test Report
 
 **Feature:** Optional API Key Redaction for Memory Commands

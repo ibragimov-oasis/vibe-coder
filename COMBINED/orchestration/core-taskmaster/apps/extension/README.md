@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-taskmaster
+---
+
 # Official Taskmaster AI Extension
 
 Transform your AI-driven development workflow with a beautiful, interactive Kanban board directly in VS Code. Seamlessly manage tasks from [Taskmaster AI](https://github.com/eyaltoledano/claude-task-master) projects with real-time synchronization and intelligent task management.
@@ -202,3 +209,9 @@ This is an open-source project maintained in my spare time. While I strive to fi
 ## Disclaimer
 
 This extension is provided "as is" without any warranties. Use at your own risk. The author is not responsible for any issues, data loss, or damages that may occur from using this extension. Please backup your work regularly and test thoroughly before using in important projects.
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-taskmaster]] — core-taskmaster
+

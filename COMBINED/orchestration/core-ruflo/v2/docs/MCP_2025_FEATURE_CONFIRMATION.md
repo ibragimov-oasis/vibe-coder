@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # MCP 2025-11 Feature Implementation Confirmation
 
 **Date**: 2025-11-12

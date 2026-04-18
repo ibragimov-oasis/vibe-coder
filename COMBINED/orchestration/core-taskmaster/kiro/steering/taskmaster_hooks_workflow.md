@@ -1,5 +1,9 @@
 ---
 inclusion: always
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-taskmaster
 ---
 
 # Taskmaster Hook-Driven Workflow

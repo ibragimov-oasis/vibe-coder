@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # ✅ CONFIRMED: Automatic Error Recovery Working in Docker
 
 **Date**: 2025-11-13

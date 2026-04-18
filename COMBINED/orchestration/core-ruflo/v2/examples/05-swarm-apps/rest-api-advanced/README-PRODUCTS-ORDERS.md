@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # Product and Order Management System
 
 This REST API now includes a complete product and order management system with advanced features for e-commerce applications.

@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-squad
+---
+
 # Ralph Circuit Breaker — Model Rate Limit Fallback
 
 > Classic circuit breaker pattern (Hystrix / Polly / Resilience4j) applied to Copilot model selection.

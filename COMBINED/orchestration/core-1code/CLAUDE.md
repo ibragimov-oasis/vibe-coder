@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-1code
+---
+
 <!-- OPENSPEC:START -->
 # OpenSpec Instructions
 
@@ -272,3 +279,9 @@ fetch('http://localhost:7799/log',{method:'POST',headers:{'Content-Type':'applic
 **Workflow:** Hypothesize → instrument → user reproduces → read logs → fix with evidence → verify → remove instrumentation.
 
 See `packages/debug/INSTRUCTIONS.md` for the full protocol.
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-1code]] — core-1code
+

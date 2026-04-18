@@ -7,6 +7,10 @@ audience: [user, operator]
 status: current
 sidebar:
   order: 4
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-archon
 ---
 
 Connect Archon to GitHub so you can interact with your AI coding assistant from issues and pull requests.

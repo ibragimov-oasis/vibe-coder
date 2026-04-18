@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # GitHub Issue: Automatic Recovery for WSL ENOTEMPTY Error
 
 **Use this template after confirming the fix works in Docker/CLI testing**

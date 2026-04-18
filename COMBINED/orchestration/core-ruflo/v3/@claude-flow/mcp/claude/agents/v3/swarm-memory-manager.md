@@ -37,6 +37,10 @@ hooks:
     mcp__claude-flow__memory_compress --namespace="swarm"
     # Persist session state
     mcp__claude-flow__memory_persist --sessionId="${SESSION_ID}"
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
 ---
 
 # V3 Swarm Memory Manager Agent

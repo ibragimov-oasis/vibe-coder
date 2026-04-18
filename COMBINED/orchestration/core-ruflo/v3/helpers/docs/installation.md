@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # Claude Flow V3 Helper System Installation Guide
 
 This guide covers installing the V3 helper system across all supported platforms.

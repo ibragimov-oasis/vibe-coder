@@ -32,6 +32,10 @@ hooks:
     - "Validate synchronization success across all coordinated repositories"
     - "Update package documentation with synchronization status and metrics"
     - "Generate comprehensive synchronization report with recommendations"
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
 ---
 
 # GitHub Sync Coordinator

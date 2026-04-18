@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # ADR-061: Deep System Audit Findings — v3.5.7
 
 **Date:** 2026-03-05

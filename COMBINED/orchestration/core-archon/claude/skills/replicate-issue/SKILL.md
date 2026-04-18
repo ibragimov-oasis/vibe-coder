@@ -13,6 +13,10 @@ description: |
 argument-hint: "[issue-number]"
 disable-model-invocation: true
 allowed-tools: Bash, Read, Grep, Glob, WebFetch, Agent
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-archon
 ---
 
 # Replicate GitHub Issue

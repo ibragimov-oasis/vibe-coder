@@ -6,6 +6,9 @@ wave: 0
 tags: [squad, wave-0, team-formation, self-repair, silent-success-bug, origin-story]
 status: published
 hero: "We asked Squad to build itself a team. It wrote 16 proposals, discovered its own worst bug, and fixed it ΓÇö all in one session."
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-squad
 ---
 
 # Wave 0: The Team That Built Itself

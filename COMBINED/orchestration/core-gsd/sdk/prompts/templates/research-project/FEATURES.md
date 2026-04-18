@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-gsd
+---
+
 # Features Research Template
 
 Template for `.planning/research/FEATURES.md` — feature landscape for the project domain.

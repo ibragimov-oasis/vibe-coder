@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-taskmaster
+---
+
 # VS Code Extension CI/CD Setup
 
 This document explains the CI/CD setup for the Task Master VS Code extension using automated changesets.

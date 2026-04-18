@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # ✅ Verification Complete - Full Claude-Flow Compatibility
 
 ## Executive Summary

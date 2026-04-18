@@ -2,6 +2,10 @@
 sidebar_position: 10
 title: "Trajectories & Training Format"
 description: "How Hermes saves trajectories, normalizes tool calls, and produces training-friendly outputs"
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-hermes
 ---
 
 # Trajectories & Training Format

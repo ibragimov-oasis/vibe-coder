@@ -9,6 +9,10 @@ disable-model-invocation: true
 context: fork
 agent: triage-agent
 allowed-tools: Bash(gh *), Read, Glob, Grep
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-archon
 ---
 
 # Triage GitHub Issues

@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # @claude-flow/security
 
 [![npm version](https://img.shields.io/npm/v/@claude-flow/security.svg)](https://www.npmjs.com/package/@claude-flow/security)
@@ -232,3 +239,9 @@ const warnings = auditSecurityConfig({
 ## License
 
 MIT
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-ruflo]] — core-ruflo
+

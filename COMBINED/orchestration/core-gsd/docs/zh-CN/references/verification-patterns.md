@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-gsd
+---
+
 # 验证模式
 
 如何验证不同类型的工件是真实实现，而非存根或占位符。

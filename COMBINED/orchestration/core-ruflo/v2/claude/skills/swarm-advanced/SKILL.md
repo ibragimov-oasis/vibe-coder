@@ -5,6 +5,9 @@ version: 2.0.0
 category: orchestration
 tags: [swarm, distributed, parallel, research, testing, development, coordination]
 author: Claude Flow Team
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
 ---
 
 # Advanced Swarm Orchestration

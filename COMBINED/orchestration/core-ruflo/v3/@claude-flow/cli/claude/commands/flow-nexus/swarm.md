@@ -1,6 +1,10 @@
 ---
 name: flow-nexus-swarm
 description: AI swarm deployment and coordination in cloud
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
 ---
 
 # Flow Nexus Swarms
