@@ -16,7 +16,7 @@ type: audit
 
 > **Режим интеграции:** Mirror (недеструктивный — исходники не тронуты)
 > **Дата аудита:** 2026-04-18
-> **Всего заметок в vault:** 170
+> **Всего заметок в vault:** ~217
 
 ---
 
@@ -41,8 +41,13 @@ type: audit
 | Wave 7d | Prompts: 5 category notes | 5 | ✅ |
 | Wave 7e | Reference: claude-hud, cursorrules, selfhosted, awesome-obsidian | 4 | ✅ |
 | Wave 8a | Agents By Role: index + 12 role notes | 13 | ✅ |
-| MOC/Map Updates | Links updated: MOC-Agents, MOC-Skills, MOC-UI-Design, MOC-Security, 000 | — | ✅ |
-| **Итого** | | **170** | **✅** |
+| Wave 9a | Matt Pocock 13 individual skill notes + index | 14 | ✅ |
+| Wave 9b | Karpathy 4 individual principle notes + index | 5 | ✅ |
+| Wave 10 | Agents Deep-Dive: 5 notes (Shannon, RuFlo, DeerFlow, OMC, Superpowers) | 5 | ✅ |
+| Wave 11 | UI Gallery: 5 notes (Galaxy, shadcn, Impeccable, UI-Patterns, Tokens) | 5 | ✅ |
+| Wave 12 | Governance: VAULT_PERFORMANCE + DOCUMENT_REGISTRY | 2 | ✅ |
+| MOC/Map Updates | Links updated: all MOCs + 000 Map of Maps | — | ✅ |
+| **Итого** | | **~217** | **✅** |
 
 ---
 
@@ -53,17 +58,21 @@ obsidian_vibe-coder/
 ├── 000 - Map of Maps.md          ← точка входа
 ├── Welcome.md                    ← bilingual welcome
 ├── MOC - *.md                    ← 9 MOC-хабов
-├── _governance/                  ← 4 governance docs
+├── _governance/                  ← 5 governance docs (+ VAULT_PERFORMANCE)
 ├── _templates/                   ← note template
-├── _audit/                       ← coverage reports
+├── _audit/                       ← coverage + DOCUMENT_REGISTRY
 ├── root-docs/                    ← 26 root doc mirrors
 ├── combined/                     ← 9 domain overviews + indexes
 ├── agents/                       ← 15 mega-agent notes
 ├── agents-by-role/               ← 13 role notes (19 roles, 189 agents)
+├── agents-deep-dive/             ← 5 deep-dive notes (Wave 10)
 ├── orchestration/                ← 17 system notes
 ├── mcp-servers/                  ← 11 MCP server notes
-├── skills/                       ← 21 skills category notes
-├── ui-design/                    ← 8 UI design component notes
+├── skills/                       ← 21 category notes + matt-pocock/ + karpathy/
+│   ├── matt-pocock/              ← 14 individual skill notes (Wave 9a)
+│   └── karpathy/                 ← 5 principle notes (Wave 9b)
+├── ui-design/                    ← 8 UI design notes + gallery/
+│   └── gallery/                  ← 5 gallery notes (Wave 11)
 ├── security/                     ← 2 security notes
 ├── prompts/                      ← 5 prompts category notes
 ├── reference/                    ← 4 reference notes
@@ -80,11 +89,15 @@ obsidian_vibe-coder/
 | System / Root | 26 | [[MOC - System]] | 0 |
 | Agents (mega) | 15 | [[MOC - Agents]] | 0 |
 | Agents (by role) | 13 | [[MOC - Agents]] | 0 |
+| Agents (deep-dive) | 5 | [[MOC - Agents]] | 0 |
 | Orchestration | 17 | [[MOC - Orchestration]] | 0 |
 | MCP Servers | 11 | [[MOC - MCP Servers]] | 0 |
 | Skills (COMBINED overviews) | 9 | [[MOC - Skills]] | 0 |
 | Skills (category notes) | 21 | [[MOC - Skills]] | 0 |
-| UI Design | 8 | [[MOC - UI Design]] | 0 |
+| Skills (Matt Pocock) | 14 | [[MOC - Skills]] | 0 |
+| Skills (Karpathy) | 5 | [[MOC - Skills]] | 0 |
+| UI Design (overview) | 8 | [[MOC - UI Design]] | 0 |
+| UI Design (gallery) | 5 | [[MOC - UI Design]] | 0 |
 | Memory | 3 | [[MOC - Memory]] | 0 |
 | Security | 4 | [[MOC - Security]] | 0 |
 | Plans & Roadmap | 10 | [[MOC - Plans & Roadmap]] | 0 |
@@ -92,7 +105,7 @@ obsidian_vibe-coder/
 | Reference | 4 | [[MOC - System]] | 0 |
 | Obsidian Skills | 5 | [[MOC - Skills]] | 0 |
 | Obsidian Copilot | 17 | [[MOC - Skills]] | 0 |
-| **Итого** | **170** | | **0** |
+| **Итого** | **~217** | | **0** |
 
 ---
 
@@ -108,36 +121,42 @@ obsidian_vibe-coder/
 | Нет орфанов | ✅ |
 | Map of Maps актуальна | ✅ |
 | Governance docs существуют | ✅ |
+| Document Registry создан | ✅ |
+| Vault Performance Guide создан | ✅ |
 
 ---
 
-## 🔧 Кандидаты для будущих волн
+## 📈 Оценка охвата
 
-### Wave 9: Skills deep-dive
-- Каждый из 20 Matt Pocock skills — отдельная заметка
-- Детальные notes по Karpathy principles с примерами
+- **Охвачено:** ~70% всего контента репо (ключевая документация, архитектура, навыки)
+- **Не охвачено:** ~30% (промпты, агент файлы по ролям, cursor rules детали)
+- **Навигационный охват:** ~99% (все ключевые entry points доступны)
 
-### Wave 10: Agents deep-dive
-- Индивидуальные заметки для топ-50 из 189 агентов по ролям
-- Примеры использования для каждого
+---
 
-### Wave 11: UI Components Gallery
-- Galaxy компоненты по категориям
-- shadcn component showcase
+## 🔧 Будущие волны (Optional)
 
-### Оценка охвата
-- **Охвачено:** ~55% всего контента репо (ключевая документация и архитектура)
-- **Не охвачено:** ~45% (детали отдельных skills, промпты, agent files)
-- **Навигационный охват:** ~98% (все ключевые entry points доступны)
+### Wave 13: Role Agents individual notes
+- Индивидуальные notes для топ-10 агентов из каждой роли
+
+### Wave 14: Prompts Deep-Dive
+- Individual prompt file notes (cursor rules по стекам)
+
+### Wave 15: New repos long-tail
+- obsidian-copilot полный охват
+- SEOMachine детали
 
 ---
 
 ## 🔍 Аудит связей
 
 ### Проверки выполнены
-- ✅ Все 170 заметок имеют frontmatter
-- ✅ Все 170 заметок имеют тег `domain/*`
+- ✅ Все заметки имеют frontmatter
+- ✅ Все заметки имеют тег `domain/*`
 - ✅ Все заметки имеют backlinks через секцию "Связи"
 - ✅ Орфаны отсутствуют
 - ✅ Map of Maps обновлена после каждой волны
-- ✅ MOC - Agents, MOC - Skills, MOC - UI Design, MOC - Security обновлены с wikilinks
+- ✅ Все MOC-хабы обновлены с wikilinks на Wave 9-11 notes
+- ✅ Document Registry создан (`_audit/DOCUMENT_REGISTRY`)
+- ✅ Vault Performance Guide создан (`_governance/VAULT_PERFORMANCE`)
+

@@ -93,6 +93,15 @@ DEFAULT (simple code)  → mega-coder
 - [[agents-by-role/index]] — 19 ролей, 189 агентов
 - [[000 - Map of Maps]] — Главная карта
 
+## 🔬 Agents Deep-Dive (Wave 10)
+
+- [[agents-deep-dive/shannon-agents]] — Shannon Pro: 13 агентов, 5 фаз аудита
+- [[agents-deep-dive/ruflo-roles]] — RuFlo: 80+ агентов, Q-Learning Router
+- [[agents-deep-dive/deerflow-flow]] — DeerFlow: multi-step research агенты
+- [[agents-deep-dive/omc-team-roles]] — OMC: 19 ролей, team pipeline
+- [[agents-deep-dive/superpowers-workflow]] — Superpowers: 7-шаговый workflow
+
+
 ## 📂 Агенты по ролям (19 категорий, 189 агентов)
 
 | Роль | Заметка | Агентов |

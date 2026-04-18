@@ -64,3 +64,11 @@ type: moc
 | OpenAI Codex | `.codex/AGENTS.md` |
 | Gemini CLI | `.gemini/GEMINI.md` |
 | Antigravity | `.antigravity/` |
+
+## ⚙️ Vault Management
+
+- [[_governance/VAULT_GOVERNANCE]] — правила vault (Mirror-режим)
+- [[_governance/VAULT_PERFORMANCE]] — производительность и оптимизация
+- [[_audit/DOCUMENT_REGISTRY]] — полный реестр источников
+- [[_audit/COVERAGE_REPORT]] — покрытие vault
+

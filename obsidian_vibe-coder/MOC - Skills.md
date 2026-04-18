@@ -48,21 +48,30 @@ type: moc
 
 ### Karpathy 4 Principles
 `COMBINED/skills/skills-claude/karpathy/`
-1. **Think Before Coding** — чётко формулируй задачу
-2. **Simplicity First** — минимальный код
-3. **Surgical Changes** — трогай только нужное
-4. **Goal-Driven Execution** — тесты первыми, цикл до победы
+1. [[skills/karpathy/think-before-coding]] — чётко формулируй задачу
+2. [[skills/karpathy/simplicity-first]] — минимальный код
+3. [[skills/karpathy/surgical-changes]] — трогай только нужное
+4. [[skills/karpathy/goal-driven-execution]] — тесты первыми, цикл до победы
+
+→ **Полный индекс:** [[skills/karpathy/index]]
 
 ### Matt Pocock Skills (20 навыков)
 `COMBINED/skills/skills-planning/` + `skills-development/`
-- `write-a-prd` — написать PRD
-- `prd-to-plan` — PRD → execution plan
-- `grill-me` — задать уточняющие вопросы
-- `tdd` — test-driven development
-- `triage-issue` — сортировка issues
-- `git-guardrails` — безопасные git операции
-- `design-an-interface` — проектировать UI
-- `improve-codebase-architecture` — улучшить архитектуру
+- [[skills/matt-pocock/grill-me]] — задать уточняющие вопросы
+- [[skills/matt-pocock/write-a-prd]] — написать PRD
+- [[skills/matt-pocock/prd-to-plan]] — PRD → execution plan
+- [[skills/matt-pocock/prd-to-issues]] — PRD → GitHub Issues
+- [[skills/matt-pocock/tdd]] — test-driven development
+- [[skills/matt-pocock/triage-issue]] — сортировка issues
+- [[skills/matt-pocock/git-guardrails]] — безопасные git операции
+- [[skills/matt-pocock/design-an-interface]] — проектировать UI
+- [[skills/matt-pocock/improve-codebase-architecture]] — улучшить архитектуру
+- [[skills/matt-pocock/request-refactor-plan]] — план рефакторинга
+- [[skills/matt-pocock/ubiquitous-language]] — domain glossary
+- [[skills/matt-pocock/edit-article]] — редактировать документацию
+- [[skills/matt-pocock/write-a-skill]] — создать новый skill
+
+→ **Полный индекс:** [[skills/matt-pocock/index]]
 
 ### Obsidian Skills
 `COMBINED/skills/platform/obsidian/` (из new_repos/obsidian-skills)
@@ -89,3 +98,9 @@ description: Что делает навык
 - [[MOC - Orchestration]] — Hermes создаёт навыки
 - [[combined/Skills Overview]] — Структура COMBINED/skills
 - [[000 - Map of Maps]] — Главная карта
+
+## 🔬 Deep-Dive Notes (Wave 9)
+
+- [[skills/matt-pocock/index]] — Matt Pocock 20 skills index
+- [[skills/karpathy/index]] — Karpathy 4 Principles index
+

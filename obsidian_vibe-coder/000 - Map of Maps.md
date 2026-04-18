@@ -185,6 +185,13 @@ type: moc
 | Hermes | [[skills/skills-hermes]] |
 | DevOps | [[skills/skills-devops]] |
 
+### 🔬 Wave 9 — Individual Skills Deep-Dive
+
+| Индекс | Ссылка |
+|--------|--------|
+| Matt Pocock 13 skills | [[skills/matt-pocock/index]] |
+| Karpathy 4 principles | [[skills/karpathy/index]] |
+
 ---
 
 ## 🎨 UI Design — Детали
@@ -199,6 +206,16 @@ type: moc
 | 6. UI/UX Pro Max | [[ui-design/ui-ux-pro-max]] |
 | Master Reference | [[ui-design/combined-design-system]] |
 | Cursor Rules (500+) | [[ui-design/cursor-rules]] |
+
+### 🖼️ Wave 11 — UI Gallery
+
+| Gallery Note | Ссылка |
+|-------------|--------|
+| Galaxy Components | [[ui-design/gallery/galaxy-components]] |
+| shadcn Showcase | [[ui-design/gallery/shadcn-showcase]] |
+| Impeccable Commands | [[ui-design/gallery/impeccable-commands]] |
+| UI Patterns (anti-slop) | [[ui-design/gallery/ui-patterns]] |
+| Design Tokens | [[ui-design/gallery/design-tokens]] |
 
 ---
 
@@ -236,6 +253,14 @@ type: moc
 - [[agents-by-role/tester]] — Tester (13), [[agents-by-role/reviewer]] — Reviewer (9)
 - [[agents-by-role/security]] — Security (6), [[agents-by-role/ui-specialist]] — UI (7)
 
+### 🔬 Wave 10 — Agents Deep-Dive
+
+- [[agents-deep-dive/shannon-agents]] — Shannon: 13 security agents
+- [[agents-deep-dive/ruflo-roles]] — RuFlo: 80+ roles + Q-Learning Router
+- [[agents-deep-dive/deerflow-flow]] — DeerFlow: research flow agents
+- [[agents-deep-dive/omc-team-roles]] — OMC: 19 team roles
+- [[agents-deep-dive/superpowers-workflow]] — Superpowers: 7-step workflow
+
 ---
 
 ## ⚙️ Управление vault
@@ -244,7 +269,9 @@ type: moc
 - [[_governance/TAG_TAXONOMY]] — Словарь тегов
 - [[_governance/NOTE_TEMPLATE]] — Шаблоны заметок
 - [[_governance/NEW_DOC_CHECKLIST]] — Чеклист нового документа
+- [[_governance/VAULT_PERFORMANCE]] — Производительность и оптимизация (Wave 12)
 - [[_audit/COVERAGE_REPORT]] — Отчёт покрытия
+- [[_audit/DOCUMENT_REGISTRY]] — Полный реестр источников
 
 ---
 
@@ -252,7 +279,7 @@ type: moc
 
 | Метрика | Значение |
 |---------|---------|
-| Волны завершены | 8/8 |
+| Волны завершены | 11/11 |
 | MOC-хабов | 9 |
 | Root doc зеркал | 26/26 |
 | Domain overviews | 9 |
@@ -260,15 +287,19 @@ type: moc
 | Orchestration system notes | 17 |
 | MCP server notes | 11 |
 | Skills category notes | 21 |
+| Matt Pocock individual skills | 14 |
+| Karpathy individual principles | 5 |
 | UI Design notes | 8 |
+| UI Gallery notes | 5 |
+| Agents Deep-Dive notes | 5 |
 | Security notes | 2 |
 | Prompts notes | 5 |
 | Reference notes | 4 |
 | Agents By Role notes | 13 |
 | obsidian-skills notes | 5 |
 | obsidian-copilot notes | 17 |
-| Governance docs | 4 |
-| **Итого заметок** | **~185** |
+| Governance docs | 5 |
+| **Итого заметок** | **~217** |
 
 ---
 
