@@ -170,6 +170,11 @@ After making sync changes, run the REALITY_TEST.md scenarios mentally:
 
 Then update `AUDIT_MATRIX.md` scores if improvements were made.
 
+Also verify `RUNBOOK.md` boot sequences are still accurate:
+- [ ] Each interface's boot sequence matches its config file
+- [ ] Memory persistence table (automated vs declarative) is current
+- [ ] Decision table (task → mega-agent) matches PIPELINE_TRIGGER.md Step 2
+
 ---
 
 ## Drift Detection Heuristics

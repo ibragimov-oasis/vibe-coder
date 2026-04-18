@@ -1,7 +1,7 @@
 # AUDIT_MATRIX.md — Cross-Interface Capability Gap Analysis
 
 > **Source of truth for what works where and what's missing.**
-> Generated: 2026-04-18 | Updated: 2026-04-18 (v2 — Obsidian sync fix, prompt assessment, orchestration triggers) | Re-run this audit whenever CAPABILITIES.md or PIPELINE_TRIGGER.md changes.
+> Generated: 2026-04-18 | Updated: 2026-04-18 (v3 — PIPELINE_TRIGGER/CAPABILITIES prompt check, REALITY_TEST traces, audit prompt, RUNBOOK) | Re-run this audit whenever CAPABILITIES.md or PIPELINE_TRIGGER.md changes.
 
 ---
 
@@ -55,7 +55,11 @@
 | C3 | **No canonical CORE.md** — all 6 interface configs + CAPABILITIES + PIPELINE each duplicate the same memory-bootstrap block (lines 1-27), 5 hardcoded rules, and Karpathy principles | All | Manual inspection: memory-bootstrap block appears 8+ times across the repo | ✅ Created CORE.md |
 | C4 | **Obsidian vault save step missing from ALL post-task checklists** | All | CORE.md Step C (`bash obsidian-update.sh`) existed in PIPELINE_TRIGGER.md but was absent from every interface config post-task checklist. Quality report format also missing `✅ Obsidian:` line. | ✅ Fixed in all 6 interface configs + pipeline.mdc + memory.mdc |
 | C5 | **Complex task orchestrator auto-trigger missing from Codex/Gemini/Antigravity** | Codex, Gemini, Antigravity | Only Copilot had an explicit "SQUAD AUTO-TRIGGER" section. Other three interfaces only said "route to mega-orchestrator" without a concrete multi-agent pipeline template. | ✅ Added ORCHESTRATOR AUTO-TRIGGER section to all three |
-| C6 | **Prompt weakness detection buried at bottom, not in mandatory startup** | All | PIPELINE_TRIGGER.md and interface configs had "Prompt Improvement" only as a footer section, not as an explicit step in the mandatory startup sequence. Weak prompts could proceed without refinement. | ✅ Added "Assess prompt quality" as explicit startup step in all 6 interfaces + Cursor main.mdc |
+| C6 | **Prompt weakness detection buried at bottom, not in mandatory startup** | All | PIPELINE_TRIGGER.md and interface configs had "Prompt Improvement" only as a footer section, not as an explicit step in the mandatory startup sequence. Weak prompts could proceed without refinement. | ✅ Added "Assess prompt quality" as Step 1.5 in PIPELINE_TRIGGER.md + startup step in all 6 interfaces + Cursor main.mdc |
+| C7 | **CAPABILITIES.md missing prompt quality rule** | All | CAPABILITIES.md defines 5 hardcoded rules, but prompt quality assessment (now critical to correct execution) was not among them. | ✅ Added RULE #6 to CAPABILITIES.md |
+| C8 | **REALITY_TEST.md traces missing Obsidian step and prompt assessment** | All | The 3 execution traces in REALITY_TEST.md did not include Obsidian save or prompt quality check steps, making them inaccurate against the current pipeline spec. | ✅ Updated all 3 scenario traces in REALITY_TEST.md |
+| C9 | **No master "audit-and-reconstruct" prompt template** | All | Point 7 of the original reconstruction plan called for a canonical prompt template to run future audits. Without it, each audit starts from scratch with inconsistent scope. | ✅ Created COMBINED/prompts/prompts-templates/audit-and-reconstruct.md |
+| C10 | **No operational runbook** | All | No single file explained "how the system starts perfectly" with interface-by-interface boot sequences, failure modes, and automation vs declarative inventory. | ✅ Created RUNBOOK.md |
 
 ### 🟠 MAJOR Gaps
 
@@ -101,14 +105,19 @@
 
 ## Summary Scorecard
 
-| Interface | Before Score | After Score (v1) | After Score (v2) | Key Fixes (v2) |
+| Interface | Before Score | After Score (v1) | After Score (v3 — FINAL) | Key Fixes (all rounds) |
 |-----------|:-----------:|:-----------:|:-----------:|-----------|
-| Claude Code | 9/10 | 9.5/10 | 9.8/10 | Obsidian step (C4), prompt assessment (C6), IDOR check |
-| Cursor | 7/10 | 9/10 | 9.5/10 | Obsidian step (C4), prompt assessment (C6), IDOR check |
-| Copilot | 6/10 | 8.5/10 | 9.5/10 | Obsidian step (C4), prompt assessment (C6), IDOR check |
-| Codex | 6/10 | 7/10 | 8.5/10 | Orchestrator trigger (C5), Obsidian step (C4), prompt (C6) |
-| Gemini | 7/10 | 7.5/10 | 9/10 | Orchestrator trigger (C5), Obsidian step (C4), prompt (C6) |
-| Antigravity | 6/10 | 7/10 | 8.5/10 | Orchestrator trigger (C5), Obsidian step (C4), prompt (C6) |
+| Claude Code | 9/10 | 9.5/10 | **10/10** | Obsidian (C4), prompt step (C6), CAPABILITIES Rule 6 (C7) |
+| Cursor | 7/10 | 9/10 | **9.8/10** | Obsidian (C4), prompt step (C6), CAPABILITIES Rule 6 (C7) |
+| Copilot | 6/10 | 8.5/10 | **9.5/10** | Obsidian (C4), prompt step (C6), CAPABILITIES Rule 6 (C7) |
+| Codex | 6/10 | 7/10 | **9/10** | Orchestrator trigger (C5), Obsidian (C4), prompt (C6/C7) |
+| Gemini | 7/10 | 7.5/10 | **9.5/10** | Orchestrator trigger (C5), Obsidian (C4), prompt (C6/C7) |
+| Antigravity | 6/10 | 7/10 | **9/10** | Orchestrator trigger (C5), Obsidian (C4), prompt (C6/C7) |
+
+### Remaining residual risk (not fixable by config — behavioral)
+- All non-Claude interfaces depend on the AI **voluntarily following** the instructions. There is no enforcement mechanism comparable to Claude's hooks system.
+- The `obsidian-update.sh` script must exist on the user's machine for the Obsidian save step to execute. If missing, it fails silently.
+- Squad casting (Copilot) and ORCHESTRATOR AUTO-TRIGGER (Codex/Gemini/Antigravity) are declarative — the AI must follow the template rather than a hook forcing it.
 
 ---
 
