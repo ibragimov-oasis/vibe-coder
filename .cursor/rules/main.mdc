@@ -62,12 +62,15 @@ code-review-graph update
    ```
    mcp supermemory search "<task keywords>"
    ```
-5. **Select mega-agent** using the AGENT ROUTING section below
-6. **Query code graph** (instead of reading files):
+5. **Assess prompt quality** — Is the user request clear, specific, and actionable?
+   - Weak/vague → check `COMBINED/prompts/prompts-templates/` → refine first
+   - Skill: `COMBINED/skills/skills-planning/` (grill-me, write-a-prd)
+6. **Select mega-agent** using the AGENT ROUTING section below
+7. **Query code graph** (instead of reading files):
    ```
    mcp code-review-graph get_review_context
    ```
-7. **Execute** using the selected agent's methodology
+8. **Execute** using the selected agent's methodology
 
 ## 🧭 AGENT ROUTING (Inline Decision Tree)
 
@@ -325,17 +328,26 @@ Use Cursor's Composer mode for:
    - 🔴 Authentication/Authorization bypass
    - 🔴 Hardcoded secrets or credentials
    - 🔴 SSRF / path traversal
+   - 🔴 IDOR (insecure direct object references)
    - If vulnerabilities found → **fix immediately**, then re-check
 2. **Self-learning**: If you discovered a novel pattern → create `COMBINED/skills/{domain}/{name}/SKILL.md`
 3. **Save to memory**:
    ```
    mcp supermemory add "<what was done and why>" tags:[<domain>]
    ```
-4. **Quality report**: End your response with:
+4. **Obsidian Vault Auto-Save** (⛔ MANDATORY for non-trivial tasks):
+   ```bash
+   bash obsidian-update.sh \
+     --title "<task title>" \
+     --content "<what was done, learned, decided>" \
+     --tags "<domain>,<type>"
+   ```
+5. **Quality report**: End your response with:
    ```
    ═══════════════════════════════════
    ✅ Security: [PASS / ISSUES FIXED]
    ✅ Learned:  [NONE / New pattern]
+   ✅ Obsidian: [SAVED to sessions/YYYY-MM-DD-title.md / SKIPPED (reason)]
    ✅ Changed:  [files]
    ✅ Tests:    [PASS / FAIL / N/A]
    ═══════════════════════════════════

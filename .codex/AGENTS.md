@@ -93,8 +93,11 @@ fi
    npx -y supermemory search "<task keywords>"
    # If not available: skip gracefully, proceed without prior context
    ```
-5. **Select mega-agent** using the AGENT ROUTING section below
-6. **Query code graph** (instead of reading files):
+5. **Assess prompt quality** — Is the user request clear, specific, and actionable?
+   - Weak/vague → check `COMBINED/prompts/prompts-templates/` → refine first
+   - Skill: `COMBINED/skills/skills-planning/` (grill-me, write-a-prd)
+6. **Select mega-agent** using the AGENT ROUTING section below
+7. **Query code graph** (instead of reading files):
    ```bash
    code-review-graph detect-changes
    ```
@@ -189,9 +192,46 @@ DEFAULT (simple coding task)
 
 ---
 
-## 🤖 15 Mega Agents
+## ⚙️ ORCHESTRATOR AUTO-TRIGGER — MANDATORY for Complex Tasks
 
-Use the agents in `COMBINED/agents/mega/` for ALL tasks:
+**When your task is classified as COMPLEX** (involves 2+ of: UI, logic, data, security, tests), you MUST activate multi-agent coordination BEFORE writing any code:
+
+```
+COMPLEX TASK DETECTED → ACTIVATE MULTI-AGENT PIPELINE:
+
+Step 1 — Assess scope: does it involve 2+ of: UI, logic, data, security, tests?
+          YES → proceed to agent casting
+
+Step 2 — Cast agents in sequence:
+  Always include:
+    mega-planner      → define requirements, decompose into sub-tasks
+  Add based on task:
+    mega-researcher   → research patterns, best practices (CLI: npx -y supermemory search)
+    mega-designer     → UI/UX (Galaxy → shadcn → Impeccable → Taste-skill)
+    mega-coder        → implementation (Karpathy 4 principles + 69 best practices)
+    mega-tester       → tests (TDD: RED-GREEN-REFACTOR)
+    mega-security     → security review (Shannon SAST + dynamic)
+    mega-reviewer     → final code review (7 dimensions)
+
+Step 3 — Assign clear prompt to each agent (use COMBINED/prompts/prompts-templates/)
+
+Step 4 — Execute in sequence: planner → researcher → designer → coder → tester → security → reviewer
+          Each agent's output becomes the next agent's input
+          CLI coordination: npx -y gitnexus@latest map (codebase context)
+
+Step 5 — POST-TASK: Follow checklist (Shannon + Hermes + Obsidian + Quality Report)
+```
+
+**CLI tools for orchestration:**
+```bash
+npx -y gitnexus@latest map           # Map codebase before casting
+npx -y supermemory search "<task>"   # Check prior work
+bash obsidian-update.sh --title "<task>" --content "<plan>" --tags "orchestration"
+```
+
+---
+
+## 🤖 15 Mega Agents
 
 | Agent | Purpose | Sources |
 |-------|---------|---------|
@@ -474,20 +514,31 @@ If the user's request is vague, weak, or poorly structured:
    - 🔴 Authentication/Authorization bypass
    - 🔴 Hardcoded secrets or credentials
    - 🔴 SSRF / path traversal
+   - 🔴 IDOR (insecure direct object references)
    - Full methodology: `COMBINED/security/security-shannon/SHANNON-PRO.md`
    - If vulnerabilities found → **fix immediately**, then re-check
 2. **Self-learning** (Hermes): If you discovered a novel pattern:
    - Create skill: `COMBINED/skills/{domain}/{pattern-name}/SKILL.md`
    - Document: what worked, what failed, what was novel
-3. **Save to memory** (if CLI tools available):
+3. **Obsidian Vault Auto-Save** (⛔ MANDATORY after every non-trivial task):
+   ```bash
+   bash obsidian-update.sh \
+     --title "<task title>" \
+     --content "<what was done, learned, decided>" \
+     --tags "<domain>,<type>"
+   ```
+   Creates: `obsidian_vibe-coder/sessions/YYYY-MM-DD-HHMM-<title>.md`
+   Script help: `bash obsidian-update.sh --help`
+4. **Save to memory** (if CLI tools available):
    ```bash
    npx -y supermemory add "<what was done and why>" --tags "<domain>"
    ```
-4. **Quality report**: End your response with:
+5. **Quality report**: End your response with:
    ```
    ═══════════════════════════════════
    ✅ Security: [PASS / ISSUES FIXED (describe)]
    ✅ Learned:  [NONE / New pattern: (describe)]
+   ✅ Obsidian: [SAVED to sessions/YYYY-MM-DD-title.md / SKIPPED (reason)]
    ✅ Changed:  [list of files]
    ✅ Tests:    [PASS / FAIL / N/A]
    ═══════════════════════════════════

@@ -1,7 +1,7 @@
 # AUDIT_MATRIX.md — Cross-Interface Capability Gap Analysis
 
 > **Source of truth for what works where and what's missing.**
-> Generated: 2026-04-18 | Re-run this audit whenever CAPABILITIES.md or PIPELINE_TRIGGER.md changes.
+> Generated: 2026-04-18 | Updated: 2026-04-18 (v2 — Obsidian sync fix, prompt assessment, orchestration triggers) | Re-run this audit whenever CAPABILITIES.md or PIPELINE_TRIGGER.md changes.
 
 ---
 
@@ -12,10 +12,12 @@
 | **Memory bootstrap (code-review-graph)** | ✅ hooks | ✅ rule | ✅ manual | ✅ manual | ✅ manual | ✅ manual |
 | **Supermemory check** | ✅ MCP | ✅ MCP | ⚡ CLI | ⚡ CLI | ⚡ CLI | ⚡ CLI |
 | **Self-identification** | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+| **Prompt quality assessment (pre-task)** | ✅ startup | ✅ main.mdc | ✅ startup | ✅ startup | ✅ startup | ✅ startup |
 | **Agent routing (decision tree)** | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
-| **Orchestration auto-trigger (complex task)** | ✅ hooks | ⚠️ rule off | ⚠️ not explicit | ⚠️ not explicit | ⚠️ not explicit | ⚠️ not explicit |
+| **Orchestration auto-trigger (complex task)** | ✅ hooks | ⚠️ rule off | ✅ Squad section | ✅ auto-trigger | ✅ auto-trigger | ✅ auto-trigger |
 | **Shannon security (post-task)** | ✅ hooks | ✅ rule | ✅ checklist | ✅ checklist | ✅ checklist | ✅ checklist |
 | **Hermes self-learning (post-task)** | ✅ hooks | ✅ pipeline.mdc | ✅ checklist | ✅ checklist | ✅ checklist | ✅ checklist |
+| **Obsidian vault auto-save (post-task)** | ✅ checklist | ✅ pipeline.mdc | ✅ checklist | ✅ checklist | ✅ checklist | ✅ checklist |
 | **Lightpanda browser** | ✅ MCP | ✅ MCP | ⚡ CLI ⚠️ weak | ⚡ CLI | ⚡ CLI | ✅ browser subagent |
 | **GitNexus codebase map** | ✅ MCP | ✅ MCP | ⚡ CLI | ⚡ CLI | ⚡ CLI | ⚡ CLI |
 | **OpenViking context** | ✅ MCP | ✅ MCP | ⚡ CLI | ⚡ CLI | ⚡ CLI | ⚡ CLI |
@@ -51,6 +53,9 @@
 | C1 | **Squad not auto-triggered for complex tasks** | Copilot | Squad section describes Squad but has no explicit "IF complex task → activate Squad" trigger. The routing tree routes to mega-orchestrator but doesn't explicitly cast Squad agents within Copilot context. | ✅ Fixed in copilot-instructions.md |
 | C2 | **Cursor orchestration rule is alwaysApply: false** | Cursor | `.cursor/rules/orchestration.mdc` line 4: `alwaysApply: false` — means orchestration rules never auto-fire unless file pattern matches | ✅ Fixed in orchestration.mdc |
 | C3 | **No canonical CORE.md** — all 6 interface configs + CAPABILITIES + PIPELINE each duplicate the same memory-bootstrap block (lines 1-27), 5 hardcoded rules, and Karpathy principles | All | Manual inspection: memory-bootstrap block appears 8+ times across the repo | ✅ Created CORE.md |
+| C4 | **Obsidian vault save step missing from ALL post-task checklists** | All | CORE.md Step C (`bash obsidian-update.sh`) existed in PIPELINE_TRIGGER.md but was absent from every interface config post-task checklist. Quality report format also missing `✅ Obsidian:` line. | ✅ Fixed in all 6 interface configs + pipeline.mdc + memory.mdc |
+| C5 | **Complex task orchestrator auto-trigger missing from Codex/Gemini/Antigravity** | Codex, Gemini, Antigravity | Only Copilot had an explicit "SQUAD AUTO-TRIGGER" section. Other three interfaces only said "route to mega-orchestrator" without a concrete multi-agent pipeline template. | ✅ Added ORCHESTRATOR AUTO-TRIGGER section to all three |
+| C6 | **Prompt weakness detection buried at bottom, not in mandatory startup** | All | PIPELINE_TRIGGER.md and interface configs had "Prompt Improvement" only as a footer section, not as an explicit step in the mandatory startup sequence. Weak prompts could proceed without refinement. | ✅ Added "Assess prompt quality" as explicit startup step in all 6 interfaces + Cursor main.mdc |
 
 ### 🟠 MAJOR Gaps
 
@@ -96,14 +101,14 @@
 
 ## Summary Scorecard
 
-| Interface | Before Score | After Score | Key Fixes |
-|-----------|:-----------:|:-----------:|-----------|
-| Claude Code | 9/10 | 9.5/10 | Added CORE.md reference, SYNC_CHECK |
-| Cursor | 7/10 | 9/10 | Orchestration always-on (C2), CORE.md |
-| Copilot | 6/10 | 8.5/10 | Squad auto-trigger (C1), skill cross-ref (M6) |
-| Codex | 6/10 | 7/10 | CORE.md reference, documentation |
-| Gemini | 7/10 | 7.5/10 | CORE.md reference, documentation |
-| Antigravity | 6/10 | 7/10 | CORE.md reference, documentation |
+| Interface | Before Score | After Score (v1) | After Score (v2) | Key Fixes (v2) |
+|-----------|:-----------:|:-----------:|:-----------:|-----------|
+| Claude Code | 9/10 | 9.5/10 | 9.8/10 | Obsidian step (C4), prompt assessment (C6), IDOR check |
+| Cursor | 7/10 | 9/10 | 9.5/10 | Obsidian step (C4), prompt assessment (C6), IDOR check |
+| Copilot | 6/10 | 8.5/10 | 9.5/10 | Obsidian step (C4), prompt assessment (C6), IDOR check |
+| Codex | 6/10 | 7/10 | 8.5/10 | Orchestrator trigger (C5), Obsidian step (C4), prompt (C6) |
+| Gemini | 7/10 | 7.5/10 | 9/10 | Orchestrator trigger (C5), Obsidian step (C4), prompt (C6) |
+| Antigravity | 6/10 | 7/10 | 8.5/10 | Orchestrator trigger (C5), Obsidian step (C4), prompt (C6) |
 
 ---
 

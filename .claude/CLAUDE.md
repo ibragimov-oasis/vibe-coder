@@ -640,13 +640,27 @@ You are running as **Claude Code**. Your interface-specific capabilities:
 
 **Before ANY task, execute these steps in order:**
 
+### ⛔ STEP 0: MEMORY BOOTSTRAP (⛔ NON-NEGOTIABLE — run before anything else)
+```bash
+if [ ! -f .code-review-graph/graph.db ]; then
+  pip install code-review-graph 2>/dev/null && code-review-graph build
+else
+  code-review-graph update  # Incremental, <2 seconds
+fi
+# Fallback if Python unavailable: npx -y gitnexus@latest map
+```
+Tell the user: **"🧠 Memory loaded — graph ready."**
+
 1. **Identify yourself** — You are ULTRACAR v3.0 running as Claude Code (most capable interface)
 2. **Check memory**: `mcp supermemory search "<task keywords>"` — was this done before?
-3. **Select mega-agent** using the AGENT ROUTING below
-4. **Read the agent file**: `COMBINED/agents/mega/<selected-agent>.md`
-5. **Map codebase**: `mcp gitnexus map` — understand the codebase (if coding task)
-6. **Load context**: `mcp openviking read` — load prior context and decisions
-7. **Execute** using the selected agent's methodology
+3. **Assess prompt quality** — Is the user request clear, specific, and actionable?
+   - Weak/vague prompt → check `COMBINED/prompts/prompts-templates/` → refine prompt first
+   - Skill for this: `COMBINED/skills/skills-planning/` (grill-me, write-a-prd)
+4. **Select mega-agent** using the AGENT ROUTING below
+5. **Read the agent file**: `COMBINED/agents/mega/<selected-agent>.md`
+6. **Map codebase**: `mcp gitnexus map` — understand the codebase (if coding task)
+7. **Load context**: `mcp openviking read` — load prior context and decisions
+8. **Execute** using the selected agent's methodology
 
 > **After EVERY task**: Follow the POST-TASK CHECKLIST at the bottom of this file.
 
@@ -1164,6 +1178,7 @@ gh pr create --base dev
    - 🔴 Auth bypass (missing checks, hardcoded tokens)
    - 🔴 Secrets (API keys, passwords in code)
    - 🔴 SSRF / path traversal
+   - 🔴 IDOR (insecure direct object references)
    - If vulnerabilities found → fix immediately, then re-check
    - Full methodology: `COMBINED/security/security-shannon/SHANNON-PRO.md`
 
@@ -1172,11 +1187,23 @@ gh pr create --base dev
    - Save insight: `mcp supermemory add "<what was done and why>" tags:[domain]`
    - Update codebase context: `mcp openviking write "<what changed>"`
 
-3. **Quality report**: End your response with:
+3. **Obsidian Vault Auto-Save** (⛔ MANDATORY after every non-trivial task):
+   ```bash
+   bash obsidian-update.sh \
+     --title "<task title>" \
+     --content "<what was done, learned, decided>" \
+     --tags "<domain>,<type>"
+   ```
+   Creates: `obsidian_vibe-coder/sessions/YYYY-MM-DD-HHMM-<title>.md`
+   Updates: `obsidian_vibe-coder/MOC - Sessions.md`
+   Script help: `bash obsidian-update.sh --help`
+
+4. **Quality report**: End your response with:
    ```
    ═══════════════════════════════════
    ✅ Security: [PASS / ISSUES FIXED (describe)]
    ✅ Learned:  [NONE / New pattern: (describe)]
+   ✅ Obsidian: [SAVED to sessions/YYYY-MM-DD-title.md / SKIPPED (reason)]
    ✅ Changed:  [list of files]
    ✅ Tests:    [PASS / FAIL / N/A]
    ═══════════════════════════════════

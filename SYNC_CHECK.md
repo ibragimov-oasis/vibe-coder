@@ -31,59 +31,76 @@ When any canonical source changes, verify ALL 6 interface configs have the chang
 ### Claude Code (`.claude/CLAUDE.md`)
 - [ ] Self-identification block present
 - [ ] Memory bootstrap block references `bash memory-bootstrap.sh`
+- [ ] Memory bootstrap appears as explicit Step 0 in the mandatory startup sequence
+- [ ] Prompt quality assessment step present in startup sequence
 - [ ] Agent routing decision tree is current (matches PIPELINE_TRIGGER.md)
 - [ ] All active MCP servers listed (check against `.claude/settings.json`)
 - [ ] Hooks section present (SessionStart, TaskCompleted, etc.)
 - [ ] Squad section N/A (Claude-exclusive: agent teams instead)
-- [ ] POST-TASK CHECKLIST present with Shannon + Hermes steps
+- [ ] POST-TASK CHECKLIST present with Shannon + Hermes + Obsidian steps
+- [ ] POST-TASK quality report format includes `✅ Obsidian:` line
 - [ ] CORE.md referenced
 
 ### GitHub Copilot (`.github/copilot-instructions.md`)
 - [ ] Self-identification block present
 - [ ] Memory bootstrap block present (CLI commands, not MCP)
+- [ ] Prompt quality assessment step present in startup sequence
 - [ ] Agent routing decision tree is current (matches PIPELINE_TRIGGER.md)
 - [ ] Squad auto-trigger section present for complex tasks
 - [ ] All CLI tool alternatives listed for all MCP servers
 - [ ] skills-copilot cross-reference present
-- [ ] POST-TASK CHECKLIST present with Shannon + Hermes steps
+- [ ] POST-TASK CHECKLIST present with Shannon + Hermes + Obsidian steps
+- [ ] POST-TASK quality report format includes `✅ Obsidian:` line
 - [ ] CORE.md referenced
 
 ### Cursor AI (`.cursor/rules/main.mdc`)
 - [ ] Self-identification block present
 - [ ] Memory bootstrap block present (MCP commands)
+- [ ] Prompt quality assessment step present in startup sequence
 - [ ] Agent routing decision tree is current (matches PIPELINE_TRIGGER.md)
 - [ ] `orchestration.mdc` has `alwaysApply: true`
 - [ ] All MCP servers listed (check against `.cursor/mcp.json`)
 - [ ] Composer mode instructions present
-- [ ] POST-TASK pipeline present with Shannon + Hermes steps
+- [ ] POST-TASK pipeline present with Shannon + Hermes + Obsidian steps (`pipeline.mdc`)
+- [ ] POST-TASK quality report format includes `✅ Obsidian:` line
+- [ ] Obsidian vault save step present in `memory.mdc`
 - [ ] CORE.md referenced
 
 ### OpenAI Codex (`.codex/AGENTS.md`)
 - [ ] Self-identification block present
 - [ ] Memory bootstrap block present (CLI commands)
+- [ ] Prompt quality assessment step present in startup sequence
 - [ ] Agent routing decision tree is current (matches PIPELINE_TRIGGER.md)
+- [ ] ORCHESTRATOR AUTO-TRIGGER section present for complex tasks
 - [ ] Sandbox parallel execution patterns present
 - [ ] All CLI tool alternatives listed
-- [ ] POST-TASK CHECKLIST present
+- [ ] POST-TASK CHECKLIST present with Shannon + Hermes + Obsidian steps
+- [ ] POST-TASK quality report format includes `✅ Obsidian:` line
 - [ ] CORE.md referenced
 
 ### Gemini CLI (`.gemini/GEMINI.md`)
 - [ ] Self-identification block present
 - [ ] Memory bootstrap block present (CLI commands)
+- [ ] Prompt quality assessment step present in startup sequence (mentions Search Grounding)
 - [ ] Agent routing decision tree is current (matches PIPELINE_TRIGGER.md)
+- [ ] ORCHESTRATOR AUTO-TRIGGER section present for complex tasks
 - [ ] Search grounding usage section present (when to use vs Lightpanda)
 - [ ] Long context (2M) exploitation notes present
 - [ ] nano-banana native advantage documented
-- [ ] POST-TASK CHECKLIST present
+- [ ] POST-TASK CHECKLIST present with Shannon + Hermes + Obsidian steps
+- [ ] POST-TASK quality report format includes `✅ Obsidian:` line
 - [ ] CORE.md referenced
 
 ### Antigravity (`.antigravity/AGENTS.md`)
 - [ ] Self-identification block present
 - [ ] Memory bootstrap block present (CLI commands)
+- [ ] Prompt quality assessment step present in startup sequence (mentions built-in search_web)
 - [ ] Agent routing decision tree is current (matches PIPELINE_TRIGGER.md)
+- [ ] ORCHESTRATOR AUTO-TRIGGER section present for complex tasks
 - [ ] Browser subagent vs Lightpanda rule clarified
 - [ ] Built-in tools listed (image gen, web search, URL reader)
-- [ ] POST-TASK CHECKLIST present
+- [ ] POST-TASK CHECKLIST present with Shannon + Hermes + Obsidian steps
+- [ ] POST-TASK quality report format includes `✅ Obsidian:` line
 - [ ] CORE.md referenced
 
 ---
@@ -165,3 +182,7 @@ Signs that interface configs have drifted from canonical sources:
 4. **Missing skill category** — New skills/ subdirectory exists but not referenced anywhere
 5. **Wrong interface name** — Config says "You are ULTRACAR v3.0 running as X" but loaded from wrong file
 6. **Post-task checklist out of date** — Shannon or Hermes steps changed in PIPELINE_TRIGGER.md but not synced to interface configs
+7. **Missing Obsidian step** — Post-task checklist lacks `bash obsidian-update.sh` step or quality report lacks `✅ Obsidian:` line
+8. **Missing prompt assessment** — Startup sequence lacks "Assess prompt quality" step before execution
+9. **No orchestrator trigger** — Complex task routing only says "route to mega-orchestrator" without a concrete multi-agent pipeline template
+10. **Missing IDOR check** — Security checklist in post-task lacks "🔴 IDOR (insecure direct object references)" row
