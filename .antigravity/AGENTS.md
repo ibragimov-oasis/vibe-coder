@@ -504,4 +504,7 @@ If the user's request is vague, weak, or poorly structured:
 ---
 
 *Combined from 54 repositories. ULTRACAR v3.0 — Antigravity Interface.*
-**Last Updated:** 2026-04-15
+
+**Canonical core**: `CORE.md` | **Gap analysis**: `AUDIT_MATRIX.md` | **Execution traces**: `REALITY_TEST.md` | **Governance**: `SYNC_CHECK.md`
+
+**Last Updated:** 2026-04-18

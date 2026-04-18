@@ -60,6 +60,10 @@ for f in src/**/*.ts; do echo "Processing $f"; done
 
 # Parallel operations (safe in sandbox):
 command1 & command2 & wait
+
+# Post-task: run Shannon security scan and Hermes pattern extraction IN PARALLEL
+# (Codex sandbox makes this safe — do not do this in production systems):
+(uv run code-review-graph serve --check-security &) & (npx -y supermemory add "<pattern>" --tags "<domain>" &) & wait
 ```
 
 ---
@@ -492,4 +496,7 @@ If the user's request is vague, weak, or poorly structured:
 ---
 
 *Combined from 54 repositories. ULTRACAR v3.0 — OpenAI Codex Interface.*
-**Last Updated:** 2026-04-15
+
+**Canonical core**: `CORE.md` | **Gap analysis**: `AUDIT_MATRIX.md` | **Execution traces**: `REALITY_TEST.md` | **Governance**: `SYNC_CHECK.md`
+
+**Last Updated:** 2026-04-18

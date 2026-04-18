@@ -199,6 +199,11 @@ Your native search capability complements the mega-researcher agent:
 > - **Search Grounding** → Research, knowledge gathering, documentation lookup, API reference checks, comparing approaches. This is YOUR native strength — use it aggressively for any information-retrieval task.
 > - **Lightpanda** → Web testing, screenshots, interacting with web pages, DOM inspection, visual validation. Use when you need to SEE or INTERACT with a page, not just READ about it.
 
+> **Search Grounding in the pipeline:**
+> - Step 1 (mega-researcher): Use Search Grounding FIRST for background research, then synthesize with DeerFlow
+> - Step 2 (Hermes): Use Search Grounding to find if patterns you discovered already exist in the community
+> - Shannon security audit: Use Search Grounding to look up CVE databases and security advisories
+
 ### 🖼️ Multimodal Understanding
 You can understand images and generate them:
 - Analyze existing UI screenshots for design audit
@@ -540,4 +545,7 @@ If the user's request is vague, weak, or poorly structured:
 ---
 
 *Combined from 54 repositories. ULTRACAR v3.0 — Gemini CLI Interface.*
-**Last Updated:** 2026-04-15
+
+**Canonical core**: `CORE.md` | **Gap analysis**: `AUDIT_MATRIX.md` | **Execution traces**: `REALITY_TEST.md` | **Governance**: `SYNC_CHECK.md`
+
+**Last Updated:** 2026-04-18
