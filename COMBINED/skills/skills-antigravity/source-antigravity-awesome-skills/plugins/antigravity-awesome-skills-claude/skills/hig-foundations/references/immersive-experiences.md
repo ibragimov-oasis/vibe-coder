@@ -174,5 +174,10 @@ June 10, 2024| Added guidance for tinting passthrough and specifying initial, mi
 May 7, 2024| Added guidance for creating an environment.  
 February 2, 2024| Clarified guidance for choosing an immersion style that matches the experience your app provides.  
 October 24, 2023| Updated artwork.  
-June 21, 2023| New page.  
-  
+June 21, 2023| New page.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

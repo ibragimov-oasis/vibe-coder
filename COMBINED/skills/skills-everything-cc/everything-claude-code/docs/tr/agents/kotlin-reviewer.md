@@ -161,3 +161,9 @@ Verdict: BLOCK — HIGH sorunlar merge'den önce düzeltilmelidir.
 
 - **Onayla**: CRITICAL veya HIGH sorun yok
 - **Bloke Et**: Herhangi bir CRITICAL veya HIGH sorun — merge'den önce düzeltilmelidir
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

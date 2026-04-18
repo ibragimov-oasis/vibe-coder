@@ -52,3 +52,9 @@ tags:
     Objective: Understand customer requirements, technical environment, and business drivers.
 
 </div>
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

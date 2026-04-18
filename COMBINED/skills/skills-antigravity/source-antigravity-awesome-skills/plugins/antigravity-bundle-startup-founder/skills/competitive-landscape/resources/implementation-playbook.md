@@ -499,3 +499,9 @@ To analyze competitive landscape:
 8. **Develop strategy** - How to win
 
 For detailed frameworks and examples, see `references/` and `examples/`.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

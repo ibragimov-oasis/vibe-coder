@@ -451,3 +451,9 @@ find ~/.claude/plugins -name "*.sh" -exec dos2unix {} \;
 * [CONTRIBUTING.md](CONTRIBUTING.md) - 开发指南
 * [docs/](..) - 详细文档
 * [examples/](../../examples) - 使用示例
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

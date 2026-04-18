@@ -320,3 +320,9 @@ Check model cards for:
 - [Configuration Reference](./CONFIGURATION.md) - Environment settings
 - [Code Examples](./EXAMPLES.md) - More examples for different runtimes
 - [Main Skill Guide](../SKILL.md) - Getting started guide
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

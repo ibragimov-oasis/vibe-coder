@@ -549,3 +549,9 @@ class UsageBillingEngine:
 - **Aggressive Dunning**: Canceling too quickly
 - **No Notifications**: Not informing customers of failures
 - **Hardcoded Cycles**: Not supporting custom billing dates
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

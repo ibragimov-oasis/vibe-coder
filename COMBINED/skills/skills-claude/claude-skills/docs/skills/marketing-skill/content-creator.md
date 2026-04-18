@@ -61,3 +61,9 @@ This is a redirect skill. Route the user to the correct specialist — don't att
 - **content-strategy**: Content planning and topic selection (successor).
 - **content-humanizer**: Post-processing AI content to sound authentic.
 - **marketing-context**: Foundation context that both successors read.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

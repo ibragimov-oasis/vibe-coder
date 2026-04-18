@@ -217,3 +217,9 @@ HEDGE
 • Contingency: [Plan B if it's wrong]
 • Early warning: [Leading indicator to watch — and at what threshold to act]
 ```
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

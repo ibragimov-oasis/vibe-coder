@@ -341,3 +341,8 @@ hf jobs run --flavor v5e-1x1 your-tpu-image python script.py
 hf jobs uv run --flavor a10g-small my_script.py
 ```
 
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

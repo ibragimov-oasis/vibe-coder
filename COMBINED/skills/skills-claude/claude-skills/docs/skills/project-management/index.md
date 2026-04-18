@@ -64,3 +64,9 @@ tags:
     Strategic project management for enterprise software, SaaS, and digital transformation initiatives. Provides portfoli...
 
 </div>
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

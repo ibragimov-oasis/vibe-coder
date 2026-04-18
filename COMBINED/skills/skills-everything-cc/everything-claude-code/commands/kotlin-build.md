@@ -176,3 +176,9 @@ The agent will stop and report if:
 
 - Agent: `agents/kotlin-build-resolver.md`
 - Skill: `skills/kotlin-patterns/`
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

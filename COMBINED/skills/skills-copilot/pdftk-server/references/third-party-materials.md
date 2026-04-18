@@ -108,3 +108,9 @@ Unless required by applicable law or agreed to in writing, software distributed 
 [Click to read the Apache Batik NOTICE file](https://www.pdflabs.com/docs/pdftk-license/apache_batik_NOTICE.txt).
 
 Download the Apache Batik source code from: http://xmlgraphics.apache.org/batik/.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-copilot]] — Category: skills-copilot
+

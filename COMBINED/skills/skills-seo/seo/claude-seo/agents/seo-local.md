@@ -80,3 +80,9 @@ Provide a structured report with:
 - Location page quality (if multi-location)
 - Top 10 prioritized actions (Critical > High > Medium > Low)
 - Limitations disclaimer (what could not be assessed without paid tools)
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-seo]] — Category: skills-seo
+

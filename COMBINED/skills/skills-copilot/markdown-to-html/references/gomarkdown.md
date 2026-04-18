@@ -258,3 +258,9 @@ html := markdown.ToHTML(normalized, nil, nil)
 - [GitHub Repository](https://github.com/gomarkdown/markdown)
 - [CLI Tool](https://github.com/gomarkdown/mdtohtml)
 - [Bluemonday Sanitizer](https://github.com/microcosm-cc/bluemonday)
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-copilot]] — Category: skills-copilot
+

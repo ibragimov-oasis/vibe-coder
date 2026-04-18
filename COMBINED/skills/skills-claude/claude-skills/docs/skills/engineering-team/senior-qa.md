@@ -344,3 +344,9 @@ npx playwright codegen             # Generate tests
 npm test -- --coverage --coverageReporters=lcov,json
 python scripts/coverage_analyzer.py coverage/coverage-final.json
 ```
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

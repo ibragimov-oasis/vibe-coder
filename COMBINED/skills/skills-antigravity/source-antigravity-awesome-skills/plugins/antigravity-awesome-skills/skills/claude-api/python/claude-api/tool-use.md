@@ -592,3 +592,9 @@ response = client.messages.create(
     }]
 )
 ```
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

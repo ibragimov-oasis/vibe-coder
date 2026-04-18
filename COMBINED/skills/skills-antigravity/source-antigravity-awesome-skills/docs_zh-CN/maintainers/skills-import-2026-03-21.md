@@ -86,3 +86,9 @@ npm run catalog
 
 - 规范化后验证通过
 - 导入后生成的索引计数: `1304` 技能
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

@@ -69,3 +69,9 @@ struct UserService {
 
 查看技能：`swift-actor-persistence` 以了解基于 actor 的持久化模式。
 查看技能：`swift-protocol-di-testing` 以了解基于协议的依赖注入和测试。
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

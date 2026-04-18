@@ -70,3 +70,9 @@ Fix: [How to fix]
 ---
 
 **IMPORTANT**: Never approve code with security vulnerabilities!
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

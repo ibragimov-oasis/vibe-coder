@@ -311,3 +311,9 @@ All output passes quality verification:
 - **campaign-analytics**: For cross-channel analytics including social.
 - **content-strategy**: For planning social content themes.
 - **marketing-context**: Provides audience context for better analysis.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

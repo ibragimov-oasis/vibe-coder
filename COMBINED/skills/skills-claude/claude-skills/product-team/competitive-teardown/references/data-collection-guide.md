@@ -109,3 +109,9 @@ This guide outlines systematic approaches for gathering competitive intelligence
 - **Feedly**: RSS aggregation for competitor blogs and news
 - **SimilarWeb**: Traffic estimates and audience overlap
 - **SEMrush / Ahrefs**: SEO positioning and content strategy analysis
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

@@ -93,3 +93,9 @@ cmake --build build --clean-first
 最终：`Build Status: SUCCESS/FAILED | Errors Fixed: N | Files Modified: list`
 
 有关详细的 C++ 模式和代码示例，请参阅 `skill: cpp-coding-standards`。
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

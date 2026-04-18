@@ -158,3 +158,9 @@ d. Build a spaced-repetition learning skill: you explain your understanding, Cla
 ## Sources
 
 - [Boris Cherny (@bcherny) on X — February 1, 2026](https://x.com/bcherny/status/2017742741636321619)
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

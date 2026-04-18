@@ -142,3 +142,9 @@ When executing:
 6. **ALWAYS update the Last Updated badge** — Phase 3.6 is mandatory. Never skip it.
 7. **Compare with previous runs** — read the last 25 entries from the changelog and mark each action item as NEW, RECURRING, or RESOLVED.
 8. **Maintain tag sort order** — the official commands table is sorted by tag (alphabetical), then by command name within each tag group. Preserve this ordering when adding or removing commands.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

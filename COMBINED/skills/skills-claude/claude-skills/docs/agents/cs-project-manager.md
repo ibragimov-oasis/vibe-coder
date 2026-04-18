@@ -520,3 +520,9 @@ echo "Template: ../../project-management/senior-pm/assets/executive_report_templ
 **Last Updated:** March 9, 2026
 **Version:** 2.0
 **Status:** Production Ready
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

@@ -212,3 +212,9 @@ Unit42 发现，在具有长对话历史的智能体中，持久性提示注入�
 | 链接预览数据泄露向量 | https://www.scworld.com/news/ai-agents-vulnerable-to-data-leaks-via-malicious-link-previews |
 
 ***
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

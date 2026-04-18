@@ -76,3 +76,9 @@ struct SettingsView: View {
 
 - Don’t reuse iOS-only settings layouts (full-screen stacks, toolbar-heavy flows).
 - Avoid large custom view hierarchies inside `Form`; keep rows focused and accessible.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

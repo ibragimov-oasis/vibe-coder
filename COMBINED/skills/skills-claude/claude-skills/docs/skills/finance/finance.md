@@ -55,3 +55,9 @@ python3 financial-analyst/scripts/forecast_builder.py --help
 
 - Load only the specific skill SKILL.md you need
 - Always validate financial outputs against source data
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

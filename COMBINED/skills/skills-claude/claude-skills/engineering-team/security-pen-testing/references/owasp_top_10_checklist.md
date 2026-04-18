@@ -445,3 +445,9 @@ response = requests.get(url)
 - **SSRF to cloud metadata (credential theft):** CVSS 9.1 — AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:N
 - **SSRF to internal service (read):** CVSS 7.5 — AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N
 - **Blind SSRF (no response data):** CVSS 5.3 — AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

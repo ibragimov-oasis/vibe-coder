@@ -177,3 +177,9 @@ The codebase follows ratatui conventions well:
 ---
 
 **Bottom line:** ECC2 is a well-structured Rust project with clean error handling, good separation of concerns, and strong security features (risk scoring). The main gaps are incomplete features (comms, new-session dialog, single agent) rather than architectural problems. The codebase is ready for feature work on top of the solid foundation.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

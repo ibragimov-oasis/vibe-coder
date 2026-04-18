@@ -92,3 +92,9 @@ project-name/
 - Shared types in packages/types
 - Internal packages with `workspace:*`
 - Use Turbo remote caching for CI
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

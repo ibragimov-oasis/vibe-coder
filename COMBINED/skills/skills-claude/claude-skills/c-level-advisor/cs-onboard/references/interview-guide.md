@@ -178,3 +178,9 @@ If any answer is no, go back and fill it in.
 ## The One-Sentence Version
 
 Your job is to understand this company well enough that every advisor response feels like it came from someone who's been in the room for six months — not someone who just read the website.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

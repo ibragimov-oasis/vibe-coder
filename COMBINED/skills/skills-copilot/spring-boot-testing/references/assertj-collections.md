@@ -188,3 +188,9 @@ import static org.assertj.core.api.Assertions.entry;
 3. **`filteredOn()` + `extracting()`** — compose to assert a subset of a collection precisely
 4. **`satisfiesExactly()`** — use when each element needs different assertions
 5. **`usingRecursiveFieldByFieldElementComparator()`** — preferred over `equals()` for DTOs and records
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-copilot]] — Category: skills-copilot
+

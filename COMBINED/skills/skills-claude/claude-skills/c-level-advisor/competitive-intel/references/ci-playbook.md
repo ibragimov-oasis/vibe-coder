@@ -242,3 +242,9 @@ If it lives only in Slack, it disappears. If it lives only in a wiki that nobody
 5. If no: log it, move on
 
 **The test:** After reviewing a competitor move, do you feel urgency to ship something? If yes, you're reacting. The right feeling is "noted — let's see if customers care."
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

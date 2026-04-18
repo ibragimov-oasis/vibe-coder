@@ -82,3 +82,9 @@ docs/
     ├── adr-002-postgresql-over-mongodb.md
     └── adr-003-adopt-repository-pattern.md
 ```
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

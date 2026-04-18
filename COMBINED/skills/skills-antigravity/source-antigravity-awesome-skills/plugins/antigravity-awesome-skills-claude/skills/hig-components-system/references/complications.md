@@ -425,5 +425,10 @@ Date| Changes
 ---|---  
 October 24, 2023| Replaced links to deprecated ClockKit documentation with links to WidgetKit documentation.  
 June 5, 2023| Updated guidance for rectangular complications to support them as widgets in the Smart Stack.  
-September 14, 2022| Added specifications for Apple Watch Ultra.  
-  
+September 14, 2022| Added specifications for Apple Watch Ultra.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

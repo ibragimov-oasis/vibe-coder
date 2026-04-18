@@ -35,3 +35,9 @@ tags:
 - **Allowed without asking**: Running tests, linting, code formatting, viewing files
 - **Ask before**: Modifying tests, making destructive operations, installing packages
 - **Never allowed**: Pushing directly to main branch, changing API keys/secrets
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-awesome-claude]] — Category: skills-awesome-claude
+

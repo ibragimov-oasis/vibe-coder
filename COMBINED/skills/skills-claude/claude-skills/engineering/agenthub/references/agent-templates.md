@@ -192,3 +192,9 @@ When `/hub:spawn` is called with `--template <name>`:
 4. Use the filled template as the dispatch prompt instead of the default prompt
 
 Strategy assignment is automatic: the coordinator generates N different strategies appropriate to the template and task, assigning one per agent. The coordinator should choose strategies that are **diverse** — overlapping strategies waste agents.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

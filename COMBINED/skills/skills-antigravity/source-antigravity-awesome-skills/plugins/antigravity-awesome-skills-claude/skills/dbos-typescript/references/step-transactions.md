@@ -69,3 +69,9 @@ Available datasource packages: `@dbos-inc/knex-datasource`, `@dbos-inc/kysely-da
 Datasources require installing the DBOS schema (`transaction_completion` table) via `initializeDBOSSchema`.
 
 Reference: [Transactions & Datasources](https://docs.dbos.dev/typescript/tutorials/transaction-tutorial)
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

@@ -147,3 +147,9 @@ tags:
 | 监控直播流 | 连接 RTSP → 索引场景 → 创建警报 |
 | 为社交媒体调整格式 | 调整为目标宽高比 |
 | 合并剪辑 | 使用多个素材构建时间线 → 生成流 |
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

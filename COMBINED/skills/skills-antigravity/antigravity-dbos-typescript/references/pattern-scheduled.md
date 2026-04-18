@@ -70,3 +70,9 @@ DBOS.registerScheduled(fridayNightJob, {
 Scheduled workflows cannot be applied to instance methods.
 
 Reference: [Scheduled Workflows](https://docs.dbos.dev/typescript/tutorials/scheduled-workflows)
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

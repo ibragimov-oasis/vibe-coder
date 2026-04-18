@@ -61,3 +61,9 @@ Claude Code subagents — frontmatter fields and official built-in agent types.
 - [Create custom subagents — Claude Code Docs](https://code.claude.com/docs/en/sub-agents)
 - [CLI reference — Claude Code Docs](https://code.claude.com/docs/en/cli-reference)
 - [Claude Code CHANGELOG](https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md)
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

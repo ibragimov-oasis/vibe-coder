@@ -165,3 +165,9 @@ tests/           — Test paketi
 - Kod okunabilir ve sürdürülebilirdir
 - Performans kabul edilebilirdir
 - Kullanıcı gereksinimleri karşılanmıştır
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

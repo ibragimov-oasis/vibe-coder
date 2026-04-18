@@ -266,3 +266,9 @@ tags:
 如果您有任何问题、建议或关注，请不要犹豫联系我们。
 
 **感谢您成为我们社区的一员！** 🌟
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

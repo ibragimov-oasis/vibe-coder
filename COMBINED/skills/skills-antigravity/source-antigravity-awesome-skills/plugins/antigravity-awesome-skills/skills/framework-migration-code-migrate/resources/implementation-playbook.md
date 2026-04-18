@@ -1057,3 +1057,9 @@ class MigrationMonitor:
 8. **Documentation**: Migration guide and runbooks
 
 Focus on minimizing disruption, maintaining functionality, and providing clear paths for successful code migration with comprehensive testing and rollback strategies.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

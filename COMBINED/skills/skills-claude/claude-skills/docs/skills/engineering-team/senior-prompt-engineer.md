@@ -368,3 +368,9 @@ python scripts/agent_orchestrator.py agent.yaml --validate       # Validate conf
 python scripts/agent_orchestrator.py agent.yaml --visualize      # Show workflow
 python scripts/agent_orchestrator.py agent.yaml --estimate-cost  # Token estimation
 ```
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

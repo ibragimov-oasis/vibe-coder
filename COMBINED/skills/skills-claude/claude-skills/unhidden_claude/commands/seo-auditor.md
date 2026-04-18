@@ -99,3 +99,9 @@ Verify all pages appear, no duplicates, no broken URLs.
 ## Phase 7: Report
 
 Present a summary showing: pages scanned, issues found, auto-fixes applied, manual review items, broken links fixed, orphans resolved, sitemap URL count. List preserved pages that were not modified.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

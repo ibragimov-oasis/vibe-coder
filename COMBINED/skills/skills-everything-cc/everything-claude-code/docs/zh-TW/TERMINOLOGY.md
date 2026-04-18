@@ -109,3 +109,9 @@ tags:
 ## 更新記錄
 
 - 2024-XX-XX: 初版建立，含使用者已確認術語
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

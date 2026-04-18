@@ -366,3 +366,9 @@ The glow layer is critical for the "product floating in light" premium feel:
   </div>
 </section>
 ```
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

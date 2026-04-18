@@ -514,3 +514,9 @@ README.md → 滚动到"完整技能注册表" → 找到类别 → 选择技能
 - [CONTRIBUTING.md](../../CONTRIBUTING.md) - 如何贡献
 
 **准备好贡献了吗？**您可以做到！💪
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

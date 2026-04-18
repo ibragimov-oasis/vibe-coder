@@ -345,3 +345,9 @@ Transcript of the interview with Boris Cherny ([@bcherny](https://x.com/bcherny)
 
 - [Inside Claude Code With Its Creator Boris Cherny — Y Combinator — YouTube](https://youtu.be/PQU9o_5rHC4)
 - [Y Combinator](https://www.ycombinator.com/)
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

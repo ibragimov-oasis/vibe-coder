@@ -370,3 +370,9 @@ Vet 警告修正済み: N
 - 自明でない修正にはインラインコメントで**文書化**
 
 ビルドエラーは外科的に修正すべきです。目標はリファクタリングされたコードベースではなく、動作するビルドです。
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

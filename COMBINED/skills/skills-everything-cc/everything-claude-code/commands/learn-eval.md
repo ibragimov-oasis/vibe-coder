@@ -118,3 +118,9 @@ This version replaces the previous 5-dimension numeric scoring rubric (Specifici
 - Focus on patterns that will save time in future sessions
 - Keep skills focused — one pattern per skill
 - When the verdict is Absorb, append to the existing skill rather than creating a new file
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

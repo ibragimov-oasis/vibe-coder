@@ -39,3 +39,9 @@ function Profile({ name }: { name: string }) {
   return <div>{name}</div>
 }
 ```
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

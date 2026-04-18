@@ -254,3 +254,9 @@ Comprehensive testing should cover:
 - Document security considerations
 - Specify required permissions and access levels
 - Document rate limits and performance characteristics
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

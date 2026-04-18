@@ -88,3 +88,9 @@ Tailwind CSS includes this as `sr-only` by default. For other frameworks:
 - **Angular**: Add to `styles.scss`
 - **Vue**: Add to `assets/global.css`
 - **Svelte**: Add to `app.css`
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

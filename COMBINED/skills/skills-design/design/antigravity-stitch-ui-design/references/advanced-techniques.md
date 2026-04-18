@@ -546,3 +546,9 @@ These advanced techniques help you move beyond basic Stitch usage to create prod
 - Think in reusable components
 - Plan for all states, not just happy paths
 - Refine exports before production use
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-design]] — Category: skills-design
+

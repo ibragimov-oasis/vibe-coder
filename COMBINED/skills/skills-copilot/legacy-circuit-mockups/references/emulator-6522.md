@@ -293,3 +293,9 @@ CPU cycle  VIA tick  update timers  update IRQ
 **Document Scope:** Software emulation of the 6522 VIA
 **Audience:** Emulator developers, SBC designers
 **Status:** Stable technical reference
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-copilot]] — Category: skills-copilot
+

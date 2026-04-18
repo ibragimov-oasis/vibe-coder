@@ -53,3 +53,9 @@ exit                           退出
 * 会话存储在 `~/.claude/claw/<session>.md`。
 * 压缩会保留最近的回合并写入压缩头。
 * 导出支持 Markdown、JSON 回合和纯文本。
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

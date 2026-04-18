@@ -195,3 +195,9 @@ Bridge from engagement to business results:
 - [ ] Created voice guidelines (specificity, brevity, emotion)
 - [ ] Built template library from patterns
 - [ ] Set up tracking for your own content performance
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

@@ -83,3 +83,9 @@ Or check manually:
 ```bash
 npx claude-flow memory list --namespace results
 ```
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-ruflo]] — Category: skills-ruflo
+

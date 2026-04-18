@@ -53,3 +53,9 @@ tags:
 - [ ] 적절한 에러 처리가 되어 있는가
 - [ ] 하드코딩된 값이 없는가 (상수나 설정 사용)
 - [ ] 변이가 없는가 (불변 패턴 사용)
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

@@ -216,5 +216,10 @@ The system automatically converts the context menus in your iPad app to context 
 
 Date| Changes  
 ---|---  
-May 2, 2023| Consolidated guidance into one page.  
-  
+May 2, 2023| Consolidated guidance into one page.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

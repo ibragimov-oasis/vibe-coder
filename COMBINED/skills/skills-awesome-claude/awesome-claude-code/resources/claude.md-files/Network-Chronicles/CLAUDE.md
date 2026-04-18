@@ -143,3 +143,9 @@ To use the enhanced service discovery:
 - Implement network scanning of other hosts beyond localhost
 - Create more complex multi-stage challenges based on service combinations
 - Add service fingerprinting to detect specific versions and configurations
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-awesome-claude]] — Category: skills-awesome-claude
+

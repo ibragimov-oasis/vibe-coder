@@ -206,3 +206,9 @@ cat .loki/state/orchestrator.json
 # Increase retries
 LOKI_MAX_RETRIES=200 ./autonomy/run.sh ./docs/prd.md
 ```
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

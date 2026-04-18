@@ -94,3 +94,9 @@ npx eslint . --report-unused-disable-directives  # Unused eslint directives
 * 构建成功
 * 没有回归问题
 * 包体积减小
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

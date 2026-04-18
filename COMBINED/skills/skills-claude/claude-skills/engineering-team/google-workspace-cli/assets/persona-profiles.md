@@ -228,3 +228,9 @@ tags:
 3. Reply to open tickets
 4. Escalate via Chat for urgent issues
 5. Create follow-up tasks for pending items
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

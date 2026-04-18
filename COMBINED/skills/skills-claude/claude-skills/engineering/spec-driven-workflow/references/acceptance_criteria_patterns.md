@@ -502,3 +502,9 @@ If your AC has any of these, rewrite it:
 | Multiple Whens | "When user clicks A and then clicks B" | Split into two ACs |
 | Implementation detail | "Then the Redux store is updated" | Focus on user-observable outcome |
 | No requirement reference | "AC-5: Dashboard loads" | "AC-5: Dashboard loads (FR-7)" |
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

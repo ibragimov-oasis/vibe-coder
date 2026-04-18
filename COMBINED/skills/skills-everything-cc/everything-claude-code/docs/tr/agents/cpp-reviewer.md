@@ -74,3 +74,9 @@ cmake --build build 2>&1 | head -50
 - **Engelle**: KRİTİK veya YÜKSEK sorunlar bulundu
 
 Detaylı C++ kodlama standartları ve karşı desenler için, `skill: cpp-coding-standards` bölümüne bakın.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

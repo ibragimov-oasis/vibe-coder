@@ -60,3 +60,9 @@ One "unit" = 1,000 characters. Free tier resets monthly.
 4. **Billing must be enabled** on the project (free tier still applies)
 
 Uses the same API key as PSI/CrUX.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-seo]] — Category: skills-seo
+

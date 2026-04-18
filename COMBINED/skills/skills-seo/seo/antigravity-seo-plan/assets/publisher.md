@@ -158,3 +158,9 @@ Publishers face highest E-E-A-T scrutiny.
 - Newsletter signups from organic
 - Google News/Discover traffic
 - AI Overview appearances
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-seo]] — Category: skills-seo
+

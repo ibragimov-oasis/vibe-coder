@@ -31,3 +31,9 @@ Essentials:
 ├── Code examples (multiple languages)
 └── Changelog
 ```
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

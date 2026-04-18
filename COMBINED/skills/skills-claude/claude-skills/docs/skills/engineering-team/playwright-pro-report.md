@@ -137,3 +137,9 @@ If previous reports exist in `test-reports/`:
 - Report destination confirmation
 - Trend comparison (if historical data available)
 - Next action recommendation (fix failures or celebrate green)
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

@@ -74,3 +74,9 @@ public async Task<Order> LoadOrderAsync(
 - Use `dotnet format` for formatting and analyzer fixes
 - Keep `using` directives organized and remove unused imports
 - Prefer expression-bodied members only when they stay readable
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

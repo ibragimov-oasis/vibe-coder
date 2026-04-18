@@ -30,3 +30,9 @@ tags:
 - Translate external terms into local ubiquitous language.
 - Keep ACL code at boundary, not inside domain core.
 - Add contract tests for mapped behavior.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

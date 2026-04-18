@@ -573,3 +573,9 @@ cost_patterns:
 - [Package Manager for Agent Skills](https://news.ycombinator.com/item?id=46422264)
 - [Wispbit - AI Code Review Agent](https://news.ycombinator.com/item?id=44722603)
 - [Agtrace - Monitoring for AI Coding Agents](https://news.ycombinator.com/item?id=46425670)
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

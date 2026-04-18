@@ -122,3 +122,9 @@ Architecture guidance documents are **not queried on every request.** Only perfo
 - Only targeted fetch 1–2 related documents according to the decision rule by question type
 - Even within fetched documents, only reference relevant sections; do not read the entire document
 - Unlimited fetching, recursive link following, and sub-page enumeration are prohibited
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-copilot]] — Category: skills-copilot
+

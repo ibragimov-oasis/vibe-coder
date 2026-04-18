@@ -144,3 +144,9 @@ PASS: インポート完了!
 
 /instinct-statusを実行してすべてのinstinctsを確認できます。
 ```
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

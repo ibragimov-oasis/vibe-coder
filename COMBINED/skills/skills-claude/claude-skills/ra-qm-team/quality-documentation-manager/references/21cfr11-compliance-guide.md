@@ -403,3 +403,9 @@ Summary:
 | High | Validation gaps | 60 days |
 | Medium | Training gaps | 90 days |
 | Low | Documentation gaps | 120 days |
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

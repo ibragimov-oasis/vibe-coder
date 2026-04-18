@@ -365,3 +365,9 @@ python scripts/customer_interview_analyzer.py interview.txt json
 
 - `references/prd_templates.md` - PRD templates for different contexts
 - `references/frameworks.md` - Detailed framework documentation (RICE, MoSCoW, Kano, JTBD, etc.)
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

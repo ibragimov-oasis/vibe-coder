@@ -122,3 +122,9 @@ Son: `Status: SUCCESS/FAILED | Errors Fixed: N | Files Modified: list`
 ---
 
 PyTorch best practice'leri için, [resmi PyTorch dokümantasyonu](https://pytorch.org/docs/stable/) ve [PyTorch forumları](https://discuss.pytorch.org/)'na başvurun.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

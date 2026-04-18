@@ -64,3 +64,9 @@ The fixture:
 6. Cleans up after test
 
 Reference: [Testing DBOS](https://docs.dbos.dev/python/tutorials/testing)
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

@@ -123,3 +123,9 @@ Every operation produces playable stream URLs. Embed in web players, share direc
 | Monitor live streams | Connect RTSP → Index scenes → Create alerts |
 | Reformat for social | Reframe to target aspect ratio |
 | Combine clips | Build timeline with multiple assets → Generate stream |
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

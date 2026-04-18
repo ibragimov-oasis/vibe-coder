@@ -76,3 +76,9 @@ export const canDecodeBlob = async (blob: Blob) => {
   // Same validation logic as above
 };
 ```
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

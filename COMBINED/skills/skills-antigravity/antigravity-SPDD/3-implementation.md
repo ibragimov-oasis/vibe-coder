@@ -25,3 +25,9 @@ Você deve implementar um plano técnico aprovado com precisão cirúrgica.
 - Código fonte implementado.
 - Relatório de conclusão de fase com resultados de testes.
 - **Ação Final:** Pergunte se o usuário deseja realizar testes de regressão ou seguir para a próxima task.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

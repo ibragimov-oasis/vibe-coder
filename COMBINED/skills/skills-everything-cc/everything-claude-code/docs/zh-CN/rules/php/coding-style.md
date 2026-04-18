@@ -43,3 +43,9 @@ tags:
 ## 参考
 
 有关更广泛的服务/仓库分层指导，请参阅技能：`backend-patterns`。
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

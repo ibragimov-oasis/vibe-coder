@@ -141,3 +141,9 @@ CLAUDE_AUTOCOMPACT_PCT_OVERRIDE=50
 CLAUDE_CODE_SUBAGENT_MODEL=haiku
 CLAUDE_CODE_EXPERIMENTAL_AGENT_TEAMS=1
 ```
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

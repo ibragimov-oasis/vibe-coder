@@ -75,3 +75,9 @@ Mitigation:
 5. Segment-level observations (pre-registered only)
 6. Decision: ship, iterate, or reject
 7. Follow-up experiments
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

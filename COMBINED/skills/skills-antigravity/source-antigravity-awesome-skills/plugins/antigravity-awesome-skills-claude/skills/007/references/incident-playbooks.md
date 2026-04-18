@@ -399,3 +399,9 @@ CONTACT: {incident commander contact}
 | **HIGH** | DDoS, credential stuffing, supply chain compromise | < 30 min | Within 1 hour: CTO, Engineering Lead |
 | **MEDIUM** | API abuse, single account compromise, non-critical vuln exploited | < 2 hours | Within 4 hours: Engineering Lead |
 | **LOW** | Failed attack attempt, minor misconfiguration found | < 24 hours | Next business day: Team Lead |
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

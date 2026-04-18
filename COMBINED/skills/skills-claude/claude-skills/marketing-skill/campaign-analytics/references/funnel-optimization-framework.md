@@ -307,3 +307,9 @@ When using the funnel analyzer's segment comparison feature:
 | Segment deep-dive | Monthly | Channel and cohort comparisons |
 | Strategic funnel review | Quarterly | Funnel structure, stage definitions, benchmark updates |
 | Annual funnel redesign | Annually | Stage definitions, measurement methodology, tool updates |
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

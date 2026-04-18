@@ -153,3 +153,9 @@ So that I can track processing status, find past invoices, and audit the AP pipe
 | | **Total** | **26** | |
 
 **Sprint fit:** At ~28-point velocity, this MVP is achievable in a single sprint with the extraction engine (US-002) as the critical-path item. If capacity is tighter, US-005 can defer to sprint 2 as a stretch goal.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

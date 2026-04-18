@@ -537,3 +537,9 @@ Best,
 | Approval Date | {{approval_date}} |
 | Precedent Risk | {{precedent_risk}} |
 | Notes | {{approval_notes}} |
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

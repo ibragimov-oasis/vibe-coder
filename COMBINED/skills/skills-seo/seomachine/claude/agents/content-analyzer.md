@@ -356,3 +356,9 @@ Your analysis is successful when:
 5. Estimated impact and effort are clear
 
 Remember: Your role is to be the analytical foundation that helps create content that ranks #1 and genuinely helps podcast creators succeed.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-seo]] — Category: skills-seo
+

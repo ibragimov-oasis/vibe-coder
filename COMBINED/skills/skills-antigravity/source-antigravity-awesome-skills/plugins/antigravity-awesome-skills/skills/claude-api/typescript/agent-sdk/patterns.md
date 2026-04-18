@@ -155,3 +155,9 @@ Always provide specific line numbers and suggestions for improvement.`,
   if ("result" in message) console.log(message.result);
 }
 ```
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

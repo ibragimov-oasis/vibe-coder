@@ -87,3 +87,9 @@ Her gruptan sonra:
 - Build başarılı
 - Regresyon yok
 - Bundle boyutu azaldı
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

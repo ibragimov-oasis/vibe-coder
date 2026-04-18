@@ -46,3 +46,9 @@ Use this context when actively implementing features or writing code.
 ## Invocation
 
 Use `#dev-mode` to activate this context when starting development work.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

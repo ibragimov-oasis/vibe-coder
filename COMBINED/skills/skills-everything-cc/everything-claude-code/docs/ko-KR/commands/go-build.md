@@ -185,3 +185,9 @@ Build 상태: PASS: 성공
 
 - 에이전트: `agents/go-build-resolver.md`
 - 스킬: `skills/golang-patterns/`
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

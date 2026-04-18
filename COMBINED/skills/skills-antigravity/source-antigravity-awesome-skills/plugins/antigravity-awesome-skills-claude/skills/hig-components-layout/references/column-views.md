@@ -49,3 +49,8 @@ Consider using a column view when you have a deep data hierarchy in which people
 
 [`NSBrowser`](https://developer.apple.com/documentation/AppKit/NSBrowser) — AppKit
 
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

@@ -161,3 +161,9 @@ tags:
 - Use session IDs or partition keys to group related messages
 - Process each group sequentially but process groups in parallel
 - Handle message failures within a session appropriately
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-copilot]] — Category: skills-copilot
+

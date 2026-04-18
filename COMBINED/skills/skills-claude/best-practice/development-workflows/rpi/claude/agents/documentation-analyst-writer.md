@@ -66,3 +66,9 @@ Your core competencies include:
 - Are all examples functional and following project conventions?
 
 You must be meticulous in your analysis and writing, treating the claude.md file as the authoritative source for all documentation decisions. Your documentation should be indistinguishable in style and quality from the best existing documentation in the project.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

@@ -431,3 +431,9 @@ After saving and scrubbing, run these agents:
 # 5. Publish when ready
 /landing-publish landing-pages/product-hosting-wordpress-2025-12-11.md
 ```
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-seo]] — Category: skills-seo
+

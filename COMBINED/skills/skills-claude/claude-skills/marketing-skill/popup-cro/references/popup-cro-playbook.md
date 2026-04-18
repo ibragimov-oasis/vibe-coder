@@ -266,3 +266,9 @@ tags:
 - Click-triggered: Higher (10%+, self-selected)
 
 ---
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

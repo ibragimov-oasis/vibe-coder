@@ -109,3 +109,9 @@ For detailed Playwright patterns, Page Object Model examples, configuration temp
 ---
 
 **Remember**: E2E tests are your last line of defense before production. They catch integration issues that unit tests miss. Invest in stability, speed, and coverage.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

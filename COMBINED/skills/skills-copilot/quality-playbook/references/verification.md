@@ -119,3 +119,9 @@ Use this as a final sign-off:
 - [ ] Integration test quality gates were written from a Field Reference Table (not memory)
 - [ ] Integration tests have specific pass criteria
 - [ ] Spec audit prompt is copy-pasteable and uses `[Req: tier — source]` tag format
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-copilot]] — Category: skills-copilot
+

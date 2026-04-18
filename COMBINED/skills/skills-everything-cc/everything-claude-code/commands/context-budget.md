@@ -31,3 +31,9 @@ Run the **context-budget** skill (`skills/context-budget/SKILL.md`) with the fol
 4. Output the formatted Context Budget Report to the user
 
 The skill handles all scanning logic, token estimation, issue detection, and report formatting.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

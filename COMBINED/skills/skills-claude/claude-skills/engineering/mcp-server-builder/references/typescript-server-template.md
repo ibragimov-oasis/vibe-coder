@@ -24,3 +24,9 @@ server.tool(
 
 server.run();
 ```
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

@@ -188,3 +188,9 @@ Be thorough and specific. Include version numbers, file paths, and line referenc
 1. [Claude Code Settings Documentation](https://code.claude.com/docs/en/settings) — Official settings reference
 2. [CLI Reference](https://code.claude.com/docs/en/cli-reference) — CLI flags including settings overrides
 3. [Changelog](https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md) — Claude Code release history
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

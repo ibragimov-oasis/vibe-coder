@@ -532,3 +532,9 @@ Disputing all detention charges and demanding carriers "prove" every minute. Thi
 - Days 20-30: Carrier settlement negotiations for existing backlog
 - Days 30-60: Prospective detention management program implemented
 - Days 60-180: Monitor dwell time improvements and detention trend (target: 50% reduction in 6 months)
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

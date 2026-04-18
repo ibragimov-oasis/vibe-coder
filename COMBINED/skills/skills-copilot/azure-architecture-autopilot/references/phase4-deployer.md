@@ -323,3 +323,9 @@ Always return to Phase 1 and update the architecture first.
 - Jump directly to Bicep generation without updating the architecture diagram when a change is requested after deployment
 - Ignore the existing deployment state and create new resources in isolation
 - Proceed without confirming with the user whether to add to the existing architecture
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-copilot]] — Category: skills-copilot
+

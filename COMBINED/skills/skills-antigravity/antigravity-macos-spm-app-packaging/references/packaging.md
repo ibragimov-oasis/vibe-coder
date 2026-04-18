@@ -22,3 +22,9 @@ Use `ARCHES="arm64 x86_64"` with `swift build` to produce universal binaries.
 - `APP_IDENTITY`: Codesigning identity name for release builds.
 - `MACOS_MIN_VERSION`: Minimum macOS version for Info.plist.
 - `MENU_BAR_APP`: Set to `1` to add `LSUIElement` to Info.plist.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

@@ -92,5 +92,10 @@ Consider using date and timer components in complications. For design guidance, 
 
 Date| Changes  
 ---|---  
-June 5, 2023| Updated guidance to reflect changes in watchOS 10.  
-  
+June 5, 2023| Updated guidance to reflect changes in watchOS 10.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

@@ -156,5 +156,10 @@ Keyboard players appreciate using keyboard bindings to speed up their interactio
 Date| Changes  
 ---|---  
 June 9, 2025| Updated touch control best practices, updated game controller mapping for UI, and added guidance for spatial game controller support in visionOS.  
-June 10, 2024| Added guidance for supporting touch controls and changed title from Game controllers.  
-  
+June 10, 2024| Added guidance for supporting touch controls and changed title from Game controllers.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

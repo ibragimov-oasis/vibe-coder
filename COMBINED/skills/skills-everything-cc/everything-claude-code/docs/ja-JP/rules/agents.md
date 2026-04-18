@@ -54,3 +54,9 @@ tags:
 - セキュリティエキスパート
 - 一貫性レビュー担当
 - 冗長性チェック担当
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

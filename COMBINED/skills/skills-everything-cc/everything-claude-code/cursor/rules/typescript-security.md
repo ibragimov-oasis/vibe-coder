@@ -28,3 +28,9 @@ if (!apiKey) {
 ## Agent Support
 
 - Use **security-reviewer** skill for comprehensive security audits
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

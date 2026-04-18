@@ -659,3 +659,9 @@ request.onsuccess = () => console.log(request.result);
 - [MDN DOM Reference](https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model)
 - [MDN Web APIs](https://developer.mozilla.org/en-US/docs/Web/API)
 - [JavaScript.info DOM](https://javascript.info/document)
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-copilot]] — Category: skills-copilot
+

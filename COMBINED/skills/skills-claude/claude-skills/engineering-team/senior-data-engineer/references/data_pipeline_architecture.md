@@ -1105,3 +1105,9 @@ for config in configs['pipelines']:
     dag_id = f"etl_{config['source']}_{config['destination']}"
     globals()[dag_id] = create_etl_dag(config)
 ```
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

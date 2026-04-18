@@ -64,3 +64,9 @@ curl -fsSL https://cli.inference.sh | sh
 - [CLI Setup](https://inference.sh/docs/extend/cli-setup) - Complete CLI installation guide
 - [API Authentication](https://inference.sh/docs/api/authentication) - API key management
 - [Secrets](https://inference.sh/docs/secrets/overview) - Managing credentials
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-hermes]] — Category: skills-hermes
+

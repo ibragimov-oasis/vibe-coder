@@ -751,3 +751,9 @@ class PixelBlendStack:
             result = blend_canvas(result, canvas, mode, opacity)
         return result
 ```
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-hermes]] — Category: skills-hermes
+

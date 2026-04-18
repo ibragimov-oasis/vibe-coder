@@ -104,3 +104,9 @@ tags:
 - Asset Library: [Link]
 - Analytics Dashboard: [Link]
 - Team Calendar: [Link]
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

@@ -303,5 +303,10 @@ When necessary, the system hides menu bar extras to make room for app menus. Sim
 
 Date| Changes  
 ---|---  
-June 9, 2025| Added guidance for the menu bar in iPadOS.  
-  
+June 9, 2025| Added guidance for the menu bar in iPadOS.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

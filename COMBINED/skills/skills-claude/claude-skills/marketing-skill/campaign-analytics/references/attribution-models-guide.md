@@ -290,3 +290,9 @@ When models disagree significantly on a channel's value:
 - Facebook/Meta attribution window settings and their impact
 - HubSpot multi-touch revenue attribution methodology
 - Bizible/Marketo B2B attribution best practices
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

@@ -37,3 +37,9 @@ tags:
 ---
 
 _升级: `git pull origin main` 或 `npx antigravity-awesome-skills`。_
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

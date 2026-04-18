@@ -16,3 +16,9 @@ Think really hard about the code, the tests, and the refactoring (if applicable)
 Will you come up with test cases and let me review before you write the tests?
 
 Feel free to ask clarifying questions.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-awesome-claude]] — Category: skills-awesome-claude
+

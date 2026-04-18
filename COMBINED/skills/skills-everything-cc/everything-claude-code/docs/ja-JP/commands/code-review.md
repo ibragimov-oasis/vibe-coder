@@ -48,3 +48,9 @@ tags:
 4. 重大または高優先度の問題が見つかった場合、コミットをブロック
 
 セキュリティ脆弱性を含むコードは絶対に許可しないこと！
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

@@ -393,3 +393,9 @@ The synergy between CTO and CEO skills creates a powerful leadership toolkit tha
 - [CEO Advisor Skill](computer:///mnt/user-data/outputs/ceo-advisor.zip)
 
 Deploy these skills to transform your leadership effectiveness and drive organizational excellence.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

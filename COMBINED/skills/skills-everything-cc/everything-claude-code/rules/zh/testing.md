@@ -34,3 +34,9 @@ tags:
 ## 代理支持
 
 - **tdd-guide** - 主动用于新功能，强制先写测试
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

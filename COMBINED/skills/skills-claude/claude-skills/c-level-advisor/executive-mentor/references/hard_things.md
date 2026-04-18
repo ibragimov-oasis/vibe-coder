@@ -261,3 +261,9 @@ The customers who use it. They trusted you with their workflow. Give them:
 The team that built it feels the loss personally. Acknowledge it. "This product represents real work and real care. Shutting it down is not a judgment of the team — it's a judgment about fit with where the company is going."
 
 If team members are being reassigned, not let go — make that clear immediately. The fear of job loss will dominate every other concern until you address it.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

@@ -489,3 +489,9 @@ UserPool:
         - Name: verified_email
           Priority: 1
 ```
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

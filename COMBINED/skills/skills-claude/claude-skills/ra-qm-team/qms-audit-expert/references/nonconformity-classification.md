@@ -226,3 +226,9 @@ Closure Approved By: [Name, Role, Date]
 | Pending Verification | Action complete, awaiting verification |
 | Closed | Effectiveness verified |
 | Escalated | Overdue or ineffective, requires management attention |
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

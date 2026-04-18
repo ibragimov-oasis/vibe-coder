@@ -76,3 +76,9 @@ src/utils/validation.ts      32%     82%
 - 코드베이스 전반에서 사용되는 유틸리티 함수
 - API 엔드포인트 핸들러 (요청 → 응답 흐름)
 - 엣지 케이스: null, undefined, 빈 문자열, 빈 배열, 0, 음수
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

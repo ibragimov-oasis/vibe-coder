@@ -57,3 +57,9 @@ function UpdateButton() {
 ```
 
 Reference: [https://swr.vercel.app](https://swr.vercel.app)
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

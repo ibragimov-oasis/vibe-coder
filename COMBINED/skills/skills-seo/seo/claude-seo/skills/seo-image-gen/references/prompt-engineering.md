@@ -416,3 +416,9 @@ Layer 2 (output filter) analyzes the generated image, not just the prompt.
 Even well-phrased prompts can be blocked if the model's interpretation triggers
 the output filter. When this happens, try shifting the visual concept further
 from the trigger rather than just changing words.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-seo]] — Category: skills-seo
+

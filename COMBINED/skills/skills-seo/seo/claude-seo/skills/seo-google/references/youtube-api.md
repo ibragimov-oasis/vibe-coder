@@ -54,3 +54,9 @@ Default: **10,000 units/day** (free). This allows:
 3. Click Enable
 
 No billing required. The API key you already have for PSI/CrUX works.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-seo]] — Category: skills-seo
+

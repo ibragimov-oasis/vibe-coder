@@ -112,3 +112,8 @@ Use iCloud synchronization to provide access to the Keychain, letting people aut
 
 [![](https://devimages-cdn.apple.com/wwdc-services/images/C03E6E6D-A32A-41D0-9E50-C3C6059820AA/9D0EBBBA-766E-4306-A14C-39339DD76D58/9271_wide_250x141_1x.jpg) What’s new in device management ](https://developer.apple.com/videos/play/wwdc2024/10143)
 
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

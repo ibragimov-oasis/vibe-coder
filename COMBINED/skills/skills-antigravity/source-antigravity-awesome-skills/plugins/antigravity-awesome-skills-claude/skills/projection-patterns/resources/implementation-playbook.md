@@ -506,3 +506,9 @@ class CustomerActivityProjection(Projection):
 
 - [CQRS Pattern](https://docs.microsoft.com/en-us/azure/architecture/patterns/cqrs)
 - [Projection Building Blocks](https://zimarev.com/blog/event-sourcing/projections/)
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

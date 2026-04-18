@@ -57,3 +57,9 @@ The prompt requires the model to:
 1. Define what excellence looks like for the given task
 2. Grade its own initial output against that definition
 3. Iterate until the self-defined quality bar is met
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-design]] — Category: skills-design
+

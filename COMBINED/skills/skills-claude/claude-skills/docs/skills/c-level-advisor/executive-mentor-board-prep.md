@@ -169,3 +169,9 @@ Within 24 hours:
 - Schedule follow-up with any director who seemed unsatisfied
 
 The next board prep starts now.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

@@ -89,3 +89,9 @@ After each batch:
 - Build succeeds
 - No regressions
 - Bundle size reduced
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

@@ -1048,3 +1048,9 @@ Update after every task completion.
   "timestamp": "ISO"
 }
 ```
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

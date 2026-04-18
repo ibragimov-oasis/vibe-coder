@@ -162,3 +162,9 @@ test.describe('API Error Responses', () => {
 | 429 Rate Limit | Threshold exceeded → 429 |
 | 500 Server Error | Mocked 500 → error body present |
 | Consistent shape | All errors have error/message field |
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

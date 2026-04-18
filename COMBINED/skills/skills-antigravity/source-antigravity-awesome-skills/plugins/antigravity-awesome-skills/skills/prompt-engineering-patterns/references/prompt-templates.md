@@ -475,3 +475,9 @@ Email:"""
 - Minimize string concatenation in loops
 - Use efficient string formatting (f-strings, .format())
 - Profile template rendering for bottlenecks
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

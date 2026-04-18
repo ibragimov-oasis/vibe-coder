@@ -53,3 +53,9 @@ Real Chrome user experience data from the Chrome UX Report.
 *CrUX data updated daily ~04:00 UTC. 28-day rolling average.*
 *INP replaced FID as the responsiveness Core Web Vital on March 12, 2024.*
 *Generated {timestamp}.*
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-seo]] — Category: skills-seo
+

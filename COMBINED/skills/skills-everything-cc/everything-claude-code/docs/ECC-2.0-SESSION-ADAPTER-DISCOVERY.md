@@ -327,3 +327,9 @@ The shortest path to ECC 2.0 is:
 2. wrap it in a canonical session adapter contract
 3. add one non-tmux adapter
 4. only then start building operator panels on top
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

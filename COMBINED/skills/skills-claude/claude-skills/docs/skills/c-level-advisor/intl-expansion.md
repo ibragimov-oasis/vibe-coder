@@ -111,3 +111,9 @@ international expansion, market entry, localization, go-to-market, GTM, regional
 ## Resources
 - `references/market-entry-playbook.md` — detailed entry playbook by market type
 - `references/regional-guide.md` — specific considerations for key regions (EU, US, APAC, LATAM)
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

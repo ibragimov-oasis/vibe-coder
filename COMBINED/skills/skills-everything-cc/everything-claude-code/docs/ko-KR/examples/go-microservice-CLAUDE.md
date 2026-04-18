@@ -272,3 +272,9 @@ staticcheck ./...
 - `main`에서 feature 브랜치 생성, PR 필수
 - CI: `go vet`, `staticcheck`, `go test -race`, `golangci-lint`
 - 배포: CI에서 Docker 이미지 빌드, Kubernetes에 배포
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

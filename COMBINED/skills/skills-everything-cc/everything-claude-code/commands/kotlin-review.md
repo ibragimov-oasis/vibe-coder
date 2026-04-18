@@ -142,3 +142,9 @@ Recommendation: FAIL: Block merge until CRITICAL issue is fixed
 
 - Agent: `agents/kotlin-reviewer.md`
 - Skills: `skills/kotlin-patterns/`, `skills/kotlin-testing/`
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

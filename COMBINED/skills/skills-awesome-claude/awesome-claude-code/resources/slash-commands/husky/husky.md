@@ -96,3 +96,9 @@ When a step requires code changes to fix always do following steps after you are
 1. Run `pnpm run lint` to make sure files are formatted
 2. ask the the user if they want to add files to staging first
 3. suggest a commit message but don't actually do the commit let the user do it themselves
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-awesome-claude]] — Category: skills-awesome-claude
+

@@ -145,3 +145,9 @@ fn test_defensive_pattern_name() {
 You should find at least 2–3 defensive patterns per source file in the core logic modules. If you find fewer, read function bodies more carefully — not just signatures and comments.
 
 For a medium-sized project (5–15 source files), expect to find 15–30 defensive patterns total. Each one should produce at least one boundary test.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-copilot]] — Category: skills-copilot
+

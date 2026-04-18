@@ -88,3 +88,9 @@ tags:
 * **一次只删除一个** — 原子化的变更便于回滚
 * **如果不确定就跳过** — 保留死代码总比破坏生产环境好
 * **清理时不要重构** — 分离关注点（先清理，后重构）
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

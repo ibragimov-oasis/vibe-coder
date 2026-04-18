@@ -96,3 +96,9 @@ cargo build --release 2>&1 | head -50
 - **Bloke Et**: CRITICAL veya HIGH sorunlar bulundu
 
 Detaylı Rust kod örnekleri ve anti-pattern'ler için, `skill: rust-patterns`'a bakın.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

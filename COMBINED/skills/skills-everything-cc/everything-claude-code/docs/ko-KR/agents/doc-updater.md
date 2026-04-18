@@ -109,3 +109,9 @@ docs/CODEMAPS/
 ---
 
 **기억하세요**: 현실과 맞지 않는 문서는 문서가 없는 것보다 나쁩니다. 항상 소스에서 생성하세요.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

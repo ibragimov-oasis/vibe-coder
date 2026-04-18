@@ -250,3 +250,9 @@ Project Management:
 ---
 
 **Ready to transform your marketing operations?** Start with the content-creator skill and build from there. Each skill compounds the value of the others, creating a powerful, AI-enhanced marketing machine.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

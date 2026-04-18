@@ -64,3 +64,9 @@ system_audios = session.get_rtstream("system_audio")
 | 脚本 | 描述 |
 |--------|-------------|
 | `scripts/ws_listener.py` | 用于实时 AI 结果的 WebSocket 事件监听器 |
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

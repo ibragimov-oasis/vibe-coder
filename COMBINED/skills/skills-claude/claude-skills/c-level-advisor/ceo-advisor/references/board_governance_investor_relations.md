@@ -604,3 +604,9 @@ Corporate Secretary
 - [ ] Succession planning
 - [ ] ESG disclosure
 - [ ] Virtual meeting details
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

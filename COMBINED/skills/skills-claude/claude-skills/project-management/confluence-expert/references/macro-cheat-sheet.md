@@ -149,3 +149,9 @@ Quick reference for the most commonly used Confluence macros. Each entry include
 | Visualize data | Chart |
 | Code documentation | Code Block |
 | Important callouts | Info/Warning/Note/Tip panels |
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

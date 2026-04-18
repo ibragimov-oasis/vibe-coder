@@ -635,3 +635,9 @@ Remember these core principles:
 **Build World-Class Teams! 🎯**
 
 These skills are your foundation for engineering and AI/ML excellence. Use them to build, grow, and scale exceptional teams that deliver outstanding products.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

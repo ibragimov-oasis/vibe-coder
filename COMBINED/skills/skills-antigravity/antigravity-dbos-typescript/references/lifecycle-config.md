@@ -48,3 +48,9 @@ main().catch(console.log);
 ```
 
 Reference: [DBOS Lifecycle](https://docs.dbos.dev/typescript/reference/dbos-class)
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

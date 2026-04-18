@@ -95,3 +95,9 @@ Tell the user:
 - Each working in an isolated worktree
 - Monitor with `/hub:status`
 - Evaluate when done with `/hub:eval`
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

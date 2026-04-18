@@ -450,3 +450,9 @@ Success factors include:
 - Performance monitoring
 
 The patterns can be combined and customized to meet specific needs, but maintaining clarity and avoiding unnecessary complexity should always be prioritized.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

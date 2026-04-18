@@ -730,3 +730,9 @@ To verify everything worked:
 ---
 *Next Status Report: [Date]*
 ```
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

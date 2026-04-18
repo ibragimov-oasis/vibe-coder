@@ -81,3 +81,9 @@ Provide a structured report with:
 - Top 10 prioritized actions (Critical > High > Medium > Low)
 - Cost report (DataForSEO credits consumed, if applicable)
 - Limitations disclaimer (what could not be assessed at current tier)
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-seo]] — Category: skills-seo
+

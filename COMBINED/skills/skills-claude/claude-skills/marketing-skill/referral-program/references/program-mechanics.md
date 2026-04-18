@@ -217,3 +217,9 @@ Referral fraud happens when users game the system (fake accounts, self-referrals
 
 ### For Product-Embedded Viral Loops
 Build these in-house. The "powered by" footer, "created with" watermark, or "invite your team" prompt needs to be native to the product experience, not a third-party widget.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

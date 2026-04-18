@@ -484,3 +484,9 @@ class OrderRepository:
 - **Repository Leakage**: Exposing ORM objects
 - **Missing Abstractions**: Concrete dependencies in core
 - **Over-Engineering**: Clean architecture for simple CRUD
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

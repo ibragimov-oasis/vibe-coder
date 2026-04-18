@@ -99,3 +99,9 @@ Adapt the paths and model call to your environment.
   - consider `overflowBehavior: "error"` if you want a clear user-facing failure instead of silently dropping extra skills;
   - keep path validation so manifest entries cannot escape your configured skills root;
   - add token‑counting / truncation logic if you want a stricter safety budget.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

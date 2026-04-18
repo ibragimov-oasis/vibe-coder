@@ -179,3 +179,9 @@ test.describe('GraphQL API', () => {
 | Invalid query | errors[] defined in response |
 | Unauthenticated | UNAUTHENTICATED extension code |
 | Subscription | Real-time message via WebSocket |
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

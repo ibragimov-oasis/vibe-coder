@@ -406,3 +406,9 @@ Maintainers regenerate and canonicalize those files on `main` after merge. If yo
 - Explore `@skill-creator` to make your own skills
 
 **Still confused?** [Open a discussion](https://github.com/sickn33/antigravity-awesome-skills/discussions) and we'll help you out! 🙌
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

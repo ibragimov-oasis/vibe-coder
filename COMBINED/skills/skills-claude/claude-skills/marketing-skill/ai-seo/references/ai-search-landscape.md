@@ -196,3 +196,9 @@ Things that are widely assumed but not confirmed:
 - **Real-time citation tracking**: No platform offers publishers a dashboard showing when they're cited and for which queries (Google Search Console for AI Overviews is the closest, and it's limited)
 
 Plan your AI SEO strategy for influence, not for guaranteed outcomes. Maximize your signal quality, then track and iterate.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

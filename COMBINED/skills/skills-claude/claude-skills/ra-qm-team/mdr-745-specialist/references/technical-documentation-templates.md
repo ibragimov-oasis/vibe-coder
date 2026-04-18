@@ -360,3 +360,9 @@ Before Notified Body submission:
 - [ ] Labeling and IFU finalized
 - [ ] Declaration of conformity prepared
 - [ ] **Validation:** Internal review completed
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

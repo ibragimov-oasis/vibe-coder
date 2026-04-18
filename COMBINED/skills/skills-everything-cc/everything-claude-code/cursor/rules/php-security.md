@@ -26,3 +26,9 @@ tags:
 - Use `password_hash()` / `password_verify()` for password storage.
 - Regenerate session identifiers after authentication and privilege changes.
 - Enforce CSRF protection on state-changing web requests.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

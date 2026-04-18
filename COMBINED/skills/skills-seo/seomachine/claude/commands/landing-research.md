@@ -341,3 +341,9 @@ Focus on:
 ```
 /landing-audit [existing-page-url]
 ```
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-seo]] — Category: skills-seo
+

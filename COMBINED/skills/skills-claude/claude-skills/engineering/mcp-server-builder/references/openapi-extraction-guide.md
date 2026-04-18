@@ -39,3 +39,9 @@ Avoid:
 - `inputSchema.type` must be `object`.
 - Every `required` key must exist in `properties`.
 - Include concise descriptions on high-risk fields (IDs, dates, money, destructive flags).
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

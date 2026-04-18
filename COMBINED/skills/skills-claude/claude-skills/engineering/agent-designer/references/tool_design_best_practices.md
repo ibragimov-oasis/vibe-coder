@@ -475,3 +475,9 @@ Output:
 ## Conclusion
 
 Well-designed tools are the foundation of effective multi-agent systems. They should be reliable, secure, performant, and easy to use. Following these best practices will result in tools that agents can effectively compose to solve complex problems while maintaining system reliability and security.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

@@ -1644,3 +1644,9 @@ async def send_whatsapp_request(payload: dict) -> dict:
 
         return response.json()
 ```
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

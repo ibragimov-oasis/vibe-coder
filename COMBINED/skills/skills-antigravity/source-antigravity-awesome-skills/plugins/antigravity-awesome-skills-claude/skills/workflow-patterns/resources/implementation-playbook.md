@@ -626,3 +626,9 @@ Keep commits atomic:
 10. **Clean state**: Each commit should leave code in working state
 11. **Fast feedback**: Run relevant tests frequently during development
 12. **Clear blockers**: Address blockers promptly, don't work around them
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

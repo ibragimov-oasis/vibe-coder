@@ -5553,3 +5553,9 @@ utils.callbacks.comet_.SaveAxolotlConfigtoCometCallback(axolotl_config_path)
 ```
 
 ---
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-hermes]] — Category: skills-hermes
+

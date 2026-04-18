@@ -106,3 +106,9 @@ const apiKey = process.env.API_KEY;  // ✓ 正確
 - 驗證快取備援行為
 
 根據您專案的 `CLAUDE.md` 或技能檔案進行自訂。
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

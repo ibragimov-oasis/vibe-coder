@@ -75,3 +75,9 @@ Best days: Tuesday-Thursday for B2B. Saturday-Sunday for consumer/lifestyle.
 - Community testing and experimentation (ongoing)
 - Creator program documentation
 - Third-party analytics platforms (Typefully, Hypefury, Shield)
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

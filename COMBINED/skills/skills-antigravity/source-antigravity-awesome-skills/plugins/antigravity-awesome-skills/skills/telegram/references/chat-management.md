@@ -308,3 +308,9 @@ await bot.edit_forum_topic(
 # Deletar topic
 await bot.delete_forum_topic(chat_id, topic.message_thread_id)
 ```
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

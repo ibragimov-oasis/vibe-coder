@@ -142,3 +142,9 @@ Custom presets override SEO defaults when specified.
 2. If user mentions a brand preset name, load from `~/.banana/presets/`
 3. Brand presets override SEO presets for colors, mood, and typography
 4. SEO presets always provide aspect ratio and resolution defaults
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-seo]] — Category: skills-seo
+

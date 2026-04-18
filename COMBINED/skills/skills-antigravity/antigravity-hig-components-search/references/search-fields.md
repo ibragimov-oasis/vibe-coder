@@ -189,5 +189,10 @@ tags:
 ---|---  
 June 9, 2025| Updated guidance for search placement in iOS, consolidated iPadOS and macOS platform considerations, and added guidance for tokens.  
 September 12, 2023| Combined guidance common to all platforms.  
-June 5, 2023| Added guidance for using search fields in watchOS.  
-  
+June 5, 2023| Added guidance for using search fields in watchOS.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

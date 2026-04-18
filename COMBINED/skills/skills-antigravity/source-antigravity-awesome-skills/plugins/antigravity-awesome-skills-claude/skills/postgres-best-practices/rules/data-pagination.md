@@ -51,3 +51,9 @@ limit 20;
 ```
 
 Reference: [Pagination](https://supabase.com/docs/guides/database/pagination)
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

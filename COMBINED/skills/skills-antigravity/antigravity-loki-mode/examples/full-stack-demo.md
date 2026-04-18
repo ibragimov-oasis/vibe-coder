@@ -128,3 +128,9 @@ CREATE TABLE bookmark_tags (
 ---
 
 **Purpose:** Comprehensive test of Loki Mode's full capabilities including frontend, backend, database, and code review agents. Expect ~30-60 minutes for full execution.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

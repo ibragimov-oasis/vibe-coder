@@ -108,3 +108,9 @@ tags:
 ---
 
 **哲学**: エージェント優先設計、並列実行、行動前に計画、コード前にテスト、常にセキュリティ。
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

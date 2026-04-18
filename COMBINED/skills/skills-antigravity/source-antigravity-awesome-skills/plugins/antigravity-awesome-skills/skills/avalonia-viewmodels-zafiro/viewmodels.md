@@ -73,3 +73,9 @@ public class MyViewModel : ReactiveObject, IDisposable
 
 > [!TIP]
 > Use `.DisposeWith(disposables)` on any observable subscription or command to ensure proper cleanup.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

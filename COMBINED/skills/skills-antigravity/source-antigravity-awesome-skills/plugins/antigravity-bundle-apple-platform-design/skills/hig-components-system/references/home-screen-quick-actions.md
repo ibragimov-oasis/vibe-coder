@@ -47,3 +47,8 @@ If you design your own interface icon, use the Quick Action Icon Template that�
 
 [Add Home Screen quick actions](https://developer.apple.com/documentation/UIKit/add-home-screen-quick-actions) — UIKit
 
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

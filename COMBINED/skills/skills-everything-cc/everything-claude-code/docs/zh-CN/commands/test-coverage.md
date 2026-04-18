@@ -74,3 +74,9 @@ src/utils/validation.ts 32%    82%
 * 整个代码库中使用的工具函数
 * API 端点处理程序（请求 → 响应流程）
 * 边界情况：null、undefined、空字符串、空数组、零、负数
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

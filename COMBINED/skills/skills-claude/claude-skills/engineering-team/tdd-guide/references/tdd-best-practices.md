@@ -133,3 +133,9 @@ Guidelines for effective test-driven development workflows.
 3. Review medium-priority gaps (P1)
 4. Document accepted low-priority gaps (P2)
 5. Set threshold gates in CI pipeline
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

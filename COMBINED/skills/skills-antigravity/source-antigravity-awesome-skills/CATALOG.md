@@ -1395,3 +1395,9 @@ Total skills: 1340
 | `zendesk-automation` | Automate Zendesk tasks via Rube MCP (Composio): tickets, users, organizations, replies. Always search tools first for current schemas. | zendesk | zendesk, automation, automate, tasks, via, rube, mcp, composio, tickets, users, organizations, replies |
 | `zoho-crm-automation` | Automate Zoho CRM tasks via Rube MCP (Composio): create/update records, search contacts, manage leads, and convert leads. Always search tools first for curre... | zoho, crm | zoho, crm, automation, automate, tasks, via, rube, mcp, composio, update, records, search |
 | `zoom-automation` | Automate Zoom meeting creation, management, recordings, webinars, and participant tracking via Rube MCP (Composio). Always search tools first for current sch... | zoom | zoom, automation, automate, meeting, creation, recordings, webinars, participant, tracking, via, rube, mcp |
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

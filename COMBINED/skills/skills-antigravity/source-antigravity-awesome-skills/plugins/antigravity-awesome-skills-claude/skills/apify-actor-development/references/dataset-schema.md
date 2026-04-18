@@ -214,3 +214,9 @@ Then create the dataset schema in `.actor/dataset_schema.json`:
 
 - `label` (string, optional) - Table column header
 - `format` (string, optional) - One of: `text`, `number`, `date`, `link`, `boolean`, `image`, `array`, `object`
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

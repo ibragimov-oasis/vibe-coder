@@ -66,3 +66,9 @@ Provide a structured report with:
 - Brand mention analysis (Wikipedia, Reddit, YouTube, LinkedIn)
 - Top 5 highest-impact changes with effort estimates
 - Platform-specific scores (Google AIO, ChatGPT, Perplexity, Bing Copilot)
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-seo]] — Category: skills-seo
+

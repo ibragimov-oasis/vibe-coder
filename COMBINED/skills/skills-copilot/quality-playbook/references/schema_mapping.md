@@ -144,3 +144,9 @@ Never use values from the "Rejects" column — they test the schema validator, n
 ## When to Skip This Step
 
 If the project has no schema validation layer (data flows directly into processing without type checking), you can skip the mapping and use any mutation values. But most modern projects have some form of validation, so check first.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-copilot]] — Category: skills-copilot
+

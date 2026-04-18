@@ -206,3 +206,9 @@ Use this quick selector before creating a new worktree:
 - If dependency install fails: keep worktree created, mark status and continue manual recovery.
 - If env copy fails: continue with warning and explicit missing file list.
 - If port allocation collides with external service: rerun with adjusted base ports.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

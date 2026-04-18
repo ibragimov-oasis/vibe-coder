@@ -180,3 +180,9 @@ evolved_from:
 
 [Generated content based on clustered instincts]
 ```
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

@@ -116,5 +116,10 @@ tags:
   - artifact/doc
   - source/skills-antigravity
 ---|---  
-August 6, 2024| Added art contrasting the light and dark appearances.  
-  
+August 6, 2024| Added art contrasting the light and dark appearances.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

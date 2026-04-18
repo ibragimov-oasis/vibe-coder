@@ -102,3 +102,9 @@ REPEAT:   下一個功能/情境
 
 並可參考位於以下位置的 `tdd-workflow` 技能：
 `~/COMBINED/workspace-config/claude/skills/tdd-workflow/`
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

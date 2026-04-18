@@ -94,3 +94,9 @@ Any other information:
 - [ ] I have clearly defined the problem and use cases
 - [ ] I have specified what should be automated (Python tools)
 - [ ] I have estimated the value/ROI
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

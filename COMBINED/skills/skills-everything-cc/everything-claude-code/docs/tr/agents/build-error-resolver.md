@@ -116,3 +116,9 @@ npx eslint . --fix
 ---
 
 **Unutmayın**: Hatayı düzeltin, build'in geçtiğini doğrulayın, devam edin. Mükemmellikten çok hız ve hassasiyet.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

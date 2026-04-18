@@ -177,3 +177,9 @@ $ARGUMENTS:
 3. 인증/결제/개인정보 처리에는 **security-reviewer를 사용**하세요
 4. **핸드오프는 간결하게** 유지하세요 - 다음 에이전트에 필요한 것에 집중
 5. 필요한 경우 에이전트 사이에 **검증을 실행**하세요
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

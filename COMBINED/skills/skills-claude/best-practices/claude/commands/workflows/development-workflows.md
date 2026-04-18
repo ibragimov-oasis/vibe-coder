@@ -211,3 +211,9 @@ When executing, edit the `## ⚙️ DEVELOPMENT WORKFLOWS` table in `README.md`:
 8. **Agents, commands, skills are different** — count from their respective directories, don't conflate
 9. **Round stars consistently** — `k` suffix (98k, 10k, 4.1k). Under 1000 show exact
 10. **Compare with previous changelog** — mark items NEW, RECURRING, or RESOLVED
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

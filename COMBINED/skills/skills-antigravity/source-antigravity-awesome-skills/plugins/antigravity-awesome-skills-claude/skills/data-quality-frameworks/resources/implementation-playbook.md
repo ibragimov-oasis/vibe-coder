@@ -578,3 +578,9 @@ if not all(r.passed for r in results.values()):
 - [dbt Testing Documentation](https://docs.getdbt.com/docs/build/tests)
 - [Data Contract Specification](https://datacontract.com/)
 - [Soda Core](https://docs.soda.io/soda-core/overview.html)
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

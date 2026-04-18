@@ -30,3 +30,9 @@ tags:
 ## 输出格式
 
 按文件分组发现的问题，严重性优先
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

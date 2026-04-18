@@ -56,5 +56,10 @@ tags:
 ---|---  
 February 2, 2024| Added guidance on using multiple ornaments.  
 December 5, 2023| Removed a statement about using ornaments to present supplementary items.  
-June 21, 2023| New page.  
-  
+June 21, 2023| New page.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

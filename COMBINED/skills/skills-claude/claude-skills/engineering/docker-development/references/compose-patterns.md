@@ -287,3 +287,9 @@ services:
 | depends_on doesn't wait | No healthcheck condition | Add `condition: service_healthy` |
 | Container OOM killed | No memory limit or limit too low | Set appropriate `mem_limit` |
 | Network connectivity issues | Wrong network or service name | Services communicate by service name within shared network |
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

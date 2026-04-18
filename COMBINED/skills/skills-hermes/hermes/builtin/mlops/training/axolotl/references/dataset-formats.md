@@ -1034,3 +1034,9 @@ Example 1 (json):
 ```
 
 ---
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-hermes]] — Category: skills-hermes
+

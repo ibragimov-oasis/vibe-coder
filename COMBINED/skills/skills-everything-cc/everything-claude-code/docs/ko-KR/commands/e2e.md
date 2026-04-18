@@ -336,3 +336,9 @@ npx playwright codegen http://localhost:3000
 # 보고서 확인
 npx playwright show-report
 ```
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

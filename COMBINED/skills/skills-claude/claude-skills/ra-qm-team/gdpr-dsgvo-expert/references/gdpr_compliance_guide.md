@@ -341,3 +341,9 @@ Current adequate countries/territories:
 - [ ] Portability capability
 - [ ] Objection handling process
 - [ ] Response within deadlines
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

@@ -189,3 +189,9 @@ A single health score snapshot is useful. A health score trend is actionable.
 ---
 
 **Last Updated:** February 2026
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

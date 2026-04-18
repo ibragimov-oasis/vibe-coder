@@ -105,5 +105,10 @@ tags:
 ---|---  
 December 5, 2023| Added guidance on hiding unavailable menu items.  
 June 21, 2023| Updated to include guidance for visionOS.  
-September 14, 2022| Refined guidance on including a submenu and added a guideline on using a context menu to support object creation in an iPadOS app.  
-  
+September 14, 2022| Refined guidance on including a submenu and added a guideline on using a context menu to support object creation in an iPadOS app.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

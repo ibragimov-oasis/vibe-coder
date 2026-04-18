@@ -288,5 +288,10 @@ Minimum width| Minimum height| Minimum margin
 
 Date| Changes  
 ---|---  
-September 14, 2022| Refined guidance on supporting existing accounts, helping people set up a new account, and indicating the current sign-in status. Consolidated guidance into one page.  
-  
+September 14, 2022| Refined guidance on supporting existing accounts, helping people set up a new account, and indicating the current sign-in status. Consolidated guidance into one page.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

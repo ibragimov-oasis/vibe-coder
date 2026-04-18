@@ -273,3 +273,9 @@ Claudeの統合計画での欠落リスクを減らすために、両方のモ�
 3. **信頼ルール** – バックエンドはCodexに従い、フロントエンドはGeminiに従う
 4. 外部モデルは**ファイルシステムへの書き込みアクセスがゼロ**
 5. **SESSION_IDの引き継ぎ** – 計画には最後に`CODEX_SESSION` / `GEMINI_SESSION`を含める必要があります(`/ccg:execute resume <SESSION_ID>`使用のため)
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

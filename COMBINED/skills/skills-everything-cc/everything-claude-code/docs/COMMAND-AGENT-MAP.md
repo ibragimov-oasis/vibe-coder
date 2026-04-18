@@ -72,3 +72,9 @@ This document lists each slash command and the primary agent(s) or skills it inv
 - **Discoverability:** Find which command triggers which agent (e.g. “use `/code-review` for code-reviewer”).
 - **Refactoring:** When renaming or removing an agent, search this doc and the command files for references.
 - **CI/docs:** The catalog script (`node scripts/ci/catalog.js`) outputs agent/command/skill counts; this map complements it with command–agent relationships.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

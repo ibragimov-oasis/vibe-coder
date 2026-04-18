@@ -112,3 +112,9 @@ Request a quota increase: [Indexing API Quota Increase Form](https://developers.
 3. Track daily quota usage -- the 200/day limit resets at midnight Pacific Time
 4. For large-scale indexing, use XML sitemaps + Search Console instead
 5. Batch requests count individually against the daily quota (100 batch = 100 quota)
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-seo]] — Category: skills-seo
+

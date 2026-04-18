@@ -175,3 +175,9 @@ The agent will stop and report if:
 
 - Agent: `agents/cpp-build-resolver.md`
 - Skill: `skills/cpp-coding-standards/`
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

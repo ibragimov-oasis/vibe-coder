@@ -189,3 +189,9 @@ Türkçe konuşurken yaygın kullanılan telaffuzlar:
 ## Güncelleme Geçmişi
 
 - 2026-03-22: İlk sürüm oluşturuldu, tüm çeviri dosyalarında kullanılan terimler derlendi
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

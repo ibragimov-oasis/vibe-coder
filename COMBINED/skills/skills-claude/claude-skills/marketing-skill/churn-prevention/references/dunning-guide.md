@@ -281,3 +281,9 @@ For teams who want plug-and-play dunning without building it:
 | **Chargebee Smart Dunning** | Already on Chargebee | Built-in |
 
 **When to use a third-party tool:** If you're <$500k MRR and don't have engineering bandwidth to build retry logic + email sequences, a tool pays for itself quickly. Above that threshold, build it in-house for more control.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

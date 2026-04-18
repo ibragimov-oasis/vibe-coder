@@ -175,3 +175,9 @@ Full specifications for each major ad platform. Use this when generating or vali
 | Young consumer audience, viral potential | TikTok | Organic-native feel, high engagement |
 | Real-time relevance, news-adjacent | Twitter/X | Timely content performs |
 | Retargeting across the web | Google Display | Broad reach, cheap retargeting |
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

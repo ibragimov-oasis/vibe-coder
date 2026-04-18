@@ -174,3 +174,9 @@ tags:
  </tbody>
 </table>
 ```
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-copilot]] — Category: skills-copilot
+

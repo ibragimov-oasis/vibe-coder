@@ -437,3 +437,9 @@ jobs:
 这个发布流程确保Antigravity Awesome Skills的质量、稳定性和社区满意度。通过遵循这些指导方针，我们能够为用户提供可靠、高质量的技能生态。
 
 如果您有任何问题或建议，请随时联系维护团队。🚀
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

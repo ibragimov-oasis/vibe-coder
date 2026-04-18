@@ -66,3 +66,9 @@ node tests/hooks/hooks.test.js
 * 钩子：带有匹配器和钩子数组的 JSON
 
 文件命名：小写字母并用连字符连接（例如 `python-reviewer.md`, `tdd-workflow.md`）
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

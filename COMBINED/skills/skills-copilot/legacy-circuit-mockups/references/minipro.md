@@ -216,3 +216,9 @@ minipro -p GAL22V10 -w logic.jed
 * <https://retrocomputingforum.com/>
 
 ---
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-copilot]] — Category: skills-copilot
+

@@ -332,3 +332,9 @@ PASS: TDD 会话完成！
 - `agents/tdd-guide.md`
 - `skills/tdd-workflow/SKILL.md`
 ```
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

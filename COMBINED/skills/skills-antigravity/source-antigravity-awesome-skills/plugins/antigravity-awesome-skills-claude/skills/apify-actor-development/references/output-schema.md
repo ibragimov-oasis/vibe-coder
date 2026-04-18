@@ -54,3 +54,9 @@ The Actor output schema builds upon the schemas for the dataset and key-value st
 - `run` (object) - Contains information about the run same as it is returned from the `GET Run` API endpoint
 - `run.defaultDatasetId` (string) - ID of the default dataset
 - `run.defaultKeyValueStoreId` (string) - ID of the default key-value store
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

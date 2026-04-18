@@ -212,3 +212,9 @@ import static org.assertj.core.api.Assertions.catchThrowable;
 3. **Rich API**: Many built-in assertions
 4. **Extensible**: Custom assertions for your domain
 5. **Better Errors**: Clear failure messages
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-copilot]] — Category: skills-copilot
+

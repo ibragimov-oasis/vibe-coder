@@ -62,3 +62,9 @@ main().catch(console.log);
 ```
 
 Reference: [Integrating DBOS](https://docs.dbos.dev/typescript/integrating-dbos)
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

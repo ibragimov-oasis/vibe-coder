@@ -299,3 +299,9 @@ result = "".join(str(item) for item in items)
 | 型ユニオン(&#96;x &#124; None&#96;) | 3.10+ |
 
 プロジェクトの`pyproject.toml`または`setup.py`が正しい最小Pythonバージョンを指定していることを確認してください。
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

@@ -464,3 +464,9 @@ Every process should have exactly one owner responsible for keeping it current.
 ---
 
 *Frameworks synthesized from: Eliyahu Goldratt's The Goal and Critical Chain; Womack and Jones' Lean Thinking; Prosci ADKAR model; Scaled Agile Framework (SAFe) process guidance; operational playbooks from Stripe, Airbnb, and Shopify operations teams.*
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

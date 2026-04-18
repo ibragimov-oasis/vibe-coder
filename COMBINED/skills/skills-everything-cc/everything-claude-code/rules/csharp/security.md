@@ -60,3 +60,9 @@ await connection.QueryAsync<Order>(sql, new { customerId });
 ## References
 
 See skill: `security-review` for broader application security review checklists.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

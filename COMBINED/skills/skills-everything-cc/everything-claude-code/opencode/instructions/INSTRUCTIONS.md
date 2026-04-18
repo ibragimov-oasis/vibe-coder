@@ -342,3 +342,9 @@ You are successful when:
 - Code is readable and maintainable
 - Performance is acceptable
 - User requirements are met
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

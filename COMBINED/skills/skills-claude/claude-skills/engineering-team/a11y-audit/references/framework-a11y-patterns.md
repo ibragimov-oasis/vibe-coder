@@ -666,3 +666,9 @@ import { A11yModule } from '@angular/cdk/a11y';
   </tbody>
 </table>
 ```
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

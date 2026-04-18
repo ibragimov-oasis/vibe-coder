@@ -30,3 +30,9 @@ tags:
 - Index stream id + version.
 - Index global position.
 - Add snapshot policy for long-lived aggregates.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-design]] — Category: skills-design
+

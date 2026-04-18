@@ -142,5 +142,10 @@ tags:
   - source/skills-antigravity
 ---|---  
 March 29, 2024| Emphasized the importance of keeping interactive elements from overlapping each other.  
-June 21, 2023| New page.  
-  
+June 21, 2023| New page.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

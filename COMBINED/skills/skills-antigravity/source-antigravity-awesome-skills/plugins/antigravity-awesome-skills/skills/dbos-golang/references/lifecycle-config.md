@@ -71,3 +71,9 @@ Config fields:
 - `EnablePatching`: Enable code patching system (default: `false`)
 
 Reference: [Integrating DBOS](https://docs.dbos.dev/golang/integrating-dbos)
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

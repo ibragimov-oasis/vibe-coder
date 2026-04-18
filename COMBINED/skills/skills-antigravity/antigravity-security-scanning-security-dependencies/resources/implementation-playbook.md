@@ -549,3 +549,9 @@ python dependency_scanner.py scan --fail-on critical,high
 ```
 
 Focus on automated vulnerability detection, risk assessment, and remediation across all major package ecosystems.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

@@ -1533,3 +1533,9 @@ Below is the entire game in a single, self-contained HTML file. This is the fina
 | `drawScore()` | Renders the score text in the top-left corner |
 | `drawLives()` | Renders the lives text in the top-right corner |
 | `draw()` | Main game loop: clears canvas, draws everything, handles collisions, updates positions |
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-copilot]] — Category: skills-copilot
+

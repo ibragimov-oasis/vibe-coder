@@ -95,3 +95,9 @@ Spend max 1 minute on personalization. Use industry/persona-level signals. For t
 
 **Structure:** Problem → Amplify → Story → Testimony → Offer → Response.
 **Best for:** Longer-form or multi-email sequences. Consulting, education, complex B2B services. Each element can be developed across separate touches.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

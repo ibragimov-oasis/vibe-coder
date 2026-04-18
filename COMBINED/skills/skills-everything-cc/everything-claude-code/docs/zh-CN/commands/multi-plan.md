@@ -283,3 +283,9 @@ mcp__ace-tool__search_context({
 3. **信任规则** – 后端遵循 Codex，前端遵循 Gemini
 4. 外部模型 **零文件系统写入权限**
 5. **SESSION\_ID 交接** – 计划末尾必须包含 `CODEX_SESSION` / `GEMINI_SESSION`（供 `/ccg:execute resume <SESSION_ID>` 使用）
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

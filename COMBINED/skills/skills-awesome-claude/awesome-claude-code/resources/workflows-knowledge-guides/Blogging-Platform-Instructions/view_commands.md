@@ -30,3 +30,9 @@ Here are all the available project commands, organized by category:
 - `/project:site:find_orphaned_images` - Find unused images in static folder
 
 To get more details about a specific command, look at the corresponding Markdown file in the `COMBINED/workspace-config/claude/commands/` directory.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-awesome-claude]] — Category: skills-awesome-claude
+

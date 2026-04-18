@@ -432,3 +432,9 @@ Note: Don't renumber remaining slides - keep their original IDs and filenames.
 - Font embedding references when fonts aren't included
 - Missing slideLayout declarations for layouts 12-25
 - docProps directory may not unpack - this is optional
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

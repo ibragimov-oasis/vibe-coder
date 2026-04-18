@@ -121,3 +121,9 @@ kotlin {
 最终：`Build Status: SUCCESS/FAILED | Errors Fixed: N | Files Modified: list`
 
 有关详细的 Kotlin 模式和代码示例，请参阅 `skill: kotlin-patterns`。
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

@@ -261,5 +261,10 @@ June 9, 2025| Updated guidance for button styles and content.
 February 2, 2024| Noted that visionOS buttons don’t support custom hover effects.  
 December 5, 2023| Clarified some terminology and guidance for buttons in visionOS.  
 June 21, 2023| Updated to include guidance for visionOS.  
-June 5, 2023| Updated guidance for using buttons in watchOS.  
-  
+June 5, 2023| Updated guidance for using buttons in watchOS.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

@@ -235,3 +235,9 @@ String phone = Instancio.gen().text().pattern("+1-###-###-####");
 
 - [Instancio Documentation](https://www.instancio.org/)
 - [JUnit 5 Extension](https://www.instancio.org/user-guide/#junit-integration)
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-copilot]] — Category: skills-copilot
+

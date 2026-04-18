@@ -183,3 +183,9 @@ To make this audit actionable for **your specific site**, I'd need:
 5. **Any recent site changes** — redesigns, URL changes, CMS migrations
 
 Want me to dive deeper into any specific phase, or create a detailed content plan for the topical cluster strategy?
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

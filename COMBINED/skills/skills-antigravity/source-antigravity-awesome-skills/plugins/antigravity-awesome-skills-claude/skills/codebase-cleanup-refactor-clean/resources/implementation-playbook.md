@@ -884,3 +884,9 @@ Rate issues found and improvements made:
 8. **Quality Dashboard**: Link to SonarQube/CodeQL results
 
 Focus on delivering practical, incremental improvements that can be adopted immediately while maintaining system stability.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

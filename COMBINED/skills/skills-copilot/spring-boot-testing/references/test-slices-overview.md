@@ -208,3 +208,9 @@ void shouldReturnOrdersInSequence() {
   <scope>test</scope>
 </dependency>
 ```
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-copilot]] — Category: skills-copilot
+

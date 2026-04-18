@@ -176,3 +176,9 @@ This document provides comprehensive competency matrix templates for different e
 - **Market Benchmarking**: Compare standards with industry peers
 - **Feedback Integration**: Incorporate interviewer and candidate feedback
 - **Bias Monitoring**: Regular analysis of assessment patterns across demographics
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

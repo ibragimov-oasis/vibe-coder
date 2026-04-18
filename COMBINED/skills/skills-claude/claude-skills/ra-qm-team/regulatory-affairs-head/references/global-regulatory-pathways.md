@@ -288,3 +288,9 @@ International regulatory requirements for medical devices beyond FDA and EU MDR 
 | Language/labeling non-compliance | Market rejection | Professional translation review |
 | Ignoring post-market requirements | License suspension | Establish vigilance system |
 | Sequential vs. parallel submissions | Extended timeline | Plan parallel submissions where possible |
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

@@ -133,3 +133,9 @@ Tool use is also available through the non-beta `com.anthropic.models.messages.M
 ### Manual Loop
 
 For manual tool loops, define tools as JSON schema in the request, handle `tool_use` blocks in the response, send `tool_result` back, and loop until `stop_reason` is `"end_turn"`. See the [shared tool use concepts](../shared/tool-use-concepts.md) for the agentic loop pattern.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

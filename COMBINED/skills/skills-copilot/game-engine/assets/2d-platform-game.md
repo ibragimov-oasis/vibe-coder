@@ -1860,3 +1860,9 @@ window.onload = function () {
 | Camera | `this.camera.fade()` | Screen transition effects |
 | Anchor | `sprite.anchor.set(x, y)` | Sets the origin point for positioning and rotation |
 | Sprite flipping | `sprite.scale.x = -1` | Horizontally mirrors the sprite |
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-copilot]] — Category: skills-copilot
+

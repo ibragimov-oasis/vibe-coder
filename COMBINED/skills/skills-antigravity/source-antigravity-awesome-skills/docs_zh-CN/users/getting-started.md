@@ -169,3 +169,9 @@ _查看 [技能目录](../../CATALOG.md) 获取完整列表。_
 1. [浏览捆绑包](bundles.md)
 2. [查看真实示例](../contributors/examples.md)
 3. [贡献技能](../../CONTRIBUTING.md)
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

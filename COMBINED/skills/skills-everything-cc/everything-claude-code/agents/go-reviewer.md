@@ -78,3 +78,9 @@ govulncheck ./...
 - **Block**: CRITICAL or HIGH issues found
 
 For detailed Go code examples and anti-patterns, see `skill: golang-patterns`.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

@@ -114,3 +114,9 @@ Birincil editör olarak Zed kullanıyorum:
 ---
 
 **Felsefe**: Agent-first tasarım, paralel yürütme, eylemden önce plan, koddan önce test, her zaman güvenlik.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

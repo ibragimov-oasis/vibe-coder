@@ -96,3 +96,9 @@ cargo build --release 2>&1 | head -50
 - **Block**: CRITICAL or HIGH issues found
 
 For detailed Rust code examples and anti-patterns, see `skill: rust-patterns`.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

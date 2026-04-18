@@ -278,3 +278,9 @@ START
 | Not collecting evidence from day one of observation | Missing evidence for early-period controls | Start automated collection before observation begins |
 | Treating the observation period as passive | Control failures go undetected until audit | Conduct monthly internal reviews during observation |
 | Letting the Type I report expire before Type II is ready | Gap in coverage erodes customer confidence | Plan Type II timeline to overlap with Type I validity |
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

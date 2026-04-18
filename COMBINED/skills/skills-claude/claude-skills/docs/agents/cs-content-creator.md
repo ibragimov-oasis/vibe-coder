@@ -252,3 +252,9 @@ cat ../../marketing-skill/content-creator/references/analytics_guide.md
 **Sprint:** sprint-11-05-2025 (Day 2)
 **Status:** Production Ready
 **Version:** 1.0
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

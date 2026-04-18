@@ -46,3 +46,9 @@ In order to squeeze a little bit of additional headroom from the layout, I lande
 Wow, good one, Claude.
 
 For more information about the tasteful artistic design of this repo, you may consult [HOW IT LOOKS](./HOW_IT_LOOKS.md).
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-awesome-claude]] — Category: skills-awesome-claude
+

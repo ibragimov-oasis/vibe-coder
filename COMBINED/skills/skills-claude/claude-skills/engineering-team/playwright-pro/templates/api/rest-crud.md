@@ -157,3 +157,9 @@ test.describe('REST CRUD — /{{entityName}}s', () => {
 | DELETE | 204 → subsequent GET returns 404 |
 | POST validation | Missing field → 422 + errors |
 | GET 404 | Non-existent ID → 404 |
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

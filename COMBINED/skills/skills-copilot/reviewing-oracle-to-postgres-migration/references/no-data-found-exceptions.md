@@ -104,3 +104,9 @@ When fixing this issue, verify:
 2. **Exception tests** - Verify exceptions are raised with invalid parameters
 3. **Transaction rollback** - Ensure proper cleanup on errors
 4. **Data integrity** - Confirm all fields are populated correctly in success cases
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-copilot]] — Category: skills-copilot
+

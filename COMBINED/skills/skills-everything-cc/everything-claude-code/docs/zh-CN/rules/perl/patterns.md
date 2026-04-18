@@ -79,3 +79,9 @@ carton exec prove -lr t/
 ## 参考
 
 查看技能：`perl-patterns` 以获取全面的现代 Perl 模式和惯用法。
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

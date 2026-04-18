@@ -70,3 +70,9 @@ For capture session workflow, see [capture.md](capture.md).
 | Script | Description |
 |--------|-------------|
 | `scripts/ws_listener.py` | WebSocket event listener for real-time AI results |
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

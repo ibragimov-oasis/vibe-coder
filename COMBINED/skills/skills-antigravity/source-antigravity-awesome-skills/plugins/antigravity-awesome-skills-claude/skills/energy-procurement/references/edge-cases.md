@@ -629,3 +629,9 @@ Assuming "firm" gas service means guaranteed delivery under all conditions. Firm
 - Month 2-3: Initiate dual-fuel feasibility study, LDC tariff reclassification
 - Month 4-6: Install dual-fuel capability (if approved), negotiate enhanced gas contract
 - Next renewal: Execute firm-firm or no-notice gas transportation agreement
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

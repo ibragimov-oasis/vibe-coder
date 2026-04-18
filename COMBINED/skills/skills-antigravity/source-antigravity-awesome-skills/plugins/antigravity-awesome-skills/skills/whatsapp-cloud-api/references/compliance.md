@@ -409,3 +409,9 @@ Use esta checklist antes de colocar sua integracao em producao:
 - [ ] Politica de privacidade atualizada mencionando WhatsApp
 - [ ] Termos de uso incluem uso do canal WhatsApp
 - [ ] DPA assinado com a Meta (para GDPR)
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

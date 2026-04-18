@@ -749,3 +749,9 @@ class ControlTester:
 - [NIST Cybersecurity Framework](https://www.nist.gov/cyberframework)
 - [CIS Controls](https://www.cisecurity.org/controls)
 - [MITRE D3FEND](https://d3fend.mitre.org/)
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

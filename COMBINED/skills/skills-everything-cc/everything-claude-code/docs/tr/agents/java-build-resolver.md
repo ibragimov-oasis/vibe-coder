@@ -155,3 +155,9 @@ Remaining errors: 1
 Son: `Build Status: SUCCESS/FAILED | Errors Fixed: N | Files Modified: list`
 
 Detaylı Java ve Spring Boot kalıpları için, `skill: springboot-patterns`'a bakın.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

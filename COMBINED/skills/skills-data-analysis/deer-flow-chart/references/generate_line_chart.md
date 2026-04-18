@@ -31,3 +31,9 @@ tags:
 
 ## 返回结果
 - 返回折线图 URL，并附 `_meta.spec` 供后续编辑。
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-data-analysis]] — Category: skills-data-analysis
+

@@ -105,5 +105,10 @@ Because iOS shows Activity rings whether or not an Apple Watch is paired, activi
 Date| Changes  
 ---|---  
 March 29, 2024| Enhanced guidance for displaying Activity rings and listed specific colors for displaying related content.  
-December 5, 2023| Added artwork representing Activity rings in iOS.  
-  
+December 5, 2023| Added artwork representing Activity rings in iOS.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

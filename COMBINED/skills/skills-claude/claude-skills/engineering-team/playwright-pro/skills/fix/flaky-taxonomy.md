@@ -139,3 +139,9 @@ export default defineConfig({
 ```typescript
 test.setTimeout(60_000); // 60s for slow CI
 ```
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

@@ -95,3 +95,9 @@ struct PollView: View {
 
 - Don’t store focus state in shared objects; it is view-local.
 - Avoid aggressive focus changes during animation; delay if needed.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

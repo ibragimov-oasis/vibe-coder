@@ -700,3 +700,9 @@ Cybersecurity_Documentation/
 | Audit logging | SR 6 | PR.PT, DE.AE |
 | Patch management | SR 7 | PR.MA |
 | Incident response | SR 6 | RS.RP |
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

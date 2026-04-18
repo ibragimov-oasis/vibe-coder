@@ -58,3 +58,9 @@ tags:
 * 安全专家
 * 一致性审查员
 * 冗余检查器
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

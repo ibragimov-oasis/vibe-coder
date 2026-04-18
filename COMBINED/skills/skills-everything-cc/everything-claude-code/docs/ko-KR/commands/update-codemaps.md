@@ -84,3 +84,9 @@ src/repos/user.ts (데이터베이스 접근, 80줄)
 - 효율적인 컨텍스트 로딩을 위해 각 코드맵을 **1000 토큰 미만**으로 유지
 - 장황한 설명 대신 데이터 흐름에 ASCII 다이어그램 사용
 - 주요 기능 추가 또는 리팩토링 세션 후 `npx tsx scripts/codemaps/generate.ts` 실행
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

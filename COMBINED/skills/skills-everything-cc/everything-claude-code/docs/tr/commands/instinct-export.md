@@ -68,3 +68,9 @@ Use functional patterns over classes.
 - `--min-confidence <n>`: Minimum güven eşiği
 - `--output <file>`: Çıktı dosya yolu (atlandığında stdout'a yazdırır)
 - `--scope <project|global|all>`: Dışa aktarma kapsamı (varsayılan: `all`)
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

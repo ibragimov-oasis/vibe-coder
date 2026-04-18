@@ -44,3 +44,9 @@ python3 ra-qm-team/gdpr-dsgvo-expert/scripts/gdpr_compliance_checker.py --help
 
 - Load only 1-2 skills per request — don't bulk-load
 - Always verify outputs against current regulations
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

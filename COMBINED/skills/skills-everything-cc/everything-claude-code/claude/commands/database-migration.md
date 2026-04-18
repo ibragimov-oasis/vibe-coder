@@ -38,3 +38,9 @@ Database schema changes with migration files
 
 - Treat this as a scaffold, not a hard-coded script.
 - Update the command if the workflow evolves materially.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

@@ -53,3 +53,9 @@ Boris shared the size distribution across those 141 PRs, totaling **45,032 lines
 ## Sources
 
 - [Boris Cherny (@bcherny) on X — March 25, 2026](https://x.com/bcherny)
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

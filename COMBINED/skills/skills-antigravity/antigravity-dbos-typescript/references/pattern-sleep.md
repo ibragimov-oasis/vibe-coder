@@ -60,3 +60,9 @@ async function myWorkflowFn() {
 ```
 
 Reference: [Durable Sleep](https://docs.dbos.dev/typescript/tutorials/workflow-tutorial#durable-sleep)
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

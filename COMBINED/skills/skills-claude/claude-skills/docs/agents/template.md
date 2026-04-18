@@ -107,3 +107,9 @@ Remember and build expertise in:
 ### Pattern Recognition
 - [Pattern this agent learns to identify]
 - [Pattern this agent learns to identify]
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

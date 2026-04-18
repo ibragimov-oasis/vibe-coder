@@ -43,3 +43,9 @@ tags:
 
 **总结**：
 始终提交并推送 registry、README 同步和 catalog 脚本产生的所有更改。这通过确保仓库和生成的工件与规范的 `tools/scripts/*` 管道保持同步，保持 CI 通过。
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

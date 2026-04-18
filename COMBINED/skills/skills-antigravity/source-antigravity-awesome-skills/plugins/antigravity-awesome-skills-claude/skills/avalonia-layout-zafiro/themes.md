@@ -56,3 +56,9 @@ Centralize icon definitions and other shared resources in `Icons.axaml` and incl
     </ResourceDictionary>
 </Application.Resources>
 ```
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

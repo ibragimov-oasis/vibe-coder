@@ -63,3 +63,9 @@ tags:
   --callout-icon: lucide-alert-circle;
 }
 ```
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

@@ -57,3 +57,9 @@ Context: Apple guidance on diagnosing SwiftUI performance with Instruments and a
 ## Verification
 
 - Re-record after changes to confirm reduced update counts and fewer hitches.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

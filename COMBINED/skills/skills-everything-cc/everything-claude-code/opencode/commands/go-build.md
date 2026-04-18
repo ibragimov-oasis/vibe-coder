@@ -89,3 +89,9 @@ go test ./...     # Tests should pass
 ---
 
 **IMPORTANT**: Fix errors only. No refactoring, no improvements. Get the build green with minimal changes.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

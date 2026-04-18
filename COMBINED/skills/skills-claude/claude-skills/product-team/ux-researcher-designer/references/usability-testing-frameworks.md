@@ -417,3 +417,9 @@ Task 2: [Name]
 ---
 
 *See also: `journey-mapping-guide.md` for contextual research*
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

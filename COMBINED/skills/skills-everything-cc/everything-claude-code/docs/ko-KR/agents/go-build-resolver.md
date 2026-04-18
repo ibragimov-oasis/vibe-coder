@@ -94,3 +94,9 @@ Remaining errors: 3
 ```
 
 최종: `Build Status: SUCCESS/FAILED | Errors Fixed: N | Files Modified: list`
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

@@ -610,3 +610,9 @@ initialize().then(() => {
 ---
 
 These examples demonstrate the same functionality across different runtimes and frameworks, making it easy to adapt to your specific use case. All examples include proper cleanup with `.dispose()` to free memory.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

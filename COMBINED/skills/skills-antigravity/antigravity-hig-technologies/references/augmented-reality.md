@@ -249,3 +249,8 @@ Play
 
 [![](https://devimages-cdn.apple.com/wwdc-services/images/119/53F3827F-2C69-44D5-9D85-73AF3FF759FD/4965_wide_250x141_1x.jpg) Explore ARKit 5 ](https://developer.apple.com/videos/play/wwdc2021/10073)
 
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

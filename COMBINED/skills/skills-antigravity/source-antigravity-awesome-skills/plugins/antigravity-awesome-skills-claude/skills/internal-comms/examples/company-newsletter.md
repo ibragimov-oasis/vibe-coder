@@ -70,3 +70,9 @@ Avoid:
 - Update 1
 - Update 2
 - Update 3
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

@@ -312,3 +312,9 @@ npm run build
 ---
 
 **記住**：不符合現實的文件比沒有文件更糟。總是從真相來源（實際程式碼）產生。
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

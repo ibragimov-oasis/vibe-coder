@@ -34,3 +34,9 @@ tags:
    - 新引入的錯誤
 
 為了安全，一次修復一個錯誤！
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

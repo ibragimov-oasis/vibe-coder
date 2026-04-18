@@ -150,3 +150,9 @@ func (s *MyTestSuite) Test_WorkflowHandlesActivityError() {
     s.Contains(err.Error(), "card declined")
 }
 ```
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

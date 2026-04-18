@@ -29,3 +29,9 @@ Some skills are useful but not broadly needed by every user:
 
 By keeping them optional, we keep the default skill set lean while still
 providing curated, tested, official skills for users who want them.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-hermes]] — Category: skills-hermes
+

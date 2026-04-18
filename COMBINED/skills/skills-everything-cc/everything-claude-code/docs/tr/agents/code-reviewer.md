@@ -239,3 +239,9 @@ AI tarafından üretilen değişiklikleri incelerken önceliklendirin:
 Maliyet farkındalığı kontrolü:
 - Net akıl yürütme ihtiyacı olmadan daha yüksek maliyetli modellere yükselen workflow'ları işaretleyin.
 - Deterministik refactor'lar için daha düşük maliyetli katmanlara varsayılan olmasını önerin.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

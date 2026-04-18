@@ -234,3 +234,9 @@ The application is ready for:
 **Date:** 2026-01-02
 **Verification Method:** Code inspection, compilation checks, file verification
 **Result:** PASSED with documented findings
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

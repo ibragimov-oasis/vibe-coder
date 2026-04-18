@@ -436,3 +436,9 @@ Data transfers outside EEA covered by: [ ] SCCs  [ ] Adequacy Decision  [ ] BCRs
 - Keep templates in version control; track changes with `git diff`
 - Review annually - laws change, especially GDPR enforcement interpretations
 - For NDAs: always specify the return/destruction of confidential materials on termination
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

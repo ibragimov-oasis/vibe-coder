@@ -322,3 +322,9 @@ Even small changelog updates remind customers your product is evolving. This bui
 - [ ] Plan next launch moment
 
 ---
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

@@ -50,3 +50,9 @@ create index idx2 on products using gin (attributes jsonb_path_ops);
 ```
 
 Reference: [JSONB Indexes](https://www.postgresql.org/docs/current/datatype-json.html#JSON-INDEXING)
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

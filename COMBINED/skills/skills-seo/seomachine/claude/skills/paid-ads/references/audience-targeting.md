@@ -239,3 +239,9 @@ Always exclude:
 - Employees (by company or email list)
 - Irrelevant page visitors (careers, support)
 - Competitors (if identifiable)
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-seo]] — Category: skills-seo
+

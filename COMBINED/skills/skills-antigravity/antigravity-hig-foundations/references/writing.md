@@ -91,5 +91,10 @@ tags:
   - source/skills-antigravity
 ---|---  
 December 16, 2025| Clarified guidance on language patterns, and added guidance for possessive pronouns.  
-February 27, 2023| New page.  
-  
+February 27, 2023| New page.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

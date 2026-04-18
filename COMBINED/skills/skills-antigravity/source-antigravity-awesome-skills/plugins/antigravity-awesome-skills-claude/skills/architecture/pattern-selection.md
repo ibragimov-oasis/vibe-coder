@@ -73,3 +73,9 @@ START: What's your MAIN concern?
 | Event Sourcing | Over-engineering | Append-only audit log |
 | CQRS | Unnecessary complexity | Single model |
 | Repository | YAGNI for simple CRUD | ORM direct access |
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

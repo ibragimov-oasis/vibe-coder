@@ -54,3 +54,9 @@ Task tool (general-purpose):
 ```
 
 **Reviewer returns:** Status, Issues (if any), Recommendations
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-superpowers]] — Category: skills-superpowers
+

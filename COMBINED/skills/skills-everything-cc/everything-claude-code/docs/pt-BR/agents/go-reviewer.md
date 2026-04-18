@@ -78,3 +78,9 @@ govulncheck ./...
 - **Bloquear**: Problemas CRÍTICOS ou ALTOS encontrados
 
 Para exemplos detalhados de código Go e anti-padrões, veja `skill: golang-patterns`.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

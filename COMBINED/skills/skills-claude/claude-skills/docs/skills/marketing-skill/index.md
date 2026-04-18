@@ -286,3 +286,9 @@ tags:
     X-specific growth skill. For general social media content across platforms, see social-content. For social strategy a...
 
 </div>
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

@@ -84,3 +84,9 @@ Fahrenheit
 ## SVG Card
 ![Weather Card](weather.svg)
 ```
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

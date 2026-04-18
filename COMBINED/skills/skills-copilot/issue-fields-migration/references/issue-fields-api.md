@@ -134,3 +134,9 @@ echo '[{"field_id": "IF_abc123", "value": "Low"}]' | \
 - Standard rate limits apply (5,000 requests/hour for authenticated users)
 - Secondary rate limits may trigger for rapid sequential writes
 - Recommended: 100ms delay between calls, exponential backoff on 429
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-copilot]] — Category: skills-copilot
+

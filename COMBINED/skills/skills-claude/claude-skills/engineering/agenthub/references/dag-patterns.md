@@ -154,3 +154,9 @@ Key properties:
 - All worktrees share the same `.git` object store
 - Commits in one worktree are immediately visible in another
 - Cannot check out the same branch in two worktrees
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

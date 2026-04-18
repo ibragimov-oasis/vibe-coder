@@ -50,3 +50,9 @@ Analyze retrospective data for recurring themes, sentiment trends, and action it
 
 ## Skill Reference
 > `project-management/scrum-master/SKILL.md`
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

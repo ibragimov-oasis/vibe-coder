@@ -49,3 +49,9 @@ Ask the user to:
 - Simulator traces can miss device-only rendering or memory issues.
 - Mixed interactions in one capture make attribution harder.
 - Screenshots without the reproduction note are much harder to interpret.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

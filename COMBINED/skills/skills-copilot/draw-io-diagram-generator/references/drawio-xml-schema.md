@@ -384,3 +384,9 @@ id="a1b2c3d4-e5f6-7890-abcd-ef1234567890"
 - [ ] Edge labels are short (≤4 words)
 - [ ] Layer cells have descriptive `value` names
 - [ ] All shapes fit within `pageWidth` × `pageHeight` bounds
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-copilot]] — Category: skills-copilot
+

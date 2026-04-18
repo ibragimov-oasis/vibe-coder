@@ -69,3 +69,9 @@ Additional constraints:
 - Concurrent steps must start in deterministic order using `dbos.Go`/`dbos.Select`
 
 Reference: [Workflow Guarantees](https://docs.dbos.dev/golang/tutorials/workflow-tutorial#workflow-guarantees)
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

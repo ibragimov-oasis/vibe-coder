@@ -385,3 +385,9 @@ function() {
   return el ? parseFloat(el.textContent.replace('$', '')) : 0;
 }
 ```
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-seo]] — Category: skills-seo
+

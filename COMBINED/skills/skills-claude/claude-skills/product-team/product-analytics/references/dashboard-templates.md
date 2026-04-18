@@ -71,3 +71,9 @@ Adoption KPI examples:
 - Add threshold bands for risk detection.
 - Show metric definitions next to charts.
 - Include a short "what changed" narrative block.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

@@ -106,3 +106,9 @@ NRR             > 100%      > 110%      > 120%
 Gross Margin    > 65%       > 75%       > 80%
 MoM Growth      > 5%        > 10%       > 15%
 ```
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

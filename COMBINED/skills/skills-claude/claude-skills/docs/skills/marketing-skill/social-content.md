@@ -330,3 +330,9 @@ Always include a hook as the first element. Never deliver body copy without it. 
 - **content-production**: USE when operating a high-volume content machine across multiple creators. NOT for one-off post creation.
 - **content-humanizer**: USE when AI-drafted posts sound robotic or templated. NOT for strategy or scheduling.
 - **launch-strategy**: USE when coordinating social content around a product launch. NOT for evergreen posting schedules.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

@@ -338,3 +338,9 @@ az repos policy file-size create \
   --repository-id {repo-id} \
   --maximum-file-size 10485760  # 10MB in bytes
 ```
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-copilot]] — Category: skills-copilot
+

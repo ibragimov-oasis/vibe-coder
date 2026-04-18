@@ -118,3 +118,9 @@ See the [full catalog](https://github.com/alirezarezvani/claude-skills) for all 
 ---
 
 *Last updated: March 2026 · [alirezarezvani/claude-skills](https://github.com/alirezarezvani/claude-skills)*
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

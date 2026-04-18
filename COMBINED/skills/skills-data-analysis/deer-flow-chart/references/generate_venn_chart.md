@@ -28,3 +28,9 @@ tags:
 
 ## 返回结果
 - 返回维恩图 URL，并保存在 `_meta.spec` 中。
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-data-analysis]] — Category: skills-data-analysis
+

@@ -61,3 +61,9 @@ A flat list view of all resources. Category: **Docs** | Sorted: by latest releas
 **Total Resources:** 0
 
 **Last Generated:** 2026-03-30
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-awesome-claude]] — Category: skills-awesome-claude
+

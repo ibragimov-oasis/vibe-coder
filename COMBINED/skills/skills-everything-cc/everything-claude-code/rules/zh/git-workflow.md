@@ -29,3 +29,9 @@ tags:
 
 > 对于 git 操作之前的完整开发流程（规划、TDD、代码审查），
 > 参见 [development-workflow.md](./development-workflow.md)。
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

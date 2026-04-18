@@ -49,3 +49,8 @@ In addition to expressing your brand in your [app icon](https://developer.apple.
 
 [Color](https://developer.apple.com/design/human-interface-guidelines/color)
 
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

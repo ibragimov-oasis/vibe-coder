@@ -216,3 +216,9 @@ See `templates/all-hands-template.md` for the complete slide-by-slide template.
 At any all-hands, reserve the last 5 minutes for: "What question are you afraid to ask publicly? Submit anonymously via [link]."
 
 Read 3–5 of the hardest ones out loud and answer them honestly. This builds more trust than 45 minutes of polished presentation.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

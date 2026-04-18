@@ -439,3 +439,9 @@ If something still doesn't make sense:
 4. [File an Issue](https://github.com/sickn33/antigravity-awesome-skills/issues) to help us improve this guide!
 
 Remember: You're not alone! The whole point of this project is to make AI assistants easier to use. If this guide didn't help, let us know so we can fix it. 🙌
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

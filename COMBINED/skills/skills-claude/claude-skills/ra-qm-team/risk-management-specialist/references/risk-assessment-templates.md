@@ -82,3 +82,9 @@ Quality Assurance: _____________ Date: _______
 ```
 
 ---
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

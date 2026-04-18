@@ -1080,3 +1080,9 @@ app.use(pinoHttp({
 - [ ] npm audit in CI
 - [ ] Automated dependency updates
 - [ ] Lock file committed
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

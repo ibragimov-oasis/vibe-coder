@@ -415,3 +415,9 @@ Incidents -> RCA -> Prevention -> Deploy fix
 | Chaos Test | ops-devops | Recovers from failures |
 | Cost Estimate | ops-cost | Within budget |
 | Legal Review | biz-legal | Compliant |
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

@@ -100,3 +100,9 @@ tags:
 -->
 *Update this file after every 2 view/browser/search operations*
 *This prevents visual information from being lost*
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

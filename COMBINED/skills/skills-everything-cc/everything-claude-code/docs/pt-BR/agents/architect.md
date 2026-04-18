@@ -82,3 +82,9 @@ Para cada decisão de design, documente:
 - Mínimo de requisições de rede
 - Consultas de banco de dados otimizadas
 - Cache apropriado
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

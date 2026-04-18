@@ -96,3 +96,9 @@ Kalan hatalar: 3
 Son: `Build Durumu: BAŞARILI/BAŞARISIZ | Düzeltilen Hatalar: N | Değiştirilen Dosyalar: liste`
 
 Detaylı Go hata desenleri ve kod örnekleri için, `skill: golang-patterns` bölümüne bakın.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

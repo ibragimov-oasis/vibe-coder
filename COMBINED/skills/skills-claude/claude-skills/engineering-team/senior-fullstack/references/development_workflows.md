@@ -789,3 +789,9 @@ git push --follow-tags
 # CI/CD deploys automatically
 # Monitor dashboards
 ```
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

@@ -349,3 +349,9 @@ gws recipes inbox-zero --interactive
 | Finance | sheet-read, sheet-write, sheet-append, create-sheet, export-file, share-file |
 | Legal | create-doc, share-file, export-file, search-emails, upload-file, audit-logins |
 | Customer Support | search-emails, send-email, reply-to-thread, label-manager, task-create, inbox-zero |
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

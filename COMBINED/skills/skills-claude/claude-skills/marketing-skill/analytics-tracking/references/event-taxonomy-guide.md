@@ -208,3 +208,9 @@ window.dataLayer.push({
 ```
 
 This allows filtering old vs. new schema during migrations.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

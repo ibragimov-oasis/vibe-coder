@@ -114,3 +114,9 @@ Run link/image checks only on:
 ## Summary
 
 This strategy makes local preview easy by using standard relative paths, while keeping GitHub rendering correct everywhere. The generator is the only component allowed to decide how assets/ is referenced, and swaps are implemented exclusively as “regenerate for destination path,” not file copying.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-awesome-claude]] — Category: skills-awesome-claude
+

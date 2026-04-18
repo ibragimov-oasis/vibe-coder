@@ -395,3 +395,9 @@ spacing: clamp(minSpace, preferredSpace, maxSpace);
 ---
 
 *See also: `token-generation.md` for breakpoint token details*
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

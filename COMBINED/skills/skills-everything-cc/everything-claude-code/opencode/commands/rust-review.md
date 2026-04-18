@@ -67,3 +67,9 @@ Review Rust code for idiomatic patterns and best practices: $ARGUMENTS
 ---
 
 **TIP**: Run `cargo clippy -- -D warnings` and `cargo fmt --check` for automated checks.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

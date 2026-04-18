@@ -231,3 +231,9 @@ Use for:
 - [ ] Performance tested under load
 - [ ] Role mappings documented
 - [ ] Workspace roles understood (Admins bypass RLS)
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-copilot]] — Category: skills-copilot
+

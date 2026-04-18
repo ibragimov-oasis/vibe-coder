@@ -448,3 +448,9 @@ VideoDB 有两个独立的时间线系统。它们**不可互换**：
 * **静音视频音频**：在 `AudioAsset` 上设置 `disable_other_tracks=True`，以便在叠加音乐或旁白时静音原始视频音频。
 * **淡入淡出限制**：`fade_in_duration` 和 `fade_out_duration` 在 `AudioAsset` 上最长不超过 5 秒。
 * **生成媒体**：使用 `coll.generate_music()`、`coll.generate_sound_effect()`、`coll.generate_voice()` 和 `coll.generate_image()` 创建可立即用作时间轴素材的媒体。
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

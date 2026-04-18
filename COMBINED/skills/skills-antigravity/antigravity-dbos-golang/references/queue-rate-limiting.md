@@ -51,3 +51,9 @@ Common use cases:
 - Preventing database overload
 
 Reference: [Rate Limiting](https://docs.dbos.dev/golang/tutorials/queue-tutorial#rate-limiting)
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

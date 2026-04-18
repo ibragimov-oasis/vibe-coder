@@ -88,3 +88,9 @@ const result = await db.query(query, [userId]);
 - Lógica complexa sem comentários explicativos
 - Código duplicado que poderia ser extraído
 - Imports não utilizados
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

@@ -759,3 +759,9 @@ router.post('/users',
 - [routing-and-controllers.md](routing-and-controllers.md) - Using validation in controllers
 - [services-and-repositories.md](services-and-repositories.md) - Using DTOs in services
 - [async-and-errors.md](async-and-errors.md) - Error handling patterns
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

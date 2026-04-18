@@ -670,3 +670,9 @@ export const disabled = 'disabled:pointer-events-none disabled:opacity-50'
 - [CVA Documentation](https://cva.style/docs)
 - [shadcn/ui](https://ui.shadcn.com/)
 - [Radix Primitives](https://www.radix-ui.com/primitives)
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-design]] — Category: skills-design
+

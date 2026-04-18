@@ -356,3 +356,9 @@ These may not be direct product competitors but compete for content visibility:
 ---
 
 **Note**: Competitive analysis isn't about copying - it's about understanding the landscape so Castos can create better, more differentiated content that serves podcast creators in unique ways. Always filter competitive insights through "What would best serve our audience?"
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-seo]] — Category: skills-seo
+

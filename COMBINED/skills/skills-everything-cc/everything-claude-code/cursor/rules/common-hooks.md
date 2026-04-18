@@ -36,3 +36,9 @@ Todo list reveals:
 - Extra unnecessary items
 - Wrong granularity
 - Misinterpreted requirements
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

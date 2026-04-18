@@ -312,3 +312,9 @@ CMD ["node", "dist/index.js"]
 | Updates duplicados | Nao retorna 200 | Garanta HTTP 200 no handler |
 | `last_error_message` | Diversas | Verifique o campo em `getWebhookInfo` |
 | Timeout | Handler demora >60s | Processe async, responda 200 rapido |
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

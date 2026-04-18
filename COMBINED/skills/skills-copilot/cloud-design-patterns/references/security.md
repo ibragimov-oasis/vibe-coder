@@ -60,3 +60,9 @@ tags:
 - Limit permissions (read-only, write-only, specific operations)
 - Implement token revocation if needed
 - Monitor usage of valet keys
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-copilot]] — Category: skills-copilot
+

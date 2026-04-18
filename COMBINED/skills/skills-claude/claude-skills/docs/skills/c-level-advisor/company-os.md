@@ -241,3 +241,9 @@ The company OS is the connective tissue. Every other role depends on it:
 ## Detailed References
 - `references/os-comparison.md` — EOS vs Scaling Up vs OKRs vs Holacracy vs hybrid
 - `references/implementation-guide.md` — 90-day implementation plan
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

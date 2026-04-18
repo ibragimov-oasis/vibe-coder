@@ -83,3 +83,9 @@ Durable architectural guidance that is NOT coupled to current file paths:
 - How callers should migrate to the new interface
 
 </issue-template>
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-development]] — Category: skills-development
+

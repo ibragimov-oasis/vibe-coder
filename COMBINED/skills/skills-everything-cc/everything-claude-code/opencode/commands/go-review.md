@@ -73,3 +73,9 @@ Review Go code for idiomatic patterns and best practices: $ARGUMENTS
 ---
 
 **TIP**: Run `go vet` and `staticcheck` for additional automated checks.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

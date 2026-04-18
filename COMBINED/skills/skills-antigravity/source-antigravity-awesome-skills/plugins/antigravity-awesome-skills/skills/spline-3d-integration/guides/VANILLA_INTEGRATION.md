@@ -208,3 +208,9 @@ Add to `<head>` to start fetching the scene file before scripts run:
 
 See [PERFORMANCE.md](PERFORMANCE.md) for full optimization strategy.
 See [COMMON_PROBLEMS.md](COMMON_PROBLEMS.md) for debugging.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

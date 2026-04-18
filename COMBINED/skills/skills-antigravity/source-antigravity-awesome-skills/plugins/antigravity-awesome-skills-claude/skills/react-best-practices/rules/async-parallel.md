@@ -29,3 +29,9 @@ const [user, posts, comments] = await Promise.all([
   fetchComments()
 ])
 ```
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

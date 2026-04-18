@@ -98,3 +98,9 @@ Before finalizing:
 If violation detected → refine before output.
 
 ---
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

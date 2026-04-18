@@ -441,5 +441,10 @@ Date| Changes
 December 16, 2025| Clarified supported platforms, including web browsers and Apple Vision Pro.  
 June 10, 2024| Updated links to developer guidance for offering Apple Pay on the web.  
 September 12, 2023| Updated artwork.  
-May 2, 2023| Consolidated guidance into one page.  
-  
+May 2, 2023| Consolidated guidance into one page.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

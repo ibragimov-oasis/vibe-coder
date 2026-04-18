@@ -52,3 +52,9 @@ public sealed class PaymentsOptions
 - Depend on interfaces at service boundaries
 - Keep constructors focused; if a service needs too many dependencies, split responsibilities
 - Register lifetimes intentionally: singleton for stateless/shared services, scoped for request data, transient for lightweight pure workers
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

@@ -175,3 +175,9 @@ When multiple code scanning configurations analyze the same file:
 - `GET /repos/{owner}/{repo}/code-scanning/alerts` — list alerts
 - `GET /repos/{owner}/{repo}/code-scanning/alerts/{alert_number}` — get alert details
 - `PATCH /repos/{owner}/{repo}/code-scanning/alerts/{alert_number}` — update alert status
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-copilot]] — Category: skills-copilot
+

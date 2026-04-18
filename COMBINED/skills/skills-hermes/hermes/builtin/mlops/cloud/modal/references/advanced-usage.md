@@ -508,3 +508,9 @@ curl -X POST https://your-workspace--my-app-predict.modal.run \
   -H "Content-Type: application/json" \
   -d '{"text": "Hello world"}'
 ```
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-hermes]] — Category: skills-hermes
+

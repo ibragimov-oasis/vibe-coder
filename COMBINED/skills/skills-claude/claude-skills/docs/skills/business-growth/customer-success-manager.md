@@ -219,3 +219,9 @@ python scripts/expansion_opportunity_scorer.py customer_data.json --format json
 **Last Updated:** February 2026
 **Tools:** 3 Python CLI tools
 **Dependencies:** Python 3.7+ standard library only
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

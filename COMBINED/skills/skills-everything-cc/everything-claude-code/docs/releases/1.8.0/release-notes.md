@@ -25,3 +25,9 @@ ECC v1.8.0 positions the project as an agent harness performance system, not jus
 3. Use `/quality-gate` and updated eval workflows to enforce consistency.
 4. Review attribution and licensing notes for referenced ecosystems: [reference-attribution.md](./reference-attribution.md).
 5. For partner/sponsor optics, use live distribution metrics and talking points: [../business/metrics-and-sponsorship.md](../../business/metrics-and-sponsorship.md).
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

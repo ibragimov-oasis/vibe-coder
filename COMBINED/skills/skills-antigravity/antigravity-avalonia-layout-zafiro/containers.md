@@ -55,3 +55,9 @@ A simple container for grouping related information, often used inside `Headered
 
 - Use `Classes` to apply themed variants (e.g., `Classes="Section"`, `Classes="Highlight"`).
 - Customize internal parts of the containers using templates in your styles when necessary, rather than nesting more controls.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

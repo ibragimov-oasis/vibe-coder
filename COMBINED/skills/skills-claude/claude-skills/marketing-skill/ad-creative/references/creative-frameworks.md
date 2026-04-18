@@ -258,3 +258,9 @@ not on data entry.
 | "Unlock your potential" | Zero specificity, total fluff | What potential, specifically? Show it. |
 | "Join thousands of happy customers" | Vague and dated | "3,400 companies use [Product] to [specific outcome]" |
 | Emoji abuse | Looks desperate on LinkedIn, clutters Google | One emoji max, only if it adds meaning |
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

@@ -254,3 +254,9 @@ End of year 1: run a full-day annual planning session.
 **Changing the L10 agenda:** The agenda works because of repetition. Resist the urge to customize it for the first 6 months.
 
 **Rocks without accountability:** If nobody checks rocks at the L10 ("on track / off track"), they become wish lists. The weekly review is what makes them real.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

@@ -128,3 +128,9 @@ test.describe('Pagination', () => {
 | First page prev | Previous button disabled |
 | Last page next | Next button disabled |
 | Out-of-range | Graceful fallback |
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

@@ -137,3 +137,8 @@ Unfocused size| 1740x560 pt (1740x560 px @1x, 3480x1120 px @2x)
 
 [![](https://devimages-cdn.apple.com/wwdc-services/images/48/21CB7C2D-31A3-4DE5-A0EE-58FE214031F0/2713_wide_250x141_1x.jpg) Mastering the Living Room With tvOS ](https://developer.apple.com/videos/play/wwdc2019/211)
 
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

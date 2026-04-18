@@ -60,3 +60,9 @@ Current version: 1.0.0 (February 2026)
 
 - [Angular @defer](https://angular.dev/guide/defer)
 - [Angular Templates](https://angular.dev/guide/templates)
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

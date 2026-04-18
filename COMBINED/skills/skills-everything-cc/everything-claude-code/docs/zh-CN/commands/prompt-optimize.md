@@ -39,3 +39,9 @@ tags:
 ## 用户输入
 
 $ARGUMENTS
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

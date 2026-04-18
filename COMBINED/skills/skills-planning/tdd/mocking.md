@@ -64,3 +64,9 @@ The SDK approach means:
 - No conditional logic in test setup
 - Easier to see which endpoints a test exercises
 - Type safety per endpoint
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-planning]] — Category: skills-planning
+

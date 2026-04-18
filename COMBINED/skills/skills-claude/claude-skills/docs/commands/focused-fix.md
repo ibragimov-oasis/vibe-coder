@@ -99,3 +99,9 @@ If you haven't finished Phase 3, you cannot propose fixes.
 
 - `engineering/focused-fix` — Full SKILL.md with detailed checklists, output templates, and anti-patterns
 - `superpowers:systematic-debugging` — For individual complex bugs found during Phase 3
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

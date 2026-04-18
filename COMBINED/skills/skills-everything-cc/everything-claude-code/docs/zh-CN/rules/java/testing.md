@@ -135,3 +135,9 @@ class OrderRepositoryIT {
 
 关于使用 MockMvc 和 Testcontainers 的 Spring Boot TDD 模式，请参阅技能：`springboot-tdd`。
 关于测试期望，请参阅技能：`java-coding-standards`。
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

@@ -87,3 +87,9 @@ This will:
 
 - `/dual-spawn` - Spawn headless workers only
 - `/dual-collect` - Collect results from workers
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-ruflo]] — Category: skills-ruflo
+

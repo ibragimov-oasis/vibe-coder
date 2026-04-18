@@ -424,3 +424,9 @@ ltv_cac = ltv / cac  # target: > 3x
 # CAC payback (months)
 payback_months = cac / (arpa * gross_margin_pct)
 ```
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

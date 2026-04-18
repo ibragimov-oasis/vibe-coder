@@ -58,3 +58,9 @@ Use this context when conducting code reviews or quality assessments.
 ## Invocation
 
 Use `#review-mode` to activate this context when reviewing code.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

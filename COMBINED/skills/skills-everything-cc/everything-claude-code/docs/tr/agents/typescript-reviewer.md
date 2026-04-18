@@ -114,3 +114,9 @@ Bu repo henüz özel bir `typescript-patterns` skill'i sunmuyor. Detaylı TypeSc
 ---
 
 Şu zihniyetle inceleyin: "Bu kod en iyi TypeScript şirketinde veya iyi sürdürülen açık kaynak projesinde incelemeyi geçer miydi?"
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

@@ -269,3 +269,9 @@ govulncheck ./...
 - 標記標準函式庫中已棄用的函式
 
 以這樣的心態審查：「這段程式碼能否通過 Google 或頂級 Go 公司的審查？」
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

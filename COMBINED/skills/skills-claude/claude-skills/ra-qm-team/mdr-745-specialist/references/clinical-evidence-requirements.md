@@ -308,3 +308,9 @@ PMCF data feeds clinical evaluation:
 4. Risk management file updated
 5. IFU updated if needed
 6. **Validation:** CER update cycle completed
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

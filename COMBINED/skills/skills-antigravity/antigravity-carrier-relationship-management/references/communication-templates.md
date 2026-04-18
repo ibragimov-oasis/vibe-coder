@@ -589,3 +589,9 @@ Best regards,
 | Exit notification | Formal email + same-day phone call | N/A — always deliver exit decisions via both channels |
 | Detention/accessorial dispute | Email with documentation | If not resolved in 15 business days, escalate to carrier account manager |
 | Partnership proposal | Formal letter/email → in-person meeting | N/A — partnership proposals require in-person discussion |
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

@@ -11,3 +11,9 @@ Follow RED-GREEN-REFACTOR cycle approch based on @~/.claude/CLAUDE.md:
 3. Create a new branch and implement your plan
 4. Check off the items on todo.md
 5. Commit your changes
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-awesome-claude]] — Category: skills-awesome-claude
+

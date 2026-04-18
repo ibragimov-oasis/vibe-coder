@@ -70,5 +70,10 @@ tags:
   - source/skills-antigravity
 ---|---  
 October 24, 2023| Added artwork.  
-September 14, 2022| Added a guideline on using a pop-up button in a popover or modal view in iPadOS.  
-  
+September 14, 2022| Added a guideline on using a pop-up button in a popover or modal view in iPadOS.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

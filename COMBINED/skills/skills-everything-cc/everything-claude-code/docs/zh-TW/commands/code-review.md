@@ -45,3 +45,9 @@ tags:
 4. 如果發現關鍵或高優先問題則阻擋提交
 
 絕不批准有安全弱點的程式碼！
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

@@ -247,3 +247,9 @@ tags:
 - Provide Confluence Expert with template management
 - Ensure Senior PM has visibility into org health
 - Enable Scrum Master with team provisioning
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

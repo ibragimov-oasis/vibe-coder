@@ -290,3 +290,9 @@ Quick-reference: what actually earns a rich result vs what's just entity data.
 | VideoObject | ✅ | Video carousel, key moments |
 | Organization | ⚠️ | Knowledge panel (not guaranteed) |
 | WebSite | ⚠️ | Sitelinks search box (not guaranteed) |
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

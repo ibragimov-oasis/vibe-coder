@@ -89,3 +89,9 @@ Skipped:  docs/API.md (no changes detected)
 - **Preserve seções manuais**: Atualize apenas seções geradas; mantenha prosa escrita manualmente intacta
 - **Marque conteúdo gerado**: Use marcadores `<!-- AUTO-GENERATED -->` ao redor das seções geradas
 - **Não crie docs sem solicitação**: Só crie novos arquivos de docs se o comando solicitar explicitamente
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

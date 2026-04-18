@@ -121,3 +121,9 @@ Present results as a comparison matrix with color coding:
 - Green (8-10): Competitive advantage
 - Yellow (5-7): Market parity
 - Red (1-4): Competitive gap
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

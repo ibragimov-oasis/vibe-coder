@@ -32,3 +32,9 @@ tags:
 
 ## 返回结果
 - 返回条形图图像 URL，并在 `_meta.spec` 中给出完整配置以便复用。
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-data-analysis]] — Category: skills-data-analysis
+

@@ -319,3 +319,9 @@ Build cinematic 2.5D interactive websites with scroll storytelling, parallax dep
 **Use for:** Product launches, portfolio sites, SaaS marketing pages, event sites, Apple-style animations
 
 **Live demo:** [epic-design-showcase.vercel.app](https://epic-design-showcase.vercel.app/)
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

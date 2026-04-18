@@ -569,3 +569,9 @@ Before adding a citation:
 **Verification Tools:**
 - Citely: https://citely.ai/citation-checker
 - ReciteWorks: https://reciteworks.com/
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-hermes]] — Category: skills-hermes
+

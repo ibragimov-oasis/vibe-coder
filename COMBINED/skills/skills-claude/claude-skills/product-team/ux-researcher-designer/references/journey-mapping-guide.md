@@ -502,3 +502,9 @@ Add backstage layers:
 ---
 
 *See also: `persona-methodology.md` for persona creation*
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

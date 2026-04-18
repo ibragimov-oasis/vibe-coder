@@ -445,3 +445,9 @@ jobs:
 | GoogleTest | Unit testing | `TEST(Suite, Name) { EXPECT_EQ(...); }` |
 | Google Benchmark | Performance | `BENCHMARK(func)->Range(...)` |
 | Valgrind | Memory profiler | `valgrind --tool=memcheck ./app` |
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

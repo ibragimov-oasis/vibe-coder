@@ -202,3 +202,9 @@ node scripts/orchestrate-worktrees.js .claude/plan/workflow-e2e-test.json --exec
 1. 阶段顺序不可跳过（除非用户明确指示）
 2. 外部模型**对文件系统零写入权限**，所有修改由 Claude 执行
 3. 当评分 < 7 或用户不批准时**强制停止**
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

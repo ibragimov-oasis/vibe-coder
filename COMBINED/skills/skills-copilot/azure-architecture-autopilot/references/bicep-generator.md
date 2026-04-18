@@ -426,3 +426,9 @@ When Bicep generation is complete:
 1. Provide the user with a summary report of the generated file list and each file's role
 2. Immediately transition to Phase 3 (Bicep Reviewer)
 3. The reviewer proceeds with automated review and corrections following the `references/bicep-reviewer.md` guidelines
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-copilot]] — Category: skills-copilot
+

@@ -123,3 +123,9 @@ test.describe('Basic Search', () => {
 | URL pre-fill | Query param populates search box |
 | No results | Empty state message |
 | Special chars | XSS input handled, no script execution |
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

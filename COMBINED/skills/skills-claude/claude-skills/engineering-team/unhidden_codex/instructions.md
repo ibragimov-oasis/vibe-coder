@@ -45,3 +45,9 @@ python3 engineering-team/senior-frontend/scripts/bundle_analyzer.py --help
 
 - Load only 1-2 skills per request — don't bulk-load
 - Use Python tools for analysis and scaffolding
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

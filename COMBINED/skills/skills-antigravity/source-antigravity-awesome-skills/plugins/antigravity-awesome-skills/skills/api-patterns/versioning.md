@@ -27,3 +27,9 @@ Consider:
 ├── GraphQL? → Typically no versions (evolve schema)
 ├── tRPC? → Types enforce compatibility
 ```
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

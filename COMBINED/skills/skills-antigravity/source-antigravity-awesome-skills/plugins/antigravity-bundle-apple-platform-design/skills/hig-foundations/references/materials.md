@@ -238,5 +238,10 @@ June 9, 2025| Added guidance for Liquid Glass.
 August 6, 2024| Added platform-specific art.  
 December 5, 2023| Updated descriptions of the various material types, and clarified terms related to vibrancy and material thickness.  
 June 21, 2023| Updated to include guidance for visionOS.  
-June 5, 2023| Added guidance on using materials to provide context and orientation in watchOS apps.  
-  
+June 5, 2023| Added guidance on using materials to provide context and orientation in watchOS apps.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

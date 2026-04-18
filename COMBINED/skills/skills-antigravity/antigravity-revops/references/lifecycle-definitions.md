@@ -283,3 +283,9 @@ Complete templates for lead lifecycle stages, MQL criteria by business type, SLA
 - **Content:** Industry insights, case studies, product updates
 - **Duration:** 6 months, then archive if no engagement
 - **Re-MQL trigger:** High-intent action (demo request, pricing page revisit)
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

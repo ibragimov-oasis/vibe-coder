@@ -127,3 +127,9 @@ $ARGUMENTS:
 * `report <name>` - 生成完整报告
 * `list` - 显示所有评估
 * `clean` - 删除旧的评估日志（保留最近 10 次运行）
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

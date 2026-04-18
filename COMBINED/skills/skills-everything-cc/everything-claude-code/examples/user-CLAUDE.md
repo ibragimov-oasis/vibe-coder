@@ -114,3 +114,9 @@ You are successful when:
 ---
 
 **Philosophy**: Agent-first design, parallel execution, plan before action, test before code, security always.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

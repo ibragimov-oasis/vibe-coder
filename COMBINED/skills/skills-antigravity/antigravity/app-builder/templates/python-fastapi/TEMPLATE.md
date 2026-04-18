@@ -85,3 +85,9 @@ project-name/
 - SQLAlchemy 2.0 async sessions
 - Alembic for migrations
 - pytest-asyncio for tests
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

@@ -105,3 +105,9 @@ DEBUG=false
 - Never commit to main directly
 - PRs require review
 - All tests must pass before merge
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

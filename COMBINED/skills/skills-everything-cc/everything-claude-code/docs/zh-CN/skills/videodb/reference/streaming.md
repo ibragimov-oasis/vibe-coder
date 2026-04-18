@@ -411,3 +411,9 @@ print(f"Event recap: {stream_url}")
 * **TextStyle 默认值**：`TextStyle` 默认为 `font='Sans'`、`fontcolor='black'`。对于文本背景色，请使用 `boxcolor`（而非 `bgcolor`）。
 * **与生成结合**：使用 `coll.generate_music(prompt, duration)` 和 `coll.generate_image(prompt, aspect_ratio)` 为时间线组合创建资产。
 * **播放**：`.play()` 在默认系统浏览器中打开流媒体 URL。对于编程使用，请直接处理 URL 字符串。
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

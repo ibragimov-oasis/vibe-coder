@@ -142,3 +142,9 @@ void processUser(const User& user) {
 - 代理：`agents/cpp-reviewer.md`
 - 技能：`skills/cpp-coding-standards/`, `skills/cpp-testing/`
 ```
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

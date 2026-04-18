@@ -843,3 +843,9 @@ A fix is considered complete when ALL of the following are met:
 - Deployment success rate: > 95% (rollback rate < 5%)
 
 Issue to resolve: $ARGUMENTS
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

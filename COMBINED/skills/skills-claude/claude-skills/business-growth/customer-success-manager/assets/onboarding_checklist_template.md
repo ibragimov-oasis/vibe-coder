@@ -220,3 +220,9 @@ The following criteria must be met to consider onboarding complete:
 
 **Template Version:** 1.0
 **Last Updated:** February 2026
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

@@ -222,3 +222,9 @@ Only use if the referral is real — never fake this.
 - Emojis
 - ALL CAPS
 - Question marks (feels like an ad)
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

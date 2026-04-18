@@ -27,3 +27,9 @@ tags:
 
 - Use **PHP-CS-Fixer** or **Laravel Pint** for formatting.
 - Use **PHPStan** or **Psalm** for static analysis.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

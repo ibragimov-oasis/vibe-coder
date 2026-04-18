@@ -451,3 +451,9 @@ in [timeframe]."
 DEMO: "Want me to show you exactly how the integration works
 in a quick demo?"
 ```
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

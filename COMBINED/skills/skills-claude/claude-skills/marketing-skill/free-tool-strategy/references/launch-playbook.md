@@ -187,3 +187,9 @@ A free tool is a 3-year investment, not a 3-week campaign.
 - Full UX review — does it still work on the latest mobile browsers?
 - Competitive audit — are better free alternatives emerging?
 - Decide: invest more, maintain as-is, or retire and redirect
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

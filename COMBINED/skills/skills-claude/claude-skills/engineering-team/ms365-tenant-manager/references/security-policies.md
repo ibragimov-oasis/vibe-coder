@@ -362,3 +362,9 @@ Phase 3: Enforcement (Week 4)
 - Limited directory browsing
 - Cannot enumerate users
 - Cannot invite other guests
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

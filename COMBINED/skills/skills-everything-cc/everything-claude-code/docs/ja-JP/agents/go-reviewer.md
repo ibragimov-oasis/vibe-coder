@@ -271,3 +271,9 @@ govulncheck ./...
 - 標準ライブラリから非推奨の関数にフラグを立てる
 
 「このコードはGoogleまたはトップGoショップでレビューに合格するか?」という考え方でレビューします。
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

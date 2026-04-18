@@ -82,5 +82,10 @@ tags:
   - source/skills-antigravity
 ---|---  
 December 5, 2023| Enhanced guidance for in-depth modal experiences and clarified guidance on multiple modal views.  
-June 21, 2023| Updated to include guidance for visionOS.  
-  
+June 21, 2023| Updated to include guidance for visionOS.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

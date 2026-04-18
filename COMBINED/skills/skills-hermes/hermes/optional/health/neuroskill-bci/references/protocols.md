@@ -457,3 +457,9 @@ When guiding the user through a protocol:
 - Muscle tense: 5 seconds
 - Muscle release: 8–10 seconds
 - Body-scan region: 10–15 seconds
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-hermes]] — Category: skills-hermes
+

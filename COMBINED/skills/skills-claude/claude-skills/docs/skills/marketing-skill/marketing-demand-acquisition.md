@@ -303,3 +303,9 @@ Required:
 - **content-strategy**: For content-driven demand generation.
 - **email-sequence**: For nurture sequences in the demand funnel.
 - **campaign-analytics**: For measuring demand gen effectiveness.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

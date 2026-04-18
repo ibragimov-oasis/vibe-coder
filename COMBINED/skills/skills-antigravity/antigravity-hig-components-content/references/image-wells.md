@@ -39,3 +39,8 @@ For related guidance, see [Image views](https://developer.apple.com/design/human
 
 [`NSImageView`](https://developer.apple.com/documentation/AppKit/NSImageView) — AppKit
 
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

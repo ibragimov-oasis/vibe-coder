@@ -758,3 +758,9 @@ Device Master Record
 | 820.70 | 7.5.1 |
 | 820.75 | 7.5.6 |
 | 820.100 | 8.5.2, 8.5.3 |
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

@@ -1399,3 +1399,9 @@ loadBinaryAsset("models/tank.bin", pct => updateLoadingBar(pct))
 ### Note on Fetch API
 
 For new projects, the **Fetch API** (`fetch()`) is generally preferred over XHR. It provides a cleaner promise-based interface, supports streaming via `ReadableStream`, and integrates well with async/await. However, XHR remains relevant when you need progress events on uploads or require broader compatibility with legacy codebases.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-copilot]] — Category: skills-copilot
+

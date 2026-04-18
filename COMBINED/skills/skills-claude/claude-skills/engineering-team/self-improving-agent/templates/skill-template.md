@@ -55,3 +55,9 @@ Include the exact error message if applicable.}}
 ## Related
 
 - {{link to official docs}}
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

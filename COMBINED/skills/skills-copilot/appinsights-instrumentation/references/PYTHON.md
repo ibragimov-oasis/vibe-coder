@@ -53,3 +53,9 @@ Then send telemetry events by calling its logging methods.
 ```python
 logger.info("info log")
 ```
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-copilot]] — Category: skills-copilot
+

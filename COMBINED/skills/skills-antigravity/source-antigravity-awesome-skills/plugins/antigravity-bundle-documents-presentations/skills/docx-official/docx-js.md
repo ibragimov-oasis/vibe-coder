@@ -355,3 +355,9 @@ new Paragraph({
 - **CRITICAL for TOC**: When using TableOfContents, headings must use HeadingLevel ONLY - do NOT add custom styles to heading paragraphs or TOC will break
 - **Tables**: Set `columnWidths` array + individual cell widths, apply borders to cells not table
 - **Set table margins at TABLE level** for consistent cell padding (avoids repetition per cell)
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

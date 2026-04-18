@@ -105,3 +105,9 @@ tags:
 | Command | `.claude/commands/` | Entry point, orchestration, `/slash-command` |
 | Agent | `.claude/agents/` | Specialized worker with own tools & model |
 | Skill | `.claude/skills/` | Reusable instructions (preloaded or invoked) |
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

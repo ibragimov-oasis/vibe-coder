@@ -170,3 +170,9 @@ Use the `skill-creator` meta-skill for guided skill creation:
 ---
 
 *Part of the [Claude Code Skills & Agent Plugins](https://github.com/alirezarezvani/claude-skills) repository — 192+ production-ready skills for 11 AI coding tools.*
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

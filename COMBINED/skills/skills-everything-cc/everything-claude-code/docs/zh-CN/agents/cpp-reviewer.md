@@ -81,3 +81,9 @@ cmake --build build 2>&1 | head -50
 * **阻止**：发现关键或高级别问题
 
 有关详细的 C++ 编码标准和反模式，请参阅 `skill: cpp-coding-standards`。
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

@@ -101,3 +101,9 @@ Links para outros codemaps
 - [ ] Sem referências obsoletas
 
 ## Quando Atualizar
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

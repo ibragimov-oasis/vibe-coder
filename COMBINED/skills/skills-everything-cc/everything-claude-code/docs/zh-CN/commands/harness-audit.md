@@ -77,3 +77,9 @@ $ARGUMENTS:
 
 * `repo|hooks|skills|commands|agents` (可选范围)
 * `--format text|json` (可选输出格式)
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

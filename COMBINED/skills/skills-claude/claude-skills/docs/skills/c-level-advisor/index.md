@@ -196,3 +196,9 @@ tags:
     Strategy fails at the cascade, not the boardroom. This skill detects misalignment before it becomes dysfunction and b...
 
 </div>
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

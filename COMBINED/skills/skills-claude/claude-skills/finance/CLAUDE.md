@@ -111,3 +111,9 @@ python financial-analyst/scripts/forecast_builder.py forecast_data.json --format
 **Skills Deployed:** 2/2 finance skills production-ready
 **Total Tools:** 7 Python automation tools
 **Commands:** /financial-health, /saas-health
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

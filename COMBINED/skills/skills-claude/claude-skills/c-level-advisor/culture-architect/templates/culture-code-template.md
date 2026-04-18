@@ -142,3 +142,9 @@ This document is descriptive, not aspirational. It describes how we operate toda
 We update this annually. When the update happens, we'll tell you what changed and why.
 
 *Last updated: [Date] | Version: [X.X]*
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

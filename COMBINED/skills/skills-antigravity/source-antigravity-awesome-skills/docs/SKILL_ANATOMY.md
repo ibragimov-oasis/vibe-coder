@@ -8,3 +8,9 @@ tags:
 # Skill Anatomy
 
 This document moved to [`contributors/skill-anatomy.md`](contributors/skill-anatomy.md).
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

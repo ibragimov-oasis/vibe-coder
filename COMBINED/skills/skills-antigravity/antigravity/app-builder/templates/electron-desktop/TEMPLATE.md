@@ -90,3 +90,9 @@ project-name/
 - Custom title bar for native feel
 - Handle window state (maximize, minimize)
 - Auto-updates with electron-updater
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

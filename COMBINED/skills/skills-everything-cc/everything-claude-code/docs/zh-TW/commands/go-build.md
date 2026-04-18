@@ -83,3 +83,9 @@ Agent 會在以下情況停止並報告：
 
 - Agent：`agents/go-build-resolver.md`
 - 技能：`skills/golang-patterns/`
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

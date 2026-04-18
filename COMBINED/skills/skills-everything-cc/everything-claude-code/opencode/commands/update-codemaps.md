@@ -83,3 +83,9 @@ import { functionName } from '@/module'
 ---
 
 **TIP**: Keep codemaps updated when adding new modules or significant refactoring.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

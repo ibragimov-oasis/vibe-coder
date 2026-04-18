@@ -100,3 +100,9 @@ Detaylı Python desenleri, güvenlik örnekleri ve kod örnekleri için, skill: 
 ---
 
 Şu zihniyetle inceleyin: "Bu kod, üst düzey bir Python şirketinde veya açık kaynak projesinde incelemeden geçer miydi?"
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

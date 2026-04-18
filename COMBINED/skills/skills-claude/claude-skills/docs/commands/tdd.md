@@ -44,3 +44,9 @@ Generate tests, analyze coverage, and validate test quality using the TDD Guide 
 
 ## Skill Reference
 → `engineering-team/tdd-guide/SKILL.md`
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

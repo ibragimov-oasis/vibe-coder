@@ -52,5 +52,10 @@ tags:
   - artifact/doc
   - source/skills-antigravity
 ---|---  
-June 9, 2025| Added guidance for synchronizing game data through iCloud.  
-  
+June 9, 2025| Added guidance for synchronizing game data through iCloud.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

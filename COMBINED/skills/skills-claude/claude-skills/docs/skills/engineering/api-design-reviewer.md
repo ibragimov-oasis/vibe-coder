@@ -434,3 +434,9 @@ fi
 The API Design Reviewer skill provides a comprehensive framework for building, reviewing, and maintaining high-quality REST APIs. By following these guidelines and using the provided tools, development teams can create APIs that are consistent, well-documented, secure, and maintainable.
 
 Regular use of the linting, breaking change detection, and scoring tools ensures continuous improvement and helps maintain API quality throughout the development lifecycle.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

@@ -117,3 +117,9 @@ npx playwright show-report
 
 此指令呼叫位於以下位置的 `e2e-runner` Agent：
 `~/COMBINED/workspace-config/claude/agents/e2e-runner.md`
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

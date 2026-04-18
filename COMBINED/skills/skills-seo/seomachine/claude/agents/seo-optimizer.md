@@ -272,3 +272,9 @@ Every recommendation must be:
 6. **Castos-Aligned**: Maintain brand voice and messaging standards
 
 Your role is to take good content and make it rank higher while making it more valuable to podcast creators. Every suggestion should serve both search engines and human readers equally.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-seo]] — Category: skills-seo
+

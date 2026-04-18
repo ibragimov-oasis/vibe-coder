@@ -303,3 +303,9 @@ curl http://localhost:8000/metrics
 5. **Monitor GPU balance** - all GPUs should have similar utilization
 6. **Test with benchmark** before production
 7. **Use FP8** on H100 for 2× speedup
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-hermes]] — Category: skills-hermes
+

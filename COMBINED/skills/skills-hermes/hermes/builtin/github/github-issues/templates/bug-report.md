@@ -40,3 +40,9 @@ tags:
 ## Additional Context
 
 <!-- Screenshots, related issues, workarounds discovered, etc. -->
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-hermes]] — Category: skills-hermes
+

@@ -575,3 +575,8 @@ assert "HF_TOKEN" in os.environ, "HF_TOKEN required!"
 6. **Monitor token usage** - review activity regularly
 7. **Rotate tokens** - generate new tokens periodically
 
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

@@ -397,3 +397,9 @@ python train_async.py \
 - GitHub: https://github.com/THUDM/slime
 - Blog: https://lmsys.org/blog/2025-07-09-slime/
 - Examples: `examples/` directory (14+ worked examples)
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-hermes]] — Category: skills-hermes
+

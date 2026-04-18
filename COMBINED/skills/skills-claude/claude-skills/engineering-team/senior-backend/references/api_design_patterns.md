@@ -535,3 +535,9 @@ const idempotencyMiddleware: RequestHandler = async (req, res, next) => {
 | PATCH | No | No | No | Yes |
 | DELETE | Yes | No | No | Optional |
 | OPTIONS | Yes | Yes | No | No |
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

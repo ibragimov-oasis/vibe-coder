@@ -53,3 +53,9 @@ exit                           Quit
 - Sessions are stored at `~/.claude/claw/<session>.md`.
 - Compaction keeps the most recent turns and writes a compaction header.
 - Export supports markdown, JSON turns, and plain text.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

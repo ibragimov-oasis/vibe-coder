@@ -250,3 +250,9 @@ This specification intentionally mirrors **real hardware quirks** while allowing
 * SBC simulation
 * ROM development workflows
 * Integration with 6502 + 6522 + SRAM emulation
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-copilot]] — Category: skills-copilot
+

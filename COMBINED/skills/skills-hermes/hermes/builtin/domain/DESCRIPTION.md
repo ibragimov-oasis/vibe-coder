@@ -26,3 +26,9 @@ Zero dependencies. Zero API keys. Works out of the box.
 - WHOIS servers — Direct TCP to 100+ authoritative TLD servers  
 - Google DNS-over-HTTPS — MX/NS/TXT/CNAME resolution
 - System DNS — A/AAAA records
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-hermes]] — Category: skills-hermes
+

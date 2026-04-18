@@ -975,3 +975,9 @@ Before finalizing your Node/TypeScript MCP server implementation, ensure:
 - [ ] Server runs: `node dist/index.js --help`
 - [ ] All imports resolve correctly
 - [ ] Sample tool calls work as expected
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

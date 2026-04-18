@@ -49,3 +49,9 @@ Enable Swift 6 strict concurrency checking. Prefer:
 - `Sendable` value types for data crossing isolation boundaries
 - Actors for shared mutable state
 - Structured concurrency (`async let`, `TaskGroup`) over unstructured `Task {}`
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

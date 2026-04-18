@@ -122,3 +122,9 @@ Every plugin in this collection works across multiple AI coding agents:
 ---
 
 *Last updated: March 2026 · [alirezarezvani/claude-skills](https://github.com/alirezarezvani/claude-skills)*
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

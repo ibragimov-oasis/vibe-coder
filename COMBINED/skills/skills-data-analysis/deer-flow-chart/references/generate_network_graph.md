@@ -27,3 +27,9 @@ tags:
 
 ## 返回结果
 - 返回网络图 URL，并提供 `_meta.spec` 以便后续增删节点。
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-data-analysis]] — Category: skills-data-analysis
+

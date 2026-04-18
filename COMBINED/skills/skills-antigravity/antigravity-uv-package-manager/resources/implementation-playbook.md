@@ -835,3 +835,9 @@ uv --version                # Show version
 8. **Use workspaces** - For monorepo projects
 9. **Export for compatibility** - Generate requirements.txt when needed
 10. **Read the docs** - uv is feature-rich and evolving
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

@@ -241,3 +241,9 @@ If people say "ask Gemini" or "ask Perplexity" or "ask Stagehand" they mean to u
 
 <!-- vibe-tools-version: 0.60.6 -->
 </vibe-tools Integration>
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-awesome-claude]] — Category: skills-awesome-claude
+

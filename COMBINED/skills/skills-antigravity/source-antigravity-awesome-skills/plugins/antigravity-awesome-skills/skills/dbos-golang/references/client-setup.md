@@ -66,3 +66,9 @@ ClientConfig options:
 Always call `client.Shutdown()` when done.
 
 Reference: [DBOS Client](https://docs.dbos.dev/golang/reference/client)
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

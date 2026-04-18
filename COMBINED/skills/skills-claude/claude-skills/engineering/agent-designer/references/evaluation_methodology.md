@@ -754,3 +754,9 @@ Effective evaluation of multi-agent systems requires a comprehensive, multi-dime
 5. **Reliable**: Produce consistent, reproducible results
 
 Regular evaluation using this methodology will ensure multi-agent systems continue to meet user needs while optimizing for cost, performance, and reliability.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

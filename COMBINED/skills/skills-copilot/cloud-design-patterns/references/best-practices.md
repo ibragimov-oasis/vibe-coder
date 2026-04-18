@@ -39,3 +39,9 @@ When implementing patterns, document:
 - Track pattern-specific metrics (circuit breaker state, cache hit ratio, queue depth)
 - Use distributed tracing for patterns involving multiple services
 - Alert on pattern degradation (circuit frequently open, high retry rates)
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-copilot]] — Category: skills-copilot
+

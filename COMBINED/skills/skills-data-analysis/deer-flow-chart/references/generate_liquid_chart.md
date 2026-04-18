@@ -29,3 +29,9 @@ tags:
 
 ## 返回结果
 - 返回水波图 URL，并在 `_meta.spec` 中记录参数。
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-data-analysis]] — Category: skills-data-analysis
+

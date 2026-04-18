@@ -34,3 +34,9 @@ tags:
 ## 输出
 
 用户收到一个简短、准确的答案，该答案基于当前文档，并附带任何有帮助的代码片段。如果 Context7 不可用，则说明情况，并根据训练数据回答问题，并注明文档可能已过时。
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

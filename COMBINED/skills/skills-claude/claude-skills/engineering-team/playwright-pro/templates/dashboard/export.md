@@ -151,3 +151,9 @@ test.describe('Export', () => {
 | Loading state | Button disabled during generation |
 | Server error | Export failure → error alert |
 | Empty dataset | No-data warning shown |
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

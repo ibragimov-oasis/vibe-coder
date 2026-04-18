@@ -512,3 +512,9 @@ postUpdate():
 | Ratio-based velocity | Resolution-independent movement |
 | Friction multiplier | Tunable feel per surface type |
 | Cell overflow while-loops | Handles multi-cell movement safely |
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-copilot]] — Category: skills-copilot
+

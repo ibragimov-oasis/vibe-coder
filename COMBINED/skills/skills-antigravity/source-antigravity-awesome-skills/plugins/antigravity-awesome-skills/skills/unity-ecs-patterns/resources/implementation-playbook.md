@@ -630,3 +630,9 @@ public struct Disabled : IComponentData, IEnableableComponent { }
 - [Unity DOTS Documentation](https://docs.unity3d.com/Packages/com.unity.entities@latest)
 - [Unity DOTS Samples](https://github.com/Unity-Technologies/EntityComponentSystemSamples)
 - [Burst User Guide](https://docs.unity3d.com/Packages/com.unity.burst@latest)
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

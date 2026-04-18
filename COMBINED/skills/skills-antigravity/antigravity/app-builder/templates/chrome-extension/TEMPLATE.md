@@ -94,3 +94,9 @@ project-name/
 - Wrap Chrome APIs in promises
 - Minimize permissions
 - Handle offline gracefully
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

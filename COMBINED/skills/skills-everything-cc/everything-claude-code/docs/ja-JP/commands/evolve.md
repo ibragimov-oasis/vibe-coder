@@ -195,3 +195,9 @@ evolved_from:
 
 [クラスター化されたinstinctsに基づいて生成されたコンテンツ]
 ```
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

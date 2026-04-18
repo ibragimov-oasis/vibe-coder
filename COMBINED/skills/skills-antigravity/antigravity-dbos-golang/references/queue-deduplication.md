@@ -53,3 +53,9 @@ This is useful for:
 - Idempotent event processing
 
 Reference: [Deduplication](https://docs.dbos.dev/golang/tutorials/queue-tutorial#deduplication)
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

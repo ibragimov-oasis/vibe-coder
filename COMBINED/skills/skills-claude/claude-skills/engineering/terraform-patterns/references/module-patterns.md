@@ -414,3 +414,9 @@ variable "cidr_block" {
 | No outputs | Consumer modules can't reference resources | Output IDs, ARNs, endpoints |
 | No variable descriptions | Users don't know what to provide | Every variable gets a description |
 | `terraform.tfvars` committed | Secrets leak to version control | Use `.gitignore`, env vars, or Vault |
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

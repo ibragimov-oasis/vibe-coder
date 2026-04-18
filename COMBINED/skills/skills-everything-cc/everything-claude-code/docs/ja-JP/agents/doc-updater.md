@@ -454,3 +454,9 @@ function extractJSDoc(pattern: string) {
 ---
 
 **覚えておいてください**: 現実と一致しないドキュメントは、ドキュメントがないよりも悪いです。常に真実の源（実際のコード）から生成してください。
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

@@ -432,3 +432,9 @@ Detailed reference guides in `references/`:
 
 - **UI Design System** (`product-team/ui-design-system/`) — Research findings inform design system decisions
 - **Product Manager Toolkit** (`product-team/product-manager-toolkit/`) — Customer interview analysis complements persona research
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

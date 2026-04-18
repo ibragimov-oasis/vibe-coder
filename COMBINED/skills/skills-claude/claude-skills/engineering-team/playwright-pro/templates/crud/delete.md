@@ -121,3 +121,9 @@ test.describe('Delete {{entityName}}', () => {
 | Cancel deletion | Dialog cancelled → entity intact |
 | Dependent error | Entity with children → deletion blocked |
 | Type-to-confirm | Confirm button disabled until name typed |
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

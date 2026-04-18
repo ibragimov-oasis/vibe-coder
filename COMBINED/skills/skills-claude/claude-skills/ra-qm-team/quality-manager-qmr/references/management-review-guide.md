@@ -383,3 +383,9 @@ QMR: _________________ Date: _______
 | Input completeness | 100% | Inputs provided / Required inputs |
 | Decision documentation | 100% | Documented decisions / Decisions made |
 | Time to complete review | Per schedule | Actual date - Planned date |
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

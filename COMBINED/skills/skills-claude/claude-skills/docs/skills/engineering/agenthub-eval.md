@@ -92,3 +92,9 @@ python {skill_path}/scripts/session_manager.py --update {session-id} --state eva
    - Ranked results with winner highlighted
    - Next step: `/hub:merge` to merge the winner
    - Or `/hub:merge {session-id} --agent {winner}` to be explicit
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

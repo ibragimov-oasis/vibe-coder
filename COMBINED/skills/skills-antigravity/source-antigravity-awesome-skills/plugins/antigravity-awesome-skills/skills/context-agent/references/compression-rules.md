@@ -69,3 +69,9 @@ maintain
   ├── Verificar drift ACTIVE_CONTEXT ↔ MEMORY.md → sincronizar
   └── Reindexar busca FTS5
 ```
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

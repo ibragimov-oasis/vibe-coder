@@ -447,3 +447,9 @@ If a deployed skill breaks:
 [ ] CLAUDE.md updated
 [ ] docs/ regenerated
 ```
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

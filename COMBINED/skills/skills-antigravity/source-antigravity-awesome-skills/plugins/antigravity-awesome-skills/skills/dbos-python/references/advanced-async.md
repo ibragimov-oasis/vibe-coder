@@ -102,3 +102,9 @@ async def async_workflow():
 ```
 
 Reference: [Async Workflows](https://docs.dbos.dev/python/tutorials/workflow-tutorial#coroutine-async-workflows)
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

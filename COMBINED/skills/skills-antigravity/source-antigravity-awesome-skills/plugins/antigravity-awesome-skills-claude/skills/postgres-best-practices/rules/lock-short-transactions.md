@@ -51,3 +51,9 @@ set local statement_timeout = '5s';
 ```
 
 Reference: [Transaction Management](https://www.postgresql.org/docs/current/tutorial-transactions.html)
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

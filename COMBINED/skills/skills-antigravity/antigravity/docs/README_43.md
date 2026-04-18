@@ -37,3 +37,9 @@ The agent will then follow the directives in the `SKILL.md` to break down the ta
 
 **Author:** [Wahid](https://github.com/wahidzzz)  
 **Source:** [antigravity-skill-orchestrator](https://github.com/wahidzzz/antigravity-skill-orchestrator)
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

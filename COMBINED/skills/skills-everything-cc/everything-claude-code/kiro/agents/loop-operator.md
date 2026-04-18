@@ -38,3 +38,9 @@ Escalate when any condition is true:
 - repeated failures with identical stack traces
 - cost drift outside budget window
 - merge conflicts blocking queue advancement
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

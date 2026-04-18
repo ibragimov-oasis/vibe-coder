@@ -194,3 +194,9 @@ After starting training:
 
 - **Trackio**: Best for real-time monitoring during long training runs
 - **Weights & Biases**: Best for team collaboration, requires account
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

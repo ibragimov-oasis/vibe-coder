@@ -67,3 +67,9 @@ If the work is more expensive than a small derived property, move it into a mode
 - Recomputing heavy transforms every render
 - Observing a large object from many descendants when only one field matters
 - Building custom scroll containers when `List`, `LazyVStack`, or `LazyHGrid` would already solve the problem
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

@@ -219,3 +219,9 @@ Connected | Connected
 **Document Scope:** Solderless breadboard reference
 **Audience:** Hobbyist, student, engineer
 **Status:** Stable reference
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-copilot]] — Category: skills-copilot
+

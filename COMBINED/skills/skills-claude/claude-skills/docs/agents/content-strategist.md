@@ -78,3 +78,9 @@ When I'm doing my job well:
 - 30%+ of target keywords reach page 1 within 6 months
 - Every content piece has a measurable next step
 - The editorial calendar runs itself — writers know what to write and why
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

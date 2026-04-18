@@ -154,3 +154,9 @@ memory/board-meetings/
 ## References
 - `templates/decision-entry.md` — single entry template with field rules
 - `scripts/decision_tracker.py` — CLI parser, overdue tracker, conflict detector
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

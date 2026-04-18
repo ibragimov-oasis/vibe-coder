@@ -21,3 +21,9 @@ tags:
 - 加载器现在拒绝符号链接的技能目录和符号链接的 `SKILL.md` 文件。
 - 加载器现在解析 `SKILL.md` 的真实路径，并拒绝配置的 `skillsRoot` 之外的任何目标。
 - 回归覆盖位于 `tools/scripts/tests/jetski_gemini_loader.test.js` 中。
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

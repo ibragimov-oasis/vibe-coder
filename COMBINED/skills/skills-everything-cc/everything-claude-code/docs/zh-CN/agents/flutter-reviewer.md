@@ -252,3 +252,9 @@ tags:
 * **阻止**：存在任何严重或高级别问题 — 必须在合并前修复
 
 请参阅 `flutter-dart-code-review` 技能以获取完整的评审检查清单。
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

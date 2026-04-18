@@ -110,3 +110,9 @@ Detaylı güvenlik açığı kalıpları, kod örnekleri, rapor şablonları ve 
 ---
 
 **Unutmayın**: Güvenlik opsiyonel değildir. Bir güvenlik açığı kullanıcılara gerçek mali kayıplara mal olabilir. Titiz olun, paranoyak olun, proaktif olun.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

@@ -102,3 +102,9 @@ project-name/
 - Stripe webhooks for subscription sync
 - NextAuth with Prisma adapter
 - Email templates with React Email
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

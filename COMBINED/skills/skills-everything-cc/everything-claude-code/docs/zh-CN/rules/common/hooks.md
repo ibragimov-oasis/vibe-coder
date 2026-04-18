@@ -38,3 +38,9 @@ tags:
 * 额外不必要的项目
 * 粒度错误
 * 对需求的理解有误
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

@@ -481,3 +481,9 @@ Before submitting, verify:
 - [ ] Error bars included with methodology
 - [ ] Compute resources documented
 - [ ] Code/data availability stated
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-hermes]] — Category: skills-hermes
+

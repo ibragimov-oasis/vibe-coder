@@ -47,3 +47,9 @@ Key guidelines:
 ```
 
 Reference: [Data Types](https://www.postgresql.org/docs/current/datatype.html)
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

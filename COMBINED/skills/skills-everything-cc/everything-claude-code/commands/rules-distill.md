@@ -13,3 +13,9 @@ Scan installed skills, extract cross-cutting principles, and distill them into r
 ## Process
 
 Follow the full workflow defined in the `rules-distill` skill.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

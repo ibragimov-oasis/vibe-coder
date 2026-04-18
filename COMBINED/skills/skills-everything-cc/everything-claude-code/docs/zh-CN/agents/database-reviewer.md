@@ -96,3 +96,9 @@ psql -c "SELECT indexrelname, idx_scan, idx_tup_read FROM pg_stat_user_indexes O
 **请记住**：数据库问题通常是应用程序性能问题的根本原因。尽早优化查询和模式设计。使用 EXPLAIN ANALYZE 来验证假设。始终对外键和 RLS 策略列建立索引。
 
 *模式改编自 Supabase Agent Skills（致谢：Supabase 团队），遵循 MIT 许可证。*
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

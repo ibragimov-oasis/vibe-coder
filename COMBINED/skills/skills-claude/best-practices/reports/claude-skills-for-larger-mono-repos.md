@@ -163,3 +163,9 @@ Skill descriptions are loaded into context up to a character budget (default 15,
 
 - [Claude Code Documentation - Extend Claude with Skills](https://code.claude.com/docs/en/skills)
 - [Claude Code Documentation - Automatic Discovery from Nested Directories](https://code.claude.com/docs/en/skills#automatic-discovery-from-nested-directories)
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

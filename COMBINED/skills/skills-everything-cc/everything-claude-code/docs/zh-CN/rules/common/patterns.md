@@ -39,3 +39,9 @@ tags:
 * 包含数据载荷（出错时可为空）
 * 包含一个错误消息字段（成功时可为空）
 * 为分页响应包含元数据（总数、页码、限制）
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

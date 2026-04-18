@@ -56,3 +56,9 @@ Use filters to format variables: `{{variable|filter}}`.
 - `slice:start,end`: Slice array.
 - `unique`: Unique items.
 - `template:"format"`: Format items using a template string.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

@@ -68,5 +68,10 @@ tags:
   - artifact/doc
   - source/skills-antigravity
 ---|---  
-September 14, 2022| Refined best practices for multiuser support.  
-  
+September 14, 2022| Refined best practices for multiuser support.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

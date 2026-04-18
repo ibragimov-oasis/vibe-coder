@@ -25,3 +25,9 @@ Task tool (superpowers:code-reviewer):
 ```
 
 **Code reviewer returns:** Strengths, Issues (Critical/Important/Minor), Assessment
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

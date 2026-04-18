@@ -250,3 +250,9 @@ paths-ignore:
 - Excluded paths are also excluded from push protection
 
 **Alerts for excluded paths are closed as "ignored by configuration."**
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-copilot]] — Category: skills-copilot
+

@@ -79,3 +79,9 @@ After installing, start Claude Code and run:
 ```
 
 If you see search results, the extension is working correctly.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-seo]] — Category: skills-seo
+

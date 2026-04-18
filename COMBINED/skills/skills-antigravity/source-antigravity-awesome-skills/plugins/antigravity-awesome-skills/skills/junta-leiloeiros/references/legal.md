@@ -64,3 +64,9 @@ de interesse público e devem ser disponibilizados.
 - [Decreto 21.981/1932](https://www.planalto.gov.br/ccivil_03/decreto/antigos/d21981.htm)
 - [LGPD](https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2018/lei/l13709.htm)
 - [LAI](https://www.planalto.gov.br/ccivil_03/_ato2011-2014/2011/lei/l12527.htm)
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

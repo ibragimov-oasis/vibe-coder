@@ -26,3 +26,9 @@ Official docs: https://developer.1password.com/docs/cli/get-started/
 
 - Use service accounts and `OP_SERVICE_ACCOUNT_TOKEN`
 - Prefer `op run` and `op inject` for runtime secret handling
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-hermes]] — Category: skills-hermes
+

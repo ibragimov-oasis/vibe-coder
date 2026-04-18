@@ -400,3 +400,9 @@ The Skill Tester represents a critical infrastructure component for maintaining 
 This meta-skill not only serves as a quality gate but also as a development tool that guides skill authors toward best practices and helps maintain consistency across the entire repository. Through its integration capabilities and comprehensive reporting, it enables both manual and automated quality assurance workflows that scale with the growing claude-skills ecosystem.
 
 The combination of structural validation, runtime testing, and multi-dimensional quality scoring provides unparalleled visibility into skill quality while maintaining the flexibility needed for diverse skill types and complexity levels. As the claude-skills repository continues to grow, the Skill Tester will remain the cornerstone of quality assurance and ecosystem integrity.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

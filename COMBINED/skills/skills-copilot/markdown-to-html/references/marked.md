@@ -126,3 +126,9 @@ ${content}
 
 writeFileSync('output.html', html);
 ```
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-copilot]] — Category: skills-copilot
+

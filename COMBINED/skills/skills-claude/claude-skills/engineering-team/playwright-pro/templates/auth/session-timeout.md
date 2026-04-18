@@ -118,3 +118,9 @@ test.describe('Session Timeout', () => {
 | Extend session | "Stay signed in" dismisses warning |
 | Auto-logout | Inactivity past timeout → /login |
 | 401 from API | Re-auth dialog shown when backend rejects request |
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

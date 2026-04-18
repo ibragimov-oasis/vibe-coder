@@ -155,3 +155,9 @@ Remaining errors: 1
 Final: `Build Status: SUCCESS/FAILED | Errors Fixed: N | Files Modified: list`
 
 For detailed Java and Spring Boot patterns, see `skill: springboot-patterns`.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

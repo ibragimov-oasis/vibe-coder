@@ -231,3 +231,9 @@ Request and review:
 - [ ] API access logged
 - [ ] Rate limiting configured
 - [ ] API permissions follow least privilege
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

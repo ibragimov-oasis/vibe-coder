@@ -175,3 +175,9 @@ Aim for 200-400 lines total.
 ## Stop When
 pass_rate >= 0.90 OR after 30 experiments.
 ```
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

@@ -49,3 +49,9 @@ Para escanear um local especifico:
 ```bash
 python detect_skills.py --path "C:\meu\diretorio"
 ```
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

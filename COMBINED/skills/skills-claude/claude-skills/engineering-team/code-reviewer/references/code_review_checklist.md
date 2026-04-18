@@ -275,3 +275,9 @@ Before diving into code, verify these basics:
 - No tests for risky changes
 - Breaking changes without migration
 - Significant performance regressions
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

@@ -68,5 +68,10 @@ tags:
   - artifact/doc
   - source/skills-antigravity
 ---|---  
-June 5, 2023| Added guidance for using tab views in watchOS.  
-  
+June 5, 2023| Added guidance for using tab views in watchOS.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

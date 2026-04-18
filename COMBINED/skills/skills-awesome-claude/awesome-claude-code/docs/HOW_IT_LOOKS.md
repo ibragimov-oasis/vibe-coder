@@ -16,3 +16,9 @@ Because it looks incredible, obviously.
 **TODO:** 
 
 - [ ] Add to `.gitignore`
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-awesome-claude]] — Category: skills-awesome-claude
+

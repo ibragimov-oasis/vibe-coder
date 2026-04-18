@@ -696,3 +696,9 @@ This should address [concern] while maintaining [other requirement].
 8. **Review Automation**: Automated checks and findings
 
 Focus on creating PRs that are a pleasure to review, with all necessary context and documentation for efficient code review process.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

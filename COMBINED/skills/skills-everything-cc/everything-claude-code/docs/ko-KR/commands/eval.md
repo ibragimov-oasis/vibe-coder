@@ -125,3 +125,9 @@ $ARGUMENTS:
 - `report <name>` - 전체 보고서 생성
 - `list` - 모든 평가 표시
 - `clean` - 오래된 평가 로그 제거 (최근 10회 실행 유지)
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

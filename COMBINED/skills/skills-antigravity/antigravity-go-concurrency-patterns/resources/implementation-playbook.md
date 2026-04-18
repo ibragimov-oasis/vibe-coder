@@ -659,3 +659,9 @@ go run -race main.go
 - [Go Concurrency Patterns](https://go.dev/blog/pipelines)
 - [Effective Go - Concurrency](https://go.dev/doc/effective_go#concurrency)
 - [Go by Example - Goroutines](https://gobyexample.com/goroutines)
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

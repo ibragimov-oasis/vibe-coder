@@ -363,3 +363,9 @@ Real-time communication
 - [Safari Web Inspector](https://developer.apple.com/safari/tools/)
 - [Can I Use](https://caniuse.com/)
 - [Browser Market Share](https://gs.statcounter.com/)
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-copilot]] — Category: skills-copilot
+

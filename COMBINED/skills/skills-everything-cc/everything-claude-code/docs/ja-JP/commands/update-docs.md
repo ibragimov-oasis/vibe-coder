@@ -36,3 +36,9 @@ tags:
 6. 差分サマリーを表示
 
 信頼できる唯一の情報源: package.jsonと.env.example
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

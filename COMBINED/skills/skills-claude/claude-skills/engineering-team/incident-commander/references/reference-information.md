@@ -206,3 +206,9 @@ We apologize for any inconvenience this may cause.
 - {Date}: {Progress update}
 - {Date}: {Progress update}
 ```
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

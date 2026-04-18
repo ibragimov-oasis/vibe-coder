@@ -498,3 +498,9 @@ function initSectionPeel() {
 | Product travels a journey narrative | Curved Path Travel |
 | Elegant section-to-section transition | Section Peel Reveal |
 | Dark → light section transition | Floating Product (section backgrounds change beneath) |
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

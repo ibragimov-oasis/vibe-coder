@@ -359,3 +359,9 @@ Normalization and denormalization are both valuable tools in database design. Th
 - **Maintain consistency** through proper design patterns and validation mechanisms
 
 The goal is not to achieve perfect normalization or denormalization, but to create a design that best serves your application's specific needs while maintaining data quality and system performance.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

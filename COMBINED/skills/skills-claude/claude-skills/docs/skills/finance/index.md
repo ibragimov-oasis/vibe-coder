@@ -40,3 +40,9 @@ tags:
     Act as a senior SaaS CFO advisor. Take raw business numbers, calculate key health metrics, benchmark against industry...
 
 </div>
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

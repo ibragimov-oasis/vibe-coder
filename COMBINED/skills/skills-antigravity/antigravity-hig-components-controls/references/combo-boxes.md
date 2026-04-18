@@ -45,3 +45,8 @@ For guidance, see [Text fields](https://developer.apple.com/design/human-interfa
 
 [`NSComboBox`](https://developer.apple.com/documentation/AppKit/NSComboBox) — AppKit
 
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

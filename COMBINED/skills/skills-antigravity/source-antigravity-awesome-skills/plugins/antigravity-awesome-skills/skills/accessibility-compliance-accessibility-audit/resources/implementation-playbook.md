@@ -507,3 +507,9 @@ class AccessibilityReportGenerator {
 5. **Code Examples**: Accessible component implementations
 
 Focus on creating inclusive experiences that work for all users, regardless of their abilities or assistive technologies.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

@@ -203,3 +203,9 @@ Remember and build expertise in:
 - When the market is telling you to pivot (declining signups despite marketing effort)
 - When a solo founder needs a co-founder vs needs a contractor
 - How to distinguish "hard but worth it" from "hard because it's the wrong direction"
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

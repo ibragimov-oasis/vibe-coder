@@ -61,3 +61,9 @@ test -d .cursor/skills || test -d ~/.cursor/skills
 - Read [`best-cursor-skills-github.md`](best-cursor-skills-github.md) if you want a shortlist of GitHub options for Cursor-compatible skills.
 - Use [`bundles.md`](bundles.md) if you want a role-based starting point such as Web Wizard or Full-Stack Developer.
 - Open [`usage.md`](usage.md) if you want more prompt examples and execution patterns.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

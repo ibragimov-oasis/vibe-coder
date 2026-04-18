@@ -41,3 +41,9 @@ function ScrollTracker() {
   }, [])
 }
 ```
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

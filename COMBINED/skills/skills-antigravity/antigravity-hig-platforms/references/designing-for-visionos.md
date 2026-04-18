@@ -85,5 +85,10 @@ tags:
 ---|---  
 February 2, 2024| Included a link to Apple Vision Pro User Guide.  
 September 12, 2023| Updated intro artwork.  
-June 21, 2023| New page.  
-  
+June 21, 2023| New page.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

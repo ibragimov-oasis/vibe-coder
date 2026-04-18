@@ -75,3 +75,9 @@ if __name__ == "__main__":
 ```
 
 Reference: [DBOS Configuration](https://docs.dbos.dev/python/reference/configuration)
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

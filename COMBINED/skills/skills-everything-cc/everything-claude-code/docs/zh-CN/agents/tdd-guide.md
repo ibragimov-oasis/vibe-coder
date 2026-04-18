@@ -98,3 +98,9 @@ npm run test:coverage
 4. 重新运行测试和评估；报告 pass@1 和 pass@3 结果。
 
 发布关键路径在合并前应达到 pass@3 的稳定性目标。
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

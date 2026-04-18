@@ -76,3 +76,9 @@ Use @create-pr once everything is passing and summarize the user-facing changes.
 - Read [`plugins.md`](plugins.md) if you want the plugin-specific install story for Codex and Claude Code.
 - Use [`workflows.md`](workflows.md) when you want step-by-step execution patterns for common engineering goals.
 - Return to [`README.md`](../../README.md) for the full compatibility matrix.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

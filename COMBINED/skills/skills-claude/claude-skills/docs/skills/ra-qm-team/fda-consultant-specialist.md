@@ -320,3 +320,9 @@ python scripts/qsr_compliance_checker.py /path/to/project --section 820.30
 # Run HIPAA risk assessment
 python scripts/hipaa_risk_assessment.py /path/to/project --category technical
 ```
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

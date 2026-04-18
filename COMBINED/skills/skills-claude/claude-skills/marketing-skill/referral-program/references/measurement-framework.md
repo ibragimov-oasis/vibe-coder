@@ -204,3 +204,9 @@ ISSUES:
 NEXT ACTION:
 - [One thing we're doing this week to improve the program]
 ```
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

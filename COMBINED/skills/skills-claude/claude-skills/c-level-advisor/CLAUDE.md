@@ -126,3 +126,9 @@ python decision-logger/scripts/decision_tracker.py
 **Skills Deployed:** 28 skills (10 roles + 5 mentor commands + 6 orchestration + 6 cross-cutting + 6 culture)
 **Python Tools:** 25 (stdlib-only)
 **Reference Docs:** 52
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

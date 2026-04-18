@@ -27,3 +27,9 @@ Configure in `~/.claude/settings.json`:
 
 - Run a final `dotnet build` before ending a session with broad C# changes
 - Warn on modified `appsettings*.json` files so secrets do not get committed
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

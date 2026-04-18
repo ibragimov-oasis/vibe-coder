@@ -326,3 +326,9 @@ Position security certifications in marketing:
 - HIPAA BAA: "Healthcare data protection to regulatory standards"
 
 These aren't just compliance — they're trust signals that compress the sales cycle.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

@@ -149,3 +149,9 @@ val client = httpClient {
 
 有关详细的协程模式，请参阅技能：`kotlin-coroutines-flows`。
 有关模块和分层模式，请参阅技能：`android-clean-architecture`。
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

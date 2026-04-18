@@ -216,3 +216,9 @@ Validate and sanitize all user input before processing.
 * `scope: "project"`（因为它们来自特定的仓库）
 
 这些应被视为具有更高初始置信度（0.7+）的团队/项目约定。
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

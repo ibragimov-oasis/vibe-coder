@@ -148,3 +148,9 @@ Recommendation: Block merge until CRITICAL issue is fixed
 
 * 代理：`agents/rust-reviewer.md`
 * 技能：`skills/rust-patterns/`、`skills/rust-testing/`
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

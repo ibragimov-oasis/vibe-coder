@@ -72,3 +72,8 @@ The most effective feedback tends to match the significance of the information t
 
 [![](https://devimages-cdn.apple.com/wwdc-services/images/7/2546ECBD-6443-41EC-921D-6429026F8B67/1700_wide_250x141_1x.jpg) Essential Design Principles ](https://developer.apple.com/videos/play/wwdc2017/802)
 
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

@@ -25,3 +25,9 @@ Use @performance-optimizer to speed up the user dashboard
 ```
 
 The skill will track, optimize, and verify performance.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

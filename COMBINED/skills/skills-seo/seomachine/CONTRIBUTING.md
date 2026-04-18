@@ -151,3 +151,9 @@ By contributing, you agree that your contributions will be licensed under the sa
 ---
 
 Thank you for helping make SEO Machine better! 🎙️📝
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-seo]] — Category: skills-seo
+

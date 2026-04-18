@@ -106,3 +106,9 @@ If the maintainer changes their mind about a previously rejected concept:
 - Delete the `.out-of-scope/` file
 - The skill does not need to reopen old issues — they're historical records
 - The new issue that triggered the reconsideration proceeds through normal triage
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-development]] — Category: skills-development
+

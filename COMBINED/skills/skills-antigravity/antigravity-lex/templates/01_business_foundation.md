@@ -32,3 +32,9 @@ When an end-user requests a company formation document:
 2. For EU-specific requests (e.g., Czech Republic), use **N-Lex** to find the specific national Commercial Register rules.
 3. Extract the entity type (LLC, Corp, GmbH, s.r.o., etc.).
 4. Reference the metadata array above to structure the document.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

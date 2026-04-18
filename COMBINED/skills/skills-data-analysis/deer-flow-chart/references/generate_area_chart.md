@@ -32,3 +32,9 @@ tags:
 
 ## 返回结果
 - 返回图像 URL，并在 `_meta.spec` 中附带完整面积图配置，可供二次渲染或追踪。
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-data-analysis]] — Category: skills-data-analysis
+

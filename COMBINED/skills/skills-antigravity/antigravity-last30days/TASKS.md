@@ -52,3 +52,9 @@ tags:
 - [x] Demo --emit=compact
 - [x] Demo --emit=context
 - [x] Verify file tree
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

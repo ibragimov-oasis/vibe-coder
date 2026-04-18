@@ -105,3 +105,9 @@ DEBUG=false
 * 切勿直接提交到主分支
 * 合并请求需要审核
 * 合并前所有测试必须通过
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

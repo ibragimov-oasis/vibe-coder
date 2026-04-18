@@ -105,3 +105,9 @@ DEBUG=false
 - Asla doğrudan main'e commit yapmayın
 - PR'lar review gerektirir
 - Merge'den önce tüm testler geçmeli
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

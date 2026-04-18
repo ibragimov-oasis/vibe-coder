@@ -700,3 +700,9 @@ Group similar operations together to reduce overhead from context switching, dra
 | Event-driven communication | Decoupled interaction through publish-subscribe |
 | Data-oriented performance | Optimize memory layout for access patterns |
 | Measure before optimizing | Profile to identify actual bottlenecks |
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-copilot]] — Category: skills-copilot
+

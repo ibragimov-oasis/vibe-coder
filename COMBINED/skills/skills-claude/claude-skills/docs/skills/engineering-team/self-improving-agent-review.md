@@ -139,3 +139,9 @@ Memory Health:
 - Full review is most valuable when MEMORY.md is getting crowded
 - Act on promotion candidates promptly — they're proven patterns
 - Don't hesitate to delete stale entries — auto-memory will re-learn if needed
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

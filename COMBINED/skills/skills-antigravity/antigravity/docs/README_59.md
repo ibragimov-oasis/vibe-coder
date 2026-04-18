@@ -260,3 +260,9 @@ All mean: Delete code. Start over.
 **Iterate until**: Agent can't find ANY rationalization that works.
 
 That's bulletproof.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

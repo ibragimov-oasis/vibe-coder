@@ -37,3 +37,9 @@ tags:
 * 应用的更改
 * 测量的改进
 * 剩余风险
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

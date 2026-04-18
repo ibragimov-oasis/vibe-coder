@@ -915,3 +915,9 @@ const first = doubled.next().value;  // Only computes first value
 - **You Don't Know JS**: https://github.com/getify/You-Dont-Know-JS
 - **Eloquent JavaScript**: https://eloquentjavascript.net/
 - **ES6 Features**: http://es6-features.org/
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

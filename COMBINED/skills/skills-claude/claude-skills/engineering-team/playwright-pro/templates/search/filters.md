@@ -133,3 +133,9 @@ test.describe('Search Filters', () => {
 | Remove chip | Chip close → filter unchecked |
 | Clear all | All filters removed at once |
 | No-results combo | Filter combination yields empty state |
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

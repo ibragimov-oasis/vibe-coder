@@ -18,3 +18,9 @@ tags:
 - FIPEZAP — Índice de preços de imóveis
 - IBAPE — Avaliações e Perícias de Engenharia
 - COFECI — Conselho Federal de Corretores
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

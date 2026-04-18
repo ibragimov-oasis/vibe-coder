@@ -84,3 +84,9 @@ Tapping into what prospects are passionate about drives significantly higher res
 ## The "So What?" Test
 
 After writing any opening line, read from prospect's perspective: "So what? Why would I care?" If the answer is nothing, rewrite.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

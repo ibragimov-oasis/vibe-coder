@@ -172,3 +172,9 @@ tags:
 
 **Next Review Date:** [Date]
 **Plan Owner:** [CSM Name]
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

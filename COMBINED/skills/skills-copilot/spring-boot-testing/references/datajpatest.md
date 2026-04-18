@@ -202,3 +202,9 @@ void shouldPersistData() {
 5. Test both success and failure cases
 6. Leverage Java 25 var keyword for cleaner variable declarations
 7. Use sequenced collection methods (getFirst(), getLast(), reversed())
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-copilot]] — Category: skills-copilot
+

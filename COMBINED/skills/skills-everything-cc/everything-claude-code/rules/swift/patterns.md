@@ -68,3 +68,9 @@ struct UserService {
 
 See skill: `swift-actor-persistence` for actor-based persistence patterns.
 See skill: `swift-protocol-di-testing` for protocol-based DI and testing.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

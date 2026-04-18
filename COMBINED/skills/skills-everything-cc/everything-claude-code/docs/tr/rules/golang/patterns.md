@@ -47,3 +47,9 @@ func NewUserService(repo UserRepository, logger Logger) *UserService {
 ## Referans
 
 Concurrency, hata yönetimi ve paket organizasyonu dahil kapsamlı Go pattern'leri için skill: `golang-patterns` dosyasına bakın.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

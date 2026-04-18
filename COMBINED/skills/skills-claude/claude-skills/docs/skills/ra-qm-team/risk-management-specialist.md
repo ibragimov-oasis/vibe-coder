@@ -464,3 +464,9 @@ What is the risk level?
 | [capa-officer](https://github.com/alirezarezvani/claude-skills/tree/main/ra-qm-team/capa-officer) | Risk-based CAPA |
 | [regulatory-affairs-head](https://github.com/alirezarezvani/claude-skills/tree/main/ra-qm-team/regulatory-affairs-head) | Regulatory submissions |
 | [quality-documentation-manager](https://github.com/alirezarezvani/claude-skills/tree/main/ra-qm-team/quality-documentation-manager) | Risk file management |
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

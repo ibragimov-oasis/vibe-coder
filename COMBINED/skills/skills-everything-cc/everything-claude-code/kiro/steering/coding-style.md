@@ -55,3 +55,9 @@ Before marking work complete:
 - [ ] Proper error handling
 - [ ] No hardcoded values (use constants or config)
 - [ ] No mutation (immutable patterns used)
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

@@ -263,3 +263,9 @@ az boards iteration team show-backlog-iteration \
 # Show current iteration
 az boards iteration team show --team {team-name} --project {project} --timeframe current
 ```
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-copilot]] — Category: skills-copilot
+

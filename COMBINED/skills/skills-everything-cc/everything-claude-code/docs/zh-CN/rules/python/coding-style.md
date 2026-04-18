@@ -45,3 +45,9 @@ class Point(NamedTuple):
 ## 参考
 
 查看技能：`python-patterns` 以获取全面的 Python 惯用法和模式。
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

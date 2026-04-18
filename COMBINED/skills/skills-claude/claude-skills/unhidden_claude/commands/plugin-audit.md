@@ -155,3 +155,9 @@ Present all results in a structured summary:
 - All phases pass → **PASS**
 - Only warnings → **PASS WITH WARNINGS**
 - Any blocker (structure <75, quality <60, script FAIL, security CRITICAL/HIGH, invalid plugin.json) → **FAIL**
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

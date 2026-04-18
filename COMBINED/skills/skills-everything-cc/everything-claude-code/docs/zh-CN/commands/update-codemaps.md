@@ -78,3 +78,9 @@ src/repos/user.ts (数据库访问，80行)
 * 为高效加载上下文，将每个代码地图保持在 **1000 个 token 以内**
 * 使用 ASCII 图表表示数据流，而非冗长的描述
 * 在主要功能添加或重构会话后运行
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

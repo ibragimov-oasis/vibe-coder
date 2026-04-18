@@ -42,3 +42,9 @@ Include:
 1. How large is the dataset?
 2. Do users need to jump to specific pages?
 3. Is data frequently changing?
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

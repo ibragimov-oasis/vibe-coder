@@ -24,3 +24,9 @@ skill/
         ├── patterns.md # Recipes
         └── gotchas.md  # Critical Errors
 ```
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

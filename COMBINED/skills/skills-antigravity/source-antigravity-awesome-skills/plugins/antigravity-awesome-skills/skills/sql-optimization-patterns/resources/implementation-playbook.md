@@ -509,3 +509,9 @@ ORDER BY pg_relation_size(indexrelid) DESC;
 - **assets/query-optimization-checklist.md**: Step-by-step optimization guide
 - **scripts/analyze-slow-queries.sql**: Identify slow queries in your database
 - **scripts/index-recommendations.sql**: Generate index recommendations
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

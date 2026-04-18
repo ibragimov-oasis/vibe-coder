@@ -352,3 +352,9 @@ A flat list view of all resources. Category: **Workflows** | Sorted: alphabetica
 **Total Resources:** 32
 
 **Last Generated:** 2026-03-30
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-awesome-claude]] — Category: skills-awesome-claude
+

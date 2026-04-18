@@ -228,3 +228,9 @@ This will:
 ---
 
 **Result**: Much cleaner category filter with smart, meaningful organization! 🎉
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

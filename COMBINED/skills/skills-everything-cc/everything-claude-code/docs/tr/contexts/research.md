@@ -31,3 +31,9 @@ Odak: Harekete geçmeden önce anlama
 
 ## Çıktı
 Önce bulgular, sonra öneriler
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

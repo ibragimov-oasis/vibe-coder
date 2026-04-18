@@ -28,3 +28,9 @@ tags:
 * 使用 Edit、Write 进行代码变更
 * 使用 Bash 运行测试/构建
 * 使用 Grep、Glob 查找代码
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

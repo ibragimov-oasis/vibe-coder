@@ -189,3 +189,9 @@ The agent will stop and report if:
 
 - Agent: `agents/rust-build-resolver.md`
 - Skill: `skills/rust-patterns/`
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

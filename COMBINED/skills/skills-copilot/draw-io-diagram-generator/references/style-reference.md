@@ -415,3 +415,9 @@ edgeStyle=orthogonalEdgeStyle;dashed=1;html=1;endArrow=open;endFill=0;
 ```text
 edgeStyle=none;strokeColor=none;endArrow=none;
 ```
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-copilot]] — Category: skills-copilot
+

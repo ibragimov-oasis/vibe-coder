@@ -505,3 +505,9 @@ helm repo index . --url https://charts.example.com
 - [Helm Documentation](https://helm.sh/docs/)
 - [Chart Template Guide](https://helm.sh/docs/chart_template_guide/)
 - [Best Practices](https://helm.sh/docs/chart_best_practices/)
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

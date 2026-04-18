@@ -48,3 +48,9 @@ tags:
 
 - 如果您想今天就开始安装和使用技能,请返回 [`README.md`](../../README.md) 并按照安装指南进行操作。
 - 如果您仍在评估工具特定选项,请继续阅读 [`best-claude-code-skills-github.md`](best-claude-code-skills-github.md) 或 [`best-cursor-skills-github.md`](best-cursor-skills-github.md)。
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

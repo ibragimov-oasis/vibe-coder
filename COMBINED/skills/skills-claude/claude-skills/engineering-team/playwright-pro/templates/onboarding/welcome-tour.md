@@ -133,3 +133,9 @@ test.describe('Welcome Tour', () => {
 | Not shown again | Tour absent on subsequent visits |
 | Tooltip target | Tour highlights correct element |
 | Close button | × closes tour |
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

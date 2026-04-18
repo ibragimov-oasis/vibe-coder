@@ -158,3 +158,9 @@ if (tz.IsInvalidTime(localTime))
 - Use `TimeZoneConverter` for most cross-platform applications.
 - Use `NodaTime` when DST arithmetic or calendaring accuracy is central.
 - Use `DateTimeOffset` for APIs and serialized timestamps.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-copilot]] — Category: skills-copilot
+

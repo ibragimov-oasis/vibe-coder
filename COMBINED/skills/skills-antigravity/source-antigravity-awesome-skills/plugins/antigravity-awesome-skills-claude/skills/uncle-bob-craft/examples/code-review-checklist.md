@@ -60,3 +60,9 @@ Copy-paste this checklist when performing a principle-based code review with the
 ---
 
 *Use with the skill: @uncle-bob-craft. For naming, functions, and formatting detail, also use @clean-code. Always run the project linter and formatter separately.*
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

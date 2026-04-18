@@ -630,3 +630,9 @@ Common table options:
 - `valign` - Vertical alignment: "top", "middle", "bottom"
 - `fontSize` - Text size
 - `autoPage` - Auto-create new slides if content overflows
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

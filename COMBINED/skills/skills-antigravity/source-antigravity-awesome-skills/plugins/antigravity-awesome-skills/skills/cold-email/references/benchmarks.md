@@ -88,3 +88,9 @@ North America: 4.1% response. Europe: 3.1%. Asia-Pacific: 2.8%. Shorter, more di
 | Will Allred    | Data-driven coaching, Mouse Trap, Vanilla Ice Cream             | Any context; universal frameworks               |
 | Justin Michael | 1–3 sentence hyper-brevity, quote their own words               | High-velocity SDR teams at scale                |
 | Sam Nelson     | Agoge Sequence — Triple on Day 1 (email + LinkedIn + call)      | Multi-channel, tiered personalization           |
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

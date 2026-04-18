@@ -349,3 +349,9 @@ Bleed typography + Offset diagonal + Horizontal scroll + Diagonal wipe
 
 **The "Minimal Luxury" Combination:**
 GSAP Flip + Section peel + Masked line curtain + Reduced parallax factors
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

@@ -83,3 +83,9 @@ engineering     bundle-size          23     8   412KB        -58.3%    paused   
 marketing       medium-ctr           31    11   8.4/10       +68.0%    active   daily
 prompts         support-tone         15     6   82/100       +46.4%    done     —
 ```
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

@@ -27,3 +27,9 @@ function Dropdown({ isOpen }: Props) {
 ```
 
 Avoids expensive re-renders and state loss.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

@@ -72,3 +72,9 @@ python3 scripts/interview_planner.py --role "Product Manager" --level mid --json
 2. Require evidence for each score recommendation.
 3. Use the same baseline rubric across comparable roles.
 4. Revisit loop design based on quality-of-hire outcomes.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

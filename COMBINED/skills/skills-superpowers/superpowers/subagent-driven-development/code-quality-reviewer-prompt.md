@@ -31,3 +31,9 @@ Task tool (superpowers:code-reviewer):
 - Did this implementation create new files that are already large, or significantly grow existing files? (Don't flag pre-existing file sizes — focus on what this change contributed.)
 
 **Code reviewer returns:** Strengths, Issues (Critical/Important/Minor), Assessment
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-superpowers]] — Category: skills-superpowers
+

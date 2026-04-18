@@ -48,3 +48,9 @@ Key behaviors:
 Type signature: `Debouncer[P any, R any]` — the type parameters match the target workflow.
 
 Reference: [Debouncing Workflows](https://docs.dbos.dev/golang/tutorials/workflow-tutorial#debouncing)
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

@@ -211,3 +211,9 @@ See [mockmvc-tester.md](mockmvc-tester.md) for the full modern API.
 3. **Prefer `jsonPath()` over `content().string()`** — more precise field-level assertions
 4. **Static imports are required** — IDE can auto-add them
 5. **Migrate to MockMvcTester** when upgrading to Spring Boot 3.2+ for better readability
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-copilot]] — Category: skills-copilot
+

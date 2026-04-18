@@ -159,3 +159,9 @@ If you don't have published blog content yet, you can:
 4. Reference industry-standard examples with your voice notes
 
 **Remember**: The more complete and representative your examples, the better Claude will understand and replicate your writing style.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-seo]] — Category: skills-seo
+

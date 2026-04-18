@@ -64,3 +64,9 @@ await DBOS.startWorkflow(gpuTask, { queueName: gpuQueue.name })("data");
 ```
 
 Reference: [Explicit Queue Listening](https://docs.dbos.dev/typescript/tutorials/queue-tutorial#explicit-queue-listening)
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

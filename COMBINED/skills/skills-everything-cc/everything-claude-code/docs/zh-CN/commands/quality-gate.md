@@ -35,3 +35,9 @@ $ARGUMENTS:
 * `[path|.]` 可选的目标路径
 * `--fix` 可选
 * `--strict` 可选
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

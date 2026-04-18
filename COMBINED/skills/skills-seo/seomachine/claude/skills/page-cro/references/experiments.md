@@ -244,3 +244,9 @@ Comprehensive list of A/B tests and experiments organized by page type.
 | Search placement | Help visitors find content |
 | CTA in nav | Always-visible conversion path |
 | Breadcrumbs | Navigation clarity |
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-seo]] — Category: skills-seo
+

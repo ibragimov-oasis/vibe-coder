@@ -195,3 +195,9 @@ LINE 1: SELECT * FROM (TABLE_NAME) WHERE ...
 - No data conversion required
 - Safe to apply automated find-and-replace, but manually verify complex queries
 - Update integration tests to exercise the migrated queries
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-copilot]] — Category: skills-copilot
+

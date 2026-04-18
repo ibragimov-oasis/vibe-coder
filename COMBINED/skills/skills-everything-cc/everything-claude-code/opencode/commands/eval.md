@@ -90,3 +90,9 @@ For non-deterministic evaluations:
 ---
 
 **TIP**: Use eval for acceptance testing before marking features complete.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

@@ -627,3 +627,9 @@ Before writing, review these context files:
 - Uses real user language (not SEO-speak)
 - Updates outdated competitor info
 - Provides depth where competitors are thin
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-seo]] — Category: skills-seo
+

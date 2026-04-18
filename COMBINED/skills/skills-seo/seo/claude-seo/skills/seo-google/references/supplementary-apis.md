@@ -104,3 +104,9 @@ Check if URLs are flagged as unsafe by Google Safe Browsing.
 **Use for SEO:** Check if pages are flagged (could explain deindexing), verify competitor safety, audit outbound links.
 
 **Quota:** 6,000 QPM. 100,000/month free tier. Requires billing enabled on GCP project.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-seo]] — Category: skills-seo
+

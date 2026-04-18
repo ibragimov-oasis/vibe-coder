@@ -204,3 +204,9 @@ print("All imports OK")
 | process (50 items) | 50 | 30-90s | ~30-75 min |
 
 Times are for cloud APIs with Claude Sonnet-class models. Local models may be faster or slower depending on hardware.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-hermes]] — Category: skills-hermes
+

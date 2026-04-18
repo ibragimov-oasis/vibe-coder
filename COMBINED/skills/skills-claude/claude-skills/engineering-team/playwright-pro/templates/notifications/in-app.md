@@ -130,3 +130,9 @@ test.describe('In-App Notifications', () => {
 | Notification click | Navigates to context page |
 | Empty state | No-notifications message |
 | Outside click | Dropdown closes |
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

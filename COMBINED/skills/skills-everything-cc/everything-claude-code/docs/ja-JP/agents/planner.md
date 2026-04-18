@@ -121,3 +121,9 @@ tags:
 - パフォーマンスのボトルネック
 
 **覚えておいてください**: 優れた計画は具体的で、実行可能で、ハッピーパスとエッジケースの両方を考慮しています。最高の計画は、自信を持って段階的な実装を可能にします。
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

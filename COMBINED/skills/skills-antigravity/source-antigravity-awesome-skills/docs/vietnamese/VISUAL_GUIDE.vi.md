@@ -517,3 +517,9 @@ Tháng 1: Trở thành người đóng góp thường xuyên
 - [CONTRIBUTING.md](../CONTRIBUTING.vi.md) - Cách thức đóng góp.
 
 **Sẵn sàng đóng góp?** Bạn làm được mà! 💪
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

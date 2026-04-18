@@ -202,3 +202,9 @@ model = get_peft_model(base_model, lora_config)
 - **Training script**: https://github.com/haotian-liu/LLaVA/tree/main/scripts
 - **Data format**: https://github.com/haotian-liu/LLaVA/blob/main/docs/Data.md
 - **Paper**: https://arxiv.org/abs/2304.08485
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-hermes]] — Category: skills-hermes
+

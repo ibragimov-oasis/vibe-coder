@@ -1063,3 +1063,9 @@ compatibility:
   backward: true   # v2 readers can read v1 data
   forward: true    # v1 readers can read v2 data
 ```
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

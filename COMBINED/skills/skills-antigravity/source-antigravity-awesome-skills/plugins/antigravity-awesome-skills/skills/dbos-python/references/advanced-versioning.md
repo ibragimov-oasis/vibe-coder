@@ -67,3 +67,9 @@ new_handle = DBOS.fork_workflow(
 ```
 
 Reference: [Versioning](https://docs.dbos.dev/python/tutorials/upgrading-workflows#versioning)
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

@@ -1019,3 +1019,9 @@ Set environment variables for all Claude Code sessions.
 - [Shipyard - Claude Code CLI Cheatsheet](https://shipyard.build/blog/claude-code-cheat-sheet/)
 - [Claude Code Environment Variables Reference](https://code.claude.com/docs/en/env-vars)
 - [Claude Code Permissions Reference](https://code.claude.com/docs/en/permissions)
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

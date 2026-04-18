@@ -175,3 +175,9 @@ WARNING: Note: This could affect the feature we're building. Want to address thi
 * 保持回答聚焦：目标是快速为用户扫清障碍，而不是进行长篇大论
 * 如果旁述引发了更广泛的讨论，请先完成当前任务，除非旁述揭示了阻碍
 * 除非明确与任务结果相关，否则旁述内容不会保存到会话文件中
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

@@ -417,3 +417,9 @@ echo "- Process improvements identified"
 **Sprint:** sprint-11-05-2025 (Day 3)
 **Status:** Production Ready
 **Version:** 1.0
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

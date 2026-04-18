@@ -321,3 +321,9 @@ python roadmap-communicator/scripts/changelog_generator.py --from v1.0.0 --to HE
 **Skills Deployed:** 14/14 product skills production-ready
 **Total Tools:** 16 Python automation tools
 **Agents:** 5 | **Commands:** 8
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

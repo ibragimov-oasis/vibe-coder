@@ -229,3 +229,9 @@ Use this for any new tracking issue:
 [ ] Consent check: tested with analytics consent granted
 [ ] Filter check: internal traffic filter not blocking test traffic
 ```
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

@@ -50,3 +50,9 @@ function SearchInput({ onSearch }: { onSearch: (q: string) => void }) {
   }, [query])
 }
 ```
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

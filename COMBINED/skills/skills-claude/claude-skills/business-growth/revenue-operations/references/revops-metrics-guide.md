@@ -309,3 +309,9 @@ Understanding how metrics relate prevents conflicting optimizations:
 | Burn Multiple | Quarterly | CFO |
 | Rule of 40 | Quarterly/Annual | CEO/Board |
 | NDR | Quarterly | CS/RevOps |
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

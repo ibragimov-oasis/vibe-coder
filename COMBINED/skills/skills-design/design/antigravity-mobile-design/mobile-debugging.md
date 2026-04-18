@@ -127,3 +127,9 @@ Web Debugging:      Mobile Debugging:
 - [ ] **Did you check the native logs?** (Not just terminal output)
 
 > **Remember:** If JavaScript looks perfect but the app fails, look closer at the Native side.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-design]] — Category: skills-design
+

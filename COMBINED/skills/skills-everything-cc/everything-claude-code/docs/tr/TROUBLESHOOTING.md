@@ -427,3 +427,9 @@ Hala sorunlar yaşıyorsanız:
 - [CONTRIBUTING.md](./CONTRIBUTING.md) - Geliştirme rehberleri
 - [docs/](../) - Detaylı dokümantasyon
 - [examples/](./examples/) - Kullanım örnekleri
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

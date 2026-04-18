@@ -337,3 +337,9 @@ Analyzes device against MDR requirements, identifies compliance gaps, generates 
 - [ ] QMS (ISO 13485) certified
 - [ ] Labeling and IFU finalized
 - [ ] **Validation:** Internal gap assessment complete
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

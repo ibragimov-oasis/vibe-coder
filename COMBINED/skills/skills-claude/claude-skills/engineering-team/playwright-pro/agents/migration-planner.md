@@ -123,3 +123,9 @@ Flag tests that may need manual intervention:
 ### Step 7: Return Plan
 
 Return the complete migration plan to `/pw:migrate` for execution.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

@@ -539,3 +539,9 @@ Original: Blog Post (2000 words)
 - [ ] Scannable format (bullets, headers)
 - [ ] Engaging hook in introduction
 - [ ] Clear conclusion and next steps
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

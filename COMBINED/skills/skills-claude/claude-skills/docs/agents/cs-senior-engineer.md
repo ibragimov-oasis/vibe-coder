@@ -102,3 +102,9 @@ Cross-cutting senior engineer covering architecture, backend, DevOps, security, 
 
 - [cs-engineering-lead](https://github.com/alirezarezvani/claude-skills/tree/main/agents/engineering-team/cs-engineering-lead.md) -- Team coordination, incident response, and cross-functional delivery
 - [cs-product-manager](https://github.com/alirezarezvani/claude-skills/tree/main/agents/product/cs-product-manager.md) -- Feature prioritization and requirements context
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

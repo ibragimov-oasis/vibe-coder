@@ -594,3 +594,9 @@ def generate_dataset(images_dir, output_dir, mask_generator):
 
     return annotations
 ```
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-hermes]] — Category: skills-hermes
+

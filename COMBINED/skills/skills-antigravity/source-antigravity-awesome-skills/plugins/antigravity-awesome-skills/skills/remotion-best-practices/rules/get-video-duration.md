@@ -59,3 +59,9 @@ import { staticFile } from "remotion";
 
 const duration = await getVideoDuration(staticFile("video.mp4"));
 ```
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

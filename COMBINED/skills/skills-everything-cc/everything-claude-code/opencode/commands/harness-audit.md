@@ -78,3 +78,9 @@ Top 3 Actions:
 $ARGUMENTS:
 - `repo|hooks|skills|commands|agents` (optional scope)
 - `--format text|json` (optional output format)
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

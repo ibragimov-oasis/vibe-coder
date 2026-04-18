@@ -325,3 +325,9 @@ Before choosing a strategy:
 ---
 
 *See also: `okr_framework.md` for OKR writing best practices*
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

@@ -381,3 +381,9 @@ A: Use multiple accounts or upgrade to Google Workspace.
 
 **Q: Is this safe for my Google account?**
 A: Use dedicated account for automation. Only accesses NotebookLM.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

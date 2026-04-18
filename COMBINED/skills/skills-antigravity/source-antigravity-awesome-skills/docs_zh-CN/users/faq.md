@@ -350,3 +350,9 @@ npm run security:docs
 - 探索 `@skill-creator` 制作你自己的技能
 
 **仍然困惑？**[打开讨论](https://github.com/sickn33/antigravity-awesome-skills/discussions)，我们会帮助你！🙌
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

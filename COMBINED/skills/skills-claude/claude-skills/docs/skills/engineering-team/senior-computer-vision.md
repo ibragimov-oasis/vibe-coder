@@ -452,3 +452,9 @@ python scripts/dataset_pipeline_builder.py data/final/ \
 - **Optimization Guide**: `references/object_detection_optimization.md`
 - **Deployment Guide**: `references/production_vision_systems.md`
 - **Scripts**: `scripts/` directory for automation tools
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

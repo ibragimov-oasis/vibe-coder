@@ -65,3 +65,9 @@ tags:
 - [ ] Tests written and passing
 - [ ] Documentation updated
 - [ ] Product Owner accepted
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

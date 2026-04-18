@@ -772,3 +772,9 @@ useSuspenseQuery({
 - [component-patterns.md](component-patterns.md) - Suspense integration
 - [loading-and-error-states.md](loading-and-error-states.md) - SuspenseLoader usage
 - [complete-examples.md](complete-examples.md) - Full working examples
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

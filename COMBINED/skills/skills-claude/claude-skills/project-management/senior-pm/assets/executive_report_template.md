@@ -272,3 +272,9 @@ Market Expansion:        ████░░░░░░░░░ 15% ($[X]M)
 ---
 
 *This report contains confidential business information. Distribution limited to authorized executives only.*
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

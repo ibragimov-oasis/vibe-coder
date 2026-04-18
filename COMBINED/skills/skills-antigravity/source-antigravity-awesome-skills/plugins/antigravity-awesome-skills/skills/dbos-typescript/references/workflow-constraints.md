@@ -66,3 +66,9 @@ const results = await Promise.allSettled([
 Use `Promise.allSettled` instead of `Promise.all` to safely handle errors without crashing the Node.js process.
 
 Reference: [Workflow Guarantees](https://docs.dbos.dev/typescript/tutorials/workflow-tutorial#workflow-guarantees)
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

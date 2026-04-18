@@ -782,3 +782,9 @@ Made with [contrib.rocks](https://contrib.rocks)。*（图像可能已缓存；[
 如果 Antigravity Awesome Skills 对你有帮助，请考虑 ⭐ 为仓库加星！
 
 <!-- GitHub Topics (for maintainers): claude-code, gemini-cli, codex-cli, antigravity, cursor, github-copilot, opencode, agentic-skills, ai-coding, llm-tools, ai-agents, autonomous-coding, mcp, ai-developer-tools, ai-pair-programming, vibe-coding, skill, skills, SKILL.md, rules.md, CLAUDE.md, GEMINI.md, CURSOR.md -->
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

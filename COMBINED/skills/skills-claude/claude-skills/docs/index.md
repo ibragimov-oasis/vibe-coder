@@ -289,3 +289,9 @@ tags:
 
 [Full Install Guide](getting-started.md){ .md-button .md-button--primary }
 [Multi-Tool Setup](integrations.md){ .md-button }
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

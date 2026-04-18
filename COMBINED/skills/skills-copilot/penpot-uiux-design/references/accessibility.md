@@ -334,3 +334,9 @@ role="status" - Status updates (like polite)
 ✓ <button>Click</button>
 
 ```
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-copilot]] — Category: skills-copilot
+

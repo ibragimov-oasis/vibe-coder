@@ -190,3 +190,9 @@ When creating new workflow bundles:
 ## License
 
 Same as the parent project.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

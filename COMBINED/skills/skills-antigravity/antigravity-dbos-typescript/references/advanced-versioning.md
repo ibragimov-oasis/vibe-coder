@@ -62,3 +62,9 @@ const handle = await DBOS.forkWorkflow<string>(
 ```
 
 Reference: [Versioning](https://docs.dbos.dev/typescript/tutorials/upgrading-workflows#versioning)
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

@@ -304,3 +304,9 @@ TDD cycle:
 If TDD reveals you're testing mock behavior, you've gone wrong.
 
 Fix: Test real behavior or question why you're mocking at all.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

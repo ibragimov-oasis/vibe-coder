@@ -357,3 +357,8 @@ Upload file results.json: 100%
 
 Always verify both are configured before submitting any job that produces results.
 
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

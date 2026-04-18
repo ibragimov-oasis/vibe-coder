@@ -76,3 +76,9 @@ Use the [TEMPLATE.md](https://github.com/alirezarezvani/claude-skills/blob/main/
 ### Try in ChatGPT
 
 Don't use Claude Code or Codex? Try our [Custom GPTs](../custom-gpts.md) — the Solo Founder persona is available as a free Custom GPT in ChatGPT.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

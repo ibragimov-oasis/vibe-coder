@@ -69,3 +69,9 @@ def workflow():
 - `False` for old workflows (started before patch deployed)
 
 Reference: [Patching](https://docs.dbos.dev/python/tutorials/upgrading-workflows#patching)
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

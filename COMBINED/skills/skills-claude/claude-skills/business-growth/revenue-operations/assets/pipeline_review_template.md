@@ -143,3 +143,9 @@ tags:
 ## Notes
 
 [Additional context, observations, or discussion points for the review meeting]
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

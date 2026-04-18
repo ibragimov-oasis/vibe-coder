@@ -34,3 +34,9 @@ When working on advanced engineering tasks, use the POWERFUL-tier skill system:
 
 - Load only 1-2 skills per request — don't bulk-load
 - These are advanced skills — combine with engineering-team/ core skills as needed
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

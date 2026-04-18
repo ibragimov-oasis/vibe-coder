@@ -70,3 +70,9 @@ tags:
 操作：调用 resolve-library-id 工具，参数 libraryName 为 "Supabase"，query 为 "Supabase auth methods"；然后调用 query-docs 工具，参数为选择的 libraryId；列出方法并根据文档展示最小化示例。
 
 输出：列出认证方法并附上简短代码示例，并注明详细信息来自当前的 Supabase 文档。
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

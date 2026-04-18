@@ -24,3 +24,9 @@ IMPORTANT:
 4. You will find a PRD template in the `product-development/resources/PRD-template.md` file. Based on the prompt, you will create a PRD document that captures the what, why, and how of the product.
 
 5. Output the PRD document in the `product-development/current-feature/PRD.md` file.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-awesome-claude]] — Category: skills-awesome-claude
+

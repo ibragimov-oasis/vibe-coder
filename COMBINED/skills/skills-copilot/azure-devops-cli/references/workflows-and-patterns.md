@@ -673,3 +673,9 @@ deploy_to_environments() {
   done
 }
 ```
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-copilot]] — Category: skills-copilot
+

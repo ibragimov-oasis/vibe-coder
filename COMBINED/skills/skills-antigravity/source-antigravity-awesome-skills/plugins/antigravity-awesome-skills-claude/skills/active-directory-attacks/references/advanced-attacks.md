@@ -387,3 +387,9 @@ python3 keytabextract.py /etc/krb5.keytab
 # Extract
 python3 SSSDKCMExtractor.py --database secrets.ldb --key secrets.mkey
 ```
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

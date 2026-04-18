@@ -106,3 +106,9 @@ benches/
 ---
 
 **TIP**: Use `rstest` for parameterized tests and `proptest` for property-based testing.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

@@ -72,3 +72,9 @@ Report:
 | Duplicate class | Check for conflicting dependencies with `./gradlew dependencies` |
 | KSP error | Run `./gradlew kspCommonMainKotlinMetadata` to regenerate |
 | Configuration cache issue | Check for non-serializable task inputs |
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

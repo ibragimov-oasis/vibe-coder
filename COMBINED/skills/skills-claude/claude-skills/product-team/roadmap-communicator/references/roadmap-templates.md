@@ -49,3 +49,9 @@ tags:
 Guideline:
 - Every initiative should map to an objective or key result.
 - Mark items without alignment as candidate de-scope.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

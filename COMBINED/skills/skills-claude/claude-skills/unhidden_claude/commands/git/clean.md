@@ -61,3 +61,9 @@ Present a summary:
 | Remote branches deleted | N |
 | Remaining local | main, dev |
 | Remaining remote | origin/main, origin/dev, origin/gh-pages |
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

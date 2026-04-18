@@ -25,3 +25,8 @@ If `CLAUDE_PLUGIN_ROOT` is unavailable, use:
 python3 ~/COMBINED/workspace-config/claude/skills/continuous-learning-v2/scripts/instinct-cli.py projects
 ```
 
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

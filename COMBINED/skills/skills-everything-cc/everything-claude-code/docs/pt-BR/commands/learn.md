@@ -75,3 +75,9 @@ Crie um arquivo de skill em `~/COMBINED/workspace-config/claude/skills/learned/[
 - Não extraia problemas de uso único (indisponibilidade específica de API etc.)
 - Foque em padrões que vão economizar tempo em sessões futuras
 - Mantenha skills focadas - um padrão por skill
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

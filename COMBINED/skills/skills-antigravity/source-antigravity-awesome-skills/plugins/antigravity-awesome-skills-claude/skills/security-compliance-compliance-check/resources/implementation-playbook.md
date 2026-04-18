@@ -968,3 +968,9 @@ To exercise your rights, contact: {company_info['privacy_email']}
 8. **Training Materials**: Workforce compliance training resources
 
 Focus on practical implementation that balances compliance requirements with business operations and user experience.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

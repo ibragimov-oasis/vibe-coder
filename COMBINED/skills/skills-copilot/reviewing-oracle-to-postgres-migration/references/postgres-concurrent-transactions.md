@@ -264,3 +264,9 @@ ExecuteReader\(.*\)[\s\S]*?Execute(Scalar|NonQuery|Reader)\(
 - [Npgsql Documentation: Basic Usage](https://www.npgsql.org/doc/basic-usage.html)
 - [PostgreSQL Documentation: Concurrency Control](https://www.postgresql.org/docs/current/mvcc.html)
 - [Npgsql GitHub: Multiple Active Result Sets Discussion](https://github.com/npgsql/npgsql/issues/462)
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-copilot]] — Category: skills-copilot
+

@@ -82,3 +82,9 @@ To see current package manager detection results, run:
 ```bash
 node scripts/setup-package-manager.js --detect
 ```
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

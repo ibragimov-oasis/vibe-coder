@@ -425,5 +425,10 @@ February 2, 2024| Enhanced guidance for avoiding system controls in iPadOS app l
 December 5, 2023| Clarified guidance on centering content in a visionOS window.  
 September 15, 2023| Added specifications for iPhone 15 Pro Max, iPhone 15 Pro, iPhone 15 Plus, iPhone 15, Apple Watch Ultra 2, and Apple Watch SE.  
 June 21, 2023| Updated to include guidance for visionOS.  
-September 14, 2022| Added specifications for iPhone 14 Pro Max, iPhone 14 Pro, iPhone 14 Plus, iPhone 14, and Apple Watch Ultra.  
-  
+September 14, 2022| Added specifications for iPhone 14 Pro Max, iPhone 14 Pro, iPhone 14 Plus, iPhone 14, and Apple Watch Ultra.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

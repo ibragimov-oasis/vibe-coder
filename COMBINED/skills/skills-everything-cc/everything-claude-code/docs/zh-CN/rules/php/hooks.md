@@ -27,3 +27,9 @@ tags:
 
 * 当编辑过的文件中存在 `var_dump`、`dd`、`dump` 或 `die()` 时发出警告。
 * 当编辑的 PHP 文件添加了原始 SQL 或禁用了 CSRF/会话保护时发出警告。
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

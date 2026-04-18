@@ -384,3 +384,9 @@ az --version
 azd version
 bicep --version
 ```
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-copilot]] — Category: skills-copilot
+

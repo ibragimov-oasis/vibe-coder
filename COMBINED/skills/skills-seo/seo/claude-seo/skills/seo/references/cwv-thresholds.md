@@ -113,3 +113,9 @@ npx lighthouse URL --output json --output-path report.json
 - **Google Search Console 2025 features** (December 2025): AI-powered configuration for automated analysis. Branded vs. non-branded queries filter. Hourly data available in API. Custom chart annotations. Social channels tracking.
 
 > **Mobile-first indexing** is 100% complete as of July 5, 2024. Google now crawls and indexes ALL websites exclusively with the mobile Googlebot user-agent. Ensure your mobile version contains all critical content, structured data, and meta tags.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-seo]] — Category: skills-seo
+

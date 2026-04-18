@@ -37,3 +37,9 @@ Uncle Bob stresses that the right-hand side still has value; the left-hand side 
 ## Relationship to craft
 
 Clean Agile ties agile values to craft: sustainable pace, tests as requirement, refactoring as part of the loop, and simplicity over speculation. Use this reference when discussing how TDD, refactoring, or pairing support agility and quality.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

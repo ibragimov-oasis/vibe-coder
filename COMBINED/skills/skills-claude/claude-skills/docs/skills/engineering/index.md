@@ -238,3 +238,9 @@ tags:
     > Predictable infrastructure. Secure state. Modules that compose. No drift.
 
 </div>
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

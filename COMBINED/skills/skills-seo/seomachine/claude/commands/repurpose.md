@@ -176,3 +176,9 @@ repurposed/
 - @context/brand-voice.md - Maintain brand voice in LinkedIn and Medium
 - @context/reddit-strategy.md - Reddit engagement rules
 - @context/ai-citation-targets.md - Platform priority reference
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-seo]] — Category: skills-seo
+

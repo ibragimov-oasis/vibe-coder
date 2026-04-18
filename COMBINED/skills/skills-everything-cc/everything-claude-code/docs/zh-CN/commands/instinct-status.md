@@ -61,3 +61,9 @@ python3 ~/COMBINED/workspace-config/claude/skills/continuous-learning-v2/scripts
     █████████░  85%  validate-user-input [global]
               触发条件: 当处理用户输入时
 ```
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

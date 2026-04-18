@@ -290,3 +290,9 @@ cargo fmt -- --check
 - Branches de feature a partir da `main`, PRs obrigatórios
 - CI: `cargo fmt --check`, `cargo clippy`, `cargo test`, `cargo audit`
 - Deploy: Docker multi-stage build com base `scratch` ou `distroless`
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

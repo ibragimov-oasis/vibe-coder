@@ -726,3 +726,9 @@ The skill uses:
 *30 days of research. 30 seconds of work.*
 
 *Prompt research. Trend discovery. Expert answers.*
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

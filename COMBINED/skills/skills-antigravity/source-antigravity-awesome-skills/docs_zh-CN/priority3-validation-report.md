@@ -211,3 +211,9 @@ Priority 3 包含面向高级用户的文档,涵盖 AI 代理技能、工具特�
 **验证人**: Claude Sonnet 4.6
 **验证时间**: 2026-03-27
 **报告版本**: 1.0
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

@@ -536,3 +536,9 @@ A: You can't (by design). Even admins are enforced. Use hotfix PR process.
 **Last Updated:** November 5, 2025
 **Branch Protection:** Active on main
 **Status:** Enforced for all contributors including admins
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

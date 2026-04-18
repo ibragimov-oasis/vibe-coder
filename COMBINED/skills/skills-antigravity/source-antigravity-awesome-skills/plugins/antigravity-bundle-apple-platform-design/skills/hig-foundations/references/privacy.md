@@ -231,5 +231,10 @@ Developer access to device cameras works differently in visionOS than it does in
 
 Date| Changes  
 ---|---  
-June 21, 2023| Consolidated guidance into new page and updated for visionOS.  
-  
+June 21, 2023| Consolidated guidance into new page and updated for visionOS.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

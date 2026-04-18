@@ -172,3 +172,9 @@ https://huggingface.co/models?pipeline_tag=text-classification&library=transform
 ```
 
 Check for ONNX support by looking for `onnx/` folder in model repository.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

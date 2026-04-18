@@ -109,3 +109,9 @@ Diğer codemap'lere linkler
 ---
 
 **Unutmayın**: Gerçeklikle eşleşmeyen dokümantasyon, dokümantasyon olmamasından daha kötüdür. Her zaman hakikat kaynağından oluşturun.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

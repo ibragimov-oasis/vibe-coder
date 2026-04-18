@@ -497,3 +497,9 @@ Respectfully submitted,
 - Lead with the "ask" — if you need board approval for a PPA or capital project, put it in the executive summary.
 - Quantify everything. "Good progress on sustainability" means nothing. "38% RE, on track for 50% by year-end" means everything.
 - Acknowledge risks explicitly. A board that discovers unmentioned risks loses trust in management.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

@@ -442,3 +442,9 @@ Always use the full schema.org URL — not just the word.
 | Back order | `https://schema.org/BackOrder` |
 | Limited availability | `https://schema.org/LimitedAvailability` |
 | Discontinued | `https://schema.org/Discontinued` |
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

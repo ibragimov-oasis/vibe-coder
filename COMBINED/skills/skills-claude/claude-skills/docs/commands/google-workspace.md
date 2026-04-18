@@ -85,3 +85,9 @@ python3 engineering-team/google-workspace-cli/scripts/output_analyzer.py --demo 
 
 ## Related Commands
 - No direct dependencies (self-contained Google Workspace skill)
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

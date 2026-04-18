@@ -416,3 +416,9 @@ cat persona_power_user.json | jq '.design_implications'
 ---
 
 *See also: `persona-methodology.md` for creation process*
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

@@ -451,3 +451,9 @@ If you encounter issues not covered in this guide:
 ---
 
 **Last Updated**: January 2025
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-seo]] — Category: skills-seo
+

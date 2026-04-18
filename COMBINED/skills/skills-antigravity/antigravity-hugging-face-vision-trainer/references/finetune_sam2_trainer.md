@@ -259,3 +259,9 @@ plt.title("After training")
 plt.axis("off")
 plt.show()
 ```
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

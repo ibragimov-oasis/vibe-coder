@@ -37,3 +37,9 @@ tags:
 | Budget Variance | (Actual - Budget) / Budget × 100 | ±10% |
 | Resource Utilization | Allocated / Available × 100 | 70-85% |
 | Strategic Alignment | Projects aligned to OKRs / total | >80% |
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

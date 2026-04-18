@@ -86,3 +86,9 @@ Result:
 
 - Validation passed after normalization.
 - Generated index count after import: `1304` skills.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

@@ -172,3 +172,9 @@ After each board meeting, score it:
 | Phase 2 conflicts surfaced | At least 1 | 0 (groupthink risk) |
 
 Track these in `memory/board-meetings/meeting-health.md` over time. Pattern: if action items consistently exceed 8, meetings are too infrequent. If conflicts are consistently 0, isolation is broken.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

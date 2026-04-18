@@ -67,3 +67,9 @@ Keep every implementation as small and obvious as possible.
 - Some core members are non‑native English speakers.
 - Please correct grammar in commit messages, code comments, and PR discussions.
 - Rewrite unclear user input when necessary to ensure smooth communication.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-awesome-claude]] — Category: skills-awesome-claude
+

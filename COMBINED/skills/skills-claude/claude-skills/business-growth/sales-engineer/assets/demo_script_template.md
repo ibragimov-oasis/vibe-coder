@@ -237,3 +237,9 @@ tags:
 ### Next Steps Agreed
 1. [Action item] - [Owner] - [Date]
 2. [Action item] - [Owner] - [Date]
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

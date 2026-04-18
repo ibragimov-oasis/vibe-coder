@@ -232,3 +232,9 @@ $ARGUMENTS:
 3. **Use security-reviewer** para auth/pagamento/PII
 4. **Mantenha handoffs concisos** - foque no que o próximo agente precisa
 5. **Rode verificação** entre agentes quando necessário
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

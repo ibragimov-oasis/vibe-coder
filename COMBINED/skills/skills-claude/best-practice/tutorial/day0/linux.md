@@ -123,3 +123,9 @@ You should see the Claude Code version printed. Now head back to [README.md](REA
 
 - **WSL (Windows Subsystem for Linux):** This guide works inside WSL too. Just follow these steps from your WSL terminal.
 - **PATH issues:** If `claude` is not found after install, ensure npm's global bin is in your PATH. Run `npm config get prefix` — the `bin/` subdirectory of that path needs to be in your PATH.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

@@ -46,3 +46,9 @@ jobs:
       - run: python3 -m pip install -r requirements.txt
       - run: python3 -m pytest
 ```
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

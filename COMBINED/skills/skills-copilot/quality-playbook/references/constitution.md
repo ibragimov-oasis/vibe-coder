@@ -165,3 +165,9 @@ After drafting all scenarios, review each one and ask:
 ## Critical Rule
 
 Each scenario's "How to verify" section must map to at least one automated test in the functional test file. If a scenario can't be automated, note why (it may require the Human Gate) — but most scenarios should be testable.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-copilot]] — Category: skills-copilot
+

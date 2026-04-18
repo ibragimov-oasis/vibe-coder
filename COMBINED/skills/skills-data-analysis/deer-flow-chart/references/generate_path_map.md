@@ -25,3 +25,9 @@ POI 名称必须具体且位于中国（如“西安市钟楼”“杭州西湖�
 
 ## 返回结果
 - 返回路径地图 URL，并在 `_meta.spec` 中保留标题与 POI 列表；若配置 `SERVICE_ID`，还会记录到“我的地图”。
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-data-analysis]] — Category: skills-data-analysis
+

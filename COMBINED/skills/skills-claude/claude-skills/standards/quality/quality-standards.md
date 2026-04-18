@@ -324,3 +324,9 @@ issue_priority:
 **Updated**: November 2025
 **Review**: Monthly quality assessment
 **Compliance**: PEP 8, Markdown standards, relative path conventions
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

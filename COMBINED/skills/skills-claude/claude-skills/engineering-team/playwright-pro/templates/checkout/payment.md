@@ -153,3 +153,9 @@ test.describe('Payment', () => {
 | Invalid card number | Inline validation from provider |
 | Expired card | Expiry error |
 | 3DS challenge | Modal completed, payment succeeds |
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

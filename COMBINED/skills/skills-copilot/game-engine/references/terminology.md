@@ -359,3 +359,9 @@ A sub-genre of action-adventure games characterized by interconnected maps, abil
 
 ### Soulslike
 Games inspired by the Dark Souls series, characterized by challenging combat, stamina-based mechanics, minimal hand-holding, and a strong emphasis on learning from failure.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-copilot]] — Category: skills-copilot
+

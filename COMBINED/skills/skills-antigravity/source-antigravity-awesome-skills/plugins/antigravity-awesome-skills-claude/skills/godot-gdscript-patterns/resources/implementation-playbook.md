@@ -809,3 +809,9 @@ func _on_off_screen() -> void:
 - [Godot Documentation](https://docs.godotengine.org/en/stable/)
 - [GDQuest Tutorials](https://www.gdquest.com/)
 - [Godot Recipes](https://kidscancode.org/godot_recipes/)
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

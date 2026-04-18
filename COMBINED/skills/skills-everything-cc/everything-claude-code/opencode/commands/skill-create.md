@@ -119,3 +119,9 @@ Creates:
 ---
 
 **TIP**: Run `/skill-create --instincts` to also generate instincts for continuous learning.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

@@ -150,3 +150,9 @@ Sometimes acquisitions don't work. Signs it's failing:
 3. Spin off or divest (expensive, but sometimes necessary)
 
 Admitting failure early costs less than dragging it out.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

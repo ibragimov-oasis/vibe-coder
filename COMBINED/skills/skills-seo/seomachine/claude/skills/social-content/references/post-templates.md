@@ -176,3 +176,9 @@ The first line determines whether anyone reads the rest.
 - "We [achieved result] in [timeframe]. Here's the full story:"
 - "[Number] people asked me about [topic]. Here's my answer:"
 - "[Authority figure] taught me [lesson]."
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-seo]] — Category: skills-seo
+

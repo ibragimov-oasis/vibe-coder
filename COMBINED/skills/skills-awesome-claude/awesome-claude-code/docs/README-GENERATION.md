@@ -620,3 +620,9 @@ These changes would break the path resolution system:
 - **Renaming `assets/` folder**: All asset path prefixes would break
 - **Having multiple root READMEs**: Only one style can be `root_style`
 - **Nested alternative folders**: All alternatives must be in the same flat folder
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-awesome-claude]] — Category: skills-awesome-claude
+

@@ -237,3 +237,9 @@ medieval castle in valley below, army approaching,
 cinematic movie poster composition, dramatic sky,
 bold contrast, fantasy art, highly detailed illustration
 ```
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

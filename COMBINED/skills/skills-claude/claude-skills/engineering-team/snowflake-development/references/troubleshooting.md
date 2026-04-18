@@ -160,3 +160,9 @@ FROM INFORMATION_SCHEMA.TABLE_STORAGE_METRICS
 WHERE table_schema = 'MY_SCHEMA'
 ORDER BY active_bytes DESC;
 ```
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

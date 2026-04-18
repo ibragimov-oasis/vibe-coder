@@ -125,3 +125,8 @@ The Apple Health icon shows that an app works with HealthKit and the Health app.
 
 [![](https://devimages-cdn.apple.com/wwdc-services/images/C03E6E6D-A32A-41D0-9E50-C3C6059820AA/A7FCCDAF-8770-4E6C-86A2-56DDB2095E3E/9232_wide_250x141_1x.jpg) Explore wellbeing APIs in HealthKit ](https://developer.apple.com/videos/play/wwdc2024/10109)
 
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

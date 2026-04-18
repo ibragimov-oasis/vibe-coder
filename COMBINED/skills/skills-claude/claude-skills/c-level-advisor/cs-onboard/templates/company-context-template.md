@@ -149,3 +149,9 @@ tags:
 - **Interview type:** full | update
 - **Next refresh due:** [DATE + 90 days]
 - **Confidence level:** high | medium | low (low = founder was guarded)
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

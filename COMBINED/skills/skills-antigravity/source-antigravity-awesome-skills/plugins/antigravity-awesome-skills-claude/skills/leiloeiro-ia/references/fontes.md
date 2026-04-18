@@ -26,3 +26,9 @@ tags:
 - zukerman.com.br
 - superbid.net
 - caixavbr.com.br
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

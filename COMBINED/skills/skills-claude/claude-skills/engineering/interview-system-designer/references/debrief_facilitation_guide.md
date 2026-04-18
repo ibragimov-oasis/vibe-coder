@@ -324,3 +324,9 @@ This guide provides a comprehensive framework for conducting effective, unbiased
 - **Leadership training**: Ensure hiring managers can facilitate effectively
 
 This guide should be adapted to your organization's specific needs while maintaining focus on evidence-based, unbiased decision making.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

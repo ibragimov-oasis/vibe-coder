@@ -67,3 +67,9 @@ tags:
 ## 推荐的下一步
 
 如果您想快速提高生产力,请安装 [Antigravity Awesome Skills](https://github.com/sickn33/antigravity-awesome-skills) 并从 [`claude-code-skills.md`](claude-code-skills.md) 和 [`bundles.md`](bundles.md) 开始。
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

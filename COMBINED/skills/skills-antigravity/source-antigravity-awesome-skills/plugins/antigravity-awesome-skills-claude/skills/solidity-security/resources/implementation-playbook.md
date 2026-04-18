@@ -529,3 +529,9 @@ contract WellDocumentedContract {
 5. **Missing Events**: Emit events for state changes
 6. **Excessive Gas in Loops**: Can hit block gas limit
 7. **No Upgrade Path**: Consider proxy patterns if upgrades needed
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

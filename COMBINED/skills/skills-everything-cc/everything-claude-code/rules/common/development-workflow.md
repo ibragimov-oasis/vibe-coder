@@ -49,3 +49,9 @@ The Feature Implementation Workflow describes the development pipeline: research
    - Resolve any merge conflicts
    - Ensure branch is up to date with target branch
    - Only request review after these checks pass
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

@@ -259,3 +259,9 @@ With GitHub integration, the development workflow includes:
 4. **Documentation maintenance** - Claude can keep documentation updated as the code evolves
 
 This level of integration represents a new paradigm in AI-human collaboration, where the AI assistant becomes a full-fledged team member rather than just a tool for generating code snippets.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-awesome-claude]] — Category: skills-awesome-claude
+

@@ -288,3 +288,9 @@ pm2 resurrect          # 恢复已保存进程
 
 **提示：** 首次启动后运行 `pm2 save` 以启用简化命令。
 ```
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

@@ -50,3 +50,9 @@ Antigravity Awesome Skills is built for the first path: broad coverage, multiple
 - Choose **Antigravity Awesome Skills** if you want a large, installable, multi-tool library with onboarding help.
 - Choose a smaller curated repo if you want fewer choices and more editorial filtering.
 - If you are unsure, install this repo first, start with [`bundles.md`](bundles.md), and then compare alternatives once you know your preferred workflow.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

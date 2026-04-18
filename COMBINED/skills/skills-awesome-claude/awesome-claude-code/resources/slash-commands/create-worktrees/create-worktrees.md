@@ -179,3 +179,9 @@ git worktree add -b "$branch_name" "$branch_path" "$base_commit"
 ```
 
 This will allow you to specify any commit, tag, or branch name as the starting point for your new branch.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-awesome-claude]] — Category: skills-awesome-claude
+

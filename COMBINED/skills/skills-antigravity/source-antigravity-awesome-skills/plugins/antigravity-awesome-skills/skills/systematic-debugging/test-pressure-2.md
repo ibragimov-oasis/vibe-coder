@@ -73,3 +73,9 @@ You're exhausted. You have dinner plans at 8:30pm (already late). Code review is
 ## Choose A, B, or C
 
 Which do you choose? Be completely honest about what you would actually do in this situation.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

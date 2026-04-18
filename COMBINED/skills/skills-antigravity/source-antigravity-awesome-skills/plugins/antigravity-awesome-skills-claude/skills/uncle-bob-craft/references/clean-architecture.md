@@ -61,3 +61,9 @@ Use this when discussing module/package boundaries beyond single layers. For ful
 ---
 
 Use this reference when reviewing for "dependency direction," "layer violations," or "missing boundaries."
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

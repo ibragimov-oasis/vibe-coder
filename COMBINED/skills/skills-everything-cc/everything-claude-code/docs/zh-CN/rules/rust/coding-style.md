@@ -155,3 +155,9 @@ src/
 ## 参考
 
 有关全面的 Rust 惯用法和模式，请参阅技能：`rust-patterns`。
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

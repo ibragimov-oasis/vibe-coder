@@ -497,3 +497,9 @@ await page.locator("my-component >> .inner-button").click()
 # Or use the css= engine with >> for chained piercing
 await page.locator("css=host-element >> css=.shadow-child").click()
 ```
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

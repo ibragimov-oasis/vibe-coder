@@ -40,3 +40,9 @@ instead of presenting it as a `/...` command.
 ## User Input
 
 $ARGUMENTS
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

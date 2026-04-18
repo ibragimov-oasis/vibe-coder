@@ -360,3 +360,9 @@ Current recommendation:
 2. `#420`
 3. `#336`
 4. `#298`
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

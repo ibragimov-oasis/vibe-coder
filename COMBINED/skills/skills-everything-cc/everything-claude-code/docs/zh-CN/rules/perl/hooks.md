@@ -25,3 +25,9 @@ tags:
 ## 警告
 
 * 警告在非脚本 `.pm` 文件中使用 `print` — 应使用 `say` 或日志模块（例如，`Log::Any`）
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

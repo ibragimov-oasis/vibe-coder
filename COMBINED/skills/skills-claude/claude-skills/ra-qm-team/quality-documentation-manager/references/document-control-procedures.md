@@ -345,3 +345,9 @@ RECORD DISPOSAL LOG
 | SOP-02-001 | Document Control | 03 | 2024-01-15 | Effective | QA Mgr | 2025-01-15 |
 | WI-06-012 | Assembly Line Setup | 02 | 2024-03-01 | Effective | Prod Mgr | 2025-03-01 |
 ```
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

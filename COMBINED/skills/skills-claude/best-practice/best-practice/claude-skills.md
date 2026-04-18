@@ -60,3 +60,9 @@ See also: [Official Skills Repository](https://github.com/anthropics/skills/tree
 - [Claude Code Skills — Docs](https://code.claude.com/docs/en/skills)
 - [Skills Discovery in Monorepos](../reports/claude-skills-for-larger-mono-repos.md)
 - [Claude Code CHANGELOG](https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md)
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

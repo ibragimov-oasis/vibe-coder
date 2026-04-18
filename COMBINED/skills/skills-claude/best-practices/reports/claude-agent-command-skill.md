@@ -215,3 +215,9 @@ Then **nothing fires automatically**. Claude would fall back to its own general 
 - [Skills Best Practice](../best-practice/claude-skills.md)
 - [Commands Best Practice](../best-practice/claude-commands.md)
 - [Sub-agents Best Practice](../best-practice/claude-subagents.md)
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

@@ -343,3 +343,9 @@ run.py cleanup_manager.py ...          # Clean up
 ```
 
 **Remember:** When in doubt, use run.py and ask the user for notebook details!
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

@@ -45,3 +45,9 @@ Monorepo:
 | Payment | Stripe | LemonSqueezy, Paddle |
 | Email | - | Resend, SendGrid |
 | Search | - | Algolia, Typesense |
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

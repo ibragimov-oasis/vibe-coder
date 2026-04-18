@@ -298,3 +298,9 @@ training_args = TrainingArguments(
     gradient_checkpointing=True
 )
 ```
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-hermes]] — Category: skills-hermes
+

@@ -48,3 +48,9 @@ func NewUserService(repo UserRepository, logger Logger) *UserService {
 ## 参考
 
 有关全面的 Go 模式（包括并发、错误处理和包组织），请参阅技能：`golang-patterns`。
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

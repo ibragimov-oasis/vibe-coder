@@ -182,3 +182,9 @@ role-{role}            # Role-based groups (role-admin, role-viewer)
 - Alert on admin group changes
 - Weekly report of new and deactivated accounts
 - Monthly stale account report (no login in 90 days)
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

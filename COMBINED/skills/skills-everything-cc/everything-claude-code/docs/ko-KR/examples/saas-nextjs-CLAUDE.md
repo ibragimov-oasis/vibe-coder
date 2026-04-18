@@ -171,3 +171,9 @@ NEXT_PUBLIC_APP_URL=http://localhost:3000
 - `main`에서 기능 브랜치 생성, PR 필수
 - CI 실행 항목: lint, 타입 체크, 단위 테스트, E2E 테스트
 - 배포: PR 시 Vercel 미리보기, `main` 병합 시 프로덕션 배포
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

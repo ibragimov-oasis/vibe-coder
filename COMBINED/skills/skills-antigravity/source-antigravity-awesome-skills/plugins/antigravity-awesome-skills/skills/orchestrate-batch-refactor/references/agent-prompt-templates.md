@@ -58,3 +58,9 @@ Produce:
 3. Validation matrix by packet and integration stage
 4. Risk list with mitigation actions
 ```
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

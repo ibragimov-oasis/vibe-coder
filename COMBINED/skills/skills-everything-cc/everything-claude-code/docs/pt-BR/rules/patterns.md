@@ -36,3 +36,9 @@ Use um envelope consistente para todas as respostas de API:
 - Incluir o payload de dados (nullable em caso de erro)
 - Incluir campo de mensagem de erro (nullable em caso de sucesso)
 - Incluir metadados para respostas paginadas (total, página, limite)
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

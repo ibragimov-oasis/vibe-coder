@@ -150,3 +150,9 @@ Generate a briefing anytime by telling Copilot CLI:
 ```
 [paste of third example, if provided]
 ```
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-copilot]] — Category: skills-copilot
+

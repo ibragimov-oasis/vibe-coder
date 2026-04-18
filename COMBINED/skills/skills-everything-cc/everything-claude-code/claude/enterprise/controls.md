@@ -20,3 +20,9 @@ This is a starter governance file for enterprise ECC deployments.
 - Security-sensitive workflow changes require explicit reviewer acknowledgement.
 - Audit suppressions must include a reason and the narrowest viable matcher.
 - Generated skills should be reviewed before broad rollout to teams.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

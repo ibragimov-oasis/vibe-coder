@@ -38,3 +38,9 @@ Generate Keep a Changelog entries from git history and validate commit message f
 
 ## Skill Reference
 → `engineering/changelog-generator/SKILL.md`
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

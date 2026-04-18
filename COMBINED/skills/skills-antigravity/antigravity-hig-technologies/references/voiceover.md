@@ -90,5 +90,10 @@ tags:
   - artifact/doc
   - source/skills-antigravity
 ---|---  
-March 7, 2025| New page.  
-  
+March 7, 2025| New page.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

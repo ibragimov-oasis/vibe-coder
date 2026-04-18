@@ -137,3 +137,9 @@ Phase 1
 - Update phase status as you progress: pending → in_progress → complete
 - Re-read this plan before major decisions (attention manipulation)
 - Log ALL errors - they help avoid repetition
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

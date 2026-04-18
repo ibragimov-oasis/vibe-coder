@@ -595,3 +595,9 @@ Deploy:   Docker on internal infrastructure
 | Enterprise compliance? | Self-hosted | Managed services |
 | Budget constrained? | Railway/Render | Vercel/AWS |
 | Schema changes often? | MongoDB | PostgreSQL |
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

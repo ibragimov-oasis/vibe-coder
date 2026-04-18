@@ -77,3 +77,9 @@ More instructions...
 
 - `@other-skill` - When to use this instead
 - `@complementary-skill` - How this works together
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

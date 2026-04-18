@@ -675,3 +675,9 @@ eas update --branch production --message "Bug fixes"
 - [Expo Router](https://docs.expo.dev/router/introduction/)
 - [React Native Performance](https://reactnative.dev/docs/performance)
 - [FlashList](https://shopify.github.io/flash-list/)
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

@@ -25,3 +25,9 @@ tags:
 
 ## 返回结果
 - 返回鱼骨图 URL，并在 `_meta.spec` 中保存树形结构，便于后续增删节点。
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-data-analysis]] — Category: skills-data-analysis
+

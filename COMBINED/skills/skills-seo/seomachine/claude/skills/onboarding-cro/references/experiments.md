@@ -253,3 +253,9 @@ For all experiments, measure:
 | Day 1/7/30 retention | Engagement over time |
 | Feature adoption | Which features get used |
 | Support requests | Volume during onboarding |
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-seo]] — Category: skills-seo
+

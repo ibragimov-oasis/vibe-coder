@@ -99,3 +99,9 @@ Operational Requirements:
   - Circuit breakers (Resilience4j)
   - Kubernetes/Helm
 ```
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

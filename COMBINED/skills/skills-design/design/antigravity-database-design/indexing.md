@@ -44,3 +44,9 @@ Order matters for composite indexes:
 ├── Most selective first
 └── Match query pattern
 ```
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-design]] — Category: skills-design
+

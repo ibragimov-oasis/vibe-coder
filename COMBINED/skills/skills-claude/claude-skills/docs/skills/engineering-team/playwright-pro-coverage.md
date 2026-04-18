@@ -108,3 +108,9 @@ If yes, invoke `/pw:generate` for each gap with the recommended template.
 - Coverage percentage estimate
 - Prioritized gap list with effort estimates
 - Option to auto-generate missing tests
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

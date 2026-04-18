@@ -68,3 +68,9 @@ $ARGUMENTS:
 - `full` - 모든 검사 (기본값)
 - `pre-commit` - 커밋에 관련된 검사
 - `pre-pr` - 전체 검사 + 보안 스캔
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

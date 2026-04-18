@@ -171,3 +171,9 @@ NEXT_PUBLIC_APP_URL=http://localhost:3000
 - Feature branches from `main`, PRs required
 - CI runs: lint, type-check, unit tests, E2E tests
 - Deploy: Vercel preview on PR, production on merge to `main`
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

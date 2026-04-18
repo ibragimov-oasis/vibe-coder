@@ -118,3 +118,9 @@ parent: null
 - **Append-only** — never edit or delete existing posts
 - **Unique filenames** — `{seq:03d}-{author}-{timestamp}.md`
 - **Frontmatter required** — every post has author, timestamp, channel
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

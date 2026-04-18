@@ -32,3 +32,9 @@ tags:
 - エラーハンドリング
 - エッジケース（null、undefined、空）
 - 境界条件
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

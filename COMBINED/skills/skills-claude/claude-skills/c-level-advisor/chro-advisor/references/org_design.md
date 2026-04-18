@@ -338,3 +338,9 @@ The hardest personal transition. Founder moves from doing to enabling.
 - Redirecting team members to their manager consistently
 - Measuring managers on outcomes, not just process adherence
 - Letting managers hire and fire without founder override (except final call on VPs)
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

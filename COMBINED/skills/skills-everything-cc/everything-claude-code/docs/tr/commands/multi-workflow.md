@@ -196,3 +196,9 @@ Her iki analizi sentezle, çözüm karşılaştırması çıktıla (en az 2 seç
 1. Faz sırası atlanamaz (kullanıcı açıkça talimat vermedikçe)
 2. Harici modellerin **sıfır dosya sistemi yazma erişimi**, tüm değişiklikler Claude tarafından
 3. Skor < 7 veya kullanıcı onaylamadığında **zorla durdur**
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

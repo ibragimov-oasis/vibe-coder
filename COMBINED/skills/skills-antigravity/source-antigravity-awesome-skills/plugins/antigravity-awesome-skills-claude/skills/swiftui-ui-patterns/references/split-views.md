@@ -77,3 +77,9 @@ struct AppView: View {
 
 - Use the manual HStack split when you need full control or a non-standard secondary column.
 - Use `NavigationSplitView` when you want a standard system layout with minimal customization.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

@@ -180,5 +180,10 @@ Audio| 64 kbps HE-AAC
 Date| Changes  
 ---|---  
 September 12, 2023| Corrected the recommended width for a thumbnail in visionOS.  
-June 21, 2023| Updated to include guidance for visionOS.  
-  
+June 21, 2023| Updated to include guidance for visionOS.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

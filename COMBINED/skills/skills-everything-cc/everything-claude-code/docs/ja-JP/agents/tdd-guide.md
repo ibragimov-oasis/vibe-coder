@@ -282,3 +282,9 @@ npm test -- --coverage --ci
 ```
 
 **覚えておいてください**: テストなしのコードはありません。テストはオプションではありません。テストは、自信を持ったリファクタリング、迅速な開発、本番環境の信頼性を可能にするセーフティネットです。
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

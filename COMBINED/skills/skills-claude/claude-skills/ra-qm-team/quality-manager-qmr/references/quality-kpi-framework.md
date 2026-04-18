@@ -301,3 +301,9 @@ COMPLAINTS:
 | Customer | Weekly/Monthly | Quarterly |
 | Strategic | Monthly/Quarterly | Annual |
 | Cost | Monthly | Quarterly |
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

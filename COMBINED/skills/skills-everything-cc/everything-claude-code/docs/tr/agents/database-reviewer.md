@@ -93,3 +93,9 @@ Detaylı indeks desenleri, şema tasarımı örnekleri, bağlantı yönetimi, e�
 **Unutmayın**: Veritabanı sorunları genellikle uygulama performans sorunlarının kök nedenidir. Sorguları ve şema tasarımını erken optimize edin. Varsayımları doğrulamak için EXPLAIN ANALYZE kullanın. Her zaman dış anahtarları ve RLS politika sütunlarını indeksleyin.
 
 *Desenler Supabase Agent Skills'ten uyarlanmıştır (kredi: Supabase ekibi) MIT lisansı altında.*
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

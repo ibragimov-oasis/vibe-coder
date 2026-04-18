@@ -28,3 +28,9 @@ Display the current date and time in Pakistan Standard Time (PKT, UTC+5).
 - Use 24-hour format
 - Include the date alongside the time
 - Keep the output concise
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

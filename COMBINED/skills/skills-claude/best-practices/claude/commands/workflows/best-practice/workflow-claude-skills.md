@@ -140,3 +140,9 @@ When executing:
 6. **ALWAYS update the Last Updated badge** — Phase 3.6 is mandatory. Never skip it.
 7. **Compare with previous runs** — read the last 25 entries from the changelog and mark each action item as NEW, RECURRING, or RESOLVED.
 8. **Distinguish bundled from installable** — only track skills that ship with Claude Code (bundled). Do not track skills from the Official Skills Repository (github.com/anthropics/skills) — those are installable, not bundled.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

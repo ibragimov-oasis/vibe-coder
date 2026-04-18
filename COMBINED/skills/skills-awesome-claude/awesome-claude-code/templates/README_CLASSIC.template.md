@@ -52,3 +52,9 @@ Claude Code is a cutting-edge CLI-based coding assistant and agent released by [
 {{FOOTER}}
 
 <!-- OBLIGATORY GUARD AGAINST SILLY END-OF-FILE PROBLEM -->
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-awesome-claude]] — Category: skills-awesome-claude
+

@@ -553,3 +553,9 @@ Releases are automated using semantic-release based on conventional commits:
 - Maintain backward compatibility for public APIs
 - Follow project spelling and commit message conventions as outlined in Code Style section
 - **Use GitHub issue templates** when available - always follow established templates when creating or managing GitHub issues
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-awesome-claude]] — Category: skills-awesome-claude
+

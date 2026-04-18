@@ -93,3 +93,9 @@ Para padrões detalhados de índices, exemplos de design de schema, gerenciament
 **Lembre-se**: Problemas de banco de dados são frequentemente a causa raiz de problemas de performance da aplicação. Otimize queries e design de schema cedo. Use EXPLAIN ANALYZE para verificar suposições. Sempre indexe chaves estrangeiras e colunas de políticas RLS.
 
 *Padrões adaptados de Agent Skills do Supabase (crédito: equipe Supabase) sob licença MIT.*
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

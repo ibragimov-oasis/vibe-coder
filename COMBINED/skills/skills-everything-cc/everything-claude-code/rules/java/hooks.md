@@ -20,3 +20,9 @@ Configure in `~/.claude/settings.json`:
 - **google-java-format**: Auto-format `.java` files after edit
 - **checkstyle**: Run style checks after editing Java files
 - **./mvnw compile** or **./gradlew compileJava**: Verify compilation after changes
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

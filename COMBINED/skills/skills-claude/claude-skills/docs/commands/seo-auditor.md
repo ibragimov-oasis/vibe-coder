@@ -345,3 +345,9 @@ These pages rank well for their target keywords. Only fix critical issues (broke
 | URL Design Guide | `marketing-skill/site-architecture/references/url-design-guide.md` | URL structure best practices |
 | Internal Linking | `marketing-skill/site-architecture/references/internal-linking-playbook.md` | Internal linking strategy |
 | AI Writing Detection | `marketing-skill/content-humanizer/references/ai-tells-checklist.md` | AI cliché removal |
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

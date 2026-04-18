@@ -167,3 +167,9 @@ Claude 综合规划，在用户批准后保存到 `.claude/plan/task-name.md`。
 2. **Codex 的前端意见仅供参考**
 3. 外部模型**没有文件系统写入权限**
 4. Claude 处理所有代码写入和文件操作
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

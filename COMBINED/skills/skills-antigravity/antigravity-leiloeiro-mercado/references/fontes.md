@@ -20,3 +20,9 @@ tags:
 ## Portais de Imóveis Retomados
 - CEF — leilaoimoveis.caixa.gov.br
 - BB — portaldegarantias.bancodobrasil.com.br
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

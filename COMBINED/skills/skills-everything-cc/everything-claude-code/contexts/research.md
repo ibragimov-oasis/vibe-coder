@@ -31,3 +31,9 @@ Focus: Understanding before acting
 
 ## Output
 Findings first, recommendations second
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

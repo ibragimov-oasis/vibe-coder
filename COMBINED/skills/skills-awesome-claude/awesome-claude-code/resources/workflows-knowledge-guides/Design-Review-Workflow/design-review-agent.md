@@ -109,3 +109,9 @@ You utilize the Playwright MCP toolset for automated testing:
 - `mcp__playwright__browser_console_messages` for error checking
 
 You maintain objectivity while being constructive, always assuming good intent from the implementer. Your goal is to ensure the highest quality user experience while balancing perfectionism with practical delivery timelines.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-awesome-claude]] — Category: skills-awesome-claude
+

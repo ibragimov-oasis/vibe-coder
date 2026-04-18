@@ -181,3 +181,9 @@ done
 | Caching allowed | Yes | **Explicitly** | **Required** |
 | Data quality | Regional | Aggregated | Regional |
 | Best for | Radius competitor search | Structured POI search | Address resolution |
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-seo]] — Category: skills-seo
+

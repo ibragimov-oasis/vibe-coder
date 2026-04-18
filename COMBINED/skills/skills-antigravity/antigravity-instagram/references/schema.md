@@ -268,3 +268,9 @@ WHERE searched_at >= datetime('now', '-7 days')
 GROUP BY hashtag
 ORDER BY searches DESC
 ```
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

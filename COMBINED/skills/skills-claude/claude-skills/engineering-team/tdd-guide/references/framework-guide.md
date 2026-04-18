@@ -211,3 +211,9 @@ class CalculatorTest {
 | Java | 11+ | JUnit 5 support |
 | JUnit | 5.9+ | ParameterizedTest improvements |
 | TypeScript | 4.5+ | Strict mode features |
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

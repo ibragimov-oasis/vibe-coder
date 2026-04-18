@@ -200,3 +200,9 @@ If you run into issues, check the [open MCP issues on GitHub](https://github.com
 - [aspire mcp start command](https://aspire.dev/reference/cli/commands/aspire-mcp-start/)
 - [GitHub Copilot in the Dashboard](https://aspire.dev/dashboard/copilot/)
 - [How I taught AI to read Aspire docs](https://davidpine.dev/posts/aspire-docs-mcp-tools/)
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-copilot]] — Category: skills-copilot
+

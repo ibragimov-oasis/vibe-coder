@@ -110,3 +110,9 @@ Para obter padrões de vulnerabilidade detalhados, exemplos de código, modelos 
 ---
 
 **Lembre**: Segurança não é opcional. Uma única vulnerabilidade pode causar prejuízos financeiros reais aos usuários. Seja minucioso, seja cauteloso, seja proativo.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

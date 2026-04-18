@@ -636,3 +636,9 @@ Step 4 of 4 (Describe → Research → Plan → **Implement**)
 - After all phases are complete
 - After completing each major phase (if multi-session implementation)
 - If context is running low during implementation
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

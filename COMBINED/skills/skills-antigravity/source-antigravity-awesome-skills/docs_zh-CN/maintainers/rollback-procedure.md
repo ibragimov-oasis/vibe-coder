@@ -48,3 +48,9 @@ git restore --staged README.md CONTRIBUTING.md package.json package-lock.json
 
 - 除非您获得明确批准并了解对无关工作的影响，否则避免使用 `git reset --hard`
 - 对于生成的工件，在回滚后使用标准脚本重新生成，而不是手动编辑它们
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

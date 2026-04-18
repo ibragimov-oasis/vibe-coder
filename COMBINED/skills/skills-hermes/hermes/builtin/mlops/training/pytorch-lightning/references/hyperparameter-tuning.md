@@ -561,3 +561,9 @@ def train_fn(config):
 - Optuna: https://optuna.readthedocs.io/
 - WandB Sweeps: https://docs.wandb.ai/guides/sweeps
 - Lightning Tuner: https://lightning.ai/docs/pytorch/stable/tuning.html
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-hermes]] — Category: skills-hermes
+

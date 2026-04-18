@@ -283,3 +283,9 @@ Choosing the right technology stack is one of the most impactful early decisions
 - **Cache:** Redis
 - **Real-Time:** Socket.io or Liveblocks
 - **CRDT:** Yjs or Automerge (for collaborative editing)
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

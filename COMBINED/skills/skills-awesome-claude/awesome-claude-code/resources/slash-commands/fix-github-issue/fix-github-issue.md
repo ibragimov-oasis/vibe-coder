@@ -18,3 +18,9 @@ Follow these steps:
 7. Create a descriptive commit message
 
 Remember to use the GitHub CLI (`gh`) for all GitHub-related tasks.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-awesome-claude]] — Category: skills-awesome-claude
+

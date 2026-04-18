@@ -392,3 +392,9 @@ Detailed reference guides in `references/`:
 - [ ] Framework integration documented
 - [ ] Design tool synced
 - [ ] Component documentation complete
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

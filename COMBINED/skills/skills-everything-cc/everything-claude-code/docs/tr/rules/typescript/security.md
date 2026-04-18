@@ -30,3 +30,9 @@ if (!apiKey) {
 ## Agent Desteği
 
 - Kapsamlı güvenlik denetimleri için **security-reviewer** skill kullan
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

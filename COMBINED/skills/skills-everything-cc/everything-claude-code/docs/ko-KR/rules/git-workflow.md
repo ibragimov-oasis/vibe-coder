@@ -29,3 +29,9 @@ PR을 만들 때:
 
 > git 작업 전 전체 개발 프로세스(계획, TDD, 코드 리뷰)는
 > [development-workflow.md](./development-workflow.md)를 참고하세요.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

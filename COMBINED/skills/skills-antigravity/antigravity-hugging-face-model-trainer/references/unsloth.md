@@ -318,3 +318,9 @@ hf_jobs("uv", {
 - [LFM2.5 Guide](https://unsloth.ai/docs/models/tutorials/lfm2.5)
 - [Qwen3-VL Guide](https://unsloth.ai/docs/models/qwen3-vl-how-to-run-and-fine-tune)
 - [Unsloth GitHub](https://github.com/unslothai/unsloth)
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

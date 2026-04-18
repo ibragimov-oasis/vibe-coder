@@ -76,3 +76,9 @@ govulncheck ./...
 - **승인**: CRITICAL 또는 HIGH 이슈 없음
 - **경고**: MEDIUM 이슈만
 - **차단**: CRITICAL 또는 HIGH 이슈 발견
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

@@ -608,3 +608,9 @@ catch (error) {
 - [MDN Web Security](https://developer.mozilla.org/en-US/docs/Web/Security)
 - [Security Headers](https://securityheaders.com/)
 - [SSL Labs](https://www.ssllabs.com/)
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-copilot]] — Category: skills-copilot
+

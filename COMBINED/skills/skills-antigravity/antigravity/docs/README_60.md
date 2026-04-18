@@ -99,3 +99,9 @@ Result: 60+ product references without blowing context.
 - [ ] Cross-references stay one level deep
 - [ ] Slash command created for orchestration
 - [ ] Every product has `gotchas.md`
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

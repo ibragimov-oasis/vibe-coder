@@ -35,3 +35,9 @@ if err != nil {
 ## 参考
 
 查看技能：`golang-patterns` 以获取全面的 Go 语言惯用法和模式。
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

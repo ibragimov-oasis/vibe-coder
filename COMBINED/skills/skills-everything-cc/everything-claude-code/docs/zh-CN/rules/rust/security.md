@@ -144,3 +144,9 @@ match order_service.find_by_id(id) {
 
 关于不安全代码指南和所有权模式，请参见技能：`rust-patterns`。
 关于通用安全检查清单，请参见技能：`security-review`。
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

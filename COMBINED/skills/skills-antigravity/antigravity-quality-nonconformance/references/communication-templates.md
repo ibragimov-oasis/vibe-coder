@@ -716,3 +716,9 @@ Sincerely,
 {{contact_information}}
 
 Enclosures: {{list_of_enclosures}}
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

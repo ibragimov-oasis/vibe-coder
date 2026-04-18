@@ -514,3 +514,9 @@ airflow/
 - [Airflow Documentation](https://airflow.apache.org/docs/)
 - [Astronomer Guides](https://docs.astronomer.io/learn)
 - [TaskFlow API](https://airflow.apache.org/docs/apache-airflow/stable/tutorial/taskflow.html)
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

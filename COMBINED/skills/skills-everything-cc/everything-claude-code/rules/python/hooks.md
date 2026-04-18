@@ -21,3 +21,9 @@ Configure in `~/.claude/settings.json`:
 ## Warnings
 
 - Warn about `print()` statements in edited files (use `logging` module instead)
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

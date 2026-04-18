@@ -318,3 +318,9 @@ If you encounter issues or have suggestions, please mention:
 - Language and framework used
 - Type of operation (generation, analysis, workflow)
 - Expected vs. actual behavior
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

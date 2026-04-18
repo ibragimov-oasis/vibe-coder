@@ -192,3 +192,9 @@ kubectl get rolebindings,clusterrolebindings --all-namespaces -o wide | grep my-
 - Secrets
 - Roles
 - RoleBindings
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

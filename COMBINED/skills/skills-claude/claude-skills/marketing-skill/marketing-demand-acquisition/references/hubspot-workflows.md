@@ -173,3 +173,9 @@ Configure deal properties to capture:
 - Champion left company
 
 **Use data to inform:** Product roadmap, pricing adjustments, competitive positioning.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

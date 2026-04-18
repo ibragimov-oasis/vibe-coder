@@ -310,3 +310,9 @@ cargo test --no-fail-fast
 
 - Skill: `skills/rust-testing/`
 - Skill: `skills/rust-patterns/`
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

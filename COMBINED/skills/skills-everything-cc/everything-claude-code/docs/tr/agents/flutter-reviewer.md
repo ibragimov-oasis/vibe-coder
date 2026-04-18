@@ -245,3 +245,9 @@ Verdict: BLOCK — HIGH sorunlar merge'den önce düzeltilmelidir.
 - **Bloke Et**: Herhangi bir CRITICAL veya HIGH sorun — merge'den önce düzeltilmelidir
 
 Kapsamlı inceleme kontrol listesi için `flutter-dart-code-review` skill'ine başvurun.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

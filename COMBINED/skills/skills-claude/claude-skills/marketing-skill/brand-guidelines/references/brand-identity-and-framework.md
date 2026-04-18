@@ -267,3 +267,9 @@ Brand voice is consistent; tone adapts to context.
 - No custom fonts in share files — embed or substitute
 
 ---
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

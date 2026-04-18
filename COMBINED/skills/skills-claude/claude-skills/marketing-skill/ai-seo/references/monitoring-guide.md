@@ -213,3 +213,9 @@ The AI citation monitoring space is early-stage. Tools being developed as of ear
 Track announcements from these vendors. First-mover advantage on publisher analytics will be significant.
 
 **Until then:** Manual testing + Google Search Console is the most reliable stack available. Don't let perfect be the enemy of done — weekly manual testing surfaces 80% of what you need to know.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

@@ -82,3 +82,9 @@ npm run test:coverage
 - [ ] Cobertura é 80%+
 
 Para padrões de mocking detalhados e exemplos específicos de frameworks, veja `skill: tdd-workflow`.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

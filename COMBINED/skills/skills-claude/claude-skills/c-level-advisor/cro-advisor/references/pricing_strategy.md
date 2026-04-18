@@ -422,3 +422,9 @@ Output: Competitive pricing matrix
 - Don't over-explain the justification (confident framing wins)
 - Don't let sales reps negotiate discounts back to old pricing "just this once"
 - Don't raise prices and remove features simultaneously
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

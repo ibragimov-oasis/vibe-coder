@@ -64,3 +64,9 @@ tags:
 ***
 
 *自动更新。最后同步：2026年2月*
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

@@ -51,3 +51,9 @@ Generate portfolio health dashboards and risk matrices for project oversight.
 
 ## Skill Reference
 > `project-management/senior-pm/SKILL.md`
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

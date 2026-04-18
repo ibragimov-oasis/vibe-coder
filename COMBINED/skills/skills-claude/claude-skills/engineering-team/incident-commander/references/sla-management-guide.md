@@ -571,3 +571,9 @@ Alert fatigue is the primary reason SLA monitoring fails in practice. Mitigation
 *Last updated: February 2026*
 *For use with: incident-commander skill*
 *Maintainer: Engineering Team*
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

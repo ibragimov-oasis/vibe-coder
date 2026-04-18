@@ -320,3 +320,9 @@ After audit passes, report to user:
 1. `/ccg:plan` generates plan + SESSION_ID
 2. User confirms with "Y"
 3. `/ccg:execute` reads plan, reuses SESSION_ID, executes implementation
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

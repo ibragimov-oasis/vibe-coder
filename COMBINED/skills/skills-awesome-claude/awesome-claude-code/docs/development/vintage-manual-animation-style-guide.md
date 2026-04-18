@@ -492,3 +492,9 @@ customElements.define('vintage-header', VintageManualHeader);
 ---
 
 *Style Guide Version 1.0 - Created for Awesome Claude Code*
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-awesome-claude]] — Category: skills-awesome-claude
+

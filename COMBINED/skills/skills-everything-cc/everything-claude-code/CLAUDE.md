@@ -77,3 +77,9 @@ Use the following skills when working on related files:
 | `.github/workflows/*.yml` | `/ci-workflow` |
 
 When spawning subagents, always pass conventions from the respective skill into the agent's prompt.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

@@ -399,3 +399,9 @@ All output passes quality verification:
 - **launch-strategy**: For executing product launches planned by PMM.
 - **competitive-intel** (C-Suite): For strategic competitive intelligence.
 - **cmo-advisor** (C-Suite): For marketing budget and growth model decisions.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

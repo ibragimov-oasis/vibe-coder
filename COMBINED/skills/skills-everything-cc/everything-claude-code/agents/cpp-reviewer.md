@@ -74,3 +74,9 @@ cmake --build build 2>&1 | head -50
 - **Block**: CRITICAL or HIGH issues found
 
 For detailed C++ coding standards and anti-patterns, see `skill: cpp-coding-standards`.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

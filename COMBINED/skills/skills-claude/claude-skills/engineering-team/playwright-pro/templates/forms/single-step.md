@@ -129,3 +129,9 @@ test.describe('Single-Step Form — {{formName}}', () => {
 | Invalid email | Format error shown |
 | Server 500 | Generic error alert |
 | Double submit | Button disabled after first click |
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

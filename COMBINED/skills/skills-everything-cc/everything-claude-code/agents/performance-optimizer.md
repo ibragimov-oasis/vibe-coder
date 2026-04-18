@@ -448,3 +448,9 @@ const fastCode = ...;
 ---
 
 **Remember**: Performance is a feature. Users notice speed. Every 100ms of improvement matters. Optimize for the 90th percentile, not the average.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

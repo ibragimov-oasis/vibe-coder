@@ -138,3 +138,9 @@ tags:
 **Business goal:** [Primary objective]
 **Conversion action:** [What you want people to do]
 **Current metrics:** [If known]
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

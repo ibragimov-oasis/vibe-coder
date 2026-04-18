@@ -387,5 +387,10 @@ For more information about using Apple trademarks, see [Guidelines for Using App
 Date| Changes  
 ---|---  
 June 9, 2025| Updated guidance to include demo App Clips.  
-May 2, 2023| Consolidated guidance into one page.  
-  
+May 2, 2023| Consolidated guidance into one page.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

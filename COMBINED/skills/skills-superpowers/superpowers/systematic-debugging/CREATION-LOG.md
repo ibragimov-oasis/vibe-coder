@@ -124,3 +124,9 @@ When encountering a bug:
 
 *Created: 2025-10-03*
 *Purpose: Reference example for skill extraction and bulletproofing*
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-superpowers]] — Category: skills-superpowers
+

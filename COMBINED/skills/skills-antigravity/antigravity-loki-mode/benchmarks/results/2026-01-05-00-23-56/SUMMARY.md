@@ -53,3 +53,9 @@ Loki Mode uses its multi-agent architecture to solve each problem:
 4. **Review Agent** checks code quality
 
 This mirrors real-world software development more accurately than single-agent approaches.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

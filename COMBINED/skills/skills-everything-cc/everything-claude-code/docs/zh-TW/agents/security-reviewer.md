@@ -380,3 +380,9 @@ console.log('User login:', {
 ---
 
 **記住**：安全性不是可選的，特別是對於處理真實金錢的平台。一個弱點可能導致使用者真正的財務損失。要徹底、要謹慎、要主動。
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

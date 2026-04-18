@@ -52,3 +52,9 @@ After both steps complete, provide a clear summary to the user showing:
 - Full formatted timestamp
 - SVG card created at `agent-teams/output/dubai-time.svg`
 - Summary written to `agent-teams/output/output.md`
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

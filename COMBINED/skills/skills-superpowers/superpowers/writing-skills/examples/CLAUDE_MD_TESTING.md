@@ -194,3 +194,9 @@ For each variant:
 4. Compare compliance rates
 5. Identify which rationalizations break through
 6. Iterate on winning variant to close holes
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-superpowers]] — Category: skills-superpowers
+

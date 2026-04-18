@@ -415,3 +415,9 @@ The choice of release workflow significantly impacts your team's productivity, c
 **Start conservative** (Git Flow) and evolve toward more agile approaches (GitHub Flow, Trunk-based) as your team's skills and infrastructure mature. The key is consistency within your team and alignment with your organization's goals and constraints.
 
 Remember: **The best workflow is the one your team can execute consistently and reliably**.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

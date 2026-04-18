@@ -848,3 +848,9 @@ class Vector2D:
 | Dot Product | Angle/projection queries | O(1) |
 | Cross Product | Perpendicularity / winding | O(1) |
 | Reflection | Bounce / ricochet | O(1) |
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-copilot]] — Category: skills-copilot
+

@@ -231,3 +231,9 @@ The sales engineer's most impactful opportunity is shaping the evaluation criter
 ---
 
 **Last Updated:** February 2026
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

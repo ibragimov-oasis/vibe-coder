@@ -50,3 +50,9 @@ See APISummaryFormat.md and StructuredInstructionFormats.md
 ## Current Task
 
 Cleaning up the app and prepping for release
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-awesome-claude]] — Category: skills-awesome-claude
+

@@ -318,3 +318,9 @@ gws persona select <name>           # Activate a persona
 gws persona show                    # Show active persona
 gws persona recipes                 # Show recipes for active persona
 ```
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

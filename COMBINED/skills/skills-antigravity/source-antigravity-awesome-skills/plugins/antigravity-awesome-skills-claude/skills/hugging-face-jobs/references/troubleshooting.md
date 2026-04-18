@@ -480,3 +480,8 @@ If issues persist:
 6. **Add error handling** - Better debugging information
 7. **Monitor costs** - Set timeouts to avoid unexpected charges
 
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

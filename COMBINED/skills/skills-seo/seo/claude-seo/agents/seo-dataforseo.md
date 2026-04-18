@@ -38,3 +38,9 @@ Match existing claude-seo patterns:
 - Priority: Critical > High > Medium > Low
 - Note data source as "DataForSEO (live)" to distinguish from static HTML analysis
 - Include timestamps for time-sensitive data (SERP positions, backlink counts)
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-seo]] — Category: skills-seo
+

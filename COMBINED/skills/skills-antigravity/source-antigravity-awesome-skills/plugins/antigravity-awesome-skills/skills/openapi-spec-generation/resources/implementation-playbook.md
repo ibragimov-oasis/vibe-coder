@@ -1032,3 +1032,9 @@ openapi-generator-cli generate \
 - [Swagger Editor](https://editor.swagger.io/)
 - [Redocly](https://redocly.com/)
 - [Spectral](https://stoplight.io/open-source/spectral)
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

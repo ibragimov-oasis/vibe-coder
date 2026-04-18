@@ -68,3 +68,9 @@ With defaults, retry delays are: 1s, 2s, 4s, 8s, 16s...
 If all retries are exhausted, a `DBOSMaxStepRetriesError` is thrown to the calling workflow.
 
 Reference: [Configurable Retries](https://docs.dbos.dev/typescript/tutorials/step-tutorial#configurable-retries)
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

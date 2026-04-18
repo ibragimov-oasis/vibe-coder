@@ -97,3 +97,9 @@ OAUTH_SCOPES = [
 ```
 
 Se não precisar de todas as features, pode reduzir os scopes durante o setup.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

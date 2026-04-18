@@ -359,3 +359,9 @@ Detailed data documentation following standard practices.
 ### E. Model Card
 
 Model documentation following responsible AI practices.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

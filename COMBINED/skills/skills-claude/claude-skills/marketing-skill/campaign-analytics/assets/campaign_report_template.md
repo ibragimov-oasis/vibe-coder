@@ -146,3 +146,9 @@ Based on this period's performance data:
 ---
 
 *Report generated using campaign-analytics toolkit. Data source: [Source system/platform].*
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

@@ -38,3 +38,9 @@ $ARGUMENTS:
 
 * `<pattern>` 可选 (`sequential|continuous-pr|rfc-dag|infinite`)
 * `--mode safe|fast` 可选
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

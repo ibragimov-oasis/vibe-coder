@@ -333,3 +333,9 @@ Run same query before and after fix:
 ### External References
 - OpenAI Responses API lacks native date filtering
 - Must rely on prompt engineering + post-processing
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

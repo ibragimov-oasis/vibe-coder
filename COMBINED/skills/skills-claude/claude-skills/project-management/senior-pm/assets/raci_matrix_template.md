@@ -270,3 +270,9 @@ tags:
 - All Project Stakeholders (as identified in roster)
 - PMO (for template compliance)
 - HR (for role clarity and performance management)
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

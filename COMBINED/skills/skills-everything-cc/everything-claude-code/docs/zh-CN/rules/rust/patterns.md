@@ -171,3 +171,9 @@ pub enum ApiResponse<T: serde::Serialize> {
 ## 参考资料
 
 参见技能：`rust-patterns`，其中包含全面的模式，涵盖所有权、trait、泛型、并发和异步。
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

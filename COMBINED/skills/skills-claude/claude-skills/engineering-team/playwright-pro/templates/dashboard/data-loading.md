@@ -133,3 +133,9 @@ test.describe('Dashboard Data Loading', () => {
 | API error | Error alert + retry button shown |
 | Retry success | Second request succeeds after failure |
 | Slow network | Skeleton persists during delay |
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

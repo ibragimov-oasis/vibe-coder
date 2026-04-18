@@ -62,5 +62,10 @@ tags:
   - source/skills-antigravity
 ---|---  
 September 12, 2023| Updated intro image artwork.  
-September 23, 2022| Expanded guidance to cover the Always On display on iPhone 14 Pro and iPhone 14 Pro Max.  
-  
+September 23, 2022| Expanded guidance to cover the Always On display on iPhone 14 Pro and iPhone 14 Pro Max.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

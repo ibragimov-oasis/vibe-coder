@@ -197,3 +197,9 @@ python scripts/migration_analyzer.py --from angular-1.x --to react
 - Trivial decisions between similar tools (use team preference)
 - Mandated technology choices (decision already made)
 - Emergency production issues (use monitoring tools)
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

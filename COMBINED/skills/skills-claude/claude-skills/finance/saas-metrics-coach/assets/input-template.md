@@ -34,3 +34,9 @@ Fill in what you know and paste to the SaaS Metrics Coach. Leave blanks empty.
 
 ---
 *Partial data is fine — the coach works with whatever you have.*
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

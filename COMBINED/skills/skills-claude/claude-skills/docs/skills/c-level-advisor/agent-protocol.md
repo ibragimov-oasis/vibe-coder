@@ -423,3 +423,9 @@ ACTION ITEMS
 
 ## Reference
 - `references/invocation-patterns.md` — common cross-functional patterns with examples
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

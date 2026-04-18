@@ -250,3 +250,9 @@ az artifacts universal download \
   --path {download-path} \
   --project {project}
 ```
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-awesome-claude]] — Category: skills-awesome-claude
+

@@ -153,3 +153,9 @@ export const Title: React.FC<{ text: string }> = ({ text }) => {
   );
 };
 ```
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

@@ -41,3 +41,9 @@ select status, customer_id, total from orders where status = 'shipped';
 ```
 
 Reference: [Index-Only Scans](https://www.postgresql.org/docs/current/indexes-index-only-scans.html)
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

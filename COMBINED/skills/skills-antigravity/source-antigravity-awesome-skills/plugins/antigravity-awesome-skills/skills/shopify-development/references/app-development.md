@@ -583,3 +583,9 @@ async function graphqlWithRetry(shop, token, query, retries = 3) {
 - Handle customer data deletion requests
 - Provide data export functionality
 - Follow data retention policies
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

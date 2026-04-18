@@ -409,3 +409,9 @@ def call_with_retry(
 
     raise last_exception
 ```
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

@@ -27,3 +27,9 @@ SOURCE_BRANCH: current branch (`git branch --show-current`)
    If no template exists, provide a summary referencing Context, Testing, and Security results.
 4. Add labels (`gh pr edit --add-label "status: in-review"`).
 5. Share the PR link with reviewers and ensure at least one human approval is obtained.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

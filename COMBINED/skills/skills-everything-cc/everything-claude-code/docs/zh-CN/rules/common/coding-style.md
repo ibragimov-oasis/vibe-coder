@@ -57,3 +57,9 @@ CORRECT: update(original, field, value) → 返回包含更改的新副本
 * \[ ] 正确的错误处理
 * \[ ] 没有硬编码的值（使用常量或配置）
 * \[ ] 没有突变（使用不可变模式）
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

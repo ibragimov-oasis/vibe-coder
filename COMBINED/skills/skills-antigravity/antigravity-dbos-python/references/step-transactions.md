@@ -59,3 +59,9 @@ Important:
 - Never use `async def` with transactions
 
 Reference: [DBOS Transactions](https://docs.dbos.dev/python/reference/decorators#transactions)
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

@@ -117,3 +117,9 @@ Rich text arrays contain objects with `.plain_text` — concatenate them for rea
 ---
 
 *Contributed by [@dogiladeveloper](https://github.com/dogiladeveloper)*
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-hermes]] — Category: skills-hermes
+

@@ -366,3 +366,9 @@ Before building the cluster strategy, review:
 - @context/seo-guidelines.md - SEO requirements and keyword rules
 - @context/internal-links-map.md - Existing internal linking targets
 - @context/target-keywords.md - Current keyword targets (avoid overlap)
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-seo]] — Category: skills-seo
+

@@ -366,3 +366,9 @@ templates/
 ├── aaai2026/       # AAAI 2026
 └── colm2025/       # COLM 2025
 ```
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-hermes]] — Category: skills-hermes
+

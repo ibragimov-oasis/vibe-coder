@@ -705,3 +705,9 @@ wb.finish()
 - **PyTorch Lightning**: https://docs.wandb.ai/guides/integrations/lightning
 - **Keras**: https://docs.wandb.ai/guides/integrations/keras
 - **Examples**: https://github.com/wandb/examples
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-hermes]] — Category: skills-hermes
+

@@ -594,3 +594,9 @@ Systematic approach:
 - **Cross-module boundaries** — Module A produces unusual but valid output — does B handle it?
 
 If you found 10+ defensive patterns but wrote only 4 boundary tests, go back and write more. Target a 1:1 ratio.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-copilot]] — Category: skills-copilot
+

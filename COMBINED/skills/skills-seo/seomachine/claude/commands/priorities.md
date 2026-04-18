@@ -187,3 +187,9 @@ After running `/priorities`, you can:
 - Use `/optimize [file]` to finalize any content before publishing
 
 This command gives you a clear, actionable roadmap of exactly what to work on next, prioritized by potential impact.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-seo]] — Category: skills-seo
+

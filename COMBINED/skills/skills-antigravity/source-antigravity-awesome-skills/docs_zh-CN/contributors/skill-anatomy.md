@@ -590,3 +590,9 @@ Help turn ideas into fully formed designs...
 ---
 
 **记住：**每个专家都曾经是初学者。从简单开始，从反馈中学习，并随时间改进！🚀
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

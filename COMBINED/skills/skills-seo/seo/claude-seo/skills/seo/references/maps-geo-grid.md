@@ -159,3 +159,9 @@ Geo-Grid Scan Estimate:
   Estimated cost: $0.09 (standard) - $0.29 (live)
   Proceed? [DataForSEO credits will be consumed]
 ```
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-seo]] — Category: skills-seo
+

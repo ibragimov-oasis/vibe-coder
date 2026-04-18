@@ -310,3 +310,9 @@ Then compare the audit reports side-by-side.
 2. Fix critical issues
 3. Re-audit until score ≥ 75
 4. Publish: `/landing-publish landing-pages/[file].md`
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-seo]] — Category: skills-seo
+

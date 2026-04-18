@@ -46,3 +46,9 @@ const regex = /foo/g
 regex.test('foo')  // true, lastIndex = 3
 regex.test('foo')  // false, lastIndex = 0
 ```
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

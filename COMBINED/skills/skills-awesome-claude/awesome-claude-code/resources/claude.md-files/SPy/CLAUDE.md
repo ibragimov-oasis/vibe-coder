@@ -43,3 +43,9 @@ spy -O 1 -g your_file.spy         # With optimization and debug symbols
 
 ## GH PR Guidelines
 - When creating a PR, describe what you did, but don't include the "test plan" section.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-awesome-claude]] — Category: skills-awesome-claude
+

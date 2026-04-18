@@ -681,3 +681,9 @@ This epic covers all security requirements related to {domain.value.replace('_',
 - [OWASP ASVS](https://owasp.org/www-project-application-security-verification-standard/)
 - [NIST SP 800-53](https://csrc.nist.gov/publications/detail/sp/800-53/rev-5/final)
 - [Security User Stories](https://www.oreilly.com/library/view/agile-application-security/9781491938836/)
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-design]] — Category: skills-design
+

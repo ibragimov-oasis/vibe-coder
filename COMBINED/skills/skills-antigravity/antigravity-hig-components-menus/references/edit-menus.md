@@ -88,5 +88,10 @@ tags:
   - source/skills-antigravity
 ---|---  
 June 21, 2023| Updated to include guidance for visionOS.  
-September 14, 2022| Added guidance on supporting both edit-menu styles in iPadOS.  
-  
+September 14, 2022| Added guidance on supporting both edit-menu styles in iPadOS.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

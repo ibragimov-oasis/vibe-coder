@@ -29,3 +29,9 @@ Ao criar PRs:
 
 > Para o processo de desenvolvimento completo (planejamento, TDD, revisão de código) antes de operações git,
 > veja [development-workflow.md](./development-workflow.md).
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

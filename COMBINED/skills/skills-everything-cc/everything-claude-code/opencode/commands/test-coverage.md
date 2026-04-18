@@ -82,3 +82,9 @@ describe('functionName', () => {
 ---
 
 **IMPORTANT**: Coverage is a metric, not a goal. Focus on meaningful tests, not just hitting numbers.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

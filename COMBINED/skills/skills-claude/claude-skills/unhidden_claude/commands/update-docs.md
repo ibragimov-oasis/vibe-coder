@@ -230,3 +230,9 @@ Present a summary to the user:
 | Consistency check | pass/fail |
 
 Ask the user if they want to commit and push the changes.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

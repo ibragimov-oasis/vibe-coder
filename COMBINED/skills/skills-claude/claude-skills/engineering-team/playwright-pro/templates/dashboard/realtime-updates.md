@@ -148,3 +148,9 @@ test.describe('Realtime Updates', () => {
 | Connection refused | WS blocked → error alert |
 | Auto-reconnect | Reconnects after close |
 | Stale data | Warning shown while disconnected |
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

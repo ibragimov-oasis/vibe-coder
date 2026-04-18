@@ -101,3 +101,9 @@ Causas comuns: condições de corrida (usar localizadores auto-wait), timing de 
 - Taxa de instabilidade < 5%
 - Duração do teste < 10 minutos
 - Artefatos enviados e acessíveis
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

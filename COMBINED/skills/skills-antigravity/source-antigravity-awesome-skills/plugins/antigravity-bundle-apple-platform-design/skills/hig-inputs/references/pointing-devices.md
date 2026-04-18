@@ -237,5 +237,10 @@ When people use an attached pointing device that supports gestures, like a track
 
 Date| Changes  
 ---|---  
-June 21, 2023| Updated to include guidance for visionOS.  
-  
+June 21, 2023| Updated to include guidance for visionOS.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

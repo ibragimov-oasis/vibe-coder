@@ -213,3 +213,9 @@ AI destekli bir SaaS platformu için örnek mimari:
 - **10M kullanıcı**: Event-driven mimari, dağıtık önbellekleme, çoklu bölge
 
 **Unutmayın**: İyi mimari hızlı geliştirmeyi, kolay bakımı ve kendinden emin ölçeklemeyi sağlar. En iyi mimari basit, net ve yerleşik kalıpları takip edendir.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

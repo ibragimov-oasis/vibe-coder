@@ -180,3 +180,9 @@ evolved_from:
 
 [Kümelenmiş içgüdülere dayalı oluşturulan içerik]
 ```
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

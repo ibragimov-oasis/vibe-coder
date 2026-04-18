@@ -58,3 +58,9 @@ _示例：代码检查、日志分析、配置审计。_
 1. 您对自己的行为负责。
 2. 作者和贡献者对这些工具造成的任何损害不承担责任。
 3. 您将遵守有关网络安全的所有当地、州和联邦法律。
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

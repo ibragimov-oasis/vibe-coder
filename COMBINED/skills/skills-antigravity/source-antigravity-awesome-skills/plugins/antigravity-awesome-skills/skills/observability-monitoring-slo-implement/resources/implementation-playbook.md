@@ -1082,3 +1082,9 @@ class SLOGovernance:
 9. **Governance Process**: Culture and review processes
 
 Focus on creating meaningful SLOs that balance reliability with feature velocity, providing clear signals for engineering decisions and fostering a culture of reliability.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

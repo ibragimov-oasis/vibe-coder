@@ -46,3 +46,9 @@ Priority rules:
 - Workflows with the same priority are dequeued in FIFO order
 
 Reference: [Priority](https://docs.dbos.dev/golang/tutorials/queue-tutorial#priority)
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

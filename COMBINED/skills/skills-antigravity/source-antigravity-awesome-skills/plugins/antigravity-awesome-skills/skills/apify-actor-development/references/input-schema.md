@@ -71,3 +71,9 @@ The input schema defines the input parameters for an Actor. It's a JSON object c
     "required": ["startUrls"]
 }
 ```
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

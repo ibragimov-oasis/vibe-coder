@@ -61,3 +61,9 @@ test -d .gemini/skills || test -d ~/.gemini/skills
 - 如果您想要按角色划分的更小的精选子集，请从 [`bundles.md`](bundles.md) 开始。
 - 如果您正在比较通用代理技能库，请阅读 [`ai-agent-skills.md`](ai-agent-skills.md)。
 - 如果您想要更多关于如何在真实提示词中调用技能的示例，请使用 [`usage.md`](usage.md)。
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

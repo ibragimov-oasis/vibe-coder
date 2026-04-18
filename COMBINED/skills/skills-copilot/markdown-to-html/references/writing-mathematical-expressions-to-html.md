@@ -355,3 +355,9 @@ To split <span>$</span>100 in half, we calculate $100/2$
  </math-renderer>
 </p>
 ```
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-copilot]] — Category: skills-copilot
+

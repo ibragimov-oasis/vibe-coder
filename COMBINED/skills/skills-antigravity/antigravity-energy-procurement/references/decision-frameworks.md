@@ -856,3 +856,9 @@ procurement activities align with market conditions.
 | October | Begin winter gas hedging, review heating load forecasts | Oct 31 for winter gas locks |
 | November | Budget season — prepare next year's energy cost forecast | Nov 15 for budget submission |
 | December | Year-end RE100 reconciliation, REC inventory check, contract renewals | Dec 31 for REC vintage retirement |
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

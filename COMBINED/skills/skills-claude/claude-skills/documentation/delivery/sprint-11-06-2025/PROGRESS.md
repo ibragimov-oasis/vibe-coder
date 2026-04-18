@@ -409,3 +409,9 @@ This file is automatically updated after each task completion with:
 **Created:** November 6, 2025
 **Last Updated:** November 6, 2025 10:45 UTC
 **Auto-Update Enabled:** ✅ Yes
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

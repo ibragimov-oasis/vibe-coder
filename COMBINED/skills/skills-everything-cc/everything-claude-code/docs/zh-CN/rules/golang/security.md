@@ -37,3 +37,9 @@ if apiKey == "" {
 ctx, cancel := context.WithTimeout(ctx, 5*time.Second)
 defer cancel()
 ```
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

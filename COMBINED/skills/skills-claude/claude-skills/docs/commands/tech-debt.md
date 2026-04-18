@@ -40,3 +40,9 @@ Scan codebases for technical debt, score severity, and generate prioritized reme
 
 ## Skill Reference
 → `engineering/tech-debt-tracker/SKILL.md`
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

@@ -188,3 +188,9 @@ Never bury it. Boards find out eventually. Finding out late makes it worse.
 ## References
 - `references/deck-frameworks.md` — SaaS board pack format, Sequoia structure, investor tailoring
 - `templates/board-deck-template.md` — fill-in template for complete board decks
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

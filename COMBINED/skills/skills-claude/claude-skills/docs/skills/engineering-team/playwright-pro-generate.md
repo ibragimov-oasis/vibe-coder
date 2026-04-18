@@ -154,3 +154,9 @@ If it fails:
 - Any supporting files created (page objects, fixtures, data)
 - Test run result
 - Coverage note: what behaviors are now tested
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

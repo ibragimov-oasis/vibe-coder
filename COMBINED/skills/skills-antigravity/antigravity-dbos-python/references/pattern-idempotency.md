@@ -53,3 +53,9 @@ def my_workflow():
 Workflow IDs must be globally unique. Duplicate IDs return the existing workflow's result without re-executing.
 
 Reference: [Workflow IDs and Idempotency](https://docs.dbos.dev/python/tutorials/workflow-tutorial#workflow-ids-and-idempotency)
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

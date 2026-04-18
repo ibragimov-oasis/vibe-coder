@@ -33,3 +33,9 @@ go test -cover ./...
 ## Reference
 
 See skill: `golang-testing` for detailed Go testing patterns and helpers.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

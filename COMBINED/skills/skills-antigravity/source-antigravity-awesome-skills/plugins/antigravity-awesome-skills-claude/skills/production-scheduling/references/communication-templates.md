@@ -508,3 +508,9 @@ The current production plan contains conflicting priorities that cannot be resol
 ---
 
 **Tone guidance:** Neutral facilitator, not advocate. The scheduler's role in priority alignment is to surface conflicts, quantify tradeoffs, and execute decisions — not to make commercial or strategic calls. Make it clear that you need a decision, not a discussion. Provide the data that enables the decision.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

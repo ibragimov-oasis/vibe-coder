@@ -398,3 +398,9 @@ tags:
 🚨 Technical debt >30%  
 🚨 No deployments for >1 week  
 🚨 Customer escalations increasing
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

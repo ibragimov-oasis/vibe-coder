@@ -236,3 +236,9 @@ helm upgrade service ./charts/
 kubectl logs -f deployment/service
 python scripts/health_check.py
 ```
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

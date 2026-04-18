@@ -197,3 +197,9 @@ This report was compiled using:
 **Date:** {REPORT_DATE}
 **Report Version:** 1.0
 **Status:** Complete
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-research]] — Category: skills-research
+

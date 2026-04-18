@@ -40,3 +40,9 @@ Only use them when the conversion is purely visual and highly reusable across di
 ## 🧩 Simplified Interactions
 
 If you find yourself needing a complex converter or behavior, consider if the component can be simplified or if the data model can be adjusted to make the view binding more direct.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

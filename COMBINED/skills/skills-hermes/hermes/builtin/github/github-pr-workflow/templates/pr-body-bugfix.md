@@ -40,3 +40,9 @@ Fixes #
 <!-- Could this fix break anything else? What's the blast radius? -->
 
 Low / Medium / High — <!-- explanation -->
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-hermes]] — Category: skills-hermes
+

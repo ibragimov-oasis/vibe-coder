@@ -519,3 +519,9 @@ class LoRACallback(TrainerCallback):
                             if "lora" in n and p.requires_grad)
             print(f"Step {state.global_step}: loss={logs['loss']:.4f}, lora_params={lora_params}")
 ```
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-hermes]] — Category: skills-hermes
+

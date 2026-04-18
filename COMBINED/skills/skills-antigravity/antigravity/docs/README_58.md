@@ -209,3 +209,9 @@ Before deploying a skill:
 - Agent passes even without skill (test is irrelevant)
 - Agent fails even with skill (skill is unclear)
 - Single obvious scenario (test is too simple)
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

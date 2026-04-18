@@ -58,3 +58,9 @@ By using this repository, you agree that:
 1. You are responsible for your own actions.
 2. The authors and contributors are not liable for any damage caused by these tools.
 3. You will comply with all local, state, and federal laws regarding cybersecurity.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

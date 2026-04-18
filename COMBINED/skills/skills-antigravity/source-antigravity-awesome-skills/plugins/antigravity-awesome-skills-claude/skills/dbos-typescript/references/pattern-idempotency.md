@@ -54,3 +54,9 @@ async function myWorkflowFn() {
 Workflow IDs must be **globally unique** for your application. If not set, a random UUID is generated.
 
 Reference: [Workflow IDs and Idempotency](https://docs.dbos.dev/typescript/tutorials/workflow-tutorial#workflow-ids-and-idempotency)
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

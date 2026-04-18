@@ -397,3 +397,9 @@ Found **3 errors** and **2 warnings**
 | bicep | 0 | Build succeeded |
 | bicep | 1 | Build failed (errors) |
 | bicep | 2 | Build succeeded with warnings |
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-copilot]] — Category: skills-copilot
+

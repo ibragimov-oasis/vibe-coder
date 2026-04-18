@@ -39,3 +39,9 @@ tags:
 * 具有相同堆栈跟踪的重复故障
 * 成本漂移超出预算窗口
 * 合并冲突阻塞队列前进
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

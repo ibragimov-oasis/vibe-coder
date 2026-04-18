@@ -43,3 +43,9 @@ Feature Implementation Workflow geliştirme pipeline'ını tanımlar: araştırm
    - Detaylı commit mesajları
    - Conventional commits formatını takip et
    - Commit mesaj formatı ve PR süreci için [git-workflow.md](./git-workflow.md) dosyasına bak
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

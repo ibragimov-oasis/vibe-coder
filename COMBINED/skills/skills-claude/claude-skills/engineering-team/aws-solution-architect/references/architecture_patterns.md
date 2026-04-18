@@ -540,3 +540,9 @@ RecordSetPrimary:
 | Three-Tier | Medium | Medium | Low |
 | Event-Driven | High | Medium | High |
 | Multi-Region | High | High | High |
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

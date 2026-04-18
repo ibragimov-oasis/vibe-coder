@@ -309,3 +309,9 @@ audioManager.registerAudioDeviceCallback(callback, null)
 override fun onStart() { register(callback) }
 override fun onStop() { unregister(callback) }
 ```
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

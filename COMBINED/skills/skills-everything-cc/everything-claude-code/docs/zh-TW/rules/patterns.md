@@ -60,3 +60,9 @@ interface Repository<T> {
    - 實作規劃
 3. 複製最佳匹配作為基礎
 4. 在經過驗證的結構中迭代
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

@@ -1495,3 +1495,9 @@ Reference: https://supabase.com/docs/guides/database/full-text-search
 - https://wiki.postgresql.org/wiki/Performance_Optimization
 - https://supabase.com/docs/guides/database/overview
 - https://supabase.com/docs/guides/auth/row-level-security
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

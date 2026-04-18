@@ -731,3 +731,9 @@ Risk Considerations:
 | Implement action | Execute plan |
 | Document results | Records |
 | Review effectiveness | Verification |
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

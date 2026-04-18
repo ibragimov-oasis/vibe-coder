@@ -245,3 +245,9 @@ Verdict: BLOCK — HIGH issues must be fixed before merge.
 - **Block**: Any CRITICAL or HIGH issues — must fix before merge
 
 Refer to the `flutter-dart-code-review` skill for the comprehensive review checklist.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

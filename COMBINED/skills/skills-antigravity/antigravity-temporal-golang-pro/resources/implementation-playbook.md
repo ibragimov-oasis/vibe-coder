@@ -247,3 +247,9 @@ encodedFlag.Get(&enabled)
 ```
 
 > **Warning:** Do NOT use `SideEffect` as a workaround to call external APIs (HTTP, DB) inside a workflow. All external I/O must still go through Activities.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

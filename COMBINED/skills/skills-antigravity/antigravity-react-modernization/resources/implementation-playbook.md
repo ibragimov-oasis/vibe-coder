@@ -517,3 +517,9 @@ function List<T>({ items, renderItem }: ListProps<T>) {
 - Mixing class and functional patterns
 - Ignoring StrictMode warnings
 - Breaking change assumptions
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

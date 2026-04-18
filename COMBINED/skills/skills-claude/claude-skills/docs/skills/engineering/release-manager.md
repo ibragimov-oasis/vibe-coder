@@ -503,3 +503,9 @@ def monitor_deployment():
 7. **Iteration**: Continuously improve based on feedback and metrics
 
 The Release Manager skill transforms chaotic deployments into predictable, reliable releases that build confidence across your entire organization.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

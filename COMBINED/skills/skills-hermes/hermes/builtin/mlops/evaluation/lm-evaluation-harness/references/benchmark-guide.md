@@ -493,3 +493,9 @@ lm_eval --model hf \
 - Task list: `lm_eval --tasks list`
 - Task README: `lm_eval/tasks/README.md`
 - Papers: See individual benchmark papers
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-hermes]] — Category: skills-hermes
+

@@ -17,3 +17,9 @@ tags:
 3) TDD-first, small commits; keep boundaries clean.
 4) Verify (unit + targeted e2e); add metrics/logs if warranted.
 5) Deliver PR with rationale, trade-offs, rollout/rollback notes.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

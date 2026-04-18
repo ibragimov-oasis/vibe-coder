@@ -84,5 +84,10 @@ tags:
   - artifact/doc
   - source/skills-antigravity
 ---|---  
-June 10, 2024| Reorganized some guidance into new topics and added game-specific examples.  
-  
+June 10, 2024| Reorganized some guidance into new topics and added game-specific examples.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

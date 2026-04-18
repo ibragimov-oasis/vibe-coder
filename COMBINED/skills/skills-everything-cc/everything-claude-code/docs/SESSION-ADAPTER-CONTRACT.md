@@ -298,3 +298,9 @@ before the dedicated state store lands. Its behavior is:
 
 This keeps `session-inspect` and other polling-style reads from growing
 unbounded history for the same unchanged session snapshot.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

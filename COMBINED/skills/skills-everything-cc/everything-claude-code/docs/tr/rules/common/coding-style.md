@@ -53,3 +53,9 @@ Sistem sınırlarında DAIMA validate et:
 - [ ] Düzgün hata yönetimi
 - [ ] Hardcoded değer yok (sabit veya config kullan)
 - [ ] Mutasyon yok (immutable pattern'ler kullanıldı)
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

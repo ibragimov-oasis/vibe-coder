@@ -53,3 +53,8 @@ By default, macOS displays a box’s title above it.
 
 [`NSBox`](https://developer.apple.com/documentation/AppKit/NSBox) — AppKit
 
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

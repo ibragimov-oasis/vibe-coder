@@ -95,3 +95,9 @@ mcp__devfleet__get_report(mission_id="<mission_id>")
 * 智能体并发数是可配置的（默认：3）。超额的任务会排队，并在有空闲槽位时自动派发。检查 `get_dashboard()` 以了解槽位可用性。
 * 依赖关系形成一个 DAG — 切勿创建循环依赖
 * 每个智能体在完成时自动合并其 worktree。如果发生合并冲突，更改将保留在 worktree 分支上，以供手动解决。
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

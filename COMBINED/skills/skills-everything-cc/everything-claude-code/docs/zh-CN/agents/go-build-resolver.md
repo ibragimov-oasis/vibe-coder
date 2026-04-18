@@ -97,3 +97,9 @@ go clean -modcache && go mod download  # Fix checksum issues
 最终：`Build Status: SUCCESS/FAILED | Errors Fixed: N | Files Modified: list`
 
 有关详细的 Go 错误模式和代码示例，请参阅 `skill: golang-patterns`。
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

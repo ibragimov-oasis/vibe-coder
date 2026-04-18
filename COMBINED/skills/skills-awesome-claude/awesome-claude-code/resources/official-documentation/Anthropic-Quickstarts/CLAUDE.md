@@ -63,3 +63,9 @@ tags:
 - **Components**: Function components with type annotations
 - **Visualization**: Use Recharts library for data visualization
 - **State management**: React hooks for state
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-awesome-claude]] — Category: skills-awesome-claude
+

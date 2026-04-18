@@ -144,3 +144,9 @@ test.describe('Notification Preferences', () => {
 | Frequency selector | Dropdown value saved and restored |
 | Save error | Server error → error alert |
 | Unsubscribe all | Confirmation dialog before all disabled |
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

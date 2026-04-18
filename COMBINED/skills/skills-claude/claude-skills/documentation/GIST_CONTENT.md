@@ -867,3 +867,9 @@ A: Claude Skills Library includes domain-specific skills: content-creator for ma
 **⭐ Star the repository:** https://github.com/alirezarezvani/claude-skills
 **📖 Read full documentation:** https://github.com/alirezarezvani/claude-skills#readme
 **🤝 Contribute:** https://github.com/alirezarezvani/claude-skills/blob/main/CONTRIBUTING.md
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

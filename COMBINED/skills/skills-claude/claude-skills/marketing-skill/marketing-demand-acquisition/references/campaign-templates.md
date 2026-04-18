@@ -226,3 +226,9 @@ Campaign Objective: [Conversions]
 - D4: Backup generic (60-90 chars)
 
 **Validation:** Ad strength score of "Excellent" before launch.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

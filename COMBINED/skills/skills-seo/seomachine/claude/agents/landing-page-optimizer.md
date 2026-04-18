@@ -302,3 +302,9 @@ Use data from these modules:
 - Acknowledge what's working well, not just issues
 - Keep the conversion goal in mind throughout
 - Be concise but thorough
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-seo]] — Category: skills-seo
+

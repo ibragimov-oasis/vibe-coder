@@ -71,3 +71,9 @@ Workflow status values: `ENQUEUED`, `PENDING`, `SUCCESS`, `ERROR`, `CANCELLED`, 
 To optimize performance, set `loadInput: false` and `loadOutput: false` when you don't need workflow inputs or outputs.
 
 Reference: [Workflow Management](https://docs.dbos.dev/typescript/tutorials/workflow-management)
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

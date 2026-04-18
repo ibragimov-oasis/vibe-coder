@@ -29,3 +29,9 @@ tags:
 
 ## 返回结果
 - 返回雷达图 URL，并附 `_meta.spec`。
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-data-analysis]] — Category: skills-data-analysis
+

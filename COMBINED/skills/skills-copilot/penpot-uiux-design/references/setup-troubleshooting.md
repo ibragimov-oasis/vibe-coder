@@ -333,3 +333,9 @@ Run this checklist to confirm everything works:
 - **GitHub Issues**: [penpot/penpot-mcp/issues](https://github.com/penpot/penpot-mcp/issues)
 - **GitHub Discussions**: [penpot/penpot-mcp/discussions](https://github.com/penpot/penpot-mcp/discussions)
 - **Penpot Community**: [community.penpot.app](https://community.penpot.app/)
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-copilot]] — Category: skills-copilot
+

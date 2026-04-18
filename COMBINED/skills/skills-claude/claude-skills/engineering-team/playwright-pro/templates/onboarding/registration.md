@@ -136,3 +136,9 @@ test.describe('Registration', () => {
 | Weak password | Strength error on blur |
 | Password mismatch | Confirm error |
 | Already authed | Redirected to dashboard |
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

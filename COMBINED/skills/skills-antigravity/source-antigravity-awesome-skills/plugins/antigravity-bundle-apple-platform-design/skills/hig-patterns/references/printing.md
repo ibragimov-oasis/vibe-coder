@@ -55,3 +55,8 @@ An iOS, iPadOS, macOS, or visionOS app can integrate system-provided print funct
 
 [`NSDocument`](https://developer.apple.com/documentation/AppKit/NSDocument) — AppKit
 
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

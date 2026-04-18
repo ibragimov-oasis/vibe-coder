@@ -416,3 +416,9 @@ Mutation testing modifies your production code (creates "mutants") and checks wh
 - E2E testing: Playwright, Cypress, Selenium
 - Performance testing: k6, JMeter, Locust
 - Security testing: OWASP ZAP, Burp Suite
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

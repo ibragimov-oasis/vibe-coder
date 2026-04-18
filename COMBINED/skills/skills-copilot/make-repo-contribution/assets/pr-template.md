@@ -41,3 +41,9 @@ tags:
 - Breaking changes or migration steps
 - Highlights for human reviewers
 -->
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-copilot]] — Category: skills-copilot
+

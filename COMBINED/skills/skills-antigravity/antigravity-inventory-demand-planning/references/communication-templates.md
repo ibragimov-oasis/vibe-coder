@@ -571,3 +571,9 @@ Root cause analysis for this excess is assigned to {{postmortem_owner}} with a d
 
 {{our_contact_name}}
 {{our_contact_title}} | {{our_contact_email}} | {{our_contact_phone}}
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

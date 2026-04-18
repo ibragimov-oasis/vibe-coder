@@ -114,3 +114,9 @@ npx eslint . --plugin security
 ***
 
 **请记住**：安全不是可选的。一个漏洞就可能给用户带来实际的财务损失。务必彻底、保持警惕、积极主动。
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

@@ -53,3 +53,9 @@ tags:
 - [ ] 適切なエラーハンドリング
 - [ ] ハードコードされた値がない（定数または設定を使用）
 - [ ] 変更がない（不変パターンを使用）
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

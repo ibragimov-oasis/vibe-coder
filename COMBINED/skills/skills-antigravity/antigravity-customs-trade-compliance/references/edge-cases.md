@@ -367,3 +367,9 @@ The second mistake: admitting that Xinjiang cotton might be in the supply chain 
 - Isotopic testing can distinguish Xinjiang cotton from cotton grown in other regions — CBP is increasingly requesting or conducting these tests
 - The UFLPA Entity List includes specific entities in Xinjiang — screen all suppliers against this list
 - Even if the detained shipment is released, expect heightened scrutiny on ALL future shipments from the same supplier and origin
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

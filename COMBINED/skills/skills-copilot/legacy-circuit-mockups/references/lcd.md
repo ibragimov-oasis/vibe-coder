@@ -213,3 +213,9 @@ R/W  Grounded (write-only)
 * <https://predictabledesigns.com/introduction-embedded-electronic-displays/>
 
 ---
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-copilot]] — Category: skills-copilot
+

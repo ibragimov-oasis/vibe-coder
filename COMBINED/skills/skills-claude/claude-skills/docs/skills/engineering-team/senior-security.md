@@ -444,3 +444,9 @@ For compliance framework requirements (OWASP ASVS, CIS Benchmarks, NIST CSF, PCI
 | [senior-secops](https://github.com/alirezarezvani/claude-skills/tree/main/engineering-team/senior-secops) | Security monitoring, incident response |
 | [senior-backend](https://github.com/alirezarezvani/claude-skills/tree/main/engineering-team/senior-backend) | Secure API development |
 | [senior-architect](https://github.com/alirezarezvani/claude-skills/tree/main/engineering-team/senior-architect) | Security architecture decisions |
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

@@ -225,3 +225,9 @@ for await (const message of query({
 3. **Use appropriate permission modes** — Start with `"default"` and only escalate when needed
 4. **Handle all message types** — Check for `result` property to get agent output
 5. **Limit maxTurns** — Prevent runaway agents with reasonable limits
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

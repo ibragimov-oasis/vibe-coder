@@ -31,3 +31,9 @@ python3 ~/COMBINED/workspace-config/claude/skills/continuous-learning-v2/scripts
 - Project instincts override global instincts when IDs conflict.
 - Output is grouped by domain with confidence bars.
 - This command does not support extra filters in v2.1.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

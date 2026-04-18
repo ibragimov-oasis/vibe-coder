@@ -249,3 +249,9 @@ As an agent, before completing a task, verify that your work adheres to ALL stan
 11. Validation output includes count of failed tests out of total tests run
 
 If any standard is not met, fix the issue before submitting the work.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-awesome-claude]] — Category: skills-awesome-claude
+

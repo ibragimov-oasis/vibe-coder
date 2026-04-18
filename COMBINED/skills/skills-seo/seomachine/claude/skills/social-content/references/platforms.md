@@ -168,3 +168,9 @@ Detailed strategies for each major social platform.
 - Pure promotional content
 - Ignoring comments
 - Cross-posting from other platforms without adaptation
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-seo]] — Category: skills-seo
+

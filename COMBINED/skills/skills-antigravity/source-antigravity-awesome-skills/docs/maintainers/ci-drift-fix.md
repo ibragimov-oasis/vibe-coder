@@ -67,3 +67,9 @@ The workflow expects the repository to be clean after those sync steps finish. A
 
 **Summary**:
 Use generator drift as a hard failure only on `main`. On PRs, the contract is simpler: source-only changes are reviewed, generated output is previewed, and `main` produces the final canonical artifact set.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

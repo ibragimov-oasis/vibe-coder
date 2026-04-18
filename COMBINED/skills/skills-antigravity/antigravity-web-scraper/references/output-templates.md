@@ -486,3 +486,9 @@ When extraction partially fails:
 - Check if site has an API endpoint for direct data access
 - Try at a different time if rate-limited
 ```
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

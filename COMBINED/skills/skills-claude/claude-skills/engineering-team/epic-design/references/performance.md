@@ -266,3 +266,9 @@ gsap.utils.toArray('.elements').forEach(el => {
   gsap.from(el, { ... });
 });
 ```
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

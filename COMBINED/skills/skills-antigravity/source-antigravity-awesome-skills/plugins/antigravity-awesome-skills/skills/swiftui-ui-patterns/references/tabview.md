@@ -119,3 +119,9 @@ struct AppView: View {
 - Do not nest `@Observable` objects inside other `@Observable` objects.
 - Ensure `AppTab.id` values are stable; dynamic cases should hash on stable IDs.
 - Special tabs (compose) should not change selection.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

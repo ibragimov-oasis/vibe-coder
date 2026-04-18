@@ -316,3 +316,9 @@ For each top headline, a supporting subheadline:
 4. **Consider Context**: Tailor to page type and goal
 5. **Include Keywords**: For SEO pages, integrate target keyword
 6. **Test-Ready**: Frame as A/B testable hypotheses
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-seo]] — Category: skills-seo
+

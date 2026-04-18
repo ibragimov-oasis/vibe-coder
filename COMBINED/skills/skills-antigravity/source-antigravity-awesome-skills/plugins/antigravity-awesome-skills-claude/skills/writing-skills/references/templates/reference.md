@@ -37,3 +37,9 @@ another example
 For more options, run `--help` or see:
 - patterns.md
 - examples.md
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

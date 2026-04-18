@@ -48,3 +48,9 @@ Role-based access: ADMIN (full access), MANAGER (read + edit), USER (read-only).
 - All delete operations require confirmation modal
 - Lists default to `created_at` descending, 20 items per page
 - Form validation shows inline errors below each field
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

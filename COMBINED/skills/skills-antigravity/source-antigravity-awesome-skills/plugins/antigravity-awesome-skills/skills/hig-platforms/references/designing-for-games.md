@@ -159,5 +159,10 @@ watchOS| Touch| –
 Date| Changes  
 ---|---  
 June 9, 2025| Updated guidance for touch-based controls and Game Center.  
-June 10, 2024| New page.  
-  
+June 10, 2024| New page.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

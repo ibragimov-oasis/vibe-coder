@@ -53,3 +53,8 @@ Generally speaking, collections are ideal for showing image-based content.
 
 [`NSCollectionView`](https://developer.apple.com/documentation/AppKit/NSCollectionView) — AppKit
 
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

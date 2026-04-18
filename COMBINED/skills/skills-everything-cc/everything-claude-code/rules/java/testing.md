@@ -133,3 +133,9 @@ Use descriptive names with `@DisplayName`:
 
 See skill: `springboot-tdd` for Spring Boot TDD patterns with MockMvc and Testcontainers.
 See skill: `java-coding-standards` for testing expectations.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

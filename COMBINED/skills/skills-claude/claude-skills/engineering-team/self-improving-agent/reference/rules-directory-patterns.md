@@ -142,3 +142,9 @@ paths:
 3. **Keep unscoped rules minimal** — they load every session like CLAUDE.md
 4. **Review after refactors** — paths may change when directories are reorganized
 5. **Share via git** — rules/ should be version-controlled (unlike auto-memory)
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

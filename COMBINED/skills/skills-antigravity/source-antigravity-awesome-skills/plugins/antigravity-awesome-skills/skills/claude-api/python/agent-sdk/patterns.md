@@ -324,3 +324,9 @@ Always provide specific line numbers and suggestions for improvement."""
 
 anyio.run(main)
 ```
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

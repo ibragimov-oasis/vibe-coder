@@ -1146,5 +1146,10 @@ December 16, 2025| Added emphasized weights to the Dynamic Type style specificat
 March 7, 2025| Expanded guidance for Dynamic Type.  
 June 10, 2024| Added guidance for using Apple’s Unity plug-ins to support Dynamic Type in a Unity-based game and enhanced guidance on billboarding in a visionOS app or game.  
 September 12, 2023| Added artwork illustrating system font weights, and clarified tvOS specification table descriptions.  
-June 21, 2023| Updated to include guidance for visionOS.  
-  
+June 21, 2023| Updated to include guidance for visionOS.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

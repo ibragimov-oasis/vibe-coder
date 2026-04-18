@@ -68,3 +68,9 @@ RED → GREEN → REFACTOR → REPEAT
 ---
 
 **MANDATORY**: Tests must be written BEFORE implementation. Never skip the RED phase.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

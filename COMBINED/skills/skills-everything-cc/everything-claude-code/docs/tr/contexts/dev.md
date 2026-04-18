@@ -25,3 +25,9 @@ Odak: Uygulama, kodlama, özellik geliştirme
 - Kod değişiklikleri için Edit, Write
 - Test/build çalıştırmak için Bash
 - Kod bulmak için Grep, Glob
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

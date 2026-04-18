@@ -336,3 +336,9 @@ Choose Pulumi when the team strongly prefers TypeScript, Python, Go, or C# over 
 ## Troubleshooting
 
 Check the comprehensive troubleshooting section in `references/deployment_strategies.md`.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

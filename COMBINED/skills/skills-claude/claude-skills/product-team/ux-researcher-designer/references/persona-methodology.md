@@ -392,3 +392,9 @@ Watch for these persona validity problems:
 ---
 
 *See also: `example-personas.md` for output examples*
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

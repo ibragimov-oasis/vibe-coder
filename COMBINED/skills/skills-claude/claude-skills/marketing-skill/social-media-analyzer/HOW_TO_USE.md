@@ -44,3 +44,9 @@ Hey Claude—I just added the "social-media-analyzer" skill. Can you compare our
 3. **Provide context**: Mention campaign goals, target audience, or special events
 4. **Compare time periods**: Ask for month-over-month or campaign-to-campaign comparisons
 5. **Request specific analysis**: Focus on engagement, ROI, or specific metrics you care about
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

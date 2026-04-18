@@ -89,3 +89,9 @@ Report to the user:
 - Experiment path and branch name
 - Whether the eval command worked and the baseline metric
 - Suggest: "Run `/ar:run {domain}/{name}` to start iterating, or `/ar:loop {domain}/{name}` for autonomous mode."
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

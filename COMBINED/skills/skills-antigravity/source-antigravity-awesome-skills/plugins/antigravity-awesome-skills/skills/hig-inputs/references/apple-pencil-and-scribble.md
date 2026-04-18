@@ -148,5 +148,10 @@ tags:
 ---|---  
 May 7, 2024| Added guidance for handling squeeze and barrel roll on Apple Pencil Pro.  
 September 12, 2023| Updated artwork.  
-November 3, 2022| Added guidelines for using hover to enhance your app.  
-  
+November 3, 2022| Added guidelines for using hover to enhance your app.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

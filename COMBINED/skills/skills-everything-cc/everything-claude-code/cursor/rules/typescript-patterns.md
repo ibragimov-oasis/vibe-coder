@@ -52,3 +52,9 @@ interface Repository<T> {
   delete(id: string): Promise<void>
 }
 ```
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

@@ -23,3 +23,9 @@ tags:
 - file:line — clarity/naming/docs suggestion
 ## Good Practices
 - Brief acknowledgements
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

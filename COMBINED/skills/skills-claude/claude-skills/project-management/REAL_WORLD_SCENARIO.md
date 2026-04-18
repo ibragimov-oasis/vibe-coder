@@ -466,3 +466,8 @@ This scenario demonstrates:
 **Budget Performance**: 96%
 **Timeline Performance**: 100%
 
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

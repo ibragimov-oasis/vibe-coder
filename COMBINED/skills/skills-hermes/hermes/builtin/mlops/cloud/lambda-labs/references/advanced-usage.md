@@ -616,3 +616,9 @@ source .env
 # On instance, store in ~/.bashrc
 echo 'export HF_TOKEN="..."' >> ~/.bashrc
 ```
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-hermes]] — Category: skills-hermes
+

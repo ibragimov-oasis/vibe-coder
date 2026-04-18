@@ -656,3 +656,9 @@ ORDER BY rank DESC;
 **覚えておくこと**: データベースの問題は、アプリケーションパフォーマンス問題の根本原因であることが多いです。クエリとスキーマ設計を早期に最適化してください。仮定を検証するためにEXPLAIN ANALYZEを使用してください。常に外部キーとRLSポリシー列にインデックスを作成してください。
 
 *パターンはMITライセンスの下で[Supabase Agent Skills](Supabase Agent Skills (credit: Supabase team))から適応されています。*
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

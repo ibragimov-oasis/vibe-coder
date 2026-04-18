@@ -95,3 +95,9 @@ project-name/
 - NativeWind for consistent styling
 - Expo SecureStore for tokens
 - Test on both iOS and Android
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

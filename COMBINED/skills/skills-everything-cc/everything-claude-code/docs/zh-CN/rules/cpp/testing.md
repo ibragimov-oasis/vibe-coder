@@ -47,3 +47,9 @@ cmake -DCMAKE_CXX_FLAGS="-fsanitize=address,undefined" ..
 ## 参考
 
 查看技能：`cpp-testing` 以获取详细的 C++ 测试模式、TDD 工作流以及 GoogleTest/GMock 使用指南。
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

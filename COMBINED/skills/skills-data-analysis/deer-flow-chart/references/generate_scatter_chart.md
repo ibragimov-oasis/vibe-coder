@@ -30,3 +30,9 @@ tags:
 
 ## 返回结果
 - 返回散点图 URL，并附 `_meta.spec`。
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-data-analysis]] — Category: skills-data-analysis
+

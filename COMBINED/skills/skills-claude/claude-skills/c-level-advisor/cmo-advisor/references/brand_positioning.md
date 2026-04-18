@@ -379,3 +379,9 @@ Use this as an audit against your current positioning:
 | Do win/loss interviews confirm the stated differentiator? | ✓ | Differentiator is assumed, not proven |
 | Is the category name used by analysts or industry media? | ✓ | Category design needed |
 | Does every piece of content trace back to a VP from the hierarchy? | ✓ | Messaging drift — need guidelines |
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

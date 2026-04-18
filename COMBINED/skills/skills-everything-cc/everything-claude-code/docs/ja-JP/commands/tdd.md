@@ -328,3 +328,9 @@ REDフェーズをスキップしてはいけません。テストの前にコ�
 
 また、以下の場所にある`tdd-workflow`スキルを参照できます:
 `~/COMBINED/workspace-config/claude/skills/tdd-workflow/`
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

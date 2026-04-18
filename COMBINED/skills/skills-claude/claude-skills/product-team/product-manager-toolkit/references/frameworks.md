@@ -564,3 +564,9 @@ OUR PRODUCT learns your interests and filters automatically
 ---
 
 *Last Updated: January 2025*
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

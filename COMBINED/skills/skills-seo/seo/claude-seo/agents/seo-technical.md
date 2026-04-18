@@ -54,3 +54,9 @@ Provide a structured report with:
 7. Structured Data (detection, validation)
 8. JavaScript Rendering (CSR vs SSR)
 9. IndexNow Protocol (Bing, Yandex, Naver)
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-seo]] — Category: skills-seo
+

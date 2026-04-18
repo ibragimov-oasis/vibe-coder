@@ -642,3 +642,9 @@ When generating images for ads, request the correct dimensions:
 | Twitter/X Card | Landscape | 1.91:1 | 800x418 |
 
 Include these dimensions in your generation prompts to avoid needing to crop or resize.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

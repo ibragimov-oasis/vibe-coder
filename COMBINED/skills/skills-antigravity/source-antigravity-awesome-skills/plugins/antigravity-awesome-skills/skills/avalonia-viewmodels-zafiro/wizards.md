@@ -52,3 +52,9 @@ public async Task CreateSomething()
 
 > [!NOTE]
 > The `SlimWizard` handles the "Back" command automatically, providing a consistent user experience across different flows.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

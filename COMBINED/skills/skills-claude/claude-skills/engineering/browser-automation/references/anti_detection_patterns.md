@@ -458,3 +458,9 @@ For most automation tasks, apply these in order of priority:
 8. **Canvas noise** — Low priority unless hitting advanced anti-bot
 9. **Proxy rotation** — Only for high-volume or repeated scraping
 10. **Behavioral simulation** — Only for sites with behavioral analysis
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

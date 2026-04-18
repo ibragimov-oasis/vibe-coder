@@ -126,3 +126,9 @@ export default defineConfig({
 | Reusable page helpers | Custom fixture returning page |
 | Test data cleanup | Fixture teardown (after `use()`) |
 | Config values | Simple value fixture |
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

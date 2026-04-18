@@ -247,3 +247,9 @@ Do you have 2+ years and full leadership commitment to radical organizational ch
   YES → Consider Holacracy (with caution).
   NO → Build a custom hybrid from EOS + OKRs.
 ```
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

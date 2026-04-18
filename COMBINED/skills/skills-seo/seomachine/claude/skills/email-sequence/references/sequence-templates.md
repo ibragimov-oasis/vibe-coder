@@ -167,3 +167,9 @@ Coordinate with in-app onboarding. Email supports, doesn't duplicate.
 - For trial users: conversion push
 - For free users: upgrade prompt
 - For paid: expansion opportunity
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-seo]] — Category: skills-seo
+

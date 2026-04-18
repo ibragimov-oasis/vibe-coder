@@ -16,3 +16,9 @@ tags:
 4/ If your agents are underperforming, start with `/harness-audit` and tighten quality gates.
 
 5/ Cross-harness parity remains a priority: Claude Code, Cursor, OpenCode, Codex.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

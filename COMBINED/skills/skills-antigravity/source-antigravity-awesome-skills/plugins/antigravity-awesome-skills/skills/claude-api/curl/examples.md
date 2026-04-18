@@ -169,3 +169,9 @@ curl https://api.anthropic.com/v1/messages \
 | `x-api-key`         | Your API key       | Authentication             |
 | `anthropic-version` | `2023-06-01`       | API version                |
 | `anthropic-beta`    | Beta feature IDs   | Required for beta features |
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

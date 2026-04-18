@@ -373,3 +373,9 @@ If you need to switch back:
 For issues specific to:
 - **OpenCode CLI**: Report to OpenCode's issue tracker
 - **ECC Configuration**: Report to [github.com/affaan-m/everything-claude-code](https://github.com/affaan-m/everything-claude-code)
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

@@ -57,3 +57,9 @@ Crontab format: `minute hour day month weekday`
 - `0 0 * * 0` = weekly on Sunday
 
 Reference: [Scheduled Workflows](https://docs.dbos.dev/python/tutorials/scheduled-workflows)
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

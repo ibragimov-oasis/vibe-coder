@@ -39,3 +39,9 @@ function MessageList({ messages }: { messages: Message[] }) {
 ```
 
 For 1000 messages, browser skips layout/paint for ~990 off-screen items (10× faster initial render).
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

@@ -317,3 +317,8 @@ Your world-class Project Management team skills are **production-ready** and wai
 **Quality**: Production-Ready
 **Integration**: Atlassian MCP Server
 
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

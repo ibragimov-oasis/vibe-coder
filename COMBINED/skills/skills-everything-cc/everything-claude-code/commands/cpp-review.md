@@ -134,3 +134,9 @@ Recommendation: FAIL: Block merge until CRITICAL issue is fixed
 
 - Agent: `agents/cpp-reviewer.md`
 - Skills: `skills/cpp-coding-standards/`, `skills/cpp-testing/`
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

@@ -351,3 +351,9 @@ function openModal() {
 - [MDN Accessibility](https://developer.mozilla.org/en-US/docs/Web/Accessibility)
 - [WebAIM](https://webaim.org/)
 - [A11y Project](https://www.a11yproject.com/)
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-copilot]] — Category: skills-copilot
+

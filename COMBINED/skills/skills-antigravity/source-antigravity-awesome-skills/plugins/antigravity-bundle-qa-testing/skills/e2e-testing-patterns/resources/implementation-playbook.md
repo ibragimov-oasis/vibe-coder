@@ -536,3 +536,9 @@ await page.pause();  // Pauses execution, opens inspector
 - **assets/e2e-testing-checklist.md**: What to test with E2E
 - **assets/selector-strategies.md**: Finding reliable selectors
 - **scripts/test-analyzer.ts**: Analyze test flakiness and duration
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

@@ -124,5 +124,10 @@ In watchOS, the system manages audio playback. An app can play short audio clips
 
 Date| Changes  
 ---|---  
-June 21, 2023| Updated to include guidance for visionOS.  
-  
+June 21, 2023| Updated to include guidance for visionOS.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

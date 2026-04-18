@@ -202,3 +202,9 @@ az repos pr create --help
 # Search for examples
 az find "az repos pr create"
 ```
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-copilot]] — Category: skills-copilot
+

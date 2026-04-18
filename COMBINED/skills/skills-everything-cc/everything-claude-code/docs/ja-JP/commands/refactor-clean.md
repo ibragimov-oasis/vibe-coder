@@ -33,3 +33,9 @@ tags:
 6. クリーンアップされたアイテムのサマリーを表示
 
 まずテストを実行せずにコードを削除しないでください!
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

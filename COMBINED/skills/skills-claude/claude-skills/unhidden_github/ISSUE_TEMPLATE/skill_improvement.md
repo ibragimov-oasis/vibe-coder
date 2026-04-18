@@ -104,3 +104,9 @@ Any other information:
 - [ ] This improvement doesn't duplicate existing functionality
 - [ ] I have clearly described the value proposition
 - [ ] I have provided concrete examples
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

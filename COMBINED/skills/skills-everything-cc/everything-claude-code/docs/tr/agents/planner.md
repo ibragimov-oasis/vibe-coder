@@ -214,3 +214,9 @@ Her faz bağımsız olarak birleştirilebilir olmalı. Herhangi bir şey çalı�
 - Bağımsız olarak teslim edilemeyen fazlar
 
 **Unutmayın**: Harika bir plan spesifik, eyleme geçirilebilir ve hem mutlu yolu hem de uç durumları dikkate alır. En iyi planlar, kendinden emin, artımlı uygulamayı mümkün kılar.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

@@ -29,3 +29,9 @@ Important:
 ├── Use short expiry + refresh tokens
 └── Never store sensitive data in JWT
 ```
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

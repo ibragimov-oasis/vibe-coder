@@ -245,3 +245,9 @@ When executing:
 12. **ALWAYS validate all hyperlinks** — Phase 2.7 is mandatory. Never skip it. Broken links are HIGH priority.
 13. **Environment variables are split across two files** — `claude-settings.md` owns `env`-configurable vars; `claude-cli-startup-flags.md` owns startup-only vars. Do NOT flag env vars as missing if they belong in the CLI file. Cross-reference `best-practice/claude-cli-startup-flags.md` to verify ownership boundaries.
 14. **Verify the settings hierarchy** — the 5-level override chain plus managed policy layer must match official docs exactly.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

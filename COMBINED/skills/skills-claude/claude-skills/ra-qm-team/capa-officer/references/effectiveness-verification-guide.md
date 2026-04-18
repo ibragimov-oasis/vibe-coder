@@ -467,3 +467,9 @@ CONCLUSION:
 [ ] Interviewee demonstrates partial knowledge (specify gaps)
 [ ] Interviewee does not demonstrate required knowledge
 ```
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

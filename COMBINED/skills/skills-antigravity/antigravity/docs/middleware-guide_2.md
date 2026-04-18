@@ -218,3 +218,9 @@ app.use(Sentry.Handlers.errorHandler());
 - SKILL.md
 - [routing-and-controllers.md](routing-and-controllers.md)
 - [async-and-errors.md](async-and-errors.md)
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

@@ -29,3 +29,9 @@ Invoke the `@agent-design-review` subagent for thorough design validation when:
 - Completing significant UI/UX features
 - Before finalizing PRs with visual changes
 - Needing comprehensive accessibility and responsiveness testing
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-awesome-claude]] — Category: skills-awesome-claude
+

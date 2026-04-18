@@ -21,3 +21,9 @@ tags:
 * **google-java-format**：编辑后自动格式化 `.java` 文件
 * **checkstyle**：编辑Java文件后运行样式检查
 * **./mvnw compile** 或 **./gradlew compileJava**：变更后验证编译
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

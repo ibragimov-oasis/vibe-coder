@@ -185,3 +185,9 @@ ok      project/internal/handler   0.023s
 - 代理: `agents/go-build-resolver.md`
 - 技能: `skills/golang-patterns/`
 ```
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

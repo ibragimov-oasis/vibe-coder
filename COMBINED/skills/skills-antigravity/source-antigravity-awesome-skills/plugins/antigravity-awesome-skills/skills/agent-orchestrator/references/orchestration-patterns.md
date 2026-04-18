@@ -134,3 +134,9 @@ Formato padrao para passar dados entre skills:
   }
 }
 ```
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

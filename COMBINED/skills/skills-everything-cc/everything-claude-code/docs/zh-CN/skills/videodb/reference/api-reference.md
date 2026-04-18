@@ -555,3 +555,9 @@ from videodb.exceptions import (
 | `RequestTimeoutError` | 服务器响应时间过长 |
 | `SearchError` | 在索引前进行搜索、无效的搜索类型 |
 | `VideodbError` | 服务器错误、网络问题、通用故障 |
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

@@ -116,5 +116,10 @@ tags:
   - source/skills-antigravity
 ---|---  
 September 12, 2023| Combined guidance common to all platforms.  
-June 5, 2023| Updated guidance to reflect changes in watchOS 10.  
-  
+June 5, 2023| Updated guidance to reflect changes in watchOS 10.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

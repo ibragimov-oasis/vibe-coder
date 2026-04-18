@@ -423,3 +423,9 @@ if (data) {
 **See Also:**
 - [component-patterns.md](component-patterns.md) - Component typing
 - [data-fetching.md](data-fetching.md) - API typing
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

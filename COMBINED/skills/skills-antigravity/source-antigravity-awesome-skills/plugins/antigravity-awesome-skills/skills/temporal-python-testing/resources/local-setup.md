@@ -558,3 +558,9 @@ lsof -i :7233
 - pytest Documentation: docs.pytest.org
 - Docker Compose: docs.docker.com/compose
 - pytest-asyncio: github.com/pytest-dev/pytest-asyncio
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

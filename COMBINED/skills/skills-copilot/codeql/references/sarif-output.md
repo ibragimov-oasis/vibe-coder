@@ -270,3 +270,9 @@ Validate SARIF files before upload using the [Microsoft SARIF validator](https:/
 - Fields not always generated may change circumstances under which they appear
 - New fields may be added without breaking changes
 - Consumers should be robust to both presence and absence of optional fields
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-copilot]] — Category: skills-copilot
+

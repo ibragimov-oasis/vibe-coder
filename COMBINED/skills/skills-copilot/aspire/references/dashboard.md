@@ -231,3 +231,9 @@ provider.addSpanProcessor(
 );
 provider.register();
 ```
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-copilot]] — Category: skills-copilot
+

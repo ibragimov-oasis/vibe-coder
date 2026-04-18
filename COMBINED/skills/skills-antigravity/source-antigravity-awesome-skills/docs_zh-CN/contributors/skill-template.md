@@ -293,3 +293,9 @@ skills/
 如果您有任何疑问或需要指导，请随时联系我们。
 
 **期待您的贡献！** 🚀
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

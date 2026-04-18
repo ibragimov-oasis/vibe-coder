@@ -65,3 +65,9 @@ result, err := handle.GetResult()
 - `dbos.WithHandlePollingInterval(interval)`: Control how often the database is polled for completion
 
 Reference: [Workflows](https://docs.dbos.dev/golang/tutorials/workflow-tutorial)
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

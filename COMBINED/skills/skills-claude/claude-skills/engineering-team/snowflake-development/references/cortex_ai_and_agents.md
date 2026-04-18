@@ -285,3 +285,9 @@ session.sproc.register(
 - DataFrames are lazy. Calling `.collect()` pulls all data to the client -- avoid on large datasets.
 - Use vectorized UDFs over scalar UDFs for batch processing (10-100x performance improvement).
 - Close sessions when done: `session.close()`.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

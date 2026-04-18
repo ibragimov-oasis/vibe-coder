@@ -2318,3 +2318,9 @@ This list is licensed under [Creative Commons CC BY-NC-ND 4.0](https://creativec
 
 
 <!-- OBLIGATORY GUARD AGAINST SILLY END-OF-FILE PROBLEM -->
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-awesome-claude]] — Category: skills-awesome-claude
+

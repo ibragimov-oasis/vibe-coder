@@ -360,3 +360,9 @@ powerful-skill/
 ```
 
 This specification serves as the authoritative guide for skill structure within the claude-skills ecosystem. Adherence to these standards ensures consistency, quality, and maintainability across all skills in the repository.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

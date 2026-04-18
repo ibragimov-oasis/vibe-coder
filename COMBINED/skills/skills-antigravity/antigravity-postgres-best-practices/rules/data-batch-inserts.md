@@ -55,3 +55,9 @@ copy events (user_id, action) from stdin with (format csv);
 ```
 
 Reference: [COPY](https://www.postgresql.org/docs/current/sql-copy.html)
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

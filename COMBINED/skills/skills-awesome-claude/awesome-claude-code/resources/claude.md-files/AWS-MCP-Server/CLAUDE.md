@@ -96,3 +96,9 @@ tags:
 - **Documentation**: Keep documentation up-to-date for complex logic and features
 - **Dependencies**: When adding dependencies, always update the `uv.lock` file
 - **CI/CD**: All changes should pass CI checks (tests, linting, etc.) before merging
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-awesome-claude]] — Category: skills-awesome-claude
+

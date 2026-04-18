@@ -664,3 +664,9 @@ Then configure:
 
 **v1.0.1** | Zero-Config | Universal  
 *Works in any project, any context, any terminal.*
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

@@ -70,3 +70,8 @@ Lottie supports the `style` prop to allow styles and animations:
 return <Lottie animationData={animationData} style={{width: 400, height: 400}} />;
 ```
 
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

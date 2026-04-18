@@ -89,3 +89,9 @@ HEART is a UX-oriented framework from Google.
 - HEART for onboarding redesign:
   - Task Success: onboarding completion rate
   - Happiness: onboarding CSAT
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

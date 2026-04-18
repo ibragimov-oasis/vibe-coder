@@ -286,3 +286,9 @@ Solderless prototyping boards with internal bus connections.
 
 **Document Purpose:** Practical breadboard electronics reference
 **Scope:** Hobbyist, education, prototyping
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-copilot]] — Category: skills-copilot
+

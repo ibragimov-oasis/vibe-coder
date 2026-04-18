@@ -90,3 +90,9 @@ with open('assets/iso3166-2.json') as f:
     data = json.load(f)
     valid_regions = {r['code'] for r in data['3166-2']}
 ```
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-copilot]] — Category: skills-copilot
+

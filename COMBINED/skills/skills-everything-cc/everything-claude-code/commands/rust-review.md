@@ -144,3 +144,9 @@ Recommendation: Block merge until CRITICAL issue is fixed
 
 - Agent: `agents/rust-reviewer.md`
 - Skills: `skills/rust-patterns/`, `skills/rust-testing/`
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

@@ -161,3 +161,9 @@ tags:
 |-------|--------|
 | `siteUrl` | Property URL (e.g., `sc-domain:example.com`) |
 | `permissionLevel` | `siteOwner`, `siteFullUser`, `siteRestrictedUser`, `siteUnverifiedUser` |
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-seo]] — Category: skills-seo
+

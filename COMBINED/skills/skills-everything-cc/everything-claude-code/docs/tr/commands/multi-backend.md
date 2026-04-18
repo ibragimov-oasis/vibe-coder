@@ -163,3 +163,9 @@ Review geri bildirimlerini entegre et, kullanıcı onayından sonra optimizasyon
 2. **Gemini backend görüşleri sadece referans için**
 3. Harici modellerin **sıfır dosya sistemi yazma erişimi**
 4. Claude tüm kod yazma ve dosya operasyonlarını yönetir
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

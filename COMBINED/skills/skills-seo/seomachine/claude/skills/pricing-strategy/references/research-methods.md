@@ -151,3 +151,9 @@ Insight: Value correlates with team adoption (users)
 
 Recommendation: Price per user, gate integrations to higher tiers
 ```
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-seo]] — Category: skills-seo
+

@@ -264,3 +264,9 @@ Campaign benchmarks fluctuate by season. Apply these adjustment factors to norma
 - Compare across industries without adjustment
 - Ignore sample size (small campaigns have high variance)
 - Use benchmarks to justify cutting channels without understanding their full-funnel role
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

@@ -44,3 +44,9 @@ class Point(NamedTuple):
 ## Reference
 
 See skill: `python-patterns` for comprehensive Python idioms and patterns.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

@@ -480,3 +480,9 @@ document.querySelectorAll('*').forEach(el => {
 // Or check at the following site:
 // https://webaim.org/resources/contrastchecker/
 ```
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-copilot]] — Category: skills-copilot
+

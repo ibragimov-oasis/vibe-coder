@@ -104,3 +104,9 @@ Remaining (manual review needed):
 ---
 
 **CAUTION**: Always verify before removing. When in doubt, ask or add `// TODO: verify usage` comment.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

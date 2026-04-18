@@ -379,3 +379,9 @@ quick_ratio_liquidity = (cash + ar) / current_liabilities
 # Free cash flow
 fcf = operating_cash_flow - capex
 ```
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

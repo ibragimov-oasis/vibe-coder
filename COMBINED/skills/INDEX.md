@@ -643,3 +643,9 @@ When adding skills:
 
 *For agent capabilities, see `COMBINED/agents/INDEX.md`*
 *For workflow automation, see `COMBINED/commands/INDEX.md`*
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/INDEX.md]] — Category: INDEX.md
+

@@ -536,3 +536,9 @@ npm install
 ---
 
 **覚えておくこと**: 目標は最小限の変更でエラーを迅速に修正することです。リファクタリングせず、最適化せず、再設計しません。エラーを修正し、ビルドが成功することを確認し、次に進みます。完璧さよりもスピードと精度を重視します。
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

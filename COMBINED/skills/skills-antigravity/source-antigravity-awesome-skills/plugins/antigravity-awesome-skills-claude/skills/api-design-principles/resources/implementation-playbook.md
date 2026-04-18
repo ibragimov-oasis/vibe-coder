@@ -518,3 +518,9 @@ def create_context():
 - **assets/graphql-schema-template.graphql**: Complete GraphQL schema example
 - **assets/api-design-checklist.md**: Pre-implementation review checklist
 - **scripts/openapi-generator.py**: Generate OpenAPI specs from code
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

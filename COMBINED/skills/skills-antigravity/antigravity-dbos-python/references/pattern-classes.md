@@ -62,3 +62,9 @@ Requirements:
 Steps can be added to any class without these requirements.
 
 Reference: [Python Classes](https://docs.dbos.dev/python/tutorials/classes)
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

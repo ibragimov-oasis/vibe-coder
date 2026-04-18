@@ -547,3 +547,9 @@ npm install --save-dev audit-ci
 ---
 
 **覚えておくこと**: セキュリティはオプションではありません。特に実際のお金を扱うプラットフォームでは。1つの脆弱性がユーザーに実際の金銭的損失をもたらす可能性があります。徹底的に、疑い深く、積極的に行動してください。
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

@@ -183,3 +183,9 @@ Transcript of the interview with Boris Cherny ([@bcherny](https://x.com/bcherny)
 
 - [Boris Cherny (Creator of Claude Code) On What Grew His Career — Ryan Peterman — YouTube](https://youtu.be/AmdLVWMdjOk)
 - [Ryan Peterman on YouTube](https://www.youtube.com/@RyanPetermanPlus)
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

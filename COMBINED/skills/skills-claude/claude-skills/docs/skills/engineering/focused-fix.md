@@ -331,3 +331,9 @@ If you catch yourself thinking any of these, you are skipping phases:
 | DIAGNOSE | Check code, runtime, tests, logs, config | Diagnosis report |
 | FIX | Fix in order: deps → types → logic → tests → integration | Fix log per issue |
 | VERIFY | Run all tests, check consumers, summarize | Completion report |
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

@@ -35,3 +35,9 @@ tags:
 ## 输出
 
 先呈现发现，后提出建议
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

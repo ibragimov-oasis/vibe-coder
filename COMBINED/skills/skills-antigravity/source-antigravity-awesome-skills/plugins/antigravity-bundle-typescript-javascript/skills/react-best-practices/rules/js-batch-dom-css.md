@@ -83,3 +83,9 @@ function Box({ isHighlighted }: { isHighlighted: boolean }) {
 ```
 
 Prefer CSS classes over inline styles when possible. Classes are cached by the browser and provide better separation of concerns.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

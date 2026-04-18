@@ -645,3 +645,9 @@ Success Criteria:
 - All CI/CD checks passing
 - Issue properly closed with reference to PR
 - Knowledge captured for future reference
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

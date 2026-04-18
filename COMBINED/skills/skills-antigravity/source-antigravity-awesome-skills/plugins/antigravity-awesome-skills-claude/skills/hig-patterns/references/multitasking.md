@@ -131,5 +131,10 @@ tags:
 ---|---  
 June 9, 2025| Reorganized guidance in platform considerations, and added guidance for multitasking with multiple windows in iPadOS.  
 December 5, 2023| Added artwork for primary and auxiliary windows in iPadOS.  
-June 21, 2023| Updated to include guidance for visionOS.  
-  
+June 21, 2023| Updated to include guidance for visionOS.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

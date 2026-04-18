@@ -352,3 +352,9 @@ Complete list of proven marketing approaches organized by category.
 138. **Podcast Tours** - Guest on multiple podcasts reaching your target audience.
 
 139. **Customer Language** - Use the exact words your customers use in marketing.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

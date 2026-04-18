@@ -316,3 +316,9 @@ final class OrdersControllerTest extends TestCase
     }
 }
 ```
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

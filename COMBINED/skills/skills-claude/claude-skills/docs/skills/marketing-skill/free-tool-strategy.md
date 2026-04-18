@@ -279,3 +279,9 @@ All output follows the structured communication standard:
 - **launch-strategy**: Use when planning the full product or feature launch. NOT for tool-specific distribution (use free-tool-strategy for that).
 - **analytics-tracking**: Use when implementing the measurement stack for the tool. NOT for deciding what to measure (use free-tool-strategy for that).
 - **form-cro**: Use when optimizing the lead capture form in the tool. NOT for the tool design or launch strategy.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

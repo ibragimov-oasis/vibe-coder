@@ -94,3 +94,9 @@ grep -rn "FetchType.EAGER" src/main/java --include="*.java"
 - **Bloke Et**: CRITICAL veya HIGH sorunlar bulundu
 
 Detaylı Spring Boot kalıpları ve örnekleri için, `skill: springboot-patterns`'a bakın.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

@@ -75,3 +75,9 @@ Mevcut oturumu analiz et ve skill olarak kaydetmeye değer desenleri çıkar.
 - Tek seferlik sorunları çıkarmayın (belirli API kesintileri, vb.)
 - Gelecekteki oturumlarda zaman kazandıracak desenlere odaklanın
 - Skill'leri odaklı tutun - skill başına bir desen
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

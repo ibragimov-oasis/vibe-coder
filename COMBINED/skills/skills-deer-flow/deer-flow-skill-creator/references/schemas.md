@@ -435,3 +435,9 @@ Output from post-hoc analyzer. Located at `<grading-dir>/analysis.json`.
   }
 }
 ```
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-deer-flow]] — Category: skills-deer-flow
+

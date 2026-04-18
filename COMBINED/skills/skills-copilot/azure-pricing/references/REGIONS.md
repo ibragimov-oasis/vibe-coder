@@ -89,3 +89,9 @@ Users may refer to regions informally. Map these to the correct `armRegionName`:
 | "Germany", "Frankfurt" | `germanywestcentral` |
 | "France", "Paris" | `francecentral` |
 | "Sweden", "Stockholm" | `swedencentral` |
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-copilot]] — Category: skills-copilot
+

@@ -322,3 +322,9 @@ We'll know we're right when [we see this metric]*
 2. [ ] Design exploration
 3. [ ] Technical spike
 4. [ ] Stakeholder review
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

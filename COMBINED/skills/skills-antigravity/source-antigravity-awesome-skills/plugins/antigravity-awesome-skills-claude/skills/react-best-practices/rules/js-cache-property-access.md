@@ -29,3 +29,9 @@ for (let i = 0; i < len; i++) {
   process(value)
 }
 ```
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

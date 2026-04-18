@@ -548,3 +548,9 @@ kubectl get events --sort-by='.lastTimestamp'
 
 - `k8s-manifest-generator` - For creating base Kubernetes manifests
 - `gitops-workflow` - For automated Helm chart deployments
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

@@ -208,3 +208,9 @@ This is the highest-signal competitive data you have. Most companies do it too r
 ## References
 - `references/ci-playbook.md` — OSINT sources, win/loss framework, positioning map construction
 - `templates/battlecard-template.md` — sales battlecard template
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

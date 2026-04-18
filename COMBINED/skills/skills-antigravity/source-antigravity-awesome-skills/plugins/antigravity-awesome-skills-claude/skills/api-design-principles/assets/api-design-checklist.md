@@ -160,3 +160,9 @@ tags:
 - [ ] Deprecations marked
 - [ ] Examples provided
 - [ ] Schema introspection enabled
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

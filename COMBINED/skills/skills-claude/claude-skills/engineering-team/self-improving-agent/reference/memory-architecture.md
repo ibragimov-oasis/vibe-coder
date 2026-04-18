@@ -136,3 +136,9 @@ MEMORY.md (raw notes)  →  /si:review (analyze)  →  /si:promote (graduate)
 4. **Scope rules** — use `.claude/rules/` with paths for file-type-specific patterns
 5. **Review quarterly** — memory files go stale after refactors
 6. **Use /si:status** — monitor capacity before it becomes a problem
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

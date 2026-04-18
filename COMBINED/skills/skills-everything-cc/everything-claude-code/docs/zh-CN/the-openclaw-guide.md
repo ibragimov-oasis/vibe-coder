@@ -476,3 +476,9 @@ OpenClaw 可以演变成这样。基础已经存在。社区积极参与。团�
 ***
 
 *Affaan Mustafa ([@affaanmustafa](https://x.com/affaanmustafa)) 构建 AI 编程工具并撰写关于 AI 基础设施安全的文章。他的 everything-claude-code 仓库在 GitHub 上拥有 5 万多个星标。他创建了 AgentShield 并凭借构建 [zenith.chat](https://zenith.chat) 赢得了 Anthropic x Forum Ventures 黑客松。*
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

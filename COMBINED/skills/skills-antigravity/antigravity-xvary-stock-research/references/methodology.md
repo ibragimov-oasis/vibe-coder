@@ -158,3 +158,9 @@ The goal is convergence testing: where vectors agree, conviction rises; where th
 - Threshold matrices and gating cutoffs
 - Internal convergence scoring mechanics
 - Sector-specific directive libraries
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

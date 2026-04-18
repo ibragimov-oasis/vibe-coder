@@ -30,3 +30,9 @@ tags:
 - Use `ChatGptBundle` for internationalized strings
 - Leverage IntelliJ Platform APIs when possible instead of custom implementations
 - Use dependency injection via constructor parameters rather than service lookups
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-awesome-claude]] — Category: skills-awesome-claude
+

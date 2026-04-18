@@ -726,3 +726,9 @@ BUSINESS ASSOCIATE: _____________ Date: _______
 | Wellness app (no diagnosis) | Exempt | If stores PHI |
 | EHR-integrated device | May apply | Yes |
 | Research device | IDE | IRB may waive |
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

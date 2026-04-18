@@ -31,3 +31,9 @@ $ARGUMENTS
 4. 向用户输出格式化的上下文预算报告
 
 该技能负责所有扫描逻辑、令牌估算、问题检测和报告格式化。
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

@@ -295,3 +295,9 @@ Comprehensive intervention, onboarding, renewal, expansion, and escalation playb
 ---
 
 **Last Updated:** February 2026
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

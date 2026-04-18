@@ -71,3 +71,9 @@ document.addEventListener('visibilitychange', () => {
   }
 })
 ```
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

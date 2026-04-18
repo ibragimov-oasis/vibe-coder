@@ -82,3 +82,9 @@ page.getByRole('listitem').nth(0)
 page.getByRole('listitem').first()
 page.getByRole('listitem').last()
 ```
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

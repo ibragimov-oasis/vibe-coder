@@ -20,3 +20,9 @@ tags:
 * **gofmt/goimports**：编辑后自动格式化 `.go` 文件
 * **go vet**：编辑 `.go` 文件后运行静态分析
 * **staticcheck**：对修改的包运行扩展静态检查
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

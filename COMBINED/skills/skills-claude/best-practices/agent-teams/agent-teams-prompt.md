@@ -65,3 +65,9 @@ the command passes it through context, and the skill consumes it.
 Start all three in parallel since the components are independent —
 they only need to agree on the data interface, not wait on each other's
 implementation.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

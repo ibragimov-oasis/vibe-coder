@@ -264,3 +264,9 @@ Both high: Healthy, compounding growth from existing customers.
 
 **Last Updated:** February 2026
 **Sources:** Industry surveys, SaaS benchmarking reports, customer success community data (2024-2025 data cycles).
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

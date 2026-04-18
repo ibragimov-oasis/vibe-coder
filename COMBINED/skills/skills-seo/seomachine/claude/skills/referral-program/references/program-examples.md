@@ -139,3 +139,9 @@ Program costs = Rewards paid + Tool costs + Management time
 - Cost per referred customer (CAC via referral)
 - LTV of referred customers (often higher than average)
 - Payback period for referral rewards
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-seo]] — Category: skills-seo
+

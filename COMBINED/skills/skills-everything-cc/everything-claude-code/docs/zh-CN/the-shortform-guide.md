@@ -437,3 +437,9 @@ affoon:~ ctx:65% Opus 4.5 19:52
 ***
 
 *在纽约与 [@DRodriguezFX](https://x.com/DRodriguezFX) 一起构建 [zenith.chat](https://zenith.chat) 赢得了 Anthropic x Forum Ventures 黑客马拉松*
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

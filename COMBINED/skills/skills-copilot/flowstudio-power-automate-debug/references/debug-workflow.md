@@ -162,3 +162,9 @@ check the parent action first to confirm the branch ran at all.
 4. Confirm new run `status = "Succeeded"`  
 5. If flow has downstream consumers (child flows, emails, SharePoint writes),
    spot-check those too
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-copilot]] — Category: skills-copilot
+

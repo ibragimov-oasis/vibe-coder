@@ -161,3 +161,9 @@ All scripts accept JSON input files. See `assets/sample_financial_data.json` for
 ## Dependencies
 
 **None** - All scripts use Python standard library only (`math`, `statistics`, `json`, `argparse`, `datetime`). No numpy, pandas, or scipy required.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

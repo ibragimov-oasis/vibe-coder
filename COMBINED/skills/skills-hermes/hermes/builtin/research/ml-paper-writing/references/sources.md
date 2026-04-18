@@ -164,3 +164,9 @@ This document lists all authoritative sources used to build this skill, organize
 
 ### For Reviewer Expectations
 → Start with: Venue reviewer guidelines, reviewer-guidelines.md
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-hermes]] — Category: skills-hermes
+

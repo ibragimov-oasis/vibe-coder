@@ -24,3 +24,9 @@ Configure in `~/.claude/settings.json`:
 ## Warnings
 
 - Warn about `print` in non-script `.pm` files — use `say` or a logging module (e.g., `Log::Any`)
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

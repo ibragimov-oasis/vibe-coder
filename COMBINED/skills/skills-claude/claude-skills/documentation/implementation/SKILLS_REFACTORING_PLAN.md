@@ -1460,3 +1460,9 @@ After completing this plan, you'll have:
 ---
 
 **Ready to start? I recommend beginning with Phase 1, Task 1.2 - updating the 3 marketing skills as they're the smallest domain and perfect for learning the pattern!**
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

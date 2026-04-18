@@ -178,3 +178,9 @@ Hashtags são armazenadas como JSON array e adicionadas ao final da caption:
 ```
 Caption renderizada + "\n\n" + " ".join(hashtags)
 ```
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

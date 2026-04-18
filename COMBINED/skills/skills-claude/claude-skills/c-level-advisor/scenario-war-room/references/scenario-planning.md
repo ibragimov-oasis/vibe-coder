@@ -217,3 +217,9 @@ The math: 3 scenarios × 6 domains × 3 severity levels = 54 combinations. That'
 - **Not revisiting** — scenarios from 12 months ago are often irrelevant
 - **Treating scenarios as forecasts** — they're possibilities, not predictions
 - **Confusing risk with uncertainty** — risk has known probabilities; uncertainty doesn't
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

@@ -82,3 +82,9 @@ Para cada erro:
 |-------|----------|------|
 | CRÍTICO | Build completamente quebrado, sem servidor de dev | Corrigir imediatamente |
 | ALTO | Arquivo único falhando, erros de tipo em código novo | Corrigir em breve |
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

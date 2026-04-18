@@ -211,3 +211,9 @@ Query parameters:
 - `sidebar`: `hidden` or `collapsed`
 - `smoothing`: 0-20 (smoothing slider value)
 - `xmin`, `xmax`: X-axis limits
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

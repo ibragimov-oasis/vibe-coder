@@ -267,3 +267,9 @@ Residual Risk = Inherent Risk × (1 - Control Effectiveness)
    - Detailed asset list
    - Threat catalog
    - Control mapping
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

@@ -132,3 +132,9 @@ if [ -n "$STAGED_FILES" ]; then
   echo "A11y audit passed."
 fi
 ```
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

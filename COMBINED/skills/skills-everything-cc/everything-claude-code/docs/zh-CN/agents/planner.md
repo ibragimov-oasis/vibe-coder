@@ -217,3 +217,9 @@ tags:
 * 无法独立交付的阶段
 
 **请记住**：一个好的计划是具体的、可操作的，并且同时考虑了正常路径和边缘情况。最好的计划能确保自信、增量的实施。
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

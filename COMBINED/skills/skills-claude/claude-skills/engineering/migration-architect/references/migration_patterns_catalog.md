@@ -710,3 +710,9 @@ class MigrationCircuitBreaker:
 5. **Document everything** - Create comprehensive runbooks and documentation
 
 This catalog serves as a reference for selecting appropriate migration patterns based on specific requirements, risk tolerance, and technical constraints.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

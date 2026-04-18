@@ -160,3 +160,9 @@ struct EditItemSheet: View {
 - Avoid `if let` inside a sheet body when the presentation state already carries the selected model; prefer `sheet(item:)`.
 - Do not store heavy state inside `SheetDestination`; pass lightweight identifiers or models.
 - If multiple sheets can appear from the same screen, give them distinct `id` values.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

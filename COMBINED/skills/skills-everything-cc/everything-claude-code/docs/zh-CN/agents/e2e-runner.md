@@ -112,3 +112,9 @@ test('flaky: market search', async ({ page }) => {
 ***
 
 **记住**：端到端测试是上线前的最后一道防线。它们能捕获单元测试遗漏的集成问题。投资于稳定性、速度和覆盖率。
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

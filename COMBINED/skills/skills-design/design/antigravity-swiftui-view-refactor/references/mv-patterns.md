@@ -166,3 +166,9 @@ In modern SwiftUI, the default stack is:
 - services and models for business logic.
 
 Reach for a view model only when the feature clearly needs one.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-design]] — Category: skills-design
+

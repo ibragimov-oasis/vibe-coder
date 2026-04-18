@@ -48,3 +48,9 @@ Provide a clear summary to the user showing:
 - Temperature fetched from Dubai
 - SVG card created at `orchestration-workflow/weather.svg`
 - Summary written to `orchestration-workflow/output.md`
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

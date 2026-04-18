@@ -112,3 +112,9 @@ docs/CODEMAPS/
 ***
 
 **记住：** 与现实不符的文档比没有文档更糟糕。始终从事实来源生成。
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

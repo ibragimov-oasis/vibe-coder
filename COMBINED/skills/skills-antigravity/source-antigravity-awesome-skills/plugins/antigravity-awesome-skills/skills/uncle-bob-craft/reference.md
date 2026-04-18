@@ -151,3 +151,9 @@ For grouping classes into components: **REP** (reuse/release equivalence), **CCP
 - **Clean Agile** — We summarize values, Iron Cross, and key practices (TDD, refactoring, pairing, simple design); the book ties them to agile history and adoption.
 
 *Attribution: Principles and structure drawn from Robert C. Martin, Clean Code (2008), Clean Architecture (2017), The Clean Coder (2011), Clean Agile (2019). This reference is a summary for agent use, not a substitute for the books.*
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

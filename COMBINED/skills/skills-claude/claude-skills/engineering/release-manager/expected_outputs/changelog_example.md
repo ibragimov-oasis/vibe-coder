@@ -42,3 +42,9 @@ tags:
   - docs: 1
   - test: 1
   - chore: 1
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

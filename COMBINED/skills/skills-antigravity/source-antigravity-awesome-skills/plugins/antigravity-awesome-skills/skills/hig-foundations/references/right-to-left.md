@@ -211,3 +211,8 @@ If your custom interface icon includes a component that can imply handedness, li
 
 [![](https://devimages-cdn.apple.com/wwdc-services/images/124/7F5167EA-F6A3-4605-83FF-FF75E802969C/6527_wide_250x141_1x.jpg) Design for Arabic ](https://developer.apple.com/videos/play/wwdc2022/10034)
 
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

@@ -59,3 +59,9 @@ import { staticFile } from "remotion";
 
 const duration = await getAudioDuration(staticFile("audio.mp3"));
 ```
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

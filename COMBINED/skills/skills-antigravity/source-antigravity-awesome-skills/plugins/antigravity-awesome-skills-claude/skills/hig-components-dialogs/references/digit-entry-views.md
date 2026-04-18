@@ -37,3 +37,8 @@ You can add an optional title and prompt above the line of digits.
 
 [`TVDigitEntryViewController`](https://developer.apple.com/documentation/TVUIKit/TVDigitEntryViewController) — TVUIKit
 
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

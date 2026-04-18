@@ -149,3 +149,9 @@ ask_user({
 - Always state "This does NOT deploy immediately"
 - Explain the 3-step process: what-if → preview diagram → final confirmation
 - Reassure with "Nothing will be deployed without your approval"
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-copilot]] — Category: skills-copilot
+

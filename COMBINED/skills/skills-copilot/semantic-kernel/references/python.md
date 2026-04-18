@@ -20,3 +20,9 @@ Use this reference when the target project is written in Python.
 - Add type hints and keep APIs explicit even in dynamic code.
 - Follow standard Python packaging and environment practices for dependencies and tooling.
 - Check the latest Python samples before introducing new APIs, plugins, or orchestration patterns.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-copilot]] — Category: skills-copilot
+

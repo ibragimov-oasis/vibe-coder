@@ -273,3 +273,9 @@ This skill covers env hygiene and secret detection. For deeper coverage of relat
 | **CI/CD Pipeline Builder** | `engineering/ci-cd-pipeline-builder` | Pipeline architecture, secret injection patterns |
 | **Infrastructure as Code** | `engineering/infrastructure-as-code` | Terraform/Pulumi secret backend configuration |
 | **Container Orchestration** | `engineering/container-orchestration` | Kubernetes secret mounting, sealed secrets |
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

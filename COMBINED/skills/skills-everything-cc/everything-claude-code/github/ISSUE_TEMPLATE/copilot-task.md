@@ -19,3 +19,9 @@ tags:
 
 ## Context
 <!-- Any relevant files, APIs, or constraints Copilot should know about -->
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

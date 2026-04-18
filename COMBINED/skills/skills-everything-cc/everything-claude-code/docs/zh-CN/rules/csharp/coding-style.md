@@ -75,3 +75,9 @@ public async Task<Order> LoadOrderAsync(
 * 使用 `dotnet format` 进行格式化和分析器修复
 * 保持 `using` 指令有序，并移除未使用的导入
 * 仅当表达式体成员保持可读性时才优先使用
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

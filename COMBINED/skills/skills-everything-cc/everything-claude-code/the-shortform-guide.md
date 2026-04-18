@@ -436,3 +436,9 @@ affoon:~ ctx:65% Opus 4.5 19:52
 ---
 
 *Won the Anthropic x Forum Ventures hackathon in NYC building [zenith.chat](https://zenith.chat) with [@DRodriguezFX](https://x.com/DRodriguezFX)*
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

@@ -504,3 +504,9 @@ Focus on production-ready SQL migrations with zero-downtime deployment strategie
 - **nosql-migrations**: Migration strategies for MongoDB, DynamoDB, Cassandra
 - **migration-observability**: Real-time monitoring and alerting
 - **migration-integration**: CI/CD integration and automated testing
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

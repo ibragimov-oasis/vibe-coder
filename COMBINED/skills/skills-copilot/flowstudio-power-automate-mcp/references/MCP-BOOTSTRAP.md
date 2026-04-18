@@ -58,3 +58,9 @@ Always parse `result.content[0].text` as JSON to get the actual data.
   `list_store_environments`, `list_store_makers`, `get_store_maker`,
   `list_store_power_apps`, `list_store_connections`
 - When in doubt, check the `required` array in each tool's schema from `tools/list`
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-copilot]] — Category: skills-copilot
+

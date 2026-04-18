@@ -87,3 +87,9 @@ Outputs:
 - Terminal summary via `term-missing`
 
 Note: `scripts/archive/` is excluded from test discovery and coverage.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-awesome-claude]] — Category: skills-awesome-claude
+

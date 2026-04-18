@@ -83,3 +83,9 @@ $ARGUMENTS:
 * `verify <name>` - 指定の名前のチェックポイントに対して検証
 * `list` - すべてのチェックポイントを表示
 * `clear` - 古いチェックポイント削除（最新 5 個を保持）
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

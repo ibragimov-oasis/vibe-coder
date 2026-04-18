@@ -202,3 +202,9 @@ Run before any major external communication:
 ## Detailed References
 - `references/narrative-frameworks.md` — Storytelling structures, founder narrative, bad news delivery, all-hands templates
 - `templates/all-hands-template.md` — All-hands presentation template
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

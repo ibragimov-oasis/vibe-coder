@@ -87,3 +87,9 @@ Após cada lote:
 - Compilação concluída com sucesso
 - Sem regressões
 - Tamanho do pacote reduzido
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

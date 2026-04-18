@@ -761,3 +761,9 @@ export class ActionRepository {
 - SKILL.md - Main guide
 - [services-and-repositories.md](services-and-repositories.md) - Service layer details
 - [complete-examples.md](complete-examples.md) - Full refactoring examples
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

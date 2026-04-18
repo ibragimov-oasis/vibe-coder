@@ -34,3 +34,9 @@ $ARGUMENTS:
 - `[path|.]` optional target path
 - `--fix` optional
 - `--strict` optional
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

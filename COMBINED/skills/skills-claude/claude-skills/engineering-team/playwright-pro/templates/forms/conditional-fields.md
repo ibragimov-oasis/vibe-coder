@@ -125,3 +125,9 @@ test.describe('Conditional Fields', () => {
 | Skip hidden | Hidden field not validated |
 | Clear on hide | Value cleared when field hidden |
 | Radio trigger | Radio button controls field visibility |
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

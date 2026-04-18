@@ -397,3 +397,9 @@ Breaking Changes: None detected
 5. Label each comment clearly: "nit:", "must:", "question:", "suggestion:"
 6. Batch all comments in one review round — don't trickle feedback
 7. Acknowledge good patterns, not just problems — specific praise improves culture
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

@@ -159,3 +159,9 @@ context = playwright.chromium.launch_persistent_context(
 ```
 
 Until then, our hybrid approach is the most reliable solution.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

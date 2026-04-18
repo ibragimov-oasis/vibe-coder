@@ -67,3 +67,9 @@ Mostre resultados:
 | Build tool misconfiguration | Read config file; compare with working defaults |
 
 Corrija um erro por vez por segurança. Prefira diffs mínimos em vez de refatoração.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

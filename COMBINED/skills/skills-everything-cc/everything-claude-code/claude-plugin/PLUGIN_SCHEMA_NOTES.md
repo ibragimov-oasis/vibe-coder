@@ -225,3 +225,9 @@ Documenting validator quirks here:
 * Preserves plugin stability as the ecosystem evolves
 
 If the validator changes, update this document first.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

@@ -93,3 +93,9 @@ Based on the root cause analysis, the following preventive measures have been id
 
 ---
 *Generated on 2026-02-16 by PIR Generator*
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

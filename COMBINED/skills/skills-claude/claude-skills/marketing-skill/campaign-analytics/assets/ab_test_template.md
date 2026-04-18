@@ -135,3 +135,9 @@ tags:
 ---
 
 *Template from campaign-analytics skill. Statistical significance calculations require external tools (e.g., online calculators or scipy).*
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

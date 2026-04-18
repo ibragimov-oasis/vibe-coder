@@ -420,3 +420,9 @@ ORDER BY priority DESC
 project = ABC AND status = "To Triage" 
 AND created >= -7d ORDER BY created ASC
 ```
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

@@ -569,3 +569,9 @@ function selectCategoricalScheme(categories) {
 3. Use semantic colours appropriately
 4. Add redundant encoding (patterns, labels)
 5. Keep it simple (fewer colours = clearer visualisation)
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

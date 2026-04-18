@@ -161,3 +161,9 @@ See [CONTRIBUTING.md](../CONTRIBUTING.md) for the full contribution guide.
 - [Selective Install Architecture](./SELECTIVE-INSTALL-ARCHITECTURE.md) — how the install system works under the hood
 - [Selective Install Design](./SELECTIVE-INSTALL-DESIGN.md) — design decisions and target adapter contracts
 - [CONTRIBUTING.md](../CONTRIBUTING.md) — how to contribute skills, agents, and commands
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

@@ -173,5 +173,10 @@ December 16, 2025| Updated guidance for Liquid Glass.
 July 28, 2025| Added guidance for Liquid Glass.  
 September 9, 2024| Added art representing the tab bar in iPadOS 18.  
 August 6, 2024| Updated with guidance for the tab bar in iPadOS 18.  
-June 21, 2023| Updated to include guidance for visionOS.  
-  
+June 21, 2023| Updated to include guidance for visionOS.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

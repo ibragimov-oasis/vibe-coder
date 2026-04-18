@@ -380,3 +380,9 @@ except Exception as e:
 - **Removal**: Critical violations or abandonment
 
 This tier requirements matrix serves as the definitive guide for skill classification and quality standards within the claude-skills ecosystem. Regular updates ensure alignment with evolving best practices and community needs.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

@@ -44,3 +44,9 @@ Purpose-built CLI tools (Gemini CLI, Claude Code, third-party wrappers) offer ad
 | Developer platform (AI Studio) | Full context, no hidden slicing | Low | Full |
 | Direct API | Full context, raw access | Minimal | Full |
 | CLI tools with local models | No corporate alignment filters | None | Full |
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-design]] — Category: skills-design
+

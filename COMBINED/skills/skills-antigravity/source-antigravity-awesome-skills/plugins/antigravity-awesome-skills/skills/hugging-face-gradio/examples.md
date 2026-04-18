@@ -618,3 +618,9 @@ demo = gr.Interface(video_identity,
 
 demo.launch()
 ```
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

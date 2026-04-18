@@ -268,3 +268,9 @@ public @interface RetryTest {
     int times() default 3;
 }
 ```
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

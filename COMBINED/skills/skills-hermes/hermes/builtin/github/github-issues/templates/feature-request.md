@@ -36,3 +36,9 @@ Small / Medium / Large — <!-- explanation -->
 ## Additional Context
 
 <!-- Links to similar features in other tools, relevant discussions, etc. -->
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-hermes]] — Category: skills-hermes
+

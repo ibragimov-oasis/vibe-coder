@@ -466,3 +466,9 @@ Month 6+: 100% of quota. Consistent miss → exit.
 - A PIP that doesn't lead to improvement or exit is a management failure
 
 **Rule:** Low performers who stay cost you your top performers. They watch what you tolerate.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

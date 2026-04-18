@@ -371,3 +371,9 @@ AI image generation for SEO assets (extension). Powered by Gemini via nanobanana
 | `/seo sitemap generate` | Create new sitemap |
 | `/seo technical <url>` | Technical SEO check |
 | `/seo dataforseo [command]` | Live SEO data (extension) |
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-seo]] — Category: skills-seo
+

@@ -291,5 +291,10 @@ June 9, 2025| Added guidance and links for Assistive Access, Switch Control, and
 March 7, 2025| Expanded and refined all guidance. Moved Dynamic Type guidance to the Typography page, and moved VoiceOver guidance to a new VoiceOver page.  
 June 10, 2024| Added a link to Apple’s Unity plug-ins for supporting Dynamic Type.  
 December 5, 2023| Updated visionOS Zoom lens artwork.  
-June 21, 2023| Updated to include guidance for visionOS.  
-  
+June 21, 2023| Updated to include guidance for visionOS.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

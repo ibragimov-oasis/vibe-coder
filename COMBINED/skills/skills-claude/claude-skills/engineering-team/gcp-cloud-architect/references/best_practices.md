@@ -472,3 +472,9 @@ gcloud sql instances promote-replica myapp-db-replica
 | Log ingestion costs | Set exclusion filters for debug/verbose logs |
 | BigQuery full scans | Always use partitioning and clustering |
 | Idle GKE clusters | Delete dev clusters nightly, use Autopilot |
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

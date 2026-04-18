@@ -101,3 +101,9 @@ Tell the user:
 - Baseline metric (if captured)
 - Next step: `/hub:spawn` to launch agents
 - Or `/hub:spawn {session-id}` if multiple sessions exist
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

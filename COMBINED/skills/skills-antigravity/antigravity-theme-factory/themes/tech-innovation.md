@@ -24,3 +24,9 @@ A bold and modern theme with high-contrast colors perfect for cutting-edge techn
 ## Best Used For
 
 Tech startups, software launches, innovation showcases, AI/ML presentations, digital transformation content.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

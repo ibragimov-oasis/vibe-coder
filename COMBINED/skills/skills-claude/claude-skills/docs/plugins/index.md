@@ -471,3 +471,9 @@ domain-name/
 
 ??? question "Can I use skills without installing anything?"
     Yes. We have [6 Custom GPTs for ChatGPT](../custom-gpts.md) that package Agent Skills into a conversational interface — no installation, no API keys. Just click and chat.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

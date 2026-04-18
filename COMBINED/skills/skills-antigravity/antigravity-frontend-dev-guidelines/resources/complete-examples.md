@@ -877,3 +877,9 @@ export const useToggleUserStatus = () => {
 8. **Styling**: Inline <100 lines, sx prop, MUI v7 syntax
 
 **See other resources for detailed explanations of each pattern.**
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

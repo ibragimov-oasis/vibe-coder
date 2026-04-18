@@ -771,3 +771,9 @@ jobs:
 8. **Monitoring Setup**: CI/CD integration for continuous scanning
 
 Focus on actionable insights that help maintain secure, compliant, and efficient dependency management.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

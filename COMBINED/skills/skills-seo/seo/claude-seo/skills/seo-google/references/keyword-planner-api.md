@@ -71,3 +71,9 @@ Uses `google-ads` library (separate from `google-api-python-client`).
 - **CPC bids**: Reflect what advertisers pay, useful for estimating keyword commercial value
 - **Location targeting**: Use location IDs (2840 = United States, 2826 = United Kingdom)
 - **Language targeting**: Use language IDs (1000 = English, 1003 = Spanish)
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-seo]] — Category: skills-seo
+

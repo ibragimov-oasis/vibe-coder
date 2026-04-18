@@ -25,3 +25,9 @@ items.filter(item => allowedIds.includes(item.id))
 const allowedIds = new Set(['a', 'b', 'c', ...])
 items.filter(item => allowedIds.has(item.id))
 ```
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

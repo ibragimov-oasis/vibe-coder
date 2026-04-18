@@ -16,3 +16,9 @@ tags:
 - User stories & acceptance criteria
 - Flow description/wireframe notes + states
 - Accessibility notes (keyboard, labels, contrast)
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

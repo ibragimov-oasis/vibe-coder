@@ -90,3 +90,9 @@ npm publish
 - Use consistent output styling
 - Validate inputs with Zod
 - Exit with proper codes (0 success, 1 error)
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

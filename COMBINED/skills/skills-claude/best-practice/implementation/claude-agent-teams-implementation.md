@@ -108,3 +108,8 @@ Main prompt: **[agent-teams-prompt.md](../agent-teams/agent-teams-prompt.md)**
           └──────────────────────────────┘
 ```
 
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

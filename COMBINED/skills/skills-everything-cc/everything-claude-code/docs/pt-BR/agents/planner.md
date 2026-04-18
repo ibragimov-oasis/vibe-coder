@@ -83,3 +83,9 @@ Criar etapas detalhadas com:
 - Testes de integração: [fluxos a testar]
 - Testes E2E: [jornadas de usuário a testar]
 ```
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

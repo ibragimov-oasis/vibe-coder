@@ -46,3 +46,9 @@ This file defines the rule categories for DBOS Python best practices. Rules are 
 ## 9. Advanced (advanced)
 **Impact:** LOW
 **Description:** Async workflows, workflow versioning, patching, and code upgrades.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

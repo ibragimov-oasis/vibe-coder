@@ -19,3 +19,9 @@ Recommended acceptance gates:
 - Average score >= 85
 - No case below 70
 - Zero critical forbidden-content hits
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

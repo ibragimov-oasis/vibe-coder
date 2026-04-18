@@ -213,3 +213,9 @@ AI 기반 SaaS 플랫폼을 위한 아키텍처 예시:
 - **1000만 사용자**: Event-driven architecture, 분산 캐싱, 멀티 리전
 
 **기억하세요**: 좋은 아키텍처는 빠른 개발, 쉬운 유지보수, 그리고 자신 있는 확장을 가능하게 합니다. 최고의 아키텍처는 단순하고, 명확하며, 검증된 패턴을 따릅니다.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

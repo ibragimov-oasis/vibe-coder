@@ -46,3 +46,9 @@ Analyze financial statements, build valuation models, assess budget variances, a
 
 ## Related Commands
 - `/saas-health` — SaaS-specific metrics (ARR, MRR, churn, CAC, LTV, Quick Ratio)
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

@@ -474,3 +474,9 @@ az devops extension uninstall \
   --ext-id {extension-id} \
   --org https://dev.azure.com/{org} --yes
 ```
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-copilot]] — Category: skills-copilot
+

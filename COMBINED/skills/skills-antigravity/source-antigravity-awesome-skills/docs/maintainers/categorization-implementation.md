@@ -175,3 +175,9 @@ date_added: "2026-03-06"
 **Status**: ✅ Complete and deployed to web app!
 
 The web app now has a clean, intelligent category filter instead of "uncategorized" chaos. 🚀
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

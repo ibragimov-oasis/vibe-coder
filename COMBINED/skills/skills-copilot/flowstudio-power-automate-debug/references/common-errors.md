@@ -193,3 +193,9 @@ values override new_data for matching records.
 Before: @sort(union(outputs('Old_Array'), body('New_Array')), 'Date')
 After:  @sort(union(body('New_Array'), outputs('Old_Array')), 'Date')
 ```
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-copilot]] — Category: skills-copilot
+

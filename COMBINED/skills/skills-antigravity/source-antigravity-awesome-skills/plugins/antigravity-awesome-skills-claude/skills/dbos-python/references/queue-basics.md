@@ -61,3 +61,9 @@ result = handle.get_result()
 ```
 
 Reference: [DBOS Queues](https://docs.dbos.dev/python/tutorials/queue-tutorial)
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

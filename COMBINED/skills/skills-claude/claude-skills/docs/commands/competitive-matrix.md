@@ -48,3 +48,9 @@ Build competitive matrices with weighted scoring, gap analysis, and market posit
 
 ## Skill Reference
 → `product-team/competitive-teardown/SKILL.md`
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

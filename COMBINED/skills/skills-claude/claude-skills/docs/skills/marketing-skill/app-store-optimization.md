@@ -483,3 +483,9 @@ All output passes quality verification:
 - Self-verify: source attribution, assumption audit, confidence scoring
 - Output format: Bottom Line → What (with confidence) → Why → How to Act
 - Results only. Every finding tagged: 🟢 verified, 🟡 medium, 🔴 assumed.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

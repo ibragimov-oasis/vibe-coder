@@ -330,3 +330,9 @@ Bu komut, ECC tarafından sağlanan `tdd-guide` agent'ını çağırır.
 Manuel kurulumlar için, kaynak dosyalar şurada bulunur:
 - `agents/tdd-guide.md`
 - `skills/tdd-workflow/SKILL.md`
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

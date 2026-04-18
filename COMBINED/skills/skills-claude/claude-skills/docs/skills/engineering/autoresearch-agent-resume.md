@@ -89,3 +89,9 @@ How would you like to continue?
 
 If the user picks loop, hand off to `/ar:loop` with the experiment pre-selected.
 If single, hand off to `/ar:run`.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

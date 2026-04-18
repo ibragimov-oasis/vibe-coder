@@ -219,3 +219,9 @@ Trend: [IMPROVING/STABLE/DECLINING] ([TREND_PERCENTAGE]% change)
 
 ---
 *This report is generated using standardized sprint health metrics and retrospective analysis. For questions or deeper analysis, please contact the Scrum Master.*
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

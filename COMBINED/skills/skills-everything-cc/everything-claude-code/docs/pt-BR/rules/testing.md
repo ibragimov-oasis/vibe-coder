@@ -34,3 +34,9 @@ Fluxo de trabalho OBRIGATÓRIO:
 ## Suporte de Agentes
 
 - **tdd-guide** - Use PROATIVAMENTE para novos recursos, aplica escrever-testes-primeiro
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

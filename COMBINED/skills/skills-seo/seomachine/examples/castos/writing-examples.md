@@ -1181,3 +1181,9 @@ When writing new content:
 4. **Match the quality bar** these examples set
 
 These aren't templates to copy—they're examples of voice, tone, and quality to emulate while creating original, valuable content for podcast creators.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-seo]] — Category: skills-seo
+

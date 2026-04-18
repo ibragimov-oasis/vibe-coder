@@ -86,3 +86,8 @@ You can make a popover detachable in macOS, which becomes a separate panel when 
 
 [`NSPopover`](https://developer.apple.com/documentation/AppKit/NSPopover) — AppKit
 
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

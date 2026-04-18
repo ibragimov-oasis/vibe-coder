@@ -54,3 +54,9 @@ Key behaviors:
 You can also read streams from outside the DBOS application using `DBOSClient.readStream`.
 
 Reference: [Workflow Streaming](https://docs.dbos.dev/typescript/tutorials/workflow-communication#workflow-streaming)
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

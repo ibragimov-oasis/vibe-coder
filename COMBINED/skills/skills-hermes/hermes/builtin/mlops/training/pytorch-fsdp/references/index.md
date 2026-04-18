@@ -12,3 +12,9 @@ tags:
 ### Other
 **File:** `other.md`
 **Pages:** 15
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-hermes]] — Category: skills-hermes
+

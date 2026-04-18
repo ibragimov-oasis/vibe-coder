@@ -150,3 +150,9 @@ Recommendation: FAIL: Block merge until CRITICAL issue is fixed
 
 - Agent: `agents/go-reviewer.md`
 - Skills: `skills/golang-patterns/`, `skills/golang-testing/`
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

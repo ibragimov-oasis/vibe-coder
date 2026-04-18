@@ -76,3 +76,9 @@ After running `/research-performance`:
 - **Monthly**: Monitor content health
 - **After major updates**: Track impact
 - **When traffic drops**: Identify declining content
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-seo]] — Category: skills-seo
+

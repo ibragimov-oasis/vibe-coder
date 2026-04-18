@@ -108,3 +108,9 @@ Simplified (no expansion data): NRR ≈ (1 - Revenue Churn Rate) × 100
 Score = Annualized MoM Growth % + Net Profit Margin %
 Healthy: ≥ 40
 ```
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

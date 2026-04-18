@@ -288,3 +288,9 @@ HARDWARE_MAP = {
     ">13B":    "a100-large (LoRA required)"
 }
 ```
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

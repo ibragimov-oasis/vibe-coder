@@ -332,3 +332,9 @@ For questions about the verification results or recommendations:
 - Documentation: Comprehensive (5 documents, 45+ KB)
 
 All requirements met. Application ready for next phase of development.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

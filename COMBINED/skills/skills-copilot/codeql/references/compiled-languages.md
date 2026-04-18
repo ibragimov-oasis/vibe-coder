@@ -289,3 +289,9 @@ jobs:
 | `true` / `full` / `on` | Restore and store caches |
 
 Default setup on GitHub-hosted runners has caching enabled automatically.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-copilot]] — Category: skills-copilot
+

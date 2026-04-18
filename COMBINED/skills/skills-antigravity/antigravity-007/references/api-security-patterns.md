@@ -484,3 +484,9 @@ Operations:
 [ ] Idempotency keys for mutations
 [ ] Dependencies scanned for CVEs
 ```
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

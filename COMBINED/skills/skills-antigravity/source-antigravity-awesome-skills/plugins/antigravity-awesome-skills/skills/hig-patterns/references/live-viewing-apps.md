@@ -84,3 +84,8 @@ If you support digital video recording (DVR) in the cloud, follow these guidelin
 
 [Playing video](https://developer.apple.com/design/human-interface-guidelines/playing-video)
 
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

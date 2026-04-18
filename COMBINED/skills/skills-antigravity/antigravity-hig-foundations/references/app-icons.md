@@ -210,5 +210,10 @@ June 9, 2025| Updated guidance to reflect layered icons, consistency across plat
 June 10, 2024| Added guidance for creating dark and tinted app icon variants for iOS and iPadOS.  
 January 31, 2024| Clarified platform availability for alternate app icons.  
 June 21, 2023| Updated to include guidance for visionOS.  
-September 14, 2022| Added specifications for Apple Watch Ultra.  
-  
+September 14, 2022| Added specifications for Apple Watch Ultra.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

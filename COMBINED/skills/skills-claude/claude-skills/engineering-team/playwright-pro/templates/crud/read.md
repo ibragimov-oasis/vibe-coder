@@ -122,3 +122,9 @@ test.describe('Read {{entityName}}', () => {
 | 404 | Non-existent ID shows not-found page |
 | Loading → data | Skeleton hidden, data visible after load |
 | Empty list | No-results state with call to action |
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

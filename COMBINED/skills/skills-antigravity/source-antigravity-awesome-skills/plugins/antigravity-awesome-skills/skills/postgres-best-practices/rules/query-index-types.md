@@ -46,3 +46,9 @@ create index sessions_token_idx on sessions using hash (token);
 ```
 
 Reference: [Index Types](https://www.postgresql.org/docs/current/indexes-types.html)
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

@@ -258,3 +258,9 @@ When organizations change too fast, people stop believing any change will stick.
 
 ## Detailed References
 - `references/change-playbook.md` — ADKAR deep dive, resistance counter-strategies, communication templates, change fatigue management
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

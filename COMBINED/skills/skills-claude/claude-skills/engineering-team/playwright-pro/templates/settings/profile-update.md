@@ -135,3 +135,9 @@ test.describe('Profile Update', () => {
 | Invalid email | Format error shown |
 | Taken email | Duplicate error shown |
 | Nav update | Navigation reflects new name |
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

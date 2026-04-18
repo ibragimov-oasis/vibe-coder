@@ -570,3 +570,9 @@ print(f"Tokens: {tokens}")
 5. **Save tokenizer with model** - Ensure reproducibility
 6. **Version your tokenizers** - Track changes for reproducibility
 7. **Document special tokens** - Critical for model training
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-hermes]] — Category: skills-hermes
+

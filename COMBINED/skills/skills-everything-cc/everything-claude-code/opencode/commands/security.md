@@ -91,3 +91,9 @@ Analyze the specified code for security vulnerabilities following OWASP guidelin
 ---
 
 **IMPORTANT**: Security issues are blockers. Do not proceed until critical issues are resolved.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

@@ -124,3 +124,9 @@ test.describe('Order History', () => {
 | Items per page | Selector changes row count |
 | Empty state | No-orders message with CTA |
 | Reorder | Previous order items added to cart |
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

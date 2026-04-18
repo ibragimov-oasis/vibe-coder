@@ -320,3 +320,9 @@ Audit geçtikten sonra, kullanıcıya rapor et:
 1. `/ccg:plan` plan + SESSION_ID oluşturur
 2. Kullanıcı "Y" ile onaylar
 3. `/ccg:execute` planı okur, SESSION_ID'yi yeniden kullanır, implementation'ı çalıştırır
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

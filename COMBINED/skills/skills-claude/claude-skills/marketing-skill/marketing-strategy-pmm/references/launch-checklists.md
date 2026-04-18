@@ -338,3 +338,9 @@ NEXT STEPS:
 1. [Action item] - Owner - Due date
 2. [Action item] - Owner - Due date
 ```
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

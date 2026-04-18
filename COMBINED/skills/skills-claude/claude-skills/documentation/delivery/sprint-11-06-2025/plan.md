@@ -2725,3 +2725,9 @@ gh issue close 12 --comment "✅ Sprint wrap-up complete. CLAUDE.md and AGENTS.m
 **Document Version:** 1.0
 **Created:** November 6, 2025
 **Last Updated:** November 6, 2025
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

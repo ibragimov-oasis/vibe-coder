@@ -153,3 +153,9 @@ claude /schedule-reply "Yönetim kurulu toplantısı hakkında Sarah'ya yanıt v
 - Gmail CLI (örn. @pterm tarafından gog)
 - Node.js 18+ (calendar-suggest.js için)
 - İsteğe bağlı: Slack MCP sunucusu, Matrix köprüsü (LINE), Chrome + Playwright (Messenger)
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

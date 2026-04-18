@@ -514,3 +514,9 @@ export const Primary = {
 ---
 
 *See also: `token-generation.md` for generation options*
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

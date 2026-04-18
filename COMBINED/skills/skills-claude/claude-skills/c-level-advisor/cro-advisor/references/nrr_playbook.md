@@ -385,3 +385,9 @@ Day -45: Renewal proposal sent with expansion option
 Day -30: Follow-up on any open objections or requirements
 Day -14: Final confirm or escalate to VP Sales
 ```
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

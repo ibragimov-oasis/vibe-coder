@@ -240,3 +240,9 @@ All output follows the structured communication standard:
 - **site-architecture**: For URL structure, internal linking, and navigation. Use when architecture is the root cause of SEO problems, not schema.
 - **content-strategy**: For what content to create. Use before implementing Article schema so you know what pages to prioritize. NOT for the schema itself.
 - **programmatic-seo**: For sites with thousands of pages that need schema at scale. Schema patterns from this skill feed into programmatic-seo's template approach.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

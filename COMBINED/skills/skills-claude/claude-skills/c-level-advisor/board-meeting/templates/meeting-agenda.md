@@ -86,3 +86,9 @@ Materials all participants should review before the meeting:
 ## Notes
 
 [Any special instructions, constraints, or context for this meeting]
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

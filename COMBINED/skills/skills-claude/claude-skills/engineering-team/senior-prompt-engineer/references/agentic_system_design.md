@@ -651,3 +651,9 @@ class ExpertRouter:
 | Complex reasoning | Self-Ask |
 | Domain expertise | Expert Routing |
 | Conversation continuity | Memory System |
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

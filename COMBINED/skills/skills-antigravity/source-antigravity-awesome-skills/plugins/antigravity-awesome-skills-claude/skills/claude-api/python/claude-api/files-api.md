@@ -167,3 +167,9 @@ for question in questions:
 # 3. Clean up when done
 client.beta.files.delete(uploaded.id)
 ```
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

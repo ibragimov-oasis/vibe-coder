@@ -109,3 +109,9 @@ Only curated skills appear in install manifests and get copied during install.
 3. Update instinct-cli evolve to write optional provenance when generating evolved skills.
 4. Add `scripts/validate-provenance.js` to CI for any repo paths that must not contain learned/imported content (if needed).
 5. Document learned/imported roots in CONTRIBUTING.md or user docs so contributors know not to commit them.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

@@ -45,3 +45,8 @@ A stepper sits next to a field that displays its current value, because the step
 
 [`NSStepper`](https://developer.apple.com/documentation/AppKit/NSStepper) — AppKit
 
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

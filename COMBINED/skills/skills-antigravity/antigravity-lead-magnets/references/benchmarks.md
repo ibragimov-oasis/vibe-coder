@@ -134,3 +134,9 @@ Reference data for planning and evaluating lead magnet performance.
 | Full ROI assessment | 6-12 months |
 
 **Note**: These benchmarks are general guidelines. Your actual results depend on audience, niche, traffic volume, and offer quality. Start measuring from day one and build your own benchmarks.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

@@ -36,3 +36,9 @@ tags:
 - 包含数据负载（错误时可为空）
 - 包含错误消息字段（成功时可为空）
 - 包含分页响应的元数据（total、page、limit）
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

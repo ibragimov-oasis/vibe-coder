@@ -40,3 +40,9 @@ tags:
 ## 参考
 
 有关 Laravel 特定安全指南，请参阅技能：`laravel-security`。
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

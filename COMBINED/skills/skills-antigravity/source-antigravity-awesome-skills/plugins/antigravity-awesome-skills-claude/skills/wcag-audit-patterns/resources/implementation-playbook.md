@@ -546,3 +546,9 @@ class AccessibleDropdown extends HTMLElement {
 - [WebAIM](https://webaim.org/)
 - [A11y Project Checklist](https://www.a11yproject.com/checklist/)
 - [axe DevTools](https://www.deque.com/axe/)
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

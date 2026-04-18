@@ -33,3 +33,9 @@ Create a sprint plan with prioritized stories and capacity guardrails.
 
 ## Skill Reference
 - `product-team/agile-product-owner/SKILL.md`
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

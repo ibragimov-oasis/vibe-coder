@@ -206,3 +206,9 @@ Sometimes roles genuinely can't align and the synthesis produces no clear direct
 4. Flag it as a strategic question that may need external input (advisor, board, market data)
 
 Deadlock is honest. Fake consensus is not.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

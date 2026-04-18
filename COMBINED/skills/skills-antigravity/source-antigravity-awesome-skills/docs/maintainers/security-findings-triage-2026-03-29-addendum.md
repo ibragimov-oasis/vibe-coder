@@ -53,3 +53,9 @@ For the full current-head re-triage, use
   findings are still actionable on current HEAD.
 - If a future triage refresh is produced, fold these corrections into the next
   full summary instead of re-copying the original counts unchanged.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

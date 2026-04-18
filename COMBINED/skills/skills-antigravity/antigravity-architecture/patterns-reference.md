@@ -55,3 +55,9 @@ tags:
 - You can always add patterns later
 - Removing complexity is MUCH harder than adding it
 - When in doubt, choose simpler option
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

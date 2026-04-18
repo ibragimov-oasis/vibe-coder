@@ -33,3 +33,9 @@ python3 ~/COMBINED/workspace-config/claude/skills/continuous-learning-v2/scripts
 /prune --max-age 60       # 自定义年龄阈值（天）
 /prune --dry-run          # 仅预览，不实际删除
 ```
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

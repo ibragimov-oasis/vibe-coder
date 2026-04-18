@@ -112,3 +112,9 @@ for partial in client.messages.create_partial(
     print(f"Progress: {partial.title}")
     # Update UI in real-time
 ```
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-hermes]] — Category: skills-hermes
+

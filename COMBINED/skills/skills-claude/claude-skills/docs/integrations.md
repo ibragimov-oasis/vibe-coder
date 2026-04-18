@@ -609,3 +609,9 @@ Options:
 
 ??? question "Do supporting files (scripts, references) work in all tools?"
     Only tools that support subdirectories per skill (Antigravity, Windsurf, OpenCode) get the full bundle. Flat-file tools (Cursor, Aider, Kilo Code, Augment) get the SKILL.md content only.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

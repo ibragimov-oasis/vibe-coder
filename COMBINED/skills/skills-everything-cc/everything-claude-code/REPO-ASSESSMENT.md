@@ -201,3 +201,9 @@ No need to clone the repo. This is the recommended install method for most users
 | Best install profile? | `developer` for day-to-day dev work |
 | Biggest gap in current setup? | 0 agents installed — add at minimum: planner, code-reviewer, tdd-guide, security-reviewer |
 | Quickest win? | Run `node scripts/install-plan.js --profile core && node scripts/install-apply.js` |
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

@@ -54,3 +54,9 @@ select * from orders where user_id = any($1::bigint[]);
 ```
 
 Reference: [N+1 Query Problem](https://supabase.com/docs/guides/database/query-optimization)
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

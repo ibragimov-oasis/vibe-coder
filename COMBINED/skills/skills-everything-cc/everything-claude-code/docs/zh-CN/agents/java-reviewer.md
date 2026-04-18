@@ -107,3 +107,9 @@ grep -rn "FetchType.EAGER" src/main/java --include="*.java"
 * **阻止**：发现**关键**或**高**优先级问题
 
 有关详细的Spring Boot模式和示例，请参阅 `skill: springboot-patterns`。
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

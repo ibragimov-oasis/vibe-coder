@@ -87,3 +87,9 @@ npx eslint . --report-unused-disable-directives  # 미사용 eslint 지시자
 - Build 성공
 - 회귀 없음
 - 번들 크기 감소
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

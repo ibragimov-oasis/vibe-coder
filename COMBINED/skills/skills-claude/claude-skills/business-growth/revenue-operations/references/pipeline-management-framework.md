@@ -297,3 +297,9 @@ Run cleanup when:
 - Outbound/SDR: 30-40%
 - Partner/Channel: 10-20%
 - Expansion/Customer: 10-20%
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

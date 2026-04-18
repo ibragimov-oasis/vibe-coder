@@ -165,3 +165,9 @@ gws helpers morning-briefing --json | python3 ../../engineering-team/google-work
 
 - [Skill Documentation](https://github.com/alirezarezvani/claude-skills/tree/main/engineering-team/google-workspace-cli/SKILL.md)
 - [gws CLI Repository](https://github.com/googleworkspace/cli)
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

@@ -62,3 +62,9 @@ all_events = DBOS.get_all_events(workflow_id)
 Events can be called from `set_event` from workflows or steps.
 
 Reference: [Workflow Events](https://docs.dbos.dev/python/tutorials/workflow-communication#workflow-events)
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

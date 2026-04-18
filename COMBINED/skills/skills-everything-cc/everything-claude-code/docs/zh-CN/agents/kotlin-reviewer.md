@@ -163,3 +163,9 @@ Button(onClick = onClick)
 
 * **批准**：没有**严重**或**高**级别问题
 * **阻止**：存在任何**严重**或**高**级别问题 —— 必须在合并前修复
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

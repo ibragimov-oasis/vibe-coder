@@ -36,3 +36,9 @@ function CodePanel({ code }: { code: string }) {
   return <MonacoEditor value={code} />
 }
 ```
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

@@ -32,3 +32,9 @@ $ARGUMENTS:
 
 * `[task-description]` 可选，自由文本
 * `--budget low|med|high` 可选
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

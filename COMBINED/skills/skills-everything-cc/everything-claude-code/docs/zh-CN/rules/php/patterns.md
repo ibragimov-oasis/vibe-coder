@@ -36,3 +36,9 @@ tags:
 
 参见技能：`api-design` 了解端点约定和响应格式指导。
 参见技能：`laravel-patterns` 了解 Laravel 特定架构指导。
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

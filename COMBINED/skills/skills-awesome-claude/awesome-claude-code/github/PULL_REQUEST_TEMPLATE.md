@@ -78,3 +78,9 @@ It's fairly uncommon for anyone to open a PR to this repo, even the maintainer. 
 ## Questions?
 
 - See [CONTRIBUTING.md](../docs/CONTRIBUTING.md) for detailed contribution guidelines
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-awesome-claude]] — Category: skills-awesome-claude
+

@@ -24,3 +24,9 @@ tags:
    ```
 4. Record results in the commit template's Testing section.
 5. After a clean pass, proceed with commit and push workflow.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

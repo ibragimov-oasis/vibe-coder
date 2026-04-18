@@ -96,3 +96,9 @@ After every 10th experiment (check results.tsv line count), update the Strategy 
 - NEVER modify the evaluator (evaluate.py). It's ground truth.
 - Simplicity wins. Equal performance with simpler code is an improvement.
 - No new dependencies.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

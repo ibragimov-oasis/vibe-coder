@@ -149,3 +149,9 @@ Bad scrutiny areas:
 - "Check if the code is correct"
 - "Look for bugs"
 - "Verify the implementation matches the spec"
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-copilot]] — Category: skills-copilot
+

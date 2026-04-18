@@ -302,3 +302,9 @@ Parameter 'market' implicitly has an 'any' type.
 ---
 
 **記住**：目標是用最小變更快速修復錯誤。不要重構、不要優化、不要重新設計。修復錯誤、驗證建置通過、繼續前進。速度和精確優先於完美。
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

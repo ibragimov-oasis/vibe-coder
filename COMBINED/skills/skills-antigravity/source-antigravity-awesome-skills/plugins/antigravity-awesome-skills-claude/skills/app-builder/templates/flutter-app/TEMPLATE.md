@@ -92,3 +92,9 @@ project_name/
 - Freezed for immutable data classes
 - Go Router for declarative navigation
 - Material 3 theming
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

@@ -58,3 +58,9 @@ const url = await DBOS.getEvent<string>(handle.workflowID, "paymentURL", 300);
 ```
 
 Reference: [Workflow Events](https://docs.dbos.dev/typescript/tutorials/workflow-communication#workflow-events)
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

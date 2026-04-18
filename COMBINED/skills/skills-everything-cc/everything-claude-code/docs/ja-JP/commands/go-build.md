@@ -185,3 +185,9 @@ ok      project/internal/handler   0.023s
 
 - Agent: `agents/go-build-resolver.md`
 - Skill: `skills/golang-patterns/`
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

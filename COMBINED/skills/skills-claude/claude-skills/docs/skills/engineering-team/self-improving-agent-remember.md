@@ -111,3 +111,9 @@ If the knowledge sounds like a rule (imperative, always/never, convention):
   - ✅ "Build with `pnpm build`, tests with `pnpm test:e2e`"
   - ❌ "The project uses pnpm for building and testing"
 - If you're remembering the same thing twice, promote it to CLAUDE.md
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

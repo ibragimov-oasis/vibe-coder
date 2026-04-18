@@ -40,3 +40,9 @@ Key timeout behaviors:
 - Cancelling a workflow also cancels all **child workflows**
 
 Reference: [Workflow Timeouts](https://docs.dbos.dev/typescript/tutorials/workflow-tutorial#workflow-timeouts)
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

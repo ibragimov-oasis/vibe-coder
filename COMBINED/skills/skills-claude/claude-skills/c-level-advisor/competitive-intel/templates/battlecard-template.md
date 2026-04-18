@@ -104,3 +104,9 @@ tags:
 ---
 
 *Battlecards are only useful if current. If this is >90 days old, flag to [owner] for update.*
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

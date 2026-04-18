@@ -334,3 +334,9 @@ tags:
   ]
 }
 ```
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-platform]] — Category: skills-platform
+

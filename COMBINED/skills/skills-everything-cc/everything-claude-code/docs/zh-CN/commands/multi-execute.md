@@ -326,3 +326,9 @@ mcp__ace-tool__search_context({
 1. `/ccg:plan` 生成计划 + SESSION\_ID
 2. 用户用“Y”确认
 3. `/ccg:execute` 读取计划，重用 SESSION\_ID，执行实施
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

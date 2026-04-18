@@ -464,3 +464,9 @@ Each domain's context skill creates this file via guided interview + auto-draft 
 
 *This standard applies to all new skills and skill upgrades across the entire repository.*
 *Version: 1.0.0 | Created: 2026-03-06*
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

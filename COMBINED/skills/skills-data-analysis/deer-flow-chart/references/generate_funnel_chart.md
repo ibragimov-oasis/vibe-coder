@@ -28,3 +28,9 @@ tags:
 
 ## 返回结果
 - 返回漏斗图 URL，并附 `_meta.spec` 方便复用。
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-data-analysis]] — Category: skills-data-analysis
+

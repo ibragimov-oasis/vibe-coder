@@ -86,3 +86,9 @@ Leverages loss aversion — removing pressure while creating scarcity through wi
 **Mid-level managers:** More specific value. "Want me to walk through how [Company] saved 15 hours/week?"
 
 Higher in the org chart = less friction you can ask for.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

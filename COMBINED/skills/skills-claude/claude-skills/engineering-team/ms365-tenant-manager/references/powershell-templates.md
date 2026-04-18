@@ -709,3 +709,9 @@ Write-Host "`n" + "=" * 60 -ForegroundColor Cyan
 Write-Host "Verify DNS propagation: nslookup -type=mx $Domain"
 Write-Host "Note: DNS changes may take 24-48 hours to propagate"
 ```
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

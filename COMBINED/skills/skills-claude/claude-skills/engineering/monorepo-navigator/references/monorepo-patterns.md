@@ -42,3 +42,9 @@ tags:
 - Use Changesets or equivalent for versioning.
 - Keep package publishing automated and reproducible.
 - Use prerelease channels for unstable shared package changes.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

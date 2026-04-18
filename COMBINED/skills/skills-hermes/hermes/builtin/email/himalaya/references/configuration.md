@@ -189,3 +189,9 @@ Set via environment variable:
 ```bash
 export EDITOR="vim"
 ```
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-hermes]] — Category: skills-hermes
+

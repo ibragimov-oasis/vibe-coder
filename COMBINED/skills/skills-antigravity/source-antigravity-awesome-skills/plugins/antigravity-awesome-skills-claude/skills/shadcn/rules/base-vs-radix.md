@@ -311,3 +311,9 @@ Radix requires `type="single"` or `type="multiple"` and supports `collapsible`. 
   <AccordionItem value="item-1">...</AccordionItem>
 </Accordion>
 ```
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

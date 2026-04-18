@@ -380,3 +380,9 @@ RETURNING *;
 **記住**：資料庫問題通常是應用程式效能問題的根本原因。儘早優化查詢和結構描述設計。使用 EXPLAIN ANALYZE 驗證假設。總是為外鍵和 RLS 政策欄位建立索引。
 
 *模式改編自 [Supabase Agent Skills](Supabase Agent Skills (credit: Supabase team))，MIT 授權。*
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

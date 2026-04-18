@@ -66,3 +66,9 @@ tags:
   - nested/tag2
 ---
 ```
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-platform]] — Category: skills-platform
+

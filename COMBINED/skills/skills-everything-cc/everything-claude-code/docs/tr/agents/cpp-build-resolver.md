@@ -92,3 +92,9 @@ Kalan hatalar: 3
 Son: `Build Durumu: BAŞARILI/BAŞARISIZ | Düzeltilen Hatalar: N | Değiştirilen Dosyalar: liste`
 
 Detaylı C++ desenleri ve kod örnekleri için, `skill: cpp-coding-standards` bölümüne bakın.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

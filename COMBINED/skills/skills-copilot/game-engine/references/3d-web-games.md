@@ -759,3 +759,9 @@ All major 3D web frameworks support WebXR:
 - Always test on real headsets; the experience is vastly different from desktop preview.
 - Maintain a stable, high frame rate (72-90+ FPS) to prevent motion sickness.
 - Consult [MDN WebXR Device API](https://developer.mozilla.org/en-US/docs/Web/API/WebXR_Device_API) for the full API reference.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-copilot]] — Category: skills-copilot
+

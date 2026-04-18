@@ -74,3 +74,9 @@ Overall:               67%     84%  PASS:
 - Codebase genelinde kullanılan utility fonksiyonları
 - API endpoint handler'ları (request → response akışı)
 - Edge case'ler: null, undefined, empty string, empty array, zero, negatif sayılar
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

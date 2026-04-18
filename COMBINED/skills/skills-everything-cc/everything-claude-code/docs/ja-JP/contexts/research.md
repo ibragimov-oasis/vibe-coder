@@ -31,3 +31,9 @@ tags:
 
 ## 出力
 発見を最初に、推奨事項を次に
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

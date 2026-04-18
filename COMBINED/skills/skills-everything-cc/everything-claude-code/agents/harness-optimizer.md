@@ -37,3 +37,9 @@ Raise agent completion quality by improving harness configuration, not by rewrit
 - applied changes
 - measured improvements
 - remaining risks
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

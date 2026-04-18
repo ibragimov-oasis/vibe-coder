@@ -59,3 +59,9 @@ That guide covers the browser/app storage cleanup needed when the host keeps reo
 - use bundle activation before opening very large repositories
 - keep role-specific stacks active and archive the rest
 - if a host stores broken session state, clear that host state before restoring a smaller active set
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

@@ -106,3 +106,9 @@ CRITICAL 취약점 발견 시:
 ---
 
 **기억하세요**: 보안은 선택 사항이 아닙니다. 하나의 취약점이 사용자에게 실제 금전적 손실을 줄 수 있습니다. 철저하게, 편집증적으로, 사전에 대응하세요.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

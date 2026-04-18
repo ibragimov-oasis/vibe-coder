@@ -374,3 +374,9 @@ class AdaptiveExampleSelector:
 - Pre-built example selectors for common tasks
 - Evaluation frameworks for few-shot performance
 - Token counting utilities for different models
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

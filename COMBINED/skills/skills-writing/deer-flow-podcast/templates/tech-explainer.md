@@ -68,3 +68,9 @@ python /mnt/skills/public/podcast-generation/scripts/generate.py \
 - Include practical "why this matters" context
 - Avoid jargon without explanation
 - Make the dialogue accessible to beginners
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-writing]] — Category: skills-writing
+

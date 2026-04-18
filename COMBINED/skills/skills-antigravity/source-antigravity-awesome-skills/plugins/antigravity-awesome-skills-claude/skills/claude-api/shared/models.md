@@ -73,3 +73,9 @@ When a user asks for a model by name, use this table to find the correct model I
 | "haiku 4.5"                               | `claude-haiku-4-5`             |
 | "haiku 3.5"                               | Retired — suggest `claude-haiku-4-5` |
 | "haiku 3"                                 | Deprecated — suggest `claude-haiku-4-5` |
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

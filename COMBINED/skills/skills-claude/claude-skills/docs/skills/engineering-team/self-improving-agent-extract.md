@@ -191,3 +191,9 @@ Creates `api-client-regen/SKILL.md` with:
 - Keep skills focused — one problem per skill
 - Include the error messages people would search for
 - Test the skill by reading it without the original context — does it make sense?
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

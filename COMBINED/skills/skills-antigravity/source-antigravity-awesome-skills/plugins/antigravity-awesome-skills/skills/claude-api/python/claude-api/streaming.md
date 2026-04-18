@@ -167,3 +167,9 @@ except anthropic.APIStatusError as e:
 3. **Track token usage** — The `message_delta` event contains usage information
 4. **Use timeouts** — Set appropriate timeouts for your application
 5. **Default to streaming** — Use `.get_final_message()` to get the complete response even when streaming, giving you timeout protection without needing to handle individual events
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

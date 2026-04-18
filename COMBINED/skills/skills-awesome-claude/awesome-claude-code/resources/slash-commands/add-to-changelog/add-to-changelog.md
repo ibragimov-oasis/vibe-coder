@@ -56,3 +56,9 @@ The command should:
 7. Suggest committing the changes
 
 Remember to update the package version in `__init__.py` and `setup.py` if this is a new version.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-awesome-claude]] — Category: skills-awesome-claude
+

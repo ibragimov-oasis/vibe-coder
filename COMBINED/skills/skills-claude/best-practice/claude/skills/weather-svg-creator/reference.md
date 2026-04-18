@@ -67,3 +67,9 @@ Dubai, UAE
 |------|------|
 | SVG card | `orchestration-workflow/weather.svg` |
 | Markdown summary | `orchestration-workflow/output.md` |
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

@@ -520,3 +520,9 @@ When author disagrees with your feedback:
 - **assets/pr-review-template.md**: Standard review comment template
 - **assets/review-checklist.md**: Quick reference checklist
 - **scripts/pr-analyzer.py**: Analyze PR complexity and suggest reviewers
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

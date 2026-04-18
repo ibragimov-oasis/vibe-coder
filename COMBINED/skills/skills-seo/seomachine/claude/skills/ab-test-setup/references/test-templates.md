@@ -273,3 +273,9 @@ For collecting test ideas:
 | H2 | Pricing | Users compare plans | Comparison table will help | Medium | Backlog |
 | H3 | Signup | Drop-off at email | Social login will increase completion | Medium | Backlog |
 ```
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-seo]] — Category: skills-seo
+

@@ -136,3 +136,9 @@ tags:
 - 通过为每个用户文档提供不同的主要意图来避免蚕食。
 - 优先选择诚实的比较而不是绝对声明。
 - 除非策略后来发生变化，否则不要在发现文档中使用 SEM 或付费语言。
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

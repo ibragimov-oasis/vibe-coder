@@ -292,3 +292,9 @@ Build an All-in-One orchestrator system with:
 **Created:** November 6, 2025
 **Last Updated:** November 6, 2025
 **Status:** Active Sprint
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

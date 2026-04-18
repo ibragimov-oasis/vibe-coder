@@ -99,3 +99,9 @@ async function runTurn(trajectory: Message[]) {
   - 如果您希望明确的用户可见失败而不是静默删除额外技能,请考虑 `overflowBehavior: "error"`;
   - 保持路径验证,以便清单条目无法逃脱您配置的技能根目录;
   - 如果您想要更严格的安全预算,请添加 token 计数/截断逻辑。
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

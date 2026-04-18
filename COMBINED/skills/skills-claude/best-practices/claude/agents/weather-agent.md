@@ -80,3 +80,9 @@ After completing the fetch, return a concise report:
 1. **Use Your Skill**: The skill content is preloaded - follow those instructions
 2. **Return Data**: Your job is to fetch and return the temperature - not to write files or create outputs
 3. **Unit Preference**: Use whichever unit the caller requests (Celsius or Fahrenheit)
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

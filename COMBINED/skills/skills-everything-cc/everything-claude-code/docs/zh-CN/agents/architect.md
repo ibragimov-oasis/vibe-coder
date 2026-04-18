@@ -234,3 +234,9 @@ AI 驱动的 SaaS 平台示例架构：
 * **1000万用户**：事件驱动架构，分布式缓存，多区域
 
 **请记住**：良好的架构能够实现快速开发、轻松维护和自信扩展。最好的架构是简单、清晰并遵循既定模式的。
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

@@ -40,3 +40,9 @@ Use **Kover** for coverage reporting:
 ## Reference
 
 See skill: `kotlin-testing` for detailed Kotest patterns, MockK usage, and property-based testing.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

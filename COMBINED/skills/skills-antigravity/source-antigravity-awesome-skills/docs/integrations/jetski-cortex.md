@@ -274,3 +274,9 @@ Per evitare che il problema si ripresenti:
 - Impostate limiti chiari (max skill per turno, soglia di token).
 
 Seguendo questo pattern, Jetski/Cortex + Gemini può usare l’intera libreria di `antigravity-awesome-skills` in modo sicuro, scalabile e compatibile con il context window dei modelli moderni.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

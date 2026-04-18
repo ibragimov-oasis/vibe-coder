@@ -296,3 +296,9 @@ Sprint Capacity Planning:
 | All large stories | Risk of incomplete sprint | Mix sizes |
 | No dependencies mapped | Blocked work | Identify dependencies upfront |
 | Stretch = overflow | Hiding overcommitment | Stretch should be optional |
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

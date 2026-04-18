@@ -111,3 +111,9 @@ Muốn tạo một kỹ năng mới? Hãy xem:
 ---
 
 **Cần trợ giúp?** Kiểm tra [FAQ](../docs/vietnamese/FAQ.vi.md) hoặc mở một issue trên GitHub!
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

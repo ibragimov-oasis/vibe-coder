@@ -52,3 +52,9 @@ cp agents/personas/solo-founder.md ~/COMBINED/workspace-config/claude/agents/
 ```
 
 [:octicons-arrow-right-24: View full persona source](https://github.com/alirezarezvani/claude-skills/blob/main/agents/personas/solo-founder.md)
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

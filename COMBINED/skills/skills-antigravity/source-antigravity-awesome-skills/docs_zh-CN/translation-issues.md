@@ -71,3 +71,9 @@ Use this format when adding issues:
 **Proposed Solution:** [How to fix it]
 **Status:** Open | In Progress | Resolved
 ```
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

@@ -265,3 +265,9 @@ Skills are incredibly powerful, flexible tools for agents, but it's still early 
 - [Thariq (@trq212) on X — March 17, 2026](https://x.com/trq212/status/2033949937936085378)
 - [Skilljar — Agent Skills course](https://code.claude.com/docs/en/skills)
 - [Skill Creator](https://code.claude.com/docs/en/skills)
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

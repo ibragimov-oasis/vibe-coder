@@ -33,3 +33,9 @@ for (const user of users) {
   if (!user.isActive) inactive.push(user)
 }
 ```
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

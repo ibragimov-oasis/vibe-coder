@@ -2254,3 +2254,9 @@ function SearchInput({ onSearch }: { onSearch: (q: string) => void }) {
 5. [https://github.com/isaacs/node-lru-cache](https://github.com/isaacs/node-lru-cache)
 6. [https://vercel.com/blog/how-we-optimized-package-imports-in-next-js](https://vercel.com/blog/how-we-optimized-package-imports-in-next-js)
 7. [https://vercel.com/blog/how-we-made-the-vercel-dashboard-twice-as-fast](https://vercel.com/blog/how-we-made-the-vercel-dashboard-twice-as-fast)
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

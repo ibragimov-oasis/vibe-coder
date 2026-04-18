@@ -593,3 +593,9 @@ The edge cases above share common patterns. When you encounter a quality situati
 | 13. Wrong material, correct cert | Counterfeit prevention (AS9100) | Incoming inspection update |
 | 14. CAPA backlog | CAPA initiation criteria triage | Management review |
 | 15. Validation deviation | Process validation impact assessment | Calibration program improvement |
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

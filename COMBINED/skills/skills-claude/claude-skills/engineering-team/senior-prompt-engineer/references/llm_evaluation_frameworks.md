@@ -529,3 +529,9 @@ Decision: Ship if p < 0.05 AND effect size meets threshold AND guardrails pass
 | Classification | Accuracy, F1 | Precision, Recall |
 | RAG | Faithfulness | Context relevance, MRR |
 | Open-ended chat | Human eval | Helpfulness, Safety |
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

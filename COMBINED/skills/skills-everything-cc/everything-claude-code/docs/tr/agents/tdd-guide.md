@@ -93,3 +93,9 @@ Eval-driven development'ı TDD akışına entegre edin:
 4. Testleri ve eval'leri yeniden çalıştırın; pass@1 ve pass@3'ü raporlayın.
 
 Release-critical yollar merge'den önce pass^3 stabilitesini hedeflemeli.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

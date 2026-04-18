@@ -29,3 +29,9 @@ When `--watch` is present, refresh status periodically and surface state changes
 
 $ARGUMENTS:
 - `--watch` optional
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

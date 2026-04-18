@@ -36,3 +36,9 @@ tags:
 - データペイロードを含める（エラー時は null）
 - エラーメッセージフィールドを含める（成功時は null）
 - ページネーションされたレスポンスにメタデータを含める（total, page, limit）
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

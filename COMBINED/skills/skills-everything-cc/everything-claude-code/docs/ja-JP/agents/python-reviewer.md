@@ -471,3 +471,9 @@ pytest --cov=app --cov-report=term-missing
 - **非同期ジェネレータ**: 適切な非同期イテレーション
 
 「このコードはトップPythonショップまたはオープンソースプロジェクトでレビューに合格するか?」という考え方でレビューします。
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

@@ -46,3 +46,9 @@ Current version: 1.0.0 (February 2026)
 - [Angular Signals](https://angular.dev/guide/signals)
 - [NgRx](https://ngrx.io)
 - [NgRx SignalStore](https://ngrx.io/guide/signals)
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

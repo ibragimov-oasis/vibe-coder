@@ -376,3 +376,9 @@ Alternatives:"""
 
     return [query] + alternatives[:3]
 ```
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

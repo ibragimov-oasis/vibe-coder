@@ -30,3 +30,9 @@ When an end-user requests a Real Estate contract:
 1. Note the severe localization of real estate. Emphasize that residential forms often *must* be the statutory version provided by the local government.
 2. For EU member states, use **N-Lex** to verify the specific Civil Code or Property Act sections.
 3. Differentiate clearly between a Lease (grants exclusive possession) and a License (grants permission to use).
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

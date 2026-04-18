@@ -38,3 +38,9 @@ Closes #
 ## Notes for Reviewers
 
 <!-- Anything reviewers should pay special attention to -->
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-hermes]] — Category: skills-hermes
+

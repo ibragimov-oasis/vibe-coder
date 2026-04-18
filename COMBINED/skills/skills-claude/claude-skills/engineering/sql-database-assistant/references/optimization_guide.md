@@ -335,3 +335,9 @@ Before deploying any query to production:
 | `WHERE col = value` (append-only) | BRIN |
 | `WHERE col = value AND status = 'active'` | Partial B-tree |
 | `SELECT a, b WHERE c = value` | Covering (INCLUDE) |
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

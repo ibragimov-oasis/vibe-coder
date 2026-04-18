@@ -505,3 +505,9 @@ To implement startup metrics framework:
 8. **Update investors** - Monthly/quarterly reporting
 
 For detailed definitions, benchmarks, and examples, see `references/` and `examples/`.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

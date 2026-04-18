@@ -116,3 +116,9 @@ If a listed kill criterion triggers, the thesis should be re-underwritten regard
 - Production weight values (`w1..w4`, `a..d`)
 - Threshold cutoffs and regime-specific overrides
 - Internal fallback logic for sparse/contradictory data
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

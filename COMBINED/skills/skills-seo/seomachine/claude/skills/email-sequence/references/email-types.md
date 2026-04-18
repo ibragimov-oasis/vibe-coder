@@ -511,3 +511,9 @@ Use this to audit your current email program:
 - [ ] Seasonal promotion calendar
 - [ ] Product update announcements
 - [ ] Pricing update communications
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-seo]] — Category: skills-seo
+

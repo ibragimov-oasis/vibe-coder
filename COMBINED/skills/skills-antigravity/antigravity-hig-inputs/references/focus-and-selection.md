@@ -120,5 +120,10 @@ When people look at a virtual object to identify it as the object they want to i
 Date| Changes  
 ---|---  
 October 24, 2023| Clarified the difference between focus effects and the visionOS hover effect.  
-June 21, 2023| Updated to include guidance for visionOS.  
-  
+June 21, 2023| Updated to include guidance for visionOS.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

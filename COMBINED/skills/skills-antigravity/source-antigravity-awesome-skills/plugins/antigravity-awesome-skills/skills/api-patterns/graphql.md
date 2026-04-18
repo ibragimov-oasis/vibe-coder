@@ -46,3 +46,9 @@ Protect against:
 ├── Batching abuse → Limit batch size
 ├── Introspection → Disable in production
 ```
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

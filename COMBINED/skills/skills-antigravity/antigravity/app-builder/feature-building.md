@@ -58,3 +58,9 @@ Analysis:
 4. Suggest alternative
 5. Rollback if necessary
 ```
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

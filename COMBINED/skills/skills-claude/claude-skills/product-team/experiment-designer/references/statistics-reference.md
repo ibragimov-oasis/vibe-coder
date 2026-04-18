@@ -61,3 +61,9 @@ Output:
 - Required sample size per variant
 - Total sample size
 - Approximate runtime based on traffic volume
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

@@ -114,3 +114,9 @@ tags:
 ---
 
 **철학**: Agent 우선 설계, 병렬 실행, 실행 전 계획, 코드 전 테스트, 항상 보안 우선.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

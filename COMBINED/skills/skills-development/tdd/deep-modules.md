@@ -38,3 +38,9 @@ When designing interfaces, ask:
 - Can I reduce the number of methods?
 - Can I simplify the parameters?
 - Can I hide more complexity inside?
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-development]] — Category: skills-development
+

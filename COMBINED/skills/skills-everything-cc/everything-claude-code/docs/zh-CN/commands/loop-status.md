@@ -30,3 +30,9 @@ tags:
 $ARGUMENTS:
 
 * `--watch` 可选
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

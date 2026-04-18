@@ -611,3 +611,9 @@ class Stage2(BaseModel):
 
 - **Pydantic Docs**: https://docs.pydantic.dev/latest/concepts/validators/
 - **Instructor Examples**: https://python.useinstructor.com/examples
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-hermes]] — Category: skills-hermes
+

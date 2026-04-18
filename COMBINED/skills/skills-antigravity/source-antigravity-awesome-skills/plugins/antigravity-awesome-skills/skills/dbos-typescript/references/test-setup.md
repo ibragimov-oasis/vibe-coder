@@ -105,3 +105,9 @@ Key points:
 - Use `DBOS.shutdown({ deregister: true })` if re-registering functions
 
 Reference: [Testing & Mocking](https://docs.dbos.dev/typescript/tutorials/testing)
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

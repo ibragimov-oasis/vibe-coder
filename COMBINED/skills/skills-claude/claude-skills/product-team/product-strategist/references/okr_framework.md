@@ -333,3 +333,9 @@ Q4: Scale and optimize (ARR: $65M → $100M)
 ---
 
 *See also: `strategy_types.md` for strategy-specific OKR templates*
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

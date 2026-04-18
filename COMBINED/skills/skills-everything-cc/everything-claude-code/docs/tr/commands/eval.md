@@ -125,3 +125,9 @@ $ARGUMENTS:
 - `report <name>` - Tam rapor oluştur
 - `list` - Tüm eval'ları göster
 - `clean` - Eski eval loglarını kaldır (son 10 çalıştırmayı tutar)
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

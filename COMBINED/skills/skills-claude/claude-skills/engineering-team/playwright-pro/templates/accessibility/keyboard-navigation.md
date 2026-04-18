@@ -154,3 +154,9 @@ test.describe('Keyboard Navigation', () => {
 | Keyboard shortcut | Custom key triggers action |
 | Focus after update | Focus not lost on async update |
 | Arrow keys | Tab/listbox/menu arrow navigation |
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

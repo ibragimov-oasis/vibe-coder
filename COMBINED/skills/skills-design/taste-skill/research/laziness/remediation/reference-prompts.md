@@ -84,3 +84,9 @@ If your response approaches the output token limit:
 
 On "continue", pick up exactly where you stopped. No recaps or repetition.
 ```
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-design]] — Category: skills-design
+

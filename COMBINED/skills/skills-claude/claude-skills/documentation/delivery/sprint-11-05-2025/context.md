@@ -243,3 +243,9 @@ Agent integration provides a workflow orchestration layer where specialized agen
 **Created:** November 5, 2025
 **Last Updated:** November 5, 2025
 **Status:** Active Sprint
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

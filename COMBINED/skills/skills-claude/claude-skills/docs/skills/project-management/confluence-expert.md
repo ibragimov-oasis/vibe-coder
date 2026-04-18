@@ -388,3 +388,9 @@ const example = "code here";
 
 - **Jira Expert** (`project-management/jira-expert/`) — Jira issue macros and linking complement Confluence docs
 - **Atlassian Templates** (`project-management/atlassian-templates/`) — Template patterns for Confluence content creation
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

@@ -316,3 +316,9 @@ Present results as a structured table:
 | Quality Standards | `standards/quality/quality-standards.md` |
 | Security Standards | `standards/security/security-standards.md` |
 | Git Standards | `standards/git/git-workflow-standards.md` |
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

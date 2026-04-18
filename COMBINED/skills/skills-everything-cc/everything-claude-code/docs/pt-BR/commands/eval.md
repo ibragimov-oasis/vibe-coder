@@ -124,3 +124,9 @@ $ARGUMENTS:
 - `report <name>` - Gerar relatório completo
 - `list` - Mostrar todos os evals
 - `clean` - Remover logs antigos de eval (mantém as últimas 10 execuções)
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

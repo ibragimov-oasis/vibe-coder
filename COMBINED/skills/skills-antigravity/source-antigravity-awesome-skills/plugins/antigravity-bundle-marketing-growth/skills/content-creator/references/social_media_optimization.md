@@ -322,3 +322,9 @@ Sunday: Curated Content/Rest
 - Have crisis management plan
 - Monitor brand mentions
 - Establish posting permissions
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

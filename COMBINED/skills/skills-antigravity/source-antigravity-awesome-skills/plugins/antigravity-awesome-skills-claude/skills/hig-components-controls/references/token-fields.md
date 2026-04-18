@@ -53,3 +53,8 @@ Tokens can also represent search terms in some situations; for guidance, see [Se
 
 [`NSTokenField`](https://developer.apple.com/documentation/AppKit/NSTokenField) — AppKit
 
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

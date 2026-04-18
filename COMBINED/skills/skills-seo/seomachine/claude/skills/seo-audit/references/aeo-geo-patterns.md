@@ -284,3 +284,9 @@ Voice queries are conversational and question-based. Optimize for these patterns
 - Avoid jargon unless targeting expert audience
 - Include local context where relevant
 - Structure for single spoken response
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-seo]] — Category: skills-seo
+

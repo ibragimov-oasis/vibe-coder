@@ -313,3 +313,9 @@ This comprehensive checklist helps identify, prevent, and mitigate various forms
 - Data-driven process improvements
 
 This checklist should be reviewed and updated regularly based on legal requirements, industry best practices, and internal bias analysis results.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

@@ -474,3 +474,9 @@ sum(alerts_acked_within_15m) / sum(alerts_fired) * 100
 - [ ] Validate escalation paths work correctly
 
 Remember: Great alerts are invisible when things work and invaluable when things break. Focus on quality over quantity, and always optimize for the human who will respond to the alert at 3 AM.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

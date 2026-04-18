@@ -40,3 +40,9 @@ Use this only when the PR should auto-close an issue:
 - [ ] **Maintainer Edits**: I enabled **Allow edits from maintainers** on the PR.
 
 ## Screenshots (if applicable)
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

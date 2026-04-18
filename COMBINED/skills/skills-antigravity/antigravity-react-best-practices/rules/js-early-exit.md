@@ -51,3 +51,9 @@ function validateUsers(users: User[]) {
   return { valid: true }
 }
 ```
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

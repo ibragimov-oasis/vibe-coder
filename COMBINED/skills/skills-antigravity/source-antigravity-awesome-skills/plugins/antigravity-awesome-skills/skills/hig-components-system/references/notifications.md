@@ -153,5 +153,10 @@ tags:
   - artifact/doc
   - source/skills-antigravity
 ---|---  
-October 24, 2023| Updated watchOS platform considerations with guidance for presenting notification responses to double tap.  
-  
+October 24, 2023| Updated watchOS platform considerations with guidance for presenting notification responses to double tap.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

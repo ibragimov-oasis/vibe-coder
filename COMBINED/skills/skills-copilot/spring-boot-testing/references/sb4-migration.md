@@ -186,3 +186,9 @@ Use "classic" starters for gradual migration:
 ```
 
 This provides old behavior while you migrate incrementally.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-copilot]] — Category: skills-copilot
+

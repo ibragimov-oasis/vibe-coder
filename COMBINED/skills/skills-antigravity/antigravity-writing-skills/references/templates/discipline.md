@@ -56,3 +56,9 @@ Violating the letter IS violating the spirit.
 - [Exception 2]
 
 **Everything else:** Follow the rule.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

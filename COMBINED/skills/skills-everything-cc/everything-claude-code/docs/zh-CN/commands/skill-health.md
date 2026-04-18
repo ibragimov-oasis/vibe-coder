@@ -56,3 +56,9 @@ node "$ECC_ROOT/scripts/skills-health.js" --dashboard --json
 * **故障模式** — 聚类故障原因并显示水平条形图
 * **待处理修订** — 等待审查的修订提案
 * **版本历史** — 每个技能的版本快照时间线
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

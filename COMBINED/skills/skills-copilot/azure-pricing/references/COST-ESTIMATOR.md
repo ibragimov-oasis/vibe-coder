@@ -147,3 +147,9 @@ Always present results in this format:
 - For **serverless** services, ask about expected invocation count and duration.
 - Round to 2 decimal places for display.
 - Note that prices are in **USD** unless otherwise specified.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-copilot]] — Category: skills-copilot
+

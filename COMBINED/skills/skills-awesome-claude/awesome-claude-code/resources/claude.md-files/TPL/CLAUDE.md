@@ -48,3 +48,9 @@ tags:
 - Add proper docstring comments for exported functions and types
 - Use log/slog for structured logging
 - Add linting and static analysis tools
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-awesome-claude]] — Category: skills-awesome-claude
+

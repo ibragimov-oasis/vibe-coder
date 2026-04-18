@@ -643,3 +643,9 @@ Controller formats response
 - [routing-and-controllers.md](routing-and-controllers.md)
 - [services-and-repositories.md](services-and-repositories.md)
 - [validation-patterns.md](validation-patterns.md)
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

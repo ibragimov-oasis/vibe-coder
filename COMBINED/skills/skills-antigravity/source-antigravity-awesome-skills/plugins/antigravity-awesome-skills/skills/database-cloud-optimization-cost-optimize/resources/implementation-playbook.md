@@ -1446,3 +1446,9 @@ class CostMonitoringSystem:
 8. **Best Practices Guide**: Long-term cost management strategies
 
 Focus on delivering immediate cost savings while establishing sustainable cost optimization practices that maintain performance and reliability standards.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

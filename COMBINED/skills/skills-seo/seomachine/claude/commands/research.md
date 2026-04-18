@@ -135,3 +135,9 @@ The research brief serves as the foundation for:
 3. Checklist to ensure all competitive gaps are addressed
 
 This ensures every article is built on solid SEO research and strategic competitive positioning.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-seo]] — Category: skills-seo
+

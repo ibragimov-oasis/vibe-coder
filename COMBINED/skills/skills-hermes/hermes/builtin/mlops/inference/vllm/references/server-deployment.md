@@ -260,3 +260,9 @@ scrape_configs:
 - TTFT p99: `histogram_quantile(0.99, vllm_time_to_first_token_seconds_bucket)`
 - GPU cache usage: `vllm_gpu_cache_usage_perc`
 - Active requests: `vllm_num_requests_running`
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-hermes]] — Category: skills-hermes
+

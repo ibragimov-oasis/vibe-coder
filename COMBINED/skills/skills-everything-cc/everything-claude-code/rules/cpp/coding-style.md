@@ -46,3 +46,9 @@ tags:
 ## Reference
 
 See skill: `cpp-coding-standards` for comprehensive C++ coding standards and guidelines.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

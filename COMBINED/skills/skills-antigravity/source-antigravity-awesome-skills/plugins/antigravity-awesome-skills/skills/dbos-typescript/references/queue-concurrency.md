@@ -54,3 +54,9 @@ Worker concurrency is recommended for most use cases. Take care with global conc
 When using worker concurrency, each process must have a unique `executorID` set in configuration (this is automatic with DBOS Conductor or Cloud).
 
 Reference: [Managing Concurrency](https://docs.dbos.dev/typescript/tutorials/queue-tutorial#managing-concurrency)
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

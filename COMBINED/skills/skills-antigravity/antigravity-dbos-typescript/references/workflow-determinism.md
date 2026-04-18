@@ -55,3 +55,9 @@ Non-deterministic operations that must be in steps:
 - Database queries (use transactions or steps)
 
 Reference: [Workflow Determinism](https://docs.dbos.dev/typescript/tutorials/workflow-tutorial#determinism)
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

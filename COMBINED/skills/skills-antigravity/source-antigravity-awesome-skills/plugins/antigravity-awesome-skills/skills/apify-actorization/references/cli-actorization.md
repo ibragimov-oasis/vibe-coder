@@ -86,3 +86,9 @@ export INPUT='{"myParam": "test-value"}'
 | `apify actor:set-value KEY` | Store value in key-value store |
 | `apify actor:push-data JSON` | Push data to dataset |
 | `apify actor:get-value KEY` | Retrieve value from key-value store |
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

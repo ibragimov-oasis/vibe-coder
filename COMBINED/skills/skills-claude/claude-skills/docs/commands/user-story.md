@@ -51,3 +51,9 @@ Interactive mode prompts for feature context. For sprint planning, provide capac
 
 ## Skill Reference
 > `product-team/agile-product-owner/SKILL.md`
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

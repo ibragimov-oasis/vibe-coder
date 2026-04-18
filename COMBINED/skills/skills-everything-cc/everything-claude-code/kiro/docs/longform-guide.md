@@ -306,3 +306,9 @@ Agentic workflows represent a paradigm shift in software development. By treatin
 The key is to embrace the methodology fully: use specialized agents, leverage skills for complex workflows, maintain steering files for consistency, and enable hooks for automation. Start small with one agent or skill, experience the benefits, and gradually expand your agentic workflow toolkit.
 
 The future of software development is collaborative, and agentic workflows are leading the way.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

@@ -402,3 +402,9 @@ obj->~Data();  // Manual destruction needed
 | Memory Pools | Frequent alloc/dealloc | Reduced fragmentation |
 | Alignment | SIMD/cache optimization | Performance |
 | RVO/NRVO | Return objects | Zero-copy |
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

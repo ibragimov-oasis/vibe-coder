@@ -107,3 +107,9 @@ e2e/
 ### Step 4: Return Plan
 
 Return the complete plan to the calling skill. Do not write files.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

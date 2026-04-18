@@ -34,3 +34,9 @@ Context: WWDC session introducing the next-generation SwiftUI Instrument in Inst
 
 - Caching formatted distance strings in a location manager instead of computing in `body`.
 - Replacing a dependency on a global favorites array with per-item view models to reduce update fan-out.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-design]] — Category: skills-design
+

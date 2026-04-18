@@ -67,3 +67,9 @@ Highlights:
 
 If your team runs AI coding agents daily, this is designed for operational use.
 ```
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

@@ -297,3 +297,9 @@ This severity matrix should be reviewed quarterly and updated based on:
 **Last Updated:** February 2026  
 **Next Review:** May 2026  
 **Owner:** Engineering Leadership
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

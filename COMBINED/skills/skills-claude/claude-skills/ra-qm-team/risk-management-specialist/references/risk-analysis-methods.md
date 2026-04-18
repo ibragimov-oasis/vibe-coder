@@ -420,3 +420,9 @@ Failure Mode Types: Omission, Commission, Timing, Value, Sequence
 | Architecture | Code | Design realized |
 | Code | Test | Verification coverage |
 | Test | Hazard | Control verified |
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

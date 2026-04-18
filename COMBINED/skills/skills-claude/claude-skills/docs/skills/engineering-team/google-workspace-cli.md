@@ -386,3 +386,9 @@ python3 scripts/auth_setup_guide.py --scopes gmail,drive,calendar,sheets
 | Calendar | `calendar`, `calendar.events` |
 | Admin | `admin.directory.user.readonly`, `admin.directory.group` |
 | Tasks | `tasks` |
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

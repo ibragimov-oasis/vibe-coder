@@ -68,3 +68,9 @@ Provide:
 - Validation results (pass/fail per block)
 - Missing opportunities
 - Generated JSON-LD for implementation
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-seo]] — Category: skills-seo
+

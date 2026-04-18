@@ -252,3 +252,9 @@ Detailed scoring templates, example models by business type, and calibration gui
 - High-scoring leads don't convert; low-scoring leads do
 - MQL volume spikes without corresponding revenue
 - New product/market changes since last calibration
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

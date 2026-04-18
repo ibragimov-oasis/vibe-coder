@@ -145,3 +145,9 @@ Ask user before deleting anything.
 - Any tests that couldn't be auto-converted (manual intervention needed)
 - Updated CI config
 - Before/after comparison of test run results
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

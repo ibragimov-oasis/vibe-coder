@@ -120,3 +120,9 @@ The text processor handles several error conditions:
 - **ValueError**: When invalid transformation mode is specified
 
 All errors are reported to stderr with descriptive messages.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

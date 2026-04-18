@@ -287,3 +287,9 @@ expect(element).toBeVisible();
 - Flaky tests: 15/100 → 0/100
 - Speed: 40% faster (no over-waiting)
 ```
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

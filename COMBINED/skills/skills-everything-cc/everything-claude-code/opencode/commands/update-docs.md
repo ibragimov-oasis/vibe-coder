@@ -69,3 +69,9 @@ Update documentation to reflect recent changes: $ARGUMENTS
 ---
 
 **IMPORTANT**: Documentation should be updated alongside code changes, not as an afterthought.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

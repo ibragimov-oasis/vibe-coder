@@ -38,3 +38,9 @@ python3 project-management/scrum-master/scripts/velocity_analyzer.py --help
 
 - Load only 1-2 skills per request — don't bulk-load
 - Use MCP tools for live Jira/Confluence operations when available
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

@@ -104,3 +104,9 @@ npm run security:docs
 - 触及 `SKILL.md` 的 PR 还会获得自动化的 `skill-review` GitHub Actions 检查
 - `npm run validate:strict` 是一个有用的加固过程，但仓库仍包含尚未满足严格验证的遗留技能
 - 示例和限制即使当前验证器未完全自动强制执行，仍是质量标准的一部分
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

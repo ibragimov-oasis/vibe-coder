@@ -339,3 +339,9 @@ Run same audit as C-Suite:
 ---
 
 *Ready for execution on Reza's go.*
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

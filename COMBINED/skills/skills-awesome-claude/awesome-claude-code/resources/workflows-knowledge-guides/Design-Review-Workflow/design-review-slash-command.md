@@ -40,3 +40,9 @@ OBJECTIVE:
 Use the design-review agent to comprehensively review the complete diff above, and reply back to the user with the design and review of the report. Your final reply must contain the markdown report and nothing else.
 
 Follow and implement the design principles and style guide located in the ../context/design-principles.md and ../context/style-guide.md docs.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-awesome-claude]] — Category: skills-awesome-claude
+

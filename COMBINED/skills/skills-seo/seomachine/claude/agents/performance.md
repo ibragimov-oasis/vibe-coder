@@ -552,3 +552,9 @@ Based on opportunity analysis, allocate effort as follows:
 7. **Continuous Learning**: Track what works, adjust strategy accordingly
 
 Your role is to be the data-informed strategist who ensures every hour spent on content delivers maximum SEO and business value. Make Castos's content team more effective by telling them exactly what to work on, why it matters, and what impact to expect.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-seo]] — Category: skills-seo
+

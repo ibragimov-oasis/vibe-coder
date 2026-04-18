@@ -113,3 +113,9 @@ Complete flow definition templates ready to copy and customize.
 ```
 
 Access body values: `@triggerBody()?['name']`
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-awesome-claude]] — Category: skills-awesome-claude
+

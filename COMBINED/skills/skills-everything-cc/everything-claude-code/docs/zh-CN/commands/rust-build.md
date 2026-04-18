@@ -191,3 +191,9 @@ Build Status: SUCCESS
 
 * 代理：`agents/rust-build-resolver.md`
 * 技能：`skills/rust-patterns/`
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

@@ -310,3 +310,9 @@ $ARGUMENTS:
 - エイリアスは `~/.claude/session-aliases.json` に保存されます
 - セッションIDは短縮できます（通常、最初の4〜8文字で一意になります）
 - 頻繁に参照するセッションにはエイリアスを使用してください
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

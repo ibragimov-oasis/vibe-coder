@@ -211,3 +211,9 @@ tags:
 - 독립적으로 전달할 수 없는 Phase
 
 **기억하세요**: 좋은 계획은 구체적이고, 실행 가능하며, 해피 패스와 엣지 케이스 모두를 고려합니다. 최고의 계획은 자신감 있고 점진적인 구현을 가능하게 합니다.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

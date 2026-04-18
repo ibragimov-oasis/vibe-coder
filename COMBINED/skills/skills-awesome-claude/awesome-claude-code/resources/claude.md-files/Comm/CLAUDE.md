@@ -53,3 +53,9 @@ tags:
 
 - Use consistent returns in functions
 - Handle all promise rejections
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-awesome-claude]] — Category: skills-awesome-claude
+

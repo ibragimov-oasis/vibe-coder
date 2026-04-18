@@ -43,3 +43,9 @@ vector_store = ChromaVectorStore(chroma_collection=collection)
 ## Resources
 
 - **Docs**: https://docs.trychroma.com
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-hermes]] — Category: skills-hermes
+

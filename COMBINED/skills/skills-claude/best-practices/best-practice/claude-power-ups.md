@@ -71,3 +71,9 @@ The last power-up teaches model switching and effort control with an animated de
 ## Sources
 
 - [Changelog — v2.1.90](https://code.claude.com/docs/en/changelog)
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

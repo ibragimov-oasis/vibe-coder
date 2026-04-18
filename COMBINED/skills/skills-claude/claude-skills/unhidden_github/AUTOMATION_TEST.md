@@ -39,3 +39,9 @@ Results will be documented in issue #6.
 ## Cleanup
 
 This file can be deleted after automation validation is complete.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

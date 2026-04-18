@@ -163,3 +163,9 @@ Integrate review feedback, execute optimization after user confirmation.
 2. **Gemini backend opinions for reference only**
 3. External models have **zero filesystem write access**
 4. Claude handles all code writes and file operations
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

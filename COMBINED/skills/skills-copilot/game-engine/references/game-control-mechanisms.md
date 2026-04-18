@@ -622,3 +622,9 @@ Cylon.robot({
 - Provide visual diagnostics during development with console output and on-screen values.
 - Match control complexity to the game's needs. Not all mechanisms suit all games.
 - Test hardware setup thoroughly before implementing game logic on top of it.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-copilot]] — Category: skills-copilot
+

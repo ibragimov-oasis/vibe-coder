@@ -108,3 +108,9 @@ pytest --cov=app --cov-report=term-missing # Test coverage
 ***
 
 以这种心态进行审查："这段代码能通过顶级 Python 公司或开源项目的审查吗？"
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

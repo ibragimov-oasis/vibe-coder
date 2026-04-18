@@ -807,3 +807,9 @@ def generate_learning_path(self, analysis):
 8. **Practice Exercises**: Hands-on challenges to reinforce learning
 
 Focus on making complex code accessible through clear explanations, visual aids, and practical examples that build understanding progressively.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

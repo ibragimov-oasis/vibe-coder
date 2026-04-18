@@ -157,3 +157,9 @@ test.describe('Rate Limiting', () => {
 | 429 body | Error message + retry info in body |
 | Per-user bucket | Exhausted user doesn't affect others |
 | Window reset | Clock advanced → limit resets |
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

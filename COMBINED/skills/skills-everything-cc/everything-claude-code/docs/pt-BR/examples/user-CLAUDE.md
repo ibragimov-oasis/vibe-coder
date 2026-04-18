@@ -114,3 +114,9 @@ Você tem sucesso quando:
 ---
 
 **Filosofia**: Design agent-first, execução paralela, planejar antes de agir, testar antes de codar, segurança sempre.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

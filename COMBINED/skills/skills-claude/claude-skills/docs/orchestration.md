@@ -123,3 +123,9 @@ Switching to: [persona] + [skills]
 ```
 
 [:octicons-arrow-right-24: Full orchestration protocol](https://github.com/alirezarezvani/claude-skills/blob/main/orchestration/ORCHESTRATION.md)
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

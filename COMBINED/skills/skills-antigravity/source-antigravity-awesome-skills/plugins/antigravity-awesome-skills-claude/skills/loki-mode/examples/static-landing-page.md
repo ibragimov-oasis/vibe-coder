@@ -78,3 +78,9 @@ Marketing teams needing a quick landing page.
 ---
 
 **Purpose:** Tests frontend agent, marketing agent (copy), and design patterns without backend complexity.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

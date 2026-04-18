@@ -286,3 +286,9 @@ Customer success is marketing's best source of truth:
 - **Referral programs:** CS owns the relationship; marketing owns the mechanics. Design them together.
 
 Cadence: Monthly meeting between CMO and VP/Head of CS. Agenda: retention trends, expansion patterns, at-risk customers, NPS themes.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

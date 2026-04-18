@@ -262,3 +262,9 @@ See the [Skills & Agents Factory](https://github.com/alirezarezvani/claude-code-
 
 ??? question "Can I use Agent Skills in ChatGPT?"
     Yes. We have [6 Custom GPTs](custom-gpts.md) that bring Agent Skills directly into ChatGPT — no installation needed. Just click and start chatting.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

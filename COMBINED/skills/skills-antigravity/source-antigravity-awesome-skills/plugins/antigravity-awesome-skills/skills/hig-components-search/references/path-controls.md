@@ -45,3 +45,8 @@ There are two styles of path control.
 
 [`NSPathControl`](https://developer.apple.com/documentation/AppKit/NSPathControl) — AppKit
 
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

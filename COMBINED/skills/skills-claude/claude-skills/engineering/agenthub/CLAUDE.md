@@ -64,3 +64,9 @@ Agents communicate via `.agenthub/board/` markdown files:
 - Process optimization — agents propose competing workflow improvements
 - Feature prioritization — agents build different RICE/ICE scoring models
 - Any task that benefits from parallel exploration
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

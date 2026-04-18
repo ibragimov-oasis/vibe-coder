@@ -216,3 +216,9 @@ To return data to the parent, add a `Response` action:
   }
 }
 ```
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-awesome-claude]] — Category: skills-awesome-claude
+

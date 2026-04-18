@@ -231,3 +231,9 @@ ROI = ((Revenue - Cost) / Cost) × 100
 ```
 Value = (Likes × $0.50) + (Comments × $2.00) + (Shares × $5.00) + (Saves × $3.00) + (Clicks × $1.50)
 ```
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

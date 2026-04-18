@@ -54,3 +54,9 @@ Use `WhereNotNull()` in reactive pipelines.
 ```csharp
 this.WhenAnyValue(x => x.DurationPreset).WhereNotNull()
 ```
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

@@ -38,3 +38,9 @@ Aşağıdaki koşullardan herhangi biri doğruysa eskale edin:
 - özdeş yığın izleriyle tekrarlanan hatalar
 - bütçe penceresinin dışında maliyet sapması
 - kuyruk ilerlemesini engelleyen birleştirme çakışmaları
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

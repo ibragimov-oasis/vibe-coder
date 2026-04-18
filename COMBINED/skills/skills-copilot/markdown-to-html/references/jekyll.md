@@ -326,3 +326,9 @@ plugins:
 - [Kramdown Documentation](https://kramdown.gettalong.org/)
 - [GitHub Repository](https://github.com/jekyll/jekyll)
 - [Jekyll Themes](https://jekyllthemes.io/)
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-copilot]] — Category: skills-copilot
+

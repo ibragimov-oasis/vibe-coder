@@ -296,3 +296,9 @@ cargo fmt -- --check
 - `main`에서 feature 브랜치 생성, PR 필수
 - CI: `cargo fmt --check`, `cargo clippy`, `cargo test`, `cargo audit`
 - 배포: `scratch` 또는 `distroless` 베이스를 사용한 Docker 멀티스테이지 빌드
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

@@ -185,3 +185,9 @@ Every field reduces conversion. For each field, ask:
 - Time between steps
 
 ---
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

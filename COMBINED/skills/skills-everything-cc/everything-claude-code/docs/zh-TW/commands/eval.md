@@ -125,3 +125,9 @@ $ARGUMENTS:
 - `report <name>` - 產生完整報告
 - `list` - 顯示所有 evals
 - `clean` - 移除舊的 eval 日誌（保留最後 10 次執行）
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

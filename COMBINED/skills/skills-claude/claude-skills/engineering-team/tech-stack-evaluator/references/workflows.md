@@ -367,3 +367,9 @@ Select provider with highest weighted score.
 3. Underestimating migration complexity
 4. Assuming vendor claims are accurate
 5. Not accounting for hidden costs (training, hiring, technical debt)
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

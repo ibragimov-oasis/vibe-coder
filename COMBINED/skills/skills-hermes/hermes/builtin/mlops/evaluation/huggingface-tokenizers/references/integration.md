@@ -642,3 +642,9 @@ tokenizer(
    - Save `tokenizer_config.json`
    - Document custom templates
    - Track vocabulary changes
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-hermes]] — Category: skills-hermes
+

@@ -210,3 +210,9 @@ This creates a standing invitation to surface misalignment before it compounds.
 **Common misalignment:** Business unit A and Business unit B compete for the same customer segment. Platform team builds for internal use-cases that differ from external product direction.
 
 **Fix:** Annual strategy alignment summit across business units. Centralized OKR system with visible cross-functional connections. Dedicated alignment role (often the COO or Chief of Staff).
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

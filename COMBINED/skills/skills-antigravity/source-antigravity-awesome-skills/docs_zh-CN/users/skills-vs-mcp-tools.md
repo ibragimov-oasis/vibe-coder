@@ -94,3 +94,9 @@ Antigravity Awesome Skills 主要是一个**技能库**：
 - [AI 代理技能](ai-agent-skills.md)
 - [Codex CLI 技能](codex-cli-skills.md)
 - [Gemini CLI 技能](gemini-cli-skills.md)
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

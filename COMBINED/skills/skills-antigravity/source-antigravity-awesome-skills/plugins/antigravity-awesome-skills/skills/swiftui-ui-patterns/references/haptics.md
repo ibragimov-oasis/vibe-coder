@@ -76,3 +76,9 @@ TabView(selection: $selectedTab) { /* tabs */ }
 
 - Avoid firing multiple haptics in quick succession.
 - Do not assume haptics are available; check support.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

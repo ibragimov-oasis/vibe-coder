@@ -225,3 +225,9 @@ Fun fact: Boris does most of his coding by speaking to Claude, rather than typin
 ## Sources
 
 - [Boris Cherny (@bcherny) on X — March 30, 2026](https://x.com/bcherny/status/2038454336355999749)
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

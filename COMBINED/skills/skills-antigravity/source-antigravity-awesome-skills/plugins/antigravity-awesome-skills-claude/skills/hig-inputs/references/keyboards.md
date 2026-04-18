@@ -234,5 +234,10 @@ Date| Changes
 ---|---  
 June 9, 2025| Moved game-specific key bindings guidance to the Game controls page.  
 June 10, 2024| Added game-specific guidance and made organizational updates.  
-June 21, 2023| Updated to include guidance for visionOS.  
-  
+June 21, 2023| Updated to include guidance for visionOS.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

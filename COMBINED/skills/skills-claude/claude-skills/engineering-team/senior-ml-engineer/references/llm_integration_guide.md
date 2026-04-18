@@ -322,3 +322,9 @@ def parse_structured_response(response: str) -> StructuredResponse:
     except ValidationError as e:
         raise ValueError(f"Response validation failed: {e}")
 ```
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

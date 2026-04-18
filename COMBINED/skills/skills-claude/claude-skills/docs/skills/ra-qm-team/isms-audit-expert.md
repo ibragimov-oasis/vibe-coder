@@ -237,3 +237,9 @@ python scripts/isms_audit_scheduler.py --controls controls.csv --format markdown
 | Finding closure rate | >90% within SLA | Closed on time vs. total |
 | Major nonconformities | 0 at certification | Count per certification cycle |
 | Audit effectiveness | Incidents prevented | Security improvements implemented |
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

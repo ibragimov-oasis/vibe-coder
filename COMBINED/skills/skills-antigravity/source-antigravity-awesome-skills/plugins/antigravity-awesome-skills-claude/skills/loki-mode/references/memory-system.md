@@ -449,3 +449,9 @@ CONTINUITY.md is working memory - it references but doesn't duplicate long-term 
 - Don't forget return type annotations
 - Run contract tests before marking complete
 ```
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

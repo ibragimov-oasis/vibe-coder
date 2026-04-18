@@ -185,3 +185,9 @@ Tone:               Educational, Confident, Helpful
 Perspective:        First Person Plural (consistent)
 Consistency Score:  91/100
 ```
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

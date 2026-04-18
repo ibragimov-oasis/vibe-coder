@@ -85,3 +85,9 @@ Be specific. Include version numbers where possible.
 2. **Never guess** versions or dates — extract from fetched data
 3. **Do NOT modify any files** — read-only research
 4. **Only check for additions and removals** — do not flag description wording changes, type changes, or behavioral changes
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

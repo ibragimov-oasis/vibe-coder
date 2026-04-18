@@ -136,3 +136,9 @@ test.describe('Search Sorting', () => {
 | Price high-low | Prices in descending order |
 | Sort + filter | Sort param persists when filter applied |
 | Default sort | Relevance selected by default |
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

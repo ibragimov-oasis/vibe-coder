@@ -51,3 +51,9 @@ python scripts/a11y_scanner.py /path/to/project --report --output audit-report.m
 - Include keyboard testing in QA checklist
 - Schedule quarterly manual audit with assistive technology
 ```
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

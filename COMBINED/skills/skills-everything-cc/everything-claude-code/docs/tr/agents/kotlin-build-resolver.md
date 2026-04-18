@@ -120,3 +120,9 @@ Remaining errors: 2
 Son: `Build Status: SUCCESS/FAILED | Errors Fixed: N | Files Modified: list`
 
 Detaylı Kotlin kalıpları ve kod örnekleri için, `skill: kotlin-patterns`'a bakın.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

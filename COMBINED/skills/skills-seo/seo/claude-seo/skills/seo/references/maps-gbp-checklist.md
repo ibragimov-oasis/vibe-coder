@@ -155,3 +155,9 @@ This ensures consistent scoring regardless of which industry multipliers are act
 | Popular times | `popular_times` |
 | Posts | My Business Updates API |
 | Verified status | Not directly exposed — infer from profile completeness + Maps SERP presence, or flag as "Unknown (manual check required)" |
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-seo]] — Category: skills-seo
+

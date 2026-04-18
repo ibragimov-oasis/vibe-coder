@@ -423,3 +423,9 @@ Each item includes a plain-English explanation and recommended next steps.
 
 🎉 Anything else you'd like me to help with?
 ```
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-copilot]] — Category: skills-copilot
+

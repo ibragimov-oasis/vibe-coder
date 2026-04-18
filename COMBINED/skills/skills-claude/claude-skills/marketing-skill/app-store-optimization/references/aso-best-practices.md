@@ -408,3 +408,9 @@ E = minimum detectable effect (usually 0.05)
 | No analytics setup | Can't measure success | Firebase/Mixpanel before launch |
 | Immediate rating prompt | Negative ratings | Wait for positive experience |
 | Ignoring reviews | Declining ratings | Respond within 24-48 hours |
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

@@ -498,3 +498,9 @@ Deliver findings sweep-by-sweep. Don't dump all issues at once. Prioritize by co
 - **marketing-ideas**: USE when the client needs a new marketing angle entirely. NOT for editorial improvement.
 - **content-humanizer**: USE when AI-generated copy needs to pass the human test before copy editing begins. NOT for structural review.
 - **ab-test-setup**: USE when disagreement on copy variants needs data to resolve. NOT for the editing process itself.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

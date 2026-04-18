@@ -29,3 +29,9 @@ Present a 10-question comprehensive exam using `ask_user` with 4 choices each. R
 
 On pass (80%+): Award "CLI Wizard" title, congratulate enthusiastically!
 On fail: Show which they got wrong, encourage retry.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-copilot]] — Category: skills-copilot
+

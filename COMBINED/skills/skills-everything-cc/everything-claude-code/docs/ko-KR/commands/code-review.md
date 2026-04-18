@@ -45,3 +45,9 @@ tags:
 4. CRITICAL 또는 HIGH 이슈가 발견되면 commit을 차단합니다
 
 보안 취약점이 있는 코드는 절대 승인하지 마세요!
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

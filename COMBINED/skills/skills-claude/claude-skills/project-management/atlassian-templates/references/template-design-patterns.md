@@ -257,3 +257,9 @@ Organize templates by:
 - Tag templates with consistent labels
 - Include a "When to Use" section in each template
 - Provide examples of completed documents using the template
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

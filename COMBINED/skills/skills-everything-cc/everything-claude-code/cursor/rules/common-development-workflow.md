@@ -35,3 +35,9 @@ The Feature Implementation Workflow describes the development pipeline: planning
    - Detailed commit messages
    - Follow conventional commits format
    - See the git workflow rule for commit message format and PR process
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

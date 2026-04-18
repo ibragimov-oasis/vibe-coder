@@ -607,3 +607,9 @@ If tasks are timing out:
 - Check if tools are returning too much data
 - Verify pagination is working correctly
 - Consider simplifying complex questions
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

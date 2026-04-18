@@ -173,3 +173,9 @@ This is bad because:
 - No acceptance criteria
 - No scope boundaries
 - No description of current vs desired behavior
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-development]] — Category: skills-development
+

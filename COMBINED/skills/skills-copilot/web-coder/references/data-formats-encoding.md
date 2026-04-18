@@ -416,3 +416,9 @@ set.delete(1);
 - [Unicode Standard](https://unicode.org/standard/standard.html)
 - [MDN Character Encodings](https://developer.mozilla.org/en-US/docs/Glossary/Character_encoding)
 - [MIME Types](https://developer.mozilla.org/en-US/docs/Web/HTTP/Basics_of_HTTP/MIME_types)
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-copilot]] — Category: skills-copilot
+

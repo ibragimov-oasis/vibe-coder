@@ -195,3 +195,9 @@ WE  inverted R/W?
 * <https://bread80.com/2020/08/10/the-ben-eater-eeprom-programmer-28c256-and-software-data-protection/>
 
 ---
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-copilot]] — Category: skills-copilot
+

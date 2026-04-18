@@ -171,5 +171,10 @@ December 16, 2025| Added guidance for presenting menus with breakthrough effects
 July 28, 2025| Added guidance for representing menu items with icons.  
 June 10, 2024| Added guidance for in-game menus and included game-specific examples.  
 June 21, 2023| Updated to include guidance for visionOS.  
-September 14, 2022| Added guidelines for using the small, medium, and large menu layouts in iPadOS.  
-  
+September 14, 2022| Added guidelines for using the small, medium, and large menu layouts in iPadOS.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

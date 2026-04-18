@@ -571,3 +571,9 @@ async def test_create_user(client):
 - **Ignoring Sessions**: Not properly managing database sessions
 - **No Testing**: Skipping integration tests
 - **Tight Coupling**: Direct database access in routes
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

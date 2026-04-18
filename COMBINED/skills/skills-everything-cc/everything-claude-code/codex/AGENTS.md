@@ -101,3 +101,9 @@ Since Codex lacks hooks, security enforcement is instruction-based:
 3. Run `npm audit` / `pip audit` before committing
 4. Review `git diff` before every push
 5. Use `sandbox_mode = "workspace-write"` in config
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

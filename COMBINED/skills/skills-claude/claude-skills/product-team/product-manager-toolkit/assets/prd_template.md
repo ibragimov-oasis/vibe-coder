@@ -137,3 +137,9 @@ The following items are explicitly NOT included in this release:
 | Version | Date | Author | Changes |
 |---------|------|--------|---------|
 | 0.1 | [Date] | [Name] | Initial draft |
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

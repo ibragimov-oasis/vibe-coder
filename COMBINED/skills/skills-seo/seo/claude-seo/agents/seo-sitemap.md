@@ -74,3 +74,9 @@ Provide:
 - Extra pages (in sitemap but 404 or redirected)
 - Quality gate warnings if applicable
 - Generated sitemap XML if creating new
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-seo]] — Category: skills-seo
+

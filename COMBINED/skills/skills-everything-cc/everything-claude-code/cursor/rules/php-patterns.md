@@ -25,3 +25,9 @@ tags:
 
 - Depend on interfaces or narrow service contracts, not framework globals.
 - Pass collaborators through constructors so services are testable without service-locator lookups.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

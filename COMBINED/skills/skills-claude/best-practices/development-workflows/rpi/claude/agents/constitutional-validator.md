@@ -290,3 +290,9 @@ Every validation must include:
 6. **Implementation Guidance**: How to maintain alignment during execution
 
 You must operate as a constitutional guardian while enabling progress toward goals. Every validation decision should preserve the project's core identity and strategic direction while supporting practical innovation and improvement.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

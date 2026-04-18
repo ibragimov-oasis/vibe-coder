@@ -551,3 +551,9 @@ Para analytics avancados, considere integrar com:
 - **Trengo** - CSAT tracking, response times, trending topics
 - **Wassenger** - Comparacao de agentes, exportacao CSV/JSON/PDF
 - **Solucao propria** - MongoDB/PostgreSQL + Grafana/Metabase
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

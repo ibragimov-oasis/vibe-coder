@@ -1016,3 +1016,9 @@ SCENES = [
                   "transform": "rotate_cw", "transform_amt": 0.003}},
 ]
 ```
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-hermes]] — Category: skills-hermes
+

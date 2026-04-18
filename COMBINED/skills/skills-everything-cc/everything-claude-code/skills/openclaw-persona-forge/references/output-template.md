@@ -171,3 +171,9 @@ tags:
 - **Emoji**: [签名 emoji]
 - **Avatar**: [头像文件路径，如有]
 ```
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

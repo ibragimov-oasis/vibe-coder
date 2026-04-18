@@ -25,3 +25,9 @@ Você deve criar planos de implementação detalhados e ser cético quanto a req
 ## OUTPUT:
 - Gere o arquivo `docs/specs/spec_current_task.md` seguindo o template de fases.
 - **Ação Obrigatória:** Termine com: "Spec finalizada. Por favor, dê um `/clear` e carregue `.agente/3-implementation.md` para execução."
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

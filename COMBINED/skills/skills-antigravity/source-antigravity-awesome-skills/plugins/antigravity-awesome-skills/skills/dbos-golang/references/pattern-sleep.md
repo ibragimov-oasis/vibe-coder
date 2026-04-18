@@ -53,3 +53,9 @@ func scheduledTask(ctx dbos.DBOSContext, task string) (string, error) {
 ```
 
 Reference: [Durable Sleep](https://docs.dbos.dev/golang/tutorials/workflow-tutorial#durable-sleep)
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

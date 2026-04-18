@@ -577,3 +577,9 @@ Return ONLY the JSON array, no additional text.
 | Complex problem solving | Tree of Thoughts |
 | Factual Q&A | RAG |
 | Prompt generation | Meta-Prompting |
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

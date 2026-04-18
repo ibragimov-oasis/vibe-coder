@@ -523,5 +523,10 @@ See [Guidelines for Using Apple Trademarks](https://www.apple.com/legal/intellec
 Date| Changes  
 ---|---  
 June 5, 2023| Removed Add to Siri guidance. Added references to the new [App Shortcuts](https://developer.apple.com/design/human-interface-guidelines/app-shortcuts) page.  
-May 2, 2023| Consolidated guidance into one page.  
-  
+May 2, 2023| Consolidated guidance into one page.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

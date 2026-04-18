@@ -679,3 +679,9 @@ lm += gen("age", regex=r"[0-9]{2}", max_tokens=10)  # max_tokens unnecessary
 - **Token Healing Paper**: https://arxiv.org/abs/2306.17648
 - **Guidance Docs**: https://guidance.readthedocs.io
 - **GitHub**: https://github.com/guidance-ai/guidance
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-hermes]] — Category: skills-hermes
+

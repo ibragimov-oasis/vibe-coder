@@ -123,3 +123,9 @@ test.describe('Email Verification', () => {
 | Expired token | Error heading + resend link |
 | Invalid token | Generic error heading |
 | Already verified | "Already verified" with login link |
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

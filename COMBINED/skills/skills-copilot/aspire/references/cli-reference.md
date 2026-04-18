@@ -312,3 +312,9 @@ The `dotnet` CLI can perform some Aspire tasks:
 | N/A                         | `dotnet test ./Tests`            |
 
 The Aspire CLI adds value with `publish`, `deploy`, `add`, `mcp`, `config`, `cache`, `do`, and `update` — commands that have no direct `dotnet` equivalent.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-copilot]] — Category: skills-copilot
+

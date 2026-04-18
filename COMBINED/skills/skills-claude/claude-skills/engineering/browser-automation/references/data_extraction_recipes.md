@@ -585,3 +585,9 @@ def to_json(items, file_path, indent=2):
     with open(file_path, "w") as f:
         json.dump(items, f, indent=indent, ensure_ascii=False)
 ```
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

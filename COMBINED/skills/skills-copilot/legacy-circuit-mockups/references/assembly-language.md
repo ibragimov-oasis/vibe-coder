@@ -231,3 +231,9 @@ loop:
 **Document Scope:** 6502 assembly stored in AT28C256 EEPROM
 **Audience:** Retrocomputing, SBC designers, embedded hobbyists
 **Status:** Stable reference
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-copilot]] — Category: skills-copilot
+

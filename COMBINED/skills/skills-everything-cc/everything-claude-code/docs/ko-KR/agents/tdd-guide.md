@@ -103,3 +103,9 @@ TDD 흐름에 eval 주도 개발 통합:
 4. 테스트와 eval 재실행; pass@1과 pass@3 보고.
 
 릴리스 핵심 경로는 merge 전에 pass^3 안정성을 목표로 해야 합니다.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

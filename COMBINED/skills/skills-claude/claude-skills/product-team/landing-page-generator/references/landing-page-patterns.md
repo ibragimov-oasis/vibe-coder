@@ -103,3 +103,9 @@ Example structure:
 
 Example structure:
 "Get [specific result] in [timeframe] without [common pain]."
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

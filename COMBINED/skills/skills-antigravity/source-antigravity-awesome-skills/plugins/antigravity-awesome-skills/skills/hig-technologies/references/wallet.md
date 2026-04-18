@@ -420,5 +420,10 @@ December 18, 2024| Added guidance for the poster event ticket style.
 September 12, 2023| Added guidance for helping people add orders to Wallet.  
 February 20, 2023| Enhanced guidance for presenting order-tracking information and added artwork.  
 November 30, 2022| Added guidance to include a carrier name in status information for a shipping fulfillment.  
-September 14, 2022| Added guidelines for using Verify with Wallet, updated guidance on providing shipping status values and descriptions, and consolidated guidance into one page.  
-  
+September 14, 2022| Added guidelines for using Verify with Wallet, updated guidance on providing shipping status values and descriptions, and consolidated guidance into one page.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

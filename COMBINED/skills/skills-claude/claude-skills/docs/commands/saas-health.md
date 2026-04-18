@@ -43,3 +43,9 @@ Calculate SaaS financial health metrics from raw business numbers, benchmark aga
 
 ## Related Commands
 - `/financial-health` — Traditional financial analysis (ratios, DCF, budgets)
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

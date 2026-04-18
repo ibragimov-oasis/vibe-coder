@@ -19,3 +19,9 @@ Read the skill and answer these questions based SOLELY on what the skill says:
 6. Is it ever acceptable to skip the process for simple bugs?
 
 Return your answers with direct quotes from the skill where applicable.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-superpowers]] — Category: skills-superpowers
+

@@ -76,3 +76,9 @@ LazyVGrid(
 
 - Avoid heavy overlays in every grid cell; it can be expensive.
 - Don’t nest grids inside other grids without a clear reason.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

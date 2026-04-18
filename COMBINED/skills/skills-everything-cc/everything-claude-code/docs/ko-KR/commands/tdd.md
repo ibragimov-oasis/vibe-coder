@@ -328,3 +328,9 @@ PASS: TDD 세션 완료!
 
 그리고 `tdd-workflow` 스킬을 참조할 수 있습니다:
 `~/COMBINED/workspace-config/claude/skills/tdd-workflow/`
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

@@ -170,3 +170,9 @@ Google Stitch is an experimental AI UI generator powered by Gemini 2.5 Flash tha
 ---
 
 **Note:** This skill is designed to help you create effective prompts for Stitch. The quality of your output depends on the specificity and clarity of your prompts. Use the templates and examples as starting points, then customize for your unique requirements.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

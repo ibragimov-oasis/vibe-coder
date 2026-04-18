@@ -17,3 +17,9 @@ tags:
 8. **Fixtures over globals** — share state via `test.extend()`, not module-level variables
 9. **One behavior per test** — multiple related `expect()` calls are fine
 10. **Mock external services only** — never mock your own app; mock third-party APIs, payment gateways, email
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

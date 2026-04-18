@@ -654,3 +654,9 @@ This glossary contains comprehensive web terms categorized across 15 domains:
 - [XQuery](https://developer.mozilla.org/en-US/docs/Glossary/XQuery)
 - [XSLT](https://developer.mozilla.org/en-US/docs/Glossary/XSLT)
 - [Zstandard compression](https://developer.mozilla.org/en-US/docs/Glossary/Zstandard_compression)
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-copilot]] — Category: skills-copilot
+

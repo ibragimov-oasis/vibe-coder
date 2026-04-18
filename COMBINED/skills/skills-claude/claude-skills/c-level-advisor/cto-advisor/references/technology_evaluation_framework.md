@@ -375,3 +375,9 @@ Always document:
 5. **How** success will be measured
 
 Use Architecture Decision Records (ADRs) for significant technology choices.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

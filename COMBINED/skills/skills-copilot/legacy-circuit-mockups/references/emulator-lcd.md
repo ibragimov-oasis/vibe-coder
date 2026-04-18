@@ -271,3 +271,9 @@ This spec intentionally prioritizes **firmware-visible behavior** over electrica
 * ROM and monitor development
 * Automated testing of LCD output
 * Educational CPU projects
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-copilot]] — Category: skills-copilot
+

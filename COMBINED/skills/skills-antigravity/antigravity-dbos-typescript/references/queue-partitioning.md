@@ -64,3 +64,9 @@ const concurrencyManager = DBOS.registerWorkflow(concurrencyManagerFn);
 ```
 
 Reference: [Partitioning Queues](https://docs.dbos.dev/typescript/tutorials/queue-tutorial#partitioning-queues)
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

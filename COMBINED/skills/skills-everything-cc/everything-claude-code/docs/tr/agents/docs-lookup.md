@@ -70,3 +70,9 @@ Girdi: "Supabase auth metotları nelerdir?"
 Aksiyon: resolve-library-id aracını libraryName "Supabase", query "Supabase auth methods" ile çağırın; ardından seçilen libraryId ile query-docs aracını çağırın; metotları listeleyin ve dokümanlardan minimal örnekler gösterin.
 
 Çıktı: Kısa kod örnekleriyle auth metotlarının listesi ve detayların güncel Supabase dokümanlarından olduğuna dair bir not.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

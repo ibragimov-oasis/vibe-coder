@@ -176,5 +176,10 @@ Date| Changes
 December 16, 2025| Added guidance for spatial photos and spatial scenes in visionOS.  
 December 5, 2023| Clarified guidance on choosing a resolution for a rasterized image in a visionOS app.  
 June 21, 2023| Updated to include guidance for visionOS.  
-September 14, 2022| Added specifications for Apple Watch Ultra.  
-  
+September 14, 2022| Added specifications for Apple Watch Ultra.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

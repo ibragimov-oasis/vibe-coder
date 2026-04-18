@@ -47,3 +47,9 @@ python3 marketing-skill/ad-creative/scripts/ad_copy_validator.py <file>
 - Never load all 42 skills at once — route to 1-2 per request
 - Check marketing-context.md before starting
 - Use Python tools for scoring and validation, not manual judgment
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

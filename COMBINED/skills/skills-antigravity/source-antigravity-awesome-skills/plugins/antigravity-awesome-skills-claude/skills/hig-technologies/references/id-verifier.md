@@ -73,5 +73,10 @@ tags:
 
 Date| Changes  
 ---|---  
-September 12, 2023| New page.  
-  
+September 12, 2023| New page.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

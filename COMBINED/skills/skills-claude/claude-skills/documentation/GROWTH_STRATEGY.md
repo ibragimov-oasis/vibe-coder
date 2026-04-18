@@ -1097,3 +1097,9 @@ echo "✅ Documentation check passed"
 ---
 
 **This is a living document.** Update quarterly or as needed when processes change.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

@@ -68,3 +68,9 @@ When an action item is done, update the entry in decisions.md:
 ```
 
 Do not delete completed items. The history is the record.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

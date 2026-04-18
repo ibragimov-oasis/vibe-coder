@@ -69,3 +69,9 @@ tags:
 | 构建工具配置错误 | 读取配置文件；与有效的默认配置进行比较 |
 
 为了安全起见，一次只修复一个错误。优先使用最小的改动，而不是重构。
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

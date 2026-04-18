@@ -43,3 +43,9 @@ tags:
 ## Commit Style
 - Use conventional commits such as `feat(skills):`, `fix(hooks):`, or `docs:`.
 - Keep changes modular and explain user-facing impact in the PR summary.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

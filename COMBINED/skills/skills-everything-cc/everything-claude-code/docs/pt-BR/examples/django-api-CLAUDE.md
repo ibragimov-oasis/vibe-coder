@@ -313,3 +313,9 @@ pytest --lf
 - Branches de feature a partir da `main`, PRs obrigatórios
 - CI: ruff (lint + format), mypy (types), pytest (tests), safety (dep check)
 - Deploy: imagem Docker, gerenciada via Kubernetes ou Railway
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

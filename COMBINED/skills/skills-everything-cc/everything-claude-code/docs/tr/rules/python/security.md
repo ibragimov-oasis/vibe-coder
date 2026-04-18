@@ -32,3 +32,9 @@ api_key = os.environ["OPENAI_API_KEY"]  # Eksikse KeyError hatası verir
 ## Referans
 
 Django'ya özgü güvenlik kuralları için (eğer uygulanabilirse) skill: `django-security` dosyasına bakın.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

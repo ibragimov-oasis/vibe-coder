@@ -28,3 +28,9 @@ tags:
 
 * 在结束涉及广泛 C# 更改的会话前，运行一次最终的 `dotnet build`
 * 当 `appsettings*.json` 文件被修改时发出警告，以防敏感信息被提交
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

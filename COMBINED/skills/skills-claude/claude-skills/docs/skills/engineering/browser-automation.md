@@ -279,3 +279,9 @@ All scripts are stdlib-only. Run `python3 <script> --help` for full usage.
 - **api-test-suite-builder** — When the website has a public API, hit the API directly instead of scraping the rendered page. Faster, more reliable, less detectable.
 - **performance-profiler** — If your automation scripts are slow, profile the bottlenecks before adding concurrency.
 - **env-secrets-manager** — For securely managing credentials used in authenticated automation workflows.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

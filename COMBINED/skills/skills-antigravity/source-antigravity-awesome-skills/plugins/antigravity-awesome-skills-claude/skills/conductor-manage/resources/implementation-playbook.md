@@ -1125,3 +1125,9 @@ Examples:
 6. **PRESERVE history** - Git commits are never modified or deleted
 7. **WARN for in-progress** - Extra caution when modifying active work
 8. **OFFER alternatives** - Suggest archive before delete
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

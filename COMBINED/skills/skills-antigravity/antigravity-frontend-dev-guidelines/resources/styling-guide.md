@@ -433,3 +433,9 @@ const styles = {
 **See Also:**
 - [component-patterns.md](component-patterns.md) - Component structure
 - [complete-examples.md](complete-examples.md) - Full styling examples
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

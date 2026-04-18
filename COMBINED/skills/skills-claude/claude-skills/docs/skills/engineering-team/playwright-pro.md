@@ -137,3 +137,9 @@ See `reference/` directory for:
 - `flaky-tests.md` — Diagnosis commands and quick fixes
 
 See `templates/README.md` for the full template index.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

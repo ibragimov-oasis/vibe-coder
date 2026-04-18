@@ -421,3 +421,9 @@ Reference: `references/portfolio-kpis.md` for full definitions and measurement g
 
 - **Product Strategist** (`product-team/product-strategist/`) — Product OKRs align with portfolio objectives
 - **Scrum Master** (`project-management/scrum-master/`) — Sprint velocity data feeds project health dashboards
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

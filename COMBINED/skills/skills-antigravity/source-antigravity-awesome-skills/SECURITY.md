@@ -26,3 +26,9 @@ We aim to acknowledge security reports within 72 hours.
 
 Please read our [Security Guardrails](docs/contributors/security-guardrails.md).
 All offensive skills are strictly for **authorized educational and professional use only**.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

@@ -24,3 +24,9 @@ tags:
 ## Stop Hooks
 
 - **console.log audit**: Session bitmeden önce değiştirilen tüm dosyalarda `console.log` kontrolü yap
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

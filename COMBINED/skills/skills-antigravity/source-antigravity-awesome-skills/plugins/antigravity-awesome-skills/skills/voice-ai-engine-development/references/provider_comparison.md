@@ -520,3 +520,9 @@ transcriber = factory.create_transcriber(config)
 agent = factory.create_agent(config)
 synthesizer = factory.create_synthesizer(config)
 ```
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

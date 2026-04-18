@@ -320,3 +320,9 @@ Detailed information about datasets used.
 .experiment-details, .results-table, .ablation-results { margin: 1em 0; }
 .reproducibility { background: #f5f5f5; padding: 1.5em; border-radius: 8px; margin: 2em 0; }
 </style>
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

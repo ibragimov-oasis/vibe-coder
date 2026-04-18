@@ -78,3 +78,9 @@ project-name/
 - Leverage static generation
 - Add islands only where needed
 - Optimize images with Astro Image
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

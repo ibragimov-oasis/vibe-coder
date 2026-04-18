@@ -481,3 +481,9 @@ Submission Status Report — 2024-11-01
 | [fda-consultant-specialist](https://github.com/alirezarezvani/claude-skills/tree/main/ra-qm-team/fda-consultant-specialist) | FDA submission deep expertise |
 | [quality-manager-qms-iso13485](https://github.com/alirezarezvani/claude-skills/tree/main/ra-qm-team/quality-manager-qms-iso13485) | QMS for regulatory compliance |
 | [risk-management-specialist](https://github.com/alirezarezvani/claude-skills/tree/main/ra-qm-team/risk-management-specialist) | ISO 14971 risk management |
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

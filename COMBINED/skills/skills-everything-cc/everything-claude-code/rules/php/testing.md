@@ -41,3 +41,9 @@ If the project uses Inertia.js, prefer `assertInertia` with `AssertableInertia` 
 
 See skill: `tdd-workflow` for the repo-wide RED -> GREEN -> REFACTOR loop.
 See skill: `laravel-tdd` for Laravel-specific testing patterns (PHPUnit and Pest).
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

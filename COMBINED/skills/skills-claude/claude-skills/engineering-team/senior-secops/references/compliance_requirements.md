@@ -797,3 +797,9 @@ evidence/
 │   │   └── acknowledgments/
 │   └── index.json
 ```
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

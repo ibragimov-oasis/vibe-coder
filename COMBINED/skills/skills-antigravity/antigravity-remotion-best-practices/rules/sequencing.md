@@ -107,3 +107,9 @@ Sequences can be nested for complex timing:
   </Sequence>
 </Sequence>
 ```
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

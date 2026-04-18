@@ -46,3 +46,9 @@ where sku is not null;
 ```
 
 Reference: [Partial Indexes](https://www.postgresql.org/docs/current/indexes-partial.html)
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

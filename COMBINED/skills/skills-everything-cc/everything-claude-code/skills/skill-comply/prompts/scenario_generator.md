@@ -67,3 +67,9 @@ Expected behavioral sequence:
 ---
 {spec_yaml}
 ---
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

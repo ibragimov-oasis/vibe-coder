@@ -80,3 +80,9 @@ public override void OnFrameworkInitializationCompleted()
 
 > [!TIP]
 > Use `ActivatorUtilities.CreateInstance` when you need to manually instantiate a class while still resolving its dependencies from the `IServiceProvider`.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

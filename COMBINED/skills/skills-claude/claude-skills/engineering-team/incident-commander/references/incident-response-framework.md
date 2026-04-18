@@ -377,3 +377,9 @@ Postmortem is mandatory for SEV1 and SEV2. Optional but recommended for SEV3. Ne
 - **Blameless standard:** The postmortem examines systems, processes, and tools -- not individual performance. "Why did the system allow this?" not "Why did [person] do this?"
 - **Required sections:** Timeline (from scribe's log), root cause analysis (using 5 Whys or fault tree), impact summary (users, revenue, duration), what went well, what went poorly, action items with owners and due dates.
 - **Action items and recurrence:** Every postmortem produces 3-7 concrete action items. Items without owners and due dates are not action items. Teams should close 80%+ within 30 days. If the same root cause appears in two postmortems within 6 months, escalate to engineering leadership as a systemic reliability investment area.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

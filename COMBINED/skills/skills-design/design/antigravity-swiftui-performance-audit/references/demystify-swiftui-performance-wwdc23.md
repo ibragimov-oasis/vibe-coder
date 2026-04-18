@@ -51,3 +51,9 @@ Context: WWDC23 session on building a mental model for SwiftUI performance and t
 
 - Use Instruments for hangs and hitches.
 - Use `_printChanges` to validate dependency assumptions during debug.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-design]] — Category: skills-design
+

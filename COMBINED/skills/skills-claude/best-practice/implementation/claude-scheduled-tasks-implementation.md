@@ -65,3 +65,9 @@ $ claude
 ## ![How to Implement](../!/tags/how-to-implement.svg)
 
 `/loop` is a built-in Claude Code skill — no setup required. It uses the cron tools (`CronCreate`, `CronList`, `CronDelete`) under the hood to manage recurring schedules.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

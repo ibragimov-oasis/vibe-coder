@@ -209,3 +209,9 @@ Current as of March 2026. INP replaced FID on March 12, 2024.
 | **TTFB** | ≤ 800ms | 800–1,800ms | > 1,800ms |
 
 FID was fully removed from Chrome tools (CrUX, PSI, Lighthouse) on September 9, 2024. Never reference FID in outputs.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-seo]] — Category: skills-seo
+

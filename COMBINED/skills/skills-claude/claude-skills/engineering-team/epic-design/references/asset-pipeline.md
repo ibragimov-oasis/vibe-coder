@@ -140,3 +140,9 @@ Whether the image came in clean or had its background resolved, always apply:
   background-color        → makes the bounding box visible
 */
 ```
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

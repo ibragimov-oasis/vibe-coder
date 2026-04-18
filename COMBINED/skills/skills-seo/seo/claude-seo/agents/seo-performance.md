@@ -91,3 +91,9 @@ Provide:
 - Core Web Vitals status (pass/fail per metric)
 - Specific bottlenecks identified
 - Prioritized recommendations with expected impact
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-seo]] — Category: skills-seo
+

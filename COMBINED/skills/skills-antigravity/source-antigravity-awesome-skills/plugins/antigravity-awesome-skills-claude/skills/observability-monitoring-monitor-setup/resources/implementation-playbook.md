@@ -510,3 +510,9 @@ module "alertmanager" {
 8. **Integration Guide**: Service instrumentation instructions
 
 Focus on creating a monitoring system that provides actionable insights, reduces MTTR, and enables proactive issue detection.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

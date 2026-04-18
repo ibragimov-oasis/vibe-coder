@@ -119,3 +119,9 @@ PASS: 导入完成！
 
 运行 /instinct-status 以查看所有本能。
 ```
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

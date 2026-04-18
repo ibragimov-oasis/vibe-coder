@@ -50,3 +50,9 @@ export default function RootLayout({ children }) {
   )
 }
 ```
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

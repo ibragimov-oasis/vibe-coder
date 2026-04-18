@@ -442,3 +442,9 @@ Quality gates are enforced by `autonomy/CONSTITUTION.md`:
 - `SPEC_BEFORE_CODE`: Implementation tasks require spec reference
 - `TASK_HAS_COMMIT`: Completed tasks have git commit SHA
 - `QUALITY_GATES_PASSED`: Completed tasks passed all quality checks
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

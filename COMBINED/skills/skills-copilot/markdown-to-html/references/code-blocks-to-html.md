@@ -170,3 +170,9 @@ graph TD
 
 * No `language-*` class appears here because **no language identifier** was provided.
 * The inner triple backticks are preserved **as literal text** inside `<code>`.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-copilot]] — Category: skills-copilot
+

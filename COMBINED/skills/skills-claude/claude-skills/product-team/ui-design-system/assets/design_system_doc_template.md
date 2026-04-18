@@ -185,3 +185,9 @@ The following principles guide all design decisions in this system:
 - File bug reports with reproduction steps and screenshots
 - Tag with component name and severity
 - Include browser/OS information for rendering issues
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

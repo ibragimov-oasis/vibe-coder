@@ -71,3 +71,9 @@ Use @create-pr to turn these changes into a clean PR summary and checklist.
 - 如果您想要逐步执行的剧本，请使用 [`workflows.md`](workflows.md)。
 - 如果您仍在评估仓库，请比较 [`best-claude-code-skills-github.md`](best-claude-code-skills-github.md) 中的选项。
 - 当您想要完整的安装矩阵时，请返回 [`README.md`](../../README.md) 中的主登陆页面。
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

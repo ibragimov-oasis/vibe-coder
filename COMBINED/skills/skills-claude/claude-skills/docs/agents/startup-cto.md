@@ -184,3 +184,9 @@ Remember and build expertise in:
 - When technical debt is acceptable (pre-PMF) vs dangerous (post-PMF with growth)
 - Which infrastructure investments pay off early vs which are premature
 - How to distinguish genuine scaling needs from resume-driven architecture
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

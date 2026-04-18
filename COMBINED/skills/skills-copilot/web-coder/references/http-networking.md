@@ -543,3 +543,9 @@ data: Custom message data
 - [HTTP/2 Spec](https://http2.github.io/)
 - [HTTP/3 Explained](https://http3-explained.haxx.se/)
 - [REST API Tutorial](https://restfulapi.net/)
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-copilot]] — Category: skills-copilot
+

@@ -34,3 +34,9 @@ tags:
 - Define decision metrics before analysis to avoid post-hoc bias.
 - Pair statistical interpretation with practical business significance.
 - Use guardrail metrics to prevent local optimization mistakes.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

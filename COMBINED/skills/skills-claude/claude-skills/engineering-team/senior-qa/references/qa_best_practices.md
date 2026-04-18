@@ -969,3 +969,9 @@ Track metrics over time to identify trends:
 7. **Maintain tests** - Reduce duplication, update with code changes
 8. **Debug systematically** - Use debug tools, log strategically
 9. **Measure quality** - Track coverage, pass rate, execution time
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

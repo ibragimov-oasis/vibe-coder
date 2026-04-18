@@ -36,3 +36,9 @@ python3 business-growth/revenue-operations/scripts/pipeline_analyzer.py --help
 
 - Load only 1-2 skills per request — don't bulk-load
 - Use Python tools for scoring and metrics
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

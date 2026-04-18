@@ -89,3 +89,9 @@ Leverage Claude Code's built-in capabilities:
 - Page objects: `*.page.ts` in a `pages/` directory
 - Fixtures: `fixtures.ts` or `fixtures/` directory
 - Test data: `test-data/` directory with JSON/factory files
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

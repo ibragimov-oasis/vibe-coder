@@ -71,3 +71,9 @@ Reads results history, checks out the branch, and continues where you left off.
 **One change per experiment. Measure everything. Compound improvements.**
 
 The agent never modifies the evaluator. The evaluator is ground truth.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

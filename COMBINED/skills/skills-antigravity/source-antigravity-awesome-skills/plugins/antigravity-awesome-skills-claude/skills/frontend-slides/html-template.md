@@ -352,3 +352,9 @@ Multiple presentations in one project:
 [name].html
 [name]-assets/
 ```
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

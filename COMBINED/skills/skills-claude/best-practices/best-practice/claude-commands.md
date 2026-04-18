@@ -123,3 +123,9 @@ Bundled skills such as `/debug` can also appear in the slash-command menu, but t
 - [Claude Code Slash Commands](https://code.claude.com/docs/en/slash-commands)
 - [Claude Code Interactive Mode](https://code.claude.com/docs/en/interactive-mode)
 - [Claude Code CHANGELOG](https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md)
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

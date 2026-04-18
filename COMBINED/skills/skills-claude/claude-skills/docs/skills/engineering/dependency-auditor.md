@@ -351,3 +351,9 @@ For detailed usage instructions, see [README.md](https://github.com/alirezarezva
 ---
 
 *This skill provides comprehensive dependency management capabilities essential for maintaining secure, compliant, and efficient software projects. Regular use helps teams stay ahead of security threats, maintain legal compliance, and optimize their dependency ecosystems.*
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

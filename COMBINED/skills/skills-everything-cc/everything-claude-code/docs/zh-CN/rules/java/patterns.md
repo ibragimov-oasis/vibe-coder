@@ -149,3 +149,9 @@ public record ApiResponse<T>(boolean success, T data, String error) {
 
 有关 Spring Boot 架构模式，请参见技能：`springboot-patterns`。
 有关实体设计和查询优化，请参见技能：`jpa-patterns`。
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

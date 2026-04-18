@@ -121,3 +121,9 @@ npx eslint . --fix
 ***
 
 **记住**：修复错误，验证构建通过，然后继续。速度和精确度胜过完美。
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

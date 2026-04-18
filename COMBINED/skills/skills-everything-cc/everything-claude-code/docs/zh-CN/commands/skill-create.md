@@ -178,3 +178,9 @@ src/
 ***
 
 *属于 [Everything Claude Code](https://github.com/affaan-m/everything-claude-code)*
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

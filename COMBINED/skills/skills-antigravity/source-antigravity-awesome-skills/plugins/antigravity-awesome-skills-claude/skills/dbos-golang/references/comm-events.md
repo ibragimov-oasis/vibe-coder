@@ -70,3 +70,9 @@ url, _ := dbos.GetEventstring, "paymentURL", 300*time.Second)
 `GetEvent` blocks until the event is set or the timeout expires. It returns the zero value of the type if the timeout is reached.
 
 Reference: [Workflow Events](https://docs.dbos.dev/golang/tutorials/workflow-communication#workflow-events)
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

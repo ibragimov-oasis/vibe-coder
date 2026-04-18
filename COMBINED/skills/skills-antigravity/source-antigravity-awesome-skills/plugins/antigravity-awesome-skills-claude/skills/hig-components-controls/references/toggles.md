@@ -127,5 +127,10 @@ tags:
   - source/skills-antigravity
 ---|---  
 March 29, 2024| Enhanced guidance for using switches in macOS apps, clarified when a checkbox has a title, and added artwork for radio buttons.  
-September 12, 2023| Updated artwork.  
-  
+September 12, 2023| Updated artwork.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

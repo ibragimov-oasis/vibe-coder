@@ -457,3 +457,9 @@ Provide these details for architecture design:
 | `references/architecture_patterns.md` | 6 patterns: serverless, GKE microservices, three-tier, data pipeline, ML platform, multi-region |
 | `references/service_selection.md` | Decision matrices for compute, database, storage, messaging |
 | `references/best_practices.md` | Naming, labels, IAM, networking, monitoring, disaster recovery |
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

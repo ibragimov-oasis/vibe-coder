@@ -221,3 +221,9 @@ uv run scripts/paper_manager.py link --help
 - [Usage examples](../examples/example_usage.md)
 - [HF Paper Pages](https://huggingface.co/papers)
 - [tfrere's template](https://huggingface.co/spaces/tfrere/research-article-template)
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

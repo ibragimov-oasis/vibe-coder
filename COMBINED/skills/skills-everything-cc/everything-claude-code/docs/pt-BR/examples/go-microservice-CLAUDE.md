@@ -272,3 +272,9 @@ staticcheck ./...
 - Branches de feature a partir da `main`, PRs obrigatórios
 - CI: `go vet`, `staticcheck`, `go test -race`, `golangci-lint`
 - Deploy: imagem Docker gerada no CI e publicada em Kubernetes
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

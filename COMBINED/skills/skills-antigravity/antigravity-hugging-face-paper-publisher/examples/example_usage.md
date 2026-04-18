@@ -331,3 +331,9 @@ uv run scripts/paper_manager.py check --arxiv-id "https://arxiv.org/abs/2301.123
 - Check out [tfrere's research template](https://huggingface.co/spaces/tfrere/research-article-template)
 - Browse [papers on HF](https://huggingface.co/papers)
 - Learn about [model cards](https://huggingface.co/docs/hub/en/model-cards)
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

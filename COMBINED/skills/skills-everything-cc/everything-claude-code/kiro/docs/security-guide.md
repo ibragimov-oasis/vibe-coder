@@ -501,3 +501,9 @@ For production:
 Security in agentic workflows requires vigilance and layered defenses. By following these best practices—reviewing agent output, using security-focused agents and hooks, maintaining security steering files, and securing MCP servers—you can leverage the power of AI agents while maintaining strong security posture.
 
 Remember: agents are tools that amplify your capabilities, but security remains your responsibility. Trust but verify, use defense in depth, and always prioritize security in your development workflow.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

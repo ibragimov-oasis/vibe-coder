@@ -196,3 +196,9 @@ evolved_from:
 [基于聚类本能生成的内容]
 
 ```
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

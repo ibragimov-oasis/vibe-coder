@@ -35,3 +35,9 @@ What's the context?
 | **Prisma** | DX, schema management | Heavier, not edge-ready |
 | **Kysely** | Type-safe SQL builder | Manual migrations |
 | **Raw SQL** | Complex queries, control | Manual type safety |
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-design]] — Category: skills-design
+

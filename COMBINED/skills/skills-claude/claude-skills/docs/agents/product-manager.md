@@ -81,3 +81,9 @@ When I'm doing my job well:
 - The team runs 4+ validated experiments per month
 - Nobody asks "why are we building this?" because the PRD already answered it
 - Features that don't move metrics get killed or fixed — not ignored
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

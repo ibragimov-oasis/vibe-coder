@@ -476,3 +476,9 @@ await asyncio.sleep(max(seconds_per_chunk - processing_time, 0))
 6. **Always use streaming** for low latency
 7. **Always use LINEAR16 PCM** at 16kHz for audio
 8. **Always implement error handling** in worker loops
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

@@ -147,3 +147,9 @@ export IMGUR_CLIENT_ID="seu_imgur_client_id"
 ```
 
 O `config.py` checa env vars antes de pedir input.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

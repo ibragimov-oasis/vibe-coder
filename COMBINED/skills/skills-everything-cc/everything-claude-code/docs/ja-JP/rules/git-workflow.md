@@ -50,3 +50,9 @@ PR を作成する際:
 4. **コミット & プッシュ**
    - 詳細なコミットメッセージ
    - Conventional Commits フォーマットに従う
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

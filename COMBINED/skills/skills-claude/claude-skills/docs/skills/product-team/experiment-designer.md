@@ -117,3 +117,9 @@ python3 scripts/sample_size_calculator.py \
   --alpha 0.05 \
   --power 0.8
 ```
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

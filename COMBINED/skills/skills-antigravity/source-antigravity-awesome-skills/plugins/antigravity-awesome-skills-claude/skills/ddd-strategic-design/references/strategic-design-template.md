@@ -27,3 +27,9 @@ tags:
 | --- | --- | --- |
 | Order | Confirmed purchase request | Checkout |
 | Reservation | Temporary inventory hold | Fulfillment |
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

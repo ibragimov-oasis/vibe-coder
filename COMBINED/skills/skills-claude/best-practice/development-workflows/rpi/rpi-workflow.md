@@ -106,3 +106,9 @@ rpi/{feature-slug}/
 | `/rpi:research` | requirement-parser, product-manager, Explore, senior-software-engineer, technical-cto-advisor, documentation-analyst-writer |
 | `/rpi:plan` | senior-software-engineer, product-manager, ux-designer, documentation-analyst-writer |
 | `/rpi:implement` | Explore, senior-software-engineer, code-reviewer |
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

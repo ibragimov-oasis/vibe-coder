@@ -70,3 +70,9 @@ npm run build  # or appropriate build command
 - [ ] Security concerns addressed
 - [ ] Tests pass and cover changes
 - [ ] Documentation updated if needed
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-omc]] — Category: skills-omc
+

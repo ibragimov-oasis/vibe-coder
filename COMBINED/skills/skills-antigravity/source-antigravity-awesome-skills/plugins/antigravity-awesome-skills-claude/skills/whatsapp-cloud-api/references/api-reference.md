@@ -571,3 +571,9 @@ Desde julho 2025, o modelo e **por mensagem** (nao mais por conversa).
 - Teste em sandbox antes de atualizar versao em producao
 - Use variaveis de ambiente para a versao da API (facil rollback)
 - Mantenha logs de chamadas para debug de compatibilidade
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

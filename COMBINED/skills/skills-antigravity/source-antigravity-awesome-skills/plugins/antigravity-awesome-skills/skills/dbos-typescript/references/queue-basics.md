@@ -60,3 +60,9 @@ const processAllTasks = DBOS.registerWorkflow(processAllTasksFn);
 Queues process workflows in FIFO order. All queues should be created before `DBOS.launch()`.
 
 Reference: [DBOS Queues](https://docs.dbos.dev/typescript/tutorials/queue-tutorial)
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

@@ -150,3 +150,9 @@ return fmt.Errorf("get user %s: %w", userID, err)
 
 - 에이전트: `agents/go-reviewer.md`
 - 스킬: `skills/golang-patterns/`, `skills/golang-testing/`
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

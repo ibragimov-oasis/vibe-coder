@@ -87,3 +87,9 @@ If using NVM, you must use absolute paths to both node and the script:
 - Built with the MCP protocol
 - Communication via stdio transport
 - Lightweight proxy to Perplexity API
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-awesome-claude]] — Category: skills-awesome-claude
+

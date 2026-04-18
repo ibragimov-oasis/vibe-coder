@@ -187,3 +187,9 @@ This issue is part of broader Oracle → PostgreSQL migration challenges:
 - String concatenation operator differences (`||` works in both, but behavior differs)
 - Numeric precision and rounding differences
 - NULL handling in comparisons
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-copilot]] — Category: skills-copilot
+

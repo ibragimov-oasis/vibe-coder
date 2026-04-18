@@ -406,3 +406,9 @@ Enter market when ALL true:
 - [ ] Local event participation
 
 **Validation:** Native speaker review of ALL localized content before launch
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

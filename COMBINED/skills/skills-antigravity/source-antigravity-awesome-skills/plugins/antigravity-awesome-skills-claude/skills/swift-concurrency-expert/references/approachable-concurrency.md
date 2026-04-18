@@ -68,3 +68,9 @@ For SwiftPM, inspect Package.swift swiftSettings for the same flags.
 ## Source
 
 https://fuckingapproachableswiftconcurrency.com/en/
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

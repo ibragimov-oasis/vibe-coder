@@ -60,3 +60,9 @@ based on [claude-code-best-practice](https://github.com/shanraisshan/claude-code
 ![Cross-Model Workflow](assets/cross-model-workflow.png)
 
 *Last Updated: 2026-03-06*
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

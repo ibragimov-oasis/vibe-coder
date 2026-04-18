@@ -91,3 +91,9 @@ MEDIA:{screenshot_path}
 ## Notes
 
 {any_additional_observations_or_recommendations}
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-hermes]] — Category: skills-hermes
+

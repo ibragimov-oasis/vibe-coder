@@ -123,3 +123,9 @@ project-name/
 | Reusable button/input | `shared/components/ui/` |
 | Database query | `server/db/` |
 | External API call | `server/services/` |
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

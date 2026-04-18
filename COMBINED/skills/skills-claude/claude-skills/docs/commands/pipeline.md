@@ -38,3 +38,9 @@ Detect project stack and generate CI/CD pipeline configurations for GitHub Actio
 
 ## Skill Reference
 → `engineering/ci-cd-pipeline-builder/SKILL.md`
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

@@ -309,3 +309,9 @@ struct std::formatter<Point> {
 | std::expected | - | - | ✓ |
 | std::print | - | - | ✓ |
 | Deducing this | - | - | ✓ |
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

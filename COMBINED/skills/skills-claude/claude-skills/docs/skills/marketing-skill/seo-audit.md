@@ -159,3 +159,9 @@ Automatically surface seo-audit recommendations when:
 | On-Page SEO Findings | Structured table | Same format, focused on content and metadata |
 | Prioritized Action Plan | Numbered list | Ordered by impact × effort, grouped into Critical / High / Quick Wins |
 | Keyword Cannibalization Map | Table | Pages competing for same keyword with recommended canonical or redirect actions |
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

@@ -150,3 +150,9 @@ Key resources:
 - Attribute behavior may differ depending on Provider/API version
 - New resources and attributes need to be added as they become available
 - Defining all levels of deeply nested structures improves accuracy
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-copilot]] — Category: skills-copilot
+

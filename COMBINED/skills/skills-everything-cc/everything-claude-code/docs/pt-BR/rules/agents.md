@@ -55,3 +55,9 @@ Para problemas complexos, use subagentes com papéis divididos:
 - Especialista em segurança
 - Revisor de consistência
 - Verificador de redundância
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

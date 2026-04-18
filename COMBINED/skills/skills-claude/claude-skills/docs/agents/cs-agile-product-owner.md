@@ -421,3 +421,9 @@ echo "Location: ../../product-team/agile-product-owner/references/user-story-tem
 **Last Updated:** March 9, 2026
 **Status:** Production Ready
 **Version:** 1.0
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

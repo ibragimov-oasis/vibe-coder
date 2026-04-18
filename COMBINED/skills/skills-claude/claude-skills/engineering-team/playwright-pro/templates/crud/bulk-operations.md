@@ -134,3 +134,9 @@ test.describe('Bulk Operations', () => {
 | Deselect all | Select all → uncheck → toolbar gone |
 | Confirmation required | Bulk delete shows dialog first |
 | Cross-page select | Select-all-pages option shown on multi-page lists |
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

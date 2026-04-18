@@ -310,3 +310,9 @@ Internal links in navigation pass PageRank. Use this strategically:
 - **Breadcrumbs** provide structural signals to search engines — implement with schema markup
 - **Don't use JavaScript-only nav** — search engines need crawlable HTML links
 - **Use descriptive anchor text** — "Analytics Features" not just "Features"
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

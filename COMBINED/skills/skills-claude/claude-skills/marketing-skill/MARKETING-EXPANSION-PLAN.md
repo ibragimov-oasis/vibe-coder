@@ -401,3 +401,9 @@ Down from 41 to 39 — removed 3 duplicates, cleaner architecture.
 
 *Created: 2026-03-06*
 *Target: PR on `feat/marketing-expansion` branch*
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

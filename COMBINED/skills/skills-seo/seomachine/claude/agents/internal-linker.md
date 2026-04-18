@@ -280,3 +280,9 @@ Before recommending a link, ask:
 7. **Balance**: Mix pillar, blog, and product links appropriately
 
 Your role is to help podcast creators discover more valuable Castos content while building the site's topical authority through strategic internal linking. Every link should feel like a helpful suggestion, not a distraction.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-seo]] — Category: skills-seo
+

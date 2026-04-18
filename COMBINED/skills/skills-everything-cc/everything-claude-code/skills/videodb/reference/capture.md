@@ -106,3 +106,9 @@ kill $(cat /tmp/videodb_ws_pid)
 - Graceful shutdown on SIGINT/SIGTERM
 - PID file for easy process management
 - Connection status logging
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

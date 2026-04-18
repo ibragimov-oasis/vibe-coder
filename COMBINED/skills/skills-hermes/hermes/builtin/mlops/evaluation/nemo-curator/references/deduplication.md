@@ -92,3 +92,9 @@ deduped = semantic_dedup(dataset)
 2. **Use fuzzy for large datasets** - Best speed/quality trade-off
 3. **Semantic for high-value data** - Expensive but thorough
 4. **GPU acceleration required** - 10-16× speedup
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-hermes]] — Category: skills-hermes
+

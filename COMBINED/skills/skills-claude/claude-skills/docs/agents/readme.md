@@ -87,3 +87,9 @@ tools: Read, Write, Bash, Grep, Glob
 ```
 
 Follow the section structure (Identity → Mission → Rules → Capabilities → Workflows → Communication → Metrics → Advanced → Learning) for consistency with existing personas.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

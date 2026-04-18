@@ -17,3 +17,9 @@ tags:
 - Context, users, goals
 - Requirements & acceptance criteria
 - NFRs, rollout, risks
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

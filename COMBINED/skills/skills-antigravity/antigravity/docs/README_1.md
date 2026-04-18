@@ -108,3 +108,9 @@ The repo-level test suite also contains workflow and documentation guardrails ou
 - If the app shows stale catalog data, run `npm run sync:web-assets` from the repo root and rebuild.
 - If a feature works in `npm run app:dev` but not on GitHub Pages, check whether it depends on a dev-only Vite plugin or non-static runtime behavior.
 - If canonical URLs or asset links look wrong, inspect the shared path/base URL helpers before patching individual pages.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

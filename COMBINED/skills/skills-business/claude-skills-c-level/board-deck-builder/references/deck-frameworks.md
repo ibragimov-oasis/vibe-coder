@@ -189,3 +189,9 @@ Boards use the appendix for due diligence, not during the meeting. Include:
 - **One note-taker:** CEO's EA or COO; not the CEO (they need to be present)
 - **Follow-up within 24 hours:** Action items, voting outcomes, next meeting date
 - **Board portal vs email:** Use a board portal (Carta, Boardable, Notion) for version control and D&O protection
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-business]] — Category: skills-business
+

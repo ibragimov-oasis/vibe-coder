@@ -28,3 +28,9 @@ tags:
 
 ## 返回结果
 - 返回矩形树图 URL，并同步 `_meta.spec`。
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-data-analysis]] — Category: skills-data-analysis
+

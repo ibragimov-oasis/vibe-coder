@@ -435,3 +435,9 @@ Nonconforming Product Identified
 | [qms-audit-expert](https://github.com/alirezarezvani/claude-skills/tree/main/ra-qm-team/qms-audit-expert) | Advanced audit techniques |
 | [quality-documentation-manager](https://github.com/alirezarezvani/claude-skills/tree/main/ra-qm-team/quality-documentation-manager) | DHF, DMR, DHR management |
 | [risk-management-specialist](https://github.com/alirezarezvani/claude-skills/tree/main/ra-qm-team/risk-management-specialist) | ISO 14971 integration |
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

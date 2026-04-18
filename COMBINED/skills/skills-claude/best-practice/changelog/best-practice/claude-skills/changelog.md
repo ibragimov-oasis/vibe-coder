@@ -142,3 +142,9 @@ No drift detected — frontmatter fields (13) and bundled skills (5) are fully s
 ## [2026-04-11 06:08 PM PKT] Claude Code v2.1.101
 
 No drift detected — frontmatter fields (13) and bundled skills (5) are fully synchronized with official docs.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

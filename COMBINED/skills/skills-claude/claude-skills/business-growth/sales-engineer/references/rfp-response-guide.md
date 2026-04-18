@@ -194,3 +194,9 @@ Organize requirements by category for clarity:
 ---
 
 **Last Updated:** February 2026
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

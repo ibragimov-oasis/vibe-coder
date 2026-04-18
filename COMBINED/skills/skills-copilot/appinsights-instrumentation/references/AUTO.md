@@ -18,3 +18,9 @@ https://portal.azure.com/#resource/subscriptions/{subscription_id}/resourceGroup
 ```
 
 Use the context or ask the user to get the subscription_id, resource_group_name, and the app_service_name hosting the webapp.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-copilot]] — Category: skills-copilot
+

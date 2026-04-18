@@ -560,3 +560,9 @@ Include:
 - Full error traceback
 - Minimal reproducible code
 - Model name/ID used
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-hermes]] — Category: skills-hermes
+

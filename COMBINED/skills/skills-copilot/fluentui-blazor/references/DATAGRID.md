@@ -167,3 +167,9 @@ Or with a custom sort:
     @context.LastName, @context.FirstName
 </TemplateColumn>
 ```
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-copilot]] — Category: skills-copilot
+

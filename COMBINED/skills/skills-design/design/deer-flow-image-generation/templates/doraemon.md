@@ -117,3 +117,9 @@ Setup → Problem → Gadget → Misuse → Backfire → Chaos → Consequence �
 ## Aspect Ratio
 
 9:16
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-design]] — Category: skills-design
+

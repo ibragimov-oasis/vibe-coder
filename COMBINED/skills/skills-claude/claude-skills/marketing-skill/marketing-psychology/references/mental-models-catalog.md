@@ -402,3 +402,8 @@ Focusing on successes while ignoring failures that aren't visible.
 
 ---
 
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

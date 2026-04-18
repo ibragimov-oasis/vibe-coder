@@ -232,3 +232,9 @@ server.expect(requestTo("/slow-endpoint"))
 4. Reset server in @BeforeEach
 5. Test error responses, not just success
 6. Verify request body for POST/PUT calls
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-copilot]] — Category: skills-copilot
+

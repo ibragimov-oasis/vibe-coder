@@ -91,3 +91,9 @@ An electromechanical device that breaks or connects a circuit, staying in positi
 * **µ** = micro ($10^{-6}$)
 * **n** = nano ($10^{-9}$)
 * **p** = pico ($10^{-12}$)
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-copilot]] — Category: skills-copilot
+

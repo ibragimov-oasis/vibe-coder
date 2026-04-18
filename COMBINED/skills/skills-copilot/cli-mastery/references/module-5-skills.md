@@ -38,3 +38,9 @@ tags:
 ## Auto-matching
 
 When you describe a task, the AI checks if any skill matches and suggests using it.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-copilot]] — Category: skills-copilot
+

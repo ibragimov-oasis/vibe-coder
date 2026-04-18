@@ -402,3 +402,9 @@ Apply transforms in this sequence:
 
 Not all steps apply to every extraction. Apply only what's relevant
 to the data type and extraction mode.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

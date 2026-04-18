@@ -106,3 +106,9 @@ const apiKey = process.env.API_KEY;  // ✓ Good
 - キャッシュフォールバック動作を検証
 
 プロジェクトの`CLAUDE.md`またはスキルファイルに基づいてカスタマイズします。
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

@@ -43,3 +43,9 @@ tags:
 ## ✅ 跨專案通用待辦 (Global Action Items)
 - [ ] (與特定專案無關的任務)
 - [ ] (系統環境維護等)
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

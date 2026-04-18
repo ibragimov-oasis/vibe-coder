@@ -39,3 +39,9 @@ tags:
 4. Detect missing information → forward to conversation-manager
 5. Suggest tech stack
 ```
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

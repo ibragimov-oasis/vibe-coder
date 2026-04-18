@@ -343,5 +343,10 @@ Date| Changes
 June 9, 2025| Added guidance for new challenges and multiplayer activities, and considerations for the Apple Games app and Game Overlay. Updated guidance and specifications for activity preview images.  
 February 2, 2024| Added links to developer guidance on using the access point and dashboard in a visionOS game.  
 September 12, 2023| Added artwork for the iOS achievement layout.  
-May 2, 2023| Consolidated guidance into one page.  
-  
+May 2, 2023| Consolidated guidance into one page.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

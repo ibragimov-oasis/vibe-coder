@@ -105,3 +105,9 @@ DEBUG=false
 - mainに直接コミットしない
 - PRにはレビューが必要
 - マージ前にすべてのテストが合格する必要がある
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

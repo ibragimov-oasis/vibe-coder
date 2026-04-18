@@ -144,3 +144,9 @@ tags:
 
 ### Digital
 - Patricia Peck Pinheiro — Direito Digital
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

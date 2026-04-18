@@ -278,3 +278,9 @@ gh api graphql -f query='mutation {
 }'
 ```
 ```
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-copilot]] — Category: skills-copilot
+

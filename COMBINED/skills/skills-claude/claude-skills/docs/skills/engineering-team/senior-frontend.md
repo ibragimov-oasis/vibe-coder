@@ -486,3 +486,9 @@ function List<T>({ items, renderItem }: ListProps<T>) {
 - React Patterns: `references/react_patterns.md`
 - Next.js Optimization: `references/nextjs_optimization_guide.md`
 - Best Practices: `references/frontend_best_practices.md`
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

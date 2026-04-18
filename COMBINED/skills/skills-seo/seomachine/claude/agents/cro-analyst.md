@@ -355,3 +355,9 @@ Based on this analysis:
 3. **Consider Context**: Tailor to page type and conversion goal
 4. **Prioritize Impact**: Focus on highest-leverage psychological changes
 5. **Test Hypotheses**: Frame recommendations as testable hypotheses
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-seo]] — Category: skills-seo
+

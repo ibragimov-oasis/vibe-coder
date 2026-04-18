@@ -46,3 +46,9 @@ Common setups:
 ├── Remix + tRPC
 └── Any TS frontend + backend
 ```
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

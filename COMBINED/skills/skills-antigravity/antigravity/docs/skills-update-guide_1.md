@@ -94,3 +94,9 @@ npm run update:skills
 ```
 
 This pulls the latest code and updates the skills data.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

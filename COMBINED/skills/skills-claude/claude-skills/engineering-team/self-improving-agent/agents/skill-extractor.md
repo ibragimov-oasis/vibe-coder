@@ -115,3 +115,9 @@ Before delivering, verify:
 - **Be portable** — no `npm` vs `pnpm` assumptions
 - **Keep it short** — under 200 lines for SKILL.md
 - **No unnecessary files** — only SKILL.md is required. Add reference/ only if the topic is complex enough to warrant it
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

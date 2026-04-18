@@ -127,3 +127,9 @@ CLI utility that:
 - emits prioritized test plan with suggested test types
 
 See `references/discovery-frameworks.md` for framework details.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

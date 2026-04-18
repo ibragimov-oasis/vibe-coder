@@ -225,3 +225,9 @@ Common scenarios requiring canonicals:
 | 503 | Service Unavailable | Maintenance mode — tell Google to come back later |
 
 Use 301, not 302, for all permanent URL changes.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

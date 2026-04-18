@@ -223,3 +223,9 @@ Posts (with scheduling), Services menu, Attributes (including identity: Women-le
 - 900% increase in "near me" searches over two years (Confirmed/Study, Google)
 - Proximity varies: urban 1-2 miles, rural 5-10+ miles, specialty/niche = wider (Consensus)
 - Google uses dynamic weighting per query: "emergency plumber near me" = proximity-dominant; "best plastic surgeon" = prominence-dominant (Consensus)
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-seo]] — Category: skills-seo
+

@@ -811,3 +811,9 @@ export async function GET() {
   return Response.json(await response.json());
 }
 ```
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

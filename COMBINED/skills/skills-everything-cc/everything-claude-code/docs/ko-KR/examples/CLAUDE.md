@@ -105,3 +105,9 @@ DEBUG=false
 - main 브랜치에 직접 커밋 금지
 - PR은 리뷰 필수
 - 병합 전 모든 테스트 통과 필수
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

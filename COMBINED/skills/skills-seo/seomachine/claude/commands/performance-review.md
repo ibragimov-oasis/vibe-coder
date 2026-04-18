@@ -371,3 +371,9 @@ The command acts as the interface to trigger this analysis and format results fo
 ---
 
 **Remember**: Data without action is just noise. Use this report to drive actual content work, measure results, and continuously improve your SEO strategy.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-seo]] — Category: skills-seo
+

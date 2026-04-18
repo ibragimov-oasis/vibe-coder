@@ -42,3 +42,9 @@ vendor/bin/pest --coverage
 
 查看技能：`tdd-workflow` 以了解项目范围内的 RED -> GREEN -> REFACTOR 循环。
 查看技能：`laravel-tdd` 以了解 Laravel 特定的测试模式（PHPUnit 和 Pest）。
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

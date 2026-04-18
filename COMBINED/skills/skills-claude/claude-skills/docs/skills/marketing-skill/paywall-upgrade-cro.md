@@ -267,3 +267,9 @@ Paywall recommendations must account for where the user is in their value journe
 | Upgrade Flow Diagram | Step-by-step from paywall click to post-upgrade confirmation with friction reduction notes |
 | Anti-Pattern Audit | Review of existing paywall for dark patterns, trust-damaging copy, and conversion killers |
 | A/B Test Backlog | Prioritized experiment ideas for trigger timing, copy, and pricing display |
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

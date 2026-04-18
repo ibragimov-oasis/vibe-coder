@@ -687,3 +687,9 @@ Key Results:
 - Use examples/stories
 - Maintain eye contact
 - Control pace
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

@@ -38,3 +38,9 @@ tags:
 - [ ] Updated relevant documentation
 - [ ] Added comments for complex logic
 - [ ] README updated (if needed)
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

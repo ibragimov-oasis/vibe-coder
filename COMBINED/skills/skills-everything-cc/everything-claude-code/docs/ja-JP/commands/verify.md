@@ -64,3 +64,9 @@ $ARGUMENTS は以下のいずれか:
 - `full` - すべてのチェック（デフォルト）
 - `pre-commit` - コミットに関連するチェック
 - `pre-pr` - 完全なチェック + セキュリティスキャン
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

@@ -417,3 +417,9 @@ Review DPIA when:
 - [ ] Schedule review date
 - [ ] Monitor effectiveness of measures
 - [ ] Document any changes to processing
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

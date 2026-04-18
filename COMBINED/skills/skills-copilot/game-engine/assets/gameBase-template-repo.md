@@ -315,3 +315,9 @@ Constructor  -->  init()  -->  [game loop: fixedUpdate/update/postUpdate]  -->  
 - **update():** AI, state machine, animation triggers
 - **postUpdate():** Sync sprite position to grid coordinates, apply visual effects
 - **dispose():** Remove from entity list, destroy sprite, clean up references
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-copilot]] — Category: skills-copilot
+

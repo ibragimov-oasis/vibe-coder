@@ -84,3 +84,9 @@ fun findByName(input: String): List<ItemEntity>
 - Validate URLs before loading in WebView
 - Never expose `@JavascriptInterface` methods that access sensitive data
 - Use `WebViewClient.shouldOverrideUrlLoading()` to control navigation
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

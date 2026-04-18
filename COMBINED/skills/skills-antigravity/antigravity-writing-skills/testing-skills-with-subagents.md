@@ -389,3 +389,9 @@ From applying TDD to TDD skill itself (2025-10-03):
 - Each REFACTOR closed specific loopholes
 - Final VERIFY GREEN: 100% compliance under maximum pressure
 - Same process works for any discipline-enforcing skill
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

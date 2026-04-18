@@ -24,3 +24,9 @@ A soft and sophisticated theme with dusty, muted tones perfect for elegant prese
 ## Best Used For
 
 Fashion presentations, beauty brands, wedding planning, interior design, boutique businesses.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

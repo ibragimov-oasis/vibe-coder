@@ -150,3 +150,9 @@ Remaining errors: 3
 Son: `Build Status: SUCCESS/FAILED | Errors Fixed: N | Files Modified: list`
 
 Detaylı Rust hata kalıpları ve kod örnekleri için, `skill: rust-patterns`'a bakın.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

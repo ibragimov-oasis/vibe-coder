@@ -440,3 +440,8 @@ pie title 250 Python Tools by Domain
 
 </div>
 
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

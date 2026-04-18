@@ -480,3 +480,9 @@ Low  │ Monitor  │  Keep    │
    - Growth trajectory
    - Risk reduction
    - Story telling
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

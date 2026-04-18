@@ -60,3 +60,9 @@ Se o build falhar:
 2. Analise mensagens de erro
 3. Corrija incrementalmente
 4. Verifique após cada correção
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

@@ -51,3 +51,9 @@ Score sprint health across delivery, quality, and team metrics with velocity tre
 
 ## Skill Reference
 > `project-management/scrum-master/SKILL.md`
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

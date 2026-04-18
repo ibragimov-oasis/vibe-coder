@@ -480,3 +480,9 @@ For resource types not in the diagram type mapping:
 - Display with `default` type (question mark icon)
 - Include the resource name and type in details
 - Show to the user, but do not attempt relationship inference
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-copilot]] — Category: skills-copilot
+

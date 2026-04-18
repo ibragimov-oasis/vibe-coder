@@ -49,3 +49,9 @@ When creating the JSON for the Web Clipper, map the Base properties to the `prop
 | `note.type` | `type` | Constant (e.g., `Recipe`) or empty |
 
 **Crucial Step:** Ask the user which properties should be automatically filled, which should be hardcoded (e.g., `type: Recipe`), and which should be left empty for manual entry.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

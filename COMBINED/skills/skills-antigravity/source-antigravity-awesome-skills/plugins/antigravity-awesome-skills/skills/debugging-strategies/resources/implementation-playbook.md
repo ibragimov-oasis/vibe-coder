@@ -516,3 +516,9 @@ afterEach(() => {
 - **assets/debugging-checklist.md**: Quick reference checklist
 - **assets/common-bugs.md**: Common bug patterns
 - **scripts/debug-helper.ts**: Debugging utility functions
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

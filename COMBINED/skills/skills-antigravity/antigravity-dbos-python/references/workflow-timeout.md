@@ -60,3 +60,9 @@ with SetWorkflowTimeout(30):
 Timeouts work with long durations (hours, days, weeks) since they're stored in the database.
 
 Reference: [Workflow Timeouts](https://docs.dbos.dev/python/tutorials/workflow-tutorial#workflow-timeouts)
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

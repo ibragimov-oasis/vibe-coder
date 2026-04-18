@@ -1465,3 +1465,9 @@ IF product is custom/irreplaceable → EXPEDITE the manufacturing queue, not jus
 | TEC | Total Exception Cost — comprehensive cost of an exception including all components |
 | TMS | Transportation Management System — software for managing freight operations |
 | WMS | Warehouse Management System — software for managing warehouse operations |
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

@@ -230,3 +230,9 @@ Actions that need to be grouped for error handling or clarity:
   "outputs": {}
 }
 ```
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-awesome-claude]] — Category: skills-awesome-claude
+

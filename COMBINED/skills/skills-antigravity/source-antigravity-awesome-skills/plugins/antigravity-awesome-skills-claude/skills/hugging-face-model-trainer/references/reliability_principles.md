@@ -376,3 +376,9 @@ Sometimes reliability and performance conflict. Here's how to choose:
 - `troubleshooting.md` - Common issues and fixes
 - `training_patterns.md` - Proven training configurations
 - `gguf_conversion.md` - Production GGUF workflow
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

@@ -52,3 +52,9 @@ cost_tracker.py reset --confirm
 ## Storage
 
 Ledger stored at `~/.banana/costs.json`. Created automatically on first use.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-seo]] — Category: skills-seo
+

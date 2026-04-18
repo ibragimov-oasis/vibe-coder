@@ -549,3 +549,9 @@ var result = await connection.QueryAsync<Product>(sql);
 // ✅ Good - Let Dapper manage connection
 var result = await connection.QueryAsync<Product>(sql);
 ```
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

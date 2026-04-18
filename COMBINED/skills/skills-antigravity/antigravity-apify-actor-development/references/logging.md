@@ -55,3 +55,9 @@ The Apify Actor logger provides the following methods for logging:
 - Use `Actor.log.warning()` for potentially problematic situations (validation failures, unexpected states)
 - Use `Actor.log.error()` for actual errors and failures
 - Use `Actor.log.exception()` for caught exceptions with stack traces
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

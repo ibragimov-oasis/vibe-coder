@@ -256,5 +256,10 @@ tags:
 December 16, 2025| Updated guidance for Liquid Glass.  
 June 9, 2025| Added guidance for grouping bar items, updated guidance for using symbols, and incorporated navigation bar guidance.  
 June 21, 2023| Updated to include guidance for visionOS.  
-June 5, 2023| Updated guidance for using toolbars in watchOS.  
-  
+June 5, 2023| Updated guidance for using toolbars in watchOS.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

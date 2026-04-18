@@ -342,3 +342,9 @@ $ARGUMENTS:
 * 别名存储在 `~/.claude/session-aliases.json`
 * 会话 ID 可以缩短（通常前 4-8 个字符就足够唯一）
 * 为经常引用的会话使用别名
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

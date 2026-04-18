@@ -91,3 +91,9 @@ Key points:
 - Use real Postgres for integration tests that verify durable behavior
 
 Reference: [Testing DBOS](https://docs.dbos.dev/golang/tutorials/testing)
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

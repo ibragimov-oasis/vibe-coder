@@ -43,3 +43,9 @@ python3 ~/COMBINED/workspace-config/claude/skills/continuous-learning-v2/scripts
    - Appear in at least 2 projects
    - Meet confidence threshold
 4. Write promoted instincts to `~/.claude/homunculus/instincts/personal/` with `scope: global`
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

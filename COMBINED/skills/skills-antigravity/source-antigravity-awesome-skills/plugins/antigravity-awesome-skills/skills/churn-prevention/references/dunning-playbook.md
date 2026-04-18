@@ -413,3 +413,9 @@ Annual improvement:                 $36,000/year
 Cost of dunning optimization:       ~$200-500/month (tooling)
 ROI:                                6-15x
 ```
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

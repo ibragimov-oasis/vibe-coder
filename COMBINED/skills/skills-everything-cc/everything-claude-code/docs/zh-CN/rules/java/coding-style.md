@@ -119,3 +119,9 @@ public class OrderNotFoundException extends RuntimeException {
 
 完整编码标准及示例，请参阅技能：`java-coding-standards`。
 JPA/Hibernate 实体设计模式，请参阅技能：`jpa-patterns`。
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

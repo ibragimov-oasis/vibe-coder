@@ -32,3 +32,9 @@ This aggressive calibration is further reinforced by safety tuning protocols, wh
 ## Dynamic Throttling
 
 Providers dynamically scale back model performance during peak demand periods. This introduces additional friction beyond what the base alignment already imposes, resulting in even shorter and less detailed outputs when server load is high.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-design]] — Category: skills-design
+

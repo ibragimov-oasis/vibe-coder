@@ -413,3 +413,9 @@ async def detailed_health():
         }
     }
 ```
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-design]] — Category: skills-design
+

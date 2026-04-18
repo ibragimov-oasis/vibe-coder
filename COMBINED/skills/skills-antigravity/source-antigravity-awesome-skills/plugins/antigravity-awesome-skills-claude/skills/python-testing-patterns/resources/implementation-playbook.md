@@ -911,3 +911,9 @@ exclude_lines = [
 8. **Test edge cases** and error conditions
 9. **Measure coverage** but focus on quality
 10. **Run tests in CI/CD** on every commit
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

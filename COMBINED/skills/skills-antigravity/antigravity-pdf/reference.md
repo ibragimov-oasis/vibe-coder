@@ -617,3 +617,9 @@ def extract_text_with_ocr(pdf_path):
 - **qpdf**: Apache License
 - **pdf-lib**: MIT License
 - **pdfjs-dist**: Apache License
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

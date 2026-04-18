@@ -467,3 +467,9 @@ WorkflowVersionError: Workflow version changed from 1 to 2 without using get_ver
 - Workflow Versioning: docs.temporal.io/workflows#versioning
 - Determinism Guide: docs.temporal.io/workflows#deterministic-constraints
 - CI/CD Integration: github.com/temporalio/samples-python/tree/main/.github/workflows
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

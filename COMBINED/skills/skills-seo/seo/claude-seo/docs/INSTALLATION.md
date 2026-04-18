@@ -164,3 +164,9 @@ Make sure scripts are executable:
 ```bash
 chmod +x ~/COMBINED/workspace-config/claude/skills/seo/scripts/*.py
 ```
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-seo]] — Category: skills-seo
+

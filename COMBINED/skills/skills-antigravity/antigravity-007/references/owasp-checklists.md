@@ -81,3 +81,9 @@ Use this as a rapid assessment during code reviews:
 [ ] Prompt injection defenses in place (LLM01)
 [ ] Token/cost budgets configured (LLM10)
 ```
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

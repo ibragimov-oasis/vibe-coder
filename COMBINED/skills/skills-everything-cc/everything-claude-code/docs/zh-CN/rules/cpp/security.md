@@ -54,3 +54,9 @@ tags:
 ## 参考
 
 查看技能：`cpp-coding-standards` 以获取详细的安全指南。
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

@@ -179,3 +179,9 @@ With 37 settings and 84 environment variables (use the `"env"` field in your `se
 - [Claude Code Hooks Reference](https://code.claude.com/docs/en/hooks)
 - [Claude Code Output Styles Docs](https://code.claude.com/docs/en/output-styles)
 - [Claude Code Settings Docs](https://code.claude.com/docs/en/settings)
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

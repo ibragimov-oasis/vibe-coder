@@ -85,3 +85,9 @@ Dead Code Cleanup
 - **한 번에 하나씩 삭제** --- 원자적 변경으로 롤백이 쉬움
 - **확실하지 않으면 건너뛰기** --- 프로덕션을 깨뜨리는 것보다 사용하지 않는 코드를 유지하는 것이 나음
 - **정리하면서 리팩토링하지 않기** --- 관심사 분리 (먼저 정리, 나중에 리팩토링)
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

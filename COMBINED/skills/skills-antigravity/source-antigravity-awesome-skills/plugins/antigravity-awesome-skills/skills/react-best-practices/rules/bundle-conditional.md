@@ -32,3 +32,9 @@ function AnimationPlayer({ enabled }: { enabled: boolean }) {
 ```
 
 The `typeof window !== 'undefined'` check prevents bundling this module for SSR, optimizing server bundle size and build speed.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

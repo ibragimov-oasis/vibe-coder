@@ -360,3 +360,9 @@ When a prospect asks to see something during the demo:
 3. **If it's not possible** — "We don't do that today. Here's how customers handle it: [alternative]."
 
 Never say "I'll get back to you" without writing it down and following up within 24 hours.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

@@ -175,3 +175,9 @@ All tests passed.
 - 代理: `agents/cpp-build-resolver.md`
 - 技能: `skills/cpp-coding-standards/`
 ```
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

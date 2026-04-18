@@ -236,3 +236,9 @@ org:github no:field.priority type:Bug is:open
 - Repo scan: searches up to **4,000** matching repositories
 - Rate limit: **30 requests/minute** for authenticated search
 - Issue field search requires `advanced_search=true` (REST) or `ISSUE_ADVANCED` (GraphQL); not available through MCP `search_issues`
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-copilot]] — Category: skills-copilot
+

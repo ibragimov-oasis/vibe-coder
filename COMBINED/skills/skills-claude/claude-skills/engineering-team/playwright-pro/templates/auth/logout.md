@@ -117,3 +117,9 @@ test.describe('Logout', () => {
 | Protected redirect | Accessing /dashboard after logout → /login |
 | Stale session | Already-expired session handled gracefully |
 | Multi-tab | Logout invalidates other open tabs |
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

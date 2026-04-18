@@ -98,3 +98,9 @@ CREATE INDEX idx_nome     ON leiloeiros (nome);
 CREATE INDEX idx_situacao ON leiloeiros (situacao);
 CREATE INDEX idx_scraped  ON leiloeiros (scraped_at);
 ```
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

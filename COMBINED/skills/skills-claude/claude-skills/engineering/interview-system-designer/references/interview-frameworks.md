@@ -51,3 +51,9 @@ tags:
 - Keep scorecards evidence-based and behavior-specific.
 - Use diverse interviewer panels where possible.
 - Require written rationale for strong yes/no recommendations.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

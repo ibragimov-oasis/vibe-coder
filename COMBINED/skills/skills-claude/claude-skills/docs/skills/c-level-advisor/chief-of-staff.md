@@ -184,3 +184,9 @@ See `references/routing-matrix.md` for complete trigger mapping.
 ## References
 - `references/routing-matrix.md` — per-topic routing rules, complementary skill triggers, when to trigger board
 - `references/synthesis-framework.md` — full synthesis process, conflict types, output format
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

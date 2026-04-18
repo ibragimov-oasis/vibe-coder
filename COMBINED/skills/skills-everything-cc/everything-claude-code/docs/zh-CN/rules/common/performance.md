@@ -68,3 +68,9 @@ tags:
 2. 分析错误信息
 3. 逐步修复
 4. 每次修复后进行验证
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

@@ -74,5 +74,10 @@ tags:
   - artifact/doc
   - source/skills-antigravity
 ---|---  
-June 5, 2023| Enhanced guidance for providing a glanceable, focused app experience, and emphasized the importance of the Digital Crown in navigation.  
-  
+June 5, 2023| Enhanced guidance for providing a glanceable, focused app experience, and emphasized the importance of the Digital Crown in navigation.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

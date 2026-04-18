@@ -276,3 +276,9 @@ security:
 ```
 
 This helps auditors quickly assess the skill's security posture.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

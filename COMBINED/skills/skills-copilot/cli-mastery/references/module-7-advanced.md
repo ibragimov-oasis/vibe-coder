@@ -43,3 +43,9 @@ tags:
 11. **`--allow-all` / `--yolo`** — Full trust mode (use responsibly!)
 
 12. **`Ctrl+T`** — Watch the AI think (learn its reasoning patterns)
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-copilot]] — Category: skills-copilot
+

@@ -275,3 +275,9 @@ components/Button.tsx（帶 variant prop）
 ---
 
 **記住**：無用程式碼是技術債。定期清理保持程式碼庫可維護且快速。但安全第一 - 在不理解程式碼為什麼存在之前，絕對不要移除它。
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

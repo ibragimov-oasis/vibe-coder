@@ -386,3 +386,9 @@ Evidence:
 | A.7.x (Physical) | Cloud-only operations, no physical facilities |
 | A.8.19 (Software) | No user-installed software permitted |
 | A.8.23 (Web filter) | Handled by cloud proxy service |
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

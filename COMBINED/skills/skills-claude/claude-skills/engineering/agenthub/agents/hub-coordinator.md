@@ -93,3 +93,9 @@ If all agents fail or produce no improvement:
 - Update session state to `archived` (not `merged`)
 - Suggest the user try with different constraints or more agents
 - Do NOT automatically re-spawn without user approval
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

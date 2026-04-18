@@ -53,3 +53,9 @@ Antes de marcar o trabalho como concluído:
 - [ ] Tratamento adequado de erros
 - [ ] Sem valores hardcoded (use constantes ou config)
 - [ ] Sem mutação (padrões imutáveis usados)
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

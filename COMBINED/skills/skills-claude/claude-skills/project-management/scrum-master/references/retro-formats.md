@@ -341,3 +341,9 @@ Based on the story:
 - Let team choose occasionally
 - Match format to team mood
 - Try new format when stuck
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

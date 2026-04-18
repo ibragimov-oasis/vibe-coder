@@ -376,3 +376,9 @@ Initial: {skills, installation, repository}
 - Consider process for community-contributed translations
 - Review workflow for suggested glossary improvements
 - Translation memory database for reusable segments
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

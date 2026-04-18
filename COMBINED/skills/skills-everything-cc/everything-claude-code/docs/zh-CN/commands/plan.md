@@ -120,3 +120,9 @@ Agent (planner):
 
 对于手动安装，源文件位于：
 `agents/planner.md`
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

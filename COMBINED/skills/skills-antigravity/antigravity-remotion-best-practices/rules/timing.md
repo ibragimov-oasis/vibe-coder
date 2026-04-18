@@ -180,3 +180,9 @@ const value1 = interpolate(frame, [0, 100], [0, 1], {
   extrapolateRight: 'clamp',
 });
 ```
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

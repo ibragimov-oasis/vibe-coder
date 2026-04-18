@@ -256,3 +256,9 @@ Examples:
 **Document Scope:** Software emulation of the 6502 CPU
 **Audience:** Emulator developers, retrocomputing engineers
 **Status:** Stable technical reference
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-copilot]] — Category: skills-copilot
+

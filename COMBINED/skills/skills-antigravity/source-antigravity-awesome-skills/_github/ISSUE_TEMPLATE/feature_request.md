@@ -26,3 +26,9 @@ Link any relevant discussion, similar skill, docs, issue, or external reference.
 
 **Additional context**
 Add any other context or screenshots about the feature request here.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

@@ -65,3 +65,9 @@ Current: **2026-01** (Quarterly releases with 12-month support)
 ## License
 
 MIT
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

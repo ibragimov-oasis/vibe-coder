@@ -111,3 +111,9 @@ Se `PERSONAL`, guia o usuário pela migração com `--guide`.
 Contas Creator podem funcionar sem Page, mas o fluxo de autenticação
 ainda precisa de pelo menos uma Page para o OAuth funcionar. Recomendação:
 criar uma Page básica (não precisa de conteúdo) apenas para a vinculação.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

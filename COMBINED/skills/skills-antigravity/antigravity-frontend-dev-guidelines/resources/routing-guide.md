@@ -369,3 +369,9 @@ export default UserPage;
 - [component-patterns.md](component-patterns.md) - Lazy loading patterns
 - [loading-and-error-states.md](loading-and-error-states.md) - SuspenseLoader usage
 - [complete-examples.md](complete-examples.md) - Full route examples
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

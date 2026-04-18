@@ -729,3 +729,9 @@ const nextConfig = {
 
 module.exports = nextConfig;
 ```
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

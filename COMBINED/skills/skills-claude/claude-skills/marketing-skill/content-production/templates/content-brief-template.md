@@ -131,3 +131,9 @@ tags:
 ## Notes / Special Instructions
 
 (Brand voice requirements, topics to avoid, tone calibration, product mentions)
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

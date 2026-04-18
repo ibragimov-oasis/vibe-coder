@@ -103,3 +103,9 @@ project-name/
 - Auto-import for clean code
 - TypeScript for type safety
 - See `@[skills/vue-expert]` for Vue patterns
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

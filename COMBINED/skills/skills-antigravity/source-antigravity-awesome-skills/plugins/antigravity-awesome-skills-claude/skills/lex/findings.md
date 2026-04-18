@@ -63,3 +63,9 @@ tags:
 | Slovenia | PIS (Pravno-informacijski sistem) | [pisrs.si](http://www.pisrs.si/) |
 | Spain | BOE (Boletín Oficial del Estado) | [boe.es](https://www.boe.es/) |
 | Sweden | Svensk författningssamling (SFS) | [svenskforfattningssamling.se](https://www.svenskforfattningssamling.se/) |
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

@@ -76,3 +76,9 @@ function process(data) {
 - [ ] Single focused purpose
 - [ ] No need for `references/` directory
 - [ ] Description uses "Use when..." pattern
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

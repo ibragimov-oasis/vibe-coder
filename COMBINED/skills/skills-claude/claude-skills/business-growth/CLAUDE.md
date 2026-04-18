@@ -193,3 +193,9 @@ python revenue-operations/scripts/gtm_efficiency_calculator.py gtm_data.json --f
 **Last Updated:** February 2026
 **Skills Deployed:** 3/3 business & growth skills production-ready
 **Total Tools:** 9 Python automation tools
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

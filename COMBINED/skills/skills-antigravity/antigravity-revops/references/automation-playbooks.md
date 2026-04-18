@@ -295,3 +295,9 @@ Booking form submitted
 2. Format as summary
 3. Post to Slack #sales-team
 4. Send email digest to sales leadership
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

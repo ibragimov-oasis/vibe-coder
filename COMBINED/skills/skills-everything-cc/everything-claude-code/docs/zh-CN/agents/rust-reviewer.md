@@ -97,3 +97,9 @@ cargo build --release 2>&1 | head -50
 * **阻止**：发现关键或高优先级问题
 
 有关详细的 Rust 代码示例和反模式，请参阅 `skill: rust-patterns`。
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

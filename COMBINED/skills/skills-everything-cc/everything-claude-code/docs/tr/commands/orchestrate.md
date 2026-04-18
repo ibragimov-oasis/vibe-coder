@@ -233,3 +233,9 @@ $ARGUMENTS:
 3. **Auth/ödeme/PII için security-reviewer kullan**
 4. **Handoff'ları kısa tut** - sonraki agent'ın ihtiyaç duyduğu şeye odaklan
 5. **Gerekirse agent'lar arasında doğrulama çalıştır**
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

@@ -339,3 +339,9 @@ Each shape entry contains:
   ]
 </mxlibrary>
 ```
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-copilot]] — Category: skills-copilot
+

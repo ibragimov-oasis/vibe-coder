@@ -219,3 +219,9 @@ The December 2025 update elevated the "Experience" dimension as a key differenti
 1. Continue publishing high-quality content
 2. Monitor and respond to reputation issues
 3. Keep credentials and certifications current
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

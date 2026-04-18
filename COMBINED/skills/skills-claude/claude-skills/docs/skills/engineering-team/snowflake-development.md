@@ -307,3 +307,9 @@ Surface these issues without being asked when you notice them in context:
 | `references/snowflake_sql_and_pipelines.md` | SQL patterns, MERGE templates, Dynamic Table debugging, Snowpipe, anti-patterns |
 | `references/cortex_ai_and_agents.md` | Cortex AI functions, agent spec structure, Cortex Search, Snowpark |
 | `references/troubleshooting.md` | Error reference, debugging queries, common fixes |
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

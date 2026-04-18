@@ -236,3 +236,9 @@ Week 9-10:  [Phase 4 - Go-Live]
 
 ### D. Product Roadmap (Relevant Items)
 [Roadmap items relevant to this proposal with estimated delivery dates]
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

@@ -584,3 +584,9 @@ MIT - 自由使用，根据需要修改，如果可以请回馈。
 ---
 
 **如果这个仓库有帮助，请给它一个 Star。阅读两个指南。构建一些很棒的东西。**
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

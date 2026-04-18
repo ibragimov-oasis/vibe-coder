@@ -45,3 +45,9 @@ Pass a strategy keyword directly. The generator produces company, department, an
 
 ## Skill Reference
 > `product-team/product-strategist/SKILL.md`
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

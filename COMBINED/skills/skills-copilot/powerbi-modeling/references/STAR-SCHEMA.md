@@ -108,3 +108,9 @@ Keep transaction identifiers (OrderNumber, InvoiceID) in fact table.
 - [ ] Date table exists and is marked
 - [ ] No circular relationship paths
 - [ ] Consistent naming conventions
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-copilot]] — Category: skills-copilot
+

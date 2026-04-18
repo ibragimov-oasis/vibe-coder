@@ -87,3 +87,9 @@ ctx, _ := dbos.NewDBOSContext(context.Background(), dbos.Config{
 Without `EnablePatching: true`, calls to `dbos.Patch` and `dbos.DeprecatePatch` will fail.
 
 Reference: [Patching](https://docs.dbos.dev/golang/tutorials/upgrading-workflows#patching)
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

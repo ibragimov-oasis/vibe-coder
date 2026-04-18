@@ -109,5 +109,10 @@ tags:
 June 9, 2025| Added guidance for extending content beneath the sidebar.  
 August 6, 2024| Updated guidance to include the SwiftUI adaptable sidebar style.  
 December 5, 2023| Added artwork for iPadOS.  
-June 21, 2023| Updated to include guidance for visionOS.  
-  
+June 21, 2023| Updated to include guidance for visionOS.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

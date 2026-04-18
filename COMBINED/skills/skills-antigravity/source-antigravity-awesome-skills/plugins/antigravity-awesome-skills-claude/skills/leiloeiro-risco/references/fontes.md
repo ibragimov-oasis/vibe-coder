@@ -20,3 +20,9 @@ tags:
 ## Jurisprudência
 - STJ — arrematação e leilões
 - Art. 792 CPC — Fraude à execução
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

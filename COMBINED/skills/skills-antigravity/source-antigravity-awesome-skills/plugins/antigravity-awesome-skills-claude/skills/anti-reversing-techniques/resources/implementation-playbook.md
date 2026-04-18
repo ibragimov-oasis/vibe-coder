@@ -544,3 +544,9 @@ Never use to bypass protections for:
 - Software piracy
 - Unauthorized access
 - Malicious purposes
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

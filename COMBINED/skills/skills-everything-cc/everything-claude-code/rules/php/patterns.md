@@ -35,3 +35,9 @@ tags:
 
 See skill: `api-design` for endpoint conventions and response-shape guidance.
 See skill: `laravel-patterns` for Laravel-specific architecture guidance.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

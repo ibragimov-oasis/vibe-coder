@@ -179,3 +179,9 @@ minipro -p AT28C256 -w rom.bin
 * <https://opensource.com/article/23/1/learn-machine-language-retro-computer>
 
 ---
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-copilot]] — Category: skills-copilot
+

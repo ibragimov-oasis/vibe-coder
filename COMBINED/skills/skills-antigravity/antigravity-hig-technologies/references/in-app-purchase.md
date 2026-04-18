@@ -263,5 +263,10 @@ tags:
   - source/skills-antigravity
 ---|---  
 September 12, 2023| Updated artwork and guidance for redeeming offer codes.  
-November 3, 2022| Added a guideline for displaying the total billing price for every in-app purchase item and consolidated guidance into one page.  
-  
+November 3, 2022| Added a guideline for displaying the total billing price for every in-app purchase item and consolidated guidance into one page.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

@@ -812,3 +812,9 @@ throw new ValidationError("Invalid input");
 - [ECMAScript Specification](https://tc39.es/ecma262/)
 - [JavaScript.info](https://javascript.info/)
 - [You Don't Know JS (book series)](https://github.com/getify/You-Dont-Know-JS)
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-copilot]] — Category: skills-copilot
+

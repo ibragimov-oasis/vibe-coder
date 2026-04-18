@@ -652,3 +652,9 @@ def calculate_metrics(returns: pd.Series, rf_rate: float = 0.02) -> Dict[str, fl
 - [Advances in Financial Machine Learning (Marcos López de Prado)](https://www.amazon.com/Advances-Financial-Machine-Learning-Marcos/dp/1119482089)
 - [Quantitative Trading (Ernest Chan)](https://www.amazon.com/Quantitative-Trading-Build-Algorithmic-Business/dp/1119800064)
 - [Backtrader Documentation](https://www.backtrader.com/docu/)
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

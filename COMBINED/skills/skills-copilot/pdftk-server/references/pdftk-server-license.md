@@ -30,3 +30,9 @@ Now available for $995:
 PDFtk Server (pdftk) is not public domain software. It can be used at no charge under its GNU General Public License (GPL) Version 2. [Click here to read the complete text](https://www.pdflabs.com/docs/pdftk-license/gnu_general_public_license_2.txt).
 
 PDFtk uses third-party libraries. The licenses and source code for these libraries are described in the third-party-materials reference document.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-copilot]] — Category: skills-copilot
+

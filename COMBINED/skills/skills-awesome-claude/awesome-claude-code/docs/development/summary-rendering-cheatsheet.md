@@ -27,3 +27,9 @@ Minimal pattern that renders correctly on GitHub:
 ```
 
 Verification tip: use GitHub’s `/markdown` API with mode `gfm` to preview the rendered HTML without pushing commits. One request per variant is usually enough.***
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-awesome-claude]] — Category: skills-awesome-claude
+

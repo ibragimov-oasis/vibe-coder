@@ -874,3 +874,9 @@ useEffect(() => {
     
 }, [data1, data2]);
 ```
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

@@ -86,3 +86,9 @@ except:
 Alguns valores parecem secrets mas sao publicos:
 - `546c25a59c58ad7` - Imgur anonymous upload client ID (publico)
 - Chaves de teste/exemplo em documentacao
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

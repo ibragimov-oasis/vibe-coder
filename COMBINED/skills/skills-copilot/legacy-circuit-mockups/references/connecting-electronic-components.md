@@ -315,3 +315,9 @@ flowchart TB
 16. Insert the battery into its holder and place it in the breadboard, connecting negative to black and positive to red.
 
 **Result:** Pressing the push button will cause the buzzer to sound. Rotating the potentiometer will alter the pitch of the buzzer.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-copilot]] — Category: skills-copilot
+

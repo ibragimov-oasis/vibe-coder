@@ -36,3 +36,9 @@ tags:
 - 데이터 페이로드 포함 (에러 시 null)
 - 에러 메시지 필드 포함 (성공 시 null)
 - 페이지네이션 응답에 메타데이터 포함 (total, page, limit)
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

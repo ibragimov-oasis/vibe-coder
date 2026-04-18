@@ -517,3 +517,9 @@ gcloud dns record-sets create api.example.com \
 | Data Pipeline | High | Medium | High |
 | ML Platform | High | High | High |
 | Multi-Region | High | High | High |
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

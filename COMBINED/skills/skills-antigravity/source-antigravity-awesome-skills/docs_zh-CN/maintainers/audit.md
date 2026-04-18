@@ -73,3 +73,9 @@ npm test                  # 测试套件
 
 - 逐步清理旧技能，以便 `npm run validate:strict` 可以在未来成为严格的 CI 关卡。
 - 在规范英语文档稳定后，在单独的通道中保持翻译文档的一致性。
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

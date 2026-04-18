@@ -228,3 +228,9 @@ RECOMMENDED DECISION
 ## References
 - `references/scenario-planning.md` — Shell methodology, pre-mortem, Monte Carlo, cascade frameworks
 - `scripts/scenario_modeler.py` — CLI tool for structured scenario modeling
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

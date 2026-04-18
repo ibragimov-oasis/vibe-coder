@@ -875,3 +875,9 @@ class OrderService {
 ```
 
 Tests to make pass: $ARGUMENTS
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

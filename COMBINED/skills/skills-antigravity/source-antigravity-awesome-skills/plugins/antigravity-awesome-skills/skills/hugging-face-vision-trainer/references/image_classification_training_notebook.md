@@ -284,3 +284,9 @@ Get the predicted label with the highest probability, and use the model's `id2la
 >>> model.config.id2label[predicted_label]
 'beignets'
 ```
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

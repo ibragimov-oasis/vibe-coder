@@ -176,3 +176,9 @@ Before submitting a rule:
 - [ ] Reference links included
 - [ ] `npm run validate` passes
 - [ ] `npm run build` generates correct output
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

@@ -238,3 +238,9 @@ CPU memory access
 **Document Scope:** Software emulation of AS6C62256 SRAM
 **Audience:** Emulator developers, retro SBC designers
 **Status:** Stable technical reference
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-copilot]] — Category: skills-copilot
+

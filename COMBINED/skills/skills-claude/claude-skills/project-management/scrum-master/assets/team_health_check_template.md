@@ -385,3 +385,9 @@ We'll know we're improving when we see:
 
 ---
 *This health check is based on the Spotify Squad Health Check model. The goal is continuous improvement, not judgment. Use this data to have better conversations about how to work together effectively.*
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

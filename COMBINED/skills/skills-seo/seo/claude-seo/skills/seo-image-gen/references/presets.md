@@ -74,3 +74,9 @@ presets.py create NAME --colors "#hex,#hex" --style "..." --mood "..."
 # Delete
 presets.py delete NAME --confirm
 ```
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-seo]] — Category: skills-seo
+

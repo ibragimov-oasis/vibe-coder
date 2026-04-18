@@ -134,3 +134,9 @@ tags:
 *   [ ] **Clear Information Architecture:** Organize content and navigation logically.
 *   [ ] **Responsive Design:** Ensure the dashboard is fully functional and looks great on all device sizes (desktop, tablet, mobile).
 *   [ ] **Documentation:** Maintain clear documentation for the design system and components.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-awesome-claude]] — Category: skills-awesome-claude
+

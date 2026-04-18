@@ -239,3 +239,9 @@ type = page AND label = "template-*" ORDER BY created DESC
 3. Establish basic quality standards
 4. Review after 90 days and expand
 5. Formalize governance as template count grows beyond 20
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

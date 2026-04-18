@@ -319,3 +319,9 @@ Automated security checks on every PR: secret scanning (TruffleHog), dependency 
 | [senior-security](https://github.com/alirezarezvani/claude-skills/tree/main/engineering-team/senior-security/SKILL.md) | Security policy and governance — frameworks, risk registers, compliance |
 | [dependency-auditor](https://github.com/alirezarezvani/claude-skills/tree/main/engineering/dependency-auditor/SKILL.md) | Deep supply chain security — SBOMs, license compliance, transitive risk |
 | [code-reviewer](https://github.com/alirezarezvani/claude-skills/tree/main/engineering-team/code-reviewer/SKILL.md) | Code review practices — includes security review checklist |
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

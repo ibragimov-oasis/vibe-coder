@@ -27,3 +27,9 @@ Focus: Quality, security, maintainability
 
 ## Output Format
 Group findings by file, severity first
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

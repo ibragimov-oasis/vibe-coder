@@ -229,3 +229,9 @@ try {
 - SKILL.md
 - [services-and-repositories.md](services-and-repositories.md)
 - [async-and-errors.md](async-and-errors.md)
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

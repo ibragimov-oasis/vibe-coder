@@ -303,3 +303,9 @@ Always provide alternatives for high-stakes elements (headline, CTA). Never deli
 - **content-humanizer**: USE when AI-drafted copy sounds robotic or templated. NOT for strategic decisions.
 - **ab-test-setup**: USE to design experiments testing copy variants. NOT for writing the copy itself.
 - **email-sequence**: USE for email copywriting specifically. NOT for page or landing page copy.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

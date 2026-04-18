@@ -251,3 +251,9 @@ Complete narration for Loki Mode demo video.
 | CTA | 14:00 | 30s |
 
 **Total: ~14.5 minutes**
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

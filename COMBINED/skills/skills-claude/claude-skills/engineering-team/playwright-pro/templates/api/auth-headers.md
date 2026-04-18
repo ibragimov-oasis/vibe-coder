@@ -153,3 +153,9 @@ test.describe('API Auth Headers', () => {
 | Malformed token | 401 for non-JWT |
 | Cookie auth | Session cookie accepted |
 | Revoked token | 401 for revoked token |
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

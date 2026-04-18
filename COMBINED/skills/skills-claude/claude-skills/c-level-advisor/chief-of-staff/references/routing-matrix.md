@@ -217,3 +217,9 @@ These skills are invoked for specific cross-cutting needs, not for general domai
 3. Check if it spans **multiple role domains** (score ≥ 3) → invoke multiple roles
 4. Check if it meets **escalation criteria** (score ≥ 4 or irreversible) → trigger board meeting
 5. If unclear → ask one clarifying question, then route
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

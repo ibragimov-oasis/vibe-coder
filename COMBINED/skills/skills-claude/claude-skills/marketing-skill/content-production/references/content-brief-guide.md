@@ -151,3 +151,9 @@ Define it now so you don't change the definition later.
 | H2s that are just topic labels | No promise, no structure | Rewrite as complete-thought headers |
 | No internal links specified | Orphaned content | List 2-3 links before writing |
 | No success criteria | Can't evaluate performance | Define at least one measurable outcome |
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

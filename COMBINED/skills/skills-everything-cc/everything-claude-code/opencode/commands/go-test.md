@@ -133,3 +133,9 @@ package/
 ---
 
 **TIP**: Use `testify/assert` for cleaner assertions, or stick with stdlib for simplicity.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

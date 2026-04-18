@@ -308,3 +308,9 @@ components/Button.tsx (variantプロップ付き)
 ---
 
 **覚えておいてください**: デッドコードは技術的負債です。定期的なクリーンアップはコードベースを保守しやすく高速に保ちます。ただし安全第一 - なぜ存在するのか理解せずにコードを削除しないでください。
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

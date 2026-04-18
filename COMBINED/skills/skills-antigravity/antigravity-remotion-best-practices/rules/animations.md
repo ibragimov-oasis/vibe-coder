@@ -29,4 +29,10 @@ export const FadeIn = () => {
 ```
 
 CSS transitions or animations are FORBIDDEN - they will not render correctly.  
-Tailwind animation class names are FORBIDDEN - they will not render correctly.  
+Tailwind animation class names are FORBIDDEN - they will not render correctly.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

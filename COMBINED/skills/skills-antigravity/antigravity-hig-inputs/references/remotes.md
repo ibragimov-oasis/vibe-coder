@@ -69,3 +69,8 @@ Some remotes that are compatible with Apple TV include buttons for browsing live
 
 [Use your Siri Remote or Apple TV Remote with Apple TV](https://support.apple.com/en-us/HT205305)
 
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

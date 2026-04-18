@@ -162,3 +162,9 @@ For a 1,000-word piece, count:
 - 0-5 total flags: Light edit (Mode 2 quick pass)
 - 6-12 total flags: Full humanize pass (Mode 2 complete)
 - 12+ total flags: Full rewrite recommended (Mode 1 audit → complete Mode 2 → Mode 3)
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

@@ -106,3 +106,9 @@ tags:
     SOC 2 Type I and Type II compliance preparation for SaaS companies. Covers Trust Service Criteria mapping, control ma...
 
 </div>
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

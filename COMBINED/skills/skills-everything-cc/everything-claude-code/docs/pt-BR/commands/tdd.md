@@ -330,3 +330,9 @@ A skill relacionada `tdd-workflow` também é distribuída com o ECC.
 Para instalações manuais, os arquivos fonte ficam em:
 - `agents/tdd-guide.md`
 - `skills/tdd-workflow/SKILL.md`
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

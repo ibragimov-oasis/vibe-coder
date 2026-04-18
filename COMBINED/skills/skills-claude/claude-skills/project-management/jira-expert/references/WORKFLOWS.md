@@ -202,3 +202,9 @@ Workflow Scheme: "Engineering Workflow Scheme"
 5. **Document your workflow** — add descriptions to statuses and transitions
 6. **Use global transitions carefully** — a "Cancel" transition from any status is convenient but can bypass important gates
 7. **Audit quarterly** — remove statuses with <5% usage
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

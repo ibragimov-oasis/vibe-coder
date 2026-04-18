@@ -61,5 +61,10 @@ tags:
   - source/skills-antigravity
 ---|---  
 September 12, 2023| Updated to include guidance for iOS.  
-September 14, 2022| New page.  
-  
+September 14, 2022| New page.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

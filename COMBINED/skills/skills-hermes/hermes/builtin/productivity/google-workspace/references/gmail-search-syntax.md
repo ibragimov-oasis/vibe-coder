@@ -68,3 +68,9 @@ subject:"Q4 budget" newer_than:30d
 # Large attachments to clean up
 has:attachment larger:10M older_than:90d
 ```
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-hermes]] — Category: skills-hermes
+

@@ -58,3 +58,9 @@ const sorted = [...items].sort((a, b) => a.value - b.value)
 - `.toReversed()` - immutable reverse
 - `.toSpliced()` - immutable splice
 - `.with()` - immutable element replacement
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

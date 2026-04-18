@@ -51,3 +51,9 @@ tags:
 
 - 文档、变更日志和生成的元数据在发布状态上保持一致。
 - 仓库成功发布了 `v8.2.0` 标签和 GitHub 发布版本。
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

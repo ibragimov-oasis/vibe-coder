@@ -39,3 +39,9 @@ tags:
 ## Reference
 
 See skill: `laravel-security` for Laravel-specific security guidance.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

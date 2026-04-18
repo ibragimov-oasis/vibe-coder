@@ -290,3 +290,9 @@ cargo fmt -- --check
 * 从 `main` 创建功能分支，需要 PR
 * CI：`cargo fmt --check`、`cargo clippy`、`cargo test`、`cargo audit`
 * 部署：使用 `scratch` 或 `distroless` 基础镜像的 Docker 多阶段构建
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

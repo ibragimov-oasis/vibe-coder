@@ -42,3 +42,9 @@ tags:
 ## Reference
 
 See skill: `backend-patterns` for broader service/repository layering guidance.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

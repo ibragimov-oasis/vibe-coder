@@ -13,3 +13,9 @@ tags:
 ## 流程
 
 遵循 `rules-distill` 技能中定义的完整工作流程。
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

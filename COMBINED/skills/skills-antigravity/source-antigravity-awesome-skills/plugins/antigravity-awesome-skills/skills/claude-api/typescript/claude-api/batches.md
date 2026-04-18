@@ -111,3 +111,9 @@ for await (const result of await client.messages.batches.results(
 const cancelled = await client.messages.batches.cancel(messageBatch.id);
 console.log(`Status: ${cancelled.processing_status}`); // "canceling"
 ```
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

@@ -217,3 +217,9 @@ export default function HeroSection() {
 | `className` | string | CSS class |
 
 See [PERFORMANCE.md](PERFORMANCE.md) and [COMMON_PROBLEMS.md](COMMON_PROBLEMS.md) before finishing.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

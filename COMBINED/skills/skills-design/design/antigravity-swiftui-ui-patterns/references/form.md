@@ -102,3 +102,9 @@ struct AddRemoteServerView: View {
 - Avoid heavy custom layouts inside a `Form`; it can lead to spacing issues.
 - If you need highly custom layouts, prefer `ScrollView` + `VStack`.
 - Don’t mix multiple background strategies; pick either default Form styling or custom colors.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-design]] — Category: skills-design
+

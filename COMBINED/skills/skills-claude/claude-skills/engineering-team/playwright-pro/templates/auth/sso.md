@@ -120,3 +120,9 @@ test.describe('SSO', () => {
 | IdP error | access_denied → error page with back link |
 | Invalid state | CSRF protection rejects tampered callback |
 | First login | Auto-provisions account on initial SSO |
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

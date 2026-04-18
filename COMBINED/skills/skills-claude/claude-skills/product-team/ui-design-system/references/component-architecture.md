@@ -401,3 +401,9 @@ const Button = styled.button`
 ---
 
 *See also: `token-generation.md` for token creation*
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

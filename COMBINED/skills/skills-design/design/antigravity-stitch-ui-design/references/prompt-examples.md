@@ -606,3 +606,9 @@ Platform: Desktop web (1440px+)
 7. **Iterate** - Start with a basic prompt, then refine with annotations
 
 Remember: These are starting points. Stitch works best when you provide specific details relevant to your unique project.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-design]] — Category: skills-design
+

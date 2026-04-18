@@ -100,3 +100,9 @@ tags:
 - **Inadequate post-market surveillance** systems
 - **Poor documentation quality** and traceability
 - **Underestimating timeline** and resource requirements
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

@@ -47,3 +47,9 @@ Skill file to analyze:
 ---
 {skill_content}
 ---
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

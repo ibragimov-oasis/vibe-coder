@@ -115,3 +115,9 @@ Agent (planner):
 
 이 커맨드는 다음 위치의 `planner` 에이전트를 호출합니다:
 `~/COMBINED/workspace-config/claude/agents/planner.md`
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

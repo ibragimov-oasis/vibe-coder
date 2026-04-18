@@ -66,3 +66,9 @@ Provide:
 - E-E-A-T breakdown with scores per factor
 - AI citation readiness score
 - Specific improvement recommendations
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-seo]] — Category: skills-seo
+

@@ -309,3 +309,9 @@ Found a Kiro-specific use case or workflow? Contribute to this guide:
 - **Issues**: [GitHub Issues](https://github.com/sickn33/antigravity-awesome-skills/issues)
 - **Discussions**: [GitHub Discussions](https://github.com/sickn33/antigravity-awesome-skills/discussions)
 - **Community**: [Community Guidelines](../contributors/community-guidelines.md)
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

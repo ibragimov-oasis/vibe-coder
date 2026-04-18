@@ -89,3 +89,9 @@ psql -c "SELECT indexrelname, idx_scan, idx_tup_read FROM pg_stat_user_indexes O
 **기억하세요**: 데이터베이스 문제는 종종 애플리케이션 성능 문제의 근본 원인입니다. 쿼리와 스키마 설계를 조기에 최적화하세요. EXPLAIN ANALYZE로 가정을 검증하세요. 항상 외래 키와 RLS 정책 컬럼에 인덱스를 추가하세요.
 
 *패턴은 Supabase Agent Skills에서 발췌 (크레딧: Supabase 팀), MIT 라이선스.*
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

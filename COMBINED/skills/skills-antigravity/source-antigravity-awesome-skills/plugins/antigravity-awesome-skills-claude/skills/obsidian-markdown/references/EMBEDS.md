@@ -68,3 +68,9 @@ Where the list has a block ID:
 tag:#project status:done
 ```
 ````
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

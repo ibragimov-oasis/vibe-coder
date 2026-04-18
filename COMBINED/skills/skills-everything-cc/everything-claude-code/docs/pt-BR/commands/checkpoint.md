@@ -79,3 +79,9 @@ $ARGUMENTS:
 - `verify <name>` - Verificar contra checkpoint nomeado
 - `list` - Mostrar todos os checkpoints
 - `clear` - Remover checkpoints antigos (mantém os últimos 5)
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

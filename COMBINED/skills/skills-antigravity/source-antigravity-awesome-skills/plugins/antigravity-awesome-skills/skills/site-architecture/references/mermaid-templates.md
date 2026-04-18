@@ -221,3 +221,9 @@ Color key:
 - **Red** (`#f44336`): Pages to remove or redirect
 - **Yellow** (`#FFC107`): Pages to restructure or move
 - **Purple** (`#9C27B0`): High-priority / CTA pages
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

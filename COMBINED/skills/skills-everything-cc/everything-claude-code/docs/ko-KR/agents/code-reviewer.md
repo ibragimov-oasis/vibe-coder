@@ -239,3 +239,9 @@ AI 생성 변경사항 리뷰 시 우선순위:
 비용 인식 체크:
 - 명확한 추론 필요 없이 더 비싼 모델로 에스컬레이션하는 워크플로우를 플래그하세요.
 - 결정론적 리팩토링에는 저비용 티어를 기본으로 사용하도록 권장하세요.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

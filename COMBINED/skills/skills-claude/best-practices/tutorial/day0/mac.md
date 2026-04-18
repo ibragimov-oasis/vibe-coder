@@ -37,3 +37,9 @@ tags:
 ---
 
 Now head back to [README.md](README.md) for authentication setup.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

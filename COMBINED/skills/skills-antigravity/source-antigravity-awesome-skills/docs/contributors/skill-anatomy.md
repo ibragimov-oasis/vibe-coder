@@ -590,3 +590,9 @@ Keep skills updated with current best practices
 ---
 
 **Remember:** Every expert was once a beginner. Start simple, learn from feedback, and improve over time! 🚀
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

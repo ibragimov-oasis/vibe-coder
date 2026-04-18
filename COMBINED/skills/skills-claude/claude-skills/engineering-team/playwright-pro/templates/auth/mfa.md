@@ -130,3 +130,9 @@ test.describe('MFA', () => {
 | Invalid code | Wrong code → alert, stays on MFA page |
 | Expired code | Clock-advanced token rejected |
 | MFA enrollment | QR shown → token verified → backup codes displayed |
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

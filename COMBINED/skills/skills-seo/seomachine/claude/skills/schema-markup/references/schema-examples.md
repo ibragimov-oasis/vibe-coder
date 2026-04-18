@@ -389,3 +389,9 @@ export default function ProductPage({ product }) {
   );
 }
 ```
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-seo]] — Category: skills-seo
+

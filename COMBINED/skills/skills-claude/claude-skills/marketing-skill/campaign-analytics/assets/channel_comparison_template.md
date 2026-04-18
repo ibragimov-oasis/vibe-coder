@@ -163,3 +163,9 @@ How each channel is valued under different attribution models:
 ---
 
 *Template from campaign-analytics skill. Populate with data from attribution_analyzer.py, funnel_analyzer.py, and campaign_roi_calculator.py.*
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

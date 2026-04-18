@@ -280,3 +280,9 @@ const jwtSecret = config.tokens.jwt;
 **Related Files:**
 - SKILL.md
 - [testing-guide.md](testing-guide.md)
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

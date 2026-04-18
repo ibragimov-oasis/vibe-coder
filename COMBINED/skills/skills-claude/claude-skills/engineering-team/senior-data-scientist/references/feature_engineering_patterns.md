@@ -85,3 +85,9 @@ Essential tools for this domain:
 - Industry blogs
 - Conference talks
 - Open source projects
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

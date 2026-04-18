@@ -240,3 +240,9 @@ const usersWithPosts = await db.query(`
 
 * 标记那些在没有明确理由需求的情况下升级到更高成本模型的工作流程。
 * 建议对于确定性的重构，默认使用较低成本的层级。
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

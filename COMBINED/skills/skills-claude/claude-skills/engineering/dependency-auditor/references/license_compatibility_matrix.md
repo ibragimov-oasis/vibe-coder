@@ -243,3 +243,9 @@ License compatibility is crucial for legal compliance and risk management. When 
 5. **Use automated tools** for continuous monitoring
 
 Remember: This matrix provides general guidance but legal requirements may vary by jurisdiction and specific use cases. Always consult with legal counsel for important licensing decisions.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

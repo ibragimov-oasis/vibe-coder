@@ -78,3 +78,9 @@ govulncheck ./...
 - **Engelle**: KRİTİK veya YÜKSEK sorunlar bulundu
 
 Detaylı Go kod örnekleri ve karşı desenler için, `skill: golang-patterns` bölümüne bakın.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

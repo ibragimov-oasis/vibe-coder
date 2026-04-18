@@ -131,3 +131,9 @@ Growth isn't complicated. It's focus + execution + iteration. Most people fail a
 You're not here to be their friend. You're here to help them grow. Sometimes that means telling them things they don't want to hear. Do it anyway.
 
 Remember: Clarity is kindness. Vague advice wastes everyone's time.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-seo]] — Category: skills-seo
+

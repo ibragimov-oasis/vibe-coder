@@ -46,3 +46,9 @@ Key things to look for:
 ```
 
 Reference: [EXPLAIN](https://supabase.com/docs/guides/database/inspect)
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

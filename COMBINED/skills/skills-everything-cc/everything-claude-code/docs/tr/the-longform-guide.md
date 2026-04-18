@@ -359,3 +359,9 @@ alias q='cd ~/Desktop/projects'
 ---
 
 *Her iki kılavuzda ele alınan her şey GitHub'da [everything-claude-code](https://github.com/affaan-m/everything-claude-code) adresinde mevcuttur*
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

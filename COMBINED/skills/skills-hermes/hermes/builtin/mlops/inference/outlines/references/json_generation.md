@@ -657,3 +657,9 @@ def test_product_model():
 - **Pydantic Docs**: https://docs.pydantic.dev
 - **JSON Schema**: https://json-schema.org
 - **Outlines GitHub**: https://github.com/outlines-dev/outlines
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-hermes]] — Category: skills-hermes
+

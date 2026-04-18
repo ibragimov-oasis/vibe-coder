@@ -204,3 +204,9 @@ description: Creates an SVG weather card...
 - **Invoked via Skill tool**: Command calls `Skill(skill: "weather-svg-creator")`
 - **Independent execution**: Runs in the command's context, not inside an agent
 - **Receives data from context**: Uses temperature data already available in the conversation
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

@@ -729,3 +729,9 @@ const nextConfig = {
 
 module.exports = nextConfig;
 ```
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

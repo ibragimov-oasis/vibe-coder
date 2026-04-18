@@ -226,3 +226,9 @@ Score each item 0-2 (0 = missing, 1 = exists but weak, 2 = done well):
 11. Adding vs. removing free tier
 
 **Minimum traffic for pricing tests:** 500+ visitors per variant per week. Below that, results won't be statistically meaningful.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

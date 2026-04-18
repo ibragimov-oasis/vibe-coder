@@ -112,3 +112,9 @@ tags:
     Generate user personas from research data, create journey maps, plan usability tests, and synthesize research finding...
 
 </div>
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

@@ -82,3 +82,9 @@ When to use steps:
 - Any non-deterministic operation
 
 Reference: [DBOS Steps](https://docs.dbos.dev/golang/tutorials/step-tutorial)
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

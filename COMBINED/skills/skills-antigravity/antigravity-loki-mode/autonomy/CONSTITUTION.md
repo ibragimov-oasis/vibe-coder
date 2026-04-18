@@ -407,3 +407,9 @@ All rules in this constitution are **machine-enforceable** and **MUST** be imple
 ---
 
 *"In autonomous systems, trust is built on invariants, not intentions."*
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

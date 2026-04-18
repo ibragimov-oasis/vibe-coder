@@ -38,3 +38,9 @@ tags:
 - Pregel implements the execution engine using channels for communication
 - Graph builds on Pregel adding workflow semantics and node/edge definitions
 - StateGraph extends Graph with shared state management capabilities
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-awesome-claude]] — Category: skills-awesome-claude
+

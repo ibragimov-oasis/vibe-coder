@@ -150,3 +150,9 @@ tags:
     Generate structured user stories with acceptance criteria, story points, and sprint capacity planning.
 
 </div>
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

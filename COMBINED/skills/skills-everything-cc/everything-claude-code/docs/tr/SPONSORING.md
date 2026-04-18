@@ -48,3 +48,9 @@ Kesin komut parçacıkları ve tekrarlanabilir çekme süreci için [`docs/busin
 
 - GitHub Sponsors: [https://github.com/sponsors/affaan-m](https://github.com/sponsors/affaan-m)
 - Proje sitesi: [https://ecc.tools](https://ecc.tools)
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

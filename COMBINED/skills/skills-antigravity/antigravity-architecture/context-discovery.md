@@ -48,3 +48,9 @@ tags:
 │ Example      │ Next.js API   │ NestJS       │ Microservices│
 └─────────────────────────────────────────────────────────────┘
 ```
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

@@ -137,3 +137,9 @@ echo.
 echo Next step: remove the broken skill from %PATH_MAIN%\plugins\skills
 pause
 ```
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

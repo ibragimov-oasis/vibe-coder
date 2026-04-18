@@ -265,3 +265,9 @@ Preventive Measures:
 
 Verification Request: [Date auditor can verify]
 ```
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

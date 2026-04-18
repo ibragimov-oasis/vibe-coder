@@ -167,3 +167,9 @@ test.describe('Color Contrast', () => {
 | Error text contrast | Error messages pass axe |
 | Color-only info | Badges have text or aria-label |
 | Full axe scan | WCAG 2.1 AA complete scan |
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

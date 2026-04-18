@@ -46,3 +46,9 @@ This file defines the rule categories for DBOS TypeScript best practices. Rules 
 ## 9. Advanced (advanced)
 **Impact:** LOW
 **Description:** Workflow versioning, patching, and safe code upgrades.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

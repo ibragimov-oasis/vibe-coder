@@ -481,3 +481,9 @@ def get_user(user_id):
 - **Input**: Current and target schemas
 - **Analysis**: Schema differences, dependency resolution, risk assessment
 - **Output**: Migration scripts, rollback plans, validation queries
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

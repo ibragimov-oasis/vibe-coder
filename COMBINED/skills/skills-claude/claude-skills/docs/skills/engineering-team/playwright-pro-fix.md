@@ -123,3 +123,9 @@ Suggest:
 - The fix applied (with diff)
 - Verification result (10/10 passes)
 - Prevention recommendation
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

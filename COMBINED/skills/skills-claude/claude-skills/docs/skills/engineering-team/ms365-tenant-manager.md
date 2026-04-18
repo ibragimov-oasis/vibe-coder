@@ -286,3 +286,9 @@ Install-Module MicrosoftTeams -Scope CurrentUser
 - **User Administrator** — User management
 - **Security Administrator** — Security policies
 - **Exchange Administrator** — Mailbox management
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

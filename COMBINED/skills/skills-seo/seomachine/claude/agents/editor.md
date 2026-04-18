@@ -471,3 +471,9 @@ composite = (humanity × 0.30) + (specificity × 0.25) + (structure_balance × 0
 **Pass threshold**: composite ≥ 70
 
 This structured output enables the automated quality loop in `/write` to parse your feedback and apply revisions programmatically.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-seo]] — Category: skills-seo
+

@@ -23,3 +23,9 @@ tags:
 | 2026-03-07 | 25.7 | Celsius |
 | 2026-03-11 | 26.2 | Celsius |
 | 2026-03-11 | 26.2 | Celsius |
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

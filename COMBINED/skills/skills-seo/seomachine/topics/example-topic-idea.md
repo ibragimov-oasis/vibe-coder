@@ -53,3 +53,9 @@ Podcast analytics for beginners
 ---
 
 **Note**: This is just a brain dump. Not all ideas will become articles. Use this space to capture thoughts, then run `/research` to validate and develop the topic.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-seo]] — Category: skills-seo
+

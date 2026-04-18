@@ -116,3 +116,9 @@ npx eslint . --fix
 ---
 
 **기억하세요**: 에러를 수정하고, build 통과를 확인하고, 넘어가세요. 완벽보다는 속도와 정확성이 우선입니다.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

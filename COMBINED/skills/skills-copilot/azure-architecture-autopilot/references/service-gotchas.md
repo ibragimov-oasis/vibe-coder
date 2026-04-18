@@ -118,3 +118,9 @@ Default rules:
 ├─ Foundry (AIServices) → Application Insights not required
 └─ AI Hub (MachineLearningServices) → Application Insights + Log Analytics required
 ```
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-copilot]] — Category: skills-copilot
+

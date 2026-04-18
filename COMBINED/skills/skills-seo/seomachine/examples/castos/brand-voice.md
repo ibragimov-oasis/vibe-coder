@@ -272,3 +272,9 @@ Before publishing any content, verify:
 ---
 
 **Remember**: Every piece of content should make podcast creators feel more capable and confident about their podcasting journey. We're not just providing information—we're empowering success.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-seo]] — Category: skills-seo
+

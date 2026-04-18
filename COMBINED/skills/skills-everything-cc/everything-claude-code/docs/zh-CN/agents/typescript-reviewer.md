@@ -124,3 +124,9 @@ jest --ci                           # Tests (Jest)
 ***
 
 以这种心态进行审查："这段代码能否通过顶级 TypeScript 公司或维护良好的开源项目的审查？"
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

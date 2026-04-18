@@ -106,3 +106,9 @@ function StatusBadge({ icon: Icon }: { icon: React.ComponentType }) {
 
 <StatusBadge icon={CheckIcon} />
 ```
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

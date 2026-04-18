@@ -328,3 +328,9 @@ Mídias em que o usuário foi mencionado/tagueado.
   }
 }
 ```
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

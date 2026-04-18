@@ -19,3 +19,9 @@ tags:
 
 ## Commands
 - {{relevant command}}: `{{command}}`
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

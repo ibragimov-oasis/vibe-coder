@@ -134,3 +134,9 @@ test.describe('Password Reset', () => {
 | Unknown email | Generic response (anti-enumeration) |
 | Passwords mismatch | Inline validation error |
 | Weak password | Strength requirement error |
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

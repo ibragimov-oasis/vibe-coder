@@ -44,3 +44,9 @@ join orders o on o.customer_id = c.id;
 ```
 
 Reference: [Query Optimization](https://supabase.com/docs/guides/database/query-optimization)
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

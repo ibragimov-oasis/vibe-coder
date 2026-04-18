@@ -54,3 +54,9 @@ private:
 ## 参考
 
 有关全面的 C++ 模式和反模式，请参阅技能：`cpp-coding-standards`。
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

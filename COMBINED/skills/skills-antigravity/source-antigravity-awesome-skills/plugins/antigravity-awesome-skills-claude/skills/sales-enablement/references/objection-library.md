@@ -275,3 +275,9 @@ For live calls. Find the objection, scan the response, reference the proof.
 **Proof point:** Security certifications, compliance documentation, customers in regulated industries.
 
 **Follow-up question:** "Do you have a security questionnaire you'd like us to fill out?"
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

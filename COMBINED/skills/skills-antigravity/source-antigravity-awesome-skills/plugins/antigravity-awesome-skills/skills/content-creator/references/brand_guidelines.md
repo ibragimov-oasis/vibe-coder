@@ -204,3 +204,9 @@ Before publishing any content, verify:
 - [ ] Mobile-friendly formatting
 - [ ] Accessible to all audiences
 - [ ] Proofread and fact-checked
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

@@ -480,3 +480,9 @@ class DialogAgent(dspy.Module):
 
         return response
 ```
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-hermes]] — Category: skills-hermes
+

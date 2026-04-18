@@ -44,3 +44,9 @@ tags:
 - 不要和常见工具/框架名冲突
 - 好记、好念、好打字
 - 名字读完就能猜到大致性格
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

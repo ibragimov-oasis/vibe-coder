@@ -366,3 +366,9 @@ resource "aws_db_instance" "good" {
 - [Terraform Security Best Practices](https://www.terraform.io/docs/cloud/guides/recommended-practices/)
 
 **Remember**: Cloud misconfigurations are the leading cause of data breaches. A single exposed S3 bucket or overly permissive IAM policy can compromise your entire infrastructure. Always follow the principle of least privilege and defense in depth.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

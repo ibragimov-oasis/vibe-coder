@@ -208,3 +208,9 @@ tags:
     Evaluate and compare technologies, frameworks, and cloud providers with data-driven analysis and actionable recommend...
 
 </div>
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

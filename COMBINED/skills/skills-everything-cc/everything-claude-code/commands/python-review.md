@@ -299,3 +299,9 @@ The reviewer notes when code uses features from newer Python versions:
 | Type unions (&#96;x &#124; None&#96;) | 3.10+ |
 
 Ensure your project's `pyproject.toml` or `setup.py` specifies the correct minimum Python version.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

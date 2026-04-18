@@ -122,3 +122,9 @@ Final: `Status: SUCCESS/FAILED | Errors Fixed: N | Files Modified: list`
 ---
 
 For PyTorch best practices, consult the [official PyTorch documentation](https://pytorch.org/docs/stable/) and [PyTorch forums](https://discuss.pytorch.org/).
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

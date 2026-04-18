@@ -105,3 +105,9 @@ Workers Completed: 4/4
 
 - `/dual-spawn` - Spawn headless workers
 - `/dual-coordinate` - Full hybrid workflow
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-ruflo]] — Category: skills-ruflo
+

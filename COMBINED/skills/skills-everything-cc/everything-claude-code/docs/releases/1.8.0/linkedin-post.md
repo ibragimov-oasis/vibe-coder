@@ -18,3 +18,9 @@ This release improves:
 We also shipped NanoClaw v2 with stronger session operations for real workflow usage.
 
 If your AI coding workflow feels inconsistent, start by treating the harness as a first-class engineering system.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

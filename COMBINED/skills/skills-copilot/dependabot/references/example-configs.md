@@ -414,3 +414,9 @@ updates:
 ```
 
 Note: Security updates always target the default branch regardless of `target-branch`.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-copilot]] — Category: skills-copilot
+

@@ -50,3 +50,9 @@ dbos.RunWorkflow(ctx, gpuTask, "data",
 ```
 
 Reference: [Listening to Specific Queues](https://docs.dbos.dev/golang/tutorials/queue-tutorial#listening-to-specific-queues)
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

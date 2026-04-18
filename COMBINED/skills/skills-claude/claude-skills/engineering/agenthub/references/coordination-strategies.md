@@ -191,3 +191,9 @@ Agents should write results in this format:
 - **Confidence**: {High/Medium/Low} — {reason}
 - **Limitations**: {known issues or edge cases}
 ```
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

@@ -175,3 +175,9 @@ resource dnsGroup 'Microsoft.Network/privateEndpoints/privateDnsZoneGroups@<fetc
 ```
 
 > `@<fetch>`: Always verify the latest stable API version from MS Docs before deployment.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-copilot]] — Category: skills-copilot
+

@@ -238,3 +238,9 @@ python scripts/poc_planner.py poc_data.json --format json  # JSON output
 **Tools:** 3 Python automation scripts
 **References:** 3 knowledge base documents
 **Templates:** 5 asset files
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

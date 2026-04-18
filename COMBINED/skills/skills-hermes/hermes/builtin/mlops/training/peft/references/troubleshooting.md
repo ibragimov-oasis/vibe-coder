@@ -485,3 +485,9 @@ print(f"GPU: {torch.cuda.get_device_name(0) if torch.cuda.is_available() else 'N
 print(model.peft_config)
 model.print_trainable_parameters()
 ```
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-hermes]] — Category: skills-hermes
+

@@ -105,3 +105,9 @@ test('flaky: market search', async ({ page }) => {
 ---
 
 **기억하세요**: E2E 테스트는 프로덕션 전 마지막 방어선입니다. 단위 테스트가 놓치는 통합 문제를 잡습니다. 안정성, 속도, 커버리지에 투자하세요.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

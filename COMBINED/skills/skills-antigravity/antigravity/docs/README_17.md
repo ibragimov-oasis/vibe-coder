@@ -52,3 +52,9 @@ Once installed, this skill is automatically triggered when discussing Sankhya da
 - *"Gere o CSS padrão (.card, variáveis de cor) recomendado pela skill do Sankhya."*
 
 By referring to this skill, the AI will contextualize its response using the specific technical notes mapped out for Sankhya development.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

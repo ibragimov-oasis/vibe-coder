@@ -1155,3 +1155,9 @@ Before sharing a Skill, verify:
     Upload and use Skills programmatically
   </Card>
 </CardGroup>
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-superpowers]] — Category: skills-superpowers
+

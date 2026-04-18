@@ -744,3 +744,9 @@ const db = await DatabaseConnection.create(url);
 ```
 
 **Detection:** `async` calls or `.then()` in constructor.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

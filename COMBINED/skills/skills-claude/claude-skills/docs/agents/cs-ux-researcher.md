@@ -536,3 +536,9 @@ echo "See: ../../product-team/ui-design-system/references/developer-handoff.md"
 **Last Updated:** March 9, 2026
 **Status:** Production Ready
 **Version:** 1.0
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

@@ -119,5 +119,10 @@ A CarPlay app needs to handle errors gracefully and report them to people only w
 
 Date| Changes  
 ---|---  
-May 2, 2023| Consolidated guidance into one page.  
-  
+May 2, 2023| Consolidated guidance into one page.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

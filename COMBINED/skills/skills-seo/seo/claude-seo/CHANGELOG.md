@@ -273,3 +273,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Valid hook matchers (tool name only, no argument patterns)
 - Correct subagent frontmatter fields (name, description, tools)
 - CLI command is `claude` (not `claude-code`)
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-seo]] — Category: skills-seo
+

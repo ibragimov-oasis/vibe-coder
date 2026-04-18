@@ -219,3 +219,9 @@ This guide provides a comprehensive security hardening checklist for Atlassian C
 | User access review | Quarterly | Managers + IT Admin |
 | Data residency verification | Annually | Compliance |
 | Mobile device audit | Quarterly | IT Admin |
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

@@ -54,3 +54,9 @@ tags:
 - [`sources/sources.md`](sources/sources.md)
 - [`sources/LICENSE-MICROSOFT`](sources/LICENSE-MICROSOFT)
 - [`sources/microsoft-skills-attribution.json`](sources/microsoft-skills-attribution.json)
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

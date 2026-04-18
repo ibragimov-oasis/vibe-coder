@@ -611,3 +611,9 @@ TOP 3 ACTIONS TO GET BACK ON TRACK:
 ---
 
 *Cadence framework synthesized from Amazon's PR/FAQ culture, Google's OKR playbook, GitLab's remote work handbook, and operational patterns from 50+ Series A–C companies.*
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

@@ -61,3 +61,9 @@ Use @mcp-builder to plan the tools needed for a GitHub + Slack integration.
 - Start with [`bundles.md`](bundles.md) if you want a smaller curated subset by role.
 - Read [`ai-agent-skills.md`](ai-agent-skills.md) if you are comparing general-purpose agent skill libraries.
 - Use [`usage.md`](usage.md) if you want more examples of how to invoke skills in real prompts.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

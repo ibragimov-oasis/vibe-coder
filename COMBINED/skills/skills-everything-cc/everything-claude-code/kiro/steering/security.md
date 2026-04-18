@@ -36,3 +36,9 @@ If security issue found:
 3. Fix CRITICAL issues before continuing
 4. Rotate any exposed secrets
 5. Review entire codebase for similar issues
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

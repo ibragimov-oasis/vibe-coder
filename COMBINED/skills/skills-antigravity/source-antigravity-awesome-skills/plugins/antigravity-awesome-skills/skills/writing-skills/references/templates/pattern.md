@@ -50,3 +50,9 @@ function after() {
 
 **Before:** [Problem metric]
 **After:** [Improved metric]
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

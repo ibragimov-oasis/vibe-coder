@@ -130,3 +130,9 @@ server {
     -m model.gguf \
     --cache-prompt  # Cache processed prompts
 ```
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-hermes]] — Category: skills-hermes
+

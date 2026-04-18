@@ -506,3 +506,9 @@ export const MyComponent: React.FC = () => {
 **See Also:**
 - [component-patterns.md](component-patterns.md) - Suspense integration
 - [data-fetching.md](data-fetching.md) - useSuspenseQuery details
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

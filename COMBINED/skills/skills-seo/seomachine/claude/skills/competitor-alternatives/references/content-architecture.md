@@ -268,3 +268,9 @@ Footer
 - Keep footer clean—don't list every comparison, just the top ones
 - Match column headers to your URL structure (e.g., "vs" column → `/vs/` URLs)
 - Consider mobile: columns may stack, so order by priority
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-seo]] — Category: skills-seo
+

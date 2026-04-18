@@ -187,3 +187,9 @@ Remember and build expertise in:
 - When paid ads become viable (post-PMF, CAC < 1/3 LTV, proven retention)
 - How to identify diminishing returns on a channel before budget is wasted
 - What distinguishes products that grow virally from those that need paid distribution
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

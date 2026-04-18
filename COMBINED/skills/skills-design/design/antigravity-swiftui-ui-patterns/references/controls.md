@@ -62,3 +62,9 @@ Picker("Default Visibility", selection: $visibility) {
 - Avoid `.pickerStyle(.segmented)` for large sets; use menu or inline styles instead.
 - Don’t hide labels for sliders; always show context.
 - Avoid hard-coding colors for controls; use theme tint sparingly.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-design]] — Category: skills-design
+

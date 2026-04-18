@@ -313,3 +313,9 @@ pytest --lf
 - `main`에서 feature 브랜치 생성, PR 필수
 - CI: ruff (린트 + 포맷), mypy (타입), pytest (테스트), safety (의존성 검사)
 - 배포: Docker 이미지, Kubernetes 또는 Railway로 관리
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

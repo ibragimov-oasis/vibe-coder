@@ -123,3 +123,9 @@ CONFIDENCE: {0-1 overall confidence in the counts}
 5. **Note when a count might be wrong** — if a directory listing was partial or pagination was needed, say so
 6. **Do NOT modify any local files** — this is read-only research
 7. **If the GitHub API rate-limits you**, fall back to web fetching the repo page and parsing HTML
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

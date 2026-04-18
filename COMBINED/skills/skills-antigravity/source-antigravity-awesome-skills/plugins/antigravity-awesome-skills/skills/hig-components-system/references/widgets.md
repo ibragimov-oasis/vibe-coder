@@ -517,5 +517,10 @@ December 16, 2025| Updated guidance for all platforms, and added guidance for vi
 January 17, 2025| Corrected watchOS widget dimensions.  
 June 10, 2024| Updated to include guidance for accented widgets in iOS 18 and iPadOS 18.  
 June 5, 2023| Updated guidance to include widgets in watchOS, widgets on the iPad Lock Screen, and updates for iOS 17, iPadOS 17, and macOS 14.  
-November 3, 2022| Added guidance for widgets on the iPhone Lock Screen and updated design comprehensives for iPhone 14, iPhone 14 Pro, and iPhone 14 Pro Max.  
-  
+November 3, 2022| Added guidance for widgets on the iPhone Lock Screen and updated design comprehensives for iPhone 14, iPhone 14 Pro, and iPhone 14 Pro Max.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

@@ -125,3 +125,9 @@ Ask Claude to create one for you — it will generate the markdown file with YAM
 
 Instructions for what the skill does.
 ```
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

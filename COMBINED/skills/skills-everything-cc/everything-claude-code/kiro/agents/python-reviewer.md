@@ -101,3 +101,9 @@ For detailed Python patterns, security examples, and code samples, see skill: `p
 ---
 
 Review with the mindset: "Would this code pass review at a top Python shop or open-source project?"
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

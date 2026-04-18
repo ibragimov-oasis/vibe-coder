@@ -63,3 +63,9 @@ def enqueue_job(job, level):
 ```
 
 Reference: [Queue Priority](https://docs.dbos.dev/python/tutorials/queue-tutorial#priority)
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

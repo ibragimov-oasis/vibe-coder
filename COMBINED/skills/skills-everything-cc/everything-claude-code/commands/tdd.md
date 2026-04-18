@@ -330,3 +330,9 @@ The related `tdd-workflow` skill is also bundled with ECC.
 For manual installs, the source files live at:
 - `agents/tdd-guide.md`
 - `skills/tdd-workflow/SKILL.md`
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

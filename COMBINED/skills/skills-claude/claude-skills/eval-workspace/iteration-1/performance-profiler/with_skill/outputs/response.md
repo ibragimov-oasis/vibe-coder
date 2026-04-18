@@ -162,3 +162,9 @@ Given the pattern (fine at low load, degrades at 500 concurrent), my top suspect
 3. **Missing index** — Seq Scan gets worse as table grows
 
 Start with Phase 2a-2c. You'll likely find your answer there without needing the flamegraph.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

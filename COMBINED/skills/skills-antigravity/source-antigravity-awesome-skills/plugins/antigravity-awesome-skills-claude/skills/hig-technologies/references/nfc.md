@@ -53,3 +53,8 @@ Background tag reading lets people scan tags quickly any time, without needing t
 
 [Core NFC](https://developer.apple.com/documentation/CoreNFC)
 
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

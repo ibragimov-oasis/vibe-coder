@@ -70,5 +70,10 @@ tags:
   - artifact/doc
   - source/skills-antigravity
 ---|---  
-June 21, 2023| Changed page title from Spatial interactions.  
-  
+June 21, 2023| Changed page title from Spatial interactions.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

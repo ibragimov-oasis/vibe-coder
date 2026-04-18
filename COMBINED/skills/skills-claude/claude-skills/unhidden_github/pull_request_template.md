@@ -29,3 +29,9 @@ tags:
 ## Testing
 
 <!-- How did you verify this works? -->
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

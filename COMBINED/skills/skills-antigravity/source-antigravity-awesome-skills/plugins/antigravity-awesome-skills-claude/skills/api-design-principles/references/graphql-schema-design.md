@@ -588,3 +588,9 @@ type User {
 8. **Complexity Limits**: Protect against expensive queries
 9. **Custom Scalars**: Use for domain-specific types (Email, DateTime)
 10. **Documentation**: Document all fields with descriptions
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

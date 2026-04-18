@@ -45,3 +45,9 @@ Principles:
 | Validation error | 422 | Valid syntax, invalid data |
 | Rate limited | 429 | Too many requests |
 | Server error | 500 | Our fault |
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

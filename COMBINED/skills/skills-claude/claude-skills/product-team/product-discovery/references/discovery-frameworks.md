@@ -77,3 +77,9 @@ Priority order:
 - Triangulate qualitative and quantitative signals.
 - Predefine decision criteria before test execution.
 - Archive evidence with date, segment, and method.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

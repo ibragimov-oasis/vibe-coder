@@ -298,3 +298,9 @@ You can layer multiple playbooks:
 - **Curation + Locations**: "Best coworking spaces in San Diego"
 - **Integrations + Personas**: "Slack for sales teams"
 - **Glossary + Translations**: Multi-language educational content
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-seo]] — Category: skills-seo
+

@@ -179,3 +179,9 @@ Need a tool-specific starting point first?
 1. [Browse the Bundles](bundles.md)
 2. [See Real-World Examples](../contributors/examples.md)
 3. [Contribute a Skill](../../CONTRIBUTING.md)
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

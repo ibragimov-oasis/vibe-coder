@@ -98,3 +98,9 @@ struct MyApp: App {
 ## Pitfalls
 - Don’t put UI state in the client; keep state in the store.
 - Don’t capture `self` or view state in the client closures.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

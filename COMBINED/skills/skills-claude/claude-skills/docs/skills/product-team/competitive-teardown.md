@@ -184,3 +184,9 @@ Navigation: global search, keyboard shortcuts, in-app help.
 
 - **Product Strategist** (`product-team/product-strategist/`) — Competitive insights feed OKR and strategy planning
 - **Landing Page Generator** (`product-team/landing-page-generator/`) — Competitive positioning informs landing page messaging
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

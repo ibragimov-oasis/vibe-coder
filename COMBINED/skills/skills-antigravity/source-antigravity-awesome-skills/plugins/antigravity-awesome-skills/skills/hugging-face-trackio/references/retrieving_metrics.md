@@ -256,3 +256,8 @@ All errors exit with non-zero status code and write to stderr.
 - **Complete CLI documentation**: See [docs/source/cli_commands.md](docs/source/cli_commands.md)
 - **API and MCP Server**: See [docs/source/api_mcp_server.md](docs/source/api_mcp_server.md)
 
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

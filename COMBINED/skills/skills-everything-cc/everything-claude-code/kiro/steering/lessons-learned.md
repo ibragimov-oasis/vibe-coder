@@ -86,3 +86,9 @@ The hooks table and Example 5 in README.md document the action type (`runCommand
 - Remove patterns that are no longer relevant
 - Update patterns as the project evolves
 - Focus on what's unique to this project
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

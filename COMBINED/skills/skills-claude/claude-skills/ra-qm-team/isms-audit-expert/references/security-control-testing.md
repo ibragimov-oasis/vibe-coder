@@ -281,3 +281,9 @@ Technical verification procedures for ISO 27002 control assessment.
 - SSL/TLS scan results
 - Key management procedures
 - Certificate inventory
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

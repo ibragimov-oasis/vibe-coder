@@ -105,3 +105,9 @@ Features:
 - [ ] Terminology is consistent across artifacts.
 - [ ] Risks and dependencies are not hidden.
 - [ ] Next actions and owners are specified.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

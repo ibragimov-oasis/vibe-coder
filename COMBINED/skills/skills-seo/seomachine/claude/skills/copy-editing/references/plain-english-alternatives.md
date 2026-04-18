@@ -381,3 +381,9 @@ These phrases often add nothing. Delete them:
 - the fact of the matter is
 - to all intents and purposes
 - very
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-seo]] — Category: skills-seo
+

@@ -83,3 +83,9 @@ All 192 skills across 9 domains. See the [full README](https://github.com/alirez
 ---
 
 *Last updated: March 2026 · [alirezarezvani/claude-skills](https://github.com/alirezarezvani/claude-skills)*
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

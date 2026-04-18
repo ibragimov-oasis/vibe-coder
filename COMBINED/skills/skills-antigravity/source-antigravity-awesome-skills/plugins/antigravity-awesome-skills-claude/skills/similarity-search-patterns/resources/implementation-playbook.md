@@ -562,3 +562,9 @@ class WeaviateVectorStore:
 - [Qdrant Docs](https://qdrant.tech/documentation/)
 - [pgvector](https://github.com/pgvector/pgvector)
 - [Weaviate Docs](https://weaviate.io/developers/weaviate)
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

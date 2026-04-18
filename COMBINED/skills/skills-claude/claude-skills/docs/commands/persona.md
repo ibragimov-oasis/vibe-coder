@@ -48,3 +48,9 @@ Interactive mode prompts for product context. Alternatively, provide context inl
 
 ## Skill Reference
 > `product-team/ux-researcher-designer/SKILL.md`
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

@@ -33,3 +33,9 @@ tags:
 
 ## 返回结果
 - 返回地图图像 URL，并在 `_meta.spec` 中保留完整输入；若配置了 `SERVICE_ID`，生成记录会同步到“我的地图”小程序。
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-data-analysis]] — Category: skills-data-analysis
+

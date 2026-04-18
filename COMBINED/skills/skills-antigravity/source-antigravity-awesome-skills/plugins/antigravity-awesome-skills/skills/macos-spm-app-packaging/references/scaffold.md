@@ -84,3 +84,9 @@ app.delegate = delegate
 app.setActivationPolicy(.regular)
 app.run()
 ```
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

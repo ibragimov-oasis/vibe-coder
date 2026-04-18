@@ -551,3 +551,9 @@ Distribute content across global servers for faster delivery.
 - [MDN Performance](https://developer.mozilla.org/en-US/docs/Web/Performance)
 - [WebPageTest](https://www.webpagetest.org/)
 - [Lighthouse](https://developers.google.com/web/tools/lighthouse)
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-copilot]] — Category: skills-copilot
+

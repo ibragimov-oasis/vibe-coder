@@ -361,3 +361,9 @@ tags:
 | 6 | MED | Ownership Boundary | Add `CCR_FORCE_BUNDLE` to `claude-cli-startup-flags.md` — startup-only var for `claude --remote` bundling. On official /en/env-vars page but not in either file | ✅ COMPLETE (added to CLI startup flags env vars table) |
 | 7 | MED | Changed Description | Update `CLAUDE_CODE_GLOB_NO_IGNORE` description to match official: "Set to `false` to make the Glob tool respect `.gitignore` patterns. By default, Glob returns all matching files including gitignored ones. Does not affect `@` file autocomplete" | ✅ COMPLETE (description rewritten per official env-vars page) |
 | 8 | MED | Changed Description | Update `editorMode` description — remove stale `/vim` reference (removed in v2.1.94), change config label from "Key binding mode" to "Editor mode" per official docs | ✅ COMPLETE (removed /vim reference, config label updated) |
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

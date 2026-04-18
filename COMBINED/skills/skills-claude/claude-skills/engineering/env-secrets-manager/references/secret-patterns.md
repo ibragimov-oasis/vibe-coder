@@ -46,3 +46,9 @@ tags:
 - Keep `.gitignore` patterns for env and key material.
 - Use secret managers for staging/prod.
 - Redact sensitive values from logs and debug output.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

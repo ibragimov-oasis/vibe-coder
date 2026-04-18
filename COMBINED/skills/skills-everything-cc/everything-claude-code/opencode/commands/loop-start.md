@@ -37,3 +37,9 @@ Start a managed autonomous loop pattern with safety defaults.
 $ARGUMENTS:
 - `<pattern>` optional (`sequential|continuous-pr|rfc-dag|infinite`)
 - `--mode safe|fast` optional
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

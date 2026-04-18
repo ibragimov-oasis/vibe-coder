@@ -620,3 +620,9 @@ except Exception as e:
 | Secret Detection | GitLeaks, TruffleHog, detect-secrets |
 | Container Security | Trivy, Clair, Anchore |
 | Infrastructure | Terraform Sentinel, Checkov, tfsec |
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

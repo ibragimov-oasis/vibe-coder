@@ -197,3 +197,9 @@ TRAE_ENV=cn ./uninstall.sh
 - 在 Trae 中打开您的项目
 - 输入 `/` 以查看可用命令
 - 享受 ECC 工作流！
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

@@ -25,3 +25,9 @@ Use @bug-hunter to fix the login timeout issue
 ```
 
 The skill will systematically debug and fix the problem.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

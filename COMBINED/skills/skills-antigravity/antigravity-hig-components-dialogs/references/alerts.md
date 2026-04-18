@@ -158,5 +158,10 @@ Date| Changes
 ---|---  
 February 2, 2024| Enhanced guidance for using default and Cancel buttons.  
 September 12, 2023| Added anatomy artwork for visionOS.  
-June 21, 2023| Updated to include guidance for visionOS.  
-  
+June 21, 2023| Updated to include guidance for visionOS.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

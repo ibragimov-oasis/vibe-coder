@@ -198,3 +198,9 @@ Unpack all embedded files:
 ```bash
 pdftk input.pdf unpack_files output /path/to/output/
 ```
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-copilot]] — Category: skills-copilot
+

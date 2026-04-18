@@ -121,3 +121,9 @@ tags:
 - 效能瓶頸
 
 **記住**：好的計畫是具體的、可執行的，並且同時考慮正常流程和邊界情況。最好的計畫能讓實作過程自信且增量進行。
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

@@ -142,3 +142,9 @@ mutation {
 ```
 
 Use `afterId` or `beforeId` to position relative to another sub-issue.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-copilot]] — Category: skills-copilot
+

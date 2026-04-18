@@ -257,3 +257,9 @@ If days > 30: Acceptable for high-impact tests
 If days < 14: Likely feasible
 If days < 7: Easy to run, consider running longer anyway
 ```
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

@@ -695,3 +695,9 @@ Este fluxo garante:
 5. Deteccao de escalacao
 6. Roteamento por estado da conversa
 7. Marcacao automatica como lida
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

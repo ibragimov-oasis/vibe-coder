@@ -154,3 +154,9 @@ tags:
 
 - [zarazhangrui](https://github.com/zarazhangrui) tarafından ilham alındı
 - [humanplane](https://github.com/humanplane) tarafından homunculus-ilhamlı
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

@@ -242,3 +242,9 @@ Aspire templates include `.devcontainer/` configuration:
 ```
 
 Port forwarding works automatically in Codespaces — the dashboard and all service endpoints are accessible via forwarded URLs.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-copilot]] — Category: skills-copilot
+

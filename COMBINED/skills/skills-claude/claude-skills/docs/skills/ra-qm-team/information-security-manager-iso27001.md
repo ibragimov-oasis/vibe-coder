@@ -432,3 +432,9 @@ Application Security (A.8.26): PARTIAL
 
 Overall Compliance: 87%
 ```
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

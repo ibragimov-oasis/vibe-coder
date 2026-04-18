@@ -411,3 +411,9 @@ GROUP BY user_id;
 INSERT INTO tags (name) SELECT 'new-tag'
 WHERE NOT EXISTS (SELECT 1 FROM tags WHERE name = 'new-tag');
 ```
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

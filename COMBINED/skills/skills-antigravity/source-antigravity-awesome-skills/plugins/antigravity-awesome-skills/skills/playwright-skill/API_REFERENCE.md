@@ -658,3 +658,9 @@ npx playwright show-report
 - [Playwright Documentation](https://playwright.dev/docs/intro)
 - [API Reference](https://playwright.dev/docs/api/class-playwright)
 - [Best Practices](https://playwright.dev/docs/best-practices)
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

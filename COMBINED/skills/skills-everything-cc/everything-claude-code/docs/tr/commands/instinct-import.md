@@ -116,3 +116,9 @@ New instincts saved to: ~/.claude/homunculus/instincts/inherited/
 
 Run /instinct-status to see all instincts.
 ```
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

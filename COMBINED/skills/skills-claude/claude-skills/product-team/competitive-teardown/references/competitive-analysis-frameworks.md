@@ -112,3 +112,9 @@ Use a strategy canvas to decide where to raise, reduce, eliminate, or create fac
 - Compare value curves between your product and top competitors.
 - Ensure target segment is explicit.
 - Tie every strategic choice to measurable outcome.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

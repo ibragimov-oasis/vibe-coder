@@ -291,3 +291,9 @@ npx neuroskill sessions --json | jq '{start: .sessions[0].start_utc, end: .sessi
 - **ZUNA embeddings**: 128-D vectors, 5-second epochs
 - **Labels**: Stored in SQLite, indexed with bge-small-en-v1.5 embeddings
 - **All data is local** — nothing is sent to external servers
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-hermes]] — Category: skills-hermes
+

@@ -139,3 +139,9 @@ This annotation is the bridge between Playwright and TestRail.
 - Operation summary with counts
 - Any errors or unmatched cases
 - Link to TestRail run/results
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

@@ -168,3 +168,9 @@ tags:
 
 **Next QBR Date:** [Date]
 **Next Check-in:** [Date]
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

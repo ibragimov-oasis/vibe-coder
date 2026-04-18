@@ -80,3 +80,9 @@ Run the setup script to initialize the Gemini-specific skill index and symlinks:
 ```
 
 This will create a `.gemini/skills/` directory for easier discovery.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

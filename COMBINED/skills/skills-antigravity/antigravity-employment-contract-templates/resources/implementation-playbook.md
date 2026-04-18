@@ -498,3 +498,9 @@ Date: _________________________
 - [Department of Labor](https://www.dol.gov/)
 - [EEOC Guidance](https://www.eeoc.gov/)
 - State-specific labor departments
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

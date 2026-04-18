@@ -170,3 +170,9 @@ tests/           — 测试套件
 * 代码可读且可维护
 * 性能可接受
 * 满足用户需求
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

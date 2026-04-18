@@ -56,3 +56,9 @@ await DBOS.send(workflowID, message, "topic", "idempotency-key-123");
 ```
 
 Reference: [Workflow Messaging](https://docs.dbos.dev/typescript/tutorials/workflow-communication#workflow-messaging-and-notifications)
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

@@ -274,3 +274,9 @@ async function buildModelMessages(
 - 设置明确的限制(每轮最大技能数、token 阈值)。
 
 遵循此模式,Jetski/Cortex + Gemini 可以安全、可扩展且与现代模型的上下文窗口兼容的方式使用整个 `antigravity-awesome-skills` 库。
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

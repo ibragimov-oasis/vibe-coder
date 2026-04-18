@@ -908,3 +908,9 @@ Check PR URL and ensure all commits included
 - ✅ Terminology consistency ≥95%
 - ✅ Markdown linting passes
 - ✅ Ready for Chinese user review
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

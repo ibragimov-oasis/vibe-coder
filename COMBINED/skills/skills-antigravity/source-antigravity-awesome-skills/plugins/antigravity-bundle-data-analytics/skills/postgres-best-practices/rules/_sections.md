@@ -44,3 +44,9 @@ Take the examples below as pure demonstrative. Replace each section with the act
 ## 8. Advanced Features (advanced)
 **Impact:** LOW
 **Description:** Full-text search, JSONB optimization, PostGIS, extensions, and advanced Postgres features.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

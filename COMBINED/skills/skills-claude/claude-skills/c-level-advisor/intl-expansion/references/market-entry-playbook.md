@@ -143,3 +143,9 @@ First local hire matters enormously:
 | Churn | < 5% monthly | < 3% monthly | < 2% monthly |
 
 Metrics should improve each quarter. If they flatten, something's wrong with product-market fit in that specific market.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

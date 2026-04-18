@@ -1366,3 +1366,9 @@ const ErrorStream: React.FC = () => {
 8. **Documentation**: Implementation and troubleshooting guide
 
 Focus on providing comprehensive error visibility, intelligent alerting, and quick error resolution capabilities.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

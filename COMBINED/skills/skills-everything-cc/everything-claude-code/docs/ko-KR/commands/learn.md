@@ -75,3 +75,9 @@ tags:
 - 일회성 이슈는 추출하지 않기 (특정 API 장애 등)
 - 향후 세션에서 시간을 절약할 수 있는 패턴에 집중
 - 스킬은 집중적으로 - 스킬당 하나의 패턴
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

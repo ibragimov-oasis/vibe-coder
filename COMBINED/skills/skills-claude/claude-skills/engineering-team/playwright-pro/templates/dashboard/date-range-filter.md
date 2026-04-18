@@ -141,3 +141,9 @@ test.describe('Date Range Filter', () => {
 | Data reload | API called again on range change |
 | Invalid range | End before start → apply disabled |
 | URL persistence | Range in URL survives reload |
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

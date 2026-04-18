@@ -424,3 +424,9 @@ This style guide is a living document. Update as Castos brand and voice evolve.
 
 **Questions or Additions?**
 If you encounter a style question not covered here, make a decision, document it, and add it to this guide for future reference.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-seo]] — Category: skills-seo
+

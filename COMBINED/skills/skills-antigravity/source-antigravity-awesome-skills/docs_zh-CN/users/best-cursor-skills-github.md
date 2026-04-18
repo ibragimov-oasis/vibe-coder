@@ -67,3 +67,9 @@ tags:
 ## 推荐的下一步
 
 如果您的目标是今天开始在 Cursor 中工作，请安装 [Antigravity Awesome Skills](https://github.com/sickn33/antigravity-awesome-skills) 并继续阅读 [`cursor-skills.md`](cursor-skills.md)。
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

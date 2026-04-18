@@ -329,3 +329,9 @@ Story is complete when:
 | Cycle Time | Development start to done | <1 sprint |
 | Throughput | Stories completed/sprint | Increasing |
 | Defect Escape | Bugs found in production | Decreasing |
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

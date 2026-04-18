@@ -211,3 +211,9 @@ Confirm what was created:
 - CI workflow (if applicable)
 - npm scripts added
 - How to run: `npx playwright test` or `npm run test:e2e`
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

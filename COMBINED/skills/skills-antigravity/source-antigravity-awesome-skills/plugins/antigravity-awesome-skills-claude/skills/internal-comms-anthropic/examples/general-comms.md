@@ -21,3 +21,9 @@ tags:
   - Put the most important information first
   - Include relevant links and references
   - Match the company's communication style
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

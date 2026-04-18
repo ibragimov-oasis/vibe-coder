@@ -69,3 +69,9 @@ node scripts/setup-package-manager.js --detect
 ---
 
 **TIP**: For consistency across team, add `packageManager` field to package.json.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

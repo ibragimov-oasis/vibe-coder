@@ -176,3 +176,9 @@ For advanced features (10k+ commits, team sharing, auto-PRs), use the [Skill Cre
 ---
 
 *Part of [Everything Claude Code](https://github.com/affaan-m/everything-claude-code)*
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

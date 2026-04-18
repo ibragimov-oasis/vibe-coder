@@ -379,3 +379,9 @@ updates:
 ```
 
 Use `registries: "*"` to allow access to all defined registries.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-copilot]] — Category: skills-copilot
+

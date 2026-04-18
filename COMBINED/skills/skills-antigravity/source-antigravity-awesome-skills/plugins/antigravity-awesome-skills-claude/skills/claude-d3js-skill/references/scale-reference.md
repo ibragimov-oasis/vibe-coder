@@ -514,3 +514,9 @@ const colourScale = d3.scaleOrdinal()
   .range(['#2ecc71', '#f39c12', '#e74c3c'])
   .unknown('#95a5a6'); // Fallback for unknown values
 ```
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

@@ -61,3 +61,9 @@ _Tình huống: Bạn muốn xây dựng một trợ lý AI (agent) tùy chỉnh
 1. **Xây dựng**: "Sử dụng `mcp-builder` để tạo một công cụ `verify-file`."
 2. **Hướng dẫn**: "Áp dụng các mẫu `prompt-engineering` vào System Prompt để agent luôn kiểm tra lại đường dẫn file."
 3. **Kiểm tra**: "Chạy `agent-evaluation` để đo lường tần suất agent thất bại trong việc tìm file."
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

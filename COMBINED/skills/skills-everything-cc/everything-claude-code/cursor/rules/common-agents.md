@@ -55,3 +55,9 @@ For complex problems, use split role sub-agents:
 - Security expert
 - Consistency reviewer
 - Redundancy checker
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

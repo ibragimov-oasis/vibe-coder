@@ -233,3 +233,9 @@ Generates a 2-week posting plan with:
 - `social-media-analyzer` — Cross-platform analytics
 - `content-production` — Long-form content that feeds X threads
 - `copywriting` — Headline and hook writing techniques
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

@@ -64,3 +64,9 @@ PRD Requirements:
 ## Files Currently Being Modified
 - .loki/CONTINUITY.md: initialization
 - .loki/state/orchestrator.json: system state
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

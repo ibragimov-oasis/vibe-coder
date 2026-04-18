@@ -233,3 +233,9 @@ When executing:
 11. **ALWAYS validate all CONCEPTS URLs** — Phase 2.7 is mandatory. Broken URLs are HIGH priority.
 12. **Provide ready-to-paste rows** — for missing concepts, include the exact markdown table row so execution is copy-paste.
 13. **Respect the existing table format** — match the column structure, badge pattern, and linking style of existing rows.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

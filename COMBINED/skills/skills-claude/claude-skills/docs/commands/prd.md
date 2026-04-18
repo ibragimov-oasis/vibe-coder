@@ -33,3 +33,9 @@ Generate a concise product requirements document for a feature, initiative, or p
 
 ## Skill Reference
 - `product-team/product-manager-toolkit/SKILL.md`
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

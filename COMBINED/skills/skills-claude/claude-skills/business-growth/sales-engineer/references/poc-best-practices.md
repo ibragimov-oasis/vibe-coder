@@ -282,3 +282,9 @@ The go/no-go decision should be based on multiple factors, not just the scorecar
 ---
 
 **Last Updated:** February 2026
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

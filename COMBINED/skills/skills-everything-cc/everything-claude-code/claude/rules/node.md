@@ -52,3 +52,9 @@ tags:
 - Skills: sections — When to Use, How It Works, Examples
 - Commands: `description:` frontmatter line required
 - Run `npx markdownlint-cli '**/*.md' --ignore node_modules` before committing
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

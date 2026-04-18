@@ -400,3 +400,9 @@ agent_security:
 | **High Probability** | MEDIUM | HIGH | CRITICAL |
 | **Medium Probability** | LOW | MEDIUM | HIGH |
 | **Low Probability** | LOW | LOW | MEDIUM |
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

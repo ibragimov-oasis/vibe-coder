@@ -553,3 +553,9 @@ from videodb.exceptions import (
 | `RequestTimeoutError` | Server took too long to respond |
 | `SearchError` | Searching before indexing, invalid search type |
 | `VideodbError` | Server errors, network issues, generic failures |
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

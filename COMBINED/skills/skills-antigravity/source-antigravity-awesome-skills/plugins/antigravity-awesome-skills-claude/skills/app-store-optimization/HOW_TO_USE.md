@@ -286,3 +286,9 @@ Hey Claude—I just added the "app-store-optimization" skill. Can you create a c
 ```
 
 The skill can handle comprehensive, multi-phase ASO projects as well as specific tactical optimizations.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

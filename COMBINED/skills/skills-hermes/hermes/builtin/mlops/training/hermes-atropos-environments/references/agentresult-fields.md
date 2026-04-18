@@ -64,3 +64,9 @@ These are common mistakes — AgentResult does NOT have:
 - `tools_used` — extract from messages
 - `output` — extract from messages
 - `response` — extract from messages
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-hermes]] — Category: skills-hermes
+

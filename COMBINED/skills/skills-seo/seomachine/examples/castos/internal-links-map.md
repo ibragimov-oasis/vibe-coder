@@ -720,3 +720,9 @@ When writing/editing articles, use this map to:
 ---
 
 **Note**: This map is essential for SEO and user experience. Keep it current by adding new important pages immediately and removing/updating outdated links promptly.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-seo]] — Category: skills-seo
+

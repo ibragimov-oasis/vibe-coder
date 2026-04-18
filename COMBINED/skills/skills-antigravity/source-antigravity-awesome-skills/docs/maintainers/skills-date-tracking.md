@@ -233,3 +233,9 @@ Install Python 3.x from [python.org](https://python.org/)
 ## Questions or Issues?
 
 See [CONTRIBUTING.md](../../CONTRIBUTING.md) for contribution guidelines.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

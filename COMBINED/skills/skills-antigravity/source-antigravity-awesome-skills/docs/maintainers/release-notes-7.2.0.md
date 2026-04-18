@@ -37,3 +37,9 @@ This release cleans up the registry (removal of 44 SKILL.md files that contained
 ---
 
 _Upgrade: `git pull origin main` or `npx antigravity-awesome-skills`._
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

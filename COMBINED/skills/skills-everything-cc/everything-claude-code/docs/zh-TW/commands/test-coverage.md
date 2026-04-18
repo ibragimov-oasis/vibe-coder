@@ -32,3 +32,9 @@ tags:
 - 錯誤處理
 - 邊界情況（null、undefined、空值）
 - 邊界條件
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

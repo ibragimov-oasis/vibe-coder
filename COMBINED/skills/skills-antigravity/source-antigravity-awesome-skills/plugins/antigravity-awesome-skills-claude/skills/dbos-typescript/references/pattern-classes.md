@@ -68,3 +68,9 @@ Key requirements:
 - Event registration decorators like `@DBOS.scheduled` cannot be applied to instance methods
 
 Reference: [Using TypeScript Objects](https://docs.dbos.dev/typescript/tutorials/instantiated-objects)
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

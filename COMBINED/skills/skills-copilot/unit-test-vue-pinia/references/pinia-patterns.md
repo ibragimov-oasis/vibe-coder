@@ -100,3 +100,9 @@ expect(store.double).toBe(42);
 // @ts-expect-error test-only reset
 store.double = undefined;
 ```
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-copilot]] — Category: skills-copilot
+

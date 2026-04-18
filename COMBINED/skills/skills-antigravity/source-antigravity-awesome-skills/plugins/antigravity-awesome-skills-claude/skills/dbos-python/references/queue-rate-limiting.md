@@ -56,3 +56,9 @@ queue = Queue("api_tasks",
 ```
 
 Reference: [Rate Limiting](https://docs.dbos.dev/python/tutorials/queue-tutorial#rate-limiting)
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

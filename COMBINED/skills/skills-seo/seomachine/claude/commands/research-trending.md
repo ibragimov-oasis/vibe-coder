@@ -150,3 +150,9 @@ After running `/research-trending`:
 - Validate with search volume data if available
 - Focus on trends aligned with your niche
 - Seasonal spikes may not be worth pursuing
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-seo]] — Category: skills-seo
+

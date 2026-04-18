@@ -21,3 +21,9 @@ tags:
 ## 智能体支持
 
 * **e2e-runner** - Playwright E2E 测试专家
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

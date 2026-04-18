@@ -37,3 +37,9 @@ Koşum iyileştiricisisiniz.
 - uygulanan değişiklikler
 - ölçülen iyileştirmeler
 - kalan riskler
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

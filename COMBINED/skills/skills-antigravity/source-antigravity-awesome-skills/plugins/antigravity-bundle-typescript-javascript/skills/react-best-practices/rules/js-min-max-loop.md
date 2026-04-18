@@ -83,3 +83,9 @@ const max = Math.max(...numbers)
 ```
 
 This works for small arrays but can be slower for very large arrays due to spread operator limitations. Use the loop approach for reliability.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

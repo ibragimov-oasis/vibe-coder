@@ -178,3 +178,9 @@ Build Status: PASS: SUCCESS
 
 * 代理：`agents/kotlin-build-resolver.md`
 * 技能：`skills/kotlin-patterns/`
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

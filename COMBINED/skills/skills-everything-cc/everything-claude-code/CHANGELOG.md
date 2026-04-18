@@ -154,3 +154,9 @@ tags:
 
 - inspired by [zarazhangrui](https://github.com/zarazhangrui)
 - homunculus-inspired by [humanplane](https://github.com/humanplane)
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

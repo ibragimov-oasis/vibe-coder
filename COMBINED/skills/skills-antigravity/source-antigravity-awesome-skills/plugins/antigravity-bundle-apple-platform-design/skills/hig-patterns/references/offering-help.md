@@ -117,5 +117,10 @@ tags:
   - source/skills-antigravity
 ---|---  
 December 5, 2023| Included visionOS in guidance for creating tooltips.  
-September 12, 2023| Added guidance for creating tips.  
-  
+September 12, 2023| Added guidance for creating tips.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

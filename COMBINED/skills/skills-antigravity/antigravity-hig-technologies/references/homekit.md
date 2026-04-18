@@ -343,5 +343,10 @@ See [Guidelines for Using Apple Trademarks](https://www.apple.com/legal/intellec
 
 Date| Changes  
 ---|---  
-May 2, 2023| Consolidated guidance into one page.  
-  
+May 2, 2023| Consolidated guidance into one page.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

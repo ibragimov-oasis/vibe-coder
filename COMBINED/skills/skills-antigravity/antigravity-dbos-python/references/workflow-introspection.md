@@ -69,3 +69,9 @@ WorkflowStatus fields: `workflow_id`, `status`, `name`, `queue_name`, `created_a
 Status values: `ENQUEUED`, `PENDING`, `SUCCESS`, `ERROR`, `CANCELLED`, `MAX_RECOVERY_ATTEMPTS_EXCEEDED`
 
 Reference: [Workflow Management](https://docs.dbos.dev/python/tutorials/workflow-management)
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

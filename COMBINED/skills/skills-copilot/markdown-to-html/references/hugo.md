@@ -399,3 +399,9 @@ defaultContentLanguage = 'en'
 - [Hugo Discourse](https://discourse.gohugo.io/)
 - [GitHub Repository](https://github.com/gohugoio/hugo)
 - [Quick Reference](https://gohugo.io/quick-reference/)
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-copilot]] — Category: skills-copilot
+

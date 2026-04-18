@@ -22,3 +22,9 @@ tags:
 ## Rollback Requirement
 
 Every deploy job should define a rollback command or procedure reference.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

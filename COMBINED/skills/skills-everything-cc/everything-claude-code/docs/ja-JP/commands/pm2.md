@@ -277,3 +277,9 @@ pm2 resurrect          # 保存したプロセスを復元
 
 **ヒント:** 初回起動後に`pm2 save`を実行すると、簡略化されたコマンドが使用できます。
 ```
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

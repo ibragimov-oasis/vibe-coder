@@ -325,3 +325,9 @@ Run annually. Non-negotiable at Series B+.
 **Legal exposure:** In many jurisdictions, documented pay gaps without remediation plans are litigation risk. The audit creates a record of intent; remediation closes the risk.
 
 **Remediation budget:** Set aside 0.5–1% of payroll annually for equity adjustments. If you're doing it right, this shrinks over time.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

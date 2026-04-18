@@ -251,3 +251,9 @@ Documentation (follow {doc_format} format):
 ```
 
 ## Use these templates by filling in the {variables}
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

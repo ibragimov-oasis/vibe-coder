@@ -79,3 +79,9 @@ $ARGUMENTS:
 - `verify <isim>` - İsimlendirilmiş checkpoint'e karşı doğrula
 - `list` - Tüm checkpoint'leri göster
 - `clear` - Eski checkpoint'leri kaldır (son 5'i tutar)
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

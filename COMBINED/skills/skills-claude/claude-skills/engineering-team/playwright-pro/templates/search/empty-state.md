@@ -114,3 +114,9 @@ test.describe('Empty State', () => {
 | Empty list view | Entity list empty state with create CTA |
 | Network error | Error state distinct from no-results |
 | Last item deleted | Empty state shown after deletion |
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

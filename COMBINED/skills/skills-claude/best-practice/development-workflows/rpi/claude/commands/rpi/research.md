@@ -383,3 +383,9 @@ Based on the **[GO/NO-GO]** recommendation:
 > ```
 >
 > This will summarize the conversation and preserve important findings while reducing token usage for subsequent commands.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

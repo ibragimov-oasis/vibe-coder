@@ -256,3 +256,9 @@ If issues are found after publishing:
 # 6. Publish
 /landing-publish landing-pages/product-hosting-2025-12-11.md
 ```
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-seo]] — Category: skills-seo
+

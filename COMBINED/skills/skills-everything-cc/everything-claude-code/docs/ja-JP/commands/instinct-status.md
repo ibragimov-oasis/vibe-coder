@@ -88,3 +88,9 @@ python3 ~/COMBINED/workspace-config/claude/skills/continuous-learning-v2/scripts
 - `--high-confidence`: 信頼度 >= 0.7のインスティンクトのみを表示
 - `--source <type>`: ソースでフィルタリング（session-observation、repo-analysis、inherited）
 - `--json`: プログラムで使用するためにJSON形式で出力
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

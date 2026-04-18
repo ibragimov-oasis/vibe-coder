@@ -459,3 +459,9 @@ Risk 3: [Name]
 | How do we position? | April Dunford Positioning Canvas |
 | Which products to fund? | BCG Matrix + Invest/Maintain/Kill |
 | How to report to the board? | 5-Slide Board Update |
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

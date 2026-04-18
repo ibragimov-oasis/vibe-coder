@@ -162,3 +162,9 @@ Choose a **bundle plugin** if:
 - [Codex CLI skills](codex-cli-skills.md)
 - [Bundles](bundles.md)
 - [Usage](usage.md)
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

@@ -336,3 +336,9 @@ Announcements are stored in `templates/announcements.yaml`:
 - Each date group is collapsible
 - Individual items can be simple text or collapsible with summary/text
 - Falls back to `.md` file if YAML doesn't exist
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-awesome-claude]] — Category: skills-awesome-claude
+

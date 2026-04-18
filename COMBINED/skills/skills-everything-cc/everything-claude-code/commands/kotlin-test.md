@@ -314,3 +314,9 @@ open build/reports/kover/html/index.html
 
 - Skill: `skills/kotlin-testing/`
 - Skill: `skills/tdd-workflow/`
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

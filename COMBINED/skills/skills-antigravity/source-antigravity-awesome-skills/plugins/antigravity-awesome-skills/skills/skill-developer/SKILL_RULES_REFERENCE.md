@@ -320,3 +320,9 @@ If valid, jq will pretty-print the JSON. If invalid, it will show the error.
 - [SKILL.md](SKILL.md) - Main skill guide
 - [TRIGGER_TYPES.md](TRIGGER_TYPES.md) - Complete trigger documentation
 - [TROUBLESHOOTING.md](TROUBLESHOOTING.md) - Debugging configuration issues
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

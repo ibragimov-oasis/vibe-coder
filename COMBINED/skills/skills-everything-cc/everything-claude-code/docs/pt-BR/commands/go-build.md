@@ -185,3 +185,9 @@ O agente vai parar e reportar se:
 
 - Agent: `agents/go-build-resolver.md`
 - Skill: `skills/golang-patterns/`
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

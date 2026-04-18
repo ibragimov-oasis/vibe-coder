@@ -157,3 +157,9 @@ The pattern is now an enforced instruction. Claude will follow it in all future 
 - One rule per line is easier to maintain than paragraphs
 - Include the concrete command, not just the concept
 - Review promoted rules quarterly — remove what's no longer relevant
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

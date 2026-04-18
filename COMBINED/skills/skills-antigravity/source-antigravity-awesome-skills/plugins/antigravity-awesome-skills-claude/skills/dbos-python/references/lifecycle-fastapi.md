@@ -67,3 +67,9 @@ if __name__ == "__main__":
 The workflow decorator can be combined with FastAPI route decorators. The FastAPI decorator should come first (outermost).
 
 Reference: [DBOS with FastAPI](https://docs.dbos.dev/python/tutorials/workflow-tutorial)
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

@@ -50,3 +50,9 @@ final path-resolution strategy (relative asset paths resolved per output file).
 - No templates or markup contain concrete asset prefixes.
 - Outputs render correctly in-place and on GitHub across all locations.
 - `make test-regenerate` passes with a clean working tree.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-awesome-claude]] — Category: skills-awesome-claude
+

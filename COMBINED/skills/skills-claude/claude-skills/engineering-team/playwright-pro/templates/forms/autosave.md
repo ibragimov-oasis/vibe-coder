@@ -140,3 +140,9 @@ test.describe('Autosave', () => {
 | Dismiss draft | Discard clears saved value |
 | Cleared on submit | No draft banner after successful submit |
 | Network failure | Save-failed message shown |
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

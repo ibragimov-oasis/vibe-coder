@@ -57,3 +57,9 @@ tags:
 - 보안 전문가
 - 일관성 검토자
 - 중복 검사자
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

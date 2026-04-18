@@ -576,3 +576,9 @@ experiment:
 ```
 
 Remember: A dashboard should tell a story about your system's health and guide users toward the right actions. Focus on clarity over complexity, and always optimize for the person who will use it during a stressful incident.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

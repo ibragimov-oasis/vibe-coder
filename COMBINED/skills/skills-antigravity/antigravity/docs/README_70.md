@@ -180,3 +180,9 @@ MIT License - See repository LICENSE file
 ---
 
 **Built with ❤️ for the Antigravity community**
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

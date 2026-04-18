@@ -294,3 +294,9 @@ python3 engineering/skill-security-auditor/scripts/skill_security_auditor.py <yo
 | Skill count | 205 (do not change) |
 | Commit format | Conventional commits |
 | Script output | Must support `--json` |
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

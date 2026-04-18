@@ -261,3 +261,9 @@ npx prisma-erd-generator
 5. **Index foreign keys** — every FK column should have an index
 6. **Partial indexes** — use `WHERE deleted_at IS NULL` for active-only queries
 7. **RLS over application-level filtering** — database enforces tenancy, not just app code
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

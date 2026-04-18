@@ -1024,3 +1024,9 @@ See `javascript-testing-patterns` skill for comprehensive testing guidance.
 - **Express.js Guide**: https://expressjs.com/en/guide/
 - **Fastify Documentation**: https://www.fastify.io/docs/
 - **TypeScript Node Starter**: https://github.com/microsoft/TypeScript-Node-Starter
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

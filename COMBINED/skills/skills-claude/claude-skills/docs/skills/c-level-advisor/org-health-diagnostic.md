@@ -189,3 +189,9 @@ You don't need all metrics to run a diagnostic. The tool handles partial data:
 ## References
 - `references/health-benchmarks.md` — benchmarks by stage (Seed, A, B, C)
 - `scripts/health_scorer.py` — CLI scoring tool with traffic light output
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

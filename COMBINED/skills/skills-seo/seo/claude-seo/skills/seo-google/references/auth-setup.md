@@ -159,3 +159,9 @@ Instead of (or in addition to) the config file:
 | `404 Not Found` on CrUX | Site has insufficient Chrome traffic. Not a credentials issue. |
 | `429 Rate Limit` | Wait and retry. See rate-limits-quotas.md for per-API limits |
 | `API not enabled` | Enable the specific API in GCP Console > APIs & Services > Library |
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-seo]] — Category: skills-seo
+

@@ -48,3 +48,9 @@ URLs where Google selected a different canonical than declared:
 ---
 *URL Inspection API: 2,000 inspections/day per site, 600/min.*
 *Generated {timestamp} via Google Search Console URL Inspection API.*
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-seo]] — Category: skills-seo
+

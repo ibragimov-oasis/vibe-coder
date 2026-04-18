@@ -597,3 +597,9 @@ After each hotfix, update relevant runbooks:
 - Monitor closely after deployment
 
 By following these procedures and continuously improving based on experience, teams can handle production emergencies effectively while minimizing impact and learning from each incident.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

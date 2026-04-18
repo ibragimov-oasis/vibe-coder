@@ -536,3 +536,9 @@ class TestPasswordReset:
         """EC-2: Already-used reset link shows appropriate message."""
         raise NotImplementedError("Implement this test")
 ```
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

@@ -24,3 +24,9 @@ Create a new branch, commit changes, and submit a pull request.
 - Separate refactoring from feature additions
 - Ensure each commit can be understood independently
 - Multiple unrelated changes should be split into separate commits
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-awesome-claude]] — Category: skills-awesome-claude
+

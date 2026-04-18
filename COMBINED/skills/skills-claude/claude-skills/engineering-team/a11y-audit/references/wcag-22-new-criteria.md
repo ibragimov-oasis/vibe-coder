@@ -84,3 +84,9 @@ Authentication must not require cognitive function tests (e.g., remembering a pa
 - Offer passkey / biometric authentication
 - Allow copy-paste in password fields (never block paste)
 - Provide email/SMS OTP as alternative to CAPTCHA
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

@@ -109,3 +109,9 @@ tags:
 ## 업데이트 기록
 
 - 2026-03-10: 초판 작성, 전체 번역 파일에서 사용된 용어 정리
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

@@ -113,3 +113,9 @@ _Kiểm tra [Danh mục Skill (Skill Catalog)](../CATALOG.vi.md) để xem danh 
 1. [Duyệt qua các Gói kỹ năng (Bundles)](BUNDLES.vi.md)
 2. [Xem các Ví dụ thực tế (Examples)](EXAMPLES.vi.md)
 3. [Đóng góp một Skill mới](../CONTRIBUTING.vi.md)
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

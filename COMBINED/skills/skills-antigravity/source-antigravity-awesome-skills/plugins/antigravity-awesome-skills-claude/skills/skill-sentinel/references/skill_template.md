@@ -123,3 +123,9 @@ class Database:
 - [ ] Sem secrets hardcoded
 - [ ] Queries SQL parametrizadas
 - [ ] Error handling especifico (sem bare except)
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

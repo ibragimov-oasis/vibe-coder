@@ -29,3 +29,9 @@ tags:
 
 ## 返回结果
 - 返回电子表格/数据透视表图片 URL，并附 `_meta.spec` 供后续编辑。
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-data-analysis]] — Category: skills-data-analysis
+

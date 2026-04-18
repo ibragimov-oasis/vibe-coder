@@ -527,3 +527,9 @@ The "simple" versions are:
 - Can be refactored later when complexity is actually needed
 
 **Good code is code that solves today's problem simply, not tomorrow's problem prematurely.**
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

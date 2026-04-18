@@ -109,3 +109,9 @@ kill $(cat /tmp/videodb_ws_pid)
 * 收到 SIGINT/SIGTERM 时优雅关机
 * PID 文件，便于进程管理
 * 连接状态日志记录
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

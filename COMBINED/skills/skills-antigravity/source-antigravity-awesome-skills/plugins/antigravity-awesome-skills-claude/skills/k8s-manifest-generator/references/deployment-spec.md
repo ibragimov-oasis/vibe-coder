@@ -758,3 +758,9 @@ kubectl logs <pod-name>
 - [Kubernetes Deployment API Reference](https://kubernetes.io/docs/reference/generated/kubernetes-api/v1.28/#deployment-v1-apps)
 - [Pod Security Standards](https://kubernetes.io/docs/concepts/security/pod-security-standards/)
 - [Resource Management](https://kubernetes.io/docs/concepts/configuration/manage-resources-containers/)
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

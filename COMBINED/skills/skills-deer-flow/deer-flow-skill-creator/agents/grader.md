@@ -228,3 +228,9 @@ Write a JSON file with this structure:
 - **Be consistent**: Apply the same standard to each expectation
 - **Explain failures**: Make it clear why evidence was insufficient
 - **No partial credit**: Each expectation is pass or fail, not partial
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-deer-flow]] — Category: skills-deer-flow
+

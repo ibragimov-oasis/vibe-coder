@@ -118,3 +118,9 @@ Bu versiyon, önceki 5 boyutlu sayısal puanlama rubriğini (Spesifiklik, Uygula
 - Gelecekteki oturumlarda zaman kazandıracak desenlere odaklanın
 - Skill'leri odaklı tutun — skill başına bir desen
 - Karar Ekle olduğunda, yeni dosya oluşturmak yerine mevcut skill'e ekleyin
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

@@ -58,3 +58,9 @@ The action automatically runs when resource PRs are merged by the automation bot
   - Disabled issues
   - Rate limiting
   - Invalid URLs
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-awesome-claude]] — Category: skills-awesome-claude
+

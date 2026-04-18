@@ -70,3 +70,9 @@ Dự án đã đạt trạng thái sẵn sàng sử dụng cho người dùng Vi
   - Hoàn thành Giai đoạn 0 (Docs).
   - Hoàn thành Giai đoạn 1 (Essentials).
   - Cấu trúc lại repo: Chuyển toàn bộ bản dịch vào `docs/vietnamese/`.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

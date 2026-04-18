@@ -83,5 +83,10 @@ tags:
 ---|---  
 December 5, 2023| Added artwork for Apple Vision Pro and Apple Watch, and clarified that visionOS apps don’t receive direct information from the Digital Crown.  
 June 21, 2023| Updated to include guidance for visionOS.  
-June 5, 2023| Added guidelines emphasizing the central role of the Digital Crown for navigation.  
-  
+June 5, 2023| Added guidelines emphasizing the central role of the Digital Crown for navigation.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

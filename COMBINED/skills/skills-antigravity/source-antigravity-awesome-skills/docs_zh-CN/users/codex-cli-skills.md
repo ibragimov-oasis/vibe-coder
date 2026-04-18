@@ -67,3 +67,9 @@ test -d .codex/skills || test -d ~/.codex/skills
 - 如果您想要一个在广泛和精选技能库之间进行选择的框架，请阅读 [`ai-agent-skills.md`](ai-agent-skills.md)。
 - 当您想要常见工程目标的逐步执行模式时，请使用 [`workflows.md`](workflows.md)。
 - 返回 [`README.md`](../../README.md) 查看完整兼容性矩阵。
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

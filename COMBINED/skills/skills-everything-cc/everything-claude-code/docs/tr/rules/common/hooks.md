@@ -35,3 +35,9 @@ Todo listesi şunları ortaya çıkarır:
 - Fazladan gereksiz öğeler
 - Yanlış detay düzeyi
 - Yanlış yorumlanmış gereksinimler
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

@@ -90,3 +90,9 @@ When importing duplicates:
 ---
 
 **TIP**: Review imported instincts with `/instinct-status` after import.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

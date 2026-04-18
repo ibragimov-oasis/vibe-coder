@@ -70,3 +70,9 @@ Use these conventions for consistency across skills:
 
 > [!IMPORTANT]
 > Any field not listed here is **ignored** by OpenCode's skill loader.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

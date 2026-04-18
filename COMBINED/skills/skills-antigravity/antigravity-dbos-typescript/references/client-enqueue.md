@@ -76,3 +76,9 @@ const result = await handle.getResult(); // type: string
 Always call `client.destroy()` when done.
 
 Reference: [DBOS Client Enqueue](https://docs.dbos.dev/typescript/reference/client#enqueue)
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

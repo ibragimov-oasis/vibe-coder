@@ -421,3 +421,9 @@ system_audio = channels.system_audio.default
   │   exported     │ ──> Access video_id, stream_url, player_url
   └───────────────┘
 ```
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

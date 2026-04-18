@@ -61,3 +61,9 @@ Constructor options:
 - `serializer`: Optional custom serializer (must match the DBOS application's serializer)
 
 Reference: [DBOS Client](https://docs.dbos.dev/typescript/reference/client)
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

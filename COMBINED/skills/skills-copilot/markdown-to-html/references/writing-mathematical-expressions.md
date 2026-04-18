@@ -81,3 +81,9 @@ To display a dollar sign as a character in the same line as a mathematical expre
 * [The MathJax website](http://mathjax.org)
 * [Getting started with writing and formatting on GitHub](https://docs.github.com/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github)
 * [GitHub Flavored Markdown Spec](https://github.github.com/gfm/)
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-copilot]] — Category: skills-copilot
+

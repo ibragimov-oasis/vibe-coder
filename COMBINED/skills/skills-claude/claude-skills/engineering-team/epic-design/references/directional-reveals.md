@@ -460,3 +460,9 @@ Section 5 → Section 6: Curtain panel roll-up (exposes multiple layers)
 ```
 
 Each transition feels distinct, keeping the user engaged across the full scroll experience.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

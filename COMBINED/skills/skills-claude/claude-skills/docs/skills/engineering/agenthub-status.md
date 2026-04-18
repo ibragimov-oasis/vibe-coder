@@ -90,3 +90,9 @@ If all agents have posted results:
 If some agents are still running:
 - Show which are done vs in-progress
 - Suggest waiting or checking again later
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

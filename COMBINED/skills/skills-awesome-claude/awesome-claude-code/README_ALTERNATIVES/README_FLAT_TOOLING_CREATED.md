@@ -508,3 +508,9 @@ A flat list view of all resources. Category: **Tooling** | Sorted: by date creat
 **Total Resources:** 49
 
 **Last Generated:** 2026-03-30
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-awesome-claude]] — Category: skills-awesome-claude
+

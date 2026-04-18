@@ -124,3 +124,9 @@ print(f'Max allocated: {torch.cuda.max_memory_allocated()/1e9:.2f} GB')
 ***
 
 有关 PyTorch 最佳实践，请查阅 [官方 PyTorch 文档](https://pytorch.org/docs/stable/) 和 [PyTorch 论坛](https://discuss.pytorch.org/)。
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

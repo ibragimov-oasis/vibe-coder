@@ -313,3 +313,9 @@ Compliance is unstable. It reverts when enforcement loosens. Adoption is self-su
 - "Because it's faster/easier/better" = adoption
 
 Only adoption makes the change permanent.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

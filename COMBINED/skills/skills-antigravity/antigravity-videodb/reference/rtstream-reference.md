@@ -556,3 +556,9 @@ results = video.search("action items and next steps")
 stream_url = results.compile()
 print(f"Action items clip: {stream_url}")
 ```
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

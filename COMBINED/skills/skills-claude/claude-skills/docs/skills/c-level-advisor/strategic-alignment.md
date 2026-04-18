@@ -198,3 +198,9 @@ A quick health check. Score each area 0–10:
 ## Detailed References
 - `scripts/alignment_checker.py` — Automated OKR alignment analysis (orphans, conflicts, coverage)
 - `references/alignment-playbook.md` — Cascade techniques, quarterly alignment check, common patterns
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

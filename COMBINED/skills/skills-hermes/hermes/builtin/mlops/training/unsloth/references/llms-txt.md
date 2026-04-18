@@ -12049,3 +12049,9 @@ pip install "unsloth[cu121-torch240] @ git+https://github.com/unslothai/unsloth.
 ```
 
 ---
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-hermes]] — Category: skills-hermes
+

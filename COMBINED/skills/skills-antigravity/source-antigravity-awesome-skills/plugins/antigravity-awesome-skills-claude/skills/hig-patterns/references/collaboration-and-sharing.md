@@ -86,5 +86,10 @@ tags:
 ---|---  
 December 5, 2023| Added artwork illustrating button placement and various types of collaboration permissions.  
 June 21, 2023| Updated to include guidance for visionOS.  
-September 14, 2022| New page.  
-  
+September 14, 2022| New page.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

@@ -536,3 +536,9 @@ Ease variants:
 - `back.out(2.5)` — no oscillation, one clean overshoot
 
 Do NOT use for: gentle floaters, airy elements (flowers, feathers) — use `power3.out` instead.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

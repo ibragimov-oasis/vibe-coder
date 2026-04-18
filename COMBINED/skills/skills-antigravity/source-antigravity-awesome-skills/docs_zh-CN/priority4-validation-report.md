@@ -299,3 +299,9 @@ The Priority 4 translations are complete and meet all quality standards. These f
 ---
 
 *This report was automatically generated as part of the translation validation process.*
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

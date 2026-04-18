@@ -334,3 +334,9 @@ sum(rate(records_valid_total[5m])) / sum(rate(records_processed_total[5m])) >= 0
 - [ ] Plan for quarterly SLO health checks
 
 Remember: SLOs are a journey, not a destination. Start simple, learn from experience, and iterate toward better reliability management.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

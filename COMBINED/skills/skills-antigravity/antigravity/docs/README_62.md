@@ -153,3 +153,9 @@ Before deploying:
 - [ ] Triggers listed under metadata?
 - [ ] Under 500 lines?
 - [ ] Tested with real scenarios?
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

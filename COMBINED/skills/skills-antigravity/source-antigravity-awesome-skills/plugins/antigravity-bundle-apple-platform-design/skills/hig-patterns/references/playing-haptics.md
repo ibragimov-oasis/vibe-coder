@@ -280,5 +280,10 @@ Play
 Date| Changes  
 ---|---  
 May 7, 2024| Added guidance for playing haptics on Apple Pencil Pro.  
-June 21, 2023| Updated to include guidance for visionOS.  
-  
+June 21, 2023| Updated to include guidance for visionOS.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

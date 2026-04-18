@@ -68,3 +68,9 @@ Title: [Outcome-focused headline]
 4. Who should use it:
 5. How to start:
 6. Feedback channel:
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

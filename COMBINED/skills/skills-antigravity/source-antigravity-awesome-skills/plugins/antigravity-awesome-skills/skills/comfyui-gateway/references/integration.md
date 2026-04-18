@@ -1801,3 +1801,9 @@ MAX_CONCURRENCY=1
 # API server (no GPU needed) -- start with: npm run start:api
 # Serves the REST API; workers handle ComfyUI execution
 ```
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

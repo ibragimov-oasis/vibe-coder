@@ -447,3 +447,9 @@ The best time to start monetizing your podcast was when you launched. The second
 ---
 
 *Last Updated: January 16, 2025*
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-seo]] — Category: skills-seo
+

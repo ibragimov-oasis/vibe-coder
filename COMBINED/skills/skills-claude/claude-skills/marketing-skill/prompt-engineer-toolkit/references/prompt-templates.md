@@ -110,3 +110,9 @@ Return concise recommendations and an improved version.
 Prompt:
 {{input}}
 ```
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

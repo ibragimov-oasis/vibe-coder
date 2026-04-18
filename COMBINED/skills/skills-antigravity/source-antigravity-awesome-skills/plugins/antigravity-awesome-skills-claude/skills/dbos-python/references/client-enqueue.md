@@ -55,3 +55,9 @@ options: EnqueueOptions = {
 Limitation: Cannot enqueue workflows that are methods on Python classes.
 
 Reference: [DBOSClient.enqueue](https://docs.dbos.dev/python/reference/client#enqueue)
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

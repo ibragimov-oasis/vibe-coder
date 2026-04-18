@@ -214,3 +214,9 @@ tags:
 
 **Confidential -- For Internal and Customer Executive Use Only**
 **Next Executive Review:** [Date]
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

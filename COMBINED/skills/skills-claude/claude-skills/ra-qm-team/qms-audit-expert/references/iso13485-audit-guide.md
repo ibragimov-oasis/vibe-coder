@@ -393,3 +393,9 @@ Prioritize audit focus based on:
 | Major | Systematic failure, absence of element | CAPA within 30 days |
 | Minor | Isolated lapse, partial implementation | Correction within 60 days |
 | Observation | Improvement opportunity | Optional action |
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

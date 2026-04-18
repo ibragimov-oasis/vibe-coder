@@ -48,3 +48,9 @@ _(Mistakes and insights recorded here to avoid repeating them.)_
 5. **Communication includes language.** The default language from Phase 1 is non-negotiable.
 6. **Under 300 words total.** Density over length. Every word must earn its place.
 7. **Contrast in Identity.** The "[not X]" should meaningfully distinguish the relationship. "Partner, not assistant" is good. "Partner, not enemy" is meaningless.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-deer-flow]] — Category: skills-deer-flow
+

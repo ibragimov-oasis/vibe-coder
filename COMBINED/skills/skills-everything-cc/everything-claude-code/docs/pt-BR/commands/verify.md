@@ -64,3 +64,9 @@ $ARGUMENTS podem ser:
 - `full` - Todas as checagens (padrão)
 - `pre-commit` - Checagens relevantes para commits
 - `pre-pr` - Checagens completas mais security scan
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

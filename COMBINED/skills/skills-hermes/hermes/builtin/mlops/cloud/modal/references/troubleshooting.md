@@ -499,3 +499,9 @@ Include:
 - Full error traceback
 - Minimal reproducible code
 - GPU type if relevant
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-hermes]] — Category: skills-hermes
+

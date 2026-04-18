@@ -224,3 +224,9 @@ python tools/scripts/generate_index.py
 ---
 
 **结果**: 更清晰的类别过滤器，具有智能、有意义的组织！🎉
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

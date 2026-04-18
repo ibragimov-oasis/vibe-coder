@@ -199,3 +199,9 @@ If running Loki Mode on multiple projects, see all in one Vibe Kanban instance.
 - [ ] Vibe Kanban MCP server for agent communication
 - [ ] Shared agent profiles between tools
 - [ ] Unified logging dashboard
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

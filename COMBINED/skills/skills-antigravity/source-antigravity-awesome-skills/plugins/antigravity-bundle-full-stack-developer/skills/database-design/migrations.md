@@ -53,3 +53,9 @@ For zero-downtime changes:
 | SQLite compatible | Simple |
 | Generous free tier | Cost |
 | Global distribution | Performance |
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

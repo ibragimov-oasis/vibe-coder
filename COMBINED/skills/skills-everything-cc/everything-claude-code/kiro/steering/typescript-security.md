@@ -100,3 +100,9 @@ npm ci  # Instead of npm install in CI/CD
 
 - Use **security-reviewer** agent for comprehensive security audits
 - Invoke via `/agent swap security-reviewer` or use the security-review skill
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

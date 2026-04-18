@@ -270,3 +270,9 @@ interface Element : Node {
 - [MDN Web Docs](https://developer.mozilla.org/)
 - [Can I Use](https://caniuse.com/)
 - [TC39 Proposals](https://github.com/tc39/proposals)
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-copilot]] — Category: skills-copilot
+

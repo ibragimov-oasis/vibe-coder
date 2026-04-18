@@ -78,3 +78,9 @@ Use @create-pr to turn these changes into a clean PR summary and checklist.
 - Use [`workflows.md`](workflows.md) if you want step-by-step execution playbooks.
 - Compare options in [`best-claude-code-skills-github.md`](best-claude-code-skills-github.md) if you are still evaluating repositories.
 - Go back to the main landing page in [`README.md`](../../README.md) when you want the full installation matrix.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

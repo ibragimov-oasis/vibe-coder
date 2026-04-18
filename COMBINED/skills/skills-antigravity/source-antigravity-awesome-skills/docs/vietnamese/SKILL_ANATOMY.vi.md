@@ -610,3 +610,9 @@ Luôn cập nhật skill với các thực hành tốt nhất hiện tại.
 ---
 
 **Hãy nhớ rằng:** Mọi chuyên gia đều từng là người mới bắt đầu. Hãy bắt đầu đơn giản, học hỏi từ phản hồi và cải thiện theo thời gian! 🚀
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

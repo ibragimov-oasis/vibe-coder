@@ -131,3 +131,9 @@ src/
 ```
 
 最低测试覆盖率：每个功能都需要覆盖 ViewModel + UseCase。
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

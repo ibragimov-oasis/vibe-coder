@@ -85,3 +85,9 @@ project-name/
 - Centralized error handling
 - Environment-based config
 - Use Prisma for type-safe DB access
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

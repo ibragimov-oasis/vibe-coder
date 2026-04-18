@@ -118,3 +118,9 @@ tags:
 |-----------|-------|-------------|------------------|
 | 4.1.2 Name, Role, Value | A | Custom controls have accessible name and role | Custom dropdown without ARIA |
 | 4.1.3 Status Messages | AA | Status updates announced without focus change | Toast without `aria-live` |
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

@@ -292,3 +292,9 @@ The optimal chunking strategy depends on your specific use case:
 - **Mixed environments**: Adaptive strategy selection
 
 Consider implementing multiple strategies and A/B testing to determine the best approach for your specific document corpus and user queries.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

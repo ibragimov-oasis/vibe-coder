@@ -70,5 +70,10 @@ tags:
   - artifact/doc
   - source/skills-antigravity
 ---|---  
-June 9, 2025| Updated best practices with general guidance from Search fields, and reorganized guidance for systemwide search.  
-  
+June 9, 2025| Updated best practices with general guidance from Search fields, and reorganized guidance for systemwide search.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

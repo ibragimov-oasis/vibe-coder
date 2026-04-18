@@ -202,3 +202,9 @@ Code snippets and configuration details.
 ### C. Hyperparameters
 
 Complete list of hyperparameters used.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

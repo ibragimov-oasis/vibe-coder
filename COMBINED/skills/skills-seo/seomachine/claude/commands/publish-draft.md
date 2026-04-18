@@ -127,3 +127,9 @@ The category will be created automatically if it doesn't exist.
 - The H1 heading from the article becomes the WordPress post title
 - Images/media are not uploaded - only text content is transferred
 - You can run this command multiple times on the same file (creates new drafts each time)
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-seo]] — Category: skills-seo
+

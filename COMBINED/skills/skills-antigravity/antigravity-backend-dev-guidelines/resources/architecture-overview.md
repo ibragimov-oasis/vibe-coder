@@ -456,3 +456,9 @@ async findByEmail(email: string): Promise<User | null> {
 - SKILL.md - Main guide
 - [routing-and-controllers.md](routing-and-controllers.md) - Routes and controllers details
 - [services-and-repositories.md](services-and-repositories.md) - Service and repository patterns
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

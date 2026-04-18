@@ -260,3 +260,9 @@ python scripts/setup_experiment.py \
 | Improve agent skills | prompts | llm_judge_prompt | Subscription |
 
 **First time?** Start with an engineering experiment (free, fast, measurable). Once comfortable, try content/marketing with LLM judges.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

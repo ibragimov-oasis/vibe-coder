@@ -276,3 +276,9 @@ go test -race -cover ./...
 
 * 技能：`skills/golang-testing/`
 * 技能：`skills/tdd-workflow/`
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

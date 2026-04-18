@@ -30,3 +30,9 @@ function Sidebar() {
   return <nav className={isMobile ? 'mobile' : 'desktop'}>
 }
 ```
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

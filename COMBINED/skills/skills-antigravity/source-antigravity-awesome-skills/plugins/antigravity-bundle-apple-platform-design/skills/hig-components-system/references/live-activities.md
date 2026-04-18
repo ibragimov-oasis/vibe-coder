@@ -442,5 +442,10 @@ June 10, 2024| Added guidance for Live Activities in watchOS.
 October 24, 2023| Expanded and updated guidance and added new artwork.  
 June 5, 2023| Updated guidance to include features of iOS 17 and iPadOS 17.  
 November 3, 2022| Updated artwork and specifications.  
-September 23, 2022| New page.  
-  
+September 23, 2022| New page.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

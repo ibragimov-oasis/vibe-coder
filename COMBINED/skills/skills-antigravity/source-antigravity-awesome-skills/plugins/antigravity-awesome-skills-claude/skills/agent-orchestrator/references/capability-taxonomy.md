@@ -90,3 +90,9 @@ capabilities: [data-extraction, web-automation]
 
 Se omitido, o scanner extrai automaticamente da `description` via keywords.
 Tags explicitas tem prioridade e nao sao duplicadas com as auto-extraidas.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

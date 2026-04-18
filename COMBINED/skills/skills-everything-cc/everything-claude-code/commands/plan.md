@@ -117,3 +117,9 @@ This command invokes the `planner` agent provided by ECC.
 
 For manual installs, the source file lives at:
 `agents/planner.md`
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

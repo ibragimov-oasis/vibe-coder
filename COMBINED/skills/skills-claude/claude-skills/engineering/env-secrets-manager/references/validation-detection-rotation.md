@@ -363,3 +363,9 @@ curl -H "Authorization: Bearer $NEW_TOKEN" https://api.service.com/test
 ```
 
 ---
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

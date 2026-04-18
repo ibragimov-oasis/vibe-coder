@@ -140,3 +140,9 @@ Comparison pages are among the highest-converting content types for SaaS, with c
 - [ ] Ensure integration pages have clear, quotable descriptions
 - [ ] Structure pricing information in tables AI can extract
 - [ ] Monitor AI citation across Google AI Overviews, ChatGPT, and Perplexity
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

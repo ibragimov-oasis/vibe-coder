@@ -760,3 +760,9 @@ AI：完美！让我们使用 TDD 来构建这个。遵循红-绿-重构
 ---
 
 **想要更多示例？**查看各个技能文件夹以获取其他示例和用例！
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

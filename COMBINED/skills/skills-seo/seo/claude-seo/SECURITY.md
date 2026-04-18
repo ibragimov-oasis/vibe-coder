@@ -30,3 +30,9 @@ Only the latest version receives security updates.
 - No credentials or API keys are stored in this repository
 - Install scripts write only to user-level directories (`~/.claude/`)
 - Python dependencies install in isolated virtual environments
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-seo]] — Category: skills-seo
+

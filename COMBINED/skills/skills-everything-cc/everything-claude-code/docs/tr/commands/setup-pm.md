@@ -82,3 +82,9 @@ Mevcut paket yöneticisi tespit sonuçlarını görmek için şunu çalıştır�
 ```bash
 node scripts/setup-package-manager.js --detect
 ```
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

@@ -65,3 +65,9 @@ $ARGUMENTS 可以是：
 * `full` - 所有检查（默认）
 * `pre-commit` - 与提交相关的检查
 * `pre-pr` - 完整检查加安全扫描
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

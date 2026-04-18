@@ -93,3 +93,9 @@ function Messages({ items, isThinking, processingStartedAt }) {
 - Wrap `MessageRow` in `memo` if props are stable.
 - Use `useCallback` for handlers passed to rows to avoid re-render churn.
 - Consider list virtualization if the list is very large.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

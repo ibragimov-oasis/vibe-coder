@@ -207,3 +207,8 @@ See `references/dataops_best_practices.md` for:
 ## Troubleshooting
 → See references/troubleshooting.md for details
 
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

@@ -411,3 +411,9 @@ const handleExportExcel = async () => {
 - [component-patterns.md](component-patterns.md) - Lazy loading
 - [data-fetching.md](data-fetching.md) - TanStack Query optimization
 - [complete-examples.md](complete-examples.md) - Performance patterns in context
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

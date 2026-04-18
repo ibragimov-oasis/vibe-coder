@@ -79,3 +79,9 @@ $ARGUMENTS:
 - `verify <name>` - 針對命名檢查點驗證
 - `list` - 顯示所有檢查點
 - `clear` - 移除舊檢查點（保留最後 5 個）
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

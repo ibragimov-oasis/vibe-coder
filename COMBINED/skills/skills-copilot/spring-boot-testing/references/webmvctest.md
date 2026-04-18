@@ -182,3 +182,9 @@ class OrderControllerWithoutSecurityTest {
 4. Verify service method calls when side effects matter
 5. Don't test business logic here - that's for unit tests
 6. Leverage Java 25 text blocks for JSON payloads
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-copilot]] — Category: skills-copilot
+

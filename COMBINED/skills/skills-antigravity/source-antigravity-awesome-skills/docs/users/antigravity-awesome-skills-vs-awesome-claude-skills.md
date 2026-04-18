@@ -48,3 +48,9 @@ For clarity: the repository many people still refer to as `awesome-claude-skills
 
 - If you want to install and start using skills today, go back to [`README.md`](../../README.md) and follow the installation guide.
 - If you are still evaluating tool-specific options, continue with [`best-claude-code-skills-github.md`](best-claude-code-skills-github.md) or [`best-cursor-skills-github.md`](best-cursor-skills-github.md).
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

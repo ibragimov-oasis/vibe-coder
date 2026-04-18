@@ -176,3 +176,9 @@ Gelişmiş özellikler için (10k+ commit, ekip paylaşımı, otomatik PR'lar), 
 ---
 
 *[Everything Claude Code](https://github.com/affaan-m/everything-claude-code)'un bir parçası*
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

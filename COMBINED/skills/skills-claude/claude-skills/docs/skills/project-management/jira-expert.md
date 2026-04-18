@@ -318,3 +318,9 @@ mcp jira create_filter --name "Open Blockers" --jql "priority = Blocker AND stat
 
 - **Confluence Expert** (`project-management/confluence-expert/`) — Documentation complements Jira workflows
 - **Atlassian Admin** (`project-management/atlassian-admin/`) — Permission and user management for Jira projects
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

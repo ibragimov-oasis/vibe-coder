@@ -49,3 +49,9 @@ Output: `UPDATED_weekly_meal_plan.docx`
 
 - Confirmation of saved file
 - Modification log (unless user explicitly requests file-only output)
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

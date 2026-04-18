@@ -188,3 +188,9 @@ Save to: `research/ai-citations-[topic-slug]-[YYYY-MM-DD].md`
 - @context/ai-citation-targets.md - Existing citation surface inventory
 - @context/competitor-analysis.md - Competitor landscape
 - @context/features.md - Product feature set (for accurate prompt generation)
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-seo]] — Category: skills-seo
+

@@ -292,3 +292,9 @@ Agent Designer is a comprehensive toolkit for designing, architecting, and evalu
 - **Knowledge Base Updates:** Continuous learning and adaptation
 
 This skill provides the foundation for designing robust, scalable multi-agent systems that can handle complex tasks while maintaining safety, reliability, and performance at scale.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

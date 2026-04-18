@@ -92,3 +92,9 @@ Generate a markdown report at `a11y-report.md`:
 - `engineering-team/a11y-audit/references/wcag-quick-ref.md`
 - `engineering-team/a11y-audit/references/aria-patterns.md`
 - `engineering-team/a11y-audit/references/framework-a11y-patterns.md`
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

@@ -329,3 +329,9 @@ python scripts/design_token_generator.py "#FF6B6B" playful summary
 ---
 
 *See also: `component-architecture.md` for component design patterns*
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

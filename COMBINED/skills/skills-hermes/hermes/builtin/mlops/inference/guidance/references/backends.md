@@ -559,3 +559,9 @@ print(f"Memory allocated: {torch.cuda.memory_allocated() / 1e9:.2f} GB")
 - **Hugging Face Models**: https://huggingface.co/models
 - **llama.cpp**: https://github.com/ggerganov/llama.cpp
 - **GGUF Models**: https://huggingface.co/models?library=gguf
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-hermes]] — Category: skills-hermes
+

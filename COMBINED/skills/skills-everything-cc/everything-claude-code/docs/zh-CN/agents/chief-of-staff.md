@@ -157,3 +157,9 @@ claude /schedule-reply "Reply to Sarah about the board meeting"
 * Gmail CLI（例如，@pterm 的 gog）
 * Node.js 18+（用于 calendar-suggest.js）
 * 可选：Slack MCP 服务器、Matrix 桥接（LINE）、Chrome + Playwright（Messenger）
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

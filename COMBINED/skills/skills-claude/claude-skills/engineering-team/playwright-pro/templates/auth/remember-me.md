@@ -132,3 +132,9 @@ test.describe('Remember Me', () => {
 | Survives reload | Persistent cookie keeps user logged in across restart |
 | Expired cookie | Stale cookie → redirect to /login |
 | Checkbox retained | State preserved after failed login attempt |
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

@@ -198,3 +198,9 @@ See my-skill
 | 3+ related sub-topics | → Tier 2 |
 | 10+ products/services | → Tier 3 |
 | "I need X" vs "I want Y" | → Tier 3 decision trees |
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

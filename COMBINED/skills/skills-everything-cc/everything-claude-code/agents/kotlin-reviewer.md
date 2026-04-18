@@ -161,3 +161,9 @@ Verdict: BLOCK — HIGH issues must be fixed before merge.
 
 - **Approve**: No CRITICAL or HIGH issues
 - **Block**: Any CRITICAL or HIGH issues — must fix before merge
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

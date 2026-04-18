@@ -539,3 +539,9 @@ combined_approach:
 - [Visible Extended Thinking](https://www.anthropic.com/research/visible-extended-thinking)
 - [Computer Use Safety](https://www.anthropic.com/news/3-5-models-and-computer-use)
 - [Sabotage Evaluations](https://www.anthropic.com/research/sabotage-evaluations-for-frontier-models)
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

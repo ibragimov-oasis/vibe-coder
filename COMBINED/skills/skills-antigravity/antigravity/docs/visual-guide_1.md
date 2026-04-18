@@ -514,3 +514,9 @@ Month 1: Regular contributor
 - [CONTRIBUTING.md](../../CONTRIBUTING.md) - How to contribute
 
 **Ready to contribute?** You've got this! 💪
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

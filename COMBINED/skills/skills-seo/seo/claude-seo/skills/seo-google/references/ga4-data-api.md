@@ -189,3 +189,9 @@ for row in response.rows:
 - **Scope:** `https://www.googleapis.com/auth/analytics.readonly`
 - Service account must have **Viewer** role in GA4 property
 - Add via GA4 Admin > Property Access Management
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-seo]] — Category: skills-seo
+

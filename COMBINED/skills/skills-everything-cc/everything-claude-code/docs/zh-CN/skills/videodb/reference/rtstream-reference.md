@@ -572,3 +572,9 @@ except InvalidRequestError as exc:
     else:
         raise
 ```
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

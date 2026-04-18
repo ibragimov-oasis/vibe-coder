@@ -59,3 +59,9 @@ AG_REPO_SKILLS_DIR=/path/to/repo/skills ./scripts/activate-skills.sh brainstormi
 - 在打开非常大的仓库之前使用包激活
 - 保持特定于角色的栈活动，归档其余部分
 - 如果主机存储了损坏的会话状态，请在恢复较小的活动集之前清除该主机状态
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

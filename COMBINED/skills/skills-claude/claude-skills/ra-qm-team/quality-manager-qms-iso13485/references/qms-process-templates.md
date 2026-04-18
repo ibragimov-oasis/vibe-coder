@@ -881,3 +881,9 @@ FOLLOW-UP ACTIONS
 [ ] Supplier notified: Date: _______
 [ ] Other: _______
 ```
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

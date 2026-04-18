@@ -278,3 +278,9 @@ Bypassing the escalation protocol for a "small" change. Small changes compound. 
 
 ### 5. "I Already Built It"
 Presenting completed work that was never in the spec and hoping it gets accepted. This creates review pressure and wastes everyone's time if rejected. Ask BEFORE building.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

@@ -233,3 +233,9 @@ python tools/scripts/manage_skill_dates.py list
 ## 有问题或问题？
 
 参见 [CONTRIBUTING.md](../../CONTRIBUTING.md) 了解贡献指南。
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

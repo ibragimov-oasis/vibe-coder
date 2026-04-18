@@ -202,3 +202,9 @@ describe('database-verification', () => {
 - [SKILL.md](SKILL.md) - Main skill guide
 - [TROUBLESHOOTING.md](TROUBLESHOOTING.md) - Current debugging guide
 - [HOOK_MECHANISMS.md](HOOK_MECHANISMS.md) - How hooks work today
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

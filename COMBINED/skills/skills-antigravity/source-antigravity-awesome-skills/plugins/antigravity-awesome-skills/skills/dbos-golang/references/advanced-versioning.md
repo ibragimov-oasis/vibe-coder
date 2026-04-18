@@ -59,3 +59,9 @@ handle, _ := dbos.ForkWorkflowstring
 ```
 
 Reference: [Versioning](https://docs.dbos.dev/golang/tutorials/upgrading-workflows#versioning)
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

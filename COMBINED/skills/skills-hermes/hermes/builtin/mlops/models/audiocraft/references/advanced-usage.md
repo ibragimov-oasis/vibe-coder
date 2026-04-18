@@ -671,3 +671,9 @@ bad_prompts = [
 
 # Structure: [mood] [genre] with [instruments] at [tempo/style]
 ```
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-hermes]] — Category: skills-hermes
+

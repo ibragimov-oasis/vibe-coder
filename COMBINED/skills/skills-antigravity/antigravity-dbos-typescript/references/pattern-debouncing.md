@@ -57,3 +57,9 @@ Key behaviors:
 - Workflows from `ConfiguredInstance` classes cannot be debounced
 
 Reference: [Debouncing Workflows](https://docs.dbos.dev/typescript/tutorials/workflow-tutorial#debouncing-workflows)
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

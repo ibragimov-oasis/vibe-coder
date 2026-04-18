@@ -442,3 +442,9 @@ AsyncTask<int> async_compute() {
 | release | Store barrier | Producer |
 | acq_rel | Both | RMW operations |
 | seq_cst | Total order | Default |
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

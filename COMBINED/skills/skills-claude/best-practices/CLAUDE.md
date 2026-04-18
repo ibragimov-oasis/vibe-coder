@@ -130,3 +130,9 @@ See `.claude/rules/markdown-docs.md` for documentation standards. Key docs:
 - `best-practice/claude-subagents.md`: Subagent frontmatter, hooks, and repository agents
 - `best-practice/claude-commands.md`: Slash command patterns and built-in command reference
 - `orchestration-workflow/orchestration-workflow.md`: Weather system flow diagram
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

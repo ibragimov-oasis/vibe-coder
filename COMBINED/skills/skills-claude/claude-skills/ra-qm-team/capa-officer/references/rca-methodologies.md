@@ -460,3 +460,9 @@ For complex investigations, combine methods:
 | Fault Tree | FTA diagram + cut set analysis | DHF/CAPA record |
 | Human Factors | HFACS analysis + actions | CAPA record |
 | FMEA | FMEA worksheet + action tracking | Design file |
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

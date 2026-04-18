@@ -48,5 +48,10 @@ tags:
   - artifact/doc
   - source/skills-antigravity
 ---|---  
-September 12, 2023| Added artwork.  
-  
+September 12, 2023| Added artwork.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

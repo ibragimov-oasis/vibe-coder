@@ -106,3 +106,9 @@ Tell the user:
 - Losers archived with tags `hub/archive/{session-id}/agent-{N}`
 - Worktrees cleaned up
 - Session state: `merged`
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

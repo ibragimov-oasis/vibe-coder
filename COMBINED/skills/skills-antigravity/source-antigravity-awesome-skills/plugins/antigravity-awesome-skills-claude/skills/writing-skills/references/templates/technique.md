@@ -61,3 +61,9 @@ function goodCode() {
 **Mistake 1:** [Description]
 - Wrong: `bad code`
 - Right: `good code`
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

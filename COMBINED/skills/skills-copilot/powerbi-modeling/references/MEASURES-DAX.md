@@ -200,3 +200,9 @@ RETURN
 - [ ] Column references are fully qualified
 - [ ] Measure references are not qualified
 - [ ] Variables used for complex calculations
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-copilot]] — Category: skills-copilot
+

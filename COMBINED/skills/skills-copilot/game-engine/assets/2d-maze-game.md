@@ -533,3 +533,9 @@ update() {
 | `this.load.audio(key, paths[])` | Load audio with format fallbacks |
 | `this.game.add.audio(key)` | Instantiate audio object |
 | `this.time.events.loop(interval, cb, ctx)` | Create repeating timer |
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-copilot]] — Category: skills-copilot
+

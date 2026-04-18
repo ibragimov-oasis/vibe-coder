@@ -39,3 +39,9 @@ What happens if any of the above requirements are violated:
 Violating the cooldown protocol will result in a ban that is deemed appropriate given the circumstances.
 
 I hope other visitors and developers will support this stance, and may have seen how disruptive it can be when basic standards of conduct are not met.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-awesome-claude]] — Category: skills-awesome-claude
+

@@ -924,3 +924,9 @@ npm run test:e2e
 ---
 
 **Remember**: A good skill is focused, actionable, and immediately useful. Write skills you'd want to use yourself.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

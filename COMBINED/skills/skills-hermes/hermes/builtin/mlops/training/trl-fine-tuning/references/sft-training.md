@@ -173,3 +173,9 @@ trainer = SFTTrainer(
 
 - TRL docs: https://huggingface.co/docs/trl/sft_trainer
 - Examples: https://github.com/huggingface/trl/tree/main/examples/scripts
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-hermes]] — Category: skills-hermes
+

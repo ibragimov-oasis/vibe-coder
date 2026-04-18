@@ -30,3 +30,9 @@ Use @privacy-by-design to review our database schema for PII
 ---
 
 **Contributor:** [@Abdeltoto](https://github.com/Abdeltoto)
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

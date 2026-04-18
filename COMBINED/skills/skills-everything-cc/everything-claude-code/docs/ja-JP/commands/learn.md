@@ -75,3 +75,9 @@ tags:
 - 一度限りの問題（特定のAPIの障害など）は抽出しない
 - 将来のセッションで時間を節約できるパターンに焦点を当てる
 - スキルは集中させる - 1つのスキルに1つのパターン
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

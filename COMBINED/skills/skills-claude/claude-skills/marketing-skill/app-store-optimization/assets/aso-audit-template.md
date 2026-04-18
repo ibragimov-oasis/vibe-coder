@@ -273,3 +273,9 @@ Use this template to conduct a systematic App Store Optimization audit.
 ## Notes
 
 _Additional observations and context:_
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

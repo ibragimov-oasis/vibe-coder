@@ -807,3 +807,9 @@ def log(msg):
     """Print timestamped log message."""
     print(msg, flush=True)
 ```
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-hermes]] — Category: skills-hermes
+

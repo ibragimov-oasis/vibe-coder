@@ -488,3 +488,9 @@ immediately    Yes─┴─No
 | [capa-officer](https://github.com/alirezarezvani/claude-skills/tree/main/ra-qm-team/capa-officer) | CAPA system oversight |
 | [qms-audit-expert](https://github.com/alirezarezvani/claude-skills/tree/main/ra-qm-team/qms-audit-expert) | Internal audit program |
 | [quality-documentation-manager](https://github.com/alirezarezvani/claude-skills/tree/main/ra-qm-team/quality-documentation-manager) | Document control oversight |
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

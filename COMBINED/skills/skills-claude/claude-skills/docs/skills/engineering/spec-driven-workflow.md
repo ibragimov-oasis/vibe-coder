@@ -346,3 +346,9 @@ python spec_validator.py --file specs/auth.md --strict
 # Extract test cases
 python test_extractor.py --file specs/auth.md --framework pytest --output tests/test_auth.py
 ```
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

@@ -41,3 +41,9 @@ class CreateUserRequest:
 ## Referans
 
 Decorator'lar, concurrency ve paket organizasyonu dahil kapsamlı pattern'ler için skill: `python-patterns` dosyasına bakın.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

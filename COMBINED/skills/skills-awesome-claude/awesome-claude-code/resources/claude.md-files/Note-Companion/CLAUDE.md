@@ -116,3 +116,9 @@ The audio transcription feature uses a two-tier approach to handle files of diff
 - ✅ Scalable to larger files (up to 25MB OpenAI limit)
 - ✅ Better memory usage (streaming from R2)
 - ✅ Same pattern as mobile app file uploads
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-awesome-claude]] — Category: skills-awesome-claude
+

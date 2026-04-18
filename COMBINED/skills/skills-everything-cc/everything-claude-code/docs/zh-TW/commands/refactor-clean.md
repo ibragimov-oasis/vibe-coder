@@ -33,3 +33,9 @@ tags:
 6. 顯示已清理項目的摘要
 
 在執行測試前絕不刪除程式碼！
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

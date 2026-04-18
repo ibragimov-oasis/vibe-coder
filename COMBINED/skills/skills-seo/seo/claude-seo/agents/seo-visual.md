@@ -81,3 +81,9 @@ Provide:
 - Mobile responsiveness assessment
 - Above-the-fold content evaluation
 - Specific issues with element locations
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-seo]] — Category: skills-seo
+

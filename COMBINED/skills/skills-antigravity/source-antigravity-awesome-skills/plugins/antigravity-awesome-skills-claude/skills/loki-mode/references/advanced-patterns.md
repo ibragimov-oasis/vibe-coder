@@ -458,3 +458,9 @@ Level 4: Hierarchical Planning + Decomposition
 - [Multi-Agent Reflexion (MAR)](https://arxiv.org/html/2512.20845)
 - [Iter-VF: Iterative Verification-First](https://arxiv.org/html/2511.21734v1)
 - [Awesome Agentic Patterns](https://github.com/nibzard/awesome-agentic-patterns)
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

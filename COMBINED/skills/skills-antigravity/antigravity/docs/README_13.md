@@ -63,3 +63,9 @@ Current version: 1.0.0 (February 2026)
 - [Angular Performance](https://angular.dev/guide/performance)
 - [Zoneless Angular](https://angular.dev/guide/zoneless)
 - [Angular SSR](https://angular.dev/guide/ssr)
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

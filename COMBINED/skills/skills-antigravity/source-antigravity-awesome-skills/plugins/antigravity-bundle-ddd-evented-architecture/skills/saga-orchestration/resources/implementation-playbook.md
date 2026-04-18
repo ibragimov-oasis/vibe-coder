@@ -31,3 +31,9 @@ tags:
 - Simulate failure at every step and confirm compensation path.
 - Validate duplicate message handling.
 - Validate recovery from orchestrator restart.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

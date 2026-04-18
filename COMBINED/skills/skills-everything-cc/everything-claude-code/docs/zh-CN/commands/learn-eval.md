@@ -119,3 +119,9 @@ origin: auto-extracted
 * 专注于那些将在未来会话中节省时间的模式
 * 保持技能聚焦 —— 每个技能一个模式
 * 当裁决为“吸收”时，追加到现有技能，而不是创建新文件
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

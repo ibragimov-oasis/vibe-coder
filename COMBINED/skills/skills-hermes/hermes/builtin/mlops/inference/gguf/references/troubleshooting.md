@@ -447,3 +447,9 @@ Include:
 - Hardware: CPU/GPU model, RAM, VRAM
 - OS version
 - Minimal reproduction steps
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-hermes]] — Category: skills-hermes
+

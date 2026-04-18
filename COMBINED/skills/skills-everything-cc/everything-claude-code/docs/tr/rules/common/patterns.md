@@ -36,3 +36,9 @@ Tüm API yanıtları için tutarlı bir zarf kullan:
 - Data payload ekle (hata durumunda nullable)
 - Hata mesajı alanı ekle (başarı durumunda nullable)
 - Sayfalandırılmış yanıtlar için metadata ekle (total, page, limit)
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

@@ -229,3 +229,9 @@ Assertions.assertDoesNotThrow(() -> {
     page.waitForCondition(() -> page.locator(".spinner").count() == 0);
 });
 ```
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

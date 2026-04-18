@@ -305,3 +305,9 @@ E2E 測試執行後：
 ---
 
 **記住**：E2E 測試是進入生產環境前的最後一道防線。它們能捕捉單元測試遺漏的整合問題。投資時間讓它們穩定、快速且全面。
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

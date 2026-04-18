@@ -182,3 +182,9 @@ tags:
 ---
 
 *Report generated using Financial Analyst Skill - Forecast Builder*
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

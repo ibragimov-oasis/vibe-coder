@@ -182,3 +182,9 @@ The first viewport must accomplish these goals within 5 seconds:
 - [ ] CTA button is visible without scrolling
 - [ ] At least one trust signal present
 - [ ] No jargon or ambiguity in messaging
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

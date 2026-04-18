@@ -396,3 +396,9 @@ Story is complete when:
 
 - **Scrum Master** (`project-management/scrum-master/`) — Velocity data and sprint ceremonies complement backlog management
 - **Product Manager Toolkit** (`product-team/product-manager-toolkit/`) — RICE prioritization feeds backlog ordering
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

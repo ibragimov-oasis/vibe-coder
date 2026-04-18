@@ -222,3 +222,9 @@ Series A: 4-6 tests per month
 - Build testing knowledge base
 
 **Validation:** Test reaches statistical significance before declaring winner.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

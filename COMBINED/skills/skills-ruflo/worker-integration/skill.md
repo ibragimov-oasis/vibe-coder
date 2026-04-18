@@ -156,3 +156,9 @@ Enable integration features in `.claude$settings.json`:
   }
 }
 ```
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-ruflo]] — Category: skills-ruflo
+

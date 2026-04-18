@@ -109,3 +109,9 @@ Detaylı Playwright kalıpları, Page Object Model örnekleri, konfigürasyon ş
 ---
 
 **Unutmayın**: E2E testler production'dan önceki son savunma hattınızdır. Unit testlerin kaçırdığı entegrasyon sorunlarını yakalarlar. Stabiliteye, hıza ve kapsama yatırım yapın.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

@@ -123,3 +123,9 @@ tags:
 ***
 
 **哲学**：代理优先设计，并行执行，先计划后行动，先测试后编码，安全至上。
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

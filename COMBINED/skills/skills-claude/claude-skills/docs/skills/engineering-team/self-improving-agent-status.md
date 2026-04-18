@@ -116,3 +116,9 @@ Output: `📊 Memory: {{n}}/200 lines | {{count}} rules | {{status_emoji}} {{sta
 - If capacity is yellow+, run `/si:review` to identify promotion candidates
 - Stale entries waste space — delete references to files that no longer exist
 - Topic files are fine — Claude creates them to keep MEMORY.md under 200 lines
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

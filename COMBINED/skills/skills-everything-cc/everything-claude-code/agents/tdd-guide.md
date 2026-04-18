@@ -93,3 +93,9 @@ Integrate eval-driven development into TDD flow:
 4. Re-run tests and evals; report pass@1 and pass@3.
 
 Release-critical paths should target pass^3 stability before merge.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

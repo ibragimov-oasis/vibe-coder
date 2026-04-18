@@ -153,3 +153,9 @@ page.Call(ctx, "", "Page.setAdBlockingEnabled", map[string]bool{"enabled": true}
 ```
 
 Full CDP protocol reference: https://chromedevtools.github.io/devtools-protocol/
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

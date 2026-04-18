@@ -206,3 +206,9 @@ Why: enum-driven sheets keep presentation centralized and testable; adding a new
 - Keep the dependency modifier slim; do not put feature state or heavy logic there.
 - Ensure `.task(id:)` work is lightweight or cancelled appropriately; long-running work belongs in services.
 - If unauthenticated clients exist, gate streaming/watch calls to avoid reconnect spam.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-design]] — Category: skills-design
+

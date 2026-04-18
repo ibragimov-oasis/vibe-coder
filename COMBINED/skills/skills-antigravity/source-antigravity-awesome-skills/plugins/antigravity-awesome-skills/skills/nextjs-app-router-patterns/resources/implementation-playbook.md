@@ -548,3 +548,9 @@ export async function updateProduct(id: string, data: ProductData) {
 - [Next.js App Router Documentation](https://nextjs.org/docs/app)
 - [Server Components RFC](https://github.com/reactjs/rfcs/blob/main/text/0188-server-components.md)
 - [Vercel Templates](https://vercel.com/templates/next.js)
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

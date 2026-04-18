@@ -130,3 +130,9 @@ test.describe('Update Cart Quantity', () => {
 | Decrease to 0 | Triggers item removal |
 | Min quantity | Decrease button disabled at 1 |
 | Stock cap | Input clamped to available stock |
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

@@ -157,3 +157,9 @@ class TestCalculator:
 - Include **appropriate imports** and setup code
 - Add **brief comments** explaining non-obvious test purposes
 - Place tests in the **correct location** following project structure
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-copilot]] — Category: skills-copilot
+

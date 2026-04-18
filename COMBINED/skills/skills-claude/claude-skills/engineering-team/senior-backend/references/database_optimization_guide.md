@@ -598,3 +598,9 @@ VACUUM ANALYZE orders;
 -- Check autovacuum status
 SELECT * FROM pg_stat_user_tables WHERE relname = 'orders';
 ```
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

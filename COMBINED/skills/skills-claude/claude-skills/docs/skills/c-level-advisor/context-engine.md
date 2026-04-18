@@ -139,3 +139,9 @@ Missing required fields: note gaps, work around in session, ask in-session only 
 
 ## References
 - `references/anonymization-protocol.md` — detailed rules for stripping sensitive data before external calls
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

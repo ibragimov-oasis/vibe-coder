@@ -626,3 +626,9 @@ pnpm changeset publish
 - **assets/monorepo-checklist.md**: Setup checklist
 - **assets/migration-guide.md**: Multi-repo to monorepo migration
 - **scripts/dependency-graph.ts**: Visualize package dependencies
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

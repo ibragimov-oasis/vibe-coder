@@ -294,3 +294,9 @@ Para arquivos Kotlin médios:
 MainViewModel.kt: estimado V ≈ 5000-10000, D ≈ 15-25 — COMPLEXO
 LlmProvider.kt: estimado V ≈ 500-1000, D ≈ 5-10 — SIMPLES
 ```
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

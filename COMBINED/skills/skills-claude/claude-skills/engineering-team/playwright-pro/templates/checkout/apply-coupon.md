@@ -128,3 +128,9 @@ test.describe('Apply Coupon', () => {
 | Expired coupon | Expiry error shown |
 | Category restriction | Coupon not applicable error |
 | Empty field | Apply button disabled |
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

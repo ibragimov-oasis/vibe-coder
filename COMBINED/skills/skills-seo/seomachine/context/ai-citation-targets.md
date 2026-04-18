@@ -105,3 +105,9 @@ Customize these for your business. These are high-commercial-intent prompt categ
 Run `/research-ai-citations [topic]` to generate a prompt-specific audit. The output will include which sources AI actually cites for that topic cluster, and whether your brand appears. Use findings to update the tables above.
 
 Review quarterly: directories change, new listicles rank, and AI citation patterns shift.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-seo]] — Category: skills-seo
+

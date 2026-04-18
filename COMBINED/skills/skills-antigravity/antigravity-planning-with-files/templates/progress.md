@@ -119,3 +119,9 @@ tags:
   - Include timestamps for errors to track when issues occurred
 -->
 *Update after completing each phase or encountering errors*
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

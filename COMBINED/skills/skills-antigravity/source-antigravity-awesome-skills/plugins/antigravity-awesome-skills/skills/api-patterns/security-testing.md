@@ -127,3 +127,9 @@ tags:
 ---
 
 > **Remember:** APIs are the backbone of modern apps. Test them like attackers will.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

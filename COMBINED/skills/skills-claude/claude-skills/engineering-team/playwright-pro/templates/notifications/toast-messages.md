@@ -144,3 +144,9 @@ test.describe('Toast Messages', () => {
 | Manual dismiss | Close button hides toast |
 | Stacked toasts | Multiple alerts visible simultaneously |
 | Accessible | role=alert or role=status present |
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

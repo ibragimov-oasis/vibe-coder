@@ -88,3 +88,9 @@ When promoting, transform the learning:
 5. Remove from MEMORY.md
 6. Verify with /si:status
 ```
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

@@ -650,3 +650,9 @@ Challenges:
 ---
 
 *This framework should be customized based on organizational maturity, industry context, and strategic objectives. Regular updates should incorporate lessons learned and evolving best practices.*
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

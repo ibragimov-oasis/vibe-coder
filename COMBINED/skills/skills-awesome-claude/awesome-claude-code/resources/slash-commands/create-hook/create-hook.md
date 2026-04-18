@@ -219,3 +219,9 @@ _Complete templates available at: https://docs.claude.com/en/docs/claude-code/ho
 - Follows project conventions and detected tooling
 
 **Result**: The user gets a working hook that enhances their development workflow with intelligent automation and quality checks.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-awesome-claude]] — Category: skills-awesome-claude
+

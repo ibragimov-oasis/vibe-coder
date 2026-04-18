@@ -321,3 +321,9 @@ result = "".join(str(item) for item in items)
 | 类型联合 (\`x | None\`) | 3.10+ |
 
 确保你的项目 `pyproject.toml` 或 `setup.py` 指定了正确的最低 Python 版本。
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

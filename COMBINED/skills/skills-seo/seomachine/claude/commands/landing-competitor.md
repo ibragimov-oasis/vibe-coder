@@ -331,3 +331,9 @@ Refer to your `config/competitors.json` for your configured competitor list.
 For specific features:
 - Analyze competitors who excel in each feature area
 - Compare pricing pages, feature pages, and landing pages
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-seo]] — Category: skills-seo
+

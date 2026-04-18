@@ -195,3 +195,9 @@ These words often add nothing to meaning. Remove them or find specific alternati
 4. Look for clusters of the words listed above
 5. Ensure varied sentence lengths (not all similar length)
 6. Verify each intensifier adds genuine meaning
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-seo]] — Category: skills-seo
+

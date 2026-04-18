@@ -892,3 +892,9 @@ gh issue list --milestone "Skill-Agent Integration v1.0" --state open
 **Document Version:** 1.0
 **Created:** November 5, 2025
 **Last Updated:** November 5, 2025
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

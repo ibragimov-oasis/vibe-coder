@@ -223,3 +223,9 @@ Manus operates in a continuous 7-step loop:
 
 Based on Manus's official context engineering documentation:
 https://manus.im/blog/Context-Engineering-for-AI-Agents-Lessons-from-Building-Manus
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

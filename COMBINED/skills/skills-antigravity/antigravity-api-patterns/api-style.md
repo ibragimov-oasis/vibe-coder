@@ -47,3 +47,9 @@ Who are the API consumers?
 3. How complex are the data relationships?
 4. Is caching critical?
 5. Public or internal API?
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

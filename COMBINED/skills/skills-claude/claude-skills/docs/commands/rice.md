@@ -47,3 +47,9 @@ Mobile app,20000,3,0.5,13
 
 ## Skill Reference
 > `product-team/product-manager-toolkit/SKILL.md`
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

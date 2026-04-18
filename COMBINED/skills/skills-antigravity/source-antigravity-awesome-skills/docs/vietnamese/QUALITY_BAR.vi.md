@@ -69,3 +69,9 @@ Chạy script xác thực trước khi gửi Pull Request (PR):
 ```bash
 python3 scripts/validate_skills.py --strict
 ```
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+
