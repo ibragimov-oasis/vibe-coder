@@ -11,7 +11,7 @@ aliases:
   - design patterns gallery
 created: 2026-04-18
 type: ui-gallery
-source: "../COMBINED/ui-design/ui-rules/ui-ux-pro-max/"
+source: "COMBINED/ui-design/ui-rules/ui-ux-pro-max/"
 ---
 
 # 🎭 UI Patterns — Anti-Slop Reference

@@ -23,7 +23,7 @@ source: "../COMBINED/skills/skills-planning/request-refactor-plan/"
 
 `request-refactor-plan` помогает безопасно провести рефакторинг:
 - Определяет scope изменений (blast-radius)
-- Предотвращает case изменений несвязанного кода
+- Предотвращает случайные изменения несвязанного кода
 - Создаёт тестируемые шаги
 - Обеспечивает reversibility
 
