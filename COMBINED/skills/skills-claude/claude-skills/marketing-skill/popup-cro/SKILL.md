@@ -7,6 +7,10 @@ metadata:
   author: Alireza Rezvani
   category: marketing
   updated: 2026-03-06
+tags:
+  - domain/agents
+  - artifact/skill
+  - source/skills-claude
 ---
 
 # Popup CRO
@@ -227,3 +231,10 @@ Deliver popup recommendations with specificity: name the trigger type, target au
 | Mobile Adaptation Notes | Specific adjustments for mobile trigger, sizing, and dismiss behavior |
 | Compliance Checklist | GDPR consent language, privacy link placement, opt-in mechanic review |
 | A/B Test Plan | Prioritized hypotheses with expected lift and success metrics |
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+- [[MOC - Agents]] — Claude agents
+

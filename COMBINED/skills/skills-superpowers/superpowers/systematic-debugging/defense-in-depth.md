@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-superpowers
+---
+
 # Defense-in-Depth Validation
 
 ## Overview
@@ -120,3 +127,9 @@ All four layers were necessary. During testing, each layer caught bugs the other
 - Debug logging identified structural misuse
 
 **Don't stop at one validation point.** Add checks at every layer.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-superpowers]] — Category: skills-superpowers
+

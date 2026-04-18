@@ -3,6 +3,10 @@ name: go-build-resolver
 description: Especialista em resolução de erros de build, vet e compilação em Go. Corrige erros de build, problemas de go vet e avisos de linter com mudanças mínimas. Use quando builds Go falham.
 tools: ["Read", "Write", "Edit", "Bash", "Grep", "Glob"]
 model: sonnet
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
 ---
 
 # Resolvedor de Erros de Build Go
@@ -78,3 +82,9 @@ go clean -modcache && go mod download  # Corrigir problemas de checksum
 Parar e reportar se:
 - O mesmo erro persiste após 3 tentativas de correção
 - A correção introduz mais erros do que resolve
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

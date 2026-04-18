@@ -1,6 +1,10 @@
 ---
 title: "Atlassian Administrator Expert — Agent Skill for PM"
 description: "Atlassian Administrator for managing and organizing Atlassian products (Jira, Confluence, Bitbucket, Trello), users, permissions, security. Agent skill for Claude Code, Codex CLI, Gemini CLI, OpenClaw."
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
 ---
 
 # Atlassian Administrator Expert
@@ -243,3 +247,9 @@ description: "Atlassian Administrator for managing and organizing Atlassian prod
 - Provide Confluence Expert with template management
 - Ensure Senior PM has visibility into org health
 - Enable Scrum Master with team provisioning
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

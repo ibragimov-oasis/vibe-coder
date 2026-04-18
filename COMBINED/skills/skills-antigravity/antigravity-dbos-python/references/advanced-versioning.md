@@ -3,6 +3,9 @@ title: Use Versioning for Blue-Green Deployments
 impact: LOW
 impactDescription: Safely deploy new code with version tagging
 tags: versioning, blue-green, deployment, recovery
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
 ---
 
 ## Use Versioning for Blue-Green Deployments
@@ -64,3 +67,9 @@ new_handle = DBOS.fork_workflow(
 ```
 
 Reference: [Versioning](https://docs.dbos.dev/python/tutorials/upgrading-workflows#versioning)
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

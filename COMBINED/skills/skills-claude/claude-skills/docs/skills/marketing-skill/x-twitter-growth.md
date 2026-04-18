@@ -1,6 +1,10 @@
 ---
 title: "X/Twitter Growth Engine — Agent Skill for Marketing"
 description: "X/Twitter growth engine for building audience, crafting viral content, and analyzing engagement. Use when the user wants to grow on X/Twitter, write. Agent skill for Claude Code, Codex CLI, Gemini CLI, OpenClaw."
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
 ---
 
 # X/Twitter Growth Engine
@@ -229,3 +233,9 @@ Generates a 2-week posting plan with:
 - `social-media-analyzer` — Cross-platform analytics
 - `content-production` — Long-form content that feeds X threads
 - `copywriting` — Headline and hook writing techniques
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

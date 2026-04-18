@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # Deep Review: Comprehensive Capability & Functionality Report
 # Claude-Flow v2.6.0-alpha.2 with Agentic-Flow Integration
 
@@ -920,3 +927,10 @@ The deep review confirms that all critical capabilities are operational, documen
 ---
 
 *This deep review report is comprehensive and ready for distribution to stakeholders, technical reviewers, and release managers.*
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

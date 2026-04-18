@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-deer-flow
+---
+
 # Middleware 执行流程
 
 ## Middleware 列表
@@ -289,3 +296,10 @@ sequenceDiagram
 ### 大部分 middleware 只用一个钩子
 
 14 个 middleware 中，只有 SandboxMiddleware 同时用了 `before_agent` + `after_agent`（获取/释放）。其余都只在一个阶段执行。洋葱模型的反序特性主要影响 `after_model` 阶段的执行顺序。
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-deer-flow]] — core-deer-flow
+- [[MOC - Skills]] — Skills library
+

@@ -6,6 +6,10 @@ description: >
   How to get started running Toolbox with MCP Inspector and Neo4j as the source.
 sample_filters: ["Neo4j", "MCP Inspector"]
 is_sample: true
+tags:
+  - domain/mcp
+  - artifact/mcp-server
+  - source/mcp-servers
 ---
 
 ## Overview
@@ -141,4 +145,9 @@ Starting MCP inspector...
 1. Select `List Tools`, you will see a list of tools configured in `tools.yaml`.
 
 1. Test out your tools here\!
+
+## 🔗 Связи
+
+- [[MOC - MCP Servers]] — mcp-servers
+- [[000 - Map of Maps]] — Map of Maps
 

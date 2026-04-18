@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # Cypress → Playwright Mapping
 
 ## Commands
@@ -77,3 +84,9 @@
 | `video: true` | `use.video: 'on'` |
 | `screenshotOnRunFailure` | `use.screenshot: 'only-on-failure'` |
 | `retries: { runMode: 2 }` | `retries: 2` |
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

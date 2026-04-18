@@ -2,6 +2,10 @@
 description: "PHP patterns extending common rules"
 globs: ["**/*.php", "**/composer.json"]
 alwaysApply: false
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
 ---
 # PHP Patterns
 
@@ -21,3 +25,9 @@ alwaysApply: false
 
 - Depend on interfaces or narrow service contracts, not framework globals.
 - Pass collaborators through constructors so services are testable without service-locator lookups.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

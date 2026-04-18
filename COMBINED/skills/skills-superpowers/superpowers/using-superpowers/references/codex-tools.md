@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-superpowers
+---
+
 # Codex Tool Mapping
 
 Skills use Claude Code tool names. When you encounter these in a skill, use your platform equivalent:
@@ -98,3 +105,9 @@ the user to use the App's native controls:
 
 The agent can still run tests, stage files, and output suggested branch
 names, commit messages, and PR descriptions for the user to copy.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-superpowers]] — Category: skills-superpowers
+

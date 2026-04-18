@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/mcp
+  - artifact/mcp-server
+  - source/mcp-servers
+---
+
 ## 💬 聊天应用
 
 通过 Telegram、Discord、WhatsApp、飞书、Mochat、钉钉、Slack、邮件或 QQ 与您的 vikingbot 对话 —— 随时随地。
@@ -412,3 +419,9 @@ vikingbot gateway
 ```
 
 </details>
+
+## 🔗 Связи
+
+- [[MOC - MCP Servers]] — mcp-servers
+- [[000 - Map of Maps]] — Map of Maps
+

@@ -4,6 +4,10 @@ description: Codebase search specialist for finding files and code patterns
 model: claude-haiku-4-5
 level: 3
 disallowedTools: Write, Edit
+tags:
+  - domain/agents
+  - artifact/agent
+  - source/by-role/researcher
 ---
 
 <Agent_Prompt>
@@ -116,3 +120,9 @@ disallowedTools: Write, Edit
     - Did I address the underlying need?
   </Final_Checklist>
 </Agent_Prompt>
+
+## 🔗 Связи
+
+- [[MOC - Agents]] — Agent catalog
+- [[agents/researcher]] — Role: researcher
+

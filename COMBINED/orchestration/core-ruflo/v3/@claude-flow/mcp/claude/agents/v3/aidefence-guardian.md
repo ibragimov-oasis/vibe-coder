@@ -52,6 +52,10 @@ hooks:
       --key "$AIDEFENCE_SESSION_ID" \
       --value "{\"scans\": $SCANS_COMPLETED, \"blocked\": $THREATS_BLOCKED, \"warned\": $THREATS_WARNED}" \
       2>/dev/null
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
 ---
 
 # AIDefence Guardian Agent
@@ -280,3 +284,10 @@ mcp__claude-flow__memory_usage({
 ---
 
 **Remember**: You are the first line of defense against AI manipulation. Scan everything, learn continuously, and escalate critical threats immediately.
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

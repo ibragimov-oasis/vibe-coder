@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-copilot
+---
+
 # Dashboard — Complete Reference
 
 The Aspire Dashboard provides real-time observability for all resources in your distributed application. It launches automatically with `aspire run` and can also run standalone.
@@ -224,3 +231,9 @@ provider.addSpanProcessor(
 );
 provider.register();
 ```
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-copilot]] — Category: skills-copilot
+

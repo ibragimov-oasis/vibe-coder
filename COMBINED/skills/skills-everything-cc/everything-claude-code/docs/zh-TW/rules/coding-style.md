@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
+---
+
 # 程式碼風格
 
 ## 不可變性（關鍵）
@@ -68,3 +75,9 @@ const validated = schema.parse(input)
 - [ ] 沒有 console.log 陳述式
 - [ ] 沒有寫死的值
 - [ ] 沒有變異（使用不可變模式）
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

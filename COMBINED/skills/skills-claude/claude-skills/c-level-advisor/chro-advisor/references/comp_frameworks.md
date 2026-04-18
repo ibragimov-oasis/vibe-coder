@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # Compensation Frameworks Reference
 
 Salary bands, equity design, total comp modeling, comp philosophy, and raise/refresh processes.
@@ -318,3 +325,9 @@ Run annually. Non-negotiable at Series B+.
 **Legal exposure:** In many jurisdictions, documented pay gaps without remediation plans are litigation risk. The audit creates a record of intent; remediation closes the risk.
 
 **Remediation budget:** Set aside 0.5–1% of payroll annually for equity adjustments. If you're doing it right, this shrinks over time.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

@@ -13,6 +13,10 @@ metadata:
   author: Sid Mathur <support@getfastah.com>
   version: "0.0.9"
 compatibility: Requires Python 3
+tags:
+  - domain/agents
+  - artifact/skill
+  - source/skills-copilot
 ---
 
 # Geofeed Tuner – Create Better IP Geolocation Feeds
@@ -862,3 +866,10 @@ Perform a final verification pass using concrete, checkable assertions before pr
 **Check 6 — Report file is present and non-empty**
 - Confirm `./run/report/geofeed-report.html` was written and has a file size greater than zero bytes.
 - On failure, regenerate the report before presenting to the user.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-copilot]] — Category: skills-copilot
+- [[MOC - Agents]] — Copilot agents
+

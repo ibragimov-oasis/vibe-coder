@@ -1,6 +1,10 @@
 ---
 name: full-output-enforcement
 description: Overrides default LLM truncation behavior. Enforces complete code generation, bans placeholder patterns, and handles token-limit splits cleanly. Apply to any task requiring exhaustive, unabridged output.
+tags:
+  - domain/ui
+  - artifact/skill
+  - source/skills-design
 ---
 
 # Full-Output Enforcement
@@ -47,3 +51,10 @@ Before finalizing any response, verify:
 - Every item the user requested is present and finished
 - Code blocks contain actual runnable code, not descriptions of what code would do
 - Nothing was shortened to save space
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-design]] — Category: skills-design
+- [[MOC - UI Design]] — Design & UI
+

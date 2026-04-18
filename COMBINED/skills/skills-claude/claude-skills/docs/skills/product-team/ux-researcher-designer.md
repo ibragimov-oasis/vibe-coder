@@ -1,6 +1,10 @@
 ---
 title: "UX Researcher & Designer — Agent Skill for Product Teams"
 description: "UX research and design toolkit for Senior UX Designer/Researcher including data-driven persona generation, journey mapping, usability testing. Agent skill for Claude Code, Codex CLI, Gemini CLI, OpenClaw."
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
 ---
 
 # UX Researcher & Designer
@@ -428,3 +432,9 @@ Detailed reference guides in `references/`:
 
 - **UI Design System** (`product-team/ui-design-system/`) — Research findings inform design system decisions
 - **Product Manager Toolkit** (`product-team/product-manager-toolkit/`) — Customer interview analysis complements persona research
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

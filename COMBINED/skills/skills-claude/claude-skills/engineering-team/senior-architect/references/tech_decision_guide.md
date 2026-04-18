@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # Technology Decision Guide
 
 Decision frameworks and comparison matrices for common technology choices.
@@ -410,3 +417,9 @@ Read:
 | Frontend | React + Next.js | Simplicity → Vue, Performance → Svelte |
 | Cloud | AWS | Microsoft shop → Azure, ML-first → GCP |
 | API | REST | Mobile flexibility → GraphQL, Internal → gRPC |
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

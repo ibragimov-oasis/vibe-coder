@@ -2,6 +2,10 @@
 sidebar_position: 4
 title: "Provider Runtime Resolution"
 description: "How Hermes resolves providers, credentials, API modes, and auxiliary models at runtime"
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-hermes
 ---
 
 # Provider Runtime Resolution
@@ -184,3 +188,10 @@ See `tests/test_fallback_model.py` for comprehensive tests covering all supporte
 - [Agent Loop Internals](./agent-loop.md)
 - [ACP Internals](./acp-internals.md)
 - [Context Compression & Prompt Caching](./context-compression-and-caching.md)
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/hermes]] — Hermes
+- [[000 - Map of Maps]] — Map of Maps
+

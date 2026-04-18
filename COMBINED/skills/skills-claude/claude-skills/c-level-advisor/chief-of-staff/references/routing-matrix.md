@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # Routing Matrix
 
 Detailed routing rules for the Chief of Staff. When a founder asks a question, find the best match in this matrix, then apply the scoring rules to determine single-role, multi-role, or board meeting.
@@ -210,3 +217,9 @@ These skills are invoked for specific cross-cutting needs, not for general domai
 3. Check if it spans **multiple role domains** (score ≥ 3) → invoke multiple roles
 4. Check if it meets **escalation criteria** (score ≥ 4 or irreversible) → trigger board meeting
 5. If unclear → ask one clarifying question, then route
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

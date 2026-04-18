@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/ui
+  - artifact/doc
+  - source/skills-design
+---
+
 # API Design Checklist
 
 ## Pre-Implementation Review
@@ -153,3 +160,9 @@
 - [ ] Deprecations marked
 - [ ] Examples provided
 - [ ] Schema introspection enabled
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-design]] — Category: skills-design
+

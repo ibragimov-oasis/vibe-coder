@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # Lead Magnet Format Guide
 
 Detailed creation guidance for each lead magnet format.
@@ -194,3 +201,9 @@ Detailed creation guidance for each lead magnet format.
 **Follow-up**: Send replay link + summary + CTA within 24 hours. Continue with nurture sequence.
 
 **Key principle**: Teach something genuinely useful. A webinar that's just a sales pitch will damage trust.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

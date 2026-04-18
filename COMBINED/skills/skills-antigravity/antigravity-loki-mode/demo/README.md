@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # Loki Mode Demo
 
 Video demonstration of Loki Mode - Multi-agent autonomous startup system.
@@ -135,3 +142,9 @@ Complete demonstration including:
 3. Combine in video editor (iMovie, DaVinci Resolve)
 4. Add intro/outro cards
 5. Export as MP4
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

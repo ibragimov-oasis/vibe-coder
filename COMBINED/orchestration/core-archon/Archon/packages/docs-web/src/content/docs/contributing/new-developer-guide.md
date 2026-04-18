@@ -6,6 +6,10 @@ audience: [developer]
 status: current
 sidebar:
   order: 1
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-archon
 ---
 
 > **TL;DR**: Archon lets you control AI coding assistants (Claude Code, Codex) from your phone via Telegram, Slack, Discord, or GitHub. Think of it as a remote control for AI pair programming.
@@ -658,3 +662,10 @@ Each conversation gets its own isolated copy of the repo:
 4. **Configure**: `.archon/config.yaml` - Tweak settings
 
 Welcome to remote agentic coding!
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/archon]] — Archon
+- [[000 - Map of Maps]] — Map of Maps
+

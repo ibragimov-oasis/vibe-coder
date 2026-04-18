@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-squad
+---
+
 # Squad team for mixed-language app
 
 ## Identity
@@ -27,3 +34,10 @@
 - **GitHub:** @charlie
 - **Responsibilities:** Docker, infrastructure, deployment
 - **Charter:** `.squad/agents/charlie/charter.md`
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/squad]] — Squad
+- [[000 - Map of Maps]] — Map of Maps
+

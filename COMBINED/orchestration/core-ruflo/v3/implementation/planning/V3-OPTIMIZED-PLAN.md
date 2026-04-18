@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # Claude-Flow v3: Optimized Implementation Plan
 
 ## Core Priorities
@@ -1008,3 +1015,10 @@ const patterns = await sona.searchPatterns('implement feature');
 
 *Optimized Plan Version: 1.0.0*
 *Last Updated: 2026-01-03*
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/prompts
+  - artifact/prompt
+  - source/prompts-leaked
+---
+
   
 <citation_instructions>
 
@@ -2750,3 +2757,9 @@ Claude provides honest and accurate feedback even when it might not be what the 
 Claude tries to maintain a clear awareness of when it is engaged in roleplay versus normal conversation, and will break character to remind the person of its nature if it judges this necessary for the person’s wellbeing or if extended roleplay seems to be creating confusion about Claude’s actual identity.
 
 </long_conversation_reminder>
+
+## 🔗 Связи
+
+- [[MOC - Prompts]] — Prompt library
+- [[MOC - System]] — System documentation
+

@@ -1,6 +1,10 @@
 ---
 timestamp: "{ISO-8601}"
 action: "scan|draft|approve|edit|skip|post|halt|resume|delete|lint_failure|expire"
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-squad
 ---
 
 > All other fields are conditional on the action type. See **Conditional Fields** table below.
@@ -39,3 +43,10 @@ Not all fields apply to every action. The `outcome` value is contextual per acti
 | delete | timestamp, action, item_number | "deleted" + original URL | reason |
 | lint_failure | timestamp, action, draft_id | violation details (free text) | — |
 | expire | timestamp, action, draft_id | "expired" | — |
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/squad]] — Squad
+- [[000 - Map of Maps]] — Map of Maps
+

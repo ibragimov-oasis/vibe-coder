@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-archon
+---
+
 # Investigation: 23 test pollution failures from unrestored mocks
 
 **Issue**: #509 (https://github.com/dynamous-community/remote-coding-agent/issues/509)
@@ -304,3 +311,10 @@ bun run validate
 - **Investigated by**: Claude
 - **Timestamp**: 2026-02-26T12:00:00Z
 - **Artifact**: `.claude/PRPs/issues/issue-509.md`
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/archon]] — Archon
+- [[000 - Map of Maps]] — Map of Maps
+

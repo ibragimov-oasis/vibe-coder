@@ -5,6 +5,10 @@ category: granular-workflow-bundle
 risk: safe
 source: personal
 date_added: "2026-02-27"
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 # API Documentation Workflow
@@ -161,3 +165,9 @@ Use @api-documenter to set up automated doc generation
 - `documentation` - Documentation
 - `api-development` - API development
 - `development` - Development
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

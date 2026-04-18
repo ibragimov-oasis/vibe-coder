@@ -4,6 +4,10 @@ description: 'Mirror the source chapter on MCP servers and external integrations
 authors:
   - GitHub Copilot Learning Hub Team
 lastUpdated: 2026-03-20
+tags:
+  - domain/agents
+  - artifact/agent
+  - source/by-interface/agents-copilot
 ---
 
 ![Chapter 06: MCP Servers](/images/learning-hub/copilot-cli-for-beginners/06/chapter-header.png)
@@ -938,3 +942,9 @@ In **[Chapter 07: Putting It All Together](../07-putting-it-all-together/)**, yo
 - Best practices for team environments
 
 ---
+
+## 🔗 Связи
+
+- [[MOC - Agents]] — Agent catalog
+- [[agents/agents-copilot]] — Interface: agents-copilot
+

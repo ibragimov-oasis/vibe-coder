@@ -8,6 +8,10 @@ description: >
   accessing healthcare data in Google Cloud, providing a critical bridge
   between existing care systems and applications hosted on Google Cloud.
 no_list: true
+tags:
+  - domain/mcp
+  - artifact/mcp-server
+  - source/mcp-servers
 ---
 
 ## About
@@ -122,3 +126,9 @@ useClientOAuth: true
 | allowedFhirStores  | []string |    false     | An optional list of FHIR store IDs that tools using this source are allowed to access. If provided, any tool operation attempting to access a store not in this list will be rejected. If a single store is provided, it will be treated as the default for prebuilt tools.  |
 | allowedDicomStores | []string |    false     | An optional list of DICOM store IDs that tools using this source are allowed to access. If provided, any tool operation attempting to access a store not in this list will be rejected. If a single store is provided, it will be treated as the default for prebuilt tools. |
 | useClientOAuth     |   bool   |    false     | If true, forwards the client's OAuth access token from the "Authorization" header to downstream queries.                                                                                                                                                                     |
+
+## 🔗 Связи
+
+- [[MOC - MCP Servers]] — mcp-servers
+- [[000 - Map of Maps]] — Map of Maps
+

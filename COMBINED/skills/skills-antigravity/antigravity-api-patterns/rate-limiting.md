@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # Rate Limiting Principles
 
 > Protect your API from abuse and overload.
@@ -29,3 +36,9 @@ Include in headers:
 ├── X-RateLimit-Reset (when limit resets)
 └── Return 429 when exceeded
 ```
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

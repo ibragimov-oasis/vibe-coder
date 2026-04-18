@@ -16,6 +16,10 @@ metadata:
   author: evos
   clawdbot:
     emoji: ""
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-everything-cc
 ---
 
 # Returns & Reverse Logistics
@@ -238,3 +242,9 @@ Level 1 (Returns Associate) → Level 2 (Team Lead, 2 hours) → Level 3 (Return
 
 - Pair this skill with your grading rubric, fraud review thresholds, and refund authority matrix before using it in production.
 - Keep restocking standards, hazmat return handling, and liquidation rules near the operating team that will execute the decisions.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

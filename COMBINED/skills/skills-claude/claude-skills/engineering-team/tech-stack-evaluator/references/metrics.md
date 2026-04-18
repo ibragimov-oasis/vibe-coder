@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # Technology Evaluation Metrics
 
 Detailed metrics and calculations used in technology stack evaluation.
@@ -240,3 +247,9 @@ roi_percentage = (benefits - costs) / costs * 100
 | Vertical | CPU/memory limits per instance |
 | Cost per Performance | Dollar per 1000 RPS |
 | Scaling Inflection | Point where cost efficiency changes |
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

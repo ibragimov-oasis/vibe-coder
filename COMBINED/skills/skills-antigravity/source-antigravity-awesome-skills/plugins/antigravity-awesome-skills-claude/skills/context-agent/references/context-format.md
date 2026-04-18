@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # Especificação de Formatos — Context Agent
 
 ## session-NNN.md
@@ -114,3 +121,9 @@ CREATE VIRTUAL TABLE session_search USING fts5(
     tokenize='unicode61'
 );
 ```
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

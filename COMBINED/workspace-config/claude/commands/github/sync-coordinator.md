@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/config
+  - source/workspace-config
+---
+
 # GitHub Sync Coordinator
 
 ## Purpose
@@ -299,3 +306,9 @@ const testMatrix = {
 - Incremental sync retry mechanisms
 - Manual intervention points for complex conflicts
 - State preservation across sync operations
+
+## 🔗 Связи
+
+- [[MOC - System]] — workspace-config
+- [[000 - Map of Maps]] — Map of Maps
+

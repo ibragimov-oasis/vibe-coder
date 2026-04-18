@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
+---
+
 # Mega Plan Repo Prompt List — March 12, 2026
 
 ## Purpose
@@ -284,3 +291,9 @@ the existing dirty skill-file changes here. The best next local tasks are:
 1. selective-install architecture
 2. ECC 2.0 discovery doc
 3. PR `#399` review
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

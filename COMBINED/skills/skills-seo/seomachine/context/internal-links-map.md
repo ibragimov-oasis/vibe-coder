@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/seo
+  - artifact/doc
+  - source/skills-seo
+---
+
 # Internal Links Map
 
 <!-- INSTRUCTIONS: This document catalogs key pages on your website that should be referenced
@@ -222,3 +229,9 @@ When adding internal links to blog content:
 ---
 
 *Note: Keep this document updated as you publish new content or restructure your site. Accurate internal linking improves SEO and user experience.*
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-seo]] — Category: skills-seo
+

@@ -4,6 +4,10 @@ paths:
   - "**/*.tsx"
   - "**/*.js"
   - "**/*.jsx"
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
 ---
 
 # TypeScript/JavaScript 模式
@@ -51,3 +55,9 @@ interface Repository<T> {
   delete(id: string): Promise<void>
 }
 ```
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

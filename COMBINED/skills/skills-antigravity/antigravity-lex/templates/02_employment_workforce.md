@@ -2,6 +2,10 @@
 name: employment-workforce
 description: Agent templates governing hiring, independent contractors, restrictive covenants, and IP assignment.
 jurisdictions: [USA, Canada, EU]
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
 ---
 
 # Employment & Workforce Templates
@@ -29,3 +33,9 @@ When an end-user requests an employment contract:
 2. If EU or Canada, instantly remove "At-Will" clauses and inject localized notice-period clauses.
 3. For EU member states, use **N-Lex** to fetch specific Labour Code (e.g., Czech Labour Code Act No. 262/2006 Coll.) references.
 4. Validate Non-Compete legality against the specific State/Country and check for mandatory compensation requirements.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

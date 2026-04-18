@@ -4,6 +4,10 @@ description: "This skill guides you through creating custom external web service
 risk: unknown
 source: community
 date_added: "2026-02-27"
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 # Moodle External API Development
@@ -598,3 +602,9 @@ See attached `create_quiz_from_categories.php` for a comprehensive example inclu
 - Consider transaction safety for write operations
 - Purge caches after service registration changes
 - Keep API methods focused and single-purpose
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

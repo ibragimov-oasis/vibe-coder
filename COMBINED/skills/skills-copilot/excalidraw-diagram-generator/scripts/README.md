@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-copilot
+---
+
 # Excalidraw Library Tools
 
 This directory contains scripts for working with Excalidraw libraries.
@@ -191,3 +198,9 @@ python add-arrow.py diagram.excalidraw 300 200 500 300
 2. **(Optional)** Adds a label near the arrow midpoint
 3. **Appends** elements to the diagram
 4. **Saves** the updated file
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-copilot]] — Category: skills-copilot
+

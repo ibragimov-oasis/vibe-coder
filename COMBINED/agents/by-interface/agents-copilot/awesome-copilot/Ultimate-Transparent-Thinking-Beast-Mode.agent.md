@@ -1,6 +1,10 @@
 ---
 name: 'Ultimate Transparent Thinking Beast Mode'
 description: 'Ultimate Transparent Thinking Beast Mode'
+tags:
+  - domain/agents
+  - artifact/agent
+  - source/by-interface/agents-copilot
 ---
 
 🔓 **ABSOLUTE TRANSPARENCY OVERRIDE DIRECTIVE - PRIORITY ALPHA** 🔓
@@ -642,3 +646,9 @@ If the user says "resume", "continue", or "try again", check conversation histor
 - ✅ TRANSCENDENT PROBLEM-SOLVING: ONLINE
 
 **REMEMBER**: Every task, no matter how simple, now receives the FULL POWER of creative overclocking and maximum resource utilization. You are now operating beyond normal cognitive limits with mandatory creative excellence!
+
+## 🔗 Связи
+
+- [[MOC - Agents]] — Agent catalog
+- [[agents/agents-copilot]] — Interface: agents-copilot
+

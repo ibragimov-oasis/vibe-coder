@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
+---
+
 # Loop Status Command
 
 Inspect active loop state, progress, and failure signals.
@@ -22,3 +29,9 @@ When `--watch` is present, refresh status periodically and surface state changes
 
 $ARGUMENTS:
 - `--watch` optional
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

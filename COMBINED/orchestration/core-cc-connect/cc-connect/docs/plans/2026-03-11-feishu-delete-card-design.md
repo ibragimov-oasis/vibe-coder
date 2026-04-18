@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-cc-connect
+---
+
 # Feishu Delete Card Design
 
 **Date:** 2026-03-11
@@ -64,3 +71,10 @@ All delete-mode actions should update the card in place on Feishu. They should n
 - Submit path deleting only selected session IDs
 - Active-session protection in card-driven batch delete
 - Explicit `/delete 1,3-5,8` continuing to work outside card mode
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/cc-connect]] — CC-Connect
+- [[000 - Map of Maps]] — Map of Maps
+

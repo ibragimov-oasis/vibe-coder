@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-copilot
+---
+
 # Dependabot PR Comment Commands
 
 Interact with Dependabot pull requests by commenting `@dependabot <command>`. Dependabot acknowledges commands with a thumbs-up reaction.
@@ -89,3 +96,9 @@ Clears only the specified version range ignore for `express`.
 - **Merging Dependabot PRs**: Use GitHub's native auto-merge feature, the CLI (`gh pr merge`), or the web UI. The old `@dependabot merge` commands were deprecated in January 2026.
 - **Closing/Reopening**: Use the GitHub UI or CLI. The old `@dependabot close` and `@dependabot reopen` commands were deprecated in January 2026.
 - **Grouped commands**: When using `@dependabot unignore`, Dependabot closes the current PR and opens a fresh one with the updated dependency set.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-copilot]] — Category: skills-copilot
+

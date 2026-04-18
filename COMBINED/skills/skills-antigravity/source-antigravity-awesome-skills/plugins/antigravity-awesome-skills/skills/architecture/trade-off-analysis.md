@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # Trade-off Analysis & ADR
 
 > Document every architectural decision with trade-offs.
@@ -75,3 +82,9 @@ docs/
     ├── adr-002-postgresql-over-mongodb.md
     └── adr-003-adopt-repository-pattern.md
 ```
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

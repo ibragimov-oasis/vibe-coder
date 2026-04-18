@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # Icon Usage
 
 `Zafiro.Avalonia` simplifies icon management using a specialized markup extension and styling options.
@@ -51,3 +58,9 @@ Then use them with `StaticResource` if they are already defined:
 ```
 
 However, the `{Icon ...}` extension is usually preferred for its brevity and ability to create new icon instances on the fly.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

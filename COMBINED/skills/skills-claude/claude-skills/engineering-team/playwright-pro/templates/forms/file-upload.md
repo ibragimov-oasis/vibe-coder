@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # File Upload Template
 
 Tests single file, multiple files, drag-and-drop, and upload progress.
@@ -134,3 +141,9 @@ test.describe('File Upload', () => {
 | Oversized | Error shown, upload blocked |
 | Wrong type | Mime-type error shown |
 | Progress bar | Progressbar visible during upload |
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

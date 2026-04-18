@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/new_repos
+---
+
 <h1 align="center">Copilot for Obsidian</h1>
 
 <h2 align="center">
@@ -358,3 +365,8 @@ Copilot Plus is a premium product of Brevilabs LLC and it is not affiliated with
 ## **Authors**
 
 Brevilabs Team | Email: logan@brevilabs.com | X/Twitter: [@logancyang](https://twitter.com/logancyang)
+
+## 🔗 Связи
+
+- [[000 - Map of Maps]] — Map of Maps
+

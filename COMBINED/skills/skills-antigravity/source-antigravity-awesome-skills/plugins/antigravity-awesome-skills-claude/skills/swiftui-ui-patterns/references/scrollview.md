@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # ScrollView and Lazy stacks
 
 ## Intent
@@ -85,3 +92,9 @@ ScrollView {
 - Avoid nesting scroll views of the same axis; it causes gesture conflicts.
 - Don’t combine `List` and `ScrollView` in the same hierarchy without a clear reason.
 - Overuse of `LazyVStack` for tiny content can add unnecessary complexity.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

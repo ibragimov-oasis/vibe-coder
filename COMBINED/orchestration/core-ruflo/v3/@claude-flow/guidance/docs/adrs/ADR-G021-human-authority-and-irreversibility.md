@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # ADR-G021: Human Authority and Irreversibility
 
 **Status:** Accepted
@@ -61,3 +68,10 @@ Each level strictly dominates all levels below it. An agent cannot override a hu
 - **Flat permission model**: No escalation semantics; every deny looks the same
 - **Capability-based authority (UCAN-style)**: Good model but conflates authority with capability; these are orthogonal concerns
 - **Confirmation prompts**: UI-level solution; does not work for unattended agents
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

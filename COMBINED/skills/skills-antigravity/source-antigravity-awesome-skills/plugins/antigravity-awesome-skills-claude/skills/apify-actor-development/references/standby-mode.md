@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # Actor Standby Mode Reference
 
 ## JavaScript and TypeScript
@@ -59,3 +66,9 @@ Key points:
 - Detect the `x-apify-container-server-readiness-probe` header in incoming requests
 - Respond with HTTP 200 status code for both readiness probe and normal requests
 - This enables proper Actor lifecycle management in standby mode
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

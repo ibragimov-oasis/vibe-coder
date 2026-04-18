@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/command
+  - source/claude-commands
+---
+
 # Performance Bottleneck Analysis
 
 ## Purpose
@@ -57,3 +64,9 @@ Result includes:
 
 ## Continuous Optimization
 The system learns from each task to prevent future bottlenecks!
+
+## 🔗 Связи
+
+- [[MOC - System]] — System commands
+- [[MOC - Skills]] — Skills library
+

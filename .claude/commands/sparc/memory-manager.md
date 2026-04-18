@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/command
+  - source/claude-commands
+---
+
 # SPARC Memory Manager Mode
 
 ## Purpose
@@ -52,3 +59,9 @@ npx claude-flow@alpha sparc run memory-manager "organize project knowledge"
 - Update knowledge base
 - Merge related information
 - Archive obsolete data
+
+## 🔗 Связи
+
+- [[MOC - System]] — System commands
+- [[MOC - Skills]] — Skills library
+

@@ -5,6 +5,9 @@ description: Comprehensive performance analysis, bottleneck detection, and optim
 category: monitoring
 tags: [performance, bottleneck, optimization, profiling, metrics, analysis]
 author: Claude Flow Team
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
 ---
 
 # Performance Analysis Skill
@@ -561,3 +564,10 @@ npx claude-flow bottleneck detect --fix
 **Version**: 1.0.0
 **Last Updated**: 2025-10-19
 **Maintainer**: Claude Flow Team
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

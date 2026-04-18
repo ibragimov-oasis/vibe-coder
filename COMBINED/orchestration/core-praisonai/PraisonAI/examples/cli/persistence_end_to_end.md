@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-praisonai
+---
+
 # PraisonAI Persistence CLI - End-to-End Guide
 
 This guide demonstrates the CLI commands for database persistence.
@@ -122,3 +129,10 @@ praisonai persistence doctor --help
 praisonai persistence run --help
 praisonai persistence resume --help
 ```
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/praisonai]] — PraisonAI
+- [[000 - Map of Maps]] — Map of Maps
+

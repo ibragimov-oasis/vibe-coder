@@ -5,6 +5,10 @@ category: granular-workflow-bundle
 risk: safe
 source: personal
 date_added: "2026-02-27"
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 # WordPress WooCommerce Development Workflow
@@ -625,3 +629,9 @@ Use @playwright-skill to test WooCommerce checkout flow
 - `wordpress-theme-development` - Theme development
 - `wordpress-plugin-development` - Plugin development
 - `payment-integration` - Payment processing
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

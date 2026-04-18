@@ -147,10 +147,19 @@ People can also use a nearby paired iPhone to enter text on Apple Watch.
 
 ## [Change log](https://developer.apple.com/design/human-interface-guidelines/virtual-keyboards#Change-log)
 
-Date| Changes  
+Date| Changes
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
 ---|---  
 June 9, 2025| Added guidance for displaying custom controls above the keyboard, and updated to reflect virtual keyboard availability in watchOS.  
 February 2, 2024| Clarified the virtual keyboard’s support for direct and indirect gestures in visionOS.  
 December 5, 2023| Added artwork for visionOS.  
-June 21, 2023| Changed page title from Onscreen keyboards and updated to include guidance for visionOS.  
-  
+June 21, 2023| Changed page title from Onscreen keyboards and updated to include guidance for visionOS.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

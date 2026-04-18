@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # Usage Examples
 
 This document provides practical examples for **running evaluations locally** against Hugging Face Hub models.
@@ -99,3 +106,9 @@ uv run scripts/lighteval_vllm_uv.py \
 ## Hand-off to Hugging Face Jobs
 
 When local hardware is not enough, switch to the `hugging-face-jobs` skill and run one of these scripts remotely. Keep the script path and args; move the orchestration there.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

@@ -2,6 +2,10 @@
 description: 'Validate user understanding of code, design patterns, and implementation details through guided questioning.'
 name: 'Demonstrate Understanding mode instructions'
 tools: ['codebase', 'web/fetch', 'findTestFiles', 'githubRepo', 'search', 'usages']
+tags:
+  - domain/agents
+  - artifact/agent
+  - source/by-interface/agents-copilot
 ---
 # Demonstrate Understanding mode instructions
 
@@ -59,3 +63,9 @@ Then kindly suggest:
 - "What are the trade-offs here?"
 
 Remember: Your goal is understanding, not testing. Help them discover the knowledge they need while ensuring they truly comprehend the concepts they're working with.
+
+## 🔗 Связи
+
+- [[MOC - Agents]] — Agent catalog
+- [[agents/agents-copilot]] — Interface: agents-copilot
+

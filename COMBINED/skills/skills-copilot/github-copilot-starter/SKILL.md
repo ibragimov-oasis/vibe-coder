@@ -1,6 +1,10 @@
 ---
 name: github-copilot-starter
 description: 'Set up complete GitHub Copilot configuration for a new project based on technology stack'
+tags:
+  - domain/agents
+  - artifact/skill
+  - source/skills-copilot
 ---
 
 You are a GitHub Copilot setup specialist. Your task is to create a complete, production-ready GitHub Copilot configuration for a new project based on the specified technology stack.
@@ -400,3 +404,10 @@ jobs:
 - ✅ Simple linting (if standard)
 - ✅ Basic test running
 - ✅ Standard build commands
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-copilot]] — Category: skills-copilot
+- [[MOC - Agents]] — Copilot agents
+

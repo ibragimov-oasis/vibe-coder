@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # System Prompt Design
 
 ## Core Principles
@@ -187,3 +194,9 @@ def test_system_prompt(system_prompt, test_cases):
 
     return results
 ```
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

@@ -3,6 +3,10 @@ name: list
 description: List all active agents
 aliases: [ls]
 type: command
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
 ---
 
 # Agent List Command
@@ -98,3 +102,10 @@ Use `--type` with any of the 87 agent types:
 - Consensus: `byzantine-coordinator`, `raft-manager`, `gossip-coordinator`
 - GitHub: `pr-manager`, `code-review-swarm`, `release-manager`
 - SPARC: `sparc-coordinator`, `specification`, `architecture`
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

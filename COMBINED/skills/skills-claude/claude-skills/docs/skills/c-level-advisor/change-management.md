@@ -1,6 +1,10 @@
 ---
 title: "Change Management Playbook — Agent Skill for Executives"
 description: "Framework for rolling out organizational changes without chaos. Covers the ADKAR model adapted for startups, communication templates, resistance. Agent skill for Claude Code, Codex CLI, Gemini CLI, OpenClaw."
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
 ---
 
 # Change Management Playbook
@@ -254,3 +258,9 @@ When organizations change too fast, people stop believing any change will stick.
 
 ## Detailed References
 - `references/change-playbook.md` — ADKAR deep dive, resistance counter-strategies, communication templates, change fatigue management
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

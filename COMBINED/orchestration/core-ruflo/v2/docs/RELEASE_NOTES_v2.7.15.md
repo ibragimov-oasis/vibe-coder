@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # Release Notes - Claude-Flow v2.7.15
 **Release Date:** 2025-10-25
 **Type:** Point Release (Dependency Updates + Fixes)
@@ -330,3 +337,10 @@ mcp__ruv-swarm__swarm_status()
 ---
 
 **Next Release:** v2.8.0 (Ed25519 integration, TypeScript fixes)
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-ruflo]] — core-ruflo
+- [[MOC - Skills]] — Skills library
+

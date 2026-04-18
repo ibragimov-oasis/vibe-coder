@@ -6,6 +6,10 @@ tools:
   - problems
   - runTests
   - readFile
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-archon
 ---
 
 # Validate
@@ -100,3 +104,10 @@ Example:
    - Error: `'x' is defined but never used`
    - Fix: Remove unused variable or prefix with `_`
 ```
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/archon]] — Archon
+- [[000 - Map of Maps]] — Map of Maps
+

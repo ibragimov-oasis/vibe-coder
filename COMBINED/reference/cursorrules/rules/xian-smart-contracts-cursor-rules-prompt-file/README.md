@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/reference
+  - source/reference
+---
+
 # Xian Smart Contracts
 
 ## Introduction
@@ -43,3 +50,9 @@ For more information about Xian and smart contract development:
 ## About This Cursor Rules File
 
 This `.cursorrules` file provides guidance to Cursor AI when developing Xian smart contracts, ensuring best practices are followed for contract structure, state management, event handling, and testing.
+
+## 🔗 Связи
+
+- [[MOC - System]] — reference
+- [[000 - Map of Maps]] — Map of Maps
+

@@ -4,6 +4,10 @@ description: Master AI-powered test automation with modern frameworks, self-heal
 risk: unknown
 source: community
 date_added: '2026-02-27'
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 ## Use this skill when
@@ -220,3 +224,9 @@ Expert test automation engineer focused on building robust, maintainable, and in
 - "Design TDD compliance dashboard for team adherence monitoring"
 - "Implement London School TDD with mock-based test isolation"
 - "Set up continuous TDD verification in CI/CD pipeline"
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

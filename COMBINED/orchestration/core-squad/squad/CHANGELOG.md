@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-squad
+---
+
 # Changelog
 
 All notable changes to this project will be documented in this file.
@@ -317,5 +324,9 @@ All notable changes to this project will be documented in this file.
 - Migrated to npm workspace publishing (`@bradygaster/squad-sdk`, `@bradygaster/squad-cli`)
 - Changesets infrastructure for independent package versioning
 
+## 🔗 Связи
 
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-squad]] — core-squad
+- [[MOC - Skills]] — Skills library
 

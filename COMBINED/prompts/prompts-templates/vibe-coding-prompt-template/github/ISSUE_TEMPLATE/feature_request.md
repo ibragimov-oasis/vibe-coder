@@ -4,7 +4,10 @@ about: Suggest an improvement to the prompts, workflow, or docs
 title: ''
 labels: ''
 assignees: KhazP
-
+tags:
+  - domain/prompts
+  - artifact/prompt
+  - source/prompts-templates
 ---
 
 **Which part of the workflow is this about?**
@@ -35,3 +38,9 @@ If you have suggested wording, prompts, or screenshots, add them here.
 **Additional context**
 
 Anything else maintainers should know.
+
+## 🔗 Связи
+
+- [[MOC - Prompts]] — Prompt library
+- [[MOC - System]] — System documentation
+

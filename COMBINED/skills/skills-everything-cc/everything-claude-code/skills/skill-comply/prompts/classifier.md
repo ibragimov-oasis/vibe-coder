@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
+---
+
 You are classifying tool calls from a coding agent session against expected behavioral steps.
 
 For each tool call, determine which step (if any) it belongs to. A tool call can match at most one step.
@@ -22,3 +29,9 @@ Rules:
 - A Bash running "pytest" that outputs "passed" is a GREEN phase test run
 - Each tool call should match at most one step (pick the best match)
 - If a tool call doesn't match any step, don't include it
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

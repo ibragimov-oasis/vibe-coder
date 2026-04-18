@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-hermes
+---
+
 # Effect Catalog
 
 Effect building blocks that produce visual patterns. In v2, these are used **inside scene functions** that return a pixel canvas directly. The building blocks below operate on grid coordinate arrays and produce `(chars, colors)` or value/hue fields that the scene function renders to canvas via `_render_vf()`.
@@ -1863,3 +1870,9 @@ For every project, create at least one effect that isn't in the catalog:
 - **Use one field to modulate another's parameters**: `vf_spiral(..., tightness=2 + vf_fbm(...) * 5)`
 - **Stack time offsets**: render the same field at `t` and `t - 0.5`, difference-blend for motion trails
 - **Mirror a value field** through an SDF boundary for kaleidoscopic geometry
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-hermes]] — Category: skills-hermes
+

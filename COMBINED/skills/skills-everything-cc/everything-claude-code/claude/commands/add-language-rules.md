@@ -2,6 +2,10 @@
 name: add-language-rules
 description: Workflow command scaffold for add-language-rules in everything-claude-code.
 allowed_tools: ["Bash", "Read", "Write", "Grep", "Glob"]
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
 ---
 
 # /add-language-rules
@@ -37,3 +41,9 @@ Adds a new programming language to the rules system, including coding style, hoo
 
 - Treat this as a scaffold, not a hard-coded script.
 - Update the command if the workflow evolves materially.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

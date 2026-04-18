@@ -23,6 +23,10 @@ metadata:
   category: marketing
   domain: demand-generation
   updated: 2025-01
+tags:
+  - domain/agents
+  - artifact/skill
+  - source/skills-claude
 ---
 
 # Marketing Demand & Acquisition
@@ -310,3 +314,10 @@ Required:
 - **content-strategy**: For content-driven demand generation.
 - **email-sequence**: For nurture sequences in the demand funnel.
 - **campaign-analytics**: For measuring demand gen effectiveness.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+- [[MOC - Agents]] — Claude agents
+

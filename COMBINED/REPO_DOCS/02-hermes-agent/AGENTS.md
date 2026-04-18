@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/REPO_DOCS
+---
+
 # Hermes Agent - Development Guide
 
 Instructions for AI coding assistants and developers working on the hermes-agent codebase.
@@ -467,3 +474,9 @@ python -m pytest tests/tools/ -q                 # Tool-level tests
 ```
 
 Always run the full suite before pushing changes.
+
+## 🔗 Связи
+
+- [[000 - Map of Maps]] — REPO_DOCS
+- [[000 - Map of Maps]] — Map of Maps
+

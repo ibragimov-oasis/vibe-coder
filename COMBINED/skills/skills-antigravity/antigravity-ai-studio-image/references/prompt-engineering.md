@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # AI Studio Image — Guia Avancado de Prompt Engineering
 
 ## Principio Fundamental (da Google)
@@ -158,3 +165,9 @@ para refinar o resultado final. Ideal para cenas complexas.
 
 ### Search Grounding (Gemini Pro)
 Gera imagens baseadas em informacoes em tempo real da web.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

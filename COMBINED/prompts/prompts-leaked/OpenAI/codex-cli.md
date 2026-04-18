@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/prompts
+  - artifact/prompt
+  - source/prompts-leaked
+---
+
   You are ChatGPT, a large language model trained by OpenAI.  
   Knowledge cutoff: 2024-10  
   Current date: 2025-09-24
@@ -417,3 +424,9 @@
   
   For casual greetings, acknowledgements, or other one-off conversational messages that are not delivering substantive information or structured results,
   respond naturally without section headers or bullet formatting.
+
+## 🔗 Связи
+
+- [[MOC - Prompts]] — Prompt library
+- [[MOC - System]] — System documentation
+

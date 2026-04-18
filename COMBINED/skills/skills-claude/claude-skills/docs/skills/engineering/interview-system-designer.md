@@ -1,6 +1,10 @@
 ---
 title: "Interview System Designer — Agent Skill for Codex & OpenClaw"
 description: "This skill should be used when the user asks to 'design interview processes', 'create hiring pipelines', 'calibrate interview loops', 'generate. Agent skill for Claude Code, Codex CLI, Gemini CLI, OpenClaw."
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
 ---
 
 # Interview System Designer
@@ -68,3 +72,9 @@ python3 scripts/interview_planner.py --role "Product Manager" --level mid --json
 2. Require evidence for each score recommendation.
 3. Use the same baseline rubric across comparable roles.
 4. Revisit loop design based on quality-of-hire outcomes.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

@@ -2,6 +2,10 @@
 title: "Cloud SQL for MySQL"
 type: docs
 description: "Details of the Cloud SQL for MySQL prebuilt configuration."
+tags:
+  - domain/mcp
+  - artifact/mcp-server
+  - source/mcp-servers
 ---
 
 ## Cloud SQL for MySQL
@@ -31,3 +35,9 @@ description: "Details of the Cloud SQL for MySQL prebuilt configuration."
         primary or unique key contraint.
     *   `list_table_fragmentation`: Displays table fragmentation in MySQL.
     *   `list_table_stats`: Displays table statistics in MySQL.
+
+## 🔗 Связи
+
+- [[MOC - MCP Servers]] — mcp-servers
+- [[000 - Map of Maps]] — Map of Maps
+

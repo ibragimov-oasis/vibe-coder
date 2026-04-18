@@ -4,6 +4,10 @@ description: "You are a dependency security expert specializing in vulnerability
 risk: unknown
 source: community
 date_added: "2026-02-27"
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 # Dependency Audit and Security Analysis
@@ -52,3 +56,9 @@ $ARGUMENTS
 ## Resources
 
 - `resources/implementation-playbook.md` for detailed tooling and templates.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

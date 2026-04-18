@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/config
+  - source/workspace-config
+---
+
 # task-orchestrate
 
 Orchestrate complex tasks across the swarm.
@@ -23,3 +30,9 @@ npx claude-flow task orchestrate --task "Fix production bug" --priority critical
 # With specific strategy
 npx claude-flow task orchestrate --task "Refactor codebase" --strategy parallel
 ```
+
+## 🔗 Связи
+
+- [[MOC - System]] — workspace-config
+- [[000 - Map of Maps]] — Map of Maps
+

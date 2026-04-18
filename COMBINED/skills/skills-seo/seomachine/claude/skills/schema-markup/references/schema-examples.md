@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/seo
+  - artifact/doc
+  - source/skills-seo
+---
+
 # Schema Markup Examples
 
 Complete JSON-LD examples for common schema types.
@@ -382,3 +389,9 @@ export default function ProductPage({ product }) {
   );
 }
 ```
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-seo]] — Category: skills-seo
+

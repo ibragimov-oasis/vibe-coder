@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/agent
+  - source/by-interface/agents-copilot
+---
+
 # Python MCP Server Development Plugin
 
 Complete toolkit for building Model Context Protocol (MCP) servers in Python using the official SDK with FastMCP. Includes instructions for best practices, a prompt for generating servers, and an expert chat mode for guidance.
@@ -30,3 +37,9 @@ This plugin is part of [Awesome Copilot](https://github.com/github/awesome-copil
 ## License
 
 MIT
+
+## 🔗 Связи
+
+- [[MOC - Agents]] — Agent catalog
+- [[agents/agents-copilot]] — Interface: agents-copilot
+

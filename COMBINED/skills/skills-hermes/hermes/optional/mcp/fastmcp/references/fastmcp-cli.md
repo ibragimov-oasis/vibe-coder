@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-hermes
+---
+
 # FastMCP CLI Reference
 
 Use this file when the task needs exact FastMCP CLI workflows rather than the higher-level guidance in `SKILL.md`.
@@ -108,3 +115,9 @@ Before shipping to any other host:
 2. Verify `fastmcp list` against the local `/mcp` URL.
 3. Verify at least one `fastmcp call`.
 4. Document required environment variables.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-hermes]] — Category: skills-hermes
+

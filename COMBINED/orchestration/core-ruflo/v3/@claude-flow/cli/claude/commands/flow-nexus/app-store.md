@@ -1,6 +1,10 @@
 ---
 name: flow-nexus-app-store
 description: Browse, publish, and deploy applications
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
 ---
 
 # Flow Nexus App Store
@@ -122,3 +126,10 @@ mcp__flow-nexus__market_data()
 - Set pricing (0 for free templates)
 - Track usage and earnings in analytics
 - Withdraw credits or use for Flow Nexus services
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

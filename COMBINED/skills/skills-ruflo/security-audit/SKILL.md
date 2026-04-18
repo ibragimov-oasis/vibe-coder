@@ -4,6 +4,10 @@ description: >
   Comprehensive security scanning and vulnerability detection. Includes input validation, path traversal prevention, CVE detection, and secure coding pattern enforcement.
   Use when: authentication implementation, authorization logic, payment processing, user data handling, API endpoint creation, file upload handling, database queries, external API integration.
   Skip when: read-only operations on public data, internal development tooling, static documentation, styling changes.
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-ruflo
 ---
 
 # Security Audit Skill
@@ -133,3 +137,9 @@ npx @claude-flow/cli security validate --check secrets
 2. Use hierarchical topology for coordination
 3. Store successful patterns after completion
 4. Document any new learnings
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-ruflo]] — Category: skills-ruflo
+

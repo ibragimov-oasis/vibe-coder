@@ -9,6 +9,10 @@ description: |
   - "/release minor" - create a minor release
   - "/release major" - create a major release
   - "make a release", "cut a release", "ship it", "release to main"
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-archon
 ---
 
 # Release Skill
@@ -387,3 +391,10 @@ If you have a VPS available, also run `/test-release curl-vps x.y.z <vps-target>
 - **NEVER update `homebrew/archon.rb` version field without also updating the `sha256` values**. They must move together atomically. The correct SHAs only exist after the release workflow finishes building binaries — see Step 10. Updating the version field alone produces a stale formula that looks valid but causes checksum mismatches on install.
 - **NEVER skip Step 11 (tap sync).** The `coleam00/Archon/homebrew/archon.rb` file is only a template; users install from `coleam00/homebrew-archon/Formula/archon.rb`. If you update one without the other, users get stale or wrong data.
 - **NEVER announce a release that failed `/test-release brew`.** A release that installs but crashes on first invocation is worse than no release — it burns user trust. If the release verification fails, cut a hotfix before telling anyone the release exists.
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/archon]] — Archon
+- [[000 - Map of Maps]] — Map of Maps
+

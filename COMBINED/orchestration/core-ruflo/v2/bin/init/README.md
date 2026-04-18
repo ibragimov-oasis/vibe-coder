@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # Init Command - Modular Structure
 
 This directory contains the modular implementation of the `claude-flow init` command, which initializes Claude Code integration files for projects.
@@ -104,3 +111,9 @@ npx claude-flow init --force
 - Slash commands follow Claude Code's markdown format with YAML frontmatter
 - SPARC modes are fully integrated with Claude-Flow's orchestration system
 - All generated files include comprehensive documentation
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-ruflo]] — core-ruflo
+

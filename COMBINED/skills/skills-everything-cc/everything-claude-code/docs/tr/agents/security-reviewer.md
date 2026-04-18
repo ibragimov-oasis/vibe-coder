@@ -3,6 +3,10 @@ name: security-reviewer
 description: Güvenlik açığı tespit ve düzeltme specialisti. Kullanıcı girdisi, kimlik doğrulama, API endpoint'leri veya hassas veri işleyen kod yazdıktan sonra PROAKTİF olarak kullanın. Secret'ları, SSRF, injection, güvensiz kriptografiyi ve OWASP Top 10 güvenlik açıklarını işaretler.
 tools: ["Read", "Write", "Edit", "Bash", "Grep", "Glob"]
 model: sonnet
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
 ---
 
 # Security Reviewer
@@ -106,3 +110,9 @@ Detaylı güvenlik açığı kalıpları, kod örnekleri, rapor şablonları ve 
 ---
 
 **Unutmayın**: Güvenlik opsiyonel değildir. Bir güvenlik açığı kullanıcılara gerçek mali kayıplara mal olabilir. Titiz olun, paranoyak olun, proaktif olun.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

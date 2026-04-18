@@ -3,6 +3,9 @@ name: text-animations
 description: Typography and text animation patterns for Remotion.
 metadata:
   tags: typography, text, typewriter, highlighter ken
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-archon
 ---
 
 ## Text animations
@@ -18,3 +21,10 @@ Always use string slicing for typewriter effects. Never use per-character opacit
 ## Word Highlighting
 
 See [Word Highlight](assets/text-animations-word-highlight.tsx) for an example for how a word highlight is animated, like with a highlighter pen.
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/archon]] — Archon
+- [[000 - Map of Maps]] — Map of Maps
+

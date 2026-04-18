@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # Operational Cadence: Meetings, Async, Decisions, and Reporting
 
 > The rhythm of your company determines its output. Bad cadence = constant context-switching, decisions made without information, and a leadership team that's always reactive.
@@ -604,3 +611,9 @@ TOP 3 ACTIONS TO GET BACK ON TRACK:
 ---
 
 *Cadence framework synthesized from Amazon's PR/FAQ culture, Google's OKR playbook, GitLab's remote work handbook, and operational patterns from 50+ Series A–C companies.*
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

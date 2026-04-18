@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # Maintenance Walkthrough - 2026-03-30
 
 - Merged PR #418 on GitHub with squash after approving the pending fork workflow run and waiting for `pr-policy`, `source-validation`, and `artifact-preview` to finish green.
@@ -211,3 +218,9 @@
 - Added maintainer automation for repo-state hygiene: `sync:contributors` updates the README contributor list from GitHub contributors, `check:stale-claims`/`audit:consistency` catch drift in count-sensitive docs, and `sync:repo-state` now chains the local maintainer sweep into a single command.
 - Hardened automation surfaces beyond the local CLI: `main` CI now runs the unified repo-state sync, tracked web artifacts are refreshed through `sync:web-assets`, release verification now uses a deterministic `sync:release-state` path plus `npm pack --dry-run`, the npm publish workflow reruns those checks before publishing, and a weekly `Repo Hygiene` GitHub Actions workflow now sweeps slow drift on `main`.
 - Added two maintainer niceties on top of the hardening work: `check:warning-budget` freezes the accepted `135` validation warnings so they cannot silently grow, and `audit:maintainer` prints a read-only health snapshot of warning budget, consistency drift, and git cleanliness.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

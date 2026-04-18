@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # Testing Examples
 
 Scripts for testing Claude Flow functionality and validating system features.
@@ -121,3 +128,9 @@ Both scripts include helper functions:
 - `assert_equals`: Value comparison
 - `assert_contains`: String matching
 - `measure_performance`: Timing checks
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-ruflo]] — core-ruflo
+

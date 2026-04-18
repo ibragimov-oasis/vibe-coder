@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # Tailwind Design System Implementation Playbook
 
 This file contains detailed patterns, checklists, and code samples referenced by the skill.
@@ -663,3 +670,9 @@ export const disabled = 'disabled:pointer-events-none disabled:opacity-50'
 - [CVA Documentation](https://cva.style/docs)
 - [shadcn/ui](https://ui.shadcn.com/)
 - [Radix Primitives](https://www.radix-ui.com/primitives)
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

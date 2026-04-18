@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # Workflow Automation Implementation Playbook
 
 This file contains detailed patterns, checklists, and code samples referenced by the skill.
@@ -1331,3 +1338,9 @@ export const deploymentWorkflow: WorkflowStep = {
 10. **Implementation Guide**: Step-by-step setup instructions
 
 Focus on creating reliable, maintainable automation that reduces manual work while maintaining quality and security standards.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

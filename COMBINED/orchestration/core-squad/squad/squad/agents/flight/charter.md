@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-squad
+---
+
 # Flight — Lead
 
 > Architecture patterns that compound — decisions that make future features easier.
@@ -32,3 +39,10 @@
 ## Model
 
 Preferred: auto
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/squad]] — Squad
+- [[000 - Map of Maps]] — Map of Maps
+

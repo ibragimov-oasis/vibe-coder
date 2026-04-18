@@ -28,6 +28,10 @@ hooks:
     - "Update issue with swarm progress and agent assignments"
     - "Create follow-up tasks based on swarm analysis results"
     - "Generate comprehensive swarm coordination report"
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
 ---
 
 # Swarm Issue - Issue-Based Swarm Coordination
@@ -571,3 +575,10 @@ const postHook = async (results) => {
 ```
 
 See also: [swarm-pr.md](./swarm-pr.md), [sync-coordinator.md](./sync-coordinator.md), [workflow-automation.md](./workflow-automation.md)
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

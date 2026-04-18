@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # Configuration Management - UnifiedConfig Pattern
 
 Complete guide to managing configuration in backend microservices.
@@ -273,3 +280,9 @@ const jwtSecret = config.tokens.jwt;
 **Related Files:**
 - SKILL.md
 - [testing-guide.md](testing-guide.md)
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

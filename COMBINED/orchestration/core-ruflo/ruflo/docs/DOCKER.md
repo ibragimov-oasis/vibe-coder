@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # Docker Deployment Guide
 
 ## Quick Start (Local / Self-Hosted)
@@ -190,3 +197,10 @@ yourdomain.com {
 ```
 
 Set `PUBLIC_ORIGIN=https://yourdomain.com` and `COOKIE_SECURE=true` in `.env`.
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-ruflo]] — core-ruflo
+- [[MOC - Skills]] — Skills library
+

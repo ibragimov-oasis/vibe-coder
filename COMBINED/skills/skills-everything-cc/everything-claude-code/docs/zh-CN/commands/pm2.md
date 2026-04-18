@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
+---
+
 # PM2 初始化
 
 自动分析项目并生成 PM2 服务命令。
@@ -281,3 +288,9 @@ pm2 resurrect          # 恢复已保存进程
 
 **提示：** 首次启动后运行 `pm2 save` 以启用简化命令。
 ```
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

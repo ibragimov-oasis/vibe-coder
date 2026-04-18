@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # Dashboard Screenshots
 
 This directory contains screenshots for the Loki Mode README.
@@ -147,3 +154,9 @@ This gives you polished screenshots without waiting for a full Loki Mode run.
 - Cluttered or confusing data
 
 The goal is to show potential users what the dashboard looks like during normal operation.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

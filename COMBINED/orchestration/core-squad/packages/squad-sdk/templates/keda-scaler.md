@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-squad
+---
+
 # KEDA External Scaler for GitHub Issue-Driven Agent Autoscaling
 
 > Scale agent pods to zero when idle, up when work arrives — driven by GitHub Issues.
@@ -162,3 +169,10 @@ The scaler is maintained as a standalone project. PRs and issues welcome.
 - [Squad on AKS](https://github.com/tamirdresher/squad-on-aks) — Full Kubernetes deployment example
 - [Machine Capabilities](machine-capabilities.md) — Capability-based routing (#514)
 - [Cooperative Rate Limiting](cooperative-rate-limiting.md) — Multi-agent rate management (#515)
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/squad]] — Squad
+- [[000 - Map of Maps]] — Map of Maps
+

@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/config
+  - source/workspace-config
+---
+
 # SPARC Reviewer Mode
 
 ## Purpose
@@ -52,3 +59,9 @@ npx claude-flow@alpha sparc run reviewer "review pull request #123"
 - Dependency checking
 - Consistency validation
 - Automated reporting
+
+## 🔗 Связи
+
+- [[MOC - System]] — workspace-config
+- [[000 - Map of Maps]] — Map of Maps
+

@@ -1,6 +1,10 @@
 ---
 name: arch-linux-triage
 description: 'Triage and resolve Arch Linux issues with pacman, systemd, and rolling-release best practices.'
+tags:
+  - domain/agents
+  - artifact/skill
+  - source/skills-copilot
 ---
 
 # Arch Linux Triage
@@ -29,3 +33,10 @@ You are an Arch Linux expert. Diagnose and resolve the user’s issue using Arch
 - **Remediation Commands** (code blocks)
 - **Validation** (code blocks)
 - **Rollback/Cleanup**
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-copilot]] — Category: skills-copilot
+- [[MOC - Agents]] — Copilot agents
+

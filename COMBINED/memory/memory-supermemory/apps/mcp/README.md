@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/memory
+  - artifact/memory
+  - source/memory
+---
+
 # Supermemory MCP Server 4.0
 
 A standalone MCP (Model Context Protocol) server for Supermemory that gives AI assistants persistent memory across conversations. Built on Cloudflare Workers with Durable Objects for scalable, persistent connections.
@@ -206,4 +213,9 @@ bun run deploy
 - **MCP SDK:** @modelcontextprotocol/sdk + agents
 - **API Client:** supermemory SDK
 - **Analytics:** PostHog
+
+## 🔗 Связи
+
+- [[MOC - Memory]] — memory
+- [[000 - Map of Maps]] — Map of Maps
 

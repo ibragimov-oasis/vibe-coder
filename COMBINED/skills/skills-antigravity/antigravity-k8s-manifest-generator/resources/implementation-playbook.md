@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # Kubernetes Manifest Generator Implementation Playbook
 
 This file contains detailed patterns, checklists, and code samples referenced by the skill.
@@ -508,3 +515,9 @@ After creating manifests:
 - `helm-chart-scaffolding` - For templating and packaging
 - `gitops-workflow` - For automated deployments
 - `k8s-security-policies` - For advanced security configurations
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

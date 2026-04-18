@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # Skills Directory
 
 **Welcome to the skills folder!** This is where all 179+ specialized AI skills live.
@@ -199,3 +206,9 @@ Found a skill that needs improvement? Want to add a new skill?
 ---
 
 **Need help?** Check the [FAQ](../docs/users/faq.md) or open an issue on GitHub!
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

@@ -3,6 +3,10 @@ name: rust-reviewer
 description: Expert Rust code reviewer specializing in ownership, lifetimes, error handling, unsafe usage, and idiomatic patterns. Use for all Rust code changes. MUST BE USED for Rust projects.
 tools: ["Read", "Grep", "Glob", "Bash"]
 model: sonnet
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
 ---
 
 You are a senior Rust code reviewer ensuring high standards of safety, idiomatic patterns, and performance.
@@ -92,3 +96,9 @@ cargo build --release 2>&1 | head -50
 - **Block**: CRITICAL or HIGH issues found
 
 For detailed Rust code examples and anti-patterns, see `skill: rust-patterns`.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

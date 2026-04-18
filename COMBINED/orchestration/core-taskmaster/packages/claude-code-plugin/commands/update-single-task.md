@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-taskmaster
+---
+
 Update a single specific task with new information.
 
 Arguments: $ARGUMENTS
@@ -117,3 +124,10 @@ Quick syntax for specific fields:
 - Check related tasks
 - Update suggestions
 - Timeline adjustments
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/task-master]] — Task-Master
+- [[000 - Map of Maps]] — Map of Maps
+

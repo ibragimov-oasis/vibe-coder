@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-archon
+---
+
 # Investigate Cookbook
 
 Strategic research combining external knowledge with codebase feasibility. Answers "what should we do?" questions by researching options, comparing approaches, and assessing how they'd fit into the existing codebase.
@@ -241,3 +248,10 @@ Link to the artifact.
 - To write requirements: `/archon-dev prd {recommended approach}`
 - To plan implementation: `/archon-dev plan {recommended approach}`
 - For deeper codebase context: `/archon-dev research {specific component}`
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/archon]] — Archon
+- [[000 - Map of Maps]] — Map of Maps
+

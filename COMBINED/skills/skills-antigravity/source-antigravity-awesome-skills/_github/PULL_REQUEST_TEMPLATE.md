@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # Pull Request Description
 
 Please include a summary of the change and which skill is added or fixed.
@@ -33,3 +40,9 @@ Use this only when the PR should auto-close an issue:
 - [ ] **Maintainer Edits**: I enabled **Allow edits from maintainers** on the PR.
 
 ## Screenshots (if applicable)
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

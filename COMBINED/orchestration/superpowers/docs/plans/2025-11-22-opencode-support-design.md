@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/superpowers
+---
+
 # OpenCode Support Design
 
 **Date:** 2025-11-22
@@ -292,3 +299,10 @@ superpowers/
 - **Extensibility**: Easy to add future platforms (Cursor, Windsurf, etc.)
 - **Native integration**: Uses OpenCode's plugin system properly
 - **Consistency**: Same skill experience across all platforms
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/superpowers]] — superpowers
+- [[MOC - Skills]] — Skills library
+

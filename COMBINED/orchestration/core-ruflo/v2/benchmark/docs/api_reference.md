@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # API Reference - Claude Flow Benchmark System
 
 ## Overview
@@ -595,3 +602,10 @@ asyncio.run(optimize_for_project())
 ```
 
 This API reference provides comprehensive documentation for using the Claude Flow Benchmark System's optimization and benchmarking capabilities. For additional examples and advanced usage patterns, see the examples directory and user guides.
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

@@ -3,6 +3,10 @@ name: typescript-reviewer
 description: Expert TypeScript/JavaScript code reviewer specializing in type safety, async correctness, Node/web security, and idiomatic patterns. Use for all TypeScript and JavaScript code changes. MUST BE USED for TypeScript/JavaScript projects.
 tools: ["Read", "Grep", "Glob", "Bash"]
 model: sonnet
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
 ---
 
 TypeScript ve JavaScript için yüksek standartlarda tip güvenli, idiomatic kod sağlayan kıdemli bir TypeScript mühendisisiniz.
@@ -110,3 +114,9 @@ Bu repo henüz özel bir `typescript-patterns` skill'i sunmuyor. Detaylı TypeSc
 ---
 
 Şu zihniyetle inceleyin: "Bu kod en iyi TypeScript şirketinde veya iyi sürdürülen açık kaynak projesinde incelemeyi geçer miydi?"
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

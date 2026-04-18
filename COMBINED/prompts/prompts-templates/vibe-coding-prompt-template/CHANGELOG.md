@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/prompts
+  - artifact/prompt
+  - source/prompts-templates
+---
+
 # Changelog
 
 All notable changes to the Vibe-Coding Prompt Template will be documented in this file.
@@ -19,3 +26,9 @@ This major update shifts the repository from "chat-based prompt generation" to *
 
 ### Removed
 - **MCP Support Guide:** Removed `mcp-support.md` as standard tools now natively handle context retrieval much better, shifting the focus to native plugin workflows and Agent Teams.
+
+## 🔗 Связи
+
+- [[MOC - Prompts]] — Prompt library
+- [[MOC - System]] — System documentation
+

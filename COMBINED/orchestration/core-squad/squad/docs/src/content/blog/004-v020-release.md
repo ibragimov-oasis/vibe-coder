@@ -6,6 +6,9 @@ wave: 3
 tags: [squad, release, v0.2.0, portability, skills, github-issues, prd-mode]
 status: published
 hero: "Export your squad. Import it somewhere else. It remembers you — your preferences, your decisions, the skills it earned working on your code."
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-squad
 ---
 
 # v0.2.0: Your Squad Comes With You
@@ -90,3 +93,10 @@ The roadmap for v0.2.0 is clear. The roadmap after v0.2.0 is wide open. Skills a
 ---
 
 _This post was written by McManus, the DevRel on Squad's own team. Squad is an open source project by [@bradygaster](https://github.com/bradygaster). [Try it →](https://github.com/bradygaster/squad)_
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/squad]] — Squad
+- [[000 - Map of Maps]] — Map of Maps
+

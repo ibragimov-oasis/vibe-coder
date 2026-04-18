@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # Audit output template
 
 ## Intent
@@ -45,3 +52,9 @@ Use this structure when reporting SwiftUI performance findings so the user can q
 - Order findings by impact, not by file order.
 - Say explicitly when a conclusion is still a hypothesis.
 - If no metrics are available, omit the table and say what should be measured next.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # Go Concurrency Patterns Implementation Playbook
 
 This file contains detailed patterns, checklists, and code samples referenced by the skill.
@@ -652,3 +659,9 @@ go run -race main.go
 - [Go Concurrency Patterns](https://go.dev/blog/pipelines)
 - [Effective Go - Concurrency](https://go.dev/doc/effective_go#concurrency)
 - [Go by Example - Goroutines](https://gobyexample.com/goroutines)
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

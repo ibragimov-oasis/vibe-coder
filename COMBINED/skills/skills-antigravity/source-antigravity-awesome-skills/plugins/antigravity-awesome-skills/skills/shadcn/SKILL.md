@@ -5,6 +5,10 @@ user-invocable: false
 risk: safe
 source: https://github.com/shadcn-ui/ui/tree/main/skills/shadcn
 date_added: "2026-03-07"
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 # shadcn/ui
@@ -247,3 +251,9 @@ npx shadcn@latest view @shadcn/button
 - [rules/base-vs-radix.md](./rules/base-vs-radix.md) — asChild vs render, Select, ToggleGroup, Slider, Accordion
 - [cli.md](./cli.md) — Commands, flags, presets, templates
 - [customization.md](./customization.md) — Theming, CSS variables, extending components
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

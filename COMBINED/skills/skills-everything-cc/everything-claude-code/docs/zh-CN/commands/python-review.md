@@ -1,5 +1,9 @@
 ---
 description: 全面的Python代码审查，确保符合PEP 8标准、类型提示、安全性以及Pythonic惯用法。调用python-reviewer代理。
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
 ---
 
 # Python 代码审查
@@ -317,3 +321,9 @@ result = "".join(str(item) for item in items)
 | 类型联合 (\`x | None\`) | 3.10+ |
 
 确保你的项目 `pyproject.toml` 或 `setup.py` 指定了正确的最低 Python 版本。
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

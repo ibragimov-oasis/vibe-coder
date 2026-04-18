@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/combined-root
+---
+
 # ПРОВЕРКА СТРУКТУРЫ COMBINED/ ✅
 
 **Дата:** 4 апреля 2026
@@ -299,3 +306,8 @@ ln -s ../mcp-servers/openviking COMBINED/memory/openviking
 **Дата проверки:** 4 апреля 2026
 **Проверил:** Claude Code Agent
 **Статус:** ✅ ЗАВЕРШЕНО
+
+## 🔗 Связи
+
+- [[000 - Map of Maps]] — Map of Maps
+

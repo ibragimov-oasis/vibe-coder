@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # Troubleshooting Guide
 
 Common issues and solutions for Hugging Face Jobs.
@@ -472,4 +479,9 @@ If issues persist:
 5. **Test locally** - Catch errors before submitting
 6. **Add error handling** - Better debugging information
 7. **Monitor costs** - Set timeouts to avoid unexpected charges
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
 

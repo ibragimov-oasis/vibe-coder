@@ -69,7 +69,11 @@ The _highlighted_ appearance — in which the component’s text uses the app’
 
 **Design your interface to accommodate components in various focus states.** In tvOS, focusable items can have up to five different states, each of which is visually distinct. Because focusing an item often increases its scale, you need to supply assets for the larger, focused size to ensure they always look sharp, and you need to make sure the larger item doesn’t crowd the surrounding interface.
 
-State| Description  
+State| Description
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
 ---|---  
 ![An image of an unfocused button on top of a photograph. A small drop shadow makes it appear very close to the content behind it, with a translucent background infused by the colors of the content, and a high-contrast text color.](https://docs-assets.developer.apple.com/published/bfc53c88dc7a84a9ca45d43d8f7fb550/focus-and-selection-state-unfocused%402x.png)| The viewer hasn’t brought focus to the item. Unfocused items appear less prominent than focused items.  
 ![An image of a focused button on top of a photograph. It’s larger than an unfocused button, and a drop shadow makes it appear farther away from the content behind it, with an opaque white background and a black text label.](https://docs-assets.developer.apple.com/published/882b1286aa16b7a8d4a6367778a984b9/focus-and-selection-state-focused%402x.png)| The viewer brings focus to the item. A focused item visually stands out from the other onscreen content through elevation to the foreground, illumination, and animation.  
@@ -116,5 +120,10 @@ When people look at a virtual object to identify it as the object they want to i
 Date| Changes  
 ---|---  
 October 24, 2023| Clarified the difference between focus effects and the visionOS hover effect.  
-June 21, 2023| Updated to include guidance for visionOS.  
-  
+June 21, 2023| Updated to include guidance for visionOS.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

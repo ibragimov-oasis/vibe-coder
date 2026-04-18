@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-hermes
+---
+
 # Quantization Guide
 
 ## Contents
@@ -282,3 +289,9 @@ if degradation < 1.0:
 else:
     print("⚠️ Review accuracy loss")
 ```
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-hermes]] — Category: skills-hermes
+

@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
+---
+
 # 代码审查标准
 
 ## 目的
@@ -122,3 +129,9 @@
 - [security.md](security.md) - 安全检查清单
 - [git-workflow.md](git-workflow.md) - 提交标准
 - [agents.md](agents.md) - 代理委托
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

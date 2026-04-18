@@ -2,6 +2,9 @@
 name: 'Secrets Scanner'
 description: 'Scans files modified during a Copilot coding agent session for leaked secrets, credentials, and sensitive data'
 tags: ['security', 'secrets', 'scanning', 'session-end']
+  - domain/agents
+  - artifact/agent
+  - source/by-interface/agents-copilot
 ---
 
 # Secrets Scanner Hook
@@ -200,3 +203,9 @@ To temporarily disable the scanner:
 - May produce false positives for test fixtures or example code (use the allowlist to suppress these)
 - Scans only text files; binary secrets (keystores, certificates in DER format) are not detected
 - Requires `git` to be available in the execution environment
+
+## 🔗 Связи
+
+- [[MOC - Agents]] — Agent catalog
+- [[agents/agents-copilot]] — Interface: agents-copilot
+

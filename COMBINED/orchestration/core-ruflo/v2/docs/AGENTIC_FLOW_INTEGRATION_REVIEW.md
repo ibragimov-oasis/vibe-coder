@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # Agentic-Flow NPM Integration Review
 **Date:** 2025-10-25
 **Claude-Flow Version:** 2.7.14
@@ -591,3 +598,10 @@ The wildcard dependency (`"*"`) ensures claude-flow stays current with agentic-f
 **Confidence Level:** HIGH (based on code inspection, npm registry data, and test coverage)
 
 **Next Review:** After upgrading to 1.8.3
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-ruflo]] — core-ruflo
+- [[MOC - Skills]] — Skills library
+

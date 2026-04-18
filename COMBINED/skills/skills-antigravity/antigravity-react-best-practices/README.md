@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # React Best Practices
 
 A structured repository for creating and maintaining React Best Practices optimized for agents and LLMs.
@@ -121,3 +128,9 @@ When adding or modifying rules:
 ## Acknowledgments
 
 Originally created by [@shuding](https://x.com/shuding) at [Vercel](https://vercel.com).
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

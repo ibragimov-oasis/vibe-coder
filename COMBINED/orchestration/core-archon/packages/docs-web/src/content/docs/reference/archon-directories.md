@@ -7,6 +7,10 @@ audience: [developer]
 status: current
 sidebar:
   order: 2
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-archon
 ---
 
 This document explains the Archon directory structure and configuration system for developers contributing to or extending Archon.
@@ -239,3 +243,10 @@ The config type system is designed for:
 - Web UI configuration
 - API-driven config updates
 - Real-time config validation
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/archon]] — Archon
+- [[000 - Map of Maps]] — Map of Maps
+

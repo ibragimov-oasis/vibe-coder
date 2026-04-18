@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/agent
+  - source/by-interface/agents-copilot
+---
+
 # Database & Data Management Plugin
 
 Database administration, SQL optimization, and data management tools for PostgreSQL, SQL Server, and general database development best practices.
@@ -34,3 +41,9 @@ This plugin is part of [Awesome Copilot](https://github.com/github/awesome-copil
 ## License
 
 MIT
+
+## 🔗 Связи
+
+- [[MOC - Agents]] — Agent catalog
+- [[agents/agents-copilot]] — Interface: agents-copilot
+

@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # Invocation Patterns — Inter-Agent Protocol
 
 Common cross-functional patterns, with examples and guidance on when to invoke vs assume.
@@ -245,3 +252,9 @@ Recommendation: plan for 12 months, trigger bridge at 10.
 | Invoke across depth > 2 | Loop risk | State assumption at depth 2 |
 | Invoke during Phase 2 | Groupthink contamination | Flag with [ASSUMPTION:] |
 | Vague questions | Poor responses | Specific, scoped questions only |
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

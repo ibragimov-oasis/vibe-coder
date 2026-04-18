@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/config
+  - source/workspace-config
+---
+
 # SPARC Optimizer Mode
 
 ## Purpose
@@ -52,3 +59,9 @@ npx claude-flow@alpha sparc run optimizer "optimize application performance"
 3. Optimization implementation
 4. Impact verification
 5. Continuous monitoring
+
+## 🔗 Связи
+
+- [[MOC - System]] — workspace-config
+- [[000 - Map of Maps]] — Map of Maps
+

@@ -6,6 +6,10 @@ part: orientation
 audience: [user]
 sidebar:
   order: 1
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-archon
 ---
 
 Archon makes your AI coding assistant predictable. Not by limiting it — by giving it a process to follow.
@@ -89,3 +93,10 @@ And when the built-in workflows don't fit your process? You build your own. In [
 ---
 
 Ready to see it in action? Let's get you to your first win in five minutes. Continue to [Chapter 2: Your First Five Minutes →](/book/first-five-minutes/)
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/archon]] — Archon
+- [[000 - Map of Maps]] — Map of Maps
+

@@ -1,6 +1,10 @@
 ---
 name: polyglot-test-agent
 description: 'Generates comprehensive, workable unit tests for any programming language using a multi-agent pipeline. Use when asked to generate tests, write unit tests, improve test coverage, add test coverage, create test files, or test a codebase. Supports C#, TypeScript, JavaScript, Python, Go, Rust, Java, and more. Orchestrates research, planning, and implementation phases to produce tests that compile, pass, and follow project conventions.'
+tags:
+  - domain/agents
+  - artifact/skill
+  - source/skills-copilot
 ---
 
 # Polyglot Test Generation Skill
@@ -159,3 +163,10 @@ Review the test output and adjust test expectations. Some tests may require mock
 
 ### Wrong testing framework detected
 Specify your preferred framework in the initial request: "Generate Jest tests for..."
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-copilot]] — Category: skills-copilot
+- [[MOC - Agents]] — Copilot agents
+

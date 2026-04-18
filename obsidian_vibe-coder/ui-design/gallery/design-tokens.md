@@ -161,3 +161,9 @@ source: "../COMBINED/ui-design/COMBINED_DESIGN_SYSTEM.md"
 - **shadcn токены:** [[ui-design/gallery/shadcn-showcase]]
 - **Impeccable:** [[ui-design/gallery/impeccable-commands]]
 - **Map:** [[000 - Map of Maps]]
+
+## 🔗 Связи
+
+- [[MOC - UI Design]] — Parent MOC
+- [[000 - Map of Maps]] — Map of Maps
+

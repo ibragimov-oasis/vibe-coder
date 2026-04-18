@@ -3,6 +3,10 @@ paths:
   - "**/*.go"
   - "**/go.mod"
   - "**/go.sum"
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
 ---
 
 # Go 测试
@@ -30,3 +34,9 @@ go test -cover ./...
 ## 参考
 
 查看技能：`golang-testing` 以获取详细的 Go 测试模式和辅助工具。
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

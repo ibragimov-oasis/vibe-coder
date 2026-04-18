@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/seo
+  - artifact/doc
+  - source/skills-seo
+---
+
 # Internal Links Map
 
 This document catalogs key Castos pages that should be referenced in blog content for strategic internal linking. Use this as your go-to reference when adding internal links to articles.
@@ -713,3 +720,9 @@ When writing/editing articles, use this map to:
 ---
 
 **Note**: This map is essential for SEO and user experience. Keep it current by adding new important pages immediately and removing/updating outdated links promptly.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-seo]] — Category: skills-seo
+

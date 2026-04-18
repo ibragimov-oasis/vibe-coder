@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/command
+  - source/claude-commands
+---
+
 # hive-mind-init
 
 Initialize the Hive Mind collective intelligence system.
@@ -16,3 +23,9 @@ npx claude-flow hive-mind init [options]
 npx claude-flow hive-mind init
 npx claude-flow hive-mind init --force
 ```
+
+## 🔗 Связи
+
+- [[MOC - System]] — System commands
+- [[MOC - Skills]] — Skills library
+

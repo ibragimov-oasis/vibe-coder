@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/memory
+  - artifact/memory
+  - source/memory
+---
+
 # Investigation Report: Stuck Observations in Processing State
 
 **Date:** January 2, 2026
@@ -382,3 +389,9 @@ The primary cause of stuck observations is the **disconnect between in-memory tr
 Secondary causes include inconsistent hook exit patterns and the lack of runtime stuck message monitoring.
 
 The 5-minute startup recovery is a safety net, but it only works when the worker restarts. For a production system, continuous monitoring and proper error handling at all state transition points are essential.
+
+## 🔗 Связи
+
+- [[MOC - Memory]] — memory
+- [[000 - Map of Maps]] — Map of Maps
+

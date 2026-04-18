@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-archon
+---
+
 ## Summary
 
 Describe this PR in 2-5 bullets:
@@ -127,3 +134,10 @@ List real risks in this PR (or write `None`).
 
 - Risk:
   - Mitigation:
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-archon]] — core-archon
+- [[MOC - Skills]] — Skills library
+

@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # Performance Bottleneck Analysis
 
 ## Purpose
@@ -57,3 +64,10 @@ Result includes:
 
 ## Continuous Optimization
 The system learns from each task to prevent future bottlenecks!
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

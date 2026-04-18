@@ -1,5 +1,9 @@
 ---
 '@bradygaster/squad-sdk': patch
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-squad
 ---
 
 Eliminate shell injection vectors in scheduler and state backend
@@ -10,3 +14,10 @@ Eliminate shell injection vectors in scheduler and state backend
 - Add `validateStateKey()` for state backend keys (rejects null bytes, newlines, tabs, path traversal)
 - Validate script task refs at manifest parse time (defense-in-depth)
 - Add security-focused tests for both scheduler and state backend
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-squad]] — core-squad
+- [[MOC - Skills]] — Skills library
+

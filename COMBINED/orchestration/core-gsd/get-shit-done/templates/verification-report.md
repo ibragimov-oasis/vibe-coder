@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-gsd
+---
+
 # Verification Report Template
 
 Template for `.planning/phases/XX-name/{phase_num}-VERIFICATION.md` — phase goal verification results.
@@ -320,3 +327,10 @@ None needed until automated gaps are fixed.
 *Verified: 2025-01-15T14:30:00Z*
 *Verifier: Claude (subagent)*
 ```
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-gsd]] — core-gsd
+- [[MOC - Skills]] — Skills library
+

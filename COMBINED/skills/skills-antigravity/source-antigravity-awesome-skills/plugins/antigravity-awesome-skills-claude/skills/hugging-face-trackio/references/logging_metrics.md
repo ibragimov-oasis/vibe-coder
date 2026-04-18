@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # Logging Metrics with Trackio
 
 **Trackio** is a lightweight, free experiment tracking library from Hugging Face. It provides a wandb-compatible API for logging metrics with local-first design.
@@ -204,3 +211,9 @@ Query parameters:
 - `sidebar`: `hidden` or `collapsed`
 - `smoothing`: 0-20 (smoothing slider value)
 - `xmin`, `xmax`: X-axis limits
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

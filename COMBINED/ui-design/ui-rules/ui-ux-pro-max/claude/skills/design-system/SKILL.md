@@ -6,6 +6,10 @@ license: MIT
 metadata:
   author: claudekit
   version: "1.0.0"
+tags:
+  - domain/ui
+  - artifact/ui-component
+  - source/ui-design
 ---
 
 # Design System
@@ -242,3 +246,9 @@ assets/designs/slides/claudekit-pitch-251223.html
 4. Use HSL format for opacity control
 5. Document every token's purpose
 6. **Slides must import design-tokens.css and use var() exclusively**
+
+## 🔗 Связи
+
+- [[MOC - UI Design]] — ui-design
+- [[000 - Map of Maps]] — Map of Maps
+

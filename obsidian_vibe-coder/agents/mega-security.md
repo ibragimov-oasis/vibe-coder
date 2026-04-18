@@ -66,3 +66,9 @@ Shannon Pro (35k⭐) + **code-review-graph (structural analysis)**
 ## Исходник
 
 > 📂 `../COMBINED/agents/mega/mega-security.md`
+
+## 🔗 Связи
+
+- [[MOC - Agents]] — Parent MOC
+- [[000 - Map of Maps]] — Map of Maps
+

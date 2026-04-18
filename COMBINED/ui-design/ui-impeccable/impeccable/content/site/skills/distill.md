@@ -1,5 +1,9 @@
 ---
 tagline: "Ruthless subtraction. Strip designs to their essence."
+tags:
+  - domain/ui
+  - artifact/ui-component
+  - source/ui-design
 ---
 
 ## When to use it
@@ -42,3 +46,9 @@ Fewer things. Each one clearer.
 - **Confusing distill with delete.** Distill removes obstacles. It does not remove features users need. If a user relies on something daily, find a way to keep it quietly, not a way to cut it.
 - **Running it too early.** If the feature is still growing, distilling it now means distilling the same thing again next week. Wait until the shape is stable.
 - **Expecting it to replace hierarchy work.** Sometimes the right fix is not removing things, it is arranging them. Reach for `/layout` when the problem is layout, not quantity.
+
+## 🔗 Связи
+
+- [[MOC - UI Design]] — ui-design
+- [[000 - Map of Maps]] — Map of Maps
+

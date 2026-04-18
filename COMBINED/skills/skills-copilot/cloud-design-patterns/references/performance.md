@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-copilot
+---
+
 # Performance Patterns
 
 ## Asynchronous Request-Reply Pattern
@@ -178,3 +185,9 @@
 - Return appropriate HTTP status codes (429, 503)
 - Provide clear feedback to clients about throttling
 - Monitor throttling metrics to adjust capacity
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-copilot]] — Category: skills-copilot
+

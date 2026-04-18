@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-squad
+---
+
 # Cost-Aware Router — SDK Sample PRD
 
 ## Overview
@@ -209,3 +216,10 @@ npm test
 # PASS: CostTracker aggregates usage correctly
 # PASS: Cost report shows savings vs. single-tier baseline
 ```
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/squad]] — Squad
+- [[000 - Map of Maps]] — Map of Maps
+

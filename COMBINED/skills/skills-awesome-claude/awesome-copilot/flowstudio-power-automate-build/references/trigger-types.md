@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-awesome-claude
+---
+
 # FlowStudio MCP — Trigger Types
 
 Copy-paste trigger definitions for Power Automate flow definitions.
@@ -209,3 +216,9 @@ To return data to the parent, add a `Response` action:
   }
 }
 ```
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-awesome-claude]] — Category: skills-awesome-claude
+

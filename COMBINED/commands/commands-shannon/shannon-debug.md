@@ -1,5 +1,9 @@
 ---
 description: Systematically debug errors using context analysis and structured recovery
+tags:
+  - domain/skills
+  - artifact/command
+  - source/commands
 ---
 
 You are debugging an issue. Follow this structured approach to avoid spinning in circles.
@@ -145,3 +149,9 @@ shannon <URL> <REPO> --pipeline-testing
 ---
 
 Now analyze the error and begin debugging systematically.
+
+## 🔗 Связи
+
+- [[MOC - System]] — commands
+- [[000 - Map of Maps]] — Map of Maps
+

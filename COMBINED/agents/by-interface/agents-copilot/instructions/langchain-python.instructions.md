@@ -1,6 +1,10 @@
 ---
 description: 'Instructions for using LangChain with Python'
 applyTo: "**/*.py"
+tags:
+  - domain/agents
+  - artifact/agent
+  - source/by-interface/agents-copilot
 ---
 
 # LangChain Python Instructions
@@ -227,3 +231,9 @@ Models have a finite context window measured in tokens. When designing conversat
 - Validate any user-supplied URLs and inputs to avoid SSRF and injection attacks.
 - Document data retention and add an API to erase user data on request.
 - Limit stored PII and encrypt sensitive fields at rest.
+
+## 🔗 Связи
+
+- [[MOC - Agents]] — Agent catalog
+- [[agents/agents-copilot]] — Interface: agents-copilot
+

@@ -2,6 +2,10 @@
 description: Rust TDD workflow with unit and property tests
 agent: tdd-guide
 subtask: true
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
 ---
 
 # Rust Test Command
@@ -102,3 +106,9 @@ benches/
 ---
 
 **TIP**: Use `rstest` for parameterized tests and `proptest` for property-based testing.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

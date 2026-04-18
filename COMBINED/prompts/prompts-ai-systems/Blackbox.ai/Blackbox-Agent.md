@@ -1,4 +1,8 @@
 --- Extracted Potential Prompt Templates from: extension.js ---
+tags:
+  - domain/prompts
+  - artifact/prompt
+  - source/prompts-ai-systems
 --- (Filtered from 2916 total template literals found, v4 logic) ---
 
 --- Template 1 (Original Index: 2438) ---
@@ -1625,4 +1629,9 @@ When a server is connected, you can use the server's tools via the \`use_mcp_too
 ${r.getServers().length>0?
 
 --------------------
+
+## 🔗 Связи
+
+- [[MOC - Prompts]] — Prompt library
+- [[MOC - System]] — System documentation
 

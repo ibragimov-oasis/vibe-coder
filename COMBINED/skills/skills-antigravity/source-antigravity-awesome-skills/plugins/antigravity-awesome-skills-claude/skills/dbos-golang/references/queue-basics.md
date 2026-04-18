@@ -3,6 +3,9 @@ title: Use Queues for Concurrent Workflows
 impact: HIGH
 impactDescription: Queues provide managed concurrency and flow control
 tags: queue, concurrency, enqueue, workflow
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
 ---
 
 ## Use Queues for Concurrent Workflows
@@ -51,3 +54,9 @@ func processAllTasks(ctx dbos.DBOSContext, tasks []string) ([]string, error) {
 Queues process workflows in FIFO order. All queues must be created with `dbos.NewWorkflowQueue` before `Launch()`.
 
 Reference: [DBOS Queues](https://docs.dbos.dev/golang/tutorials/queue-tutorial)
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

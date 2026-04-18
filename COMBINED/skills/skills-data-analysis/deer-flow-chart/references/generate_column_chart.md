@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-data-analysis
+---
+
 # generate_column_chart — 柱状图
 
 ## 功能概述
@@ -25,3 +32,9 @@
 
 ## 返回结果
 - 返回柱状图 URL，并随 `_meta.spec` 提供配置详情。
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-data-analysis]] — Category: skills-data-analysis
+

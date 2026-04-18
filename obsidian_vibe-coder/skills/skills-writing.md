@@ -38,3 +38,9 @@ source: "../COMBINED/skills/skills-writing/"
 
 - [[skills/skills-development]] — edit-article источник
 - [[mcp-servers/mcp-markitdown]] — конвертация файлов для writing
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Parent MOC
+- [[000 - Map of Maps]] — Map of Maps
+

@@ -3,6 +3,10 @@ name: claude-settings-audit
 description: Analyze a repository to generate recommended Claude Code settings.json permissions. Use when setting up a new project, auditing existing settings, or determining which read-only bash commands to allow. Detects tech stack, build tools, and monorepo structure.
 risk: unknown
 source: community
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 # Claude Settings Audit
@@ -314,3 +318,9 @@ Only include the package manager actually used by the project:
 | `Pipfile.lock`      | pipenv commands | pip, poetry                            |
 
 If multiple lock files exist, include only the commands for each detected manager.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

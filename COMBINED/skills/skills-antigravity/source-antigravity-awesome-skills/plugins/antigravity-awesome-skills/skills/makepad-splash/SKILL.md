@@ -6,6 +6,10 @@ description: |
   makepad dynamic, makepad AI, splash 语言, makepad 脚本
 risk: unknown
 source: community
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 # Makepad Splash Skill
@@ -213,3 +217,9 @@ create_form([
 3. Splash syntax is similar to JavaScript/Rust hybrid
 4. Scripts run in a sandboxed environment
 5. HTTP and timer APIs enable async operations
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

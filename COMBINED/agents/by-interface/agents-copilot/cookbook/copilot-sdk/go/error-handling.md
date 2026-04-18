@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/agent
+  - source/by-interface/agents-copilot
+---
+
 # Error Handling Patterns
 
 Handle errors gracefully in your Copilot SDK applications.
@@ -200,3 +207,9 @@ func doWork() error {
 3. **Set appropriate timeouts**: Use `context.WithTimeout` for long-running requests
 4. **Log errors**: Capture error details for debugging
 5. **Wrap errors**: Use `fmt.Errorf` with `%w` to preserve error chains
+
+## 🔗 Связи
+
+- [[MOC - Agents]] — Agent catalog
+- [[agents/agents-copilot]] — Interface: agents-copilot
+

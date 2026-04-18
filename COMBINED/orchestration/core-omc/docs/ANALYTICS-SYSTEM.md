@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-omc
+---
+
 # Analytics System (Removed)
 
 ## Status
@@ -36,3 +43,10 @@ ls .omc/sessions/*.json
 ```
 
 For integration hooks, inspect the `session-end` summary JSON and notification payloads rather than looking for the removed analytics commands.
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-omc]] — core-omc
+- [[MOC - Skills]] — Skills library
+

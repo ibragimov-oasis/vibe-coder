@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # Antigravity Workflows
 
 > Workflow playbooks to orchestrate multiple skills with less friction.
@@ -213,3 +220,9 @@ Model a complex domain coherently, then implement tactical and evented patterns 
 ## Machine-Readable Workflows
 
 For tooling and automation, workflow metadata is available in [data/workflows.json](../../data/workflows.json).
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

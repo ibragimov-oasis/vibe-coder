@@ -1,6 +1,10 @@
 ---
 name: migration-planner
 description: Comprehensive migration plan for converting commands to agent-based system
+tags:
+  - domain/agents
+  - artifact/agent
+  - source/by-role/planner
 ---
 
 # Claude Flow Commands to Agent System Migration Plan
@@ -722,3 +726,9 @@ triggers:
 - Improved natural language understanding
 - Better task decomposition and parallelization
 - Enhanced error handling and recovery
+
+## 🔗 Связи
+
+- [[MOC - Agents]] — Agent catalog
+- [[agents/planner]] — Role: planner
+

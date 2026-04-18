@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-hermes
+---
+
 # Segment Anything Advanced Usage Guide
 
 ## SAM 2 (Video Segmentation)
@@ -587,3 +594,9 @@ def generate_dataset(images_dir, output_dir, mask_generator):
 
     return annotations
 ```
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-hermes]] — Category: skills-hermes
+

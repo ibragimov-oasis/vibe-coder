@@ -1,6 +1,10 @@
 ---
 title: "Board Deck Builder — Agent Skill for Executives"
 description: "Assembles comprehensive board and investor update decks by pulling perspectives from all C-suite roles. Use when preparing board meetings, investor. Agent skill for Claude Code, Codex CLI, Gemini CLI, OpenClaw."
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
 ---
 
 # Board Deck Builder
@@ -184,3 +188,9 @@ Never bury it. Boards find out eventually. Finding out late makes it worse.
 ## References
 - `references/deck-frameworks.md` — SaaS board pack format, Sequoia structure, investor tailoring
 - `templates/board-deck-template.md` — fill-in template for complete board decks
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

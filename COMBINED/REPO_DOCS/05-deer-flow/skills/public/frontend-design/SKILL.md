@@ -2,6 +2,10 @@
 name: frontend-design
 description: Create distinctive, production-grade frontend interfaces with high design quality. Use this skill when the user asks to build web components, pages, artifacts, posters, or applications (examples include websites, landing pages, dashboards, React components, HTML/CSS layouts, or when styling/beautifying any web UI). Generates creative, polished code and UI design that avoids generic AI aesthetics.
 license: Complete terms in LICENSE.txt
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/REPO_DOCS
 ---
 
 This skill guides creation of distinctive, production-grade frontend interfaces that avoid generic "AI slop" aesthetics. Implement real working code with exceptional attention to aesthetic details and creative choices.
@@ -90,3 +94,9 @@ Example code patterns:
 **Design Principle**: The branding should feel like it belongs - a natural extension of your creative vision, not a mandatory stamp. Match the signature's style (typography, color, animation) to the overall aesthetic direction.
 
 Remember: Claude is capable of extraordinary creative work. Don't hold back, show what can truly be created when thinking outside the box and committing fully to a distinctive vision.
+
+## 🔗 Связи
+
+- [[000 - Map of Maps]] — REPO_DOCS
+- [[000 - Map of Maps]] — Map of Maps
+

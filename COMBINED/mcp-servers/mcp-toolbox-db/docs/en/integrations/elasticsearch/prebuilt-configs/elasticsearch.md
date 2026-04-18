@@ -2,6 +2,10 @@
 title: "Elasticsearch"
 type: docs
 description: "Details of the Elasticsearch prebuilt configuration."
+tags:
+  - domain/mcp
+  - artifact/mcp-server
+  - source/mcp-servers
 ---
 
 ## Elasticsearch
@@ -12,3 +16,9 @@ description: "Details of the Elasticsearch prebuilt configuration."
     *   `ELASTICSEARCH_APIKEY`: The API key for authentication.
 *   **Tools:**
     *   `execute_esql_query`: Use this tool to execute ES|QL queries.
+
+## 🔗 Связи
+
+- [[MOC - MCP Servers]] — mcp-servers
+- [[000 - Map of Maps]] — Map of Maps
+

@@ -1,6 +1,10 @@
 ---
 title: "Analyze Test Coverage Gaps — Agent Skill & Codex Plugin"
 description: "Analyze test coverage gaps. Use when user says 'test coverage', 'what's not tested', 'coverage gaps', 'missing tests', 'coverage report', or 'what. Agent skill for Claude Code, Codex CLI, Gemini CLI, OpenClaw."
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
 ---
 
 # Analyze Test Coverage Gaps
@@ -104,3 +108,9 @@ If yes, invoke `/pw:generate` for each gap with the recommended template.
 - Coverage percentage estimate
 - Prioritized gap list with effort estimates
 - Option to auto-generate missing tests
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

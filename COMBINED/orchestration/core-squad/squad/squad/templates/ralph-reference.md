@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-squad
+---
+
 # Ralph Reference — Work Monitor Lifecycle
 
 ## Ralph's Work-Check Cycle
@@ -72,3 +79,10 @@ Ralph stops checking when:
 2. User says "Ralph, idle" or "stop"
 3. Session ends (in-session layer only)
 4. Process killed (watch mode)
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/squad]] — Squad
+- [[000 - Map of Maps]] — Map of Maps
+

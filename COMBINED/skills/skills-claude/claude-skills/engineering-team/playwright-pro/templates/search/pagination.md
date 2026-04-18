@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # Pagination Template
 
 Tests page navigation, items-per-page selector, and URL state.
@@ -121,3 +128,9 @@ test.describe('Pagination', () => {
 | First page prev | Previous button disabled |
 | Last page next | Next button disabled |
 | Out-of-range | Graceful fallback |
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

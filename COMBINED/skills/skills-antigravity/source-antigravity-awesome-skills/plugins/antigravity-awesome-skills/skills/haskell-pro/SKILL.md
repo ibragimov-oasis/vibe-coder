@@ -4,6 +4,10 @@ description: "Expert Haskell engineer specializing in advanced type systems, pur
 risk: safe
 source: community
 date_added: "2026-02-27"
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 ## Use this skill when
@@ -53,3 +57,9 @@ You are a Haskell expert specializing in strongly typed functional programming a
 - QuickCheck/Hspec tests with property-based reasoning
 
 Provide modern, maintainable Haskell that balances rigor with practicality.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

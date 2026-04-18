@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/mcp
+  - artifact/mcp-server
+  - source/mcp-servers
+---
+
 **LevelDB is a fast key-value storage library written at Google that provides an ordered mapping from string keys to string values.**
 
 [![Build Status](https://travis-ci.org/google/leveldb.svg?branch=master)](https://travis-ci.org/google/leveldb)
@@ -229,3 +236,9 @@ in util/env_posix.cc.
 
 * **include/leveldb/table.h, include/leveldb/table_builder.h**: Lower-level modules that most
 clients probably won't use directly.
+
+## 🔗 Связи
+
+- [[MOC - MCP Servers]] — mcp-servers
+- [[000 - Map of Maps]] — Map of Maps
+

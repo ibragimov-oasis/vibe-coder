@@ -6,6 +6,10 @@ description: >
   The "vector-assist-apply-spec" tool automatically executes all SQL recommendations
   associated with a specific vector specification or table to finalize the
   vector search setup.
+tags:
+  - domain/mcp
+  - artifact/mcp-server
+  - source/mcp-servers
 ---
 
 ## About
@@ -57,3 +61,9 @@ description: "This tool automatically executes all the SQL recommendations assoc
 | type        |  string  |     true     | Must be "vector-assist-apply-spec".                 |
 | source      |  string  |     true     | Name of the source the SQL should execute on.        |
 | description |  string  |    false     | Description of the tool that is passed to the agent. |
+
+## 🔗 Связи
+
+- [[MOC - MCP Servers]] — mcp-servers
+- [[000 - Map of Maps]] — Map of Maps
+

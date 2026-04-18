@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # Arctic Frost
 
 A cool and crisp winter-inspired theme that conveys clarity, precision, and professionalism.
@@ -17,3 +24,9 @@ A cool and crisp winter-inspired theme that conveys clarity, precision, and prof
 ## Best Used For
 
 Healthcare presentations, technology solutions, winter sports, clean tech, pharmaceutical content.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

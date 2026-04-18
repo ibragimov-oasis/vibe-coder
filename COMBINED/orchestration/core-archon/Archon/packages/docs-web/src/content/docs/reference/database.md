@@ -7,6 +7,10 @@ audience: [developer, operator]
 status: current
 sidebar:
   order: 5
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-archon
 ---
 
 Archon supports two database backends: **SQLite** (default, zero setup) and **PostgreSQL** (optional, for cloud/advanced deployments). The database backend is selected automatically based on whether the `DATABASE_URL` environment variable is set.
@@ -185,3 +189,10 @@ The database has 8 tables, all prefixed with `remote_agent_`:
 | `018_fix_workflow_status_default.sql` | Fix workflow status default value |
 | `019_workflow_resume_path.sql` | Workflow resume path support |
 | `020_codebase_env_vars.sql` | Per-project environment variables |
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/archon]] — Archon
+- [[000 - Map of Maps]] — Map of Maps
+

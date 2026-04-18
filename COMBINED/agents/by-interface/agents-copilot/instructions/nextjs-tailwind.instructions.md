@@ -1,6 +1,10 @@
 ---
 description: 'Next.js + Tailwind development standards and instructions'
 applyTo: '**/*.tsx, **/*.ts, **/*.jsx, **/*.js, **/*.css'
+tags:
+  - domain/agents
+  - artifact/agent
+  - source/by-interface/agents-copilot
 ---
 
 # Next.js + Tailwind Development Instructions
@@ -70,3 +74,9 @@ Instructions for high-quality Next.js applications with Tailwind CSS styling and
 6. Implement responsive styling
 7. Add loading states
 8. Write tests
+
+## 🔗 Связи
+
+- [[MOC - Agents]] — Agent catalog
+- [[agents/agents-copilot]] — Interface: agents-copilot
+

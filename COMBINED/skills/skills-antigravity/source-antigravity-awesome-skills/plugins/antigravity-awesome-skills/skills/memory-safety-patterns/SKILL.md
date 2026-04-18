@@ -4,6 +4,10 @@ description: "Cross-language patterns for memory-safe programming including RAII
 risk: safe
 source: community
 date_added: "2026-02-27"
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 # Memory Safety Patterns
@@ -34,3 +38,9 @@ Cross-language patterns for memory-safe programming including RAII, ownership, s
 ## Resources
 
 - `resources/implementation-playbook.md` for detailed patterns and examples.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # PRD: Simple Todo App
 
 ## Overview
@@ -58,3 +65,9 @@ Individual users who want a simple way to track tasks.
 ---
 
 **Purpose:** This PRD is intentionally simple to allow quick testing of Loki Mode's core functionality without waiting for complex builds or deployments.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

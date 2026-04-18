@@ -2,6 +2,10 @@
 name: worker-integration
 description: Worker-Agent integration for intelligent task dispatch and performance tracking
 user-invocable: true
+tags:
+  - domain/skills
+  - artifact/config
+  - source/workspace-config
 ---
 
 # Worker-Agent Integration Skill
@@ -145,3 +149,9 @@ Enable integration features in `.claude/settings.json`:
   }
 }
 ```
+
+## 🔗 Связи
+
+- [[MOC - System]] — workspace-config
+- [[000 - Map of Maps]] — Map of Maps
+

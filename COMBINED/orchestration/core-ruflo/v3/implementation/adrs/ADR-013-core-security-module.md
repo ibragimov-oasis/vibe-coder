@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # ADR-013: Core Security Module
 
 ## Status
@@ -180,3 +187,10 @@ const token = security.tokenGenerator.generateAccessToken('user-123', 3600);
 - CVE Tracking: `v3/@claude-flow/security/src/CVE-REMEDIATION.ts`
 - OWASP Guidelines: https://owasp.org/www-project-top-ten/
 - bcrypt Best Practices: https://cheatsheetseries.owasp.org/cheatsheets/Password_Storage_Cheat_Sheet.html
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

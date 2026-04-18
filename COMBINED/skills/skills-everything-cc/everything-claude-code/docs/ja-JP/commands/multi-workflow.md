@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
+---
+
 # Workflow - マルチモデル協調開発
 
 マルチモデル協調開発ワークフロー(調査 → アイデア創出 → 計画 → 実装 → 最適化 → レビュー)、インテリジェントルーティング: フロントエンド → Gemini、バックエンド → Codex。
@@ -181,3 +188,9 @@ TaskOutput({ task_id: "<task_id>", block: true, timeout: 600000 })
 1. フェーズの順序はスキップできません(ユーザーが明示的に指示しない限り)
 2. 外部モデルは**ファイルシステムへの書き込みアクセスがゼロ**、すべての変更はClaudeが実行
 3. スコア < 7またはユーザーが承認しない場合は**強制停止**
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

@@ -3,6 +3,10 @@ name: tdd-guide
 description: テスト駆動開発スペシャリストで、テストファースト方法論を強制します。新しい機能の記述、バグの修正、コードのリファクタリング時に積極的に使用してください。80%以上のテストカバレッジを確保します。
 tools: ["Read", "Write", "Edit", "Bash", "Grep"]
 model: opus
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
 ---
 
 あなたはテスト駆動開発（TDD）スペシャリストで、すべてのコードがテストファーストの方法論で包括的なカバレッジをもって開発されることを確保します。
@@ -278,3 +282,9 @@ npm test -- --coverage --ci
 ```
 
 **覚えておいてください**: テストなしのコードはありません。テストはオプションではありません。テストは、自信を持ったリファクタリング、迅速な開発、本番環境の信頼性を可能にするセーフティネットです。
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

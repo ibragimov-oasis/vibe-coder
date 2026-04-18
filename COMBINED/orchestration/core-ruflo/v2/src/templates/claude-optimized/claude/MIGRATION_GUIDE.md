@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # SPARC Batchtools Migration Guide
 
 ## Table of Contents
@@ -837,3 +844,10 @@ Week 6: Optimization & Training
 This migration guide provides a comprehensive path from traditional sequential SPARC operations to the highly optimized batchtools approach. Following these guidelines will ensure a smooth transition while maximizing the performance benefits of parallel execution.
 
 For additional support or questions, please refer to the project documentation or create an issue with the `batchtools-migration` label.
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

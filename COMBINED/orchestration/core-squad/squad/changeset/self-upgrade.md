@@ -1,5 +1,9 @@
 ---
 "@bradygaster/squad-cli": minor
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-squad
 ---
 
 Add `squad upgrade --self` to upgrade the CLI package itself (#798)
@@ -10,3 +14,10 @@ Add `squad upgrade --self` to upgrade the CLI package itself (#798)
 - Detects package manager (npm/pnpm/yarn) from npm_config_user_agent
 - Clear error on permission denied (suggests sudo or npx)
 - Help text updated with new flags
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-squad]] — core-squad
+- [[MOC - Skills]] — Skills library
+

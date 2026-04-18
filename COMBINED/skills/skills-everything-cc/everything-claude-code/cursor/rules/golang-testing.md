@@ -2,6 +2,10 @@
 description: "Go testing extending common rules"
 globs: ["**/*.go", "**/go.mod", "**/go.sum"]
 alwaysApply: false
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
 ---
 # Go Testing
 
@@ -28,3 +32,9 @@ go test -cover ./...
 ## Reference
 
 See skill: `golang-testing` for detailed Go testing patterns and helpers.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

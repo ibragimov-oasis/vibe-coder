@@ -11,6 +11,10 @@ metadata:
   skills_count: 28
   scripts_count: 25
   references_count: 52
+tags:
+  - domain/agents
+  - artifact/skill
+  - source/skills-claude
 ---
 
 # C-Level Advisory Ecosystem
@@ -151,3 +155,10 @@ Culture Architect, Company OS, Founder Coach, Strategic Alignment, Change Manage
 - `CLAUDE.md` — full architecture diagram and integration guide
 - `agent-protocol/SKILL.md` — communication standard and quality loop details
 - `chief-of-staff/SKILL.md` — routing matrix for all 28 skills
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+- [[MOC - Agents]] — Claude agents
+

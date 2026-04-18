@@ -4,6 +4,10 @@ description: "Opinionated, evolving constraints to guide agents when building in
 risk: safe
 source: "https://github.com/ibelick/ui-skills"
 date_added: "2026-02-27"
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 # Ui Skills
@@ -21,3 +25,9 @@ Use this skill when you need to work with opinionated, evolving constraints to g
 This skill provides guidance and patterns for opinionated, evolving constraints to guide agents when building interfaces.
 
 For more information, see the [source repository](https://github.com/ibelick/ui-skills).
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

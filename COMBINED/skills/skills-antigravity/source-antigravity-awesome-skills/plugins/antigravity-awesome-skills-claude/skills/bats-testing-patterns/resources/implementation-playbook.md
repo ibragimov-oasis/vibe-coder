@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # Bats Testing Patterns Implementation Playbook
 
 This file contains detailed patterns, checklists, and code samples referenced by the skill.
@@ -612,3 +619,9 @@ coverage: test
 - **Bats Documentation**: https://bats-core.readthedocs.io/
 - **TAP Protocol**: https://testanything.org/
 - **Test-Driven Development**: https://en.wikipedia.org/wiki/Test-driven_development
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

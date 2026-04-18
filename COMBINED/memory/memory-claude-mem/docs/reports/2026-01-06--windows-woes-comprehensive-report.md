@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/memory
+  - artifact/memory
+  - source/memory
+---
+
 # Windows Woes: Comprehensive Report
 
 **Date:** 2026-01-06
@@ -294,3 +301,9 @@ December 20, 2025 decision documented:
 - https://docs.claude-mem.ai/troubleshooting/windows-issues
 - `docs/context/windows-code-evaluation.md`
 - `docs/PM2-TO-BUN-MIGRATION.md`
+
+## 🔗 Связи
+
+- [[MOC - Memory]] — memory
+- [[000 - Map of Maps]] — Map of Maps
+

@@ -4,6 +4,10 @@ description: "You're a caching specialist who has reduced LLM costs by 90% throu
 risk: none
 source: "vibeship-spawner-skills (Apache 2.0)"
 date_added: "2026-02-27"
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 # Prompt Caching
@@ -64,3 +68,9 @@ Works well with: `context-window-management`, `rag-implementation`, `conversatio
 
 ## When to Use
 This skill is applicable to execute the workflow or actions described in the overview.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
+---
+
 # 规则
 
 ## 结构
@@ -103,3 +110,9 @@ cp -r rules/php ~/.claude/rules/php
 `rules/common/` 中可能被语言特定文件覆盖的规则会标记为：
 
 > **语言说明**：对于此模式不符合语言习惯的语言，此规则可能会被语言特定规则覆盖。
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

@@ -2,6 +2,10 @@
 name: swarm-advanced
 description: |
   Advanced swarm orchestration patterns for research, development, testing, and complex distributed workflows
+tags:
+  - domain/skills
+  - artifact/config
+  - source/workspace-config
 ---
 
 # Advanced Swarm Orchestration
@@ -968,3 +972,9 @@ mcp__claude-flow__swarm_init({ topology: "mesh", maxAgents: 4 })
 **Last Updated**: 2025-10-19
 **Skill Level**: Advanced
 **Estimated Learning Time**: 2-3 hours
+
+## 🔗 Связи
+
+- [[MOC - System]] — workspace-config
+- [[000 - Map of Maps]] — Map of Maps
+

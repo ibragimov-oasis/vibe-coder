@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # GCP Service Selection Guide
 
 Quick reference for choosing the right GCP service based on requirements.
@@ -545,3 +552,9 @@ def get_secret(project_id, secret_id, version="latest"):
 # Usage
 db_password = get_secret("my-project", "db-password")
 ```
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

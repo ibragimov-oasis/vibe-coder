@@ -5,6 +5,10 @@ weight: 1
 description: >
   A "cassandra-cql" tool executes a pre-defined CQL statement against a Cassandra
   database.
+tags:
+  - domain/mcp
+  - artifact/mcp-server
+  - source/mcp-servers
 ---
 
 ## About
@@ -97,3 +101,9 @@ templateParameters:
 | authRequired       |                   []string                    |    false     | List of authentication requirements for the source.                                                                                     |
 | parameters         |    [parameters](../../../documentation/configuration/tools/_index.md#specifying-parameters)    |    false     | List of [parameters](../../../documentation/configuration/tools/_index.md#specifying-parameters) that will be inserted into the CQL statement.                                           |
 | templateParameters | [templateParameters](../../../documentation/configuration/tools/_index.md#template-parameters) |    false     | List of [templateParameters](../../../documentation/configuration/tools/_index.md#template-parameters) that will be inserted into the CQL statement before executing prepared statement. |
+
+## 🔗 Связи
+
+- [[MOC - MCP Servers]] — mcp-servers
+- [[000 - Map of Maps]] — Map of Maps
+

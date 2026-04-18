@@ -47,6 +47,7 @@ type: moc
 | 🎨 **UI Design** | [[MOC - UI Design]] | Galaxy, shadcn, Impeccable, UI/UX Pro Max |
 | 🔌 **MCP Servers** | [[MOC - MCP Servers]] | 9 активных MCP серверов |
 | 📋 **Plans & Roadmap** | [[MOC - Plans & Roadmap]] | Роадмапы, фазы, планы выполнения |
+| 📝 **Prompts** | [[MOC - Prompts]] | 250+ промптов, leaked AI systems, шаблоны |
 
 ---
 
@@ -317,3 +318,9 @@ bash obsidian-update.sh --title "Task name" --content "What was done" --tags "do
 ---
 
 > 💡 **Совет:** Открой Graph View для визуализации всех связей. Используй Local Graph на этой заметке для быстрого обзора.
+
+## 🔗 Связи
+
+- [[000 - Map of Maps]] — Parent MOC
+- [[000 - Map of Maps]] — Map of Maps
+

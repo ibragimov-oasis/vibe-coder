@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # Smart Agent Auto-Spawning
 
 ## Purpose
@@ -71,3 +78,10 @@ npx claude-flow hook pre-task --auto-spawn-agents
 - 🎯 Perfect agent selection
 - 📈 Dynamic scaling
 - 💾 Resource efficiency
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

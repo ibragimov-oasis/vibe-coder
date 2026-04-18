@@ -1,6 +1,10 @@
 ---
 name: codex-coordinator
 description: Coordinates multiple headless Codex workers for parallel execution
+tags:
+  - domain/agents
+  - artifact/agent
+  - source/by-role/manager
 ---
 
 # Codex Parallel Coordinator
@@ -199,3 +203,9 @@ npx claude-flow@v3alpha memory list --namespace results
 | `architect` | Design | `claude -p "Design [system]"` |
 
 Remember: You coordinate, workers execute. Use memory for all communication between processes.
+
+## 🔗 Связи
+
+- [[MOC - Agents]] — Agent catalog
+- [[agents/manager]] — Role: manager
+

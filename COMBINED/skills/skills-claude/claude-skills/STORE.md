@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # Commercial Distribution — Stan Store & Gumroad
 
 ## Product Bundles
@@ -127,3 +134,9 @@ claude-code, ai-skills, developer-tools, saas-boilerplate, claude-ai, mcp, promp
 - Software Development
 - AI & Machine Learning
 - Business & Productivity
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/memory
+  - artifact/memory
+  - source/memory
+---
+
 # All Open Issues Explained
 
 *Generated: January 7, 2026*
@@ -142,3 +149,9 @@ If you run Claude Code from `C:\` (the drive root), the plugin crashes because i
 | v9.0.2 | #602, #588, #591, #598, #586 | Windows + provider fixes |
 | v9.1.0 | #590, #600, #597 | Polish + documentation |
 | v9.1.x | #599 | Edge case fix |
+
+## 🔗 Связи
+
+- [[MOC - Memory]] — memory
+- [[000 - Map of Maps]] — Map of Maps
+

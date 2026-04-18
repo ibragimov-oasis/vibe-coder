@@ -2,6 +2,10 @@
 sidebar_position: 7
 title: "Email"
 description: "Set up Hermes Agent as an email assistant via IMAP/SMTP"
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-hermes
 ---
 
 # Email Setup
@@ -188,3 +192,10 @@ Email access follows the same pattern as all other Hermes platforms:
 | `EMAIL_ALLOWED_USERS` | No | — | Comma-separated allowed sender addresses |
 | `EMAIL_HOME_ADDRESS` | No | — | Default delivery target for cron jobs |
 | `EMAIL_ALLOW_ALL_USERS` | No | `false` | Allow all senders (not recommended) |
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/hermes]] — Hermes
+- [[000 - Map of Maps]] — Map of Maps
+

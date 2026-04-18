@@ -3,6 +3,10 @@ name: odoo-xml-views-builder
 description: "Expert at building Odoo XML views: Form, List, Kanban, Search, Calendar, and Graph. Generates correct XML for Odoo 14-17 with proper visibility syntax."
 risk: safe
 source: "self"
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 # Odoo XML Views Builder
@@ -100,3 +104,9 @@ This skill generates and reviews Odoo XML view definitions for Kanban, Form, Lis
 - **Search panel views** (`<searchpanel>`) are not fully covered — those require frontend knowledge.
 - Does not address **website QWeb views** — use `@odoo-qweb-templates` for those.
 - **Cohort and Map views** (Enterprise-only) are not covered by this skill.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

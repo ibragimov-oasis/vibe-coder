@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # Screen Reader Template
 
 Tests ARIA labels, live regions, and announcements for assistive technology.
@@ -157,3 +164,9 @@ test.describe('Screen Reader Accessibility', () => {
 | Button names | Icon buttons have aria-label |
 | Unique nav labels | Multiple navs have distinct labels |
 | aria-expanded | Accordion state communicated |
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/memory
+  - artifact/memory
+  - source/memory
+---
+
 # Claude-Mem Public Documentation
 
 ## What This Folder Is
@@ -86,3 +93,9 @@ npx mintlify dev
 **Simple Rule**:
 - `/docs/public/` = Official user documentation (Mintlify .mdx files) ← YOU ARE HERE
 - `/docs/context/` = Internal docs, plans, references, audits
+
+## 🔗 Связи
+
+- [[MOC - Memory]] — memory
+- [[000 - Map of Maps]] — Map of Maps
+

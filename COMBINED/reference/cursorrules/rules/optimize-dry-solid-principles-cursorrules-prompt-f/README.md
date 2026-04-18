@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/reference
+  - source/reference
+---
+
 # Optimize DRY SOLID Principles .cursorrules prompt file
 
 Author: Malcolm Jones (bossjones/Tony Dark)
@@ -13,4 +20,9 @@ Developers seeking to build collaborative problem-solving tools, code quality an
 
 ## Overview of .cursorrules prompt
 The .cursorrules file provides a framework for developers to enhance communication, problem-solving, and code quality in software development projects. It emphasizes the importance of clarifying user requirements, proposing solutions through collaborative dialogue, and breaking down complex issues into manageable steps. The file encourages the use of best practices in coding, such as adherence to DRY and SOLID principles, error handling, and maintaining code consistency. It advocates for declarative and functional programming paradigms while maintaining modular and maintainable code. The use of semantic naming, well-defined abstractions, and platform thinking is highlighted to improve clarity and reuse. Additionally, the .cursorrules file sets guidelines for response formatting, handling uncertainty, and using the current architecture choices outlined in pyproject.toml. It provides a structured approach to software development, fostering efficient communication and thorough problem-solving.
+
+## 🔗 Связи
+
+- [[MOC - System]] — reference
+- [[000 - Map of Maps]] — Map of Maps
 

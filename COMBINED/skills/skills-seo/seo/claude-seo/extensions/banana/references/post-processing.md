@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/seo
+  - artifact/doc
+  - source/skills-seo
+---
+
 # Post-Processing Pipeline Reference
 
 > Load this on-demand when the user needs image manipulation after generation.
@@ -190,3 +197,9 @@ ls -lh input.png
 # Get exact pixel dimensions
 magick identify -format "%wx%h" input.png
 ```
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-seo]] — Category: skills-seo
+

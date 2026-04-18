@@ -5,6 +5,10 @@ category: development
 risk: safe
 source: community
 date_added: "2026-03-05"
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 # Pre-Push Codebase Audit
@@ -237,5 +241,10 @@ Overall: 9/10
 
 - `@security-auditor` - Deeper security review  
 - `@systematic-debugging` - Investigate specific issues  
-- `@git-pushing` - Push code after audit  
+- `@git-pushing` - Push code after audit
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
 

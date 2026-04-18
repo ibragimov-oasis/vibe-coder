@@ -6,6 +6,10 @@ weight: 1
 description: >
   Looker is a business intelligence tool that also provides a semantic layer.
 no_list: true
+tags:
+  - domain/mcp
+  - artifact/mcp-server
+  - source/mcp-servers
 ---
 
 ## About
@@ -134,3 +138,9 @@ instead of hardcoding your secrets into the configuration file.
 | show_hidden_models   |  string  |    false     | Show or hide hidden models. (default: true)                                                                                                         |
 | show_hidden_explores |  string  |    false     | Show or hide hidden explores. (default: true)                                                                                                       |
 | show_hidden_fields   |  string  |    false     | Show or hide hidden fields. (default: true)                                                                                                         |
+
+## 🔗 Связи
+
+- [[MOC - MCP Servers]] — mcp-servers
+- [[000 - Map of Maps]] — Map of Maps
+

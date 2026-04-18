@@ -1,6 +1,10 @@
 ---
 name: "AgentDB Vector Search"
 description: "Implement semantic vector search with AgentDB for intelligent document retrieval, similarity matching, and context-aware querying. Use when building RAG systems, semantic search engines, or intelligent knowledge bases."
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
 ---
 
 # AgentDB Vector Search
@@ -337,3 +341,10 @@ npx agentdb@latest stats ./vectors.db
 - Website: https://agentdb.ruv.io
 - CLI Help: `npx agentdb@latest --help`
 - Command Help: `npx agentdb@latest help <command>`
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

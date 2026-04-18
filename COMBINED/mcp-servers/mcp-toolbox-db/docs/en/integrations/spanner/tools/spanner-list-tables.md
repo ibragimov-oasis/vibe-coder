@@ -5,6 +5,10 @@ weight: 3
 description: >
   A "spanner-list-tables" tool retrieves schema information about tables in a
   Google Cloud Spanner database.
+tags:
+  - domain/mcp
+  - artifact/mcp-server
+  - source/mcp-servers
 ---
 
 ## About
@@ -223,3 +227,9 @@ description: |
 - This tool is read-only and does not modify any data
 - The tool automatically handles both GoogleSQL and PostgreSQL dialects
 - Large databases with many tables may take longer to query
+
+## 🔗 Связи
+
+- [[MOC - MCP Servers]] — mcp-servers
+- [[000 - Map of Maps]] — Map of Maps
+

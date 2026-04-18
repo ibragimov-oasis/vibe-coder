@@ -1,5 +1,9 @@
 ---
 description: Enforce TDD workflow for Go. Write table-driven tests first, then implement. Verify 80%+ coverage with go test -cover.
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
 ---
 
 # Go TDD 指令
@@ -130,3 +134,9 @@ go test -race -cover ./...
 
 - 技能：`skills/golang-testing/`
 - 技能：`skills/tdd-workflow/`
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

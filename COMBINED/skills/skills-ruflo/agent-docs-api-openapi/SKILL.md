@@ -1,6 +1,10 @@
 ---
 name: agent-docs-api-openapi
 description: Agent skill for docs-api-openapi - invoke with $agent-docs-api-openapi
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-ruflo
 ---
 
 ---
@@ -177,3 +181,9 @@ components:
 - Error response documentation
 - Security requirements
 - Rate limiting information
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-ruflo]] — Category: skills-ruflo
+

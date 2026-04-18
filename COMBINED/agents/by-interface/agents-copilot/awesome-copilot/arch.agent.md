@@ -2,6 +2,10 @@
 
 name: Senior Cloud Architect
 description: Expert in modern architecture design patterns, NFR requirements, and creating comprehensive architectural diagrams and documentation
+tags:
+  - domain/agents
+  - artifact/agent
+  - source/by-interface/agents-copilot
 ---
 
 # Senior Cloud Architect Agent
@@ -204,3 +208,9 @@ Brief overview of the system and architectural approach
 - Use phased approach for complex systems
 - Focus on NFRs and quality attributes
 - Create documentation in `{app}_Architecture.md` format
+
+## 🔗 Связи
+
+- [[MOC - Agents]] — Agent catalog
+- [[agents/agents-copilot]] — Interface: agents-copilot
+

@@ -4,6 +4,10 @@ description: "Comprehensive guide to Istio traffic management for production ser
 risk: unknown
 source: community
 date_added: "2026-02-27"
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 # Istio Traffic Management
@@ -338,3 +342,9 @@ istioctl proxy-config log deploy/my-app --level debug
 - [Istio Traffic Management](https://istio.io/latest/docs/concepts/traffic-management/)
 - [Virtual Service Reference](https://istio.io/latest/docs/reference/config/networking/virtual-service/)
 - [Destination Rule Reference](https://istio.io/latest/docs/reference/config/networking/destination-rule/)
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/mcp
+  - artifact/mcp-server
+  - source/mcp-servers
+---
+
 # Viking URI
 
 Viking URI is the unified resource identifier for all content in OpenViking.
@@ -243,3 +250,9 @@ await client.add_skill(skill)  # Automatically to viking://agent/skills/
 - [Context Layers](./03-context-layers.md) - L0/L1/L2 model
 - [Storage Architecture](./05-storage.md) - VikingFS and AGFS
 - [Session Management](./08-session.md) - Session storage structure
+
+## 🔗 Связи
+
+- [[MOC - MCP Servers]] — mcp-servers
+- [[000 - Map of Maps]] — Map of Maps
+

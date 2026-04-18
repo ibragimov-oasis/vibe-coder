@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # Transformer Model Initialization Issue in npx
 
 ## Status: ✅ RESOLVED in v2.7.25
@@ -432,3 +439,10 @@ as a fallback. Users who needed true semantic search could install globally.
 **Resolution Timeline:**
 - October 25, 2025: Issue documented in v2.7.24
 - January 25, 2025: Resolved in v2.7.25 with agentic-flow@1.8.9
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-ruflo]] — core-ruflo
+- [[MOC - Skills]] — Skills library
+

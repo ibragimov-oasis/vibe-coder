@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # ADR-023: ONNX Hyperbolic Embeddings Initialization
 
 ## Status
@@ -664,3 +671,10 @@ export default embeddingsCommand;
 - Ganea et al. (2018): "Hyperbolic Neural Networks"
 - ONNX Runtime documentation
 - agentic-flow embeddings module
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

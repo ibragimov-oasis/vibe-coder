@@ -1,6 +1,10 @@
 ---
 description: Export instincts for sharing
 agent: build
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
 ---
 
 # Instinct Export Command
@@ -91,3 +95,9 @@ After export:
 ---
 
 **TIP**: Export high-confidence instincts (>0.8) for better quality shares.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

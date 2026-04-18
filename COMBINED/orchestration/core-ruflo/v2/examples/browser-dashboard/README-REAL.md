@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # Real Claude Flow MCP Integration
 
 This demonstrates the dashboard with **actual Claude Flow MCP tools** instead of simulation.
@@ -170,3 +177,10 @@ PORT=8081 node server-real.js
 5. ⏳ Multi-swarm visualization
 
 This is **actual** Claude Flow running in the browser via WebSocket → stdio bridge!
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

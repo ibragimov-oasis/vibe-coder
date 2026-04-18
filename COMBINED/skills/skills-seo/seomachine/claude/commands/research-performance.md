@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/seo
+  - artifact/doc
+  - source/skills-seo
+---
+
 # Research Performance Command
 
 Categorize all content by traffic and rankings to prioritize optimization.
@@ -69,3 +76,9 @@ After running `/research-performance`:
 - **Monthly**: Monitor content health
 - **After major updates**: Track impact
 - **When traffic drops**: Identify declining content
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-seo]] — Category: skills-seo
+

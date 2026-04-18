@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # Styling Guide
 
 Modern styling patterns for using MUI v7 sx prop, inline styles, and theme integration.
@@ -426,3 +433,9 @@ const styles = {
 **See Also:**
 - [component-patterns.md](component-patterns.md) - Component structure
 - [complete-examples.md](complete-examples.md) - Full styling examples
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

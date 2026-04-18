@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/memory
+  - artifact/memory
+  - source/memory
+---
+
 # Feature Parity: Claude-Mem Hooks vs Cursor Hooks
 
 This document compares claude-mem's Claude Code hooks with the Cursor hooks implementation to ensure feature parity.
@@ -165,4 +172,9 @@ This document compares claude-mem's Claude Code hooks with the Cursor hooks impl
 - ✅ Context injection (via auto-updated `.cursor/rules/` file)
 - ✅ Observation capture (MCP tools, shell commands, file edits)
 - ⚠️ Summary generation (works, but no transcript access)
+
+## 🔗 Связи
+
+- [[MOC - Memory]] — memory
+- [[000 - Map of Maps]] — Map of Maps
 

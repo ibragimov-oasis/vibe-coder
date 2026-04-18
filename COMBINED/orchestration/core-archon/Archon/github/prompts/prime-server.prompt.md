@@ -8,6 +8,10 @@ tools:
   - fileSearch
   - listDirectory
   - usages
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-archon
 ---
 
 # Prime Server: Load Backend Context
@@ -35,3 +39,10 @@ Produce a scannable summary of what you learned:
 - **Patterns**: Database patterns, error handling, validation approach
 
 Use bullet points. Keep it concise.
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/archon]] — Archon
+- [[000 - Map of Maps]] — Map of Maps
+

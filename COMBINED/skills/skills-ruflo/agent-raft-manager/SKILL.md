@@ -1,6 +1,10 @@
 ---
 name: agent-raft-manager
 description: Agent skill for raft-manager - invoke with $agent-raft-manager
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-ruflo
 ---
 
 ---
@@ -66,3 +70,9 @@ Implements and manages the Raft consensus algorithm for distributed systems with
 - Interface with Performance Benchmarker for optimization analysis
 - Integrate with CRDT Synchronizer for eventual consistency scenarios
 - Synchronize with Security Manager for secure communication
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-ruflo]] — Category: skills-ruflo
+

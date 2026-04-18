@@ -1,5 +1,9 @@
 ---
 description: Reafirme requisitos, avalie riscos e crie plano de implementação passo a passo. ESPERE confirmação do usuário ANTES de tocar em qualquer código.
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
 ---
 
 # Comando Plan
@@ -111,3 +115,9 @@ Este comando invoca o agente `planner` fornecido pelo ECC.
 
 Para instalações manuais, o arquivo fonte fica em:
 `agents/planner.md`
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

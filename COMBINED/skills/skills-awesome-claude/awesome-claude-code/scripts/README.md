@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-awesome-claude
+---
+
 # Scripts Directory
 
 This directory contains all automation scripts for managing the Awesome Claude Code repository. The scripts work together to provide a complete workflow for resource management, from addition to pull request submission.
@@ -359,3 +366,9 @@ This ensures consistent title case and pluralization across categories. If issue
 
 - Additional validation rules could be added
 - More sophisticated duplicate detection
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-awesome-claude]] — Category: skills-awesome-claude
+

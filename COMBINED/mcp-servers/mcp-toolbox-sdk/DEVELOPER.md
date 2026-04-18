@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/mcp
+  - artifact/mcp-server
+  - source/mcp-servers
+---
+
 # Development
 
 Below are the details to set up a development environment and run tests.
@@ -35,3 +42,9 @@ Below are the details to set up a development environment and run tests.
     ```bash
     pytest
     ```
+
+## 🔗 Связи
+
+- [[MOC - MCP Servers]] — mcp-servers
+- [[000 - Map of Maps]] — Map of Maps
+

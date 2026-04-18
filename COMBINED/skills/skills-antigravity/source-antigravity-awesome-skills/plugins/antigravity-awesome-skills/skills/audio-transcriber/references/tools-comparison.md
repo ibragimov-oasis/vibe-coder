@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # Transcription Tools Comparison
 
 Comprehensive comparison of audio transcription engines supported by the audio-transcriber skill.
@@ -350,3 +357,9 @@ for utterance in transcript.utterances:
 3. **Optional:** Cloud APIs (user choice for premium features)
 
 This ensures the skill works out-of-the-box for most users while allowing advanced users to integrate commercial services if needed.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

@@ -1,6 +1,10 @@
 ---
 applyTo: '**/*.ts, **/*.js, **/*.json, **/*.spec.ts, **/*.e2e-spec.ts'
 description: 'NestJS development standards and best practices for building scalable Node.js server-side applications'
+tags:
+  - domain/agents
+  - artifact/agent
+  - source/by-interface/agents-copilot
 ---
 
 # NestJS Development Best Practices
@@ -404,3 +408,9 @@ NestJS provides a powerful, opinionated framework for building scalable Node.js 
 ---
 
 <!-- End of NestJS Instructions -->
+
+## 🔗 Связи
+
+- [[MOC - Agents]] — Agent catalog
+- [[agents/agents-copilot]] — Interface: agents-copilot
+

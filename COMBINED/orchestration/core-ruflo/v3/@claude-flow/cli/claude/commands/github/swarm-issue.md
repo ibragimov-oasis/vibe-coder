@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # Swarm Issue - Issue-Based Swarm Coordination
 
 ## Overview
@@ -480,3 +487,10 @@ npx ruv-swarm github issue-init 567 \
 ```
 
 See also: [swarm-pr.md](./swarm-pr.md), [project-board-sync.md](./project-board-sync.md)
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

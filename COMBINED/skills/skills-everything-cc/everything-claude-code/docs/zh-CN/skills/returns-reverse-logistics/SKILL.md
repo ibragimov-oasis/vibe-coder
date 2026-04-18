@@ -8,6 +8,10 @@ metadata:
   author: evos
   clawdbot:
     emoji: ""
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-everything-cc
 ---
 
 # 退货与逆向物流
@@ -223,3 +227,9 @@ metadata:
 
 * 在将此技能投入生产使用前，请将其与你的评分标准、欺诈审查阈值和退款授权矩阵配对。
 * 将补货标准、危险品退货处理和清算规则交由负责执行决策的运营团队就近保管。
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

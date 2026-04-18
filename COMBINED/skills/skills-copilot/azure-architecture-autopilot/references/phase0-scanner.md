@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-copilot
+---
+
 # Phase 0: Existing Resource Scanner
 
 This file contains the detailed instructions for Phase 0. When the user requests analysis of existing Azure resources (Path B), read and follow this file.
@@ -473,3 +480,9 @@ For resource types not in the diagram type mapping:
 - Display with `default` type (question mark icon)
 - Include the resource name and type in details
 - Show to the user, but do not attempt relationship inference
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-copilot]] — Category: skills-copilot
+

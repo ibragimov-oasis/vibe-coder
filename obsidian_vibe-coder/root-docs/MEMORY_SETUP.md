@@ -43,3 +43,9 @@ source: "../MEMORY_SETUP.md"
 
 - [[combined/Memory Overview]] — общий обзор всех систем памяти
 - [[root-docs/PIPELINE]] — где память используется в пайплайне
+
+## 🔗 Связи
+
+- [[000 - Map of Maps]] — Parent MOC
+- [[000 - Map of Maps]] — Map of Maps
+

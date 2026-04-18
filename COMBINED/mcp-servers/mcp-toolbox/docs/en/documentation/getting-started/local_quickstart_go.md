@@ -6,6 +6,10 @@ description: >
   How to get started running MCP Toolbox locally with [Go](https://github.com/googleapis/mcp-toolbox-sdk-go), PostgreSQL, and orchestration frameworks such as [LangChain Go](https://tmc.github.io/langchaingo/docs/), [GenkitGo](https://genkit.dev/go/docs/get-started-go/), [Go GenAI](https://github.com/googleapis/go-genai) and [OpenAI Go](https://github.com/openai/openai-go).
 sample_filters: ["Go", "Quickstart", "Local", "ADK", "LangChain", "OpenAI", "Genkit", "Google GenAI"]
 is_sample: true
+tags:
+  - domain/mcp
+  - artifact/mcp-server
+  - source/mcp-servers
 ---
 
 ## Before you begin
@@ -124,3 +128,9 @@ Breaking Change Notice: As of version `0.6.0`, this SDK has transitioned to a mu
 For more information, visit the [Go SDK
 repo](https://github.com/googleapis/mcp-toolbox-sdk-go).
 {{</ notice >}}
+
+## 🔗 Связи
+
+- [[MOC - MCP Servers]] — mcp-servers
+- [[000 - Map of Maps]] — Map of Maps
+

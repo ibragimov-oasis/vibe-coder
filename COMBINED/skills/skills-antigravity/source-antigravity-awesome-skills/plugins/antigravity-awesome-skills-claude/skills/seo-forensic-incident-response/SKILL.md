@@ -4,6 +4,10 @@ description: "Investigate sudden drops in organic traffic or rankings and run a 
 risk: safe
 source: original
 date_added: "2026-02-27"
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 # SEO Forensic Incident Response
@@ -259,3 +263,9 @@ When helping a user, ask:
 - **ai-seo**: For optimizing content for AI search experiences.
 - **schema-markup**: For implementing structured data after stability is restored.
 - **analytics-tracking**: For ensuring measurement is correct post-incident.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

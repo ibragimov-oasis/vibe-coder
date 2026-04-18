@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # parallel-execute
 
 Execute tasks in parallel for maximum efficiency.
@@ -23,3 +30,10 @@ npx claude-flow optimization parallel-execute --tasks tasks.json --max-parallel 
 # Custom strategy
 npx claude-flow optimization parallel-execute --strategy adaptive
 ```
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

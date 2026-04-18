@@ -4,6 +4,10 @@ authors: {{AUTHORS}}
 date: {{DATE}}
 arxiv:
 layout: arxiv
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
 ---
 
 # {{TITLE}}
@@ -297,3 +301,9 @@ th, td {
     text-align: center;
 }
 </style>
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # Stakeholder Communication Templates
 
 ## Introduction
@@ -416,3 +423,9 @@ We apologize for the inconvenience and appreciate your patience as we continue t
 **As-needed**: Major decisions, significant changes
 
 These templates should be customized for your organization's communication style, stakeholder preferences, and business context.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

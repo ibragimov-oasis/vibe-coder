@@ -1,6 +1,10 @@
 ---
 name: suggest-awesome-github-copilot-agents
 description: 'Suggest relevant GitHub Copilot Custom Agents files from the awesome-copilot repository based on current repository context and chat history, avoiding duplicates with existing custom agents in this repository, and identifying outdated agents that need updates.'
+tags:
+  - domain/agents
+  - artifact/skill
+  - source/skills-copilot
 ---
 
 # Suggest Awesome GitHub Copilot Custom Agents
@@ -104,3 +108,10 @@ When outdated agents are identified:
 3. Provide recommendation to update with key changes noted
 4. When user requests update, replace entire local file with remote version
 5. Preserve file location in `.github/agents/` directory
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-copilot]] — Category: skills-copilot
+- [[MOC - Agents]] — Copilot agents
+

@@ -133,7 +133,11 @@ Although both iPad and Mac accept user input from a range of devices — such as
 
 Most iPadOS gestures convert automatically when you create your Mac app using Mac Catalyst; for example:
 
-iPadOS gesture…| Translates to mouse interaction  
+iPadOS gesture…| Translates to mouse interaction
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
 ---|---  
 Tap| Left or right click  
 Touch and hold| Click and hold  
@@ -212,5 +216,10 @@ The system automatically converts the context menus in your iPad app to context 
 
 Date| Changes  
 ---|---  
-May 2, 2023| Consolidated guidance into one page.  
-  
+May 2, 2023| Consolidated guidance into one page.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
+---
+
 # 错误处理与降级策略
 
 ## 设计理念
@@ -51,3 +58,9 @@
 1. **文本方案是核心价值，头像是锦上添花**——辅助功能失败永不中断主流程
 2. **降级信息要可操作**——不只说"出错了"，要说"怎么修"
 3. **一次降级不影响后续步骤**——Step 5 降级了，Step 6 照常输出
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

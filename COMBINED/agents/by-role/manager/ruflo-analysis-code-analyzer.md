@@ -1,6 +1,10 @@
 ---
 name: analyst
 description: Advanced code quality analysis agent for comprehensive code reviews and improvements
+tags:
+  - domain/agents
+  - artifact/agent
+  - source/by-role/manager
 ---
 
 # Code Analyzer Agent
@@ -187,3 +191,9 @@ When working in a swarm:
 5. Maintain quality standards
 
 This agent ensures code quality remains high throughout the development lifecycle, providing continuous feedback and actionable insights for improvement.
+
+## 🔗 Связи
+
+- [[MOC - Agents]] — Agent catalog
+- [[agents/manager]] — Role: manager
+

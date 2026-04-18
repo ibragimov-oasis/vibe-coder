@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # Architecture Patterns
 
 ## Overview
@@ -101,3 +108,9 @@ What not to do and why.
 ## Conclusion
 
 Key takeaways for using this reference guide effectively.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-multica
+---
+
 # Self-Hosting Setup (for AI Agents)
 
 This document is designed for AI agents to execute. Follow these steps exactly to deploy a local Multica instance and connect to it.
@@ -72,3 +79,10 @@ If the default ports (8080/3000) are in use:
 - **Frontend not ready:** `docker compose -f docker-compose.selfhost.yml logs frontend`
 - **Daemon issues:** `multica daemon logs`
 - **Health check:** `curl http://localhost:8080/health`
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-multica]] — core-multica
+- [[MOC - Skills]] — Skills library
+

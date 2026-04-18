@@ -2,6 +2,10 @@
 name: instinct-status
 description: Öğrenilen içgüdüleri (proje + global) güven seviyesiyle göster
 command: true
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
 ---
 
 # Instinct Status Komutu
@@ -57,3 +61,9 @@ python3 ~/COMBINED/workspace-config/claude/skills/continuous-learning-v2/scripts
     █████████░  85%  validate-user-input [global]
               trigger: when handling user input
 ```
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/ui
+  - artifact/ui-component
+  - source/ui-design
+---
+
 <!--
 
 👋 Hey, thanks for your interest in contributing to Remix!
@@ -12,3 +19,9 @@ hopefully when we have the bandwidth to work on these stacks again we can take
 a look. Thanks!
 
 -->
+
+## 🔗 Связи
+
+- [[MOC - UI Design]] — ui-design
+- [[000 - Map of Maps]] — Map of Maps
+

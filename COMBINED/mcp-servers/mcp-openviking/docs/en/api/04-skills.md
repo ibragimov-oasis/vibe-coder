@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/mcp
+  - artifact/mcp-server
+  - source/mcp-servers
+---
+
 # Skills
 
 Skills are callable capabilities that agents can invoke. This guide covers how to add and manage skills.
@@ -510,3 +517,9 @@ Use kebab-case for skill names:
 - [Context Types](../concepts/02-context-types.md) - Skill concept
 - [Retrieval](06-retrieval.md) - Finding skills
 - [Sessions](05-sessions.md) - Tracking skill usage
+
+## 🔗 Связи
+
+- [[MOC - MCP Servers]] — mcp-servers
+- [[000 - Map of Maps]] — Map of Maps
+

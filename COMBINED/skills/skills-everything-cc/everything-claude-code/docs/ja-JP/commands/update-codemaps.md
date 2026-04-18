@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
+---
+
 # コードマップの更新
 
 コードベース構造を分析してアーキテクチャドキュメントを更新します。
@@ -15,3 +22,9 @@
 6. レポートを .reports/codemap-diff.txt に保存
 
 TypeScript/Node.jsを使用して分析します。実装の詳細ではなく、高レベルの構造に焦点を当ててください。
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

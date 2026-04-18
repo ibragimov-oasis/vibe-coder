@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # Jetski + Gemini 延迟技能加载器(示例)
 
 此示例展示了一种将 **antigravity-awesome-skills** 与 Jetski/Cortex 风格代理集成的方法,使用基于 `@skill-id` 提及的**延迟加载**,而不是将每个 `SKILL.md` 连接到提示词中。
@@ -92,3 +99,9 @@ async function runTurn(trajectory: Message[]) {
   - 如果您希望明确的用户可见失败而不是静默删除额外技能,请考虑 `overflowBehavior: "error"`;
   - 保持路径验证,以便清单条目无法逃脱您配置的技能根目录;
   - 如果您想要更严格的安全预算,请添加 token 计数/截断逻辑。
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

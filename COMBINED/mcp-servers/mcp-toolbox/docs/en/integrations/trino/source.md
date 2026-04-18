@@ -6,6 +6,10 @@ weight: 1
 description: >
   Trino is a distributed SQL query engine for big data analytics.
 no_list: true
+tags:
+  - domain/mcp
+  - artifact/mcp-server
+  - source/mcp-servers
 ---
 
 ## About
@@ -66,3 +70,9 @@ instead of hardcoding your secrets into the configuration file.
 | disableSslVerification | boolean  |    false     | Skip SSL/TLS certificate verification (default: false)                       |
 | sslCertPath            |  string  |    false     | Path to a custom SSL/TLS certificate file                                    |
 | sslCert                |  string  |    false     | Custom SSL/TLS certificate content                                           |
+
+## 🔗 Связи
+
+- [[MOC - MCP Servers]] — mcp-servers
+- [[000 - Map of Maps]] — Map of Maps
+

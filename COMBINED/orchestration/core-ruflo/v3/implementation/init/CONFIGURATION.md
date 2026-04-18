@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # Configuration Reference
 
 Complete reference for V3 init configuration options.
@@ -299,3 +306,10 @@ Everything enabled:
   // All MCP servers: true
 }
 ```
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

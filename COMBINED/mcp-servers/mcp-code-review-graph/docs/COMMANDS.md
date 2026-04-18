@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/mcp
+  - artifact/mcp-server
+  - source/mcp-servers
+---
+
 # All Available Commands
 
 ## Skills (Claude Code slash commands)
@@ -256,3 +263,9 @@ code-review-graph eval                         # Run evaluation benchmarks
 # Server
 code-review-graph serve                        # Start MCP server (stdio)
 ```
+
+## 🔗 Связи
+
+- [[MOC - MCP Servers]] — mcp-servers
+- [[000 - Map of Maps]] — Map of Maps
+

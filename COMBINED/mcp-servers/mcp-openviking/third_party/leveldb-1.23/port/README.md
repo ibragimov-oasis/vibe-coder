@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/mcp
+  - artifact/mcp-server
+  - source/mcp-servers
+---
+
 This directory contains interfaces and implementations that isolate the
 rest of the package from platform details.
 
@@ -7,4 +14,9 @@ that provides the platform specific implementation.
 
 See port_stdcxx.h for an example of what must be provided in a platform
 specific header file.
+
+## 🔗 Связи
+
+- [[MOC - MCP Servers]] — mcp-servers
+- [[000 - Map of Maps]] — Map of Maps
 

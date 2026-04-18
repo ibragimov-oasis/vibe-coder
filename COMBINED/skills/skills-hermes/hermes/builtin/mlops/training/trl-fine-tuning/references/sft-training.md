@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-hermes
+---
+
 # SFT Training Guide
 
 Complete guide to Supervised Fine-Tuning (SFT) with TRL for instruction tuning and task-specific fine-tuning.
@@ -166,3 +173,9 @@ trainer = SFTTrainer(
 
 - TRL docs: https://huggingface.co/docs/trl/sft_trainer
 - Examples: https://github.com/huggingface/trl/tree/main/examples/scripts
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-hermes]] — Category: skills-hermes
+

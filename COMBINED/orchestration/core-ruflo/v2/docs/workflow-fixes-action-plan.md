@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # GitHub Workflows - Quick Action Plan
 
 **Date**: 2025-11-24
@@ -386,3 +393,10 @@ You'll know the fixes worked when:
 **Risk Level**: Low (changes are isolated and well-tested)
 
 Good luck! 🚀
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-ruflo]] — core-ruflo
+- [[MOC - Skills]] — Skills library
+

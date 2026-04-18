@@ -1,6 +1,10 @@
 ---
 name: product-discovery
 description: Use when validating product opportunities, mapping assumptions, planning discovery sprints, or testing problem-solution fit before committing delivery resources.
+tags:
+  - domain/agents
+  - artifact/skill
+  - source/skills-claude
 ---
 
 # Product Discovery
@@ -112,3 +116,10 @@ CLI utility that:
 - emits prioritized test plan with suggested test types
 
 See `references/discovery-frameworks.md` for framework details.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+- [[MOC - Agents]] — Claude agents
+

@@ -2,6 +2,10 @@
 name: django-verification
 description: "Verification loop for Django projects: migrations, linting, tests with coverage, security scans, and deployment readiness checks before release or PR."
 origin: ECC
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-everything-cc
 ---
 
 # Django Verification Loop
@@ -467,3 +471,9 @@ jobs:
 | Diff stats | `git diff --stat` |
 
 Remember: Automated verification catches common issues but doesn't replace manual code review and testing in staging environment.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

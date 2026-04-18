@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-hermes
+---
+
 # Hyperparameters
 
 Complete guide to SimPO hyperparameter selection and tuning.
@@ -450,3 +457,9 @@ lr_scheduler_type: cosine
 
 - SimPO paper: https://arxiv.org/abs/2405.14734
 - Alignment Handbook: https://github.com/huggingface/alignment-handbook
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-hermes]] — Category: skills-hermes
+

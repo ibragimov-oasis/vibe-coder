@@ -15,6 +15,10 @@ metadata:
   author: evos
   clawdbot:
     emoji: ""
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-everything-cc
 ---
 
 # Carrier Relationship Management
@@ -210,3 +214,9 @@ Track weekly, review monthly with carrier management team, share quarterly with 
 
 - Track carrier scorecards, exception trends, and routing-guide compliance in the same operating review so pricing and service decisions stay tied together.
 - Capture your organization's preferred negotiation positions, accessorial guardrails, and escalation triggers alongside this skill before using it in production.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

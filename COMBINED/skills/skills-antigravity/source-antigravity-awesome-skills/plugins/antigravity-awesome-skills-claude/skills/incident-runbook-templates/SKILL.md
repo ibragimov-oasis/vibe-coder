@@ -4,6 +4,10 @@ description: "Production-ready templates for incident response runbooks covering
 risk: critical
 source: community
 date_added: "2026-02-27"
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 # Incident Runbook Templates
@@ -396,3 +400,9 @@ psql -c "VACUUM FULL large_table;"
 - [Google SRE Book - Incident Management](https://sre.google/sre-book/managing-incidents/)
 - [PagerDuty Incident Response](https://response.pagerduty.com/)
 - [Atlassian Incident Management](https://www.atlassian.com/incident-management)
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

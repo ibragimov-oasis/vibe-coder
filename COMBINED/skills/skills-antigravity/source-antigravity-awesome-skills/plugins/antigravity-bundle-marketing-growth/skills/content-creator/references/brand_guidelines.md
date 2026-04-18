@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # Brand Voice & Style Guidelines
 
 ## Brand Voice Framework
@@ -197,3 +204,9 @@ Before publishing any content, verify:
 - [ ] Mobile-friendly formatting
 - [ ] Accessible to all audiences
 - [ ] Proofread and fact-checked
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

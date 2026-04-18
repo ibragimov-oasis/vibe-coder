@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # Fontes e Referências — Leiloeiro Avaliação
 
 ## Normas Técnicas
@@ -11,3 +18,9 @@
 - FIPEZAP — Índice de preços de imóveis
 - IBAPE — Avaliações e Perícias de Engenharia
 - COFECI — Conselho Federal de Corretores
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

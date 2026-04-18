@@ -1,6 +1,10 @@
 ---
 title: "UI Design System — Agent Skill for Product Teams"
 description: "UI design system toolkit for Senior UI Designer including design token generation, component documentation, responsive design calculations, and. Agent skill for Claude Code, Codex CLI, Gemini CLI, OpenClaw."
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
 ---
 
 # UI Design System
@@ -388,3 +392,9 @@ Detailed reference guides in `references/`:
 - [ ] Framework integration documented
 - [ ] Design tool synced
 - [ ] Component documentation complete
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # 專案實作紀錄：{專案名稱}
 * **📅 日期**：YYYY-MM-DD
 * **🏷️ 標籤**：`#Project` `#DevLog`
@@ -21,3 +28,9 @@
 ### ⏭️ 下一步計畫 (Next Steps)
 - [ ] (具體的待辦事項 1)
 - [ ] (具體的待辦事項 2)
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

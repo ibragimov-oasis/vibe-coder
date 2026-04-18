@@ -1,6 +1,10 @@
 ---
 name: create-github-action-workflow-specification
 description: 'Create a formal specification for an existing GitHub Actions CI/CD workflow, optimized for AI consumption and workflow maintenance.'
+tags:
+  - domain/agents
+  - artifact/skill
+  - source/skills-copilot
 ---
 
 # Create GitHub Actions Workflow Specification
@@ -274,3 +278,10 @@ graph TD
 5. **Cross-Reference**: Link instead of repeat information
 
 Focus on creating a specification that serves as both documentation and a template for workflow updates.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-copilot]] — Category: skills-copilot
+- [[MOC - Agents]] — Copilot agents
+

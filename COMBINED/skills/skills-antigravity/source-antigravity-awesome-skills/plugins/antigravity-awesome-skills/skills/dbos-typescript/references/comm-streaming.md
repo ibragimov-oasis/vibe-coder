@@ -3,6 +3,9 @@ title: Use Streams for Real-Time Data
 impact: MEDIUM
 impactDescription: Enables streaming results from long-running workflows
 tags: communication, stream, real-time, async-generator
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
 ---
 
 ## Use Streams for Real-Time Data
@@ -51,3 +54,9 @@ Key behaviors:
 You can also read streams from outside the DBOS application using `DBOSClient.readStream`.
 
 Reference: [Workflow Streaming](https://docs.dbos.dev/typescript/tutorials/workflow-communication#workflow-streaming)
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

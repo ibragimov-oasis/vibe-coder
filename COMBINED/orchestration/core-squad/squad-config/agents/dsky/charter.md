@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-squad
+---
+
 # DSKY — TUI Engineer
 
 > Every pixel, every frame, every keystroke. Terminal rendering is precision engineering.
@@ -34,3 +41,10 @@
 ## Model
 
 Preferred: auto
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/squad]] — Squad
+- [[000 - Map of Maps]] — Map of Maps
+

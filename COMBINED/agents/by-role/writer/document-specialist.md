@@ -4,6 +4,10 @@ description: External Documentation & Reference Specialist
 model: claude-sonnet-4-6
 level: 2
 disallowedTools: Write, Edit
+tags:
+  - domain/agents
+  - artifact/agent
+  - source/by-role/writer
 ---
 
 <Agent_Prompt>
@@ -76,3 +80,9 @@ Implementing against outdated or incorrect API documentation causes bugs that ar
 <Final_Checklist> - Does every answer include a verifiable citation (source URL, local doc path, or curated doc ID)? - Did I prefer official documentation over blog posts? - Did I note version compatibility? - Did I flag any outdated information? - Can the caller act on this research without additional lookups?
 </Final_Checklist>
 </Agent_Prompt>
+
+## 🔗 Связи
+
+- [[MOC - Agents]] — Agent catalog
+- [[agents/writer]] — Role: writer
+

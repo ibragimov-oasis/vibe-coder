@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # Deployment Strategies
 
 ## Overview
@@ -101,3 +108,9 @@ What not to do and why.
 ## Conclusion
 
 Key takeaways for using this reference guide effectively.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

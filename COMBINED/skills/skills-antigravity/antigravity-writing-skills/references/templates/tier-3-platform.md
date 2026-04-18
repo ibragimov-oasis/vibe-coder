@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # Platform Name Skill
 
 Template for complex Tier 3 skills.
@@ -17,3 +24,9 @@ skill/
         ├── patterns.md # Recipes
         └── gotchas.md  # Critical Errors
 ```
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

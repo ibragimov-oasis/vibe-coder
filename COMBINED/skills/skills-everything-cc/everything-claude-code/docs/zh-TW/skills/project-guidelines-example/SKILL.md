@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-everything-cc
+---
+
 # 專案指南技能（範例）
 
 這是專案特定技能的範例。使用此作為你自己專案的範本。
@@ -343,3 +350,9 @@ SUPABASE_KEY=eyJ...
 - `backend-patterns.md` - API 和資料庫模式
 - `frontend-patterns.md` - React 和 Next.js 模式
 - `tdd-workflow/` - 測試驅動開發方法論
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

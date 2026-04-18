@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/mcp
+  - artifact/mcp-server
+  - source/mcp-servers
+---
+
 # BigQuery MCP Server
 
 The BigQuery Model Context Protocol (MCP) Server enables AI-powered development tools to seamlessly connect, interact, and generate data insights with your BigQuery datasets and data using natural language commands.
@@ -95,3 +102,9 @@ Add the following configuration to your MCP client (e.g., `settings.json` for Ge
 ## Documentation
 
 For more information, visit the [BigQuery documentation](https://cloud.google.com/bigquery/docs).
+
+## 🔗 Связи
+
+- [[MOC - MCP Servers]] — mcp-servers
+- [[000 - Map of Maps]] — Map of Maps
+

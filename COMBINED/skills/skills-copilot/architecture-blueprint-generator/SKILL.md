@@ -1,6 +1,10 @@
 ---
 name: architecture-blueprint-generator
 description: 'Comprehensive project architecture blueprint generator that analyzes codebases to create detailed architectural documentation. Automatically detects technology stacks and architectural patterns, generates visual diagrams, documents implementation patterns, and provides extensible blueprints for maintaining architectural consistency and guiding new development.'
+tags:
+  - domain/agents
+  - artifact/skill
+  - source/skills-copilot
 ---
 
 # Comprehensive Project Architecture Blueprint Generator
@@ -320,3 +324,10 @@ Create a clear architectural guide for implementing new features:
   - Testing blind spots
 
 Include information about when this blueprint was generated and recommendations for keeping it updated as the architecture evolves."
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-copilot]] — Category: skills-copilot
+- [[MOC - Agents]] — Copilot agents
+

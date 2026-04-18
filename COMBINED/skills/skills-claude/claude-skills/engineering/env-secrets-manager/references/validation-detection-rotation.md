@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # env-secrets-manager reference
 
 ## Required Variable Validation Script
@@ -356,3 +363,9 @@ curl -H "Authorization: Bearer $NEW_TOKEN" https://api.service.com/test
 ```
 
 ---
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

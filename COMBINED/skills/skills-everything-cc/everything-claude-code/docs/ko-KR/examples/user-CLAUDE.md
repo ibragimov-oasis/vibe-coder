@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
+---
+
 # 사용자 수준 CLAUDE.md 예제
 
 사용자 수준 CLAUDE.md 파일 예제입니다. `~/.claude/CLAUDE.md`에 배치하세요.
@@ -107,3 +114,9 @@
 ---
 
 **철학**: Agent 우선 설계, 병렬 실행, 실행 전 계획, 코드 전 테스트, 항상 보안 우선.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

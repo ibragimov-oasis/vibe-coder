@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # Claude-Flow Integration: Network Sandboxing & DevTools
 ## Advanced SDK Feature Integration for Swarm Orchestration
 
@@ -721,3 +728,10 @@ export default {
 ---
 
 *Integration design for Claude-Flow v2.5.0-alpha.130*
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

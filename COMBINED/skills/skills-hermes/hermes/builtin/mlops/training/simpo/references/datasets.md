@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-hermes
+---
+
 # Datasets
 
 Complete guide to preference datasets for SimPO training.
@@ -476,3 +483,9 @@ for ex in samples:
 - HuggingFace Datasets: https://huggingface.co/datasets
 - Alignment Handbook: https://github.com/huggingface/alignment-handbook
 - UltraFeedback: https://huggingface.co/datasets/HuggingFaceH4/ultrafeedback_binarized
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-hermes]] — Category: skills-hermes
+

@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/ui
+  - artifact/doc
+  - source/skills-design
+---
+
 # Grids
 
 ## Intent
@@ -69,3 +76,9 @@ LazyVGrid(
 
 - Avoid heavy overlays in every grid cell; it can be expensive.
 - Don’t nest grids inside other grids without a clear reason.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-design]] — Category: skills-design
+

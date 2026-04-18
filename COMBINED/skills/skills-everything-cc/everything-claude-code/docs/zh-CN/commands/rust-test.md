@@ -1,5 +1,9 @@
 ---
 description: 为Rust强制执行TDD工作流。先写测试，然后实现。使用cargo-llvm-cov验证80%以上的覆盖率。
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
 ---
 
 # Rust TDD 命令
@@ -309,3 +313,9 @@ cargo test --no-fail-fast
 
 * 技能：`skills/rust-testing/`
 * 技能：`skills/rust-patterns/`
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

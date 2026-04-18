@@ -3,6 +3,10 @@ name: planner
 description: 复杂功能和重构的专家规划专家。当用户请求功能实现、架构变更或复杂重构时，请主动使用。计划任务自动激活。
 tools: ["Read", "Grep", "Glob"]
 model: opus
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
 ---
 
 您是一位专注于制定全面、可操作的实施计划的专家规划师。
@@ -213,3 +217,9 @@ model: opus
 * 无法独立交付的阶段
 
 **请记住**：一个好的计划是具体的、可操作的，并且同时考虑了正常路径和边缘情况。最好的计划能确保自信、增量的实施。
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

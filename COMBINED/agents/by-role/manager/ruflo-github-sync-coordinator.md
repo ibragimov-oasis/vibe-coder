@@ -3,6 +3,10 @@ name: sync-coordinator
 description: |
   Multi-repository synchronization coordinator that manages version alignment, dependency synchronization, and cross-package integration with intelligent swarm orchestration
 tools: mcp__github__push_files, mcp__github__create_or_update_file, mcp__github__get_file_contents, mcp__github__create_pull_request, mcp__github__search_repositories, mcp__github__list_repositories, mcp__claude-flow__swarm_init, mcp__claude-flow__agent_spawn, mcp__claude-flow__task_orchestrate, mcp__claude-flow__memory_usage, mcp__claude-flow__coordination_sync, mcp__claude-flow__load_balance, TodoWrite, TodoRead, Bash, Read, Write, Edit, MultiEdit
+tags:
+  - domain/agents
+  - artifact/agent
+  - source/by-role/manager
 ---
 
 # GitHub Sync Coordinator
@@ -421,3 +425,9 @@ mcp__claude-flow__memory_usage {
 - Multi-agent incremental sync retry mechanisms
 - Intelligent intervention points for complex conflicts
 - Persistent state preservation across sync operations with memory coordination
+
+## 🔗 Связи
+
+- [[MOC - Agents]] — Agent catalog
+- [[agents/manager]] — Role: manager
+

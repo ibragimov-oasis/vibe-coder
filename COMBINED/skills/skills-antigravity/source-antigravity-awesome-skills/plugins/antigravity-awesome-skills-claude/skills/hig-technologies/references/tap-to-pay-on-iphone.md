@@ -199,10 +199,19 @@ When customers have other types of NFC-compatible cards or passes in Apple Walle
 
 ## [Change log](https://developer.apple.com/design/human-interface-guidelines/tap-to-pay-on-iphone#Change-log)
 
-Date| Changes  
+Date| Changes
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
 ---|---  
 January 17, 2024| Updated merchant education guidance.  
 May 7, 2024| Updated to include guidance on enabling the feature and educating merchants.  
 March 3, 2023| Enhanced guidance for educating merchants and improving their experience.  
-September 14, 2022| Refined guidance on preparing Tap to Pay on iPhone and helping merchants learn how to use the feature.  
-  
+September 14, 2022| Refined guidance on preparing Tap to Pay on iPhone and helping merchants learn how to use the feature.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

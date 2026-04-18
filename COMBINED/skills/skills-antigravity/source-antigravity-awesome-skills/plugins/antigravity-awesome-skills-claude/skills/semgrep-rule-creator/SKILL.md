@@ -11,6 +11,10 @@ allowed-tools:
   - WebFetch
 risk: unknown
 source: community
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 # Semgrep Rule Creator
@@ -167,3 +171,9 @@ Semgrep Rule Progress:
 3. [ToB Testing Handbook - Semgrep](https://appsec.guide/docs/static-analysis/semgrep/advanced/)
 4. [Constant propagation](https://semgrep.dev/docs/writing-rules/data-flow/constant-propagation)
 5. [Writing Rules Index](https://github.com/semgrep/semgrep-docs/tree/main/docs/writing-rules/)
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

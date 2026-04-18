@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-archon
+---
+
 # Advanced Features: Hooks, MCP, Skills, Retry
 
 These features are available on **command and prompt nodes** (hooks, MCP, skills, tool restrictions) and **command, prompt, and bash nodes** (retry, output_format). Loop nodes do not support these features (`retry` on loop nodes is a hard error; others are silently ignored).
@@ -329,3 +336,10 @@ Separate from retry — controls how long a node can be idle (no output) before 
 ```
 
 For bash nodes, use `timeout:` instead (controls total script execution time, default: 120000ms).
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/archon]] — Archon
+- [[000 - Map of Maps]] — Map of Maps
+

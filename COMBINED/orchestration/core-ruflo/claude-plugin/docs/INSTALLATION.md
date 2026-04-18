@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # 📦 Claude Flow Plugin Installation Guide
 
 ## Quick Installation
@@ -259,3 +266,10 @@ claude-flow/
 └── hooks/                    # Event handlers
     └── hooks.json
 ```
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-ruflo]] — core-ruflo
+- [[MOC - Skills]] — Skills library
+

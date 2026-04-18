@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/mcp
+  - artifact/mcp-server
+  - source/mcp-servers
+---
+
 # Quick Start
 
 Get started with OpenViking in 5 minutes.
@@ -209,3 +216,9 @@ Want to run OpenViking as a shared service? See [Quick Start: Server Mode](03-qu
 - [Configuration Guide](../guides/01-configuration.md) - Detailed configuration options
 - [API Overview](../api/01-overview.md) - API reference
 - [Resource Management](../api/02-resources.md) - Resource management API
+
+## 🔗 Связи
+
+- [[MOC - MCP Servers]] — mcp-servers
+- [[000 - Map of Maps]] — Map of Maps
+

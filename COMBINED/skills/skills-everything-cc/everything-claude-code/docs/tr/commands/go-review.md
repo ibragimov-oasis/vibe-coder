@@ -1,5 +1,9 @@
 ---
 description: İdiomatic desenler, eşzamanlılık güvenliği, hata yönetimi ve güvenlik için kapsamlı Go kod incelemesi. go-reviewer agent'ını çağırır.
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
 ---
 
 # Go Code Review
@@ -146,3 +150,9 @@ return fmt.Errorf("get user %s: %w", userID, err)
 
 - Agent: `agents/go-reviewer.md`
 - Skills: `skills/golang-patterns/`, `skills/golang-testing/`
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

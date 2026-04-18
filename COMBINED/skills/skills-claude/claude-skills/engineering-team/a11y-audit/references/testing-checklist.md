@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # Accessibility Testing Checklist
 
 Use this checklist after applying fixes to verify accessibility manually.
@@ -39,3 +46,9 @@ Use this checklist after applying fixes to verify accessibility manually.
 - [ ] Error messages specific and associated with input via `aria-describedby`
 - [ ] Autocomplete attributes present on common fields (name, email, etc.)
 - [ ] No CAPTCHA without alternative method (WCAG 2.2 3.3.8)
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

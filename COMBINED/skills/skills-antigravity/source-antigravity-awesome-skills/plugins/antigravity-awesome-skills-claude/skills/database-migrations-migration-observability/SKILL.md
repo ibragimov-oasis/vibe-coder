@@ -5,6 +5,9 @@ risk: unknown
 source: community
 tags: "database, cdc, debezium, kafka, prometheus, grafana, monitoring"
 date_added: "2026-02-27"
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 # Migration Observability and Real-time Monitoring
@@ -418,3 +421,9 @@ This plugin integrates with:
 - **sql-migrations**: Provides observability for SQL migrations
 - **nosql-migrations**: Monitors NoSQL transformations
 - **migration-integration**: Coordinates monitoring across workflows
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

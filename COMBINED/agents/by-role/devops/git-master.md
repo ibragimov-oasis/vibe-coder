@@ -3,6 +3,10 @@ name: git-master
 description: Git expert for atomic commits, rebasing, and history management with style detection
 model: claude-sonnet-4-6
 level: 3
+tags:
+  - domain/agents
+  - artifact/agent
+  - source/by-role/devops
 ---
 
 <Agent_Prompt>
@@ -92,3 +96,9 @@ level: 3
     - Is git log output shown as verification?
   </Final_Checklist>
 </Agent_Prompt>
+
+## 🔗 Связи
+
+- [[MOC - Agents]] — Agent catalog
+- [[agents/devops]] — Role: devops
+

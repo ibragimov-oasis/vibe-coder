@@ -2,6 +2,10 @@
 paths:
   - "**/*.kt"
   - "**/*.kts"
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
 ---
 
 # Kotlin 编码风格
@@ -88,3 +92,9 @@ val user = try { repository.getUser(id) } catch (e: NotFoundException) { null }
 // GOOD — nullable return
 val user: User? = repository.findUser(id)
 ```
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

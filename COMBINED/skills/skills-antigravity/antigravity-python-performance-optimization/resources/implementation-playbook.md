@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # Python Performance Optimization Implementation Playbook
 
 This file contains detailed patterns, checklists, and code samples referenced by the skill.
@@ -866,3 +873,9 @@ def test_map_function(benchmark):
 - [ ] Minimized function call overhead in hot loops
 - [ ] Checked for memory leaks
 - [ ] Benchmarked before and after optimization
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

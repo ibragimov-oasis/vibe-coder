@@ -3,6 +3,10 @@ name: diary
 description: "Unified Diary System: A context-preserving automated logger for multi-project development."
 risk: safe
 source: self
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 # 📔 Unified Diary System
@@ -158,3 +162,9 @@ Strictly apply the following Markdown templates to ensure clarity during Step 1 
 - [ ] (Tasks unrelated to specific projects)
 - [ ] (System environment maintenance, etc.)
 ```
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

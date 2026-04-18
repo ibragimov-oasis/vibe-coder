@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/ui
+  - artifact/doc
+  - source/skills-design
+---
+
 # API Design Principles Implementation Playbook
 
 This file contains detailed patterns, checklists, and code samples referenced by the skill.
@@ -511,3 +518,9 @@ def create_context():
 - **assets/graphql-schema-template.graphql**: Complete GraphQL schema example
 - **assets/api-design-checklist.md**: Pre-implementation review checklist
 - **scripts/openapi-generator.py**: Generate OpenAPI specs from code
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-design]] — Category: skills-design
+

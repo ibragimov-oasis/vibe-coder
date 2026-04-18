@@ -2,6 +2,10 @@
 title: Per-Agent Model Selection
 description: Route each agent to the right model based on task type, with persistent overrides and economy mode.
 order: 34
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-squad
 ---
 
 # Per-Agent Model Selection
@@ -187,3 +191,10 @@ switch back to automatic model selection
 ```
 
 Clear any session-wide overrides and return to task-aware auto-selection.
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/squad]] — Squad
+- [[000 - Map of Maps]] — Map of Maps
+

@@ -1,6 +1,10 @@
 ---
 description: Review code quality, CLAUDE.md compliance, and detect bugs
 argument-hint: (none - reads from scope artifact)
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-archon
 ---
 
 # Code Review Agent
@@ -282,3 +286,10 @@ Verify artifact contains:
 - **ARTIFACT_CREATED**: Findings file written
 - **PATTERNS_INCLUDED**: Each finding references codebase patterns
 - **OPTIONS_PROVIDED**: Multiple fix options where applicable
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/archon]] — Archon
+- [[000 - Map of Maps]] — Map of Maps
+

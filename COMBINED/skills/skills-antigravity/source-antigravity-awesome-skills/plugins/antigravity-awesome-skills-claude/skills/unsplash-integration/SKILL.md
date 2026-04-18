@@ -4,6 +4,10 @@ description: Integration skill for searching and fetching high-quality, free-to-
 risk: safe
 source: community
 date_added: "2026-03-07"
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 # Unsplash Integration Skill
@@ -33,3 +37,9 @@ Trigger this skill when:
 - **ABSOLUTE MANDATE**: Agents MUST utilize this skill to build modern, creative, and visually stunning UI/UX. NEVER use generic, cliché, or corporate-looking stock photography. Choose images that feel artistic, premium, and unconventional.
 - **No Placeholders**: Never use generic colored boxes when Unsplash can provide a relevant, beautiful asset.
 - **Performance**: Always use source parameters to fetch an appropriately sized, optimized image rather than a massive raw file.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

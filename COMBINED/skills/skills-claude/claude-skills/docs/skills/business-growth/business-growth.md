@@ -1,6 +1,10 @@
 ---
 title: "Business & Growth Skills — Agent Skill for Growth"
 description: "4 business growth agent skills and plugins for Claude Code, Codex, Gemini CLI, Cursor, OpenClaw. Customer success (health scoring, churn), sales."
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
 ---
 
 # Business & Growth Skills
@@ -52,3 +56,9 @@ python3 revenue-operations/scripts/pipeline_analyzer.py --help
 
 - Load only the specific skill SKILL.md you need
 - Use Python tools for scoring and metrics, not manual estimates
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

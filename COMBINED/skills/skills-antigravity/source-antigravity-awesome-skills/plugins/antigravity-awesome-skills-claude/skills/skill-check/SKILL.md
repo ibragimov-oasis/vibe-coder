@@ -11,6 +11,9 @@ tools: [claude, cursor, windsurf, codex-cli]
 license: MIT
 allowed-tools: Read Glob
 compatibility: claude-code
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 # SkillCheck
@@ -110,3 +113,9 @@ All 31 checks passed. No issues found.
 
 - **Problem:** Wisdom/platitude check flags legitimate instructions
   **Solution:** Rephrase generic advice ("Remember that testing is important") as concrete directives ("Run tests before committing").
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

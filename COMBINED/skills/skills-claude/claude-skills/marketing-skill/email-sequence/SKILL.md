@@ -7,6 +7,10 @@ metadata:
   author: Alireza Rezvani
   category: marketing
   updated: 2026-03-06
+tags:
+  - domain/agents
+  - artifact/skill
+  - source/skills-claude
 ---
 
 # Email Sequence Design
@@ -133,3 +137,10 @@ Deliver email sequences as complete, ready-to-send drafts — include subject li
 | Metrics Benchmarks | Open rate, click rate, and conversion rate targets per email type and sequence goal |
 | Segmentation Rules | Audience entry/exit conditions, behavioral branching, and suppression lists |
 | Subject Line Variations | 3 subject line alternatives per email for A/B testing |
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+- [[MOC - Agents]] — Claude agents
+

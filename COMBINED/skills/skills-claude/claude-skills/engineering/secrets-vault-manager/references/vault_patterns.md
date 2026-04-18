@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # HashiCorp Vault Architecture & Patterns Reference
 
 ## Architecture Overview
@@ -340,3 +347,9 @@ Secondary cluster in standby. Promote on primary failure:
 vault operator generate-root -dr-token
 vault write sys/replication/dr/secondary/promote dr_operation_token=<token>
 ```
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

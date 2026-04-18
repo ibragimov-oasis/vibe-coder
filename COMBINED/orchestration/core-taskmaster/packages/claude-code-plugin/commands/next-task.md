@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-taskmaster
+---
+
 Intelligently determine and prepare the next action based on comprehensive context.
 
 This enhanced version of 'next' considers:
@@ -64,3 +71,10 @@ Seamlessly connect to:
 - `/project:utils:complexity-report` (if unsure)
 
 The goal: Zero friction from decision to implementation.
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/task-master]] — Task-Master
+- [[000 - Map of Maps]] — Map of Maps
+

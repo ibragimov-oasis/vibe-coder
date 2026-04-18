@@ -1,6 +1,10 @@
 ---
 description: 'Comprehensive Power BI Row-Level Security (RLS) and advanced security patterns implementation guide with dynamic security, best practices, and governance strategies.'
 applyTo: '**/*.{pbix,dax,md,txt,json,csharp,powershell}'
+tags:
+  - domain/agents
+  - artifact/agent
+  - source/by-interface/agents-copilot
 ---
 
 # Power BI Security and Row-Level Security Best Practices
@@ -502,3 +506,9 @@ RETURN
 ```
 
 Remember: Security is layered - implement defense in depth with proper authentication, authorization, data encryption, network security, and comprehensive auditing. Regularly review and test security implementations to ensure they meet current requirements and compliance standards.
+
+## 🔗 Связи
+
+- [[MOC - Agents]] — Agent catalog
+- [[agents/agents-copilot]] — Interface: agents-copilot
+

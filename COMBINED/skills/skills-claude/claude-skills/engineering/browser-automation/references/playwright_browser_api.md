@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # Playwright Browser API Reference (Automation Focus)
 
 This reference covers Playwright's Python async API for browser automation tasks — NOT testing. For test-specific APIs (assertions, fixtures, test runners), see playwright-pro.
@@ -490,3 +497,9 @@ await page.locator("my-component >> .inner-button").click()
 # Or use the css= engine with >> for chained piercing
 await page.locator("css=host-element >> css=.shadow-child").click()
 ```
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

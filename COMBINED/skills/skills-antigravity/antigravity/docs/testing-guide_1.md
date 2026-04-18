@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # Testing Guide - Backend Testing Strategies
 
 Complete guide to testing backend services with Jest and best practices.
@@ -233,3 +240,9 @@ npm test -- --coverage
 - SKILL.md
 - [services-and-repositories.md](services-and-repositories.md)
 - [complete-examples.md](complete-examples.md)
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

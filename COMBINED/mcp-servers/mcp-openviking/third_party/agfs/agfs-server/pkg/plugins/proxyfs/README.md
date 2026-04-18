@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/mcp
+  - artifact/mcp-server
+  - source/mcp-servers
+---
+
 # ProxyFS Plugin
 
 An AGFS plugin that transparently proxies all file system operations to a remote AGFS HTTP API server.
@@ -485,3 +492,9 @@ func main() {
 ## License
 
 Apache License 2.0
+
+## 🔗 Связи
+
+- [[MOC - MCP Servers]] — mcp-servers
+- [[000 - Map of Maps]] — Map of Maps
+

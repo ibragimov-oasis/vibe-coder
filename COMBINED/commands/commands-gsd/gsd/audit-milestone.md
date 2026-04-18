@@ -9,6 +9,10 @@ allowed-tools:
   - Bash
   - Task
   - Write
+tags:
+  - domain/skills
+  - artifact/command
+  - source/commands
 ---
 <objective>
 Verify milestone achieved its definition of done. Check requirements coverage, cross-phase integration, and end-to-end flows.
@@ -34,3 +38,9 @@ Glob: .planning/phases/*/*-VERIFICATION.md
 Execute the audit-milestone workflow from @~/.claude/get-shit-done/workflows/audit-milestone.md end-to-end.
 Preserve all workflow gates (scope determination, verification reading, integration check, requirements coverage, routing).
 </process>
+
+## 🔗 Связи
+
+- [[MOC - System]] — commands
+- [[000 - Map of Maps]] — Map of Maps
+

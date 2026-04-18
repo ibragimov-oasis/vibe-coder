@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-deer-flow
+---
+
 # 🦌 [About DeerFlow 2.0](https://github.com/bytedance/deer-flow)
 
 > **From Open Source, Back to Open Source**
@@ -53,3 +60,10 @@ Finally, we want to express our heartfelt gratitude to the core authors of DeerF
 - **[Henry Li](https://github.com/magiccube/)**
 
 Without their vision, passion and dedication, `DeerFlow` would not be what it is today.
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/deerflow]] — DeerFlow
+- [[000 - Map of Maps]] — Map of Maps
+

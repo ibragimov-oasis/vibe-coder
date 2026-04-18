@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/mcp
+  - artifact/mcp-server
+  - source/mcp-servers
+---
+
 TECHMART ELECTRONICS
 4567 Innovation Blvd
 San Francisco, CA 94103
@@ -78,4 +85,9 @@ Thank you for shopping!
 www.techmart.example.com
 
 ===================================
+
+## 🔗 Связи
+
+- [[MOC - MCP Servers]] — mcp-servers
+- [[000 - Map of Maps]] — Map of Maps
 

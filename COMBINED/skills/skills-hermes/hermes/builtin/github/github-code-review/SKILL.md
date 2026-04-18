@@ -8,6 +8,9 @@ metadata:
   hermes:
     tags: [GitHub, Code-Review, Pull-Requests, Git, Quality]
     related_skills: [github-auth, github-pr-workflow]
+  - domain/skills
+  - artifact/skill
+  - source/skills-hermes
 ---
 
 # GitHub Code Review
@@ -478,3 +481,9 @@ git branch -D pr-$PR_NUMBER
 - **Approve** — no critical or warning-level issues, only minor suggestions or all clear
 - **Request Changes** — any critical or warning-level issue that should be fixed before merge
 - **Comment** — observations and suggestions, but nothing blocking (use when you're unsure or the PR is a draft)
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-hermes]] — Category: skills-hermes
+

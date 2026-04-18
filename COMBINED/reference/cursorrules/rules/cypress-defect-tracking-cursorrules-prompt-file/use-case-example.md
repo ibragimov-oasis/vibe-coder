@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/reference
+  - source/reference
+---
+
 # Use Case Example for Cypress Defect Tracking Prompt
 
 ## User's Goal
@@ -131,3 +138,9 @@ describe('[CartTeam] Shopping Cart Tests', () => {
 ```
 
 The prompt is intelligent enough to determine the best tagging approach based on the user's specific inputs and needs.
+
+## 🔗 Связи
+
+- [[MOC - System]] — reference
+- [[000 - Map of Maps]] — Map of Maps
+

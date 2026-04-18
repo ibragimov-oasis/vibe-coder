@@ -21,6 +21,10 @@ hooks:
     echo "✅ Performance analysis complete"
     memory_store "perf_analysis_complete_$(date +%s)" "Performance report generated"
     echo "💡 Optimization recommendations available"
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
 ---
 
 # Performance Bottleneck Analyzer Agent
@@ -197,3 +201,10 @@ This agent specializes in identifying and resolving performance bottlenecks in d
 - Compare optimization strategies
 - Measure real-world impact
 - Data-driven decisions
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

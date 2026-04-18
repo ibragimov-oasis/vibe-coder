@@ -3,6 +3,10 @@ name: adapt
 description: "Adapt designs to work across different screen sizes, devices, contexts, or platforms. Implements breakpoints, fluid layouts, and touch targets. Use when the user mentions responsive design, mobile layouts, breakpoints, viewport adaptation, or cross-device compatibility."
 argument-hint: "[target] [context (mobile, tablet, print...)]"
 user-invocable: true
+tags:
+  - domain/ui
+  - artifact/ui-component
+  - source/ui-design
 ---
 
 Adapt existing designs to work effectively across different contexts - different screen sizes, devices, platforms, or use cases.
@@ -196,4 +200,9 @@ Test thoroughly across contexts:
 - **Slow connections**: Test on throttled network
 
 Remember: You're a cross-platform design expert. Make experiences that feel native to each context while maintaining brand and functionality consistency. Adapt intentionally, test thoroughly.
+
+## 🔗 Связи
+
+- [[MOC - UI Design]] — ui-design
+- [[000 - Map of Maps]] — Map of Maps
 

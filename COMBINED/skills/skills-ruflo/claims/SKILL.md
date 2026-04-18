@@ -4,6 +4,10 @@ description: >
   Claims-based authorization for agents and operations. Grant, revoke, and verify permissions for secure multi-agent coordination.
   Use when: permission management, access control, secure operations, authorization checks.
   Skip when: open access, no security requirements, single-agent local work.
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-ruflo
 ---
 
 # Claims Authorization Skill
@@ -68,3 +72,9 @@ npx claude-flow claims list --agent agent-123
 2. Scope claims to specific resources
 3. Audit claim usage regularly
 4. Revoke claims when no longer needed
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-ruflo]] — Category: skills-ruflo
+

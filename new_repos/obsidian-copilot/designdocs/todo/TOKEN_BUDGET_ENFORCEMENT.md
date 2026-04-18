@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/new_repos
+---
+
 # Token Budget Enforcement
 
 ## Table of Contents
@@ -309,3 +316,8 @@ Phase 1 (steps 1.1-1.4) is the **critical fix** that prevents the overflow. Phas
 - [CONTEXT_ENGINEERING.md](./CONTEXT_ENGINEERING.md) — L1-L5 layer architecture
 - [MESSAGE_ARCHITECTURE.md](./MESSAGE_ARCHITECTURE.md) — Message flow and storage
 - [TECHDEBT.md](./TECHDEBT.md) — Known technical debt
+
+## 🔗 Связи
+
+- [[000 - Map of Maps]] — Map of Maps
+

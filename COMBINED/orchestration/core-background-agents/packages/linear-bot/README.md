@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-background-agents
+---
+
 # Open-Inspect Linear Agent
 
 Cloudflare Worker that integrates [Linear](https://linear.app) with Open-Inspect as a first-class
@@ -188,3 +195,9 @@ Built on Linear's [Agents API](https://linear.app/developers/agents):
 - **Hono** for HTTP routing
 - **KV** for OAuth tokens, issue-to-session mapping, and configuration
 - **Service binding** to the control plane for session management
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-background-agents]] — core-background-agents
+

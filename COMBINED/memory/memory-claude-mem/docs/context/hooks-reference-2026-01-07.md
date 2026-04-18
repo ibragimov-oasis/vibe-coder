@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/memory
+  - artifact/memory
+  - source/memory
+---
+
 # Get started with Claude Code hooks
 
 > Learn how to customize and extend Claude Code's behavior by registering shell commands
@@ -336,3 +343,9 @@ Block edits to sensitive files:
 ---
 
 > To find navigation and other pages in this documentation, fetch the llms.txt file at: https://code.claude.com/docs/llms.txt
+
+## 🔗 Связи
+
+- [[MOC - Memory]] — memory
+- [[000 - Map of Maps]] — Map of Maps
+

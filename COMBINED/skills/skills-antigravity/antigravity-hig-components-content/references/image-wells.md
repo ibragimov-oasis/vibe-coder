@@ -1,4 +1,11 @@
 ---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
+---
 title: "Image wells | Apple Developer Documentation"
 source: https://developer.apple.com/design/human-interface-guidelines/image-wells
 
@@ -31,4 +38,9 @@ For related guidance, see [Image views](https://developer.apple.com/design/human
 #### [Developer documentation](https://developer.apple.com/design/human-interface-guidelines/image-wells#Developer-documentation)
 
 [`NSImageView`](https://developer.apple.com/documentation/AppKit/NSImageView) — AppKit
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
 

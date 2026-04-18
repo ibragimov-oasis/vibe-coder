@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/new_repos
+---
+
 # CLAUDE.md
 
 This file provides guidance to Claude Code (claude.ai/code) when working with code in this repository.
@@ -359,3 +366,8 @@ The TODO.md should be:
   - Backwards compatible - loads existing messages from ProjectManager cache
   - Zero configuration required - works automatically
 - Check @tailwind.config.js to understand what tailwind css classnames are available
+
+## 🔗 Связи
+
+- [[000 - Map of Maps]] — Map of Maps
+

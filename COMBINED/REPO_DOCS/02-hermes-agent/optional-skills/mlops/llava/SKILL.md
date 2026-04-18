@@ -304,4 +304,8 @@ demo.launch()
 - **Models**: https://huggingface.co/liuhaotian
 - **License**: Apache 2.0
 
+## 🔗 Связи
+
+- [[000 - Map of Maps]] — REPO_DOCS
+- [[000 - Map of Maps]] — Map of Maps
 

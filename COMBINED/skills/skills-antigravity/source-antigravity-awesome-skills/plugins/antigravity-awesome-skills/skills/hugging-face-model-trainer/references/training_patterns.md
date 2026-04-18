@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # Common Training Patterns
 
 This guide provides common training patterns and use cases for TRL on Hugging Face Jobs.
@@ -201,3 +208,9 @@ trainer = SFTTrainer(
 - `references/hardware_guide.md` - Detailed hardware specifications
 - `references/training_methods.md` - Overview of all TRL training methods
 - `references/troubleshooting.md` - Common issues and solutions
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

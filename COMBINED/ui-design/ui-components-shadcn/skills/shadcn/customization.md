@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/ui
+  - artifact/ui-component
+  - source/ui-design
+---
+
 # Customization & Theming
 
 Components reference semantic CSS variable tokens. Change the variables to change every component.
@@ -200,3 +207,9 @@ npx shadcn@latest add button --diff button.tsx # see the diff for a specific fil
 ```
 
 See [Updating Components in SKILL.md](./SKILL.md#updating-components) for the full smart merge workflow.
+
+## 🔗 Связи
+
+- [[MOC - UI Design]] — ui-design
+- [[000 - Map of Maps]] — Map of Maps
+

@@ -6,6 +6,9 @@ wave: null
 tags: [squad, orchestration, discovery, delegation, mesh]
 status: published
 hero: "Squads discover each other's capabilities and delegate work directly. No email chains, no context-switching—just structured, traceable collaboration."
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-squad
 ---
 
 # Cross-Squad Orchestration: Work as a Network
@@ -264,3 +267,10 @@ Link to squad docs in the description:
 - [Upstream Auto-Sync](/features/upstream-sync) — Keep squad manifests in sync
 - [Persistent Ralph](/features/persistent-ralph) — Monitor delegation status
 - [Generic Scheduler](/features/generic-scheduler) — Schedule recurring delegations
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-squad]] — core-squad
+- [[MOC - Skills]] — Skills library
+

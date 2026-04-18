@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/ui
+  - artifact/doc
+  - source/skills-design
+---
+
 # Copilot Instructions: Taste Standard
 
 > **Note:** GitHub Copilot automatically reads this file to set its global behavior. By including this in the `.github` folder, Copilot stops writing generic "slop" code and adheres to the premium Taste Skill standards.
@@ -9,3 +16,9 @@
 3. **Cinematic Motion:** Never use linear easing. All animations must use spring physics (`stiffness: 100, damping: 20` or similar).
 4. **Complete Implementation:** No placeholders. No `// TODO: add actual code here`. Write the full, working implementation every single time.
 5. **Contextual Awareness:** For deep style configurations, read the localized `SKILL.md` files in the `skills/` directory.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-design]] — Category: skills-design
+

@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/seo
+  - artifact/doc
+  - source/skills-seo
+---
+
 <!-- Updated: 2026-03-23 -->
 # DataForSEO Maps & Business Data API Endpoints
 
@@ -158,3 +165,9 @@ Queries DataForSEO's pre-indexed database (not live Google). Faster for bulk cat
 | **Full audit (3-keyword grid)** | **~171** | **~$0.33** |
 
 **Formula:** `grid_size^2 x keywords x $0.002` (live) or `x $0.0006` (standard)
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-seo]] — Category: skills-seo
+

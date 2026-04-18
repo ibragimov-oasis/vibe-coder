@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/ui
+  - artifact/ui-component
+  - source/ui-design
+---
+
 # Brand Guidelines v1.0
 
 > Last updated: {DATE}
@@ -273,3 +280,9 @@ Always prepend to image generation prompts:
 | Version | Date | Changes |
 |---------|------|---------|
 | 1.0 | {DATE} | Initial guidelines |
+
+## 🔗 Связи
+
+- [[MOC - UI Design]] — ui-design
+- [[000 - Map of Maps]] — Map of Maps
+

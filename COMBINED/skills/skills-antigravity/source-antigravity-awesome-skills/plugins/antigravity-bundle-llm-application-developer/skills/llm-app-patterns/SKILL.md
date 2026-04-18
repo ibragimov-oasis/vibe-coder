@@ -4,6 +4,10 @@ description: "Production-ready patterns for building LLM applications, inspired 
 risk: unknown
 source: community
 date_added: "2026-02-27"
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 # 🤖 LLM Application Patterns
@@ -761,3 +765,9 @@ llm_client = LLMWithFallback(
 - [LangChain Docs](https://python.langchain.com/)
 - [LlamaIndex](https://www.llamaindex.ai/)
 - [Anthropic Cookbook](https://github.com/anthropics/anthropic-cookbook)
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

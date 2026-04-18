@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # Follow-Up Sequences
 
 55% of replies come from follow-ups, not the initial email. Yet 48% of salespeople never follow up even once.
@@ -79,3 +86,9 @@ Leverages loss aversion — removing pressure while creating scarcity through wi
 **Mid-level managers:** More specific value. "Want me to walk through how [Company] saved 15 hours/week?"
 
 Higher in the org chart = less friction you can ask for.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # Org Health Benchmarks by Stage
 
 Benchmarks for scoring each dimension at Seed, Series A, Series B, and Series C.
@@ -215,3 +222,9 @@ People Health degrades further (hiring freeze, morale)
 | Operations | 5% | 5% | 8% | 8% |
 | Market | — | 5% | 5% | 5% |
 | Security | — | — | 2% | 2% |
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

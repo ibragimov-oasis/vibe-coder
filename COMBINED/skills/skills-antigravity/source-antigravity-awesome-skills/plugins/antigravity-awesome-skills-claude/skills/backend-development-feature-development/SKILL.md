@@ -4,6 +4,10 @@ description: "Orchestrate end-to-end backend feature development from requiremen
 risk: unknown
 source: community
 date_added: "2026-02-27"
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 Orchestrate end-to-end feature development from requirements to production deployment:
@@ -181,3 +185,9 @@ If issues arise during or after deployment:
 5. Incident post-mortem and fixes before re-deployment
 
 Feature description: $ARGUMENTS
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

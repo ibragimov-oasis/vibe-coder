@@ -387,8 +387,17 @@ An important part of the design process is to identify the scenarios where limit
 
 ## [Change log](https://developer.apple.com/design/human-interface-guidelines/machine-learning#Change-log)
 
-Date| Changes  
+Date| Changes
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
 ---|---  
 October 24, 2023| Added art to Corrections section.  
-May 2, 2023| Consolidated guidance into one page.  
-  
+May 2, 2023| Consolidated guidance into one page.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

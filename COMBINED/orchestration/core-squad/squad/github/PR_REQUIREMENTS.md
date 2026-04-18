@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-squad
+---
+
 # PR Requirements — Squad Repository
 
 > **This file is the canonical source of truth for PR requirements.**
@@ -240,3 +247,10 @@ This requirements file is the source of truth. CI gate scripts (#104) and review
 | #104 (PR completeness gates) | Implements automated enforcement of REQUIRED items as CI gates |
 
 This file is the source of truth. #100 and #104 derive their checklists from it.
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-squad]] — core-squad
+- [[MOC - Skills]] — Skills library
+

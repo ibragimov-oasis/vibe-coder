@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # Product Org Design Reference
 
 How to structure, hire, and run product organizations at different stages. No generic advice — stage-specific, role-specific, and honest about what breaks.
@@ -405,3 +412,9 @@ Seed 1:5 → Series A 1:8 → Series B 1:10 → Series C 1:12 → Growth 1:15
 1. Stream-aligned teams with full-stack ownership (PM + Design + Eng)
 2. OKRs that cascade from company to team to individual
 3. Product trio in discovery, not just delivery
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

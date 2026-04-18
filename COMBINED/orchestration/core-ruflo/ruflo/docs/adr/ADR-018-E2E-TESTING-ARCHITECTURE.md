@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # ADR-018: E2E Testing Architecture with Browser Automation
 
 ## Status
@@ -534,3 +541,10 @@ curl https://e2e-runner-xxxxx-uc.a.run.app/results/run-20260121-123456
 - [@claude-flow/testing Package](https://www.npmjs.com/package/@claude-flow/testing)
 - [Cloud Run Documentation](https://cloud.google.com/run/docs)
 - [ADR-014: Chat System Architecture](./ADR-014-CHAT-SYSTEM-ARCHITECTURE.md)
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

@@ -18,6 +18,10 @@ agents:
   - codebase-explorer
   - codebase-analyst
   - web-researcher
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-archon
 ---
 
 # Implementation Plan Generator
@@ -627,3 +631,10 @@ Update the PRD:
 
 **Next Step**: Review the plan, then: `/implement .agents/plans/{name}.plan.md`
 ```
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-archon]] — core-archon
+- [[MOC - Skills]] — Skills library
+

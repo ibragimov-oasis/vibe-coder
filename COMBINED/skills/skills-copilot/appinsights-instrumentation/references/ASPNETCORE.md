@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-copilot
+---
+
 ## Modify code
 
 Make these necessary changes to the app.
@@ -27,3 +34,9 @@ After getting the connection string, set this environment variable with its valu
 If the app has IaC template such as Bicep or terraform files representing its cloud instance, this environment variable should be added to the IaC template to be applied in each deployment. Otherwise, use Azure CLI to manually apply the environment variable to the cloud instance of the app. See [scripts/appinsights.ps1](scripts/appinsights.ps1) for what Azure CLI command to execute for setting this environment variable.
 
 > Important: Don't modify appsettings.json. It was a deprecated way to configure App Insights. The environment variable is the new recommended way.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-copilot]] — Category: skills-copilot
+

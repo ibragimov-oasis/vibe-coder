@@ -1,5 +1,9 @@
 ---
 description: Enforce test-driven development workflow. Scaffold interfaces, generate tests FIRST, then implement minimal code to pass. Ensure 80%+ coverage.
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
 ---
 
 # TDD Command
@@ -326,3 +330,9 @@ The related `tdd-workflow` skill is also bundled with ECC.
 For manual installs, the source files live at:
 - `agents/tdd-guide.md`
 - `skills/tdd-workflow/SKILL.md`
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

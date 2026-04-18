@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-awesome-claude
+---
+
 # Security Policy
 
 This repository does not export any executible software, and
@@ -32,3 +39,9 @@ violations, we will take such reports seriously.
 
 We take the same approach to any (undisclosed) risks
 to users' privacy.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-awesome-claude]] — Category: skills-awesome-claude
+

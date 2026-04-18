@@ -1,5 +1,9 @@
 ---
 description: Start NanoClaw v2 — ECC's persistent, zero-dependency REPL with model routing, skill hot-load, branching, compaction, export, and metrics.
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
 ---
 
 # Claw Command
@@ -49,3 +53,9 @@ exit                           Quit
 - Sessions are stored at `~/.claude/claw/<session>.md`.
 - Compaction keeps the most recent turns and writes a compaction header.
 - Export supports markdown, JSON turns, and plain text.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

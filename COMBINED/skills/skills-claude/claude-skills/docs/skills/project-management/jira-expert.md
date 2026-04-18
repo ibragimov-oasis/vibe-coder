@@ -1,6 +1,10 @@
 ---
 title: "Atlassian Jira Expert — Agent Skill for PM"
 description: "Atlassian Jira expert for creating and managing projects, planning, product discovery, JQL queries, workflows, custom fields, automation, reporting. Agent skill for Claude Code, Codex CLI, Gemini CLI, OpenClaw."
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
 ---
 
 # Atlassian Jira Expert
@@ -314,3 +318,9 @@ mcp jira create_filter --name "Open Blockers" --jql "priority = Blocker AND stat
 
 - **Confluence Expert** (`project-management/confluence-expert/`) — Documentation complements Jira workflows
 - **Atlassian Admin** (`project-management/atlassian-admin/`) — Permission and user management for Jira projects
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

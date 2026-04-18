@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-gsd
+---
+
 # Discuss Mode: Assumptions vs Interview
 
 GSD's discuss-phase has two modes for gathering implementation context before planning.
@@ -66,3 +73,10 @@ Both modes produce identical CONTEXT.md with the same 6 sections:
 - `<deferred>` — Ideas noted for future phases
 
 Downstream agents (researcher, planner, checker) consume this identically regardless of mode.
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-gsd]] — core-gsd
+- [[MOC - Skills]] — Skills library
+

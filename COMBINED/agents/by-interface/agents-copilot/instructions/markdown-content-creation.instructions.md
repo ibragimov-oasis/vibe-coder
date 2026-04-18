@@ -1,6 +1,10 @@
 ---
 description: 'Markdown guidelines and content creation standards for blog posts'
 applyTo: '**/*.md'
+tags:
+  - domain/agents
+  - artifact/agent
+  - source/by-interface/agents-copilot
 ---
 
 # Markdown Content Rules
@@ -52,3 +56,9 @@ Ensure compliance with the following validation requirements:
 - [ ] Content follows the markdown content rules specified above.
 - [ ] Content is properly formatted and structured according to the guidelines.
 - [ ] Validation tools have been run to check for compliance with the rules and guidelines.
+
+## 🔗 Связи
+
+- [[MOC - Agents]] — Agent catalog
+- [[agents/agents-copilot]] — Interface: agents-copilot
+

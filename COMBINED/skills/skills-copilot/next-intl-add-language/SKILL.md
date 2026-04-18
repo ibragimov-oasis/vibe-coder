@@ -1,6 +1,10 @@
 ---
 name: next-intl-add-language
 description: 'Add new language to a Next.js + next-intl application'
+tags:
+  - domain/agents
+  - artifact/skill
+  - source/skills-copilot
 ---
 
 This is a guide to add a new language to a Next.js project using next-intl for internationalization,
@@ -17,3 +21,10 @@ When adding a new language:
 - Translate all the content of `en.json` to the new language. The goal is to have all the JSON entries in the new language for a complete translation.
 - Add the path in `routing.ts` and `middleware.ts`.
 - Add the language to `language-toggle.tsx`.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-copilot]] — Category: skills-copilot
+- [[MOC - Agents]] — Copilot agents
+

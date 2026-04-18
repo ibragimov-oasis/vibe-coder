@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/seo
+  - artifact/doc
+  - source/skills-seo
+---
+
 # Tier Structure and Packaging
 
 ## How Many Tiers?
@@ -221,3 +228,9 @@ Add "Contact Sales" when:
 **Value-based contracts:**
 - Price tied to customer's revenue/outcomes
 - Example: % of transactions, revenue share
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-seo]] — Category: skills-seo
+

@@ -30,7 +30,11 @@ Although iPadOS supports keyboard navigation in text fields, text views, and sid
 
 People expect each of the following standard keyboard shortcuts to perform the action listed in the table below.
 
-Primary key| Keyboard shortcut| Action  
+Primary key| Keyboard shortcut| Action
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
 ---|---|---  
 Space| Command-Space| Show or hide the Spotlight search field.  
 | Shift-Command-Space| Varies.  
@@ -230,5 +234,10 @@ Date| Changes
 ---|---  
 June 9, 2025| Moved game-specific key bindings guidance to the Game controls page.  
 June 10, 2024| Added game-specific guidance and made organizational updates.  
-June 21, 2023| Updated to include guidance for visionOS.  
-  
+June 21, 2023| Updated to include guidance for visionOS.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

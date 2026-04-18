@@ -56,3 +56,9 @@ Copilot Settings → Vault QA → Index vault
 
 - [[obsidian-copilot/projects]] — изолированные AI рабочие пространства
 - [[obsidian-skills/obsidian-bases]] — database views поверх vault
+
+## 🔗 Связи
+
+- [[MOC - System]] — Parent MOC
+- [[000 - Map of Maps]] — Map of Maps
+

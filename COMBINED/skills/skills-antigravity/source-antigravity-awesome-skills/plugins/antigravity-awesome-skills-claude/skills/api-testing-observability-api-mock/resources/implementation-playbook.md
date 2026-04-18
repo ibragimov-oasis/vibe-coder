@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # API Mocking Implementation Playbook
 
 This file contains detailed patterns, checklists, and code samples referenced by the skill.
@@ -1325,3 +1332,9 @@ return doc
 10. **Documentation**: Auto-generated mock API documentation
 
 Focus on creating flexible, realistic mock services that enable efficient development, thorough testing, and reliable API simulation for all stages of the development lifecycle.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

@@ -1,6 +1,10 @@
 ---
 name: memory-merger
 description: 'Merges mature lessons from a domain memory file into its instruction file. Syntax: `/memory-merger >domain [scope]` where scope is `global` (default), `user`, `workspace`, or `ws`.'
+tags:
+  - domain/agents
+  - artifact/skill
+  - source/skills-copilot
 ---
 
 # Memory Merger
@@ -106,3 +110,10 @@ Agent:
 6. Updates clojure.instructions.md
 7. Cleans clojure-memory.instructions.md
 ```
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-copilot]] — Category: skills-copilot
+- [[MOC - Agents]] — Copilot agents
+

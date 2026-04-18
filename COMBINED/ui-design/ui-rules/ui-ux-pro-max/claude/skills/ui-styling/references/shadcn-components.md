@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/ui
+  - artifact/ui-component
+  - source/ui-design
+---
+
 # shadcn/ui Component Reference
 
 Complete catalog of shadcn/ui components with usage patterns and installation.
@@ -422,3 +429,9 @@ import { Badge } from "@/components/ui/badge"
 <Badge variant="destructive">Destructive</Badge>
 <Badge variant="outline">Outline</Badge>
 ```
+
+## 🔗 Связи
+
+- [[MOC - UI Design]] — ui-design
+- [[000 - Map of Maps]] — Map of Maps
+

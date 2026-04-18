@@ -1,6 +1,10 @@
 ---
 name: cli-tool
 description: Node.js CLI tool template principles. Commander.js, interactive prompts.
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
 ---
 
 # CLI Tool Template
@@ -86,3 +90,9 @@ npm publish
 - Use consistent output styling
 - Validate inputs with Zod
 - Exit with proper codes (0 success, 1 error)
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

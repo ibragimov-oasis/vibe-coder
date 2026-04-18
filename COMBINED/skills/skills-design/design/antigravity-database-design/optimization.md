@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/ui
+  - artifact/doc
+  - source/skills-design
+---
+
 # Query Optimization
 
 > N+1 problem, EXPLAIN ANALYZE, optimization priorities.
@@ -34,3 +41,9 @@ Before optimizing:
 3. **Use proper JOINs** (avoid subqueries when possible)
 4. **Limit early** (pagination at database level)
 5. **Cache** (when appropriate)
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-design]] — Category: skills-design
+

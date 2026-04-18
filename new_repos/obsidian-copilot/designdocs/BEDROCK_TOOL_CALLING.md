@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/new_repos
+---
+
 # BedrockChatModel Tool Calling Implementation
 
 ## Status: ✅ IMPLEMENTED
@@ -191,3 +198,8 @@ console.log(response.tool_calls); // Should have tool call
 - [Claude Tool Use on Bedrock](https://docs.aws.amazon.com/bedrock/latest/userguide/tool-use.html)
 - [Anthropic Tool Use Guide](https://docs.anthropic.com/en/docs/build-with-claude/tool-use)
 - [LangChain ChatAnthropic](https://github.com/langchain-ai/langchainjs/tree/main/libs/langchain-anthropic)
+
+## 🔗 Связи
+
+- [[000 - Map of Maps]] — Map of Maps
+

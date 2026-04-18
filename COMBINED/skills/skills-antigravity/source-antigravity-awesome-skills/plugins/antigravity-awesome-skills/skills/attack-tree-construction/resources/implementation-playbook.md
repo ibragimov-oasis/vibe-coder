@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # Attack Tree Construction Implementation Playbook
 
 This file contains detailed patterns, checklists, and code samples referenced by the skill.
@@ -669,3 +676,9 @@ class AttackPathAnalyzer:
 - [Attack Trees by Bruce Schneier](https://www.schneier.com/academic/archives/1999/12/attack_trees.html)
 - [MITRE ATT&CK Framework](https://attack.mitre.org/)
 - [OWASP Attack Surface Analysis](https://owasp.org/www-community/controls/Attack_Surface_Analysis_Cheat_Sheet)
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

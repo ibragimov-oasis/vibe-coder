@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-copilot
+---
+
 # Finnish Humanizer — Täysi patternilista
 
 Kaikki 26 AI-patternia esimerkkeineen. SKILL.md sisältää 7 kanonista esimerkkiä; tämä tiedosto sisältää loput.
@@ -336,3 +343,9 @@ Nämä eivät ole patterneita vaan muotoiluvalintoja joita AI suosii:
 | 19 | Epämääräiset viittaukset | "Tutkimukset osoittavat" → nimetty lähde |
 | 20 | "Haasteista huolimatta" | Poistettu kaava, haasteet jätetty auki |
 | 21 | Kolmen sääntö | Kolmen ryhmät karsittu |
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-copilot]] — Category: skills-copilot
+

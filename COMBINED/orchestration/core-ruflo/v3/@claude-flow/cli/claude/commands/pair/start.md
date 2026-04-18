@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # pair --start
 
 Start a new pair programming session with AI assistance.
@@ -207,3 +214,10 @@ claude-flow pair --start --ide vscode
 - `pair --status` - Check session status
 - `pair --history` - View past sessions
 - `pair --config` - Configure defaults
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
+---
+
 # Everything Claude Code (ECC) — Agent Talimatları
 
 Bu, yazılım geliştirme için 28 özel agent, 116 skill, 59 command ve otomatik hook iş akışları sağlayan **üretime hazır bir AI kodlama eklentisidir**.
@@ -158,3 +165,9 @@ tests/           — Test paketi
 - Kod okunabilir ve sürdürülebilirdir
 - Performans kabul edilebilirdir
 - Kullanıcı gereksinimleri karşılanmıştır
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

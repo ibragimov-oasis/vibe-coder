@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # Voice AI Engine Development Skill
 
 Build production-ready real-time conversational AI voice engines with async worker pipelines, streaming transcription, LLM agents, and TTS synthesis.
@@ -173,3 +180,9 @@ MIT License - See repository LICENSE file
 ---
 
 **Built with ❤️ for the Antigravity community**
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

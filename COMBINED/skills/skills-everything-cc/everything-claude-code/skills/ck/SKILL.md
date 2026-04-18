@@ -5,6 +5,10 @@ origin: community
 version: 2.0.0
 author: sreedhargs89
 repo: https://github.com/sreedhargs89/context-keeper
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-everything-cc
 ---
 
 # ck — Context Keeper
@@ -145,3 +149,9 @@ unsaved sessions, git activity since last save, and goal mismatches vs CLAUDE.md
 - If a script exits with code 1, display its stdout as an error message.
 - Never edit `context.json` or `CONTEXT.md` directly — always use the scripts.
 - If `projects.json` is malformed, tell the user and offer to reset it to `{}`.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

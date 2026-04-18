@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # Extensions Reference
 
 Guide for building UI extensions and Shopify Functions.
@@ -553,3 +560,9 @@ function Extension() {
 - Admin Extensions: https://shopify.dev/docs/apps/admin/extensions
 - Functions: https://shopify.dev/docs/apps/functions
 - Components: https://shopify.dev/docs/api/checkout-ui-extensions/components
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

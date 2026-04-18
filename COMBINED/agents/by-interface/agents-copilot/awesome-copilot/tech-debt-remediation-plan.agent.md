@@ -2,6 +2,10 @@
 description: 'Generate technical debt remediation plans for code, tests, and documentation.'
 name: 'Technical Debt Remediation Plan'
 tools: ['changes', 'codebase', 'edit/editFiles', 'extensions', 'web/fetch', 'findTestFiles', 'githubRepo', 'new', 'openSimpleBrowser', 'problems', 'runCommands', 'runTasks', 'runTests', 'search', 'searchResults', 'terminalLastCommand', 'terminalSelection', 'testFailure', 'usages', 'vscodeAPI', 'github']
+tags:
+  - domain/agents
+  - artifact/agent
+  - source/by-interface/agents-copilot
 ---
 # Technical Debt Remediation Plan
 
@@ -48,3 +52,9 @@ Create Markdown document with required sections:
 - Use `search_issues` before creating new issues
 - Apply `/.github/ISSUE_TEMPLATE/chore_request.yml` template for remediation tasks
 - Reference existing issues when relevant
+
+## 🔗 Связи
+
+- [[MOC - Agents]] — Agent catalog
+- [[agents/agents-copilot]] — Interface: agents-copilot
+

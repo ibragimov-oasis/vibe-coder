@@ -3,6 +3,9 @@ title: Conditional Module Loading
 impact: HIGH
 impactDescription: loads large data only when needed
 tags: bundle, conditional-loading, lazy-loading
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
 ---
 
 ## Conditional Module Loading
@@ -29,3 +32,9 @@ function AnimationPlayer({ enabled }: { enabled: boolean }) {
 ```
 
 The `typeof window !== 'undefined'` check prevents bundling this module for SSR, optimizing server bundle size and build speed.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

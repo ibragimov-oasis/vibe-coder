@@ -1,4 +1,11 @@
 ---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
+---
 title: "Activity views | Apple Developer Documentation"
 source: https://developer.apple.com/design/human-interface-guidelines/activity-views
 
@@ -76,4 +83,9 @@ The system presents share and action extensions differently depending on the pla
 #### [Videos](https://developer.apple.com/design/human-interface-guidelines/activity-views#Videos)
 
 [![](https://devimages-cdn.apple.com/wwdc-services/images/124/74342B30-92E9-48F3-B0F2-6E42C8FD9391/6506_wide_250x141_1x.jpg) Design for Collaboration with Messages ](https://developer.apple.com/videos/play/wwdc2022/10015)
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
 

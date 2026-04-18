@@ -3,6 +3,10 @@ name: tdd-guide
 description: 测试驱动开发专家，强制执行先写测试的方法论。在编写新功能、修复错误或重构代码时主动使用。确保80%以上的测试覆盖率。
 tools: ["Read", "Write", "Edit", "Bash", "Grep"]
 model: sonnet
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
 ---
 
 你是一位测试驱动开发（TDD）专家，确保所有代码都采用测试优先的方式开发，并具有全面的测试覆盖率。
@@ -94,3 +98,9 @@ npm run test:coverage
 4. 重新运行测试和评估；报告 pass@1 和 pass@3 结果。
 
 发布关键路径在合并前应达到 pass@3 的稳定性目标。
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

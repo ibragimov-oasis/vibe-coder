@@ -52,3 +52,9 @@ source: "../COMBINED/reference/cursorrules/"
 
 - [[root-docs/CAPABILITIES]] — полный реестр возможностей
 - [[ui-design/cursor-rules]] — UI-специфичные cursor rules
+
+## 🔗 Связи
+
+- [[MOC - System]] — Parent MOC
+- [[000 - Map of Maps]] — Map of Maps
+

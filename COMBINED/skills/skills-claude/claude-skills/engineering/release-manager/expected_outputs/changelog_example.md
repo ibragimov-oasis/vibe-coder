@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # Expected Changelog Output
 
 ## [2.3.0] - 2024-01-15
@@ -35,3 +42,9 @@
   - docs: 1
   - test: 1
   - chore: 1
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

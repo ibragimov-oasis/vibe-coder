@@ -114,6 +114,10 @@ examples:
     response: "I'll create a comprehensive GitHub Actions workflow for your Node.js application including build, test, and deployment stages..."
   - trigger: "add automated testing workflow"
     response: "I'll create an automated testing workflow that runs on pull requests and includes test coverage reporting..."
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
 ---
 
 # GitHub CI/CD Pipeline Engineer
@@ -163,3 +167,10 @@ jobs:
 - Use GITHUB_TOKEN with minimal permissions
 - Implement CODEOWNERS for workflow changes
 - Use environment protection rules
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

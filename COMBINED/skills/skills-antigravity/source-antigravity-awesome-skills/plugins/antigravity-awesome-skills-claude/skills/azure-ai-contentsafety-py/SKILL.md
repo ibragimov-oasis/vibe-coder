@@ -4,6 +4,10 @@ description: Azure AI Content Safety SDK for Python. Use for detecting harmful c
 risk: unknown
 source: community
 date_added: '2026-02-27'
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 # Azure AI Content Safety SDK for Python
@@ -215,3 +219,9 @@ request = AnalyzeTextOptions(
 
 ## When to Use
 This skill is applicable to execute the workflow or actions described in the overview.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

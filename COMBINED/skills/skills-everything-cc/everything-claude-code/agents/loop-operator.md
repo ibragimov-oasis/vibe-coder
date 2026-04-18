@@ -4,6 +4,10 @@ description: Operate autonomous agent loops, monitor progress, and intervene saf
 tools: ["Read", "Grep", "Glob", "Bash", "Edit"]
 model: sonnet
 color: orange
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
 ---
 
 You are the loop operator.
@@ -34,3 +38,9 @@ Escalate when any condition is true:
 - repeated failures with identical stack traces
 - cost drift outside budget window
 - merge conflicts blocking queue advancement
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

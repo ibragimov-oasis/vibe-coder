@@ -1,6 +1,10 @@
 ---
 name: scaffold-exercises
 description: Create exercise directory structures with sections, problems, solutions, and explainers that pass linting. Use when user wants to scaffold exercises, create exercise stubs, or set up a new course section.
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-development
 ---
 
 # Scaffold Exercises
@@ -104,3 +108,9 @@ exercises/05-memory-skill-building/05.02-short-term-memory/problem/readme.md -> 
 exercises/05-memory-skill-building/05.02-short-term-memory/solution/readme.md -> "# Short-term Memory"
 exercises/05-memory-skill-building/05.03-long-term-memory/explainer/readme.md -> "# Long-term Memory"
 ```
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-development]] — Category: skills-development
+

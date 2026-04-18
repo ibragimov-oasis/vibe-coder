@@ -49,3 +49,9 @@ Hermes (Step 2 пайплайна) сохраняет паттерны → Refly
 
 - [[orchestration/core-taskmaster]] — управление задачами
 - [[obsidian-skills/obsidian-markdown]] — формат SKILL.md
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Parent MOC
+- [[000 - Map of Maps]] — Map of Maps
+

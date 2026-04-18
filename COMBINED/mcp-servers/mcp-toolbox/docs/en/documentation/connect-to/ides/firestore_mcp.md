@@ -6,6 +6,10 @@ description: >
   Connect your IDE to Firestore using Toolbox.
 manualLink: "https://cloud.google.com/firestore/native/docs/connect-ide-using-mcp-toolbox"
 manualLinkTarget: _blank
+tags:
+  - domain/mcp
+  - artifact/mcp-server
+  - source/mcp-servers
 ---
 
 <html>
@@ -20,3 +24,9 @@ manualLinkTarget: _blank
     </p>
   </body>
 </html>
+
+## 🔗 Связи
+
+- [[MOC - MCP Servers]] — mcp-servers
+- [[000 - Map of Maps]] — Map of Maps
+

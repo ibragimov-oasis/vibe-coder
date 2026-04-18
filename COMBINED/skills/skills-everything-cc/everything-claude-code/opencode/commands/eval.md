@@ -1,6 +1,10 @@
 ---
 description: Run evaluation against acceptance criteria
 agent: build
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
 ---
 
 # Eval Command
@@ -86,3 +90,9 @@ For non-deterministic evaluations:
 ---
 
 **TIP**: Use eval for acceptance testing before marking features complete.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

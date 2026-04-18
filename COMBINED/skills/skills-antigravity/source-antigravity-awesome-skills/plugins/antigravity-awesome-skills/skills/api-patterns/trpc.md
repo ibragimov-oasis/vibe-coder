@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # tRPC Principles
 
 > End-to-end type safety for TypeScript monorepos.
@@ -39,3 +46,9 @@ Common setups:
 ├── Remix + tRPC
 └── Any TS frontend + backend
 ```
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

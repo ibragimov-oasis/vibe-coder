@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-gsd
+---
+
 # Pitfalls Research Template
 
 Template for `.planning/research/PITFALLS.md` — common mistakes to avoid in the project domain.
@@ -198,3 +205,10 @@ How roadmap phases should address these pitfalls.
 - Informs phase ordering and success criteria
 
 </guidelines>
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/gsd]] — GSD
+- [[000 - Map of Maps]] — Map of Maps
+

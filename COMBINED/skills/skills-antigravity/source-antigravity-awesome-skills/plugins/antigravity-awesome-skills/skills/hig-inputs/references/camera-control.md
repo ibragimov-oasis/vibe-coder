@@ -101,7 +101,16 @@ In addition to custom controls that you create, the system provides a set of sta
 
 ## [Change log](https://developer.apple.com/design/human-interface-guidelines/camera-control#Change-log)
 
-Date| Changes  
+Date| Changes
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
 ---|---  
-September 9, 2024| New page.  
-  
+September 9, 2024| New page.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

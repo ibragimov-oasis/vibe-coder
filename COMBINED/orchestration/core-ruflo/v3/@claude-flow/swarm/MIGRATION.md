@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # SwarmHub → UnifiedSwarmCoordinator Migration Guide
 
 Quick reference for migrating from `SwarmHub` to `UnifiedSwarmCoordinator`
@@ -470,3 +477,10 @@ await hub.spawnAllAgents();
 ---
 
 **Questions?** The `UnifiedSwarmCoordinator` is the future. Migrate today! 🚀
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

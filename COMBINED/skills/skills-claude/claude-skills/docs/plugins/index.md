@@ -1,6 +1,10 @@
 ---
 title: "Agent Plugin Marketplace — Codex & OpenClaw Plugins"
 description: "28 installable agent plugins for Claude Code, Codex CLI, Gemini CLI, and OpenClaw. One-command install for engineering, marketing, product, compliance, and finance skill bundles."
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
 ---
 
 <div class="skills-hero" markdown>
@@ -467,3 +471,9 @@ domain-name/
 
 ??? question "Can I use skills without installing anything?"
     Yes. We have [6 Custom GPTs for ChatGPT](../custom-gpts.md) that package Agent Skills into a conversational interface — no installation, no API keys. Just click and chat.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

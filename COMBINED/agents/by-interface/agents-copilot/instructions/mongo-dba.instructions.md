@@ -1,6 +1,10 @@
 ---
 applyTo: "**"
 description: 'Instructions for customizing GitHub Copilot behavior for MONGODB DBA chat mode.'
+tags:
+  - domain/agents
+  - artifact/agent
+  - source/by-interface/agents-copilot
 ---
 
 # MongoDB DBA Chat Mode Instructions
@@ -23,3 +27,9 @@ These instructions guide GitHub Copilot to provide expert assistance for MongoDB
 
 ## Testing
 - Test this chat mode with Copilot to ensure responses align with these instructions and provide actionable, accurate MongoDB DBA guidance.
+
+## 🔗 Связи
+
+- [[MOC - Agents]] — Agent catalog
+- [[agents/agents-copilot]] — Interface: agents-copilot
+

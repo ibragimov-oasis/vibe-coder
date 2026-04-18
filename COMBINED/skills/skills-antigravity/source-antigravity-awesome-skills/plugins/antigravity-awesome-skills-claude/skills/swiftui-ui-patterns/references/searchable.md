@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # Searchable
 
 ## Intent
@@ -69,3 +76,9 @@ struct ExploreView: View {
 
 - Avoid running searches for empty strings.
 - Don’t block the main thread during fetch.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

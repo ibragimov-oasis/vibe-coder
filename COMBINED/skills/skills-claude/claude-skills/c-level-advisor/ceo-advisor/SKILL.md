@@ -10,6 +10,10 @@ metadata:
   updated: 2026-03-05
   python-tools: strategy_analyzer.py, financial_scenario_analyzer.py
   frameworks: executive-decisions, board-governance, leadership-culture
+tags:
+  - domain/agents
+  - artifact/skill
+  - source/skills-claude
 ---
 
 # CEO Advisor
@@ -167,3 +171,10 @@ All output passes the Internal Quality Loop before reaching the founder (see `ag
 - `references/executive_decision_framework.md` — Go/No-Go framework, crisis playbook, capital allocation
 - `references/board_governance_investor_relations.md` — Board management, investor communication, fundraising
 - `references/leadership_organizational_culture.md` — Culture development, CEO routines, succession planning
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+- [[MOC - Agents]] — Claude agents
+

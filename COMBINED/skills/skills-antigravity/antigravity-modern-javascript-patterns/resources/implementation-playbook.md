@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # Modern JavaScript Patterns Implementation Playbook
 
 This file contains detailed patterns, checklists, and code samples referenced by the skill.
@@ -908,3 +915,9 @@ const first = doubled.next().value;  // Only computes first value
 - **You Don't Know JS**: https://github.com/getify/You-Dont-Know-JS
 - **Eloquent JavaScript**: https://eloquentjavascript.net/
 - **ES6 Features**: http://es6-features.org/
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

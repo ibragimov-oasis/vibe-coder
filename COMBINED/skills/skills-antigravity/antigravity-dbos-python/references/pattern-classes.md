@@ -3,6 +3,9 @@ title: Use DBOS Decorators with Classes
 impact: MEDIUM
 impactDescription: Enables stateful workflow patterns with class instances
 tags: classes, dbos_class, instance, oop
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
 ---
 
 ## Use DBOS Decorators with Classes
@@ -59,3 +62,9 @@ Requirements:
 Steps can be added to any class without these requirements.
 
 Reference: [Python Classes](https://docs.dbos.dev/python/tutorials/classes)
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

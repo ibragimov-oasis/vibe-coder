@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # Examples Organization Report
 
 ## ✅ Organization Complete
@@ -179,3 +186,10 @@ The examples directory now provides:
 ---
 
 *Organization completed successfully. All examples are now properly categorized, documented, and ready for use.*
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

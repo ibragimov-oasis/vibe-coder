@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # 🎉 Claude Flow Plugin - Complete Summary
 
 ## ✅ Plugin Status: PRODUCTION READY
@@ -359,3 +366,10 @@ Users install with:
 **Last Updated**: 2025-10-09
 **Version**: 2.5.0
 **Specification**: Claude Code Official Plugin Format
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-ruflo]] — core-ruflo
+- [[MOC - Skills]] — Skills library
+

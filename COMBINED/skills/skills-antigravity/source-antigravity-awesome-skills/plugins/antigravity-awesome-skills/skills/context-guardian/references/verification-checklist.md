@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # Checklist de Verificacao e Redundancia
 
 ## Principio Fundamental
@@ -104,3 +111,9 @@ Apos todas as verificacoes passarem:
 
 O briefing de transicao e a peca mais importante — ele fica no topo do contexto
 compactado e e a primeira coisa que o proximo Claude le.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

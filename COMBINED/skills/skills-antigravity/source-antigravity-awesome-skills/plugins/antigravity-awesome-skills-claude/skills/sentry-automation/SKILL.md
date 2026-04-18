@@ -4,6 +4,10 @@ description: "Automate Sentry tasks via Rube MCP (Composio): manage issues/event
 risk: critical
 source: community
 date_added: "2026-02-27"
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 # Sentry Automation via Rube MCP
@@ -234,3 +238,9 @@ Automate Sentry error tracking and monitoring operations through Composio's Sent
 
 ## When to Use
 This skill is applicable to execute the workflow or actions described in the overview.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

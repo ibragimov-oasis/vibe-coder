@@ -1,6 +1,10 @@
 ---
 title: "Runbook Generator — Agent Skill for Codex & OpenClaw"
 description: "Runbook Generator. Agent skill for Claude Code, Codex CLI, Gemini CLI, OpenClaw."
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
 ---
 
 # Runbook Generator
@@ -85,3 +89,9 @@ python3 scripts/runbook_generator.py payments-api --owner platform --output docs
 2. Include health checks after every critical step.
 3. Validate runbooks on a fixed review cadence.
 4. Update runbook content after incidents and postmortems.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

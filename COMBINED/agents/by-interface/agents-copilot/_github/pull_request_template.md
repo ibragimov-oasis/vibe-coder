@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/agent
+  - source/by-interface/agents-copilot
+---
+
 ## Pull Request Checklist
 
 - [ ] I have read and followed the [CONTRIBUTING.md](https://github.com/github/awesome-copilot/blob/main/CONTRIBUTING.md) guidelines.
@@ -37,3 +44,9 @@
 ---
 
 By submitting this pull request, I confirm that my contribution abides by the [Code of Conduct](../CODE_OF_CONDUCT.md) and will be licensed under the MIT License.
+
+## 🔗 Связи
+
+- [[MOC - Agents]] — Agent catalog
+- [[agents/agents-copilot]] — Interface: agents-copilot
+

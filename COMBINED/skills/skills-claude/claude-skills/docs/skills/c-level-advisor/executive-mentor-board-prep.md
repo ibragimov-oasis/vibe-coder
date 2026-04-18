@@ -1,6 +1,10 @@
 ---
 title: "/em:board-prep — Board Meeting Preparation — Agent Skill for Executives"
 description: "/em -board-prep — Board Meeting Preparation. Agent skill for Claude Code, Codex CLI, Gemini CLI, OpenClaw."
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
 ---
 
 # /em:board-prep — Board Meeting Preparation
@@ -165,3 +169,9 @@ Within 24 hours:
 - Schedule follow-up with any director who seemed unsatisfied
 
 The next board prep starts now.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

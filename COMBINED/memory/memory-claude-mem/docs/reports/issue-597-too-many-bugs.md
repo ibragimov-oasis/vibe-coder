@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/memory
+  - artifact/memory
+  - source/memory
+---
+
 # Issue #597: Too Many Bugs - Technical Analysis Report
 
 **Date:** 2026-01-07
@@ -269,3 +276,9 @@ Issue #597 represents user frustration with multiple bugs encountered in claude-
 
 *Report generated: 2026-01-07*
 *Analysis based on: GitHub issue data, related issues, commit history, and contextual inference*
+
+## 🔗 Связи
+
+- [[MOC - Memory]] — memory
+- [[000 - Map of Maps]] — Map of Maps
+

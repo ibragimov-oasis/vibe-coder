@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # Playwright Java – Fixtures, Hooks & Test Data
 
 ## JUnit 5 Extension for Playwright (Custom Fixture)
@@ -261,3 +268,9 @@ public @interface RetryTest {
     int times() default 3;
 }
 ```
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

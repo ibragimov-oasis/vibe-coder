@@ -50,3 +50,9 @@ source: "../new_repos/obsidian-copilot/docs/agent-mode-and-tools.md"
 
 - [[agents/mega-orchestrator]] — аналогия: мега-оркестратор ULTRACAR
 - [[combined/Agents Overview]] — агенты ULTRACAR
+
+## 🔗 Связи
+
+- [[MOC - System]] — Parent MOC
+- [[000 - Map of Maps]] — Map of Maps
+

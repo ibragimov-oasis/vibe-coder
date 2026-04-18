@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # ReasoningBank Migration Guide: v1.5.12 → v1.5.13
 
 ## Overview
@@ -187,3 +194,10 @@ For issues or questions:
 ---
 
 **Migration completed**: Claude-Flow v2.7.0-alpha.7 with agentic-flow@1.5.13 Node.js backend ✅
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

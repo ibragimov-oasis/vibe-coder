@@ -4,6 +4,10 @@ description: Detect and set up account-locked gh aliases for multi-account GitHu
 confidence: high
 source: https://github.com/tamirdresher/squad-skills/tree/main/plugins/github-multi-account
 author: tamirdresher
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-squad
 ---
 
 # GitHub Multi-Account — AI-Driven Setup
@@ -93,3 +97,10 @@ At the TOP of any script touching GitHub, define:
 function gh-personal { gh auth switch --user bradygaster 2>$null | Out-Null; gh @args }
 function gh-work { gh auth switch --user bradyg_microsoft 2>$null | Out-Null; gh @args }
 ```
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/squad]] — Squad
+- [[000 - Map of Maps]] — Map of Maps
+

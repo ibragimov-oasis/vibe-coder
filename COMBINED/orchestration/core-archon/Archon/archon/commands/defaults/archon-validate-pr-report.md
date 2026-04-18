@@ -1,6 +1,10 @@
 ---
 description: Synthesize all validation findings into a final PR verdict report
 argument-hint: (none - reads from artifacts)
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-archon
 ---
 
 # PR Validation Report
@@ -218,3 +222,10 @@ COMMENT
 - **VERDICT_DETERMINED**: Clear APPROVE / REQUEST_CHANGES / NEEDS_DISCUSSION
 - **REPORT_WRITTEN**: `$ARTIFACTS_DIR/validation-report.md` created
 - **PR_COMMENTED**: Summary posted to the PR
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/archon]] — Archon
+- [[000 - Map of Maps]] — Map of Maps
+

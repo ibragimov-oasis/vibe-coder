@@ -1,6 +1,10 @@
 ---
 title: "Agent Workflow Designer — Agent Skill for Codex & OpenClaw"
 description: "Agent Workflow Designer. Agent skill for Claude Code, Codex CLI, Gemini CLI, OpenClaw."
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
 ---
 
 # Agent Workflow Designer
@@ -92,3 +96,9 @@ Detailed templates: `references/workflow-patterns.md`
 2. Keep handoff payloads explicit and bounded.
 3. Validate intermediate outputs before fan-in synthesis.
 4. Enforce budget and timeout limits in every step.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

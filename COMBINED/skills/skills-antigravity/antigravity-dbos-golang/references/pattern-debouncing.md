@@ -3,6 +3,9 @@ title: Debounce Workflows to Prevent Wasted Work
 impact: MEDIUM
 impactDescription: Prevents redundant workflow executions during rapid triggers
 tags: pattern, debounce, delay, efficiency
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
 ---
 
 ## Debounce Workflows to Prevent Wasted Work
@@ -45,3 +48,9 @@ Key behaviors:
 Type signature: `Debouncer[P any, R any]` — the type parameters match the target workflow.
 
 Reference: [Debouncing Workflows](https://docs.dbos.dev/golang/tutorials/workflow-tutorial#debouncing)
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

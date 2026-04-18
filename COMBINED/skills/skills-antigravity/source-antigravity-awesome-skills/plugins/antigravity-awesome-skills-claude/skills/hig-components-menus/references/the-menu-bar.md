@@ -61,7 +61,11 @@ The app menu lists items that apply to your app or game as a whole, rather than 
 
 The app menu typically contains the following menu items listed in the following order.
 
-Menu item| Action| Guidance  
+Menu item| Action| Guidance
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
 ---|---|---  
 About _YourAppName_|  Displays the About window for your app, which includes copyright and version information.| Prefer a short name of 16 characters or fewer. Don’t include a version number.  
 Settings…| Opens your [settings](https://developer.apple.com/design/human-interface-guidelines/settings) window, or your app’s page in iPadOS Settings.| Use only for app-level settings. If you also offer document-specific settings, put them in the File menu.  
@@ -299,5 +303,10 @@ When necessary, the system hides menu bar extras to make room for app menus. Sim
 
 Date| Changes  
 ---|---  
-June 9, 2025| Added guidance for the menu bar in iPadOS.  
-  
+June 9, 2025| Added guidance for the menu bar in iPadOS.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

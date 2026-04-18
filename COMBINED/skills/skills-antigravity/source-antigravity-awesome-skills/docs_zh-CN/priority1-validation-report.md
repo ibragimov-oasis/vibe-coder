@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # Priority 1 Batch Validation Report
 
 **Generated:** 2026-03-30
@@ -281,3 +288,9 @@ The Priority 1 batch validation is **COMPLETE** with all quality thresholds met.
 **Validation Completed By:** Claude Sonnet 4.6
 **Date:** 2026-03-30
 **Commit:** Pending
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

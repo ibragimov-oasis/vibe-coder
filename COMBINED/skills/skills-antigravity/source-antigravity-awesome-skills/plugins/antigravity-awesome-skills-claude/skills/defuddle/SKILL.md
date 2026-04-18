@@ -4,6 +4,10 @@ description: Extract clean markdown content from web pages using Defuddle CLI, r
 risk: unknown
 source: "https://github.com/kepano/obsidian-skills"
 date_added: "2026-03-21"
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 # Defuddle
@@ -48,3 +52,9 @@ defuddle parse <url> -p domain
 | `--json` | JSON with both HTML and markdown |
 | (none) | HTML |
 | `-p <name>` | Specific metadata property |
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

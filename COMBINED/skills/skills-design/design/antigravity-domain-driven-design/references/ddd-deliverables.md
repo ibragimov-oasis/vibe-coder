@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/ui
+  - artifact/doc
+  - source/skills-design
+---
+
 # DDD Deliverables Checklist
 
 Use this checklist to keep DDD adoption practical and measurable.
@@ -22,3 +29,9 @@ Use this checklist to keep DDD adoption practical and measurable.
 - Event schema versioning policy
 - Saga compensation matrix
 - Projection rebuild strategy
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-design]] — Category: skills-design
+

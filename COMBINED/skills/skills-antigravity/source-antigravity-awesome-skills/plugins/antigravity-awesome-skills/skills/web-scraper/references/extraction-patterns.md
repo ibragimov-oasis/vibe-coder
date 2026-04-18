@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # Extraction Patterns Reference
 
 CSS selectors, JavaScript snippets, and domain-specific tips for
@@ -473,3 +480,9 @@ Prefer selectors in this order (most stable to least):
 5. `.semantic-class` - meaningful class names
 6. `tag.class` - element type + class
 7. Structural selectors - last resort
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

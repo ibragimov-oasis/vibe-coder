@@ -3,6 +3,10 @@ name: database-reviewer
 description: クエリ最適化、スキーマ設計、セキュリティ、パフォーマンスのためのPostgreSQLデータベーススペシャリスト。SQL作成、マイグレーション作成、スキーマ設計、データベースパフォーマンスのトラブルシューティング時に積極的に使用してください。Supabaseのベストプラクティスを組み込んでいます。
 tools: ["Read", "Write", "Edit", "Bash", "Grep", "Glob"]
 model: opus
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
 ---
 
 # データベースレビューアー
@@ -652,3 +656,9 @@ ORDER BY rank DESC;
 **覚えておくこと**: データベースの問題は、アプリケーションパフォーマンス問題の根本原因であることが多いです。クエリとスキーマ設計を早期に最適化してください。仮定を検証するためにEXPLAIN ANALYZEを使用してください。常に外部キーとRLSポリシー列にインデックスを作成してください。
 
 *パターンはMITライセンスの下で[Supabase Agent Skills](Supabase Agent Skills (credit: Supabase team))から適応されています。*
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

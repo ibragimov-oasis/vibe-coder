@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # Multi-Agent Coordination Tutorial
 
 Learn how to orchestrate complex workflows with multiple specialized agents working in harmony.
@@ -400,3 +407,10 @@ You've learned:
 4. Implement custom coordination patterns
 
 Continue to [Advanced Orchestration Patterns](./advanced-orchestration.md)
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

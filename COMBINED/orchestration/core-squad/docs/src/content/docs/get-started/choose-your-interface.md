@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-squad
+---
+
 # Choose your interface
 
 > ⚠️ **Experimental** — Squad is alpha software. APIs, commands, and behavior may change between releases.
@@ -176,3 +183,10 @@ Initialize with CLI, work in VS Code.
 - [CLI Reference](../reference/cli.md) — All Squad CLI commands
 - [Squad in VS Code](../features/vscode.md) — VS Code-specific guidance
 - [SDK Reference](../reference/sdk.md) — Programmatic API
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/squad]] — Squad
+- [[000 - Map of Maps]] — Map of Maps
+

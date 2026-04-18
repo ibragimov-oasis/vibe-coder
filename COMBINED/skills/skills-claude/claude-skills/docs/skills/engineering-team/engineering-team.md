@@ -1,6 +1,10 @@
 ---
 title: "Engineering Team Skills — Agent Skill & Codex Plugin"
 description: "23 engineering agent skills and plugins for Claude Code, Codex, Gemini CLI, Cursor, OpenClaw, and 6 more tools. Architecture, frontend, backend, QA."
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
 ---
 
 # Engineering Team Skills
@@ -85,3 +89,9 @@ No pip install needed. Scripts include embedded samples for demo mode.
 - Load only the specific skill SKILL.md you need — don't bulk-load all 23
 - Use Python tools for analysis and scaffolding, not manual judgment
 - Check CLAUDE.md for tool usage examples and workflows
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

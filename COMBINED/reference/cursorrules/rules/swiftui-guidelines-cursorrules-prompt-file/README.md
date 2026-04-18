@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/reference
+  - source/reference
+---
+
 # SwiftUI guidelines .cursorrules prompt file
 
 Author: kevin regenrek
@@ -13,4 +20,9 @@ iOS developers can utilize this prompt to create a scalable SwiftUI app with cle
 
 ## Overview of .cursorrules prompt
 The .cursorrules file defines a structure and design guidelines for SwiftUI projects. It outlines an organized file structure with specific folders for main files, views, view models, shared components, data models, services, utilities, resources, and tests. The design rules emphasize the use of SwiftUI's built-in components for a consistent iOS appearance, mastering layout tools for responsive designs, adding visual enhancements, and ensuring interactive and engaging user experiences. The file focuses on utilizing features and documentation from the latest Swift and SwiftUI versions.
+
+## 🔗 Связи
+
+- [[MOC - System]] — reference
+- [[000 - Map of Maps]] — Map of Maps
 

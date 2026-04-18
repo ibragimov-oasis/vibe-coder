@@ -2,6 +2,10 @@
 name: agent-harness-construction
 description: Design and optimize AI agent action spaces, tool definitions, and observation formatting for higher completion rates.
 origin: ECC
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-everything-cc
 ---
 
 # Agent Harness Construction
@@ -71,3 +75,9 @@ Track:
 - Opaque tool output with no recovery hints.
 - Error-only output without next steps.
 - Context overloading with irrelevant references.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

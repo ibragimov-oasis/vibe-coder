@@ -1,6 +1,10 @@
 ---
 paths:
   - "**/*.java"
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
 ---
 # Java Coding Style
 
@@ -112,3 +116,9 @@ public class OrderNotFoundException extends RuntimeException {
 
 See skill: `java-coding-standards` for full coding standards with examples.
 See skill: `jpa-patterns` for JPA/Hibernate entity design patterns.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

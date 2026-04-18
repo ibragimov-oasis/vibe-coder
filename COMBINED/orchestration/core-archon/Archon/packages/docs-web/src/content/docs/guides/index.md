@@ -7,6 +7,10 @@ audience: [user]
 status: current
 sidebar:
   order: 0
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-archon
 ---
 
 How-to guides for building and running AI coding workflows with Archon.
@@ -54,3 +58,10 @@ To customize any bundled workflow, copy it from `.archon/workflows/defaults/` in
 
 - [Global Workflows](/guides/global-workflows/) — User-level workflows that apply to every project
 - [Remotion Video Generation](/guides/remotion-workflow/) — End-to-end video creation with skills and bash render nodes
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/archon]] — Archon
+- [[000 - Map of Maps]] — Map of Maps
+

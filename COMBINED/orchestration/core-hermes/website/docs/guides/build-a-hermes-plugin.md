@@ -1,5 +1,9 @@
 ---
 sidebar_position: 10
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-hermes
 ---
 
 # Build a Hermes Plugin
@@ -441,3 +445,10 @@ def handler(args, **kwargs):
 # Good — model knows exactly when and how
 "description": "Evaluate a mathematical expression. Use for arithmetic, trig, logarithms. Supports: +, -, *, /, **, sqrt, sin, cos, log, pi, e."
 ```
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/hermes]] — Hermes
+- [[000 - Map of Maps]] — Map of Maps
+

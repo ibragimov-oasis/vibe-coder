@@ -36,3 +36,9 @@ source: "../COMBINED/agents/by-role/ui-specialist/"
 - **MOC:** [[MOC - UI Design]]
 - **Мета-агент:** [[agents/mega-designer]]
 - **Иерархия:** [[ui-design/combined-design-system]]
+
+## 🔗 Связи
+
+- [[MOC - Agents]] — Parent MOC
+- [[000 - Map of Maps]] — Map of Maps
+

@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # Sprint Progress Tracker
 
 **Sprint:** sprint-11-05-2025 (Skill-Agent Integration Phase 1-2)
@@ -555,3 +562,9 @@ This file is automatically updated after each task completion with:
 **Sprint Status:** ✅ COMPLETE - All 6 days finished on November 5, 2025
 **All Issues Closed:** #8, #9, #11, #12, #13, #14, #15, #16
 **Ready for:** Next sprint planning
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

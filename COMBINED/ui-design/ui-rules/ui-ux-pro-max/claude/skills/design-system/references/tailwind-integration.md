@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/ui
+  - artifact/ui-component
+  - source/ui-design
+---
+
 # Tailwind Integration
 
 Map design system tokens to Tailwind CSS configuration.
@@ -249,3 +256,9 @@ npx shadcn@latest add button card input
 ```
 
 Components will automatically use your design system tokens.
+
+## 🔗 Связи
+
+- [[MOC - UI Design]] — ui-design
+- [[000 - Map of Maps]] — Map of Maps
+

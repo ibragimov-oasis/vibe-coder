@@ -1,6 +1,10 @@
 ---
 name: agent-mesh-coordinator
 description: Agent skill for mesh-coordinator - invoke with $agent-mesh-coordinator
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-ruflo
 ---
 
 ---
@@ -395,3 +399,9 @@ class CapabilityRouter:
 4. **Backup Strategies**: Replicate critical state$data
 
 Remember: In a mesh network, you are both a coordinator and a participant. Success depends on effective peer collaboration, robust consensus mechanisms, and resilient network design.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-ruflo]] — Category: skills-ruflo
+

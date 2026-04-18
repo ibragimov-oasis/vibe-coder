@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-archon
+---
+
 # Running Custom Playwright Code
 
 Use `run-code` to execute arbitrary Playwright code for advanced scenarios not covered by CLI commands.
@@ -230,3 +237,10 @@ playwright-cli run-code "async page => {
   return results;
 }"
 ```
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/archon]] — Archon
+- [[000 - Map of Maps]] — Map of Maps
+

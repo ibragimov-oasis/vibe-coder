@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # Composition & Mapping
 
 Ensuring your ViewModels are correctly instantiated and mapped to their corresponding Views is crucial for a maintainable application.
@@ -73,3 +80,9 @@ public override void OnFrameworkInitializationCompleted()
 
 > [!TIP]
 > Use `ActivatorUtilities.CreateInstance` when you need to manually instantiate a class while still resolving its dependencies from the `IServiceProvider`.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

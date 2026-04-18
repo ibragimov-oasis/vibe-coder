@@ -16,6 +16,10 @@ tools:
   - browser/fill
   - browser/screenshot
   - browser/close
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
 ---
 
 # Browser Automation Skill
@@ -202,3 +206,10 @@ npx @claude-flow/cli hooks post-task --task-id "browse-1" --success true
 3. **Use refs, not selectors** - More reliable, deterministic
 4. **Re-snapshot after navigation** - Page state changes
 5. **Use sessions for parallel work** - Each session is isolated
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

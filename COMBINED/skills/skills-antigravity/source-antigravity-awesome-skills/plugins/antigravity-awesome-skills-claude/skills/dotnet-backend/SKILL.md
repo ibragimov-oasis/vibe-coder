@@ -4,6 +4,10 @@ description: "Build ASP.NET Core 8+ backend services with EF Core, auth, backgro
 risk: safe
 source: self
 date_added: "2026-02-27"
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 # .NET Backend Agent - ASP.NET Core & Enterprise API Expert
@@ -262,3 +266,9 @@ public class EmailSenderService : BackgroundService
 - Assumes modern .NET (ASP.NET Core 8+); older .NET Framework projects may require different patterns.
 - Does not cover client-side/frontend implementations.
 - Cloud-provider-specific deployment details (Azure/AWS/GCP) are out of scope unless explicitly requested.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # Hooks System Migration Guide
 
 > Migrating from V2 Self-Learning Hooks to V3 ReasoningBank-Based Hooks
@@ -465,3 +472,10 @@ const missingTools = [
 2. **memory hooks** - Memory lifecycle
 3. **neural hooks** - Neural training
 4. **performance hooks** - Performance optimization
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

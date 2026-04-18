@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # International Market Playbooks
 
 Market-specific tactics for EU, US, and Canada expansion.
@@ -198,3 +205,9 @@ Expand regional budget when:
 - [ ] Terms of service updates
 
 **Validation:** Native speaker review of all localized content before launch.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

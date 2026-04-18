@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # Senior QA Testing Engineer Skill
 
 Production-ready quality assurance and test automation skill for React/Next.js applications.
@@ -194,3 +201,9 @@ jobs:
 **Version:** 2.0.0
 **Last Updated:** January 2026
 **Tech Focus:** React 18+, Next.js 14+, Jest 29+, Playwright 1.40+
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

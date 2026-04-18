@@ -10,6 +10,10 @@ test_files: 149
 team_size: 19 active agents + Scribe + Ralph + @copilot
 team_identity: Apollo 13 / NASA Mission Control
 process: All work through PRs. Branch naming squad/{issue-number}-{slug}. Releases driven by Surgeon. Pre-flight gates mandatory. Never commit to main directly.
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-squad
 ---
 
 # What We're Focused On
@@ -127,3 +131,10 @@ All work through PRs. Branch naming: `squad/{issue-number}-{slug}`. Releases dri
 **Apollo 13 / NASA Mission Control:** Flight (Lead), EECOM, FIDO, PAO, CAPCOM, CONTROL, SURGEON, Booster, GNC, Network, RETRO, INCO, GUIDO, Telemetry, VOX, DSKY, Sims, Handbook. Scribe (Session Logger), Ralph (Autonomy Agent). @copilot (Coordinator).
 
 **Status:** Team stable, process hardened, community engaged, next cycle ready.
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/squad]] — Squad
+- [[000 - Map of Maps]] — Map of Maps
+

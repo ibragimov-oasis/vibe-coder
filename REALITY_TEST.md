@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/root
+---
+
 # REALITY_TEST.md — Execution Trace Validation
 
 > **Verifiable execution traces for 3 real-world scenarios.**
@@ -241,3 +248,8 @@ For each scenario above, verify:
 - [ ] Obsidian vault save runs post-task (`bash obsidian-update.sh`)
 - [ ] Quality report includes `✅ Obsidian:` line
 - [ ] Quality report is shown to user
+
+## 🔗 Связи
+
+- [[000 - Map of Maps]] — Map of Maps
+

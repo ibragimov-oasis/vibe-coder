@@ -4,6 +4,10 @@ description: "You are a technical debt expert specializing in identifying, quant
 risk: unknown
 source: community
 date_added: "2026-02-27"
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 # Technical Debt Analysis and Remediation
@@ -387,3 +391,9 @@ Track progress with clear KPIs:
 7. **ROI Projections**: Expected returns on debt reduction investment
 
 Focus on delivering measurable improvements that directly impact development velocity, system reliability, and team morale.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

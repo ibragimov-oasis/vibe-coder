@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/reference
+  - source/reference
+---
+
 # Awesome Cursor Rules [![Awesome](https://awesome.re/badge-flat.svg)](https://awesome.re)
 
 <p align="center">
@@ -348,3 +355,9 @@ Please ensure your contribution is original or properly credited if based on exi
 ## License
 
 [![CC0](https://licensebuttons.net/p/zero/1.0/88x31.png)](https://creativecommons.org/publicdomain/zero/1.0/)
+
+## 🔗 Связи
+
+- [[MOC - System]] — reference
+- [[000 - Map of Maps]] — Map of Maps
+

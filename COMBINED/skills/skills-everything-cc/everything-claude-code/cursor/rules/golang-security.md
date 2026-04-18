@@ -2,6 +2,10 @@
 description: "Go security extending common rules"
 globs: ["**/*.go", "**/go.mod", "**/go.sum"]
 alwaysApply: false
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
 ---
 # Go Security
 
@@ -31,3 +35,9 @@ Always use `context.Context` for timeout control:
 ctx, cancel := context.WithTimeout(ctx, 5*time.Second)
 defer cancel()
 ```
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

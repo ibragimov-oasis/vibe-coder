@@ -8,6 +8,9 @@ metadata:
   hermes:
     tags: [Base, Blockchain, Crypto, Web3, RPC, DeFi, EVM, L2, Ethereum]
     related_skills: []
+  - domain/skills
+  - artifact/skill
+  - source/skills-hermes
 ---
 
 # Base Blockchain Skill
@@ -229,3 +232,9 @@ WELL, wstETH, rETH, cbBTC.
 # Should print Base chain ID (8453), latest block, gas price, and ETH price
 python3 ~/.hermes/skills/blockchain/base/scripts/base_client.py stats
 ```
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-hermes]] — Category: skills-hermes
+

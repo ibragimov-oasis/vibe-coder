@@ -4,6 +4,10 @@ type: docs
 weight: 10
 description: >
   Get a Cloud SQL instance resource.
+tags:
+  - domain/mcp
+  - artifact/mcp-server
+  - source/mcp-servers
 ---
 
 ## About
@@ -32,3 +36,9 @@ description: "Gets a particular cloud sql instance."
 | type        |  string  |     true     | Must be "cloud-sql-get-instance".                |
 | source      |  string  |     true     | The name of the `cloud-sql-admin` source to use. |
 | description |  string  |     false    | A description of the tool.                       |
+
+## 🔗 Связи
+
+- [[MOC - MCP Servers]] — mcp-servers
+- [[000 - Map of Maps]] — Map of Maps
+

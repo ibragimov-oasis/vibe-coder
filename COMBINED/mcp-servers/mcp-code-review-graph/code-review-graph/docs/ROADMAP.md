@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/mcp
+  - artifact/mcp-server
+  - source/mcp-servers
+---
+
 # Roadmap
 
 ## Shipped
@@ -65,3 +72,9 @@
 
 - Additional language grammars as requested
 - Integration with more Claude Code features as the platform evolves
+
+## 🔗 Связи
+
+- [[MOC - MCP Servers]] — mcp-servers
+- [[000 - Map of Maps]] — Map of Maps
+

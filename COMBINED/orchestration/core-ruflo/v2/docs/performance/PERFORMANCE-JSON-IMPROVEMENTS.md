@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # Performance.json Improvements - v2.7.0-alpha.7
 
 ## Summary
@@ -275,3 +282,10 @@ npx claude-flow memory stats
 - **Version**: v2.7.0-alpha.7
 - **Date**: 2025-10-13
 - **Status**: ✅ Implemented and Built
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

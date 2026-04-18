@@ -4,6 +4,10 @@ description: Amplify safe or boring designs to make them more visually interesti
 version: 2.1.1
 user-invocable: true
 argument-hint: "[target]"
+tags:
+  - domain/ui
+  - artifact/ui-component
+  - source/ui-design
 ---
 
 Increase visual impact and personality in designs that are too safe, generic, or visually underwhelming, creating more engaging and memorable experiences.
@@ -115,3 +119,9 @@ Ensure amplification maintains usability and coherence:
 **The test**: If you showed this to someone and said "AI made this bolder," would they believe you immediately? If yes, you've failed. Bold means distinctive, not "more AI effects."
 
 Remember: Bold design is confident design. It takes risks, makes statements, and creates memorable experiences. But bold without strategy is just loud. Be intentional, be dramatic, be unforgettable.
+
+## 🔗 Связи
+
+- [[MOC - UI Design]] — ui-design
+- [[000 - Map of Maps]] — Map of Maps
+

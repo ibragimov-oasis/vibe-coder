@@ -1,6 +1,10 @@
 ---
 description: "Comprehensive guide for migrating Spring Boot applications from 3.x to 4.0, focusing on Gradle Kotlin DSL and version catalogs"
 applyTo: "**/*.java, **/*.kt, **/build.gradle.kts, **/build.gradle, **/settings.gradle.kts, **/gradle/libs.versions.toml, **/*.properties, **/*.yml, **/*.yaml"
+tags:
+  - domain/agents
+  - artifact/agent
+  - source/by-interface/agents-copilot
 ---
 
 # Spring Boot 3.x to 4.0 Migration Guide
@@ -1499,3 +1503,9 @@ tasks.withType<JavaExec> {
 - [Kotlin 2.2 Release Notes](https://kotlinlang.org/docs/whatsnew22.html)
 
 ---
+
+## 🔗 Связи
+
+- [[MOC - Agents]] — Agent catalog
+- [[agents/agents-copilot]] — Interface: agents-copilot
+

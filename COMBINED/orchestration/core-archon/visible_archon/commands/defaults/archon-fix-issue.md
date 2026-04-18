@@ -1,6 +1,10 @@
 ---
 description: Implement a fix from investigation artifact - code changes, validation, and commit (no PR)
 argument-hint: <issue-number|artifact-path>
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-archon
 ---
 
 # Fix Issue
@@ -471,3 +475,10 @@ Proceeding to PR creation...
 - **CHANGES_COMMITTED**: All changes committed to branch
 - **IMPLEMENTATION_ARTIFACT**: Written to $ARTIFACTS_DIR/
 - **READY_FOR_PR**: Workflow continues to PR creation
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/archon]] — Archon
+- [[000 - Map of Maps]] — Map of Maps
+

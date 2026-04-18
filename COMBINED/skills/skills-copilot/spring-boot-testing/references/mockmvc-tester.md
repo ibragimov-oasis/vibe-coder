@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-copilot
+---
+
 # MockMvcTester
 
 AssertJ-style testing for Spring MVC controllers (Spring Boot 3.2+).
@@ -309,3 +316,9 @@ assertThat(mvc.get().uri("/orders/1"))
 3. **Import static `org.assertj.core.api.Assertions.assertThat`**
 4. **Works with generics via `TypeReference`** - For `List<T>` responses
 5. **IDE refactoring friendly** - Rename fields, IDE updates tests
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-copilot]] — Category: skills-copilot
+

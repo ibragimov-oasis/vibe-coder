@@ -3,6 +3,10 @@ name: audit-context-building
 description: Enables ultra-granular, line-by-line code analysis to build deep architectural context before vulnerability or bug finding.
 risk: unknown
 source: community
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 # Deep Context Builder Skill (Ultra-Granular Pure Context Mode)
@@ -301,3 +305,9 @@ While active, Claude should NOT:
 - Assign severity or impact
 
 This is **pure context building** only.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

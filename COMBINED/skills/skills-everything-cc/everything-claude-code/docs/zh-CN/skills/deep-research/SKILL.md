@@ -2,6 +2,10 @@
 name: deep-research
 description: 使用firecrawl和exa MCPs进行多源深度研究。搜索网络、综合发现并交付带有来源引用的报告。适用于用户希望对任何主题进行有证据和引用的彻底研究时。
 origin: ECC
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-everything-cc
 ---
 
 # 深度研究
@@ -161,3 +165,9 @@ crawling_exa(url: "<url>", tokensNum: 5000)
 "美国房地产市场目前情况如何？"
 "调查 AI 代码编辑器的竞争格局"
 ```
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

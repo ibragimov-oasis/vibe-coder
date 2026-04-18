@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # @claude-flow/swarm
 
 [![npm version](https://img.shields.io/npm/v/@claude-flow/swarm.svg)](https://www.npmjs.com/package/@claude-flow/swarm)
@@ -632,3 +639,9 @@ MIT
 ---
 
 **ADR-003 Compliance**: This module implements a single canonical coordination engine with hive-mind intelligence, 6 attention mechanisms, federation support, and backward compatibility via facade pattern.
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-ruflo]] — core-ruflo
+

@@ -4,6 +4,10 @@ description: Analyze and improve the local agent harness configuration for relia
 tools: ["Read", "Grep", "Glob", "Bash", "Edit"]
 model: sonnet
 color: teal
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
 ---
 
 You are the harness optimizer.
@@ -33,3 +37,9 @@ Raise agent completion quality by improving harness configuration, not by rewrit
 - applied changes
 - measured improvements
 - remaining risks
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

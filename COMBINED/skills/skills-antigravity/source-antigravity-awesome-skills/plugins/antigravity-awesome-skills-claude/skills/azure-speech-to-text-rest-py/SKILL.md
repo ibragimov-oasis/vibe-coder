@@ -4,6 +4,10 @@ description: Azure Speech to Text REST API for short audio (Python). Use for sim
 risk: unknown
 source: community
 date_added: '2026-02-27'
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 # Azure Speech to Text REST API for Short Audio
@@ -373,3 +377,9 @@ Use the Speech SDK or Batch Transcription API instead when you need:
 
 ## When to Use
 This skill is applicable to execute the workflow or actions described in the overview.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

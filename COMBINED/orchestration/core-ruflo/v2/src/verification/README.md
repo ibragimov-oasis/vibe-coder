@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # Security Enforcement System
 
 A comprehensive security framework for agent truth verification with enterprise-grade protection against Byzantine attacks, fraud, and unauthorized access.
@@ -293,3 +300,9 @@ This security system is part of Claude Flow and is licensed under the MIT Licens
 See the main LICENSE file for details.
 
 ⚠️ **Security Notice**: This system is designed for protection against various attacks but should be regularly updated and audited. No security system is 100% foolproof. Always follow security best practices and conduct regular security assessments.
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-ruflo]] — core-ruflo
+

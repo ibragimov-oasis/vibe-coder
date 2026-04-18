@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # hook post-command
 
 Execute post-command processing including output analysis and state updates.
@@ -114,3 +121,10 @@ Returns JSON with:
 - `Bash` - Command execution tool
 - `cache manage` - Cache operations
 - `metrics collect` - Performance data
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

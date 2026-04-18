@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # Add to Cart Template
 
 Tests adding items to cart and quantity updates.
@@ -110,3 +117,9 @@ test.describe('Add to Cart', () => {
 | Out of stock | Button disabled, label shown |
 | Quantity exceeds stock | Error alert |
 | Cart drawer | Slide-in cart opens showing added item |
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

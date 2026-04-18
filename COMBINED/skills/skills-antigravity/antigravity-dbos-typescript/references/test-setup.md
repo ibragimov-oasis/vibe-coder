@@ -3,6 +3,9 @@ title: Use Proper Test Setup for DBOS
 impact: LOW-MEDIUM
 impactDescription: Ensures consistent test results with proper DBOS lifecycle management
 tags: testing, jest, setup, integration, mock
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
 ---
 
 ## Use Proper Test Setup for DBOS
@@ -102,3 +105,9 @@ Key points:
 - Use `DBOS.shutdown({ deregister: true })` if re-registering functions
 
 Reference: [Testing & Mocking](https://docs.dbos.dev/typescript/tutorials/testing)
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

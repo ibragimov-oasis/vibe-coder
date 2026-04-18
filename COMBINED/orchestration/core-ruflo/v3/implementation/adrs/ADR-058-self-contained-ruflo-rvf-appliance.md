@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # ADR-058: Self-Contained Ruflo RVF Appliance — Linux Kernel + Claude Code + ruvLLM
 
 | Field | Value |
@@ -583,3 +590,10 @@ RVFA provides the best balance of portability, size, isolation, and integration 
 - [llama.cpp GGUF format](https://github.com/ggerganov/llama.cpp)
 - [Firecracker MicroVM](https://firecracker-microvm.github.io/)
 - [OCI Image Spec](https://github.com/opencontainers/image-spec)
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

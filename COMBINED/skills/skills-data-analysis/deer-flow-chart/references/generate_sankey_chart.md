@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-data-analysis
+---
+
 # generate_sankey_chart — 桑基图
 
 ## 功能概述
@@ -22,3 +29,9 @@
 
 ## 返回结果
 - 返回桑基图 URL，并在 `_meta.spec` 存放节点与流量定义。
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-data-analysis]] — Category: skills-data-analysis
+

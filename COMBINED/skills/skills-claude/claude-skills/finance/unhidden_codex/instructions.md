@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # Finance Skills — Codex CLI Instructions
 
 When working on financial analysis tasks, use the finance skill system:
@@ -26,3 +33,9 @@ python3 finance/financial-analyst/scripts/forecast_builder.py --help
 
 - Always validate financial outputs against source data
 - Use Python tools for calculations, not manual estimates
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

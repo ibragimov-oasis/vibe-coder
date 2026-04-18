@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # risk-management-specialist reference
 
 ## Risk Assessment Templates
@@ -75,3 +82,9 @@ Quality Assurance: _____________ Date: _______
 ```
 
 ---
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

@@ -1,6 +1,10 @@
 ---
 description: 'Instructions for writing Dart and Flutter code following the official recommendations.'
 applyTo: '**/*.dart'
+tags:
+  - domain/agents
+  - artifact/agent
+  - source/by-interface/agents-copilot
 ---
 
 # Dart and Flutter
@@ -445,3 +449,9 @@ It also makes it straightforward and low risk to add new logic and new UI.
 Fakes aren't concerned with the inner workings of any given method as much
 as they're concerned with inputs and outputs. If you have this in mind while writing application code,
 you're forced to write modular, lightweight functions and classes with well defined inputs and outputs.
+
+## 🔗 Связи
+
+- [[MOC - Agents]] — Agent catalog
+- [[agents/agents-copilot]] — Interface: agents-copilot
+

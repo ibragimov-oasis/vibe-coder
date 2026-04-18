@@ -3,6 +3,9 @@ title: Dynamic Imports for Heavy Components
 impact: CRITICAL
 impactDescription: directly affects TTI and LCP
 tags: bundle, dynamic-import, code-splitting, next-dynamic
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
 ---
 
 ## Dynamic Imports for Heavy Components
@@ -33,3 +36,9 @@ function CodePanel({ code }: { code: string }) {
   return <MonacoEditor value={code} />
 }
 ```
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

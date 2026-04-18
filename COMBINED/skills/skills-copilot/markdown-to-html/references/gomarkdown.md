@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-copilot
+---
+
 # gomarkdown/markdown Reference
 
 Go library for parsing Markdown and rendering HTML. Fast, extensible, and thread-safe.
@@ -251,3 +258,9 @@ html := markdown.ToHTML(normalized, nil, nil)
 - [GitHub Repository](https://github.com/gomarkdown/markdown)
 - [CLI Tool](https://github.com/gomarkdown/mdtohtml)
 - [Bluemonday Sanitizer](https://github.com/microcosm-cc/bluemonday)
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-copilot]] — Category: skills-copilot
+

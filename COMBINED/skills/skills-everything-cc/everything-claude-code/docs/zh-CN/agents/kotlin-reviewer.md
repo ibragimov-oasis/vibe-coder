@@ -3,6 +3,10 @@ name: kotlin-reviewer
 description: Kotlin 和 Android/KMP 代码审查员。审查 Kotlin 代码以检查惯用模式、协程安全性、Compose 最佳实践、违反清洁架构原则以及常见的 Android 陷阱。
 tools: ["Read", "Grep", "Glob", "Bash"]
 model: sonnet
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
 ---
 
 您是一位资深的 Kotlin 和 Android/KMP 代码审查员，确保代码符合语言习惯、安全且易于维护。
@@ -159,3 +163,9 @@ Button(onClick = onClick)
 
 * **批准**：没有**严重**或**高**级别问题
 * **阻止**：存在任何**严重**或**高**级别问题 —— 必须在合并前修复
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

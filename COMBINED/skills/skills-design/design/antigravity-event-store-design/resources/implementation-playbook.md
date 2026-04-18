@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/ui
+  - artifact/doc
+  - source/skills-design
+---
+
 # Event Store Design Playbook
 
 ## Schema and stream strategy
@@ -23,3 +30,9 @@
 - Index stream id + version.
 - Index global position.
 - Add snapshot policy for long-lived aggregates.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-design]] — Category: skills-design
+

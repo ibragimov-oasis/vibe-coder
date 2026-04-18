@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # Dependency Auditor
 
 A comprehensive toolkit for analyzing, auditing, and managing dependencies across multi-language software projects. This skill provides vulnerability scanning, license compliance checking, and upgrade path planning with zero external dependencies.
@@ -522,3 +529,9 @@ This skill is licensed under the MIT License. See the project license file for d
 ---
 
 **Note**: This tool provides automated analysis to assist with dependency management decisions. Always review recommendations and consult with security and legal teams for critical applications.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

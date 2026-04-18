@@ -1,6 +1,10 @@
 ---
 inclusion: auto
 description: Project-specific patterns, preferences, and lessons learned over time (user-editable)
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
 ---
 
 # Lessons Learned
@@ -82,3 +86,9 @@ The hooks table and Example 5 in README.md document the action type (`runCommand
 - Remove patterns that are no longer relevant
 - Update patterns as the project evolves
 - Focus on what's unique to this project
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

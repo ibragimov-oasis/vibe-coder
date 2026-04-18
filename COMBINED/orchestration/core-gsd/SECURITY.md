@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-gsd
+---
+
 # Security Policy
 
 ## Reporting a Vulnerability
@@ -31,3 +38,9 @@ Security issues in the GSD codebase that could:
 ## Recognition
 
 We appreciate responsible disclosure and will credit reporters in release notes (unless you prefer to remain anonymous).
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-gsd]] — core-gsd
+

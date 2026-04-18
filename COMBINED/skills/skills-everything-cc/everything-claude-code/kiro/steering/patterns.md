@@ -1,6 +1,10 @@
 ---
 inclusion: auto
 description: Common design patterns including repository pattern, API response format, and skeleton project approach
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
 ---
 
 # Common Patterns
@@ -34,3 +38,9 @@ Use a consistent envelope for all API responses:
 - Include the data payload (nullable on error)
 - Include an error message field (nullable on success)
 - Include metadata for paginated responses (total, page, limit)
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

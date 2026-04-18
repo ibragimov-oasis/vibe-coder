@@ -15,6 +15,10 @@ allowedTools:
   - "Agent"
   - "NotebookEdit"
   - "mcp__*"
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
 ---
 
 # Workflow Changelog — Commands Research Agent
@@ -84,3 +88,9 @@ Be specific. Include version numbers where possible.
 3. **Do NOT modify any files** — read-only research
 4. **Only check for additions and removals** — do not flag minor description wording changes, only significant drift
 5. **Note tag assignments** — for new commands, suggest an appropriate tag based on the existing tag categories (Auth, Config, Context, Debug, Export, Extensions, Memory, Model, Project, Remote, Session)
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

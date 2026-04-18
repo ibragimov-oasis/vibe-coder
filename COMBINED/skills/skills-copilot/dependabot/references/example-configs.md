@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-copilot
+---
+
 # Dependabot Configuration Examples
 
 Real-world `dependabot.yml` configurations for common scenarios.
@@ -407,3 +414,9 @@ updates:
 ```
 
 Note: Security updates always target the default branch regardless of `target-branch`.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-copilot]] — Category: skills-copilot
+

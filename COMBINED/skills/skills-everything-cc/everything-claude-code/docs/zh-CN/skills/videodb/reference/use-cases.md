@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
+---
+
 # 使用场景
 
 常见工作流及 VideoDB 所实现的功能。代码详情请参阅 [api-reference.md](api-reference.md)、[capture.md](capture.md)、[editor.md](editor.md) 和 [search.md](search.md)。
@@ -140,3 +147,9 @@
 | 监控直播流 | 连接 RTSP → 索引场景 → 创建警报 |
 | 为社交媒体调整格式 | 调整为目标宽高比 |
 | 合并剪辑 | 使用多个素材构建时间线 → 生成流 |
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

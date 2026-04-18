@@ -3,6 +3,10 @@ name: spec-to-code-compliance
 description: Verifies code implements exactly what documentation specifies for blockchain audits. Use when comparing code against whitepapers, finding gaps between specs and implementation, or performing compliance checks for protocol implementations.
 risk: unknown
 source: community
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 ## When to Use
@@ -356,3 +360,9 @@ Invoke directly: "Use the spec-compliance-checker agent to verify this codebase 
 ---
 
 # END OF SKILL
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

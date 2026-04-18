@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # Validation Report: Problem Solving Model
 
 **Generated**: 2025-10-15T02:52:00.000Z
@@ -298,3 +305,10 @@ The Problem Solving ReasoningBank model successfully achieves all design objecti
 **Validation Completed**: 2025-10-15T02:52:00.000Z
 **Validation Agent**: Problem Solving Training Agent
 **Next Review**: 2025-11-15 (30 days)
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # Code Review & Test Time Compute — Tips from Boris Cherny
 
 A summary of insights shared by Boris Cherny ([@bcherny](https://x.com/bcherny)), creator of Claude Code, on March 10, 2026.
@@ -38,3 +45,9 @@ Roughly, the more tokens you throw at a coding problem, the better the result. B
 ## Sources
 
 - [Boris Cherny (@bcherny) on X — March 10, 2026](https://x.com/bcherny)
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

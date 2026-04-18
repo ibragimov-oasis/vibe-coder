@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # Cryptography Implementation Guide
 
 Practical cryptographic patterns for securing data at rest, in transit, and in use.
@@ -773,3 +780,9 @@ def good_compare(a, b):
 | Password hashing | Argon2id | - | 64MB memory, 3 iterations |
 | Message authentication | HMAC-SHA256 | 256 bits | Use for API signing |
 | Key derivation | PBKDF2-SHA256 | - | 600,000+ iterations |
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

@@ -2,6 +2,10 @@
 description: "TypeScript patterns extending common rules"
 globs: ["**/*.ts", "**/*.tsx", "**/*.js", "**/*.jsx"]
 alwaysApply: false
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
 ---
 # TypeScript/JavaScript Patterns
 
@@ -48,3 +52,9 @@ interface Repository<T> {
   delete(id: string): Promise<void>
 }
 ```
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

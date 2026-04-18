@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/mcp
+  - artifact/mcp-server
+  - source/mcp-servers
+---
+
 # Changelog
 
 All notable changes to OpenViking will be documented in this file.
@@ -54,3 +61,9 @@ Bug fixes.
 
 ### Security
 Security-related changes.
+
+## 🔗 Связи
+
+- [[MOC - MCP Servers]] — mcp-servers
+- [[000 - Map of Maps]] — Map of Maps
+

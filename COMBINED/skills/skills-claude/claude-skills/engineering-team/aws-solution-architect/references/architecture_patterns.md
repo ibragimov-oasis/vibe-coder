@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # AWS Architecture Patterns for Startups
 
 Reference guide for selecting the right AWS architecture pattern based on application requirements.
@@ -533,3 +540,9 @@ RecordSetPrimary:
 | Three-Tier | Medium | Medium | Low |
 | Event-Driven | High | Medium | High |
 | Multi-Region | High | High | High |
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

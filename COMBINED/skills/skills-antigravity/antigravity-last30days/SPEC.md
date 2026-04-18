@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # last30days Skill Specification
 
 ## Overview
@@ -73,3 +80,9 @@ All outputs are written to `~/.local/share/last30days/out/`:
 - `raw_openai.json` - Raw OpenAI API response
 - `raw_xai.json` - Raw xAI API response
 - `raw_reddit_threads_enriched.json` - Enriched Reddit thread data
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

@@ -2,6 +2,10 @@
 title: "[BUG] MCP Pattern Store/Search/Stats Not Persisting Data"
 labels: bug, mcp, neural, high-priority
 assignees:
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
 ---
 
 ## Bug Description
@@ -237,3 +241,10 @@ After this fix:
 **Priority**: High
 **Type**: Bug Fix
 **Module**: MCP Server - Neural Patterns
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-ruflo]] — core-ruflo
+- [[MOC - Skills]] — Skills library
+

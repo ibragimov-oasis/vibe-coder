@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # Guia Completo de Setup - WhatsApp Business Cloud API
 
 > Do zero absoluto ate o envio da primeira mensagem em producao.
@@ -690,3 +697,9 @@ Se voce receber um JSON com `"messages": [{"id": "wamid.XXXX"}]`, seu setup esta
 ---
 
 > **Proximo passo**: Configure os webhooks para receber mensagens. Consulte o guia de webhooks na documentacao do projeto.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

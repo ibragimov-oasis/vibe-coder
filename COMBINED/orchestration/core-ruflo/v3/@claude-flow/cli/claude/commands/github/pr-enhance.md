@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # pr-enhance
 
 AI-powered pull request enhancements.
@@ -24,3 +31,10 @@ npx claude-flow github pr-enhance --pr-number 123 --add-tests
 # Full enhancement
 npx claude-flow github pr-enhance --pr-number 123 --add-tests --improve-docs
 ```
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

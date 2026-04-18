@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/combined-root
+---
+
 # ULTRACAR Project - Complete Status Report
 
 > **Project:** Vibe-Coder Arsenal - Ultra Repository Architecture & Consolidation
@@ -532,3 +539,8 @@ The Vibe-Coder Arsenal is on track to become the most comprehensive AI developme
 **Status:** ✅ **Phases 1-3 Complete** | 📋 **Phases 4-6 Fully Planned**
 
 🎉 **The foundation is solid. The path forward is clear. Let's build v1.0.0!** 🎉
+
+## 🔗 Связи
+
+- [[000 - Map of Maps]] — Map of Maps
+

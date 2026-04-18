@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/mcp
+  - artifact/mcp-server
+  - source/mcp-servers
+---
+
 # 数据加密
 
 OpenViking 提供透明的静态数据加密，确保多租户环境下的数据安全与隔离。
@@ -218,3 +225,9 @@ ov crypto init-key --output ~/.openviking/master.key
 - [存储架构](./05-storage.md) - VikingFS 和 AGFS 架构
 - [配置指南](../guides/01-configuration.md) - 加密配置详解
 - [技术设计](../../design/multi-tenant-file-encryption-desigin.md) - 加密技术设计文档
+
+## 🔗 Связи
+
+- [[MOC - MCP Servers]] — mcp-servers
+- [[000 - Map of Maps]] — Map of Maps
+

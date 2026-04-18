@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-taskmaster
+---
+
 # Example Cursor AI Interactions
 
 Here are some common interactions with Cursor AI when using Task Master:
@@ -256,3 +263,10 @@ I need to work on both authentication and payment features simultaneously. How s
 1. `task-master add-tag auth --description="Authentication feature tasks"`
 2. `task-master add-tag payments --description="Payment system tasks"`
 3. `task-master use-tag auth` to start with authentication work)
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-taskmaster]] — core-taskmaster
+- [[MOC - Skills]] — Skills library
+

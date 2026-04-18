@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # Design Token Generation Guide
 
 Reference for color palette algorithms, typography scales, and WCAG accessibility checking.
@@ -322,3 +329,9 @@ python scripts/design_token_generator.py "#FF6B6B" playful summary
 ---
 
 *See also: `component-architecture.md` for component design patterns*
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

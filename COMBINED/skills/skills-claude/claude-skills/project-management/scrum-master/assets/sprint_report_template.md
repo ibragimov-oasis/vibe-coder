@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # Sprint [NUMBER] - [SPRINT_NAME] Report
 **Team:** [TEAM_NAME]  
 **Scrum Master:** [SCRUM_MASTER_NAME]  
@@ -212,3 +219,9 @@ Trend: [IMPROVING/STABLE/DECLINING] ([TREND_PERCENTAGE]% change)
 
 ---
 *This report is generated using standardized sprint health metrics and retrospective analysis. For questions or deeper analysis, please contact the Scrum Master.*
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

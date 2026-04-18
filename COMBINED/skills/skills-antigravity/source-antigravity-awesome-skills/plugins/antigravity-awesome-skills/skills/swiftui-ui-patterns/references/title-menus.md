@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # Title menus
 
 ## Intent
@@ -91,3 +98,9 @@ ToolbarItem(placement: .principal) {
 
 - Don’t overload the menu with too many options.
 - Avoid using title menus for destructive actions.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/agent
+  - source/by-interface/agents-copilot
+---
+
 # OpenAPI to Application - C# .NET Plugin
 
 Generate production-ready .NET applications from OpenAPI specifications. Includes ASP.NET Core project scaffolding, controller generation, entity framework integration, and C# best practices.
@@ -30,3 +37,9 @@ This plugin is part of [Awesome Copilot](https://github.com/github/awesome-copil
 ## License
 
 MIT
+
+## 🔗 Связи
+
+- [[MOC - Agents]] — Agent catalog
+- [[agents/agents-copilot]] — Interface: agents-copilot
+

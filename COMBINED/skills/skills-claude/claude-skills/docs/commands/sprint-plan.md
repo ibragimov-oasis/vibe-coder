@@ -1,6 +1,10 @@
 ---
 title: "/sprint-plan — Slash Command for AI Coding Agents"
 description: "Sprint planning shortcut. Usage: /sprint-plan <goal> [capacity]. Slash command for Claude Code, Codex CLI, Gemini CLI."
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
 ---
 
 # /sprint-plan
@@ -29,3 +33,9 @@ Create a sprint plan with prioritized stories and capacity guardrails.
 
 ## Skill Reference
 - `product-team/agile-product-owner/SKILL.md`
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

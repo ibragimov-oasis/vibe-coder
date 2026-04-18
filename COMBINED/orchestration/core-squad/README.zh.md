@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-squad
+---
+
 # Squad (AI 开发小队)
 
 [English](README.md) | [中文](README.zh.md)
@@ -325,3 +332,9 @@ SDK 提供对智能体编排的编程控制 —— 自定义工具、钩子流�
 - [示例](samples/README.md) —— 八个从入门到进阶的可运行示例
 
 SDK 安装：`npm install @bradygaster/squad-sdk`
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-squad]] — core-squad
+

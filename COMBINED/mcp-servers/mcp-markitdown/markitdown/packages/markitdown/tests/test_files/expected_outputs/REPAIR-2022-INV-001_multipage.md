@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/mcp
+  - artifact/mcp-server
+  - source/mcp-servers
+---
+
 ZAVA AUTO REPAIR
 Certified Collision Repair
 123 Main Street, Redmond, WA 98052
@@ -74,3 +81,9 @@ present, but can not be determined until an alignment on the vehicle has been do
 models and vehicle maker price updates. Please be advised if vehicle owner elects to have vehicle sent to service for
 any mechanical concerns, ALL service departments charge a vehicle diagnostic charge. If the mechanical concern is
 deemed not related to an insurance claim, vehicle owner will be reponsible for charges.
+
+## 🔗 Связи
+
+- [[MOC - MCP Servers]] — mcp-servers
+- [[000 - Map of Maps]] — Map of Maps
+

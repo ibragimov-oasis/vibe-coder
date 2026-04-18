@@ -1,6 +1,10 @@
 ---
 applyTo: '*'
 description: 'Foundational instructions covering core DevOps principles, culture (CALMS), and key metrics (DORA) to guide GitHub Copilot in understanding and promoting effective software delivery.'
+tags:
+  - domain/agents
+  - artifact/agent
+  - source/by-interface/agents-copilot
 ---
 
 # DevOps Core Principles
@@ -164,4 +168,10 @@ DevOps is not just about tools or automation; it's fundamentally about culture a
 
 ---
 
-<!-- End of DevOps Core Principles Instructions --> 
+<!-- End of DevOps Core Principles Instructions -->
+
+## 🔗 Связи
+
+- [[MOC - Agents]] — Agent catalog
+- [[agents/agents-copilot]] — Interface: agents-copilot
+

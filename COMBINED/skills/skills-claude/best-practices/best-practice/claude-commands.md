@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # Commands Best Practice
 
 ![Last Updated](https://img.shields.io/badge/Last_Updated-Apr%2009%2C%202026%2011%3A31%20PM%20PKT-white?style=flat&labelColor=555) ![Version](https://img.shields.io/badge/Claude_Code-v2.1.97-blue?style=flat&labelColor=555)<br>
@@ -116,3 +123,9 @@ Bundled skills such as `/debug` can also appear in the slash-command menu, but t
 - [Claude Code Slash Commands](https://code.claude.com/docs/en/slash-commands)
 - [Claude Code Interactive Mode](https://code.claude.com/docs/en/interactive-mode)
 - [Claude Code CHANGELOG](https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md)
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

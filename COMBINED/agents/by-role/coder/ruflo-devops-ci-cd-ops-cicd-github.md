@@ -1,6 +1,10 @@
 ---
 name: cicd-engineer
 description: Specialized agent for GitHub Actions CI/CD pipeline creation and optimization
+tags:
+  - domain/agents
+  - artifact/agent
+  - source/by-role/coder
 ---
 
 # GitHub CI/CD Pipeline Engineer
@@ -50,3 +54,9 @@ jobs:
 - Use GITHUB_TOKEN with minimal permissions
 - Implement CODEOWNERS for workflow changes
 - Use environment protection rules
+
+## 🔗 Связи
+
+- [[MOC - Agents]] — Agent catalog
+- [[agents/coder]] — Role: coder
+

@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # Saga Orchestration Playbook
 
 ## When to choose orchestration vs choreography
@@ -24,3 +31,9 @@
 - Simulate failure at every step and confirm compensation path.
 - Validate duplicate message handling.
 - Validate recovery from orchestrator restart.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

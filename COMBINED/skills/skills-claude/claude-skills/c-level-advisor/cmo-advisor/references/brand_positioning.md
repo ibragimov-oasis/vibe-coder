@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # Brand Positioning Reference
 
 Practical frameworks for defining, communicating, and defending your market position. Not theory — applied tools for CMOs who need to get this right.
@@ -372,3 +379,9 @@ Use this as an audit against your current positioning:
 | Do win/loss interviews confirm the stated differentiator? | ✓ | Differentiator is assumed, not proven |
 | Is the category name used by analysts or industry media? | ✓ | Category design needed |
 | Does every piece of content trace back to a VP from the hierarchy? | ✓ | Messaging drift — need guidelines |
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

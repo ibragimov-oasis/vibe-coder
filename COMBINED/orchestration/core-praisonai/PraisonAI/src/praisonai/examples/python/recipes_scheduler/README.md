@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-praisonai
+---
+
 # Recipe Scheduler Example
 
 This example demonstrates how to schedule recipes and agents to run periodically.
@@ -114,3 +121,9 @@ praisonai schedule save news-checker --output news-checker.yaml
 | `max_retries` | 3 | Retry attempts |
 | `timeout` | 300 | Timeout per execution |
 | `max_cost` | 1.00 | Budget limit (USD) |
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-praisonai]] — core-praisonai
+

@@ -3,7 +3,10 @@ title: "cloud-logging-admin-list-log-names"
 type: docs
 description: >
   A "cloud-logging-admin-list-log-names" tool lists the log names in the project.
-
+tags:
+  - domain/mcp
+  - artifact/mcp-server
+  - source/mcp-servers
 ---
 
 ## About
@@ -37,3 +40,9 @@ description: Lists all log names in the project.
 | **parameter** | **type** | **required** | **description** |
 |:--------------|:--------:|:------------:|:----------------|
 | limit | integer | false | Maximum number of log entries to return (default: 200). |
+
+## 🔗 Связи
+
+- [[MOC - MCP Servers]] — mcp-servers
+- [[000 - Map of Maps]] — Map of Maps
+

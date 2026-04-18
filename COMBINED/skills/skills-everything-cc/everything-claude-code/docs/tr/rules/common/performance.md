@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
+---
+
 # Performans Optimizasyonu
 
 ## Model Seçim Stratejisi
@@ -53,3 +60,9 @@ Build başarısız olursa:
 2. Hata mesajlarını analiz et
 3. Aşamalı olarak düzelt
 4. Her düzeltmeden sonra doğrula
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

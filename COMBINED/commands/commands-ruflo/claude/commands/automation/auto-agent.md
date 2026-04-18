@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/command
+  - source/commands
+---
+
 # auto agent
 
 Automatically spawn and manage agents based on task requirements.
@@ -120,3 +127,9 @@ mcp__claude-flow__auto_agent {
 - `swarm init` - Initialize swarm manually
 - `smart spawn` - Intelligent agent spawning
 - `workflow select` - Choose predefined workflows
+
+## 🔗 Связи
+
+- [[MOC - System]] — commands
+- [[000 - Map of Maps]] — Map of Maps
+

@@ -48,3 +48,9 @@ source: "../new_repos/obsidian-copilot/docs/models-and-parameters.md"
 
 - [[obsidian-copilot/copilot-plus-and-self-host]] — расширенные опции
 - [[combined/MCP Servers Overview]] — модели в ULTRACAR
+
+## 🔗 Связи
+
+- [[MOC - System]] — Parent MOC
+- [[000 - Map of Maps]] — Map of Maps
+

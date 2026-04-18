@@ -2,6 +2,10 @@
 name: form-cro
 version: 1.0.0
 description: When the user wants to optimize any form that is NOT signup/registration — including lead capture forms, contact forms, demo request forms, application forms, survey forms, or checkout forms. Also use when the user mentions "form optimization," "lead form conversions," "form friction," "form fields," "form completion rate," or "contact form." For signup/registration forms, see signup-flow-cro. For popups containing forms, see popup-cro.
+tags:
+  - domain/seo
+  - artifact/skill
+  - source/skills-seo
 ---
 
 # Form CRO
@@ -426,3 +430,9 @@ Ideas to A/B test with expected outcomes
 - **popup-cro**: For forms inside popups/modals
 - **page-cro**: For the page containing the form
 - **ab-test-setup**: For testing form changes
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-seo]] — Category: skills-seo
+

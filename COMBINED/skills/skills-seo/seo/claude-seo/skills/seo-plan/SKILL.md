@@ -13,6 +13,10 @@ metadata:
   author: AgriciDaniel
   version: "1.7.0"
   category: seo
+tags:
+  - domain/seo
+  - artifact/skill
+  - source/skills-seo
 ---
 
 # Strategic SEO Planning
@@ -124,3 +128,9 @@ If DataForSEO MCP tools are available, use `dataforseo_labs_google_competitors_d
 | Unrecognized business type | Fall back to `generic.md` template. Inform user that no industry-specific template was found and proceed with the general business template. |
 | No website URL provided | Proceed with new-site planning mode. Skip current site assessment and competitive gap analysis that require a live URL. |
 | Industry template not found | Check `assets/` directory for available templates. If the requested template file is missing, use `generic.md` and note the missing template in output. |
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-seo]] — Category: skills-seo
+

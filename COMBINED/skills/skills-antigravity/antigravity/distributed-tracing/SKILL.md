@@ -4,6 +4,10 @@ description: "Implement distributed tracing with Jaeger and Tempo for request fl
 risk: critical
 source: community
 date_added: "2026-02-27"
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 # Distributed Tracing
@@ -451,3 +455,9 @@ def process_request():
 - `prometheus-configuration` - For metrics
 - `grafana-dashboards` - For visualization
 - `slo-implementation` - For latency SLOs
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

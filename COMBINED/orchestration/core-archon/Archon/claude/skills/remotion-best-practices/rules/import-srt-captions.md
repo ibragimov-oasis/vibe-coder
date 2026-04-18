@@ -3,6 +3,9 @@ name: import-srt-captions
 description: Importing .srt subtitle files into Remotion using @remotion/captions
 metadata:
   tags: captions, subtitles, srt, import, parse
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-archon
 ---
 
 # Importing .srt subtitles into Remotion
@@ -67,3 +70,10 @@ Remote URLs are also supported - you can `fetch()` a remote file via URL instead
 ## Using imported captions
 
 Once parsed, the captions are in the `Caption` format and can be used with all `@remotion/captions` utilities.
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/archon]] — Archon
+- [[000 - Map of Maps]] — Map of Maps
+

@@ -3,6 +3,10 @@ name: Benchmark Suite
 type: agent
 category: optimization
 description: Comprehensive performance benchmarking, regression detection and performance validation
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
 ---
 
 # Benchmark Suite Agent
@@ -663,3 +667,10 @@ const standardBenchmarks = {
 ```
 
 This Benchmark Suite agent provides comprehensive automated performance testing, regression detection, and validation capabilities to ensure optimal swarm performance and prevent performance degradation.
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

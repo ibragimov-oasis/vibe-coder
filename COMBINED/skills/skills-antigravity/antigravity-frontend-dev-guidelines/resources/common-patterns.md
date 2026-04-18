@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # Common Patterns
 
 Frequently used patterns for forms, authentication, DataGrid, dialogs, and other common UI elements.
@@ -329,3 +336,9 @@ export const useAppState = create<AppState>((set) => ({
 - [data-fetching.md](data-fetching.md) - TanStack Query patterns
 - [component-patterns.md](component-patterns.md) - Component structure
 - [loading-and-error-states.md](loading-and-error-states.md) - Error handling
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

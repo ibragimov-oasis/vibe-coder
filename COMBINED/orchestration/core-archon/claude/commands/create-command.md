@@ -1,6 +1,10 @@
 ---
 description: Meta command creator - generates slash commands following established patterns
 argument-hint: <command-name> <purpose description>
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-archon
 ---
 
 <objective>
@@ -302,3 +306,10 @@ allowed-tools: {If tool restrictions needed}
 **CAPABILITY_AWARE**: Only asks for things Claude Code can do
 **RIGHT_SIZED**: Complexity matches the task (simple tasks = simple commands)
 </success_criteria>
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-archon]] — core-archon
+- [[MOC - Skills]] — Skills library
+

@@ -6,6 +6,10 @@ area: adapters
 audience: [operator]
 sidebar:
   order: 6
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-archon
 ---
 
 :::note
@@ -125,3 +129,10 @@ Add a webhook with the same secret to each repository you want the bot to monito
 
 - [Configuration](/reference/configuration/) -- Full environment variable reference
 - [Security](/reference/security/) -- Webhook verification and authorization details
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/archon]] — Archon
+- [[000 - Map of Maps]] — Map of Maps
+

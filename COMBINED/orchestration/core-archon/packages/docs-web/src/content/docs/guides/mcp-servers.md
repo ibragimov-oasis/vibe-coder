@@ -7,6 +7,10 @@ audience: [user]
 status: current
 sidebar:
   order: 6
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-archon
 ---
 
 DAG workflow nodes support a `mcp` field that attaches MCP (Model Context Protocol)
@@ -393,3 +397,10 @@ Popular MCP servers for common integrations:
 - **Brave Search**: `@modelcontextprotocol/server-brave-search`
 
 Browse the full directory at [modelcontextprotocol.io/servers](https://modelcontextprotocol.io/servers).
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/archon]] — Archon
+- [[000 - Map of Maps]] — Map of Maps
+

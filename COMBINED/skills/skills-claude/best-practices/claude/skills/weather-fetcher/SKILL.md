@@ -2,6 +2,10 @@
 name: weather-fetcher
 description: Instructions for fetching current weather temperature data for Dubai, UAE from Open-Meteo API
 user-invocable: false
+tags:
+  - domain/agents
+  - artifact/skill
+  - source/skills-claude
 ---
 
 # Weather Fetcher Skill
@@ -43,3 +47,10 @@ Unit: [Celsius/Fahrenheit]
 - Dubai coordinates: latitude 25.2048, longitude 55.2708
 - Return the numeric temperature value and unit clearly
 - Support both Celsius and Fahrenheit based on the caller's request
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+- [[MOC - Agents]] — Claude agents
+

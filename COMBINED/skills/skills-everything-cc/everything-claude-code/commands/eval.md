@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
+---
+
 # Eval Command
 
 Manage eval-driven development workflow.
@@ -118,3 +125,9 @@ $ARGUMENTS:
 - `report <name>` - Generate full report
 - `list` - Show all evals
 - `clean` - Remove old eval logs (keeps last 10 runs)
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

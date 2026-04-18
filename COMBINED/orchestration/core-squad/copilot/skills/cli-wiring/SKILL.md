@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-squad
+---
+
 # Skill: CLI Command Wiring
 
 **Bug class:** Commands implemented in `packages/squad-cli/src/cli/commands/` but never routed in `cli-entry.ts`.
@@ -45,3 +52,10 @@ Use dynamic `await import()` for command modules to keep startup fast (lazy load
 ## History
 
 - **#237 / PR #244:** 4 commands wired (rc, copilot-bridge, init-remote, rc-tunnel). aspire, link, loop, hire were already present.
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/squad]] — Squad
+- [[000 - Map of Maps]] — Map of Maps
+

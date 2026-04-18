@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # Claude Code Configuration - SPARC Development Environment (Batchtools Optimized)
 
 ## 🚨 CRITICAL: CONCURRENT EXECUTION FOR ALL ACTIONS

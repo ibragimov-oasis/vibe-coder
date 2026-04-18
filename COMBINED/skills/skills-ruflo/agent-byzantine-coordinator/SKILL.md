@@ -1,6 +1,10 @@
 ---
 name: agent-byzantine-coordinator
 description: Agent skill for byzantine-coordinator - invoke with $agent-byzantine-coordinator
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-ruflo
 ---
 
 ---
@@ -66,3 +70,9 @@ Coordinates Byzantine fault-tolerant consensus protocols ensuring system integri
 - Interface with Quorum Manager for fault tolerance adjustments
 - Integrate with Performance Benchmarker for optimization metrics
 - Synchronize with CRDT Synchronizer for state consistency
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-ruflo]] — Category: skills-ruflo
+

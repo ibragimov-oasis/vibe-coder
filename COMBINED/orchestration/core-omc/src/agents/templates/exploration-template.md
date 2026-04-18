@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-omc
+---
+
 # Exploration Task Template
 
 Use this template when delegating exploration, research, or search tasks.
@@ -105,3 +112,10 @@ const prompt = createDelegationPrompt('LOW', 'Find all usages of deprecated API'
   ]
 });
 ```
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/omc]] — OMC
+- [[000 - Map of Maps]] — Map of Maps
+

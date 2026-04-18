@@ -2,6 +2,10 @@
 name: e2e-testing
 description: Playwright E2E test kalıpları, Page Object Model, yapılandırma, CI/CD entegrasyonu, artifact yönetimi ve kararsız test stratejileri.
 origin: ECC
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-everything-cc
 ---
 
 # E2E Test Kalıpları
@@ -324,3 +328,9 @@ test('trade execution', async ({ page }) => {
   await expect(page.locator('[data-testid="trade-success"]')).toBeVisible()
 })
 ```
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

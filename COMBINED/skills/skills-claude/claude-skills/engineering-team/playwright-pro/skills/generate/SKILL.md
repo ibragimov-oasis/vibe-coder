@@ -4,6 +4,10 @@ description: >-
   Generate Playwright tests. Use when user says "write tests", "generate tests",
   "add tests for", "test this component", "e2e test", "create test for",
   "test this page", or "test this feature".
+tags:
+  - domain/agents
+  - artifact/skill
+  - source/skills-claude
 ---
 
 # Generate Playwright Tests
@@ -142,3 +146,10 @@ If it fails:
 - Any supporting files created (page objects, fixtures, data)
 - Test run result
 - Coverage note: what behaviors are now tested
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+- [[MOC - Agents]] — Claude agents
+

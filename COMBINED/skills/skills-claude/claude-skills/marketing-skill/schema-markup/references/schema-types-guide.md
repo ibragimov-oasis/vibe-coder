@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # Schema Types Guide
 
 A practitioner's reference for schema.org types — what they do, what fields matter, and what Google actually uses for rich results.
@@ -283,3 +290,9 @@ Quick-reference: what actually earns a rich result vs what's just entity data.
 | VideoObject | ✅ | Video carousel, key moments |
 | Organization | ⚠️ | Knowledge panel (not guaranteed) |
 | WebSite | ⚠️ | Sitelinks search box (not guaranteed) |
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

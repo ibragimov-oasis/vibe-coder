@@ -1,5 +1,9 @@
 ---
 tagline: "Fix layout, spacing, and visual rhythm."
+tags:
+  - domain/ui
+  - artifact/ui-component
+  - source/ui-design
 ---
 
 ## When to use it
@@ -39,3 +43,9 @@ Typical changes:
 - **Confusing arrange with distill.** If the problem is too many things, run `/distill` first. Arrange is for arranging what is already the right set.
 - **Expecting it to rescue a broken grid.** If the page has no grid at all, arrange will build one. Just know that the diff is going to be larger than you expect.
 - **Ignoring the hierarchy verdict.** If arrange says "nothing is primary", no amount of spacing work fixes that. You need a content decision, not a layout tweak.
+
+## 🔗 Связи
+
+- [[MOC - UI Design]] — ui-design
+- [[000 - Map of Maps]] — Map of Maps
+

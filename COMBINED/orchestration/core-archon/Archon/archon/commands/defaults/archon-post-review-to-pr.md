@@ -1,6 +1,10 @@
 ---
 description: Post code review findings as a comment on the PR
 argument-hint: (none - reads from artifacts)
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-archon
 ---
 
 # Post Review to PR
@@ -186,3 +190,10 @@ Review comment has been posted to the pull request.
 - **FINDINGS_LOADED**: Review artifact read successfully
 - **COMMENT_FORMATTED**: PR comment built with all findings
 - **COMMENT_POSTED**: Comment visible on the PR
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/archon]] — Archon
+- [[000 - Map of Maps]] — Map of Maps
+

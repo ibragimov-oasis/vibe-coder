@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # 🏗️ Claude-Flow Architecture Documentation
 
 ## Table of Contents
@@ -1688,3 +1695,10 @@ This sophisticated architecture positions Claude-Flow as the next-generation pla
 [Back to README](../README.md) | [API Documentation](API_DOCUMENTATION.md)
 
 </div>
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

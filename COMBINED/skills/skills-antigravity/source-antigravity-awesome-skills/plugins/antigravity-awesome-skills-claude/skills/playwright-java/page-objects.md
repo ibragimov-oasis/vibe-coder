@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # Playwright Java – Page Object Patterns
 
 ## Component Pattern (Reusable Sub-Page-Objects)
@@ -222,3 +229,9 @@ Assertions.assertDoesNotThrow(() -> {
     page.waitForCondition(() -> page.locator(".spinner").count() == 0);
 });
 ```
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

@@ -4,6 +4,10 @@ type: docs
 weight: 1
 description: >
   The "postgres-replication-stats" tool reports replication-related metrics for WAL streaming replicas, including lag sizes presented in human-readable form.
+tags:
+  - domain/mcp
+  - artifact/mcp-server
+  - source/mcp-servers
 ---
 
 ## About
@@ -61,3 +65,9 @@ Example response element:
 | flush_lag         | string  | true     | Human-readable flush lag between write_lsn and flush_lsn. |
 | replay_lag        | string  | true     | Human-readable replay lag between flush_lsn and replay_lsn. |
 | total_lag         | string  | true     | Human-readable total lag between current WAL LSN and replay_lsn. |
+
+## 🔗 Связи
+
+- [[MOC - MCP Servers]] — mcp-servers
+- [[000 - Map of Maps]] — Map of Maps
+

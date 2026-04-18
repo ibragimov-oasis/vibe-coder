@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-gsd
+---
+
 # Project Retrospective
 
 *A living document updated after each milestone. Lessons feed forward into future planning.*
@@ -52,3 +59,10 @@
 
 1. {Lesson verified by multiple milestones}
 2. {Another cross-validated lesson}
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-gsd]] — core-gsd
+- [[MOC - Skills]] — Skills library
+

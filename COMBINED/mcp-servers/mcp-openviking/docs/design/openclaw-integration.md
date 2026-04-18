@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/mcp
+  - artifact/mcp-server
+  - source/mcp-servers
+---
+
 # OpenClaw Context Engine Integration Design / OpenClaw 上下文引擎集成方案设计
 
 ## Context / 背景
@@ -393,3 +400,9 @@ Why / 为什么：
 **备选方案：如果 CLI 无法足够简化，选择方案 2（工具定义）**
 
 ---
+
+## 🔗 Связи
+
+- [[MOC - MCP Servers]] — mcp-servers
+- [[000 - Map of Maps]] — Map of Maps
+

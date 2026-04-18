@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # topology-optimize
 
 Optimize swarm topology for current workload.
@@ -23,3 +30,10 @@ npx claude-flow optimization topology-optimize --target speed
 # Apply changes
 npx claude-flow optimization topology-optimize --target efficiency --apply
 ```
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

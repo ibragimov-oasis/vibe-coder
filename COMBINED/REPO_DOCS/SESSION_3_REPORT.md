@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/REPO_DOCS
+---
+
 # ULTRACAR Documentation Session 3 Report — FINAL
 
 ## Session Metadata
@@ -130,3 +137,9 @@
 - ✅ Status checklist
 
 **Session 3 Report Complete**
+
+## 🔗 Связи
+
+- [[000 - Map of Maps]] — REPO_DOCS
+- [[000 - Map of Maps]] — Map of Maps
+

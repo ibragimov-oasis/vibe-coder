@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
+---
+
 # 工具链审计命令
 
 运行确定性仓库框架审计并返回优先级评分卡。
@@ -70,3 +77,9 @@ $ARGUMENTS:
 
 * `repo|hooks|skills|commands|agents` (可选范围)
 * `--format text|json` (可选输出格式)
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

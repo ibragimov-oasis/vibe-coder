@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # MCP Spec 2025 Implementation Plan for Claude Flow
 
 **Timeline**: RC November 14, 2025 → Final November 25, 2025
@@ -1328,3 +1335,10 @@ npm run jobs:monitor
 5. **Nov 25**: Production rollout
 
 Would you like me to start implementing any specific phase?
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-ruflo]] — core-ruflo
+- [[MOC - Skills]] — Skills library
+

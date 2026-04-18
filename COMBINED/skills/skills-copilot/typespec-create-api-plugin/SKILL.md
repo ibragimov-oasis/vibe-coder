@@ -1,6 +1,10 @@
 ---
 name: typespec-create-api-plugin
 description: 'Generate a TypeSpec API plugin with REST operations, authentication, and Adaptive Cards for Microsoft 365 Copilot'
+tags:
+  - domain/agents
+  - artifact/skill
+  - source/skills-copilot
 ---
 
 # Create TypeSpec API Plugin
@@ -162,3 +166,10 @@ Then generate:
 - Complete `main.tsp` with agent definition
 - Complete `actions.tsp` with API operations and models
 - Optional `cards/card.json` if Adaptive Cards are needed
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-copilot]] — Category: skills-copilot
+- [[MOC - Agents]] — Copilot agents
+

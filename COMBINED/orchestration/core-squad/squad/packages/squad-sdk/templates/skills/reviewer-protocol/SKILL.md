@@ -4,6 +4,10 @@ description: "Reviewer rejection workflow and strict lockout semantics"
 domain: "orchestration"
 confidence: "high"
 source: "extracted"
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-squad
 ---
 
 ## Context
@@ -77,3 +81,10 @@ When an artifact is **rejected** by a Reviewer:
 - ❌ Accepting the Reviewer's assignment when they name the original author (must refuse and ask for a different agent)
 - ❌ Clearing lockout before the revision is approved (lockout persists through revision cycle)
 - ❌ Skipping verification that the revision agent is not the original author
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/squad]] — Squad
+- [[000 - Map of Maps]] — Map of Maps
+

@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/root
+---
+
 <!-- Last updated: 2026-04-11 -->
 # 🏎️ MASTER PLAN — Vibe-Coder ULTRACAR
 
@@ -506,3 +513,8 @@ COMBINED/
 ---
 
 *Последнее обновление: 2026-04-11*
+
+## 🔗 Связи
+
+- [[000 - Map of Maps]] — Map of Maps
+

@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-hermes
+---
+
 # Hermes Agent — Docker
 
 Want to run Hermes Agent, but without installing packages on your host? This'll sort you out.
@@ -54,3 +61,10 @@ docker run -d \
   -v ~/.hermes:/opt/data \
   nousresearch/hermes-agent
 ```
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/hermes]] — Hermes
+- [[000 - Map of Maps]] — Map of Maps
+

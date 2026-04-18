@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-refly
+---
+
 #### nano_banana.py
 
 Usage example:
@@ -30,3 +37,10 @@ class NanoBanana(ToolsetBase):
         """
         pass
 ```
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/refly]] — Refly
+- [[000 - Map of Maps]] — Map of Maps
+

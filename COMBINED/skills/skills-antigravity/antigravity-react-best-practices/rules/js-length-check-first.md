@@ -3,6 +3,9 @@ title: Early Length Check for Array Comparisons
 impact: MEDIUM-HIGH
 impactDescription: avoids expensive operations when lengths differ
 tags: javascript, arrays, performance, optimization, comparison
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
 ---
 
 ## Early Length Check for Array Comparisons
@@ -47,3 +50,9 @@ This new approach is more efficient because:
 - It avoids consuming memory for the joined strings (especially important for large arrays)
 - It avoids mutating the original arrays
 - It returns early when a difference is found
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

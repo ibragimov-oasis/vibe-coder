@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-taskmaster
+---
+
 Convert an existing task into a subtask.
 
 Arguments: $ARGUMENTS
@@ -69,3 +76,10 @@ After:  #5.1 "Implement validation" (subtask of #5)
 - List updated dependencies
 - Verify project integrity
 - Suggest related conversions
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/task-master]] — Task-Master
+- [[000 - Map of Maps]] — Map of Maps
+

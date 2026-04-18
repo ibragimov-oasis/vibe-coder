@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-copilot
+---
+
 # Oracle to PostgreSQL: TO_CHAR() Numeric Conversions
 
 ## Contents
@@ -143,3 +150,9 @@ Npgsql.PostgresException: 42883: function to_char(bigint) does not exist
 
 - [oracle-to-postgres-type-coercion.md](oracle-to-postgres-type-coercion.md) - Related type conversion issues
 - PostgreSQL Documentation: [Data Type Formatting Functions](https://www.postgresql.org/docs/current/functions-formatting.html)
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-copilot]] — Category: skills-copilot
+

@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-archon
+---
+
 # Changelog
 
 All notable changes to this project will be documented in this file.
@@ -685,3 +692,9 @@ Initial release of the Remote Agentic Coding Platform.
 
 - Use commit SHA for reproducible PR reviews (#52, #75)
 - Add retry logic to GitHub API calls for transient network failures (#64)
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-archon]] — core-archon
+

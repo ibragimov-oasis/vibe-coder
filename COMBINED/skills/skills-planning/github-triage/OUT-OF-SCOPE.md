@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-planning
+---
+
 # Out-of-Scope Knowledge Base
 
 The `.out-of-scope/` directory in a repo stores persistent records of rejected feature requests. It serves two purposes:
@@ -99,3 +106,9 @@ If the maintainer changes their mind about a previously rejected concept:
 - Delete the `.out-of-scope/` file
 - The skill does not need to reopen old issues — they're historical records
 - The new issue that triggered the reconsideration proceeds through normal triage
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-planning]] — Category: skills-planning
+

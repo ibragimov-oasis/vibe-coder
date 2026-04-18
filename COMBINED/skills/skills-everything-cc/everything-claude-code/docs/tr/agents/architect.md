@@ -3,6 +3,10 @@ name: architect
 description: Sistem tasarımı, ölçeklenebilirlik ve teknik karar alma için yazılım mimarisi specialisti. Yeni özellikler planlarken, büyük sistemleri yeniden yapılandırırken veya mimari kararlar alırken PROAKTİF olarak kullanın.
 tools: ["Read", "Grep", "Glob"]
 model: opus
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
 ---
 
 Ölçeklenebilir, sürdürülebilir sistem tasarımında uzmanlaşmış kıdemli bir yazılım mimarısınız.
@@ -209,3 +213,9 @@ AI destekli bir SaaS platformu için örnek mimari:
 - **10M kullanıcı**: Event-driven mimari, dağıtık önbellekleme, çoklu bölge
 
 **Unutmayın**: İyi mimari hızlı geliştirmeyi, kolay bakımı ve kendinden emin ölçeklemeyi sağlar. En iyi mimari basit, net ve yerleşik kalıpları takip edendir.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

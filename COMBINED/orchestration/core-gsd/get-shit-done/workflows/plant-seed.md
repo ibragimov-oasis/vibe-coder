@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-gsd
+---
+
 <purpose>
 Capture a forward-looking idea as a structured seed file with trigger conditions.
 Seeds auto-surface during /gsd:new-milestone when trigger conditions match the
@@ -167,3 +174,10 @@ and the milestone scope matches the trigger condition.
 - [ ] Committed to git
 - [ ] User shown confirmation with trigger info
 </success_criteria>
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-gsd]] — core-gsd
+- [[MOC - Skills]] — Skills library
+

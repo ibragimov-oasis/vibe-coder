@@ -1,6 +1,10 @@
 ---
 title: "GCP Cloud Architect — Agent Skill & Codex Plugin"
 description: "Design GCP architectures for startups and enterprises. Use when asked to design Google Cloud infrastructure, deploy to GKE or Cloud Run, configure. Agent skill for Claude Code, Codex CLI, Gemini CLI, OpenClaw."
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
 ---
 
 # GCP Cloud Architect
@@ -453,3 +457,9 @@ Provide these details for architecture design:
 | `references/architecture_patterns.md` | 6 patterns: serverless, GKE microservices, three-tier, data pipeline, ML platform, multi-region |
 | `references/service_selection.md` | Decision matrices for compute, database, storage, messaging |
 | `references/best_practices.md` | Naming, labels, IAM, networking, monitoring, disaster recovery |
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

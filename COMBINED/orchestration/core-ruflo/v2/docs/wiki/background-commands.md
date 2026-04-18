@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # Background Commands in Claude Code
 
 ## Overview
@@ -1211,3 +1218,10 @@ Find more examples at: [claude-flow-examples/background-tasks](https://github.co
 
 *Last updated: August 2025*
 *Claude-Flow Version: 2.0.0-alpha*
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

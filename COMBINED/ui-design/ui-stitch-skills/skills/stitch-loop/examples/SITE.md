@@ -1,5 +1,9 @@
 ---
 stitch-project-id: 13534454087919359824
+tags:
+  - domain/ui
+  - artifact/ui-component
+  - source/ui-design
 ---
 # Project Vision & Constitution
 
@@ -71,3 +75,9 @@ stitch-project-id: 13534454087919359824
 2. Always update `next-prompt.md` before completing.
 3. Consume ideas from Section 6 when you use them.
 4. Keep the loop moving.
+
+## 🔗 Связи
+
+- [[MOC - UI Design]] — ui-design
+- [[000 - Map of Maps]] — Map of Maps
+

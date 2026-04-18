@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-squad
+---
+
 # Coordinator Restraint Rules
 
 > Principles that balance the Coordinator's proactive execution with respectful boundaries.
@@ -73,3 +80,10 @@ These rules are hardcoded into the Coordinator prompt and verified by:
 
 - [Compaction Recovery](./compaction-recovery.md) — How Coordinator recovers when context is compacted
 - [Result Persistence](./result-persistence.md) — How Coordinator preserves agent results before context expires
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/squad]] — Squad
+- [[000 - Map of Maps]] — Map of Maps
+

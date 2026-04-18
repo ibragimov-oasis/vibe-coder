@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # Prompt Optimization Guide
 
 ## Systematic Refinement Process
@@ -412,3 +419,9 @@ After: "Calculate... Then verify your calculation is correct before responding."
 - A/B testing frameworks
 - Token counting utilities
 - Latency profilers
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

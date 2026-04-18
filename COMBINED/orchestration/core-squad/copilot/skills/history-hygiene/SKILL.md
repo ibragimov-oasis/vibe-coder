@@ -4,6 +4,10 @@ description: Record final outcomes to history.md, not intermediate requests or r
 domain: documentation, team-collaboration
 confidence: high
 source: earned (Kobayashi v0.6.0 incident, team intervention)
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-squad
 ---
 
 ## Context
@@ -34,3 +38,10 @@ History files (.md files tracking decisions, spawns, outcomes) are read cold by 
 - Attributing decisions without confirming final direction
 - Treating history like a draft — history is the source of truth
 - Assuming readers will cross-reference or verify; they won't
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/squad]] — Squad
+- [[000 - Map of Maps]] — Map of Maps
+

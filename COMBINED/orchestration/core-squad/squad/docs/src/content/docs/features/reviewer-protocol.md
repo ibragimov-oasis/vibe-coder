@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-squad
+---
+
 # Reviewer Rejection Protocol
 
 > ⚠️ **Experimental** — Squad is alpha software. APIs, commands, and behavior may change between releases.
@@ -195,3 +202,10 @@ Manual reassignment. Fenster remains locked out, Hockney takes over the work.
 Escalate issue #42 to me — the team is stuck
 ```
 Coordinator notifies you of deadlock or repeated rejections. You provide manual intervention or guidance.
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/squad]] — Squad
+- [[000 - Map of Maps]] — Map of Maps
+

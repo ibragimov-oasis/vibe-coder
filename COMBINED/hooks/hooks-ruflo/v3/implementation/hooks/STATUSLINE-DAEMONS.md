@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/workflow
+  - source/hooks
+---
+
 # V3 Statusline & Daemon Integration
 
 ## Overview
@@ -523,3 +530,9 @@ node .claude/helpers/hooks-daemon.mjs rebuild-index
     ├── swarm-activity.json          # Exported swarm status
     └── hooks-metrics.json           # Exported hooks metrics
 ```
+
+## 🔗 Связи
+
+- [[MOC - System]] — hooks
+- [[000 - Map of Maps]] — Map of Maps
+

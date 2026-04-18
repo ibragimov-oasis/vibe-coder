@@ -1,6 +1,10 @@
 ---
 title: "Project Manager Agent — AI Coding Agent & Codex Skill"
 description: "Project Manager agent for sprint planning, Jira/Confluence workflows, Scrum ceremonies, and stakeholder reporting. Orchestrates project-management. Agent-native orchestrator for Claude Code, Codex, Gemini CLI."
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
 ---
 
 # Project Manager Agent
@@ -516,3 +520,9 @@ echo "Template: ../../project-management/senior-pm/assets/executive_report_templ
 **Last Updated:** March 9, 2026
 **Version:** 2.0
 **Status:** Production Ready
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

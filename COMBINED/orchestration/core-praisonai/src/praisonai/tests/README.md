@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-praisonai
+---
+
 # PraisonAI Agents - Comprehensive Testing Suite
 
 This directory contains a comprehensive testing suite for PraisonAI Agents, organized into different categories to ensure thorough coverage of all functionality.
@@ -441,4 +448,10 @@ python tests/simple_test_runner.py --fast
 
 # If this fails, there may be a real problem
 python tests/test_basic.py
-``` 
+```
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-praisonai]] — core-praisonai
+

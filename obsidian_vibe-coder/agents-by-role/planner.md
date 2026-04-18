@@ -29,3 +29,9 @@ source: "../COMBINED/agents/by-role/planner/"
 - **MOC:** [[MOC - Agents]]
 - **Мета-агент:** [[agents/mega-planner]]
 - **Skills:** [[skills/skills-planning]]
+
+## 🔗 Связи
+
+- [[MOC - Agents]] — Parent MOC
+- [[000 - Map of Maps]] — Map of Maps
+

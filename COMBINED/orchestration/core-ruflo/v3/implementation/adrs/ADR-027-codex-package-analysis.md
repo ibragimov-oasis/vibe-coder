@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # ADR-027 Supplement: @openai/codex Package Deep Analysis
 
 ## Package Overview
@@ -635,3 +642,10 @@ npx @claude-flow/codex init
 # Future (after umbrella rebrand)
 npx coflow init --codex
 ```
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

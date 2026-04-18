@@ -1,6 +1,10 @@
 ---
 description: 'Complete PCF API reference with all interfaces and their availability in model-driven and canvas apps'
 applyTo: '**/*.{ts,tsx,js}'
+tags:
+  - domain/agents
+  - artifact/agent
+  - source/by-interface/agents-copilot
 ---
 
 # Power Apps Component Framework API Reference
@@ -160,3 +164,9 @@ Some APIs are only available in model-driven apps due to platform differences:
 
 - For detailed documentation on each API, refer to the [Power Apps component framework API reference](https://learn.microsoft.com/power-apps/developer/component-framework/reference/)
 - Sample code for each API is available in the [PowerApps-Samples repository](https://github.com/microsoft/PowerApps-Samples/tree/master/component-framework)
+
+## 🔗 Связи
+
+- [[MOC - Agents]] — Agent catalog
+- [[agents/agents-copilot]] — Interface: agents-copilot
+

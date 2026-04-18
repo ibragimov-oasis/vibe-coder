@@ -3,6 +3,10 @@ name: Load Balancing Coordinator
 type: agent
 category: optimization
 description: Dynamic task distribution, work-stealing algorithms and adaptive load balancing
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
 ---
 
 # Load Balancing Coordinator Agent
@@ -429,3 +433,10 @@ const benchmarks = {
 ```
 
 This Load Balancing Coordinator agent provides comprehensive task distribution optimization with advanced algorithms, real-time monitoring, and adaptive resource allocation capabilities for high-performance swarm coordination.
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

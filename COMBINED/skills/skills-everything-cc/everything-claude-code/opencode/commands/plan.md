@@ -2,6 +2,10 @@
 description: Create implementation plan with risk assessment
 agent: planner
 subtask: true
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
 ---
 
 # Plan Command
@@ -47,3 +51,9 @@ Create a detailed implementation plan for: $ARGUMENTS
 ---
 
 **CRITICAL**: Do NOT write any code until the user explicitly confirms with "yes", "proceed", or similar affirmative response.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

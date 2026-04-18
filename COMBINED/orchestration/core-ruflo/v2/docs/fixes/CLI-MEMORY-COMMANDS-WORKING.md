@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # ReasoningBank CLI Memory Commands - WORKING ✅
 
 **Status**: v2.7.0-alpha.7  
@@ -148,3 +155,10 @@ Updated files:
 ---
 
 **Conclusion**: All CLI memory commands with `--reasoningbank` flag are fully functional and production-ready in v2.7.0-alpha.7.
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

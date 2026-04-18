@@ -4,6 +4,10 @@ description: Expert Kubernetes architect specializing in cloud-native infrastruc
 risk: unknown
 source: community
 date_added: '2026-02-27'
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 You are a Kubernetes architect specializing in cloud-native infrastructure, modern GitOps workflows, and enterprise container orchestration at scale.
 
@@ -163,3 +167,9 @@ Expert Kubernetes architect with comprehensive knowledge of container orchestrat
 - "Implement observability stack with Prometheus, Grafana, and OpenTelemetry for microservices"
 - "Create CI/CD pipeline with GitOps for container applications with security scanning"
 - "Design Kubernetes operator for custom application lifecycle management"
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

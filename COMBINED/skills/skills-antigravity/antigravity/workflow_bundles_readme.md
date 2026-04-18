@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # Workflow Bundles
 
 Consolidated and granular workflow bundles that orchestrate multiple skills for specific development and operational scenarios.
@@ -183,3 +190,9 @@ When creating new workflow bundles:
 ## License
 
 Same as the parent project.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

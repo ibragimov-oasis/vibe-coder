@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-praisonai
+---
+
 # OpenAIClient Performance Optimizations Summary
 
 ## Overview
@@ -91,3 +98,10 @@ The optimizations significantly improve OpenAIClient performance through:
 4. Memory-bounded caches
 
 These changes make the OpenAIClient more efficient for common use cases while maintaining all functionality and compatibility.
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/praisonai]] — PraisonAI
+- [[000 - Map of Maps]] — Map of Maps
+

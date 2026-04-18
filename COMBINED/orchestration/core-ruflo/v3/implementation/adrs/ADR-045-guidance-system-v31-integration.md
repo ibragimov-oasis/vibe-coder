@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # ADR-045: Guidance System Integration — Claude Flow v3.1
 
 **Status:** Accepted
@@ -125,3 +132,10 @@ The guidance package itself stays at 3.0.0-alpha.1 since its API is stable. The 
 - ADR-G004: Four Enforcement Gates
 - ADR-G009: Headless Testing Harness
 - ADR-026: Agent Booster Model Routing (3-tier system referenced in templates)
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

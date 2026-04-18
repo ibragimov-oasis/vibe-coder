@@ -4,6 +4,10 @@ description: "Secure secrets management practices for CI/CD pipelines using Vaul
 risk: unknown
 source: community
 date_added: "2026-02-27"
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 # Secrets Management
@@ -365,3 +369,9 @@ secret-scan:
 - `github-actions-templates` - For GitHub Actions integration
 - `gitlab-ci-patterns` - For GitLab CI integration
 - `deployment-pipeline-design` - For pipeline architecture
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

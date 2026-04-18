@@ -39,3 +39,9 @@ GitHub Copilot-специфичные навыки: prompt files, instruction fi
 
 - [[root-docs/INTERFACE_MATRIX]] — интерфейс-специфичные возможности
 - [[root-docs/CAPABILITIES]] — полный реестр
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Parent MOC
+- [[000 - Map of Maps]] — Map of Maps
+

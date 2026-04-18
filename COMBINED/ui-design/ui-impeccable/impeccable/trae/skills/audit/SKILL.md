@@ -4,6 +4,10 @@ description: Run technical quality checks across accessibility, performance, the
 version: 2.1.1
 user-invocable: true
 argument-hint: "[area (feature, page, component...)]"
+tags:
+  - domain/ui
+  - artifact/ui-component
+  - source/ui-design
 ---
 
 ## MANDATORY PREPARATION
@@ -146,3 +150,9 @@ After presenting the summary, tell the user:
 - Report false positives without verification
 
 Remember: You're a technical quality auditor. Document systematically, prioritize ruthlessly, cite specific code locations, and provide clear paths to improvement.
+
+## 🔗 Связи
+
+- [[MOC - UI Design]] — ui-design
+- [[000 - Map of Maps]] — Map of Maps
+

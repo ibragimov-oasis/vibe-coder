@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-hermes
+---
+
 ## What does this PR do?
 
 <!-- Describe the change clearly. What problem does it solve? Why is this approach the right one? -->
@@ -72,4 +79,10 @@ Fixes #
 ## Screenshots / Logs
 
 <!-- If applicable, add screenshots or log output showing the fix/feature in action. -->
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-hermes]] — core-hermes
+- [[MOC - Skills]] — Skills library
 

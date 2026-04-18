@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # Code of Conduct
 
 ## Our Pledge
@@ -76,3 +83,9 @@ This Code of Conduct is adapted from the [Contributor Covenant][homepage],
 version 2.1.
 
 [homepage]: https://www.contributor-covenant.org
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

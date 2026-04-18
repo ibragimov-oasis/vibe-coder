@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-deer-flow
+---
+
 # 技能名称冲突修复 - 代码改动文档
 
 ## 概述
@@ -863,3 +870,10 @@ Body: { "enabled": false }
 **文档版本**: 1.0  
 **最后更新**: 2026-02-10  
 **维护者**: AI Assistant
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-deer-flow]] — core-deer-flow
+- [[MOC - Skills]] — Skills library
+

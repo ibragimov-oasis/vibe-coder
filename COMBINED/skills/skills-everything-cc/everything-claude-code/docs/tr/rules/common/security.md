@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
+---
+
 # Güvenlik Kuralları
 
 ## Zorunlu Güvenlik Kontrolleri
@@ -27,3 +34,9 @@ Güvenlik sorunu bulunursa:
 3. Devam etmeden önce CRITICAL sorunları düzelt
 4. İfşa olmuş secret'ları rotate et
 5. Benzer sorunlar için tüm kod tabanını incele
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

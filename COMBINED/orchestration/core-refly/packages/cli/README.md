@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-refly
+---
+
 # @refly/cli
 
 > Refly CLI - Workflow orchestration for Claude Code
@@ -263,3 +270,9 @@ node dist/bin/refly.js
 ## License
 
 MIT
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-refly]] — core-refly
+

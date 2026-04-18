@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/mcp
+  - artifact/mcp-server
+  - source/mcp-servers
+---
+
 # OpenClaw + OpenViking 上下文引擎插件
 
 使用 [OpenViking](https://github.com/volcengine/OpenViking) 作为 [OpenClaw](https://github.com/openclaw/openclaw) 的长期记忆后端。在 OpenClaw 中，此插件注册为 `openviking` 上下文引擎。安装后，OpenClaw 将自动**记忆**对话中的重要信息，并在响应前**召回**相关上下文。
@@ -454,3 +461,9 @@ python3 -m pip uninstall openviking -y && rm -rf ~/.openviking
 ---
 
 **另见：** [INSTALL-ZH.md](./INSTALL-ZH.md)（中文详细安装指南）· [INSTALL.md](./INSTALL.md)（英文安装指南）· [INSTALL-AGENT.md](./INSTALL-AGENT.md)（Agent 安装指南）
+
+## 🔗 Связи
+
+- [[MOC - MCP Servers]] — mcp-servers
+- [[000 - Map of Maps]] — Map of Maps
+

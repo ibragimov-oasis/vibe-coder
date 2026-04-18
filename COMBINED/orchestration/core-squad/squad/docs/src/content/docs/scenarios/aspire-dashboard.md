@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-squad
+---
+
 # Using Squad with the Aspire Dashboard
 
 > ⚠️ **Experimental** — Squad is alpha software. APIs, commands, and behavior may change between releases.
@@ -317,3 +324,10 @@ docker rm aspire-dashboard
 - [Squad SDK Reference](../reference/sdk.md) — detailed API documentation
 
 Aspire pairs perfectly with Squad: **watch your agents work in real time, catch performance issues early, and prove to yourself (and your team) that AI agents are deterministic and safe.**
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/squad]] — Squad
+- [[000 - Map of Maps]] — Map of Maps
+

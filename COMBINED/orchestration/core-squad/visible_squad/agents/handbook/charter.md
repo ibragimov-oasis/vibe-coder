@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-squad
+---
+
 # Handbook — SDK Usability
 
 > Makes sure everyone — humans and AIs alike — can read the manual.
@@ -36,3 +43,10 @@
 ## Model
 
 Preferred: auto
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/squad]] — Squad
+- [[000 - Map of Maps]] — Map of Maps
+

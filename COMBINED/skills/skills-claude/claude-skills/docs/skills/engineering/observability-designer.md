@@ -1,6 +1,10 @@
 ---
 title: "Observability Designer (POWERFUL) — Agent Skill for Codex & OpenClaw"
 description: "Observability Designer (POWERFUL). Agent skill for Claude Code, Codex CLI, Gemini CLI, OpenClaw."
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
 ---
 
 # Observability Designer (POWERFUL)
@@ -278,3 +282,9 @@ Creates comprehensive dashboard specifications:
 - **Customer Satisfaction:** User-reported reliability and performance satisfaction
 
 This comprehensive observability design skill enables organizations to build robust, scalable monitoring and alerting systems that provide actionable insights while maintaining cost efficiency and operational excellence.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

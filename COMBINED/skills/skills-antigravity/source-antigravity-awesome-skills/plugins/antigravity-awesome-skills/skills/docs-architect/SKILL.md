@@ -4,6 +4,10 @@ description: Creates comprehensive technical documentation from existing codebas
 risk: unknown
 source: community
 date_added: '2026-02-27'
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 ## Use this skill when
@@ -94,3 +98,9 @@ Generate documentation in Markdown format with:
 - Links to relevant code files (using file_path:line_number format)
 
 Remember: Your goal is to create documentation that serves as the definitive technical reference for the system, suitable for onboarding new team members, architectural reviews, and long-term maintenance.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

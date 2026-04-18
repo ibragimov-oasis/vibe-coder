@@ -8,7 +8,9 @@ dependencies: [instructor, pydantic, openai, anthropic]
 metadata:
   hermes:
     tags: [Prompt Engineering, Instructor, Structured Output, Pydantic, Data Extraction, JSON Parsing, Type Safety, Validation, Streaming, OpenAI, Anthropic]
-
+  - domain/skills
+  - artifact/skill
+  - source/skills-hermes
 ---
 
 # Instructor: Structured LLM Outputs
@@ -740,4 +742,8 @@ class PartialData(BaseModel):
 - `references/providers.md` - Provider-specific configuration
 - `references/examples.md` - Real-world use cases
 
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-hermes]] — Category: skills-hermes
 

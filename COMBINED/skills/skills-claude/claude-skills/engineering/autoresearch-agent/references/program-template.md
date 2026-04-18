@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # program.md Templates
 
 Copy the template for your domain and paste into your project root as `program.md`.
@@ -168,3 +175,9 @@ Aim for 200-400 lines total.
 ## Stop When
 pass_rate >= 0.90 OR after 30 experiments.
 ```
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

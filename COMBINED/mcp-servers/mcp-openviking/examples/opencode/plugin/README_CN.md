@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/mcp
+  - artifact/mcp-server
+  - source/mcp-servers
+---
+
 # openviking-opencode
 
 用于 [OpenCode](https://opencode.ai) 的 OpenViking 插件。将您索引的代码仓库注入到 AI 的上下文中，并在需要时自动启动 OpenViking 服务器。
@@ -64,3 +71,9 @@ openviking-server > /tmp/openviking.log 2>&1 &
 "FastAPI 如何处理依赖注入？"
 "使用 openviking 查找 JWT 令牌如何验证"
 ```
+
+## 🔗 Связи
+
+- [[MOC - MCP Servers]] — mcp-servers
+- [[000 - Map of Maps]] — Map of Maps
+

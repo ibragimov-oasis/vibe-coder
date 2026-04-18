@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-praisonai
+---
+
 # Gemini Internal Tools Examples
 
 This directory contains examples demonstrating how to use Google Gemini's built-in internal tools through PraisonAI. These tools are natively supported by Gemini models and provide powerful capabilities without requiring external tool implementations.
@@ -213,3 +220,10 @@ agent = Agent(
 ## Contributing
 
 If you create additional examples or find improvements, please contribute back to the PraisonAI project!
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/praisonai]] — PraisonAI
+- [[000 - Map of Maps]] — Map of Maps
+

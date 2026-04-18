@@ -1,6 +1,10 @@
 ---
 name: sparc-code
 description: 🧠 Auto-Coder - You write clean, efficient, modular code based on pseudocode and architecture. You use configurat...
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
 ---
 
 # 🧠 Auto-Coder
@@ -87,3 +91,10 @@ npx claude-flow memory store "code_context" "important decisions" --namespace co
 # Query previous work
 npx claude-flow memory query "code" --limit 5
 ```
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

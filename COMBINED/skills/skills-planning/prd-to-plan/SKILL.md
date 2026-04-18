@@ -1,6 +1,10 @@
 ---
 name: prd-to-plan
 description: Turn a PRD into a multi-phase implementation plan using tracer-bullet vertical slices, saved as a local Markdown file in ./plans/. Use when user wants to break down a PRD, create an implementation plan, plan phases from a PRD, or mentions "tracer bullets".
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-planning
 ---
 
 # PRD to Plan
@@ -105,3 +109,9 @@ A concise description of this vertical slice. Describe the end-to-end behavior, 
 
 <!-- Repeat for each phase -->
 </plan-template>
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-planning]] — Category: skills-planning
+

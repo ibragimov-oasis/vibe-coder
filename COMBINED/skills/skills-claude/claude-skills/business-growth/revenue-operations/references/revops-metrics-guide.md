@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # RevOps Metrics Guide
 
 Complete reference for Revenue Operations metrics hierarchy, definitions, formulas, interpretation guidelines, and common mistakes.
@@ -302,3 +309,9 @@ Understanding how metrics relate prevents conflicting optimizations:
 | Burn Multiple | Quarterly | CFO |
 | Rule of 40 | Quarterly/Annual | CEO/Board |
 | NDR | Quarterly | CS/RevOps |
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-copilot
+---
+
 # FluentDataGrid
 
 `FluentDataGrid<TGridItem>` is a strongly-typed generic component for displaying tabular data.
@@ -160,3 +167,9 @@ Or with a custom sort:
     @context.LastName, @context.FirstName
 </TemplateColumn>
 ```
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-copilot]] — Category: skills-copilot
+

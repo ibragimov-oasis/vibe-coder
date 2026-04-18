@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # Decision Frameworks — Customs & Trade Compliance
 
 This reference provides the detailed decision logic, classification methodology, FTA qualification
@@ -762,3 +769,9 @@ insurance in the invoice price:
 | CIF/CIP | No adjustment (freight and insurance included) | No adjustment (freight and insurance included) |
 | DAP | DEDUCT: inland freight from port/airport to final destination in US (if identifiable) | DEDUCT: inland freight from EU border to destination |
 | DDP | DEDUCT: inland freight + import duties (duty is never part of customs value) | DEDUCT: inland freight from EU border + import duties |
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

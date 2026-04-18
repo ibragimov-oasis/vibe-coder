@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-squad
+---
+
 # Parallel Work & Models
 
 > ⚠️ **Experimental** — Squad is alpha software. APIs, commands, and behavior may change between releases.
@@ -369,3 +376,10 @@ Creates a symlink so this worktree shares the main checkout's `.squad/` state.
 - [Your Team](./your-team.md) — How agents form and specialize for different roles
 - [Architecture](./architecture.md) — How the coordinator orchestrates parallel execution
 - [Memory & Knowledge](./memory-and-knowledge.md) — How agents share context across parallel work
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/squad]] — Squad
+- [[000 - Map of Maps]] — Map of Maps
+

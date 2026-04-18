@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # SDK Integration Validation Results
 **Claude-Flow v2.5-alpha.130+**
 
@@ -398,3 +405,10 @@ All SDK features are:
 - ✅ Truly integrated (work together seamlessly)
 
 **Claude Flow can now deliver on its "10-20x faster" claims because the features are REAL, not marketing fluff.**
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

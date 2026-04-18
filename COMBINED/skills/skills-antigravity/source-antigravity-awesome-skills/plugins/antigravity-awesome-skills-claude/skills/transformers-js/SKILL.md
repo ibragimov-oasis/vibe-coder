@@ -10,6 +10,10 @@ metadata:
   category: machine-learning
   repository: https://github.com/huggingface/transformers.js
 compatibility: Requires Node.js 18+ or modern browser with ES modules support. WebGPU support requires compatible browser/environment. Internet access needed for downloading models from Hugging Face Hub (optional if using local models).
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 # Transformers.js - Machine Learning for JavaScript
@@ -637,3 +641,9 @@ For detailed patterns (React cleanup, servers, browser), see **[Code Examples](.
 ---
 
 This skill enables you to integrate state-of-the-art machine learning capabilities directly into JavaScript applications without requiring separate ML servers or Python environments.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

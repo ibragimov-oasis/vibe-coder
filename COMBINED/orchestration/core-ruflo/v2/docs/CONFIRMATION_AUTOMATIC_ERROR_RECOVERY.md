@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # ✅ CONFIRMED: Automatic Error Recovery Working in Docker
 
 **Date**: 2025-11-13
@@ -382,3 +389,10 @@ async function initCommand(options) {
 **Date**: 2025-11-13
 **Confidence**: 🟢 **HIGH**
 **Status**: 🎉 **READY FOR GITHUB ISSUE & RELEASE**
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-ruflo]] — core-ruflo
+- [[MOC - Skills]] — Skills library
+

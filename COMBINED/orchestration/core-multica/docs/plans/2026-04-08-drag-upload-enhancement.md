@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-multica
+---
+
 # Drag & Drop Upload Enhancement — Revised Plan
 
 > **For Claude:** REQUIRED SUB-SKILL: Use superpowers:executing-plans to implement this plan task-by-task.
@@ -225,3 +232,10 @@ Manual test all upload flows:
 | Image removal tracker + attachment cache | Gone — simpler code |
 | ~300 lines of attachment UI code | Deleted |
 | ~100 lines of whitelist code | Replaced by 1 line: `MAX_FILE_SIZE` |
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-multica]] — core-multica
+- [[MOC - Skills]] — Skills library
+

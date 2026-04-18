@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # Power-ups Best Practice
 
 ![Last Updated](https://img.shields.io/badge/Last_Updated-Apr%2002%2C%202026-white?style=flat&labelColor=555)
@@ -64,3 +71,9 @@ The last power-up teaches model switching and effort control with an animated de
 ## Sources
 
 - [Changelog — v2.1.90](https://code.claude.com/docs/en/changelog)
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-squad
+---
+
 # Migration Guide
 
 > Upgrading from an older version of Squad? Find your scenario below.
@@ -516,3 +523,10 @@ For the full list of changes, see the [CHANGELOG](https://github.com/bradygaster
 ---
 
 *Questions or issues? Open an issue at [github.com/bradygaster/squad](https://github.com/bradygaster/squad/issues).*
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/squad]] — Squad
+- [[000 - Map of Maps]] — Map of Maps
+

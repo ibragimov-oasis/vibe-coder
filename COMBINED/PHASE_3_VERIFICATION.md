@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/combined-root
+---
+
 # PHASE 3: LEFTOVER FILES VERIFICATION
 **Verification Date**: 2026-04-08 03:55 UTC
 **Status**: ✅ VERIFIED
@@ -136,3 +143,8 @@ Reference/: 0 leftover files
 **Verification Date**: 2026-04-08 03:55 UTC
 **Verifier**: Phase 3 Status Check
 **Result**: ✅ VERIFIED COMPLETE
+
+## 🔗 Связи
+
+- [[000 - Map of Maps]] — Map of Maps
+

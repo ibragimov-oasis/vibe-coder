@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-gsd
+---
+
 # Especificação: Design de Multi-Project Workspaces (pt-BR)
 
 Data original: 2026-03-20  
@@ -53,3 +60,10 @@ Introduzir workspaces multi-projeto com:
 
 > [!NOTE]
 > Esta versão em Português resume a especificação de design para uso prático. O arquivo original em inglês mantém o detalhamento normativo completo.
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/gsd]] — GSD
+- [[000 - Map of Maps]] — Map of Maps
+

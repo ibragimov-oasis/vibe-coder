@@ -4,6 +4,10 @@ type: docs
 weight: 3
 description: >
   How to set up and configure Toolbox to deploy on Kubernetes with Google Kubernetes Engine (GKE).
+tags:
+  - domain/mcp
+  - artifact/mcp-server
+  - source/mcp-servers
 ---
 
 
@@ -279,3 +283,9 @@ description: >
     gcloud container clusters delete $CLUSTER_NAME \
         --location=$REGION
     ```
+
+## 🔗 Связи
+
+- [[MOC - MCP Servers]] — mcp-servers
+- [[000 - Map of Maps]] — Map of Maps
+

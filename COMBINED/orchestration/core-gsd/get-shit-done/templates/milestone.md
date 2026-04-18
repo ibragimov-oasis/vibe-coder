@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-gsd
+---
+
 # Milestone Entry Template
 
 Add this entry to `.planning/MILESTONES.md` when completing a milestone:
@@ -113,3 +120,10 @@ If MILESTONES.md doesn't exist, create it with header:
 **What's next:** Security audit and hardening for v1.1
 ```
 </example>
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-gsd]] — core-gsd
+- [[MOC - Skills]] — Skills library
+

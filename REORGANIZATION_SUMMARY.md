@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/root
+---
+
 # ULTRACAR Reorganization - Quick Summary
 
 **Date:** 2026-04-05
@@ -58,3 +65,8 @@ See: `COMBINED/REORGANIZATION_REPORT_2026-04-05.md`
 1. Test IDE configurations work from new locations
 2. Review and test CI/CD pipelines
 3. Consider creating symlinks for IDE compatibility
+
+## 🔗 Связи
+
+- [[000 - Map of Maps]] — Map of Maps
+

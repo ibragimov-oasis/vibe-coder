@@ -3,6 +3,10 @@ name: eval-harness
 description: Formal evaluation framework for Claude Code sessions implementing eval-driven development (EDD) principles
 origin: ECC
 tools: Read, Write, Edit, Bash, Grep, Glob
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-everything-cc
 ---
 
 # Eval Harness Skill
@@ -234,3 +238,9 @@ Capability: 5/5 passed (pass@3: 100%)
 Regression: 3/3 passed (pass^3: 100%)
 Status: SHIP IT
 ```
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

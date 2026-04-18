@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-squad
+---
+
 # SDK Reference
 
 > ⚠️ **Experimental** — Squad is alpha software. APIs, commands, and behavior may change between releases.
@@ -651,3 +658,10 @@ All errors extend `SquadError` with severity, category, and recoverability:
 
 - [CLI Reference](./cli.md) — Shell commands and config files
 - [Recipes & Advanced Scenarios](../cookbook/recipes.md) — Prompt-driven cookbook
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/squad]] — Squad
+- [[000 - Map of Maps]] — Map of Maps
+

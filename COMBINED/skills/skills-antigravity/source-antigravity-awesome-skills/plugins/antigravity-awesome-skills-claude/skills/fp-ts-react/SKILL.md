@@ -4,6 +4,10 @@ description: "Practical patterns for using fp-ts with React - hooks, state, form
 risk: safe
 source: "https://github.com/whatiskadudoing/fp-ts-skills"
 date_added: "2026-02-27"
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 # Functional Programming in React
@@ -795,3 +799,9 @@ const modalProps = {
 - **[@devexperts/remote-data-ts](https://github.com/devexperts/remote-data-ts)** - RemoteData
 - **[io-ts](https://github.com/gcanti/io-ts)** - Runtime type validation
 - **[zod](https://github.com/colinhacks/zod)** - Schema validation (works great with fp-ts)
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

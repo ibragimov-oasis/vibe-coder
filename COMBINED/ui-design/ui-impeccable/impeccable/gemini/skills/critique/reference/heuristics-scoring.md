@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/ui
+  - artifact/ui-component
+  - source/ui-design
+---
+
 # Heuristics Scoring Guide
 
 Score each of Nielsen's 10 Usability Heuristics on a 0–4 scale. Be honest — a 4 means genuinely excellent, not "good enough."
@@ -232,3 +239,9 @@ Tag each individual issue found during scoring with a priority level:
 | **P3** | Polish | Nice-to-fix, no real user impact | Fix if time permits |
 
 **Tip**: If you're unsure between two levels, ask: "Would a user contact support about this?" If yes, it's at least P1.
+
+## 🔗 Связи
+
+- [[MOC - UI Design]] — ui-design
+- [[000 - Map of Maps]] — Map of Maps
+

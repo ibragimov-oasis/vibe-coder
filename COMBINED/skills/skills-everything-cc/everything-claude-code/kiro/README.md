@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
+---
+
 # Everything Claude Code for Kiro
 
 Bring [Everything Claude Code](https://github.com/anthropics/courses/tree/master/everything-claude-code) (ECC) workflows to [Kiro](https://kiro.dev). This repository provides custom agents, skills, hooks, steering files, and scripts that can be installed into any Kiro project with a single command.
@@ -605,3 +612,9 @@ For more detailed information, see the `docs/` directory:
 ## License
 
 MIT — see [LICENSE](LICENSE) for details.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

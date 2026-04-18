@@ -4,6 +4,10 @@ description: "Use when working with comprehensive review full review"
 risk: unknown
 source: community
 date_added: "2026-02-27"
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 ## Use this skill when
@@ -147,3 +151,9 @@ Review is considered successful when:
 - Team has clear prioritized action plan for remediation
 
 Target: $ARGUMENTS
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

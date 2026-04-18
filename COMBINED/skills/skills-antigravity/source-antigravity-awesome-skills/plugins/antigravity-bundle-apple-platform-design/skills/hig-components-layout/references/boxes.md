@@ -1,4 +1,11 @@
 ---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
+---
 title: "Boxes | Apple Developer Documentation"
 source: https://developer.apple.com/design/human-interface-guidelines/boxes
 
@@ -45,4 +52,9 @@ By default, macOS displays a box’s title above it.
 [`GroupBox`](https://developer.apple.com/documentation/SwiftUI/GroupBox) — SwiftUI
 
 [`NSBox`](https://developer.apple.com/documentation/AppKit/NSBox) — AppKit
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
 

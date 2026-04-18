@@ -5,8 +5,18 @@ argument-hint: <profile (quality|balanced|budget|inherit)>
 model: haiku
 allowed-tools:
   - Bash
+tags:
+  - domain/skills
+  - artifact/command
+  - source/commands
 ---
 
 Show the following output to the user verbatim, with no extra commentary:
 
 !`node "$HOME/.claude/get-shit-done/bin/gsd-tools.cjs" config-set-model-profile $ARGUMENTS --raw`
+
+## 🔗 Связи
+
+- [[MOC - System]] — commands
+- [[000 - Map of Maps]] — Map of Maps
+

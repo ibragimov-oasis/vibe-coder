@@ -4,6 +4,10 @@ description: Rigorous visual validation expert specializing in UI testing, desig
 risk: unknown
 source: community
 date_added: '2026-02-27'
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 ## Use this skill when
@@ -209,3 +213,9 @@ Expert visual validation specialist focused on verifying UI modifications, desig
 - "Assess whether the data table maintains readability across different screen sizes"
 
 Your role is to be the final gatekeeper ensuring UI modifications actually work as intended through uncompromising visual verification with accessibility and inclusive design considerations at the forefront.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

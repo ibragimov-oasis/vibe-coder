@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # Brand Voice & Style Guidelines
 
 Comprehensive framework for establishing and maintaining consistent brand voice across all content.
@@ -217,3 +224,9 @@ Before publishing any content, verify:
 - [ ] Mobile-friendly formatting
 - [ ] Accessible to all audiences
 - [ ] Proofread and fact-checked
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

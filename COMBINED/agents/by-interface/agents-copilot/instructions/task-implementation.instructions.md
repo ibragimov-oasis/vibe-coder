@@ -1,6 +1,10 @@
 ---
 applyTo: '**/.copilot-tracking/changes/*.md'
 description: 'Instructions for implementing task plans with progressive tracking and change record - Brought to you by microsoft/edge-ai'
+tags:
+  - domain/agents
+  - artifact/agent
+  - source/by-interface/agents-copilot
 ---
 
 # Task Plan Implementation Instructions
@@ -188,3 +192,9 @@ Replace `{{ }}` with appropriate values. Create this file in `./.copilot-trackin
 {{Any specific deployment considerations or steps}}
 ```
 <!-- </changes-template> -->
+
+## 🔗 Связи
+
+- [[MOC - Agents]] — Agent catalog
+- [[agents/agents-copilot]] — Interface: agents-copilot
+

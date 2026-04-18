@@ -1,6 +1,10 @@
 ---
 name: dual-orchestrator
 description: Orchestrates Claude Code (interactive) + Codex (headless) for hybrid workflows
+tags:
+  - domain/agents
+  - artifact/agent
+  - source/by-role/manager
 ---
 
 # Dual-Mode Orchestrator
@@ -251,3 +255,9 @@ npx claude-flow@v3alpha hooks route --task "[your task]"
 ```
 
 Remember: Claude Code thinks, Codex executes. Use both for maximum productivity.
+
+## 🔗 Связи
+
+- [[MOC - Agents]] — Agent catalog
+- [[agents/manager]] — Role: manager
+

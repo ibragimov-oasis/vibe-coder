@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # claude-code-best-practice
 from vibe coding to agentic engineering - practice makes claude perfect
 
@@ -427,3 +434,9 @@ All major workflows converge on the same architectural pattern: **Research → P
 ## Star History
 
 [![Star History Chart](https://api.star-history.com/svg?repos=shanraisshan/claude-code-best-practice&type=Date)](https://star-history.com/#shanraisshan/claude-code-best-practice&Date)
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

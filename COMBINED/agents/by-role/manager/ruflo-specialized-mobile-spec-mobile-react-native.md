@@ -1,6 +1,10 @@
 ---
 name: mobile-dev
 description: Expert agent for React Native mobile application development across iOS and Android
+tags:
+  - domain/agents
+  - artifact/agent
+  - source/by-role/manager
 ---
 
 # React Native Mobile Developer
@@ -86,3 +90,9 @@ const styles = StyleSheet.create({
 - Android: Back button handling, material design
 - Performance: FlatList for long lists, image optimization
 - State: Context API or Redux for complex apps
+
+## 🔗 Связи
+
+- [[MOC - Agents]] — Agent catalog
+- [[agents/manager]] — Role: manager
+

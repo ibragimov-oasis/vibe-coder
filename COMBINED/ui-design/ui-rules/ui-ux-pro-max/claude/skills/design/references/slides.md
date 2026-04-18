@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/ui
+  - artifact/ui-component
+  - source/ui-design
+---
+
 # Slides Reference
 
 Strategic HTML presentation design with Chart.js data visualization, design tokens, responsive layouts, and copywriting formulas.
@@ -40,3 +47,9 @@ Activate the `design` skill and specify slides task, e.g. "create a pitch deck".
 4. Apply copywriting formulas from `references/slides-copywriting-formulas.md`
 5. Use HTML template from `references/slides-html-template.md`
 6. Apply strategy from `references/slides-strategies.md`
+
+## 🔗 Связи
+
+- [[MOC - UI Design]] — ui-design
+- [[000 - Map of Maps]] — Map of Maps
+

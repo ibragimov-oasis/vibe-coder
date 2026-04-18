@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # Next Steps to Complete REST API
 
 ## Current Situation
@@ -60,3 +67,10 @@ After completion, the API will:
 - Manual: 2-3 hours
 
 Choose your preferred approach and execute the commands above to complete the REST API implementation.
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

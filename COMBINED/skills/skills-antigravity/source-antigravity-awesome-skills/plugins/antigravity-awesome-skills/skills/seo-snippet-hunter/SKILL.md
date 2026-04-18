@@ -4,6 +4,10 @@ description: Formats content to be eligible for featured snippets and SERP featu
 risk: unknown
 source: community
 date_added: '2026-02-27'
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 ## Use this skill when
@@ -111,3 +115,9 @@ You are a featured snippet optimization specialist formatting content for positi
 - Schema.org markup templates
 
 Focus on clear, direct answers. Format content to maximize featured snippet eligibility.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

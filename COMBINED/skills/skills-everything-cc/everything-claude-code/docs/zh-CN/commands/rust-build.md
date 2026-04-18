@@ -1,5 +1,9 @@
 ---
 description: 逐步修复 Rust 构建错误、借用检查器问题和依赖问题。调用 rust-build-resolver 代理以进行最小化、精确的修复。
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
 ---
 
 # Rust 构建与修复
@@ -187,3 +191,9 @@ Build Status: SUCCESS
 
 * 代理：`agents/rust-build-resolver.md`
 * 技能：`skills/rust-patterns/`
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

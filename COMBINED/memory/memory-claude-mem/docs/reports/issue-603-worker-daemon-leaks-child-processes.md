@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/memory
+  - artifact/memory
+  - source/memory
+---
+
 # Technical Report: Worker Daemon Child Process Leak
 
 **Issue:** #603 - Bug: worker-service daemon leaks child claude processes
@@ -425,3 +432,9 @@ export async function getChildProcesses(parentPid: number): Promise<number[]> {
 ---
 
 *Report prepared by Claude Code analysis of codebase and issue #603*
+
+## 🔗 Связи
+
+- [[MOC - Memory]] — memory
+- [[000 - Map of Maps]] — Map of Maps
+

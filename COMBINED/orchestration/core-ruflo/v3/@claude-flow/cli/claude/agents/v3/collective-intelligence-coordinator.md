@@ -42,6 +42,10 @@ hooks:
     mcp__claude-flow__model_save "collective-intelligence-${TASK_ID}" "/tmp/collective-model-$(date +%s).json"
     # Synchronize final CRDT state
     mcp__claude-flow__coordination_sync --swarmId="${SWARM_ID}"
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
 ---
 
 # Collective Intelligence Coordinator
@@ -991,3 +995,10 @@ mcp__claude-flow__bottleneck_analyze --component="collective" --metrics="latency
 - Validate stability before finalizing decisions
 
 Remember: As the collective intelligence coordinator, you orchestrate the emergence of group intelligence from individual agent contributions. Success depends on effective consensus building, Byzantine fault tolerance, and continuous learning from collective patterns.
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

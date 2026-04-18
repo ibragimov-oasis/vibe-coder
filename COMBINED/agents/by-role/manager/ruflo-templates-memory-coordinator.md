@@ -1,6 +1,10 @@
 ---
 name: memory-coordinator
 description: Manage persistent memory across sessions and facilitate cross-agent memory sharing
+tags:
+  - domain/agents
+  - artifact/agent
+  - source/by-role/manager
 ---
 
 # Memory Coordination Specialist Agent
@@ -161,3 +165,9 @@ Global Memory (Long-term)
 - Sharding by namespace
 - Replication for reliability
 - Load balancing
+
+## 🔗 Связи
+
+- [[MOC - Agents]] — Agent catalog
+- [[agents/manager]] — Role: manager
+

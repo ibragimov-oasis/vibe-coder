@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
+---
+
 # X Thread Draft - ECC v1.8.0
 
 1/ ECC v1.8.0 is live. This release is about one thing: better agent harness performance.
@@ -9,3 +16,9 @@
 4/ If your agents are underperforming, start with `/harness-audit` and tighten quality gates.
 
 5/ Cross-harness parity remains a priority: Claude Code, Cursor, OpenCode, Codex.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

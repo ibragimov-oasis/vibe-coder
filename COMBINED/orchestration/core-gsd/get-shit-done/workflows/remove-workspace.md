@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-gsd
+---
+
 <purpose>
 Remove a GSD workspace, cleaning up git worktrees and deleting the workspace directory.
 </purpose>
@@ -88,3 +95,10 @@ Workspace "$WORKSPACE_NAME" removed.
 ```
 
 </process>
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-gsd]] — core-gsd
+- [[MOC - Skills]] — Skills library
+

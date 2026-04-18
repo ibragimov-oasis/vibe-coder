@@ -50,3 +50,9 @@ Focused AI workspaces — изолированные рабочие простр
 
 - [[obsidian-copilot/copilot-plus-and-self-host]] — требует Copilot Plus
 - [[combined/Orchestration Overview]] — изоляция контекста в ULTRACAR
+
+## 🔗 Связи
+
+- [[MOC - System]] — Parent MOC
+- [[000 - Map of Maps]] — Map of Maps
+

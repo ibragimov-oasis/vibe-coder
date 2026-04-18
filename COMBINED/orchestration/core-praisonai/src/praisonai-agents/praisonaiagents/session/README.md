@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-praisonai
+---
+
 # Session Persistence for PraisonAI Agents
 
 This module provides automatic session persistence with zero configuration.
@@ -183,3 +190,9 @@ class SessionMessage:
     timestamp: float
     metadata: Dict[str, Any]
 ```
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-praisonai]] — core-praisonai
+

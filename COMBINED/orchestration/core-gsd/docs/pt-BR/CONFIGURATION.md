@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-gsd
+---
+
 # Referência de Configuração do GSD
 
 Configurações do projeto ficam em `.planning/config.json`.  
@@ -82,3 +89,10 @@ Troca rápida:
 ```bash
 /gsd:set-profile budget
 ```
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-gsd]] — core-gsd
+- [[MOC - Skills]] — Skills library
+

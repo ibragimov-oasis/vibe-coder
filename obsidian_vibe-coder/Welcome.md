@@ -44,3 +44,8 @@ aliases:
 - **Таксономия / Taxonomy**: [[_governance/TAG_TAXONOMY]]
 - **Шаблон / Template**: [[_governance/NOTE_TEMPLATE]]
 - **Покрытие / Coverage**: [[_audit/COVERAGE_REPORT]]
+
+## 🔗 Связи
+
+- [[000 - Map of Maps]] — Map of Maps
+

@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/seo
+  - artifact/doc
+  - source/skills-seo
+---
+
 # Research SERP Command
 
 Deep SERP analysis for a specific keyword to understand what Google wants.
@@ -99,3 +106,9 @@ After running `/research-serp`:
 - **Before major content updates**: Check current SERP expectations
 - **When stuck on format**: See what type of content ranks
 - **For competitive research**: Understand difficulty before committing
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-seo]] — Category: skills-seo
+

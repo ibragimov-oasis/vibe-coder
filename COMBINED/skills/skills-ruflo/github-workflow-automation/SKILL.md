@@ -18,7 +18,10 @@ requires:
   - git
   - claude-flow@alpha
   - node (v16+)
-priority: high
+
+  - domain/skills
+  - artifact/skill
+  - source/skills-ruflopriority: high
 progressive_disclosure: true
 ---
 
@@ -1063,3 +1066,9 @@ echo "✅ GitHub workflow automation setup complete"
 **Skill Status**: ✅ Production Ready
 **Last Updated**: 2025-01-19
 **Maintainer**: claude-flow team
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-ruflo]] — Category: skills-ruflo
+

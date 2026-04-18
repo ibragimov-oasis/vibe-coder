@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-copilot
+---
+
 # Azure Common Patterns (Stable)
 
 This file contains only **near-immutable patterns** that are repeated across Azure services.
@@ -168,3 +175,9 @@ resource dnsGroup 'Microsoft.Network/privateEndpoints/privateDnsZoneGroups@<fetc
 ```
 
 > `@<fetch>`: Always verify the latest stable API version from MS Docs before deployment.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-copilot]] — Category: skills-copilot
+

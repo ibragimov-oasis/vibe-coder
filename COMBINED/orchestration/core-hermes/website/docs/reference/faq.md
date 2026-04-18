@@ -2,6 +2,10 @@
 sidebar_position: 3
 title: "FAQ & Troubleshooting"
 description: "Frequently asked questions and solutions to common issues with Hermes Agent"
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-hermes
 ---
 
 # FAQ & Troubleshooting
@@ -534,3 +538,10 @@ If your issue isn't covered here:
 1. **Search existing issues:** [GitHub Issues](https://github.com/NousResearch/hermes-agent/issues)
 2. **Ask the community:** [Nous Research Discord](https://discord.gg/nousresearch)
 3. **File a bug report:** Include your OS, Python version (`python3 --version`), Hermes version (`hermes --version`), and the full error message
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/hermes]] — Hermes
+- [[000 - Map of Maps]] — Map of Maps
+

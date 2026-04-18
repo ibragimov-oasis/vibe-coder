@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # Visual Quick Start Guide
 
 **Learn by seeing!** This guide uses diagrams and visual examples to help you understand skills.
@@ -507,3 +514,9 @@ Month 1: Regular contributor
 - [CONTRIBUTING.md](../../CONTRIBUTING.md) - How to contribute
 
 **Ready to contribute?** You've got this! 💪
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

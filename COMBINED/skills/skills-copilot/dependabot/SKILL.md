@@ -6,6 +6,10 @@ description: >-
   configuring dependency update strategies, setting up grouped updates, monorepo patterns,
   multi-ecosystem groups, security update configuration, auto-triage rules, or any GitHub
   Advanced Security (GHAS) supply chain security topic related to Dependabot.
+tags:
+  - domain/agents
+  - artifact/skill
+  - source/skills-copilot
 ---
 
 # Dependabot Configuration & Management
@@ -420,3 +424,10 @@ Create a separate ecosystem entry with its own `directory` pointing to that loca
 - `references/dependabot-yml-reference.md` — Complete YAML options reference
 - `references/pr-commands.md` — Full PR comment commands reference
 - `references/example-configs.md` — Real-world configuration examples
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-copilot]] — Category: skills-copilot
+- [[MOC - Agents]] — Copilot agents
+

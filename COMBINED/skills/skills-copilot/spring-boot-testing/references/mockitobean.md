@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-copilot
+---
+
 # @MockitoBean
 
 Mocking dependencies in Spring Boot tests (replaces deprecated @MockBean in Spring Boot 4+).
@@ -230,3 +237,9 @@ private OrderService orderService;
 3. Always verify interactions that have side effects
 4. Don't verify simple queries (stubbing is enough)
 5. Reset mocks if test modifies shared mock state
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-copilot]] — Category: skills-copilot
+

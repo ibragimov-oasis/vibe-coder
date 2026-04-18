@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-gsd
+---
+
 # 模型配置解析
 
 在编排开始时解析一次模型配置，然后在所有 Task 生成时使用。
@@ -32,3 +39,10 @@ Task(
 2. 存储 profile 值
 3. 生成时在表中查找每个代理的模型
 4. 将 model 参数传递给每个 Task 调用（值：`"inherit"`、`"sonnet"`、`"haiku"`）
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/gsd]] — GSD
+- [[000 - Map of Maps]] — Map of Maps
+

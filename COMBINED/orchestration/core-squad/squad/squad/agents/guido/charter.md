@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-squad
+---
+
 # GUIDO — VS Code Extension
 
 > Hands-on, detail-oriented. Bridges Squad and VS Code runtime.
@@ -32,3 +39,10 @@
 ## Model
 
 Preferred: auto
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/squad]] — Squad
+- [[000 - Map of Maps]] — Map of Maps
+

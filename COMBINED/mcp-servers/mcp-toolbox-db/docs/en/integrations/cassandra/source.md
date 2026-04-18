@@ -6,6 +6,10 @@ weight: 1
 description: >
   Apache Cassandra is a NoSQL distributed database known for its horizontal scalability, distributed architecture, and flexible schema definition.
 no_list: true
+tags:
+  - domain/mcp
+  - artifact/mcp-server
+  - source/mcp-servers
 ---
 
 ## About
@@ -58,3 +62,9 @@ instead of hardcoding your secrets into the configuration file.
 | certPath               |  string  |    false     | Path to the client certificate for SSL/TLS (e.g., "/path/to/client.crt").                                                                          |
 | keyPath                |  string  |    false     | Path to the client key for SSL/TLS (e.g., "/path/to/client.key").                                                                                  |
 | enableHostVerification | boolean  |    false     | Enable host verification for SSL/TLS (e.g., true). By default, host verification is disabled.                                                      |
+
+## 🔗 Связи
+
+- [[MOC - MCP Servers]] — mcp-servers
+- [[000 - Map of Maps]] — Map of Maps
+

@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # AWS Best Practices for Startups
 
 Production-ready practices for serverless, cost optimization, security, and operational excellence.
@@ -629,3 +636,9 @@ ErrorAlarm:
 | Data transfer costs | Keep traffic in same AZ/region |
 | NAT Gateway charges | Use VPC endpoints for AWS services |
 | Log accumulation | Set CloudWatch retention policies |
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

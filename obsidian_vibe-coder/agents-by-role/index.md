@@ -52,3 +52,9 @@ source: "../COMBINED/agents/by-role/"
 - **Родительский MOC:** [[MOC - Agents]]
 - **Мега-агенты:** [[combined/Agents Overview]]
 - **Система:** [[orchestration/core-omc]]
+
+## 🔗 Связи
+
+- [[MOC - Agents]] — Parent MOC
+- [[000 - Map of Maps]] — Map of Maps
+

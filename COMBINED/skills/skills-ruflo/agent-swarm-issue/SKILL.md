@@ -1,6 +1,10 @@
 ---
 name: agent-swarm-issue
 description: Agent skill for swarm-issue - invoke with $agent-swarm-issue
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-ruflo
 ---
 
 ---
@@ -576,3 +580,9 @@ const postHook = async (results) => {
 ```
 
 See also: [swarm-pr.md](.$swarm-pr.md), [sync-coordinator.md](.$sync-coordinator.md), [workflow-automation.md](.$workflow-automation.md)
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-ruflo]] — Category: skills-ruflo
+

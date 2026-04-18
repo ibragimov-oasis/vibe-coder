@@ -1,6 +1,10 @@
 ---
 title: "Technology Stack Evaluator — Agent Skill & Codex Plugin"
 description: "Technology stack evaluation and comparison with TCO analysis, security assessment, and ecosystem health scoring. Use when comparing frameworks. Agent skill for Claude Code, Codex CLI, Gemini CLI, OpenClaw."
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
 ---
 
 # Technology Stack Evaluator
@@ -193,3 +197,9 @@ python scripts/migration_analyzer.py --from angular-1.x --to react
 - Trivial decisions between similar tools (use team preference)
 - Mandated technology choices (decision already made)
 - Emergency production issues (use monitoring tools)
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

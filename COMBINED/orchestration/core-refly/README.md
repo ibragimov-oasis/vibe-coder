@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-refly
+---
+
 
 <img width="2880" height="1620" alt="the first open-source agent skills builder" src="https://github.com/user-attachments/assets/2609adbb-c8db-4ca4-8404-12eb32d19cf1" />
 
@@ -385,3 +392,9 @@ For those who'd like to contribute code, see our [Contribution Guide](CONTRIBUTI
 ## License
 
 This repository is licensed under the [ReflyAI Open Source License](LICENSE), which is essentially the Apache 2.0 License with some additional restrictions.
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-refly]] — core-refly
+

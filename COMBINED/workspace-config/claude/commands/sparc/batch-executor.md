@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/config
+  - source/workspace-config
+---
+
 # SPARC Batch Executor Mode
 
 ## Purpose
@@ -52,3 +59,9 @@ npx claude-flow@alpha sparc run batch-executor "process multiple files"
 - Progress monitoring
 - Error recovery
 - Result aggregation
+
+## 🔗 Связи
+
+- [[MOC - System]] — workspace-config
+- [[000 - Map of Maps]] — Map of Maps
+

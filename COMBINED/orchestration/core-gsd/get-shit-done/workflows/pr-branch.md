@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-gsd
+---
+
 <purpose>
 Create a clean branch for pull requests by filtering out .planning/ commits.
 The PR branch contains only code changes — reviewers don't see GSD artifacts
@@ -127,3 +134,10 @@ Or use /gsd:ship to create the PR automatically.
 - [ ] Commit messages preserved from original
 - [ ] User shown next steps
 </success_criteria>
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-gsd]] — core-gsd
+- [[MOC - Skills]] — Skills library
+

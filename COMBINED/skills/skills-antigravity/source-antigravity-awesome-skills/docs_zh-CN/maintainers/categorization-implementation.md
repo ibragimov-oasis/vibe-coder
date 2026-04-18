@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # 智能分类实施 - 完整摘要
 
 ## ✅ 已完成的工作
@@ -168,3 +175,9 @@ date_added: "2026-03-06"
 **状态**: ✅ 完成并部署到 Web 应用程序！
 
 Web 应用程序现在拥有清晰、智能的类别过滤器，而不是"未分类"混乱。🚀
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

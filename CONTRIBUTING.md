@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/root
+---
+
 # 🤝 Contributing to Vibe-Coder Arsenal
 
 Thank you for wanting to make this collection even better!
@@ -43,3 +50,8 @@ Be kind. We're all here because AI makes coding accessible. Let's keep it that w
 ## Questions?
 
 Open an issue or reach out to [@ibragimov-oasis](https://github.com/ibragimov-oasis).
+
+## 🔗 Связи
+
+- [[000 - Map of Maps]] — Map of Maps
+

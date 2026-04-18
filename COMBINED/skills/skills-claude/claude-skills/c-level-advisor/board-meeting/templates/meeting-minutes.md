@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # Board Meeting Minutes Template
 
 This is the Layer 2 output — the founder-approved record of what was decided.
@@ -89,3 +96,9 @@ These were not resolved in this meeting. They carry forward.
 
 *Minutes approved by: [Founder name] on [DATE]*
 *Raw transcript: `memory/board-meetings/[DATE]-raw.md`*
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

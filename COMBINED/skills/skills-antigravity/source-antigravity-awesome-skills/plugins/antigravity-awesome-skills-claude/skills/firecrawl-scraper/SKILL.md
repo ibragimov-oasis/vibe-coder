@@ -4,6 +4,10 @@ description: "Deep web scraping, screenshots, PDF parsing, and website crawling 
 risk: unknown
 source: community
 date_added: "2026-02-27"
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 # firecrawl-scraper
@@ -38,3 +42,9 @@ See the GitHub repository for troubleshooting guides.
 
 ## Related Skills
 - context7-auto-research, tavily-web, exa-search, codex-review
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

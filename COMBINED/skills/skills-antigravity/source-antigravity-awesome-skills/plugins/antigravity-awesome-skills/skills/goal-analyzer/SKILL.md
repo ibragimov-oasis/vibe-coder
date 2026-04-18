@@ -4,6 +4,10 @@ description: 分析健康目标数据、识别目标模式、评估目标进度,
 allowed-tools: Read, Grep, Glob, Write
 risk: unknown
 source: community
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 # 健康目标分析器技能
@@ -605,3 +609,9 @@ def validate_smart_goal(goal):
 ---
 
 **使用此技能时,始终优先考虑用户的健康和安全!**
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

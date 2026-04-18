@@ -12,6 +12,10 @@ tools:
   - mcp__lightpanda
   - mcp__supermemory
   - mcp__gitnexus
+tags:
+  - domain/agents
+  - artifact/mega-agent
+  - source/mega
 ---
 
 <role>
@@ -372,3 +376,10 @@ CONTENT STRATEGY:
 | Schema.org markup | ✅/❌ | {action} |
 ```
 </report_format>
+
+## 🔗 Связи
+
+- [[MOC - Agents]] — Agent catalog
+- [[agents/mega-seo]] — Vault entry
+- [[MOC - Skills]] — Skills library
+

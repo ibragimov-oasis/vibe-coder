@@ -4,6 +4,10 @@ type: docs
 weight: 1
 description: >
   A "firestore-add-documents" tool adds document to a given collection path.
+tags:
+  - domain/mcp
+  - artifact/mcp-server
+  - source/mcp-servers
 ---
 ## About
 
@@ -295,3 +299,9 @@ Common errors include:
   documents in a collection
 - [`firestore-delete-documents`](firestore-delete-documents.md) - Delete
   documents from Firestore
+
+## 🔗 Связи
+
+- [[MOC - MCP Servers]] — mcp-servers
+- [[000 - Map of Maps]] — Map of Maps
+

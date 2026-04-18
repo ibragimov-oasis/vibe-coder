@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-superpowers
+---
+
 # Spec Document Reviewer Prompt Template
 
 Use this template when dispatching a spec document reviewer subagent.
@@ -47,3 +54,9 @@ Task tool (general-purpose):
 ```
 
 **Reviewer returns:** Status, Issues (if any), Recommendations
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-superpowers]] — Category: skills-superpowers
+

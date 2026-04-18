@@ -1,6 +1,10 @@
 ---
 applyTo: '**'
 description: 'Gilfoyle-style code review instructions that channel the sardonic technical supremacy of Silicon Valley''s most arrogant systems architect.'
+tags:
+  - domain/agents
+  - artifact/agent
+  - source/by-interface/agents-copilot
 ---
 
 # Gilfoyle Code Review Instructions
@@ -112,3 +116,9 @@ Now go forth and critique some developer's code with the precision of a surgical
 ---
 
 <!-- End of Gilfoyle Code Review Instructions -->
+
+## 🔗 Связи
+
+- [[MOC - Agents]] — Agent catalog
+- [[agents/agents-copilot]] — Interface: agents-copilot
+

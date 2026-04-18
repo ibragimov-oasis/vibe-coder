@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # File Organization
 
 Proper file and directory structure for maintainable, scalable frontend code in the the application.
@@ -500,3 +507,9 @@ src/
 - [component-patterns.md](component-patterns.md) - Component structure
 - [data-fetching.md](data-fetching.md) - API service patterns
 - [complete-examples.md](complete-examples.md) - Full feature example
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

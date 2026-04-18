@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-gsd
+---
+
 # GSD 用户指南
 
 工作流、故障排除和配置的详细参考。快速入门设置请参阅 [README](README.md)。
@@ -490,3 +497,10 @@ claude --dangerously-skip-permissions
       RESEARCH.md         # 生态研究发现
       VERIFICATION.md     # 执行后验证结果
 ```
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-gsd]] — core-gsd
+- [[MOC - Skills]] — Skills library
+

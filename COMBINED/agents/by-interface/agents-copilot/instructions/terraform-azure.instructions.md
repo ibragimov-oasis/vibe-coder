@@ -1,6 +1,10 @@
 ---
 description: 'Create or modify solutions built using Terraform on Azure.'
 applyTo: '**/*.terraform, **/*.tf, **/*.tfvars, **/*.tflint.hcl, **/*.tfstate, **/*.tf.json, **/*.tfvars.json'
+tags:
+  - domain/agents
+  - artifact/agent
+  - source/by-interface/agents-copilot
 ---
 
 # Azure Terraform Best Practices
@@ -252,3 +256,9 @@ Follow AVM specifications TFNFR1, TFNFR2, TFNFR3, and TFNFR4 for consistent file
 ## Fallback Behavior
 
 If general rules are not loaded, default to: minimalist code generation, explicit consent for any terraform commands beyond validate, and adherence to CALMS principles in all suggestions.
+
+## 🔗 Связи
+
+- [[MOC - Agents]] — Agent catalog
+- [[agents/agents-copilot]] — Interface: agents-copilot
+

@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-gsd
+---
+
 # Discovery Template
 
 Template for `.planning/phases/XX-name/DISCOVERY.md` - shallow research for library/option decisions.
@@ -144,3 +151,10 @@ Create `.planning/phases/XX-name/DISCOVERY.md`:
 - "How do experts build this" questions
 - Use `/gsd:research-phase` for these
 </guidelines>
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-gsd]] — core-gsd
+- [[MOC - Skills]] — Skills library
+

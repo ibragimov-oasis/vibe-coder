@@ -1,6 +1,10 @@
 ---
 name: first-ask
 description: 'Interactive, input-tool powered, task refinement workflow: interrogates scope, deliverables, constraints before carrying out the task; Requires the Joyride extension.'
+tags:
+  - domain/agents
+  - artifact/skill
+  - source/skills-copilot
 ---
 
 # Act Informed: First understand together with the human, then do
@@ -28,3 +32,10 @@ After gathering sufficient information, and having a clear understanding of the 
 1. Show your plan to the user with redundancy kept to a minimum
 2. Create a todo list
 3. Get to work!
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-copilot]] — Category: skills-copilot
+- [[MOC - Agents]] — Copilot agents
+

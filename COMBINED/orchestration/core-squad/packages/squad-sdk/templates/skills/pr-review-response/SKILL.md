@@ -11,6 +11,10 @@ tools:
   - name: "gh api (REST)"
     description: "Reply to review comment threads and resolve threads via GraphQL"
     when: "Step 3 — posting reply to each comment thread after fixing"
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-squad
 ---
 
 ## Context
@@ -266,3 +270,10 @@ Do NOT resolve the thread when pushing back. Leave it open for the reviewer to c
 - ❌ **Replying before pushing** — Reply after your fix is committed and pushed, not before. The reply should reference actual committed code.
 - ❌ **Ignoring comments you disagree with** — If you don't apply a suggestion, reply explaining why. Silence looks like you missed it.
 - ❌ **Replying to replies** — The REST API only supports replying to top-level review comments. Attempting to reply to a reply will fail with a 404.
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/squad]] — Squad
+- [[000 - Map of Maps]] — Map of Maps
+

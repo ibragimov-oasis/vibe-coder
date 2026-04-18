@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # QMS Process Templates
 
 Ready-to-use templates for ISO 13485 QMS processes including document control, internal audit, CAPA, and supplier management.
@@ -874,3 +881,9 @@ FOLLOW-UP ACTIONS
 [ ] Supplier notified: Date: _______
 [ ] Other: _______
 ```
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

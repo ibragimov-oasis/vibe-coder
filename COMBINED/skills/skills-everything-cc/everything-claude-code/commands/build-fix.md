@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
+---
+
 # Build and Fix
 
 Incrementally fix build and type errors with minimal, safe changes.
@@ -60,3 +67,9 @@ Show results:
 | Build tool misconfiguration | Read config file; compare with working defaults |
 
 Fix one error at a time for safety. Prefer minimal diffs over refactoring.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

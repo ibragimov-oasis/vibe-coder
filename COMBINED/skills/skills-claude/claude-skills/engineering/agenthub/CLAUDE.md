@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # AgentHub — Claude Code Instructions
 
 This plugin enables multi-agent collaboration. Spawn N parallel subagents that compete on the same task, evaluate results, and merge the winner.
@@ -57,3 +64,9 @@ Agents communicate via `.agenthub/board/` markdown files:
 - Process optimization — agents propose competing workflow improvements
 - Feature prioritization — agents build different RICE/ICE scoring models
 - Any task that benefits from parallel exploration
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

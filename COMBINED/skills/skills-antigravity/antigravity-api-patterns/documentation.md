@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # API Documentation Principles
 
 > Good docs = happy developers = API adoption.
@@ -24,3 +31,9 @@ Essentials:
 ├── Code examples (multiple languages)
 └── Changelog
 ```
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

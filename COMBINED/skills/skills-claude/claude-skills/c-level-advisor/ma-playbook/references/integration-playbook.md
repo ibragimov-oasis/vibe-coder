@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # Post-Acquisition Integration Playbook
 
 The 100-day plan for integrating an acquisition. Most acquisitions fail not because of bad deals but bad integration.
@@ -143,3 +150,9 @@ Sometimes acquisitions don't work. Signs it's failing:
 3. Spin off or divest (expensive, but sometimes necessary)
 
 Admitting failure early costs less than dragging it out.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

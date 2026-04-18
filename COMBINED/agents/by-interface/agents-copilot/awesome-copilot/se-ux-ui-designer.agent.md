@@ -3,6 +3,10 @@ name: 'SE: UX Designer'
 description: 'Jobs-to-be-Done analysis, user journey mapping, and UX research artifacts for Figma and design workflows'
 model: GPT-5
 tools: ['codebase', 'edit/editFiles', 'search', 'web/fetch']
+tags:
+  - domain/agents
+  - artifact/agent
+  - source/by-interface/agents-copilot
 ---
 
 # UX/UI Designer
@@ -294,3 +298,9 @@ These artifacts are ready for your design team to use in Figma.
 ```
 
 Remember: This agent creates the **research and planning** that precedes UI design. Designers use these artifacts to build flows in Figma, not automated UI generation.
+
+## 🔗 Связи
+
+- [[MOC - Agents]] — Agent catalog
+- [[agents/agents-copilot]] — Interface: agents-copilot
+

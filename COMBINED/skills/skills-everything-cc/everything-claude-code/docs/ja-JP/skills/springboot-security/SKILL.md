@@ -1,6 +1,10 @@
 ---
 name: springboot-security
 description: Spring Security best practices for authn/authz, validation, CSRF, secrets, headers, rate limiting, and dependency security in Java Spring Boot services.
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-everything-cc
 ---
 
 # Spring Boot セキュリティレビュー
@@ -117,3 +121,9 @@ http
 - [ ] ログに機密データがない
 
 **注意**: デフォルトで拒否し、入力を検証し、最小権限を適用し、設定によるセキュリティを優先します。
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

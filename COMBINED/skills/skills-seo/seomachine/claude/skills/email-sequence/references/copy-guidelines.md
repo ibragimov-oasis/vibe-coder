@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/seo
+  - artifact/doc
+  - source/skills-seo
+---
+
 # Email Copy Guidelines
 
 ## Structure
@@ -101,3 +108,9 @@
 - Unsubscribe rate (keep under 0.5%)
 - Conversion rate (specific to sequence goal)
 - Revenue per email (if applicable)
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-seo]] — Category: skills-seo
+

@@ -34,7 +34,11 @@ You supply a square-cornered icon for each extension you offer, and the system a
 
 To ensure that your icon looks great in any context and on various devices, create a square-cornered icon in the following sizes:
 
-Usage| @2x (pixels)| @3x (pixels)  
+Usage| @2x (pixels)| @3x (pixels)
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
 ---|---|---  
 Messages, notifications| 148x110| -  
 | 143x100| -  
@@ -101,5 +105,10 @@ JPEG| No| No
 
 Date| Changes  
 ---|---  
-May 2, 2023| Consolidated guidance into one page.  
-  
+May 2, 2023| Consolidated guidance into one page.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

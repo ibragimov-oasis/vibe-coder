@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-gsd
+---
+
 # 컨텍스트 윈도우 모니터
 
 에이전트의 컨텍스트 윈도우 사용량이 높을 때 경고를 주는 post-tool 훅입니다 (Claude Code의 경우 `PostToolUse`, Gemini CLI의 경우 `AfterTool`).
@@ -113,3 +120,10 @@ Gemini CLI (`~/.gemini/settings.json`)의 경우 `PostToolUse` 대신 `AfterTool
 - 도구 실행을 절대 차단하지 않습니다. 모니터에 문제가 생겨도 에이전트 워크플로우가 중단되지 않습니다.
 - 60초 이상 된 오래된 메트릭은 무시됩니다.
 - 누락된 브리지 파일은 정상적으로 처리됩니다 (서브에이전트, 새 세션 등의 경우).
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-gsd]] — core-gsd
+- [[MOC - Skills]] — Skills library
+

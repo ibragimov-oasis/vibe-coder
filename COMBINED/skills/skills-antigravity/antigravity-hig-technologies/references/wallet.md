@@ -72,7 +72,11 @@ Although each pass style is different, all styles display information using the 
 
 All passes display a logo image, and some can display additional images in other areas depending on the pass style. To display information in the layout areas, use the following [`PassFields`](https://developer.apple.com/documentation/WalletPasses/PassFields).
 
-Field| Layout area| Use to provide…  
+Field| Layout area| Use to provide…
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
 ---|---|---  
 Header| Essential| Critical information that needs to remain visible when the pass is collapsed in Wallet.  
 Primary| Primary| Important information that helps people use the pass.  
@@ -416,5 +420,10 @@ December 18, 2024| Added guidance for the poster event ticket style.
 September 12, 2023| Added guidance for helping people add orders to Wallet.  
 February 20, 2023| Enhanced guidance for presenting order-tracking information and added artwork.  
 November 30, 2022| Added guidance to include a carrier name in status information for a shipping fulfillment.  
-September 14, 2022| Added guidelines for using Verify with Wallet, updated guidance on providing shipping status values and descriptions, and consolidated guidance into one page.  
-  
+September 14, 2022| Added guidelines for using Verify with Wallet, updated guidance on providing shipping status values and descriptions, and consolidated guidance into one page.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

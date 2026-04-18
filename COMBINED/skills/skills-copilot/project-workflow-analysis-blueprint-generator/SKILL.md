@@ -1,6 +1,10 @@
 ---
 name: project-workflow-analysis-blueprint-generator
 description: 'Comprehensive technology-agnostic prompt generator for documenting end-to-end application workflows. Automatically detects project architecture patterns, technology stacks, and data flow patterns to generate detailed implementation blueprints covering entry points, service layers, data access, error handling, and testing approaches across multiple technologies including .NET, Java/Spring, React, and microservices architectures.'
+tags:
+  - domain/agents
+  - artifact/skill
+  - source/skills-copilot
 ---
 
 # Project Workflow Documentation Generator
@@ -291,3 +295,10 @@ Based on the documented workflows, provide specific guidance for implementing ne
 **Conclusion:**
 Conclude with a summary of the most important patterns that should be followed when 
 implementing new features to maintain consistency with the codebase."
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-copilot]] — Category: skills-copilot
+- [[MOC - Agents]] — Copilot agents
+

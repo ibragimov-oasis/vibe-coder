@@ -4,6 +4,10 @@ description: Documentation and codemap specialist. Use PROACTIVELY for updating 
 allowedTools:
   - read
   - write
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
 ---
 
 # Documentation & Codemap Specialist
@@ -106,3 +110,9 @@ Links to other codemaps
 ---
 
 **Remember**: Documentation that doesn't match reality is worse than no documentation. Always generate from the source of truth.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

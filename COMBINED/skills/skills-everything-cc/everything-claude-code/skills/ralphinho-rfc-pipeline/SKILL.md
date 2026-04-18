@@ -2,6 +2,10 @@
 name: ralphinho-rfc-pipeline
 description: RFC-driven multi-agent DAG execution pattern with quality gates, merge queues, and work unit orchestration.
 origin: ECC
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-everything-cc
 ---
 
 # Ralphinho RFC Pipeline
@@ -65,3 +69,9 @@ If a unit stalls:
 - unit scorecards
 - dependency graph snapshot
 - integration risk summary
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

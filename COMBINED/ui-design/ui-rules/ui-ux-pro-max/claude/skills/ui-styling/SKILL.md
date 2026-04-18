@@ -6,6 +6,10 @@ license: MIT
 metadata:
   author: claudekit
   version: "1.0.0"
+tags:
+  - domain/ui
+  - artifact/ui-component
+  - source/ui-design
 ---
 
 # UI Styling Skill
@@ -322,3 +326,9 @@ export function LoginForm() {
 - Tailwind UI: https://tailwindui.com
 - Headless UI: https://headlessui.com
 - v0 (AI UI Generator): https://v0.dev
+
+## 🔗 Связи
+
+- [[MOC - UI Design]] — ui-design
+- [[000 - Map of Maps]] — Map of Maps
+

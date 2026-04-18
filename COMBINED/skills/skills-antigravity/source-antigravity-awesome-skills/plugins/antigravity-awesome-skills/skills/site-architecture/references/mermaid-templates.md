@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # Mermaid Diagram Templates
 
 Copy-paste-ready Mermaid diagrams for visual sitemaps. Customize node labels and connections for your site.
@@ -214,3 +221,9 @@ Color key:
 - **Red** (`#f44336`): Pages to remove or redirect
 - **Yellow** (`#FFC107`): Pages to restructure or move
 - **Purple** (`#9C27B0`): High-priority / CTA pages
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

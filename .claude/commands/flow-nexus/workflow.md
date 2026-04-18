@@ -1,6 +1,10 @@
 ---
 name: flow-nexus-workflow
 description: Event-driven workflow automation with message queues
+tags:
+  - domain/skills
+  - artifact/command
+  - source/claude-commands
 ---
 
 # Flow Nexus Workflows
@@ -113,3 +117,9 @@ mcp__flow-nexus__workflow_create({
   metadata: { priority: 10 }
 })
 ```
+
+## 🔗 Связи
+
+- [[MOC - System]] — System commands
+- [[MOC - Skills]] — Skills library
+

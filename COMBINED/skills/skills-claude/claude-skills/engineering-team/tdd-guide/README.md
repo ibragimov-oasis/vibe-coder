@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # TDD Guide - Test Driven Development Skill
 
 **Version**: 1.0.0
@@ -678,3 +685,9 @@ Built with Claude Skills Factory toolkit, following Test Driven Development best
 ---
 
 **Ready to improve your testing workflow?** Install the TDD Guide skill and start generating high-quality tests today!
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

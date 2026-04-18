@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
+---
+
 # Atualizar Codemaps
 
 Analise a estrutura do codebase e gere documentação arquitetural enxuta em tokens.
@@ -70,3 +77,9 @@ Escreva um resumo em `.reports/codemap-diff.txt`:
 - Mantenha cada codemap abaixo de **1000 tokens** para carregamento eficiente de contexto
 - Use diagramas ASCII para fluxo de dados em vez de descrições verbosas
 - Rode após grandes adições de feature ou sessões de refatoração
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

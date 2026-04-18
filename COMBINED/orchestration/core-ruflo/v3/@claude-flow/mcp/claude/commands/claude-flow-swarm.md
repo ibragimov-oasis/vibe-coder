@@ -1,6 +1,10 @@
 ---
 name: claude-flow-swarm
 description: Coordinate multi-agent swarms for complex tasks
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
 ---
 
 # 🐝 Claude-Flow Swarm Coordination
@@ -203,3 +207,10 @@ Swarms automatically use distributed memory for collaboration:
 - Adaptive
 
 For detailed documentation, see: https://github.com/ruvnet/claude-code-flow/docs/swarm-system.md
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

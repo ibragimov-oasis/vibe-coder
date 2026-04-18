@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # SAFLA Model - Quick Start Guide
 
 ## 🚀 Get Started in 60 Seconds

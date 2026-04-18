@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/command
+  - source/commands
+---
+
 # Pair Programming Commands Reference
 
 Complete reference for all pair programming session commands.
@@ -544,3 +551,9 @@ Use custom commands:
 - [Configuration](./config.md)
 - [Keyboard Shortcuts](./shortcuts.md)
 - [Getting Started](./README.md)
+
+## 🔗 Связи
+
+- [[MOC - System]] — commands
+- [[000 - Map of Maps]] — Map of Maps
+

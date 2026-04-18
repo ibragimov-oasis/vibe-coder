@@ -1,6 +1,10 @@
 ---
 name: golang-testing
 description: Go testing patterns including table-driven tests, subtests, benchmarks, fuzzing, and test coverage. Follows TDD methodology with idiomatic Go practices.
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-everything-cc
 ---
 
 # Go 測試模式
@@ -708,3 +712,9 @@ test:
 ```
 
 **記住**：測試是文件。它們展示你的程式碼應該如何使用。清楚地撰寫並保持更新。
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

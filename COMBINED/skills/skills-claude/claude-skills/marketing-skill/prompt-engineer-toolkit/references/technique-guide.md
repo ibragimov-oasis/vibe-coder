@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # Technique Guide
 
 ## Selection Rules
@@ -23,3 +30,9 @@
 - Contradictory constraints
 - No negative examples for unsafe behavior
 - Hidden assumptions not stated in prompt
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

@@ -2,6 +2,10 @@
 description: "Kotlin coding style extending common rules"
 globs: ["**/*.kt", "**/*.kts", "**/build.gradle.kts"]
 alwaysApply: false
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
 ---
 # Kotlin Coding Style
 
@@ -37,3 +41,9 @@ fun isAdult(age: Int): Boolean = age >= 18
 ## Reference
 
 See skill: `kotlin-patterns` for comprehensive Kotlin idioms and patterns.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

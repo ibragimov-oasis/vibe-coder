@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # Progress Log
 <!-- 
   WHAT: Your session log - a chronological record of what you did, when, and what happened.
@@ -112,3 +119,9 @@
   - Include timestamps for errors to track when issues occurred
 -->
 *Update after completing each phase or encountering errors*
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

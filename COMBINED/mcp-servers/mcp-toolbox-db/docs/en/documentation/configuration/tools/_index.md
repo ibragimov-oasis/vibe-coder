@@ -5,6 +5,10 @@ weight: 4
 description: >
   Tools define actions an agent can take -- such as reading and writing to a
   source.
+tags:
+  - domain/mcp
+  - artifact/mcp-server
+  - source/mcp-servers
 ---
 
 A tool represents an action your agent can take, such as running a SQL
@@ -373,3 +377,9 @@ result, err := tool.Invoke(ctx, inputs)
 
 
 To see all supported sources and the specific tools they unlock, explore the full list of our [Integrations](../../../integrations/_index.md).
+
+## 🔗 Связи
+
+- [[MOC - MCP Servers]] — mcp-servers
+- [[000 - Map of Maps]] — Map of Maps
+

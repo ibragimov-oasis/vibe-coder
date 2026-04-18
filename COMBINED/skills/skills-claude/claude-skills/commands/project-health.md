@@ -1,6 +1,11 @@
 ---
 name: project-health
 description: Portfolio health dashboard and risk matrix analysis. Usage: /project-health <dashboard|risk> [options]
+tags:
+  - domain/agents
+  - artifact/skill
+  - source/skills-claude
+  - artifact/doc
 ---
 
 # /project-health
@@ -41,3 +46,10 @@ Generate portfolio health dashboards and risk matrices for project oversight.
 
 ## Skill Reference
 > `project-management/senior-pm/SKILL.md`
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+- [[MOC - Agents]] — Claude agents
+

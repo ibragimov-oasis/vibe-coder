@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-copilot
+---
+
 # Bug Report Template
 
 Use this template when creating bug reports for Oracle-to-PostgreSQL migration defects.
@@ -77,3 +84,9 @@ are already applied or still needed.>
 - Call out data layer nuances (tracking, padding, constraints) explicitly
 - Keep to existing runtime/language versions; avoid speculative fixes
 - Include minimal SQL excerpts and logs as evidence; omit sensitive data
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-copilot]] — Category: skills-copilot
+

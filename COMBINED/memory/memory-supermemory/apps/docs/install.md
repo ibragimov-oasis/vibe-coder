@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/memory
+  - artifact/memory
+  - source/memory
+---
+
 You are integrating Supermemory into my application. Supermemory provides user memory, semantic search, and automatic knowledge extraction for AI applications.
 
 You can always reference the documentation by using the **SearchSupermemoryDocs MCP** or running a web search tool for content on **supermemory.ai/docs**.
@@ -300,3 +307,9 @@ curl -X POST https://api.supermemory.ai/v4/profile \
 3. Include installation, settings config, and full integration
 
 **DOCS:** https://supermemory.ai/docs
+
+## 🔗 Связи
+
+- [[MOC - Memory]] — memory
+- [[000 - Map of Maps]] — Map of Maps
+

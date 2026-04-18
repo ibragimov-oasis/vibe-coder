@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # Incident Report: [INC-YYYY-NNNN] [Title]
 
 **Severity:** SEV[1-4]
@@ -169,3 +176,9 @@
 ---
 
 *This report follows the blameless postmortem principle. The goal is systemic improvement, not individual accountability. All contributing factors should trace to process, tooling, or environmental gaps that can be addressed with concrete action items.*
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

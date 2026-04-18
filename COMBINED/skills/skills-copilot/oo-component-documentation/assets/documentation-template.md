@@ -6,6 +6,9 @@ date_created: [YYYY-MM-DD]
 last_updated: [Optional YYYY-MM-DD]
 owner: [Optional team or individual]
 tags: [Optional list of relevant tags]
+  - domain/agents
+  - artifact/doc
+  - source/skills-copilot
 ---
 
 # [Component Name] Documentation
@@ -95,3 +98,9 @@ graph TD
 - REF-004: Capture troubleshooting notes and common issues
 - REF-005: Link related documentation
 - REF-006: Add change history or migration notes when relevant
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-copilot]] — Category: skills-copilot
+

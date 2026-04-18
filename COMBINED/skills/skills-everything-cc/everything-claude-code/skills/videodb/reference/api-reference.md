@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
+---
+
 # Complete API Reference
 
 Reference material for the VideoDB skill. For usage guidance and workflow selection, start with [../SKILL.md](../SKILL.md).
@@ -548,3 +555,9 @@ from videodb.exceptions import (
 | `RequestTimeoutError` | Server took too long to respond |
 | `SearchError` | Searching before indexing, invalid search type |
 | `VideodbError` | Server errors, network issues, generic failures |
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

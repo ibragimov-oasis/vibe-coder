@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/seo
+  - artifact/doc
+  - source/skills-seo
+---
+
 # Landing Page Research Command
 
 Use this command to research a landing page opportunity before creating it. Analyzes competitors, keywords, and provides strategic recommendations.
@@ -334,3 +341,9 @@ Focus on:
 ```
 /landing-audit [existing-page-url]
 ```
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-seo]] — Category: skills-seo
+

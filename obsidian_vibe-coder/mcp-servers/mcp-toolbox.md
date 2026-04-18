@@ -52,3 +52,9 @@ result = db.query("SELECT * FROM users LIMIT 10")
 
 - [[mcp-servers/mcp-code-review-graph]] — анализ кода
 - [[combined/Agents Overview]] — агенты, использующие БД
+
+## 🔗 Связи
+
+- [[MOC - MCP Servers]] — Parent MOC
+- [[000 - Map of Maps]] — Map of Maps
+

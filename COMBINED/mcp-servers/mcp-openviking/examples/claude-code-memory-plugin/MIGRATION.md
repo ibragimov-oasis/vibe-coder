@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/mcp
+  - artifact/mcp-server
+  - source/mcp-servers
+---
+
 # Migration Guide: claude-memory-plugin → claude-code-memory-plugin
 
 This guide helps you migrate from the legacy `claude-memory-plugin` to the new `claude-code-memory-plugin`.
@@ -149,3 +156,9 @@ These tools are available when you need explicit control over memory operations.
 | MCP tools not available | Start a new Claude session; first run installs runtime deps |
 | No memories recalled | Ensure OpenViking server is running: `openviking-server` |
 | Hook timeout | Increase timeout in `hooks/hooks.json` |
+
+## 🔗 Связи
+
+- [[MOC - MCP Servers]] — mcp-servers
+- [[000 - Map of Maps]] — Map of Maps
+

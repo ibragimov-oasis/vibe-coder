@@ -4,6 +4,10 @@ description: "You are a PR optimization expert specializing in creating high-qua
 risk: unknown
 source: community
 date_added: "2026-02-27"
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 # Pull Request Enhancement
@@ -49,3 +53,9 @@ Focus on creating PRs that are a pleasure to review, with all necessary context 
 ## Resources
 
 - `resources/implementation-playbook.md` for detailed patterns and examples.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

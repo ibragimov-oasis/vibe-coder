@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-squad
+---
+
 # Glossary
 
 > ⚠️ **Experimental** — Squad is alpha software. APIs, commands, and behavior may change between releases.
@@ -37,3 +44,10 @@ Key terms defined in one sentence each. Alphabetical order.
 **.squad/ directory** — The root directory containing all team state: roster, routing, decisions, agent charters and histories, and ceremony config.
 
 **Team** — The collection of agents working on your project, defined in `.squad/team.md`.
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/squad]] — Squad
+- [[000 - Map of Maps]] — Map of Maps
+

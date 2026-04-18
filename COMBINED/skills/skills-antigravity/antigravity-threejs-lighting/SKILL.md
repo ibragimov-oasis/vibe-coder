@@ -3,6 +3,10 @@ name: threejs-lighting
 description: Three.js lighting - light types, shadows, environment lighting. Use when adding lights, configuring shadows, setting up IBL, or optimizing lighting performance.
 risk: unknown
 source: community
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 # Three.js Lighting
@@ -482,3 +486,9 @@ decorMesh.castShadow = false; // Small objects often don't need to cast
 - `threejs-materials` - Material light response
 - `threejs-textures` - Lightmaps and environment maps
 - `threejs-postprocessing` - Bloom and other light effects
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

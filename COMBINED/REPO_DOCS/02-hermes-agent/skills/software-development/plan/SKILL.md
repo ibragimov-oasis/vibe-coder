@@ -55,3 +55,9 @@ If not, create a sensible timestamped filename yourself under `.hermes/plans/`.
 - If no explicit instruction accompanies `/plan`, infer the task from the current conversation context.
 - If it is genuinely underspecified, ask a brief clarifying question instead of guessing.
 - After saving the plan, reply briefly with what you planned and the saved path.
+
+## 🔗 Связи
+
+- [[000 - Map of Maps]] — REPO_DOCS
+- [[000 - Map of Maps]] — Map of Maps
+

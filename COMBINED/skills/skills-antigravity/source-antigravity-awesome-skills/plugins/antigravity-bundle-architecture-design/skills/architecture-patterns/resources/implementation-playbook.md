@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # Architecture Patterns Implementation Playbook
 
 This file contains detailed patterns, checklists, and code samples referenced by the skill.
@@ -477,3 +484,9 @@ class OrderRepository:
 - **Repository Leakage**: Exposing ORM objects
 - **Missing Abstractions**: Concrete dependencies in core
 - **Over-Engineering**: Clean architecture for simple CRUD
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

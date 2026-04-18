@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/ui
+  - artifact/doc
+  - source/skills-design
+---
+
 # Optimizing SwiftUI Performance with Instruments (Summary)
 
 Context: WWDC session introducing the next-generation SwiftUI Instrument in Instruments 26 and how to diagnose SwiftUI-specific bottlenecks.
@@ -27,3 +34,9 @@ Context: WWDC session introducing the next-generation SwiftUI Instrument in Inst
 
 - Caching formatted distance strings in a location manager instead of computing in `body`.
 - Replacing a dependency on a global favorites array with per-item view models to reduce update fan-out.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-design]] — Category: skills-design
+

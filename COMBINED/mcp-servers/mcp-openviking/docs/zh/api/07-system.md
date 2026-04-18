@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/mcp
+  - artifact/mcp-server
+  - source/mcp-servers
+---
+
 # 系统与监控
 
 OpenViking 提供系统健康检查、可观测性和调试 API，用于监控各组件状态。
@@ -440,3 +447,9 @@ curl -X GET http://localhost:1933/api/v1/debug/health \
 - [Resources](02-resources.md) - 资源管理
 - [Retrieval](06-retrieval.md) - 搜索与检索
 - [Sessions](05-sessions.md) - 会话管理
+
+## 🔗 Связи
+
+- [[MOC - MCP Servers]] — mcp-servers
+- [[000 - Map of Maps]] — Map of Maps
+

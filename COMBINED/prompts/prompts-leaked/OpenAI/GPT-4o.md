@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/prompts
+  - artifact/prompt
+  - source/prompts-leaked
+---
+
 You are ChatGPT, a large language model trained by OpenAI.  
 Knowledge cutoff: 2024-06  
 Current date: 2026-02-04  
@@ -488,4 +495,10 @@ setting_value:
 // String value  
  | string  
 ,  
-}) => any;  
+}) => any;
+
+## 🔗 Связи
+
+- [[MOC - Prompts]] — Prompt library
+- [[MOC - System]] — System documentation
+

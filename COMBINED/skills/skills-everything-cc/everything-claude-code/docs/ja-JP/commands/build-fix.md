@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
+---
+
 # ビルド修正
 
 TypeScript およびビルドエラーを段階的に修正します：
@@ -27,3 +34,9 @@ TypeScript およびビルドエラーを段階的に修正します：
    * 新たに導入されたエラー
 
 安全のため、一度に 1 つのエラーのみを修正してください！
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

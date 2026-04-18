@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/ui
+  - artifact/ui-component
+  - source/ui-design
+---
+
 # Site Template
 
 Use these templates when setting up a new project for the build loop.
@@ -102,3 +109,9 @@ Generate this using the `design-md` skill from an existing Stitch screen, or cre
 - Font: [Description]
 - Layout: [Description]
 ```
+
+## 🔗 Связи
+
+- [[MOC - UI Design]] — ui-design
+- [[000 - Map of Maps]] — Map of Maps
+

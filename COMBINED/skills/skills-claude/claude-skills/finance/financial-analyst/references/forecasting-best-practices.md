@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # Forecasting Best Practices
 
 Comprehensive reference for financial forecasting including driver-based models, rolling forecasts, accuracy improvement techniques, and scenario planning.
@@ -277,3 +284,9 @@ Map each scenario to specific driver values:
 - **Raw material price forecasts** for COGS
 - **Maintenance CapEx vs growth CapEx** distinction
 - **Utilization rates** driving unit cost projections
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

@@ -1,6 +1,10 @@
 ---
 name: obsidian-vault
 description: Search, create, and manage notes in the Obsidian vault with wikilinks and index notes. Use when user wants to find, create, or organize notes in Obsidian.
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-development
 ---
 
 # Obsidian Vault
@@ -57,3 +61,9 @@ grep -rl "\\[\\[Note Title\\]\\]" "/mnt/d/Obsidian Vault/AI Research/"
 ```bash
 find "/mnt/d/Obsidian Vault/AI Research/" -name "*Index*"
 ```
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-development]] — Category: skills-development
+

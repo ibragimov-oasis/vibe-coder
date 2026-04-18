@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # Embedding Model Benchmark 2024
 
 ## Executive Summary
@@ -336,3 +343,9 @@ The embedding model landscape offers excellent options across all use cases:
 - **Specialized**: Domain-specific models when available
 
 The key is matching your specific requirements to the right model characteristics. Consider starting with BAAI/bge-large-en-v1.5 as a strong general-purpose choice, then optimize based on your specific needs and constraints.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

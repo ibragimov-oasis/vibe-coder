@@ -3,6 +3,10 @@ name: apify-actorization
 description: "Actorization converts existing software into reusable serverless applications compatible with the Apify platform. Actors are programs packaged as Docker images that accept well-defined JSON input, perform an action, and optionally produce structured JSON output."
 risk: unknown
 source: community
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 # Apify Actorization
@@ -183,3 +187,9 @@ Otherwise, the MCP Server url: `https://mcp.apify.com/?tools=docs`.
 - [Apify SDK for Python](https://docs.apify.com/sdk/python) - Full SDK reference
 - [Apify CLI Reference](https://docs.apify.com/cli) - CLI commands
 - [Actor Specification](https://raw.githubusercontent.com/apify/actor-whitepaper/refs/heads/master/README.md) - Complete specification
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

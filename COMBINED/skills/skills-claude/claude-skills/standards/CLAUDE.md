@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # Standards Library - Claude Code Guidance
 
 This guide explains how to use the standards library for consistent quality across all skills and agents.
@@ -174,3 +181,9 @@ cat standards/git/git-workflow-standards.md
 **Last Updated:** November 5, 2025
 **Standards Count:** 5 comprehensive standards
 **Enforcement:** Required for all skills and agents
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

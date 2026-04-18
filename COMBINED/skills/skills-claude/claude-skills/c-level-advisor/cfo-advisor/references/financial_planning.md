@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # Financial Planning Reference
 
 Startup financial modeling frameworks. Build models that drive decisions, not models that impress investors.
@@ -498,3 +505,9 @@ gross_margin = (revenue - COGS) / revenue
 quick_ratio = (new_MRR + expansion_MRR) / (churned_MRR + contraction_MRR)
 # Target: > 4 for high-growth SaaS
 ```
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

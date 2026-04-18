@@ -3,6 +3,10 @@ name: git-commit
 description: 'Execute git commit with conventional commit message analysis, intelligent staging, and message generation. Use when user asks to commit changes, create a git commit, or mentions "/commit". Supports: (1) Auto-detecting type and scope from changes, (2) Generating conventional commit messages from diff, (3) Interactive commit with optional type/scope/description overrides, (4) Intelligent file staging for logical grouping'
 license: MIT
 allowed-tools: Bash
+tags:
+  - domain/agents
+  - artifact/skill
+  - source/skills-copilot
 ---
 
 # Git Commit with Conventional Commits
@@ -122,3 +126,10 @@ EOF
 - NEVER skip hooks (--no-verify) unless user asks
 - NEVER force push to main/master
 - If commit fails due to hooks, fix and create NEW commit (don't amend)
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-copilot]] — Category: skills-copilot
+- [[MOC - Agents]] — Copilot agents
+

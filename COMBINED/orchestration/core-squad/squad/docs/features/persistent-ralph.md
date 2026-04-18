@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-squad
+---
+
 # Persistent Ralph
 
 **Try this to see what agents are working on:**
@@ -341,3 +348,10 @@ Ralph adjusts its monitoring based on what platform the squad uses.
 - [Generic Scheduler](/features/generic-scheduler) — Schedule Ralph's heartbeat
 - [Upstream Auto-Sync](/features/upstream-sync) — Ralph can monitor sync status
 - [Cross-Squad Orchestration](/features/cross-squad-orchestration) — Ralph tracks delegation status
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/squad]] — Squad
+- [[000 - Map of Maps]] — Map of Maps
+

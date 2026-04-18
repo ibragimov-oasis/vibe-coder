@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/config
+  - source/workspace-config
+---
+
 # SPARC Debugger Mode
 
 ## Purpose
@@ -52,3 +59,9 @@ npx claude-flow@alpha sparc run debugger "fix authentication issues"
 - Variable inspection
 - Call stack tracing
 - Memory profiling
+
+## 🔗 Связи
+
+- [[MOC - System]] — workspace-config
+- [[000 - Map of Maps]] — Map of Maps
+

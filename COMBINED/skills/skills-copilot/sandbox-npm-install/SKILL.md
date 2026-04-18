@@ -1,6 +1,10 @@
 ---
 name: sandbox-npm-install
 description: 'Install npm packages in a Docker sandbox environment. Use this skill whenever you need to install, reinstall, or update node_modules inside a container where the workspace is mounted via virtiofs. Native binaries (esbuild, lightningcss, rollup) crash on virtiofs, so packages must be installed on the local ext4 filesystem and symlinked back.'
+tags:
+  - domain/agents
+  - artifact/skill
+  - source/skills-copilot
 ---
 
 # Sandbox npm Install
@@ -78,3 +82,10 @@ npm run dev          # Start dev server
 ## Vite Compatibility
 
 If your project uses Vite, you may need to allow the symlinked path in `server.fs.allow`. Add the symlink target's parent directory (e.g., `/home/agent/project-deps/`) to your Vite config so that Vite can serve files through the symlink.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-copilot]] — Category: skills-copilot
+- [[MOC - Agents]] — Copilot agents
+

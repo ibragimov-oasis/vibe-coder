@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-gsd
+---
+
 # Referência de Ferramentas CLI
 
 Resumo em Português das ferramentas CLI do GSD.  
@@ -70,3 +77,10 @@ Ler contexto do projeto
 
 > [!NOTE]
 > Este arquivo é um guia prático em Português para quem integra ou estende workflows. Para contratos estritos e detalhes técnicos completos, use o documento original em inglês.
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-gsd]] — core-gsd
+- [[MOC - Skills]] — Skills library
+

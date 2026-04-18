@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-squad
+---
+
 # TEST-SCRIPT: streaming-chat
 
 Manual test walkthrough for the streaming-chat MVP Summit demo.
@@ -111,3 +118,10 @@ npx vitest run
 **Expected:**
 - [x] All tests pass
 - [x] Tests cover: routing, demo responses, pipeline wiring, agent casting
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-squad]] — core-squad
+- [[MOC - Skills]] — Skills library
+

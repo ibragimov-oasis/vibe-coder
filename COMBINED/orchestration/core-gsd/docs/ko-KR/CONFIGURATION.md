@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-gsd
+---
+
 # GSD 설정 레퍼런스
 
 > 전체 설정 스키마, 워크플로우 토글, 모델 프로필, git 브랜칭 옵션입니다. 기능에 대한 맥락은 [Feature Reference](FEATURES.md)를 참조하세요.
@@ -340,3 +347,10 @@ quick 태스크 브랜칭 예시:
 **위치:** `~/.gsd/defaults.json`
 
 `/gsd:new-project`가 새 `config.json`을 생성할 때 전역 기본값을 읽어 초기 설정으로 병합합니다. 프로젝트별 설정은 항상 전역 설정보다 우선합니다.
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-gsd]] — core-gsd
+- [[MOC - Skills]] — Skills library
+

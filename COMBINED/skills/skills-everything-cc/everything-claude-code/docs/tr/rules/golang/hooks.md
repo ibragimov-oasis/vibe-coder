@@ -3,6 +3,10 @@ paths:
   - "**/*.go"
   - "**/go.mod"
   - "**/go.sum"
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
 ---
 # Go Hooks
 
@@ -15,3 +19,9 @@ paths:
 - **gofmt/goimports**: Edit'ten sonra `.go` dosyalarını otomatik formatla
 - **go vet**: `.go` dosyalarını düzenledikten sonra statik analiz çalıştır
 - **staticcheck**: Değiştirilen paketlerde genişletilmiş statik kontroller çalıştır
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

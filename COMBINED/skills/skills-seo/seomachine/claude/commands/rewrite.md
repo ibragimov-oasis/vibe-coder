@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/seo
+  - artifact/doc
+  - source/skills-seo
+---
+
 # Rewrite Command
 
 Use this command to update and improve existing blog posts based on analysis findings.
@@ -257,3 +264,9 @@ After rewrite completion:
 5. Note original URL to ensure proper redirect/replacement
 
 This ensures every rewritten article is significantly improved while maintaining what worked in the original version.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-seo]] — Category: skills-seo
+

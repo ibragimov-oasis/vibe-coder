@@ -4,6 +4,10 @@ description: Explain Bitcoin Lightning channel factories and the SuperScalar pro
 risk: safe
 source: community
 date_added: '2026-03-03'
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 ## Use this skill when
@@ -49,3 +53,9 @@ Expert guide for understanding Bitcoin Lightning Network channel factories and t
 - SuperScalar project: https://github.com/8144225309/SuperScalar
 - Website: https://SuperScalar.win
 - Original proposal: https://delvingbitcoin.org/t/superscalar-laddered-timeout-tree-structured-decker-wattenhofer-factories/1143
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

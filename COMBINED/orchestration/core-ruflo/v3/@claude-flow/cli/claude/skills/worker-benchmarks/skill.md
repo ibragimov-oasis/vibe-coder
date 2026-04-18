@@ -8,6 +8,10 @@ capabilities:
   - performance_testing
   - metrics_collection
   - optimization_recommendations
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
 ---
 
 # Worker Benchmarks Skill
@@ -133,3 +137,10 @@ const registryResult = await workerBenchmarks.benchmarkRegistryOperations(500);
 2. **Parallel Workers**: Enable with `CLAUDE_FLOW_WORKER_PARALLEL=true`
 3. **Warning Suppression**: Enable with `CLAUDE_FLOW_SUPPRESS_WARNINGS=true`
 4. **SQLite WAL Mode**: Automatic for better concurrent performance
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

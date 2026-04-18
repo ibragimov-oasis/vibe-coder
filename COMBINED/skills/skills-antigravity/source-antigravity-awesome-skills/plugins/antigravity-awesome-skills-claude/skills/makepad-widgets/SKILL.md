@@ -3,6 +3,10 @@ name: makepad-widgets
 description: "Version: makepad-widgets (dev branch) | Last Updated: 2026-01-19 > > Check for updates: https://crates.io/crates/makepad-widgets"
 risk: safe
 source: community
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 # Makepad Widgets Skill
@@ -207,3 +211,9 @@ pub trait Widget: WidgetNode {
 2. View is the base container - most visual widgets inherit from it
 3. Draw shaders (`draw_bg`, `draw_text`) control appearance
 4. All widgets support animation through `animator` property
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

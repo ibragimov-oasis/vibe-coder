@@ -6,6 +6,10 @@ tools:
   - problems
   - runTests
   - readFile
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-archon
 ---
 
 # Validate
@@ -100,3 +104,10 @@ Example:
    - Error: `'x' is defined but never used`
    - Fix: Remove unused variable or prefix with `_`
 ```
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-archon]] — core-archon
+- [[MOC - Skills]] — Skills library
+

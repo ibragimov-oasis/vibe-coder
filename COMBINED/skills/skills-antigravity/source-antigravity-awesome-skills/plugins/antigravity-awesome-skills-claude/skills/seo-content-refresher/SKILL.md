@@ -4,6 +4,10 @@ description: Identifies outdated elements in provided content and suggests updat
 risk: unknown
 source: community
 date_added: '2026-02-27'
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 ## Use this skill when
@@ -115,3 +119,9 @@ Refresh Actions:
 - Sitemap priority adjustments
 
 Focus on meaningful updates that add value. Identify specific elements that need refreshing.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

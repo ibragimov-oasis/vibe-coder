@@ -8,6 +8,9 @@ metadata:
   hermes:
     tags: [atropos, rl, environments, training, reinforcement-learning, reward-functions]
     related_skills: [axolotl, grpo-rl-training, trl-fine-tuning, lm-evaluation-harness]
+  - domain/skills
+  - artifact/skill
+  - source/skills-hermes
 ---
 
 # Hermes Agent Atropos Environments
@@ -300,3 +303,9 @@ class MyEnv(HermesAgentBaseEnv):
 if __name__ == "__main__":
     MyEnv.cli()
 ```
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-hermes]] — Category: skills-hermes
+

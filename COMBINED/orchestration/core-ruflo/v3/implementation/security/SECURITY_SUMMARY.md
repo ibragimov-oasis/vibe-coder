@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # Security Review Summary
 
 **Date:** 2026-01-03  
@@ -147,3 +154,10 @@ GitHub: https://github.com/ruvnet/claude-code-flow/security
 2. Prioritize critical fixes
 3. Set up CI/CD security scanning
 4. Schedule weekly security reviews
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

@@ -4,6 +4,9 @@ authors: {{AUTHORS}}
 date: {{DATE}}
 type: ml-experiment-report
 tags: [machine-learning, experiment-report]
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
 ---
 
 # {{TITLE}}
@@ -356,3 +359,9 @@ Detailed data documentation following standard practices.
 ### E. Model Card
 
 Model documentation following responsible AI practices.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

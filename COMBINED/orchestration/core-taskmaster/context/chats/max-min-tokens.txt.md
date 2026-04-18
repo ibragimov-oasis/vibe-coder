@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-taskmaster
+---
+
 We want to refine how Task Master handles AI model token limits to be more precise, by:
 
 1.  Distinguishing between `maxInputTokens` and `maxOutputTokens` in the configuration.
@@ -366,3 +373,10 @@ After this, we'll move to:
                                 // but the model card mentions 128k total. The API call parameter for `max_tokens` sets this output cap.
 }
 ```
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-taskmaster]] — core-taskmaster
+- [[MOC - Skills]] — Skills library
+

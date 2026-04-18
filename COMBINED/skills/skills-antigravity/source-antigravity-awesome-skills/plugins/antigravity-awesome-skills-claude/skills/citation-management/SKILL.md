@@ -6,6 +6,10 @@ metadata:
     skill-author: K-Dense Inc.
 risk: unknown
 source: community
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 # Citation Management
@@ -1110,4 +1114,9 @@ The citation-management skill provides:
 7. **Reproducibility** through documented search and extraction methods
 
 Use this skill to maintain accurate, complete citations throughout your research and ensure publication-ready bibliographies.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
 

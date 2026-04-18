@@ -5,6 +5,10 @@ description: >-
 metadata:
   category: pattern
   triggers: complexity, hard-to-follow, nested
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
 ---
 
 # Pattern Name
@@ -46,3 +50,9 @@ function after() {
 
 **Before:** [Problem metric]
 **After:** [Improved metric]
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

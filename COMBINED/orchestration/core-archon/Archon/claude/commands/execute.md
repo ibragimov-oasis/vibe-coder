@@ -1,6 +1,10 @@
 ---
 description: Execute an Archon implementation plan file
 argument-hint: <path-to-plan.md>
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-archon
 ---
 
 # Execute: Implement an Archon Plan
@@ -187,3 +191,10 @@ Provide a structured completion report:
 ### Notes
 {Any deviations from the plan, unexpected findings, or follow-up work needed.}
 ```
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/archon]] — Archon
+- [[000 - Map of Maps]] — Map of Maps
+

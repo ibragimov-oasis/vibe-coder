@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-copilot
+---
+
 # Module 1: Slash Commands
 
 Teach these categories one at a time, with examples and "when to use" guidance.
@@ -86,3 +93,9 @@ Teach these categories one at a time, with examples and "when to use" guidance.
 ## Quiz (5+ questions, use ask_user with 4 choices each)
 
 Ask "Which command would you use to [scenario]?" style questions.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-copilot]] — Category: skills-copilot
+

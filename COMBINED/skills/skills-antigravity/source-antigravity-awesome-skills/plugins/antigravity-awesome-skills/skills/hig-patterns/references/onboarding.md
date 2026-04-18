@@ -62,8 +62,17 @@ Ideally, people can understand your app or game simply by experiencing it, but i
 
 ## [Change log](https://developer.apple.com/design/human-interface-guidelines/onboarding#Change-log)
 
-Date| Changes  
+Date| Changes
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
 ---|---  
 June 10, 2024| Clarified different approaches to onboarding and added a guideline on displaying a splash screen.  
-June 21, 2023| Updated to include guidance for visionOS.  
-  
+June 21, 2023| Updated to include guidance for visionOS.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

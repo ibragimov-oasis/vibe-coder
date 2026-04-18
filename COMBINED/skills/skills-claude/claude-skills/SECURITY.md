@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # Security Policy
 
 ## Supported Versions
@@ -292,3 +299,9 @@ For security-related inquiries:
 ---
 
 Thank you for helping keep the Claude Skills Library and its users safe!
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-gsd
+---
+
 <overview>
 TDD 关乎设计质量，而非覆盖率指标。红-绿-重构循环迫使你在实现前思考行为，从而产生更清晰的接口和更可测试的代码。
 
@@ -261,3 +268,10 @@ TDD 计划目标 **~40% 上下文使用率**（低于标准计划的 ~50%）。
 
 单一功能聚焦确保整个周期保持完整质量。
 </context_budget>
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/gsd]] — GSD
+- [[000 - Map of Maps]] — Map of Maps
+

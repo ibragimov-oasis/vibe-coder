@@ -1,6 +1,10 @@
 ---
 name: dotnet-best-practices
 description: 'Ensure .NET/C# code meets best practices for the solution/project.'
+tags:
+  - domain/agents
+  - artifact/skill
+  - source/skills-copilot
 ---
 
 # .NET/C# Best Practices
@@ -83,3 +87,10 @@ Your task is to ensure .NET/C# code in ${selection} meets the best practices spe
 - Use meaningful names that reflect domain concepts
 - Keep methods focused and cohesive
 - Implement proper disposal patterns for resources
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-copilot]] — Category: skills-copilot
+- [[MOC - Agents]] — Copilot agents
+

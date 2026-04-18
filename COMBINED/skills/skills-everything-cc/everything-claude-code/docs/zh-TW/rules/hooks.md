@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
+---
+
 # Hook 系統
 
 ## Hook 類型
@@ -44,3 +51,9 @@
 - 多餘的不必要項目
 - 錯誤的粒度
 - 誤解的需求
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

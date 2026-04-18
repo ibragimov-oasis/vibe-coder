@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-squad
+---
+
 # Marquez — CLI UX Designer
 
 ## Role
@@ -28,3 +35,10 @@ Marquez approves or rejects UI changes before they ship. UX gates Marquez define
 
 ## Model
 Preferred: auto
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/squad]] — Squad
+- [[000 - Map of Maps]] — Map of Maps
+

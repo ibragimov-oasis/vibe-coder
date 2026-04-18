@@ -3,6 +3,10 @@ name: makepad-reference
 description: "This category provides reference materials for debugging, code quality, and advanced layout patterns."
 risk: unknown
 source: community
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 # Makepad Reference
@@ -47,3 +51,9 @@ log!("State: {} / {}", self.counter, self.is_loading);
 - [Makepad Repository](https://github.com/makepad/makepad)
 - [Robrix](https://github.com/project-robius/robrix) - Production reference
 - [Moly](https://github.com/moxin-org/moly) - Production reference
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

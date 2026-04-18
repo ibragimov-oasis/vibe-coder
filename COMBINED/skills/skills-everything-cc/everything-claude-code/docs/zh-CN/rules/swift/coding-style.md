@@ -2,6 +2,10 @@
 paths:
   - "**/*.swift"
   - "**/Package.swift"
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
 ---
 
 # Swift 编码风格
@@ -46,3 +50,9 @@ func load(id: String) throws(LoadError) -> Item {
 * `Sendable` 值类型用于跨越隔离边界的数据
 * Actors 用于共享可变状态
 * 结构化并发 (`async let`, `TaskGroup`) 而非非结构化的 `Task {}`
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

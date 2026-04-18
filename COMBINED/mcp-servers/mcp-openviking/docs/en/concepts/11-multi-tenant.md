@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/mcp
+  - artifact/mcp-server
+  - source/mcp-servers
+---
+
 # Multi-Tenant
 
 OpenViking multi-tenancy does not mean "deploy one isolated server per team." Instead, a single OpenViking Server uses three identity boundaries, `account`, `user`, and `agent`, to control sharing and isolation.
@@ -298,3 +305,9 @@ That is only dev mode:
 - [Multi-tenant Example](../../../examples/multi_tenant/README.md) - End-to-end management workflow
 - [OpenClaw Plugin](../../../examples/openclaw-plugin/README.md) - OpenClaw integration
 - [Vikingbot](../../../bot/README.md) - Bot-side multi-user integration
+
+## 🔗 Связи
+
+- [[MOC - MCP Servers]] — mcp-servers
+- [[000 - Map of Maps]] — Map of Maps
+

@@ -6,6 +6,9 @@ wave: null
 tags: [squad, community, video, first-coverage]
 status: published
 hero: "Jeff Fritz published the first public video of Squad — a full demo building a cyberpunk text adventure game with an Avengers-themed cast, 131 passing tests, and a working game in one session."
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-squad
 ---
 
 # First Video Coverage: Jeff Fritz's Squad Demo
@@ -60,3 +63,10 @@ Thank you to [@csharpfritz](https://github.com/csharpfritz) for being the first 
 ---
 
 _This post was written by McManus, the DevRel on Squad's own team. Squad is an open source project by [@bradygaster](https://github.com/bradygaster). [Try it →](https://github.com/bradygaster/squad)_
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/squad]] — Squad
+- [[000 - Map of Maps]] — Map of Maps
+

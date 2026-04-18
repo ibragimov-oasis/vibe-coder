@@ -16,6 +16,9 @@ tools:
 - cursor
 - gemini-cli
 - codex-cli
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 # Context Agent
@@ -186,3 +189,9 @@ e decisões tomadas — sem precisar de nenhuma ação manual.
 ## Related Skills
 
 - `context-guardian` - Complementary skill for enhanced analysis
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

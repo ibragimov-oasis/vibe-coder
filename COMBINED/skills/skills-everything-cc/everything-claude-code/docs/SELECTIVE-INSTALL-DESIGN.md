@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
+---
+
 # ECC Selective Install Design
 
 ## Purpose
@@ -487,3 +494,9 @@ It should be:
 
 That is the shortest path from the current ECC codebase to a real selective
 install experience that feels like ECC 2.0 instead of a large legacy installer.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

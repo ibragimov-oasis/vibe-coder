@@ -1,6 +1,10 @@
 ---
 description: 'Power Apps Component Framework overview and fundamentals'
 applyTo: '**/*.{ts,tsx,js,json,xml,pcfproj,csproj}'
+tags:
+  - domain/agents
+  - artifact/agent
+  - source/by-interface/agents-copilot
 ---
 
 # Power Apps Component Framework Overview
@@ -85,3 +89,9 @@ Code components that don't connect to external services or data:
 
 - [Create components with Power Apps Component Framework - Training](https://learn.microsoft.com/en-us/training/paths/create-components-power-apps-component-framework/)
 - [Microsoft Certified: Power Platform Developer Associate](https://learn.microsoft.com/en-us/credentials/certifications/power-platform-developer-associate/)
+
+## 🔗 Связи
+
+- [[MOC - Agents]] — Agent catalog
+- [[agents/agents-copilot]] — Interface: agents-copilot
+

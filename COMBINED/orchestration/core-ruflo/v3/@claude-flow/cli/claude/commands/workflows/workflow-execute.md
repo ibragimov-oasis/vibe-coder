@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # workflow-execute
 
 Execute saved workflows.
@@ -23,3 +30,10 @@ npx claude-flow workflow execute --name "test-suite" --params '{"env": "staging"
 # Dry run
 npx claude-flow workflow execute --name "deploy-api" --dry-run
 ```
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

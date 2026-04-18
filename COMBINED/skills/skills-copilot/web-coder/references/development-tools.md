@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-copilot
+---
+
 # Development Tools Reference
 
 Tools and workflows for web development.
@@ -500,3 +507,9 @@ const dbUrl = process.env.DATABASE_URL;
 - [Webpack Guides](https://webpack.js.org/guides/)
 - [Jest Documentation](https://jestjs.io/docs/getting-started)
 - [TypeScript Handbook](https://www.typescriptlang.org/docs/handbook/intro.html)
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-copilot]] — Category: skills-copilot
+

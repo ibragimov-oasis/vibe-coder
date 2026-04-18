@@ -3,6 +3,9 @@ title: Set Workflow Timeouts
 impact: CRITICAL
 impactDescription: Prevents runaway workflows from consuming resources
 tags: timeout, cancel, deadline, limits
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
 ---
 
 ## Set Workflow Timeouts
@@ -57,3 +60,9 @@ with SetWorkflowTimeout(30):
 Timeouts work with long durations (hours, days, weeks) since they're stored in the database.
 
 Reference: [Workflow Timeouts](https://docs.dbos.dev/python/tutorials/workflow-tutorial#workflow-timeouts)
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

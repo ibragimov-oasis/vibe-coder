@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # Automated Documentation Generation Implementation Playbook
 
 This file contains detailed patterns, checklists, and code samples referenced by the skill.
@@ -638,3 +645,9 @@ class DocCoverage:
 7. **Documentation Site**: Deployed static site with search functionality
 
 Focus on creating documentation that is accurate, comprehensive, and easy to maintain alongside code changes.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

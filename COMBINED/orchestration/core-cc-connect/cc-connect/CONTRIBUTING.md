@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-cc-connect
+---
+
 # Contributing to cc-connect
 
 [中文](#为-cc-connect-做贡献) | [English](#contributing-to-cc-connect)
@@ -109,3 +116,10 @@ go test ./...
 - 微信: `@mongorz`（添加时请备注 cc-connect）
 
 如果是商业合作、定制需求或企业支持，也可以通过以上渠道联系。
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-cc-connect]] — core-cc-connect
+- [[MOC - Skills]] — Skills library
+

@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # GitHub 上最佳 Claude Code 技能
 
 如果您正在寻找 **GitHub 上最佳 Claude Code 技能**,没有一个适合每个用户的单一完美仓库。正确的选择取决于您想要广度、精选还是官方参考资料。
@@ -60,3 +67,9 @@
 ## 推荐的下一步
 
 如果您想快速提高生产力,请安装 [Antigravity Awesome Skills](https://github.com/sickn33/antigravity-awesome-skills) 并从 [`claude-code-skills.md`](claude-code-skills.md) 和 [`bundles.md`](bundles.md) 开始。
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

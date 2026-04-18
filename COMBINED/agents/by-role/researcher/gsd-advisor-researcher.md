@@ -3,6 +3,10 @@ name: gsd-advisor-researcher
 description: Researches a single gray area decision and returns a structured comparison table with rationale. Spawned by discuss-phase advisor mode.
 tools: Read, Bash, Grep, Glob, WebSearch, WebFetch, mcp__context7__*
 color: cyan
+tags:
+  - domain/agents
+  - artifact/agent
+  - source/by-role/researcher
 ---
 
 <role>
@@ -102,3 +106,9 @@ Keep research focused on the single gray area. Do not explore tangential topics.
 - Do NOT invent filler options to pad the table -- only genuinely viable approaches
 - Do NOT produce extended analysis paragraphs beyond the single rationale paragraph
 </anti_patterns>
+
+## 🔗 Связи
+
+- [[MOC - Agents]] — Agent catalog
+- [[agents/researcher]] — Role: researcher
+

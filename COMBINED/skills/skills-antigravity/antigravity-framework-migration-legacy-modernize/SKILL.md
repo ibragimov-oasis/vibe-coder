@@ -4,6 +4,10 @@ description: "Orchestrate a comprehensive legacy system modernization using the 
 risk: unknown
 source: community
 date_added: "2026-02-27"
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 # Legacy Code Modernization Workflow
@@ -133,3 +137,9 @@ Orchestrate a comprehensive legacy system modernization using the strangler fig 
 - Complete documentation enabling new developer onboarding in <1 week
 
 Target: $ARGUMENTS
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

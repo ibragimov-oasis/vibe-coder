@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # Pair Programming Session Management
 
 Complete guide to managing pair programming sessions.
@@ -405,3 +412,10 @@ Deep analysis of session patterns.
 - `pair --config` - Configure settings
 - `pair --templates` - Manage templates
 - `pair --analytics` - View analytics
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

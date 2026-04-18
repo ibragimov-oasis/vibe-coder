@@ -3,6 +3,9 @@ title: Use Streams for Real-Time Data
 impact: MEDIUM
 impactDescription: Enables streaming results from long-running workflows
 tags: communication, stream, real-time, channel
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
 ---
 
 ## Use Streams for Real-Time Data
@@ -73,3 +76,9 @@ Key behaviors:
 - `ReadStreamAsync` returns a channel of `StreamValue[R]` for non-blocking reads
 
 Reference: [Workflow Streaming](https://docs.dbos.dev/golang/tutorials/workflow-communication#workflow-streaming)
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

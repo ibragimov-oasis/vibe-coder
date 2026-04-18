@@ -3,6 +3,9 @@ name: sequencing
 description: Sequencing patterns for Remotion - delay, trim, limit duration of items
 metadata:
   tags: sequence, series, timing, delay, trim
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-archon
 ---
 
 Use `<Sequence>` to delay when an element appears in the timeline.
@@ -116,3 +119,10 @@ To add a composition within another composition, you can use the `<Sequence>` co
   </Sequence>
 </AbsoluteFill>
 ```
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/archon]] — Archon
+- [[000 - Map of Maps]] — Map of Maps
+

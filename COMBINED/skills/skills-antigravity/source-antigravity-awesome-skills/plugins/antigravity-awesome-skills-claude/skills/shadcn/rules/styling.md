@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # Styling & Customization
 
 See [customization.md](../customization.md) for theming, CSS variables, and adding custom colors.
@@ -160,3 +167,9 @@ import { cn } from "@/lib/utils"
 ## No manual z-index on overlay components
 
 `Dialog`, `Sheet`, `Drawer`, `AlertDialog`, `DropdownMenu`, `Popover`, `Tooltip`, `HoverCard` handle their own stacking. Never add `z-50` or `z-[999]`.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

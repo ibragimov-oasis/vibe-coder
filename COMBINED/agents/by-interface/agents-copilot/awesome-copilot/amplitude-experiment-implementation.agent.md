@@ -1,6 +1,10 @@
 ---
 name: Amplitude Experiment Implementation
 description: This custom agent uses Amplitude's MCP tools to deploy new experiments inside of Amplitude, enabling seamless variant testing capabilities and rollout of product features.
+tags:
+  - domain/agents
+  - artifact/agent
+  - source/by-interface/agents-copilot
 ---
 
 ### Role
@@ -32,3 +36,9 @@ You are an AI coding agent tasked with implementing a feature experiment based o
 	* Ensure the new feature version(s) is(are) being shown for the treatment variant(s), not the control
 
 5. Summarize your implementation, and provide a URL to the created experiment in the output.
+
+## 🔗 Связи
+
+- [[MOC - Agents]] — Agent catalog
+- [[agents/agents-copilot]] — Interface: agents-copilot
+

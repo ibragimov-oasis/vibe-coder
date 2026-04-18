@@ -1,5 +1,9 @@
 ---
 applyTo: '**'
+tags:
+  - domain/agents
+  - artifact/agent
+  - source/by-interface/agents-copilot
 ---
 
 # Dataverse SDK for Python — Real-World Use Cases & Templates
@@ -728,3 +732,9 @@ if __name__ == "__main__":
 - [Dataverse Data Migration](https://learn.microsoft.com/en-us/power-platform/architecture/key-concepts/data-migration/workflow-complex-data-migration)
 - [Working with Data (SDK)](https://learn.microsoft.com/en-us/power-apps/developer/data-platform/sdk-python/work-data)
 - [SDK Examples on GitHub](https://github.com/microsoft/PowerPlatform-DataverseClient-Python/tree/main/examples)
+
+## 🔗 Связи
+
+- [[MOC - Agents]] — Agent catalog
+- [[agents/agents-copilot]] — Interface: agents-copilot
+

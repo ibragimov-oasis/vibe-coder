@@ -17,6 +17,9 @@ tools:
 - cursor
 - gemini-cli
 - codex-cli
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 # EarLLM One — Build & Maintain
@@ -189,3 +192,9 @@ powershell -Command "Remove-Item 'EarLLM_One_v1.0.zip' -Force -ErrorAction Silen
 - Using this skill for tasks outside its domain expertise
 - Applying recommendations without understanding your specific context
 - Not providing enough project context for accurate analysis
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

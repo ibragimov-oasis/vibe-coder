@@ -2,6 +2,10 @@
 name: compose-multiplatform-patterns
 description: Compose Multiplatform and Jetpack Compose patterns for KMP projects — state management, navigation, theming, performance, and platform-specific UI.
 origin: ECC
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-everything-cc
 ---
 
 # Compose Multiplatform Patterns
@@ -297,3 +301,9 @@ fun AppTheme(
 
 See skill: `android-clean-architecture` for module structure and layering.
 See skill: `kotlin-coroutines-flows` for coroutine and Flow patterns.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

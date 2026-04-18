@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # Project Management Skills - Claude Code Guidance
 
 This guide covers the 6 production-ready project management skills, 12 Python automation tools, and Atlassian MCP integration.
@@ -180,3 +187,9 @@ python atlassian-templates/scripts/template_scaffolder.py meeting-notes
 **Total Tools:** 12 Python automation tools
 **Agent:** cs-project-manager | **Commands:** 3
 **Integration:** Atlassian MCP Server for Jira/Confluence automation
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

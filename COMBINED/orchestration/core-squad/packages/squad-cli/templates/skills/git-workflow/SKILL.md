@@ -4,6 +4,10 @@ description: "Squad branching model: dev-first workflow with insiders preview ch
 domain: "version-control"
 confidence: "high"
 source: "team-decision"
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-squad
 ---
 
 ## Context
@@ -202,3 +206,10 @@ These compose naturally. You can have:
 - dev → insiders: Automated sync on green build
 - dev → main: Manual merge when ready for stable release, then tag
 - Hotfixes: Branch from main as `hotfix/{slug}`, PR to dev, cherry-pick to main if urgent
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/squad]] — Squad
+- [[000 - Map of Maps]] — Map of Maps
+

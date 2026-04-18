@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # SaaS Market Sizing Example: AI-Powered Email Marketing for E-Commerce
 
 Complete TAM/SAM/SOM calculation for a B2B SaaS startup using bottom-up and top-down methodologies.
@@ -347,3 +354,9 @@ Demonstrates large, proven market
 5. Monitor AI adoption rates in e-commerce segment
 
 This bottom-up market sizing provides a defensible, data-driven foundation for business planning and fundraising.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

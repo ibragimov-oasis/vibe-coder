@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/superpowers
+---
+
 <!--
 BEFORE SUBMITTING: Read every word of this template. PRs that leave
 sections blank, contain multiple unrelated changes, or show no evidence
@@ -85,3 +92,10 @@ PRs will be closed without review if they:
 - Leave required sections blank or use placeholder text
 - Modify behavior-shaping content without eval evidence
 -->
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/superpowers]] — superpowers
+- [[MOC - Skills]] — Skills library
+

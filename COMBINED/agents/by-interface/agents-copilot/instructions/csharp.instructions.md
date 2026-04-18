@@ -1,6 +1,10 @@
 ---
 description: 'Guidelines for building C# applications'
 applyTo: '**/*.cs'
+tags:
+  - domain/agents
+  - artifact/agent
+  - source/by-interface/agents-copilot
 ---
 
 # C# Development
@@ -112,3 +116,9 @@ applyTo: '**/*.cs'
 - Demonstrate deployment to Azure App Service, Azure Container Apps, or other hosting options.
 - Show how to implement health checks and readiness probes.
 - Explain environment-specific configurations for different deployment stages.
+
+## 🔗 Связи
+
+- [[MOC - Agents]] — Agent catalog
+- [[agents/agents-copilot]] — Interface: agents-copilot
+

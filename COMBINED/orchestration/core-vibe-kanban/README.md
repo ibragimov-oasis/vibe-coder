@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-vibe-kanban
+---
+
 <p align="center">
   <a href="https://vibekanban.com">
     <picture>
@@ -160,3 +167,9 @@ When running Vibe Kanban on a remote server (e.g., via systemctl, Docker, or clo
 When configured, the "Open in VSCode" buttons will generate URLs like `vscode://vscode-remote/ssh-remote+user@host/path` that open your local editor and connect to the remote server.
 
 See the [documentation](https://vibekanban.com/docs/settings/general) for detailed setup instructions.
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-vibe-kanban]] — core-vibe-kanban
+

@@ -3,6 +3,9 @@ title: Use Streams for Real-Time Data
 impact: MEDIUM
 impactDescription: Enables real-time progress and LLM streaming
 tags: streaming, write_stream, read_stream, realtime
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
 ---
 
 ## Use Streams for Real-Time Data
@@ -55,3 +58,9 @@ def producer():
 ```
 
 Reference: [Workflow Streaming](https://docs.dbos.dev/python/tutorials/workflow-communication#workflow-streaming)
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # Implementer Subagent Prompt Template
 
 Use this template when dispatching an implementer subagent.
@@ -76,3 +83,9 @@ Task tool (general-purpose):
     - Self-review findings (if any)
     - Any issues or concerns
 ```
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

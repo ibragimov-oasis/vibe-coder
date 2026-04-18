@@ -3,6 +3,9 @@ name: get-video-duration
 description: Getting the duration of a video file in seconds with Mediabunny
 metadata:
   tags: duration, video, length, time, seconds
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
 ---
 
 # Getting video duration with Mediabunny
@@ -56,3 +59,9 @@ import { staticFile } from "remotion";
 
 const duration = await getVideoDuration(staticFile("video.mp4"));
 ```
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

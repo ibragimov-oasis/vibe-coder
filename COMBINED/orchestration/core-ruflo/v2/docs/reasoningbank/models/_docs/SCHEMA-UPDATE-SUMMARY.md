@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # Schema Update Summary - Full Claude-Flow Compatibility
 
 ## ✅ All Models Updated Successfully!
@@ -374,3 +381,10 @@ Open an issue: [GitHub Issues](https://github.com/ruvnet/claude-flow/issues)
 **Script**: `fix-schema-compatibility.cjs`
 **Reports**: `SCHEMA-FIX-REPORT.md` (5 files)
 **Status**: ✅ **COMPLETE**
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

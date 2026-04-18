@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/ui
+  - artifact/ui-component
+  - source/ui-design
+---
+
 # Example: Prompt Enhancement
 
 ## User Input (Vague)
@@ -26,3 +33,9 @@
 
 ---
 💡 **Tip**: Notice how the enhanced prompt adds specific hex codes, defines the typography "vibe", and breaks the page into a logical numbered structure. This gives Stitch much clearer instructions.
+
+## 🔗 Связи
+
+- [[MOC - UI Design]] — ui-design
+- [[000 - Map of Maps]] — Map of Maps
+

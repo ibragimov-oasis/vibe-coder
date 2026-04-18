@@ -6,6 +6,10 @@ weight: 1
 description: >
   Google Cloud Serverless for Apache Spark lets you run Spark workloads without requiring you to provision and manage your own Spark cluster.
 no_list: true
+tags:
+  - domain/mcp
+  - artifact/mcp-server
+  - source/mcp-servers
 ---
 
 ## About
@@ -58,3 +62,9 @@ location: us-central1
 | type      |  string  |     true     | Must be "serverless-spark".                                       |
 | project   |  string  |     true     | ID of the GCP project with Serverless for Apache Spark resources. |
 | location  |  string  |     true     | Location containing Serverless for Apache Spark resources.        |
+
+## 🔗 Связи
+
+- [[MOC - MCP Servers]] — mcp-servers
+- [[000 - Map of Maps]] — Map of Maps
+

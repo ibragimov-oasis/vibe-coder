@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-hermes
+---
+
 # GGUF Quantization Guide
 
 Complete guide to GGUF quantization formats and model conversion.
@@ -211,3 +218,9 @@ huggingface-cli download \
 - Higher quantization uses more compute
 - Q8_0 much slower than Q4_K_M
 - Consider speed vs quality trade-off
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-hermes]] — Category: skills-hermes
+

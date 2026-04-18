@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
+---
+
 # 代理编排
 
 ## 可用代理
@@ -48,3 +55,9 @@
 - 安全专家
 - 一致性审查者
 - 冗余检查者
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

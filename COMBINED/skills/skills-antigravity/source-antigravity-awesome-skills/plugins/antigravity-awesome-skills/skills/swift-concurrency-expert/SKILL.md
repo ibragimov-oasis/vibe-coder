@@ -4,6 +4,10 @@ description: Review and fix Swift concurrency issues such as actor isolation and
 risk: safe
 source: "Dimillian/Skills (MIT)"
 date_added: "2026-03-25"
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 # Swift Concurrency Expert
@@ -111,3 +115,9 @@ func processData(_ input: [Int]) async -> [Int] {
 - See `references/swift-6-2-concurrency.md` for Swift 6.2 changes, patterns, and examples.
 - See `references/approachable-concurrency.md` when the project is opted into approachable concurrency mode.
 - See `references/swiftui-concurrency-tour-wwdc.md` for SwiftUI-specific concurrency guidance.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

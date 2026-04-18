@@ -2,6 +2,10 @@
 inclusion: fileMatch
 fileMatchPattern: "*.ts,*.tsx,*.js,*.jsx"
 description: TypeScript/JavaScript security best practices extending common security rules with language-specific concerns
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
 ---
 
 # TypeScript/JavaScript Security
@@ -96,3 +100,9 @@ npm ci  # Instead of npm install in CI/CD
 
 - Use **security-reviewer** agent for comprehensive security audits
 - Invoke via `/agent swap security-reviewer` or use the security-review skill
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

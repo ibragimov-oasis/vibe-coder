@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # Kubernetes Deployment Specification Reference
 
 Comprehensive reference for Kubernetes Deployment resources, covering all key fields, best practices, and common patterns.
@@ -751,3 +758,9 @@ kubectl logs <pod-name>
 - [Kubernetes Deployment API Reference](https://kubernetes.io/docs/reference/generated/kubernetes-api/v1.28/#deployment-v1-apps)
 - [Pod Security Standards](https://kubernetes.io/docs/concepts/security/pod-security-standards/)
 - [Resource Management](https://kubernetes.io/docs/concepts/configuration/manage-resources-containers/)
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

@@ -1,5 +1,9 @@
 ---
 description: 'Best practices and guidelines for generating comprehensive, parameterized unit tests with 80% code coverage across any programming language'
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-copilot
 ---
 
 # Unit Test Generation Prompt
@@ -153,3 +157,9 @@ class TestCalculator:
 - Include **appropriate imports** and setup code
 - Add **brief comments** explaining non-obvious test purposes
 - Place tests in the **correct location** following project structure
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-copilot]] — Category: skills-copilot
+

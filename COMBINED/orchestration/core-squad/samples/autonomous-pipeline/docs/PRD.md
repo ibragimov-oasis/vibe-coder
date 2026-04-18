@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-squad
+---
+
 # Autonomous Pipeline — SDK Sample PRD
 
 ## Overview
@@ -343,3 +350,10 @@ npm test
 # PASS: Dashboard renders without errors
 # PASS: Final report shows cost breakdown and savings
 ```
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/squad]] — Squad
+- [[000 - Map of Maps]] — Map of Maps
+

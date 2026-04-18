@@ -4,6 +4,10 @@ description: Debug the current iOS project on a booted simulator with XcodeBuild
 risk: safe
 source: "Dimillian/Skills (MIT)"
 date_added: "2026-03-25"
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 # iOS Debugger Agent
@@ -57,3 +61,9 @@ Use these when asked to inspect or interact with the running app.
 - If build fails, ask whether to retry with `preferXcodebuild: true`.
 - If the wrong app launches, confirm the scheme and bundle id.
 - If UI elements are not hittable, re-run `describe_ui` after layout changes.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

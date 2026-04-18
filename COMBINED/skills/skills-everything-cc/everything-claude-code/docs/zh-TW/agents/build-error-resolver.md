@@ -3,6 +3,10 @@ name: build-error-resolver
 description: Build and TypeScript error resolution specialist. Use PROACTIVELY when build fails or type errors occur. Fixes build/type errors only with minimal diffs, no architectural edits. Focuses on getting the build green quickly.
 tools: ["Read", "Write", "Edit", "Bash", "Grep", "Glob"]
 model: opus
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
 ---
 
 # 建置錯誤解決專家
@@ -298,3 +302,9 @@ Parameter 'market' implicitly has an 'any' type.
 ---
 
 **記住**：目標是用最小變更快速修復錯誤。不要重構、不要優化、不要重新設計。修復錯誤、驗證建置通過、繼續前進。速度和精確優先於完美。
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

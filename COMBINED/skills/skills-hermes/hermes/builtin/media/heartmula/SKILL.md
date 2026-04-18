@@ -6,6 +6,9 @@ metadata:
   hermes:
     tags: [music, audio, generation, ai, heartmula, heartcodec, lyrics, songs]
     related_skills: [audiocraft]
+  - domain/skills
+  - artifact/skill
+  - source/skills-hermes
 ---
 
 # HeartMuLa - Open-Source Music Generation
@@ -168,3 +171,9 @@ Bridge lyrics...
 - Models: https://huggingface.co/HeartMuLa
 - Paper: https://arxiv.org/abs/2601.10547
 - License: Apache-2.0
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-hermes]] — Category: skills-hermes
+

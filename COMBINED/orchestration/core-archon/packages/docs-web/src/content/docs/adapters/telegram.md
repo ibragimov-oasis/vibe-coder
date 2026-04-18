@@ -7,6 +7,10 @@ audience: [user, operator]
 status: current
 sidebar:
   order: 3
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-archon
 ---
 
 Connect Archon to Telegram so you can interact with your AI coding assistant from any Telegram client.
@@ -51,3 +55,10 @@ For streaming mode details, see [Configuration](/getting-started/configuration/)
 ## Further Reading
 
 - [Configuration](/getting-started/configuration/)
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/archon]] — Archon
+- [[000 - Map of Maps]] — Map of Maps
+

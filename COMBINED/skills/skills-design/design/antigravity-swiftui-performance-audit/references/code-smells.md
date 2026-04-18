@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/ui
+  - artifact/doc
+  - source/skills-design
+---
+
 # Common code smells and remediation patterns
 
 ## Intent
@@ -148,3 +155,9 @@ When multiple smells appear together, prioritize in this order:
 3. Main-thread work during render
 4. Image decode or resize cost
 5. Layout and animation complexity
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-design]] — Category: skills-design
+

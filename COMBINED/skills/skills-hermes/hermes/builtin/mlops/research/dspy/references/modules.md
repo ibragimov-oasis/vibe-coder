@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-hermes
+---
+
 # DSPy Modules
 
 Complete guide to DSPy's built-in modules for language model programming.
@@ -473,3 +480,9 @@ class DialogAgent(dspy.Module):
 
         return response
 ```
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-hermes]] — Category: skills-hermes
+

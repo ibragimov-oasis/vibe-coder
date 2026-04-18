@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-data-analysis
+---
+
 # generate_line_chart — 折线图
 
 ## 功能概述
@@ -24,3 +31,9 @@
 
 ## 返回结果
 - 返回折线图 URL，并附 `_meta.spec` 供后续编辑。
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-data-analysis]] — Category: skills-data-analysis
+

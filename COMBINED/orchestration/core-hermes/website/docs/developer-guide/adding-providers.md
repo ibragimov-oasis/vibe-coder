@@ -2,6 +2,10 @@
 sidebar_position: 5
 title: "Adding Providers"
 description: "How to add a new inference provider to Hermes Agent — auth, runtime resolution, CLI flows, adapters, tests, and docs"
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-hermes
 ---
 
 # Adding Providers
@@ -422,3 +426,10 @@ If you are hunting for all the places a provider touches, search these symbols:
 - [Provider Runtime Resolution](./provider-runtime.md)
 - [Architecture](./architecture.md)
 - [Contributing](./contributing.md)
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/hermes]] — Hermes
+- [[000 - Map of Maps]] — Map of Maps
+

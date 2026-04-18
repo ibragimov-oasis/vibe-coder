@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # Common Problems & Debugging
 
 These are the real-world issues that only surface after integration. Read this before finishing any Spline implementation.
@@ -260,3 +267,9 @@ const Spline = dynamic(() => import('@splinetool/react-spline/next'), {
 | CORS error | Cross-origin loading | Self-host the `.splinecode` file |
 | Hydration error (Next.js) | SSR conflict | Use `dynamic(() => import(...), { ssr: false })` |
 | Old scene still showing | Didn't promote to production | Click "Promote to Production" in Spline editor |
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

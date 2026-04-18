@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # Helm Chart Patterns Reference
 
 ## Standard Chart Structure
@@ -433,3 +440,9 @@ helm dependency build mychart/
 | Subchart not rendering | Missing `condition:` or dependency not updated | Run `helm dependency update` |
 | Name too long | Kubernetes 63-char limit | Ensure `trunc 63` in _helpers.tpl |
 | RBAC permission denied | ServiceAccount missing or wrong Role | Check SA exists and RoleBinding is correct |
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

@@ -2,6 +2,10 @@
 name: ccg
 description: Claude-Codex-Gemini tri-model orchestration via /ask codex + /ask gemini, then Claude synthesizes results
 level: 5
+tags:
+  - domain/orchestration
+  - artifact/skill
+  - source/skills-omc
 ---
 
 # CCG - Claude-Codex-Gemini Tri-Model Orchestration
@@ -102,3 +106,10 @@ Example:
 ```bash
 /oh-my-claudecode:ccg Review this PR - architecture/security via Codex and UX/readability via Gemini
 ```
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-omc]] — Category: skills-omc
+- [[MOC - Orchestration]] — Multi-agent orchestration
+

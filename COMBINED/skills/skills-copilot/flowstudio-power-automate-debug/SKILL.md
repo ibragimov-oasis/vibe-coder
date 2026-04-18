@@ -7,6 +7,10 @@ description: >-
   fix a broken Power Automate flow, diagnose a timeout, trace a DynamicOperationRequestFailure,
   check connector auth errors, read error details from a run, or troubleshoot
   expression failures. Requires a FlowStudio MCP subscription — see https://mcp.flowstudio.app
+tags:
+  - domain/agents
+  - artifact/skill
+  - source/skills-copilot
 ---
 
 # Power Automate Debugging with FlowStudio MCP
@@ -320,3 +324,10 @@ print(f"Status: {result['status']}, Body: {result.get('body')}")
 
 - `flowstudio-power-automate-mcp` — Core connection setup and operation reference
 - `flowstudio-power-automate-build` — Build and deploy new flows
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-copilot]] — Category: skills-copilot
+- [[MOC - Agents]] — Copilot agents
+

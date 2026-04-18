@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # Translation Status
 
 **Started:** 2026-03-27
@@ -155,3 +162,9 @@ The Chinese documentation translation is complete and meets all quality standard
 4. ✅ Can be linked from official documentation
 
 **See detailed validation report:** [final-validation-report.md](./final-validation-report.md)
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

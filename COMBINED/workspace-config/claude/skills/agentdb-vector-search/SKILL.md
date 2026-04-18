@@ -1,6 +1,10 @@
 ---
 name: "AgentDB Vector Search"
 description: "Implement semantic vector search with AgentDB for intelligent document retrieval, similarity matching, and context-aware querying. Use when building RAG systems, semantic search engines, or intelligent knowledge bases."
+tags:
+  - domain/skills
+  - artifact/config
+  - source/workspace-config
 ---
 
 # AgentDB Vector Search
@@ -337,3 +341,9 @@ npx agentdb@latest stats ./vectors.db
 - Website: https://agentdb.ruv.io
 - CLI Help: `npx agentdb@latest --help`
 - Command Help: `npx agentdb@latest help <command>`
+
+## 🔗 Связи
+
+- [[MOC - System]] — workspace-config
+- [[000 - Map of Maps]] — Map of Maps
+

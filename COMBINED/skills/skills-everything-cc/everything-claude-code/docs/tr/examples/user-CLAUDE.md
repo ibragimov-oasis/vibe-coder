@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
+---
+
 # Kullanıcı Seviyesi CLAUDE.md Örneği
 
 Bu, örnek bir kullanıcı seviyesi CLAUDE.md dosyasıdır. `~/.claude/CLAUDE.md` konumuna yerleştirin.
@@ -107,3 +114,9 @@ Birincil editör olarak Zed kullanıyorum:
 ---
 
 **Felsefe**: Agent-first tasarım, paralel yürütme, eylemden önce plan, koddan önce test, her zaman güvenlik.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

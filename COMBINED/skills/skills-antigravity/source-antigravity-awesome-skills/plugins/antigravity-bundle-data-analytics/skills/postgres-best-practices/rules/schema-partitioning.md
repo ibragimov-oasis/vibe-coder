@@ -3,6 +3,9 @@ title: Partition Large Tables for Better Performance
 impact: MEDIUM-HIGH
 impactDescription: 5-20x faster queries and maintenance on large tables
 tags: partitioning, large-tables, time-series, performance
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
 ---
 
 ## Partition Large Tables for Better Performance
@@ -53,3 +56,9 @@ When to partition:
 - Need to efficiently drop old data
 
 Reference: [Table Partitioning](https://www.postgresql.org/docs/current/ddl-partitioning.html)
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

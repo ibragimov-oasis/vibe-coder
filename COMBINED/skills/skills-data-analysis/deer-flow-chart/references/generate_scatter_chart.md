@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-data-analysis
+---
+
 # generate_scatter_chart — 散点图
 
 ## 功能概述
@@ -23,3 +30,9 @@
 
 ## 返回结果
 - 返回散点图 URL，并附 `_meta.spec`。
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-data-analysis]] — Category: skills-data-analysis
+

@@ -1,6 +1,10 @@
 ---
 name: "V3 CLI Modernization"
 description: "CLI modernization and hooks system enhancement for claude-flow v3. Implements interactive prompts, command decomposition, enhanced hooks integration, and intelligent workflow automation."
+tags:
+  - domain/skills
+  - artifact/config
+  - source/.claude
 ---
 
 # V3 CLI Modernization
@@ -870,3 +874,9 @@ claude-flow swarm init --interactive
 claude-flow learning start --guided
 claude-flow workflow create --from-intent "setup new project"
 ```
+
+## 🔗 Связи
+
+- [[MOC - System]] — System
+- [[000 - Map of Maps]] — Map of Maps
+

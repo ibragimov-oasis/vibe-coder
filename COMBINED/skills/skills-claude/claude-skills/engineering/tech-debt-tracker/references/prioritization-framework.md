@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # Technical Debt Prioritization Framework
 
 ## Introduction
@@ -333,3 +340,9 @@ Final Priority = 0.4 × CoD_Score + 0.3 × RICE_Score + 0.3 × Risk_Score
 - Team retention and satisfaction
 
 This prioritization framework should be adapted to your organization's context, but the core principles of evidence-based, business-aligned, systematic prioritization should remain constant.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

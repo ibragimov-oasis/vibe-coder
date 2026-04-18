@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-archon
+---
+
 # Rulecheck — Workshop Guide
 
 ## What This Skill Demonstrates
@@ -256,3 +263,10 @@ when the hook needs more than what's in the event JSON.
 - "Worktree isolation means the agent can break things safely. Your working directory is untouched."
 - "Background execution means you keep working. The agent runs, creates a PR, notifies Slack — you review when ready."
 - "The old code-rulecheck was advisory. This one actually fixes things. Same domain, fundamentally different capability."
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/archon]] — Archon
+- [[000 - Map of Maps]] — Map of Maps
+

@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-hermes
+---
+
 # Loss Functions
 
 Complete guide to SimPO loss functions and mathematical formulations.
@@ -348,3 +355,9 @@ print(f"Reward margin: {reward_margin:.2f}")
 - SimPO paper: https://arxiv.org/abs/2405.14734
 - DPO paper: https://arxiv.org/abs/2305.18290
 - Implementation: https://github.com/princeton-nlp/SimPO
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-hermes]] — Category: skills-hermes
+

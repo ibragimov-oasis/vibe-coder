@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
+---
+
 # Orchestrateコマンド
 
 複雑なタスクのための連続的なエージェントワークフロー。
@@ -170,3 +177,9 @@ $ARGUMENTS:
 3. 認証/決済/個人情報には**security-reviewerを使用**
 4. **ハンドオフを簡潔に保つ** - 次のエージェントが必要とするものに焦点を当てる
 5. 必要に応じて**エージェント間で検証を実行**
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

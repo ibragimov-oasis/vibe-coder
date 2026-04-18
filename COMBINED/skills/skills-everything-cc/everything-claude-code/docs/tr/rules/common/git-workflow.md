@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
+---
+
 # Git İş Akışı
 
 ## Commit Mesaj Formatı
@@ -22,3 +29,9 @@ PR oluştururken:
 
 > Git işlemlerinden önce tam geliştirme süreci (planlama, TDD, kod incelemesi) için
 > [development-workflow.md](./development-workflow.md) dosyasına bakın.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

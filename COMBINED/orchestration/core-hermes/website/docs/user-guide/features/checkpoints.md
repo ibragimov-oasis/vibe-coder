@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-hermes
+---
+
 # Filesystem Checkpoints
 
 Hermes automatically snapshots your working directory before making file changes, giving you a safety net to roll back if something goes wrong. Checkpoints are **enabled by default**.
@@ -28,3 +35,10 @@ checkpoints:
 ## Learn More
 
 For the full guide — how shadow repos work, diff previews, file-level restore, conversation undo, safety guards, and best practices — see **[Checkpoints and /rollback](../checkpoints-and-rollback.md)**.
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/hermes]] — Hermes
+- [[000 - Map of Maps]] — Map of Maps
+

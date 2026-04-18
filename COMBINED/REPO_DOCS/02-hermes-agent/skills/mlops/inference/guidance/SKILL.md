@@ -572,4 +572,8 @@ lm += gen("name", regex=r"^(John|Jane)$", max_tokens=10)
 - `references/backends.md` - Backend-specific configuration
 - `references/examples.md` - Production-ready examples
 
+## 🔗 Связи
+
+- [[000 - Map of Maps]] — REPO_DOCS
+- [[000 - Map of Maps]] — Map of Maps
 

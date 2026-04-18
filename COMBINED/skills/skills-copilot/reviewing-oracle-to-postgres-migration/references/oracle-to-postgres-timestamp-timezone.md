@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-copilot
+---
+
 # Oracle to PostgreSQL: CURRENT_TIMESTAMP and NOW() Timezone Handling
 
 ## Contents
@@ -185,3 +192,9 @@ public async Task TimestampComparison_ShouldReturnSameRowsAsOracle()
 - [ ] Stored procedures that use `CURRENT_TIMESTAMP` or `NOW()` reviewed; `timestamp without time zone` columns explicitly cast or replaced with `timestamptz`.
 - [ ] Integration tests assert `DateTime.Kind == Utc` on retrieved timestamp values.
 - [ ] Tests cover date-range queries to confirm row counts match Oracle baseline.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-copilot]] — Category: skills-copilot
+

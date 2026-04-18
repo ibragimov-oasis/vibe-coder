@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # ArgoCD Setup and Configuration
 
 ## Installation Methods
@@ -132,3 +139,9 @@ data:
 8. Configure health checks
 9. Use sync windows for maintenance
 10. Monitor with Prometheus metrics
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

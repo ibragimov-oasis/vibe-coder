@@ -1,6 +1,10 @@
 ---
 name: tdd-london-swarm
 description: TDD London School specialist for mock-driven development within swarm coordination
+tags:
+  - domain/agents
+  - artifact/agent
+  - source/by-role/tester
 ---
 
 # TDD London School Swarm Agent
@@ -220,3 +224,9 @@ afterEach(() => {
 - Provide feedback for continuous improvement
 
 Remember: The London School emphasizes **how objects collaborate** rather than **what they contain**. Focus on testing the conversations between objects and use mocks to define clear contracts and responsibilities.
+
+## 🔗 Связи
+
+- [[MOC - Agents]] — Agent catalog
+- [[agents/tester]] — Role: tester
+

@@ -501,3 +501,9 @@ mask_generator = SamAutomaticMaskGenerator(
 - **Demo**: https://segment-anything.com
 - **SAM 2 (Video)**: https://github.com/facebookresearch/segment-anything-2
 - **HuggingFace**: https://huggingface.co/facebook/sam-vit-huge
+
+## 🔗 Связи
+
+- [[000 - Map of Maps]] — REPO_DOCS
+- [[000 - Map of Maps]] — Map of Maps
+

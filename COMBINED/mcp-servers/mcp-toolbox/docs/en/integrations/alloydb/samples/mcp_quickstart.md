@@ -6,6 +6,10 @@ description: >
   How to get started running Toolbox with MCP Inspector and AlloyDB as the source.
 sample_filters: ["AlloyDB", "MCP Inspector"]
 is_sample: true
+tags:
+  - domain/mcp
+  - artifact/mcp-server
+  - source/mcp-servers
 ---
 
 ## Overview
@@ -368,3 +372,9 @@ Run the Toolbox server, pointing to the `tools.yaml` file created earlier:
 - Learn more about [MCP Inspector](../../../documentation/connect-to/mcp-client/_index.md).
 - Learn more about [Toolbox Configuration](../../../documentation/configuration/_index.md).
 - Learn more about [Toolbox Tutorials](../../../samples/_index.md).
+
+## 🔗 Связи
+
+- [[MOC - MCP Servers]] — mcp-servers
+- [[000 - Map of Maps]] — Map of Maps
+

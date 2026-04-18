@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-awesome-claude
+---
+
 # Course Builder Development Guide
 
 ## Project Overview
@@ -243,3 +250,9 @@ Authentication usually follows this pattern:
 - NextAuth.js for authentication providers
 - CASL ability definitions for authorization
 - Custom middleware for route protection
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-awesome-claude]] — Category: skills-awesome-claude
+

@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # AgentDB Integration - Production Readiness Checklist
 
 **Version**: 1.3.9
@@ -497,3 +504,10 @@ const memorySystem = USE_AGENTDB
 **Document Version**: 1.0
 **Last Updated**: 2025-10-23
 **Updated By**: Agent 3 (Optimization Specialist)
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

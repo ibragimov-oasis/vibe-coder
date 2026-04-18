@@ -2,6 +2,10 @@
 sidebar_position: 5
 title: "Scheduled Tasks (Cron)"
 description: "Schedule automated tasks with natural language, manage them with one cron tool, and attach one or more skills"
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-hermes
 ---
 
 # Scheduled Tasks (Cron)
@@ -283,3 +287,10 @@ Cron jobs run in a completely fresh agent session. The prompt must contain every
 ## Security
 
 Scheduled task prompts are scanned for prompt-injection and credential-exfiltration patterns at creation and update time. Prompts containing invisible Unicode tricks, SSH backdoor attempts, or obvious secret-exfiltration payloads are blocked.
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/hermes]] — Hermes
+- [[000 - Map of Maps]] — Map of Maps
+

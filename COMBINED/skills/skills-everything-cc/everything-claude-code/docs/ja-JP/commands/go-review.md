@@ -1,5 +1,9 @@
 ---
 description: 慣用的なパターン、並行性の安全性、エラーハンドリング、セキュリティについての包括的なGoコードレビュー。go-reviewerエージェントを呼び出します。
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
 ---
 
 # Go Code Review
@@ -146,3 +150,9 @@ return fmt.Errorf("get user %s: %w", userID, err)
 
 - Agent: `agents/go-reviewer.md`
 - Skills: `skills/golang-patterns/`, `skills/golang-testing/`
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

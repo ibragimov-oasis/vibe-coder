@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-copilot
+---
+
 # GameBase Template Repository
 
 A feature-rich, opinionated starter template for 2D game projects built with **Haxe** and the **Heaps** game engine. Created and maintained by **Sebastien Benard** (deepnight), the lead developer behind *Dead Cells*. GameBase provides a production-tested foundation with entity management, level integration via LDtk, rendering pipeline, and a game loop architecture -- all designed to let developers skip boilerplate and jump straight into game-specific logic.
@@ -308,3 +315,9 @@ Constructor  -->  init()  -->  [game loop: fixedUpdate/update/postUpdate]  -->  
 - **update():** AI, state machine, animation triggers
 - **postUpdate():** Sync sprite position to grid coordinates, apply visual effects
 - **dispose():** Remove from entity list, destroy sprite, clean up references
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-copilot]] — Category: skills-copilot
+

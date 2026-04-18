@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-taskmaster
+---
+
 # Licensing
 
 Task Master is licensed under the MIT License with Commons Clause. This means you can:
@@ -16,3 +23,10 @@ Task Master is licensed under the MIT License with Commons Clause. This means yo
 - Create competing products based on Task Master
 
 {/* See the [LICENSE](../LICENSE) file for the complete license text. */}
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-taskmaster]] — core-taskmaster
+- [[MOC - Skills]] — Skills library
+

@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # Executive Portfolio Report Template
 
 **Reporting Period:** [Start Date] - [End Date]  
@@ -265,3 +272,9 @@ Market Expansion:        ████░░░░░░░░░ 15% ($[X]M)
 ---
 
 *This report contains confidential business information. Distribution limited to authorized executives only.*
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

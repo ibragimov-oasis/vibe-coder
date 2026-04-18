@@ -1,4 +1,11 @@
 ---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
+---
 title: "Outline views | Apple Developer Documentation"
 source: https://developer.apple.com/design/human-interface-guidelines/outline-views
 
@@ -61,4 +68,9 @@ Outline views work well to display text-based content and often appear in the le
 #### [Videos](https://developer.apple.com/design/human-interface-guidelines/outline-views#Videos)
 
 [![](https://devimages-cdn.apple.com/wwdc-services/images/49/1636D358-5C36-4027-B204-81FFE4D05B7D/3455_wide_250x141_1x.jpg) Stacks, Grids, and Outlines in SwiftUI ](https://developer.apple.com/videos/play/wwdc2020/10031)
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
 

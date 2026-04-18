@@ -1,5 +1,9 @@
 ---
 tagline: "Add strategic color to monochrome interfaces without going garish."
+tags:
+  - domain/ui
+  - artifact/ui-component
+  - source/ui-design
 ---
 
 ## When to use it
@@ -36,3 +40,9 @@ Expected diff:
 - **Running it without a brand hue.** Colorize needs a starting point. If `.impeccable.md` does not specify one, it will ask. Do not let it pick from the AI color palette defaults.
 - **Expecting it to fix the AI color palette problem.** If your design already has purple gradients and cyan neon, you need `/quieter` first, then colorize can rebuild.
 - **Using it on already-colorful interfaces.** That is a `/quieter` job. Colorize adds, it does not subtract.
+
+## 🔗 Связи
+
+- [[MOC - UI Design]] — ui-design
+- [[000 - Map of Maps]] — Map of Maps
+

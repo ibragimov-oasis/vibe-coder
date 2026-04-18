@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # WSL better-sqlite3 Error - Troubleshooting Guide
 
 ## ⚡ Automatic Error Recovery (v2.7.35+)
@@ -237,3 +244,10 @@ The error code `-39` (ENOTEMPTY) means the system tried to remove a directory th
 - Race conditions in cleanup
 - File handles still open
 - Filesystem caching inconsistencies
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

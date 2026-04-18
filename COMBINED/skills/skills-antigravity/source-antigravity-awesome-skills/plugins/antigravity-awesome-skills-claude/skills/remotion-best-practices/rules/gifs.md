@@ -3,6 +3,9 @@ name: gif
 description: Displaying GIFs, APNG, AVIF and WebP in Remotion
 metadata:
   tags: gif, animation, images, animated, apng, avif, webp
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
 ---
 
 # Using Animated images in Remotion
@@ -136,3 +139,9 @@ export const MyComposition = () => {
 ```
 
 The `<Gif>` component has the same props as `<AnimatedImage>` but only supports GIF files.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

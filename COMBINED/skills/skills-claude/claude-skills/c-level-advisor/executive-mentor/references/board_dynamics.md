@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # Board Dynamics — Managing the People Who Can Fire You
 
 Your board has the power to fire you. Most boards don't want to. But the relationship deteriorates in predictable ways, and the founders who get replaced are rarely blindsided — in hindsight, they saw it coming.
@@ -261,3 +268,9 @@ If you have multiple institutional investors, their interests sometimes conflict
 **Your job:** Be transparent with all of them, don't manage information asymmetrically, and be clear about your own perspective and what's best for the company. You serve the company, not any individual investor.
 
 When conflicts are severe: get independent legal counsel. Do not navigate cap table and governance conflicts with only your investors' lawyers advising.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
+---
+
 # ECC 2.0 Selective Install Discovery
 
 ## Purpose
@@ -931,3 +938,9 @@ Treat the current manifest resolver as adapter `0` for installs:
 
 That is the shortest path from ECC 1.x installer sprawl to an ECC 2.0
 install/control contract that is deterministic, supportable, and extensible.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

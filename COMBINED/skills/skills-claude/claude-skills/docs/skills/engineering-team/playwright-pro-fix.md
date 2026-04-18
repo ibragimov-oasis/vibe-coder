@@ -1,6 +1,10 @@
 ---
 title: "Fix Failing or Flaky Tests — Agent Skill & Codex Plugin"
 description: "Fix failing or flaky Playwright tests. Use when user says 'fix test', 'flaky test', 'test failing', 'debug test', 'test broken', 'test passes. Agent skill for Claude Code, Codex CLI, Gemini CLI, OpenClaw."
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
 ---
 
 # Fix Failing or Flaky Tests
@@ -119,3 +123,9 @@ Suggest:
 - The fix applied (with diff)
 - Verification result (10/10 passes)
 - Prevention recommendation
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

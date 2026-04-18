@@ -4,6 +4,10 @@ description: "Master Rust async programming with Tokio, async traits, error hand
 risk: safe
 source: community
 date_added: "2026-02-27"
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 # Rust Async Patterns
@@ -34,3 +38,9 @@ Production patterns for async Rust programming with Tokio runtime, including tas
 ## Resources
 
 - `resources/implementation-playbook.md` for detailed patterns and examples.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

@@ -1,6 +1,10 @@
 ---
 title: "Initialize Playwright Project — Agent Skill & Codex Plugin"
 description: "Set up Playwright in a project. Use when user says 'set up playwright', 'add e2e tests', 'configure playwright', 'testing setup', 'init playwright'. Agent skill for Claude Code, Codex CLI, Gemini CLI, OpenClaw."
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
 ---
 
 # Initialize Playwright Project
@@ -207,3 +211,9 @@ Confirm what was created:
 - CI workflow (if applicable)
 - npm scripts added
 - How to run: `npx playwright test` or `npm run test:e2e`
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

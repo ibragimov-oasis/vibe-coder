@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # RAG System Architecture
 
 Retrieval-Augmented Generation patterns for production applications.
@@ -369,3 +376,9 @@ Alternatives:"""
 
     return [query] + alternatives[:3]
 ```
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

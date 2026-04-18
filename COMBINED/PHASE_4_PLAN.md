@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/combined-root
+---
+
 # Phase 4: Merge Duplicate Agent Roles
 
 ## Summary
@@ -338,3 +345,8 @@ After Phase 4 completion → **Phase 5: Audit & Verification**
 **Estimated Completion:** 2-3 weeks (part-time) or 1 week (full-time)
 **Created:** 2026-04-04
 **Branch:** `phase-4-mega-agents` (to be created)
+
+## 🔗 Связи
+
+- [[000 - Map of Maps]] — Map of Maps
+

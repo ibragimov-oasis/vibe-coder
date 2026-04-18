@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # Product Skills — Codex CLI Instructions
 
 When working on product tasks, use the product skill system:
@@ -43,3 +50,9 @@ Voice profile maps to design styles: formal+professional→enterprise, casual+fr
 - Load only 1-2 skills per request — don't bulk-load
 - Use Python tools for scoring and analysis
 - Landing page scaffolder defaults to TSX output (Next.js + Tailwind). Use `--format html` for standalone HTML.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

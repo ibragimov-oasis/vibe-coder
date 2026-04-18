@@ -2,6 +2,10 @@
 name: WinForms Expert
 description: Support development of .NET (OOP) WinForms Designer compatible Apps.
 #version: 2025-10-24a
+tags:
+  - domain/agents
+  - artifact/agent
+  - source/by-interface/agents-copilot
 ---
 
 # WinForms Development Guidelines
@@ -626,3 +630,9 @@ Use `DataContext` property (.NET 8+) of Form to pass and return modal data objec
 | 5 | Designer files never use NRT annotations |
 | 6 | Modern C# features for regular code ONLY |
 | 7 | Data binding: Treat ViewModels as DataSources, remember `Command` and `CommandParameter` properties |
+
+## 🔗 Связи
+
+- [[MOC - Agents]] — Agent catalog
+- [[agents/agents-copilot]] — Interface: agents-copilot
+

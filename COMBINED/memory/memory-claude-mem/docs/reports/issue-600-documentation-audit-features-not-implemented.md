@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/memory
+  - artifact/memory
+  - source/memory
+---
+
 # Issue #600: Documentation Audit - Features Documented But Not Implemented
 
 **Report Date:** 2026-01-07
@@ -430,3 +437,9 @@ grep -A 50 "settingKeys" src/services/worker/http/routes/SettingsRoutes.ts
 ---
 
 *Report generated from analysis of Issue #600 and codebase inspection on 2026-01-07.*
+
+## 🔗 Связи
+
+- [[MOC - Memory]] — memory
+- [[000 - Map of Maps]] — Map of Maps
+

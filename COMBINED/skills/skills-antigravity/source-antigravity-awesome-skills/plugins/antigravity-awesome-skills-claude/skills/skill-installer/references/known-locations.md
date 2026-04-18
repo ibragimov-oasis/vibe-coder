@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # Locais Conhecidos para Deteccao de Skills
 
 O `detect_skills.py` escaneia os seguintes locais para encontrar skills nao-instaladas:
@@ -42,3 +49,9 @@ Para escanear um local especifico:
 ```bash
 python detect_skills.py --path "C:\meu\diretorio"
 ```
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

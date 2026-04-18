@@ -1,6 +1,10 @@
 ---
 name: write-a-skill
 description: Create new agent skills with proper structure, progressive disclosure, and bundled resources. Use when user wants to create, write, or build a new skill.
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-development
 ---
 
 # Writing Skills
@@ -115,3 +119,9 @@ After drafting, verify:
 - [ ] Consistent terminology
 - [ ] Concrete examples included
 - [ ] References one level deep
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-development]] — Category: skills-development
+

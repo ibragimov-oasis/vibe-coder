@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # OKR Planning Template
 
 ## Planning Info
@@ -104,3 +111,9 @@ Score each key result 0.0 - 1.0:
 - **0.0:** No progress
 
 _Note: Consistently scoring 1.0 means OKRs are not ambitious enough. Target 0.6-0.7 average._
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

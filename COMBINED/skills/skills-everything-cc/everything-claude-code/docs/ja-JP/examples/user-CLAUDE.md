@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
+---
+
 # ユーザーレベル CLAUDE.md の例
 
 これはユーザーレベル CLAUDE.md ファイルの例です。`~/.claude/CLAUDE.md` に配置してください。
@@ -101,3 +108,9 @@
 ---
 
 **哲学**: エージェント優先設計、並列実行、行動前に計画、コード前にテスト、常にセキュリティ。
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

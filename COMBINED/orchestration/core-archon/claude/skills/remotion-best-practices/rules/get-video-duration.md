@@ -3,6 +3,9 @@ name: get-video-duration
 description: Getting the duration of a video file in seconds with Mediabunny
 metadata:
   tags: duration, video, length, time, seconds
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-archon
 ---
 
 # Getting video duration with Mediabunny
@@ -58,3 +61,10 @@ const input = new Input({
 
 const durationInSeconds = await input.computeDuration();
 ```
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/archon]] — Archon
+- [[000 - Map of Maps]] — Map of Maps
+

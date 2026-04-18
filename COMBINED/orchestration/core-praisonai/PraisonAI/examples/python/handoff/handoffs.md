@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-praisonai
+---
+
 # Agent Handoffs
 
 Agent handoffs allow agents to delegate tasks to other specialized agents. This is useful when you have agents with different areas of expertise that need to collaborate.
@@ -165,3 +172,10 @@ The handoff feature is fully backward compatible:
 - Existing agents work without modification
 - The `handoffs` parameter is optional
 - All existing agent functionality is preserved
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/praisonai]] — PraisonAI
+- [[000 - Map of Maps]] — Map of Maps
+

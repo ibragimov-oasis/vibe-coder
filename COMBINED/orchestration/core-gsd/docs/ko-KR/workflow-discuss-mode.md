@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-gsd
+---
+
 # Discuss 모드: Assumptions vs Interview
 
 GSD의 discuss 단계는 플래닝 전에 구현 컨텍스트를 수집하는 두 가지 모드를 제공합니다.
@@ -63,3 +70,10 @@ gsd-tools config-set workflow.discuss_mode discuss
 - `<deferred>` — 향후 단계를 위해 기록된 아이디어
 
 하위 에이전트(researcher, planner, checker)는 모드에 관계없이 동일하게 이 파일을 사용합니다.
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-gsd]] — core-gsd
+- [[MOC - Skills]] — Skills library
+

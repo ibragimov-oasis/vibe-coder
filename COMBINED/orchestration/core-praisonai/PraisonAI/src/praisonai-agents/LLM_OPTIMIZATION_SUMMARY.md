@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-praisonai
+---
+
 # LLM Class Performance Optimizations Summary
 
 ## Overview
@@ -70,3 +77,10 @@ Verified with:
 - Console usage - Lazy loading works as expected
 
 The optimizations significantly improve performance while maintaining all functionality.
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/praisonai]] — PraisonAI
+- [[000 - Map of Maps]] — Map of Maps
+

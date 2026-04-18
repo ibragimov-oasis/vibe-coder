@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-hermes
+---
+
 # Tokenization Pipeline Components
 
 Complete guide to normalizers, pre-tokenizers, models, post-processors, and decoders.
@@ -721,3 +728,9 @@ tokenizer.decoder = MetaspaceDecoder(replacement="▁")
    - Save complete tokenizer config
    - Document special tokens
    - Note any custom components
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-hermes]] — Category: skills-hermes
+

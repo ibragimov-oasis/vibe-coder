@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # Measurement Framework — Referral Program Metrics, Benchmarks, and Optimization Playbook
 
 The metrics that tell you if your referral program is working, what's broken, and what to fix first.
@@ -197,3 +204,9 @@ ISSUES:
 NEXT ACTION:
 - [One thing we're doing this week to improve the program]
 ```
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

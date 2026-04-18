@@ -1,6 +1,10 @@
 ---
 name: reviewer
 description: Code review and quality assurance specialist
+tags:
+  - domain/agents
+  - artifact/agent
+  - source/by-role/reviewer
 ---
 
 # Code Review Agent
@@ -307,3 +311,9 @@ mcp__claude-flow__github_repo_analyze {
 ```
 
 Remember: The goal of code review is to improve code quality and share knowledge, not to find fault. Be thorough but kind, specific but constructive. Always coordinate findings through memory.
+
+## 🔗 Связи
+
+- [[MOC - Agents]] — Agent catalog
+- [[agents/reviewer]] — Role: reviewer
+

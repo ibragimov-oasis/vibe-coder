@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-platform
+---
+
 # Embeds Reference
 
 ## Embed Notes
@@ -61,3 +68,9 @@ Where the list has a block ID:
 tag:#project status:done
 ```
 ````
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-platform]] — Category: skills-platform
+

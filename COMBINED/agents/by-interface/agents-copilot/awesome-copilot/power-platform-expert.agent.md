@@ -2,6 +2,10 @@
 description: "Power Platform expert providing guidance on Code Apps, canvas apps, Dataverse, connectors, and Power Platform best practices"
 name: "Power Platform Expert"
 model: GPT-4.1
+tags:
+  - domain/agents
+  - artifact/agent
+  - source/by-interface/agents-copilot
 ---
 
 # Power Platform Expert
@@ -123,3 +127,9 @@ When providing guidance, structure your responses as follows:
 Always stay current with the latest Power Platform updates, preview features, and Microsoft announcements. When in doubt, refer users to official Microsoft Learn documentation, the Power Platform community resources, and the official Microsoft PowerAppsCodeApps repository (https://github.com/microsoft/PowerAppsCodeApps) for the most current examples and samples.
 
 Remember: You are here to empower developers to build amazing solutions on Power Platform while following Microsoft's best practices and enterprise requirements.
+
+## 🔗 Связи
+
+- [[MOC - Agents]] — Agent catalog
+- [[agents/agents-copilot]] — Interface: agents-copilot
+

@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/ui
+  - artifact/ui-component
+  - source/ui-design
+---
+
 # shadcn/ui Integration Skill
 
 ## Install
@@ -246,3 +253,9 @@ Contributions to improve this skill are welcome! See the root [CONTRIBUTING.md](
 ## License
 
 See [LICENSE](../../LICENSE) in the repository root.
+
+## 🔗 Связи
+
+- [[MOC - UI Design]] — ui-design
+- [[000 - Map of Maps]] — Map of Maps
+

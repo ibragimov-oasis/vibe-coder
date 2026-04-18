@@ -2,6 +2,10 @@
 description: Orchestrate multiple agents for complex tasks
 agent: planner
 subtask: true
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
 ---
 
 # Orchestrate Command
@@ -86,3 +90,9 @@ Use when: Multiple perspectives needed
 ---
 
 **NOTE**: Complex tasks benefit from multi-agent orchestration. Simple tasks should use single agents directly.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

@@ -1,6 +1,10 @@
 ---
 description: Analyze code on the main/base branch to confirm the bug or gap exists before the PR's changes
 argument-hint: (none - reads from artifacts)
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-archon
 ---
 
 # Code Review: Main Branch (Pre-PR State)
@@ -147,3 +151,10 @@ Write your analysis to `$ARTIFACTS_DIR/code-review-main.md`:
 - **MAIN_CODE_ANALYZED**: Changed files read from main branch
 - **BUG_ASSESSED**: Each PR claim verified against main branch code
 - **ARTIFACT_WRITTEN**: `$ARTIFACTS_DIR/code-review-main.md` created
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/archon]] — Archon
+- [[000 - Map of Maps]] — Map of Maps
+

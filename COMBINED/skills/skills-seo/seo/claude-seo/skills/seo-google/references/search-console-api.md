@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/seo
+  - artifact/doc
+  - source/skills-seo
+---
+
 # Google Search Console API Reference
 
 ## Table of Contents
@@ -154,3 +161,9 @@
 |-------|--------|
 | `siteUrl` | Property URL (e.g., `sc-domain:example.com`) |
 | `permissionLevel` | `siteOwner`, `siteFullUser`, `siteRestrictedUser`, `siteUnverifiedUser` |
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-seo]] — Category: skills-seo
+

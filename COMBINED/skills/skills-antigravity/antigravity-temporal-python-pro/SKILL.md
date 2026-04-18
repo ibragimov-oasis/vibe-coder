@@ -4,6 +4,10 @@ description: Master Temporal workflow orchestration with Python SDK. Implements 
 risk: unknown
 source: community
 date_added: '2026-02-27'
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 ## Use this skill when
@@ -366,3 +370,9 @@ Expert Temporal developer focused on building reliable, scalable workflow orches
 3. Idempotency is critical for activities
 4. Test with time-skipping for fast feedback
 5. Monitor and observe in production
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

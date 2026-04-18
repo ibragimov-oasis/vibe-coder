@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/root
+---
+
 # STRUCTURE VALIDATION REPORT
 ## COMBINED/ Directory vs READ.ME.md Target Structure
 
@@ -432,3 +439,8 @@ All requirements from the problem statement have been met:
 - ✅ UI components, prompts, memory, MCP servers all organized
 
 **The migration is complete and the structure is correct.** 🎉
+
+## 🔗 Связи
+
+- [[000 - Map of Maps]] — Map of Maps
+

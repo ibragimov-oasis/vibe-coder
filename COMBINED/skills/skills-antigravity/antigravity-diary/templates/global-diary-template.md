@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # 📔 YYYY-MM-DD 全域進度總覽
 
 > 🌟 **今日亮點 (Daily Highlight)**
@@ -36,3 +43,9 @@
 ## ✅ 跨專案通用待辦 (Global Action Items)
 - [ ] (與特定專案無關的任務)
 - [ ] (系統環境維護等)
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

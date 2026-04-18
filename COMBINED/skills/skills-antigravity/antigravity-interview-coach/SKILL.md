@@ -8,6 +8,9 @@ date_added: "2026-03-11"
 author: dbhat93
 tags: [interview, job-search, coaching, career, storybank, negotiation]
 tools: [claude]
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 # Interview Coach
@@ -91,3 +94,9 @@ expectations?" moment with a defensible range and exact scripts.
 ## Source
 
 https://github.com/dbhat93/job-search-os
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

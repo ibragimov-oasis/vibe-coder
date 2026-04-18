@@ -3,6 +3,10 @@ name: odoo-automated-tests
 description: "Write and run Odoo automated tests using TransactionCase, HttpCase, and browser tour tests. Covers test data setup, mocking, and CI integration."
 risk: safe
 source: "self"
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 # Odoo Automated Tests
@@ -122,3 +126,9 @@ class TestPatientController(HttpCase):
 - `HttpCase` tests are significantly slower than `TransactionCase` — use them only for controller/route verification.
 - Does not cover **mocking external services** (e.g., mocking an SMTP server or payment gateway in tests).
 - Test isolation is at the **transaction level**, not database level — tests that commit data (e.g., via `cr.commit()`) can leak state between tests.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

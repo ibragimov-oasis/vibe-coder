@@ -6,6 +6,9 @@ wave: null
 tags: [squad, v0.8.18, release, launch, sdk, cli, typescript, samples, migration]
 status: published
 hero: "Squad v0.8.18 is here — a full TypeScript rewrite, npm distribution, 16 CLI commands, 8 SDK samples, 2200+ tests, and a feature set that turns multi-agent development from experiment to production tool."
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-squad
 ---
 
 # Welcome to the New Squad
@@ -800,3 +803,10 @@ Welcome to Squad v0.8.18. Let's build better software, together. 🚀
 ---
 
 _McManus (DevRel) — March 10, 2026_
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/squad]] — Squad
+- [[000 - Map of Maps]] — Map of Maps
+

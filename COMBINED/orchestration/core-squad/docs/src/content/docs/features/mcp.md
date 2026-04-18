@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-squad
+---
+
 # MCP Setup Guide for Squad
 
 > ⚠️ **Experimental** — Squad is alpha software. APIs, commands, and behavior may change between releases.
@@ -477,3 +484,10 @@ Agents configure Aspire MCP and start checking service health automatically.
 - [Notifications Guide](./notifications.md) — set up agent notifications via MCP
 - [Skills System](./skills.md) — how agents learn complex MCP workflows
 - [GitHub Issues Integration](./github-issues.md) — already configured GitHub MCP in action
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/squad]] — Squad
+- [[000 - Map of Maps]] — Map of Maps
+

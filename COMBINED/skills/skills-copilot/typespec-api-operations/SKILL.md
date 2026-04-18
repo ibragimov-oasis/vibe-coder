@@ -1,6 +1,10 @@
 ---
 name: typespec-api-operations
 description: 'Add GET, POST, PATCH, and DELETE operations to a TypeSpec API plugin with proper routing, parameters, and adaptive cards'
+tags:
+  - domain/agents
+  - artifact/skill
+  - source/skills-copilot
 ---
 
 # Add TypeSpec API Operations
@@ -416,3 +420,10 @@ After adding operations, test with these prompts:
 
 ### Issue: Model property not appearing in response
 **Solution**: Check if property needs `@visibility(Lifecycle.Read)` or remove it if it should be writable
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-copilot]] — Category: skills-copilot
+- [[MOC - Agents]] — Copilot agents
+

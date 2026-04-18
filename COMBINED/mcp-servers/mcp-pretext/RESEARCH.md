@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/mcp
+  - artifact/mcp-server
+  - source/mcp-servers
+---
+
 # Research Log
 
 Everything we tried, measured, and learned while building this library.
@@ -342,3 +349,9 @@ What changed here was mostly engineering discipline:
 - preprocessing
 - browser diagnostics
 - and a willingness to keep the hot path simple
+
+## 🔗 Связи
+
+- [[MOC - MCP Servers]] — mcp-servers
+- [[000 - Map of Maps]] — Map of Maps
+

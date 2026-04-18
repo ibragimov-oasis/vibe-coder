@@ -2,6 +2,10 @@
 description: Fix Go build and vet errors
 agent: go-build-resolver
 subtask: true
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
 ---
 
 # Go Build Command
@@ -85,3 +89,9 @@ go test ./...     # Tests should pass
 ---
 
 **IMPORTANT**: Fix errors only. No refactoring, no improvements. Get the build green with minimal changes.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

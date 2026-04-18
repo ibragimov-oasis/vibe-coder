@@ -2,6 +2,10 @@
 name: instinct-export
 description: 将项目/全局范围的本能导出到文件
 command: /instinct-export
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
 ---
 
 # 本能导出命令
@@ -65,3 +69,9 @@ Use functional patterns over classes.
 * `--min-confidence <n>`: 最低置信度阈值
 * `--output <file>`: 输出文件路径（省略时打印到标准输出）
 * `--scope <project|global|all>`: 导出范围（默认：`all`）
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

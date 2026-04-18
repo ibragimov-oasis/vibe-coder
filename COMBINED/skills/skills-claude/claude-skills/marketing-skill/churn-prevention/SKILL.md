@@ -7,6 +7,10 @@ metadata:
   author: Alireza Rezvani
   category: marketing
   updated: 2026-03-06
+tags:
+  - domain/agents
+  - artifact/skill
+  - source/skills-claude
 ---
 
 # Churn Prevention
@@ -238,3 +242,10 @@ All output follows the structured communication standard:
 - **pricing-strategy**: Use when churn root cause is pricing or packaging mismatch. NOT for save offer design (use this skill).
 - **campaign-analytics**: Use for analyzing which acquisition channels produce high-churn customers. NOT for setting up retention tracking.
 - **signup-flow-cro**: Use for reducing drop-off at signup. NOT for post-signup retention.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+- [[MOC - Agents]] — Claude agents
+

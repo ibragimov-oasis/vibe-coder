@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
+---
+
 # 循环状态命令
 
 检查活动循环状态、进度和故障信号。
@@ -23,3 +30,9 @@
 $ARGUMENTS:
 
 * `--watch` 可选
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

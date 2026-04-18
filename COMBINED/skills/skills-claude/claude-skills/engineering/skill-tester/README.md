@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # Skill Tester - Quality Assurance Meta-Skill
 
 A POWERFUL-tier skill that provides comprehensive validation, testing, and quality scoring for skills in the claude-skills ecosystem.
@@ -227,3 +234,9 @@ SUGGESTIONS:
 See [SKILL.md](SKILL.md) for comprehensive documentation and contribution guidelines.
 
 The skill-tester itself serves as a reference implementation of POWERFUL-tier quality standards.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

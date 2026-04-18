@@ -1,6 +1,10 @@
 ---
 name: "V3 Deep Integration"
 description: "Deep agentic-flow@alpha integration implementing ADR-001. Eliminates 10,000+ duplicate lines by building claude-flow as specialized extension rather than parallel implementation."
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-ruflo
 ---
 
 # V3 Deep Integration
@@ -239,3 +243,9 @@ class BackwardCompatibility {
 - `v3-performance-optimization` - Performance target validation
 - `v3-swarm-coordination` - Swarm system migration
 - `v3-security-overhaul` - Secure integration patterns
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-ruflo]] — Category: skills-ruflo
+

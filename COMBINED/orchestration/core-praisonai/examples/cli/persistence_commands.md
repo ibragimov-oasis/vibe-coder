@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-praisonai
+---
+
 # Persistence CLI Commands
 
 ## Quick Reference
@@ -91,3 +98,10 @@ praisonai persistence export --session-id demo-session --output backup.jsonl
 # 5. Import to another environment
 praisonai persistence import --file backup.jsonl
 ```
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-praisonai]] — core-praisonai
+- [[MOC - Skills]] — Skills library
+

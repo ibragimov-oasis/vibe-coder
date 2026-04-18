@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # Best Claude Code Skills on GitHub
 
 If you are looking for the **best Claude Code skills on GitHub**, there is no single perfect repository for every user. The right choice depends on whether you want breadth, curation, or official reference material.
@@ -60,3 +67,9 @@ Choose this if you want:
 ## Recommended next step
 
 If you want to get productive quickly, install [Antigravity Awesome Skills](https://github.com/sickn33/antigravity-awesome-skills) and start with [`claude-code-skills.md`](claude-code-skills.md) plus [`bundles.md`](bundles.md).
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

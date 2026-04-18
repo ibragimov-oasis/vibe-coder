@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-awesome-claude
+---
+
 # Repository Evaluation Prompt (Awesome-Claude-Code · Full Version)
 
 ## Evaluation Context (Claude Code Ecosystem)
@@ -153,3 +160,9 @@ REPOSITORY:
 IF PRESENT: <REPO>$ARGUMENTS</REPO>
 
 ELSE: The repository you are currently working in.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-awesome-claude]] — Category: skills-awesome-claude
+

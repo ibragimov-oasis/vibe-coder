@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # Claude Flow Plugin Structure
 
 ## Official Claude Code Plugin Format
@@ -126,3 +133,10 @@ The plugin configures 3 MCP servers:
 ## Status
 
 ✅ **PRODUCTION READY**
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-ruflo]] — core-ruflo
+- [[MOC - Skills]] — Skills library
+

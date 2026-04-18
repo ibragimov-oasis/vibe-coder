@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
+---
+
 # 검증 커맨드
 
 현재 코드베이스 상태에 대한 포괄적인 검증을 실행합니다.
@@ -61,3 +68,9 @@ $ARGUMENTS:
 - `full` - 모든 검사 (기본값)
 - `pre-commit` - 커밋에 관련된 검사
 - `pre-pr` - 전체 검사 + 보안 스캔
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

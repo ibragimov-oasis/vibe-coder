@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-copilot
+---
+
 # Architecture & Patterns Reference
 
 Web application architectures, design patterns, and architectural concepts.
@@ -623,3 +630,9 @@ import { map } from 'lodash-es';
 - [React Patterns](https://reactpatterns.com/)
 - [JAMstack](https://jamstack.org/)
 - [Micro Frontends](https://micro-frontends.org/)
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-copilot]] — Category: skills-copilot
+

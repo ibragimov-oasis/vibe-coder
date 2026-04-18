@@ -4,6 +4,10 @@ description: Scaffold, build, sign, and package SwiftPM macOS apps without Xcode
 risk: safe
 source: "Dimillian/Skills (MIT)"
 date_added: "2026-03-25"
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 # macOS SwiftPM App Packaging (No Xcode)
@@ -103,3 +107,9 @@ spctl --assess --type execute --verbose build/HelloApp.app
 - Remove Sparkle steps if you do not use Sparkle for updates.
 - Sparkle relies on the bundle build number (`CFBundleVersion`), so `BUILD_NUMBER` in `version.env` must increase for each update.
 - For menu bar apps, set `MENU_BAR_APP=1` when packaging to emit `LSUIElement` in Info.plist.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/workflow
+  - source/hooks
+---
+
 # @claude-flow/hooks
 
 [![npm version](https://img.shields.io/npm/v/@claude-flow/hooks.svg)](https://www.npmjs.com/package/@claude-flow/hooks)
@@ -438,3 +445,9 @@ Add to your Claude settings (`~/.claude/settings.json`):
 ## License
 
 MIT © [Claude Flow Team](https://github.com/ruvnet/claude-flow)
+
+## 🔗 Связи
+
+- [[MOC - System]] — hooks
+- [[000 - Map of Maps]] — Map of Maps
+

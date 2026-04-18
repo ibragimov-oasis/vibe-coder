@@ -6,6 +6,10 @@ allowed-tools:
   - Write
   - Bash
   - AskUserQuestion
+tags:
+  - domain/skills
+  - artifact/command
+  - source/commands
 ---
 
 <objective>
@@ -34,3 +38,9 @@ The workflow handles all logic including:
 5. File writing
 6. Confirmation display
 </process>
+
+## 🔗 Связи
+
+- [[MOC - System]] — commands
+- [[000 - Map of Maps]] — Map of Maps
+

@@ -5,6 +5,9 @@ risk: safe
 source: self
 tags: "[ddd, strategic-design, bounded-context, ubiquitous-language]"
 date_added: "2026-02-27"
+  - domain/ui
+  - artifact/skill
+  - source/skills-design
 ---
 
 # DDD Strategic Design
@@ -50,3 +53,10 @@ classify subdomains, and propose team ownership.
 - This skill does not produce executable code.
 - It cannot infer business truth without stakeholder input.
 - It should be followed by tactical design before implementation.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-design]] — Category: skills-design
+- [[MOC - UI Design]] — Design & UI
+

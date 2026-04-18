@@ -2,6 +2,10 @@
 sidebar_position: 5
 title: "Use MCP with Hermes"
 description: "A practical guide to connecting MCP servers to Hermes Agent, filtering their tools, and using them safely in real workflows"
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-hermes
 ---
 
 # Use MCP with Hermes
@@ -413,3 +417,10 @@ Not-great first servers:
 - [MCP (Model Context Protocol)](/docs/user-guide/features/mcp)
 - [FAQ](/docs/reference/faq)
 - [Slash Commands](/docs/reference/slash-commands)
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/hermes]] — Hermes
+- [[000 - Map of Maps]] — Map of Maps
+

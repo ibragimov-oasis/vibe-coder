@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # Component Architecture Guide
 
 Reference for design system component organization, naming conventions, and documentation patterns.
@@ -394,3 +401,9 @@ const Button = styled.button`
 ---
 
 *See also: `token-generation.md` for token creation*
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

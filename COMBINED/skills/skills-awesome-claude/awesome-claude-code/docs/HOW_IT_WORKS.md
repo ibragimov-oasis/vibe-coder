@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-awesome-claude
+---
+
 # How Awesome Claude Code Works
 
 This document provides assorted technical details about the repository structure, automated systems, and processes that power Awesome Claude Code. It's mostly superceded by [README-GENERATION](./README-GENERATION.md), but, for one reason or another, it's still here, for now.
@@ -329,3 +336,9 @@ Announcements are stored in `templates/announcements.yaml`:
 - Each date group is collapsible
 - Individual items can be simple text or collapsible with summary/text
 - Falls back to `.md` file if YAML doesn't exist
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-awesome-claude]] — Category: skills-awesome-claude
+

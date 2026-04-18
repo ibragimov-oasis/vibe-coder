@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-praisonai
+---
+
 # Tool Examples
 
 This directory contains examples of using various tools from the PraisonAI package.
@@ -36,3 +43,9 @@ const papers = await searchTool.execute('your search query', 5);
 // Download a paper
 const pdfBuffer = await downloadTool.execute(papers[0].id);
 ```
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-praisonai]] — core-praisonai
+

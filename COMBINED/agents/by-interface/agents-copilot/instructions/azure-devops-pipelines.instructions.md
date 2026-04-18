@@ -1,6 +1,10 @@
 ---
 description: 'Best practices for Azure DevOps Pipeline YAML files'
 applyTo: '**/azure-pipelines.yml, **/azure-pipelines*.yml, **/*.pipeline.yml'
+tags:
+  - domain/agents
+  - artifact/agent
+  - source/by-interface/agents-copilot
 ---
 
 # Azure DevOps Pipeline YAML Best Practices
@@ -183,3 +187,9 @@ stages:
 - Creating monolithic pipelines that are difficult to maintain
 - Not using proper naming conventions for clarity
 - Ignoring pipeline security best practices
+
+## 🔗 Связи
+
+- [[MOC - Agents]] — Agent catalog
+- [[agents/agents-copilot]] — Interface: agents-copilot
+

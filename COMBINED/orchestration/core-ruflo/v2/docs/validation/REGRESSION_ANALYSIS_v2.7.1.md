@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # Regression Analysis Report - v2.7.1
 
 **Analysis Date**: 2025-01-24
@@ -355,3 +362,10 @@ a304e2a59 - docs: Add comprehensive backward compatibility guarantee
 **Date**: 2025-01-24
 **Report Version**: 1.0
 **Status**: ✅ APPROVED FOR DEPLOYMENT
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

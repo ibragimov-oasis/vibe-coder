@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
+---
+
 # Sponsoring ECC
 
 ECC is maintained as an open-source agent harness performance system across Claude Code, Cursor, OpenCode, and Codex app/CLI.
@@ -41,3 +48,9 @@ For exact command snippets and a repeatable pull process, see [`docs/business/me
 
 - GitHub Sponsors: [https://github.com/sponsors/affaan-m](https://github.com/sponsors/affaan-m)
 - Project site: [https://ecc.tools](https://ecc.tools)
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

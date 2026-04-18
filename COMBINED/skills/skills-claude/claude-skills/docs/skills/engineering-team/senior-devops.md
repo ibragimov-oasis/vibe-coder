@@ -1,6 +1,10 @@
 ---
 title: "Senior Devops — Agent Skill & Codex Plugin"
 description: "Comprehensive DevOps skill for CI/CD, infrastructure automation, containerization, and cloud platforms (AWS, GCP, Azure). Includes pipeline setup. Agent skill for Claude Code, Codex CLI, Gemini CLI, OpenClaw."
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
 ---
 
 # Senior Devops
@@ -332,3 +336,9 @@ Choose Pulumi when the team strongly prefers TypeScript, Python, Go, or C# over 
 ## Troubleshooting
 
 Check the comprehensive troubleshooting section in `references/deployment_strategies.md`.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

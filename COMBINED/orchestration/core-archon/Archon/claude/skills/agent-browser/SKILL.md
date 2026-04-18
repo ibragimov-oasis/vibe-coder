@@ -1,6 +1,10 @@
 ---
 name: agent-browser
 description: Automates browser interactions for web testing, form filling, screenshots, and data extraction. Use when the user needs to navigate websites, interact with web pages, fill forms, take screenshots, test web applications, or extract information from web pages.
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-archon
 ---
 
 # Browser Automation with agent-browser
@@ -270,3 +274,10 @@ agent-browser highlight @e1              # Highlight element
 agent-browser trace start                # Start recording trace
 agent-browser trace stop trace.zip       # Stop and save trace
 ```
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/archon]] — Archon
+- [[000 - Map of Maps]] — Map of Maps
+

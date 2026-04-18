@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # Swarm Benchmark Documentation
 
 Welcome to the comprehensive documentation for the Claude Flow Swarm Benchmarking Tool. This documentation covers everything you need to know about benchmarking, optimizing, and analyzing swarm performance.
@@ -77,3 +84,9 @@ We welcome contributions! See our [Contributing Guide](contributing.md) for deta
 ---
 
 © 2024 Claude Flow Team | [License](../LICENSE) | [Code of Conduct](code-of-conduct.md)
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-ruflo]] — core-ruflo
+

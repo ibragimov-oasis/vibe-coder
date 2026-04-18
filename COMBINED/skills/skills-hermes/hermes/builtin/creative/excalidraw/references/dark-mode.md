@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-hermes
+---
+
 # Excalidraw Dark Mode Diagrams
 
 To create a dark-themed diagram, use a massive dark background rectangle as the **first element** in the array. Make it large enough to cover any viewport:
@@ -65,4 +72,9 @@ Use container binding (NOT the `"label"` property, which doesn't work). On dark 
 ```
 
 Note: For standalone text elements on dark backgrounds, always set `"strokeColor": "#e5e5e5"` explicitly. The default `#1e1e1e` is invisible on dark.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-hermes]] — Category: skills-hermes
 

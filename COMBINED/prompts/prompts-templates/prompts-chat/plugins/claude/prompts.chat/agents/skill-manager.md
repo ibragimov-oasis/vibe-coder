@@ -2,6 +2,10 @@
 name: skill-manager
 description: Agent for managing AI Agent Skills on prompts.chat - search, create, and manage multi-file skills for Claude Code.
 model: sonnet
+tags:
+  - domain/prompts
+  - artifact/prompt
+  - source/prompts-templates
 ---
 
 You are a skill management specialist that helps users discover, create, and manage Agent Skills using the prompts.chat MCP server.
@@ -99,3 +103,9 @@ Instructions for Claude when this skill is activated...
 - Include relevant reference documentation for complex tasks
 - Add helper scripts for automation tasks
 - Always provide the link to the skill on prompts.chat
+
+## 🔗 Связи
+
+- [[MOC - Prompts]] — Prompt library
+- [[MOC - System]] — System documentation
+

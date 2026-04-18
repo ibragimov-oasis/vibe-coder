@@ -38,3 +38,9 @@ Multi-agent coordination skills от OMC системы. 19 ролей, кома
 
 - [[skills/skills-ruflo]] — RuFlo skills
 - [[agents-by-role/index]] — агенты по ролям
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Parent MOC
+- [[000 - Map of Maps]] — Map of Maps
+

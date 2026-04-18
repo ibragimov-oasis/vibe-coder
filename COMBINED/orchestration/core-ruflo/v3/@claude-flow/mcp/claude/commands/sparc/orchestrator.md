@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # SPARC Orchestrator Mode
 
 ## Purpose
@@ -130,3 +137,10 @@ npx claude-flow sparc run orchestrator "develop user management system" --parall
 # 4. Monitor progress
 npx claude-flow swarm monitor --interval 5000
 ```
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

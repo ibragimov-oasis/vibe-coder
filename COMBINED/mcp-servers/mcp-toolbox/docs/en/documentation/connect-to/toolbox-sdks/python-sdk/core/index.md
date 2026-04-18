@@ -4,6 +4,10 @@ type: docs
 weight: 2
 description: >
   MCP Toolbox Core SDK for integrating functionalities of MCP Toolbox into your Agentic apps.
+tags:
+  - domain/mcp
+  - artifact/mcp-server
+  - source/mcp-servers
 ---
 
 ## Overview
@@ -594,3 +598,9 @@ async with ToolboxClient("http://127.0.0.1:5000", telemetry_enabled=True) as too
 {{< notice note >}}
 If `telemetry_enabled=True` but no provider is configured, OpenTelemetry's no-op implementation is used — no data is exported and there is zero overhead. The optional `[telemetry]` extra must be installed for `telemetry_enabled=True` to have any effect; if it is not installed the flag is silently ignored.
 {{< /notice >}}
+
+## 🔗 Связи
+
+- [[MOC - MCP Servers]] — mcp-servers
+- [[000 - Map of Maps]] — Map of Maps
+

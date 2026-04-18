@@ -35,3 +35,9 @@ Text layout MCP-сервер. Планируется для обработки �
 
 - [[mcp-servers/mcp-markitdown]] — конвертация файлов (уже активен)
 - [[combined/MCP Servers Overview]] — все MCP серверы
+
+## 🔗 Связи
+
+- [[MOC - MCP Servers]] — Parent MOC
+- [[000 - Map of Maps]] — Map of Maps
+

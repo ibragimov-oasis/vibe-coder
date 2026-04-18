@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
+---
+
 # Code Review
 
 Revisão completa de segurança e qualidade das mudanças não commitadas:
@@ -38,3 +45,9 @@ Revisão completa de segurança e qualidade das mudanças não commitadas:
 4. Bloqueie commit se houver problemas CRITICAL ou HIGH
 
 Nunca aprove código com vulnerabilidades de segurança!
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

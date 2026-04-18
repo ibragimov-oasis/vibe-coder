@@ -4,6 +4,10 @@ description: 分析中医体质数据、识别体质类型、评估体质特征,
 allowed-tools: Read, Grep, Glob, Write
 risk: unknown
 source: community
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 # 中医体质辨识分析器技能
@@ -664,3 +668,9 @@ def determine_constitution_type(scores):
 **技能版本**: v1.0
 **创建日期**: 2026-01-08
 **维护者**: WellAlly Tech
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # Launch Playbook — How to Launch a Free Tool for Maximum Impact
 
 A free tool with no distribution is just code sitting on a server. This playbook gives you the launch sequence that turns a new tool into traffic, leads, and backlinks.
@@ -180,3 +187,9 @@ A free tool is a 3-year investment, not a 3-week campaign.
 - Full UX review — does it still work on the latest mobile browsers?
 - Competitive audit — are better free alternatives emerging?
 - Decide: invest more, maintain as-is, or retire and redirect
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

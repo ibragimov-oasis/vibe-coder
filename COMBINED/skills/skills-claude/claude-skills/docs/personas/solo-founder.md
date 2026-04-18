@@ -1,6 +1,10 @@
 ---
 title: "Solo Founder"
 description: "Solo founder persona — cross-domain prioritization for one-person startups, side projects, and MVP building."
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
 ---
 
 # :material-lightbulb-on: Solo Founder
@@ -48,3 +52,9 @@ cp agents/personas/solo-founder.md ~/COMBINED/workspace-config/claude/agents/
 ```
 
 [:octicons-arrow-right-24: View full persona source](https://github.com/alirezarezvani/claude-skills/blob/main/agents/personas/solo-founder.md)
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

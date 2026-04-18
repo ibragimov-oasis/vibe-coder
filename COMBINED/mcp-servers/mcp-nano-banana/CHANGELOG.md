@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/mcp
+  - artifact/mcp-server
+  - source/mcp-servers
+---
+
 # Changelog
 
 ## [Unreleased]
@@ -14,3 +21,9 @@
 
 [Unreleased]: https://github.com/daveremy/nano-banana-2-mcp/compare/v0.1.0...HEAD
 [0.1.0]: https://github.com/daveremy/nano-banana-2-mcp/releases/tag/v0.1.0
+
+## 🔗 Связи
+
+- [[MOC - MCP Servers]] — mcp-servers
+- [[000 - Map of Maps]] — Map of Maps
+

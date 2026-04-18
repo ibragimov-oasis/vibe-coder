@@ -1,5 +1,9 @@
 ---
 description: Playwright ile end-to-end testler oluştur ve çalıştır. Test yolculukları oluşturur, testleri çalıştırır, ekran görüntüleri/videolar/izlemeler yakalar ve artifact'ları yükler.
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
 ---
 
 # E2E Komutu
@@ -363,3 +367,9 @@ npx playwright codegen http://localhost:3000
 # Raporu görüntüle
 npx playwright show-report
 ```
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

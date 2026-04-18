@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/prompts
+  - artifact/prompt
+  - source/prompts-templates
+---
+
 # Claude Code Plugin
 
 Access prompts.chat directly in [Claude Code](https://code.claude.com) with our official plugin. Search prompts, discover skills, and improve your prompts without leaving your IDE.
@@ -164,3 +171,9 @@ plugins/claude/prompts.chat/
 - **[prompts.chat](https://prompts.chat)** - Browse all prompts and skills
 - **[API Documentation](https://prompts.chat/api/mcp)** - MCP server endpoint
 - **[Settings](https://prompts.chat/settings)** - Get your API key
+
+## 🔗 Связи
+
+- [[MOC - Prompts]] — Prompt library
+- [[MOC - System]] — System documentation
+

@@ -4,6 +4,9 @@ description: Stream-JSON chaining for multi-agent pipelines, data transformation
 version: 1.0.0
 category: workflow
 tags: [streaming, pipeline, chaining, multi-agent, workflow]
+  - domain/skills
+  - artifact/skill
+  - source/skills-ruflo
 ---
 
 # Stream-Chain Skill
@@ -561,3 +564,9 @@ Stream-Chain enables sophisticated multi-step workflows by:
 - **Data Transformation**: Complex processing through simple steps
 
 Use `run` for custom workflows and `pipeline` for battle-tested solutions.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-ruflo]] — Category: skills-ruflo
+

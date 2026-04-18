@@ -1,6 +1,10 @@
 ---
 title: "Senior Security Engineer — Agent Skill & Codex Plugin"
 description: "Security engineering toolkit for threat modeling, vulnerability analysis, secure architecture, and penetration testing. Includes STRIDE analysis. Agent skill for Claude Code, Codex CLI, Gemini CLI, OpenClaw."
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
 ---
 
 # Senior Security Engineer
@@ -440,3 +444,9 @@ For compliance framework requirements (OWASP ASVS, CIS Benchmarks, NIST CSF, PCI
 | [senior-secops](https://github.com/alirezarezvani/claude-skills/tree/main/engineering-team/senior-secops) | Security monitoring, incident response |
 | [senior-backend](https://github.com/alirezarezvani/claude-skills/tree/main/engineering-team/senior-backend) | Secure API development |
 | [senior-architect](https://github.com/alirezarezvani/claude-skills/tree/main/engineering-team/senior-architect) | Security architecture decisions |
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

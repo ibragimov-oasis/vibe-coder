@@ -6,6 +6,10 @@ description: >
   How to get started using Toolbox prompts locally with PostgreSQL and [Gemini CLI](https://pypi.org/project/gemini-cli/).
 sample_filters: ["Prompts", "Gemini CLI"]
 is_sample: true
+tags:
+  - domain/mcp
+  - artifact/mcp-server
+  - source/mcp-servers
 ---
 
 ## Before you begin
@@ -251,3 +255,9 @@ Configure the Gemini CLI to talk to your local Toolbox MCP server.
     ```sh
     /investigate_missing_review --user_email="jane.d@example.com" --restaurant_name="The Corner Bistro"
     ```
+
+## 🔗 Связи
+
+- [[MOC - MCP Servers]] — mcp-servers
+- [[000 - Map of Maps]] — Map of Maps
+

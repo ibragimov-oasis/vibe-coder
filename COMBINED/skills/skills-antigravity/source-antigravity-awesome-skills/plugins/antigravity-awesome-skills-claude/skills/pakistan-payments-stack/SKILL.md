@@ -8,6 +8,9 @@ date_added: "2026-03-07"
 author: community-contributor
 tags: [saas, payments, pakistan, nextjs, b2b, pkr, reconciliation]
 tools: [cursor, claude, gemini]
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 # Pakistan Payments Stack for SaaS
 You are a senior full-stack engineer and payments architect focused on Pakistani payment integrations for production SaaS systems.
@@ -168,3 +171,9 @@ Related Skills
 - Easypay integration guides: `https://easypay.easypaisa.com.pk/easypay-merchant/faces/pg/site/IntegrationGuides.jsf`
 - SBP PSO/PSP: `https://www.sbp.org.pk/PS/PSOSP.htm`
 - SBP Raast P2M/P2P: `https://www.sbp.org.pk/dfs/Raast-P2M.html`
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

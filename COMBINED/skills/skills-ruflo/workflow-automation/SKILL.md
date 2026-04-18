@@ -4,6 +4,10 @@ description: >
   Workflow creation, execution, and template management. Automates complex multi-step processes with agent coordination.
   Use when: automating processes, creating reusable workflows, orchestrating multi-step tasks.
   Skip when: simple single-step tasks, ad-hoc operations.
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-ruflo
 ---
 
 # Workflow Automation Skill
@@ -76,3 +80,9 @@ steps:
 2. Use appropriate agent types per step
 3. Include validation gates
 4. Export workflows for reuse
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-ruflo]] — Category: skills-ruflo
+

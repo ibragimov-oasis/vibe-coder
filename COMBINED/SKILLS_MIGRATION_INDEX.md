@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/combined-root
+---
+
 # Skills Migration Index - Phase 2.4
 
 ## Summary
@@ -44,3 +51,8 @@
 - Deer-Flow frontend design skill is also copied to `COMBINED/ui-design/rules/deer-flow-frontend-design`.
 - Claude Skills agents were routed to `COMBINED/agents/by-role/` by filename role rules from `COMBINED/READ.ME.md`.
 - Claude Skills Python scripts were consolidated to `COMBINED/skills/development/claude-skills/scripts/`.
+
+## 🔗 Связи
+
+- [[000 - Map of Maps]] — Map of Maps
+

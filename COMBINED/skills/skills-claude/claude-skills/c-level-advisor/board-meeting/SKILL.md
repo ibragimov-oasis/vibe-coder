@@ -9,6 +9,10 @@ metadata:
   domain: board-protocol
   updated: 2026-03-05
   frameworks: 6-phase-board, two-layer-memory, independent-contributions
+tags:
+  - domain/agents
+  - artifact/skill
+  - source/skills-claude
 ---
 
 # Board Meeting Protocol
@@ -144,3 +148,10 @@ memory/board-meetings/
 - `templates/meeting-agenda.md` — agenda format
 - `templates/meeting-minutes.md` — final output format
 - `references/meeting-facilitation.md` — conflict handling, timing, failure modes
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+- [[MOC - Agents]] — Claude agents
+

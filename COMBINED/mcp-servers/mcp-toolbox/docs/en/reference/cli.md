@@ -4,6 +4,10 @@ type: docs
 weight: 1
 description: >
   This page describes the `toolbox` command-line options.
+tags:
+  - domain/mcp
+  - artifact/mcp-server
+  - source/mcp-servers
 ---
 
 ## Reference
@@ -157,3 +161,9 @@ reloading, use the `--disable-reload` flag.
 To launch Toolbox's interactive UI, use the `--ui` flag. This allows you to test
 tools and toolsets with features such as authorized parameters. To learn more,
 visit [Toolbox UI](../documentation/configuration/toolbox-ui/index.md).
+
+## 🔗 Связи
+
+- [[MOC - MCP Servers]] — mcp-servers
+- [[000 - Map of Maps]] — Map of Maps
+

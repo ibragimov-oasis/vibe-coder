@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # Task Queue Reference
 
 Distributed task queue system, dead letter handling, and circuit breakers.
@@ -359,3 +366,9 @@ def calculate_exponential_backoff(attempt=1, base=60, max_wait=3600):
 | 1-2 | Background | Nice-to-have improvements |
 
 Tasks are always processed in priority order within their type.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

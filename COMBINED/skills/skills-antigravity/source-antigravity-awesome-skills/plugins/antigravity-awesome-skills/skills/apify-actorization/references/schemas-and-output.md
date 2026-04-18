@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # Schemas and Output Configuration
 
 ## Input Schema
@@ -138,3 +145,9 @@ await Actor.setValue('STATE', { processedCount: 100 });
 // Restore state on restart
 const state = await Actor.getValue('STATE') || { processedCount: 0 };
 ```
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

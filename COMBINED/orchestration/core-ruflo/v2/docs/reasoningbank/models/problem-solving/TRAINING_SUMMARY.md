@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # Problem Solving ReasoningBank - Training Completion Summary
 
 **Training Agent**: Problem Solving Model Training Agent

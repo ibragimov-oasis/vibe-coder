@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # Pipeline Management Framework
 
 Best practices for pipeline management including stage definitions, conversion benchmarks, velocity optimization, and inspection cadence.
@@ -290,3 +297,9 @@ Run cleanup when:
 - Outbound/SDR: 30-40%
 - Partner/Channel: 10-20%
 - Expansion/Customer: 10-20%
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

@@ -5,6 +5,10 @@ license: MIT
 metadata:
   author: Smit Patel (https://linkedin.com/in/smitkpatel)
   source: https://github.com/beingsmit/technical-product-gtm
+tags:
+  - domain/agents
+  - artifact/skill
+  - source/skills-copilot
 ---
 
 # Enterprise Onboarding
@@ -455,3 +459,10 @@ Are active users growing Week 6 → Week 12?
 ---
 
 *Based on enterprise onboarding across multiple platform companies — designing partner onboarding directly and collaborating closely with CS on customer onboarding. Not theory — lessons from seeing Week 4 ghosting happen repeatedly and learning that go-live ≠ success, and understanding the adoption cliff that kills 30% of deals in first year.*
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-copilot]] — Category: skills-copilot
+- [[MOC - Agents]] — Copilot agents
+

@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-gsd
+---
+
 # Architecture Research Template
 
 Template for `.planning/research/ARCHITECTURE.md` — system structure patterns for the project domain.
@@ -202,3 +209,10 @@ src/
 - Helps prevent common mistakes during implementation
 
 </guidelines>
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/gsd]] — GSD
+- [[000 - Map of Maps]] — Map of Maps
+

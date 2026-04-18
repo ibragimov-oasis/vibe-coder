@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/seo
+  - artifact/doc
+  - source/skills-seo
+---
+
 <!-- Updated: 2026-02-07 -->
 # Agency/Consultancy SEO Strategy Template
 
@@ -173,3 +180,9 @@
 - [ ] Structure thought leadership content with clear headings and extractable insights
 - [ ] Maintain consistent agency entity information across directories, social profiles, and industry sites
 - [ ] Monitor AI citation in ChatGPT, Perplexity, and Google AI Overviews for brand and key service terms
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-seo]] — Category: skills-seo
+

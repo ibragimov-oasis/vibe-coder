@@ -6,6 +6,9 @@ risk: safe
 source: community
 tags: "[orchestration, meta-skill, agent-memory, task-evaluation]"
 date_added: "2026-03-13"
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 # antigravity-skill-orchestrator
@@ -121,3 +124,9 @@ memory_read({ key: "combination-ecommerce-checkout" })
 ## Related Skills
 
 - `@agent-memory-mcp` - Essential for this skill to function. Provides the persistent storage for skill combinations.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

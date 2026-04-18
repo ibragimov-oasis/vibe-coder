@@ -1,5 +1,9 @@
 ---
 description: 为Go强制执行TDD工作流程。首先编写表驱动测试，然后实现。使用go test -cover验证80%以上的覆盖率。
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
 ---
 
 # Go TDD 命令
@@ -272,3 +276,9 @@ go test -race -cover ./...
 
 * 技能：`skills/golang-testing/`
 * 技能：`skills/tdd-workflow/`
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

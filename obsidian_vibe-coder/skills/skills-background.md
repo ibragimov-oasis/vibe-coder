@@ -39,3 +39,9 @@ source: "../COMBINED/skills/skills-background/"
 
 - [[orchestration/core-archon]] — YAML workflow для background tasks
 - [[orchestration/core-taskmaster]] — управление background задачами
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Parent MOC
+- [[000 - Map of Maps]] — Map of Maps
+

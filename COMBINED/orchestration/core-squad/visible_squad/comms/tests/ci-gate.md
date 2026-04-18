@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-squad
+---
+
 # CI Tone Lint Gate
 
 > Automated quality checks for PAO community response drafts.
@@ -52,3 +59,10 @@ If ANY mandatory check fails:
 2. Error message shown to PAO with specific violation
 3. PAO must redraft before presenting to reviewer
 4. Failure logged to audit trail (action: "lint_failure")
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/squad]] — Squad
+- [[000 - Map of Maps]] — Map of Maps
+

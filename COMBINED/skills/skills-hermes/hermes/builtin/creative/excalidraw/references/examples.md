@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-hermes
+---
+
 # Excalidraw Diagram Examples
 
 Complete, copy-pasteable examples. Wrap each in the `.excalidraw` envelope before saving:
@@ -138,4 +145,9 @@ Demonstrates a sequence diagram with actors, dashed lifelines, and message arrow
 - **Arrow labels need space** -- long labels like "ATP + NADPH" overflow short arrows. Keep labels short or make arrows wider
 - **Center titles relative to the diagram** -- estimate total width and center the title text over it
 - **Draw decorations LAST** -- cute illustrations (sun, stars, icons) should appear at the end of the array so they're drawn on top
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-hermes]] — Category: skills-hermes
 

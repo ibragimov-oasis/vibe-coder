@@ -2,6 +2,10 @@
 name: deepinit
 description: Deep codebase initialization with hierarchical AGENTS.md documentation
 level: 4
+tags:
+  - domain/orchestration
+  - artifact/skill
+  - source/skills-omc
 ---
 
 # Deep Init Skill
@@ -319,3 +323,10 @@ When running on an existing codebase with AGENTS.md files:
 - **Batch small directories** - Process multiple at once
 - **Skip unchanged** - If directory hasn't changed, skip regeneration
 - **Parallel writes** - Multiple agents writing different files simultaneously
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-omc]] — Category: skills-omc
+- [[MOC - Orchestration]] — Multi-agent orchestration
+

@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # @claude-flow/plugin-quantum-optimizer
 
 [![npm version](https://img.shields.io/npm/v/@claude-flow/plugin-quantum-optimizer.svg)](https://www.npmjs.com/package/@claude-flow/plugin-quantum-optimizer)
@@ -298,3 +305,9 @@ Amplitude amplification for unstructured search achieving O(sqrt(N)) complexity.
 ## License
 
 MIT
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-ruflo]] — core-ruflo
+

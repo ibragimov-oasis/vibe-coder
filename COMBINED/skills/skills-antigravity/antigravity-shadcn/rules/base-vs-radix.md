@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # Base vs Radix
 
 API differences between `base` and `radix`. Check the `base` field from `npx shadcn@latest info`.
@@ -304,3 +311,9 @@ Radix requires `type="single"` or `type="multiple"` and supports `collapsible`. 
   <AccordionItem value="item-1">...</AccordionItem>
 </Accordion>
 ```
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

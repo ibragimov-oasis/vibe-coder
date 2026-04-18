@@ -2,6 +2,10 @@
 sidebar_position: 9
 title: "Tools Runtime"
 description: "Runtime behavior of the tool registry, toolsets, dispatch, and terminal environments"
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-hermes
 ---
 
 # Tools Runtime
@@ -63,3 +67,10 @@ Tool calls may execute sequentially or concurrently depending on the tool mix an
 - [Built-in Tools Reference](../reference/tools-reference.md)
 - [Agent Loop Internals](./agent-loop.md)
 - [ACP Internals](./acp-internals.md)
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/hermes]] — Hermes
+- [[000 - Map of Maps]] — Map of Maps
+

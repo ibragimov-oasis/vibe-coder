@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # Reasoning Agents System for Agentic-Flow
 
 ## Executive Summary
@@ -480,3 +487,10 @@ See [REASONING-AGENTS.md](./docs/REASONING-AGENTS.md) for details.
 ---
 
 **The reasoning agent system is complete and ready for v1.5.0 release!** 🚀
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

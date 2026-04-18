@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-data-analysis
+---
+
 # generate_mind_map — 思维导图
 
 ## 功能概述
@@ -18,3 +25,9 @@
 
 ## 返回结果
 - 返回思维导图 URL，并在 `_meta.spec` 中保留节点树以便后续优化。
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-data-analysis]] — Category: skills-data-analysis
+

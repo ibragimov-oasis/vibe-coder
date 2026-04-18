@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-copilot
+---
+
 # RestTestClient
 
 Modern REST client testing with Spring Boot 4+ (replaces TestRestTemplate).
@@ -276,3 +283,9 @@ void shouldGetOrder() {
 3. Leverage fluent assertions for readability
 4. Test both success and error scenarios
 5. Verify headers for security/API versioning
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-copilot]] — Category: skills-copilot
+

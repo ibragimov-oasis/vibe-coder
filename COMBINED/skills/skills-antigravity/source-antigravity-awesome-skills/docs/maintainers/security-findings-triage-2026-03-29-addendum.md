@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # Security Findings Triage Addendum (2026-03-29)
 
 This addendum updates the 2026-03-15 baseline after the follow-up hardening
@@ -46,3 +53,9 @@ For the full current-head re-triage, use
   findings are still actionable on current HEAD.
 - If a future triage refresh is produced, fold these corrections into the next
   full summary instead of re-copying the original counts unchanged.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

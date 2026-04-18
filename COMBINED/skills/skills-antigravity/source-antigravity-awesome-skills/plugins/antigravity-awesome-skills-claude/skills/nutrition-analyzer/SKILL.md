@@ -4,6 +4,10 @@ description: 分析营养数据、识别营养模式、评估营养状况，并�
 allowed-tools: Read, Grep, Glob, Write
 risk: unknown
 source: community
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 # 营养分析器技能
@@ -775,3 +779,9 @@ def calculate_healthy_eating_index(daily_data):
 **技能版本**: v1.0
 **创建日期**: 2026-01-06
 **维护者**: WellAlly Tech
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

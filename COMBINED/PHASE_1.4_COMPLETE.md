@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/combined-root
+---
+
 # Phase 1.4 Complete: Skills Category Analysis
 
 **Date:** April 3, 2026
@@ -400,3 +407,8 @@ awesome-copilot-main/
 ---
 
 **END OF PHASE 1.4 REPORT**
+
+## 🔗 Связи
+
+- [[000 - Map of Maps]] — Map of Maps
+

@@ -6,6 +6,9 @@ metadata:
   hermes:
     tags: [qa, testing, browser, web, dogfood]
     related_skills: []
+  - domain/skills
+  - artifact/skill
+  - source/skills-hermes
 ---
 
 # Dogfood: Systematic Web Application QA Testing
@@ -160,3 +163,9 @@ Save the report to `{output_dir}/report.md`.
 - **Check responsive behavior** by noting any layout issues visible in screenshots.
 - **Don't forget edge cases**: empty states, very long text, special characters, rapid clicking.
 - When reporting screenshots to the user, include `MEDIA:<screenshot_path>` so they can see the evidence inline.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-hermes]] — Category: skills-hermes
+

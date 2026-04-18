@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-squad
+---
+
 # FIDO
 
 > Flight Dynamics Officer
@@ -222,4 +229,10 @@ Reviewed 9 community PRs (8 from tamirdresher, 1 from eric-vanartsdalen). Key fi
 3. **Verdicts:** ✅ MERGE: #625 (notification-routing), #603 (Challenger agent), #608 (SECURITY.md). ⚠️ NEEDS CHANGES: #623, #622, #621, #614 (changeset fix), #607, #606 (path restructuring).
 
 **Learning:** Community contributors consistently struggle with two things: (a) scoped npm package names in changesets, and (b) monorepo file placement. Both are preventable with better contributor docs.
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/squad]] — Squad
+- [[000 - Map of Maps]] — Map of Maps
 

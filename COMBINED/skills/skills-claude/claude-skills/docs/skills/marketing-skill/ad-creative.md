@@ -1,6 +1,10 @@
 ---
 title: "Ad Creative — Agent Skill for Marketing"
 description: "When the user needs to generate, iterate, or scale ad creative for paid advertising. Use when they say 'write ad copy,' 'generate headlines,' 'create. Agent skill for Claude Code, Codex CLI, Gemini CLI, OpenClaw."
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
 ---
 
 # Ad Creative
@@ -270,3 +274,9 @@ Notes: Benefit-first formula, tested format for consideration stage
 - **ab-test-setup**: Use when planning which ad variants to test and how to measure significance. NOT for generating the variants (use ad-creative for that).
 - **content-creator**: Use for organic social content and blog content. NOT for paid ad copy (different constraints, different voice).
 - **copy-editing**: Use when polishing existing copy. NOT for bulk generation or platform-specific formatting.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

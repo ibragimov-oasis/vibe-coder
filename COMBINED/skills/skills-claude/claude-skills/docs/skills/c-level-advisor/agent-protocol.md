@@ -1,6 +1,10 @@
 ---
 title: "Inter-Agent Protocol — Agent Skill for Executives"
 description: "Inter-agent communication protocol for C-suite agent teams. Defines invocation syntax, loop prevention, isolation rules, and response formats. Use. Agent skill for Claude Code, Codex CLI, Gemini CLI, OpenClaw."
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
 ---
 
 # Inter-Agent Protocol
@@ -419,3 +423,9 @@ ACTION ITEMS
 
 ## Reference
 - `references/invocation-patterns.md` — common cross-functional patterns with examples
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

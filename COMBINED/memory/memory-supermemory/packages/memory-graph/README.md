@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/memory
+  - artifact/memory
+  - source/memory
+---
+
 # @supermemory/memory-graph
 
 Interactive graph visualization for documents and their memory connections.
@@ -92,3 +99,9 @@ MIT
 - [GitHub](https://github.com/supermemoryai/supermemory/tree/main/packages/memory-graph)
 - [Issues](https://github.com/supermemoryai/supermemory/issues)
 - [Supermemory](https://supermemory.ai)
+
+## 🔗 Связи
+
+- [[MOC - Memory]] — memory
+- [[000 - Map of Maps]] — Map of Maps
+

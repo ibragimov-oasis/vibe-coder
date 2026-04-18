@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-hermes
+---
+
 # Artifacts & Model Registry Guide
 
 Complete guide to data versioning and model management with W&B Artifacts.
@@ -582,3 +589,9 @@ metadata_artifact.add_file('metadata.json')  # Small file
 - **Artifacts Documentation**: https://docs.wandb.ai/guides/artifacts
 - **Model Registry**: https://docs.wandb.ai/guides/model-registry
 - **Best Practices**: https://wandb.ai/site/articles/versioning-data-and-models-in-ml
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-hermes]] — Category: skills-hermes
+

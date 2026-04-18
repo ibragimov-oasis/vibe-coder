@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-praisonai
+---
+
 # Token Metrics Tracking Examples - SIMPLIFIED
 
 This directory contains examples demonstrating the **simplified** token metrics tracking using just `Agent(metrics=True)`. 
@@ -89,3 +96,9 @@ The simplified approach is ideal for:
 - CI/CD pipelines
 
 No configuration needed - just add `metrics=True` and you're done!
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-praisonai]] — core-praisonai
+

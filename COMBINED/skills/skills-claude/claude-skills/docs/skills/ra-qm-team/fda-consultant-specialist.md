@@ -1,6 +1,10 @@
 ---
 title: "FDA Consultant Specialist — Agent Skill for Compliance"
 description: "FDA regulatory consultant for medical device companies. Provides 510(k)/PMA/De Novo pathway guidance, QSR (21 CFR 820) compliance, HIPAA assessments. Agent skill for Claude Code, Codex CLI, Gemini CLI, OpenClaw."
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
 ---
 
 # FDA Consultant Specialist
@@ -316,3 +320,9 @@ python scripts/qsr_compliance_checker.py /path/to/project --section 820.30
 # Run HIPAA risk assessment
 python scripts/hipaa_risk_assessment.py /path/to/project --category technical
 ```
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

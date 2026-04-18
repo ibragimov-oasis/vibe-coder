@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/ui
+  - artifact/doc
+  - source/skills-design
+---
+
 # Async state and task lifecycle
 
 ## Intent
@@ -94,3 +101,9 @@ struct SearchView: View {
 - Do not start network work directly from `body`.
 - Do not ignore cancellation for searches, typeahead, or rapidly changing selections.
 - Avoid storing derived async state in multiple places when one source of truth is enough.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-design]] — Category: skills-design
+

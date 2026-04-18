@@ -8,7 +8,9 @@ dependencies: [peft>=0.13.0, transformers>=4.45.0, torch>=2.0.0, bitsandbytes>=0
 metadata:
   hermes:
     tags: [Fine-Tuning, PEFT, LoRA, QLoRA, Parameter-Efficient, Adapters, Low-Rank, Memory Optimization, Multi-Adapter]
-
+  - domain/skills
+  - artifact/skill
+  - source/skills-hermes
 ---
 
 # PEFT (Parameter-Efficient Fine-Tuning)
@@ -432,3 +434,9 @@ TrainingArguments(learning_rate=1e-4)
 - **LoRA Paper**: arXiv:2106.09685
 - **QLoRA Paper**: arXiv:2305.14314
 - **Models**: https://huggingface.co/models?library=peft
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-hermes]] — Category: skills-hermes
+

@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # Next.js Optimization Guide
 
 Performance optimization techniques for Next.js 14+ applications.
@@ -722,3 +729,9 @@ const nextConfig = {
 
 module.exports = nextConfig;
 ```
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

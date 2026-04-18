@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-copilot
+---
+
 # Workflows, Best Practices & Scripting Patterns
 
 ## Table of Contents
@@ -666,3 +673,9 @@ deploy_to_environments() {
   done
 }
 ```
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-copilot]] — Category: skills-copilot
+

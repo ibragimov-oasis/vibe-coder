@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # Pricing Models — Deep Dive
 
 Comprehensive reference for SaaS pricing models with real-world examples and when to use each.
@@ -192,3 +199,9 @@ Answer these questions to identify the right model:
 | **Churn rate (monthly)** | 2-8% | 1-4% | 0.5-2% |
 
 **The LTV:CAC rule:** LTV should be ≥3x CAC. If it's below 3x, pricing or retention (or both) needs fixing.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

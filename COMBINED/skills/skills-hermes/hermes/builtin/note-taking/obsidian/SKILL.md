@@ -1,6 +1,10 @@
 ---
 name: obsidian
 description: Read, search, and create notes in the Obsidian vault.
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-hermes
 ---
 
 # Obsidian Vault
@@ -64,3 +68,9 @@ New content here." >> "$VAULT/Existing Note.md"
 ## Wikilinks
 
 Obsidian links notes with `[[Note Name]]` syntax. When creating notes, use these to link related content.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-hermes]] — Category: skills-hermes
+

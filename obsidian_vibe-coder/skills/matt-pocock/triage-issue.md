@@ -90,3 +90,9 @@ Output: Triage report + action items
 
 - [[skills/matt-pocock/tdd]] — TDD как профилактика багов
 - [[agents/mega-debugger]] — полный workflow дебагинга
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Parent MOC
+- [[000 - Map of Maps]] — Map of Maps
+

@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # Content Creation Frameworks & Templates
 
 Ready-to-use templates for blog posts, social media, email marketing, video scripts, and content planning.
@@ -549,3 +556,9 @@ Original: Blog Post (2000 words)
 - [ ] Scannable format (bullets, headers)
 - [ ] Engaging hook in introduction
 - [ ] Clear conclusion and next steps
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/root
+---
+
 # CORE.md — ULTRACAR v3.0 Minimal Universal Core
 
 > **Single source of truth for startup sequence, routing, and post-task steps.**
@@ -238,3 +245,8 @@ COMBINED/security/      ← Shannon pentesting
 COMBINED/REPO_DOCS/     ← HOW_IT_WORKS.md for all 54 repos
 obsidian_vibe-coder/    ← Obsidian vault (MOCs, sessions, governance)
 ```
+
+## 🔗 Связи
+
+- [[000 - Map of Maps]] — Map of Maps
+

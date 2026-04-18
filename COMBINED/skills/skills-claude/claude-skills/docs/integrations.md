@@ -1,6 +1,10 @@
 ---
 title: Cursor, Aider, Windsurf & 8 More AI Coding Tools
 description: "Install Claude Code skills and agent plugins in Cursor, Aider, Kilo Code, Windsurf, OpenCode, Augment, and Antigravity. One-command conversion for 11 AI coding agents."
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
 ---
 
 # Multi-Tool Integrations
@@ -605,3 +609,9 @@ Options:
 
 ??? question "Do supporting files (scripts, references) work in all tools?"
     Only tools that support subdirectories per skill (Antigravity, Windsurf, OpenCode) get the full bundle. Flat-file tools (Cursor, Aider, Kilo Code, Augment) get the SKILL.md content only.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

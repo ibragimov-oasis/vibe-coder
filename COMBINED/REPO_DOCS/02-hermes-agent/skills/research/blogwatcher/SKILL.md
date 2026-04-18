@@ -54,3 +54,9 @@ Found 4 new article(s) total!
 ## Notes
 
 - Use `blogwatcher <command> --help` to discover flags and options.
+
+## 🔗 Связи
+
+- [[000 - Map of Maps]] — REPO_DOCS
+- [[000 - Map of Maps]] — Map of Maps
+

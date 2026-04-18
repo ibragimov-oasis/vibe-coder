@@ -2,6 +2,10 @@
 name: claude-api
 description: Anthropic Claude API patterns for Python and TypeScript. Covers Messages API, streaming, tool use, vision, extended thinking, batches, prompt caching, and Claude Agent SDK. Use when building applications with the Claude API or Anthropic SDKs.
 origin: ECC
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-everything-cc
 ---
 
 # Claude API
@@ -335,3 +339,9 @@ export ANTHROPIC_MODEL="claude-sonnet-4-6"
 ```
 
 Never hardcode API keys. Always use environment variables.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

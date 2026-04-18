@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-gsd
+---
+
 # GSD 문서
 
 Get Shit Done (GSD) 프레임워크의 종합 문서입니다. GSD는 AI 코딩 에이전트를 위한 메타 프롬프팅, 컨텍스트 엔지니어링, 스펙 기반 개발 시스템입니다.
@@ -27,3 +34,9 @@ Get Shit Done (GSD) 프레임워크의 종합 문서입니다. GSD는 AI 코딩 
 - **GSD 설정하기:** [Configuration Reference](CONFIGURATION.md)
 - **시스템 내부 동작 원리:** [Architecture](ARCHITECTURE.md)
 - **기여 또는 확장:** [CLI Tools Reference](CLI-TOOLS.md) + [Agent Reference](AGENTS.md)
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-gsd]] — core-gsd
+

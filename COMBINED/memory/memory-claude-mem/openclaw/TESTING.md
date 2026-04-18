@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/memory
+  - artifact/memory
+  - source/memory
+---
+
 # OpenClaw Claude-Mem Plugin — Testing Guide
 
 ## Quick Start (Docker)
@@ -277,3 +284,9 @@ The plugin was built against the wrong API. Ensure `src/index.ts` uses `api.logg
 ### Memory slot conflict
 - **Symptom:** `plugin disabled (memory slot set to "memory-core")`
 - **Fix:** Add `"slots": { "memory": "claude-mem" }` to plugins config
+
+## 🔗 Связи
+
+- [[MOC - Memory]] — memory
+- [[000 - Map of Maps]] — Map of Maps
+

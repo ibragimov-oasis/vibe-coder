@@ -3,6 +3,9 @@ title: Initialize DBOSClient for External Access
 impact: MEDIUM
 impactDescription: Enables external applications to interact with DBOS workflows
 tags: client, external, setup, initialization
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
 ---
 
 ## Initialize DBOSClient for External Access
@@ -58,3 +61,9 @@ Constructor options:
 - `serializer`: Optional custom serializer (must match the DBOS application's serializer)
 
 Reference: [DBOS Client](https://docs.dbos.dev/typescript/reference/client)
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

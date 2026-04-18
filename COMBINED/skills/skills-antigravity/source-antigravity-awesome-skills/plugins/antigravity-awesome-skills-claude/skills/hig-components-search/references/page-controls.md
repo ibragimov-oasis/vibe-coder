@@ -113,8 +113,17 @@ Horizontal page control
 
 ## [Change log](https://developer.apple.com/design/human-interface-guidelines/page-controls#Change-log)
 
-Date| Changes  
+Date| Changes
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
 ---|---  
 June 21, 2023| Updated to include guidance for visionOS.  
-June 5, 2023| Updated guidance for using page controls in watchOS.  
-  
+June 5, 2023| Updated guidance for using page controls in watchOS.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

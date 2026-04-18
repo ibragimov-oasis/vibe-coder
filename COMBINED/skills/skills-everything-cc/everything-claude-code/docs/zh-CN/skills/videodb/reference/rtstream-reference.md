@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
+---
+
 # RTStream 参考
 
 RTStream 操作的代码级详情。工作流程指南请参阅 [rtstream.md](rtstream.md)。
@@ -565,3 +572,9 @@ except InvalidRequestError as exc:
     else:
         raise
 ```
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

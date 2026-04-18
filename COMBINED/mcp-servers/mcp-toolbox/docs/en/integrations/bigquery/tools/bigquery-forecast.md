@@ -4,6 +4,10 @@ type: docs
 weight: 1
 description: >
   A "bigquery-forecast" tool forecasts time series data in BigQuery.
+tags:
+  - domain/mcp
+  - artifact/mcp-server
+  - source/mcp-servers
 ---
 
 ## About
@@ -83,3 +87,9 @@ You can use the following sample prompts to call this tool:
   `bqml_tutorial.google_analytic`? Use project_id `myproject`.
 - What are the future `total_visits` in bigquery table
   `bqml_tutorial.google_analytic`?
+
+## 🔗 Связи
+
+- [[MOC - MCP Servers]] — mcp-servers
+- [[000 - Map of Maps]] — Map of Maps
+

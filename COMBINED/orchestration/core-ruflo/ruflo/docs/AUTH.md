@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # Authentication Setup
 
 ## Google OIDC (Recommended)
@@ -54,3 +61,10 @@ OPENID_CLIENT_ID=your-client-id
 ```
 
 Supported providers: Google, Microsoft Entra ID, Auth0, Okta, Keycloak, etc.
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-ruflo]] — core-ruflo
+- [[MOC - Skills]] — Skills library
+

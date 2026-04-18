@@ -1,5 +1,9 @@
 ---
 description: Gereksinimleri yeniden ifade et, riskleri değerlendir ve adım adım uygulama planı oluştur. Herhangi bir koda dokunmadan önce kullanıcı ONAYINI BEKLE.
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
 ---
 
 # Plan Komutu
@@ -113,3 +117,9 @@ Bu komut, ECC tarafından sağlanan `planner` agent'ını çağırır.
 
 Manuel kurulumlar için, kaynak dosya şurada bulunur:
 `agents/planner.md`
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

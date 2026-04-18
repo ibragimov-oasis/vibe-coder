@@ -6,6 +6,10 @@ part: advanced
 audience: [user]
 sidebar:
   order: 8
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-archon
 ---
 
 In [Chapter 7](/book/first-workflow/) you built a workflow that runs commands in sequence, one after another. That covers a lot of ground — plan, implement, validate, review. But there's a class of problems sequential steps can't solve cleanly: "run this node only if the previous result was a bug, not a feature request" or "wait for three independent reviewers to finish, then merge their findings."
@@ -288,3 +292,10 @@ Archon supports four node types:
 You now have the full DAG toolkit. The same commands you built in Chapters 6 and 7 work as nodes — `command:` is the bridge. The difference is the wiring between them: explicit dependencies, conditional paths, and parallel execution by default.
 
 [Chapter 9: Hooks and Quality Loops →](/book/hooks-and-quality/) covers the next level: intercepting tool calls to inject guidance, create quality gates, or deny specific actions within a node.
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/archon]] — Archon
+- [[000 - Map of Maps]] — Map of Maps
+

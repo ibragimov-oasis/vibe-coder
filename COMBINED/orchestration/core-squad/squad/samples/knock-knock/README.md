@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-squad
+---
+
 # Knock-Knock
 
 Two Copilot sessions trade knock-knock jokes forever, generating unique content via live LLM responses. This intermediate sample demonstrates how agents interact with real GitHub Copilot sessions, stream responses token-by-token, and sustain multi-turn conversations.
@@ -71,3 +78,9 @@ The sample creates two agents from The Usual Suspects universe. Each agent gets 
 - See [hook-governance](../hook-governance/README.md) to learn how to enforce rules with SDK hooks
 - Check [rock-paper-scissors](../rock-paper-scissors/README.md) for a more complex multi-agent system with strategy and learning
 - Read the [Squad SDK documentation](../../README.md) for session management patterns
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-squad]] — core-squad
+

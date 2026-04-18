@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # Values.yaml Design Reference
 
 ## Design Principles
@@ -460,3 +467,9 @@ helm template myrelease mychart/ -s templates/deployment.yaml
 | No secrets? | Are default values free of passwords/tokens? |
 | camelCase? | Does it follow Helm naming convention? |
 | Flat enough? | Is nesting 3 levels or less? |
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

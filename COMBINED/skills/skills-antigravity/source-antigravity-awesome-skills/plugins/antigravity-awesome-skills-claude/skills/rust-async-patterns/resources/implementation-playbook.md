@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # Rust Async Patterns Implementation Playbook
 
 This file contains detailed patterns, checklists, and code samples referenced by the skill.
@@ -514,3 +521,9 @@ tokio::spawn(async move {
 - [Tokio Tutorial](https://tokio.rs/tokio/tutorial)
 - [Async Book](https://rust-lang.github.io/async-book/)
 - [Tokio Console](https://github.com/tokio-rs/console)
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

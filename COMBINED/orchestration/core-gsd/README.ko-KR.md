@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-gsd
+---
+
 <div align="center">
 
 # GET SHIT DONE
@@ -821,3 +828,9 @@ MIT 라이선스. 자세한 내용은 [LICENSE](LICENSE)를 참조하세요.
 **Claude Code는 강력합니다. GSD가 그걸 신뢰할 수 있게 만듭니다.**
 
 </div>
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-gsd]] — core-gsd
+

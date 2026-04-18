@@ -6,6 +6,10 @@ metadata:
     skill-author: K-Dense Inc.
 risk: unknown
 source: community
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 # Statsmodels: Statistical Modeling and Econometrics
@@ -611,4 +615,9 @@ For detailed documentation and examples:
 - User guide: https://www.statsmodels.org/stable/user-guide.html
 - Examples: https://www.statsmodels.org/stable/examples/index.html
 - API reference: https://www.statsmodels.org/stable/api.html
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
 

@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-refly
+---
+
 # 贡献指南
 
 欢迎来到 Refly 贡献指南！Refly 是首个用于构建稳定、原子化和版本化 Agent Skill 的开源平台。作为 AI 原生的创作引擎，我们提供直观的自由画布界面，将业务逻辑转化为结构化的 Agent Skill，使任何 Agent 都能以 100% 的可靠性调用。社区的每一份帮助都意义非凡。
@@ -257,3 +264,9 @@ cd packages/cli && pnpm dev
 - 加入我们的 [Discord](https://discord.gg/YVuYFjFvRC) 社区
 - 在我们的 [GitHub 讨论](https://github.com/refly-ai/refly/discussions)中开启讨论
 - 查看我们的[文档](https://docs.refly.ai)
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-refly]] — core-refly
+

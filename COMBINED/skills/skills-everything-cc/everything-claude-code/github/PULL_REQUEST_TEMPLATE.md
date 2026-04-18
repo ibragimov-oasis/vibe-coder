@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
+---
+
 ## What Changed
 <!-- Describe the specific changes made in this PR -->
 
@@ -31,3 +38,9 @@
 - [ ] Updated relevant documentation
 - [ ] Added comments for complex logic
 - [ ] README updated (if needed)
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

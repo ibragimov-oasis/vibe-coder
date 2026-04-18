@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # Juntas Comerciais do Brasil — URLs e Status de Scraping
 
 Tabela de referência atualizada com todas as 27 Juntas Comerciais e seus sites de leiloeiros.
@@ -79,3 +86,9 @@ Após cada scraping, verificar no `data/scraping_log.json`:
 - Estados com `status: VAZIO` → investigar se URL mudou
 - Estados com `status: ERRO` → possível necessidade de Playwright
 - Atualizar colunas `Método` e `URL` se necessário
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

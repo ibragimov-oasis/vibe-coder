@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # API Design Patterns
 
 Concrete patterns for REST and GraphQL API design with examples.
@@ -528,3 +535,9 @@ const idempotencyMiddleware: RequestHandler = async (req, res, next) => {
 | PATCH | No | No | No | Yes |
 | DELETE | Yes | No | No | Optional |
 | OPTIONS | Yes | Yes | No | No |
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

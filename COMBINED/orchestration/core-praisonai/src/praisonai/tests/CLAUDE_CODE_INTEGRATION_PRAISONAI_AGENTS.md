@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-praisonai
+---
+
 # Claude Code Integration with PraisonAI Agents
 
 This document describes the integration of Claude Code with PraisonAI Agents, allowing AI agents to intelligently decide when to use Claude Code for file modifications and coding tasks.
@@ -289,3 +296,10 @@ print("Repo path:", os.getenv("PRAISONAI_CODE_REPO_PATH"))
 ---
 
 For technical support or questions, please refer to the main PraisonAI documentation or submit issues to the repository.
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/praisonai]] — PraisonAI
+- [[000 - Map of Maps]] — Map of Maps
+

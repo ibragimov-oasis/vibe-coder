@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # Antigravity Awesome Skills 与 Awesome Claude Skills 的比较
 
 如果您正在比较 **Antigravity Awesome Skills** 和 **Awesome Claude Skills**,决定通常归结为广度与精选。
@@ -41,3 +48,9 @@
 
 - 如果您想今天就开始安装和使用技能,请返回 [`README.md`](../../README.md) 并按照安装指南进行操作。
 - 如果您仍在评估工具特定选项,请继续阅读 [`best-claude-code-skills-github.md`](best-claude-code-skills-github.md) 或 [`best-cursor-skills-github.md`](best-cursor-skills-github.md)。
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

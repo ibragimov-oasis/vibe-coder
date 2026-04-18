@@ -2,6 +2,10 @@
 name: agentic-engineering
 description: Operate as an agentic engineer using eval-first execution, decomposition, and cost-aware model routing.
 origin: ECC
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-everything-cc
 ---
 
 # Agentic Engineering
@@ -61,3 +65,9 @@ Track per task:
 - success/failure
 
 Escalate model tier only when lower tier fails with a clear reasoning gap.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/ui
+  - artifact/ui-component
+  - source/ui-design
+---
+
 # Stitch Design System Documentation Skill
 
 ## Install
@@ -32,3 +39,9 @@ When activated, the agent follows a structured design analysis pipeline:
 3. **Translation**: Converts technical CSS/Tailwind values into descriptive, natural design language.
 4. **Synthesis**: Generates a comprehensive DESIGN.md following the semantic design system format.
 5. **Alignment**: Ensures output follows Stitch Effective Prompting Guide principles for optimal screen generation.
+
+## 🔗 Связи
+
+- [[MOC - UI Design]] — ui-design
+- [[000 - Map of Maps]] — Map of Maps
+

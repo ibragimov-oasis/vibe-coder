@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-copilot
+---
+
 # Polyglot APIs — Complete Reference
 
 Aspire supports 10+ languages/runtimes. The AppHost is always .NET, but orchestrated workloads can be any language. Each language has a hosting method that returns a resource you wire into the dependency graph.
@@ -294,3 +301,9 @@ builder.Build().Run();
 ```
 
 This single AppHost starts 6 services across 5 languages plus 4 infrastructure resources, all wired together with automatic service discovery.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-copilot]] — Category: skills-copilot
+

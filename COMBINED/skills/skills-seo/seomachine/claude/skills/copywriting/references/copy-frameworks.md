@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/seo
+  - artifact/doc
+  - source/skills-seo
+---
+
 # Copy Frameworks Reference
 
 Headline formulas, page section types, and structural templates.
@@ -336,3 +343,9 @@ Avoid testimonials that just say:
 - "Great product!"
 - "Love it!"
 - "Easy to use!"
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-seo]] — Category: skills-seo
+

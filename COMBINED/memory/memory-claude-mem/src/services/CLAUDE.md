@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/memory
+  - artifact/memory
+  - source/memory
+---
+
 <claude-mem-context>
 # Recent Activity
 
@@ -59,3 +66,9 @@
 | #35646 | " | ✅ | Added APPROVED OVERRIDE annotation for Cursor context file update error handling | ~342 |
 | #35643 | 11:27 PM | ✅ | Added APPROVED OVERRIDE annotation for PID file cleanup error handling | ~320 |
 </claude-mem-context>
+
+## 🔗 Связи
+
+- [[MOC - Memory]] — memory
+- [[000 - Map of Maps]] — Map of Maps
+

@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/mcp
+  - artifact/mcp-server
+  - source/mcp-servers
+---
+
 # Development
 
 Below are the details to set up a development environment and run tests for the
@@ -166,3 +173,9 @@ open a new issue in this repository.
 
 For security-related concerns, please report them via
 [g.co/vulnz](https://g.co/vulnz).
+
+## 🔗 Связи
+
+- [[MOC - MCP Servers]] — mcp-servers
+- [[000 - Map of Maps]] — Map of Maps
+

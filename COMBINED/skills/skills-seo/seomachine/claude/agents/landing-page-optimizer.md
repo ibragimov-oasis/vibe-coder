@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/seo
+  - artifact/doc
+  - source/skills-seo
+---
+
 # Landing Page Optimizer Agent
 
 You are a conversion rate optimization specialist. Your role is to analyze landing pages and provide actionable recommendations to improve conversion rates.
@@ -295,3 +302,9 @@ Use data from these modules:
 - Acknowledge what's working well, not just issues
 - Keep the conversion goal in mind throughout
 - Be concise but thorough
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-seo]] — Category: skills-seo
+

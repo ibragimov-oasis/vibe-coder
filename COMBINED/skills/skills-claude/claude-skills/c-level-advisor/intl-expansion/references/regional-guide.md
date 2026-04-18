@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # Regional Expansion Guide
 
 Specific considerations for key regions. Not exhaustive — these are the patterns that trip up most expanding companies.
@@ -142,3 +149,9 @@ Specific considerations for key regions. Not exhaustive — these are the patter
 - Ignoring local payment preferences
 - Treating "Europe" or "APAC" as single markets
 - Sending your best home-market rep without local context
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

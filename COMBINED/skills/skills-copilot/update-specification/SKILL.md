@@ -1,6 +1,10 @@
 ---
 name: update-specification
 description: 'Update an existing specification file for the solution, optimized for Generative AI consumption based on new requirements or updates to any existing code.'
+tags:
+  - domain/agents
+  - artifact/skill
+  - source/skills-copilot
 ---
 
 # Update Specification
@@ -125,3 +129,10 @@ tags: [Optional: List of relevant tags or categories, e.g., `infrastructure`, `p
 [Link to relevant external documentation]
 
 ```
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-copilot]] — Category: skills-copilot
+- [[MOC - Agents]] — Copilot agents
+

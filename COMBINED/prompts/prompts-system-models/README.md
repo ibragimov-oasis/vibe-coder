@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/prompts
+  - artifact/prompt
+  - source/prompts-system-models
+---
+
 <p align="center">
   Support my work here: 
   <a href="https://bags.fm/DEffWzJyaFRNyA4ogUox631hfHuv3KLeCcpBh2ipBAGS">Bags.fm</a> •
@@ -90,3 +97,9 @@ Sponsor the most comprehensive repository of AI system prompts and reach thousan
 </a>
 
 **Drop a star if you find this useful!**
+
+## 🔗 Связи
+
+- [[MOC - Prompts]] — Prompt library
+- [[MOC - System]] — System documentation
+

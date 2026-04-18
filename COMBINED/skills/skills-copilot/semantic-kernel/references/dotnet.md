@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-copilot
+---
+
 # Semantic Kernel for .NET
 
 Use this reference when the target project is written in C# or another .NET language.
@@ -13,3 +20,9 @@ Use this reference when the target project is written in C# or another .NET lang
 - Follow .NET best practices with strong typing and explicit interfaces.
 - Keep service registration, configuration, and authentication aligned with standard .NET hosting patterns.
 - Check the latest .NET samples before introducing new APIs, plugins, or orchestration patterns.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-copilot]] — Category: skills-copilot
+

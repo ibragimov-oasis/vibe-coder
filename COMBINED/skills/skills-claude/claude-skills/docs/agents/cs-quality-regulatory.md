@@ -1,6 +1,10 @@
 ---
 title: "Quality Regulatory — AI Coding Agent & Codex Skill"
 description: "Quality & Regulatory agent for ISO 13485 QMS, MDR compliance, FDA submissions, GDPR/DSGVO, and ISMS audits. Orchestrates ra-qm-team skills. Spawn. Agent-native orchestrator for Claude Code, Codex, Gemini CLI."
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
 ---
 
 # Quality Regulatory
@@ -87,3 +91,9 @@ Regulatory affairs and quality management specialist for medical device and heal
 
 - [cs-engineering-lead](https://github.com/alirezarezvani/claude-skills/tree/main/agents/engineering-team/cs-engineering-lead.md) -- Engineering process alignment for design controls and software validation
 - [cs-product-manager](https://github.com/alirezarezvani/claude-skills/tree/main/agents/product/cs-product-manager.md) -- Product requirements traceability and risk-benefit analysis coordination
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

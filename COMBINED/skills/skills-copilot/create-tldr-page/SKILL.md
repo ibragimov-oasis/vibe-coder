@@ -1,6 +1,10 @@
 ---
 name: create-tldr-page
 description: 'Create a tldr page from documentation URLs and command examples, requiring both URL and command name.'
+tags:
+  - domain/agents
+  - artifact/skill
+  - source/skills-copilot
 ---
 
 # Create TLDR Page
@@ -208,3 +212,10 @@ You MUST follow these placeholder conventions:
 - **Command structure**: Options should appear BEFORE their arguments in the placeholder syntax
   - Correct: `command {{[-o|--option]}} {{value}}`
   - Incorrect: `command -o {{value}}`
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-copilot]] — Category: skills-copilot
+- [[MOC - Agents]] — Copilot agents
+

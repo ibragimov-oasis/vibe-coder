@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # ADR-002: WASM Core Package for AI Algorithms
 
 **Status:** Implemented
@@ -553,3 +560,10 @@ const cohortSimilarity = vectorOps.batchSimilarity(targetCohort, allCohorts);
 
 *Document Version: 1.0*
 *Last Updated: 2026-01-12*
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

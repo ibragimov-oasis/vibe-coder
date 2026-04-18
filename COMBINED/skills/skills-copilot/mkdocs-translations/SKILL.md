@@ -1,6 +1,10 @@
 ---
 name: mkdocs-translations
 description: 'Generate a language translation for a mkdocs documentation stack.'
+tags:
+  - domain/agents
+  - artifact/skill
+  - source/skills-copilot
 ---
 
 # MkDocs AI Translator
@@ -106,3 +110,10 @@ Before starting to create **any** new files, create a new git branch using the t
 - Translate each file using the same rules as above.
 - Maintain the same file and folder structure in the translated output.
 - Save each translated file in the appropriate target language folder.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-copilot]] — Category: skills-copilot
+- [[MOC - Agents]] — Copilot agents
+

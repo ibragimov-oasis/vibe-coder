@@ -7,6 +7,10 @@ audience: [user, operator]
 status: current
 sidebar:
   order: 5
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-archon
 ---
 
 :::note
@@ -91,3 +95,10 @@ The bot responds to:
 ## Further Reading
 
 - [Configuration](/getting-started/configuration/)
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/archon]] — Archon
+- [[000 - Map of Maps]] — Map of Maps
+

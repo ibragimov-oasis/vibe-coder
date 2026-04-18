@@ -11,6 +11,10 @@ description: |
   (build locally via scripts/build-binaries.sh first), or running the full
   validate suite (bun run validate is separate).
 argument-hint: "[brew|curl-mac|curl-vps] [optional: version to verify] [optional: vps-target]"
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-archon
 ---
 
 # Test Release
@@ -420,3 +424,10 @@ Next steps:
 - `scripts/install.sh` — the curl install script
 - `scripts/install-local.sh` / `install-local.ps1` — local-file install harnesses (for pre-release QA of binaries built from a branch, not from GitHub releases)
 - `/release` skill — the release procedure itself (opposite side of the flow)
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/archon]] — Archon
+- [[000 - Map of Maps]] — Map of Maps
+

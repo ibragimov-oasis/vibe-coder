@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
+---
+
 # PM2 Init
 
 Projeyi otomatik analiz et ve PM2 servis komutları oluştur.
@@ -270,3 +277,9 @@ pm2 resurrect          # Kaydedilen process'leri geri yükle
 
 **İpucu:** Basitleştirilmiş komutları etkinleştirmek için ilk başlatmadan sonra `pm2 save` çalıştırın.
 ```
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

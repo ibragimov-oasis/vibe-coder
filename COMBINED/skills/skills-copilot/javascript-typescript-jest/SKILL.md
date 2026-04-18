@@ -1,6 +1,10 @@
 ---
 name: javascript-typescript-jest
 description: 'Best practices for writing JavaScript/TypeScript tests using Jest, including mocking strategies, test structure, and common patterns.'
+tags:
+  - domain/agents
+  - artifact/skill
+  - source/skills-copilot
 ---
 
 ### Test Structure
@@ -42,3 +46,10 @@ description: 'Best practices for writing JavaScript/TypeScript tests using Jest,
 - Objects: `expect(object).toHaveProperty('key', value)`
 - Exceptions: `expect(fn).toThrow()`, `expect(fn).toThrow(Error)`
 - Mock functions: `expect(mockFn).toHaveBeenCalled()`, `expect(mockFn).toHaveBeenCalledWith(arg1, arg2)`
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-copilot]] — Category: skills-copilot
+- [[MOC - Agents]] — Copilot agents
+

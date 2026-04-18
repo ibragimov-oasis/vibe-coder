@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/combined-root
+---
+
 # ЭТАП 3: ПРОВЕРКА ОСТАВШИХСЯ ФАЙЛОВ - ЗАВЕРШЁН ✅
 
 ## Дата завершения
@@ -271,3 +278,8 @@ COMBINED/
 - `COMBINED/LEFTOVERS_PROCESSED.json` - лог обработки
 
 🎉 **Этап 3 полностью выполнен!** 🎉
+
+## 🔗 Связи
+
+- [[000 - Map of Maps]] — Map of Maps
+

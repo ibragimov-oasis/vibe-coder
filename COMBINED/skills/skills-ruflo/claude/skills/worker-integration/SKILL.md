@@ -2,6 +2,10 @@
 name: worker-integration
 description: Worker-Agent integration for intelligent task dispatch and performance tracking
 user-invocable: true
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-ruflo
 ---
 
 # Worker-Agent Integration Skill
@@ -145,3 +149,9 @@ Enable integration features in `.claude/settings.json`:
   }
 }
 ```
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-ruflo]] — Category: skills-ruflo
+

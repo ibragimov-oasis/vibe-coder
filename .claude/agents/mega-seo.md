@@ -12,6 +12,10 @@ tools:
   - mcp__lightpanda
   - mcp__supermemory
   - mcp__gitnexus
+tags:
+  - domain/skills
+  - artifact/config
+  - source/.claude
 ---
 
 <role>
@@ -335,3 +339,9 @@ CONTENT STRATEGY:
 | Schema.org markup | ✅/❌ | {action} |
 ```
 </report_format>
+
+## 🔗 Связи
+
+- [[MOC - System]] — System
+- [[000 - Map of Maps]] — Map of Maps
+

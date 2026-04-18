@@ -1,6 +1,10 @@
 ---
 name: stream-chain
 description: Stream-JSON chaining for multi-agent pipelines, data transformation, and sequential workflows
+tags:
+  - domain/skills
+  - artifact/config
+  - source/.claude
 ---
 
 # Stream-Chain Skill
@@ -558,3 +562,9 @@ Stream-Chain enables sophisticated multi-step workflows by:
 - **Data Transformation**: Complex processing through simple steps
 
 Use `run` for custom workflows and `pipeline` for battle-tested solutions.
+
+## 🔗 Связи
+
+- [[MOC - System]] — System
+- [[000 - Map of Maps]] — Map of Maps
+

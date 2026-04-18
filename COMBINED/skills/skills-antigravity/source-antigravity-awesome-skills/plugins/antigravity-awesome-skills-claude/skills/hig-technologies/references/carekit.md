@@ -58,7 +58,11 @@ CareKit UI provides customizable views organized into three categories — tasks
 
 Each view category is designed to support specific types of content and interaction. To ensure a consistent experience, use each view type for its intended purpose.
 
-Category| Purpose  
+Category| Purpose
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
 ---|---  
 [Tasks](https://developer.apple.com/design/human-interface-guidelines/carekit#Tasks)| Present tasks, like taking medication or doing physical therapy. Support logging of patient symptoms and other data.  
 [Charts](https://developer.apple.com/design/human-interface-guidelines/carekit#Charts)| Display graphical data that can help people understand how their treatment is progressing.  
@@ -220,5 +224,10 @@ Using SF Symbols in your app gives you:
 
 Date| Changes  
 ---|---  
-May 2, 2023| Consolidated guidance into one page.  
-  
+May 2, 2023| Consolidated guidance into one page.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

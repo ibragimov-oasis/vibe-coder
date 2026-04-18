@@ -7,6 +7,10 @@ paths:
   - "**/*.cxx"
   - "**/*.h"
   - "**/CMakeLists.txt"
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
 ---
 
 # C++ 编码风格
@@ -43,3 +47,9 @@ paths:
 ## 参考
 
 有关全面的 C++ 编码标准和指南，请参阅技能：`cpp-coding-standards`。
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

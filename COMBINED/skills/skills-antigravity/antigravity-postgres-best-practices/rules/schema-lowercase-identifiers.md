@@ -3,6 +3,9 @@ title: Use Lowercase Identifiers for Compatibility
 impact: MEDIUM
 impactDescription: Avoid case-sensitivity bugs with tools, ORMs, and AI assistants
 tags: naming, identifiers, case-sensitivity, schema, conventions
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
 ---
 
 ## Use Lowercase Identifiers for Compatibility
@@ -53,3 +56,9 @@ CREATE VIEW users AS SELECT "userId" AS user_id, "firstName" AS first_name FROM 
 ```
 
 Reference: [Identifiers and Key Words](https://www.postgresql.org/docs/current/sql-syntax-lexical.html#SQL-SYNTAX-IDENTIFIERS)
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

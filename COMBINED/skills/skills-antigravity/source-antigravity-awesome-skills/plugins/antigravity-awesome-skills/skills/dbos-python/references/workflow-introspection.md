@@ -3,6 +3,9 @@ title: List and Inspect Workflows
 impact: MEDIUM
 impactDescription: Enables monitoring and management of workflow state
 tags: workflow, list, introspection, status, monitoring
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
 ---
 
 ## List and Inspect Workflows
@@ -66,3 +69,9 @@ WorkflowStatus fields: `workflow_id`, `status`, `name`, `queue_name`, `created_a
 Status values: `ENQUEUED`, `PENDING`, `SUCCESS`, `ERROR`, `CANCELLED`, `MAX_RECOVERY_ATTEMPTS_EXCEEDED`
 
 Reference: [Workflow Management](https://docs.dbos.dev/python/tutorials/workflow-management)
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

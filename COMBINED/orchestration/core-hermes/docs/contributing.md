@@ -2,6 +2,10 @@
 sidebar_position: 4
 title: "Contributing"
 description: "How to contribute to Hermes Agent — dev setup, code style, PR process"
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-hermes
 ---
 
 # Contributing
@@ -231,3 +235,10 @@ fix(security): prevent shell injection in sudo password piping
 ## License
 
 By contributing, you agree that your contributions will be licensed under the [MIT License](https://github.com/NousResearch/hermes-agent/blob/main/LICENSE).
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-hermes]] — core-hermes
+- [[MOC - Skills]] — Skills library
+

@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # Google Workspace CLI Command Reference
 
 Comprehensive reference for the `gws` CLI covering 18 services, 22 helper commands, global flags, and environment variables.
@@ -311,3 +318,9 @@ gws persona select <name>           # Activate a persona
 gws persona show                    # Show active persona
 gws persona recipes                 # Show recipes for active persona
 ```
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

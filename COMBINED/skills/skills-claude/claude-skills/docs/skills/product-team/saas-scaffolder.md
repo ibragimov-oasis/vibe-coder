@@ -1,6 +1,10 @@
 ---
 title: "SaaS Scaffolder — Agent Skill for Product Teams"
 description: "Generates complete, production-ready SaaS project boilerplate including authentication, database schemas, billing integration, API routes, and a. Agent skill for Claude Code, Codex CLI, Gemini CLI, OpenClaw."
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
 ---
 
 # SaaS Scaffolder
@@ -302,3 +306,9 @@ For additional guidance, generate the following companion reference files alongs
 - **`CUSTOMIZATION.md`** — Auth providers, database options, ORM alternatives, payment providers, UI themes, and billing models (per-seat, flat-rate, usage-based).
 - **`PITFALLS.md`** — Common failure modes: missing `NEXTAUTH_SECRET`, webhook secret mismatches, Edge runtime conflicts with Drizzle, unextended session types, and migration strategy differences between dev and prod.
 - **`BEST_PRACTICES.md`** — Stripe singleton pattern, server actions for form mutations, idempotent webhook handlers, `Suspense` boundaries for async dashboard data, server-side feature gating via `stripeCurrentPeriodEnd`, and rate limiting on auth routes with Upstash Redis + `@upstash/ratelimit`.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

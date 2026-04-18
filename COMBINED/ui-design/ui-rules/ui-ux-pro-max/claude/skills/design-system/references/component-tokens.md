@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/ui
+  - artifact/ui-component
+  - source/ui-design
+---
+
 # Component Tokens
 
 Component-specific tokens referencing semantic layer.
@@ -212,3 +219,9 @@ Component-specific tokens referencing semantic layer.
   color: var(--button-secondary-fg);
 }
 ```
+
+## 🔗 Связи
+
+- [[MOC - UI Design]] — ui-design
+- [[000 - Map of Maps]] — Map of Maps
+

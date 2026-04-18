@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # Code Review Excellence Implementation Playbook
 
 This file contains detailed patterns, checklists, and code samples referenced by the skill.
@@ -513,3 +520,9 @@ When author disagrees with your feedback:
 - **assets/pr-review-template.md**: Standard review comment template
 - **assets/review-checklist.md**: Quick reference checklist
 - **scripts/pr-analyzer.py**: Analyze PR complexity and suggest reviewers
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

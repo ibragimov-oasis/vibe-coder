@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # Work Packet Template
 
 Use this template to define each packet before spawning workers.
@@ -29,3 +36,9 @@ Use this template to define each packet before spawning workers.
 - `required_checks`: `npm run typecheck`, `npm run test -- src/features/threads/hooks`
 - `integration_notes`: "Main thread verifies no overlapping helper names with existing util package"
 - `done_criteria`: "No duplicated parsing block remains; all required checks pass"
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

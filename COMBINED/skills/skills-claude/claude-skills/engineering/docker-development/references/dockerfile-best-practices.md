@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # Dockerfile Best Practices Reference
 
 ## Layer Optimization
@@ -233,3 +240,9 @@ HEALTHCHECK --interval=10s --timeout=5s --retries=5 \
 HEALTHCHECK --interval=10s --timeout=3s --retries=3 \
   CMD redis-cli ping | grep PONG || exit 1
 ```
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # Playwright Anti-Patterns Reference
 
 ## 1. Using `waitForTimeout()`
@@ -180,3 +187,9 @@ Keep `test.describe()` to max 2 levels. More makes tests hard to find and mainta
 - Not checking console errors → add `page.on('console', ...)`
 - Using `networkidle` → use specific assertions instead
 - No `test.describe()` → group related tests
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

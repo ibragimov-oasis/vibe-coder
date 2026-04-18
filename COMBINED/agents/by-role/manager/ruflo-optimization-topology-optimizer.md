@@ -1,6 +1,10 @@
 ---
 name: Topology Optimizer
 description: Dynamic swarm topology reconfiguration and communication pattern optimization
+tags:
+  - domain/agents
+  - artifact/agent
+  - source/by-role/manager
 ---
 
 # Topology Optimizer Agent
@@ -804,3 +808,9 @@ const topologyMetrics = {
 ```
 
 This Topology Optimizer agent provides sophisticated swarm topology optimization with AI-powered decision making, advanced algorithms, and comprehensive performance monitoring for optimal swarm coordination.
+
+## 🔗 Связи
+
+- [[MOC - Agents]] — Agent catalog
+- [[agents/manager]] — Role: manager
+

@@ -3,6 +3,9 @@ title: Rate Limit Queue Execution
 impact: HIGH
 impactDescription: Prevents overwhelming external APIs with too many requests
 tags: queue, rate-limit, throttle, api
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
 ---
 
 ## Rate Limit Queue Execution
@@ -42,3 +45,9 @@ Common use cases:
 - Preventing database overload
 
 Reference: [Rate Limiting](https://docs.dbos.dev/typescript/tutorials/queue-tutorial#rate-limiting)
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

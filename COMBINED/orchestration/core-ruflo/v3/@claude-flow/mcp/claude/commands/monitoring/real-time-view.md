@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # real-time-view
 
 Real-time view of swarm activity.
@@ -23,3 +30,10 @@ npx claude-flow monitoring real-time-view --filter errors
 # Highlight pattern
 npx claude-flow monitoring real-time-view --highlight "API"
 ```
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

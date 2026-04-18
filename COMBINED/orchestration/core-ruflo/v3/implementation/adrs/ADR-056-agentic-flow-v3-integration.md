@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # ADR-056: agentic-flow 3.0.0-alpha.1 Integration
 
 ## Status
@@ -281,3 +288,10 @@ npm audit --omit=dev  # → 0 vulnerabilities
 - **ADR-053**: AgentDB v3 Controller Activation — Initial 8 controllers + 6 MCP tools
 - **ADR-054**: RVF-Powered Plugin Marketplace — IPFS plugin registry
 - **ADR-055**: AgentDB Controller Bug Remediation — Fixed 30 security findings, upgraded stubs to real implementations
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

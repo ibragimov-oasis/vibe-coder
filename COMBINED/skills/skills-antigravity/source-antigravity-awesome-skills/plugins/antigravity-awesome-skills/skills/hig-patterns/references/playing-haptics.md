@@ -155,7 +155,11 @@ Play
 
 When a Magic Trackpad is available, your app can provide one of the three following haptic patterns in response to a drag operation or force click.
 
-Haptic feedback pattern| Description  
+Haptic feedback pattern| Description
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
 ---|---  
 Alignment| Indicates the alignment of a dragged item. For example, this pattern could be used in a drawing app when the people drag a shape into alignment with another shape. Other scenarios where this type of feedback could be used might include scaling an object to fit within specific dimensions, positioning an object at a preferred location, or reaching the beginning/end or minimum/maximum of something like a scrubber in a video app.  
 Level change| Indicates movement between discrete levels of pressure. For example, as people press a fast-forward button on a video player, playback could increase or decrease and haptic feedback could be provided as different levels of pressure are reached.  
@@ -276,5 +280,10 @@ Play
 Date| Changes  
 ---|---  
 May 7, 2024| Added guidance for playing haptics on Apple Pencil Pro.  
-June 21, 2023| Updated to include guidance for visionOS.  
-  
+June 21, 2023| Updated to include guidance for visionOS.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

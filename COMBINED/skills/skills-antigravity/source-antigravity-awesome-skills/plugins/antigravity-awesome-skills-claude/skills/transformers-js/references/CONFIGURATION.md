@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # Environment Configuration Reference
 
 Complete guide to configuring Transformers.js behavior using the `env` object.
@@ -388,3 +395,9 @@ console.log('Transformers.js Configuration:', {
 - [Model Architectures](./MODEL_ARCHITECTURES.md) - Supported models and architectures
 - [Examples](./EXAMPLES.md) - Code examples for different runtimes
 - [Main Skill Guide](../SKILL.md) - Getting started and common usage
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

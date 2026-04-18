@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/memory
+  - artifact/memory
+  - source/memory
+---
+
 # Issue #520: Stuck Messages Analysis
 
 **Date:** January 4, 2026
@@ -208,3 +215,9 @@ The current implementation with a 5-minute threshold is more robust - it only re
 | processPendingQueues | `src/services/worker-service.ts` | 326-375 |
 | getSessionsWithPendingMessages | `src/services/sqlite/PendingMessageStore.ts` | 319-326 |
 | resetStuckMessages | `src/services/sqlite/PendingMessageStore.ts` | 279-290 |
+
+## 🔗 Связи
+
+- [[MOC - Memory]] — memory
+- [[000 - Map of Maps]] — Map of Maps
+

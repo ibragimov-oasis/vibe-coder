@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # 仓库增长 SEO 剧本
 
 本文档保持仓库的 GitHub 面向发现的文案与以 SEO 为中心的用户文档保持一致。
@@ -129,3 +136,9 @@
 - 通过为每个用户文档提供不同的主要意图来避免蚕食。
 - 优先选择诚实的比较而不是绝对声明。
 - 除非策略后来发生变化，否则不要在发现文档中使用 SEM 或付费语言。
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

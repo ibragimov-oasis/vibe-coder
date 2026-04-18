@@ -1,5 +1,9 @@
 ---
 description: Fix Go build errors, go vet warnings, and linter issues incrementally. Invokes the go-build-resolver agent for minimal, surgical fixes.
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
 ---
 
 # Go 建置與修復
@@ -79,3 +83,9 @@ Agent 會在以下情況停止並報告：
 
 - Agent：`agents/go-build-resolver.md`
 - 技能：`skills/golang-patterns/`
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

@@ -4,6 +4,10 @@ paths:
   - "**/*.tsx"
   - "**/*.js"
   - "**/*.jsx"
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
 ---
 
 # TypeScript/JavaScript 编码风格
@@ -198,3 +202,9 @@ const validated: UserInput = userSchema.parse(input)
 * 生产代码中不允许出现 `console.log` 语句
 * 请使用适当的日志库替代
 * 查看钩子以进行自动检测
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

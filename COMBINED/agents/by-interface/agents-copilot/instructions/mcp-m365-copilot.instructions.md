@@ -1,6 +1,10 @@
 ---
 description: 'Best practices for building MCP-based declarative agents and API plugins for Microsoft 365 Copilot with Model Context Protocol integration'
 applyTo: '**/{*mcp*,*agent*,*plugin*,declarativeAgent.json,ai-plugin.json,mcp.json,manifest.json}'
+tags:
+  - domain/agents
+  - artifact/agent
+  - source/by-interface/agents-copilot
 ---
 
 # MCP-based M365 Copilot Development Guidelines
@@ -355,3 +359,9 @@ Maintain:
 - monday.com: Task management integration
 - Canva: Design automation
 - Sitecore: Content management
+
+## 🔗 Связи
+
+- [[MOC - Agents]] — Agent catalog
+- [[agents/agents-copilot]] — Interface: agents-copilot
+

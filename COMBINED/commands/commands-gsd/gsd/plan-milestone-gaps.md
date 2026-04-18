@@ -8,6 +8,10 @@ allowed-tools:
   - Glob
   - Grep
   - AskUserQuestion
+tags:
+  - domain/skills
+  - artifact/command
+  - source/commands
 ---
 <objective>
 Create all phases necessary to close gaps identified by `/gsd:audit-milestone`.
@@ -32,3 +36,9 @@ Original intent and current planning state are loaded on demand inside the workf
 Execute the plan-milestone-gaps workflow from @~/.claude/get-shit-done/workflows/plan-milestone-gaps.md end-to-end.
 Preserve all workflow gates (audit loading, prioritization, phase grouping, user confirmation, roadmap updates).
 </process>
+
+## 🔗 Связи
+
+- [[MOC - System]] — commands
+- [[000 - Map of Maps]] — Map of Maps
+

@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/workflow
+  - source/hooks
+---
+
 # COMBINED/hooks/ — Lifecycle Hooks Documentation (prefix-source layout)
 
 ## Current Structure
@@ -105,3 +112,9 @@ After analyzing all source repositories, the following hook types were **not fou
 
 **Last Updated:** 2026-04-04
 **Phase:** 3 - Prefix-source restructure completed
+
+## 🔗 Связи
+
+- [[MOC - System]] — hooks
+- [[000 - Map of Maps]] — Map of Maps
+

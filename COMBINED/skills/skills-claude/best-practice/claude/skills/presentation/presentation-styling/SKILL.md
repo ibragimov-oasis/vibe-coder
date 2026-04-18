@@ -1,6 +1,10 @@
 ---
 name: presentation-styling
 description: Knowledge about CSS classes, component patterns, and syntax highlighting in the presentation
+tags:
+  - domain/agents
+  - artifact/skill
+  - source/skills-claude
 ---
 
 # Presentation Styling Skill
@@ -104,3 +108,10 @@ Do not hardcode `<span class="weight-badge">` in slide HTML. The presentation Ja
 - `.journey-bar.hidden` — Hidden on title slide
 - Journey bar color transitions from red (0%) to green (100%) via HSL interpolation
 - Weight badges are auto-injected by JS into `h1` elements of weighted slides
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+- [[MOC - Agents]] — Claude agents
+

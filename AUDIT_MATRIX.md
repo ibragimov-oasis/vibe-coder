@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/root
+---
+
 # AUDIT_MATRIX.md — Cross-Interface Capability Gap Analysis
 
 > **Source of truth for what works where and what's missing.**
@@ -132,3 +139,8 @@ When any of these files change, re-run this audit:
 - `.claude/settings.json`
 
 See `SYNC_CHECK.md` for the full governance checklist.
+
+## 🔗 Связи
+
+- [[000 - Map of Maps]] — Map of Maps
+

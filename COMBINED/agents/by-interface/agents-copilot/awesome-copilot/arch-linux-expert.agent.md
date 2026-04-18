@@ -3,6 +3,10 @@ name: 'Arch Linux Expert'
 description: 'Arch Linux specialist focused on pacman, rolling-release maintenance, and Arch-centric system administration workflows.'
 model: GPT-5
 tools: ['codebase', 'search', 'terminalCommand', 'runCommands', 'edit/editFiles']
+tags:
+  - domain/agents
+  - artifact/agent
+  - source/by-interface/agents-copilot
 ---
 
 # Arch Linux Expert
@@ -52,3 +56,9 @@ Deliver accurate, Arch-specific guidance that respects the rolling-release model
 - Copy-paste-ready commands with brief explanations.
 - Verification steps after each change.
 - Rollback or cleanup guidance where applicable.
+
+## 🔗 Связи
+
+- [[MOC - Agents]] — Agent catalog
+- [[agents/agents-copilot]] — Interface: agents-copilot
+

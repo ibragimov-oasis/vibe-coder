@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/combined-root
+---
+
 # 🎯 NEW COMBINED STRUCTURE: HIERARCHICAL + PREFIX-SOURCE
 
 > **The Refined Structure for Vibe-Coder Arsenal**
@@ -328,3 +335,8 @@ cd commands-gsd/
 **Status:** Phase 0 - Planning Complete
 **Last Updated:** April 4, 2026
 **Next:** Execute Phase 1 (Agents Restructuring)
+
+## 🔗 Связи
+
+- [[000 - Map of Maps]] — Map of Maps
+

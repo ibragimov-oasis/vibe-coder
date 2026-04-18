@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # POC Evaluation Scorecard
 
 ## Scorecard Information
@@ -211,3 +218,9 @@
 | Business Sponsor | | | |
 | Decision Maker | | | |
 | Sales Engineer | | | |
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

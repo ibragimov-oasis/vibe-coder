@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # Dependency Audit and Security Analysis Implementation Playbook
 
 This file contains detailed patterns, checklists, and code samples referenced by the skill.
@@ -764,3 +771,9 @@ jobs:
 8. **Monitoring Setup**: CI/CD integration for continuous scanning
 
 Focus on actionable insights that help maintain secure, compliant, and efficient dependency management.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

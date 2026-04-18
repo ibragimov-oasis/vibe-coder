@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # Angular UI Patterns
 
 Modern UI patterns for building robust Angular applications optimized for AI agents and LLMs.
@@ -53,3 +60,9 @@ Current version: 1.0.0 (February 2026)
 
 - [Angular @defer](https://angular.dev/guide/defer)
 - [Angular Templates](https://angular.dev/guide/templates)
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

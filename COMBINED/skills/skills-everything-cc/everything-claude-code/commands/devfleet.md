@@ -1,5 +1,9 @@
 ---
 description: Orchestrate parallel Claude Code agents via Claude DevFleet — plan projects from natural language, dispatch agents in isolated worktrees, monitor progress, and read structured reports.
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
 ---
 
 # DevFleet — Multi-Agent Orchestration
@@ -90,3 +94,9 @@ Call this for every mission that reached a terminal state. Reports contain: file
 - Agent concurrency is configurable (default: 3). Excess missions queue and auto-dispatch as slots free up. Check `get_dashboard()` for slot availability.
 - Dependencies form a DAG — never create circular dependencies
 - Each agent auto-merges its worktree on completion. If a merge conflict occurs, the changes remain on the worktree branch for manual resolution.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

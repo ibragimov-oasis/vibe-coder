@@ -40,3 +40,9 @@ source: "../COMBINED/security/security-reports/"
 
 - [[combined/Security Overview]] — обзор безопасности
 - [[root-docs/PIPELINE]] — Shannon — Step 3 пайплайна
+
+## 🔗 Связи
+
+- [[MOC - Security]] — Parent MOC
+- [[000 - Map of Maps]] — Map of Maps
+

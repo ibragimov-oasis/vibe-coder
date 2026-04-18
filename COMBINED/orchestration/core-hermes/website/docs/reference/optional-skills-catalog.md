@@ -2,6 +2,10 @@
 sidebar_position: 6
 title: "Official Optional Skills Catalog"
 description: "Catalog of official optional skills available from the repository"
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-hermes
 ---
 
 # Official Optional Skills Catalog
@@ -72,3 +76,10 @@ Official optional skills live in the repository under `optional-skills/`. Instal
 | `1password` | Set up and use 1Password CLI (op). Use when installing the CLI, enabling desktop app integration, signing in, and reading/injecting secrets for commands. | `security/1password` |
 | `oss-forensics` | Supply chain investigation, evidence recovery, and forensic analysis for GitHub repositories. Covers deleted commit recovery, force-push detection, IOC extraction. | `security/oss-forensics` |
 | `sherlock` | OSINT username search across 400+ social networks. Hunt down social media accounts by username. | `security/sherlock` |
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/hermes]] — Hermes
+- [[000 - Map of Maps]] — Map of Maps
+

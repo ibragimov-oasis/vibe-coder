@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
+---
+
 # Hooks Sistemi
 
 ## Hook Tipleri
@@ -28,3 +35,9 @@ Todo listesi şunları ortaya çıkarır:
 - Fazladan gereksiz öğeler
 - Yanlış detay düzeyi
 - Yanlış yorumlanmış gereksinimler
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

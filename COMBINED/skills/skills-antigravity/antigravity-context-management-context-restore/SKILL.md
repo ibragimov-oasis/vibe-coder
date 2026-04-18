@@ -4,6 +4,10 @@ description: "Use when working with context management context restore"
 risk: unknown
 source: community
 date_added: "2026-02-27"
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 # Context Restoration: Advanced Semantic Memory Rehydration
@@ -180,3 +184,9 @@ context-restore project:ml-pipeline --query "model training strategy"
 - Quantum-inspired vector search algorithms
 - Self-healing context reconstruction
 - Adaptive learning context strategies
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

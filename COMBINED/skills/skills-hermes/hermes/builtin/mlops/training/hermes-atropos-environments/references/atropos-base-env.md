@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-hermes
+---
+
 # Atropos BaseEnv Reference
 
 Source: `atroposlib/envs/base.py` (~2124 lines)
@@ -63,3 +70,9 @@ env_manager() → add_train_workers() → handle_env()
 - 54% have custom config class
 - Most use collect_trajectories (plural), not collect_trajectory (singular)
 - Common reward patterns: LLM-judge (~40), regex-extract (~35), code-exec (~12)
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-hermes]] — Category: skills-hermes
+

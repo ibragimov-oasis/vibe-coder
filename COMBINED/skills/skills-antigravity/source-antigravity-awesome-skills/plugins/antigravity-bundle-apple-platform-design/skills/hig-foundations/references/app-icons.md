@@ -152,7 +152,11 @@ Alternate app icons in iOS and iPadOS require their own dark, clear, and tinted 
 
 The layout, size, style, and appearances of app icons vary by platform.
 
-Platform| Layout shape| Icon shape after system masking| Layout size| Style| Appearances  
+Platform| Layout shape| Icon shape after system masking| Layout size| Style| Appearances
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
 ---|---|---|---|---|---  
 iOS, iPadOS, macOS| Square| Rounded rectangle (square)| 1024x1024 px| Layered| Default, dark, clear light, clear dark, tinted light, tinted dark  
 tvOS| Rectangle (landscape)| Rounded rectangle (rectangular)| 800x480 px| Layered (Parallax)| N/A  
@@ -206,5 +210,10 @@ June 9, 2025| Updated guidance to reflect layered icons, consistency across plat
 June 10, 2024| Added guidance for creating dark and tinted app icon variants for iOS and iPadOS.  
 January 31, 2024| Clarified platform availability for alternate app icons.  
 June 21, 2023| Updated to include guidance for visionOS.  
-September 14, 2022| Added specifications for Apple Watch Ultra.  
-  
+September 14, 2022| Added specifications for Apple Watch Ultra.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

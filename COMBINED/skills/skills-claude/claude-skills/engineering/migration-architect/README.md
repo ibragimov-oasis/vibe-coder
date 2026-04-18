@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # Migration Architect
 
 **Tier:** POWERFUL  
@@ -380,3 +387,9 @@ To extend or modify the Migration Architect skill:
 ## License
 
 This skill is part of the claude-skills repository and follows the same license terms.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

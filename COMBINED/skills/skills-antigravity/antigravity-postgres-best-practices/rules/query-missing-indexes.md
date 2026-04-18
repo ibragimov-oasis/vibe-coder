@@ -3,6 +3,9 @@ title: Add Indexes on WHERE and JOIN Columns
 impact: CRITICAL
 impactDescription: 100-1000x faster queries on large tables
 tags: indexes, performance, sequential-scan, query-optimization
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
 ---
 
 ## Add Indexes on WHERE and JOIN Columns
@@ -41,3 +44,9 @@ join orders o on o.customer_id = c.id;
 ```
 
 Reference: [Query Optimization](https://supabase.com/docs/guides/database/query-optimization)
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

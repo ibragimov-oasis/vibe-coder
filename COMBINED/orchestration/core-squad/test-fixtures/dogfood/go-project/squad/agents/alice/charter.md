@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-squad
+---
+
 # alice — Backend Lead
 
 ## Role
@@ -13,3 +20,10 @@ Service design and API implementation.
 - Go, Gin framework
 - REST API patterns
 - Database design
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/squad]] — Squad
+- [[000 - Map of Maps]] — Map of Maps
+

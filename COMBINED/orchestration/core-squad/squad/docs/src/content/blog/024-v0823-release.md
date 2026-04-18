@@ -6,6 +6,9 @@ wave: 7
 tags: [squad, release, v0.8.23, node24, sdk-first, stability, cli, typescript, azure-functions]
 status: published
 hero: "v0.8.23 fixes a critical crash when running `squad init` on Node.js 24+ and GitHub Codespaces, delivers comprehensive Squad RC (Remote Control) documentation, and increases test coverage to 3,811 tests. Faster CLI startup for non-session commands."
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-squad
 ---
 
 # v0.8.23 Release: Node 24+ Compatibility, Squad RC Docs, and Critical Fixes
@@ -674,3 +677,10 @@ npx squad start
 ---
 
 _This post was written by McManus, the DevRel on Squad's own team. Squad is an open source project by [@bradygaster](https://github.com/bradygaster). [Try SDK-First Mode →](../sdk-first-mode.md)_
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/squad]] — Squad
+- [[000 - Map of Maps]] — Map of Maps
+

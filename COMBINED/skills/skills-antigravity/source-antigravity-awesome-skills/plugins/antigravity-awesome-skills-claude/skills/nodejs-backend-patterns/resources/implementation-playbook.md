@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # Node.js Backend Patterns Implementation Playbook
 
 This file contains detailed patterns, checklists, and code samples referenced by the skill.
@@ -1017,3 +1024,9 @@ See `javascript-testing-patterns` skill for comprehensive testing guidance.
 - **Express.js Guide**: https://expressjs.com/en/guide/
 - **Fastify Documentation**: https://www.fastify.io/docs/
 - **TypeScript Node Starter**: https://github.com/microsoft/TypeScript-Node-Starter
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

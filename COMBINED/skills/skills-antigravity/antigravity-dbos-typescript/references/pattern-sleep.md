@@ -3,6 +3,9 @@ title: Use Durable Sleep for Delayed Execution
 impact: MEDIUM
 impactDescription: Enables reliable scheduling across restarts
 tags: pattern, sleep, delay, durable, schedule
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
 ---
 
 ## Use Durable Sleep for Delayed Execution
@@ -57,3 +60,9 @@ async function myWorkflowFn() {
 ```
 
 Reference: [Durable Sleep](https://docs.dbos.dev/typescript/tutorials/workflow-tutorial#durable-sleep)
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

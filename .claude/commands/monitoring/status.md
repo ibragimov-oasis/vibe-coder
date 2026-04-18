@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/command
+  - source/claude-commands
+---
+
 # Check Coordination Status
 
 ## 🎯 Key Principle
@@ -44,3 +51,9 @@ Shows:
 - Main documentation: /CLAUDE.md
 - Other commands in this category
 - Workflow examples in /workflows/
+
+## 🔗 Связи
+
+- [[MOC - System]] — System commands
+- [[MOC - Skills]] — Skills library
+

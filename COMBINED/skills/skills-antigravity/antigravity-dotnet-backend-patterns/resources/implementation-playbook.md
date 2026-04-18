@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # .NET Backend Development Patterns Implementation Playbook
 
 This file contains detailed patterns, checklists, and code samples referenced by the skill.
@@ -797,3 +804,9 @@ public class ProductsApiTests : IClassFixture<WebApplicationFactory<Program>>
 - **assets/repository-template.cs.template**: Repository pattern implementation
 - **references/ef-core-best-practices.md**: EF Core optimization guide
 - **references/dapper-patterns.md**: Advanced Dapper usage patterns
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

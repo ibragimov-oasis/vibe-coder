@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # @claude-flow/guidance Documentation
 
 ## Guides
@@ -65,3 +72,10 @@ Step-by-step walkthroughs for specific tasks.
 | [G023](./adrs/ADR-G023-truth-uncertainty-temporal.md) | Truth Anchors, Uncertainty, Temporal |
 | [G024](./adrs/ADR-G024-authority-irreversibility.md) | Authority Gate and Irreversibility |
 | [G025](./adrs/ADR-G025-wasm-kernel.md) | WASM Policy Kernel |
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

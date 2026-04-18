@@ -1,6 +1,10 @@
 ---
 name: video-generation
 description: Use this skill when the user requests to generate, create, or imagine videos. Supports structured prompts and reference image for guided generation.
+tags:
+  - domain/orchestration
+  - artifact/skill
+  - source/skills-deer-flow
 ---
 
 # Video Generation Skill
@@ -137,3 +141,10 @@ After generation:
 - JSON format ensures structured, parsable prompts
 - Reference image enhance generation quality significantly
 - Iterative refinement is normal for optimal results
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-deer-flow]] — Category: skills-deer-flow
+- [[MOC - Orchestration]] — DeerFlow research pipeline
+

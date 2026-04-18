@@ -51,3 +51,9 @@ source: "../COMBINED/ui-design/COMBINED_DESIGN_SYSTEM.md"
 ## См. также
 
 - [[root-docs/CAPABILITIES]] — Rule #3 определение
+
+## 🔗 Связи
+
+- [[MOC - UI Design]] — Parent MOC
+- [[000 - Map of Maps]] — Map of Maps
+

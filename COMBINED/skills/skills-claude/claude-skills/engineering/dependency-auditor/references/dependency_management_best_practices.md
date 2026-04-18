@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # Dependency Management Best Practices
 
 A comprehensive guide to effective dependency management across the software development lifecycle, covering strategy, governance, security, and operational practices.
@@ -641,3 +648,9 @@ Effective dependency management requires a holistic approach combining technical
 6. **Regular Review**: Periodically assess and improve dependency practices
 
 Remember that dependency management is an investment in long-term project health, security, and maintainability. The upfront effort to establish good practices pays dividends in reduced security risks, easier maintenance, and more stable software systems.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

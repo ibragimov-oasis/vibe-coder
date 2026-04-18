@@ -1,6 +1,10 @@
 ---
 name: java-mcp-server-generator
 description: 'Generate a complete Model Context Protocol server project in Java using the official MCP Java SDK with reactive streams and optional Spring Boot integration.'
+tags:
+  - domain/agents
+  - artifact/skill
+  - source/skills-copilot
 ---
 
 # Java MCP Server Generator
@@ -754,3 +758,10 @@ MIT
 8. **Include error handling** with proper responses
 9. **Document public APIs** with Javadoc
 10. **Provide both sync and async** examples
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-copilot]] — Category: skills-copilot
+- [[MOC - Agents]] — Copilot agents
+

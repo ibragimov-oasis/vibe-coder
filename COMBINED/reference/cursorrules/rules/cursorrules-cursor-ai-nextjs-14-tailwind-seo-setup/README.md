@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/reference
+  - source/reference
+---
+
 # .cursorrules Cursor AI Next.js 14 Tailwind SEO setup .cursorrules prompt file
 
 Author: kr3t3n
@@ -13,4 +20,9 @@ Developers looking to build responsive, SEO-optimized, and accessible web applic
 
 ## Overview of .cursorrules prompt
 The .cursorrules file outlines a system designed for generating TypeScript code for Next.js 14 applications using Tailwind CSS. It specifies the use of certain conventions and best practices, such as employing the App Router, server and client components, modern TypeScript syntax, and responsive design principles. The file provides rules and guidelines for efficient data fetching, SEO optimization, and accessibility. Additionally, it emphasizes the use of TypeScript for type safety, modular component creation, and performance optimizations. The file includes detailed code generation rules and response formatting to ensure clarity, maintainability, and adherence to Next.js 14 standards.
+
+## 🔗 Связи
+
+- [[MOC - System]] — reference
+- [[000 - Map of Maps]] — Map of Maps
 

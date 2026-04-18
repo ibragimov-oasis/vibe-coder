@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 <!-- Updated: 2026-02-07 -->
 # E-commerce SEO Strategy Template
 
@@ -165,3 +172,9 @@ AI search platforms increasingly answer product queries directly. Optimize for A
 - [ ] Maintain consistent product entity data across all platforms (site, Amazon, Merchant Center)
 - [ ] Structure comparison content with clear feature tables AI can parse
 - [ ] Add detailed FAQ content for common product questions
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # SPARC Researcher Mode
 
 ## Purpose
@@ -52,3 +59,10 @@ npx claude-flow@alpha sparc run researcher "research AI trends 2024"
 - Track information sources
 - Cross-reference insights
 - Maintain research history
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

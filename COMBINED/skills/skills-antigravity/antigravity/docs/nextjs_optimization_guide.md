@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # Next.js Optimization Guide
 
 Performance optimization techniques for Next.js 14+ applications.
@@ -722,3 +729,9 @@ const nextConfig = {
 
 module.exports = nextConfig;
 ```
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

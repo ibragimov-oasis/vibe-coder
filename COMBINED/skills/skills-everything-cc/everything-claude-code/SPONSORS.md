@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
+---
+
 # Sponsors
 
 Thank you to everyone who sponsors this project! Your support keeps the ECC ecosystem growing.
@@ -57,3 +64,9 @@ See [`docs/business/metrics-and-sponsorship.md`](docs/business/metrics-and-spons
 ---
 
 *Updated automatically. Last sync: February 2026*
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

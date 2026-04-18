@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/mcp
+  - artifact/mcp-server
+  - source/mcp-servers
+---
+
 <!-- This file has been used in local_quickstart.md, local_quickstart_go.md & local_quickstart_js.md -->
 <!-- [START cloud_setup] -->
 If you plan to use **Google Cloud’s Vertex AI** with your agent (e.g., using
@@ -15,3 +22,9 @@ local development:
     ```
 
 <!-- [END cloud_setup] -->
+
+## 🔗 Связи
+
+- [[MOC - MCP Servers]] — mcp-servers
+- [[000 - Map of Maps]] — Map of Maps
+

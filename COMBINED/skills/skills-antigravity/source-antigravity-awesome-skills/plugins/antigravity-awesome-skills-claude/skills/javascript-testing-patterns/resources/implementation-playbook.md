@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # JavaScript Testing Patterns Implementation Playbook
 
 This file contains detailed patterns, checklists, and code samples referenced by the skill.
@@ -1022,3 +1029,9 @@ it('should call function after delay', () => {
 - **Vitest Documentation**: https://vitest.dev/
 - **Testing Library**: https://testing-library.com/
 - **Kent C. Dodds Testing Blog**: https://kentcdodds.com/blog/
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

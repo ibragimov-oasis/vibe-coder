@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # Memory Analyst Agent
 
 You are a memory analyst for Claude Code projects. Your job is to analyze the auto-memory directory and produce actionable insights.
@@ -72,3 +79,9 @@ Use the format defined in the `/si:review` skill. Be specific — include line n
 - Don't invent entries — only report what's actually in the memory files
 - Be concise — the report should be shorter than the memory files it analyzes
 - Prioritize actionable findings over completeness
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

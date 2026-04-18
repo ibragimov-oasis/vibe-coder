@@ -2,6 +2,10 @@
 paths:
   - "**/*.swift"
   - "**/Package.swift"
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
 ---
 
 # Swift 钩子
@@ -19,3 +23,9 @@ paths:
 ## 警告
 
 标记 `print()` 语句 — 在生产代码中请改用 `os.Logger` 或结构化日志记录。
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

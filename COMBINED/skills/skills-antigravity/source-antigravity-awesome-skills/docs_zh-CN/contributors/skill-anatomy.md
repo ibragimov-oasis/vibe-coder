@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # 技能解剖 - 理解结构
 
 **想了解技能在底层如何工作？** 本指南分解了技能文件的每个部分。
@@ -583,3 +590,9 @@ Help turn ideas into fully formed designs...
 ---
 
 **记住：**每个专家都曾经是初学者。从简单开始，从反馈中学习，并随时间改进！🚀
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

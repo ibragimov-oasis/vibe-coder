@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # github swarm
 
 Create a specialized swarm for GitHub repository management.
@@ -119,3 +126,10 @@ mcp__claude-flow__github_swarm {
 - `pr enhance` - Enhance pull requests
 - `issue triage` - Intelligent issue management
 - `code review` - Automated reviews
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

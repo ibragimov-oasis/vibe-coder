@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # @claude-flow/providers
 
 [![npm version](https://img.shields.io/npm/v/@claude-flow/providers.svg)](https://www.npmjs.com/package/@claude-flow/providers)
@@ -572,3 +579,9 @@ const coordinator = createUnifiedSwarmCoordinator({
 ## License
 
 MIT
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-ruflo]] — core-ruflo
+

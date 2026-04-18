@@ -3,6 +3,10 @@ name: odoo-orm-expert
 description: "Master Odoo ORM patterns: search, browse, create, write, domain filters, computed fields, and performance-safe query techniques."
 risk: safe
 source: "self"
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 # Odoo ORM Expert
@@ -87,3 +91,9 @@ for partner in partners:
 - **Stored computed fields** can cause significant write overhead at scale; this skill does not cover partitioning strategies.
 - Does not cover **transient models** (`models.TransientModel`) or wizard patterns.
 - ORM behavior can differ slightly between Odoo SaaS and On-Premise due to config overrides.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # MCP Tools
 
 Chat UI supports tool calling via the [Model Context Protocol (MCP)](https://modelcontextprotocol.io/). MCP servers expose tools that models can invoke during conversations.
@@ -82,3 +89,10 @@ LLM_ROUTER_TOOLS_MODEL=meta-llama/Llama-3.3-70B-Instruct
 ```
 
 When a user has MCP servers enabled and selects the Omni model, the router will automatically use the specified tools model.
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

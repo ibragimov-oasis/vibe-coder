@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-gsd
+---
+
 # Documentação do GSD
 
 Documentação abrangente do framework Get Shit Done (GSD) — um sistema de meta-prompting, engenharia de contexto e desenvolvimento orientado por especificações para agentes de IA.
@@ -28,3 +35,9 @@ Documentação abrangente do framework Get Shit Done (GSD) — um sistema de met
 
 > [!NOTE]
 > Esta pasta `pt-BR` contém a versão em Português dos documentos de uso geral. Documentação técnica avançada ainda referencia os arquivos em inglês para manter precisão e atualização.
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-gsd]] — core-gsd
+

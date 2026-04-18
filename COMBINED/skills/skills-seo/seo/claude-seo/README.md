@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/seo
+  - artifact/doc
+  - source/skills-seo
+---
+
 <!-- Updated: 2026-03-28 -->
 
 ![Claude SEO](screenshots/cover-image.jpeg)
@@ -354,3 +361,9 @@ Contributions welcome! Please read [CONTRIBUTING.md](CONTRIBUTING.md) before sub
 ---
 
 Built for Claude Code by [@AgriciDaniel](https://github.com/AgriciDaniel)
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-seo]] — Category: skills-seo
+

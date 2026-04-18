@@ -1,6 +1,10 @@
 ---
 description: 'Tailwind CSS v4+ installation and configuration for Vite projects using the official @tailwindcss/vite plugin'
 applyTo: 'vite.config.ts, vite.config.js, **/*.css, **/*.tsx, **/*.ts, **/*.jsx, **/*.js'
+tags:
+  - domain/agents
+  - artifact/agent
+  - source/by-interface/agents-copilot
 ---
 
 # Tailwind CSS v4+ Installation with Vite
@@ -241,3 +245,9 @@ If migrating from Tailwind v3:
 
 - Official Documentation: https://tailwindcss.com/docs/installation/using-vite
 - Tailwind CSS v4 Upgrade Guide: https://tailwindcss.com/docs/upgrade-guide
+
+## 🔗 Связи
+
+- [[MOC - Agents]] — Agent catalog
+- [[agents/agents-copilot]] — Interface: agents-copilot
+

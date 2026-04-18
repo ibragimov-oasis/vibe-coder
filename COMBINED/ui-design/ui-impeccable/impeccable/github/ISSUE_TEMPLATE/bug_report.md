@@ -4,6 +4,10 @@ about: Something isn't working as expected
 title: "[Bug] "
 labels: bug
 assignees: ''
+tags:
+  - domain/ui
+  - artifact/ui-component
+  - source/ui-design
 ---
 
 ## What happened?
@@ -29,3 +33,9 @@ assignees: ''
 ## Additional context
 
 <!-- Paste relevant command output, screenshots, or config snippets here. -->
+
+## 🔗 Связи
+
+- [[MOC - UI Design]] — ui-design
+- [[000 - Map of Maps]] — Map of Maps
+

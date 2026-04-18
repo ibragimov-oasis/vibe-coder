@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # Remote Installation Fix - v2.7.13
 
 ## Issue
@@ -118,3 +125,10 @@ npm view claude-flow@alpha optionalDependencies
 - #835 - MCP server stdio mode stdout corruption (Fixed in v2.7.8)
 - Version banner removal (Fixed in v2.7.10)
 - Remote installation failures (Fixed in v2.7.13)
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-ruflo]] — core-ruflo
+- [[MOC - Skills]] — Skills library
+

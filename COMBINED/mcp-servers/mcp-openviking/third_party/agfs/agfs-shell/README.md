@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/mcp
+  - artifact/mcp-server
+  - source/mcp-servers
+---
+
 # agfs-shell
 
 An experimental shell implementation with Unix-style pipeline support and **AGFS integration**, written in pure Python.
@@ -1852,3 +1859,9 @@ Built with:
 ---
 
 **Note**: This is an experimental shell for educational purposes and AGFS integration. Not recommended for production use.
+
+## 🔗 Связи
+
+- [[MOC - MCP Servers]] — mcp-servers
+- [[000 - Map of Maps]] — Map of Maps
+

@@ -43,3 +43,9 @@ Enterprise-оркестрация агентов с Q-Learning Router. 80+ сп�
 
 - [[orchestration/core-omc]] — OMC: ещё одна multi-agent система
 - [[orchestration/core-gsd]] — GSD: spec-driven execution
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Parent MOC
+- [[000 - Map of Maps]] — Map of Maps
+

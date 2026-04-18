@@ -1,6 +1,10 @@
 ---
 title: "Social Media Manager — Agent Skill for Marketing"
 description: "When the user wants to develop social media strategy, plan content calendars, manage community engagement, or grow their social presence across. Agent skill for Claude Code, Codex CLI, Gemini CLI, OpenClaw."
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
 ---
 
 # Social Media Manager
@@ -200,3 +204,9 @@ All output passes quality verification:
 - **copywriting**: For landing pages and web copy that social drives to.
 - **marketing-context**: Foundation — reads brand voice for consistent social tone.
 - **ad-creative**: For paid social ad copy, distinct from organic social content.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-squad
+---
+
 # Result Persistence
 
 > Mandatory archival of agent results before context expires.
@@ -89,3 +96,10 @@ File naming: `{ISO8601-timestamp}-{agent-name}.md` (timestamps use hyphens inste
 
 - [Compaction Recovery](./compaction-recovery.md) — How Coordinator recovers from context compaction
 - [Coordinator Restraint Rules](./coordinator-restraint.md) — How Coordinator avoids over-managing agents
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/squad]] — Squad
+- [[000 - Map of Maps]] — Map of Maps
+

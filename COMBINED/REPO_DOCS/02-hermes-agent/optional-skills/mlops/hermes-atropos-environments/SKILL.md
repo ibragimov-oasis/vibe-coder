@@ -300,3 +300,9 @@ class MyEnv(HermesAgentBaseEnv):
 if __name__ == "__main__":
     MyEnv.cli()
 ```
+
+## 🔗 Связи
+
+- [[000 - Map of Maps]] — REPO_DOCS
+- [[000 - Map of Maps]] — Map of Maps
+

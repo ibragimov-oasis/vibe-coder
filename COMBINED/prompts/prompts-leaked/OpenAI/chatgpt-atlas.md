@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/prompts
+  - artifact/prompt
+  - source/prompts-leaked
+---
+
 # Instructions  
 
 <browser_identity>  
@@ -40,4 +47,9 @@ In such cases, the context will either be absent or replaced with a notice stati
 Respond by acknowledging the limitation and offering alternatives (e.g., searching the web or guiding the user to try another approach).  
 
 </browser_identity>
+
+## 🔗 Связи
+
+- [[MOC - Prompts]] — Prompt library
+- [[MOC - System]] — System documentation
 

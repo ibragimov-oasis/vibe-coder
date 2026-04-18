@@ -1,6 +1,10 @@
 ---
 name: chrome-extension
 description: Chrome Extension template principles. Manifest V3, React, TypeScript.
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
 ---
 
 # Chrome Extension Template
@@ -90,3 +94,9 @@ project-name/
 - Wrap Chrome APIs in promises
 - Minimize permissions
 - Handle offline gracefully
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

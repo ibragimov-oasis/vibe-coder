@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # Commands → Skills Migration Analysis
 
 ## Executive Summary
@@ -380,3 +387,10 @@ COMBINED/workspace-config/claude/skills/
 - **DO** ensure skills have complete, standalone workflows
 - **DO** keep commands as lightweight CLI triggers
 - **DO** test each skill in Claude Code before removing commands
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-copilot
+---
+
 # Spring Boot 4.0 Migration
 
 Key testing changes when migrating from Spring Boot 3.x to 4.0.
@@ -179,3 +186,9 @@ Use "classic" starters for gradual migration:
 ```
 
 This provides old behavior while you migrate incrementally.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-copilot]] — Category: skills-copilot
+

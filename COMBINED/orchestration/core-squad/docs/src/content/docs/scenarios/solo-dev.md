@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-squad
+---
+
 # Squad for Solo Developers
 
 > ⚠️ **Experimental** — Squad is alpha software. APIs, commands, and behavior may change between releases.
@@ -164,3 +171,10 @@ Michael's not always right, but having a second opinion is invaluable.
 - **Skills are YOUR documentation.** After 10 sessions, `.squad/skills/` is a custom knowledge base.
 - **Agents work while you're thinking.** Give a vague task and agents research in parallel.
 - **You get testing discipline.** The Tester writes tests you'd skip. Coverage goes up without extra effort.
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/squad]] — Squad
+- [[000 - Map of Maps]] — Map of Maps
+

@@ -52,6 +52,10 @@ safe-outputs:
     title-prefix: "[Contributors Report] "
 
 timeout-minutes: 60
+tags:
+  - domain/agents
+  - artifact/agent
+  - source/by-interface/agents-copilot
 ---
 
 # Contributors Report
@@ -138,3 +142,9 @@ Create an issue in the **current repository** with:
 - **Title:** `[Contributors Report] <ORG_OR_REPO_SCOPE> — START_DATE to END_DATE`
 - **Body:** The full markdown report from Step 7.
 - **Labels:** Add the label `contributors-report` if it exists; do not fail if it does not.
+
+## 🔗 Связи
+
+- [[MOC - Agents]] — Agent catalog
+- [[agents/agents-copilot]] — Interface: agents-copilot
+

@@ -3,6 +3,10 @@ title: Home Assistant
 description: Control your smart home with Hermes Agent via Home Assistant integration.
 sidebar_label: Home Assistant
 sidebar_position: 5
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-hermes
 ---
 
 # Home Assistant Integration
@@ -247,3 +251,10 @@ Agent automatically:
      entity_id="light.hallway")
 3. Sends notification: "Front door opened. Hallway lights turned on."
 ```
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/hermes]] — Hermes
+- [[000 - Map of Maps]] — Map of Maps
+

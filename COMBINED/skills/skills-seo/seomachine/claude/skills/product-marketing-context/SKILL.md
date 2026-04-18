@@ -2,6 +2,10 @@
 name: product-marketing-context
 version: 1.0.0
 description: "When the user wants to create or update their product marketing context document. Also use when the user mentions 'product context,' 'marketing context,' 'set up context,' 'positioning,' or wants to avoid repeating foundational information across marketing tasks. Creates `.claude/product-marketing-context.md` that other marketing skills reference."
+tags:
+  - domain/seo
+  - artifact/skill
+  - source/skills-seo
 ---
 
 # Product Marketing Context
@@ -238,3 +242,9 @@ After gathering information, create `.claude/product-marketing-context.md` with 
 - **Ask for examples**: "Can you give me an example?" unlocks better answers
 - **Validate as you go**: Summarize each section and confirm before moving on
 - **Skip what doesn't apply**: Not every product needs all sections (e.g., Personas for B2C)
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-seo]] — Category: skills-seo
+

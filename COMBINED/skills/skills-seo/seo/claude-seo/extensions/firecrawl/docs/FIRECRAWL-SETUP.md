@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/seo
+  - artifact/doc
+  - source/skills-seo
+---
+
 # Firecrawl Setup Guide
 
 ## 1. Get Your API Key
@@ -57,3 +64,9 @@ You should see a list of discovered URLs. If you get a "tool not available" erro
 **Free tier**: 500 credits/month resets on your billing date.
 
 **Tip**: Use `map` first (cheap) to see how many pages a site has, then decide how many to `crawl` (more expensive).
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-seo]] — Category: skills-seo
+

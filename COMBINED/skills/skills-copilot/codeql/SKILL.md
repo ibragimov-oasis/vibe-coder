@@ -1,6 +1,10 @@
 ---
 name: codeql
 description: Comprehensive guide for setting up and configuring CodeQL code scanning via GitHub Actions workflows and the CodeQL CLI. This skill should be used when users need help with code scanning configuration, CodeQL workflow files, CodeQL CLI commands, SARIF output, security analysis setup, or troubleshooting CodeQL analysis.
+tags:
+  - domain/agents
+  - artifact/skill
+  - source/skills-copilot
 ---
 
 # CodeQL Code Scanning
@@ -403,3 +407,10 @@ For detailed documentation, load the following reference files as needed:
   - Search patterns: `no source code`, `out of disk`, `out of memory`, `403`, `C# compiler`, `analysis too long`, `fewer lines`, `Kotlin`, `extraction errors`, `debug logging`, `SARIF upload`, `SARIF limits`
 - `references/alert-management.md` — Alert severity, triage, Copilot Autofix, and dismissal
   - Search patterns: `severity`, `security severity`, `CVSS`, `Copilot Autofix`, `dismiss`, `triage`, `PR alerts`, `data flow`, `merge protection`, `REST API`
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-copilot]] — Category: skills-copilot
+- [[MOC - Agents]] — Copilot agents
+

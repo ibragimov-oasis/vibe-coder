@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/config
+  - source/workspace-config
+---
+
 # CLAUDE.md — Vibe-Coder Arsenal Master Instructions
 
 > **Combined Configuration for Claude Code**
@@ -481,3 +488,9 @@ gh pr create --base dev
 *Combined from: oh-my-claudecode, claude-skills, background-agents, ruflo, get-shit-done, superpowers, everything-claude-code, awesome-claude-code*
 
 **Last Updated:** 2026-04-01
+
+## 🔗 Связи
+
+- [[MOC - System]] — workspace-config
+- [[000 - Map of Maps]] — Map of Maps
+

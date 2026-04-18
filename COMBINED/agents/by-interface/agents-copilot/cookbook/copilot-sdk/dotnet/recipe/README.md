@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/agent
+  - source/by-interface/agents-copilot
+---
+
 # Runnable Recipe Examples
 
 This folder contains standalone, executable C# examples for each cookbook recipe. These are [file-based apps](https://learn.microsoft.com/dotnet/core/sdk/file-based-apps) that can be run directly with `dotnet run`.
@@ -53,3 +60,9 @@ These examples use .NET's file-based app feature, which allows single-file C# pr
 - [.NET File-Based Apps Documentation](https://learn.microsoft.com/en-us/dotnet/core/sdk/file-based-apps)
 - [GitHub Copilot SDK Documentation](https://github.com/github/copilot-sdk/blob/main/dotnet/README.md)
 - [Parent Cookbook](../README.md)
+
+## 🔗 Связи
+
+- [[MOC - Agents]] — Agent catalog
+- [[agents/agents-copilot]] — Interface: agents-copilot
+

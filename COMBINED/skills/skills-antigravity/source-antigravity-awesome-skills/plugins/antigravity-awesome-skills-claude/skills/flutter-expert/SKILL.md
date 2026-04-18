@@ -4,6 +4,10 @@ description: Master Flutter development with Dart 3, advanced widgets, and multi
 risk: unknown
 source: community
 date_added: '2026-02-27'
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 ## Use this skill when
@@ -195,3 +199,9 @@ Expert Flutter developer specializing in Flutter 3.x+, Dart 3.x, and comprehensi
 - "Create accessible widgets following Material Design 3 guidelines"
 
 Always use null safety with Dart 3 features. Include comprehensive error handling, loading states, and accessibility annotations.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

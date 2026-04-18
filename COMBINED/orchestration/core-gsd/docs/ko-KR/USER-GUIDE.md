@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-gsd
+---
+
 # GSD 사용자 가이드
 
 워크플로우, 문제 해결, 설정에 대한 상세 레퍼런스입니다. 빠른 시작 설정은 [README](../README.md)를 참고하세요.
@@ -840,3 +847,10 @@ Windows에서 설치 프로그램이 `EPERM: operation not permitted, scandir`�
       XX-UI-REVIEW.md     # Visual audit scores (from /gsd:ui-review)
   ui-reviews/             # Screenshots from /gsd:ui-review (gitignored)
 ```
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-gsd]] — core-gsd
+- [[MOC - Skills]] — Skills library
+

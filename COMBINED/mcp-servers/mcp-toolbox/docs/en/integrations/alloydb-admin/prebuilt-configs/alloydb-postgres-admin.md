@@ -2,6 +2,10 @@
 title: "AlloyDB Postgres Admin"
 type: docs
 description: "Details of the AlloyDB Postgres Admin prebuilt configuration."
+tags:
+  - domain/mcp
+  - artifact/mcp-server
+  - source/mcp-servers
 ---
 
 ## AlloyDB Postgres Admin
@@ -24,3 +28,9 @@ description: "Details of the AlloyDB Postgres Admin prebuilt configuration."
         AlloyDB cluster.
     *   `wait_for_operation`: Polls the operations API to track the status of
         long-running operations.
+
+## 🔗 Связи
+
+- [[MOC - MCP Servers]] — mcp-servers
+- [[000 - Map of Maps]] — Map of Maps
+

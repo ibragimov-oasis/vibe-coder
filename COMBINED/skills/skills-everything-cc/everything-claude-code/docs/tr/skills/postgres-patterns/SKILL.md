@@ -2,6 +2,10 @@
 name: postgres-patterns
 description: Sorgu optimizasyonu, şema tasarımı, indeksleme ve güvenlik için PostgreSQL veritabanı kalıpları. Supabase en iyi uygulamalarına dayanır.
 origin: ECC
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-everything-cc
 ---
 
 # PostgreSQL Kalıpları
@@ -145,3 +149,9 @@ SELECT pg_reload_conf();
 ---
 
 *Supabase Agent Skills'e dayanır (kredi: Supabase ekibi) (MIT License)*
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

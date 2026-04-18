@@ -590,4 +590,8 @@ print(f"Share this URL: {run.url}")
 - `references/artifacts.md` - Data and model versioning patterns
 - `references/integrations.md` - Framework-specific examples
 
+## 🔗 Связи
+
+- [[000 - Map of Maps]] — REPO_DOCS
+- [[000 - Map of Maps]] — Map of Maps
 

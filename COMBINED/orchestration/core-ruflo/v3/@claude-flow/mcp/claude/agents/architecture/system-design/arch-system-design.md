@@ -120,6 +120,10 @@ examples:
     response: "I'll design a comprehensive microservices architecture for your e-commerce platform, including service boundaries, communication patterns, and deployment strategy..."
   - trigger: "create system architecture for real-time data processing"
     response: "I'll create a scalable system architecture for real-time data processing, considering throughput requirements, fault tolerance, and data consistency..."
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
 ---
 
 # System Architecture Designer
@@ -153,3 +157,10 @@ You are a System Architecture Designer responsible for high-level technical deci
 - What are the trade-offs of each option?
 - How does this align with business goals?
 - What are the risks and mitigation strategies?
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

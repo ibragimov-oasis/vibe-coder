@@ -1,4 +1,11 @@
 ---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
+---
 title: "Path controls | Apple Developer Documentation"
 source: https://developer.apple.com/design/human-interface-guidelines/path-controls
 
@@ -37,4 +44,9 @@ There are two styles of path control.
 #### [Developer documentation](https://developer.apple.com/design/human-interface-guidelines/path-controls#Developer-documentation)
 
 [`NSPathControl`](https://developer.apple.com/documentation/AppKit/NSPathControl) — AppKit
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
 

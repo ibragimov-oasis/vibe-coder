@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-hermes
+---
+
 # Axolotl - Api
 
 **Pages:** 150
@@ -5546,3 +5553,9 @@ utils.callbacks.comet_.SaveAxolotlConfigtoCometCallback(axolotl_config_path)
 ```
 
 ---
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-hermes]] — Category: skills-hermes
+

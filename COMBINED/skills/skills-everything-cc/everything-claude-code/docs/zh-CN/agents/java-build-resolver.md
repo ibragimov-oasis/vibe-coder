@@ -3,6 +3,10 @@ name: java-build-resolver
 description: Java/Maven/Gradle构建、编译和依赖错误解决专家。修复构建错误、Java编译器错误以及Maven/Gradle问题，改动最小。适用于Java或Spring Boot构建失败时。
 tools: ["Read", "Write", "Edit", "Bash", "Grep", "Glob"]
 model: sonnet
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
 ---
 
 # Java 构建错误解决器
@@ -152,3 +156,9 @@ grep -A5 "annotationProcessorPaths\|annotationProcessor" pom.xml build.gradle
 最终：`Build Status: SUCCESS/FAILED | Errors Fixed: N | Files Modified: list`
 
 有关详细的 Java 和 Spring Boot 模式，请参阅 `skill: springboot-patterns`。
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/ui
+  - artifact/ui-component
+  - source/ui-design
+---
+
 # Stitch Build Loop Skill
 
 Teaches agents to iteratively build websites using Stitch with an autonomous baton-passing loop pattern.
@@ -52,3 +59,9 @@ stitch-loop/
 ## Learn More
 
 See [SKILL.md](./SKILL.md) for complete instructions.
+
+## 🔗 Связи
+
+- [[MOC - UI Design]] — ui-design
+- [[000 - Map of Maps]] — Map of Maps
+

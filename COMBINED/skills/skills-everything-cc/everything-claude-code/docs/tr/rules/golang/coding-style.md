@@ -3,6 +3,10 @@ paths:
   - "**/*.go"
   - "**/go.mod"
   - "**/go.sum"
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
 ---
 # Go Kodlama Stili
 
@@ -30,3 +34,9 @@ if err != nil {
 ## Referans
 
 Kapsamlı Go idiom'ları ve pattern'leri için skill: `golang-patterns` dosyasına bakın.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

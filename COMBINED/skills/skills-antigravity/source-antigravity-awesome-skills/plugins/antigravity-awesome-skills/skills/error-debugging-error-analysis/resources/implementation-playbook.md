@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # Error Analysis and Resolution Implementation Playbook
 
 This file contains detailed patterns, checklists, and code samples referenced by the skill.
@@ -1141,3 +1148,9 @@ For each error analysis, provide:
 8. **Runbook**: Step-by-step guide for handling similar incidents
 
 Prioritize actionable recommendations that improve system reliability and reduce MTTR (Mean Time To Resolution) for future incidents.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

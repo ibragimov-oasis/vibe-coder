@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-gsd
+---
+
 # Research Summary Template
 
 Template for `.planning/research/SUMMARY.md` — executive summary of project research with roadmap implications.
@@ -168,3 +175,10 @@ Phases with standard patterns (skip research-phase):
 - Research flags inform phase planning
 
 </guidelines>
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/gsd]] — GSD
+- [[000 - Map of Maps]] — Map of Maps
+

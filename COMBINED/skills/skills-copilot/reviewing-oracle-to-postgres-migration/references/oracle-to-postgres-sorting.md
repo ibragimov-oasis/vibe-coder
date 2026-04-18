@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-copilot
+---
+
 # Oracle to PostgreSQL Sorting Migration Guide
 
 Purpose: Preserve Oracle-like sorting semantics when moving queries to PostgreSQL.
@@ -49,3 +56,9 @@ ORDER BY col2 COLLATE "C";
 - [ ] For `DISTINCT` queries, wrapped the projection and sorted in the outer query.
 - [ ] Confirmed ordered columns are present in the inner projection.
 - [ ] Re-ran tests or representative queries to verify ordering matches Oracle outputs.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-copilot]] — Category: skills-copilot
+

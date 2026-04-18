@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # Follow-Up Playbook
 
 Full cadence guide, angle rotation, and breakup email templates. The goal: stay persistent without becoming noise.
@@ -223,3 +230,9 @@ Full sequence as described above.
 - **"I know you're busy but..."** — Everyone's busy. Don't invoke it.
 - **A forwarded copy of the original email** — They have the original. This is lazy.
 - **Back-to-back emails on the same day** — Unless it's a clear error correction.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

@@ -4,6 +4,10 @@ description: "Fast, modern JavaScript/TypeScript development with the Bun runtim
 risk: critical
 source: community
 date_added: "2026-02-27"
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 <!-- security-allowlist: curl-pipe-bash, irm-pipe-iex -->
@@ -694,3 +698,9 @@ bun run ./dist/index.js
 - [Bun GitHub](https://github.com/oven-sh/bun)
 - [Elysia Framework](https://elysiajs.com/)
 - [Bun Discord](https://bun.sh/discord)
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

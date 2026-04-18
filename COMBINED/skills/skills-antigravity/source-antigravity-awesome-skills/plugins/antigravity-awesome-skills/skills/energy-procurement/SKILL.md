@@ -4,6 +4,10 @@ description: Codified expertise for electricity and gas procurement, tariff opti
 risk: safe
 source: https://github.com/ai-evos/agent-skills
 date_added: '2026-02-27'
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 ## When to Use
@@ -201,3 +205,9 @@ Use this skill when you need to **design, audit, or optimise an energy procureme
 - Evaluating fixed vs. index vs. block-and-index contracts, PPAs, or VPPAs.
 - Reducing demand charges, managing capacity tags, or planning DR and battery investments.
 - Preparing RFPs, supplier negotiations, or executive decision memos about multi-site energy strategy, risk, and sustainability tradeoffs.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

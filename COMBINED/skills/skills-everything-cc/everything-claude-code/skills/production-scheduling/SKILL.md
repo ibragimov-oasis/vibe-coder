@@ -16,6 +16,10 @@ metadata:
   author: evos
   clawdbot:
     emoji: ""
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-everything-cc
 ---
 
 # Production Scheduling
@@ -236,3 +240,9 @@ Track per shift and trend weekly:
 
 - Pair this skill with your constraint hierarchy, frozen-window policy, and expedite-approval thresholds.
 - Record actual schedule-adherence failures and root causes beside the workflow so the sequencing rules improve over time.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

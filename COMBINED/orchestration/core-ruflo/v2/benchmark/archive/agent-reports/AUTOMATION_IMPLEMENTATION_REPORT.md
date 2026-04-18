@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # 🤖 Automation Module Implementation Report
 
 **Agent**: Backend Developer (Agent 3)  

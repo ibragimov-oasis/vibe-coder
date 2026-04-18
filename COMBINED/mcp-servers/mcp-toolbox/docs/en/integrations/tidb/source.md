@@ -6,6 +6,10 @@ weight: 1
 description: >
   TiDB is a distributed SQL database that combines the best of traditional RDBMS and NoSQL databases.
 no_list: true
+tags:
+  - domain/mcp
+  - artifact/mcp-server
+  - source/mcp-servers
 ---
 
 ## About
@@ -95,3 +99,9 @@ instead of hardcoding your secrets into the configuration file.
 
     For self-hosted TiDB instances, you can optionally enable SSL by setting
     `ssl: true` in your configuration.
+
+## 🔗 Связи
+
+- [[MOC - MCP Servers]] — mcp-servers
+- [[000 - Map of Maps]] — Map of Maps
+

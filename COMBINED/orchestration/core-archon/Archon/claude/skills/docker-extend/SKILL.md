@@ -10,6 +10,10 @@ description: |
   add personal tools to their Docker environment without affecting maintainer files or
   committing user-specific config to git.
 argument-hint: '[optional: tools to install, e.g. "vim ripgrep jq"]'
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-archon
 ---
 
 # Docker Extend
@@ -105,3 +109,10 @@ Tell the user:
 2. Which tools were added to `Dockerfile.user` (if any)
 3. The rebuild command to run when ready
 4. A reminder that `Dockerfile.user` and `docker-compose.override.yml` are gitignored — they're personal and won't be committed
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/archon]] — Archon
+- [[000 - Map of Maps]] — Map of Maps
+

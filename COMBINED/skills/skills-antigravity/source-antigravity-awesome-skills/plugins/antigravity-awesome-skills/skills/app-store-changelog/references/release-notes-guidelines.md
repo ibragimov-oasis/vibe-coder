@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # App Store Release Notes Guidelines
 
 ## Goals
@@ -32,3 +39,9 @@
 - No duplicate bullets that describe the same change.
 - No internal jargon or file paths.
 - Final list fits App Store text limits for the target storefront if provided.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

@@ -4,6 +4,10 @@ description: "Master modern React state management with Redux Toolkit, Zustand, 
 risk: unknown
 source: community
 date_added: "2026-02-27"
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 # React State Management
@@ -442,3 +446,9 @@ const todosSlice = createSlice({
 - [Zustand GitHub](https://github.com/pmndrs/zustand)
 - [Jotai Documentation](https://jotai.org/)
 - [TanStack Query](https://tanstack.com/query)
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

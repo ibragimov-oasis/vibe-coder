@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # Test Automation Patterns for React and Next.js
 
 Reusable patterns for structuring test code, mocking dependencies, and handling async operations.
@@ -1007,3 +1014,9 @@ it('renders user card', () => {
 4. **Create custom render utilities** for provider wrapping
 5. **Master async patterns** to avoid flaky tests
 6. **Use snapshots wisely** for stable, static content only
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/memory
+  - artifact/memory
+  - source/memory
+---
+
 <claude-mem-context>
 # Recent Activity
 
@@ -32,3 +39,9 @@
 | #26722 | 11:23 PM | 🔵 | Worker CLI TypeScript Source Shows Simple ProcessManager Delegation | ~394 |
 | #26721 | " | 🔵 | Worker CLI Source Code Shows Simple Restart Logic Without Delays | ~425 |
 </claude-mem-context>
+
+## 🔗 Связи
+
+- [[MOC - Memory]] — memory
+- [[000 - Map of Maps]] — Map of Maps
+

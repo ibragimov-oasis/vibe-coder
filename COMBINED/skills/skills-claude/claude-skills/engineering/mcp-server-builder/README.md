@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # MCP Server Builder
 
 Generate and validate MCP servers from OpenAPI contracts with production-focused tooling. This skill helps teams bootstrap fast and enforce schema quality before shipping.
@@ -48,3 +55,9 @@ cp -R engineering/mcp-server-builder ~/.codex/skills/mcp-server-builder
 ```bash
 cp -R engineering/mcp-server-builder ~/.openclaw/skills/mcp-server-builder
 ```
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

@@ -112,3 +112,9 @@ source: "../COMBINED/ui-design/ui-components-galaxy/"
 - **Следующий уровень:** [[ui-design/gallery/shadcn-showcase]]
 - **Anti-slop:** [[ui-design/gallery/ui-patterns]]
 - **Map:** [[000 - Map of Maps]]
+
+## 🔗 Связи
+
+- [[MOC - UI Design]] — Parent MOC
+- [[000 - Map of Maps]] — Map of Maps
+

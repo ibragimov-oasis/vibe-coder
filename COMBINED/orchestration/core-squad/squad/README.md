@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-squad
+---
+
 # Squad
 
 [English](README.md) | [中文](README.zh.md)
@@ -480,3 +487,9 @@ The SDK provides programmatic control over agent orchestration — custom tools,
 - [Samples](samples/README.md) — eight working examples from beginner to advanced
 
 For SDK installation: `npm install @bradygaster/squad-sdk`
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-squad]] — core-squad
+

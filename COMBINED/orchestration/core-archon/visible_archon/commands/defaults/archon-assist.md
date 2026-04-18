@@ -1,6 +1,10 @@
 ---
 description: General assistance - questions, debugging, one-off tasks, exploration
 argument-hint: <any request>
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-archon
 ---
 
 # Assist Mode
@@ -31,3 +35,10 @@ You have full Claude Code capabilities:
 ## Request
 
 $ARGUMENTS
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/archon]] — Archon
+- [[000 - Map of Maps]] — Map of Maps
+

@@ -6,6 +6,10 @@ audience: [user, operator]
 status: current
 sidebar:
   order: 7
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-archon
 ---
 
 Common issues and their solutions when running Archon.
@@ -299,3 +303,10 @@ ARCHON_SUPPRESS_NESTED_CLAUDE_WARNING=1 archon workflow run ...
 ```bash
 ARCHON_CLAUDE_FIRST_EVENT_TIMEOUT_MS=120000 archon workflow run ...
 ```
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/archon]] — Archon
+- [[000 - Map of Maps]] — Map of Maps
+

@@ -8,6 +8,9 @@ metadata:
   hermes:
     tags: [Research, Arxiv, Papers, Academic, Science, API]
     related_skills: [ocr-and-documents]
+  - domain/skills
+  - artifact/skill
+  - source/skills-hermes
 ---
 
 # arXiv Research
@@ -279,3 +282,9 @@ Papers can be withdrawn after submission. When this happens:
 - The `<summary>` field contains a withdrawal notice (look for "withdrawn" or "retracted")
 - Metadata fields may be incomplete
 - Always check the summary before treating a result as a valid paper
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-hermes]] — Category: skills-hermes
+

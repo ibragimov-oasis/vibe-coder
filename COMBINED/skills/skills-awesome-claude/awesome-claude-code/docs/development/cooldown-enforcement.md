@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-awesome-claude
+---
+
 # Cooldown Enforcement
 
 Automated rate-limiting for resource submissions. Applies to both issues and pull requests.
@@ -54,3 +61,9 @@ Pull requests are classified by Claude (Haiku) as either `resource_submission` o
 ## Concurrency
 
 Runs are serialized per-user (concurrent submissions from the same user queue). Different users process in parallel. The ops repo file uses optimistic locking (SHA-based) — if two concurrent writes race, the loser's violation isn't recorded but will be caught on the next submission.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-awesome-claude]] — Category: skills-awesome-claude
+

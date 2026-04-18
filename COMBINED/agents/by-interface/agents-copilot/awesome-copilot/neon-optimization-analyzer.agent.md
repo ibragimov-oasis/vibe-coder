@@ -1,6 +1,10 @@
 ---
 name: Neon Performance Analyzer
 description: Identify and fix slow Postgres queries automatically using Neon's branching workflow. Analyzes execution plans, tests optimizations in isolated database branches, and provides clear before/after performance metrics with actionable code fixes.
+tags:
+  - domain/agents
+  - artifact/agent
+  - source/by-interface/agents-copilot
 ---
 
 # Neon Performance Analyzer
@@ -78,3 +82,9 @@ Always distinguish between **Neon database branches** and **git branches**. Neve
 - Explain reasoning behind each optimization recommendation
 - Clean up all Neon database branches after completion
 - Prioritize zero-downtime optimizations
+
+## 🔗 Связи
+
+- [[MOC - Agents]] — Agent catalog
+- [[agents/agents-copilot]] — Interface: agents-copilot
+

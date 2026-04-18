@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # @claude-flow/plugin-agentic-qe
 
 **AI-powered quality engineering that writes tests, finds bugs, and breaks things (safely) so your users don't have to.**
@@ -316,3 +323,9 @@ plugins:
 ## License
 
 MIT
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-ruflo]] — core-ruflo
+

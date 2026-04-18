@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # 🤖 Claude-Flow Agent Reference
 
 ## Complete Guide to All 65+ Specialized AI Agents

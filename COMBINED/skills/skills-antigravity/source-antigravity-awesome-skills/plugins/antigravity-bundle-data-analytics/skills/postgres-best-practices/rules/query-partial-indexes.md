@@ -3,6 +3,9 @@ title: Use Partial Indexes for Filtered Queries
 impact: HIGH
 impactDescription: 5-20x smaller indexes, faster writes and queries
 tags: indexes, partial-index, query-optimization, storage
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
 ---
 
 ## Use Partial Indexes for Filtered Queries
@@ -43,3 +46,9 @@ where sku is not null;
 ```
 
 Reference: [Partial Indexes](https://www.postgresql.org/docs/current/indexes-partial.html)
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

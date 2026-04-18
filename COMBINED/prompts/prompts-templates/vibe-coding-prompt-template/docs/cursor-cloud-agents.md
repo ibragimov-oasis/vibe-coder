@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/prompts
+  - artifact/prompt
+  - source/prompts-templates
+---
+
 # Cursor Cloud Agents & Dynamic Context (2026 Guide)
 
 As of early 2026, Cursor has shifted heavily toward **Cloud Agents** and **Dynamic Context Discovery**. If you are using Cursor for your MVP build (Step 5 of the vibe-coding workflow), use these patterns to prevent context bloat and silent breakages.
@@ -28,3 +35,9 @@ Create a `.cursor/rules/` directory and split your rules logically. For example:
 - `03-libraries.mdc`: Instructions on which UI libraries (like shadcn/ui) to enforce.
 
 This progressive disclosure ensures the agent only loads the rules relevant to the files it is actively touching.
+
+## 🔗 Связи
+
+- [[MOC - Prompts]] — Prompt library
+- [[MOC - System]] — System documentation
+

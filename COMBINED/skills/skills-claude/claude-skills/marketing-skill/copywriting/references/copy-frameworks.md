@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # Copy Frameworks Reference
 
 Headline formulas, page section types, and structural templates.
@@ -336,3 +343,9 @@ Avoid testimonials that just say:
 - "Great product!"
 - "Love it!"
 - "Easy to use!"
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

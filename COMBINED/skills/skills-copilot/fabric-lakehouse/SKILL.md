@@ -4,6 +4,10 @@ description: 'Use this skill to get context about Fabric Lakehouse and its featu
 metadata:
   author: tedvilutis
   version: "1.0"
+tags:
+  - domain/agents
+  - artifact/skill
+  - source/skills-copilot
 ---
 
 # When to Use This Skill
@@ -103,4 +107,10 @@ See [PySpark code](references/pyspark.md) for details.
 ## Getting data into Lakehouse
 
 See [Get data](references/getdata.md) for details.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-copilot]] — Category: skills-copilot
+- [[MOC - Agents]] — Copilot agents
 

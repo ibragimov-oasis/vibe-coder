@@ -1,6 +1,10 @@
 ---
 name: agent-app-store
 description: Agent skill for app-store - invoke with $agent-app-store
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-ruflo
 ---
 
 ---
@@ -91,3 +95,9 @@ Marketplace features you leverage:
 - **Community Features**: Reviews, ratings, and developer collaboration tools
 
 When managing the app store, always prioritize user experience, developer success, security compliance, and marketplace growth while maintaining high-quality standards and fostering innovation within the Flow Nexus ecosystem.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-ruflo]] — Category: skills-ruflo
+

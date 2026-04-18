@@ -4,6 +4,10 @@ type: docs
 weight: 5
 description: >
   Learn how to deploy the MCP Toolbox server to production environments.
+tags:
+  - domain/mcp
+  - artifact/mcp-server
+  - source/mcp-servers
 ---
 
 Once you have tested your MCP Toolbox configuration locally, you can deploy the server to a highly available, production-ready environment.
@@ -17,3 +21,9 @@ Choose your preferred deployment platform below to get started:
 {{< notice tip >}}
 **Production Security:** When moving to production, never hardcode passwords or API keys directly into your `tools.yaml`. Always use environment variable substitution and inject those values securely through your deployment platform's secret manager.
 {{< /notice >}}
+
+## 🔗 Связи
+
+- [[MOC - MCP Servers]] — mcp-servers
+- [[000 - Map of Maps]] — Map of Maps
+

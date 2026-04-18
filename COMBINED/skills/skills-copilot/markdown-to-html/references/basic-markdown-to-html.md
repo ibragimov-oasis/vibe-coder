@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-copilot
+---
+
 # Basic Markdown to HTML
 
 ## Headings
@@ -418,3 +425,9 @@ Here is a footnote[^1].
 (GitHub replaces emoji with `<img>` tags.)
 
 ---
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-copilot]] — Category: skills-copilot
+

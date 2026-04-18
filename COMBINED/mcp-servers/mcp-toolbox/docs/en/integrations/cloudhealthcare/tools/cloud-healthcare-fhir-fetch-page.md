@@ -4,6 +4,10 @@ type: docs
 weight: 1
 description: >
   A "cloud-healthcare-fhir-fetch-page" tool fetches a page of FHIR resources from a given URL.
+tags:
+  - domain/mcp
+  - artifact/mcp-server
+  - source/mcp-servers
 ---
 
 ## About
@@ -44,3 +48,9 @@ description: Use this tool to fetch a page of FHIR resources from a FHIR Bundle'
 | **field** | **type** | **required** | **description**                                                                                                                                                                               |
 |-----------|:--------:|:------------:|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | pageURL   |  string  |     true     | The full URL of the FHIR page to fetch. This would usually be the value of `Bundle.entry.link.url` field within the response returned from FHIR search or FHIR patient everything operations. |
+
+## 🔗 Связи
+
+- [[MOC - MCP Servers]] — mcp-servers
+- [[000 - Map of Maps]] — Map of Maps
+

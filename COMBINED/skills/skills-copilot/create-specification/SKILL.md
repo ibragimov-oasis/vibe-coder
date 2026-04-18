@@ -1,6 +1,10 @@
 ---
 name: create-specification
 description: 'Create a new specification file for the solution, optimized for Generative AI consumption.'
+tags:
+  - domain/agents
+  - artifact/skill
+  - source/skills-copilot
 ---
 
 # Create Specification
@@ -125,3 +129,10 @@ tags: [Optional: List of relevant tags or categories, e.g., `infrastructure`, `p
 [Link to relevant external documentation]
 
 ```
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-copilot]] — Category: skills-copilot
+- [[MOC - Agents]] — Copilot agents
+

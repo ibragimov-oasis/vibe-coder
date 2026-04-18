@@ -2,6 +2,10 @@
 name: review-delta
 description: Review only changes since last commit using impact analysis. Token-efficient delta review with automatic blast-radius detection.
 argument-hint: "[file or function name]"
+tags:
+  - domain/mcp
+  - artifact/mcp-server
+  - source/mcp-servers
 ---
 
 # Review Delta
@@ -44,3 +48,9 @@ Perform a focused, token-efficient code review of only the changed code and its 
 - Automatically identifies blast radius without manual file searching
 - Provides structural context (who calls what, inheritance chains)
 - Flags untested functions automatically
+
+## 🔗 Связи
+
+- [[MOC - MCP Servers]] — mcp-servers
+- [[000 - Map of Maps]] — Map of Maps
+

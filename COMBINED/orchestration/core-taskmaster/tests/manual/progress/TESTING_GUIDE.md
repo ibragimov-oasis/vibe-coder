@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-taskmaster
+---
+
 # Task Master Progress Testing Guide
 
 Quick reference for testing streaming/non-streaming functionality with token tracking.
@@ -95,3 +102,10 @@ npm test
     "projectRoot": "/path/to/project"
   }
 }
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/task-master]] — Task-Master
+- [[000 - Map of Maps]] — Map of Maps
+

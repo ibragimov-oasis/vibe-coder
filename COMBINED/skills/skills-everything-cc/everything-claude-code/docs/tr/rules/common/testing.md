@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
+---
+
 # Test Gereksinimleri
 
 ## Minimum Test Coverage: %80
@@ -27,3 +34,9 @@ ZORUNLU iş akışı:
 ## Agent Desteği
 
 - **tdd-guide** - Yeni özellikler için PROAKTİF olarak kullan, test-önce-yaz'ı zorlar
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

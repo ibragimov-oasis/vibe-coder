@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # Orchestration Protocol
 
 A lightweight pattern for coordinating personas, skills, and task agents on complex work.
@@ -260,3 +267,9 @@ See [agents/personas/README.md](../agents/personas/README.md)
 
 ### Available Skills
 See the [skill catalog](../README.md) — 177 skills across 12 domains.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

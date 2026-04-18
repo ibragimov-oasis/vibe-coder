@@ -2,6 +2,10 @@
 name: vibe-prd
 description: Create a Product Requirements Document (PRD) for your MVP. Use when the user wants to define product requirements, create a PRD, or says "help me write requirements", "create PRD", or "define my product".
 allowed-tools: Read, Write, Glob, Grep, AskUserQuestion
+tags:
+  - domain/prompts
+  - artifact/prompt
+  - source/prompts-templates
 ---
 
 # Vibe-Coding PRD Generator
@@ -132,3 +136,9 @@ Tell the user:
 > - Success metrics defined?
 >
 > **Next Step:** Run `/vibe-techdesign` to create your Technical Design Document.
+
+## 🔗 Связи
+
+- [[MOC - Prompts]] — Prompt library
+- [[MOC - System]] — System documentation
+

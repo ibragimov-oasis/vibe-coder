@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # Risk Metrics Calculation Implementation Playbook
 
 This file contains detailed patterns, checklists, and code samples referenced by the skill.
@@ -552,3 +559,9 @@ for metric, value in summary.items():
 - [Risk Management and Financial Institutions (John Hull)](https://www.amazon.com/Risk-Management-Financial-Institutions-5th/dp/1119448115)
 - [Quantitative Risk Management (McNeil, Frey, Embrechts)](https://www.amazon.com/Quantitative-Risk-Management-Techniques-Princeton/dp/0691166277)
 - [pyfolio Documentation](https://quantopian.github.io/pyfolio/)
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

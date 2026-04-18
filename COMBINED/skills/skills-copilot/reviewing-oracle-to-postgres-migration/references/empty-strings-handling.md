@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-copilot
+---
+
 # Oracle to PostgreSQL: Empty String Handling Differences
 
 ## Problem
@@ -67,3 +74,9 @@ Decide whether to:
 - Convert existing `NULL` values to empty strings
 - Convert empty strings to `NULL` using `NULLIF(column, '')`
 - Leave values as-is and update application logic
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-copilot]] — Category: skills-copilot
+

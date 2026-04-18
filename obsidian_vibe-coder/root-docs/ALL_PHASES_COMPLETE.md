@@ -38,3 +38,9 @@ source: "../ALL_PHASES_COMPLETE.md"
 
 - [[root-docs/COMBINED_FULL_STRUCTURE]] — финальная структура
 - [[root-docs/RESTORATION_COMPLETE]] — восстановление завершено
+
+## 🔗 Связи
+
+- [[000 - Map of Maps]] — Parent MOC
+- [[000 - Map of Maps]] — Map of Maps
+

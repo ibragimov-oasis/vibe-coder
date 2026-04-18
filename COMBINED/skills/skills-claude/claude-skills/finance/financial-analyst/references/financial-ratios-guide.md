@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # Financial Ratios Guide
 
 Comprehensive reference for financial ratio analysis covering formulas, interpretation, and industry benchmarks across five categories.
@@ -374,3 +381,9 @@ Measure a company's market value relative to financial metrics.
 5. **DuPont decomposition** - Break ROE into margin, turnover, and leverage components
 6. **Peer comparison** - Compare against direct competitors, not just broad benchmarks
 7. **Watch for manipulation** - Revenue recognition changes, off-balance-sheet items, and one-time adjustments can distort ratios
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

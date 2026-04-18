@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-squad
+---
+
 # Security Policy
 
 ## Reporting a Vulnerability
@@ -25,4 +32,11 @@ Please do not post undisclosed vulnerabilities in:
 - GitHub Issues
 - GitHub Discussions
 - Pull Requests
-- 
+-
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-squad]] — core-squad
+- [[MOC - Skills]] — Skills library
+

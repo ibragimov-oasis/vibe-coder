@@ -34,6 +34,10 @@ hooks:
     - "gh issue list --limit 3 --json number,title,state"
     - "git branch --show-current || echo 'Not on a branch'"
     - "gh repo view --json name,description"
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
 ---
 
 # Project Board Sync - GitHub Projects Integration
@@ -507,3 +511,10 @@ npx ruv-swarm github team-metrics \
 ```
 
 See also: [swarm-issue.md](./swarm-issue.md), [multi-repo-swarm.md](./multi-repo-swarm.md)
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

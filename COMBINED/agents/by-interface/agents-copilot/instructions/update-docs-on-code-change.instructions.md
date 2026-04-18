@@ -1,6 +1,10 @@
 ---
 description: 'Automatically update README.md and documentation files when application code changes require documentation updates'
 applyTo: '**/*.{md,js,mjs,cjs,ts,tsx,jsx,py,java,cs,go,rb,php,rs,cpp,c,h,hpp}'
+tags:
+  - domain/agents
+  - artifact/agent
+  - source/by-interface/agents-copilot
 ---
 
 # Update Documentation on Code Change
@@ -547,3 +551,9 @@ Before considering documentation complete, and concluding on the **final procedu
 - Consider documentation as part of feature completeness
 - Review documentation in code reviews
 - Make documentation easy to find and navigate
+
+## 🔗 Связи
+
+- [[MOC - Agents]] — Agent catalog
+- [[agents/agents-copilot]] — Interface: agents-copilot
+

@@ -1,6 +1,10 @@
 ---
 name: "V3 Memory Unification"
 description: "Unify 6+ memory systems into AgentDB with HNSW indexing for 150x-12,500x search improvements. Implements ADR-006 (Unified Memory Service) and ADR-009 (Hybrid Memory Backend)."
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
 ---
 
 # V3 Memory Unification
@@ -172,3 +176,10 @@ class SONAMemoryIntegration {
 - [ ] Backward compatibility maintained
 - [ ] SONA learning patterns integrated
 - [ ] Cross-agent memory sharing operational
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

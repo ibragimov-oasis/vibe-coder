@@ -2,6 +2,10 @@
 paths:
   - "**/*.kt"
   - "**/*.kts"
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
 ---
 
 # Kotlin 安全
@@ -81,3 +85,9 @@ fun findByName(input: String): List<ItemEntity>
 * 在 WebView 中加载 URL 前，先进行验证
 * 切勿暴露访问敏感数据的 `@JavascriptInterface` 方法
 * 使用 `WebViewClient.shouldOverrideUrlLoading()` 来控制导航
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

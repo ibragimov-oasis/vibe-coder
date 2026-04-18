@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # Leveraging Claude Code SDK for Real Features
 
 ## SDK Capabilities Analysis
@@ -674,3 +681,10 @@ async function benchmarkInProcess() {
 - Production hardening
 
 The SDK actually provides **90% of what we need** - we just need to use it correctly instead of reinventing it!
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

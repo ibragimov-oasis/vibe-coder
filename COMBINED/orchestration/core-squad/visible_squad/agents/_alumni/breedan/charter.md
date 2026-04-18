@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-squad
+---
+
 # Breedan — E2E Test Engineer (Terminal)
 
 ## Role
@@ -31,3 +38,10 @@ Terminal E2E test specialist. Owns the node-pty based test harness, Gherkin acce
 
 ## Model
 Preferred: auto
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/squad]] — Squad
+- [[000 - Map of Maps]] — Map of Maps
+

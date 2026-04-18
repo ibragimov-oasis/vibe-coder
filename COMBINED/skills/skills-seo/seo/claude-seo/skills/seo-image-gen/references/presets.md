@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/seo
+  - artifact/doc
+  - source/skills-seo
+---
+
 # Brand/Style Presets Reference
 
 > Load this on-demand when the user asks about presets or brand consistency.
@@ -67,3 +74,9 @@ presets.py create NAME --colors "#hex,#hex" --style "..." --mood "..."
 # Delete
 presets.py delete NAME --confirm
 ```
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-seo]] — Category: skills-seo
+

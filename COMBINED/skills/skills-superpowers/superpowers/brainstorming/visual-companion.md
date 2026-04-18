@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-superpowers
+---
+
 # Visual Companion Guide
 
 Browser-based visual brainstorming companion for showing mockups, diagrams, and options.
@@ -285,3 +292,9 @@ If the session used `--project-dir`, mockup files persist in `.superpowers/brain
 
 - Frame template (CSS reference): `scripts/frame-template.html`
 - Helper script (client-side): `scripts/helper.js`
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-superpowers]] — Category: skills-superpowers
+

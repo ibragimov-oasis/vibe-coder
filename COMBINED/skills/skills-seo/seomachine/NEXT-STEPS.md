@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/seo
+  - artifact/doc
+  - source/skills-seo
+---
+
 # Next Steps - Getting Started with SEO Machine
 
 ## Welcome! 🎉
@@ -234,3 +241,9 @@ Your system is complete. The next steps:
 **Questions?** Check README.md or create an issue on GitHub.
 
 **Happy Writing!** 📝
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-seo]] — Category: skills-seo
+

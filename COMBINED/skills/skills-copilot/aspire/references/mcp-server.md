@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-copilot
+---
+
 # MCP Server — Complete Reference
 
 Aspire exposes an **MCP (Model Context Protocol) server** that lets AI coding assistants query and control your running distributed application, and search Aspire documentation. This enables AI tools to inspect resource status, read logs, view traces, restart services, and look up docs — all from within the AI assistant's context.
@@ -193,3 +200,9 @@ If you run into issues, check the [open MCP issues on GitHub](https://github.com
 - [aspire mcp start command](https://aspire.dev/reference/cli/commands/aspire-mcp-start/)
 - [GitHub Copilot in the Dashboard](https://aspire.dev/dashboard/copilot/)
 - [How I taught AI to read Aspire docs](https://davidpine.dev/posts/aspire-docs-mcp-tools/)
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-copilot]] — Category: skills-copilot
+

@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/mcp
+  - artifact/mcp-server
+  - source/mcp-servers
+---
+
 # Knowledge Catalog MCP Server
 
 The Knowledge Catalog (formerly known as Dataplex) Model Context Protocol (MCP) Server gives AI-powered development tools the ability to work with your Google Cloud Knowledge Catalog. It supports searching and looking up entries and aspect types.
@@ -80,3 +87,9 @@ Add the following configuration to your MCP client (e.g., `settings.json` for Ge
 ## Documentation
 
 For more information, visit the [Knowledge Catalog documentation](https://cloud.google.com/dataplex/docs).
+
+## 🔗 Связи
+
+- [[MOC - MCP Servers]] — mcp-servers
+- [[000 - Map of Maps]] — Map of Maps
+

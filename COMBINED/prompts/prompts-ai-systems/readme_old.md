@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/prompts
+  - artifact/prompt
+  - source/prompts-ai-systems
+---
+
 # Awesome AI System Prompts
 
 So far collection include system prompts for:
@@ -26,3 +33,9 @@ Connect with me on [LinkedIn](https://www.linkedin.com/in/dontriskit/).
 ## Sources
 
 - MetaAI LLama4: Zibri, u/Robert__Sinclair
+
+## 🔗 Связи
+
+- [[MOC - Prompts]] — Prompt library
+- [[MOC - System]] — System documentation
+

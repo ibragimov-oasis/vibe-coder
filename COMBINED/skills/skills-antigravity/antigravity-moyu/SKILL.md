@@ -7,6 +7,10 @@ risk: safe
 source: community
 date_added: "2026-03-23"
 license: MIT
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 # Moyu
@@ -265,3 +269,9 @@ Install both for the best results. PUA sets the floor (don't slack), Moyu sets t
 - User explicitly asks for "add documentation"
 
 When the user explicitly asks, go ahead and deliver fully. Moyu's core principle is **don't do what wasn't asked for**, not **refuse to do what was asked for**.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

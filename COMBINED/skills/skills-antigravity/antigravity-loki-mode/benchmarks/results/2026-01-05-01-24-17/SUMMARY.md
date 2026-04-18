@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # Loki Mode Benchmark Results
 
 **Generated:** 2026-01-05 07:34:38
@@ -46,3 +53,9 @@ This mirrors real-world software development more accurately than single-agent a
 # Use different model
 ./benchmarks/run-benchmarks.sh humaneval --execute --model opus
 ```
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

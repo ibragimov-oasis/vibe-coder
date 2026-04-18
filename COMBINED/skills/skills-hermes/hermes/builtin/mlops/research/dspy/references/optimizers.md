@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-hermes
+---
+
 # DSPy Optimizers (Teleprompters)
 
 Complete guide to DSPy's optimization algorithms for improving prompts and model weights.
@@ -564,3 +571,9 @@ evaluator(optimized, devset=testset)
 - **Paper**: "DSPy: Compiling Declarative Language Model Calls into Self-Improving Pipelines"
 - **GitHub**: https://github.com/stanfordnlp/dspy
 - **Discord**: https://discord.gg/XCGy2WDCQB
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-hermes]] — Category: skills-hermes
+

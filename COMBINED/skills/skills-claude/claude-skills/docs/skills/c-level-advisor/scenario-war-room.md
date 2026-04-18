@@ -1,6 +1,10 @@
 ---
 title: "Scenario War Room — Agent Skill for Executives"
 description: "Cross-functional what-if modeling for cascading multi-variable scenarios. Unlike single-assumption stress testing, this models compound adversity. Agent skill for Claude Code, Codex CLI, Gemini CLI, OpenClaw."
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
 ---
 
 # Scenario War Room
@@ -224,3 +228,9 @@ RECOMMENDED DECISION
 ## References
 - `references/scenario-planning.md` — Shell methodology, pre-mortem, Monte Carlo, cascade frameworks
 - `scripts/scenario_modeler.py` — CLI tool for structured scenario modeling
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

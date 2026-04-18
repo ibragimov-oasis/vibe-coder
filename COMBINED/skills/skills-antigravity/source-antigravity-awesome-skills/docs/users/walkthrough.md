@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # Walkthrough: Release v8.2.0 Maintenance Sweep
 
 ## Overview
@@ -44,3 +51,9 @@ This walkthrough captures the maintainer-side documentation and release publicat
 
 - Documentation, changelog, and generated metadata all agree on the release state.
 - The repository published the `v8.2.0` tag and GitHub release successfully.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

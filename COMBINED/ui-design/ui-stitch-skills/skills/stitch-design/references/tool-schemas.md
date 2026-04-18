@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/ui
+  - artifact/ui-component
+  - source/ui-design
+---
+
 # Stitch MCP Tool Schemas
 
 Use these examples to format your tool calls to the Stitch MCP server correctly.
@@ -74,3 +81,9 @@ Retrieves details of a specific screen.
   "name": "projects/4044680601076201931/screens/98b50e2ddc9943efb387052637738f61"
 }
 ```
+
+## 🔗 Связи
+
+- [[MOC - UI Design]] — ui-design
+- [[000 - Map of Maps]] — Map of Maps
+

@@ -3,6 +3,9 @@ name: light-leaks
 description: Light leak overlay effects for Remotion using @remotion/light-leaks.
 metadata:
   tags: light-leaks, overlays, effects, transitions
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-archon
 ---
 
 ## Light Leaks
@@ -71,3 +74,10 @@ const MyComp: React.FC = () => (
   </AbsoluteFill>
 );
 ```
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/archon]] — Archon
+- [[000 - Map of Maps]] — Map of Maps
+

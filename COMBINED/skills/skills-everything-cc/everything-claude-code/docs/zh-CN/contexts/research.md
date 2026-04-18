@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
+---
+
 # 研究背景
 
 模式：探索、调查、学习
@@ -28,3 +35,9 @@
 ## 输出
 
 先呈现发现，后提出建议
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

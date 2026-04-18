@@ -1,6 +1,10 @@
 ---
 name: go-mcp-server-generator
 description: 'Generate a complete Go MCP server project with proper structure, dependencies, and implementation using the official github.com/modelcontextprotocol/go-sdk.'
+tags:
+  - domain/agents
+  - artifact/skill
+  - source/skills-copilot
 ---
 
 # Go MCP Server Project Generator
@@ -332,3 +336,10 @@ When generating a Go MCP server:
 - Keep main.go minimal, logic in packages
 - Write tests for tool handlers
 - Document all exported functions
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-copilot]] — Category: skills-copilot
+- [[MOC - Agents]] — Copilot agents
+

@@ -2,6 +2,10 @@
 paths:
   - "**/*.php"
   - "**/composer.json"
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
 ---
 
 # PHP 编码风格
@@ -39,3 +43,9 @@ paths:
 ## 参考
 
 有关更广泛的服务/仓库分层指导，请参阅技能：`backend-patterns`。
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

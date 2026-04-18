@@ -3,6 +3,10 @@ name: apify-ultimate-scraper
 description: "AI-driven data extraction from 55+ Actors across all major platforms. This skill automatically selects the best Actor for your task."
 risk: unknown
 source: community
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 # Universal Web Scraper
@@ -229,3 +233,9 @@ After completion, report:
 `Actor not found` - Check Actor ID spelling
 `Run FAILED` - Ask user to check Apify console link in error output
 `Timeout` - Reduce input size or increase `--timeout`
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

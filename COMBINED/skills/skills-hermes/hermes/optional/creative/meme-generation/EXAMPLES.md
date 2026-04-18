@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-hermes
+---
+
 # Meme Generation Examples
 
 ## Example 1: Debugging at 2 AM
@@ -44,3 +51,9 @@ python generate_meme.py expanding-brain /tmp/meme.png "Reading the docs" "Stack 
 ```bash
 python generate_meme.py change-my-mind /tmp/meme.png "Tabs are just thicc spaces"
 ```
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-hermes]] — Category: skills-hermes
+

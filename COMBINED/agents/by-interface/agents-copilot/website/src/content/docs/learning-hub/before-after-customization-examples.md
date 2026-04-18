@@ -14,6 +14,9 @@ relatedArticles:
   - ./what-are-agents-skills-instructions.md
   - ./creating-effective-skills.md
   - ./defining-custom-instructions.md
+  - domain/agents
+  - artifact/agent
+  - source/by-interface/agents-copilot
 ---
 
 The power of GitHub Copilot customization becomes clear when you see concrete examples of how agents, skills, and instructions transform everyday development workflows. This article presents real-world scenarios showing the dramatic difference between default Copilot behavior and customized experiences that align with your team's standards, tools, and practices.
@@ -592,4 +595,8 @@ The investment in creating customizations pays dividends through:
 - Reduced onboarding time for new team members
 - Better security and maintainability
 
+## 🔗 Связи
+
+- [[MOC - Agents]] — Agent catalog
+- [[agents/agents-copilot]] — Interface: agents-copilot
 

@@ -3,6 +3,9 @@ title: Choose the Right Index Type for Your Data
 impact: HIGH
 impactDescription: 10-100x improvement with correct index type
 tags: indexes, btree, gin, brin, hash, index-types
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
 ---
 
 ## Choose the Right Index Type for Your Data
@@ -43,3 +46,9 @@ create index sessions_token_idx on sessions using hash (token);
 ```
 
 Reference: [Index Types](https://www.postgresql.org/docs/current/indexes-types.html)
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

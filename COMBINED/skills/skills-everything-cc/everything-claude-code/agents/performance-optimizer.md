@@ -3,6 +3,10 @@ name: performance-optimizer
 description: Performance analysis and optimization specialist. Use PROACTIVELY for identifying bottlenecks, optimizing slow code, reducing bundle sizes, and improving runtime performance. Profiling, memory leaks, render optimization, and algorithmic improvements.
 tools: ["Read", "Write", "Edit", "Bash", "Grep", "Glob"]
 model: sonnet
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
 ---
 
 # Performance Optimizer
@@ -444,3 +448,9 @@ const fastCode = ...;
 ---
 
 **Remember**: Performance is a feature. Users notice speed. Every 100ms of improvement matters. Optimize for the 90th percentile, not the average.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

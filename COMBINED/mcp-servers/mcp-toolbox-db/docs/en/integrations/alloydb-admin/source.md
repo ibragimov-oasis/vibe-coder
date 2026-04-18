@@ -5,6 +5,10 @@ type: docs
 weight: 1
 description: "The \"alloydb-admin\" source provides a client for the AlloyDB API.\n"
 no_list: true
+tags:
+  - domain/mcp
+  - artifact/mcp-server
+  - source/mcp-servers
 ---
 
 ## About
@@ -46,3 +50,9 @@ useClientOAuth: true
 | type           |  string  |     true     | Must be "alloydb-admin".                                                                                                                       |
 | defaultProject |  string  |     false    | The Google Cloud project ID to use for AlloyDB infrastructure tools.                                                                           |
 | useClientOAuth |  boolean |     false    | If true, the source will use client-side OAuth for authorization. Otherwise, it will use Application Default Credentials. Defaults to `false`. |
+
+## 🔗 Связи
+
+- [[MOC - MCP Servers]] — mcp-servers
+- [[000 - Map of Maps]] — Map of Maps
+

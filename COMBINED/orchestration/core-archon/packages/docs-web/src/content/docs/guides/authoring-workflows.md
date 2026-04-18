@@ -7,6 +7,10 @@ audience: [user]
 status: current
 sidebar:
   order: 1
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-archon
 ---
 
 This guide explains how to create workflows that orchestrate multiple commands into automated pipelines. Read [Authoring Commands](/guides/authoring-commands/) first — workflows are built from commands.
@@ -1126,3 +1130,10 @@ Before deploying a workflow:
 17. **Loop nodes** — use `loop:` within a DAG node for iterative execution until completion signal
 18. **Defaults as templates** — browse `.archon/workflows/defaults/` for real examples to copy and modify
 19. **Test thoroughly** — each command, the artifact flow, and edge cases
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/archon]] — Archon
+- [[000 - Map of Maps]] — Map of Maps
+

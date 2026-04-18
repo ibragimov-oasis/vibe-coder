@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
+---
+
 # パフォーマンス最適化
 
 ## モデル選択戦略
@@ -53,3 +60,9 @@
 2. エラーメッセージを分析
 3. 段階的に修正
 4. 各修正後に検証
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

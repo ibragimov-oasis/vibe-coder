@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/mcp
+  - artifact/mcp-server
+  - source/mcp-servers
+---
+
 ## Personal Thoughts, In No Particular Order
 
 - My personal desire is to see end-developers being empowered to make all the layouts that makes UI more expressive, without sacrificing maintainability & performance, and without having to wait for permissions from the web committee. The current UI stereotypes across all platforms has been either:
@@ -15,3 +22,9 @@
 - It's very hard to have new competing web browser implementations, because the specs are gigantic, and many engines (grassroot efforts, gamers-driven rewrites, languages-driven rewrites, etc.) eagerly chase & premature perf improvements before realizing that the specs, often written decades ago and disregarding modern perf & feature needs,  throw a wrench in those architectures. As a first approximation, UI performance & developer ergonomics _cannot_ possibly have an order of magnitude improvement, because the bottleneck is in the specs themselves. The only way to circumvent this is to bring more capabilities to userland, in a hope to stop the spec from over-growing even more in the future. Stopping spec complexity is something every browser vendor can agree on (and ironically, sometime for completely opposing reasons).
 
 - The cost of any verifiable software will trend toward 0
+
+## 🔗 Связи
+
+- [[MOC - MCP Servers]] — mcp-servers
+- [[000 - Map of Maps]] — Map of Maps
+

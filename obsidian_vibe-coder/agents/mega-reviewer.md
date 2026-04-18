@@ -59,3 +59,9 @@ RuFlo + OMC + Superpowers + **code-review-graph (8.2x token reduction, blast-rad
 ## Исходник
 
 > 📂 `../COMBINED/agents/mega/mega-reviewer.md`
+
+## 🔗 Связи
+
+- [[MOC - Agents]] — Parent MOC
+- [[000 - Map of Maps]] — Map of Maps
+

@@ -1,6 +1,10 @@
 ---
 name: presentation-structure
 description: Knowledge about the presentation slide format, weight system, navigation, and section structure
+tags:
+  - domain/agents
+  - artifact/skill
+  - source/skills-claude
 ---
 
 # Presentation Structure Skill
@@ -87,3 +91,10 @@ Section dividers use the `section-slide` class. Level-transition section divider
 ```
 
 The JS will inject a `.level-badge` (e.g., "→ Low") into the `<h1>` at runtime when the level transitions — do not add these manually in HTML.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+- [[MOC - Agents]] — Claude agents
+

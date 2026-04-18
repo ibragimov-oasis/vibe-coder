@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-cc-connect
+---
+
 # Feishu Delete Card Implementation Plan
 
 > **For Claude:** REQUIRED SUB-SKILL: Use superpowers:executing-plans to implement this plan task-by-task.
@@ -173,3 +180,10 @@ Expected: PASS
 
 Run: `go test ./...`
 Expected: PASS
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/cc-connect]] — CC-Connect
+- [[000 - Map of Maps]] — Map of Maps
+

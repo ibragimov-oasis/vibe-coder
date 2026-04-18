@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/command
+  - source/commands
+---
+
 # model-update
 
 Update neural models with new data.
@@ -23,3 +30,9 @@ npx claude-flow training model-update --model agent-selector
 # Incremental with validation
 npx claude-flow training model-update --incremental --validate
 ```
+
+## 🔗 Связи
+
+- [[MOC - System]] — commands
+- [[000 - Map of Maps]] — Map of Maps
+

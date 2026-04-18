@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/memory
+  - artifact/memory
+  - source/memory
+---
+
 # Version Consistency Fix (Issue #XXX)
 
 ## Problem
@@ -77,3 +84,9 @@ console.log('Worker:', workerMatch ? workerMatch[1] : 'NOT_FOUND');
 - **Version Check**: `src/services/infrastructure/HealthMonitor.ts` line 133-143
 - **Auto-Restart Logic**: `src/services/worker-service.ts` line 627-645
 - **Runtime Version Read**: `src/shared/worker-utils.ts` line 73-76, 82-91
+
+## 🔗 Связи
+
+- [[MOC - Memory]] — memory
+- [[000 - Map of Maps]] — Map of Maps
+

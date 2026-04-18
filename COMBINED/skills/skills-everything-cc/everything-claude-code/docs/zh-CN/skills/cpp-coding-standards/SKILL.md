@@ -2,6 +2,10 @@
 name: cpp-coding-standards
 description: 基于C++核心指南（isocpp.github.io）的C++编码标准。在编写、审查或重构C++代码时使用，以强制实施现代、安全和惯用的实践。
 origin: ECC
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-everything-cc
 ---
 
 # C++ 编码标准（C++ 核心准则）
@@ -721,3 +725,9 @@ std::vector<std::unique_ptr<Point>> indirect_points; // BAD: pointer chasing
 * \[ ] 异常是自定义类型，按值抛出，按引用捕获 (E.14, E.15)
 * \[ ] 使用 `'\n'` 而非 `std::endl` (SL.io.50)
 * \[ ] 没有魔数 (ES.45)
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

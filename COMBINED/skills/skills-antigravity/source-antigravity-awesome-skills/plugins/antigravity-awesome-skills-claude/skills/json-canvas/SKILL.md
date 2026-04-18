@@ -4,6 +4,10 @@ description: Create and edit JSON Canvas files (.canvas) with nodes, edges, grou
 risk: unknown
 source: "https://github.com/kepano/obsidian-skills"
 date_added: "2026-03-21"
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 # JSON Canvas Skill
@@ -251,3 +255,9 @@ See [references/EXAMPLES.md](references/EXAMPLES.md) for full canvas examples in
 
 - [JSON Canvas Spec 1.0](https://jsoncanvas.org/spec/1.0/)
 - [JSON Canvas GitHub](https://github.com/obsidianmd/jsoncanvas)
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

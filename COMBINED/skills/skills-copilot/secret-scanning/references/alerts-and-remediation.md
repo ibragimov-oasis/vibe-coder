@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-copilot
+---
+
 # Alerts and Remediation Reference
 
 Detailed reference for secret scanning alert types, validity checks, remediation workflows, and API access.
@@ -243,3 +250,9 @@ paths-ignore:
 - Excluded paths are also excluded from push protection
 
 **Alerts for excluded paths are closed as "ignored by configuration."**
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-copilot]] — Category: skills-copilot
+

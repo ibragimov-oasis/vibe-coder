@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/config
+  - source/workspace-config
+---
+
 # Analysis Swarm Strategy
 
 ## Purpose
@@ -93,3 +100,9 @@ mcp__claude-flow__task_results({
   "taskId": "analysis-task-001"
 })
 ```
+
+## 🔗 Связи
+
+- [[MOC - System]] — workspace-config
+- [[000 - Map of Maps]] — Map of Maps
+

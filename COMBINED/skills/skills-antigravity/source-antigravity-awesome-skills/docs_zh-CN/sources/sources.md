@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # 📜 来源与归属
 
 我们相信应该给予应得的荣誉。
@@ -235,3 +242,9 @@
 - 💬 [GitHub Discussions](https://github.com/sickn33/antigravity-awesome-skills/discussions)
 
 我们致力于确保每个贡献都得到适当的认可和尊重。感谢您为AI开发社区做出的贡献！🙏
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

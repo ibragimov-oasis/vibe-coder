@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-archon
+---
+
 # Claude Code Latest Features Workshop Guide
 
 **Host**: Thomas | **Date**: March 7, 2026
@@ -582,3 +589,10 @@ Print this out or keep it on screen:
 - [Claude Code on the Web](https://code.claude.com/docs/en/claude-code-on-the-web)
 - [Common Workflows (Worktrees)](https://code.claude.com/docs/en/common-workflows)
 - [Building a C Compiler -- Anthropic Blog](https://www.anthropic.com/engineering/building-c-compiler)
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/archon]] — Archon
+- [[000 - Map of Maps]] — Map of Maps
+

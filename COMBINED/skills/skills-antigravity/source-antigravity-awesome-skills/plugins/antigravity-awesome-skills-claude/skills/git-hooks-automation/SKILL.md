@@ -4,6 +4,10 @@ description: "Master Git hooks setup with Husky, lint-staged, pre-commit framewo
 risk: safe
 source: community
 date_added: "2026-03-07"
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 # Git Hooks Automation
@@ -414,3 +418,9 @@ echo "npx --no -- commitlint --edit \$1" > .husky/commit-msg
 - `@verification-before-completion` - Verification before claiming work is done
 - `@bash-pro` - Advanced shell scripting for custom hooks
 - `@github-actions-templates` - CI/CD workflow templates
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

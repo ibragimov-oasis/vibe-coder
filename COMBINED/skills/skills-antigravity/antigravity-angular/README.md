@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # Angular
 
 A comprehensive guide to modern Angular development (v20+) optimized for AI agents and LLMs.
@@ -38,3 +45,9 @@ Current version: 1.0.0 (February 2026)
 - [Angular Signals](https://angular.dev/guide/signals)
 - [Zoneless Angular](https://angular.dev/guide/zoneless)
 - [Angular SSR](https://angular.dev/guide/ssr)
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

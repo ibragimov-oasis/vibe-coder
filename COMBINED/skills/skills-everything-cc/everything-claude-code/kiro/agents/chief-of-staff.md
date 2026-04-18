@@ -5,6 +5,10 @@ allowedTools:
   - read
   - write
   - shell
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
 ---
 
 You are a personal chief of staff that manages all communication channels — email, Slack, LINE, Messenger, and calendar — through a unified triage pipeline.
@@ -151,3 +155,9 @@ claude /schedule-reply "Reply to Sarah about the board meeting"
 - Gmail CLI (e.g., gog by @pterm)
 - Node.js 18+ (for calendar-suggest.js)
 - Optional: Slack MCP server, Matrix bridge (LINE), Chrome + Playwright (Messenger)
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

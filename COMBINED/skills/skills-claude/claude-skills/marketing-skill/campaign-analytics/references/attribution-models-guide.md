@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # Attribution Models Guide
 
 Comprehensive reference for multi-touch attribution modeling in marketing analytics. This guide covers the five standard attribution models, their mathematical foundations, selection criteria, and practical application guidelines.
@@ -283,3 +290,9 @@ When models disagree significantly on a channel's value:
 - Facebook/Meta attribution window settings and their impact
 - HubSpot multi-touch revenue attribution methodology
 - Bizible/Marketo B2B attribution best practices
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

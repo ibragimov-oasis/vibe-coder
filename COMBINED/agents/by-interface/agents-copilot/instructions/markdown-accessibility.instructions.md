@@ -1,6 +1,10 @@
 ---
 description: 'Markdown accessibility guidelines based on GitHub''s 5 best practices for inclusive documentation'
 applyTo: '**/*.md'
+tags:
+  - domain/agents
+  - artifact/agent
+  - source/by-interface/agents-copilot
 ---
 
 # Markdown Accessibility Review Guidelines
@@ -69,3 +73,9 @@ When multiple issues exist, prioritize in this order:
 - Explain the accessibility impact of each issue, specifying which users are affected (e.g., screen reader users, people with cognitive disabilities, non-native speakers).
 - Do not remove personality or voice from the writing. Accessibility and engaging content are not mutually exclusive.
 - Keep suggestions actionable and specific.
+
+## 🔗 Связи
+
+- [[MOC - Agents]] — Agent catalog
+- [[agents/agents-copilot]] — Interface: agents-copilot
+

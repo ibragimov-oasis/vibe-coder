@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-squad
+---
+
 # Contributors
 
 Squad is built by contributors from across the open source community. Thank you.
@@ -131,3 +138,9 @@ These community members shaped Squad through issues, discussions, and feedback. 
 Contributing code? See [CONTRIBUTING.md](CONTRIBUTING.md) for the full guide.
 
 Questions? [GitHub Discussions](https://github.com/bradygaster/squad/discussions).
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-squad]] — core-squad
+

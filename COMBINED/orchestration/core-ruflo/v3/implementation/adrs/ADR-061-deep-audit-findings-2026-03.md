@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # ADR-061: Deep System Audit Findings — v3.5.7
 
 **Date:** 2026-03-05
@@ -169,3 +176,10 @@ Document all actionable findings from the deep system audit. File size (>500 lin
 - Test suite expanded from 441 → ~1,600 tests across 22 files (all passing)
 - Security audit score: 6.5/10 — strong in daemon/session/git areas, weak in GCS/plugin shell usage
 - 10 security controls verified working (path traversal, git ref, argument-array spawn, no secrets)
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # workflow-create
 
 Create reusable workflow templates.
@@ -23,3 +30,10 @@ npx claude-flow workflow create --name "test-suite" --from-history
 # Interactive mode
 npx claude-flow workflow create --interactive
 ```
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

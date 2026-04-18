@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-vibe-kanban
+---
+
 # Testing on Mobile Devices
 
 This guide explains how to access the remote-web frontend from a phone (iPhone/Android) for UI testing. It uses [Tailscale](https://tailscale.com) for stable networking and HTTPS certificates, and [Caddy](https://caddyserver.com) as a reverse proxy — no custom IPs, no random URLs, works on any network.
@@ -310,3 +317,9 @@ echo "https://$TS_HOSTNAME:3001"
 | Dev mode: Vite page loads but API calls fail | Make sure Docker is running (`pnpm remote:dev`) and you're using `Caddyfile.dev` (not `Caddyfile`) |
 | Dev mode: hot reload doesn't work on phone | Vite HMR uses WebSocket — verify Caddy is proxying to `localhost:3002` (not `127.0.0.1:3002`). Regenerate `Caddyfile.dev` if needed |
 | Dev mode: blank page or 502 on phone | Vite dev server may not be running. Check Terminal 2 is up with `pnpm --filter @vibe/remote-web dev` |
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-vibe-kanban]] — core-vibe-kanban
+

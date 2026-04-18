@@ -1,5 +1,9 @@
 ---
 description: Impõe fluxo de desenvolvimento orientado a testes. Estruture interfaces, gere testes PRIMEIRO e depois implemente código mínimo para passar. Garanta cobertura de 80%+.
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
 ---
 
 # Comando TDD
@@ -326,3 +330,9 @@ A skill relacionada `tdd-workflow` também é distribuída com o ECC.
 Para instalações manuais, os arquivos fonte ficam em:
 - `agents/tdd-guide.md`
 - `skills/tdd-workflow/SKILL.md`
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

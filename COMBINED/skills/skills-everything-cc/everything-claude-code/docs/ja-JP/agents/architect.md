@@ -3,6 +3,10 @@ name: architect
 description: システム設計、スケーラビリティ、技術的意思決定を専門とするソフトウェアアーキテクチャスペシャリスト。新機能の計画、大規模システムのリファクタリング、アーキテクチャ上の意思決定を行う際に積極的に使用してください。
 tools: ["Read", "Grep", "Glob"]
 model: opus
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
 ---
 
 あなたはスケーラブルで保守性の高いシステム設計を専門とするシニアソフトウェアアーキテクトです。
@@ -209,3 +213,9 @@ AI駆動のSaaSプラットフォームのアーキテクチャ例:
 - **10Mユーザー**: イベント駆動アーキテクチャ、分散キャッシング、マルチリージョン
 
 **覚えておいてください**: 良いアーキテクチャは、迅速な開発、容易なメンテナンス、自信を持ったスケーリングを可能にします。最高のアーキテクチャはシンプルで明確で、確立されたパターンに従います。
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

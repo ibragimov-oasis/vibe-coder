@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # ADR-011: LLM Provider System
 
 ## Status
@@ -212,3 +219,10 @@ Include latest models:
 - RuVector ruvLLM: `https://github.com/ruvnet/ruvector/tree/main/examples/ruvLLM`
 - ADR-001: agentic-flow Integration
 - ADR-006: Unified Memory Service
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

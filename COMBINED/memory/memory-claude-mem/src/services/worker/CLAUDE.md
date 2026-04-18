@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/memory
+  - artifact/memory
+  - source/memory
+---
+
 <claude-mem-context>
 # Recent Activity
 
@@ -121,3 +128,9 @@
 |----|------|---|-------|------|
 | #36853 | 1:49 AM | 🔵 | GeminiAgent Implementation Reviewed for Model Support | ~555 |
 </claude-mem-context>
+
+## 🔗 Связи
+
+- [[MOC - Memory]] — memory
+- [[000 - Map of Maps]] — Map of Maps
+

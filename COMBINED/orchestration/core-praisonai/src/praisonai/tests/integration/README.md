@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-praisonai
+---
+
 # Integration Tests
 
 This directory contains integration tests for PraisonAI that verify functionality across different frameworks and external dependencies.
@@ -279,4 +286,10 @@ Generate detailed coverage:
 python tests/test_runner.py --pattern frameworks --coverage
 ```
 
-This will show which integration test code paths are covered and highlight areas needing additional testing. 
+This will show which integration test code paths are covered and highlight areas needing additional testing.
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-praisonai]] — core-praisonai
+

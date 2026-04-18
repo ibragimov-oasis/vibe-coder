@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # Helm
 
 <Tip warning={true}>
@@ -41,3 +48,10 @@ envVars:
 ```
 
 See the [configuration overview](../configuration/overview) for all available environment variables.
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

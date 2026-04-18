@@ -4,6 +4,10 @@ description: "Fetch any X/Twitter post as clean LLM-friendly JSON. Converts x.co
 risk: safe
 source: community
 date_added: "2026-03-25"
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 # ADHX - X/Twitter Post Reader
@@ -125,3 +129,9 @@ User: "How many likes did this tweet get? https://x.com/handle/status/123"
 
 - [ADHX GitHub Repository](https://github.com/itsmemeworks/adhx)
 - [ADHX Website](https://adhx.com)
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

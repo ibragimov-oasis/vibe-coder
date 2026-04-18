@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-cc-connect
+---
+
 # Session Resilience Implementation Plan
 
 > **For Claude:** REQUIRED SUB-SKILL: Use superpowers-extended-cc:executing-plans to implement this plan task-by-task.
@@ -791,3 +798,10 @@ Verify the commit sequence matches the plan:
 ```bash
 git add -A && git commit -m "fix: address issues found during integration verification"
 ```
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/cc-connect]] — CC-Connect
+- [[000 - Map of Maps]] — Map of Maps
+

@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-copilot
+---
+
 # Azure Dynamic Sources Registry
 
 This file manages **only the sources (URLs) for frequently changing information**.
@@ -91,3 +98,9 @@ The sources below are for **reference only**. The primary source is always MS Do
 | Region availability | **Always fetch** | Per-service region support changes frequently. Always verify that the user-specified region is available for the service |
 | PE groupId & DNS Zone | Can reference `service-gotchas.md` for v1 key services; **must fetch for new services or complex configurations (Monitor, etc.)** | Key service mappings are stable, but new/complex services are risky |
 | Required property patterns | Reference files first | Near-immutable (isHnsEnabled, etc.) |
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-copilot]] — Category: skills-copilot
+

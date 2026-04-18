@@ -2,6 +2,10 @@
 name: deployment-patterns
 description: Deployment iş akışları, CI/CD pipeline kalıpları, Docker konteynerizasyonu, sağlık kontrolleri, rollback stratejileri ve web uygulamaları için üretim hazırlığı kontrol listeleri.
 origin: ECC
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-everything-cc
 ---
 
 # Deployment Kalıpları
@@ -425,3 +429,9 @@ Herhangi bir üretim deployment'ından önce:
 - [ ] Veritabanı migration'ı üretim boyutundaki veriye karşı test edilmiş
 - [ ] Yaygın hata senaryoları için runbook
 - [ ] Nöbet rotasyonu ve yükseltme yolu tanımlanmış
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

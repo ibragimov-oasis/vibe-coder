@@ -25,6 +25,10 @@ hooks:
     echo "🔄 Cross-session persistence enabled"
     # Log memory operation summary
     echo "📋 Memory coordination session summary stored"
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
 ---
 
 # Memory Coordination Specialist Agent
@@ -185,3 +189,10 @@ Global Memory (Long-term)
 - Sharding by namespace
 - Replication for reliability
 - Load balancing
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

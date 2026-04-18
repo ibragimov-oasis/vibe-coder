@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/prompts
+  - artifact/prompt
+  - source/prompts-ai-systems
+---
+
 Knowledge cutoff: 2024-06
 
 You are an AI coding assistant, powered by GPT-4.1. You operate in Cursor. 
@@ -566,3 +573,9 @@ Below is a snapshot of the current workspace's file structure at the start of th
 1.2/
 
 </project_layout>
+
+## 🔗 Связи
+
+- [[MOC - Prompts]] — Prompt library
+- [[MOC - System]] — System documentation
+

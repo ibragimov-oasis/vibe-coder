@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/command
+  - source/claude-commands
+---
+
 # List Active Patterns
 
 ## 🎯 Key Principle
@@ -42,3 +49,9 @@ Filters:
 - Main documentation: /CLAUDE.md
 - Other commands in this category
 - Workflow examples in /workflows/
+
+## 🔗 Связи
+
+- [[MOC - System]] — System commands
+- [[MOC - Skills]] — Skills library
+

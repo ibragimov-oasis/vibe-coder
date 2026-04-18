@@ -1,6 +1,10 @@
 ---
 title: "Paid Ads — Agent Skill for Marketing"
 description: "When the user wants help with paid advertising campaigns on Google Ads, Meta (Facebook/Instagram), LinkedIn, Twitter/X, or other ad platforms. Also. Agent skill for Claude Code, Codex CLI, Gemini CLI, OpenClaw."
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
 ---
 
 # Paid Ads
@@ -350,3 +354,9 @@ Always confirm conversion tracking is in place before recommending creative or t
 | Audience Targeting Brief | Primary audiences, lookalike seeds, retargeting segments, and exclusion lists per platform |
 | Pre-Launch Checklist | Platform-specific tracking verification, landing page audit, and UTM parameter setup |
 | Weekly Optimization Report Template | Metrics dashboard structure with CPA/ROAS targets, fatigue signals, and decision triggers |
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

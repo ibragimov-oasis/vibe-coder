@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-squad
+---
+
 # Issue-Driven Development with Squad
 
 > ⚠️ **Experimental** — Squad is alpha software. APIs, commands, and behavior may change between releases.
@@ -198,3 +205,10 @@ graph LR
 - **Review feedback is incremental.** Agents push new commits — no force-pushes, no new PRs.
 - **Decisions accumulate during issue work.** Agents record choices that carry forward across the backlog.
 - **Work multiple issues in parallel.** Say `"Work on #12 and #18"` and each agent gets its own branch.
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/squad]] — Squad
+- [[000 - Map of Maps]] — Map of Maps
+

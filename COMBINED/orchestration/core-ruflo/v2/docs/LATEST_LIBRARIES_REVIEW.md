@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # Latest Agentic-Flow & AgentDB Libraries Review
 **Date:** 2025-10-25
 **Reviewer:** Claude Code (Claude Sonnet 4.5)

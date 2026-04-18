@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
+---
+
 # Agent 協調
 
 ## 可用 Agents
@@ -47,3 +54,9 @@
 - 安全專家
 - 一致性審查者
 - 冗餘檢查者
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

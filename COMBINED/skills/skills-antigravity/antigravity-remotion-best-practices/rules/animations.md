@@ -3,6 +3,9 @@ name: animations
 description: Fundamental animation skills for Remotion
 metadata:
   tags: animations, transitions, frames, useCurrentFrame
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
 ---
 
 All animations MUST be driven by the `useCurrentFrame()` hook.  
@@ -26,4 +29,10 @@ export const FadeIn = () => {
 ```
 
 CSS transitions or animations are FORBIDDEN - they will not render correctly.  
-Tailwind animation class names are FORBIDDEN - they will not render correctly.  
+Tailwind animation class names are FORBIDDEN - they will not render correctly.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

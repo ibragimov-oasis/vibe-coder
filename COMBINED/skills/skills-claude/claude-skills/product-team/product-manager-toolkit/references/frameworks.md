@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # Product Management Frameworks
 
 Comprehensive reference for prioritization, discovery, and measurement frameworks.
@@ -557,3 +564,9 @@ OUR PRODUCT learns your interests and filters automatically
 ---
 
 *Last Updated: January 2025*
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

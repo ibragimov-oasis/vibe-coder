@@ -3,6 +3,9 @@ name: measuring-text
 description: Measuring text dimensions, fitting text to containers, and checking overflow
 metadata:
   tags: measure, text, layout, dimensions, fitText, fillTextBox
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-archon
 ---
 
 # Measuring text in Remotion
@@ -138,3 +141,10 @@ return <div style={fontStyle}>Hello</div>;
 ```tsx
 <div style={{ outline: "2px solid red" }}>Text</div>
 ```
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/archon]] — Archon
+- [[000 - Map of Maps]] — Map of Maps
+

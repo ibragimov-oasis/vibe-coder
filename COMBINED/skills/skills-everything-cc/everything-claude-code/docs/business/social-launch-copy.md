@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
+---
+
 # Social Launch Copy (X + LinkedIn)
 
 Use these templates as launch-ready starting points. Replace placeholders before posting.
@@ -60,3 +67,9 @@ Highlights:
 
 If your team runs AI coding agents daily, this is designed for operational use.
 ```
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

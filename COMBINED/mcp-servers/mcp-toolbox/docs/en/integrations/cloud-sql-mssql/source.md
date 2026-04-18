@@ -6,6 +6,10 @@ weight: 1
 description: >
   Cloud SQL for SQL Server is a fully-managed database service for SQL Server.
 no_list: true
+tags:
+  - domain/mcp
+  - artifact/mcp-server
+  - source/mcp-servers
 ---
 
 ## About
@@ -111,3 +115,9 @@ instead of hardcoding your secrets into the configuration file.
 | user      |  string  |     true     | Name of the SQL Server user to connect as (e.g. "my-pg-user").                                       |
 | password  |  string  |     true     | Password of the SQL Server user (e.g. "my-password").                                                |
 | ipType    |  string  |    false     | IP Type of the Cloud SQL instance, must be either `public`,  `private`, or `psc`. Default: `public`. |
+
+## 🔗 Связи
+
+- [[MOC - MCP Servers]] — mcp-servers
+- [[000 - Map of Maps]] — Map of Maps
+

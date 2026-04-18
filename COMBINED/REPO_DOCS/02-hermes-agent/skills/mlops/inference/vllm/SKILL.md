@@ -363,5 +363,8 @@ Supported platforms: NVIDIA (primary), AMD ROCm, Intel GPUs, TPUs
 - Paper: "Efficient Memory Management for Large Language Model Serving with PagedAttention" (SOSP 2023)
 - Community: https://discuss.vllm.ai
 
+## 🔗 Связи
 
+- [[000 - Map of Maps]] — REPO_DOCS
+- [[000 - Map of Maps]] — Map of Maps
 

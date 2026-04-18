@@ -1,5 +1,9 @@
 ---
 description: Review, validate, and merge GitHub pull requests or triage issues
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-praisonai
 ---
 
 # PR / Issue Review Workflow
@@ -273,3 +277,10 @@ find $(python -c "import site; print(site.getsitepackages()[0])") -name "<suspic
 | Create PR | `gh pr create --title "..." --body "..." --head <branch> --base main` |
 | Run tests | `cd src/praisonai-agents && python -m pytest tests/ -q --tb=no` |
 | Check dep version | `pip show <package>` |
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/praisonai]] — PraisonAI
+- [[000 - Map of Maps]] — Map of Maps
+

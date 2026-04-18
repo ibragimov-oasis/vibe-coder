@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # Product Requirements Document (PRD) Templates
 
 ## Standard PRD Template
@@ -315,3 +322,9 @@ We'll know we're right when [we see this metric]*
 2. [ ] Design exploration
 3. [ ] Technical spike
 4. [ ] Stakeholder review
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

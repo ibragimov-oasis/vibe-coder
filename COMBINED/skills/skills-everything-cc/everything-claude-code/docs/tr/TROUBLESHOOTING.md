@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
+---
+
 # Sorun Giderme Rehberi
 
 Everything Claude Code (ECC) eklentisi için yaygın sorunlar ve çözümler.
@@ -420,3 +427,9 @@ Hala sorunlar yaşıyorsanız:
 - [CONTRIBUTING.md](./CONTRIBUTING.md) - Geliştirme rehberleri
 - [docs/](../) - Detaylı dokümantasyon
 - [examples/](./examples/) - Kullanım örnekleri
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

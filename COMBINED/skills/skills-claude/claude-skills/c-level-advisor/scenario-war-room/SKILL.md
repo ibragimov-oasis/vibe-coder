@@ -10,6 +10,10 @@ metadata:
   updated: 2026-03-05
   python-tools: scenario_modeler.py
   frameworks: scenario-planning
+tags:
+  - domain/agents
+  - artifact/skill
+  - source/skills-claude
 ---
 
 # Scenario War Room
@@ -222,3 +226,10 @@ RECOMMENDED DECISION
 ## References
 - `references/scenario-planning.md` — Shell methodology, pre-mortem, Monte Carlo, cascade frameworks
 - `scripts/scenario_modeler.py` — CLI tool for structured scenario modeling
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+- [[MOC - Agents]] — Claude agents
+

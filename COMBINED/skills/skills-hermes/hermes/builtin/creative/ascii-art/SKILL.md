@@ -9,7 +9,9 @@ metadata:
   hermes:
     tags: [ASCII, Art, Banners, Creative, Unicode, Text-Art, pyfiglet, figlet, cowsay, boxes]
     related_skills: [excalidraw]
-
+  - domain/skills
+  - artifact/skill
+  - source/skills-hermes
 ---
 
 # ASCII Art Skill
@@ -319,3 +321,9 @@ When tools above don't have what's needed, generate ASCII art directly using the
 7. **Weather/moon art** → wttr.in via curl
 8. **Something custom/creative** → LLM generation with Unicode palette
 9. **Any tool not installed** → install it, or fall back to next option
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-hermes]] — Category: skills-hermes
+

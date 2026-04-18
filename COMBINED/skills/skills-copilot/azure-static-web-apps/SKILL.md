@@ -1,6 +1,10 @@
 ---
 name: azure-static-web-apps
 description: Helps create, configure, and deploy Azure Static Web Apps using the SWA CLI. Use when deploying static sites to Azure, setting up SWA local development, configuring staticwebapp.config.json, adding Azure Functions APIs to SWA, or setting up GitHub Actions CI/CD for Static Web Apps.
+tags:
+  - domain/agents
+  - artifact/skill
+  - source/skills-copilot
 ---
 
 ## Overview
@@ -313,3 +317,10 @@ swa start --verbose log        # Verbose output
 swa deploy --dry-run           # Preview deployment
 swa --print-config             # Show resolved configuration
 ```
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-copilot]] — Category: skills-copilot
+- [[MOC - Agents]] — Copilot agents
+

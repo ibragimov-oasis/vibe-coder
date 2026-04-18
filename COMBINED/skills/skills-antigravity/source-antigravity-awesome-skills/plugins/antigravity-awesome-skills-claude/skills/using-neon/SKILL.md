@@ -4,6 +4,10 @@ description: "Neon is a serverless Postgres platform that separates compute and 
 risk: safe
 source: "https://github.com/neondatabase/agent-skills/tree/main/skills/neon-postgres"
 date_added: "2026-02-27"
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 # Neon Serverless Postgres
@@ -83,3 +87,9 @@ Managing Neon resources programmatically via REST API, SDKs, or CLI.
 | Neon CLI              | `references/neon-cli.md`            | Terminal workflows, scripts, CI/CD pipelines |
 | TypeScript SDK        | `references/neon-typescript-sdk.md` | `@neondatabase/api-client`                   |
 | Python SDK            | `references/neon-python-sdk.md`     | `neon-api` package                           |
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

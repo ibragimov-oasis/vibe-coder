@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # List and Section
 
 ## Intent
@@ -84,3 +91,9 @@ struct SettingsView: View {
 
 - Avoid heavy custom layouts inside a `List` row; use `ScrollView` + `LazyVStack` instead.
 - Be careful mixing `List` and nested `ScrollView`; it can cause gesture conflicts.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

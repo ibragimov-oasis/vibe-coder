@@ -4,6 +4,10 @@ description: "You are an error tracking and observability expert specializing in
 risk: safe
 source: community
 date_added: "2026-02-27"
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 # Error Tracking and Monitoring
@@ -49,3 +53,9 @@ Focus on providing comprehensive error visibility, intelligent alerting, and qui
 ## Resources
 
 - `resources/implementation-playbook.md` for detailed patterns and examples.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

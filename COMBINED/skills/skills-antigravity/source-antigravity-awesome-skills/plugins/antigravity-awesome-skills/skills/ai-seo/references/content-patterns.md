@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # AEO and GEO Content Patterns
 
 Reusable content block patterns optimized for answer engines and AI citation.
@@ -283,3 +290,9 @@ Voice queries are conversational and question-based. Optimize for these patterns
 - Avoid jargon unless targeting expert audience
 - Include local context where relevant
 - Structure for single spoken response
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

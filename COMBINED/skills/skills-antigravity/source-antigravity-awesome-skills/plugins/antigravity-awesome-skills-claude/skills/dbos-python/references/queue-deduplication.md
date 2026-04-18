@@ -3,6 +3,9 @@ title: Deduplicate Queued Workflows
 impact: HIGH
 impactDescription: Prevents duplicate work and resource waste
 tags: queue, deduplication, duplicate, idempotent
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
 ---
 
 ## Deduplicate Queued Workflows
@@ -49,3 +52,9 @@ Use cases:
 - Rate limiting by entity
 
 Reference: [Queue Deduplication](https://docs.dbos.dev/python/tutorials/queue-tutorial#deduplication)
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

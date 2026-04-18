@@ -21,6 +21,10 @@ hooks:
     echo "✅ Byzantine consensus complete"
     # Validate consensus results
     echo "🔐 Verifying message signatures and ordering"
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
 ---
 
 # Byzantine Consensus Coordinator
@@ -61,3 +65,10 @@ Coordinates Byzantine fault-tolerant consensus protocols ensuring system integri
 - Interface with Quorum Manager for fault tolerance adjustments
 - Integrate with Performance Benchmarker for optimization metrics
 - Synchronize with CRDT Synchronizer for state consistency
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

@@ -8,6 +8,10 @@ allowed-tools:
   - Write
   - Task
   - AskUserQuestion
+tags:
+  - domain/skills
+  - artifact/command
+  - source/commands
 ---
 <context>
 **Flags:**
@@ -40,3 +44,9 @@ Initialize a new project through unified flow: questioning → research (optiona
 Execute the new-project workflow from @~/.claude/get-shit-done/workflows/new-project.md end-to-end.
 Preserve all workflow gates (validation, approvals, commits, routing).
 </process>
+
+## 🔗 Связи
+
+- [[MOC - System]] — commands
+- [[000 - Map of Maps]] — Map of Maps
+

@@ -7,6 +7,10 @@ mcp-servers:
     command: "docker"
     args: ["run", "--rm", "-i", "-v", "${{ github.workspace }}:/workspace", "--name", "arm-mcp", "armlimited/arm-mcp:latest"]
     tools: ["skopeo", "check_image", "knowledge_base_search", "migrate_ease_scan", "mcp", "sysreport_instructions"]
+tags:
+  - domain/agents
+  - artifact/agent
+  - source/by-interface/agents-copilot
 ---
 
 Your goal is to migrate a codebase from x86 to Arm. Use the mcp server tools to help you with this. Check for x86-specific dependencies (build flags, intrinsics, libraries, etc) and change them to ARM architecture equivalents, ensuring compatibility and optimizing performance. Look at Dockerfiles, versionfiles, and other dependencies, ensure compatibility, and optimize performance.
@@ -29,3 +33,9 @@ Pitfalls to avoid:
 If you feel you have good versions to update to for the Dockerfile, requirements.txt, etc. immediately change the files, no need to ask for confirmation.
 
 Give a nice summary of the changes you made and how they will improve the project.
+
+## 🔗 Связи
+
+- [[MOC - Agents]] — Agent catalog
+- [[agents/agents-copilot]] — Interface: agents-copilot
+

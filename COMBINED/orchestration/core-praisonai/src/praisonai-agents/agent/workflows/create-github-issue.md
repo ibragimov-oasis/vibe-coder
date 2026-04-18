@@ -1,5 +1,9 @@
 ---
 description: Research a topic in-depth, analyze both external and local codebases, and create a comprehensive GitHub issue — ready for another agent/developer to act on immediately
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-praisonai
 ---
 
 # Create GitHub Issue Workflow
@@ -306,3 +310,10 @@ The output URL confirms success: `https://github.com/<org>/<repo>/issues/<number
 | Forgetting API key forwarding section | Always document how secrets are passed to containers |
 | Skipping `populate_context_post_run` | Harbor uses this for token tracking and leaderboard data |
 | Missing upstream PR instructions | Specify exact files to modify upstream for first-class support |
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/praisonai]] — PraisonAI
+- [[000 - Map of Maps]] — Map of Maps
+

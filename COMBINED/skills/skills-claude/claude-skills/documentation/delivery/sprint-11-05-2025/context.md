@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # Sprint Context: Skill-Agent Integration Phase 1-2
 
 **Sprint ID:** sprint-11-05-2025
@@ -236,3 +243,9 @@ Agent integration provides a workflow orchestration layer where specialized agen
 **Created:** November 5, 2025
 **Last Updated:** November 5, 2025
 **Status:** Active Sprint
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

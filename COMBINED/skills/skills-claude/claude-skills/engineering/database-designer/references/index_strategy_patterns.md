@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # Index Strategy Patterns
 
 ## Overview
@@ -422,3 +429,9 @@ Effective index strategy requires:
 5. **Iterative Improvement**: Start with essential indexes, add and optimize based on real usage
 
 The goal is not to index every possible query pattern, but to create a focused set of indexes that provide maximum benefit for your application's specific workload while minimizing maintenance overhead.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

@@ -4,6 +4,10 @@ description: >
   AgentDB memory system with HNSW vector search. Provides 150x-12,500x faster pattern retrieval, persistent storage, and semantic search capabilities for learning and knowledge management.
   Use when: need to store successful patterns, searching for similar solutions, semantic lookup of past work, learning from previous tasks, sharing knowledge between agents, building knowledge base.
   Skip when: no learning needed, ephemeral one-off tasks, external data sources available, read-only exploration.
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-ruflo
 ---
 
 # Memory Management Skill
@@ -124,3 +128,9 @@ npx @claude-flow/cli memory export --output memory-backup.json
 2. Use hierarchical topology for coordination
 3. Store successful patterns after completion
 4. Document any new learnings
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-ruflo]] — Category: skills-ruflo
+

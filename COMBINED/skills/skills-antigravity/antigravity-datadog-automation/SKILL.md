@@ -4,6 +4,10 @@ description: "Automate Datadog tasks via Rube MCP (Composio): query metrics, sea
 risk: critical
 source: community
 date_added: "2026-02-27"
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 # Datadog Automation via Rube MCP
@@ -237,3 +241,9 @@ logs("service:web status:error").index("main").rollup("count").last("5m") > 10
 
 ## When to Use
 This skill is applicable to execute the workflow or actions described in the overview.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

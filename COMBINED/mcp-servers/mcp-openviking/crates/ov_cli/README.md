@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/mcp
+  - artifact/mcp-server
+  - source/mcp-servers
+---
+
 # OpenViking CLI
 
 Command-line interface for [OpenViking](https://github.com/volcengine/OpenViking) - an Agent-native context database.
@@ -155,3 +162,9 @@ cargo test
 # Install locally
 cargo install --path .
 ```
+
+## 🔗 Связи
+
+- [[MOC - MCP Servers]] — mcp-servers
+- [[000 - Map of Maps]] — Map of Maps
+

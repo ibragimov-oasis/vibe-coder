@@ -1,6 +1,10 @@
 ---
 name: dispatching-parallel-agents
 description: Use when facing 2+ independent tasks that can be worked on without shared state or sequential dependencies
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-superpowers
 ---
 
 # Dispatching Parallel Agents
@@ -180,3 +184,9 @@ From debugging session (2025-10-03):
 - All investigations completed concurrently
 - All fixes integrated successfully
 - Zero conflicts between agent changes
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-superpowers]] — Category: skills-superpowers
+

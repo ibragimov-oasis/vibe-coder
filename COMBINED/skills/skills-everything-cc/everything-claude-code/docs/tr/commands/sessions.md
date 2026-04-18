@@ -1,5 +1,9 @@
 ---
 description: Claude Code session geçmişini, aliasları ve session metadata'sını yönet.
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
 ---
 
 # Sessions Komutu
@@ -291,3 +295,9 @@ $ARGUMENTS:
 - Aliaslar `~/.claude/session-aliases.json` dosyasında saklanır
 - Session ID'leri kısaltılabilir (ilk 4-8 karakter genellikle yeterince benzersizdir)
 - Sık referans verilen session'lar için aliasları kullanın
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

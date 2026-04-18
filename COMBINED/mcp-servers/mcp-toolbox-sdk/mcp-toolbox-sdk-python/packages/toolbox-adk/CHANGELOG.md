@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/mcp
+  - artifact/mcp-server
+  - source/mcp-servers
+---
+
 # Changelog
 
 ## [1.0.0](https://github.com/googleapis/mcp-toolbox-sdk-python/compare/toolbox-adk-v0.7.0...toolbox-adk-v1.0.0) (2026-03-25)
@@ -116,3 +123,9 @@
 ### Documentation
 
 * **toolbox-adk:** Polish `README` with comprehensive examples ([#464](https://github.com/googleapis/mcp-toolbox-sdk-python/issues/464)) ([a52591c](https://github.com/googleapis/mcp-toolbox-sdk-python/commit/a52591c9ede7dfa671473e27d5b5adef604f0db5))
+
+## 🔗 Связи
+
+- [[MOC - MCP Servers]] — mcp-servers
+- [[000 - Map of Maps]] — Map of Maps
+

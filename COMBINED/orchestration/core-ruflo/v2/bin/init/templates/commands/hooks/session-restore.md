@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # hook session-restore
 
 Restore a previous session's context and state.
@@ -116,3 +123,10 @@ Returns JSON with:
 - `hook session-end` - Session cleanup
 - `memory usage` - Memory operations
 - `task status` - Task checking
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

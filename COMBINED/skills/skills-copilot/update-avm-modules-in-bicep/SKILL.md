@@ -1,6 +1,10 @@
 ---
 name: update-avm-modules-in-bicep
 description: 'Update Azure Verified Modules (AVM) to latest versions in Bicep files.'
+tags:
+  - domain/agents
+  - artifact/skill
+  - source/skills-copilot
 ---
 
 # Update Azure Verified Modules in Bicep Files
@@ -58,3 +62,10 @@ Describe updates made, any manual reviews needed or issues encountered.
 - Use MCR tags API only for version discovery
 - Parse JSON tags array and sort by semantic versioning
 - Maintain Bicep file validity and linting compliance
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-copilot]] — Category: skills-copilot
+- [[MOC - Agents]] — Copilot agents
+

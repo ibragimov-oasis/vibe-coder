@@ -1,5 +1,9 @@
 ---
 description: Goビルドエラー、go vet警告、リンター問題を段階的に修正します。最小限の外科的修正のためにgo-build-resolverエージェントを呼び出します。
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
 ---
 
 # Go Build and Fix
@@ -181,3 +185,9 @@ ok      project/internal/handler   0.023s
 
 - Agent: `agents/go-build-resolver.md`
 - Skill: `skills/golang-patterns/`
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

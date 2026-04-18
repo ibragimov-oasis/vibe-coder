@@ -4,6 +4,10 @@ description: Master Django 5.x with async views, DRF, Celery, and Django Channel
 risk: unknown
 source: community
 date_added: '2026-02-27'
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 ## Use this skill when
@@ -176,3 +180,9 @@ Expert Django developer specializing in Django 5.x best practices, scalable arch
 - "Optimize database queries for a high-traffic Django application"
 - "Implement JWT authentication with refresh tokens in DRF"
 - "Create a robust background task system with Celery"
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

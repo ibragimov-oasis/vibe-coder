@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # React Patterns
 
 Production-ready patterns for building scalable React applications with TypeScript.
@@ -744,3 +751,9 @@ const total = useMemo(
   [items]
 );
 ```
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

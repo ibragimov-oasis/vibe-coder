@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-copilot
+---
+
 # Framework-specific Fix Guide
 
 This document explains specific fix techniques for each framework and styling method.
@@ -473,3 +480,9 @@ document.querySelectorAll('*').forEach(el => {
 // Or check at the following site:
 // https://webaim.org/resources/contrastchecker/
 ```
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-copilot]] — Category: skills-copilot
+

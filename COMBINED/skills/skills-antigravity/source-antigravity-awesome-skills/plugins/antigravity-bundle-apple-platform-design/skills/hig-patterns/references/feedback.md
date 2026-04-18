@@ -1,4 +1,11 @@
 ---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
+---
 title: "Feedback | Apple Developer Documentation"
 source: https://developer.apple.com/design/human-interface-guidelines/feedback
 
@@ -64,4 +71,9 @@ The most effective feedback tends to match the significance of the information t
 [![](https://devimages-cdn.apple.com/wwdc-services/images/42/E55D60D2-C7D7-4F96-9A9D-8AF4C7D6BB49/2247_wide_250x141_1x.jpg) Designing Fluid Interfaces ](https://developer.apple.com/videos/play/wwdc2018/803)
 
 [![](https://devimages-cdn.apple.com/wwdc-services/images/7/2546ECBD-6443-41EC-921D-6429026F8B67/1700_wide_250x141_1x.jpg) Essential Design Principles ](https://developer.apple.com/videos/play/wwdc2017/802)
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
 

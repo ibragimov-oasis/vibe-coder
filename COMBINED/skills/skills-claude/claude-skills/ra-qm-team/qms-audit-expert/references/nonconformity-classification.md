@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # Nonconformity Classification
 
 Severity classification, CAPA integration, and finding documentation guidance.
@@ -219,3 +226,9 @@ Closure Approved By: [Name, Role, Date]
 | Pending Verification | Action complete, awaiting verification |
 | Closed | Effectiveness verified |
 | Escalated | Overdue or ineffective, requires management attention |
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

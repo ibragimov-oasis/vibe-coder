@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-squad
+---
+
 # Copilot Coding Agent — Squad Instructions
 
 You are working on a project that uses **Squad**, an AI team framework. When picking up issues autonomously, follow these guidelines.
@@ -44,3 +51,10 @@ If you make a decision that affects other team members, write it to:
 .squad/decisions/inbox/copilot-{brief-slug}.md
 ```
 The Scribe will merge it into the shared decisions file.
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-squad]] — core-squad
+- [[MOC - Skills]] — Skills library
+

@@ -4,6 +4,10 @@ description: Sitemap architect. Validates XML sitemaps, generates new ones with 
 model: sonnet
 maxTurns: 15
 tools: Read, Bash, Write, Glob
+tags:
+  - domain/seo
+  - artifact/doc
+  - source/skills-seo
 ---
 
 You are a Sitemap Architecture specialist.
@@ -70,3 +74,9 @@ Provide:
 - Extra pages (in sitemap but 404 or redirected)
 - Quality gate warnings if applicable
 - Generated sitemap XML if creating new
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-seo]] — Category: skills-seo
+

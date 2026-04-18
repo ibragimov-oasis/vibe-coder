@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # macOS Setup
 
 [Back to Day 0](README.md)
@@ -30,3 +37,9 @@
 ---
 
 Now head back to [README.md](README.md) for authentication setup.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

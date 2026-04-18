@@ -8,6 +8,9 @@ date_added: "2026-03-28"
 author: kostakost2
 tags: [tmux, terminal, multiplexer, sessions, shell, remote, automation]
 tools: [claude, cursor, gemini]
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 # tmux — Terminal Multiplexer
@@ -368,3 +371,9 @@ tmux attach -t shared
 - `@bash-pro` — Writing the shell scripts that orchestrate tmux sessions
 - `@bash-linux` — General Linux terminal patterns used inside tmux panes
 - `@ssh` — Combining tmux with SSH for persistent remote workflows
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

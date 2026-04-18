@@ -36,6 +36,10 @@ hooks:
   notification: |
     echo "📋 Notifying stakeholders of architecture improvements..."
     npx claude-flow@v3alpha hook notification --mode repo-architect
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
 ---
 
 # GitHub Repository Architect
@@ -396,3 +400,10 @@ const integrationPattern = {
 - Continuous architecture improvement
 - Best practices enforcement
 - Documentation generation and maintenance
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

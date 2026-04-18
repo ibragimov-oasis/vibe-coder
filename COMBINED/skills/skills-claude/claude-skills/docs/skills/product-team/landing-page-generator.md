@@ -1,6 +1,10 @@
 ---
 title: "Landing Page Generator — Agent Skill for Product Teams"
 description: "Generates high-converting landing pages as complete Next.js/React (TSX) components with Tailwind CSS. Creates hero sections, feature grids, pricing. Agent skill for Claude Code, Codex CLI, Gemini CLI, OpenClaw."
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
 ---
 
 # Landing Page Generator
@@ -207,3 +211,9 @@ Inject `FAQPage` JSON-LD via `<script type="application/ld+json" dangerouslySetI
 - **Brand Voice Analyzer** (`marketing-skill/content-production/scripts/brand_voice_analyzer.py`) — Run before generation to establish voice profile and ensure copy consistency
 - **UI Design System** (`product-team/ui-design-system/`) — Generate design tokens from brand color before building the page
 - **Competitive Teardown** (`product-team/competitive-teardown/`) — Competitive positioning informs landing page messaging and differentiation
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

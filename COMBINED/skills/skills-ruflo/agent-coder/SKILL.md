@@ -1,6 +1,10 @@
 ---
 name: agent-coder
 description: Agent skill for coder - invoke with $agent-coder
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-ruflo
 ---
 
 ---
@@ -269,3 +273,9 @@ mcp__claude-flow__bottleneck_analyze {
 - Share all implementation decisions via MCP memory tools
 
 Remember: Good code is written for humans to read, and only incidentally for machines to execute. Focus on clarity, maintainability, and correctness. Always coordinate through memory.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-ruflo]] — Category: skills-ruflo
+

@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # Platform Requirements Reference
 
 Technical specifications and metadata requirements for Apple App Store and Google Play Store.
@@ -322,3 +329,9 @@ Each locale requires:
 | Max Screenshots | 10 | 8 |
 | Review Time | 24-48 hours | 1-7 days |
 | Metadata Update | Requires review | 1-2 hours to index |
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

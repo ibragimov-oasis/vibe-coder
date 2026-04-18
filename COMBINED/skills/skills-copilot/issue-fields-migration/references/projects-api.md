@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-copilot
+---
+
 # Projects V2 API Reference (for Migration)
 
 This reference covers the subset of the Projects V2 API needed for field migration: discovering project fields and reading item values.
@@ -114,3 +121,9 @@ gh api graphql -f query='
 - **Pull requests**: items with `type: PULL_REQUEST` are PRs, not issues. Issue fields apply to issues only. Skip these.
 - **Cross-repo**: a single project can contain issues from many repositories. Group items by repo to batch repo ID lookups.
 - **Field value access**: each field value node type is different (`ProjectV2ItemFieldTextValue`, `ProjectV2ItemFieldSingleSelectValue`, etc.). Handle each type.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-copilot]] — Category: skills-copilot
+

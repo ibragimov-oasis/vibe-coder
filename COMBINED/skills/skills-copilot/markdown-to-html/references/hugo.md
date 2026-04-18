@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-copilot
+---
+
 # Hugo Reference
 
 Hugo is the world's fastest static site generator. It builds sites in milliseconds and supports advanced content management features.
@@ -392,3 +399,9 @@ defaultContentLanguage = 'en'
 - [Hugo Discourse](https://discourse.gohugo.io/)
 - [GitHub Repository](https://github.com/gohugoio/hugo)
 - [Quick Reference](https://gohugo.io/quick-reference/)
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-copilot]] — Category: skills-copilot
+

@@ -1,6 +1,10 @@
 ---
 name: git-guardrails-claude-code
 description: Set up Claude Code hooks to block dangerous git commands (push, reset --hard, clean, branch -D, etc.) before they execute. Use when user wants to prevent destructive git operations, add git safety hooks, or block git push/reset in Claude Code.
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-planning
 ---
 
 # Setup Git Guardrails
@@ -93,3 +97,9 @@ echo '{"tool_input":{"command":"git push origin main"}}' | <path-to-script>
 ```
 
 Should exit with code 2 and print a BLOCKED message to stderr.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-planning]] — Category: skills-planning
+

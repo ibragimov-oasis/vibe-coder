@@ -1,4 +1,11 @@
 ---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
+---
 title: "Dock menus | Apple Developer Documentation"
 source: https://developer.apple.com/design/human-interface-guidelines/dock-menus
 
@@ -37,4 +44,9 @@ As with all menus, you need to label Dock menu items succinctly and organize the
 #### [Developer documentation](https://developer.apple.com/design/human-interface-guidelines/dock-menus#Developer-documentation)
 
 [`applicationDockMenu(_:)`](https://developer.apple.com/documentation/AppKit/NSApplicationDelegate/applicationDockMenu\(_:\)) — AppKit
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
 

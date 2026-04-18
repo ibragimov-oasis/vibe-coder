@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # Green Phase: Simple function Implementation Playbook
 
 This file contains detailed patterns, checklists, and code samples referenced by the skill.
@@ -868,3 +875,9 @@ class OrderService {
 ```
 
 Tests to make pass: $ARGUMENTS
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

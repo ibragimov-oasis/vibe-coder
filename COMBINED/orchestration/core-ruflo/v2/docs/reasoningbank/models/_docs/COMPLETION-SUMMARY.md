@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # 🎉 ReasoningBank Pre-Trained Models - Project Complete!
 
 ## Executive Summary
@@ -476,3 +483,10 @@ Every model achieved:
 **Overall Quality Score**: 95/100
 
 **🎉 Mission Accomplished!** 🚀
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

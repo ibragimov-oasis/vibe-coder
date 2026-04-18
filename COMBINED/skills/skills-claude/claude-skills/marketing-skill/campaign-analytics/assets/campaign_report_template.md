@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # Campaign Performance Report
 
 **Report Period:** [Start Date] - [End Date]
@@ -139,3 +146,9 @@ Based on this period's performance data:
 ---
 
 *Report generated using campaign-analytics toolkit. Data source: [Source system/platform].*
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

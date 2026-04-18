@@ -3,6 +3,9 @@ title: Use Queues for Concurrent Workflows
 impact: HIGH
 impactDescription: Queues provide managed concurrency and flow control
 tags: queue, concurrency, enqueue, workflow
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
 ---
 
 ## Use Queues for Concurrent Workflows
@@ -57,3 +60,9 @@ const processAllTasks = DBOS.registerWorkflow(processAllTasksFn);
 Queues process workflows in FIFO order. All queues should be created before `DBOS.launch()`.
 
 Reference: [DBOS Queues](https://docs.dbos.dev/typescript/tutorials/queue-tutorial)
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

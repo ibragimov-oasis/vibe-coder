@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # Code → PRD
 
 Reverse-engineer any codebase into a complete Product Requirements Document (PRD).
@@ -56,3 +63,9 @@ Inspired by [code-to-prd](https://github.com/lihanglogan/code-to-prd) by [@lihan
 ## License
 
 MIT
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

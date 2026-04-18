@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # MODE 1: Inline Text
 
 ## Step 1 — Content Isolation
@@ -91,3 +98,9 @@ Before finalizing:
 If violation detected → refine before output.
 
 ---
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

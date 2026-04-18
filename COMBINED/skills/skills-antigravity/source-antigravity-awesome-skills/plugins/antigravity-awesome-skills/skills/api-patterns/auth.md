@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # Authentication Patterns
 
 > Choose auth pattern based on use case.
@@ -22,3 +29,9 @@ Important:
 ├── Use short expiry + refresh tokens
 └── Never store sensitive data in JWT
 ```
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

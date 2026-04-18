@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/memory
+  - artifact/memory
+  - source/memory
+---
+
 # Supermemory SDK Guide
 
 Complete reference for the Supermemory SDK in TypeScript and Python.
@@ -653,3 +660,9 @@ try {
 - **Documentation**: [supermemory.ai/docs](https://supermemory.ai/docs)
 - **SDK Issues**: [github.com/supermemoryai/supermemory](https://github.com/supermemoryai/supermemory)
 - **Console**: [console.supermemory.ai](https://console.supermemory.ai)
+
+## 🔗 Связи
+
+- [[MOC - Memory]] — memory
+- [[000 - Map of Maps]] — Map of Maps
+

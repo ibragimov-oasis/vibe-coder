@@ -8,7 +8,9 @@ dependencies: [lambda-cloud-client>=1.0.0]
 metadata:
   hermes:
     tags: [Infrastructure, GPU Cloud, Training, Inference, Lambda Labs]
-
+  - domain/skills
+  - artifact/skill
+  - source/skills-hermes
 ---
 
 # Lambda Labs GPU Cloud
@@ -546,3 +548,9 @@ python inference.py \
 - **Pricing**: https://lambda.ai/instances
 - **Support**: https://support.lambdalabs.com
 - **Blog**: https://lambda.ai/blog
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-hermes]] — Category: skills-hermes
+

@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # Configuracao de Webhooks - WhatsApp Cloud API
 
 > Guia completo para configurar, validar e proteger webhooks da WhatsApp Cloud API.
@@ -601,3 +608,9 @@ app.get('/health', (req, res) => {
 - [ ] Monitoramento e alertas configurados
 - [ ] APP_SECRET e VERIFY_TOKEN em variaveis de ambiente (nunca no codigo)
 - [ ] Logs estruturados para debugging em producao
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

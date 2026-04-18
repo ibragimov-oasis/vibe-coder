@@ -68,7 +68,16 @@ Although rarely used, the relevance style can communicate relevancy using a shad
 
 ## [Change log](https://developer.apple.com/design/human-interface-guidelines/gauges#Change-log)
 
-Date| Changes  
+Date| Changes
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
 ---|---  
-September 23, 2022| New page.  
-  
+September 23, 2022| New page.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/memory
+  - artifact/memory
+  - source/memory
+---
+
 # Issue #596: ProcessTransport is not ready for writing - Generator aborted on every observation
 
 **Date:** 2026-01-07
@@ -415,3 +422,9 @@ npm run build-and-sync
 **Report prepared by:** Claude Code
 **Analysis date:** 2026-01-07
 **Next review:** After reproduction attempt
+
+## 🔗 Связи
+
+- [[MOC - Memory]] — memory
+- [[000 - Map of Maps]] — Map of Maps
+

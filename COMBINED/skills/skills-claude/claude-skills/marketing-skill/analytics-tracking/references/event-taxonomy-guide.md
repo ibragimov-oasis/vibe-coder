@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # Event Taxonomy Guide
 
 Complete reference for naming conventions, event structure, and parameter standards.
@@ -201,3 +208,9 @@ window.dataLayer.push({
 ```
 
 This allows filtering old vs. new schema during migrations.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

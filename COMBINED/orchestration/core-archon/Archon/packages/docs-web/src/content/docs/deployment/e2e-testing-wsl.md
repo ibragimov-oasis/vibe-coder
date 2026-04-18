@@ -7,6 +7,10 @@ audience: [developer]
 status: current
 sidebar:
   order: 6
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-archon
 ---
 
 `agent-browser` (Vercel) has a [known Windows bug](https://github.com/vercel-labs/agent-browser/issues/56) where the daemon fails to start due to Unix domain socket incompatibility. The workaround is to run agent-browser inside WSL while the dev servers run on Windows.
@@ -99,3 +103,10 @@ wsl -d Ubuntu -- bash -c '
 - **Git Bash path expansion** - `/status` gets expanded to `C:/Program Files/Git/status` when passed through Git Bash. Not an agent-browser issue; it's the shell expanding `/` paths
 - **SSE `Connected` indicator** - only shows for `web` platform conversations; Telegram/Slack conversations show `Disconnected` (expected)
 - **Daemon startup** - if `agent-browser open` fails with "Daemon failed to start", kill stale daemons: `wsl -d Ubuntu -- pkill -f daemon.js` and retry
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/archon]] — Archon
+- [[000 - Map of Maps]] — Map of Maps
+

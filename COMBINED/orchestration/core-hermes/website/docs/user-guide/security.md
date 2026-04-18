@@ -2,6 +2,10 @@
 sidebar_position: 8
 title: "Security"
 description: "Security model, dangerous command approval, user authorization, container isolation, and production deployment best practices"
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-hermes
 ---
 
 # Security
@@ -486,3 +490,10 @@ terminal:
 ```
 
 This keeps the gateway's messaging connections separate from the agent's command execution.
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/hermes]] — Hermes
+- [[000 - Map of Maps]] — Map of Maps
+

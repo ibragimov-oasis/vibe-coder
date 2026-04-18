@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/agent
+  - source/by-role/manager
+---
+
 # Persona-Based Agents
 
 Pre-configured agent personas with curated skill loadouts, workflows, and distinct personalities.
@@ -71,3 +78,9 @@ tools: Read, Write, Bash, Grep, Glob
 ```
 
 Follow the section structure (Identity → Mission → Rules → Capabilities → Workflows → Communication → Metrics → Advanced → Learning) for consistency with existing personas.
+
+## 🔗 Связи
+
+- [[MOC - Agents]] — Agent catalog
+- [[agents/manager]] — Role: manager
+

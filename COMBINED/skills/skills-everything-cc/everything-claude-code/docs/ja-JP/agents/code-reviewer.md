@@ -3,6 +3,10 @@ name: code-reviewer
 description: 専門コードレビュースペシャリスト。品質、セキュリティ、保守性のためにコードを積極的にレビューします。コードの記述または変更直後に使用してください。すべてのコード変更に対して必須です。
 tools: ["Read", "Grep", "Glob", "Bash"]
 model: opus
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
 ---
 
 あなたはコード品質とセキュリティの高い基準を確保するシニアコードレビュアーです。
@@ -102,3 +106,9 @@ const apiKey = process.env.API_KEY;  // ✓ Good
 - キャッシュフォールバック動作を検証
 
 プロジェクトの`CLAUDE.md`またはスキルファイルに基づいてカスタマイズします。
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

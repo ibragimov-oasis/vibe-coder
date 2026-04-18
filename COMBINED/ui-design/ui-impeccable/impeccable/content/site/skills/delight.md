@@ -1,5 +1,9 @@
 ---
 tagline: "Small moments of personality that turn functional into memorable."
+tags:
+  - domain/ui
+  - artifact/ui-component
+  - source/ui-design
 ---
 
 ## When to use it
@@ -40,3 +44,9 @@ Expected additions:
 - **Forcing humor.** Not every brand is playful. If the brand voice in `.impeccable.md` is "clinical and precise", delight adds clever restraint, not jokes.
 - **Over-decorating.** One moment of delight is memorable. Twenty becomes noise. The skill is conservative on purpose.
 - **Running delight before polish.** Polish fixes what is wrong. Delight adds what is missing. In that order.
+
+## 🔗 Связи
+
+- [[MOC - UI Design]] — ui-design
+- [[000 - Map of Maps]] — Map of Maps
+

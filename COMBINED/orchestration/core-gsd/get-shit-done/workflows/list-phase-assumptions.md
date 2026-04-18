@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-gsd
+---
+
 <purpose>
 Surface Claude's assumptions about a phase before planning, enabling users to correct misconceptions early.
 
@@ -176,3 +183,10 @@ If "Re-examine": Return to analyze_phase with updated understanding
 - User feedback acknowledged
 - Clear next steps offered
 </success_criteria>
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-gsd]] — core-gsd
+- [[MOC - Skills]] — Skills library
+

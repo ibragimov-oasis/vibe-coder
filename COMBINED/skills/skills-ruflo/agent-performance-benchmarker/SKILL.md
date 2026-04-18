@@ -1,6 +1,10 @@
 ---
 name: agent-performance-benchmarker
 description: Agent skill for performance-benchmarker - invoke with $agent-performance-benchmarker
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-ruflo
 ---
 
 ---
@@ -854,3 +858,9 @@ const configPrediction = await this.mcpTools.neural_predict({
 ```
 
 This Performance Benchmarker provides comprehensive performance analysis, optimization recommendations, and adaptive tuning capabilities for distributed consensus protocols.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-ruflo]] — Category: skills-ruflo
+

@@ -2,6 +2,10 @@
 name: flutter-dart-code-review
 description: 库无关的Flutter/Dart代码审查清单，涵盖Widget最佳实践、状态管理模式（BLoC、Riverpod、Provider、GetX、MobX、Signals）、Dart惯用法、性能、可访问性、安全性和整洁架构。
 origin: ECC
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-everything-cc
 ---
 
 # Flutter/Dart 代码审查最佳实践
@@ -478,3 +482,9 @@ class UserError extends UserState {
 * [Flutter 导航和路由](https://docs.flutter.dev/ui/navigation)
 * [Flutter 错误处理](https://docs.flutter.dev/testing/errors)
 * [Flutter 状态管理选项](https://docs.flutter.dev/data-and-backend/state-mgmt/options)
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

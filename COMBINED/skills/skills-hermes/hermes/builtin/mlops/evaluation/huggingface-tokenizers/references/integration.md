@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-hermes
+---
+
 # Transformers Integration
 
 Complete guide to using HuggingFace Tokenizers with the Transformers library.
@@ -635,3 +642,9 @@ tokenizer(
    - Save `tokenizer_config.json`
    - Document custom templates
    - Track vocabulary changes
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-hermes]] — Category: skills-hermes
+

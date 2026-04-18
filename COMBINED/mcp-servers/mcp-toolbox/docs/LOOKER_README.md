@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/mcp
+  - artifact/mcp-server
+  - source/mcp-servers
+---
+
 # Looker MCP Server
 
 The Looker Model Context Protocol (MCP) Server gives AI-powered development tools the ability to work with your Looker instance. It supports exploring models, running queries, managing dashboards, and more.
@@ -97,3 +104,9 @@ Add the following configuration to your MCP client (e.g., `settings.json` for Ge
 ## Documentation
 
 For more information, visit the [Looker documentation](https://cloud.google.com/looker).
+
+## 🔗 Связи
+
+- [[MOC - MCP Servers]] — mcp-servers
+- [[000 - Map of Maps]] — Map of Maps
+

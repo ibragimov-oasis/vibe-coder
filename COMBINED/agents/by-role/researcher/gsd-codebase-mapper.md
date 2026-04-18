@@ -9,6 +9,10 @@ color: cyan
 #       hooks:
 #         - type: command
 #           command: "npx eslint --fix $FILE 2>/dev/null || true"
+tags:
+  - domain/agents
+  - artifact/agent
+  - source/by-role/researcher
 ---
 
 <role>
@@ -768,3 +772,9 @@ Ready for orchestrator summary.
 - [ ] File paths included throughout documents
 - [ ] Confirmation returned (not document contents)
 </success_criteria>
+
+## 🔗 Связи
+
+- [[MOC - Agents]] — Agent catalog
+- [[agents/researcher]] — Role: researcher
+

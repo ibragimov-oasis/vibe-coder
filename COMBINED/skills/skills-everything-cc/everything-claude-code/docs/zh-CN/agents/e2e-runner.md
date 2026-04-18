@@ -3,6 +3,10 @@ name: e2e-runner
 description: 使用Vercel Agent Browser（首选）和Playwright备选方案进行端到端测试的专家。主动用于生成、维护和运行E2E测试。管理测试流程，隔离不稳定的测试，上传工件（截图、视频、跟踪），并确保关键用户流程正常运行。
 tools: ["Read", "Write", "Edit", "Bash", "Grep", "Glob"]
 model: sonnet
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
 ---
 
 # E2E 测试运行器
@@ -108,3 +112,9 @@ test('flaky: market search', async ({ page }) => {
 ***
 
 **记住**：端到端测试是上线前的最后一道防线。它们能捕获单元测试遗漏的集成问题。投资于稳定性、速度和覆盖率。
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

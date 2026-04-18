@@ -10,6 +10,10 @@ metadata:
   updated: 2026-03-05
   python-tools: tech_debt_analyzer.py, team_scaling_calculator.py
   frameworks: architecture-decisions, engineering-metrics, technology-evaluation
+tags:
+  - domain/agents
+  - artifact/skill
+  - source/skills-claude
 ---
 
 # CTO Advisor
@@ -255,3 +259,10 @@ All output passes the Internal Quality Loop before reaching the founder (see `ag
 - `references/technology_evaluation_framework.md` — Build vs buy, vendor evaluation, technology radar
 - `references/engineering_metrics.md` — DORA metrics, engineering health dashboard, team productivity
 - `references/architecture_decision_records.md` — ADR templates, decision governance, review process
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+- [[MOC - Agents]] — Claude agents
+

@@ -1,6 +1,10 @@
 ---
 name: "jira-expert"
 description: Atlassian Jira expert for creating and managing projects, planning, product discovery, JQL queries, workflows, custom fields, automation, reporting, and all Jira features. Use for Jira project setup, configuration, advanced search, dashboard creation, workflow design, and technical Jira operations.
+tags:
+  - domain/agents
+  - artifact/skill
+  - source/skills-claude
 ---
 
 # Atlassian Jira Expert
@@ -303,3 +307,10 @@ mcp jira create_filter --name "Open Blockers" --jql "priority = Blocker AND stat
 
 - **Confluence Expert** (`project-management/confluence-expert/`) — Documentation complements Jira workflows
 - **Atlassian Admin** (`project-management/atlassian-admin/`) — Permission and user management for Jira projects
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+- [[MOC - Agents]] — Claude agents
+

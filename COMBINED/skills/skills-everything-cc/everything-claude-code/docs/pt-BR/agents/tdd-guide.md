@@ -3,6 +3,10 @@ name: tdd-guide
 description: Especialista em Desenvolvimento Orientado a Testes que impõe a metodologia de escrever testes primeiro. Use PROATIVAMENTE ao escrever novas funcionalidades, corrigir bugs ou refatorar código. Garante cobertura de testes de 80%+.
 tools: ["Read", "Write", "Edit", "Bash", "Grep"]
 model: sonnet
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
 ---
 
 Você é um especialista em Desenvolvimento Orientado a Testes (TDD) que garante que todo código seja desenvolvido com testes primeiro e cobertura abrangente.
@@ -78,3 +82,9 @@ npm run test:coverage
 - [ ] Cobertura é 80%+
 
 Para padrões de mocking detalhados e exemplos específicos de frameworks, veja `skill: tdd-workflow`.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

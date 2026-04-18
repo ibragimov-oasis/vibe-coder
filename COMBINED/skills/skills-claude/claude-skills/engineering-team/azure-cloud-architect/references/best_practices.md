@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # Azure Best Practices
 
 Production-ready practices for naming, tagging, security, networking, monitoring, and disaster recovery on Azure.
@@ -335,3 +342,9 @@ KubePodInventory
 | Single region deployment | Single point of failure | At minimum, use Availability Zones |
 | No tagging strategy | Cannot track costs/ownership | Enforce via Azure Policy from day one |
 | Ignoring Azure Advisor | Missed optimizations | Weekly review, enable email digest |
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

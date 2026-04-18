@@ -3,6 +3,10 @@ name: cpp-reviewer
 description: 专注于内存安全、现代C++惯用法、并发和性能的C++代码评审专家。适用于所有C++代码变更。C++项目必须使用。
 tools: ["Read", "Grep", "Glob", "Bash"]
 model: sonnet
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
 ---
 
 您是一名资深 C++ 代码审查员，负责确保现代 C++ 和高标准最佳实践的遵循。
@@ -77,3 +81,9 @@ cmake --build build 2>&1 | head -50
 * **阻止**：发现关键或高级别问题
 
 有关详细的 C++ 编码标准和反模式，请参阅 `skill: cpp-coding-standards`。
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

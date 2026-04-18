@@ -4,6 +4,10 @@ description: "The Gemini API provides access to Google's most advanced AI models
 risk: unknown
 source: community
 date_added: "2026-02-27"
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 # Gemini API Development Skill
@@ -131,3 +135,9 @@ This index contains links to all documentation pages in `.md.txt` format. Use we
 
 ## When to Use
 This skill is applicable to execute the workflow or actions described in the overview.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

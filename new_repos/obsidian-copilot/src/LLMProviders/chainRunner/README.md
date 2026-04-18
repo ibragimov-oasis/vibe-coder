@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/new_repos
+---
+
 # Chain Runner Architecture & Tool Calling System
 
 This directory contains the refactored chain runner system for Obsidian Copilot, providing multiple chain execution strategies with different tool calling approaches.
@@ -706,3 +713,8 @@ The reasoning process is now displayed via the Agent Reasoning Block component, 
 9. **Model-Specific Optimizations** - Expand adapter capabilities for emerging models
 
 The autonomous agent approach using native tool calling represents a significant evolution from traditional tool calling, enabling more sophisticated AI reasoning and autonomous task completion.
+
+## 🔗 Связи
+
+- [[000 - Map of Maps]] — Map of Maps
+

@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/doc
+  - source/skills-deer-flow
+---
+
 # Output Patterns
 
 Use these patterns when skills need to produce consistent, high-quality output.
@@ -80,3 +87,9 @@ Follow this style: type(scope): brief description, then detailed explanation.
 ```
 
 Examples help Claude understand the desired style and level of detail more clearly than descriptions alone.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-deer-flow]] — Category: skills-deer-flow
+

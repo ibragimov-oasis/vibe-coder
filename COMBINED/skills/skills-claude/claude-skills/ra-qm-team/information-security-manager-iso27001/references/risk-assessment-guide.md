@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # Risk Assessment Methodology Guide
 
 Comprehensive guidance for conducting information security risk assessments per ISO 27001 Clause 6.1.2.
@@ -260,3 +267,9 @@ Residual Risk = Inherent Risk × (1 - Control Effectiveness)
    - Detailed asset list
    - Threat catalog
    - Control mapping
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

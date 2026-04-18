@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-awesome-claude
+---
+
 # Testing & Coverage
 
 This document covers how to run the test suite and generate coverage reports.
@@ -80,3 +87,9 @@ Outputs:
 - Terminal summary via `term-missing`
 
 Note: `scripts/archive/` is excluded from test discovery and coverage.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-awesome-claude]] — Category: skills-awesome-claude
+

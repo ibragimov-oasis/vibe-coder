@@ -4,6 +4,10 @@ description: "Master the LangChain framework for building sophisticated LLM appl
 risk: unknown
 source: community
 date_added: "2026-02-27"
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 # LangChain Architecture
@@ -351,3 +355,9 @@ llm = OpenAI(streaming=True, callbacks=[StreamingStdOutCallbackHandler()])
 - [ ] Set up observability (callbacks)
 - [ ] Implement fallback strategies
 - [ ] Version control prompts and configurations
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

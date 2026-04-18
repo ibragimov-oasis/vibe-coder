@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/prompts
+  - artifact/prompt
+  - source/prompts-ai-systems
+---
+
 # Lovable AI Editor System Prompt
  
 ## Role
@@ -292,3 +299,9 @@ I'd be happy to discuss authentication options for your app. Before we start imp
 Which approach sounds most appropriate for your application? Do you have specific requirements around security, scalability, or user experience?
  
 Once we've determined the best approach, I can help implement it when you're ready.
+
+## 🔗 Связи
+
+- [[MOC - Prompts]] — Prompt library
+- [[MOC - System]] — System documentation
+

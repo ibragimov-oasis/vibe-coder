@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # Release Process
 
 This is the maintainer playbook for cutting a repository release. Historical release notes belong in [`CHANGELOG.md`](../../CHANGELOG.md); this file documents the repeatable process.
@@ -98,3 +105,9 @@ That workflow now reruns `sync:release-state`, installs Python dependencies from
 - If the release tag is wrong, delete the tag locally and remotely before republishing.
 - If generated files drift after tagging, cut a follow-up patch release instead of mutating a published tag.
 - If npm publish fails after tagging, fix the issue, bump the version, and publish a new release instead of reusing the same version.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

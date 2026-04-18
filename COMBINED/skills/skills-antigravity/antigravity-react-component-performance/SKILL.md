@@ -4,6 +4,10 @@ description: Diagnose slow React components and suggest targeted performance fix
 risk: safe
 source: "Dimillian/Skills (MIT)"
 date_added: "2026-03-25"
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 # React Component Performance
@@ -133,3 +137,9 @@ function Summary({ orders }: { orders: Order[] }) {
 ## Example Reference
 
 Load `references/examples.md` when the user wants a concrete refactor example.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

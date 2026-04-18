@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/command
+  - source/claude-commands
+---
+
 # workflow-export
 
 Export workflows for sharing.
@@ -23,3 +30,9 @@ npx claude-flow workflow export --name "test-suite" --format yaml
 # With history
 npx claude-flow workflow export --name "deploy-api" --include-history
 ```
+
+## 🔗 Связи
+
+- [[MOC - System]] — System commands
+- [[MOC - Skills]] — Skills library
+

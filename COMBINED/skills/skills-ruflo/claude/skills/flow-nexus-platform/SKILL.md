@@ -2,6 +2,10 @@
 name: flow-nexus-platform
 description: |
   Comprehensive Flow Nexus platform management - authentication, sandboxes, app deployment, payments, and challenges
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-ruflo
 ---
 
 # Flow Nexus Platform Management
@@ -1152,3 +1156,9 @@ mcp__flow-nexus__realtime_subscribe({
 ---
 
 *This skill consolidates 6 Flow Nexus command modules into a single comprehensive platform management interface.*
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-ruflo]] — Category: skills-ruflo
+

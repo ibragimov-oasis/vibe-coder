@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-taskmaster
+---
+
 Automatically fix dependency issues found during validation.
 
 ## Automatic Dependency Repair
@@ -79,3 +86,10 @@ Run '/taskmaster:validate-dependencies' to verify fixes
 - Rollback capability
 - Change logging
 - No data loss
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/task-master]] — Task-Master
+- [[000 - Map of Maps]] — Map of Maps
+

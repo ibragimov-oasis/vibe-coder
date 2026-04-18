@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
+---
+
 # Metrics and Sponsorship Playbook
 
 This file is a practical script for sponsor calls and ecosystem partner reviews.
@@ -72,3 +79,9 @@ Use this on calls:
 > The project supports Claude Code, Cursor, OpenCode, and Codex app/CLI with production-grade hook reliability and a large passing test suite.
 
 For launch-ready social copy snippets, see [`social-launch-copy.md`](./social-launch-copy.md).
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

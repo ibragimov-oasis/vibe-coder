@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-copilot
+---
+
 # Council of Three Spec Audit Protocol (File 5)
 
 This is a static analysis protocol — AI models read the code and compare it to specifications. No code is executed. It catches a different class of problem than testing: spec-code divergence, undocumented features, phantom specs, and missing implementations.
@@ -142,3 +149,9 @@ Bad scrutiny areas:
 - "Check if the code is correct"
 - "Look for bugs"
 - "Verify the implementation matches the spec"
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-copilot]] — Category: skills-copilot
+

@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # Priority 4 Batch Validation Report
 
 **Generated:** 2026-03-30
@@ -292,3 +299,9 @@ The Priority 4 translations are complete and meet all quality standards. These f
 ---
 
 *This report was automatically generated as part of the translation validation process.*
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

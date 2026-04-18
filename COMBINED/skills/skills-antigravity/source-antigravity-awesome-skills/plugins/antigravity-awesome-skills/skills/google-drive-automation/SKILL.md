@@ -7,6 +7,10 @@ source: community
 metadata:
   author: sanjay3290
   version: "1.0"
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 # Google Drive
@@ -133,3 +137,9 @@ Tokens stored securely using the system keyring:
 Service name: `google-drive-skill-oauth`
 
 Automatically refreshes expired tokens using Google's cloud function.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

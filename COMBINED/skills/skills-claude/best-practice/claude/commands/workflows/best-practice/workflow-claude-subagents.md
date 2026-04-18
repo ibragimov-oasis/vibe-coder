@@ -1,6 +1,10 @@
 ---
 description: Track Claude Code subagents report changes and find what needs updating
 argument-hint: [number of versions to check, default 10]
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
 ---
 
 # Workflow Changelog — Subagents Report
@@ -134,3 +138,9 @@ When executing:
 5. **ALWAYS append to changelog** — Phase 3.5 is mandatory. Never skip it. Never overwrite previous entries.
 6. **ALWAYS update the Last Updated badge** — Phase 3.6 is mandatory. Never skip it.
 7. **Compare with previous runs** — read the last 25 entries from the changelog and mark each action item as NEW, RECURRING, or RESOLVED.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

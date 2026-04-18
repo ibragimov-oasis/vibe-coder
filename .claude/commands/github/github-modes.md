@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/command
+  - source/claude-commands
+---
+
 # GitHub Integration Modes
 
 ## Overview
@@ -145,3 +152,9 @@ mcp__claude-flow__agent_spawn { type: "tester", name: "QA Agent" }
 // Execute GitHub workflow with coordination
 mcp__claude-flow__task_orchestrate { task: "GitHub workflow", strategy: "parallel" }
 ```
+
+## 🔗 Связи
+
+- [[MOC - System]] — System commands
+- [[MOC - Skills]] — Skills library
+

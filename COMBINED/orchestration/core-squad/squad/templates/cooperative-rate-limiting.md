@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-squad
+---
+
 # Cooperative Rate Limiting for Multi-Agent Deployments
 
 > Coordinate API quota across multiple Ralph instances to prevent cascading failures.
@@ -227,3 +234,10 @@ See [keda-copilot-scaler](https://github.com/tamirdresher/keda-copilot-scaler) f
 - [Circuit Breaker Template](ralph-circuit-breaker.md) — Foundation patterns
 - [Squad on AKS](https://github.com/tamirdresher/squad-on-aks) — Production K8s deployment
 - [KEDA Copilot Scaler](https://github.com/tamirdresher/keda-copilot-scaler) — Custom KEDA external scaler
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-squad]] — core-squad
+- [[MOC - Skills]] — Skills library
+

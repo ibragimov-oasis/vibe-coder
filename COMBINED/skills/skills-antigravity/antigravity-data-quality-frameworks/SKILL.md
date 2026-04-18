@@ -4,6 +4,10 @@ description: "Implement data quality validation with Great Expectations, dbt tes
 risk: unknown
 source: community
 date_added: "2026-02-27"
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 # Data Quality Frameworks
@@ -41,3 +45,9 @@ Production patterns for implementing data quality with Great Expectations, dbt t
 ## Resources
 
 - `resources/implementation-playbook.md` for detailed frameworks, templates, and examples.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

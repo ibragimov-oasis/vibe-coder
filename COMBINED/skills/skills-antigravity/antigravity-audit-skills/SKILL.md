@@ -8,6 +8,9 @@ date_added: "2026-03-07"
 author: MAIOStudio
 tags: [security, audit, skills, bundles, cross-platform]
 tools: [claude, gemini, gpt, llama, mistral, etc]
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 <!-- security-allowlist: curl-pipe-bash -->
@@ -128,3 +131,9 @@ Generates a security report with a score (0-10), platform target identification,
 ## Related Skills
 
 - `@security-scanner` - Additional security scanning capabilities
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

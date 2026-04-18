@@ -19,6 +19,9 @@ related_skills:
   - github-issue-tracking
   - github-workflow-automation
   - multi-repo-coordination
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
 ---
 
 # GitHub Release Management Skill
@@ -1079,3 +1082,10 @@ npx claude-flow@alpha github version-sync \
 **Version**: 2.0.0
 **Last Updated**: 2025-10-19
 **Maintained By**: Claude Flow Team
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

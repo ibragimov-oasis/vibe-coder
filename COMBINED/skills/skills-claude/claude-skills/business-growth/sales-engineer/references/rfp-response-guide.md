@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # RFP/RFI Response Guide
 
 A comprehensive reference for Sales Engineers responding to Requests for Proposal (RFP) and Requests for Information (RFI).
@@ -187,3 +194,9 @@ Organize requirements by category for clarity:
 ---
 
 **Last Updated:** February 2026
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

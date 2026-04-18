@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # @claude-flow/shared
 
 [![npm version](https://img.shields.io/npm/v/@claude-flow/shared.svg)](https://www.npmjs.com/package/@claude-flow/shared)
@@ -321,3 +328,9 @@ This package is a dependency of all other @claude-flow modules:
 ## License
 
 MIT
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-ruflo]] — core-ruflo
+

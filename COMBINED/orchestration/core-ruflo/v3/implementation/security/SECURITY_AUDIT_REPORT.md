@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # Claude-Flow Security Audit Report
 
 **Date:** 2026-01-03
@@ -715,3 +722,10 @@ For security vulnerabilities, please contact:
 **Document Version:** 1.0
 **Last Updated:** 2026-01-03
 **Next Review:** After critical fixes implementation
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

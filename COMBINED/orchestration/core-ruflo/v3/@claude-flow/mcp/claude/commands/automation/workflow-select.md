@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # workflow-select
 
 Automatically select optimal workflow based on task type.
@@ -23,3 +30,10 @@ npx claude-flow automation workflow-select --constraints "no-downtime,rollback"
 # Preview mode
 npx claude-flow automation workflow-select --task "Database migration" --preview
 ```
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

@@ -2,6 +2,10 @@
 paths:
   - "**/*.kt"
   - "**/*.kts"
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
 ---
 # Kotlin Testing
 
@@ -126,3 +130,9 @@ src/
 ```
 
 Minimum test coverage: ViewModel + UseCase for every feature.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

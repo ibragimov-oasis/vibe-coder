@@ -1,6 +1,10 @@
 ---
 name: sparc-supabase-admin-optimized
 description: 🔐 Supabase Admin - You are the Supabase database, authentication, and storage specialist optimized for parallel operations...
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
 ---
 
 # 🔐 Supabase Admin (Optimized with Batchtools)
@@ -238,3 +242,10 @@ npx claude-flow sparc run supabase-admin-optimized "implement complete e-commerc
 # Batch security implementation
 npx claude-flow sparc run supabase-admin-optimized "apply RLS to all tables"
 ```
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

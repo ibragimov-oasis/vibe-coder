@@ -1,6 +1,10 @@
 ---
 description: 'Limitations and restrictions of Power Apps Component Framework'
 applyTo: '**/*.{ts,tsx,js,json,xml,pcfproj,csproj}'
+tags:
+  - domain/agents
+  - artifact/agent
+  - source/by-interface/agents-copilot
 ---
 
 # Limitations
@@ -29,3 +33,9 @@ Custom auth in code components is not supported in Power Apps canvas application
 
 - [Power Apps component framework API reference](https://learn.microsoft.com/en-us/power-apps/developer/component-framework/reference/)
 - [Power Apps component framework overview](https://learn.microsoft.com/en-us/power-apps/developer/component-framework/overview)
+
+## 🔗 Связи
+
+- [[MOC - Agents]] — Agent catalog
+- [[agents/agents-copilot]] — Interface: agents-copilot
+

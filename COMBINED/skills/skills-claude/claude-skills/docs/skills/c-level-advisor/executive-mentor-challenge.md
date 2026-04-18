@@ -1,6 +1,10 @@
 ---
 title: "/em:challenge — Pre-Mortem Plan Analysis — Agent Skill for Executives"
 description: "/em -challenge — Pre-Mortem Plan Analysis. Agent skill for Claude Code, Codex CLI, Gemini CLI, OpenClaw."
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
 ---
 
 # /em:challenge — Pre-Mortem Plan Analysis
@@ -190,3 +194,9 @@ These are the ones people skip:
 The output of `/em:challenge` is not permission to stop. It's a vulnerability map. Now you can make conscious decisions: validate the risky assumptions, hedge the critical ones, or accept the bets you're making knowingly.
 
 Unknown risks are dangerous. Known risks are manageable.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

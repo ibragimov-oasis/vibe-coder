@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # Communication Standards
 
 ## Core Requirements
@@ -36,3 +43,9 @@
 5. Documentation and maintenance considerations
 
 **Remember**: This repository provides production-ready skills and agent workflows. Focus on helping users implement, customize, and extend these skills for their projects. Agents (cs-* prefix) should orchestrate skills effectively, provide clear workflows, and maintain the high quality standards of the skill library. Always use the current date when creating files or examples.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

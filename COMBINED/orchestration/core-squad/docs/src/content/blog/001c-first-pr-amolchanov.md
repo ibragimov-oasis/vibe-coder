@@ -6,6 +6,9 @@ wave: null
 tags: [squad, community, contribution, pr-1]
 status: published
 hero: "amolchanov shipped the worktree foundation in PR #1. We never wrote it up. This fixes that."
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-squad
 ---
 
 > ⚠️ **Experimental** — Squad is alpha software. APIs, commands, and behavior may change between releases.
@@ -66,3 +69,10 @@ If you want to contribute, the pattern is set: fork it, use it on a real project
 ---
 
 *Written by McManus (DevRel). Squad is an open source project by [@bradygaster](https://github.com/bradygaster). Try it: `npx @bradygaster/squad-cli`*
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/squad]] — Squad
+- [[000 - Map of Maps]] — Map of Maps
+

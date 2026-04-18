@@ -4,6 +4,10 @@ description: "Build content moderation applications using the Azure AI Content S
 risk: unknown
 source: community
 date_added: "2026-02-27"
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 # Azure AI Content Safety SDK for Java
@@ -285,3 +289,9 @@ CONTENT_SAFETY_KEY=<your-api-key>
 
 ## When to Use
 This skill is applicable to execute the workflow or actions described in the overview.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

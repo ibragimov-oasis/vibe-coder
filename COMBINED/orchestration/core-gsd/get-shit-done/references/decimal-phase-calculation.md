@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-gsd
+---
+
 # Decimal Phase Calculation
 
 Calculate the next decimal phase number for urgent insertions.
@@ -62,3 +69,10 @@ mkdir -p "$PHASE_DIR"
 ```
 
 Example: `.planning/phases/06.1-fix-critical-auth-bug/`
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-gsd]] — core-gsd
+- [[MOC - Skills]] — Skills library
+

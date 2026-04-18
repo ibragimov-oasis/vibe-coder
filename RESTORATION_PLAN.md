@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/root
+---
+
 # RESTORATION AND EXECUTION PLAN
 
 ## Current Situation Analysis
@@ -138,3 +145,8 @@ Currently files are in general folders. Need to organize them properly:
 6. Create comprehensive documentation
 
 **Status**: Ready to execute restoration
+
+## 🔗 Связи
+
+- [[000 - Map of Maps]] — Map of Maps
+

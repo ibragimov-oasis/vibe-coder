@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # Task Manager CLI
 
 A command-line task management application created by the Claude Flow Swarm system.
@@ -91,3 +98,9 @@ node task-manager.test.js
 ---
 
 Created by Claude Flow Swarm v1.0.49
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-ruflo]] — core-ruflo
+

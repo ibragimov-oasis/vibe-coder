@@ -7,6 +7,10 @@ metadata:
   author: Alireza Rezvani
   category: marketing
   updated: 2026-03-06
+tags:
+  - domain/agents
+  - artifact/skill
+  - source/skills-claude
 ---
 
 # Pricing Strategy
@@ -321,3 +325,10 @@ All output follows the structured communication standard:
 - **ab-test-setup**: Use to A/B test price points or pricing page layouts after initial design.
 - **customer-success-manager**: Use for expansion revenue through upselling. NOT for pricing design or packaging.
 - **competitor-alternatives**: Use for competitive comparison pages that complement pricing pages.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+- [[MOC - Agents]] — Claude agents
+

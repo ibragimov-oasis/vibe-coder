@@ -1,6 +1,10 @@
 ---
 name: prd-to-issues
 description: Break a PRD into independently-grabbable GitHub issues using tracer-bullet vertical slices. Use when user wants to convert a PRD to issues, create implementation tickets, or break down a PRD into work items.
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-development
 ---
 
 # PRD to Issues
@@ -86,3 +90,9 @@ Reference by number from the parent PRD:
 </issue-template>
 
 Do NOT close or modify the parent PRD issue.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-development]] — Category: skills-development
+

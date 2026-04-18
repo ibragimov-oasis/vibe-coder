@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/mcp
+  - artifact/mcp-server
+  - source/mcp-servers
+---
+
 # Session Management
 
 Session manages conversation messages, tracks context usage, and extracts long-term memories.
@@ -199,3 +206,9 @@ viking://agent/memories/
 - [Context Types](./02-context-types.md) - Three context types
 - [Context Extraction](./06-extraction.md) - Extraction flow
 - [Context Layers](./03-context-layers.md) - L0/L1/L2 model
+
+## 🔗 Связи
+
+- [[MOC - MCP Servers]] — mcp-servers
+- [[000 - Map of Maps]] — Map of Maps
+

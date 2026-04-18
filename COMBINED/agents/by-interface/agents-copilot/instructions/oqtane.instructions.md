@@ -1,6 +1,10 @@
 ---
 description: 'Oqtane Module patterns'
 applyTo: '**/*.razor, **/*.razor.cs, **/*.razor.css'
+tags:
+  - domain/agents
+  - artifact/agent
+  - source/by-interface/agents-copilot
 ---
 
 ## Blazor Code Style and Structure
@@ -84,3 +88,9 @@ applyTo: '**/*.razor, **/*.razor.cs, **/*.razor.css'
 
 - Implement Authentication and Authorization using built-in Oqtane base class members like User.Roles.
 - Use HTTPS for all web communication and ensure proper CORS policies are implemented.
+
+## 🔗 Связи
+
+- [[MOC - Agents]] — Agent catalog
+- [[agents/agents-copilot]] — Interface: agents-copilot
+

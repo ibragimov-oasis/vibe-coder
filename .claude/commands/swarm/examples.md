@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/command
+  - source/claude-commands
+---
+
 # Examples Swarm Strategy
 
 ## Common Swarm Patterns
@@ -166,3 +173,9 @@ try {
   })
 }
 ```
+
+## 🔗 Связи
+
+- [[MOC - System]] — System commands
+- [[MOC - Skills]] — Skills library
+

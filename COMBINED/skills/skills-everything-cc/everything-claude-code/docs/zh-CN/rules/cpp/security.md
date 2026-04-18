@@ -7,6 +7,10 @@ paths:
   - "**/*.cxx"
   - "**/*.h"
   - "**/CMakeLists.txt"
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
 ---
 
 # C++ 安全
@@ -50,3 +54,9 @@ paths:
 ## 参考
 
 查看技能：`cpp-coding-standards` 以获取详细的安全指南。
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

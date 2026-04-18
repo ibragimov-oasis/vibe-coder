@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # Site Type Templates
 
 Full page hierarchy templates with ASCII trees, URL maps, and navigation recommendations for common site types.
@@ -291,3 +298,9 @@ Homepage (/)
 **Header (5 items + CTA)**: Services | About | Testimonials | Blog | [Contact Us]
 
 Keep it simple. Small business sites should be flat (1-2 levels max). Every page should be reachable from the header.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

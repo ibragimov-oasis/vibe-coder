@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # Enum Dictionary
 
 All enums, status codes, and constant mappings found in the codebase.
@@ -23,3 +30,9 @@ All enums, status codes, and constant mappings found in the codebase.
 | `active` | Active | Green | Normal active account |
 | `inactive` | Inactive | Gray | Account disabled by user |
 | `suspended` | Suspended | Red | Account suspended by admin |
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

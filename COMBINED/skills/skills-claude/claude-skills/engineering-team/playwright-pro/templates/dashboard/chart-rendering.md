@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # Chart Rendering Template
 
 Tests chart visibility, interactive tooltips, and legend behaviour.
@@ -129,3 +136,9 @@ test.describe('Chart Rendering', () => {
 | Date range update | Chart changes when filter applied |
 | No-data state | Empty dataset → no-data message |
 | Accessible label | aria-label present on chart element |
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

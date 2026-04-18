@@ -10,6 +10,10 @@ allowed-tools:
   - Grep
   - AskUserQuestion
   - Task
+tags:
+  - domain/skills
+  - artifact/command
+  - source/commands
 ---
 <objective>
 Execute all remaining milestone phases autonomously. For each phase: discuss → plan → execute. Pauses only for user decisions (grey area acceptance, blockers, validation requests).
@@ -39,3 +43,9 @@ Project context, phase list, and state are resolved inside the workflow using in
 Execute the autonomous workflow from @~/.claude/get-shit-done/workflows/autonomous.md end-to-end.
 Preserve all workflow gates (phase discovery, per-phase execution, blocker handling, progress display).
 </process>
+
+## 🔗 Связи
+
+- [[MOC - System]] — commands
+- [[000 - Map of Maps]] — Map of Maps
+

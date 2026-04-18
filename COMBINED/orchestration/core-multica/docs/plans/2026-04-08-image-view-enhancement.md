@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-multica
+---
+
 # Image View Enhancement Implementation Plan
 
 > **For Claude:** REQUIRED SUB-SKILL: Use superpowers:executing-plans to implement this plan task-by-task.
@@ -450,3 +457,10 @@ Uses `createPortal` to render outside the editor DOM tree, with a keyboard liste
 | Readonly images are static | Click to zoom, hover for toolbar (minus Delete) |
 | Delete image: select + backspace only | Toolbar Delete button + keyboard |
 | No visual selection feedback | Blue outline on selected image |
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-multica]] — core-multica
+- [[MOC - Skills]] — Skills library
+

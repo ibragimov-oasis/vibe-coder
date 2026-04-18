@@ -4,6 +4,10 @@ description: PostgreSQL database specialist for query optimization, schema desig
 allowedTools:
   - read
   - shell
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
 ---
 
 # Database Reviewer
@@ -90,3 +94,9 @@ For detailed index patterns, schema design examples, connection management, conc
 **Remember**: Database issues are often the root cause of application performance problems. Optimize queries and schema design early. Use EXPLAIN ANALYZE to verify assumptions. Always index foreign keys and RLS policy columns.
 
 *Patterns adapted from Supabase Agent Skills (credit: Supabase team) under MIT license.*
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

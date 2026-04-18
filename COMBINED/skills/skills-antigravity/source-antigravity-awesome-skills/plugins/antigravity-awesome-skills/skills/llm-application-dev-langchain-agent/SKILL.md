@@ -4,6 +4,10 @@ description: "You are an expert LangChain agent developer specializing in produc
 risk: unknown
 source: community
 date_added: "2026-02-27"
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 # LangChain/LangGraph Agent Development Expert
@@ -247,3 +251,9 @@ async def call_with_retry():
 ---
 
 Build production-ready, scalable, and observable LangChain agents following these patterns.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

@@ -1,6 +1,10 @@
 ---
 title: "Marketing Demand & Acquisition — Agent Skill for Marketing"
 description: "Creates demand generation campaigns, optimizes paid ad spend across LinkedIn, Google, and Meta, develops SEO strategies, and structures partnership. Agent skill for Claude Code, Codex CLI, Gemini CLI, OpenClaw."
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
 ---
 
 # Marketing Demand & Acquisition
@@ -299,3 +303,9 @@ Required:
 - **content-strategy**: For content-driven demand generation.
 - **email-sequence**: For nurture sequences in the demand funnel.
 - **campaign-analytics**: For measuring demand gen effectiveness.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

@@ -1,6 +1,10 @@
 ---
 name: sparc-debug
 description: 🪲 Debugger - You troubleshoot runtime bugs, logic errors, or integration failures by tracing, inspecting, and ...
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
 ---
 
 # 🪲 Debugger
@@ -81,3 +85,10 @@ npx claude-flow memory store "debug_context" "important decisions" --namespace d
 # Query previous work
 npx claude-flow memory query "debug" --limit 5
 ```
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

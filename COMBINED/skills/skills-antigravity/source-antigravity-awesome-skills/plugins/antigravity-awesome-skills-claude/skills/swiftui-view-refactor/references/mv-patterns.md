@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # MV Patterns Reference
 
 Distilled guidance for deciding whether a SwiftUI feature should stay as plain MV or introduce a view model.
@@ -159,3 +166,9 @@ In modern SwiftUI, the default stack is:
 - services and models for business logic.
 
 Reach for a view model only when the feature clearly needs one.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # 🌌 Antigravity Awesome Skills: 560+ Kỹ năng (Skills) cho Claude Code, Gemini CLI, Cursor, Copilot và nhiều hơn nữa
 
 > **Bộ sưu tập tối ưu gồm hơn 560 Kỹ năng Phổ quát cho các Trợ lý Lập trình AI — Claude Code, Gemini CLI, Codex CLI, Antigravity IDE, GitHub Copilot, Cursor, OpenCode**
@@ -189,3 +196,9 @@ Chúng tôi chính thức cảm ơn những người đóng góp sau đây đã 
 ## Lịch sử Star
 
 [![Star History Chart](https://api.star-history.com/svg?repos=sickn33/antigravity-awesome-skills&type=date&legend=top-left)](https://www.star-history.com/#sickn33/antigravity-awesome-skills&type=date&legend=top-left)
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

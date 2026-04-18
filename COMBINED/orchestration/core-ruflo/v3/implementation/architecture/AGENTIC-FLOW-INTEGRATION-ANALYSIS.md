@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # agentic-flow@alpha Deep Analysis & Integration Optimization
 
 ## Executive Summary
@@ -1503,3 +1510,10 @@ npx claude-flow verify --checksums
 *agentic-flow version analyzed: 2.0.1-alpha.50*
 *agentdb version analyzed: 2.0.0-alpha.3.1*
 *Claude-Flow version: 2.7.47*
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

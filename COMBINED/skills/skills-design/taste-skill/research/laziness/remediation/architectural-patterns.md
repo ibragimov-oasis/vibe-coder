@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/ui
+  - artifact/doc
+  - source/skills-design
+---
+
 # Architectural Patterns
 
 ## Lazy-Loaded Skills
@@ -53,3 +60,9 @@ For complex tasks that would produce outputs exceeding the model's generation li
 3. Request assembly and integration after all components are generated
 
 This prevents the model from attempting to estimate total output length and preemptively compressing its response.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-design]] — Category: skills-design
+

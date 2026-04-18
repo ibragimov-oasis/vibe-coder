@@ -2,6 +2,10 @@
 name: python-testing
 description: 使用pytest的Python测试策略，包括TDD方法、夹具、模拟、参数化和覆盖率要求。
 origin: ECC
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-everything-cc
 ---
 
 # Python 测试模式
@@ -814,3 +818,9 @@ pytest --pdb
 | `assert` | 简单且可读的断言 |
 
 **记住**：测试也是代码。保持它们干净、可读且可维护。好的测试能发现错误；优秀的测试能预防错误。
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

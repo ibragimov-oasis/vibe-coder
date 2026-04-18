@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-copilot
+---
+
 # Context Caching
 
 Optimize Spring Boot test suite performance through context caching.
@@ -113,3 +120,9 @@ void testThatModifiesBeanDefinitions() { }
 3. **Avoid @DirtiesContext** - Prefer test data cleanup
 4. **Use narrow slices** - @WebMvcTest vs @SpringBootTest
 5. **Monitor cache hits** - Enable debug logging occasionally
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-copilot]] — Category: skills-copilot
+

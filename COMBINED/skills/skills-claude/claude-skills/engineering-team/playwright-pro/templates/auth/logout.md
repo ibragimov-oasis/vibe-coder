@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # Logout Template
 
 Tests logout from navigation, session cleanup, and redirect behaviour.
@@ -110,3 +117,9 @@ test.describe('Logout', () => {
 | Protected redirect | Accessing /dashboard after logout → /login |
 | Stale session | Already-expired session handled gracefully |
 | Multi-tab | Logout invalidates other open tabs |
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

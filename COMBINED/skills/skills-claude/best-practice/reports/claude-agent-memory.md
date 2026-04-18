@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # Claude Code: Agent Memory Frontmatter
 
 Persistent memory for subagents — enabling agents to learn, remember, and build knowledge across sessions.
@@ -106,3 +113,9 @@ This combines **skills** (static knowledge at startup) with **memory** (dynamic 
 - [Create custom subagents — Claude Code Docs](https://code.claude.com/docs/en/sub-agents)
 - [Manage Claude's memory — Claude Code Docs](https://code.claude.com/docs/en/memory)
 - [Claude Code v2.1.33 Release Notes](https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md)
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

@@ -2,6 +2,10 @@
 sidebar_position: 3
 title: "Creating Skills"
 description: "How to create skills for Hermes Agent — SKILL.md format, guidelines, and publishing"
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-hermes
 ---
 
 # Creating Skills
@@ -272,3 +276,10 @@ Hermes can now consume third-party skills from multiple external discovery model
 - well-known endpoints served from `/.well-known/skills/index.json`
 
 If you want your skills to be discoverable without a GitHub-specific installer, consider serving them from a well-known endpoint in addition to publishing them in a repo or marketplace.
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/hermes]] — Hermes
+- [[000 - Map of Maps]] — Map of Maps
+

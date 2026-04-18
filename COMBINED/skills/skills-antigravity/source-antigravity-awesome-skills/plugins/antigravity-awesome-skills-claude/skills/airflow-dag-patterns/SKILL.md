@@ -4,6 +4,10 @@ description: "Build production Apache Airflow DAGs with best practices for opera
 risk: safe
 source: community
 date_added: "2026-02-27"
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 # Apache Airflow DAG Patterns
@@ -42,3 +46,9 @@ Refer to `resources/implementation-playbook.md` for detailed patterns, checklist
 ## Resources
 
 - `resources/implementation-playbook.md` for detailed patterns, checklists, and templates.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

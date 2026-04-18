@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-taskmaster
+---
+
 # Change Log
 
 ## 0.26.0
@@ -303,3 +310,10 @@
   This is just the beginning! We wanted to get a solid foundation into your hands quickly. The extension will evolve rapidly with your feedback, adding more advanced features, better visualizations, and deeper integration with your development workflow.
 
   Thank you for being part of the TaskMaster journey. Your workflow has never looked better! 🚀
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-taskmaster]] — core-taskmaster
+- [[MOC - Skills]] — Skills library
+

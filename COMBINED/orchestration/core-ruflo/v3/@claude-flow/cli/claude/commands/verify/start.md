@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # 🔍 Verification Commands
 
 Truth verification system for ensuring code quality and correctness with a 0.95 accuracy threshold.
@@ -126,3 +133,10 @@ claude-flow verify integration --test-suite full
 - `truth` - View truth scores and metrics
 - `pair` - Collaborative development with verification
 - `train` - Training with verification feedback
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

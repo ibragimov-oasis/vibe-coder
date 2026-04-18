@@ -1,6 +1,10 @@
 ---
 name: agent-base-template-generator
 description: Agent skill for base-template-generator - invoke with $agent-base-template-generator
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-ruflo
 ---
 
 ---
@@ -45,3 +49,9 @@ Quality standards:
 - Add meaningful default values and examples
 
 When generating templates, always consider the broader project context, existing patterns, and future extensibility needs. Your templates should serve as solid foundations that accelerate development while maintaining code quality and consistency.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-ruflo]] — Category: skills-ruflo
+

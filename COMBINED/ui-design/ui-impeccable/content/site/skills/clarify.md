@@ -1,5 +1,9 @@
 ---
 tagline: "Rewrite confusing UX copy so interfaces explain themselves."
+tags:
+  - domain/ui
+  - artifact/ui-component
+  - source/ui-design
 ---
 
 ## When to use it
@@ -40,3 +44,9 @@ Before and after, typical:
 - **Writing cleverer, not clearer.** Clarify is not for voice upgrades. If the copy is already clear, do not reach for this skill. Use `/delight` instead when you want personality.
 - **Skipping the audience question.** Clarify needs to know who is reading. If `.impeccable.md` does not specify audience technical level, the rewrites will be generic.
 - **Running clarify on marketing copy.** Clarify is for functional UX text: labels, errors, instructions. Marketing copy needs a different set of moves and a human writer.
+
+## 🔗 Связи
+
+- [[MOC - UI Design]] — ui-design
+- [[000 - Map of Maps]] — Map of Maps
+

@@ -1,5 +1,9 @@
 ---
 tagline: "The design intelligence behind every other skill."
+tags:
+  - domain/ui
+  - artifact/ui-component
+  - source/ui-design
 ---
 
 ## When to use it
@@ -49,3 +53,9 @@ You should get a page that commits to one clear aesthetic direction, uses non-de
 - **Skipping `/impeccable teach`.** Without a `.impeccable.md` file, the skill has to ask you context questions mid-flight. Faster to set it up once.
 - **Treating it like a style guide.** It is an opinionated design partner, not a linter. The defaults exist to raise the floor, not to overrule your judgment. If you have a real reason to push back (brand guideline, accessibility constraint, user research that says otherwise), push back and explain why. The skill will work with you. What produces worse output is ignoring the opinion without a reason.
 - **Expecting it to fix existing code.** For that, reach for `/polish`, `/distill`, or `/critique` instead. `/impeccable` is for creation.
+
+## 🔗 Связи
+
+- [[MOC - UI Design]] — ui-design
+- [[000 - Map of Maps]] — Map of Maps
+

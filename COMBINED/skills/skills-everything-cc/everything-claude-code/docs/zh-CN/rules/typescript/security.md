@@ -4,6 +4,10 @@ paths:
   - "**/*.tsx"
   - "**/*.js"
   - "**/*.jsx"
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
 ---
 
 # TypeScript/JavaScript 安全
@@ -27,3 +31,9 @@ if (!apiKey) {
 ## 代理支持
 
 * 使用 **security-reviewer** 技能进行全面的安全审计
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

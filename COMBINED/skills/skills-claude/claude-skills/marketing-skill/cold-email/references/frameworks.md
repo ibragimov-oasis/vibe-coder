@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # Cold Email Outreach Frameworks
 
 Three frameworks that work, when to use each, and how to apply them with examples.
@@ -215,3 +222,9 @@ Only use if the referral is real — never fake this.
 - Emojis
 - ALL CAPS
 - Question marks (feels like an ad)
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

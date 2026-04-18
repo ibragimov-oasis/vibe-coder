@@ -2,6 +2,10 @@
 sidebar_position: 14
 title: "API Server"
 description: "Expose hermes-agent as an OpenAI-compatible API for any frontend"
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-hermes
 ---
 
 # API Server
@@ -245,3 +249,10 @@ Any frontend that supports the OpenAI API format works. Tested/documented integr
 - **Response storage** — stored responses (for `previous_response_id`) are persisted in SQLite and survive gateway restarts. Max 100 stored responses (LRU eviction).
 - **No file upload** — vision/document analysis via uploaded files is not yet supported through the API.
 - **Model field is cosmetic** — the `model` field in requests is accepted but the actual LLM model used is configured server-side in config.yaml.
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/hermes]] — Hermes
+- [[000 - Map of Maps]] — Map of Maps
+

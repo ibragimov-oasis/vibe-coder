@@ -7,6 +7,10 @@ metadata:
   author: Alireza Rezvani
   category: marketing
   updated: 2026-03-06
+tags:
+  - domain/agents
+  - artifact/skill
+  - source/skills-claude
 ---
 
 # Marketing Context
@@ -167,3 +171,10 @@ All output passes quality verification:
 - **content-strategy**: For planning what content to create. Reads target keywords + personas from this context.
 - **marketing-strategy-pmm**: For positioning and GTM strategy. Reads competitive landscape from this context.
 - **cs-onboard** (C-Suite): For company-level context. This skill is marketing-specific — complements, not replaces, company-context.md.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+- [[MOC - Agents]] — Claude agents
+

@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # TypeScript Advanced Types Implementation Playbook
 
 This file contains detailed patterns, checklists, and code samples referenced by the skill.
@@ -714,3 +721,9 @@ type ShouldError = ExpectError<AssertEqual<string, number>>;
 - **Type Challenges**: https://github.com/type-challenges/type-challenges
 - **TypeScript Deep Dive**: https://basarat.gitbook.io/typescript/
 - **Effective TypeScript**: Book by Dan Vanderkam
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

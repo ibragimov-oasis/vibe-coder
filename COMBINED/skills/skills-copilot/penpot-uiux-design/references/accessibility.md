@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-copilot
+---
+
 # Accessibility Guidelines Reference (WCAG)
 
 ## Quick Compliance Checklist
@@ -327,3 +334,9 @@ role="status" - Status updates (like polite)
 ✓ <button>Click</button>
 
 ```
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-copilot]] — Category: skills-copilot
+

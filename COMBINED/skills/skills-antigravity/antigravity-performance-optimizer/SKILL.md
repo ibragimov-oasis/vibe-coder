@@ -5,6 +5,10 @@ category: development
 risk: safe
 source: community
 date_added: "2026-03-05"
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 # Performance Optimizer
@@ -387,3 +391,9 @@ Easy optimizations with big impact:
 - `@database-design` - Query optimization
 - `@codebase-audit-pre-push` - Code review
 - `@bug-hunter` - Debugging
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

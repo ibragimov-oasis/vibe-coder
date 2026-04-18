@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-squad
+---
+
 # Skill: nap
 
 > Context hygiene — compress, prune, archive .squad/ state
@@ -22,3 +29,10 @@ archiving stale decisions, and cleaning orphaned inbox files.
 ## Confidence
 
 medium — Confirmed by team vote (4-1) and initial implementation
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/squad]] — Squad
+- [[000 - Map of Maps]] — Map of Maps
+

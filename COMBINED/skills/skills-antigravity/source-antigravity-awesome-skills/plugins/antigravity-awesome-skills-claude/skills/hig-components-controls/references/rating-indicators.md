@@ -32,7 +32,16 @@ A rating indicator doesn’t display partial symbols; it rounds the value to dis
 
 ## [Change log](https://developer.apple.com/design/human-interface-guidelines/rating-indicators#Change-log)
 
-Date| Changes  
+Date| Changes
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
 ---|---  
-September 23, 2022| New page.  
-  
+September 23, 2022| New page.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

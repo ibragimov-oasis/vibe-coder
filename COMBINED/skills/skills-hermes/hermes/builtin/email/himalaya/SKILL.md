@@ -10,6 +10,9 @@ metadata:
     homepage: https://github.com/pimalaya/himalaya
 prerequisites:
   commands: [himalaya]
+  - domain/skills
+  - artifact/skill
+  - source/skills-hermes
 ---
 
 # Himalaya Email CLI
@@ -276,3 +279,9 @@ RUST_LOG=trace RUST_BACKTRACE=1 himalaya envelope list
 - Message IDs are relative to the current folder; re-list after folder changes.
 - For composing rich emails with attachments, use MML syntax (see `references/message-composition.md`).
 - Store passwords securely using `pass`, system keyring, or a command that outputs the password.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-hermes]] — Category: skills-hermes
+

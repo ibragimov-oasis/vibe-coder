@@ -2,6 +2,10 @@
 name: laravel-patterns
 description: Laravel architecture patterns, routing/controllers, Eloquent ORM, service layers, queues, events, caching, and API resources for production apps.
 origin: ECC
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-everything-cc
 ---
 
 # Laravel Development Patterns
@@ -413,3 +417,9 @@ return response()->json([
 
 - Keep secrets in `.env` and config in `config/*.php`
 - Use per-environment config overrides and `config:cache` in production
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

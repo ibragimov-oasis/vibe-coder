@@ -2,6 +2,10 @@
 name: perl-patterns
 description: 现代 Perl 5.36+ 的惯用法、最佳实践和约定，用于构建稳健、可维护的 Perl 应用程序。
 origin: ECC
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-everything-cc
 ---
 
 # 现代 Perl 开发模式
@@ -502,3 +506,9 @@ require_module($module);
 ```
 
 **记住**：现代 Perl 是简洁、可读且安全的。让 `use v5.36` 处理样板代码，使用 Moo 处理对象，并优先使用 CPAN 上经过实战检验的模块，而不是自己动手的解决方案。
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

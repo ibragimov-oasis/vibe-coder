@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # Regression Test Report - Claude Flow v2.7.33
 
 **Test Date**: 2025-11-12
@@ -395,3 +402,10 @@ npm install ajv@^8.17.1 ajv-formats@^3.0.1 ajv-errors@^3.0.0 --save --legacy-pee
 **Approval Date**: 2025-11-12
 
 ✅ **REGRESSION TEST COMPLETE - READY FOR PRODUCTION DEPLOYMENT**
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-ruflo]] — core-ruflo
+- [[MOC - Skills]] — Skills library
+

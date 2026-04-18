@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # Architecture Overview
 
 ## Starting Point: CLAUDE.md as Memory
@@ -274,3 +281,10 @@ The key lifecycle: `CLAUDE.md` is compiled once at session start. Rules are retr
 | G023 | Truth Anchors, Uncertainty, Temporal |
 | G024 | Authority Gate and Irreversibility |
 | G025 | WASM Policy Kernel |
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

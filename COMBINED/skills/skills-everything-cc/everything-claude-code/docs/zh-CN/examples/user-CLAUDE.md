@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
+---
+
 # 用户级别 CLAUDE.md 示例
 
 这是一个用户级别 CLAUDE.md 文件的示例。放置在 `~/.claude/CLAUDE.md`。
@@ -116,3 +123,9 @@
 ***
 
 **哲学**：代理优先设计，并行执行，先计划后行动，先测试后编码，安全至上。
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

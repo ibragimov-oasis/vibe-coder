@@ -1,6 +1,10 @@
 ---
 description: 優先するパッケージマネージャーを設定（npm/pnpm/yarn/bun）
 disable-model-invocation: true
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
 ---
 
 # パッケージマネージャーの設定
@@ -78,3 +82,9 @@ export CLAUDE_PACKAGE_MANAGER=pnpm
 ```bash
 node scripts/setup-package-manager.js --detect
 ```
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

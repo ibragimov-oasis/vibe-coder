@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-taskmaster
+---
+
 # Phase 1: Core Rails - State Machine & Orchestration
 
 ## Objective
@@ -367,3 +374,10 @@ Phase 2 will add:
 - Coverage enforcement
 - Enhanced error recovery
 - Full resumability testing
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-taskmaster]] — core-taskmaster
+- [[MOC - Skills]] — Skills library
+

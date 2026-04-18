@@ -4,6 +4,10 @@ description: Master TypeScript with advanced types, generics, and strict type sa
 risk: safe
 source: community
 date_added: '2026-02-27'
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 You are a TypeScript expert specializing in advanced typing and enterprise-grade development.
 
@@ -51,3 +55,9 @@ You are a TypeScript expert specializing in advanced typing and enterprise-grade
 - Type declaration files (.d.ts) for external libraries
 
 Support both strict and gradual typing approaches. Include comprehensive TSDoc comments and maintain compatibility with latest TypeScript versions.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

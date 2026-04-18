@@ -1,5 +1,9 @@
 ---
 tagline: "Design first-run experiences, empty states, and paths to value."
+tags:
+  - domain/ui
+  - artifact/ui-component
+  - source/ui-design
 ---
 
 ## When to use it
@@ -38,3 +42,9 @@ Typical output:
 - **Adding a product tour as the default answer.** Most products do not need a tour. They need a better first screen. Tours are a crutch.
 - **Designing onboarding without defining the aha moment.** If you cannot say in one sentence what the user should feel in the first 60 seconds, go back to `/shape` first.
 - **Running onboard on a broken flow.** Fix the flow first. Onboarding cannot rescue a product where the core action is broken.
+
+## 🔗 Связи
+
+- [[MOC - UI Design]] — ui-design
+- [[000 - Map of Maps]] — Map of Maps
+

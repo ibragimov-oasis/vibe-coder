@@ -4,6 +4,10 @@ description: "Automate Klaviyo tasks via Rube MCP (Composio): manage email/SMS c
 risk: safe
 source: community
 date_added: "2026-02-27"
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 # Klaviyo Automation via Rube MCP
@@ -192,3 +196,9 @@ fields__template=['name', 'html', 'text']
 
 ## When to Use
 This skill is applicable to execute the workflow or actions described in the overview.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

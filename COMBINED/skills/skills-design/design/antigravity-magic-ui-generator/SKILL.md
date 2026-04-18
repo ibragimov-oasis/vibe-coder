@@ -4,6 +4,10 @@ description: Utilizes Magic by 21st.dev to generate, compare, and integrate mult
 risk: safe
 source: community
 date_added: "2026-03-07"
+tags:
+  - domain/ui
+  - artifact/skill
+  - source/skills-design
 ---
 
 # Magic UI Generator
@@ -39,3 +43,10 @@ Trigger this skill whenever:
 - **Choice First**: Always offer multiple premium design variations before writing the final code to the project.
 - **Clean Code**: Ensure all generated code is clean TypeScript, accessible, and responsive.
 - **Full Ownership**: Treat all generated components as fully owned.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-design]] — Category: skills-design
+- [[MOC - UI Design]] — Design & UI
+

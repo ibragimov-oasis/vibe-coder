@@ -229,3 +229,9 @@ WELL, wstETH, rETH, cbBTC.
 # Should print Base chain ID (8453), latest block, gas price, and ETH price
 python3 ~/.hermes/skills/blockchain/base/scripts/base_client.py stats
 ```
+
+## 🔗 Связи
+
+- [[000 - Map of Maps]] — REPO_DOCS
+- [[000 - Map of Maps]] — Map of Maps
+

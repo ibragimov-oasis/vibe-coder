@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # 🚀 Release v2.6.0-alpha.2 - Agentic-Flow Integration & Security Enhancements
 
 **Release Date:** TBD (Pending Final Review)
@@ -656,3 +663,10 @@ KNOWN ISSUES:
 **Confidence Level:** HIGH
 **Production Ready:** YES (after Phase 2 API alignment)
 **Security Level:** MAXIMUM
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

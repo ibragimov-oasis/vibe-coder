@@ -2,6 +2,10 @@
 sidebar_position: 6
 title: "Context Compression & Prompt Caching"
 description: "How Hermes compresses long conversations and applies provider-side prompt caching"
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-hermes
 ---
 
 # Context Compression & Prompt Caching
@@ -70,3 +74,10 @@ After compression, Hermes may re-inject compact operational state such as:
 - [Prompt Assembly](./prompt-assembly.md)
 - [Session Storage](./session-storage.md)
 - [Agent Loop Internals](./agent-loop.md)
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/hermes]] — Hermes
+- [[000 - Map of Maps]] — Map of Maps
+

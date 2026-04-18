@@ -78,3 +78,9 @@ Output: Список Issues (markdown или GitHub API)
 
 - [[orchestration/core-taskmaster]] — Task Master: create_issue
 - [[agents/mega-planner]] — интегрирует prd-to-issues в workflow
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Parent MOC
+- [[000 - Map of Maps]] — Map of Maps
+

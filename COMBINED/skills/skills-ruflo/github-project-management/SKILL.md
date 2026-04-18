@@ -29,7 +29,10 @@ related_skills:
   - github-pr-workflow
   - github-release-management
   - sparc-orchestrator
-estimated_time: 30-45 minutes
+
+  - domain/skills
+  - artifact/skill
+  - source/skills-rufloestimated_time: 30-45 minutes
 ---
 
 # GitHub Project Management
@@ -1275,3 +1278,9 @@ npx ruv-swarm github board-kpis
 **Last Updated**: 2025-10-19
 **Version**: 2.0.0
 **Maintainer**: Claude Code
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-ruflo]] — Category: skills-ruflo
+

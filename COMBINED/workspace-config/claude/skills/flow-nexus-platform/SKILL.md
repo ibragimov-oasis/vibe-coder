@@ -2,6 +2,10 @@
 name: flow-nexus-platform
 description: |
   Comprehensive Flow Nexus platform management - authentication, sandboxes, app deployment, payments, and challenges
+tags:
+  - domain/skills
+  - artifact/config
+  - source/workspace-config
 ---
 
 # Flow Nexus Platform Management
@@ -1152,3 +1156,9 @@ mcp__flow-nexus__realtime_subscribe({
 ---
 
 *This skill consolidates 6 Flow Nexus command modules into a single comprehensive platform management interface.*
+
+## 🔗 Связи
+
+- [[MOC - System]] — workspace-config
+- [[000 - Map of Maps]] — Map of Maps
+

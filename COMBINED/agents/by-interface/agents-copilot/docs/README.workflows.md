@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/agent
+  - source/by-interface/agents-copilot
+---
+
 # ⚡ Agentic Workflows
 
 [Agentic Workflows](https://github.github.com/gh-aw) are AI-powered repository automations that run coding agents in GitHub Actions. Defined in markdown with natural language instructions, they enable event-triggered and scheduled automation with built-in guardrails and security-first design.
@@ -40,3 +47,9 @@ See [CONTRIBUTING.md](../CONTRIBUTING.md#adding-agentic-workflows) for guideline
 | [OSS Release Compliance Checker](../workflows/ospo-release-compliance-checker.md) | Analyzes a target repository against open source release requirements and posts a detailed compliance report as an issue comment. | issues, workflow_dispatch |
 | [Relevance Check](../workflows/relevance-check.md) | Slash command to evaluate whether an issue or pull request is still relevant to the project | slash_command, roles |
 | [Relevance Summary](../workflows/relevance-summary.md) | Manually triggered workflow that summarizes all open issues and PRs with a /relevance-check response into a single issue | workflow_dispatch |
+
+## 🔗 Связи
+
+- [[MOC - Agents]] — Agent catalog
+- [[agents/agents-copilot]] — Interface: agents-copilot
+

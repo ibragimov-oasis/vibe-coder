@@ -2,6 +2,10 @@
 name: ai-first-engineering
 description: Engineering operating model for teams where AI agents generate a large share of implementation output.
 origin: ECC
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-everything-cc
 ---
 
 # AI-First Engineering
@@ -49,3 +53,9 @@ Raise testing bar for generated code:
 - required regression coverage for touched domains
 - explicit edge-case assertions
 - integration checks for interface boundaries
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

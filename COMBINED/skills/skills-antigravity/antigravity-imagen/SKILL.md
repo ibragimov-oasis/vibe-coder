@@ -4,6 +4,10 @@ description: "AI image generation skill powered by Google Gemini, enabling seaml
 risk: safe
 source: "https://github.com/sanjay3290/ai-skills/tree/main/skills/imagen"
 date_added: "2026-02-27"
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 # Imagen - AI Image Generation Skill
@@ -76,3 +80,9 @@ User: "Create a diagram showing microservices architecture"
 User: "Generate a placeholder avatar image for the user profile component"
 -> Creates image in appropriate size for component use
 ```
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

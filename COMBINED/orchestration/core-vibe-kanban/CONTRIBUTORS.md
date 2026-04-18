@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-vibe-kanban
+---
+
 # Contributing & Change Control
 
 ## Change Control Policy
@@ -59,3 +66,9 @@ Contributors are expected to follow the project's coding standards throughout th
 ## Scope
 
 These procedures apply to all production branches in this repository.
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-vibe-kanban]] — core-vibe-kanban
+

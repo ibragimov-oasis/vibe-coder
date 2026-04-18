@@ -4,6 +4,10 @@ description: "Production-ready Terraform module patterns for AWS, Azure, and GCP
 risk: unknown
 source: community
 date_added: "2026-02-27"
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 # Terraform Module Library
@@ -262,3 +266,9 @@ func TestVPCModule(t *testing.T) {
 
 - `multi-cloud-architecture` - For architectural decisions
 - `cost-optimization` - For cost-effective designs
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

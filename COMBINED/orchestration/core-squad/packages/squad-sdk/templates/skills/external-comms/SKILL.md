@@ -17,6 +17,10 @@ tools:
   - name: "gh CLI"
     description: "Fallback for GitHub issue comments and discussions workflows"
     when: "Use gh issue list/comment and gh api or gh api graphql when MCP coverage is incomplete"
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-squad
 ---
 
 ## Context
@@ -327,3 +331,10 @@ That context will help us narrow down what's happening. Appreciate it!
 - ❌ Drafting pull request responses in Phase 1 (issues/discussions only)
 - ❌ Treating templates like loose examples instead of reusable drafting assets
 - ❌ Asking for more info without specific requests
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/squad]] — Squad
+- [[000 - Map of Maps]] — Map of Maps
+

@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/reference
+  - source/reference
+---
+
 # Playwright E2E Testing .cursorrules prompt file
 
 Author: Peter M Souza Jr
@@ -17,3 +24,9 @@ This prompt helps web developers create reliable, maintainable end-to-end test s
 ## Overview of .cursorrules prompt
 
 The .cursorrules file provides guidance for QA engineers and developers creating end-to-end UI tests with Playwright. It takes a TypeScript-aware approach, automatically detecting and adapting to TypeScript projects when present. The prompt focuses exclusively on end-to-end testing, emphasizing critical user flows and proper test structure. It promotes best practices like using test IDs or semantic selectors, leveraging Playwright's auto-waiting, mocking external dependencies with page.route, and creating focused test files with 3-5 tests each. The prompt includes a comprehensive example of a login test that demonstrates proper setup, API mocking, interaction patterns, and assertions for both success and error scenarios. Tests created with this prompt validate navigation paths, state updates, and error handling to ensure reliable applications.
+
+## 🔗 Связи
+
+- [[MOC - System]] — reference
+- [[000 - Map of Maps]] — Map of Maps
+

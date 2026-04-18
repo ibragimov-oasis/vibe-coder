@@ -1,6 +1,10 @@
 ---
 paths:
   - "**/*.rs"
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
 ---
 # Rust Security
 
@@ -139,3 +143,9 @@ match order_service.find_by_id(id) {
 
 See skill: `rust-patterns` for unsafe code guidelines and ownership patterns.
 See skill: `security-review` for general security checklists.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

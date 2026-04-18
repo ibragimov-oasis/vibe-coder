@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # Roadmap Templates
 
 ## Now / Next / Later Template
@@ -42,3 +49,9 @@
 Guideline:
 - Every initiative should map to an objective or key result.
 - Mark items without alignment as candidate de-scope.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

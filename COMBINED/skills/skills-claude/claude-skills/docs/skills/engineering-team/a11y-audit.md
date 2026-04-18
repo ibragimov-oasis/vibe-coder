@@ -1,6 +1,10 @@
 ---
 title: "Accessibility Audit — Agent Skill & Codex Plugin"
 description: "Accessibility audit skill for scanning, fixing, and verifying WCAG 2.2 Level A and AA compliance across React, Next.js, Vue, Angular, Svelte, and. Agent skill for Claude Code, Codex CLI, Gemini CLI, OpenClaw."
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
 ---
 
 # Accessibility Audit
@@ -1371,3 +1375,9 @@ Authentication must not require cognitive function tests (e.g., remembering a pa
 **License:** MIT
 **Author:** Alireza Rezvani
 **Version:** 2.1.2
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

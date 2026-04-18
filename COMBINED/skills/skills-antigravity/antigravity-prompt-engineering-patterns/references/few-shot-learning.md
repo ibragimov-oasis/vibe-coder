@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # Few-Shot Learning Guide
 
 ## Overview
@@ -367,3 +374,9 @@ class AdaptiveExampleSelector:
 - Pre-built example selectors for common tasks
 - Evaluation frameworks for few-shot performance
 - Token counting utilities for different models
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

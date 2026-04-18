@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-omc
+---
+
 # Demo 2: Ultrawork - Maximum Parallelism
 
 **Duration:** 3 minutes
@@ -450,3 +457,10 @@ A: Yes! Use `/oh-my-claudecode:swarm N:agent-type "task"` for explicit control. 
 
 **Q: What's the token cost of ultrawork vs serial?**
 A: Similar total tokens, but compressed wall-clock time. You're paying for parallelism, not more work. Think: 4 workers × 2 minutes vs 1 worker × 8 minutes.
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-omc]] — core-omc
+- [[MOC - Skills]] — Skills library
+

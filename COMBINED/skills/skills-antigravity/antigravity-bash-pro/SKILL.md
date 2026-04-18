@@ -10,6 +10,10 @@ description: 'Master of defensive Bash scripting for production automation, CI/C
 risk: critical
 source: community
 date_added: '2026-02-27'
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 ## Use this skill when
 
@@ -313,3 +317,9 @@ date_added: '2026-02-27'
 - [Bash Security Best Practices](https://github.com/carlospolop/PEASS-ng) - Security-focused shell script patterns
 - [Awesome Bash](https://github.com/awesome-lists/awesome-bash) - Curated list of Bash resources and tools
 - [Pure Bash Bible](https://github.com/dylanaraps/pure-bash-bible) - Collection of pure bash alternatives to external commands
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

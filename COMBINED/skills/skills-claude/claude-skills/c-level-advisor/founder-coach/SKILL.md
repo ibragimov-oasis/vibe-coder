@@ -9,6 +9,10 @@ metadata:
   domain: founder-development
   updated: 2026-03-05
   frameworks: leadership-growth, founder-toolkit
+tags:
+  - domain/agents
+  - artifact/skill
+  - source/skills-claude
 ---
 
 # Founder Development Coach
@@ -298,3 +302,10 @@ Most founders are at Level 0. Level 2 is a reasonable target. Level 3 is a strat
 ## Detailed References
 - `references/leadership-growth.md` — Maxwell levels, situational leadership, founder-to-CEO transition
 - `references/founder-toolkit.md` — Weekly reflection, energy audit, delegation matrix, 1:1 templates
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+- [[MOC - Agents]] — Claude agents
+

@@ -4,6 +4,10 @@ description: "You are a cloud cost optimization expert specializing in reducing 
 risk: safe
 source: community
 date_added: "2026-02-27"
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 # Cloud Cost Optimization
@@ -45,3 +49,9 @@ $ARGUMENTS
 ## Resources
 
 - `resources/implementation-playbook.md` for detailed cost analysis and tooling.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

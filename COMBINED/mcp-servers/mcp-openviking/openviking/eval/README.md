@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/mcp
+  - artifact/mcp-server
+  - source/mcp-servers
+---
+
 # OpenViking Eval 模块
 
 OpenViking 的评估模块，提供 RAG 系统的多维度评估能力。
@@ -327,3 +334,9 @@ python -m openviking.eval.ragas.rag_eval --docs_dir ./docs --question_file ./que
 - IO 录制器：[recorder/__init__.py](./recorder/__init__.py)
 - 示例数据：[datasets/local_doc_example_glm5.jsonl](./datasets/local_doc_example_glm5.jsonl)
 - 测试文件：[tests/eval/](../../tests/eval/)、[tests/storage/test_recorder.py](../../tests/storage/test_recorder.py)
+
+## 🔗 Связи
+
+- [[MOC - MCP Servers]] — mcp-servers
+- [[000 - Map of Maps]] — Map of Maps
+

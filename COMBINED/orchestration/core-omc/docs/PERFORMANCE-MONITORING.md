@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-omc
+---
+
 # Performance Monitoring Guide
 
 Comprehensive guide to monitoring, debugging, and optimizing Claude Code and oh-my-claudecode performance.
@@ -503,3 +510,10 @@ cleanupReplayFiles(directory: string): number
 - [Analytics System](./ANALYTICS-SYSTEM.md) - Historical note on the removed analytics subsystem and current replacements
 - [Reference](./REFERENCE.md) - Complete feature reference
 - [Architecture](./ARCHITECTURE.md) - System architecture overview
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-omc]] — core-omc
+- [[MOC - Skills]] — Skills library
+

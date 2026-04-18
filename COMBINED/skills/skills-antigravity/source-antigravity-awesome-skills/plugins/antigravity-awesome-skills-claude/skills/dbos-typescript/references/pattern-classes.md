@@ -3,6 +3,9 @@ title: Use DBOS with Class Instances
 impact: MEDIUM
 impactDescription: Enables configurable workflow instances with recovery support
 tags: pattern, class, instance, ConfiguredInstance
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
 ---
 
 ## Use DBOS with Class Instances
@@ -65,3 +68,9 @@ Key requirements:
 - Event registration decorators like `@DBOS.scheduled` cannot be applied to instance methods
 
 Reference: [Using TypeScript Objects](https://docs.dbos.dev/typescript/tutorials/instantiated-objects)
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

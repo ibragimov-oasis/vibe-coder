@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/agent
+  - source/by-interface/agents-copilot
+---
+
 # GitHub Copilot SDK Cookbook
 
 This cookbook collects small, focused recipes showing how to accomplish common tasks with the GitHub Copilot SDK across languages. Each recipe is intentionally short and practical, with copy‑pasteable snippets and pointers to fuller examples and tests.
@@ -92,3 +99,9 @@ go run <filename>.go
 ## Status
 
 Cookbook structure is complete with 7 recipes across all 4 supported languages. Each recipe includes both markdown documentation and runnable examples.
+
+## 🔗 Связи
+
+- [[MOC - Agents]] — Agent catalog
+- [[agents/agents-copilot]] — Interface: agents-copilot
+

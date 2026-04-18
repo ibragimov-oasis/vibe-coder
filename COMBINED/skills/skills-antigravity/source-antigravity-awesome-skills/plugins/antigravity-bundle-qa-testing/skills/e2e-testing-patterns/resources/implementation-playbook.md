@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # E2E Testing Patterns Implementation Playbook
 
 This file contains detailed patterns, checklists, and code samples referenced by the skill.
@@ -529,3 +536,9 @@ await page.pause();  // Pauses execution, opens inspector
 - **assets/e2e-testing-checklist.md**: What to test with E2E
 - **assets/selector-strategies.md**: Finding reliable selectors
 - **scripts/test-analyzer.ts**: Analyze test flakiness and duration
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

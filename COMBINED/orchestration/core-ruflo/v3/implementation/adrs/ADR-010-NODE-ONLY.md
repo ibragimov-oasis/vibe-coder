@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # ADR-010: Remove Deno Support
 
 **Status:** Implemented
@@ -84,3 +91,10 @@ export { Agent };
 
 **Implementation Date:** 2026-01-04
 **Status:** ✅ Complete
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

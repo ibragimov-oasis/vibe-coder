@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # ADR-048: Claude Code Auto Memory Integration
 
 **Status:** Implemented
@@ -680,3 +687,10 @@ Based on these discoveries, the following enhancements should be considered for 
 - ADR-018: Claude Code Deep Integration Architecture
 - ADR-017: RuVector Integration
 - Claude Code v2.1.37 binary analysis (2026-02-08)
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

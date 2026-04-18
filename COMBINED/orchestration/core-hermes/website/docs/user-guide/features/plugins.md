@@ -1,5 +1,9 @@
 ---
 sidebar_position: 20
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-hermes
 ---
 
 # Plugins
@@ -110,3 +114,10 @@ plugins:
 In a running session, `/plugins` shows which plugins are currently loaded.
 
 See the **[full guide](/docs/guides/build-a-hermes-plugin)** for handler contracts, schema format, hook behavior, error handling, and common mistakes.
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/hermes]] — Hermes
+- [[000 - Map of Maps]] — Map of Maps
+

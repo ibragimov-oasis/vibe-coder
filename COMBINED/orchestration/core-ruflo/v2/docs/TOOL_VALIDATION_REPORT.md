@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # Claude-Flow Tool Validation Report
 **Date:** 2025-10-25
 **Version:** 2.7.14 (package.json shows 2.7.12, binary shows 2.7.14)
@@ -664,3 +671,10 @@ The system is stable, performant, and fully functional. Minor issues identified 
 2. Consider adding metrics dashboard command
 3. Monitor ruv-swarm timeout behavior in production
 4. Document version 2.7.14 changes in CHANGELOG.md
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-ruflo]] — core-ruflo
+- [[MOC - Skills]] — Skills library
+

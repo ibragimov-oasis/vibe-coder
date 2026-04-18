@@ -1,5 +1,9 @@
 ---
 description: テスト駆動開発ワークフローを強制します。インターフェースをスキャフォールドし、最初にテストを生成し、次にテストに合格するための最小限のコードを実装します。80%以上のカバレッジを保証します。
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
 ---
 
 # TDDコマンド
@@ -324,3 +328,9 @@ REDフェーズをスキップしてはいけません。テストの前にコ�
 
 また、以下の場所にある`tdd-workflow`スキルを参照できます:
 `~/COMBINED/workspace-config/claude/skills/tdd-workflow/`
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

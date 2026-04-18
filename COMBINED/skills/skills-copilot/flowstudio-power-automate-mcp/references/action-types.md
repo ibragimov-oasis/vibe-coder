@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-copilot
+---
+
 # FlowStudio MCP — Action Types Reference
 
 Compact lookup for recognising action types returned by `get_live_flow`.
@@ -77,3 +84,9 @@ The `operationId` tells you the specific operation (e.g. `GetItems`, `SendEmailV
 | `@empty(value)` | True if null/empty string/empty array |
 | `@union(a, b)` | Merge arrays — **first wins** on duplicates |
 | `@result('Scope')` | Array of action outcomes inside a Scope |
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-copilot]] — Category: skills-copilot
+

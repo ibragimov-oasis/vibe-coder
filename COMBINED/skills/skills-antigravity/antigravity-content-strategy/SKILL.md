@@ -6,6 +6,10 @@ source: "https://github.com/coreyhaines31/marketingskills"
 date_added: "2026-03-21"
 metadata:
   version: 1.1.0
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 # Content Strategy
@@ -372,3 +376,9 @@ Visual or structured representation of how content interconnects.
 - **site-architecture**: For page hierarchy, navigation design, and URL structure
 - **email-sequence**: For email-based content
 - **social-content**: For social media content
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

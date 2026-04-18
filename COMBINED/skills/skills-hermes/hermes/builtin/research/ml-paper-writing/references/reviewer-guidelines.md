@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-hermes
+---
+
 # Reviewer Guidelines & Evaluation Criteria
 
 This reference documents how reviewers evaluate papers at major ML/AI conferences, helping authors anticipate and address reviewer concerns.
@@ -365,3 +372,9 @@ Before submitting, ask yourself:
 - [ ] What specifically is new here?
 - [ ] How does this differ from closest related work?
 - [ ] Is the contribution non-trivial?
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-hermes]] — Category: skills-hermes
+

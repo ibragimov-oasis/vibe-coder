@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-copilot
+---
+
 # Images in Issues and Comments
 
 How to embed images in GitHub issue bodies and comments programmatically via the CLI.
@@ -114,3 +121,9 @@ await browser.close();
 - **`upload/policies/assets` requires a browser session.** Do not attempt to call this endpoint from the CLI.
 - **Base64 encoding for large files** can hit API payload limits. The Contents API has a ~100MB file size limit but practical limits are lower for base64-encoded payloads.
 - **Email notifications** will not render images that require authentication. If email readability matters, use the browser upload method.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-copilot]] — Category: skills-copilot
+

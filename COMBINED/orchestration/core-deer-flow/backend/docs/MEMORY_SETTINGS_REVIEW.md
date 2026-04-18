@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-deer-flow
+---
+
 # Memory Settings Review
 
 Use this when reviewing the Memory Settings add/edit flow locally with the fewest possible manual steps.
@@ -61,3 +68,10 @@ Use this when reviewing the Memory Settings add/edit flow locally with the fewes
 - Default local runtime target: `backend/.deer-flow/memory.json`
 
 The loader script creates a timestamped backup automatically before overwriting an existing runtime memory file.
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-deer-flow]] — core-deer-flow
+- [[MOC - Skills]] — Skills library
+

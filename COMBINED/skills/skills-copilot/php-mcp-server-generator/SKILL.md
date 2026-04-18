@@ -1,6 +1,10 @@
 ---
 name: php-mcp-server-generator
 description: 'Generate a complete PHP Model Context Protocol server project with tools, resources, prompts, and tests using the official PHP SDK'
+tags:
+  - domain/agents
+  - artifact/skill
+  - source/skills-copilot
 ---
 
 # PHP MCP Server Generator
@@ -520,3 +524,10 @@ npx @modelcontextprotocol/inspector php server.php
 ```
 
 Now generate the complete project based on user requirements!
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-copilot]] — Category: skills-copilot
+- [[MOC - Agents]] — Copilot agents
+

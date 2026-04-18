@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # Criterios de Analise - Skill Sentinel
 
 ## Scoring por Dimensao
@@ -94,3 +101,9 @@ Pesos padrao:
 | 50-74 | Adequado |
 | 25-49 | Precisa melhorar |
 | 0-24 | Critico |
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

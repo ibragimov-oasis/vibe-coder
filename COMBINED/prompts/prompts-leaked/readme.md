@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/prompts
+  - artifact/prompt
+  - source/prompts-leaked
+---
+
 # System Prompts Leaks
 
 [Claude System Prompt](https://asgeirtj.github.io/system_prompts_leaks/Anthropic/claude.html)
@@ -15,3 +22,9 @@ Feel free to do Pull Requests
 ## Star History
 
 [![Star History Chart](https://api.star-history.com/svg?repos=asgeirtj/system_prompts_leaks&type=Date)](https://www.star-history.com/#asgeirtj/system_prompts_leaks&Date)
+
+## 🔗 Связи
+
+- [[MOC - Prompts]] — Prompt library
+- [[MOC - System]] — System documentation
+

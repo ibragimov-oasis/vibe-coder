@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-taskmaster
+---
+
 # Task Master JSON Schemas
 
 This directory contains JSON schemas for validating Task Master prompt templates. These schemas provide IDE support, validation, and better developer experience when working with prompt templates.
@@ -399,4 +406,10 @@ The schema includes custom validation for:
 - **`$id` Field**: Use GitHub blob URLs for stable schema identification
 - **Local References**: Use relative paths for development and testing
 - **External Tools**: GitHub blob URLs provide stable, version-controlled access
-- **Documentation**: Link to GitHub for public schema access 
+- **Documentation**: Link to GitHub for public schema access
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-taskmaster]] — core-taskmaster
+

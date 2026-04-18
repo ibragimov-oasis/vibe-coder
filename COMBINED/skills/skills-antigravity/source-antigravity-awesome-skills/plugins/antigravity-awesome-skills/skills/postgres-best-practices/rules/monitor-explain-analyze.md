@@ -3,6 +3,9 @@ title: Use EXPLAIN ANALYZE to Diagnose Slow Queries
 impact: LOW-MEDIUM
 impactDescription: Identify exact bottlenecks in query execution
 tags: explain, analyze, diagnostics, query-plan
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
 ---
 
 ## Use EXPLAIN ANALYZE to Diagnose Slow Queries
@@ -43,3 +46,9 @@ Key things to look for:
 ```
 
 Reference: [EXPLAIN](https://supabase.com/docs/guides/database/inspect)
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

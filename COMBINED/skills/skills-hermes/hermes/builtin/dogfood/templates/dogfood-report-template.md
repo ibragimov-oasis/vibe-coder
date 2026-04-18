@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-hermes
+---
+
 # Dogfood QA Report
 
 **Target:** {target_url}
@@ -84,3 +91,9 @@ MEDIA:{screenshot_path}
 ## Notes
 
 {any_additional_observations_or_recommendations}
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-hermes]] — Category: skills-hermes
+

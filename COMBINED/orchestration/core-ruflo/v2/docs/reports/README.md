@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # 📊 Reports & Analysis
 
 This directory contains validation reports, release notes, and comprehensive analysis documents.
@@ -47,3 +54,9 @@ Deep technical analysis and comprehensive reviews.
 - **Analysis Reports**: Deep technical analysis, performance reviews, and security audits
 
 Navigate to specific report directories for detailed documentation.
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-ruflo]] — core-ruflo
+

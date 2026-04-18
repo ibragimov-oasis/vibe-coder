@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-hermes
+---
+
 # Accelerate Performance Tuning
 
 ## Profiling
@@ -523,3 +530,9 @@ nvidia-smi nvlink -s
 - PyTorch Profiler: https://pytorch.org/tutorials/recipes/recipes/profiler_recipe.html
 - NCCL Tuning: https://docs.nvidia.com/deeplearning/nccl/user-guide/docs/env.html
 - Flash Attention: https://github.com/Dao-AILab/flash-attention
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-hermes]] — Category: skills-hermes
+

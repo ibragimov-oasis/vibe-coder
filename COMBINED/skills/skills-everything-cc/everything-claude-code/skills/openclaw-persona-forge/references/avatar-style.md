@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
+---
+
 # Step 5：头像风格 & 生图
 
 所有龙虾头像**必须使用统一的视觉风格**，确保龙虾家族的风格一致性。
@@ -122,3 +129,9 @@ The key silhouette recognition points at small size are:
 
 > 满意吗？不满意我可以调整 [具体可调项] 后重新生成。
 ```
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

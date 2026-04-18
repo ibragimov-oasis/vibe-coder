@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # Marketing Team Expansion — Execution Plan
 
 ## Final Architecture
@@ -332,3 +339,9 @@ Run same audit as C-Suite:
 ---
 
 *Ready for execution on Reza's go.*
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

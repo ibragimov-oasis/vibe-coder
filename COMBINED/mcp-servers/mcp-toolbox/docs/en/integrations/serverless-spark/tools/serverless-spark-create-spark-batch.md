@@ -4,7 +4,10 @@ type: docs
 weight: 2
 description: >
   A "serverless-spark-create-spark-batch" tool submits a Spark batch to run asynchronously.
-
+tags:
+  - domain/mcp
+  - artifact/mcp-server
+  - source/mcp-servers
 ---
 
 ## About
@@ -100,3 +103,9 @@ detailed information.
 | runtimeConfig     |   map    |    false     | [Runtime config](https://docs.cloud.google.com/dataproc-serverless/docs/reference/rest/v1/RuntimeConfig) for all batches created with this tool.         |
 | environmentConfig |   map    |    false     | [Environment config](https://docs.cloud.google.com/dataproc-serverless/docs/reference/rest/v1/EnvironmentConfig) for all batches created with this tool. |
 | authRequired      | string[] |    false     | List of auth services required to invoke this tool.                                                                                                      |
+
+## 🔗 Связи
+
+- [[MOC - MCP Servers]] — mcp-servers
+- [[000 - Map of Maps]] — Map of Maps
+

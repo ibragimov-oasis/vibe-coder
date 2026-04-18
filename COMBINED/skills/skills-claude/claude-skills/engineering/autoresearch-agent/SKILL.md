@@ -7,6 +7,10 @@ metadata:
   author: Alireza Rezvani
   category: engineering
   updated: 2026-03-13
+tags:
+  - domain/agents
+  - artifact/skill
+  - source/skills-claude
 ---
 
 # Autoresearch Agent
@@ -306,3 +310,10 @@ clawhub install cs-autoresearch-agent
 - **senior-ml-engineer** — ML architecture decisions. Complementary — use for initial design, then autoresearch for optimization.
 - **tdd-guide** — test-driven development. Complementary — tests can be the evaluation function.
 - **skill-security-auditor** — audit skills before publishing. NOT for optimization loops.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+- [[MOC - Agents]] — Claude agents
+

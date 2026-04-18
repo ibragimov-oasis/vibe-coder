@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # Python Packaging Implementation Playbook
 
 This file contains detailed patterns, checklists, and code samples referenced by the skill.
@@ -867,3 +874,9 @@ recursive-exclude * *.py[co]
 8. **Document thoroughly** with README and docstrings
 9. **Include LICENSE** file
 10. **Automate publishing** with CI/CD
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

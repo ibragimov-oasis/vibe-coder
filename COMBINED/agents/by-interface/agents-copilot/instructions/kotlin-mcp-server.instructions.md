@@ -1,6 +1,10 @@
 ---
 description: 'Best practices and patterns for building Model Context Protocol (MCP) servers in Kotlin using the official io.modelcontextprotocol:kotlin-sdk library.'
 applyTo: "**/*.kt, **/*.kts, **/build.gradle.kts, **/settings.gradle.kts"
+tags:
+  - domain/agents
+  - artifact/agent
+  - source/by-interface/agents-copilot
 ---
 
 # Kotlin MCP Server Development Guidelines
@@ -479,3 +483,9 @@ class MyServer(
     }
 }
 ```
+
+## 🔗 Связи
+
+- [[MOC - Agents]] — Agent catalog
+- [[agents/agents-copilot]] — Interface: agents-copilot
+

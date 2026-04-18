@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # Funnel Optimization Framework
 
 A stage-by-stage guide to diagnosing and improving marketing and sales funnel performance. Use this framework alongside the funnel_analyzer.py tool to identify bottlenecks and implement targeted optimizations.
@@ -300,3 +307,9 @@ When using the funnel analyzer's segment comparison feature:
 | Segment deep-dive | Monthly | Channel and cohort comparisons |
 | Strategic funnel review | Quarterly | Funnel structure, stage definitions, benchmark updates |
 | Annual funnel redesign | Annually | Stage definitions, measurement methodology, tool updates |
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

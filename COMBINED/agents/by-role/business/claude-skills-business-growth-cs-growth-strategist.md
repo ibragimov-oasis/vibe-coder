@@ -5,6 +5,10 @@ skills: business-growth
 domain: business-growth
 model: sonnet
 tools: [Read, Write, Bash, Grep, Glob]
+tags:
+  - domain/agents
+  - artifact/agent
+  - source/by-role/business
 ---
 
 # cs-growth-strategist
@@ -64,3 +68,9 @@ Growth-focused operator covering the full revenue lifecycle: pipeline management
 
 - [cs-product-manager](../product/cs-product-manager.md) -- Product roadmap alignment for sales positioning and feature prioritization
 - [cs-financial-analyst](../finance/cs-financial-analyst.md) -- Revenue forecasting validation and financial modeling support
+
+## 🔗 Связи
+
+- [[MOC - Agents]] — Agent catalog
+- [[agents/business]] — Role: business
+

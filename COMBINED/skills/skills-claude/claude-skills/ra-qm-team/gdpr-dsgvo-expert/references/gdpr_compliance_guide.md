@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # GDPR Compliance Guide
 
 Practical implementation guidance for EU General Data Protection Regulation compliance.
@@ -334,3 +341,9 @@ Current adequate countries/territories:
 - [ ] Portability capability
 - [ ] Objection handling process
 - [ ] Response within deadlines
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

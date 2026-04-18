@@ -1,6 +1,10 @@
 ---
 description: Start Archon from the feature branch, use agent-browser to verify the fix works correctly
 argument-hint: (none - reads from artifacts)
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-archon
 ---
 
 # E2E Testing: Feature Branch (Verify Fix)
@@ -347,3 +351,10 @@ Write to `$ARTIFACTS_DIR/e2e-feature.md`:
 - **NO_REGRESSIONS**: No new issues introduced
 - **ARCHON_STOPPED**: Processes killed, ports freed — **VERIFY ports are free before finishing**
 - **ARTIFACT_WRITTEN**: `$ARTIFACTS_DIR/e2e-feature.md` created
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/archon]] — Archon
+- [[000 - Map of Maps]] — Map of Maps
+

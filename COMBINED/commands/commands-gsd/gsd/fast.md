@@ -9,6 +9,10 @@ allowed-tools:
   - Bash
   - Grep
   - Glob
+tags:
+  - domain/skills
+  - artifact/command
+  - source/commands
 ---
 
 <objective>
@@ -28,3 +32,9 @@ you could describe in one sentence and execute in under 2 minutes.
 <process>
 Execute the fast workflow from @~/.claude/get-shit-done/workflows/fast.md end-to-end.
 </process>
+
+## 🔗 Связи
+
+- [[MOC - System]] — commands
+- [[000 - Map of Maps]] — Map of Maps
+

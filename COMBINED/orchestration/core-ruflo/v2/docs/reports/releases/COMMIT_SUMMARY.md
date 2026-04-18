@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # Commit Summary: Agentic-Flow Integration Complete
 
 **Commit:** `ee0f5e555` - [feat] Complete agentic-flow integration with execution layer fixes
@@ -245,3 +252,10 @@ memory store config "key=sk-ant-xxx" --redact
 **Commit Hash:** ee0f5e555
 **Branch:** feature/agentic-flow-integration
 **Status:** ✅ READY FOR RELEASE
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

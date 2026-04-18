@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/command
+  - source/claude-commands
+---
+
 # stream-chain run
 
 Execute a custom stream chain with your own prompts.
@@ -68,3 +75,9 @@ Next step: Optimize for performance"
 2. **Logical Flow**: Order prompts in logical sequence
 3. **Appropriate Timeouts**: Increase for complex tasks
 4. **Verification**: Add verification steps in chain
+
+## 🔗 Связи
+
+- [[MOC - System]] — System commands
+- [[MOC - Skills]] — Skills library
+

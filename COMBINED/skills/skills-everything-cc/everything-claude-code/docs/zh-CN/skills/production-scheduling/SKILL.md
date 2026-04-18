@@ -8,6 +8,10 @@ metadata:
   author: evos
   clawdbot:
     emoji: ""
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-everything-cc
 ---
 
 # 生产排程
@@ -228,3 +232,9 @@ metadata:
 
 * 将此技能与您的约束层次结构、计划冻结窗口策略和加急批准阈值结合使用。
 * 在工作流程旁记录实际计划遵守失败情况及根本原因，以便排序规则随时间改进。
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

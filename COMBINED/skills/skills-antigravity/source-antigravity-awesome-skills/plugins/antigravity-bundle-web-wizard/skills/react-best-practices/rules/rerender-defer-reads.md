@@ -3,6 +3,9 @@ title: Defer State Reads to Usage Point
 impact: MEDIUM
 impactDescription: avoids unnecessary subscriptions
 tags: rerender, searchParams, localStorage, optimization
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
 ---
 
 ## Defer State Reads to Usage Point
@@ -37,3 +40,9 @@ function ShareButton({ chatId }: { chatId: string }) {
   return <button onClick={handleShare}>Share</button>
 }
 ```
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

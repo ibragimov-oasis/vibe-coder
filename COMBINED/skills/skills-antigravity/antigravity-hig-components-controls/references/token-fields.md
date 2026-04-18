@@ -1,4 +1,11 @@
 ---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
+---
 title: "Token fields | Apple Developer Documentation"
 source: https://developer.apple.com/design/human-interface-guidelines/token-fields
 
@@ -45,4 +52,9 @@ Tokens can also represent search terms in some situations; for guidance, see [Se
 #### [Developer documentation](https://developer.apple.com/design/human-interface-guidelines/token-fields#Developer-documentation)
 
 [`NSTokenField`](https://developer.apple.com/documentation/AppKit/NSTokenField) — AppKit
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
 

@@ -4,6 +4,10 @@ about: Give us specific feedback on the product/approach/tech
 title: 'feedback: '
 labels: feedback
 assignees: ''
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-taskmaster
 ---
 
 ### Feedback Summary
@@ -29,3 +33,10 @@ Attach screenshots, logs, or examples that illustrate the feedback.
 ### Additional Notes
 
 Any additional context or related information.
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-taskmaster]] — core-taskmaster
+- [[MOC - Skills]] — Skills library
+

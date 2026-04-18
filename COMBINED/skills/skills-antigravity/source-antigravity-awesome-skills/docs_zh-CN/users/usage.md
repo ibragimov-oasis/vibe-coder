@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # 使用指南：如何实际使用这些技能
 
 > **安装后感到困惑？**本指南将一步步指导你接下来该做什么。
@@ -422,3 +429,9 @@ Use @skill-creator to help me build a custom skill for [your task]
 4. [提交问题](https://github.com/sickn33/antigravity-awesome-skills/issues)以帮助我们改进此指南！
 
 记住：你并不孤单！这个项目的全部意义是让 AI 助手更易于使用。如果本指南没有帮助，请告诉我们，以便我们修复它。🙌
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

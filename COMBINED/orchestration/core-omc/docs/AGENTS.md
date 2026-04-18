@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-omc
+---
+
 <!-- Parent: ../AGENTS.md -->
 <!-- Generated: 2026-01-31 | Updated: 2026-02-24 -->
 
@@ -100,3 +107,10 @@ None - pure markdown files.
 <!-- MANUAL:
 - When documenting `plan`/`ralplan`, include consensus structured deliberation (RALPLAN-DR) and note `--deliberate` high-risk mode behavior.
 -->
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-omc]] — core-omc
+- [[MOC - Skills]] — Skills library
+

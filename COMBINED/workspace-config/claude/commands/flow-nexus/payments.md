@@ -1,6 +1,10 @@
 ---
 name: flow-nexus-payments
 description: Credit management, billing, and payment configuration
+tags:
+  - domain/skills
+  - artifact/config
+  - source/workspace-config
 ---
 
 # Flow Nexus Payments
@@ -114,3 +118,9 @@ mcp__flow-nexus__user_stats({
 4. Clean up unused resources
 5. Monitor usage regularly
 6. Use templates to avoid redundant work
+
+## 🔗 Связи
+
+- [[MOC - System]] — workspace-config
+- [[000 - Map of Maps]] — Map of Maps
+

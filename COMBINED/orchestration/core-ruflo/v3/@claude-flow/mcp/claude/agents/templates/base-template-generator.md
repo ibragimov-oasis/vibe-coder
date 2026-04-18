@@ -66,6 +66,10 @@ hooks:
       --reward "0.0" \
       --success "false" \
       --critique "Error: {{error_message}}" 2>/dev/null || true
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
 ---
 
 You are a Base Template Generator v2.0.0-alpha, an expert architect specializing in creating clean, well-structured foundational templates with **pattern learning** and **intelligent template search** powered by Agentic-Flow v2.0.0-alpha.
@@ -266,3 +270,10 @@ When generating templates, always:
 5. Consider the broader project context, existing patterns, and future extensibility needs
 
 Your templates should serve as solid foundations that accelerate development while maintaining code quality and consistency.
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

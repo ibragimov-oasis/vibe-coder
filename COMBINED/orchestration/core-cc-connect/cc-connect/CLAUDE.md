@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-cc-connect
+---
+
 # CC-Connect Development Guide
 
 ## Project Overview
@@ -234,3 +241,10 @@ Available tags: `no_acp`, `no_claudecode`, `no_codex`, `no_cursor`, `no_gemini`,
 6. Optionally implement `AgentDoctorInfo` for `cc-connect doctor` support
 7. Add config example in `config.example.toml`
 8. Add unit tests
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-cc-connect]] — core-cc-connect
+- [[MOC - Skills]] — Skills library
+

@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-copilot
+---
+
 # <!-- Provide a concise, descriptive title for the issue -->
 
 ## Summary
@@ -35,3 +42,9 @@
 - Dependencies or blockers
 - Impact assessment
 -->
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-copilot]] — Category: skills-copilot
+

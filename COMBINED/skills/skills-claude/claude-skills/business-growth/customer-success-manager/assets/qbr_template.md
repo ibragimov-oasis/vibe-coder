@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # Quarterly Business Review (QBR)
 
 **Customer:** [Customer Name]
@@ -161,3 +168,9 @@
 
 **Next QBR Date:** [Date]
 **Next Check-in:** [Date]
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

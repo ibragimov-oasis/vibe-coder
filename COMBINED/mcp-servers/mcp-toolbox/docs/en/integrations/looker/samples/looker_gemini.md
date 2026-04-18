@@ -6,6 +6,10 @@ description: >
   How to get started running Toolbox with Gemini-CLI and Looker as the source.
 sample_filters: ["Gemini CLI", "Looker"]
 is_sample: true
+tags:
+  - domain/mcp
+  - artifact/mcp-server
+  - source/mcp-servers
 ---
 
 ## Overview
@@ -118,3 +122,9 @@ In this section, we will download Toolbox and run the Toolbox server.
 1. Gemini will prompt you for your approval before using
    a tool. You can approve all the tools at once or
    one at a time.
+
+## 🔗 Связи
+
+- [[MOC - MCP Servers]] — mcp-servers
+- [[000 - Map of Maps]] — Map of Maps
+

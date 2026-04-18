@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # Section Definitions
 
 This file defines the rule categories for DBOS TypeScript best practices. Rules are automatically assigned to sections based on their filename prefix.
@@ -39,3 +46,9 @@ This file defines the rule categories for DBOS TypeScript best practices. Rules 
 ## 9. Advanced (advanced)
 **Impact:** LOW
 **Description:** Workflow versioning, patching, and safe code upgrades.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

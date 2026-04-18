@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/REPO_DOCS
+---
+
 # ULTRACAR Documentation Session 2 Report
 
 ## Session Metadata
@@ -227,3 +234,9 @@
 
 **Session 2 Report Complete**
 **Next session start: REPO 11 (antigravity)**
+
+## 🔗 Связи
+
+- [[000 - Map of Maps]] — REPO_DOCS
+- [[000 - Map of Maps]] — Map of Maps
+

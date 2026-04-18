@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # 最终验证报告 - 中文文档翻译
 
 **生成时间:** 2026-03-27
@@ -286,3 +293,9 @@ antigravity-awesome-skills 项目的中文文档翻译已成功完成。所有�
 *报告生成时间: 2026-03-27*
 *验证执行者: Claude Sonnet 4.6*
 *项目版本: V8.10.0*
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

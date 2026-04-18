@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-copilot
+---
+
 # Push Protection Reference
 
 Detailed reference for GitHub push protection — preventing secrets from reaching repositories, bypass workflows, and delegated bypass configuration.
@@ -162,3 +169,9 @@ After publishing a custom pattern:
 3. The pattern will now block pushes containing matching secrets
 
 > Push protection for custom patterns only applies to repos that have push protection enabled. Enabling push protection for commonly found patterns can be disruptive to contributors.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-copilot]] — Category: skills-copilot
+

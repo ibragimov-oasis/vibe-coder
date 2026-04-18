@@ -2,6 +2,10 @@
 name: instinct-import
 description: 从文件或URL导入本能到项目/全局作用域
 command: true
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
 ---
 
 # 本能导入命令
@@ -115,3 +119,9 @@ PASS: 导入完成！
 
 运行 /instinct-status 以查看所有本能。
 ```
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

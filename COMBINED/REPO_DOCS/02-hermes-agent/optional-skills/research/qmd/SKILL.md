@@ -439,3 +439,9 @@ export QMD_EMBED_MODEL="your-multilingual-model"
 
 - [GitHub: tobi/qmd](https://github.com/tobi/qmd)
 - [QMD Changelog](https://github.com/tobi/qmd/blob/main/CHANGELOG.md)
+
+## 🔗 Связи
+
+- [[000 - Map of Maps]] — REPO_DOCS
+- [[000 - Map of Maps]] — Map of Maps
+

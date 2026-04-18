@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
+---
+
 # Development Context
 
 Mode: Active development
@@ -18,3 +25,9 @@ Focus: Implementation, coding, building features
 - Edit, Write for code changes
 - Bash for running tests/builds
 - Grep, Glob for finding code
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

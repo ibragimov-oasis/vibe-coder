@@ -3,6 +3,9 @@ title: Start Workflows in Background
 impact: CRITICAL
 impactDescription: Background workflows enable reliable async processing
 tags: workflow, background, handle, async
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
 ---
 
 ## Start Workflows in Background
@@ -62,3 +65,9 @@ result, err := handle.GetResult()
 - `dbos.WithHandlePollingInterval(interval)`: Control how often the database is polled for completion
 
 Reference: [Workflows](https://docs.dbos.dev/golang/tutorials/workflow-tutorial)
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

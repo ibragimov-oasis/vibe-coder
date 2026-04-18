@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # JavaScript/TypeScript Actorization
 
 ## Install the Apify SDK
@@ -109,3 +116,9 @@ for (const item of items) {
 
 await Actor.exit();
 ```
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

@@ -1,6 +1,10 @@
 ---
 name: task-orchestrator
 description: Central coordination agent for task decomposition, execution planning, and result synthesis
+tags:
+  - domain/agents
+  - artifact/agent
+  - source/by-role/manager
 ---
 
 # Task Orchestrator Agent
@@ -118,3 +122,9 @@ The Task Orchestrator is the central coordination agent responsible for breaking
 - Critical path optimization
 - Resource contention resolution
 - Deadline-aware scheduling
+
+## 🔗 Связи
+
+- [[MOC - Agents]] — Agent catalog
+- [[agents/manager]] — Role: manager
+

@@ -3,6 +3,9 @@ title: Select Optimal Primary Key Strategy
 impact: HIGH
 impactDescription: Better index locality, reduced fragmentation
 tags: primary-key, identity, uuid, serial, schema
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
 ---
 
 ## Select Optimal Primary Key Strategy
@@ -59,3 +62,9 @@ Guidelines:
 
 Reference:
 [Identity Columns](https://www.postgresql.org/docs/current/sql-createtable.html#SQL-CREATETABLE-PARMS-GENERATED-IDENTITY)
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

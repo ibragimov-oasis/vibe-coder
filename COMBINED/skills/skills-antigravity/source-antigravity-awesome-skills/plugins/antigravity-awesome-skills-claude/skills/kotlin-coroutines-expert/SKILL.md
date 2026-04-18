@@ -4,6 +4,10 @@ description: "Expert patterns for Kotlin Coroutines and Flow, covering structure
 risk: safe
 source: community
 date_added: "2026-02-27"
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 # Kotlin Coroutines Expert
@@ -99,3 +103,9 @@ suspend fun fetchDataWithErrorHandling() = supervisorScope {
 
 **Problem:** Coroutine test hangs or fails unpredictably.
 **Solution:** Ensure you are using `runTest` and injecting `TestDispatcher` into your classes so you can control virtual time.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

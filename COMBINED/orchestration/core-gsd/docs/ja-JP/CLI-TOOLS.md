@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-gsd
+---
+
 # GSD CLI ツールリファレンス
 
 > `gsd-tools.cjs` のプログラマティック API リファレンスです。ワークフローやエージェントが内部的に使用します。ユーザー向けコマンドについては、[コマンドリファレンス](COMMANDS.md) を参照してください。
@@ -365,3 +372,10 @@ node gsd-tools.cjs websearch <query> [--limit N] [--freshness day|week|month]
 | UAT | `lib/uat.cjs` | 全フェーズ横断 UAT/検証監査 |
 | Profile Output | `lib/profile-output.cjs` | 開発者プロファイルのフォーマット |
 | Profile Pipeline | `lib/profile-pipeline.cjs` | セッション分析パイプライン |
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-gsd]] — core-gsd
+- [[MOC - Skills]] — Skills library
+

@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-copilot
+---
+
 # Scenario Challenges
 
 Present these as real-world situations. Ask the user what commands/shortcuts they'd use.
@@ -42,3 +49,9 @@ Use `ask_user` with choices for each step.
 > Switching from boilerplate work to production deployment scripts.
 
 **Answer:** `/reset-allowed-tools` → Plan mode → `/review` before every commit
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-copilot]] — Category: skills-copilot
+

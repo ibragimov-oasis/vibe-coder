@@ -77,3 +77,8 @@ Always:   Claude HUD      — мониторинг в реальном врем�
 - [[MOC - Memory]] — Hermes пишет в memory
 - [[combined/Orchestration Overview]] — Детали по COMBINED
 - [[000 - Map of Maps]] — Главная карта
+
+## 🔗 Связи
+
+- [[000 - Map of Maps]] — Map of Maps
+

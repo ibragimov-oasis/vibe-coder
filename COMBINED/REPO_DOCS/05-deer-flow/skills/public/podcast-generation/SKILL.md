@@ -1,6 +1,10 @@
 ---
 name: podcast-generation
 description: Use this skill when the user requests to generate, create, or produce podcasts from text content. Converts written content into a two-host conversational podcast audio format with natural dialogue.
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/REPO_DOCS
 ---
 
 # Podcast Generation Skill
@@ -183,3 +187,9 @@ The following environment variables must be set:
 - Technical content should be simplified for audio accessibility in the script
 - Complex notations (formulas, code) should be translated to plain language in the script
 - Long content may result in longer podcasts
+
+## 🔗 Связи
+
+- [[000 - Map of Maps]] — REPO_DOCS
+- [[000 - Map of Maps]] — Map of Maps
+

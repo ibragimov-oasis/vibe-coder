@@ -6,6 +6,10 @@ part: customization
 audience: [user]
 sidebar:
   order: 7
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-archon
 ---
 
 In [Chapter 6](/book/first-command/) you built a `run-tests` command — a focused task the AI can execute on demand. A command is great for one thing. A workflow strings several commands together and runs them automatically, in order, without you having to supervise.
@@ -233,3 +237,10 @@ The `nodes:` format you've been using covers most workflows. To add conditional 
 If your workflow starts needing an "if this, then that" branch — or structured JSON output from one node to route into another — those features are covered in the next chapter.
 
 [Chapter 8: DAG Workflows →](/book/dag-workflows/) covers conditionals, structured output routing, and trigger rules. Everything you've learned about commands and nodes carries directly over.
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/archon]] — Archon
+- [[000 - Map of Maps]] — Map of Maps
+

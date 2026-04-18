@@ -1,5 +1,9 @@
 ---
 description: Start the full autonomous pipeline (Background Agent → Hermes → Shannon). Use when you want to fully automate a task end-to-end.
+tags:
+  - domain/skills
+  - artifact/command
+  - source/claude-commands
 ---
 
 # /pipeline — Autonomous Pipeline Launcher
@@ -66,3 +70,9 @@ When you run `/pipeline`, Claude will:
 - `PIPELINE.md` — full pipeline spec
 - `CAPABILITIES.md` — rules and capability map
 - `.claude/agents/mega-orchestrator.md` — orchestrator agent definition
+
+## 🔗 Связи
+
+- [[MOC - System]] — System commands
+- [[MOC - Skills]] — Skills library
+

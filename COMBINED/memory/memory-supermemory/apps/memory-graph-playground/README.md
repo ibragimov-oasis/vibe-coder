@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/memory
+  - artifact/memory
+  - source/memory
+---
+
 # Memory Graph Playground
 
 A demo app showcasing the `@supermemory/memory-graph` package.
@@ -50,3 +57,9 @@ function App() {
 | `totalLoaded` | `number` | Total number of loaded documents |
 | `variant` | `"default" \| "console"` | Visual theme variant |
 | `showSpacesSelector` | `boolean` | Show space filter dropdown |
+
+## 🔗 Связи
+
+- [[MOC - Memory]] — memory
+- [[000 - Map of Maps]] — Map of Maps
+

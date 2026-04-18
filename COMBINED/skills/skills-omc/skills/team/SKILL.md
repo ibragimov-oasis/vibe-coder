@@ -3,6 +3,10 @@ name: team
 description: N coordinated agents on shared task list using Claude Code native teams
 aliases: []
 level: 4
+tags:
+  - domain/orchestration
+  - artifact/skill
+  - source/skills-omc
 ---
 
 # Team Skill
@@ -966,3 +970,10 @@ MCP workers can operate in isolated git worktrees to prevent file conflicts betw
 10. **Broadcast is expensive** -- Each broadcast sends a separate message to every teammate. Use `message` (DM) by default. Only broadcast for truly team-wide critical alerts.
 
 11. **CLI workers are one-shot, not persistent** -- Tmux CLI workers have full filesystem access and CAN make code changes. However, they run as autonomous one-shot jobs -- they cannot use TaskList/TaskUpdate/SendMessage. The lead must manage their lifecycle: write prompt_file, spawn CLI worker, read output_file, mark task complete. They don't participate in team communication like Claude teammates do.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-omc]] — Category: skills-omc
+- [[MOC - Orchestration]] — Multi-agent orchestration
+

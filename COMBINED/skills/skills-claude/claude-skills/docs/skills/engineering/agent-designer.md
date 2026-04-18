@@ -1,6 +1,10 @@
 ---
 title: "Agent Designer - Multi-Agent System Architecture — Agent Skill for Codex & OpenClaw"
 description: "Use when the user asks to design multi-agent systems, create agent architectures, define agent communication patterns, or build autonomous agent. Agent skill for Claude Code, Codex CLI, Gemini CLI, OpenClaw."
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
 ---
 
 # Agent Designer - Multi-Agent System Architecture
@@ -288,3 +292,9 @@ Agent Designer is a comprehensive toolkit for designing, architecting, and evalu
 - **Knowledge Base Updates:** Continuous learning and adaptation
 
 This skill provides the foundation for designing robust, scalable multi-agent systems that can handle complex tasks while maintaining safety, reliability, and performance at scale.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-taskmaster
+---
+
 Update multiple tasks starting from a specific ID.
 
 Arguments: $ARGUMENTS
@@ -106,3 +113,10 @@ Applied updates:
 - Consistency verification
 - Suggest review tasks
 - Update timeline if needed
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/task-master]] — Task-Master
+- [[000 - Map of Maps]] — Map of Maps
+

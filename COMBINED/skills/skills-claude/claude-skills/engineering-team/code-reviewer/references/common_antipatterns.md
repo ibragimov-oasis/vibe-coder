@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # Common Antipatterns
 
 Code antipatterns to identify during review, with examples and fixes.
@@ -737,3 +744,9 @@ const db = await DatabaseConnection.create(url);
 ```
 
 **Detection:** `async` calls or `.then()` in constructor.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

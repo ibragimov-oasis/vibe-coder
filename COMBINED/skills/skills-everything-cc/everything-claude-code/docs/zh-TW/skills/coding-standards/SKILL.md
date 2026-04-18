@@ -1,6 +1,10 @@
 ---
 name: coding-standards
 description: Universal coding standards, best practices, and patterns for TypeScript, JavaScript, React, and Node.js development.
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-everything-cc
 ---
 
 # 程式碼標準與最佳實務
@@ -518,3 +522,9 @@ setTimeout(callback, DEBOUNCE_DELAY_MS)
 ```
 
 **記住**：程式碼品質是不可協商的。清晰、可維護的程式碼能實現快速開發和自信的重構。
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

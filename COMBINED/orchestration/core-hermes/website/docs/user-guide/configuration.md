@@ -2,6 +2,10 @@
 sidebar_position: 2
 title: "Configuration"
 description: "Configure Hermes Agent — config.yaml, providers, models, API keys, and more"
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-hermes
 ---
 
 # Configuration
@@ -1605,3 +1609,10 @@ Override the working directory:
 MESSAGING_CWD=/home/myuser/projects    # Gateway sessions
 TERMINAL_CWD=/workspace                # All terminal sessions
 ```
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/hermes]] — Hermes
+- [[000 - Map of Maps]] — Map of Maps
+

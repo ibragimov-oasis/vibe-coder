@@ -1,6 +1,10 @@
 ---
 title: "/hub:status — Session Status — Agent Skill for Codex & OpenClaw"
 description: "Show DAG state, agent progress, and branch status for an AgentHub session. Agent skill for Claude Code, Codex CLI, Gemini CLI, OpenClaw."
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
 ---
 
 # /hub:status — Session Status
@@ -86,3 +90,9 @@ If all agents have posted results:
 If some agents are still running:
 - Show which are done vs in-progress
 - Suggest waiting or checking again later
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # Claude-Flow v3: Agent, Skills, Commands & Hooks Optimization
 
 ## Overview
@@ -864,3 +871,10 @@ required-agents:
 
 *Document Version: 1.0.0*
 *Last Updated: 2026-01-03*
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

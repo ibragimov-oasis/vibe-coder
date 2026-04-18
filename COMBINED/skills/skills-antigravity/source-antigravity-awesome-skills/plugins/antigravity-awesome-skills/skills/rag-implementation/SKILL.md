@@ -5,6 +5,10 @@ category: granular-workflow-bundle
 risk: safe
 source: personal
 date_added: "2026-02-27"
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 # RAG Implementation Workflow
@@ -194,3 +198,9 @@ User Query -> Embedding -> Vector Search -> Retrieved Docs -> LLM -> Response
 - `ai-ml` - AI/ML development
 - `ai-agent-development` - AI agents
 - `database` - Vector databases
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

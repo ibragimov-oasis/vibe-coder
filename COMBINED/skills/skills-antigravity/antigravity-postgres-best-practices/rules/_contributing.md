@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # Writing Guidelines for Postgres Rules
 
 This document provides guidelines for creating effective Postgres best
@@ -169,3 +176,9 @@ Before submitting a rule:
 - [ ] Reference links included
 - [ ] `npm run validate` passes
 - [ ] `npm run build` generates correct output
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

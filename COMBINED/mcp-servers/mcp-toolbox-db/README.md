@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/mcp
+  - artifact/mcp-server
+  - source/mcp-servers
+---
+
 <div align="center">
 
 ![logo](./logo.png)
@@ -1085,3 +1092,9 @@ Please note that this project is released with a Contributor Code of Conduct. By
 ## Community
 
 Join our [Discord community](https://discord.gg/GQrFB3Ec3W) to connect with our developers!
+
+## 🔗 Связи
+
+- [[MOC - MCP Servers]] — mcp-servers
+- [[000 - Map of Maps]] — Map of Maps
+

@@ -1,6 +1,10 @@
 ---
 name: agent-performance-monitor
 description: Agent skill for performance-monitor - invoke with $agent-performance-monitor
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-ruflo
 ---
 
 ---
@@ -675,3 +679,9 @@ const analytics = {
 ```
 
 This Performance Monitor agent provides comprehensive real-time monitoring, bottleneck detection, SLA compliance tracking, and advanced analytics for optimal swarm performance management.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-ruflo]] — Category: skills-ruflo
+

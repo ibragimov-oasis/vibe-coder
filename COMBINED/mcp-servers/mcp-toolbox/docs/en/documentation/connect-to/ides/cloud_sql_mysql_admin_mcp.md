@@ -4,6 +4,10 @@ type: docs
 weight: 4
 description: >
   Create and manage Cloud SQL for MySQL (Admin) using Toolbox.
+tags:
+  - domain/mcp
+  - artifact/mcp-server
+  - source/mcp-servers
 ---
 
 This guide covers how to use [MCP Toolbox for Databases][toolbox] to expose your
@@ -308,3 +312,9 @@ instances and interacting with your database:
 Prebuilt tools are pre-1.0, so expect some tool changes between versions. LLMs
 will adapt to the tools available, so this shouldn't affect most users.
 {{< /notice >}}
+
+## 🔗 Связи
+
+- [[MOC - MCP Servers]] — mcp-servers
+- [[000 - Map of Maps]] — Map of Maps
+

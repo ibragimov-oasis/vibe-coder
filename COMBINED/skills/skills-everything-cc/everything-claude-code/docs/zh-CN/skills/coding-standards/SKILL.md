@@ -2,6 +2,10 @@
 name: coding-standards
 description: 适用于TypeScript、JavaScript、React和Node.js开发的通用编码标准、最佳实践和模式。
 origin: ECC
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-everything-cc
 ---
 
 # 编码标准与最佳实践
@@ -535,3 +539,9 @@ setTimeout(callback, DEBOUNCE_DELAY_MS)
 ```
 
 **记住**：代码质量不容妥协。清晰、可维护的代码能够实现快速开发和自信的重构。
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

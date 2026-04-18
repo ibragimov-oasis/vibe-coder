@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/mcp
+  - artifact/mcp-server
+  - source/mcp-servers
+---
+
 # Draft: Gitnexus Brainstorming - Clustering & Process Maps
 
 ## Initial Context
@@ -16,3 +23,9 @@
 - How is "process map" defined in this context? (Graph, mermaid diagram, flowchart?)
 - What is the input for clustering? (Code chunks, files, commits?)
 - What is the intended output for "smaller models"? (Simplified context, summaries?)
+
+## 🔗 Связи
+
+- [[MOC - MCP Servers]] — mcp-servers
+- [[000 - Map of Maps]] — Map of Maps
+

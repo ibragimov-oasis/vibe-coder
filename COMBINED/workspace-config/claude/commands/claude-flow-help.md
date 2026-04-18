@@ -1,6 +1,10 @@
 ---
 name: claude-flow-help
 description: Show Claude-Flow commands and usage
+tags:
+  - domain/skills
+  - artifact/config
+  - source/workspace-config
 ---
 
 # Claude-Flow Commands
@@ -101,3 +105,9 @@ npx -y claude-flow@latest init --sparc
 - Documentation: https://github.com/ruvnet/claude-code-flow/docs
 - Examples: https://github.com/ruvnet/claude-code-flow/examples
 - Issues: https://github.com/ruvnet/claude-code-flow/issues
+
+## 🔗 Связи
+
+- [[MOC - System]] — workspace-config
+- [[000 - Map of Maps]] — Map of Maps
+

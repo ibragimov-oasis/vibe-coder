@@ -4,6 +4,10 @@ description: "Comprehensive design guide for web and mobile applications. Use wh
 risk: unknown
 source: community
 date_added: "2026-02-27"
+tags:
+  - domain/ui
+  - artifact/skill
+  - source/skills-design
 ---
 
 # UI/UX Pro Max - Design Intelligence
@@ -354,3 +358,10 @@ Before delivering UI code, verify these items:
 
 ## When to Use
 This skill is applicable to execute the workflow or actions described in the overview.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-design]] — Category: skills-design
+- [[MOC - UI Design]] — Design & UI
+

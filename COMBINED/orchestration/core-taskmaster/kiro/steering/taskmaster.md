@@ -1,5 +1,9 @@
 ---
 inclusion: always
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-taskmaster
 ---
 
 # Taskmaster Tool & Command Reference
@@ -554,3 +558,10 @@ Environment variables are used **only** for sensitive API keys related to AI pro
 ---
 
 For details on how these commands fit into the development process, see the [dev_workflow.md](.kiro/steering/dev_workflow.md).
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-taskmaster]] — core-taskmaster
+- [[MOC - Skills]] — Skills library
+

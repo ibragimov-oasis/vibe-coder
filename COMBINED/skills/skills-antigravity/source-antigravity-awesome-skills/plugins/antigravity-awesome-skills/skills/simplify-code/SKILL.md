@@ -4,6 +4,10 @@ description: "Review a diff for clarity and safe simplifications, then optionall
 risk: safe
 source: "Dimillian/Skills (MIT)"
 date_added: "2026-03-25"
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 # Simplify Code
@@ -177,3 +181,9 @@ Close with a brief result:
 - whether validation ran
 
 If the code is already clean for this rubric, say that directly instead of manufacturing edits.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

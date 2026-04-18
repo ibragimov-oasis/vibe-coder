@@ -5,6 +5,10 @@ weight: 1
 description: >
   The "postgres-list-available-extensions" tool retrieves all PostgreSQL
   extensions available for installation on a Postgres database.
+tags:
+  - domain/mcp
+  - artifact/mcp-server
+  - source/mcp-servers
 ---
 
 ## About
@@ -39,3 +43,9 @@ description: Discover all PostgreSQL extensions available for installation on th
 | amcheck              | 1.4                 | functions for verifying relation integrity                                                                          |
 | anon                 | 1.0.0               | Data anonymization tools                                                                                            |
 | autoinc              | 1.0                 | functions for autoincrementing fields                                                                               |
+
+## 🔗 Связи
+
+- [[MOC - MCP Servers]] — mcp-servers
+- [[000 - Map of Maps]] — Map of Maps
+

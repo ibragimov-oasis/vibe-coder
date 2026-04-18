@@ -8,6 +8,10 @@ metadata:
   author: evos
   clawdbot:
     emoji: ""
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-everything-cc
 ---
 
 # 质量与不合格品管理
@@ -250,3 +254,9 @@ SPC将信号与噪音分离。误读图表比根本不使用图表造成更多�
 
 * 将此技能与您的NCR模板、处置权限矩阵和SPC规则集结合使用，以确保调查人员每次使用相同的定义。
 * 在使用工作流进行生产前，请将CAPA关闭标准和有效性检查证据要求放在工作流旁边。
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

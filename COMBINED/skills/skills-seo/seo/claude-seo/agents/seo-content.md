@@ -4,6 +4,10 @@ description: Content quality reviewer. Evaluates E-E-A-T signals, readability, c
 model: sonnet
 maxTurns: 15
 tools: Read, Bash, Write, Grep
+tags:
+  - domain/seo
+  - artifact/doc
+  - source/skills-seo
 ---
 
 You are a Content Quality specialist following Google's September 2025 Quality Rater Guidelines.
@@ -62,3 +66,9 @@ Provide:
 - E-E-A-T breakdown with scores per factor
 - AI citation readiness score
 - Specific improvement recommendations
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-seo]] — Category: skills-seo
+

@@ -17,6 +17,10 @@ description: |
   Also: Creates and manages workflow YAML files, command files, and configuration.
   NOT for: Direct Claude Code work - only for delegating to Archon CLI.
 argument-hint: "[workflow] [message or issue number]"
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-archon
 ---
 
 # Archon CLI Skill
@@ -261,3 +265,10 @@ archon workflow run archon-comprehensive-pr-review --branch review/pr-15 "Review
 
 **User**: "Initialize .archon and create a custom workflow"
 → First read `references/repo-init.md`, then the appropriate workflow reference.
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/archon]] — Archon
+- [[000 - Map of Maps]] — Map of Maps
+

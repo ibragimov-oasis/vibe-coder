@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-refly
+---
+
 # Trace Stack - Local Observability Infrastructure
 
 Distributed tracing, metrics, and log aggregation stack for local development.
@@ -338,3 +345,9 @@ rm -rf /tmp/alloy/logs/refly
 - **Log format**: Expects Pino JSON logs (auto-detected)
 - **Network**: All containers share `refly_trace_network` bridge network
 - **Security**: Anonymous Grafana access enabled for local development only
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-refly]] — core-refly
+

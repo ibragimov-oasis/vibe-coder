@@ -1,6 +1,10 @@
 ---
 title: "Epic Design Skill — Agent Skill & Codex Plugin"
 description: "Build immersive, cinematic 2.5D interactive websites using scroll storytelling, parallax depth, text animations, and premium scroll effects — no. Agent skill for Claude Code, Codex CLI, Gemini CLI, OpenClaw."
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
 ---
 
 # Epic Design Skill
@@ -345,3 +349,9 @@ Checks: depth attributes, aria-hidden, reduced-motion, alt text, performance lim
 - **page-cro**: Use after the 2.5D site is built to optimize conversion. NOT during the initial build.
 - **senior-architect**: Use when the 2.5D site is part of a larger system architecture. NOT for standalone pages.
 - **accessibility-auditor**: Use to verify full WCAG compliance after build. This skill includes basic reduced-motion handling.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

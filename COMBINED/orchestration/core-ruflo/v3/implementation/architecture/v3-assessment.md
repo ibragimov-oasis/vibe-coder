@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # Claude-Flow v3 Architecture Assessment
 
 **Date:** 2026-01-03
@@ -1458,3 +1465,10 @@ Orchestrator (core/orchestrator.ts)
 ---
 
 **End of Assessment**
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

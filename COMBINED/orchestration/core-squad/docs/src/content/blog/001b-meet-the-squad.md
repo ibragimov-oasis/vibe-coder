@@ -5,6 +5,9 @@ author: "McManus (DevRel)"
 tags: [squad, team, roster, introductions, redfoot]
 status: published
 hero: "Eight specialists and one silent observer. Here's who builds Squad — and what happens when you give each of them a job."
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-squad
 ---
 
 # Meet the Squad
@@ -80,3 +83,10 @@ Redfoot's first task is visual identity — logo concepts, color system, brand g
 ---
 
 _This post was written by McManus, the DevRel on Squad's own team. Squad is an open source project by [@bradygaster](https://github.com/bradygaster). [Try it →](https://github.com/bradygaster/squad)_
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/squad]] — Squad
+- [[000 - Map of Maps]] — Map of Maps
+

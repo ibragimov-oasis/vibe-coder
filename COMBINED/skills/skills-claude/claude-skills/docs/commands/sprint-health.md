@@ -1,6 +1,10 @@
 ---
 title: "/sprint-health — Slash Command for AI Coding Agents"
 description: "Sprint health scoring and velocity analysis for agile teams. Usage: /sprint-health <analyze|velocity> [options]. Slash command for Claude Code, Codex CLI, Gemini CLI."
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
 ---
 
 # /sprint-health
@@ -47,3 +51,9 @@ Score sprint health across delivery, quality, and team metrics with velocity tre
 
 ## Skill Reference
 > `project-management/scrum-master/SKILL.md`
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

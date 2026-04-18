@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-taskmaster
+---
+
 # Task Master Command Reference
 
 Here's a comprehensive reference of all available commands:
@@ -453,3 +460,10 @@ task-master research "Best practices for this implementation" --id=15,16 --files
   - **Save to file**: Preserve entire conversation for later reference if needed
   - **Continue exploring**: Ask more follow-up questions to dig deeper
 - **Automatic file naming** with timestamps and query-based slugs when saving conversations
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-taskmaster]] — core-taskmaster
+- [[MOC - Skills]] — Skills library
+

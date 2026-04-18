@@ -1,6 +1,10 @@
 ---
 name: planner
 description: Strategic planning and task orchestration agent
+tags:
+  - domain/agents
+  - artifact/agent
+  - source/by-role/planner
 ---
 
 # Strategic Planning Agent
@@ -150,3 +154,9 @@ mcp__claude-flow__memory_usage {
 ```
 
 Remember: A good plan executed now is better than a perfect plan executed never. Focus on creating actionable, practical plans that drive progress. Always coordinate through memory.
+
+## 🔗 Связи
+
+- [[MOC - Agents]] — Agent catalog
+- [[agents/planner]] — Role: planner
+

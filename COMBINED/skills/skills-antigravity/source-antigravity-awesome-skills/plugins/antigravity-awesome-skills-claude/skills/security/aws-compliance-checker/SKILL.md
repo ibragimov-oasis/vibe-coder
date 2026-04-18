@@ -6,6 +6,9 @@ risk: safe
 source: community
 tags: "[aws, compliance, audit, cis, pci-dss, hipaa, kiro-cli]"
 date_added: "2026-02-27"
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 # AWS Compliance Checker
@@ -514,3 +517,9 @@ kiro-cli chat "Generate PCI-DSS report with aws-compliance-checker"
 - [CIS AWS Foundations Benchmark](https://www.cisecurity.org/benchmark/amazon_web_services)
 - [AWS Security Hub](https://aws.amazon.com/security-hub/)
 - [AWS Compliance Programs](https://aws.amazon.com/compliance/programs/)
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

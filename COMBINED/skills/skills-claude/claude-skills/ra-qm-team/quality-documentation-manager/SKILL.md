@@ -14,6 +14,10 @@ triggers:
   - controlled document
   - document master list
   - record retention
+tags:
+  - domain/agents
+  - artifact/skill
+  - source/skills-claude
 ---
 
 # Quality Documentation Manager
@@ -435,3 +439,10 @@ Track document control system performance.
 | Incomplete change history | Require history update with each revision |
 | No periodic review schedule | Establish and enforce review calendar |
 | Inadequate audit trail | Validate DMS for Part 11 compliance |
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+- [[MOC - Agents]] — Claude agents
+

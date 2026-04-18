@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-copilot
+---
+
 # Review Protocols (Files 3 and 4)
 
 ## File 3: Code Review Protocol (`RUN_CODE_REVIEW.md`)
@@ -374,3 +381,9 @@ A run that completes without errors may still be wrong. For each integration tes
 6. **UI-level (if applicable):** If the project has a dashboard/TUI/UI, verify the run appears correctly there.
 
 Include all applicable levels in the generated protocol's post-run checklist. The common failure is stopping at level 2 (process completed) without checking levels 3–5.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-copilot]] — Category: skills-copilot
+

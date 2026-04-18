@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-squad
+---
+
 # Azure Blob StorageProvider sample
 
 This sample builds a cloud-backed `StorageProvider` for [Azure Blob Storage](https://learn.microsoft.com/azure/storage/blobs/storage-blobs-introduction). It shows how to implement every method in the StorageProvider interface against a remote object store, and demonstrates patterns for handling virtual directories, sync-method guards, and copy-based rename.
@@ -231,3 +238,9 @@ Done! ✨
 - Try the [hello-squad](../hello-squad/) sample to see the SDK basics
 - Read the [StorageProvider interface](../../packages/squad-sdk/src/storage/storage-provider.ts) for the full contract
 - Explore [Azure Blob Storage docs](https://learn.microsoft.com/azure/storage/blobs/) for advanced features
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-squad]] — core-squad
+

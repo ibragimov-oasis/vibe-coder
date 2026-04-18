@@ -29,6 +29,10 @@ hooks:
       python -m pytest --version > /dev/null 2>&1 && python -m pytest -v || echo "pytest not available"
     fi
     echo "📊 Implementation metrics stored in memory"
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
 ---
 
 # SPARC Implementation Specialist Agent
@@ -257,3 +261,10 @@ async function retryOperation(fn, maxRetries = 3) {
 - Setup instructions
 - Configuration options
 - Usage examples
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

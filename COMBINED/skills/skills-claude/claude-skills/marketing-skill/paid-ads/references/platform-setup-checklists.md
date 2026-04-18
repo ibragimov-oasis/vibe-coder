@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # Platform Setup Checklists
 
 Complete setup checklists for major ad platforms.
@@ -267,3 +274,9 @@ Before launching any campaign:
 - [ ] Ad creative approved
 - [ ] Team notified of launch
 - [ ] Reporting dashboard ready
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

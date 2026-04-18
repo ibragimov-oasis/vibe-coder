@@ -8,7 +8,9 @@ dependencies: [sae-lens>=6.0.0, transformer-lens>=2.0.0, torch>=2.0.0]
 metadata:
   hermes:
     tags: [Sparse Autoencoders, SAE, Mechanistic Interpretability, Feature Discovery, Superposition]
-
+  - domain/skills
+  - artifact/skill
+  - source/skills-hermes
 ---
 
 # SAELens: Sparse Autoencoders for Mechanistic Interpretability
@@ -387,3 +389,9 @@ cfg = LanguageModelSAERunnerConfig(
     activation_fn_kwargs={"k": 50},
 )
 ```
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-hermes]] — Category: skills-hermes
+

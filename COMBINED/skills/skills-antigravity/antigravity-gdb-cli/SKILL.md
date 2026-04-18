@@ -19,6 +19,9 @@ tools:
 - gemini-cli
 - codex-cli
 - antigravity
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 # GDB Debugging Assistant
@@ -237,3 +240,9 @@ gdb-cli thread-apply -s b2c3d4 bt --all
 - **Repository**: https://github.com/Cerdore/gdb-cli
 - **PyPI**: https://pypi.org/project/gdb-cli/
 - **Documentation**: https://github.com/Cerdore/gdb-cli#readme
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/ui
+  - artifact/ui-component
+  - source/ui-design
+---
+
 # Logo Usage Rules
 
 Guidelines for proper logo implementation across all marketing materials.
@@ -183,3 +190,9 @@ For non-standard uses:
 2. Include context (medium, audience)
 3. Wait for brand team approval
 4. Document approved exceptions
+
+## 🔗 Связи
+
+- [[MOC - UI Design]] — ui-design
+- [[000 - Map of Maps]] — Map of Maps
+

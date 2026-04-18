@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
+---
+
 # Build and Fix
 
 Build ve tip hatalarını minimal, güvenli değişikliklerle aşamalı olarak düzelt.
@@ -60,3 +67,9 @@ Sonuçları göster:
 | Build aracı yanlış yapılandırması | Config dosyasını oku; çalışan varsayılanlarla karşılaştır |
 
 Güvenlik için bir seferde bir hatayı düzelt. Refactoring yerine minimal diff'leri tercih et.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

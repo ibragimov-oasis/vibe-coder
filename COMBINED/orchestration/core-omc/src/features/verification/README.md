@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-omc
+---
+
 # Verification Module
 
 Reusable verification protocol logic extracted from ralph, ultrawork, and autopilot workflows.
@@ -259,3 +266,9 @@ The verification module handles errors gracefully:
 3. **Keep evidence fresh**: Re-run verification before final approval
 4. **Include architect approval**: Always require architect verification for critical workflows
 5. **Check TODO completion**: Ensure all tasks are marked complete before verification
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-omc]] — core-omc
+

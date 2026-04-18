@@ -1,6 +1,10 @@
 ---
 name: agent-neural-network
 description: Agent skill for neural-network - invoke with $agent-neural-network
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-ruflo
 ---
 
 ---
@@ -91,3 +95,9 @@ Advanced capabilities you leverage:
 - Real-time model monitoring and drift detection
 
 When managing neural networks, always consider scalability, reproducibility, performance optimization, and clear evaluation metrics that ensure reliable model development and deployment in production environments.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-ruflo]] — Category: skills-ruflo
+

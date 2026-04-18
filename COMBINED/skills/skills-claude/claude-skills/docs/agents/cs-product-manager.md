@@ -1,6 +1,10 @@
 ---
 title: "Product Manager Agent — AI Coding Agent & Codex Skill"
 description: "Product management agent for feature prioritization, customer discovery, PRD development, and roadmap planning using RICE framework. Agent-native orchestrator for Claude Code, Codex, Gemini CLI."
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
 ---
 
 # Product Manager Agent
@@ -685,3 +689,9 @@ echo "Report: $QUARTER-roadmap.txt"
 **Last Updated:** March 9, 2026
 **Status:** Production Ready
 **Version:** 2.0
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

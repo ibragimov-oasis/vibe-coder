@@ -4,6 +4,10 @@ description: "Comprehensive guidance for mastering TypeScript's advanced type sy
 risk: safe
 source: community
 date_added: "2026-02-27"
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 # TypeScript Advanced Types
@@ -36,3 +40,9 @@ Comprehensive guidance for mastering TypeScript's advanced type system including
 ## Resources
 
 - `resources/implementation-playbook.md` for detailed patterns and examples.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

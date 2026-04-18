@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # ADR-008: Vitest Over Jest
 
 **Status:** Implemented
@@ -107,3 +114,10 @@ describe('Agent', () => {
 
 **Implementation Date:** 2026-01-04
 **Status:** ✅ Complete
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

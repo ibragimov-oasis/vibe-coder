@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/reference
+  - source/reference
+---
+
 # Gherkin Style Testing Prompt
 
 A specialized .cursorrules prompt for creating clear, structured test documentation in Gherkin format that non-technical stakeholders can understand.
@@ -34,3 +41,9 @@ The .cursorrules prompt guides QA engineers in creating effective Gherkin docume
 - **Simple Language**: Emphasis on using non-technical language accessible to all stakeholders
 - **Data Examples**: Techniques for incorporating data-driven testing with Examples tables
 - **Scenario Organization**: Approaches for structuring related test scenarios within features
+
+## 🔗 Связи
+
+- [[MOC - System]] — reference
+- [[000 - Map of Maps]] — Map of Maps
+

@@ -4,6 +4,10 @@ paths:
   - "**/*.tsx"
   - "**/*.js"
   - "**/*.jsx"
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
 ---
 # TypeScript/JavaScript Hooks
 
@@ -20,3 +24,9 @@ paths:
 ## Stop Hooks
 
 - **console.log audit**: Session bitmeden önce değiştirilen tüm dosyalarda `console.log` kontrolü yap
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

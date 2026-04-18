@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
+---
+
 # Laravel API — 项目 CLAUDE.md
 
 > 使用 PostgreSQL、Redis 和队列的 Laravel API 真实案例。
@@ -309,3 +316,9 @@ final class OrdersControllerTest extends TestCase
     }
 }
 ```
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

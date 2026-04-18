@@ -4,6 +4,10 @@ description: "Core conventions and patterns used in the Squad codebase"
 domain: "project-conventions"
 confidence: "high"
 source: "manual"
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-squad
 ---
 
 ## Context
@@ -67,3 +71,10 @@ if (!fs.existsSync(ceremoniesDest)) {
 - **Overwriting user state on init** — Init skips existing files. Only upgrade overwrites Squad-owned files.
 - **Raw stack traces** — All errors go through `fatal()`. Users see clean messages, not stack traces.
 - **Inline ANSI codes** — Use the color constants (`GREEN`, `RED`, `DIM`, `BOLD`, `RESET`).
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/squad]] — Squad
+- [[000 - Map of Maps]] — Map of Maps
+

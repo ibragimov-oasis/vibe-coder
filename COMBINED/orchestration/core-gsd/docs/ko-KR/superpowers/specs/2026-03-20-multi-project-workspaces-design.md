@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-gsd
+---
+
 # 멀티 프로젝트 워크스페이스 (`/gsd:new-workspace`)
 
 **Issue:** #1241
@@ -183,3 +190,10 @@ Strategy: worktree
 | 중앙 레지스트리 없음 | 상태 드리프트 방지. `list-workspaces`가 파일 시스템을 직접 스캔 |
 | A의 특수 케이스로서 케이스 B | `--repos .`는 동일한 메커니즘을 재사용하므로 특별한 피처 브랜치 코드 불필요 |
 | 기본 경로 `~/gsd-workspaces/<name>` | `list-workspaces`가 스캔할 예측 가능한 위치, 소스 저장소 외부에 워크스페이스 유지 |
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/gsd]] — GSD
+- [[000 - Map of Maps]] — Map of Maps
+

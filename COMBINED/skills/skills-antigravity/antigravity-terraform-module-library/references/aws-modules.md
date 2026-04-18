@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # AWS Terraform Module Patterns
 
 ## VPC Module
@@ -61,3 +68,9 @@
 8. Use PrivateLink when possible
 9. Enable GuardDuty/SecurityHub
 10. Follow AWS Well-Architected Framework
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

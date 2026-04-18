@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # ADR-027 Gap Analysis: Missing Plugin Features
 
 **Date:** 2026-01-25
@@ -619,3 +626,10 @@ Current ADR-027 implementation: ~1,400 lines
 3. Create test cases for each feature
 4. Document all new MCP tools
 5. Add migration guide for existing Claude Flow users
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

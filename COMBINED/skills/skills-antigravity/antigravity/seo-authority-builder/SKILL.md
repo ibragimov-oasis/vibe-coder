@@ -10,6 +10,10 @@ description: 'Analyzes content for E-E-A-T signals and suggests improvements to
 risk: unknown
 source: community
 date_added: '2026-02-27'
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 ## Use this skill when
@@ -139,3 +143,9 @@ Priority Actions:
 - Google Knowledge Panel optimization
 
 Focus on demonstrable expertise and clear trust signals. Suggest concrete improvements for authority building.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

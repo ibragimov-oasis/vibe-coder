@@ -1,6 +1,10 @@
 ---
 description: 'Instructions for building Model Context Protocol (MCP) servers using the Python SDK'
 applyTo: '**/*.py, **/pyproject.toml, **/requirements.txt'
+tags:
+  - domain/agents
+  - artifact/agent
+  - source/by-interface/agents-copilot
 ---
 
 # Python MCP Server Development
@@ -202,3 +206,9 @@ async def risky_operation(input: str) -> str:
     except Exception as e:
         return f"Error: {str(e)}"
 ```
+
+## 🔗 Связи
+
+- [[MOC - Agents]] — Agent catalog
+- [[agents/agents-copilot]] — Interface: agents-copilot
+

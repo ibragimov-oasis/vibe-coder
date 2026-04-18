@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # Update Entity Template
 
 Tests editing an entity via form and inline edit interactions.
@@ -127,3 +134,9 @@ test.describe('Update {{entityName}}', () => {
 | Required field | Cleared required field → validation |
 | Conflict | Concurrent edit → conflict error |
 | Escape cancel | Inline edit cancelled, original value restored |
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

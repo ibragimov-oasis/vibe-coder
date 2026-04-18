@@ -4,6 +4,10 @@ description: "Map identified threats to appropriate security controls and mitiga
 risk: safe
 source: community
 date_added: "2026-02-27"
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 # Threat Mitigation Mapping
@@ -34,3 +38,9 @@ Connect threats to controls for effective security planning.
 ## Resources
 
 - `resources/implementation-playbook.md` for detailed patterns and examples.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

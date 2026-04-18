@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # Cloud Secret Store Reference
 
 ## Provider Comparison
@@ -352,3 +359,9 @@ All three cloud providers support caching SDKs:
 | PCI DSS key mgmt | KMS compliance | Premium HSM | CMEK | Transit engine |
 | GDPR data residency | Region selection | Region selection | Region selection | Self-hosted |
 | ISO 27001 | Certified | Certified | Certified | Self-certify |
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

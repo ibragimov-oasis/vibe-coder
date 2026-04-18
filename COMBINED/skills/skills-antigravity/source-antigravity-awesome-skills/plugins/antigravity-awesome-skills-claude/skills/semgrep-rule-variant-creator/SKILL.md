@@ -5,6 +5,10 @@ allowed-tools:
  ...
 risk: unknown
 source: community
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 # Semgrep Rule Variant Creator
@@ -198,3 +202,9 @@ See workflow.md for detailed workflow and troubleshooting.
 - For applicability analysis guidance, see applicability-analysis.md
 - For language translation guidance, see language-syntax-guide.md
 - For detailed workflow and examples, see workflow.md
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-copilot
+---
+
 # Pipeline Variables, Variable Groups & Agents
 
 ## Table of Contents
@@ -210,3 +217,9 @@ az pipelines agent list --pool-id {pool-id}
 ```bash
 az pipelines agent show --agent-id {agent-id} --pool-id {pool-id}
 ```
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-copilot]] — Category: skills-copilot
+

@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # GitHub Integration Modes
 
 ## Overview
@@ -145,3 +152,10 @@ mcp__claude-flow__agent_spawn { type: "tester", name: "QA Agent" }
 // Execute GitHub workflow with coordination
 mcp__claude-flow__task_orchestrate { task: "GitHub workflow", strategy: "parallel" }
 ```
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

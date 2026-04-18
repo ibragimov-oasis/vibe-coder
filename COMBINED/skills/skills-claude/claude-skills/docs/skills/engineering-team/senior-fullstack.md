@@ -1,6 +1,10 @@
 ---
 title: "Senior Fullstack — Agent Skill & Codex Plugin"
 description: "Fullstack development toolkit with project scaffolding for Next.js, FastAPI, MERN, and Django stacks, code quality analysis with security and. Agent skill for Claude Code, Codex CLI, Gemini CLI, OpenClaw."
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
 ---
 
 # Senior Fullstack
@@ -294,3 +298,9 @@ See `references/tech_stack_guide.md` for detailed comparison.
 | Auth complexity | Use Auth.js or Clerk |
 | Type errors | Enable strict mode in tsconfig |
 | CORS issues | Configure middleware properly |
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

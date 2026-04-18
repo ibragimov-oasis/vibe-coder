@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/seo
+  - artifact/doc
+  - source/skills-seo
+---
+
 # Paywall Experiment Ideas
 
 Comprehensive list of A/B tests and experiments for paywall optimization.
@@ -153,3 +160,9 @@ Comprehensive list of A/B tests and experiments for paywall optimization.
 - Offer alternative (lower tier, annual discount)
 - Exit survey on dismiss
 - Friendly vs. neutral decline copy
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-seo]] — Category: skills-seo
+

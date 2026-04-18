@@ -24,7 +24,11 @@ When creating bitmap images, you specify a _scale factor_ which determines the r
 
 **Provide high-resolution assets for all bitmap images in your app, for every device you support.** As you add each image to your project’s asset catalog, identify its scale factor by appending “@1x,” “@2x,” or “@3x” to its filename. Use the following values for guidance; for additional scale factors, see [Layout](https://developer.apple.com/design/human-interface-guidelines/layout).
 
-Platform| Scale factors  
+Platform| Scale factors
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
 ---|---  
 iPadOS, watchOS| @2x  
 iOS| @2x and @3x  
@@ -172,5 +176,10 @@ Date| Changes
 December 16, 2025| Added guidance for spatial photos and spatial scenes in visionOS.  
 December 5, 2023| Clarified guidance on choosing a resolution for a rasterized image in a visionOS app.  
 June 21, 2023| Updated to include guidance for visionOS.  
-September 14, 2022| Added specifications for Apple Watch Ultra.  
-  
+September 14, 2022| Added specifications for Apple Watch Ultra.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-background-agents
+---
+
 # Open-Inspect Setup Guide
 
 This is the primary setup guide for users and contributors.
@@ -225,3 +232,10 @@ Control plane cannot reach Modal (or Modal is not properly configured/deployed).
 - Debugging and observability: [docs/DEBUGGING_PLAYBOOK.md](./DEBUGGING_PLAYBOOK.md)
 - OpenAI model setup: [docs/OPENAI_MODELS.md](./OPENAI_MODELS.md)
 - Contribution workflow: [CONTRIBUTING.md](../CONTRIBUTING.md)
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-background-agents]] — core-background-agents
+- [[MOC - Skills]] — Skills library
+

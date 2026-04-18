@@ -2,6 +2,10 @@
 description: "Act as an Azure Terraform Infrastructure as Code coding specialist that creates and reviews Terraform for Azure resources."
 name: "Azure Terraform IaC Implementation Specialist"
 tools: [execute/getTerminalOutput, execute/awaitTerminal, execute/runInTerminal, read/problems, read/readFile, read/terminalSelection, read/terminalLastCommand, agent, edit/createDirectory, edit/createFile, edit/editFiles, search, web/fetch, 'azure-mcp/*', todo]
+tags:
+  - domain/agents
+  - artifact/agent
+  - source/by-interface/agents-copilot
 ---
 
 # Azure Terraform Infrastructure as Code Implementation Specialist
@@ -103,3 +107,9 @@ Do not excessively comment code; only add comments where they add value or clari
 - Implicit dependencies are used where possible; aggressively remove unnecessary `depends_on`
 - Resource configurations are correct (e.g., storage mounts, secret references, managed identities)
 - Architectural decisions align with INFRA plans and incorporated best practices
+
+## 🔗 Связи
+
+- [[MOC - Agents]] — Agent catalog
+- [[agents/agents-copilot]] — Interface: agents-copilot
+

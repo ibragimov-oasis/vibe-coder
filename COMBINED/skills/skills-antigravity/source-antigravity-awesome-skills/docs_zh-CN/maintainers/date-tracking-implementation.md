@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # 日期跟踪实施摘要
 
 本文档解释了在 `apps/` 和 `tools/` 重构之后，`date_added` 支持如何融入当前仓库结构。
@@ -64,3 +71,9 @@ python tools/scripts/generate_skills_report.py --output reports/skills_report.js
 
 - 随着新的社区技能添加，仓库范围的覆盖范围可能会随时间变化，因此本文档避免硬编码计数
 - `date_added` 是有用的元数据，但操作贡献者门槛仍然是 `npm run validate`；严格验证是遗留清理的单独加固目标
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

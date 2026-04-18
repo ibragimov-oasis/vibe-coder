@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # Skills Date Tracking Guide
 
 This guide explains how to use the new `date_added` feature for tracking when skills were created or added to the collection.
@@ -226,3 +233,9 @@ Install Python 3.x from [python.org](https://python.org/)
 ## Questions or Issues?
 
 See [CONTRIBUTING.md](../../CONTRIBUTING.md) for contribution guidelines.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

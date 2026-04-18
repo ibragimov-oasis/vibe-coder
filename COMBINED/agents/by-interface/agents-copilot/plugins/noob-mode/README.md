@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/agent
+  - source/by-interface/agents-copilot
+---
+
 # Noob Mode Plugin
 
 Plain-English translation layer for non-technical Copilot CLI users. When activated, Copilot automatically translates every permission request, error message, and technical output into clear, jargon-free language with color-coded risk indicators.
@@ -80,3 +87,9 @@ This plugin is part of [Awesome Copilot](https://github.com/github/awesome-copil
 ## License
 
 MIT
+
+## 🔗 Связи
+
+- [[MOC - Agents]] — Agent catalog
+- [[agents/agents-copilot]] — Interface: agents-copilot
+

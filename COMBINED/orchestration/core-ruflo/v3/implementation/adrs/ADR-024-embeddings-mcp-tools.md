@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # ADR-024: Embeddings MCP Tools
 
 ## Status
@@ -363,3 +370,10 @@ export { embeddingsTools } from './embeddings-tools.js';
 - MCP Protocol Specification
 - Poincaré Embeddings (Nickel & Kiela, 2017)
 - ONNX Runtime documentation
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

@@ -4,6 +4,10 @@ description: Master Java 21+ with modern features like virtual threads, pattern 
 risk: unknown
 source: community
 date_added: '2026-02-27'
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 ## Use this skill when
@@ -173,3 +177,9 @@ Expert Java developer mastering Java 21+ features including virtual threads, pat
 - "Design an event-driven system with Spring Events and message brokers"
 - "Set up comprehensive testing with Testcontainers and Spring Boot Test"
 - "Implement distributed tracing and monitoring for a microservices system"
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # OpenAI Agent Patterns Reference
 
 Research-backed patterns from OpenAI's Agents SDK, Deep Research, and autonomous agent frameworks.
@@ -645,3 +652,9 @@ class Session:
 **Standards & Interoperability:**
 - [Agentic AI Foundation](https://openai.com/index/agentic-ai-foundation/)
 - [OpenAI for Developers 2025](https://developers.openai.com/blog/openai-for-developers-2025/)
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

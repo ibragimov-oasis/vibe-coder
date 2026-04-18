@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-copilot
+---
+
 # Preflight Report Template
 
 Use this template structure when generating `preflight-report.md` in the project root.
@@ -350,3 +357,9 @@ azd provision --environment dev
 4. **Link to documentation** when available
 5. **Order issues by severity** (errors first, then warnings)
 6. **Include command examples** in Next Steps
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-copilot]] — Category: skills-copilot
+

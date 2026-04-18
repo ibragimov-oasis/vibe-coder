@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-squad
+---
+
 # VS Code Troubleshooting
 
 > ⚠️ **Experimental** — Squad is alpha software. APIs, commands, and behavior may change between releases.
@@ -105,3 +112,10 @@ Squad uses the Ink framework for rendering, which batches React state updates. D
 | [#259](https://github.com/bradygaster/squad/issues/259) | VS Code crash during Squad execution | This investigation |
 | [#254](https://github.com/bradygaster/squad/issues/254) | Terminal flicker in VS Code | Open |
 | [Discussion #174](https://github.com/bradygaster/squad/discussions/174) | Original crash report by @diberry | Open |
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/squad]] — Squad
+- [[000 - Map of Maps]] — Map of Maps
+

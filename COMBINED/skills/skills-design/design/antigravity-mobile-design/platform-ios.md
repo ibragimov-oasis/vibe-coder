@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/ui
+  - artifact/doc
+  - source/skills-design
+---
+
 # iOS Platform Guidelines
 
 > Human Interface Guidelines (HIG) essentials, iOS design conventions, SF Pro typography, and native patterns.
@@ -559,3 +566,9 @@ AccessibilityInfo.isReduceMotionEnabled()
 ---
 
 > **Remember:** iOS users have strong expectations from other iOS apps. Deviating from HIG patterns feels "broken" to them. When in doubt, use the native component.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-design]] — Category: skills-design
+

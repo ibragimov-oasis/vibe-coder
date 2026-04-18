@@ -68,6 +68,10 @@ hooks:
             Always return `{"ok": true}` — the agent should always be allowed to stop.
             The value is in the written feedback, not in blocking.
           statusMessage: "Running meta-judge evaluation..."
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-archon
 ---
 
 You are a fully autonomous code quality agent. You run in an isolated worktree,
@@ -213,3 +217,10 @@ Before you stop, verify ALL of these are done:
 - [ ] Updated memory with findings and backlog
 
 If any item is unchecked, you are not done. Keep going.
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/archon]] — Archon
+- [[000 - Map of Maps]] — Map of Maps
+

@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-hermes
+---
+
 # CLI Reference
 
 ## Installation
@@ -102,3 +109,9 @@ Version pinning: `namespace/app-name@version`
 - [Running Apps](https://inference.sh/docs/apps/running) - How to run apps via CLI
 - [Creating an App](https://inference.sh/docs/extend/creating-app) - Build your own apps
 - [Deploying](https://inference.sh/docs/extend/deploying) - Deploy apps to the cloud
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-hermes]] — Category: skills-hermes
+

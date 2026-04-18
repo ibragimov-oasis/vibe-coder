@@ -1,5 +1,9 @@
 ---
 description: Enforce TDD workflow for Kotlin. Write Kotest tests first, then implement. Verify 80%+ coverage with Kover.
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
 ---
 
 # Kotlin TDD Command
@@ -310,3 +314,9 @@ open build/reports/kover/html/index.html
 
 - Skill: `skills/kotlin-testing/`
 - Skill: `skills/tdd-workflow/`
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

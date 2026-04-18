@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # Cash Management Reference
 
 Cash is the oxygen of a startup. You can be unprofitable for years. You cannot be out of cash for a day.
@@ -372,3 +379,9 @@ quick_ratio_liquidity = (cash + ar) / current_liabilities
 # Free cash flow
 fcf = operating_cash_flow - capex
 ```
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

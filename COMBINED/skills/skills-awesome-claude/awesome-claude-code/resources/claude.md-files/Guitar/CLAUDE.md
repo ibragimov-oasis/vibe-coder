@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-awesome-claude
+---
+
 # Guitar Development Guide
 
 ## Build Commands
@@ -19,3 +26,9 @@
 - Line endings: LF (\n)
 - Max line length: no limits
 - Use Qt's signal/slot mechanism for async operations
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-awesome-claude]] — Category: skills-awesome-claude
+

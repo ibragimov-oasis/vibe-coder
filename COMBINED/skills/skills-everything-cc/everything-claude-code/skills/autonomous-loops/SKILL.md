@@ -2,6 +2,10 @@
 name: autonomous-loops
 description: "Patterns and architectures for autonomous Claude Code loops — from simple sequential pipelines to RFC-driven multi-agent DAG systems."
 origin: ECC
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-everything-cc
 ---
 
 # Autonomous Loops Skill
@@ -608,3 +612,9 @@ These patterns compose well:
 | Continuous Claude | AnandChowdhary | credit: @AnandChowdhary |
 | NanoClaw | ECC | `/claw` command in this repo |
 | Verification Loop | ECC | `skills/verification-loop/` in this repo |
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

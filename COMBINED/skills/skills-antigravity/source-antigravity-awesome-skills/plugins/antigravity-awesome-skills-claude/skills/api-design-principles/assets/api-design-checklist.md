@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # API Design Checklist
 
 ## Pre-Implementation Review
@@ -153,3 +160,9 @@
 - [ ] Deprecations marked
 - [ ] Examples provided
 - [ ] Schema introspection enabled
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

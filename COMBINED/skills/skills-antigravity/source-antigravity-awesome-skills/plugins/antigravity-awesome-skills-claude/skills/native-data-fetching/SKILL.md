@@ -5,6 +5,10 @@ risk: unknown
 source: community
 version: 1.0.0
 license: MIT
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 # Expo Networking
@@ -506,3 +510,9 @@ User: "Where should I put my API key?"
 
 User: "How do I load data for a page in Expo Router?"
 -> See references/expo-router-loaders.md for route-level loaders (web, SDK 55+). For native, use React Query or fetch.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/ui
+  - artifact/ui-component
+  - source/ui-design
+---
+
 # Stitch API reference
 
 This document describes the data structures returned by the Stitch MCP server to ensure accurate component mapping.
@@ -12,3 +19,9 @@ When calling `get_screen`, the server returns a JSON object with these key prope
 1. **Element tracking**: Preserve `data-stitch-id` attributes as comments in the TSX to allow for future design synchronization.
 2. **Asset handling**: Treat background images in the HTML as dynamic data. Extract the URLs into `mockData.ts` rather than hardcoding them into the component styles.
 3. **Style extraction**: The HTML `<head>` contains a localized `tailwind.config`. This config must be merged with the local project theme to ensure colors like `primary` and `background-dark` render correctly.
+
+## 🔗 Связи
+
+- [[MOC - UI Design]] — ui-design
+- [[000 - Map of Maps]] — Map of Maps
+

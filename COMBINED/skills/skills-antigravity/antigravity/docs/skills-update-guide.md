@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # 技能更新指南
 
 本指南介绍如何在 Antigravity Awesome Skills Web 应用程序中更新技能。
@@ -87,3 +94,9 @@ npm run update:skills
 ```
 
 这将拉取最新代码并更新技能数据。
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

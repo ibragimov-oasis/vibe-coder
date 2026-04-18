@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # Python MCP Server Template
 
 ```python
@@ -20,3 +27,9 @@ def list_items(input: dict) -> dict:
 if __name__ == "__main__":
     mcp.run()
 ```
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

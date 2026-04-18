@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-hermes
+---
+
 # op CLI examples
 
 ## Sign-in and identity
@@ -29,3 +36,9 @@ op inject -i config.tpl.yml -o config.yml
 export DB_PASSWORD="op://app-prod/db/password"
 op run -- sh -c '[ -n "$DB_PASSWORD" ] && echo "DB_PASSWORD is set"'
 ```
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-hermes]] — Category: skills-hermes
+

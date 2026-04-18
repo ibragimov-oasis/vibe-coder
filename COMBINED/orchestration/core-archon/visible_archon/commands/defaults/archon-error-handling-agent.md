@@ -1,6 +1,10 @@
 ---
 description: Review error handling for silent failures, inadequate catch blocks, and poor fallbacks
 argument-hint: (none - reads from scope artifact)
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-archon
 ---
 
 # Error Handling Agent
@@ -254,3 +258,10 @@ This catch block could silently hide:
 - **EACH_HANDLER_AUDITED**: Logging, feedback, specificity evaluated
 - **HIDDEN_ERRORS_LISTED**: Each finding lists what could be hidden
 - **ARTIFACT_CREATED**: Findings file written with complete structure
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/archon]] — Archon
+- [[000 - Map of Maps]] — Map of Maps
+

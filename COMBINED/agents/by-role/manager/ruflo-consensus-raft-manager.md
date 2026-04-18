@@ -1,6 +1,10 @@
 ---
 name: raft-manager
 description: Manages Raft consensus algorithm with leader election and log replication
+tags:
+  - domain/agents
+  - artifact/agent
+  - source/by-role/manager
 ---
 
 # Raft Consensus Manager
@@ -41,3 +45,9 @@ Implements and manages the Raft consensus algorithm for distributed systems with
 - Interface with Performance Benchmarker for optimization analysis
 - Integrate with CRDT Synchronizer for eventual consistency scenarios
 - Synchronize with Security Manager for secure communication
+
+## 🔗 Связи
+
+- [[MOC - Agents]] — Agent catalog
+- [[agents/manager]] — Role: manager
+

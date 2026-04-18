@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # Implementation Patterns
 
 Copy-paste JSON-LD patterns for every common schema type. Replace ALL_CAPS placeholders with real values. Test at rich-results.google.com before deploying.
@@ -435,3 +442,9 @@ Always use the full schema.org URL — not just the word.
 | Back order | `https://schema.org/BackOrder` |
 | Limited availability | `https://schema.org/LimitedAvailability` |
 | Discontinued | `https://schema.org/Discontinued` |
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

@@ -1,6 +1,10 @@
 ---
 name: claude-flow-memory
 description: Interact with Claude-Flow memory system using batchtools optimization
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
 ---
 
 # Claude-Flow Memory System (Batchtools Optimized)
@@ -185,3 +189,10 @@ npx claude-flow memory batch-migrate --from "v1" --to "v2" --transform migrate.j
 # Process memory data across multiple workers
 npx claude-flow memory distribute --operation "analyze" --workers 4 --queue-size 1000
 ```
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # Security Findings Re-Triage (2026-03-29)
 
 This document is the current-head refresh of the historical
@@ -84,3 +91,9 @@ The biggest shifts since the original baseline are:
   original 2026-03-15 finding set.
 - If new findings are discovered later, start a fresh triage cycle rather than
   mutating the historical baseline counts again.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

@@ -1,5 +1,9 @@
 ---
 description: Enforce TDD workflow for Rust. Write tests first, then implement. Verify 80%+ coverage with cargo-llvm-cov.
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
 ---
 
 # Rust TDD Command
@@ -306,3 +310,9 @@ cargo test --no-fail-fast
 
 - Skill: `skills/rust-testing/`
 - Skill: `skills/rust-patterns/`
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

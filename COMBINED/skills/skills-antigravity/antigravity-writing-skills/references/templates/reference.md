@@ -5,6 +5,10 @@ description: >-
 metadata:
   category: reference
   triggers: tool, api, specific-terms
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
 ---
 
 # Reference Name
@@ -33,3 +37,9 @@ another example
 For more options, run `--help` or see:
 - patterns.md
 - examples.md
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

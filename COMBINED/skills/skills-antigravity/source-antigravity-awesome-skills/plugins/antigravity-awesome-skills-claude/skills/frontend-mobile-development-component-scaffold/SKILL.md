@@ -4,6 +4,10 @@ description: "You are a React component architecture expert specializing in scaf
 risk: unknown
 source: community
 date_added: "2026-02-27"
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 # React/React Native Component Scaffolding
@@ -404,3 +408,9 @@ export const Interactive: Story = {
 6. **Index File**: Barrel exports for clean imports
 
 Focus on creating production-ready, accessible, and maintainable components that follow modern React patterns and best practices.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

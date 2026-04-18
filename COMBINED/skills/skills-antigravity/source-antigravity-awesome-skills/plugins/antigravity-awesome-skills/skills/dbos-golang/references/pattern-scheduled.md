@@ -3,6 +3,9 @@ title: Create Scheduled Workflows
 impact: MEDIUM
 impactDescription: Enables recurring tasks with exactly-once-per-interval guarantees
 tags: pattern, scheduled, cron, recurring
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
 ---
 
 ## Create Scheduled Workflows
@@ -67,3 +70,9 @@ DBOS crontab uses 6 fields with second precision:
 ```
 
 Reference: [Scheduled Workflows](https://docs.dbos.dev/golang/tutorials/workflow-tutorial#scheduled-workflows)
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

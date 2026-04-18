@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
+---
+
 # プラグインとマーケットプレイス
 
 プラグインは新しいツールと機能でClaude Codeを拡張します。このガイドではインストールのみをカバーしています - いつ、なぜ使用するかについては[完全な記事](https://x.com/affaanmustafa/status/2012378465664745795)を参照してください。
@@ -85,3 +92,9 @@ claud plugin marketplace add https://github.com/mixedbread-ai/mgrep
 |-- known_marketplaces.json   # 追加されたマーケットプレイス
 |-- marketplaces/             # マーケットプレイスデータ
 ```
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

@@ -9,6 +9,10 @@ tools:
   # - name: "{tool-name}"
   #   description: "{what this tool does}"
   #   when: "{when to use this tool}"
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-squad
 ---
 
 ## Context
@@ -22,3 +26,10 @@ tools:
 
 ## Anti-Patterns
 {What to avoid}
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/squad]] — Squad
+- [[000 - Map of Maps]] — Map of Maps
+

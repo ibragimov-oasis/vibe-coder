@@ -3,6 +3,9 @@ title: Configure Idle Connection Timeouts
 impact: HIGH
 impactDescription: Reclaim 30-50% of connection slots from idle clients
 tags: connections, timeout, idle, resource-management
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
 ---
 
 ## Configure Idle Connection Timeouts
@@ -44,3 +47,9 @@ client_idle_timeout = 300
 ```
 
 Reference: [Connection Timeouts](https://www.postgresql.org/docs/current/runtime-config-client.html#GUC-IDLE-IN-TRANSACTION-SESSION-TIMEOUT)
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

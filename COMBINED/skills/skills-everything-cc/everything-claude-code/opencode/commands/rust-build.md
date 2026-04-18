@@ -2,6 +2,10 @@
 description: Fix Rust build errors and borrow checker issues
 agent: rust-build-resolver
 subtask: true
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
 ---
 
 # Rust Build Command
@@ -76,3 +80,9 @@ cargo test                   # Tests should pass
 ---
 
 **IMPORTANT**: Fix errors only. No refactoring, no improvements. Get the build green with minimal changes.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

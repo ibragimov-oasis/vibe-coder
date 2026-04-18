@@ -2,6 +2,10 @@
 paths:
   - "**/*.swift"
   - "**/Package.swift"
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
 ---
 # Swift Security
 
@@ -31,3 +35,9 @@ guard let apiKey, !apiKey.isEmpty else {
 - Sanitize all user input before display to prevent injection
 - Use `URL(string:)` with validation rather than force-unwrapping
 - Validate data from external sources (APIs, deep links, pasteboard) before processing
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

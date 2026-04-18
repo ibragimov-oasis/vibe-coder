@@ -3,6 +3,9 @@ title: Eliminate N+1 Queries with Batch Loading
 impact: MEDIUM-HIGH
 impactDescription: 10-100x fewer database round trips
 tags: n-plus-one, batch, performance, queries
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
 ---
 
 ## Eliminate N+1 Queries with Batch Loading
@@ -51,3 +54,9 @@ select * from orders where user_id = any($1::bigint[]);
 ```
 
 Reference: [N+1 Query Problem](https://supabase.com/docs/guides/database/query-optimization)
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

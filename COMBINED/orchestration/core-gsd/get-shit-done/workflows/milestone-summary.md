@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-gsd
+---
+
 # Milestone Summary Workflow
 
 Generate a comprehensive, human-friendly project summary from completed milestone artifacts.
@@ -221,3 +228,10 @@ gsd-tools.cjs state record-session \
   --stopped-at "Milestone v${VERSION} summary generated" \
   --resume-file ".planning/reports/MILESTONE_SUMMARY-v${VERSION}.md"
 ```
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-gsd]] — core-gsd
+- [[MOC - Skills]] — Skills library
+

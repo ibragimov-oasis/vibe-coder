@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # User List
 
 > **Route:** `/users`
@@ -81,3 +88,9 @@ Displays all system users in a searchable, paginated table. Supports creating, e
 - **From:** Dashboard (click "View Users" link)
 - **To:** User Detail (click email or row)
 - **Data coupling:** Creating/deleting a user triggers dashboard stats refresh
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

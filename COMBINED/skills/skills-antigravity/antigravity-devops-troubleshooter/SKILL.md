@@ -4,6 +4,10 @@ description: Expert DevOps troubleshooter specializing in rapid incident respons
 risk: unknown
 source: community
 date_added: '2026-02-27'
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 ## Use this skill when
@@ -155,3 +159,9 @@ Expert DevOps troubleshooter with comprehensive knowledge of modern observabilit
 - "Debug DNS resolution issues affecting service discovery in Kubernetes cluster"
 - "Analyze logs to identify security breach and implement containment procedures"
 - "Troubleshoot GitOps deployment failures and implement automated rollback procedures"
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

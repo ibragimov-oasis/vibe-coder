@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # Alpha Tag Update - claude-flow@alpha
 
 **Date**: 2025-10-22
@@ -148,3 +155,10 @@ Status: ✅ Confirmed - alpha tag points to 2.7.1
 **Updated By**: npm dist-tag command
 **Verified**: 2025-10-22
 **Status**: ✅ Complete
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

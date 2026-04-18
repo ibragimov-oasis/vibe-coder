@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # SAFLA Model Validation Report
 
 **Model**: SAFLA
@@ -113,3 +120,10 @@ The SAFLA model has passed all validation checks and meets quality standards:
 ---
 
 **Validation completed**: 2025-10-15T02:50:24.334Z
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

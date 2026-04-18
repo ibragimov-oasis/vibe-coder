@@ -50,3 +50,9 @@ source: "../COMBINED/ui-design/ui-cursor-rules/"
 
 - [[ui-design/ui-ux-pro-max]] — 161 правило дизайна
 - [[root-docs/INTERFACE_MATRIX]] — Cursor-специфичные настройки
+
+## 🔗 Связи
+
+- [[MOC - UI Design]] — Parent MOC
+- [[000 - Map of Maps]] — Map of Maps
+

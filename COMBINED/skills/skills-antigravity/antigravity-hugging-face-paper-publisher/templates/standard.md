@@ -4,6 +4,9 @@ authors: {{AUTHORS}}
 date: {{DATE}}
 arxiv:
 tags: [machine-learning, deep-learning]
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
 ---
 
 # {{TITLE}}
@@ -199,3 +202,9 @@ Code snippets and configuration details.
 ### C. Hyperparameters
 
 Complete list of hyperparameters used.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

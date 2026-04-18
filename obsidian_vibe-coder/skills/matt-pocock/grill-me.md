@@ -84,3 +84,9 @@ grill-me:
 
 - [[skills/matt-pocock/design-an-interface]] — вопросы для UI задач
 - [[skills/matt-pocock/request-refactor-plan]] — вопросы для рефакторинга
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Parent MOC
+- [[000 - Map of Maps]] — Map of Maps
+

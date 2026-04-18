@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # Zero-Downtime Migration Techniques
 
 ## Overview
@@ -1102,3 +1109,9 @@ class DataRollbackManager:
 - Don't overlook dependency impacts
 
 This comprehensive guide provides the foundation for implementing zero-downtime migrations across various system components while maintaining high availability and data integrity.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

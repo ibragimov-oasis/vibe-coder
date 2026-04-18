@@ -8,6 +8,10 @@ tools:
   - fileSearch
   - listDirectory
   - usages
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-archon
 ---
 
 # Prime: Load Project Context
@@ -36,3 +40,10 @@ Produce a scannable summary of what you learned:
 - **Current State**: Recent commits, current branch
 
 Use bullet points. Keep it concise.
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/archon]] — Archon
+- [[000 - Map of Maps]] — Map of Maps
+

@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # Security Audit Report: agentic-qe and prime-radiant Plugins
 
 **Initial Audit Date:** 2026-01-23
@@ -1029,3 +1036,10 @@ describe('Chaos Engineering Safety', () => {
 - ✅ Bridge interfaces for PathValidator, SafeExecutor, InputValidator
 - ✅ Memory namespace isolation
 - ✅ Rollback safety mechanisms
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-ruflo]] — core-ruflo
+- [[MOC - Skills]] — Skills library
+

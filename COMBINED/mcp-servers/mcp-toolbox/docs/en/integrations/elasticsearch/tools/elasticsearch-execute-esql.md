@@ -4,6 +4,10 @@ type: docs
 weight: 3
 description: >
   Execute arbitrary ES|QL statements.
+tags:
+  - domain/mcp
+  - artifact/mcp-server
+  - source/mcp-servers
 ---
 
 ## About
@@ -47,4 +51,9 @@ format: json
 | source      |                   string                   |     true     | Name of the source the ES|QL should execute on.                                                   |
 | description |                   string                   |     true     | Description of the tool that is passed to the LLM.                                               |
 | format      |                   string                   |     false    | The format of the query. Default is json. Valid values are `csv`, `json`, `tsv`, `txt`, `yaml`, `cbor`, `smile`, or `arrow`. |
+
+## 🔗 Связи
+
+- [[MOC - MCP Servers]] — mcp-servers
+- [[000 - Map of Maps]] — Map of Maps
 

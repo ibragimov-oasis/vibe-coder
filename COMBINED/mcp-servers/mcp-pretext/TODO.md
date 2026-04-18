@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/mcp
+  - artifact/mcp-server
+  - source/mcp-servers
+---
+
 Current priorities:
 
 1. Keep the canaries honest
@@ -41,3 +48,9 @@ Still-open design questions:
 - Whether intrinsic sizing / logical width APIs are needed beyond fixed-width height prediction.
 - Whether bidi rendering concerns like selection and copy/paste belong here or stay out of scope.
 - Whether a separate optional slow verify path is worth having as a diagnostic mode, without contaminating `layout()`.
+
+## 🔗 Связи
+
+- [[MOC - MCP Servers]] — mcp-servers
+- [[000 - Map of Maps]] — Map of Maps
+

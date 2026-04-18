@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-awesome-claude
+---
+
 YOU MUST READ THESE FILES AND FOLLOW THE INSTRUCTIONS IN THEM.
 Start by reading the concept_library/cc_PRP_flow/README.md to understand what a PRP
 Then read concept_library/cc_PRP_flow/PRPs/base_template_v1 to understand the structure of a PRP.
@@ -74,3 +81,9 @@ After completing initial research, present findings to the user and confirm:
 If the user answers with continue, you are on the right path, continue with the PRP creation without user input.
 
 Remember: A PRP is PRD + curated codebase intelligence + agent/runbook—the minimum viable packet an AI needs to ship production-ready code on the first pass.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-awesome-claude]] — Category: skills-awesome-claude
+

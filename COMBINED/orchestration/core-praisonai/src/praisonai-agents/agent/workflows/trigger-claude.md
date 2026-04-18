@@ -1,5 +1,9 @@
 ---
 description: Trigger Claude to fix an issue using the full architectural prompt
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-praisonai
 ---
 
 Use this workflow when you want to manually trigger Claude on an issue (especially for external users) using the complete, strict set of architectural rules. 
@@ -62,3 +66,10 @@ EOF
 
 gh issue comment $ISSUE_NUMBER -b "$PROMPT"
 ```
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/praisonai]] — PraisonAI
+- [[000 - Map of Maps]] — Map of Maps
+

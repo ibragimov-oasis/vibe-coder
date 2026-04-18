@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-copilot
+---
+
 # Skill Templates
 
 Ready-to-use templates for different types of Microsoft technologies.
@@ -343,3 +350,9 @@ Templates are starting points. Customize by:
 3. **Adjusting depth** based on complexity (more concepts for complex tech)
 4. **Adding reference files** for detailed content that doesn't fit in SKILL.md
 5. **Adding sample_codes/** for working examples beyond inline snippets
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-copilot]] — Category: skills-copilot
+

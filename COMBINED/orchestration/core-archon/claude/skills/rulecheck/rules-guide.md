@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-archon
+---
+
 # Rules Guide — Where to Find Project Rules
 
 Reference for the rulecheck agent. Focus on rules that **linters can't enforce** —
@@ -93,3 +100,10 @@ These are already enforced by tooling — don't waste time on them:
 - ESLint rules (return types, unused vars, etc.) — `bun run lint` catches these
 - TypeScript strict mode violations — `bun run type-check` catches these
 - Formatting (quotes, commas, indentation) — Prettier handles this
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/archon]] — Archon
+- [[000 - Map of Maps]] — Map of Maps
+

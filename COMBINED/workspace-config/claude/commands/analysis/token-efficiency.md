@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/config
+  - source/workspace-config
+---
+
 # Token Usage Optimization
 
 ## Purpose
@@ -43,3 +50,9 @@ Parameters: {"operation": "session", "timeframe": "24h"}
 - 🎯 More focused operations
 - 🔄 Intelligent result reuse
 - 📊 Cumulative improvements
+
+## 🔗 Связи
+
+- [[MOC - System]] — workspace-config
+- [[000 - Map of Maps]] — Map of Maps
+

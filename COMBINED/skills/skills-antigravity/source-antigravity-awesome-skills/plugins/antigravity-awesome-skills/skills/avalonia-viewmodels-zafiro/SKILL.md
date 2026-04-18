@@ -4,6 +4,10 @@ description: "Optimal ViewModel and Wizard creation patterns for Avalonia using 
 risk: none
 source: community
 date_added: "2026-02-27"
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 # Avalonia ViewModels with Zafiro
@@ -33,3 +37,9 @@ For real-world implementations, refer to the **Angor** project:
 
 ## When to Use
 This skill is applicable to execute the workflow or actions described in the overview.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

@@ -3,6 +3,9 @@ title: Cache Repeated Function Calls
 impact: MEDIUM
 impactDescription: avoid redundant computation
 tags: javascript, cache, memoization, performance
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
 ---
 
 ## Cache Repeated Function Calls
@@ -78,3 +81,9 @@ function onAuthChange() {
 Use a Map (not a hook) so it works everywhere: utilities, event handlers, not just React components.
 
 Reference: [How we made the Vercel Dashboard twice as fast](https://vercel.com/blog/how-we-made-the-vercel-dashboard-twice-as-fast)
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

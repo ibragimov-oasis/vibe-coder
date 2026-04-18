@@ -1,6 +1,10 @@
 ---
 name: dual-spawn
 description: Spawn headless Codex workers from Claude Code for parallel execution
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-ruflo
 ---
 
 # Dual Spawn Skill
@@ -79,3 +83,9 @@ Or check manually:
 ```bash
 npx claude-flow memory list --namespace results
 ```
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-ruflo]] — Category: skills-ruflo
+

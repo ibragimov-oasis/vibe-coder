@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # SaaS Architecture Patterns
 
 ## Overview
@@ -180,3 +187,9 @@ Each tenant gets a completely separate database instance.
 | Growth | 100-10K | Modular monolith | Managed DB, read replicas | Auto-scaling group |
 | Scale | 10K-100K | Service extraction | DB per service, caching | Kubernetes / ECS |
 | Enterprise | 100K+ | Microservices | Polyglot persistence | Multi-region, CDN |
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

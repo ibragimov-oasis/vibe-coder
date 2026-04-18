@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # Content Brief Template
 
 > Fill in every field before writing starts. Blank fields mean assumptions. Assumptions mean rewrites.
@@ -124,3 +131,9 @@
 ## Notes / Special Instructions
 
 (Brand voice requirements, topics to avoid, tone calibration, product mentions)
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

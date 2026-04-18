@@ -2,6 +2,10 @@
 sidebar_position: 5
 title: "Prompt Assembly"
 description: "How Hermes builds the system prompt, preserves cache stability, and injects ephemeral layers"
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-hermes
 ---
 
 # Prompt Assembly
@@ -87,3 +91,10 @@ The architecture is intentionally optimized to:
 - [Context Compression & Prompt Caching](./context-compression-and-caching.md)
 - [Session Storage](./session-storage.md)
 - [Gateway Internals](./gateway-internals.md)
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/hermes]] — Hermes
+- [[000 - Map of Maps]] — Map of Maps
+

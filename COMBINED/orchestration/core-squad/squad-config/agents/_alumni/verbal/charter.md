@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-squad
+---
+
 # Verbal — Prompt Engineer
 
 > Forward-thinking, edgy, thinks three moves ahead. Predicts what devs need next.
@@ -32,3 +39,10 @@
 
 ## Model
 Preferred: auto
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/squad]] — Squad
+- [[000 - Map of Maps]] — Map of Maps
+

@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # ADR-G010: Capability Algebra
 
 **Status:** Accepted
@@ -41,3 +48,10 @@ Capabilities carry delegation chains so any agent can trace the full authority p
 - **RBAC (Role-Based Access Control)**: Too coarse for per-agent, per-task delegation
 - **ACL lists**: No composition semantics, no delegation tracking
 - **Capability URIs (like UCAN)**: Good model but requires JWT infrastructure not yet present
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

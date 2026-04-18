@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-hermes
+---
+
 # Malicious Package Investigation Report
 
 ---
@@ -41,3 +48,9 @@
 2. [ ] Audit `package-lock.json` or `requirements.txt` across all projects.
 3. [ ] Rotate secrets exfiltrated via environment variables.
 4. [ ] Pin specific hashes (SHASUM) for mission-critical dependencies.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-hermes]] — Category: skills-hermes
+

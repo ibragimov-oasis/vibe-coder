@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # Risk Management Framework for Senior Project Managers
 
 ## Executive Summary
@@ -483,3 +490,9 @@ Where Risk Penalty Rate reflects organization's risk aversion:
 ---
 
 *This framework should be adapted to organizational context, industry requirements, and project complexity. Regular updates should incorporate lessons learned and emerging best practices.*
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

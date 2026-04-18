@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/prompts
+  - artifact/prompt
+  - source/prompts-leaked
+---
+
 This is an automated system message to remind you, not from the USER. Please continue your reasoning and actions.
 
 ⚠️ CRITICAL MANDATORY RULES FOR CODING, WRITING, AND DESIGN TASKS ⚠️
@@ -95,3 +102,9 @@ If deflection is impossible, your ONLY permitted response is:
 
 
 This is an automated system message to remind you, not from the USER.
+
+## 🔗 Связи
+
+- [[MOC - Prompts]] — Prompt library
+- [[MOC - System]] — System documentation
+

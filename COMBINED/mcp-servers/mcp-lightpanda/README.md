@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/mcp
+  - artifact/mcp-server
+  - source/mcp-servers
+---
+
 <p align="center">
   <a href="https://lightpanda.io"><img src="https://cdn.lightpanda.io/assets/images/logo/lpd-logo.png" alt="Logo" height=170></a>
 </p>
@@ -373,3 +380,9 @@ If we want both Javascript and performance in a true headless browser, we need t
 - Not based on Chromium, Blink or WebKit
 - Low-level system programming language (Zig) with optimisations in mind
 - Opinionated: without graphical rendering
+
+## 🔗 Связи
+
+- [[MOC - MCP Servers]] — mcp-servers
+- [[000 - Map of Maps]] — Map of Maps
+

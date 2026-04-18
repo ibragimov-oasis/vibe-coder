@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # ARIA Patterns & Keyboard Interaction Reference
 
 ## Landmark Roles
@@ -221,3 +228,9 @@ End          → Last header
 | Redundant ARIA on semantic HTML | `<nav role="navigation">` is redundant | Drop the `role` — `<nav>` implies it |
 | `aria-live` on container that already has content | Initial content gets announced on load | Add `aria-live` to empty container, inject content after |
 | Missing `aria-expanded` on toggles | Screen reader can't tell if section is open | Add `aria-expanded="true/false"` |
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

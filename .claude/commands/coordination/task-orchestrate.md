@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/command
+  - source/claude-commands
+---
+
 # task-orchestrate
 
 Orchestrate complex tasks across the swarm.
@@ -23,3 +30,9 @@ npx claude-flow task orchestrate --task "Fix production bug" --priority critical
 # With specific strategy
 npx claude-flow task orchestrate --task "Refactor codebase" --strategy parallel
 ```
+
+## 🔗 Связи
+
+- [[MOC - System]] — System commands
+- [[MOC - Skills]] — Skills library
+

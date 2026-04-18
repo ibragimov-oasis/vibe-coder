@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/mcp
+  - artifact/mcp-server
+  - source/mcp-servers
+---
+
 # Changelog
 
 ## [1.0.0](https://github.com/googleapis/mcp-toolbox-sdk-python/compare/toolbox-core-v0.6.0...toolbox-core-v1.0.0) (2026-03-25)
@@ -332,3 +339,9 @@
 
 * **toolbox-core:** Add qualname for ToolboxTool instances ([#134](https://github.com/googleapis/genai-toolbox-langchain-python/issues/134)) ([5c2dff7](https://github.com/googleapis/genai-toolbox-langchain-python/commit/5c2dff7b2378eaa9298cc281b3658f85a32aa1a5))
 * **toolbox-core:** correct invalid reference when using array types ([#128](https://github.com/googleapis/genai-toolbox-langchain-python/issues/128)) ([d5a3259](https://github.com/googleapis/genai-toolbox-langchain-python/commit/d5a325926e3fb03b33f9133e7cc70fa935b9aecb))
+
+## 🔗 Связи
+
+- [[MOC - MCP Servers]] — mcp-servers
+- [[000 - Map of Maps]] — Map of Maps
+

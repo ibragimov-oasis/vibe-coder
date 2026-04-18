@@ -75,7 +75,16 @@ Not every collection of data needs to be displayed in a chart. If you simply nee
 
 ## [Change log](https://developer.apple.com/design/human-interface-guidelines/charting-data#Change-log)
 
-Date| Changes  
+Date| Changes
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
 ---|---  
-September 23, 2022| New page.  
-  
+September 23, 2022| New page.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

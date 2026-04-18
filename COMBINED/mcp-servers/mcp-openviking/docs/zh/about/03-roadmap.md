@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/mcp
+  - artifact/mcp-server
+  - source/mcp-servers
+---
+
 # 路线图
 
 本文档概述 OpenViking 的开发路线图。
@@ -76,3 +83,9 @@
 ## 贡献
 
 我们欢迎贡献以帮助实现这些目标。请参阅 [贡献指南](contributing.md)。
+
+## 🔗 Связи
+
+- [[MOC - MCP Servers]] — mcp-servers
+- [[000 - Map of Maps]] — Map of Maps
+

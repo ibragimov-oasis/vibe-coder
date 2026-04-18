@@ -3,6 +3,9 @@ name: transcribe-captions
 description: Transcribing audio to generate captions in Remotion
 metadata:
   tags: captions, transcribe, whisper, audio, speech-to-text
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
 ---
 
 # Transcribing audio
@@ -17,3 +20,9 @@ Remotion provides several built-in options for transcribing audio to generate ca
 
 - `@remotion/openai-whisper` - Use OpenAI Whisper API for cloud-based transcription. Fast and no server needed, but requires payment.
   https://remotion.dev/docs/openai-whisper/openai-whisper-api-to-captions
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

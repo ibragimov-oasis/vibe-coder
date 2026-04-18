@@ -1,6 +1,10 @@
 ---
 applyTo: '**/*.Tests.ps1'
 description: 'PowerShell Pester testing best practices based on Pester v5 conventions'
+tags:
+  - domain/agents
+  - artifact/agent
+  - source/by-interface/agents-copilot
 ---
 
 # PowerShell Pester v5 Testing Guidelines
@@ -195,3 +199,9 @@ Invoke-Pester -Configuration $config
 ```
 
 **Key Sections**: Run (Path, Exit), Filter (Tag, ExcludeTag), Output (Verbosity), TestResult (Enabled, OutputFormat), CodeCoverage (Enabled, Path), Should (ErrorAction), Debug
+
+## 🔗 Связи
+
+- [[MOC - Agents]] — Agent catalog
+- [[agents/agents-copilot]] — Interface: agents-copilot
+

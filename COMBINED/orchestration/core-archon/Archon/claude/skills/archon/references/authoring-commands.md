@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-archon
+---
+
 # Authoring Command Files
 
 Commands are plain Markdown files containing AI prompt templates. They are the atomic unit of AI instruction — each command file defines what a single AI agent does in one step of a workflow.
@@ -188,3 +195,10 @@ Write validation results to `$ARTIFACTS_DIR/validation.md` with:
 - Specific error details for failures
 - Summary recommendation (proceed / needs fixes)
 ```
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/archon]] — Archon
+- [[000 - Map of Maps]] — Map of Maps
+

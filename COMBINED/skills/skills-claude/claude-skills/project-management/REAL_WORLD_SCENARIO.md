@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # 🎬 REAL-WORLD USAGE SCENARIO
 ## How the 6 Expert Skills Work Together
 
@@ -458,4 +465,9 @@ This scenario demonstrates:
 **Success Rate**: 100%
 **Budget Performance**: 96%
 **Timeline Performance**: 100%
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
 

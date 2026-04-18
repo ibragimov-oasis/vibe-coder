@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-awesome-claude
+---
+
 # Anthropic Quickstarts Development Guide
 
 ## Computer-Use Demo
@@ -56,3 +63,9 @@
 - **Components**: Function components with type annotations
 - **Visualization**: Use Recharts library for data visualization
 - **State management**: React hooks for state
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-awesome-claude]] — Category: skills-awesome-claude
+

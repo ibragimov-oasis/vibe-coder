@@ -2,6 +2,10 @@
 description: "TypeScript hooks extending common rules"
 globs: ["**/*.ts", "**/*.tsx", "**/*.js", "**/*.jsx"]
 alwaysApply: false
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
 ---
 # TypeScript/JavaScript Hooks
 
@@ -18,3 +22,9 @@ Configure in `~/.claude/settings.json`:
 ## Stop Hooks
 
 - **console.log audit**: Check all modified files for `console.log` before session ends
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

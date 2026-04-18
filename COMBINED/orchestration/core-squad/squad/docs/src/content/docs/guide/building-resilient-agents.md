@@ -1,6 +1,10 @@
 ---
 title: "Building resilient agents"
 description: "Use the circuit breaker pattern to handle transient failures gracefully."
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-squad
 ---
 
 Long-running agents face inevitable transient failures: rate limits, network timeouts, upstream service degradation. The circuit breaker pattern protects your agents from cascading failures by stopping requests before they fail, and automatically recovering when the system stabilizes.
@@ -123,3 +127,10 @@ Log state transitions and include the circuit state in agent status or dashboard
 
 - [PR #552](https://github.com/bradygaster/squad/pull/552) — Circuit breaker implementation
 - [Failure handling](../reference/tools-and-hooks) — Error boundaries and fallbacks
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/squad]] — Squad
+- [[000 - Map of Maps]] — Map of Maps
+

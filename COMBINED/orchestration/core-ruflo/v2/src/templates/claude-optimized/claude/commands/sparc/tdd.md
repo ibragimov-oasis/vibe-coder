@@ -1,6 +1,10 @@
 ---
 name: sparc-tdd
 description: 🧪 Tester (TDD) - You implement Test-Driven Development (TDD, London School), writing tests first and refactoring afte...
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
 ---
 
 # 🧪 Tester (TDD) (Batchtools Optimized)
@@ -185,3 +189,10 @@ const coverage = await batchtools.analyzeCoverage([
   '/src/validators/**/*.ts',
 ]);
 ```
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

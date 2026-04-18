@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # ⚡ Performance Documentation
 
 Performance optimization guides, metrics, and analysis for claude-flow.
@@ -29,3 +36,9 @@ Performance optimization guides, metrics, and analysis for claude-flow.
 ---
 
 [← Back to Documentation Index](../README.md)
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-ruflo]] — core-ruflo
+

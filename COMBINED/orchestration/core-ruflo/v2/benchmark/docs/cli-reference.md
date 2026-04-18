@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # CLI Reference Guide
 
 Complete command-line interface documentation for the swarm benchmarking tool.
@@ -639,3 +646,10 @@ sbr "Research task" --strategy research --mode distributed --parallel
 sbr "Build system" --strategy development --mode hierarchical --monitor
 sbr "Optimize code" --strategy optimization --mode hybrid --profile
 ```
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

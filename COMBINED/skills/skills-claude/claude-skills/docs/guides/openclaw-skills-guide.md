@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # OpenClaw Skills Guide — Install & Use Agent Skills with OpenClaw
 
 > **Last updated:** March 2026 · **Skills count:** 192+ · **Compatibility:** OpenClaw v2024.12+
@@ -163,3 +170,9 @@ Use the `skill-creator` meta-skill for guided skill creation:
 ---
 
 *Part of the [Claude Code Skills & Agent Plugins](https://github.com/alirezarezvani/claude-skills) repository — 192+ production-ready skills for 11 AI coding tools.*
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

@@ -1,6 +1,10 @@
 ---
 title: "API Test Suite Builder — Agent Skill for Codex & OpenClaw"
 description: "Use when the user asks to generate API tests, create integration test suites, test REST endpoints, or build contract tests. Agent skill for Claude Code, Codex CLI, Gemini CLI, OpenClaw."
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
 ---
 
 # API Test Suite Builder
@@ -186,3 +190,9 @@ When given a codebase, follow this process:
 5. Test that sensitive fields (password, secret) are never in responses
 6. For auth tests, always test the "missing header" case separately from "invalid token"
 7. Add rate limit tests last — they can interfere with other test suites if run in parallel
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

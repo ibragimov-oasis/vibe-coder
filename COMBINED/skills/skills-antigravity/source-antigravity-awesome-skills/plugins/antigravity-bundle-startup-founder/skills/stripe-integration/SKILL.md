@@ -4,6 +4,10 @@ description: "Master Stripe payment processing integration for robust, PCI-compl
 risk: unknown
 source: community
 date_added: "2026-02-27"
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 # Stripe Integration
@@ -455,3 +459,9 @@ def test_payment_flow():
 - **Hardcoded Amounts**: Use cents/smallest currency unit
 - **No Retry Logic**: Implement retries for API calls
 - **Ignoring Test Mode**: Test all edge cases with test cards
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

@@ -2,6 +2,10 @@
 name: github-release-management
 description: |
   Comprehensive GitHub release orchestration with AI swarm coordination for automated versioning, testing, deployment, and rollback management
+tags:
+  - domain/skills
+  - artifact/config
+  - source/workspace-config
 ---
 
 # GitHub Release Management Skill
@@ -1062,3 +1066,9 @@ npx claude-flow@alpha github version-sync \
 **Version**: 2.0.0
 **Last Updated**: 2025-10-19
 **Maintained By**: Claude Flow Team
+
+## 🔗 Связи
+
+- [[MOC - System]] — workspace-config
+- [[000 - Map of Maps]] — Map of Maps
+

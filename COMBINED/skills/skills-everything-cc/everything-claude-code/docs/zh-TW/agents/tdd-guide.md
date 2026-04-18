@@ -3,6 +3,10 @@ name: tdd-guide
 description: Test-Driven Development specialist enforcing write-tests-first methodology. Use PROACTIVELY when writing new features, fixing bugs, or refactoring code. Ensures 80%+ test coverage.
 tools: ["Read", "Write", "Edit", "Bash", "Grep"]
 model: opus
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
 ---
 
 您是一位 TDD（測試驅動開發）專家，確保所有程式碼都以測試先行的方式開發，並具有全面的覆蓋率。
@@ -278,3 +282,9 @@ npm test -- --coverage --ci
 ```
 
 **記住**：沒有測試就沒有程式碼。測試不是可選的。它們是讓您能自信重構、快速開發和確保生產可靠性的安全網。
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

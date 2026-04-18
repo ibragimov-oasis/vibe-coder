@@ -10,6 +10,9 @@ metadata:
     tags: [iMessage, SMS, messaging, macOS, Apple]
 prerequisites:
   commands: [imsg]
+  - domain/skills
+  - artifact/skill
+  - source/skills-hermes
 ---
 
 # iMessage
@@ -100,3 +103,9 @@ imsg chats --limit 20 --json | jq '.[] | select(.displayName | contains("Mom"))'
 # 3. Send after confirmation
 imsg send --to "+1555123456" --text "I'll be late"
 ```
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-hermes]] — Category: skills-hermes
+

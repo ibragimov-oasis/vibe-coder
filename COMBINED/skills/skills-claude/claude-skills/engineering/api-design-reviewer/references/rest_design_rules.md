@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # REST API Design Rules Reference
 
 ## Core Principles
@@ -485,3 +492,9 @@ Retry-After: 3600
 - [OpenAPI Specification](https://swagger.io/specification/)
 - [REST API Design Best Practices](https://www.restapitutorial.com/)
 - [HTTP Status Code Definitions](https://httpstatuses.com/)
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

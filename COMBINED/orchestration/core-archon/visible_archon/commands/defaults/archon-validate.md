@@ -1,6 +1,10 @@
 ---
 description: Run full validation suite - type-check, lint, tests, build
 argument-hint: (no arguments - reads from workflow artifacts)
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-archon
 ---
 
 # Validate Implementation
@@ -339,3 +343,10 @@ Partial results written to: `$ARTIFACTS_DIR/validation.md`
 - **TESTS_PASS**: `{runner} test` all green
 - **BUILD_PASS**: `{runner} run build` exits 0
 - **ARTIFACT_WRITTEN**: Validation results documented
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/archon]] — Archon
+- [[000 - Map of Maps]] — Map of Maps
+

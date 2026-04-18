@@ -2,6 +2,10 @@
 name: dmux-workflows
 description: 使用dmux（AI代理的tmux窗格管理器）进行多代理编排。跨Claude Code、Codex、OpenCode及其他工具的并行代理工作流模式。适用于并行运行多个代理会话或协调多代理开发工作流时。
 origin: ECC
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-everything-cc
 ---
 
 # dmux 工作流
@@ -191,3 +195,9 @@ node scripts/orchestrate-worktrees.js plan.json --execute
 * **合并冲突：** 使用 git worktree 隔离每个窗格的文件更改。
 * **令牌使用量高：** 减少并行窗格数量。每个窗格都是一个完整的代理会话。
 * **未找到 tmux：** 使用 `brew install tmux` (macOS) 或 `apt install tmux` (Linux) 安装。
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

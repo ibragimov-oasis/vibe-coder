@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-gsd
+---
+
 # GSD 設定リファレンス
 
 > 設定スキーマの全容、ワークフロートグル、モデルプロファイル、Git ブランチオプション。機能の詳細については[機能リファレンス](FEATURES.md)を参照してください。
@@ -340,3 +347,10 @@ GSD が非 Claude ランタイム向けにインストールされると、イ�
 **保存場所:** `~/.gsd/defaults.json`
 
 `/gsd:new-project` が新しい `config.json` を作成する際、グローバルデフォルトを読み込み、初期設定としてマージします。プロジェクトごとの設定は常にグローバル設定を上書きします。
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-gsd]] — core-gsd
+- [[MOC - Skills]] — Skills library
+

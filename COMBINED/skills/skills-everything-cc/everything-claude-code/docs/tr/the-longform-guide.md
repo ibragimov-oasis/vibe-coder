@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
+---
+
 # Claude Code'un Her Şeyine Dair Uzun Kılavuz
 
 ![Header: The Longform Guide to Everything Claude Code](../assets/images/longform/01-header.png)
@@ -352,3 +359,9 @@ alias q='cd ~/Desktop/projects'
 ---
 
 *Her iki kılavuzda ele alınan her şey GitHub'da [everything-claude-code](https://github.com/affaan-m/everything-claude-code) adresinde mevcuttur*
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

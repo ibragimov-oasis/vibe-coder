@@ -1,6 +1,10 @@
 ---
 description: Create comprehensive planning documentation for a feature
 argument-hint: "<feature-slug>"
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
 ---
 
 ## User Input
@@ -414,3 +418,9 @@ Files created:
 > ```
 >
 > This will summarize the conversation and preserve the planning decisions while reducing token usage for the implementation phase.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

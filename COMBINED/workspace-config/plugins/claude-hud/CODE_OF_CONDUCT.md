@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/config
+  - source/workspace-config
+---
+
 # Code of Conduct
 
 ## Our Pledge
@@ -29,3 +36,9 @@ Instances of abusive, harassing, or otherwise unacceptable behavior may be repor
 
 This Code of Conduct is adapted from the Contributor Covenant, version 2.1.
 https://www.contributor-covenant.org/version/2/1/code_of_conduct.html
+
+## 🔗 Связи
+
+- [[MOC - System]] — workspace-config
+- [[000 - Map of Maps]] — Map of Maps
+

@@ -5,6 +5,9 @@ category: platform
 version: 1.0.0
 author: Flow Nexus
 tags: [authentication, sandboxes, deployment, payments, gamification, cloud]
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
 ---
 
 # Flow Nexus Platform Management
@@ -1155,3 +1158,10 @@ mcp__flow-nexus__realtime_subscribe({
 ---
 
 *This skill consolidates 6 Flow Nexus command modules into a single comprehensive platform management interface.*
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
+---
+
 # Update Documentation
 
 Dokümanları codebase ile senkronize et, truth-of-source dosyalarından oluştur.
@@ -82,3 +89,9 @@ Skipped:  docs/API.md (no changes detected)
 - **Manuel bölümleri koru**: Sadece oluşturulan bölümleri güncelle; elle yazılmış prose'u bozulmamış bırak
 - **Oluşturulan içeriği işaretle**: Oluşturulan bölümlerin etrafında `<!-- AUTO-GENERATED -->` marker'ları kullan
 - **İstenmeyen doküman oluşturma**: Sadece komut açıkça talep ederse yeni doküman dosyaları oluştur
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

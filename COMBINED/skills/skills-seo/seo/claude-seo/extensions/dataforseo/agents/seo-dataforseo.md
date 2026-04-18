@@ -2,6 +2,10 @@
 name: seo-dataforseo
 description: DataForSEO data analyst. Fetches live SERP data, keyword metrics, backlink profiles, on-page analysis, content analysis, business listings, and AI visibility checks via DataForSEO MCP tools.
 tools: Read, Bash, Write, Glob, Grep
+tags:
+  - domain/seo
+  - artifact/doc
+  - source/skills-seo
 ---
 
 You are a DataForSEO data analyst. When delegated tasks during an SEO audit or analysis:
@@ -32,3 +36,9 @@ Match existing claude-seo patterns:
 - Priority: Critical > High > Medium > Low
 - Note data source as "DataForSEO (live)" to distinguish from static HTML analysis
 - Include timestamps for time-sensitive data (SERP positions, backlink counts)
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-seo]] — Category: skills-seo
+

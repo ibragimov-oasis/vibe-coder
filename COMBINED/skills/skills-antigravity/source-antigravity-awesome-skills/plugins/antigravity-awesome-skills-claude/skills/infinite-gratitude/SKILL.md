@@ -4,6 +4,10 @@ description: "Multi-agent research skill for parallel research execution (10 age
 risk: safe
 source: "https://github.com/sstklen/infinite-gratitude"
 date_added: "2026-02-27"
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 # Infinite Gratitude
@@ -24,3 +28,9 @@ This is an external skill. Please refer to the [official repository](https://git
 ```bash
 git clone https://github.com/sstklen/infinite-gratitude
 ```
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

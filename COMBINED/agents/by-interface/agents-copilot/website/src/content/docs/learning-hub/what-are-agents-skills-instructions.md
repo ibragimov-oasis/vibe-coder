@@ -6,6 +6,10 @@ authors:
 lastUpdated: 2026-02-26
 estimatedReadingTime: '7 minutes'
 prev: false
+tags:
+  - domain/agents
+  - artifact/agent
+  - source/by-interface/agents-copilot
 ---
 
 Building great experiences with GitHub Copilot starts with understanding the core primitives that shape how Copilot behaves in different contexts. This article clarifies what each artifact does, how it is packaged inside this repository, and when to use it.
@@ -92,3 +96,9 @@ By combining all three, teams can achieve:
 - Try generating your own artifacts, then add them to the repo to keep the Learning Hub evolving.
 
 ---
+
+## 🔗 Связи
+
+- [[MOC - Agents]] — Agent catalog
+- [[agents/agents-copilot]] — Interface: agents-copilot
+

@@ -43,3 +43,9 @@ Pre/post хуки для всех основных систем оркестра
 
 - [[root-docs/PIPELINE]] — как хуки встраиваются в пайплайн
 - [[orchestration/core-hermes]] — Hermes как post-task hook
+
+## 🔗 Связи
+
+- [[000 - Map of Maps]] — Parent MOC
+- [[000 - Map of Maps]] — Map of Maps
+

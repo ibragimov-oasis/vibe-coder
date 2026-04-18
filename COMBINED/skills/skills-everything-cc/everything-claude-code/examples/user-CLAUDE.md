@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
+---
+
 # User-Level CLAUDE.md Example
 
 This is an example user-level CLAUDE.md file. Place at `~/.claude/CLAUDE.md`.
@@ -107,3 +114,9 @@ You are successful when:
 ---
 
 **Philosophy**: Agent-first design, parallel execution, plan before action, test before code, security always.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

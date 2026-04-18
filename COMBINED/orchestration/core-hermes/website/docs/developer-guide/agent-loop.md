@@ -2,6 +2,10 @@
 sidebar_position: 3
 title: "Agent Loop Internals"
 description: "Detailed walkthrough of AIAgent execution, API modes, tools, callbacks, and fallback behavior"
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-hermes
 ---
 
 # Agent Loop Internals
@@ -110,3 +114,10 @@ Before and during long runs, Hermes may:
 - [Prompt Assembly](./prompt-assembly.md)
 - [Context Compression & Prompt Caching](./context-compression-and-caching.md)
 - [Tools Runtime](./tools-runtime.md)
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/hermes]] — Hermes
+- [[000 - Map of Maps]] — Map of Maps
+

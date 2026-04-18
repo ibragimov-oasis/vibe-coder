@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-taskmaster
+---
+
 Export tasks to README.md with professional formatting.
 
 Arguments: $ARGUMENTS
@@ -115,3 +122,10 @@ Works well with:
 - Project documentation
 - Team updates
 - Client reports
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/task-master]] — Task-Master
+- [[000 - Map of Maps]] — Map of Maps
+

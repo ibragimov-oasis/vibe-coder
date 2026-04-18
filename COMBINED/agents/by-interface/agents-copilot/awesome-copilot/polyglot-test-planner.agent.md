@@ -1,6 +1,10 @@
 ---
 description: 'Creates structured test implementation plans from research findings. Organizes tests into phases by priority and complexity. Works with any language.'
 name: 'Polyglot Test Planner'
+tags:
+  - domain/agents
+  - artifact/agent
+  - source/by-interface/agents-copilot
 ---
 
 # Test Planner
@@ -123,3 +127,9 @@ What this phase accomplishes and why it's first.
 ## Output
 
 Write the plan document to `.testagent/plan.md` in the workspace root.
+
+## 🔗 Связи
+
+- [[MOC - Agents]] — Agent catalog
+- [[agents/agents-copilot]] — Interface: agents-copilot
+

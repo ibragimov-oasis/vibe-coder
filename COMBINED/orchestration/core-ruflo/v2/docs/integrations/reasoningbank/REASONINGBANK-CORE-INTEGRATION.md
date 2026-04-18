@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # ReasoningBank Core Memory Integration
 
 ## 🎯 Overview
@@ -656,3 +663,10 @@ This integration adds ReasoningBank as an **optional enhancement** to core memor
 ✅ **MCP Integrated**: Claude Desktop can use both memory modes seamlessly
 
 **Result**: Best of both worlds - simple JSON storage OR AI-powered learning memory! 🚀
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

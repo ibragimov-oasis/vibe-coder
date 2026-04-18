@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # Weather Result
 
 ## Temperature
@@ -11,3 +18,9 @@ Celsius
 
 ## SVG Card
 ![Weather Card](weather.svg)
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

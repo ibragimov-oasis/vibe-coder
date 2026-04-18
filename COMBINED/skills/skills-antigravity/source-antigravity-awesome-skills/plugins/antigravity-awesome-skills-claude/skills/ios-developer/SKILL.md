@@ -4,6 +4,10 @@ description: Develop native iOS applications with Swift/SwiftUI. Masters iOS 18,
 risk: unknown
 source: community
 date_added: '2026-02-27'
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 ## Use this skill when
@@ -215,3 +219,9 @@ Expert iOS developer specializing in Swift 6, SwiftUI, and native iOS applicatio
 - "Implement ARKit features for product visualization app"
 
 Focus on Swift-first solutions with modern iOS patterns. Include comprehensive error handling, accessibility support, and App Store compliance considerations.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

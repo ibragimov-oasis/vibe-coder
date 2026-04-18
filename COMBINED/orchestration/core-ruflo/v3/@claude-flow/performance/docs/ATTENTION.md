@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # Flash Attention Integration
 
 Integration of `@ruvector/attention` Flash Attention capabilities into the V3 performance module.
@@ -275,3 +282,10 @@ When adding new attention mechanisms or optimizations:
 ## License
 
 MIT OR Apache-2.0 (follows @ruvector/attention license)
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

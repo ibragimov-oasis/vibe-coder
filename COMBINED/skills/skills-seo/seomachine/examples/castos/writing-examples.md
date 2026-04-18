@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/seo
+  - artifact/doc
+  - source/skills-seo
+---
+
 # Castos Writing Examples
 
 This file contains exemplary blog posts from Castos that demonstrate the brand voice, style, and quality standards. Use these as reference when writing new content.
@@ -1174,3 +1181,9 @@ When writing new content:
 4. **Match the quality bar** these examples set
 
 These aren't templates to copy—they're examples of voice, tone, and quality to emulate while creating original, valuable content for podcast creators.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-seo]] — Category: skills-seo
+

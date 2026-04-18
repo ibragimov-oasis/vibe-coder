@@ -4,6 +4,10 @@ agent: "agent"
 tools:
   - runInTerminal
   - readFile
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-archon
 ---
 
 # Install
@@ -33,3 +37,10 @@ Output what you've done in a concise bullet point list:
 - Server: http://localhost:3001, API response
 - Client: http://localhost:3000
 - Any issues encountered
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-archon]] — core-archon
+- [[MOC - Skills]] — Skills library
+

@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/seo
+  - artifact/doc
+  - source/skills-seo
+---
+
 ## Summary
 
 <!-- What does this PR do? Why is it needed? -->
@@ -18,3 +25,9 @@
 - [ ] Reference files stay under 200 lines (if modified)
 - [ ] `set -euo pipefail` used in any new shell scripts
 - [ ] CHANGELOG.md updated with the change
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-seo]] — Category: skills-seo
+

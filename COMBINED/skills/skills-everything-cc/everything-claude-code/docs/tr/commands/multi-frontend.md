@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
+---
+
 # Frontend - Frontend Odaklı Geliştirme
 
 Frontend odaklı iş akışı (Research → Ideation → Plan → Execute → Optimize → Review), Gemini liderliğinde.
@@ -156,3 +163,9 @@ Review geri bildirimlerini entegre et, kullanıcı onayından sonra optimizasyon
 2. **Codex frontend görüşleri sadece referans için**
 3. Harici modellerin **sıfır dosya sistemi yazma erişimi**
 4. Claude tüm kod yazma ve dosya operasyonlarını yönetir
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

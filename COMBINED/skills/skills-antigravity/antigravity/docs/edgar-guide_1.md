@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # EDGAR Guide for Claude Code Usage
 
 This guide explains how the skill reads SEC data with `tools/edgar.py`.
@@ -51,3 +58,9 @@ python3 tools/edgar.py ASML --mode facts
 - Fail loudly on invalid ticker/CIK resolution.
 - Return partial datasets when some concepts are unavailable.
 - Never invent missing values.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

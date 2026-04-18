@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-taskmaster
+---
+
 Add new tasks with intelligent parsing and context awareness.
 
 Arguments: $ARGUMENTS
@@ -76,3 +83,10 @@ Intelligent defaults based on:
 - Current sprint/phase
 
 Result: High-quality tasks from minimal input.
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/task-master]] — Task-Master
+- [[000 - Map of Maps]] — Map of Maps
+

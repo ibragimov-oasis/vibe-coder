@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # System Design Workflows
 
 Step-by-step workflows for common system design tasks.
@@ -534,3 +541,9 @@ Rollback time estimate: 15 minutes
 | Database design | [Database Schema Design](#4-database-schema-design-workflow) |
 | Handle growth | [Scalability Assessment](#5-scalability-assessment-workflow) |
 | System migration | [Migration Planning](#6-migration-planning-workflow) |
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

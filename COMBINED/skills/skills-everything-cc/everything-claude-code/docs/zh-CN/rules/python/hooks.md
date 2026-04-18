@@ -2,6 +2,10 @@
 paths:
   - "**/*.py"
   - "**/*.pyi"
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
 ---
 
 # Python 钩子
@@ -18,3 +22,9 @@ paths:
 ## 警告
 
 * 对编辑文件中的 `print()` 语句发出警告（应使用 `logging` 模块替代）
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

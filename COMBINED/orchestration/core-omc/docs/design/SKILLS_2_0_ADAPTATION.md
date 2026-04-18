@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-omc
+---
+
 # Skills 2.0 Adaptation for OMC (MVP)
 
 ## Context
@@ -113,3 +120,10 @@ Add validation / diagnostics around richer contracts and potentially artifact-fi
 - `.agents/skills/` compatibility may surface overlapping names if users intentionally mirror the same skill in both locations; precedence is now explicit, but duplication may still confuse humans.
 - `Skill Resources` currently summarizes top-level bundled assets only; deeper artifact indexing is out of scope for the MVP.
 - This does not yet introduce a richer validated schema; it improves packaging and discoverability first.
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-omc]] — core-omc
+- [[MOC - Skills]] — Skills library
+

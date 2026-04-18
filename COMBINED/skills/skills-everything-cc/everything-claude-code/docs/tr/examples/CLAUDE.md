@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
+---
+
 # Örnek Proje CLAUDE.md
 
 Bu, örnek bir proje seviyesi CLAUDE.md dosyasıdır. Bunu proje kök dizininize yerleştirin.
@@ -98,3 +105,9 @@ DEBUG=false
 - Asla doğrudan main'e commit yapmayın
 - PR'lar review gerektirir
 - Merge'den önce tüm testler geçmeli
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

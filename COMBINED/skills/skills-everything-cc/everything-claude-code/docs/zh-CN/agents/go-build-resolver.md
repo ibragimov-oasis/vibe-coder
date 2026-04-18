@@ -3,6 +3,10 @@ name: go-build-resolver
 description: Go 构建、vet 和编译错误解决专家。以最小改动修复构建错误、go vet 问题和 linter 警告。在 Go 构建失败时使用。
 tools: ["Read", "Write", "Edit", "Bash", "Grep", "Glob"]
 model: sonnet
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
 ---
 
 # Go 构建错误解决器
@@ -93,3 +97,9 @@ go clean -modcache && go mod download  # Fix checksum issues
 最终：`Build Status: SUCCESS/FAILED | Errors Fixed: N | Files Modified: list`
 
 有关详细的 Go 错误模式和代码示例，请参阅 `skill: golang-patterns`。
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

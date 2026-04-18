@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # International GTM Playbooks
 
 Market-by-market expansion guides for US, UK, DACH, France, and Canada.
@@ -399,3 +406,9 @@ Enter market when ALL true:
 - [ ] Local event participation
 
 **Validation:** Native speaker review of ALL localized content before launch
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

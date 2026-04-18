@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # Final Pre-Publish Validation Report
 # Claude-Flow v2.6.0-alpha.2
 
@@ -821,3 +828,10 @@ The system demonstrates:
 **Pass Rate:** 100%
 **Confidence:** VERY HIGH (98%)
 **Decision:** ✅ **APPROVED FOR PUBLISH**
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/prompts
+  - artifact/prompt
+  - source/prompts-templates
+---
+
 # Prompts.chat
 
 Search, browse, and run AI prompts from [prompts.chat](https://prompts.chat) — the open-source community platform for ChatGPT and AI prompts.
@@ -54,3 +61,9 @@ You can use this extension with self-hosted instances of prompts.chat by changin
 
 - [prompts.chat](https://prompts.chat) — Browse prompts on the web
 - [GitHub Repository](https://github.com/f/prompts.chat) — Source code and contributions
+
+## 🔗 Связи
+
+- [[MOC - Prompts]] — Prompt library
+- [[MOC - System]] — System documentation
+

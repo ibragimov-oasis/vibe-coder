@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-squad
+---
+
 # PRD: SDK Init Shore-Up
 **Initiative:** Comprehensive SDK Init Quality Gate  
 **Owner:** Flight  
@@ -201,3 +208,10 @@ The `CastingEngine` class is Squad's universe template system — it knows Apoll
 ---
 
 **Next steps:** Phase 1 kickoff. EECOM + CAPCOM to review and estimate.
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-squad]] — core-squad
+- [[MOC - Skills]] — Skills library
+

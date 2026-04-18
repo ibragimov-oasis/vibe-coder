@@ -11,6 +11,10 @@ tools:
   - mcp__lightpanda
   - mcp__gitnexus
   - mcp__supermemory
+tags:
+  - domain/skills
+  - artifact/config
+  - source/.claude
 ---
 
 <role>
@@ -443,3 +447,9 @@ When called from the autonomous pipeline (Background Agent → Hermes → Shanno
    - Pipeline completes
    - Final summary delivered to user
 </pipeline_integration>
+
+## 🔗 Связи
+
+- [[MOC - System]] — System
+- [[000 - Map of Maps]] — Map of Maps
+

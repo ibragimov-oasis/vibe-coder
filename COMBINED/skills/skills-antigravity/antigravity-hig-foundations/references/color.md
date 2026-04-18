@@ -121,7 +121,11 @@ With both sets of background colors, you generally use the variants to indicate 
 
 For foreground content, iOS defines the following dynamic colors:
 
-Color| Use for…| UIKit API  
+Color| Use for…| UIKit API
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
 ---|---|---  
 Label| A text label that contains primary content.| [`label`](https://developer.apple.com/documentation/UIKit/UIColor/label)  
 Secondary label| A text label that contains secondary content.| [`secondaryLabel`](https://developer.apple.com/documentation/UIKit/UIColor/secondaryLabel)  
@@ -270,5 +274,10 @@ February 2, 2024| Distinguished UIKit and SwiftUI gray colors in iOS and iPadOS,
 September 12, 2023| Enhanced guidance for using background color in watchOS views, and added color swatches for tvOS.  
 June 21, 2023| Updated to include guidance for visionOS.  
 June 5, 2023| Updated guidance for using background color in watchOS.  
-December 19, 2022| Corrected RGB values for system mint color (Dark Mode) in iOS and iPadOS.  
-  
+December 19, 2022| Corrected RGB values for system mint color (Dark Mode) in iOS and iPadOS.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

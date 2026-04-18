@@ -2,6 +2,10 @@
 title: "Cloud SQL for PostgreSQL"
 type: docs
 description: "Details of the Cloud SQL for PostgreSQL prebuilt configuration."
+tags:
+  - domain/mcp
+  - artifact/mcp-server
+  - source/mcp-servers
 ---
 
 ## Cloud SQL for PostgreSQL
@@ -57,3 +61,9 @@ description: "Details of the Cloud SQL for PostgreSQL prebuilt configuration."
         each database in the postgreSQL instance.
     *   `list_roles`: Lists all the user-created roles in PostgreSQL database.
     *   `list_stored_procedure`: Lists stored procedures.
+
+## 🔗 Связи
+
+- [[MOC - MCP Servers]] — mcp-servers
+- [[000 - Map of Maps]] — Map of Maps
+

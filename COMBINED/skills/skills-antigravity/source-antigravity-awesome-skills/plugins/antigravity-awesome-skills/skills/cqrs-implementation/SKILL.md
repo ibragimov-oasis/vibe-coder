@@ -4,6 +4,10 @@ description: "Implement Command Query Responsibility Segregation for scalable ar
 risk: unknown
 source: community
 date_added: "2026-02-27"
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 # CQRS Implementation
@@ -36,3 +40,9 @@ Comprehensive guide to implementing CQRS (Command Query Responsibility Segregati
 ## Resources
 
 - `resources/implementation-playbook.md` for detailed CQRS patterns and templates.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

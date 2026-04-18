@@ -1,6 +1,10 @@
 ---
 title: "/seo-auditor — Slash Command for AI Coding Agents"
 description: "Scan and optimize documentation files for SEO. Audits README.md files and docs/ pages for meta tags, headings, keywords, readability, duplicate. Slash command for Claude Code, Codex CLI, Gemini CLI."
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
 ---
 
 # /seo-auditor
@@ -341,3 +345,9 @@ These pages rank well for their target keywords. Only fix critical issues (broke
 | URL Design Guide | `marketing-skill/site-architecture/references/url-design-guide.md` | URL structure best practices |
 | Internal Linking | `marketing-skill/site-architecture/references/internal-linking-playbook.md` | Internal linking strategy |
 | AI Writing Detection | `marketing-skill/content-humanizer/references/ai-tells-checklist.md` | AI cliché removal |
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

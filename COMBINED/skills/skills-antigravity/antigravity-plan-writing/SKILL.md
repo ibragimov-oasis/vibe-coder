@@ -4,6 +4,10 @@ description: "Structured task planning with clear breakdowns, dependencies, and 
 risk: unknown
 source: community
 date_added: "2026-02-27"
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 # Plan Writing
@@ -151,3 +155,9 @@ One sentence: What are we building/fixing?
 - Adding a feature
 - Fixing a bug (if complex)
 - Refactoring multiple files
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
+---
+
 # Changelog
 
 ## 1.9.0 - 2026-03-20
@@ -147,3 +154,9 @@
 
 - inspired by [zarazhangrui](https://github.com/zarazhangrui)
 - homunculus-inspired by [humanplane](https://github.com/humanplane)
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

@@ -5,6 +5,10 @@ category: workflow-bundle
 risk: safe
 source: personal
 date_added: "2026-02-27"
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 # Development Workflow Bundle
@@ -260,3 +264,9 @@ Before moving to next phase, verify:
 - `security-audit` - Security testing workflow
 - `testing-qa` - Comprehensive testing workflow
 - `documentation` - Documentation generation workflow
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

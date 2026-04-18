@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/config
+  - source/workspace-config
+---
+
 # List Active Patterns
 
 ## 🎯 Key Principle
@@ -42,3 +49,9 @@ Filters:
 - Main documentation: /CLAUDE.md
 - Other commands in this category
 - Workflow examples in /workflows/
+
+## 🔗 Связи
+
+- [[MOC - System]] — workspace-config
+- [[000 - Map of Maps]] — Map of Maps
+

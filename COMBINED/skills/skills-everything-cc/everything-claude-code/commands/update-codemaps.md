@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
+---
+
 # Update Codemaps
 
 Analyze the codebase structure and generate token-lean architecture documentation.
@@ -70,3 +77,9 @@ Write a summary to `.reports/codemap-diff.txt`:
 - Keep each codemap under **1000 tokens** for efficient context loading
 - Use ASCII diagrams for data flow instead of verbose descriptions
 - Run after major feature additions or refactoring sessions
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

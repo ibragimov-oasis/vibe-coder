@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/new_repos
+---
+
 # Agent Mode and Tools
 
 Copilot Plus includes an **autonomous agent** that can reason step-by-step and decide which tools to use to answer your question. Instead of you specifying every step, the agent figures out what to do on its own.
@@ -172,3 +179,8 @@ If you trust the agent and don't want to review every file change, enable **Auto
 - [Copilot Plus and Self-Host](copilot-plus-and-self-host.md) — Licensing and memory
 - [Vault Search and Indexing](vault-search-and-indexing.md) — How vault search works
 - [Context and Mentions](context-and-mentions.md) — @-mention triggers for tools
+
+## 🔗 Связи
+
+- [[000 - Map of Maps]] — Map of Maps
+

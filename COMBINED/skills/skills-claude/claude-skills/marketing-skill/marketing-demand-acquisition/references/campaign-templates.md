@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # Campaign Templates
 
 Ready-to-use campaign briefs and structures for LinkedIn, Google, and Meta.
@@ -219,3 +226,9 @@ Campaign Objective: [Conversions]
 - D4: Backup generic (60-90 chars)
 
 **Validation:** Ad strength score of "Excellent" before launch.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

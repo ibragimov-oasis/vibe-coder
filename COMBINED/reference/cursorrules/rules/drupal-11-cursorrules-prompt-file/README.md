@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/reference
+  - source/reference
+---
+
 # Drupal 11 Awesome CursorRules
 
 This repository provides a custom **CursorRules** file tailored for Drupal 11 projects. The rules defined in the `.cursorrules` file ensure that AI-generated code adheres to Drupal 11’s coding standards, best practices, and modern architecture, leveraging PHP 8.x, Symfony 6, and Drupal’s APIs.
@@ -39,3 +46,9 @@ Contributions and improvements are welcome. If you have suggestions or enhanceme
 ## License
 
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.
+
+## 🔗 Связи
+
+- [[MOC - System]] — reference
+- [[000 - Map of Maps]] — Map of Maps
+

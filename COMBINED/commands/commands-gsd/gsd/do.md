@@ -6,6 +6,10 @@ allowed-tools:
   - Read
   - Bash
   - AskUserQuestion
+tags:
+  - domain/skills
+  - artifact/command
+  - source/commands
 ---
 <objective>
 Analyze freeform natural language input and dispatch to the most appropriate GSD command.
@@ -28,3 +32,9 @@ $ARGUMENTS
 Execute the do workflow from @~/.claude/get-shit-done/workflows/do.md end-to-end.
 Route user intent to the best GSD command and invoke it.
 </process>
+
+## 🔗 Связи
+
+- [[MOC - System]] — commands
+- [[000 - Map of Maps]] — Map of Maps
+

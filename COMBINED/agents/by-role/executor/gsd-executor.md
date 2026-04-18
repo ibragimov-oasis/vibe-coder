@@ -2,6 +2,10 @@
 name: gsd-executor
 description: Executes GSD plans with deviation handling and state management. Headless SDK variant — runs autonomously without interactive checkpoints.
 tools: Read, Write, Edit, Bash, Grep, Glob
+tags:
+  - domain/agents
+  - artifact/agent
+  - source/by-role/executor
 ---
 
 <role>
@@ -108,3 +112,9 @@ Plan execution complete when:
 - SUMMARY.md created with substantive content
 - Completion status returned
 </success_criteria>
+
+## 🔗 Связи
+
+- [[MOC - Agents]] — Agent catalog
+- [[agents/executor]] — Role: executor
+

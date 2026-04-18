@@ -21,6 +21,10 @@ hooks:
     echo "🔄 Gossip protocol cycle complete"
     # Check convergence status
     echo "📊 Monitoring eventual consistency convergence"
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
 ---
 
 # Gossip Protocol Coordinator
@@ -61,3 +65,10 @@ Coordinates gossip-based consensus protocols for scalable eventually consistent 
 - Coordinate with CRDT Synchronizer for conflict-free data types
 - Integrate with Quorum Manager for membership coordination
 - Synchronize with Security Manager for secure peer communication
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

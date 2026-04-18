@@ -2,6 +2,10 @@
 name: api-design
 description: REST API tasarım kalıpları; kaynak isimlendirme, durum kodları, sayfalama, filtreleme, hata yanıtları, versiyonlama ve üretim API'leri için hız sınırlama içerir.
 origin: ECC
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-everything-cc
 ---
 
 # API Tasarım Kalıpları
@@ -521,3 +525,9 @@ Yeni bir endpoint yayınlamadan önce:
 - [ ] Yanıt dahili detayları sızdırmıyor (stack trace'ler, SQL hataları)
 - [ ] Mevcut endpoint'lerle tutarlı isimlendirme (camelCase vs snake_case)
 - [ ] Dokümante edilmiş (OpenAPI/Swagger spec güncellenmiş)
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

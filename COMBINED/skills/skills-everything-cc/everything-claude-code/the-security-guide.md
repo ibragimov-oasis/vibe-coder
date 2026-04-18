@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
+---
+
 # The Shorthand Guide to Everything Agentic Security
 
 _everything claude code / research / security_
@@ -453,3 +460,9 @@ If you haven't read the previous guides, start here:
 go do that and also save these repos:
 - [github.com/affaan-m/everything-claude-code](https://github.com/affaan-m/everything-claude-code)
 - [github.com/affaan-m/agentshield](https://github.com/affaan-m/agentshield)
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # Common Issues
 
 ## 403: You don't have access to this conversation
@@ -36,3 +43,10 @@ For production, verify:
 - `MONGODB_URL` is a valid connection string
 - Your IP is whitelisted (for MongoDB Atlas)
 - The database user has read/write permissions
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

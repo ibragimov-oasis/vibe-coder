@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/config
+  - source/workspace-config
+---
+
 # memory-search
 
 Search through stored memory.
@@ -23,3 +30,9 @@ npx claude-flow memory search --pattern "api-.*"
 # Limited results
 npx claude-flow memory search --query "config" --limit 10
 ```
+
+## 🔗 Связи
+
+- [[MOC - System]] — workspace-config
+- [[000 - Map of Maps]] — Map of Maps
+

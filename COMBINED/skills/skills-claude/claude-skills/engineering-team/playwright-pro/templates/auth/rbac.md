@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # RBAC Template
 
 Tests role-based access control: admin vs user permissions and forbidden pages.
@@ -130,3 +137,9 @@ test.describe('RBAC — Regular User', () => {
 | User hidden menu | Admin nav items not rendered for user |
 | API 403 | Backend enforces role on API routes |
 | Role elevation | Promoted user gains new access immediately |
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

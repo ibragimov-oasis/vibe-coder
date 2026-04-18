@@ -11,6 +11,9 @@ metadata:
     related_skills: [native-mcp, mcporter]
 prerequisites:
   commands: [python3]
+  - domain/skills
+  - artifact/skill
+  - source/skills-hermes
 ---
 
 # FastMCP
@@ -297,3 +300,9 @@ The server-building part may be correct while the Hermes config is not. Load the
 ## References
 
 For CLI details, install targets, and deployment checks, read `references/fastmcp-cli.md`.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-hermes]] — Category: skills-hermes
+

@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # ADR-038: Multi-Agent Neural Coordination Plugin
 
 **Status:** Proposed
@@ -532,3 +539,10 @@ The plugin supports developing emergent communication protocols:
 ---
 
 **Last Updated:** 2026-01-24
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

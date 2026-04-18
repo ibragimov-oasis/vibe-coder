@@ -1,5 +1,9 @@
 ---
 description: 修复 Android 和 KMP 项目的 Gradle 构建错误
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
 ---
 
 # Gradle 构建修复
@@ -70,3 +74,9 @@ description: 修复 Android 和 KMP 项目的 Gradle 构建错误
 | 重复类 | 使用 `./gradlew dependencies` 检查是否存在冲突的依赖项 |
 | KSP 错误 | 运行 `./gradlew kspCommonMainKotlinMetadata` 重新生成 |
 | 配置缓存问题 | 检查是否存在不可序列化的任务输入 |
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

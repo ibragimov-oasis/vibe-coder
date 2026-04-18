@@ -1,6 +1,10 @@
 ---
 description: Configure HUD display options (layout, language, presets, display elements) while preserving advanced manual overrides
 allowed-tools: Read, Write, AskUserQuestion
+tags:
+  - domain/skills
+  - artifact/reference
+  - source/reference
 ---
 
 # Configure Claude HUD
@@ -342,3 +346,9 @@ Merge with existing config, preserving:
 ## After Writing
 
 Say: "Configuration saved! The HUD will reflect your changes immediately."
+
+## 🔗 Связи
+
+- [[MOC - System]] — reference
+- [[000 - Map of Maps]] — Map of Maps
+

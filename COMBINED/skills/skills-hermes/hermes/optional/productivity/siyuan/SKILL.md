@@ -17,7 +17,10 @@ required_environment_variables:
     prompt: SiYuan API token
     help: "Settings > About in SiYuan desktop app"
   - name: SIYUAN_URL
-    prompt: SiYuan instance URL (default http://127.0.0.1:6806)
+
+  - domain/skills
+  - artifact/skill
+  - source/skills-hermes    prompt: SiYuan instance URL (default http://127.0.0.1:6806)
     required_for: remote instances
 ---
 
@@ -295,3 +298,9 @@ mcp_servers:
       SIYUAN_TOKEN: "your_token"
       SIYUAN_URL: "http://127.0.0.1:6806"
 ```
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-hermes]] — Category: skills-hermes
+

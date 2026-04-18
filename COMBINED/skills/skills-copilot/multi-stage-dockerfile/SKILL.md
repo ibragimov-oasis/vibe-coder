@@ -1,6 +1,10 @@
 ---
 name: multi-stage-dockerfile
 description: 'Create optimized multi-stage Dockerfiles for any language or framework'
+tags:
+  - domain/agents
+  - artifact/skill
+  - source/skills-copilot
 ---
 
 Your goal is to help me create efficient multi-stage Dockerfiles that follow best practices, resulting in smaller, more secure container images.
@@ -44,3 +48,10 @@ Your goal is to help me create efficient multi-stage Dockerfiles that follow bes
 - Consider parallelization in build steps when possible
 - Set appropriate environment variables like NODE_ENV=production to optimize runtime behavior
 - Use appropriate healthchecks for the application type with the HEALTHCHECK instruction
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-copilot]] — Category: skills-copilot
+- [[MOC - Agents]] — Copilot agents
+

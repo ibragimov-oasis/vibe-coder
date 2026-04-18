@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # Basic Usage Guide
 
 Learn how to use the swarm benchmarking tool effectively with practical examples and common workflows.

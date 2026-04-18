@@ -8,7 +8,9 @@ dependencies: [lightning, torch, transformers]
 metadata:
   hermes:
     tags: [PyTorch Lightning, Training Framework, Distributed Training, DDP, FSDP, DeepSpeed, High-Level API, Callbacks, Best Practices, Scalable]
-
+  - domain/skills
+  - artifact/skill
+  - source/skills-hermes
 ---
 
 # PyTorch Lightning - High-Level Training Framework
@@ -346,4 +348,8 @@ trainer = L.Trainer(accelerator='gpu', devices=1)
 - Discord: https://discord.gg/lightning-ai
 - Used by: Kaggle winners, research labs, production teams
 
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-hermes]] — Category: skills-hermes
 

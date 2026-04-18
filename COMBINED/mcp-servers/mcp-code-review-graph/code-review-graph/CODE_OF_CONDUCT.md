@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/mcp
+  - artifact/mcp-server
+  - source/mcp-servers
+---
+
 # Code of Conduct
 
 This project follows the [Contributor Covenant v2.1](https://www.contributor-covenant.org/version/2/1/code_of_conduct/).
@@ -14,3 +21,9 @@ pull requests, discussions, and any other communication channels.
 
 Instances of unacceptable behavior may be reported to the project maintainers.
 All complaints will be reviewed and investigated promptly and fairly.
+
+## 🔗 Связи
+
+- [[MOC - MCP Servers]] — mcp-servers
+- [[000 - Map of Maps]] — Map of Maps
+

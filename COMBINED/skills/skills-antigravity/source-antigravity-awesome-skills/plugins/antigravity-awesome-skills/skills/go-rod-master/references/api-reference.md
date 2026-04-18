@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # Go-Rod API Quick Reference
 
 Cheat sheet for the most-used `go-rod/rod` and `go-rod/stealth` APIs.
@@ -146,3 +153,9 @@ page.Call(ctx, "", "Page.setAdBlockingEnabled", map[string]bool{"enabled": true}
 ```
 
 Full CDP protocol reference: https://chromedevtools.github.io/devtools-protocol/
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

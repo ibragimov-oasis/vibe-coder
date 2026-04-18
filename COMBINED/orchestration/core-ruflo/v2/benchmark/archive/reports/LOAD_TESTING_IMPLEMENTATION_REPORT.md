@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # Hive Mind Load Testing Implementation Report
 
 **Benchmark-Tester Agent** - Load Testing Suite Implementation  
@@ -297,3 +304,10 @@ The implementation is production-ready, well-documented, and follows all coordin
 **Hive Mind Benchmark Swarm**  
 **Load Testing & Stress Testing Specialist**  
 *Mission: Complete* ✅
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

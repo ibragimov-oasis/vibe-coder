@@ -180,9 +180,18 @@ You can use a volume to display 2D or 3D content that people can view from any a
 
 ## [Change log](https://developer.apple.com/design/human-interface-guidelines/windows#Change-log)
 
-Date| Changes  
+Date| Changes
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
 ---|---  
 June 9, 2025| Added best practices, and updated with guidance for resizable windows in iPadOS.  
 June 10, 2024| Updated to include guidance for using volumes in visionOS 2 and added game-specific examples.  
-June 21, 2023| Updated to include guidance for visionOS.  
-  
+June 21, 2023| Updated to include guidance for visionOS.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

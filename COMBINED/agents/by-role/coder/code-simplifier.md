@@ -3,6 +3,10 @@ name: code-simplifier
 description: Simplifies and refines code for clarity, consistency, and maintainability while preserving all functionality. Focuses on recently modified code unless instructed otherwise.
 model: claude-opus-4-6
 level: 3
+tags:
+  - domain/agents
+  - artifact/agent
+  - source/by-role/coder
 ---
 
 <Agent_Prompt>
@@ -90,3 +94,9 @@ level: 3
       remove comments that restate what the code already makes obvious.
   </Failure_Modes_To_Avoid>
 </Agent_Prompt>
+
+## 🔗 Связи
+
+- [[MOC - Agents]] — Agent catalog
+- [[agents/coder]] — Role: coder
+

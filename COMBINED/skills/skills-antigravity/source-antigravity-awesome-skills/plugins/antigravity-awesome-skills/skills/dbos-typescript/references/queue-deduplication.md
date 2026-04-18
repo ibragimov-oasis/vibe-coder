@@ -3,6 +3,9 @@ title: Deduplicate Queued Workflows
 impact: HIGH
 impactDescription: Prevents duplicate workflow executions
 tags: queue, deduplication, idempotent, duplicate
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
 ---
 
 ## Deduplicate Queued Workflows
@@ -49,3 +52,9 @@ This is useful for:
 - Idempotent event processing
 
 Reference: [Deduplication](https://docs.dbos.dev/typescript/tutorials/queue-tutorial#deduplication)
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

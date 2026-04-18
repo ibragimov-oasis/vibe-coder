@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # Neural Pattern Training
 
 ## Purpose
@@ -106,3 +113,10 @@ npx claude-flow neural patterns --action analyze -q "coordination"
 - `neural status` - Check neural system status
 - `neural patterns` - List and search patterns
 - `neural predict` - Make predictions using trained models
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

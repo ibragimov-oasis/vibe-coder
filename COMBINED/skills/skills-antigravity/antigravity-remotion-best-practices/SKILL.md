@@ -5,6 +5,9 @@ risk: safe
 source: community
 tags: "remotion, video, react, animation, composition"
 date_added: "2026-02-27"
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 ## When to Use
@@ -42,3 +45,9 @@ Read individual rule files for detailed explanations and code examples:
 - [rules/transitions.md](rules/transitions.md) - Scene transition patterns for Remotion
 - [rules/trimming.md](rules/trimming.md) - Trimming patterns for Remotion - cut the beginning or end of animations
 - [rules/videos.md](rules/videos.md) - Embedding videos in Remotion - trimming, volume, speed, looping, pitch
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

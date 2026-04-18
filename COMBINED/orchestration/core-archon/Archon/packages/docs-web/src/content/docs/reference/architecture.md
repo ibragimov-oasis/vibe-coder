@@ -6,6 +6,10 @@ audience: [developer]
 status: current
 sidebar:
   order: 1
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-archon
 ---
 
 Comprehensive guide to understanding and extending Archon.
@@ -1370,3 +1374,10 @@ Context is passed as a dedicated `issueContext` parameter to `handleMessage()`, 
 - Isolation factory: `packages/isolation/src/factory.ts`
 - Orchestrator: `packages/core/src/orchestrator/orchestrator.ts`
 - Command handler: `packages/core/src/handlers/command-handler.ts`
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/archon]] — Archon
+- [[000 - Map of Maps]] — Map of Maps
+

@@ -3,6 +3,9 @@ title: Use toSorted() Instead of sort() for Immutability
 impact: MEDIUM-HIGH
 impactDescription: prevents mutation bugs in React state
 tags: javascript, arrays, immutability, react, state, mutation
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
 ---
 
 ## Use toSorted() Instead of sort() for Immutability
@@ -55,3 +58,9 @@ const sorted = [...items].sort((a, b) => a.value - b.value)
 - `.toReversed()` - immutable reverse
 - `.toSpliced()` - immutable splice
 - `.with()` - immutable element replacement
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

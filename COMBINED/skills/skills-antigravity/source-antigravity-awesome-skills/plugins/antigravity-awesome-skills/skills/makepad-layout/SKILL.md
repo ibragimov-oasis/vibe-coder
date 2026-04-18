@@ -8,6 +8,10 @@ description: |
   makepad 布局, makepad 宽度, makepad 对齐, makepad 居中
 risk: safe
 source: community
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 # Makepad Layout Skill
@@ -176,3 +180,9 @@ Refer to the local files for detailed documentation:
 2. `Fill` takes all available space, `Fit` shrinks to content
 3. Unlike CSS flexbox, there's no flex-grow/shrink - use Fill/Fit
 4. Alignment applies to children, not the element itself
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

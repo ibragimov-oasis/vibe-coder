@@ -50,3 +50,9 @@ code-review-graph query     # запросить граф
 
 - [[mcp-servers/mcp-gitnexus]] — высокоуровневая карта кода
 - [[combined/Security Overview]] — применяется в Shannon
+
+## 🔗 Связи
+
+- [[MOC - MCP Servers]] — Parent MOC
+- [[000 - Map of Maps]] — Map of Maps
+

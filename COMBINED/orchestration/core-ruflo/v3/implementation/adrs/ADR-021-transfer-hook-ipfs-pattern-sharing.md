@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # ADR-021: Transfer Hook - IPFS-Based Pattern Sharing System
 
 **Status:** Fully Implemented (Phase 1-5 Complete)
@@ -2129,3 +2136,10 @@ CLI Commands:         Wired to real store modules ✅
 # Verify MCP tools work
 ./bin/cli.js mcp exec --tool "transfer/plugin-search" --params '{"query":"neural"}'
 ```
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

@@ -1,6 +1,10 @@
 ---
 name: agent-github-pr-manager
 description: Agent skill for github-pr-manager - invoke with $agent-github-pr-manager
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-ruflo
 ---
 
 ---
@@ -180,3 +184,9 @@ Why these changes are needed
 - Conflict resolution assistance
 - Alternative merge strategies
 - Rollback procedures
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-ruflo]] — Category: skills-ruflo
+

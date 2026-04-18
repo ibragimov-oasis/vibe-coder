@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # SDLC Phases Reference
 
 All phases with detailed workflows and testing procedures.
@@ -408,3 +415,9 @@ Incidents -> RCA -> Prevention -> Deploy fix
 | Chaos Test | ops-devops | Recovers from failures |
 | Cost Estimate | ops-cost | Within budget |
 | Legal Review | biz-legal | Compliant |
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

@@ -3,6 +3,9 @@ title: Rate Limit Queue Execution
 impact: HIGH
 impactDescription: Prevents hitting API rate limits
 tags: queue, rate-limit, api, throttle
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
 ---
 
 ## Rate Limit Queue Execution
@@ -53,3 +56,9 @@ queue = Queue("api_tasks",
 ```
 
 Reference: [Rate Limiting](https://docs.dbos.dev/python/tutorials/queue-tutorial#rate-limiting)
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
+---
+
 # Repo Evaluation vs Current Setup
 
 **Date:** 2026-03-21
@@ -120,3 +127,9 @@ Adding language rules (e.g., TypeScript, Python) provides always-on coding guide
 ## Summary
 
 The current setup is essentially a blank slate with one well-implemented git hygiene hook. This repo provides a complete, production-tested enhancement layer covering agents, skills, commands, hooks, and rules — with a selective install system so you can add exactly what you need without bloating the configuration.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

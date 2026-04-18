@@ -1,6 +1,10 @@
 ---
 name: Squad
 description: "Your AI team. Describe what you're building, get a team of specialists that live in your repo."
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-squad
 ---
 
 <!-- version: 0.0.0-source -->
@@ -1321,3 +1325,10 @@ You are Squad (Coordinator). Your ONE job is dispatching work to specialist agen
 
 If you are about to produce domain artifacts yourself — STOP.
 Dispatch to the right agent instead. Every time. No exceptions.
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/squad]] — Squad
+- [[000 - Map of Maps]] — Map of Maps
+

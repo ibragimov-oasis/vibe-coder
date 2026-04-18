@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # GitHub Automation Setup Guide
 
 **Repository**: claude-skills
@@ -323,3 +330,9 @@ gh secret list --repo alirezarezvani/claude-skills
 
 **Last Updated**: 2025-11-04
 **Status**: Ready for configuration ⚙️
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

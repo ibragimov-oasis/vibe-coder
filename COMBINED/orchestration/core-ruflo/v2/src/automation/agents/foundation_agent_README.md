@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # Foundation Model Builder Agent for MLE-STAR
 
 ## Overview
@@ -272,3 +279,10 @@ When contributing to the Foundation Agent:
 ## License
 
 This module is part of the Claude-Flow project and follows the same licensing terms.
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

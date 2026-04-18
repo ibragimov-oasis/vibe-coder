@@ -40,3 +40,9 @@ source: "../COMBINED/skills/skills-hermes/"
 
 - [[mcp-servers/mcp-supermemory]] — куда сохраняются паттерны
 - [[orchestration/core-refly]] — Refly: visual skill builder
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Parent MOC
+- [[000 - Map of Maps]] — Map of Maps
+

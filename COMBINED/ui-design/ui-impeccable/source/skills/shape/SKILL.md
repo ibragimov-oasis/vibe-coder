@@ -3,6 +3,10 @@ name: shape
 description: "Plan the UX and UI for a feature before writing code. Runs a structured discovery interview, then produces a design brief that guides implementation. Use during the planning phase to establish design direction, constraints, and strategy before any code is written."
 argument-hint: "[feature to shape]"
 user-invocable: true
+tags:
+  - domain/ui
+  - artifact/ui-component
+  - source/ui-design
 ---
 
 ## MANDATORY PREPARATION
@@ -93,3 +97,9 @@ Anything unresolved that the implementer should resolve during build.
 {{ask_instruction}} Get explicit confirmation of the brief before finishing. If the user disagrees with any part, revisit the relevant discovery questions.
 
 Once confirmed, the brief is complete. The user can now hand it to {{command_prefix}}impeccable, or use it to guide any other implementation approach. (If the user wants the full discovery-then-build flow in one step, they should use {{command_prefix}}impeccable craft instead, which runs this skill internally.)
+
+## 🔗 Связи
+
+- [[MOC - UI Design]] — ui-design
+- [[000 - Map of Maps]] — Map of Maps
+

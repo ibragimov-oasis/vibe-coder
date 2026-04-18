@@ -3,6 +3,10 @@ name: e2e-runner
 description: Vercel Agent Browser (tercih edilen) ve Playwright yedek ile uçtan uca test specialisti. E2E testlerini oluşturma, sürdürme ve çalıştırma için PROAKTİF olarak kullanın. Test yolculuklarını yönetir, kararsız testleri karantinaya alır, artifact'ları (ekran görüntüleri, videolar, izler) yükler ve kritik kullanıcı akışlarının çalıştığından emin olur.
 tools: ["Read", "Write", "Edit", "Bash", "Grep", "Glob"]
 model: sonnet
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
 ---
 
 # E2E Test Runner
@@ -105,3 +109,9 @@ Detaylı Playwright kalıpları, Page Object Model örnekleri, konfigürasyon ş
 ---
 
 **Unutmayın**: E2E testler production'dan önceki son savunma hattınızdır. Unit testlerin kaçırdığı entegrasyon sorunlarını yakalarlar. Stabiliteye, hıza ve kapsama yatırım yapın.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-gsd
+---
+
 # Model Profile Resolution
 
 Resolve model profile once at the start of orchestration, then use it for all Task spawns.
@@ -34,3 +41,10 @@ If `model_profile` is `"inherit"`, all agents resolve to `"inherit"` (useful for
 2. Store the profile value
 3. Look up each agent's model from the table when spawning
 4. Pass model parameter to each Task call (values: `"inherit"`, `"sonnet"`, `"haiku"`)
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-gsd]] — core-gsd
+- [[MOC - Skills]] — Skills library
+

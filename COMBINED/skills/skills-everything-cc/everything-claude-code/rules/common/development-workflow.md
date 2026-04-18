@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
+---
+
 # Development Workflow
 
 > This file extends [common/git-workflow.md](./git-workflow.md) with the full feature development process that happens before git operations.
@@ -42,3 +49,9 @@ The Feature Implementation Workflow describes the development pipeline: research
    - Resolve any merge conflicts
    - Ensure branch is up to date with target branch
    - Only request review after these checks pass
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

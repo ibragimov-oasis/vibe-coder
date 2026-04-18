@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-taskmaster
+---
+
 # Codex CLI Provider Usage Examples
 
 This guide provides practical examples of using Task Master with the Codex CLI provider.
@@ -461,3 +468,10 @@ task-master complexity-report
 ---
 
 For more examples and advanced usage, see the [full documentation](https://docs.task-master.dev).
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-taskmaster]] — core-taskmaster
+- [[MOC - Skills]] — Skills library
+

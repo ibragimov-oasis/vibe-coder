@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/reference
+  - source/reference
+---
+
 # Deno Integration Techniques .cursorrules prompt file
 
 Author: Zak Horton
@@ -13,4 +20,9 @@ Developers working on Deno-based automation systems can use this prompt to refac
 
 ## Overview of .cursorrules prompt
 The .cursorrules file is designed to automate scripts and workflows for the @findhow packages. It aims to refactor and adapt existing Deno-based automation scripts for use with the @findhow ecosystem. Key objectives include updating references, modifying scripts to be compatible with @findhow, ensuring configuration files and documentations are up to date, maintaining consistent script structures, and integrating with version control, testing, and CI/CD pipelines. This ensures automation processes are aligned with @findhow package structures and guidelines, while leveraging assistance from Cursor AI for seamless transition and adaptation.
+
+## 🔗 Связи
+
+- [[MOC - System]] — reference
+- [[000 - Map of Maps]] — Map of Maps
 

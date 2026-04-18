@@ -9,6 +9,10 @@ tools:
   - Glob
   - Grep
 color: "#8B5CF6"
+tags:
+  - domain/agents
+  - artifact/agent
+  - source/by-role/security
 ---
 
 <role>
@@ -174,3 +178,9 @@ Return one of three formats below.
 - [ ] Structured return provided (GAPS FILLED / PARTIAL / ESCALATE)
 - [ ] Test files listed for commit
 </success_criteria>
+
+## 🔗 Связи
+
+- [[MOC - Agents]] — Agent catalog
+- [[agents/security]] — Role: security
+

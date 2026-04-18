@@ -3,6 +3,9 @@ title: Cache Storage API Calls
 impact: LOW-MEDIUM
 impactDescription: reduces expensive I/O
 tags: javascript, localStorage, storage, caching, performance
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
 ---
 
 ## Cache Storage API Calls
@@ -68,3 +71,9 @@ document.addEventListener('visibilitychange', () => {
   }
 })
 ```
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

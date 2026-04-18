@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/mcp
+  - artifact/mcp-server
+  - source/mcp-servers
+---
+
 BOOKING ORDER
 Print Date 12/15/2024 14:30:22
 Page 1 of 1
@@ -60,3 +67,9 @@ All showtimes are approximate and subject to change.
 3 SCR-1 12/26-12/31 New Year Mystery 9:30 PM Daily PM $300 $3,600
 | Total Revenue: |     |     |     |     |     | $12,500.00 |
 | -------------- | --- | --- | --- | --- | --- | ---------- |
+
+## 🔗 Связи
+
+- [[MOC - MCP Servers]] — mcp-servers
+- [[000 - Map of Maps]] — Map of Maps
+

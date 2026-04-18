@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-squad
+---
+
 # Plugin Marketplace
 
 Plugins are curated agent templates, skills, instructions, and prompts shared by the community via GitHub repositories (e.g., `github/awesome-copilot`, `anthropics/skills`). They provide ready-made expertise for common domains — cloud platforms, frameworks, testing strategies, etc.
@@ -47,3 +54,10 @@ During the **Adding Team Members** flow, AFTER allocating a name but BEFORE gene
 - **No marketplaces configured:** Skip the marketplace check entirely. No warning, no prompt.
 - **Marketplace unreachable:** Warn the user (*"⚠ Couldn't reach {marketplace} — continuing without it"*) and proceed with team member creation normally.
 - **No matching plugins:** Inform the user (*"No matching plugins found in configured marketplaces"*) and proceed.
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/squad]] — Squad
+- [[000 - Map of Maps]] — Map of Maps
+

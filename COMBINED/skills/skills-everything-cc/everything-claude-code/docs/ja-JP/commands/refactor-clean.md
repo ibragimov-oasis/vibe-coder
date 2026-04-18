@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
+---
+
 # Refactor Clean
 
 テスト検証でデッドコードを安全に特定して削除します:
@@ -26,3 +33,9 @@
 6. クリーンアップされたアイテムのサマリーを表示
 
 まずテストを実行せずにコードを削除しないでください!
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

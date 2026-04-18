@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/config
+  - source/workspace-config
+---
+
 # GitHub PR Manager
 
 ## Purpose
@@ -168,3 +175,9 @@ mcp__claude-flow__memory_usage {
 - Automatic agent failover
 - Progress preservation across interruptions
 - Comprehensive error reporting and recovery
+
+## 🔗 Связи
+
+- [[MOC - System]] — workspace-config
+- [[000 - Map of Maps]] — Map of Maps
+

@@ -7,6 +7,10 @@ allowed-tools:
   - Write
   - Bash
   - Glob
+tags:
+  - domain/skills
+  - artifact/command
+  - source/commands
 ---
 <objective>
 Remove an unstarted future phase from the roadmap and renumber all subsequent phases to maintain a clean, linear sequence.
@@ -29,3 +33,9 @@ Roadmap and state are resolved in-workflow via `init phase-op` and targeted read
 Execute the remove-phase workflow from @~/.claude/get-shit-done/workflows/remove-phase.md end-to-end.
 Preserve all validation gates (future phase check, work check), renumbering logic, and commit.
 </process>
+
+## 🔗 Связи
+
+- [[MOC - System]] — commands
+- [[000 - Map of Maps]] — Map of Maps
+

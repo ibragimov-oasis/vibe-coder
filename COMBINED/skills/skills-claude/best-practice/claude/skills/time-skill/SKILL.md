@@ -2,6 +2,10 @@
 name: time-skill
 description: Display the current time in Pakistan Standard Time (PKT, UTC+5). Use when the user asks for the current time, Pakistan time, or PKT.
 user-invocable: true
+tags:
+  - domain/agents
+  - artifact/skill
+  - source/skills-claude
 ---
 
 # Time Skill
@@ -30,3 +34,10 @@ Display the current date and time in Pakistan Standard Time (UTC+5).
 - Use 24-hour format
 - Include the date alongside the time
 - Keep the output concise — no extra commentary
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+- [[MOC - Agents]] — Claude agents
+

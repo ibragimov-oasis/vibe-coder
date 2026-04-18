@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
+---
+
 # /learn - 擷取可重用模式
 
 分析目前的工作階段並擷取值得儲存為技能的模式。
@@ -68,3 +75,9 @@
 - 不要擷取一次性問題（特定 API 停機等）
 - 專注於會在未來工作階段節省時間的模式
 - 保持技能專注 - 每個技能一個模式
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

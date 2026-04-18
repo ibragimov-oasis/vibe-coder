@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/seo
+  - artifact/doc
+  - source/skills-seo
+---
+
 # Analyze Existing Command
 
 Use this command to review and analyze existing your company blog posts for SEO opportunities, content gaps, and improvement areas.
@@ -116,3 +123,9 @@ Based on the analysis, the system will suggest:
 3. Archiving the post if it's no longer relevant or valuable
 
 This ensures every analysis leads to clear, actionable next steps for improving your company blog content.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-seo]] — Category: skills-seo
+

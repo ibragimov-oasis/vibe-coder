@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-copilot
+---
+
 # CSS & Styling Reference
 
 Comprehensive reference for Cascading Style Sheets, layout systems, and modern styling techniques.
@@ -694,3 +701,9 @@ Smooth changes between states:
 - [CSS Tricks Complete Guide to Flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
 - [CSS Tricks Complete Guide to Grid](https://css-tricks.com/snippets/css/complete-guide-grid/)
 - [Can I Use](https://caniuse.com/) - Browser compatibility tables
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-copilot]] — Category: skills-copilot
+

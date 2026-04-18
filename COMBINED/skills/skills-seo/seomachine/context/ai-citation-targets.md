@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/seo
+  - artifact/doc
+  - source/skills-seo
+---
+
 # AI Citation Targets
 
 When AI tools (ChatGPT, Perplexity, Gemini, Claude) recommend products or services, they pull from sources across the web. This file tracks the platforms, directories, and content surfaces where your brand needs to be present and well-represented to maximize AI citation frequency.
@@ -98,3 +105,9 @@ Customize these for your business. These are high-commercial-intent prompt categ
 Run `/research-ai-citations [topic]` to generate a prompt-specific audit. The output will include which sources AI actually cites for that topic cluster, and whether your brand appears. Use findings to update the tables above.
 
 Review quarterly: directories change, new listicles rank, and AI citation patterns shift.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-seo]] — Category: skills-seo
+

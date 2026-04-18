@@ -1,6 +1,10 @@
 ---
 description: "Testing requirements: 80% coverage, TDD workflow, test types"
 alwaysApply: true
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
 ---
 # Testing Requirements
 
@@ -31,3 +35,9 @@ MANDATORY workflow:
 ## Agent Support
 
 - **tdd-guide** - Use PROACTIVELY for new features, enforces write-tests-first
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

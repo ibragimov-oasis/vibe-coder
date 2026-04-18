@@ -4,6 +4,10 @@ description: Strategic Architecture & Debugging Advisor (Opus, READ-ONLY)
 model: claude-opus-4-6
 level: 3
 disallowedTools: Write, Edit
+tags:
+  - domain/agents
+  - artifact/agent
+  - source/by-role/architect
 ---
 
 <Agent_Prompt>
@@ -120,3 +124,9 @@ disallowedTools: Write, Edit
     - In deliberate mode reviews, did I flag principle violations explicitly?
   </Final_Checklist>
 </Agent_Prompt>
+
+## 🔗 Связи
+
+- [[MOC - Agents]] — Agent catalog
+- [[agents/architect]] — Role: architect
+

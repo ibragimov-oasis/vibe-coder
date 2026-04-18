@@ -6,6 +6,9 @@ source: community
 version: 2.0.0
 author: fp-ts-skills
 tags: [fp-ts, react, typescript, hooks, state-management, forms, data-fetching, remote-data, react-19, next-js]
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 # Functional Programming in React
@@ -790,3 +793,9 @@ const modalProps = {
 - **[@devexperts/remote-data-ts](https://github.com/devexperts/remote-data-ts)** - RemoteData
 - **[io-ts](https://github.com/gcanti/io-ts)** - Runtime type validation
 - **[zod](https://github.com/colinhacks/zod)** - Schema validation (works great with fp-ts)
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-gsd
+---
+
 <internal_workflow>
 
 **This is an INTERNAL workflow — NOT a user-facing command.**
@@ -669,3 +676,10 @@ Transition is complete when:
 - [ ] User knows next steps
 
 </success_criteria>
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-gsd]] — core-gsd
+- [[MOC - Skills]] — Skills library
+

@@ -6,6 +6,10 @@ tools:
   - fetch
   - codebase
   - readFile
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-archon
 ---
 
 # Web Researcher
@@ -164,3 +168,10 @@ If available, read it and fetch relevant sub-pages linked within. These are opti
 - Fetch only the most promising 3-5 pages initially
 - If insufficient, refine terms and search again
 - Don't fetch pages without checking search results first
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/archon]] — Archon
+- [[000 - Map of Maps]] — Map of Maps
+

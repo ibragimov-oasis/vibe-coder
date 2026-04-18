@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # Claude-Flow v3 - Architecture Decision Records
 
 **Project:** Claude-Flow v3 Reimagining
@@ -923,3 +930,10 @@ Links to other ADRs
 **Document Maintained By:** Architecture Team
 **Last Updated:** 2026-01-05
 **Next Review:** After Sprint 4 (2026-02-01)
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

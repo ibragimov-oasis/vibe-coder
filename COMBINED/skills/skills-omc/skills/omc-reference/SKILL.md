@@ -2,6 +2,10 @@
 name: omc-reference
 description: OMC agent catalog, available tools, team pipeline routing, commit protocol, and skills registry. Auto-loads when delegating to agents, using OMC tools, orchestrating teams, making commits, or invoking skills.
 user-invocable: false
+tags:
+  - domain/orchestration
+  - artifact/skill
+  - source/skills-omc
 ---
 
 # OMC Reference
@@ -139,3 +143,10 @@ Confidence: high
 Scope-risk: narrow
 Not-tested: End-to-end plugin marketplace install in a fresh Claude profile
 ```
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-omc]] — Category: skills-omc
+- [[MOC - Orchestration]] — Multi-agent orchestration
+

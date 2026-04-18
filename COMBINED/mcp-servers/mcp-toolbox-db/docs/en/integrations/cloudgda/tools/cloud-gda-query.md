@@ -4,6 +4,10 @@ type: docs
 weight: 1
 description: >
   A tool to convert natural language queries into SQL statements using the Gemini Data Analytics QueryData API.
+tags:
+  - domain/mcp
+  - artifact/mcp-server
+  - source/mcp-servers
 ---
 
 ## About
@@ -140,3 +144,9 @@ generationOptions:
   generateNaturalLanguageAnswer: true
   generateExplanation: true
 ```
+
+## 🔗 Связи
+
+- [[MOC - MCP Servers]] — mcp-servers
+- [[000 - Map of Maps]] — Map of Maps
+

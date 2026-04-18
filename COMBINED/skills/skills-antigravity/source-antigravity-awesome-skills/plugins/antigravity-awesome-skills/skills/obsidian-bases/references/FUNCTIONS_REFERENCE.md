@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # Functions Reference
 
 ## Global Functions
@@ -171,3 +178,9 @@ When subtracting two dates, the result is a **Duration** type (not a number). Du
 | Function | Signature | Description |
 |----------|-----------|-------------|
 | `matches()` | `regexp.matches(string): boolean` | Test if matches |
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

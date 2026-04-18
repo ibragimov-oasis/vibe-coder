@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-archon
+---
+
 # CLI Setup Guide
 
 Steps to install and configure the Archon CLI. Always run these first.
@@ -49,3 +56,10 @@ This stores credentials globally — no `.env` or API key needed for CLI usage.
 - **No `.env` required**: CLI-only usage doesn't need any environment variables. If no API keys are in the environment, the CLI auto-defaults to global Claude auth from `claude /login`.
 - **Database**: SQLite auto-creates at `~/.archon/archon.db` — no setup needed for CLI-only use.
 - **Config**: `~/.archon/config.yaml` is auto-created on first run with sensible defaults. Per-repo config can be added at `<repo>/.archon/config.yaml` to override the AI assistant or configure command folders. Neither file needs manual creation for basic usage.
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/archon]] — Archon
+- [[000 - Map of Maps]] — Map of Maps
+

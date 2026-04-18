@@ -49,3 +49,9 @@ npx archon init    # инициализация
 
 - [[orchestration/core-taskmaster]] — Task Master: Step 0
 - [[orchestration/core-ralph]] — Ralph: PRD-driven loop
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Parent MOC
+- [[000 - Map of Maps]] — Map of Maps
+

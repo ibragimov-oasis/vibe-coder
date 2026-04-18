@@ -1,6 +1,10 @@
 ---
 name: agent-sparc-coordinator
 description: Agent skill for sparc-coordinator - invoke with $agent-sparc-coordinator
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-ruflo
 ---
 
 ---
@@ -186,3 +190,9 @@ Completion → Final Review → Deployment
 - Quality gate pass rate
 - Defect discovery timing
 - Methodology compliance
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-ruflo]] — Category: skills-ruflo
+

@@ -4,6 +4,10 @@ description: "Guide for building reliable, fault-tolerant Python applications wi
 risk: safe
 source: "https://docs.dbos.dev/"
 date_added: "2026-02-27"
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 # DBOS Python Best Practices
@@ -93,3 +97,9 @@ references/queue-concurrency.md
 
 - https://docs.dbos.dev/
 - https://github.com/dbos-inc/dbos-transact-py
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

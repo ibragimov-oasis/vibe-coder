@@ -6,6 +6,10 @@ metadata:
     skill-author: K-Dense Inc.
 risk: unknown
 source: community
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 # Qiskit
@@ -272,3 +276,9 @@ with Session(backend=backend) as session:
 - **Qiskit Textbook**: https://qiskit.org/learn
 - **API Reference**: https://docs.quantum.ibm.com/api/qiskit
 - **Patterns Guide**: https://quantum.cloud.ibm.com/docs/en/guides/intro-to-patterns
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/ui
+  - artifact/ui-component
+  - source/ui-design
+---
+
 ## Summary
 
 <!-- What does this PR change and why? -->
@@ -19,3 +26,9 @@
 - [ ] `bun test` passes
 - [ ] Tested with at least one provider (Cursor / Claude Code / Gemini CLI / Codex / Copilot / Kiro / OpenCode)
 - [ ] README / DEVELOP.md updated if needed
+
+## 🔗 Связи
+
+- [[MOC - UI Design]] — ui-design
+- [[000 - Map of Maps]] — Map of Maps
+

@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # TypeScript Standards
 
 TypeScript best practices for type safety and maintainability in React frontend code.
@@ -416,3 +423,9 @@ if (data) {
 **See Also:**
 - [component-patterns.md](component-patterns.md) - Component typing
 - [data-fetching.md](data-fetching.md) - API typing
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

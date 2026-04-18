@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/command
+  - source/claude-commands
+---
+
 # SPARC Designer Mode
 
 ## Purpose
@@ -51,3 +58,9 @@ npx claude-flow@alpha sparc run designer "create dashboard UI"
 - Share component specs
 - Maintain consistency
 - Track design evolution
+
+## 🔗 Связи
+
+- [[MOC - System]] — System commands
+- [[MOC - Skills]] — Skills library
+

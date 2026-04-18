@@ -3,6 +3,9 @@ title: Use Proper Test Setup for DBOS
 impact: LOW-MEDIUM
 impactDescription: Ensures consistent test results with proper DBOS lifecycle management
 tags: testing, go-test, setup, integration, mock
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
 ---
 
 ## Use Proper Test Setup for DBOS
@@ -88,3 +91,9 @@ Key points:
 - Use real Postgres for integration tests that verify durable behavior
 
 Reference: [Testing DBOS](https://docs.dbos.dev/golang/tutorials/testing)
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

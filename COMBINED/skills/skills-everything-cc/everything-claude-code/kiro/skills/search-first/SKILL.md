@@ -7,6 +7,10 @@ description: >
   adding functionality.
 metadata:
   origin: ECC
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-everything-cc
 ---
 
 # /search-first — Research Before You Code
@@ -171,3 +175,9 @@ Result: 1 package + 1 schema file, no custom validation logic
 - Before writing utilities or helpers
 - When evaluating technology choices
 - Planning architecture decisions
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

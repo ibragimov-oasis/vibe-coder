@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # Content Brief Guide
 
 A brief isn't a writing assignment. It's a contract between the strategist and the writer — and when you're both the same person, it's still the contract between your thinking brain and your writing brain. Skip it and you'll rewrite. Do it right and the draft almost writes itself.
@@ -144,3 +151,9 @@ Define it now so you don't change the definition later.
 | H2s that are just topic labels | No promise, no structure | Rewrite as complete-thought headers |
 | No internal links specified | Orphaned content | List 2-3 links before writing |
 | No success criteria | Can't evaluate performance | Define at least one measurable outcome |
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

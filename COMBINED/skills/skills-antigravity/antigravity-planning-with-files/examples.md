@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # Examples: Planning with Files in Action
 
 ## Example 1: Research Task
@@ -200,3 +207,9 @@ Success!
 ```
 
 This is why Manus can handle ~50 tool calls without losing track. The plan file acts as a "goal refresh" mechanism.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

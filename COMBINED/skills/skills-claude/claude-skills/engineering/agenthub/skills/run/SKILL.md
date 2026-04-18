@@ -2,6 +2,10 @@
 name: "run"
 description: "One-shot lifecycle command that chains init → baseline → spawn → eval → merge in a single invocation."
 command: /hub:run
+tags:
+  - domain/agents
+  - artifact/skill
+  - source/skills-claude
 ---
 
 # /hub:run — One-Shot Lifecycle
@@ -108,3 +112,10 @@ If confirmed, run `/hub:merge`. If declined, inform the user they can:
 - **Stop on failure** — if any step fails, report the error and stop
 - **User confirms merge** — never auto-merge without asking
 - **Template is optional** — without `--template`, agents use the default dispatch prompt from `/hub:spawn`
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+- [[MOC - Agents]] — Claude agents
+

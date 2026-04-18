@@ -4,6 +4,10 @@ description: 'Interactive training for the GitHub Copilot CLI. Guided lessons, q
 metadata:
   version: 1.2.0
 license: MIT
+tags:
+  - domain/agents
+  - artifact/skill
+  - source/skills-copilot
 ---
 
 # Copilot CLI Mastery
@@ -41,3 +45,10 @@ Max XP from all content: 1600 (8 modules × 145 + 8 scenarios × 30 + final exam
 When module counter exceeds 8 and user says "cliexpert", offer: scenarios, final exam, or review any module.
 
 Rules: `ask_user` with `choices` for ALL quizzes/scenarios. Show XP after correct answers. One concept at a time; offer quiz or review after each lesson.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-copilot]] — Category: skills-copilot
+- [[MOC - Agents]] — Copilot agents
+

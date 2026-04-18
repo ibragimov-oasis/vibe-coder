@@ -2,6 +2,10 @@
 sidebar_position: 6
 title: "Signal"
 description: "Set up Hermes Agent as a Signal messenger bot via signal-cli daemon"
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-hermes
 ---
 
 # Signal Setup
@@ -220,3 +224,10 @@ The adapter monitors the SSE connection and automatically reconnects if:
 | `SIGNAL_GROUP_ALLOWED_USERS` | No | — | Group IDs to monitor, or `*` for all (omit to disable groups) |
 | `SIGNAL_ALLOW_ALL_USERS` | No | `false` | Allow any user to interact (skip allowlist) |
 | `SIGNAL_HOME_CHANNEL` | No | — | Default delivery target for cron jobs |
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/hermes]] — Hermes
+- [[000 - Map of Maps]] — Map of Maps
+

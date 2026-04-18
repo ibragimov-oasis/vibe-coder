@@ -4,6 +4,10 @@ description: "Use when completing tasks, implementing major features, or before 
 risk: unknown
 source: community
 date_added: "2026-02-27"
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 # Requesting Code Review
@@ -109,3 +113,9 @@ See template at: requesting-code-review/code-reviewer.md
 
 ## When to Use
 This skill is applicable to execute the workflow or actions described in the overview.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

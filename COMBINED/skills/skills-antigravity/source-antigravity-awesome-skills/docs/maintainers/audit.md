@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # Repo coherence and correctness audit
 
 This document summarizes the repository coherence audit performed after the `apps/` + `tools/` + layered `docs/` refactor.
@@ -92,3 +99,9 @@ npm test                  # suite test
 - Gradual cleanup of legacy skills so `npm run validate:strict` can become a hard CI gate in the future.
 - Continue reducing the remaining `risk: unknown` tail with conservative sync passes plus manual maintainer review for ambiguous cases.
 - Keep translated docs aligned in a separate pass after the canonical English docs are stable.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

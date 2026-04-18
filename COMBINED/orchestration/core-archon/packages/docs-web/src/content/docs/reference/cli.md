@@ -7,6 +7,10 @@ audience: [user]
 status: current
 sidebar:
   order: 3
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-archon
 ---
 
 Run AI-powered workflows from your terminal.
@@ -410,3 +414,10 @@ archon isolation list
 # Clean up old worktrees
 archon isolation cleanup
 ```
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/archon]] — Archon
+- [[000 - Map of Maps]] — Map of Maps
+

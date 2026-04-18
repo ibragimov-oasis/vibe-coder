@@ -1,4 +1,11 @@
 ---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
+---
 title: "Live-viewing apps | Apple Developer Documentation"
 source: https://developer.apple.com/design/human-interface-guidelines/live-viewing-apps
 
@@ -76,4 +83,9 @@ If you support digital video recording (DVR) in the cloud, follow these guidelin
 [Remotes](https://developer.apple.com/design/human-interface-guidelines/remotes)
 
 [Playing video](https://developer.apple.com/design/human-interface-guidelines/playing-video)
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
 

@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
+---
+
 # 성능 최적화
 
 ## 모델 선택 전략
@@ -53,3 +60,9 @@
 2. 에러 메시지 분석
 3. 점진적으로 수정
 4. 각 수정 후 검증
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

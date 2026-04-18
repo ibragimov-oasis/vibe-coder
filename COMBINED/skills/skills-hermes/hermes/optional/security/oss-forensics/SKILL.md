@@ -22,6 +22,10 @@ toolsets:
   - web
   - file
   - delegation
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-hermes
 ---
 
 # OSS Security Forensics Skill
@@ -420,3 +424,9 @@ If rate-limited mid-investigation, record the partial results in the evidence st
 - [investigation-templates.md](./references/investigation-templates.md) — Pre-built hypothesis templates per attack type
 - [evidence-store.py](./scripts/evidence-store.py) — CLI tool for managing the evidence JSON store
 - [forensic-report.md](./templates/forensic-report.md) — Structured report template
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-hermes]] — Category: skills-hermes
+

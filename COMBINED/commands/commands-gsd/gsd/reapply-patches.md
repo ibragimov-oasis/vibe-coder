@@ -1,6 +1,10 @@
 ---
 description: Reapply local modifications after a GSD update
 allowed-tools: Read, Write, Edit, Bash, Glob, Grep, AskUserQuestion
+tags:
+  - domain/skills
+  - artifact/command
+  - source/commands
 ---
 
 <purpose>
@@ -121,3 +125,9 @@ Ask user:
 - [ ] Conflicts resolved with user input
 - [ ] Status reported for each file
 </success_criteria>
+
+## 🔗 Связи
+
+- [[MOC - System]] — commands
+- [[000 - Map of Maps]] — Map of Maps
+

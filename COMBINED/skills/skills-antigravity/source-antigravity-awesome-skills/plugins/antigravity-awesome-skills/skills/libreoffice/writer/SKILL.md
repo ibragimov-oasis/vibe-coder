@@ -5,6 +5,10 @@ category: document-processing
 risk: safe
 source: personal
 date_added: "2026-02-27"
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 # LibreOffice Writer
@@ -197,3 +201,9 @@ soffice --headless --convert-to pdf:writer_pdf_Export document.odt
 - docx-official
 - pdf-official
 - workflow-automation
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

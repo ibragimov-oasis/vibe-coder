@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/seo
+  - artifact/doc
+  - source/skills-seo
+---
+
 # Free Tool Types Reference
 
 Detailed guide to each type of marketing tool you can build.
@@ -206,3 +213,9 @@ Detailed guide to each type of marketing tool you can build.
 - Budget planner
 - Tax estimator
 - Loan calculator
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-seo]] — Category: skills-seo
+

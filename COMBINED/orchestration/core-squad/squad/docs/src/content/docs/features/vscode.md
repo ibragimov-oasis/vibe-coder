@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-squad
+---
+
 # Squad in VS Code
 
 > ⚠️ **Experimental** — Squad is alpha software. APIs, commands, and behavior may change between releases.
@@ -210,3 +217,10 @@ const decision = await coordinator.route(userTask, {
 - [Model Selection](model-selection.md) — Cost-first routing strategy
 - [Interactive Shell](../guide/shell.md) — Shell commands and features
 - [SDK API Reference](../reference/api-reference.md) — Full SDK type and function reference
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/squad]] — Squad
+- [[000 - Map of Maps]] — Map of Maps
+

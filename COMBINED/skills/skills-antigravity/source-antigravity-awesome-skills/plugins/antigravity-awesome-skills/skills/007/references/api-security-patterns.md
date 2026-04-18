@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # API Security Patterns & Anti-Patterns
 
 > Reference for securing REST APIs, webhooks, and service-to-service communication.
@@ -477,3 +484,9 @@ Operations:
 [ ] Idempotency keys for mutations
 [ ] Dependencies scanned for CVEs
 ```
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

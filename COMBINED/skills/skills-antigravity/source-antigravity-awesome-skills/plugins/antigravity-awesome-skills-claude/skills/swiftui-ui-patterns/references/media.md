@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # Media (images, video, viewer)
 
 ## Intent
@@ -71,3 +78,9 @@ struct AppRoot: View {
 
 - Avoid loading full-size images in list rows; use resized previews.
 - Don’t present multiple viewer sheets at once; keep a single source of truth.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

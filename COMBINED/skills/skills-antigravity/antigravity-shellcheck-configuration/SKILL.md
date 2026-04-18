@@ -4,6 +4,10 @@ description: "Master ShellCheck static analysis configuration and usage for shel
 risk: unknown
 source: community
 date_added: "2026-02-27"
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 # ShellCheck Configuration and Static Analysis
@@ -467,3 +471,9 @@ shellcheck --format=quiet script.sh
 - **ShellCheck GitHub**: https://github.com/koalaman/shellcheck
 - **ShellCheck Wiki**: https://www.shellcheck.net/wiki/
 - **Error Code Reference**: https://www.shellcheck.net/
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

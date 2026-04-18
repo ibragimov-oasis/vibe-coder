@@ -3,6 +3,9 @@ title: Choose Appropriate Data Types
 impact: HIGH
 impactDescription: 50% storage reduction, faster comparisons
 tags: data-types, schema, storage, performance
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
 ---
 
 ## Choose Appropriate Data Types
@@ -44,3 +47,9 @@ Key guidelines:
 ```
 
 Reference: [Data Types](https://www.postgresql.org/docs/current/datatype.html)
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

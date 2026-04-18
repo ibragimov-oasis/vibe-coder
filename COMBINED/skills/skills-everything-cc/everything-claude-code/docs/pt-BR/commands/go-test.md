@@ -1,5 +1,9 @@
 ---
 description: Impõe fluxo de TDD para Go. Escreva table-driven tests primeiro e depois implemente. Verifique cobertura de 80%+ com go test -cover.
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
 ---
 
 # Comando TDD Go
@@ -266,3 +270,9 @@ go test -race -cover ./...
 
 - Skill: `skills/golang-testing/`
 - Skill: `skills/tdd-workflow/`
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

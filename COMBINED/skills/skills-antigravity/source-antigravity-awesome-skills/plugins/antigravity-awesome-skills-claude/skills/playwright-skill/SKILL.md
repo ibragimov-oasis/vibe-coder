@@ -9,6 +9,10 @@ plugin:
     type: manual
     summary: "Run `npm run setup` in the skill directory before first use to install Playwright and Chromium."
     docs: "SKILL.md"
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 **IMPORTANT - Path Resolution:**
@@ -462,3 +466,9 @@ User: "Use 3001"
 
 ## When to Use
 This skill is applicable to execute the workflow or actions described in the overview.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

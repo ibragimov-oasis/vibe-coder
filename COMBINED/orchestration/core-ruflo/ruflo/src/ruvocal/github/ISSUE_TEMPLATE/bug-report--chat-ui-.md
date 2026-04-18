@@ -4,6 +4,10 @@ about: Use this for confirmed issues with chat-ui
 title: ""
 labels: bug
 assignees: ""
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
 ---
 
 ## Bug description
@@ -41,3 +45,10 @@ assignees: ""
 ## Notes
 
 <!-- Anything else relevant to help the issue get solved -->
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

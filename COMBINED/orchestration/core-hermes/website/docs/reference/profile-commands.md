@@ -1,5 +1,9 @@
 ---
 sidebar_position: 7
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-hermes
 ---
 
 # Profile Commands Reference
@@ -278,3 +282,10 @@ After installation, tab completion works for:
 - [Profiles User Guide](../user-guide/profiles.md)
 - [CLI Commands Reference](./cli-commands.md)
 - [FAQ — Profiles section](./faq.md#profiles)
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/hermes]] — Hermes
+- [[000 - Map of Maps]] — Map of Maps
+

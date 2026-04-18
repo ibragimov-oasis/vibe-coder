@@ -1,6 +1,10 @@
 ---
 description: Commit changes, create PR with template, mark ready for review
 argument-hint: (no arguments - reads from workflow artifacts)
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-archon
 ---
 
 # Finalize Pull Request
@@ -400,3 +404,10 @@ If template has complex structure that's hard to fill:
 - **PR_UPDATED**: PR description reflects implementation
 - **PR_READY**: Draft status removed
 - **ARTIFACT_WRITTEN**: PR ready artifact created
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/archon]] — Archon
+- [[000 - Map of Maps]] — Map of Maps
+

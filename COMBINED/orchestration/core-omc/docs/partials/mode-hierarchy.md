@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-omc
+---
+
 # Execution Mode Hierarchy
 
 This document defines the relationships between execution modes and provides guidance on mode selection.
@@ -103,3 +110,10 @@ All mode state files use standardized locations:
 **Important:** Never store OMC state in `~/.claude/` - that directory is reserved for Claude Code itself.
 
 Legacy locations are auto-migrated on read.
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-omc]] — core-omc
+- [[MOC - Skills]] — Skills library
+

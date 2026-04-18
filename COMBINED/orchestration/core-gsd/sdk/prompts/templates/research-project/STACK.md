@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-gsd
+---
+
 # Stack Research Template
 
 Template for `.planning/research/STACK.md` — recommended technologies for the project domain.
@@ -118,3 +125,10 @@ npm install -D [packages]
 - Critical for avoiding debugging time later
 
 </guidelines>
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/gsd]] — GSD
+- [[000 - Map of Maps]] — Map of Maps
+

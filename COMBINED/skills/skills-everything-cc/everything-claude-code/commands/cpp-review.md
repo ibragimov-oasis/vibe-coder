@@ -1,5 +1,9 @@
 ---
 description: Comprehensive C++ code review for memory safety, modern C++ idioms, concurrency, and security. Invokes the cpp-reviewer agent.
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
 ---
 
 # C++ Code Review
@@ -130,3 +134,9 @@ Recommendation: FAIL: Block merge until CRITICAL issue is fixed
 
 - Agent: `agents/cpp-reviewer.md`
 - Skills: `skills/cpp-coding-standards/`, `skills/cpp-testing/`
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

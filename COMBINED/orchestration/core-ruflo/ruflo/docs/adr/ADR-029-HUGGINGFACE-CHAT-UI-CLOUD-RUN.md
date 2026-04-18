@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # ADR-029: HuggingFace Chat UI on Cloud Run — chat.conveyorclaims.ai
 
 ## Status
@@ -1234,3 +1241,10 @@ Moved MODELS config from Cloud Run env vars to Docker image `.env.local` file. T
 | ADR-024 | Workflow context injection pattern adapted for MCP tools |
 | ADR-027 | Response formatting rules carried into system prompt |
 | ADR-028 | OpenAI GPT-5 integration in existing chat system (complementary) |
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

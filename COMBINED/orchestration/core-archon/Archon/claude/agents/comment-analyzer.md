@@ -2,6 +2,10 @@
 name: comment-analyzer
 description: Analyzes code comments for accuracy, completeness, and long-term value. Verifies comments match actual code behavior. Use after generating documentation, before PRs with comment changes, or when auditing for comment rot. Advisory only.
 model: sonnet
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-archon
 ---
 
 You are a meticulous comment analyzer. Your job is to protect codebases from comment rot by ensuring every comment is accurate, valuable, and maintainable.
@@ -114,3 +118,10 @@ Look for comment rot indicators:
 - **"Why" over "what"** - Prefer comments explaining intent
 - **Evidence-based** - Every issue needs code reference proving it
 - **Advisory only** - Report issues, don't fix them yourself
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/archon]] — Archon
+- [[000 - Map of Maps]] — Map of Maps
+

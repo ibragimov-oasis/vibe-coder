@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-multica
+---
+
 # Board DnD Rewrite — dnd-kit Multi-Container Sortable
 
 > **For Claude:** REQUIRED SUB-SKILL: Use superpowers:executing-plans to implement this plan task-by-task.
@@ -509,3 +516,10 @@ AFTER (correct):
   onDragEnd → compute position from local order → mutate → isDragging=false → TQ catches up → local follows
   Problem: none — single source of truth during drag (local), single source of truth between drags (TQ)
 ```
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-multica]] — core-multica
+- [[MOC - Skills]] — Skills library
+

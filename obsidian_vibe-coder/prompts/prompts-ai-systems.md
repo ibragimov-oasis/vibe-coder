@@ -54,3 +54,9 @@ source: "../COMBINED/prompts/prompts-ai-systems/"
 
 - [[prompts/prompts-templates]] — шаблоны промптов
 - [[root-docs/CAPABILITIES]] — ULTRACAR capabilities
+
+## 🔗 Связи
+
+- [[MOC - Prompts]] — Parent MOC
+- [[000 - Map of Maps]] — Map of Maps
+

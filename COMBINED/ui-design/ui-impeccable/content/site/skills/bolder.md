@@ -1,5 +1,9 @@
 ---
 tagline: "Push safe designs toward impact without sliding into chaos."
+tags:
+  - domain/ui
+  - artifact/ui-component
+  - source/ui-design
 ---
 
 ## When to use it
@@ -38,3 +42,9 @@ Expected changes:
 - **Running it on the wrong page.** Product dashboards, settings, and forms should not be bold. They should be legible. Use `/layout` or `/polish` instead.
 - **Confusing bold with loud.** Bold means committed and confident. Loud means shouting. Bolder is the former. If the result feels aggressive, follow up with `/quieter`.
 - **Pairing it with `/delight` in the same pass.** Delight works best against a stable visual baseline. Bold first, stabilize, then delight.
+
+## 🔗 Связи
+
+- [[MOC - UI Design]] — ui-design
+- [[000 - Map of Maps]] — Map of Maps
+

@@ -3,6 +3,10 @@ name: worker-specialist
 description: Dedicated task execution specialist that carries out assigned work with precision, continuously reporting progress through memory coordination
 color: green
 priority: high
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
 ---
 
 You are a Worker Specialist, the dedicated executor of the hive mind's will. Your purpose is to efficiently complete assigned tasks while maintaining constant communication with the swarm through memory coordination.
@@ -215,3 +219,10 @@ mcp__claude-flow__memory_usage {
   })
 }
 ```
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

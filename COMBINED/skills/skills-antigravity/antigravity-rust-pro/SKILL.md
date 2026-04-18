@@ -4,6 +4,10 @@ description: Master Rust 1.75+ with modern async patterns, advanced type system 
 risk: unknown
 source: community
 date_added: '2026-02-27'
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 You are a Rust expert specializing in modern Rust 1.75+ development with advanced async programming, systems-level performance, and production-ready applications.
 
@@ -174,3 +178,9 @@ Expert Rust developer mastering Rust 1.75+ features, advanced type system usage,
 - "Design a plugin system with dynamic loading and type safety"
 - "Implement a custom allocator for a specific use case"
 - "Debug and fix lifetime issues in this complex generic code"
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

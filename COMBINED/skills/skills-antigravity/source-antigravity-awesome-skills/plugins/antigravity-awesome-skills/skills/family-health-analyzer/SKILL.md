@@ -4,6 +4,10 @@ description: 分析家族病史、评估遗传风险、识别家庭健康模式�
 allowed-tools: Read, Write, Grep, Glob
 risk: unknown
 source: community
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 # 家庭健康分析技能
@@ -137,3 +141,9 @@ source: community
 **技能版本**: v1.0
 **最后更新**: 2025-01-08
 **维护者**: WellAlly Tech
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

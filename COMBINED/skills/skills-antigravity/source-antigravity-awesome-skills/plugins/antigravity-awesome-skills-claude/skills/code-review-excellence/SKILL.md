@@ -4,6 +4,10 @@ description: "Transform code reviews from gatekeeping to knowledge sharing throu
 risk: safe
 source: community
 date_added: "2026-02-27"
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 # Code Review Excellence
@@ -41,3 +45,9 @@ Transform code reviews from gatekeeping to knowledge sharing through constructiv
 ## Resources
 
 - `resources/implementation-playbook.md` for detailed review patterns and templates.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

@@ -1,5 +1,9 @@
 ---
 description: Load the most recent session file from ~/.claude/session-data/ and resume work with full context from where the last session ended.
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
 ---
 
 # Resume Session Command
@@ -154,3 +158,9 @@ Ready to continue. What would you like to do?
 - The briefing format is fixed — do not skip sections even if they are empty
 - "What Not To Retry" must always be shown, even if it just says "None" — it's too important to miss
 - After resuming, the user may want to run `/save-session` again at the end of the new session to create a new dated file
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

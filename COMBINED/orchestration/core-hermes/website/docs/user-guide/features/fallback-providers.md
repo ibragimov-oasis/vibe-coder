@@ -3,6 +3,10 @@ title: Fallback Providers
 description: Configure automatic failover to backup LLM providers when your primary model is unavailable.
 sidebar_label: Fallback Providers
 sidebar_position: 8
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-hermes
 ---
 
 # Fallback Providers
@@ -323,3 +327,10 @@ See [Scheduled Tasks (Cron)](/docs/user-guide/features/cron) for full configurat
 | Memory flush | Auto-detection chain | `auxiliary.flush_memories` |
 | Delegation | Provider override only (no automatic fallback) | `delegation.provider` / `delegation.model` |
 | Cron jobs | Per-job provider override only (no automatic fallback) | Per-job `provider` / `model` |
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/hermes]] — Hermes
+- [[000 - Map of Maps]] — Map of Maps
+

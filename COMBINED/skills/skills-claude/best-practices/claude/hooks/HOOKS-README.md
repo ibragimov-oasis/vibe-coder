@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # HOOKS-README
 contains all the details, scripts, and instructions for the hooks
 
@@ -578,3 +585,9 @@ All hooks can return these fields via stdout JSON:
 
 - **Hook deduplication:** Identical hook handlers defined in multiple settings locations run only once in parallel, preventing duplicate execution.
 - **External change detection:** Claude Code warns when hooks are modified externally (e.g., by another process editing settings files) during an active session.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

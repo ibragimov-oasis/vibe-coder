@@ -2,6 +2,10 @@
 name: agent-payment-x402
 description: Add x402 payment execution to AI agents — per-task budgets, spending controls, and non-custodial wallets via MCP tools. Use when agents need to pay for APIs, services, or other agents.
 origin: community
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-everything-cc
 ---
 
 # Agent Payment Execution (x402)
@@ -176,3 +180,9 @@ main().catch((err) => {
 - **npm**: [`agentwallet-sdk`](https://www.npmjs.com/package/agentwallet-sdk)
 - **Merged into NVIDIA NeMo Agent Toolkit**: [PR #17](https://github.com/NVIDIA/NeMo-Agent-Toolkit-Examples/pull/17) — x402 payment tool for NVIDIA's agent examples
 - **Protocol spec**: [x402.org](https://x402.org)
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

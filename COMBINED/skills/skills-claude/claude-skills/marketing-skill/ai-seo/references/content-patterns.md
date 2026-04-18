@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # Content Patterns for AI Citability
 
 Ready-to-use block templates for each content pattern that AI search engines reliably extract and cite. Copy, adapt, and embed in your pages.
@@ -274,3 +281,9 @@ The most citable pages combine multiple patterns throughout the piece:
 7. Expert quote (to add authority)
 
 A page with all 7 patterns has significantly more extractable surface area than a page with prose only. The AI has more options to pull from and a higher probability of finding something that perfectly matches the query.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

@@ -2,6 +2,9 @@
 name: 'Governance Audit'
 description: 'Scans Copilot agent prompts for threat signals and logs governance events'
 tags: ['security', 'governance', 'audit', 'safety']
+  - domain/agents
+  - artifact/agent
+  - source/by-interface/agents-copilot
 ---
 
 # Governance Audit Hook
@@ -97,3 +100,9 @@ Events are written to `logs/copilot/governance/audit.log` in JSON Lines format:
 - Add `logs/` to `.gitignore` to keep audit data local
 - Set `SKIP_GOVERNANCE_AUDIT=true` to disable entirely
 - All data stays local — no external network calls
+
+## 🔗 Связи
+
+- [[MOC - Agents]] — Agent catalog
+- [[agents/agents-copilot]] — Interface: agents-copilot
+

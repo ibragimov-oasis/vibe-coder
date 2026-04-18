@@ -12,6 +12,10 @@ allowed-tools:
   - Task
   - WebFetch
   - mcp__context7__*
+tags:
+  - domain/skills
+  - artifact/command
+  - source/commands
 ---
 <objective>
 Create executable phase prompts (PLAN.md files) for a roadmap phase with integrated research and verification.
@@ -45,3 +49,9 @@ Normalize phase input in step 2 before any directory lookups.
 Execute the plan-phase workflow from @~/.claude/get-shit-done/workflows/plan-phase.md end-to-end.
 Preserve all workflow gates (validation, research, planning, verification loop, routing).
 </process>
+
+## 🔗 Связи
+
+- [[MOC - System]] — commands
+- [[000 - Map of Maps]] — Map of Maps
+

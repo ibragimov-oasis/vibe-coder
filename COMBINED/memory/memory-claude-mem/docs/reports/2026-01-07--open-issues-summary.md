@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/memory
+  - artifact/memory
+  - source/memory
+---
+
 # Open Issues Summary - January 7, 2026
 
 This document provides an index of all open GitHub issues analyzed on 2026-01-07.
@@ -82,3 +89,9 @@ Issue #600 identifies significant gap between documented and implemented feature
 ---
 
 *Generated: 2026-01-07 19:45 EST*
+
+## 🔗 Связи
+
+- [[MOC - Memory]] — memory
+- [[000 - Map of Maps]] — Map of Maps
+

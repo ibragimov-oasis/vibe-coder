@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-squad
+---
+
 # Tone Validation Test Specification
 
 > Quality gates for PAO's external communications. All tests must pass before a draft enters the review table.
@@ -152,3 +159,10 @@ Before launch, ALL of the following must be true:
 - [ ] Audit trail format validated against template
 - [ ] `banana` / `pao resume` flow tested end-to-end
 - [ ] At least one full scan→draft→review→post cycle completed successfully
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/squad]] — Squad
+- [[000 - Map of Maps]] — Map of Maps
+

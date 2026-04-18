@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-awesome-claude
+---
+
 # Design Review Workflow
 
 This directory contains templates and examples for implementing an automated design review system that provides feedback on front-end code changes with design implications. This workflow allows engineers to automatically run design reviews on pull requests or working changes, ensuring design consistency and quality throughout the development process.
@@ -29,3 +36,9 @@ This approach transforms design reviews from manual, subjective processes into a
 
 ### Video Tutorial
 For a detailed walkthrough of this workflow, watch the comprehensive tutorial on YouTube: [Patrick Ellis' Channel](https://www.youtube.com/watch?v=xOO8Wt_i72s)
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-awesome-claude]] — Category: skills-awesome-claude
+

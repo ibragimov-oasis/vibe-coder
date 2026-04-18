@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # ReasoningBank Agent Creation Guide
 
 ## 🎯 Overview
@@ -811,3 +818,10 @@ db.upsertMemory({
 **Created**: 2025-10-12
 **Version**: 1.0.0
 **Status**: Production-ready
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

@@ -3,6 +3,9 @@ name: trimming
 description: Trimming patterns for Remotion - cut the beginning or end of animations
 metadata:
   tags: sequence, trim, clip, cut, offset
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
 ---
 
 Use `<Sequence>` with a negative `from` value to trim the start of an animation.
@@ -50,4 +53,9 @@ Nest sequences to both trim the beginning and delay when it appears:
 ```
 
 The inner sequence trims 15 frames from the start, and the outer sequence delays the result by 30 frames.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
 

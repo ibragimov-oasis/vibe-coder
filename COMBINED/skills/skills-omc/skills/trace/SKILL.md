@@ -3,6 +3,10 @@ name: trace
 description: Evidence-driven tracing lane that orchestrates competing tracer hypotheses in Claude built-in team mode
 agent: tracer
 level: 2
+tags:
+  - domain/orchestration
+  - artifact/skill
+  - source/skills-omc
 ---
 
 # Trace Skill
@@ -260,3 +264,10 @@ Good `/trace` output is:
 
 ### Additional Trace Lanes
 [Only if uncertainty remains high]
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-omc]] — Category: skills-omc
+- [[MOC - Orchestration]] — Multi-agent orchestration
+

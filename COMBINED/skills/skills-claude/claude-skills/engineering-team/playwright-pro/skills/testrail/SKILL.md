@@ -4,6 +4,10 @@ description: >-
   Sync tests with TestRail. Use when user mentions "testrail", "test management",
   "test cases", "test run", "sync test cases", "push results to testrail",
   or "import from testrail".
+tags:
+  - domain/agents
+  - artifact/skill
+  - source/skills-claude
 ---
 
 # TestRail Integration
@@ -127,3 +131,10 @@ This annotation is the bridge between Playwright and TestRail.
 - Operation summary with counts
 - Any errors or unmatched cases
 - Link to TestRail run/results
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+- [[MOC - Agents]] — Claude agents
+

@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # PowerShell Script Templates
 
 Ready-to-use PowerShell scripts for Microsoft 365 administration with error handling and best practices.
@@ -702,3 +709,9 @@ Write-Host "`n" + "=" * 60 -ForegroundColor Cyan
 Write-Host "Verify DNS propagation: nslookup -type=mx $Domain"
 Write-Host "Note: DNS changes may take 24-48 hours to propagate"
 ```
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

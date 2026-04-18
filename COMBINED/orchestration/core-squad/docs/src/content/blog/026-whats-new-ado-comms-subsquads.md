@@ -6,6 +6,9 @@ wave: 7
 tags: [squad, azure-devops, enterprise, platform-adapter, communication, subsquads, security]
 status: published
 hero: "Squad goes enterprise with native Azure DevOps support, adds a CommunicationAdapter for platform-agnostic agent-human messaging, renames Workstreams to SubSquads, and ships critical security hardening across all platform adapters."
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-squad
 ---
 
 # What's New: Azure DevOps Adapter, CommunicationAdapter, SubSquads, and Security Hardening
@@ -149,3 +152,10 @@ None. All changes are additive. Repos without ADO remotes work exactly as before
 - **Teams webhook adapter** — full CommunicationAdapter implementation (#261)
 - **Pre-existing test stabilization** — fix 14 flaky/environment-dependent tests (#273)
 - **Persistent Ralph** — `squad watch` heartbeat improvements (#236)
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/squad]] — Squad
+- [[000 - Map of Maps]] — Map of Maps
+

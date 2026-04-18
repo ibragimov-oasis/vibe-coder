@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-copilot
+---
+
 # Issue Templates
 
 Copy and customize these templates for issue bodies.
@@ -88,3 +95,9 @@ For simple issues:
 - [ ] [Task 1]
 - [ ] [Task 2]
 ```
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-copilot]] — Category: skills-copilot
+

@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
+---
+
 # PR Review And Queue Triage — March 13, 2026
 
 ## Snapshot
@@ -353,3 +360,9 @@ Current recommendation:
 2. `#420`
 3. `#336`
 4. `#298`
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

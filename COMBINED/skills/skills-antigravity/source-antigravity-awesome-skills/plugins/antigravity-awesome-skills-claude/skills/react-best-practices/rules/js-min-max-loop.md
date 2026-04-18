@@ -3,6 +3,9 @@ title: Use Loop for Min/Max Instead of Sort
 impact: LOW
 impactDescription: O(n) instead of O(n log n)
 tags: javascript, arrays, performance, sorting, algorithms
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
 ---
 
 ## Use Loop for Min/Max Instead of Sort
@@ -80,3 +83,9 @@ const max = Math.max(...numbers)
 ```
 
 This works for small arrays but can be slower for very large arrays due to spread operator limitations. Use the loop approach for reliability.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

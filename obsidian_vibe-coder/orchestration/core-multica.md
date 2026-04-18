@@ -39,3 +39,9 @@ Agent platform: агенты как тиммейты, board view, multi-workspac
 
 - [[orchestration/core-squad]] — Squad: Copilot-specific teams
 - [[orchestration/core-praisonai]] — PraisonAI: multi-LLM
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Parent MOC
+- [[000 - Map of Maps]] — Map of Maps
+

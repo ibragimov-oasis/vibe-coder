@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-awesome-claude
+---
+
 # Cooldown Protocol
 
 The following protocol exists to ensure fairness for all visitors that wish to be featured on the list, and to protect the repository from spam and other interactions which compromise the maintainer's ability to serve the needs of GitHub users.
@@ -32,3 +39,9 @@ What happens if any of the above requirements are violated:
 Violating the cooldown protocol will result in a ban that is deemed appropriate given the circumstances.
 
 I hope other visitors and developers will support this stance, and may have seen how disruptive it can be when basic standards of conduct are not met.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-awesome-claude]] — Category: skills-awesome-claude
+

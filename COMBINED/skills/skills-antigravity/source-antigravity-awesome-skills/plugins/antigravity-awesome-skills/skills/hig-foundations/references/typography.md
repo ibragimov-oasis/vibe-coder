@@ -12,7 +12,11 @@ Your typographic choices can help you display legible text, convey an informatio
 
 **Use font sizes that most people can read easily.** People need to be able to read your content at various viewing distances and under a variety of conditions. Follow the recommended default and minimum text sizes for each platform — for both custom and system fonts — to ensure your text is legible on all devices. Keep in mind that font weight can also impact how easy text is to read. If you use a custom font with a thin weight, aim for larger than the recommended sizes to increase legibility.
 
-Platform| Default size| Minimum size  
+Platform| Default size| Minimum size
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
 ---|---|---  
 iOS, iPadOS| 17 pt| 11 pt  
 macOS| 13 pt| 10 pt  
@@ -1142,5 +1146,10 @@ December 16, 2025| Added emphasized weights to the Dynamic Type style specificat
 March 7, 2025| Expanded guidance for Dynamic Type.  
 June 10, 2024| Added guidance for using Apple’s Unity plug-ins to support Dynamic Type in a Unity-based game and enhanced guidance on billboarding in a visionOS app or game.  
 September 12, 2023| Added artwork illustrating system font weights, and clarified tvOS specification table descriptions.  
-June 21, 2023| Updated to include guidance for visionOS.  
-  
+June 21, 2023| Updated to include guidance for visionOS.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

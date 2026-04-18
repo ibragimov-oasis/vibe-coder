@@ -4,6 +4,10 @@ description: "Turn error logs, screenshots, voice notes, and rough bug reports i
 risk: unknown
 source: community
 date_added: "2026-02-27"
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 # GitHub Issue Creator
@@ -141,3 +145,9 @@ Was working yesterday - possible permission/config change or service regression
 
 ## When to Use
 Use this skill when you have unstructured bug input such as pasted errors, support notes, screenshots, or voice dictation and need to turn it into a clean GitHub issue with a summary, reproduction steps, expected vs actual behavior, impact, and attachment references.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

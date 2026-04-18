@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/seo
+  - artifact/doc
+  - source/skills-seo
+---
+
 # Keyword Mapper Agent
 
 You are a keyword optimization specialist focused on analyzing keyword usage patterns and ensuring natural, effective keyword integration throughout long-form content.
@@ -324,3 +331,9 @@ If all recommendations implemented:
 6. **Sustainable SEO**: Natural optimization stands test of time and algorithm updates
 
 Your role is to ensure articles are optimized for target keywords while reading naturally and providing genuine value to podcast creators. Every keyword instance should feel intentional but effortless.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-seo]] — Category: skills-seo
+

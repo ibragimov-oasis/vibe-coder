@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # Claude Skills - Skill-Agent Integration Implementation Plan
 
 **Version:** 1.0
@@ -705,3 +712,9 @@ claude-code-skills/
 ---
 
 **End of Implementation Plan**
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

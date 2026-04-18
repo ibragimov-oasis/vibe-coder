@@ -4,6 +4,10 @@ description: "Comprehensive patterns for designing effective Key Performance Ind
 risk: unknown
 source: community
 date_added: "2026-02-27"
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 # KPI Dashboard Design
@@ -441,3 +445,9 @@ for alert in alerts:
 - [Stephen Few's Dashboard Design](https://www.perceptualedge.com/articles/visual_business_intelligence/rules_for_using_color.pdf)
 - [Edward Tufte's Principles](https://www.edwardtufte.com/tufte/)
 - [Google Data Studio Gallery](https://datastudio.google.com/gallery)
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

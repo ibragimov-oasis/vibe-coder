@@ -5,6 +5,10 @@ category: granular-workflow-bundle
 risk: safe
 source: personal
 date_added: "2026-02-27"
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 # WordPress Plugin Development Workflow
@@ -494,3 +498,9 @@ plugin-name/
 - `wordpress` - WordPress development
 - `wordpress-theme-development` - Theme development
 - `wordpress-woocommerce` - WooCommerce
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

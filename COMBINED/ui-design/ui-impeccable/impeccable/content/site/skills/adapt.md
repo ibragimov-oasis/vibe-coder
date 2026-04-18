@@ -1,5 +1,9 @@
 ---
 tagline: "Make designs work across screens, devices, and contexts without amputating features."
+tags:
+  - domain/ui
+  - artifact/ui-component
+  - source/ui-design
 ---
 
 ## When to use it
@@ -38,3 +42,9 @@ Expected changes:
 - **Amputating features.** If the mobile version hides things the desktop version can do, that is a regression, not an adaptation. Fight for the feature.
 - **Treating mobile as "smaller desktop".** Mobile is a different context: thumbs, interruption, short sessions. Adapt to the context, not to the viewport width.
 - **Skipping `/harden` afterward.** Responsive layouts reveal edge cases. Run hardening after adapt to catch the ones that only show up at 320px.
+
+## 🔗 Связи
+
+- [[MOC - UI Design]] — ui-design
+- [[000 - Map of Maps]] — Map of Maps
+

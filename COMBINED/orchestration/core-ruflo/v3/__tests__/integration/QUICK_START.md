@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # Integration Tests - Quick Start Guide
 
 ## Overview
@@ -263,3 +270,10 @@ npx vitest run --reporter=verbose    # Detailed output
 rm -rf __tests__/integration/.test-dbs/  # Clean test DBs
 rm -rf __tests__/coverage/              # Clean coverage
 ```
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

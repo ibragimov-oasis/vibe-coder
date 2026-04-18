@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
+---
+
 # 重構清理
 
 透過測試驗證安全地識別和移除無用程式碼：
@@ -26,3 +33,9 @@
 6. 顯示已清理項目的摘要
 
 在執行測試前絕不刪除程式碼！
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

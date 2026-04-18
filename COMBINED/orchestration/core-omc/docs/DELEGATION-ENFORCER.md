@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-omc
+---
+
 # Delegation Enforcer
 
 **Automatic model parameter injection for Task/Agent calls**
@@ -275,3 +282,10 @@ No migration needed! The enforcer is backward compatible:
 
 - [Agent Definitions](./AGENTS.md) - Complete agent reference
 - [Features Reference](./FEATURES.md) - Model routing and delegation categories
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-omc]] — core-omc
+- [[MOC - Skills]] — Skills library
+

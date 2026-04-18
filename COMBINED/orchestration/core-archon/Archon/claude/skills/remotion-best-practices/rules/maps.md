@@ -3,6 +3,9 @@ name: maps
 description: Make map animations with Mapbox
 metadata:
   tags: map, map animation, mapbox
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-archon
 ---
 
 Maps can be added to a Remotion video with Mapbox.  
@@ -410,3 +413,10 @@ When rendering a map animation, make sure to render with the following flags:
 ```
 npx remotion render --gl=angle --concurrency=1
 ```
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/archon]] — Archon
+- [[000 - Map of Maps]] — Map of Maps
+

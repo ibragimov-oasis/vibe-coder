@@ -1,5 +1,9 @@
 ---
 description: Run the local review gate before pushing.
+tags:
+  - domain/skills
+  - artifact/command
+  - source/claude-commands
 ---
 
 Perform a complete review pass:
@@ -31,3 +35,9 @@ Perform a complete review pass:
    done
    ```
 7. Summarize results in the commit template's Testing section. Fix any failures before continuing.
+
+## 🔗 Связи
+
+- [[MOC - System]] — System commands
+- [[MOC - Skills]] — Skills library
+

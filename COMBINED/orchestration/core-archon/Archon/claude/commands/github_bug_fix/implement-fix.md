@@ -1,6 +1,10 @@
 ---
 description: Implement fix from RCA document for GitHub issue
 argument-hint: "[github-issue-id]"
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-archon
 ---
 
 # Implement Fix: GitHub Issue #$ARGUMENTS
@@ -151,3 +155,10 @@ gh issue comment $ARGUMENTS --body "Fix implemented. Ready for review."
 - If you discover the RCA analysis was incorrect, document findings and update the RCA
 - If additional issues are found during implementation, note them for separate issues
 - Follow Archon coding standards exactly (CLAUDE.md + relevant .claude/rules/)
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/archon]] — Archon
+- [[000 - Map of Maps]] — Map of Maps
+

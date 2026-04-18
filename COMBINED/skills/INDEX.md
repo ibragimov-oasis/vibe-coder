@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/INDEX.md
+---
+
 # COMBINED/skills - Master Skills Index
 
 > **Complete catalog of all AI agent skills across 31 repositories**
@@ -636,3 +643,9 @@ When adding skills:
 
 *For agent capabilities, see `COMBINED/agents/INDEX.md`*
 *For workflow automation, see `COMBINED/commands/INDEX.md`*
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/INDEX.md]] — Category: INDEX.md
+

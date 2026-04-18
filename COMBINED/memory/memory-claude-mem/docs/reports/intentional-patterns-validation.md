@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/memory
+  - artifact/memory
+  - source/memory
+---
+
 # Intentional Patterns Validation Report
 
 **Generated:** 2026-01-13
@@ -334,3 +341,9 @@ Scans for 7 anti-patterns including:
    - C) Allow users to disable fallback behavior
 
 4. **MCP version**: Worth updating all 3 instances, or leave as cosmetic debt?
+
+## 🔗 Связи
+
+- [[MOC - Memory]] — memory
+- [[000 - Map of Maps]] — Map of Maps
+

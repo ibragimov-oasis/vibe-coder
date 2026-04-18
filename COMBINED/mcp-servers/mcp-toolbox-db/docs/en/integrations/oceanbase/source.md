@@ -6,6 +6,10 @@ weight: 1
 description: >
   OceanBase is a distributed relational database that provides high availability, scalability, and compatibility with MySQL.
 no_list: true
+tags:
+  - domain/mcp
+  - artifact/mcp-server
+  - source/mcp-servers
 ---
 
 ## About
@@ -91,3 +95,9 @@ instead of hardcoding your secrets into the configuration file.
 | user         |  string  |     true     | Name of the OceanBase user to connect as (e.g. "my-oceanbase-user").                            |
 | password     |  string  |     true     | Password of the OceanBase user (e.g. "my-password").                                            |
 | queryTimeout |  string  |    false     | Maximum time to wait for query execution (e.g. "30s", "2m"). By default, no timeout is applied. |
+
+## 🔗 Связи
+
+- [[MOC - MCP Servers]] — mcp-servers
+- [[000 - Map of Maps]] — Map of Maps
+

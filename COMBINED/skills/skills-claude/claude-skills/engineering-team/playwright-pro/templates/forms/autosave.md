@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # Autosave Template
 
 Tests auto-save draft functionality and draft restoration on revisit.
@@ -133,3 +140,9 @@ test.describe('Autosave', () => {
 | Dismiss draft | Discard clears saved value |
 | Cleared on submit | No draft banner after successful submit |
 | Network failure | Save-failed message shown |
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

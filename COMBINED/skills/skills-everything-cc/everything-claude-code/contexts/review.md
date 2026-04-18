@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
+---
+
 # Code Review Context
 
 Mode: PR review, code analysis
@@ -20,3 +27,9 @@ Focus: Quality, security, maintainability
 
 ## Output Format
 Group findings by file, severity first
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

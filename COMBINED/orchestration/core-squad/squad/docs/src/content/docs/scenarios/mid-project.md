@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-squad
+---
+
 # Adding Squad Mid-Project
 
 **Try this to catch up on current state:**
@@ -254,3 +261,10 @@ Michael just gave you a code review of code **you already wrote**. Now you can f
 - **Use the Lead to audit existing code.** Michael can review code that was written before Squad was added.
 - **Skills accumulate fast.** After 2–3 sessions, agents know your patterns. By session 5, they're as good as a developer who's been on the project for weeks.
 - **Never too late.** Squad works on 3-week projects and 3-year projects. Agents adapt to what's there.
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/squad]] — Squad
+- [[000 - Map of Maps]] — Map of Maps
+

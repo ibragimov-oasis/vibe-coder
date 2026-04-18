@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-multica
+---
+
 <p align="center">
   <img src="docs/assets/banner.jpg" alt="Multica — 人类与 AI，并肩前行" width="100%">
 </p>
@@ -143,3 +150,10 @@ make start
 ## 开源协议
 
 [Apache 2.0](LICENSE)
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-multica]] — core-multica
+- [[MOC - Skills]] — Skills library
+

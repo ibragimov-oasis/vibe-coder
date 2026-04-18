@@ -3,6 +3,10 @@ name: gsd-assumptions-analyzer
 description: Deeply analyzes codebase for a phase and returns structured assumptions with evidence. Spawned by discuss-phase assumptions mode.
 tools: Read, Bash, Grep, Glob
 color: cyan
+tags:
+  - domain/agents
+  - artifact/agent
+  - source/by-role/researcher
 ---
 
 <role>
@@ -103,3 +107,9 @@ ecosystem best practices, etc. Leave empty if codebase provides enough evidence.
 - Do NOT generate more areas than the calibration tier specifies
 - Do NOT invent assumptions about code you haven't read -- read first, then form opinions
 </anti_patterns>
+
+## 🔗 Связи
+
+- [[MOC - Agents]] — Agent catalog
+- [[agents/researcher]] — Role: researcher
+

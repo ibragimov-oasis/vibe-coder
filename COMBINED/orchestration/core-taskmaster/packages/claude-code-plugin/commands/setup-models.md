@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-taskmaster
+---
+
 Run interactive setup to configure AI models.
 
 ## Interactive Model Configuration
@@ -49,3 +56,10 @@ After configuration:
 - Show usage examples
 - Suggest next steps
 - Verify parse-prd works
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/task-master]] — Task-Master
+- [[000 - Map of Maps]] — Map of Maps
+

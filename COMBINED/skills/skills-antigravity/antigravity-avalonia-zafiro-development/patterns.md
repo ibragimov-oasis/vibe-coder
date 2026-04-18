@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # Common Patterns in Angor/Zafiro
 
 ## Refreshable Collections
@@ -43,3 +50,9 @@ Instead of manual `Subscribe`, use `HandleErrorsWith` to pipe errors directly to
 ```csharp
 LoadProjects.HandleErrorsWith(uiServices.NotificationService, "Could not load projects");
 ```
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # Weather SVG Creator — Reference
 
 ## SVG Template
@@ -60,3 +67,9 @@ Dubai, UAE
 |------|------|
 | SVG card | `orchestration-workflow/weather.svg` |
 | Markdown summary | `orchestration-workflow/output.md` |
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

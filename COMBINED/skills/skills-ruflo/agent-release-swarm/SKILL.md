@@ -1,6 +1,10 @@
 ---
 name: agent-release-swarm
 description: Agent skill for release-swarm - invoke with $agent-release-swarm
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-ruflo
 ---
 
 ---
@@ -586,3 +590,9 @@ npx ruv-swarm github rollback \
 ```
 
 See also: [workflow-automation.md](.$workflow-automation.md), [multi-repo-swarm.md](.$multi-repo-swarm.md)
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-ruflo]] — Category: skills-ruflo
+

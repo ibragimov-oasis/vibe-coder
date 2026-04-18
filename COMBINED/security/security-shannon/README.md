@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/security
+  - artifact/security
+  - source/security
+---
+
 >[!NOTE]
 > **[📢 New: Shannon is now available via `npx @keygraph/shannon`. →](https://github.com/KeygraphHQ/shannon/discussions/249)**
 
@@ -933,3 +940,9 @@ Shannon Pro is Keygraph's all-in-one AppSec platform. For organizations that nee
 <p align="center">
   <b>Built by <a href="https://keygraph.io">Keygraph</a></b>
 </p>
+
+## 🔗 Связи
+
+- [[MOC - Security]] — security
+- [[000 - Map of Maps]] — Map of Maps
+

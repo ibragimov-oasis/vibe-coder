@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # EU MDR 2017/745 Submission Guide
 
 ## MDR Classification and Conformity Assessment Routes
@@ -93,3 +100,9 @@
 - **Inadequate post-market surveillance** systems
 - **Poor documentation quality** and traceability
 - **Underestimating timeline** and resource requirements
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/combined-root
+---
+
 # ✅ RESTRUCTURE VALIDATION REPORT
 
 > **PREFIX-SOURCE Migration Validation**
@@ -286,3 +293,8 @@ The PREFIX-SOURCE migration has been successfully executed across all 7 phases. 
 **Validation Date:** April 4, 2026
 **Validation Method:** Automated directory scanning + manual structure review
 **Validation Status:** ✅ **PASSED ALL CHECKS**
+
+## 🔗 Связи
+
+- [[000 - Map of Maps]] — Map of Maps
+

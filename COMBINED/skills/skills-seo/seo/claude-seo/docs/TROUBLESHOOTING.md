@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/seo
+  - artifact/doc
+  - source/skills-seo
+---
+
 # Troubleshooting
 
 ## Common Issues
@@ -196,3 +203,9 @@ python3 ~/COMBINED/workspace-config/claude/skills/seo/scripts/parse_html.py page
 # Test screenshot
 python3 ~/COMBINED/workspace-config/claude/skills/seo/scripts/capture_screenshot.py https://example.com
 ```
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-seo]] — Category: skills-seo
+

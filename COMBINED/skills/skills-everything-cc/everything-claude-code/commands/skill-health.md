@@ -2,6 +2,10 @@
 name: skill-health
 description: Show skill portfolio health dashboard with charts and analytics
 command: true
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
 ---
 
 # Skill Health Dashboard
@@ -52,3 +56,9 @@ node "$ECC_ROOT/scripts/skills-health.js" --dashboard --json
 - **Failure Patterns** — Clustered failure reasons with horizontal bar chart
 - **Pending Amendments** — Amendment proposals awaiting review
 - **Version History** — Timeline of version snapshots per skill
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

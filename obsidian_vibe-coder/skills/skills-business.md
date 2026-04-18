@@ -39,3 +39,9 @@ source: "../COMBINED/skills/skills-business/"
 
 - [[skills/skills-seo]] — SEOMachine: marketing
 - [[skills/skills-planning]] — PRD и планирование
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Parent MOC
+- [[000 - Map of Maps]] — Map of Maps
+

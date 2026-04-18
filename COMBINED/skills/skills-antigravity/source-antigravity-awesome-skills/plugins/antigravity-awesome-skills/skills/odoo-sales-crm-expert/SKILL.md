@@ -3,6 +3,10 @@ name: odoo-sales-crm-expert
 description: "Expert guide for Odoo Sales and CRM: pipeline stages, quotation templates, pricelists, sales teams, lead scoring, and forecasting."
 risk: safe
 source: "self"
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 # Odoo Sales & CRM Expert
@@ -107,3 +111,9 @@ Assign to a customer:
 - The **Quotation Template** optional product feature requires the **Sale Management** module; it is not available in the base `sale` module.
 - **Territory-based lead assignment** (geographic routing) requires custom rules or the Enterprise Leads module.
 - Odoo CRM does not have native **email sequence / cadence** automation — use the **Email Marketing** or **Marketing Automation** modules for drip campaigns.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

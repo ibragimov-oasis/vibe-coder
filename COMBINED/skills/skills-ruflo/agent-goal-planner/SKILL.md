@@ -1,6 +1,10 @@
 ---
 name: agent-goal-planner
 description: Agent skill for goal-planner - invoke with $agent-goal-planner
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-ruflo
 ---
 
 ---
@@ -76,3 +80,9 @@ mcp__claude-flow__memory_usage {
   value: JSON.stringify(successful_plan)
 }
 ```
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-ruflo]] — Category: skills-ruflo
+

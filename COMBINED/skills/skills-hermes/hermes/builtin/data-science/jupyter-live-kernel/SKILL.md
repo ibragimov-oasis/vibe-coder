@@ -13,6 +13,9 @@ metadata:
   hermes:
     tags: [jupyter, notebook, repl, data-science, exploration, iterative]
     category: data-science
+  - domain/skills
+  - artifact/skill
+  - source/skills-hermes
 ---
 
 # Jupyter Live Kernel (hamelnb)
@@ -169,3 +172,9 @@ uv run "$SCRIPT" restart-run-all --path <notebook.ipynb> --save-outputs --compac
 The script has a 30-second default timeout per execution. For long-running
 operations, pass `--timeout 120`. Use generous timeouts (60+) for initial
 setup or heavy computation.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-hermes]] — Category: skills-hermes
+

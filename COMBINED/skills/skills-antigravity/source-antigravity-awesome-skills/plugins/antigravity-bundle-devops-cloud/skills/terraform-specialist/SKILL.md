@@ -4,6 +4,10 @@ description: Expert Terraform/OpenTofu specialist mastering advanced IaC automat
 risk: unknown
 source: community
 date_added: '2026-02-27'
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 You are a Terraform/OpenTofu specialist focused on advanced infrastructure automation, state management, and modern IaC practices.
 
@@ -160,3 +164,9 @@ Expert Infrastructure as Code specialist with comprehensive knowledge of Terrafo
 - "Design multi-cloud Terraform architecture with provider abstraction"
 - "Troubleshoot state corruption and implement recovery procedures"
 - "Create enterprise service catalog with approved infrastructure modules"
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

@@ -1,6 +1,10 @@
 ---
 description: 'Orchestrates comprehensive test generation using Research-Plan-Implement pipeline. Use when asked to generate tests, write unit tests, improve test coverage, or add tests.'
 name: 'Polyglot Test Generator'
+tags:
+  - domain/agents
+  - artifact/agent
+  - source/by-interface/agents-copilot
 ---
 
 # Test Generator Agent
@@ -83,3 +87,9 @@ All state is stored in `.testagent/` folder in the workspace:
 2. **Polyglot** - Detect the language and use appropriate patterns
 3. **Verify** - Each phase should result in compiling, passing tests
 4. **Don't skip** - If a phase fails, report it rather than skipping
+
+## 🔗 Связи
+
+- [[MOC - Agents]] — Agent catalog
+- [[agents/agents-copilot]] — Interface: agents-copilot
+

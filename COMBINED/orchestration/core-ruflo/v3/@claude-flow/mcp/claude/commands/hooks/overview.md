@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # Claude Code Hooks for claude-flow
 
 ## Purpose
@@ -56,3 +63,10 @@ Hooks are configured in `.claude/settings.json`:
 - [Pre-Edit Hook](./pre-edit.md)
 - [Post-Edit Hook](./post-edit.md)
 - [Session End Hook](./session-end.md)
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

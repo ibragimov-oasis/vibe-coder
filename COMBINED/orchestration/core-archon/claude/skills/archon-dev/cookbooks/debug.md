@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-archon
+---
+
 # Debug Cookbook
 
 Systematic root cause analysis using hypothesis testing and evidence chains. No guessing — every claim requires proof.
@@ -323,3 +330,10 @@ Link to the artifact.
 - For complex fixes: `/archon-dev plan` (create a plan from the RCA)
 - For simple fixes: `/archon-dev implement` (implement directly)
 - For GitHub issues: Consider posting the RCA as a comment with `gh issue comment`
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/archon]] — Archon
+- [[000 - Map of Maps]] — Map of Maps
+

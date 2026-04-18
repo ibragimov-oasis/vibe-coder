@@ -3,6 +3,9 @@ title: Use Events for Workflow Status Publishing
 impact: MEDIUM
 impactDescription: Enables real-time workflow status monitoring
 tags: events, set_event, get_event, status
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
 ---
 
 ## Use Events for Workflow Status Publishing
@@ -59,3 +62,9 @@ all_events = DBOS.get_all_events(workflow_id)
 Events can be called from `set_event` from workflows or steps.
 
 Reference: [Workflow Events](https://docs.dbos.dev/python/tutorials/workflow-communication#workflow-events)
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

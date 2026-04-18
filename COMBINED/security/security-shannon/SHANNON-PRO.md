@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/security
+  - artifact/security
+  - source/security
+---
+
 # Shannon Pro
 
 Shannon Pro is Keygraph's comprehensive AppSec platform, combining SAST, SCA, secrets scanning, business logic security testing, and autonomous pentesting in a single correlated workflow:
@@ -254,3 +261,9 @@ Within the broader Keygraph ecosystem, Shannon Pro serves as the primary engine 
 # Methodology Standards
 
 Shannon Pro follows AI-assisted white-box testing methodology broadly aligned with OWASP Web Security Testing Guide (WSTG) and OWASP Top 10 standards. All dynamic testing produces confirmed, exploitable findings with reproducible proof-of-concept exploits. Static analysis covers established CWE categories with LLM-powered validation to minimize false positive rates.
+
+## 🔗 Связи
+
+- [[MOC - Security]] — security
+- [[000 - Map of Maps]] — Map of Maps
+

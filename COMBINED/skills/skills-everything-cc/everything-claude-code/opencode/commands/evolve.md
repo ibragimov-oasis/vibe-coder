@@ -1,6 +1,10 @@
 ---
 description: Analyze instincts and suggest or generate evolved structures
 agent: build
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
 ---
 
 # Evolve Command
@@ -34,3 +38,9 @@ python3 ~/COMBINED/workspace-config/claude/skills/continuous-learning-v2/scripts
 - With `--generate`, output path is:
   - project context: `~/.claude/homunculus/projects/<project-id>/evolved/`
   - global fallback: `~/.claude/homunculus/evolved/`
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

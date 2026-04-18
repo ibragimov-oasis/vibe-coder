@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
+---
+
 # /learn - 再利用可能なパターンの抽出
 
 現在のセッションを分析し、スキルとして保存する価値のあるパターンを抽出します。
@@ -68,3 +75,9 @@
 - 一度限りの問題（特定のAPIの障害など）は抽出しない
 - 将来のセッションで時間を節約できるパターンに焦点を当てる
 - スキルは集中させる - 1つのスキルに1つのパターン
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

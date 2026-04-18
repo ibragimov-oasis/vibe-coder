@@ -1,6 +1,11 @@
 ---
 name: google-workspace
 description: "Google Workspace CLI operations: setup diagnostics, security audit, recipe discovery, and output analysis. Usage: /google-workspace <setup|audit|recipe|analyze> [options]"
+tags:
+  - domain/agents
+  - artifact/skill
+  - source/skills-claude
+  - artifact/doc
 ---
 
 # /google-workspace
@@ -75,3 +80,10 @@ python3 engineering-team/google-workspace-cli/scripts/output_analyzer.py --demo 
 
 ## Related Commands
 - No direct dependencies (self-contained Google Workspace skill)
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+- [[MOC - Agents]] — Claude agents
+

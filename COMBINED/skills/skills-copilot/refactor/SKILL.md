@@ -2,6 +2,10 @@
 name: refactor
 description: 'Surgical code refactoring to improve maintainability without changing behavior. Covers extracting functions, renaming variables, breaking down god functions, improving type safety, eliminating code smells, and applying design patterns. Less drastic than repo-rebuilder; use for gradual improvements.'
 license: MIT
+tags:
+  - domain/agents
+  - artifact/skill
+  - source/skills-copilot
 ---
 
 # Refactor
@@ -643,3 +647,10 @@ Use this skill when:
 | Introduce Null Object                         | Eliminate null checks                 |
 | Replace Type Code with Class/Enum             | Strong typing                         |
 | Replace Inheritance with Delegation           | Composition over inheritance          |
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-copilot]] — Category: skills-copilot
+- [[MOC - Agents]] — Copilot agents
+

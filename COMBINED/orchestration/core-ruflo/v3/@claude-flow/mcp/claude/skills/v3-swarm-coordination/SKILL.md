@@ -1,6 +1,10 @@
 ---
 name: "V3 Swarm Coordination"
 description: "15-agent hierarchical mesh coordination for v3 implementation. Orchestrates parallel execution across security, core, and integration domains following 10 ADRs with 14-week timeline."
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
 ---
 
 # V3 Swarm Coordination

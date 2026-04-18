@@ -79,7 +79,11 @@ In all platforms, alerts display a title, optional informative text, and up to t
 
 **Provide alternative ways to cancel an alert when it makes sense.** In addition to choosing a Cancel button, people appreciate using keyboard shortcuts or other quick ways to cancel an onscreen alert. For example:
 
-Action| Platform  
+Action| Platform
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
 ---|---  
 Exit to the Home Screen| iOS, iPadOS  
 Pressing Escape (Esc) or Command-Period (.) on an attached keyboard| iOS, iPadOS, macOS, visionOS  
@@ -154,5 +158,10 @@ Date| Changes
 ---|---  
 February 2, 2024| Enhanced guidance for using default and Cancel buttons.  
 September 12, 2023| Added anatomy artwork for visionOS.  
-June 21, 2023| Updated to include guidance for visionOS.  
-  
+June 21, 2023| Updated to include guidance for visionOS.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/prompts
+  - artifact/prompt
+  - source/prompts-templates
+---
+
 <h1 align="center">
   <a href="https://prompts.chat">
     <picture>
@@ -239,3 +246,9 @@ Use prompts.chat as an MCP server in your AI tools.
 ## 📜 License
 
 **[CC0 1.0 Universal (Public Domain)](https://creativecommons.org/publicdomain/zero/1.0/)** — Copy, modify, distribute, and use freely. No attribution required.
+
+## 🔗 Связи
+
+- [[MOC - Prompts]] — Prompt library
+- [[MOC - System]] — System documentation
+

@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # Chinese Documentation Translation Design
 
 **Date:** 2026-03-27
@@ -369,3 +376,9 @@ Initial: {skills, installation, repository}
 - Consider process for community-contributed translations
 - Review workflow for suggested glossary improvements
 - Translation memory database for reusable segments
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

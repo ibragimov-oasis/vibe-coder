@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # Squash Merging & PR Size Distribution — Tips from Boris Cherny
 
 A summary of insights shared by Boris Cherny ([@bcherny](https://x.com/bcherny)), creator of Claude Code, on March 25, 2026.
@@ -46,3 +53,9 @@ Boris shared the size distribution across those 141 PRs, totaling **45,032 lines
 ## Sources
 
 - [Boris Cherny (@bcherny) on X — March 25, 2026](https://x.com/bcherny)
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

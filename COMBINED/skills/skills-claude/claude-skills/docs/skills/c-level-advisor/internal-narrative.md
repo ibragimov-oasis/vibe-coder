@@ -1,6 +1,10 @@
 ---
 title: "Internal Narrative Builder — Agent Skill for Executives"
 description: "Build and maintain one coherent company story across all audiences — employees, investors, customers, candidates, and partners. Detects narrative. Agent skill for Claude Code, Codex CLI, Gemini CLI, OpenClaw."
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
 ---
 
 # Internal Narrative Builder
@@ -198,3 +202,9 @@ Run before any major external communication:
 ## Detailed References
 - `references/narrative-frameworks.md` — Storytelling structures, founder narrative, bad news delivery, all-hands templates
 - `templates/all-hands-template.md` — All-hands presentation template
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

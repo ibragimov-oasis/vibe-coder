@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-squad
+---
+
 # SDK Init Implementation Roadmap
 
 > Deep dive analysis and implementation plan for `squad init --sdk`
@@ -725,3 +732,10 @@ Fix 7 (Ralph during init)
 4. Assign to team members based on expertise
 
 **END OF ROADMAP**
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/squad]] — Squad
+- [[000 - Map of Maps]] — Map of Maps
+

@@ -428,3 +428,9 @@ python server.py --model model-q4_k_m.gguf --loader llama.cpp --n-gpu-layers 35
 - **Pre-quantized Models**: https://huggingface.co/TheBloke
 - **GGUF Converter**: https://huggingface.co/spaces/ggml-org/gguf-my-repo
 - **License**: MIT
+
+## 🔗 Связи
+
+- [[000 - Map of Maps]] — REPO_DOCS
+- [[000 - Map of Maps]] — Map of Maps
+

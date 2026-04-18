@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # Features Avancados - WhatsApp Cloud API
 
 Guia dos recursos avancados da WhatsApp Business Platform: Flows, Commerce, Channels, Click-to-WhatsApp Ads e Status Tracking.
@@ -544,3 +551,9 @@ Para analytics avancados, considere integrar com:
 - **Trengo** - CSAT tracking, response times, trending topics
 - **Wassenger** - Comparacao de agentes, exportacao CSV/JSON/PDF
 - **Solucao propria** - MongoDB/PostgreSQL + Grafana/Metabase
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

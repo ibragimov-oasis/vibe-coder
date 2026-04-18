@@ -7,6 +7,10 @@ skills:
 domain: product
 model: sonnet
 tools: [Read, Write, Bash, Grep, Glob]
+tags:
+  - domain/agents
+  - artifact/agent
+  - source/by-role/researcher
 ---
 
 # Product Analyst Agent
@@ -29,3 +33,9 @@ tools: [Read, Write, Bash, Grep, Glob]
 - Define decision metrics before analysis to avoid post-hoc bias.
 - Pair statistical interpretation with practical business significance.
 - Use guardrail metrics to prevent local optimization mistakes.
+
+## 🔗 Связи
+
+- [[MOC - Agents]] — Agent catalog
+- [[agents/researcher]] — Role: researcher
+

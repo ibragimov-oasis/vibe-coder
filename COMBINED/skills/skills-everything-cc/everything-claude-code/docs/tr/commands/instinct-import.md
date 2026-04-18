@@ -2,6 +2,10 @@
 name: instinct-import
 description: İçgüdüleri dosya veya URL'den proje/global kapsama aktar
 command: true
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
 ---
 
 # Instinct Import Komutu
@@ -112,3 +116,9 @@ New instincts saved to: ~/.claude/homunculus/instincts/inherited/
 
 Run /instinct-status to see all instincts.
 ```
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

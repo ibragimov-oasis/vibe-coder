@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-copilot
+---
+
 # Dependabot YAML Options Reference
 
 Complete reference for all configuration options in `.github/dependabot.yml`.
@@ -372,3 +379,9 @@ updates:
 ```
 
 Use `registries: "*"` to allow access to all defined registries.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-copilot]] — Category: skills-copilot
+

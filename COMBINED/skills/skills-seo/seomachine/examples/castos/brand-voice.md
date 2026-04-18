@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/seo
+  - artifact/doc
+  - source/skills-seo
+---
+
 # Castos Brand Voice & Messaging
 
 This document defines the Castos brand voice, tone, and messaging framework. Reference this when writing all content to ensure consistency.
@@ -265,3 +272,9 @@ Before publishing any content, verify:
 ---
 
 **Remember**: Every piece of content should make podcast creators feel more capable and confident about their podcasting journey. We're not just providing information—we're empowering success.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-seo]] — Category: skills-seo
+

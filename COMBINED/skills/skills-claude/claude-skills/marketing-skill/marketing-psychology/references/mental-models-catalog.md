@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # Mental Models Catalog for Marketing
 ## Foundational Thinking Models
 
@@ -394,4 +401,9 @@ Focusing on successes while ignoring failures that aren't visible.
 **Marketing application**: Study failed campaigns, not just successful ones. The viral hit you're copying had 99 failures you didn't see.
 
 ---
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
 

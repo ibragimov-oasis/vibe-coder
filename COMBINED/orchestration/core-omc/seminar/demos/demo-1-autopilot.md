@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-omc
+---
+
 # Demo 1: Autopilot - Full Autonomous Execution
 
 **Duration:** 5 minutes
@@ -275,3 +282,10 @@ A: Yes! Autopilot scales. We've built entire microservices, fullstack apps, and 
 
 **Q: What happens if it gets stuck?**
 A: Ralph mode (Demo 5) adds even more persistence. But autopilot already has retry logic and architect verification to prevent getting stuck.
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-omc]] — core-omc
+- [[MOC - Skills]] — Skills library
+

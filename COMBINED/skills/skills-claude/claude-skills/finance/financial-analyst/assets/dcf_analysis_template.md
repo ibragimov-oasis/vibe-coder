@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # DCF Valuation Analysis
 
 ## Report Header
@@ -182,3 +189,9 @@
 ---
 
 *Analysis generated using Financial Analyst Skill - DCF Valuation Model*
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

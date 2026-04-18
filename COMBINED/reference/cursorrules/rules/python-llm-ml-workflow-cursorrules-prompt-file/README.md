@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/reference
+  - source/reference
+---
+
 # Python LLM & ML Workflow .cursorrules Prompt File
 ## Synopsis
 
@@ -37,3 +44,9 @@ Place this `.cursorrules` file in the root of your project to guide the AI assis
 ## Contribution
 
 This prompt file is a collaborative effort, and contributions are welcome. Feel free to suggest improvements or additions to enhance its utility for Python AI/ML development.
+
+## 🔗 Связи
+
+- [[MOC - System]] — reference
+- [[000 - Map of Maps]] — Map of Maps
+

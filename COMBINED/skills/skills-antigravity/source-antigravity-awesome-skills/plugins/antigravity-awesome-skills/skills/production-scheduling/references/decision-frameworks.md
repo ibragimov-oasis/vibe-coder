@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # Decision Frameworks — Production Scheduling
 
 This reference provides the detailed decision logic, scheduling algorithms, optimisation
@@ -865,3 +872,9 @@ Without this feedback loop, the schedule diverges from reality within hours and 
 aspirational rather than operational. The shop floor stops consulting it, operators make
 their own sequencing decisions, and throughput at the constraint drops because ad-hoc
 sequencing ignores constraint protection logic.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

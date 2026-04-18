@@ -4,6 +4,10 @@ description: Azure MySQL Flexible Server SDK for .NET. Database management for M
 risk: unknown
 source: community
 date_added: '2026-02-27'
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 # Azure.ResourceManager.MySql (.NET)
@@ -394,3 +398,9 @@ string connectionString = $"Server={server.Data.FullyQualifiedDomainName};" +
 
 ## When to Use
 This skill is applicable to execute the workflow or actions described in the overview.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

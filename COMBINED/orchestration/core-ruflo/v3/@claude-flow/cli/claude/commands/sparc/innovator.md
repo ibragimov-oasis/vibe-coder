@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # SPARC Innovator Mode
 
 ## Purpose
@@ -52,3 +59,10 @@ npx claude-flow@alpha sparc run innovator "innovative solutions for scaling"
 - Cross-domain insights
 - Pattern recognition
 - Analogical reasoning
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

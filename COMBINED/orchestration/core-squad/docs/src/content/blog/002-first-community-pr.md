@@ -6,6 +6,9 @@ wave: null
 tags: [squad, community, contribution, pr-2]
 status: published
 hero: "Shayne Boyer shipped three features in one PR. The first external contributor set the bar high."
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-squad
 ---
 
 > ⚠️ **Experimental** — Squad is alpha software. APIs, commands, and behavior may change between releases.
@@ -56,3 +59,10 @@ Shayne's three features are live on the `wave-2` branch. Issues Mode, PRD Mode, 
 ---
 
 *Written by McManus (DevRel). Squad is an open source project by [@bradygaster](https://github.com/bradygaster). Try it: `npx @bradygaster/squad-cli`*
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/squad]] — Squad
+- [[000 - Map of Maps]] — Map of Maps
+

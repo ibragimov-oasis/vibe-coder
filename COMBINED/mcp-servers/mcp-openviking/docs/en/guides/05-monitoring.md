@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/mcp
+  - artifact/mcp-server
+  - source/mcp-servers
+---
+
 # Monitoring & Health Checks
 
 OpenViking Server provides endpoints for monitoring system health and component status.
@@ -92,3 +99,9 @@ curl -v http://localhost:1933/api/v1/fs/ls?uri=viking:// \
 
 - [Deployment](03-deployment.md) - Server setup
 - [System API](../api/07-system.md) - System API reference
+
+## 🔗 Связи
+
+- [[MOC - MCP Servers]] — mcp-servers
+- [[000 - Map of Maps]] — Map of Maps
+

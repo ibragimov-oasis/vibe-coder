@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-awesome-claude
+---
+
 # S-Tier SaaS Dashboard Design Checklist (Inspired by Stripe, Airbnb, Linear)
 
 ## I. Core Design Philosophy & Strategy
@@ -127,3 +134,9 @@
 *   [ ] **Clear Information Architecture:** Organize content and navigation logically.
 *   [ ] **Responsive Design:** Ensure the dashboard is fully functional and looks great on all device sizes (desktop, tablet, mobile).
 *   [ ] **Documentation:** Maintain clear documentation for the design system and components.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-awesome-claude]] — Category: skills-awesome-claude
+

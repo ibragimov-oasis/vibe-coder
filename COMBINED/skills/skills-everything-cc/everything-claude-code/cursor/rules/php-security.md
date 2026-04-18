@@ -2,6 +2,10 @@
 description: "PHP security extending common rules"
 globs: ["**/*.php", "**/composer.lock", "**/composer.json"]
 alwaysApply: false
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
 ---
 # PHP Security
 
@@ -22,3 +26,9 @@ alwaysApply: false
 - Use `password_hash()` / `password_verify()` for password storage.
 - Regenerate session identifiers after authentication and privilege changes.
 - Enforce CSRF protection on state-changing web requests.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

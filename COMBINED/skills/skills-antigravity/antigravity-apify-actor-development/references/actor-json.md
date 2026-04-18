@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # Actor Configuration (actor.json)
 
 The `.actor/actor.json` file contains the Actor's configuration including metadata, schema references, and platform settings.
@@ -64,3 +71,9 @@ The `.actor/actor.json` file contains the Actor's configuration including metada
 - `dockerfile` (string, optional) - Path to Dockerfile
 
 **Important:** Always fill in the `generatedBy` property with the tool and model you're currently using (e.g., "Claude Code with Claude Sonnet 4.5") to help Apify improve documentation.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

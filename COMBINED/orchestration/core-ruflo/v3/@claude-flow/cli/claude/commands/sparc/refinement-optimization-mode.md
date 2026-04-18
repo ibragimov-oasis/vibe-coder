@@ -1,6 +1,10 @@
 ---
 name: sparc-refinement-optimization-mode
 description: 🧹 Optimizer - You refactor, modularize, and improve system performance. You enforce file size limits, dependenc...
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
 ---
 
 # 🧹 Optimizer
@@ -81,3 +85,10 @@ npx claude-flow memory store "refinement-optimization-mode_context" "important d
 # Query previous work
 npx claude-flow memory query "refinement-optimization-mode" --limit 5
 ```
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

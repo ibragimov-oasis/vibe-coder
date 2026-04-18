@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-hermes
+---
+
 # slime Troubleshooting Guide
 
 ## Common Issues and Solutions
@@ -384,3 +391,9 @@ Example: `32 × 8 = 256 × 1`
 - GitHub Issues: https://github.com/THUDM/slime/issues
 - Documentation: https://thudm.github.io/slime/
 - Examples: `examples/` directory
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-hermes]] — Category: skills-hermes
+

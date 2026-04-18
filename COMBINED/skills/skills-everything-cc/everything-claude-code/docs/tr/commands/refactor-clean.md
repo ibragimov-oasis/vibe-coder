@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
+---
+
 # Refactor Clean
 
 Her adımda test doğrulaması ile ölü kodu güvenle tanımla ve kaldır.
@@ -78,3 +85,9 @@ Tüm testler geçiyor PASS:
 - **Bir seferde bir silme** — Atomik değişiklikler geri almayı kolaylaştırır
 - **Emin değilseniz atlayın** — Üretimi bozmaktansa ölü kodu tutmak daha iyidir
 - **Temizlerken refactor etmeyin** — Endişeleri ayırın (önce temizle, sonra refactor et)
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

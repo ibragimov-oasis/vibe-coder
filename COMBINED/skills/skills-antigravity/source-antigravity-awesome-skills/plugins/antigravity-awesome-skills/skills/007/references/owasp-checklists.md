@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # OWASP Top 10 Checklists
 
 > Quick-reference checklists for the three most relevant OWASP Top 10 lists.
@@ -74,3 +81,9 @@ Use this as a rapid assessment during code reviews:
 [ ] Prompt injection defenses in place (LLM01)
 [ ] Token/cost budgets configured (LLM10)
 ```
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

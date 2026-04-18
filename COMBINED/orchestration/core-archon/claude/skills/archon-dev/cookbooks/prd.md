@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-archon
+---
+
 # PRD Cookbook
 
 Problem-first, hypothesis-driven product requirements. Interactive multi-round interview that focuses on WHAT and WHY, not HOW.
@@ -327,3 +334,10 @@ Present validation status:
 | Success Metrics | {Defined/Needs refinement} |
 
 **Next step**: `/archon-dev plan .claude/archon/prds/{slug}.prd.md`
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/archon]] — Archon
+- [[000 - Map of Maps]] — Map of Maps
+

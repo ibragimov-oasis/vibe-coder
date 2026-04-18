@@ -1,6 +1,10 @@
 ---
 description: Search and discover AI prompts from prompts.chat
 argument-hint: <query> [--type TYPE] [--category CATEGORY] [--tag TAG]
+tags:
+  - domain/prompts
+  - artifact/prompt
+  - source/prompts-templates
 ---
 
 # /prompts.chat:prompts
@@ -64,3 +68,9 @@ To enhance a prompt using AI:
 ```
 
 This transforms basic prompts into well-structured, comprehensive ones.
+
+## 🔗 Связи
+
+- [[MOC - Prompts]] — Prompt library
+- [[MOC - System]] — System documentation
+

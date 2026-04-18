@@ -48,9 +48,18 @@ Ornaments can appear on any edge of a window and can contain UI components like 
 
 ## [Change log](https://developer.apple.com/design/human-interface-guidelines/ornaments#Change-log)
 
-Date| Changes  
+Date| Changes
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
 ---|---  
 February 2, 2024| Added guidance on using multiple ornaments.  
 December 5, 2023| Removed a statement about using ornaments to present supplementary items.  
-June 21, 2023| New page.  
-  
+June 21, 2023| New page.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

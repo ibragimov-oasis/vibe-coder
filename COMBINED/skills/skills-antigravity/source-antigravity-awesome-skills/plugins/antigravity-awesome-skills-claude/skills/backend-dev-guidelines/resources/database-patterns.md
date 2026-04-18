@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # Database Patterns - Prisma Best Practices
 
 Complete guide to database access patterns using Prisma in backend microservices.
@@ -222,3 +229,9 @@ try {
 - SKILL.md
 - [services-and-repositories.md](services-and-repositories.md)
 - [async-and-errors.md](async-and-errors.md)
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

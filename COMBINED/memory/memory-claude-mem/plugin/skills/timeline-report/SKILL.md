@@ -1,6 +1,10 @@
 ---
 name: timeline-report
 description: Generate a "Journey Into [Project]" narrative report analyzing a project's entire development history from claude-mem's timeline. Use when asked for a timeline report, project history analysis, development journey, or full project report.
+tags:
+  - domain/memory
+  - artifact/memory
+  - source/memory
 ---
 
 # Timeline Report
@@ -201,3 +205,9 @@ User: "Write a journey report for the tokyo project"
 4. Deploy analysis agent with full timeline
 5. Save to `./journey-into-tokyo.md`
 6. Report: "Report saved. Analyzed 34,722 observations spanning Oct 2025 - Mar 2026 (~718K input tokens, ~8K output tokens)."
+
+## 🔗 Связи
+
+- [[MOC - Memory]] — memory
+- [[000 - Map of Maps]] — Map of Maps
+

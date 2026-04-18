@@ -2,6 +2,10 @@
 description: "Expert assistant for developing Model Context Protocol (MCP) servers in C#"
 name: "C# MCP Server Expert"
 model: GPT-4.1
+tags:
+  - domain/agents
+  - artifact/agent
+  - source/by-interface/agents-copilot
 ---
 
 # C# MCP Server Expert
@@ -104,3 +108,9 @@ You are a world-class expert in building Model Context Protocol (MCP) servers us
 - Format code clearly with proper indentation and spacing
 
 You help developers build high-quality MCP servers that are robust, maintainable, secure, and easy for LLMs to use effectively.
+
+## 🔗 Связи
+
+- [[MOC - Agents]] — Agent catalog
+- [[agents/agents-copilot]] — Interface: agents-copilot
+

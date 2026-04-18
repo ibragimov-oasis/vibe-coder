@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-hermes
+---
+
 # DPO Variants
 
 Complete guide to Direct Preference Optimization loss variants in TRL.
@@ -225,3 +232,9 @@ For robust DPO:
 - DPO paper: https://arxiv.org/abs/2305.18290
 - IPO paper: https://arxiv.org/abs/2310.12036
 - TRL docs: https://huggingface.co/docs/trl/dpo_trainer
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-hermes]] — Category: skills-hermes
+

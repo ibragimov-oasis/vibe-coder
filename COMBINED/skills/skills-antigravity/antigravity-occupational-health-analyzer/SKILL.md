@@ -4,6 +4,10 @@ description: 分析职业健康数据、识别工作相关健康风险、评估�
 allowed-tools: Read, Grep, Glob, Write, Edit
 risk: unknown
 source: community
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 # 职业健康分析技能
@@ -386,3 +390,9 @@ source: community
 **技能版本**: v1.0.0
 **最后更新**: 2025-01-08
 **维护者**: WellAlly Tech
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

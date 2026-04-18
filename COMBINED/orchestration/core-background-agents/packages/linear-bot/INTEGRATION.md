@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-background-agents
+---
+
 # Linear Agent Integration with Control Plane
 
 The Linear agent requires changes to the control plane to support callback routing.
@@ -64,3 +71,10 @@ emit `AgentActivity` on the correct session.
 
 The old `linear_api_key` variable is no longer required but kept for backward compatibility in the
 tfvars example.
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-background-agents]] — core-background-agents
+- [[MOC - Skills]] — Skills library
+

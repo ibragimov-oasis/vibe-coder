@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-omc
+---
+
 # Retry Handler Implementation
 
 Please review the following retry handler utility:
@@ -105,3 +112,10 @@ export async function withRetry<T>(
   throw lastError;
 }
 ```
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/omc]] — OMC
+- [[000 - Map of Maps]] — Map of Maps
+

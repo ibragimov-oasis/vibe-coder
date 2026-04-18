@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/config
+  - source/workspace-config
+---
+
 # Claude HUD
 
 A Claude Code plugin that shows what's happening — context usage, active tools, running agents, and todo progress. Always visible below your input.
@@ -331,3 +338,9 @@ MIT — see [LICENSE](LICENSE)
 ## Star History
 
 [![Star History Chart](https://api.star-history.com/svg?repos=jarrodwatts/claude-hud&type=Date)](https://star-history.com/#jarrodwatts/claude-hud&Date)
+
+## 🔗 Связи
+
+- [[MOC - System]] — workspace-config
+- [[000 - Map of Maps]] — Map of Maps
+

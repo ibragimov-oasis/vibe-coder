@@ -1,6 +1,10 @@
 ---
 name: golang-patterns
 description: 堅牢で効率的かつ保守可能なGoアプリケーションを構築するための慣用的なGoパターン、ベストプラクティス、規約。
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-everything-cc
 ---
 
 # Go開発パターン
@@ -671,3 +675,9 @@ func (c *Counter) Increment() { c.n++ }        // Pointer receiver
 ```
 
 **覚えておいてください**: Goコードは最良の意味で退屈であるべきです - 予測可能で、一貫性があり、理解しやすい。迷ったときは、シンプルに保ってください。
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

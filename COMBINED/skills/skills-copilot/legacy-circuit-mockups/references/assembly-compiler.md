@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-copilot
+---
+
 # 6502 SBC Assembly Compilation & ROM Build Specification
 
 ## Overview
@@ -256,3 +263,9 @@ Emulator must:
 ## Notes
 
 This specification is intentionally **end-to-end**: from assembly source to EEPROM image to running hardware or emulator. It defines a stable contract so ROMs, emulators, and real SBCs behave identically.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-copilot]] — Category: skills-copilot
+

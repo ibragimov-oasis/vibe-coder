@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-hermes
+---
+
 # Tokenization Algorithms Deep Dive
 
 Comprehensive explanation of BPE, WordPiece, and Unigram algorithms.
@@ -651,3 +658,9 @@ tokenizer.normalizer = NFKC()
    - Save with model
    - Document special tokens
    - Track vocabulary changes
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-hermes]] — Category: skills-hermes
+

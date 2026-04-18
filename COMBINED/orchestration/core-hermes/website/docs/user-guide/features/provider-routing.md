@@ -3,6 +3,10 @@ title: Provider Routing
 description: Configure OpenRouter provider preferences to optimize for cost, speed, or quality.
 sidebar_label: Provider Routing
 sidebar_position: 7
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-hermes
 ---
 
 # Provider Routing
@@ -198,3 +202,10 @@ When no `provider_routing` section is configured (the default), OpenRouter uses 
 :::tip Provider Routing vs. Fallback Models
 Provider routing controls which **sub-providers within OpenRouter** handle your requests. For automatic failover to an entirely different provider when your primary model fails, see [Fallback Providers](/docs/user-guide/features/fallback-providers).
 :::
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/hermes]] — Hermes
+- [[000 - Map of Maps]] — Map of Maps
+

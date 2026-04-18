@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # High-Converting Landing Page Patterns
 
 ## Overview
@@ -174,3 +181,9 @@ Test these elements in order of expected impact:
 - Use 95% statistical significance threshold
 - Document all test results for institutional knowledge
 - Winner becomes new control for next test iteration
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

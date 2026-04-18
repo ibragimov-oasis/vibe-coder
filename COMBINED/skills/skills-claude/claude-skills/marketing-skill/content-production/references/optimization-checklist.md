@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # Pre-Publish Optimization Checklist
 
 Run this before every piece goes live. Each section is a gate — fail a gate, fix it before moving on.
@@ -137,3 +144,9 @@ Run a final read-aloud. Catch what scanning misses.
 **Publish only when all 7 gates are green.**
 
 If you're skipping a gate, document why. Conscious tradeoffs are fine. Unconscious shortcuts aren't.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

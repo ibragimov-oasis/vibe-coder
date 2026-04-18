@@ -4,6 +4,10 @@ description: Azure Blob Storage SDK for Rust. Use for uploading, downloading, an
 risk: unknown
 source: community
 date_added: '2026-02-27'
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 # Azure Blob Storage SDK for Rust
@@ -133,3 +137,9 @@ For Entra ID auth, assign one of these roles:
 
 ## When to Use
 This skill is applicable to execute the workflow or actions described in the overview.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

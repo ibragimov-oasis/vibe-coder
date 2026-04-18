@@ -7,6 +7,10 @@ audience: [operator]
 status: current
 sidebar:
   order: 2
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-archon
 ---
 
 Deploy Archon on a server with Docker. Includes automatic HTTPS, PostgreSQL, and the Web UI.
@@ -676,3 +680,10 @@ docker compose logs --tail=50 app
 ```
 
 Common causes: missing `.env` file, invalid credentials, database unreachable.
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/archon]] — Archon
+- [[000 - Map of Maps]] — Map of Maps
+

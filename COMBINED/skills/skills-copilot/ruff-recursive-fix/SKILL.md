@@ -1,6 +1,10 @@
 ---
 name: ruff-recursive-fix
 description: Run Ruff checks with optional scope and rule overrides, apply safe and unsafe autofixes iteratively, review each change, and resolve remaining findings with targeted edits or user decisions.
+tags:
+  - domain/agents
+  - artifact/skill
+  - source/skills-copilot
 ---
 
 # Ruff Recursive Fix
@@ -198,3 +202,10 @@ At the end of execution, report:
 - "Run ruff-recursive-fix only on src/models, ignore DOC rules."
 - "Run ruff-recursive-fix on tests with select F,E9,I and no unsafe fixes."
 - "Run ruff-recursive-fix on src/data and ask me before adding any noqa."
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-copilot]] — Category: skills-copilot
+- [[MOC - Agents]] — Copilot agents
+

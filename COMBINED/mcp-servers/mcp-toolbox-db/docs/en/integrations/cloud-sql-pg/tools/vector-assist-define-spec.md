@@ -7,6 +7,10 @@ description: >
   capturing the user's intent and requirements for a vector search workload,
   generating SQL recommendations for setting up database, embeddings, and
   vector indexes.
+tags:
+  - domain/mcp
+  - artifact/mcp-server
+  - source/mcp-servers
 ---
 
 ## About
@@ -71,3 +75,9 @@ description: "This tool defines a new vector specification by capturing the user
 | type        |  string  |     true     | Must be "vector-assist-define-spec".                 |
 | source      |  string  |     true     | Name of the source the SQL should execute on.        |
 | description |  string  |    false     | Description of the tool that is passed to the agent. |
+
+## 🔗 Связи
+
+- [[MOC - MCP Servers]] — mcp-servers
+- [[000 - Map of Maps]] — Map of Maps
+

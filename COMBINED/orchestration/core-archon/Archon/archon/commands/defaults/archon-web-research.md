@@ -1,6 +1,10 @@
 ---
 description: Research web sources for context relevant to a GitHub issue or feature
 argument-hint: <issue-number or search context>
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-archon
 ---
 
 # Web Research
@@ -263,3 +267,10 @@ Based on research:
 - **SOURCES_CITED**: All findings have source URLs
 - **ARTIFACT_WRITTEN**: Research saved to `$ARTIFACTS_DIR/web-research.md`
 - **ACTIONABLE**: Findings directly inform implementation decisions
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/archon]] — Archon
+- [[000 - Map of Maps]] — Map of Maps
+

@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # 回滚过程
 
 当结构重构、生成工件刷新或发布准备需要安全撤回时，请使用此过程。
@@ -41,3 +48,9 @@ git restore --staged README.md CONTRIBUTING.md package.json package-lock.json
 
 - 除非您获得明确批准并了解对无关工作的影响，否则避免使用 `git reset --hard`
 - 对于生成的工件，在回滚后使用标准脚本重新生成，而不是手动编辑它们
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

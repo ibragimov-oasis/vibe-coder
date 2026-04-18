@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-squad
+---
+
 # Squad Community
 
 Squad is built by contributors who believe in democratizing multi-agent development. This page recognizes everyone who shapes the project — through code, feedback, ideas, and engagement.
@@ -75,3 +82,10 @@ If you're using Squad, consider:
 - **Issues & Feature Requests:** [GitHub Issues](https://github.com/bradygaster/squad/issues)
 - **Discussion & Questions:** [GitHub Discussions](https://github.com/bradygaster/squad/discussions)
 - **Security Issues:** Report privately via GitHub Security Advisory
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/squad]] — Squad
+- [[000 - Map of Maps]] — Map of Maps
+

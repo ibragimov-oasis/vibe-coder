@@ -3,6 +3,9 @@ title: Partition Queues for Per-Entity Limits
 impact: HIGH
 impactDescription: Enables per-user or per-entity flow control
 tags: queue, partition, per-user, flow-control
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
 ---
 
 ## Partition Queues for Per-Entity Limits
@@ -60,3 +63,9 @@ def process_task(task):
 ```
 
 Reference: [Partitioning Queues](https://docs.dbos.dev/python/tutorials/queue-tutorial#partitioning-queues)
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

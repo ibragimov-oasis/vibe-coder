@@ -4,6 +4,10 @@ description: "⚠️ DEPRECATED: This SDK has been renamed to Call Automation. F
 risk: safe
 source: community
 date_added: "2026-02-27"
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 # Azure Communication CallingServer (Java) - DEPRECATED
@@ -94,3 +98,9 @@ See the `azure-communication-callautomation-java` skill for:
 
 ## When to Use
 This skill is applicable to execute the workflow or actions described in the overview.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

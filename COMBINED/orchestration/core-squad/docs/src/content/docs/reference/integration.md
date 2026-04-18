@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-squad
+---
+
 # SDK Integration Guide
 
 > ⚠️ **Experimental** — Squad is alpha software. APIs, commands, and behavior may change between releases.
@@ -112,3 +119,10 @@ Use `ErrorFactory` to wrap raw SDK errors with Squad context.
 - [SDK API Reference](api-reference.md) — Full type and function reference
 - [Tools & Hooks](tools-and-hooks.md) — Custom tools and hook pipeline
 - [SDK Reference](sdk.md) — Quick reference
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/squad]] — Squad
+- [[000 - Map of Maps]] — Map of Maps
+

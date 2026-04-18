@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # M&A Due Diligence Checklist
 
 Comprehensive due diligence organized by domain. Not every item applies to every deal — focus on what matters for YOUR acquisition rationale.
@@ -146,3 +153,9 @@ Comprehensive due diligence organized by domain. Not every item applies to every
 | Deep dive | 4-6 weeks | All domains, interviews, code review |
 | Confirmation | 1-2 weeks | Verify claims, resolve open questions |
 | Final | 1 week | Legal review, final terms negotiation |
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

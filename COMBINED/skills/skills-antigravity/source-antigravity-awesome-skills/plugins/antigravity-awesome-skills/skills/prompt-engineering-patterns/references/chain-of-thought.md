@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # Chain-of-Thought Prompting
 
 ## Overview
@@ -397,3 +404,9 @@ def evaluate_cot_quality(reasoning_chain):
 - Pre-built CoT prompt templates
 - Reasoning verification tools
 - Step extraction and parsing utilities
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

@@ -4,6 +4,10 @@ description: See, Understand, Act on video and audio. See- ingest from local fil
 origin: ECC
 allowed-tools: Read Grep Glob Bash(python:*)
 argument-hint: "[task description]"
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-everything-cc
 ---
 
 # VideoDB Skill
@@ -372,3 +376,9 @@ Reference documentation is in the `reference/` directory adjacent to this SKILL.
 
 Reference material for this skill is vendored locally under `skills/videodb/reference/`.
 Use the local copies above instead of following external repository links at runtime.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

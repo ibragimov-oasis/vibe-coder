@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-cc-connect
+---
+
 # ACP 适配层设计（草案）
 
 本文描述在 cc-connect 中增加 **Agent Client Protocol（ACP）** 适配的可行方案，目标是让 **已实现 ACP Agent 端** 的上游进程（见 [官方 Agents 列表](https://agentclientprotocol.com/get-started/agents)）能通过 **统一协议**接入现有 `core.Engine`，减少为每个 CLI 单独维护解析逻辑的成本。
@@ -81,3 +88,10 @@
 ---
 
 *Status: design draft — 实现跟踪可在本文件追加「Implementation log」小节或单独 tasks JSON。*
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/cc-connect]] — CC-Connect
+- [[000 - Map of Maps]] — Map of Maps
+

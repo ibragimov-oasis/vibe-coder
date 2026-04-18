@@ -1,5 +1,9 @@
 ---
 description: 分析一个草稿提示，输出一个经过优化、富含ECC的版本，准备粘贴并运行。不执行任务——仅输出咨询分析。
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
 ---
 
 # /prompt-optimize
@@ -35,3 +39,9 @@ description: 分析一个草稿提示，输出一个经过优化、富含ECC的�
 ## 用户输入
 
 $ARGUMENTS
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

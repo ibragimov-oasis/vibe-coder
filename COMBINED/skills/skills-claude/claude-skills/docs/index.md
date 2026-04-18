@@ -4,6 +4,10 @@ description: "205 production-ready Claude Code skills and agent plugins for 11 A
 hide:
   - toc
   - edit
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
 ---
 
 <style>
@@ -285,3 +289,9 @@ hide:
 
 [Full Install Guide](getting-started.md){ .md-button .md-button--primary }
 [Multi-Tool Setup](integrations.md){ .md-button }
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

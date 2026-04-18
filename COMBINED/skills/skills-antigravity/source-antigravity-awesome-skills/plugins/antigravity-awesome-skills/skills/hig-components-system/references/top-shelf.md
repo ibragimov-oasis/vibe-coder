@@ -28,7 +28,11 @@ The system defines several layout templates that you can use to give people a co
 
 **If you don’t provide the recommended full-screen content, supply at least one static image as a fallback.** The system displays a static image when your app is in the Dock and in focus and full-screen content is unavailable. tvOS flips and blurs the image, ensuring that it fits into a width of 1920 pixels at the 16:9 aspect ratio. Use the following values for guidance.
 
-Image size  
+Image size
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
 ---  
 2320x720 pt (2320x720 px @1x, 4640x1440 px @2x)  
   
@@ -132,4 +136,9 @@ Unfocused size| 1740x560 pt (1740x560 px @1x, 3480x1120 px @2x)
 #### [Videos](https://developer.apple.com/design/human-interface-guidelines/top-shelf#Videos)
 
 [![](https://devimages-cdn.apple.com/wwdc-services/images/48/21CB7C2D-31A3-4DE5-A0EE-58FE214031F0/2713_wide_250x141_1x.jpg) Mastering the Living Room With tvOS ](https://developer.apple.com/videos/play/wwdc2019/211)
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
 

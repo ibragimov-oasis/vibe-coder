@@ -16,6 +16,9 @@ capabilities:
   - Swarm-based review orchestration
   - Intelligent comment generation
   - Quality gate enforcement
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
 ---
 
 # GitHub Code Review Skill

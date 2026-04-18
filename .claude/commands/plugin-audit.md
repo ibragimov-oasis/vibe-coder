@@ -1,5 +1,9 @@
 ---
 description: Run the full 8-phase plugin audit pipeline on a skill directory.
+tags:
+  - domain/skills
+  - artifact/command
+  - source/claude-commands
 ---
 
 Run the comprehensive plugin audit pipeline on the skill at `$ARGUMENTS`. If no argument provided, ask the user for the skill path.
@@ -151,3 +155,9 @@ Present all results in a structured summary:
 - All phases pass → **PASS**
 - Only warnings → **PASS WITH WARNINGS**
 - Any blocker (structure <75, quality <60, script FAIL, security CRITICAL/HIGH, invalid plugin.json) → **FAIL**
+
+## 🔗 Связи
+
+- [[MOC - System]] — System commands
+- [[MOC - Skills]] — Skills library
+

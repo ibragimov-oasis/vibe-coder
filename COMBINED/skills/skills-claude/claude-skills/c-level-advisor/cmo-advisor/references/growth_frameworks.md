@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # Growth Frameworks Reference
 
 Playbooks for PLG, sales-led, community-led, and hybrid growth models. Includes growth loops, funnel design, and guidance on when and how to switch models.
@@ -454,3 +461,9 @@ Once the new model proves its unit economics:
 | Works for ACV > $50K | Only with SLG assist | Yes | Yes |
 | Works for ACV < $5K | Yes | No | Only with PLG |
 | Defensibility once established | High | Low | Very high |
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

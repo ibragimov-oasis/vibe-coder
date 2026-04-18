@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/seo
+  - artifact/doc
+  - source/skills-seo
+---
+
 # MCP Tools Reference: @ycse/nanobanana-mcp
 
 > Package: `@ycse/nanobanana-mcp`
@@ -113,3 +120,9 @@ Some newer Gemini API features depend on the MCP package version of `@ycse/nanob
 | All 14 aspect ratios | Available | Via `set_aspect_ratio` |
 
 If a feature is not yet supported by the MCP package, you can still use it via direct API calls with `curl` or the Google AI SDK.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-seo]] — Category: skills-seo
+

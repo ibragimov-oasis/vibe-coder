@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # Async Python Patterns Implementation Playbook
 
 This file contains detailed patterns, checklists, and code samples referenced by the skill.
@@ -676,3 +683,9 @@ async def test_with_timeout():
 8. **Use semaphores** for rate limiting
 9. **Handle task cancellation** properly
 10. **Test async code** with pytest-asyncio
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

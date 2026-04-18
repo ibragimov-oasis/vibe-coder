@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-copilot
+---
+
 # Module 8: Configuration
 
 ## Key files
@@ -32,3 +39,9 @@
 error, warn, info, debug, trace (`COPILOT_LOG_LEVEL=debug copilot`)
 
 Use debug/trace for: MCP connection issues, tool failures, unexpected behavior, bug reports
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-copilot]] — Category: skills-copilot
+

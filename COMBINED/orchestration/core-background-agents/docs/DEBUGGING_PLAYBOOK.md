@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-background-agents
+---
+
 # Debugging Playbook
 
 Reference for querying structured logs across all Open-Inspect services.
@@ -394,3 +401,10 @@ Body content is omitted unless explicitly whitelisted and truncated.
 
 Set `LOG_LEVEL` environment variable per service to control verbosity. Default is `info`. Use
 `debug` in staging, `info` or `warn` in production.
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-background-agents]] — core-background-agents
+- [[MOC - Skills]] — Skills library
+

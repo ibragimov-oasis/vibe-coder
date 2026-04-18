@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-squad
+---
+
 # Plugin Marketplace Guide
 
 > ⚠️ **Experimental** — Squad is alpha software. APIs, commands, and behavior may change between releases.
@@ -428,3 +435,10 @@ You control the merge.
 - [Skills System](./skills.md) — how plugins encode reusable knowledge
 - [Your Team](../concepts/your-team.md) — team member management and onboarding
 - [Memory & Knowledge](../concepts/memory-and-knowledge.md) — decisions and shared conventions
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/squad]] — Squad
+- [[000 - Map of Maps]] — Map of Maps
+

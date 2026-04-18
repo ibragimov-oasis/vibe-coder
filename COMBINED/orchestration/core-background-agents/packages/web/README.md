@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-background-agents
+---
+
 # Open-Inspect Web Client
 
 Next.js web application for interacting with Open-Inspect coding sessions.
@@ -165,3 +172,9 @@ Uses React state + hooks for simplicity. For larger apps, consider:
 - Zustand for global state
 - React Query for server state
 - Jotai for atoms
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-background-agents]] — core-background-agents
+

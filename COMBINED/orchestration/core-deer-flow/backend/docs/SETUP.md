@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-deer-flow
+---
+
 # Setup Guide
 
 Quick setup instructions for DeerFlow.
@@ -90,3 +97,10 @@ chmod 600 ../config.yaml  # Protect sensitive configuration
 
 - [Configuration Guide](CONFIGURATION.md) - Detailed configuration options
 - [Architecture Overview](../CLAUDE.md) - System architecture
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-deer-flow]] — core-deer-flow
+- [[MOC - Skills]] — Skills library
+

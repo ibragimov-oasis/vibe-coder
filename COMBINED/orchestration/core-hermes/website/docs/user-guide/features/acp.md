@@ -2,6 +2,10 @@
 sidebar_position: 11
 title: "ACP Editor Integration"
 description: "Use Hermes Agent inside ACP-compatible editors such as VS Code, Zed, and JetBrains"
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-hermes
 ---
 
 # ACP Editor Integration
@@ -195,3 +199,10 @@ or by editing `~/.hermes/.env`.
 - [ACP Internals](../../developer-guide/acp-internals.md)
 - [Provider Runtime Resolution](../../developer-guide/provider-runtime.md)
 - [Tools Runtime](../../developer-guide/tools-runtime.md)
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/hermes]] — Hermes
+- [[000 - Map of Maps]] — Map of Maps
+

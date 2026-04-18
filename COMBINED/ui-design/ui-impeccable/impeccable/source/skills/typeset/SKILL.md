@@ -3,6 +3,10 @@ name: typeset
 description: "Improves typography by fixing font choices, hierarchy, sizing, weight, and readability so text feels intentional. Use when the user mentions fonts, type, readability, text hierarchy, sizing looks off, or wants more polished, intentional typography."
 argument-hint: "[target]"
 user-invocable: true
+tags:
+  - domain/ui
+  - artifact/ui-component
+  - source/ui-design
 ---
 
 Assess and improve typography that feels generic, inconsistent, or poorly structured — turning default-looking text into intentional, well-crafted type.
@@ -113,3 +117,9 @@ Build a clear type scale:
 - **Accessibility**: Does text meet WCAG contrast ratios? Is it zoomable to 200%?
 
 Remember: Typography is the foundation of interface design — it carries the majority of information. Getting it right is the highest-leverage improvement you can make.
+
+## 🔗 Связи
+
+- [[MOC - UI Design]] — ui-design
+- [[000 - Map of Maps]] — Map of Maps
+

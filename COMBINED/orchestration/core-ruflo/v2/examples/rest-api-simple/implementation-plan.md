@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # Simple REST API Implementation Plan
 
 ## Project Overview
@@ -233,3 +240,10 @@ npx claude-flow monitor
 - `NODE_ENV`: Environment (development/production)
 
 No other configuration needed!
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

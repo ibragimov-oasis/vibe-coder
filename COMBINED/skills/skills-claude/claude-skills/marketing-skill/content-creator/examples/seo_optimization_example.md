@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # SEO Optimization Example
 
 Demonstration of seo_optimizer.py input and output.
@@ -257,3 +264,9 @@ OVERALL SEO SCORE: 87/100 (Good)
 ✓ Internal links: 2
 ✓ External links: 1 (authoritative source)
 ```
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

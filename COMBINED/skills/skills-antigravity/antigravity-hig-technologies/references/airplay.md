@@ -66,7 +66,11 @@ Use a custom color when other technology icons also appear in the same color.
 
 **Always use _AirPlay_ as a noun.**
 
-| Example text  
+| Example text
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
 ---|---  
 ![A checkmark in a circle to indicate correct usage.](https://docs-assets.developer.apple.com/published/88662da92338267bb64cd2275c84e484/checkmark%402x.png)| Use AirPlay to listen on your speaker  
 ![An X in a circle to indicate incorrect usage.](https://docs-assets.developer.apple.com/published/209f6f0fc8ad99d9bf59e12d82d06584/crossout%402x.png)| AirPlay to your speaker  
@@ -121,5 +125,10 @@ Use a custom color when other technology icons also appear in the same color.
 
 Date| Changes  
 ---|---  
-May 2, 2023| Consolidated guidance into one page.  
-  
+May 2, 2023| Consolidated guidance into one page.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

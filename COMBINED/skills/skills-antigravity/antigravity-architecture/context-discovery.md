@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # Context Discovery
 
 > Before suggesting any architecture, gather context.
@@ -41,3 +48,9 @@
 │ Example      │ Next.js API   │ NestJS       │ Microservices│
 └─────────────────────────────────────────────────────────────┘
 ```
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-gsd
+---
+
 # Milestone Archive Template
 
 This template is used by the complete-milestone workflow to create archive files in `.planning/milestones/`.
@@ -121,3 +128,10 @@ _For current project status, see .planning/ROADMAP.md_
 - Update PROJECT.md to brownfield format with Current State section
 - Continue phase numbering in next milestone (never restart at 01)
   </guidelines>
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-gsd]] — core-gsd
+- [[MOC - Skills]] — Skills library
+

@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # Jira Automation Reference
 
 Comprehensive guide to Jira automation rules: triggers, conditions, actions, smart values, and production-ready recipes.
@@ -294,3 +301,9 @@ Action:
 8. **Use branches (if/else)** over separate rules — reduces rule count, easier to maintain
 9. **Disable before deleting** — observe for a week to ensure no side effects
 10. **Version your automation** — export rules as JSON backup before major changes
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

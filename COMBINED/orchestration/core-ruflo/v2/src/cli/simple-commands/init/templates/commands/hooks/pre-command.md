@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # hook pre-command
 
 Execute pre-command validations and safety checks before running shell commands.
@@ -111,3 +118,10 @@ Returns JSON with:
 - `Bash` - Command execution tool
 - `terminal execute` - Terminal operations
 - `security scan` - Security validation
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

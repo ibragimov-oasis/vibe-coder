@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-taskmaster
+---
+
 # 🔌 New Integration
 
 ## What tool/IDE is being integrated?
@@ -51,3 +58,10 @@ task-master rules add [name]
 - [ ] Integration stability verified
 - [ ] Documentation comprehensive
 - [ ] Examples working
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-taskmaster]] — core-taskmaster
+- [[MOC - Skills]] — Skills library
+

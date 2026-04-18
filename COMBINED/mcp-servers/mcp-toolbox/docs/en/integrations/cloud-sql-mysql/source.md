@@ -6,6 +6,10 @@ weight: 1
 description: >
   Cloud SQL for MySQL is a fully-managed database service for MySQL.
 no_list: true
+tags:
+  - domain/mcp
+  - artifact/mcp-server
+  - source/mcp-servers
 ---
 
 ## About
@@ -139,3 +143,9 @@ instead of hardcoding your secrets into the configuration file.
 | user      |  string  |    false     | Name of the MySQL user to connect as (e.g "my-mysql-user"). Defaults to IAM auth using [ADC][adc] email if unspecified. |
 | password  |  string  |    false     | Password of the MySQL user (e.g. "my-password"). Defaults to attempting IAM authentication if unspecified.              |
 | ipType    |  string  |    false     | IP Type of the Cloud SQL instance, must be either `public`,  `private`, or `psc`. Default: `public`.                    |
+
+## 🔗 Связи
+
+- [[MOC - MCP Servers]] — mcp-servers
+- [[000 - Map of Maps]] — Map of Maps
+

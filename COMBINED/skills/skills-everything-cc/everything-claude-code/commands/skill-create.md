@@ -2,6 +2,10 @@
 name: skill-create
 description: Analyze local git history to extract coding patterns and generate SKILL.md files. Local version of the Skill Creator GitHub App.
 allowed_tools: ["Bash", "Read", "Write", "Grep", "Glob"]
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
 ---
 
 # /skill-create - Local Skill Generation
@@ -172,3 +176,9 @@ For advanced features (10k+ commits, team sharing, auto-PRs), use the [Skill Cre
 ---
 
 *Part of [Everything Claude Code](https://github.com/affaan-m/everything-claude-code)*
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

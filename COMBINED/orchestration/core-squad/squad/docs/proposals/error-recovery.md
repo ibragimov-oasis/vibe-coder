@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-squad
+---
+
 # Proposal: Error Recovery Skill
 
 **Issue:** bradygaster/squad#623
@@ -67,3 +74,10 @@ plus prompt templates for each pattern that agents can use in their reasoning.
 ## References
 
 - Issue: bradygaster/squad#623
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/squad]] — Squad
+- [[000 - Map of Maps]] — Map of Maps
+

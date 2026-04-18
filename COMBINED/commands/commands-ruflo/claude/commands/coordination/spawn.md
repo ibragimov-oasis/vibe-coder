@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/command
+  - source/commands
+---
+
 # Create Cognitive Patterns
 
 ## 🎯 Key Principle
@@ -43,3 +50,9 @@ These patterns guide how Claude Code approaches different aspects of your task.
 - Main documentation: /claude.md
 - Other commands in this category
 - Workflow examples in /workflows/
+
+## 🔗 Связи
+
+- [[MOC - System]] — commands
+- [[000 - Map of Maps]] — Map of Maps
+

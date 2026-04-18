@@ -1,6 +1,10 @@
 ---
 name: refactor-method-complexity-reduce
 description: 'Refactor given method `${input:methodName}` to reduce its cognitive complexity to `${input:complexityThreshold}` or below, by extracting helper methods.'
+tags:
+  - domain/agents
+  - artifact/skill
+  - source/skills-copilot
 ---
 
 # Refactor Method to Reduce Cognitive Complexity
@@ -96,3 +100,10 @@ The refactored method should:
 - [ ] Cognitive complexity is at or below the target threshold of `${input:complexityThreshold}`
 - [ ] All original functionality is preserved
 - [ ] Code follows project conventions and standards
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-copilot]] — Category: skills-copilot
+- [[MOC - Agents]] — Copilot agents
+

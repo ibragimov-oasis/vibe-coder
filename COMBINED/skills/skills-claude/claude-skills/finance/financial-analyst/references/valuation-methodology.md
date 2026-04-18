@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # Valuation Methodology Guide
 
 Comprehensive reference for business valuation approaches including DCF analysis, comparable company analysis, and precedent transactions.
@@ -244,3 +251,9 @@ Always present results as a range, not a single point estimate.
 6. **Stale comparables** - Market conditions change; update regularly
 7. **Confirmation bias** - Don't work backward from a desired conclusion
 8. **Ignoring dilution** - Use fully diluted shares (treasury stock method for options)
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

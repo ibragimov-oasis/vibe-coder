@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # Common API Anti-Patterns and How to Avoid Them
 
 ## Introduction
@@ -678,3 +685,9 @@ Avoiding these anti-patterns requires:
 - Proper tooling and automation
 
 Remember: A well-designed API is an asset that grows in value over time, while a poorly designed API becomes a liability that hampers development and adoption.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

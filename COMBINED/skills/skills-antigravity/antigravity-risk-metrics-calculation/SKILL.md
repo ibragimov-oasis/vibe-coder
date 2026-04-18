@@ -4,6 +4,10 @@ description: "Calculate portfolio risk metrics including VaR, CVaR, Sharpe, Sort
 risk: safe
 source: community
 date_added: "2026-02-27"
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 # Risk Metrics Calculation
@@ -34,3 +38,9 @@ Comprehensive risk measurement toolkit for portfolio management, including Value
 ## Resources
 
 - `resources/implementation-playbook.md` for detailed patterns and examples.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

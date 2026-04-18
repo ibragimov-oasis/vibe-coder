@@ -6,6 +6,10 @@ compatibility: Requires git. The project must be a git repository. Requires term
 metadata:
   author: luiscantero
   inspired-by: https://github.com/karpathy/autoresearch
+tags:
+  - domain/agents
+  - artifact/skill
+  - source/skills-copilot
 ---
 
 # Autoresearch: Autonomous Iterative Experimentation
@@ -273,3 +277,10 @@ experiment	commit	metric	status	description
 3. **Stay autonomous**: Never stop to ask. Think harder if stuck.
 4. **Keep it simple**: Complexity is a cost. Weigh it against gains.
 5. **Log everything**: The TSV is the research journal.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-copilot]] — Category: skills-copilot
+- [[MOC - Agents]] — Copilot agents
+

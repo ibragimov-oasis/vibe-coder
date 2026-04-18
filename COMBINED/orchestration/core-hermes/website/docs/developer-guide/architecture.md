@@ -2,6 +2,10 @@
 sidebar_position: 1
 title: "Architecture"
 description: "Hermes Agent internals — major subsystems, execution paths, and where to read next"
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-hermes
 ---
 
 # Architecture
@@ -150,3 +154,10 @@ The older mental model of Hermes as “one OpenAI-compatible chat loop plus some
 - prompt-caching and compression logic with lineage-aware persistence
 
 Use this page as the map, then dive into subsystem-specific docs for the real implementation details.
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/hermes]] — Hermes
+- [[000 - Map of Maps]] — Map of Maps
+

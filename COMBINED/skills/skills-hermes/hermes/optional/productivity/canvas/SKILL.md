@@ -9,6 +9,9 @@ prerequisites:
 metadata:
   hermes:
     tags: [Canvas, LMS, Education, Courses, Assignments]
+  - domain/skills
+  - artifact/skill
+  - source/skills-hermes
 ---
 
 # Canvas LMS — Course & Assignment Access
@@ -95,3 +98,9 @@ Canvas uses `Link` headers for pagination. The Python script handles pagination 
 | Empty course list | Try `--enrollment-state active` or omit the flag to see all states |
 | Wrong institution | Verify `CANVAS_BASE_URL` matches the URL in your browser |
 | Timeout errors | Check network connectivity to your Canvas instance |
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-hermes]] — Category: skills-hermes
+

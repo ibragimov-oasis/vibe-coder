@@ -3,6 +3,9 @@ title: Enable pg_stat_statements for Query Analysis
 impact: LOW-MEDIUM
 impactDescription: Identify top resource-consuming queries
 tags: pg-stat-statements, monitoring, statistics, performance
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
 ---
 
 ## Enable pg_stat_statements for Query Analysis
@@ -53,3 +56,9 @@ order by mean_exec_time desc;
 ```
 
 Reference: [pg_stat_statements](https://supabase.com/docs/guides/database/extensions/pg_stat_statements)
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

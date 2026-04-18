@@ -1,6 +1,10 @@
 ---
 name: refly
 description: "Base skill for Refly ecosystem: creates, discovers, and runs domain-specific skills bound to workflows. Routes user intent to matching domain skills via symlinks, delegates execution to Refly backend. Use when user asks to: create skills, run workflows, automate multi-step tasks, or manage pipelines. Triggers: refly, skill, workflow, run skill, create skill, automation, pipeline. Requires: @refly/cli installed and authenticated."
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-refly
 ---
 
 # Refly
@@ -163,3 +167,10 @@ User intent -> match domain skill (name/trigger) in `~/.claude/skills/`
 - `rules/node.md` - Node command reference
 - `rules/file.md` - File command reference
 - `rules/skill.md` - Customized Skill command reference
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/refly]] — Refly
+- [[000 - Map of Maps]] — Map of Maps
+

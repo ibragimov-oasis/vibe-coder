@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-copilot
+---
+
 # CodeQL Build Modes for Compiled Languages
 
 Detailed reference for how CodeQL handles compiled language analysis, including build modes, autobuild behavior, runner requirements, and hardware specifications.
@@ -282,3 +289,9 @@ jobs:
 | `true` / `full` / `on` | Restore and store caches |
 
 Default setup on GitHub-hosted runners has caching enabled automatically.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-copilot]] — Category: skills-copilot
+

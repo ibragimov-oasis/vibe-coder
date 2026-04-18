@@ -2,6 +2,9 @@
 name: 'Session Auto-Commit'
 description: 'Automatically commits and pushes changes when a Copilot coding agent session ends'
 tags: ['automation', 'git', 'productivity']
+  - domain/agents
+  - artifact/agent
+  - source/by-interface/agents-copilot
 ---
 
 # Session Auto-Commit Hook
@@ -88,3 +91,9 @@ To temporarily disable auto-commits:
 - Failed pushes won't block session termination
 - Requires appropriate git credentials configured
 - Works with both Copilot coding agent and GitHub Copilot CLI
+
+## 🔗 Связи
+
+- [[MOC - Agents]] — Agent catalog
+- [[agents/agents-copilot]] — Interface: agents-copilot
+

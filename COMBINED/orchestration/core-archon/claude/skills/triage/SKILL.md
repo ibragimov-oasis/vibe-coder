@@ -9,6 +9,10 @@ disable-model-invocation: true
 context: fork
 agent: triage-agent
 allowed-tools: Bash(gh *), Read, Glob, Grep
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-archon
 ---
 
 # Triage GitHub Issues
@@ -85,3 +89,10 @@ Determine which issues to triage based on the arguments: **$ARGUMENTS**
 - **Check issue body** — titles alone aren't enough context
 - **Use the codebase** — if understanding a relationship requires seeing how modules connect, look
 - **When uncertain, note it** — flag ambiguous issues in the summary rather than guessing
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/archon]] — Archon
+- [[000 - Map of Maps]] — Map of Maps
+

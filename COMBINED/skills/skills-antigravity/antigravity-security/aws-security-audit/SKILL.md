@@ -6,6 +6,9 @@ risk: safe
 source: community
 tags: "[aws, security, audit, compliance, kiro-cli, security-assessment]"
 date_added: "2026-02-27"
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 # AWS Security Audit
@@ -367,3 +370,9 @@ kiro-cli chat "Generate a security audit report with aws-security-audit"
 - [AWS Security Best Practices](https://aws.amazon.com/security/best-practices/)
 - [CIS AWS Foundations Benchmark](https://www.cisecurity.org/benchmark/amazon_web_services)
 - [AWS Security Hub](https://aws.amazon.com/security-hub/)
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-gsd
+---
+
 <trigger>
 Use this workflow when:
 - Starting a new session on an existing project
@@ -324,3 +331,10 @@ Resume is complete when:
 - [ ] User knows exactly where project stands
 - [ ] Session continuity updated
       </success_criteria>
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-gsd]] — core-gsd
+- [[MOC - Skills]] — Skills library
+

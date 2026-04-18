@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-copilot
+---
+
 # DFRobot FIT0127 LCD Character Display Specification
 
 ## 1. Overview
@@ -206,3 +213,9 @@ R/W  Grounded (write-only)
 * <https://predictabledesigns.com/introduction-embedded-electronic-displays/>
 
 ---
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-copilot]] — Category: skills-copilot
+

@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/prompts
+  - artifact/prompt
+  - source/prompts-ai-systems
+---
+
 ## Notion Editor Backup Instructions
 
 Here's a comprehensive backup of key editor instructions, including JSON representation where applicable:
@@ -318,3 +325,9 @@ Review all custom formatting for consistency.
 Check proper implementation of page templates.
 
 Verify correct handling of multilingual content.
+
+## 🔗 Связи
+
+- [[MOC - Prompts]] — Prompt library
+- [[MOC - System]] — System documentation
+

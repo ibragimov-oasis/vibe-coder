@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # Google Workspace CLI Persona Profiles
 
 10 role-based bundles that scope recipes and commands to your daily workflow.
@@ -221,3 +228,9 @@
 3. Reply to open tickets
 4. Escalate via Chat for urgent issues
 5. Create follow-up tasks for pending items
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

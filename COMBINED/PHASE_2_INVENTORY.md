@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/combined-root
+---
+
 # PHASE 2 INVENTORY — Root Structure Analysis
 **Date:** April 2, 2026
 **Phase:** 1.1 — Root Structure Inventory
@@ -371,3 +378,8 @@ According to repository memory and INDEX_MOVEMENTS.json:
 ---
 
 **END OF PHASE 1.1 INVENTORY REPORT**
+
+## 🔗 Связи
+
+- [[000 - Map of Maps]] — Map of Maps
+

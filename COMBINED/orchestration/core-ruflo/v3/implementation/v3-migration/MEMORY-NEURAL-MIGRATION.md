@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # Memory & Neural System Migration Guide
 
 > Migrating from V2 Memory/Neural to V3 Enhanced Systems
@@ -469,3 +476,10 @@ await sona.train(newTask);
 - [ ] Migrate training code to trajectories
 - [ ] Update pattern retrieval to ReasoningBank
 - [ ] Enable LoRA/EWC if needed
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

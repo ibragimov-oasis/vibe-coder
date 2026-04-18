@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/REPO_DOCS
+---
+
 ─────────────────────────────────────────────────────────
 
 # Awesome Obsidian — How It Works
@@ -52,3 +59,9 @@ Templater + QuickAdd = auto-trigger note creation from AI tasks.
 - [x] Routing map complete
 
 ─────────────────────────────────────────────────────────
+
+## 🔗 Связи
+
+- [[000 - Map of Maps]] — REPO_DOCS
+- [[000 - Map of Maps]] — Map of Maps
+

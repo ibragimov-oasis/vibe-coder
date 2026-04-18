@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-praisonai
+---
+
 # PraisonAI Agents - Benchmark Results
 
 **Generated:** 2025-12-18 13:23:43
@@ -20,3 +27,10 @@
 cd praisonai-agents
 python benchmarks/simple_benchmark.py
 ```
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/praisonai]] — PraisonAI
+- [[000 - Map of Maps]] — Map of Maps
+

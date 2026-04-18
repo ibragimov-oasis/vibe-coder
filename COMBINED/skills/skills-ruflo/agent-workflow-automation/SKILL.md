@@ -1,6 +1,10 @@
 ---
 name: agent-workflow-automation
 description: Agent skill for workflow-automation - invoke with $agent-workflow-automation
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-ruflo
 ---
 
 ---
@@ -638,3 +642,9 @@ mcp__claude-flow__task_orchestrate {
 ```
 
 See also: [swarm-pr.md](.$swarm-pr.md), [swarm-issue.md](.$swarm-issue.md), [sync-coordinator.md](.$sync-coordinator.md)
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-ruflo]] — Category: skills-ruflo
+

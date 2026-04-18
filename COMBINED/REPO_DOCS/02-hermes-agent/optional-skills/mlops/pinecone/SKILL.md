@@ -358,4 +358,8 @@ index.delete(delete_all=True)
 - **Console**: https://app.pinecone.io
 - **Pricing**: https://www.pinecone.io/pricing
 
+## 🔗 Связи
+
+- [[000 - Map of Maps]] — REPO_DOCS
+- [[000 - Map of Maps]] — Map of Maps
 

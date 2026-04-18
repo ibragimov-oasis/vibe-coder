@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # Unsloth: Fast Fine-Tuning with Memory Optimization
 
 **Unsloth** is a fine-tuning library that provides ~2x faster training and ~60% less VRAM usage for LLM training. It's particularly useful when working with limited GPU memory or when speed is critical.
@@ -311,3 +318,9 @@ hf_jobs("uv", {
 - [LFM2.5 Guide](https://unsloth.ai/docs/models/tutorials/lfm2.5)
 - [Qwen3-VL Guide](https://unsloth.ai/docs/models/qwen3-vl-how-to-run-and-fine-tune)
 - [Unsloth GitHub](https://github.com/unslothai/unsloth)
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

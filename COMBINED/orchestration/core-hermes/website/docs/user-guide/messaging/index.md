@@ -2,6 +2,10 @@
 sidebar_position: 1
 title: "Messaging Gateway"
 description: "Chat with Hermes from Telegram, Discord, Slack, WhatsApp, Signal, SMS, Email, Home Assistant, Mattermost, Matrix, DingTalk, Webhooks, or any OpenAI-compatible frontend via the API server — architecture and setup overview"
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-hermes
 ---
 
 # Messaging Gateway
@@ -352,3 +356,10 @@ Each platform has its own toolset:
 - [WeCom Setup](wecom.md)
 - [Open WebUI + API Server](open-webui.md)
 - [Webhooks](webhooks.md)
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/hermes]] — Hermes
+- [[000 - Map of Maps]] — Map of Maps
+

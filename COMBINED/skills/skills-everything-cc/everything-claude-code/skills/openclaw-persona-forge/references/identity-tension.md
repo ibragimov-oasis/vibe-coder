@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
+---
+
 # Step 2：锻造身份张力
 
 基于用户选定的方向，构建完整的**身份张力结构**：
@@ -46,3 +53,9 @@
 - 一句话灵魂必须有画面感，读完能脑补出这只龙虾的样子
 - **世界观从前世经历推导**——不是空泛的人生哲学，而是"这个人经历了那些事之后会相信什么"
 - 展示后以创世神视角点评张力中最有趣的点，然后引导用户决定（参见 SKILL.md 对话语气指南）
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

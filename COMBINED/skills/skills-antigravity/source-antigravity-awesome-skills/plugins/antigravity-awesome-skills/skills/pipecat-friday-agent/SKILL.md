@@ -7,6 +7,9 @@ source: community
 date_added: "2026-03-10"
 tags: [pipecat, voice, gemini, openai, python]
 tools: [pipecat]
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 # Pipecat Friday Agent
@@ -77,3 +80,9 @@ Since Google's Gemini API has a different message format than OpenAI's standard 
 - `@voice-agents` - General principles of voice AI.
 - `@agent-tool-builder` - Add tools (Search, Lights, etc.) to your Friday agent.
 - `@llm-architect` - Optimizing the LLM layer.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

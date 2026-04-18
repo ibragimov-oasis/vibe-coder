@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # Common Pitfalls (Top 10)
 
 ## 1. waitForTimeout
@@ -135,3 +142,9 @@ test('should handle API error', async ({ page }) => {
   await expect(page.getByText(/error|try again/i)).toBeVisible();
 });
 ```
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

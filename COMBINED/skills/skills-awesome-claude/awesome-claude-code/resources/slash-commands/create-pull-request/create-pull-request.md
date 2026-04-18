@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-awesome-claude
+---
+
 # How to Create a Pull Request Using GitHub CLI
 
 This guide explains how to create pull requests using GitHub CLI in our project.
@@ -121,3 +128,9 @@ gh pr create --draft --title "feat(scope): Your title" --body-file pr-template.m
 - [PR Template](.github/pull_request_template.md)
 - [Conventional Commits](https://www.conventionalcommits.org/)
 - [GitHub CLI documentation](https://cli.github.com/manual/)
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-awesome-claude]] — Category: skills-awesome-claude
+

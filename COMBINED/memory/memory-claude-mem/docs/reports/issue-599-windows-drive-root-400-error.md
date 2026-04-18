@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/memory
+  - artifact/memory
+  - source/memory
+---
+
 # Technical Report: Issue #599 - Windows Drive Root 400 Error
 
 **Issue:** [#599](https://github.com/thedotmack/claude-mem/issues/599)
@@ -321,3 +328,9 @@ if (!projectName || projectName === '') {
 
 - [Node.js path.basename documentation](https://nodejs.org/api/path.html#pathbasenamepath-suffix)
 - [Windows file system path formats](https://docs.microsoft.com/en-us/windows/win32/fileio/naming-a-file)
+
+## 🔗 Связи
+
+- [[MOC - Memory]] — memory
+- [[000 - Map of Maps]] — Map of Maps
+

@@ -1,6 +1,10 @@
 ---
 name: agent-gossip-coordinator
 description: Agent skill for gossip-coordinator - invoke with $agent-gossip-coordinator
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-ruflo
 ---
 
 ---
@@ -66,3 +70,9 @@ Coordinates gossip-based consensus protocols for scalable eventually consistent 
 - Coordinate with CRDT Synchronizer for conflict-free data types
 - Integrate with Quorum Manager for membership coordination
 - Synchronize with Security Manager for secure peer communication
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-ruflo]] — Category: skills-ruflo
+

@@ -1,6 +1,10 @@
 ---
 name: agent-benchmark-suite
 description: Agent skill for benchmark-suite - invoke with $agent-benchmark-suite
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-ruflo
 ---
 
 ---
@@ -668,3 +672,9 @@ const standardBenchmarks = {
 ```
 
 This Benchmark Suite agent provides comprehensive automated performance testing, regression detection, and validation capabilities to ensure optimal swarm performance and prevent performance degradation.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-ruflo]] — Category: skills-ruflo
+

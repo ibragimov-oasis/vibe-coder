@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-gsd
+---
+
 # コンテキストウィンドウモニター
 
 ツール使用後に実行されるフック（Claude Code では `PostToolUse`、Gemini CLI では `AfterTool`）で、コンテキストウィンドウの使用量が高くなった際にエージェントに警告します。
@@ -113,3 +120,10 @@ Gemini CLI（`~/.gemini/settings.json`）の場合、`PostToolUse` の代わり�
 - ツール実行をブロックしない — モニターの故障がエージェントのワークフローを壊してはならない
 - 古いメトリクス（60秒以上前）は無視
 - ブリッジファイルが存在しない場合も正常に処理（サブエージェント、新規セッション）
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-gsd]] — core-gsd
+- [[MOC - Skills]] — Skills library
+

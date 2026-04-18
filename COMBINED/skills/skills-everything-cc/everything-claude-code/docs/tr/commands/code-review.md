@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
+---
+
 # Code Review
 
 Commit edilmemiş değişikliklerin kapsamlı güvenlik ve kalite incelemesi:
@@ -38,3 +45,9 @@ Commit edilmemiş değişikliklerin kapsamlı güvenlik ve kalite incelemesi:
 4. KRİTİK veya YÜKSEK sorunlar bulunursa commit'i engelle
 
 Güvenlik açıklıkları olan kodu asla onaylamayın!
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

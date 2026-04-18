@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/seo
+  - artifact/doc
+  - source/skills-seo
+---
+
 # Repurpose Command
 
 Take a published or drafted article and generate platform-specific versions for distribution across multiple content surfaces, maximizing AI citation potential.
@@ -169,3 +176,9 @@ repurposed/
 - @context/brand-voice.md - Maintain brand voice in LinkedIn and Medium
 - @context/reddit-strategy.md - Reddit engagement rules
 - @context/ai-citation-targets.md - Platform priority reference
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-seo]] — Category: skills-seo
+

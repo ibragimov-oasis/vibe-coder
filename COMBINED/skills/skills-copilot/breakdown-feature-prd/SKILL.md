@@ -1,6 +1,10 @@
 ---
 name: breakdown-feature-prd
 description: 'Prompt for creating Product Requirements Documents (PRDs) for new features, based on an Epic.'
+tags:
+  - domain/agents
+  - artifact/skill
+  - source/skills-copilot
 ---
 
 # Feature PRD Prompt
@@ -59,3 +63,10 @@ The output should be a complete PRD in Markdown format, saved to `/docs/ways-of-
 - **Epic:** [Link to the parent Epic documents]
 - **Feature Idea:** [A high-level description of the feature request from the user]
 - **Target Users:** [Optional: Any initial thoughts on who this is for]
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-copilot]] — Category: skills-copilot
+- [[MOC - Agents]] — Copilot agents
+

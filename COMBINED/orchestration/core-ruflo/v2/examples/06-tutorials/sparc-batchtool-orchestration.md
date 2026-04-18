@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # SPARC BatchTool Orchestration Guide
 
 ## Overview
@@ -230,3 +237,10 @@ batchtool orchestrate --dry-run ...
 # Export orchestration plan
 batchtool export --format json --output plan.json
 ```
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

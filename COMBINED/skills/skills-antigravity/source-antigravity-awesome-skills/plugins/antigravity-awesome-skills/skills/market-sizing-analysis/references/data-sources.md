@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # Market Sizing Data Sources
 
 Curated list of credible sources for market research and sizing analysis.
@@ -358,3 +365,9 @@ Note: Includes all email marketing software revenue globally
 - Caveat data quality
 
 Better to have a defensible estimate with clear limitations than no data at all.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

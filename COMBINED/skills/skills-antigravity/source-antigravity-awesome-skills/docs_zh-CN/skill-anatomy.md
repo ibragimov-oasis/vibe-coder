@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # 技能结构指南
 
 ## 什么是技能？
@@ -530,3 +537,9 @@ npm run index
 这个结构指南确保了技能的一致性、可维护性和高质量。遵循这些指导方针，您可以创建出对AI开发社区有价值的实用技能。
 
 如果您有任何疑问或需要指导，请随时联系维护团队。🚀
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # Agent Swarm Benchmarking Tool - Testing Strategy
 
 ## 🧪 Test-Driven Development (TDD) Approach
@@ -396,3 +403,10 @@ bandit -r tests/
 ```
 
 This comprehensive testing strategy ensures robust, reliable, and maintainable code through systematic test-driven development practices.
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

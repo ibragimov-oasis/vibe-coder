@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/REPO_DOCS
+---
+
 ─────────────────────────────────────────────────────────
 
 # Lightpanda Browser — How It Works
@@ -97,3 +104,9 @@ mv VISIBLE_gitignore .gitignore
 - [x] Added to MASTER_INDEX.md
 
 ─────────────────────────────────────────────────────────
+
+## 🔗 Связи
+
+- [[000 - Map of Maps]] — REPO_DOCS
+- [[000 - Map of Maps]] — Map of Maps
+

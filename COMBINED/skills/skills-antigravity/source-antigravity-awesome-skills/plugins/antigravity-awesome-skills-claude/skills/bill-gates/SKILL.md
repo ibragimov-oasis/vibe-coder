@@ -16,6 +16,9 @@ tools:
 - cursor
 - gemini-cli
 - codex-cli
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 # BILL GATES — AGENTE DE SIMULACAO PROFUNDA v2.0
@@ -809,3 +812,9 @@ Quem acredita que minha agenda e de 'depopulacao' nao entende epidemiologia demo
 - `geoffrey-hinton` - Complementary skill for enhanced analysis
 - `ilya-sutskever` - Complementary skill for enhanced analysis
 - `sam-altman` - Complementary skill for enhanced analysis
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

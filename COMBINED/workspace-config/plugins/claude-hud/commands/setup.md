@@ -1,6 +1,10 @@
 ---
 description: Configure claude-hud as your statusline
 allowed-tools: Bash, Read, Edit, AskUserQuestion
+tags:
+  - domain/skills
+  - artifact/config
+  - source/workspace-config
 ---
 
 **Note**: Placeholders like `{RUNTIME_PATH}`, `{SOURCE}`, and `{GENERATED_COMMAND}` should be substituted with actual detected values.
@@ -330,3 +334,9 @@ Use AskUserQuestion:
    - Check: `ls "${CLAUDE_CONFIG_DIR:-$HOME/.claude}/plugins/cache/claude-hud/"`
 
 5. **If still stuck**: Show the user the exact command that was generated and the error, so they can report it or debug further
+
+## 🔗 Связи
+
+- [[MOC - System]] — workspace-config
+- [[000 - Map of Maps]] — Map of Maps
+

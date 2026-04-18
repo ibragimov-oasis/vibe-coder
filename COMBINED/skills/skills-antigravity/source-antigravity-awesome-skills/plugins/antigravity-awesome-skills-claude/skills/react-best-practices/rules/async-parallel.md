@@ -3,6 +3,9 @@ title: Promise.all() for Independent Operations
 impact: CRITICAL
 impactDescription: 2-10× improvement
 tags: async, parallelization, promises, waterfalls
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
 ---
 
 ## Promise.all() for Independent Operations
@@ -26,3 +29,9 @@ const [user, posts, comments] = await Promise.all([
   fetchComments()
 ])
 ```
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

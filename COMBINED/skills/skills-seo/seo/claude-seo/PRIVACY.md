@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/seo
+  - artifact/doc
+  - source/skills-seo
+---
+
 # Privacy
 
 ## Data Handling
@@ -41,3 +48,9 @@ Google API usage is governed by [Google's Privacy Policy](https://policies.googl
 - API keys and OAuth tokens are stored locally in `~/.config/claude-seo/` or environment variables
 - Credentials are never committed to the repository (blocked by `.gitignore`)
 - OAuth tokens use refresh tokens and never store client secrets in token files
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-seo]] — Category: skills-seo
+

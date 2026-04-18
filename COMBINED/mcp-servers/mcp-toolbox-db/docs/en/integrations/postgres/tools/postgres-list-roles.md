@@ -4,6 +4,10 @@ type: docs
 weight: 1
 description: >
  The "postgres-list-roles" tool lists user-created roles in a Postgres database.
+tags:
+  - domain/mcp
+  - artifact/mcp-server
+  - source/mcp-servers
 ---
 
 ## About
@@ -65,3 +69,9 @@ The response is a json array with the following elements:
 | type        |  string  |     true     | Must be "postgres-list-roles".                     |
 | source      |  string  |     true     | Name of the source the SQL should execute on.        |
 | description |  string  |    false     | Description of the tool that is passed to the agent. |
+
+## 🔗 Связи
+
+- [[MOC - MCP Servers]] — mcp-servers
+- [[000 - Map of Maps]] — Map of Maps
+

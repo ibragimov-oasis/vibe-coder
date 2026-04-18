@@ -19,6 +19,10 @@ safe-outputs:
     labels: [automated-update, copilot-updates]
     title-prefix: "[bot] "
     base-branch: staged
+tags:
+  - domain/agents
+  - artifact/agent
+  - source/by-interface/agents-copilot
 ---
 
 # Check for Awesome GitHub Copilot Updates
@@ -84,3 +88,9 @@ Create a pull request with your changes, using the `staged` branch as the base b
 3. Links to the source announcements
 
 The PR should target the `staged` branch and include the labels `automated-update` and `copilot-updates`.
+
+## 🔗 Связи
+
+- [[MOC - Agents]] — Agent catalog
+- [[agents/agents-copilot]] — Interface: agents-copilot
+

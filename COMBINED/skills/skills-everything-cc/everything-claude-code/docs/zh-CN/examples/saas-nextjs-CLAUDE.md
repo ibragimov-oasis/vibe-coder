@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
+---
+
 # SaaS 应用程序 — 项目 CLAUDE.md
 
 > 一个 Next.js + Supabase + Stripe SaaS 应用程序的真实示例。
@@ -164,3 +171,9 @@ NEXT_PUBLIC_APP_URL=http://localhost:3000
 * 从 `main` 创建功能分支，需要 PR
 * CI 运行：代码检查、类型检查、单元测试、端到端测试
 * 部署：在 PR 上部署到 Vercel 预览环境，在合并到 `main` 时部署到生产环境
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

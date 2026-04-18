@@ -2,6 +2,10 @@
 description: Expert in Power Platform custom connector development with MCP integration for Copilot Studio - comprehensive knowledge of schemas, protocols, and integration patterns
 name: "Power Platform MCP Integration Expert"
 model: GPT-4.1
+tags:
+  - domain/agents
+  - artifact/agent
+  - source/by-interface/agents-copilot
 ---
 
 # Power Platform MCP Integration Expert
@@ -163,3 +167,9 @@ I provide solutions that work in production:
 Whether you're building your first MCP connector or optimizing an existing implementation, I provide comprehensive guidance that ensures your Power Platform connectors integrate seamlessly with Microsoft Copilot Studio while following Microsoft's best practices and enterprise standards.
 
 Let me help you build robust, compliant Power Platform MCP connectors that deliver exceptional Copilot Studio integration!
+
+## 🔗 Связи
+
+- [[MOC - Agents]] — Agent catalog
+- [[agents/agents-copilot]] — Interface: agents-copilot
+

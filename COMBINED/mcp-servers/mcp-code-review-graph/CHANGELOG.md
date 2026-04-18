@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/mcp
+  - artifact/mcp-server
+  - source/mcp-servers
+---
+
 # Changelog
 
 ## [Unreleased]
@@ -387,3 +394,9 @@ Hotfix on top of 2.2.3 for two bugs surfaced by a full first-time-user smoke tes
 
 ### Fixed
 - Installation friction for most developers
+
+## 🔗 Связи
+
+- [[MOC - MCP Servers]] — mcp-servers
+- [[000 - Map of Maps]] — Map of Maps
+

@@ -111,6 +111,10 @@ hooks:
     echo "  - Recommendations stored in memory"
     echo "  - Optimization patterns learned via SONA"
     echo "======================================"
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
 ---
 
 # V3 Performance Engineer Agent
@@ -1231,3 +1235,10 @@ class SONAPerformanceOptimizer {
 **V3 Performance Engineer** - Optimizing Claude Flow for maximum performance
 
 Targets: Flash Attention 2.49x-7.47x | HNSW 150x-12,500x | Memory -50-75% | MCP <100ms | SONA <0.05ms
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

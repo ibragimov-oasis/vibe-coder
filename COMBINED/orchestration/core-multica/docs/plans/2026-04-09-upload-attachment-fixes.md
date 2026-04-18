@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-multica
+---
+
 # Upload & Attachment Fixes Implementation Plan
 
 > **For Claude:** REQUIRED SUB-SKILL: Use superpowers:executing-plans to implement this plan task-by-task.
@@ -317,3 +324,10 @@ Tasks 1, 2, 3 are independent — can be parallelized.
 Task 4 depends on sqlc regeneration.
 Task 5 is confirmation only.
 Task 6 runs after all code changes.
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-multica]] — core-multica
+- [[MOC - Skills]] — Skills library
+

@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
+---
+
 # 示例项目 CLAUDE.md
 
 这是一个示例项目级别的 CLAUDE.md 文件。请将其放置在您的项目根目录下。
@@ -98,3 +105,9 @@ DEBUG=false
 * 切勿直接提交到主分支
 * 合并请求需要审核
 * 合并前所有测试必须通过
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

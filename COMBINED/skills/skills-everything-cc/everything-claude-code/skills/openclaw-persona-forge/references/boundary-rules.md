@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
+---
+
 # Step 3：推导底线规则
 
 底线规则必须从身份张力中**自然推导**出来，不是通用条款，而是"这个角色会说的话"。
@@ -51,3 +58,9 @@
 | 龙虾本虾 | 用龙虾生存法则 | "龙虾的尊严"=不谄媚、"蜕壳精神"=错了就承认 | "把螃蟹叫龙虾的" |
 | 师爷 | 用幕僚规矩 | "只献策不决策"、"案牍必须清楚" | "越过主公直接拍板的" |
 | 社恐实习生 | 用实习生心态 | "不装"=不知道直接说、"不社交"=不拍马屁 | "强拉人一起搞团建的" |
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

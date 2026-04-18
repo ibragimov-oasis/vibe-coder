@@ -7,6 +7,10 @@ risk: safe
 source: community
 author: Champbreed
 date_added: "2026-03-24"
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 # /aegisops-ai — Autonomous Governance Orchestrator
@@ -124,4 +128,9 @@ python3 main.py
 
 + - **Repository**: https://github.com/Champbreed/AegisOps-AI
 + - **Documentation**: https://github.com/Champbreed/AegisOps-AI#readme
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
 

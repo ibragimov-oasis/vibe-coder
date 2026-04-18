@@ -4,6 +4,10 @@ about: Suggest a new command, skill reference, or improvement
 title: "[Feature] "
 labels: enhancement
 assignees: ''
+tags:
+  - domain/ui
+  - artifact/ui-component
+  - source/ui-design
 ---
 
 ## What problem does this solve?
@@ -28,3 +32,9 @@ assignees: ''
 ## Alternatives considered
 
 <!-- Any other approaches you thought about? -->
+
+## 🔗 Связи
+
+- [[MOC - UI Design]] — ui-design
+- [[000 - Map of Maps]] — Map of Maps
+

@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-background-agents
+---
+
 # shadcn/ui Integration Plan
 
 ## Motivation
@@ -476,3 +483,10 @@ shadcn maps to Tailwind classes. Our `--ring` color (warm brown) will be used fo
 | `src/components/ui/combobox.tsx`                                       | Migration deferred                                 |
 | `src/components/ui/icons.tsx`                                          | No changes needed                                  |
 | All feature components (`action-bar.tsx`, `session-sidebar.tsx`, etc.) | Updated only where they consume changed primitives |
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-background-agents]] — core-background-agents
+- [[MOC - Skills]] — Skills library
+

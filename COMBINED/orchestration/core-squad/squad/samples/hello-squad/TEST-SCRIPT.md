@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-squad
+---
+
 # hello-squad — Manual Test Script
 
 ## Prerequisites
@@ -57,3 +64,10 @@ npx tsc --noEmit
 ```
 
 **Expected:** Zero errors.
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/squad]] — Squad
+- [[000 - Map of Maps]] — Map of Maps
+

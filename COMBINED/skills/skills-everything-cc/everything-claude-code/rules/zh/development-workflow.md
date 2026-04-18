@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
+---
+
 # 开发工作流
 
 > 此文件扩展 [common/git-workflow.md](./git-workflow.md)，包含 git 操作之前的完整功能开发流程。
@@ -42,3 +49,9 @@
    - 解决任何合并冲突
    - 确保分支已与目标分支同步
    - 仅在这些检查通过后请求审查
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

@@ -1,5 +1,9 @@
 ---
 description: Go için TDD iş akışını zorlar. Önce table-driven testler yaz, sonra uygula. go test -cover ile %80+ kapsama doğrula.
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
 ---
 
 # Go TDD Komutu
@@ -266,3 +270,9 @@ go test -race -cover ./...
 
 - Skill: `skills/golang-testing/`
 - Skill: `skills/tdd-workflow/`
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

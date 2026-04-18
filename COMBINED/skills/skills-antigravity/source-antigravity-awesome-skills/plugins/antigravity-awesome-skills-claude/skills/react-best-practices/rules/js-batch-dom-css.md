@@ -3,6 +3,9 @@ title: Batch DOM CSS Changes
 impact: MEDIUM
 impactDescription: reduces reflows/repaints
 tags: javascript, dom, css, performance, reflow
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
 ---
 
 ## Batch DOM CSS Changes
@@ -80,3 +83,9 @@ function Box({ isHighlighted }: { isHighlighted: boolean }) {
 ```
 
 Prefer CSS classes over inline styles when possible. Classes are cached by the browser and provide better separation of concerns.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

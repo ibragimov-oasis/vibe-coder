@@ -2,6 +2,10 @@
 name: "extract"
 description: "Turn a proven pattern or debugging solution into a standalone reusable skill with SKILL.md, reference docs, and examples."
 command: /si:extract
+tags:
+  - domain/agents
+  - artifact/skill
+  - source/skills-claude
 ---
 
 # /si:extract — Create Skills from Patterns
@@ -177,3 +181,10 @@ Creates `api-client-regen/SKILL.md` with:
 - Keep skills focused — one problem per skill
 - Include the error messages people would search for
 - Test the skill by reading it without the original context — does it make sense?
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+- [[MOC - Agents]] — Claude agents
+

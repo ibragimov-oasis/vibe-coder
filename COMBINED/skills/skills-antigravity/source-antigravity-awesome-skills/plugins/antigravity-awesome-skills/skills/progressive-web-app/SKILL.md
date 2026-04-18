@@ -6,6 +6,9 @@ source: community
 date_added: "2026-03-17"
 tags: [pwa, web-dev, service-worker, frontend, offline, caching]
 tools: [gemini, cursor, claude]
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 # Progressive Web Apps (PWAs)
@@ -350,3 +353,9 @@ registerRoute(({ request }) => request.destination === 'script', new StaleWhileR
 - [ ] `offline.html` fallback is cached and served when navigation fails offline
 - [ ] Lighthouse PWA audit passes (Chrome DevTools → Lighthouse tab)
 - [ ] Tested on iOS Safari (manual install flow) and Android Chrome (install prompt)
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

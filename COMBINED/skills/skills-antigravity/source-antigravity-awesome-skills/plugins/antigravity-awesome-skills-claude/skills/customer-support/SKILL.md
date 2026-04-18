@@ -4,6 +4,10 @@ description: Elite AI-powered customer support specialist mastering conversation
 risk: unknown
 source: community
 date_added: '2026-02-27'
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 ## Use this skill when
@@ -165,3 +169,9 @@ Master customer support professional specializing in AI-driven support automatio
 - "Design an escalation workflow for high-value customer issues"
 - "Develop a multi-language support strategy for global customer base"
 - "Create customer satisfaction measurement and improvement framework"
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

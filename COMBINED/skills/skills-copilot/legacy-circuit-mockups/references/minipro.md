@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-copilot
+---
+
 # minipro Chip Programming Utility Specification
 
 ## 1. Overview
@@ -209,3 +216,9 @@ minipro -p GAL22V10 -w logic.jed
 * <https://retrocomputingforum.com/>
 
 ---
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-copilot]] — Category: skills-copilot
+

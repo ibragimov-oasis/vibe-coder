@@ -3,6 +3,9 @@ title: Use Transactions for Database Operations
 impact: HIGH
 impactDescription: Transactions provide exactly-once database execution within workflows
 tags: step, transaction, database, datasource
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
 ---
 
 ## Use Transactions for Database Operations
@@ -66,3 +69,9 @@ Available datasource packages: `@dbos-inc/knex-datasource`, `@dbos-inc/kysely-da
 Datasources require installing the DBOS schema (`transaction_completion` table) via `initializeDBOSSchema`.
 
 Reference: [Transactions & Datasources](https://docs.dbos.dev/typescript/tutorials/transaction-tutorial)
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

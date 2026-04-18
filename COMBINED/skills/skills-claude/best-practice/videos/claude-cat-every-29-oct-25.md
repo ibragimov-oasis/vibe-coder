@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # The Secrets of Claude Code From the Engineers Who Built It — Every
 
 Transcript of the interview with Cat & Boris (Claude Code engineers) on the Every podcast, published October 29, 2025.
@@ -460,3 +467,9 @@ Transcript of the interview with Cat & Boris (Claude Code engineers) on the Ever
 
 - [The Secrets of Claude Code From the Engineers Who Built It — Every — YouTube](https://youtu.be/IDSAMqip6ms)
 - [Every](https://every.to/)
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

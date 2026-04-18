@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-copilot
+---
+
 # Azure Service Mappings
 
 ## Common Azure Services per Pattern
@@ -11,3 +18,9 @@
 - **Compute**: Azure Functions, Azure Container Apps, Azure Kubernetes Service
 - **Event Streaming**: Azure Event Hubs, Azure Event Grid
 - **CDN**: Azure CDN, Azure Front Door
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-copilot]] — Category: skills-copilot
+

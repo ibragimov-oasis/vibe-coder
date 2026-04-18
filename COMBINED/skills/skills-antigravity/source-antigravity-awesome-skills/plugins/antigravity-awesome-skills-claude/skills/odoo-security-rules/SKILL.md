@@ -3,6 +3,10 @@ name: odoo-security-rules
 description: "Expert in Odoo access control: ir.model.access.csv, record rules (ir.rule), groups, and multi-company security patterns."
 risk: safe
 source: "self"
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 # Odoo Security Rules
@@ -90,3 +94,9 @@ access_hospital_patient_manager,hospital.patient.manager,model_hospital_patient,
 - **Portal and public user** access rules have additional nuances not fully covered here; test carefully with `base.group_portal`.
 - Record rules are **bypassed by `sudo()`** — any code running in superuser context ignores all `ir.rule` entries.
 - Does not cover **row-level security via PostgreSQL** (RLS) — Odoo manages all security at the ORM layer.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

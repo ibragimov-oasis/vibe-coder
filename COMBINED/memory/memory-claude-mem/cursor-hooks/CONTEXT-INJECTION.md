@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/memory
+  - artifact/memory
+  - source/memory
+---
+
 # Context Injection in Cursor Hooks
 
 ## The Solution: Auto-Updated Rules File
@@ -171,3 +178,9 @@ This is version-controlled by default. Add to `.gitignore` if you don't want to 
 ```
 .cursor/rules/claude-mem-context.mdc
 ```
+
+## 🔗 Связи
+
+- [[MOC - Memory]] — memory
+- [[000 - Map of Maps]] — Map of Maps
+

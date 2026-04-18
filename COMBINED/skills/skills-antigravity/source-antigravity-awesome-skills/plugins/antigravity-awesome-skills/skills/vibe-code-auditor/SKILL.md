@@ -6,6 +6,10 @@ source: original
 date_added: "2026-02-28"
 metadata:
   version: 2.0.0
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 # Vibe Code Auditor
@@ -332,3 +336,9 @@ Before auditing, if not already provided, ask:
 - **seo-forensic-incident-response**: For investigating production incidents after deployment.
 - **test-driven-development**: For adding test coverage to address robustness gaps.
 - **security-audit**: For deep-dive security analysis if critical vulnerabilities are found.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

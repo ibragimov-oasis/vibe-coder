@@ -7,6 +7,10 @@ audience: [user, operator]
 status: current
 sidebar:
   order: 0
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-archon
 ---
 
 Archon supports multiple platform adapters. Each adapter connects Archon to a different communication channel, letting you trigger workflows and interact with AI agents from wherever you work.
@@ -48,3 +52,10 @@ All adapters implement the `IPlatformAdapter` interface. They handle:
 - **Discord** works well for community or team servers.
 
 You can run multiple adapters simultaneously. Any adapter with the required environment variables set will start automatically when you launch the server.
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/archon]] — Archon
+- [[000 - Map of Maps]] — Map of Maps
+

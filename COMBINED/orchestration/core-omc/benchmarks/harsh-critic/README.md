@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-omc
+---
+
 # Harsh-Critic Benchmark
 
 Evaluates whether the archived `harsh-critic` prompt detects more gaps than the standard `critic` agent across a controlled set of fixtures with known ground truth.
@@ -94,3 +101,9 @@ npx vitest run src/__tests__/benchmark-scoring
 - Approximately $3–5 per full benchmark run (8 fixtures × 2 agents × Opus)
 - Use `--fixture` for targeted single-fixture runs during development (~$0.50–1.00 per fixture pair)
 - `critic` runs cost slightly less than `harsh-critic` runs due to shorter system prompts and fewer output tokens
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-omc]] — core-omc
+

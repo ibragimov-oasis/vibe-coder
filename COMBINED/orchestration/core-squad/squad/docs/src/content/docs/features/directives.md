@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-squad
+---
+
 # Directives
 
 > ⚠️ **Experimental** — Squad is alpha software. APIs, commands, and behavior may change between releases.
@@ -182,3 +189,10 @@ Creates a release process directive. Agents will add changelog entries when appr
 Make sure all security-related PRs are reviewed by Lead before merging
 ```
 Establishes a review requirement. Coordinator will route security PRs to Lead for approval.
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/squad]] — Squad
+- [[000 - Map of Maps]] — Map of Maps
+

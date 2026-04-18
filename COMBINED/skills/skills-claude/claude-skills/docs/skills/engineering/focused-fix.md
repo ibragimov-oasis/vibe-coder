@@ -1,6 +1,10 @@
 ---
 title: "Focused Fix — Deep-Dive Feature Repair — Agent Skill for Codex & OpenClaw"
 description: "Use when the user asks to fix, debug, or make a specific feature/module/area work end-to-end. Triggers: 'make X work', 'fix the Y feature', 'the Z. Agent skill for Claude Code, Codex CLI, Gemini CLI, OpenClaw."
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
 ---
 
 # Focused Fix — Deep-Dive Feature Repair
@@ -327,3 +331,9 @@ If you catch yourself thinking any of these, you are skipping phases:
 | DIAGNOSE | Check code, runtime, tests, logs, config | Diagnosis report |
 | FIX | Fix in order: deps → types → logic → tests → integration | Fix log per issue |
 | VERIFY | Run all tests, check consumers, summarize | Completion report |
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

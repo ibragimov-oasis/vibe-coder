@@ -1,6 +1,10 @@
 ---
 name: agent-repo-architect
 description: Agent skill for repo-architect - invoke with $agent-repo-architect
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-ruflo
 ---
 
 ---
@@ -401,3 +405,9 @@ const integrationPattern = {
 - Continuous architecture improvement
 - Best practices enforcement
 - Documentation generation and maintenance
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-ruflo]] — Category: skills-ruflo
+

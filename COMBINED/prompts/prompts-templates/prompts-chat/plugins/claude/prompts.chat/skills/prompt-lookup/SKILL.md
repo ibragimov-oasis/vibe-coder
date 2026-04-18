@@ -1,6 +1,10 @@
 ---
 name: prompt-lookup
 description: Activates when the user asks about AI prompts, needs prompt templates, wants to search for prompts, or mentions prompts.chat. Use for discovering, retrieving, and improving prompts.
+tags:
+  - domain/prompts
+  - artifact/prompt
+  - source/prompts-templates
 ---
 
 When the user needs AI prompts, prompt templates, or wants to improve their prompts, use the prompts.chat MCP server to help them.
@@ -66,3 +70,9 @@ Return the enhanced prompt to the user.
 - Present search results in a readable format with links
 - When improving prompts, explain what was enhanced
 - Suggest relevant categories and tags when saving prompts
+
+## 🔗 Связи
+
+- [[MOC - Prompts]] — Prompt library
+- [[MOC - System]] — System documentation
+

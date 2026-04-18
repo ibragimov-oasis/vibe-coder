@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # Terraform State Management Reference
 
 ## Backend Configuration Patterns
@@ -470,3 +477,9 @@ terraform import aws_security_group_rule.new sg-12345_ingress_tcp_443_443_0.0.0.
 | Slow plan/apply | Large state file, many resources | Split state, use `-target` for urgent changes |
 | "Provider produced inconsistent result" | Provider bug or API race condition | Retry, or pin provider version |
 | Workspace confusion | Applied to wrong workspace | Always check `terraform workspace show` before apply |
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

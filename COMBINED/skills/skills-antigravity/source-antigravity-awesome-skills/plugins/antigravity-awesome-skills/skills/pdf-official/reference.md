@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # PDF Processing Advanced Reference
 
 This document contains advanced PDF processing features, detailed examples, and additional libraries not covered in the main skill instructions.
@@ -610,3 +617,9 @@ def extract_text_with_ocr(pdf_path):
 - **qpdf**: Apache License
 - **pdf-lib**: MIT License
 - **pdfjs-dist**: Apache License
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

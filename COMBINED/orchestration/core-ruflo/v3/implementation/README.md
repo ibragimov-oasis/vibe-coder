@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # V3 Implementation Documentation
 
 This directory contains all implementation documentation, planning, and research for Claude-Flow V3.
@@ -106,3 +113,9 @@ implementation/
 
 **Last Updated:** 2026-01-05
 **Recovered From:** Git history (commits 80a7f9f4, 52b2a308, 146c0cdc)
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-ruflo]] — core-ruflo
+

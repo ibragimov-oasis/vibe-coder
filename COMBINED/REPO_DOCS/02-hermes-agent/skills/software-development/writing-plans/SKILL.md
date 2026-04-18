@@ -294,3 +294,9 @@ Frequent commits
 ```
 
 **A good plan makes implementation obvious.**
+
+## 🔗 Связи
+
+- [[000 - Map of Maps]] — REPO_DOCS
+- [[000 - Map of Maps]] — Map of Maps
+

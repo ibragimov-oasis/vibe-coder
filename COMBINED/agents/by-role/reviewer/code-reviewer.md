@@ -4,6 +4,10 @@ description: Expert code review specialist with severity-rated feedback, logic d
 model: claude-opus-4-6
 level: 3
 disallowedTools: Write, Edit
+tags:
+  - domain/agents
+  - artifact/agent
+  - source/by-role/reviewer
 ---
 
 <Agent_Prompt>
@@ -215,3 +219,9 @@ When the request is about release readiness, quality gates, or risk assessment:
 - Risk-tier changes: SAFE / MONITOR / HOLD based on evidence
 </Quality_Strategy_Mode>
 </Agent_Prompt>
+
+## 🔗 Связи
+
+- [[MOC - Agents]] — Agent catalog
+- [[agents/reviewer]] — Role: reviewer
+

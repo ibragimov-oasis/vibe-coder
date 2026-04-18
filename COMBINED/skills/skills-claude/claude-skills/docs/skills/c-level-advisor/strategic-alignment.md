@@ -1,6 +1,10 @@
 ---
 title: "Strategic Alignment Engine — Agent Skill for Executives"
 description: "Cascades strategy from boardroom to individual contributor. Detects and fixes misalignment between company goals and team execution. Covers strategy. Agent skill for Claude Code, Codex CLI, Gemini CLI, OpenClaw."
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
 ---
 
 # Strategic Alignment Engine
@@ -194,3 +198,9 @@ A quick health check. Score each area 0–10:
 ## Detailed References
 - `scripts/alignment_checker.py` — Automated OKR alignment analysis (orphans, conflicts, coverage)
 - `references/alignment-playbook.md` — Cascade techniques, quarterly alignment check, common patterns
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

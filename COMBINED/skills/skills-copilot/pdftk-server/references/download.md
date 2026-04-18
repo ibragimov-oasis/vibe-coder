@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-copilot
+---
+
 # Download
 
 PDFtk provides an installer for Windows. Many Linux distributions provide a PDFtk package you can download and install using their package manager.
@@ -73,3 +80,9 @@ make -f Makefile.Debian
 Substitute your platform's Makefile filename as needed.
 
 PDFtk has been built using gcc/gcj/libgcj versions 3.4.5, 4.4.1, 4.5.0, and 4.6.3. PDFtk 1.4x fails to build on gcc 3.3.5 due to missing libgcj features. If you are using gcc 3.3 or older, try building [pdftk 1.12](https://www.pdflabs.com/tools/pdftk-the-pdf-toolkit/pdftk-1.12.tar.gz) instead.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-copilot]] — Category: skills-copilot
+

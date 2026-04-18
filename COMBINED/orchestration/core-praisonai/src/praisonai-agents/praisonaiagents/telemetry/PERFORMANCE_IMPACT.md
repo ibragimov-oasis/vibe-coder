@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-praisonai
+---
+
 # PostHog Telemetry Performance Impact Analysis
 
 This document provides detailed analysis of the performance impact when PostHog telemetry is enabled by default in PraisonAI Agents.
@@ -216,3 +223,10 @@ If you experience performance degradation:
 
 **Last Updated**: July 26, 2025  
 **Version**: PraisonAI Agents v1.0.0+
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/praisonai]] — PraisonAI
+- [[000 - Map of Maps]] — Map of Maps
+

@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # API Reference - WhatsApp Cloud API
 
 Referencia tecnica completa dos endpoints, autenticacao, codigos de erro, rate limits e pricing da WhatsApp Cloud API (Graph API v21.0).
@@ -564,3 +571,9 @@ Desde julho 2025, o modelo e **por mensagem** (nao mais por conversa).
 - Teste em sandbox antes de atualizar versao em producao
 - Use variaveis de ambiente para a versao da API (facil rollback)
 - Mantenha logs de chamadas para debug de compatibilidade
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

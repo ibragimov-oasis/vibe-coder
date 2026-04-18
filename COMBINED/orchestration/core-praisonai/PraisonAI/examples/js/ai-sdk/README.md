@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-praisonai
+---
+
 # AI SDK Examples
 
 Examples demonstrating the AI SDK integration in PraisonAI TypeScript.
@@ -39,3 +46,9 @@ npx ts-node tool-calling.ts
 
 - [AI SDK Documentation](https://docs.praisonai.com/docs/js/ai-sdk)
 - [AI SDK CLI](https://docs.praisonai.com/docs/js/ai-sdk-cli)
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-praisonai]] — core-praisonai
+

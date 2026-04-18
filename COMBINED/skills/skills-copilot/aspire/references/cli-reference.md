@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-copilot
+---
+
 # CLI Reference — Complete Command Reference
 
 The Aspire CLI (`aspire`) is the primary interface for creating, running, and publishing distributed applications. It is cross-platform and installed standalone (not coupled to the .NET CLI, though `dotnet` commands also work).
@@ -305,3 +312,9 @@ The `dotnet` CLI can perform some Aspire tasks:
 | N/A                         | `dotnet test ./Tests`            |
 
 The Aspire CLI adds value with `publish`, `deploy`, `add`, `mcp`, `config`, `cache`, `do`, and `update` — commands that have no direct `dotnet` equivalent.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-copilot]] — Category: skills-copilot
+

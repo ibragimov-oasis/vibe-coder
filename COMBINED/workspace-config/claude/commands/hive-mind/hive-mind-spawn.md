@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/config
+  - source/workspace-config
+---
+
 # hive-mind-spawn
 
 Spawn a Hive Mind swarm with queen-led coordination.
@@ -19,3 +26,9 @@ npx claude-flow hive-mind spawn "Build API"
 npx claude-flow hive-mind spawn "Research patterns" --queen-type adaptive
 npx claude-flow hive-mind spawn "Build service" --claude
 ```
+
+## 🔗 Связи
+
+- [[MOC - System]] — workspace-config
+- [[000 - Map of Maps]] — Map of Maps
+

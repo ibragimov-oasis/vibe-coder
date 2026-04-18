@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/seo
+  - artifact/doc
+  - source/skills-seo
+---
+
 # Affiliate Program Design
 
 Detailed guidance for building and managing affiliate programs.
@@ -154,3 +161,9 @@ Consider:
 - Require referred user to take meaningful action
 - Cap lifetime rewards
 - Pay rewards in product credit (less attractive to fraudsters)
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-seo]] — Category: skills-seo
+

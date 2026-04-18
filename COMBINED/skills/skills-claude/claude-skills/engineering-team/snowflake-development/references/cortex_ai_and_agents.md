@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # Cortex AI and Agents Reference
 
 Complete reference for Snowflake Cortex AI functions, Cortex Agents, Cortex Search, and Snowpark Python patterns.
@@ -278,3 +285,9 @@ session.sproc.register(
 - DataFrames are lazy. Calling `.collect()` pulls all data to the client -- avoid on large datasets.
 - Use vectorized UDFs over scalar UDFs for batch processing (10-100x performance improvement).
 - Close sessions when done: `session.close()`.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

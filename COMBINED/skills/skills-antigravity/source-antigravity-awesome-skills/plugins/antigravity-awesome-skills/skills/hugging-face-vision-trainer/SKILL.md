@@ -3,6 +3,10 @@ source: "https://github.com/huggingface/skills/tree/main/skills/huggingface-visi
 name: hugging-face-vision-trainer
 description: Train or fine-tune vision models on Hugging Face Jobs for detection, classification, and SAM or SAM2 segmentation.
 risk: unknown
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 # Vision Model Training on Hugging Face Jobs
@@ -593,3 +597,9 @@ For comprehensive troubleshooting: see [references/reliability_principles.md](re
 - [SAM Model Documentation](https://huggingface.co/docs/transformers/model_doc/sam)
 - [Object Detection Datasets](https://huggingface.co/datasets?task_categories=task_categories:object-detection)
 - [Image Classification Datasets](https://huggingface.co/datasets?task_categories=task_categories:image-classification)
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

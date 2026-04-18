@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # Claude-Flow v2.5.0-alpha.130 - SDK Integration Phases
 ## Updated Implementation Plan with Critical & High Priority Features
 
@@ -748,3 +755,10 @@ export class McpHealthMonitor {
 ---
 
 *Updated phases for Claude-Flow v2.5.0-alpha.130 with critical and high priority features*
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

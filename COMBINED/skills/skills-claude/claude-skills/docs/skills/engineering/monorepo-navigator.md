@@ -1,6 +1,10 @@
 ---
 title: "Monorepo Navigator — Agent Skill for Codex & OpenClaw"
 description: "Monorepo Navigator. Agent skill for Claude Code, Codex CLI, Gemini CLI, OpenClaw."
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
 ---
 
 # Monorepo Navigator
@@ -106,3 +110,9 @@ Also see `references/monorepo-patterns.md` for common architecture and CI patter
 6. **Shared configs in root, extended in packages** — tsconfig.base.json, .eslintrc.base.js, jest.base.config.js
 7. **Impact analysis before merging shared package changes** — run affected check, communicate blast radius
 8. **Keep packages/types as pure TypeScript** — no runtime code, no dependencies, fast to build and type-check
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

@@ -2,6 +2,10 @@
 sidebar_position: 6
 title: "Use SOUL.md with Hermes"
 description: "How to use SOUL.md to shape Hermes Agent's default voice, what belongs there, and how it differs from AGENTS.md and /personality"
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-hermes
 ---
 
 # Use SOUL.md with Hermes
@@ -262,3 +266,10 @@ Move project instructions into `AGENTS.md` and keep `SOUL.md` focused on identit
 - [Context Files](/docs/user-guide/features/context-files)
 - [Configuration](/docs/user-guide/configuration)
 - [Tips & Best Practices](/docs/guides/tips)
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/hermes]] — Hermes
+- [[000 - Map of Maps]] — Map of Maps
+

@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # workflow-export
 
 Export workflows for sharing.
@@ -23,3 +30,10 @@ npx claude-flow workflow export --name "test-suite" --format yaml
 # With history
 npx claude-flow workflow export --name "deploy-api" --include-history
 ```
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

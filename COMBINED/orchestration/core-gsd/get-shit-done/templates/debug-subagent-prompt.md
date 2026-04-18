@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-gsd
+---
+
 # Debug Subagent Prompt Template
 
 Template for spawning gsd-debugger agent. The agent contains all debugging expertise - this template provides problem context only.
@@ -89,3 +96,10 @@ Debug file: @.planning/debug/{slug}.md
 goal: {goal}
 </mode>
 ```
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-gsd]] — core-gsd
+- [[MOC - Skills]] — Skills library
+

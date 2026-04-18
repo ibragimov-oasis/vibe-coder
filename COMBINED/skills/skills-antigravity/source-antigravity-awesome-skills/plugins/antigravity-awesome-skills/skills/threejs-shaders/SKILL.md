@@ -3,6 +3,10 @@ name: threejs-shaders
 description: Three.js shaders - GLSL, ShaderMaterial, uniforms, custom effects. Use when creating custom visual effects, modifying vertices, writing fragment shaders, or extending built-in materials.
 risk: unknown
 source: community
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 # Three.js Shaders
@@ -685,3 +689,9 @@ material.positionNode = add(
 - `threejs-materials` - Built-in material types
 - `threejs-postprocessing` - Full-screen shader effects
 - `threejs-textures` - Texture sampling in shaders
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # Local Training on macOS (Apple Silicon)
 
 Run small LoRA fine-tuning jobs locally on Mac for smoke tests and quick iteration before submitting to HF Jobs.
@@ -229,3 +236,9 @@ For general training issues, see [troubleshooting.md](troubleshooting.md).
 - [hardware_guide.md](hardware_guide.md) — GPU selection for HF Jobs
 - [gguf_conversion.md](gguf_conversion.md) — Export for on-device inference
 - [training_methods.md](training_methods.md) — SFT, DPO, GRPO overview
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

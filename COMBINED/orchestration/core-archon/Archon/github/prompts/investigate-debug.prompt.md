@@ -17,6 +17,10 @@ tools:
 agents:
   - codebase-explorer
   - codebase-analyst
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-archon
 ---
 
 # Investigate Issue
@@ -526,3 +530,10 @@ Review the investigation, then: `/implement-fix {number}`
 | Can't determine root cause | Set confidence to LOW, proceed with best hypothesis |
 | Very large scope | Suggest breaking into smaller issues, focus on core problem |
 | No GitHub issue (free-form) | Create artifact only, skip GitHub posting |
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/archon]] — Archon
+- [[000 - Map of Maps]] — Map of Maps
+

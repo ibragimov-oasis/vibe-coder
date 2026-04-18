@@ -2,6 +2,10 @@
 sidebar_position: 7
 title: "Sessions"
 description: "Session persistence, resume, search, management, and per-platform session tracking"
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-hermes
 ---
 
 # Sessions
@@ -388,3 +392,10 @@ hermes sessions prune --older-than 30 --yes
 :::tip
 The database grows slowly (typical: 10-15 MB for hundreds of sessions). Pruning is mainly useful for removing old conversations you no longer need for search recall.
 :::
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/hermes]] — Hermes
+- [[000 - Map of Maps]] — Map of Maps
+

@@ -3,6 +3,10 @@ name: cpp-build-resolver
 description: C++ build, CMake, and compilation error resolution specialist. Fixes build errors, linker issues, and template errors with minimal changes. Use when C++ builds fail.
 tools: ["Read", "Write", "Edit", "Bash", "Grep", "Glob"]
 model: sonnet
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
 ---
 
 # C++ Build Hata Çözücü
@@ -88,3 +92,9 @@ Kalan hatalar: 3
 Son: `Build Durumu: BAŞARILI/BAŞARISIZ | Düzeltilen Hatalar: N | Değiştirilen Dosyalar: liste`
 
 Detaylı C++ desenleri ve kod örnekleri için, `skill: cpp-coding-standards` bölümüne bakın.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

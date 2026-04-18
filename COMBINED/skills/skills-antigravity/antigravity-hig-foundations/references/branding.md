@@ -1,4 +1,11 @@
 ---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
+---
 title: "Branding | Apple Developer Documentation"
 source: https://developer.apple.com/design/human-interface-guidelines/branding
 
@@ -41,4 +48,9 @@ In addition to expressing your brand in your [app icon](https://developer.apple.
 [Show more with app previews](https://developer.apple.com/app-store/app-previews/)
 
 [Color](https://developer.apple.com/design/human-interface-guidelines/color)
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
 

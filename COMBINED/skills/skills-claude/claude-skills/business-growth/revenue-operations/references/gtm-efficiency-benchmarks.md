@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # GTM Efficiency Benchmarks
 
 SaaS benchmarks by funding stage, industry standards, and strategies for improving go-to-market efficiency.
@@ -255,3 +262,9 @@ When presenting GTM efficiency to the board, organize metrics as follows:
 5. **Trends:** Quarter-over-quarter change for each metric with directional indicators
 6. **Benchmarks:** How the company compares to stage-appropriate benchmarks
 7. **Actions:** Top 3 initiatives to improve weakest metrics
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

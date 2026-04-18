@@ -1,6 +1,10 @@
 ---
 name: MAUI Expert
 description: Support development of .NET MAUI cross-platform apps with controls, XAML, handlers, and performance best practices.
+tags:
+  - domain/agents
+  - artifact/agent
+  - source/by-interface/agents-copilot
 ---
 
 # .NET MAUI Coding Expert Agent
@@ -182,3 +186,9 @@ string token = await SecureStorage.GetAsync("oauth_token");
 4. **Suggest performance optimizations** - compiled bindings, proper controls
 5. **Provide working XAML examples** with modern patterns
 6. **Consider cross-platform implications**
+
+## 🔗 Связи
+
+- [[MOC - Agents]] — Agent catalog
+- [[agents/agents-copilot]] — Interface: agents-copilot
+

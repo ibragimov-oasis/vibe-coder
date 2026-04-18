@@ -2,6 +2,10 @@
 description: "Kotlin patterns extending common rules"
 globs: ["**/*.kt", "**/*.kts", "**/build.gradle.kts"]
 alwaysApply: false
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
 ---
 # Kotlin Patterns
 
@@ -48,3 +52,9 @@ val appModule = module {
 ## Reference
 
 See skill: `kotlin-patterns` for comprehensive Kotlin patterns including coroutines, DSL builders, and delegation.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

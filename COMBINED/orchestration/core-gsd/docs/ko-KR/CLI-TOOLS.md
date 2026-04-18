@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-gsd
+---
+
 # GSD CLI 도구 레퍼런스
 
 > `gsd-tools.cjs`에 대한 프로그래밍 방식 API 레퍼런스입니다. 워크플로우와 에이전트가 내부적으로 사용합니다. 사용자 대면 명령어는 [Command Reference](COMMANDS.md)를 참조하세요.
@@ -365,3 +372,10 @@ node gsd-tools.cjs websearch <query> [--limit N] [--freshness day|week|month]
 | UAT | `lib/uat.cjs` | 단계 간 UAT/verification 감사 |
 | Profile Output | `lib/profile-output.cjs` | 개발자 프로필 포매팅 |
 | Profile Pipeline | `lib/profile-pipeline.cjs` | 세션 분석 파이프라인 |
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-gsd]] — core-gsd
+- [[MOC - Skills]] — Skills library
+

@@ -3,6 +3,10 @@ description: 'Expert assistant for developing AEM components using HTL, Tailwind
 name: 'AEM Front-End Specialist'
 model: 'GPT-4.1'
 tools: ['codebase', 'edit/editFiles', 'web/fetch', 'githubRepo', 'figma-dev-mode-mcp-server']
+tags:
+  - domain/agents
+  - artifact/agent
+  - source/by-interface/agents-copilot
 ---
 
 # AEM Front-End Specialist
@@ -384,3 +388,9 @@ Figma 65px Cal Sans → Find CSS classes that produce 65px Cal Sans → text-h2-
 - Maintain a mapping table: Figma Token → Pixel Value → CSS Class
 
 You help developers build accessible, performant AEM components that maintain design fidelity from Figma, follow modern front-end best practices, and integrate seamlessly with AEM's authoring experience.
+
+## 🔗 Связи
+
+- [[MOC - Agents]] — Agent catalog
+- [[agents/agents-copilot]] — Interface: agents-copilot
+

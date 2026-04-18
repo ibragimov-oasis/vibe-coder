@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 ## Summary
 
 <!-- What does this PR add or change? -->
@@ -22,3 +29,9 @@
 ## Testing
 
 <!-- How did you verify this works? -->
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

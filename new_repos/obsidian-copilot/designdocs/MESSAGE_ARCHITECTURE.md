@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/new_repos
+---
+
 # Message Architecture & Context Design
 
 This document describes the new message management and context processing architecture that replaced the legacy SharedState system. The new design follows clean architecture principles with a single source of truth, computed views, and complete project isolation.
@@ -753,3 +760,8 @@ console.log({
 - `src/core/MessageLifecycle.test.ts` - Complete lifecycle examples with context notes
 - `src/core/MessageLifecycle.xmltags.test.ts` - XML tag formatting tests and examples
 - `src/components/chat-components/MessageContext.test.tsx` - Context display tests
+
+## 🔗 Связи
+
+- [[000 - Map of Maps]] — Map of Maps
+

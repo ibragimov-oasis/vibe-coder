@@ -2,6 +2,10 @@
 sidebar_position: 2
 title: "Skills System"
 description: "On-demand knowledge documents — progressive disclosure, agent-managed skills, and the Skills Hub"
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-hermes
 ---
 
 # Skills System
@@ -419,3 +423,10 @@ All the same commands work with `/skills`:
 ```
 
 Official optional skills still use identifiers like `official/security/1password` and `official/migration/openclaw-migration`.
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/hermes]] — Hermes
+- [[000 - Map of Maps]] — Map of Maps
+

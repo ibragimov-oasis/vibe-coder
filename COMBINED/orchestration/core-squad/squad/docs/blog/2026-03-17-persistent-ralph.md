@@ -6,6 +6,9 @@ wave: null
 tags: [squad, ralph, monitoring, health, state, persistence]
 status: published
 hero: "Ralph evolved from ephemeral monitor to persistent guardian. Track agent activity 24/7, detect stale sessions, and maintain squad health with continuous state tracking."
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-squad
 ---
 
 # Persistent Ralph: Monitor Squad Health 24/7
@@ -346,3 +349,10 @@ Ralph, show me productivity for week of March 10
 - [Generic Scheduler](/features/generic-scheduler) — Schedule Ralph's heartbeat
 - [Upstream Auto-Sync](/features/upstream-sync) — Ralph monitors sync status
 - [Cross-Squad Orchestration](/features/cross-squad-orchestration) — Ralph tracks delegation
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/squad]] — Squad
+- [[000 - Map of Maps]] — Map of Maps
+

@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # Getting Started with @claude-flow/guidance
 
 ## Background: How Claude Code Uses Memory Files
@@ -233,3 +240,10 @@ console.log(bundle.shards.length);        // > 0
 - [Enforcement Gates Tutorial](../tutorials/enforcement-gates.md) — Wire gates into hooks
 - [Multi-Agent Security](./multi-agent-security.md) — Threat detection, collusion, quorum
 - [WASM Kernel Guide](./wasm-kernel.md) — Building and benchmarking
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

@@ -4,6 +4,10 @@ description: "Send SMS messages with Azure Communication Services SMS Java SDK. 
 risk: safe
 source: community
 date_added: "2026-02-27"
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 # Azure Communication SMS (Java)
@@ -277,3 +281,9 @@ SMS_FROM_NUMBER=+14255550100
 
 ## When to Use
 This skill is applicable to execute the workflow or actions described in the overview.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

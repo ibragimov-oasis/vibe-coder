@@ -8,6 +8,9 @@ date_added: "2026-03-20"
 author: FrancyJGLisboa
 tags: [ai, knowledge-extraction, domain-specific, data-moat, mcp, reference-data]
 tools: [claude, cursor, codex, copilot]
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 # Knowledge Extraction
@@ -103,3 +106,9 @@ bdistill extract --domain medical --model qwen3:4b
 ## Related Skills
 
 - `@bdistill-behavioral-xray` - X-ray a model's behavioral patterns
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

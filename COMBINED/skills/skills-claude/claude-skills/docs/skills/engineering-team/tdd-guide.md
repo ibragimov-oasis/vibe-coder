@@ -1,6 +1,10 @@
 ---
 title: "TDD Guide — Agent Skill & Codex Plugin"
 description: "Test-driven development skill for writing unit tests, generating test fixtures and mocks, analyzing coverage gaps, and guiding red-green-refactor. Agent skill for Claude Code, Codex CLI, Gemini CLI, OpenClaw."
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
 ---
 
 # TDD Guide
@@ -412,3 +416,9 @@ Mutation testing modifies your production code (creates "mutants") and checks wh
 - E2E testing: Playwright, Cypress, Selenium
 - Performance testing: k6, JMeter, Locust
 - Security testing: OWASP ZAP, Burp Suite
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # Accessibility Reference
 
 ## Non-Negotiable Rules
@@ -376,3 +383,9 @@ Before shipping any 2.5D website:
 - [ ] Page has `<html lang="en">` (or correct language)
 - [ ] `<main>` landmark wraps page content
 - [ ] Section landmarks use `aria-label` to differentiate them
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # Trackio Integration for TRL Training
 
 **Trackio** is an experiment tracking library that provides real-time metrics visualization for remote training on Hugging Face Jobs infrastructure.
@@ -187,3 +194,9 @@ After starting training:
 
 - **Trackio**: Best for real-time monitoring during long training runs
 - **Weights & Biases**: Best for team collaboration, requires account
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

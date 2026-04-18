@@ -21,6 +21,10 @@ hooks:
     echo "🎯 CRDT synchronization complete"
     # Verify eventual consistency
     echo "✅ Validating conflict-free state convergence"
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
 ---
 
 # CRDT Synchronizer
@@ -995,3 +999,10 @@ class CRDTConsensusIntegrator {
 ```
 
 This CRDT Synchronizer provides comprehensive support for conflict-free replicated data types, enabling eventually consistent distributed state management that complements consensus protocols for different consistency requirements.
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

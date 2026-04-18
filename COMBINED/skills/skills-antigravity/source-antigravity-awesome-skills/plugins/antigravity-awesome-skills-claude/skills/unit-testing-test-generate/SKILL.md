@@ -4,6 +4,10 @@ description: "Generate comprehensive, maintainable unit tests across languages w
 risk: unknown
 source: community
 date_added: "2026-02-27"
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 # Automated Unit Test Generation
@@ -320,3 +324,9 @@ def generate_mock_objects(self, dependencies: List[str]) -> str:
 5. **CI Integration**: Commands to run tests in pipeline
 
 Focus on generating maintainable, comprehensive tests that catch bugs early and provide confidence in code changes.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

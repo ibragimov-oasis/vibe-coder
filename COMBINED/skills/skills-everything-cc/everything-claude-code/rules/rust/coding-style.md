@@ -1,6 +1,10 @@
 ---
 paths:
   - "**/*.rs"
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
 ---
 # Rust Coding Style
 
@@ -149,3 +153,9 @@ src/
 ## References
 
 See skill: `rust-patterns` for comprehensive Rust idioms and patterns.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

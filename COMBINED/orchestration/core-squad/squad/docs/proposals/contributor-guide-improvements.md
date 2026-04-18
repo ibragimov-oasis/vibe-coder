@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-squad
+---
+
 # Proposal: Contributor Guide Improvements
 
 > **Author:** Flight (Lead)
@@ -240,3 +247,10 @@ After these changes ship:
 2. **Should we add a `.github/FUNDING.yml`?** Not strictly contributor guidance but often expected in OSS.
 3. **Should `status:contributor-invited` be renamed to `help wanted`?** GitHub surfaces `help wanted` specially in search and explore. We have both labels — should we consolidate?
 4. **PR #639 pattern prevention:** Should we add a "Do Not Contribute" label or a "being removed" label for features that are being deprecated? This would prevent contributors from wasting effort on doomed features.
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/squad]] — Squad
+- [[000 - Map of Maps]] — Map of Maps
+

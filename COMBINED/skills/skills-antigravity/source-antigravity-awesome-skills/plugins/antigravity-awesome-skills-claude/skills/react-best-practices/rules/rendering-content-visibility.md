@@ -3,6 +3,9 @@ title: CSS content-visibility for Long Lists
 impact: HIGH
 impactDescription: faster initial render
 tags: rendering, css, content-visibility, long-lists
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
 ---
 
 ## CSS content-visibility for Long Lists
@@ -36,3 +39,9 @@ function MessageList({ messages }: { messages: Message[] }) {
 ```
 
 For 1000 messages, browser skips layout/paint for ~990 off-screen items (10× faster initial render).
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

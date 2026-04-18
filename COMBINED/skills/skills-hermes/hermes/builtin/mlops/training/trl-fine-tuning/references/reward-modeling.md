@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-hermes
+---
+
 # Reward Modeling
 
 Guide to training reward models with TRL for RLHF pipelines.
@@ -120,3 +127,9 @@ print(f"Accuracy: {accuracy:.2%}")  # Target: >80%
 
 - InstructGPT paper: https://arxiv.org/abs/2203.02155
 - TRL docs: https://huggingface.co/docs/trl/reward_trainer
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-hermes]] — Category: skills-hermes
+

@@ -2,6 +2,9 @@
 description: When to use Tier 3 (Platform) skill architecture for large platforms.
 metadata:
   tags: [tier-3, platform, enterprise, cloudflare-pattern]
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
 ---
 
 # Tier 3: Platform Skills
@@ -96,3 +99,9 @@ Result: 60+ product references without blowing context.
 - [ ] Cross-references stay one level deep
 - [ ] Slash command created for orchestration
 - [ ] Every product has `gotchas.md`
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

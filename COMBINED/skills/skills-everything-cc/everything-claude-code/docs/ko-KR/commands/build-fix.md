@@ -1,6 +1,10 @@
 ---
 name: build-fix
 description: 최소한의 안전한 변경으로 build 및 타입 오류를 점진적으로 수정합니다.
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
 ---
 
 # Build 오류 수정
@@ -66,3 +70,9 @@ description: 최소한의 안전한 변경으로 build 및 타입 오류를 점�
 | Build 도구 설정 오류 | 설정 파일을 확인하고 정상 동작하는 기본값과 비교합니다 |
 
 안전을 위해 한 번에 하나의 오류씩 수정하세요. 리팩토링보다 최소한의 diff를 선호합니다.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

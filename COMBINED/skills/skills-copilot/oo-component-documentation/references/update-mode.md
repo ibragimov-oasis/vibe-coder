@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-copilot
+---
+
 # Update mode
 
 Use this workflow when the input is an existing documentation Markdown file or the user asks to refresh existing component documentation.
@@ -30,3 +37,9 @@ Use this workflow when the input is an existing documentation Markdown file or t
 - Update examples so they compile conceptually against the current API shape.
 - Refresh Mermaid diagrams rather than replacing them with generic placeholders.
 - Add migration notes or change history when the update reveals important compatibility or behavior changes.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-copilot]] — Category: skills-copilot
+

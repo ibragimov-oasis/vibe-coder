@@ -2,6 +2,10 @@
 name: instinct-import
 description: Import instincts from file or URL into project/global scope
 command: true
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
 ---
 
 # Instinct Import Command
@@ -112,3 +116,9 @@ New instincts saved to: ~/.claude/homunculus/instincts/inherited/
 
 Run /instinct-status to see all instincts.
 ```
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

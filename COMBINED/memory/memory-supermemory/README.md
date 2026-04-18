@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/memory
+  - artifact/memory
+  - source/memory
+---
+
 <p align="center">
   <picture>
     <source srcset="apps/web/public/logo-fullmark.svg" media="(prefers-color-scheme: dark)">
@@ -359,3 +366,9 @@ Your app / AI tool
 <p align="center">
   <strong>Give your AI a memory. It's about time..</strong>
 </p>
+
+## 🔗 Связи
+
+- [[MOC - Memory]] — memory
+- [[000 - Map of Maps]] — Map of Maps
+

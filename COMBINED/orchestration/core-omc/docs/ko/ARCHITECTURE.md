@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-omc
+---
+
 # 아키텍처
 
 > oh-my-claudecode가 멀티 에이전트 워크플로우를 오케스트레이션하는 방법.
@@ -150,3 +157,10 @@ oh-my-claudecode는 `src/hooks/`에 라이프사이클 이벤트를 위한 31개
 - **내부 API**: [FEATURES.md](../FEATURES.md) 참조
 - **사용자 가이드**: [README.md](../../README.md) 참조
 - **스킬 레퍼런스**: 프로젝트의 CLAUDE.md 참조
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-omc]] — core-omc
+- [[MOC - Skills]] — Skills library
+

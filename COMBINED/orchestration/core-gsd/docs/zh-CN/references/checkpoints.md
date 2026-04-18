@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-gsd
+---
+
 # 检查点
 
 计划自主执行。检查点用于规范化需要人工验证或决策的交互点。
@@ -448,3 +455,10 @@ timeout 30 bash -c 'until curl -s localhost:3000 > /dev/null 2>&1; do sleep 1; d
 - 文件操作（Claude 可以读取文件）
 - 代码正确性（测试和静态分析）
 - 任何可通过 CLI/API 自动化的内容
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/gsd]] — GSD
+- [[000 - Map of Maps]] — Map of Maps
+

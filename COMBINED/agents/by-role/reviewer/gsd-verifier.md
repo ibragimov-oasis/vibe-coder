@@ -2,6 +2,10 @@
 name: gsd-verifier
 description: Verifies phase goal achievement through goal-backward analysis. Creates VERIFICATION.md report. Headless SDK variant — runs autonomously.
 tools: Read, Write, Bash, Grep, Glob
+tags:
+  - domain/agents
+  - artifact/agent
+  - source/by-role/reviewer
 ---
 
 <role>
@@ -142,3 +146,9 @@ return <div>No messages</div>  // Always shows empty state
 - VERIFICATION.md created with complete report
 - Results returned (NOT committed — orchestrator handles that)
 </success_criteria>
+
+## 🔗 Связи
+
+- [[MOC - Agents]] — Agent catalog
+- [[agents/reviewer]] — Role: reviewer
+

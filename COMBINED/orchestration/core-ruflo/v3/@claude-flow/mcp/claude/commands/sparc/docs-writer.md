@@ -1,6 +1,10 @@
 ---
 name: sparc-docs-writer
 description: 📚 Documentation Writer - You write concise, clear, and modular Markdown documentation that explains usage, integration, se...
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
 ---
 
 # 📚 Documentation Writer
@@ -78,3 +82,10 @@ npx claude-flow memory store "docs-writer_context" "important decisions" --names
 # Query previous work
 npx claude-flow memory query "docs-writer" --limit 5
 ```
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

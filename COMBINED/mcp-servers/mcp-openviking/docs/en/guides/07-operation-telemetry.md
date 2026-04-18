@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/mcp
+  - artifact/mcp-server
+  - source/mcp-servers
+---
+
 # Operation Telemetry
 
 Operation telemetry lets you ask OpenViking to return a compact summary of what happened during a request, such as duration, token usage, vector retrieval activity, queue progress, and resource-processing stages.
@@ -300,3 +307,9 @@ print(result["telemetry"]["summary"]["duration_ms"])
 - [Monitoring & Health Checks](05-monitoring.md)
 - [Authentication](04-authentication.md)
 - [System API](../api/07-system.md)
+
+## 🔗 Связи
+
+- [[MOC - MCP Servers]] — mcp-servers
+- [[000 - Map of Maps]] — Map of Maps
+

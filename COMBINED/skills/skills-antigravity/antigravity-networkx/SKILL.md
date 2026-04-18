@@ -6,6 +6,10 @@ metadata:
     skill-author: K-Dense Inc.
 risk: unknown
 source: "https://github.com/networkx/networkx"
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 # NetworkX
@@ -434,3 +438,9 @@ Extensive documentation on visualization techniques including layout algorithms,
 - **Tutorial**: https://networkx.org/documentation/latest/tutorial.html
 - **Gallery**: https://networkx.org/documentation/latest/auto_examples/index.html
 - **GitHub**: https://github.com/networkx/networkx
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

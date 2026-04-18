@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/seo
+  - artifact/doc
+  - source/skills-seo
+---
+
 <!-- Updated: 2026-02-07 -->
 # MCP Integration
 
@@ -151,3 +158,9 @@ If you don't have API keys, Claude SEO can still:
 5. Detect JavaScript-heavy implementations
 
 The analysis will note that actual Core Web Vitals measurements require field data from real users.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-seo]] — Category: skills-seo
+

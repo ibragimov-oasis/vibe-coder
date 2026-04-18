@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-cc-connect
+---
+
 # Bridge Platform Protocol Specification
 
 > Version: 1.0-draft  
@@ -874,3 +881,10 @@ The protocol version is declared in the `register` message via `metadata.protoco
   }
 }
 ```
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-cc-connect]] — core-cc-connect
+- [[MOC - Skills]] — Skills library
+

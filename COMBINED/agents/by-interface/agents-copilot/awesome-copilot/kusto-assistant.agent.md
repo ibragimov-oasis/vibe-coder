@@ -24,6 +24,10 @@ tools:
     "usages",
     "vscodeAPI",
   ]
+tags:
+  - domain/agents
+  - artifact/agent
+  - source/by-interface/agents-copilot
 ---
 
 # Kusto Assistant: Azure Data Explorer (Kusto) Engineering Assistant
@@ -142,3 +146,9 @@ Response: Execute immediately:
 3. Execute analytical query for heartbeat counts with ago(5m) time filter
 4. Show results directly - no permission needed
 ```
+
+## 🔗 Связи
+
+- [[MOC - Agents]] — Agent catalog
+- [[agents/agents-copilot]] — Interface: agents-copilot
+

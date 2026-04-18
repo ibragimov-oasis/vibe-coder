@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # Marketing Skills — Agent Instructions
 
 ## For All Agents (Claude Code, Codex CLI, OpenClaw)
@@ -37,3 +44,9 @@ No pip install needed. Scripts include embedded samples for demo mode (run with 
 ❌ Don't skip marketing-context.md if it exists
 ❌ Don't use content-creator (deprecated → use content-production)
 ❌ Don't install pip packages for Python tools
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

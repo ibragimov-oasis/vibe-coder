@@ -2,6 +2,10 @@
 name: continuous-learning
 description: 自动从Claude Code会话中提取可重复使用的模式，并将其保存为学习到的技能以供将来使用。
 origin: ECC
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-everything-cc
 ---
 
 # 持续学习技能
@@ -118,3 +122,9 @@ Homunculus v2 采用了更复杂的方法：
 5. **演进路径** - 将相关本能聚类为技能/命令
 
 参见：`docs/continuous-learning-v2-spec.md` 以获取完整规范。
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

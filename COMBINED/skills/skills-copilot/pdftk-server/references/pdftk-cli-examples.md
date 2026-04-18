@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-copilot
+---
+
 # PDFtk CLI Examples
 
 PDFtk is a command-line program. Use your computer terminal or command prompt when running these examples.
@@ -191,3 +198,9 @@ Unpack all embedded files:
 ```bash
 pdftk input.pdf unpack_files output /path/to/output/
 ```
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-copilot]] — Category: skills-copilot
+

@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # Padroes de Orquestracao Multi-Skill
 
 Guia detalhado para coordenar multiplos skills em workflows complexos.
@@ -127,3 +134,9 @@ Formato padrao para passar dados entre skills:
   }
 }
 ```
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

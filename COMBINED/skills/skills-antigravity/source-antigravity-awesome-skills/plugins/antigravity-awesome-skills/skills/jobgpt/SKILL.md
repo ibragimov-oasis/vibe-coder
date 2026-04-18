@@ -4,6 +4,10 @@ description: "Job search automation, auto apply, resume generation, application 
 risk: safe
 source: community
 date_added: "2026-03-23"
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 # JobGPT - Job Search Automation
@@ -98,3 +102,9 @@ The skill uses `get_application_stats` for an aggregated overview - total counts
 - [MCP Server Repo](https://github.com/6figr-com/jobgpt-mcp-server) - Source code and setup guides
 - [Skills Repo](https://github.com/6figr-com/skills) - This skill's source
 - [npm Package](https://www.npmjs.com/package/jobgpt-mcp-server) - Install via npm
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

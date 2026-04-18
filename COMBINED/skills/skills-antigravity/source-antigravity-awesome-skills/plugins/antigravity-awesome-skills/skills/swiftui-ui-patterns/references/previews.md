@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # Previews
 
 ## Intent
@@ -46,3 +53,9 @@ Use previews to validate layout, state wiring, and injected dependencies without
 - Do not hide preview crashes by making dependencies optional if the production view requires them.
 - Avoid huge inline fixtures when a named sample is easier to read.
 - Do not couple previews to global shared singletons unless the project has no alternative.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

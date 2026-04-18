@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # Findings & Decisions
 <!-- 
   WHAT: Your knowledge base for the task. Stores everything you discover and decide.
@@ -93,3 +100,9 @@
 -->
 *Update this file after every 2 view/browser/search operations*
 *This prevents visual information from being lost*
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

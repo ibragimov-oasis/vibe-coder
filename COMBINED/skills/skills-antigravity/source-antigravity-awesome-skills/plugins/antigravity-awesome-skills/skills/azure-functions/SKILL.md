@@ -4,6 +4,10 @@ description: "Modern .NET execution model with process isolation"
 risk: none
 source: "vibeship-spawner-skills (Apache 2.0)"
 date_added: "2026-02-27"
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 # Azure Functions
@@ -45,3 +49,9 @@ Decorator-based approach for Python functions
 
 ## When to Use
 This skill is applicable to execute the workflow or actions described in the overview.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

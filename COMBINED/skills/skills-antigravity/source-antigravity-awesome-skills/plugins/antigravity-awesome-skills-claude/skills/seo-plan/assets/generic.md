@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 <!-- Updated: 2026-02-07 -->
 # Generic Business SEO Strategy Template
 
@@ -142,3 +149,9 @@ Adjust this template based on:
 - [ ] Structure content with clear headings, definitions, and step-by-step formats
 - [ ] Consider adding an `llms.txt` file at site root (emerging convention for AI crawlers: Google treats it as a regular text file)
 - [ ] Monitor AI citation across Google AI Overviews, ChatGPT, Perplexity, and Bing Copilot
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

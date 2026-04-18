@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-omc
+---
+
 # Tiered Agents v2 Architecture Design
 
 ## Overview
@@ -321,3 +328,10 @@ Intelligent routing can reduce costs by ~47% while improving quality for complex
 3. Update router to use agent capability parsing
 4. Add telemetry for tier usage optimization
 5. Create tests for escalation scenarios
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-omc]] — core-omc
+- [[MOC - Skills]] — Skills library
+

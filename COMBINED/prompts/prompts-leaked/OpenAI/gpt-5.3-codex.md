@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/prompts
+  - artifact/prompt
+  - source/prompts-leaked
+---
+
 # OpenAI Codex CLI — System Prompt
 
 **Model:** `gpt-5.3-codex` (codename: `codex_bengalfox` / "GPT-5.3-Codex-Spark")  
@@ -184,3 +191,9 @@ A skill is a set of local instructions to follow that is stored in a `SKILL.md` 
 - **Coordination and sequencing:** If multiple skills apply, choose the minimal set that covers the request and state the order you'll use them. Announce which skill(s) you're using and why (one short line). If you skip an obvious skill, say why.
 - **Context hygiene:** Keep context small: summarize long sections instead of pasting them; only load extra files when needed. Avoid deep reference-chasing: prefer opening only files directly linked from `SKILL.md` unless you're blocked. When variants exist (frameworks, providers, domains), pick only the relevant reference file(s) and note that choice.
 - **Safety and fallback:** If a skill can't be applied cleanly (missing files, unclear instructions), state the issue, pick the next-best approach, and continue.
+
+## 🔗 Связи
+
+- [[MOC - Prompts]] — Prompt library
+- [[MOC - System]] — System documentation
+

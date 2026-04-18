@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # AI Assistant Development Implementation Playbook
 
 This file contains detailed patterns, checklists, and code samples referenced by the skill.
@@ -1234,3 +1241,9 @@ class ABTestingFramework:
 9. **Improvement Pipeline**: Continuous improvement processes
 
 Focus on creating production-ready AI assistants that provide real value through natural conversations, intelligent responses, and continuous learning from user interactions.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

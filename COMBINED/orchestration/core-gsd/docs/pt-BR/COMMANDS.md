@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-gsd
+---
+
 # Referência de Comandos do GSD
 
 Este documento descreve os comandos principais do GSD em Português.  
@@ -80,3 +87,10 @@ Para detalhes completos de flags avançadas e mudanças recentes, consulte tamb�
 /gsd:verify-work 1
 /gsd:ship 1
 ```
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-gsd]] — core-gsd
+- [[MOC - Skills]] — Skills library
+

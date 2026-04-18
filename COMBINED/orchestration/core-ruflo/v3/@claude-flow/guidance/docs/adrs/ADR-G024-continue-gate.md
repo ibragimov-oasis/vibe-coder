@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # ADR-G024: Continue Gate
 
 **Status:** Accepted
@@ -59,3 +66,10 @@ The gate maintains an evaluation history (max 10,000 entries) and provides aggre
 - **Hard timeout only**: Misses the case where the agent is slow but productive; timeout is a blunt instrument
 - **Token budget as sole control**: Does not detect rework or coherence degradation
 - **Supervisor agent**: Adds latency and coordination overhead; the continue gate is local and synchronous
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

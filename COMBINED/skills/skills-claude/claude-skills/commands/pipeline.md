@@ -1,6 +1,11 @@
 ---
 name: pipeline
 description: Detect stack and generate CI/CD pipeline configs. Usage: /pipeline <detect|generate> [options]
+tags:
+  - domain/agents
+  - artifact/skill
+  - source/skills-claude
+  - artifact/doc
 ---
 
 # /pipeline
@@ -28,3 +33,10 @@ Detect project stack and generate CI/CD pipeline configurations for GitHub Actio
 
 ## Skill Reference
 → `engineering/ci-cd-pipeline-builder/SKILL.md`
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+- [[MOC - Agents]] — Claude agents
+

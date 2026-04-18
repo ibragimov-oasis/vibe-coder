@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # Anti-Reversing Techniques Implementation Playbook
 
 This file contains detailed patterns, checklists, and code samples referenced by the skill.
@@ -537,3 +544,9 @@ Never use to bypass protections for:
 - Software piracy
 - Unauthorized access
 - Malicious purposes
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

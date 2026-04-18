@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # Intelligent Issue Resolution with Multi-Agent Orchestration Implementation Playbook
 
 This file contains detailed patterns, checklists, and code samples referenced by the skill.
@@ -836,3 +843,9 @@ A fix is considered complete when ALL of the following are met:
 - Deployment success rate: > 95% (rollback rate < 5%)
 
 Issue to resolve: $ARGUMENTS
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

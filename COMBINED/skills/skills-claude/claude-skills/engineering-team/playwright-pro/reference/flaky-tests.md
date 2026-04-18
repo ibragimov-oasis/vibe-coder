@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # Flaky Test Quick Reference
 
 ## Diagnosis Commands
@@ -54,3 +61,9 @@ export default defineConfig({
   timeout: process.env.CI ? 60_000 : 30_000,
 });
 ```
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

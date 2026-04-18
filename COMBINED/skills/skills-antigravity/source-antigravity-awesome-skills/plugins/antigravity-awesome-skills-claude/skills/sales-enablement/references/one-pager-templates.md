@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # One-Pager Templates
 
 Templates for different one-pager use cases, with layout guidance and copy prompts.
@@ -206,3 +213,9 @@ Questions? Talk to [Champion name] or [Your name at email].
 - **PDF** for email attachments and leave-behinds
 - **Google Slides / PowerPoint** for editable versions reps can customize
 - Always include both — reps will customize, prospects want clean PDFs
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

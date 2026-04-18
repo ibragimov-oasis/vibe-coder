@@ -1,5 +1,9 @@
 ---
 description: Comprehensive Go code review for idiomatic patterns, concurrency safety, error handling, and security. Invokes the go-reviewer agent.
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
 ---
 
 # Go 程式碼審查
@@ -85,3 +89,9 @@ govulncheck ./...
 
 - Agent：`agents/go-reviewer.md`
 - 技能：`skills/golang-patterns/`、`skills/golang-testing/`
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

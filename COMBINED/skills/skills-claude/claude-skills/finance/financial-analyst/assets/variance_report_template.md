@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # Budget Variance Report
 
 ## Report Header
@@ -120,3 +127,9 @@ Based on current variances, the full-year forecast is adjusted as follows:
 ---
 
 *Report generated using Financial Analyst Skill - Budget Variance Analyzer*
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

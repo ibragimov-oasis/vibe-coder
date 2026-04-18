@@ -6,6 +6,10 @@ area: server
 audience: [developer]
 sidebar:
   order: 6
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-archon
 ---
 
 Archon exposes a REST API via a [Hono](https://hono.dev/) server with OpenAPI spec generation. All endpoints are prefixed with `/api/`.
@@ -415,3 +419,10 @@ curl -X POST http://localhost:3090/api/workflows/archon-assist/run \
 # 3. Monitor via SSE
 curl -N http://localhost:3090/api/stream/$CONV_ID
 ```
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/archon]] — Archon
+- [[000 - Map of Maps]] — Map of Maps
+

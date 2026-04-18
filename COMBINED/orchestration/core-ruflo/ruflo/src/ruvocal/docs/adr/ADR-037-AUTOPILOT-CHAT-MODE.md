@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # ADR-037: Autopilot Mode with Parallel Task UI, Web Workers & RuVector WASM
 
 **Status:** Accepted
@@ -1498,3 +1505,10 @@ User: "Monitor all our Cloud Run services"
 - [agentic-flow](https://www.npmjs.com/package/agentic-flow) — autonomous agent backend
 - [ruvector](https://www.npmjs.com/package/ruvector) — WASM-compiled intelligence runtime
 - Claude Code — UX inspiration for parallel tool cards and bypass mode
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

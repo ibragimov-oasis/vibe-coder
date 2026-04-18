@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # @claude-flow/performance
 
 [![npm version](https://img.shields.io/npm/v/@claude-flow/performance.svg)](https://www.npmjs.com/package/@claude-flow/performance)
@@ -254,3 +261,9 @@ import type {
 ## License
 
 MIT
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-ruflo]] — core-ruflo
+

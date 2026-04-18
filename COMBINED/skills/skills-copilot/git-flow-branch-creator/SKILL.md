@@ -1,6 +1,10 @@
 ---
 name: git-flow-branch-creator
 description: 'Intelligent Git Flow branch creator that analyzes git status/diff and creates appropriate branches following the nvie Git Flow branching model.'
+tags:
+  - domain/agents
+  - artifact/skill
+  - source/skills-copilot
 ---
 
 ### Instructions
@@ -290,3 +294,10 @@ description: 'Intelligent Git Flow branch creator that analyzes git status/diff 
 	</merge-strategy>
 </gitflow-reference>
 ```
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-copilot]] — Category: skills-copilot
+- [[MOC - Agents]] — Copilot agents
+

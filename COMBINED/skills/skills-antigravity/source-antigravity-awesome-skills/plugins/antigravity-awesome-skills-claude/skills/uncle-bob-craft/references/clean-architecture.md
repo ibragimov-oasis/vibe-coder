@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # Clean Architecture — Deep Reference
 
 Based on Robert C. Martin, *Clean Architecture* (2017). Use this when you need detailed criteria for dependency direction, layers, and boundaries.
@@ -54,3 +61,9 @@ Use this when discussing module/package boundaries beyond single layers. For ful
 ---
 
 Use this reference when reviewing for "dependency direction," "layer violations," or "missing boundaries."
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-praisonai
+---
+
 # Provider Examples
 
 Examples demonstrating how to use different LLM providers with PraisonAI TypeScript.
@@ -45,3 +52,9 @@ npx tsx examples/js/providers/local-ollama.ts
 | Mistral | `MISTRAL_API_KEY` | `...` |
 | DeepSeek | `DEEPSEEK_API_KEY` | `...` |
 | Ollama | `OLLAMA_BASE_URL` | `http://localhost:11434` |
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-praisonai]] — core-praisonai
+

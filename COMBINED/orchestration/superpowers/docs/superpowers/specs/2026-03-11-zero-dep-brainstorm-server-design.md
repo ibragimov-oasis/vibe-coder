@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/superpowers
+---
+
 # Zero-Dependency Brainstorm Server
 
 Replace the brainstorm companion server's vendored node_modules (express, ws, chokidar — 714 tracked files) with a single zero-dependency `server.js` using only Node.js built-ins.
@@ -116,3 +123,10 @@ Debounce per-filename with ~100ms timeout to prevent duplicate events (common on
 **Unit tests** (`ws-protocol.test.js`): Test WebSocket frame encoding/decoding, handshake computation, and protocol edge cases directly by requiring `server.js` exports.
 
 **Integration tests** (`server.test.js`): Test full server behavior — HTTP serving, WebSocket communication, file watching, brainstorming workflow. Uses `ws` npm package as a test-only client dependency (not shipped to end users).
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/superpowers]] — Superpowers
+- [[000 - Map of Maps]] — Map of Maps
+

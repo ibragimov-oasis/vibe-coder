@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-copilot
+---
+
 # 6522 VIA (Versatile Interface Adapter) Emulation Specification
 
 A technical Markdown specification for **emulating the MOS Technology / WDC 6522 VIA**, suitable for 6502-family emulators, SBC simulators, and retrocomputing software environments.
@@ -286,3 +293,9 @@ CPU cycle  VIA tick  update timers  update IRQ
 **Document Scope:** Software emulation of the 6522 VIA
 **Audience:** Emulator developers, SBC designers
 **Status:** Stable technical reference
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-copilot]] — Category: skills-copilot
+

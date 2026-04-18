@@ -2,6 +2,10 @@
 title: "Google Cloud Healthcare API"
 type: docs
 description: "Details of the Google Cloud Healthcare API prebuilt configuration."
+tags:
+  - domain/mcp
+  - artifact/mcp-server
+  - source/mcp-servers
 ---
 
 ## Google Cloud Healthcare API
@@ -33,3 +37,9 @@ description: "Details of the Google Cloud Healthcare API prebuilt configuration.
     *   `search_dicom_series`: Searches for DICOM series.
     *   `search_dicom_instances`: Searches for DICOM instances.
     *   `retrieve_rendered_dicom_instance`: Retrieves a rendered DICOM instance.
+
+## 🔗 Связи
+
+- [[MOC - MCP Servers]] — mcp-servers
+- [[000 - Map of Maps]] — Map of Maps
+

@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/root
+---
+
 # ⚡ QUICKSTART — Get Running in 5 Minutes
 
 > Clone → Copy → Vibe. That's it.
@@ -200,3 +207,8 @@ pip install openviking --upgrade --force-reinstall
 ---
 
 *Part of the [Vibe-Coder Arsenal](https://github.com/ibragimov-oasis/vibe-coder) — 31 repos, 1 toolkit.*
+
+## 🔗 Связи
+
+- [[000 - Map of Maps]] — Map of Maps
+

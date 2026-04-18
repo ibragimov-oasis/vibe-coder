@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/agent
+  - source/by-interface/agents-copilot
+---
+
 # Automate This
 
 You know that thing you do every week — the fifteen-click, four-app, copy-paste-into-spreadsheet-and-email-it process that makes you want to throw your laptop into the ocean? Record yourself doing it once, hand the video to Copilot CLI, and let it write the script that does it for you.
@@ -85,3 +92,9 @@ This plugin is part of [Awesome Copilot](https://github.com/github/awesome-copil
 ## License
 
 MIT
+
+## 🔗 Связи
+
+- [[MOC - Agents]] — Agent catalog
+- [[agents/agents-copilot]] — Interface: agents-copilot
+

@@ -1,6 +1,10 @@
 ---
 description: 'Instructions for building Model Context Protocol (MCP) servers using the TypeScript SDK'
 applyTo: '**/*.ts, **/*.js, **/package.json'
+tags:
+  - domain/agents
+  - artifact/agent
+  - source/by-interface/agents-copilot
 ---
 
 # TypeScript MCP Server Development
@@ -226,3 +230,9 @@ server.registerTool(
     }
 );
 ```
+
+## 🔗 Связи
+
+- [[MOC - Agents]] — Agent catalog
+- [[agents/agents-copilot]] — Interface: agents-copilot
+

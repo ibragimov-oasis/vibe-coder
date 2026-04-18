@@ -7,6 +7,10 @@ description: |
   makepad DSL 语法, makepad 继承, makepad 原型, 如何定义 makepad 组件
 risk: safe
 source: community
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 # Makepad DSL Skill
@@ -154,3 +158,9 @@ Child = <Parent> {
 2. Emphasize that DSL is embedded in Rust via `live_design!` macro
 3. Highlight that changes to DSL are live-reloaded without recompilation
 4. Distinguish between named objects (prototypes) and widget instances
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

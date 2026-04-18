@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-taskmaster
+---
+
 Clear all subtasks from all tasks globally.
 
 ## Global Subtask Clearing
@@ -91,3 +98,10 @@ Next steps:
 - Re-expand complex tasks as needed
 - Check project timeline
 ```
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/task-master]] — Task-Master
+- [[000 - Map of Maps]] — Map of Maps
+

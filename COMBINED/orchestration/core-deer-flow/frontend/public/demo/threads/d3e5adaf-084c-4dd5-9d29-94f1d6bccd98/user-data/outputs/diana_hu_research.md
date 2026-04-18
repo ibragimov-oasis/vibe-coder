@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-deer-flow
+---
+
 # Diana Hu: Technical Startup Founder Advice - Comprehensive Research
 
 ## Video Overview
@@ -370,3 +377,10 @@
 ---
 
 _Research compiled from YouTube transcript, web searches, and Y Combinator resources. Last updated: January 25, 2026_
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/deerflow]] — DeerFlow
+- [[000 - Map of Maps]] — Map of Maps
+

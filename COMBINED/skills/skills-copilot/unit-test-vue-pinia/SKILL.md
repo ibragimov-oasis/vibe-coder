@@ -2,6 +2,10 @@
 name: unit-test-vue-pinia
 category: testing
 description: 'Write and review unit tests for Vue 3 + TypeScript + Vitest + Pinia codebases. Use when creating or updating tests for components, composables, and stores; mocking Pinia with createTestingPinia; applying Vue Test Utils patterns; and enforcing black-box assertions over implementation details.'
+tags:
+  - domain/agents
+  - artifact/skill
+  - source/skills-copilot
 ---
 
 # unit-test-vue-pinia
@@ -196,3 +200,10 @@ expect(wrapper.emitted("save")?.[0]?.[0]).toBe("Agent Violet");
 - `references/pinia-patterns.md`
 - Pinia testing cookbook: <https://pinia.vuejs.org/cookbook/testing.html>
 - Vue Test Utils guide: <https://test-utils.vuejs.org/guide/>
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-copilot]] — Category: skills-copilot
+- [[MOC - Agents]] — Copilot agents
+

@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-taskmaster
+---
+
 # Phase 3: Extensibility + Guardrails - Autonomous TDD Workflow
 
 ## Objective
@@ -532,3 +539,10 @@ Test with:
 - Parallel execution with 3+ independent subtasks
 - TUI with task selection and live status updates
 - VS Code extension reading state files
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-taskmaster]] — core-taskmaster
+- [[MOC - Skills]] — Skills library
+

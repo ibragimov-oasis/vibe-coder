@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # Hook Mechanisms - Deep Dive
 
 Technical deep dive into how the UserPromptSubmit and PreToolUse hooks work.
@@ -304,3 +311,9 @@ The hook cannot detect when the skill is *actually* invoked - it just blocks onc
 - [SKILL.md](SKILL.md) - Main skill guide
 - [TROUBLESHOOTING.md](TROUBLESHOOTING.md) - Debug hook issues
 - [SKILL_RULES_REFERENCE.md](SKILL_RULES_REFERENCE.md) - Configuration reference
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

@@ -9,6 +9,10 @@ metadata:
   domain: company-operations
   updated: 2026-03-05
   frameworks: os-comparison, implementation-guide
+tags:
+  - domain/agents
+  - artifact/skill
+  - source/skills-claude
 ---
 
 # Company Operating System
@@ -234,3 +238,10 @@ The company OS is the connective tissue. Every other role depends on it:
 ## Detailed References
 - `references/os-comparison.md` — EOS vs Scaling Up vs OKRs vs Holacracy vs hybrid
 - `references/implementation-guide.md` — 90-day implementation plan
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+- [[MOC - Agents]] — Claude agents
+

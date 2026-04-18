@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
+---
+
 # 性能优化
 
 ## 模型选择策略
@@ -53,3 +60,9 @@
 2. 分析错误消息
 3. 增量修复
 4. 每次修复后验证
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

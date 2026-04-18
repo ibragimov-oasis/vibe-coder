@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # Sales Deck Frameworks
 
 Detailed slide-by-slide guidance for building sales decks that tell a story and close deals.
@@ -261,3 +268,9 @@ Jumping to product features before establishing the problem. The buyer has no fr
 
 ### The Kitchen Sink
 Trying to address every persona, every use case, every feature in one deck. The result is a 40-slide monster that nobody wants to sit through.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

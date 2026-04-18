@@ -4,6 +4,10 @@ description: "Use when working with debugging toolkit smart debug"
 risk: unknown
 source: community
 date_added: "2026-02-27"
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 ## Use this skill when
@@ -198,3 +202,9 @@ Focus on actionable insights. Use AI assistance throughout for pattern recogniti
 ---
 
 Issue to debug: $ARGUMENTS
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

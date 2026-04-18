@@ -1,6 +1,10 @@
 ---
 name: video-generation
 description: Use this skill when the user requests to generate, create, or imagine videos. Supports structured prompts and reference image for guided generation.
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/REPO_DOCS
 ---
 
 # Video Generation Skill
@@ -137,3 +141,9 @@ After generation:
 - JSON format ensures structured, parsable prompts
 - Reference image enhance generation quality significantly
 - Iterative refinement is normal for optimal results
+
+## 🔗 Связи
+
+- [[000 - Map of Maps]] — REPO_DOCS
+- [[000 - Map of Maps]] — Map of Maps
+

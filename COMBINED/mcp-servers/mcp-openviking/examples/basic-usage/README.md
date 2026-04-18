@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/mcp
+  - artifact/mcp-server
+  - source/mcp-servers
+---
+
 # Basic Usage Example: Getting Started with OpenViking Python SDK
 
 This example demonstrates the core features of OpenViking using the Python SDK. It covers the essential operations for building AI Agent applications with persistent context management.
@@ -305,3 +312,9 @@ class MemoryAssistant:
 ## License
 
 Apache License 2.0
+
+## 🔗 Связи
+
+- [[MOC - MCP Servers]] — mcp-servers
+- [[000 - Map of Maps]] — Map of Maps
+

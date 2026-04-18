@@ -1,6 +1,10 @@
 ---
 title: "/em:hard-call — Framework for Decisions With No Good Options — Agent Skill for Executives"
 description: "/em -hard-call — Framework for Decisions With No Good Options. Agent skill for Claude Code, Codex CLI, Gemini CLI, OpenClaw."
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
 ---
 
 # /em:hard-call — Framework for Decisions With No Good Options
@@ -166,3 +170,9 @@ You know you've been avoiding a hard call if:
 Every month you wait, the problem compounds. The co-founder who's not working out becomes more entrenched. The product line that needs to die consumes more resources. The person who needs to be let go affects the people around them.
 
 Make the call. Make it clearly. Make it with dignity.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

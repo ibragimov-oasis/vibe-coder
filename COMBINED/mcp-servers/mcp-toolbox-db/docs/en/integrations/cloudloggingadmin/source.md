@@ -6,6 +6,10 @@ weight: 1
 description: >
   The Cloud Logging Admin source enables tools to interact with the Cloud Logging API, allowing for the retrieval of log names, monitored resource types, and the querying of log data.
 no_list: true
+tags:
+  - domain/mcp
+  - artifact/mcp-server
+  - source/mcp-servers
 ---
 
 ## About
@@ -64,3 +68,9 @@ impersonateServiceAccount: "my-service-account@my-project.iam.gserviceaccount.co
 | project                     |  string  |     true     | ID of the GCP project.                                                                                                                                                                          |
 | useClientOAuth              | boolean  |    false     | If true, the source will use client-side OAuth for authorization. Otherwise, it will use Application Default Credentials. Defaults to `false`. Cannot be used with `impersonateServiceAccount`. |
 | impersonateServiceAccount   |  string  |    false     | The service account to impersonate for API calls. Cannot be used with `useClientOAuth`.                                                                                                         |
+
+## 🔗 Связи
+
+- [[MOC - MCP Servers]] — mcp-servers
+- [[000 - Map of Maps]] — Map of Maps
+

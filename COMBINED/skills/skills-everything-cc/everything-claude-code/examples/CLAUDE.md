@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
+---
+
 # Example Project CLAUDE.md
 
 This is an example project-level CLAUDE.md file. Place this in your project root.
@@ -98,3 +105,9 @@ DEBUG=false
 - Never commit to main directly
 - PRs require review
 - All tests must pass before merge
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

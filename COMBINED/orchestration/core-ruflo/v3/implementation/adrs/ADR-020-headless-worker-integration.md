@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # ADR-020: Headless Worker Integration Architecture
 
 **Status:** Implemented
@@ -838,3 +845,10 @@ volumes:
 - `docker/Dockerfile.headless` - Worker container image
 - `docker/docker-compose.workers.yml` - Multi-container orchestration
 - `__tests__/services/headless-worker-executor.test.ts` - Comprehensive test suite
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

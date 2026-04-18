@@ -8,6 +8,9 @@ metadata:
   hermes:
     tags: [Coding-Agent, Claude, Anthropic, Code-Review, Refactoring]
     related_skills: [codex, hermes-agent]
+  - domain/skills
+  - artifact/skill
+  - source/skills-hermes
 ---
 
 # Claude Code
@@ -92,3 +95,9 @@ process(action="list")
 3. **Background for long tasks** — use `background=true` and monitor with `process` tool
 4. **Don't interfere** — monitor with `poll`/`log`, don't kill sessions because they're slow
 5. **Report results** — after completion, check what changed and summarize for the user
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-hermes]] — Category: skills-hermes
+

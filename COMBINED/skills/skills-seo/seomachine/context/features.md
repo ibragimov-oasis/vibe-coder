@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/seo
+  - artifact/doc
+  - source/skills-seo
+---
+
 # [YOUR COMPANY] Features & Benefits
 
 <!-- INSTRUCTIONS: This document outlines your key features, benefits, and differentiators.
@@ -251,3 +258,9 @@ When writing about [YOUR COMPANY] features:
 ---
 
 *Note: Update this document as new features launch or positioning changes. Keep messaging aligned with current marketing campaigns and homepage copy.*
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-seo]] — Category: skills-seo
+

@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # CI Integration Examples
 
 ## GitHub Actions
@@ -24,3 +31,9 @@ changelog_lint:
   script:
     - python3 engineering/changelog-generator/scripts/commit_linter.py --to-ref HEAD --strict
 ```
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

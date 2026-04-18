@@ -12,6 +12,10 @@ allowed-tools:
   - WebFetch
   - AskUserQuestion
   - mcp__context7__*
+tags:
+  - domain/skills
+  - artifact/command
+  - source/commands
 ---
 <objective>
 Create a UI design contract (UI-SPEC.md) for a frontend phase.
@@ -32,3 +36,9 @@ Phase number: $ARGUMENTS — optional, auto-detects next unplanned phase if omit
 Execute @~/.claude/get-shit-done/workflows/ui-phase.md end-to-end.
 Preserve all workflow gates.
 </process>
+
+## 🔗 Связи
+
+- [[MOC - System]] — commands
+- [[000 - Map of Maps]] — Map of Maps
+

@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
+---
+
 # Sistema de Hooks
 
 ## Tipos de Hook
@@ -28,3 +35,9 @@ A lista de tarefas revela:
 - Itens extras desnecessários
 - Granularidade incorreta
 - Requisitos mal interpretados
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

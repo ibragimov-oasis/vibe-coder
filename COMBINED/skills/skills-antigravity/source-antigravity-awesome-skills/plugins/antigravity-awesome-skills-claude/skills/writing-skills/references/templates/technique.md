@@ -4,6 +4,10 @@ description: Use when [specific symptom].
 metadata:
   category: technique
   triggers: error-text, symptom, tool-name
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
 ---
 
 # Technique Name
@@ -57,3 +61,9 @@ function goodCode() {
 **Mistake 1:** [Description]
 - Wrong: `bad code`
 - Right: `good code`
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

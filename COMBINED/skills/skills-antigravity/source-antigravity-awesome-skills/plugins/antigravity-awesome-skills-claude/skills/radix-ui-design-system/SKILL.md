@@ -4,6 +4,10 @@ description: "Build accessible design systems with Radix UI primitives. Headless
 risk: safe
 source: self
 date_added: "2026-02-27"
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 # Radix UI Design System
@@ -846,3 +850,9 @@ npm install @radix-ui/react-{primitive-name}
 ---
 
 **Remember**: Radix gives you **behavior**, you give it **beauty**. Accessibility is built-in, customization is unlimited.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

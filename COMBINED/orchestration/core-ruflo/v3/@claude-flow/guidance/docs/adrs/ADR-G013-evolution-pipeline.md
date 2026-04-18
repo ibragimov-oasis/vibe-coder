@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # ADR-G013: Evolution Pipeline
 
 **Status:** Accepted
@@ -74,3 +81,10 @@ Before staging, every proposal is simulated against recorded golden traces:
 - **Manual rule editing**: No audit trail, no simulation, no rollback
 - **Feature flags**: Too coarse (on/off), no staged rollout or simulation
 - **Canary deployments only**: Missing the simulation step that catches issues before any real traffic
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

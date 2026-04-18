@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # Setup Guide — Stable Diffusion Skill
 
 ## 1. Criar Conta na Stability AI
@@ -92,3 +99,9 @@ A imagem sera salva em `data/outputs/`.
 - O `.env` esta no `.gitignore` (nao committar!)
 - Limite diario configuravel: `SAFETY_MAX_IMAGES_PER_DAY=100` (env var)
 - Contador diario em `data/daily_counter.json`
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

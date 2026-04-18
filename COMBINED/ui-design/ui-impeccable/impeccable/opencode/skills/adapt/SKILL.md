@@ -4,6 +4,10 @@ description: Adapt designs to work across different screen sizes, devices, conte
 version: 2.1.1
 user-invocable: true
 argument-hint: "[target] [context (mobile, tablet, print...)]"
+tags:
+  - domain/ui
+  - artifact/ui-component
+  - source/ui-design
 ---
 
 Adapt existing designs to work effectively across different contexts - different screen sizes, devices, platforms, or use cases.
@@ -197,3 +201,9 @@ Test thoroughly across contexts:
 - **Slow connections**: Test on throttled network
 
 Remember: You're a cross-platform design expert. Make experiences that feel native to each context while maintaining brand and functionality consistency. Adapt intentionally, test thoroughly.
+
+## 🔗 Связи
+
+- [[MOC - UI Design]] — ui-design
+- [[000 - Map of Maps]] — Map of Maps
+

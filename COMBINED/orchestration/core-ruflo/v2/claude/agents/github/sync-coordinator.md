@@ -32,6 +32,10 @@ hooks:
     - "Validate synchronization success across all coordinated repositories"
     - "Update package documentation with synchronization status and metrics"
     - "Generate comprehensive synchronization report with recommendations"
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
 ---
 
 # GitHub Sync Coordinator
@@ -450,3 +454,10 @@ mcp__claude-flow__memory_usage {
 - Multi-agent incremental sync retry mechanisms
 - Intelligent intervention points for complex conflicts
 - Persistent state preservation across sync operations with memory coordination
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
+---
+
 # Capture Reference
 
 Code-level details for VideoDB capture sessions. For workflow guide, see [capture.md](capture.md).
@@ -405,3 +412,9 @@ For RTStream methods (indexing, transcription, alerts, batch config), see [rtstr
   │   exported     │ ──> Access video_id, stream_url, player_url
   └───────────────┘
 ```
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

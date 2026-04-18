@@ -1,6 +1,10 @@
 ---
 name: add-model-descriptions
 description: Add descriptions for new models from the HuggingFace router to chat-ui configuration. Use when new models are released on the router and need descriptions added to prod.yaml and dev.yaml. Triggers on requests like "add new model descriptions", "update models from router", "sync models", or when explicitly invoking /add-model-descriptions.
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
 ---
 
 # Add Model Descriptions
@@ -71,3 +75,10 @@ Add descriptions for new models available in the HuggingFace router to chat-ui's
 - Vision models: mention "vision-language" and key visual tasks
 - Agent models: mention "agent" and automation capabilities
 - Regional models: mention language focus (e.g., "European multilingual", "Southeast Asian")
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

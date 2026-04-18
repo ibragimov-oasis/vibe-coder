@@ -1,6 +1,10 @@
 ---
 name: game-engine
 description: 'Expert skill for building web-based game engines and games using HTML5, Canvas, WebGL, and JavaScript. Use when asked to create games, build game engines, implement game physics, handle collision detection, set up game loops, manage sprites, add game controls, or work with 2D/3D rendering. Covers techniques for platformers, breakout-style games, maze games, tilemaps, audio, multiplayer via WebRTC, and publishing games.'
+tags:
+  - domain/agents
+  - artifact/skill
+  - source/skills-copilot
 ---
 
 # Game Engine Skill
@@ -137,3 +141,10 @@ Detailed reference material is available in the `references/` folder. Consult th
 | Performance is poor | Profile with browser dev tools, reduce draw calls, use object pooling, and optimize asset sizes |
 | Touch controls are unresponsive | Prevent default touch behavior and handle touch events separately from mouse events |
 | WebGL context lost | Handle the `webglcontextlost` event and restore state on `webglcontextrestored` |
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-copilot]] — Category: skills-copilot
+- [[MOC - Agents]] — Copilot agents
+

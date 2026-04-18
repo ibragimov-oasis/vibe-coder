@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 ## v7.2.0 - 社区 PR 丰收与清理 (2026-03-08)
 
 **合并了八个 PR：删除了 44 个损坏的技能，恢复了 zebbern 署名，中文文档，新技能（audit-skills、senior-frontend、shadcn、frontend-slides 更新、pakistan-payments-stack），以及可解释的自动分类。**
@@ -30,3 +37,9 @@
 ---
 
 _升级: `git pull origin main` 或 `npx antigravity-awesome-skills`。_
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

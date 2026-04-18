@@ -27,6 +27,10 @@ description: |
   planning, building, reviewing, debugging, committing, or shipping code.
   NOT for: Running Archon CLI workflows in worktrees (use /archon instead).
 argument-hint: "[cookbook] [task description or issue number]"
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-archon
 ---
 
 # archon-dev
@@ -119,3 +123,10 @@ Do NOT hardcode project-specific commands. Detect dynamically:
 3. **Fail fast**: Surface errors immediately, never swallow them
 4. **Respect CLAUDE.md**: Project conventions override cookbook defaults
 5. **No AI attribution**: Never add "Generated with Claude" or "Co-Authored-By: Claude" to commits or PRs
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/archon]] — Archon
+- [[000 - Map of Maps]] — Map of Maps
+

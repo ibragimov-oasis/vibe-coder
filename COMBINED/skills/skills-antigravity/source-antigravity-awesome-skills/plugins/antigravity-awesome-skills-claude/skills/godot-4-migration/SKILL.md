@@ -4,6 +4,10 @@ description: "Specialized guide for migrating Godot 3.x projects to Godot 4 (GDS
 risk: safe
 source: community
 date_added: "2026-02-27"
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 # Godot 4 Migration Guide
@@ -125,3 +129,9 @@ await get_tree().create_timer(1.0).timeout
 
 **Problem:** "Identifier 'Tween' is not a valid type."
 **Solution:** `Tween` is now `SceneTreeTween` or just an object returned by `create_tween()`. You rarely type it explicitly, just use `var tween = create_tween()`.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

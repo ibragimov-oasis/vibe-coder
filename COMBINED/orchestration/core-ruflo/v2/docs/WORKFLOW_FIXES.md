@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # GitHub Workflows - Critical Fixes Applied
 
 **Date**: 2025-11-24
@@ -290,3 +297,10 @@ Generated analysis documents:
 ---
 
 **Status**: Ready for commit and deployment 🚀
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-ruflo]] — core-ruflo
+- [[MOC - Skills]] — Skills library
+

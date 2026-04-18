@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
+---
+
 # 安全指南
 
 ## 强制安全检查
@@ -27,3 +34,9 @@
 3. 在继续之前修复关键问题
 4. 轮换任何已暴露的密钥
 5. 审查整个代码库中的类似问题
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

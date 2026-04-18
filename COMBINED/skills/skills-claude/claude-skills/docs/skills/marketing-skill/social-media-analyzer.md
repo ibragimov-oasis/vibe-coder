@@ -1,6 +1,10 @@
 ---
 title: "Social Media Analyzer — Agent Skill for Marketing"
 description: "Social media campaign analysis and performance tracking. Calculates engagement rates, ROI, and benchmarks across platforms. Use for analyzing social. Agent skill for Claude Code, Codex CLI, Gemini CLI, OpenClaw."
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
 ---
 
 # Social Media Analyzer
@@ -307,3 +311,9 @@ All output passes quality verification:
 - **campaign-analytics**: For cross-channel analytics including social.
 - **content-strategy**: For planning social content themes.
 - **marketing-context**: Provides audience context for better analysis.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

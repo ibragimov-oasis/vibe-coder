@@ -3,6 +3,10 @@ name: build-error-resolver
 description: ビルドおよびTypeScriptエラー解決のスペシャリスト。ビルドが失敗した際やタイプエラーが発生した際に積極的に使用してください。最小限の差分でビルド/タイプエラーのみを修正し、アーキテクチャの変更は行いません。ビルドを迅速に成功させることに焦点を当てます。
 tools: ["Read", "Write", "Edit", "Bash", "Grep", "Glob"]
 model: opus
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
 ---
 
 # ビルドエラーリゾルバー
@@ -532,3 +536,9 @@ npm install
 ---
 
 **覚えておくこと**: 目標は最小限の変更でエラーを迅速に修正することです。リファクタリングせず、最適化せず、再設計しません。エラーを修正し、ビルドが成功することを確認し、次に進みます。完璧さよりもスピードと精度を重視します。
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

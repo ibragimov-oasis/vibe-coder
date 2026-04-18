@@ -15,6 +15,10 @@ allowedTools:
   - "Agent"
   - "NotebookEdit"
   - "mcp__*"
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
 ---
 
 # Workflow Changelog — Concepts Research Agent
@@ -136,3 +140,9 @@ Be thorough and specific. Include URLs, version numbers, and exact text where po
 1. [Claude Code Docs Index](https://code.claude.com/docs/en) — Official documentation navigation
 2. [Changelog](https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md) — Claude Code release history
 3. [Features Overview](https://code.claude.com/docs/en/overview) — Official feature descriptions
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

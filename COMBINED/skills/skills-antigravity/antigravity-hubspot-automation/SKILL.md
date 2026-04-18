@@ -4,6 +4,10 @@ description: "Automate HubSpot CRM operations (contacts, companies, deals, ticke
 risk: critical
 source: community
 date_added: "2026-02-27"
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 # HubSpot CRM Automation via Rube MCP
@@ -179,3 +183,9 @@ Automate HubSpot CRM workflows including contact/company management, deal pipeli
 
 ## When to Use
 This skill is applicable to execute the workflow or actions described in the overview.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

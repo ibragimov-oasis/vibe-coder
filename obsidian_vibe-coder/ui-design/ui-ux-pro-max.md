@@ -55,3 +55,9 @@ source: "../COMBINED/ui-design/ui-rules/ui-ux-pro-max/"
 ## Rule #3
 
 > Иерархия: Galaxy → shadcn → Impeccable → Taste-skill → Stitch → **UI/UX Pro Max** ← ВСЕГДА применяй
+
+## 🔗 Связи
+
+- [[MOC - UI Design]] — Parent MOC
+- [[000 - Map of Maps]] — Map of Maps
+

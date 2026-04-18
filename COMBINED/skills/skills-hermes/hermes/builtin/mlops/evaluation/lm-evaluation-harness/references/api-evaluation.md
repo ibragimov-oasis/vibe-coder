@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-hermes
+---
+
 # API Evaluation
 
 Guide to evaluating OpenAI, Anthropic, and other API-based language models.
@@ -488,3 +495,9 @@ lm_eval --model openai-chat-completions \
 - TemplateAPI: `lm_eval/models/api_models.py`
 - OpenAI models: `lm_eval/models/openai_completions.py`
 - Anthropic models: `lm_eval/models/anthropic_llms.py`
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-hermes]] — Category: skills-hermes
+

@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-omc
+---
+
 # Issue #1445 Skill Audit
 
 Date: 2026-03-08
@@ -73,3 +80,10 @@ Before any future deprecation PR, require all of the following:
 ## Conclusion
 
 Issue #1445 is valid as an audit request, but it does **not** currently justify removing any of the reviewed skills. The correct outcome today is an audit record plus a clearer decision framework, not a deprecation batch.
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-omc]] — core-omc
+- [[MOC - Skills]] — Skills library
+

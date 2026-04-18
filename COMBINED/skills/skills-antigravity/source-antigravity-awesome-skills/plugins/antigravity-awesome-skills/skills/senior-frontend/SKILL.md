@@ -4,6 +4,10 @@ description: Frontend development skill for React, Next.js, TypeScript, and Tail
 risk: safe
 source: https://github.com/alirezarezvani/claude-skills
 date_added: "2026-03-07"
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 # Senior Frontend
@@ -488,3 +492,9 @@ function List<T>({ items, renderItem }: ListProps<T>) {
 - React Patterns: `references/react_patterns.md`
 - Next.js Optimization: `references/nextjs_optimization_guide.md`
 - Best Practices: `references/frontend_best_practices.md`
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

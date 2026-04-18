@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/ui
+  - artifact/ui-component
+  - source/ui-design
+---
+
 # Tailwind CSS Customization
 
 Config file structure, custom utilities, plugins, and theme extensions.
@@ -481,3 +488,9 @@ export default {
 6. **Test dark mode**: Ensure custom colors work in both themes
 7. **Document custom utilities**: Add comments explaining custom classes
 8. **Semantic naming**: Use descriptive names (primary not blue)
+
+## 🔗 Связи
+
+- [[MOC - UI Design]] — ui-design
+- [[000 - Map of Maps]] — Map of Maps
+

@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # CLI Commands Refactoring Summary
 
 ## ADR-005 Implementation: MCP-First API Design
@@ -245,3 +252,10 @@ The refactoring successfully implements ADR-005 by making CLI commands thin wrap
 - Error handling and user feedback
 
 This creates a clean separation of concerns and follows the "CLI as thin wrapper around MCP tools" principle.
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

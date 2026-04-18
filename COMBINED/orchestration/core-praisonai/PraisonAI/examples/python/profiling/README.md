@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-praisonai
+---
+
 # PraisonAI Profiling Examples
 
 This directory contains examples for profiling PraisonAI agent performance.
@@ -81,3 +88,9 @@ export PRAISONAI_LITE_MODE=1
 export PRAISONAI_SKIP_TYPE_VALIDATION=1
 export PRAISONAI_MINIMAL_IMPORTS=1
 ```
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-praisonai]] — core-praisonai
+

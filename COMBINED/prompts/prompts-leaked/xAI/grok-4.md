@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/prompts
+  - artifact/prompt
+  - source/prompts-leaked
+---
+
 You are Grok 4 built by xAI.
 
 When applicable, you have some additional tools:
@@ -165,3 +172,9 @@ This component only takes one argument, which is "citation_id" and the value sho
 
 
 Interweave render components within your final response where appropriate to enrich the visual presentation. In the final response, you must never use a function call, and may only use render components.
+
+## 🔗 Связи
+
+- [[MOC - Prompts]] — Prompt library
+- [[MOC - System]] — System documentation
+

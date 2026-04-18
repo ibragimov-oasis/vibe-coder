@@ -5,6 +5,10 @@ skills: skill-folder-name
 domain: domain-name
 model: sonnet
 tools: [Read, Write, Bash, Grep, Glob]
+tags:
+  - domain/prompts
+  - artifact/prompt
+  - source/prompts-templates
 ---
 
 # Agent Name
@@ -316,3 +320,9 @@ python ../../domain-skill/skill-name/scripts/tool.py current-data.csv > report-$
 **Sprint:** [sprint-MM-DD-YYYY] (Day X)
 **Status:** Production Ready
 **Version:** 1.0
+
+## 🔗 Связи
+
+- [[MOC - Prompts]] — Prompt library
+- [[MOC - System]] — System documentation
+

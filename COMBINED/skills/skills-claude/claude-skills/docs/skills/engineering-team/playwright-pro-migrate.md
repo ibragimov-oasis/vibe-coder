@@ -1,6 +1,10 @@
 ---
 title: "Migrate to Playwright — Agent Skill & Codex Plugin"
 description: "Migrate from Cypress or Selenium to Playwright. Use when user mentions 'cypress', 'selenium', 'migrate tests', 'convert tests', 'switch to. Agent skill for Claude Code, Codex CLI, Gemini CLI, OpenClaw."
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
 ---
 
 # Migrate to Playwright
@@ -141,3 +145,9 @@ Ask user before deleting anything.
 - Any tests that couldn't be auto-converted (manual intervention needed)
 - Updated CI config
 - Before/after comparison of test run results
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

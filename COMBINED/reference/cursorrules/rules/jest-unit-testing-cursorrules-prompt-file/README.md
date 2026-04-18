@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/reference
+  - source/reference
+---
+
 # Jest Unit Testing Prompt
 
 A specialized .cursorrules prompt for creating comprehensive unit tests using Jest with TypeScript support.
@@ -34,3 +41,9 @@ The .cursorrules prompt guides developers in creating effective unit tests using
 - **Maintainable Approach**: Focus on writing a limited number of high-value tests per file
 - **Test Organization**: Structure tests using describe/it blocks with descriptive names
 - **AAA Pattern**: Examples using the Arrange-Act-Assert pattern for clear test structure
+
+## 🔗 Связи
+
+- [[MOC - System]] — reference
+- [[000 - Map of Maps]] — Map of Maps
+

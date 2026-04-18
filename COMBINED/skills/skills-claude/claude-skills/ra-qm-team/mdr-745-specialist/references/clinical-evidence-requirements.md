@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # Clinical Evidence Requirements
 
 MDR Annex XIV clinical evaluation and post-market clinical follow-up guidance.
@@ -301,3 +308,9 @@ PMCF data feeds clinical evaluation:
 4. Risk management file updated
 5. IFU updated if needed
 6. **Validation:** CER update cycle completed
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

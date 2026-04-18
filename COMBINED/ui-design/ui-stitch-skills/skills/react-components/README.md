@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/ui
+  - artifact/ui-component
+  - source/ui-design
+---
+
 # Stitch to React Components Skill
 
 ## Install
@@ -34,3 +41,9 @@ When activated, the agent follows a high-fidelity engineering pipeline:
 3. **Generation**: Scaffolds components using a strict Atomic Design pattern.
 4. **Validation**: Runs an automated AST check using `@swc/core` to prevent hardcoded hex values or missing interfaces.
 5. **Audit**: Performs a final self-correction check against a 20-point architecture checklist.
+
+## 🔗 Связи
+
+- [[MOC - UI Design]] — ui-design
+- [[000 - Map of Maps]] — Map of Maps
+

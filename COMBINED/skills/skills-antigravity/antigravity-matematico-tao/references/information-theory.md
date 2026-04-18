@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # Teoria da Informação Aplicada a Código e Sistemas
 
 ## 1. Entropia de Shannon em Software
@@ -250,3 +257,9 @@ Alto ratio (> 0.7): logs muito variados → possível estado errático
 
 Sistema saudável: ratio ≈ 0.3-0.5
 ```
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

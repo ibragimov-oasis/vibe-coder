@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # Plugins for Claude Code and Codex
 
 Release `9.0.0` adds first-class plugin distributions for both **Claude Code** and **Codex**.
@@ -155,3 +162,9 @@ Choose a **bundle plugin** if:
 - [Codex CLI skills](codex-cli-skills.md)
 - [Bundles](bundles.md)
 - [Usage](usage.md)
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

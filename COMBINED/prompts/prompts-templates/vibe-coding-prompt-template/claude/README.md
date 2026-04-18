@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/prompts
+  - artifact/prompt
+  - source/prompts-templates
+---
+
 # Claude Code Integration
 
 This directory contains Claude Code skills and hooks for the Vibe-Coding workflow.
@@ -289,3 +296,9 @@ To add a new skill:
 - [Claude Code Skills Documentation](https://docs.anthropic.com/en/docs/claude-code/skills)
 - [Claude Code Hooks Documentation](https://docs.anthropic.com/en/docs/claude-code/hooks)
 - [Vibe-Coding Workflow Guide](../README.md)
+
+## 🔗 Связи
+
+- [[MOC - Prompts]] — Prompt library
+- [[MOC - System]] — System documentation
+

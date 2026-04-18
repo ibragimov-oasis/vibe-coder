@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # Git Checkpoint System Demo
 
 This example demonstrates how to use the automatic Git checkpoint system with Claude Code.
@@ -143,3 +150,10 @@ The system uses the `checkpoint-hooks.sh` script which can be customized:
 - Use the simple configuration if you encounter JSON parsing issues
 - Check that all quotes are properly escaped
 - Validate JSON with `jq '.' .claude/settings.json`
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-ruflo]] — core-ruflo
+- [[MOC - Skills]] — Skills library
+

@@ -6,6 +6,10 @@ weight: 1
 description: >
   Neo4j is a powerful, open source graph database system
 no_list: true
+tags:
+  - domain/mcp
+  - artifact/mcp-server
+  - source/mcp-servers
 ---
 
 ## About
@@ -57,3 +61,9 @@ instead of hardcoding your secrets into the configuration file.
 | user      |  string  |     true     | Name of the Neo4j user to connect as (e.g. "neo4j").                 |
 | password  |  string  |     true     | Password of the Neo4j user (e.g. "my-password").                     |
 | database  |  string  |     true     | Name of the Neo4j database to connect to (e.g. "neo4j").             |
+
+## 🔗 Связи
+
+- [[MOC - MCP Servers]] — mcp-servers
+- [[000 - Map of Maps]] — Map of Maps
+

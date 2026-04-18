@@ -6,6 +6,10 @@ part: core-workflows
 audience: [user]
 sidebar:
   order: 5
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-archon
 ---
 
 You noticed in Chapter 4 that most workflows accept a `--branch` flag. That flag isn't just naming a branch — it's activating the **isolation** system, the feature that lets Archon run multiple tasks simultaneously without them stepping on each other.
@@ -124,3 +128,10 @@ This is the full lifecycle close-out. Run it after merging and you're back to a 
 ---
 
 Now that you understand how isolation protects your work, you're ready to start building. In [Chapter 6: Creating Your First Command →](/book/first-command/), you'll write the atomic unit of Archon — the command file — from scratch.
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/archon]] — Archon
+- [[000 - Map of Maps]] — Map of Maps
+

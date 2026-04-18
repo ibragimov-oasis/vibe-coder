@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # Azure Architecture Patterns
 
 Reference guide for selecting the right Azure architecture pattern based on application requirements.
@@ -411,3 +418,9 @@ Every architecture pattern should address all five pillars of the Azure Well-Arc
 - Front Door for edge caching and global acceleration
 - Autoscale rules on compute (CPU, memory, HTTP queue length)
 - Load testing with Azure Load Testing before production launch
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

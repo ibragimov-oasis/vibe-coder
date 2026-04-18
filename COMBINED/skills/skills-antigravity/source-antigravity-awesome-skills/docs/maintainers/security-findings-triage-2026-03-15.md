@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # Security Findings Triage (2026-03-15)
 
 Maintainer note: later fixes changed the status of several findings after this baseline snapshot. Use [`security-findings-triage-2026-03-29-refresh.md`](security-findings-triage-2026-03-29-refresh.md) as the current source of truth, and keep this file as the historical baseline snapshot.
@@ -58,3 +65,9 @@ Maintainer note: later fixes changed the status of several findings after this b
 | 31 | low | Symlink traversal risk in new sync script | `tools/scripts/sync_recommended_skills.sh` | still present but low practical risk | filesystem-trust-boundary | On origin/main, sync_recommended_skills.sh copied a fixed allowlist from the repo with cp -r, which is local-only but still trusts symlink handling in source content. | Use cp -RP so symlinks are preserved instead of dereferenced. | codex/security-filesystem-trust-boundary |
 | 32 | low | skills_manager allows path traversal in enable/disable operations | `tools/scripts/skills_manager.py` | still present but low practical risk | filesystem-trust-boundary | On origin/main, enable_skill/disable_skill joined the user-supplied skill name directly under skills/.disabled and skills/, so ../ segments could escape the intended root. | Resolve the requested path and reject names that escape the intended skills directory. | codex/security-filesystem-trust-boundary |
 | 33 | low | Zip Slip risk in Office unpack scripts | `skills/docx-official/ooxml/scripts/unpack.py | skills/pptx-official/ooxml/scripts/unpack.py` | still present and exploitable | filesystem-trust-boundary | On origin/main, both unpack.py scripts called ZipFile.extractall(output_path) directly, so a malicious Office archive could write outside the requested directory. | Validate each archive member path before extraction and reject path-traversal entries. | codex/security-filesystem-trust-boundary |
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

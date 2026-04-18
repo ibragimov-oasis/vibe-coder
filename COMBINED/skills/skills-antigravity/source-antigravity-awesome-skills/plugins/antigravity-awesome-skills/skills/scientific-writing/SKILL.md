@@ -6,6 +6,10 @@ metadata:
     skill-author: K-Dense Inc.
 risk: unknown
 source: community
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 # Scientific Writing
@@ -716,4 +720,9 @@ This skill includes LaTeX style packages and templates for professional report f
 **For venue-specific writing styles** (tone, voice, abstract format, reviewer expectations), see the **venue-templates** skill which provides comprehensive style guides for Nature/Science, Cell Press, medical journals, ML conferences, and CS conferences.
 
 Load these references as needed when working on specific aspects of scientific writing.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
 

@@ -4,6 +4,10 @@ description: Modern Angular (v20+) expert with deep knowledge of Signals, Standa
 risk: safe
 source: self
 date_added: '2026-02-27'
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 # Angular Expert
@@ -816,3 +820,9 @@ describe("UserCardComponent", () => {
 | Circular dependency            | Use `inject()` with `forwardRef`                    |
 | Zoneless not detecting changes | Trigger via signal updates, not mutations           |
 | SSR fetch fails                | Use `TransferState` or `withFetch()`                |
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

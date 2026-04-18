@@ -3,6 +3,9 @@ title: Use Cursor-Based Pagination Instead of OFFSET
 impact: MEDIUM-HIGH
 impactDescription: Consistent O(1) performance regardless of page depth
 tags: pagination, cursor, keyset, offset, performance
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
 ---
 
 ## Use Cursor-Based Pagination Instead of OFFSET
@@ -48,3 +51,9 @@ limit 20;
 ```
 
 Reference: [Pagination](https://supabase.com/docs/guides/database/pagination)
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

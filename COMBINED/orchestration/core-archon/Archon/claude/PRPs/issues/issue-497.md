@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-archon
+---
+
 # Investigation: output_format produces mixed prose+JSON, breaking condition evaluation
 
 **Issue**: #497 (https://github.com/dynamous-community/remote-coding-agent/issues/497)
@@ -315,3 +322,10 @@ bun run validate
 - **Investigated by**: Claude
 - **Timestamp**: 2026-03-10T12:00:00Z
 - **Artifact**: `.claude/PRPs/issues/issue-497.md`
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/archon]] — Archon
+- [[000 - Map of Maps]] — Map of Maps
+

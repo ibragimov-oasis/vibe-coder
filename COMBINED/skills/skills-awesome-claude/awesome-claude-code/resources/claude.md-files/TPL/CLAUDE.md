@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-awesome-claude
+---
+
 # TPL-GO Developer Guide
 
 ## Build Commands
@@ -41,3 +48,9 @@
 - Add proper docstring comments for exported functions and types
 - Use log/slog for structured logging
 - Add linting and static analysis tools
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-awesome-claude]] — Category: skills-awesome-claude
+

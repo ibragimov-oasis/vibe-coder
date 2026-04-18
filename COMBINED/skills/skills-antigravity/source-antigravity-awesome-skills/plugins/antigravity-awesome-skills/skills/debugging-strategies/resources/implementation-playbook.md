@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # Debugging Strategies Implementation Playbook
 
 This file contains detailed patterns, checklists, and code samples referenced by the skill.
@@ -509,3 +516,9 @@ afterEach(() => {
 - **assets/debugging-checklist.md**: Quick reference checklist
 - **assets/common-bugs.md**: Common bug patterns
 - **scripts/debug-helper.ts**: Debugging utility functions
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

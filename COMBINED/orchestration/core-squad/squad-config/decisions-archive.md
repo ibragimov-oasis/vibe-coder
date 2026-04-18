@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-squad
+---
+
 # Decisions Archive
 
 > Old decisions (2026-02-21 through 2026-03-25) preserved append-only. Managed by Scribe. For active decisions, see .squad/decisions.md.
@@ -7732,7 +7739,9 @@ Triaged 14 untriaged issues (3 docs, 6 community features, 3 bugs, 2 questions).
 
 **Decision:** The canonical subdirectory for personal squad (inside global config dir) is personal-squad/. All path resolution functions must use this name. The .squad name is reserved for project-local squad directories only.
 
-**Context:** getPersonalSquadRoot() in consult.ts used .squad as subdirectory, while esolvePersonalSquadDir() and nsurePersonalSquadDir() in esolution.ts both use personal-squad. This path mismatch broke all personal squad discovery.
+**Context:** getPersonalSquadRoot() in consult.ts used .squad as subdirectory, while 
+esolvePersonalSquadDir() and nsurePersonalSquadDir() in 
+esolution.ts both use personal-squad. This path mismatch broke all personal squad discovery.
 
 **Implications:**
 - Any new function resolving personal squad path must use personal-squad, not .squad
@@ -7848,5 +7857,11 @@ ame: "{name}" parameter to ALL spawn templates
 **By:** Procedures (Prompt Engineer)  
 **Date:** 2026-03-25  
 **Issue:** #613 — VSCode Autopilot breaks Squad agent execution  
-**Status:** DRAFT — awaiting Flight review  
+**Status:** DRAFT — awaiting Flight review
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-squad]] — core-squad
+- [[MOC - Skills]] — Skills library
 

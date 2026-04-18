@@ -1,6 +1,10 @@
 ---
 title: "Agent Orchestration — Multi-Skill Coordination Protocol"
 description: "A lightweight protocol for orchestrating AI coding agents, personas, and skills across domains. Coordinate Claude Code skills and Codex agents on complex, multi-domain work."
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
 ---
 
 # :material-sitemap: Orchestration
@@ -119,3 +123,9 @@ Switching to: [persona] + [skills]
 ```
 
 [:octicons-arrow-right-24: Full orchestration protocol](https://github.com/alirezarezvani/claude-skills/blob/main/orchestration/ORCHESTRATION.md)
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

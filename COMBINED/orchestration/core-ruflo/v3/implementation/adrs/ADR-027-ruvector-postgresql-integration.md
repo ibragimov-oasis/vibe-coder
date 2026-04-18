@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # ADR-027: RuVector PostgreSQL Integration for Claude-Flow v3
 
 **Status:** Proposed
@@ -1342,3 +1349,10 @@ const haConfig: RuVectorPostgresConfig = {
 
 **Last Updated:** 2026-01-16
 **Next Review:** 2026-02-16
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

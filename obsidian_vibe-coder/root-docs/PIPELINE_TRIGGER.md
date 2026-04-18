@@ -62,3 +62,9 @@ DEFAULT (simple coding task) → mega-coder
 ## Исходник
 
 > 📂 `../PIPELINE_TRIGGER.md` — читать оригинал для полного контента
+
+## 🔗 Связи
+
+- [[000 - Map of Maps]] — Parent MOC
+- [[000 - Map of Maps]] — Map of Maps
+

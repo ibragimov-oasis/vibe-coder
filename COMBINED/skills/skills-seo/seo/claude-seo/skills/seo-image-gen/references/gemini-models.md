@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/seo
+  - artifact/doc
+  - source/skills-seo
+---
+
 # Gemini Image Generation Models
 
 > Last updated: 2026-03-13
@@ -198,3 +205,9 @@ Gemini uses a two-layer safety architecture:
 - Safety filters may block some prompts (violence, NSFW, public figures), known to be overly cautious
 - Session context resets between Claude Code conversations
 - `imageSize` and thinking level depend on MCP package version support
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-seo]] — Category: skills-seo
+

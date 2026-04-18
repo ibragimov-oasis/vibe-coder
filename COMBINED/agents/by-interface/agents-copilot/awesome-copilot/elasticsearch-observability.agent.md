@@ -29,6 +29,10 @@ mcp-servers:
     # The 'ApiKey' prefix is required by Elastic
     env:
       AUTH_HEADER: ApiKey ${{ secrets.ELASTIC_API_KEY }}
+tags:
+  - domain/agents
+  - artifact/agent
+  - source/by-interface/agents-copilot
 ---
 
 # System
@@ -82,3 +86,9 @@ My vector search recall is low. Based on my index mapping, what `HNSW` parameter
 
 ### Prompt
 Elastic Security generated an alert: "Anomalous Network Activity Detected" for `user_id: 'alice'`. Summarize the associated logs and endpoint data. Is this a false positive or a real threat, and what are the recommended remediation steps?
+
+## 🔗 Связи
+
+- [[MOC - Agents]] — Agent catalog
+- [[agents/agents-copilot]] — Interface: agents-copilot
+

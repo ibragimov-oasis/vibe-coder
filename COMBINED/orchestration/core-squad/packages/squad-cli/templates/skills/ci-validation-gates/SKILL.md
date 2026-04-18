@@ -4,6 +4,10 @@ description: "Defensive CI/CD patterns: semver validation, token checks, retry l
 domain: "ci-cd"
 confidence: "high"
 source: "extracted from Drucker and Trejo charters — earned knowledge from v0.8.22 release incident"
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-squad
 ---
 
 ## Context
@@ -82,3 +86,10 @@ Set `SKIP_BUILD_BUMP=1` (or `$env:SKIP_BUILD_BUMP = "1"` on Windows) before ANY 
 - ❌ Hard-coded secrets in workflows
 - ❌ Silent CI failures — every error needs actionable output with remediation
 - ❌ Assuming npm publish is instantly queryable
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/squad]] — Squad
+- [[000 - Map of Maps]] — Map of Maps
+

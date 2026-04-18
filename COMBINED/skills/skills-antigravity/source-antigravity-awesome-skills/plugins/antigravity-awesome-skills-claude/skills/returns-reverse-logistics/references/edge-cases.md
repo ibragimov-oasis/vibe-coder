@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # Returns & Reverse Logistics — Edge Cases Reference
 
 > Tier 3 reference. Load on demand when handling complex or ambiguous return situations that don't resolve through standard workflows.
@@ -633,3 +640,9 @@ Accepting the return and processing it as standard — wiping the drives with yo
 - Data destruction certification is a value-add service that corporate customers will pay for — it's a revenue opportunity, not just a cost
 - Never restock or liquidate enterprise devices without verifying data has been properly sanitised — the liability exposure from a data breach on a resold device is unlimited
 - Keep copies of all data destruction certificates for your own compliance records — if a device you resold is later found to contain recoverable data, the certificate is your defence
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

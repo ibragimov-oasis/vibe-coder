@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # Agent Designer - Multi-Agent System Architecture Toolkit
 
 **Tier:** POWERFUL  
@@ -428,3 +435,9 @@ For issues and questions:
 - Check the troubleshooting section above
 - Review the reference documentation in `references/`
 - Create an issue in the claude-skills repository
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

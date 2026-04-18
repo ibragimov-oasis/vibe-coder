@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/command
+  - source/claude-commands
+---
+
 # github swarm
 
 Create a specialized swarm for GitHub repository management.
@@ -119,3 +126,9 @@ mcp__claude-flow__github_swarm {
 - `pr enhance` - Enhance pull requests
 - `issue triage` - Intelligent issue management
 - `code review` - Automated reviews
+
+## 🔗 Связи
+
+- [[MOC - System]] — System commands
+- [[MOC - Skills]] — Skills library
+

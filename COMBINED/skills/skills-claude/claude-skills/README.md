@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # Claude Code Skills & Plugins — Agent Skills for Every Coding Tool
 
 **205 production-ready Claude Code skills, plugins, and agent skills for 11 AI coding tools.**
@@ -374,3 +381,9 @@ MIT — see [LICENSE](LICENSE) for details.
 ---
 
 **Built by [Alireza Rezvani](https://alirezarezvani.com)** · [Medium](https://alirezarezvani.medium.com) · [Twitter](https://twitter.com/nginitycloud)
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

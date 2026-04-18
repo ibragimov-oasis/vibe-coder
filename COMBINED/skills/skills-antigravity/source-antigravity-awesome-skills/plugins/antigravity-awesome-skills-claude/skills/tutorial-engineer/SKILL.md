@@ -6,6 +6,10 @@ source: community
 date_added: '2026-03-02'
 metadata:
   version: '2.0.0'
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 ## Use this skill when
@@ -394,3 +398,9 @@ metadata:
  - **code-explainer**: For generating detailed code comments and documentation.
  - **example-generator**: For creating diverse code examples and edge cases.
    - **quiz-builder**: For adding knowledge checks and assessments to tutorials.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

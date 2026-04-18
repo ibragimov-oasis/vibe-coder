@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # How to Use the App Store Optimization Skill
 
 Hey Claude—I just added the "app-store-optimization" skill. Can you help me optimize my app's presence on the App Store and Google Play?
@@ -279,3 +286,9 @@ Hey Claude—I just added the "app-store-optimization" skill. Can you create a c
 ```
 
 The skill can handle comprehensive, multi-phase ASO projects as well as specific tactical optimizations.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

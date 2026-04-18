@@ -78,3 +78,9 @@ Curated список лучших плагинов, тем и ресурсов �
 - [[obsidian-skills/obsidian-bases]] — Native database views
 - [[obsidian-skills/json-canvas]] — Visual maps
 - [[obsidian-skills/defuddle]] — Web → Markdown
+
+## 🔗 Связи
+
+- [[MOC - System]] — Parent MOC
+- [[000 - Map of Maps]] — Map of Maps
+

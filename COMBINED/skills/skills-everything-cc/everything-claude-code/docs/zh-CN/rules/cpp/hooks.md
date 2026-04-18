@@ -7,6 +7,10 @@ paths:
   - "**/*.cxx"
   - "**/*.h"
   - "**/CMakeLists.txt"
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
 ---
 
 # C++ 钩子
@@ -38,3 +42,9 @@ ctest --test-dir build --output-on-failure
 3. **cppcheck** — 补充分析
 4. **cmake build** — 编译
 5. **ctest** — 使用清理器执行测试
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

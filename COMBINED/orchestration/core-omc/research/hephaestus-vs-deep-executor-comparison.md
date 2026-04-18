@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-omc
+---
+
 # Hephaestus vs Deep-Executor: Comparative Analysis
 
 ## Analysis Summary
@@ -285,3 +292,10 @@ The most impactful improvements for Hephaestus are Deep-Executor's discipline me
 
 *Analysis completed: 2026-02-01*
 *Session: hephaestus-deep-executor-comparison*
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-omc]] — core-omc
+- [[MOC - Skills]] — Skills library
+

@@ -2,6 +2,10 @@
 name: page-cro
 version: 1.0.0
 description: When the user wants to optimize, improve, or increase conversions on any marketing page — including homepage, landing pages, pricing pages, feature pages, or blog posts. Also use when the user says "CRO," "conversion rate optimization," "this page isn't converting," "improve conversions," or "why isn't this page working." For signup/registration flows, see signup-flow-cro. For post-signup activation, see onboarding-cro. For forms outside of signup, see form-cro. For popups/modals, see popup-cro.
+tags:
+  - domain/seo
+  - artifact/skill
+  - source/skills-seo
 ---
 
 # Page Conversion Rate Optimization (CRO)
@@ -179,3 +183,9 @@ When recommending experiments, consider tests for:
 - **popup-cro**: If considering popups as part of the strategy
 - **copywriting**: If the page needs a complete copy rewrite
 - **ab-test-setup**: To properly test recommended changes
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-seo]] — Category: skills-seo
+

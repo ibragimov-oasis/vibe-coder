@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-cc-connect
+---
+
 # 微信个人号（Weixin / ilink）接入指南
 
 本文档说明如何通过 **cc-connect** 接入**微信个人号**侧的对话能力。底层使用腾讯 **ilink 机器人 HTTP 网关**（与 OpenClaw 插件 `openclaw-weixin` 同类接口：`getUpdates` 长轮询 + `sendMessage` 下发）。
@@ -141,3 +148,10 @@ go build -tags no_weixin ./cmd/cc-connect
 - 仓库内示例配置：[config.example.toml](../config.example.toml)  
 - 使用指南中的 CLI 摘要：[usage.zh-CN.md](./usage.zh-CN.md)（「微信个人号配置 CLI」）  
 - OpenClaw 同类插件（参考实现）：`openclaw-weixin`
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-cc-connect]] — core-cc-connect
+- [[MOC - Skills]] — Skills library
+

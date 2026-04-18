@@ -112,3 +112,9 @@ source: "../COMBINED/orchestration/core-deer-flow/"
 
 - [[agents-by-role/researcher]] — все researcher агенты
 - [[mcp-servers/mcp-markitdown]] — конвертация файлов
+
+## 🔗 Связи
+
+- [[MOC - Agents]] — Parent MOC
+- [[000 - Map of Maps]] — Map of Maps
+

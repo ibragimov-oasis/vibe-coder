@@ -1,6 +1,10 @@
 ---
 name: agent-sona-learning-optimizer
 description: Agent skill for sona-learning-optimizer - invoke with $agent-sona-learning-optimizer
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-ruflo
 ---
 
 ---
@@ -77,3 +81,9 @@ npx claude-flow@alpha hooks post-task --task-id "$ID" --success true
 
 - **Package**: @ruvector$sona@0.1.1
 - **Integration Guide**: docs/RUVECTOR_SONA_INTEGRATION.md
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-ruflo]] — Category: skills-ruflo
+

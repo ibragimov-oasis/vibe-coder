@@ -5,6 +5,10 @@ skills: product-team/agile-product-owner, product-team/product-manager-toolkit
 domain: product
 model: sonnet
 tools: [Read, Write, Bash, Grep, Glob]
+tags:
+  - domain/agents
+  - artifact/agent
+  - source/by-role/planner
 ---
 
 # Agile Product Owner Agent
@@ -414,3 +418,9 @@ echo "Location: ../../product-team/agile-product-owner/references/user-story-tem
 **Last Updated:** March 9, 2026
 **Status:** Production Ready
 **Version:** 1.0
+
+## 🔗 Связи
+
+- [[MOC - Agents]] — Agent catalog
+- [[agents/planner]] — Role: planner
+

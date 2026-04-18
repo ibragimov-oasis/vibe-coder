@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/agent
+  - source/by-interface/agents-copilot
+---
+
 # Generating PR Age Charts
 
 Build an interactive CLI tool that visualizes pull request age distribution for a GitHub repository using Copilot's built-in capabilities.
@@ -229,3 +236,9 @@ if __name__ == "__main__":
 | Flexibility     | Fixed logic       | **AI decides best approach**      |
 | Chart types     | What you coded    | **Any type Copilot can generate** |
 | Data grouping   | Hardcoded buckets | **Intelligent grouping**          |
+
+## 🔗 Связи
+
+- [[MOC - Agents]] — Agent catalog
+- [[agents/agents-copilot]] — Interface: agents-copilot
+

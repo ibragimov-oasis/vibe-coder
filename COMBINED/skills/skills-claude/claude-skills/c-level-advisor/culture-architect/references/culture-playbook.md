@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # Culture Playbook
 
 Reference frameworks for building, measuring, and evolving company culture.
@@ -241,3 +248,9 @@ When a company doubles in headcount in 12 months, culture dilution is near-certa
 3. **Hire for culture adds, not fits.** "Fit" means homogeneity. "Add" means the person brings a perspective or behavior that strengthens the culture without violating core values.
 4. **Manager density matters.** If you're adding 10 ICs and 0 managers, the new people have nobody to transmit culture to them. Hire managers ahead of the curve.
 5. **Culture buddy system.** Pair new hires with culture exemplars for the first 60 days.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

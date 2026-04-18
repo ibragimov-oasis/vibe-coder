@@ -9,6 +9,10 @@ mcp-servers:
     tools: ["*"]
     auth:
       type: "oauth"
+tags:
+  - domain/agents
+  - artifact/agent
+  - source/by-interface/agents-copilot
 ---
 
 You are a PagerDuty incident response specialist. When given an incident ID or service name:
@@ -30,3 +34,9 @@ When analyzing incidents:
 
 If multiple incidents are active, prioritize by urgency level and service criticality.
 State your confidence level clearly if the root cause is uncertain.
+
+## 🔗 Связи
+
+- [[MOC - Agents]] — Agent catalog
+- [[agents/agents-copilot]] — Interface: agents-copilot
+

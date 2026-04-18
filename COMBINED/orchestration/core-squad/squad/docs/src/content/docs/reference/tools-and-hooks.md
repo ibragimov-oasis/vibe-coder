@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-squad
+---
+
 # Custom Tools & Hooks Guide
 
 > ⚠️ **Experimental** — Squad is alpha software. APIs, commands, and behavior may change between releases.
@@ -112,3 +119,10 @@ export default defineConfig({
 - [SDK API Reference](api-reference.md) — Full type and function reference
 - [Integration Guide](integration.md) — Connecting to the Copilot SDK
 - [Config Reference](config.md) — Configuration file options
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/squad]] — Squad
+- [[000 - Map of Maps]] — Map of Maps
+

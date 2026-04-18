@@ -1,6 +1,10 @@
 ---
 name: "gcp-cloud-architect"
 description: "Design GCP architectures for startups and enterprises. Use when asked to design Google Cloud infrastructure, deploy to GKE or Cloud Run, configure BigQuery pipelines, optimize GCP costs, or migrate to GCP. Covers Cloud Run, GKE, Cloud Functions, Cloud SQL, BigQuery, and cost optimization."
+tags:
+  - domain/agents
+  - artifact/skill
+  - source/skills-claude
 ---
 
 # GCP Cloud Architect
@@ -442,3 +446,10 @@ Provide these details for architecture design:
 | `references/architecture_patterns.md` | 6 patterns: serverless, GKE microservices, three-tier, data pipeline, ML platform, multi-region |
 | `references/service_selection.md` | Decision matrices for compute, database, storage, messaging |
 | `references/best_practices.md` | Naming, labels, IAM, networking, monitoring, disaster recovery |
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+- [[MOC - Agents]] — Claude agents
+

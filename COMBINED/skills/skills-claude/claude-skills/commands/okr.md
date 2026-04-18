@@ -1,6 +1,11 @@
 ---
 name: okr
 description: Generate OKR cascades from company strategy to team objectives. Usage: /okr generate <strategy>
+tags:
+  - domain/agents
+  - artifact/skill
+  - source/skills-claude
+  - artifact/doc
 ---
 
 # /okr
@@ -35,3 +40,10 @@ Pass a strategy keyword directly. The generator produces company, department, an
 
 ## Skill Reference
 > `product-team/product-strategist/SKILL.md`
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+- [[MOC - Agents]] — Claude agents
+

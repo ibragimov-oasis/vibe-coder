@@ -1,6 +1,10 @@
 ---
 description: Analyze implementation against plan for process improvements
 argument-hint: "[plan-file] [execution-report-file]"
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-archon
 ---
 
 # System Review
@@ -190,3 +194,10 @@ Based on analysis, recommend specific actions:
 - **Focus on patterns:** One-off issues aren't actionable. Look for repeated problems.
 - **Action-oriented:** Every finding should have a concrete asset update suggestion
 - **Suggest improvements:** Don't just analyze - actually suggest the text to add to CLAUDE.md or commands
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/archon]] — Archon
+- [[000 - Map of Maps]] — Map of Maps
+

@@ -48,3 +48,9 @@ mcp gitnexus search     # поиск по символам
 
 - [[mcp-servers/mcp-code-review-graph]] — более глубокий AST-анализ
 - [[mcp-servers/mcp-openviking]] — контекст кодовой базы
+
+## 🔗 Связи
+
+- [[MOC - MCP Servers]] — Parent MOC
+- [[000 - Map of Maps]] — Map of Maps
+

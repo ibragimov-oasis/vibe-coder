@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-copilot
+---
+
 # Game Engine Core Design Principles
 
 A comprehensive reference on the fundamental architecture and design principles behind building a game engine. Covers modularity, separation of concerns, core subsystems, and practical implementation guidance.
@@ -693,3 +700,9 @@ Group similar operations together to reduce overhead from context switching, dra
 | Event-driven communication | Decoupled interaction through publish-subscribe |
 | Data-oriented performance | Optimize memory layout for access patterns |
 | Measure before optimizing | Profile to identify actual bottlenecks |
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-copilot]] — Category: skills-copilot
+

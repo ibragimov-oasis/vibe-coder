@@ -4,6 +4,10 @@ description: "Optimize end-to-end application performance with profiling, observ
 risk: unknown
 source: community
 date_added: "2026-02-27"
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 Optimize application performance end-to-end using specialized performance and optimization agents:
@@ -155,3 +159,9 @@ Optimize application performance end-to-end using specialized performance and op
 - **Monitoring Coverage**: 100% of critical paths instrumented with alerting
 
 Performance optimization target: $ARGUMENTS
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-hermes
+---
+
 # GODMODE CLASSIC — Jailbreak System Prompt Templates
 
 Source: [G0DM0D3](https://github.com/elder-plinius/G0DM0D3) + [L1B3RT4S](https://github.com/elder-plinius/L1B3RT4S)
@@ -126,3 +133,9 @@ print(result['content'])
 - The system prompt in GODMODE CLASSIC keeps `{QUERY}` as literal text (the variable name is part of the jailbreak frame)
 - Only the user message gets the actual query injected
 - Templates source: [L1B3RT4S repo](https://github.com/elder-plinius/L1B3RT4S) by Pliny the Prompter
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-hermes]] — Category: skills-hermes
+

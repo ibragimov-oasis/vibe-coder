@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # Migration Guide: v2 → v3
 
 Complete guide for upgrading from Claude Flow v2 to v3.0.0-alpha.1
@@ -1399,3 +1406,10 @@ If you encounter issues not covered in this guide:
 ---
 
 **Happy Migrating! Welcome to Claude Flow v3!** 🚀
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

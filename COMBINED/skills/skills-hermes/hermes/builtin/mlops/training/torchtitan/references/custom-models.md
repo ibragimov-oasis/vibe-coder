@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-hermes
+---
+
 # Adding Custom Models to TorchTitan
 
 This guide explains how to add a new model to TorchTitan following the established patterns.
@@ -256,3 +263,9 @@ Add benchmark config to `benchmarks/` folder.
 2. **Minimal model changes**: Parallelism applied externally
 3. **Clean, minimal codebase**: Reuse existing components where possible
 4. **Single-device semantics**: Model code should work on single GPU
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-hermes]] — Category: skills-hermes
+

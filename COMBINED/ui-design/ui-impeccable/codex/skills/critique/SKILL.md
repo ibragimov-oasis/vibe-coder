@@ -3,6 +3,10 @@ name: critique
 description: Evaluate design from a UX perspective, assessing visual hierarchy, information architecture, emotional resonance, cognitive load, and overall quality with quantitative scoring, persona-based testing, automated anti-pattern detection, and actionable feedback. Use when the user asks to review, critique, evaluate, or give feedback on a design or component.
 version: 2.1.1
 argument-hint: "[area (feature, page, component...)]"
+tags:
+  - domain/ui
+  - artifact/ui-component
+  - source/ui-design
 ---
 
 ## STEPS
@@ -222,3 +226,9 @@ After presenting the summary, tell the user:
 > You can ask me to run these one at a time, all at once, or in any order you prefer.
 >
 > Re-run `$critique` after fixes to see your score improve.
+
+## 🔗 Связи
+
+- [[MOC - UI Design]] — ui-design
+- [[000 - Map of Maps]] — Map of Maps
+

@@ -3,6 +3,9 @@ title: Dependency-Based Parallelization
 impact: CRITICAL
 impactDescription: 2-10× improvement
 tags: async, parallelization, dependencies, better-all
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
 ---
 
 ## Dependency-Based Parallelization
@@ -34,3 +37,9 @@ const { user, config, profile } = await all({
 ```
 
 Reference: [https://github.com/shuding/better-all](https://github.com/shuding/better-all)
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

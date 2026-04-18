@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # Message Batches API — TypeScript
 
 The Batches API (`POST /v1/messages/batches`) processes Messages API requests asynchronously at 50% of standard prices.
@@ -104,3 +111,9 @@ for await (const result of await client.messages.batches.results(
 const cancelled = await client.messages.batches.cancel(messageBatch.id);
 console.log(`Status: ${cancelled.processing_status}`); // "canceling"
 ```
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

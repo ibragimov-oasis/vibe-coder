@@ -30,6 +30,10 @@ hooks:
     npx claude-flow@v3alpha hooks intelligence trajectory-end --session-id "$SESSION_ID" --verdict "${VERDICT:-success}"
     # Store learned pattern
     mcp__claude-flow__memory_usage --action="store" --namespace="reasoningbank" --key="pattern:$(date +%s)" --value="$PATTERN_SUMMARY"
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
 ---
 
 # V3 ReasoningBank Learner Agent
@@ -211,3 +215,10 @@ The ReasoningBank integrates with V3 hooks:
 | Verdict assignment | <1ms |
 | Distillation | <100ms |
 | Consolidation | <500ms |
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

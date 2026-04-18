@@ -4,6 +4,10 @@ description: "Derive security requirements from threat models and business conte
 risk: safe
 source: community
 date_added: "2026-02-27"
+tags:
+  - domain/ui
+  - artifact/skill
+  - source/skills-design
 ---
 
 # Security Requirement Extraction
@@ -34,3 +38,10 @@ Transform threat analysis into actionable security requirements.
 ## Resources
 
 - `resources/implementation-playbook.md` for detailed patterns and examples.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-design]] — Category: skills-design
+- [[MOC - UI Design]] — Design & UI
+

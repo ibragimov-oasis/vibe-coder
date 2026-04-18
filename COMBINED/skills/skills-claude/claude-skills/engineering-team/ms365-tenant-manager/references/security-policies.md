@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # Security Policies Reference
 
 Comprehensive security configuration guide for Microsoft 365 tenants covering Conditional Access, MFA, DLP, and security baselines.
@@ -355,3 +362,9 @@ Phase 3: Enforcement (Week 4)
 - Limited directory browsing
 - Cannot enumerate users
 - Cannot invite other guests
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

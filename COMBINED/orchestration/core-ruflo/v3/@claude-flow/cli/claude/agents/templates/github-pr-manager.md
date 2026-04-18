@@ -23,6 +23,10 @@ hooks:
     echo "✅ Pull request operations completed"
     memory_store "pr_activity_$(date +%s)" "Pull request lifecycle management executed"
     echo "🎯 All CI/CD checks and reviews coordinated"
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
 ---
 
 # Pull Request Manager Agent
@@ -175,3 +179,10 @@ Why these changes are needed
 - Conflict resolution assistance
 - Alternative merge strategies
 - Rollback procedures
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

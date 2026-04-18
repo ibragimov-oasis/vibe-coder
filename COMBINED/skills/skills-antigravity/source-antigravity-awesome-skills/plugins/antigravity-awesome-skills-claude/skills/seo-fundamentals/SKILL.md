@@ -4,6 +4,10 @@ description: Core principles of SEO including E-E-A-T, Core Web Vitals, technica
 risk: safe
 source: community
 date_added: '2026-02-27'
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 ---
@@ -173,3 +177,9 @@ SEO fundamentals should be validated using **multiple signals**, not single metr
 
 ## When to Use
 This skill is applicable to execute the workflow or actions described in the overview.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

@@ -2,6 +2,10 @@
 name: paid-ads
 version: 1.0.0
 description: "When the user wants help with paid advertising campaigns on Google Ads, Meta (Facebook/Instagram), LinkedIn, Twitter/X, or other ad platforms. Also use when the user mentions 'PPC,' 'paid media,' 'ad copy,' 'ad creative,' 'ROAS,' 'CPA,' 'ad campaign,' 'retargeting,' or 'audience targeting.' This skill covers campaign strategy, ad creation, audience targeting, and optimization."
+tags:
+  - domain/seo
+  - artifact/skill
+  - source/skills-seo
 ---
 
 # Paid Ads
@@ -311,3 +315,9 @@ For tracking, see also: [ga4.md](../../tools/integrations/ga4.md), [segment.md](
 - **analytics-tracking**: For proper conversion tracking setup
 - **ab-test-setup**: For landing page testing to improve ROAS
 - **page-cro**: For optimizing post-click conversion rates
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-seo]] — Category: skills-seo
+

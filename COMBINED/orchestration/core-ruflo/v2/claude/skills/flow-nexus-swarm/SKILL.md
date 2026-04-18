@@ -7,6 +7,9 @@ version: 1.0.0
 requires:
   - flow-nexus MCP server
   - Active Flow Nexus account (register at flow-nexus.ruv.io)
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
 ---
 
 # Flow Nexus Swarm & Workflow Orchestration
@@ -608,3 +611,10 @@ claude mcp add flow-nexus npx flow-nexus@latest mcp start
 ---
 
 **Remember**: Flow Nexus provides cloud-based orchestration infrastructure. For local execution and coordination, use the core `claude-flow` MCP server alongside Flow Nexus for maximum flexibility.
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

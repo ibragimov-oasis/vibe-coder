@@ -4,6 +4,10 @@ description: "You are a frontend security specialist focusing on Cross-Site Scri
 risk: unknown
 source: community
 date_added: "2026-02-27"
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 # XSS Vulnerability Scanner for Frontend Code
@@ -323,3 +327,9 @@ class XSSReportGenerator {
 5. **Prevention Checklist**: Best practices for XSS prevention
 
 Focus on identifying XSS attack vectors, providing actionable fixes, and establishing secure coding patterns.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

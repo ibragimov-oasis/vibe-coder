@@ -4,6 +4,10 @@ description: "6-layer AI governance: safety gates, evidence-based debugging, ant
 risk: safe
 source: community
 date_added: "2026-03-11"
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 # YES.md — AI Governance Engine
@@ -220,3 +224,9 @@ YES.md complements persistence-focused skills (like PUA). Use both together:
 - YES.md keeps you safe and accurate while you're going
 
 They solve different problems. Use them together for maximum effect.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

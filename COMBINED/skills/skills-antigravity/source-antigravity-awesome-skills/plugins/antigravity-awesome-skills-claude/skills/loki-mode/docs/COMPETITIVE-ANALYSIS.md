@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # Loki Mode Competitive Analysis
 
 *Last Updated: 2026-01-05*
@@ -331,3 +338,9 @@ Loki Mode has **unique differentiation** in business operations automation but f
 - [SWE-bench Verified Leaderboard](https://llm-stats.com/benchmarks/swe-bench-verified)
 - [SWE-bench Official](https://www.swebench.com/)
 - [Claude Code Best Practices](https://www.anthropic.com/engineering/claude-code-best-practices)
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

@@ -2,6 +2,10 @@
 name: intellectual-property
 description: Agent templates governing the creation, licensing, and protection of IP assets.
 jurisdictions: [USA, Canada, EU]
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
 ---
 
 # Intellectual Property (IP) Templates
@@ -26,3 +30,9 @@ When writing an IP contract:
 1. Identify the exact asset (Patent, Trademark, Copyright, Trade Secret).
 2. For Software Development: Overcompensate for EU and Canadian rules by inserting explicit assignment *and* maximum available usage/licensing grants.
 3. For EU-wide trademark protection, refer users to the **EUIPO**. For national protection, refer to the local IP office.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

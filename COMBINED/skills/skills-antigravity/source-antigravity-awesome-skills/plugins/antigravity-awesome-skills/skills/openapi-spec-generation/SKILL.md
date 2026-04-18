@@ -4,6 +4,10 @@ description: "Generate and maintain OpenAPI 3.1 specifications from code, design
 risk: safe
 source: community
 date_added: "2026-02-27"
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 # OpenAPI Spec Generation
@@ -34,3 +38,9 @@ Comprehensive patterns for creating, maintaining, and validating OpenAPI 3.1 spe
 ## Resources
 
 - `resources/implementation-playbook.md` for detailed patterns and examples.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

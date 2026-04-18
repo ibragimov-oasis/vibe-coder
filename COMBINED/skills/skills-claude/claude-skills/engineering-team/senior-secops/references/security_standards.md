@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # Security Standards Reference
 
 Comprehensive security standards and secure coding practices for application security.
@@ -716,3 +723,9 @@ app.after_request(add_security_headers)
 | Dependencies | Snyk | `snyk test` |
 | Container | Trivy | `trivy image myapp:latest` |
 | DAST | OWASP ZAP | Dynamic scanning |
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

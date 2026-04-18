@@ -7,6 +7,10 @@ metadata:
   author: Alireza Rezvani
   category: marketing
   updated: 2026-03-06
+tags:
+  - domain/agents
+  - artifact/skill
+  - source/skills-claude
 ---
 
 # Marketing Psychology
@@ -121,3 +125,10 @@ All output passes quality verification:
 - **pricing-strategy**: For pricing decisions. Psychology provides the buyer behavior lens.
 - **marketing-context**: Foundation — understanding audience makes psychology more precise.
 - **ab-test-setup**: For testing which psychological approach works. Data beats theory.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+- [[MOC - Agents]] — Claude agents
+

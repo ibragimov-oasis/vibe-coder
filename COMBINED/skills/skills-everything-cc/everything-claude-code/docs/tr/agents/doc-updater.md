@@ -3,6 +3,10 @@ name: doc-updater
 description: Dokümantasyon ve codemap specialisti. Codemap'leri ve dokümantasyonu güncellemek için PROAKTİF olarak kullanın. /update-codemaps ve /update-docs çalıştırır, docs/CODEMAPS/* oluşturur, README'leri ve kılavuzları günceller.
 tools: ["Read", "Write", "Edit", "Bash", "Grep", "Glob"]
 model: haiku
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
 ---
 
 # Documentation & Codemap Specialist
@@ -105,3 +109,9 @@ Diğer codemap'lere linkler
 ---
 
 **Unutmayın**: Gerçeklikle eşleşmeyen dokümantasyon, dokümantasyon olmamasından daha kötüdür. Her zaman hakikat kaynağından oluşturun.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

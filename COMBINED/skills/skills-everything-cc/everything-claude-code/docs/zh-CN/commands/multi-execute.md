@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
+---
+
 # 执行 - 多模型协同执行
 
 多模型协同执行 - 从计划获取原型 → Claude 重构并实施 → 多模型审计与交付。
@@ -319,3 +326,9 @@ mcp__ace-tool__search_context({
 1. `/ccg:plan` 生成计划 + SESSION\_ID
 2. 用户用“Y”确认
 3. `/ccg:execute` 读取计划，重用 SESSION\_ID，执行实施
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

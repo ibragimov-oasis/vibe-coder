@@ -58,3 +58,9 @@ Bases идеально для:
 
 - [[obsidian-skills/obsidian-markdown]] — синтаксис frontmatter/properties
 - [[obsidian-skills/obsidian-cli]] — CLI для работы с vault
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Parent MOC
+- [[000 - Map of Maps]] — Map of Maps
+

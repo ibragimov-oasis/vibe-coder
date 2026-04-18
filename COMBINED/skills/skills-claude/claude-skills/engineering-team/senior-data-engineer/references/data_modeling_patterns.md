@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # Data Modeling Patterns
 
 Comprehensive guide to data modeling for analytics and data warehousing.
@@ -1056,3 +1063,9 @@ compatibility:
   backward: true   # v2 readers can read v1 data
   forward: true    # v1 readers can read v2 data
 ```
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

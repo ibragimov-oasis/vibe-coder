@@ -78,7 +78,11 @@ When the thumbstick is at rest, the virtual control fades to show it’s not in 
 
 **Map controller buttons to expected UI behavior.** Outside of gameplay, players expect to navigate your game’s UI in a way that matches the familiar behavior of the platform they’re playing on. When not controlling gameplay, follow these conventions across all Apple platforms:
 
-Button| Expected behavior for UI  
+Button| Expected behavior for UI
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
 ---|---  
 A| Activates a control  
 B| Cancels an action or returns to previous screen  
@@ -152,5 +156,10 @@ Keyboard players appreciate using keyboard bindings to speed up their interactio
 Date| Changes  
 ---|---  
 June 9, 2025| Updated touch control best practices, updated game controller mapping for UI, and added guidance for spatial game controller support in visionOS.  
-June 10, 2024| Added guidance for supporting touch controls and changed title from Game controllers.  
-  
+June 10, 2024| Added guidance for supporting touch controls and changed title from Game controllers.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

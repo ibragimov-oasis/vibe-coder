@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/memory
+  - artifact/memory
+  - source/memory
+---
+
 <claude-mem-context>
 # Recent Activity
 
@@ -56,3 +63,9 @@
 | #36854 | 1:49 AM | 🟣 | gemini-3-flash Model Tests Added to GeminiAgent Test Suite | ~470 |
 | #36851 | " | 🔵 | GeminiAgent Test Structure Analyzed | ~565 |
 </claude-mem-context>
+
+## 🔗 Связи
+
+- [[MOC - Memory]] — memory
+- [[000 - Map of Maps]] — Map of Maps
+

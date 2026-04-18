@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
+---
+
 # 代码审查
 
 对未提交的更改进行全面的安全性和质量审查：
@@ -41,3 +48,9 @@
 4. 如果发现严重或高优先级问题，则阻止提交
 
 绝不允许包含安全漏洞的代码！
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

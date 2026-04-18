@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # Obsidian Web Clipper JSON Schema
 
 The Obsidian Web Clipper imports templates via JSON files.
@@ -75,3 +82,9 @@ The `properties` array defines the YAML frontmatter of the note.
 
 The Clipper template editor checks template syntax. 
 Invalid logic in `noteContentFormat` or property `value` fields will be reported in the editor; use valid syntax as described in the [Logic](https://help.obsidian.md/web-clipper/logic) documentation.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

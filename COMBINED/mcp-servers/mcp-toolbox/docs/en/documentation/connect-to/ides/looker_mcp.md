@@ -4,6 +4,10 @@ type: docs
 weight: 2
 description: >
   Connect your IDE to Looker using Toolbox.
+tags:
+  - domain/mcp
+  - artifact/mcp-server
+  - source/mcp-servers
 ---
 
 [Model Context Protocol (MCP)](https://modelcontextprotocol.io/introduction) is
@@ -561,3 +565,9 @@ as well as get the database schema needed to write LookML effectively.
 Prebuilt tools are pre-1.0, so expect some tool changes between versions. LLMs
 will adapt to the tools available, so this shouldn't affect most users.
 {{< /notice >}}
+
+## 🔗 Связи
+
+- [[MOC - MCP Servers]] — mcp-servers
+- [[000 - Map of Maps]] — Map of Maps
+

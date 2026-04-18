@@ -3,6 +3,10 @@ name: skill-router
 description: "Use when the user is unsure which skill to use or where to start. Interviews the user with targeted questions and recommends the best skill(s) from the installed library for their goal."
 risk: safe
 source: self
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 # Skill Router
@@ -250,3 +254,9 @@ Agent: ✅ Primary Skill: @brainstorming
   must invoke the skill themselves.
 - The routing reference covers the most common skills but does not include
   every skill in the library.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

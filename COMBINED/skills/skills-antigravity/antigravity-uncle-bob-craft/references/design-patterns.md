@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # Design Patterns — Use vs Misuse
 
 Use this when evaluating whether a design pattern is justified or is cargo cult / overuse.
@@ -30,3 +37,9 @@ Rule of thumb: introduce a pattern when you feel the **third duplication** or th
 - Tests and call sites are simpler because of the abstraction (e.g., tests inject a fake repository).
 
 Use this reference in review when someone proposes or has added a Factory, Strategy, Repository, or other pattern—ask "what duplication or variation does this solve?" and "is there a second implementation or a second reason to change?"
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

@@ -4,6 +4,10 @@ type: docs
 weight: 1
 description: >
   How to set up and configure Toolbox to run on Cloud Run.
+tags:
+  - domain/mcp
+  - artifact/mcp-server
+  - source/mcp-servers
 ---
 
 
@@ -285,3 +289,9 @@ contain the specific error message needed to diagnose the problem.
       Secret Accessor** (`roles/secretmanager.secretAccessor`) IAM role.
 
 - **Cloud Run Connections via IAP:** Currently we do not support Cloud Run connections via [IAP](https://docs.cloud.google.com/iap/docs/concepts-overview). Please disable IAP if you are using it.
+
+## 🔗 Связи
+
+- [[MOC - MCP Servers]] — mcp-servers
+- [[000 - Map of Maps]] — Map of Maps
+

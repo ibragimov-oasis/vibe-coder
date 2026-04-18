@@ -5,6 +5,10 @@ status: draft
 shadcn_initialized: false
 preset: none
 created: {date}
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-gsd
 ---
 
 # Phase {N} — UI Design Contract
@@ -98,3 +102,10 @@ Accent reserved for: {explicit list — never "all interactive elements"}
 - [ ] Dimension 6 Registry Safety: PASS
 
 **Approval:** {pending / approved YYYY-MM-DD}
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-gsd]] — core-gsd
+- [[MOC - Skills]] — Skills library
+

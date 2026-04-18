@@ -2,6 +2,10 @@
 description: Remove dead code and consolidate duplicates
 agent: refactor-cleaner
 subtask: true
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
 ---
 
 # Refactor Clean Command
@@ -100,3 +104,9 @@ Remaining (manual review needed):
 ---
 
 **CAUTION**: Always verify before removing. When in doubt, ask or add `// TODO: verify usage` comment.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

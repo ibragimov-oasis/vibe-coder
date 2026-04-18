@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # Customer Success Plan
 
 **Customer:** [Customer Name]
@@ -165,3 +172,9 @@
 
 **Next Review Date:** [Date]
 **Plan Owner:** [CSM Name]
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

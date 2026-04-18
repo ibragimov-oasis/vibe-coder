@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # content-strategy reference
 
 ## Searchable vs Shareable
@@ -276,3 +283,9 @@ Score each idea on four factors:
 | Topic B | 6 | 7 | 9 | 8 | 7.1 |
 
 ---
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

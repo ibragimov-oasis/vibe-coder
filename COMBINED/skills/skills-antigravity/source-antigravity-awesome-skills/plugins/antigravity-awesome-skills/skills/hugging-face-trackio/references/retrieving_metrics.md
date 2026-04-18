@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # Retrieving Metrics with Trackio CLI
 
 The `trackio` CLI provides direct terminal access to query Trackio experiment tracking data locally without needing to start the MCP server.
@@ -248,4 +255,9 @@ All errors exit with non-zero status code and write to stderr.
 
 - **Complete CLI documentation**: See [docs/source/cli_commands.md](docs/source/cli_commands.md)
 - **API and MCP Server**: See [docs/source/api_mcp_server.md](docs/source/api_mcp_server.md)
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
 

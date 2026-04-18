@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/REPO_DOCS
+---
+
 # AGENTS.md
 
 Open-Inspect is a background coding agent system that spawns sandboxed dev environments to work on
@@ -157,3 +164,9 @@ CI runs lint, typecheck, and tests for all TypeScript and Python packages on eve
   protocol, D1 schema, security model
 - [packages/modal-infra/README.md](packages/modal-infra/README.md) — sandbox internals, Modal
   deployment, endpoint URLs
+
+## 🔗 Связи
+
+- [[000 - Map of Maps]] — REPO_DOCS
+- [[000 - Map of Maps]] — Map of Maps
+

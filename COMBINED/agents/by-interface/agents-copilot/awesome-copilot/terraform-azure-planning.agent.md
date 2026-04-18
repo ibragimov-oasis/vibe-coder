@@ -2,6 +2,10 @@
 description: "Act as implementation planner for your Azure Terraform Infrastructure as Code task."
 name: "Azure Terraform Infrastructure Planning"
 tools: ["edit/editFiles", "fetch", "todos", "azureterraformbestpractices", "cloudarchitect", "documentation", "get_bestpractices", "microsoft-docs"]
+tags:
+  - domain/agents
+  - artifact/agent
+  - source/by-interface/agents-copilot
 ---
 
 # Azure Terraform Infrastructure Planning
@@ -160,3 +164,9 @@ avm: {module repo URL or commit} # if applicable
 
 <!-- Repeat Phase blocks as needed: Phase 1, Phase 2, Phase 3, … -->
 ````
+
+## 🔗 Связи
+
+- [[MOC - Agents]] — Agent catalog
+- [[agents/agents-copilot]] — Interface: agents-copilot
+

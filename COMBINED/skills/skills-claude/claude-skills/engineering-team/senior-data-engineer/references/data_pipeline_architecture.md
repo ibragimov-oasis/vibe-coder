@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # Data Pipeline Architecture
 
 Comprehensive guide to designing and implementing production data pipelines.
@@ -1098,3 +1105,9 @@ for config in configs['pipelines']:
     dag_id = f"etl_{config['source']}_{config['destination']}"
     globals()[dag_id] = create_etl_dag(config)
 ```
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

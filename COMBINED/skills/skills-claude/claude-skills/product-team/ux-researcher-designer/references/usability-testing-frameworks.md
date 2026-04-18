@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # Usability Testing Frameworks
 
 Reference for planning and conducting usability tests that produce actionable insights.
@@ -410,3 +417,9 @@ Task 2: [Name]
 ---
 
 *See also: `journey-mapping-guide.md` for contextual research*
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

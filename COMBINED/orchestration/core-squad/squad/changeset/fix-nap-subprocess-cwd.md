@@ -1,5 +1,9 @@
 ---
 "@bradygaster/squad-cli": patch
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-squad
 ---
 
 fix(cli): wire --team-root / SQUAD_TEAM_ROOT into squad resolution for nap, status, and cost commands (#734)
@@ -7,3 +11,10 @@ fix(cli): wire --team-root / SQUAD_TEAM_ROOT into squad resolution for nap, stat
 Commands that resolve .squad/ now respect the SQUAD_TEAM_ROOT env var (set by --team-root flag),
 fixing subprocess invocations (e.g. Copilot CLI bang commands) where process.cwd() differs from
 the interactive shell. Also improves the nap error message to show the searched directory.
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-squad]] — core-squad
+- [[MOC - Skills]] — Skills library
+

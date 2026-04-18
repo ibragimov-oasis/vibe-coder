@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-gsd
+---
+
 # GSD 기능 참조
 
 > 기능 및 함수에 대한 완전한 문서와 요구사항입니다. 아키텍처 세부 사항은 [Architecture](ARCHITECTURE.md)를, 명령어 문법은 [Command Reference](COMMANDS.md)를 참조하세요.
@@ -1288,3 +1295,10 @@ Claude가 GSD 워크플로우 컨텍스트 밖에서 파일 편집을 시도하�
 1. **감지** — 시스템에서 사용 가능한 AI CLI 런타임 식별
 2. **프롬프트** — 런타임 선택을 위한 다중 선택 인터페이스 표시
 3. **설치** — 단일 세션에서 선택된 모든 런타임에 GSD 구성
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-gsd]] — core-gsd
+- [[MOC - Skills]] — Skills library
+

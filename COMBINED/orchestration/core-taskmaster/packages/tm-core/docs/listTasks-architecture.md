@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-taskmaster
+---
+
 # ListTasks Architecture - End-to-End POC
 
 ## Current Implementation Structure
@@ -159,3 +166,10 @@ interface ListTasksResult {
 3. Test with mock API storage
 4. Integrate with actual Hamster API when available
 5. Migrate other commands (addTask, updateTask, etc.) following same pattern
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/task-master]] — Task-Master
+- [[000 - Map of Maps]] — Map of Maps
+

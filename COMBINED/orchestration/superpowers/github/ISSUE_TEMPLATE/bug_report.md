@@ -2,6 +2,10 @@
 name: Bug Report
 about: Something isn't working as expected
 labels: bug
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/superpowers
 ---
 
 <!--
@@ -50,3 +54,10 @@ add a comment or reaction to the existing one instead.
 <!-- A debug log or conversation transcript showing the issue is the
      single most helpful thing you can include. Without one, we're
      guessing. Screenshots of error output are also useful. -->
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/superpowers]] — superpowers
+- [[MOC - Skills]] — Skills library
+

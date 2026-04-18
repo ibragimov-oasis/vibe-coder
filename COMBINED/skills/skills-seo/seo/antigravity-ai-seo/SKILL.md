@@ -6,6 +6,10 @@ source: "https://github.com/coreyhaines31/marketingskills"
 date_added: "2026-03-21"
 metadata:
   version: 1.1.0
+tags:
+  - domain/seo
+  - artifact/skill
+  - source/skills-seo
 ---
 
 # AI SEO
@@ -405,3 +409,9 @@ For implementation, use the SEO and monitoring tools available in the current en
 - **competitor-alternatives**: For building comparison pages that get cited
 - **programmatic-seo**: For building SEO pages at scale
 - **copywriting**: For writing content that's both human-readable and AI-extractable
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-seo]] — Category: skills-seo
+

@@ -1,6 +1,10 @@
 ---
 name: "mcp-server-builder"
 description: "MCP Server Builder"
+tags:
+  - domain/agents
+  - artifact/skill
+  - source/skills-claude
 ---
 
 # MCP Server Builder
@@ -162,3 +166,10 @@ Before publishing a manifest:
 - Do not proxy arbitrary URLs from user-provided input.
 - Redact secrets and auth headers from logs.
 - Rate-limit high-cost tools and add request timeouts.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+- [[MOC - Agents]] — Claude agents
+

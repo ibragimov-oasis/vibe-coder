@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-refly
+---
+
 # File Reference
 
 ## File Commands
@@ -30,3 +37,10 @@ refly file upload <path> [options]
 - File IDs typically come from action results (`node.md`) or workflow outputs (`workflow.md`).
 - Use file commands to retrieve content produced by workflow runs.
 - Use `--result-id` or `--canvas-id` to narrow file listings to a specific run context.
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/refly]] — Refly
+- [[000 - Map of Maps]] — Map of Maps
+

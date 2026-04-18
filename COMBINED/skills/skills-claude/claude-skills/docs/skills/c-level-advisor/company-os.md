@@ -1,6 +1,10 @@
 ---
 title: "Company Operating System — Agent Skill for Executives"
 description: "The meta-framework for how a company runs — the connective tissue between all C-suite roles. Covers operating system selection (EOS, Scaling Up. Agent skill for Claude Code, Codex CLI, Gemini CLI, OpenClaw."
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
 ---
 
 # Company Operating System
@@ -237,3 +241,9 @@ The company OS is the connective tissue. Every other role depends on it:
 ## Detailed References
 - `references/os-comparison.md` — EOS vs Scaling Up vs OKRs vs Holacracy vs hybrid
 - `references/implementation-guide.md` — 90-day implementation plan
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

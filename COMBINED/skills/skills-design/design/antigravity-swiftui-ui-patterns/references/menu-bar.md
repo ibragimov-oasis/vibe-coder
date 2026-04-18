@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/ui
+  - artifact/doc
+  - source/skills-design
+---
+
 # Menu Bar
 
 ## Intent
@@ -99,3 +106,9 @@ struct ItemCommands: Commands {
 
 - Avoid registering the same keyboard shortcut in multiple command groups.
 - Don’t use menu items as the only discoverable entry point for critical features.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-design]] — Category: skills-design
+

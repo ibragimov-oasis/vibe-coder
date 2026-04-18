@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # Natural Transitions
 
 Transitional phrases to guide readers through your content. Good signposting improves readability, user engagement, and helps search engines understand content structure.
@@ -250,3 +257,9 @@ These phrases are overused in AI-generated content:
 - "Let's delve into..."
 
 See the seo-audit skill's `references/ai-writing-detection.md` for a complete list of AI writing tells.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

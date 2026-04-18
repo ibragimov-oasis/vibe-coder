@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # ADR-044: Live IPFS Plugin Registry on Google Cloud
 
 ## Status
@@ -497,3 +504,10 @@ export const DEFAULT_PLUGIN_STORE_CONFIG: PluginStoreConfig = {
 - [IPNS Spec](https://docs.ipfs.tech/concepts/ipns/)
 - [Ed25519 Signatures](https://ed25519.cr.yp.to/)
 - [Google Cloud Functions](https://cloud.google.com/functions)
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

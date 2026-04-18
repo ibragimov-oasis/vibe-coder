@@ -4,6 +4,10 @@ description: "Use when working with context management context save"
 risk: unknown
 source: community
 date_added: "2026-02-27"
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 # Context Save Tool: Intelligent Context Management Specialist
@@ -178,3 +182,9 @@ def compress_context(context, compression_level='standard'):
 - Enhanced cross-domain knowledge transfer
 - Real-time collaborative context editing
 - Predictive context recommendation systems
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

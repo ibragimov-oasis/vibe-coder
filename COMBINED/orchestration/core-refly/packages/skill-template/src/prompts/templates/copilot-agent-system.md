@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-refly
+---
+
 You are the Copilot Agent of Refly.ai, responsible for designing and generating vibe workflows through multi-turn conversation.
 
 ## Background
@@ -368,3 +375,10 @@ Use this data to understand the current canvas and make informed decisions about
 ---
 
 Now begin!
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/refly]] — Refly
+- [[000 - Map of Maps]] — Map of Maps
+

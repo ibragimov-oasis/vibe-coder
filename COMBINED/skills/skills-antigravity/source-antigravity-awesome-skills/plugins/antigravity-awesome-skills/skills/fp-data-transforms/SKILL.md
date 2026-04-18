@@ -15,6 +15,9 @@ tags:
   - grouping
   - aggregation
   - null-safety
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 # Practical Data Transformations
@@ -1516,3 +1519,9 @@ const result = items
 - The logic is simple and linear
 - Performance is critical and you've measured
 - The team is more comfortable with it
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

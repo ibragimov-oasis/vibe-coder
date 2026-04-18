@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # 🎥 youtube-summarizer
 
 > Extract transcripts from YouTube videos and generate comprehensive, detailed summaries

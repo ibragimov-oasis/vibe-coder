@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # Workflow Examples
 
 This directory contains multi-agent workflow definitions demonstrating various coordination patterns and use cases.
@@ -107,3 +114,9 @@ npx claude-flow orchestrate ./claude-workflow.json --background
 3. Set up dependencies between tasks
 4. Configure parallel execution where possible
 5. Add quality thresholds and validation steps
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-ruflo]] — core-ruflo
+

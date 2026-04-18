@@ -4,6 +4,10 @@ description: "Master Go concurrency with goroutines, channels, sync primitives, 
 risk: safe
 source: community
 date_added: "2026-02-27"
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 # Go Concurrency Patterns
@@ -34,3 +38,9 @@ Production patterns for Go concurrency including goroutines, channels, synchroni
 ## Resources
 
 - `resources/implementation-playbook.md` for detailed patterns and examples.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

@@ -1,6 +1,10 @@
 ---
 name: setup-supermemory
 description: "Automatically set up supermemory (Perfect agent memory) in your own agent or application, end-to-end. Asks user questions, chooses the right context solution for the agent and does the implementation for you."
+tags:
+  - domain/memory
+  - artifact/memory
+  - source/memory
 ---
 
 # Supermemory Claude Skill
@@ -219,3 +223,9 @@ For questions about:
 **Built for the [Claude Skills Marketplace](https://github.com/anthropics/skills)**
 
 **Supermemory**: Memory API for the AI era • [supermemory.ai](https://supermemory.ai)
+
+## 🔗 Связи
+
+- [[MOC - Memory]] — memory
+- [[000 - Map of Maps]] — Map of Maps
+

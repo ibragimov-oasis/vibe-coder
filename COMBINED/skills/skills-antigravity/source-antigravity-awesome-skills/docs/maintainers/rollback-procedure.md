@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # Rollback Procedure
 
 Use this when a structural refactor, generated artifact refresh, or release prep needs to be backed out safely.
@@ -41,3 +48,9 @@ git restore --staged README.md CONTRIBUTING.md package.json package-lock.json
 
 - Avoid `git reset --hard` unless you have explicit approval and understand the impact on unrelated work.
 - For generated artifacts, regenerate after rollback with the standard scripts instead of manually editing them.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

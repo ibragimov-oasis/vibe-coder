@@ -1,6 +1,10 @@
 ---
 description: Comprehensive development guidelines for Microsoft 365 Copilot declarative agents with schema v1.5, TypeSpec integration, and Microsoft 365 Agents Toolkit workflows
 applyTo: "**.json, **.ts, **.tsp, **manifest.json, **agent.json, **declarative-agent.json"
+tags:
+  - domain/agents
+  - artifact/agent
+  - source/by-interface/agents-copilot
 ---
 
 # Microsoft 365 Declarative Agents Development Guidelines
@@ -314,3 +318,9 @@ const log = {
 - Schema validation utilities
 
 This comprehensive guide ensures robust, scalable, and maintainable Microsoft 365 Copilot declarative agents with full TypeSpec and Microsoft 365 Agents Toolkit integration.
+
+## 🔗 Связи
+
+- [[MOC - Agents]] — Agent catalog
+- [[agents/agents-copilot]] — Interface: agents-copilot
+

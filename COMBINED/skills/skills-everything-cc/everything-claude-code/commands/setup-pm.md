@@ -1,6 +1,10 @@
 ---
 description: Configure your preferred package manager (npm/pnpm/yarn/bun)
 disable-model-invocation: true
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
 ---
 
 # Package Manager Setup
@@ -78,3 +82,9 @@ To see current package manager detection results, run:
 ```bash
 node scripts/setup-package-manager.js --detect
 ```
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

@@ -5,6 +5,10 @@ license: MIT
 version: 1.0.0-squad
 domain: team-memory, learning
 confidence: high
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-squad
 ---
 
 # Reflect Skill
@@ -227,3 +231,10 @@ User: "Perfect! This is exactly the format I want for all PRs"
 - `.squad/decisions.md` — Team-wide decisions
 - `.squad/agents/*/history.md` — Agent-specific learnings
 - `.squad/routing.md` — Work assignment patterns
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/squad]] — Squad
+- [[000 - Map of Maps]] — Map of Maps
+

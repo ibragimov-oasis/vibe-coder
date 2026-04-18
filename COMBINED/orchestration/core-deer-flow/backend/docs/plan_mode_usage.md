@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-deer-flow
+---
+
 # Plan Mode with TodoList Middleware
 
 This document describes how to enable and use the Plan Mode feature with TodoList middleware in DeerFlow 2.0.
@@ -202,3 +209,10 @@ The custom prompts are defined in `_create_todo_list_middleware()` in `/Users/he
 - Plan mode is **disabled by default** (`is_plan_mode=False`) to maintain backward compatibility
 - The middleware is positioned before `ClarificationMiddleware` to allow todo management during clarification flows
 - Custom prompts emphasize the same principles as DeerFlow's main system prompt (clarity, action-oriented, critical rules)
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-deer-flow]] — core-deer-flow
+- [[MOC - Skills]] — Skills library
+

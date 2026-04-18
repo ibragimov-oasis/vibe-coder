@@ -1,6 +1,10 @@
 ---
 name: django-patterns
 description: Django architecture patterns, REST API design with DRF, ORM best practices, caching, signals, middleware, and production-grade Django apps.
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-everything-cc
 ---
 
 # Django 開発パターン
@@ -731,3 +735,9 @@ Product.objects.filter(stock=0).delete()
 | ミドルウェア | リクエスト/レスポンス処理 |
 
 **覚えておいてください**: Djangoは多くのショートカットを提供しますが、本番アプリケーションでは、構造と組織が簡潔なコードよりも重要です。保守性を重視して構築してください。
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-archon
+---
+
 # Architecture Deep Dive
 
 > **Purpose**: End-to-end flow traces across the entire Archon system with file:line references.
@@ -322,3 +329,10 @@ Narrows `IPlatformAdapter` to `WebAdapter` for web-specific methods: `setConvers
 | Config | `core/src/config/config-loader.ts` |
 | SSE streaming | `server/src/adapters/web/transport.ts`, `server/src/adapters/web/workflow-bridge.ts` |
 | Web UI hooks | `web/src/hooks/useSSE.ts`, `web/src/lib/api.ts` |
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/archon]] — Archon
+- [[000 - Map of Maps]] — Map of Maps
+

@@ -3,6 +3,10 @@ name: stop
 description: Stop a running agent
 aliases: [kill]
 type: command
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
 ---
 
 # Agent Stop Command
@@ -100,3 +104,10 @@ npx claude-flow agent list -s idle --format json | \
 - `npx claude-flow agent list` - Find agent IDs
 - `npx claude-flow agent status` - Check status before stopping
 - `npx claude-flow swarm destroy` - Stop all agents in swarm
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

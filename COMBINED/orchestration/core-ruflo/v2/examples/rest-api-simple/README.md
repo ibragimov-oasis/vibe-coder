@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # Simple REST API
 
 A super simple REST API built with Express.js that demonstrates basic CRUD operations.
@@ -97,3 +104,9 @@ curl -X DELETE http://localhost:3000/api/items/1
 - Data is stored in memory and will be lost when the server restarts
 - No authentication or authorization is implemented
 - This is a demonstration API for learning purposes
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-ruflo]] — core-ruflo
+

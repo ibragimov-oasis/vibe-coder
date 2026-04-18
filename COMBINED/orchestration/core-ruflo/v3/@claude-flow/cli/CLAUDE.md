@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # Claude Code Configuration - Claude Flow V3
 
 ## 🚨 AUTOMATIC SWARM ORCHESTRATION
@@ -724,3 +731,10 @@ Example spawn message:
 - 👀 Reviewer: [task]
 Working in parallel - I'll synthesize when they complete."
 ```
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

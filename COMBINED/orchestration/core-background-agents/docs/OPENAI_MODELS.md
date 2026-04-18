@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-background-agents
+---
+
 # Using OpenAI Models
 
 Open-Inspect supports OpenAI Codex models in addition to Anthropic Claude models. This guide covers
@@ -88,3 +95,10 @@ fresh credentials.
 
 The OAuth refresh token may have been revoked or expired. Re-authenticate by repeating Step 1 and
 updating the secrets in your Settings page.
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-background-agents]] — core-background-agents
+- [[MOC - Skills]] — Skills library
+

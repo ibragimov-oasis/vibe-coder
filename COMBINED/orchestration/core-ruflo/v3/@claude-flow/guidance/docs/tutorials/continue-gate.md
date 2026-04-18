@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # Tutorial: ContinueGate for Long-Running Agents
 
 This tutorial shows how to prevent runaway agent loops using the ContinueGate.
@@ -244,3 +251,10 @@ while (true) {
 console.log(`Proof chain valid: ${proof.verify()}`);
 console.log(`Gate stats:`, gate.getStats());
 ```
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

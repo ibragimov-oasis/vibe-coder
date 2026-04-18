@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/new_repos
+---
+
 # Troubleshooting and FAQ
 
 This guide covers common errors, provider-specific issues, performance problems, and frequently asked questions.
@@ -304,3 +311,8 @@ This usually means the conversation has grown too long and older turns are being
 - [Getting Started](getting-started.md) — First-time setup
 - [LLM Providers](llm-providers.md) — Provider-specific setup details
 - [Vault Search and Indexing](vault-search-and-indexing.md) — Index management
+
+## 🔗 Связи
+
+- [[000 - Map of Maps]] — Map of Maps
+

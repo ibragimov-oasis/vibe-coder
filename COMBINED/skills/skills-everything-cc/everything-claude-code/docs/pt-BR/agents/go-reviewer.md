@@ -3,6 +3,10 @@ name: go-reviewer
 description: Revisor especializado em código Go com foco em Go idiomático, padrões de concorrência, tratamento de erros e performance. Use para todas as alterações de código Go. DEVE SER USADO em projetos Go.
 tools: ["Read", "Grep", "Glob", "Bash"]
 model: sonnet
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
 ---
 
 Você é um revisor sênior de código Go garantindo altos padrões de Go idiomático e boas práticas.
@@ -74,3 +78,9 @@ govulncheck ./...
 - **Bloquear**: Problemas CRÍTICOS ou ALTOS encontrados
 
 Para exemplos detalhados de código Go e anti-padrões, veja `skill: golang-patterns`.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

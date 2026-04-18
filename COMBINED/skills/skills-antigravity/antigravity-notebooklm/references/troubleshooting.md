@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # NotebookLM Skill Troubleshooting Guide
 
 ## Quick Fix Table
@@ -374,3 +381,9 @@ A: Use multiple accounts or upgrade to Google Workspace.
 
 **Q: Is this safe for my Google account?**
 A: Use dedicated account for automation. Only accesses NotebookLM.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

@@ -1,5 +1,9 @@
 ---
 description: Prime agent with full Archon codebase understanding
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-archon
 ---
 
 # Prime: Load Archon Project Context
@@ -73,3 +77,10 @@ Provide a concise summary (under 300 words) covering:
 - Any observations relevant to next task
 
 **Keep it scannable — bullets over prose.**
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-archon]] — core-archon
+- [[MOC - Skills]] — Skills library
+

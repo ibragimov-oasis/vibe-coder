@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # V3 Capability Gap Analysis
 
 > Complete analysis of features present in V2 but missing or changed in V3
@@ -306,3 +313,10 @@ The following packages could benefit from adding domain/application layers (curr
 - Optional DDD layer refinement for utility packages
 - Advanced features (SPARC CLI, GitHub CLI)
 - Documentation completion
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

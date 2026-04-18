@@ -3,6 +3,9 @@ title: Optimize SVG Precision
 impact: LOW
 impactDescription: reduces file size
 tags: rendering, svg, optimization, svgo
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
 ---
 
 ## Optimize SVG Precision
@@ -26,3 +29,9 @@ Reduce SVG coordinate precision to decrease file size. The optimal precision dep
 ```bash
 npx svgo --precision=1 --multipass icon.svg
 ```
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

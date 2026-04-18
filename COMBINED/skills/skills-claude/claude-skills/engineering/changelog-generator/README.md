@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # Changelog Generator
 
 Automates release notes from Conventional Commits with Keep a Changelog output and strict commit linting. Designed for CI-friendly release workflows.
@@ -46,3 +53,9 @@ cp -R engineering/changelog-generator ~/.codex/skills/changelog-generator
 ```bash
 cp -R engineering/changelog-generator ~/.openclaw/skills/changelog-generator
 ```
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

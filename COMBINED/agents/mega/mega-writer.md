@@ -11,6 +11,10 @@ tools:
   - Glob
   - mcp__gitnexus
   - mcp__supermemory
+tags:
+  - domain/agents
+  - artifact/mega-agent
+  - source/mega
 ---
 
 <role>
@@ -197,3 +201,10 @@ Sources:
 - RuFlo API docs: `COMBINED/agents/by-role/writer/ruflo-documentation-api-docs-docs-api-openapi.md`
 - RuFlo pseudocode: `COMBINED/agents/by-role/writer/ruflo-sparc-pseudocode.md`
 </rules>
+
+## 🔗 Связи
+
+- [[MOC - Agents]] — Agent catalog
+- [[agents/mega-writer]] — Vault entry
+- [[MOC - Skills]] — Skills library
+

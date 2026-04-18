@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # Inter-Section Effects Reference
 
 These are the most premium techniques — effects where elements **persist, travel, or transition between sections**, creating a seamless narrative thread across the entire page.
@@ -491,3 +498,9 @@ function initSectionPeel() {
 | Product travels a journey narrative | Curved Path Travel |
 | Elegant section-to-section transition | Section Peel Reveal |
 | Dark → light section transition | Floating Product (section backgrounds change beneath) |
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

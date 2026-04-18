@@ -4,6 +4,10 @@ description: "How to review PRs for security — credentials, injection, workflo
 domain: "security"
 confidence: "medium"
 source: "extracted from copilot-instructions.md patterns and GitHub Actions security best practices"
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-squad
 ---
 
 ## Context
@@ -264,3 +268,10 @@ Brief overview of security posture and required actions.
 - ❌ Ignoring export typos ("TypeScript would catch that") — not always true with re-exports
 - ❌ Allowing force pushes to shared branches in scripts ("we know what we're doing")
 - ❌ Skipping review of new `node_modules` additions in bootstrap files ("it's a small package")
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/squad]] — Squad
+- [[000 - Map of Maps]] — Map of Maps
+

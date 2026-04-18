@@ -1,6 +1,10 @@
 ---
 name: "ReasoningBank with AgentDB"
 description: "Implement ReasoningBank adaptive learning with AgentDB's 150x faster vector database. Includes trajectory tracking, verdict judgment, memory distillation, and pattern recognition. Use when building self-learning agents, optimizing decision-making, or implementing experience replay systems."
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-ruflo
 ---
 
 # ReasoningBank with AgentDB
@@ -444,3 +448,9 @@ await rb.optimize();
 **Category**: Machine Learning / Reinforcement Learning
 **Difficulty**: Intermediate
 **Estimated Time**: 20-30 minutes
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-ruflo]] — Category: skills-ruflo
+

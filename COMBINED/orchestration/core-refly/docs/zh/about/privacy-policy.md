@@ -1,6 +1,10 @@
 ---
 title: 隐私政策
 description: Refly AI Workflow 引擎隐私政策
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-refly
 ---
 
 # 隐私政策
@@ -214,4 +218,10 @@ Refly 严格遵守 **Google API Services User Data Policy** 的 Limited Use 要�
 我们通常在 **72 小时内**响应紧急隐私问题，并在法律要求的时限内完成监管通报与用户通知。
 
 ---
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/refly]] — Refly
+- [[000 - Map of Maps]] — Map of Maps
 

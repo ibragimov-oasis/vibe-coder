@@ -1,5 +1,9 @@
 ---
 description: 요구사항을 재확인하고, 위험을 평가하며, 단계별 구현 계획을 작성합니다. 코드를 건드리기 전에 사용자 확인을 기다립니다.
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
 ---
 
 # Plan 커맨드
@@ -111,3 +115,9 @@ Agent (planner):
 
 이 커맨드는 다음 위치의 `planner` 에이전트를 호출합니다:
 `~/COMBINED/workspace-config/claude/agents/planner.md`
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

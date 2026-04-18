@@ -41,3 +41,9 @@ Enterprise skills библиотека от RuFlo системы. 80+ специ
 
 - [[skills/skills-omc]] — OMC skills
 - [[skills/skills-superpowers]] — Superpowers skills
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Parent MOC
+- [[000 - Map of Maps]] — Map of Maps
+

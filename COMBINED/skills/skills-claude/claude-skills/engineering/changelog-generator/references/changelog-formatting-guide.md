@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # Changelog Formatting Guide
 
 Use Keep a Changelog section ordering:
@@ -15,3 +22,9 @@ Rules:
 - Lead with impact, not implementation detail.
 - Keep bullets short and actionable.
 - Include migration note for breaking changes.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

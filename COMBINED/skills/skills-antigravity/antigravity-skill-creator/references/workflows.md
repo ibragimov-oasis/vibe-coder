@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # Workflow Patterns
 
 ## Sequential Workflows
@@ -26,3 +33,9 @@ For tasks with branching logic, guide Claude through decision points:
 2. Creation workflow: [steps]
 3. Editing workflow: [steps]
 ```
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

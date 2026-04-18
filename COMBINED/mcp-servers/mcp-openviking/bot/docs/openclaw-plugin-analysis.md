@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/mcp
+  - artifact/mcp-server
+  - source/mcp-servers
+---
+
 # OpenClaw 插件机制深度分析
 
 > 分析日期：2026-03-03
@@ -351,3 +358,9 @@ function generateSkillMd(sourcePath: string) {
 3. **避免** 尝试在加载过程中 hack 内部机制
 
 这种设计与 OpenClaw 的整体架构哲学一致：**声明式配置 + 程序化扩展**。
+
+## 🔗 Связи
+
+- [[MOC - MCP Servers]] — mcp-servers
+- [[000 - Map of Maps]] — Map of Maps
+

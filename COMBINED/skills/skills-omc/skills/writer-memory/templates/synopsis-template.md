@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/doc
+  - source/skills-omc
+---
+
 # 시놉시스: {{PROJECT_NAME}}
 
 > 장르: {{GENRE}} | 최종 업데이트: {{DATE}}
@@ -44,3 +51,9 @@
 
 *이 시놉시스는 writer-memory 시스템에 의해 자동 생성되었습니다.*
 *플롯이 아닌 감정 설계도 기반의 시놉시스입니다.*
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-omc]] — Category: skills-omc
+

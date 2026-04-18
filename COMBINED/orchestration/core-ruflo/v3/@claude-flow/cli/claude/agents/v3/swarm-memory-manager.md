@@ -37,6 +37,10 @@ hooks:
     mcp__claude-flow__memory_compress --namespace="swarm"
     # Persist session state
     mcp__claude-flow__memory_persist --sessionId="${SESSION_ID}"
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
 ---
 
 # V3 Swarm Memory Manager Agent
@@ -155,3 +159,10 @@ mcp__claude-flow__memory_usage({
 // 5. Sync periodically
 mcp__claude-flow__memory_sync({ target: "all" })
 ```
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # memory-search
 
 Search through stored memory.
@@ -23,3 +30,10 @@ npx claude-flow memory search --pattern "api-.*"
 # Limited results
 npx claude-flow memory search --query "config" --limit 10
 ```
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

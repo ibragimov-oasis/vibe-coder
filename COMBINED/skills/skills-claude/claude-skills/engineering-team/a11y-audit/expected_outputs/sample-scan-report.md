@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # A11y Audit Report — sample-component.tsx
 
 **Scanned:** 1 file | **Issues:** 9 | **Status:** FAIL
@@ -61,3 +68,9 @@
 - **Code:** `style={{ color: row.active ? 'green' : 'red' }}`
 - **WCAG:** 1.4.1 Use of Color (Level A)
 - **Fix:** Add text or icon alongside color: `{row.active ? '✓ Active' : '✗ Inactive'}`
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

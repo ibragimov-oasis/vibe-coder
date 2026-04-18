@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-hermes
+---
+
 # Whisper Language Support Guide
 
 Complete guide to Whisper's multilingual capabilities.
@@ -187,3 +194,9 @@ print(f"Confidence: {probs[detected_language]:.2%}")
 - **Paper**: https://arxiv.org/abs/2212.04356
 - **GitHub**: https://github.com/openai/whisper
 - **Model Card**: https://github.com/openai/whisper/blob/main/model-card.md
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-hermes]] — Category: skills-hermes
+

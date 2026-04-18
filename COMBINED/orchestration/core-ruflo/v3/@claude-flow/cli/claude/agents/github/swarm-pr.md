@@ -32,6 +32,10 @@ hooks:
     - "Update PR with comprehensive swarm review results"
     - "Coordinate merge decisions based on swarm analysis"
     - "Generate PR completion metrics and learnings"
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
 ---
 
 # Swarm PR - Managing Swarms through Pull Requests
@@ -426,3 +430,10 @@ mcp__claude-flow__memory_usage {
 ```
 
 See also: [swarm-issue.md](./swarm-issue.md), [sync-coordinator.md](./sync-coordinator.md), [workflow-automation.md](./workflow-automation.md)
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

@@ -1,6 +1,10 @@
 ---
 description: 'Code components for model-driven apps implementation and configuration'
 applyTo: '**/*.{ts,tsx,js,json,xml,pcfproj,csproj}'
+tags:
+  - domain/agents
+  - artifact/agent
+  - source/by-interface/agents-copilot
 ---
 
 # Code Components for Model-Driven Apps
@@ -49,3 +53,9 @@ Whenever you update the code components and want to see the changes in runtime, 
 - [Power Apps component framework overview](https://learn.microsoft.com/en-us/power-apps/developer/component-framework/overview)
 - [Create your first code component](https://learn.microsoft.com/en-us/power-apps/developer/component-framework/implementing-controls-using-typescript)
 - [Learn Power Apps component framework](https://learn.microsoft.com/en-us/training/paths/use-power-apps-component-framework)
+
+## 🔗 Связи
+
+- [[MOC - Agents]] — Agent catalog
+- [[agents/agents-copilot]] — Interface: agents-copilot
+

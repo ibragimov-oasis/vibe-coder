@@ -1,6 +1,10 @@
 ---
 title: "Spec-Driven Workflow — Agent Skill for Codex & OpenClaw"
 description: "Use when the user asks to write specs before code, define acceptance criteria, plan features before implementation, generate tests from. Agent skill for Claude Code, Codex CLI, Gemini CLI, OpenClaw."
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
 ---
 
 # Spec-Driven Workflow
@@ -342,3 +346,9 @@ python spec_validator.py --file specs/auth.md --strict
 # Extract test cases
 python test_extractor.py --file specs/auth.md --framework pytest --output tests/test_auth.py
 ```
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

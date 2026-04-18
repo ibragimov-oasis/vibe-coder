@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-hermes
+---
+
 # ☤ ASCII Video
 
 Renders any content as colored ASCII character video. Audio, video, images, text, or pure math in, MP4/GIF/PNG sequence out. Full RGB color per character cell, 1080p 24fps default. No GPU.
@@ -288,3 +295,9 @@ Auto-detects CPU count, RAM, platform, ffmpeg. Adapts worker count, resolution, 
 ✦ Audio-reactive music visualizer. 3.5 min, 8 sections with distinct effects, beat-triggered particles and glitch, cycling palettes.
 
 ✦ TTS narrated testimonial video. 23 quotes, per-quote ElevenLabs voices, background music at 15% wide stereo, per-clip re-rendering for iterative editing.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-hermes]] — Category: skills-hermes
+

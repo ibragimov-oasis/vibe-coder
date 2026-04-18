@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
+---
+
 # Go Microservice — CLAUDE.md de Projeto
 
 > Exemplo real para um microserviço Go com PostgreSQL, gRPC e Docker.
@@ -265,3 +272,9 @@ staticcheck ./...
 - Branches de feature a partir da `main`, PRs obrigatórios
 - CI: `go vet`, `staticcheck`, `go test -race`, `golangci-lint`
 - Deploy: imagem Docker gerada no CI e publicada em Kubernetes
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/mcp
+  - artifact/mcp-server
+  - source/mcp-servers
+---
+
 # 认证
 
 OpenViking Server 支持两种认证模式，并带有基于角色的访问控制：`api_key` 和 `trusted`。
@@ -239,3 +246,9 @@ curl http://localhost:1933/health
 - [配置](01-configuration.md) - 配置文件说明
 - [服务部署](03-deployment.md) - 服务部署
 - [API 概览](../api/01-overview.md) - API 参考
+
+## 🔗 Связи
+
+- [[MOC - MCP Servers]] — mcp-servers
+- [[000 - Map of Maps]] — Map of Maps
+

@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-background-agents
+---
+
 # Provider Contribution Checklist
 
 Use this checklist before opening a pull request for a new source-control provider.
@@ -33,3 +40,10 @@ Use this checklist before opening a pull request for a new source-control provid
 
 - [ ] Control-plane README documents any new provider-related env vars or constraints.
 - [ ] ADR updated or added when architecture assumptions change.
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-background-agents]] — core-background-agents
+- [[MOC - Skills]] — Skills library
+

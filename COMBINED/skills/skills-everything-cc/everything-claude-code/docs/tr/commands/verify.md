@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
+---
+
 # Verification Komutu
 
 Mevcut kod tabanı durumu üzerinde kapsamlı doğrulama çalıştır.
@@ -57,3 +64,9 @@ $ARGUMENTS şunlar olabilir:
 - `full` - Tüm kontroller (varsayılan)
 - `pre-commit` - Commit'ler için ilgili kontroller
 - `pre-pr` - Güvenlik taraması artı tam kontroller
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

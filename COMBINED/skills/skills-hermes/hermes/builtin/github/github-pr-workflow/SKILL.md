@@ -8,6 +8,9 @@ metadata:
   hermes:
     tags: [GitHub, Pull-Requests, CI/CD, Git, Automation, Merge]
     related_skills: [github-auth, github-code-review]
+  - domain/skills
+  - artifact/skill
+  - source/skills-hermes
 ---
 
 # GitHub Pull Request Workflow
@@ -364,3 +367,9 @@ git push -u origin HEAD
 | Request review | `gh pr edit N --add-reviewer user` | `curl -X POST .../pulls/N/requested_reviewers -d '{"reviewers":["user"]}'` |
 | Close PR | `gh pr close N` | `curl -X PATCH .../pulls/N -d '{"state":"closed"}'` |
 | Check out someone's PR | `gh pr checkout N` | `git fetch origin pull/N/head:pr-N && git checkout pr-N` |
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-hermes]] — Category: skills-hermes
+

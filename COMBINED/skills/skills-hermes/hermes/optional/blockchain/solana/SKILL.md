@@ -8,6 +8,9 @@ metadata:
   hermes:
     tags: [Solana, Blockchain, Crypto, Web3, RPC, DeFi, NFT]
     related_skills: []
+  - domain/skills
+  - artifact/skill
+  - source/skills-hermes
 ---
 
 # Solana Blockchain Skill
@@ -205,3 +208,9 @@ PYTH, HNT, RNDR, WEN, W, TNSR, DRIFT, bSOL, JLP, WIF, MEW, BOME, PENGU.
 # Should print current Solana slot, TPS, and SOL price
 python3 ~/.hermes/skills/blockchain/solana/scripts/solana_client.py stats
 ```
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-hermes]] — Category: skills-hermes
+

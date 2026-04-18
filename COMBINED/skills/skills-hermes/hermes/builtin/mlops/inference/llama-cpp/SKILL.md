@@ -8,7 +8,9 @@ dependencies: [llama-cpp-python]
 metadata:
   hermes:
     tags: [Inference Serving, Llama.cpp, CPU Inference, Apple Silicon, Edge Deployment, GGUF, Quantization, Non-NVIDIA, AMD GPUs, Intel GPUs, Embedded]
-
+  - domain/skills
+  - artifact/skill
+  - source/skills-hermes
 ---
 
 # llama.cpp
@@ -258,4 +260,8 @@ cat prompts.txt | ./llama-cli \
 - **Models**: https://huggingface.co/models?library=gguf
 - **Discord**: https://discord.gg/llama-cpp
 
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-hermes]] — Category: skills-hermes
 

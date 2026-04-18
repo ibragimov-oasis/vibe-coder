@@ -109,8 +109,17 @@ By default the system displays the progress indicators in white over the scene�
 
 ## [Change log](https://developer.apple.com/design/human-interface-guidelines/progress-indicators#Change-log)
 
-Date| Changes  
+Date| Changes
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
 ---|---  
 September 12, 2023| Combined guidance common to all platforms.  
-June 5, 2023| Updated guidance to reflect changes in watchOS 10.  
-  
+June 5, 2023| Updated guidance to reflect changes in watchOS 10.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-archon
+---
+
 # Investigation: One-command web UI install via `archon serve`
 
 **Issue**: #978 (https://github.com/coleam00/Archon/issues/978)
@@ -536,3 +543,10 @@ The steps have a strict dependency chain:
 - **Investigated by**: Claude
 - **Timestamp**: 2026-04-09T12:00:00Z
 - **Artifact**: `.claude/PRPs/issues/issue-978.md`
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/archon]] — Archon
+- [[000 - Map of Maps]] — Map of Maps
+

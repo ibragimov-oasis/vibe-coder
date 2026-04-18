@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-hermes
+---
+
 # SAELens Reference Documentation
 
 This directory contains comprehensive reference materials for SAELens.
@@ -68,3 +75,9 @@ SAEs decompose dense neural activations into sparse, interpretable features:
 | `gpt2-small-res-jb` | GPT-2 Small | Residual stream SAEs |
 | `gemma-2b-res` | Gemma 2B | Residual stream SAEs |
 | Various | Search HuggingFace | Community-trained SAEs |
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-hermes]] — Category: skills-hermes
+

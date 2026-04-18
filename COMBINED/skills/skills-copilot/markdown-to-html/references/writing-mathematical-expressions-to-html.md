@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-copilot
+---
+
 # Writing Mathematical Expressions to HTML
 
 ## Writing Inline Expressions
@@ -348,3 +355,9 @@ To split <span>$</span>100 in half, we calculate $100/2$
  </math-renderer>
 </p>
 ```
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-copilot]] — Category: skills-copilot
+

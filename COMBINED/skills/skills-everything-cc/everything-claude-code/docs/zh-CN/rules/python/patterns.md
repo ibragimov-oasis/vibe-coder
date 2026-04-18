@@ -2,6 +2,10 @@
 paths:
   - "**/*.py"
   - "**/*.pyi"
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
 ---
 
 # Python 模式
@@ -38,3 +42,9 @@ class CreateUserRequest:
 ## 参考
 
 查看技能：`python-patterns`，了解包括装饰器、并发和包组织在内的综合模式。
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

@@ -52,3 +52,9 @@ source: "../new_repos/obsidian-copilot/designdocs/CONTEXT_ENGINEERING.md"
 
 - [[combined/Memory Overview]] — системы памяти ULTRACAR
 - [[obsidian-copilot/vault-search-and-indexing]] — L4 слой
+
+## 🔗 Связи
+
+- [[MOC - System]] — Parent MOC
+- [[000 - Map of Maps]] — Map of Maps
+

@@ -4,6 +4,10 @@ description: "Optimize Apache Spark jobs with partitioning, caching, shuffle opt
 risk: unknown
 source: community
 date_added: "2026-02-27"
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 # Apache Spark Optimization
@@ -428,3 +432,9 @@ spark_configs = {
 - [Spark Performance Tuning](https://spark.apache.org/docs/latest/sql-performance-tuning.html)
 - [Spark Configuration](https://spark.apache.org/docs/latest/configuration.html)
 - [Databricks Optimization Guide](https://docs.databricks.com/en/optimizations/index.html)
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

@@ -21,6 +21,10 @@ hooks:
     echo "📈 Performance analysis complete"
     # Generate performance report
     echo "📋 Compiling benchmarking results and recommendations"
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
 ---
 
 # Performance Benchmarker
@@ -849,3 +853,10 @@ const configPrediction = await this.mcpTools.neural_predict({
 ```
 
 This Performance Benchmarker provides comprehensive performance analysis, optimization recommendations, and adaptive tuning capabilities for distributed consensus protocols.
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

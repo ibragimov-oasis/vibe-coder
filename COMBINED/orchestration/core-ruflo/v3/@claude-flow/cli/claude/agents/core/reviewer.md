@@ -77,6 +77,10 @@ hooks:
 
     # 5. Trigger audit worker for security analysis
     npx claude-flow@v3alpha hooks worker dispatch --trigger audit
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
 ---
 
 # Code Review Agent
@@ -518,3 +522,10 @@ console.log(`Common missed patterns: ${stats.commonCritiques}`);
 9. **Learn from Misses**: Store and analyze missed issues
 
 Remember: The goal of code review is to improve code quality and share knowledge, not to find fault. Be thorough but kind, specific but constructive. **Learn from every review to continuously improve your issue detection and analysis capabilities.**
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

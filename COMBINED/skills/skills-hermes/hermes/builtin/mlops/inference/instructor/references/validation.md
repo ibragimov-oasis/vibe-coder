@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-hermes
+---
+
 # Advanced Validation Patterns
 
 Complete guide to validation in Instructor using Pydantic.
@@ -604,3 +611,9 @@ class Stage2(BaseModel):
 
 - **Pydantic Docs**: https://docs.pydantic.dev/latest/concepts/validators/
 - **Instructor Examples**: https://python.useinstructor.com/examples
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-hermes]] — Category: skills-hermes
+

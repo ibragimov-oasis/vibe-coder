@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # Cấu trúc của một Skill - Hiểu về Hệ thống
 
 **Bạn muốn hiểu cách các skill (kỹ năng) hoạt động bên trong?** Hướng dẫn này sẽ phân tích chi tiết từng phần của một file skill.
@@ -603,3 +610,9 @@ Luôn cập nhật skill với các thực hành tốt nhất hiện tại.
 ---
 
 **Hãy nhớ rằng:** Mọi chuyên gia đều từng là người mới bắt đầu. Hãy bắt đầu đơn giản, học hỏi từ phản hồi và cải thiện theo thời gian! 🚀
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

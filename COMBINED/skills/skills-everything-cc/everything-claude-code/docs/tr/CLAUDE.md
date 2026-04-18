@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
+---
+
 # CLAUDE.md
 
 Bu dosya, bu depodaki kodlarla çalışırken Claude Code'a (claude.ai/code) rehberlik sağlar.
@@ -58,3 +65,9 @@ CONTRIBUTING.md'deki formatları takip edin:
 - Hooks: Matcher ve hooks array ile JSON
 
 Dosya isimlendirme: tire ile küçük harfler (örn., `python-reviewer.md`, `tdd-workflow.md`)
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

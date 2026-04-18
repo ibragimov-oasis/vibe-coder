@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/seo
+  - artifact/doc
+  - source/skills-seo
+---
+
 # Content Calendar Command
 
 Generate a dated, month-long content calendar mapped to topic clusters, keywords, and publishing cadence using existing research data.
@@ -299,3 +306,9 @@ After running `/content-calendar`:
 - **After `/priorities`**: Turn prioritized list into a dated schedule
 - **Team planning**: Share the calendar with writers and editors for assignment
 - **Quarterly planning**: Run for 3 consecutive months to build a content roadmap
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-seo]] — Category: skills-seo
+

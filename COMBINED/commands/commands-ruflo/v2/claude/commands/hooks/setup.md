@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/command
+  - source/commands
+---
+
 # Setting Up ruv-swarm Hooks
 
 ## Quick Start
@@ -101,3 +108,9 @@ Already configured by default for common file types.
   }]
 }
 ```
+
+## 🔗 Связи
+
+- [[MOC - System]] — commands
+- [[000 - Map of Maps]] — Map of Maps
+

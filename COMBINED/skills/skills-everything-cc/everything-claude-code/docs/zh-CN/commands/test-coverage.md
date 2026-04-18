@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
+---
+
 # 测试覆盖率
 
 分析测试覆盖率，识别缺口，并生成缺失的测试以达到 80%+ 的覆盖率。
@@ -67,3 +74,9 @@ src/utils/validation.ts 32%    82%
 * 整个代码库中使用的工具函数
 * API 端点处理程序（请求 → 响应流程）
 * 边界情况：null、undefined、空字符串、空数组、零、负数
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

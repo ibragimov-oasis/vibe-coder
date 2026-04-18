@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # Cancel Flow Patterns
 
 Detailed cancel flow patterns by business type, billing provider, and industry.
@@ -314,3 +321,9 @@ The most effective cancel flows use segmentation to show different offers to dif
 - Never hide the cancel button (dark pattern)
 - Process cancellation even if save flow has errors
 - Confirm cancellation with email receipt
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

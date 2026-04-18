@@ -77,6 +77,10 @@ hooks:
         --training-data "$RELEASE_OUTPUT" \
         --epochs 50
     fi
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
 ---
 
 # GitHub Release Manager
@@ -603,3 +607,10 @@ jobs:
 - Error rate monitoring
 - User adoption metrics
 - Feedback collection and analysis
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

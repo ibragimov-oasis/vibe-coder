@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # App Development Reference
 
 Guide for building Shopify apps with OAuth, GraphQL/REST APIs, webhooks, and billing.
@@ -576,3 +583,9 @@ async function graphqlWithRetry(shop, token, query, retries = 3) {
 - Handle customer data deletion requests
 - Provide data export functionality
 - Follow data retention policies
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

@@ -8,7 +8,9 @@ dependencies: [audiocraft, torch>=2.0.0, transformers>=4.30.0]
 metadata:
   hermes:
     tags: [Multimodal, Audio Generation, Text-to-Music, Text-to-Audio, MusicGen]
-
+  - domain/skills
+  - artifact/skill
+  - source/skills-hermes
 ---
 
 # AudioCraft: Audio Generation
@@ -565,3 +567,9 @@ for desc in descriptions:
 - **Paper (AudioGen)**: https://arxiv.org/abs/2209.15352
 - **HuggingFace**: https://huggingface.co/facebook/musicgen-small
 - **Demo**: https://huggingface.co/spaces/facebook/MusicGen
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-hermes]] — Category: skills-hermes
+

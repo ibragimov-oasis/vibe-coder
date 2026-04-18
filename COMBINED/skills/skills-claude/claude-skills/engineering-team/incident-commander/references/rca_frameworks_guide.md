@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # Root Cause Analysis (RCA) Frameworks Guide
 
 ## Overview
@@ -560,3 +567,9 @@ Use Fishbone to identify causes, then Bow Tie to develop comprehensive preventio
 **Last Updated:** February 2026  
 **Next Review:** August 2026  
 **Owner:** SRE Team + Engineering Leadership
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

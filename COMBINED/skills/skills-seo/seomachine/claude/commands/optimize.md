@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/seo
+  - artifact/doc
+  - source/skills-seo
+---
+
 # Optimize Command
 
 Use this command to perform a final SEO optimization pass on completed articles before publishing.
@@ -266,3 +273,9 @@ Based on optimization score:
 - **Below 70**: Needs work - significant improvements required
 
 This ensures every article meets your company quality standards and SEO best practices before going live.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-seo]] — Category: skills-seo
+

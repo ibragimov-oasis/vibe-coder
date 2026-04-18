@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/config
+  - source/workspace-config
+---
+
 # Performance Bottleneck Analysis
 
 ## Purpose
@@ -57,3 +64,9 @@ Result includes:
 
 ## Continuous Optimization
 The system learns from each task to prevent future bottlenecks!
+
+## 🔗 Связи
+
+- [[MOC - System]] — workspace-config
+- [[000 - Map of Maps]] — Map of Maps
+

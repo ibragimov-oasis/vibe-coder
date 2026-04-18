@@ -1,6 +1,10 @@
 ---
 title: "SaaS Metrics Coach — Agent Skill for Finance"
 description: "SaaS financial health advisor. Use when a user shares revenue or customer numbers, or mentions ARR, MRR, churn, LTV, CAC, NRR, or asks how their SaaS. Agent skill for Claude Code, Codex CLI, Gemini CLI, OpenClaw."
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
 ---
 
 # SaaS Metrics Coach
@@ -161,3 +165,9 @@ python scripts/unit_economics_simulator.py --mrr 50000 --growth 10 --churn 3 --c
 
 - **financial-analyst**: Use for DCF valuation, budget variance analysis, and traditional financial modeling. NOT for SaaS-specific metrics like CAC, LTV, or churn.
 - **business-growth/customer-success**: Use for retention strategies and customer health scoring. Complements this skill when churn is flagged as CRITICAL.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # 安全发现分类（2026-03-15）
 
 - 基准：`origin/main@226f10c2a62fc182b4e93458bddea2e60f9b0cb9`
@@ -56,3 +63,9 @@
 | 31 | 低 | 新同步脚本中的符号链接遍历风险 | `tools/scripts/sync_recommended_skills.sh` | 仍然存在但实际风险较低 | filesystem-trust-boundary | 在 origin/main 上，sync_recommended_skills.sh 使用 cp -r 从仓库复制固定的允许列表，这仅限本地，但仍然信任源内容中的符号链接处理。 | 使用 cp -RP，以便保留符号链接而非解引用它们。 | codex/security-filesystem-trust-boundary |
 | 32 | 低 | skills_manager 允许启用/禁用操作中的路径遍历 | `tools/scripts/skills_manager.py` | 仍然存在但实际风险较低 | filesystem-trust-boundary | 在 origin/main 上，enable_skill/disable_skill 在 skills/.disabled 和 skills/ 下直接连接用户提供的技能名称，因此 ../ 段可以逃逸预期的根目录。 | 解析请求的路径并拒绝逃逸预期技能目录的名称。 | codex/security-filesystem-trust-boundary |
 | 33 | 低 | Office 解包脚本中的 Zip Slip 风险 | `skills/docx-official/ooxml/scripts/unpack.py | skills/pptx-official/ooxml/scripts/unpack.py` | 仍然存在且可利用 | filesystem-trust-boundary | 在 origin/main 上，两个 unpack.py 脚本都直接调用 ZipFile.extractall(output_path)，因此恶意的 Office 存档可以在请求的目录之外写入。 | 在解压之前验证每个存档成员路径并拒绝路径遍历条目。 | codex/security-filesystem-trust-boundary |
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

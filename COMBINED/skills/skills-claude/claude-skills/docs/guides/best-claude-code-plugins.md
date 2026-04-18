@@ -1,6 +1,10 @@
 ---
 title: "Best Claude Code Plugins & Skills (2026)"
 description: "The 20 best Claude Code plugins and agent skills for engineering, marketing, product, and DevOps. Install in one command."
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
 ---
 
 # Best Claude Code Plugins & Skills (2026)
@@ -118,3 +122,9 @@ Every plugin in this collection works across multiple AI coding agents:
 ---
 
 *Last updated: March 2026 · [alirezarezvani/claude-skills](https://github.com/alirezarezvani/claude-skills)*
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

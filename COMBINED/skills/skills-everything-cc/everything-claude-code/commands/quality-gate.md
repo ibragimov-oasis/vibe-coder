@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
+---
+
 # Quality Gate Command
 
 Run the ECC quality pipeline on demand for a file or project scope.
@@ -27,3 +34,9 @@ $ARGUMENTS:
 - `[path|.]` optional target path
 - `--fix` optional
 - `--strict` optional
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

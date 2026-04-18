@@ -2,6 +2,10 @@
 sidebar_position: 3
 title: "Built-in Tools Reference"
 description: "Authoritative reference for Hermes built-in tools, grouped by toolset"
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-hermes
 ---
 
 # Built-in Tools Reference
@@ -160,4 +164,9 @@ This page documents the built-in Hermes tool registry as it exists in code. Avai
 |------|-------------|----------------------|
 | `text_to_speech` | Convert text to speech audio. Returns a MEDIA: path that the platform delivers as a voice message. On Telegram it plays as a voice bubble, on Discord/WhatsApp as an audio attachment. In CLI mode, saves to ~/voice-memos/. Voice and provider… | — |
 
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/hermes]] — Hermes
+- [[000 - Map of Maps]] — Map of Maps
 

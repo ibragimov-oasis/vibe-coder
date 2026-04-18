@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # Citation Formats Quick Reference
 
 ## APA 7 (American Psychological Association)
@@ -103,3 +110,9 @@ Smith and Jones argue that "direct quote" (45).
 | UK/Australian academic | Harvard |
 | Internal business reports | APA 7 (most widely recognized) |
 | Product research briefs | APA 7 |
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

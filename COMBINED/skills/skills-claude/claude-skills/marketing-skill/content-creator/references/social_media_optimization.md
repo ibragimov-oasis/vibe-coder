@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # Social Media Optimization Guide
 
 Platform-specific best practices, algorithm factors, content optimization strategies, and analytics frameworks.
@@ -340,3 +347,9 @@ Sunday: Curated Content/Rest
 - Have crisis management plan
 - Monitor brand mentions
 - Establish posting permissions
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

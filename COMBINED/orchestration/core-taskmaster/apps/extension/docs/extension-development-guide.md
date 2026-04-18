@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-taskmaster
+---
+
 # VS Code Extension Development Guide
 
 ## 📁 File Structure Overview
@@ -253,4 +260,11 @@ This allows independent versioning and prevents conflicts in the monorepo.
 
 ---
 
-**Remember**: Always use `npx changeset add` for changes, then push to trigger automated releases! 🚀 
+**Remember**: Always use `npx changeset add` for changes, then push to trigger automated releases! 🚀
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/task-master]] — Task-Master
+- [[000 - Map of Maps]] — Map of Maps
+

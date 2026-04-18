@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # Fullstack Development Workflows
 
 Complete development lifecycle workflows from local setup to production deployment.
@@ -782,3 +789,9 @@ git push --follow-tags
 # CI/CD deploys automatically
 # Monitor dashboards
 ```
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

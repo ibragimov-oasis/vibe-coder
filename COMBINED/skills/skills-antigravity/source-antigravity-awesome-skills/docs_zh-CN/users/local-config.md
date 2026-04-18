@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # 本地技能配置
 
 > **当前状态**：仓库中提供所有 96 个技能。
@@ -150,3 +157,9 @@ skills/
 **推荐技能**：35 个高优先级
 **总共可用**：96 个技能 + 4 个符号链接 = 100 个总计
 **最近添加到推荐**：`senior-fullstack`、`concise-planning`、`address-github-comments`、`javascript-mastery`、`workflow-automation`、`llm-app-patterns`、`autonomous-agent-patterns`、`prompt-library`
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

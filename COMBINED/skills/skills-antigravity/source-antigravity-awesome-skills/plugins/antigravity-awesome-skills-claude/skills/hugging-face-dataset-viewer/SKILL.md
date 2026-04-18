@@ -3,6 +3,10 @@ source: "https://github.com/huggingface/skills/tree/main/skills/huggingface-data
 name: hugging-face-dataset-viewer
 description: Query Hugging Face datasets through the Dataset Viewer API for splits, rows, search, filters, and parquet links.
 risk: unknown
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 # Hugging Face Dataset Viewer
@@ -125,3 +129,9 @@ npx -y @huggingface/hub upload datasets/<namespace>/<repo> ./local/parquet-folde
 ```
 
 After upload, call `/parquet` to discover `<config>/<split>/<shard>` values for querying with `@~parquet`.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

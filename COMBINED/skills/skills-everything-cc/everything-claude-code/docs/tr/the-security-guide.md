@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
+---
+
 # Her Şey Agentic Güvenliğe Dair Kısa Kılavuz
 
 _everything claude code / araştırma / güvenlik_
@@ -453,3 +460,9 @@ Kurulumunuzu tarayın: [github.com/affaan-m/agentshield](https://github.com/affa
 gidip yapın ve ayrıca bu repo'ları kaydedin:
 - [github.com/affaan-m/everything-claude-code](https://github.com/affaan-m/everything-claude-code)
 - [github.com/affaan-m/agentshield](https://github.com/affaan-m/agentshield)
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

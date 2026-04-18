@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/command
+  - source/commands
+---
+
 # neural-train
 
 Train neural patterns from operations.
@@ -23,3 +30,9 @@ npx claude-flow training neural-train --model task-predictor
 # Custom epochs
 npx claude-flow training neural-train --epochs 100
 ```
+
+## 🔗 Связи
+
+- [[MOC - System]] — commands
+- [[000 - Map of Maps]] — Map of Maps
+

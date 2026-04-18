@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/ui
+  - artifact/ui-component
+  - source/ui-design
+---
+
 # Icon Design Reference
 
 AI-powered SVG icon generation using Gemini 3.1 Pro Preview. 15 styles, 12 categories, multi-size export.
@@ -120,3 +127,9 @@ python3 ~/COMBINED/workspace-config/claude/skills/design/scripts/icon/generate.p
 export GEMINI_API_KEY="your-key"
 pip install google-genai
 ```
+
+## 🔗 Связи
+
+- [[MOC - UI Design]] — ui-design
+- [[000 - Map of Maps]] — Map of Maps
+

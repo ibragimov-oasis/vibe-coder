@@ -3,6 +3,9 @@ title: Start Workflows in Background
 impact: CRITICAL
 impactDescription: Background workflows enable reliable async processing
 tags: workflow, background, handle, async
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
 ---
 
 ## Start Workflows in Background
@@ -52,3 +55,9 @@ const result = await handle.getResult();
 ```
 
 Reference: [Starting Workflows in Background](https://docs.dbos.dev/typescript/tutorials/workflow-tutorial#starting-workflows-in-the-background)
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

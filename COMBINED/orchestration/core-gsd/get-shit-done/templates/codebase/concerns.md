@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-gsd
+---
+
 # Codebase Concerns Template
 
 Template for `.planning/codebase/CONCERNS.md` - captures known issues and areas requiring care.
@@ -308,3 +315,10 @@ Template for `.planning/codebase/CONCERNS.md` - captures known issues and areas 
 **How this gets populated:**
 Explore agents detect these during codebase mapping. Manual additions welcome for human-discovered issues. This is living documentation, not a complaint list.
 </guidelines>
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/gsd]] — GSD
+- [[000 - Map of Maps]] — Map of Maps
+

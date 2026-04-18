@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-squad
+---
+
 # PRD: Squad CLI UI Polish
 **Status:** Draft  
 **Author:** Keaton (Lead)  
@@ -306,3 +313,10 @@ This document defines what we're shipping for **alpha release** versus what we'r
 ---
 
 **End of PRD**
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-squad]] — core-squad
+- [[MOC - Skills]] — Skills library
+

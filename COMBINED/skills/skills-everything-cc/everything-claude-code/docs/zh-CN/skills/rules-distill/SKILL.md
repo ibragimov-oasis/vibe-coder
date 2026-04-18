@@ -2,6 +2,10 @@
 name: rules-distill
 description: "扫描技能以提取跨领域原则并将其提炼为规则——追加、修订或创建新的规则文件"
 origin: ECC
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-everything-cc
 ---
 
 # 规则提炼
@@ -262,3 +266,9 @@ $ /rules-distill
 * **链接回源**：草案文本应包含 `See skill: [name]` 引用，以便读者能找到详细的"如何做"。
 * **确定性收集，LLM判断**：脚本保证详尽性；LLM保证上下文理解。
 * **反抽象保障**：三层过滤器（2+技能证据、可操作行为测试、违规风险）防止过于抽象的原则进入规则。
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

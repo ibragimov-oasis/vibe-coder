@@ -3,6 +3,9 @@ title: Use Prepared Statements Correctly with Pooling
 impact: HIGH
 impactDescription: Avoid prepared statement conflicts in pooled environments
 tags: prepared-statements, connection-pooling, transaction-mode
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
 ---
 
 ## Use Prepared Statements Correctly with Pooling
@@ -44,3 +47,9 @@ Check your driver settings:
 ```
 
 Reference: [Prepared Statements with Pooling](https://supabase.com/docs/guides/database/connecting-to-postgres#connection-pool-modes)
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

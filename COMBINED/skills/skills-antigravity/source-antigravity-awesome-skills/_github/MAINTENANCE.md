@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # 🛠️ Repository Maintenance Guide (V5)
 
 > **"If it's not documented, it's broken."**
@@ -549,3 +556,9 @@ If a skill is found to be harmful or broken:
 ## 6. 📁 Data directory note
 
 `data/package.json` exists for historical reasons; the build and catalog scripts run from the repo root and use root `node_modules`. You can ignore or remove `data/package.json` and `data/node_modules` if present.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

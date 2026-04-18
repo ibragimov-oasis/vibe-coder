@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
+---
+
 # Everything Claude Code Research Playbook
 
 Use this when the task is documentation-heavy, source-sensitive, or requires broad repository context.
@@ -19,3 +26,9 @@ Use this when the task is documentation-heavy, source-sensitive, or requires bro
 - Primary language: JavaScript
 - Framework: Not detected
 - Workflows detected: 10
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

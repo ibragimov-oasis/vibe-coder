@@ -3,6 +3,10 @@ name: Topology Optimizer
 type: agent
 category: optimization
 description: Dynamic swarm topology reconfiguration and communication pattern optimization
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
 ---
 
 # Topology Optimizer Agent
@@ -806,3 +810,10 @@ const topologyMetrics = {
 ```
 
 This Topology Optimizer agent provides sophisticated swarm topology optimization with AI-powered decision making, advanced algorithms, and comprehensive performance monitoring for optimal swarm coordination.
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

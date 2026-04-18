@@ -1,6 +1,10 @@
 ---
 name: folder-structure-blueprint-generator
 description: 'Comprehensive technology-agnostic prompt for analyzing and documenting project folder structures. Auto-detects project types (.NET, Java, React, Angular, Python, Node.js, Flutter), generates detailed blueprints with visualization options, naming conventions, file placement patterns, and extension templates for maintaining consistent code organization across diverse technology stacks.'
+tags:
+  - domain/agents
+  - artifact/skill
+  - source/skills-copilot
 ---
 
 # Project Folder Structure Blueprint Generator
@@ -403,3 +407,10 @@ Document how the project structure is maintained and enforced:
 
 Include a section at the end about maintaining this blueprint and when it was last updated.
 "
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-copilot]] — Category: skills-copilot
+- [[MOC - Agents]] — Copilot agents
+

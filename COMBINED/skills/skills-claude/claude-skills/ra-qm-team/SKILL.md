@@ -16,6 +16,9 @@ agents:
   - claude-code
   - codex-cli
   - openclaw
+  - domain/agents
+  - artifact/skill
+  - source/skills-claude
 ---
 
 # Regulatory Affairs & Quality Management Skills
@@ -64,3 +67,10 @@ python3 gdpr-dsgvo-expert/scripts/gdpr_compliance_checker.py --help
 
 - Load only the specific skill SKILL.md you need
 - Always verify compliance outputs against current regulations
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+- [[MOC - Agents]] — Claude agents
+

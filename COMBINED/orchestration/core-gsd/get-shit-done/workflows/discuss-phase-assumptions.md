@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-gsd
+---
+
 <purpose>
 Extract implementation decisions that downstream agents need — using codebase-first analysis
 and assumption surfacing instead of interview-style questioning.
@@ -651,3 +658,10 @@ Route to confirm_creation step.
 - STATE.md updated with session info
 - User knows next steps
 </success_criteria>
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-gsd]] — core-gsd
+- [[MOC - Skills]] — Skills library
+

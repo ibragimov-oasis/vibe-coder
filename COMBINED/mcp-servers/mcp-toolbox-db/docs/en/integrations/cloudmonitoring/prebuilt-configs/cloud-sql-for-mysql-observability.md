@@ -2,6 +2,10 @@
 title: "Cloud SQL for MySQL Observability"
 type: docs
 description: "Details of the Cloud SQL for MySQL Observability prebuilt configuration."
+tags:
+  - domain/mcp
+  - artifact/mcp-server
+  - source/mcp-servers
 ---
 
 ## Cloud SQL for MySQL Observability
@@ -16,3 +20,9 @@ description: "Details of the Cloud SQL for MySQL Observability prebuilt configur
     *   `get_query_metrics`: Fetches query level cloud monitoring data
         (timeseries metrics) for queries running in a MySQL instance using a
         PromQL query.
+
+## 🔗 Связи
+
+- [[MOC - MCP Servers]] — mcp-servers
+- [[000 - Map of Maps]] — Map of Maps
+

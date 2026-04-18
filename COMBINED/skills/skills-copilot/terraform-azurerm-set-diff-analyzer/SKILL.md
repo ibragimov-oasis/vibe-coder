@@ -2,6 +2,10 @@
 name: terraform-azurerm-set-diff-analyzer
 description: Analyze Terraform plan JSON output for AzureRM Provider to distinguish between false-positive diffs (order-only changes in Set-type attributes) and actual resource changes. Use when reviewing terraform plan output for Azure resources like Application Gateway, Load Balancer, Firewall, Front Door, NSG, and other resources with Set-type attributes that cause spurious diffs due to internal ordering changes.
 license: MIT
+tags:
+  - domain/agents
+  - artifact/skill
+  - source/skills-copilot
 ---
 
 # Terraform AzureRM Set Diff Analyzer
@@ -46,3 +50,10 @@ python scripts/analyze_plan.py plan.json
 
 - [scripts/README.md](scripts/README.md) - All options, output formats, exit codes, CI/CD examples
 - [references/azurerm_set_attributes.md](references/azurerm_set_attributes.md) - Supported resources and attributes
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-copilot]] — Category: skills-copilot
+- [[MOC - Agents]] — Copilot agents
+

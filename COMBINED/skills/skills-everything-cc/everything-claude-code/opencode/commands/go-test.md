@@ -2,6 +2,10 @@
 description: Go TDD workflow with table-driven tests
 agent: tdd-guide
 subtask: true
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
 ---
 
 # Go Test Command
@@ -129,3 +133,9 @@ package/
 ---
 
 **TIP**: Use `testify/assert` for cleaner assertions, or stick with stdlib for simplicity.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

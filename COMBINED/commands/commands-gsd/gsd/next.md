@@ -7,6 +7,10 @@ allowed-tools:
   - Grep
   - Glob
   - SlashCommand
+tags:
+  - domain/skills
+  - artifact/command
+  - source/commands
 ---
 <objective>
 Detect the current project state and automatically invoke the next logical GSD workflow step.
@@ -22,3 +26,9 @@ Designed for rapid multi-project workflows where remembering which phase/step yo
 <process>
 Execute the next workflow from @~/.claude/get-shit-done/workflows/next.md end-to-end.
 </process>
+
+## 🔗 Связи
+
+- [[MOC - System]] — commands
+- [[000 - Map of Maps]] — Map of Maps
+

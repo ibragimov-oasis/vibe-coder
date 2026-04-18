@@ -187,4 +187,8 @@ outputs = llm.generate(
 - **GitHub**: https://github.com/NVIDIA/TensorRT-LLM
 - **Models**: https://huggingface.co/models?library=tensorrt_llm
 
+## 🔗 Связи
+
+- [[000 - Map of Maps]] — REPO_DOCS
+- [[000 - Map of Maps]] — Map of Maps
 

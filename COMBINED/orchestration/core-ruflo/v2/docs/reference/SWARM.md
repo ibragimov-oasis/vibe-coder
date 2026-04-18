@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # Claude Flow Swarm Intelligence Documentation
 
 ## Table of Contents
@@ -1998,3 +2005,10 @@ For additional support, examples, and community resources, visit:
 - Community: https://github.com/ruvnet/claude-flow/discussions
 
 Remember: Effective swarm intelligence emerges not from individual agent intelligence alone, but from the quality of coordination, communication, and collaboration patterns between agents.
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

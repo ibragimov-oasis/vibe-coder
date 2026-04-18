@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # Internal Linking Playbook
 
 Patterns for building an internal link structure that distributes equity intelligently and reinforces topical authority.
@@ -214,3 +221,9 @@ If your /blog/seo-guide has 30 internal links to it but all the anchor text says
 
 ### Never Touching Old Posts
 Old blog posts accumulate internal links over time because new posts link to them. But they rarely link out to newer, better content. When you publish new content, go back and update old posts to add contextual links to the new piece. This is one of the highest-ROI activities in content SEO.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

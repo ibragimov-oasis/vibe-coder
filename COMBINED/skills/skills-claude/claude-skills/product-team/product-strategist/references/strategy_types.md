@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # Strategy Types for OKR Generation
 
 Comprehensive breakdown of the five core strategy types with objectives, key results, and when to use each.
@@ -318,3 +325,9 @@ Before choosing a strategy:
 ---
 
 *See also: `okr_framework.md` for OKR writing best practices*
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

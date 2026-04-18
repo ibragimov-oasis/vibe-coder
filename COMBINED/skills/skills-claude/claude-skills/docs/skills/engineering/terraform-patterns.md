@@ -1,6 +1,10 @@
 ---
 title: "Terraform Patterns — Agent Skill for Codex & OpenClaw"
 description: "Terraform infrastructure-as-code agent skill and plugin for Claude Code, Codex, Gemini CLI, Cursor, OpenClaw. Covers module design patterns, state."
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
 ---
 
 # Terraform Patterns
@@ -743,3 +747,9 @@ clawhub install terraform-patterns
 - **aws-solution-architect** — AWS architecture design. Complementary — terraform-patterns implements the infrastructure, aws-solution-architect designs it.
 - **senior-security** — Application security. Complementary — terraform-patterns covers infrastructure security posture, senior-security covers application-level threats.
 - **ci-cd-pipeline-builder** — Pipeline construction. Complementary — terraform-patterns defines infrastructure, ci-cd-pipeline-builder automates deployment.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

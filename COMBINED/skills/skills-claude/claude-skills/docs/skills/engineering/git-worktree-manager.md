@@ -1,6 +1,10 @@
 ---
 title: "Git Worktree Manager — Agent Skill for Codex & OpenClaw"
 description: "Git Worktree Manager. Agent skill for Claude Code, Codex CLI, Gemini CLI, OpenClaw."
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
 ---
 
 # Git Worktree Manager
@@ -202,3 +206,9 @@ Use this quick selector before creating a new worktree:
 - If dependency install fails: keep worktree created, mark status and continue manual recovery.
 - If env copy fails: continue with warning and explicit missing file list.
 - If port allocation collides with external service: rerun with adjusted base ports.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

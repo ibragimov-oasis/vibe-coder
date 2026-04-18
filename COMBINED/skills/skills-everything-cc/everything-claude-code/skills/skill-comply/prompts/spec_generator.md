@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
+---
+
 <!-- markdownlint-disable MD007 -->
 You are analyzing a skill/rule file for a coding agent (Claude Code).
 Your task: extract the **observable behavioral sequence** that an agent should follow when this skill is active.
@@ -40,3 +47,9 @@ Skill file to analyze:
 ---
 {skill_content}
 ---
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

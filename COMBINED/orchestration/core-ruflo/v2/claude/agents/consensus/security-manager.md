@@ -21,6 +21,10 @@ hooks:
     echo "✅ Security protocols verified"
     # Run security audit
     echo "🔍 Conducting post-operation security audit"
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
 ---
 
 # Consensus Security Manager
@@ -620,3 +624,10 @@ class ConsensusPenetrationTester {
 ```
 
 This security manager provides comprehensive protection for distributed consensus protocols with enterprise-grade cryptographic security, advanced threat detection, and robust key management capabilities.
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

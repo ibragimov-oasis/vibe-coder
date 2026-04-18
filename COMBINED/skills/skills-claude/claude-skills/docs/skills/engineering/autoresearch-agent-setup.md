@@ -1,6 +1,10 @@
 ---
 title: "/ar:setup — Create New Experiment — Agent Skill for Codex & OpenClaw"
 description: "Set up a new autoresearch experiment interactively. Collects domain, target file, eval command, metric, direction, and evaluator. Agent skill for Claude Code, Codex CLI, Gemini CLI, OpenClaw."
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
 ---
 
 # /ar:setup — Create New Experiment
@@ -85,3 +89,9 @@ Report to the user:
 - Experiment path and branch name
 - Whether the eval command worked and the baseline metric
 - Suggest: "Run `/ar:run {domain}/{name}` to start iterating, or `/ar:loop {domain}/{name}` for autonomous mode."
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

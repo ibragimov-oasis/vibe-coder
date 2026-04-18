@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # Agent Specialization Training
 
 ## Purpose
@@ -61,3 +68,10 @@ npx claude-flow train agent --type coder --capabilities "react,typescript"
 # Check specializations
 npx claude-flow agent list --specializations
 ```
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

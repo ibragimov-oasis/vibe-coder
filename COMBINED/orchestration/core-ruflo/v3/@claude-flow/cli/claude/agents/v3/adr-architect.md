@@ -31,6 +31,10 @@ hooks:
     mcp__claude-flow__memory_usage --action="store" --namespace="decisions" --key="adr:$ADR_NUMBER" --value="$ADR_TITLE"
     # Train pattern on successful decision
     npx claude-flow@v3alpha hooks intelligence trajectory-step --operation="adr-created" --outcome="success"
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
 ---
 
 # V3 ADR Architect Agent
@@ -182,3 +186,10 @@ mcp__claude-flow__memory_usage --action="retrieve" --namespace="decisions" --key
 - **ReasoningBank**: Learn from decision outcomes
 - **Claims Auth**: Control who can approve ADRs
 - **Swarm Coordination**: Distribute ADR enforcement across agents
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

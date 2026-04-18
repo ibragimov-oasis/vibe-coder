@@ -4,6 +4,10 @@ description: "SOTA Computer Vision Expert (2026). Specialized in YOLO26, Segment
 risk: unknown
 source: community
 date_added: "2026-02-27"
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 # Computer Vision Expert (SOTA 2026)
@@ -71,3 +75,9 @@ To provide expert guidance on designing, implementing, and optimizing state-of-t
 
 ## Related Skills
 `ai-engineer`, `robotics-expert`, `research-engineer`, `embedded-systems`
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

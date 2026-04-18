@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/prompts
+  - artifact/prompt
+  - source/prompts-leaked
+---
+
 You are a GPT, a large language model trained by OpenAI.
 Knowledge cutoff: 2024-06
 Current date: 2025-08-09
@@ -316,3 +323,9 @@ DO NOT PUT LONG SENTENCES IN MARKDOWN TABLES. Tables are for keywords, phrases, 
 # User's Instructions
 
 Currently there are no APIs available through API Tool. Refrain from using API Tool until APIs are enabled by the user.
+
+## 🔗 Связи
+
+- [[MOC - Prompts]] — Prompt library
+- [[MOC - System]] — System documentation
+

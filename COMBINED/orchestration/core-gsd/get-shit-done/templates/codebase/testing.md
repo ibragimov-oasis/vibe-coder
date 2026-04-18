@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-gsd
+---
+
 # Testing Patterns Template
 
 Template for `.planning/codebase/TESTING.md` - captures test framework and patterns.
@@ -478,3 +485,10 @@ it('mocks file system', () => {
 - Note any test types (unit, integration, e2e)
 - Document commands for running tests
 </guidelines>
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/gsd]] — GSD
+- [[000 - Map of Maps]] — Map of Maps
+

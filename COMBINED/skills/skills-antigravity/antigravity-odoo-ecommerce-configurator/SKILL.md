@@ -3,6 +3,10 @@ name: odoo-ecommerce-configurator
 description: "Expert guide for Odoo eCommerce and Website: product catalog, payment providers, shipping methods, SEO, and order-to-fulfillment workflow."
 risk: safe
 source: "self"
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 # Odoo eCommerce Configurator
@@ -131,3 +135,9 @@ Note: Some Odoo hosting plans may require "Email Marketing" app enabled.
 - Does not cover **multi-website** configuration — running separate storefronts with different pricelists and languages requires Enterprise.
 - **B2B eCommerce** (customer login required, custom catalog and prices per customer) has additional configuration steps not fully covered here.
 - Odoo eCommerce does not support **subscription billing** natively — that requires the Enterprise **Subscriptions** module.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

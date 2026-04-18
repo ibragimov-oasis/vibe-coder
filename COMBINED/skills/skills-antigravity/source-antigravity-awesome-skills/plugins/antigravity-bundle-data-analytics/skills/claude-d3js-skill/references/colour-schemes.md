@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # D3.js Colour Schemes and Palette Recommendations
 
 Comprehensive guide to colour selection in data visualisation with d3.js.
@@ -562,3 +569,9 @@ function selectCategoricalScheme(categories) {
 3. Use semantic colours appropriately
 4. Add redundant encoding (patterns, labels)
 5. Keep it simple (fewer colours = clearer visualisation)
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # Delete Entity Template
 
 Tests deletion with confirmation dialog and post-delete behaviour.
@@ -114,3 +121,9 @@ test.describe('Delete {{entityName}}', () => {
 | Cancel deletion | Dialog cancelled → entity intact |
 | Dependent error | Entity with children → deletion blocked |
 | Type-to-confirm | Confirm button disabled until name typed |
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

@@ -1,6 +1,10 @@
 ---
 title: "Marketing Psychology — Agent Skill for Marketing"
 description: "When the user wants to apply psychological principles, mental models, or behavioral science to marketing. Also use when the user mentions. Agent skill for Claude Code, Codex CLI, Gemini CLI, OpenClaw."
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
 ---
 
 # Marketing Psychology
@@ -126,3 +130,9 @@ All output passes quality verification:
 - **pricing-strategy**: For pricing decisions. Psychology provides the buyer behavior lens.
 - **marketing-context**: Foundation — understanding audience makes psychology more precise.
 - **ab-test-setup**: For testing which psychological approach works. Data beats theory.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

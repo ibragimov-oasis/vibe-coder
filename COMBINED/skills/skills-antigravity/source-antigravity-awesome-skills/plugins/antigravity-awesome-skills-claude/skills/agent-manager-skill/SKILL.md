@@ -4,6 +4,10 @@ description: "Manage multiple local CLI agents via tmux sessions (start/stop/mon
 risk: unknown
 source: community
 date_added: "2026-02-27"
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 # Agent Manager Skill
@@ -40,3 +44,9 @@ EOF
 
 - Requires `tmux` and `python3`.
 - Agents are configured under an `agents/` directory (see the repo for examples).
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

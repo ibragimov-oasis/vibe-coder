@@ -34,6 +34,10 @@ hooks:
   notification: |
     echo "📢 Sending release notifications to stakeholders..."
     npx ruv-swarm hook notification --mode release-manager
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
 ---
 
 # GitHub Release Manager
@@ -365,3 +369,10 @@ jobs:
 - Error rate monitoring
 - User adoption metrics
 - Feedback collection and analysis
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

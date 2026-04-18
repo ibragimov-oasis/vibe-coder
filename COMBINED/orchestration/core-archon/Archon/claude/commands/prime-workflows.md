@@ -1,5 +1,9 @@
 ---
 description: Prime agent with Archon workflow engine context
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-archon
 ---
 
 # Prime Workflows: Workflow Engine Orientation
@@ -94,3 +98,10 @@ Summarize (under 250 words):
 - List the key default workflow names and their purposes
 
 ### Recent Changes
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/archon]] — Archon
+- [[000 - Map of Maps]] — Map of Maps
+

@@ -1,6 +1,10 @@
 ---
 title: "Content Humanizer — Agent Skill for Marketing"
 description: "Makes AI-generated content sound genuinely human — not just cleaned up, but alive. Use when content feels robotic, uses too many AI clichés, lacks. Agent skill for Claude Code, Codex CLI, Gemini CLI, OpenClaw."
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
 ---
 
 # Content Humanizer
@@ -264,3 +268,9 @@ When auditing: name the pattern → explain why it reads as AI → give the spec
 - **copywriting**: Use for conversion copy — landing pages, CTAs, headlines. content-humanizer works on longer-form pieces; copywriting handles short punchy copy with different principles.
 - **content-strategy**: Use when deciding what content to create. NOT for voice or draft execution.
 - **ai-seo**: Use after humanizing, to optimize for AI search citation. Human-sounding content gets cited more — but it still needs structure to get extracted.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # Protocol Reverse Engineering Implementation Playbook
 
 This file contains detailed patterns, checklists, and code samples referenced by the skill.
@@ -507,3 +514,9 @@ for pkt in packets:
 - Checksums/CRCs for integrity
 - Timestamps for timing
 - Session/connection identifiers
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

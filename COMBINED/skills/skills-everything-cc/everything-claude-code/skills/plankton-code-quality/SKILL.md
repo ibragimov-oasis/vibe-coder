@@ -2,6 +2,10 @@
 name: plankton-code-quality
 description: "Write-time code quality enforcement using Plankton — auto-formatting, linting, and Claude-powered fixes on every file edit via hooks."
 origin: community
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-everything-cc
 ---
 
 # Plankton Code Quality Skill
@@ -234,3 +238,9 @@ Track:
 - average remediation time
 - repeat violations by category
 - merge blocks due to gate failures
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

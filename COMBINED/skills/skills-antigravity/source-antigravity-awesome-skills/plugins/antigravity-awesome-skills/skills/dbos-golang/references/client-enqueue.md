@@ -3,6 +3,9 @@ title: Enqueue Workflows from External Applications
 impact: HIGH
 impactDescription: Enables external services to submit work to DBOS queues
 tags: client, enqueue, external, queue
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
 ---
 
 ## Enqueue Workflows from External Applications
@@ -63,3 +66,9 @@ The workflow name must match the registered name or custom name set with `WithWo
 Always call `client.Shutdown()` when done.
 
 Reference: [DBOS Client Enqueue](https://docs.dbos.dev/golang/reference/client#enqueue)
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

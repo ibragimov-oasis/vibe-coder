@@ -3,6 +3,9 @@ title: Narrow Effect Dependencies
 impact: LOW
 impactDescription: minimizes effect re-runs
 tags: rerender, useEffect, dependencies, optimization
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
 ---
 
 ## Narrow Effect Dependencies
@@ -43,3 +46,9 @@ useEffect(() => {
   }
 }, [isMobile])
 ```
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

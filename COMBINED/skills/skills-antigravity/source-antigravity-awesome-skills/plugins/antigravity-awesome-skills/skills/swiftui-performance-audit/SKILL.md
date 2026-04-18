@@ -4,6 +4,10 @@ description: Audit SwiftUI performance issues from code review and profiling evi
 risk: safe
 source: "Dimillian/Skills (MIT)"
 date_added: "2026-03-25"
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 # SwiftUI Performance Audit
@@ -112,3 +116,9 @@ Use `references/report-template.md` when formatting the final audit.
 - Understanding and improving SwiftUI performance: `references/understanding-improving-swiftui-performance.md`
 - Understanding hangs in your app: `references/understanding-hangs-in-your-app.md`
 - Demystify SwiftUI performance (WWDC23): `references/demystify-swiftui-performance-wwdc23.md`
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

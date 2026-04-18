@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # agent-metrics
 
 View agent performance metrics.
@@ -23,3 +30,10 @@ npx claude-flow agent metrics --agent-id agent-001
 # Last hour
 npx claude-flow agent metrics --period 1h
 ```
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

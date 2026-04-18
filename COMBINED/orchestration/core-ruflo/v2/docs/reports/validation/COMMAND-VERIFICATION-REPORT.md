@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # Command Verification Report
 ## Agent Help Integration Testing
 
@@ -439,3 +446,10 @@ Ecosystem commands: status, optimize
 **Test Performed By**: Claude Code
 **Test Date**: 2025-10-12
 **Commit**: ba53f7920 - "[feat] Add agentic-flow integration commands to agent --help"
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

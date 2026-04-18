@@ -3,6 +3,9 @@ title: Initialize Client for External Access
 impact: HIGH
 impactDescription: Enables external applications to interact with DBOS workflows
 tags: client, external, setup, initialization
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
 ---
 
 ## Initialize Client for External Access
@@ -63,3 +66,9 @@ ClientConfig options:
 Always call `client.Shutdown()` when done.
 
 Reference: [DBOS Client](https://docs.dbos.dev/golang/reference/client)
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

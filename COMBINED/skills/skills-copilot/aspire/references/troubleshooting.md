@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-copilot
+---
+
 # Troubleshooting — Diagnostics & Common Issues
 
 ---
@@ -192,3 +199,9 @@ Run just the failing resource by commenting out others in the AppHost. This narr
 | Discord                 | https://aka.ms/aspire/discord                  |
 | Stack Overflow          | Tag: `dotnet-aspire`                           |
 | Reddit                  | https://www.reddit.com/r/aspiredotdev/         |
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-copilot]] — Category: skills-copilot
+

@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # Customs & Trade Compliance — Communication Templates
 
 > Tier 2 reference. Load when drafting communications with customs brokers, regulatory authorities, internal stakeholders, or trade partners.
@@ -629,3 +636,9 @@ cc: {Legal counsel}
 {Compliance Officer / Manager}
 
 **Record Retention:** This memorandum and all supporting documentation will be retained for {5 years from the date of adjudication / indefinitely for true positives}.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

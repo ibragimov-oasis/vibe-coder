@@ -1,6 +1,10 @@
 ---
 title: "Startup CTO"
 description: "Technical co-founder persona — architecture decisions, tech stack selection, team building, and technical due diligence."
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
 ---
 
 # :material-hammer-wrench: Startup CTO
@@ -48,3 +52,9 @@ cp agents/personas/startup-cto.md ~/COMBINED/workspace-config/claude/agents/
 ```
 
 [:octicons-arrow-right-24: View full persona source](https://github.com/alirezarezvani/claude-skills/blob/main/agents/personas/startup-cto.md)
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # Antigravity 技能捆绑包
 
 > **按角色和专业知识级别组织的精选技能集合。** 不知道从哪里开始？从下面的捆绑包中选择一个，为你的角色获取一套精选技能。

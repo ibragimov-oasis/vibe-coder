@@ -3,6 +3,9 @@ title: Use Connection Pooling for All Applications
 impact: CRITICAL
 impactDescription: Handle 10-100x more concurrent users
 tags: connection-pooling, pgbouncer, performance, scalability
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
 ---
 
 ## Use Connection Pooling for All Applications
@@ -39,3 +42,9 @@ Pool modes:
 - **Session mode**: connection held for entire session (needed for prepared statements, temp tables)
 
 Reference: [Connection Pooling](https://supabase.com/docs/guides/database/connecting-to-postgres#connection-pooler)
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

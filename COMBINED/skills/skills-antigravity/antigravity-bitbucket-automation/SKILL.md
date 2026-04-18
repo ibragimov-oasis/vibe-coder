@@ -4,6 +4,10 @@ description: "Automate Bitbucket repositories, pull requests, branches, issues, 
 risk: critical
 source: community
 date_added: "2026-02-27"
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 # Bitbucket Automation via Rube MCP
@@ -225,3 +229,9 @@ Bitbucket Query Language is available on list endpoints:
 
 ## When to Use
 This skill is applicable to execute the workflow or actions described in the overview.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

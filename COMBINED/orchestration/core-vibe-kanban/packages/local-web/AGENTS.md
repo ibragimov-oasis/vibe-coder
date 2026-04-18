@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-vibe-kanban
+---
+
 ## New Design System Styling Guidelines
 
 ### CSS Variables & Tailwind Config
@@ -70,3 +77,10 @@ className="w-64 bg-secondary shrink-0 p-base"
 - **Container components** (in `containers/`) manage state and pass to views
 - **UI components** (in `ui-new/`) are reusable primitives
 - File names in `ui-new/` must be **PascalCase** (e.g., `Field.tsx`, `Label.tsx`)
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-vibe-kanban]] — core-vibe-kanban
+- [[MOC - Skills]] — Skills library
+

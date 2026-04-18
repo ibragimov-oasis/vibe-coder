@@ -11,6 +11,10 @@ tools:
   - Glob
   - mcp__gitnexus
   - mcp__supermemory
+tags:
+  - domain/agents
+  - artifact/mega-agent
+  - source/mega
 ---
 
 <role>
@@ -259,3 +263,10 @@ Sources:
 - RuFlo TDD London: `COMBINED/agents/by-role/tester/ruflo-testing-tdd-london-swarm.md`
 - Superpowers TDD: `COMBINED/agents/agents-superpowers/`
 </rules>
+
+## 🔗 Связи
+
+- [[MOC - Agents]] — Agent catalog
+- [[agents/mega-tester]] — Vault entry
+- [[MOC - Skills]] — Skills library
+

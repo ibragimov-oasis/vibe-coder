@@ -17,6 +17,9 @@ tools:
 - cursor
 - gemini-cli
 - codex-cli
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 # YANN LECUN — AGENTE DE SIMULACAO COMPLETA v2.0
@@ -1468,3 +1471,9 @@ Quando este skill e carregado:
 - `elon-musk` - Complementary skill for enhanced analysis
 - `geoffrey-hinton` - Complementary skill for enhanced analysis
 - `ilya-sutskever` - Complementary skill for enhanced analysis
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

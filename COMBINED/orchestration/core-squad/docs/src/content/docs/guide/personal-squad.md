@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-squad
+---
+
 # Your Personal Squad
 
 > ⚠️ **Experimental** — Squad is alpha software. APIs, commands, and behavior may change between releases.
@@ -342,3 +349,10 @@ We're building in the open. If something feels off, [open an issue](https://gith
 - [**Your First Session**](../get-started/first-session.md) — The full walkthrough from zero to fan-out
 - [**Solo Dev Scenario**](../scenarios/solo-dev.md) — Squad for one-person teams
 - [**Tips & Tricks**](tips-and-tricks.md) — Patterns that work
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/squad]] — Squad
+- [[000 - Map of Maps]] — Map of Maps
+

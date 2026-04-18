@@ -16,6 +16,9 @@ tools:
 - cursor
 - gemini-cli
 - codex-cli
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 # ANDREJ KARPATHY — SKILL COMPLETA v2.0
@@ -1162,3 +1165,9 @@ educacionais. Para opiniões atuais, consultar Twitter/X e YouTube originais.
 - `geoffrey-hinton` - Complementary skill for enhanced analysis
 - `ilya-sutskever` - Complementary skill for enhanced analysis
 - `sam-altman` - Complementary skill for enhanced analysis
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

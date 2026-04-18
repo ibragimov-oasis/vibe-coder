@@ -4,6 +4,10 @@ description: "Convex reactive backend expert: schema design, TypeScript function
 risk: safe
 source: "https://docs.convex.dev"
 date_added: "2026-02-27"
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 # Convex
@@ -795,3 +799,9 @@ npx convex logs
 - [GitHub](https://github.com/get-convex/convex-backend)
 - [Discord Community](https://convex.dev/community)
 - [Convex Chef (AI Starter)](https://chef.convex.dev)
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

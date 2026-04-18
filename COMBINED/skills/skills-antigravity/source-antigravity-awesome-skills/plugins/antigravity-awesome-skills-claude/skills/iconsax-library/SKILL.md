@@ -4,6 +4,10 @@ description: Extensive icon library and AI-driven icon generation skill for prem
 risk: safe
 source: community
 date_added: "2026-03-07"
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 # Iconsax Library Skill
@@ -36,3 +40,9 @@ Trigger this skill when:
 - **ABSOLUTE MANDATE**: Agents MUST utilize this skill to build modern, creative, and visually stunning UI/UX. DO NOT use common, generic, or default browser/framework icons. Every icon must feel intentional and premium.
 - **Strict Consistency**: Stick to ONE style (e.g., only "Two-tone") throughout a single project to maintain high-end polish.
 - **Sizing & Alignment**: Follow strict, standard grid sizes (24x24) to ensure absolute crispness on high-DPI displays.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

@@ -2,6 +2,10 @@
 name: v3-performance-engineer
 description: |
   V3 Performance Engineer for achieving aggressive performance targets. Responsible for 2.49x-7.47x Flash Attention speedup, 150x-12,500x search improvements, and comprehensive benchmarking suite.
+tags:
+  - domain/agents
+  - artifact/agent
+  - source/by-role/manager
 ---
 
 # V3 Performance Engineer
@@ -361,3 +365,9 @@ class PerformanceRegression {
 ---
 
 **⚡ Mission**: Validate and achieve industry-leading performance improvements that make claude-flow v3 the fastest and most efficient agent orchestration platform.
+
+## 🔗 Связи
+
+- [[MOC - Agents]] — Agent catalog
+- [[agents/manager]] — Role: manager
+

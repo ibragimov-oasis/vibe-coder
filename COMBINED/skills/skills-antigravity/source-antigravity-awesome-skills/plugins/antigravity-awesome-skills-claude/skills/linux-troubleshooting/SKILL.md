@@ -5,6 +5,10 @@ category: granular-workflow-bundle
 risk: safe
 source: personal
 date_added: "2026-02-27"
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 # Linux Troubleshooting Workflow
@@ -218,3 +222,9 @@ Use @incident-responder to implement resolution
 - `os-scripting` - OS scripting
 - `bash-scripting` - Bash scripting
 - `cloud-devops` - DevOps
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

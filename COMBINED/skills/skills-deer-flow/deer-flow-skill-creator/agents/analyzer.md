@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/doc
+  - source/skills-deer-flow
+---
+
 # Post-hoc Analyzer Agent
 
 Analyze blind comparison results to understand WHY the winner won and generate improvement suggestions.
@@ -272,3 +279,9 @@ Save notes to `{output_path}` as a JSON array of strings:
 - Make subjective quality judgments ("the output was good/bad")
 - Speculate about causes without evidence
 - Repeat information already in the run_summary aggregates
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-deer-flow]] — Category: skills-deer-flow
+

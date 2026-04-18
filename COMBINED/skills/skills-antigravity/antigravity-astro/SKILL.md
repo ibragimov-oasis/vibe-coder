@@ -8,6 +8,9 @@ date_added: "2026-03-18"
 author: suhaibjanjua
 tags: [astro, ssg, ssr, islands, content, markdown, mdx, performance]
 tools: [claude, cursor, gemini]
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 # Astro Web Framework
@@ -357,3 +360,9 @@ import SearchBox from '../components/SearchBox.tsx';
 - `@nextjs-app-router-patterns` — When you need a React-first full-stack framework
 - `@tailwind-patterns` — Styling Astro sites with Tailwind CSS
 - `@progressive-web-app` — Adding PWA capabilities to an Astro site
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

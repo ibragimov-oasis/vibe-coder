@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/memory
+  - artifact/memory
+  - source/memory
+---
+
 # Investigation Report: Issue #544 - mem-search Skill Hint Shown to Claude Code Users
 
 **Date:** 2026-01-05
@@ -442,3 +449,9 @@ Consider creating a follow-up issue for documentation consistency.
 ---
 
 *Report prepared for GitHub Issue #544*
+
+## 🔗 Связи
+
+- [[MOC - Memory]] — memory
+- [[000 - Map of Maps]] — Map of Maps
+

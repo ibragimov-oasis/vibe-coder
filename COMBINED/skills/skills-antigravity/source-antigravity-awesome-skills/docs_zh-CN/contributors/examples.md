@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # 💡 实际示例 - 查看技能的实际应用
 
 **通过示例学习！**本指南向您展示使用不同技能的真实对话。
@@ -753,3 +760,9 @@ AI：完美！让我们使用 TDD 来构建这个。遵循红-绿-重构
 ---
 
 **想要更多示例？**查看各个技能文件夹以获取其他示例和用例！
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

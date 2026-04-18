@@ -45,3 +45,9 @@ Multi-step deep research с LangGraph + FastAPI. Разработан ByteDance 
 
 - [[orchestration/core-hermes]] — Hermes: self-learning
 - [[orchestration/core-praisonai]] — PraisonAI: 100+ LLMs
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Parent MOC
+- [[000 - Map of Maps]] — Map of Maps
+

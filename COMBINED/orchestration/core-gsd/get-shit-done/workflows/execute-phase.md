@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-gsd
+---
+
 <purpose>
 Execute all plans in a phase using wave-based parallel execution. Orchestrator stays lean — delegates plan execution to subagents.
 </purpose>
@@ -844,3 +851,10 @@ Re-run `/gsd:execute-phase {phase}` → discover_plans finds completed SUMMARYs 
 
 STATE.md tracks: last completed plan, current wave, pending checkpoints.
 </resumption>
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-gsd]] — core-gsd
+- [[MOC - Skills]] — Skills library
+

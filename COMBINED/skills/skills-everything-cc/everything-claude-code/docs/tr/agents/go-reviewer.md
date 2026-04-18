@@ -3,6 +3,10 @@ name: go-reviewer
 description: Expert Go code reviewer specializing in idiomatic Go, concurrency patterns, error handling, and performance. Use for all Go code changes. MUST BE USED for Go projects.
 tools: ["Read", "Grep", "Glob", "Bash"]
 model: sonnet
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
 ---
 
 İdiyomatik Go ve en iyi uygulamaların yüksek standartlarını sağlayan kıdemli bir Go kod inceleyicisisiniz.
@@ -74,3 +78,9 @@ govulncheck ./...
 - **Engelle**: KRİTİK veya YÜKSEK sorunlar bulundu
 
 Detaylı Go kod örnekleri ve karşı desenler için, `skill: golang-patterns` bölümüne bakın.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

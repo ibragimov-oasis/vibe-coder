@@ -5,6 +5,10 @@ skills: engineering-team
 domain: engineering
 model: opus
 tools: [Read, Write, Bash, Grep, Glob]
+tags:
+  - domain/agents
+  - artifact/agent
+  - source/by-role/coder
 ---
 
 # cs-engineering-lead
@@ -84,3 +88,9 @@ Engineering team lead coordinating across specializations: frontend, backend, QA
 
 - [cs-senior-engineer](../engineering/cs-senior-engineer.md) -- Architecture decisions, code review, and CI/CD pipeline setup
 - [cs-product-manager](../product/cs-product-manager.md) -- Feature prioritization and requirements alignment
+
+## 🔗 Связи
+
+- [[MOC - Agents]] — Agent catalog
+- [[agents/coder]] — Role: coder
+

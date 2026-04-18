@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # Weather SVG Creator — Examples
 
 ## Example 1: Celsius
@@ -77,3 +84,9 @@ Fahrenheit
 ## SVG Card
 ![Weather Card](weather.svg)
 ```
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

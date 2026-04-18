@@ -104,7 +104,16 @@ Generative artificial intelligence uses [machine learning](https://developer.app
 
 ## [Change log](https://developer.apple.com/design/human-interface-guidelines/generative-ai#Change-log)
 
-Date| Changes  
+Date| Changes
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
 ---|---  
-June 9, 2025| New page.  
-  
+June 9, 2025| New page.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

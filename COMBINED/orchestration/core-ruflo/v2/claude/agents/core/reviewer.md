@@ -18,6 +18,10 @@ hooks:
   post: |
     echo "✅ Review complete"
     echo "📝 Review summary stored in memory"
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
 ---
 
 # Code Review Agent
@@ -324,3 +328,10 @@ mcp__claude-flow__github_repo_analyze {
 ```
 
 Remember: The goal of code review is to improve code quality and share knowledge, not to find fault. Be thorough but kind, specific but constructive. Always coordinate findings through memory.
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

@@ -12,6 +12,9 @@ tags:
 - compliance
 - file-format
 - ai-native
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 # AKF — The AI Native File Format
@@ -67,3 +70,9 @@ pip install akf
 - https://akf.dev
 - https://github.com/HMAKT99/AKF
 - npm: `npm install akf-format`
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

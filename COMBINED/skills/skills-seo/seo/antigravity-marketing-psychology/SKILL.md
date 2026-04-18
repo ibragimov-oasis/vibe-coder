@@ -4,6 +4,10 @@ description: "Apply behavioral science and mental models to marketing decisions,
 risk: unknown
 source: community
 date_added: "2026-02-27"
+tags:
+  - domain/seo
+  - artifact/skill
+  - source/skills-seo
 ---
 # Marketing Psychology & Mental Models
 
@@ -259,3 +263,9 @@ Before responding, confirm:
 
 ## When to Use
 This skill is applicable to execute the workflow or actions described in the overview.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-seo]] — Category: skills-seo
+

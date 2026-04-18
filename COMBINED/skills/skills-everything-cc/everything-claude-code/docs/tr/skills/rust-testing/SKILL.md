@@ -2,6 +2,10 @@
 name: rust-testing
 description: Rust testing patterns including unit tests, integration tests, async testing, property-based testing, mocking, and coverage. Follows TDD methodology.
 origin: ECC
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-everything-cc
 ---
 
 # Rust Test Desenleri
@@ -498,3 +502,9 @@ test:
 ```
 
 **Unutmayın**: Testler dokümantasyondur. Kodunuzun nasıl kullanılması gerektiğini gösterirler. Onları net yazın ve güncel tutun.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

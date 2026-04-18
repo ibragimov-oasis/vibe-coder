@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # Claude Flow v2.0.0 Agent System
 
 A comprehensive agent type system with specialized capabilities, neural pattern support, and advanced coordination.
@@ -233,3 +240,9 @@ The agent system is fully integrated with:
 - `index.ts` - Agent factory and system exports
 
 This comprehensive agent system provides the foundation for sophisticated multi-agent workflows in Claude Flow v2.0.0, enabling intelligent task distribution, specialized expertise, and coordinated problem-solving.
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-ruflo]] — core-ruflo
+

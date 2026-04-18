@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-squad
+---
+
 # Skill-discovery
 
 Demonstrates the Squad SDK skills system, showing how agents load domain knowledge from `SKILL.md` files, match skills to tasks by triggers and role affinity, discover new patterns at runtime, and track skill confidence as it evolves from low to high.
@@ -122,3 +129,9 @@ Prefer `unknown` over `any` for type-safe narrowing.
 - See [rock-paper-scissors](../rock-paper-scissors/README.md) for a showcase using skills in a competitive agent scenario
 - Check [autonomous-pipeline](../autonomous-pipeline/README.md) for a full integration combining skills with routing and cost tracking
 - Read the [Skills Documentation](../../README.md#skills) for more details
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-squad]] — core-squad
+

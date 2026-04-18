@@ -6,6 +6,10 @@ weight: 1
 description: >
     Valkey is an open-source, in-memory data structure store, forked from Redis.
 no_list: true
+tags:
+  - domain/mcp
+  - artifact/mcp-server
+  - source/mcp-servers
 ---
 
 ## About
@@ -73,3 +77,9 @@ useGCPIAM: true
 | database     |   int    |    false     | The Valkey database to connect to. Not applicable for cluster enabled instances. The default database is `0`.                    |
 | useGCPIAM    |   bool   |    false     | Set it to `true` if you are using GCP's IAM authentication. Defaults to `false`.                                                 |
 | disableCache |   bool   |    false     | Set it to `true` if you want to enable client-side caching. Defaults to `false`.                                                 |
+
+## 🔗 Связи
+
+- [[MOC - MCP Servers]] — mcp-servers
+- [[000 - Map of Maps]] — Map of Maps
+

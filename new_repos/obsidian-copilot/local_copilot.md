@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/new_repos
+---
+
 # Local Copilot Setup Guide
 
 ## LM Studio
@@ -110,3 +117,8 @@ With this one Ollama server running, you can set your Chat model as Ollama too, 
 Check Ollama for more embedding models, e.g. `mxbai-embed-large` is a better model than `nomic-embed-text` for vector search.
 
 #### Now, go crazy with local models in Chat mode and QA modes!
+
+## 🔗 Связи
+
+- [[000 - Map of Maps]] — Map of Maps
+

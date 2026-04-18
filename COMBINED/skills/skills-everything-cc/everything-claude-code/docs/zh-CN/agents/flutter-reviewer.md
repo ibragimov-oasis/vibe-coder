@@ -3,6 +3,10 @@ name: flutter-reviewer
 description: Flutter和Dart代码审查员。审查Flutter代码，关注小部件最佳实践、状态管理模式、Dart惯用法、性能陷阱、可访问性和清洁架构违规。库无关——适用于任何状态管理解决方案和工具。
 tools: ["Read", "Grep", "Glob", "Bash"]
 model: sonnet
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
 ---
 
 你是一位资深的 Flutter 和 Dart 代码审查员，确保代码符合语言习惯、性能优异且易于维护。
@@ -248,3 +252,9 @@ model: sonnet
 * **阻止**：存在任何严重或高级别问题 — 必须在合并前修复
 
 请参阅 `flutter-dart-code-review` 技能以获取完整的评审检查清单。
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

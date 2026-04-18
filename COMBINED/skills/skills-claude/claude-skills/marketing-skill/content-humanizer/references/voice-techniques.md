@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # Voice Techniques Reference
 
 Techniques for injecting authentic brand voice into content. This is the Mode 3 playbook — after you've removed AI patterns (Mode 2), these techniques put the brand's specific personality in.
@@ -166,3 +173,9 @@ After applying voice:
 - [ ] Is there at least one moment where the brand's specific personality is unmistakable?
 - [ ] Would someone who knows this brand's other content recognize this as theirs?
 - [ ] Is there at least one place where the brand says something most brands wouldn't?
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

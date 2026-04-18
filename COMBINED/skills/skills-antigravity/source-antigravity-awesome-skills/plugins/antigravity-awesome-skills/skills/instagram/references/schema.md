@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # Schema do Banco SQLite — instagram.db
 
 Localização: `C:\Users\renat\skills\instagram\data\instagram.db`
@@ -261,3 +268,9 @@ WHERE searched_at >= datetime('now', '-7 days')
 GROUP BY hashtag
 ORDER BY searches DESC
 ```
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

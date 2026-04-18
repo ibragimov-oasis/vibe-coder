@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # CLAUDE.md
 
 This file provides guidance to Claude Code (claude.ai/code) when working with code in this repository.
@@ -204,3 +211,9 @@ This repository publishes skills to **ClawHub** (clawhub.com) as the distributio
 **Last Updated:** March 11, 2026
 **Version:** v2.1.2
 **Status:** 205 skills deployed across 9 domains, 28 marketplace plugins, docs site live
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

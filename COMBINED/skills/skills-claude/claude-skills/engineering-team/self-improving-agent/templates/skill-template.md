@@ -1,6 +1,10 @@
 ---
 name: {{skill-name}}
 description: "{{One-line description}}. Use when: {{trigger conditions}}."
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
 ---
 
 # {{Skill Title}}
@@ -51,3 +55,9 @@ Include the exact error message if applicable.}}
 ## Related
 
 - {{link to official docs}}
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

@@ -16,6 +16,10 @@ metadata:
   author: evos
   clawdbot:
     emoji: ""
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-everything-cc
 ---
 
 # Energy Procurement
@@ -226,3 +230,9 @@ Track monthly, review quarterly with finance and sustainability:
 
 - Maintain an internal hedge policy, approved counterparty list, and tariff-change calendar alongside this skill.
 - Keep facility-specific load shapes and utility contract metadata close to the planning workflow so recommendations stay grounded in real demand patterns.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

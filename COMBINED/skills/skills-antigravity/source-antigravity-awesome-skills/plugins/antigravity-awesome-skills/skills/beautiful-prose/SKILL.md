@@ -3,6 +3,10 @@ name: beautiful-prose
 description: A hard-edged writing style contract for timeless, forceful English prose without modern AI tics. Use when users ask for prose or rewrites that must be clean, exact, concrete, and free of AI cadence, filler, or therapeutic tone.
 risk: unknown
 source: community
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 # Beautiful Prose (Claude Skill)
@@ -189,3 +193,9 @@ Fail the output if any are true:
 ## Tests
 
 See `references/test-cases.md`.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

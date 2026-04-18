@@ -1,6 +1,10 @@
 ---
 title: "AI Coding Personas — Startup CTO, Growth Marketer, Solo Founder"
 description: "3 persona-based AI coding agents with curated Claude Code skill loadouts, decision frameworks, and distinct communication styles for Codex, Gemini CLI, and OpenClaw."
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
 ---
 
 <div class="domain-header" markdown>
@@ -72,3 +76,9 @@ Use the [TEMPLATE.md](https://github.com/alirezarezvani/claude-skills/blob/main/
 ### Try in ChatGPT
 
 Don't use Claude Code or Codex? Try our [Custom GPTs](../custom-gpts.md) — the Solo Founder persona is available as a free Custom GPT in ChatGPT.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

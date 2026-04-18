@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-refly
+---
+
 # Refly CLI One-Click Deployment
 
 This directory contains scripts for quickly deploying and setting up Refly CLI for local development.
@@ -190,3 +197,9 @@ kill $(cat /tmp/refly-api.pid)
 # Stop Docker containers
 docker-compose -f deploy/docker/docker-compose.dev.yml down
 ```
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-refly]] — core-refly
+

@@ -3,6 +3,9 @@ title: Set Queue Priority for Workflows
 impact: HIGH
 impactDescription: Ensures important work runs first
 tags: queue, priority, ordering, scheduling
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
 ---
 
 ## Set Queue Priority for Workflows
@@ -60,3 +63,9 @@ def enqueue_job(job, level):
 ```
 
 Reference: [Queue Priority](https://docs.dbos.dev/python/tutorials/queue-tutorial#priority)
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

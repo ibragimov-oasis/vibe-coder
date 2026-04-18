@@ -1,6 +1,10 @@
 ---
 title: "CEO Advisor Agent — AI Coding Agent & Codex Skill"
 description: "Strategic leadership advisor for CEOs covering vision, strategy, board management, investor relations, and organizational culture. Agent-native orchestrator for Claude Code, Codex, Gemini CLI."
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
 ---
 
 # CEO Advisor Agent
@@ -361,3 +365,9 @@ esac
 **Sprint:** sprint-11-05-2025 (Day 3)
 **Status:** Production Ready
 **Version:** 1.0
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

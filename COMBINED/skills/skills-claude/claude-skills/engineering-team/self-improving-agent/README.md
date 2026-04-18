@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # Self-Improving Agent
 
 > Auto-memory captures. This plugin curates.
@@ -90,3 +97,9 @@ Inspired by [pskoett/self-improving-agent](https://clawhub.ai/pskoett/self-impro
 ## License
 
 MIT — see [LICENSE](LICENSE)
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

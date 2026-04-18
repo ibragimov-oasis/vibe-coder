@@ -2,6 +2,10 @@
 sidebar_position: 10
 title: "Trajectories & Training Format"
 description: "How Hermes saves trajectories, normalizes tool calls, and produces training-friendly outputs"
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-hermes
 ---
 
 # Trajectories & Training Format
@@ -54,3 +58,10 @@ Some prompt-time-only layers are intentionally excluded from persisted trajector
 
 - [Environments, Benchmarks & Data Generation](./environments.md)
 - [Agent Loop Internals](./agent-loop.md)
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/hermes]] — Hermes
+- [[000 - Map of Maps]] — Map of Maps
+

@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # 技能导入 - 2026-03-21
 
 此笔记记录了 2026-03-21 完成的技能导入和规范化工作。
@@ -79,3 +86,9 @@ npm run catalog
 
 - 规范化后验证通过
 - 导入后生成的索引计数: `1304` 技能
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

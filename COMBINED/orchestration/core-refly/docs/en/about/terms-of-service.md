@@ -1,6 +1,10 @@
 ---
 title: Terms of Service
 description: Refly AI Content Creation Engine Terms of Service
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-refly
 ---
 
 # Terms of Service
@@ -194,3 +198,10 @@ For any questions about these Terms:
 - Email: [legal@refly.ai](mailto:legal@refly.ai)
 - Legal Department: [legal-team@refly.ai](mailto:legal@refly.ai)
 - Business Hours: Monday to Friday, 9 AM - 6 PM (UTC+8)
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/refly]] — Refly
+- [[000 - Map of Maps]] — Map of Maps
+

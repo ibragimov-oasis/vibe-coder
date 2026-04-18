@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/mcp
+  - artifact/mcp-server
+  - source/mcp-servers
+---
+
 # 代码解析方案 (Code Parser)
 
 OpenViking 通过 **Code Parser** 模块实现对代码仓库的整体解析与理解。与普通文档的拆解式处理不同，代码解析采用了基于目录结构的整体映射策略，旨在保持代码项目的完整上下文。
@@ -168,3 +175,9 @@ results = client.find(
 *   [上下文类型](docs/zh/concepts/context-types.md)
 *   [Viking URI](docs/zh/concepts/viking-uri.md)
 *   [上下文层级](docs/zh/concepts/context-layers.md)
+
+## 🔗 Связи
+
+- [[MOC - MCP Servers]] — mcp-servers
+- [[000 - Map of Maps]] — Map of Maps
+

@@ -1,6 +1,10 @@
 ---
 inclusion: manual
 description: Development mode context for active feature implementation and coding work
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
 ---
 
 # Development Mode
@@ -42,3 +46,9 @@ Use this context when actively implementing features or writing code.
 ## Invocation
 
 Use `#dev-mode` to activate this context when starting development work.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

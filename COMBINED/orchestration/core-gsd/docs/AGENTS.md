@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-gsd
+---
+
 # GSD Agent Reference
 
 > All 18 specialized agents — roles, tools, spawn patterns, and relationships. For architecture context, see [Architecture](ARCHITECTURE.md).
@@ -426,3 +433,10 @@ Communication style, decision patterns, debugging approach, UX preferences, vend
 - Researchers have web access — they need current ecosystem information
 - Executors have Edit — they modify code but not web access
 - Mappers have Write — they write analysis documents but not Edit (no code changes)
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-gsd]] — core-gsd
+- [[MOC - Skills]] — Skills library
+

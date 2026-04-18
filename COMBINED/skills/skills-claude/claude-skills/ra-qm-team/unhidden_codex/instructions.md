@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # RA/QM Skills — Codex CLI Instructions
 
 When working on regulatory or quality management tasks, use the RA/QM skill system:
@@ -37,3 +44,9 @@ python3 ra-qm-team/gdpr-dsgvo-expert/scripts/gdpr_compliance_checker.py --help
 
 - Load only 1-2 skills per request — don't bulk-load
 - Always verify outputs against current regulations
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

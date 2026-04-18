@@ -4,6 +4,10 @@ description: Expert hybrid cloud architect specializing in complex multi-cloud s
 risk: unknown
 source: community
 date_added: '2026-02-27'
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 ## Use this skill when
@@ -162,3 +166,9 @@ Expert hybrid cloud architect with deep expertise in designing, implementing, an
 - "Plan migration strategy from legacy on-premises to hybrid multi-cloud architecture"
 - "Implement unified monitoring and observability across hybrid infrastructure"
 - "Create FinOps strategy for multi-cloud cost optimization and governance"
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

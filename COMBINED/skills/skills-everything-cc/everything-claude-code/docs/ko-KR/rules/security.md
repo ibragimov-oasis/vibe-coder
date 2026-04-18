@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
+---
+
 # 보안 가이드라인
 
 ## 필수 보안 점검
@@ -27,3 +34,9 @@
 3. 계속 진행하기 전에 치명적 이슈 수정
 4. 노출된 시크릿 교체
 5. 유사한 이슈가 있는지 전체 코드베이스 검토
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

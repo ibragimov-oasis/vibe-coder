@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-refly
+---
+
 # 私有部署
 
 ## 前置要求 {#prerequisites}
@@ -118,3 +125,10 @@ e7b398dbd02b   postgres:16-alpine                         "docker-entrypoint.s�
 5. 对于其他问题，您可以在容器日志中搜索错误消息的原因。
 
 如果问题仍然存在，您可以在我们的 [GitHub 仓库](https://github.com/refly-ai/refly/issues)中提交 Issue。
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/refly]] — Refly
+- [[000 - Map of Maps]] — Map of Maps
+

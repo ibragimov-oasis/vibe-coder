@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-copilot
+---
+
 # draw-io Scripts
 
 Utility scripts for working with `.drawio` diagram files in the cxp-bu-order-ms project.
@@ -122,3 +129,9 @@ python scripts/add-shape.py docs/architecture.drawio "TODO: Service" 800 400 \
 ```bash
 python scripts/validate-drawio.py .github/skills/draw-io-diagram-generator/templates/flowchart.drawio
 ```
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-copilot]] — Category: skills-copilot
+

@@ -1,6 +1,10 @@
 ---
 name: backend-patterns
 description: Backend architecture patterns, API design, database optimization, and server-side best practices for Node.js, Express, and Next.js API routes.
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-everything-cc
 ---
 
 # バックエンド開発パターン
@@ -585,3 +589,9 @@ export async function GET(request: Request) {
 ```
 
 **注意**: バックエンドパターンは、スケーラブルで保守可能なサーバーサイドアプリケーションを実現します。複雑さのレベルに適したパターンを選択してください。
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

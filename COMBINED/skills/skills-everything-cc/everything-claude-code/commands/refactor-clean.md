@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
+---
+
 # Refactor Clean
 
 Safely identify and remove dead code with test verification at every step.
@@ -78,3 +85,9 @@ All tests passing PASS:
 - **One deletion at a time** — Atomic changes make rollback easy
 - **Skip if uncertain** — Better to keep dead code than break production
 - **Don't refactor while cleaning** — Separate concerns (clean first, refactor later)
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # Async Patterns and Error Handling
 
 Complete guide to async/await patterns and custom error handling.
@@ -305,3 +312,9 @@ process.on('uncaughtException', (error) => {
 - SKILL.md
 - [sentry-and-monitoring.md](sentry-and-monitoring.md)
 - [complete-examples.md](complete-examples.md)
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

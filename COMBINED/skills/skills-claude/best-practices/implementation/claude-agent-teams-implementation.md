@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # Agent Teams Implementation
 
 ![Last Updated](https://img.shields.io/badge/Last_Updated-Mar_12%2C_2026-white?style=flat&labelColor=555)
@@ -100,4 +107,9 @@ Main prompt: **[agent-teams-prompt.md](../agent-teams/agent-teams-prompt.md)**
           │   Command → Agent → Skill    │
           └──────────────────────────────┘
 ```
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
 

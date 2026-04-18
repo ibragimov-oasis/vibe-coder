@@ -2,6 +2,10 @@
 description: 'Debug your application to find and fix a bug'
 name: 'Debug Mode Instructions'
 tools: ['edit/editFiles', 'search', 'execute/getTerminalOutput', 'execute/runInTerminal', 'read/terminalLastCommand', 'read/terminalSelection', 'search/usages', 'read/problems', 'execute/testFailure', 'web/fetch', 'web/githubRepo', 'execute/runTests']
+tags:
+  - domain/agents
+  - artifact/agent
+  - source/by-interface/agents-copilot
 ---
 
 # Debug Mode Instructions
@@ -78,3 +82,9 @@ You are in debug mode. Your primary objective is to systematically identify, ana
 - **Test Thoroughly**: Verify fixes work in various scenarios and environments
 
 Remember: Always reproduce and understand the bug before attempting to fix it. A well-understood problem is half solved.
+
+## 🔗 Связи
+
+- [[MOC - Agents]] — Agent catalog
+- [[agents/agents-copilot]] — Interface: agents-copilot
+

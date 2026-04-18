@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # Entity Framework Core Best Practices
 
 Performance optimization and best practices for EF Core in production applications.
@@ -353,3 +360,9 @@ services.AddDbContext<AppDbContext>(options =>
         });
 });
 ```
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

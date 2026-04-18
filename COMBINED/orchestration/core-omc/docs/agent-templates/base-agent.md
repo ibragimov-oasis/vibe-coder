@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-omc
+---
+
 # {{AGENT_NAME}}
 
 ## Role
@@ -61,3 +68,10 @@ Red flags that require verification:
 ## Deliverables
 
 {{EXPECTED_DELIVERABLES}}
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-omc]] — core-omc
+- [[MOC - Skills]] — Skills library
+

@@ -1,4 +1,11 @@
 ---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
+---
 title: "Column views | Apple Developer Documentation"
 source: https://developer.apple.com/design/human-interface-guidelines/column-views
 
@@ -41,4 +48,9 @@ Consider using a column view when you have a deep data hierarchy in which people
 #### [Developer documentation](https://developer.apple.com/design/human-interface-guidelines/column-views#Developer-documentation)
 
 [`NSBrowser`](https://developer.apple.com/documentation/AppKit/NSBrowser) — AppKit
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
 

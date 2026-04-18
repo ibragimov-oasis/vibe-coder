@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/seo
+  - artifact/doc
+  - source/skills-seo
+---
+
 # SEO Guidelines for Castos Content
 
 This document outlines SEO best practices and requirements for all Castos blog content to maximize organic search visibility and rankings.
@@ -596,3 +603,9 @@ Before publishing, verify:
 ---
 
 **Remember**: SEO serves the user, not the algorithm. Never sacrifice content quality, accuracy, or helpfulness for keyword optimization. The best SEO is great content that genuinely helps your audience succeed.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-seo]] — Category: skills-seo
+

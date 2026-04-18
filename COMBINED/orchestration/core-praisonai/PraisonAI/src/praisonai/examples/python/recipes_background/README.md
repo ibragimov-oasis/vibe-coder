@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-praisonai
+---
+
 # Recipe Background Tasks Example
 
 This example demonstrates how to run recipes and agents as background tasks.
@@ -64,3 +71,9 @@ praisonai recipe run my-recipe --background --session-id session_123
 | `timeout_sec` | 300 | Maximum execution time |
 | `max_concurrent` | 5 | Maximum concurrent tasks |
 | `cleanup_delay_sec` | 3600 | Auto-cleanup delay |
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-praisonai]] — core-praisonai
+

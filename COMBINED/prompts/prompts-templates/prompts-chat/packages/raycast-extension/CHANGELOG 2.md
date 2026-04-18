@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/prompts
+  - artifact/prompt
+  - source/prompts-templates
+---
+
 # Changelog
 
 ## [Initial Version] - {PR_MERGE_DATE}
@@ -10,3 +17,9 @@
 - Support for 25+ AI platforms including ChatGPT, Claude, Gemini, Cursor, and more
 - Variable interpolation support with `${variableName}` syntax
 - Local caching for offline access
+
+## 🔗 Связи
+
+- [[MOC - Prompts]] — Prompt library
+- [[MOC - System]] — System documentation
+

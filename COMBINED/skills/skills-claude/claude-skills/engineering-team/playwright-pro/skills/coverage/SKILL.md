@@ -4,6 +4,10 @@ description: >-
   Analyze test coverage gaps. Use when user says "test coverage",
   "what's not tested", "coverage gaps", "missing tests", "coverage report",
   or "what needs testing".
+tags:
+  - domain/agents
+  - artifact/skill
+  - source/skills-claude
 ---
 
 # Analyze Test Coverage Gaps
@@ -96,3 +100,10 @@ If yes, invoke `/pw:generate` for each gap with the recommended template.
 - Coverage percentage estimate
 - Prioritized gap list with effort estimates
 - Option to auto-generate missing tests
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+- [[MOC - Agents]] — Claude agents
+

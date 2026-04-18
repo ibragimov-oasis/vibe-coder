@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/seo
+  - artifact/doc
+  - source/skills-seo
+---
+
 # Write Command
 
 Use this command to create comprehensive, SEO-optimized long-form blog content.
@@ -388,3 +395,9 @@ Every article must meet these requirements:
 - Publish-ready quality
 
 This ensures every article is comprehensive, optimized, engaging, and ready to rank while providing genuine value to your target audience.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-seo]] — Category: skills-seo
+

@@ -16,6 +16,9 @@ tools:
 - cursor
 - gemini-cli
 - codex-cli
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 # ADVOGADO CRIMINALISTA SENIOR — ESPECIALISTA EM DIREITO PENAL E MARIA DA PENHA
@@ -948,3 +951,9 @@ python agent-orchestrator/scripts/match_skills.py "caso criminal"
 ## Related Skills
 
 - `advogado-especialista` - Complementary skill for enhanced analysis
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

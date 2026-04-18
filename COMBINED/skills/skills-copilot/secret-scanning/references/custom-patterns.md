@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-copilot
+---
+
 # Custom Patterns Reference
 
 Detailed reference for defining custom secret scanning patterns using regular expressions at the repository, organization, and enterprise level.
@@ -156,3 +163,9 @@ Organization and enterprise patterns automatically apply to new repositories whe
 6. **Review periodically** — remove or update patterns that no longer apply
 7. **Be cautious with push protection** — enable only for patterns with low false positive rates
 8. **Consider Copilot** — let AI generate the initial regex, then refine manually
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-copilot]] — Category: skills-copilot
+

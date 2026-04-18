@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-omc
+---
+
 # Demo 3: Pipeline - Sequential Agent Chaining
 
 **Duration:** 3 minutes
@@ -443,3 +450,10 @@ A:
 - `research` - Documentation or investigation tasks
 - `refactor` - Major code restructuring
 - `security` - Security audits
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-omc]] — core-omc
+- [[MOC - Skills]] — Skills library
+

@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # senior-data-engineer reference
 
 ## Workflows
@@ -622,3 +629,9 @@ def generate_quality_report(connection, table_name: "str-dict"
 ```
 
 ---
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

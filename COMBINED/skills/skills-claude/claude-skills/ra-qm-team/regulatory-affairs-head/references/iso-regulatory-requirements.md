@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # ISO Regulatory Requirements for Medical Devices
 
 Key ISO standards applicable to medical device development, quality management, and regulatory compliance.
@@ -361,3 +368,9 @@ Key ISO standards applicable to medical device development, quality management, 
 | USA | FDA-recognized accreditation bodies |
 | MDSAP | Authorized auditing organizations |
 | Global | ISO certification bodies (IATF, DNV, BSI, TÜV) |
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

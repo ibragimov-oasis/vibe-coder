@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/seo
+  - artifact/doc
+  - source/skills-seo
+---
+
 # Article Command
 
 A unified content creation pipeline that produces comprehensive, SEO-optimized articles through mandatory research, strategic planning, and section-by-section writing.
@@ -620,3 +627,9 @@ Before writing, review these context files:
 - Uses real user language (not SEO-speak)
 - Updates outdated competitor info
 - Provides depth where competitors are thin
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-seo]] — Category: skills-seo
+

@@ -4,6 +4,10 @@ description: "Build server-side call automation workflows including IVR systems,
 risk: unknown
 source: community
 date_added: "2026-02-27"
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 # Azure Communication Call Automation (Java)
@@ -257,3 +261,9 @@ CALLBACK_BASE_URL=https://your-app.com/api/callbacks
 
 ## When to Use
 This skill is applicable to execute the workflow or actions described in the overview.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

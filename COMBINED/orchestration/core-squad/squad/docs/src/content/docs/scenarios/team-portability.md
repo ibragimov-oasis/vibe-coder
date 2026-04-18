@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-squad
+---
+
 # Moving a Team Between Repos
 
 **Try this to save your team:**
@@ -144,3 +151,10 @@ During import, agent histories are automatically split:
 - **Casting universe is preserved.** Agents keep their names and the fictional universe they were drawn from. Danny is still Danny.
 - **Archives are cheap insurance.** When using `--force`, the old team is archived, not deleted. If the import doesn't work out, rename the archive back to `.ai-team/`.
 - **Skills carry over.** Earned skills (with confidence levels) transfer with the team. Agents don't lose expertise when they move.
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/squad]] — Squad
+- [[000 - Map of Maps]] — Map of Maps
+

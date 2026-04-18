@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-copilot
+---
+
 # draw.io Style Reference
 
 Complete reference for the `style` attribute on `<mxCell>` elements. Styles are semicolon-delimited `key=value` pairs.
@@ -408,3 +415,9 @@ edgeStyle=orthogonalEdgeStyle;dashed=1;html=1;endArrow=open;endFill=0;
 ```text
 edgeStyle=none;strokeColor=none;endArrow=none;
 ```
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-copilot]] — Category: skills-copilot
+

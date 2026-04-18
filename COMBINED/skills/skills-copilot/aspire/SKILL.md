@@ -1,6 +1,10 @@
 ---
 name: aspire
 description: 'Aspire skill covering the Aspire CLI, AppHost orchestration, service discovery, integrations, MCP server, VS Code extension, Dev Containers, GitHub Codespaces, templates, dashboard, and deployment. Use when the user asks to create, run, debug, configure, deploy, or troubleshoot an Aspire distributed application.'
+tags:
+  - domain/agents
+  - artifact/skill
+  - source/skills-copilot
 ---
 
 # Aspire — Polyglot Distributed-App Orchestration
@@ -229,3 +233,10 @@ Full command reference with flags: [CLI Reference](references/cli-reference.md).
 | **Dashboard image** | `mcr.microsoft.com/dotnet/aspire-dashboard` |
 | **Discord** | https://aka.ms/aspire/discord |
 | **Reddit** | https://www.reddit.com/r/aspiredotdev/ |
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-copilot]] — Category: skills-copilot
+- [[MOC - Agents]] — Copilot agents
+

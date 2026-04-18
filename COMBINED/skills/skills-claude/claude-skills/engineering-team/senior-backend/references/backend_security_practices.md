@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # Backend Security Practices
 
 Security patterns and OWASP Top 10 mitigations for Node.js/Express applications.
@@ -1073,3 +1080,9 @@ app.use(pinoHttp({
 - [ ] npm audit in CI
 - [ ] Automated dependency updates
 - [ ] Lock file committed
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

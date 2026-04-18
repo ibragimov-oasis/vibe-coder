@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # Docker Validation Report - Claude-Flow v2.7.0
 
 **Date**: 2025-10-12
@@ -279,3 +286,10 @@ If you encounter any issues not covered in this validation:
 **Date**: 2025-10-12
 **Version**: v2.7.0-alpha
 **Status**: ✅ **PRODUCTION READY**
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

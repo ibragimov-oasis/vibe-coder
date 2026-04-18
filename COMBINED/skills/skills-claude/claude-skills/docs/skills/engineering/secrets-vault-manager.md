@@ -1,6 +1,10 @@
 ---
 title: "Secrets Vault Manager — Agent Skill for Codex & OpenClaw"
 description: "Use when the user asks to set up secret management infrastructure, integrate HashiCorp Vault, configure cloud secret stores (AWS Secrets Manager. Agent skill for Claude Code, Codex CLI, Gemini CLI, OpenClaw."
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
 ---
 
 # Secrets Vault Manager
@@ -412,3 +416,9 @@ Eliminate long-lived secrets in CI by using OIDC federation:
 - **ci-cd-pipeline-builder** — Pipeline design where secrets are consumed
 - **docker-development** — Container secret injection patterns
 - **helm-chart-builder** — Kubernetes secret management in Helm charts
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

@@ -14,6 +14,10 @@ triggers:
   - secret scanning
   - security audit
   - zero trust
+tags:
+  - domain/agents
+  - artifact/skill
+  - source/skills-claude
 ---
 
 # Senior Security Engineer
@@ -442,3 +446,10 @@ For compliance framework requirements (OWASP ASVS, CIS Benchmarks, NIST CSF, PCI
 | [senior-secops](../senior-secops/) | Security monitoring, incident response |
 | [senior-backend](../senior-backend/) | Secure API development |
 | [senior-architect](../senior-architect/) | Security architecture decisions |
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+- [[MOC - Agents]] — Claude agents
+

@@ -6,6 +6,10 @@ weight: 1
 description: >
   Firestore is a NoSQL document database built for automatic scaling, high performance, and ease of application development. It's a fully managed, serverless database that supports mobile, web, and server development.
 no_list: true
+tags:
+  - domain/mcp
+  - artifact/mcp-server
+  - source/mcp-servers
 ---
 
 ## About
@@ -82,3 +86,9 @@ project: "my-project-id"
 | type      |  string  |     true     | Must be "firestore".                                                                                     |
 | project   |  string  |     true     | Id of the GCP project that contains the Firestore database (e.g. "my-project-id").                       |
 | database  |  string  |     false    | Name of the Firestore database to connect to. Defaults to "(default)" if not specified.                  |
+
+## 🔗 Связи
+
+- [[MOC - MCP Servers]] — mcp-servers
+- [[000 - Map of Maps]] — Map of Maps
+

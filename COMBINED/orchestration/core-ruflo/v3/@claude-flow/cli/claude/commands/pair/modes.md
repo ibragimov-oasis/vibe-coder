@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # Pair Programming Modes
 
 Detailed guide to pair programming modes and their optimal use cases.
@@ -346,3 +353,10 @@ Save mode preferences:
 - [Starting Sessions](./start.md)
 - [Session Management](./session.md)
 - [Configuration](./config.md)
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

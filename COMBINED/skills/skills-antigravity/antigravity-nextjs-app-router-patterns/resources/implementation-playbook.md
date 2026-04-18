@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # Next.js App Router Patterns Implementation Playbook
 
 This file contains detailed patterns, checklists, and code samples referenced by the skill.
@@ -541,3 +548,9 @@ export async function updateProduct(id: string, data: ProductData) {
 - [Next.js App Router Documentation](https://nextjs.org/docs/app)
 - [Server Components RFC](https://github.com/reactjs/rfcs/blob/main/text/0188-server-components.md)
 - [Vercel Templates](https://vercel.com/templates/next.js)
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

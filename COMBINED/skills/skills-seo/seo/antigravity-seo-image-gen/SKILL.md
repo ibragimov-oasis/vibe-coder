@@ -13,6 +13,10 @@ allowed-tools:
   - Bash
   - WebFetch
   - Write
+tags:
+  - domain/seo
+  - artifact/skill
+  - source/skills-seo
 ---
 
 # SEO Image Gen: AI Image Generation for SEO Assets (Extension)
@@ -181,3 +185,9 @@ After generating, always provide:
 3. **Settings**:model, aspect ratio, resolution
 4. **SEO checklist**:alt text suggestion, file naming, WebP conversion
 5. **Schema snippet**:ImageObject or og:image markup if applicable
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-seo]] — Category: skills-seo
+

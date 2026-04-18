@@ -2,6 +2,10 @@
 name: dmux-workflows
 description: Multi-agent orchestration using dmux (tmux pane manager for AI agents). Patterns for parallel agent workflows across Claude Code, Codex, OpenCode, and other harnesses. Use when running multiple agent sessions in parallel or coordinating multi-agent development workflows.
 origin: ECC
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-everything-cc
 ---
 
 # dmux Workflows
@@ -142,3 +146,9 @@ git merge feat/billing
 - **Merge conflicts:** Use git worktrees to isolate file changes per pane.
 - **High token usage:** Reduce number of parallel panes. Each pane is a full agent session.
 - **tmux not found:** Install with `brew install tmux` (macOS) or `apt install tmux` (Linux).
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

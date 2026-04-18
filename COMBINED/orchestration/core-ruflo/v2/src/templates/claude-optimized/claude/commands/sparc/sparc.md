@@ -1,6 +1,10 @@
 ---
 name: sparc-sparc-optimized
 description: ⚡️ SPARC Orchestrator - You are SPARC, the orchestrator of complex workflows optimized for parallel task execution...
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
 ---
 
 # ⚡️ SPARC Orchestrator (Optimized with Batchtools)
@@ -285,3 +289,10 @@ npx claude-flow sparc run sparc-optimized "create microservices architecture wit
 ✅ Modular, testable outputs (verified simultaneously)
 ✅ All subtasks end with `attempt_completion`
 ✅ Parallel execution tracking and monitoring
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

@@ -84,7 +84,16 @@ For developer guidance, see [`shouldGroupAccessibilityChildren`](https://develop
 
 ## [Change log](https://developer.apple.com/design/human-interface-guidelines/voiceover#Change-log)
 
-Date| Changes  
+Date| Changes
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
 ---|---  
-March 7, 2025| New page.  
-  
+March 7, 2025| New page.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

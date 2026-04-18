@@ -3,6 +3,9 @@ title: Clear, Action-Oriented Title (e.g., "Use Partial Indexes for Filtered Que
 impact: MEDIUM
 impactDescription: 5-20x query speedup for filtered queries
 tags: indexes, query-optimization, performance
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
 ---
 
 ## [Rule Title]
@@ -32,3 +35,9 @@ SELECT * FROM users WHERE email = 'user@example.com' AND deleted_at IS NULL;
 [Optional: Additional context, edge cases, or trade-offs]
 
 Reference: [Postgres Docs](https://www.postgresql.org/docs/current/)
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

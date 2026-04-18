@@ -2,6 +2,10 @@
 name: observer
 description: Background agent that analyzes session observations to detect patterns and create instincts. Uses Haiku for cost-efficiency. v2.1 adds project-scoped instincts.
 model: haiku
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
 ---
 
 # Observer Agent
@@ -196,3 +200,9 @@ When instincts are imported from Skill Creator (repo analysis), they have:
 - `scope: "project"` (since they come from a specific repo)
 
 These should be treated as team/project conventions with higher initial confidence (0.7+).
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

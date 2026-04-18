@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-copilot
+---
+
 # PDFtk Server Manual Reference
 
 - **`pdftk` version 2.02**
@@ -230,3 +237,9 @@ Use with the `allow` keyword when encrypting. Available permissions:
 - Reverse page references use the `r` prefix (e.g., `r1` = last page, `r2` = second-to-last)
 - The `background` operation requires a transparent input; use `stamp` for opaque overlay PDFs
 - Output filename cannot match any input filename
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-copilot]] — Category: skills-copilot
+

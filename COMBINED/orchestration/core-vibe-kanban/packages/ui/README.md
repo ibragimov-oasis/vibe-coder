@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-vibe-kanban
+---
+
 # @vibe/ui
 
 Shared UI package for reusable web app primitives.
@@ -13,3 +20,9 @@ Shared UI package for reusable web app primitives.
 - Tailwind scanning for this package is enabled from `packages/local-web/tailwind.new.config.js` via:
   `../ui/src/**/*.{ts,tsx}`.
 - The app-level stylesheet remains `packages/web-core/src/styles/new/index.css`.
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-vibe-kanban]] — core-vibe-kanban
+

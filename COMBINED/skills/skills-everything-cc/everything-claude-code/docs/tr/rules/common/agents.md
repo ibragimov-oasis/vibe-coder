@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
+---
+
 # Agent Orkestrasyonu
 
 ## Mevcut Agent'lar
@@ -48,3 +55,9 @@ Karmaşık problemler için split role sub-agent'lar kullan:
 - Security expert
 - Consistency reviewer
 - Redundancy checker
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

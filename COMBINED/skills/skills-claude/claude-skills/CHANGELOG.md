@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # Changelog
 
 All notable changes to the Claude Skills Library will be documented in this file.
@@ -379,3 +386,9 @@ Major rewrite of existing skills following Anthropic's agent skills specificatio
 [1.0.2]: https://github.com/alirezarezvani/claude-skills/compare/v1.0.1...v1.0.2
 [1.0.1]: https://github.com/alirezarezvani/claude-skills/compare/v1.0.0...v1.0.1
 [1.0.0]: https://github.com/alirezarezvani/claude-skills/releases/tag/v1.0.0
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

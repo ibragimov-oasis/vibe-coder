@@ -31,6 +31,10 @@ outputs:
     extension: .cgd.md
     spec: docs/CLARITY_GATE_FORMAT_SPEC.md
 spec_version: "2.1"
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 # Clarity Gate v2.1
@@ -711,3 +715,9 @@ Reply "confirmed" or flag any I misread.
 **Spec Version:** 2.1
 **Author:** Francesco Marinoni Moretto
 **License:** CC-BY-4.0
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

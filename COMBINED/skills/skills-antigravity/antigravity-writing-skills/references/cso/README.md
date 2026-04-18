@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # CSO Guide - Claude Search Optimization
 
 Advanced techniques for making skills discoverable by agents.
@@ -266,3 +273,9 @@ description: Use when analyzing BigQuery data. Triggers: revenue metrics, pipeli
 ```
 
 Result: Loads for relevant queries, includes domain keywords.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

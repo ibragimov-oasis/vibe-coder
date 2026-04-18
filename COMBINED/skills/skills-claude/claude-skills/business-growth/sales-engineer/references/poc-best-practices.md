@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # Proof of Concept (POC) Best Practices
 
 A comprehensive guide for Sales Engineers planning, executing, and evaluating proof-of-concept engagements.
@@ -275,3 +282,9 @@ The go/no-go decision should be based on multiple factors, not just the scorecar
 ---
 
 **Last Updated:** February 2026
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

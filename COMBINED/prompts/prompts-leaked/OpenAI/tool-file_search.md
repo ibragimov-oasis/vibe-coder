@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/prompts
+  - artifact/prompt
+  - source/prompts-leaked
+---
+
 ## file_search  
 
 // Tool for browsing and opening files uploaded by the user. To use this tool, set the recipient of your message as `to=file_search.msearch` (to use the msearch function) or `to=file_search.mclick` (to use the mclick function).  
@@ -74,4 +81,10 @@ time_frame_filter?: {
 },  
 }) => any;  
 
-} // namespace file_search  
+} // namespace file_search
+
+## 🔗 Связи
+
+- [[MOC - Prompts]] — Prompt library
+- [[MOC - System]] — System documentation
+

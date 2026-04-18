@@ -8,6 +8,10 @@ description: >
 metadata:
   origin: ECC
   globs: ["**/*.go", "**/go.mod", "**/go.sum"]
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-everything-cc
 ---
 
 # Go Patterns
@@ -225,3 +229,9 @@ func testDB(t *testing.T) *sql.DB {
 - Structuring Go projects
 - Writing idiomatic Go code
 - Refactoring Go codebases
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

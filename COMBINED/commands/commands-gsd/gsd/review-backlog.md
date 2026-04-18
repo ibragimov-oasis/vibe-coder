@@ -5,6 +5,10 @@ allowed-tools:
   - Read
   - Write
   - Bash
+tags:
+  - domain/skills
+  - artifact/command
+  - source/commands
 ---
 
 <objective>
@@ -59,3 +63,9 @@ milestone sequence or remove stale entries.
    ```
 
 </process>
+
+## 🔗 Связи
+
+- [[MOC - System]] — commands
+- [[000 - Map of Maps]] — Map of Maps
+

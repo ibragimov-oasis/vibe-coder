@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # Agent Specifications: 15-Agent Swarm
 
 ## Agent Configuration Schema
@@ -994,3 +1001,10 @@ wait
 echo "All 15 agents spawned successfully"
 npx claude-flow swarm status
 ```
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

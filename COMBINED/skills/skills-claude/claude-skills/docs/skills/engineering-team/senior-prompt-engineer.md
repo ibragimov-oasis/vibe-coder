@@ -1,6 +1,10 @@
 ---
 title: "Senior Prompt Engineer — Agent Skill & Codex Plugin"
 description: "This skill should be used when the user asks to 'optimize prompts', 'design prompt templates', 'evaluate LLM outputs', 'build agentic systems'. Agent skill for Claude Code, Codex CLI, Gemini CLI, OpenClaw."
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
 ---
 
 # Senior Prompt Engineer
@@ -364,3 +368,9 @@ python scripts/agent_orchestrator.py agent.yaml --validate       # Validate conf
 python scripts/agent_orchestrator.py agent.yaml --visualize      # Show workflow
 python scripts/agent_orchestrator.py agent.yaml --estimate-cost  # Token estimation
 ```
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

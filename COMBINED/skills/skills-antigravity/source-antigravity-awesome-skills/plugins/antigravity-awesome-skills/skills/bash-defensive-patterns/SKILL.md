@@ -4,6 +4,10 @@ description: "Master defensive Bash programming techniques for production-grade 
 risk: safe
 source: community
 date_added: "2026-02-27"
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 # Bash Defensive Patterns
@@ -44,3 +48,9 @@ Refer to `resources/implementation-playbook.md` for detailed patterns, checklist
 ## Resources
 
 - `resources/implementation-playbook.md` for detailed patterns, checklists, and templates.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

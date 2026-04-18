@@ -1,6 +1,10 @@
 ---
 description: 'Use Context7 for authoritative external docs and API references when local context is insufficient'
 applyTo: '**'
+tags:
+  - domain/agents
+  - artifact/agent
+  - source/by-interface/agents-copilot
 ---
 
 # Context7-aware development
@@ -104,3 +108,9 @@ If Context7 cannot find a reliable source:
 
 - Never request or echo API keys. If configuration requires a key, instruct storing it in environment variables.
 - Treat retrieved docs as **helpful but not infallible**; for security-sensitive code, prefer official vendor docs and add an explicit verification step.
+
+## 🔗 Связи
+
+- [[MOC - Agents]] — Agent catalog
+- [[agents/agents-copilot]] — Interface: agents-copilot
+

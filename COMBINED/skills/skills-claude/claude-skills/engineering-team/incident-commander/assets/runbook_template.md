@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # Runbook: [Service/Component Name]
 
 **Owner:** [Team Name]
@@ -287,3 +294,9 @@ Health Check Alert Fired
 ---
 
 *This runbook should be reviewed quarterly and updated after every incident that reveals missing procedures. The on-call engineer should be able to follow this document without prior context about the service. If any section requires tribal knowledge to execute, it needs to be expanded.*
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

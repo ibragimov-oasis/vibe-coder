@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # A11y Audit — WCAG 2.2 Accessibility Audit & Fix
 
 Audit and fix WCAG 2.2 accessibility issues in any frontend project. Covers React, Next.js, Vue, Angular, Svelte, and plain HTML.
@@ -44,3 +51,9 @@ Both are stdlib-only — no pip install needed. CI-friendly exit codes (0 = pass
 ## License
 
 MIT
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

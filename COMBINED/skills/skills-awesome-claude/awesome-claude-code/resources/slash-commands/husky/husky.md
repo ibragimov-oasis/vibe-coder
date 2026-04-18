@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-awesome-claude
+---
+
 ## Summary
 
 The goal of this command is to verify the repo is in a working state and fix issues if they exist.
@@ -89,3 +96,9 @@ When a step requires code changes to fix always do following steps after you are
 1. Run `pnpm run lint` to make sure files are formatted
 2. ask the the user if they want to add files to staging first
 3. suggest a commit message but don't actually do the commit let the user do it themselves
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-awesome-claude]] — Category: skills-awesome-claude
+

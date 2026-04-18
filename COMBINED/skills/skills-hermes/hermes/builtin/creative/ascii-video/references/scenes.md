@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-hermes
+---
+
 # Scene System & Creative Composition
 
 > **See also:** architecture.md · composition.md · effects.md · shaders.md
@@ -1009,3 +1016,9 @@ SCENES = [
                   "transform": "rotate_cw", "transform_amt": 0.003}},
 ]
 ```
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-hermes]] — Category: skills-hermes
+

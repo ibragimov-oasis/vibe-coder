@@ -2,6 +2,10 @@
 sidebar_position: 2
 title: "Tutorial: Daily Briefing Bot"
 description: "Build an automated daily briefing bot that researches topics, summarizes findings, and delivers them to Telegram or Discord every morning"
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-hermes
 ---
 
 # Tutorial: Build a Daily Briefing Bot
@@ -264,3 +268,10 @@ You've built a working daily briefing bot. Here are some directions to explore n
 :::tip What else can you schedule?
 The briefing bot pattern works for anything: competitor monitoring, GitHub repo summaries, weather forecasts, portfolio tracking, server health checks, or even a daily joke. If you can describe it in a prompt, you can schedule it.
 :::
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/hermes]] — Hermes
+- [[000 - Map of Maps]] — Map of Maps
+

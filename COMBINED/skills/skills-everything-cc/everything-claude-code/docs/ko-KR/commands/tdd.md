@@ -1,5 +1,9 @@
 ---
 description: 테스트 주도 개발 워크플로우 강제. 인터페이스를 스캐폴딩하고, 테스트를 먼저 생성한 후 통과할 최소한의 코드를 구현합니다. 80% 이상 커버리지를 보장합니다.
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
 ---
 
 # TDD 커맨드
@@ -324,3 +328,9 @@ PASS: TDD 세션 완료!
 
 그리고 `tdd-workflow` 스킬을 참조할 수 있습니다:
 `~/COMBINED/workspace-config/claude/skills/tdd-workflow/`
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

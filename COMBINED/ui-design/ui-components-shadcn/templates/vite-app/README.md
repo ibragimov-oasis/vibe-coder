@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/ui
+  - artifact/ui-component
+  - source/ui-design
+---
+
 # React + TypeScript + Vite + shadcn/ui
 
 This is a template for a new Vite project with React, TypeScript, and shadcn/ui.
@@ -19,3 +26,9 @@ To use the components in your app, import them as follows:
 ```tsx
 import { Button } from "@/components/ui/button"
 ```
+
+## 🔗 Связи
+
+- [[MOC - UI Design]] — ui-design
+- [[000 - Map of Maps]] — Map of Maps
+

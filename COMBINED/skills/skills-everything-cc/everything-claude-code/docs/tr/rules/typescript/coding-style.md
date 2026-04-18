@@ -4,6 +4,10 @@ paths:
   - "**/*.tsx"
   - "**/*.js"
   - "**/*.jsx"
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
 ---
 # TypeScript/JavaScript Kodlama Stili
 
@@ -197,3 +201,9 @@ const validated: UserInput = userSchema.parse(input)
 - Production kodunda `console.log` ifadeleri yok
 - Bunun yerine uygun logging kütüphaneleri kullan
 - Otomatik tespit için hook'lara bakın
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

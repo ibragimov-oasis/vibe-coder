@@ -36,3 +36,9 @@ source: "../RESTORATION_PLAN.md"
 
 - [[root-docs/REORGANIZATION_SUMMARY]] — что было реорганизовано
 - [[root-docs/ALL_PHASES_COMPLETE]] — все фазы завершены
+
+## 🔗 Связи
+
+- [[000 - Map of Maps]] — Parent MOC
+- [[000 - Map of Maps]] — Map of Maps
+

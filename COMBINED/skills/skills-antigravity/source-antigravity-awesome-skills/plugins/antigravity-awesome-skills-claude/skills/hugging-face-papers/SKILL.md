@@ -3,6 +3,10 @@ source: "https://github.com/huggingface/skills/tree/main/skills/huggingface-pape
 name: hugging-face-papers
 description: Read and analyze Hugging Face paper pages or arXiv papers with markdown and papers API metadata.
 risk: unknown
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 # Hugging Face Paper Pages
@@ -239,3 +243,9 @@ If the Hugging Face paper page does not contain enough detail for the user's que
 - Write endpoints such as claim authorship, index paper, and update paper links require `Authorization: Bearer $HF_TOKEN`.
 - Prefer the `.md` endpoint for reliable machine-readable output.
 - Prefer `/api/papers/{PAPER_ID}` when you need structured JSON fields instead of page markdown.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

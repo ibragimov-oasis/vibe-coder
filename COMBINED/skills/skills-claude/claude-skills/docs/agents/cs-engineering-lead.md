@@ -1,6 +1,10 @@
 ---
 title: "Engineering Lead — AI Coding Agent & Codex Skill"
 description: "Engineering Team Lead agent for coordinating QA, security, data engineering, ML, and frontend/backend teams. Orchestrates engineering-team skills for. Agent-native orchestrator for Claude Code, Codex, Gemini CLI."
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
 ---
 
 # Engineering Lead
@@ -87,3 +91,9 @@ Engineering team lead coordinating across specializations: frontend, backend, QA
 
 - [cs-senior-engineer](https://github.com/alirezarezvani/claude-skills/tree/main/agents/engineering/cs-senior-engineer.md) -- Architecture decisions, code review, and CI/CD pipeline setup
 - [cs-product-manager](https://github.com/alirezarezvani/claude-skills/tree/main/agents/product/cs-product-manager.md) -- Feature prioritization and requirements alignment
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

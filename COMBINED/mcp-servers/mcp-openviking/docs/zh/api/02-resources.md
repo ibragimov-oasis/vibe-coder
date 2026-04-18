@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/mcp
+  - artifact/mcp-server
+  - source/mcp-servers
+---
+
 # 资源管理
 
 资源是智能体可以引用的外部知识。本指南介绍如何添加、管理和检索资源。
@@ -893,3 +900,9 @@ viking://resources/
 - [检索](06-retrieval.md) - 搜索资源
 - [文件系统](03-filesystem.md) - 文件系统操作
 - [上下文类型](../concepts/02-context-types.md) - 资源概念
+
+## 🔗 Связи
+
+- [[MOC - MCP Servers]] — mcp-servers
+- [[000 - Map of Maps]] — Map of Maps
+

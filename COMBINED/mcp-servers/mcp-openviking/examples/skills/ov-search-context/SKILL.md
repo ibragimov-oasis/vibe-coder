@@ -2,6 +2,10 @@
 name: ov-search-context
 description: Search context data(memories, skills and resource) from OpenViking Context Database (aka. ov). Trigger this tool when 1. need information that might be stored as memories, skills or resources on OpenViking; 2. is explicitly requested searching files or knowledge; 3. sees `search context`, `search openviking`, `search ov` request.
 compatibility: CLI configured at `~/.openviking/ovcli.conf`
+tags:
+  - domain/mcp
+  - artifact/mcp-server
+  - source/mcp-servers
 ---
 # OpenViking (OV) context searching
 The `ov search` command performs context-aware retrieval across all memories and resources in OpenViking — combining semantic understanding with directory recursive retrieval to find the most relevant context for any query.
@@ -155,3 +159,9 @@ ov read viking://resources/project-A/backend/auth.md
 
 - CLI configured: `~/.openviking/ovcli.conf`
 - Resources or memories previously added to OpenViking
+
+## 🔗 Связи
+
+- [[MOC - MCP Servers]] — mcp-servers
+- [[000 - Map of Maps]] — Map of Maps
+

@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/command
+  - source/claude-commands
+---
+
 # cache-manage
 
 Manage operation cache for performance.
@@ -23,3 +30,9 @@ npx claude-flow optimization cache-manage --action clear
 # Set limits
 npx claude-flow optimization cache-manage --max-size 100 --ttl 3600
 ```
+
+## 🔗 Связи
+
+- [[MOC - System]] — System commands
+- [[MOC - Skills]] — Skills library
+

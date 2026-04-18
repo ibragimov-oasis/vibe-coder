@@ -2,6 +2,10 @@
 name: eval-harness
 description: Claude Codeセッションの正式な評価フレームワークで、評価駆動開発（EDD）の原則を実装します
 tools: Read, Write, Edit, Bash, Grep, Glob
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-everything-cc
 ---
 
 # Eval Harnessスキル
@@ -225,3 +229,9 @@ Run: /eval check add-authentication
 リグレッション: 3/3 成功（pass^3: 100%）
 ステータス: 出荷可能
 ```
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

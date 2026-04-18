@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
+---
+
 # Skill Development Guide
 
 A comprehensive guide to creating effective skills for Everything Claude Code (ECC).
@@ -917,3 +924,9 @@ npm run test:e2e
 ---
 
 **Remember**: A good skill is focused, actionable, and immediately useful. Write skills you'd want to use yourself.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

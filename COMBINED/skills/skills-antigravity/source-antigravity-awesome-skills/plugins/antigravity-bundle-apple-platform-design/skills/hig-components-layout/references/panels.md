@@ -1,4 +1,11 @@
 ---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
+---
 title: "Panels | Apple Developer Documentation"
 source: https://developer.apple.com/design/human-interface-guidelines/panels
 
@@ -72,4 +79,9 @@ For developer guidance, see [`hudWindow`](https://developer.apple.com/documentat
 [`NSPanel`](https://developer.apple.com/documentation/AppKit/NSPanel) — AppKit
 
 [`hudWindow`](https://developer.apple.com/documentation/AppKit/NSWindow/StyleMask-swift.struct/hudWindow) — AppKit
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
 

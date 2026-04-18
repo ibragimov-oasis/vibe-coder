@@ -3,6 +3,10 @@ title: cloud-sql-restore-backup
 type: docs
 weight: 10
 description: "Restores a backup of a Cloud SQL instance."
+tags:
+  - domain/mcp
+  - artifact/mcp-server
+  - source/mcp-servers
 ---
 
 ## About
@@ -52,3 +56,9 @@ description: "Restores a backup onto the given Cloud SQL instance."
 - [Cloud SQL Admin API documentation](https://cloud.google.com/sql/docs/mysql/admin-api)
 - [Toolbox Cloud SQL tools documentation](../source.md)
 - [Cloud SQL Restore API documentation](https://cloud.google.com/sql/docs/mysql/backup-recovery/restoring)
+
+## 🔗 Связи
+
+- [[MOC - MCP Servers]] — mcp-servers
+- [[000 - Map of Maps]] — Map of Maps
+

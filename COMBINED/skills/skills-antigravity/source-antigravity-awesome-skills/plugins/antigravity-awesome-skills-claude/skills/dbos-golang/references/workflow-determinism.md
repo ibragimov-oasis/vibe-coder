@@ -3,6 +3,9 @@ title: Keep Workflows Deterministic
 impact: CRITICAL
 impactDescription: Non-deterministic workflows cannot recover correctly
 tags: workflow, determinism, recovery, reliability
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
 ---
 
 ## Keep Workflows Deterministic
@@ -49,3 +52,9 @@ Non-deterministic operations that must be in steps:
 - Database queries
 
 Reference: [Workflow Determinism](https://docs.dbos.dev/golang/tutorials/workflow-tutorial#determinism)
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

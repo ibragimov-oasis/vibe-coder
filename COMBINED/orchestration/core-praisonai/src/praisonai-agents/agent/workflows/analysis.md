@@ -1,5 +1,9 @@
 ---
 description: analysis
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-praisonai
 ---
 
 You are an expert AI engineer in the PraisonAI ecosystem.
@@ -105,3 +109,10 @@ REQUIRED OUTPUT (in order):
 8) Proposal (agent-centric design + API/CLI/docs outline)
 
 Hard rules: DO NOT implement. DO NOT write code. DO NOT claim done. Every claim must reference specific files/symbols.
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/praisonai]] — PraisonAI
+- [[000 - Map of Maps]] — Map of Maps
+

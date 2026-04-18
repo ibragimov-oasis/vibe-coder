@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
+---
+
 # セキュリティガイドライン
 
 ## 必須セキュリティチェック
@@ -27,3 +34,9 @@
 3. 継続前に CRITICAL 問題を修正
 4. 露出したシークレットをローテーション
 5. 同様の問題がないかコードベース全体をレビュー
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

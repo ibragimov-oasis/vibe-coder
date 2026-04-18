@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/ui
+  - artifact/ui-component
+  - source/ui-design
+---
+
 # Taste Skill
 
 <p>
@@ -92,3 +99,9 @@ Yes. Taste Skill is framework-agnostic. The rules focus on design decisions, not
 
 **What is a SKILL.md file?**
 A portable instruction file that AI coding agents detect and follow automatically. No configuration is needed, just install it and your agent reads it.
+
+## 🔗 Связи
+
+- [[MOC - UI Design]] — ui-design
+- [[000 - Map of Maps]] — Map of Maps
+

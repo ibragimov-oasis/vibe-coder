@@ -4,6 +4,10 @@ description: "You are a Rust project architecture expert specializing in scaffol
 risk: unknown
 source: community
 date_added: "2026-02-27"
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 # Rust Project Scaffolding
@@ -441,3 +445,9 @@ cognitive-complexity-threshold = 30
 6. **Development Tools**: Makefile, clippy/rustfmt configs
 
 Focus on creating idiomatic Rust projects with strong type safety, proper error handling, and comprehensive testing setup.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

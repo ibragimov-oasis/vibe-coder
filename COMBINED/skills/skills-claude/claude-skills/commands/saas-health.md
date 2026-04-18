@@ -1,6 +1,11 @@
 ---
 name: saas-health
 description: Calculate SaaS health metrics (ARR, MRR, churn, CAC, LTV, NRR) and benchmark against industry standards. Usage: /saas-health <metrics|quick-ratio|simulate> [options]
+tags:
+  - domain/agents
+  - artifact/skill
+  - source/skills-claude
+  - artifact/doc
 ---
 
 # /saas-health
@@ -33,3 +38,10 @@ Calculate SaaS financial health metrics from raw business numbers, benchmark aga
 
 ## Related Commands
 - `/financial-health` — Traditional financial analysis (ratios, DCF, budgets)
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+- [[MOC - Agents]] — Claude agents
+

@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # CLI Startup Flags Best Practice
 
 ![Last Updated](https://img.shields.io/badge/Last_Updated-Mar%2002%2C%202026-white?style=flat&labelColor=555)
@@ -229,3 +236,9 @@ For environment variables configurable via the `"env"` key in `settings.json` (i
 - [Claude Code Setup](https://code.claude.com/docs/en/setup)
 - [Claude Code CHANGELOG](https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md)
 - [Claude Code Common Workflows](https://code.claude.com/docs/en/common-workflows)
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

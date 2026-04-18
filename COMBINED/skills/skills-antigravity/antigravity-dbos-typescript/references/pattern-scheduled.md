@@ -3,6 +3,9 @@ title: Create Scheduled Workflows
 impact: MEDIUM
 impactDescription: Enables recurring tasks with exactly-once-per-interval guarantees
 tags: pattern, scheduled, cron, recurring
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
 ---
 
 ## Create Scheduled Workflows
@@ -67,3 +70,9 @@ DBOS.registerScheduled(fridayNightJob, {
 Scheduled workflows cannot be applied to instance methods.
 
 Reference: [Scheduled Workflows](https://docs.dbos.dev/typescript/tutorials/scheduled-workflows)
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/agent
+  - source/by-interface/agents-copilot
+---
+
 # 🪝 Hooks
 
 Hooks enable automated workflows triggered by specific events during GitHub Copilot coding agent sessions, such as session start, session end, user prompts, and tool usage.
@@ -37,3 +44,9 @@ See [CONTRIBUTING.md](../CONTRIBUTING.md#adding-hooks) for guidelines on how to 
 | [Session Auto-Commit](../hooks/session-auto-commit/README.md) | Automatically commits and pushes changes when a Copilot coding agent session ends | sessionEnd | `auto-commit.sh`<br />`hooks.json` |
 | [Session Logger](../hooks/session-logger/README.md) | Logs all Copilot coding agent session activity for audit and analysis | sessionStart, sessionEnd, userPromptSubmitted | `hooks.json`<br />`log-prompt.sh`<br />`log-session-end.sh`<br />`log-session-start.sh` |
 | [Tool Guardian](../hooks/tool-guardian/README.md) | Blocks dangerous tool operations (destructive file ops, force pushes, DB drops) before the Copilot coding agent executes them | preToolUse | `guard-tool.sh`<br />`hooks.json` |
+
+## 🔗 Связи
+
+- [[MOC - Agents]] — Agent catalog
+- [[agents/agents-copilot]] — Interface: agents-copilot
+

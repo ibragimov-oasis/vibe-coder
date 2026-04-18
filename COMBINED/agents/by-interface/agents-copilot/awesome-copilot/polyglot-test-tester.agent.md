@@ -1,6 +1,10 @@
 ---
 description: 'Runs test commands for any language and reports results. Discovers test command from project files if not specified.'
 name: 'Polyglot Test Tester'
+tags:
+  - domain/agents
+  - artifact/agent
+  - source/by-interface/agents-copilot
 ---
 
 # Tester Agent
@@ -88,3 +92,9 @@ Failures:
 - Capture the test summary
 - Extract specific failure information
 - Include file:line references when available
+
+## 🔗 Связи
+
+- [[MOC - Agents]] — Agent catalog
+- [[agents/agents-copilot]] — Interface: agents-copilot
+

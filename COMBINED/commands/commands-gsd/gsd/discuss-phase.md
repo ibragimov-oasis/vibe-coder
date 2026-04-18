@@ -12,6 +12,10 @@ allowed-tools:
   - Task
   - mcp__context7__resolve-library-id
   - mcp__context7__query-docs
+tags:
+  - domain/skills
+  - artifact/command
+  - source/commands
 ---
 
 <objective>
@@ -62,3 +66,9 @@ If `DISCUSS_MODE` is `"discuss"` (or unset, or any other value): Read and execut
 - CONTEXT.md captures decisions, not vague vision
 - User knows next steps
 </success_criteria>
+
+## 🔗 Связи
+
+- [[MOC - System]] — commands
+- [[000 - Map of Maps]] — Map of Maps
+

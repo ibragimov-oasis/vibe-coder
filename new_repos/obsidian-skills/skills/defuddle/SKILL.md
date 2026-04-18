@@ -1,6 +1,10 @@
 ---
 name: defuddle
 description: Extract clean markdown content from web pages using Defuddle CLI, removing clutter and navigation to save tokens. Use instead of WebFetch when the user provides a URL to read or analyze, for online documentation, articles, blog posts, or any standard web page. Do NOT use for URLs ending in .md — those are already markdown, use WebFetch directly.
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/new_repos
 ---
 
 # Defuddle
@@ -39,3 +43,8 @@ defuddle parse <url> -p domain
 | `--json` | JSON with both HTML and markdown |
 | (none) | HTML |
 | `-p <name>` | Specific metadata property |
+
+## 🔗 Связи
+
+- [[000 - Map of Maps]] — Map of Maps
+

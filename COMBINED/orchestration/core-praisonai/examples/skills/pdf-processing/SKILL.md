@@ -6,6 +6,10 @@ compatibility: Works with PraisonAI Agents
 metadata:
   author: praisonai
   version: "1.0"
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-praisonai
 ---
 
 # PDF Processing Skill
@@ -36,3 +40,10 @@ Activate this skill when:
 - Handle encrypted PDFs gracefully with appropriate error messages
 - For scanned PDFs, note that OCR may be required
 - Preserve important formatting like tables and lists
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/praisonai]] — PraisonAI
+- [[000 - Map of Maps]] — Map of Maps
+

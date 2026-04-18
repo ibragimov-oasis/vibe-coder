@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/reference
+  - source/reference
+---
+
 # Code Style Consistency Prompt
 
 Author: Peter M Souza Jr
@@ -35,3 +42,9 @@ The .cursorrules prompt guides developers in maintaining code style consistency 
 - **Consistency Best Practices**: Ten key principles for maintaining stylistic integrity
 - **File Analysis Strategy**: Guidelines for selecting representative files to establish patterns
 - **Adaptation Techniques**: Specific methods for transforming code to match existing patterns
+
+## 🔗 Связи
+
+- [[MOC - System]] — reference
+- [[000 - Map of Maps]] — Map of Maps
+

@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/new_repos
+---
+
 # Models and Parameters
 
 This guide explains how to manage chat models, embedding models, and the parameters that control how the AI behaves.
@@ -176,3 +183,8 @@ The default is **OpenRouter Gemini 2.5 Flash** (requires OpenRouter API key).
 
 - [LLM Providers](llm-providers.md) — Set up API keys for your provider
 - [Vault Search and Indexing](vault-search-and-indexing.md) — How embedding models are used
+
+## 🔗 Связи
+
+- [[000 - Map of Maps]] — Map of Maps
+

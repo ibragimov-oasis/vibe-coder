@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-omc
+---
+
 <!-- OMC:START -->
 <!-- OMC:VERSION:4.9.3 -->
 
@@ -63,3 +70,10 @@ State: `.omc/state/`, `.omc/state/sessions/{sessionId}/`, `.omc/notepad.md`, `.o
 Say "setup omc" or run `/oh-my-claudecode:omc-setup`.
 
 <!-- OMC:END -->
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-omc]] — core-omc
+- [[MOC - Skills]] — Skills library
+

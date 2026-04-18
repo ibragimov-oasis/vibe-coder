@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # 🏆 Quality Bar & Validation Standards
 
 To transform **Antigravity Awesome Skills** from a collection of scripts into a trusted platform, every skill must meet a specific standard of quality and safety.
@@ -102,3 +109,9 @@ Notes:
 - Skill changes and risky guidance still require a manual logic review before merge, even when the automated gates pass.
 - `npm run validate:strict` is a useful hardening pass, but the repository still contains legacy skills that do not yet satisfy strict validation.
 - Examples and limitations remain part of the quality bar even when they are not fully auto-enforced by the current validator.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

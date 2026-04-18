@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # 🛡️ Backward Compatibility Guarantee - AgentDB v1.3.9 Integration
 
 ## ✅ 100% Backward Compatibility Confirmed
@@ -419,3 +426,10 @@ const memory = new AgentDBMemoryAdapter({
 **Last Updated**: 2025-10-23
 **PR**: #830
 **Branch**: feature/agentdb-integration
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

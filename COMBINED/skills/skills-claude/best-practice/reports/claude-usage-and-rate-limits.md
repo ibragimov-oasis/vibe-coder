@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # Claude Code: Usage, Rate Limits & Extra Usage
 
 Understanding how usage limits work in Claude Code and how to keep working when you hit them.
@@ -106,3 +113,9 @@ See [CLI Startup Flags Reference](claude-cli-startup-flags.md) for the full list
 - [Using Claude Code with your Pro or Max plan — Claude Help Center](https://support.claude.com/en/articles/11145838-using-claude-code-with-your-pro-or-max-plan)
 - [/extra-usage slash command is undocumented — GitHub Issue #12396](https://github.com/anthropics/claude-code/issues/12396)
 - [Claude Code CLI Reference](https://code.claude.com/docs/en/cli-reference)
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

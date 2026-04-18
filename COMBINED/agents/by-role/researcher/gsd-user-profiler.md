@@ -3,6 +3,10 @@ name: gsd-user-profiler
 description: Analyzes extracted session messages across 8 behavioral dimensions to produce a scored developer profile with confidence levels and evidence. Spawned by profile orchestration workflows.
 tools: Read
 color: magenta
+tags:
+  - domain/agents
+  - artifact/agent
+  - source/by-role/researcher
 ---
 
 <role>
@@ -169,3 +173,9 @@ Do NOT return markdown commentary, explanations, or caveats outside the `<analys
 - Deprioritize log pastes, session context dumps, and large code blocks when selecting evidence
 - When evidence is genuinely insufficient, report UNSCORED with "insufficient data" -- do not guess
 </constraints>
+
+## 🔗 Связи
+
+- [[MOC - Agents]] — Agent catalog
+- [[agents/researcher]] — Role: researcher
+

@@ -4,6 +4,10 @@ description: 'Mirror the source chapter on skills that load automatically for re
 authors:
   - GitHub Copilot Learning Hub Team
 lastUpdated: 2026-03-20
+tags:
+  - domain/agents
+  - artifact/agent
+  - source/by-interface/agents-copilot
 ---
 
 ![Chapter 05: Skills System](/images/learning-hub/copilot-cli-for-beginners/05/chapter-header.png)
@@ -868,3 +872,9 @@ In **[Chapter 06: MCP Servers](../06-mcp-servers/)**, you'll learn:
 - Multi-server workflows
 
 ---
+
+## 🔗 Связи
+
+- [[MOC - Agents]] — Agent catalog
+- [[agents/agents-copilot]] — Interface: agents-copilot
+

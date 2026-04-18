@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-copilot
+---
+
 # Jekyll Reference
 
 Jekyll is a static site generator that transforms Markdown content into complete websites. It's blog-aware and powers GitHub Pages.
@@ -319,3 +326,9 @@ plugins:
 - [Kramdown Documentation](https://kramdown.gettalong.org/)
 - [GitHub Repository](https://github.com/jekyll/jekyll)
 - [Jekyll Themes](https://jekyllthemes.io/)
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-copilot]] — Category: skills-copilot
+

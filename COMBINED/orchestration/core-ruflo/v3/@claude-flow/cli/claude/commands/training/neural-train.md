@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # neural-train
 
 Train neural patterns with SONA (Self-Optimizing Neural Architecture) for adaptive learning and pattern recognition.
@@ -73,3 +80,10 @@ npx claude-flow neural patterns --action analyze -q "coordination"
 - `neural patterns` - List and search patterns
 - `neural status` - Check neural system status
 - `neural predict` - Make predictions using trained models
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

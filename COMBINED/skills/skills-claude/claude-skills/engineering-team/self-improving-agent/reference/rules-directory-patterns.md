@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # Rules Directory Patterns
 
 Best practices for organizing `.claude/rules/` files — the scoped instruction system that loads rules only when relevant files are open.
@@ -135,3 +142,9 @@ paths:
 3. **Keep unscoped rules minimal** — they load every session like CLAUDE.md
 4. **Review after refactors** — paths may change when directories are reorganized
 5. **Share via git** — rules/ should be version-controlled (unlike auto-memory)
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # Docker Compose Patterns For Worktrees
 
 ## Pattern 1: Override File Per Worktree
@@ -60,3 +67,9 @@ docker compose -p myapp_wt_auth up -d
 - Reusing default `5432` from multiple worktrees simultaneously
 - Sharing one database volume across incompatible migration branches
 - Forgetting to scope compose project name per worktree
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

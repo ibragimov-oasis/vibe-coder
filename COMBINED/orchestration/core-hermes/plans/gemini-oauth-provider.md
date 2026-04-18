@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-hermes
+---
+
 # Gemini OAuth Provider — Implementation Plan
 
 ## Goal
@@ -78,3 +85,10 @@ Add a first-class `gemini` provider that authenticates via Google OAuth, using t
 - clawdbot: `extensions/google/oauth.flow.ts` (PKCE + localhost server)
 - pi-mono: `packages/ai/src/utils/oauth/google-gemini-cli.ts` (same flow)
 - hermes-agent Copilot OAuth: `hermes_cli/main.py` `_copilot_device_flow()` (different flow type but same lifecycle pattern)
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-hermes]] — core-hermes
+- [[MOC - Skills]] — Skills library
+

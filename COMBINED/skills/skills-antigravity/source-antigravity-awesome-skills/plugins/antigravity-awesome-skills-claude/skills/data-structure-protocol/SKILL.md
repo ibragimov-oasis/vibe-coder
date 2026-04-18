@@ -4,6 +4,10 @@ description: "Give agents persistent structural memory of a codebase — navigat
 risk: safe
 source: "https://github.com/k-kolomeitsev/data-structure-protocol"
 date_added: "2026-02-27"
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 # Data Structure Protocol (DSP)
@@ -196,3 +200,9 @@ This skill connects naturally to:
 - **Full architecture specification**: [ARCHITECTURE.md](https://github.com/k-kolomeitsev/data-structure-protocol/blob/main/ARCHITECTURE.md)
 - **CLI source + reference docs**: [skills/data-structure-protocol](https://github.com/k-kolomeitsev/data-structure-protocol/tree/main/skills/data-structure-protocol)
 - **Introduction article**: [article.md](https://github.com/k-kolomeitsev/data-structure-protocol/blob/main/article.md)
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

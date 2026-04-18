@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # Saving Results to Hugging Face Hub
 
 **⚠️ CRITICAL:** Job environments are ephemeral. ALL results are lost when a job completes unless persisted to the Hub or external storage.
@@ -349,4 +356,9 @@ Upload file results.json: 100%
 **Without `secrets={"HF_TOKEN": "$HF_TOKEN"}` and persistence code, all results are permanently lost.**
 
 Always verify both are configured before submitting any job that produces results.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
 

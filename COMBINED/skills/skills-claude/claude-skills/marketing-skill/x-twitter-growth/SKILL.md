@@ -7,6 +7,10 @@ metadata:
   author: Alireza Rezvani
   category: marketing
   updated: 2026-03-10
+tags:
+  - domain/agents
+  - artifact/skill
+  - source/skills-claude
 ---
 
 # X/Twitter Growth Engine
@@ -224,3 +228,10 @@ Generates a 2-week posting plan with:
 - `social-media-analyzer` — Cross-platform analytics
 - `content-production` — Long-form content that feeds X threads
 - `copywriting` — Headline and hook writing techniques
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+- [[MOC - Agents]] — Claude agents
+

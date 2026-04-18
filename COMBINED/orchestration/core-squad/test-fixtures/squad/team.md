@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-squad
+---
+
 # Team
 
 ## Members
@@ -7,3 +14,10 @@
 | Hockney | Tester | `.squad/agents/hockney/charter.md` | ✅ Active |
 | Fenster | Core Dev | `.squad/agents/fenster/charter.md` | ✅ Active |
 | McManus | Scribe | `.squad/agents/mcmanus/charter.md` | 🔇 Inactive |
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-squad]] — core-squad
+- [[MOC - Skills]] — Skills library
+

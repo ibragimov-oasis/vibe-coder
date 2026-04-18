@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/ui
+  - artifact/ui-component
+  - source/ui-design
+---
+
 # Parameter Tuning
 
 ## Temperature and Top-p
@@ -42,3 +49,9 @@ Important constraints:
 - Even at `low`, Gemini Pro models perform mandatory minimum internal deliberation for safety and alignment.
 - For code generation and complex analysis, set to `medium` or `high` for quality scores consistently exceeding 92-95% compared to baseline.
 - Avoid combining extremely low temperature with `high` thinking level, as this can occasionally induce internal reasoning loops.
+
+## 🔗 Связи
+
+- [[MOC - UI Design]] — ui-design
+- [[000 - Map of Maps]] — Map of Maps
+

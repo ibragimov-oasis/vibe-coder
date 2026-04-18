@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/seo
+  - artifact/doc
+  - source/skills-seo
+---
+
 # Castos Features & Benefits
 
 This document outlines Castos's key features, benefits, and differentiators to inform content creation that drives trial conversions and customer acquisition.
@@ -246,3 +253,9 @@ When writing about Castos features:
 ---
 
 *Note: Update this document as new features launch or positioning changes. Keep messaging aligned with current marketing campaigns and homepage copy.*
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-seo]] — Category: skills-seo
+

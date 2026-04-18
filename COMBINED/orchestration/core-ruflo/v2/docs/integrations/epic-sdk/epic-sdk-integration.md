@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # Epic: Claude Agent SDK Integration for Claude-Flow v3.0.0-alpha.130
 
 ## 🎯 Epic Overview
@@ -1267,3 +1274,10 @@ This epic transforms Claude-Flow from a standalone implementation to a powerful 
 6. **Focuses innovation** on multi-agent coordination
 
 **Key Message**: "Claude Agent SDK handles single agents brilliantly. Claude-Flow makes them work as a swarm."
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

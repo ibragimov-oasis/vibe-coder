@@ -151,7 +151,11 @@ The system also applies magnetism to text-entry areas, where it can help people 
 
 macOS supports a wide range of standard mouse and trackpad interactions that people can customize. For example, when a click or gesture isn’t a primary way to interact with content, people can often turn it on or off based on their current workflow. People can also choose specific regions of a mouse or trackpad to invoke secondary clicks, and select specific finger combinations and movements for certain gestures.
 
-Click or gesture| Expected behavior| Mouse| Trackpad  
+Click or gesture| Expected behavior| Mouse| Trackpad
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
 ---|---|---|---  
 Primary click| Select or activate an item, such as a file or button.| ●| ●  
 Secondary click| Reveal contextual menus.| ●| ●  
@@ -233,5 +237,10 @@ When people use an attached pointing device that supports gestures, like a track
 
 Date| Changes  
 ---|---  
-June 21, 2023| Updated to include guidance for visionOS.  
-  
+June 21, 2023| Updated to include guidance for visionOS.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

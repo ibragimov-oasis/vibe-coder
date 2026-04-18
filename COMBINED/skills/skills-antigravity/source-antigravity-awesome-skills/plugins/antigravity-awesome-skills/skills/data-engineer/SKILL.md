@@ -4,6 +4,10 @@ description: Build scalable data pipelines, modern data warehouses, and real-tim
 risk: unknown
 source: community
 date_added: '2026-02-27'
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 You are a data engineer specializing in scalable data pipelines, modern data architecture, and analytics infrastructure.
 
@@ -220,3 +224,9 @@ Expert data engineer specializing in building robust, scalable data pipelines an
 - "Build a change data capture pipeline for real-time synchronization between databases"
 - "Implement a data mesh architecture with domain-specific data products"
 - "Create a scalable ETL pipeline that handles late-arriving and out-of-order data"
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-multica
+---
+
 # Desktop App (Electron) Implementation Plan
 
 > **For Claude:** REQUIRED SUB-SKILL: Use superpowers:executing-plans to implement this plan task-by-task.
@@ -1080,3 +1087,10 @@ These are for future PRs:
 | 5 | `feat(desktop): add title bar, dashboard shell, and shared components` | 4 files | Med — sidebar copy |
 | 6 | `feat(desktop): add router, pages, and app entry` | 6 files | Med — integration |
 | 7 | `feat(desktop): desktop app MVP — verification pass` | fixes | Low |
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-multica]] — core-multica
+- [[MOC - Skills]] — Skills library
+

@@ -36,3 +36,9 @@ source: "../RESTRUCTURE_COMPLETE_SUMMARY.md"
 
 - [[root-docs/RESTORATION_COMPLETE]] — подтверждение восстановления
 - [[root-docs/COMBINED_FULL_STRUCTURE]] — описание итоговой структуры
+
+## 🔗 Связи
+
+- [[000 - Map of Maps]] — Parent MOC
+- [[000 - Map of Maps]] — Map of Maps
+

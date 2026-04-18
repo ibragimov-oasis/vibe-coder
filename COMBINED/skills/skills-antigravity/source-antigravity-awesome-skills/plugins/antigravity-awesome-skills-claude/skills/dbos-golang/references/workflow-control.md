@@ -3,6 +3,9 @@ title: Cancel, Resume, and Fork Workflows
 impact: MEDIUM
 impactDescription: Enables operational control over long-running workflows
 tags: workflow, cancel, resume, fork, management
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
 ---
 
 ## Cancel, Resume, and Fork Workflows
@@ -46,3 +49,9 @@ result, err := forkHandle.GetResult()
 Forking creates a new workflow with a new ID, copying the original workflow's inputs and step outputs up to the selected step.
 
 Reference: [Workflow Management](https://docs.dbos.dev/golang/tutorials/workflow-management)
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

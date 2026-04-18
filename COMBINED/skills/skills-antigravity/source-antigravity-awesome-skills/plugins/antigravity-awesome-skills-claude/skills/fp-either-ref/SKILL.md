@@ -5,6 +5,9 @@ risk: unknown
 source: community
 version: 1.0.0
 tags: [fp-ts, either, error-handling, validation, quick-reference]
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 # Either Quick Reference
@@ -83,3 +86,9 @@ pipe(
 ```
 
 Use Either when **error type matters** and you want to chain operations.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

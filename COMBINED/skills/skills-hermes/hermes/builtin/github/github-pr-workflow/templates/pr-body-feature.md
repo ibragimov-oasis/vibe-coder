@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-hermes
+---
+
 ## Summary
 
 <!-- 1-3 bullet points describing what this PR does -->
@@ -31,3 +38,9 @@ Closes #
 ## Notes for Reviewers
 
 <!-- Anything reviewers should pay special attention to -->
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-hermes]] — Category: skills-hermes
+

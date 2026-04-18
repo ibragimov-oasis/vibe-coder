@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-archon
+---
+
 # Tracing
 
 Capture detailed execution traces for debugging and analysis. Traces include DOM snapshots, screenshots, network activity, and console logs.
@@ -137,3 +144,10 @@ find .playwright-cli/traces -mtime +7 -delete
 - Traces add overhead to automation
 - Large traces can consume significant disk space
 - Some dynamic content may not replay perfectly
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/archon]] — Archon
+- [[000 - Map of Maps]] — Map of Maps
+

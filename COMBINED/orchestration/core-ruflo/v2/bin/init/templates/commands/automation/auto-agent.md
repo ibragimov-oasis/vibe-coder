@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # auto agent
 
 Automatically spawn and manage agents based on task requirements.
@@ -120,3 +127,10 @@ mcp__claude-flow__auto_agent {
 - `swarm init` - Initialize swarm manually
 - `smart spawn` - Intelligent agent spawning
 - `workflow select` - Choose predefined workflows
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

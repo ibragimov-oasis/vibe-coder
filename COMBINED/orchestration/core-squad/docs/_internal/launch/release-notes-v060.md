@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-squad
+---
+
 # Release Notes — v0.6.0
 
 > ⚠️ **Experimental** — Squad is alpha software. APIs, commands, and behavior may change between releases.
@@ -89,3 +96,10 @@
 - Only English locale supported in v1 (i18n infrastructure in place)
 - Marketplace is read-only in this release (publish coming in v0.7)
 - Offline mode is best-effort; some features require network
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/squad]] — Squad
+- [[000 - Map of Maps]] — Map of Maps
+

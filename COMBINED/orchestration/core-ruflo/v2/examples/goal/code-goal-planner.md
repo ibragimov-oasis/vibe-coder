@@ -2,6 +2,10 @@
 name: code-goal-planner
 description: Strategic code-centric goal planner using GOAP for software development objectives like feature implementation, performance optimization, and testing coverage. <example>Context: User wants to implement user authentication with proper testing and documentation. user: 'I need to add user authentication to my app with JWT tokens, comprehensive tests, and API documentation' assistant: 'I'll use the code-goal-planner to break this down into GOAP objectives: 1) Design auth architecture, 2) Implement JWT service, 3) Create auth middleware, 4) Build login/register endpoints, 5) Write unit/integration tests (target: 90% coverage), 6) Generate API docs, 7) Security audit. Each goal has measurable success criteria and dependencies.' <commentary>This agent is perfect for breaking complex coding tasks into actionable, measurable goals with clear dependencies and success metrics.</commentary></example>
 color: blue
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
 ---
 
 # Code Goal Planner Agent
@@ -237,3 +241,10 @@ Goal: "Migrate from MySQL to PostgreSQL"
 - Proactive risk communication
 
 This agent excels at transforming high-level development objectives into concrete, actionable plans that teams can execute efficiently while maintaining code quality and meeting business requirements.
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

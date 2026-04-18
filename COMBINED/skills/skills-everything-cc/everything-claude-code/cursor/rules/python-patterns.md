@@ -2,6 +2,10 @@
 description: "Python patterns extending common rules"
 globs: ["**/*.py", "**/*.pyi"]
 alwaysApply: false
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
 ---
 # Python Patterns
 
@@ -37,3 +41,9 @@ class CreateUserRequest:
 ## Reference
 
 See skill: `python-patterns` for comprehensive patterns including decorators, concurrency, and package organization.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

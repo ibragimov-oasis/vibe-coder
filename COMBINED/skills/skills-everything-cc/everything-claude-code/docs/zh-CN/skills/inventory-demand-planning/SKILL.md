@@ -8,6 +8,10 @@ metadata:
   author: evos
   clawdbot:
     emoji: ""
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-everything-cc
 ---
 
 # 库存需求规划
@@ -231,3 +235,9 @@ metadata:
 
 * 将此技能与您的 SKU 细分模型、服务水平政策和规划师覆盖审计日志结合使用。
 * 将促销失误、供应商延迟和预测覆盖的事后分析存储在规划工作流旁边，以便边缘情况保持可操作性。
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

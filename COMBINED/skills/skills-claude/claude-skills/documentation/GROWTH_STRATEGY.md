@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # Growth Strategy: Skills & Agents Enhancement
 
 **Last Updated:** February 2026
@@ -1090,3 +1097,9 @@ echo "✅ Documentation check passed"
 ---
 
 **This is a living document.** Update quarterly or as needed when processes change.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

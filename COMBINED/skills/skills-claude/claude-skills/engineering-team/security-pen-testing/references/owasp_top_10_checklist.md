@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # OWASP Top 10 (2021) — Detailed Security Checklist
 
 Comprehensive reference for each OWASP Top 10 category with descriptions, test procedures, code patterns to detect, remediation steps, and CVSS scoring guidance.
@@ -438,3 +445,9 @@ response = requests.get(url)
 - **SSRF to cloud metadata (credential theft):** CVSS 9.1 — AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:N
 - **SSRF to internal service (read):** CVSS 7.5 — AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N
 - **Blind SSRF (no response data):** CVSS 5.3 — AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

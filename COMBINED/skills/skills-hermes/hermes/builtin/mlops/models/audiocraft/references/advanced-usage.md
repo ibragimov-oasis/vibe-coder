@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-hermes
+---
+
 # AudioCraft Advanced Usage Guide
 
 ## Fine-tuning MusicGen
@@ -664,3 +671,9 @@ bad_prompts = [
 
 # Structure: [mood] [genre] with [instruments] at [tempo/style]
 ```
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-hermes]] — Category: skills-hermes
+

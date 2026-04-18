@@ -41,3 +41,9 @@ Antigravity — один из оригинальных 31 репо в ULTRACAR.
 
 - [[skills/skills-copilot]] — GitHub Copilot skills
 - [[skills/skills-everything-cc]] — enterprise patterns
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Parent MOC
+- [[000 - Map of Maps]] — Map of Maps
+

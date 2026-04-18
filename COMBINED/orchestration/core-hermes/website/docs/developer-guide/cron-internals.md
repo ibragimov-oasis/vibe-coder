@@ -2,6 +2,10 @@
 sidebar_position: 11
 title: "Cron Internals"
 description: "How Hermes stores, schedules, edits, pauses, skill-loads, and delivers cron jobs"
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-hermes
 ---
 
 # Cron Internals
@@ -88,3 +92,10 @@ Hermes uses lock-based protections so overlapping scheduler ticks do not execute
 
 - [Cron feature guide](../user-guide/features/cron.md)
 - [Gateway Internals](./gateway-internals.md)
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/hermes]] — Hermes
+- [[000 - Map of Maps]] — Map of Maps
+

@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # Obsidian Web Clipper Variables
 
 **Official Docs:** [help.obsidian.md/web-clipper/variables](https://help.obsidian.md/web-clipper/variables)
@@ -62,3 +69,9 @@ Examples:
 When a variable is empty, you can supply a default value (fallback). 
 Fallbacks can be chained (try variable A, then B, then a literal default) and used with filters. 
 For syntax and evaluation order, see [logic.md](logic.md).
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

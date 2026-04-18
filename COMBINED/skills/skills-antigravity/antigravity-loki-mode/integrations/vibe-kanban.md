@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # Vibe Kanban Integration
 
 Loki Mode can optionally integrate with [Vibe Kanban](https://github.com/BloopAI/vibe-kanban) to provide a visual dashboard for monitoring autonomous execution.
@@ -192,3 +199,9 @@ If running Loki Mode on multiple projects, see all in one Vibe Kanban instance.
 - [ ] Vibe Kanban MCP server for agent communication
 - [ ] Shared agent profiles between tools
 - [ ] Unified logging dashboard
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

@@ -9,6 +9,10 @@ New Word Count: ~4,200 words
 Primary Keyword: podcast advertising
 Secondary Keywords: podcast ads, podcast sponsorships, podcast ad rates, dynamic ad insertion
 SEO Improvements: Updated stats, expanded sections, improved keyword optimization, added FAQ section
+tags:
+  - domain/seo
+  - artifact/doc
+  - source/skills-seo
 ---
 
 # Podcast Advertising: The Complete Guide for Creators [2025]
@@ -332,3 +336,9 @@ The best time to start monetizing your podcast was when you launched. The second
 ---
 
 *Last Updated: January 16, 2025*
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-seo]] — Category: skills-seo
+

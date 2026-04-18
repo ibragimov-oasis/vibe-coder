@@ -14,6 +14,9 @@ tags:
   - deno
   - dependency-injection
   - reader-task-either
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 # fp-ts Backend Patterns
@@ -1332,3 +1335,9 @@ export const myOperation = (
     )
   )
 ```
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

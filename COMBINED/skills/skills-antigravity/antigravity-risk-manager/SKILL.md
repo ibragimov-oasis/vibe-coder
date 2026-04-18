@@ -4,6 +4,10 @@ description: Monitor portfolio risk, R-multiples, and position limits. Creates h
 risk: safe
 source: community
 date_added: '2026-02-27'
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 ## Use this skill when
@@ -58,3 +62,9 @@ You are a risk manager specializing in portfolio protection and risk measurement
 - Risk dashboard template
 
 Use monte carlo simulations for stress testing. Track performance in R-multiples for objective analysis.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

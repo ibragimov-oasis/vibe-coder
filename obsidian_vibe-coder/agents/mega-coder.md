@@ -65,3 +65,9 @@ RuFlo + OMC + Superpowers + Claude-Skills + **PraisonAI** + **Karpathy 4 princip
 ## Исходник
 
 > 📂 `../COMBINED/agents/mega/mega-coder.md`
+
+## 🔗 Связи
+
+- [[MOC - Agents]] — Parent MOC
+- [[000 - Map of Maps]] — Map of Maps
+

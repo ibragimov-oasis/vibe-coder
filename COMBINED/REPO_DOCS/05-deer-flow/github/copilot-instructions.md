@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/REPO_DOCS
+---
+
 # Copilot Onboarding Instructions for DeerFlow
 
 Use this file as the default operating guide for this repository. Follow it first, and only search the codebase when this file is incomplete or incorrect.
@@ -211,3 +218,9 @@ Only do broad repo searches (`grep/find/code search`) when:
 - you need file-level implementation details not listed here,
 - a command here fails and you need updated replacement behavior,
 - or CI/workflow definitions have changed since this file was written.
+
+## 🔗 Связи
+
+- [[000 - Map of Maps]] — REPO_DOCS
+- [[000 - Map of Maps]] — Map of Maps
+

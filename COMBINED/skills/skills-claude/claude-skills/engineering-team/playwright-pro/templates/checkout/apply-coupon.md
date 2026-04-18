@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # Apply Coupon Template
 
 Tests valid coupon code, invalid code, and expired coupon handling.
@@ -121,3 +128,9 @@ test.describe('Apply Coupon', () => {
 | Expired coupon | Expiry error shown |
 | Category restriction | Coupon not applicable error |
 | Empty field | Apply button disabled |
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

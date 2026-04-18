@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-refly
+---
+
 # Auto Model & Routing
 
 ## Design Principle
@@ -340,3 +347,10 @@ Unique constraint: `(action_result_id, action_result_version)` — one routing d
 | Semantic routing | ❌ Not implemented (medium-term roadmap) |
 | ML-based routing | ❌ Not implemented (long-term roadmap) |
 | Cascade routing / retry on failure | ❌ Not implemented |
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/refly]] — Refly
+- [[000 - Map of Maps]] — Map of Maps
+

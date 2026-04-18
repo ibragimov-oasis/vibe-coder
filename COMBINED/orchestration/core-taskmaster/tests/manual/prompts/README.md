@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-taskmaster
+---
+
 # Task Master Prompt Template Testing
 
 This directory contains comprehensive testing tools for Task Master's centralized prompt template system.
@@ -252,4 +259,10 @@ This test suite should be run whenever:
 - New variants are added
 - Parameter schemas change
 - Prompt manager logic is updated
-- Before major releases 
+- Before major releases
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-taskmaster]] — core-taskmaster
+

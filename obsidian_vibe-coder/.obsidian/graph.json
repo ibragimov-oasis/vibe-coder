@@ -64,6 +64,41 @@
       }
     },
     {
+      "query": "tag:#domain/seo",
+      "color": {
+        "a": 1,
+        "rgb": 16751360
+      }
+    },
+    {
+      "query": "tag:#domain/pipeline",
+      "color": {
+        "a": 1,
+        "rgb": 16711935
+      }
+    },
+    {
+      "query": "tag:#domain/prompts",
+      "color": {
+        "a": 1,
+        "rgb": 13421772
+      }
+    },
+    {
+      "query": "tag:#artifact/skill",
+      "color": {
+        "a": 0.7,
+        "rgb": 3394764
+      }
+    },
+    {
+      "query": "tag:#artifact/mega-agent",
+      "color": {
+        "a": 1,
+        "rgb": 5614335
+      }
+    },
+    {
       "query": "tag:#artifact/moc",
       "color": {
         "a": 1,

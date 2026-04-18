@@ -3,6 +3,9 @@ name: transparent-videos
 description: Rendering transparent videos in Remotion
 metadata:
   tags: transparent, alpha, codec, vp9, prores, webm
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-archon
 ---
 
 # Rendering Transparent Videos
@@ -104,3 +107,10 @@ const calculateMetadata: CalculateMetadataFunction<Props> = async ({
   calculateMetadata={calculateMetadata}
 />;
 ```
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/archon]] — Archon
+- [[000 - Map of Maps]] — Map of Maps
+

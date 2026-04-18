@@ -3,6 +3,9 @@ title: Use Versioning for Blue-Green Deployments
 impact: LOW
 impactDescription: Enables safe deployment of new code versions alongside old ones
 tags: advanced, versioning, blue-green, deployment
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
 ---
 
 ## Use Versioning for Blue-Green Deployments
@@ -56,3 +59,9 @@ handle, _ := dbos.ForkWorkflowstring
 ```
 
 Reference: [Versioning](https://docs.dbos.dev/golang/tutorials/upgrading-workflows#versioning)
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

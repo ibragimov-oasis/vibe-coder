@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-taskmaster
+---
+
 # Phase 0: Spike - Autonomous TDD Workflow ✅ COMPLETE
 
 ## Objective
@@ -128,3 +135,10 @@ Test dry-run mode with:
 - Task without subtasks (should show warning)
 - Dirty git working tree (should warn)
 - Missing tools (should error with helpful message)
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-taskmaster]] — core-taskmaster
+- [[MOC - Skills]] — Skills library
+

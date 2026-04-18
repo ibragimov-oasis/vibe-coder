@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # Startup Metrics Framework Implementation Playbook
 
 This file contains detailed patterns, checklists, and code samples referenced by the skill.
@@ -498,3 +505,9 @@ To implement startup metrics framework:
 8. **Update investors** - Monthly/quarterly reporting
 
 For detailed definitions, benchmarks, and examples, see `references/` and `examples/`.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

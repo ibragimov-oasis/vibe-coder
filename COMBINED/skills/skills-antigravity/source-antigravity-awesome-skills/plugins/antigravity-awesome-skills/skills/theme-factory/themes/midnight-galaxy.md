@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # Midnight Galaxy
 
 A dramatic and cosmic theme with deep purples and mystical tones for impactful presentations.
@@ -17,3 +24,9 @@ A dramatic and cosmic theme with deep purples and mystical tones for impactful p
 ## Best Used For
 
 Entertainment industry, gaming presentations, nightlife venues, luxury brands, creative agencies.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

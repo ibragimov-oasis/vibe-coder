@@ -10,6 +10,10 @@ description: >
   chain risks, (7) verifying file system access stays within skill boundaries.
   Triggers: "audit this skill", "is this skill safe", "scan skill for security",
   "check skill before install", "skill security check", "skill vulnerability scan".
+tags:
+  - domain/agents
+  - artifact/skill
+  - source/skills-claude
 ---
 
 # Skill Security Auditor
@@ -169,3 +173,10 @@ For the complete threat model, detection patterns, and known attack vectors agai
 - Dependency vulnerability checks use local pattern matching, not live CVE databases
 
 When in doubt after an audit, **don't install**. Ask the skill author for clarification.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+- [[MOC - Agents]] — Claude agents
+

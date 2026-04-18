@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # Skills Best Practice
 
 ![Last Updated](https://img.shields.io/badge/Last_Updated-Apr%2011%2C%202026%206%3A08%20PM%20PKT-white?style=flat&labelColor=555) ![Version](https://img.shields.io/badge/Claude_Code-v2.1.101-blue?style=flat&labelColor=555)<br>
@@ -53,3 +60,9 @@ See also: [Official Skills Repository](https://github.com/anthropics/skills/tree
 - [Claude Code Skills — Docs](https://code.claude.com/docs/en/skills)
 - [Skills Discovery in Monorepos](../reports/claude-skills-for-larger-mono-repos.md)
 - [Claude Code CHANGELOG](https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md)
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

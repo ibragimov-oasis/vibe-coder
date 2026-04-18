@@ -4,6 +4,10 @@ description: "Master PCI DSS (Payment Card Industry Data Security Standard) comp
 risk: unknown
 source: community
 date_added: "2026-02-27"
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 # PCI Compliance
@@ -479,3 +483,9 @@ PCI_COMPLIANCE_CHECKLIST = {
 5. **No Storage**: Never store full card details
 
 By minimizing systems that touch card data, you reduce compliance burden significantly.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

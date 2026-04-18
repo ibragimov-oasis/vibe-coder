@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/config
+  - source/workspace-config
+---
+
 # Releasing
 
 This project ships as a Claude Code plugin. Releases should include compiled `dist/` output.
@@ -22,3 +29,9 @@ This project ships as a Claude Code plugin. Releases should include compiled `di
 5) Publish:
    - Push tag
    - Create GitHub release with notes from `CHANGELOG.md`
+
+## 🔗 Связи
+
+- [[MOC - System]] — workspace-config
+- [[000 - Map of Maps]] — Map of Maps
+

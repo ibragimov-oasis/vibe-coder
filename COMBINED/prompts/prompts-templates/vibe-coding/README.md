@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/prompts
+  - artifact/prompt
+  - source/prompts-templates
+---
+
 # Vibe-Coding Prompts
 
 > Prompts specifically designed for vibe-coding workflows.
@@ -25,3 +32,9 @@ These prompts are derived from `vibe-coding-prompt-template/` which provides a s
 Start with Part 1 to gather research, then proceed through Parts 2-4 to generate complete project documentation for your AI coding assistant.
 
 See `COMBINED_PROMPTS.md` for the full prompt library.
+
+## 🔗 Связи
+
+- [[MOC - Prompts]] — Prompt library
+- [[MOC - System]] — System documentation
+

@@ -1,6 +1,10 @@
 ---
 name: meeting-minutes
 description: 'Generate concise, actionable meeting minutes for internal meetings. Includes metadata, attendees, agenda, decisions, action items (owner + due date), and follow-up steps.'
+tags:
+  - domain/agents
+  - artifact/skill
+  - source/skills-copilot
 ---
 
 # Meeting Minutes Skill — Short Internal Meetings
@@ -233,3 +237,10 @@ A generated minutes document is acceptable if:
 - All significant decisions are captured with at least 1-line rationale.
 - Attachments or references are listed or explicitly marked `None`.
 - The document is factual; uncertain items are labeled `TBD`.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-copilot]] — Category: skills-copilot
+- [[MOC - Agents]] — Copilot agents
+

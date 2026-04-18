@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/seo
+  - artifact/doc
+  - source/skills-seo
+---
+
 # Landing Page Publish Command
 
 Use this command to publish landing pages to WordPress as pages (not blog posts).
@@ -249,3 +256,9 @@ If issues are found after publishing:
 # 6. Publish
 /landing-publish landing-pages/product-hosting-2025-12-11.md
 ```
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-seo]] — Category: skills-seo
+

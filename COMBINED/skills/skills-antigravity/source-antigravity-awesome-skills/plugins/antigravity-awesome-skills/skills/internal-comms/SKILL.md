@@ -5,6 +5,10 @@ risk: unknown
 source: "https://github.com/anthropics/skills"
 date_added: "2026-03-21"
 license: Complete terms in LICENSE.txt
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 ## When to use this skill
@@ -33,3 +37,9 @@ If the communication type doesn't match any existing guideline, ask for clarific
 
 ## Keywords
 3P updates, company newsletter, company comms, weekly update, faqs, common questions, updates, internal comms
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # Animation Patterns Reference
 
 Use this reference when generating presentations. Match animations to the intended feeling.
@@ -108,3 +115,9 @@ class TiltEffect {
 | Scroll snap not working | Ensure `scroll-snap-type: y mandatory` on html; each slide needs `scroll-snap-align: start` |
 | Mobile issues | Disable heavy effects at 768px breakpoint; test touch events; reduce particle count |
 | Performance issues | Use `will-change` sparingly; prefer `transform`/`opacity` animations; throttle scroll handlers |
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

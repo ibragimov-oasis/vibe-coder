@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
+---
+
 # 更新程式碼地圖
 
 分析程式碼庫結構並更新架構文件：
@@ -15,3 +22,9 @@
 6. 將報告儲存到 .reports/codemap-diff.txt
 
 使用 TypeScript/Node.js 進行分析。專注於高階結構，而非實作細節。
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

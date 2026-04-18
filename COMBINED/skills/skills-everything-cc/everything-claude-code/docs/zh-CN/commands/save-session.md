@@ -1,5 +1,9 @@
 ---
 description: 将当前会话状态保存到 ~/.claude/sessions/ 目录下带日期的文件中，以便在未来的会话中恢复完整上下文并继续工作。
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
 ---
 
 # 保存会话命令
@@ -250,3 +254,9 @@ mkdir -p ~/.claude/sessions
 * 该文件旨在通过 `/resume-session` 在下次会话开始时由 Claude 读取
 * 使用规范的全局会话存储：`~/.claude/sessions/`
 * 对于任何新的会话文件，首选短 ID 文件名形式（`YYYY-MM-DD-<short-id>-session.tmp`）
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

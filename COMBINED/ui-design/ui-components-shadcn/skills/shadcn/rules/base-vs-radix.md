@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/ui
+  - artifact/ui-component
+  - source/ui-design
+---
+
 # Base vs Radix
 
 API differences between `base` and `radix`. Check the `base` field from `npx shadcn@latest info`.
@@ -304,3 +311,9 @@ Radix requires `type="single"` or `type="multiple"` and supports `collapsible`. 
   <AccordionItem value="item-1">...</AccordionItem>
 </Accordion>
 ```
+
+## 🔗 Связи
+
+- [[MOC - UI Design]] — ui-design
+- [[000 - Map of Maps]] — Map of Maps
+

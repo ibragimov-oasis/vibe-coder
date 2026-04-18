@@ -4,6 +4,10 @@ description: "Expert in vector databases, embedding strategies, and semantic sea
 risk: unknown
 source: community
 date_added: "2026-02-27"
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 # Vector Database Engineer
@@ -61,3 +65,9 @@ Expert in vector databases, embedding strategies, and semantic search implementa
 - Plan for index rebuilding
 - Cache frequent queries
 - Test recall vs latency tradeoffs
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

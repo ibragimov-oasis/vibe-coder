@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/agent
+  - source/agents-ruflo
+---
+
 # .agents Directory
 
 This directory contains agent configuration and skills for OpenAI Codex CLI.
@@ -36,3 +43,9 @@ Skills are invoked using `$skill-name` syntax. Each skill has:
 - Main instructions: `AGENTS.md` (project root)
 - Local overrides: `.codex/AGENTS.override.md` (gitignored)
 - Claude Flow: https://github.com/ruvnet/claude-flow
+
+## 🔗 Связи
+
+- [[MOC - Agents]] — Agent catalog
+- [[MOC - Skills]] — Skills library
+

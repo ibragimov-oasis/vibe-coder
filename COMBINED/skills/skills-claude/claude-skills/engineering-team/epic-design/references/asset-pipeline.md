@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # Asset Pipeline Reference
 
 Every image asset must be inspected and judged before use in any 2.5D site.
@@ -133,3 +140,9 @@ Whether the image came in clean or had its background resolved, always apply:
   background-color        → makes the bounding box visible
 */
 ```
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

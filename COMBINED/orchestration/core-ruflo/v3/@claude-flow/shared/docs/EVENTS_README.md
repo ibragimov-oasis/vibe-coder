@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # Event Store Persistence (ADR-007)
 
 Complete event sourcing implementation for V3 Claude Flow with persistent storage, projections, and event replay.
@@ -350,3 +357,10 @@ When adding new domain events:
 ## License
 
 Part of claude-flow V3 - See root LICENSE file.
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

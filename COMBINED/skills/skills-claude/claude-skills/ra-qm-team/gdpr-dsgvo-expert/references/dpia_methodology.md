@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # DPIA Methodology
 
 Data Protection Impact Assessment process, criteria, and checklists following GDPR Article 35 and WP29 guidelines.
@@ -410,3 +417,9 @@ Review DPIA when:
 - [ ] Schedule review date
 - [ ] Monitor effectiveness of measures
 - [ ] Document any changes to processing
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

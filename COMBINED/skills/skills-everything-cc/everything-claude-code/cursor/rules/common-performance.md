@@ -1,6 +1,10 @@
 ---
 description: "Performance: model selection, context management, build troubleshooting"
 alwaysApply: true
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
 ---
 # Performance Optimization
 
@@ -57,3 +61,9 @@ If build fails:
 2. Analyze error messages
 3. Fix incrementally
 4. Verify after each fix
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

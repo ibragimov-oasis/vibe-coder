@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/seo
+  - artifact/doc
+  - source/skills-seo
+---
+
 # DataForSEO Account Setup
 
 Step-by-step guide to getting DataForSEO API credentials for the Claude SEO extension.
@@ -72,3 +79,9 @@ After installing, start Claude Code and run:
 ```
 
 If you see search results, the extension is working correctly.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-seo]] — Category: skills-seo
+

@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/ui
+  - artifact/ui-component
+  - source/ui-design
+---
+
 # Prompt Engineering Techniques
 
 ## Psychological Pattern Matching
@@ -50,3 +57,9 @@ The prompt requires the model to:
 1. Define what excellence looks like for the given task
 2. Grade its own initial output against that definition
 3. Iterate until the self-defined quality bar is met
+
+## 🔗 Связи
+
+- [[MOC - UI Design]] — ui-design
+- [[000 - Map of Maps]] — Map of Maps
+

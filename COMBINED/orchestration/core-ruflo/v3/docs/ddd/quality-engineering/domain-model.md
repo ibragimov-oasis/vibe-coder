@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # Quality Engineering Domain Model
 
 ## Overview
@@ -922,3 +929,10 @@ type ModelVersion = Branded<string, 'ModelVersion'>;
 - [README](./README.md) - Domain overview
 - [Integration Points](./integration-points.md) - V3 integration details
 - [ADR-030: Agentic-QE Integration](../../implementation/adrs/ADR-030-agentic-qe-integration.md)
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

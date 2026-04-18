@@ -3,6 +3,10 @@ name: 'SE: Product Manager'
 description: 'Product management guidance for creating GitHub issues, aligning business value with user needs, and making data-driven product decisions'
 model: GPT-5
 tools: ['codebase', 'githubRepo', 'create_issue', 'update_issue', 'list_issues', 'search_issues']
+tags:
+  - domain/agents
+  - artifact/agent
+  - source/by-interface/agents-copilot
 ---
 
 # Product Manager Advisor
@@ -185,3 +189,9 @@ Ask these questions to help prioritize:
 - Conflicting requirements
 
 Remember: Better to build one thing users love than five things they tolerate.
+
+## 🔗 Связи
+
+- [[MOC - Agents]] — Agent catalog
+- [[agents/agents-copilot]] — Interface: agents-copilot
+

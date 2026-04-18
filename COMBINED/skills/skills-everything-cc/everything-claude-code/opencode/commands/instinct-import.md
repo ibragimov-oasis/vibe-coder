@@ -1,6 +1,10 @@
 ---
 description: Import instincts from external sources
 agent: build
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
 ---
 
 # Instinct Import Command
@@ -86,3 +90,9 @@ When importing duplicates:
 ---
 
 **TIP**: Review imported instincts with `/instinct-status` after import.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

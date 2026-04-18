@@ -1,6 +1,10 @@
 ---
 title: "M&A Playbook — Agent Skill for Executives"
 description: "M&A strategy for acquiring companies or being acquired. Due diligence, valuation, integration, and deal structure. Use when evaluating acquisitions. Agent skill for Claude Code, Codex CLI, Gemini CLI, OpenClaw."
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
 ---
 
 # M&A Playbook
@@ -100,3 +104,9 @@ See `references/integration-playbook.md` for the 100-day integration plan.
 ## Resources
 - `references/integration-playbook.md` — 100-day post-acquisition integration plan
 - `references/due-diligence-checklist.md` — comprehensive DD checklist by domain
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

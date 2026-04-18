@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-cc-connect
+---
+
 # cc-connect Management API Specification
 
 > **Version:** 1.1-draft  
@@ -1183,3 +1190,10 @@ If not configured, CORS may be disabled or use a default (e.g. `*` for same-orig
 - [Bridge Protocol](bridge-protocol.md) — WebSocket protocol for external platform adapters
 - [Usage Guide](usage.md) — End-user features and slash commands
 - [config.example.toml](../config.example.toml) — Configuration template
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-cc-connect]] — core-cc-connect
+- [[MOC - Skills]] — Skills library
+

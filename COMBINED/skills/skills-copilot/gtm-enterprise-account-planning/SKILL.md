@@ -5,6 +5,10 @@ license: MIT
 metadata:
   author: Smit Patel (https://linkedin.com/in/smitkpatel)
   source: https://github.com/beingsmit/technical-product-gtm
+tags:
+  - domain/agents
+  - artifact/skill
+  - source/skills-copilot
 ---
 
 # Enterprise Account Planning
@@ -427,3 +431,10 @@ Have you met the Economic Buyer?
 ---
 
 *Based on enterprise sales at a platform company during hypergrowth, with patterns from closing strategic accounts, navigating complex procurement processes, and learning the hard way that stale MAPs = dead deals. Not theory — lessons from watching deals die because we didn't track health metrics and closing deals because we validated EB alignment early.*
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-copilot]] — Category: skills-copilot
+- [[MOC - Agents]] — Copilot agents
+

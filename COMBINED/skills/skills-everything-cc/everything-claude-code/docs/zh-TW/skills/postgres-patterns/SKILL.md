@@ -1,6 +1,10 @@
 ---
 name: postgres-patterns
 description: PostgreSQL database patterns for query optimization, schema design, indexing, and security. Based on Supabase best practices.
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-everything-cc
 ---
 
 # PostgreSQL 模式
@@ -144,3 +148,9 @@ SELECT pg_reload_conf();
 ---
 
 *基於 [Supabase Agent Skills](Supabase Agent Skills (credit: Supabase team))（MIT 授權）*
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

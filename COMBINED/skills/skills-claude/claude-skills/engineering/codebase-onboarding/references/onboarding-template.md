@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # Onboarding Document Template
 
 ## README.md - Full Template
@@ -184,3 +191,9 @@ pnpm db:migrate
 - Include executable verification checks after each setup phase.
 - Prefer links to canonical docs instead of duplicating long content.
 - Update this template when stack conventions or tooling change.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

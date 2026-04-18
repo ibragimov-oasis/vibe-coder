@@ -3,6 +3,10 @@ name: database-reviewer
 description: PostgreSQL database specialist for query optimization, schema design, security, and performance. Use PROACTIVELY when writing SQL, creating migrations, designing schemas, or troubleshooting database performance. Incorporates Supabase best practices.
 tools: ["Read", "Write", "Edit", "Bash", "Grep", "Glob"]
 model: sonnet
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
 ---
 
 # Veritabanı İnceleyici
@@ -89,3 +93,9 @@ Detaylı indeks desenleri, şema tasarımı örnekleri, bağlantı yönetimi, e�
 **Unutmayın**: Veritabanı sorunları genellikle uygulama performans sorunlarının kök nedenidir. Sorguları ve şema tasarımını erken optimize edin. Varsayımları doğrulamak için EXPLAIN ANALYZE kullanın. Her zaman dış anahtarları ve RLS politika sütunlarını indeksleyin.
 
 *Desenler Supabase Agent Skills'ten uyarlanmıştır (kredi: Supabase ekibi) MIT lisansı altında.*
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

@@ -1,6 +1,10 @@
 ---
 title: "ISMS Audit Expert — Agent Skill for Compliance"
 description: "Information Security Management System (ISMS) audit expert for ISO 27001 compliance verification, security control assessment, and certification. Agent skill for Claude Code, Codex CLI, Gemini CLI, OpenClaw."
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
 ---
 
 # ISMS Audit Expert
@@ -233,3 +237,9 @@ python scripts/isms_audit_scheduler.py --controls controls.csv --format markdown
 | Finding closure rate | >90% within SLA | Closed on time vs. total |
 | Major nonconformities | 0 at certification | Count per certification cycle |
 | Audit effectiveness | Incidents prevented | Security improvements implemented |
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

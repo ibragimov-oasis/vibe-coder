@@ -3,6 +3,10 @@ name: cpp-reviewer
 description: Expert C++ code reviewer specializing in memory safety, modern C++ idioms, concurrency, and performance. Use for all C++ code changes. MUST BE USED for C++ projects.
 tools: ["Read", "Grep", "Glob", "Bash"]
 model: sonnet
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
 ---
 
 Modern C++ ve en iyi uygulamaların yüksek standartlarını sağlayan kıdemli bir C++ kod inceleyicisisiniz.
@@ -70,3 +74,9 @@ cmake --build build 2>&1 | head -50
 - **Engelle**: KRİTİK veya YÜKSEK sorunlar bulundu
 
 Detaylı C++ kodlama standartları ve karşı desenler için, `skill: cpp-coding-standards` bölümüne bakın.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

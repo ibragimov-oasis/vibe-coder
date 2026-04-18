@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-squad
+---
+
 # SDK Init — Deep Technical Analysis
 
 **By:** CAPCOM (SDK Expert)  
@@ -632,3 +639,10 @@ agents: [
 ---
 
 **End of Technical Analysis**
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-squad]] — core-squad
+- [[MOC - Skills]] — Skills library
+

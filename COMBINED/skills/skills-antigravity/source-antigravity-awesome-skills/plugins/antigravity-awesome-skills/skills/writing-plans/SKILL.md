@@ -4,6 +4,10 @@ description: "Use when you have a spec or requirements for a multi-step task, be
 risk: critical
 source: community
 date_added: "2026-02-27"
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 # Writing Plans
@@ -120,3 +124,9 @@ After saving the plan, offer execution choice:
 
 ## When to Use
 This skill is applicable to execute the workflow or actions described in the overview.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

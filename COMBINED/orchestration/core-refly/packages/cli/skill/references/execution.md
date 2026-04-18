@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-refly
+---
+
 # Skill Execution Reference
 
 ## Quick Reference
@@ -216,3 +223,10 @@ refly skill installations
 3. **No fabricated IDs** - Never invent workflow/run/node IDs
 4. **Stop on error** - If `ok=false`, stop and show `hint`
 5. **Use correct IDs** - `skpi-xxx` for run, `we-xxx` for workflow commands
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/refly]] — Refly
+- [[000 - Map of Maps]] — Map of Maps
+

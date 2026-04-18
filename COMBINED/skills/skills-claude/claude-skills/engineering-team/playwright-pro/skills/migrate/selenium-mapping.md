@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # Selenium → Playwright Mapping
 
 ## Driver Setup
@@ -92,3 +99,9 @@
 3. **Built-in assertions** — `expect(locator)` with auto-retry
 4. **Parallel by default** — tests run in parallel, must be isolated
 5. **Traces instead of screenshots** — richer debugging artifacts
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

@@ -4,6 +4,10 @@ type: docs
 weight: 1
 description: >
   How to connect to Toolbox from a MCP Client.
+tags:
+  - domain/mcp
+  - artifact/mcp-server
+  - source/mcp-servers
 ---
 
 ## Toolbox SDKs vs Model Context Protocol (MCP)
@@ -177,3 +181,9 @@ testing and debugging Toolbox server.
 | Cursor             | ✅         | <https://docs.cursor.com/context/model-context-protocol>                        |
 | Windsurf           | ✅         | <https://docs.windsurf.com/windsurf/cascade/mcp#model-context-protocol-mcp>     |
 | VS Code (Insiders) | ✅         | <https://code.visualstudio.com/docs/copilot/chat/mcp-servers>                   |
+
+## 🔗 Связи
+
+- [[MOC - MCP Servers]] — mcp-servers
+- [[000 - Map of Maps]] — Map of Maps
+

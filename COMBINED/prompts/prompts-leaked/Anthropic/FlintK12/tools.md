@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/prompts
+  - artifact/prompt
+  - source/prompts-leaked
+---
+
 # Complete Tool Reference for Sparky
 
 ## Overview
@@ -626,3 +633,9 @@ Find all activities in a class to see what assignments are available.
 - **Memories:** Always use create_memory when user asks to remember something
 - **Activities:** Call suggest_activity in the SAME response as presenting the activity design
 - **Help Center:** Check help center before making assumptions about Flint features
+
+## 🔗 Связи
+
+- [[MOC - Prompts]] — Prompt library
+- [[MOC - System]] — System documentation
+

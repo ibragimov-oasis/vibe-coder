@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # SPARC Swarm Coordinator Mode
 
 ## Purpose
@@ -52,3 +59,10 @@ npx claude-flow@alpha sparc run swarm-coordinator "manage development swarm"
 - Failure recovery
 - Performance monitoring
 - Quality assurance
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

@@ -1,6 +1,10 @@
 ---
 title: "Referral Program — Agent Skill for Marketing"
 description: "When the user wants to design, launch, or optimize a referral or affiliate program. Use when they mention 'referral program,' 'affiliate program,'. Agent skill for Claude Code, Codex CLI, Gemini CLI, OpenClaw."
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
 ---
 
 # Referral Program
@@ -289,3 +293,9 @@ All output follows the structured communication standard:
 - **marketing-demand-acquisition**: Use for multi-channel paid and organic acquisition strategy. NOT for referral-specific mechanics.
 - **ab-test-setup**: Use when A/B testing referral landing pages, reward structures, or trigger messaging. NOT for the program design.
 - **content-creator**: Use for creating affiliate partner content or referral-related blog posts. NOT for program mechanics.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

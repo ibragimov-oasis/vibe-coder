@@ -8,6 +8,9 @@ date_added: "2026-03-09"
 author: kennyzheng-builds
 tags: [video, ai, memories, social-media, youtube, tiktok, analysis]
 tools: [claude, cursor, gemini]
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 ## When to Use
@@ -96,3 +99,9 @@ Agent: uploads recording -> waits -> gets transcript -> uses chat_video for stru
 
 - Video analysis tools for one-shot analysis
 - Web search skills for non-video content research
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

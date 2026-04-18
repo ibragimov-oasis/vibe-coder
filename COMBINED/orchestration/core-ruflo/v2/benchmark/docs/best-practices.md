@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # Best Practices Guide
 
 A comprehensive guide to best practices for swarm benchmarking, optimization, and performance tuning.

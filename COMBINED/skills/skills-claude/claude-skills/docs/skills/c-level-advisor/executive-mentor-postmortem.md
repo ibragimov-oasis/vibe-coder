@@ -1,6 +1,10 @@
 ---
 title: "/em:postmortem — Honest Analysis of What Went Wrong — Agent Skill for Executives"
 description: "/em -postmortem — Honest Analysis of What Went Wrong. Agent skill for Claude Code, Codex CLI, Gemini CLI, OpenClaw."
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
 ---
 
 # /em:postmortem — Honest Analysis of What Went Wrong
@@ -202,3 +206,9 @@ The goal isn't to establish that someone made a mistake. The goal is to understa
 The first version fires or shames someone. The second version builds a more resilient organization.
 
 Both might be true simultaneously. The distinction is: which one actually prevents recurrence?
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

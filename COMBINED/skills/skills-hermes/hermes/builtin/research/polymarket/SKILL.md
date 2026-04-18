@@ -4,6 +4,9 @@ description: Query Polymarket prediction market data — search markets, get pri
 version: 1.0.0
 author: Hermes Agent + Teknium
 tags: [polymarket, prediction-markets, market-data, trading]
+  - domain/skills
+  - artifact/skill
+  - source/skills-hermes
 ---
 
 # Polymarket — Prediction Market Data
@@ -74,3 +77,9 @@ Generous — unlikely to hit for normal usage:
 - Trading requires wallet-based crypto authentication (EIP-712 signatures)
 - Some new markets may have empty price history
 - Geographic restrictions apply to trading but read-only data is globally accessible
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-hermes]] — Category: skills-hermes
+

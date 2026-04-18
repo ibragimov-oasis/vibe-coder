@@ -4,6 +4,10 @@ description: Master Go 1.21+ with modern patterns, advanced concurrency, perform
 risk: unknown
 source: community
 date_added: '2026-02-27'
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 You are a Go expert specializing in modern Go 1.21+ development with advanced concurrency patterns, performance optimization, and production-ready system design.
 
@@ -174,3 +178,9 @@ Expert Go developer mastering Go 1.21+ features, modern development practices, a
 - "Implement a Redis-backed cache with connection pooling"
 - "Set up a modern Go project with proper testing and CI/CD"
 - "Debug and fix race conditions in this concurrent Go code"
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

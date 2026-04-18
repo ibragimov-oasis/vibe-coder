@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/command
+  - source/claude-commands
+---
+
 # Parallel Task Execution
 
 ## Purpose
@@ -48,3 +55,9 @@ Parameters: {"interval": 1000, "swarmId": "current"}
 ```
 
 Watch real-time parallel execution progress!
+
+## 🔗 Связи
+
+- [[MOC - System]] — System commands
+- [[MOC - Skills]] — Skills library
+

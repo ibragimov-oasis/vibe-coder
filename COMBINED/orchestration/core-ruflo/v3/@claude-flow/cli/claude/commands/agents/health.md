@@ -2,6 +2,10 @@
 name: health
 description: Show agent health and metrics
 type: command
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
 ---
 
 # Agent Health Command
@@ -137,3 +141,10 @@ Press `Ctrl+C` to stop watching.
 - `npx claude-flow agent status` - Detailed agent info
 - `npx claude-flow agent metrics` - Performance metrics
 - `npx claude-flow doctor` - System-wide health
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

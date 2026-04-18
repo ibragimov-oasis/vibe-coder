@@ -3,6 +3,9 @@ title: Use Durable Sleep for Delayed Execution
 impact: MEDIUM
 impactDescription: Survives restarts and can span days or weeks
 tags: sleep, delay, schedule, durable
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
 ---
 
 ## Use Durable Sleep for Delayed Execution
@@ -56,3 +59,9 @@ async def async_delayed_task():
 ```
 
 Reference: [Durable Sleep](https://docs.dbos.dev/python/tutorials/workflow-tutorial#durable-sleep)
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

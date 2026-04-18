@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # Local Skills Configuration
 
 > **Current Status**: All 96 skills are available in the repository.  
@@ -150,3 +157,9 @@ Miscellaneous:
 **Recommended Skills**: 35 high-priority  
 **Total Available**: 96 skills + 4 symlinks = 100 total  
 **Recent Additions to Recommendations**: `senior-fullstack`, `concise-planning`, `address-github-comments`, `javascript-mastery`, `workflow-automation`, `llm-app-patterns`, `autonomous-agent-patterns`, `prompt-library`
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

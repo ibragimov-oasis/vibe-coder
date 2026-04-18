@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/command
+  - source/claude-commands
+---
+
 # Automatic Topology Selection
 
 ## Purpose
@@ -60,3 +67,9 @@ Parameters: {"swarmId": "current"}
 # Auto-optimize topology via CLI
 npx claude-flow optimize topology
 ```
+
+## 🔗 Связи
+
+- [[MOC - System]] — System commands
+- [[MOC - Skills]] — Skills library
+

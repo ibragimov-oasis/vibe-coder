@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-squad
+---
+
 # Upgrading Squad
 
 Update Squad-owned files to the latest version without touching your team state.
@@ -153,3 +160,10 @@ No changes to `.ai-team/` — the diff is limited to Squad-owned files.
 - **Upgrade is safe.** It only overwrites files that Squad owns. Your team state is never modified.
 - **Don't customize `squad.agent.md`.** Any changes you make will be overwritten on the next upgrade. If you need custom behavior, use directives in `decisions.md` instead.
 - **Re-running upgrade is harmless.** If you're not sure whether an upgrade completed, run it again. It's idempotent.
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/squad]] — Squad
+- [[000 - Map of Maps]] — Map of Maps
+

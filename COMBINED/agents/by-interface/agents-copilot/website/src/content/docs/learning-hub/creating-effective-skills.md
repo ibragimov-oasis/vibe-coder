@@ -14,6 +14,9 @@ relatedArticles:
   - ./defining-custom-instructions.md
 prerequisites:
   - Basic understanding of GitHub Copilot chat
+  - domain/agents
+  - artifact/agent
+  - source/by-interface/agents-copilot
 ---
 
 Skills are self-contained folders that package reusable capabilities—instructions, reference files, templates, and scripts—into a single unit that agents can discover automatically and users can invoke via slash commands. They enable teams to standardize common workflows like generating tests, reviewing code, or creating documentation, ensuring consistent, high-quality results across all team members.
@@ -401,3 +404,9 @@ Now that you understand effective skills, you can:
 3. Choosing the Right Customization _(coming soon)_ — Decision guidance
 
 ---
+
+## 🔗 Связи
+
+- [[MOC - Agents]] — Agent catalog
+- [[agents/agents-copilot]] — Interface: agents-copilot
+

@@ -1,6 +1,10 @@
 ---
 name: agent-data-ml-model
 description: Agent skill for data-ml-model - invoke with $agent-data-ml-model
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-ruflo
 ---
 
 ---
@@ -196,3 +200,9 @@ score = pipeline.score(X_test, y_test)
 - Log all experiments and parameters
 - Version control models and data
 - Document model assumptions and limitations
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-ruflo]] — Category: skills-ruflo
+

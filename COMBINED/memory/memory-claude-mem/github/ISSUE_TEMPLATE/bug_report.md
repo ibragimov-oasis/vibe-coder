@@ -4,7 +4,10 @@ about: Use the automated bug report tool for best results
 title: ''
 labels: 'bug, needs-triage'
 assignees: ''
-
+tags:
+  - domain/memory
+  - artifact/memory
+  - source/memory
 ---
 
 ## Before submitting
@@ -72,3 +75,9 @@ Please paste relevant log entries (last 50 lines or error messages):
 
 ### Additional Context
 Any other context about the problem.
+
+## 🔗 Связи
+
+- [[MOC - Memory]] — memory
+- [[000 - Map of Maps]] — Map of Maps
+

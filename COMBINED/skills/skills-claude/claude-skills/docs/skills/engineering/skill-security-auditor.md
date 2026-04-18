@@ -1,6 +1,10 @@
 ---
 title: "Skill Security Auditor — Agent Skill for Codex & OpenClaw"
 description: "Security audit and vulnerability scanner for AI agent skills before installation. Use when: (1) evaluating a skill from an untrusted source, (2)."
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
 ---
 
 # Skill Security Auditor
@@ -171,3 +175,9 @@ For the complete threat model, detection patterns, and known attack vectors agai
 - Dependency vulnerability checks use local pattern matching, not live CVE databases
 
 When in doubt after an audit, **don't install**. Ask the skill author for clarification.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

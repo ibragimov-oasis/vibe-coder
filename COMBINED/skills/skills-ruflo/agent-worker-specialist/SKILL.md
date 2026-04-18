@@ -1,6 +1,10 @@
 ---
 name: agent-worker-specialist
 description: Agent skill for worker-specialist - invoke with $agent-worker-specialist
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-ruflo
 ---
 
 ---
@@ -220,3 +224,9 @@ mcp__claude-flow__memory_usage {
   })
 }
 ```
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-ruflo]] — Category: skills-ruflo
+

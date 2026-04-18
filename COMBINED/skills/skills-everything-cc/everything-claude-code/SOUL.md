@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
+---
+
 # Soul
 
 ## Core Identity
@@ -15,3 +22,9 @@ ECC is designed so specialists are invoked proactively: planners for implementat
 
 ## Cross-Harness Vision
 This gitagent surface is an initial portability layer for ECC's shared identity, governance, and skill catalog. Native agents, commands, and hooks remain authoritative in the repository until full manifest coverage is added.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

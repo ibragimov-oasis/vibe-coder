@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-hermes
+---
+
 # DSPy Real-World Examples
 
 Practical examples of building production systems with DSPy.
@@ -661,3 +668,9 @@ response = loaded_bot(message="I can't log in")
 - **Documentation**: https://dspy.ai
 - **Examples Repo**: https://github.com/stanfordnlp/dspy/tree/main/examples
 - **Discord**: https://discord.gg/XCGy2WDCQB
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-hermes]] — Category: skills-hermes
+

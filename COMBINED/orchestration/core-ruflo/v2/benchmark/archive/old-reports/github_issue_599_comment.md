@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # Agent 3 Validation Report - Issue #599
 
 ## ✅ VALIDATION COMPLETE - SUCCESS
@@ -52,3 +59,10 @@ The reorganized codebase is fully functional and ready for use. Minor issues can
 
 ---
 **Agent 3 - Test Validator** | Issue #599 Validation Complete
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

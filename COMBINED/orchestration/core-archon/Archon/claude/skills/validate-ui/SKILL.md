@@ -12,6 +12,10 @@ description: |
 argument-hint: "[focus-area]"
 disable-model-invocation: true
 allowed-tools: Bash, Read, Grep, Glob, Edit, Write, Task
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-archon
 ---
 
 # Archon Web UI — Comprehensive E2E Validation
@@ -659,3 +663,10 @@ Specifically evaluate:
 - For SSE testing, use `agent-browser eval` to check EventSource state
 - Remember: WSL2 headless mode works fine — no display server needed
 - Close the browser session when done: `agent-browser close`
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/archon]] — Archon
+- [[000 - Map of Maps]] — Map of Maps
+

@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # Tier Requirements Matrix
 
 **Version**: 1.0.0  
@@ -373,3 +380,9 @@ except Exception as e:
 - **Removal**: Critical violations or abandonment
 
 This tier requirements matrix serves as the definitive guide for skill classification and quality standards within the claude-skills ecosystem. Regular updates ensure alignment with evolving best practices and community needs.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

@@ -2,6 +2,10 @@
 name: seo-audit
 version: 1.0.0
 description: When the user wants to audit, review, or diagnose SEO issues on their site. Also use when the user mentions "SEO audit," "technical SEO," "why am I not ranking," "SEO issues," "on-page SEO," "meta tags review," or "SEO health check." For building pages at scale to target keywords, see programmatic-seo. For adding structured data, see schema-markup.
+tags:
+  - domain/seo
+  - artifact/skill
+  - source/skills-seo
 ---
 
 # SEO Audit
@@ -392,3 +396,9 @@ Same format as above
 - **schema-markup**: For implementing structured data
 - **page-cro**: For optimizing pages for conversion (not just ranking)
 - **analytics-tracking**: For measuring SEO performance
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-seo]] — Category: skills-seo
+

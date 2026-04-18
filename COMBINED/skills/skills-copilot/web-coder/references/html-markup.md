@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-copilot
+---
+
 # HTML & Markup Reference
 
 Comprehensive reference for HTML5, markup languages, and document structure.
@@ -385,3 +392,9 @@ Elements that don't start on a new line and only take up as much width as necess
 - [W3C HTML Specification](https://html.spec.whatwg.org/)
 - [HTML5 Doctor](http://html5doctor.com/)
 - [W3C Markup Validation Service](https://validator.w3.org/)
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-copilot]] — Category: skills-copilot
+

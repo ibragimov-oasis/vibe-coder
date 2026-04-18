@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-taskmaster
+---
+
 Set a task's status to review.
 
 Arguments: $ARGUMENTS (task ID)
@@ -38,3 +45,10 @@ When setting to review:
    - Track review duration
    - Suggest reviewers based on expertise
    - Prepare rollback plan if needed
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/task-master]] — Task-Master
+- [[000 - Map of Maps]] — Map of Maps
+

@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-awesome-claude
+---
+
 # Documentation Update Command: Update Implementation Documentation
 
 ## Documentation Analysis
@@ -86,3 +93,9 @@ Provide a summary of documentation updates after completion, including:
 3. Updated completion percentages
 4. New best practices documented
 5. Status of the overall project after this phase
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-awesome-claude]] — Category: skills-awesome-claude
+

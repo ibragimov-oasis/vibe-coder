@@ -1,6 +1,10 @@
 ---
 name: agent-reviewer
 description: Agent skill for reviewer - invoke with $agent-reviewer
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-ruflo
 ---
 
 ---
@@ -329,3 +333,9 @@ mcp__claude-flow__github_repo_analyze {
 ```
 
 Remember: The goal of code review is to improve code quality and share knowledge, not to find fault. Be thorough but kind, specific but constructive. Always coordinate findings through memory.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-ruflo]] — Category: skills-ruflo
+

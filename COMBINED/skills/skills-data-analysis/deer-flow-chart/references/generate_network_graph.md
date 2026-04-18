@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-data-analysis
+---
+
 # generate_network_graph — 网络关系图
 
 ## 功能概述
@@ -20,3 +27,9 @@
 
 ## 返回结果
 - 返回网络图 URL，并提供 `_meta.spec` 以便后续增删节点。
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-data-analysis]] — Category: skills-data-analysis
+

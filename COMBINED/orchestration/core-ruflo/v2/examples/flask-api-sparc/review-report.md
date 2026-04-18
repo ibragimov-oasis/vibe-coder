@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # Code Review Report
 
 ## Code Quality
@@ -38,3 +45,10 @@
 - Implement request logging
 - Add performance monitoring
 - Consider using a CDN for static assets
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

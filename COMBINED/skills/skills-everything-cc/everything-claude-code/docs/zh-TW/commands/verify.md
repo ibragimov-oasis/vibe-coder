@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
+---
+
 # 驗證指令
 
 對目前程式碼庫狀態執行全面驗證。
@@ -57,3 +64,9 @@ $ARGUMENTS 可以是：
 - `full` - 所有檢查（預設）
 - `pre-commit` - 與提交相關的檢查
 - `pre-pr` - 完整檢查加上安全性掃描
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

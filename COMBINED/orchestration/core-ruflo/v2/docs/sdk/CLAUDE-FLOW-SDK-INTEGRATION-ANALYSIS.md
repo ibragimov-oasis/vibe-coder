@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # Claude-Flow and Claude Agent SDK Integration Analysis
 
 ## Executive Summary
@@ -240,3 +247,10 @@ Claude-Flow has successfully pioneered concepts now adopted by Claude Agent SDK.
 4. **Marketing**: "From Single Agent to Swarm Intelligence"
 
 This evolution validates your original vision while ensuring Claude-Flow remains at the cutting edge of AI agent orchestration.
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

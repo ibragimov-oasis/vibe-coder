@@ -13,6 +13,10 @@ tools:
   - editFiles
   - createFile
   - createDirectory
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-archon
 ---
 
 # Code Review
@@ -209,3 +213,10 @@ gh pr review {NUMBER} --comment --body-file .agents/reviews/pr-{NUMBER}-review.m
 
 `.agents/reviews/{scope-name}-review.md`
 ```
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/archon]] — Archon
+- [[000 - Map of Maps]] — Map of Maps
+

@@ -3,6 +3,10 @@ name: build-error-resolver
 description: Especialista em resolução de erros de build e TypeScript. Use PROATIVAMENTE quando o build falhar ou ocorrerem erros de tipo. Corrige erros de build/tipo apenas com diffs mínimos, sem edições arquiteturais. Foca em deixar o build verde rapidamente.
 tools: ["Read", "Write", "Edit", "Bash", "Grep", "Glob"]
 model: sonnet
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
 ---
 
 # Resolvedor de Erros de Build
@@ -78,3 +82,9 @@ Para cada erro:
 |-------|----------|------|
 | CRÍTICO | Build completamente quebrado, sem servidor de dev | Corrigir imediatamente |
 | ALTO | Arquivo único falhando, erros de tipo em código novo | Corrigir em breve |
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

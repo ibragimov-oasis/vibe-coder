@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # ADR-022: AIDEFENCE (AIMDS) Integration
 
 ## Status
@@ -745,3 +752,10 @@ v3/@claude-flow/aidefence/
 - [ADR-012: MCP Security Features](./ADR-012-mcp-security-features.md)
 - [AIDEFEND Framework (HelpNetSecurity)](https://www.helpnetsecurity.com/2025/09/01/aidefend-free-ai-defense-framework/)
 - [OWASP LLM Top 10](https://owasp.org/www-project-top-10-for-large-language-model-applications/)
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

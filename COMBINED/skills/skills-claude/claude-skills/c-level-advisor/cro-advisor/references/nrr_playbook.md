@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # NRR Playbook
 
 Net Revenue Retention is the single most important metric for a SaaS company's health and valuation. A company with 120% NRR grows even if it closes zero new deals. A company with 80% NRR is filling a bucket with a hole in it.
@@ -378,3 +385,9 @@ Day -45: Renewal proposal sent with expansion option
 Day -30: Follow-up on any open objections or requirements
 Day -14: Final confirm or escalate to VP Sales
 ```
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

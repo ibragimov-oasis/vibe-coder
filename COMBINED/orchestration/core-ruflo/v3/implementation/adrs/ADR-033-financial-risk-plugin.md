@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # ADR-033: Financial Risk Analysis Plugin
 
 **Status:** Proposed
@@ -441,3 +448,10 @@ interface RiskCalculationProof {
 ---
 
 **Last Updated:** 2026-01-24
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

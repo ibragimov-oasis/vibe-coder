@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/mcp
+  - artifact/mcp-server
+  - source/mcp-servers
+---
+
 ## Summary
 
 <!-- One or two sentences: what does this PR change? -->
@@ -50,3 +57,9 @@
 - [ ] PR body meets repo minimum length (workflow may label short descriptions)
 - [ ] If `AGENTS.md` / overlays changed: headers, scope block, and changelog updated per project conventions
 - [ ] No secrets, tokens, or machine-specific paths committed
+
+## 🔗 Связи
+
+- [[MOC - MCP Servers]] — mcp-servers
+- [[000 - Map of Maps]] — Map of Maps
+

@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # Confluence Space Architecture Patterns
 
 ## Overview
@@ -244,3 +251,9 @@ type = page AND label = "decision" AND lastModified > now("-30d")
 - Space owners and content stewards
 - Automated archival policies
 - Regular information architecture reviews
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

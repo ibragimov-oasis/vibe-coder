@@ -6,6 +6,10 @@ license: MIT
 metadata:
   author: claudekit
   version: "2.1.0"
+tags:
+  - domain/ui
+  - artifact/ui-component
+  - source/ui-design
 ---
 
 # Design
@@ -300,3 +304,9 @@ pip install google-genai pillow
 
 **External sub-skills:** brand, design-system, ui-styling
 **Related Skills:** frontend-design, ui-ux-pro-max, ai-multimodal, chrome-devtools
+
+## 🔗 Связи
+
+- [[MOC - UI Design]] — ui-design
+- [[000 - Map of Maps]] — Map of Maps
+

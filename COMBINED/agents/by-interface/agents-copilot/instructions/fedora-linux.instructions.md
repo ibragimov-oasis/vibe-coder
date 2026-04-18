@@ -1,6 +1,10 @@
 ---
 description: 'Guidance for Fedora (Red Hat family) systems, dnf workflows, SELinux, and modern systemd practices.'
 applyTo: '**'
+tags:
+  - domain/agents
+  - artifact/agent
+  - source/by-interface/agents-copilot
 ---
 
 # Fedora Administration Guidelines
@@ -36,3 +40,9 @@ Use these instructions when writing guidance, scripts, or documentation for Fedo
 - Provide commands in copy-paste-ready blocks.
 - Include verification steps after changes.
 - Offer rollback steps for risky operations.
+
+## 🔗 Связи
+
+- [[MOC - Agents]] — Agent catalog
+- [[agents/agents-copilot]] — Interface: agents-copilot
+

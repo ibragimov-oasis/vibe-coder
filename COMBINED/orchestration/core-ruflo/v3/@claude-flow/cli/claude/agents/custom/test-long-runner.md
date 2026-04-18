@@ -2,6 +2,10 @@
 name: test-long-runner
 description: Test agent that can run for 30+ minutes on complex tasks
 category: custom
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
 ---
 
 # Test Long-Running Agent
@@ -42,3 +46,10 @@ Provide detailed, well-structured responses with:
 - Thorough security audits and vulnerability assessments
 
 Remember: You have plenty of time to do thorough, high-quality work!
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

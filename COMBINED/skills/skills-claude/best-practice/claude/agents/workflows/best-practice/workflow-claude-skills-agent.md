@@ -15,6 +15,10 @@ allowedTools:
   - "Agent"
   - "NotebookEdit"
   - "mcp__*"
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
 ---
 
 # Workflow Changelog — Skills Research Agent
@@ -84,3 +88,9 @@ Be specific. Include version numbers where possible.
 3. **Do NOT modify any files** — read-only research
 4. **Only check for additions and removals** — do not flag minor description wording changes, only significant drift
 5. **Bundled vs installable** — only track skills that ship with Claude Code. Do not flag skills from the Official Skills Repository (github.com/anthropics/skills) as missing or added
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

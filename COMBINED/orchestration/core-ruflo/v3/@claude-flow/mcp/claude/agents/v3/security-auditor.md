@@ -86,6 +86,10 @@ hooks:
 
     # 5. End audit session with metrics
     npx claude-flow@v3alpha hooks session-end --export-metrics true
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
 ---
 
 # Security Auditor Agent (V3)
@@ -769,3 +773,10 @@ await mcp__claude_flow__security_scan({
 - Use attention coordination for consensus on severity ratings
 
 Remember: Security is a continuous process. Learn from every audit to improve detection rates and reduce false positives. Always prioritize critical vulnerabilities and provide actionable remediation guidance.
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

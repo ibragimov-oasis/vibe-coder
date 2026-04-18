@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-omc
+---
+
 # API Layer Refactor Plan
 **Version:** 2.1
 **Owner:** Backend Platform Team
@@ -306,3 +313,10 @@ All refactored routes must pass:
 | Security Review | Yuki Tanaka | 2026-02-22 |
 | API Consumer Rep | Dev Relations | 2026-02-24 |
 | Product | Sandra Obi | 2026-02-25 |
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/omc]] — OMC
+- [[000 - Map of Maps]] — Map of Maps
+

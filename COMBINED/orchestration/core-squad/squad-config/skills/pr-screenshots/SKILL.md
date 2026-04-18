@@ -4,6 +4,10 @@ description: "Capture Playwright screenshots and embed them in GitHub PR descrip
 domain: "pull-requests, visual-review, docs, testing"
 confidence: "high"
 source: "earned (multiple sessions establishing the pattern for PR #11 TypeDoc API reference)"
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-squad
 ---
 
 ## Context
@@ -147,3 +151,10 @@ cd docs && npx playwright test tests/api-reference.spec.mjs
 - ❌ **Asking the user to manually drag-drop images** — automate it with the temp branch pattern
 - ❌ **Skipping screenshots for visual PRs** — if the PR changes what users see, show what users see
 - ❌ **Leaving the screenshots-temp branch around forever** — clean up after merge
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/squad]] — Squad
+- [[000 - Map of Maps]] — Map of Maps
+

@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # Industry Adaptations
 
 Sector-specific metrics, benchmarks, and considerations for financial analysis.
@@ -101,3 +108,9 @@ Sector-specific metrics, benchmarks, and considerations for financial analysis.
 - FDA approval timelines and probability-weighted pipeline
 - 340B pricing program impact
 - Medical device regulation (MDR, QSR compliance)
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

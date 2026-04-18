@@ -4,6 +4,10 @@ type: docs
 weight: 2
 description: >
   Understand the core concepts of MCP Toolbox, explore integration strategies, and learn how to architect your AI agent connections.
+tags:
+  - domain/mcp
+  - artifact/mcp-server
+  - source/mcp-servers
 ---
 
 Before you spin up your server and start writing code, it is helpful to understand the different ways you can utilize the Toolbox within your architecture.
@@ -73,3 +77,9 @@ Being built on the Model Context Protocol (MCP), MCP Toolbox is framework-agnost
 ---
 
 ## Quickstarts
+
+## 🔗 Связи
+
+- [[MOC - MCP Servers]] — mcp-servers
+- [[000 - Map of Maps]] — Map of Maps
+

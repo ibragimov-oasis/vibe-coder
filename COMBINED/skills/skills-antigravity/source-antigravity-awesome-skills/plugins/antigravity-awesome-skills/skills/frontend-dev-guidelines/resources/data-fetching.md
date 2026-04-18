@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # Data Fetching Patterns
 
 Modern data fetching using TanStack Query with Suspense boundaries, cache-first strategies, and centralized API services.
@@ -765,3 +772,9 @@ useSuspenseQuery({
 - [component-patterns.md](component-patterns.md) - Suspense integration
 - [loading-and-error-states.md](loading-and-error-states.md) - SuspenseLoader usage
 - [complete-examples.md](complete-examples.md) - Full working examples
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

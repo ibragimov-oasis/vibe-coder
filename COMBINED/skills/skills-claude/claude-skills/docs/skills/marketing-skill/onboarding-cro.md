@@ -1,6 +1,10 @@
 ---
 title: "Onboarding CRO — Agent Skill for Marketing"
 description: "When the user wants to optimize post-signup onboarding, user activation, first-run experience, or time-to-value. Also use when the user mentions. Agent skill for Claude Code, Codex CLI, Gemini CLI, OpenClaw."
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
 ---
 
 # Onboarding CRO
@@ -256,3 +260,9 @@ Deliver recommendations following the output quality standard: lead with the hig
 | Checklist Copy | 3–7 onboarding checklist items ordered by value, with completion messaging |
 | Email Trigger Map | Trigger conditions, timing, and goals for each onboarding email in the sequence |
 | Experiment Backlog | Prioritized A/B test ideas for onboarding steps, sorted by expected impact |
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

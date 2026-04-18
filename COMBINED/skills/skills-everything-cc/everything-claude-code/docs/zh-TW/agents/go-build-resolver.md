@@ -3,6 +3,10 @@ name: go-build-resolver
 description: Go build, vet, and compilation error resolution specialist. Fixes build errors, go vet issues, and linter warnings with minimal changes. Use when Go builds fail.
 tools: ["Read", "Write", "Edit", "Bash", "Grep", "Glob"]
 model: opus
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
 ---
 
 # Go 建置錯誤解決專家
@@ -366,3 +370,9 @@ x = x  // 移除無意義的賦值
 - **記錄**任何不明顯的修復，用行內註解
 
 建置錯誤應該精確修復。目標是讓建置可用，而不是重構程式碼庫。
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/security
+  - artifact/security
+  - source/security
+---
+
 # Coverage and Roadmap
 
 A Web Security Testing (WST) checklist is a comprehensive guide that systematically outlines security tests for web applications, covering areas like information gathering, authentication, session management, input validation, and error handling to identify and mitigate vulnerabilities.
@@ -156,3 +163,9 @@ This list is not exhaustive of all potential security risks. Shannon does not, f
 | WSTG-APIT-02 | API Broken Object Level Authorization | ✅ |
 | WSTG-APIT-99 | Testing GraphQL | ✅ |
 |  |  |  |
+
+## 🔗 Связи
+
+- [[MOC - Security]] — security
+- [[000 - Map of Maps]] — Map of Maps
+

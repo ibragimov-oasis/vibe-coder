@@ -71,7 +71,16 @@ You can also let people reveal a pull-down menu by performing a specific gesture
 
 ## [Change log](https://developer.apple.com/design/human-interface-guidelines/pull-down-buttons#Change-log)
 
-Date| Changes  
+Date| Changes
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
 ---|---  
-September 14, 2022| Refined guidance on designing a useful menu length.  
-  
+September 14, 2022| Refined guidance on designing a useful menu length.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

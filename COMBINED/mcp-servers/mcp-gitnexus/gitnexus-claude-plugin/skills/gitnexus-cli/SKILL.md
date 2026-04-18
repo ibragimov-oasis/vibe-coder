@@ -1,6 +1,10 @@
 ---
 name: gitnexus-cli
 description: "Use when the user needs to run GitNexus CLI commands like analyze/index a repo, check status, clean the index, generate a wiki, or list indexed repos. Examples: \"Index this repo\", \"Reanalyze the codebase\", \"Generate a wiki\""
+tags:
+  - domain/mcp
+  - artifact/mcp-server
+  - source/mcp-servers
 ---
 
 # GitNexus CLI Commands
@@ -80,3 +84,9 @@ Lists all repositories registered in `~/.gitnexus/registry.json`. The MCP `list_
 - **"Not inside a git repository"**: Run from a directory inside a git repo
 - **Index is stale after re-analyzing**: Restart Claude Code to reload the MCP server
 - **Embeddings slow**: Omit `--embeddings` (it's off by default) or set `OPENAI_API_KEY` for faster API-based embedding
+
+## 🔗 Связи
+
+- [[MOC - MCP Servers]] — mcp-servers
+- [[000 - Map of Maps]] — Map of Maps
+

@@ -1,5 +1,9 @@
 ---
 description: Prime agent with Archon frontend (React/Web UI) context
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-archon
 ---
 
 # Prime Frontend: Web UI Orientation
@@ -82,3 +86,10 @@ Summarize (under 200 words):
 
 ### Recent Changes
 - Last few frontend commits
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-archon]] — core-archon
+- [[MOC - Skills]] — Skills library
+

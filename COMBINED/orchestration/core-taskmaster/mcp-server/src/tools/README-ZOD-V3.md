@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-taskmaster
+---
+
 # Why MCP Tools Use Zod v3
 
 ## Problem
@@ -65,3 +72,10 @@ import { z } from 'zod';  // Don't do this in mcp-server/src/tools/
 
 **Last Updated:** 2025-10-18
 **Affects:** All files in `mcp-server/src/tools/`
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/task-master]] — Task-Master
+- [[000 - Map of Maps]] — Map of Maps
+

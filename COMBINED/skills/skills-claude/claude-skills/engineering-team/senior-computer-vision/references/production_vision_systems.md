@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # Production Vision Systems
 
 Comprehensive guide to deploying computer vision models in production environments.
@@ -1224,3 +1231,9 @@ def comprehensive_benchmark(model, input_sizes, batch_sizes, num_iterations=100)
 - [Triton Inference Server](https://github.com/triton-inference-server/server)
 - [OpenVINO Documentation](https://docs.openvino.ai/)
 - [CoreML Tools](https://coremltools.readme.io/)
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

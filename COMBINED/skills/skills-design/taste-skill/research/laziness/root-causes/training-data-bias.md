@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/ui
+  - artifact/doc
+  - source/skills-design
+---
+
 # Training Data Bias
 
 ## Placeholder Propagation
@@ -26,3 +33,9 @@ The cumulative effect is that the model assigns high probability to truncation t
 ## Impact on Output Quality
 
 When a user requests a complete implementation, the model faces competing training signals: the explicit instruction to produce full output versus the deeply embedded pattern of producing abbreviated, "tutorial-style" responses. Without aggressive prompt engineering, the tutorial-style pattern frequently wins because it appears far more commonly in the training distribution.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-design]] — Category: skills-design
+

@@ -3,6 +3,9 @@ title: Use Durable Sleep for Delayed Execution
 impact: MEDIUM
 impactDescription: Enables reliable scheduling across restarts
 tags: pattern, sleep, delay, durable, schedule
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
 ---
 
 ## Use Durable Sleep for Delayed Execution
@@ -50,3 +53,9 @@ func scheduledTask(ctx dbos.DBOSContext, task string) (string, error) {
 ```
 
 Reference: [Durable Sleep](https://docs.dbos.dev/golang/tutorials/workflow-tutorial#durable-sleep)
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
+---
+
 # 后端 - 后端导向开发
 
 后端导向的工作流程（研究 → 构思 → 规划 → 执行 → 优化 → 评审），由 Codex 主导。
@@ -160,3 +167,9 @@ Claude 综合规划，在用户批准后保存到 `.claude/plan/task-name.md`。
 2. **Gemini 的后端意见仅供参考**
 3. 外部模型**对文件系统零写入权限**
 4. Claude 处理所有代码写入和文件操作
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

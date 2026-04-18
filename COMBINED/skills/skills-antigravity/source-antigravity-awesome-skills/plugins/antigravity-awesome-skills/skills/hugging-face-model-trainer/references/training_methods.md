@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # TRL Training Methods Overview
 
 TRL (Transformer Reinforcement Learning) provides multiple training methods for fine-tuning and aligning language models. This reference provides a brief overview of each method.
@@ -148,3 +155,9 @@ uv run https://huggingface.co/datasets/mcp-tools/skills/raw/main/dataset_inspect
 - `scripts/train_sft_example.py` - Complete SFT template
 - `scripts/train_dpo_example.py` - Complete DPO template
 - [Dataset Inspector](https://huggingface.co/datasets/mcp-tools/skills/raw/main/dataset_inspector.py) - Dataset format validation tool
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

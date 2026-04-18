@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-omc
+---
+
 # Sponsor Tiers
 
 ## 🌟 Individual Supporter - $5/month
@@ -42,3 +49,10 @@ Everything in Team, plus:
 - 📝 Contribute code
 
 Every contribution matters! 🦞
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-omc]] — core-omc
+- [[MOC - Skills]] — Skills library
+

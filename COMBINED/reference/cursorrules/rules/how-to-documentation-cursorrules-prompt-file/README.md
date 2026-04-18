@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/reference
+  - source/reference
+---
+
 # How-To Documentation Prompt
 
 A specialized .cursorrules prompt for creating clear, user-friendly "How To" documentation that helps non-technical users understand software features.
@@ -34,3 +41,9 @@ The .cursorrules prompt guides technical writers in creating effective "How To" 
 - **Technical Conversion**: Process for converting technical scripts or stories into user-friendly documentation
 - **Simplified Language**: Emphasis on using non-technical terms and clear explanations
 - **Visual References**: Techniques for referencing UI elements as they appear to users
+
+## 🔗 Связи
+
+- [[MOC - System]] — reference
+- [[000 - Map of Maps]] — Map of Maps
+

@@ -1,6 +1,10 @@
 ---
 name: agent-queen-coordinator
 description: Agent skill for queen-coordinator - invoke with $agent-queen-coordinator
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-ruflo
 ---
 
 ---
@@ -206,3 +210,9 @@ mcp__claude-flow__memory_usage {
 - Coup prevention mechanisms
 - Disaster recovery procedures
 - Continuity of operations
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-ruflo]] — Category: skills-ruflo
+

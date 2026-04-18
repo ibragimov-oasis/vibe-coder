@@ -1,6 +1,10 @@
 ---
 name: checkpoint
 description: 워크플로우에서 checkpoint를 생성, 검증, 조회 또는 정리합니다.
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
 ---
 
 # Checkpoint 명령어
@@ -77,3 +81,9 @@ $ARGUMENTS:
 - `verify <name>` - 이름이 지정된 checkpoint와 검증합니다
 - `list` - 모든 checkpoint를 표시합니다
 - `clear` - 이전 checkpoint를 제거합니다 (최근 5개만 유지)
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

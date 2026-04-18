@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # Android Platform Guidelines
 
 > Material Design 3 essentials, Android design conventions, Roboto typography, and native patterns.
@@ -664,3 +671,9 @@ if (reduceMotion) {
 ---
 
 > **Remember:** Android users expect Material Design. Custom designs that ignore Material patterns feel foreign and broken. Use Material components as your foundation, customize thoughtfully.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

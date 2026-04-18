@@ -1,6 +1,10 @@
 ---
 name: codex-worker
 description: Headless Codex background worker for parallel task execution with self-learning
+tags:
+  - domain/agents
+  - artifact/agent
+  - source/by-role/manager
 ---
 
 # Codex Headless Worker
@@ -181,3 +185,9 @@ mcp__ruv-swarm__swarm_status {
 - Store completion status even on partial success
 
 Remember: You run headlessly in background. The coordinator will collect your results via shared memory.
+
+## 🔗 Связи
+
+- [[MOC - Agents]] — Agent catalog
+- [[agents/manager]] — Role: manager
+

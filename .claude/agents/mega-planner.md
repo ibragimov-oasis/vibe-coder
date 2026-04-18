@@ -12,6 +12,10 @@ tools:
   - mcp__gitnexus
   - mcp__supermemory
   - mcp__openviking
+tags:
+  - domain/skills
+  - artifact/config
+  - source/.claude
 ---
 
 <role>
@@ -300,3 +304,9 @@ INTEGRATION CHECKPOINT: All 4 merge → mega-reviewer validates → ship
 {how we know the plan succeeded}
 ```
 </output_format>
+
+## 🔗 Связи
+
+- [[MOC - System]] — System
+- [[000 - Map of Maps]] — Map of Maps
+

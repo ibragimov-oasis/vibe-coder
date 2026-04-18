@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # [Company Name] Culture Code
 
 > This document describes how we work, what we value, and what it's like to be here. It's meant to be honest — which means it will attract some people and repel others. Both outcomes are correct.
@@ -135,3 +142,9 @@ This document is descriptive, not aspirational. It describes how we operate toda
 We update this annually. When the update happens, we'll tell you what changed and why.
 
 *Last updated: [Date] | Version: [X.X]*
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

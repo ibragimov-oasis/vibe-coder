@@ -1,6 +1,10 @@
 ---
 name: obsidian-markdown
 description: Create and edit Obsidian Flavored Markdown with wikilinks, embeds, callouts, properties, and other Obsidian-specific syntax. Use when working with .md files in Obsidian, or when the user mentions wikilinks, callouts, frontmatter, tags, embeds, or Obsidian notes.
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-platform
 ---
 
 # Obsidian Flavored Markdown Skill
@@ -194,3 +198,9 @@ Reviewed in [[Meeting Notes 2024-01-10#Decisions]].
 - [Embed files](https://help.obsidian.md/embeds)
 - [Callouts](https://help.obsidian.md/callouts)
 - [Properties](https://help.obsidian.md/properties)
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-platform]] — Category: skills-platform
+

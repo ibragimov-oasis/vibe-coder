@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # REST API Example
 
 A complete REST API built with Node.js and Express, demonstrating best practices for API development.
@@ -225,3 +232,9 @@ This example uses in-memory storage for simplicity. For production:
 ## License
 
 MIT
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-ruflo]] — core-ruflo
+

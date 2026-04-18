@@ -1,5 +1,9 @@
 ---
 description: Revisão completa de código Go para padrões idiomáticos, segurança de concorrência, tratamento de erro e segurança. Invoca o agente go-reviewer.
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
 ---
 
 # Code Review Go
@@ -145,3 +149,9 @@ Recommendation: FAIL: Block merge until CRITICAL issue is fixed
 
 - Agent: `agents/go-reviewer.md`
 - Skills: `skills/golang-patterns/`, `skills/golang-testing/`
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

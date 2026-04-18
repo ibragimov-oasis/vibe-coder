@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # AgentDB v1.3.9 Integration - Implementation Summary
 
 **Date**: 2025-10-23
@@ -329,3 +336,10 @@ The AgentDB v1.3.9 integration is **complete and production-ready** with 100% ba
 **Timestamp**: 2025-10-23T05:17:39Z
 **Task Duration**: 5 minutes
 **Memory Storage**: `.swarm/memory.db`
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

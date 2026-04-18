@@ -11,6 +11,9 @@ tags:
   - methodology
   - multi-agent
 author: Claude Flow
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
 ---
 
 # SPARC Methodology - Comprehensive Development Framework
@@ -1113,3 +1116,10 @@ mcp__claude-flow__memory_usage { action: "store", key: "...", value: "..." }
 ---
 
 Remember: **SPARC = Systematic, Parallel, Agile, Refined, Complete**
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

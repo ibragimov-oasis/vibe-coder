@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # Skill Templates & Examples
 
 Complete, copy-paste templates for each skill type.
@@ -280,3 +287,9 @@ expect(element).toBeVisible();
 - Flaky tests: 15/100 → 0/100
 - Speed: 40% faster (no over-waiting)
 ```
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

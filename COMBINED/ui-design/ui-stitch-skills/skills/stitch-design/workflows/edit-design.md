@@ -1,5 +1,9 @@
 ---
 description: Edit an existing design screen using Stitch MCP.
+tags:
+  - domain/ui
+  - artifact/ui-component
+  - source/ui-design
 ---
 
 # Workflow: Edit-Design
@@ -42,3 +46,9 @@ After editing, download the updated HTML and screenshot urls from `outputCompone
 - **Keep it focused**: One edit at a time is often better than a long list of changes.
 - **Reference components**: Use professional terms like "navigation bar", "hero section", "footer", "card grid".
 - **Mention colors**: Use hex codes for precise color matching.
+
+## 🔗 Связи
+
+- [[MOC - UI Design]] — ui-design
+- [[000 - Map of Maps]] — Map of Maps
+

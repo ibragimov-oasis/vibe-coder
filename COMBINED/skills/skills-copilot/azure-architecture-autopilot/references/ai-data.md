@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-copilot
+---
+
 # Domain Pack: AI/Data (v1)
 
 Service configuration guide specialized for Azure AI/Data workloads.
@@ -252,3 +259,9 @@ Fabric Capacity (analytics)
 └── Key Vault (secrets)
 + VNet/PE configuration
 ```
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-copilot]] — Category: skills-copilot
+

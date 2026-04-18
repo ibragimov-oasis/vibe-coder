@@ -7,6 +7,10 @@ audience: [user]
 status: current
 sidebar:
   order: 3
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-archon
 ---
 
 DAG workflow nodes support a `loop` field that runs an AI prompt repeatedly
@@ -302,3 +306,10 @@ If you need to accumulate results across iterations, write them to files in
 - [Per-Node Hooks](/guides/hooks/) — SDK hooks for command/prompt nodes
 - [Per-Node MCP Servers](/guides/mcp-servers/) — external tool integration
 - [Per-Node Skills](/guides/skills/) — skill preloading
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/archon]] — Archon
+- [[000 - Map of Maps]] — Map of Maps
+

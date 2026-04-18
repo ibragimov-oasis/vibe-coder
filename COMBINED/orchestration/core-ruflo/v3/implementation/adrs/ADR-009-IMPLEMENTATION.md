@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # ADR-009 Implementation: Hybrid Memory Backend
 
 ## Overview
@@ -412,3 +419,10 @@ The HybridBackend implementation successfully achieves ADR-009 goals:
 - ✅ Production-ready monitoring
 
 This provides Claude Flow V3 with a **flexible, performant, and reliable** memory system that adapts to different query patterns while maintaining consistency across both backends.
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

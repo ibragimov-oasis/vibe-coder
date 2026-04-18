@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # SSO Template
 
 Tests SSO redirect flow, IdP callback handling, and attribute mapping.
@@ -113,3 +120,9 @@ test.describe('SSO', () => {
 | IdP error | access_denied → error page with back link |
 | Invalid state | CSRF protection rejects tampered callback |
 | First login | Auto-provisions account on initial SSO |
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

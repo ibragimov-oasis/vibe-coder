@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/mcp
+  - artifact/mcp-server
+  - source/mcp-servers
+---
+
 # vikingbot Skills
 
 This directory contains built-in skills that extend vikingbot's capabilities.
@@ -23,3 +30,9 @@ The skill format and metadata structure follow OpenClaw's conventions to maintai
 | `summarize` | Summarize URLs, files, and YouTube videos |
 | `tmux` | Remote-control tmux sessions |
 | `skill-creator` | Create new skills |
+
+## 🔗 Связи
+
+- [[MOC - MCP Servers]] — mcp-servers
+- [[000 - Map of Maps]] — Map of Maps
+

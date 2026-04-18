@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
+---
+
 # /learn - 提取可重用模式
 
 分析当前会话，提取值得保存为技能的任何模式。
@@ -68,3 +75,9 @@
 * 不要提取一次性问题（特定的 API 中断等）
 * 专注于那些将在未来会话中节省时间的模式
 * 保持技能的专注性 - 一个技能对应一个模式
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

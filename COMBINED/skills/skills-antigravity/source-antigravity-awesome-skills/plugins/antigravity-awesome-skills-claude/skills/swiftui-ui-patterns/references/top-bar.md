@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # Top bar overlays (iOS 26+ and fallback)
 
 ## Intent
@@ -47,3 +54,9 @@ content
 
 - Don’t stack multiple top insets; it can create extra padding.
 - Avoid heavy, opaque backgrounds that fight the navigation bar.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

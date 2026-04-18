@@ -2,6 +2,10 @@
 sidebar_position: 8
 title: "SMS (Twilio)"
 description: "Set up Hermes Agent as an SMS chatbot via Twilio"
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-hermes
 ---
 
 # SMS Setup (Twilio)
@@ -173,3 +177,10 @@ SMS_WEBHOOK_PORT=3001
 ```
 
 Update the webhook URL in Twilio Console to match.
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/hermes]] — Hermes
+- [[000 - Map of Maps]] — Map of Maps
+

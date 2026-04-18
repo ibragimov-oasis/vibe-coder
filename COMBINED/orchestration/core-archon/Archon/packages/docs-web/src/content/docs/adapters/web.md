@@ -7,6 +7,10 @@ audience: [user]
 status: current
 sidebar:
   order: 1
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-archon
 ---
 
 The Web UI is the built-in interface for interacting with Archon. It requires no tokens, API keys, or external services -- just start the server and open your browser.
@@ -228,3 +232,10 @@ Hover over a project in the sidebar and click the delete icon, or use the API to
 - [Configuration](/getting-started/configuration/) -- Customize Archon for your project
 - [Authoring Workflows](/guides/authoring-workflows/) -- Create custom workflows
 - [API Reference](/reference/api/) -- Full REST API documentation
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/archon]] — Archon
+- [[000 - Map of Maps]] — Map of Maps
+

@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/prompts
+  - artifact/prompt
+  - source/prompts-templates
+---
+
 # API Reference
 
 > Auto-generated from TypeScript source files
@@ -5238,3 +5245,9 @@ audio(): AudioPromptBuilder
 ```
 
 **Returns:** `AudioPromptBuilder`
+
+## 🔗 Связи
+
+- [[MOC - Prompts]] — Prompt library
+- [[MOC - System]] — System documentation
+

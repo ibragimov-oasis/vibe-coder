@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-archon
+---
+
 <p align="center">
   <img src="assets/logo.png" alt="Archon" width="160" />
 </p>
@@ -308,3 +315,9 @@ Please read [CONTRIBUTING.md](CONTRIBUTING.md) before submitting a pull request.
 ## License
 
 [MIT](LICENSE)
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-archon]] — core-archon
+

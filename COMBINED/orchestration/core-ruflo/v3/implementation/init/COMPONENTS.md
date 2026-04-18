@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # Components Reference
 
 Detailed documentation for each component created by the V3 init system.
@@ -237,3 +244,10 @@ The init system auto-detects the platform and generates appropriate files:
 - `daemon-manager.sh` - Bash daemon management
 - XDG-compliant config paths
 - Config stored in `~/.config`
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

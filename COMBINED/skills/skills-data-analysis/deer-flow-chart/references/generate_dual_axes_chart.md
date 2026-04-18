@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-data-analysis
+---
+
 # generate_dual_axes_chart — 双轴图
 
 ## 功能概述
@@ -23,3 +30,9 @@
 
 ## 返回结果
 - 返回双轴图图像 URL，并随 `_meta.spec` 给出详细参数。
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-data-analysis]] — Category: skills-data-analysis
+

@@ -4,6 +4,10 @@ description: >
   Vector embeddings with HNSW indexing, sql.js persistence, and hyperbolic support. 75x faster with agentic-flow integration.
   Use when: semantic search, pattern matching, similarity queries, knowledge retrieval.
   Skip when: exact text matching, simple lookups, no semantic understanding needed.
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-ruflo
 ---
 
 # Embeddings Skill
@@ -67,3 +71,9 @@ npx claude-flow memory search --query "related patterns" --semantic
 2. Enable quantization for memory efficiency
 3. Use hyperbolic for hierarchical relationships
 4. Normalize embeddings for consistency
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-ruflo]] — Category: skills-ruflo
+

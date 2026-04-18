@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-awesome-claude
+---
+
 # CLAUDE.md
 
 This file provides guidance to Claude Code (claude.ai/code) when working with code in this repository.
@@ -22,3 +29,9 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 - Files should use kebab-case for naming
 - Stage-specific prompts are named: stage{n}-{purpose}-prompt.md
 - Benchmark examples should be placed in appropriately named subdirectories
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-awesome-claude]] — Category: skills-awesome-claude
+

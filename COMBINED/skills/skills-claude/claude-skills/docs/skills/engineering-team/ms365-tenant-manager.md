@@ -1,6 +1,10 @@
 ---
 title: "Microsoft 365 Tenant Manager — Agent Skill & Codex Plugin"
 description: "Microsoft 365 tenant administration for Global Administrators. Automate M365 tenant setup, Office 365 admin tasks, Azure AD user management, Exchange. Agent skill for Claude Code, Codex CLI, Gemini CLI, OpenClaw."
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
 ---
 
 # Microsoft 365 Tenant Manager
@@ -282,3 +286,9 @@ Install-Module MicrosoftTeams -Scope CurrentUser
 - **User Administrator** — User management
 - **Security Administrator** — Security policies
 - **Exchange Administrator** — Mailbox management
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

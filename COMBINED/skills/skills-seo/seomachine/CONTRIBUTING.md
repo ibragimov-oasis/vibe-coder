@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/seo
+  - artifact/doc
+  - source/skills-seo
+---
+
 # Contributing to SEO Machine
 
 Thank you for your interest in improving SEO Machine! This document provides guidelines for contributing to the project.
@@ -144,3 +151,9 @@ By contributing, you agree that your contributions will be licensed under the sa
 ---
 
 Thank you for helping make SEO Machine better! 🎙️📝
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-seo]] — Category: skills-seo
+

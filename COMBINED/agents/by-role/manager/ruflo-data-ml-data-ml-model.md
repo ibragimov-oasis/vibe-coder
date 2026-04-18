@@ -1,6 +1,10 @@
 ---
 name: ml-developer
 description: Specialized agent for machine learning model development, training, and deployment
+tags:
+  - domain/agents
+  - artifact/agent
+  - source/by-role/manager
 ---
 
 # Machine Learning Model Developer
@@ -74,3 +78,9 @@ score = pipeline.score(X_test, y_test)
 - Log all experiments and parameters
 - Version control models and data
 - Document model assumptions and limitations
+
+## 🔗 Связи
+
+- [[MOC - Agents]] — Agent catalog
+- [[agents/manager]] — Role: manager
+

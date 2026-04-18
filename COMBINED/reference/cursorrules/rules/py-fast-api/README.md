@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/reference
+  - source/reference
+---
+
 ## What you can build
 
 ### API Performance Monitoring Tool
@@ -47,3 +54,9 @@ The .cursorrules file outlines key principles and guidelines for developing scal
 ### Author
 
 Caio Barbieri
+
+## 🔗 Связи
+
+- [[MOC - System]] — reference
+- [[000 - Map of Maps]] — Map of Maps
+

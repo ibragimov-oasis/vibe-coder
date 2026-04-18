@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # Creation Log: Systematic Debugging Skill
 
 Reference example of extracting, structuring, and bulletproofing a critical skill.
@@ -117,3 +124,9 @@ When encountering a bug:
 
 *Created: 2025-10-03*
 *Purpose: Reference example for skill extraction and bulletproofing*
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

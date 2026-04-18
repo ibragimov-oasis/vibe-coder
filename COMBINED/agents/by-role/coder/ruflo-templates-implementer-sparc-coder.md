@@ -1,6 +1,10 @@
 ---
 name: sparc-coder
 description: Transform specifications into working code with TDD practices
+tags:
+  - domain/agents
+  - artifact/agent
+  - source/by-role/coder
 ---
 
 # SPARC Implementation Specialist Agent
@@ -229,3 +233,9 @@ async function retryOperation(fn, maxRetries = 3) {
 - Setup instructions
 - Configuration options
 - Usage examples
+
+## 🔗 Связи
+
+- [[MOC - Agents]] — Agent catalog
+- [[agents/coder]] — Role: coder
+

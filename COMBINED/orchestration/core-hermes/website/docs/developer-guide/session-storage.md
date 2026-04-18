@@ -2,6 +2,10 @@
 sidebar_position: 8
 title: "Session Storage"
 description: "How Hermes stores sessions in SQLite, maintains lineage, and exposes recall/search"
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-hermes
 ---
 
 # Session Storage
@@ -64,3 +68,10 @@ The `session_search` tool uses the session DB's search features to retrieve and 
 - [Gateway Internals](./gateway-internals.md)
 - [Prompt Assembly](./prompt-assembly.md)
 - [Context Compression & Prompt Caching](./context-compression-and-caching.md)
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/hermes]] — Hermes
+- [[000 - Map of Maps]] — Map of Maps
+

@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-squad
+---
+
 # Loop — Prompt-driven work loop
 
 > ⚠️ **Experimental** — Squad is alpha software. APIs, commands, and behavior may change between releases.
@@ -305,3 +312,10 @@ CLI flags override frontmatter values. If your `loop.md` says `interval: 10` but
 - Each cycle gets its own Copilot session; state is not preserved between cycles unless your prompt explicitly handles it
 - Loop respects `.squad/` team context: charters, routing, decisions, and directives are all available to the prompt
 - For fully unattended monitoring, use `squad watch` instead — it's designed for running in a separate terminal 24/7
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/squad]] — Squad
+- [[000 - Map of Maps]] — Map of Maps
+

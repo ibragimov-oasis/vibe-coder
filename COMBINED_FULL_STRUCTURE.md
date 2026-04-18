@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/root
+---
+
 # 📂 COMBINED FULL STRUCTURE — ACTUAL MULTI-LEVEL TREE
 
 Этот файл содержит полную многоуровневую структуру каталога `COMBINED` (все папки и файлы, рекурсивно).
@@ -67305,3 +67312,8 @@ COMBINED/
 ├── tools_analysis.json
 └── ui_analysis.json
 ```
+
+## 🔗 Связи
+
+- [[000 - Map of Maps]] — Map of Maps
+

@@ -33,6 +33,10 @@ safe-outputs:
     max: 5
     target: "*"
 timeout-minutes: 5
+tags:
+  - domain/prompts
+  - artifact/prompt
+  - source/prompts-templates
 ---
 
 # Spam & Self-Promotion Check Agent
@@ -165,3 +169,9 @@ _This is an automated action._
 - **Never close legitimate contributions.** Bug reports, feature requests, documentation improvements, and code contributions that do not touch `prompts.csv` should never be closed.
 - **Skip bots and the repo owner.** Never flag items from `github-actions[bot]`, `dependabot[bot]`, or the repository owner `f`.
 - **One action per run.** This workflow processes a single triggering item per run. Analyze only the item that triggered the workflow.
+
+## 🔗 Связи
+
+- [[MOC - Prompts]] — Prompt library
+- [[MOC - System]] — System documentation
+

@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-squad
+---
+
 # Machine Capability Discovery & Label-Based Routing
 
 > Enable Ralph to skip issues requiring capabilities the current machine lacks.
@@ -73,3 +80,10 @@ spec:
 ```
 
 A DaemonSet can run capability discovery on each node and maintain labels automatically. See the [squad-on-aks](https://github.com/tamirdresher/squad-on-aks) project for a complete Kubernetes deployment example.
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/squad]] — Squad
+- [[000 - Map of Maps]] — Map of Maps
+

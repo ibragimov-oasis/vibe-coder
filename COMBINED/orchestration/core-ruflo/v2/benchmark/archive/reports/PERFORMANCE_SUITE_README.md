@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # 🚀 Claude-Flow Swarm Performance Benchmarking Suite
 
 > Comprehensive performance testing and monitoring framework for Claude-Flow swarm operations

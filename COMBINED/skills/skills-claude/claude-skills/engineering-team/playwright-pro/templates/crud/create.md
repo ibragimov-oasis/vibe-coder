@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # Create Entity Template
 
 Tests creating a new entity via form submission.
@@ -116,3 +123,9 @@ test.describe('Create {{entityName}}', () => {
 | Duplicate name | Server error shown |
 | Max length | Input truncated at field max |
 | Cancel | No entity created, returns to list |
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-squad
+---
+
 # Accessibility Guidelines
 
 > ⚠️ **Experimental** — Squad is alpha software. APIs, commands, and behavior may change between releases.
@@ -113,3 +120,10 @@ Hmm, /foo? Type /help for commands.
 - All status changes include text labels (not just visual indicators).
 - Emoji are used alongside text descriptions (e.g., `✅ Active` not just `✅`).
 - The message stream uses a consistent prefix pattern (`❯`, `▸ system:`, `🔧 AgentName:`) that screen readers can announce predictably.
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/squad]] — Squad
+- [[000 - Map of Maps]] — Map of Maps
+

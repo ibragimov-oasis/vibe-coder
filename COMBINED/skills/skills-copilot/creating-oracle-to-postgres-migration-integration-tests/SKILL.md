@@ -1,6 +1,10 @@
 ---
 name: creating-oracle-to-postgres-migration-integration-tests
 description: 'Creates integration test cases for .NET data access artifacts during Oracle-to-PostgreSQL database migrations. Generates DB-agnostic xUnit tests with deterministic seed data that validate behavior consistency across both database systems. Use when creating integration tests for a migrated project, generating test coverage for data access layers, or writing Oracle-to-PostgreSQL migration validation tests.'
+tags:
+  - domain/agents
+  - artifact/skill
+  - source/skills-copilot
 ---
 
 # Creating Integration Tests for Oracle-to-PostgreSQL Migration
@@ -58,3 +62,10 @@ Re-examine every assertion against non-null values. Confirm each is deterministi
 - **DB-agnostic assertions** — no platform-specific error messages or syntax in assertions.
 - **Seed only against Oracle** — test project will be migrated to PostgreSQL later.
 - **Scoped to one project** — do not create tests for artifacts outside the target project.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-copilot]] — Category: skills-copilot
+- [[MOC - Agents]] — Copilot agents
+

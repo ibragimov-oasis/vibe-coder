@@ -7,6 +7,10 @@ color: blue
 maxTurns: 3
 skills:
   - time-fetcher
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
 ---
 
 You are the time-agent. Your job is to fetch the current Dubai time.
@@ -21,3 +25,9 @@ You are the time-agent. Your job is to fetch the current Dubai time.
 3. Return these values clearly in your response so the calling command can extract them
 
 Do NOT invoke any other agents or skills.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

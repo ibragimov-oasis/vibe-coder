@@ -1,6 +1,10 @@
 ---
 title: "UX Researcher Agent — AI Coding Agent & Codex Skill"
 description: "UX research agent for research planning, persona generation, journey mapping, and usability test analysis. Agent-native orchestrator for Claude Code, Codex, Gemini CLI."
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
 ---
 
 # UX Researcher Agent
@@ -532,3 +536,9 @@ echo "See: ../../product-team/ui-design-system/references/developer-handoff.md"
 **Last Updated:** March 9, 2026
 **Status:** Production Ready
 **Version:** 1.0
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

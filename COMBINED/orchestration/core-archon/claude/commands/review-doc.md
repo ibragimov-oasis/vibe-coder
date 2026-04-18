@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-archon
+---
+
 # Documentation Review
 
 Review the document at `$ARGUMENTS` for clarity, consistency, and simplicity.
@@ -50,3 +57,10 @@ Provide a structured report with:
 - Be constructive and specific
 - Focus on making the document better for future readers/implementers
 - Prioritize issues that would cause confusion or implementation problems
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-archon]] — core-archon
+- [[MOC - Skills]] — Skills library
+

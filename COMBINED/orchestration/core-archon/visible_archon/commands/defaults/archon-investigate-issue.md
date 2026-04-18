@@ -1,6 +1,10 @@
 ---
 description: Investigate a GitHub issue or problem - analyze codebase, create plan, post to GitHub
 argument-hint: <issue-number|url|"description">
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-archon
 ---
 
 # Investigate Issue
@@ -574,3 +578,10 @@ Run `/implement-issue {number}` to execute the plan.
 - **IMPLEMENTABLE**: Another agent can execute without questions
 - **GITHUB_POSTED**: Comment visible on issue (if GH issue)
 - **COMMITTED**: Artifact saved in git
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/archon]] — Archon
+- [[000 - Map of Maps]] — Map of Maps
+

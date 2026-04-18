@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-squad
+---
+
 # Next-Wave PRD: 4-Wave Execution Plan
 
 **Date:** 2026-02-24  
@@ -83,3 +90,10 @@ Focus: Polish beyond MVP, performance optimizations, wow moments.
 - **Wave A completion:** All 17 polish items in main branch, users report "feels polished"
 - **No regressions:** Speed gate tests pass, all P0 tests green
 - **Team velocity:** 4-5 PRs per day, mean review time <1 hour
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-squad]] — core-squad
+- [[MOC - Skills]] — Skills library
+

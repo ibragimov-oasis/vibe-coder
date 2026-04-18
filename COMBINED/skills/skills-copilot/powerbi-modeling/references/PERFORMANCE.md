@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-copilot
+---
+
 # Performance Optimization for Power BI Models
 
 ## Data Reduction Techniques
@@ -213,3 +220,9 @@ External tool for:
 - [ ] DIVIDE used instead of division operator
 - [ ] Auto date/time disabled for DirectQuery
 - [ ] Performance tested with representative data
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-copilot]] — Category: skills-copilot
+

@@ -1,5 +1,9 @@
 ---
 description: Fix C++ build errors, CMake issues, and linker problems incrementally. Invokes the cpp-build-resolver agent for minimal, surgical fixes.
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
 ---
 
 # C++ Build and Fix
@@ -171,3 +175,9 @@ The agent will stop and report if:
 
 - Agent: `agents/cpp-build-resolver.md`
 - Skill: `skills/cpp-coding-standards/`
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

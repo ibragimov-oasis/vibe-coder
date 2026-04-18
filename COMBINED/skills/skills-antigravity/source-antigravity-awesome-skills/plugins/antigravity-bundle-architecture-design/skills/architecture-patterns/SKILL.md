@@ -4,6 +4,10 @@ description: "Master proven backend architecture patterns including Clean Archit
 risk: none
 source: community
 date_added: "2026-02-27"
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 # Architecture Patterns
@@ -43,3 +47,9 @@ Works well with: `event-sourcing-architect`, `saga-orchestration`, `workflow-aut
 ## Resources
 
 - `resources/implementation-playbook.md` for detailed patterns, checklists, and templates.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

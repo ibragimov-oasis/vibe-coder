@@ -2,6 +2,10 @@
 name: backend-patterns
 description: 后端架构模式、API设计、数据库优化以及适用于Node.js、Express和Next.js API路由的服务器端最佳实践。
 origin: ECC
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-everything-cc
 ---
 
 # 后端开发模式
@@ -596,3 +600,9 @@ export async function GET(request: Request) {
 ```
 
 **记住**：后端模式支持可扩展、可维护的服务器端应用程序。选择适合你复杂程度的模式。
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

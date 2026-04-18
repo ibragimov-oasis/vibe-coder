@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-refly
+---
+
 <img width="1920" height="1080" alt="img_v3_02uh_3e01e906-f84a-4cd8-8b7a-b7274ae8e89g" src="https://github.com/user-attachments/assets/a7857ab5-e8db-4352-acfa-5e42b663aef7" />
 
 
@@ -378,3 +385,9 @@ https://docs.refly.ai/community/contact-us
 ## 许可证
 
 本仓库采用 [ReflyAI 开源许可证](LICENSE)，本质上是带有一些额外限制的 Apache 2.0 许可证。
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-refly]] — core-refly
+

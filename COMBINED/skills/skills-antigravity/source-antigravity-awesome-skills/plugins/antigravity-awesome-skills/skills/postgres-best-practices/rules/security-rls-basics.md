@@ -3,6 +3,9 @@ title: Enable Row Level Security for Multi-Tenant Data
 impact: CRITICAL
 impactDescription: Database-enforced tenant isolation, prevent data leaks
 tags: rls, row-level-security, multi-tenant, security
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
 ---
 
 ## Enable Row Level Security for Multi-Tenant Data
@@ -48,3 +51,9 @@ create policy orders_user_policy on orders
 ```
 
 Reference: [Row Level Security](https://supabase.com/docs/guides/database/postgres/row-level-security)
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

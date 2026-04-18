@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-hermes
+---
+
 # Segment Anything Troubleshooting Guide
 
 ## Installation Issues
@@ -482,3 +489,9 @@ Include:
 - SAM model type (vit_b/l/h)
 - Full error traceback
 - Minimal reproducible code
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-hermes]] — Category: skills-hermes
+

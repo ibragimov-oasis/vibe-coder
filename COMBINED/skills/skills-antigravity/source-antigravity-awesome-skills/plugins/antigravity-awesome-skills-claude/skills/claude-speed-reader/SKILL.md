@@ -4,6 +4,10 @@ description: "-Speed read Claude's responses at 600+ WPM using RSVP with Spritz-
 risk: safe
 source: "https://github.com/SeanZoR/claude-speed-reader"
 date_added: "2026-02-27"
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 # Claude Speed Reader
@@ -21,3 +25,9 @@ Use this skill when you need to work with -speed read claude's responses at 600+
 This skill provides guidance and patterns for -speed read claude's responses at 600+ wpm using rsvp with spritz-style orp highlighting.
 
 For more information, see the [source repository](https://github.com/SeanZoR/claude-speed-reader).
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

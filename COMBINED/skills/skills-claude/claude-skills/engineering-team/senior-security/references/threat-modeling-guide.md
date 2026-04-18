@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # Threat Modeling Guide
 
 Systematic approaches for identifying, analyzing, and mitigating security threats.
@@ -516,3 +523,9 @@ Test Cases:
 | MITRE ATT&CK | Attack techniques | Quarterly |
 | OWASP | Web application threats | Annual |
 | Industry ISACs | Sector-specific threats | Real-time |
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

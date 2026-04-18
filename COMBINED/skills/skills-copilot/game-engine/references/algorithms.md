@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-copilot
+---
+
 # Game Development Algorithms
 
 A comprehensive reference covering essential algorithms for game development, including
@@ -841,3 +848,9 @@ class Vector2D:
 | Dot Product | Angle/projection queries | O(1) |
 | Cross Product | Perpendicularity / winding | O(1) |
 | Reflection | Bounce / ricochet | O(1) |
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-copilot]] — Category: skills-copilot
+

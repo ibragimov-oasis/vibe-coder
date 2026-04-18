@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
+---
+
 # Diretrizes de Segurança
 
 ## Verificações de Segurança Obrigatórias
@@ -27,3 +34,9 @@ Se um problema de segurança for encontrado:
 3. Corrija problemas CRÍTICOS antes de continuar
 4. Rotacione quaisquer segredos expostos
 5. Revise toda a base de código por problemas similares
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

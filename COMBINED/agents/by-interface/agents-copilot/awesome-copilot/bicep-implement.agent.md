@@ -3,6 +3,10 @@ description: 'Act as an Azure Bicep Infrastructure as Code coding specialist tha
 name: 'Bicep Specialist'
 tools:
   [ 'edit/editFiles', 'web/fetch', 'runCommands', 'terminalLastCommand', 'get_bicep_best_practices', 'azure_get_azure_verified_module', 'todos' ]
+tags:
+  - domain/agents
+  - artifact/agent
+  - source/by-interface/agents-copilot
 ---
 
 # Azure Bicep Infrastructure as Code coding Specialist
@@ -39,3 +43,9 @@ You are an expert in Azure Cloud Engineering, specialising in Azure Bicep Infras
 - AVM versions or API versions match the plan.
 - No secrets or environment-specific values hardcoded.
 - The generated Bicep compiles cleanly and passes format checks.
+
+## 🔗 Связи
+
+- [[MOC - Agents]] — Agent catalog
+- [[agents/agents-copilot]] — Interface: agents-copilot
+

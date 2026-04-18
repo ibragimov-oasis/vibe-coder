@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-copilot
+---
+
 # Relationships in Power BI
 
 ## Relationship Properties
@@ -145,3 +152,9 @@ Columns may have different data types.
 - [ ] Role-playing dimensions use inactive relationships
 - [ ] No circular reference paths
 - [ ] Key columns have matching data types
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-copilot]] — Category: skills-copilot
+

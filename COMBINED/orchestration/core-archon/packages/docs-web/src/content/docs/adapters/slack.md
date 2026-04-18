@@ -7,6 +7,10 @@ audience: [user, operator]
 status: current
 sidebar:
   order: 2
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-archon
 ---
 
 Connect Archon to Slack so you can interact with your AI coding assistant from any Slack workspace.
@@ -189,3 +193,10 @@ Ensure these scopes are added:
 - [Bolt for JavaScript](https://tools.slack.dev/bolt-js/)
 - [Socket Mode Guide](https://api.slack.com/apis/connections/socket)
 - [Permission Scopes](https://api.slack.com/scopes)
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/archon]] — Archon
+- [[000 - Map of Maps]] — Map of Maps
+

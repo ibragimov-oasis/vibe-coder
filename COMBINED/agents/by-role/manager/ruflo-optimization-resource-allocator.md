@@ -1,6 +1,10 @@
 ---
 name: Resource Allocator
 description: Adaptive resource allocation, predictive scaling and intelligent capacity planning
+tags:
+  - domain/agents
+  - artifact/agent
+  - source/by-role/manager
 ---
 
 # Resource Allocator Agent
@@ -670,3 +674,9 @@ const allocationMetrics = {
 ```
 
 This Resource Allocator agent provides comprehensive adaptive resource allocation with ML-powered predictive scaling, fault tolerance patterns, and advanced performance optimization for efficient swarm resource management.
+
+## 🔗 Связи
+
+- [[MOC - Agents]] — Agent catalog
+- [[agents/manager]] — Role: manager
+

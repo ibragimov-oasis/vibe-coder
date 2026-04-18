@@ -1,6 +1,10 @@
 ---
 name: high-end-visual-design
 description: Teaches the AI to design like a high-end agency. Defines the exact fonts, spacing, shadows, card structures, and animations that make a website feel expensive. Blocks all the common defaults that make AI designs look cheap or generic.
+tags:
+  - domain/ui
+  - artifact/skill
+  - source/skills-design
 ---
 
 # Agent Skill: Principal UI/UX Architect & Motion Choreographer (Awwwards-Tier)
@@ -96,3 +100,10 @@ Evaluate your code against this matrix before delivering. This is the last filte
 - [ ] All animations use only `transform` and `opacity` — no layout-triggering properties
 - [ ] `backdrop-blur` is only applied to fixed/sticky elements, never to scrolling content
 - [ ] The overall impression reads as "$150k agency build", not "template with nice fonts"
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-design]] — Category: skills-design
+- [[MOC - UI Design]] — Design & UI
+

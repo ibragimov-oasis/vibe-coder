@@ -52,3 +52,9 @@ If clean → deliver report (via cc-connect если настроен)
 ## Исходник
 
 > 📂 `../PIPELINE.md` — читать оригинал для полного контента
+
+## 🔗 Связи
+
+- [[000 - Map of Maps]] — Parent MOC
+- [[000 - Map of Maps]] — Map of Maps
+

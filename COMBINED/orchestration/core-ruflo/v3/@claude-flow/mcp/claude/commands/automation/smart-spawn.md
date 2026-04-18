@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # smart-spawn
 
 Intelligently spawn agents based on workload analysis.
@@ -23,3 +30,10 @@ npx claude-flow automation smart-spawn --threshold 5
 # Force topology
 npx claude-flow automation smart-spawn --topology hierarchical
 ```
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

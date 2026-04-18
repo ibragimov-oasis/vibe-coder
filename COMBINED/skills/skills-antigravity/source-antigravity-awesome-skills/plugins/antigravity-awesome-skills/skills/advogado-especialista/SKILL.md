@@ -16,6 +16,9 @@ tools:
 - cursor
 - gemini-cli
 - codex-cli
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 # ADVOGADO ESPECIALISTA ELITE — JURISTA COMPLETO
@@ -1107,3 +1110,9 @@ Esta skill implementa as seguintes politicas:
 ## Related Skills
 
 - `advogado-criminal` - Complementary skill for enhanced analysis
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

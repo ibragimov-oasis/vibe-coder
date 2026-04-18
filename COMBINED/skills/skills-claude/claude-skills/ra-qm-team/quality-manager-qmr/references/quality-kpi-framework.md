@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # Quality KPI Framework
 
 Quality performance indicators, targets, and monitoring guidelines for QMS effectiveness.
@@ -294,3 +301,9 @@ COMPLAINTS:
 | Customer | Weekly/Monthly | Quarterly |
 | Strategic | Monthly/Quarterly | Annual |
 | Cost | Monthly | Quarterly |
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

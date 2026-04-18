@@ -364,3 +364,9 @@ From debugging sessions:
 - New bugs introduced: Near zero vs common
 
 **No shortcuts. No guessing. Systematic always wins.**
+
+## 🔗 Связи
+
+- [[000 - Map of Maps]] — REPO_DOCS
+- [[000 - Map of Maps]] — Map of Maps
+

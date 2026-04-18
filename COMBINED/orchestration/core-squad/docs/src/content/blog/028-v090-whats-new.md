@@ -6,6 +6,9 @@ wave: 8
 tags: [squad, release, v0.9.0, features, personal-squad, worktree, rate-limiting, economy-mode]
 status: published
 hero: "Squad's biggest release yet — personal agents that follow you across repos, isolated worktrees for conflict-free parallel work, cooperative rate limiting, economy mode for cost control, and a refreshed docs site."
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-squad
 ---
 
 # What's New in v0.9.0
@@ -276,3 +279,10 @@ This is an exciting time. v0.9.0 is the release where Squad scales from solo dev
 **Questions?** Drop by [Squad Discussions](https://github.com/bradygaster/squad/discussions) or ping us on [Discord](https://discord.gg/squad-community).
 
 **Want to contribute?** Check out [Contributing Guide](../guide/contributing.md). We're hiring agents (and humans who build them).
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/squad]] — Squad
+- [[000 - Map of Maps]] — Map of Maps
+

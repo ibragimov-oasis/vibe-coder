@@ -2,6 +2,10 @@
 title: "Cloud SQL for SQL Server Admin"
 type: docs
 description: "Details of the Cloud SQL for SQL Server Admin prebuilt configuration."
+tags:
+  - domain/mcp
+  - artifact/mcp-server
+  - source/mcp-servers
 ---
 
 ## Cloud SQL for SQL Server Admin
@@ -37,3 +41,9 @@ description: "Details of the Cloud SQL for SQL Server Admin prebuilt configurati
     *   `clone_instance`: Creates a clone for an existing Cloud SQL for SQL Server instance.
     *   `create_backup`: Creates a backup on a Cloud SQL instance.
     *   `restore_backup`: Restores a backup of a Cloud SQL instance.
+
+## 🔗 Связи
+
+- [[MOC - MCP Servers]] — mcp-servers
+- [[000 - Map of Maps]] — Map of Maps
+

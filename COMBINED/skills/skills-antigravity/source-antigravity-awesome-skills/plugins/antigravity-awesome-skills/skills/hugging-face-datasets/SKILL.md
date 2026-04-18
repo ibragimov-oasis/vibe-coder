@@ -3,6 +3,10 @@ name: hugging-face-datasets
 description: Create and manage datasets on Hugging Face Hub. Supports initializing repos, defining configs/system prompts, streaming row updates, and SQL-based dataset querying/transformation. Designed to work alongside HF MCP server for comprehensive dataset workflows.
 risk: unknown
 source: community
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 # Overview
@@ -542,3 +546,9 @@ uv run scripts/dataset_manager.py add_rows \
   --template qa \
   --rows_json "$(cat processed_data.json)"
 ```
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

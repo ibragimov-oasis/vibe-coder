@@ -2,6 +2,10 @@
 title: "Looker Conversational Analytics"
 type: docs
 description: "Details of the Looker Conversational Analytics prebuilt configuration."
+tags:
+  - domain/mcp
+  - artifact/mcp-server
+  - source/mcp-servers
 ---
 
 ## Looker Conversational Analytics
@@ -29,3 +33,9 @@ description: "Details of the Looker Conversational Analytics prebuilt configurat
     *   `ask_data_insights`: Ask a question of the data.
     *   `get_models`: Retrieves the list of LookML models.
     *   `get_explores`: Retrieves the list of explores in a model.
+
+## 🔗 Связи
+
+- [[MOC - MCP Servers]] — mcp-servers
+- [[000 - Map of Maps]] — Map of Maps
+

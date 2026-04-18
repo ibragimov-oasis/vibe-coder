@@ -3,6 +3,10 @@ name: odoo-module-developer
 description: "Expert guide for creating custom Odoo modules. Covers __manifest__.py, model inheritance, ORM patterns, and module structure best practices."
 risk: safe
 source: "self"
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 # Odoo Module Developer
@@ -100,3 +104,9 @@ class HospitalPatient(models.Model):
 - **Odoo 13 and below** have a different module structure (no `__manifest__.py` auto-loading) — this skill targets v14+.
 - Does not cover **multi-company** or **multi-website** configuration; those require additional model fields (`company_id`, `website_id`).
 - Does not generate automated test files — use `@odoo-automated-tests` for that.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

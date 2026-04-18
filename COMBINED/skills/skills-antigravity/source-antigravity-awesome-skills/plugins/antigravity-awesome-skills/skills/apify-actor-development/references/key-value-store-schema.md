@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # Key-Value Store Schema Reference
 
 The key-value store schema organizes keys into logical groups called collections for easier data management.
@@ -127,3 +134,9 @@ Then create the key-value store schema in `.actor/key_value_store_schema.json`:
 - `jsonSchema` (object, optional) - JSON Schema Draft 07 format for `application/json` content type validation
 
 Either `key` or `keyPrefix` must be specified for each collection, but not both.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

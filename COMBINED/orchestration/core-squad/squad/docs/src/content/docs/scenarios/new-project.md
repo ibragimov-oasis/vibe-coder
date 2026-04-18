@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-squad
+---
+
 # Starting a New Project with Squad
 
 **Try this to bootstrap a modern web app:**
@@ -168,3 +175,10 @@ Commit `.ai-team/` — it's your team's brain. Anyone who clones the repo gets t
 - **Agents improve over sessions.** Each agent appends what it learned to its `history.md`. By week 2, they know your file structure, naming patterns, and preferences.
 - **Say "team" for parallel work.** Naming a specific agent sends work to just that agent.
 - **Directives are sticky.** Say `"Always use structured logging"` and it's captured permanently in `decisions.md`.
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/squad]] — Squad
+- [[000 - Map of Maps]] — Map of Maps
+

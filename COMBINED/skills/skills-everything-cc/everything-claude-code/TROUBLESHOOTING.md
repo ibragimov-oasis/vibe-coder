@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
+---
+
 # Troubleshooting Guide
 
 Common issues and solutions for Everything Claude Code (ECC) plugin.
@@ -420,3 +427,9 @@ find ~/.claude/plugins -name "*.sh" -exec dos2unix {} \;
 - [CONTRIBUTING.md](./CONTRIBUTING.md) - Development guidelines
 - [docs/](./docs/) - Detailed documentation
 - [examples/](./examples/) - Usage examples
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

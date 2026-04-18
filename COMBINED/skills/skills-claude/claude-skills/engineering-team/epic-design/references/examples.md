@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # Real-World Examples Reference
 
 Five complete implementation blueprints. Each describes exactly which techniques to combine, in what order, with key code patterns.
@@ -342,3 +349,9 @@ Bleed typography + Offset diagonal + Horizontal scroll + Diagonal wipe
 
 **The "Minimal Luxury" Combination:**
 GSAP Flip + Section peel + Masked line curtain + Reduced parallax factors
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

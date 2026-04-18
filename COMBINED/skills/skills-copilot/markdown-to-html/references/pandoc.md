@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-copilot
+---
+
 # Pandoc Reference
 
 Pandoc is a universal document converter that can convert between numerous markup formats, including Markdown, HTML, LaTeX, Word, and many more.
@@ -224,3 +231,9 @@ Get-ChildItem -Filter *.md | ForEach-Object {
 - [Pandoc Demos](https://pandoc.org/demos.html)
 - [Pandoc FAQ](https://pandoc.org/faqs.html)
 - [GitHub Repository](https://github.com/jgm/pandoc)
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-copilot]] — Category: skills-copilot
+

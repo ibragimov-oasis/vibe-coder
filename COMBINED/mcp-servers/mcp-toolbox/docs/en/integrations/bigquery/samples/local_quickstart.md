@@ -7,6 +7,10 @@ description: >
   LangGraph, LlamaIndex, or ADK.
 sample_filters: ["BigQuery", "Local", "ADK", "LangChain", "LlamaIndex", "Python"]
 is_sample: true
+tags:
+  - domain/mcp
+  - artifact/mcp-server
+  - source/mcp-servers
 ---
 
 [![Open In
@@ -721,3 +725,9 @@ documentation.](https://google.github.io/adk-docs/)
     ```sh
     python hotel_agent.py
     ```
+
+## 🔗 Связи
+
+- [[MOC - MCP Servers]] — mcp-servers
+- [[000 - Map of Maps]] — Map of Maps
+

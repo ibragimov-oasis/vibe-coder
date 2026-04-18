@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/root
+---
+
 # 🔍 AUDIT.md — Vibe-Coder Arsenal Config File Map
 
 > Generated as part of Phase 1 — Audit & Map  
@@ -381,4 +388,8 @@ The `COMBINED/` directory was created as a standalone, copy-ready collection of 
 ---
 
 *End of Audit Report*
+
+## 🔗 Связи
+
+- [[000 - Map of Maps]] — Map of Maps
 

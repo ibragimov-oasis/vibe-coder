@@ -1,6 +1,10 @@
 ---
 name: java-refactoring-remove-parameter
 description: 'Refactoring using Remove Parameter in Java Language'
+tags:
+  - domain/agents
+  - artifact/skill
+  - source/skills-copilot
 ---
 
 # Refactoring Java Methods with Remove Parameter
@@ -82,3 +86,10 @@ Perform intermediate steps internally:
 ## Code to be Refactored:
 
 Now, assess all methods with unused parameters and refactor them using **Remove Parameter**
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-copilot]] — Category: skills-copilot
+- [[MOC - Agents]] — Copilot agents
+

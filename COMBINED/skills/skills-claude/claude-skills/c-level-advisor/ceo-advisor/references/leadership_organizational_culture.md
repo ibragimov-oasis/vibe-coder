@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # Leadership & Organizational Culture Guide
 
 ## Leadership Philosophy
@@ -680,3 +687,9 @@ Key Results:
 - Use examples/stories
 - Maintain eye contact
 - Control pace
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

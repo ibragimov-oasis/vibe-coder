@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/superpowers
+---
+
 # Installing Superpowers for OpenCode
 
 ## Prerequisites
@@ -81,3 +88,10 @@ When skills reference Claude Code tools:
 
 - Report issues: https://github.com/obra/superpowers/issues
 - Full documentation: https://github.com/obra/superpowers/blob/main/docs/README.opencode.md
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/superpowers]] — superpowers
+- [[MOC - Skills]] — Skills library
+

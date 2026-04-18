@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # Billing Automation Implementation Playbook
 
 This file contains detailed patterns, checklists, and code samples referenced by the skill.
@@ -542,3 +549,9 @@ class UsageBillingEngine:
 - **Aggressive Dunning**: Canceling too quickly
 - **No Notifications**: Not informing customers of failures
 - **Hardcoded Cycles**: Not supporting custom billing dates
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

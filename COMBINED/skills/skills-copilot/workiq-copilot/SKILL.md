@@ -1,6 +1,10 @@
 ---
 name: workiq-copilot
 description: 'Guides the Copilot CLI on how to use the WorkIQ CLI/MCP server to query Microsoft 365 Copilot data (emails, meetings, docs, Teams, people) for live context, summaries, and recommendations.'
+tags:
+  - domain/agents
+  - artifact/skill
+  - source/skills-copilot
 ---
 
 # WorkIQ Copilot Skill
@@ -96,3 +100,10 @@ WorkIQ (Public Preview) lets Copilot query Microsoft 365 data with natural langu
 - Request recordings or summaries for overlapping sessions.
 - Capture action items into task trackers.
 - Run additional WorkIQ queries (by project, stakeholder, time range) for deeper analysis.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-copilot]] — Category: skills-copilot
+- [[MOC - Agents]] — Copilot agents
+

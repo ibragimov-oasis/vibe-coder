@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-cc-connect
+---
+
 # Discord Setup Guide
 
 This guide walks you through connecting **cc-connect** to Discord, so you can chat with your local Claude Code via a Discord bot.
@@ -306,3 +313,10 @@ Check:
 - [Telegram Setup](./telegram.md)
 - [Slack Setup](./slack.md)
 - [Back to README](../README.md)
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-cc-connect]] — core-cc-connect
+- [[MOC - Skills]] — Skills library
+

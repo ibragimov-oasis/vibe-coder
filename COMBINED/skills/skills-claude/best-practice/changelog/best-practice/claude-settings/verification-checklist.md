@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # Verification Checklist — Settings Report
 
 Rules accumulate over time. Each workflow-changelog run MUST execute ALL rules at the specified depth. When a new type of drift is caught that an existing rule should have caught (but didn't exist or was too shallow), append a new rule here.
@@ -132,3 +139,9 @@ Rules that verify all hyperlinks in the report are valid.
 | 9A | Local File Links | Verify all relative file links resolve to existing files | exists | local filesystem | 2026-03-05 | Initial checklist — file moves can break relative links |
 | 9B | External URL Links | Verify all external URLs return valid pages (not 404 or error) | exists | HTTP response | 2026-03-05 | Initial checklist — external docs pages can be restructured or removed |
 | 9C | Anchor Links | Verify all internal anchor links point to existing headings within the same file | exists | file headings | 2026-03-05 | Initial checklist — section renames can break anchor links |
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

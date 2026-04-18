@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # Notification Center Template
 
 Tests full notification list, filtering, and bulk clear.
@@ -126,3 +133,9 @@ test.describe('Notification Center', () => {
 | Load more | Additional items appended |
 | Empty state | No-notifications message post-clear |
 | Source link | Click navigates away from center |
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

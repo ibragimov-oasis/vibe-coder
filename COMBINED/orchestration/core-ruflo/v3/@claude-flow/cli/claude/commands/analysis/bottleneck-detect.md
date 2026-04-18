@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # bottleneck detect
 
 Analyze performance bottlenecks in swarm operations and suggest optimizations.
@@ -160,3 +167,10 @@ mcp__claude-flow__bottleneck_detect {
 - `token usage` - Token optimization analysis
 - `swarm monitor` - Real-time monitoring
 - `cache manage` - Cache optimization
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

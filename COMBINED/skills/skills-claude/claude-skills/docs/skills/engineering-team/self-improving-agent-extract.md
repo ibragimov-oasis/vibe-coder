@@ -1,6 +1,10 @@
 ---
 title: "/si:extract — Create Skills from Patterns — Agent Skill & Codex Plugin"
 description: "Turn a proven pattern or debugging solution into a standalone reusable skill with SKILL.md, reference docs, and examples. Agent skill for Claude Code, Codex CLI, Gemini CLI, OpenClaw."
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
 ---
 
 # /si:extract — Create Skills from Patterns
@@ -187,3 +191,9 @@ Creates `api-client-regen/SKILL.md` with:
 - Keep skills focused — one problem per skill
 - Include the error messages people would search for
 - Test the skill by reading it without the original context — does it make sense?
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

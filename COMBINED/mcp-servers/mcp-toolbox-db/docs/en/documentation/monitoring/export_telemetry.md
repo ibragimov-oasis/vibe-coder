@@ -4,6 +4,10 @@ type: docs
 weight: 5
 description: >
   How to set up and configure Toolbox to use the Otel Collector.
+tags:
+  - domain/mcp
+  - artifact/mcp-server
+  - source/mcp-servers
 ---
 
 
@@ -136,3 +140,9 @@ directly from Toolbox without running a local Collector.
 
 Toolbox will now export traces and metrics directly to Agnost. No local
 Collector is required.
+
+## 🔗 Связи
+
+- [[MOC - MCP Servers]] — mcp-servers
+- [[000 - Map of Maps]] — Map of Maps
+

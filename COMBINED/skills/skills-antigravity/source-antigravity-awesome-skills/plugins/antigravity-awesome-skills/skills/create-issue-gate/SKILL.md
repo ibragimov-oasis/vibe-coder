@@ -4,6 +4,10 @@ description: Use when starting a new implementation task and an issue must be cr
 risk: safe
 source: community
 date_added: "2026-03-12"
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 # Create Issue Gate
@@ -87,3 +91,9 @@ Execution workflows (for example `closed-loop-delivery`) may start only when:
 - execution gate is `allowed`
 
 If issue is `draft`, stop and request user-provided acceptance criteria.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

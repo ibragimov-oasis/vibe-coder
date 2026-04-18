@@ -3,6 +3,10 @@ name: Resource Allocator
 type: agent
 category: optimization
 description: Adaptive resource allocation, predictive scaling and intelligent capacity planning
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
 ---
 
 # Resource Allocator Agent
@@ -672,3 +676,10 @@ const allocationMetrics = {
 ```
 
 This Resource Allocator agent provides comprehensive adaptive resource allocation with ML-powered predictive scaling, fault tolerance patterns, and advanced performance optimization for efficient swarm resource management.
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

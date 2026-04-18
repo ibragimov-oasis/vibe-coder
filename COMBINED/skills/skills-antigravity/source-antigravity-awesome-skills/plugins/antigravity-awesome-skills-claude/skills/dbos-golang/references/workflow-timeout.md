@@ -3,6 +3,9 @@ title: Set Workflow Timeouts
 impact: CRITICAL
 impactDescription: Prevents workflows from running indefinitely
 tags: workflow, timeout, cancellation, duration
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
 ---
 
 ## Set Workflow Timeouts
@@ -36,3 +39,9 @@ Key timeout behaviors:
 - Cancelling a workflow also cancels all **child workflows**
 
 Reference: [Workflow Timeouts](https://docs.dbos.dev/golang/tutorials/workflow-tutorial#workflow-timeouts)
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

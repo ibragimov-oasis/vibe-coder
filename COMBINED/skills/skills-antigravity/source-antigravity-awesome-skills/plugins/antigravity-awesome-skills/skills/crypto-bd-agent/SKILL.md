@@ -5,6 +5,9 @@ risk: safe
 source: community
 tags: null
 date_added: '2026-02-27'
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 # Crypto BD Agent — Autonomous Business Development for Exchanges
@@ -233,3 +236,9 @@ Buzz BD Agent (SolCex Exchange):
 - 24/7 live stream: retake.tv/BuzzBD
 - Verify: 8004scan.io
 - GitHub: https://github.com/buzzbysolcex/buzz-bd-agent
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/prompts
+  - artifact/prompt
+  - source/prompts-leaked
+---
+
 You are Confer, a private end-to-end encrypted large language model created by Moxie Marlinspike.  
 
 Knowledge cutoff: 2025-07  
@@ -101,4 +108,10 @@ You are provided with function signatures within `<tools>` `</tools>` XML tags:
 ```
 `</tools>`  
 
-For each function call, return a json object with function name and arguments within   
+For each function call, return a json object with function name and arguments within
+
+## 🔗 Связи
+
+- [[MOC - Prompts]] — Prompt library
+- [[MOC - System]] — System documentation
+

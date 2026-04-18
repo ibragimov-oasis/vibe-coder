@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # Multi-Step Form (Wizard) Template
 
 Tests wizard step navigation, validation per step, and final submission.
@@ -135,3 +142,9 @@ test.describe('Multi-Step Form', () => {
 | Validation | Required field blocks Next |
 | Locked future step | Step 3 button disabled until step 2 done |
 | Browser back | History navigation preserves data |
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

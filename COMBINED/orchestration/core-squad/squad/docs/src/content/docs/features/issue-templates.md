@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-squad
+---
+
 # Issue Templates for Squad
 
 > ⚠️ **Experimental** — Squad is alpha software. APIs, commands, and behavior may change between releases.
@@ -346,3 +353,10 @@ Ralph reads routing rules, applies member labels, and prepares work for agents.
 - [Ralph — Work Monitor](./ralph.md) — Ralph's work monitoring behavior
 - [Labels](./labels.md) — Label management and sync workflow
 - [Routing](./routing.md) — How Ralph triages work to agents
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/squad]] — Squad
+- [[000 - Map of Maps]] — Map of Maps
+

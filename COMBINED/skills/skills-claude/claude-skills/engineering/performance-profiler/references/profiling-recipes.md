@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # performance-profiler reference
 
 ## Node.js Profiling
@@ -473,3 +480,9 @@ k6 run --out influxdb=http://localhost:8086/k6 tests/load/api-load-test.js
 ```
 
 ---
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

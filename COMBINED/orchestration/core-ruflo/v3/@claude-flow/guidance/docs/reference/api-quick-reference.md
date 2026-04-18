@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # API Quick Reference
 
 All exports from `@claude-flow/guidance`. Each module is also available as a standalone import.
@@ -472,3 +479,10 @@ Accepts an `IHeadlessExecutor` for testing without the real CLI.
 **7 task classes**: `bug-fix` (3), `feature` (5), `refactor` (3), `security` (3), `deployment` (2), `test` (2), `performance` (2)
 
 **Gate simulation** detects 7 violation categories: `destructive-command`, `hardcoded-secret`, `force-push`, `unsafe-type`, `skipped-hook`, `missing-test`, `policy-violation`.
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

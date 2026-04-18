@@ -4,6 +4,10 @@ description: "Provide proven marketing strategies and growth ideas for SaaS and 
 risk: safe
 source: community
 date_added: "2026-02-27"
+tags:
+  - domain/seo
+  - artifact/skill
+  - source/skills-seo
 ---
 # Marketing Ideas for SaaS (with Feasibility Scoring)
 
@@ -225,3 +229,9 @@ Use these biases when scoring:
 
 ## When to Use
 This skill is applicable to execute the workflow or actions described in the overview.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-seo]] — Category: skills-seo
+

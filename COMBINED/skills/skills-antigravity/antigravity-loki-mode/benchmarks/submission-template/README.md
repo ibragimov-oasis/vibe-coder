@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # Loki Mode - Multi-Agent System for SWE-bench
 
 ## Overview
@@ -109,3 +116,9 @@ evaluation/lite/20260105_loki_mode/
 ## Contact
 
 - GitHub: [@asklokesh](https://github.com/asklokesh)
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

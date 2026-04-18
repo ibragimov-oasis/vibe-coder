@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-squad
+---
+
 # Ceremonies
 
 > Team meetings that happen before or after work. Each squad configures their own.
@@ -39,3 +46,10 @@
 2. Root cause analysis
 3. What should change?
 4. Action items for next iteration
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/squad]] — Squad
+- [[000 - Map of Maps]] — Map of Maps
+

@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # Agent Coordination
 
 > How App Builder orchestrates specialist agents.
@@ -69,3 +76,9 @@
 | 6 | DevOps Engineer | ❌ | All code ready | Deployment ready |
 
 > 🔴 **CRITICAL:** Phase 1.5 is MANDATORY. No specialist agents proceed without PLAN.md verification.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

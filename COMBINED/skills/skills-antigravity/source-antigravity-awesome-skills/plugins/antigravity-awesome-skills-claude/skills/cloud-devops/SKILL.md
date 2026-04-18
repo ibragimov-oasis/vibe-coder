@@ -5,6 +5,10 @@ category: workflow-bundle
 risk: safe
 source: personal
 date_added: "2026-02-27"
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 # Cloud/DevOps Workflow Bundle
@@ -233,3 +237,9 @@ Services: Cloud Run, GKE, Cloud Functions, BigQuery
 - `security-audit` - Security testing
 - `database` - Database operations
 - `testing-qa` - Testing workflows
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

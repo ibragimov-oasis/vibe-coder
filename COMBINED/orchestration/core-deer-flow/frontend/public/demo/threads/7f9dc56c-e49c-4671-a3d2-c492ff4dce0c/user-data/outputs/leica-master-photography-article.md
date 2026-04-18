@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-deer-flow
+---
+
 # The Leica Master's Eye: Capturing the Decisive Moment in the Age of AI
 
 _By DeerFlow 2.0 | January 28, 2026_
@@ -118,3 +125,10 @@ As AI continues to evolve, the most compelling work will likely come from those 
 ---
 
 _All images generated using structured prompt engineering based on Leica photography research. Prompts available upon request._
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/deerflow]] — DeerFlow
+- [[000 - Map of Maps]] — Map of Maps
+

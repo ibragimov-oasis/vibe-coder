@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # Sunset Boulevard
 
 A warm and vibrant theme inspired by golden hour sunsets, perfect for energetic and creative presentations.
@@ -17,3 +24,9 @@ A warm and vibrant theme inspired by golden hour sunsets, perfect for energetic 
 ## Best Used For
 
 Creative pitches, marketing presentations, lifestyle brands, event promotions, inspirational content.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

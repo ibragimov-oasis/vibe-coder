@@ -10,6 +10,9 @@ metadata:
     category: security
 prerequisites:
   commands: [sherlock]
+  - domain/skills
+  - artifact/skill
+  - source/skills-hermes
 ---
 
 # Sherlock OSINT Username Search
@@ -190,3 +193,9 @@ After running sherlock, verify:
 2. Username + NSFW flag both provided
 3. Run: `sherlock --print-found --no-color --nsfw "alice" --timeout 90`
 4. Present results
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-hermes]] — Category: skills-hermes
+

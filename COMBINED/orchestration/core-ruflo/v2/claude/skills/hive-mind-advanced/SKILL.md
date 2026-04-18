@@ -5,6 +5,9 @@ version: 1.0.0
 category: coordination
 tags: [hive-mind, swarm, queen-worker, consensus, collective-intelligence, multi-agent, coordination]
 author: Claude Flow Team
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
 ---
 
 # Hive Mind Advanced Skill
@@ -710,3 +713,10 @@ npx claude-flow hive-mind spawn "Review PR #456" \
 **Last Updated**: 2025-10-19
 **Maintained By**: Claude Flow Team
 **License**: MIT
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

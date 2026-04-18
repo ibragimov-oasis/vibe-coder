@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # 技能质量标准
 
 ## 概述
@@ -392,3 +399,9 @@ npm run quality:compare skills/skill-name/
 所有贡献者都应该仔细阅读并遵循这些标准，在提交技能前进行自我评估。维护者将根据这些标准进行公平、透明的评估。
 
 如果您对质量标准有任何疑问或建议，欢迎参与社区讨论或联系维护团队。🚀
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

@@ -3,6 +3,10 @@ name: evolution
 description: "This skill enables makepad-skills to self-improve continuously during development."
 risk: critical
 source: community
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 <!-- security-allowlist: curl-pipe-bash -->
@@ -416,3 +420,9 @@ If yes to any, evolve the appropriate skill!
 - [makepad-skills repository](https://github.com/ZhangHanDong/makepad-skills)
 - [Makepad documentation](https://github.com/makepad/makepad)
 - [Project Robius](https://github.com/project-robius)
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

@@ -36,6 +36,10 @@ hooks:
     mcp__claude-flow__memory_usage --action="store" --namespace="sparc" --key="complete:$SESSION_ID" --value="$(date -Iseconds): SPARC workflow completed"
     # Train on successful pattern
     npx claude-flow@v3alpha hooks intelligence trajectory-end --session-id "$SESSION_ID" --verdict "success"
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
 ---
 
 # V3 SPARC Orchestrator Agent
@@ -180,3 +184,10 @@ mcp__claude-flow__memory_search --pattern="sparc:*:$PROJECT_TYPE" --namespace="p
 - **Flash Attention**: Process large specifications efficiently
 - **EWC++**: Prevent forgetting successful patterns
 - **Claims Auth**: Enforce phase access control
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # ADR-034: Optional MCP Backends — Claude Code, Gemini, Codex
 
 **Status:** Accepted
@@ -115,3 +122,10 @@ With all 5 backends enabled, the bridge container needs ~800MB memory.
 - [ADR-033: RuVector + Ruflo MCP Integration](ADR-033-RUVECTOR-RUFLO-MCP-INTEGRATION.md)
 - [ADR-032: RVF Private MCP Tunnel](ADR-032-RVF-PRIVATE-MCP-TUNNEL.md)
 - [ADR-029: HuggingFace Chat UI Cloud Run](ADR-029-HUGGINGFACE-CHAT-UI-CLOUD-RUN.md)
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

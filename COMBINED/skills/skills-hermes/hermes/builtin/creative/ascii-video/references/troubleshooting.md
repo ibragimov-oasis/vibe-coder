@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-hermes
+---
+
 # Troubleshooting Reference
 
 > **See also:** composition.md · architecture.md · shaders.md · scenes.md · optimization.md
@@ -363,3 +370,9 @@ The `_render_vf()` helper clips automatically, but if you're building custom sce
 4. Verify per-section variation (different bg/palette/color per scene)
 5. Confirm shader chain includes bloom (threshold 130)
 6. Confirm vignette strength ≤ 0.25
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-hermes]] — Category: skills-hermes
+

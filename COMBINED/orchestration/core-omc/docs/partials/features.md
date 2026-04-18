@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-omc
+---
+
 # Features Reference (v3.1 - v3.4)
 
 ## Session Notepad (Short-Term Memory)
@@ -120,3 +127,10 @@ Standardized state file locations.
 **Important:** Never store OMC state in `~/.claude/` - that directory is reserved for Claude Code itself.
 
 Legacy locations auto-migrated on read.
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-omc]] — core-omc
+- [[MOC - Skills]] — Skills library
+

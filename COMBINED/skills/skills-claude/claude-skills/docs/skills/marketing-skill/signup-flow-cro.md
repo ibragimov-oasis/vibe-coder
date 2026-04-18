@@ -1,6 +1,10 @@
 ---
 title: "Signup Flow CRO — Agent Skill for Marketing"
 description: "When the user wants to optimize signup, registration, account creation, or trial activation flows. Also use when the user mentions 'signup. Agent skill for Claude Code, Codex CLI, Gemini CLI, OpenClaw."
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
 ---
 
 # Signup Flow CRO
@@ -228,3 +232,9 @@ Automatically surface signup-flow-cro when:
 | Flow Redesign Spec | Step-by-step outline | Recommended multi-step or single-step flow with copy for each screen |
 | SSO & Auth Options Recommendation | Decision table | Which auth methods to offer, placement, and priority for the target audience |
 | A/B Test Hypotheses | Table | Hypothesis × variant description × success metric × priority for top 3-5 tests |
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

@@ -11,6 +11,10 @@ tools:
   - Glob
   - mcp__gitnexus
   - mcp__openviking
+tags:
+  - domain/agents
+  - artifact/mega-agent
+  - source/mega
 ---
 
 <role>
@@ -162,3 +166,10 @@ Sources:
 - OMC executor: `COMBINED/agents/by-role/executor/executor.md`
 - GSD executor: `COMBINED/agents/by-role/executor/gsd-executor.md`
 </rules>
+
+## 🔗 Связи
+
+- [[MOC - Agents]] — Agent catalog
+- [[agents/mega-executor]] — Vault entry
+- [[MOC - Skills]] — Skills library
+

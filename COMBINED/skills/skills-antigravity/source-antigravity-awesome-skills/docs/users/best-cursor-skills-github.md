@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # Best Cursor Skills on GitHub
 
 If you are searching for the **best Cursor skills on GitHub**, the best option depends on whether you want a broad installable library, a curated discovery list, or a smaller community collection.
@@ -60,3 +67,9 @@ Choose this if you want:
 ## Recommended next step
 
 If your goal is to start working in Cursor today, install [Antigravity Awesome Skills](https://github.com/sickn33/antigravity-awesome-skills) and continue with [`cursor-skills.md`](cursor-skills.md).
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # Claude-Flow Integration Guide
 
 This guide explains how to use the claude-flow integration layer for benchmark testing and automation.
@@ -399,3 +406,10 @@ class MyBenchmark:
         result = self.executor.execute_swarm(config)
         return result.metrics
 ```
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

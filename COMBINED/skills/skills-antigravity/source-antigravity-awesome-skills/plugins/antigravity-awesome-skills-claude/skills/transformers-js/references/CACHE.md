@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # Caching Reference
 
 Complete guide to caching strategies for Transformers.js models across different environments.
@@ -337,3 +344,9 @@ Transformers.js provides flexible caching options:
 For more configuration options, see:
 - [Configuration Reference](./CONFIGURATION.md)
 - [Pipeline Options](./PIPELINE_OPTIONS.md)
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

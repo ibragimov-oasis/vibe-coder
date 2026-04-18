@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/seo
+  - artifact/doc
+  - source/skills-seo
+---
+
 # [YOUR COMPANY] Brand Voice & Messaging
 
 <!-- INSTRUCTIONS: This template defines your brand voice, tone, and messaging framework.
@@ -289,3 +296,9 @@ Before publishing any content, verify:
 ---
 
 **Remember**: [Write a memorable closing statement that captures the essence of your brand voice and mission. Example: "Every piece of content should make our audience feel more capable and confident. We're not just providing information—we're empowering success."]
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-seo]] — Category: skills-seo
+

@@ -42,3 +42,9 @@ source: "../COMBINED/commands/"
 
 - [[root-docs/PIPELINE]] — пайплайн использующий команды
 - [[root-docs/PIPELINE_TRIGGER]] — маршрутизация к командам
+
+## 🔗 Связи
+
+- [[000 - Map of Maps]] — Parent MOC
+- [[000 - Map of Maps]] — Map of Maps
+

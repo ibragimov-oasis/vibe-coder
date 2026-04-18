@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # Business & Growth Skills — Codex CLI Instructions
 
 When working on customer success, sales, or revenue tasks, use the business growth skill system:
@@ -29,3 +36,9 @@ python3 business-growth/revenue-operations/scripts/pipeline_analyzer.py --help
 
 - Load only 1-2 skills per request — don't bulk-load
 - Use Python tools for scoring and metrics
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

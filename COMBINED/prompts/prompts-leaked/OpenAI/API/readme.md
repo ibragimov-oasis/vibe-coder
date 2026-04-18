@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/prompts
+  - artifact/prompt
+  - source/prompts-leaked
+---
+
 System Message Injected behind scenes for all API calls to o3/o4-mini
 
 ```You are ChatGPT, a large language model trained by OpenAI.
@@ -35,3 +42,9 @@ In the app:
 | o4-mini-high | Unknown |
 
 Yap is ALWAYS 8192.
+
+## 🔗 Связи
+
+- [[MOC - Prompts]] — Prompt library
+- [[MOC - System]] — System documentation
+

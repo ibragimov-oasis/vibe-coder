@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # Pipeline Options Reference
 
 Guide to configuring model loading and inference using the `PretrainedModelOptions` parameter in the `pipeline()` function.
@@ -543,3 +550,9 @@ const pipe = await pipeline('automatic-speech-recognition', 'model-id', {
 ---
 
 This document covers all available options for the `pipeline()` function. For environment-level configuration (remote hosts, global cache settings, WASM paths), see the [Configuration Reference](./CONFIGURATION.md).
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

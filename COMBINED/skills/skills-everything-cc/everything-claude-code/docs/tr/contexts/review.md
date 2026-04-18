@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
+---
+
 # Kod İnceleme Bağlamı
 
 Mod: PR incelemesi, kod analizi
@@ -20,3 +27,9 @@ Odak: Kalite, güvenlik, sürdürülebilirlik
 
 ## Çıktı Formatı
 Bulguları dosyaya göre grupla, önce önem derecesi
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

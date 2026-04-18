@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/mcp
+  - artifact/mcp-server
+  - source/mcp-servers
+---
+
 # COBOL Graph Model
 
 This document describes the graph nodes and edges that GitNexus creates for COBOL codebases. The COBOL graph model is richer than most tree-sitter languages because it captures domain-specific constructs: file declarations, FD entries, data hierarchies, SQL tables, CICS maps, and cross-program contracts.
@@ -191,3 +198,9 @@ The graph produced contains:
 - `gitnexus/src/core/ingestion/workers/parse-worker.ts` -- `processCobolRegexOnly()`, node/edge emission logic
 - `gitnexus/src/core/ingestion/pipeline.ts` -- `detectCrossProgamContracts()` for CONTRACTS edges
 - `gitnexus/src/core/ingestion/cobol-preprocessor.ts` -- `CobolRegexResults` interface (all extracted data)
+
+## 🔗 Связи
+
+- [[MOC - MCP Servers]] — mcp-servers
+- [[000 - Map of Maps]] — Map of Maps
+

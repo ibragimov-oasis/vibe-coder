@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-awesome-claude
+---
+
 You are an experienced Product Manager. Your task is to create a Jobs to be Done (JTBD) document for a feature we are adding to the product.
 
 IMPORTANT:
@@ -17,3 +24,9 @@ IMPORTANT:
 3. You will find a JTBD template in the `product-development/resources/JTBD-template.md` file. Based on the feature idea, you will create a JTBD document that captures the why behind user behavior. It focuses on the problem or job the user is trying to get done.
 
 4. Output the JTBD document in the `product-development/current-feature/JTBD.md` file.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-awesome-claude]] — Category: skills-awesome-claude
+

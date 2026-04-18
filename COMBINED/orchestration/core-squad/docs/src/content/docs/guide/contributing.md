@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-squad
+---
+
 # Contributing to Squad
 
 Squad is an open-source project built by contributors who believe in democratizing multi-agent development. Whether you're fixing a bug, adding a feature, or improving documentation, your work helps the entire community.
@@ -309,3 +316,10 @@ Open an issue or ask in `.squad/` discussion channels. The team is here to help.
 ## License
 
 All contributions are MIT-licensed. By submitting a PR, you agree to this license.
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/squad]] — Squad
+- [[000 - Map of Maps]] — Map of Maps
+

@@ -50,3 +50,9 @@ ollama pull llama3
 
 - [[obsidian-copilot/getting-started]] — начало работы
 - [[combined/MCP Servers Overview]] — MCP серверы ULTRACAR
+
+## 🔗 Связи
+
+- [[MOC - System]] — Parent MOC
+- [[000 - Map of Maps]] — Map of Maps
+

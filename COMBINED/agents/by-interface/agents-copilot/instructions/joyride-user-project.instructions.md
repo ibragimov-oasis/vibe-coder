@@ -1,6 +1,10 @@
 ---
 description: 'Expert assistance for Joyride User Script projects - REPL-driven ClojureScript and user space automation of VS Code'
 applyTo: '**'
+tags:
+  - domain/agents
+  - artifact/agent
+  - source/by-interface/agents-copilot
 ---
 
 # Joyride User Scripts Project Assistant
@@ -204,3 +208,9 @@ Joyride Flares provide a convenient way to create WebView panels and sidebar vie
 ## Editing files
 
 Develop using the REPL. Yet, sometimes you need to edit file. And when you do, prefer structural editing tools.
+
+## 🔗 Связи
+
+- [[MOC - Agents]] — Agent catalog
+- [[agents/agents-copilot]] — Interface: agents-copilot
+

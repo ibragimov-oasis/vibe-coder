@@ -44,3 +44,9 @@ source: "../new_repos/obsidian-copilot/docs/getting-started.md"
 
 - [[obsidian-skills/obsidian-cli]] — CLI альтернатива
 - [[combined/Skills Overview]] — обзор всех навыков
+
+## 🔗 Связи
+
+- [[MOC - System]] — Parent MOC
+- [[000 - Map of Maps]] — Map of Maps
+

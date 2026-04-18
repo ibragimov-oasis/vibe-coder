@@ -3,6 +3,9 @@ title: Use Set/Map for O(1) Lookups
 impact: LOW-MEDIUM
 impactDescription: O(n) to O(1)
 tags: javascript, set, map, data-structures, performance
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
 ---
 
 ## Use Set/Map for O(1) Lookups
@@ -22,3 +25,9 @@ items.filter(item => allowedIds.includes(item.id))
 const allowedIds = new Set(['a', 'b', 'c', ...])
 items.filter(item => allowedIds.has(item.id))
 ```
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

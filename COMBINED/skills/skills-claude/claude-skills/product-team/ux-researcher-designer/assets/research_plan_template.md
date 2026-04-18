@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # UX Research Plan
 
 ## Study Info
@@ -160,3 +167,9 @@ What do we need to learn? List 3-5 specific, answerable questions.
 - [ ] Highlight reel of key moments (if recorded)
 - [ ] Actionable recommendations prioritized by impact
 - [ ] Raw data archive (notes, recordings) stored per data policy
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

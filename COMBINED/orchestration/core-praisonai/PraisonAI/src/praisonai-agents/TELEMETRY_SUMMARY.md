@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-praisonai
+---
+
 # Telemetry Implementation Summary
 
 ## What Was Fixed
@@ -31,3 +38,10 @@ Telemetry metrics collected:
 Set any of these environment variables:
 - `PRAISONAI_TELEMETRY_DISABLED=true`
 - `DO_NOT_TRACK=true`
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/praisonai]] — PraisonAI
+- [[000 - Map of Maps]] — Map of Maps
+

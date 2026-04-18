@@ -4,6 +4,9 @@ description: Help users configure Hermes Agent — CLI usage, setup wizard, mode
 version: 1.1.0
 author: Hermes Agent
 tags: [setup, configuration, tools, stt, tts, voice, hermes, cli, skills]
+  - domain/skills
+  - artifact/skill
+  - source/skills-hermes
 ---
 
 # Hermes Agent Setup & Configuration
@@ -298,3 +301,9 @@ Edit with `hermes config edit` or `hermes config set KEY VALUE`.
 1. Check `hermes skills list` shows the skill
 2. Check `hermes skills config` has it enabled for your platform
 3. Load explicitly with `/skill name` or `hermes -s name`
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-hermes]] — Category: skills-hermes
+

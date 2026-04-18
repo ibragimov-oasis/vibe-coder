@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/command
+  - source/claude-commands
+---
+
 # smart-spawn
 
 Intelligently spawn agents based on workload analysis.
@@ -23,3 +30,9 @@ npx claude-flow automation smart-spawn --threshold 5
 # Force topology
 npx claude-flow automation smart-spawn --topology hierarchical
 ```
+
+## 🔗 Связи
+
+- [[MOC - System]] — System commands
+- [[MOC - Skills]] — Skills library
+

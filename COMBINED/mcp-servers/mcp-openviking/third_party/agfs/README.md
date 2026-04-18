@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/mcp
+  - artifact/mcp-server
+  - source/mcp-servers
+---
+
 # <img src="./assets/logo-white.png" alt="AGFS Logo" height="40" style="vertical-align: middle;"/>
 
 [![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
@@ -212,3 +219,9 @@ See [task_loop.py](./agfs-mcp/demos/task_loop.py) for a complete example.
 - [agfs-server](./agfs-server/README.md) - Server configuration and plugin development
 - [agfs-shell](./agfs-shell/README.md) - Interactive shell client
 - [agfs-fuse](./agfs-fuse/README.md) - FUSE filesystem mount (Linux)
+
+## 🔗 Связи
+
+- [[MOC - MCP Servers]] — mcp-servers
+- [[000 - Map of Maps]] — Map of Maps
+

@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-awesome-claude
+---
+
 # FlowStudio MCP — Action Patterns: Core
 
 Variables, control flow, and expression patterns for Power Automate flow definitions.
@@ -540,3 +547,9 @@ Power Automate has no native `sum()` function. Use XPath on XML instead:
 `Select_Amounts` must output a flat array of numbers (use a **Select** action to extract a single numeric field first). The result is a number you can use directly in conditions or calculations.
 
 > This is the only way to aggregate (sum/min/max) an array without a loop in Power Automate.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-awesome-claude]] — Category: skills-awesome-claude
+

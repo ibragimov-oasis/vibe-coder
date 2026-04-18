@@ -113,3 +113,9 @@ team-plan → team-prd → team-exec → team-verify → team-fix
 
 - [[agents-by-role/index]] — полная таблица 19 ролей
 - [[agents-deep-dive/ruflo-roles]] — RuFlo роли (80+ агентов)
+
+## 🔗 Связи
+
+- [[MOC - Agents]] — Parent MOC
+- [[000 - Map of Maps]] — Map of Maps
+

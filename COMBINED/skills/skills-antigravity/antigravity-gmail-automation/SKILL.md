@@ -7,6 +7,10 @@ source: community
 metadata:
   author: sanjay3290
   version: "1.0"
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 # Gmail
@@ -179,3 +183,9 @@ Tokens stored securely using the system keyring:
 Service name: `gmail-skill-oauth`
 
 Tokens automatically refresh when expired using Google's cloud function.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

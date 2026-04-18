@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-praisonai
+---
+
 # Stateful Agents Examples
 
 This directory contains comprehensive examples demonstrating PraisonAI's stateful agents capabilities, including session management, memory systems, and persistent workflows.
@@ -187,3 +194,9 @@ workflow = PraisonAIAgents(..., verbose=1)
 - Use appropriate memory providers for your scale
 
 These examples provide a comprehensive foundation for building sophisticated stateful agent applications with PraisonAI.
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-praisonai]] — core-praisonai
+

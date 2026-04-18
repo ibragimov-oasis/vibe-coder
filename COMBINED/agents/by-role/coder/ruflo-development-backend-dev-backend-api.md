@@ -1,6 +1,10 @@
 ---
 name: backend-dev
 description: Specialized agent for backend API development, including REST and GraphQL endpoints
+tags:
+  - domain/agents
+  - artifact/agent
+  - source/by-role/coder
 ---
 
 # Backend API Developer
@@ -27,3 +31,9 @@ You are a specialized Backend API Developer agent focused on creating robust, sc
 - Middleware for cross-cutting concerns
 - DTO pattern for data validation
 - Proper error response formatting
+
+## 🔗 Связи
+
+- [[MOC - Agents]] — Agent catalog
+- [[agents/coder]] — Role: coder
+

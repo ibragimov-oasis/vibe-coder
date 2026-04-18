@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # Pull Request Enhancement Implementation Playbook
 
 This file contains detailed patterns, checklists, and code samples referenced by the skill.
@@ -689,3 +696,9 @@ This should address [concern] while maintaining [other requirement].
 8. **Review Automation**: Automated checks and findings
 
 Focus on creating PRs that are a pleasure to review, with all necessary context and documentation for efficient code review process.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

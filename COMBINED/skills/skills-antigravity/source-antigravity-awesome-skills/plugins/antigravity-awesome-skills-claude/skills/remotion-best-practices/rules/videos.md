@@ -3,6 +3,9 @@ name: videos
 description: Embedding videos in Remotion - trimming, volume, speed, looping, pitch
 metadata:
   tags: video, media, trim, volume, speed, loop, pitch
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
 ---
 
 # Using videos in Remotion
@@ -169,3 +172,9 @@ Use `toneFrequency` to adjust the pitch without affecting speed. Values range fr
 ```
 
 Pitch shifting only works during server-side rendering, not in the Remotion Studio preview or in the `<Player />`.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

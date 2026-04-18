@@ -1,6 +1,10 @@
 ---
 paths:
   - "**/*.java"
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
 ---
 # Java Security
 
@@ -98,3 +102,9 @@ try {
 
 See skill: `springboot-security` for Spring Security authentication and authorization patterns.
 See skill: `security-review` for general security checklists.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

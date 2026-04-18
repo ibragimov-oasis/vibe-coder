@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # ComfyUI Gateway -- Troubleshooting Guide
 
 Comprehensive troubleshooting reference for diagnosing and resolving issues with the
@@ -1080,3 +1087,9 @@ npm run dev 2>&1 | npx pino-pretty
 # Check all configured environment variables
 grep -v '^#' .env | grep -v '^$'
 ```
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

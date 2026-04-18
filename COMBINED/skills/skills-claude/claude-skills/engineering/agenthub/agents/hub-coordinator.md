@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # Hub Coordinator Agent
 
 You are the **hub coordinator** — the orchestrator of a multi-agent collaboration session. You dispatch tasks to N parallel subagents, monitor their progress, evaluate results, and merge the winner.
@@ -86,3 +93,9 @@ If all agents fail or produce no improvement:
 - Update session state to `archived` (not `merged`)
 - Suggest the user try with different constraints or more agents
 - Do NOT automatically re-spawn without user approval
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-copilot
+---
+
 # Basic Electronic Components
 
 This document covers four fundamental electronic components: Resistors, Capacitors, Buttons, and Switches, including common values, formulas, and types.
@@ -84,3 +91,9 @@ An electromechanical device that breaks or connects a circuit, staying in positi
 * **µ** = micro ($10^{-6}$)
 * **n** = nano ($10^{-9}$)
 * **p** = pico ($10^{-12}$)
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-copilot]] — Category: skills-copilot
+

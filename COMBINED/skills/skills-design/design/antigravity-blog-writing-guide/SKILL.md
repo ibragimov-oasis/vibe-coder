@@ -3,6 +3,10 @@ name: blog-writing-guide
 description: "This skill enforces Sentry's blog writing standards across every post — whether you're helping an engineer write their first blog post or a marketer draft a product announcement."
 risk: unknown
 source: community
+tags:
+  - domain/ui
+  - artifact/skill
+  - source/skills-design
 ---
 
 # Sentry Blog Writing Skill
@@ -155,3 +159,10 @@ Run through both checklists:
 - Post doesn't duplicate what's in the changelog
 
 When providing feedback, be specific and constructive. Quote the weak passage, explain why it's weak, and rewrite it to show the standard.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-design]] — Category: skills-design
+- [[MOC - UI Design]] — Design & UI
+

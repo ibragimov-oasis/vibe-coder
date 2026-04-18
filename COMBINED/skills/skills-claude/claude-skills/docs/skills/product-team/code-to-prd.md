@@ -1,6 +1,10 @@
 ---
 title: "Code → PRD: Reverse-Engineer Any Codebase into Product Requirements — Agent Skill for Product Teams"
 description: "Reverse-engineer any codebase into a complete Product Requirements Document (PRD). Analyzes routes, components, state management, API integrations. Agent skill for Claude Code, Codex CLI, Gemini CLI, OpenClaw."
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
 ---
 
 # Code → PRD: Reverse-Engineer Any Codebase into Product Requirements
@@ -498,3 +502,9 @@ Both scripts are **stdlib-only** — no pip install needed.
 ## Attribution
 
 This skill was inspired by [code-to-prd](https://github.com/lihanglogan/code-to-prd) by [@lihanglogan](https://github.com/lihanglogan), who proposed the original concept and methodology in [PR #368](https://github.com/alirezarezvani/claude-skills/pull/368). The core three-phase workflow (global scan → page-by-page analysis → structured document generation) originated from that work. This version was rebuilt from scratch in English with added tooling (analysis scripts, scaffolder, framework reference, quality checklist).
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

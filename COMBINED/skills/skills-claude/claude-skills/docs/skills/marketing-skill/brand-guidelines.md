@@ -1,6 +1,10 @@
 ---
 title: "Brand Guidelines — Agent Skill for Marketing"
 description: "When the user wants to apply, document, or enforce brand guidelines for any product or company. Also use when the user mentions 'brand guidelines,'. Agent skill for Claude Code, Codex CLI, Gemini CLI, OpenClaw."
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
 ---
 
 # Brand Guidelines
@@ -96,3 +100,9 @@ Brand consistency is not a design preference — it's a trust signal. Every devi
 - **content-humanizer** — USE when existing content needs to be rewritten to match brand tone without losing information; NOT for structural content work.
 - **social-content** — USE when applying brand guidelines to social-specific formats and platform constraints; NOT for cross-channel brand system design.
 - **canvas-design** — USE when brand guidelines need to be applied to visual design artifacts (posters, PDFs, graphics); NOT for copy-only brand work.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

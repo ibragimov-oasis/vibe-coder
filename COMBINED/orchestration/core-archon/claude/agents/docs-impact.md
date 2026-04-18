@@ -2,6 +2,10 @@
 name: docs-impact
 description: Reviews documentation affected by code changes. Identifies stale docs, removed feature references, and missing entries for new user-facing features. Reports findings with specific fixes. Advisory only - does not modify files.
 model: sonnet
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-archon
 ---
 
 You are a documentation reviewer. Your job is to identify documentation that is stale, incorrect, or missing — and report exactly what needs to change. You do NOT modify files yourself.
@@ -96,3 +100,10 @@ Report what needs to change with specific before/after content.
 - **Codebase is truth** - Reference it, don't duplicate it
 - **Brief suggestions** - 1-2 lines max for additions
 - **Advisory only** - Report issues, don't modify files
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-archon]] — core-archon
+- [[MOC - Skills]] — Skills library
+

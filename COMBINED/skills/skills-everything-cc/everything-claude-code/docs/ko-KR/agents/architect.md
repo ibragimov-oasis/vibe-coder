@@ -3,6 +3,10 @@ name: architect
 description: 시스템 설계, 확장성, 기술적 의사결정을 위한 소프트웨어 아키텍처 전문가입니다. 새로운 기능 계획, 대규모 시스템 refactor, 아키텍처 결정 시 사전에 적극적으로 활용하세요.
 tools: ["Read", "Grep", "Glob"]
 model: opus
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
 ---
 
 소프트웨어 아키텍처 설계 분야의 시니어 아키텍트로서, 확장 가능하고 유지보수가 용이한 시스템 설계를 전문으로 합니다.
@@ -209,3 +213,9 @@ AI 기반 SaaS 플랫폼을 위한 아키텍처 예시:
 - **1000만 사용자**: Event-driven architecture, 분산 캐싱, 멀티 리전
 
 **기억하세요**: 좋은 아키텍처는 빠른 개발, 쉬운 유지보수, 그리고 자신 있는 확장을 가능하게 합니다. 최고의 아키텍처는 단순하고, 명확하며, 검증된 패턴을 따릅니다.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

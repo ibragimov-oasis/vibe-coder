@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # ORM Patterns Reference
 
 Side-by-side comparison of Prisma, Drizzle, TypeORM, and SQLAlchemy patterns for common database operations.
@@ -449,3 +456,9 @@ engine = create_engine('postgresql://user:pass@host/db', pool_size=20, max_overf
 8. **Type-safe queries** — leverage TypeScript/Python typing for compile-time checks
 9. **Separate read/write models** — use views or read replicas for heavy reporting queries
 10. **Test migrations both ways** — always verify that down migrations actually reverse up migrations
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

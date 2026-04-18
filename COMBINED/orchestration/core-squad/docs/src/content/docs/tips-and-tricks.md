@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-squad
+---
+
 # Tips and Tricks for Managing Your Squad
 
 > **Quick Start Prompts:**  
@@ -637,4 +644,10 @@ When you're unsure who to ask:
 | What's on the backlog? | Ralph | Ralph monitors the board |
 | New decision | Any agent can propose, Scribe merges | Decisions are shared |
 | Edit decisions.md | You or Scribe | Plain markdown, editable anytime |
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/squad]] — Squad
+- [[000 - Map of Maps]] — Map of Maps
 

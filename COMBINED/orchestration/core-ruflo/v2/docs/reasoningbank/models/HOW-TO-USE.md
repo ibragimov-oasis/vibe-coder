@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # How to Use Pre-Trained ReasoningBank Models
 
 This guide shows you how to copy, install, and use pre-trained ReasoningBank models in your projects.
@@ -653,3 +660,10 @@ await learner.recordOutcome(patternId, wasSuccessful);
 ---
 
 **Happy reasoning!** 🧠✨
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

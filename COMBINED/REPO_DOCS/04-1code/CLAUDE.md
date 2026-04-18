@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/REPO_DOCS
+---
+
 <!-- OPENSPEC:START -->
 # OpenSpec Instructions
 
@@ -272,3 +279,9 @@ fetch('http://localhost:7799/log',{method:'POST',headers:{'Content-Type':'applic
 **Workflow:** Hypothesize → instrument → user reproduces → read logs → fix with evidence → verify → remove instrumentation.
 
 See `packages/debug/INSTRUCTIONS.md` for the full protocol.
+
+## 🔗 Связи
+
+- [[000 - Map of Maps]] — REPO_DOCS
+- [[000 - Map of Maps]] — Map of Maps
+

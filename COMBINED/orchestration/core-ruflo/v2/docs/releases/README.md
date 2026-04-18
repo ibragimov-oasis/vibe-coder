@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # 📋 Release Notes & Changelogs
 
 Release documentation for claude-flow versions.
@@ -23,3 +30,9 @@ See [CHANGELOG.md](../../CHANGELOG.md) in the root directory for complete versio
 ---
 
 [← Back to Documentation Index](../README.md)
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-ruflo]] — core-ruflo
+

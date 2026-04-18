@@ -64,7 +64,16 @@ In iOS, iPadOS, and macOS, Spotlight helps people find content across all apps i
 
 ## [Change log](https://developer.apple.com/design/human-interface-guidelines/searching#Change-log)
 
-Date| Changes  
+Date| Changes
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
 ---|---  
-June 9, 2025| Updated best practices with general guidance from Search fields, and reorganized guidance for systemwide search.  
-  
+June 9, 2025| Updated best practices with general guidance from Search fields, and reorganized guidance for systemwide search.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

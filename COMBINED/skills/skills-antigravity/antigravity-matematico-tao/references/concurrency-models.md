@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # Modelos Formais de Concorrência para Kotlin/Android
 
 ## 1. Modelo CSP (Communicating Sequential Processes)
@@ -302,3 +309,9 @@ audioManager.registerAudioDeviceCallback(callback, null)
 override fun onStart() { register(callback) }
 override fun onStop() { unregister(callback) }
 ```
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

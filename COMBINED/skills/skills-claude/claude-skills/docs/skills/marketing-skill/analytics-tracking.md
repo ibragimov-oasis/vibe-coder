@@ -1,6 +1,10 @@
 ---
 title: "Analytics Tracking — Agent Skill for Marketing"
 description: "Set up, audit, and debug analytics tracking implementation — GA4, Google Tag Manager, event taxonomy, conversion tracking, and data quality. Use when. Agent skill for Claude Code, Codex CLI, Gemini CLI, OpenClaw."
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
 ---
 
 # Analytics Tracking
@@ -374,3 +378,9 @@ All output follows the structured communication standard:
 - **analytics-tracking** (this skill): covers setup only. For dashboards and reporting, use campaign-analytics.
 - **seo-audit**: Use for technical SEO. NOT for analytics tracking (though both use GA4 data).
 - **gdpr-dsgvo-expert**: Use for GDPR compliance posture. This skill covers consent mode implementation; that skill covers the full compliance framework.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

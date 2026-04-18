@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # Verification Checklist — README CONCEPTS Section
 
 Rules for verifying CONCEPTS table accuracy. Each rule is checked during every workflow run.
@@ -43,3 +50,9 @@ Rules for verifying CONCEPTS table accuracy. Each rule is checked during every w
 - **Source to compare against**: Official docs page content
 - **Date added**: 2026-03-02
 - **Origin**: Memory description missing auto memory; MCP Servers location missing `.mcp.json`
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

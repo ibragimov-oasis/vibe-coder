@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-gsd
+---
+
 <purpose>
 
 Drive all remaining milestone phases autonomously. For each incomplete phase: discuss → plan → execute using Skill() flat invocations. Pauses only for explicit user decisions (grey area acceptance, blockers, validation requests). Re-reads ROADMAP.md after each phase to catch dynamically inserted phases.
@@ -889,3 +896,10 @@ When any phase operation fails or a blocker is detected, present 3 options via A
 - [ ] UI phase and UI review respect workflow.ui_phase and workflow.ui_review config toggles
 - [ ] UI review is advisory (non-blocking) — phase proceeds to iterate regardless of score
 </success_criteria>
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-gsd]] — core-gsd
+- [[MOC - Skills]] — Skills library
+

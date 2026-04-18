@@ -4,6 +4,10 @@ description: "Web fuzzing with ffuf"
 risk: safe
 source: "https://github.com/jthack/ffuf_claude_skill"
 date_added: "2026-02-27"
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 # Ffuf Claude Skill
@@ -21,3 +25,9 @@ Use this skill when you need to work with web fuzzing with ffuf.
 This skill provides guidance and patterns for web fuzzing with ffuf.
 
 For more information, see the [source repository](https://github.com/jthack/ffuf_claude_skill).
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

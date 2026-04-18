@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
+---
+
 # Commands Quick Reference
 
 > 59 slash commands installed globally. Type `/` in any Claude Code session to invoke.
@@ -157,3 +164,9 @@ Context getting heavy?          → /context-budget then /checkpoint
 Want to extract what you learned? → /learn-eval then /evolve
 Running repeated tasks?         → /loop-start
 ```
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

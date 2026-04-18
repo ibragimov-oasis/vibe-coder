@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-praisonai
+---
+
 # PraisonAI Agents - Real-World Execution Benchmark
 
 **Generated:** 2026-01-13 14:42:59
@@ -70,3 +77,10 @@ export OPENAI_API_KEY=your_key
 cd praisonai-agents
 python benchmarks/real_benchmark.py
 ```
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/praisonai]] — PraisonAI
+- [[000 - Map of Maps]] — Map of Maps
+

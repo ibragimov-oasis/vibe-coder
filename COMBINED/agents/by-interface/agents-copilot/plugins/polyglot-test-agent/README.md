@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/agent
+  - source/by-interface/agents-copilot
+---
+
 # Polyglot Test Agent Plugin
 
 Multi-agent pipeline for generating comprehensive unit tests across any programming language. Orchestrates research, planning, and implementation phases using specialized agents to produce tests that compile, pass, and follow project conventions.
@@ -60,3 +67,9 @@ This plugin is part of [Awesome Copilot](https://github.com/github/awesome-copil
 ## License
 
 MIT
+
+## 🔗 Связи
+
+- [[MOC - Agents]] — Agent catalog
+- [[agents/agents-copilot]] — Interface: agents-copilot
+

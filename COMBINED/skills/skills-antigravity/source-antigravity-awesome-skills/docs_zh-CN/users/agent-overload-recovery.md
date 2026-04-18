@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # 针对上下文过载和截断的 Antigravity 恢复
 
 当 Antigravity 为当前任务加载了太多技能并开始出现截断、上下文或轨迹转换错误时，请使用本指南。
@@ -52,3 +59,9 @@ AG_REPO_SKILLS_DIR=/path/to/repo/skills ./scripts/activate-skills.sh brainstormi
 - 在打开非常大的仓库之前使用包激活
 - 保持特定于角色的栈活动，归档其余部分
 - 如果主机存储了损坏的会话状态，请在恢复较小的活动集之前清除该主机状态
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

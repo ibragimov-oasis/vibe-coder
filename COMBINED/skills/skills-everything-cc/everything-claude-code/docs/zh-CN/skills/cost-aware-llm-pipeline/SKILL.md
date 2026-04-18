@@ -2,6 +2,10 @@
 name: cost-aware-llm-pipeline
 description: LLM API 使用成本优化模式 —— 基于任务复杂度的模型路由、预算跟踪、重试逻辑和提示缓存。
 origin: ECC
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-everything-cc
 ---
 
 # 成本感知型 LLM 流水线
@@ -181,3 +185,9 @@ def process(text: str, config: Config, tracker: CostTracker) -> tuple[Result, Co
 * 成本快速累积的批处理流水线
 * 需要智能路由的多模型架构
 * 需要预算护栏的生产系统
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

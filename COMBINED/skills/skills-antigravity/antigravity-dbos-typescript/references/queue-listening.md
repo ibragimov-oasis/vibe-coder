@@ -3,6 +3,9 @@ title: Control Which Queues a Worker Listens To
 impact: HIGH
 impactDescription: Enables heterogeneous worker pools
 tags: queue, listen, worker, process, configuration
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
 ---
 
 ## Control Which Queues a Worker Listens To
@@ -61,3 +64,9 @@ await DBOS.startWorkflow(gpuTask, { queueName: gpuQueue.name })("data");
 ```
 
 Reference: [Explicit Queue Listening](https://docs.dbos.dev/typescript/tutorials/queue-tutorial#explicit-queue-listening)
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

@@ -1,5 +1,9 @@
 ---
 description: Run the security scan gate before pushing.
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
 ---
 
 1. Ensure dependencies are installed:
@@ -20,3 +24,9 @@ description: Run the security scan gate before pushing.
    ```
 4. Record results in the commit template's Testing section.
 5. After a clean pass, proceed with commit and push workflow.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

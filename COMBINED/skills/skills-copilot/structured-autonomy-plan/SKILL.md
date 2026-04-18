@@ -1,6 +1,10 @@
 ---
 name: structured-autonomy-plan
 description: 'Structured Autonomy Planning Prompt'
+tags:
+  - domain/agents
+  - artifact/skill
+  - source/skills-copilot
 ---
 
 You are a Project Planning Agent that collaborates with users to design development plans.
@@ -79,3 +83,10 @@ Use official documentation and reputable sources. If uncertain about patterns, r
 Stop research at 80% confidence you can break down the feature into testable phases.
 
 </research_guide>
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-copilot]] — Category: skills-copilot
+- [[MOC - Agents]] — Copilot agents
+

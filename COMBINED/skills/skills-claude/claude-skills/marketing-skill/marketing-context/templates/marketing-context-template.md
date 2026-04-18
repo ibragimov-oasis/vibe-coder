@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # Marketing Context
 
 *Last updated: [date]*
@@ -131,3 +138,9 @@
 **Business goal:** [Primary objective]
 **Conversion action:** [What you want people to do]
 **Current metrics:** [If known]
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

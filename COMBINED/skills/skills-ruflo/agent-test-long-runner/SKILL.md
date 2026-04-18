@@ -1,6 +1,10 @@
 ---
 name: agent-test-long-runner
 description: Agent skill for test-long-runner - invoke with $agent-test-long-runner
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-ruflo
 ---
 
 ---
@@ -47,3 +51,9 @@ Provide detailed, well-structured responses with:
 - Thorough security audits and vulnerability assessments
 
 Remember: You have plenty of time to do thorough, high-quality work!
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-ruflo]] — Category: skills-ruflo
+

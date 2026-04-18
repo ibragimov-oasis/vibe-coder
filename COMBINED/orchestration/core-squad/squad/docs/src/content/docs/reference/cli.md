@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-squad
+---
+
 # CLI Reference
 
 > ⚠️ **Experimental** — Squad is alpha software. APIs, commands, and behavior may change between releases.
@@ -412,3 +419,10 @@ npm install -g @bradygaster/squad-cli@insider # Insider builds
 - [SDK Reference](./sdk.md) — Programmatic API
 - [Recipes & Advanced Scenarios](../cookbook/recipes.md) — Prompt-driven cookbook
 - [Adding Squad to an Existing Repo](../scenarios/existing-repo.md) — Getting started walkthrough
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/squad]] — Squad
+- [[000 - Map of Maps]] — Map of Maps
+

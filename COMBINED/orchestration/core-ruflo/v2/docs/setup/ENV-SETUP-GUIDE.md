@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # .env Configuration Guide for Claude-Flow
 
 ## Overview
@@ -268,3 +275,10 @@ For issues or questions:
 - GitHub Issues: https://github.com/ruvnet/claude-flow/issues
 - Documentation: https://github.com/ruvnet/claude-flow
 - Agentic-Flow: https://github.com/ruvnet/agentic-flow
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

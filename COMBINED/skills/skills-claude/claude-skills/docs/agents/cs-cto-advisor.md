@@ -1,6 +1,10 @@
 ---
 title: "CTO Advisor Agent — AI Coding Agent & Codex Skill"
 description: "Technical leadership advisor for CTOs covering technology strategy, team scaling, architecture decisions, and engineering excellence. Agent-native orchestrator for Claude Code, Codex, Gemini CLI."
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
 ---
 
 # CTO Advisor Agent
@@ -413,3 +417,9 @@ echo "- Process improvements identified"
 **Sprint:** sprint-11-05-2025 (Day 3)
 **Status:** Production Ready
 **Version:** 1.0
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

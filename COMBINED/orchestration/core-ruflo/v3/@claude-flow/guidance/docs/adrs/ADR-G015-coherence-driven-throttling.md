@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # ADR-G015: Coherence-Driven Privilege Throttling
 
 **Status:** Accepted
@@ -68,3 +75,10 @@ When a budget is exhausted, the governor blocks the relevant action category reg
 - **Hard timeout**: Too blunt; kills good agents along with bad ones
 - **Human-in-the-loop checkpoints**: Doesn't scale; blocks autonomy
 - **Token budget only**: Doesn't detect quality degradation; an agent can burn tokens on correct-but-useless work
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

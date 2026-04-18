@@ -1,6 +1,10 @@
 ---
 name: "release-manager"
 description: "Use when the user asks to plan releases, manage changelogs, coordinate deployments, create release branches, or automate versioning."
+tags:
+  - domain/agents
+  - artifact/skill
+  - source/skills-claude
 ---
 
 # Release Manager
@@ -488,3 +492,10 @@ def monitor_deployment():
 7. **Iteration**: Continuously improve based on feedback and metrics
 
 The Release Manager skill transforms chaotic deployments into predictable, reliable releases that build confidence across your entire organization.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+- [[MOC - Agents]] — Claude agents
+

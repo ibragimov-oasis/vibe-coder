@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/combined-root
+---
+
 обновление: 04.04.2026
 🎯 REFINED STRUCTURE: HIERARCHICAL + PREFIX-SOURCE
 
@@ -727,3 +734,8 @@ COMBINED/agents/by-interface/copilot/
 </plan>
 Now let me analyze the structure patterns across different repository types. Let me create a comprehensive analysis and plan:
 <plan>
+
+## 🔗 Связи
+
+- [[000 - Map of Maps]] — Map of Maps
+

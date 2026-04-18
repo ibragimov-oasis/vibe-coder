@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # Claude API — cURL / Raw HTTP
 
 Use these examples when the user needs raw HTTP requests or is working in a language without an official SDK.
@@ -162,3 +169,9 @@ curl https://api.anthropic.com/v1/messages \
 | `x-api-key`         | Your API key       | Authentication             |
 | `anthropic-version` | `2023-06-01`       | API version                |
 | `anthropic-beta`    | Beta feature IDs   | Required for beta features |
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

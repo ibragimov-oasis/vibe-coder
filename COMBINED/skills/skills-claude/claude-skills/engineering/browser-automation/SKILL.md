@@ -1,6 +1,10 @@
 ---
 name: "browser-automation"
 description: "Use when the user asks to automate browser tasks, scrape websites, fill forms, capture screenshots, extract structured data from web pages, or build web automation workflows. NOT for testing — use playwright-pro for that."
+tags:
+  - domain/agents
+  - artifact/skill
+  - source/skills-claude
 ---
 
 # Browser Automation - POWERFUL
@@ -264,3 +268,10 @@ All scripts are stdlib-only. Run `python3 <script> --help` for full usage.
 - **api-test-suite-builder** — When the website has a public API, hit the API directly instead of scraping the rendered page. Faster, more reliable, less detectable.
 - **performance-profiler** — If your automation scripts are slow, profile the bottlenecks before adding concurrency.
 - **env-secrets-manager** — For securely managing credentials used in authenticated automation workflows.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+- [[MOC - Agents]] — Claude agents
+

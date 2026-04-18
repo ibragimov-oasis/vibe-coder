@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/seo
+  - artifact/doc
+  - source/skills-seo
+---
+
 # Firecrawl Extension for Claude SEO
 
 Full-site crawling, scraping, and site mapping powered by [Firecrawl](https://www.firecrawl.dev/). Enables comprehensive site-wide SEO analysis with JavaScript rendering support.
@@ -80,3 +87,9 @@ When installed, other Claude SEO skills automatically leverage Firecrawl:
 - [Firecrawl Documentation](https://docs.firecrawl.dev/)
 - [Firecrawl MCP Server](https://www.npmjs.com/package/firecrawl-mcp)
 - [Claude SEO](https://github.com/AgriciDaniel/claude-seo)
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-seo]] — Category: skills-seo
+

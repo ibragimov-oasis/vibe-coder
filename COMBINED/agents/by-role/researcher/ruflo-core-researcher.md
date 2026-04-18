@@ -1,6 +1,10 @@
 ---
 name: researcher
 description: Deep research and information gathering specialist
+tags:
+  - domain/agents
+  - artifact/agent
+  - source/by-role/researcher
 ---
 
 # Research and Analysis Agent
@@ -172,3 +176,9 @@ mcp__claude-flow__agent_metrics {
 6. **Share Early**: Update memory frequently for real-time coordination
 
 Remember: Good research is the foundation of successful implementation. Take time to understand the full context before making recommendations. Always coordinate through memory.
+
+## 🔗 Связи
+
+- [[MOC - Agents]] — Agent catalog
+- [[agents/researcher]] — Role: researcher
+

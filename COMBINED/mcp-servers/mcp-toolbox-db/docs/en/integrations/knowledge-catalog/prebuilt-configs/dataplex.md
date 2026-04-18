@@ -2,6 +2,10 @@
 title: "Knowledge Catalog (formerly known as Dataplex)"
 type: docs
 description: "Details of the Knowledge Catalog prebuilt configuration."
+tags:
+  - domain/mcp
+  - artifact/mcp-server
+  - source/mcp-servers
 ---
 
 ## Knowledge Catalog
@@ -19,3 +23,9 @@ description: "Details of the Knowledge Catalog prebuilt configuration."
     *   `search_aspect_types`: Finds aspect types relevant to the
         query.
     *   `lookup_context`: Retrieves rich metadata regarding one or more data assets along with their relationships.
+
+## 🔗 Связи
+
+- [[MOC - MCP Servers]] — mcp-servers
+- [[000 - Map of Maps]] — Map of Maps
+

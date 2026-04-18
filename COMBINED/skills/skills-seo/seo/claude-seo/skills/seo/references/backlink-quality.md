@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/seo
+  - artifact/doc
+  - source/skills-seo
+---
+
 # Backlink Quality Scoring Methodology
 
 ## Toxic Link Indicators (30 Patterns)
@@ -81,3 +88,9 @@ domain:spamsite1.com
 domain:linkfarm2.net
 domain:pbn-network3.xyz
 ```
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-seo]] — Category: skills-seo
+

@@ -16,6 +16,10 @@ mcp-servers:
       'hashicorp/terraform-mcp-server:latest'
     ]
     tools: ["*"]
+tags:
+  - domain/agents
+  - artifact/agent
+  - source/by-interface/agents-copilot
 ---
 
 # 🧭 Terraform Agent Instructions
@@ -390,3 +394,9 @@ Before considering code generation complete, verify:
 - [HCP Terraform Documentation](https://developer.hashicorp.com/terraform/cloud-docs)
 - [Terraform Registry](https://registry.terraform.io/)
 - [Terraform Test Documentation](https://developer.hashicorp.com/terraform/language/tests)
+
+## 🔗 Связи
+
+- [[MOC - Agents]] — Agent catalog
+- [[agents/agents-copilot]] — Interface: agents-copilot
+

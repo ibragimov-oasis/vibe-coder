@@ -5,6 +5,10 @@ category: data-engineering
 risk: safe
 source: community
 date_added: "2026-03-24"
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 # Snowflake Development
@@ -231,3 +235,9 @@ Snowflake-specific configs (combine with any materialization):
 | "Numeric value not recognized" | VARIANT not cast | `src:field::NUMBER(10,2)` |
 | Task not running | Forgot to resume | `ALTER TASK ... RESUME` |
 | DT refresh failing | Schema change or tracking disabled | Use explicit columns, check change tracking |
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

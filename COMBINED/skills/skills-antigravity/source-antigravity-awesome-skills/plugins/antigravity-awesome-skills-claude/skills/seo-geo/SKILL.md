@@ -12,6 +12,10 @@ allowed-tools:
   - Glob
   - Bash
   - WebFetch
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 # AI Search / GEO Optimization (February 2026)
@@ -252,3 +256,9 @@ If DataForSEO MCP tools are available, use `ai_optimization_chat_gpt_scraper` to
 | AI crawlers blocked by robots.txt | Report exactly which crawlers are blocked and which are allowed. Provide specific robots.txt directives to add for enabling AI search visibility. |
 | No llms.txt found | Note the absence and provide a ready-to-use llms.txt template based on the site's content structure. |
 | No structured data detected | Report the gap and provide specific schema recommendations (Article, Organization, Person) for improving AI discoverability. |
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

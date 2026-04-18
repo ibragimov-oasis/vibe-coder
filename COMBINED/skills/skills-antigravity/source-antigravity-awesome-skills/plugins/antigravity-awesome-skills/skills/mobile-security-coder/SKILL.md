@@ -4,6 +4,10 @@ description: Expert in secure mobile coding practices specializing in input vali
 risk: unknown
 source: community
 date_added: '2026-02-27'
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 ## Use this skill when
@@ -180,3 +184,9 @@ Expert mobile security developer with comprehensive knowledge of mobile security
 - "Configure Flutter platform channel security with message validation"
 - "Set up secure Xamarin native interop with assembly protection"
 - "Implement secure Cordova plugin communication with sandboxing"
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

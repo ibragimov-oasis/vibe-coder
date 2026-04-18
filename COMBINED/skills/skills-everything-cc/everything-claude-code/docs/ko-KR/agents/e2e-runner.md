@@ -3,6 +3,10 @@ name: e2e-runner
 description: E2E 테스트 전문가. Vercel Agent Browser (선호) 및 Playwright 폴백을 사용합니다. E2E 테스트 생성, 유지보수, 실행에 사용하세요. 테스트 여정 관리, 불안정한 테스트 격리, 아티팩트 업로드 (스크린샷, 동영상, 트레이스), 핵심 사용자 흐름 검증을 수행합니다.
 tools: ["Read", "Write", "Edit", "Bash", "Grep", "Glob"]
 model: sonnet
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
 ---
 
 # E2E 테스트 러너
@@ -101,3 +105,9 @@ test('flaky: market search', async ({ page }) => {
 ---
 
 **기억하세요**: E2E 테스트는 프로덕션 전 마지막 방어선입니다. 단위 테스트가 놓치는 통합 문제를 잡습니다. 안정성, 속도, 커버리지에 투자하세요.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

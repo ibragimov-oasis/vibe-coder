@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/seo
+  - artifact/doc
+  - source/skills-seo
+---
+
 # E-E-A-T Evaluation Framework
 ## Updated per Google Quality Rater Guidelines: September 11, 2025
 ## Plus December 2025 Core Update Implications
@@ -212,3 +219,9 @@ The December 2025 update elevated the "Experience" dimension as a key differenti
 1. Continue publishing high-quality content
 2. Monitor and respond to reputation issues
 3. Keep credentials and certifications current
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-seo]] — Category: skills-seo
+

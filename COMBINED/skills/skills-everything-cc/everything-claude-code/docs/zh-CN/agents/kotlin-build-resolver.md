@@ -3,6 +3,10 @@ name: kotlin-build-resolver
 description: Kotlin/Gradle 构建、编译和依赖错误解决专家。以最小改动修复构建错误、Kotlin 编译器错误和 Gradle 问题。适用于 Kotlin 构建失败时。
 tools: ["Read", "Write", "Edit", "Bash", "Grep", "Glob"]
 model: sonnet
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
 ---
 
 # Kotlin 构建错误解决器
@@ -117,3 +121,9 @@ kotlin {
 最终：`Build Status: SUCCESS/FAILED | Errors Fixed: N | Files Modified: list`
 
 有关详细的 Kotlin 模式和代码示例，请参阅 `skill: kotlin-patterns`。
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

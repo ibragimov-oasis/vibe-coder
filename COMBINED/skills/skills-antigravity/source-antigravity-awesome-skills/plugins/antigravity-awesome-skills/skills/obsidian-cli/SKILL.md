@@ -4,6 +4,10 @@ description: "Use the Obsidian CLI to read, create, search, and manage vault con
 risk: unknown
 source: "https://github.com/kepano/obsidian-skills"
 date_added: "2026-03-21"
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 # Obsidian CLI
@@ -113,3 +117,9 @@ obsidian dev:mobile on
 ```
 
 Run `obsidian help` to see additional developer commands including CDP and debugger controls.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

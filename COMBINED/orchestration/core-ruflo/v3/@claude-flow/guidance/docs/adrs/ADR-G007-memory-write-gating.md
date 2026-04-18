@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # ADR-G007: Memory Write Gating -- Authority, Rate Limiting, TTL, and Decay
 
 ## Status
@@ -107,3 +114,10 @@ Instruct agents via their prompts to "only write to your assigned namespace." Re
 - `v3/@claude-flow/guidance/src/types.ts` -- `GuidanceRule.domains`, `GuidanceRule.repoScopes`, `GuidanceRule.toolClasses`
 - ADR-G004 -- Four enforcement gates that memory gating builds on
 - ADR-G008 -- Optimizer loop that evolves memory governance rules
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

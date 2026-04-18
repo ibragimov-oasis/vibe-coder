@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-copilot
+---
+
 # Testcontainers JDBC
 
 Testing JPA repositories with real databases using Testcontainers.
@@ -232,3 +239,9 @@ class OrderServiceTest {
 3. Use specific versions (postgres:18) not latest
 4. Keep container config in static field
 5. Use @DataJpaTest with AutoConfigureTestDatabase.Replace.NONE
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-copilot]] — Category: skills-copilot
+

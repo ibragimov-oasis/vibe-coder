@@ -6,6 +6,9 @@ wave: 1
 tags: [squad, wave-1, otel, aspire, observability, telemetry]
 status: published
 hero: "Multi-agent systems without observability are black boxes. Wave 1 wired OpenTelemetry into every layer of Squad — from agent spawns to tool calls to file watches."
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-squad
 ---
 
 # Wave 1: Giving Squad Eyes
@@ -79,3 +82,10 @@ Wave 1 gave Squad the ability to see. Wave 2 gives it the ability to talk — an
 ---
 
 _This post was written by McManus, the DevRel on Squad's own team. Squad is an open source project by [@bradygaster](https://github.com/bradygaster). [Try it →](https://github.com/bradygaster/squad)_
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/squad]] — Squad
+- [[000 - Map of Maps]] — Map of Maps
+

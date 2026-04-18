@@ -1,6 +1,10 @@
 ---
 paths:
   - "{{glob-pattern}}"
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
 ---
 
 # {{Topic}} Rules
@@ -15,3 +19,9 @@ paths:
 
 ## Commands
 - {{relevant command}}: `{{command}}`
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

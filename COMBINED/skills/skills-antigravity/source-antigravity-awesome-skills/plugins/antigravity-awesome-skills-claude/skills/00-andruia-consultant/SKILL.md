@@ -6,6 +6,10 @@ category: andruia
 risk: safe
 source: personal
 date_added: "2026-02-27"
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 ## When to Use
@@ -58,3 +62,9 @@ Para ambos escenarios, tras recibir las respuestas:
 
 1. **Contexto Inteligente**: No mezcles datos de proyectos anteriores. Cada carpeta es una entidad única.
 2. **Estándar de Diamante**: Prioriza siempre soluciones escalables, seguras y estéticamente superiores.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

@@ -2,6 +2,10 @@
 description: 'Generate or update specification documents for new or existing functionality.'
 name: 'Specification'
 tools: ['changes', 'search/codebase', 'edit/editFiles', 'extensions', 'web/fetch', 'findTestFiles', 'githubRepo', 'new', 'openSimpleBrowser', 'problems', 'runCommands', 'runTasks', 'runTests', 'search', 'search/searchResults', 'runCommands/terminalLastCommand', 'runCommands/terminalSelection', 'testFailure', 'usages', 'vscodeAPI', 'microsoft.docs.mcp', 'github']
+tags:
+  - domain/agents
+  - artifact/agent
+  - source/by-interface/agents-copilot
 ---
 # Specification mode instructions
 
@@ -126,3 +130,9 @@ tags: [Optional: List of relevant tags or categories, e.g., `infrastructure`, `p
 [Link to related spec 1]
 [Link to relevant external documentation]
 ```
+
+## 🔗 Связи
+
+- [[MOC - Agents]] — Agent catalog
+- [[agents/agents-copilot]] — Interface: agents-copilot
+

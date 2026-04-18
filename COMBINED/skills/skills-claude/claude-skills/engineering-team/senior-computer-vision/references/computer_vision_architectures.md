@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # Computer Vision Architectures
 
 Comprehensive guide to CNN and Vision Transformer architectures for object detection, segmentation, and image classification.
@@ -681,3 +688,9 @@ for i, f in enumerate(features):
 - [Detectron2 Model Zoo](https://github.com/facebookresearch/detectron2/blob/main/MODEL_ZOO.md)
 - [MMDetection Model Zoo](https://github.com/open-mmlab/mmdetection/blob/main/docs/en/model_zoo.md)
 - [Ultralytics YOLOv8](https://docs.ultralytics.com/)
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

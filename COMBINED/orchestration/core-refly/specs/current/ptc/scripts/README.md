@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-refly
+---
+
 # PTC Debug Scripts
 
 Python scripts for inspecting PTC (Programmatic Tool Calling) agent runs in the Refly database.
@@ -124,3 +131,9 @@ python ptc_verify.py sk-def456
 # Verify by canvas + title
 python ptc_verify.py c-abc123 "My workflow title"
 ```
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-refly]] — core-refly
+

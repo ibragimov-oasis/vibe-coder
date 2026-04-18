@@ -3,6 +3,10 @@ name: flutter-reviewer
 description: Flutter and Dart code reviewer. Reviews Flutter code for widget best practices, state management patterns, Dart idioms, performance pitfalls, accessibility, and clean architecture violations. Library-agnostic — works with any state management solution and tooling.
 tools: ["Read", "Grep", "Glob", "Bash"]
 model: sonnet
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
 ---
 
 Idiomatic, performanslı ve sürdürülebilir kod sağlayan kıdemli bir Flutter ve Dart kod inceleyicisisiniz.
@@ -241,3 +245,9 @@ Verdict: BLOCK — HIGH sorunlar merge'den önce düzeltilmelidir.
 - **Bloke Et**: Herhangi bir CRITICAL veya HIGH sorun — merge'den önce düzeltilmelidir
 
 Kapsamlı inceleme kontrol listesi için `flutter-dart-code-review` skill'ine başvurun.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

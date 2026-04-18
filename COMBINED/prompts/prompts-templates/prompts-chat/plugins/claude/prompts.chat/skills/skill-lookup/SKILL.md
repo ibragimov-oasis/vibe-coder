@@ -5,6 +5,10 @@ description: >
   Use when the user asks to find skills, browse skill catalogs, install a skill for Claude,
   or extend Claude's capabilities with reusable AI agent components.
 license: MIT
+tags:
+  - domain/prompts
+  - artifact/prompt
+  - source/prompts-templates
 ---
 
 ## Workflow
@@ -74,3 +78,9 @@ When the user asks to install a skill:
 - Present search results in a readable format with file counts
 - When installing, confirm the skill was saved successfully
 - Explain what the skill does and when it activates
+
+## 🔗 Связи
+
+- [[MOC - Prompts]] — Prompt library
+- [[MOC - System]] — System documentation
+

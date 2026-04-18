@@ -7,6 +7,10 @@ allowed-tools:
   - Write
   - Glob
   - Grep
+tags:
+  - domain/skills
+  - artifact/command
+  - source/commands
 ---
 <objective>
 Zero-friction idea capture — one Write call, one confirmation line.
@@ -32,3 +36,9 @@ $ARGUMENTS
 Execute the note workflow from @~/.claude/get-shit-done/workflows/note.md end-to-end.
 Capture the note, list notes, or promote to todo — depending on arguments.
 </process>
+
+## 🔗 Связи
+
+- [[MOC - System]] — commands
+- [[000 - Map of Maps]] — Map of Maps
+

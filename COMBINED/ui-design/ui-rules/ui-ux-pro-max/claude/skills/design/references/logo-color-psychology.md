@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/ui
+  - artifact/ui-component
+  - source/ui-design
+---
+
 # Logo Color Psychology
 
 ## Primary Color Meanings
@@ -99,3 +106,9 @@ Primary: #0077B6 | Secondary: #00A896 | Accent: #FFFFFF
 
 **Food Warm:**
 Primary: #DC2626 | Secondary: #F97316 | Accent: #CA8A04
+
+## 🔗 Связи
+
+- [[MOC - UI Design]] — ui-design
+- [[000 - Map of Maps]] — Map of Maps
+

@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-squad
+---
+
 # Squad team for Flask API
 
 ## Identity
@@ -21,3 +28,10 @@
 - **GitHub:** @bob
 - **Responsibilities:** Testing strategy, test coverage, performance
 - **Charter:** `.squad/agents/bob/charter.md`
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/squad]] — Squad
+- [[000 - Map of Maps]] — Map of Maps
+

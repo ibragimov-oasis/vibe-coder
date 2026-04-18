@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/reference
+  - source/reference
+---
+
 # Changelog
 
 All notable changes to Claude HUD will be documented in this file.
@@ -247,3 +254,9 @@ Initial release of Claude HUD as a Claude Code statusline plugin.
 - Todo progress display
 - Native token data from Claude Code stdin
 - Transcript parsing for tool/agent/todo activity
+
+## 🔗 Связи
+
+- [[MOC - System]] — reference
+- [[000 - Map of Maps]] — Map of Maps
+

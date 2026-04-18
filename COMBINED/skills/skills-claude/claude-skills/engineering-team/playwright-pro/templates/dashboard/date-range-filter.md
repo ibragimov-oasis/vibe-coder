@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # Date Range Filter Template
 
 Tests date picker interaction, preset ranges, and data refresh on selection.
@@ -134,3 +141,9 @@ test.describe('Date Range Filter', () => {
 | Data reload | API called again on range change |
 | Invalid range | End before start → apply disabled |
 | URL persistence | Range in URL survives reload |
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

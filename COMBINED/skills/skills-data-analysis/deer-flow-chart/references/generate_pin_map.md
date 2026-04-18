@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-data-analysis
+---
+
 # generate_pin_map — 点标地图（中国）
 
 ## 功能概述
@@ -21,3 +28,9 @@ POI 名称需包含足够的地理限定（城市+地标）；根据业务可在
 
 ## 返回结果
 - 返回点标地图 URL，并在 `_meta.spec` 中保存点位与弹窗配置。
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-data-analysis]] — Category: skills-data-analysis
+

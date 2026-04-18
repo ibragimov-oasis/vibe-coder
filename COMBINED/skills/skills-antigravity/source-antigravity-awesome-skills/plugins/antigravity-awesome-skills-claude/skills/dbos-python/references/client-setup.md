@@ -3,6 +3,9 @@ title: Initialize DBOSClient for External Access
 impact: HIGH
 impactDescription: Enables external applications to interact with DBOS
 tags: client, setup, initialization, external
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
 ---
 
 ## Initialize DBOSClient for External Access
@@ -55,3 +58,9 @@ Beyond `enqueue`, DBOSClient mirrors the DBOS API. Use the same patterns from ot
 | `client.retrieve_workflow()` | `DBOS.retrieve_workflow()` |
 
 Reference: [DBOSClient](https://docs.dbos.dev/python/reference/client)
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

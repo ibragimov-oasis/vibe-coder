@@ -4,6 +4,10 @@ description: Creates optimized meta titles, descriptions, and URL suggestions ba
 risk: unknown
 source: community
 date_added: '2026-02-27'
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 ## Use this skill when
@@ -89,3 +93,9 @@ Description: Action verb + benefit. Include keyword naturally. Clear CTA here �
 - Astro/Next.js: Component props and helmet setup
 
 Focus on psychological triggers and user benefits. Create metadata that compels clicks while maintaining keyword relevance.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

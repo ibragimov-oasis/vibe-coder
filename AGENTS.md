@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/root
+---
+
 # AGENTS.md — ULTRACAR v3.0 Universal Agent Catalog
 
 > **Read by ALL AI interfaces**: Claude Code, GitHub Copilot, Cursor, Gemini CLI, OpenAI Codex, Antigravity
@@ -366,3 +373,8 @@ Source: `COMBINED/skills/skills-claude/karpathy/`
 | Database queries | mega-coder | mcp-toolbox (20+ databases) |
 | File conversion | mega-researcher | markitdown (PDF, DOCX, images, audio) |
 | Full pipeline | mega-orchestrator | all tools |
+
+## 🔗 Связи
+
+- [[000 - Map of Maps]] — Map of Maps
+

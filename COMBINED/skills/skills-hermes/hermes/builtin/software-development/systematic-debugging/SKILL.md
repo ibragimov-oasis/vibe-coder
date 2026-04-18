@@ -8,6 +8,9 @@ metadata:
   hermes:
     tags: [debugging, troubleshooting, problem-solving, root-cause, investigation]
     related_skills: [test-driven-development, writing-plans, subagent-driven-development]
+  - domain/skills
+  - artifact/skill
+  - source/skills-hermes
 ---
 
 # Systematic Debugging
@@ -364,3 +367,9 @@ From debugging sessions:
 - New bugs introduced: Near zero vs common
 
 **No shortcuts. No guessing. Systematic always wins.**
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-hermes]] — Category: skills-hermes
+

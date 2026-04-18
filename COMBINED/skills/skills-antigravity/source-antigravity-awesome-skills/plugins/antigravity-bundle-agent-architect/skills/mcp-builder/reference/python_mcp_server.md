@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # Python MCP Server Implementation Guide
 
 ## Overview
@@ -717,3 +724,9 @@ Before finalizing your Python MCP server implementation, ensure:
 - [ ] All imports resolve correctly
 - [ ] Sample tool calls work as expected
 - [ ] Error scenarios handled gracefully
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # Tactical Pattern Checklist
 
 ## Aggregate design
@@ -23,3 +30,9 @@
 - Past-tense event names (for example, `OrderSubmitted`)
 - Include minimal, stable event payloads
 - Version event schema before breaking changes
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

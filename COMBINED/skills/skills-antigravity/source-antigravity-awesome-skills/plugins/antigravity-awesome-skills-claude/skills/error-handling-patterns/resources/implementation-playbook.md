@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # Error Handling Patterns Implementation Playbook
 
 This file contains detailed patterns, checklists, and code samples referenced by the skill.
@@ -633,3 +640,9 @@ def process_order(order_id: str) -> Order:
 - **assets/error-handling-checklist.md**: Review checklist for error handling
 - **assets/error-message-guide.md**: Writing helpful error messages
 - **scripts/error-analyzer.py**: Analyze error patterns in logs
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

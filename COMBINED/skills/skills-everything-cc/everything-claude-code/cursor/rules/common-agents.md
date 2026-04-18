@@ -1,6 +1,10 @@
 ---
 description: "Agent orchestration: available agents, parallel execution, multi-perspective analysis"
 alwaysApply: true
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
 ---
 # Agent Orchestration
 
@@ -51,3 +55,9 @@ For complex problems, use split role sub-agents:
 - Security expert
 - Consistency reviewer
 - Redundancy checker
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

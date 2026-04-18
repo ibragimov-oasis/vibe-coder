@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/memory
+  - artifact/memory
+  - source/memory
+---
+
 # Issue #543 Analysis: /claude-mem Slash Command Not Available Despite Installation
 
 **Date:** 2026-01-05
@@ -246,3 +253,9 @@ The reported issue is a **user expectation mismatch** combined with a **Windows 
 4. Windows-specific initialization issues are a known pattern
 
 The fix should include both user documentation improvements and potentially adding a `/claude-mem` diagnostic command for discoverability.
+
+## 🔗 Связи
+
+- [[MOC - Memory]] — memory
+- [[000 - Map of Maps]] — Map of Maps
+

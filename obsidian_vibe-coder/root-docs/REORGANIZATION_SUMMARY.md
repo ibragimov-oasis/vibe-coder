@@ -36,3 +36,9 @@ source: "../REORGANIZATION_SUMMARY.md"
 
 - [[root-docs/STRUCTURE_VALIDATION_REPORT]] — валидация итоговой структуры
 - [[root-docs/ALL_PHASES_COMPLETE]] — статус всех фаз
+
+## 🔗 Связи
+
+- [[000 - Map of Maps]] — Parent MOC
+- [[000 - Map of Maps]] — Map of Maps
+

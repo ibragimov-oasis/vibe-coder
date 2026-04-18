@@ -1,6 +1,10 @@
 ---
 title: "Tech Debt Tracker — Agent Skill for Codex & OpenClaw"
 description: "Scan codebases for technical debt, score severity, track trends, and generate prioritized remediation plans. Use when users mention tech debt, code. Agent skill for Claude Code, Codex CLI, Gemini CLI, OpenClaw."
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
 ---
 
 # Tech Debt Tracker
@@ -102,3 +106,9 @@ Together, these tools enable engineering teams to make data-driven decisions abo
 **Solution**: Start simple, iterate based on actual usage patterns.
 
 Technical debt management is not just about writing better code - it's about creating sustainable development practices that balance short-term delivery pressure with long-term system health. Use these tools and frameworks to make informed decisions about when and how to invest in debt reduction.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

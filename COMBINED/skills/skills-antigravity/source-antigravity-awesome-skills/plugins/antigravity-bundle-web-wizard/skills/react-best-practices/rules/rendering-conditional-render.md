@@ -3,6 +3,9 @@ title: Use Explicit Conditional Rendering
 impact: LOW
 impactDescription: prevents rendering 0 or NaN
 tags: rendering, conditional, jsx, falsy-values
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
 ---
 
 ## Use Explicit Conditional Rendering
@@ -38,3 +41,9 @@ function Badge({ count }: { count: number }) {
 // When count = 0, renders: <div></div>
 // When count = 5, renders: <div><span class="badge">5</span></div>
 ```
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

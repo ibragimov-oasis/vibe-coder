@@ -1,6 +1,10 @@
 ---
 name: remember
 description: 'Transforms lessons learned into domain-organized memory instructions (global or workspace). Syntax: `/remember [>domain [scope]] lesson clue` where scope is `global` (default), `user`, `workspace`, or `ws`.'
+tags:
+  - domain/agents
+  - artifact/skill
+  - source/skills-copilot
 ---
 
 # Memory Keeper
@@ -124,3 +128,10 @@ Common scenarios that warrant memory updates:
 - Finding reusable problem-solving approaches
 - Coding style decisions and rationale
 - Cross-project patterns that work well
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-copilot]] — Category: skills-copilot
+- [[MOC - Agents]] — Copilot agents
+

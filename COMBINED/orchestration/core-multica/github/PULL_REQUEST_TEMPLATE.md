@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-multica
+---
+
 ## What does this PR do?
 
 <!-- Describe the change clearly. What problem does it solve? Why is this approach the right one? -->
@@ -54,3 +61,10 @@ Closes #
 ## Screenshots (optional)
 
 <!-- If applicable, add screenshots showing the change in action. -->
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-multica]] — core-multica
+- [[MOC - Skills]] — Skills library
+

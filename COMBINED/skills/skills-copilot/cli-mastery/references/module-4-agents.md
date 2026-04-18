@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-copilot
+---
+
 # Module 4: Agent System
 
 ## Built-in Agents
@@ -40,3 +47,9 @@ Your detailed behavior instructions here.
 3. **Specialist handoff** — Identify task → `/agent` to pick specialist → review with `/fleet` or `/tasks`
 
 Key insight: The AI automatically delegates to subagents when appropriate.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-copilot]] — Category: skills-copilot
+

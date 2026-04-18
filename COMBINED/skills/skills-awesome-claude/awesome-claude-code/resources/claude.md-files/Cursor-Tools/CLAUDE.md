@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-awesome-claude
+---
+
 This is the vibe-tools repo. Here we build a cli tool that AI agents can use to execute commands and work with other AI agents.
 
 This repo uses pnpm as the package manager and script runner.
@@ -234,3 +241,9 @@ If people say "ask Gemini" or "ask Perplexity" or "ask Stagehand" they mean to u
 
 <!-- vibe-tools-version: 0.60.6 -->
 </vibe-tools Integration>
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-awesome-claude]] — Category: skills-awesome-claude
+

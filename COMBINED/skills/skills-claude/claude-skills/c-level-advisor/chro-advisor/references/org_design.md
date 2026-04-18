@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # Org Design Reference
 
 Spans of control, layering decisions, reorgs, title frameworks, career ladders, and the founder→professional management transition.
@@ -331,3 +338,9 @@ The hardest personal transition. Founder moves from doing to enabling.
 - Redirecting team members to their manager consistently
 - Measuring managers on outcomes, not just process adherence
 - Letting managers hire and fire without founder override (except final call on VPs)
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

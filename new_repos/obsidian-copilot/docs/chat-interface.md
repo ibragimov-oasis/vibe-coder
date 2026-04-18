@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/new_repos
+---
+
 # Chat Interface
 
 The Copilot chat panel is the main way you interact with AI in Obsidian. This guide covers everything about the chat UI: modes, message controls, history, settings, and advanced features like auto-compact.
@@ -157,3 +164,8 @@ You can also use the command palette: **New Copilot Chat**.
 - [System Prompts](system-prompts.md) — Customize AI behavior with system prompts
 - [Agent Mode and Tools](agent-mode-and-tools.md) — What Plus mode can do
 - [Projects](projects.md) — Isolated workspaces with separate histories
+
+## 🔗 Связи
+
+- [[000 - Map of Maps]] — Map of Maps
+

@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # Test Case Templates
 
 55 ready-to-use, parametrizable Playwright test templates. Each includes TypeScript and JavaScript examples with `{{placeholder}}` markers for customization.
@@ -121,3 +128,9 @@ Templates are loaded by `/pw:generate` when it detects a matching scenario. You 
 | [keyboard-navigation.md](accessibility/keyboard-navigation.md) | Tab order, focus |
 | [screen-reader.md](accessibility/screen-reader.md) | ARIA labels, live regions |
 | [color-contrast.md](accessibility/color-contrast.md) | Contrast ratios |
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

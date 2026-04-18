@@ -7,6 +7,10 @@ description: >
   Spanner is a fully managed database service from Google Cloud that combines 
   relational, key-value, graph, and search capabilities.
 no_list: true
+tags:
+  - domain/mcp
+  - artifact/mcp-server
+  - source/mcp-servers
 ---
 
 ## About
@@ -75,3 +79,9 @@ database: "my_db"
 | instance  |  string  |     true     | Name of the Spanner instance.                                                                                       |
 | database  |  string  |     true     | Name of the database on the Spanner instance                                                                        |
 | dialect   |  string  |    false     | Name of the dialect type of the Spanner database, must be either `googlesql` or `postgresql`. Default: `googlesql`. |
+
+## 🔗 Связи
+
+- [[MOC - MCP Servers]] — mcp-servers
+- [[000 - Map of Maps]] — Map of Maps
+

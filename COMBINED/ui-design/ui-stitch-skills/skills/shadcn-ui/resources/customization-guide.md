@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/ui
+  - artifact/ui-component
+  - source/ui-design
+---
+
 # shadcn/ui Customization Guide
 
 Learn how to customize shadcn/ui components to match your brand and design requirements.
@@ -514,3 +521,9 @@ import { designTokens } from "@/lib/design-tokens"
 - [CVA Documentation](https://cva.style/docs)
 - [Radix UI Theming](https://www.radix-ui.com/themes/docs/theme/overview)
 - [HSL Color Theory](https://www.w3.org/TR/css-color-3/#hsl-color)
+
+## 🔗 Связи
+
+- [[MOC - UI Design]] — ui-design
+- [[000 - Map of Maps]] — Map of Maps
+

@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/reference
+  - source/reference
+---
+
 # Python Projects Guide .cursorrules prompt file
 
 Author: bossjones
@@ -13,4 +20,9 @@ Developers can use this prompt to build well-structured, maintainable Python app
 
 ## Overview of .cursorrules prompt
 The .cursorrules file defines the behavior of an AI assistant that specializes in Python development. It is designed to guide developers in organizing projects with a clear structure by using separate directories for source code, tests, documentation, and configurations. It promotes modular design through distinct files for various components like models and services, and emphasizes configuration management via environment variables. The assistant advocates for strong error handling, comprehensive testing with pytest, and thorough documentation. It encourages dependency management using uv (preferred) and virtual environments, while ensuring code style consistency with Ruff. Additionally, it supports CI/CD implementation using GitHub Actions or GitLab CI. The assistant aims to provide AI-friendly coding practices with descriptive names, type hints, detailed comments, and rich error context. Code snippets and explanations are tailored to these principles, optimizing for clarity and leveraging AI for development tasks.
+
+## 🔗 Связи
+
+- [[MOC - System]] — reference
+- [[000 - Map of Maps]] — Map of Maps
 

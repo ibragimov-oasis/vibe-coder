@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-taskmaster
+---
+
 Quick install Task Master globally if not already installed.
 
 Execute this streamlined installation:
@@ -20,3 +27,10 @@ If you see "command not found" after installation, you may need to:
 Once installed, you can use all the Task Master commands!
 
 Quick test: Run `/project:help` to see all available commands.
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/task-master]] — Task-Master
+- [[000 - Map of Maps]] — Map of Maps
+

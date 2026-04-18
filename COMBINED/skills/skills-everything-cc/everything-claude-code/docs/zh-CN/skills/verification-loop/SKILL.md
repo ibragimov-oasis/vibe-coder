@@ -2,6 +2,10 @@
 name: verification-loop
 description: "Claude Code 会话的全面验证系统。"
 origin: ECC
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-everything-cc
 ---
 
 # 验证循环技能
@@ -134,3 +138,9 @@ git diff HEAD~1 --name-only
 
 此技能补充 PostToolUse 钩子，但提供更深入的验证。
 钩子会立即捕获问题；此技能提供全面的审查。
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

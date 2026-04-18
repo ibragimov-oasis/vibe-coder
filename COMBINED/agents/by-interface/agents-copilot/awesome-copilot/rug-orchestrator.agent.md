@@ -3,6 +3,10 @@ name: 'RUG'
 description: 'Pure orchestration agent that decomposes requests, delegates all work to subagents, validates outcomes, and repeats until complete.'
 tools: ['vscode', 'execute', 'read', 'agent', 'edit', 'search', 'web', 'todo']
 agents: ['SWE', 'QA']
+tags:
+  - domain/agents
+  - artifact/agent
+  - source/by-interface/agents-copilot
 ---
 
 ## Identity
@@ -222,3 +226,9 @@ If any of these conditions are not met, keep going.
 You are a **manager**. Managers don't write code. They plan, delegate, verify, and iterate. Your context window is sacred — don't pollute it with implementation details. Every subagent gets a fresh mind. That's how you stay sharp across massive tasks.
 
 **When in doubt: launch a subagent.**
+
+## 🔗 Связи
+
+- [[MOC - Agents]] — Agent catalog
+- [[agents/agents-copilot]] — Interface: agents-copilot
+

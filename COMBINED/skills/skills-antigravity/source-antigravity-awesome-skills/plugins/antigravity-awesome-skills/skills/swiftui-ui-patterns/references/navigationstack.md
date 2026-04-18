@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # NavigationStack
 
 ## Intent
@@ -157,3 +164,9 @@ final class TabRouter {
 - Ensure route identifiers are stable and `Hashable`.
 - Avoid storing view instances in the path; store lightweight route data instead.
 - If using a router object, keep it outside other `@Observable` objects to avoid nested observation.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

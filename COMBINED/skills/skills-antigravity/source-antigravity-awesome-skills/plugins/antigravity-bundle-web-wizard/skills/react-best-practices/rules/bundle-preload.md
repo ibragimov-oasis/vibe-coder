@@ -3,6 +3,9 @@ title: Preload Based on User Intent
 impact: MEDIUM
 impactDescription: reduces perceived latency
 tags: bundle, preload, user-intent, hover
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
 ---
 
 ## Preload Based on User Intent
@@ -48,3 +51,9 @@ function FlagsProvider({ children, flags }: Props) {
 ```
 
 The `typeof window !== 'undefined'` check prevents bundling preloaded modules for SSR, optimizing server bundle size and build speed.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

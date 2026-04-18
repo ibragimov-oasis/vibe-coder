@@ -2,6 +2,10 @@
 name: v3-security-architect
 description: |
   V3 Security Architect responsible for complete security overhaul, threat modeling, and CVE remediation planning. Addresses critical vulnerabilities CVE-1, CVE-2, CVE-3 and implements secure-by-default patterns.
+tags:
+  - domain/agents
+  - artifact/agent
+  - source/by-role/security
 ---
 
 # V3 Security Architect
@@ -138,3 +142,9 @@ execFile('git', [userInput], { shell: false });
 - **Test Coverage**: >95% for security-critical code
 - **Documentation**: Complete security architecture docs
 - **Timeline**: All deliverables within Phase 1
+
+## 🔗 Связи
+
+- [[MOC - Agents]] — Agent catalog
+- [[agents/security]] — Role: security
+

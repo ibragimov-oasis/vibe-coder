@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # Dependency Vulnerability Scanning Implementation Playbook
 
 This file contains detailed patterns, checklists, and code samples referenced by the skill.
@@ -542,3 +549,9 @@ python dependency_scanner.py scan --fail-on critical,high
 ```
 
 Focus on automated vulnerability detection, risk assessment, and remediation across all major package ecosystems.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

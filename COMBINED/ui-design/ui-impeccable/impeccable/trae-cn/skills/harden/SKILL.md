@@ -4,6 +4,10 @@ description: Make interfaces production-ready: error handling, empty states, onb
 version: 2.1.1
 user-invocable: true
 argument-hint: "[target]"
+tags:
+  - domain/ui
+  - artifact/ui-component
+  - source/ui-design
 ---
 
 Strengthen interfaces against edge cases, errors, internationalization issues, and real-world usage scenarios that break idealized designs.
@@ -387,3 +391,9 @@ Test thoroughly with edge cases:
 - **Empty**: Remove all data, test empty states
 
 Remember: You're hardening for production reality, not demo perfection. Expect users to input weird data, lose connection mid-flow, and use your product in unexpected ways. Build resilience into every component.
+
+## 🔗 Связи
+
+- [[MOC - UI Design]] — ui-design
+- [[000 - Map of Maps]] — Map of Maps
+

@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 
 # 📊 Agent 4: Performance Benchmarker - Implementation Report
 
@@ -134,4 +141,10 @@ report = analyzer.generate_performance_report(analysis)
 The Performance Benchmarker has successfully delivered a comprehensive suite of advanced metrics collection and performance optimization tools, ready for immediate deployment in the Claude Flow swarm benchmark system.
 
 **Next Steps**: Integration with main benchmark engine and coordination with other agents for complete system enhancement.
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
 

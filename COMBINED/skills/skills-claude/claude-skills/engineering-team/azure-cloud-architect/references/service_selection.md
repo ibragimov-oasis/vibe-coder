@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # Azure Service Selection Guide
 
 Quick reference for choosing the right Azure service based on workload requirements.
@@ -248,3 +255,9 @@ Quick reference for choosing the right Azure service based on workload requireme
 | Compliance monitoring | Azure Policy + Regulatory Compliance |
 
 **Every resource should have diagnostic settings** sending logs and metrics to a Log Analytics workspace. Non-negotiable for production.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

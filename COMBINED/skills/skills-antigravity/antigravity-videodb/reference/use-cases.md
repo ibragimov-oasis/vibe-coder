@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # Use Cases
 
 Common workflows and what VideoDB enables. For code details, see [api-reference.md](api-reference.md), [capture.md](capture.md), [editor.md](editor.md), and [search.md](search.md).
@@ -116,3 +123,9 @@ Every operation produces playable stream URLs. Embed in web players, share direc
 | Monitor live streams | Connect RTSP → Index scenes → Create alerts |
 | Reformat for social | Reframe to target aspect ratio |
 | Combine clips | Build timeline with multiple assets → Generate stream |
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

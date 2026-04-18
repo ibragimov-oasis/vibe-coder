@@ -2,6 +2,10 @@
 name: agentic-jujutsu
 version: 2.3.2
 description: Quantum-resistant, self-learning version control for AI agents with ReasoningBank intelligence and multi-agent coordination
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
 ---
 
 # Agentic Jujutsu - AI Agent Version Control
@@ -643,3 +647,10 @@ async function agentSwarm(taskList) {
 **Status**: ✅ Production Ready
 **License**: MIT
 **Maintained**: Active
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

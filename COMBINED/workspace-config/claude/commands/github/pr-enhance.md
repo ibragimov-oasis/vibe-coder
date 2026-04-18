@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/config
+  - source/workspace-config
+---
+
 # pr-enhance
 
 AI-powered pull request enhancements.
@@ -24,3 +31,9 @@ npx claude-flow github pr-enhance --pr-number 123 --add-tests
 # Full enhancement
 npx claude-flow github pr-enhance --pr-number 123 --add-tests --improve-docs
 ```
+
+## 🔗 Связи
+
+- [[MOC - System]] — workspace-config
+- [[000 - Map of Maps]] — Map of Maps
+

@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-squad
+---
+
 # BOOSTER
 
 > Booster Systems Engineer
@@ -129,3 +136,10 @@ Analyzed 20 CI runs from March 15. Identified 3 distinct failure categories:
 5. **YAML fix** — Quoted `file:` in step names that were causing YAML parse ambiguity (both new and pre-existing)
 
 **Pipeline dependency chain:** `preflight → smoke-test → publish-sdk → publish-cli`
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/squad]] — Squad
+- [[000 - Map of Maps]] — Map of Maps
+

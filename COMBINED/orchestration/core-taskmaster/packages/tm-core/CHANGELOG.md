@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-taskmaster
+---
+
 # Changelog
 
 ## null
@@ -100,3 +107,10 @@ This will be the first stable release of tm-core with complete implementations o
 - 🚧 Testing infrastructure (Task 123)
 - 🚧 Documentation (Task 124)
 - 🚧 Package finalization (Task 125)
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-taskmaster]] — core-taskmaster
+- [[MOC - Skills]] — Skills library
+

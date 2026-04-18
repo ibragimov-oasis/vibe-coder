@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/REPO_DOCS
+---
+
 # ULTRACAR — Master Repo Index
 
 Last updated: 2026-04-06
@@ -58,3 +65,9 @@ Last updated: 2026-04-06
 | 52 | skills-matt-pocock | 2k | Skills | COMBINED/skills/skills-development/ | ✅ done | 20 skills, TDD |
 | 53 | karpathy-skills | 1k | Skills | COMBINED/skills/skills-claude/karpathy/ | ✅ done | 4 principles |
 | 54 | claude-hud | 1k | Reference | COMBINED/reference/claude-hud/ | ✅ done | Real-time monitoring |
+
+## 🔗 Связи
+
+- [[000 - Map of Maps]] — REPO_DOCS
+- [[000 - Map of Maps]] — Map of Maps
+

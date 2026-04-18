@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # Prompt Engineering Patterns
 
 Specific prompt techniques with example inputs and expected outputs.
@@ -570,3 +577,9 @@ Return ONLY the JSON array, no additional text.
 | Complex problem solving | Tree of Thoughts |
 | Factual Q&A | RAG |
 | Prompt generation | Meta-Prompting |
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

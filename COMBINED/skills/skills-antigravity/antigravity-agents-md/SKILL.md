@@ -3,6 +3,10 @@ name: agents-md
 description: This skill should be used when the user asks to "create AGENTS.md", "update AGENTS.md", "maintain agent docs", "set up CLAUDE.md", or needs to keep agent instructions concise. Enforces research-backed best practices for minimal, high-signal agent documentation.
 risk: unknown
 source: community
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 # Maintaining AGENTS.md
@@ -118,3 +122,9 @@ Co-Authored-By: (the agent model's name and attribution byline)
 |---------|-------------|
 | `pnpm cli sync` | Sync data |
 ```
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

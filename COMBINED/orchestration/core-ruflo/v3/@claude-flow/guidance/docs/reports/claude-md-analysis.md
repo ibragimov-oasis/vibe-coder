@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # CLAUDE.md Analysis Report
 
 Generated: 2026-02-01 by `@claude-flow/guidance/analyzer`
@@ -119,3 +126,10 @@ The analyzer scores 6 dimensions, each 0-100, with weighted composition:
 | **Completeness** | 10% | 10 topic checks: build/test, security, standards, errors, git, files, deps, docs, performance, deployment |
 
 Grades: A (90+), B (80-89), C (70-79), D (60-69), F (<60)
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

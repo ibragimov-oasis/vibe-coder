@@ -3,6 +3,10 @@ title: alloydb-get-user
 type: docs
 weight: 1
 description: "The \"alloydb-get-user\" tool retrieves details for a specific AlloyDB user.\n"
+tags:
+  - domain/mcp
+  - artifact/mcp-server
+  - source/mcp-servers
 ---
 
 ## About
@@ -39,3 +43,9 @@ description: Use this tool to retrieve details for a specific AlloyDB user.
 | type        |  string  |     true     | Must be alloydb-get-user.                            |
 | source      |  string  |     true     | The name of an `alloydb-admin` source.               |
 | description |  string  |     false    | Description of the tool that is passed to the agent. |
+
+## 🔗 Связи
+
+- [[MOC - MCP Servers]] — mcp-servers
+- [[000 - Map of Maps]] — Map of Maps
+

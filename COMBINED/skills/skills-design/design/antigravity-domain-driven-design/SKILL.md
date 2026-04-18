@@ -5,6 +5,9 @@ risk: safe
 source: self
 tags: "[ddd, domain, bounded-context, architecture]"
 date_added: "2026-02-27"
+  - domain/ui
+  - artifact/skill
+  - source/skills-design
 ---
 
 # Domain-Driven Design
@@ -72,3 +75,10 @@ Then route to the right next skill and list artifacts we must produce this week.
 - This skill does not replace direct workshops with domain experts.
 - It does not provide framework-specific code generation.
 - It should not be used as a justification to over-engineer simple systems.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-design]] — Category: skills-design
+- [[MOC - UI Design]] — Design & UI
+

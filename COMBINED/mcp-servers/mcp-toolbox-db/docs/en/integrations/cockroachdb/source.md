@@ -6,6 +6,10 @@ weight: 1
 description: >
   CockroachDB is a distributed SQL database built for cloud applications.
 no_list: true
+tags:
+  - domain/mcp
+  - artifact/mcp-server
+  - source/mcp-servers
 ---
 
 ## About
@@ -232,3 +236,9 @@ CockroachDB may encounter serializable transaction conflicts. The integration au
 - [CockroachDB Best Practices](https://www.cockroachlabs.com/docs/stable/performance-best-practices-overview.html)
 - [Multi-Region Capabilities](https://www.cockroachlabs.com/docs/stable/multiregion-overview.html)
 - [Connection Parameters](https://www.cockroachlabs.com/docs/stable/connection-parameters.html)
+
+## 🔗 Связи
+
+- [[MOC - MCP Servers]] — mcp-servers
+- [[000 - Map of Maps]] — Map of Maps
+

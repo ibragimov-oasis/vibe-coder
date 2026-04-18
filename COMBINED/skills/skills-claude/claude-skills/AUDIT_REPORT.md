@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # Skills Audit Report
 
 **Date:** 2026-02-15
@@ -314,3 +321,9 @@ The recently added skills fall into two distinct tiers:
 *Report generated 2026-02-15. Skills assessed against the bar: "Would this make someone say 'holy shit, this actually knows what it's doing?'"*
 
 *Business-growth and finance skills clear that bar. Campaign-analytics nearly does. PM skills mostly don't.*
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # Schema Design Principles
 
 > Normalization, primary keys, timestamps, relationships.
@@ -54,3 +61,9 @@ Use TIMESTAMPTZ (with timezone) not TIMESTAMP
 ├── RESTRICT → Prevent delete if children exist
 └── SET DEFAULT → Children get default value
 ```
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

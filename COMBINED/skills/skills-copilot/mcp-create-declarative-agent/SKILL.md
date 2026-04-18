@@ -1,6 +1,10 @@
 ---
 name: mcp-create-declarative-agent
 description: 'Skill converted from mcp-create-declarative-agent.prompt.md'
+tags:
+  - domain/agents
+  - artifact/skill
+  - source/skills-copilot
 ---
 
 ````prompt
@@ -313,3 +317,10 @@ Then generate:
 - Test with more specific queries
 
 ````
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-copilot]] — Category: skills-copilot
+- [[MOC - Agents]] — Copilot agents
+

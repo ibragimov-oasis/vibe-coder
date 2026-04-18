@@ -4,6 +4,10 @@ description: "This skill embodies the principles of \"Clean Code\" by Robert C. 
 risk: safe
 source: "ClawForge (https://github.com/jackjin1997/ClawForge)"
 date_added: "2026-02-27"
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 # Clean Code Skill
@@ -92,3 +96,9 @@ Use this skill when:
 - [ ] Have I avoided comments by making the code clearer?
 - [ ] Am I passing too many arguments?
 - [ ] Is there a failing test for this change?
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

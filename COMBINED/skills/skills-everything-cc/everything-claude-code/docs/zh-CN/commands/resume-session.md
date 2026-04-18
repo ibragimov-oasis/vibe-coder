@@ -1,5 +1,9 @@
 ---
 description: 从 ~/.claude/sessions/ 加载最新的会话文件，并从上次会话结束的地方恢复工作，保留完整上下文。
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
 ---
 
 # 恢复会话命令
@@ -152,3 +156,9 @@ cookies().set('token', jwt, { httpOnly: true, secure: true, sameSite: 'strict' }
 * 简报格式是固定的 — 即使某些部分为空，也不要跳过
 * "不应重试的内容"必须始终显示，即使它只是说"无" — 这太重要了，不容遗漏
 * 恢复后，用户可能希望在新的会话结束时再次运行 `/save-session`，以创建一个新的带日期文件
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

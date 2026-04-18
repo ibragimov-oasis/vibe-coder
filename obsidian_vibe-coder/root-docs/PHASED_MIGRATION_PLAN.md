@@ -39,3 +39,9 @@ source: "../PHASED_MIGRATION_PLAN.md"
 
 - [[root-docs/ALL_PHASES_COMPLETE]] — подтверждение завершения всех фаз
 - [[root-docs/RESTRUCTURE_COMPLETE_SUMMARY]] — итоговый отчёт реструктуризации
+
+## 🔗 Связи
+
+- [[000 - Map of Maps]] — Parent MOC
+- [[000 - Map of Maps]] — Map of Maps
+

@@ -23,6 +23,10 @@ hooks:
     if [ -f "package.json" ]; then
       npm test --if-present
     fi
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
 ---
 
 # TDD London School Swarm Agent
@@ -242,3 +246,10 @@ afterEach(() => {
 - Provide feedback for continuous improvement
 
 Remember: The London School emphasizes **how objects collaborate** rather than **what they contain**. Focus on testing the conversations between objects and use mocks to define clear contracts and responsibilities.
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

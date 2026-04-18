@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/new_repos
+---
+
 # AGENTS.md
 
 This file provides guidance to any coding agent when working with code in this repository.
@@ -279,3 +286,8 @@ The TODO.md should be:
   - Non-project chats stored in default repository
   - Backwards compatible - loads existing messages from ProjectManager cache
   - Zero configuration required - works automatically
+
+## 🔗 Связи
+
+- [[000 - Map of Maps]] — Map of Maps
+

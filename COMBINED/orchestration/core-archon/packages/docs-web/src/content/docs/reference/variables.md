@@ -6,6 +6,10 @@ area: workflows
 audience: [user]
 sidebar:
   order: 5
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-archon
 ---
 
 Archon substitutes variables in command files, inline prompts, and bash scripts before execution. There are three categories of variables: workflow variables (substituted by the workflow engine), positional arguments (substituted by the command handler), and node output references (DAG workflows only).
@@ -108,3 +112,10 @@ Positional arguments (`$1` through `$9`) are substituted separately by the comma
 | `$LOOP_USER_INPUT` | Yes (loop nodes) | No | No |
 | `$REJECTION_REASON` | Yes (`on_reject` only) | No | No |
 | `$nodeId.output` | Yes (DAG nodes) | No | Yes |
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/archon]] — Archon
+- [[000 - Map of Maps]] — Map of Maps
+

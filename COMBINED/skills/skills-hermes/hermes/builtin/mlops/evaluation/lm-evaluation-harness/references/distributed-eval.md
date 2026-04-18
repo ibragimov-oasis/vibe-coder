@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-hermes
+---
+
 # Distributed Evaluation
 
 Guide to running evaluation across multiple GPUs using data parallelism and tensor/pipeline parallelism.
@@ -517,3 +524,9 @@ lm_eval --model vllm \
 - vLLM docs: https://docs.vllm.ai/
 - NeMo docs: https://docs.nvidia.com/nemo-framework/
 - lm-eval distributed guide: `docs/model_guide.md`
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-hermes]] — Category: skills-hermes
+

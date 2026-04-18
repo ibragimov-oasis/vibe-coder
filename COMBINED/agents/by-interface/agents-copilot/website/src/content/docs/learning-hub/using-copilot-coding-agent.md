@@ -16,6 +16,9 @@ relatedArticles:
 prerequisites:
   - Understanding of GitHub Copilot agents
   - Repository with GitHub Copilot enabled
+  - domain/agents
+  - artifact/agent
+  - source/by-interface/agents-copilot
 ---
 
 The Copilot coding agent is an autonomous agent that can work on GitHub issues without continuous human guidance. You assign it an issue, it spins up a cloud environment, writes code, runs tests, and opens a pull request—all while you focus on other work. Think of it as a junior developer who never sleeps, handles the well-defined tasks, and always asks for review.
@@ -411,3 +414,9 @@ A: Yes. You can specify which agent to use when assigning work — the coding ag
 - **Browse Community Resources**: Explore the [Agents](../../agents/), [Skills](../../skills/), and [Hooks](../../hooks/) directories for ready-to-use resources
 
 ---
+
+## 🔗 Связи
+
+- [[MOC - Agents]] — Agent catalog
+- [[agents/agents-copilot]] — Interface: agents-copilot
+

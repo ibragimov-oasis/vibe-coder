@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-taskmaster
+---
+
 Clear all subtasks from a specific task.
 
 Arguments: $ARGUMENTS (task ID)
@@ -84,3 +91,10 @@ Suggest alternatives:
 → Updated parent task estimates
 → Suggestion: Consider re-expanding with better breakdown
 ```
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/task-master]] — Task-Master
+- [[000 - Map of Maps]] — Map of Maps
+

@@ -1,6 +1,10 @@
 ---
 description: 'C# アプリケーション構築指針 by @tsubakimoto'
 applyTo: '**/*.cs'
+tags:
+  - domain/agents
+  - artifact/agent
+  - source/by-interface/agents-copilot
 ---
 
 # C# アプリケーション開発
@@ -112,3 +116,9 @@ applyTo: '**/*.cs'
 - Azure App Service、Azure Container Apps、その他のホスティングオプションへのデプロイを示します。
 - ヘルスチェックと Readiness Probe の実装方法を示します。
 - 各デプロイ段階における環境固有の構成を説明します。
+
+## 🔗 Связи
+
+- [[MOC - Agents]] — Agent catalog
+- [[agents/agents-copilot]] — Interface: agents-copilot
+

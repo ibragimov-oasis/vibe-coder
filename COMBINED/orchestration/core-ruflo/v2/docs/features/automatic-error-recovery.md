@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # Automatic Error Recovery
 
 Claude-Flow v2.7.35+ includes intelligent automatic error recovery that handles common installation and initialization issues without manual intervention.
@@ -331,3 +338,10 @@ Error recovery adds minimal overhead:
 ---
 
 **Need Help?** Report issues at https://github.com/ruvnet/claude-flow/issues
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

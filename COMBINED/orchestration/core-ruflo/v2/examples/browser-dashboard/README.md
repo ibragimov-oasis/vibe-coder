@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # Claude Flow Browser Dashboard - Proof of Concept
 
 ## Overview
@@ -332,3 +339,9 @@ Built as proof of concept for Claude Flow v2.5.0-alpha.130+ demonstrating WebAss
 ---
 
 **Remember**: This is a proof of concept demonstrating WebSocket-based browser orchestration. For production use, implement proper security, authentication, and error handling.
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-ruflo]] — core-ruflo
+

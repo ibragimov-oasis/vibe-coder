@@ -1,6 +1,10 @@
 ---
 name: astro-static
 description: Astro static site template principles. Content-focused websites, blogs, documentation.
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
 ---
 
 # Astro Static Site Template
@@ -74,3 +78,9 @@ project-name/
 - Leverage static generation
 - Add islands only where needed
 - Optimize images with Astro Image
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

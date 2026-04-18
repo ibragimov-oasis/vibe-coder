@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # Claude Flow Plugin Integration
 
 ## Overview
@@ -238,3 +245,10 @@ After installation, MCP tools are available:
 3. **MCP Bundling**: All servers configured in one file
 4. **Marketplace Ready**: Standard plugin format for distribution
 5. **Backward Compatible**: Works with existing `.claude/` configurations
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-ruflo]] — core-ruflo
+- [[MOC - Skills]] — Skills library
+

@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-awesome-claude
+---
+
 # Pull Request
 
 If you want to submit a resource for recommendation for Awesome Claude Code, please use the [resource recommendation issue form](https://github.com/hesreallyhim/awesome-claude-code/issues/new?template=recommen-resource.yml) and don't open a PR.
@@ -71,3 +78,9 @@ It's fairly uncommon for anyone to open a PR to this repo, even the maintainer. 
 ## Questions?
 
 - See [CONTRIBUTING.md](../docs/CONTRIBUTING.md) for detailed contribution guidelines
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-awesome-claude]] — Category: skills-awesome-claude
+

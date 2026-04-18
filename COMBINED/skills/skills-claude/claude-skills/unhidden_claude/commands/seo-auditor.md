@@ -1,5 +1,9 @@
 ---
 description: Scan and optimize docs for SEO — meta tags, readability, keywords, broken links, sitemap.
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
 ---
 
 Run the SEO auditor on documentation files. Target path: `$ARGUMENTS` (default: all docs/ and root README.md).
@@ -95,3 +99,9 @@ Verify all pages appear, no duplicates, no broken URLs.
 ## Phase 7: Report
 
 Present a summary showing: pages scanned, issues found, auto-fixes applied, manual review items, broken links fixed, orphans resolved, sitemap URL count. List preserved pages that were not modified.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

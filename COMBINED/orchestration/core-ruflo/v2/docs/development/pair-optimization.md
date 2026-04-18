@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # Pair Programming Command Optimization
 
 ## Problem Solved
@@ -154,3 +161,10 @@ if (output.includes('error')) {
 - [ ] Parallel verification checks
 - [ ] Custom verification commands
 - [ ] Integration with git hooks
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

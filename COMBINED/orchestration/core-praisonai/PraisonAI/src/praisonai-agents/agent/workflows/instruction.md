@@ -1,5 +1,9 @@
 ---
 description: instruction
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-praisonai
 ---
 
 Create multiple TODOs and sub-TODOs, get all things done.
@@ -162,3 +166,10 @@ Step 3 — Publish praisonai-tools (External, if needed):
   python3.13 -m build && uv run twine upload dist/*
 
 PraisonAI PRs: NEVER merge automatically — user merges manually.
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/praisonai]] — PraisonAI
+- [[000 - Map of Maps]] — Map of Maps
+

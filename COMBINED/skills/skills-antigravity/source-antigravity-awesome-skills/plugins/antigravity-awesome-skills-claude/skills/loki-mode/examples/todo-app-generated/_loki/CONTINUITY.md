@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # Loki Mode Working Memory
 Last Updated: 2026-01-02T23:55:00Z
 Current Phase: completed
@@ -57,3 +64,9 @@ PRD Requirements:
 ## Files Currently Being Modified
 - .loki/CONTINUITY.md: initialization
 - .loki/state/orchestrator.json: system state
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

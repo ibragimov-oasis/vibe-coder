@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-omc
+---
+
 # Migration Guide
 
 This guide covers all migration paths for oh-my-claudecode. Find your current version below.
@@ -985,3 +992,10 @@ Now that you understand the migration:
 4. **For team onboarding**: Share this guide with teammates
 
 Welcome to oh-my-claudecode!
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-omc]] — core-omc
+- [[MOC - Skills]] — Skills library
+

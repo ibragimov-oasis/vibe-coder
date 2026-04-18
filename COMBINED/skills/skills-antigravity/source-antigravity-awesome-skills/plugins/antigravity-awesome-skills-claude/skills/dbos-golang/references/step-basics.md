@@ -3,6 +3,9 @@ title: Use Steps for External Operations
 impact: HIGH
 impactDescription: Steps enable recovery by checkpointing results
 tags: step, external, api, checkpoint
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
 ---
 
 ## Use Steps for External Operations
@@ -79,3 +82,9 @@ When to use steps:
 - Any non-deterministic operation
 
 Reference: [DBOS Steps](https://docs.dbos.dev/golang/tutorials/step-tutorial)
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

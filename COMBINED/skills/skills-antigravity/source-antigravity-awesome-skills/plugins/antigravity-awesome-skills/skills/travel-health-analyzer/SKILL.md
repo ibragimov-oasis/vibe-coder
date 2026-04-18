@@ -4,6 +4,10 @@ description: 分析旅行健康数据、评估目的地健康风险、提供疫�
 allowed-tools: Read, Write, Grep, Glob
 risk: unknown
 source: community
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 # 旅行健康分析技能
@@ -421,3 +425,9 @@ Write: data/travel-health-logs/pre-trip-assessment-YYYY-MM-DD.json
 **版本**: v1.0.0
 **最后更新**: 2025-01-08
 **维护者**: WellAlly Tech
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-squad
+---
+
 # Marketplace Guide
 
 > ⚠️ **Experimental** — Squad is alpha software. APIs, commands, and behavior may change between releases.
@@ -98,3 +105,10 @@ const installResult = await browser.install(results.entries[0], targetDir);
 ## Extensions
 
 `ExtensionAdapter` bridges Squad to the Copilot Extensions API. `toExtensionConfig()` converts Squad config to extension format. `registerExtension()` handles marketplace registration.
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/squad]] — Squad
+- [[000 - Map of Maps]] — Map of Maps
+

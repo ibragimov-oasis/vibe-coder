@@ -16,6 +16,9 @@ agents:
   - claude-code
   - codex-cli
   - openclaw
+  - domain/agents
+  - artifact/skill
+  - source/skills-claude
 ---
 
 # Engineering Team Skills
@@ -89,3 +92,10 @@ No pip install needed. Scripts include embedded samples for demo mode.
 - Load only the specific skill SKILL.md you need — don't bulk-load all 23
 - Use Python tools for analysis and scaffolding, not manual judgment
 - Check CLAUDE.md for tool usage examples and workflows
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+- [[MOC - Agents]] — Claude agents
+

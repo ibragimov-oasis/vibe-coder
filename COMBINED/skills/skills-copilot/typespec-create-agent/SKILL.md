@@ -1,6 +1,10 @@
 ---
 name: typespec-create-agent
 description: 'Generate a complete TypeSpec declarative agent with instructions, capabilities, and conversation starters for Microsoft 365 Copilot'
+tags:
+  - domain/agents
+  - artifact/skill
+  - source/skills-copilot
 ---
 
 # Create TypeSpec Declarative Agent
@@ -89,3 +93,10 @@ Ask the user:
 4. What are typical user interactions?
 
 Then generate the complete TypeSpec agent definition.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-copilot]] — Category: skills-copilot
+- [[MOC - Agents]] — Copilot agents
+

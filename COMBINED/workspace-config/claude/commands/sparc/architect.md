@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/config
+  - source/workspace-config
+---
+
 # SPARC Architect Mode
 
 ## Purpose
@@ -51,3 +58,9 @@ npx claude-flow@alpha sparc run architect "design microservices architecture"
 - Domain-driven design
 - Hexagonal architecture
 - CQRS and Event Sourcing
+
+## 🔗 Связи
+
+- [[MOC - System]] — workspace-config
+- [[000 - Map of Maps]] — Map of Maps
+

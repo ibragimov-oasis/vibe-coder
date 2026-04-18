@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-squad
+---
+
 # Squad in Monorepos
 
 > ⚠️ **Experimental** — Squad is alpha software. APIs, commands, and behavior may change between releases.
@@ -271,3 +278,10 @@ If you had 8 separate squads, they'd diverge. One squad keeps the monorepo align
 - **Skills that span services are gold.** Logging, error handling, API conventions — document once, use everywhere.
 - **Shared code needs careful handling.** Changes to `/shared` affect multiple services — route to the Lead.
 - **Cross-service features need coordination.** Use the Lead to decompose, then route to specialists.
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/squad]] — Squad
+- [[000 - Map of Maps]] — Map of Maps
+

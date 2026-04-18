@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
+---
+
 # 更新文件
 
 從單一真相來源同步文件：
@@ -29,3 +36,9 @@
 6. 顯示差異摘要
 
 單一真相來源：package.json 和 .env.example
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

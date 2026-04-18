@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/config
+  - source/workspace-config
+---
+
 # hook post-edit
 
 Execute post-edit processing including formatting, validation, and memory updates.
@@ -115,3 +122,9 @@ Returns JSON with:
 - `Edit` - File editing tool
 - `memory usage` - Memory management
 - `neural train` - Pattern training
+
+## 🔗 Связи
+
+- [[MOC - System]] — workspace-config
+- [[000 - Map of Maps]] — Map of Maps
+

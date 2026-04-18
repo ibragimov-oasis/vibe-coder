@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-praisonai
+---
+
 # Examples Run Report
 
 **Generated**: 2026-01-09T11:13:51.223609+00:00
@@ -37,3 +44,10 @@ ValueError: fail
 ```
 
 **Logs**: `logs/a_fail.stderr.log`
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/praisonai]] — PraisonAI
+- [[000 - Map of Maps]] — Map of Maps
+

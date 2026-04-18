@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # ReasoningBank Integration with Claude Code Hooks
 
 ## Overview
@@ -561,3 +568,10 @@ ReasoningBank integration transforms Claude Code from a stateless tool into an i
 - [Architecture Guide](./architecture.md)
 - [CLI Reference](./cli-reference.md)
 - [Google Research Paper](./google-research.md)
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

@@ -3,6 +3,9 @@ title: Use Activity Component for Show/Hide
 impact: MEDIUM
 impactDescription: preserves state/DOM
 tags: rendering, activity, visibility, state-preservation
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
 ---
 
 ## Use Activity Component for Show/Hide
@@ -24,3 +27,9 @@ function Dropdown({ isOpen }: Props) {
 ```
 
 Avoids expensive re-renders and state loss.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

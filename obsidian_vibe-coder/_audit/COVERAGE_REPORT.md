@@ -160,3 +160,8 @@ obsidian_vibe-coder/
 - ✅ Document Registry создан (`_audit/DOCUMENT_REGISTRY`)
 - ✅ Vault Performance Guide создан (`_governance/VAULT_PERFORMANCE`)
 
+## 🔗 Связи
+
+- [[MOC - System]] — Parent MOC
+- [[000 - Map of Maps]] — Map of Maps
+

@@ -27,6 +27,10 @@ mcp-servers:
       # For example: /opt/diffblue/cover/bin/dcover or C:\Program Files\Diffblue\Cover\bin\dcover.exe
       DIFFBLUE_COVER_CLI: "/placeholder/path/to/dcover"
     tools: [ "*" ]
+tags:
+  - domain/agents
+  - artifact/agent
+  - source/by-interface/agents-copilot
 ---
 
 # Java Unit Test Agent
@@ -59,3 +63,9 @@ When a user requests you to write unit tests, follow these steps:
     - If there were issues, provide clear feedback on what went wrong and potential next steps.
 4. **Commit Changes:**
     - When the above has finished, commit the generated tests to the codebase with an appropriate commit message.
+
+## 🔗 Связи
+
+- [[MOC - Agents]] — Agent catalog
+- [[agents/agents-copilot]] — Interface: agents-copilot
+

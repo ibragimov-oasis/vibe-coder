@@ -4,6 +4,10 @@ description: "Strategies and patterns for optimizing cloud costs across AWS, Azu
 risk: unknown
 source: community
 date_added: "2026-02-27"
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 # Cloud Cost Optimization
@@ -287,3 +291,9 @@ resource "aws_cloudwatch_metric_alarm" "cpu_high" {
 
 - `terraform-module-library` - For resource provisioning
 - `multi-cloud-architecture` - For cloud selection
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

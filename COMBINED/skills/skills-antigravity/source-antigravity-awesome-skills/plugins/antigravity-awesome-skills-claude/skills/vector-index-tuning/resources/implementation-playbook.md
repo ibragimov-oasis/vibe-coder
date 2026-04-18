@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # Vector Index Tuning Implementation Playbook
 
 This file contains detailed patterns, checklists, and code samples referenced by the skill.
@@ -505,3 +512,9 @@ def profile_index_build(
 - [HNSW Paper](https://arxiv.org/abs/1603.09320)
 - [Faiss Wiki](https://github.com/facebookresearch/faiss/wiki)
 - [ANN Benchmarks](https://ann-benchmarks.com/)
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

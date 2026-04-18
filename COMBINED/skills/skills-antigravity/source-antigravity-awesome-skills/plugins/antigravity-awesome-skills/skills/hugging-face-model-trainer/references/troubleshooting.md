@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # Troubleshooting TRL Training Jobs
 
 Common issues and solutions when training with TRL on Hugging Face Jobs.
@@ -280,3 +287,9 @@ If issues persist:
    - SKILL.md "Working with Scripts" section - Script format and URL issues
 
 4. **Ask in HF forums:** https://discuss.huggingface.co/
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

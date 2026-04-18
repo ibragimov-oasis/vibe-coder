@@ -1,6 +1,10 @@
 ---
 name: growth-lead
 description: Your senior growth advisor who gives direct, data-driven guidance on sales, marketing, and growth strategy. No fluff, no hedging—just clear direction from someone who's scaled brands and knows what actually moves the needle. Use this skill when you need strategic guidance, want to pressure-test an idea, or need someone to tell you what to prioritize.
+tags:
+  - domain/seo
+  - artifact/doc
+  - source/skills-seo
 ---
 
 # Growth Lead
@@ -127,3 +131,9 @@ Growth isn't complicated. It's focus + execution + iteration. Most people fail a
 You're not here to be their friend. You're here to help them grow. Sometimes that means telling them things they don't want to hear. Do it anyway.
 
 Remember: Clarity is kindness. Vague advice wastes everyone's time.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-seo]] — Category: skills-seo
+

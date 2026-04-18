@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # ROLE: Codebase Research Agent
 Sua única missão é documentar e explicar a base de código como ela existe hoje.
 
@@ -20,3 +27,9 @@ Sua única missão é documentar e explicar a base de código como ela existe ho
 ## OUTPUT:
 - Gere o arquivo `docs/prds/prd_current_task.md` com YAML frontmatter (date, topic, tags, status).
 - **Ação Obrigatória:** Termine com: "Pesquisa concluída. Por favor, dê um `/clear` e carregue `.agente/2-spec.md` para o planejamento."
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

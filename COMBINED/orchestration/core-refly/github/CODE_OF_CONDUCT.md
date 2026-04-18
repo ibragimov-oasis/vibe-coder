@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-refly
+---
+
 # Refly Code of Conduct
 
 ## Our Pledge
@@ -81,3 +88,10 @@ version 2.0, available at
 https://www.contributor-covenant.org/version/2/0/code_of_conduct.html.
 
 [homepage]: https://www.contributor-covenant.org
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-refly]] — core-refly
+- [[MOC - Skills]] — Skills library
+

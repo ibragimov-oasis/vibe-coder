@@ -4,6 +4,10 @@ description: "Expert in monorepo architecture, build systems, and dependency man
 risk: safe
 source: community
 date_added: "2026-02-27"
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 # Monorepo Architect
@@ -62,3 +66,9 @@ Expert in monorepo architecture, build systems, and dependency management at sca
 - Automate dependency updates
 - Document the dependency graph
 - Set up code ownership rules
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

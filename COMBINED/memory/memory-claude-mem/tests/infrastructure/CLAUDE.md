@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/memory
+  - artifact/memory
+  - source/memory
+---
+
 <claude-mem-context>
 # Recent Activity
 
@@ -11,3 +18,9 @@
 | #36863 | 1:51 AM | 🟣 | WMIC Parsing Test File Created | ~581 |
 | #36861 | " | 🔵 | Existing ProcessManager Test File Structure Analyzed | ~516 |
 </claude-mem-context>
+
+## 🔗 Связи
+
+- [[MOC - Memory]] — memory
+- [[000 - Map of Maps]] — Map of Maps
+

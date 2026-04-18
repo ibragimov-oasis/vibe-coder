@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-data-analysis
+---
+
 # generate_organization_chart — 组织架构图
 
 ## 功能概述
@@ -19,3 +26,9 @@
 
 ## 返回结果
 - 返回组织架构图 URL，并在 `_meta.spec` 保存结构便于日后迭代。
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-data-analysis]] — Category: skills-data-analysis
+

@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/new_repos
+---
+
 # Context and Mentions
 
 Copilot uses **context** to give the AI information about your notes, selected text, web content, and more. You can control exactly what context the AI sees using automatic context, @-mentions, and manual commands.
@@ -143,3 +150,8 @@ When context items are added to your message, Copilot shows small pills or badge
 - [Chat Interface](chat-interface.md) — How the chat panel works
 - [Agent Mode and Tools](agent-mode-and-tools.md) — More on @vault and @websearch
 - [Vault Search and Indexing](vault-search-and-indexing.md) — How vault search works
+
+## 🔗 Связи
+
+- [[000 - Map of Maps]] — Map of Maps
+

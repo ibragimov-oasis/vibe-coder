@@ -8,6 +8,9 @@ date_added: "2026-03-13"
 author: christopherlhammer11-ai
 tags: [reliability, tool-use, error-handling, retries, recovery, agent-infrastructure]
 tools: [claude, cursor, codex, gemini, copilot, windsurf, antigravity]
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 # Tool Use Guardian
@@ -82,3 +85,9 @@ Guardian tracks failure patterns per tool. After 3+ failures of the same type, i
 - **Repo:** https://github.com/christopherlhammer11-ai/tool-use-guardian
 - **Marketplace:** https://genesis-node-api.vercel.app
 - **Browse skills:** https://genesis-marketplace.vercel.app
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

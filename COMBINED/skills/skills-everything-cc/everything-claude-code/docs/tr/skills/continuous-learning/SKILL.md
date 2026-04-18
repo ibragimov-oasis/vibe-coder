@@ -2,6 +2,10 @@
 name: continuous-learning
 description: Claude Code oturumlarından yeniden kullanılabilir kalıpları otomatik olarak çıkarın ve gelecekte kullanmak üzere öğrenilmiş skill'ler olarak kaydedin.
 origin: ECC
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-everything-cc
 ---
 
 # Sürekli Öğrenme Skill'i
@@ -117,3 +121,9 @@ Homunculus v2 daha sofistike bir yaklaşım benimsiyor:
 5. **Evrim yolu** - İlgili instinct'leri skill/command'lara kümeleme
 
 Bkz: Tam spec için `docs/continuous-learning-v2-spec.md`.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

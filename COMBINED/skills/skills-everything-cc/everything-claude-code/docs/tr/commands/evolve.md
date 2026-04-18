@@ -2,6 +2,10 @@
 name: evolve
 description: İçgüdüleri analiz et ve evrimleşmiş yapılar öner veya oluştur
 command: true
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
 ---
 
 # Evolve Komutu
@@ -176,3 +180,9 @@ evolved_from:
 
 [Kümelenmiş içgüdülere dayalı oluşturulan içerik]
 ```
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

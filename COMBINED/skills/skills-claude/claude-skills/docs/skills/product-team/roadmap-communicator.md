@@ -1,6 +1,10 @@
 ---
 title: "Roadmap Communicator — Agent Skill for Product Teams"
 description: "Use when preparing roadmap narratives, release notes, changelogs, or stakeholder updates tailored for executives, engineering teams, and customers. Agent skill for Claude Code, Codex CLI, Gemini CLI, OpenClaw."
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
 ---
 
 # Roadmap Communicator
@@ -101,3 +105,9 @@ Features:
 - [ ] Terminology is consistent across artifacts.
 - [ ] Risks and dependencies are not hidden.
 - [ ] Next actions and owners are specified.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

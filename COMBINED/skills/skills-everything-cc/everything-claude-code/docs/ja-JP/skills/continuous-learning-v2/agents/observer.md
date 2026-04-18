@@ -3,6 +3,10 @@ name: observer
 description: セッションの観察を分析してパターンを検出し、本能を作成するバックグラウンドエージェント。コスト効率のためにHaikuを使用します。
 model: haiku
 run_mode: background
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
 ---
 
 # Observerエージェント
@@ -135,3 +139,9 @@ Skill Creator(リポジトリ分析)から本能がインポートされる場�
 - `source_repo: "https://github.com/..."`
 
 これらは、より高い初期信頼度(0.7以上)を持つチーム/プロジェクトの規約として扱うべきです。
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

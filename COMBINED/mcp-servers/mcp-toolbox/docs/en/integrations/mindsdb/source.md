@@ -6,6 +6,10 @@ weight: 1
 description: >
   MindsDB is an AI federated database that enables SQL queries across hundreds of datasources and ML models.
 no_list: true
+tags:
+  - domain/mcp
+  - artifact/mcp-server
+  - source/mcp-servers
 ---
 
 ## About
@@ -194,3 +198,9 @@ instead of hardcoding your secrets into the configuration file.
 
 - [MindsDB Documentation][mindsdb-docs] - Official documentation and guides
 - [MindsDB GitHub][mindsdb-github] - Source code and community
+
+## 🔗 Связи
+
+- [[MOC - MCP Servers]] — mcp-servers
+- [[000 - Map of Maps]] — Map of Maps
+

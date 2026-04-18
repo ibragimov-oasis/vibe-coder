@@ -1,4 +1,11 @@
 ---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
+---
 title: "Web views | Apple Developer Documentation"
 source: https://developer.apple.com/design/human-interface-guidelines/web-views
 
@@ -33,4 +40,9 @@ For example, Mail uses a web view to show HTML content in messages.
 #### [Videos](https://developer.apple.com/design/human-interface-guidelines/web-views#Videos)
 
 [![](https://devimages-cdn.apple.com/wwdc-services/images/119/8A0A5E12-9D2C-4629-A13C-8EB702A9DA28/4920_wide_250x141_1x.jpg) Explore WKWebView additions ](https://developer.apple.com/videos/play/wwdc2021/10032)
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
 

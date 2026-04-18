@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/doc
+  - source/skills-omc
+---
+
 # Phase 4: Completion
 
 ## Detect Upgrade from 2.x
@@ -190,3 +197,9 @@ fi
 
 bash "${CLAUDE_PLUGIN_ROOT}/scripts/setup-progress.sh" complete "$OMC_VERSION"
 ```
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-omc]] — Category: skills-omc
+

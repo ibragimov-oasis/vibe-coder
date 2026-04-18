@@ -7,6 +7,10 @@ allowed-tools:
   - Bash
   - Write
   - AskUserQuestion
+tags:
+  - domain/skills
+  - artifact/command
+  - source/commands
 ---
 <context>
 **Flags:**
@@ -42,3 +46,9 @@ Create a physical workspace directory containing copies of specified git repos (
 Execute the new-workspace workflow from @~/.claude/get-shit-done/workflows/new-workspace.md end-to-end.
 Preserve all workflow gates (validation, approvals, commits, routing).
 </process>
+
+## 🔗 Связи
+
+- [[MOC - System]] — commands
+- [[000 - Map of Maps]] — Map of Maps
+

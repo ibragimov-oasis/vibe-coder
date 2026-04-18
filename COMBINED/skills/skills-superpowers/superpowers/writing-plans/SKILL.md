@@ -10,6 +10,10 @@ sources:
   - library: "antigravity-awesome-skills"
     path: "Skills/antigravity-awesome-skills/skills/writing-plans/SKILL.md"
 merge_date: "2026-04-01"
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-superpowers
 ---
 
 # Writing Implementation Plans — Combined Mega-Skill
@@ -376,3 +380,9 @@ No placeholders — ever
 ```
 
 **A good plan makes implementation obvious.**
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-superpowers]] — Category: skills-superpowers
+

@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-hermes
+---
+
 # Server Deployment Guide
 
 Production deployment of llama.cpp server with OpenAI-compatible API.
@@ -123,3 +130,9 @@ server {
     -m model.gguf \
     --cache-prompt  # Cache processed prompts
 ```
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-hermes]] — Category: skills-hermes
+

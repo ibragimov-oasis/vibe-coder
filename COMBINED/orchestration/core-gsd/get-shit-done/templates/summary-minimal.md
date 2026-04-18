@@ -15,6 +15,9 @@ key-files:
 key-decisions: []
 duration: Xmin
 completed: YYYY-MM-DD
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-gsd
 ---
 
 # Phase [X]: [Name] Summary (Minimal)
@@ -39,3 +42,10 @@ completed: YYYY-MM-DD
 
 ## Next Phase Readiness
 [Ready for next phase]
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-gsd]] — core-gsd
+- [[MOC - Skills]] — Skills library
+

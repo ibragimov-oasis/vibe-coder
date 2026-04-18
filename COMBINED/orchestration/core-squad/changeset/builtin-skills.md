@@ -1,5 +1,9 @@
 ---
 "@bradygaster/squad-cli": minor
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-squad
 ---
 
 Ship 8 built-in skills with squad init/upgrade (#788)
@@ -15,3 +19,10 @@ New skills distributed automatically on `squad init` and `squad upgrade`:
 - **squad-conventions** — (already shipped, now part of curated set)
 
 All skills are squad-owned (`overwriteOnUpgrade: true`) and update on upgrade.
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-squad]] — core-squad
+- [[MOC - Skills]] — Skills library
+

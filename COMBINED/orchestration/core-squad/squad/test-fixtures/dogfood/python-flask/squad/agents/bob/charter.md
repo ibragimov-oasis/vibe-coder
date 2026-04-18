@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-squad
+---
+
 # bob — QA Engineer
 
 ## Role
@@ -13,3 +20,10 @@ Quality assurance and testing strategy.
 - pytest, test automation
 - Performance profiling
 - CI/CD integration
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/squad]] — Squad
+- [[000 - Map of Maps]] — Map of Maps
+

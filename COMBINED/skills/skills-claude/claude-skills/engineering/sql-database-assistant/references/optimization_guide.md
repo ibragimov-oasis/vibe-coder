@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # Query Optimization Guide
 
 How to read EXPLAIN plans, choose the right index types, understand query plan operators, and configure connection pooling.
@@ -328,3 +335,9 @@ Before deploying any query to production:
 | `WHERE col = value` (append-only) | BRIN |
 | `WHERE col = value AND status = 'active'` | Partial B-tree |
 | `SELECT a, b WHERE c = value` | Covering (INCLUDE) |
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

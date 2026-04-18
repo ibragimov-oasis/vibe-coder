@@ -4,6 +4,10 @@ description: "You are an expert in designing collaborative AI agent teams with C
 risk: unknown
 source: "vibeship-spawner-skills (Apache 2.0)"
 date_added: "2026-02-27"
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 # CrewAI
@@ -246,3 +250,9 @@ Works well with: `langgraph`, `autonomous-agents`, `langfuse`, `structured-outpu
 
 ## When to Use
 This skill is applicable to execute the workflow or actions described in the overview.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

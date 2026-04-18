@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/reference
+  - source/reference
+---
+
 # Salesforce Apex .cursorrules prompt file
 
 **Author:** James Simone
@@ -20,3 +27,9 @@ Key technical guidelines include:
 - Employing the Repository pattern for DML/SOQL unless the Selector pattern is already in use.
 - Following specific class structure ("newspaper" rule) and commenting practices.
 - Using `TODO:` comments to flag bugs or suboptimal code.
+
+## 🔗 Связи
+
+- [[MOC - System]] — reference
+- [[000 - Map of Maps]] — Map of Maps
+

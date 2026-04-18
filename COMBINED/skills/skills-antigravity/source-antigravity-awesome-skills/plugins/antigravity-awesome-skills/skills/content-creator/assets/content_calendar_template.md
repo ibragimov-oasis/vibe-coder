@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # Content Calendar Template - [Month Year]
 
 ## Monthly Goals
@@ -97,3 +104,9 @@
 - Asset Library: [Link]
 - Analytics Dashboard: [Link]
 - Team Calendar: [Link]
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

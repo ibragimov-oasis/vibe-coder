@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 ## Concurrent programming updates in Swift 6.2
 
 Concurrent programming is hard because sharing memory between multiple tasks is prone to mistakes that lead to unpredictable behavior.
@@ -270,3 +277,9 @@ You start by writing code that runs on the main actor by default, where there’
 Some of these language changes are opt-in because they require changes in your project to adopt. You can find and enable all of the approachable concurrency language changes under the Swift Compiler - Concurrency section of Xcode build settings. You can also enable these features in a Swift package manifest file using the SwiftSettings API.
 
  Swift 6.2 includes migration tooling to help you make the necessary code changes automatically. You can learn more about migration tooling at swift.org/migration.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

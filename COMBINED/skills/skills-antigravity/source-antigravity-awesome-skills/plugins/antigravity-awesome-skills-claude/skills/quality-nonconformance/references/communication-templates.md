@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # Communication Templates — Quality & Non-Conformance Management
 
 > **Reference Type:** Tier 3 — Load on demand when composing or reviewing quality communications.
@@ -709,3 +716,9 @@ Sincerely,
 {{contact_information}}
 
 Enclosures: {{list_of_enclosures}}
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

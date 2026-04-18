@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-data-analysis
+---
+
 # generate_flow_diagram — 流程图
 
 ## 功能概述
@@ -20,3 +27,9 @@
 
 ## 返回结果
 - 返回流程图 URL，并携带 `_meta.spec` 中的节点与边数据，方便下次调整。
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-data-analysis]] — Category: skills-data-analysis
+

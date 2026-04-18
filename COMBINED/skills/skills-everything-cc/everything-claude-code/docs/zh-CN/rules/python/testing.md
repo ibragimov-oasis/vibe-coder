@@ -2,6 +2,10 @@
 paths:
   - "**/*.py"
   - "**/*.pyi"
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
 ---
 
 # Python 测试
@@ -37,3 +41,9 @@ def test_database_connection():
 ## 参考
 
 查看技能：`python-testing` 以获取详细的 pytest 模式和夹具信息。
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

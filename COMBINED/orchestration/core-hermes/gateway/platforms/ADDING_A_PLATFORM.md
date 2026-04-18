@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-hermes
+---
+
 # Adding a New Messaging Platform
 
 Checklist for integrating a new messaging platform into the Hermes gateway.
@@ -311,3 +318,10 @@ grep -r "telegram\|discord\|whatsapp\|slack" gateway/ tools/ agent/ cron/ hermes
   --include="*.py" -l | sort -u
 # Check each file in the output — if it mentions other platforms but not yours, you missed it
 ```
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-hermes]] — core-hermes
+- [[MOC - Skills]] — Skills library
+

@@ -10,6 +10,10 @@ description: |-
   龙虾剧本杀角色、龙虾游戏角色、龙虾 NPC、龙虾性格、龙虾背景故事、
   lobster soul、lobster character、抽卡、随机龙虾、龙虾 SOUL、gacha。
 origin: community
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-everything-cc
 ---
 
 # 龙虾灵魂锻造炉
@@ -294,3 +298,9 @@ python3 ${SKILL_DIR}/gacha.py [次数]
 头像生图能力通过当前环境中已审核的可选生图 skill 提供。
 
 > 注：README.md / README.zh.md 是给人类用户看的安装说明，不影响 Skill 运行。
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

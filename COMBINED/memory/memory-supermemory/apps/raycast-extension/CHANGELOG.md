@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/memory
+  - artifact/memory
+  - source/memory
+---
+
 # Supermemory Changelog
 
 ## [Quick Add from Selection] - 2025-11-05
@@ -17,3 +24,9 @@
 
 - Added Supermemory integration with Add Memory and Search Memories commands
 - Added project organization support for memories
+
+## 🔗 Связи
+
+- [[MOC - Memory]] — memory
+- [[000 - Map of Maps]] — Map of Maps
+

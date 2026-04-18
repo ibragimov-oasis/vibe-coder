@@ -24,6 +24,10 @@ hooks:
     echo "✅ Authorization complete"
     # Log authorization decision
     mcp__claude-flow__memory_usage --action="store" --namespace="audit" --key="auth:$(date +%s)" --value="$AUTH_DECISION"
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
 ---
 
 # V3 Claims Authorizer Agent
@@ -206,3 +210,10 @@ mcp__claude-flow__memory_search --pattern="auth:*" --namespace="audit" --limit=1
   "suggestion": "Request elevation or use coordinator agent"
 }
 ```
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

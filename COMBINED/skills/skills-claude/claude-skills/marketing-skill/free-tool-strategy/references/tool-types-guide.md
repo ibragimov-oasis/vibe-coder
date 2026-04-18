@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # Tool Types Guide — Comprehensive Reference for Free Marketing Tools
 
 Each tool type explained with examples, build complexity, typical outcomes, and design guidance.
@@ -251,3 +258,9 @@ If there's already a free tool for the job, you need a compelling reason to buil
 5. **Shareable output** — existing tools give results in a table; yours generates a shareable card or PDF
 
 Don't build "the same tool, but ours." That's a traffic fight you won't win. Build "the tool that does what the others don't."
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

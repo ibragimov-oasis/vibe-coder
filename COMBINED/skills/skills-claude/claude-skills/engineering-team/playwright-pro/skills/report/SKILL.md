@@ -3,6 +3,10 @@ name: "report"
 description: >-
   Generate test report. Use when user says "test report", "results summary",
   "test status", "show results", "test dashboard", or "how did tests go".
+tags:
+  - domain/agents
+  - artifact/skill
+  - source/skills-claude
 ---
 
 # Smart Test Reporting
@@ -124,3 +128,10 @@ If previous reports exist in `test-reports/`:
 - Report destination confirmation
 - Trend comparison (if historical data available)
 - Next action recommendation (fix failures or celebrate green)
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+- [[MOC - Agents]] — Claude agents
+

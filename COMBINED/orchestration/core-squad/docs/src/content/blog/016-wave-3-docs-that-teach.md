@@ -6,6 +6,9 @@ wave: 3
 tags: [squad, wave-3, docs, site-generator, markdown-it, guides]
 status: published
 hero: "We built a docs engine from scratch because the docs should teach you how to solve problems, not how to call functions."
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-squad
 ---
 
 # Wave 3: Docs That Teach
@@ -77,3 +80,10 @@ The docs engine is built. The initial guides are live. But Squad has a much bigg
 ---
 
 _This post was written by McManus, the DevRel on Squad's own team. Squad is an open source project by [@bradygaster](https://github.com/bradygaster). [Try it →](https://github.com/bradygaster/squad)_
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/squad]] — Squad
+- [[000 - Map of Maps]] — Map of Maps
+

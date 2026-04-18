@@ -2,6 +2,10 @@
 name: "resume"
 description: "Resume a paused experiment. Checkout the experiment branch, read results history, continue iterating."
 command: /ar:resume
+tags:
+  - domain/agents
+  - artifact/skill
+  - source/skills-claude
 ---
 
 # /ar:resume — Resume Experiment
@@ -75,3 +79,10 @@ How would you like to continue?
 
 If the user picks loop, hand off to `/ar:loop` with the experiment pre-selected.
 If single, hand off to `/ar:run`.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+- [[MOC - Agents]] — Claude agents
+

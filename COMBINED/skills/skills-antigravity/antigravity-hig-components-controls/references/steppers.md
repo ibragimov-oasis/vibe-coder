@@ -1,4 +1,11 @@
 ---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
+---
 title: "Steppers | Apple Developer Documentation"
 source: https://developer.apple.com/design/human-interface-guidelines/steppers
 
@@ -37,4 +44,9 @@ A stepper sits next to a field that displays its current value, because the step
 [`UIStepper`](https://developer.apple.com/documentation/UIKit/UIStepper) — UIKit
 
 [`NSStepper`](https://developer.apple.com/documentation/AppKit/NSStepper) — AppKit
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
 

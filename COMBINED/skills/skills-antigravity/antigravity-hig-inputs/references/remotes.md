@@ -40,7 +40,11 @@ The clickpad’s touch surface detects swipes and presses.
 
 Ensure that your app or game responds to specific presses in the following ways.
 
-Button or area| Expected behavior in an app| Expected behavior in a game  
+Button or area| Expected behavior in an app| Expected behavior in a game
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
 ---|---|---  
 Touch surface (swipe)| Navigates. Changes focus.| Performs directional pad behavior.  
 Touch surface (press)| Activates a control or an item. Navigates deeper.| Performs primary button behavior.  
@@ -64,4 +68,9 @@ Some remotes that are compatible with Apple TV include buttons for browsing live
 #### [Related](https://developer.apple.com/design/human-interface-guidelines/remotes#Related)
 
 [Use your Siri Remote or Apple TV Remote with Apple TV](https://support.apple.com/en-us/HT205305)
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
 

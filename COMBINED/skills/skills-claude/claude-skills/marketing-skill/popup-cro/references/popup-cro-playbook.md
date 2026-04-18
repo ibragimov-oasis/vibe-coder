@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # popup-cro reference
 
 ## Core Principles
@@ -259,3 +266,9 @@
 - Click-triggered: Higher (10%+, self-selected)
 
 ---
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

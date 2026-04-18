@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/seo
+  - artifact/doc
+  - source/skills-seo
+---
+
 # Email Types Reference
 
 A comprehensive guide to lifecycle and campaign emails. Use this as an audit checklist and implementation reference.
@@ -504,3 +511,9 @@ Use this to audit your current email program:
 - [ ] Seasonal promotion calendar
 - [ ] Product update announcements
 - [ ] Pricing update communications
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-seo]] — Category: skills-seo
+

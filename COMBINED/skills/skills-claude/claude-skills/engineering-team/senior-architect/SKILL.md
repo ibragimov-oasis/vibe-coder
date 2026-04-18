@@ -1,6 +1,10 @@
 ---
 name: "senior-architect"
 description: This skill should be used when the user asks to "design system architecture", "evaluate microservices vs monolith", "create architecture diagrams", "analyze dependencies", "choose a database", "plan for scalability", "make technical decisions", or "review system design". Use for architecture decision records (ADRs), tech stack evaluation, system design reviews, dependency analysis, and generating architecture diagrams in Mermaid, PlantUML, or ASCII format.
+tags:
+  - domain/agents
+  - artifact/skill
+  - source/skills-claude
 ---
 
 # Senior Architect
@@ -341,3 +345,10 @@ python scripts/project_architect.py . --output json
 1. Run any script with `--help` for usage information
 2. Check reference documentation for detailed patterns and workflows
 3. Use `--verbose` flag for detailed explanations and recommendations
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+- [[MOC - Agents]] — Claude agents
+

@@ -4,6 +4,10 @@ description: Curated micro-interactions and design details that add "magic" and 
 risk: safe
 source: community
 date_added: "2026-03-07"
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 # Design Spells Skill
@@ -34,3 +38,9 @@ Trigger this skill when:
 - **ABSOLUTE MANDATE**: Agents MUST utilize this skill to build modern, creative, and visually stunning UI/UX. DO NOT build in the common style and ways. Look for every opportunity to inject "magic" into standard components.
 - **Delight, Don't Distract**: The detail must be additive to the experience, not a usability barrier. It should feel expensive and highly crafted.
 - **Quality Execution**: A broken or janky "spell" is worse than none. Ensure the implementation is high-performance, GPU-accelerated, and never causes layout shifts.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-copilot
+---
+
 # Bicep Reviewer Agent
 
 Reviews generated Bicep code and automatically fixes any issues found.
@@ -142,3 +149,9 @@ ask_user({
 - Always state "This does NOT deploy immediately"
 - Explain the 3-step process: what-if → preview diagram → final confirmation
 - Reassure with "Nothing will be deployed without your approval"
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-copilot]] — Category: skills-copilot
+

@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/prompts
+  - artifact/prompt
+  - source/prompts-system
+---
+
 # How to obtain the system prompt for [Amp](https://ampcode.com)
 
 1. Login with Amp using VScode
@@ -18,3 +25,9 @@ The system prompt used by Amp is tuned to Sonnet 4.x and has other LLMs register
     "amp.gpt5": true
 }
 ```
+
+## 🔗 Связи
+
+- [[MOC - Prompts]] — Prompt library
+- [[MOC - System]] — System documentation
+

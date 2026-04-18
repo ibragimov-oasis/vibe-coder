@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/new_repos
+---
+
 # Inline Citation System
 
 This guide explains how inline citations are produced across Copilot Plus, Vault QA, and web search, and how the feature is exercised by automated tests.
@@ -46,3 +53,8 @@ This guide explains how inline citations are produced across Copilot Plus, Vault
 
 - `sanitizeContentForCitations` intentionally strips bracketed numbers; keep an eye on domains (math, law) where literal `[1990]` values might be desirable.
 - Inline citations remain model-dependent. `addFallbackSources` guarantees a sources list, but the UI still reflects whatever inline markers the provider returns.
+
+## 🔗 Связи
+
+- [[000 - Map of Maps]] — Map of Maps
+

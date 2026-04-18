@@ -1,6 +1,11 @@
 ---
 name: focused-fix
 description: Deep-dive feature repair — systematically fix an entire feature/module across all its files and dependencies. Usage: /focused-fix <feature-path>
+tags:
+  - domain/agents
+  - artifact/skill
+  - source/skills-claude
+  - artifact/doc
 ---
 
 # /focused-fix
@@ -89,3 +94,10 @@ If you haven't finished Phase 3, you cannot propose fixes.
 
 - `engineering/focused-fix` — Full SKILL.md with detailed checklists, output templates, and anti-patterns
 - `superpowers:systematic-debugging` — For individual complex bugs found during Phase 3
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+- [[MOC - Agents]] — Claude agents
+

@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/memory
+  - artifact/memory
+  - source/memory
+---
+
 # Raycast Extension for Supermemory
 
 A Raycast extension that lets you add memories and search through your Supermemory collection directly from Raycast.
@@ -33,3 +40,9 @@ A Raycast extension that lets you add memories and search through your Supermemo
 This extension requires a Supermemory API key. You can get your API key from [supermemory.link/raycast](https://supermemory.link/raycast).
 
 The API key is stored securely in Raycast preferences and is required for all operations.
+
+## 🔗 Связи
+
+- [[MOC - Memory]] — memory
+- [[000 - Map of Maps]] — Map of Maps
+

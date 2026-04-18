@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/mcp
+  - artifact/mcp-server
+  - source/mcp-servers
+---
+
 # Changelog
 
 ## Unreleased
@@ -31,3 +38,9 @@ Initial public npm release of `@chenglou/pretext`.
 - `prepare()` and `layout()` as the core fast path for DOM-free multiline text height prediction.
 - Rich layout APIs including `prepareWithSegments()`, `layoutWithLines()`, `layoutNextLine()`, and `walkLineRanges()` for custom rendering and manual layout.
 - Browser accuracy, benchmark, and corpus tooling with checked-in snapshots and representative canaries.
+
+## 🔗 Связи
+
+- [[MOC - MCP Servers]] — mcp-servers
+- [[000 - Map of Maps]] — Map of Maps
+

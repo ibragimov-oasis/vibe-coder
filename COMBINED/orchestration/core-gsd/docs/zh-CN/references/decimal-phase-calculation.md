@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-gsd
+---
+
 # 小数阶段计算
 
 为紧急插入计算下一个小数阶段编号。
@@ -63,3 +70,10 @@ mkdir -p "$PHASE_DIR"
 ```
 
 示例：`.planning/phases/06.1-fix-critical-auth-bug/`
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/gsd]] — GSD
+- [[000 - Map of Maps]] — Map of Maps
+

@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/memory
+  - artifact/memory
+  - source/memory
+---
+
 # Issue #532: Memory Leak in SessionManager - Analysis Report
 
 **Date**: 2026-01-04
@@ -322,3 +329,9 @@ Add tests for:
 | conversationHistory unbounded | NOT FIXED (except partial OpenRouter mitigation) | Yes - add trimming to all agents |
 
 Both memory leaks are confirmed to exist in the current codebase and require the fixes outlined above.
+
+## 🔗 Связи
+
+- [[MOC - Memory]] — memory
+- [[000 - Map of Maps]] — Map of Maps
+

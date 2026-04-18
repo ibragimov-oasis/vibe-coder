@@ -4,6 +4,10 @@ description: Pre-planning consultant for requirements analysis (Opus)
 model: claude-opus-4-6
 level: 3
 disallowedTools: Write, Edit
+tags:
+  - domain/agents
+  - artifact/agent
+  - source/by-role/analyst
 ---
 
 <Agent_Prompt>
@@ -111,3 +115,9 @@ disallowedTools: Write, Edit
     - Are open questions included in the response output under `### Open Questions`?
   </Final_Checklist>
 </Agent_Prompt>
+
+## 🔗 Связи
+
+- [[MOC - Agents]] — Agent catalog
+- [[agents/analyst]] — Role: analyst
+

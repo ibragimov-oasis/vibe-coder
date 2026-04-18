@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # Anti-Detection Patterns for Browser Automation
 
 This reference covers techniques to make Playwright automation less detectable by anti-bot services. These are defense-in-depth measures — no single technique is sufficient, but combining them significantly reduces detection risk.
@@ -451,3 +458,9 @@ For most automation tasks, apply these in order of priority:
 8. **Canvas noise** — Low priority unless hitting advanced anti-bot
 9. **Proxy rotation** — Only for high-volume or repeated scraping
 10. **Behavioral simulation** — Only for sites with behavioral analysis
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

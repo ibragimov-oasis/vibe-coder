@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # Windows Support via sql.js - Executive Summary
 
 **Date**: 2026-01-03
@@ -272,3 +279,10 @@ JSON              | ✅            | ❌            | ❌
 **Document Version**: 1.0
 **Author**: Research Agent
 **Last Updated**: 2026-01-03
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

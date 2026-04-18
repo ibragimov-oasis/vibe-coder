@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # CLI Commands Migration Guide
 
 > Migrating from V2 CLI (25 commands) to V3 CLI (7 commands)
@@ -485,3 +492,10 @@ npx claude-flow completion --install
 3. `repl` - Interactive mode
 4. `version` - Version info
 5. `completion` - Shell completion
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

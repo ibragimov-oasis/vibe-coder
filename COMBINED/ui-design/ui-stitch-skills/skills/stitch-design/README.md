@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/ui
+  - artifact/ui-component
+  - source/ui-design
+---
+
 # Stitch Design Skill
 
 Teaches agents to generate high-fidelity, consistent UI designs and maintain project-level design systems using Stitch.
@@ -48,3 +55,9 @@ stitch-design/
 ## Learn More
 
 See [SKILL.md](./SKILL.md) for complete instructions.
+
+## 🔗 Связи
+
+- [[MOC - UI Design]] — ui-design
+- [[000 - Map of Maps]] — Map of Maps
+

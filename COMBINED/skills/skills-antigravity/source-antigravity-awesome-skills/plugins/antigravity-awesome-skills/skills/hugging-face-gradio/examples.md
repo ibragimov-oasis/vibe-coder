@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # Gradio End-to-End Examples
 
 Complete working Gradio apps for reference.
@@ -611,3 +618,9 @@ demo = gr.Interface(video_identity,
 
 demo.launch()
 ```
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

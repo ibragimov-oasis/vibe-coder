@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # Data Transforms Reference
 
 Patterns for cleaning, normalizing, deduplicating, and enriching
@@ -395,3 +402,9 @@ Apply transforms in this sequence:
 
 Not all steps apply to every extraction. Apply only what's relevant
 to the data type and extraction mode.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

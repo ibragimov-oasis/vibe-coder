@@ -2,6 +2,10 @@
 name: 'DevOps Expert'
 description: 'DevOps specialist following the infinity loop principle (Plan → Code → Build → Test → Release → Deploy → Operate → Monitor) with focus on automation, collaboration, and continuous improvement'
 tools: ['codebase', 'edit/editFiles', 'terminalCommand', 'search', 'githubRepo', 'runCommands', 'runTasks']
+tags:
+  - domain/agents
+  - artifact/agent
+  - source/by-interface/agents-copilot
 ---
 
 # DevOps Expert
@@ -274,3 +278,9 @@ Monitor insights feed back into Plan:
 - Everything should be version controlled
 - Rollback should be as easy as deployment
 - Security and compliance are everyone's responsibility
+
+## 🔗 Связи
+
+- [[MOC - Agents]] — Agent catalog
+- [[agents/agents-copilot]] — Interface: agents-copilot
+

@@ -1,6 +1,10 @@
 ---
 name: playwright-generate-test
 description: 'Generate a Playwright test based on a scenario using Playwright MCP'
+tags:
+  - domain/agents
+  - artifact/skill
+  - source/skills-copilot
 ---
 
 # Test Generation with Playwright MCP
@@ -15,3 +19,10 @@ Your goal is to generate a Playwright test based on the provided scenario after 
 - Only after all steps are completed, emit a Playwright TypeScript test that uses `@playwright/test` based on message history
 - Save generated test file in the tests directory
 - Execute the test file and iterate until the test passes
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-copilot]] — Category: skills-copilot
+- [[MOC - Agents]] — Copilot agents
+

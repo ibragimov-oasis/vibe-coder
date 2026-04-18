@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
+---
+
 # Django REST API — Project CLAUDE.md
 
 > Real-world example for a Django REST Framework API with PostgreSQL and Celery.
@@ -306,3 +313,9 @@ pytest --lf
 - Feature branches from `main`, PRs required
 - CI: ruff (lint + format), mypy (types), pytest (tests), safety (dep check)
 - Deploy: Docker image, managed via Kubernetes or Railway
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

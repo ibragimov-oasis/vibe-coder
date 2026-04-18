@@ -5,6 +5,10 @@ description: >
   (chapters, summaries, threads, blog posts). Use when the user shares a YouTube
   URL or video link, asks to summarize a video, requests a transcript, or wants
   to extract and reformat content from any YouTube video.
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/REPO_DOCS
 ---
 
 # YouTube Content Tool
@@ -70,3 +74,9 @@ After fetching the transcript, format it based on what the user asks for:
 - **Private/unavailable video**: relay the error and ask the user to verify the URL.
 - **No matching language**: retry without `--language` to fetch any available transcript, then note the actual language to the user.
 - **Dependency missing**: run `pip install youtube-transcript-api` and retry.
+
+## 🔗 Связи
+
+- [[000 - Map of Maps]] — REPO_DOCS
+- [[000 - Map of Maps]] — Map of Maps
+

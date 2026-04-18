@@ -4,6 +4,10 @@ description: "Production-ready GitHub Actions workflow patterns for testing, bui
 risk: critical
 source: community
 date_added: "2026-02-27"
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 # GitHub Actions Templates
@@ -346,3 +350,9 @@ jobs:
 - `gitlab-ci-patterns` - For GitLab CI workflows
 - `deployment-pipeline-design` - For pipeline architecture
 - `secrets-management` - For secrets handling
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

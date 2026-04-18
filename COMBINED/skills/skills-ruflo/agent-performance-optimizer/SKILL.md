@@ -1,6 +1,10 @@
 ---
 name: agent-performance-optimizer
 description: Agent skill for performance-optimizer - invoke with $agent-performance-optimizer
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-ruflo
 ---
 
 ---
@@ -371,3 +375,9 @@ const performanceModel = await mcp__flow-nexus__neural_train({
 5. **Adaptive Optimization**: Implement adaptive optimization mechanisms
 
 The Performance Optimizer Agent serves as the central hub for all performance optimization activities, ensuring optimal system performance, resource utilization, and user experience across various computing environments and applications.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-ruflo]] — Category: skills-ruflo
+

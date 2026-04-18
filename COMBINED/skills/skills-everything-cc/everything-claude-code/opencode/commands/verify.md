@@ -1,6 +1,10 @@
 ---
 description: Run verification loop to validate implementation
 agent: build
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
 ---
 
 # Verify Command
@@ -65,3 +69,9 @@ Execute comprehensive verification:
 ---
 
 **NOTE**: Verification loop should be run before every commit and PR.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

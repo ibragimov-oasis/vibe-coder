@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
+---
+
 # ECC 2.0 Reference Architecture
 
 Research summary from competitor/reference analysis (2026-03-22).
@@ -52,3 +59,9 @@ Research summary from competitor/reference analysis (2026-03-22).
 - Self-improving skill evolution (continuous-learning-v2)
 - Rust single binary (3.4MB, no runtime deps)
 - First Rust-based agentic IDE TUI in open source
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

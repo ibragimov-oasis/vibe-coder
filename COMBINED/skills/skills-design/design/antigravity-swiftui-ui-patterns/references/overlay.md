@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/ui
+  - artifact/doc
+  - source/skills-design
+---
+
 # Overlay and toasts
 
 ## Intent
@@ -43,3 +50,9 @@ struct AppRootView: View {
 
 - Avoid overlays that block all interaction unless explicitly needed.
 - Don’t stack many overlays; use a queue or replace the current toast.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-design]] — Category: skills-design
+

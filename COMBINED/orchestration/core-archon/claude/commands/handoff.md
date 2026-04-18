@@ -1,5 +1,9 @@
 ---
 description: Write a session handoff document for the next agent or session
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-archon
 ---
 
 # Handoff: Capture Session State for Continuation
@@ -131,3 +135,10 @@ A good handoff document should:
 - Don't be vague ("fix the bug") — be specific ("fix the SSE reconnection in `packages/web/src/hooks/useSSE.ts` by adding exponential backoff after the `onclose` handler")
 - Don't skip the "Dead Ends" section — this prevents the most common wasted effort
 - Don't forget the "Key Decisions" section — without it, the next agent may reverse your decisions
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-archon]] — core-archon
+- [[MOC - Skills]] — Skills library
+

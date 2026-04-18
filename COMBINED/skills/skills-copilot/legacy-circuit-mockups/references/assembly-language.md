@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-copilot
+---
+
 # 6502 Assembly Language with AT28C256 EEPROM
 
 A practical specification for writing **6502/65C02 assembly language programs** intended to be stored in and executed from an **AT28C256 (32 KB) parallel EEPROM** in single-board computers (SBCs) and retro systems.
@@ -224,3 +231,9 @@ loop:
 **Document Scope:** 6502 assembly stored in AT28C256 EEPROM
 **Audience:** Retrocomputing, SBC designers, embedded hobbyists
 **Status:** Stable reference
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-copilot]] — Category: skills-copilot
+

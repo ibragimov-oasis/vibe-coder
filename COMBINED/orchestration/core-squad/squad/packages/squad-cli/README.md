@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-squad
+---
+
 # @bradygaster/squad-cli
 
 The programmable multi-agent CLI for GitHub Copilot. Build an AI team, assign roles, and let them work your repo—automating issue triage, code review, documentation, and more through orchestrated AI agents.
@@ -360,3 +367,9 @@ Squad is an ESM-only module. If you see import errors, ensure your Node.js versi
 ## License
 
 MIT. See [LICENSE](https://github.com/bradygaster/squad/blob/main/LICENSE) in the repository root.
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-squad]] — core-squad
+

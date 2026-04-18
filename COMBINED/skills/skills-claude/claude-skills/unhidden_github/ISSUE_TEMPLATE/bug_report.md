@@ -4,6 +4,10 @@ about: Report a bug in a skill or Python script
 title: '[BUG] '
 labels: bug
 assignees: ''
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
 ---
 
 ## Bug Description
@@ -56,3 +60,9 @@ Add any other context about the problem here, such as:
 - [ ] I have tested with the latest version
 - [ ] I have included all relevant error messages
 - [ ] I have provided steps to reproduce
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

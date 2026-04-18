@@ -10,6 +10,10 @@ metadata:
   updated: 2026-02-15
   python-tools: velocity_analyzer.py, sprint_health_scorer.py, retrospective_analyzer.py
   tech-stack: scrum, agile-coaching, team-dynamics, data-analysis
+tags:
+  - domain/agents
+  - artifact/skill
+  - source/skills-claude
 ---
 
 # Scrum Master Expert
@@ -220,3 +224,10 @@ Apply stage-specific facilitation (details in `references/team-dynamics-framewor
 ---
 
 *For deep framework references see `references/velocity-forecasting-guide.md` and `references/team-dynamics-framework.md`. For template assets see `assets/sprint_report_template.md` and `assets/team_health_check_template.md`.*
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+- [[MOC - Agents]] — Claude agents
+

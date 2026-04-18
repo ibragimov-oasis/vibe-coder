@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # ADR-019: @claude-flow/headless Runtime Package
 
 **Status:** Proposed
@@ -882,3 +889,10 @@ const HARD_LIMITS = {
 
 **Status:** Proposed
 **Next Steps:** Await approval, then begin Phase 1 implementation
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

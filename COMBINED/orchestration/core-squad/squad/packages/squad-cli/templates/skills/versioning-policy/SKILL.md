@@ -4,6 +4,10 @@ description: "Semver versioning rules for Squad SDK and CLI — prevents prerele
 domain: "release, versioning, npm, CI"
 confidence: "medium"
 source: "earned (PR #640 workspace resolution incident, PR #116 prerelease leak, CI gate implementation)"
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-squad
 ---
 
 ## Context
@@ -117,3 +121,10 @@ The **`prerelease-version-guard`** CI gate blocks any PR to `dev` or `main` that
 | CI gate | `prerelease-version-guard` blocks prerelease PRs |
 | Escape hatch | Any agent may revert a prerelease leak to clean version |
 | Footgun | `>=0.9.0` does NOT match `0.9.1-build.4` per semver |
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/squad]] — Squad
+- [[000 - Map of Maps]] — Map of Maps
+

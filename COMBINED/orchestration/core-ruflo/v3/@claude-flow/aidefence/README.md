@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # @claude-flow/aidefence
 
 [![npm version](https://img.shields.io/npm/v/@claude-flow/aidefence?color=blue&label=npm)](https://www.npmjs.com/package/@claude-flow/aidefence)
@@ -628,3 +635,9 @@ MIT License - see [LICENSE](LICENSE) for details.
   <strong>Built with security in mind by <a href="https://ruv.io">rUv</a></strong><br>
   <sub>Part of the Claude Flow ecosystem</sub>
 </p>
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-ruflo]] — core-ruflo
+

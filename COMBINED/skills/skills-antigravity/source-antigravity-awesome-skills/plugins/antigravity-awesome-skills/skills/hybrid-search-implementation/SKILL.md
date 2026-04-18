@@ -4,6 +4,10 @@ description: "Combine vector and keyword search for improved retrieval. Use when
 risk: safe
 source: community
 date_added: "2026-02-27"
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 # Hybrid Search Implementation
@@ -33,3 +37,9 @@ Patterns for combining vector similarity and keyword-based search.
 ## Resources
 
 - `resources/implementation-playbook.md` for detailed patterns and examples.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

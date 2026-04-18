@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # Loading & Error States
 
 **CRITICAL**: Proper loading and error state handling prevents layout shift and provides better user experience.
@@ -499,3 +506,9 @@ export const MyComponent: React.FC = () => {
 **See Also:**
 - [component-patterns.md](component-patterns.md) - Suspense integration
 - [data-fetching.md](data-fetching.md) - useSuspenseQuery details
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

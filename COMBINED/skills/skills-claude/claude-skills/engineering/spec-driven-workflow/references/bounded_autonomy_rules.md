@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # Bounded Autonomy Rules
 
 Decision framework for when an agent (human or AI) should stop and ask vs. continue working autonomously during spec-driven development.
@@ -271,3 +278,9 @@ Bypassing the escalation protocol for a "small" change. Small changes compound. 
 
 ### 5. "I Already Built It"
 Presenting completed work that was never in the spec and hoping it gets accepted. This creates review pressure and wastes everyone's time if rejected. Ask BEFORE building.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # Claude Flow Benchmark System v2.0
 
 A production-ready benchmarking system for Claude Flow that executes **real commands** and measures **actual performance metrics**.
@@ -147,3 +154,9 @@ MIT License - See LICENSE file for details
 **Status**: Production Ready  
 **Real Execution**: Yes  
 **Simulations**: None
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-ruflo]] — core-ruflo
+

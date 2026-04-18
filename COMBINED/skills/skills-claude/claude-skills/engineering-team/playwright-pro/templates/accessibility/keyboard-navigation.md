@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # Keyboard Navigation Template
 
 Tests tab order, focus visibility, and keyboard shortcuts.
@@ -147,3 +154,9 @@ test.describe('Keyboard Navigation', () => {
 | Keyboard shortcut | Custom key triggers action |
 | Focus after update | Focus not lost on async update |
 | Arrow keys | Tab/listbox/menu arrow navigation |
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

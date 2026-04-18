@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # Platform-Specific Strategy Guide
 
 Detailed strategies for each major social platform.
@@ -161,3 +168,9 @@ Detailed strategies for each major social platform.
 - Pure promotional content
 - Ignoring comments
 - Cross-posting from other platforms without adaptation
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

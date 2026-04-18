@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # Screen Reader Testing Implementation Playbook
 
 This file contains detailed patterns, checklists, and code samples referenced by the skill.
@@ -542,3 +549,9 @@ function logAccessibleName(element) {
 - [NVDA User Guide](https://www.nvaccess.org/files/nvda/documentation/userGuide.html)
 - [JAWS Documentation](https://support.freedomscientific.com/Products/Blindness/JAWS)
 - [WebAIM Screen Reader Survey](https://webaim.org/projects/screenreadersurvey/)
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

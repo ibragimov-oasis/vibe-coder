@@ -4,6 +4,10 @@ description: "Build reliable, fast, and maintainable end-to-end test suites that
 risk: safe
 source: community
 date_added: "2026-02-27"
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 # E2E Testing Patterns
@@ -42,3 +46,9 @@ Build reliable, fast, and maintainable end-to-end test suites that provide confi
 ## Resources
 
 - `resources/implementation-playbook.md` for detailed E2E patterns and templates.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

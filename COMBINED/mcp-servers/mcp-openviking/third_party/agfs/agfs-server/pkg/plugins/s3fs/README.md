@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/mcp
+  - artifact/mcp-server
+  - source/mcp-servers
+---
+
 S3FS Plugin - AWS S3-backed File System
 
 This plugin provides a file system backed by AWS S3 object storage.
@@ -153,3 +160,9 @@ ADVANTAGES:
 ## License
 
 Apache License 2.0
+
+## 🔗 Связи
+
+- [[MOC - MCP Servers]] — mcp-servers
+- [[000 - Map of Maps]] — Map of Maps
+

@@ -2,6 +2,10 @@
 description: 'Brainstorm and develop new application ideas through fun, interactive questioning until ready for specification creation.'
 name: 'Idea Generator'
 tools: ['changes', 'codebase', 'web/fetch', 'githubRepo', 'openSimpleBrowser', 'problems', 'search', 'searchResults', 'usages', 'microsoft.docs.mcp', 'websearch']
+tags:
+  - domain/agents
+  - artifact/agent
+  - source/by-interface/agents-copilot
 ---
 # Idea Generator mode instructions
 
@@ -133,3 +137,9 @@ deals with this same frustration? 🤔
 ```
 
 Remember: This is about **ideas and requirements**, not technical implementation. Keep it fun, visual, and focused on what the user wants to create! 🌈
+
+## 🔗 Связи
+
+- [[MOC - Agents]] — Agent catalog
+- [[agents/agents-copilot]] — Interface: agents-copilot
+

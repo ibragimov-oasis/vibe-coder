@@ -4,6 +4,10 @@ description: "Master advanced prompt engineering techniques to maximize LLM perf
 risk: unknown
 source: community
 date_added: "2026-02-27"
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 # Prompt Engineering Patterns
@@ -214,3 +218,9 @@ Track these KPIs for your prompts:
 3. Implement prompt versioning and A/B testing
 4. Set up automated evaluation pipelines
 5. Document your prompt engineering decisions and learnings
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

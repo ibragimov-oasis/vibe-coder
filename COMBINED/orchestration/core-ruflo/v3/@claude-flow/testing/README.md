@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # @claude-flow/testing
 
 [![npm version](https://img.shields.io/npm/v/@claude-flow/testing.svg)](https://www.npmjs.com/package/@claude-flow/testing)
@@ -545,3 +552,9 @@ expect(service._internalQueue.length).toBe(1);
 ## License
 
 MIT
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-ruflo]] — core-ruflo
+

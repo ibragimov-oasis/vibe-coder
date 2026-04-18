@@ -1,6 +1,10 @@
 ---
 applyTo: '*'
 description: 'Quarkus and MCP Server with HTTP SSE transport development standards and instructions'
+tags:
+  - domain/agents
+  - artifact/agent
+  - source/by-interface/agents-copilot
 ---
 # Quarkus MCP Server
 
@@ -47,3 +51,9 @@ quarkus create app --no-code -x rest-client-jackson,qute,mcp-server-sse your-dom
 - Don't throw exceptions from tools (return error strings)
 - Don't forget to validate input parameters
 - Test with edge cases (null, empty inputs)
+
+## 🔗 Связи
+
+- [[MOC - Agents]] — Agent catalog
+- [[agents/agents-copilot]] — Interface: agents-copilot
+

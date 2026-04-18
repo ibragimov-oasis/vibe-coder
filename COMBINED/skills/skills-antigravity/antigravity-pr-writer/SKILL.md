@@ -3,6 +3,10 @@ name: pr-writer
 description: "Create pull requests following Sentry's engineering practices."
 risk: unknown
 source: community
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 # PR Writer
@@ -183,3 +187,9 @@ Note: `gh pr edit` is currently broken due to GitHub's Projects (classic) deprec
 
 - [Sentry Code Review Guidelines](https://develop.sentry.dev/engineering-practices/code-review/)
 - [Sentry Commit Messages](https://develop.sentry.dev/engineering-practices/commit-messages/)
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

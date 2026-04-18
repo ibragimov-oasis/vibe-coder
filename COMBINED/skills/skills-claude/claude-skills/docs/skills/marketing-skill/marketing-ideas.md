@@ -1,6 +1,10 @@
 ---
 title: "Marketing Ideas for SaaS — Agent Skill for Marketing"
 description: "When the user needs marketing ideas, inspiration, or strategies for their SaaS or software product. Also use when the user asks for 'marketing. Agent skill for Claude Code, Codex CLI, Gemini CLI, OpenClaw."
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
 ---
 
 # Marketing Ideas for SaaS
@@ -214,3 +218,9 @@ Never dump all 139 ideas. Curate ruthlessly for context. If stage or budget is u
 - **content-production**: USE when scaling content-based ideas to high volume. NOT for the initial brainstorm.
 - **seo-audit**: USE when content/SEO ideas need technical validation. NOT for ideation.
 - **free-tool-strategy**: USE when Engineering as Marketing (#15) is the chosen tactic and a tool needs to be planned and built. NOT for general idea browsing.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

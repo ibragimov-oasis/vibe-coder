@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-squad
+---
+
 # Keeping Your Squad Across Many Projects
 
 **Try this to prevent re-casting:**
@@ -238,3 +245,10 @@ Your squad becomes **more valuable over time**. Each project adds to their knowl
 - **Casting state persists.** If your team is Neo, Trinity, Morpheus, they stay that way across projects. Consistent names build familiarity.
 - **Import, don't rebuild.** Starting fresh every project wastes the knowledge you've accumulated. Always import your latest squad export.
 - **Your squad gets smarter.** After 5 projects, your squad has seen more patterns than most junior developers.
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/squad]] — Squad
+- [[000 - Map of Maps]] — Map of Maps
+

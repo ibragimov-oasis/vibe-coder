@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-hermes
+---
+
 # GGUF Advanced Usage Guide
 
 ## Speculative Decoding
@@ -502,3 +509,9 @@ mkdir build && cd build
 cmake .. -DGGML_CUDA=ON -DCMAKE_BUILD_TYPE=Release
 cmake --build . --config Release -j
 ```
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-hermes]] — Category: skills-hermes
+

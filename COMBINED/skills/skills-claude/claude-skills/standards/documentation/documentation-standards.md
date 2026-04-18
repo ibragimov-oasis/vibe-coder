@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # Documentation Standards
 
 ## Core Principles
@@ -543,3 +550,9 @@ print(result)
 **Updated**: November 2025
 **Review**: Monthly documentation quality assessment
 **Compliance**: Markdown standards, accessibility guidelines
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

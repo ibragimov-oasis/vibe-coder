@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-praisonai
+---
+
 # PraisonAI Documentation
 
 ## Docs
@@ -18,3 +25,10 @@
 - [Web Search Agent](https://docs.praison.ai/docs/agents/websearch.md): Learn how to create AI agents for intelligent web searching and information gathering.
 - [Wikipedia Agent](https://docs.praison.ai/docs/agents/wikipedia.md): Learn how to create AI agents for searching and extracting information from Wikipedia.
 - [Agent Module](https://docs.praison.ai/docs/api/praisonaiagents/agent/agent.md): Documentation for the praisonaiagents.agent.agent module
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/praisonai]] — PraisonAI
+- [[000 - Map of Maps]] — Map of Maps
+

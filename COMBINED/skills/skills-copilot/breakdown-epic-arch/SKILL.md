@@ -1,6 +1,10 @@
 ---
 name: breakdown-epic-arch
 description: 'Prompt for creating the high-level technical architecture for an Epic, based on a Product Requirements Document.'
+tags:
+  - domain/agents
+  - artifact/skill
+  - source/skills-copilot
 ---
 
 # Epic Architecture Specification Prompt
@@ -64,3 +68,10 @@ Use clear subgraphs to organize these layers, apply consistent color coding for 
 ## Context Template
 
 - **Epic PRD:** [The content of the Epic PRD markdown file]
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-copilot]] — Category: skills-copilot
+- [[MOC - Agents]] — Copilot agents
+

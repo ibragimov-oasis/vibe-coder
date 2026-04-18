@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # 🎯 **START HERE: World-Class Team Skills**
 
 ## 📦 **What You're Getting**
@@ -352,3 +359,9 @@ You now have everything needed to build and scale world-class engineering and AI
 - Customize and iterate based on your needs
 
 **Remember:** These skills are starting points. Make them your own, add your learnings, and build the future! 🎯
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

@@ -1,6 +1,10 @@
 ---
 title: "C-Level Advisory Ecosystem — Agent Skill for Executives"
 description: "10 C-level advisory agent skills and plugins for Claude Code, Codex, Gemini CLI, Cursor, OpenClaw. CEO, CTO, COO, CPO, CMO, CFO, CRO, CISO, CHRO."
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
 ---
 
 # C-Level Advisory Ecosystem
@@ -152,3 +156,9 @@ Culture Architect, Company OS, Founder Coach, Strategic Alignment, Change Manage
 - `CLAUDE.md` — full architecture diagram and integration guide
 - `agent-protocol/SKILL.md` — communication standard and quality loop details
 - `chief-of-staff/SKILL.md` — routing matrix for all 28 skills
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

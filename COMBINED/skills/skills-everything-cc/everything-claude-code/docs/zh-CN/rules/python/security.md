@@ -2,6 +2,10 @@
 paths:
   - "**/*.py"
   - "**/*.pyi"
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
 ---
 
 # Python 安全
@@ -29,3 +33,9 @@ api_key = os.environ["OPENAI_API_KEY"]  # Raises KeyError if missing
 ## 参考
 
 查看技能：`django-security` 以获取 Django 特定的安全指南（如适用）。
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

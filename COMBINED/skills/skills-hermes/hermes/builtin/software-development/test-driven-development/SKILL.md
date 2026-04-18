@@ -8,6 +8,9 @@ metadata:
   hermes:
     tags: [testing, tdd, development, quality, red-green-refactor]
     related_skills: [systematic-debugging, writing-plans, subagent-driven-development]
+  - domain/skills
+  - artifact/skill
+  - source/skills-hermes
 ---
 
 # Test-Driven Development (TDD)
@@ -340,3 +343,9 @@ Otherwise → not TDD
 ```
 
 No exceptions without the user's explicit permission.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-hermes]] — Category: skills-hermes
+

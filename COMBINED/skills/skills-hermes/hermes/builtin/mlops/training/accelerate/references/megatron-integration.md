@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-hermes
+---
+
 # Megatron Integration with Accelerate
 
 ## Overview
@@ -487,3 +494,9 @@ nvidia-smi nvlink -s
 - Accelerate Megatron docs: https://huggingface.co/docs/accelerate/usage_guides/megatron_lm
 - Paper: "Megatron-LM: Training Multi-Billion Parameter Language Models Using Model Parallelism"
 - NVIDIA Apex: https://github.com/NVIDIA/apex
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-hermes]] — Category: skills-hermes
+

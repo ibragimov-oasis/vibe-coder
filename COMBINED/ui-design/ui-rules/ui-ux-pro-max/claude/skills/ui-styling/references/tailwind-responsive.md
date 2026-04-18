@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/ui
+  - artifact/ui-component
+  - source/ui-design
+---
+
 # Tailwind CSS Responsive Design
 
 Mobile-first breakpoints, responsive utilities, and adaptive layouts.
@@ -380,3 +387,9 @@ Use 2-3 breakpoints per element for maintainability:
 - [ ] Check text readability at all sizes
 - [ ] Verify navigation works on mobile
 - [ ] Test with browser zoom
+
+## 🔗 Связи
+
+- [[MOC - UI Design]] — ui-design
+- [[000 - Map of Maps]] — Map of Maps
+

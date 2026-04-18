@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # TypeScript Cheatsheet
 
 ## Type Basics
@@ -381,3 +388,9 @@ export function getUser(id: string): User | null {
 const data: any = fetchData()
 data.anything.goes.wrong  // No type safety
 ```
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

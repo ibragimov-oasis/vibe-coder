@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # Mobile Performance Reference
 
 > Deep dive into React Native and Flutter performance optimization, 60fps animations, memory management, and battery considerations.
@@ -765,3 +772,9 @@ Low-end Android ← Test device
 ---
 
 > **Remember:** Performance is not optimization—it's baseline quality. A slow app is a broken app. Test on the worst device your users have, not the best device you have.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

@@ -4,6 +4,10 @@ description: Use when a coding task should be driven end-to-end from issue intak
 risk: safe
 source: community
 date_added: "2026-03-12"
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 # Acceptance Orchestrator
@@ -104,3 +108,9 @@ When reporting status, always include:
 - `Need Human Input`: smallest next decision, if blocked
 
 Do not report "done" unless status is `accepted`.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

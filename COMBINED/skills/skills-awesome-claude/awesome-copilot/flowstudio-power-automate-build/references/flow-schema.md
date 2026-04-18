@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-awesome-claude
+---
+
 # FlowStudio MCP — Flow Definition Schema
 
 The full JSON structure expected by `update_live_flow` (and returned by `get_live_flow`).
@@ -223,3 +230,9 @@ Actions that need to be grouped for error handling or clarity:
   "outputs": {}
 }
 ```
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-awesome-claude]] — Category: skills-awesome-claude
+

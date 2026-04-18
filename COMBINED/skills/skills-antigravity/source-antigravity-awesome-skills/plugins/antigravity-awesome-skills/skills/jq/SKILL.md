@@ -8,6 +8,9 @@ date_added: "2026-03-28"
 author: kostakost2
 tags: [jq, json, shell, cli, data-transformation, bash]
 tools: [claude, cursor, gemini]
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 # jq — JSON Querying and Transformation
@@ -271,3 +274,9 @@ jq -n 'env.API_KEY'
 - `@bash-pro` — Wrapping jq calls in robust shell scripts
 - `@bash-linux` — General shell pipeline patterns
 - `@github-automation` — Using jq with GitHub CLI JSON output
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

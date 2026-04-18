@@ -3,6 +3,9 @@ title: Subscribe to Derived State
 impact: MEDIUM
 impactDescription: reduces re-render frequency
 tags: rerender, derived-state, media-query, optimization
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
 ---
 
 ## Subscribe to Derived State
@@ -27,3 +30,9 @@ function Sidebar() {
   return <nav className={isMobile ? 'mobile' : 'desktop'}>
 }
 ```
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

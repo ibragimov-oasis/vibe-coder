@@ -2,6 +2,10 @@
 name: autonomous-loops
 description: "自主Claude代码循环的模式与架构——从简单的顺序管道到基于RFC的多智能体有向无环图系统。"
 origin: ECC
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-everything-cc
 ---
 
 # 自主循环技能
@@ -619,3 +623,9 @@ evictionContext ─────────────────────�
 | Continuous Claude | AnandChowdhary | credit: @AnandChowdhary |
 | NanoClaw | ECC | 此仓库中的 `/claw` 命令 |
 | Verification Loop | ECC | 此仓库中的 `skills/verification-loop/` |
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

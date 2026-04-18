@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # Official SWE-bench Integration for Claude Flow
 
 This is the OFFICIAL SWE-bench integration for creating verified submissions to the [SWE-bench leaderboard](https://www.swebench.com/).
@@ -73,3 +80,9 @@ swe-bench-official/
 ├── predictions/              # Generated predictions
 └── logs/                     # Execution logs
 ```
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-ruflo]] — core-ruflo
+

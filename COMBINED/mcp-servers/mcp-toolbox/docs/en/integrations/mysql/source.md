@@ -6,6 +6,10 @@ weight: 1
 description: >
   MySQL is a relational database management system that stores and manages data.
 no_list: true
+tags:
+  - domain/mcp
+  - artifact/mcp-server
+  - source/mcp-servers
 ---
 
 ## About
@@ -63,3 +67,9 @@ instead of hardcoding your secrets into the configuration file.
 | database     |       string       |    false     | Name of the MySQL database to connect to (e.g. "my_db").                                                                                        |
 | queryTimeout |       string       |    false     | Maximum time to wait for query execution (e.g. "30s", "2m"). By default, no timeout is applied.                                                 |
 | queryParams  | map<string,string> |    false     | Arbitrary DSN parameters passed to the driver (e.g. `tls: preferred`, `charset: utf8mb4`). Useful for enabling TLS or other connection options. |
+
+## 🔗 Связи
+
+- [[MOC - MCP Servers]] — mcp-servers
+- [[000 - Map of Maps]] — Map of Maps
+

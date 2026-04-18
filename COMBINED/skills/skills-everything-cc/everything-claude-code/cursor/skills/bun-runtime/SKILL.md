@@ -2,6 +2,10 @@
 name: bun-runtime
 description: Bun as runtime, package manager, bundler, and test runner. When to choose Bun vs Node, migration notes, and Vercel support.
 origin: ECC
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-everything-cc
 ---
 
 # Bun Runtime
@@ -82,3 +86,9 @@ Bun.serve({
 - Commit the lockfile (`bun.lock` or `bun.lockb`) for reproducible installs.
 - Prefer `bun run` for scripts. For TypeScript, Bun runs `.ts` natively.
 - Keep dependencies up to date; Bun and the ecosystem evolve quickly.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

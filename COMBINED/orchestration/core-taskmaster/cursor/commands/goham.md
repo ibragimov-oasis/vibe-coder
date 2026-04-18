@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-taskmaster
+---
+
 # Start Working with Hamster Brief
 
 End-to-end workflow for working on tasks from a connected Hamster brief. All tasks from the brief are worked on in a single branch, with one PR created at the end.
@@ -327,3 +334,10 @@ git branch -d hamster-brief
 
 - Full guidelines: [hamster.mdc](mdc:.cursor/rules/hamster.mdc)
 - Git workflow: [git_workflow.mdc](mdc:.cursor/rules/git_workflow.mdc)
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-taskmaster]] — core-taskmaster
+- [[MOC - Skills]] — Skills library
+

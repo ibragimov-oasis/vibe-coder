@@ -3,6 +3,10 @@ id: 20260302-ptc-concurrent-execution
 name: Ptc Concurrent Execution
 status: implemented
 created: '2026-03-02'
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-refly
 ---
 
 ## Overview
@@ -150,3 +154,10 @@ Code template: ThreadPoolExecutor pattern
 ## Notes
 
 <!-- Optional: Alternatives considered, open questions, etc. -->
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/refly]] — Refly
+- [[000 - Map of Maps]] — Map of Maps
+

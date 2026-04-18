@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-omc
+---
+
 # Demo 0: Live Audience Build (10분)
 
 ## 개요
@@ -88,3 +95,10 @@ export OMC_MODEL=anthropic/claude-sonnet-4-6
 - 다양한 아이디어로
 - 타이밍 체크
 - 에러 대응 연습
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-omc]] — core-omc
+- [[MOC - Skills]] — Skills library
+

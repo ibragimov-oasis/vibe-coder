@@ -3,6 +3,10 @@ description: "Cloud Agent to Turn a single new-feature request into a complete, 
 name: "one-shot-feature-issue-planner"
 agent: agent
 tools: ["codebase", "githubRepo", "search", "usages", "web/fetch", "findTestFiles"]
+tags:
+  - domain/agents
+  - artifact/agent
+  - source/by-interface/agents-copilot
 ---
 
 # One-Shot Feature Issue Planner
@@ -359,3 +363,9 @@ Before finalizing, you MUST verify that the plan:
 ## Success Definition
 
 A successful response is a **single-pass, issue-ready feature specification and implementation plan** that a team can immediately put into GitHub and execute.
+
+## 🔗 Связи
+
+- [[MOC - Agents]] — Agent catalog
+- [[agents/agents-copilot]] — Interface: agents-copilot
+

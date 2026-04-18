@@ -1,5 +1,9 @@
 ---
 last_updated: 2026-03-08T00:00:00Z
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-squad
 ---
 
 # Team Wisdom
@@ -27,3 +31,10 @@ Reusable patterns and heuristics learned through work. NOT transcripts — each 
 
 **Anti-Pattern:** `git reset --hard` with unstaged changes wipes work. Always commit or stash before switching branches.
 **Context:** Fortier's ESM runtime patch was lost during v0.8.24 sprint cleanup.
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/squad]] — Squad
+- [[000 - Map of Maps]] — Map of Maps
+

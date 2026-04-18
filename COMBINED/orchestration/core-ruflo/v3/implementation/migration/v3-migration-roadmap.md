@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # Claude-Flow v3 Migration Roadmap
 
 **Project:** Claude-Flow v2.x → v3.0 Migration
@@ -1263,3 +1270,10 @@ npx claude-flow rollback v2
 ---
 
 **End of Migration Roadmap**
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

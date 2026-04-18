@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # MCP Client Guide for CLI Commands
 
 ## Overview
@@ -618,3 +625,10 @@ The MCP Client provides a clean, type-safe way for CLI commands to call MCP tool
 - **MCP Tools**: Business logic & data management
 
 This architecture ensures maintainability, testability, and consistency across all interfaces to the claude-flow system.
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

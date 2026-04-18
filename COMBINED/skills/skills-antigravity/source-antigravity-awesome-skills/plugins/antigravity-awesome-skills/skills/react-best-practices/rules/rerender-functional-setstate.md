@@ -3,6 +3,9 @@ title: Use Functional setState Updates
 impact: MEDIUM
 impactDescription: prevents stale closures and unnecessary callback recreations
 tags: react, hooks, useState, useCallback, callbacks, closures
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
 ---
 
 ## Use Functional setState Updates
@@ -72,3 +75,9 @@ function TodoList() {
 - State doesn't depend on previous value
 
 **Note:** If your project has [React Compiler](https://react.dev/learn/react-compiler) enabled, the compiler can automatically optimize some cases, but functional updates are still recommended for correctness and to prevent stale closure bugs.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

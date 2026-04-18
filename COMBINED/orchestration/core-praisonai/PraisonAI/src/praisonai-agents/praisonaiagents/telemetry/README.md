@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-praisonai
+---
+
 # PraisonAI Agents Telemetry
 
 This module provides minimal, privacy-focused telemetry for PraisonAI Agents.
@@ -125,3 +132,9 @@ When contributing to telemetry:
 - Aggregate usage statistics dashboard
 - Opt-in detailed performance metrics
 - Self-hosted telemetry endpoint option
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-praisonai]] — core-praisonai
+

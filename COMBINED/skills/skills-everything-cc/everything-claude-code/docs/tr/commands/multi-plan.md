@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
+---
+
 # Plan - Multi-Model İşbirlikçi Planlama
 
 Multi-model işbirlikçi planlama - Context retrieval + Dual-model analiz → Adım adım implementation planı oluştur.
@@ -266,3 +273,9 @@ Kullanıcı onayladıktan sonra, **manuel** olarak çalıştır:
 3. **Güven Kuralları** – Backend Codex'i takip eder, Frontend Gemini'yi takip eder
 4. Harici modellerin **sıfır dosya sistemi yazma erişimi**
 5. **SESSION_ID Devri** – Plan sonunda `CODEX_SESSION` / `GEMINI_SESSION` içermeli (`/ccg:execute resume <SESSION_ID>` kullanımı için)
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

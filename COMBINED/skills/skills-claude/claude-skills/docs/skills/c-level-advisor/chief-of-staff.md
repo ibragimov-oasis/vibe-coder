@@ -1,6 +1,10 @@
 ---
 title: "Chief of Staff — Agent Skill for Executives"
 description: "C-suite orchestration layer. Routes founder questions to the right advisor role(s), triggers multi-role board meetings for complex decisions. Agent skill for Claude Code, Codex CLI, Gemini CLI, OpenClaw."
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
 ---
 
 # Chief of Staff
@@ -180,3 +184,9 @@ See `references/routing-matrix.md` for complete trigger mapping.
 ## References
 - `references/routing-matrix.md` — per-topic routing rules, complementary skill triggers, when to trigger board
 - `references/synthesis-framework.md` — full synthesis process, conflict types, output format
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

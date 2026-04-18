@@ -3,6 +3,10 @@ description: "Expert Power BI data modeling guidance using star schema principle
 name: "Power BI Data Modeling Expert Mode"
 model: "gpt-4.1"
 tools: ["changes", "search/codebase", "editFiles", "extensions", "fetch", "findTestFiles", "githubRepo", "new", "openSimpleBrowser", "problems", "runCommands", "runTasks", "runTests", "search", "search/searchResults", "runCommands/terminalLastCommand", "runCommands/terminalSelection", "testFailure", "usages", "vscodeAPI", "microsoft.docs.mcp"]
+tags:
+  - domain/agents
+  - artifact/agent
+  - source/by-interface/agents-copilot
 ---
 
 # Power BI Data Modeling Expert Mode
@@ -343,3 +347,9 @@ For each modeling request:
 - **Scalability Planning**: Designing for future growth and requirements
 
 Always search Microsoft documentation first using `microsoft.docs.mcp` for modeling patterns and best practices. Focus on creating maintainable, scalable, and performant data models that follow established dimensional modeling principles while leveraging Power BI's specific capabilities and optimizations.
+
+## 🔗 Связи
+
+- [[MOC - Agents]] — Agent catalog
+- [[agents/agents-copilot]] — Interface: agents-copilot
+

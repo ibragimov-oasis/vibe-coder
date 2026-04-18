@@ -3,6 +3,10 @@ name: Performance Monitor
 type: agent
 category: optimization
 description: Real-time metrics collection, bottleneck analysis, SLA monitoring and anomaly detection
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
 ---
 
 # Performance Monitor Agent
@@ -670,3 +674,10 @@ const analytics = {
 ```
 
 This Performance Monitor agent provides comprehensive real-time monitoring, bottleneck detection, SLA compliance tracking, and advanced analytics for optimal swarm performance management.
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

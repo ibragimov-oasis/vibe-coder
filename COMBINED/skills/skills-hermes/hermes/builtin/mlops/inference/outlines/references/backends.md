@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-hermes
+---
+
 # Backend Configuration Guide
 
 Complete guide to configuring Outlines with different model backends.
@@ -613,3 +620,9 @@ def extract(text: str):
 - **llama.cpp**: https://github.com/ggerganov/llama.cpp
 - **vLLM**: https://docs.vllm.ai
 - **Outlines**: https://github.com/outlines-dev/outlines
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-hermes]] — Category: skills-hermes
+

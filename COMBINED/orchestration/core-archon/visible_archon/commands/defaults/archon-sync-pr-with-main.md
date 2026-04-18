@@ -1,6 +1,10 @@
 ---
 description: Sync PR branch with latest main (rebase if needed, resolve conflicts if any)
 argument-hint: (none - uses PR from scope)
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-archon
 ---
 
 # Sync PR with Main
@@ -397,3 +401,10 @@ If type-check/tests fail after rebase:
 - **NO_CONFLICTS**: All conflicts resolved (if any existed)
 - **VALIDATION_PASSED**: Type check, tests, lint all pass
 - **PUSHED**: Remote branch updated (if rebase occurred)
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/archon]] — Archon
+- [[000 - Map of Maps]] — Map of Maps
+

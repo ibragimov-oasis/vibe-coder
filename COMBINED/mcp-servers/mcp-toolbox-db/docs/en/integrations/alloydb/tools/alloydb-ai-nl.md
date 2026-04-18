@@ -7,6 +7,10 @@ description: >
   [AlloyDB AI](https://cloud.google.com/alloydb/ai) next-generation Natural
   Language support to provide the ability to query the database directly using
   natural language.
+tags:
+  - domain/mcp
+  - artifact/mcp-server
+  - source/mcp-servers
 ---
 
 ## About
@@ -127,3 +131,9 @@ nlConfigParameters:
 | description        |                 string                  |     true     | Description of the tool that is passed to the LLM.                       |
 | nlConfig           |                 string                  |     true     | The name of the  `nl_config` in AlloyDB                                  |
 | nlConfigParameters | parameters |     true     | List of PSV parameters defined in the `nl_config`                        |
+
+## 🔗 Связи
+
+- [[MOC - MCP Servers]] — mcp-servers
+- [[000 - Map of Maps]] — Map of Maps
+

@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-squad
+---
+
 # Redfoot — Graphic Designer
 
 > Visual-first. Design rationale over decoration. Consistency obsessed.
@@ -32,3 +39,10 @@
 
 ## Model
 Preferred: claude-opus-4.5
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/squad]] — Squad
+- [[000 - Map of Maps]] — Map of Maps
+

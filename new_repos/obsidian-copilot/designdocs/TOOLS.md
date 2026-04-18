@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/new_repos
+---
+
 # Tool System Documentation
 
 ## Overview
@@ -361,3 +368,8 @@ Run the focused test to cover the streaming behaviour and tool-call integration:
 ```
 npm test -- src/components/chat-components/ChatSingleMessage.test.tsx
 ```
+
+## 🔗 Связи
+
+- [[000 - Map of Maps]] — Map of Maps
+

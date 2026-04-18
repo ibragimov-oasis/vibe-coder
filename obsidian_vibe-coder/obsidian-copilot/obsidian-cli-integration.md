@@ -41,3 +41,9 @@ MVP дизайн интеграции Obsidian CLI в Copilot плагин: `Aut
 
 - [[obsidian-skills/obsidian-cli]] — сам Obsidian CLI
 - [[combined/Agents Overview]] — агенты ULTRACAR
+
+## 🔗 Связи
+
+- [[MOC - System]] — Parent MOC
+- [[000 - Map of Maps]] — Map of Maps
+

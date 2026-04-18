@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # Leadership Growth Reference
 
 Frameworks for founder and executive leadership development.
@@ -176,3 +183,9 @@ Board members who feel informed and useful are your allies. Board members who fe
 Fix the transparency gap before assuming it's a political problem.
 
 **When the board is actually wrong:** Make the case clearly, once, with data. If they override you on something important and you can't accept it, that's a signal about fit. Founders get removed. It happens. Build board relationships before you need them to trust you on a hard call.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

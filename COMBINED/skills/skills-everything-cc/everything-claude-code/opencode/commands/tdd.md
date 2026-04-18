@@ -2,6 +2,10 @@
 description: Enforce TDD workflow with 80%+ coverage
 agent: tdd-guide
 subtask: true
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
 ---
 
 # TDD Command
@@ -64,3 +68,9 @@ RED → GREEN → REFACTOR → REPEAT
 ---
 
 **MANDATORY**: Tests must be written BEFORE implementation. Never skip the RED phase.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

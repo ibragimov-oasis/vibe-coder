@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # @claude-flow/plugin-neural-coordination
 
 [![npm version](https://img.shields.io/npm/v/@claude-flow/plugin-neural-coordination.svg)](https://www.npmjs.com/package/@claude-flow/plugin-neural-coordination)
@@ -263,3 +270,9 @@ interface NeuralCoordinationConfig {
 ## License
 
 MIT
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-ruflo]] — core-ruflo
+

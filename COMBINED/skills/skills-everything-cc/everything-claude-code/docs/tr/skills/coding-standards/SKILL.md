@@ -2,6 +2,10 @@
 name: coding-standards
 description: TypeScript, JavaScript, React ve Node.js geliştirme için evrensel kodlama standartları, en iyi uygulamalar ve kalıplar.
 origin: ECC
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-everything-cc
 ---
 
 # Kodlama Standartları ve En İyi Uygulamalar
@@ -528,3 +532,9 @@ setTimeout(callback, DEBOUNCE_DELAY_MS)
 ```
 
 **Unutmayın**: Kod kalitesi pazarlık konusu değildir. Açık, sürdürülebilir kod hızlı geliştirme ve güvenli refactoring sağlar.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

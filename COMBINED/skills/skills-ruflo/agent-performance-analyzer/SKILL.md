@@ -1,6 +1,10 @@
 ---
 name: agent-performance-analyzer
 description: Agent skill for performance-analyzer - invoke with $agent-performance-analyzer
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-ruflo
 ---
 
 ---
@@ -202,3 +206,9 @@ This agent specializes in identifying and resolving performance bottlenecks in d
 - Compare optimization strategies
 - Measure real-world impact
 - Data-driven decisions
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-ruflo]] — Category: skills-ruflo
+

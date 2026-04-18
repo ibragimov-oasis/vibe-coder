@@ -1,6 +1,10 @@
 ---
 name: convert-plaintext-to-md
 description: 'Convert a text-based document to markdown following instructions from prompt, or if a documented option is passed, follow the instructions for that option.'
+tags:
+  - domain/agents
+  - artifact/skill
+  - source/skills-copilot
 ---
 
 # Convert Plaintext Documentation to Markdown
@@ -360,3 +364,10 @@ and options provided
 
 > [!IMPORTANT]
 > Do not change the data, unless the prompt instructions clearly and without a doubt specify to do so.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-copilot]] — Category: skills-copilot
+- [[MOC - Agents]] — Copilot agents
+

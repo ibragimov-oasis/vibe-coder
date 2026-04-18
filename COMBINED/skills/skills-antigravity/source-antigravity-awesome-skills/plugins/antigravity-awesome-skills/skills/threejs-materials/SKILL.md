@@ -3,6 +3,10 @@ name: threejs-materials
 description: Three.js materials - PBR, basic, phong, shader materials, material properties. Use when styling meshes, working with textures, creating custom shaders, or optimizing material performance.
 risk: unknown
 source: community
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 # Three.js Materials
@@ -546,3 +550,9 @@ As of r183, `MeshLambertMaterial` and `MeshPhongMaterial` support image-based li
 
 ## When to Use
 Use this skill when tackling tasks related to its primary domain or functionality as described above.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

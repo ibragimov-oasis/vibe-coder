@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # Padrões de Complexidade em Android/Kotlin
 
 ## 1. Complexidade Ciclomática (McCabe)
@@ -287,3 +294,9 @@ Para arquivos Kotlin médios:
 MainViewModel.kt: estimado V ≈ 5000-10000, D ≈ 15-25 — COMPLEXO
 LlmProvider.kt: estimado V ≈ 500-1000, D ≈ 5-10 — SIMPLES
 ```
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

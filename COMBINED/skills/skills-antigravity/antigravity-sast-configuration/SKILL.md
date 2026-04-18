@@ -4,6 +4,10 @@ description: "Static Application Security Testing (SAST) tool setup, configurati
 risk: unknown
 source: community
 date_added: "2026-02-27"
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 # SAST Configuration
@@ -213,3 +217,9 @@ semgrep --config p/pci-dss --json -o pci-scan-results.json
 4. Integrate into CI/CD pipeline
 5. Establish security gate policies
 6. Train development team on findings and remediation
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

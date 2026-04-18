@@ -4,6 +4,10 @@ description: Expert in secure backend coding practices specializing in input val
 risk: unknown
 source: community
 date_added: '2026-02-27'
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 ## Use this skill when
@@ -153,3 +157,9 @@ Expert backend security developer with comprehensive knowledge of secure coding 
 - "Create secure error handling that doesn't leak sensitive information"
 - "Implement rate limiting and DDoS protection for public API endpoints"
 - "Design secure external service integration with allowlist validation"
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

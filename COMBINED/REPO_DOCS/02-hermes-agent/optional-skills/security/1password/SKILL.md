@@ -160,3 +160,9 @@ Service accounts require CLI v2.18.0+.
 - `references/cli-examples.md`
 - https://developer.1password.com/docs/cli/
 - https://developer.1password.com/docs/service-accounts/
+
+## 🔗 Связи
+
+- [[000 - Map of Maps]] — REPO_DOCS
+- [[000 - Map of Maps]] — Map of Maps
+

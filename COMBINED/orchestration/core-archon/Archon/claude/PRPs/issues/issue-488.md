@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-archon
+---
+
 # Investigation: CLI --branch + --no-worktree silently checks out in main repo
 
 **Issue**: #488 (https://github.com/dynamous-community/remote-coding-agent/issues/488)
@@ -251,3 +258,10 @@ bun run lint
 - **Investigated by**: Claude
 - **Timestamp**: 2026-03-10T12:00:00Z
 - **Artifact**: `.claude/PRPs/issues/issue-488.md`
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/archon]] — Archon
+- [[000 - Map of Maps]] — Map of Maps
+

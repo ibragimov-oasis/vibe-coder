@@ -4,6 +4,10 @@ paths:
   - "**/*.csx"
   - "**/*.csproj"
   - "**/appsettings*.json"
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
 ---
 
 # C# 安全性
@@ -57,3 +61,9 @@ await connection.QueryAsync<Order>(sql, new { customerId });
 ## 参考资料
 
 有关更广泛的应用安全审查清单，请参阅技能：`security-review`。
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

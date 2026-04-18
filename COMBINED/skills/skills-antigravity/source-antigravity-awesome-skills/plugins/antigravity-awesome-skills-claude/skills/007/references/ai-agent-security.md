@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # AI Agent & LLM Pipeline Security Guide
 
 > Security patterns, attacks, and defenses for AI agents, LLM applications, and prompt pipelines.
@@ -468,3 +475,9 @@ def test_injection_resilience(agent, test_cases: list[str]) -> dict:
 - **Weekly**: Automated regression with expanded test cases
 - **Monthly**: Red team exercise with creative attack scenarios
 - **Per release**: Full security review including prompt analysis
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

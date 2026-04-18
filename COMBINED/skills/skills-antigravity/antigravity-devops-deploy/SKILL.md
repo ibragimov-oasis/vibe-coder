@@ -18,6 +18,9 @@ tools:
 - cursor
 - gemini-cli
 - codex-cli
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 # DEVOPS-DEPLOY — Da Ideia para Producao
@@ -292,3 +295,9 @@ def create_error_alarm(function_name: str, sns_topic_arn: str):
 - Using this skill for tasks outside its domain expertise
 - Applying recommendations without understanding your specific context
 - Not providing enough project context for accurate analysis
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

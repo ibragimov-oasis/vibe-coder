@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # Track Management Implementation Playbook
 
 This file contains detailed patterns, checklists, and code samples referenced by the skill.
@@ -589,3 +596,9 @@ Phase 3: Cleanup
 8. **Archive, don't delete**: Preserve completed tracks for reference
 9. **Size appropriately**: Keep tracks between 1-5 days of work
 10. **Clear acceptance criteria**: Every requirement must be testable
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

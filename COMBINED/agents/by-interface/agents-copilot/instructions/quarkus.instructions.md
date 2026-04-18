@@ -1,6 +1,10 @@
 ---
 applyTo: '*'
 description: 'Quarkus development standards and instructions'
+tags:
+  - domain/agents
+  - artifact/agent
+  - source/by-interface/agents-copilot
 ---
 
 - Instructions for high-quality Quarkus applications with Java 17 or later.
@@ -96,3 +100,9 @@ description: 'Quarkus development standards and instructions'
 - Use Quarkus Security extensions (e.g., `quarkus-smallrye-jwt`, `quarkus-oidc`).
 - Implement role-based access control (RBAC) using MicroProfile JWT or OIDC.
 - Validate all input parameters
+
+## 🔗 Связи
+
+- [[MOC - Agents]] — Agent catalog
+- [[agents/agents-copilot]] — Interface: agents-copilot
+

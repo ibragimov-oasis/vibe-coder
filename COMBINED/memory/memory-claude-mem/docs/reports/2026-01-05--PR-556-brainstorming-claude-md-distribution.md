@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/memory
+  - artifact/memory
+  - source/memory
+---
+
 Brainstorming Report: CLAUDE.md Distribution Architecture
 
   Problem Statement
@@ -56,3 +63,9 @@ Brainstorming Report: CLAUDE.md Distribution Architecture
   - claude-mem-timeline.csv = Machine-generated context sync (blocked from reading, already injected)
 
   No collision between human documentation and machine context.
+
+## 🔗 Связи
+
+- [[MOC - Memory]] — memory
+- [[000 - Map of Maps]] — Map of Maps
+

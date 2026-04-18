@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # Tool Use Concepts
 
 This file covers the conceptual foundations of tool use with the Claude API. For language-specific code examples, see the `python/`, `typescript/`, or other language folders.
@@ -303,3 +310,9 @@ The Python and TypeScript SDKs automatically handle unsupported constraints by r
 For detailed tool use documentation, use WebFetch:
 
 - URL: `https://platform.claude.com/docs/en/agents-and-tools/tool-use/overview`
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

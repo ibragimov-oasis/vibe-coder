@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/command
+  - source/commands
+---
+
 # pattern-learn
 
 Learn patterns from successful operations.
@@ -23,3 +30,9 @@ npx claude-flow training pattern-learn --threshold 0.9
 # Save patterns
 npx claude-flow training pattern-learn --save optimal-patterns
 ```
+
+## 🔗 Связи
+
+- [[MOC - System]] — commands
+- [[000 - Map of Maps]] — Map of Maps
+

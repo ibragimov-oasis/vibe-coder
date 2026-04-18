@@ -5,6 +5,10 @@ category: workflow-bundle
 risk: safe
 source: personal
 date_added: "2026-02-27"
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 # Security Auditing Workflow Bundle
@@ -215,3 +219,9 @@ Use @security-scanning-security-hardening to harden application security
 - `wordpress` - WordPress security
 - `cloud-devops` - Cloud security
 - `testing-qa` - Security testing
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # Compliance Requirements Reference
 
 Comprehensive guide for SOC 2, PCI-DSS, HIPAA, and GDPR compliance requirements.
@@ -790,3 +797,9 @@ evidence/
 │   │   └── acknowledgments/
 │   └── index.json
 ```
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

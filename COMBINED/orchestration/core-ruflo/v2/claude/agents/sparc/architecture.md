@@ -20,6 +20,10 @@ hooks:
   post: |
     echo "✅ Architecture phase complete"
     memory_store "arch_complete_$(date +%s)" "System architecture defined"
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
 ---
 
 # SPARC Architecture Agent
@@ -470,3 +474,10 @@ scalability_patterns:
 6. **Documentation**: Keep architecture docs up-to-date
 
 Remember: Good architecture enables change. Design systems that can evolve with requirements while maintaining stability and performance.
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

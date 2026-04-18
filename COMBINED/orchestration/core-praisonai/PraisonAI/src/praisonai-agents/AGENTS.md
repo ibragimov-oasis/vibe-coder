@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-praisonai
+---
+
 # AGENTS.md - PraisonAI SDK Comprehensive Guide
 
 > **For AI Agents and Developers**: This document provides the complete context needed to work with the PraisonAI ecosystem, including design principles, architecture, repository structure, and implementation guidelines.
@@ -908,3 +915,10 @@ The core remains **free and open source**. Clear upgrade paths to paid value:
 ---
 
 *This document is the source of truth for the PraisonAI SDK architecture and design principles.*
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/praisonai]] — PraisonAI
+- [[000 - Map of Maps]] — Map of Maps
+

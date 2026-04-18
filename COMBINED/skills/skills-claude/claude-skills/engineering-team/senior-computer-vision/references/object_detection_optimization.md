@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # Object Detection Optimization
 
 Comprehensive guide to optimizing object detection models for accuracy and inference speed.
@@ -883,3 +890,9 @@ print(f"Best mAP: {study.best_value}")
 - [Albumentations detection](https://albumentations.ai/docs/getting_started/bounding_boxes_augmentation/)
 - [Focal Loss paper](https://arxiv.org/abs/1708.02002)
 - [CIoU paper](https://arxiv.org/abs/2005.03572)
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

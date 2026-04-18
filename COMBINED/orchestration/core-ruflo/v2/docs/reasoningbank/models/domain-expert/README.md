@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # Domain Expert Model
 
 A pre-trained ReasoningBank model with multi-domain expertise patterns covering 5 major technical domains.
@@ -213,3 +220,9 @@ For issues or questions about this model:
 **Training Date**: 2025-10-15
 **Total Patterns**: 1500
 **Domain Coverage**: 5 domains × 300 patterns each
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-ruflo]] — core-ruflo
+

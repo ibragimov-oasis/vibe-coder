@@ -4,6 +4,10 @@ description: "Comprehensive guidance for creating, organizing, and managing Helm
 risk: unknown
 source: community
 date_added: "2026-02-27"
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 # Helm Chart Scaffolding
@@ -35,3 +39,9 @@ Use this skill when you need to:
 ## Resources
 
 - `resources/implementation-playbook.md` for detailed patterns and examples.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-squad
+---
+
 # Compaction Recovery
 
 > Recovery mechanism for when conversation context is compacted.
@@ -144,3 +151,10 @@ It is **ONLY** a breadcrumb to help the Coordinator resume at the right place.
 
 - [Result Persistence](./result-persistence.md) — How agent results are archived
 - [Coordinator Restraint Rules](./coordinator-restraint.md) — How Coordinator avoids over-managing agents
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/squad]] — Squad
+- [[000 - Map of Maps]] — Map of Maps
+

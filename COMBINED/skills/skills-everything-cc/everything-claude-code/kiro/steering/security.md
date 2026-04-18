@@ -1,6 +1,10 @@
 ---
 inclusion: auto
 description: Security best practices including mandatory checks, secret management, and security response protocol.
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
 ---
 
 # Security Guidelines
@@ -32,3 +36,9 @@ If security issue found:
 3. Fix CRITICAL issues before continuing
 4. Rotate any exposed secrets
 5. Review entire codebase for similar issues
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

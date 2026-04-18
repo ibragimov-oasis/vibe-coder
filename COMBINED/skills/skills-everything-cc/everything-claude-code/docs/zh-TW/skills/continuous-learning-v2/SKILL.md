@@ -2,6 +2,10 @@
 name: continuous-learning-v2
 description: Instinct-based learning system that observes sessions via hooks, creates atomic instincts with confidence scoring, and evolves them into skills/commands/agents.
 version: 2.0.0
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-everything-cc
 ---
 
 # 持續學習 v2 - 基於本能的架構
@@ -255,3 +259,9 @@ v2 完全相容 v1：
 ---
 
 *基於本能的學習：一次一個觀察，教導 Claude 你的模式。*
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

@@ -4,6 +4,10 @@ description: "Coordinate multi-layer security scanning and hardening across appl
 risk: unknown
 source: community
 date_added: "2026-02-27"
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 Implement comprehensive security hardening with defense-in-depth strategy through coordinated multi-agent orchestration:
@@ -148,3 +152,9 @@ Implement comprehensive security hardening with defense-in-depth strategy throug
 - Regular security reviews scheduled post-implementation
 
 Security hardening target: $ARGUMENTS
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

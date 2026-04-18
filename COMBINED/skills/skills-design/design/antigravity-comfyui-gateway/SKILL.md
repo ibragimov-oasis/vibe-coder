@@ -16,6 +16,9 @@ tools:
 - cursor
 - gemini-cli
 - codex-cli
+  - domain/ui
+  - artifact/skill
+  - source/skills-design
 ---
 
 # ComfyUI Gateway
@@ -421,3 +424,10 @@ comfyui-gateway/
 - `ai-studio-image` - Complementary skill for enhanced analysis
 - `image-studio` - Complementary skill for enhanced analysis
 - `stability-ai` - Complementary skill for enhanced analysis
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-design]] — Category: skills-design
+- [[MOC - UI Design]] — Design & UI
+

@@ -1,6 +1,10 @@
 ---
 description: 'Guidelines for Visual Studio extension (VSIX) development using Community.VisualStudio.Toolkit'
 applyTo: '**/*.cs, **/*.vsct, **/*.xaml, **/source.extension.vsixmanifest'
+tags:
+  - domain/agents
+  - artifact/agent
+  - source/by-interface/agents-copilot
 ---
 
 # Visual Studio Extension Development with Community.VisualStudio.Toolkit
@@ -686,3 +690,9 @@ Description with screenshot...
 4. **Keep the description scannable** - Short paragraphs, bullet points, tables
 5. **Include keyboard shortcuts** - Users love productivity tips
 6. **Add a "Why" section** - Explain the problem before the solution
+
+## 🔗 Связи
+
+- [[MOC - Agents]] — Agent catalog
+- [[agents/agents-copilot]] — Interface: agents-copilot
+

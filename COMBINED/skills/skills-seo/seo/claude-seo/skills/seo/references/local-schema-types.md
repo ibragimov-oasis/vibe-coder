@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/seo
+  - artifact/doc
+  - source/skills-seo
+---
+
 <!-- Updated: 2026-03-23 -->
 # Local Schema Types & Industry-Specific Patterns (March 2026)
 
@@ -228,3 +235,9 @@ Use `@id` for unique identifiers per location. Subdirectory structure recommende
 | `VehicleListing` | Rich results removed | June 12, 2025 | `Car` + `Offer` |
 | `HowTo` | Rich results removed | September 2023 | None |
 | `SpecialAnnouncement` | Deprecated | July 31, 2025 | None |
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-seo]] — Category: skills-seo
+

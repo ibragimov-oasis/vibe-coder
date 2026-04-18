@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # Create Cognitive Patterns
 
 ## 🎯 Key Principle
@@ -43,3 +50,10 @@ These patterns guide how Claude Code approaches different aspects of your task.
 - Main documentation: /claude.md
 - Other commands in this category
 - Workflow examples in /workflows/
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

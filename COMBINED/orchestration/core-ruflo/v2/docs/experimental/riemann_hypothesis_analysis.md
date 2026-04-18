@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # Riemann Hypothesis: A GOAP-Based Mathematical Analysis
 
 ## Executive Summary
@@ -261,3 +268,10 @@ The Riemann Hypothesis represents the ultimate test for systematic mathematical 
 While a complete solution remains elusive, this structured approach maximizes our chances of breakthrough while ensuring meaningful progress toward understanding one of mathematics' deepest mysteries.
 
 The combination of sublinear optimization, quantum analogies, and massive computational verification represents our best hope for finally resolving this 165-year-old conjecture.
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

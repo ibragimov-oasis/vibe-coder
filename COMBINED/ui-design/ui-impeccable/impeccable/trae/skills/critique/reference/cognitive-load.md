@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/ui
+  - artifact/ui-component
+  - source/ui-design
+---
+
 # Cognitive Load Assessment
 
 Cognitive load is the total mental effort required to use an interface. Overloaded users make mistakes, get frustrated, and leave. This reference helps identify and fix cognitive overload.
@@ -104,3 +111,9 @@ At any decision point, count the number of distinct options, actions, or pieces 
 ### 8. The Context Switch
 **Problem**: User must jump between screens/tabs/modals to gather info for a single decision.
 **Fix**: Co-locate the information needed for each decision. Reduce back-and-forth.
+
+## 🔗 Связи
+
+- [[MOC - UI Design]] — ui-design
+- [[000 - Map of Maps]] — Map of Maps
+

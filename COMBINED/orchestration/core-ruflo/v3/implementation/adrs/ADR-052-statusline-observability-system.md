@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # ADR-052: Statusline Observability System
 
 **Status:** Implemented
@@ -392,3 +399,10 @@ interface StatuslineConfig {
 - ADR-048: Auto Memory Integration (learning patterns)
 - ADR-006: Unified Memory Service (AgentDB)
 - ADR-026: 3-Tier Model Routing (intelligence scoring)
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

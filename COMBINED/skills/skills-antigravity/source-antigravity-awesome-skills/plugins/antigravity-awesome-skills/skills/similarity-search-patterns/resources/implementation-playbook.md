@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # Similarity Search Patterns Implementation Playbook
 
 This file contains detailed patterns, checklists, and code samples referenced by the skill.
@@ -555,3 +562,9 @@ class WeaviateVectorStore:
 - [Qdrant Docs](https://qdrant.tech/documentation/)
 - [pgvector](https://github.com/pgvector/pgvector)
 - [Weaviate Docs](https://weaviate.io/developers/weaviate)
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

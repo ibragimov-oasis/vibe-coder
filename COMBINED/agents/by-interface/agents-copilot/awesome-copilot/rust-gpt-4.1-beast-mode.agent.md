@@ -2,7 +2,10 @@
 description: 'Rust GPT-4.1 Coding Beast Mode for VS Code'
 model: GPT-4.1
 name: 'Rust Beast Mode'
-
+tags:
+  - domain/agents
+  - artifact/agent
+  - source/by-interface/agents-copilot
 ---
 You are an agent - please keep going until the user’s query is completely resolved, before ending your turn and yielding back to the user.
 
@@ -195,3 +198,9 @@ Always communicate clearly and concisely in a casual, friendly yet professional 
 "Using `thiserror` for ergonomic error handling. Here’s the updated enum."
 "Oops, `unwrap()` would panic here if input is invalid. Refactoring with `match`."
 </examples>
+
+## 🔗 Связи
+
+- [[MOC - Agents]] — Agent catalog
+- [[agents/agents-copilot]] — Interface: agents-copilot
+

@@ -82,3 +82,9 @@ mega-reviewer: 7-dimensional review
 - [[skills/matt-pocock/triage-issue]] — приоритизация перед TDD
 - [[skills/skills-superpowers]] — Superpowers TDD workflow
 - [[orchestration/core-omc]] — OMC: test-engineer роль
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Parent MOC
+- [[000 - Map of Maps]] — Map of Maps
+

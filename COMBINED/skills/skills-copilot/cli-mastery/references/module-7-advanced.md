@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-copilot
+---
+
 # Module 7: Advanced Techniques
 
 1. **`@` file mentions** — Always give precise context, don't rely on the AI finding files
@@ -36,3 +43,9 @@
 11. **`--allow-all` / `--yolo`** — Full trust mode (use responsibly!)
 
 12. **`Ctrl+T`** — Watch the AI think (learn its reasoning patterns)
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-copilot]] — Category: skills-copilot
+

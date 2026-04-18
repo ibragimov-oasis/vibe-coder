@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # Keyword Research Guide
 
 Systematic approach to discovering, evaluating, and selecting keywords for app store optimization.
@@ -417,3 +424,9 @@ Baseline Rankings:
 Conclusion: Test successful - retain new keywords
 Next Action: Target subtitle position for "habit tracker"
 ```
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

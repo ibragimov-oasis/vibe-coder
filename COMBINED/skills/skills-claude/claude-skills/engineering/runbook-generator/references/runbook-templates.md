@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # Runbook Templates
 
 ## Deployment Runbook Template
@@ -38,3 +45,9 @@ Track referenced config files and update runbooks whenever these change:
 3. Test rollback paths.
 4. Confirm contact/escalation ownership.
 5. Update `Last verified` date.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

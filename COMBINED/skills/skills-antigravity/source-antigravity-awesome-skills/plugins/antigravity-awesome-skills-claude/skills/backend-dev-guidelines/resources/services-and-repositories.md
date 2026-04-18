@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # Services and Repositories - Business Logic Layer
 
 Complete guide to organizing business logic with services and data access with repositories.
@@ -787,3 +794,9 @@ describe('UserService', () => {
 - [routing-and-controllers.md](routing-and-controllers.md) - Controllers that use services
 - [database-patterns.md](database-patterns.md) - Prisma and repository patterns
 - [complete-examples.md](complete-examples.md) - Full service/repository examples
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

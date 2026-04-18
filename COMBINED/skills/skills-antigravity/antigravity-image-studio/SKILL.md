@@ -16,6 +16,9 @@ tools:
 - cursor
 - gemini-cli
 - codex-cli
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 # IMAGE-STUDIO: Gerador de Imagens Inteligente
@@ -325,3 +328,9 @@ stability-ai:
 - `ai-studio-image` - Complementary skill for enhanced analysis
 - `comfyui-gateway` - Complementary skill for enhanced analysis
 - `stability-ai` - Complementary skill for enhanced analysis
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

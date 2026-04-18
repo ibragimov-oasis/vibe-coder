@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-hermes
+---
+
 # FAISS Index Types Guide
 
 Complete guide to choosing and using FAISS index types.
@@ -278,3 +285,9 @@ index.add(vectors)
 
 - **Wiki**: https://github.com/facebookresearch/faiss/wiki
 - **Paper**: https://arxiv.org/abs/1702.08734
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-hermes]] — Category: skills-hermes
+

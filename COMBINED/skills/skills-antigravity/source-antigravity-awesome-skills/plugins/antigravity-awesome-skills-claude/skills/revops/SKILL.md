@@ -6,6 +6,10 @@ source: "https://github.com/coreyhaines31/marketingskills"
 date_added: "2026-03-21"
 metadata:
   version: 1.1.0
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 # RevOps
@@ -350,3 +354,9 @@ For implementation, use the CRM, scheduling, enrichment, and automation tools av
 - **analytics-tracking**: For tracking pipeline metrics and attribution
 - **launch-strategy**: For go-to-market launch planning
 - **sales-enablement**: For sales collateral, decks, and objection handling
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

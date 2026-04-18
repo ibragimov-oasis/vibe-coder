@@ -2,6 +2,10 @@
 sidebar_position: 8
 title: "Open WebUI"
 description: "Connect Open WebUI to Hermes Agent via the OpenAI-compatible API server"
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-hermes
 ---
 
 # Open WebUI Integration
@@ -206,3 +210,10 @@ docker run --network=host -e OPENAI_API_BASE_URL=http://localhost:8642/v1 ...
 # Option 3: Use Docker bridge IP
 docker run -e OPENAI_API_BASE_URL=http://172.17.0.1:8642/v1 ...
 ```
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/hermes]] — Hermes
+- [[000 - Map of Maps]] — Map of Maps
+

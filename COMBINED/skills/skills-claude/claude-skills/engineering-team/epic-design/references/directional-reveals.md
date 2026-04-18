@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # Directional Reveals Reference
 
 Elements and sections don't always enter from the bottom. Premium sites use **directional births** — sections that drop from the top, iris open from center, peel away like wallpaper, or unfold diagonally. This file covers all 8 directional reveal patterns.
@@ -453,3 +460,9 @@ Section 5 → Section 6: Curtain panel roll-up (exposes multiple layers)
 ```
 
 Each transition feels distinct, keeping the user engaged across the full scroll experience.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

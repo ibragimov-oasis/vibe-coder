@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/prompts
+  - artifact/prompt
+  - source/prompts-leaked
+---
+
 ## User Profile: David
 
 **Name:** David
@@ -44,3 +51,9 @@
 ## Memories
 
 **Current Memories:** No memories recorded yet.
+
+## 🔗 Связи
+
+- [[MOC - Prompts]] — Prompt library
+- [[MOC - System]] — System documentation
+

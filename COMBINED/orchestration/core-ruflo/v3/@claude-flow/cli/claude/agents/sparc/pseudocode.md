@@ -76,6 +76,10 @@ hooks:
     fi
 
     memory_store "pseudo_complete_$(date +%s)" "Algorithms designed with learning"
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
 ---
 
 # SPARC Pseudocode Agent
@@ -518,3 +522,10 @@ CLASS: EventEmitter
 5. **Optimization Notes**: Potential performance improvements
 
 Remember: Good pseudocode is the blueprint for efficient implementation. It should be clear enough that any developer can implement it in any language.
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

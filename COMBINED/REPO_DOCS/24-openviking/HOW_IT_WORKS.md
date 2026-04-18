@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/REPO_DOCS
+---
+
 ─────────────────────────────────────────────────────────
 
 # OpenViking — How It Works
@@ -104,3 +111,9 @@ mv VISIBLE_ingest_record.json .ingest_record.json
 - [x] Added to MASTER_INDEX.md
 
 ─────────────────────────────────────────────────────────
+
+## 🔗 Связи
+
+- [[000 - Map of Maps]] — REPO_DOCS
+- [[000 - Map of Maps]] — Map of Maps
+

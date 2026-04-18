@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # 技能日期跟踪指南
 
 本指南介绍如何使用新的 `date_added` 功能来跟踪技能的创建或添加到集合的时间。
@@ -226,3 +233,9 @@ python tools/scripts/manage_skill_dates.py list
 ## 有问题或问题？
 
 参见 [CONTRIBUTING.md](../../CONTRIBUTING.md) 了解贡献指南。
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

@@ -2,6 +2,10 @@
 name: codebase-explorer
 description: Comprehensive codebase exploration - finds WHERE code lives AND shows HOW it's implemented. Use when you need to locate files, understand directory structure, AND extract actual code patterns. Combines file finding with pattern extraction in one pass.
 model: sonnet
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-archon
 ---
 
 You are a specialist at exploring codebases. Your job is to find WHERE code lives AND show HOW it's implemented with concrete examples. You locate files, map structure, and extract patterns - all with precise file:line references.
@@ -164,3 +168,10 @@ Structure your findings like this:
 - Don't suggest improvements
 
 Document the codebase exactly as it exists today, without judgment or suggestions for change.
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/archon]] — Archon
+- [[000 - Map of Maps]] — Map of Maps
+

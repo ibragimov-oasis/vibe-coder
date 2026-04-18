@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-hermes
+---
+
 # Stable Diffusion Advanced Usage Guide
 
 ## Custom Pipelines
@@ -714,3 +721,9 @@ device_map = infer_auto_device_map(
 # Dispatch model
 pipe.unet = dispatch_model(pipe.unet, device_map=device_map)
 ```
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-hermes]] — Category: skills-hermes
+

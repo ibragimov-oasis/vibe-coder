@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # Monorepo Changelog Strategy
 
 ## Approaches
@@ -37,3 +44,9 @@ git log v1.3.0..HEAD --pretty=format:'%s' | grep '^[a-z]*\(payments\)' | \
 - Platform/infra team owns root changelog
 - CI enforces scope presence on all commits touching package directories
 - Root changelog aggregates breaking changes from all packages for visibility
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

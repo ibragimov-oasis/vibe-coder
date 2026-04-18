@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/mcp
+  - artifact/mcp-server
+  - source/mcp-servers
+---
+
 # Documentation Index
 
 - [USAGE.md](USAGE.md) -- How to install and use
@@ -9,3 +16,9 @@
 - [TROUBLESHOOTING.md](TROUBLESHOOTING.md) -- Common issues and fixes (including Windows/WSL)
 - [ROADMAP.md](ROADMAP.md) -- Shipped and planned features
 - [LEGAL.md](LEGAL.md) -- License and privacy
+
+## 🔗 Связи
+
+- [[MOC - MCP Servers]] — mcp-servers
+- [[000 - Map of Maps]] — Map of Maps
+

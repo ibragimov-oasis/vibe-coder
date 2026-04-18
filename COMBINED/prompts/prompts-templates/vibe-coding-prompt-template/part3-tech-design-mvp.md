@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/prompts
+  - artifact/prompt
+  - source/prompts-templates
+---
+
 # Part 3 — Technical Design Document Generator
 
 I'll help you create a Technical Design Document for your MVP. This document will define HOW to build what you outlined in your PRD using modern tools and best practices.
@@ -1499,3 +1506,9 @@ Proceed to **Part 4** to generate the AGENTS.md file and tool-specific configura
 Would you like me to adjust anything in the Technical Design before moving on?"
 
 ---
+
+## 🔗 Связи
+
+- [[MOC - Prompts]] — Prompt library
+- [[MOC - System]] — System documentation
+

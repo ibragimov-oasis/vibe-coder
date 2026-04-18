@@ -3,6 +3,9 @@ title: Follow Workflow Constraints
 impact: CRITICAL
 impactDescription: Violating constraints breaks recovery and durability guarantees
 tags: workflow, constraints, rules, best-practices
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
 ---
 
 ## Follow Workflow Constraints
@@ -63,3 +66,9 @@ const results = await Promise.allSettled([
 Use `Promise.allSettled` instead of `Promise.all` to safely handle errors without crashing the Node.js process.
 
 Reference: [Workflow Guarantees](https://docs.dbos.dev/typescript/tutorials/workflow-tutorial#workflow-guarantees)
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

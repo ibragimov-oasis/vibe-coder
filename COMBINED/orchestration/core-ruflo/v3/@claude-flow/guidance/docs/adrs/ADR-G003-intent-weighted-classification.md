@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # ADR-G003: Intent-Weighted Classification -- Deterministic Task Intent Without LLM Calls
 
 ## Status
@@ -91,3 +98,10 @@ Match keywords without weights, count matches. Rejected because it treats ambigu
 - `v3/@claude-flow/guidance/src/retriever.ts` -- `INTENT_PATTERNS` map, `ShardRetriever.classifyIntent()`
 - `v3/@claude-flow/guidance/src/types.ts` -- `TaskIntent` union type
 - ADR-G002 -- Constitution/shard split that depends on intent classification
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

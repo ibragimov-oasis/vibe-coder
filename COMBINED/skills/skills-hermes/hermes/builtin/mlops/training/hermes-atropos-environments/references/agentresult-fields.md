@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-hermes
+---
+
 # AgentResult Fields Reference
 
 `AgentResult` is defined in `environments/agent_loop.py` as a dataclass.
@@ -57,3 +64,9 @@ These are common mistakes — AgentResult does NOT have:
 - `tools_used` — extract from messages
 - `output` — extract from messages
 - `response` — extract from messages
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-hermes]] — Category: skills-hermes
+

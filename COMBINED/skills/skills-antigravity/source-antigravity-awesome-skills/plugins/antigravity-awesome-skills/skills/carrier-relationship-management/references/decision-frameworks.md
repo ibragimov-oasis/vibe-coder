@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # Decision Frameworks — Carrier Relationship Management
 
 This reference provides detailed decision trees, scoring matrices, negotiation models,
@@ -532,3 +539,9 @@ ALWAYS: vet the spot carrier (FMCSA check, rate confirmation signed before dispa
 | SAFER | Safety and Fitness Electronic Records — FMCSA's public carrier database |
 | SCAC | Standard Carrier Alpha Code — 2-4 letter identifier for each carrier |
 | TMS | Transportation Management System — software for managing freight operations and carrier relationships |
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

@@ -1,6 +1,10 @@
 ---
 name: refactor-plan
 description: 'Plan a multi-file refactor with proper sequencing and rollback steps'
+tags:
+  - domain/agents
+  - artifact/skill
+  - source/skills-copilot
 ---
 
 # Refactor Plan
@@ -63,3 +67,10 @@ If something fails:
 ```
 
 Shall I proceed with Phase 1?
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-copilot]] — Category: skills-copilot
+- [[MOC - Agents]] — Copilot agents
+

@@ -4,6 +4,10 @@ description: "Comprehensive guide for creating and managing skills in Claude Cod
 risk: unknown
 source: community
 date_added: "2026-02-27"
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 # Skill Developer Guide
@@ -427,3 +431,9 @@ See [TROUBLESHOOTING.md](TROUBLESHOOTING.md) for complete debugging guide.
 **Progressive Disclosure**: Reference files for detailed information ✅
 
 **Next**: Create more skills, refine patterns based on usage
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

@@ -56,6 +56,10 @@ safe-outputs:
       - stale-repos
 
 timeout-minutes: 30
+tags:
+  - domain/agents
+  - artifact/agent
+  - source/by-interface/agents-copilot
 ---
 
 You are an assistant that audits GitHub repositories for staleness.
@@ -117,3 +121,9 @@ Search for an existing **open** issue in the `organization/.github` repo (or the
   - Title: `[Stale Repos] Inactive Repository Report — <date>`
   - Label: `stale-repos`
   - Body: the full Markdown report from step 4.
+
+## 🔗 Связи
+
+- [[MOC - Agents]] — Agent catalog
+- [[agents/agents-copilot]] — Interface: agents-copilot
+

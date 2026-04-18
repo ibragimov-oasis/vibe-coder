@@ -12,6 +12,10 @@ tools:
   - mcp__gitnexus
   - mcp__supermemory
   - mcp__openviking
+tags:
+  - domain/agents
+  - artifact/mega-agent
+  - source/mega
 ---
 
 <role>
@@ -314,3 +318,10 @@ INTEGRATION CHECKPOINT: All 4 merge → mega-reviewer validates → ship
 {how we know the plan succeeded}
 ```
 </output_format>
+
+## 🔗 Связи
+
+- [[MOC - Agents]] — Agent catalog
+- [[agents/mega-planner]] — Vault entry
+- [[MOC - Skills]] — Skills library
+

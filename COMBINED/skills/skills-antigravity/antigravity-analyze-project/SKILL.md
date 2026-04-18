@@ -5,6 +5,9 @@ risk: unknown
 source: community
 version: "1.0"
 tags: [analysis, diagnostics, meta, root-cause, project-health, session-review]
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 # /analyze-project — Root Cause Analyst Workflow
@@ -432,3 +435,9 @@ The workflow must produce:
 7. non-obvious findings
 
 Prefer explicit uncertainty over fake precision.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

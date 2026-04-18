@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # Error Tracking and Monitoring Implementation Playbook
 
 This file contains detailed patterns, checklists, and code samples referenced by the skill.
@@ -1359,3 +1366,9 @@ const ErrorStream: React.FC = () => {
 8. **Documentation**: Implementation and troubleshooting guide
 
 Focus on providing comprehensive error visibility, intelligent alerting, and quick error resolution capabilities.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

@@ -2,6 +2,10 @@
 description: "PHP testing extending common rules"
 globs: ["**/*.php", "**/phpunit.xml", "**/phpunit.xml.dist", "**/composer.json"]
 alwaysApply: false
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
 ---
 # PHP Testing
 
@@ -24,3 +28,9 @@ vendor/bin/pest --coverage
 - Separate fast unit tests from framework/database integration tests.
 - Use factory/builders for fixtures instead of large hand-written arrays.
 - Keep HTTP/controller tests focused on transport and validation; move business rules into service-level tests.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

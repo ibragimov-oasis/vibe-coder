@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-gsd
+---
+
 <purpose>
 Display comprehensive project statistics including phases, plans, requirements, git metrics, and timeline.
 </purpose>
@@ -58,3 +65,10 @@ If no `.planning/` directory exists, inform the user to run `/gsd:new-project` f
 - [ ] Results formatted clearly
 - [ ] Displayed to user
 </success_criteria>
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-gsd]] — core-gsd
+- [[MOC - Skills]] — Skills library
+

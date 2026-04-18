@@ -12,6 +12,10 @@ tools:
   - mcp__supermemory
   - mcp__openviking
   - mcp__gitnexus
+tags:
+  - domain/agents
+  - artifact/mega-agent
+  - source/mega
 ---
 
 <role>
@@ -295,3 +299,10 @@ mcp lightpanda navigate "<result_url>"
 | 1 | {title} | {URL/file} | {S/A/B/C/D} | {HIGH/MED/LOW} |
 ```
 </report_format>
+
+## 🔗 Связи
+
+- [[MOC - Agents]] — Agent catalog
+- [[agents/mega-researcher]] — Vault entry
+- [[MOC - Skills]] — Skills library
+

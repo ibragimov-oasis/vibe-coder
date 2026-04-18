@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-hermes
+---
+
 # Lambda Labs Advanced Usage Guide
 
 ## Multi-Node Distributed Training
@@ -609,3 +616,9 @@ source .env
 # On instance, store in ~/.bashrc
 echo 'export HF_TOKEN="..."' >> ~/.bashrc
 ```
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-hermes]] — Category: skills-hermes
+

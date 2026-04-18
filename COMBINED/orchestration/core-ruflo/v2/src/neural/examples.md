@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # Neural Domain Mapper Examples
 
 This document provides comprehensive examples of how to use the NeuralDomainMapper class for GNN-style domain relationship mapping.
@@ -585,3 +592,10 @@ These examples demonstrate how the NeuralDomainMapper integrates with the broade
 5. **Configuration Management**: Flexible configuration for different use cases
 
 The NeuralDomainMapper provides a powerful foundation for understanding and optimizing domain relationships in complex systems, enabling better architecture decisions and improved system maintainability.
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

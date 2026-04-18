@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-copilot
+---
+
 # FlowStudio MCP — Connection References
 
 Connection references wire a flow's connector actions to real authenticated
@@ -113,3 +120,9 @@ separate Teams connections:
 Both can point to the **same underlying Teams account** but must be registered
 as two distinct connection references. The webhook (`OpenApiConnectionWebhook`)
 uses `shared_teams` and subsequent message actions use `shared_teams_1`.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-copilot]] — Category: skills-copilot
+

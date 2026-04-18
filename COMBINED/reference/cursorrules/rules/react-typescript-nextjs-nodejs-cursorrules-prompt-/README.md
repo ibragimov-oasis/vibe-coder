@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/reference
+  - source/reference
+---
+
 # React TypeScript Next.js Node.js .cursorrules prompt file
 
 Author: Gabo Esquivel
@@ -13,4 +20,9 @@ Developers working on Next.js projects can use this prompt to build modular, typ
 
 ## Overview of .cursorrules prompt
 The .cursorrules file provides guidelines for developers specializing in technologies such as Solidity, TypeScript, Node.js, and React. It emphasizes writing concise and technical responses using accurate TypeScript examples while promoting functional and declarative programming styles. Key principles include favoring modularization over duplication, using descriptive variable names, and preferring named exports for components. The file outlines specific practices for JavaScript and TypeScript, such as using the "function" keyword for pure functions, leveraging TypeScript interfaces, and prioritizing error handling. It stipulates dependencies like Next.js 14, Wagmi v2, and Viem v2, and offers guidance on using React/Next.js with a focus on functional components, responsive design, and efficient error management. Additionally, it provides conventions for using server actions, data handling, and maintaining performance priorities like Web Vitals.
+
+## 🔗 Связи
+
+- [[MOC - System]] — reference
+- [[000 - Map of Maps]] — Map of Maps
 

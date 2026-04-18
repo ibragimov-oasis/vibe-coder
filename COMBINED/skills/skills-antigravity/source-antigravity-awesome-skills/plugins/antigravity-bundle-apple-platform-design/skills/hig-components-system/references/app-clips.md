@@ -232,7 +232,11 @@ No matter which of the two variants you use, it’s important you carefully cons
 
 **Don’t create App Clip Codes that are too small.** App Clip Codes must adhere to the following specifications.
 
-Type| Minimum size  
+Type| Minimum size
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
 ---|---  
 Printed communications| Minimum diameter of 3/4 inch (1.9 cm).  
 Digital communications| Minimum size of 256×256 px. Use a PNG or SVG file.  
@@ -383,5 +387,10 @@ For more information about using Apple trademarks, see [Guidelines for Using App
 Date| Changes  
 ---|---  
 June 9, 2025| Updated guidance to include demo App Clips.  
-May 2, 2023| Consolidated guidance into one page.  
-  
+May 2, 2023| Consolidated guidance into one page.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # Pre-Trained ReasoningBank Models
 
 Welcome to the ReasoningBank model zoo! This directory contains 5 production-ready, pre-trained models with thousands of optimized patterns for immediate use.
@@ -343,3 +350,9 @@ Want to contribute a model? See [HOW-TO-TRAIN.md](./HOW-TO-TRAIN.md) and submit 
 **Happy reasoning!** 🧠✨
 
 > _"The best AI doesn't just answer questions - it learns from experience."_
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-ruflo]] — core-ruflo
+

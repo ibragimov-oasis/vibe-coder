@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-hermes
+---
+
 # Custom Tasks
 
 Complete guide to creating domain-specific evaluation tasks in lm-evaluation-harness.
@@ -600,3 +607,9 @@ metric_list:
 - Task system: EleutherAI/lm-evaluation-harness docs
 - Example tasks: `lm_eval/tasks/` directory
 - TaskConfig: `lm_eval/api/task.py`
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-hermes]] — Category: skills-hermes
+

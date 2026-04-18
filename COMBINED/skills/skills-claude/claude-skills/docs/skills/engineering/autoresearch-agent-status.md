@@ -1,6 +1,10 @@
 ---
 title: "/ar:status — Experiment Dashboard — Agent Skill for Codex & OpenClaw"
 description: "Show experiment dashboard with results, active loops, and progress. Agent skill for Claude Code, Codex CLI, Gemini CLI, OpenClaw."
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
 ---
 
 # /ar:status — Experiment Dashboard
@@ -79,3 +83,9 @@ engineering     bundle-size          23     8   412KB        -58.3%    paused   
 marketing       medium-ctr           31    11   8.4/10       +68.0%    active   daily
 prompts         support-tone         15     6   82/100       +46.4%    done     —
 ```
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

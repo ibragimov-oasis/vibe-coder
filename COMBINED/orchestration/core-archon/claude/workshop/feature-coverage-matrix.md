@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-archon
+---
+
 # Claude Code Workshop — Feature Coverage Matrix
 
 **Host**: Rasmus | Thomas prepped the platform features section, Rasmus prepped the extensibility skills
@@ -99,3 +106,10 @@
 - **Rasmus**: 3 skills demonstrating ~25 extensibility features (skills, agents, hooks, memory, isolation)
 - **Overlap**: Worktree isolation (different entry points — CLI vs agent frontmatter)
 - **Gaps**: HTTP hooks, /simplify standalone, plugin system, ConfigChange, auto-memory
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-archon]] — core-archon
+- [[MOC - Skills]] — Skills library
+

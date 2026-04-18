@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-copilot
+---
+
 # CodeQL SARIF Output Reference
 
 Detailed reference for the SARIF v2.1.0 output produced by CodeQL analysis. Use this when interpreting or processing CodeQL scan results.
@@ -263,3 +270,9 @@ Validate SARIF files before upload using the [Microsoft SARIF validator](https:/
 - Fields not always generated may change circumstances under which they appear
 - New fields may be added without breaking changes
 - Consumers should be robust to both presence and absence of optional fields
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-copilot]] — Category: skills-copilot
+

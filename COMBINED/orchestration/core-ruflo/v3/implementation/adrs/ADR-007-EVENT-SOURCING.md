@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # ADR-007: Event Sourcing for State Changes
 
 **Status:** Implemented
@@ -138,3 +145,10 @@ class SQLiteEventStore implements IEventStore {
 
 **Implementation Date:** 2026-01-04
 **Status:** ✅ Complete
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

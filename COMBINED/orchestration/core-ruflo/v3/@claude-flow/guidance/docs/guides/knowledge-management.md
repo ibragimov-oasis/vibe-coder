@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # Knowledge Management Guide
 
 Three modules handle how the system knows what it knows — and how certain it is about it:
@@ -331,3 +338,10 @@ const currentBudget = reasoner.whatIsTrue('costs');
 
 // If belief contradicts anchor, anchor wins
 ```
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

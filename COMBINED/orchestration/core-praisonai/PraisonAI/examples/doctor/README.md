@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-praisonai
+---
+
 # PraisonAI Doctor Examples
 
 Examples demonstrating the PraisonAI Doctor health check and diagnostics system.
@@ -63,3 +70,9 @@ praisonai doctor ci
 # Save report to file
 praisonai doctor --output report.json
 ```
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-praisonai]] — core-praisonai
+

@@ -3,6 +3,10 @@ name: swarm-issue
 description: |
   GitHub issue-based swarm coordination agent that transforms issues into intelligent multi-agent tasks with automatic decomposition and progress tracking
 tools: mcp__github__get_issue, mcp__github__create_issue, mcp__github__update_issue, mcp__github__list_issues, mcp__github__create_issue_comment, mcp__claude-flow__swarm_init, mcp__claude-flow__agent_spawn, mcp__claude-flow__task_orchestrate, mcp__claude-flow__memory_usage, TodoWrite, TodoRead, Bash, Grep, Read, Write
+tags:
+  - domain/agents
+  - artifact/agent
+  - source/by-role/manager
 ---
 
 # Swarm Issue - Issue-Based Swarm Coordination
@@ -546,3 +550,9 @@ const postHook = async (results) => {
 ```
 
 See also: [swarm-pr.md](./swarm-pr.md), [sync-coordinator.md](./sync-coordinator.md), [workflow-automation.md](./workflow-automation.md)
+
+## 🔗 Связи
+
+- [[MOC - Agents]] — Agent catalog
+- [[agents/manager]] — Role: manager
+

@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-multica
+---
+
 # Multica Design System
 
 本文档定义 Multica 的视觉语言和交互规范。所有 UI 开发以此为准。
@@ -419,3 +426,10 @@ aria-invalid:border-destructive aria-invalid:ring-destructive/20
 - [ ] 有没有不必要的分割线（可以用间距替代）？
 - [ ] Dropdown / Popover 是否 `w-auto`？
 - [ ] 一个视图里 primary 按钮是否不超过 1 个？
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-multica]] — core-multica
+- [[MOC - Skills]] — Skills library
+

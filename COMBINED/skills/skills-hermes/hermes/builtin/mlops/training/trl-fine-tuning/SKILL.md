@@ -8,7 +8,9 @@ dependencies: [trl, transformers, datasets, peft, accelerate, torch]
 metadata:
   hermes:
     tags: [Post-Training, TRL, Reinforcement Learning, Fine-Tuning, SFT, DPO, PPO, GRPO, RLHF, Preference Alignment, HuggingFace]
-
+  - domain/skills
+  - artifact/skill
+  - source/skills-hermes
 ---
 
 # TRL - Transformer Reinforcement Learning
@@ -454,5 +456,8 @@ config = PPOConfig(
   - "Group Relative Policy Optimization" (GRPO, 2024)
 - Examples: https://github.com/huggingface/trl/tree/main/examples/scripts
 
+## 🔗 Связи
 
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-hermes]] — Category: skills-hermes
 

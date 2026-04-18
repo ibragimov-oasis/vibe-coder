@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-awesome-claude
+---
+
 # CLAUDE.md
 
 This file provides guidance to Claude Code (claude.ai/code) when working with code in this repository.
@@ -205,3 +212,9 @@ Pareto Security is a macOS security monitoring app built with SwiftUI. It perfor
 2. Increment `helperToolVersion` in helper's main.swift
 3. Both versions must match for proper operation
 4. App will auto-detect and reinstall helper on next check
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-awesome-claude]] — Category: skills-awesome-claude
+

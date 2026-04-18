@@ -4,6 +4,10 @@ description: "To access Anthropic's official brand identity and style resources,
 risk: unknown
 source: community
 date_added: "2026-02-27"
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 # Anthropic Brand Styling
@@ -76,3 +80,9 @@ To access Anthropic's official brand identity and style resources, use this skil
 
 ## When to Use
 This skill is applicable to execute the workflow or actions described in the overview.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

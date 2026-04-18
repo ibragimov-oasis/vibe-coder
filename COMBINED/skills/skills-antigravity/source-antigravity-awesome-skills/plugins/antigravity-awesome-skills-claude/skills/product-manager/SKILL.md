@@ -7,6 +7,9 @@ author: "Digidai"
 tags: ["product-management", "saas", "frameworks", "metrics", "strategy"]
 source: "Digidai/product-manager-skills (MIT)"
 date_added: "2026-03-06"
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 # Product Manager Skills
@@ -41,3 +44,9 @@ Works with Claude Code, Cursor, Windsurf, OpenAI Codex, Gemini CLI, GitHub Copil
 ## Source
 
 GitHub: https://github.com/Digidai/product-manager-skills
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

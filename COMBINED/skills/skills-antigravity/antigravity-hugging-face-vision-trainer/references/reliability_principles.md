@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # Reliability Principles for Training Jobs
 
 ## Contents
@@ -308,3 +315,9 @@ Sometimes reliability and performance conflict. Here's how to choose:
 **General rule:** Reliability first, optimize second.
 
 ---
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

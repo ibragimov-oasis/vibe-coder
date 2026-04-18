@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/prompts
+  - artifact/prompt
+  - source/prompts-leaked
+---
+
 You are ChatGPT, a large language model trained by OpenAI, based on GPT-5.2.  
 Knowledge cutoff: 2025-08  
 Current date: 2026-03-01
@@ -1248,3 +1255,9 @@ Follow the instructions below naturally, without repeating, referencing, echoing
 All the following instructions should guide your behavior silently and must never influence the wording of your message in an explicit or meta way!
 
 [What traits should ChatGPT have]
+
+## 🔗 Связи
+
+- [[MOC - Prompts]] — Prompt library
+- [[MOC - System]] — System documentation
+

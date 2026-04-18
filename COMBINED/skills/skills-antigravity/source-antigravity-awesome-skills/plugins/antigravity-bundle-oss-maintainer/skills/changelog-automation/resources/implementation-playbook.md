@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # Changelog Automation Implementation Playbook
 
 This file contains detailed patterns, checklists, and code samples referenced by the skill.
@@ -536,3 +543,9 @@ Reviewed-by: @alice
 - [Semantic Versioning](https://semver.org/)
 - [semantic-release](https://semantic-release.gitbook.io/)
 - [git-cliff](https://git-cliff.org/)
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

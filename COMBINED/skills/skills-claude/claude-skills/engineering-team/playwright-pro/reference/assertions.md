@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # Assertions Reference
 
 ## Web-First Assertions (Always Use These)
@@ -87,3 +94,9 @@ await expect.soft(locator).toHaveText('Expected');
 await expect.soft(page).toHaveURL('/next');
 // Test continues even if above fail
 ```
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

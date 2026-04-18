@@ -1,6 +1,10 @@
 ---
 paths:
   - "**/*.java"
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
 ---
 # Java Patterns
 
@@ -144,3 +148,9 @@ public record ApiResponse<T>(boolean success, T data, String error) {
 
 See skill: `springboot-patterns` for Spring Boot architecture patterns.
 See skill: `jpa-patterns` for entity design and query optimization.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

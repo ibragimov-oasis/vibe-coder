@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/agent
+  - source/by-interface/agents-copilot
+---
+
 # AGENTS.md
 
 ## Project Overview
@@ -286,3 +293,9 @@ The repository includes an MCP (Model Context Protocol) Server for searching and
 ## License
 
 MIT License - see [LICENSE](LICENSE) for details
+
+## 🔗 Связи
+
+- [[MOC - Agents]] — Agent catalog
+- [[agents/agents-copilot]] — Interface: agents-copilot
+

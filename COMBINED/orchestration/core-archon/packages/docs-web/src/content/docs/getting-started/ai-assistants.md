@@ -7,6 +7,10 @@ audience: [user]
 status: current
 sidebar:
   order: 4
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-archon
 ---
 
 You must configure **at least one** AI assistant. Both can be configured if desired.
@@ -137,3 +141,10 @@ DEFAULT_AI_ASSISTANT=codex
 - `DEFAULT_AI_ASSISTANT` (optional) is used only for new conversations without codebase context
 - Workflows can override the assistant on a per-node basis with `provider` and `model` fields
 - Configuration priority: workflow-level options > config file defaults > SDK defaults
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/archon]] — Archon
+- [[000 - Map of Maps]] — Map of Maps
+

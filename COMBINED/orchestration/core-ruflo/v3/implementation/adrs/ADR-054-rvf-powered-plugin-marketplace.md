@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # ADR-054: RVF-Powered Plugin Marketplace & Hosted Registry
 
 **Status:** Proposed
@@ -579,3 +586,10 @@ The IPFS registry JSON format is **unchanged**. RVF indexing happens client-side
 - Plugin Discovery: `v3/@claude-flow/cli/src/plugins/store/discovery.ts`
 - ControllerRegistry: `v3/@claude-flow/memory/src/controller-registry.ts`
 - AgentDB: `agentdb@3.0.0-alpha.7`
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

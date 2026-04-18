@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # Plain English Alternatives
 
 Replace complex or pompous words with plain English alternatives.
@@ -374,3 +381,9 @@ These phrases often add nothing. Delete them:
 - the fact of the matter is
 - to all intents and purposes
 - very
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

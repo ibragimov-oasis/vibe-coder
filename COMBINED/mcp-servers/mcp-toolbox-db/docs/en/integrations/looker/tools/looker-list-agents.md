@@ -4,6 +4,10 @@ type: docs
 weight: 1
 description: >
   "looker-list-agents" retrieves the list of Looker Conversation Analytics agents.
+tags:
+  - domain/mcp
+  - artifact/mcp-server
+  - source/mcp-servers
 ---
 
 ## About
@@ -41,3 +45,9 @@ description: |
 | type        |  string  |     true     | Must be "looker-list-agents".                      |
 | source      |  string  |     true     | Name of the Looker source.                         |
 | description |  string  |     true     | Description of the tool that is passed to the LLM. |
+
+## 🔗 Связи
+
+- [[MOC - MCP Servers]] — mcp-servers
+- [[000 - Map of Maps]] — Map of Maps
+

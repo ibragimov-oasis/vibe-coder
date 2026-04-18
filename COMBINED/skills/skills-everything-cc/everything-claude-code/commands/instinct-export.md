@@ -2,6 +2,10 @@
 name: instinct-export
 description: Export instincts from project/global scope to a file
 command: /instinct-export
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
 ---
 
 # Instinct Export Command
@@ -64,3 +68,9 @@ Use functional patterns over classes.
 - `--min-confidence <n>`: Minimum confidence threshold
 - `--output <file>`: Output file path (prints to stdout when omitted)
 - `--scope <project|global|all>`: Export scope (default: `all`)
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

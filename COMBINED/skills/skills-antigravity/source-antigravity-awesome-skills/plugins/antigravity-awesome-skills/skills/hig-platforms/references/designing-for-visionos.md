@@ -77,9 +77,18 @@ Great visionOS apps and games are approachable and familiar, while offering extr
 
 ## [Change log](https://developer.apple.com/design/human-interface-guidelines/designing-for-visionos#Change-log)
 
-Date| Changes  
+Date| Changes
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
 ---|---  
 February 2, 2024| Included a link to Apple Vision Pro User Guide.  
 September 12, 2023| Updated intro artwork.  
-June 21, 2023| New page.  
-  
+June 21, 2023| New page.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

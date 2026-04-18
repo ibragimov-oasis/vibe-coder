@@ -3,6 +3,9 @@ title: Per-Request Deduplication with React.cache()
 impact: MEDIUM
 impactDescription: deduplicates within request
 tags: server, cache, react-cache, deduplication
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
 ---
 
 ## Per-Request Deduplication with React.cache()
@@ -24,3 +27,9 @@ export const getCurrentUser = cache(async () => {
 ```
 
 Within a single request, multiple calls to `getCurrentUser()` execute the query only once.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

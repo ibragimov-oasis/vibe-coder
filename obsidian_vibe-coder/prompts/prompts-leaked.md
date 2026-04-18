@@ -37,3 +37,9 @@ source: "../COMBINED/prompts/prompts-leaked/"
 ## См. также
 
 - [[root-docs/CAPABILITIES]] — ULTRACAR собственные capabilities
+
+## 🔗 Связи
+
+- [[MOC - Prompts]] — Parent MOC
+- [[000 - Map of Maps]] — Map of Maps
+

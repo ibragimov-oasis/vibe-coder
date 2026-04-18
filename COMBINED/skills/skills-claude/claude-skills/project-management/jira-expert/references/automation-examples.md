@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # Jira Automation Examples
 
 ## Auto-Assignment Rules
@@ -421,3 +428,9 @@
 8. **Review regularly** - Audit rules quarterly, disable unused ones
 9. **Handle errors** - Add error handling for webhooks and integrations
 10. **Performance** - Avoid scheduled rules that query large datasets hourly
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

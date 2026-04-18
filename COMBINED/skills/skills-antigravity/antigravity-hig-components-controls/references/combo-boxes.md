@@ -1,4 +1,11 @@
 ---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
+---
 title: "Combo boxes | Apple Developer Documentation"
 source: https://developer.apple.com/design/human-interface-guidelines/combo-boxes
 
@@ -37,4 +44,9 @@ For guidance, see [Text fields](https://developer.apple.com/design/human-interfa
 #### [Developer documentation](https://developer.apple.com/design/human-interface-guidelines/combo-boxes#Developer-documentation)
 
 [`NSComboBox`](https://developer.apple.com/documentation/AppKit/NSComboBox) — AppKit
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
 

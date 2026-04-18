@@ -4,6 +4,10 @@ description: "SQL database migrations with zero-downtime strategies for PostgreS
 risk: unknown
 source: community
 date_added: "2026-02-27"
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 # SQL Database Migration Strategy and Implementation
@@ -47,3 +51,9 @@ The user needs SQL database migrations that ensure data integrity, minimize down
 ## Resources
 
 - Focus on production-ready SQL migrations with zero-downtime deployment strategies, comprehensive validation, and enterprise-grade safety mechanisms.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

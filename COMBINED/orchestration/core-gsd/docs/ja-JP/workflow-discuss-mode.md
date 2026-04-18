@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-gsd
+---
+
 # ディスカスモード: Assumptions vs Interview
 
 GSD の discuss フェーズには、プランニング前に実装コンテキストを収集するための2つのモードがあります。
@@ -63,3 +70,10 @@ gsd-tools config-set workflow.discuss_mode discuss
 - `<deferred>` — 将来のフェーズに先送りするアイデア
 
 下流エージェント（researcher、planner、checker）は、モードに関係なくこの出力を同一に消費します。
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-gsd]] — core-gsd
+- [[MOC - Skills]] — Skills library
+

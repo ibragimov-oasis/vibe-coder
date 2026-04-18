@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # C-Level Advisory Skills — Claude Code Guidance
 
 A complete virtual board of directors: 28 skills covering 10 executive roles, orchestration, cross-cutting capabilities, and culture & collaboration frameworks.
@@ -119,3 +126,9 @@ python decision-logger/scripts/decision_tracker.py
 **Skills Deployed:** 28 skills (10 roles + 5 mentor commands + 6 orchestration + 6 cross-cutting + 6 culture)
 **Python Tools:** 25 (stdlib-only)
 **Reference Docs:** 52
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

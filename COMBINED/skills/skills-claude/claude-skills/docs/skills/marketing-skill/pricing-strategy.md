@@ -1,6 +1,10 @@
 ---
 title: "Pricing Strategy — Agent Skill for Marketing"
 description: "Design, optimize, and communicate SaaS pricing — tier structure, value metrics, pricing pages, and price increase strategy. Use when building a. Agent skill for Claude Code, Codex CLI, Gemini CLI, OpenClaw."
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
 ---
 
 # Pricing Strategy
@@ -326,3 +330,9 @@ All output follows the structured communication standard:
 - **ab-test-setup**: Use to A/B test price points or pricing page layouts after initial design.
 - **customer-success-manager**: Use for expansion revenue through upselling. NOT for pricing design or packaging.
 - **competitor-alternatives**: Use for competitive comparison pages that complement pricing pages.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

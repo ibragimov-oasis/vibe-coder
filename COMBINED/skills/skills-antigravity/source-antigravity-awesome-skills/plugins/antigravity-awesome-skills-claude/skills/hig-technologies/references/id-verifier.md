@@ -36,7 +36,11 @@ Depending on the needs of your app, you can use ID Verifier to make the followin
 
 **Provide a button that initiates the verification process.** Use a label like Verify Age in a button that performs a simple age check or Verify Identity for a more detailed identity data request. Avoid including a symbol that specifies a particular type of communication, like NFC or QR codes. Never include the Apple logo in any button label.
 
-Button type| Example usage  
+Button type| Example usage
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
 ---|---  
 ![An illustration of a Verify Age button.](https://docs-assets.developer.apple.com/published/68f99fdea3def2ba04aee092c3465400/id-verifier-button-age%402x.png)| An app that checks whether people are old enough to attend an event or access a venue, like a concert hall.  
 ![An illustration of a Verify Identity button.](https://docs-assets.developer.apple.com/published/1e827d68149ef111a2ff7ebec21912a0/id-verifier-button-identity%402x.png)| An app that verifies whether specific identity information matches expected values, such as name and birth date when picking up a rental car.  
@@ -69,5 +73,10 @@ Button type| Example usage
 
 Date| Changes  
 ---|---  
-September 12, 2023| New page.  
-  
+September 12, 2023| New page.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

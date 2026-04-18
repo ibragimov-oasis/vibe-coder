@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # Security-Related Skills Report
 
 Total Security Skills Found: 128
@@ -1719,4 +1726,9 @@ This skill is applicable to execute the workflow or actions described in the ove
 Not specified
 
 ---
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
 

@@ -1,6 +1,10 @@
 ---
 title: "Senior Quality Manager Responsible Person (QMR) — Agent Skill for Compliance"
 description: "Senior Quality Manager Responsible Person (QMR) for HealthTech and MedTech companies. Provides quality system governance, management review. Agent skill for Claude Code, Codex CLI, Gemini CLI, OpenClaw."
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
 ---
 
 # Senior Quality Manager Responsible Person (QMR)
@@ -484,3 +488,9 @@ immediately    Yes─┴─No
 | [capa-officer](https://github.com/alirezarezvani/claude-skills/tree/main/ra-qm-team/capa-officer) | CAPA system oversight |
 | [qms-audit-expert](https://github.com/alirezarezvani/claude-skills/tree/main/ra-qm-team/qms-audit-expert) | Internal audit program |
 | [quality-documentation-manager](https://github.com/alirezarezvani/claude-skills/tree/main/ra-qm-team/quality-documentation-manager) | Document control oversight |
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

@@ -96,3 +96,9 @@ Accepted by `--due` and date filters:
 1. When user says "remind me", clarify: Apple Reminders (syncs to phone) vs agent cronjob alert
 2. Always confirm reminder content and due date before creating
 3. Use `--json` for programmatic parsing
+
+## 🔗 Связи
+
+- [[000 - Map of Maps]] — REPO_DOCS
+- [[000 - Map of Maps]] — Map of Maps
+

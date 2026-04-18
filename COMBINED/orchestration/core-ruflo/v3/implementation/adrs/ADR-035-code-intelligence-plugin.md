@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # ADR-035: Advanced Code Intelligence Plugin
 
 **Status:** Proposed
@@ -452,3 +459,10 @@ function maskSecrets(codeSnippet: string): string {
 ---
 
 **Last Updated:** 2026-01-24
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

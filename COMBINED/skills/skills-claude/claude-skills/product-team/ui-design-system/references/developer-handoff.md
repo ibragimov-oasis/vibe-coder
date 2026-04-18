@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # Developer Handoff Guide
 
 Reference for integrating design tokens into development workflows and design tool collaboration.
@@ -507,3 +514,9 @@ export const Primary = {
 ---
 
 *See also: `token-generation.md` for generation options*
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

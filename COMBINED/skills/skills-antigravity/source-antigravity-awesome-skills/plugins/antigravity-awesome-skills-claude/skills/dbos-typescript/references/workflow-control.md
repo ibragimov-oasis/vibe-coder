@@ -3,6 +3,9 @@ title: Cancel, Resume, and Fork Workflows
 impact: CRITICAL
 impactDescription: Enables operational control over long-running workflows
 tags: workflow, cancel, resume, fork, management
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
 ---
 
 ## Cancel, Resume, and Fork Workflows
@@ -55,3 +58,9 @@ const forkResult = await forkHandle.getResult();
 Forking creates a new workflow with a new ID, copying the original workflow's inputs and step outputs up to the selected step. Useful for recovering from downstream service outages or patching workflows that failed due to a bug.
 
 Reference: [Workflow Management](https://docs.dbos.dev/typescript/tutorials/workflow-management)
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

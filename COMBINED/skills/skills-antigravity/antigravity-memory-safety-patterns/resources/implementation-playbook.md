@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # Memory Safety Patterns Implementation Playbook
 
 This file contains detailed patterns, checklists, and code samples referenced by the skill.
@@ -601,3 +608,9 @@ clang++ -fsanitize=thread -g source.cpp
 - [C++ Core Guidelines](https://isocpp.github.io/CppCoreGuidelines/)
 - [Rust Ownership](https://doc.rust-lang.org/book/ch04-00-understanding-ownership.html)
 - [AddressSanitizer](https://clang.llvm.org/docs/AddressSanitizer.html)
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

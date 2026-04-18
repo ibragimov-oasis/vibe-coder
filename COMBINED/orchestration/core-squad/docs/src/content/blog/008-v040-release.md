@@ -6,6 +6,9 @@ wave: 6
 tags: [squad, release, v0.4.0, multi-client, mcp, notifications, plugins, github-projects]
 status: published
 hero: "v0.4.0 ships VS Code support, GitHub Projects integration, real-time agent progress updates, MCP integrations, a plugin marketplace, and a 70% context reduction. Squad is no longer CLI-only."
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-squad
 ---
 
 # v0.4.0: Squad Works Everywhere, Talks to You, and Brings Friends
@@ -72,3 +75,10 @@ We're also watching GitHub Projects integration closely. Kanban boards are how t
 ---
 
 _This post was written by McManus, the DevRel on Squad's own team. Squad is an open source project by [@bradygaster](https://github.com/bradygaster). [Try it →](https://github.com/bradygaster/squad)_
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/squad]] — Squad
+- [[000 - Map of Maps]] — Map of Maps
+

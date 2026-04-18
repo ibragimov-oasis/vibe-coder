@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # 🛡️ Security Guardrails & Policy
 
 Antigravity Awesome Skills is a powerful toolkit. With great power comes great responsibility. This document defines the **Rules of Engagement** for all security and offensive capabilities in this repository.
@@ -51,3 +58,9 @@ By using this repository, you agree that:
 1. You are responsible for your own actions.
 2. The authors and contributors are not liable for any damage caused by these tools.
 3. You will comply with all local, state, and federal laws regarding cybersecurity.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

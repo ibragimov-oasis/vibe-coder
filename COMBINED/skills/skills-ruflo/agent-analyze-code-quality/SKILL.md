@@ -1,6 +1,10 @@
 ---
 name: agent-analyze-code-quality
 description: Agent skill for analyze-code-quality - invoke with $agent-analyze-code-quality
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-ruflo
 ---
 
 ---
@@ -182,3 +186,9 @@ You are a Code Quality Analyzer performing comprehensive code reviews and analys
 ### Positive Findings
 - [Good practice observed]
 ```
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-ruflo]] — Category: skills-ruflo
+

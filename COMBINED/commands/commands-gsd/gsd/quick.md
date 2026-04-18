@@ -11,6 +11,10 @@ allowed-tools:
   - Bash
   - Task
   - AskUserQuestion
+tags:
+  - domain/skills
+  - artifact/command
+  - source/commands
 ---
 <objective>
 Execute small, ad-hoc tasks with GSD guarantees (atomic commits, STATE.md tracking).
@@ -45,3 +49,9 @@ Context files are resolved inside the workflow (`init quick`) and delegated via 
 Execute the quick workflow from @~/.claude/get-shit-done/workflows/quick.md end-to-end.
 Preserve all workflow gates (validation, task description, planning, execution, state updates, commits).
 </process>
+
+## 🔗 Связи
+
+- [[MOC - System]] — commands
+- [[000 - Map of Maps]] — Map of Maps
+

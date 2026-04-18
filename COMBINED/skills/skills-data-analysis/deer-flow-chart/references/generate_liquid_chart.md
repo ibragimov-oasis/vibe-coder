@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-data-analysis
+---
+
 # generate_liquid_chart — 水波图
 
 ## 功能概述
@@ -22,3 +29,9 @@
 
 ## 返回结果
 - 返回水波图 URL，并在 `_meta.spec` 中记录参数。
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-data-analysis]] — Category: skills-data-analysis
+

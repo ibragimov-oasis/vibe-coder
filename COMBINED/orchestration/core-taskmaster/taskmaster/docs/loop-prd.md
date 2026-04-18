@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-taskmaster
+---
+
 # PRD: Task Master Loop (`tm loop`)
 
 ## Overview
@@ -423,3 +430,10 @@ The prompt includes file references using `@` syntax so Claude Code loads the pr
 - [Jeffrey Huntley's original Ralph pattern](https://jeffreyhuntley.com/ralph-wiggum)
 - [Anthropic: Effective Harnesses for Long-Running Agents](https://www.anthropic.com/research/swe-bench-sonnet)
 - [AI Hero](https://www.aihero.dev/)
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-taskmaster]] — core-taskmaster
+- [[MOC - Skills]] — Skills library
+

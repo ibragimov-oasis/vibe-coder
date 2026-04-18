@@ -5,6 +5,10 @@ weight: 1
 description: > 
   A "neo4j-schema" tool extracts a comprehensive schema from a Neo4j
   database.
+tags:
+  - domain/mcp
+  - artifact/mcp-server
+  - source/mcp-servers
 ---
 
 ## About
@@ -52,3 +56,9 @@ cacheExpireMinutes: 120
 | source             |  string  |     true     | Name of the source the schema should be extracted from. |
 | description        |  string  |     true     | Description of the tool that is passed to the LLM.      |
 | cacheExpireMinutes | integer  |    false     | Cache expiration time in minutes. Defaults to 60.       |
+
+## 🔗 Связи
+
+- [[MOC - MCP Servers]] — mcp-servers
+- [[000 - Map of Maps]] — Map of Maps
+

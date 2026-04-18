@@ -2,6 +2,10 @@
 title: "Looker Dev"
 type: docs
 description: "Details of the Looker Dev prebuilt configuration."
+tags:
+  - domain/mcp
+  - artifact/mcp-server
+  - source/mcp-servers
 ---
 
 ## Looker Dev
@@ -48,3 +52,9 @@ description: "Details of the Looker Dev prebuilt configuration."
     *   `create_git_branch`: Create a new git branch for a LookML project.
     *   `switch_git_branch`: Switch the git branch of a LookML project.
     *   `delete_git_branch`: Delete a git branch of a LookML project.
+
+## 🔗 Связи
+
+- [[MOC - MCP Servers]] — mcp-servers
+- [[000 - Map of Maps]] — Map of Maps
+

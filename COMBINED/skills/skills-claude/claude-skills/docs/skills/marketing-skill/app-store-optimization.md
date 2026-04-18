@@ -1,6 +1,10 @@
 ---
 title: "App Store Optimization (ASO) — Agent Skill for Marketing"
 description: "App Store Optimization (ASO) toolkit for researching keywords, analyzing competitor rankings, generating metadata suggestions, and improving app. Agent skill for Claude Code, Codex CLI, Gemini CLI, OpenClaw."
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
 ---
 
 # App Store Optimization (ASO)
@@ -479,3 +483,9 @@ All output passes quality verification:
 - Self-verify: source attribution, assumption audit, confidence scoring
 - Output format: Bottom Line → What (with confidence) → Why → How to Act
 - Results only. Every finding tagged: 🟢 verified, 🟡 medium, 🔴 assumed.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

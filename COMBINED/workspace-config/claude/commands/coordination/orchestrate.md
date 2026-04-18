@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/config
+  - source/workspace-config
+---
+
 # Coordinate Task Execution
 
 ## 🎯 Key Principle
@@ -41,3 +48,9 @@ The orchestrator creates a plan that Claude Code follows using its native tools.
 - Main documentation: /claude.md
 - Other commands in this category
 - Workflow examples in /workflows/
+
+## 🔗 Связи
+
+- [[MOC - System]] — workspace-config
+- [[000 - Map of Maps]] — Map of Maps
+

@@ -3,6 +3,10 @@ name: healthcare-eval-harness
 description: Patient safety evaluation harness for healthcare application deployments. Automated test suites for CDSS accuracy, PHI exposure, clinical workflow integrity, and integration compliance. Blocks deployments on safety failures.
 origin: Health1 Super Speciality Hospitals — contributed by Dr. Keyur Patel
 version: "1.0.0"
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-everything-cc
 ---
 
 # Healthcare Eval Harness — Patient Safety Verification
@@ -205,3 +209,9 @@ jq '{
 ### Coverage: 84% (target: 80%+)
 ### Verdict: SAFE TO DEPLOY
 ```
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

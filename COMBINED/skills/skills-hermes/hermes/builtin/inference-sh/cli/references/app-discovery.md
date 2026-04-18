@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-hermes
+---
+
 # Discovering Apps
 
 ## List All Apps
@@ -110,3 +117,9 @@ Shows full app info including input/output schema.
 - [Browsing the Grid](https://inference.sh/docs/apps/browsing-grid) - Visual app browsing
 - [Apps Overview](https://inference.sh/docs/apps/overview) - Understanding apps
 - [Running Apps](https://inference.sh/docs/apps/running) - How to run apps
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-hermes]] — Category: skills-hermes
+

@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/mcp
+  - artifact/mcp-server
+  - source/mcp-servers
+---
+
 ## Install the Backend
 
 code-review-graph needs a Python backend to parse your codebase.
@@ -15,3 +22,9 @@ pipx install code-review-graph
 # or
 pip install code-review-graph
 ```
+
+## 🔗 Связи
+
+- [[MOC - MCP Servers]] — mcp-servers
+- [[000 - Map of Maps]] — Map of Maps
+

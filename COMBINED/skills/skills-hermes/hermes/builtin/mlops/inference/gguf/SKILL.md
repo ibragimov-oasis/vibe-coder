@@ -8,7 +8,9 @@ dependencies: [llama-cpp-python>=0.2.0]
 metadata:
   hermes:
     tags: [GGUF, Quantization, llama.cpp, CPU Inference, Apple Silicon, Model Compression, Optimization]
-
+  - domain/skills
+  - artifact/skill
+  - source/skills-hermes
 ---
 
 # GGUF - Quantization Format for llama.cpp
@@ -428,3 +430,9 @@ python server.py --model model-q4_k_m.gguf --loader llama.cpp --n-gpu-layers 35
 - **Pre-quantized Models**: https://huggingface.co/TheBloke
 - **GGUF Converter**: https://huggingface.co/spaces/ggml-org/gguf-my-repo
 - **License**: MIT
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-hermes]] — Category: skills-hermes
+

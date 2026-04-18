@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # Fontes e Referências — Leiloeiro Edital
 
 ## Legislação
@@ -13,3 +20,9 @@
 - Tabelas ITBI por município
 - Tabelas de custas cartorárias por estado
 - SINDUSCON — CUB regional
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

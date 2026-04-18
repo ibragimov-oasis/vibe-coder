@@ -16,6 +16,9 @@ tools:
 - cursor
 - gemini-cli
 - codex-cli
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 # SOCIAL-ORCHESTRATOR: Canais Unificados
@@ -297,3 +300,9 @@ Estrategia: Publish-or-Skip (nao cancela toda campanha)
 - `instagram` - Complementary skill for enhanced analysis
 - `telegram` - Complementary skill for enhanced analysis
 - `whatsapp-cloud-api` - Complementary skill for enhanced analysis
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

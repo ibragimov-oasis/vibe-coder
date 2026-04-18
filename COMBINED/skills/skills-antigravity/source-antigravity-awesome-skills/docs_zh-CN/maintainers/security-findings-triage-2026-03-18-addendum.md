@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # 安全发现分类补充（2026-03-18）
 
 本补充文件取代了之前在 `security-findings-triage-2026-03-15.md` 中的 Jetski 加载器评估。
@@ -14,3 +21,9 @@
 - 加载器现在拒绝符号链接的技能目录和符号链接的 `SKILL.md` 文件。
 - 加载器现在解析 `SKILL.md` 的真实路径，并拒绝配置的 `skillsRoot` 之外的任何目标。
 - 回归覆盖位于 `tools/scripts/tests/jetski_gemini_loader.test.js` 中。
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

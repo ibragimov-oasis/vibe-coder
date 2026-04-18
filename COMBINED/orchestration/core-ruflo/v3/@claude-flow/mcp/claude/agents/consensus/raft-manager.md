@@ -21,6 +21,10 @@ hooks:
     echo "📝 Raft operation complete"
     # Verify log consistency
     echo "🔍 Validating log replication and consistency"
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
 ---
 
 # Raft Consensus Manager
@@ -61,3 +65,10 @@ Implements and manages the Raft consensus algorithm for distributed systems with
 - Interface with Performance Benchmarker for optimization analysis
 - Integrate with CRDT Synchronizer for eventual consistency scenarios
 - Synchronize with Security Manager for secure communication
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

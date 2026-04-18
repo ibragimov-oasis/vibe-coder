@@ -3,6 +3,9 @@ title: Use Advisory Locks for Application-Level Locking
 impact: MEDIUM
 impactDescription: Efficient coordination without row-level lock overhead
 tags: advisory-locks, coordination, application-locks
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
 ---
 
 ## Use Advisory Locks for Application-Level Locking
@@ -54,3 +57,9 @@ if (acquired) {
 ```
 
 Reference: [Advisory Locks](https://www.postgresql.org/docs/current/explicit-locking.html#ADVISORY-LOCKS)
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

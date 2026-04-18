@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-copilot
+---
+
 # Platform Design Guidelines Reference
 
 ## Mobile Design Fundamentals
@@ -365,3 +372,9 @@ Android: density-independent pixels (dp)
 Web: pixels (px) or rem
 
 ```
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-copilot]] — Category: skills-copilot
+

@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-copilot
+---
+
 # Microsoft Agent Framework for .NET
 
 Use this reference when the target project is written in C# or another .NET language.
@@ -22,3 +29,9 @@ dotnet add package Microsoft.Agents.AI
 - Keep service registration, configuration, and authentication aligned with standard .NET hosting patterns.
 - Use middleware, context providers, and orchestration components idiomatically within the .NET application model.
 - Check the latest .NET samples before introducing new APIs or workflow patterns.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-copilot]] — Category: skills-copilot
+

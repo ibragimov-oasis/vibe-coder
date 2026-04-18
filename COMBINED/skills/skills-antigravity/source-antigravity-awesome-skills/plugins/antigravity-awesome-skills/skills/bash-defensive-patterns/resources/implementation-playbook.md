@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # Bash Defensive Patterns Implementation Playbook
 
 This file contains detailed patterns, checklists, and code samples referenced by the skill.
@@ -515,3 +522,9 @@ check_dependencies
 - **Bash Strict Mode**: http://redsymbol.net/articles/unofficial-bash-strict-mode/
 - **Google Shell Style Guide**: https://google.github.io/styleguide/shellguide.html
 - **Defensive BASH Programming**: https://www.lifepipe.net/
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

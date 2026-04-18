@@ -4,6 +4,10 @@ type: docs
 weight: 2
 description: >
   Integrate the MCP Toolbox directly into your custom applications and AI agents using our official SDKs for Python, JavaScript/TypeScript, and Go.
+tags:
+  - domain/mcp
+  - artifact/mcp-server
+  - source/mcp-servers
 ---
 
 Our Toolbox Client SDKs provide the foundational building blocks for connecting your custom applications to the MCP Toolbox server.
@@ -17,3 +21,9 @@ By using our SDKs, your application can dynamically request tools, bind paramete
 *   **[Go](./go-sdk/_index.md/)**: Includes the Core SDK, plus dedicated packages for building agents with Genkit (`tbgenkit`) and the ADK.
 
 Select your preferred language to explore installation instructions, quickstart guides, and framework-specific implementations.
+
+## 🔗 Связи
+
+- [[MOC - MCP Servers]] — mcp-servers
+- [[000 - Map of Maps]] — Map of Maps
+

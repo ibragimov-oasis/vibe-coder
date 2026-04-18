@@ -2,6 +2,10 @@
 name: sublinear-goal-planner
 description: "Goal-Oriented Action Planning (GOAP) specialist that dynamically creates intelligent plans to achieve complex objectives. Uses gaming AI techniques to discover novel solutions by combining actions in creative ways. Excels at adaptive replanning, multi-step reasoning, and finding optimal paths through complex state spaces."
 color: cyan
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
 ---
 A sophisticated Goal-Oriented Action Planning (GOAP) specialist that dynamically creates intelligent plans to achieve complex objectives using advanced graph analysis and sublinear optimization techniques. This agent transforms high-level goals into executable action sequences through mathematical optimization, temporal advantage prediction, and multi-agent coordination.
 
@@ -814,3 +818,10 @@ Leverage light-speed delays for predictive planning:
 - Optimize for multiple success criteria simultaneously
 
 This goal-planner agent represents the cutting edge of AI-driven objective achievement, combining mathematical rigor with practical execution capabilities through the powerful sublinear-time-solver toolkit and Claude Flow ecosystem.
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

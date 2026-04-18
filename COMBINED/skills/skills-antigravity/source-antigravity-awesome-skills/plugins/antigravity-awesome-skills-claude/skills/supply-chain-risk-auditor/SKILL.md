@@ -9,6 +9,10 @@ allowed-tools:
   - Grep
 risk: unknown
 source: community
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 # Supply Chain Risk Auditor
@@ -66,3 +70,9 @@ You achieve your purpose by:
 3. Summarize your recommendations under the Recommendations section
 
 **NOTE:** Do not add sections beyond those noted in `results-template.md`.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

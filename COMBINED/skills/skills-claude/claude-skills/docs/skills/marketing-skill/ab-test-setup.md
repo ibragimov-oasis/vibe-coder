@@ -1,6 +1,10 @@
 ---
 title: "A/B Test Setup — Agent Skill for Marketing"
 description: "When the user wants to plan, design, or implement an A/B test or experiment. Also use when the user mentions 'A/B test,' 'split test,' 'experiment,'. Agent skill for Claude Code, Codex CLI, Gemini CLI, OpenClaw."
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
 ---
 
 # A/B Test Setup
@@ -305,3 +309,9 @@ All outputs should meet the quality standard: clear hypothesis, pre-registered m
 - **campaign-analytics** — USE after tests conclude to fold results into broader campaign attribution; NOT during the test itself.
 - **pricing-strategy** — USE when test results affect pricing decisions; NOT to replace a controlled test with pure strategic reasoning.
 - **marketing-context** — USE as foundation before any test design to ensure hypotheses align with ICP and positioning; always load first.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

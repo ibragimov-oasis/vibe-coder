@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-squad
+---
+
 # CI/CD & GitOps Improvement PRD
 
 **Authors:** Keaton (Lead) — synthesized from audits by Trejo (Release Manager) and Drucker (CI/CD Engineer)  
@@ -784,3 +791,10 @@ packages/*/package.json @bradygaster
 ---
 
 **End of PRD**
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/squad]] — Squad
+- [[000 - Map of Maps]] — Map of Maps
+

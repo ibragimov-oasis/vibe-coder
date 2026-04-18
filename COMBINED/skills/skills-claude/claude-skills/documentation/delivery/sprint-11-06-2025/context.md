@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # Sprint Context: CS- Orchestrator Framework Implementation
 
 **Sprint ID:** sprint-11-06-2025
@@ -285,3 +292,9 @@ Build an All-in-One orchestrator system with:
 **Created:** November 6, 2025
 **Last Updated:** November 6, 2025
 **Status:** Active Sprint
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

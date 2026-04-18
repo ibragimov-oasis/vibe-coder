@@ -1,6 +1,10 @@
 ---
 title: "/saas-health — Slash Command for AI Coding Agents"
 description: "Calculate SaaS health metrics (ARR, MRR, churn, CAC, LTV, NRR) and benchmark against industry standards. Usage: /saas-health. Slash command for Claude Code, Codex CLI, Gemini CLI."
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
 ---
 
 # /saas-health
@@ -39,3 +43,9 @@ Calculate SaaS financial health metrics from raw business numbers, benchmark aga
 
 ## Related Commands
 - `/financial-health` — Traditional financial analysis (ratios, DCF, budgets)
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

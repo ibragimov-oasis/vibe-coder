@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/command
+  - source/commands
+---
+
 # verify check
 
 Run verification checks on code, tasks, or agent outputs.
@@ -48,3 +55,9 @@ The check command evaluates:
 - `0` - Verification passed
 - `1` - Verification failed
 - `2` - Error during verification
+
+## 🔗 Связи
+
+- [[MOC - System]] — commands
+- [[000 - Map of Maps]] — Map of Maps
+

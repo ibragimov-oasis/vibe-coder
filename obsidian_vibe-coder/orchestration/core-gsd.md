@@ -45,3 +45,9 @@ Spec-driven development — лёгкая мета-промптинг систе�
 
 - [[orchestration/core-ruflo]] — RuFlo: enterprise оркестрация
 - [[orchestration/core-ralph]] — Ralph: PRD-driven loop
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Parent MOC
+- [[000 - Map of Maps]] — Map of Maps
+

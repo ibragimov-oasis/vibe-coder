@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-taskmaster
+---
+
 # Gemini CLI Provider
 
 The Gemini CLI provider allows you to use Google's Gemini models through the Gemini CLI tool, leveraging your existing Gemini subscription and OAuth authentication.
@@ -196,3 +203,10 @@ All commands that use structured output benefit from native schema enforcement:
 - **Node.js Requirement**: Requires Node.js 20+ due to native structured output support.
 - The provider uses the `ai-sdk-provider-gemini-cli` npm package internally.
 - Supports all standard Task Master features: text generation, streaming, and structured object generation with native schema enforcement.
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-taskmaster]] — core-taskmaster
+- [[MOC - Skills]] — Skills library
+

@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # V3 Hooks System
 
 Extensible hook points for tool execution, file operations, and lifecycle events. Integrates with the event bus for coordination and monitoring.
@@ -530,3 +537,9 @@ v3/@claude-flow/shared/src/hooks/
 ## License
 
 Part of Claude-Flow V3 - See main LICENSE file
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-ruflo]] — core-ruflo
+

@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
+---
+
 # Agent Orchestration
 
 ## Available Agents
@@ -48,3 +55,9 @@ For complex problems, use split role sub-agents:
 - Security expert
 - Consistency reviewer
 - Redundancy checker
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

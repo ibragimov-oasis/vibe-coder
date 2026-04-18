@@ -4,6 +4,10 @@ description: Improve layout, spacing, and visual rhythm. Fixes monotonous grids,
 version: 2.1.1
 user-invocable: true
 argument-hint: "[target]"
+tags:
+  - domain/ui
+  - artifact/ui-component
+  - source/ui-design
 ---
 
 Assess and improve layout and spacing that feels monotonous, crowded, or structurally weak — turning generic arrangements into intentional, rhythmic compositions.
@@ -123,3 +127,9 @@ Create a systematic plan:
 - **Responsiveness**: Does the layout adapt gracefully across screen sizes?
 
 Remember: Space is the most underused design tool. A layout with the right rhythm and hierarchy can make even simple content feel polished and intentional.
+
+## 🔗 Связи
+
+- [[MOC - UI Design]] — ui-design
+- [[000 - Map of Maps]] — Map of Maps
+

@@ -3,6 +3,9 @@ title: Use Patching for Safe Workflow Upgrades
 impact: LOW
 impactDescription: Safely deploy breaking workflow changes without disrupting in-progress workflows
 tags: advanced, patching, upgrade, breaking-change
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
 ---
 
 ## Use Patching for Safe Workflow Upgrades
@@ -70,3 +73,9 @@ Lifecycle: `patch()` → deploy → wait for old workflows → `deprecatePatch()
 Use `DBOS.listWorkflows` to check for active old workflows before deprecating or removing patches.
 
 Reference: [Patching](https://docs.dbos.dev/typescript/tutorials/upgrading-workflows#patching)
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

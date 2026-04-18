@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # ADR-036: Servo Replaces Playwright as Browser Engine for @claude-flow/browser
 
 **Status:** Accepted
@@ -396,3 +403,10 @@ For the 95% of agent browsing tasks (navigate, read content, fill forms, click b
 - [@claude-flow/browser README](https://github.com/ruvnet/ruflo/blob/main/v3/@claude-flow/browser/README.md) — existing 59-tool API surface
 - [Servo project](https://servo.org/) — Linux Foundation browser engine
 - [napi-rs](https://napi.rs/) — Rust ↔ Node.js FFI framework
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

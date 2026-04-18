@@ -1,6 +1,10 @@
 ---
 name: azure-resource-health-diagnose
 description: 'Analyze Azure resource health, diagnose issues from logs and telemetry, and create a remediation plan for identified problems.'
+tags:
+  - domain/agents
+  - artifact/skill
+  - source/skills-copilot
 ---
 
 # Azure Resource Health & Issue Diagnosis
@@ -288,3 +292,10 @@ This workflow analyzes a specific Azure resource to assess its health status, di
 - ✅ Monitoring and prevention recommendations included
 - ✅ Clear prioritization of issues by business impact
 - ✅ Implementation steps include validation and rollback procedures
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-copilot]] — Category: skills-copilot
+- [[MOC - Agents]] — Copilot agents
+

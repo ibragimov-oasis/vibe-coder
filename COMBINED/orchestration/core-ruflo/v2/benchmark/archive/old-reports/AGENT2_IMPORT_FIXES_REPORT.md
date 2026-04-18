@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 ## Agent 2: Import Fixer - COMPLETION REPORT
 
 ### Summary
@@ -45,3 +52,10 @@
 
 Agent 2 has successfully completed the import reorganization task.
 All Python imports now work correctly with the new src/swarm_benchmark/ structure.
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

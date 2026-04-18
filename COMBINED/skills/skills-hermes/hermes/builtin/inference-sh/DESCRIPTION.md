@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-hermes
+---
+
 # inference.sh
 
 Run 150+ AI applications in the cloud via the [inference.sh](https://inference.sh) platform.
@@ -17,3 +24,9 @@ Run 150+ AI applications in the cloud via the [inference.sh](https://inference.s
 - **3D**: Rodin
 - **Social**: Twitter/X automation
 - **Audio**: TTS, voice cloning
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-hermes]] — Category: skills-hermes
+

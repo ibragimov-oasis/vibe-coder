@@ -5,6 +5,10 @@ description: >-
 metadata:
   category: discipline
   triggers: new feature, code change, implementation
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
 ---
 
 # Rule Name
@@ -52,3 +56,9 @@ Violating the letter IS violating the spirit.
 - [Exception 2]
 
 **Everything else:** Follow the rule.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

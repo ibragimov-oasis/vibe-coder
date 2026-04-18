@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # Promotion Rules
 
 When to promote a learning from auto-memory (MEMORY.md) to the project's rule system (CLAUDE.md or `.claude/rules/`).
@@ -81,3 +88,9 @@ When promoting, transform the learning:
 5. Remove from MEMORY.md
 6. Verify with /si:status
 ```
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

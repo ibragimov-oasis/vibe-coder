@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # Validation and Rollback Systems
 
 This document describes the comprehensive validation and rollback mechanisms implemented for SPARC initialization to ensure safe and reliable setup.
@@ -486,3 +493,10 @@ try {
 ```
 
 This validation and rollback system ensures that SPARC initialization is safe, reliable, and recoverable, providing confidence for users and maintaining system integrity even in failure scenarios.
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

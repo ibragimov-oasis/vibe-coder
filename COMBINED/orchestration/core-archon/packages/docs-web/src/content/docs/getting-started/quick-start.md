@@ -5,6 +5,10 @@ category: getting-started
 audience: [user]
 sidebar:
   order: 2
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-archon
 ---
 
 ## Prerequisites
@@ -35,3 +39,10 @@ For the full getting started guide -- installation, authentication, Web UI setup
 - [Configuration](/getting-started/configuration/) — Customize Archon for your project
 - [Authoring Workflows](/guides/authoring-workflows/) — Create your own workflows
 - [GitHub Repository](https://github.com/coleam00/Archon) — Source code, issues, and discussions
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/archon]] — Archon
+- [[000 - Map of Maps]] — Map of Maps
+

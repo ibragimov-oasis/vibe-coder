@@ -1,6 +1,10 @@
 ---
 name: "senior-devops"
 description: Comprehensive DevOps skill for CI/CD, infrastructure automation, containerization, and cloud platforms (AWS, GCP, Azure). Includes pipeline setup, infrastructure as code, deployment automation, and monitoring. Use when setting up pipelines, deploying applications, managing infrastructure, implementing monitoring, or optimizing deployment processes.
+tags:
+  - domain/agents
+  - artifact/skill
+  - source/skills-claude
 ---
 
 # Senior Devops
@@ -321,3 +325,10 @@ Choose Pulumi when the team strongly prefers TypeScript, Python, Go, or C# over 
 ## Troubleshooting
 
 Check the comprehensive troubleshooting section in `references/deployment_strategies.md`.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+- [[MOC - Agents]] — Claude agents
+

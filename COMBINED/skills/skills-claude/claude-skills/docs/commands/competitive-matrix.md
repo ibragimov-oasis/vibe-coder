@@ -1,6 +1,10 @@
 ---
 title: "/competitive-matrix — Slash Command for AI Coding Agents"
 description: "Build competitive analysis matrices with scoring and gap analysis. Usage: /competitive-matrix <analyze> [options]. Slash command for Claude Code, Codex CLI, Gemini CLI."
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
 ---
 
 # /competitive-matrix
@@ -44,3 +48,9 @@ Build competitive matrices with weighted scoring, gap analysis, and market posit
 
 ## Skill Reference
 → `product-team/competitive-teardown/SKILL.md`
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-praisonai
+---
+
 # Framework Integration Tests - Workflow Integration
 
 This document summarizes how the AutoGen and CrewAI integration tests have been integrated into the GitHub workflows.
@@ -177,4 +184,11 @@ Future enhancements could include:
 - Performance benchmarking for framework integrations
 - Integration with external framework test suites
 - Notification systems for framework test failures
-- Framework version compatibility testing 
+- Framework version compatibility testing
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/praisonai]] — PraisonAI
+- [[000 - Map of Maps]] — Map of Maps
+

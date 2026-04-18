@@ -1,6 +1,10 @@
 ---
 description: 'Style components with modern theming using Fluent UI'
 applyTo: '**/*.{ts,tsx,js,json,xml,pcfproj,csproj}'
+tags:
+  - domain/agents
+  - artifact/agent
+  - source/by-interface/agents-copilot
 ---
 
 # Style Components with Modern Theming (Preview)
@@ -104,3 +108,9 @@ A: You can check if tokens are available: `context.fluentDesignLanguage?.tokenTh
 - [Theming (Power Apps component framework API reference)](https://learn.microsoft.com/en-us/power-apps/developer/component-framework/reference/theming)
 - [Modern Theming API control](https://learn.microsoft.com/en-us/power-apps/developer/component-framework/sample-controls/modern-theming-api-control)
 - [Use modern themes in canvas apps (preview)](https://learn.microsoft.com/en-us/power-apps/maker/canvas-apps/controls/modern-controls/modern-theming)
+
+## 🔗 Связи
+
+- [[MOC - Agents]] — Agent catalog
+- [[agents/agents-copilot]] — Interface: agents-copilot
+

@@ -4,6 +4,10 @@ description: "Automate changelog generation from commits, PRs, and releases foll
 risk: unknown
 source: community
 date_added: "2026-02-27"
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 # Changelog Automation
@@ -39,3 +43,9 @@ Patterns and tools for automating changelog generation, release notes, and versi
 ## Resources
 
 - `resources/implementation-playbook.md` for detailed patterns, templates, and examples.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-squad
+---
+
 # Handbook
 
 > SDK Patterns & Best Practices
@@ -14,3 +21,10 @@ Handbook assigned:
 Pattern: Guide update identified as high community value initiative. Handbook owns SDK patterns refresh; PAO owns documentation scaffolding.
 
 📌 **Team update (2026-03-22T06:44:01Z):** Flight issued comprehensive triage. Handbook owns Guide v0.4.1 patterns update (#476). High community interest. Coordinate with PAO on guide structure and with VOX on REPL examples for integration.
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/squad]] — Squad
+- [[000 - Map of Maps]] — Map of Maps
+

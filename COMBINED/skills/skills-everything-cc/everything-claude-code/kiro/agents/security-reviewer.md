@@ -4,6 +4,10 @@ description: Security vulnerability detection and remediation specialist. Use PR
 allowedTools:
   - read
   - shell
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
 ---
 
 # Security Reviewer
@@ -107,3 +111,9 @@ For detailed vulnerability patterns, code examples, report templates, and PR rev
 ---
 
 **Remember**: Security is not optional. One vulnerability can cost users real financial losses. Be thorough, be paranoid, be proactive.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

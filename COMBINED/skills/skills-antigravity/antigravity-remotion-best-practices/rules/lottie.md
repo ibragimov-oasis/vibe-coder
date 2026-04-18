@@ -3,6 +3,10 @@ name: lottie
 description: Embedding Lottie animations in Remotion.
 metadata:
   category: Animation
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
 ---
 
 # Using Lottie Animations in Remotion
@@ -65,4 +69,9 @@ Lottie supports the `style` prop to allow styles and animations:
 ```tsx
 return <Lottie animationData={animationData} style={{width: 400, height: 400}} />;
 ```
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
 

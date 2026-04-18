@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # Technical Debt Classification Taxonomy
 
 ## Overview
@@ -259,3 +266,9 @@ This document provides a comprehensive taxonomy for classifying technical debt a
 - Update severity and impact criteria based on experience
 
 This taxonomy should be adapted to your organization's specific context, technology stack, and business priorities. The key is consistency in application across teams and over time.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

@@ -4,6 +4,10 @@ description: Azure AI Document Translation SDK for batch translation of document
 risk: unknown
 source: community
 date_added: '2026-02-27'
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 # Azure AI Document Translation SDK for Python
@@ -250,3 +254,9 @@ async def translate_documents():
 
 ## When to Use
 This skill is applicable to execute the workflow or actions described in the overview.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

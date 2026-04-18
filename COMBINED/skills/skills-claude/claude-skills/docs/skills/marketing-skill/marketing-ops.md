@@ -1,6 +1,10 @@
 ---
 title: "Marketing Ops — Agent Skill for Marketing"
 description: "Central router for the marketing skill ecosystem. Use when unsure which marketing skill to use, when orchestrating a multi-skill campaign, or when. Agent skill for Claude Code, Codex CLI, Gemini CLI, OpenClaw."
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
 ---
 
 # Marketing Ops
@@ -193,3 +197,9 @@ All output passes quality verification:
 - **marketing-context**: Foundation — run this first if it doesn't exist.
 - **cmo-advisor** (C-Suite): Strategic marketing decisions. Marketing-ops handles execution routing.
 - **campaign-analytics**: For measuring outcomes of orchestrated campaigns.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

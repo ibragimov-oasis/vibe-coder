@@ -2,6 +2,10 @@
 name: context-budget
 description: 审核Claude Code上下文窗口在代理、技能、MCP服务器和规则中的消耗情况。识别膨胀、冗余组件，并提供优先的令牌节省建议。
 origin: ECC
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-everything-cc
 ---
 
 # 上下文预算
@@ -141,3 +145,9 @@ Skill: 当前开销33% → 添加5个服务器（约50个工具）会增加约25
 * **代理描述始终加载**：即使代理从未被调用，其描述字段也存在于每个任务工具上下文中
 * **详细模式用于调试**：需要精确定位导致开销的确切文件时使用，而非用于常规审计
 * **变更后审计**：添加任何代理、技能或 MCP 服务器后运行，以便及早发现增量
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

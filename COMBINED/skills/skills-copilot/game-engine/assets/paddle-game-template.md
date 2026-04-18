@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-copilot
+---
+
 # Paddle Game Template (2D Breakout)
 
 A complete step-by-step guide for building a 2D Breakout game with pure JavaScript and the HTML5 Canvas API. This template walks through every stage of development, from setting up the canvas to implementing a lives system and polished game loop.
@@ -1526,3 +1533,9 @@ Below is the entire game in a single, self-contained HTML file. This is the fina
 | `drawScore()` | Renders the score text in the top-left corner |
 | `drawLives()` | Renders the lives text in the top-right corner |
 | `draw()` | Main game loop: clears canvas, draws everything, handles collisions, updates positions |
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-copilot]] — Category: skills-copilot
+

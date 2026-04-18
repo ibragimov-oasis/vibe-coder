@@ -1,5 +1,9 @@
 ---
 description: Fix Rust build errors, borrow checker issues, and dependency problems incrementally. Invokes the rust-build-resolver agent for minimal, surgical fixes.
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
 ---
 
 # Rust Build and Fix
@@ -185,3 +189,9 @@ The agent will stop and report if:
 
 - Agent: `agents/rust-build-resolver.md`
 - Skill: `skills/rust-patterns/`
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

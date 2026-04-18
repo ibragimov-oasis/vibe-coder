@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # Custom GPTs — Agent Skills for ChatGPT
 
 > **6 Custom GPTs** built on the Agent Skills library. Free to use in ChatGPT — no setup, no API keys, no installation.
@@ -126,3 +133,9 @@ The GPTs above are a small sample. The full library covers engineering, product,
 ## License
 
 The GPT configurations are proprietary. The underlying Agent Skills library is [MIT licensed](https://github.com/alirezarezvani/claude-skills/blob/main/LICENSE).
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

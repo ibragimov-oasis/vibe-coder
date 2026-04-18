@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # Troubleshooting Guide
 
 Common issues and solutions for Microsoft 365 tenant administration.
@@ -409,3 +416,9 @@ Get-OutboundConnector
 2. Verify connector configuration
 3. Check ATP/spam policies
 4. Review quarantine for false positives
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

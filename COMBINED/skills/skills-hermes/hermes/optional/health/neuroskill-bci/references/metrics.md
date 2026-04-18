@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-hermes
+---
+
 # NeuroSkill Metric Definitions & Interpretation Guide
 
 > **⚠️ Research Use Only:** All metrics are experimental and derived from
@@ -218,3 +225,9 @@ NeuroSkill uses the **ZUNA Neural Encoder** to convert 5-second EEG epochs into
 - **Search**: Sub-millisecond approximate nearest-neighbor queries
 - **UMAP**: GPU-accelerated 3D projection for visual comparison
 - **Storage**: Local SQLite + HNSW index in `~/.skill/YYYYMMDD/`
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-hermes]] — Category: skills-hermes
+

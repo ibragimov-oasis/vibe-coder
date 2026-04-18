@@ -14,6 +14,9 @@ metadata:
     tags: [Education, Flashcards, Spaced Repetition, Learning, Quiz, YouTube]
     requires_toolsets: [terminal]
     category: productivity
+  - domain/skills
+  - artifact/skill
+  - source/skills-hermes
 ---
 
 # Memento Flashcards — Spaced-Repetition Flashcard Skill
@@ -322,3 +325,9 @@ pytest tests/skills/test_memento_cards.py tests/skills/test_youtube_quiz.py -q
 Agent-level verification:
 - Start a review and confirm feedback is plain text, brief, and always includes the correct answer before the next card
 - Run a YouTube quiz flow and confirm each answer receives visible feedback before the next question
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-hermes]] — Category: skills-hermes
+

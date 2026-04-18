@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # GGUF Conversion Guide
 
 After training models with TRL on Hugging Face Jobs, convert them to **GGUF format** for use with llama.cpp, Ollama, LM Studio, and other local inference tools.
@@ -294,3 +301,9 @@ hub_repo_details(["trl-lib/argilla-dpo-mix-7k"], repo_type="dataset")  # Would c
 - [ ] HF_TOKEN in secrets for Hub upload
 
 **The script in `scripts/convert_to_gguf.py` incorporates all these lessons and has been tested successfully in production.**
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

@@ -2,6 +2,10 @@
 name: microsoft-code-reference
 description: Look up Microsoft API references, find working code samples, and verify SDK code is correct. Use when working with Azure SDKs, .NET libraries, or Microsoft APIs—to find the right method, check parameters, get working examples, or troubleshoot errors. Catches hallucinated methods, wrong signatures, and deprecated patterns by querying official docs.
 compatibility: Works best with Microsoft Learn MCP Server (https://learn.microsoft.com/api/mcp). Can also use the mslearn CLI as a fallback.
+tags:
+  - domain/agents
+  - artifact/skill
+  - source/skills-copilot
 ---
 
 # Microsoft Code Reference
@@ -97,3 +101,10 @@ mslearn search "BlobClient UploadAsync Azure.Storage.Blobs"
 | `microsoft_docs_fetch(url: "...")` | `mslearn fetch "..."` |
 
 Pass `--json` to `search` or `code-search` to get raw JSON output for further processing.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-copilot]] — Category: skills-copilot
+- [[MOC - Agents]] — Copilot agents
+

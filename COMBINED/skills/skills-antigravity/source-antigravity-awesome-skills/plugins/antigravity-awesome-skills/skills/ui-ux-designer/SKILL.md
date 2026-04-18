@@ -4,6 +4,10 @@ description: Create interface designs, wireframes, and design systems. Masters u
 risk: unknown
 source: community
 date_added: '2026-02-27'
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 ## Use this skill when
@@ -205,3 +209,9 @@ Expert UI/UX designer specializing in design systems, accessibility-first design
 - "Design data visualization dashboard with progressive disclosure"
 
 Focus on user-centered, accessible design solutions with comprehensive documentation and systematic thinking. Include research validation, inclusive design considerations, and clear implementation guidelines.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-copilot
+---
+
 # Advanced Usage: Output, Queries & Parameters
 
 ## Table of Contents
@@ -195,3 +202,9 @@ az repos pr create --help
 # Search for examples
 az find "az repos pr create"
 ```
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-copilot]] — Category: skills-copilot
+

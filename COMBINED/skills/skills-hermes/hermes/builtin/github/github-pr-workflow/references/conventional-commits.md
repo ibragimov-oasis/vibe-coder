@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-hermes
+---
+
 # Conventional Commits Quick Reference
 
 Format: `type(scope): description`
@@ -69,3 +76,9 @@ Co-authored-by: Name <email>
 - Updated CI/CD pipelines? → `ci`
 - Updated dependencies or tooling? → `chore`
 - Made something faster? → `perf`
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-hermes]] — Category: skills-hermes
+

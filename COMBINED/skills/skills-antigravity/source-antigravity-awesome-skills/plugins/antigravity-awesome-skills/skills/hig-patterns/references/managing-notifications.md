@@ -46,7 +46,11 @@ The system defines four interruption levels for noncommunication notifications:
 
 Notification alerts in each system-defined interruption level can behave in the following ways:
 
-Interruption level| Overrides scheduled delivery| Breaks through Focus| Overrides Ring/Silent switch on iPhone and iPad  
+Interruption level| Overrides scheduled delivery| Breaks through Focus| Overrides Ring/Silent switch on iPhone and iPad
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
 ---|---|---|---  
 Passive| No| No| No  
 Active| No| No| No  
@@ -96,4 +100,9 @@ By default, the notification settings people use for apps on their iPhone apply 
 [![](https://devimages-cdn.apple.com/wwdc-services/images/119/B63A08EA-8856-4C77-9E1B-EA1CAD990619/4986_wide_250x141_1x.jpg) Send communication and Time Sensitive notifications ](https://developer.apple.com/videos/play/wwdc2021/10091)
 
 [![](https://devimages-cdn.apple.com/wwdc-services/images/49/3D8237BC-06E3-4711-8552-7008A5D5BAAD/3764_wide_250x141_1x.jpg) The Push Notifications primer ](https://developer.apple.com/videos/play/wwdc2020/10095)
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
 

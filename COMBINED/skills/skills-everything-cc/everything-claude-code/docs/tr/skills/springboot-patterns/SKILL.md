@@ -2,6 +2,10 @@
 name: springboot-patterns
 description: Spring Boot architecture patterns, REST API design, layered services, data access, caching, async processing, and logging. Use for Java Spring Boot backend work.
 origin: ECC
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-everything-cc
 ---
 
 # Spring Boot Geliştirme Desenleri
@@ -310,3 +314,9 @@ Spring'in `@Scheduled`'ını kullanın veya kuyruklar ile entegre olun (örn. Ka
 - `@NonNull` ve uygun yerlerde `Optional` ile null-safety zorlayın
 
 **Unutmayın**: Controller'ları ince, servisleri odaklı, repository'leri basit ve hataları merkezi olarak işlenmiş tutun. Bakım yapılabilirlik ve test edilebilirlik için optimize edin.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

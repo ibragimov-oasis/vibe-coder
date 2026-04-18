@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # Form Validation Template
 
 Tests required fields, format validation, and inline error messages.
@@ -139,3 +146,9 @@ test.describe('Form Validation', () => {
 | Blur validation | Error shown on blur, not just submit |
 | aria-describedby | Error programmatically linked to field |
 | Max length | Exceeded length → error shown |
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

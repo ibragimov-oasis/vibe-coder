@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-awesome-claude
+---
+
 # Strategy: Generated, Location-Correct Relative Asset Paths
 
 This repo treats all Markdown READMEs as generated artifacts. The generator is responsible for making every output Markdown file render correctly both (a) on GitHub when viewed in-place and (b) in local Markdown previews that expect standard relative paths.
@@ -107,3 +114,9 @@ Run link/image checks only on:
 ## Summary
 
 This strategy makes local preview easy by using standard relative paths, while keeping GitHub rendering correct everywhere. The generator is the only component allowed to decide how assets/ is referenced, and swaps are implemented exclusively as “regenerate for destination path,” not file copying.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-awesome-claude]] — Category: skills-awesome-claude
+

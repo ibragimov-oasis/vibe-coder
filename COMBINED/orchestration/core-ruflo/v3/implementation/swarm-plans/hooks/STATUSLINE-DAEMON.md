@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # Claude Flow V3 Statusline Daemon System
 
 ## Overview
@@ -269,3 +276,10 @@ node .claude/helpers/metrics-db.mjs sync
 rm .claude-flow/metrics.db
 node .claude/helpers/metrics-db.mjs sync
 ```
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

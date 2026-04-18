@@ -18,6 +18,10 @@ metadata:
   author: AgriciDaniel
   version: "1.7.0"
   category: seo
+tags:
+  - domain/seo
+  - artifact/skill
+  - source/skills-seo
 ---
 
 # Maps Intelligence (March 2026)
@@ -257,3 +261,9 @@ Generate `MAPS-ANALYSIS-{domain}.md` with:
 | API rate limit hit | Report the limit. Suggest waiting or using standard (queued) method instead of live. |
 | No reviews found | Report zero review state. Recommend review generation strategy with 18-day cadence target. |
 | Multi-location detected | Ask user which location to analyze, or offer batch mode with per-location cost estimate. |
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-seo]] — Category: skills-seo
+

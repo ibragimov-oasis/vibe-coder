@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/mcp
+  - artifact/mcp-server
+  - source/mcp-servers
+---
+
 # OpenClaw Plugin 升级为真正上下文引擎的设计方案
 
 ## 1. 背景与目标
@@ -668,3 +675,9 @@ Phase 1 期间采用双轨兼容：
 5. skill memory / tool memory 不进入 Phase 1 验收范围。
 
 以上决策除非后续出现明确阻塞，否则实现阶段不再重新讨论。
+
+## 🔗 Связи
+
+- [[MOC - MCP Servers]] — mcp-servers
+- [[000 - Map of Maps]] — Map of Maps
+

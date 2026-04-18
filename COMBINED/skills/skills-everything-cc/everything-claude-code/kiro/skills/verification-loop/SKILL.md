@@ -4,6 +4,10 @@ description: >
   A comprehensive verification system for Kiro sessions.
 metadata:
   origin: ECC
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-everything-cc
 ---
 
 # Verification Loop Skill
@@ -126,3 +130,9 @@ Run: /verify
 
 This skill complements postToolUse hooks but provides deeper verification.
 Hooks catch issues immediately; this skill provides comprehensive review.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

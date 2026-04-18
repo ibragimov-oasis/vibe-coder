@@ -6,6 +6,10 @@ source: "https://github.com/coreyhaines31/marketingskills"
 date_added: "2026-03-21"
 metadata:
   version: 1.0.0
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 # Lead Magnets
@@ -317,3 +321,9 @@ When creating a lead magnet strategy, provide:
 - **analytics-tracking**: For measuring lead magnet performance
 - **paid-ads**: For paid promotion of lead magnets
 - **social-content**: For social media promotion
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

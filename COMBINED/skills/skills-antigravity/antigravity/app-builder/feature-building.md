@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # Feature Building
 
 > How to analyze and implement new features.
@@ -51,3 +58,9 @@ Analysis:
 4. Suggest alternative
 5. Rollback if necessary
 ```
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

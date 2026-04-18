@@ -57,7 +57,11 @@ Your game can include custom links into the Game Overlay (in iOS, iPadOS, macOS)
 
 **Use the correct terminology in custom links.** The following table describes how to use Game Center terminology correctly so that you can avoid confusing players in custom UI.
 
-Term| Incorrect terms| Localization  
+Term| Incorrect terms| Localization
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
 ---|---|---  
 Game Center| GameKit, GameCenter, game center| Use the system-provided translation of _Game Center_  
 Game Center Profile| Profile, Account, Player Info| Use the system-provided translation of _Game Center_ and localize _Profile_  
@@ -339,5 +343,10 @@ Date| Changes
 June 9, 2025| Added guidance for new challenges and multiplayer activities, and considerations for the Apple Games app and Game Overlay. Updated guidance and specifications for activity preview images.  
 February 2, 2024| Added links to developer guidance on using the access point and dashboard in a visionOS game.  
 September 12, 2023| Added artwork for the iOS achievement layout.  
-May 2, 2023| Consolidated guidance into one page.  
-  
+May 2, 2023| Consolidated guidance into one page.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

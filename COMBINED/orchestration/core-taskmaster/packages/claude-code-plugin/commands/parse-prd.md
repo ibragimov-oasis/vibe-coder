@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-taskmaster
+---
+
 Parse a PRD document to generate tasks.
 
 Arguments: $ARGUMENTS (PRD file path)
@@ -47,3 +54,10 @@ After parsing:
 2. Show dependency graph
 3. Suggest task expansion for complex items
 4. Recommend sprint planning
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/task-master]] — Task-Master
+- [[000 - Map of Maps]] — Map of Maps
+

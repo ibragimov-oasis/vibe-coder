@@ -1,6 +1,10 @@
 ---
 name: copilot-usage-metrics
 description: Retrieve and display GitHub Copilot usage metrics for organizations and enterprises using the GitHub CLI and REST API.
+tags:
+  - domain/agents
+  - artifact/skill
+  - source/skills-copilot
 ---
 
 # Copilot Usage Metrics
@@ -50,3 +54,10 @@ When presenting results to the user:
 - The user must have appropriate permissions (enterprise owner, billing manager, or a token with `manage_billing:copilot` / `read:enterprise` scope).
 - The "Copilot usage metrics" policy must be enabled in enterprise settings.
 - If the API returns 403, advise the user to check their token permissions and enterprise policy settings.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-copilot]] — Category: skills-copilot
+- [[MOC - Agents]] — Copilot agents
+

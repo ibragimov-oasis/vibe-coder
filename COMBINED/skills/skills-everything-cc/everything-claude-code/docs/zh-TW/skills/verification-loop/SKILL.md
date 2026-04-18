@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-everything-cc
+---
+
 # 驗證循環技能
 
 Claude Code 工作階段的完整驗證系統。
@@ -118,3 +125,9 @@ Lint：     [PASS/FAIL]（X 個警告）
 
 此技能補充 PostToolUse hooks 但提供更深入的驗證。
 Hooks 立即捕捉問題；此技能提供全面審查。
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

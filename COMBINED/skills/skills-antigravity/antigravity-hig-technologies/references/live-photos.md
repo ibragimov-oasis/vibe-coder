@@ -1,4 +1,11 @@
 ---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
+---
 title: "Live Photos | Apple Developer Documentation"
 source: https://developer.apple.com/design/human-interface-guidelines/live-photos
 
@@ -51,4 +58,9 @@ In visionOS, people can view a Live Photo, but they can’t capture one.
 #### [Videos](https://developer.apple.com/design/human-interface-guidelines/live-photos#Videos)
 
 [![](https://devimages-cdn.apple.com/wwdc-services/images/119/80B5C413-F0CF-44C1-9EE1-7BBC8C8978F0/4937_wide_250x141_1x.jpg) What’s new in camera capture ](https://developer.apple.com/videos/play/wwdc2021/10047)
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
 

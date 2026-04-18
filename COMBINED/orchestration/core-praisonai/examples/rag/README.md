@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-praisonai
+---
+
 # RAG Examples
 
 This directory contains comprehensive examples demonstrating RAG (Retrieval Augmented Generation) with PraisonAI Agents.
@@ -119,3 +126,9 @@ Use with:
 ```bash
 praisonai rag query "Question" --config rag_config.yaml
 ```
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-praisonai]] — core-praisonai
+

@@ -4,6 +4,10 @@ description: Analyzes provided content for quality, E-E-A-T signals, and SEO bes
 risk: safe
 source: community
 date_added: '2026-02-27'
+tags:
+  - domain/seo
+  - artifact/skill
+  - source/skills-seo
 ---
 
 ## Use this skill when
@@ -80,3 +84,9 @@ You are an SEO content auditor analyzing provided content for optimization oppor
 - Trust signal opportunities
 
 Focus on actionable improvements based on SEO best practices and content quality standards.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-seo]] — Category: skills-seo
+

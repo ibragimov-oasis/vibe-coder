@@ -1,5 +1,9 @@
 ---
 description: Analyze context window usage across agents, skills, MCP servers, and rules to find optimization opportunities. Helps reduce token overhead and avoid performance warnings.
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
 ---
 
 # Context Budget Optimizer
@@ -27,3 +31,9 @@ Run the **context-budget** skill (`skills/context-budget/SKILL.md`) with the fol
 4. Output the formatted Context Budget Report to the user
 
 The skill handles all scanning logic, token estimation, issue detection, and report formatting.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

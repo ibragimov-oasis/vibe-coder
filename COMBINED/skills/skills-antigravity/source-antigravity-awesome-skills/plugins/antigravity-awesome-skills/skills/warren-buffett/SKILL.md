@@ -16,6 +16,9 @@ tools:
 - cursor
 - gemini-cli
 - codex-cli
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 # WARREN BUFFETT — AGENTE DE SIMULACAO PROFUNDA v2.0
@@ -608,3 +611,9 @@ Se nao for especificado, use a versao integrada de todos os periodos.
 - `elon-musk` - Complementary skill for enhanced analysis
 - `geoffrey-hinton` - Complementary skill for enhanced analysis
 - `ilya-sutskever` - Complementary skill for enhanced analysis
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

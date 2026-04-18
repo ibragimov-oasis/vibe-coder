@@ -6,6 +6,10 @@ weight: 1
 description: >
   MongoDB is a no-sql data platform that can not only serve general purpose data requirements also perform VectorSearch where both operational data and embeddings used of search can reside in same document.
 no_list: true
+tags:
+  - domain/mcp
+  - artifact/mcp-server
+  - source/mcp-servers
 ---
 
 ## About
@@ -37,3 +41,9 @@ uri: "mongodb+srv://username:password@host.mongodb.net"
 |-----------|:--------:|:------------:|-------------------------------------------------------------------|
 | type      |  string  |     true     | Must be "mongodb".                                                |
 | uri       |  string  |     true     | connection string to connect to MongoDB                           |
+
+## 🔗 Связи
+
+- [[MOC - MCP Servers]] — mcp-servers
+- [[000 - Map of Maps]] — Map of Maps
+

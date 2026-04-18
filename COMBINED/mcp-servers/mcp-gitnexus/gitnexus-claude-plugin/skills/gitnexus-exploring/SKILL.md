@@ -1,6 +1,10 @@
 ---
 name: gitnexus-exploring
 description: "Use when the user asks how code works, wants to understand architecture, trace execution flows, or explore unfamiliar parts of the codebase. Examples: \"How does X work?\", \"What calls this function?\", \"Show me the auth flow\""
+tags:
+  - domain/mcp
+  - artifact/mcp-server
+  - source/mcp-servers
 ---
 
 # Exploring Codebases with GitNexus
@@ -76,3 +80,9 @@ gitnexus_context({name: "validateUser"})
    → Outgoing: validateCard, chargeStripe, saveTransaction
 4. Read src/payments/processor.ts for implementation details
 ```
+
+## 🔗 Связи
+
+- [[MOC - MCP Servers]] — mcp-servers
+- [[000 - Map of Maps]] — Map of Maps
+

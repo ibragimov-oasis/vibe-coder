@@ -14,6 +14,10 @@ hero:
       link: /book/what-is-archon/
       icon: right-arrow
       variant: primary
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-archon
 ---
 
 ## How to Use This Guide
@@ -42,3 +46,10 @@ hero:
 8. [DAG Workflows](/book/dag-workflows/)
 9. [Hooks and Quality Loops](/book/hooks-and-quality/)
 10. [Quick Reference](/book/quick-reference/)
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/archon]] — Archon
+- [[000 - Map of Maps]] — Map of Maps
+

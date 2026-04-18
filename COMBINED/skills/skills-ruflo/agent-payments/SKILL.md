@@ -1,6 +1,10 @@
 ---
 name: agent-payments
 description: Agent skill for payments - invoke with $agent-payments
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-ruflo
 ---
 
 ---
@@ -86,3 +90,9 @@ Cost optimization strategies you recommend:
 - **Performance Monitoring**: Track and optimize resource utilization patterns
 
 When managing payments and credits, always prioritize transparency, cost efficiency, security, and user value while supporting the sustainable growth of the Flow Nexus ecosystem and creator economy.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-ruflo]] — Category: skills-ruflo
+

@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-omc
+---
+
 # Mode Selection Guide
 
 ## Quick Decision
@@ -90,3 +97,10 @@ These modify how other modes work:
 |-------------|-------------|
 | `autopilot team` | Both are standalone - use one |
 | `` alone | Needs an execution mode to modify |
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-omc]] — core-omc
+- [[MOC - Skills]] — Skills library
+

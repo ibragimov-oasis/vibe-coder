@@ -6,6 +6,10 @@ linkTitle: "Source"
 description: >
   A "cloud-gemini-data-analytics" source provides a client for the Gemini Data Analytics API.
 no_list: true
+tags:
+  - domain/mcp
+  - artifact/mcp-server
+  - source/mcp-servers
 ---
 
 ## About
@@ -43,3 +47,9 @@ useClientOAuth: true
 | type           |  string  |     true     | Must be "cloud-gemini-data-analytics".                                                                                                                                       |
 | projectId      |  string  |     true     | The Google Cloud Project ID where the API is enabled.                                                                                                                        |
 | useClientOAuth | boolean  |    false     | If true, the source uses the token provided by the caller (forwarded to the API). Otherwise, it uses server-side Application Default Credentials (ADC). Defaults to `false`. |
+
+## 🔗 Связи
+
+- [[MOC - MCP Servers]] — mcp-servers
+- [[000 - Map of Maps]] — Map of Maps
+

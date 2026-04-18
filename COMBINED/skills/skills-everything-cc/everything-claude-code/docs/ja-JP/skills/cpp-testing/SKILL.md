@@ -1,6 +1,10 @@
 ---
 name: cpp-testing
 description: C++ テストの作成/更新/修正、GoogleTest/CTest の設定、失敗またはフレーキーなテストの診断、カバレッジ/サニタイザーの追加時にのみ使用します。
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-everything-cc
 ---
 
 # C++ Testing（エージェントスキル）
@@ -320,3 +324,9 @@ extern "C" int LLVMFuzzerTestOneInput(const uint8_t *data, size_t size) {
 
 - **Catch2**: ヘッダーオンリー、表現力豊かなマッチャー
 - **doctest**: 軽量、最小限のコンパイルオーバーヘッド
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

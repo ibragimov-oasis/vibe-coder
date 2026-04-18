@@ -1,4 +1,11 @@
 ---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
+---
 title: "Designing for macOS | Apple Developer Documentation"
 source: https://developer.apple.com/design/human-interface-guidelines/designing-for-macos
 
@@ -67,4 +74,9 @@ Great Mac experiences integrate the platform and device capabilities that people
 [![](https://devimages-cdn.apple.com/wwdc-services/images/3055294D-836B-4513-B7B0-0BC5666246B0/1AAA030E-2ECA-47D8-AE09-6D7B72A840F6/10044_wide_250x141_1x.jpg) Get to know the new design system ](https://developer.apple.com/videos/play/wwdc2025/356)
 
 [![](https://devimages-cdn.apple.com/wwdc-services/images/3055294D-836B-4513-B7B0-0BC5666246B0/754D8BF7-206F-4342-8705-7B836D449D9C/10015_wide_250x141_1x.jpg) Build an AppKit app with the new design ](https://developer.apple.com/videos/play/wwdc2025/310)
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
 

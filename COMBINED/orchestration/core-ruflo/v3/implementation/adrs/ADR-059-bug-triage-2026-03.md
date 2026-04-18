@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # ADR-059: Bug Triage & Priority Matrix — March 2026
 
 **Status:** Accepted — Fixes Verified
@@ -226,3 +233,10 @@ All fixes validated via Docker-based regression testing:
 - Remaining P0 item (#1282 Windows) requires platform-specific CI matrix — target v3.5.3.
 - Remaining P1 items (#1283, #1287, #1291) should ship as v3.6.0 with macOS CI.
 - The AgentDB wiring gap (#1264) is now **resolved** — ControllerRegistry is wired and the intelligence layer is active.
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

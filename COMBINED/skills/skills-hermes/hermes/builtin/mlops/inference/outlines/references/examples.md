@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-hermes
+---
+
 # Production-Ready Examples
 
 Real-world examples of using Outlines for structured generation in production systems.
@@ -771,3 +778,9 @@ def rate_limited_extract(texts: list[str], schema: type[BaseModel]):
 - **Outlines Documentation**: https://outlines-dev.github.io/outlines
 - **Pydantic Documentation**: https://docs.pydantic.dev
 - **GitHub Examples**: https://github.com/outlines-dev/outlines/tree/main/examples
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-hermes]] — Category: skills-hermes
+

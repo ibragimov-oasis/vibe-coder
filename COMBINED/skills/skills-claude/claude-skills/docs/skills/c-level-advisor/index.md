@@ -1,6 +1,10 @@
 ---
 title: "C-Level Advisory Skills — Agent Skills & Codex Plugins"
 description: "34 c-level advisory skills — executive advisory agent skill and Claude Code plugin for strategic decisions and board meetings. Works with Claude Code, Codex CLI, Gemini CLI, and OpenClaw."
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
 ---
 
 <div class="domain-header" markdown>
@@ -192,3 +196,9 @@ description: "34 c-level advisory skills — executive advisory agent skill and 
     Strategy fails at the cascade, not the boardroom. This skill detects misalignment before it becomes dysfunction and b...
 
 </div>
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # Code Quality Reviewer Prompt Template
 
 Use this template when dispatching a code quality reviewer subagent.
@@ -18,3 +25,9 @@ Task tool (superpowers:code-reviewer):
 ```
 
 **Code reviewer returns:** Strengths, Issues (Critical/Important/Minor), Assessment
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

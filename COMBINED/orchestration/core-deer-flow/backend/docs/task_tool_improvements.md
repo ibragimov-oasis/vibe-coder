@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-deer-flow
+---
+
 # Task Tool Improvements
 
 ## Overview
@@ -172,3 +179,10 @@ For users/code that previously used `run_in_background=True`:
 - The tool will automatically wait for completion
 
 No other changes needed - the API is backward compatible (minus the removed parameter).
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-deer-flow]] — core-deer-flow
+- [[MOC - Skills]] — Skills library
+

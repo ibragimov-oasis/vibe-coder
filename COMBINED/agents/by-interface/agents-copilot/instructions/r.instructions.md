@@ -1,6 +1,10 @@
 ---
 description: 'R language and document formats (R, Rmd, Quarto): coding standards and Copilot guidance for idiomatic, safe, and consistent code generation.'
 applyTo: '**/*.R, **/*.r, **/*.Rmd, **/*.rmd, **/*.qmd'
+tags:
+  - domain/agents
+  - artifact/agent
+  - source/by-interface/agents-copilot
 ---
 
 # R Programming Language Instructions
@@ -114,3 +118,9 @@ dplyr::filter(z > 0)
 #' @examples z_score(c(1, 2, 3))
 z_score <- function(x) (x - mean(x, na.rm = TRUE)) / stats::sd(x, na.rm = TRUE)
 ```
+
+## 🔗 Связи
+
+- [[MOC - Agents]] — Agent catalog
+- [[agents/agents-copilot]] — Interface: agents-copilot
+

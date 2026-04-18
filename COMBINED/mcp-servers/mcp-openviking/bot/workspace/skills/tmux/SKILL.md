@@ -2,6 +2,10 @@
 name: tmux
 description: Remote-control tmux sessions for interactive CLIs by sending keystrokes and scraping pane output.
 metadata: {"vikingbot":{"emoji":"🧵","os":["darwin","linux"],"requires":{"bins":["tmux"]}}}
+tags:
+  - domain/mcp
+  - artifact/mcp-server
+  - source/mcp-servers
 ---
 
 # tmux Skill
@@ -119,3 +123,9 @@ tmux -S "$SOCKET" capture-pane -p -t agent-1 -S -500
 - `-T` timeout seconds (integer, default 15)
 - `-i` poll interval seconds (default 0.5)
 - `-l` history lines to search (integer, default 1000)
+
+## 🔗 Связи
+
+- [[MOC - MCP Servers]] — mcp-servers
+- [[000 - Map of Maps]] — Map of Maps
+

@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-copilot
+---
+
 # Pinia Testing Snippets (Cookbook-Aligned)
 
 Use these patterns directly when writing tests with `@pinia/testing`.
@@ -93,3 +100,9 @@ expect(store.double).toBe(42);
 // @ts-expect-error test-only reset
 store.double = undefined;
 ```
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-copilot]] — Category: skills-copilot
+

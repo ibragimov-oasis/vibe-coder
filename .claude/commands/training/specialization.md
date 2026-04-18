@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/command
+  - source/claude-commands
+---
+
 # Agent Specialization Training
 
 ## Purpose
@@ -61,3 +68,9 @@ npx claude-flow train agent --type coder --capabilities "react,typescript"
 # Check specializations
 npx claude-flow agent list --specializations
 ```
+
+## 🔗 Связи
+
+- [[MOC - System]] — System commands
+- [[MOC - Skills]] — Skills library
+

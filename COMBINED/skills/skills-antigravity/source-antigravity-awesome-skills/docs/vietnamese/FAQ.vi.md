@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # ❓ Câu hỏi thường gặp (FAQ)
 
 **Bạn có thắc mắc?** Bạn không hề cô đơn! Dưới đây là câu trả lời cho những câu hỏi thường gặp nhất về Antigravity Awesome Skills.
@@ -176,3 +183,9 @@ Hãy chạy `python3 scripts/validate_skills.py` cục bộ để kiểm tra tr�
 - Khám phá `@skill-creator` để tự tạo kỹ năng của riêng bạn.
 
 **Vẫn còn thắc mắc?** [Mở một cuộc thảo luận (Discussion)](https://github.com/sickn33/antigravity-awesome-skills/discussions) và chúng tôi sẽ giúp bạn! 🙌
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # AgentDB Integration Test Suite - Completion Report
 
 **Agent**: Agent 2 (Testing Specialist)
@@ -560,3 +567,10 @@ The test suite is **ready for integration** with Agent 1's implementation and pr
 **Agent**: Agent 2 (Testing Specialist)
 **Branch**: feature/agentdb-integration
 **Status**: ✅ **COMPLETE - READY FOR TESTING**
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-ruflo]] — core-ruflo
+- [[MOC - Skills]] — Skills library
+

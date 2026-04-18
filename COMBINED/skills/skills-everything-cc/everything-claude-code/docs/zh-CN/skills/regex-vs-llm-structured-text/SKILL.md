@@ -2,6 +2,10 @@
 name: regex-vs-llm-structured-text
 description: 选择在解析结构化文本时使用正则表达式还是大型语言模型的决策框架——从正则表达式开始，仅在低置信度的边缘情况下添加大型语言模型。
 origin: ECC
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-everything-cc
 ---
 
 # 正则表达式 vs LLM 用于结构化文本解析
@@ -215,3 +219,9 @@ def process_document(
 * 发票/收据处理
 * 文档结构解析（标题、章节、表格）
 * 任何具有重复模式且成本重要的结构化文本
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

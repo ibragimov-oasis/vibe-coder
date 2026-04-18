@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
+---
+
 # Execute - マルチモデル協調実装
 
 マルチモデル協調実装 - 計画からプロトタイプを取得 → Claudeがリファクタリングして実装 → マルチモデル監査と配信。
@@ -313,3 +320,9 @@ mcp__ace-tool__search_context({
 1. `/ccg:plan`が計画 + SESSION_IDを生成
 2. ユーザーが「Y」で確認
 3. `/ccg:execute`が計画を読み取り、SESSION_IDを再利用し、実装を実行
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

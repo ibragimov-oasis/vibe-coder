@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/seo
+  - artifact/doc
+  - source/skills-seo
+---
+
 # Architecture
 
 ## Overview
@@ -258,3 +265,9 @@ Each extension follows this pattern:
 4. Installs skill to `~/COMBINED/workspace-config/claude/skills/seo-<name>/`
 5. Installs agent to `~/COMBINED/workspace-config/claude/agents/seo-<name>.md`
 6. Merges MCP config into `~/.claude/settings.json` (non-destructive)
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-seo]] — Category: skills-seo
+

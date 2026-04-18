@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # Project Charter Template
 
 **Project Name:** [Project Name]  
@@ -272,3 +279,9 @@ By signing this charter, the undersigned acknowledge they have reviewed and appr
 - **Last Updated:** [Date]
 - **Next Review:** [Date]
 - **Document Owner:** Project Management Office
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

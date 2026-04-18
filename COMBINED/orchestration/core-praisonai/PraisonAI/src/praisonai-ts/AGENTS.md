@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-praisonai
+---
+
 # AGENTS.md - PraisonAI TypeScript SDK Comprehensive Guide
 
 > **For AI Agents and Developers**: This document provides the complete context needed to work with the PraisonAI TypeScript SDK, including design principles, architecture, repository structure, and implementation guidelines.
@@ -953,3 +960,10 @@ This TypeScript SDK maintains feature parity with the Python SDK:
 ---
 
 *This document is the source of truth for the PraisonAI TypeScript SDK architecture and design principles.*
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/praisonai]] — PraisonAI
+- [[000 - Map of Maps]] — Map of Maps
+

@@ -16,6 +16,9 @@ tools:
 - cursor
 - gemini-cli
 - codex-cli
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 # SKILL DE RISCO — AUDITOR DE RISCO EM LEILÕES
@@ -493,3 +496,9 @@ Fontes normativas e referências de risco:
 - `leiloeiro-edital` - Complementary skill for enhanced analysis
 - `leiloeiro-ia` - Complementary skill for enhanced analysis
 - `leiloeiro-juridico` - Complementary skill for enhanced analysis
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

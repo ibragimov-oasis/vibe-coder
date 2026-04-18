@@ -4,6 +4,10 @@ description: This skill should be used when the user asks to "implement LLM-as-j
 risk: safe
 source: community
 date_added: 2026-03-18
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 # Advanced Evaluation
@@ -453,4 +457,9 @@ Related skills in this collection:
 **Last Updated**: 2024-12-24
 **Author**: Muratcan Koylan
 **Version**: 1.0.0
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
 

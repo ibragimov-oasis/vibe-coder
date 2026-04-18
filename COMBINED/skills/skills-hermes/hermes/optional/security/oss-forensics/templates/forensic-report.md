@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-hermes
+---
+
 # Forensic Investigation Report
 
 > **Instructions**: Fill in all sections. Every factual claim must cite at least one `[EV-XXXX]` evidence ID.
@@ -149,3 +156,9 @@ _Summarize enrichment results: WHOIS data for domains, recovered commit content,
 - Evidence store: `evidence.json` (SHA-256 integrity: run `python3 SKILL_DIR/scripts/evidence-store.py --store evidence.json verify`)
 - Related issues: <!-- Link to GitHub issues, CVEs, security advisories -->
 - RAPTOR framework: https://github.com/gadievron/raptor
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-hermes]] — Category: skills-hermes
+

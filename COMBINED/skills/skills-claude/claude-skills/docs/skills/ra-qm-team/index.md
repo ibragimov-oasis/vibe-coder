@@ -1,6 +1,10 @@
 ---
 title: "Regulatory & Quality Skills — Agent Skills & Codex Plugins"
 description: "14 regulatory & quality skills — regulatory and quality management agent skill for ISO 13485, MDR, FDA, and GDPR compliance. Works with Claude Code, Codex CLI, Gemini CLI, and OpenClaw."
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
 ---
 
 <div class="domain-header" markdown>
@@ -102,3 +106,9 @@ description: "14 regulatory & quality skills — regulatory and quality manageme
     SOC 2 Type I and Type II compliance preparation for SaaS companies. Covers Trust Service Criteria mapping, control ma...
 
 </div>
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

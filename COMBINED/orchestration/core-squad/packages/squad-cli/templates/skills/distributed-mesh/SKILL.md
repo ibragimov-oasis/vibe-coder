@@ -4,6 +4,10 @@ description: "How to coordinate with squads on different machines using git as t
 domain: "distributed-coordination"
 confidence: "high"
 source: "multi-model-consensus (Opus 4.6, Sonnet 4.5, GPT-5.4)"
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-squad
 ---
 
 ## SCOPE
@@ -285,3 +289,10 @@ Run `bash sync-mesh.sh` (or `.\sync-mesh.ps1` on Windows) before agents start to
 - Modifying agent charters or routing rules
 - Setting up CI/CD pipelines for mesh sync
 - Creating dashboards or monitoring tools
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/squad]] — Squad
+- [[000 - Map of Maps]] — Map of Maps
+

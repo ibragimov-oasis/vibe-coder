@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-gsd
+---
+
 # Git Planning Commit
 
 Commit planning artifacts using the gsd-tools CLI, which automatically checks `commit_docs` config and gitignore status.
@@ -36,3 +43,10 @@ node "$HOME/.claude/get-shit-done/bin/gsd-tools.cjs" commit "" --files .planning
 - `commit_docs: false` in config
 - `.planning/` is gitignored
 - No changes to commit (check with `git status --porcelain .planning/`)
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-gsd]] — core-gsd
+- [[MOC - Skills]] — Skills library
+

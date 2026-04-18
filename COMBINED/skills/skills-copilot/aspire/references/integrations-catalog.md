@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-copilot
+---
+
 # Integrations Catalog
 
 Aspire has **144+ integrations** across 13 categories. Rather than maintaining a static list, use the MCP tools to get live, up-to-date integration data.
@@ -66,3 +73,9 @@ Use `list_integrations` for the full live list. This summary covers the major ca
 For polyglot framework method signatures, see [Polyglot APIs](polyglot-apis.md).
 
 ---
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-copilot]] — Category: skills-copilot
+

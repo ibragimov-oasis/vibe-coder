@@ -2,6 +2,10 @@
 sidebar_position: 13
 title: "RL Training"
 description: "Reinforcement learning on agent behaviors with Tinker-Atropos — environment discovery, training, and evaluation"
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-hermes
 ---
 
 # RL Training
@@ -232,3 +236,10 @@ logs/
 ```
 
 These are invaluable for debugging when training fails or produces unexpected results.
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/hermes]] — Hermes
+- [[000 - Map of Maps]] — Map of Maps
+

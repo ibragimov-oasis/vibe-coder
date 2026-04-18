@@ -14,6 +14,10 @@ tools:
   - mcp__lightpanda
 permissionMode: acceptEdits
 color: orange
+tags:
+  - domain/skills
+  - artifact/config
+  - source/.claude
 ---
 
 <role>
@@ -318,3 +322,9 @@ When escalating, provide:
 7. **Single hypothesis**: always generate 3+ hypotheses before investigating
 8. **Removing debug instrumentation too late**: remove after each hypothesis test
 </anti_patterns>
+
+## 🔗 Связи
+
+- [[MOC - System]] — System
+- [[000 - Map of Maps]] — Map of Maps
+

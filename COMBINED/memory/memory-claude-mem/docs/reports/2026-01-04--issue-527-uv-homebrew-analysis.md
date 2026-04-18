@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/memory
+  - artifact/memory
+  - source/memory
+---
+
 # Issue #527: uv Detection Fails on Apple Silicon Macs with Homebrew Installation
 
 **Date**: 2026-01-04
@@ -110,3 +117,9 @@ After the fix, verify by:
 ## Conclusion
 
 **Fix is required.** The `/opt/homebrew/bin/uv` path is missing from both files. This is a simple one-line addition to the path arrays. The same fix should also be applied to Bun detection paths for consistency.
+
+## 🔗 Связи
+
+- [[MOC - Memory]] — memory
+- [[000 - Map of Maps]] — Map of Maps
+

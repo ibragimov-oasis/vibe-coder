@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/mcp
+  - artifact/mcp-server
+  - source/mcp-servers
+---
+
 # 简介
 
 **OpenViking** 是一个开源的、专为 AI Agent 设计的上下文数据库。OpenViking 通过**文件系统范式**统一管理Agent 所需要的上下文（记忆、资源和技能），并实现上下文的**分层供给**与**自我迭代**，最终目标是降低 Agent 开发门槛，让开发者更专注于业务创新而非底层上下文管理。
@@ -113,3 +120,9 @@ OpenViking 内置了记忆自迭代闭环。在每次会话结束时，开发者
 - [架构详解](../concepts/01-architecture.md) - 理解系统设计
 - [上下文类型](../concepts/02-context-types.md) - 深入了解三种上下文
 - [检索机制](../concepts/07-retrieval.md) - 了解检索流程
+
+## 🔗 Связи
+
+- [[MOC - MCP Servers]] — mcp-servers
+- [[000 - Map of Maps]] — Map of Maps
+

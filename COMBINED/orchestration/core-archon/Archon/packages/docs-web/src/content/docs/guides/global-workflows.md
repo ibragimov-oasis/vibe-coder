@@ -7,6 +7,10 @@ audience: [user]
 status: current
 sidebar:
   order: 8
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-archon
 ---
 
 Workflows placed in `~/.archon/.archon/workflows/` are loaded globally -- they appear in
@@ -160,3 +164,10 @@ archon workflow run my-review
 4. **Check for name conflicts** -- If a repo-specific workflow has the same filename, it overrides the global one. The global version will not appear when you are in that repo.
 
 5. **Check ARCHON_HOME** -- If you have set `ARCHON_HOME` to a custom path, global workflows must be at `$ARCHON_HOME/.archon/workflows/`, not `~/.archon/.archon/workflows/`.
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/archon]] — Archon
+- [[000 - Map of Maps]] — Map of Maps
+

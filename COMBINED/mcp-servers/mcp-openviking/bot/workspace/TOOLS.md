@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/mcp
+  - artifact/mcp-server
+  - source/mcp-servers
+---
+
 # Available Tools
 
 **IMPORTANT: Always use OpenViking first for knowledge queries and memory storage**
@@ -200,3 +207,9 @@ write_file(
     content="# Heartbeat Tasks\n\n- [ ] Task 1\n- [ ] Task 2\n"
 )
 ```
+
+## 🔗 Связи
+
+- [[MOC - MCP Servers]] — mcp-servers
+- [[000 - Map of Maps]] — Map of Maps
+

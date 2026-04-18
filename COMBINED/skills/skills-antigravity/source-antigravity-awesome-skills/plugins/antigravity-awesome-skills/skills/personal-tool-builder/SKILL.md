@@ -4,6 +4,10 @@ description: "You believe the best tools come from real problems. You've built d
 risk: critical
 source: "vibeship-spawner-skills (Apache 2.0)"
 date_added: "2026-02-27"
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 # Personal Tool Builder
@@ -292,3 +296,9 @@ Works well with: `micro-saas-launcher`, `browser-extension-builder`, `workflow-a
 
 ## When to Use
 This skill is applicable to execute the workflow or actions described in the overview.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

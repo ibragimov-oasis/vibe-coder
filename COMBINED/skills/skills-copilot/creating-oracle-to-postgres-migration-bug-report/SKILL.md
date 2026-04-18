@@ -1,6 +1,10 @@
 ---
 name: creating-oracle-to-postgres-migration-bug-report
 description: 'Creates structured bug reports for defects found during Oracle-to-PostgreSQL migration. Use when documenting behavioral differences between Oracle and PostgreSQL as actionable bug reports with severity, root cause, and remediation steps.'
+tags:
+  - domain/agents
+  - artifact/skill
+  - source/skills-copilot
 ---
 
 # Creating Bug Reports for Oracle-to-PostgreSQL Migration
@@ -41,3 +45,10 @@ Use the template in [references/BUG-REPORT-TEMPLATE.md](references/BUG-REPORT-TE
 ## Filename Convention
 
 Save bug reports as `BUG_REPORT_<DescriptiveSlug>.md` where `<DescriptiveSlug>` is a short PascalCase identifier (e.g., `EmptyStringNullHandling`, `RefCursorUnwrapFailure`).
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-copilot]] — Category: skills-copilot
+- [[MOC - Agents]] — Copilot agents
+

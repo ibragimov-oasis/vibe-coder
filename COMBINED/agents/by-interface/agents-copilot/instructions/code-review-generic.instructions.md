@@ -2,6 +2,10 @@
 description: 'Generic code review instructions that can be customized for any project using GitHub Copilot'
 applyTo: '**'
 excludeAgent: ["coding-agent"]
+tags:
+  - domain/agents
+  - artifact/agent
+  - source/by-interface/agents-copilot
 ---
 
 # Generic Code Review Instructions
@@ -416,3 +420,9 @@ This is a generic template. Customize this section with your project-specific in
 - **Build Tool**: [e.g., Gradle, Maven, npm, pip]
 - **Testing**: [e.g., JUnit 5, Jest, pytest]
 - **Code Style**: [e.g., follows Google Style Guide]
+
+## 🔗 Связи
+
+- [[MOC - Agents]] — Agent catalog
+- [[agents/agents-copilot]] — Interface: agents-copilot
+

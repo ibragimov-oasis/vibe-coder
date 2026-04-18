@@ -8,6 +8,9 @@ metadata:
   hermes:
     tags: [jailbreak, red-teaming, G0DM0D3, Parseltongue, GODMODE, uncensoring, safety-bypass, prompt-engineering, L1B3RT4S]
     related_skills: [obliteratus]
+  - domain/skills
+  - artifact/skill
+  - source/skills-hermes
 ---
 
 # G0DM0D3 Jailbreaking Skill
@@ -401,3 +404,9 @@ Claude Sonnet 4 is robust against all current techniques for clearly harmful con
 10. **boundary_inversion is model-version specific** — Works on Claude 3.5 Sonnet but NOT Claude Sonnet 4 or Claude 4.6. The strategy order in auto_jailbreak tries it first for Claude models, but falls through to refusal_inversion when it fails. Update the strategy order if you know the model version.
 11. **Gray-area vs hard queries** — Jailbreak techniques work much better on "dual-use" queries (lock picking, security tools, chemistry) than on overtly harmful ones (phishing templates, malware). For hard queries, skip directly to ULTRAPLINIAN or use Hermes/Grok models that don't refuse.
 12. **execute_code sandbox has no env vars** — When Hermes runs auto_jailbreak via execute_code, the sandbox doesn't inherit `~/.hermes/.env`. Load dotenv explicitly: `from dotenv import load_dotenv; load_dotenv(os.path.expanduser("~/.hermes/.env"))`
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-hermes]] — Category: skills-hermes
+

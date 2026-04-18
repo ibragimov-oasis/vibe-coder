@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # 🌊 Claude-Flow v2.7.0: Enterprise AI Orchestration Platform
 
 <div align="center">
@@ -451,3 +458,9 @@ MIT License - see [LICENSE](./LICENSE) for details
 *v2.7.0-alpha.10 - Semantic Search Fixed + ReasoningBank Node.js Backend*
 
 </div>
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-ruflo]] — core-ruflo
+

@@ -297,3 +297,9 @@ The server-building part may be correct while the Hermes config is not. Load the
 ## References
 
 For CLI details, install targets, and deployment checks, read `references/fastmcp-cli.md`.
+
+## 🔗 Связи
+
+- [[000 - Map of Maps]] — REPO_DOCS
+- [[000 - Map of Maps]] — Map of Maps
+

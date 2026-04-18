@@ -4,6 +4,10 @@ description: "Automate Confluence page creation, content search, space managemen
 risk: critical
 source: community
 date_added: "2026-02-27"
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 # Confluence Automation via Rube MCP
@@ -209,3 +213,9 @@ Confluence uses two pagination styles:
 
 ## When to Use
 This skill is applicable to execute the workflow or actions described in the overview.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

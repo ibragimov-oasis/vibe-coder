@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-gsd
+---
+
 # GSD Architecture
 
 > System architecture for contributors and advanced users. For user-facing documentation, see [Feature Reference](FEATURES.md) or [User Guide](USER-GUIDE.md).
@@ -525,3 +532,10 @@ GSD supports 6 AI coding runtimes through a unified command/workflow architectur
 5. **Model references** — `inherit` profile lets GSD defer to runtime's model selection
 
 The installer handles all translation at install time. Workflows and agents are written in Claude Code's native format and transformed during deployment.
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-gsd]] — core-gsd
+- [[MOC - Skills]] — Skills library
+

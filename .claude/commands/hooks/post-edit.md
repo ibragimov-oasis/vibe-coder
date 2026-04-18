@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/command
+  - source/claude-commands
+---
+
 # hook post-edit
 
 Execute post-edit processing including formatting, validation, and memory updates.
@@ -115,3 +122,9 @@ Returns JSON with:
 - `Edit` - File editing tool
 - `memory usage` - Memory management
 - `neural train` - Pattern training
+
+## 🔗 Связи
+
+- [[MOC - System]] — System commands
+- [[MOC - Skills]] — Skills library
+

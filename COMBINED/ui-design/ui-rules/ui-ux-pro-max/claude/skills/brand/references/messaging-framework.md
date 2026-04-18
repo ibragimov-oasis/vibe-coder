@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/ui
+  - artifact/ui-component
+  - source/ui-design
+---
+
 # Messaging Framework
 
 ## Framework Structure
@@ -83,3 +90,9 @@ Each addresses a different benefit or audience need.
 3. Is it credible? (Can we prove it)
 4. Is it compelling? (Does audience care)
 5. Is it consistent? (Aligns with brand)
+
+## 🔗 Связи
+
+- [[MOC - UI Design]] — ui-design
+- [[000 - Map of Maps]] — Map of Maps
+

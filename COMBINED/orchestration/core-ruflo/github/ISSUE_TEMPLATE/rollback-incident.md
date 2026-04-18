@@ -4,6 +4,10 @@ about: Report an incident that requires or resulted from a rollback
 title: '🔄 Rollback Incident: [Brief Description]'
 labels: ['rollback', 'incident', 'high-priority']
 assignees: []
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
 ---
 
 ## 🔄 Rollback Incident Details
@@ -107,3 +111,10 @@ assignees: []
 
 **Rollback Artifacts:**
 <!-- Links to workflow runs, logs, or reports -->
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-ruflo]] — core-ruflo
+- [[MOC - Skills]] — Skills library
+

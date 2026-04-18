@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # 📊 Truth Command
 
 View truth scores and reliability metrics for your codebase and agent tasks.
@@ -141,3 +148,10 @@ Set truth display preferences in `.claude-flow/config.json`:
 - `verify` - Run verification checks
 - `pair` - Collaborative development with truth tracking
 - `report` - Generate detailed reports
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

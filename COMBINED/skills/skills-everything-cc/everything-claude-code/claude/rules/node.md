@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
+---
+
 # Node.js Rules for everything-claude-code
 
 > Project-specific rules for the ECC codebase. Extends common rules.
@@ -45,3 +52,9 @@
 - Skills: sections — When to Use, How It Works, Examples
 - Commands: `description:` frontmatter line required
 - Run `npx markdownlint-cli '**/*.md' --ignore node_modules` before committing
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

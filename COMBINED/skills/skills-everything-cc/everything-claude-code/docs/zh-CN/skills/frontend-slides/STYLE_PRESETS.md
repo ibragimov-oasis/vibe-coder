@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
+---
+
 # 样式预设参考
 
 为 `frontend-slides` 整理的视觉样式。
@@ -331,3 +338,9 @@ margin-left: calc(-1 * min(10vw, 100px));
 * Inter / Roboto / Arial 作为视觉声音，除非用户明确想要实用主义的中性风格
 * 要点堆砌、过小字体或需要滚动的代码块
 * 装饰性插图，当抽象几何形状能更好地完成工作时
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

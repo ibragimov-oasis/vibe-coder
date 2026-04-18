@@ -2,6 +2,10 @@
 sidebar_position: 3
 title: "Tutorial: Team Telegram Assistant"
 description: "Step-by-step guide to setting up a Telegram bot that your whole team can use for code help, research, system admin, and more"
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-hermes
 ---
 
 # Set Up a Team Telegram Assistant
@@ -439,3 +443,10 @@ You've got a working team Telegram assistant. Here are some next steps:
 ---
 
 *Questions or issues? Open an issue on GitHub — contributions are welcome.*
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/hermes]] — Hermes
+- [[000 - Map of Maps]] — Map of Maps
+

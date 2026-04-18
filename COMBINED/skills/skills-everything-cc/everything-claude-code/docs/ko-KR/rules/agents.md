@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
+---
+
 # 에이전트 오케스트레이션
 
 ## 사용 가능한 에이전트
@@ -50,3 +57,9 @@
 - 보안 전문가
 - 일관성 검토자
 - 중복 검사자
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

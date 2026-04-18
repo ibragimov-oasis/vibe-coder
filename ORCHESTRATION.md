@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/root
+---
+
 # ORCHESTRATION.md — Master Guide for AI Agent Orchestration
 
 > **Combined Orchestration Documentation**
@@ -449,3 +456,8 @@ npx get-shit-done-cc@latest
 *Combined from: ruflo, deer-flow, get-shit-done, oh-my-claudecode, superpowers*
 
 **Last Updated:** 2026-04-01
+
+## 🔗 Связи
+
+- [[000 - Map of Maps]] — Map of Maps
+

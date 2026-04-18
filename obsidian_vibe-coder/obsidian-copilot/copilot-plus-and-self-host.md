@@ -47,3 +47,9 @@ source: "../new_repos/obsidian-copilot/docs/copilot-plus-and-self-host.md"
 
 - [[obsidian-copilot/getting-started]] — начало работы
 - [[obsidian-copilot/troubleshooting-and-faq]] — помощь
+
+## 🔗 Связи
+
+- [[MOC - System]] — Parent MOC
+- [[000 - Map of Maps]] — Map of Maps
+

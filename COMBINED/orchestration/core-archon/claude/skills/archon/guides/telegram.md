@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-archon
+---
+
 # Telegram Bot Setup Guide
 
 ## 1. Create a Bot via BotFather
@@ -40,3 +47,10 @@ Send a message to your bot on Telegram:
 ```
 
 The bot should respond with available commands.
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/archon]] — Archon
+- [[000 - Map of Maps]] — Map of Maps
+

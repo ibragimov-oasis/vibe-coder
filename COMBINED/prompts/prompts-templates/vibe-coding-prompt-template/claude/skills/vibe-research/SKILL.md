@@ -2,6 +2,10 @@
 name: vibe-research
 description: Deep research and market validation for app ideas. Use when starting a new project, validating an idea, or when the user says "research my idea", "validate my app", or "help me start a new project".
 allowed-tools: Read, Write, Glob, Grep, WebSearch, WebFetch, AskUserQuestion
+tags:
+  - domain/prompts
+  - artifact/prompt
+  - source/prompts-templates
 ---
 
 # Vibe-Coding Deep Research
@@ -118,3 +122,9 @@ Tell the user:
 > Your research is saved to `docs/research-[AppName].txt`.
 >
 > **Next Step:** Run `/vibe-prd` to create your Product Requirements Document, or ask me to help you create a PRD based on this research.
+
+## 🔗 Связи
+
+- [[MOC - Prompts]] — Prompt library
+- [[MOC - System]] — System documentation
+

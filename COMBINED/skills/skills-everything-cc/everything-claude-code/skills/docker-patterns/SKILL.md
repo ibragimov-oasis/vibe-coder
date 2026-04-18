@@ -2,6 +2,10 @@
 name: docker-patterns
 description: Docker and Docker Compose patterns for local development, container security, networking, volume strategies, and multi-service orchestration.
 origin: ECC
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-everything-cc
 ---
 
 # Docker Patterns
@@ -362,3 +366,9 @@ docker network inspect <project>_default
 # BAD: Putting secrets in docker-compose.yml
 # Use .env files (gitignored) or Docker secrets
 ```
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

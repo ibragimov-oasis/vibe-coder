@@ -4,6 +4,10 @@ description: "Game development orchestrator. Routes to platform-specific skills 
 risk: unknown
 source: community
 date_added: "2026-02-27"
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 # Game Development
@@ -167,3 +171,9 @@ Abstract input into ACTIONS, not raw keys:
 ---
 
 > **Remember:** Great games come from iteration, not perfection. Prototype fast, then polish.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

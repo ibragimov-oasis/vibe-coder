@@ -1,4 +1,11 @@
 ---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
+---
 title: "Printing | Apple Developer Documentation"
 source: https://developer.apple.com/design/human-interface-guidelines/printing
 
@@ -47,4 +54,9 @@ An iOS, iPadOS, macOS, or visionOS app can integrate system-provided print funct
 [`UIPrintInteractionController`](https://developer.apple.com/documentation/UIKit/UIPrintInteractionController) — UIKit
 
 [`NSDocument`](https://developer.apple.com/documentation/AppKit/NSDocument) — AppKit
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
 

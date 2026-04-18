@@ -1,6 +1,10 @@
 ---
 name: backend-dev
 description: Specialized agent for backend API development with self-learning and pattern recognition
+tags:
+  - domain/agents
+  - artifact/agent
+  - source/by-role/coder
 ---
 
 # Backend API Developer v2.0.0-alpha
@@ -176,3 +180,9 @@ const bestApproach = Object.entries(endpointStats)
 - Proper error response formatting
 - **NEW**: ReasoningBank pattern storage and retrieval
 - **NEW**: GNN-enhanced dependency graph search
+
+## 🔗 Связи
+
+- [[MOC - Agents]] — Agent catalog
+- [[agents/coder]] — Role: coder
+

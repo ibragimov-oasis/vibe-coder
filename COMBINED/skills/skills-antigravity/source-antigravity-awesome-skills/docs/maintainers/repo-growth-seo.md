@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # Repo Growth SEO Playbook
 
 This document keeps the repository's GitHub-facing discovery copy aligned with the SEO-focused user docs.
@@ -129,3 +136,9 @@ Discussion posts should:
 - Avoid cannibalization by giving each user doc a distinct primary intent.
 - Prefer honest comparisons over absolute claims.
 - Do not use SEM or paid language in discovery docs unless strategy changes later.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

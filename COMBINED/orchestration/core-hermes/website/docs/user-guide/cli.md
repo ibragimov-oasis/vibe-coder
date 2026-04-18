@@ -2,6 +2,10 @@
 sidebar_position: 1
 title: "CLI Interface"
 description: "Master the Hermes Agent terminal interface — commands, keybindings, personalities, and more"
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-hermes
 ---
 
 # CLI Interface
@@ -347,3 +351,10 @@ For debug output:
 ```bash
 hermes chat --verbose
 ```
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/hermes]] — Hermes
+- [[000 - Map of Maps]] — Map of Maps
+

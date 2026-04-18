@@ -4,6 +4,10 @@ description: Analyzes multiple provided pages to identify keyword overlap and po
 risk: unknown
 source: community
 date_added: '2026-02-27'
+tags:
+  - domain/seo
+  - artifact/skill
+  - source/skills-seo
 ---
 
 ## Use this skill when
@@ -120,3 +124,9 @@ Resolution Strategy:
 - Add canonical tags
 
 Focus on clear differentiation. Each page should serve a unique purpose with distinct targeting.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-seo]] — Category: skills-seo
+

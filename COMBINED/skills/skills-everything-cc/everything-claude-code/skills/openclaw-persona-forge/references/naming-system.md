@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
+---
+
 # Step 4：锻造名字
 
 名字是灵魂的「第一句话」——还没开始对话，名字已经告诉你这是谁了。
@@ -37,3 +44,9 @@
 - 不要和常见工具/框架名冲突
 - 好记、好念、好打字
 - 名字读完就能猜到大致性格
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

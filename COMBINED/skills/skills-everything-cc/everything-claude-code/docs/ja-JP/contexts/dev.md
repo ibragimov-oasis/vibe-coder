@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
+---
+
 # 開発コンテキスト
 
 モード: アクティブ開発
@@ -18,3 +25,9 @@
 - コード変更には Edit、Write
 - テスト/ビルド実行には Bash
 - コード検索には Grep、Glob
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

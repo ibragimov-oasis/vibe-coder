@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/config
+  - source/workspace-config
+---
+
 # real-time-view
 
 Real-time view of swarm activity.
@@ -23,3 +30,9 @@ npx claude-flow monitoring real-time-view --filter errors
 # Highlight pattern
 npx claude-flow monitoring real-time-view --highlight "API"
 ```
+
+## 🔗 Связи
+
+- [[MOC - System]] — workspace-config
+- [[000 - Map of Maps]] — Map of Maps
+

@@ -3,6 +3,9 @@ title: Configure Step Retries for Transient Failures
 impact: HIGH
 impactDescription: Automatic retries handle transient failures without manual code
 tags: step, retry, exponential-backoff, resilience
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
 ---
 
 ## Configure Step Retries for Transient Failures
@@ -42,3 +45,9 @@ Retry parameters:
 With defaults, retry delays are: 1s, 2s, 4s, 8s, 16s...
 
 Reference: [Configurable Retries](https://docs.dbos.dev/python/tutorials/step-tutorial#configurable-retries)
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

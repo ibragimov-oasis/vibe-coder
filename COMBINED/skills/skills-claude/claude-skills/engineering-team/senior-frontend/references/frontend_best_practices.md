@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # Frontend Best Practices
 
 Modern frontend development standards for accessibility, testing, TypeScript, and Tailwind CSS.
@@ -804,3 +811,9 @@ export async function GET() {
   return Response.json(await response.json());
 }
 ```
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

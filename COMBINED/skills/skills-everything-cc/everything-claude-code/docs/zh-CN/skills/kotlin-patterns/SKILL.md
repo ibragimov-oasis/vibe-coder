@@ -2,6 +2,10 @@
 name: kotlin-patterns
 description: 惯用的Kotlin模式、最佳实践和约定，用于构建健壮、高效且可维护的Kotlin应用程序，包括协程、空安全和DSL构建器。
 origin: ECC
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-everything-cc
 ---
 
 # Kotlin 开发模式
@@ -712,3 +716,9 @@ user?.address?.city?.let { process(it) }
 ```
 
 **请记住**：Kotlin 代码应简洁但可读。利用类型系统确保安全，优先使用不可变性，并使用协程处理并发。如有疑问，让编译器帮助你。
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

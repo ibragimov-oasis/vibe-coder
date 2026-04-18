@@ -5,6 +5,10 @@ risk: unknown
 source: community
 version: 1.0.1
 license: MIT
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 # Expo UI Guidelines
@@ -321,3 +325,9 @@ export default function Layout({ segment }) {
   );
 }
 ```
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

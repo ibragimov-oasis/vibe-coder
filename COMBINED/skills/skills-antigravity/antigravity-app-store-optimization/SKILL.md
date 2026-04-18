@@ -4,6 +4,10 @@ description: "Complete App Store Optimization (ASO) toolkit for researching, opt
 risk: unknown
 source: community
 date_added: "2026-02-27"
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 # App Store Optimization (ASO) Skill
@@ -407,3 +411,9 @@ This skill is based on current Apple App Store and Google Play Store requirement
 
 ## When to Use
 This skill is applicable to execute the workflow or actions described in the overview.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

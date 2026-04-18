@@ -1,6 +1,10 @@
 ---
 name: postgresql-code-review
 description: 'PostgreSQL-specific code review assistant focusing on PostgreSQL best practices, anti-patterns, and unique quality standards. Covers JSONB operations, array usage, custom types, schema design, function optimization, and PostgreSQL-exclusive security features like Row Level Security (RLS).'
+tags:
+  - domain/agents
+  - artifact/skill
+  - source/skills-copilot
 ---
 
 # PostgreSQL Code Review Assistant
@@ -210,3 +214,10 @@ GRANT USAGE ON SEQUENCE specific_table_id_seq TO app_user;
 7. **Security Implementation**: Review PostgreSQL-specific security features
 
 Focus on PostgreSQL's unique capabilities and ensure the code leverages what makes PostgreSQL special rather than treating it as a generic SQL database.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-copilot]] — Category: skills-copilot
+- [[MOC - Agents]] — Copilot agents
+

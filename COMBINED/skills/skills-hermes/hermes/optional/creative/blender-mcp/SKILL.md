@@ -5,6 +5,9 @@ version: 1.0.0
 requires: Blender 4.3+ (desktop instance required, headless not supported)
 author: alireza78a
 tags: [blender, 3d, animation, modeling, bpy, mcp]
+  - domain/skills
+  - artifact/skill
+  - source/skills-hermes
 ---
 
 # Blender MCP
@@ -114,3 +117,9 @@ Use this inside execute_code tool calls:
 - Break complex scenes into multiple smaller execute_code calls to avoid timeouts
 - Render output path must be absolute (/tmp/...) not relative
 - shade_smooth() requires object to be selected and in object mode
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-hermes]] — Category: skills-hermes
+

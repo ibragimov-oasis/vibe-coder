@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-praisonai
+---
+
 # Changes to DB
 
 The following columns are renamed or modified between the first and second versions of the code:
@@ -19,3 +26,9 @@ Key changes:
 3. Some columns are removed (e.g., `metadata` in `elements`).
 
 These changes make the column names consistent and follow a specific naming convention.
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-praisonai]] — core-praisonai
+

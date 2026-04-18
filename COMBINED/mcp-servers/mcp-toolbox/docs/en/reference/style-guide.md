@@ -4,6 +4,10 @@ type: docs
 weight: 9
 description: >
   Style guidelines and best practices for developers building MCP tools using MCP Toolbox.
+tags:
+  - domain/mcp
+  - artifact/mcp-server
+  - source/mcp-servers
 ---
 
 This document provides style guidelines and best practices for developers building MCP tools using **MCP Toolbox**. Following these standards ensures that agents can reason effectively, security is maintained, and user intent is met with high precision.
@@ -122,3 +126,9 @@ Prevent context pollution when returning large lists by implementing strict limi
 ### Prevent Data Exfiltration
 
 Tools **MUST NOT** surface passwords or credentials in clear-text requests or responses.
+
+## 🔗 Связи
+
+- [[MOC - MCP Servers]] — mcp-servers
+- [[000 - Map of Maps]] — Map of Maps
+

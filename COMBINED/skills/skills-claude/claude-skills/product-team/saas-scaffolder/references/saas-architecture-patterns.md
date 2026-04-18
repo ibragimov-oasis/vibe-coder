@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # SaaS Architecture Patterns
 
 This reference outlines common architecture choices for SaaS products.
@@ -98,3 +105,9 @@ This reference outlines common architecture choices for SaaS products.
 - Soft-delete where recoverability matters.
 - Created/updated timestamps on all mutable entities.
 - Migration strategy supports zero-downtime changes.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

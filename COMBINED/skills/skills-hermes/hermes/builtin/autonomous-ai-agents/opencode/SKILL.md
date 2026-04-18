@@ -8,6 +8,9 @@ metadata:
   hermes:
     tags: [Coding-Agent, OpenCode, Autonomous, Refactoring, Code-Review]
     related_skills: [claude-code, codex, hermes-agent]
+  - domain/skills
+  - artifact/skill
+  - source/skills-hermes
 ---
 
 # OpenCode CLI
@@ -216,3 +219,9 @@ Success criteria:
 4. For long tasks, provide progress updates from `process` logs.
 5. Report concrete outcomes (files changed, tests, remaining risks).
 6. Exit interactive sessions with Ctrl+C or kill, never `/exit`.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-hermes]] — Category: skills-hermes
+

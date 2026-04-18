@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/reference
+  - source/reference
+---
+
 # Knative Istio Typesense GPU .cursorrules prompt file
 
 Author: Anonymous
@@ -13,4 +20,9 @@ Developers building AI-powered serverless applications would benefit from this p
 
 ## Overview of .cursorrules prompt
 The .cursorrules file outlines the roles and responsibilities of an AI programming assistant specializing in technologies such as Knative, Istio, Typesense, htmx, and GPU-accelerated applications. It provides guidelines for the assistant to offer expertise in various development aspects, including architecture design, implementation, and troubleshooting. The file details specific tasks related to Knative service management, Istio service mesh configuration, Typesense search optimization, frontend development improvements using HTMX, backend API integration, and performance testing and monitoring. Additionally, it emphasizes the importance of considering serverless architecture, scalability, performance, and user experience while providing advice and encourages adherence to best practices in cloud-native application development. The assistant is expected to guide the creation of robust, scalable, and efficient AI-powered search applications while prioritizing security, scalability, and maintainability.
+
+## 🔗 Связи
+
+- [[MOC - System]] — reference
+- [[000 - Map of Maps]] — Map of Maps
 

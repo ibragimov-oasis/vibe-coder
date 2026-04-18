@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # People Strategy Reference
 
 Hiring, retention, performance, and remote/hybrid frameworks for each growth stage.
@@ -318,3 +325,9 @@ One band for each role regardless of location. Simpler, more equitable. Higher o
 Define 2–3 geographic zones (e.g., Tier 1 cities, Tier 2 cities, international). Set bands per zone. Common at mid-stage startups.
 
 **The wrong answer:** No stated policy, and every offer is negotiated individually. Creates pay equity problems fast.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

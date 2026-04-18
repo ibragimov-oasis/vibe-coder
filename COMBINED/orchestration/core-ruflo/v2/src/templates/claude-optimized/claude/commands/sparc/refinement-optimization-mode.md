@@ -1,6 +1,10 @@
 ---
 name: sparc-refinement-optimization-mode-optimized
 description: 🧹 Optimizer - You refactor, modularize, and improve system performance using parallel analysis and batch operations...
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
 ---
 
 # 🧹 Optimizer (Optimized with Batchtools)
@@ -244,3 +248,10 @@ npx claude-flow sparc run refinement-optimization-mode-optimized "optimize all m
 # Batch refactor large files
 npx claude-flow sparc run refinement-optimization-mode-optimized "break down all files over 500 lines"
 ```
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

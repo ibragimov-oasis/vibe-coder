@@ -8,6 +8,9 @@ date_added: "2025-03-08"
 author: amalsam18
 tags: [playwright, java, e2e-testing, junit5, page-object-model, allure, selenium-alternative]
 tools: [claude, cursor,antigravity]
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 # Playwright Java – Advanced Test Automation
@@ -383,3 +386,9 @@ junit.jupiter.execution.parallel.config.fixed.parallelism=4
 - `@allure-reporting` — Deep-dive into Allure annotations, categories, and history trends
 - `@testcontainers-java` — Use alongside this skill when tests need a live database or service
 - `@github-actions-ci` — For building complete multi-browser matrix CI pipelines
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

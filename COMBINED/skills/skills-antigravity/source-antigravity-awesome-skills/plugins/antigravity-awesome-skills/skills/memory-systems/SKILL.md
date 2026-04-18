@@ -4,6 +4,10 @@ description: "Design short-term, long-term, and graph-based memory architectures
 risk: safe
 source: "https://github.com/muratcankoylan/Agent-Skills-for-Context-Engineering/tree/main/skills/memory-systems"
 date_added: "2026-02-27"
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 ## When to Use This Skill
@@ -226,3 +230,9 @@ External resources:
 **Last Updated**: 2025-12-20
 **Author**: Agent Skills for Context Engineering Contributors
 **Version**: 1.0.0
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

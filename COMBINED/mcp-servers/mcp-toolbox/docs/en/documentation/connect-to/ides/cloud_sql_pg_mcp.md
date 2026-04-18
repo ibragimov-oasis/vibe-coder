@@ -6,6 +6,10 @@ description: >
   Connect your IDE to Cloud SQL for Postgres using Toolbox.
 manualLink: "https://cloud.google.com/sql/docs/postgres/pre-built-tools-with-mcp-toolbox"
 manualLinkTarget: _blank
+tags:
+  - domain/mcp
+  - artifact/mcp-server
+  - source/mcp-servers
 ---
 
 <html>
@@ -20,3 +24,9 @@ manualLinkTarget: _blank
     </p>
   </body>
 </html>
+
+## 🔗 Связи
+
+- [[MOC - MCP Servers]] — mcp-servers
+- [[000 - Map of Maps]] — Map of Maps
+

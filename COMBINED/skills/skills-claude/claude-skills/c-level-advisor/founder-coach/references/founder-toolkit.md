@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # Founder Toolkit
 
 Practical tools for founder self-management and leadership development.
@@ -294,3 +301,9 @@ For when imposter syndrome hits. Keep a running file of:
 - Times you said no to something that would have hurt the company
 
 **When to read it:** When you're doubting yourself before a board meeting, a hard conversation, a big pitch. The feeling isn't fact. The evidence file is.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

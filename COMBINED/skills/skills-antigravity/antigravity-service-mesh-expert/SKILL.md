@@ -4,6 +4,10 @@ description: "Expert service mesh architect specializing in Istio, Linkerd, and 
 risk: safe
 source: community
 date_added: "2026-02-27"
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 # Service Mesh Expert
@@ -59,3 +63,9 @@ Expert service mesh architect specializing in Istio, Linkerd, and cloud-native n
 - Monitor mesh overhead (latency, resource usage)
 - Keep sidecar resources appropriately sized
 - Use destination rules for consistent load balancing
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

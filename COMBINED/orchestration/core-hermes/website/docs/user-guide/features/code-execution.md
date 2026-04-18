@@ -2,6 +2,10 @@
 sidebar_position: 8
 title: "Code Execution"
 description: "Sandboxed Python execution with RPC tool access — collapse multi-step workflows into a single turn"
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-hermes
 ---
 
 # Code Execution (Programmatic Tool Calling)
@@ -208,3 +212,10 @@ The script runs in a temporary directory that is cleaned up after execution. The
 ## Platform Support
 
 Code execution requires Unix domain sockets and is available on **Linux and macOS only**. It is automatically disabled on Windows — the agent falls back to regular sequential tool calls.
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/hermes]] — Hermes
+- [[000 - Map of Maps]] — Map of Maps
+

@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/mcp
+  - artifact/mcp-server
+  - source/mcp-servers
+---
+
 ![MCP Toolbox
 Logo](https://raw.githubusercontent.com/googleapis/genai-toolbox/main/logo.png)
 # MCP Toolbox SDKs for Python
@@ -82,3 +89,9 @@ Issues](https://github.com/googleapis/genai-toolbox/issues) for the main Toolbox
 project. If your issue is specific to one of the SDKs, please look for existing
 issues [here](https://github.com/googleapis/mcp-toolbox-sdk-python/issues) or
 open a new issue in this repository.
+
+## 🔗 Связи
+
+- [[MOC - MCP Servers]] — mcp-servers
+- [[000 - Map of Maps]] — Map of Maps
+

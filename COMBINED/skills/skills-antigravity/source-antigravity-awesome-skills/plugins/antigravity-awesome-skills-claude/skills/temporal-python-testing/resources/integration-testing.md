@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # Integration Testing with Mocked Activities
 
 Comprehensive patterns for testing workflows with mocked external dependencies, error injection, and complex scenarios.
@@ -453,3 +460,9 @@ def mock_inventory_service():
 - Mocking Strategies: docs.temporal.io/develop/python/testing-suite
 - pytest Best Practices: docs.pytest.org/en/stable/goodpractices.html
 - Python SDK Samples: github.com/temporalio/samples-python
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

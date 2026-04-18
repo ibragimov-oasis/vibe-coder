@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-taskmaster
+---
+
 # Task Master Documentation
 
 Welcome to the Task Master documentation. Use the links below to navigate to the information you need:
@@ -21,3 +28,9 @@ Welcome to the Task Master documentation. Use the links below to navigate to the
 ## Need More Help?
 
 If you can't find what you're looking for in these docs, please check the [main README](../README.md) or visit our [GitHub repository](https://github.com/eyaltoledano/claude-task-master).
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-taskmaster]] — core-taskmaster
+

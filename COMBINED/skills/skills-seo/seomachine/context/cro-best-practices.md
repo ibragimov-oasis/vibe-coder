@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/seo
+  - artifact/doc
+  - source/skills-seo
+---
+
 # CRO Best Practices for Landing Pages
 
 Conversion Rate Optimization guidelines for landing pages.
@@ -394,3 +401,9 @@ Every additional field reduces conversions by ~10%
 8. No risk reversal
 9. Mobile-unfriendly design
 10. Navigation that distracts from goal
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-seo]] — Category: skills-seo
+

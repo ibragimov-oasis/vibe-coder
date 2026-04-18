@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-squad
+---
+
 # SQLite StorageProvider sample
 
 This sample demonstrates `SQLiteStorageProvider` from `@bradygaster/squad-sdk` — a portable, single-file storage backend powered by [sql.js](https://github.com/nicolewhite/sql.js/) (SQLite compiled to WASM). No native dependencies required.
@@ -143,3 +150,9 @@ agents/flight/ entries: [charter.md]
 - See `InMemoryStorageProvider` for a zero-persistence alternative
 - See `FSStorageProvider` for traditional filesystem-backed storage
 - Check the [squad-sdk README](../../packages/squad-sdk/README.md) for more SDK features
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-squad]] — core-squad
+

@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-awesome-claude
+---
+
 # Comm Project Development Guide
 
 ## Build & Test Commands
@@ -46,3 +53,9 @@
 
 - Use consistent returns in functions
 - Handle all promise rejections
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-awesome-claude]] — Category: skills-awesome-claude
+

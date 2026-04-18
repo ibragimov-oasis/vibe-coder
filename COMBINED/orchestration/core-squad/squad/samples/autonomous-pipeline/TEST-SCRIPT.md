@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-squad
+---
+
 # TEST-SCRIPT.md — Autonomous Pipeline Demo Walkthrough
 
 > Step-by-step script for presenting the autonomous pipeline demo at MVP Summit.
@@ -114,3 +121,10 @@ npm test
 ```
 
 All tests validate SDK integration patterns — they don't require live Copilot access.
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/squad]] — Squad
+- [[000 - Map of Maps]] — Map of Maps
+

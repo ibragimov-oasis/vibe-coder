@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-hermes
+---
+
 # Quality Filtering Guide
 
 Complete guide to NeMo Curator's 30+ quality filters.
@@ -100,3 +107,9 @@ Full list of 30+ filters:
 2. **Tune thresholds on sample** - Test on 10k docs before full run
 3. **Use GPU classifiers sparingly** - Expensive but effective
 4. **Chain filters efficiently** - Order by cost (cheap → expensive)
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-hermes]] — Category: skills-hermes
+

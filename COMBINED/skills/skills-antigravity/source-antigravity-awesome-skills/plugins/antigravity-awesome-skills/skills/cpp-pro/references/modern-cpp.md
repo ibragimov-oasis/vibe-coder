@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # Modern C++20/23 Features
 
 ## Concepts and Constraints
@@ -302,3 +309,9 @@ struct std::formatter<Point> {
 | std::expected | - | - | ✓ |
 | std::print | - | - | ✓ |
 | Deducing this | - | - | ✓ |
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

@@ -2,6 +2,10 @@
 name: tdd-workflow
 description: 在编写新功能、修复错误或重构代码时使用此技能。强制执行测试驱动开发，确保单元测试、集成测试和端到端测试的覆盖率超过80%。
 origin: ECC
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-everything-cc
 ---
 
 # 测试驱动开发工作流
@@ -438,3 +442,9 @@ npm test && npm run lint
 ***
 
 **记住**：测试不是可选的。它们是安全网，能够实现自信的重构、快速的开发和生产的可靠性。
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

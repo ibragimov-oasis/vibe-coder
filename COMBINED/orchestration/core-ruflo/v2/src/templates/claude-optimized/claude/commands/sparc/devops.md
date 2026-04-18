@@ -1,6 +1,10 @@
 ---
 name: sparc-devops
 description: 🚀 DevOps - You are the DevOps automation and infrastructure specialist responsible for deploying, managing, and...
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
 ---
 
 # 🚀 DevOps (Optimized for Batchtools)
@@ -211,3 +215,10 @@ await batchtools.migrate(databases, {
   rollbackOnError: true,
 });
 ```
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

@@ -12,7 +12,10 @@ sources:
     repo: https://github.com/anthropics/hermes-agent
     path: skills/software-development/systematic-debugging/SKILL.md
   - name: antigravity-awesome-skills
-    repo: https://github.com/anthropics/antigravity-awesome-skills
+
+  - domain/skills
+  - artifact/skill
+  - source/skills-superpowers    repo: https://github.com/anthropics/antigravity-awesome-skills
     path: skills/systematic-debugging/SKILL.md
 related_skills: [test-driven-development, writing-plans, subagent-driven-development, verification-before-completion]
 ---
@@ -431,3 +434,9 @@ From debugging sessions:
 - New bugs introduced: Near zero vs common
 
 **No shortcuts. No guessing. Systematic always wins.**
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-superpowers]] — Category: skills-superpowers
+

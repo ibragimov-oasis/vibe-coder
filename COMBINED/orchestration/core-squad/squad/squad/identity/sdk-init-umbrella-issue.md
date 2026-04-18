@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-squad
+---
+
 ## SDK Init Shore-Up — Umbrella Issue
 
 **Consolidates:** #337, #338, #339, #340, #341, #342
@@ -42,3 +49,10 @@
 - Adding/removing members updates squad.config.ts automatically
 - CastingEngine templates used during init (not bypassed)
 - Test matrix at 90%+ verified features
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/squad]] — Squad
+- [[000 - Map of Maps]] — Map of Maps
+

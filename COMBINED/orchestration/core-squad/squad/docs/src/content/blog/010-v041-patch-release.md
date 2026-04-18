@@ -6,6 +6,9 @@ wave: 6
 tags: [squad, release, v0.4.1, patch, quality]
 status: published
 hero: "v0.4.1 lands five targeted fixes for logging, team setup, CLI UX, docs formatting, and blog chronology. Responsive to user feedback."
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-squad
 ---
 
 # v0.4.1: Quick Quality Patch
@@ -49,3 +52,10 @@ npx @bradygaster/create-squad upgrade
 ---
 
 Thanks to everyone who reported bugs. Your feedback shaped this release. 🚀
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/squad]] — Squad
+- [[000 - Map of Maps]] — Map of Maps
+

@@ -5,6 +5,10 @@ license: MIT
 metadata:
   author: Smit Patel (https://linkedin.com/in/smitkpatel)
   source: https://github.com/beingsmit/technical-product-gtm
+tags:
+  - domain/agents
+  - artifact/skill
+  - source/skills-copilot
 ---
 
 # Technical Product Pricing
@@ -351,3 +355,10 @@ Is value ratio > 5x for most customers?
 ---
 
 *Based on pricing work at developer platforms and enterprise software companies, including enterprise price increases with zero customer loss, freemium threshold design that separated hobbyists from production users, partner pricing models, and pricing conversations across hundreds of enterprise deal cycles. Not theory — patterns from pricing decisions that directly impacted revenue.*
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-copilot]] — Category: skills-copilot
+- [[MOC - Agents]] — Copilot agents
+

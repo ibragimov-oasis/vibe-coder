@@ -6,6 +6,9 @@ wave: null
 tags: [squad, azure-devops, ado, work-items, configuration]
 status: published
 hero: "Squad now adapts to your Azure DevOps process template. Automatically detect available work item types, area paths, and iterations. No more hardcoded defaults."
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-squad
 ---
 
 # ADO Configurable Work Items: Match Your Process
@@ -275,3 +278,10 @@ If config is missing or invalid:
 - [Persistent Ralph](/features/persistent-ralph) — Ralph creates work with your config
 - [Cross-Squad Orchestration](/features/cross-squad-orchestration) — Delegate work with correct types
 - [Generic Scheduler](/features/generic-scheduler) — Run ADO operations on schedule
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-squad]] — core-squad
+- [[MOC - Skills]] — Skills library
+

@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/reference
+  - source/reference
+---
+
 # TestRail Test Case Prompt
 
 A specialized .cursorrules prompt for creating standardized TestRail test cases with clear steps, expected results, and test data for efficient test management and execution.
@@ -33,3 +40,9 @@ The .cursorrules prompt guides users in creating effective TestRail test cases w
 - **TestRail Specifics**: Guidance on TestRail-specific fields and considerations
 - **Adaptability Guidance**: Advice for customizing test cases for different projects
 - **Table Format**: Clear presentation of steps and expected results in table format
+
+## 🔗 Связи
+
+- [[MOC - System]] — reference
+- [[000 - Map of Maps]] — Map of Maps
+

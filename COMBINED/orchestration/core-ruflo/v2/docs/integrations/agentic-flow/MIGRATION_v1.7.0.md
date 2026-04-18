@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # Migration Guide: agentic-flow v1.7.0
 
 **Upgrading from**: v1.6.x → v1.7.0
@@ -379,3 +386,10 @@ A: Yes! claude-flow automatically benefits via `"agentic-flow": "*"` dependency.
 ---
 
 **Happy upgrading! Enjoy 116x faster performance with zero code changes!** 🚀
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

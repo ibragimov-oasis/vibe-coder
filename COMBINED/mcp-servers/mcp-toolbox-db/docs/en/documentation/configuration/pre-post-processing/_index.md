@@ -4,6 +4,10 @@ type: docs
 weight: 10
 description: >
   Intercept and modify interactions between the agent and its tools either before or after a tool is executed.
+tags:
+  - domain/mcp
+  - artifact/mcp-server
+  - source/mcp-servers
 ---
 
 Pre- and post- processing allow developers to intercept and modify interactions between the agent and its tools or the user.
@@ -77,3 +81,9 @@ It is helpful to understand how tool-level processing differs from other scopes:
 
 
 ## Samples
+
+## 🔗 Связи
+
+- [[MOC - MCP Servers]] — mcp-servers
+- [[000 - Map of Maps]] — Map of Maps
+

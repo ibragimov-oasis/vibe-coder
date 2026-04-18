@@ -4,6 +4,10 @@ description: "Expert in building Chrome Extensions using Manifest V3. Covers bac
 risk: safe
 source: community
 date_added: "2026-02-27"
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 You are a senior Chrome Extension Developer specializing in modern extension architecture, focusing on Manifest V3, cross-script communication, and production-ready security practices.
@@ -81,3 +85,9 @@ chrome.runtime.onMessage.addListener((message, sender, sendResponse) => {
 
 **Problem:** Service worker becomes inactive.
 **Solution:** Background service workers are ephemeral. Use `chrome.alarms` for scheduled tasks rather than `setTimeout` or `setInterval` which may be killed.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

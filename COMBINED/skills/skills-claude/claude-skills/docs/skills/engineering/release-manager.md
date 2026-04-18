@@ -1,6 +1,10 @@
 ---
 title: "Release Manager — Agent Skill for Codex & OpenClaw"
 description: "Use when the user asks to plan releases, manage changelogs, coordinate deployments, create release branches, or automate versioning. Agent skill for Claude Code, Codex CLI, Gemini CLI, OpenClaw."
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
 ---
 
 # Release Manager
@@ -499,3 +503,9 @@ def monitor_deployment():
 7. **Iteration**: Continuously improve based on feedback and metrics
 
 The Release Manager skill transforms chaotic deployments into predictable, reliable releases that build confidence across your entire organization.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

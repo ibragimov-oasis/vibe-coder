@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # 📜 Sources & Attributions
 
 We believe in giving credit where credit is due.
@@ -153,3 +160,9 @@ The following skills were added during the March 2026 skills update:
 - **Code**: All original code in this repository is **MIT**.
 - **Content**: Documentation is **CC-BY-4.0**.
 - **Third Party**: We respect the upstream licenses. If an imported skill is GPL, it will be marked clearly or excluded (we aim for MIT/Apache compatibility).
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

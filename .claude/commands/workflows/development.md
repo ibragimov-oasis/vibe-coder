@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/command
+  - source/claude-commands
+---
+
 # Development Workflow Coordination
 
 ## Purpose
@@ -76,3 +83,9 @@ npx claude-flow workflow create --name "api-dev" --steps "design,implement,test,
 # Execute saved workflow
 npx claude-flow workflow execute api-dev
 ```
+
+## 🔗 Связи
+
+- [[MOC - System]] — System commands
+- [[MOC - Skills]] — Skills library
+

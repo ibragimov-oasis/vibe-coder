@@ -4,6 +4,10 @@ type: docs
 weight: 1
 description: >
   The "postgres-list-table-stats" tool reports table statistics including size, scan metrics, and bloat indicators for PostgreSQL tables.
+tags:
+  - domain/mcp
+  - artifact/mcp-server
+  - source/mcp-servers
 ---
 
 ## About
@@ -168,3 +172,9 @@ description: "Lists table statistics including size, scans, and bloat metrics."
 - Run `ANALYZE` on tables to update statistics for accurate query planning.
 - The tool defaults to limiting results to 50 rows; adjust the `limit` parameter for larger result sets.
 - Filtering by schema, table name, or owner uses `LIKE` pattern matching (supports partial matches).
+
+## 🔗 Связи
+
+- [[MOC - MCP Servers]] — mcp-servers
+- [[000 - Map of Maps]] — Map of Maps
+

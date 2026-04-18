@@ -3,6 +3,10 @@ name: chart-visualization
 description: This skill should be used when the user wants to visualize data. It intelligently selects the most suitable chart type from 26 available options, extracts parameters based on detailed specifications, and generates a chart image using a JavaScript script.
 dependency:
   nodejs: ">=18.0.0"
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/REPO_DOCS
 ---
 
 # Chart Visualization Skill
@@ -71,3 +75,9 @@ Detailed specifications for each chart type are located in the `references/` dir
 
 This `SKILL.md` is provided by [antvis/chart-visualization-skills](https://github.com/antvis/chart-visualization-skills).
 Licensed under the [MIT License](https://github.com/antvis/chart-visualization-skills/blob/master/LICENSE).
+
+## 🔗 Связи
+
+- [[000 - Map of Maps]] — REPO_DOCS
+- [[000 - Map of Maps]] — Map of Maps
+

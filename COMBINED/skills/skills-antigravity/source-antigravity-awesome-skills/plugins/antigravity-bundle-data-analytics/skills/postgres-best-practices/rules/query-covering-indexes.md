@@ -3,6 +3,9 @@ title: Use Covering Indexes to Avoid Table Lookups
 impact: MEDIUM-HIGH
 impactDescription: 2-5x faster queries by eliminating heap fetches
 tags: indexes, covering-index, include, index-only-scan
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
 ---
 
 ## Use Covering Indexes to Avoid Table Lookups
@@ -38,3 +41,9 @@ select status, customer_id, total from orders where status = 'shipped';
 ```
 
 Reference: [Index-Only Scans](https://www.postgresql.org/docs/current/indexes-index-only-scans.html)
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

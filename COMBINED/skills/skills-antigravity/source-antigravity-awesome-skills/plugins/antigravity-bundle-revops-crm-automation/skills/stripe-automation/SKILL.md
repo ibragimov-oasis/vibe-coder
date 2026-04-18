@@ -4,6 +4,10 @@ description: "Automate Stripe tasks via Rube MCP (Composio): customers, charges,
 risk: critical
 source: community
 date_added: "2026-02-27"
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 # Stripe Automation via Rube MCP
@@ -199,3 +203,9 @@ Stripe uses smallest currency unit:
 
 ## When to Use
 This skill is applicable to execute the workflow or actions described in the overview.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

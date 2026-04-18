@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-taskmaster
+---
+
 # Update Task Migration Plan
 
 ## Overview
@@ -1404,3 +1411,9 @@ task-master update-subtask --id=3.2 --prompt="..."  # Still works, calls update-
 - [ ] Documentation updated
 - [ ] No regression in existing functionality
 - [ ] Performance comparable or better than current implementation
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-taskmaster]] — core-taskmaster
+

@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-copilot
+---
+
 # Module 6: MCP Integration
 
 ## What is MCP?
@@ -48,3 +55,9 @@
 - Use environment variable references: `{{env.SECRET}}`
 - Review MCP server source before using
 - Only connect servers you actually need
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-copilot]] — Category: skills-copilot
+

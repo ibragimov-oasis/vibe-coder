@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-archon
+---
+
 # Ralph PRD Generator
 
 **Input**: $ARGUMENTS
@@ -389,3 +396,10 @@ INITIATE → FOUNDATION → UX/DESIGN → TECHNICAL → BREAKDOWN → GENERATE
 - **DEPENDENCIES_VALID**: Lower priority never depends on higher
 - **CRITERIA_VERIFIABLE**: All acceptance criteria are pass/fail
 - **READY_TO_RUN**: User can immediately start Ralph loop
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/archon]] — Archon
+- [[000 - Map of Maps]] — Map of Maps
+

@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # Problem Solving ReasoningBank Model
 
 **Pre-trained Model for General Reasoning, Critical Thinking, and Problem-Solving**
@@ -627,3 +634,9 @@ Part of the claude-flow ReasoningBank system. Pre-trained model available for us
 **Training Date**: 2025-10-15
 **Training Agent**: Problem Solving Training Agent
 **Quality Status**: ✅ All criteria met
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-ruflo]] — core-ruflo
+

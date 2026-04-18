@@ -49,7 +49,11 @@ Every platform supports basic gestures like tap, swipe, and drag. Although the p
 
 In addition to the [standard gestures](https://developer.apple.com/design/human-interface-guidelines/gestures#Standard-gestures) supported in all platforms, iOS and iPadOS support a few other gestures that people expect.
 
-Gesture| Common action  
+Gesture| Common action
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
 ---|---  
 Three-finger swipe| Initiate undo (left swipe); initiate redo (right swipe).  
 Three-finger pinch| Copy selected text (pinch in); paste copied text (pinch out).  
@@ -204,5 +208,10 @@ Date| Changes
 ---|---  
 September 9, 2024| Added guidance for working with system overlays in visionOS and made organizational updates.  
 September 15, 2023| Updated specifications to include double tap in watchOS.  
-June 21, 2023| Changed page title from Touchscreen gestures and updated to include guidance for visionOS.  
-  
+June 21, 2023| Changed page title from Touchscreen gestures and updated to include guidance for visionOS.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # Sections
 
 This file defines all sections, their ordering, impact levels, and descriptions.
@@ -44,3 +51,9 @@ The section ID (in parentheses) is the filename prefix used to group rules.
 
 **Impact:** LOW  
 **Description:** Advanced patterns for specific cases that require careful implementation.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

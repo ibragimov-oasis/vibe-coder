@@ -2,6 +2,10 @@
 name: database-migration
 description: Workflow command scaffold for database-migration in everything-claude-code.
 allowed_tools: ["Bash", "Read", "Write", "Grep", "Glob"]
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
 ---
 
 # /database-migration
@@ -34,3 +38,9 @@ Database schema changes with migration files
 
 - Treat this as a scaffold, not a hard-coded script.
 - Update the command if the workflow evolves materially.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

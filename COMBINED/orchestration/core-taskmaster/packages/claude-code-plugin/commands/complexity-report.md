@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-taskmaster
+---
+
 Display the task complexity analysis report.
 
 Arguments: $ARGUMENTS
@@ -115,3 +122,10 @@ After viewing:
 /taskmaster:expand 5
 → Expand high-complexity task
 ```
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/task-master]] — Task-Master
+- [[000 - Map of Maps]] — Map of Maps
+

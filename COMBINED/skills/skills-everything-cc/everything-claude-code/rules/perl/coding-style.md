@@ -5,6 +5,10 @@ paths:
   - "**/*.t"
   - "**/*.psgi"
   - "**/*.cgi"
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
 ---
 # Perl Coding Style
 
@@ -44,3 +48,9 @@ perlcritic --severity 3 --theme 'core || pbp || security' lib/
 ## Reference
 
 See skill: `perl-patterns` for comprehensive modern Perl idioms and best practices.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

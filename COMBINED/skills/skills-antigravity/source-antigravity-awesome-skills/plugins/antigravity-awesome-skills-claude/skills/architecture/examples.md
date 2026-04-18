@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # Architecture Examples
 
 > Real-world architecture decisions by project type.
@@ -92,3 +99,9 @@ Operational Requirements:
   - Circuit breakers (Resilience4j)
   - Kubernetes/Helm
 ```
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

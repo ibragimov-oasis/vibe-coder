@@ -2,6 +2,10 @@
 name: clickhouse-io
 description: ClickHouse数据库模式、查询优化、分析以及高性能分析工作负载的数据工程最佳实践。
 origin: ECC
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-everything-cc
 ---
 
 # ClickHouse 分析模式
@@ -443,3 +447,9 @@ pgClient.on('notification', async (msg) => {
 * 查看慢查询日志
 
 **记住**: ClickHouse 擅长分析工作负载。根据查询模式设计表，批量插入，并利用物化视图进行实时聚合。
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

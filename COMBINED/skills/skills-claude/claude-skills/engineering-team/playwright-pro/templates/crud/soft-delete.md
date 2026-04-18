@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # Soft Delete (Archive/Restore) Template
 
 Tests archiving an entity, viewing archived items, and restoring them.
@@ -111,3 +118,9 @@ test.describe('Soft Delete — Archive & Restore', () => {
 | Active list clean | Archived items hidden from default view |
 | Edit disabled | Archived entity cannot be edited |
 | Permanent delete | Hard-delete of archived entity |
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

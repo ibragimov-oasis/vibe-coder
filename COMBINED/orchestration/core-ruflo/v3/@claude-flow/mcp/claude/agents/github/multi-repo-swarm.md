@@ -30,6 +30,10 @@ hooks:
     - "gh pr list --state open --limit 5 | grep -q . && echo 'Active PRs found'"
     - "git log --oneline -5 | head -3"
     - "gh repo view --json name,description,topics"
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
 ---
 
 # Multi-Repo Swarm - Cross-Repository Swarm Orchestration
@@ -551,3 +555,10 @@ npx claude-flow@v3alpha github cross-team \
 ```
 
 See also: [swarm-pr.md](./swarm-pr.md), [project-board-sync.md](./project-board-sync.md)
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

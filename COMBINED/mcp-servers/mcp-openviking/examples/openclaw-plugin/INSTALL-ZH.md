@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/mcp
+  - artifact/mcp-server
+  - source/mcp-servers
+---
+
 # 为 OpenClaw 安装 OpenViking 记忆功能
 
 通过 [OpenViking](https://github.com/volcengine/OpenViking) 为 [OpenClaw](https://github.com/openclaw/openclaw) 提供长效记忆能力。安装完成后，OpenClaw 将自动**记住**对话中的重要信息，并在回复前**回忆**相关内容。OpenViking 最新版本发布了 [WebConsole](https://github.com/volcengine/OpenViking/tree/main/openviking/console)，方便调试和运维。文档方式三也提供了如何在 WebConsole 界面验证记忆写入的说明，欢迎试用和反馈。
@@ -560,3 +567,9 @@ python3 -m pip uninstall openviking -y && rm -rf ~/.openviking
 ---
 
 **另见：** [INSTALL.md](./INSTALL.md)（English） · [INSTALL-AGENT.md](./INSTALL-AGENT.md)（Agent Install Guide）
+
+## 🔗 Связи
+
+- [[MOC - MCP Servers]] — mcp-servers
+- [[000 - Map of Maps]] — Map of Maps
+

@@ -1,6 +1,10 @@
 ---
 name: daily-prep
 description: 'Prepare for tomorrow''s meetings and tasks. Pulls calendar from Outlook via WorkIQ, cross-references open tasks and workspace context, classifies meetings, detects conflicts and day-fit issues, finds learning and deep-work slots, and generates a structured HTML prep file with productivity recommendations.'
+tags:
+  - domain/agents
+  - artifact/skill
+  - source/skills-copilot
 ---
 
 # Daily Prep
@@ -153,3 +157,10 @@ If a file already exists for that date, read it first and update rather than ove
 - **WorkIQ MCP tool** must be available for calendar access (Microsoft 365 / Outlook)
 - A workspace with task files and customer/project folders for context enrichment
 - Output is self-contained HTML — no external dependencies
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-copilot]] — Category: skills-copilot
+- [[MOC - Agents]] — Copilot agents
+

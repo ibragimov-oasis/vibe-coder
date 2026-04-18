@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/new_repos
+---
+
 # Embeds Reference
 
 ## Embed Notes
@@ -61,3 +68,8 @@ Where the list has a block ID:
 tag:#project status:done
 ```
 ````
+
+## 🔗 Связи
+
+- [[000 - Map of Maps]] — Map of Maps
+

@@ -1,5 +1,9 @@
 ---
 tagline: "Tone down designs that are shouting without losing their intent."
+tags:
+  - domain/ui
+  - artifact/ui-component
+  - source/ui-design
 ---
 
 ## When to use it
@@ -38,3 +42,9 @@ Typical diff:
 - **Over-applying.** Quieter can strip personality if you run it on something that was already measured. Use it when the design is too loud, not when it is correctly assertive.
 - **Confusing quieter with distill.** Quieter reduces intensity. Distill removes elements. They are different moves.
 - **Running it in response to a critique that says "too busy".** Busy usually means too many things, not too loud. Try `/distill` first.
+
+## 🔗 Связи
+
+- [[MOC - UI Design]] — ui-design
+- [[000 - Map of Maps]] — Map of Maps
+

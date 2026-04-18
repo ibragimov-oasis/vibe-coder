@@ -2,6 +2,10 @@
 name: signup-flow-cro
 version: 1.0.0
 description: When the user wants to optimize signup, registration, account creation, or trial activation flows. Also use when the user mentions "signup conversions," "registration friction," "signup form optimization," "free trial signup," "reduce signup dropoff," or "account creation flow." For post-signup onboarding, see onboarding-cro. For lead capture forms (not account creation), see form-cro.
+tags:
+  - domain/seo
+  - artifact/skill
+  - source/skills-seo
 ---
 
 # Signup Flow CRO
@@ -356,3 +360,9 @@ Organized by:
 - **form-cro**: For non-signup forms (lead capture, contact)
 - **page-cro**: For the landing page leading to signup
 - **ab-test-setup**: For testing signup flow changes
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-seo]] — Category: skills-seo
+

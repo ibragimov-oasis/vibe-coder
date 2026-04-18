@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # NPM Publish Guide - Claude Flow v2.7.33
 
 **Date**: 2025-11-12
@@ -626,3 +633,10 @@ If issues arise during publishing:
 **Risk Level**: ✅ MINIMAL (100% backward compatible)
 
 Good luck with the release! 🚀
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-ruflo]] — core-ruflo
+- [[MOC - Skills]] — Skills library
+

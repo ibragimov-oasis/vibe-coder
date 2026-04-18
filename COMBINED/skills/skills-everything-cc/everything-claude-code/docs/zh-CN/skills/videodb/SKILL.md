@@ -4,6 +4,10 @@ description: 视频与音频的查看、理解与行动。查看：从本地文�
 origin: ECC
 allowed-tools: Read Grep Glob Bash(python:*)
 argument-hint: "[task description]"
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-everything-cc
 ---
 
 # VideoDB 技能
@@ -384,3 +388,9 @@ recent_visual = [
 请使用上面的本地副本，而不是在运行时遵循外部存储库链接。
 
 **维护者：** [VideoDB](https://www.videodb.io/)
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

@@ -1,5 +1,9 @@
 ---
 description: Answer a quick side question without interrupting or losing context from the current task. Resume work automatically after answering.
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
 ---
 
 # Aside Command
@@ -162,3 +166,9 @@ WARNING: Note: This could affect the feature we're building. Want to address thi
 - Keep answers focused: the goal is to unblock the user quickly, not to deliver a lecture
 - If an aside sparks a larger discussion, finish the current task first unless the aside reveals a blocker
 - Asides are not saved to session files unless explicitly relevant to the task outcome
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

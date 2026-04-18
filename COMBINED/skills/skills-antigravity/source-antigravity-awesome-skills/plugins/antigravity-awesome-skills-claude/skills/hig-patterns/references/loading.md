@@ -52,8 +52,17 @@ If your app or game loads assets, levels, or other content, design the behavior 
 
 ## [Change log](https://developer.apple.com/design/human-interface-guidelines/loading#Change-log)
 
-Date| Changes  
+Date| Changes
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
 ---|---  
 June 9, 2025| Revised guidance for storing downloads to reflect downloading large assets in the background.  
-June 10, 2024| Added guidelines for showing progress and storing downloads, and enhanced guidance for games.  
-  
+June 10, 2024| Added guidelines for showing progress and storing downloads, and enhanced guidance for games.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

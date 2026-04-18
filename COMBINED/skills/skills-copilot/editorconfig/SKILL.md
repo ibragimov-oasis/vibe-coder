@@ -1,6 +1,10 @@
 ---
 name: editorconfig
 description: 'Generates a comprehensive and best-practice-oriented .editorconfig file based on project analysis and user preferences.'
+tags:
+  - domain/agents
+  - artifact/skill
+  - source/skills-copilot
 ---
 
 ## 📜 MISSION
@@ -61,3 +65,10 @@ trim_trailing_whitespace = false
 - `insert_final_newline = true`: This ensures that every file ends with a single newline character, a POSIX standard that prevents certain scripting and concatenation issues.
 - `[*.md]`: This glob pattern applies specific rules only to Markdown files.
 - `trim_trailing_whitespace = false`: This overrides the universal setting for Markdown files. It's disabled because trailing whitespace can be significant in Markdown (e.g., for creating hard line breaks).
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-copilot]] — Category: skills-copilot
+- [[MOC - Agents]] — Copilot agents
+

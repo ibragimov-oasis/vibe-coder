@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-hermes
+---
+
 # Pricing Accuracy Architecture
 
 Date: 2026-03-16
@@ -606,3 +613,10 @@ That path cannot satisfy the product requirement. Hermes should instead migrate 
 - explicit certainty states in the UI
 
 This is the minimum architecture that makes the statement "Hermes pricing is backed by official sources where possible, and otherwise clearly labeled" defensible.
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-hermes]] — core-hermes
+- [[MOC - Skills]] — Skills library
+

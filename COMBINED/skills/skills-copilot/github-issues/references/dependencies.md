@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-copilot
+---
+
 # Issue Dependencies (Blocked By / Blocking)
 
 Dependencies let you mark that an issue is blocked by another issue. This creates a formal dependency relationship visible in the UI and trackable via API. No MCP tools exist for dependencies; use REST or GraphQL directly.
@@ -69,3 +76,9 @@ Task-list tracking relationships are available via GraphQL as read-only fields:
 - `trackedInIssues(first: N)` - issues whose task lists reference this issue
 
 These are set automatically when issues are referenced in task lists (`- [ ] #123`). There are no mutations to manage them.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-copilot]] — Category: skills-copilot
+

@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
+---
+
 # Phase 1 Issue Bundle — March 12, 2026
 
 ## Status
@@ -270,3 +277,9 @@ Define a repo-wide policy for:
 - The policy clearly states what is publishable vs local-only
 - Follow-on implementation work is split into concrete, bounded PR-sized steps
 ```
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

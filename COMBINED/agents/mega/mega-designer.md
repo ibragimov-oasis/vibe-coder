@@ -12,6 +12,10 @@ tools:
   - mcp__lightpanda
   - mcp__nano-banana
   - mcp__gitnexus
+tags:
+  - domain/agents
+  - artifact/mega-agent
+  - source/mega
 ---
 
 <role>
@@ -335,3 +339,10 @@ Before delivering ANY UI work:
 - [ ] Color is not the only indicator
 - [ ] Reduced motion and dynamic text supported
 </pre_delivery_checklist>
+
+## 🔗 Связи
+
+- [[MOC - Agents]] — Agent catalog
+- [[agents/mega-designer]] — Vault entry
+- [[MOC - Skills]] — Skills library
+

@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/prompts
+  - artifact/prompt
+  - source/prompts-leaked
+---
+
 Source: Claude Code (Desktop App - Code Mode) system prompt, captured 2026-02-21
 Model: Claude Opus 4.6 (claude-opus-4-6)
 
@@ -1079,3 +1086,9 @@ I've found the recent article 'The Rising Tide: Sustainable Fisheries Management
 `</response>`
 `</example>`
 `</copyright_examples>`
+
+## 🔗 Связи
+
+- [[MOC - Prompts]] — Prompt library
+- [[MOC - System]] — System documentation
+

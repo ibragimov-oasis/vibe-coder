@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-background-agents
+---
+
 # Getting Started with Open-Inspect
 
 This guide walks you through deploying your own instance of Open-Inspect using Terraform.
@@ -785,3 +792,10 @@ For details on the infrastructure components, see:
 - [terraform/README.md](../terraform/README.md) - Terraform module documentation
 - [README.md](../README.md) - System architecture overview
 - [OPENAI_MODELS.md](OPENAI_MODELS.md) - Configuring OpenAI Codex models
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-background-agents]] — core-background-agents
+- [[MOC - Skills]] — Skills library
+

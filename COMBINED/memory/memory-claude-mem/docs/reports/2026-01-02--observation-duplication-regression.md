@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/memory
+  - artifact/memory
+  - source/memory
+---
+
 # Observation Duplication Regression - 2026-01-02
 
 ## Executive Summary
@@ -397,3 +404,9 @@ This script identifies duplicates by `(memory_session_id, title, subtitle, type)
 - Related commit: `776f4ea` "Refactor hooks to streamline error handling"
 - Cleanup script: `/Users/alexnewman/Scripts/claude-mem/src/bin/cleanup-duplicates.ts`
 - Related report: `docs/reports/2026-01-02--stuck-observations.md`
+
+## 🔗 Связи
+
+- [[MOC - Memory]] — memory
+- [[000 - Map of Maps]] — Map of Maps
+

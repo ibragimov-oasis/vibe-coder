@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-data-analysis
+---
+
 # generate_violin_chart — 小提琴图
 
 ## 功能概述
@@ -23,3 +30,9 @@
 
 ## 返回结果
 - 返回小提琴图 URL，并在 `_meta.spec` 中保留配置。
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-data-analysis]] — Category: skills-data-analysis
+

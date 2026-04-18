@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # Launch Checklists
 
 GTM launch playbooks for Tier 1, 2, and 3 product releases.
@@ -331,3 +338,9 @@ NEXT STEPS:
 1. [Action item] - Owner - Due date
 2. [Action item] - Owner - Due date
 ```
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

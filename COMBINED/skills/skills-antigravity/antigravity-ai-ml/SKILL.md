@@ -5,6 +5,10 @@ category: workflow-bundle
 risk: safe
 source: personal
 date_added: "2026-02-27"
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 # AI/ML Workflow Bundle
@@ -250,3 +254,9 @@ Use @evaluation to create evaluation framework
 - `database` - Data management
 - `cloud-devops` - Infrastructure
 - `testing-qa` - AI testing
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

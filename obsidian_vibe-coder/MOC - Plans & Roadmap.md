@@ -64,3 +64,8 @@ type: moc
 
 - [[MOC - System]] — Архитектура системы
 - [[000 - Map of Maps]] — Главная карта
+
+## 🔗 Связи
+
+- [[000 - Map of Maps]] — Map of Maps
+

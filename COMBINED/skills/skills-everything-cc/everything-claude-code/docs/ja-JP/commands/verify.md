@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
+---
+
 # 検証コマンド
 
 現在のコードベースの状態に対して包括的な検証を実行します。
@@ -57,3 +64,9 @@ $ARGUMENTS は以下のいずれか:
 - `full` - すべてのチェック（デフォルト）
 - `pre-commit` - コミットに関連するチェック
 - `pre-pr` - 完全なチェック + セキュリティスキャン
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

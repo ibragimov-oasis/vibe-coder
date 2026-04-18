@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/command
+  - source/claude-commands
+---
+
 # agent-coordination
 
 Coordination patterns for multi-agent collaboration.
@@ -26,3 +33,9 @@ npx claude-flow swarm init --topology adaptive
 - Use hierarchical for complex projects
 - Use mesh for research tasks
 - Use adaptive for unknown workloads
+
+## 🔗 Связи
+
+- [[MOC - System]] — System commands
+- [[MOC - Skills]] — Skills library
+

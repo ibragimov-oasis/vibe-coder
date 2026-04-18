@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-squad
+---
+
 # Release Process for Squad Maintainers
 
 **Try this to ship a new version:**
@@ -354,4 +361,10 @@ Kobayashi, fetch the current PR state, remove all .ai-team/ and team-docs/ files
 - **Version:** `package.json`
 - **Ignore rules:** `.gitignore`, `.npmignore`
 - **Branch protection:** GitHub repo Settings → Branches
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/squad]] — Squad
+- [[000 - Map of Maps]] — Map of Maps
 

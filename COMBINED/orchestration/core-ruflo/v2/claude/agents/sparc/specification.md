@@ -19,6 +19,10 @@ hooks:
   post: |
     echo "✅ Specification phase complete"
     memory_store "spec_complete_$(date +%s)" "Specification documented"
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
 ---
 
 # SPARC Specification Agent
@@ -274,3 +278,10 @@ Before completing specification:
 6. **Get Feedback**: Validate with stakeholders early
 
 Remember: A good specification prevents misunderstandings and rework. Time spent here saves time in implementation.
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

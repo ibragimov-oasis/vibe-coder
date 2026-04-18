@@ -12,6 +12,10 @@ tools:
   - mcp__supermemory
   - mcp__openviking
   - mcp__gitnexus
+tags:
+  - domain/skills
+  - artifact/config
+  - source/.claude
 ---
 
 <role>
@@ -281,3 +285,9 @@ mcp lightpanda navigate "<result_url>"
 | 1 | {title} | {URL/file} | {S/A/B/C/D} | {HIGH/MED/LOW} |
 ```
 </report_format>
+
+## 🔗 Связи
+
+- [[MOC - System]] — System
+- [[000 - Map of Maps]] — Map of Maps
+

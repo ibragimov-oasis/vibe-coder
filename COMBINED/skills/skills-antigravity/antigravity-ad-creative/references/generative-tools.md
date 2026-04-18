@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # Generative AI Tools for Ad Creative
 
 Reference for using AI image generators, video generators, and code-based video tools to produce ad visuals at scale.
@@ -635,3 +642,9 @@ When generating images for ads, request the correct dimensions:
 | Twitter/X Card | Landscape | 1.91:1 | 800x418 |
 
 Include these dimensions in your generation prompts to avoid needing to crop or resize.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

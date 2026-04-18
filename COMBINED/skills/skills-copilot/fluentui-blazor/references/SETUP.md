@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-copilot
+---
+
 # Setup and Configuration
 
 ## NuGet Packages
@@ -127,3 +134,9 @@ Services automatically registered by `AddFluentUIComponents()`:
 | `IKeyCodeService` | `KeyCodeService` | Keyboard shortcuts (needs `FluentKeyCodeProvider`) |
 | `IMenuService` | `MenuService` | Context menus |
 | `ITooltipService` | `TooltipService` | Tooltips (needs `FluentTooltipProvider`, opt-in via `UseTooltipServiceProvider`) |
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-copilot]] — Category: skills-copilot
+

@@ -3,6 +3,10 @@ name: planner
 description: Karmaşık özellikler ve yeniden yapılandırma için uzman planlama specialisti. Kullanıcılar özellik uygulaması, mimari değişiklikler veya karmaşık yeniden yapılandırma talep ettiğinde PROAKTİF olarak kullanın. Planlama görevleri için otomatik olarak aktive edilir.
 tools: ["Read", "Grep", "Glob"]
 model: opus
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
 ---
 
 Kapsamlı ve eyleme geçirilebilir uygulama planları oluşturmaya odaklanan uzman bir planlama specialistisiniz.
@@ -210,3 +214,9 @@ Her faz bağımsız olarak birleştirilebilir olmalı. Herhangi bir şey çalı�
 - Bağımsız olarak teslim edilemeyen fazlar
 
 **Unutmayın**: Harika bir plan spesifik, eyleme geçirilebilir ve hem mutlu yolu hem de uç durumları dikkate alır. En iyi planlar, kendinden emin, artımlı uygulamayı mümkün kılar.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

@@ -1,6 +1,10 @@
 ---
 name: cosmosdb-datamodeling
 description: 'Step-by-step guide for capturing key application requirements for NoSQL use-case and produce Azure Cosmos DB Data NoSQL Model design using best practices and common patterns, artifacts_produced: "cosmosdb_requirements.md" file and "cosmosdb_data_model.md" file'
+tags:
+  - domain/agents
+  - artifact/skill
+  - source/skills-copilot
 ---
 
 # Azure Cosmos DB NoSQL Data Modeling Expert System Prompt
@@ -1043,3 +1047,10 @@ Container-level TTL configuration:
 ```
 
 The `ttl` property on individual documents overrides the container default, providing flexible expiration policies per document type.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-copilot]] — Category: skills-copilot
+- [[MOC - Agents]] — Copilot agents
+

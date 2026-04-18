@@ -3,6 +3,9 @@ title: Configure and Launch DBOS Properly
 impact: CRITICAL
 impactDescription: Application won't function without proper setup
 tags: configuration, launch, setup, initialization
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
 ---
 
 ## Configure and Launch DBOS Properly
@@ -72,3 +75,9 @@ if __name__ == "__main__":
 ```
 
 Reference: [DBOS Configuration](https://docs.dbos.dev/python/reference/configuration)
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

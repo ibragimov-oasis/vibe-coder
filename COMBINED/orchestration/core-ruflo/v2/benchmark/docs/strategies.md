@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # Swarm Strategies Guide
 
 This guide provides detailed information about each of the 7 swarm strategies available in the benchmarking tool.
@@ -369,3 +376,10 @@ swarm-benchmark run "Task" \
 6. **Customize parameters** - Fine-tune for your specific needs
 
 Remember: The best strategy depends on your specific requirements. Benchmark different approaches to find what works best!
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

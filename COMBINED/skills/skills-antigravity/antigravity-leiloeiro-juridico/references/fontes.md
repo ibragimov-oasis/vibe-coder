@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # Fontes e Referências — Leiloeiro Jurídico
 
 ## Legislação Principal
@@ -15,3 +22,9 @@
 - Súmula 308, 364, 478
 - REsp 1.582.489 — Vil preço
 - Tema 1.113 — ITBI
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

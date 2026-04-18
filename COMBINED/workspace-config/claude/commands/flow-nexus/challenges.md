@@ -1,6 +1,10 @@
 ---
 name: flow-nexus-challenges
 description: Coding challenges, achievements, and leaderboards
+tags:
+  - domain/skills
+  - artifact/config
+  - source/workspace-config
 ---
 
 # Flow Nexus Challenges
@@ -118,3 +122,9 @@ mcp__flow-nexus__app_store_earn_ruv({
 3. Optimize for both correctness and speed
 4. Complete daily challenges for bonus credits
 5. Unlock achievements for extra rewards
+
+## 🔗 Связи
+
+- [[MOC - System]] — workspace-config
+- [[000 - Map of Maps]] — Map of Maps
+

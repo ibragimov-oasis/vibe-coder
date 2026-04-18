@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # hive-mind-init
 
 Initialize the Hive Mind collective intelligence system.
@@ -16,3 +23,10 @@ npx claude-flow hive-mind init [options]
 npx claude-flow hive-mind init
 npx claude-flow hive-mind init --force
 ```
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

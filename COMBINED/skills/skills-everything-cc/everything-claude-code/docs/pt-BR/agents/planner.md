@@ -3,6 +3,10 @@ name: planner
 description: Especialista em planejamento para funcionalidades complexas e refatorações. Use PROATIVAMENTE quando usuários solicitam implementação de funcionalidades, mudanças arquiteturais ou refatorações complexas. Ativado automaticamente para tarefas de planejamento.
 tools: ["Read", "Grep", "Glob"]
 model: opus
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
 ---
 
 Você é um especialista em planejamento focado em criar planos de implementação abrangentes e acionáveis.
@@ -79,3 +83,9 @@ Criar etapas detalhadas com:
 - Testes de integração: [fluxos a testar]
 - Testes E2E: [jornadas de usuário a testar]
 ```
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

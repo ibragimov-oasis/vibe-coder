@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # Supported Model Architectures
 
 This document lists the model architectures currently supported by Transformers.js.
@@ -165,3 +172,9 @@ https://huggingface.co/models?pipeline_tag=text-classification&library=transform
 ```
 
 Check for ONNX support by looking for `onnx/` folder in model repository.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # Claude Code Flow Performance Benchmarks
 
 ## 🚀 Executive Summary
@@ -426,3 +433,10 @@ The batchtools optimizations deliver substantial performance improvements across
 ---
 
 _Generated with Claude Code Flow - Optimized for Performance_ 🚀
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

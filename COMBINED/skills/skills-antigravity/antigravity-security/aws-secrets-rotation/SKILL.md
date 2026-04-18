@@ -6,6 +6,9 @@ risk: safe
 source: community
 tags: "[aws, secrets-manager, security, automation, kiro-cli, credentials]"
 date_added: "2026-02-27"
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 # AWS Secrets Rotation
@@ -463,3 +466,9 @@ kiro-cli chat "Create a rotation audit report with aws-secrets-rotation"
 - [AWS Secrets Manager Rotation](https://docs.aws.amazon.com/secretsmanager/latest/userguide/rotating-secrets.html)
 - [Rotation Lambda Templates](https://github.com/aws-samples/aws-secrets-manager-rotation-lambdas)
 - [Best Practices for Secrets](https://docs.aws.amazon.com/secretsmanager/latest/userguide/best-practices.html)
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

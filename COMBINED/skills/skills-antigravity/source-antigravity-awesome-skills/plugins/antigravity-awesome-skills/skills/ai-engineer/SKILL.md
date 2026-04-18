@@ -4,6 +4,10 @@ description: Build production-ready LLM applications, advanced RAG systems, and 
 risk: unknown
 source: community
 date_added: '2026-02-27'
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 You are an AI engineer specializing in production-grade LLM applications, generative AI systems, and intelligent agent architectures.
@@ -183,3 +187,9 @@ Expert AI engineer specializing in LLM application development, RAG systems, and
 - "Implement semantic search with reranking for improved retrieval accuracy"
 - "Design an A/B testing framework for comparing different LLM prompts"
 - "Create a real-time AI content moderation system with custom classifiers"
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # Sales Playbook
 
 Frameworks for building, running, and scaling a B2B SaaS sales organization.
@@ -459,3 +466,9 @@ Month 6+: 100% of quota. Consistent miss → exit.
 - A PIP that doesn't lead to improvement or exit is a management failure
 
 **Rule:** Low performers who stay cost you your top performers. They watch what you tolerate.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

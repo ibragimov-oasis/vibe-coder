@@ -1,6 +1,10 @@
 ---
 title: "/hub:init — Create New Session — Agent Skill for Codex & OpenClaw"
 description: "Create a new AgentHub collaboration session with task, agent count, and evaluation criteria. Agent skill for Claude Code, Codex CLI, Gemini CLI, OpenClaw."
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
 ---
 
 # /hub:init — Create New Session
@@ -97,3 +101,9 @@ Tell the user:
 - Baseline metric (if captured)
 - Next step: `/hub:spawn` to launch agents
 - Or `/hub:spawn {session-id}` if multiple sessions exist
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

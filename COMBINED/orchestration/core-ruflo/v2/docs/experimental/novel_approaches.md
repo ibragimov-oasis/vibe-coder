@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # Novel Approaches to the Riemann Hypothesis
 
 ## GOAP-Driven Mathematical Innovation
@@ -558,3 +565,10 @@ We create a comprehensive attack on the Riemann Hypothesis that goes far beyond 
 The key innovation is using GOAP to coordinate these diverse approaches, allowing for emergent insights that no single method could achieve. Even if the full hypothesis remains unproven, this framework will likely yield significant mathematical insights and demonstrate the power of systematic creativity in mathematical research.
 
 The ultimate goal is not just to solve the Riemann Hypothesis, but to establish a new paradigm for attacking mathematical problems through intelligent coordination of diverse computational and theoretical approaches.
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

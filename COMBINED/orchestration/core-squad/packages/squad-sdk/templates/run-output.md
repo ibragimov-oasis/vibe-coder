@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-squad
+---
+
 # Run Output — {task title}
 
 > Final assembled artifact from a multi-agent run.
@@ -48,3 +55,10 @@
 ### {Name} ({Role}) — Raw Output
 
 {Paste agent's verbatim response here, unedited}
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/squad]] — Squad
+- [[000 - Map of Maps]] — Map of Maps
+

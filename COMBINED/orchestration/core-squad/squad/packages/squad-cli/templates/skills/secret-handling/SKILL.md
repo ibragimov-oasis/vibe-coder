@@ -4,6 +4,10 @@ description: Never read .env files or write secrets to .squad/ committed files
 domain: security, file-operations, team-collaboration
 confidence: high
 source: earned (issue #267 — credential leak incident)
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-squad
 ---
 
 ## Context
@@ -198,3 +202,10 @@ git commit -F $msgFile
 - ❌ Trusting agents to "know better" — enforce at multiple layers (prompt, hook, architecture)
 - ❌ Writing secrets to "temporary" files in `.squad/` — Scribe commits ALL `.squad/` changes
 - ❌ Extracting "just the host" from a connection string — still leaks infrastructure topology
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/squad]] — Squad
+- [[000 - Map of Maps]] — Map of Maps
+

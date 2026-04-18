@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # Everything We Got Wrong About Research-Plan-Implement — MLOps Community
 
 Transcript of the talk by Dexter Horthy ([@daborhey](https://x.com/daborhey)), co-founder of HumanLayer, at MLOps Community, published March 24, 2026.
@@ -189,3 +196,9 @@ Transcript of the talk by Dexter Horthy ([@daborhey](https://x.com/daborhey)), c
 [`26:15`](https://youtu.be/YwZR6tc7qYg?t=1575) And like you can keep iterating on the same doc. That's what's also nice about these is like we don't use the built-in compaction because everything that matters is going into static assets and so you can always resume from where you left off without having to worry about the quality of an autocompact or a manual compact.
 
 [`26:32`](https://youtu.be/YwZR6tc7qYg?t=1592) Brilliant, Dex. Well done, dude. Thank you. Let's give it up for him.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

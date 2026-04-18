@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # Account Delete Template
 
 Tests account deletion flow with confirmation and data warning.
@@ -134,3 +141,9 @@ test.describe('Account Delete', () => {
 | Wrong email | Input mismatch → button stays disabled |
 | Server error | Deletion fails → error alert |
 | Data export | Export link offered in dialog |
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

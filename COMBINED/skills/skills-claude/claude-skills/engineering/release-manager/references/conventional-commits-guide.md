@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # Conventional Commits Guide
 
 ## Overview
@@ -339,3 +346,9 @@ headers in every request. Anonymous access is no longer supported.
 - `ios`, `android`, `shared`, `ui`, `network`, `storage`
 
 By following conventional commits consistently, your team will have a clear, searchable commit history that enables powerful automation and improves the overall development workflow.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

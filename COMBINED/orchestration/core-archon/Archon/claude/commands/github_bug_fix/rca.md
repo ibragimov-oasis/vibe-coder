@@ -1,6 +1,10 @@
 ---
 description: Analyze and document root cause for a GitHub issue
 argument-hint: "[github-issue-id]"
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-archon
 ---
 
 # Root Cause Analysis: GitHub Issue #$ARGUMENTS
@@ -150,3 +154,10 @@ bun run validate
 2. Run: `/implement-fix $ARGUMENTS` to implement the fix
 3. Run: `/commit` after implementation complete
 ```
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/archon]] — Archon
+- [[000 - Map of Maps]] — Map of Maps
+

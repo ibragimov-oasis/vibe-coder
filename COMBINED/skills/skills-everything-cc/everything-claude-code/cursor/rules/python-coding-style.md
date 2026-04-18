@@ -2,6 +2,10 @@
 description: "Python coding style extending common rules"
 globs: ["**/*.py", "**/*.pyi"]
 alwaysApply: false
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
 ---
 # Python Coding Style
 
@@ -40,3 +44,9 @@ class Point(NamedTuple):
 ## Reference
 
 See skill: `python-patterns` for comprehensive Python idioms and patterns.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

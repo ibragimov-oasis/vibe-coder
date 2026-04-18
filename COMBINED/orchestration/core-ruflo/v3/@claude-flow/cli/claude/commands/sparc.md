@@ -1,6 +1,10 @@
 ---
 name: sparc
 description: Execute SPARC methodology workflows with Claude-Flow
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
 ---
 
 # ⚡️ SPARC Development Methodology

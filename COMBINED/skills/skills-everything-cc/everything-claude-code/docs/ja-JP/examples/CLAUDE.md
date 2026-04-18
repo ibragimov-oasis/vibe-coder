@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
+---
+
 # プロジェクトレベル CLAUDE.md の例
 
 これはプロジェクトレベルの CLAUDE.md ファイルの例です。プロジェクトルートに配置してください。
@@ -98,3 +105,9 @@ DEBUG=false
 - mainに直接コミットしない
 - PRにはレビューが必要
 - マージ前にすべてのテストが合格する必要がある
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

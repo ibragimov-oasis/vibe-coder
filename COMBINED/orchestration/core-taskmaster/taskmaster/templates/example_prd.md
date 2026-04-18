@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-taskmaster
+---
+
 <context>
 # Overview  
 [Provide a high-level overview of your product here. Explain what problem it solves, who it's for, and why it's valuable.]
@@ -45,3 +52,10 @@
 - Research findings
 - Technical specifications]
 </PRD>
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-taskmaster]] — core-taskmaster
+- [[MOC - Skills]] — Skills library
+

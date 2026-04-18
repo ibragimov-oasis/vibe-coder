@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # Prompt Engineer Toolkit
 
 Production toolkit for evaluating and versioning prompts with measurable quality signals. Includes A/B testing automation and prompt history management with diffs.
@@ -49,3 +56,9 @@ cp -R marketing-skill/prompt-engineer-toolkit ~/.codex/skills/prompt-engineer-to
 ```bash
 cp -R marketing-skill/prompt-engineer-toolkit ~/.openclaw/skills/prompt-engineer-toolkit
 ```
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

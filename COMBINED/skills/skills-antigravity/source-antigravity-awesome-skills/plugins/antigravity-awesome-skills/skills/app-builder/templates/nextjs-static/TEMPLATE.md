@@ -1,6 +1,10 @@
 ---
 name: nextjs-static
 description: Next.js static site template principles. Landing pages, portfolios, marketing.
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
 ---
 
 # Next.js Static Site Template
@@ -104,3 +108,9 @@ const nextConfig = {
 - Framer Motion for premium animations
 - Responsive mobile-first design
 - SEO metadata on every page
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

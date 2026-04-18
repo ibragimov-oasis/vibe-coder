@@ -2,6 +2,10 @@
 name: django-verification
 description: "Django项目的验证循环：迁移、代码检查、带覆盖率的测试、安全扫描，以及在发布或PR前的部署就绪检查。"
 origin: ECC
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-everything-cc
 ---
 
 # Django 验证循环
@@ -473,3 +477,9 @@ jobs:
 | 差异统计 | `git diff --stat` |
 
 请记住：自动化验证可以发现常见问题，但不能替代在预发布环境中的手动代码审查和测试。
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

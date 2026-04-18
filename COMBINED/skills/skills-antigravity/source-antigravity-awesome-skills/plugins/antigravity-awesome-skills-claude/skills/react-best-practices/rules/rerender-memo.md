@@ -3,6 +3,9 @@ title: Extract to Memoized Components
 impact: MEDIUM
 impactDescription: enables early returns
 tags: rerender, memo, useMemo, optimization
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
 ---
 
 ## Extract to Memoized Components
@@ -42,3 +45,9 @@ function Profile({ user, loading }: Props) {
 ```
 
 **Note:** If your project has [React Compiler](https://react.dev/learn/react-compiler) enabled, manual memoization with `memo()` and `useMemo()` is not necessary. The compiler automatically optimizes re-renders.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

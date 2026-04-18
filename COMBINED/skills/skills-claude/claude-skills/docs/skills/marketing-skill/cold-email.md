@@ -1,6 +1,10 @@
 ---
 title: "Cold Email Outreach — Agent Skill for Marketing"
 description: "When the user wants to write, improve, or build a sequence of B2B cold outreach emails to prospects who haven't asked to hear from them. Use when the. Agent skill for Claude Code, Codex CLI, Gemini CLI, OpenClaw."
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
 ---
 
 # Cold Email Outreach
@@ -275,3 +279,9 @@ All output follows the structured communication standard:
 - **copywriting**: For marketing page copy. Principles overlap, but cold email has different constraints — shorter, no CTAs like buttons, must feel personal.
 - **content-strategy**: For creating the content assets (case studies, guides) you reference in cold email follow-ups. Good follow-up sequences often link to content.
 - **marketing-strategy-pmm**: For positioning and ICP definition. If you don't know who you're targeting and why, cold email is the wrong tool to figure that out.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

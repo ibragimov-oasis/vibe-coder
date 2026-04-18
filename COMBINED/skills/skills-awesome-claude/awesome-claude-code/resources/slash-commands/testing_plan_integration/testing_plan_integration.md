@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-awesome-claude
+---
+
 I need you to create an integration testing plan for $ARGUMENTS
 
 These are integration tests and I want them to be inline in rust fashion.
@@ -9,3 +16,9 @@ Think really hard about the code, the tests, and the refactoring (if applicable)
 Will you come up with test cases and let me review before you write the tests?
 
 Feel free to ask clarifying questions.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-awesome-claude]] — Category: skills-awesome-claude
+

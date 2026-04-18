@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # Priority 2 批量验证报告
 
 **验证日期:** 2026-03-27
@@ -228,3 +235,9 @@
 **验证状态:** ✓ 完成
 **建议:** 准备进入 Priority 3 阶段
 **签名:** Claude Sonnet 4.6 <noreply@anthropic.com>
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

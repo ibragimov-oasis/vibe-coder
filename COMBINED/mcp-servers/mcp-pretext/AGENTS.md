@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/mcp
+  - artifact/mcp-server
+  - source/mcp-servers
+---
+
 ## Pretext
 
 Internal notes for contributors and agents. Use `README.md` as the public source of truth for API examples and user-facing limitations. See `DEVELOPMENT.md` for the current command surface and the canonical dashboards/snapshots to consult before making browser-accuracy or benchmark claims. Use `TODO.md` for the current priorities.
@@ -114,3 +121,9 @@ See `DEVELOPMENT.md` for the current command surface and packaging/release check
 ### Related
 
 - `../text-layout/` — Sebastian Markbage's original prototype + our experimental variants.
+
+## 🔗 Связи
+
+- [[MOC - MCP Servers]] — mcp-servers
+- [[000 - Map of Maps]] — Map of Maps
+

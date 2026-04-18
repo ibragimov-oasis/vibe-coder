@@ -5,6 +5,10 @@ category: granular-workflow-bundle
 risk: safe
 source: personal
 date_added: "2026-02-27"
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 # PostgreSQL Optimization Workflow
@@ -172,3 +176,9 @@ Use @grafana-dashboards to create PostgreSQL monitoring
 - `database` - Database operations
 - `cloud-devops` - Infrastructure
 - `performance-optimization` - Performance
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

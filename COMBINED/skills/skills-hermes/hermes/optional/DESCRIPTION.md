@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-hermes
+---
+
 # Optional Skills
 
 Official skills maintained by Nous Research that are **not activated by default**.
@@ -22,3 +29,9 @@ Some skills are useful but not broadly needed by every user:
 
 By keeping them optional, we keep the default skill set lean while still
 providing curated, tested, official skills for users who want them.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-hermes]] — Category: skills-hermes
+

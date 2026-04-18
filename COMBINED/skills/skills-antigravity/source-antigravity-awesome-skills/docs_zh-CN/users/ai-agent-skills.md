@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # AI 代理技能
 
 如果您在 GitHub 上研究 **AI 代理技能**,最大的决定通常不是"哪个单一技能最好?",而是"我想要一个广泛的可安装库还是一个更小的精选集合?"
@@ -43,3 +50,9 @@ Antigravity Awesome Skills 专为第一条路径而构建:广泛覆盖、多种�
 - 如果您想要一个大型、可安装、多工具的库,并带有入门帮助,请选择 **Antigravity Awesome Skills**。
 - 如果您想要较少的选择和更多的编辑筛选,请选择较小的精选仓库。
 - 如果您不确定,请先安装此仓库,从 [`bundles.md`](bundles.md) 开始,然后在了解您首选的工作流后比较替代方案。
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

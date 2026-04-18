@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # Claude-Flow v2 to v3 Migration Guide
 
 ## Overview
@@ -359,3 +366,10 @@ Manual resolution needed:
 ---
 
 *Migration Guide Version: 1.0.0*
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

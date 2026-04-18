@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # Framework-Specific Patterns
 
 Quick reference for identifying routes, components, state, and APIs across frontend and backend frameworks.
@@ -226,3 +233,9 @@ model Order {
     total   Decimal
 }
 ```
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

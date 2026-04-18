@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # ADR-G016: Agentic Container System Integration
 
 **Status:** Accepted
@@ -67,3 +74,10 @@ The Memory Clerk conformance test (`ConformanceRunner` + `MemoryClerkCell`) vali
 - **Separate governance layer**: Would duplicate logic and create consistency issues
 - **External policy engine**: Adds latency and operational complexity; can be layered on top later
 - **Per-specification libraries**: Fragmented, harder to reason about holistically
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

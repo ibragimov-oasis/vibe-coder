@@ -1,6 +1,10 @@
 ---
 paths:
   - "**/*.rs"
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
 ---
 
 # Rust 测试
@@ -154,3 +158,9 @@ cargo test --doc                 # Doc tests only
 ## 参考
 
 有关全面的测试模式（包括基于属性的测试、夹具以及使用 Criterion 进行基准测试），请参阅技能：`rust-testing`。
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

@@ -5,6 +5,10 @@ category: granular-workflow-bundle
 risk: safe
 source: personal
 date_added: "2026-02-27"
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 # API Security Testing Workflow
@@ -169,3 +173,9 @@ Use @api-security-best-practices to audit API error handling
 - `security-audit` - Security auditing
 - `web-security-testing` - Web security
 - `api-development` - API development
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

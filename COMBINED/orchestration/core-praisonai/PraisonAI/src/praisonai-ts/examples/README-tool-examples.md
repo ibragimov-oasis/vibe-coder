@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-praisonai
+---
+
 # PraisonAI Tool Registration Examples
 
 This document demonstrates the three different ways to register tool functions in PraisonAI.
@@ -205,3 +212,10 @@ python ../../praisonai-agents/tests/mcp-sse-direct-server.py --host 127.0.0.1 --
 ```bash
 npx ts-node examples/tools/mcp-sse.ts
 ```
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/praisonai]] — PraisonAI
+- [[000 - Map of Maps]] — Map of Maps
+

@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-squad
+---
+
 # Human Members
 
 Reference for adding human team members to the Squad roster.
@@ -78,3 +85,10 @@ Same as removing any member:
 1. Move entry to alumni section in team.md.
 2. Remove from active roster.
 3. Update routing.md to remove all routing entries.
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-squad]] — core-squad
+- [[MOC - Skills]] — Skills library
+

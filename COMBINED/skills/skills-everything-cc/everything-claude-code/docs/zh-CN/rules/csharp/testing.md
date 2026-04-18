@@ -3,6 +3,10 @@ paths:
   - "**/*.cs"
   - "**/*.csx"
   - "**/*.csproj"
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
 ---
 
 # C# 测试
@@ -45,3 +49,9 @@ public sealed class OrderServiceTests
 * 目标行覆盖率 80% 以上
 * 将覆盖率重点放在领域逻辑、验证、身份验证和失败路径上
 * 在 CI 中运行 `dotnet test` 并启用覆盖率收集（在可用的情况下）
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

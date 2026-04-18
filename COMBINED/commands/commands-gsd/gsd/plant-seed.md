@@ -8,6 +8,10 @@ allowed-tools:
   - Edit
   - Bash
   - AskUserQuestion
+tags:
+  - domain/skills
+  - artifact/command
+  - source/commands
 ---
 
 <objective>
@@ -26,3 +30,9 @@ Consumed by: /gsd:new-milestone (scans seeds and presents matches)
 <process>
 Execute the plant-seed workflow from @~/.claude/get-shit-done/workflows/plant-seed.md end-to-end.
 </process>
+
+## 🔗 Связи
+
+- [[MOC - System]] — commands
+- [[000 - Map of Maps]] — Map of Maps
+

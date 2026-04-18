@@ -8,6 +8,10 @@ description: >
 metadata:
   origin: ECC
   globs: ["**/*.py", "**/*.pyi"]
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-everything-cc
 ---
 
 # Python Patterns
@@ -426,3 +430,9 @@ result = process("  Hello World  ")  # "hello_world"
 - Writing Pythonic code
 - Refactoring Python codebases
 - Type-safe Python development
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

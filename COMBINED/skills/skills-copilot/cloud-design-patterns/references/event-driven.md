@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-copilot
+---
+
 # Event-Driven Architecture Patterns
 
 ## Event Sourcing Pattern
@@ -19,3 +26,9 @@
 - Handle event schema evolution
 - Consider storage growth over time
 - Implement snapshots for performance
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-copilot]] — Category: skills-copilot
+

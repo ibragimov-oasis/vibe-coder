@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/doc
+  - source/skills-omc
+---
+
 # Phase 3: Integration Setup
 
 **Skip condition**: If resuming and `lastCompletedStep >= 6`, skip this entire phase.
@@ -190,3 +197,9 @@ Or by running `/oh-my-claudecode:omc-setup --force` and choosing to enable teams
 CONFIG_TYPE=$(jq -r '.configType // "unknown"' ".omc/state/setup-state.json" 2>/dev/null || echo "unknown")
 bash "${CLAUDE_PLUGIN_ROOT}/scripts/setup-progress.sh" save 6 "$CONFIG_TYPE"
 ```
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-omc]] — Category: skills-omc
+

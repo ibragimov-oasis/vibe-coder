@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-cc-connect
+---
+
 # Sponsors Images
 
 This directory contains sponsor logos for the README sponsor section.
@@ -16,3 +23,9 @@ This directory contains sponsor logos for the README sponsor section.
 ## Placeholder
 
 Replace `your-logo-here.png` with actual sponsor logos.
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-cc-connect]] — core-cc-connect
+

@@ -9,6 +9,10 @@ color: purple
 #       hooks:
 #         - type: command
 #           command: "npx eslint --fix $FILE 2>/dev/null || true"
+tags:
+  - domain/agents
+  - artifact/agent
+  - source/by-role/planner
 ---
 
 <role>
@@ -677,3 +681,9 @@ Quality indicators:
 - **Honest gaps:** Coverage issues surfaced, not hidden
 
 </success_criteria>
+
+## 🔗 Связи
+
+- [[MOC - Agents]] — Agent catalog
+- [[agents/planner]] — Role: planner
+

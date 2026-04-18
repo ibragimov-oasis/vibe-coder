@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # Inventory Demand Planning — Edge Cases Reference
 
 > Tier 3 reference. Load on demand when handling complex or ambiguous demand planning situations that don't resolve through standard forecasting and replenishment workflows.
@@ -600,3 +607,9 @@ Track the accuracy of sales team overrides over time. Maintain a simple table:
 This calibration table allows you to apply evidence-based probability discounts to future
 overrides. A sales team with a 48% realization rate on new account overrides should have
 their stated volume multiplied by 0.48, not accepted at face value.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

@@ -1,5 +1,9 @@
 ---
 applyTo: '**'
+tags:
+  - domain/agents
+  - artifact/agent
+  - source/by-interface/agents-copilot
 ---
 
 # Dataverse SDK for Python — Testing & Debugging Strategies
@@ -484,3 +488,9 @@ def test_handles_missing_record(mock_client):
 - [unittest.mock Reference](https://docs.python.org/3/library/unittest.mock.html)
 - [Azure Functions Testing](https://learn.microsoft.com/en-us/azure/azure-functions/functions-reference-python#unit-testing)
 - [Dataverse SDK Examples](https://github.com/microsoft/PowerPlatform-DataverseClient-Python/tree/main/examples)
+
+## 🔗 Связи
+
+- [[MOC - Agents]] — Agent catalog
+- [[agents/agents-copilot]] — Interface: agents-copilot
+

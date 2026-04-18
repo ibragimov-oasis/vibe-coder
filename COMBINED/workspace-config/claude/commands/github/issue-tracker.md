@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/config
+  - source/workspace-config
+---
+
 # GitHub Issue Tracker
 
 ## Purpose
@@ -290,3 +297,9 @@ Updates will be posted automatically by swarm agents during implementation.
 - Agent performance analytics
 - Project health metrics
 - Integration success rates
+
+## 🔗 Связи
+
+- [[MOC - System]] — workspace-config
+- [[000 - Map of Maps]] — Map of Maps
+

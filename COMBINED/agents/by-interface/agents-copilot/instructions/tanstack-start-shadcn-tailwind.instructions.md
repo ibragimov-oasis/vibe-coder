@@ -1,6 +1,10 @@
 ---
 description: 'Guidelines for building TanStack Start applications'
 applyTo: '**/*.ts, **/*.tsx, **/*.js, **/*.jsx, **/*.css, **/*.scss, **/*.json'
+tags:
+  - domain/agents
+  - artifact/agent
+  - source/by-interface/agents-copilot
 ---
 
 # TanStack Start with Shadcn/ui Development Guide
@@ -210,3 +214,9 @@ npx shadcn@latest add button card input dialog
 - Prefer Shadcn components over custom UI
 - Use `@/` imports consistently
 - Follow accessibility best practices
+
+## 🔗 Связи
+
+- [[MOC - Agents]] — Agent catalog
+- [[agents/agents-copilot]] — Interface: agents-copilot
+

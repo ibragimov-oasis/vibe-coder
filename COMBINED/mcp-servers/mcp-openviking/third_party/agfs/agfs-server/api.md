@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/mcp
+  - artifact/mcp-server
+  - source/mcp-servers
+---
+
 # AGFS Server API Reference
 
 This document provides a comprehensive reference for the AGFS Server RESTful API. All endpoints are prefixed with `/api/v1`.
@@ -762,3 +769,9 @@ Synchronize file data to storage (fsync).
 ```bash
 curl -X POST "http://localhost:8080/api/v1/sync?path=/memfs/file.txt"
 ```
+
+## 🔗 Связи
+
+- [[MOC - MCP Servers]] — mcp-servers
+- [[000 - Map of Maps]] — Map of Maps
+

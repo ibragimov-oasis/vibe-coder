@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/ui
+  - artifact/ui-component
+  - source/ui-design
+---
+
 # Security Policy
 
 If you believe you have found a security vulnerability, we encourage you to let us know right away.
@@ -7,3 +14,9 @@ We will investigate all legitimate reports and do our best to quickly fix the pr
 Our preference is that you make use of GitHub's private vulnerability reporting feature to disclose potential security vulnerabilities in our Open Source Software. 
 
 To do this, please visit the security tab of the repository and click the [Report a vulnerability](https://github.com/shadcn-ui/ui/security/advisories/new) button.
+
+## 🔗 Связи
+
+- [[MOC - UI Design]] — ui-design
+- [[000 - Map of Maps]] — Map of Maps
+

@@ -1,4 +1,11 @@
 ---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
+---
 title: "Watch faces | Apple Developer Documentation"
 source: https://developer.apple.com/design/human-interface-guidelines/watch-faces
 
@@ -37,4 +44,9 @@ You can also configure a watch face to share from within your app, on your websi
 #### [Developer documentation](https://developer.apple.com/design/human-interface-guidelines/watch-faces#Developer-documentation)
 
 [Sharing an Apple Watch face](https://developer.apple.com/documentation/ClockKit/sharing-an-apple-watch-face) — ClockKit
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
 

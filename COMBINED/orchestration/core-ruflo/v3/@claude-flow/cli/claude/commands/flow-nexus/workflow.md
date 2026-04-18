@@ -1,6 +1,10 @@
 ---
 name: flow-nexus-workflow
 description: Event-driven workflow automation with message queues
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
 ---
 
 # Flow Nexus Workflows
@@ -113,3 +117,10 @@ mcp__flow-nexus__workflow_create({
   metadata: { priority: 10 }
 })
 ```
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

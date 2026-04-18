@@ -3,6 +3,9 @@ name: assets
 description: Importing images, videos, audio, and fonts into Remotion
 metadata:
   tags: assets, staticFile, images, fonts, public
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
 ---
 
 # Importing assets in Remotion
@@ -76,3 +79,9 @@ Remote URLs can be used directly without `staticFile()`:
 
 - Remotion components (`<Img>`, `<Video>`, `<Audio>`) ensure assets are fully loaded before rendering
 - Special characters in filenames (`#`, `?`, `&`) are automatically encoded
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

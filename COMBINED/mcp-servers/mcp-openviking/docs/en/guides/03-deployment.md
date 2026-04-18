@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/mcp
+  - artifact/mcp-server
+  - source/mcp-servers
+---
+
 # Server Deployment
 
 OpenViking can run as a standalone HTTP server, allowing multiple clients to connect over the network.
@@ -248,3 +255,9 @@ Use `/health` for Kubernetes liveness probes and `/ready` for readiness probes.
 - [Authentication](04-authentication.md) - API key setup
 - [Monitoring](05-monitoring.md) - Health checks and observability
 - [API Overview](../api/01-overview.md) - Complete API reference
+
+## 🔗 Связи
+
+- [[MOC - MCP Servers]] — mcp-servers
+- [[000 - Map of Maps]] — Map of Maps
+

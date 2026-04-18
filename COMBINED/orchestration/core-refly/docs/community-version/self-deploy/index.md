@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-refly
+---
+
 # Self Deploy
 
 ## Prerequisites {#prerequisites}
@@ -118,3 +125,10 @@ If the application fails to function properly, you can try the following steps:
 5. For others issues, you can search for the cause of error messages in the container's logs.
 
 If the issue persists, you can raise an issue in our [GitHub repository](https://github.com/refly-ai/refly/issues).
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/refly]] — Refly
+- [[000 - Map of Maps]] — Map of Maps
+

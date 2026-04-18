@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
+---
+
 # 安全性指南
 
 ## 強制安全性檢查
@@ -34,3 +41,9 @@ if (!apiKey) {
 3. 在繼續前修復關鍵問題
 4. 輪換任何暴露的密鑰
 5. 審查整個程式碼庫是否有類似問題
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

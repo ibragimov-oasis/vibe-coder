@@ -1,4 +1,11 @@
 ---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
+---
 title: "Inclusion | Apple Developer Documentation"
 source: https://developer.apple.com/design/human-interface-guidelines/inclusion
 
@@ -186,4 +193,9 @@ As you localize your app or game and related content, also be aware of the ways 
 [![](https://devimages-cdn.apple.com/wwdc-services/images/119/90B67086-3A99-49A5-965A-D35DB6552AE0/5206_wide_250x141_1x.jpg) The practice of inclusive design ](https://developer.apple.com/videos/play/wwdc2021/10275)
 
 [![](https://devimages-cdn.apple.com/wwdc-services/images/119/30932E3E-C589-4804-B16E-D0003DEF0F02/5247_wide_250x141_1x.jpg) The process of inclusive design ](https://developer.apple.com/videos/play/wwdc2021/10304)
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
 

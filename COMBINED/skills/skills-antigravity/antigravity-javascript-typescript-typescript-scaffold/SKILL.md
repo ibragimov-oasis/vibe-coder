@@ -4,6 +4,10 @@ description: "You are a TypeScript project architecture expert specializing in s
 risk: unknown
 source: community
 date_added: "2026-02-27"
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 # TypeScript Project Scaffolding
@@ -362,3 +366,9 @@ export default defineConfig({
 6. **Development Tools**: .env.example, .gitignore, linting config
 
 Focus on creating production-ready TypeScript projects with modern tooling, strict type safety, and comprehensive testing setup.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

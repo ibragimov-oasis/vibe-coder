@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # ADR-059: @ruvector/rvagent-wasm Integration
 
 **Status**: Implemented (see ADR-070 for completion details)
@@ -173,3 +180,10 @@ distribution that avoids floating-point logarithms entirely. Published as v2.0.1
 - Follows existing @ruvector/* optional dependency pattern
 - No breaking changes to existing APIs
 - Tests mock the WASM module for CI environments where it's not installed
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

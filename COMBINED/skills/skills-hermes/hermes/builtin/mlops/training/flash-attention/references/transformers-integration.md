@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-hermes
+---
+
 # HuggingFace Transformers Integration
 
 ## Contents
@@ -291,3 +298,9 @@ training_args = TrainingArguments(
     gradient_checkpointing=True
 )
 ```
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-hermes]] — Category: skills-hermes
+

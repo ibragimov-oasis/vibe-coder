@@ -3,6 +3,9 @@ title: Integrate DBOS with Express
 impact: CRITICAL
 impactDescription: Proper integration ensures workflows survive server restarts
 tags: express, http, integration, server
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
 ---
 
 ## Integrate DBOS with Express
@@ -59,3 +62,9 @@ main().catch(console.log);
 ```
 
 Reference: [Integrating DBOS](https://docs.dbos.dev/typescript/integrating-dbos)
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

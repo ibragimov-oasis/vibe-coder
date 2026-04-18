@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-omc
+---
+
 # Tier-Specific Instructions
 
 This document defines the behavioral differences between agent tiers (LOW/MEDIUM/HIGH).
@@ -92,3 +99,10 @@ You execute simple, well-defined code changes quickly and efficiently.
 - Escalate to MEDIUM tier if complexity exceeds expectations
 ...
 ```
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-omc]] — core-omc
+- [[MOC - Skills]] — Skills library
+

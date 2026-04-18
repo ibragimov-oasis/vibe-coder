@@ -3,6 +3,10 @@ name: refactor-cleaner
 description: Dead code cleanup and consolidation specialist. Use PROACTIVELY for removing unused code, duplicates, and refactoring. Runs analysis tools (knip, depcheck, ts-prune) to identify dead code and safely removes it.
 tools: ["Read", "Write", "Edit", "Bash", "Grep", "Glob"]
 model: opus
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
 ---
 
 # 重構與無用程式碼清理專家
@@ -271,3 +275,9 @@ components/Button.tsx（帶 variant prop）
 ---
 
 **記住**：無用程式碼是技術債。定期清理保持程式碼庫可維護且快速。但安全第一 - 在不理解程式碼為什麼存在之前，絕對不要移除它。
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

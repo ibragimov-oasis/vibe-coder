@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # Loki Mode - Conversation Context Export
 
 **Date:** 2025-12-28
@@ -204,3 +211,9 @@ When starting a new session, read these files:
 - **Latest Commit:** (pending push)
 - **Tests:** All 53 passing
 - **Features Added:** Real-time streaming output via stream-json, web dashboard with Anthropic design
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

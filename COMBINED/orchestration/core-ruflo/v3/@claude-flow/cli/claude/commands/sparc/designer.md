@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # SPARC Designer Mode
 
 ## Purpose
@@ -51,3 +58,10 @@ npx claude-flow@alpha sparc run designer "create dashboard UI"
 - Share component specs
 - Maintain consistency
 - Track design evolution
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

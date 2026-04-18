@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/doc
+  - source/skills-omc
+---
+
 # PR Review Context
 
 You are reviewing PR #{{PR_NUMBER}}: **{{PR_TITLE}}**
@@ -63,3 +70,9 @@ npm run build  # or appropriate build command
 - [ ] Security concerns addressed
 - [ ] Tests pass and cover changes
 - [ ] Documentation updated if needed
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-omc]] — Category: skills-omc
+

@@ -2,6 +2,10 @@
 name: paywall-upgrade-cro
 version: 1.0.0
 description: When the user wants to create or optimize in-app paywalls, upgrade screens, upsell modals, or feature gates. Also use when the user mentions "paywall," "upgrade screen," "upgrade modal," "upsell," "feature gate," "convert free to paid," "freemium conversion," "trial expiration screen," "limit reached screen," "plan upgrade prompt," or "in-app pricing." Distinct from public pricing pages (see page-cro) — this skill focuses on in-product upgrade moments where the user has already experienced value.
+tags:
+  - domain/seo
+  - artifact/skill
+  - source/skills-seo
 ---
 
 # Paywall and Upgrade Screen CRO
@@ -223,3 +227,9 @@ What you've accomplished:
 - **page-cro**: For public pricing page optimization
 - **onboarding-cro**: For driving to aha moment before upgrade
 - **ab-test-setup**: For testing paywall variations
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-seo]] — Category: skills-seo
+

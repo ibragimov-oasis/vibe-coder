@@ -1,6 +1,10 @@
 ---
 name: ubiquitous-language
 description: Extract a DDD-style ubiquitous language glossary from the current conversation, flagging ambiguities and proposing canonical terms. Saves to UBIQUITOUS_LANGUAGE.md. Use when user wants to define domain terms, build a glossary, harden terminology, create a ubiquitous language, or mentions "domain model" or "DDD".
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-development
 ---
 
 # Ubiquitous Language
@@ -90,3 +94,9 @@ When invoked again in the same conversation:
 3. Update definitions if understanding has evolved
 4. Re-flag any new ambiguities
 5. Rewrite the example dialogue to incorporate new terms
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-development]] — Category: skills-development
+

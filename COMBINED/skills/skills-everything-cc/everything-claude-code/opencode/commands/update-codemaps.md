@@ -2,6 +2,10 @@
 description: Update codemaps for codebase navigation
 agent: doc-updater
 subtask: true
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
 ---
 
 # Update Codemaps Command
@@ -79,3 +83,9 @@ import { functionName } from '@/module'
 ---
 
 **TIP**: Keep codemaps updated when adding new modules or significant refactoring.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # SOC 2 Evidence Collection Guide
 
 Practical guide for collecting, organizing, and maintaining audit evidence for SOC 2 Type I and Type II engagements. Covers evidence types, automation strategies, and documentation requirements.
@@ -225,3 +232,9 @@ Auditors use sampling to test operating effectiveness. Understanding the methodo
 | Redacted evidence without explanation | Auditor may question completeness | Provide redaction rationale and methodology |
 | Self-generated evidence only | Lower reliability in auditor's assessment | Include system-generated and third-party evidence |
 | Missing exception documentation | Auditor flags as control failure | Document every exception with root cause and remediation |
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/mcp
+  - artifact/mcp-server
+  - source/mcp-servers
+---
+
 # COBOL Performance and Tuning
 
 This document covers real-world benchmarks, worker pool configuration, memory management, known limitations, and troubleshooting for COBOL indexing.
@@ -259,3 +266,9 @@ This outputs:
 - `gitnexus/src/core/ingestion/pipeline.ts` -- `CHUNK_BYTE_BUDGET`, COBOL sub-batch configuration, chunk lifecycle
 - `gitnexus/src/core/ingestion/workers/parse-worker.ts` -- `MAX_DATA_ITEMS_PER_FILE`, `processCobolRegexOnly()`
 - `gitnexus/src/core/ingestion/parsing-processor.ts` -- Sequential fallback `MAX_DATA_ITEMS_PER_FILE`
+
+## 🔗 Связи
+
+- [[MOC - MCP Servers]] — mcp-servers
+- [[000 - Map of Maps]] — Map of Maps
+

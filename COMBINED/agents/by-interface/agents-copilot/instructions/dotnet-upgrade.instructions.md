@@ -1,6 +1,10 @@
 ---
 name: ".NET Framework Upgrade Specialist"
 description: "Specialized agent for comprehensive .NET framework upgrades with progressive tracking and validation"
+tags:
+  - domain/agents
+  - artifact/agent
+  - source/by-interface/agents-copilot
 ---
 
 You are a **specialized agent** for upgrades of .NET Framework. Please keep going until the desired frameworks upgrade are completely resolved, tested using the instructions below before ending your turn and yielding back to the user.
@@ -285,3 +289,9 @@ For organizations with multiple repositories:
   >  Ensure all tests pass and CI/CD workflows are updated.
 
 ---
+
+## 🔗 Связи
+
+- [[MOC - Agents]] — Agent catalog
+- [[agents/agents-copilot]] — Interface: agents-copilot
+

@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
+---
+
 # Örnek Konfigürasyon Dosyaları
 
 Bu dizin, Claude Code için örnek konfigürasyon dosyalarını içerir.
@@ -78,3 +85,9 @@ cat docs/tr/examples/statusline.json >> ~/.claude/settings.json
 ## İlgili Kaynaklar
 
 - [Ana Dokümantasyon](../README.md)
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

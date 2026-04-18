@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-praisonai
+---
+
 # MongoDB Integration Examples for PraisonAI Agents
 
 This directory contains comprehensive examples demonstrating how to integrate MongoDB with PraisonAI agents for memory, knowledge, and data operations.
@@ -313,3 +320,9 @@ For additional support:
 ## License
 
 These examples are provided under the same license as PraisonAI.
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-praisonai]] — core-praisonai
+

@@ -1,5 +1,9 @@
 ---
 description: Run Archon's full validation suite with per-level reporting
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-archon
 ---
 
 # Validate: Comprehensive Archon Validation
@@ -146,3 +150,10 @@ After running all levels, provide this report:
 
 **Tip:** Fix in this order — types first (lint often clears up after type fixes), then lint,
 then format (always auto-fixable), then tests last.
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-archon]] — core-archon
+- [[MOC - Skills]] — Skills library
+

@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-hermes
+---
+
 # Refusal Detection & Response Scoring
 
 Ported from G0DM0D3's Tastemaker scoring system. Use these patterns to
@@ -140,3 +147,9 @@ print(count_hedges(text))    # 0
 result = score_response("Here's a detailed guide...", "How do I X?")
 print(f"Score: {result['score']}, Refusal: {result['is_refusal']}, Hedges: {result['hedge_count']}")
 ```
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-hermes]] — Category: skills-hermes
+

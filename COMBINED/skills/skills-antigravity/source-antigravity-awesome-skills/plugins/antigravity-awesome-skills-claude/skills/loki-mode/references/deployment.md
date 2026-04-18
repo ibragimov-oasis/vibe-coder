@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # Deployment Reference
 
 Infrastructure provisioning and deployment instructions for all supported platforms.
@@ -602,3 +609,9 @@ vault kv get -field=database-url secret/app
 ```
 
 All production secrets must be in a secrets manager, never in code or environment files.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

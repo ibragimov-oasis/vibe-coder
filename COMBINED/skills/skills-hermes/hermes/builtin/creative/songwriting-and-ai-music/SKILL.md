@@ -13,6 +13,9 @@ triggers:
   - parody song
   - adapting a song
   - AI music generation
+  - domain/skills
+  - artifact/skill
+  - source/skills-hermes
 ---
 
 # Songwriting & AI Music Generation
@@ -287,3 +290,9 @@ Style can drift in extensions — restate genre/mood when extending.
 - Don't be precious about rules. If a line breaks meter but hits
   harder, keep it. The feeling is what matters. Craft serves art,
   not the other way around.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-hermes]] — Category: skills-hermes
+

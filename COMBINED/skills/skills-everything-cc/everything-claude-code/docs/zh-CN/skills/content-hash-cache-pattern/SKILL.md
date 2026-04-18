@@ -2,6 +2,10 @@
 name: content-hash-cache-pattern
 description: 使用SHA-256内容哈希缓存昂贵的文件处理结果——路径无关、自动失效、服务层分离。
 origin: ECC
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-everything-cc
 ---
 
 # 内容哈希文件缓存模式
@@ -159,3 +163,9 @@ data = dataclasses.asdict(entry)  # Use manual serialization instead
 * 必须始终保持最新的数据（实时数据流）
 * 缓存条目可能极其庞大的情况（应考虑使用流式处理）
 * 结果依赖于文件内容之外参数的情况（例如，不同的提取配置）
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

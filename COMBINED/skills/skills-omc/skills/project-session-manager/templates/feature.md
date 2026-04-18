@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/doc
+  - source/skills-omc
+---
+
 # Feature Development Context
 
 You are developing feature: **{{FEATURE_NAME}}**
@@ -54,3 +61,9 @@ gh pr create --title "Feature: {{FEATURE_NAME}}" --body "## Summary\n\n<descript
 - [ ] Tests written and passing
 - [ ] Documentation updated
 - [ ] Ready for PR
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-omc]] — Category: skills-omc
+

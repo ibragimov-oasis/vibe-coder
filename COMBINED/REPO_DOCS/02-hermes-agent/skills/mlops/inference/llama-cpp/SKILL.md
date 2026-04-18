@@ -258,4 +258,8 @@ cat prompts.txt | ./llama-cli \
 - **Models**: https://huggingface.co/models?library=gguf
 - **Discord**: https://discord.gg/llama-cpp
 
+## 🔗 Связи
+
+- [[000 - Map of Maps]] — REPO_DOCS
+- [[000 - Map of Maps]] — Map of Maps
 

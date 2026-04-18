@@ -3,6 +3,9 @@ name: transcribe-captions
 description: Transcribing audio to generate captions in Remotion
 metadata:
   tags: captions, transcribe, whisper, audio, speech-to-text
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-archon
 ---
 
 # Transcribing audio
@@ -68,3 +71,10 @@ fs.writeFileSync("captions123.json", JSON.stringify(captions, null, 2));
 Transcribe each clip individually and create multiple JSON files.
 
 See [Displaying captions](display-captions.md) for how to display the captions in Remotion.
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/archon]] — Archon
+- [[000 - Map of Maps]] — Map of Maps
+

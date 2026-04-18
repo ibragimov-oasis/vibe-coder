@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-copilot
+---
+
 # Oracle to PostgreSQL: Refcursor Handling in Client Applications
 
 ## The Core Difference
@@ -146,3 +153,9 @@ tx.Commit();
 - [PostgreSQL Documentation: Cursors](https://www.postgresql.org/docs/current/plpgsql-cursors.html)
 - [PostgreSQL FETCH Command](https://www.postgresql.org/docs/current/sql-fetch.html)
 - [Npgsql Refcursor Support](https://github.com/npgsql/npgsql/issues/1887)
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-copilot]] — Category: skills-copilot
+

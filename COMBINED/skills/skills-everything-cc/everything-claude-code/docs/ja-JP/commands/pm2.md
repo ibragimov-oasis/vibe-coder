@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
+---
+
 # PM2 初期化
 
 プロジェクトを自動分析し、PM2サービスコマンドを生成します。
@@ -270,3 +277,9 @@ pm2 resurrect          # 保存したプロセスを復元
 
 **ヒント:** 初回起動後に`pm2 save`を実行すると、簡略化されたコマンドが使用できます。
 ```
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

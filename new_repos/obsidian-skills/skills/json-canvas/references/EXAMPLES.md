@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/new_repos
+---
+
 # JSON Canvas Complete Examples
 
 ## Simple Canvas with Text and Connections
@@ -327,3 +334,8 @@
   ]
 }
 ```
+
+## 🔗 Связи
+
+- [[000 - Map of Maps]] — Map of Maps
+

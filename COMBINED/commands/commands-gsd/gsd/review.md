@@ -8,6 +8,10 @@ allowed-tools:
   - Bash
   - Glob
   - Grep
+tags:
+  - domain/skills
+  - artifact/command
+  - source/commands
 ---
 
 <objective>
@@ -35,3 +39,9 @@ Phase number: extracted from $ARGUMENTS (required)
 <process>
 Execute the review workflow from @~/.claude/get-shit-done/workflows/review.md end-to-end.
 </process>
+
+## 🔗 Связи
+
+- [[MOC - System]] — commands
+- [[000 - Map of Maps]] — Map of Maps
+

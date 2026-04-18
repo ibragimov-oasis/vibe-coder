@@ -2,6 +2,10 @@
 name: pool
 description: Manage agent pool for scaling
 type: command
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
 ---
 
 # Agent Pool Command
@@ -125,3 +129,10 @@ agent:
 - `npx claude-flow agent spawn` - Manual agent spawning
 - `npx claude-flow agent list` - View active agents
 - `npx claude-flow swarm scale` - Swarm-level scaling
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/seo
+  - artifact/doc
+  - source/skills-seo
+---
+
 <!-- Updated: 2026-02-07 -->
 # Publisher/Media SEO Strategy Template
 
@@ -151,3 +158,9 @@ Publishers face highest E-E-A-T scrutiny.
 - Newsletter signups from organic
 - Google News/Discover traffic
 - AI Overview appearances
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-seo]] — Category: skills-seo
+

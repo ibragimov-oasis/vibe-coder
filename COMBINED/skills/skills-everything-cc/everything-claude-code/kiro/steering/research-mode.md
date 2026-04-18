@@ -1,6 +1,10 @@
 ---
 inclusion: manual
 description: Research mode context for exploring technologies, architectures, and design decisions
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
 ---
 
 # Research Mode
@@ -60,3 +64,9 @@ Use this context when researching technologies, evaluating options, or making ar
 ## Invocation
 
 Use `#research-mode` to activate this context when researching or evaluating options.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

@@ -10,6 +10,9 @@ metadata:
     homepage: https://github.com/Hyaxia/blogwatcher
 prerequisites:
   commands: [blogwatcher]
+  - domain/skills
+  - artifact/skill
+  - source/skills-hermes
 ---
 
 # Blogwatcher
@@ -54,3 +57,9 @@ Found 4 new article(s) total!
 ## Notes
 
 - Use `blogwatcher <command> --help` to discover flags and options.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-hermes]] — Category: skills-hermes
+

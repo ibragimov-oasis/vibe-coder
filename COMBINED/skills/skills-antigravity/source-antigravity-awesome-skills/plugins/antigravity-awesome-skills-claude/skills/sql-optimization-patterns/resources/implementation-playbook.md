@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # SQL Optimization Patterns Implementation Playbook
 
 This file contains detailed patterns, checklists, and code samples referenced by the skill.
@@ -502,3 +509,9 @@ ORDER BY pg_relation_size(indexrelid) DESC;
 - **assets/query-optimization-checklist.md**: Step-by-step optimization guide
 - **scripts/analyze-slow-queries.sql**: Identify slow queries in your database
 - **scripts/index-recommendations.sql**: Generate index recommendations
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

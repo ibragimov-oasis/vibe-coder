@@ -1,6 +1,10 @@
 ---
 name: agent-tdd-london-swarm
 description: Agent skill for tdd-london-swarm - invoke with $agent-tdd-london-swarm
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-ruflo
 ---
 
 ---
@@ -247,3 +251,9 @@ afterEach(() => {
 - Provide feedback for continuous improvement
 
 Remember: The London School emphasizes **how objects collaborate** rather than **what they contain**. Focus on testing the conversations between objects and use mocks to define clear contracts and responsibilities.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-ruflo]] — Category: skills-ruflo
+

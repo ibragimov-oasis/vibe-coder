@@ -2,6 +2,10 @@
 sidebar_position: 8
 title: "MCP Config Reference"
 description: "Reference for Hermes Agent MCP configuration keys, filtering semantics, and utility-tool policy"
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-hermes
 ---
 
 # MCP Config Reference
@@ -213,3 +217,10 @@ Utility tools follow the same prefixing pattern:
 - `mcp_<server>_read_resource`
 - `mcp_<server>_list_prompts`
 - `mcp_<server>_get_prompt`
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/hermes]] — Hermes
+- [[000 - Map of Maps]] — Map of Maps
+

@@ -4,6 +4,10 @@ description: "Terraform module creation for AWS — reusable modules, state mana
 risk: unknown
 source: community
 date_added: "2026-02-27"
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 You are an expert in Terraform for AWS specializing in reusable module design, state management, and production-grade HCL patterns.
 
@@ -76,3 +80,9 @@ terraform {
 
 **Problem:** State lock not released after a failed apply
 **Solution:** Run `terraform force-unlock <LOCK_ID>` after confirming no other operations are running.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

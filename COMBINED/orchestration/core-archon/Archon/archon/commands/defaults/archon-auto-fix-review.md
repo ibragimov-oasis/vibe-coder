@@ -1,6 +1,10 @@
 ---
 description: Auto-fix all review findings unless clear YAGNI violations, post fix report
 argument-hint: (none - reads all review artifacts from $ARTIFACTS_DIR/review/)
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-archon
 ---
 
 # Auto-Fix Review Findings
@@ -372,3 +376,10 @@ Cannot proceed without findings.
 - **VALIDATION_PASSED**: Type check, lint, and tests all pass
 - **COMMITTED_AND_PUSHED**: Changes committed and pushed to PR branch
 - **REPORTED**: Fix report artifact written and GitHub comment posted
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/archon]] — Archon
+- [[000 - Map of Maps]] — Map of Maps
+

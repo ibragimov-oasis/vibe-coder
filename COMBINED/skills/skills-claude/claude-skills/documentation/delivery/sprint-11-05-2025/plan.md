@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # Sprint Plan: Skill-Agent Integration Phase 1-2
 
 **Sprint:** sprint-11-05-2025
@@ -885,3 +892,9 @@ gh issue list --milestone "Skill-Agent Integration v1.0" --state open
 **Document Version:** 1.0
 **Created:** November 5, 2025
 **Last Updated:** November 5, 2025
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-gsd
+---
+
 # External Integrations Template
 
 Template for `.planning/codebase/INTEGRATIONS.md` - captures external service dependencies.
@@ -278,3 +285,10 @@ Template for `.planning/codebase/INTEGRATIONS.md` - captures external service de
 **Security note:**
 Document WHERE secrets live (env vars, Vercel dashboard, 1Password), never WHAT the secrets are.
 </guidelines>
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/gsd]] — GSD
+- [[000 - Map of Maps]] — Map of Maps
+

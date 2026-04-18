@@ -50,3 +50,9 @@ Shannon Pro pentesting prompts и security-специфичные шаблоны
 
 - [[prompts/prompts-templates]] — общие шаблоны
 - [[mcp-servers/mcp-code-review-graph]] — blast-radius
+
+## 🔗 Связи
+
+- [[MOC - Prompts]] — Parent MOC
+- [[000 - Map of Maps]] — Map of Maps
+

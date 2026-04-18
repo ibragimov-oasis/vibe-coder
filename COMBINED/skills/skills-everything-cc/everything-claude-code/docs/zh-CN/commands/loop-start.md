@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
+---
+
 # 循环启动命令
 
 使用安全默认设置启动一个受管理的自主循环模式。
@@ -31,3 +38,9 @@ $ARGUMENTS:
 
 * `<pattern>` 可选 (`sequential|continuous-pr|rfc-dag|infinite`)
 * `--mode safe|fast` 可选
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

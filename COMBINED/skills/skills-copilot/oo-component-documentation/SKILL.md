@@ -1,6 +1,10 @@
 ---
 name: oo-component-documentation
 description: 'Create or update standardized object-oriented component documentation using a shared template plus mode-specific guidance for new and existing docs.'
+tags:
+  - domain/agents
+  - artifact/skill
+  - source/skills-copilot
 ---
 
 # OO Component Documentation
@@ -72,3 +76,10 @@ Choose the workflow before writing anything:
 - Front matter fields are accurate for the selected mode.
 - Examples and diagrams match the implementation.
 - Any unknowns, gaps, or assumptions are explicitly called out.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-copilot]] — Category: skills-copilot
+- [[MOC - Agents]] — Copilot agents
+

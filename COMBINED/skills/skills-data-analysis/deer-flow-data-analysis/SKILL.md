@@ -1,6 +1,10 @@
 ---
 name: data-analysis
 description: Use this skill when the user uploads Excel (.xlsx/.xls) or CSV files and wants to perform data analysis, generate statistics, create summaries, pivot tables, SQL queries, or any form of structured data exploration. Supports multi-sheet Excel workbooks, aggregation, filtering, joins, and exporting results to CSV/JSON/Markdown.
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-data-analysis
 ---
 
 # Data Analysis Skill
@@ -246,3 +250,9 @@ This is especially useful when running multiple queries against the same data fi
 - Excel date columns are automatically parsed; use DuckDB date functions (`DATE_TRUNC`, `EXTRACT`, etc.)
 - For very large files (100MB+), DuckDB handles them efficiently without loading everything into memory
 - Column names with spaces are accessible using double quotes: `"Column Name"`
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-data-analysis]] — Category: skills-data-analysis
+

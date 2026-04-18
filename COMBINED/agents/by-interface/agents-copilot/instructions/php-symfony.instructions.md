@@ -1,6 +1,10 @@
 ---
 description: "Symfony development standards aligned with official Symfony Best Practices"
 applyTo: "**/*.php, **/*.yaml, **/*.yml, **/*.xml, **/*.twig"
+tags:
+  - domain/agents
+  - artifact/agent
+  - source/by-interface/agents-copilot
 ---
 
 # Symfony Development Instructions
@@ -120,3 +124,9 @@ Instructions for developing Symfony applications following the official Symfony 
 - Keep configuration explicit and readable
 - Avoid premature optimization
 - Use Symfony Demo as a reference implementation
+
+## 🔗 Связи
+
+- [[MOC - Agents]] — Agent catalog
+- [[agents/agents-copilot]] — Interface: agents-copilot
+

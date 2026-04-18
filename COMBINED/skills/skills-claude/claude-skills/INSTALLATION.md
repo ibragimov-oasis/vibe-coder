@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # Installation Guide - Claude Skills Library
 
 Complete installation guide for all 205+ production-ready skills across multiple AI agents and platforms.
@@ -946,3 +953,9 @@ See `.codex/skills-index.json` for the complete manifest with descriptions.
 **Last Updated:** March 2026
 **Skills Version:** 2.1.2 (205+ production skills across 9 domains)
 **Universal Installer:** [Agent Skills CLI](https://github.com/Karanjot786/agent-skills-cli)
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

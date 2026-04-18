@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # V3 Migration Documentation
 
 > Comprehensive guide for migrating from Claude Flow V2 to V3
@@ -109,3 +116,9 @@ npx claude-flow migrate verify
 - [V3 README](../README.md) - V3 architecture overview
 - [ADRs](../docs/adrs/) - Architecture Decision Records
 - [Implementation Guide](../docs/guides/) - V3 implementation guides
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-ruflo]] — core-ruflo
+

@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
+---
+
 # 용어 대조표 (Terminology Glossary)
 
 본 문서는 한국어 번역의 용어 대조를 기록하여 번역 일관성을 보장합니다.
@@ -102,3 +109,9 @@
 ## 업데이트 기록
 
 - 2026-03-10: 초판 작성, 전체 번역 파일에서 사용된 용어 정리
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

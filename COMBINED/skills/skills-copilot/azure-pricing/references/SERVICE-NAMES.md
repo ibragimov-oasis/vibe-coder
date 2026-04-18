@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-copilot
+---
+
 # Azure Service Names Reference
 
 The `serviceName` field in the Azure Retail Prices API is **case-sensitive**. Use this reference to find the exact service name to use in filters.
@@ -104,3 +111,9 @@ The `serviceName` field in the Azure Retail Prices API is **case-sensitive**. Us
 - If you're unsure about a service name, **filter by `serviceFamily` first** to discover valid `serviceName` values in the response.
 - Example: `serviceFamily eq 'Databases' and armRegionName eq 'eastus'` will return all database service names.
 - Some services have multiple `serviceName` entries for different tiers or generations.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-copilot]] — Category: skills-copilot
+

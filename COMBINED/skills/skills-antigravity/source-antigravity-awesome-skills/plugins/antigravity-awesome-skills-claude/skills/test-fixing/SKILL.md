@@ -4,6 +4,10 @@ description: "Systematically identify and fix all failing tests using smart grou
 risk: safe
 source: community
 date_added: "2026-02-27"
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 # Test Fixing
@@ -119,3 +123,9 @@ User: "The tests are failing after my refactor"
 4. Fix AttributeErrors → Run subset → Verify
 5. Fix AssertionErrors → Run subset → Verify
 6. Run full suite → All pass ✓
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

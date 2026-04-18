@@ -1,6 +1,10 @@
 ---
 title: "/hub:eval — Evaluate Agent Results — Agent Skill for Codex & OpenClaw"
 description: "Evaluate and rank agent results by metric or LLM judge for an AgentHub session. Agent skill for Claude Code, Codex CLI, Gemini CLI, OpenClaw."
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
 ---
 
 # /hub:eval — Evaluate Agent Results
@@ -88,3 +92,9 @@ python {skill_path}/scripts/session_manager.py --update {session-id} --state eva
    - Ranked results with winner highlighted
    - Next step: `/hub:merge` to merge the winner
    - Or `/hub:merge {session-id} --agent {winner}` to be explicit
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

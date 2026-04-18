@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # ADR-030: Agentic-QE Plugin Integration
 
 ## Status
@@ -1880,3 +1887,10 @@ v3/plugins/agentic-qe/
 - [ADR-022: AIDEFENCE Integration](./ADR-022-aidefence-integration.md)
 - [agentic-qe npm package](https://www.npmjs.com/package/agentic-qe)
 - [DDD: Quality Engineering Domain Model](../docs/ddd/quality-engineering/domain-model.md)
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

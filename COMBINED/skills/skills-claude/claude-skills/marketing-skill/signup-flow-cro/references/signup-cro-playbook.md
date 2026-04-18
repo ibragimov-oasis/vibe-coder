@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # signup-flow-cro reference
 
 ## Core Principles
@@ -178,3 +185,9 @@ Every field reduces conversion. For each field, ask:
 - Time between steps
 
 ---
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

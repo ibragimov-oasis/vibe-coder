@@ -2,6 +2,10 @@
 name: laravel-security
 description: Laravel 安全最佳实践，涵盖认证/授权、验证、CSRF、批量赋值、文件上传、密钥管理、速率限制和安全部署。
 origin: ECC
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-everything-cc
 ---
 
 # Laravel 安全最佳实践
@@ -283,3 +287,9 @@ Route::get('/invoices/{invoice}/download', [InvoiceController::class, 'download'
     ->name('downloads.invoice')
     ->middleware('signed');
 ```
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

@@ -6,6 +6,10 @@ description:
   verification with user handoffs.
 user-invocable: true
 allowed-tools: Bash, Read, Write, Edit, Glob, Grep, AskUserQuestion, TodoWrite
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/REPO_DOCS
 ---
 
 # Open-Inspect Deployment Guide
@@ -309,3 +313,9 @@ Ask if user wants GitHub Actions CI/CD. If yes, use `gh secret set` for all requ
 - Never log sensitive values
 - The callback URL MUST match the actual deployed Vercel URL
 - Two-phase Terraform deployment is required due to Cloudflare Durable Object constraints
+
+## 🔗 Связи
+
+- [[000 - Map of Maps]] — REPO_DOCS
+- [[000 - Map of Maps]] — Map of Maps
+

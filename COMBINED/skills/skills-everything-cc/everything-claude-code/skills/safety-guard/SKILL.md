@@ -2,6 +2,10 @@
 name: safety-guard
 description: Use this skill to prevent destructive operations when working on production systems or running agents autonomously.
 origin: ECC
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-everything-cc
 ---
 
 # Safety Guard — Prevent Destructive Operations
@@ -73,3 +77,9 @@ Uses PreToolUse hooks to intercept Bash, Write, Edit, and MultiEdit tool calls. 
 - Enable by default for `codex -a never` sessions
 - Pair with observability risk scoring in ECC 2.0
 - Logs all blocked actions to `~/.claude/safety-guard.log`
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

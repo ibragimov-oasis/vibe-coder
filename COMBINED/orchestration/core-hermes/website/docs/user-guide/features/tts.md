@@ -2,6 +2,10 @@
 sidebar_position: 9
 title: "Voice & TTS"
 description: "Text-to-speech and voice message transcription across all platforms"
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-hermes
 ---
 
 # Voice & TTS
@@ -126,3 +130,10 @@ If your configured provider isn't available, Hermes automatically falls back:
 - **Groq key not set** → Falls back to local transcription, then OpenAI
 - **OpenAI key not set** → Falls back to local transcription, then Groq
 - **Nothing available** → Voice messages pass through with an accurate note to the user
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/hermes]] — Hermes
+- [[000 - Map of Maps]] — Map of Maps
+

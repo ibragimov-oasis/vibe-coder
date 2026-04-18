@@ -2,6 +2,10 @@
 name: django-patterns
 description: Django架构模式，使用DRF设计REST API，ORM最佳实践，缓存，信号，中间件，以及生产级Django应用程序。
 origin: ECC
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-everything-cc
 ---
 
 # Django 开发模式
@@ -732,3 +736,9 @@ Product.objects.filter(stock=0).delete()
 | 中间件 | 请求/响应处理 |
 
 请记住：Django 提供了许多快捷方式，但对于生产应用程序来说，结构和组织比简洁的代码更重要。为可维护性而构建。
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

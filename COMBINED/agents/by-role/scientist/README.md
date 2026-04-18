@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/agent
+  - source/by-role/scientist
+---
+
 # Scientist Role Agents
 
 This directory contains AI agents specialized in **scientific research, analysis, and methodology**.
@@ -36,3 +43,9 @@ These agents can be combined with:
 - `researcher` - For literature review
 - `analyst` - For data analysis
 - `coder` - For scientific computing
+
+## 🔗 Связи
+
+- [[MOC - Agents]] — Agent catalog
+- [[agents/scientist]] — Role: scientist
+

@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/root
+---
+
 # ⛔ PIPELINE_TRIGGER.md — Universal Pre/Post-Task Pipeline
 
 > **Read by ALL AI interfaces.** This file defines the mandatory steps EVERY agent
@@ -316,3 +323,8 @@ Include this at the end of every task response:
 - `COMBINED/security/security-shannon/SHANNON-PRO.md` — security methodology
 - `COMBINED/orchestration/core-hermes/` — self-learning system
 - `COMBINED/agents/mega/` — all mega-agent definitions
+
+## 🔗 Связи
+
+- [[000 - Map of Maps]] — Map of Maps
+

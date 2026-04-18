@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # repo-analyze
 
 Deep analysis of GitHub repository with AI insights.
@@ -23,3 +30,10 @@ npx claude-flow github repo-analyze --repository myorg/myrepo --deep
 # Specific areas
 npx claude-flow github repo-analyze --repository myorg/myrepo --include issues,prs
 ```
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

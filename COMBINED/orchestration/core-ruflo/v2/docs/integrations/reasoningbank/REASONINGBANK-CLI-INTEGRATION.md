@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # ReasoningBank CLI Integration Validation
 
 **Status**: ✅ **100% Complete and Working**
@@ -453,3 +460,10 @@ Adds `tenant_id` column to all tables for isolation.
 ---
 
 **ReasoningBank is ready for immediate deployment and will start learning from agent experience!** 🚀
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

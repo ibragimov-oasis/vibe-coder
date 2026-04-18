@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/security
+  - artifact/security
+  - source/security
+---
+
 # Security Assessment Report
 
 ## Executive Summary
@@ -933,3 +940,9 @@ Successfully bypassed normal shopping workflow and accumulated credit:
 ```
 
 The application granted $200.00 in store credit without requiring any items in cart or following the proper shopping workflow. This allows attackers to accumulate unlimited store credit by repeatedly applying coupons without purchasing any products.
+
+## 🔗 Связи
+
+- [[MOC - Security]] — security
+- [[000 - Map of Maps]] — Map of Maps
+

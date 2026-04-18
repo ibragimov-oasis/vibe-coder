@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/seo
+  - artifact/doc
+  - source/skills-seo
+---
+
 # The 12 Programmatic SEO Playbooks
 
 Beyond mixing and matching data point permutations, these are the proven playbooks for programmatic SEO.
@@ -291,3 +298,9 @@ You can layer multiple playbooks:
 - **Curation + Locations**: "Best coworking spaces in San Diego"
 - **Integrations + Personas**: "Slack for sales teams"
 - **Glossary + Translations**: Multi-language educational content
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-seo]] — Category: skills-seo
+

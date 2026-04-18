@@ -8,6 +8,9 @@ metadata:
   hermes:
     tags: [code-review, quality, validation, workflow, review]
     related_skills: [subagent-driven-development, writing-plans, test-driven-development]
+  - domain/skills
+  - artifact/skill
+  - source/skills-hermes
 ---
 
 # Requesting Code Review
@@ -267,3 +270,9 @@ Quality over speed
 ```
 
 **A good review catches what you missed.**
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-hermes]] — Category: skills-hermes
+

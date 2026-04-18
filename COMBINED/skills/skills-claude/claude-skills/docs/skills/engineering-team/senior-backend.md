@@ -1,6 +1,10 @@
 ---
 title: "Senior Backend Engineer — Agent Skill & Codex Plugin"
 description: "Designs and implements backend systems including REST APIs, microservices, database architectures, authentication flows, and security hardening. Use. Agent skill for Claude Code, Codex CLI, Gemini CLI, OpenClaw."
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
 ---
 
 # Senior Backend Engineer
@@ -374,3 +378,9 @@ python scripts/database_migration_tool.py --connection $DATABASE_URL --migrate f
 python scripts/api_load_tester.py https://api.example.com/endpoint --concurrency 50
 python scripts/api_load_tester.py https://api.example.com/endpoint --compare baseline.json
 ```
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

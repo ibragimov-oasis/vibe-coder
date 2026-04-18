@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # Eval Grading Results — Reference Splits Verification
 
 ## Summary
@@ -45,3 +52,9 @@
 
 ## Conclusion
 3/3 completed evals demonstrate the reference file splits preserved full skill quality. Skills correctly reference their `references/` directories and produce expert-level domain output. The split is safe to merge.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

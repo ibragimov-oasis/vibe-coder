@@ -1,5 +1,9 @@
 ---
 description: 针对多智能体工作流程的顺序和tmux/worktree编排指南。
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
 ---
 
 # 编排命令
@@ -240,3 +244,9 @@ $ARGUMENTS:
 3. 处理认证/支付/个人身份信息时**使用安全审查代理**
 4. **保持交接文档简洁** - 关注下一个代理需要什么
 5. 如有需要，**在代理之间运行验证**
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

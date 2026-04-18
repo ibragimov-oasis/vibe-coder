@@ -1,6 +1,11 @@
 ---
 name: user-story
 description: Generate user stories with acceptance criteria and sprint planning. Usage: /user-story <generate|sprint> [options]
+tags:
+  - domain/agents
+  - artifact/skill
+  - source/skills-claude
+  - artifact/doc
 ---
 
 # /user-story
@@ -41,3 +46,10 @@ Interactive mode prompts for feature context. For sprint planning, provide capac
 
 ## Skill Reference
 > `product-team/agile-product-owner/SKILL.md`
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+- [[MOC - Agents]] — Claude agents
+

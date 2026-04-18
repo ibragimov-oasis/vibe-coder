@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # Content Quality Gates
 
 ## Minimum Word Counts by Page Type
@@ -153,3 +160,9 @@ Google's doorway page algorithm penalizes programmatic location pages with thin/
 - Publication date visible (for articles/blogs)
 - Last updated date (if significantly revised)
 - Changelog for major updates (optional but good)
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

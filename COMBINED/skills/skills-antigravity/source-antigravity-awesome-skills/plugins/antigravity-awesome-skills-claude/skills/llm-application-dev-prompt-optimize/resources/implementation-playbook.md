@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # Prompt Optimization Implementation Playbook
 
 This file contains detailed patterns, checklists, and code samples referenced by the skill.
@@ -589,3 +596,9 @@ next_steps:
 5. **Iteration**: Update based on performance data
 
 Remember: The best prompt consistently produces desired outputs with minimal post-processing while maintaining safety and efficiency. Regular evaluation is essential for optimal results.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

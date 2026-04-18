@@ -4,6 +4,10 @@ description: "Guide for building reliable, fault-tolerant Go applications with D
 risk: safe
 source: "https://docs.dbos.dev/"
 date_added: "2026-02-27"
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 # DBOS Go Best Practices
@@ -124,3 +128,9 @@ references/queue-concurrency.md
 
 - https://docs.dbos.dev/
 - https://github.com/dbos-inc/dbos-transact-golang
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

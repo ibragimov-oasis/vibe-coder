@@ -1,6 +1,10 @@
 ---
 name: consulting-analysis
 description: Use this skill when the user requests to generate, create, or write professional research reports including but not limited to market analysis, consumer insights, brand analysis, financial analysis, industry research, competitive intelligence, investment due diligence, or any consulting-grade analytical report. This skill operates in two phases — (1) generating a structured analysis framework with chapter skeleton, data query requirements, and analysis logic, and (2) after data collection by other skills, producing the final consulting-grade report with structured narratives, embedded charts, and strategic insights.
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/REPO_DOCS
 ---
 
 # Professional Research Report Skill
@@ -629,3 +633,9 @@ reasoning_locale = en
 - **Traceability**: If requested, you must be able to point to the specific line in the Data Summary or External Search Findings that supports a claim.
 - The framework should adapt its analytical dimensions and depth to the specific domain (financial analysis uses different frameworks than consumer insights)
 - When the research subject is ambiguous, default to the broadest reasonable scope and note assumptions
+
+## 🔗 Связи
+
+- [[000 - Map of Maps]] — REPO_DOCS
+- [[000 - Map of Maps]] — Map of Maps
+

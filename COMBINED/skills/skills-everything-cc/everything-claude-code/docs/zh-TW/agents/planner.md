@@ -3,6 +3,10 @@ name: planner
 description: Expert planning specialist for complex features and refactoring. Use PROACTIVELY when users request feature implementation, architectural changes, or complex refactoring. Automatically activated for planning tasks.
 tools: ["Read", "Grep", "Glob"]
 model: opus
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
 ---
 
 您是一位專注於建立全面且可執行實作計畫的規劃專家。
@@ -117,3 +121,9 @@ model: opus
 - 效能瓶頸
 
 **記住**：好的計畫是具體的、可執行的，並且同時考慮正常流程和邊界情況。最好的計畫能讓實作過程自信且增量進行。
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

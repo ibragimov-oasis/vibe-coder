@@ -15,6 +15,10 @@ must_haves:
   artifacts:
     - output.txt
   key_links: []
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-gsd
 ---
 
 <objective>
@@ -30,3 +34,10 @@ Create a simple output file to prove the SDK can execute a plan end-to-end.
 <done>output.txt exists with expected content</done>
 </task>
 </tasks>
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-gsd]] — core-gsd
+- [[MOC - Skills]] — Skills library
+

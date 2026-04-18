@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-archon
+---
+
 # PR Cookbook
 
 Create well-structured pull requests. Detects PR templates, auto-detects base branch, and links related artifacts. The PR itself is the artifact — no file written.
@@ -257,3 +264,10 @@ gh pr create --draft --title "{title}" --base "{base-branch}" --body "{body}"
 ```
 
 Suggest: `/archon-dev review {pr-number}` to self-review before requesting human review.
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/archon]] — Archon
+- [[000 - Map of Maps]] — Map of Maps
+

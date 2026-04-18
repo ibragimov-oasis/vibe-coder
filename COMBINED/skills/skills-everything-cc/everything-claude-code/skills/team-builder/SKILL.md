@@ -2,6 +2,10 @@
 name: team-builder
 description: Interactive agent picker for composing and dispatching parallel teams
 origin: community
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-everything-cc
 ---
 
 # Team Builder
@@ -159,3 +163,9 @@ Both agents agree on: [...]
 Tension: Security recommends CSP that blocks inline styles, SEO needs inline schema markup. Resolution: [...]
 Next steps: [...]
 ```
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

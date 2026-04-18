@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # senior-computer-vision reference
 
 ## Reference Documentation
@@ -94,3 +101,9 @@ trtexec --onnx=model.onnx --saveEngine=model.engine --fp16 --workspace=4096
 # Benchmark
 trtexec --loadEngine=model.engine --batch=1 --iterations=1000 --avgRuns=100
 ```
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

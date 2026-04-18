@@ -1,6 +1,10 @@
 ---
 name: model-recommendation
 description: 'Analyze chatmode or prompt files and recommend optimal AI models based on task complexity, required capabilities, and cost-efficiency'
+tags:
+  - domain/agents
+  - artifact/skill
+  - source/skills-copilot
 ---
 
 # AI Model Recommendation for Copilot Chat Modes and Prompts
@@ -670,3 +674,10 @@ Library: /websites/github_en_copilot
 **Last Updated**: 2025-10-28
 **Model Data Current As Of**: October 2025
 **Deprecation Deadline**: 2025-10-23 for o3, o4-mini, Claude Sonnet 3.7 variants, Gemini 2.0 Flash
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-copilot]] — Category: skills-copilot
+- [[MOC - Agents]] — Copilot agents
+

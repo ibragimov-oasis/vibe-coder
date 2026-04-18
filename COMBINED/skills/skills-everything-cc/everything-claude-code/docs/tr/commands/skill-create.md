@@ -2,6 +2,10 @@
 name: skill-create
 description: Kodlama desenlerini çıkarmak ve SKILL.md dosyaları oluşturmak için yerel git geçmişini analiz et. Skill Creator GitHub App'ın yerel versiyonu.
 allowed_tools: ["Bash", "Read", "Write", "Grep", "Glob"]
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
 ---
 
 # /skill-create - Yerel Skill Oluşturma
@@ -172,3 +176,9 @@ Gelişmiş özellikler için (10k+ commit, ekip paylaşımı, otomatik PR'lar), 
 ---
 
 *[Everything Claude Code](https://github.com/affaan-m/everything-claude-code)'un bir parçası*
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

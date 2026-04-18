@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # Message Batches API — Python
 
 The Batches API (`POST /v1/messages/batches`) processes Messages API requests asynchronously at 50% of standard prices.
@@ -180,3 +187,9 @@ for result in client.messages.batches.results(batch.id):
 for custom_id, classification in sorted(results.items()):
     print(f"{custom_id}: {classification}")
 ```
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

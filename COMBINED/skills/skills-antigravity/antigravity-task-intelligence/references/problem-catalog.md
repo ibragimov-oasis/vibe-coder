@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # Catálogo de Problemas por Domínio
 
 ## Skills e Orchestrator
@@ -56,3 +63,9 @@
 | Subprocess sem timeout | Média | Sempre `subprocess.run(..., timeout=30)` |
 | JSON decode error | Média | Tratar `json.JSONDecodeError` explicitamente |
 | UnicodeDecodeError | Alta | `encoding='utf-8', errors='replace'` em files |
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

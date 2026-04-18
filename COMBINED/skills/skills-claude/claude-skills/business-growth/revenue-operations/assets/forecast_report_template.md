@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # Forecast Accuracy Report - [Period]
 
 ## Report Details
@@ -147,3 +154,9 @@ Q4        __%      ████████████
 | 1 | | | |
 | 2 | | | |
 | 3 | | | |
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

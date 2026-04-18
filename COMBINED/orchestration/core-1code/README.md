@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-1code
+---
+
 # 1Code
 
 [1Code.dev](https://1code.dev)
@@ -176,3 +183,9 @@ Join our [Discord](https://discord.gg/8ektTZGnj4) for support and discussions.
 ## License
 
 Apache License 2.0 - see [LICENSE](LICENSE) for details.
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-1code]] — core-1code
+

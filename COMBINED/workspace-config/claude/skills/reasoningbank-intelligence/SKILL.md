@@ -1,6 +1,10 @@
 ---
 name: "ReasoningBank Intelligence"
 description: "Implement adaptive learning with ReasoningBank for pattern recognition, strategy optimization, and continuous improvement. Use when building self-learning agents, optimizing workflows, or implementing meta-cognitive systems."
+tags:
+  - domain/skills
+  - artifact/config
+  - source/workspace-config
 ---
 
 # ReasoningBank Intelligence
@@ -199,3 +203,9 @@ console.log(`
 - ReasoningBank Guide: agentic-flow/src/reasoningbank/README.md
 - AgentDB Integration: packages/agentdb/docs/reasoningbank.md
 - Pattern Learning: docs/reasoning/patterns.md
+
+## 🔗 Связи
+
+- [[MOC - System]] — workspace-config
+- [[000 - Map of Maps]] — Map of Maps
+

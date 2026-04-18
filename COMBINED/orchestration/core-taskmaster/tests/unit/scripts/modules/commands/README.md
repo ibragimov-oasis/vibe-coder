@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-taskmaster
+---
+
 # Mock System Documentation
 
 ## Overview
@@ -132,3 +139,9 @@ The test suite includes validation tests:
 - `should allow disabling specific mocks`
 
 These ensure the mock factory works correctly and can be configured flexibly.
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-taskmaster]] — core-taskmaster
+

@@ -1,6 +1,10 @@
 ---
 name: flow-nexus-sandbox
 description: E2B sandbox management for isolated code execution
+tags:
+  - domain/skills
+  - artifact/config
+  - source/workspace-config
 ---
 
 # Flow Nexus Sandboxes
@@ -81,3 +85,9 @@ mcp__flow-nexus__sandbox_create({
   install_packages: ["numpy", "pandas", "scikit-learn"]
 })
 ```
+
+## 🔗 Связи
+
+- [[MOC - System]] — workspace-config
+- [[000 - Map of Maps]] — Map of Maps
+

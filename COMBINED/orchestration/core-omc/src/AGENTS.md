@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-omc
+---
+
 <!-- Parent: ../AGENTS.md -->
 <!-- Generated: 2026-01-28 | Updated: 2026-03-02 -->
 
@@ -159,3 +166,10 @@ index.ts
 ```
 
 <!-- MANUAL: -->
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-omc]] — core-omc
+- [[MOC - Skills]] — Skills library
+

@@ -2,6 +2,10 @@
 sidebar_position: 12
 title: "Batch Processing"
 description: "Generate agent trajectories at scale — parallel processing, checkpointing, and toolset distributions"
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-hermes
 ---
 
 # Batch Processing
@@ -224,3 +228,10 @@ For benchmarks requiring specific environments, each prompt can specify its own 
 ```
 
 The batch runner verifies Docker images are accessible before running each prompt.
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/hermes]] — Hermes
+- [[000 - Map of Maps]] — Map of Maps
+

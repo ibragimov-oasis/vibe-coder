@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # Training Pipeline - Real Code Execution Only
 
 ## Overview
@@ -194,3 +201,10 @@ If you have existing profiles from the simulation mode:
 ## Summary
 
 The Training Pipeline now provides **real machine learning** based on **actual code execution**. No more simulations - every score, every metric, and every improvement is based on real npm test results. This ensures that agent improvements translate directly to better real-world performance.
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

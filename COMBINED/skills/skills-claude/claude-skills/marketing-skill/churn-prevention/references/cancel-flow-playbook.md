@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # Cancel Flow Playbook
 
 Complete reference for designing, building, and auditing cancel flows.
@@ -252,3 +259,9 @@ Rate your existing flow on each dimension (0-10):
 - Build cancel flow as a separate route (not inline in settings)
 - Store `cancel_reason`, `save_offer_shown`, `save_offer_accepted` per customer
 - Retry logic: implement as a background job with delay queue
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

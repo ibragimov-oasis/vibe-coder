@@ -16,6 +16,9 @@ tools:
 - cursor
 - gemini-cli
 - codex-cli
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 # Telegram Bot API - Integracao Profissional
@@ -574,3 +577,9 @@ Se receber erro 429 (Too Many Requests), respeite o `retry_after` retornado.
 - `instagram` - Complementary skill for enhanced analysis
 - `social-orchestrator` - Complementary skill for enhanced analysis
 - `whatsapp-cloud-api` - Complementary skill for enhanced analysis
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

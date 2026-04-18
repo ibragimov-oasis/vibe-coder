@@ -16,6 +16,10 @@ allowed-tools:
   - Glob
   - Bash
   - WebFetch
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 # Competitor Comparison & Alternatives Pages
@@ -227,3 +231,9 @@ competitive intent keywords with accurate, structured content.
 | Competitor URL unreachable | Report which competitor URLs failed. Proceed with available data and note gaps in the comparison. |
 | Insufficient competitor data (pricing, features unavailable) | Flag missing data points clearly. Use "Not publicly available" in comparison tables rather than guessing. |
 | No product/service overlap found | Report that the products serve different markets. Suggest alternative competitors that share feature overlap, or pivot to a category roundup format. |
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

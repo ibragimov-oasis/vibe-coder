@@ -1,6 +1,10 @@
 ---
 name: product-analytics
 description: Use when defining product KPIs, building metric dashboards, running cohort or retention analysis, or interpreting feature adoption trends across product stages.
+tags:
+  - domain/agents
+  - artifact/skill
+  - source/skills-claude
 ---
 
 # Product Analytics
@@ -105,3 +109,10 @@ python3 scripts/metrics_calculator.py retention events.csv
 python3 scripts/metrics_calculator.py cohort events.csv --cohort-grain month
 python3 scripts/metrics_calculator.py funnel funnel.csv --stages visit,signup,activate,pay
 ```
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+- [[MOC - Agents]] — Claude agents
+

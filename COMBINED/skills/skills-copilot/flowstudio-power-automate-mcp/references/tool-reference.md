@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-copilot
+---
+
 # FlowStudio MCP — Tool Response Catalog
 
 Response shapes and behavioral notes for the FlowStudio Power Automate MCP server.
@@ -443,3 +450,9 @@ Non-obvious behaviors discovered through real API usage. These are things
 ### `list_live_connections`
 - `id` is the value you need for `connectionName` in `connectionReferences`.
 - `connectorName` maps to apiId: `"/providers/Microsoft.PowerApps/apis/" + connectorName`.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-copilot]] — Category: skills-copilot
+

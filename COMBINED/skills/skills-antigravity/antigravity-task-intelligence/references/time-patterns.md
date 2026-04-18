@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # Padrões Históricos de Tempo por Tipo de Tarefa
 
 Baseado em execuções reais do ecossistema.
@@ -59,3 +66,9 @@ Baseado em execuções reais do ecossistema.
 | Subagentes em paralelo (4+) | ÷2 a ÷3 |
 | Primeira vez no domínio | ×1.5 a ×2.5 |
 | Task já feita antes (memória ativa) | ×0.5 a ×0.7 |
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

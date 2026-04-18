@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # Working with Obsidian Bases
 
 The user maintains "Bases" in `Bases/*.base` which define the schema and properties for different types of notes (e.g., Recipes, Clippings, People).
@@ -42,3 +49,9 @@ When creating the JSON for the Web Clipper, map the Base properties to the `prop
 | `note.type` | `type` | Constant (e.g., `Recipe`) or empty |
 
 **Crucial Step:** Ask the user which properties should be automatically filled, which should be hardcoded (e.g., `type: Recipe`), and which should be left empty for manual entry.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

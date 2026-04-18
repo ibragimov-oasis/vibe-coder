@@ -3,6 +3,10 @@ name: writer-memory
 description: Agentic memory system for writers - track characters, relationships, scenes, and themes
 argument-hint: "init|char|rel|scene|query|validate|synopsis|status|export [args]"
 level: 7
+tags:
+  - domain/orchestration
+  - artifact/skill
+  - source/skills-omc
 ---
 
 # Writer Memory - Agentic Memory System for Writers
@@ -442,3 +446,10 @@ Output:
 - Ensure relevant data is in memory
 - Try more specific queries
 - Check character names match exactly
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-omc]] — Category: skills-omc
+- [[MOC - Orchestration]] — Multi-agent orchestration
+

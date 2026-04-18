@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/ui
+  - artifact/doc
+  - source/skills-design
+---
+
 # Strategic Design Template
 
 ## Subdomain classification
@@ -20,3 +27,9 @@
 | --- | --- | --- |
 | Order | Confirmed purchase request | Checkout |
 | Reservation | Temporary inventory hold | Fulfillment |
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-design]] — Category: skills-design
+

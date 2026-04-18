@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
+---
+
 # Sponsorlar
 
 Bu projeye sponsor olan herkese teşekkürler! Desteğiniz ECC ekosisteminin büyümesini sağlıyor.
@@ -57,3 +64,9 @@ Kopyala/yapıştır metrik çekme iş akışı için [`docs/business/metrics-and
 ---
 
 *Otomatik güncellenir. Son senkronizasyon: Şubat 2026*
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

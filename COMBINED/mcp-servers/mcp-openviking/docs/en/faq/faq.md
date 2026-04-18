@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/mcp
+  - artifact/mcp-server
+  - source/mcp-servers
+---
+
 # FAQ
 
 ## Basic Concepts
@@ -395,3 +402,9 @@ Yes, OpenViking main project is open source under the AGPL-3.0 license, and exam
 - [Architecture Overview](../concepts/01-architecture.md) - Deep dive into system design
 - [Retrieval Mechanism](../concepts/07-retrieval.md) - Detailed retrieval process
 - [Configuration Guide](../guides/01-configuration.md) - Complete configuration reference
+
+## 🔗 Связи
+
+- [[MOC - MCP Servers]] — mcp-servers
+- [[000 - Map of Maps]] — Map of Maps
+

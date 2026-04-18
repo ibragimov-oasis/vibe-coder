@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-omc
+---
+
 # oh-my-claudecode Quick Reference Card
 **v3.6.3 | github.com/Yeachan-Heo/oh-my-claudecode**
 
@@ -143,3 +150,10 @@ Before claiming completion:
 - Use **eco** when managing token budgets on large tasks
 - Use **swarm** for distributed work across many files
 - Use **pipeline** for multi-stage workflows with quality gates
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-omc]] — core-omc
+- [[MOC - Skills]] — Skills library
+

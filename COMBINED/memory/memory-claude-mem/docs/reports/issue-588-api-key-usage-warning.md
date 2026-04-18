@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/memory
+  - artifact/memory
+  - source/memory
+---
+
 # Issue #588: Unexpected API Charges from ANTHROPIC_API_KEY Discovery
 
 **Date:** January 7, 2026
@@ -432,3 +439,9 @@ If you experienced unexpected charges:
 
 We apologize for any confusion or unexpected charges caused by this behavior.
 ```
+
+## 🔗 Связи
+
+- [[MOC - Memory]] — memory
+- [[000 - Map of Maps]] — Map of Maps
+

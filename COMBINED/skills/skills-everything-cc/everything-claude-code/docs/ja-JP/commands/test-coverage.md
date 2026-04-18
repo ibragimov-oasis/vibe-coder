@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
+---
+
 # テストカバレッジ
 
 テストカバレッジを分析し、不足しているテストを生成します。
@@ -25,3 +32,9 @@
 - エラーハンドリング
 - エッジケース（null、undefined、空）
 - 境界条件
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

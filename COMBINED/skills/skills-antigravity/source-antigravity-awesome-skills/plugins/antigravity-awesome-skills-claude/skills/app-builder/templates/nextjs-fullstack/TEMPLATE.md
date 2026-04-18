@@ -1,6 +1,10 @@
 ---
 name: nextjs-fullstack
 description: Next.js full-stack template principles. App Router, Prisma, Tailwind.
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
 ---
 
 # Next.js Full-Stack Template
@@ -80,3 +84,9 @@ project-name/
 - Prisma for type-safe DB
 - Zod for validation
 - Edge runtime where possible
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

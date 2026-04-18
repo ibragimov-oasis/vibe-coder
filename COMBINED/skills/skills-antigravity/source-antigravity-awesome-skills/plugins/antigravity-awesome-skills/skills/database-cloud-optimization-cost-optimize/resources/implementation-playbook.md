@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # Cloud Cost Optimization Implementation Playbook
 
 This file contains detailed patterns, checklists, and code samples referenced by the skill.
@@ -1439,3 +1446,9 @@ class CostMonitoringSystem:
 8. **Best Practices Guide**: Long-term cost management strategies
 
 Focus on delivering immediate cost savings while establishing sustainable cost optimization practices that maintain performance and reliability standards.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

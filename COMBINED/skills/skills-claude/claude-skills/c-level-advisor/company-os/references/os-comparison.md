@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # Operating System Comparison
 
 Side-by-side analysis of the major company operating frameworks.
@@ -240,3 +247,9 @@ Do you have 2+ years and full leadership commitment to radical organizational ch
   YES → Consider Holacracy (with caution).
   NO → Build a custom hybrid from EOS + OKRs.
 ```
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

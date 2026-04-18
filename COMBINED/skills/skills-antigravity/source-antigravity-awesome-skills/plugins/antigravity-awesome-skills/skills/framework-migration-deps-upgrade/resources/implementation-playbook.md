@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # Dependency Upgrade Strategy Implementation Playbook
 
 This file contains detailed patterns, checklists, and code samples referenced by the skill.
@@ -753,3 +760,9 @@ const monitoring = {
 8. **Timeline**: Realistic schedule for implementing upgrades
 
 Focus on safe, incremental upgrades that maintain system stability while keeping dependencies current and secure.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

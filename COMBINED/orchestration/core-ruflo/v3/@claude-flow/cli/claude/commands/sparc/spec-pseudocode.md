@@ -1,6 +1,10 @@
 ---
 name: sparc-spec-pseudocode
 description: 📋 Specification Writer - You capture full project context—functional requirements, edge cases, constraints—and translate t...
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
 ---
 
 # 📋 Specification Writer
@@ -78,3 +82,10 @@ npx claude-flow memory store "spec-pseudocode_context" "important decisions" --n
 # Query previous work
 npx claude-flow memory query "spec-pseudocode" --limit 5
 ```
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

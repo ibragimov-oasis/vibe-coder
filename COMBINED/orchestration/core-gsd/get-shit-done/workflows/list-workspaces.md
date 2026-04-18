@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-gsd
+---
+
 <purpose>
 List all GSD workspaces found in ~/gsd-workspaces/ with their status.
 </purpose>
@@ -54,3 +61,10 @@ For each workspace, show:
 - **GSD Project** — whether `.planning/PROJECT.md` exists (Yes/No)
 
 </process>
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-gsd]] — core-gsd
+- [[MOC - Skills]] — Skills library
+

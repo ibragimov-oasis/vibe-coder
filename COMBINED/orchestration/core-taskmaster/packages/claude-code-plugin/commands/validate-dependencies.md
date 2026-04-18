@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-taskmaster
+---
+
 Validate all task dependencies for issues.
 
 ## Dependency Validation
@@ -69,3 +76,10 @@ After validation:
 - Run `/taskmaster:fix-dependencies` to auto-fix
 - Manually adjust problematic dependencies
 - Rerun to verify fixes
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/task-master]] — Task-Master
+- [[000 - Map of Maps]] — Map of Maps
+

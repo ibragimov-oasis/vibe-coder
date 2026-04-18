@@ -17,3 +17,9 @@ type: audit
 | Date | Title | Domain | Tags | File |
 |------|-------|--------|------|------|
 | 2026-04-18 | System Audit: All 54 repos verified | security | domain/system,domain/memory,artifact/session | [[sessions/2026-04-18-1425-system-audit-all-54-repos-verified]] |
+
+## 🔗 Связи
+
+- [[MOC - System]] — Parent MOC
+- [[000 - Map of Maps]] — Map of Maps
+

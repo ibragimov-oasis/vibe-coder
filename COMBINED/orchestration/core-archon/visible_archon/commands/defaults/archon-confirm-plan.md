@@ -1,6 +1,10 @@
 ---
 description: Verify plan research is still valid - check patterns exist, code hasn't drifted
 argument-hint: (no arguments - reads from workflow artifacts)
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-archon
 ---
 
 # Confirm Plan Research
@@ -331,3 +335,10 @@ Details written to: `$ARTIFACTS_DIR/plan-confirmation.md`
 - **TARGETS_VALID**: CREATE files don't exist, UPDATE files do exist
 - **COMMANDS_AVAILABLE**: Validation commands can be run
 - **ARTIFACT_WRITTEN**: Confirmation artifact created with clear status
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/archon]] — Archon
+- [[000 - Map of Maps]] — Map of Maps
+

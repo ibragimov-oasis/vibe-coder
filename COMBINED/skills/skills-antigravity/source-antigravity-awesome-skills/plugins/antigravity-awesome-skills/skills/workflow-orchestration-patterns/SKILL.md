@@ -4,6 +4,10 @@ description: "Master workflow orchestration architecture with Temporal, covering
 risk: unknown
 source: community
 date_added: "2026-02-27"
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 # Workflow Orchestration Patterns
@@ -334,3 +338,9 @@ For each step:
 3. Idempotency is critical for activities
 4. State preservation is automatic
 5. Design for failure and recovery
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

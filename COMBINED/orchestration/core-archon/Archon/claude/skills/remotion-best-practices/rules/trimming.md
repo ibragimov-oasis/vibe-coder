@@ -3,6 +3,9 @@ name: trimming
 description: Trimming patterns for Remotion - cut the beginning or end of animations
 metadata:
   tags: sequence, trim, clip, cut, offset
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-archon
 ---
 
 Use `<Sequence>` with a negative `from` value to trim the start of an animation.
@@ -49,3 +52,10 @@ Nest sequences to both trim the beginning and delay when it appears:
 ```
 
 The inner sequence trims 15 frames from the start, and the outer sequence delays the result by 30 frames.
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/archon]] — Archon
+- [[000 - Map of Maps]] — Map of Maps
+

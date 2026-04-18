@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-taskmaster
+---
+
 Parse PRD with enhanced research mode for better task generation.
 
 Arguments: $ARGUMENTS (PRD file path)
@@ -46,3 +53,10 @@ Research mode typically:
 - Complex requirements
 - Regulatory compliance needed
 - Best practices crucial
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/task-master]] — Task-Master
+- [[000 - Map of Maps]] — Map of Maps
+

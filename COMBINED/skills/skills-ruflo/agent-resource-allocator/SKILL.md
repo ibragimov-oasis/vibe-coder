@@ -1,6 +1,10 @@
 ---
 name: agent-resource-allocator
 description: Agent skill for resource-allocator - invoke with $agent-resource-allocator
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-ruflo
 ---
 
 ---
@@ -677,3 +681,9 @@ const allocationMetrics = {
 ```
 
 This Resource Allocator agent provides comprehensive adaptive resource allocation with ML-powered predictive scaling, fault tolerance patterns, and advanced performance optimization for efficient swarm resource management.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-ruflo]] — Category: skills-ruflo
+

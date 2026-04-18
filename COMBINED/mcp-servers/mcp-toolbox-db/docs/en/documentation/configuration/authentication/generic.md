@@ -5,6 +5,10 @@ weight: 2
 description: >
   Use a Generic OpenID Connect (OIDC) provider for OAuth 2.0 flow and token
   lifecycle.
+tags:
+  - domain/mcp
+  - artifact/mcp-server
+  - source/mcp-servers
 ---
 
 ## Getting Started
@@ -142,3 +146,9 @@ ${ENV_NAME} instead of hardcoding your secrets into the configuration file.
 | authorizationServer |  string  |     true     | The base URL of your OIDC provider. The service will append `/.well-known/openid-configuration` to discover the JWKS URI. HTTP is allowed but logs a warning. |
 | mcpEnabled          |   bool   |    false     | Indicates if MCP endpoint authentication should be applied. Defaults to false.                                                                                |
 | scopesRequired      | []string |    false     | A list of required scopes that must be present in the token's `scope` claim to be considered valid.                                                           |
+
+## 🔗 Связи
+
+- [[MOC - MCP Servers]] — mcp-servers
+- [[000 - Map of Maps]] — Map of Maps
+

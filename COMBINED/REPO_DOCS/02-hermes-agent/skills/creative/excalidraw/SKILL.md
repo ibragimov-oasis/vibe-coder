@@ -191,4 +191,8 @@ See `references/colors.md` for full color tables. Quick reference:
 - For dark mode diagrams, see `references/dark-mode.md`
 - For larger examples, see `references/examples.md`
 
+## 🔗 Связи
+
+- [[000 - Map of Maps]] — REPO_DOCS
+- [[000 - Map of Maps]] — Map of Maps
 

@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-archon
+---
+
 # Plan Cookbook
 
 Detailed implementation plans with codebase intelligence. The most critical cookbook — plans drive everything downstream. Creates a context-rich document that enables one-pass implementation success.
@@ -406,3 +413,10 @@ Summarize the plan:
 **If input was from a PRD file**, also update the PRD:
 1. Change the phase's Status from `pending` to `in-progress`
 2. Add the plan file path to the Plan column
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/archon]] — Archon
+- [[000 - Map of Maps]] — Map of Maps
+

@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # Smart Auto-Categorization Guide
 
 ## Overview
@@ -217,3 +224,9 @@ This will:
 ---
 
 **Result**: Much cleaner category filter with smart, meaningful organization! 🎉
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

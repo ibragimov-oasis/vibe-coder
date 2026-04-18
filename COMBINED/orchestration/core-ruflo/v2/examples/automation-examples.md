@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # Claude Flow Automation Examples
 
 This document provides practical examples of using Claude Flow's automation features.
@@ -715,3 +722,10 @@ claude-flow automation run-workflow workflow.json \
 ```
 
 These examples demonstrate the full power and flexibility of Claude Flow's automation system. Start with simple examples and gradually build more complex workflows as you become familiar with the system.
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-ruflo]] — core-ruflo
+- [[MOC - Skills]] — Skills library
+

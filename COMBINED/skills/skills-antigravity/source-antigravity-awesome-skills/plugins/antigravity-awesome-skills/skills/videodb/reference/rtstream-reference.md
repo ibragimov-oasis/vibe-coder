@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # RTStream Reference
 
 Code-level details for RTStream operations. For workflow guide, see [rtstream.md](rtstream.md).
@@ -549,3 +556,9 @@ results = video.search("action items and next steps")
 stream_url = results.compile()
 print(f"Action items clip: {stream_url}")
 ```
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

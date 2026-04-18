@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # Positioning Frameworks
 
 Strategic positioning methodologies for B2B SaaS products.
@@ -277,3 +284,9 @@ Strategic Implications:
 - Defend: [How to protect against Competitor B]
 - Differentiate: [Your unique positioning claim]
 ```
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

@@ -2,6 +2,10 @@
 sidebar_position: 2
 title: "Adding Tools"
 description: "How to add a new tool to Hermes Agent — schemas, handlers, registration, and toolsets"
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-hermes
 ---
 
 # Adding Tools
@@ -206,3 +210,10 @@ OPTIONAL_ENV_VARS = {
 - [ ] Optional: API key added to `OPTIONAL_ENV_VARS` in `hermes_cli/config.py`
 - [ ] Optional: Added to `toolset_distributions.py` for batch processing
 - [ ] Tested with `hermes chat -q "Use the weather tool for London"`
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/hermes]] — Hermes
+- [[000 - Map of Maps]] — Map of Maps
+

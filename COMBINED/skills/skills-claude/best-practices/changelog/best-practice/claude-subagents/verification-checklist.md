@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # Verification Checklist — Subagents Report
 
 Rules accumulate over time. Each workflow-changelog run MUST execute ALL rules at the specified depth. When a new type of drift is caught that an existing rule should have caught (but didn't exist or was too shallow), append a new rule here.
@@ -101,3 +108,9 @@ Rules that verify all hyperlinks in the report are valid.
 | 8A | Local File Links | Verify all relative file links (e.g. `../.claude/agents/weather-agent.md`) resolve to existing files | exists | local filesystem | 2026-02-28 | File moves (reports/ → best-practice/) broke relative links — must catch future breakage |
 | 8B | External URL Links | Verify all external URLs (e.g. `https://code.claude.com/docs/en/sub-agents`) return valid pages | exists | HTTP response | 2026-02-28 | External docs pages can be restructured or removed — must validate on each run |
 | 8C | Cross-File Reference Links | Verify links to other report files (e.g. `../reports/claude-agent-memory.md`) resolve to existing files | exists | local filesystem | 2026-02-28 | Reports can be moved or renamed — cross-references must stay in sync |
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # Component Composition
 
 ## Contents
@@ -193,3 +200,9 @@ Always include `AvatarFallback` for when the image fails to load:
 | `<hr>` or `<div className="border-t">` | `<Separator />` |
 | `<div className="animate-pulse">` with styled divs | `<Skeleton className="h-4 w-3/4" />` |
 | `<span className="rounded-full bg-green-100 ...">` | `<Badge variant="secondary">` |
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

@@ -3,6 +3,9 @@ title: Cancel, Resume, and Fork Workflows
 impact: MEDIUM
 impactDescription: Control running workflows and recover from failures
 tags: workflow, cancel, resume, fork, control
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
 ---
 
 ## Cancel, Resume, and Fork Workflows
@@ -75,3 +78,9 @@ new_handle = DBOS.fork_workflow(
 ```
 
 Reference: [Workflow Management](https://docs.dbos.dev/python/tutorials/workflow-management)
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

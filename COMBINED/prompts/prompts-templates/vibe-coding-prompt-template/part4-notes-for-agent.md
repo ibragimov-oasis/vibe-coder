@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/prompts
+  - artifact/prompt
+  - source/prompts-templates
+---
+
 # Part 4 — Generate AGENTS.md and AI Agent Configuration Files
 
 I'll help you create the instruction files that will guide your AI coding assistant to build your MVP. These files are what make the magic happen!
@@ -501,3 +508,9 @@ Your setup is complete when:
 Would you like me to adjust any of the instructions before you start building?"
 
 ---
+
+## 🔗 Связи
+
+- [[MOC - Prompts]] — Prompt library
+- [[MOC - System]] — System documentation
+

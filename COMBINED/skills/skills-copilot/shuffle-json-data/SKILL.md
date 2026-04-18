@@ -1,6 +1,10 @@
 ---
 name: shuffle-json-data
 description: 'Shuffle repetitive JSON objects safely by validating schema consistency before randomising entries.'
+tags:
+  - domain/agents
+  - artifact/skill
+  - source/skills-copilot
 ---
 
 # Shuffle JSON Data
@@ -148,3 +152,10 @@ closely related names sensibly so that the task can still succeed.
 - ignoreProperties
 - requiredProperties
 - nesting
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-copilot]] — Category: skills-copilot
+- [[MOC - Agents]] — Copilot agents
+

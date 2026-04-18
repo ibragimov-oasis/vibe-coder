@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # ADR-027: OpenAI Codex Integration
 
 ## Status
@@ -704,3 +711,10 @@ approval_policy = "never"
 sandbox_mode = "workspace-write"
 # Set CODEX_CI=1 for additional optimizations
 ```
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

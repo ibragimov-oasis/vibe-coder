@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/mcp
+  - artifact/mcp-server
+  - source/mcp-servers
+---
+
 <!-- This file has been used in local_quickstart.md, local_quickstart_go.md & local_quickstart_js.md -->
 <!-- [START database_setup] -->
 In this section, we will create a database, insert some data that needs to be
@@ -117,3 +124,9 @@ postgres` and a password next time.
     \q
     ```
 <!-- [END database_setup] -->
+
+## 🔗 Связи
+
+- [[MOC - MCP Servers]] — mcp-servers
+- [[000 - Map of Maps]] — Map of Maps
+

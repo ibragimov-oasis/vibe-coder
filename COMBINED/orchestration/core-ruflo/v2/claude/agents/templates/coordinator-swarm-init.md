@@ -23,6 +23,10 @@ hooks:
     # Write completion status with topology details
     npx claude-flow@alpha memory store "swarm/init/complete" "{\"status\":\"ready\",\"topology\":\"$TOPOLOGY\",\"agents\":$AGENT_COUNT}" --namespace coordination
     echo "🌐 Inter-agent communication channels established"
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
 ---
 
 # Swarm Initializer Agent
@@ -103,3 +107,10 @@ This agent specializes in initializing and configuring agent swarms for optimal 
 - Checks resource availability
 - Handles initialization failures gracefully
 - Provides fallback configurations
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

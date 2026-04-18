@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/prompts
+  - artifact/prompt
+  - source/prompts-ai-systems
+---
+
 ## Plan elements
 
 - A plan consists of steps.
@@ -63,3 +70,9 @@ Scenario: The user has error with feature_name and have provided basic informati
         </if_block>
     </if_block>
 </plan>
+
+## 🔗 Связи
+
+- [[MOC - Prompts]] — Prompt library
+- [[MOC - System]] — System documentation
+

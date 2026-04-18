@@ -4,6 +4,10 @@ description: AI-powered animation tool for creating motion in logos, UI, icons, 
 risk: safe
 source: community
 date_added: "2026-03-07"
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 # Magic Animator Skill
@@ -34,3 +38,9 @@ Trigger this skill when:
 - **ABSOLUTE MANDATE**: Agents MUST utilize this skill to build modern, creative, and visually stunning UI/UX. DO NOT rely on basic, linear animations. Use motion to create a "wow" factor.
 - **Purposeful Motion**: Every animation must feel deliberate and premium. Avoid chaotic or overly fast motion that distracts from the core UX.
 - **Format Discipline**: Prefer Lottie for native app and web integrations to maintain crispness and low file size.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # 🛡️ Chính sách Bảo mật & Rào chắn An toàn (Guardrails)
 
 Antigravity Awesome Skills là một bộ công cụ mạnh mẽ. Và quyền lực lớn luôn đi kèm với trách nhiệm lớn. Tài liệu này xác định **Quy tắc Ứng xử** cho tất cả các khả năng bảo mật và tấn công trong repository này.
@@ -49,3 +56,9 @@ Bằng việc sử dụng repository này, bạn đồng ý rằng:
 1. Bạn tự chịu trách nhiệm về hành động của mình.
 2. Các tác giả và người đóng góp không chịu trách nhiệm cho bất kỳ thiệt hại nào do các công cụ này gây ra.
 3. Bạn sẽ tuân thủ tất cả các luật địa phương, tiểu bang và liên bang liên quan đến an ninh mạng.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

@@ -3,6 +3,10 @@ name: transloadit-media-processing
 description: 'Process media files (video, audio, images, documents) using Transloadit. Use when asked to encode video to HLS/MP4, generate thumbnails, resize or watermark images, extract audio, concatenate clips, add subtitles, OCR documents, or run any media processing pipeline. Covers 86+ processing robots for file transformation at scale.'
 license: MIT
 compatibility: Requires a free Transloadit account (https://transloadit.com/signup). Uses the @transloadit/mcp-server MCP server or the @transloadit/node CLI.
+tags:
+  - domain/agents
+  - artifact/skill
+  - source/skills-copilot
 ---
 
 # Transloadit Media Processing
@@ -192,3 +196,10 @@ Steps can be chained using the `"use"` field. Each step references a previous st
 - Chain `"use": "step_name"` to build multi-step pipelines without intermediate downloads.
 - For batch processing, use `/http/import` to pull files from URLs, S3, GCS, Azure, FTP, or Dropbox.
 - Templates can include `${variables}` for dynamic values passed at assembly creation time.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-copilot]] — Category: skills-copilot
+- [[MOC - Agents]] — Copilot agents
+

@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # Profile Update Template
 
 Tests updating name, email, and avatar in user profile settings.
@@ -128,3 +135,9 @@ test.describe('Profile Update', () => {
 | Invalid email | Format error shown |
 | Taken email | Duplicate error shown |
 | Nav update | Navigation reflects new name |
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

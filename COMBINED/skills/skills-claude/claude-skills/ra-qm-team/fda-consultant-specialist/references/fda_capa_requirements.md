@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # FDA CAPA Requirements
 
 Complete guide to Corrective and Preventive Action requirements per 21 CFR 820.100.
@@ -716,3 +723,9 @@ Is it an isolated incident?
 | Design Control | Design change via CAPA, DHF update |
 | Supplier | Supplier CAPA, supplier audit findings |
 | Risk Management | Risk file update post-CAPA |
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # Architecture Patterns Reference
 
 Detailed guide to software architecture patterns with trade-offs and implementation guidance.
@@ -468,3 +475,9 @@ hexagonal/
 | Testable, swappable externals | Hexagonal |
 | Framework independence | Clean Architecture |
 | Single entry point, multiple services | API Gateway |
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

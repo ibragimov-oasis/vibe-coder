@@ -3,6 +3,9 @@ name: get-video-dimensions
 description: Getting the width and height of a video file with Mediabunny
 metadata:
   tags: dimensions, width, height, resolution, size, video
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-archon
 ---
 
 # Getting video dimensions with Mediabunny
@@ -66,3 +69,10 @@ import { staticFile } from "remotion";
 
 const dimensions = await getVideoDimensions(staticFile("video.mp4"));
 ```
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/archon]] — Archon
+- [[000 - Map of Maps]] — Map of Maps
+

@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/config
+  - source/workspace-config
+---
+
 # pair --start
 
 Start a new pair programming session with AI assistance.
@@ -207,3 +214,9 @@ claude-flow pair --start --ide vscode
 - `pair --status` - Check session status
 - `pair --history` - View past sessions
 - `pair --config` - Configure defaults
+
+## 🔗 Связи
+
+- [[MOC - System]] — workspace-config
+- [[000 - Map of Maps]] — Map of Maps
+

@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/ui
+  - artifact/ui-component
+  - source/ui-design
+---
+
 # Vibe-Coder Arsenal — Cursor Rules
 
 > **Combined Cursor Configuration**
@@ -186,3 +193,9 @@ For web tasks, prefer Lightpanda over Chrome/Playwright:
 *Combined from: GitNexus, UI-UX/ui, and repository conventions*
 
 **Last Updated:** 2026-04-01
+
+## 🔗 Связи
+
+- [[MOC - UI Design]] — ui-design
+- [[000 - Map of Maps]] — Map of Maps
+

@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # 🏆 Tiêu chuẩn Chất lượng & Xác thực
 
 Để biến **Antigravity Awesome Skills** từ một tập hợp các script thành một nền tảng đáng tin cậy, mỗi skill (kỹ năng) phải đáp ứng một tiêu chuẩn cụ thể về chất lượng và an toàn.
@@ -62,3 +69,9 @@ Chạy script xác thực trước khi gửi Pull Request (PR):
 ```bash
 python3 scripts/validate_skills.py --strict
 ```
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

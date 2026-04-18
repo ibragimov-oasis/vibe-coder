@@ -6,6 +6,9 @@ wave: null
 tags: [squad, subsquads, scaling, codespaces, horizontal-scaling, multi-instance, community]
 status: draft
 hero: "Squad SubSquads lets you partition a repo's work across multiple Codespaces — each running its own scoped Squad instance. One repo, multiple AI teams, zero conflicts."
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-squad
 ---
 
 # SubSquads — Scaling Squad Across Multiple Codespaces
@@ -131,3 +134,10 @@ squad start
 ```
 
 Full docs: [Scaling with SubSquads](../scenarios/scaling-workstreams.md) | [Multi-Codespace Setup](../scenarios/multi-codespace.md) | [SubSquads PRD](https://github.com/bradygaster/squad/blob/main/docs/_internal/specs/streams-prd.md)
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/squad]] — Squad
+- [[000 - Map of Maps]] — Map of Maps
+

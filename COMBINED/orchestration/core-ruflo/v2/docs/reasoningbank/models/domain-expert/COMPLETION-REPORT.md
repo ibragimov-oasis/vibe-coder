@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # Domain Expert Model - Training Completion Report
 
 ## Executive Summary
@@ -449,3 +456,10 @@ The model is production-ready and can be immediately used for:
 **Training Agent**: Domain Expert Model Training Agent
 **Status**: ✅ COMPLETE
 **Quality**: 🌟 PRODUCTION READY 🌟
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

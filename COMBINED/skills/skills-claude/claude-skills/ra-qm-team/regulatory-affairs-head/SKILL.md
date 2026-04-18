@@ -14,6 +14,10 @@ triggers:
   - regulatory intelligence
   - submission planning
   - notified body
+tags:
+  - domain/agents
+  - artifact/skill
+  - source/skills-claude
 ---
 
 # Head of Regulatory Affairs
@@ -479,3 +483,10 @@ Submission Status Report — 2024-11-01
 | [fda-consultant-specialist](../fda-consultant-specialist/) | FDA submission deep expertise |
 | [quality-manager-qms-iso13485](../quality-manager-qms-iso13485/) | QMS for regulatory compliance |
 | [risk-management-specialist](../risk-management-specialist/) | ISO 14971 risk management |
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+- [[MOC - Agents]] — Claude agents
+

@@ -247,3 +247,9 @@ All commands return JSON. Parse with `jq` or read directly. Key fields:
 ```bash
 $GSETUP --revoke
 ```
+
+## 🔗 Связи
+
+- [[000 - Map of Maps]] — REPO_DOCS
+- [[000 - Map of Maps]] — Map of Maps
+

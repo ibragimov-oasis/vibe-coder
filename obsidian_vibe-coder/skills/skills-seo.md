@@ -50,3 +50,9 @@ source: "../COMBINED/skills/skills-seo/"
 
 - [[mcp-servers/mcp-lightpanda]] — Lightpanda для SEO-скрапинга
 - [[mcp-servers/mcp-supermemory]] — память для SEO инсайтов
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Parent MOC
+- [[000 - Map of Maps]] — Map of Maps
+

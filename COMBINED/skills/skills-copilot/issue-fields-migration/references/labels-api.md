@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-copilot
+---
+
 # Labels API Reference
 
 Reference for GitHub Labels REST API endpoints used in the label migration flow.
@@ -72,3 +79,9 @@ Not typically needed for migration, but useful for rollback scenarios.
 - The MCP tool `mcp__github__list_issues` supports a `labels` filter for fetching issues by label.
 - Label names are case-insensitive for matching purposes, but the API preserves the original casing.
 - Maximum labels per issue: no hard limit, but practically dozens.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-copilot]] — Category: skills-copilot
+

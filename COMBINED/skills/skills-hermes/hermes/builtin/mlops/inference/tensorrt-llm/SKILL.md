@@ -8,7 +8,9 @@ dependencies: [tensorrt-llm, torch]
 metadata:
   hermes:
     tags: [Inference Serving, TensorRT-LLM, NVIDIA, Inference Optimization, High Throughput, Low Latency, Production, FP8, INT4, In-Flight Batching, Multi-GPU]
-
+  - domain/skills
+  - artifact/skill
+  - source/skills-hermes
 ---
 
 # TensorRT-LLM
@@ -187,4 +189,8 @@ outputs = llm.generate(
 - **GitHub**: https://github.com/NVIDIA/TensorRT-LLM
 - **Models**: https://huggingface.co/models?library=tensorrt_llm
 
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-hermes]] — Category: skills-hermes
 

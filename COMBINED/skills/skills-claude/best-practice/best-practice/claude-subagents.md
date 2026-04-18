@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # Sub-agents Best Practice
 
 ![Last Updated](https://img.shields.io/badge/Last_Updated-Apr%2011%2C%202026%206%3A10%20PM%20PKT-white?style=flat&labelColor=555) ![Version](https://img.shields.io/badge/Claude_Code-v2.1.101-blue?style=flat&labelColor=555)<br>
@@ -54,3 +61,9 @@ Claude Code subagents — frontmatter fields and official built-in agent types.
 - [Create custom subagents — Claude Code Docs](https://code.claude.com/docs/en/sub-agents)
 - [CLI reference — Claude Code Docs](https://code.claude.com/docs/en/cli-reference)
 - [Claude Code CHANGELOG](https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md)
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

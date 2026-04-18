@@ -4,6 +4,10 @@ description: "Use when automating LinkedIn via CLI: fetch profiles, search peopl
 risk: safe
 source: community
 date_added: "2026-02-27"
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 ## When to Use
@@ -533,3 +537,9 @@ linkedin reset --all                             # Remove all accounts
 - **Action limits.** Per-account limits are configurable on the platform. A `limitExceeded` error means the limit was reached.
 - **URL normalization.** All LinkedIn URLs in responses are normalized to `https://www.linkedin.com/...` format without trailing slashes.
 - **Null fields.** Fields that are unavailable are returned as `null` or `[]`, not omitted.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

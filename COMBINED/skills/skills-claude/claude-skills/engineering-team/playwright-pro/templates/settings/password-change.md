@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # Password Change Template
 
 Tests current password verification, new password validation, and success flow.
@@ -141,3 +148,9 @@ test.describe('Password Change', () => {
 | Weak password | Short password → strength error |
 | Same as current | Reuse blocked with error |
 | Strength meter | Meter aria-valuenow updates on input |
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

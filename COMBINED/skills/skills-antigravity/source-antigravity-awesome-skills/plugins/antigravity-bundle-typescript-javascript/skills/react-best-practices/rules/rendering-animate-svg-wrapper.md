@@ -3,6 +3,9 @@ title: Animate SVG Wrapper Instead of SVG Element
 impact: LOW
 impactDescription: enables hardware acceleration
 tags: rendering, svg, css, animation, performance
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
 ---
 
 ## Animate SVG Wrapper Instead of SVG Element
@@ -45,3 +48,9 @@ function LoadingSpinner() {
 ```
 
 This applies to all CSS transforms and transitions (`transform`, `opacity`, `translate`, `scale`, `rotate`). The wrapper div allows browsers to use GPU acceleration for smoother animations.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

@@ -2,6 +2,10 @@
 name: skill-health
 description: 显示技能组合健康仪表板，包含图表和分析
 command: true
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
 ---
 
 # 技能健康仪表盘
@@ -52,3 +56,9 @@ node "$ECC_ROOT/scripts/skills-health.js" --dashboard --json
 * **故障模式** — 聚类故障原因并显示水平条形图
 * **待处理修订** — 等待审查的修订提案
 * **版本历史** — 每个技能的版本快照时间线
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

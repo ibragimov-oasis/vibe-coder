@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-copilot
+---
+
 # Test Slices Overview
 
 Quick reference for selecting the right Spring Boot test slice.
@@ -201,3 +208,9 @@ void shouldReturnOrdersInSequence() {
   <scope>test</scope>
 </dependency>
 ```
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-copilot]] — Category: skills-copilot
+

@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # ADR-011: Cloud Run Extension Architecture
 
 ## Status
@@ -117,3 +124,10 @@ We will port all 6 extensions to **Google Cloud Run** as containerized web appli
 - ADR-004: RuVector PostgreSQL Database Deployment
 - ADR-012: ViteJS + HeroUI Frontend Stack
 - ADR-013: Hybrid Data Layer Architecture
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

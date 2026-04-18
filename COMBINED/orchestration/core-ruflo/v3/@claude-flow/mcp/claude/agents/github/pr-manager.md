@@ -88,6 +88,10 @@ hooks:
         --training-data "$PR_OUTPUT" \
         --epochs 50
     fi
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
 ---
 
 # GitHub PR Manager
@@ -436,3 +440,10 @@ mcp__claude-flow__memory_usage {
 - Automatic agent failover
 - Progress preservation across interruptions
 - Comprehensive error reporting and recovery
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

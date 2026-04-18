@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/ui
+  - artifact/doc
+  - source/skills-design
+---
+
 # Input toolbar (bottom anchored)
 
 ## Intent
@@ -49,3 +56,9 @@ struct ConversationView: View {
 
 - Avoid placing the input view inside the scroll stack; it will jump with content.
 - Avoid nested scroll views that fight for drag gestures.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-design]] — Category: skills-design
+

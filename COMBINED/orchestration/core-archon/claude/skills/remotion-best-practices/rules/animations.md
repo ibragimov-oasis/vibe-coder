@@ -3,6 +3,9 @@ name: animations
 description: Fundamental animation skills for Remotion
 metadata:
   tags: animations, transitions, frames, useCurrentFrame
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-archon
 ---
 
 All animations MUST be driven by the `useCurrentFrame()` hook.  
@@ -25,3 +28,10 @@ export const FadeIn = () => {
 
 CSS transitions or animations are FORBIDDEN - they will not render correctly.  
 Tailwind animation class names are FORBIDDEN - they will not render correctly.
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/archon]] — Archon
+- [[000 - Map of Maps]] — Map of Maps
+

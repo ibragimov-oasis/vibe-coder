@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # Self-Healing Workflows
 
 ## Purpose
@@ -104,3 +111,10 @@ mcp__claude-flow__task_orchestrate({
 - 🔄 Automatic recovery
 - 📚 Learns from errors
 - ⏱️ Saves debugging time
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

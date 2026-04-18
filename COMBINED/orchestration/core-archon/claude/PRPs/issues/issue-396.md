@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-archon
+---
+
 # Investigation: Test adapter improvements — store user messages, fix response format
 
 **Issue**: #396 (https://github.com/dynamous-community/remote-coding-agent/issues/396)
@@ -293,3 +300,10 @@ bun run lint
 - **Investigated by**: Claude
 - **Timestamp**: 2026-02-17
 - **Artifact**: `.claude/PRPs/issues/issue-396.md`
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/archon]] — Archon
+- [[000 - Map of Maps]] — Map of Maps
+

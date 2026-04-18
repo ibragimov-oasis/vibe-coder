@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # Product Strategy Reference
 
 Frameworks for product vision, competitive positioning, portfolio management, and board reporting. No theory — only what CPOs actually use.
@@ -452,3 +459,9 @@ Risk 3: [Name]
 | How do we position? | April Dunford Positioning Canvas |
 | Which products to fund? | BCG Matrix + Invest/Maintain/Kill |
 | How to report to the board? | 5-Slide Board Update |
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

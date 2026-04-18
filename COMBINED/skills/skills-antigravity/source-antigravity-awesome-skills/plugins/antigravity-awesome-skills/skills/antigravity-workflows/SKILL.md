@@ -4,6 +4,10 @@ description: "Orchestrate multiple Antigravity skills through guided workflows f
 risk: none
 source: self
 date_added: "2026-02-27"
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 # Antigravity Workflows
@@ -84,3 +88,9 @@ Use @antigravity-workflows to execute the "Design a DDD Core Domain" workflow fo
 - `brainstorming`
 - `workflow-automation`
 - `verification-before-completion`
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # Database Selection (2025)
 
 > Choose database based on context, not default.
@@ -41,3 +48,9 @@ What are your requirements?
 3. Is edge/serverless important?
 4. Vector search needed?
 5. Global distribution required?
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

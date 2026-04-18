@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-omc
+---
+
 # Metadata Sync System
 
 ## Overview
@@ -524,3 +531,10 @@ Potential improvements:
 ## Related
 
 - [CI/CD Pipeline](../.github/workflows/)
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-omc]] — core-omc
+- [[MOC - Skills]] — Skills library
+

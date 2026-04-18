@@ -6,6 +6,10 @@ weight: 1
 description: >
   Snowflake is a cloud-based data platform.
 no_list: true
+tags:
+  - domain/mcp
+  - artifact/mcp-server
+  - source/mcp-servers
 ---
 
 ## About
@@ -60,3 +64,9 @@ instead of hardcoding your secrets into the configuration file.
 | warehouse |  string  |     false    | The virtual warehouse to use. Defaults to "COMPUTE_WH".                |
 | role      |  string  |     false    | The security role to use. Defaults to "ACCOUNTADMIN".                  |
 | timeout   |  integer |     false    | The connection timeout in seconds. Defaults to 60.                     |
+
+## 🔗 Связи
+
+- [[MOC - MCP Servers]] — mcp-servers
+- [[000 - Map of Maps]] — Map of Maps
+

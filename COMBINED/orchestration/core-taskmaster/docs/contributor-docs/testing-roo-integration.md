@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-taskmaster
+---
+
 # Testing Roo Integration
 
 This document provides instructions for testing the Roo integration in the Task Master package.
@@ -92,3 +99,10 @@ Ensure that the Roo integration works alongside existing Cursor functionality:
 2. Verify that both `.cursor` and `.roo` directories are created
 3. Verify that both `.windsurfrules` and `.roomodes` files are created
 4. Confirm that existing functionality continues to work as expected
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-taskmaster]] — core-taskmaster
+- [[MOC - Skills]] — Skills library
+

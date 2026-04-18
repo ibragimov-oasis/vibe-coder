@@ -5,6 +5,10 @@ category: getting-started
 audience: [user, operator]
 sidebar:
   order: 0
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-archon
 ---
 
 ## Quick Install
@@ -58,3 +62,10 @@ archon version
 - [Core Concepts](/getting-started/concepts/) — Understand workflows, nodes, commands, and isolation
 - [Quick Start](/getting-started/quick-start/) — Run your first workflow
 - [Configuration](/getting-started/configuration/) — Set up API keys and preferences
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/archon]] — Archon
+- [[000 - Map of Maps]] — Map of Maps
+

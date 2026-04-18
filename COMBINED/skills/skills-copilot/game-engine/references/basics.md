@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-copilot
+---
+
 # Game Development Basics
 
 A comprehensive reference covering web game development technologies, game architecture, and the anatomy of a game loop.
@@ -341,3 +348,9 @@ Monitor the `numTicks` value after a focus-regain event. A very large value indi
 - **A-Frame** -- Declarative 3D/VR framework built on Three.js.
 - **PlayCanvas** -- Cloud-hosted 3D game engine with a visual editor.
 - **Phaser** -- Popular 2D game framework with physics and input handling.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-copilot]] — Category: skills-copilot
+

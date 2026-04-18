@@ -1,6 +1,10 @@
 ---
 name: "codebase-onboarding"
 description: "Codebase Onboarding"
+tags:
+  - domain/agents
+  - artifact/skill
+  - source/skills-claude
 ---
 
 # Codebase Onboarding
@@ -82,3 +86,10 @@ Detailed template and section examples live in:
 2. Document the "why" for key architectural decisions.
 3. Update docs in the same PR as behavior changes.
 4. Treat onboarding docs as living operational assets, not one-time deliverables.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+- [[MOC - Agents]] — Claude agents
+

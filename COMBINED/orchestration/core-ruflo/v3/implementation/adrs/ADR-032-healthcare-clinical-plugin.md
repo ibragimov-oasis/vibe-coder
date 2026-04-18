@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # ADR-032: Healthcare Clinical Decision Support Plugin
 
 **Status:** Proposed
@@ -407,3 +414,10 @@ const safeQuery = {
 ---
 
 **Last Updated:** 2026-01-24
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

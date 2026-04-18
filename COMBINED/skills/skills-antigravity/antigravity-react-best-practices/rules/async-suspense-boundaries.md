@@ -3,6 +3,9 @@ title: Strategic Suspense Boundaries
 impact: HIGH
 impactDescription: faster initial paint
 tags: async, suspense, streaming, layout-shift
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
 ---
 
 ## Strategic Suspense Boundaries
@@ -97,3 +100,9 @@ Both components share the same promise, so only one fetch occurs. Layout renders
 - When you want to avoid layout shift (loading → content jump)
 
 **Trade-off:** Faster initial paint vs potential layout shift. Choose based on your UX priorities.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-gsd
+---
+
 # UAT Template
 
 Template for `.planning/phases/XX-name/{phase_num}-UAT.md` — persistent UAT session tracking.
@@ -263,3 +270,10 @@ skipped: 0
   debug_session: ".planning/debug/comment-not-refreshing.md"
 ```
 </good_example>
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-gsd]] — core-gsd
+- [[MOC - Skills]] — Skills library
+

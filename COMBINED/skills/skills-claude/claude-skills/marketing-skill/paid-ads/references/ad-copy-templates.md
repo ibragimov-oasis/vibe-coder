@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # Ad Copy Templates Reference
 
 Detailed formulas and templates for writing high-converting ad copy.
@@ -198,3 +205,9 @@ When testing ad copy, focus on these elements in order of impact:
 5. **Supporting proof points**
 
 Test one element at a time for clean data.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

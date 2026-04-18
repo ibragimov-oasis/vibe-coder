@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # ADR-G023: Meta-Governance
 
 **Status:** Accepted
@@ -71,3 +78,10 @@ Bounds on what the optimizer (G008) can do per cycle:
 - **Single-admin override**: No consensus requirement; single point of failure
 - **Optimizer self-regulation**: Circular; the optimizer cannot reliably constrain itself
 - **External governance service**: Adds dependency; meta-governance should be self-contained
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

@@ -12,7 +12,10 @@ sources:
     repo: https://github.com/anthropics/deer-flow
     path: skills/public/deep-research/SKILL.md
   - name: antigravity-awesome-skills
-    repo: https://github.com/anthropics/antigravity-awesome-skills
+
+  - domain/skills
+  - artifact/skill
+  - source/skills-research    repo: https://github.com/anthropics/antigravity-awesome-skills
     path: skills/deep-research/SKILL.md
 related_skills: []
 ---
@@ -288,3 +291,9 @@ python3 scripts/research.py --continue <interaction_id> --query "Elaborate on po
 "What's happening with the US housing market right now?"
 "Investigate the competitive landscape for AI code editors"
 ```
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-research]] — Category: skills-research
+

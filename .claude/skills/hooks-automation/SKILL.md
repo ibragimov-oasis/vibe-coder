@@ -1,6 +1,10 @@
 ---
 name: Hooks Automation
 description: Automated coordination, formatting, and learning from Claude Code operations using intelligent hooks with MCP integration. Includes pre/post task hooks, session management, Git integration, memory coordination, and neural pattern training for enhanced development workflows.
+tags:
+  - domain/skills
+  - artifact/config
+  - source/.claude
 ---
 
 # Hooks Automation
@@ -1199,3 +1203,9 @@ This skill works seamlessly with:
 - **GitHub Workflows** - Git integration for commits/PRs
 - **Performance Analysis** - Metrics collection in hooks
 - **Swarm Advanced** - Multi-agent coordination via hooks
+
+## 🔗 Связи
+
+- [[MOC - System]] — System
+- [[000 - Map of Maps]] — Map of Maps
+

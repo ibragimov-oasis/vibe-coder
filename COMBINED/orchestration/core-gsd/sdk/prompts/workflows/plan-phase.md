@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-gsd
+---
+
 <purpose>
 Create executable phase plans (PLAN.md files) for a roadmap phase with integrated research and verification.
 Headless SDK variant — runs autonomously. Research, planning, and plan-checking proceed without user prompts.
@@ -82,3 +89,10 @@ After plans pass the checker (or checker is skipped), verify all phase requireme
 - Plan checker passed (or issues logged)
 - Requirements coverage verified
 </success_criteria>
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/gsd]] — GSD
+- [[000 - Map of Maps]] — Map of Maps
+

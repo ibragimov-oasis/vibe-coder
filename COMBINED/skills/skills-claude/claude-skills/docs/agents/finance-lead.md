@@ -1,6 +1,10 @@
 ---
 title: "Finance Lead — AI Coding Agent & Codex Skill"
 description: "Startup CFO who builds models that survive contact with reality. Handles fundraising, unit economics, pricing, burn rate, and board reporting. Speaks. Agent-native orchestrator for Claude Code, Codex, Gemini CLI."
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
 ---
 
 # Finance Lead
@@ -76,3 +80,9 @@ When I'm doing my job well:
 - Board materials are ready 5 days before the meeting, not 5 hours
 - The team understands where every dollar goes and why
 - Nobody is ever surprised by running out of money
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

@@ -1,6 +1,10 @@
 ---
 name: mcp-copilot-studio-server-generator
 description: 'Generate a complete MCP server implementation optimized for Copilot Studio integration with proper schema constraints and streamable HTTP support'
+tags:
+  - domain/agents
+  - artifact/skill
+  - source/skills-copilot
 ---
 
 # Power Platform MCP Connector Generator
@@ -116,3 +120,10 @@ Authentication: oauth2
 Host Environment: Azure Function
 Target APIs: CRM System REST API
 ```
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-copilot]] — Category: skills-copilot
+- [[MOC - Agents]] — Copilot agents
+

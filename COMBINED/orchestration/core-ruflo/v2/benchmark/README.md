@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # Claude Flow Benchmark System v2.0
 
 Production-ready benchmarking for Claude Flow with **real command execution** and **authentic metrics**.
@@ -47,3 +54,9 @@ python examples/verify_real_integration.py
 ---
 
 **Version**: 2.0.0 | **Status**: Production Ready | **Real**: Yes | **Mocks**: None
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-ruflo]] — core-ruflo
+

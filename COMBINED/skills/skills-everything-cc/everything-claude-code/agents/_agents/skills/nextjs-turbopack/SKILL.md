@@ -2,6 +2,10 @@
 name: nextjs-turbopack
 description: Next.js 16+ and Turbopack — incremental bundling, FS caching, dev speed, and when to use Turbopack vs webpack.
 origin: ECC
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-everything-cc
 ---
 
 # Next.js and Turbopack
@@ -42,3 +46,9 @@ Run `next dev` for local development with Turbopack. Use the Bundle Analyzer (se
 - Stay on a recent Next.js 16.x for stable Turbopack and caching behavior.
 - If dev is slow, ensure you're on Turbopack (default) and that the cache isn't being cleared unnecessarily.
 - For production bundle size issues, use the official Next.js bundle analysis tooling for your version.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

@@ -168,3 +168,9 @@ Bridge lyrics...
 - Models: https://huggingface.co/HeartMuLa
 - Paper: https://arxiv.org/abs/2601.10547
 - License: Apache-2.0
+
+## 🔗 Связи
+
+- [[000 - Map of Maps]] — REPO_DOCS
+- [[000 - Map of Maps]] — Map of Maps
+

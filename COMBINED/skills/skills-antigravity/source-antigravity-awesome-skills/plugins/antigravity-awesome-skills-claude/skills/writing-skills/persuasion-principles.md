@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # Persuasion Principles for Skill Design
 
 ## Overview
@@ -185,3 +192,9 @@ When designing a skill, ask:
 3. **Which principle(s) apply?** (Usually authority + commitment for discipline)
 4. **Am I combining too many?** (Don't use all seven)
 5. **Is this ethical?** (Serves user's genuine interests?)
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

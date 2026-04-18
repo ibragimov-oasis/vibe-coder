@@ -13,6 +13,10 @@ safe-outputs:
   create-pull-request:
     labels: [automated-update, learning-hub, cli-for-beginners]
     title-prefix: "[bot] "
+tags:
+  - domain/agents
+  - artifact/agent
+  - source/by-interface/agents-copilot
 ---
 
 # CLI for Beginners Content Sync
@@ -133,3 +137,9 @@ If there is nothing to change after your analysis, do **not** open a PR. Instead
 - Do not auto-merge; the PR is for human review
 - If you are uncertain whether an upstream change warrants a Learning Hub update, err on the side of creating the PR — a human reviewer can always decline
 - Always call either `create-pull-request` or `noop` at the end of your run so the workflow clearly signals its outcome
+
+## 🔗 Связи
+
+- [[MOC - Agents]] — Agent catalog
+- [[agents/agents-copilot]] — Interface: agents-copilot
+

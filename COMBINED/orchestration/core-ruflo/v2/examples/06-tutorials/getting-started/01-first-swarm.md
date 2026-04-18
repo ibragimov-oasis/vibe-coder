@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # Your First Claude Flow Swarm
 
 This tutorial will guide you through creating your first swarm and understanding how Claude Flow works.
@@ -119,3 +126,10 @@ You've learned to:
 - ✅ Run generated applications
 
 Continue to [Tutorial 2: Working with Workflows](./02-workflows-intro.md)
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/mcp
+  - artifact/mcp-server
+  - source/mcp-servers
+---
+
 # OpenViking Claude 记忆插件（方案 B）
 
 基于 **OpenViking Session 记忆** 的 Claude Code 记忆插件。
@@ -97,3 +104,9 @@ bash /Users/quemingjian/.codex/worktrees/6e45/OpenViking/examples/claude-memory-
 - 此 MVP 不修改 OpenViking 核心。
 - 如果缺少 `./ov.conf`，钩子会安全降级并在 systemMessage 中报告状态。
 - 状态文件：`./.openviking/memory/session_state.json`
+
+## 🔗 Связи
+
+- [[MOC - MCP Servers]] — mcp-servers
+- [[000 - Map of Maps]] — Map of Maps
+

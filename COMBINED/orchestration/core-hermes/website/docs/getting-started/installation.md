@@ -2,6 +2,10 @@
 sidebar_position: 2
 title: "Installation"
 description: "Install Hermes Agent on Linux, macOS, or WSL2"
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-hermes
 ---
 
 # Installation
@@ -268,3 +272,10 @@ hermes
 | Missing config after update | Run `hermes config check` then `hermes config migrate` |
 
 For more diagnostics, run `hermes doctor` — it will tell you exactly what's missing and how to fix it.
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/hermes]] — Hermes
+- [[000 - Map of Maps]] — Map of Maps
+

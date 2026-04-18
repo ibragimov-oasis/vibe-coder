@@ -1,5 +1,9 @@
 ---
 applyTo: '**'
+tags:
+  - domain/agents
+  - artifact/agent
+  - source/by-interface/agents-copilot
 ---
 
 # Dataverse SDK for Python — Authentication & Security Patterns
@@ -525,3 +529,9 @@ Assign minimal required roles:
 - [Authenticate to Azure Services](https://learn.microsoft.com/en-us/azure/developer/python/sdk/authentication/overview)
 - [Azure Key Vault for Secrets](https://learn.microsoft.com/en-us/azure/key-vault/general/overview)
 - [Dataverse Security Model](https://learn.microsoft.com/en-us/power-platform/admin/security/security-overview)
+
+## 🔗 Связи
+
+- [[MOC - Agents]] — Agent catalog
+- [[agents/agents-copilot]] — Interface: agents-copilot
+

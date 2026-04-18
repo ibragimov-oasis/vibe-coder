@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # PRD Quality Checklist
 
 Use this checklist to validate generated PRDs before delivery.
@@ -63,3 +70,9 @@ Use this checklist to validate generated PRDs before delivery.
 | Stale mock data | Compare mock shapes with API types/interfaces | Flag as `[Mock - verify with backend]` |
 | Missing error states | Search for error boundaries, catch blocks, toast errors | Add failure paths to interactions |
 | Unlinked pages | Cross-reference route params with navigation calls | Complete page relationships |
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

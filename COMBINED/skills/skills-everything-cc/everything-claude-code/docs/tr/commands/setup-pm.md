@@ -1,6 +1,10 @@
 ---
 description: Tercih ettiğiniz paket yöneticisini yapılandırın (npm/pnpm/yarn/bun)
 disable-model-invocation: true
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
 ---
 
 # Paket Yöneticisi Kurulumu
@@ -78,3 +82,9 @@ Mevcut paket yöneticisi tespit sonuçlarını görmek için şunu çalıştır�
 ```bash
 node scripts/setup-package-manager.js --detect
 ```
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

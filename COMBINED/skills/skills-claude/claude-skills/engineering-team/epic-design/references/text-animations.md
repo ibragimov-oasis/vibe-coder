@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # Text Animation Reference
 
 ## Table of Contents
@@ -707,3 +714,9 @@ function initHeroTextSequence() {
   }, 0.7);
 }
 ```
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

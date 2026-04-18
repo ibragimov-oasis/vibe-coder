@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/seo
+  - artifact/doc
+  - source/skills-seo
+---
+
 # Example Topic Idea
 
 This is an example of how to capture raw topic ideas in the `/topics` folder.
@@ -46,3 +53,9 @@ Podcast analytics for beginners
 ---
 
 **Note**: This is just a brain dump. Not all ideas will become articles. Use this space to capture thoughts, then run `/research` to validate and develop the topic.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-seo]] — Category: skills-seo
+

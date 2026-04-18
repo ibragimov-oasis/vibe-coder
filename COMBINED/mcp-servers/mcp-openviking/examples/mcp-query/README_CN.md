@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/mcp
+  - artifact/mcp-server
+  - source/mcp-servers
+---
+
 # OpenViking MCP Server
 
 MCP（Model Context Protocol）HTTP 服务器，将 OpenViking RAG 能力作为工具暴露。
@@ -64,3 +71,9 @@ uv run server.py [OPTIONS]
 npx @modelcontextprotocol/inspector
 # 连接到 http://localhost:2033/mcp
 ```
+
+## 🔗 Связи
+
+- [[MOC - MCP Servers]] — mcp-servers
+- [[000 - Map of Maps]] — Map of Maps
+

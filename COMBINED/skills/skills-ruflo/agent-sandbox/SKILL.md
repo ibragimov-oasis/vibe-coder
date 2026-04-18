@@ -1,6 +1,10 @@
 ---
 name: agent-sandbox
 description: Agent skill for sandbox - invoke with $agent-sandbox
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-ruflo
 ---
 
 ---
@@ -79,3 +83,9 @@ Quality standards:
 - Scalable sandbox orchestration for multiple environments
 
 When managing sandboxes, always consider security isolation, resource efficiency, and clear execution workflows that support rapid development and testing cycles.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-ruflo]] — Category: skills-ruflo
+

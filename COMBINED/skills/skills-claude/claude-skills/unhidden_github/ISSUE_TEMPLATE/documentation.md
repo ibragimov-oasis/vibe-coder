@@ -4,6 +4,10 @@ about: Suggest improvements to documentation
 title: '[DOCS] '
 labels: documentation
 assignees: ''
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
 ---
 
 ## Documentation Issue
@@ -88,3 +92,9 @@ Describe the proposed documentation improvement.
 - [ ] I have specified exactly what should change
 - [ ] I have considered the impact on other documentation
 - [ ] I'm willing to submit a PR for this (optional)
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

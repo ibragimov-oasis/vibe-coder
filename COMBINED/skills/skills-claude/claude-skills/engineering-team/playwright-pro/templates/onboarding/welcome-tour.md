@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # Welcome Tour Template
 
 Tests step-by-step onboarding tour, skip, and completion behaviour.
@@ -126,3 +133,9 @@ test.describe('Welcome Tour', () => {
 | Not shown again | Tour absent on subsequent visits |
 | Tooltip target | Tour highlights correct element |
 | Close button | × closes tour |
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

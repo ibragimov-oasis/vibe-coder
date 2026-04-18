@@ -1,6 +1,10 @@
 ---
 description: 'Expert agent for creating and maintaining VSCode CodeTour files with comprehensive schema support and best practices'
 name: 'VSCode Tour Expert'
+tags:
+  - domain/agents
+  - artifact/agent
+  - source/by-interface/agents-copilot
 ---
 
 # VSCode Tour Expert 🗺️
@@ -203,3 +207,9 @@ When creating tours:
 - Collect feedback and iterate on tour content
 
 Remember: Great tours tell a story about the code, making complex systems approachable and helping developers build mental models of how everything works together.
+
+## 🔗 Связи
+
+- [[MOC - Agents]] — Agent catalog
+- [[agents/agents-copilot]] — Interface: agents-copilot
+

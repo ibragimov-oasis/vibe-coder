@@ -1,6 +1,10 @@
 ---
 title: "Product Manager Toolkit — Agent Skill for Product Teams"
 description: "Comprehensive toolkit for product managers including RICE prioritization, customer interview analysis, PRD templates, discovery frameworks, and. Agent skill for Claude Code, Codex CLI, Gemini CLI, OpenClaw."
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
 ---
 
 # Product Manager Toolkit
@@ -361,3 +365,9 @@ python scripts/customer_interview_analyzer.py interview.txt json
 
 - `references/prd_templates.md` - PRD templates for different contexts
 - `references/frameworks.md` - Detailed framework documentation (RICE, MoSCoW, Kano, JTBD, etc.)
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

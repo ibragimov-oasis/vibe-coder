@@ -4,6 +4,10 @@ description: Azure Monitor OpenTelemetry Exporter for Python. Use for low-level 
 risk: unknown
 source: community
 date_added: '2026-02-27'
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 # Azure Monitor OpenTelemetry Exporter for Python
@@ -204,3 +208,9 @@ exporter = AzureMonitorTraceExporter(
 4. **Use AAD authentication** instead of instrumentation keys
 5. **Set export intervals** appropriate for your workload
 6. **Use the distro** (`azure-monitor-opentelemetry`) unless you need custom pipelines
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

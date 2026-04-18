@@ -2,6 +2,10 @@
 sidebar_position: 1
 title: "Tools & Toolsets"
 description: "Overview of Hermes Agent's tools — what's available, how toolsets work, and terminal backends"
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-hermes
 ---
 
 # Tools & Toolsets
@@ -163,3 +167,10 @@ If a command needs sudo, you'll be prompted for your password (cached for the se
 :::warning
 On messaging platforms, if sudo fails, the output includes a tip to add `SUDO_PASSWORD` to `~/.hermes/.env`.
 :::
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/hermes]] — Hermes
+- [[000 - Map of Maps]] — Map of Maps
+

@@ -3,6 +3,9 @@ name: timing
 description: Interpolation curves in Remotion - linear, easing, spring animations
 metadata:
   tags: spring, bounce, easing, interpolation
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-archon
 ---
 
 A simple linear interpolation is done using the `interpolate` function.
@@ -177,3 +180,10 @@ const value1 = interpolate(frame, [0, 100], [0, 1], {
   extrapolateRight: "clamp",
 });
 ```
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/archon]] — Archon
+- [[000 - Map of Maps]] — Map of Maps
+

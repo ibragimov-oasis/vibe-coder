@@ -3,6 +3,10 @@ description: "Expert guidance for Azure Logic Apps development focusing on workf
 name: "Azure Logic Apps Expert Mode"
 model: "gpt-4"
 tools: ["codebase", "changes", "edit/editFiles", "search", "runCommands", "microsoft.docs.mcp", "azure_get_code_gen_best_practices", "azure_query_learn"]
+tags:
+  - domain/agents
+  - artifact/agent
+  - source/by-interface/agents-copilot
 ---
 
 # Azure Logic Apps Expert Mode
@@ -100,3 +104,9 @@ For architectural questions:
 - **Cost Optimization**: Reducing action counts, efficient connector usage, and consumption management
 
 When providing guidance, search Microsoft documentation first using `microsoft.docs.mcp` and `azure_query_learn` tools for the latest Logic Apps information. Provide specific, accurate JSON examples that follow Logic Apps best practices and the Workflow Definition Language schema.
+
+## 🔗 Связи
+
+- [[MOC - Agents]] — Agent catalog
+- [[agents/agents-copilot]] — Interface: agents-copilot
+

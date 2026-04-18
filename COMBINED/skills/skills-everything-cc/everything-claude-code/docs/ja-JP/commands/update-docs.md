@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
+---
+
 # Update Documentation
 
 信頼できる情報源からドキュメントを同期:
@@ -29,3 +36,9 @@
 6. 差分サマリーを表示
 
 信頼できる唯一の情報源: package.jsonと.env.example
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

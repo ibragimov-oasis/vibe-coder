@@ -3,6 +3,10 @@ name: skin-health-analyzer
 description: Analyze skin health data, identify skin problem patterns, assess skin health status. Supports correlation analysis with nutrition, chronic diseases, and medication data.
 risk: safe
 source: community
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 # 皮肤健康分析技能
@@ -708,3 +712,9 @@ source: community
 
 ## When to Use
 Use this skill when tackling tasks related to its primary domain or functionality as described above.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

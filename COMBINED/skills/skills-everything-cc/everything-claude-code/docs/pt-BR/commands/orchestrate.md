@@ -1,5 +1,9 @@
 ---
 description: Orientação de orquestração sequencial e tmux/worktree para fluxos multiagente.
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
 ---
 
 # Comando Orchestrate
@@ -228,3 +232,9 @@ $ARGUMENTS:
 3. **Use security-reviewer** para auth/pagamento/PII
 4. **Mantenha handoffs concisos** - foque no que o próximo agente precisa
 5. **Rode verificação** entre agentes quando necessário
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

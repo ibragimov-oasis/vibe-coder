@@ -4,6 +4,10 @@ description: "You are a data pipeline architecture expert specializing in scalab
 risk: unknown
 source: community
 date_added: "2026-02-27"
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 # Data Pipeline Architecture
@@ -202,3 +206,9 @@ ingester.save_dead_letter_queue('s3://lake/dlq/orders')
 - Cost optimization reduces infrastructure costs by 30-50%
 - Schema evolution without downtime
 - End-to-end data lineage tracked
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

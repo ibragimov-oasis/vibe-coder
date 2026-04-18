@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # Skills vs MCP Tools
 
 If you are trying to understand the difference between **Antigravity skills** and **MCP tools**, the short version is:
@@ -87,3 +94,9 @@ Many skills in this repo also explain how to work with MCP, APIs, and other inte
 - [AI Agent Skills](ai-agent-skills.md)
 - [Codex CLI Skills](codex-cli-skills.md)
 - [Gemini CLI Skills](gemini-cli-skills.md)
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

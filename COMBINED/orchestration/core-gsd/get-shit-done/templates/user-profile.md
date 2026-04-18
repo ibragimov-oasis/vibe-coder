@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-gsd
+---
+
 # Developer Profile
 
 > This profile was generated from session analysis. It contains behavioral directives
@@ -144,3 +151,10 @@
 | Medium Confidence | {{medium_confidence_count}} |
 | Low Confidence | {{low_confidence_count}} |
 | Sensitive Content Excluded | {{sensitive_excluded_summary}} |
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-gsd]] — core-gsd
+- [[MOC - Skills]] — Skills library
+

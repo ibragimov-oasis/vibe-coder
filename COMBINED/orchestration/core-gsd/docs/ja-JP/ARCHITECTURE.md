@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-gsd
+---
+
 # GSD アーキテクチャ
 
 > コントリビューターおよび上級ユーザー向けのシステムアーキテクチャ文書です。ユーザー向けドキュメントは[機能リファレンス](FEATURES.md)または[ユーザーガイド](USER-GUIDE.md)をご覧ください。
@@ -525,3 +532,10 @@ GSDは統一されたコマンド/ワークフローアーキテクチャを通�
 5. **モデル参照** — `inherit` プロファイルにより、GSDはランタイムのモデル選択に委譲
 
 インストーラーはインストール時にすべての変換を処理します。ワークフローとエージェントはClaude Codeのネイティブ形式で記述され、デプロイ時に変換されます。
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-gsd]] — core-gsd
+- [[MOC - Skills]] — Skills library
+

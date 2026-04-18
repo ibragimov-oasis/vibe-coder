@@ -62,3 +62,9 @@ OMC + RuFlo + GSD + **Matt Pocock improve-codebase-architecture** + **code-revie
 ## Исходник
 
 > 📂 `../COMBINED/agents/mega/mega-architect.md`
+
+## 🔗 Связи
+
+- [[MOC - Agents]] — Parent MOC
+- [[000 - Map of Maps]] — Map of Maps
+

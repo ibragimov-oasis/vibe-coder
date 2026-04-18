@@ -4,6 +4,10 @@ type: docs
 weight: 8
 description: >
    Prompts allow servers to provide structured messages and instructions for interacting with language models.
+tags:
+  - domain/mcp
+  - artifact/mcp-server
+  - source/mcp-servers
 ---
 
 A `prompt` represents a reusable prompt template that can be retrieved and used
@@ -79,3 +83,9 @@ The workflow is as follows:
    model's response is displayed back to you in the CLI.
 
 ## Types of prompts
+
+## 🔗 Связи
+
+- [[MOC - MCP Servers]] — mcp-servers
+- [[000 - Map of Maps]] — Map of Maps
+

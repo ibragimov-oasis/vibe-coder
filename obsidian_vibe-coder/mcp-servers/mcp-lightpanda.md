@@ -52,3 +52,9 @@ chmod a+x ./lightpanda
 ## Rule #1
 
 > [[_governance/VAULT_GOVERNANCE]] — Rule 1: Browser = Lightpanda. NEVER Chrome.
+
+## 🔗 Связи
+
+- [[MOC - MCP Servers]] — Parent MOC
+- [[000 - Map of Maps]] — Map of Maps
+

@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/command
+  - source/claude-commands
+---
+
 # GitHub Issue Tracker
 
 ## Purpose
@@ -290,3 +297,9 @@ Updates will be posted automatically by swarm agents during implementation.
 - Agent performance analytics
 - Project health metrics
 - Integration success rates
+
+## 🔗 Связи
+
+- [[MOC - System]] — System commands
+- [[MOC - Skills]] — Skills library
+

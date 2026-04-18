@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # 🚀 Claude-Flow Production Deployment Guide
 
 ## Table of Contents
@@ -2346,3 +2353,10 @@ kubectl get events --sort-by='.metadata.creationTimestamp' -n claude-flow  # Rec
 [🐙 GitHub Repository](https://github.com/ruvnet/claude-flow) | [🐛 Report Issues](https://github.com/ruvnet/claude-flow/issues) | [💬 Community Support](https://discord.gg/claude-flow)
 
 </div>
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

@@ -1,6 +1,10 @@
 ---
 name: devops-rollout-plan
 description: 'Generate comprehensive rollout plans with preflight checks, step-by-step deployment, verification signals, rollback procedures, and communication plans for infrastructure and application changes'
+tags:
+  - domain/agents
+  - artifact/skill
+  - source/skills-copilot
 ---
 
 # DevOps Rollout Plan Generator
@@ -115,3 +119,10 @@ Adapt based on:
 - Never deploy on Friday afternoon (unless critical)
 - Never skip verification steps
 - Never assume "it should work"
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-copilot]] — Category: skills-copilot
+- [[MOC - Agents]] — Copilot agents
+

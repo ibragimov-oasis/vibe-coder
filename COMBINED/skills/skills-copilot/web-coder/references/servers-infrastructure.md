@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-copilot
+---
+
 # Servers & Infrastructure Reference
 
 Web servers, hosting, deployment, and infrastructure concepts.
@@ -613,3 +620,9 @@ Add more servers.
 - [AWS Documentation](https://docs.aws.amazon.com/)
 - [Let's Encrypt](https://letsencrypt.org/)
 - [PM2 Documentation](https://pm2.keymetrics.io/docs/)
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-copilot]] — Category: skills-copilot
+

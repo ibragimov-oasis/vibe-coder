@@ -1,4 +1,11 @@
 ---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
+---
 title: "Collections | Apple Developer Documentation"
 source: https://developer.apple.com/design/human-interface-guidelines/collections
 
@@ -45,4 +52,9 @@ Generally speaking, collections are ideal for showing image-based content.
 [`UICollectionView`](https://developer.apple.com/documentation/UIKit/UICollectionView) — UIKit
 
 [`NSCollectionView`](https://developer.apple.com/documentation/AppKit/NSCollectionView) — AppKit
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
 

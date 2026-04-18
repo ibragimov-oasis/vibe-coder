@@ -9,6 +9,10 @@ allowed-tools:
   - Bash
   - Grep
   - Glob
+tags:
+  - domain/skills
+  - artifact/command
+  - source/commands
 ---
 
 <objective>
@@ -54,3 +58,9 @@ Read and execute the forensics workflow from @~/.claude/get-shit-done/workflows/
 - **Ground findings in evidence:** Every anomaly must cite specific commits, files, or state data.
 - **No speculation without evidence:** If data is insufficient, say so — do not fabricate root causes.
 </critical_rules>
+
+## 🔗 Связи
+
+- [[MOC - System]] — commands
+- [[000 - Map of Maps]] — Map of Maps
+

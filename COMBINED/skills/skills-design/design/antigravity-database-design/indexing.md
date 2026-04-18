@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/ui
+  - artifact/doc
+  - source/skills-design
+---
+
 # Indexing Principles
 
 > When and how to create indexes effectively.
@@ -37,3 +44,9 @@ Order matters for composite indexes:
 ├── Most selective first
 └── Match query pattern
 ```
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-design]] — Category: skills-design
+

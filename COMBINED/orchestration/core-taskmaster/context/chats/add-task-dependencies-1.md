@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-taskmaster
+---
+
 # Task Title Formatting Issue Discussion
 
 _Exported on 5/22/2025 at 00:05:09 EDT from Cursor (0.50.5)_
@@ -1796,3 +1803,10 @@ console.log(
 ```
 
 Let's test our changes to see how they improve the task dependency handling:
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-taskmaster]] — core-taskmaster
+- [[MOC - Skills]] — Skills library
+

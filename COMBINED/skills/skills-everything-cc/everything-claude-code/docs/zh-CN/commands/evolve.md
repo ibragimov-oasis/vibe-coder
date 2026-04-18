@@ -2,6 +2,10 @@
 name: evolve
 description: 分析本能并建议或生成进化结构
 command: true
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
 ---
 
 # Evolve 命令
@@ -192,3 +196,9 @@ evolved_from:
 [基于聚类本能生成的内容]
 
 ```
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

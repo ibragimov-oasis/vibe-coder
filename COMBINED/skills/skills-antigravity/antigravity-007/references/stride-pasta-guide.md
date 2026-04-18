@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # STRIDE & PASTA Threat Modeling Guide
 
 > Practical guide for threat modeling systems, APIs, and AI agents.
@@ -393,3 +400,9 @@ agent_security:
 | **High Probability** | MEDIUM | HIGH | CRITICAL |
 | **Medium Probability** | LOW | MEDIUM | HIGH |
 | **Low Probability** | LOW | LOW | MEDIUM |
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

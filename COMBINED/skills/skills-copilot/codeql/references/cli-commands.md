@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-copilot
+---
+
 # CodeQL CLI Command Reference
 
 Detailed reference for the CodeQL CLI — installation, database creation, analysis, SARIF upload, and CI integration.
@@ -281,3 +288,9 @@ For CI systems other than GitHub Actions:
 | `CODEQL_EXTRACTOR_CPP_AUTOINSTALL_DEPENDENCIES` | Auto-install C/C++ build dependencies on Ubuntu |
 | `CODEQL_RAM` | Override default RAM allocation for analysis |
 | `CODEQL_THREADS` | Override default thread count |
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-copilot]] — Category: skills-copilot
+

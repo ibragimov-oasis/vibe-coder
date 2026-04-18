@@ -1,5 +1,9 @@
 ---
 description: 管理Claude Code会话历史、别名和会话元数据。
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
 ---
 
 # Sessions 命令
@@ -338,3 +342,9 @@ $ARGUMENTS:
 * 别名存储在 `~/.claude/session-aliases.json`
 * 会话 ID 可以缩短（通常前 4-8 个字符就足够唯一）
 * 为经常引用的会话使用别名
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

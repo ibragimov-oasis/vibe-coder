@@ -2,6 +2,10 @@
 name: instinct-export
 description: チームメイトや他のプロジェクトと共有するためにインスティンクトをエクスポート
 command: /instinct-export
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
 ---
 
 # インスティンクトエクスポートコマンド
@@ -89,3 +93,9 @@ instincts:
 - `--output <file>`: 出力ファイルパス（デフォルト: instincts-export-YYYYMMDD.yaml）
 - `--format <yaml|json|md>`: 出力形式（デフォルト: yaml）
 - `--include-evidence`: 証拠テキストを含める（デフォルト: 除外）
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

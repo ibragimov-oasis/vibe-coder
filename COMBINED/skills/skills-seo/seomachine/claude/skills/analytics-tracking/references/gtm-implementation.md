@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/seo
+  - artifact/doc
+  - source/skills-seo
+---
+
 # Google Tag Manager Implementation Reference
 
 Detailed guide for implementing tracking via Google Tag Manager.
@@ -378,3 +385,9 @@ function() {
   return el ? parseFloat(el.textContent.replace('$', '')) : 0;
 }
 ```
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-seo]] — Category: skills-seo
+

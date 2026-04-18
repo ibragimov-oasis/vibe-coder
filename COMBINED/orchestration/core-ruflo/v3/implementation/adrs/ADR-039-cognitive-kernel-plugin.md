@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # ADR-039: Cognitive Kernel Plugin
 
 **Status:** Proposed
@@ -500,3 +507,10 @@ const CognitiveRateLimits = {
 ---
 
 **Last Updated:** 2026-01-24
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

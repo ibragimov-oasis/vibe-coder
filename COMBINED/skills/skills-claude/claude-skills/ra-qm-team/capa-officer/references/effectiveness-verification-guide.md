@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # Effectiveness Verification Guide
 
 CAPA effectiveness assessment procedures, verification methods, and closure criteria.
@@ -460,3 +467,9 @@ CONCLUSION:
 [ ] Interviewee demonstrates partial knowledge (specify gaps)
 [ ] Interviewee does not demonstrate required knowledge
 ```
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

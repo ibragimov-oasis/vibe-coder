@@ -2,6 +2,10 @@
 name: image-manipulation-image-magick
 description: Process and manipulate images using ImageMagick. Supports resizing, format conversion, batch processing, and retrieving image metadata. Use when working with images, creating thumbnails, resizing wallpapers, or performing batch image operations.
 compatibility: Requires ImageMagick installed and available as `magick` on PATH. Cross-platform examples provided for PowerShell (Windows) and Bash (Linux/macOS).
+tags:
+  - domain/agents
+  - artifact/skill
+  - source/skills-copilot
 ---
 
 # Image Manipulation with ImageMagick
@@ -250,3 +254,10 @@ magick "$img" -resize 427x240 "thumbnails/thumb_$filename"
 - Large batch operations may be memory-intensive
 - Some complex operations may require additional ImageMagick delegates
 - On older Linux systems, use `convert` instead of `magick` (ImageMagick 6.x vs 7.x)
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-copilot]] — Category: skills-copilot
+- [[MOC - Agents]] — Copilot agents
+

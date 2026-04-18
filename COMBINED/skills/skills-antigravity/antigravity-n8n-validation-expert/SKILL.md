@@ -3,6 +3,10 @@ name: n8n-validation-expert
 description: "Expert guide for interpreting and fixing n8n validation errors."
 risk: unknown
 source: community
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 # n8n Validation Expert
@@ -689,3 +693,9 @@ For comprehensive error catalogs and false positive examples:
 - n8n MCP Tools Expert - Use validation tools correctly
 - n8n Expression Syntax - Fix expression errors
 - n8n Node Configuration - Understand required fields
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

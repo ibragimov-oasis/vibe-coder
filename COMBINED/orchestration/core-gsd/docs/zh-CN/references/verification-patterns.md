@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-gsd
+---
+
 # 验证模式
 
 如何验证不同类型的工件是真实实现，而非存根或占位符。
@@ -610,3 +617,10 @@ check_substantive() {
 - 错误处理：检查点前修复损坏环境，绝不呈现有失败设置的检查点
 
 </checkpoint_automation_reference>
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/gsd]] — GSD
+- [[000 - Map of Maps]] — Map of Maps
+

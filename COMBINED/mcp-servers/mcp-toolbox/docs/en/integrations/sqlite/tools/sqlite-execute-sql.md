@@ -4,6 +4,10 @@ type: docs
 weight: 1
 description: >
   A "sqlite-execute-sql" tool executes a single SQL statement against a SQLite database.
+tags:
+  - domain/mcp
+  - artifact/mcp-server
+  - source/mcp-servers
 ---
 
 ## About
@@ -39,3 +43,9 @@ description: Use this tool to execute a SQL statement.
 | type        |  string  |     true     | Must be "sqlite-execute-sql".                      |
 | source      |  string  |     true     | Name of the source the SQL should execute on.      |
 | description |  string  |     true     | Description of the tool that is passed to the LLM. |
+
+## 🔗 Связи
+
+- [[MOC - MCP Servers]] — mcp-servers
+- [[000 - Map of Maps]] — Map of Maps
+

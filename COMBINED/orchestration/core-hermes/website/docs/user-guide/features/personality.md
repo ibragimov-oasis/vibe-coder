@@ -2,6 +2,10 @@
 sidebar_position: 9
 title: "Personality & SOUL.md"
 description: "Customize Hermes Agent's personality with a global SOUL.md, built-in personalities, and custom persona definitions"
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-hermes
 ---
 
 # Personality & SOUL.md
@@ -269,3 +273,10 @@ Conversational personality and CLI appearance are separate:
 - `display.skin` and `/skin` affect how Hermes looks in the terminal
 
 For terminal appearance, see [Skins & Themes](./skins.md).
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/hermes]] — Hermes
+- [[000 - Map of Maps]] — Map of Maps
+

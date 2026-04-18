@@ -1,6 +1,10 @@
 ---
 title: "Smart Test Reporting — Agent Skill & Codex Plugin"
 description: "Generate test report. Use when user says 'test report', 'results summary', 'test status', 'show results', 'test dashboard', or 'how did tests go'. Agent skill for Claude Code, Codex CLI, Gemini CLI, OpenClaw."
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
 ---
 
 # Smart Test Reporting
@@ -133,3 +137,9 @@ If previous reports exist in `test-reports/`:
 - Report destination confirmation
 - Trend comparison (if historical data available)
 - Next action recommendation (fix failures or celebrate green)
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

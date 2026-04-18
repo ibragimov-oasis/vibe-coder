@@ -1,6 +1,10 @@
 ---
 applyTo: ['*']
 description: "Comprehensive best practices for AI prompt engineering, safety frameworks, bias mitigation, and responsible AI usage for Copilot and LLMs."
+tags:
+  - domain/agents
+  - artifact/agent
+  - source/by-interface/agents-copilot
 ---
 
 # AI Prompt Engineering & Safety Best Practices
@@ -864,4 +868,10 @@ Write a story about a successful CEO. The CEO should be male and from a wealthy 
 
 ---
 
-<!-- End of AI Prompt Engineering & Safety Best Practices Instructions --> 
+<!-- End of AI Prompt Engineering & Safety Best Practices Instructions -->
+
+## 🔗 Связи
+
+- [[MOC - Agents]] — Agent catalog
+- [[agents/agents-copilot]] — Interface: agents-copilot
+

@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/memory
+  - artifact/memory
+  - source/memory
+---
+
 <claude-mem-context>
 # Recent Activity
 
@@ -81,3 +88,9 @@
 | #24409 | " | ✅ | Migration Steps Documentation Updated for Cross-Platform PM2 Cleanup | ~278 |
 | #24408 | 8:13 PM | ✅ | PM2 Migration Documentation Updated to Remove Windows Platform Check | ~280 |
 </claude-mem-context>
+
+## 🔗 Связи
+
+- [[MOC - Memory]] — memory
+- [[000 - Map of Maps]] — Map of Maps
+

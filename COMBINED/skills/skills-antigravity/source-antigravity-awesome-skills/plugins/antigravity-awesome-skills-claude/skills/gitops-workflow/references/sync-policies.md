@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # GitOps Sync Policies
 
 ## ArgoCD Sync Policies
@@ -129,3 +136,9 @@ data:
 8. Use prune with caution in production
 9. Test sync policies in staging
 10. Document sync behavior for teams
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

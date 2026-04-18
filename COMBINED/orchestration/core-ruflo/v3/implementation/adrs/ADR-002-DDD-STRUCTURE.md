@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # ADR-002: Implement Domain-Driven Design Structure
 
 **Status:** Implemented
@@ -159,3 +166,10 @@ export class CreateTaskCommand {
 
 **Implementation Date:** 2026-01-04
 **Status:** ✅ Complete
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-copilot
+---
+
 # Azure Architecture: [Resource Group Name]
 
 **Subscription**: [subscription-name]  
@@ -39,3 +46,9 @@
 ## Notes & Recommendations
 
 [Any observations, potential issues, or suggestions]
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-copilot]] — Category: skills-copilot
+

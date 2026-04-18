@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # Python Tools Audit Report
 
 **Repository:** Claude Skills Library by nginity
@@ -492,3 +499,9 @@ Prioritize based on user value:
 ---
 
 **Audit status: ✅ Updated and current as of November 7, 2025.**
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

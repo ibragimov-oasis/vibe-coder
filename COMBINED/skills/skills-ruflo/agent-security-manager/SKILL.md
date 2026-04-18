@@ -1,6 +1,10 @@
 ---
 name: agent-security-manager
 description: Agent skill for security-manager - invoke with $agent-security-manager
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-ruflo
 ---
 
 ---
@@ -625,3 +629,9 @@ class ConsensusPenetrationTester {
 ```
 
 This security manager provides comprehensive protection for distributed consensus protocols with enterprise-grade cryptographic security, advanced threat detection, and robust key management capabilities.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-ruflo]] — Category: skills-ruflo
+

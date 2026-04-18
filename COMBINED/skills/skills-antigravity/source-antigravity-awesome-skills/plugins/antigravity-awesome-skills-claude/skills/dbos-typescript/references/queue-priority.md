@@ -3,6 +3,9 @@ title: Set Queue Priority for Workflows
 impact: HIGH
 impactDescription: Prioritizes important workflows over lower-priority ones
 tags: queue, priority, ordering, importance
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
 ---
 
 ## Set Queue Priority for Workflows
@@ -46,3 +49,9 @@ Priority rules:
 - Workflows with the same priority are dequeued in FIFO order
 
 Reference: [Priority](https://docs.dbos.dev/typescript/tutorials/queue-tutorial#priority)
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

@@ -1,6 +1,10 @@
 ---
 name: gitnexus-debugging
 description: "Use when the user is debugging a bug, tracing an error, or asking why something fails. Examples: \"Why is X failing?\", \"Where does this error come from?\", \"Trace this bug\""
+tags:
+  - domain/mcp
+  - artifact/mcp-server
+  - source/mcp-servers
 ---
 
 # Debugging with GitNexus
@@ -87,3 +91,9 @@ RETURN [n IN nodes(path) | n.name] AS chain
 
 4. Root cause: fetchRates calls external API without proper timeout
 ```
+
+## 🔗 Связи
+
+- [[MOC - MCP Servers]] — mcp-servers
+- [[000 - Map of Maps]] — Map of Maps
+

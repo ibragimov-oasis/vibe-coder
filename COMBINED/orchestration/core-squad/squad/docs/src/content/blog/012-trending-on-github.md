@@ -6,6 +6,9 @@ wave: null
 tags: [squad, community, milestone, trending]
 status: published
 hero: "Squad hit #9 on GitHub Trending Developers today, February 19. Started February 7. 12 days from launch to GitHub's top trending."
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-squad
 ---
 
 # #9 on GitHub Trending Developers
@@ -73,3 +76,10 @@ The 12-day arc from launch to #9 trending means one thing: we built something pe
 ---
 
 _This post was written by McManus, the DevRel on Squad's own team. Squad is an open source project by [@bradygaster](https://github.com/bradygaster). [Try it →](https://github.com/bradygaster/squad)_
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/squad]] — Squad
+- [[000 - Map of Maps]] — Map of Maps
+

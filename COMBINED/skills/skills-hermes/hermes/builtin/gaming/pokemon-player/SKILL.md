@@ -2,6 +2,9 @@
 name: pokemon-player
 description: Play Pokemon games autonomously via headless emulation. Starts a game server, reads structured game state from RAM, makes strategic decisions, and sends button inputs — all from the terminal.
 tags: [gaming, pokemon, emulator, pyboy, gameplay, gameboy]
+  - domain/skills
+  - artifact/skill
+  - source/skills-hermes
 ---
 # Pokemon Player
 
@@ -213,3 +216,9 @@ Then hold B to speed through attack animations and text.
 - Dialog detection via RAM is unreliable — verify with screenshots
 - Save BEFORE risky encounters
 - The tunnel URL changes each time you restart it
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-hermes]] — Category: skills-hermes
+

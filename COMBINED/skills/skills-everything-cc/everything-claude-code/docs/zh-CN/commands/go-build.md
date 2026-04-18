@@ -1,5 +1,9 @@
 ---
 description: 逐步修复Go构建错误、go vet警告和linter问题。调用go-build-resolver代理进行最小化、精确的修复。
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
 ---
 
 # Go 构建与修复
@@ -181,3 +185,9 @@ ok      project/internal/handler   0.023s
 - 代理: `agents/go-build-resolver.md`
 - 技能: `skills/golang-patterns/`
 ```
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

@@ -2,6 +2,10 @@
 description: "Swift coding style extending common rules"
 globs: ["**/*.swift", "**/Package.swift"]
 alwaysApply: false
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
 ---
 # Swift Coding Style
 
@@ -45,3 +49,9 @@ Enable Swift 6 strict concurrency checking. Prefer:
 - `Sendable` value types for data crossing isolation boundaries
 - Actors for shared mutable state
 - Structured concurrency (`async let`, `TaskGroup`) over unstructured `Task {}`
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # CLAUDE.md Optimizer Guide
 
 ## Overview
@@ -677,3 +684,10 @@ optimizer.export_benchmark_history("debug_metrics.json")
 ```
 
 This guide provides comprehensive information for using the CLAUDE.md optimizer effectively. For additional examples and advanced usage patterns, refer to the examples directory and API reference documentation.
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-gsd
+---
+
 <purpose>
 Execute discovery at the appropriate depth level.
 Produces DISCOVERY.md (for Level 2-3) that informs PLAN.md creation.
@@ -287,3 +294,10 @@ NOTE: DISCOVERY.md is NOT committed separately. It will be committed with phase 
 - Confidence gate passed
 - Ready to inform PLAN.md creation
 </success_criteria>
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-gsd]] — core-gsd
+- [[MOC - Skills]] — Skills library
+

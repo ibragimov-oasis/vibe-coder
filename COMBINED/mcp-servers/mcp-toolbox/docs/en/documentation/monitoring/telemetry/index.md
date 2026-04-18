@@ -4,6 +4,10 @@ type: docs
 weight: 2
 description: >
   An overview of telemetry and observability in Toolbox.
+tags:
+  - domain/mcp
+  - artifact/mcp-server
+  - source/mcp-servers
 ---
 
 ## About
@@ -392,3 +396,9 @@ To enable OTLP Exporter, provide Collector endpoint:
 ```bash
 ./toolbox --telemetry-otlp="127.0.0.1:4553"
 ```
+
+## 🔗 Связи
+
+- [[MOC - MCP Servers]] — mcp-servers
+- [[000 - Map of Maps]] — Map of Maps
+

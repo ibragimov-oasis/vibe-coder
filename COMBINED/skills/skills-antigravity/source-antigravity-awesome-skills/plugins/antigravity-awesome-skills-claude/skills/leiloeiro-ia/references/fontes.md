@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # Fontes e Referências — Leiloeiro IA
 
 ## Legislação
@@ -19,3 +26,9 @@
 - zukerman.com.br
 - superbid.net
 - caixavbr.com.br
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

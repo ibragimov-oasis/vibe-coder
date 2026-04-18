@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-taskmaster
+---
+
 ## Summary
 
 - Put the existing git and test workflows on rails: a repeatable, automated process that can run autonomously, with guardrails and a compact TUI for visibility.
@@ -909,4 +916,10 @@ Topological traversal (implementation order):
 - Tag Management: scripts/modules/task-manager/tag-management.js
 
  - Surgical Test Generator: .claude/agents/surgical-test-generator.md
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-taskmaster]] — core-taskmaster
+- [[MOC - Skills]] — Skills library
 

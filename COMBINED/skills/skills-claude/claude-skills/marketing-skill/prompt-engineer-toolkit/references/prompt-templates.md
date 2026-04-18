@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # Prompt Templates
 
 ## 1) Structured Extractor
@@ -103,3 +110,9 @@ Return concise recommendations and an improved version.
 Prompt:
 {{input}}
 ```
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

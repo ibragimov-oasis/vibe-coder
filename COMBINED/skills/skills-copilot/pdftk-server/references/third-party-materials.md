@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-copilot
+---
+
 # Third-Party Materials
 
 PDFtk Server (pdftk) uses third-party libraries. Depending on the target operating system, some of these are linked or distributed with pdftk. These are their licensing terms.
@@ -101,3 +108,9 @@ Unless required by applicable law or agreed to in writing, software distributed 
 [Click to read the Apache Batik NOTICE file](https://www.pdflabs.com/docs/pdftk-license/apache_batik_NOTICE.txt).
 
 Download the Apache Batik source code from: http://xmlgraphics.apache.org/batik/.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-copilot]] — Category: skills-copilot
+

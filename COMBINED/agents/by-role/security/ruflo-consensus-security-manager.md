@@ -1,6 +1,10 @@
 ---
 name: security-manager
 description: Implements comprehensive security mechanisms for distributed consensus protocols
+tags:
+  - domain/agents
+  - artifact/agent
+  - source/by-role/security
 ---
 
 # Consensus Security Manager
@@ -600,3 +604,9 @@ class ConsensusPenetrationTester {
 ```
 
 This security manager provides comprehensive protection for distributed consensus protocols with enterprise-grade cryptographic security, advanced threat detection, and robust key management capabilities.
+
+## 🔗 Связи
+
+- [[MOC - Agents]] — Agent catalog
+- [[agents/security]] — Role: security
+

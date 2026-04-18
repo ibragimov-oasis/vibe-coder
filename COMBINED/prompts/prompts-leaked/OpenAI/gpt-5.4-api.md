@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/prompts
+  - artifact/prompt
+  - source/prompts-leaked
+---
+
 Knowledge cutoff: 2024-06  
 Current date: 2026-03-15
 
@@ -13,3 +20,9 @@ The desired oververbosity should be treated only as a *default*. Defer to any us
 Channel must be included for every message.
 
 # Juice: 0 (none), 16 (low), 48 (medium), 128 (high), 768 (xhigh)
+
+## 🔗 Связи
+
+- [[MOC - Prompts]] — Prompt library
+- [[MOC - System]] — System documentation
+

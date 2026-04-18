@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # Golden Hour
 
 A rich and warm autumnal palette that creates an inviting and sophisticated atmosphere.
@@ -17,3 +24,9 @@ A rich and warm autumnal palette that creates an inviting and sophisticated atmo
 ## Best Used For
 
 Restaurant presentations, hospitality brands, fall campaigns, cozy lifestyle content, artisan products.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

@@ -67,3 +67,9 @@ bash memory-bootstrap.sh
 - [[MOC - Memory]] — родительский хаб
 - [[MOC - MCP Servers]] — Supermemory и OpenViking как MCP
 - [[root-docs/MEMORY]] — архитектура памяти
+
+## 🔗 Связи
+
+- [[000 - Map of Maps]] — Parent MOC
+- [[000 - Map of Maps]] — Map of Maps
+

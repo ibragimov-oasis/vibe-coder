@@ -8,6 +8,10 @@ description: >
   FluentDialog, FluentToast, FluentNavMenu, FluentTextField, FluentSelect,
   FluentAutocomplete, FluentDesignTheme, or any component prefixed with "Fluent".
   Also use when troubleshooting missing providers, JS interop issues, or theming.
+tags:
+  - domain/agents
+  - artifact/skill
+  - source/skills-copilot
 ---
 
 # Fluent UI Blazor — Consumer Usage Guide
@@ -229,3 +233,10 @@ For detailed guidance on specific topics, see:
 - [Layout and navigation](references/LAYOUT-AND-NAVIGATION.md)
 - [Data grid](references/DATAGRID.md)
 - [Theming](references/THEMING.md)
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-copilot]] — Category: skills-copilot
+- [[MOC - Agents]] — Copilot agents
+

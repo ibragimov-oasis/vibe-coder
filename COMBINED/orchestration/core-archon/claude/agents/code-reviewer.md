@@ -2,6 +2,10 @@
 name: code-reviewer
 description: Reviews code for project guideline compliance, bugs, and quality issues. Use after writing code, before commits, or before PRs. Specify files to review or defaults to unstaged git changes. High-confidence issues only (80+) to minimize noise.
 model: sonnet
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-archon
 ---
 
 You are an expert code reviewer. Your job is to review code against project guidelines with high precision, reporting only high-confidence issues that truly matter.
@@ -149,3 +153,10 @@ Rate each potential issue 0-100:
 - **Actionable** - Every issue needs a concrete fix suggestion
 - **Guideline-anchored** - Cite the rule being violated when applicable
 - **Respect scope** - Only review what's in the diff/specified files
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-archon]] — core-archon
+- [[MOC - Skills]] — Skills library
+

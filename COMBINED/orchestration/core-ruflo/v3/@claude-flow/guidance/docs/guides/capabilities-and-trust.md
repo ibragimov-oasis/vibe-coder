@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # Capabilities and Trust Guide
 
 This guide covers three related modules that control what agents can do and how much latitude they earn over time:
@@ -306,3 +313,10 @@ function authorizeToolCall(agentId: string, toolName: string, command: string) {
   return { blocked: false };
 }
 ```
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

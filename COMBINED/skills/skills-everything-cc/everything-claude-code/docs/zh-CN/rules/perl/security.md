@@ -5,6 +5,10 @@ paths:
   - "**/*.t"
   - "**/*.psgi"
   - "**/*.cgi"
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
 ---
 
 # Perl 安全
@@ -68,3 +72,9 @@ perlcritic --severity 4 --theme security lib/
 ## 参考
 
 有关全面的 Perl 安全模式、污染模式和安全 I/O，请参阅技能：`perl-security`。
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

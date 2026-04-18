@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-hermes
+---
+
 # Modal Troubleshooting Guide
 
 ## Installation Issues
@@ -492,3 +499,9 @@ Include:
 - Full error traceback
 - Minimal reproducible code
 - GPU type if relevant
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-hermes]] — Category: skills-hermes
+

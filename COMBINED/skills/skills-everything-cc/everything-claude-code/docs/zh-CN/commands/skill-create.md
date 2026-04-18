@@ -2,6 +2,10 @@
 name: skill-create
 description: 分析本地Git历史以提取编码模式并生成SKILL.md文件。Skill Creator GitHub应用的本地版本。
 allowed_tools: ["Bash", "Read", "Write", "Grep", "Glob"]
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
 ---
 
 # /skill-create - 本地技能生成
@@ -174,3 +178,9 @@ src/
 ***
 
 *属于 [Everything Claude Code](https://github.com/affaan-m/everything-claude-code)*
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/root
+---
+
 # VIBE-CODER CAPABILITIES REGISTRY
 
 > **ULTRACAR v3.0 — The Brain of the System** — Every agent reads this file first.
@@ -624,3 +631,8 @@ Remote delivery via cc-connect (Telegram, Slack, Discord, etc.)
 
 See `AGENTS.md` for the complete agent catalog (54 repositories).
 See `COMBINED/agents/mega/README.md` for mega-agent documentation.
+
+## 🔗 Связи
+
+- [[000 - Map of Maps]] — Map of Maps
+

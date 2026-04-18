@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
+---
+
 # Git 工作流程
 
 ## Commit 訊息格式
@@ -43,3 +50,9 @@
 4. **Commit 與推送**
    - 詳細的 commit 訊息
    - 遵循 conventional commits 格式
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

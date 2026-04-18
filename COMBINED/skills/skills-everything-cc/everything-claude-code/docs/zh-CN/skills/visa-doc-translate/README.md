@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
+---
+
 # 签证文件翻译器
 
 自动将签证申请文件从图像翻译为专业的英文 PDF。
@@ -89,3 +96,9 @@ pip install pytesseract
 ## 许可证
 
 MIT
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

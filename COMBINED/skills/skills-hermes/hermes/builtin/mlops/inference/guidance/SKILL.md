@@ -8,7 +8,9 @@ dependencies: [guidance, transformers]
 metadata:
   hermes:
     tags: [Prompt Engineering, Guidance, Constrained Generation, Structured Output, JSON Validation, Grammar, Microsoft Research, Format Enforcement, Multi-Step Workflows]
-
+  - domain/skills
+  - artifact/skill
+  - source/skills-hermes
 ---
 
 # Guidance: Constrained LLM Generation
@@ -572,4 +574,8 @@ lm += gen("name", regex=r"^(John|Jane)$", max_tokens=10)
 - `references/backends.md` - Backend-specific configuration
 - `references/examples.md` - Production-ready examples
 
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-hermes]] — Category: skills-hermes
 

@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # Performance Metrics Enhancement Guide
 
 ## Overview
@@ -257,3 +264,10 @@ Potential additions:
 - Automatic recommendation system
 - Export to time-series database for long-term analysis
 - Real-time dashboards
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

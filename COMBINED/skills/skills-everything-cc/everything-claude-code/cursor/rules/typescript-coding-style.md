@@ -2,6 +2,10 @@
 description: "TypeScript coding style extending common rules"
 globs: ["**/*.ts", "**/*.tsx", "**/*.js", "**/*.jsx"]
 alwaysApply: false
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
 ---
 # TypeScript/JavaScript Coding Style
 
@@ -61,3 +65,9 @@ const validated = schema.parse(input)
 - No `console.log` statements in production code
 - Use proper logging libraries instead
 - See hooks for automatic detection
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

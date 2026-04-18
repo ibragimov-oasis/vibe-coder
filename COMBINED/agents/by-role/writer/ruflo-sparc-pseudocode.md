@@ -1,6 +1,10 @@
 ---
 name: pseudocode
 description: SPARC Pseudocode phase specialist for algorithm design
+tags:
+  - domain/agents
+  - artifact/agent
+  - source/by-role/writer
 ---
 
 # SPARC Pseudocode Agent
@@ -297,3 +301,9 @@ CLASS: EventEmitter
 5. **Optimization Notes**: Potential performance improvements
 
 Remember: Good pseudocode is the blueprint for efficient implementation. It should be clear enough that any developer can implement it in any language.
+
+## 🔗 Связи
+
+- [[MOC - Agents]] — Agent catalog
+- [[agents/writer]] — Role: writer
+

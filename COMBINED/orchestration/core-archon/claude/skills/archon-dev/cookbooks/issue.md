@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-archon
+---
+
 # Issue Cookbook
 
 Create well-structured GitHub issues from conversation context. Classifies bug vs feature, finds the right template, validates with a subagent, and submits via `gh`.
@@ -202,3 +209,10 @@ gh issue view --json number,url,title,labels
 /archon-dev create a feature request for X     # Feature with description
 /archon-dev gh issue: streaming breaks on large responses  # Bug with description
 ```
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/archon]] — Archon
+- [[000 - Map of Maps]] — Map of Maps
+

@@ -7,6 +7,10 @@ next-skill: omc-plan
 next-skill-args: --consensus --direct
 handoff: .omc/specs/deep-interview-{slug}.md
 level: 3
+tags:
+  - domain/orchestration
+  - artifact/skill
+  - source/skills-omc
 ---
 
 <Purpose>
@@ -648,3 +652,10 @@ Each mode is used exactly once, then normal Socratic questioning resumes. Modes 
 </Advanced>
 
 Task: {{ARGUMENTS}}
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-omc]] — Category: skills-omc
+- [[MOC - Orchestration]] — Multi-agent orchestration
+

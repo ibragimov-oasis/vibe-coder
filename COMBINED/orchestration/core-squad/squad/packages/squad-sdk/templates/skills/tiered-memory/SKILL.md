@@ -4,6 +4,10 @@ description: Three-tier agent memory model (hot/cold/wiki) for 20-55% context re
 domain: memory-management, performance
 confidence: high
 source: earned (production measurements in tamirdresher/tamresearch1, 34-74KB baseline payloads)
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-squad
 ---
 
 # Skill: Tiered Agent Memory
@@ -232,3 +236,10 @@ If blocked or uncertain:
 - Wiki adds variable size; only include specific relevant docs
 - See `skills/tiered-memory/SKILL.md` for full tier reference
 - See `docs/tiered-memory-guide.md` for wiring instructions
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/squad]] — Squad
+- [[000 - Map of Maps]] — Map of Maps
+

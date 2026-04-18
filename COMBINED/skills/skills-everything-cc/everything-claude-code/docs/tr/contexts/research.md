@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
+---
+
 # Araştırma Bağlamı
 
 Mod: Keşif, inceleme, öğrenme
@@ -24,3 +31,9 @@ Odak: Harekete geçmeden önce anlama
 
 ## Çıktı
 Önce bulgular, sonra öneriler
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

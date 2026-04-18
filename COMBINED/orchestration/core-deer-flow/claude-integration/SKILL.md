@@ -1,6 +1,10 @@
 ---
 name: claude-to-deerflow
 description: "Interact with DeerFlow AI agent platform via its HTTP API. Use this skill when the user wants to send messages or questions to DeerFlow for research/analysis, start a DeerFlow conversation thread, check DeerFlow status or health, list available models/skills/agents in DeerFlow, manage DeerFlow memory, upload files to DeerFlow threads, or delegate complex research tasks to DeerFlow. Also use when the user mentions deerflow, deer flow, or wants to run a deep research task that DeerFlow can handle."
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-deer-flow
 ---
 
 # DeerFlow Skill
@@ -215,3 +219,10 @@ The stream returns SSE events. To extract the final AI response from a `values` 
 - For research tasks, use pro or ultra mode (enables planning and sub-agents).
 - You can upload files first, then reference them in your message.
 - Thread IDs persist — you can return to a conversation later.
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-deer-flow]] — core-deer-flow
+- [[MOC - Skills]] — Skills library
+

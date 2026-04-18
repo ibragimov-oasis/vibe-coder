@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-archon
+---
+
 # Storage Management
 
 Manage cookies, localStorage, sessionStorage, and browser storage state.
@@ -273,3 +280,10 @@ playwright-cli open https://example.com
 - Delete state files after automation completes
 - Use environment variables for sensitive data
 - By default, sessions run in-memory mode which is safer for sensitive operations
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/archon]] — Archon
+- [[000 - Map of Maps]] — Map of Maps
+

@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # German BDSG Requirements
 
 German-specific data protection requirements under the Bundesdatenschutzgesetz (BDSG) and state laws.
@@ -325,3 +332,9 @@ For private sector:
 | Credit scoring | Art. 22 | Detailed § 31 requirements |
 | Works council | Not addressed | Co-determination rights |
 | Fines | Art. 83 | Additional § 41 fines |
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

@@ -7,6 +7,10 @@ metadata:
   author: Alireza Rezvani
   category: marketing
   updated: 2026-03-06
+tags:
+  - domain/agents
+  - artifact/skill
+  - source/skills-claude
 ---
 
 # Content Production
@@ -243,3 +247,10 @@ When reviewing drafts: flag issues → explain impact → give specific fix. Don
 - **ai-seo**: Use when optimizing specifically for AI search citation (ChatGPT, Perplexity, AI Overviews) in addition to traditional SEO.
 - **copywriting**: Use for landing pages, CTAs, and conversion copy. NOT for long-form content (that's this skill).
 - **seo-audit**: Use when auditing an existing content library for SEO gaps. NOT for single-piece production.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+- [[MOC - Agents]] — Claude agents
+

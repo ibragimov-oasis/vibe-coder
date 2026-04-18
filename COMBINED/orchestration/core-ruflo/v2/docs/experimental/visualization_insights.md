@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # Visualization and Pattern Discovery for the Riemann Hypothesis
 
 ## Visual GOAP: Using Visualization for Mathematical Breakthrough
@@ -718,3 +725,10 @@ Visualization represents a powerful tool for mathematical discovery, especially 
 The combination of advanced visualization techniques with systematic exploration (GOAP) creates a powerful framework for mathematical discovery that goes beyond traditional proof methodologies. Even if visualization doesn't directly provide a proof, it can guide theoretical development and suggest novel approaches that might otherwise remain undiscovered.
 
 The future of mathematical research may well depend on such hybrid approaches that combine computational power, visual insight, and systematic methodology to tackle humanity's most challenging intellectual problems.
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

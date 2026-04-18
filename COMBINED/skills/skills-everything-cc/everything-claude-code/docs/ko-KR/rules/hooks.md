@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
+---
+
 # 훅 시스템
 
 ## 훅 유형
@@ -28,3 +35,9 @@ Todo 목록으로 확인 가능한 것:
 - 불필요한 추가 항목
 - 잘못된 세분화 수준
 - 잘못 해석된 요구사항
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-copilot
+---
+
 # Noob Mode — Before & After Examples
 
 These examples show how Copilot CLI behaves **without** Noob Mode vs. **with** Noob Mode active. Same actions, completely different experience.
@@ -416,3 +423,9 @@ Each item includes a plain-English explanation and recommended next steps.
 
 🎉 Anything else you'd like me to help with?
 ```
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-copilot]] — Category: skills-copilot
+

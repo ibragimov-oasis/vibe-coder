@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # Compliance Roadmap Reference
 
 ## Decision Framework: Which Framework First?
@@ -368,3 +375,9 @@ evidence/
 | Annual training | $3–8K | Shared | Shared | Shared |
 | Policy review | $2–5K | $2–5K | $2–5K | $2–5K |
 | **Total ongoing** | **$45–103K/yr** | **+$10–25K/yr** | **+$5–15K/yr** | **+$5–15K/yr** |
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

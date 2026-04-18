@@ -1,6 +1,10 @@
 ---
 name: power-bi-dax-optimization
 description: 'Comprehensive Power BI DAX formula optimization prompt for improving performance, readability, and maintainability of DAX calculations.'
+tags:
+  - domain/agents
+  - artifact/skill
+  - source/skills-copilot
 ---
 
 # Power BI DAX Formula Optimizer
@@ -171,3 +175,10 @@ Sales Growth = ([Total Sales] - CALCULATE([Total Sales], PARALLELPERIOD('Date'[D
 ```
 
 This calculates year-over-year sales growth and is used in several report visuals. Current performance is slow when filtering by multiple dimensions."
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-copilot]] — Category: skills-copilot
+- [[MOC - Agents]] — Copilot agents
+

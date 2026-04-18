@@ -3,6 +3,9 @@ title: Use Transactions for Database Operations
 impact: HIGH
 impactDescription: Transactions provide atomic database operations
 tags: transaction, database, postgres, sqlalchemy
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
 ---
 
 ## Use Transactions for Database Operations
@@ -56,3 +59,9 @@ Important:
 - Never use `async def` with transactions
 
 Reference: [DBOS Transactions](https://docs.dbos.dev/python/reference/decorators#transactions)
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

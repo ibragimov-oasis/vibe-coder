@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/ui
+  - artifact/ui-component
+  - source/ui-design
+---
+
 # Typography Specifications
 
 Guidelines for defining and implementing brand typography.
@@ -212,3 +219,9 @@ theme: {
 - Avoid justified text (use left-align)
 - Ensure adequate line spacing
 - Don't use thin weights (<400) at small sizes
+
+## 🔗 Связи
+
+- [[MOC - UI Design]] — ui-design
+- [[000 - Map of Maps]] — Map of Maps
+

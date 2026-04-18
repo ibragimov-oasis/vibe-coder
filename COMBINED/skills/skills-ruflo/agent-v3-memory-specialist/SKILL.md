@@ -1,6 +1,10 @@
 ---
 name: agent-v3-memory-specialist
 description: Agent skill for v3-memory-specialist - invoke with $agent-v3-memory-specialist
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-ruflo
 ---
 
 ---
@@ -321,3 +325,9 @@ class MemoryBenchmarks {
 - Benchmark validation of 150x-12,500x improvements
 - Memory usage profiling and optimization
 - Performance regression testing
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-ruflo]] — Category: skills-ruflo
+

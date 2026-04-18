@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # RAG Evaluation Framework
 
 ## Overview
@@ -429,3 +436,9 @@ Effective RAG evaluation requires a multi-faceted approach combining automated m
 5. **Statistical Rigor**: Proper experimental design and analysis
 
 This framework provides the foundation for building robust, high-quality RAG systems that deliver real value to users while maintaining reliability and trustworthiness.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

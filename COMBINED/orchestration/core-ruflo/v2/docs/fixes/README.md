@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # 🔧 Bug Fixes & Patches
 
 Documentation for bug fixes, patches, and issue resolutions.
@@ -31,3 +38,9 @@ Documentation for bug fixes, patches, and issue resolutions.
 ---
 
 [← Back to Documentation Index](../README.md)
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-ruflo]] — core-ruflo
+

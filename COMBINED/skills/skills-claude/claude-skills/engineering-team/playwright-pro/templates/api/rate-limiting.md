@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # Rate Limiting Template
 
 Tests rate limit headers, 429 response, and Retry-After handling.
@@ -150,3 +157,9 @@ test.describe('Rate Limiting', () => {
 | 429 body | Error message + retry info in body |
 | Per-user bucket | Exhausted user doesn't affect others |
 | Window reset | Clock advanced → limit resets |
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-copilot
+---
+
 # 2D Maze Game Template
 
 A mobile-optimized 2D maze game where players guide a ball through a labyrinth of obstacles to reach a target hole. The game uses the **Device Orientation API** for tilt-based motion controls on mobile devices and keyboard arrow keys on desktop. Built with the **Phaser** framework (v2.x with Arcade Physics), it features multi-level progression, collision detection, audio feedback, vibration haptics, and a timer system.
@@ -526,3 +533,9 @@ update() {
 | `this.load.audio(key, paths[])` | Load audio with format fallbacks |
 | `this.game.add.audio(key)` | Instantiate audio object |
 | `this.time.events.loop(interval, cb, ctx)` | Create repeating timer |
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-copilot]] — Category: skills-copilot
+

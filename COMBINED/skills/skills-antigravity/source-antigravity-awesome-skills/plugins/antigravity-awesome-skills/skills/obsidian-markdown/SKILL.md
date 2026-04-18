@@ -4,6 +4,10 @@ description: Create and edit Obsidian Flavored Markdown with wikilinks, embeds, 
 risk: unknown
 source: "https://github.com/kepano/obsidian-skills"
 date_added: "2026-03-21"
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 # Obsidian Flavored Markdown Skill
@@ -203,3 +207,9 @@ Reviewed in [[Meeting Notes 2024-01-10#Decisions]].
 - [Embed files](https://help.obsidian.md/embeds)
 - [Callouts](https://help.obsidian.md/callouts)
 - [Properties](https://help.obsidian.md/properties)
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

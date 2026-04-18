@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/mcp
+  - artifact/mcp-server
+  - source/mcp-servers
+---
+
 # 路径锁与崩溃恢复
 
 OpenViking 通过**路径锁**和**Redo Log** 两个简单原语保护核心写操作（`rm`、`mv`、`add_resource`、`session.commit`）的一致性，确保 VikingFS、VectorDB、QueueManager 三个子系统在故障时不会出现数据不一致。
@@ -360,3 +367,9 @@ async with LockContext(lock_manager, [src], lock_mode="mv", mv_dst_parent_path=d
 - [存储架构](./05-storage.md) - AGFS 和向量库
 - [会话管理](./08-session.md) - 会话和记忆管理
 - [配置](../guides/01-configuration.md) - 配置文件说明
+
+## 🔗 Связи
+
+- [[MOC - MCP Servers]] — mcp-servers
+- [[000 - Map of Maps]] — Map of Maps
+

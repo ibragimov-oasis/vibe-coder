@@ -3,6 +3,9 @@ title: Control Which Queues a Worker Listens To
 impact: HIGH
 impactDescription: Enables heterogeneous worker pools
 tags: queue, listen, worker, process, configuration
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
 ---
 
 ## Control Which Queues a Worker Listens To
@@ -47,3 +50,9 @@ dbos.RunWorkflow(ctx, gpuTask, "data",
 ```
 
 Reference: [Listening to Specific Queues](https://docs.dbos.dev/golang/tutorials/queue-tutorial#listening-to-specific-queues)
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

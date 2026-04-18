@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/new_repos
+---
+
 # Callouts Reference
 
 ## Basic Callout
@@ -56,3 +63,8 @@
   --callout-icon: lucide-alert-circle;
 }
 ```
+
+## 🔗 Связи
+
+- [[000 - Map of Maps]] — Map of Maps
+

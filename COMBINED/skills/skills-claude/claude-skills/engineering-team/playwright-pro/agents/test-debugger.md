@@ -10,6 +10,10 @@ allowed-tools:
   - Glob
   - LS
   - Bash
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
 ---
 
 # Test Debugger Agent
@@ -115,3 +119,9 @@ Line 23: Add `await` before `page.goto('/dashboard')`
 
 After fix: 10/10 passes on `--repeat-each=10`
 ```
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

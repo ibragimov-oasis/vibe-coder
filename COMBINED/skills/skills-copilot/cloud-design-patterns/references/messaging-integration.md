@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-copilot
+---
+
 # Messaging & Integration Patterns
 
 ## Choreography Pattern
@@ -125,3 +132,9 @@
 - Supervisor monitors progress and handles failures
 - Implement compensation logic for failed steps
 - Maintain state for workflow recovery
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-copilot]] — Category: skills-copilot
+

@@ -2,6 +2,10 @@
 sidebar_position: 13
 title: "Webhooks"
 description: "Receive events from GitHub, GitLab, and other services to trigger Hermes agent runs"
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-hermes
 ---
 
 # Webhooks
@@ -358,3 +362,10 @@ Webhook payloads contain attacker-controlled data — PR titles, commit messages
 | `WEBHOOK_ENABLED` | Enable the webhook platform adapter | `false` |
 | `WEBHOOK_PORT` | HTTP server port for receiving webhooks | `8644` |
 | `WEBHOOK_SECRET` | Global HMAC secret (used as fallback when routes don't specify their own) | _(none)_ |
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/hermes]] — Hermes
+- [[000 - Map of Maps]] — Map of Maps
+

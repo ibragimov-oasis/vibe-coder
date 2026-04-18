@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # Microservices Patterns Implementation Playbook
 
 This file contains detailed patterns, checklists, and code samples referenced by the skill.
@@ -605,3 +612,9 @@ async def call_payment_service(payment_data: dict):
 - **Premature Microservices**: Starting with microservices
 - **Ignoring Network Failures**: Assuming reliable network
 - **No Compensation Logic**: Can't undo failed transactions
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

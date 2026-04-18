@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # gRPC Golang Implementation Playbook
 
 This file contains detailed patterns, checklists, and code samples referenced by the skill.
@@ -546,3 +553,9 @@ project/
 | Use `grpc.Dial` without health checks         | Connection failures are deferred and may surface as runtime errors                            | Use health checks and monitor connection state               |
 
 > **Migration note**: For gRPC-Go v1.63+ (Jan 2024), `grpc.NewClient` is the newer API recommended by the gRPC-Go project for new code. For older versions (or when following existing codebases and official grpc.io examples), using `grpc.Dial` / `grpc.DialContext` is still common.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

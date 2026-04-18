@@ -4,6 +4,10 @@ description: "Master Bash Automated Testing System (Bats) for comprehensive shel
 risk: unknown
 source: community
 date_added: "2026-02-27"
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 # Bats Testing Patterns
@@ -35,3 +39,9 @@ Comprehensive guidance for writing comprehensive unit tests for shell scripts us
 ## Resources
 
 - `resources/implementation-playbook.md` for detailed patterns and examples.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

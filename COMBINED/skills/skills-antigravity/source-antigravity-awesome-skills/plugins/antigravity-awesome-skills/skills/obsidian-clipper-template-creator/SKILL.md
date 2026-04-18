@@ -4,6 +4,10 @@ description: Guide for creating templates for the Obsidian Web Clipper. Use when
 risk: safe
 source: community
 date_added: "2026-02-27"
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 # Obsidian Web Clipper Template Creator
@@ -71,3 +75,9 @@ If you use template logic (conditionals, loops, variable assignment), ensure it 
 ## Examples
 
 See [assets/](assets/) for JSON examples.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

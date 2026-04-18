@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # Code Review Checklist
 
 Structured checklists for systematic code review across different aspects.
@@ -268,3 +275,9 @@ Before diving into code, verify these basics:
 - No tests for risky changes
 - Breaking changes without migration
 - Significant performance regressions
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

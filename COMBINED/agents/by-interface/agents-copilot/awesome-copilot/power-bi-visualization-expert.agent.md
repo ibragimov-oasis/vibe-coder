@@ -3,6 +3,10 @@ description: "Expert Power BI report design and visualization guidance using Mic
 name: "Power BI Visualization Expert Mode"
 model: "gpt-4.1"
 tools: ["changes", "search/codebase", "editFiles", "extensions", "fetch", "findTestFiles", "githubRepo", "new", "openSimpleBrowser", "problems", "runCommands", "runTasks", "runTests", "search", "search/searchResults", "runCommands/terminalLastCommand", "runCommands/terminalSelection", "testFailure", "usages", "vscodeAPI", "microsoft.docs.mcp"]
+tags:
+  - domain/agents
+  - artifact/agent
+  - source/by-interface/agents-copilot
 ---
 
 # Power BI Visualization Expert Mode
@@ -576,3 +580,9 @@ pageextension 50100 SalesInvoicesListPwrBiExt extends "Sales Invoice List"
 - **Advanced Features**: Leveraging tooltips, drillthrough, and custom visuals
 
 Always search Microsoft documentation first using `microsoft.docs.mcp` for visualization and report design guidance. Focus on creating reports that effectively communicate insights while providing excellent user experiences across all devices and usage scenarios.
+
+## 🔗 Связи
+
+- [[MOC - Agents]] — Agent catalog
+- [[agents/agents-copilot]] — Interface: agents-copilot
+

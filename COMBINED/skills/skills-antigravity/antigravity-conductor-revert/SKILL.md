@@ -4,6 +4,10 @@ description: "Git-aware undo by logical work unit (track, phase, or task)"
 risk: critical
 source: community
 date_added: "2026-02-27"
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 # Revert Track
@@ -371,3 +375,9 @@ Alternatively, if not yet pushed:
 
 (Use with caution - this discards the revert commits)
 ```
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

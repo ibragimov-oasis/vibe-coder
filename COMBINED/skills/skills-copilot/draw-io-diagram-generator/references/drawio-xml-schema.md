@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-copilot
+---
+
 # draw.io XML Schema Reference
 
 Complete reference for the `.drawio` file format (mxGraph XML). Use this when generating, parsing, or validating diagram files.
@@ -377,3 +384,9 @@ id="a1b2c3d4-e5f6-7890-abcd-ef1234567890"
 - [ ] Edge labels are short (≤4 words)
 - [ ] Layer cells have descriptive `value` names
 - [ ] All shapes fit within `pageWidth` × `pageHeight` bounds
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-copilot]] — Category: skills-copilot
+

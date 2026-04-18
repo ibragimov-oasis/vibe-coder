@@ -1,5 +1,9 @@
 ---
 description: Clean up merged branches locally and on remote, keeping only main, dev, and gh-pages.
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
 ---
 
 Clean up stale branches that have been merged or are no longer needed.
@@ -57,3 +61,9 @@ Present a summary:
 | Remote branches deleted | N |
 | Remaining local | main, dev |
 | Remaining remote | origin/main, origin/dev, origin/gh-pages |
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

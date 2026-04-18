@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/ui
+  - artifact/doc
+  - source/skills-design
+---
+
 # Components Index
 
 Use this file to find component and cross-cutting guidance. Each entry lists when to use it.
@@ -48,3 +55,9 @@ Use this file to find component and cross-cutting guidance. Each entry lists whe
 
 - Add the component file and link it here with a short “when to use” description.
 - Keep each component reference short and actionable.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-design]] — Category: skills-design
+

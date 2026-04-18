@@ -4,6 +4,10 @@ description: "Create a new track with specification and phased implementation pl
 risk: unknown
 source: community
 date_added: "2026-02-27"
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 # New Track
@@ -432,3 +436,9 @@ Next steps:
 - If directory creation fails: Halt and report, do not register in tracks.md
 - If any file write fails: Clean up partial track, report error
 - If tracks.md update fails: Warn user to manually register track
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

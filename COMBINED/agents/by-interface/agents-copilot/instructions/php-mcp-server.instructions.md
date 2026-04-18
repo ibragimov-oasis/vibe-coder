@@ -1,6 +1,10 @@
 ---
 description: 'Best practices for building Model Context Protocol servers in PHP using the official PHP SDK with attribute-based discovery and multiple transport options'
 applyTo: '**/*.php'
+tags:
+  - domain/agents
+  - artifact/agent
+  - source/by-interface/agents-copilot
 ---
 
 # PHP MCP Server Development Best Practices
@@ -807,3 +811,9 @@ npx @modelcontextprotocol/inspector php /path/to/server.php
 - [Examples](https://github.com/modelcontextprotocol/php-sdk/blob/main/docs/examples.md)
 - [MCP Specification](https://spec.modelcontextprotocol.io/)
 - [Model Context Protocol](https://modelcontextprotocol.io/)
+
+## 🔗 Связи
+
+- [[MOC - Agents]] — Agent catalog
+- [[agents/agents-copilot]] — Interface: agents-copilot
+

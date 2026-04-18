@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/mcp
+  - artifact/mcp-server
+  - source/mcp-servers
+---
+
 # MCP Toolbox Context & Style Guide
 
 This file (symlinked as `CLAUDE.md`, `AGENTS.md`, and `.gemini/styleguide.md`) provides context and guidelines for AI agents working on the MCP Toolbox for Databases project. It summarizes key information from `CONTRIBUTING.md` and `DEVELOPER.md`.
@@ -239,4 +246,9 @@ Sample code is aggregated visually in the UI via the Samples section, but the ph
 ##### Asset Constraints (`docs/`)
 
 1.  **File Size Limits:** Never add files larger than 24MB to the `docs/` directory.
+
+## 🔗 Связи
+
+- [[MOC - MCP Servers]] — mcp-servers
+- [[000 - Map of Maps]] — Map of Maps
 

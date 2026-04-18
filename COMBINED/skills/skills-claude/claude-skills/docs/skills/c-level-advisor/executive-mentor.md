@@ -1,6 +1,10 @@
 ---
 title: "Executive Mentor — Agent Skill for Executives"
 description: "Adversarial thinking partner for founders and executives. Stress-tests plans, prepares for brutal board meetings, dissects decisions with no good. Agent skill for Claude Code, Codex CLI, Gemini CLI, OpenClaw."
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
 ---
 
 # Executive Mentor
@@ -142,3 +146,9 @@ All output passes the Internal Quality Loop before reaching the founder (see `ag
 - **Always** read `company-context.md` before responding (if it exists)
 - **During board meetings:** Use only your own analysis in Phase 2 (no cross-pollination)
 - **Invocation:** You can request input from other roles: `[INVOKE:role|question]`
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

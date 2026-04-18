@@ -1,6 +1,10 @@
 ---
 name: napkin
 description: 'Visual whiteboard collaboration for Copilot CLI. Creates an interactive whiteboard that opens in your browser — draw, sketch, add sticky notes, then share everything back with Copilot. Copilot sees your drawings and text, and responds with analysis, suggestions, and ideas.'
+tags:
+  - domain/agents
+  - artifact/skill
+  - source/skills-copilot
 ---
 
 # Napkin — Visual Whiteboard for Copilot CLI
@@ -152,3 +156,10 @@ It looks like we haven't started a napkin yet. Want me to open one for you?
 - If the clipboard doesn't have JSON data, proceed with the PNG alone.
 - The HTML template is located at `assets/napkin.html` relative to this SKILL.md file.
 - If the noob-mode skill is also active, use its risk indicator format (green/yellow/red) when requesting file or bash permissions.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-copilot]] — Category: skills-copilot
+- [[MOC - Agents]] — Copilot agents
+

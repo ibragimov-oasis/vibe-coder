@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/command
+  - source/commands
+---
+
 # swarm-spawn
 
 Spawn agents in the swarm.
@@ -17,3 +24,9 @@ npx claude-flow swarm spawn [options]
 npx claude-flow swarm spawn --type coder --count 3
 npx claude-flow swarm spawn --type researcher --capabilities "web-search,analysis"
 ```
+
+## 🔗 Связи
+
+- [[MOC - System]] — commands
+- [[000 - Map of Maps]] — Map of Maps
+

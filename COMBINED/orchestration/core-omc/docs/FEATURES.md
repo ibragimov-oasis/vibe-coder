@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-omc
+---
+
 # Developer API Reference
 
 > Internal API documentation for oh-my-claudecode developers and contributors.
@@ -580,3 +587,10 @@ All state is persisted to `.omc/state/autopilot-state.json` and includes:
 - [ARCHITECTURE.md](./ARCHITECTURE.md) - System architecture
 - [MIGRATION.md](./MIGRATION.md) - Migration guide
 - [Agent Definitions](../src/agents/definitions.ts) - Agent configuration
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-omc]] — core-omc
+- [[MOC - Skills]] — Skills library
+

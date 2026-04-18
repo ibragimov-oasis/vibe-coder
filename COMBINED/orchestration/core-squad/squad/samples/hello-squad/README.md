@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-squad
+---
+
 # hello-squad
 
 Beginner sample for the Squad SDK that demonstrates how to locate or create a team directory, cast a themed team of agents from The Usual Suspects universe, onboard them with persistent identities, and verify that agent names remain consistent across multiple casts.
@@ -76,3 +83,9 @@ The sample walks through five steps. First, it locates or creates a `.squad/` di
 
 - Check out the [knock-knock sample](../knock-knock/README.md) to see agents interact with live LLM responses
 - Read the [Squad SDK documentation](../../README.md) for more details on the casting system
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-squad]] — core-squad
+

@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/mcp
+  - artifact/mcp-server
+  - source/mcp-servers
+---
+
 # OpenViking 团队与组织
 
 ## 项目概述
@@ -204,3 +211,9 @@ OpenViking 项目向所有开发者、研究机构和商业公司开放合作机
 ---
 
 **加入我们，共同构建 AI Agent 时代的上下文基础设施！**
+
+## 🔗 Связи
+
+- [[MOC - MCP Servers]] — mcp-servers
+- [[000 - Map of Maps]] — Map of Maps
+

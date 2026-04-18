@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # Release v2.7.33 - MCP 2025-11 Compliance & Progressive Disclosure
 
 **Target Date**: 2025-11-12
@@ -486,3 +493,10 @@ Found a bug? Have a feature request?
 **Release Date**: 2025-11-12
 **Release Type**: Major Feature Release
 **Risk Level**: ✅ MINIMAL (Zero breaking changes)
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-ruflo]] — core-ruflo
+- [[MOC - Skills]] — Skills library
+

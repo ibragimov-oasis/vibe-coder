@@ -4,6 +4,10 @@ description: 操作自主代理循环，监控进度，并在循环停滞时安�
 tools: ["Read", "Grep", "Glob", "Bash", "Edit"]
 model: sonnet
 color: orange
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
 ---
 
 你是循环操作员。
@@ -35,3 +39,9 @@ color: orange
 * 具有相同堆栈跟踪的重复故障
 * 成本漂移超出预算窗口
 * 合并冲突阻塞队列前进
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

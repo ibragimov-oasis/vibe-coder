@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-copilot
+---
+
 ## Modify code
 
 Make these necessary changes to the app.
@@ -46,3 +53,9 @@ Then send telemetry events by calling its logging methods.
 ```python
 logger.info("info log")
 ```
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-copilot]] — Category: skills-copilot
+

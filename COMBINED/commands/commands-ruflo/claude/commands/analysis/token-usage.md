@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/command
+  - source/commands
+---
+
 # token-usage
 
 Analyze token usage patterns and optimize for efficiency.
@@ -23,3 +30,9 @@ npx claude-flow analysis token-usage --by-agent
 # Export detailed report
 npx claude-flow analysis token-usage --period 7d --export tokens.csv
 ```
+
+## 🔗 Связи
+
+- [[MOC - System]] — commands
+- [[000 - Map of Maps]] — Map of Maps
+

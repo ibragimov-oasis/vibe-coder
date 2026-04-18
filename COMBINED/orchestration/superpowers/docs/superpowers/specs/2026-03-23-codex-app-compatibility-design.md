@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/superpowers
+---
+
 # Codex App Compatibility: Worktree and Finishing Skill Adaptation
 
 Make superpowers skills work in the Codex App's sandboxed worktree environment without breaking existing Claude Code or Codex CLI behavior.
@@ -242,3 +249,10 @@ If a third skill needs the same detection pattern, extract it into a shared `ref
 - Existing Claude Code skill-triggering tests still pass
 - Existing subagent-driven-development integration tests still pass
 - Normal Claude Code session: full worktree creation + 4-option finishing still works
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/superpowers]] — Superpowers
+- [[000 - Map of Maps]] — Map of Maps
+

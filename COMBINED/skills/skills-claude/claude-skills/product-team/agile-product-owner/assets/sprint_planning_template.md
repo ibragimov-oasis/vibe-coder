@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # Sprint Planning Document
 
 ## Sprint Info
@@ -82,3 +89,9 @@
 | Daily Standup | [Day] [Time] | 15 min |
 | Sprint Review | [Date] [Time] | 60 min |
 | Sprint Retrospective | [Date] [Time] | 60 min |
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

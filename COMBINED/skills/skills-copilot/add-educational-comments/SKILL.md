@@ -1,6 +1,10 @@
 ---
 name: add-educational-comments
 description: 'Add educational comments to the file specified, or prompt asking for file to comment if one is not provided.'
+tags:
+  - domain/agents
+  - artifact/skill
+  - source/skills-copilot
 ---
 
 # Add Educational Comments
@@ -126,3 +130,10 @@ Interpret `Line Numer = no` as `Line Number Referencing = no` and adjust behavio
 - Confirm all educational comments follow the configuration and the **Educational Commenting Rules**.
 - Provide clarifying suggestions only when they aid learning.
 - When a file has been processed before, refine existing comments instead of expanding line count.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-copilot]] — Category: skills-copilot
+- [[MOC - Agents]] — Copilot agents
+

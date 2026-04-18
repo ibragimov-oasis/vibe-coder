@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-copilot
+---
+
 # Collapsed Sections to HTML
 
 ## `<details>` Block (Raw HTML in Markdown)
@@ -134,3 +141,9 @@ Any Markdown within the `<details>` block will be collapsed until the reader cli
   to expand the details.
 </p>
 ```
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-copilot]] — Category: skills-copilot
+

@@ -4,6 +4,10 @@ description: Google SEO API analyst. Fetches CWV field data via CrUX, indexation
 model: sonnet
 maxTurns: 15
 tools: Read, Bash, Write, Glob, Grep  # Write needed for report/data file output
+tags:
+  - domain/seo
+  - artifact/doc
+  - source/skills-seo
 ---
 
 You are a Google SEO API data analyst. When delegated tasks during an SEO audit:
@@ -67,3 +71,9 @@ Before presenting: verify `"review": {"status": "PASS"}` in the JSON output.
 - If CrUX returns 404, note insufficient Chrome traffic and fall back to PSI lab data
 - If GSC returns 403, report the service account email and instruct on adding permissions
 - Never fail silently -- always report what succeeded and what failed
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-seo]] — Category: skills-seo
+

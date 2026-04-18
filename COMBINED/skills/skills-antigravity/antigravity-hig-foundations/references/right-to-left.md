@@ -1,4 +1,11 @@
 ---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
+---
 title: "Right to left | Apple Developer Documentation"
 source: https://developer.apple.com/design/human-interface-guidelines/right-to-left
 
@@ -203,4 +210,9 @@ If your custom interface icon includes a component that can imply handedness, li
 [![](https://devimages-cdn.apple.com/wwdc-services/images/3055294D-836B-4513-B7B0-0BC5666246B0/4498DDBC-5903-48A6-85EB-47BCACA39DFB/9915_wide_250x141_1x.jpg) Enhance your app’s multilingual experience ](https://developer.apple.com/videos/play/wwdc2025/222)
 
 [![](https://devimages-cdn.apple.com/wwdc-services/images/124/7F5167EA-F6A3-4605-83FF-FF75E802969C/6527_wide_250x141_1x.jpg) Design for Arabic ](https://developer.apple.com/videos/play/wwdc2022/10034)
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
 

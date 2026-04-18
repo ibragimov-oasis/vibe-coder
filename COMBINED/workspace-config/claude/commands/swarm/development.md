@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/config
+  - source/workspace-config
+---
+
 # Development Swarm Strategy
 
 ## Purpose
@@ -94,3 +101,9 @@ mcp__claude-flow__daa_fault_tolerance({
   "strategy": "auto-recovery"
 })
 ```
+
+## 🔗 Связи
+
+- [[MOC - System]] — workspace-config
+- [[000 - Map of Maps]] — Map of Maps
+

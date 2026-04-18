@@ -2,6 +2,10 @@
 name: laravel-patterns
 description: Laravel架构模式、路由/控制器、Eloquent ORM、服务层、队列、事件、缓存以及用于生产应用的API资源。
 origin: ECC
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-everything-cc
 ---
 
 # Laravel 开发模式
@@ -413,3 +417,9 @@ return response()->json([
 
 * 将机密信息保存在 `.env` 中，将配置保存在 `config/*.php` 中
 * 使用按环境配置覆盖，并在生产环境中使用 `config:cache`
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

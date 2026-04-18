@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # Board Governance & Investor Relations Guide
 
 ## Board of Directors Management
@@ -597,3 +604,9 @@ Corporate Secretary
 - [ ] Succession planning
 - [ ] ESG disclosure
 - [ ] Virtual meeting details
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

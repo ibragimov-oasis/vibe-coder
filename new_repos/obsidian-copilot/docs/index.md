@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/new_repos
+---
+
 # Copilot for Obsidian — Documentation
 
 Welcome to the official documentation for **Copilot for Obsidian**, an AI-powered assistant plugin that brings the power of large language models directly into your note-taking workflow.
@@ -27,3 +34,8 @@ Welcome to the official documentation for **Copilot for Obsidian**, an AI-powere
 4. Start chatting!
 
 For a full walkthrough, see [Getting Started](getting-started.md).
+
+## 🔗 Связи
+
+- [[000 - Map of Maps]] — Map of Maps
+

@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-praisonai
+---
+
 # AI Code Editor Smoke Test Verification Ledger
 
 **Date**: January 2026  
@@ -91,3 +98,10 @@ PRAISONAI_LIVE_SMOKE=1 pytest tests/live/test_ai_code_editor_smoke.py::TestAICod
 ## Missing = 0
 
 All 10 scenarios defined and verified with CLI-first approach.
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/praisonai]] — PraisonAI
+- [[000 - Map of Maps]] — Map of Maps
+

@@ -3,6 +3,9 @@ title: Build Index Maps for Repeated Lookups
 impact: LOW-MEDIUM
 impactDescription: 1M ops to 2K ops
 tags: javascript, map, indexing, optimization, performance
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
 ---
 
 ## Build Index Maps for Repeated Lookups
@@ -35,3 +38,9 @@ function processOrders(orders: Order[], users: User[]) {
 
 Build map once (O(n)), then all lookups are O(1).
 For 1000 orders × 1000 users: 1M ops → 2K ops.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

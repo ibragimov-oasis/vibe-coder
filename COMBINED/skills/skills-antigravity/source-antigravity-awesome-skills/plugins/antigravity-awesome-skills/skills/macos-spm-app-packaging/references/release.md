@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # Release and notarization notes
 
 ## Notarization requirements
@@ -30,3 +37,9 @@ gh release create v<version> CodexBar-<version>.zip appcast.xml \
 Notes:
 - If you serve appcast from GitHub Releases or raw URLs, ensure the release is published and assets are accessible (no 404s).
 - Prefer using a curated release notes file rather than dumping the full changelog.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

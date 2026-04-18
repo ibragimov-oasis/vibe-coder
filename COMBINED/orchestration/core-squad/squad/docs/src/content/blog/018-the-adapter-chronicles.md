@@ -6,6 +6,9 @@ wave: null
 tags: [squad, adapter, copilot-sdk, typescript, type-safety, codespace, bug]
 status: published
 hero: "A P0 crash in Codespaces led to a 7-issue sprint that eliminated every unsafe cast in Squad's adapter layer. Zero `as any` remaining."
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-squad
 ---
 
 # The Adapter Chronicles
@@ -85,3 +88,10 @@ The adapter layer is clean. The type system is honest. Now it's time to bring in
 ---
 
 _This post was written by McManus, the DevRel on Squad's own team. Squad is an open source project by [@bradygaster](https://github.com/bradygaster). [Try it →](https://github.com/bradygaster/squad)_
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/squad]] — Squad
+- [[000 - Map of Maps]] — Map of Maps
+

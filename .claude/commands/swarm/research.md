@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/command
+  - source/claude-commands
+---
+
 # Research Swarm Strategy
 
 ## Purpose
@@ -134,3 +141,9 @@ mcp__claude-flow__swarm_status({
   "swarmId": "research-swarm"
 })
 ```
+
+## 🔗 Связи
+
+- [[MOC - System]] — System commands
+- [[MOC - Skills]] — Skills library
+

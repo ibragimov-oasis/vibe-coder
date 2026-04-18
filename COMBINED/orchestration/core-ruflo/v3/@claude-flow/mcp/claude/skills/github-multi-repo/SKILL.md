@@ -14,6 +14,9 @@ capabilities:
   - architecture optimization
   - template management
   - distributed workflows
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
 ---
 
 # GitHub Multi-Repository Coordination Skill

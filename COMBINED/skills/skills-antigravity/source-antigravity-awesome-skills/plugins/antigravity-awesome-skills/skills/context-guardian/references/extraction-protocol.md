@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # Protocolo de Extracao Detalhado
 
 Guia passo a passo para extrair TODAS as informacoes criticas de uma sessao
@@ -127,3 +134,9 @@ nesta ordem, precedidas por um cabecalho:
 *Snapshot gerado por context-guardian v1.0.0*
 *Para restaurar: leia este arquivo + MEMORY.md + context_manager.py load*
 ```
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

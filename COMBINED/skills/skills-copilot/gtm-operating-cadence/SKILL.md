@@ -5,6 +5,10 @@ license: MIT
 metadata:
   author: Smit Patel (https://linkedin.com/in/smitkpatel)
   source: https://github.com/beingsmit/technical-product-gtm
+tags:
+  - domain/agents
+  - artifact/skill
+  - source/skills-copilot
 ---
 
 # Operating Cadence
@@ -418,3 +422,10 @@ Daily: Slack wins/customer-voice → Weekly: CEO email + function updates → Mo
 ---
 
 *Based on operating cadence design across companies scaling from 20 to 1,000+ employees, including the five-level meeting architecture that survived 3x headcount growth, the weekly reporting format that caught pipeline problems 3 weeks earlier than monthly reviews, and the CEO weekly update format refined across multiple companies. Not theory — patterns from building operating systems through hypergrowth and teaching them to the next team.*
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-copilot]] — Category: skills-copilot
+- [[MOC - Agents]] — Copilot agents
+

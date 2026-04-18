@@ -1,6 +1,10 @@
 ---
 name: agent-pr-manager
 description: Agent skill for pr-manager - invoke with $agent-pr-manager
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-ruflo
 ---
 
 ---
@@ -194,3 +198,9 @@ mcp__claude-flow__memory_usage {
 - Automatic agent failover
 - Progress preservation across interruptions
 - Comprehensive error reporting and recovery
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-ruflo]] — Category: skills-ruflo
+

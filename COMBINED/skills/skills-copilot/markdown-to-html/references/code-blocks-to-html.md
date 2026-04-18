@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-copilot
+---
+
 # Code Blocks to HTML
 
 ## Fenced Code Blocks (No Language)
@@ -163,3 +170,9 @@ graph TD
 
 * No `language-*` class appears here because **no language identifier** was provided.
 * The inner triple backticks are preserved **as literal text** inside `<code>`.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-copilot]] — Category: skills-copilot
+

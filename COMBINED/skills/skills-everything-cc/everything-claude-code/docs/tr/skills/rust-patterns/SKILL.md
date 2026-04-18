@@ -2,6 +2,10 @@
 name: rust-patterns
 description: Idiomatic Rust patterns, ownership, error handling, traits, concurrency, and best practices for building safe, performant applications.
 origin: ECC
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-everything-cc
 ---
 
 # Rust Geliştirme Desenleri
@@ -497,3 +501,9 @@ async fn bad_async() {
 ```
 
 **Unutmayın**: Derlenir ise muhtemelen doğrudur — ama sadece `unwrap()` kullanmaktan kaçınır, `unsafe`'i minimize eder ve tip sisteminin sizin için çalışmasına izin verirseniz.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

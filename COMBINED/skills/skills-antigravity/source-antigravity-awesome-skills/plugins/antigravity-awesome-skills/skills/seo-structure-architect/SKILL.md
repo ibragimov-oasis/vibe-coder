@@ -4,6 +4,10 @@ description: Analyzes and optimizes content structure including header hierarchy
 risk: unknown
 source: community
 date_added: '2026-02-27'
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 ## Use this skill when
@@ -105,3 +109,9 @@ H1: Primary Keyword Focus
 - Step-by-step for processes
 
 Focus on logical flow and scannable content. Create clear information hierarchy for users and search engines.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

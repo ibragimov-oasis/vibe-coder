@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-squad
+---
+
 # Hook-governance
 
 Beginner sample for the Squad SDK that demonstrates the four governance hooks, which enforce rules as code rather than as prompt instructions. Hooks run deterministically and can't be bypassed, making them ideal for security and policy enforcement.
@@ -69,3 +76,9 @@ The sample demonstrates four independent hook demos. The first demo creates a ho
 - Move on to [streaming-chat](../streaming-chat/README.md) to see agents interact in real time
 - Read about the [Hook Pipeline API](../../README.md#hooks) in the main documentation
 - See [rock-paper-scissors](../rock-paper-scissors/README.md) for advanced multi-agent scenarios
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-squad]] — core-squad
+

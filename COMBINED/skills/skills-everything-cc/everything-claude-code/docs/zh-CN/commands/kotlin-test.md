@@ -1,5 +1,9 @@
 ---
 description: 为Kotlin强制执行TDD工作流程。首先编写Kotest测试，然后实施。使用Kover验证80%以上的覆盖率。
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
 ---
 
 # Kotlin TDD 命令
@@ -313,3 +317,9 @@ open build/reports/kover/html/index.html
 
 * 技能：`skills/kotlin-testing/`
 * 技能：`skills/tdd-workflow/`
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

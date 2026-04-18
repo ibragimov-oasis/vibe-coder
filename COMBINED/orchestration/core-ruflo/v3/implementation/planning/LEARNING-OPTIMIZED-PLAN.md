@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # Claude-Flow v3: Optimized Learning System Plan
 
 ## Executive Summary
@@ -896,3 +903,10 @@ npx claude-flow verify --component learning
 *Optimized Learning Plan - v3.0*
 *Packages: agentic-flow@2.0.1-alpha.50, agentdb@2.0.0-alpha.3.1*
 *Generated: 2026-01-03*
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

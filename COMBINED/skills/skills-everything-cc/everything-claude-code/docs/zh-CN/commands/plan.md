@@ -1,5 +1,9 @@
 ---
 description: 重新阐述需求、评估风险并创建分步实施计划。在接触任何代码之前，等待用户确认。
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
 ---
 
 # 计划命令
@@ -116,3 +120,9 @@ Agent (planner):
 
 对于手动安装，源文件位于：
 `agents/planner.md`
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

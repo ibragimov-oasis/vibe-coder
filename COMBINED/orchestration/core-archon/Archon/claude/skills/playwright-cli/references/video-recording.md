@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-archon
+---
+
 # Video Recording
 
 Capture browser automation sessions as video for debugging, documentation, or verification. Produces WebM (VP8/VP9 codec).
@@ -41,3 +48,10 @@ playwright-cli video-stop recordings/checkout-test-run-42.webm
 
 - Recording adds slight overhead to automation
 - Large recordings can consume significant disk space
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/archon]] — Archon
+- [[000 - Map of Maps]] — Map of Maps
+

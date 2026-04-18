@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-hermes
+---
+
 # Citation Management & Hallucination Prevention
 
 This reference provides a complete workflow for managing citations programmatically, preventing AI-generated citation hallucinations, and maintaining clean bibliographies.
@@ -562,3 +569,9 @@ Before adding a citation:
 **Verification Tools:**
 - Citely: https://citely.ai/citation-checker
 - ReciteWorks: https://reciteworks.com/
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-hermes]] — Category: skills-hermes
+

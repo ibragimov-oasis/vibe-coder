@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # Instagram Graph API — Referência de Endpoints
 
 Base URL: `https://graph.instagram.com/v21.0`
@@ -321,3 +328,9 @@ Mídias em que o usuário foi mencionado/tagueado.
   }
 }
 ```
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

@@ -1,5 +1,9 @@
 ---
 tagline: "A design review with scoring, persona tests, and automated detection."
+tags:
+  - domain/ui
+  - artifact/ui-component
+  - source/ui-design
 ---
 
 ## When to use it
@@ -41,3 +45,9 @@ From there, pair with `/polish` or `/distill` to act on the fixes.
 - **Running it on incomplete work.** Critique is for finished pages. An empty state with three TODOs will score badly because it is not done, not because it is bad.
 - **Ignoring the questions at the end.** They are usually the highest-leverage fixes.
 - **Treating the heuristic scores as a grade.** They are diagnostic, not evaluative. A 3/4 on a heuristic that matters less for your context is fine.
+
+## 🔗 Связи
+
+- [[MOC - UI Design]] — ui-design
+- [[000 - Map of Maps]] — Map of Maps
+

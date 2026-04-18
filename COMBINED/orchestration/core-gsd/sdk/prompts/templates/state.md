@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-gsd
+---
+
 # State Template
 
 Template for `.planning/STATE.md` — the project's living memory.
@@ -173,3 +180,10 @@ It's a DIGEST, not an archive. If accumulated context grows too large:
 The goal is "read once, know where we are" — if it's too long, that fails.
 
 </size_constraint>
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/gsd]] — GSD
+- [[000 - Map of Maps]] — Map of Maps
+

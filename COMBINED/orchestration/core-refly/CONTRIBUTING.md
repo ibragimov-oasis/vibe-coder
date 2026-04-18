@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-refly
+---
+
 # CONTRIBUTING
 
 So you're looking to contribute to Refly - that's awesome, we can't wait to see what you do. Refly is the first open-source platform for building stable, atomic, and versioned agent skills. As an AI-native creation engine, we provide an intuitive free-form canvas interface to codify business logic into structured agent skills that any agent can invoke with 100% reliability. Any help from the community counts, truly.
@@ -257,3 +264,9 @@ If you ever get stuck or have questions while contributing, you can:
 - Join our [Discord](https://discord.gg/YVuYFjFvRC) community
 - Open a discussion in our [GitHub Discussions](https://github.com/refly-ai/refly/discussions)
 - Check our [Documentation](https://docs.refly.ai)
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-refly]] — core-refly
+

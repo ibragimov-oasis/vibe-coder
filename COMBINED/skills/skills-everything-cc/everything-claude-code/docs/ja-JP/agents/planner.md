@@ -3,6 +3,10 @@ name: planner
 description: 複雑な機能とリファクタリングのための専門計画スペシャリスト。ユーザーが機能実装、アーキテクチャの変更、または複雑なリファクタリングを要求した際に積極的に使用します。計画タスク用に自動的に起動されます。
 tools: ["Read", "Grep", "Glob"]
 model: opus
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
 ---
 
 あなたは包括的で実行可能な実装計画の作成に焦点を当てた専門計画スペシャリストです。
@@ -117,3 +121,9 @@ model: opus
 - パフォーマンスのボトルネック
 
 **覚えておいてください**: 優れた計画は具体的で、実行可能で、ハッピーパスとエッジケースの両方を考慮しています。最高の計画は、自信を持って段階的な実装を可能にします。
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

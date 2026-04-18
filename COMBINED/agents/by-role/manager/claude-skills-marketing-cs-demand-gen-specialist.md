@@ -5,6 +5,10 @@ skills: marketing-skill/marketing-demand-acquisition
 domain: marketing
 model: sonnet
 tools: [Read, Write, Bash, Grep, Glob]
+tags:
+  - domain/agents
+  - artifact/agent
+  - source/by-role/manager
 ---
 
 # Demand Generation Specialist Agent
@@ -288,3 +292,9 @@ fi
 **Sprint:** sprint-11-05-2025 (Day 2)
 **Status:** Production Ready
 **Version:** 1.0
+
+## 🔗 Связи
+
+- [[MOC - Agents]] — Agent catalog
+- [[agents/manager]] — Role: manager
+

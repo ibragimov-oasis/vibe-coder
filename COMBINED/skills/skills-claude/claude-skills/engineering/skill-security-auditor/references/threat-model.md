@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # Threat Model: AI Agent Skills
 
 Attack vectors, detection strategies, and mitigations for malicious AI agent skills.
@@ -269,3 +276,9 @@ security:
 ```
 
 This helps auditors quickly assess the skill's security posture.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

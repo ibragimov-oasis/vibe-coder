@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/memory
+  - artifact/memory
+  - source/memory
+---
+
 <claude-mem-context>
 # Recent Activity
 
@@ -19,3 +26,9 @@
 |----|------|---|-------|------|
 | #22284 | 9:41 PM | 🔵 | Claude Plugin Metadata Configuration | ~183 |
 </claude-mem-context>
+
+## 🔗 Связи
+
+- [[MOC - Memory]] — memory
+- [[000 - Map of Maps]] — Map of Maps
+

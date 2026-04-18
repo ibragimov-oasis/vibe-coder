@@ -4,6 +4,10 @@ about: Suggest new features to be added to chat-ui
 title: ""
 labels: enhancement
 assignees: ""
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
 ---
 
 ## Describe your feature request
@@ -15,3 +19,10 @@ assignees: ""
 ## Implementation idea
 
 <!-- If you know how this should be implemented in the codebase, share your thoughts. Let us know if you feel like implementing it yourself as well! -->
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # Final Validation Report - Agentic-Flow Integration v2.6.0-alpha.2
 
 **Date:** 2025-10-10
@@ -163,3 +170,10 @@ The agentic-flow integration is **PRODUCTION READY**. All Phase 2 tasks are comp
 **Test Environment:** Linux 6.8.0-1030-azure
 **Node Version:** v23.6.0
 **Claude-Flow Version:** 2.6.0-alpha.2
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

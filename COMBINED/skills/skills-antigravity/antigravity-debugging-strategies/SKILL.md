@@ -4,6 +4,10 @@ description: "Transform debugging from frustrating guesswork into systematic pro
 risk: safe
 source: community
 date_added: "2026-02-27"
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 # Debugging Strategies
@@ -35,3 +39,9 @@ Transform debugging from frustrating guesswork into systematic problem-solving w
 ## Resources
 
 - `resources/implementation-playbook.md` for detailed debugging patterns and checklists.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

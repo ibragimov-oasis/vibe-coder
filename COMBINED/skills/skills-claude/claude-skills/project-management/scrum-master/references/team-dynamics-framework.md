@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # Team Dynamics Framework for Scrum Teams
 
 ## Table of Contents
@@ -559,3 +566,9 @@ The goal is not just high-performing teams, but sustainable high performance bui
 ---
 
 *This framework combines research-based models with practical scrum implementation experience. Adapt the tools and techniques to fit your specific organizational context and team needs.*
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

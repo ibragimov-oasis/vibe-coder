@@ -3,6 +3,10 @@ name: pytorch-build-resolver
 description: PyTorch runtime, CUDA, and training error resolution specialist. Fixes tensor shape mismatches, device errors, gradient issues, DataLoader problems, and mixed precision failures with minimal changes. Use when PyTorch training or inference crashes.
 tools: ["Read", "Write", "Edit", "Bash", "Grep", "Glob"]
 model: sonnet
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
 ---
 
 # PyTorch Build/Runtime Error Resolver
@@ -118,3 +122,9 @@ Son: `Status: SUCCESS/FAILED | Errors Fixed: N | Files Modified: list`
 ---
 
 PyTorch best practice'leri için, [resmi PyTorch dokümantasyonu](https://pytorch.org/docs/stable/) ve [PyTorch forumları](https://discuss.pytorch.org/)'na başvurun.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

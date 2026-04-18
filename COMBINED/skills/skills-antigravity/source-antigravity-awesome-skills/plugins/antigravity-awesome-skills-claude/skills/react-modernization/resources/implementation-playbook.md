@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # React Modernization Implementation Playbook
 
 This file contains detailed patterns, checklists, and code samples referenced by the skill.
@@ -510,3 +517,9 @@ function List<T>({ items, renderItem }: ListProps<T>) {
 - Mixing class and functional patterns
 - Ignoring StrictMode warnings
 - Breaking change assumptions
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

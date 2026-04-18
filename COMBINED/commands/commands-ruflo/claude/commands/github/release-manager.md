@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/command
+  - source/commands
+---
+
 # GitHub Release Manager
 
 ## Purpose
@@ -336,3 +343,9 @@ jobs:
 - Error rate monitoring
 - User adoption metrics
 - Feedback collection and analysis
+
+## 🔗 Связи
+
+- [[MOC - System]] — commands
+- [[000 - Map of Maps]] — Map of Maps
+

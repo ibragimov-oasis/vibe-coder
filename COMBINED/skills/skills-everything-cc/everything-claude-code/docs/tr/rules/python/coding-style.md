@@ -2,6 +2,10 @@
 paths:
   - "**/*.py"
   - "**/*.pyi"
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
 ---
 # Python Kodlama Stili
 
@@ -40,3 +44,9 @@ class Point(NamedTuple):
 ## Referans
 
 Kapsamlı Python idiom'ları ve pattern'leri için skill: `python-patterns` dosyasına bakın.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

@@ -3,6 +3,9 @@ name: timing
 description: Interpolation curves in Remotion - linear, easing, spring animations
 metadata:
   tags: spring, bounce, easing, interpolation
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
 ---
 
 A simple linear interpolation is done using the `interpolate` function.
@@ -177,3 +180,9 @@ const value1 = interpolate(frame, [0, 100], [0, 1], {
   extrapolateRight: 'clamp',
 });
 ```
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

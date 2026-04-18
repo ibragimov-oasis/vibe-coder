@@ -1,6 +1,10 @@
 ---
 name: vscode-ext-localization
 description: 'Guidelines for proper localization of VS Code extensions, following VS Code extension development guidelines, libraries and good practices'
+tags:
+  - domain/agents
+  - artifact/skill
+  - source/skills-copilot
 ---
 
 # VS Code extension localization
@@ -23,3 +27,10 @@ VS Code localization is composed by three different approaches, depending on the
   -> An exclusive `Markdown` file like `walkthrough/someStep.pt-br.md` for Brazilian Portuguese localization
 3. Messages and string located in extension source code (JavaScript or TypeScript files)
   -> An exclusive `bundle.l10n.pt-br.json` for Brazilian Portuguese localization
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-copilot]] — Category: skills-copilot
+- [[MOC - Agents]] — Copilot agents
+

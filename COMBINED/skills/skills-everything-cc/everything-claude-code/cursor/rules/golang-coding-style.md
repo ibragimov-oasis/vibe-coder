@@ -2,6 +2,10 @@
 description: "Go coding style extending common rules"
 globs: ["**/*.go", "**/go.mod", "**/go.sum"]
 alwaysApply: false
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
 ---
 # Go Coding Style
 
@@ -29,3 +33,9 @@ if err != nil {
 ## Reference
 
 See skill: `golang-patterns` for comprehensive Go idioms and patterns.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-omc
+---
+
 # Scoring Match Calibration Rationale
 
 ## Why This Change Exists
@@ -69,3 +76,10 @@ Mitigations:
   - 6-keyword threshold positive case (3/6 passes)
 
 - Live benchmark rerun is intentionally separate due to API cost/variance and should be done after merge for clean before/after reporting.
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-omc]] — core-omc
+- [[MOC - Skills]] — Skills library
+

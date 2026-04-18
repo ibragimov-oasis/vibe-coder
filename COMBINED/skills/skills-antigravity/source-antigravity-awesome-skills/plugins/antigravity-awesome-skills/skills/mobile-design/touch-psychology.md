@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # Touch Psychology Reference
 
 > Deep dive into mobile touch interaction, Fitts' Law for touch, thumb zone anatomy, gesture psychology, and haptic feedback.
@@ -535,3 +542,9 @@ Warning:  Attention needed
 ---
 
 > **Remember:** Every touch is a conversation between user and device. Make it feel natural, responsive, and respectful of human fingers—not precise cursor points.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

@@ -1,6 +1,10 @@
 ---
 name: fedora-linux-triage
 description: 'Triage and resolve Fedora issues with dnf, systemd, and SELinux-aware guidance.'
+tags:
+  - domain/agents
+  - artifact/skill
+  - source/skills-copilot
 ---
 
 # Fedora Linux Triage
@@ -29,3 +33,10 @@ You are a Fedora Linux expert. Diagnose and resolve the user’s issue using Fed
 - **Remediation Commands** (code blocks)
 - **Validation** (code blocks)
 - **Rollback/Cleanup**
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-copilot]] — Category: skills-copilot
+- [[MOC - Agents]] — Copilot agents
+

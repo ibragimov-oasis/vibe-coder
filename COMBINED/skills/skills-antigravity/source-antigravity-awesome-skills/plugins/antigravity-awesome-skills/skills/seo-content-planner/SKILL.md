@@ -10,6 +10,10 @@ description: 'Creates comprehensive content outlines and topic clusters for SEO.
 risk: unknown
 source: community
 date_added: '2026-02-27'
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 ## Use this skill when
@@ -111,3 +115,9 @@ III. Main Section 2
 - Publishing priority
 
 Focus on comprehensive coverage and logical content progression. Plan for topical authority.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

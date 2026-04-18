@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # Complete Examples - Full Working Code
 
 Real-world examples showing complete implementation patterns.
@@ -636,3 +643,9 @@ Controller formats response
 - [routing-and-controllers.md](routing-and-controllers.md)
 - [services-and-repositories.md](services-and-repositories.md)
 - [validation-patterns.md](validation-patterns.md)
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

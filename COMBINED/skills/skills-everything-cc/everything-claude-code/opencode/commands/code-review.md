@@ -2,6 +2,10 @@
 description: Review code for quality, security, and maintainability
 agent: code-reviewer
 subtask: true
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
 ---
 
 # Code Review Command
@@ -66,3 +70,9 @@ Fix: [How to fix]
 ---
 
 **IMPORTANT**: Never approve code with security vulnerabilities!
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # ADR-015-v2: Unified Plugin System (Enhanced)
 
 ## Status
@@ -618,3 +625,10 @@ CLI Commands (plugins.ts)
 - [Collection Manager](../../@claude-flow/plugins/src/collections/collection-manager.ts)
 - [Dependency Graph](../../@claude-flow/plugins/src/registry/dependency-graph.ts)
 - [Official Collections](../../@claude-flow/plugins/src/collections/official/index.ts)
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

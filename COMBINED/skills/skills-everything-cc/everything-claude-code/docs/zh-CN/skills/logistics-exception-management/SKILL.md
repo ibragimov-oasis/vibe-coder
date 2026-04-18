@@ -8,6 +8,10 @@ metadata:
   author: evos
   clawdbot:
     emoji: ""
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-everything-cc
 ---
 
 # 物流异常管理
@@ -216,3 +220,9 @@ metadata:
 
 * 将此技能与您内部的索赔截止日期、特定运输模式的升级矩阵以及保险公司的通知要求结合使用。
 * 将承运人特定的交货证明规则和OS\&D检查清单放在执行本手册的团队附近。
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # Model Configuration
 
 ## Adding Models
@@ -47,3 +54,10 @@ The MCP Bridge auto-detects the provider from the model name:
   { "name": "anthropic/claude-sonnet-4.6", "displayName": "Claude Sonnet", "provider": "openrouter", "supportsTools": true }
 ]
 ```
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-ruflo]] — core-ruflo
+- [[MOC - Skills]] — Skills library
+

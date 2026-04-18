@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # Program Mechanics — Referral and Affiliate Design Patterns
 
 Detailed design patterns with real-world examples. Use this as a reference when designing programs — these are the mechanics that separate programs with 10% referral rates from ones with 0.5%.
@@ -210,3 +217,9 @@ Referral fraud happens when users game the system (fake accounts, self-referrals
 
 ### For Product-Embedded Viral Loops
 Build these in-house. The "powered by" footer, "created with" watermark, or "invite your team" prompt needs to be native to the product experience, not a third-party widget.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

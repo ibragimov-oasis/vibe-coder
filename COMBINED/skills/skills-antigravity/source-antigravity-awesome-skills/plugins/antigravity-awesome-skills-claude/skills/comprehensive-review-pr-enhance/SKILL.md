@@ -7,6 +7,10 @@ description: >
   "PR review", "pull request", or asks to document a diff for reviewers.
 risk: unknown
 source: community
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 # Pull Request Enhancement
@@ -70,3 +74,9 @@ git cherry-pick <commits-for-part-1>
 ## Resources
 
 - `resources/implementation-playbook.md` — Python helpers for automated PR analysis, coverage reports, and risk scoring
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

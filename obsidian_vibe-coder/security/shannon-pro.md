@@ -90,3 +90,9 @@ Shannon Pro — комплексная AppSec платформа. Объедин
 
 - [[mcp-servers/mcp-code-review-graph]] — blast-radius анализ
 - [[mcp-servers/mcp-lightpanda]] — динамическое тестирование
+
+## 🔗 Связи
+
+- [[MOC - Security]] — Parent MOC
+- [[000 - Map of Maps]] — Map of Maps
+

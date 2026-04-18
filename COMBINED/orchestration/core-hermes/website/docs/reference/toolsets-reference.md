@@ -2,6 +2,10 @@
 sidebar_position: 4
 title: "Toolsets Reference"
 description: "Reference for Hermes core, composite, platform, and dynamic toolsets"
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-hermes
 ---
 
 # Toolsets Reference
@@ -56,3 +60,10 @@ Toolsets are named bundles of tools that you can enable with `hermes chat --tool
 - `mcp-<server>` — generated at runtime for each configured MCP server.
 - Custom toolsets can be created in configuration and resolved at startup.
 - Wildcards: `all` and `*` expand to every registered toolset.
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/hermes]] — Hermes
+- [[000 - Map of Maps]] — Map of Maps
+

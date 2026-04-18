@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
+---
+
 # 更新文档
 
 将文档与代码库同步，从单一事实来源文件生成。
@@ -84,3 +91,9 @@
 * **保留手动编写部分**：仅更新生成的部分；保持手写内容不变
 * **标记生成的内容**：在生成的部分周围使用 `<!-- AUTO-GENERATED -->` 标记
 * **不主动创建文档**：仅在命令明确要求时才创建新的文档文件
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

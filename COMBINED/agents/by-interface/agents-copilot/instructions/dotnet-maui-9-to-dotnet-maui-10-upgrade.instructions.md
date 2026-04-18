@@ -1,6 +1,10 @@
 ---
 description: 'Instructions for upgrading .NET MAUI applications from version 9 to version 10, including breaking changes, deprecated APIs, and migration strategies for ListView to CollectionView.'
 applyTo: '**/*.csproj, **/*.cs, **/*.xaml'
+tags:
+  - domain/agents
+  - artifact/agent
+  - source/by-interface/agents-copilot
 ---
 
 # Upgrading from .NET MAUI 9 to .NET MAUI 10
@@ -1920,3 +1924,9 @@ finally { IsLoading = false; }
 **Document Version:** 2.0  
 **Last Updated:** November 2025  
 **Applies To:** .NET MAUI 10.0.100 and later
+
+## 🔗 Связи
+
+- [[MOC - Agents]] — Agent catalog
+- [[agents/agents-copilot]] — Interface: agents-copilot
+

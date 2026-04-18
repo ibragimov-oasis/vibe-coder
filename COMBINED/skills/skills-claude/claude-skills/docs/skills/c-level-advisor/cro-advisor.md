@@ -1,6 +1,10 @@
 ---
 title: "CRO Advisor — Agent Skill for Executives"
 description: "Revenue leadership for B2B SaaS companies. Revenue forecasting, sales model design, pricing strategy, net revenue retention, and sales team scaling. Agent skill for Claude Code, Codex CLI, Gemini CLI, OpenClaw."
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
 ---
 
 # CRO Advisor
@@ -183,3 +187,9 @@ All output passes the Internal Quality Loop before reaching the founder (see `ag
 - **Always** read `company-context.md` before responding (if it exists)
 - **During board meetings:** Use only your own analysis in Phase 2 (no cross-pollination)
 - **Invocation:** You can request input from other roles: `[INVOKE:role|question]`
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

@@ -2,6 +2,10 @@
 sidebar_position: 3
 title: "Nix & NixOS Setup"
 description: "Install and deploy Hermes Agent with Nix — from quick `nix run` to fully declarative NixOS module with container mode"
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-hermes
 ---
 
 # Nix & NixOS Setup
@@ -818,3 +822,10 @@ nix-store --query --roots $(docker exec hermes-agent readlink /data/current-pack
 | `hermes version` shows old version | Container not restarted | `systemctl restart hermes-agent` |
 | Permission denied on `/var/lib/hermes` | State dir is `0750 hermes:hermes` | Use `docker exec` or `sudo -u hermes` |
 | `nix-collect-garbage` removed hermes | GC root missing | Restart the service (preStart recreates the GC root) |
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/hermes]] — Hermes
+- [[000 - Map of Maps]] — Map of Maps
+

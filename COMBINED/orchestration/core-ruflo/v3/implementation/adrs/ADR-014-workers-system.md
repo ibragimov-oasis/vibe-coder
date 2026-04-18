@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # ADR-014: Cross-Platform Workers System
 
 ## Status
@@ -483,3 +490,10 @@ This means all V3 CLI commands (including `daemon`) are available via:
 
 **Document Maintained By:** Architecture Team
 **Last Updated:** 2026-01-07
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

@@ -8,6 +8,9 @@ date_added: "YYYY-MM-DD"
 author: your-name-or-handle
 tags: [tag-one, tag-two]
 tools: [claude, cursor, gemini]
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
 ---
 
 # Skill Title
@@ -74,3 +77,9 @@ More instructions...
 
 - `@other-skill` - When to use this instead
 - `@complementary-skill` - How this works together
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

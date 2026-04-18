@@ -12,7 +12,10 @@ sources:
     repo: https://github.com/anthropics/antigravity-awesome-skills
     path: skills/seo-audit/SKILL.md
   - name: claude-skills
-    repo: https://github.com/anthropics/claude-skills
+
+  - domain/seo
+  - artifact/skill
+  - source/skills-seo    repo: https://github.com/anthropics/claude-skills
     path: unhidden_gemini/skills/seo-audit/SKILL.md
 related_skills: [seo-technical, seo-content, seo-schema, seo-sitemap, seo-performance, seo-visual, seo-geo, seo-local, programmatic-seo, schema-markup, page-cro, analytics-tracking]
 ---
@@ -229,3 +232,9 @@ Use ONLY after the audit is complete:
 - **schema-markup** — Structured data implementation
 - **page-cro** — Conversion optimization
 - **analytics-tracking** — Measurement gap resolution
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-seo]] — Category: skills-seo
+

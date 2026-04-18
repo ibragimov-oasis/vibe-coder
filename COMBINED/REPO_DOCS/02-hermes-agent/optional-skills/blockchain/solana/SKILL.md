@@ -205,3 +205,9 @@ PYTH, HNT, RNDR, WEN, W, TNSR, DRIFT, bSOL, JLP, WIF, MEW, BOME, PENGU.
 # Should print current Solana slot, TPS, and SOL price
 python3 ~/.hermes/skills/blockchain/solana/scripts/solana_client.py stats
 ```
+
+## 🔗 Связи
+
+- [[000 - Map of Maps]] — REPO_DOCS
+- [[000 - Map of Maps]] — Map of Maps
+

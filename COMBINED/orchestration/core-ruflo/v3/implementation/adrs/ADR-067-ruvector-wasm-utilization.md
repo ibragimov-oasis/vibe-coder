@@ -1,4 +1,11 @@
 ---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
+---
 # ADR-067: RuVector WASM Utilization Improvement Plan
 
 **Status**: Proposed
@@ -89,3 +96,10 @@ Invert the current pattern where WASM is optional and JS is default. For `learni
 - `v3/@claude-flow/cli/package.json` -- optionalDependencies declarations
 - `v3/@claude-flow/cli/src/hooks/` -- hooks route command
 - `v3/@claude-flow/cli/src/mcp/tools/` -- MCP tool definitions for rvagent and ruvllm
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

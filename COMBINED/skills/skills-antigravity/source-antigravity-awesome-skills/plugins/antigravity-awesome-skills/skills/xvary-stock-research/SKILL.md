@@ -4,6 +4,10 @@ description: "Thesis-driven equity analysis from public SEC EDGAR and market dat
 risk: safe
 source: community
 date_added: "2026-03-23"
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 # XVARY Stock Research Skill
@@ -101,3 +105,9 @@ If a tool call fails, state exactly what data is missing and continue with avail
 - This skill is research support, not investment advice.
 - Do not fabricate non-public data.
 - Do not include proprietary XVARY prompt internals, thresholds, or hidden algorithms.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

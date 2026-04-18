@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # Analysis Commands Compliance Report
 
 ## Overview
@@ -52,3 +59,10 @@ Parameters: {"operation": "session", "timeframe": "24h"}
 4. Performance analysis already using correct tool format
 
 The analysis directory is now fully compliant with the Claude Flow command standards.
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

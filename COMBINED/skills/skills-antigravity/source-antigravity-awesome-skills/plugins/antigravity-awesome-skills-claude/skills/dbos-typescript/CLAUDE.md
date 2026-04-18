@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # dbos-typescript
 
 > **Note:** `CLAUDE.md` is a symlink to this file.
@@ -92,3 +99,9 @@ Reference files are named `{prefix}-{topic}.md` (e.g., `query-missing-indexes.md
 ---
 
 *31 reference files across 9 categories*
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

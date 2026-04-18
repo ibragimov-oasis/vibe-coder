@@ -1,5 +1,9 @@
 ---
 description: "从会话中提取可重用模式，在保存前自我评估质量，并确定正确的保存位置（全局与项目）。"
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
 ---
 
 # /learn-eval - 提取、评估、然后保存
@@ -115,3 +119,9 @@ origin: auto-extracted
 * 专注于那些将在未来会话中节省时间的模式
 * 保持技能聚焦 —— 每个技能一个模式
 * 当裁决为“吸收”时，追加到现有技能，而不是创建新文件
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

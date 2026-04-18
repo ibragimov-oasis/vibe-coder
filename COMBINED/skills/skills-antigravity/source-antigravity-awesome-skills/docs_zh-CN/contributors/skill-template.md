@@ -8,6 +8,9 @@ date_added: "YYYY-MM-DD"
 author: your-name-or-handle
 tags: [tag-one, tag-two]
 tools: [claude, cursor, gemini]
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
 ---
 
 # 技能标题
@@ -290,3 +293,9 @@ skills/
 如果您有任何疑问或需要指导，请随时联系我们。
 
 **期待您的贡献！** 🚀
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

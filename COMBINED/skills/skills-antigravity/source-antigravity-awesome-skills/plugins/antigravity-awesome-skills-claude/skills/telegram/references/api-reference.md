@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # Telegram Bot API - Referencia Completa
 
 ## Table of Contents
@@ -273,3 +280,9 @@ python code
 - `"message is not modified"` - Texto igual ao anterior
 - `"BUTTON_DATA_INVALID"` - callback_data > 64 bytes
 - `"have no rights to send a message"` - Bot sem permissao no grupo
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

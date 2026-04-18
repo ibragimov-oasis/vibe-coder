@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # Automatic Error Recovery Implementation - v2.7.35
 
 ## Summary
@@ -319,3 +326,10 @@ Closes:
 
 **Status**: ✅ Implementation Complete - Ready for Testing
 **Next**: Docker validation and beta release
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-ruflo]] — core-ruflo
+- [[MOC - Skills]] — Skills library
+

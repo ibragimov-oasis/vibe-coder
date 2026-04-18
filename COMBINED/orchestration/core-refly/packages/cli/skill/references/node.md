@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-refly
+---
+
 # Node Reference
 
 ## Node Types
@@ -85,3 +92,10 @@ The following commands have been migrated:
 Node execution is now under `refly workflow run node-*`. For single-node debugging, use:
 1. `refly workflow run node-start --type <t>`
 2. Use `node-start --from <nodeId> --run-id <runId>` to run from node + downstream
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/refly]] — Refly
+- [[000 - Map of Maps]] — Map of Maps
+

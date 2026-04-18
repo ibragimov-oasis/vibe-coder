@@ -1,6 +1,10 @@
 ---
 title: "Project Management Skills — Agent Skill for PM"
 description: "6 project management agent skills and plugins for Claude Code, Codex, Gemini CLI, Cursor, OpenClaw. Senior PM, scrum master, Jira expert (JQL)."
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
 ---
 
 # Project Management Skills
@@ -54,3 +58,9 @@ python3 scrum-master/scripts/velocity_analyzer.py --help
 
 - Load only the specific skill SKILL.md you need
 - Use MCP tools for live Jira/Confluence operations when available
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

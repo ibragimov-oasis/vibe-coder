@@ -3,6 +3,10 @@ title: Vision & Image Paste
 description: Paste images from your clipboard into the Hermes CLI for multimodal vision analysis.
 sidebar_label: Vision & Image Paste
 sidebar_position: 7
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-hermes
 ---
 
 # Vision & Image Paste
@@ -185,3 +189,10 @@ Image paste works with any vision-capable model. The image is sent as a base64-e
 ```
 
 Most modern models support this format, including GPT-4 Vision, Claude (with vision), Gemini, and open-source multimodal models served through OpenRouter.
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/hermes]] — Hermes
+- [[000 - Map of Maps]] — Map of Maps
+

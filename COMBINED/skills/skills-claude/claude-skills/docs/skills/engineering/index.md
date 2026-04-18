@@ -1,6 +1,10 @@
 ---
 title: "Engineering - POWERFUL Skills — Agent Skills & Codex Plugins"
 description: "48 engineering - powerful skills — advanced agent-native skill and Claude Code plugin for AI agent design, infrastructure, and automation. Works with Claude Code, Codex CLI, Gemini CLI, and OpenClaw."
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
 ---
 
 <div class="domain-header" markdown>
@@ -234,3 +238,9 @@ description: "48 engineering - powerful skills — advanced agent-native skill a
     > Predictable infrastructure. Secure state. Modules that compose. No drift.
 
 </div>
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

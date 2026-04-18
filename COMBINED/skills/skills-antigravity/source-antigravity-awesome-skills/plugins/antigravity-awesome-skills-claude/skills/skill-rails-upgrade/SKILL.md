@@ -4,6 +4,10 @@ description: "Analyze Rails apps and provide upgrade assessments"
 risk: safe
 source: "https://github.com/robzolkos/skill-rails-upgrade"
 date_added: "2026-02-27"
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 ## When to Use This Skill
@@ -407,3 +411,9 @@ Use this skill when working with analyze rails apps and provide upgrade assessme
 3. **Minimal changes** - Only add what's necessary for the new Rails version
 4. **Transparency** - Show the user exactly what will change before doing it
 5. **Reversibility** - User should be able to `git checkout` to restore if needed
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

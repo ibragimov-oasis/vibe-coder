@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # 🚀 ReasoningBank SQL Fallback - Validation Report
 
 **Feature:** Automatic SQL fallback when semantic search returns empty
@@ -403,3 +410,10 @@ The SQL fallback feature transforms ReasoningBank from a **slow, unreliable alph
 **Version:** claude-flow v2.7.0-alpha.7
 **Confidence Level:** **HIGH**
 **Production Ready:** ✅ **YES**
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

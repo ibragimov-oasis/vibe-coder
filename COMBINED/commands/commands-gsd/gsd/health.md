@@ -7,6 +7,10 @@ allowed-tools:
   - Bash
   - Write
   - AskUserQuestion
+tags:
+  - domain/skills
+  - artifact/command
+  - source/commands
 ---
 <objective>
 Validate `.planning/` directory integrity and report actionable issues. Checks for missing files, invalid configurations, inconsistent state, and orphaned plans.
@@ -20,3 +24,9 @@ Validate `.planning/` directory integrity and report actionable issues. Checks f
 Execute the health workflow from @~/.claude/get-shit-done/workflows/health.md end-to-end.
 Parse --repair flag from arguments and pass to workflow.
 </process>
+
+## 🔗 Связи
+
+- [[MOC - System]] — commands
+- [[000 - Map of Maps]] — Map of Maps
+

@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # GraphQL API Template
 
 Tests query, mutation, and subscription via Playwright's request API.
@@ -172,3 +179,9 @@ test.describe('GraphQL API', () => {
 | Invalid query | errors[] defined in response |
 | Unauthenticated | UNAUTHENTICATED extension code |
 | Subscription | Real-time message via WebSocket |
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

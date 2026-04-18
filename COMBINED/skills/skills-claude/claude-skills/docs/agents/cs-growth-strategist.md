@@ -1,6 +1,10 @@
 ---
 title: "Growth Strategist — AI Coding Agent & Codex Skill"
 description: "Growth Strategist agent for revenue operations, sales engineering, customer success, and business development. Orchestrates business-growth skills. Agent-native orchestrator for Claude Code, Codex, Gemini CLI."
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
 ---
 
 # Growth Strategist
@@ -67,3 +71,9 @@ Growth-focused operator covering the full revenue lifecycle: pipeline management
 
 - [cs-product-manager](https://github.com/alirezarezvani/claude-skills/tree/main/agents/product/cs-product-manager.md) -- Product roadmap alignment for sales positioning and feature prioritization
 - [cs-financial-analyst](https://github.com/alirezarezvani/claude-skills/tree/main/agents/finance/cs-financial-analyst.md) -- Revenue forecasting validation and financial modeling support
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

@@ -2,6 +2,10 @@
 description: Go code review for idiomatic patterns
 agent: go-reviewer
 subtask: true
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
 ---
 
 # Go Review Command
@@ -69,3 +73,9 @@ Review Go code for idiomatic patterns and best practices: $ARGUMENTS
 ---
 
 **TIP**: Run `go vet` and `staticcheck` for additional automated checks.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

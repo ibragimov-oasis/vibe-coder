@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # agentic-flow v1.7.4 Verification Report
 
 **Test Date**: 2025-10-24
@@ -554,3 +561,10 @@ node tests/test-agentic-flow-v174-complete.mjs
 **Package Version**: agentic-flow@1.7.4
 **Report Version**: 1.0
 **Status**: ✅ **VERIFIED & PRODUCTION READY**
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

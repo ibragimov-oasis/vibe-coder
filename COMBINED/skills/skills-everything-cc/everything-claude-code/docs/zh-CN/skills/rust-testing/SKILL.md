@@ -2,6 +2,10 @@
 name: rust-testing
 description: Rust测试模式，包括单元测试、集成测试、异步测试、基于属性的测试、模拟和覆盖率。遵循TDD方法学。
 origin: ECC
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-everything-cc
 ---
 
 # Rust 测试模式
@@ -500,3 +504,9 @@ test:
 ```
 
 **记住**：测试就是文档。它们展示了你的代码应如何使用。清晰编写并保持更新。
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

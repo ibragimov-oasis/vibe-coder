@@ -1,6 +1,10 @@
 ---
 description: 配置您首选的包管理器（npm/pnpm/yarn/bun）
 disable-model-invocation: true
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
 ---
 
 # 包管理器设置
@@ -81,3 +85,9 @@ export CLAUDE_PACKAGE_MANAGER=pnpm
 ```bash
 node scripts/setup-package-manager.js --detect
 ```
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

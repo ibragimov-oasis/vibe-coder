@@ -3,6 +3,9 @@ title: Store Event Handlers in Refs
 impact: LOW
 impactDescription: stable subscriptions
 tags: advanced, hooks, refs, event-handlers, optimization
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
 ---
 
 ## Store Event Handlers in Refs
@@ -53,3 +56,9 @@ function useWindowEvent(event: string, handler: () => void) {
 ```
 
 `useEffectEvent` provides a cleaner API for the same pattern: it creates a stable function reference that always calls the latest version of the handler.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # ADR-G002: Constitution / Shard Split -- Always-Loaded Core Rules vs. Task-Scoped Retrieval
 
 ## Status
@@ -99,3 +106,10 @@ Pre-define shard groups (e.g., "security pack", "testing pack") and load by task
 - `v3/@claude-flow/guidance/src/retriever.ts` -- `ShardRetriever.retrieve()`, `selectWithContradictionCheck()`
 - ADR-G001 -- Why a separate control plane
 - ADR-G003 -- Intent classification for shard retrieval
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

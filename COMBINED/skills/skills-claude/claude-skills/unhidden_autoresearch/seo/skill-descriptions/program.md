@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # Experiment: Skill Description SEO Optimization
 
 ## Objective
@@ -34,3 +41,9 @@ Optimize the `description` field in each skill's SKILL.md frontmatter to maximiz
 Use llm_judge_content evaluator customized for SEO scoring.
 Metric: seo_quality_score (0-100)
 Direction: higher is better
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

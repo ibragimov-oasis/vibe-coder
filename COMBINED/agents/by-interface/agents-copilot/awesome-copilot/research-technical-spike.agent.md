@@ -2,6 +2,10 @@
 description: "Systematically research and validate technical spike documents through exhaustive investigation and controlled experimentation."
 name: "Technical spike research mode"
 tools: ['vscode', 'execute', 'read', 'edit', 'search', 'web', 'agent', 'todo']
+tags:
+  - domain/agents
+  - artifact/agent
+  - source/by-interface/agents-copilot
 ---
 
 # Technical spike research mode
@@ -202,3 +206,9 @@ Always ask permission for: creating files, running commands, modifying system, e
 - Provide interim findings summaries during deep investigation threads
 
 Transform uncertainty into actionable knowledge through systematic, obsessive, recursive research.
+
+## 🔗 Связи
+
+- [[MOC - Agents]] — Agent catalog
+- [[agents/agents-copilot]] — Interface: agents-copilot
+

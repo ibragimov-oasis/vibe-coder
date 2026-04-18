@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-squad
+---
+
 # Squad in CI/CD Pipelines
 
 > ⚠️ **Experimental** — Squad is alpha software. APIs, commands, and behavior may change between releases.
@@ -221,3 +228,10 @@ squad heartbeat --dry-run
 - **Agents still need human review.** PRs created by agents should be reviewed by a human before merging.
 - **Workflows are templates.** Customize `.squad/templates/` to match your CI/CD setup, then copy to `.github/workflows/`.
 - **Heartbeat frequency is configurable.** Edit `squad-heartbeat.yml` to change from every 6 hours to daily, hourly, etc.
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/squad]] — Squad
+- [[000 - Map of Maps]] — Map of Maps
+

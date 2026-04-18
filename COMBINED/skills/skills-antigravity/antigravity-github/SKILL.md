@@ -4,6 +4,10 @@ description: "Use the `gh` CLI for issues, pull requests, Actions runs, and GitH
 risk: safe
 source: "Dimillian/Skills (MIT)"
 date_added: "2026-03-25"
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 # GitHub Skill
@@ -74,3 +78,9 @@ Most commands support `--json` for structured output.  You can use `--jq` to fil
 ```bash
 gh issue list --repo owner/repo --json number,title --jq '.[] | "\(.number): \(.title)"'
 ```
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

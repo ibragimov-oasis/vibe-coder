@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # Auri/EarLLM — Contexto Completo para Análise Matemática
 
 ## Visão Geral do Sistema
@@ -230,3 +237,9 @@ GLOBAL-INV-04:
   Pipeline sempre em estado definido (sem estado undefined/null)
   Formalmente: pipelineState ∈ S (definido acima, sem null)
 ```
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

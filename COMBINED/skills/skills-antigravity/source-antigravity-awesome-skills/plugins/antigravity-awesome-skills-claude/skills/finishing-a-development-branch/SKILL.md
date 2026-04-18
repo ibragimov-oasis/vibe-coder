@@ -4,6 +4,10 @@ description: "Use when implementation is complete, all tests pass, and you need 
 risk: critical
 source: community
 date_added: "2026-02-27"
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 # Finishing a Development Branch
@@ -204,3 +208,9 @@ git worktree remove <worktree-path>
 
 ## When to Use
 This skill is applicable to execute the workflow or actions described in the overview.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

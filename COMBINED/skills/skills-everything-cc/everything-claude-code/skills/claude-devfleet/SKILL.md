@@ -2,6 +2,10 @@
 name: claude-devfleet
 description: Orchestrate multi-agent coding tasks via Claude DevFleet — plan projects, dispatch parallel agents in isolated worktrees, monitor progress, and read structured reports.
 origin: community
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-everything-cc
 ---
 
 # Claude DevFleet Multi-Agent Orchestration
@@ -101,3 +105,9 @@ DevFleet runs up to 3 concurrent agents by default (configurable via `DEVFLEET_M
 - Mission dependencies form a DAG — do not create circular dependencies.
 - Each agent runs in an isolated git worktree and auto-merges on completion. If a merge conflict occurs, the changes remain on the agent's worktree branch for manual resolution.
 - When manually creating missions, always set `auto_dispatch=true` if you want them to trigger automatically when dependencies complete. Without this flag, missions stay in `draft` status.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

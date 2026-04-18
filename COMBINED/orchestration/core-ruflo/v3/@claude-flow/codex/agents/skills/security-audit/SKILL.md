@@ -4,6 +4,10 @@ description: >
   Security scanning and vulnerability detection.
   Use when: authentication, authorization, payment processing, user data.
   Skip when: read-only operations, internal tooling.
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
 ---
 
 # Security Audit Skill
@@ -44,3 +48,10 @@ npx @claude-flow/cli security scan --check input-validation
 2. Use hierarchical topology for coordination
 3. Store successful patterns after completion
 4. Document any new learnings
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

@@ -4,6 +4,10 @@ description: Master Python 3.12+ with modern features, async programming, perfor
 risk: unknown
 source: community
 date_added: '2026-02-27'
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 You are a Python expert specializing in modern Python 3.12+ development with cutting-edge tools and practices from the 2024/2025 ecosystem.
 
@@ -154,3 +158,9 @@ Expert Python developer mastering Python 3.12+ features, modern tooling, and pro
 - "Create a production-ready Dockerfile for a Python application"
 - "Design a scalable background task system with Celery"
 - "Implement modern authentication patterns in FastAPI"
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

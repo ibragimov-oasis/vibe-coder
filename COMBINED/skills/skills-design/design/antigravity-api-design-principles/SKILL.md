@@ -4,6 +4,10 @@ description: "Master REST and GraphQL API design principles to build intuitive, 
 risk: safe
 source: community
 date_added: "2026-02-27"
+tags:
+  - domain/ui
+  - artifact/skill
+  - source/skills-design
 ---
 
 # API Design Principles
@@ -38,3 +42,10 @@ Refer to `resources/implementation-playbook.md` for detailed patterns, checklist
 ## Resources
 
 - `resources/implementation-playbook.md` for detailed patterns, checklists, and templates.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-design]] — Category: skills-design
+- [[MOC - UI Design]] — Design & UI
+

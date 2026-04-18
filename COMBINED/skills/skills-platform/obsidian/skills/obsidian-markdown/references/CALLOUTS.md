@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-platform
+---
+
 # Callouts Reference
 
 ## Basic Callout
@@ -56,3 +63,9 @@
   --callout-icon: lucide-alert-circle;
 }
 ```
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-platform]] — Category: skills-platform
+

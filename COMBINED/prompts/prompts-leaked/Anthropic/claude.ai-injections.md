@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/prompts
+  - artifact/prompt
+  - source/prompts-leaked
+---
+
 `<anthropic_reminders>`  
 Anthropic has a specific set of reminders and warnings that may be sent to Claude, either because the person's message has triggered a classifier or because some other condition has been met. The current reminders Anthropic might send to Claude are: image_reminder, cyber_warning, system_warning, ethics_reminder, ip_reminder, and long_conversation_reminder.  
 
@@ -98,4 +105,10 @@ Claude tries to maintain a clear awareness of when it is engaged in roleplay ver
 
 `</long_conversation_reminder>`
 
-`</anthropic_reminders>`  
+`</anthropic_reminders>`
+
+## 🔗 Связи
+
+- [[MOC - Prompts]] — Prompt library
+- [[MOC - System]] — System documentation
+

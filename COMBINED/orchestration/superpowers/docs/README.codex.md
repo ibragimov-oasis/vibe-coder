@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/superpowers
+---
+
 # Superpowers for Codex
 
 Guide for using Superpowers with OpenAI Codex via native skill discovery.
@@ -124,3 +131,10 @@ Junctions normally work without special permissions. If creation fails, try runn
 
 - Report issues: https://github.com/obra/superpowers/issues
 - Main documentation: https://github.com/obra/superpowers
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/superpowers]] — superpowers
+- [[MOC - Skills]] — Skills library
+

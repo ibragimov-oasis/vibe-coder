@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # Claude-Flow v3 SDK Architecture Analysis
 
 ## Deep Review: agentic-flow@alpha + ruvector Ecosystem
@@ -2804,3 +2811,10 @@ core.on('worker:complete', async ({ workerId, results }) => {
 *Document Version: 1.1.0*
 *Last Updated: 2026-01-03*
 *Based on: agentic-flow@2.0.1-alpha.50, ruvector@0.1.95*
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

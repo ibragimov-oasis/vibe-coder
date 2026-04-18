@@ -5,6 +5,10 @@ category: development
 risk: safe
 source: community
 date_added: "2026-03-05"
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 # Bug Hunter
@@ -377,3 +381,9 @@ After fixing, document it:
 - `@systematic-debugging` - Advanced debugging
 - `@test-driven-development` - Testing
 - `@codebase-audit-pre-push` - Code review
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

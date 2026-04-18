@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-vibe-kanban
+---
+
 # Remote Crate — Agent Guidelines
 
 The `remote` crate is the hosted Vibe Kanban Cloud server: an Axum HTTP API, a React SPA frontend, and real-time sync via ElectricSQL.
@@ -176,3 +183,10 @@ When adding a new type to `api-types` that the remote frontend needs, add its `:
 - **Billing feature gate**: All billing code must be behind `#[cfg(feature = "vk-billing")]`. The `billing` crate is stripped from Cargo.toml during self-hosted Docker builds.
 - **Frontend URL vars are build-time**: `VITE_*` variables are baked into the JS bundle. Changing them requires a rebuild.
 - **SPA fallback path**: The frontend is served from `/srv/static` (hardcoded). This path only exists inside the Docker container.
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-vibe-kanban]] — core-vibe-kanban
+- [[MOC - Skills]] — Skills library
+

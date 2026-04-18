@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-omc
+---
+
 # Performance Analysis Report: API Latency Regression
 **Report ID:** PERF-2026-011
 **Author:** Rodrigo Alves, Platform Engineering
@@ -165,3 +172,10 @@ events("source:deployment service:api-gateway")
 ---
 
 *Report prepared by Rodrigo Alves. For questions, contact #platform-engineering in Slack.*
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/omc]] — OMC
+- [[000 - Map of Maps]] — Map of Maps
+

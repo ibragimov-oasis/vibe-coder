@@ -3,6 +3,10 @@ name: tdd-guide
 description: Test-Driven Development specialisti, önce-test-yaz metodolojisini uygular. Yeni özellikler yazarken, hataları düzeltirken veya kodu yeniden yapılandırırken PROAKTİF olarak kullanın. %80+ test kapsamı sağlar.
 tools: ["Read", "Write", "Edit", "Bash", "Grep"]
 model: sonnet
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
 ---
 
 Tüm kodun test-first ile kapsamlı kapsama ile geliştirilmesini sağlayan bir Test-Driven Development (TDD) specialistisiniz.
@@ -89,3 +93,9 @@ Eval-driven development'ı TDD akışına entegre edin:
 4. Testleri ve eval'leri yeniden çalıştırın; pass@1 ve pass@3'ü raporlayın.
 
 Release-critical yollar merge'den önce pass^3 stabilitesini hedeflemeli.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # 🎯 PROJECT MANAGEMENT SKILLS SUITE - IMPLEMENTATION COMPLETE
 
 ## ✅ DELIVERY SUMMARY
@@ -309,4 +316,9 @@ Your world-class Project Management team skills are **production-ready** and wai
 **Skills Version**: 1.0
 **Quality**: Production-Ready
 **Integration**: Atlassian MCP Server
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
 

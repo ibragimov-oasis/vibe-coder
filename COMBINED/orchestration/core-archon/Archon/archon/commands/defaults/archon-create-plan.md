@@ -1,6 +1,10 @@
 ---
 description: Create comprehensive feature implementation plan with codebase analysis and research
 argument-hint: <feature description | path/to/prd.md>
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-archon
 ---
 
 # Create Implementation Plan
@@ -688,3 +692,10 @@ Plan ready. Proceeding to implementation setup.
 - **UX_DOCUMENTED**: Before/After transformation is visually clear with data flows
 - **ONE_PASS_TARGET**: Confidence score 8+ indicates high likelihood of first-attempt success
 - **ARTIFACT_WRITTEN**: Plan saved to `$ARTIFACTS_DIR/plan.md`
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/archon]] — Archon
+- [[000 - Map of Maps]] — Map of Maps
+

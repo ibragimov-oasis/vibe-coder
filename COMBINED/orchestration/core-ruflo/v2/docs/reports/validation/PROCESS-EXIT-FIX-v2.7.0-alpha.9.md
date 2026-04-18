@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # Process Exit Fix - v2.7.0-alpha.9
 
 **Release Date**: 2025-10-13
@@ -152,3 +159,10 @@ npx claude-flow@alpha --version
 **Validated by**: Claude Code
 **Validation Method**: Direct testing + SQLite verification
 **Result**: **100% PASS** ✅
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

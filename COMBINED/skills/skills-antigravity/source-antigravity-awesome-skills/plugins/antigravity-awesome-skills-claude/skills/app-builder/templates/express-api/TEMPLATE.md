@@ -1,6 +1,10 @@
 ---
 name: express-api
 description: Express.js REST API template principles. TypeScript, Prisma, JWT.
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
 ---
 
 # Express.js API Template
@@ -81,3 +85,9 @@ project-name/
 - Centralized error handling
 - Environment-based config
 - Use Prisma for type-safe DB access
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

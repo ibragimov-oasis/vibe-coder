@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # OKR Cascade Framework
 
 A practical guide to Objectives and Key Results (OKRs) and how to cascade them across organizational levels.
@@ -326,3 +333,9 @@ Q4: Scale and optimize (ARR: $65M → $100M)
 ---
 
 *See also: `strategy_types.md` for strategy-specific OKR templates*
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

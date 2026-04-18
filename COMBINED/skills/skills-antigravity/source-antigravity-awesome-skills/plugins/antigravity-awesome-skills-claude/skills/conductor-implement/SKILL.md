@@ -4,6 +4,10 @@ description: "Execute tasks from a track's implementation plan following TDD wor
 risk: critical
 source: community
 date_added: "2026-02-27"
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 # Implement Track
@@ -387,3 +391,9 @@ If implementation is paused and resumed:
 4. **Keep plan.md updated** - Task status must reflect actual progress
 5. **Commit frequently** - Each task completion should be committed
 6. **Track all commits** - Record commit hashes in metadata.json for potential revert
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

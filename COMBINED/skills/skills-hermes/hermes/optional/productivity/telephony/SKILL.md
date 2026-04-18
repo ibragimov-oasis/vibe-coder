@@ -9,6 +9,9 @@ metadata:
     tags: [telephony, phone, sms, mms, voice, twilio, bland.ai, vapi, calling, texting]
     related_skills: [find-nearby, google-workspace, agentmail]
     category: productivity
+  - domain/skills
+  - artifact/skill
+  - source/skills-hermes
 ---
 
 # Telephony — Numbers, Calls, and Texts without Core Tool Changes
@@ -415,3 +418,9 @@ After setup, you should be able to do all of the following with just this skill:
 - Twilio voice: https://www.twilio.com/docs/voice/api/call-resource
 - Vapi docs: https://docs.vapi.ai/
 - Bland.ai: https://app.bland.ai/
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-hermes]] — Category: skills-hermes
+

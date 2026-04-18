@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-deer-flow
+---
+
 # Documentation
 
 This directory contains detailed documentation for the DeerFlow backend.
@@ -51,3 +58,9 @@ docs/
 ├── TITLE_GENERATION_IMPLEMENTATION.md  # Title implementation details
 └── TODO.md                    # Roadmap and issues
 ```
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-deer-flow]] — core-deer-flow
+

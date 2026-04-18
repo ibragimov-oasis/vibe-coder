@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # MCP Validation Checklist
 
 ## Structural Integrity
@@ -28,3 +35,9 @@
 - [ ] Error responses use consistent structure (`code`, `message`, `details`)
 - [ ] Timeout and rate-limit behaviors are documented
 - [ ] Large response payloads are paginated or truncated
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

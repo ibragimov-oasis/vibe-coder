@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # Advanced Cloud Pentesting Scripts
 
 Reference: [Cloud Pentesting Cheatsheet by Beau Bullock](https://github.com/dafthack/CloudPentestCheatsheets)
@@ -316,3 +323,9 @@ az rest --method POST --uri https://graph.microsoft.com/v1.0/roleManagement/dire
 | SadCloud | github.com/nccgroup/sadcloud | Terraform misconfigs |
 | Flaws Cloud | flaws.cloud | AWS CTF challenges |
 | Thunder CTF | thunder-ctf.cloud | GCP CTF challenges |
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

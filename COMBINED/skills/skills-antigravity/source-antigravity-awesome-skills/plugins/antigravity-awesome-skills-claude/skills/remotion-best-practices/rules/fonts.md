@@ -3,6 +3,9 @@ name: fonts
 description: Loading Google Fonts and local fonts in Remotion
 metadata:
   tags: fonts, google-fonts, typography, text
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
 ---
 
 # Using fonts in Remotion
@@ -150,3 +153,9 @@ export const Title: React.FC<{ text: string }> = ({ text }) => {
   );
 };
 ```
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

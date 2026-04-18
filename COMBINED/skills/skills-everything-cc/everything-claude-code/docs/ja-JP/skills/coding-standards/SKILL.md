@@ -1,6 +1,10 @@
 ---
 name: coding-standards
 description: TypeScript、JavaScript、React、Node.js開発のための汎用コーディング標準、ベストプラクティス、パターン。
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-everything-cc
 ---
 
 # コーディング標準とベストプラクティス
@@ -525,3 +529,9 @@ setTimeout(callback, DEBOUNCE_DELAY_MS)
 ```
 
 **覚えておいてください**: コード品質は妥協できません。明確で保守可能なコードにより、迅速な開発と自信を持ったリファクタリングが可能になります。
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

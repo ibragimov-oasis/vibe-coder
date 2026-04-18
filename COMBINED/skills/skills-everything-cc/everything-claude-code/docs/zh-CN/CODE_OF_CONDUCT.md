@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
+---
+
 # 贡献者公约行为准则
 
 ## 我们的承诺
@@ -81,3 +88,9 @@
 关于本行为准则的常见问题解答，请参阅 FAQ 页面：
 <https://www.contributor-covenant.org/faq>。其他语言翻译版本可在
 <https://www.contributor-covenant.org/translations> 查阅。
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

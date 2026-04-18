@@ -4,6 +4,10 @@ description: Creates devcontainers with Claude Code, language-specific tooling (
 risk: safe
 source: vibeship-spawner-skills (Apache 2.0)
 date_added: 2026-03-06
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 # Devcontainer Setup Skill
@@ -300,3 +304,9 @@ After generating, inform the user:
 1. How to start: "Open in VS Code and select 'Reopen in Container'"
 2. Alternative: `devcontainer up --workspace-folder .`
 3. CLI helper: Run `.devcontainer/install.sh self-install` to add the `devc` command to PATH
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

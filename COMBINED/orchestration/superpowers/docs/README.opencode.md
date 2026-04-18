@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/superpowers
+---
+
 # Superpowers for OpenCode
 
 Complete guide for using Superpowers with [OpenCode.ai](https://opencode.ai).
@@ -128,3 +135,10 @@ Skills written for Claude Code are automatically adapted for OpenCode:
 - Report issues: https://github.com/obra/superpowers/issues
 - Main documentation: https://github.com/obra/superpowers
 - OpenCode docs: https://opencode.ai/docs/
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/superpowers]] — superpowers
+- [[MOC - Skills]] — Skills library
+

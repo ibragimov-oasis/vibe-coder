@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # Docker Validation Suite for Claude-Flow
 
 This directory contains Docker-based testing infrastructure to validate claude-flow functionality in a clean, isolated environment that simulates a remote deployment.
@@ -244,3 +251,9 @@ For issues with Docker validation:
 - Check Docker logs: `docker logs claude-flow-test`
 - Review test output for specific failures
 - Open issue on GitHub with validation output
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-ruflo]] — core-ruflo
+

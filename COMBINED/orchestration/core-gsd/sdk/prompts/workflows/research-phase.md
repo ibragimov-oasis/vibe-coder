@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-gsd
+---
+
 <purpose>
 Research how to implement a phase. Produces RESEARCH.md consumed by the planner.
 Headless SDK variant — runs autonomously without interactive prompts.
@@ -42,3 +49,10 @@ Process researcher results:
 </step>
 
 </process>
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/gsd]] — GSD
+- [[000 - Map of Maps]] — Map of Maps
+

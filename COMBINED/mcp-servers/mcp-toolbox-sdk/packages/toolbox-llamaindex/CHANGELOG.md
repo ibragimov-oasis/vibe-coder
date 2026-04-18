@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/mcp
+  - artifact/mcp-server
+  - source/mcp-servers
+---
+
 # Changelog
 
 ## [0.6.0](https://github.com/googleapis/mcp-toolbox-sdk-python/compare/toolbox-llamaindex-v0.5.10...toolbox-llamaindex-v0.6.0) (2026-03-06)
@@ -244,3 +251,9 @@
 
 * Update README for new features ([#22](https://github.com/googleapis/genai-toolbox-llamaindex-python/issues/22)) ([f5060b9](https://github.com/googleapis/genai-toolbox-llamaindex-python/commit/f5060b9057329809073553c88ebd2e677db7b902))
 * Update the README to recommend AgentWorkflow for using LlamaIndex. ([#34](https://github.com/googleapis/genai-toolbox-llamaindex-python/issues/34)) ([fe8e74f](https://github.com/googleapis/genai-toolbox-llamaindex-python/commit/fe8e74fb2c76af6598e6054914b03731c85a2741))
+
+## 🔗 Связи
+
+- [[MOC - MCP Servers]] — mcp-servers
+- [[000 - Map of Maps]] — Map of Maps
+

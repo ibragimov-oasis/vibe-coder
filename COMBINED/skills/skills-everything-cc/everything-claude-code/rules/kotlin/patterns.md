@@ -2,6 +2,10 @@
 paths:
   - "**/*.kt"
   - "**/*.kts"
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
 ---
 # Kotlin Patterns
 
@@ -144,3 +148,9 @@ val client = httpClient {
 
 See skill: `kotlin-coroutines-flows` for detailed coroutine patterns.
 See skill: `android-clean-architecture` for module and layer patterns.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

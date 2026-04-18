@@ -1,6 +1,10 @@
 ---
 name: claude-flow-swarm
 description: Coordinate multi-agent swarms with batchtools optimization for complex tasks
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
 ---
 
 # Claude-Flow Swarm Coordination (Batchtools Optimized)
@@ -243,3 +247,10 @@ npx claude-flow swarm security-audit --parallel-scans '{
   "compliance": { "standards": ["owasp", "pci"], "agents": 2 }
 }' --report --remediate
 ```
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

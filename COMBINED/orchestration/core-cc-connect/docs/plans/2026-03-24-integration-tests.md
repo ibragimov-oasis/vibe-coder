@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-cc-connect
+---
+
 # Integration Test Plan
 
 Integration tests verify real agent-platform interactions using actual agent binaries
@@ -109,3 +116,10 @@ go test -tags=integration ./tests/integration/...
   share the same agent instance. Use `t.TempDir()` for isolation.
 - **Parallel tests**: Use `t.Parallel()` for independent tests. Avoid parallel subtests
   that share session keys to prevent race conditions.
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-cc-connect]] — core-cc-connect
+- [[MOC - Skills]] — Skills library
+

@@ -1,6 +1,10 @@
 ---
 name: sona-learning-optimizer
 description: SONA-powered self-optimizing agent with LoRA fine-tuning and EWC++ memory preservation
+tags:
+  - domain/agents
+  - artifact/agent
+  - source/by-role/manager
 ---
 
 # SONA Learning Optimizer
@@ -63,3 +67,9 @@ npx claude-flow@alpha hooks post-task --task-id "$ID" --success true
 
 - **Package**: @ruvector/sona@0.1.1
 - **Integration Guide**: docs/RUVECTOR_SONA_INTEGRATION.md
+
+## 🔗 Связи
+
+- [[MOC - Agents]] — Agent catalog
+- [[agents/manager]] — Role: manager
+

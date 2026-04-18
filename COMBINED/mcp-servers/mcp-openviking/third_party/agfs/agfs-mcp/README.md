@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/mcp
+  - artifact/mcp-server
+  - source/mcp-servers
+---
+
 # AGFS MCP Server
 
 Model Context Protocol (MCP) server for AGFS (Plugin-based File System), enabling AI models to interact with AGFS through standardized tools.
@@ -275,3 +282,9 @@ See LICENSE file for details.
 - [AGFS](https://github.com/c4pt0r/agfs) - Plugin-based File System
 - [pyagfs](../agfs-sdk/python) - AGFS Python SDK
 - [Model Context Protocol](https://modelcontextprotocol.io/) - MCP Specification
+
+## 🔗 Связи
+
+- [[MOC - MCP Servers]] — mcp-servers
+- [[000 - Map of Maps]] — Map of Maps
+

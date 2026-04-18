@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # Kiro CLI 集成指南
 
 ## 概述
@@ -302,3 +309,9 @@ chmod -R 755 ~/.kiro/skills/
 - **问题**：[GitHub Issues](https://github.com/sickn33/antigravity-awesome-skills/issues)
 - **讨论**：[GitHub Discussions](https://github.com/sickn33/antigravity-awesome-skills/discussions)
 - **社区**：[社区指南](../contributors/community-guidelines.md)
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

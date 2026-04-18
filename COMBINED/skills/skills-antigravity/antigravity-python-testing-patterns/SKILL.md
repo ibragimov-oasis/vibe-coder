@@ -4,6 +4,10 @@ description: "Implement comprehensive testing strategies with pytest, fixtures, 
 risk: safe
 source: community
 date_added: "2026-02-27"
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 # Python Testing Patterns
@@ -38,3 +42,9 @@ Comprehensive guide to implementing robust testing strategies in Python using py
 ## Resources
 
 - `resources/implementation-playbook.md` for detailed patterns and examples.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

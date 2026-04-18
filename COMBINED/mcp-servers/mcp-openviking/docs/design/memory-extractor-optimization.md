@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/mcp
+  - artifact/mcp-server
+  - source/mcp-servers
+---
+
 # Memory Extractor Templating and Update Mechanism Optimization / 记忆抽取模版与更新机制优化
 
 ## Context / 上下文
@@ -1055,3 +1062,9 @@ This design is based on practices from ../memory project, uses ReAct pattern: / 
 - ✅ Adopt semantic filenames, fully utilize navigation value of filenames / 采用语义化文件名，充分利用文件名的导航价值
 - ✅ Learn from commercial memory library implementations, adopt patch incremental update mechanism, reduce LLM call count / 借鉴商业化记忆库的实现，采用 patch 增量更新机制，减少 LLM 调用次数
 - ✅ Fully compatible with OpenViking existing storage structure / 完全兼容 OpenViking 现有存储结构
+
+## 🔗 Связи
+
+- [[MOC - MCP Servers]] — mcp-servers
+- [[000 - Map of Maps]] — Map of Maps
+

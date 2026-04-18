@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # Audience Targeting Reference
 
 Detailed targeting strategies for each major ad platform.
@@ -232,3 +239,9 @@ Always exclude:
 - Employees (by company or email list)
 - Irrelevant page visitors (careers, support)
 - Competitors (if identifiable)
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

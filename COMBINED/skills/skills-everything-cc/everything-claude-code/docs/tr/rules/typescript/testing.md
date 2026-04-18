@@ -4,6 +4,10 @@ paths:
   - "**/*.tsx"
   - "**/*.js"
   - "**/*.jsx"
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
 ---
 # TypeScript/JavaScript Testing
 
@@ -16,3 +20,9 @@ Kritik kullanıcı akışları için E2E test framework'ü olarak **Playwright**
 ## Agent Desteği
 
 - **e2e-runner** - Playwright E2E testing uzmanı
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

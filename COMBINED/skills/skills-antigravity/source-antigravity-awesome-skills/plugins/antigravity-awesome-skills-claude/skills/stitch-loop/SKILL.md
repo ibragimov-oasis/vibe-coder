@@ -9,6 +9,10 @@ allowed-tools:
   - "Bash"
 risk: unknown
 source: community
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 # Stitch Build Loop
@@ -263,3 +267,9 @@ This skill works best with the `design-md` skill:
 | Inconsistent styles | Ensure `.stitch/DESIGN.md` is up-to-date and copied correctly |
 | Loop stalls | Verify `.stitch/next-prompt.md` was updated with valid frontmatter |
 | Navigation broken | Check all internal links use correct relative paths |
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

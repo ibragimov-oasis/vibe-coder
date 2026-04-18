@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-hermes
+---
+
 # Evidence Types Reference
 
 Taxonomy of all evidence types, IOC types, GitHub event types, and observation types
@@ -87,3 +94,9 @@ Only `multi_source_verified` evidence may be cited as fact in validated hypothes
 | `ActorAnomalyObservation` | Behavioral anomaly for a specific GitHub actor |
 | `WorkflowAnomalyObservation` | Suspicious CI/CD workflow change or unexpected run |
 | `CrossSourceDiscrepancy` | Item present in one source but absent in another (strong deletion indicator) |
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-hermes]] — Category: skills-hermes
+

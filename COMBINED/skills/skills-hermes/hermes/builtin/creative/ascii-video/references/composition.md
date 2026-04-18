@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-hermes
+---
+
 # Composition & Brightness Reference
 
 The composable system is the core of visual complexity. It operates at three levels: pixel-level blend modes, multi-grid composition, and adaptive brightness management. This document covers all three, plus the masking/stencil system for spatial control.
@@ -744,3 +751,9 @@ class PixelBlendStack:
             result = blend_canvas(result, canvas, mode, opacity)
         return result
 ```
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-hermes]] — Category: skills-hermes
+

@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # FDA Submission Guide
 
 ## FDA Medical Device Classification and Pathways
@@ -125,3 +132,9 @@
 - **Additional information** request frequency
 - **Post-market compliance** effectiveness
 - **FDA inspection** readiness and outcomes
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

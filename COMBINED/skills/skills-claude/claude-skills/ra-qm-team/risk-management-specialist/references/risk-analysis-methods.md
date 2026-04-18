@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # Risk Analysis Methods
 
 Systematic techniques for hazard identification and risk analysis in medical device development.
@@ -413,3 +420,9 @@ Failure Mode Types: Omission, Commission, Timing, Value, Sequence
 | Architecture | Code | Design realized |
 | Code | Test | Verification coverage |
 | Test | Hazard | Control verified |
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

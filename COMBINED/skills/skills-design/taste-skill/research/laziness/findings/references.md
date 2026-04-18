@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/ui
+  - artifact/doc
+  - source/skills-design
+---
+
 # References
 
 ## Cited Studies
@@ -18,3 +25,9 @@
 - Anthropic MCP (Model Context Protocol) specification and integration guides
 - OpenAI API reference for temperature and Top-p parameter tuning
 - YAML front-matter specification for SKILL.md lazy-loading architecture
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-design]] — Category: skills-design
+

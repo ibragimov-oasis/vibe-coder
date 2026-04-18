@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-gsd
+---
+
 # GSD エージェントリファレンス
 
 > 全18種の専門エージェント — 役割、ツール、スポーンパターン、相互関係。アーキテクチャの詳細は[アーキテクチャ](ARCHITECTURE.md)を参照してください。
@@ -426,3 +433,10 @@ GSD はマルチエージェントアーキテクチャを採用しており、�
 - リサーチャーは Web アクセスを持つ — 最新のエコシステム情報が必要なため
 - エグゼキューターは Edit を持つ — コードを変更するが Web アクセスは不要
 - マッパーは Write を持つ — 分析ドキュメントを作成するが Edit は不要（コード変更なし）
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-gsd]] — core-gsd
+- [[MOC - Skills]] — Skills library
+

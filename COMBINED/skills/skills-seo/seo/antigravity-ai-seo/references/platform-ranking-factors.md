@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/seo
+  - artifact/doc
+  - source/skills-seo
+---
+
 # How Each AI Platform Picks Sources
 
 Each AI search platform has its own search index, ranking logic, and content preferences. This guide covers what matters for getting cited on each one.
@@ -150,3 +157,9 @@ If you're optimizing for AI search for the first time, focus your effort where y
 5. Use clear heading structure (H1 > H2 > H3)
 6. Keep page load time under 2 seconds
 7. Add author bios with credentials
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-seo]] — Category: skills-seo
+

@@ -4,6 +4,10 @@ description: "Comprehensive patterns for Next.js 14+ App Router architecture, Se
 risk: safe
 source: community
 date_added: "2026-02-27"
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 # Next.js App Router Patterns
@@ -34,3 +38,9 @@ Comprehensive patterns for Next.js 14+ App Router architecture, Server Component
 ## Resources
 
 - `resources/implementation-playbook.md` for detailed patterns and examples.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

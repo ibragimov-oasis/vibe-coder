@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # GitLab CI Templates
 
 ## Node.js Baseline
@@ -37,3 +44,9 @@ python_test:
     - python3 -m pip install -r requirements.txt
     - python3 -m pytest
 ```
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

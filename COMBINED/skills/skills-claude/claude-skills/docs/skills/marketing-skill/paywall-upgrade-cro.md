@@ -1,6 +1,10 @@
 ---
 title: "Paywall and Upgrade Screen CRO — Agent Skill for Marketing"
 description: "When the user wants to create or optimize in-app paywalls, upgrade screens, upsell modals, or feature gates. Also use when the user mentions. Agent skill for Claude Code, Codex CLI, Gemini CLI, OpenClaw."
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
 ---
 
 # Paywall and Upgrade Screen CRO
@@ -263,3 +267,9 @@ Paywall recommendations must account for where the user is in their value journe
 | Upgrade Flow Diagram | Step-by-step from paywall click to post-upgrade confirmation with friction reduction notes |
 | Anti-Pattern Audit | Review of existing paywall for dark patterns, trust-damaging copy, and conversion killers |
 | A/B Test Backlog | Prioritized experiment ideas for trigger timing, copy, and pricing display |
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

@@ -1,6 +1,10 @@
 ---
 description: 'Understanding code components structure and implementation'
 applyTo: '**/*.{ts,tsx,js,json,xml,pcfproj,csproj}'
+tags:
+  - domain/agents
+  - artifact/agent
+  - source/by-interface/agents-copilot
 ---
 
 # Code Components
@@ -109,3 +113,9 @@ More information: [resources element](https://learn.microsoft.com/en-us/power-ap
 
 - [Create and build a code component](https://learn.microsoft.com/en-us/power-apps/developer/component-framework/create-custom-controls-using-pcf)
 - [Learn how to package and distribute extensions using solutions](https://learn.microsoft.com/en-us/power-platform/alm/solution-concepts-alm)
+
+## 🔗 Связи
+
+- [[MOC - Agents]] — Agent catalog
+- [[agents/agents-copilot]] — Interface: agents-copilot
+

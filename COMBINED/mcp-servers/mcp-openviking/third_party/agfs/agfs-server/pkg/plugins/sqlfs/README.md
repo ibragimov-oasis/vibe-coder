@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/mcp
+  - artifact/mcp-server
+  - source/mcp-servers
+---
+
 SQLFS Plugin - Database-backed File System
 
 This plugin provides a persistent file system backed by database storage.
@@ -187,3 +194,9 @@ LIMITATIONS:
 ## License
 
 Apache License 2.0
+
+## 🔗 Связи
+
+- [[MOC - MCP Servers]] — mcp-servers
+- [[000 - Map of Maps]] — Map of Maps
+

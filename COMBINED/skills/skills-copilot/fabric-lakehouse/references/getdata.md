@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-copilot
+---
+
 ### Data Factory Integration
 
 Microsoft Fabric includes Data Factory for ETL/ELT orchestration:
@@ -34,3 +41,9 @@ Pipeline: Daily_ETL_Pipeline
 ```
 
 ---
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-copilot]] — Category: skills-copilot
+

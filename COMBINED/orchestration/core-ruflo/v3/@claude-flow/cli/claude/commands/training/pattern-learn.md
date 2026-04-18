@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # pattern-learn
 
 Learn patterns from successful operations.
@@ -23,3 +30,10 @@ npx claude-flow training pattern-learn --threshold 0.9
 # Save patterns
 npx claude-flow training pattern-learn --save optimal-patterns
 ```
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

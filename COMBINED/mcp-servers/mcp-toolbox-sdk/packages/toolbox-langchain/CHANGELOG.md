@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/mcp
+  - artifact/mcp-server
+  - source/mcp-servers
+---
+
 # Changelog
 
 ## [1.0.0](https://github.com/googleapis/mcp-toolbox-sdk-python/compare/toolbox-langchain-v0.6.0...toolbox-langchain-v1.0.0) (2026-03-25)
@@ -279,3 +286,9 @@
 ### Bug Fixes
 
 * Deprecate 'add_auth_headers' in favor of 'add_auth_tokens' ([c5c699c](https://github.com/googleapis/genai-toolbox-langchain-python/commit/c5c699cc29bcc0708a31bff90e8cec489982fe2a))
+
+## 🔗 Связи
+
+- [[MOC - MCP Servers]] — mcp-servers
+- [[000 - Map of Maps]] — Map of Maps
+

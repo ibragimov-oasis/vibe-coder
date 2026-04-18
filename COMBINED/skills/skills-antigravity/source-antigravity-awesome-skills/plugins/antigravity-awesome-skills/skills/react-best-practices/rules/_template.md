@@ -3,6 +3,9 @@ title: Rule Title Here
 impact: MEDIUM
 impactDescription: Optional description of impact (e.g., "20-50% improvement")
 tags: tag1, tag2
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
 ---
 
 ## Rule Title Here
@@ -26,3 +29,9 @@ const good = example()
 ```
 
 Reference: [Link to documentation or resource](https://example.com)
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

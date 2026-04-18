@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # Fundraising Playbook
 
 From timing to close. What investors actually look for, how valuation works, and the term sheet clauses that matter.
@@ -417,3 +424,9 @@ ltv_cac = ltv / cac  # target: > 3x
 # CAC payback (months)
 payback_months = cac / (arpa * gross_margin_pct)
 ```
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

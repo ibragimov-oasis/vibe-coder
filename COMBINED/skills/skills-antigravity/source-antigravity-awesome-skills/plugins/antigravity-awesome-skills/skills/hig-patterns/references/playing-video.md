@@ -135,7 +135,11 @@ In watchOS, the system manages video playback. Apps can play short video clips w
 
 **Use the recommended sizes and encoding values for media assets.** In particular, avoid scaling video clips, which affects performance and results in a suboptimal appearance. The following table lists the recommended encoding and resolution values for video assets. The audio encoding values apply to both movies and audio-only assets.
 
-Attribute| Value  
+Attribute| Value
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
 ---|---  
 Video codec| H.264 High Profile  
 Video bit rate| 160 kbps at up to 30 fps  
@@ -176,5 +180,10 @@ Audio| 64 kbps HE-AAC
 Date| Changes  
 ---|---  
 September 12, 2023| Corrected the recommended width for a thumbnail in visionOS.  
-June 21, 2023| Updated to include guidance for visionOS.  
-  
+June 21, 2023| Updated to include guidance for visionOS.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/ui
+  - artifact/doc
+  - source/skills-design
+---
+
 # Understanding Hangs in Your App (Summary)
 
 Context: Apple guidance on identifying hangs caused by long-running main-thread work and understanding the main run loop.
@@ -31,3 +38,9 @@ Context: Apple guidance on identifying hangs caused by long-running main-thread 
 - Keep main-thread work short; offload heavy work from event handlers.
 - Avoid long-running tasks on the main dispatch queue or main actor.
 - Use run loop behavior as a proxy for user-perceived responsiveness.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-design]] — Category: skills-design
+

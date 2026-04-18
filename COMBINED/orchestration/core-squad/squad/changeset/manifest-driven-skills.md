@@ -1,6 +1,10 @@
 ---
 "@bradygaster/squad-sdk": patch
 "@bradygaster/squad-cli": patch
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-squad
 ---
 
 fix: use TEMPLATE_MANIFEST to drive skill installation instead of wholesale directory copy
@@ -15,3 +19,10 @@ Now both code paths iterate TEMPLATE_MANIFEST entries:
 - upgrade (CLI): syncAllSkills() reads manifest entries, respects overwriteOnUpgrade
 
 Fixes #833
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-squad]] — core-squad
+- [[MOC - Skills]] — Skills library
+

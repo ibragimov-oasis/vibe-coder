@@ -1,6 +1,10 @@
 ---
 name: flow-nexus-neural
 description: Train and deploy neural networks in distributed E2B sandboxes with Flow Nexus
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-ruflo
 ---
 
 # Flow Nexus Neural Networks
@@ -725,3 +729,9 @@ await mcp__flow-nexus__neural_cluster_terminate({
 ---
 
 **Note**: Distributed training requires authentication. Register at https://flow-nexus.ruv.io or use `npx flow-nexus@latest register`.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-ruflo]] — Category: skills-ruflo
+

@@ -5,6 +5,10 @@ risk: unknown
 source: community
 author: zebbern
 date_added: "2026-02-27"
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 # Broken Authentication Testing
@@ -478,3 +482,9 @@ https://target.com/reset?token=a1b2c3d4e5f6&email=admin@example.com
 
 ## When to Use
 This skill is applicable to execute the workflow or actions described in the overview.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

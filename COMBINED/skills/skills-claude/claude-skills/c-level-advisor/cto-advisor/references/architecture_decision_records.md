@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # Architecture Decision Records (ADR) Framework
 
 ## What is an ADR?
@@ -292,3 +299,9 @@ Before finalizing an ADR, ensure:
 - [ ] Mitigation strategies are defined
 - [ ] Success metrics are established
 - [ ] Review date is set (if applicable)
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

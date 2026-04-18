@@ -1,6 +1,10 @@
 ---
 title: "/pipeline — Slash Command for AI Coding Agents"
 description: "Detect stack and generate CI/CD pipeline configs. Usage: /pipeline <detect|generate> [options]. Slash command for Claude Code, Codex CLI, Gemini CLI."
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
 ---
 
 # /pipeline
@@ -34,3 +38,9 @@ Detect project stack and generate CI/CD pipeline configurations for GitHub Actio
 
 ## Skill Reference
 → `engineering/ci-cd-pipeline-builder/SKILL.md`
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

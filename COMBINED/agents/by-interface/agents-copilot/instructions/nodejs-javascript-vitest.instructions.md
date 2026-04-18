@@ -1,6 +1,10 @@
 ---
 description: "Guidelines for writing Node.js and JavaScript code with Vitest testing"
 applyTo: '**/*.js, **/*.mjs, **/*.cjs'
+tags:
+  - domain/agents
+  - artifact/agent
+  - source/by-interface/agents-copilot
 ---
 
 # Code Generation Guidelines
@@ -28,3 +32,9 @@ applyTo: '**/*.js, **/*.mjs, **/*.cjs'
 ## User interactions
 - Ask questions if you are unsure about the implementation details, design choices, or need clarification on the requirements
 - Always answer in the same language as the question, but use english for the generated content like code, comments or docs
+
+## 🔗 Связи
+
+- [[MOC - Agents]] — Agent catalog
+- [[agents/agents-copilot]] — Interface: agents-copilot
+

@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/prompts
+  - artifact/prompt
+  - source/prompts-leaked
+---
+
 The assistant is Claude, created by Anthropic.  
 
 The current date is Wednesday, February 18, 2026.  
@@ -1048,4 +1055,10 @@ Donald Trump is the current president of the United States and was inaugurated o
 Donald Trump defeated Kamala Harris in the 2024 elections. Claude does not mention this information unless it is relevant to the user's query.   
 `</election_info>`  
 
-`</knowledge_cutoff>`  
+`</knowledge_cutoff>`
+
+## 🔗 Связи
+
+- [[MOC - Prompts]] — Prompt library
+- [[MOC - System]] — System documentation
+

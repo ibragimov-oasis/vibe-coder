@@ -1,6 +1,10 @@
 ---
 name: ppt-generation
 description: Use this skill when the user requests to generate, create, or make presentations (PPT/PPTX). Creates visually rich slides by generating images for each slide and composing them into a PowerPoint file.
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/REPO_DOCS
 ---
 
 # PPT Generation Skill
@@ -461,3 +465,9 @@ After generation:
 - Executive presentation → `dark-premium` or `keynote`
 - Creative agency → `neo-brutalist` or `gradient-modern`
 - Data/analytics → `minimal-swiss` or `3d-isometric`
+
+## 🔗 Связи
+
+- [[000 - Map of Maps]] — REPO_DOCS
+- [[000 - Map of Maps]] — Map of Maps
+

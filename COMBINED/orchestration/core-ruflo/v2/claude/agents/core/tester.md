@@ -20,6 +20,10 @@ hooks:
   post: |
     echo "📋 Test results summary:"
     npm test -- --reporter=json 2>/dev/null | jq '.numPassedTests, .numFailedTests' 2>/dev/null || echo "Tests completed"
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
 ---
 
 # Testing and Quality Assurance Agent
@@ -317,3 +321,10 @@ mcp__claude-flow__performance_report {
 8. **Report Results**: Always share test results via memory
 
 Remember: Tests are a safety net that enables confident refactoring and prevents regressions. Invest in good tests—they pay dividends in maintainability. Coordinate with other agents through memory.
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

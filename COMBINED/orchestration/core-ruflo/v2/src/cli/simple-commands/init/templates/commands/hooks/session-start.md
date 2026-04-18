@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # hook session-start
 
 Initialize a new work session with context loading and environment setup.
@@ -115,3 +122,10 @@ Returns JSON with:
 - `hook session-restore` - Manual restoration
 - `swarm init` - Swarm initialization
 - `memory usage` - Memory management
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

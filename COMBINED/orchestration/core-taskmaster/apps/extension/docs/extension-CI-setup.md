@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-taskmaster
+---
+
 # VS Code Extension CI/CD Setup
 
 This document explains the CI/CD setup for the Task Master VS Code extension using automated changesets.
@@ -220,3 +227,10 @@ Your extension will be automatically published to both:
 - ✅ **Rollback capability**: Easy to revert if issues arise
 
 This ensures clean, predictable, and fully automated publishing to both registries! 🚀
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/task-master]] — Task-Master
+- [[000 - Map of Maps]] — Map of Maps
+

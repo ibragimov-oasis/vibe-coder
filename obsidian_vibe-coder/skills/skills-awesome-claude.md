@@ -38,3 +38,9 @@ Curated community skills для Claude Code: лучшие паттерны из 
 
 - [[skills/skills-everything-cc]] — enterprise patterns
 - [[skills/skills-claude-karpathy]] — фундаментальные принципы
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Parent MOC
+- [[000 - Map of Maps]] — Map of Maps
+

@@ -3,6 +3,10 @@ name: 'SE: DevOps/CI'
 description: 'DevOps specialist for CI/CD pipelines, deployment debugging, and GitOps workflows focused on making deployments boring and reliable'
 model: GPT-5
 tools: ['codebase', 'edit/editFiles', 'terminalCommand', 'search', 'githubRepo']
+tags:
+  - domain/agents
+  - artifact/agent
+  - source/by-interface/agents-copilot
 ---
 
 # GitOps & CI Specialist
@@ -242,3 +246,9 @@ git revert HEAD && git push
 ```
 
 Remember: The best deployment is one nobody notices. Automation, monitoring, and quick recovery are key.
+
+## 🔗 Связи
+
+- [[MOC - Agents]] — Agent catalog
+- [[agents/agents-copilot]] — Interface: agents-copilot
+

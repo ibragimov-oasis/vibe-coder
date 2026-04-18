@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # Reliability Principles for Training Jobs
 
 These principles are derived from real production failures and successful fixes. Following them prevents common failure modes and ensures reliable job execution.
@@ -369,3 +376,9 @@ Sometimes reliability and performance conflict. Here's how to choose:
 - `troubleshooting.md` - Common issues and fixes
 - `training_patterns.md` - Proven training configurations
 - `gguf_conversion.md` - Production GGUF workflow
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

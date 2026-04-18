@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
+---
+
 # Hooks システム
 
 ## Hook タイプ
@@ -28,3 +35,9 @@ Todo リストが明らかにすること:
 - 不要な余分な項目
 - 粒度の誤り
 - 誤解された要件
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

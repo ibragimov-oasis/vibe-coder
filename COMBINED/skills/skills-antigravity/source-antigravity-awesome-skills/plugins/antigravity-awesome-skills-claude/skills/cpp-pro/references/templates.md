@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # Template Metaprogramming
 
 ## Variadic Templates
@@ -355,3 +362,9 @@ VecSum<E1, E2> operator+(const VecExpression<E1>& lhs,
 | Type Traits | Type introspection | Compile-time |
 | Fold Expressions | Parameter pack ops | Optimal |
 | Template Specialization | Type-specific impl | Zero overhead |
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

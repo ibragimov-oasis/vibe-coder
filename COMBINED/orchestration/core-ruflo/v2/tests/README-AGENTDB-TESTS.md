@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # AgentDB Integration Test Suite
 
 Comprehensive test suite for AgentDB v1.3.9 integration into claude-flow.
@@ -464,3 +471,10 @@ For test-related issues:
 2. Review test utilities documentation
 3. Open an issue on GitHub
 4. Contact @agent2 (Testing Specialist)
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-ruflo]] — core-ruflo
+- [[MOC - Skills]] — Skills library
+

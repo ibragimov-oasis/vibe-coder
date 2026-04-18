@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/mcp
+  - artifact/mcp-server
+  - source/mcp-servers
+---
+
 # 存储架构
 
 OpenViking 采用双层存储架构，分离内容存储和索引存储。
@@ -163,3 +170,9 @@ viking_fs.mv(
 - [上下文层级](./03-context-layers.md) - L0/L1/L2 模型
 - [Viking URI](./04-viking-uri.md) - URI 规范
 - [检索机制](./07-retrieval.md) - 检索流程详解
+
+## 🔗 Связи
+
+- [[MOC - MCP Servers]] — mcp-servers
+- [[000 - Map of Maps]] — Map of Maps
+

@@ -50,3 +50,9 @@ npx -y supermemory add "<что сделано и почему>" --tags "<domain
 
 - [[mcp-servers/mcp-openviking]] — контекст кодовой базы
 - [[root-docs/MEMORY_SETUP]] — настройка всех систем памяти
+
+## 🔗 Связи
+
+- [[MOC - MCP Servers]] — Parent MOC
+- [[000 - Map of Maps]] — Map of Maps
+

@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # Helm Chart Scaffolding Implementation Playbook
 
 This file contains detailed patterns, checklists, and code samples referenced by the skill.
@@ -541,3 +548,9 @@ kubectl get events --sort-by='.lastTimestamp'
 
 - `k8s-manifest-generator` - For creating base Kubernetes manifests
 - `gitops-workflow` - For automated Helm chart deployments
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

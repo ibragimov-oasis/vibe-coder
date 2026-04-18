@@ -1,6 +1,10 @@
 ---
 description: "Development workflow: plan, TDD, review, commit pipeline"
 alwaysApply: true
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
 ---
 # Development Workflow
 
@@ -31,3 +35,9 @@ The Feature Implementation Workflow describes the development pipeline: planning
    - Detailed commit messages
    - Follow conventional commits format
    - See the git workflow rule for commit message format and PR process
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

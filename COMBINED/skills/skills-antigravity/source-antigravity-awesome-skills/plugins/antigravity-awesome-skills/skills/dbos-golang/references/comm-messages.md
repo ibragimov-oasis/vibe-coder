@@ -3,6 +3,9 @@ title: Use Messages for Workflow Notifications
 impact: MEDIUM
 impactDescription: Enables reliable inter-workflow and external-to-workflow communication
 tags: communication, messages, send, recv, notification
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
 ---
 
 ## Use Messages for Workflow Notifications
@@ -55,3 +58,9 @@ Key behaviors:
 - Messages sent from workflows are delivered exactly-once
 
 Reference: [Workflow Messaging and Notifications](https://docs.dbos.dev/golang/tutorials/workflow-communication#workflow-messaging-and-notifications)
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

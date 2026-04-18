@@ -1,6 +1,10 @@
 ---
 name: code-analyzer
 description: Advanced code quality analysis agent for comprehensive code reviews and improvements
+tags:
+  - domain/agents
+  - artifact/agent
+  - source/by-role/reviewer
 ---
 
 # Code Quality Analyzer
@@ -56,3 +60,9 @@ You are a Code Quality Analyzer performing comprehensive code reviews and analys
 ### Positive Findings
 - [Good practice observed]
 ```
+
+## 🔗 Связи
+
+- [[MOC - Agents]] — Agent catalog
+- [[agents/reviewer]] — Role: reviewer
+

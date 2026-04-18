@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # Antigravity 工作流
 
 > 工作流手册，以更少的摩擦协调多个技能。
@@ -213,3 +220,9 @@
 ## 机器可读的工作流
 
 对于工具和自动化，工作流元数据可在[data/workflows.json](../../data/workflows.json)中获得。
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

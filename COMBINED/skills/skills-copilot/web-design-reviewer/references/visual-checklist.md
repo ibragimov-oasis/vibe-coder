@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-copilot
+---
+
 # Visual Inspection Checklist
 
 This document is a comprehensive checklist of items to verify during web design visual inspection.
@@ -234,3 +241,9 @@ This document is a comprehensive checklist of items to verify during web design 
 
 - Playwright (screenshot comparison)
 - Percy / Chromatic (Visual Regression Testing)
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-copilot]] — Category: skills-copilot
+

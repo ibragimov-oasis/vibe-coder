@@ -1,6 +1,10 @@
 ---
 description: 'ColdFusion cfm files and application patterns'
 applyTo: "**/*.cfm"
+tags:
+  - domain/agents
+  - artifact/agent
+  - source/by-interface/agents-copilot
 ---
 
 # ColdFusion Coding Standards
@@ -26,3 +30,9 @@ applyTo: "**/*.cfm"
 
 - Use ternary operators where possible
 - Ensure consistent tab alignment.
+
+## 🔗 Связи
+
+- [[MOC - Agents]] — Agent catalog
+- [[agents/agents-copilot]] — Interface: agents-copilot
+

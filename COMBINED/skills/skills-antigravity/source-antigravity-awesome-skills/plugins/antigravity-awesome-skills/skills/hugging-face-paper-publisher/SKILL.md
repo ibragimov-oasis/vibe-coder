@@ -3,6 +3,10 @@ source: "https://github.com/huggingface/skills/tree/main/skills/huggingface-pape
 name: hugging-face-paper-publisher
 description: Publish and manage research papers on Hugging Face Hub. Supports creating paper pages, linking papers to models/datasets, claiming authorship, and generating professional markdown-based research articles.
 risk: unknown
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 # Overview
@@ -628,3 +632,9 @@ Planned features for future versions:
 - Integration with LaTeX workflows
 - Automated figure and table extraction
 - Paper metrics and impact tracking
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

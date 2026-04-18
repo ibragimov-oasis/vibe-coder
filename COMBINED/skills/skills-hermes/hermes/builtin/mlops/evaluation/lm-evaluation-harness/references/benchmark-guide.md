@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-hermes
+---
+
 # Benchmark Guide
 
 Complete guide to all 60+ evaluation tasks in lm-evaluation-harness, what they measure, and how to interpret results.
@@ -486,3 +493,9 @@ lm_eval --model hf \
 - Task list: `lm_eval --tasks list`
 - Task README: `lm_eval/tasks/README.md`
 - Papers: See individual benchmark papers
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-hermes]] — Category: skills-hermes
+

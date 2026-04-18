@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-superpowers
+---
+
 # Gemini CLI Tool Mapping
 
 Skills use Claude Code tool names. When you encounter these in a skill, use your platform equivalent:
@@ -31,3 +38,9 @@ These tools are available in Gemini CLI but have no Claude Code equivalent:
 | `ask_user` | Request structured input from the user |
 | `tracker_create_task` | Rich task management (create, update, list, visualize) |
 | `enter_plan_mode` / `exit_plan_mode` | Switch to read-only research mode before making changes |
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-superpowers]] — Category: skills-superpowers
+

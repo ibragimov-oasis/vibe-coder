@@ -5,6 +5,10 @@ weight: 1
 description: >
   A "spanner-execute-sql" tool executes a SQL statement against a Spanner
   database.
+tags:
+  - domain/mcp
+  - artifact/mcp-server
+  - source/mcp-servers
 ---
 
 ## About
@@ -40,3 +44,9 @@ description: Use this tool to execute sql statement.
 | source      |  string  |     true     | Name of the source the SQL should execute on.                                            |
 | description |  string  |     true     | Description of the tool that is passed to the LLM.                                       |
 | readOnly    |   bool   |    false     | When set to `true`, the `statement` is run as a read-only transaction. Default: `false`. |
+
+## 🔗 Связи
+
+- [[MOC - MCP Servers]] — mcp-servers
+- [[000 - Map of Maps]] — Map of Maps
+

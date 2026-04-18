@@ -6,6 +6,9 @@ risk: safe
 source: community
 tags: "[aws, iam, security, access-control, kiro-cli, least-privilege]"
 date_added: "2026-02-27"
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 # AWS IAM Best Practices
@@ -395,3 +398,9 @@ kiro-cli chat "Create a least privilege policy with aws-iam-best-practices"
 - [IAM Best Practices](https://docs.aws.amazon.com/IAM/latest/UserGuide/best-practices.html)
 - [IAM Policy Simulator](https://policysim.aws.amazon.com/)
 - [IAM Access Analyzer](https://aws.amazon.com/iam/features/analyze-access/)
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

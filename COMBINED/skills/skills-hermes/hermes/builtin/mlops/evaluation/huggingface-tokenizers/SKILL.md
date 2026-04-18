@@ -8,7 +8,9 @@ dependencies: [tokenizers, transformers, datasets]
 metadata:
   hermes:
     tags: [Tokenization, HuggingFace, BPE, WordPiece, Unigram, Fast Tokenization, Rust, Custom Tokenizer, Alignment Tracking, Production]
-
+  - domain/skills
+  - artifact/skill
+  - source/skills-hermes
 ---
 
 # HuggingFace Tokenizers - Fast Tokenization for NLP
@@ -516,4 +518,8 @@ Browse all: https://huggingface.co/models?library=tokenizers
 - **Course**: https://huggingface.co/learn/nlp-course/chapter6/1
 - **Paper**: BPE (Sennrich et al., 2016), WordPiece (Schuster & Nakajima, 2012)
 
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-hermes]] — Category: skills-hermes
 

@@ -6,6 +6,10 @@ allowed-tools:
   - Read
   - Write
   - Bash
+tags:
+  - domain/skills
+  - artifact/command
+  - source/commands
 ---
 
 <objective>
@@ -41,3 +45,9 @@ The workflow handles all logic including:
 7. Roadmap entry insertion
 8. STATE.md updates
 </process>
+
+## 🔗 Связи
+
+- [[MOC - System]] — commands
+- [[000 - Map of Maps]] — Map of Maps
+

@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-data-analysis
+---
+
 # generate_boxplot_chart — 箱型图
 
 ## 功能概述
@@ -23,3 +30,9 @@
 
 ## 返回结果
 - 返回箱型图 URL，并在 `_meta.spec` 中储存输入规格。
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-data-analysis]] — Category: skills-data-analysis
+

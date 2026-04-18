@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/ui
+  - artifact/doc
+  - source/skills-design
+---
+
 # Matched transitions
 
 ## Intent
@@ -57,3 +64,9 @@ struct ToggleBadge: View {
 
 - Don’t use unstable IDs; it breaks the transition.
 - Avoid mismatched shapes (e.g., square to circle) unless the design expects it.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-design]] — Category: skills-design
+

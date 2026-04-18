@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-squad
+---
+
 # Squad team with 20+ agents
 
 ## Identity
@@ -109,3 +116,10 @@
 ## tina — Education
 - **GitHub:** @tina
 - **Charter:** `.squad/agents/tina/charter.md`
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/squad]] — Squad
+- [[000 - Map of Maps]] — Map of Maps
+

@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # Swarm-Benchmark CLI Usage Guide
 
 ## Overview
@@ -195,3 +202,10 @@ result = await engine.run_real_benchmark("Your task here")
 ---
 
 For more information, see the [full documentation](README.md).
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-ruflo]] — core-ruflo
+- [[MOC - Skills]] — Skills library
+

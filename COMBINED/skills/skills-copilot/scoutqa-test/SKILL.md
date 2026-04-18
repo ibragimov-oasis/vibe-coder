@@ -1,6 +1,10 @@
 ---
 name: scoutqa-test
 description: 'This skill should be used when the user asks to "test this website", "run exploratory testing", "check for accessibility issues", "verify the login flow works", "find bugs on this page", or requests automated QA testing. Triggers on web application testing scenarios including smoke tests, accessibility audits, e-commerce flows, and user flow validation using ScoutQA CLI. Use this skill proactively after implementing web application features to verify they work correctly.'
+tags:
+  - domain/agents
+  - artifact/skill
+  - source/skills-copilot
 ---
 
 # ScoutQA Testing Skill
@@ -373,3 +377,10 @@ ScoutQA tests run remotely on ScoutQA's infrastructure. After starting a test wi
 | Test hangs or needs input      | Use `scoutqa send-message --execution-id`                   |
 | Check test results             | Visit browser URL or `scoutqa get-execution --execution-id` |
 | Need issue ID for verification | Run `scoutqa list-issues --execution-id <id>`               |
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-copilot]] — Category: skills-copilot
+- [[MOC - Agents]] — Copilot agents
+

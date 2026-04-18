@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # Application
 
 Created by Claude Flow Swarm
@@ -24,3 +31,9 @@ npm run dev
 - Task ID: task_mbwwpl4a_09fzhh98p-testing
 - Task Type: testing
 - Created: 2025-06-15T00:08:00.931Z
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-ruflo]] — core-ruflo
+

@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/combined-root
+---
+
 # Phase 1.2 Complete: Agents Category Analysis
 
 **Date:** April 2, 2026
@@ -283,4 +290,8 @@ Agents from orchestration systems (GSD, OMC, RuFlo, Superpowers, Claude Skills) 
 
 **Total Time:** ~1 hour (as planned)
 **Quality:** ✅ High — All requirements met
+
+## 🔗 Связи
+
+- [[000 - Map of Maps]] — Map of Maps
 

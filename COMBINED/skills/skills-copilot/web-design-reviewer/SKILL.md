@@ -1,6 +1,10 @@
 ---
 name: web-design-reviewer
 description: 'This skill enables visual inspection of websites running locally or remotely to identify and fix design issues. Triggers on requests like "review website design", "check the UI", "fix the layout", "find design problems". Detects issues with responsive design, accessibility, visual consistency, and layout breakage, then performs fixes at the source code level.'
+tags:
+  - domain/agents
+  - artifact/skill
+  - source/skills-copilot
 ---
 
 # Web Design Reviewer
@@ -366,3 +370,10 @@ The same workflow can be implemented with these tools. As long as they provide t
 2. Use more specific selectors
 3. Consider using CSS Modules or scoped styles
 4. Consult user to confirm impact scope
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-copilot]] — Category: skills-copilot
+- [[MOC - Agents]] — Copilot agents
+

@@ -1,6 +1,10 @@
 ---
 name: gitnexus-debugging
 description: Trace bugs through call chains using knowledge graph
+tags:
+  - domain/mcp
+  - artifact/mcp-server
+  - source/mcp-servers
 ---
 
 # Debugging with GitNexus
@@ -83,3 +87,9 @@ RETURN [n IN nodes(path) | n.name] AS chain
 
 4. Root cause: fetchRates calls external API without proper timeout
 ```
+
+## 🔗 Связи
+
+- [[MOC - MCP Servers]] — mcp-servers
+- [[000 - Map of Maps]] — Map of Maps
+

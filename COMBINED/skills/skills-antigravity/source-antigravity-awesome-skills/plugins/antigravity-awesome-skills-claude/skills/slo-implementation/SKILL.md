@@ -4,6 +4,10 @@ description: "Framework for defining and implementing Service Level Indicators (
 risk: unknown
 source: community
 date_added: "2026-02-27"
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 # SLO Implementation
@@ -342,3 +346,9 @@ rules:
 
 - `prometheus-configuration` - For metric collection
 - `grafana-dashboards` - For SLO visualization
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-multica
+---
+
 # Contributing Guide
 
 This guide documents the local development workflow for contributors working on the Multica codebase.
@@ -446,3 +453,9 @@ Worktree:
 ```bash
 make check-worktree
 ```
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-multica]] — core-multica
+

@@ -12,6 +12,9 @@ tags:
 relatedArticles:
   - ./what-are-agents-skills-instructions.md
   - ./copilot-configuration-basics.md
+  - domain/agents
+  - artifact/agent
+  - source/by-interface/agents-copilot
 ---
 
 New to GitHub Copilot customization? This glossary defines common terms you'll encounter while exploring agents, skills, instructions, and related concepts in the Awesome GitHub Copilot ecosystem.
@@ -246,3 +249,9 @@ tools: ['codebase', 'terminalCommand', 'github']
 ---
 
 **Have a term you'd like to see added?** Contributions are welcome! See our [Contributing Guidelines](https://github.com/github/awesome-copilot/blob/main/CONTRIBUTING.md) for how to suggest additions to this glossary.
+
+## 🔗 Связи
+
+- [[MOC - Agents]] — Agent catalog
+- [[agents/agents-copilot]] — Interface: agents-copilot
+

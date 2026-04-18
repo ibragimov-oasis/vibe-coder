@@ -1,6 +1,10 @@
 ---
 description: 'Comprehensive guide for working with Power Apps Canvas Apps YAML structure based on Microsoft Power Apps YAML schema v3.0. Covers Power Fx formulas, control structures, data types, and source control best practices.'
 applyTo: '**/*.{yaml,yml,md,pa.yaml}'
+tags:
+  - domain/agents
+  - artifact/agent
+  - source/by-interface/agents-copilot
 ---
 
 # Power Apps Canvas Apps YAML Structure Guide
@@ -825,3 +829,9 @@ Properties:
 ```
 
 Remember: This guide provides comprehensive coverage of Power Apps Canvas Apps YAML structure and Power Fx formulas. Always validate your YAML against the official schema and test formulas in the Power Apps Studio environment.
+
+## 🔗 Связи
+
+- [[MOC - Agents]] — Agent catalog
+- [[agents/agents-copilot]] — Interface: agents-copilot
+

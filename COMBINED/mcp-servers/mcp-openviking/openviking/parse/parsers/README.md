@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/mcp
+  - artifact/mcp-server
+  - source/mcp-servers
+---
+
 # OpenViking 解析系统
 
 OpenViking 的解析系统负责将各种格式的原始文档转换为结构化的上下文信息，遵循 L0/L1/L2 三层信息模型。该系统采用模块化设计，支持多种文档格式，并允许用户通过协议扩展自定义解析器。
@@ -553,3 +560,9 @@ result = await parser.parse("test.md", debug=True)
 - [上下文提取流程](../../../docs//zh/concepts/07-extraction.md)
 - [存储系统设计](../../../docs/zh/concepts/05-storage.md)
 - [配置指南](../../../docs/zh/configuration/configuration.md)
+
+## 🔗 Связи
+
+- [[MOC - MCP Servers]] — mcp-servers
+- [[000 - Map of Maps]] — Map of Maps
+

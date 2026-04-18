@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-superpowers
+---
+
 # Pressure Test 1: Emergency Production Fix
 
 **IMPORTANT: This is a real scenario. You must choose and act. Don't ask hypothetical questions - make the actual decision.**
@@ -56,3 +63,9 @@ You remember that last week, another service had timeout issues and adding a ret
 ## Choose A, B, or C
 
 Which do you choose? Be honest about what you would actually do.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-superpowers]] — Category: skills-superpowers
+

@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # Branch Review Summary: claude/align-flow-with-mcp-011CV45c34eF2MawJHUpj9XD
 
 **Review Date**: 2025-11-12
@@ -437,3 +444,10 @@ With **NO REGRESSIONS**, **massive performance gains**, and **comprehensive docu
 **Version**: v2.7.32
 **Status**: ✅ **PRODUCTION READY**
 **Merge Status**: ✅ **APPROVED**
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-ruflo]] — core-ruflo
+- [[MOC - Skills]] — Skills library
+

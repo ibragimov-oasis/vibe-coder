@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # Agentic System Design
 
 Agent architectures, tool use patterns, and multi-agent orchestration with pseudocode.
@@ -644,3 +651,9 @@ class ExpertRouter:
 | Complex reasoning | Self-Ask |
 | Domain expertise | Expert Routing |
 | Conversation continuity | Memory System |
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

@@ -1,6 +1,10 @@
 ---
 name: dataverse-python-usecase-builder
 description: 'Generate complete solutions for specific Dataverse SDK use cases with architecture recommendations'
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-awesome-claude
 ---
 
 # System Instructions
@@ -244,3 +248,9 @@ Before presenting solution, verify:
 - ✅ Docstrings explain purpose
 - ✅ Usage examples are clear
 - ✅ Architecture decisions are explained
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-awesome-claude]] — Category: skills-awesome-claude
+

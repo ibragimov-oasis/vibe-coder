@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-copilot
+---
+
 # CodeQL Troubleshooting Reference
 
 Comprehensive guide for diagnosing and resolving CodeQL analysis errors, SARIF upload issues, and common configuration problems.
@@ -257,3 +264,9 @@ GitHub enforces limits on SARIF data objects:
 - Set `GITHUB_TOKEN` environment variable with `security-events: write` scope
 - Or use `--github-auth-stdin` to pipe the token
 - For GitHub Actions: the token is automatically available via `${{ secrets.GITHUB_TOKEN }}`
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-copilot]] — Category: skills-copilot
+

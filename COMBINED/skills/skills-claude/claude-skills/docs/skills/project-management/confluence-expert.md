@@ -1,6 +1,10 @@
 ---
 title: "Atlassian Confluence Expert — Agent Skill for PM"
 description: "Atlassian Confluence expert for creating and managing spaces, knowledge bases, and documentation. Configures space permissions and hierarchies. Agent skill for Claude Code, Codex CLI, Gemini CLI, OpenClaw."
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
 ---
 
 # Atlassian Confluence Expert
@@ -384,3 +388,9 @@ const example = "code here";
 
 - **Jira Expert** (`project-management/jira-expert/`) — Jira issue macros and linking complement Confluence docs
 - **Atlassian Templates** (`project-management/atlassian-templates/`) — Template patterns for Confluence content creation
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

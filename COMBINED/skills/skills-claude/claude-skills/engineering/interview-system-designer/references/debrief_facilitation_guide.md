@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # Interview Debrief Facilitation Guide
 
 This guide provides a comprehensive framework for conducting effective, unbiased interview debriefs that lead to consistent hiring decisions. Use this to facilitate productive discussions that focus on evidence-based evaluation.
@@ -317,3 +324,9 @@ This guide provides a comprehensive framework for conducting effective, unbiased
 - **Leadership training**: Ensure hiring managers can facilitate effectively
 
 This guide should be adapted to your organization's specific needs while maintaining focus on evidence-based, unbiased decision making.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

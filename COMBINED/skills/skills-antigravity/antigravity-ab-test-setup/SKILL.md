@@ -4,6 +4,10 @@ description: "Structured guide for setting up A/B tests with mandatory gates for
 risk: unknown
 source: community
 date_added: "2026-02-27"
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 # A/B Test Setup
@@ -236,3 +240,9 @@ that is the signal to **slow down and re-check the design**.
 
 ## When to Use
 This skill is applicable to execute the workflow or actions described in the overview.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

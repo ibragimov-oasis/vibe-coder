@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
+---
+
 # Test Coverage
 
 Analyze test coverage, identify gaps, and generate missing tests to reach 80%+ coverage.
@@ -67,3 +74,9 @@ Overall:               67%     84%  PASS:
 - Utility functions used across the codebase
 - API endpoint handlers (request → response flow)
 - Edge cases: null, undefined, empty string, empty array, zero, negative numbers
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

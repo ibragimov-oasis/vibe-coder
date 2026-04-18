@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # Python Code Cleanup Report
 ## Agent 4: Cleanup Specialist
 
@@ -163,3 +170,10 @@ The Python code reorganization is complete. The structure now follows Python pac
 
 ---
 **Agent 4 Cleanup Specialist - Task Complete** ✅
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

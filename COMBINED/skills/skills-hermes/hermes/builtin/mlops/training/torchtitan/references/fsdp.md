@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-hermes
+---
+
 # FSDP2 in TorchTitan
 
 ## Why FSDP2?
@@ -124,3 +131,9 @@ These FSDP1 arguments are no longer needed:
 - `sync_module_states`: Not needed with DTensor
 - `limit_all_gathers`: New memory management doesn't need it
 - `use_orig_params`: Always true (no FlatParameter)
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-hermes]] — Category: skills-hermes
+

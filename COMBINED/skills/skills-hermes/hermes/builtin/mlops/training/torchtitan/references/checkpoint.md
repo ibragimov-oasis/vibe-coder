@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-hermes
+---
+
 # Checkpointing in TorchTitan
 
 TorchTitan uses PyTorch Distributed Checkpoint (DCP) for fault-tolerant, interoperable checkpointing.
@@ -179,3 +186,9 @@ create_seed_checkpoint = false
 3. **Pipeline parallelism**: Always create seed checkpoint first
 4. **Debugging**: Save frequent checkpoints during development, reduce for production
 5. **HF interop**: Use conversion scripts for offline conversion, direct save/load for training workflows
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-hermes]] — Category: skills-hermes
+

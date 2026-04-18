@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # senior-data-engineer reference
 
 ## Troubleshooting
@@ -181,3 +188,9 @@ SELECT * FROM {{ ref('stg_orders') }}
 WHERE _loaded_at > (SELECT MAX(_loaded_at) FROM {{ this }})
 {% endif %}
 ```
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

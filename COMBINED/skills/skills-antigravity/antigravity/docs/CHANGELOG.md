@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # Changelog
 
 All notable changes to the **Antigravity Awesome Skills** collection are documented in this file.

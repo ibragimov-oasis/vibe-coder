@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-gsd
+---
+
 <purpose>
 Audit Nyquist validation gaps for a completed phase. Generate missing tests. Update VALIDATION.md.
 </purpose>
@@ -172,3 +179,10 @@ Display `/clear` reminder.
 - [ ] Test files committed separately
 - [ ] Results with routing presented
 </success_criteria>
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-gsd]] — core-gsd
+- [[MOC - Skills]] — Skills library
+

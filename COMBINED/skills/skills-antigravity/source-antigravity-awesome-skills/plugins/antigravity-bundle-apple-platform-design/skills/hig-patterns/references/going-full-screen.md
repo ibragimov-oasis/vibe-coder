@@ -72,8 +72,17 @@ For additional developer guidance, see [Managing your game window for Metal in m
 
 ## [Change log](https://developer.apple.com/design/human-interface-guidelines/going-full-screen#Change-log)
 
-Date| Changes  
+Date| Changes
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
 ---|---  
 June 9, 2025| Updated guidance for hiding toolbars and navigation controls, and deferring Home Screen indicator gestures in full-screen iOS and iPadOS apps and games.  
-June 10, 2024| Enhanced guidance for playing a game in full-screen mode.  
-  
+June 10, 2024| Enhanced guidance for playing a game in full-screen mode.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

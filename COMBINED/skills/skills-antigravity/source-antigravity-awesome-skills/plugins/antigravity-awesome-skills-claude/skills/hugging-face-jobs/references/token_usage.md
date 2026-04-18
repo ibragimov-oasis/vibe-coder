@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # Token Usage Guide for Hugging Face Jobs
 
 **⚠️ CRITICAL:** Proper token usage is essential for any job that interacts with the Hugging Face Hub.
@@ -567,4 +574,9 @@ assert "HF_TOKEN" in os.environ, "HF_TOKEN required!"
 5. **Check permissions** - ensure token has required access
 6. **Monitor token usage** - review activity regularly
 7. **Rotate tokens** - generate new tokens periodically
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
 

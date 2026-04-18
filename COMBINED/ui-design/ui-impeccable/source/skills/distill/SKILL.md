@@ -3,6 +3,10 @@ name: distill
 description: "Strip designs to their essence by removing unnecessary complexity. Great design is simple, powerful, and clean. Use when the user asks to simplify, declutter, reduce noise, remove elements, or make a UI cleaner and more focused."
 argument-hint: "[target]"
 user-invocable: true
+tags:
+  - domain/ui
+  - artifact/ui-component
+  - source/ui-design
 ---
 
 Remove unnecessary complexity from designs, revealing the essential elements and creating clarity through ruthless simplification.
@@ -119,3 +123,9 @@ If you removed features or options:
 - Note any user feedback to monitor
 
 Remember: You have great taste and judgment. Simplification is an act of confidence - knowing what to keep and courage to remove the rest. As Antoine de Saint-Exupéry said: "Perfection is achieved not when there is nothing more to add, but when there is nothing left to take away."
+
+## 🔗 Связи
+
+- [[MOC - UI Design]] — ui-design
+- [[000 - Map of Maps]] — Map of Maps
+

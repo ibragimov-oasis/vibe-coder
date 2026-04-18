@@ -1,6 +1,10 @@
 ---
 name: agent-refinement
 description: Agent skill for refinement - invoke with $agent-refinement
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-ruflo
 ---
 
 ---
@@ -528,3 +532,9 @@ function getUserProcessor(user: User): UserProcessor {
 6. **Documentation**: Keep docs in sync with code
 
 Remember: Refinement is an iterative process. Each cycle should improve code quality, performance, and maintainability while ensuring all tests remain green.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-ruflo]] — Category: skills-ruflo
+

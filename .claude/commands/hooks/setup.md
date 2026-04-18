@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/command
+  - source/claude-commands
+---
+
 # Setting Up ruv-swarm Hooks
 
 ## Quick Start
@@ -101,3 +108,9 @@ Already configured by default for common file types.
   }]
 }
 ```
+
+## 🔗 Связи
+
+- [[MOC - System]] — System commands
+- [[MOC - Skills]] — Skills library
+

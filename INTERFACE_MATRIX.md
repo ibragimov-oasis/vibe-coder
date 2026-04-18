@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/root
+---
+
 # INTERFACE_MATRIX.md — What Works Where
 
 > **Cross-reference for ALL interfaces.** Maps every tool, MCP server, skill, and agent
@@ -150,3 +157,8 @@ All mega-agents are file-based (`COMBINED/agents/mega/*.md`). Any interface that
 **I'm using Gemini**: Image generation with nano-banana is natural. Long context lets you read entire files. Use CLI workarounds and leverage multimodal understanding.
 
 **I'm using Antigravity**: Browser subagent + built-in image generation are your strengths. Use CLI workarounds for tools. Read mega-agent files from `COMBINED/`.
+
+## 🔗 Связи
+
+- [[000 - Map of Maps]] — Map of Maps
+

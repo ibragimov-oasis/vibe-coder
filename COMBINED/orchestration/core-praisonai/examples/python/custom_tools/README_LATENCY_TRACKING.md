@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-praisonai
+---
+
 # Minimal Latency Tracking for PraisonAI MCP Server
 
 This solution provides latency tracking for MCP servers without modifying any PraisonAI core files. It's implemented as a custom tool that can be used externally.
@@ -224,3 +231,10 @@ def log_metrics(request_id):
     metrics = tracker.get_metrics(request_id)
     logging.info(f"Latency metrics: {json.dumps(metrics)}")
 ```
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/praisonai]] — PraisonAI
+- [[000 - Map of Maps]] — Map of Maps
+

@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # tech-debt-tracker reference
 
 ## Technical Debt Classification Framework
@@ -484,3 +491,9 @@ Maintain healthy balance between new features and debt reduction:
 - Debt that increases bug rates
 - Debt that limits feature flexibility
 - Investment required to maintain current quality
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

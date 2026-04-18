@@ -5,6 +5,10 @@ allowed-tools:
   - "StitchMCP"
   - "Read"
   - "Write"
+tags:
+  - domain/ui
+  - artifact/ui-component
+  - source/ui-design
 ---
 
 # Stitch Design Expert
@@ -82,3 +86,9 @@ After any tool call, always surface the `outputComponents` (Text Description and
 - **Iterative Polish**: Prefere `edit_screens` for targeted adjustments over full re-generation.
 - **Semantic First**: Name colors by their role (e.g., "Primary Action") as well as their appearance.
 - **Atmosphere Matters**: Explicitly set the "vibe" (Minimalist, Vibrant, Brutalist) to guide the generator.
+
+## 🔗 Связи
+
+- [[MOC - UI Design]] — ui-design
+- [[000 - Map of Maps]] — Map of Maps
+

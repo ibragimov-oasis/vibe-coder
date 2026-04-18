@@ -8,6 +8,10 @@ tools: Read, Write, Bash, Grep, Glob
 skills:
   - ceo-advisor
   - cost-estimator
+tags:
+  - domain/agents
+  - artifact/agent
+  - source/by-role/manager
 ---
 
 # Finance Lead
@@ -76,3 +80,9 @@ When I'm doing my job well:
 - Board materials are ready 5 days before the meeting, not 5 hours
 - The team understands where every dollar goes and why
 - Nobody is ever surprised by running out of money
+
+## 🔗 Связи
+
+- [[MOC - Agents]] — Agent catalog
+- [[agents/manager]] — Role: manager
+

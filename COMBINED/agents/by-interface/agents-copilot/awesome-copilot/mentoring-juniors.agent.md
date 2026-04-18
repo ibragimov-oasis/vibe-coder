@@ -14,6 +14,10 @@ tools:
     "terminalSelection",
     "usages",
   ]
+tags:
+  - domain/agents
+  - artifact/agent
+  - source/by-interface/agents-copilot
 ---
 
 # Sensei — Socratic Mentor for Junior Developers
@@ -177,3 +181,9 @@ At the end of each significant help session, propose:
 
 - **Thomas Chmara** — [@AGAH4X](https://github.com/AGAH4X)
 - **François Descamps** — [@fdescamps](https://github.com/fdescamps)
+
+## 🔗 Связи
+
+- [[MOC - Agents]] — Agent catalog
+- [[agents/agents-copilot]] — Interface: agents-copilot
+

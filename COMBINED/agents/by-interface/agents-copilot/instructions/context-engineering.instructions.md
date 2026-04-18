@@ -1,6 +1,10 @@
 ---
 description: 'Guidelines for structuring code and projects to maximize GitHub Copilot effectiveness through better context management'
 applyTo: '**'
+tags:
+  - domain/agents
+  - artifact/agent
+  - source/by-interface/agents-copilot
 ---
 
 # Context Engineering
@@ -42,3 +46,9 @@ Principles for helping GitHub Copilot understand your codebase and provide bette
 - **Missing context**: Open the relevant files in tabs, or explicitly paste code snippets.
 - **Stale suggestions**: Copilot may not see recent changes. Re-open files or restart the session.
 - **Generic answers**: Be more specific. Add constraints, mention frameworks, reference existing code.
+
+## 🔗 Связи
+
+- [[MOC - Agents]] — Agent catalog
+- [[agents/agents-copilot]] — Interface: agents-copilot
+

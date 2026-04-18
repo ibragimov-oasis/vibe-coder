@@ -4,6 +4,10 @@ description: "Comprehensive guide for browser automation and web scraping with g
 risk: safe
 source: "https://github.com/go-rod/rod"
 date_added: "2026-02-27"
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 # Go-Rod Browser Automation Master
@@ -543,3 +547,9 @@ See the `examples/` directory for complete, runnable Go files:
 - [Chrome DevTools Protocol Docs](https://chromedevtools.github.io/devtools-protocol/) — Underlying protocol reference
 - [Chrome CLI Flags Reference](https://peter.sh/experiments/chromium-command-line-switches) — Launcher flag documentation
 - `references/api-reference.md` — Quick-reference cheat sheet
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

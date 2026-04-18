@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-copilot
+---
+
 # Excalidraw Element Types Guide
 
 Detailed specifications for each Excalidraw element type with visual examples and use cases.
@@ -495,3 +502,9 @@ const height = fontSize * 1.2 * lines;
 | Annotation | `text` (small font) |
 | Non-directional link | `line` |
 | Divider | `line` (horizontal) |
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-copilot]] — Category: skills-copilot
+

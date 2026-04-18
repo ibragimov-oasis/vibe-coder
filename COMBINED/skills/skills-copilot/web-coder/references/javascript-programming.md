@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-copilot
+---
+
 # JavaScript & Programming Reference
 
 Comprehensive reference for JavaScript, ECMAScript, programming concepts, and modern JS patterns.
@@ -805,3 +812,9 @@ throw new ValidationError("Invalid input");
 - [ECMAScript Specification](https://tc39.es/ecma262/)
 - [JavaScript.info](https://javascript.info/)
 - [You Don't Know JS (book series)](https://github.com/getify/You-Dont-Know-JS)
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-copilot]] — Category: skills-copilot
+

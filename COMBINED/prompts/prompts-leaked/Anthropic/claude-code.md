@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/prompts
+  - artifact/prompt
+  - source/prompts-leaked
+---
+
 # Claude Code Version 2.1.50
 
 Release Date: 2026-02-20
@@ -1488,3 +1495,9 @@ Usage:
   ],
   "additionalProperties": false
 }
+
+## 🔗 Связи
+
+- [[MOC - Prompts]] — Prompt library
+- [[MOC - System]] — System documentation
+

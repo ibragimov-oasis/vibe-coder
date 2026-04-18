@@ -17,6 +17,9 @@ tools:
 - cursor
 - gemini-cli
 - codex-cli
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 # MONETIZATION - Do Produto ao Revenue
@@ -406,3 +409,9 @@ async def check_usage_and_upsell(user_id: str, usage: dict):
 - `growth-engine` - Complementary skill for enhanced analysis
 - `product-design` - Complementary skill for enhanced analysis
 - `product-inventor` - Complementary skill for enhanced analysis
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-copilot
+---
+
 # pixie API Reference
 
 ## Configuration
@@ -193,3 +200,9 @@ node.find(name)         # find a child span by name
 node.children           # list of child ObservationNode
 node.span               # the underlying span (ObserveSpan or LLMSpan)
 ```
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-copilot]] — Category: skills-copilot
+

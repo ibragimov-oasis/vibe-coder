@@ -2,6 +2,10 @@
 name: sales-commercial
 description: Agent templates governing long-term commercial relationships, bills of sale, and web-based terms of service.
 jurisdictions: [USA, Canada, EU]
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
 ---
 
 # Sales & Commercial Transactions Templates
@@ -28,3 +32,9 @@ When generating a Privacy Policy or Terms of Service:
 1. Always inject a GDPR compliance clause if the client does *any* business in Europe.
 2. Structure MSAs to explicitly cite the governing law (state/province/country).
 3. For EU consumer sales, ensure the 14-day right of withdrawal is explicitly mentioned as per the Consumer Rights Directive.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

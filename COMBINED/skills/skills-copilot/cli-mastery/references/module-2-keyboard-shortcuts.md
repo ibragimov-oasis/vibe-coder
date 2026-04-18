@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-copilot
+---
+
 # Module 2: Keyboard Shortcuts
 
 ## Navigation & Editing
@@ -36,3 +43,9 @@
 - `Shift+Tab` into Plan mode BEFORE complex tasks
 - `Ctrl+G` opens your $EDITOR for long prompts — game changer
 - `Ctrl+S` lets you iterate on a prompt without retyping
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-copilot]] — Category: skills-copilot
+

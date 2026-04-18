@@ -3,6 +3,9 @@ name: extract-frames
 description: Extract frames from videos at specific timestamps using Mediabunny
 metadata:
   tags: frames, extract, video, thumbnail, filmstrip, canvas
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-archon
 ---
 
 # Extracting frames from videos
@@ -227,3 +230,10 @@ try {
   console.error("Frame extraction was aborted or failed:", error);
 }
 ```
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/archon]] — Archon
+- [[000 - Map of Maps]] — Map of Maps
+

@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
+---
+
 # Go 微服务 — 项目 CLAUDE.md
 
 > 一个使用 PostgreSQL、gRPC 和 Docker 的 Go 微服务真实示例。
@@ -265,3 +272,9 @@ staticcheck ./...
 * 从 `main` 创建功能分支，需要 PR
 * CI: `go vet`, `staticcheck`, `go test -race`, `golangci-lint`
 * 部署: 在 CI 中构建 Docker 镜像，部署到 Kubernetes
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

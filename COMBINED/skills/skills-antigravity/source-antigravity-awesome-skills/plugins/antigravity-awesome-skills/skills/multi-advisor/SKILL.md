@@ -16,6 +16,9 @@ tools:
 - cursor
 - gemini-cli
 - codex-cli
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 # MULTI-ADVISOR: Board de Especialistas em Paralelo
@@ -269,3 +272,9 @@ Esta skill usa as personas instaladas no ecossistema:
 
 - `agent-orchestrator` - Complementary skill for enhanced analysis
 - `task-intelligence` - Complementary skill for enhanced analysis
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

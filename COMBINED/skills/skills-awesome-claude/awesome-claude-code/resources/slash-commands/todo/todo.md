@@ -1,6 +1,10 @@
 ---
 name: todo
 description: Manage project todos in todos.md file
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-awesome-claude
 ---
 
 # Project Todo Manager
@@ -58,3 +62,9 @@ Use this markdown format in todos.md:
 - Times should not be included in the due date format unless requested (`due N in 2 hours` should be MM/DD/YYYY @ [+ 2 hours from now]) 
 
 Always be concise and helpful in your responses.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-awesome-claude]] — Category: skills-awesome-claude
+

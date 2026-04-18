@@ -1,6 +1,10 @@
 ---
 paths:
   - "**/*.rs"
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
 ---
 # Rust Patterns
 
@@ -166,3 +170,9 @@ pub enum ApiResponse<T: serde::Serialize> {
 ## References
 
 See skill: `rust-patterns` for comprehensive patterns including ownership, traits, generics, concurrency, and async.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

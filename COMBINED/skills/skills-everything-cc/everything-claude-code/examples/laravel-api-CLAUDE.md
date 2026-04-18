@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
+---
+
 # Laravel API — Project CLAUDE.md
 
 > Real-world example for a Laravel API with PostgreSQL, Redis, and queues.
@@ -309,3 +316,9 @@ final class OrdersControllerTest extends TestCase
     }
 }
 ```
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

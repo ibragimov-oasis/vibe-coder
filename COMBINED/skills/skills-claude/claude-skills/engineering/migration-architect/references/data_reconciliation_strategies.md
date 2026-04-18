@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # Data Reconciliation Strategies
 
 ## Overview
@@ -1327,3 +1334,9 @@ class IncrementalReconciler:
 ```
 
 This comprehensive guide provides the framework and tools necessary for implementing robust data reconciliation strategies during migrations, ensuring data integrity and consistency while minimizing business disruption.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

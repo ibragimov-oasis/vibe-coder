@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # WhatsApp Cloud API - Tipos de Mensagem (Referencia Completa)
 
 > Referencia completa de todos os tipos de mensagem suportados pela WhatsApp Cloud API v21.0.
@@ -1637,3 +1644,9 @@ async def send_whatsapp_request(payload: dict) -> dict:
 
         return response.json()
 ```
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

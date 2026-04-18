@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-copilot
+---
+
 # 2D Platform Game Template
 
 A complete step-by-step guide for building a 2D platformer game using Phaser (v2.x / Phaser CE) with Arcade Physics. This template walks through every stage of development: setting up the project, creating platforms from JSON level data, adding a hero with physics-based movement and jumping, collectible coins, walking enemies, death and stomp mechanics, a scoreboard, sprite animations, win conditions with a door/key system, and multi-level progression.
@@ -1853,3 +1860,9 @@ window.onload = function () {
 | Camera | `this.camera.fade()` | Screen transition effects |
 | Anchor | `sprite.anchor.set(x, y)` | Sets the origin point for positioning and rotation |
 | Sprite flipping | `sprite.scale.x = -1` | Horizontally mirrors the sprite |
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-copilot]] — Category: skills-copilot
+

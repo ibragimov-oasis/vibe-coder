@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # Provider Comparison Guide
 
 This guide compares different providers for transcription, LLM, and TTS services to help you choose the best option for your voice AI engine.
@@ -513,3 +520,9 @@ transcriber = factory.create_transcriber(config)
 agent = factory.create_agent(config)
 synthesizer = factory.create_synthesizer(config)
 ```
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

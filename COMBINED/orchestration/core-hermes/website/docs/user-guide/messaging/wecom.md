@@ -2,6 +2,10 @@
 sidebar_position: 14
 title: "WeCom (Enterprise WeChat)"
 description: "Connect Hermes Agent to WeCom via the AI Bot WebSocket gateway"
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-hermes
 ---
 
 # WeCom (Enterprise WeChat)
@@ -84,3 +88,10 @@ Set these in `config.yaml` under `platforms.wecom.extra`:
 | "invalid secret (errcode=40013)" | Verify the secret matches your bot's credentials |
 | "Timed out waiting for subscribe acknowledgement" | Check network connectivity to `openws.work.weixin.qq.com` |
 | Bot doesn't respond in groups | Check `group_policy` setting and group allowlist |
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/hermes]] — Hermes
+- [[000 - Map of Maps]] — Map of Maps
+

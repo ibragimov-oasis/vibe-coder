@@ -3,6 +3,9 @@ title: Start Workflows in Background
 impact: CRITICAL
 impactDescription: Background workflows survive crashes and restarts
 tags: workflow, background, start_workflow, handle
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
 ---
 
 ## Start Workflows in Background
@@ -56,3 +59,9 @@ result = handle.get_result()
 ```
 
 Reference: [Starting Workflows](https://docs.dbos.dev/python/tutorials/workflow-tutorial#starting-workflows-in-the-background)
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

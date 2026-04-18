@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # dbt Transformation Patterns Implementation Playbook
 
 This file contains detailed patterns, checklists, and code samples referenced by the skill.
@@ -545,3 +552,9 @@ dbt ls --select tag:critical     # List models by tag
 - [dbt Best Practices](https://docs.getdbt.com/guides/best-practices)
 - [dbt-utils Package](https://hub.getdbt.com/dbt-labs/dbt_utils/latest/)
 - [dbt Discourse](https://discourse.getdbt.com/)
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

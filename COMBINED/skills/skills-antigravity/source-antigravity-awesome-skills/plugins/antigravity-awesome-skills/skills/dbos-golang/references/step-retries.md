@@ -3,6 +3,9 @@ title: Configure Step Retries for Transient Failures
 impact: HIGH
 impactDescription: Automatic retries handle transient failures without manual code
 tags: step, retry, exponential-backoff, resilience
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
 ---
 
 ## Configure Step Retries for Transient Failures
@@ -64,3 +67,9 @@ With defaults, retry delays are: 100ms, 200ms, 400ms, 800ms, 1.6s, 3.2s, 5s, 5s.
 If all retries are exhausted, a `DBOSError` with code `MaxStepRetriesExceeded` is returned to the calling workflow.
 
 Reference: [Configurable Retries](https://docs.dbos.dev/golang/tutorials/step-tutorial#configurable-retries)
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

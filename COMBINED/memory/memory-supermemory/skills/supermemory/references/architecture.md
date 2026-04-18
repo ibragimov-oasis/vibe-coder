@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/memory
+  - artifact/memory
+  - source/memory
+---
+
 # Supermemory Architecture
 
 Deep dive into how Supermemory works under the hood.
@@ -555,3 +562,9 @@ Supermemory's architecture enables:
 6. **Simplicity**: Complex architecture, simple developer experience
 
 The result: AI agents with perfect recall and true personalization.
+
+## 🔗 Связи
+
+- [[MOC - Memory]] — memory
+- [[000 - Map of Maps]] — Map of Maps
+

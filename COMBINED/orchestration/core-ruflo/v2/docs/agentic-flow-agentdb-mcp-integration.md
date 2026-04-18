@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # Agentic Flow & AgentDB MCP 2025 Integration
 
 **Purpose**: Map MCP 2025 spec changes onto Agentic Flow and AgentDB with concrete interface updates
@@ -1196,3 +1203,10 @@ This integration plan provides:
 - **Phase 2** (After Nov 25): Production rollout
 
 Ready to start implementation? I can begin with Phase 0A (Async Operations) for Agentic Flow.
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-ruflo]] — core-ruflo
+- [[MOC - Skills]] — Skills library
+

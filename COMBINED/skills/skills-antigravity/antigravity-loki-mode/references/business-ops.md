@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # Business Operations Reference
 
 Workflows and procedures for business swarm agents.
@@ -548,3 +555,9 @@ Post-Launch:
 ## Next Update
 [Time of next update or "Resolved"]
 ```
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

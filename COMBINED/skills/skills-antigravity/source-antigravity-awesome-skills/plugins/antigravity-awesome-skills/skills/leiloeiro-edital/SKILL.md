@@ -16,6 +16,9 @@ tools:
 - cursor
 - gemini-cli
 - codex-cli
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 # SKILL DE EDITAL — ANÁLISE PERICIAL DE EDITAIS DE LEILÃO
@@ -504,3 +507,9 @@ Políticas adicionais:
 - `leiloeiro-ia` - Complementary skill for enhanced analysis
 - `leiloeiro-juridico` - Complementary skill for enhanced analysis
 - `leiloeiro-mercado` - Complementary skill for enhanced analysis
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

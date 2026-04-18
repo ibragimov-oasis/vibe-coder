@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/agent
+  - source/by-interface/agents-copilot
+---
+
 # GitHub Copilot Cookbook
 
 A collection of practical recipes and examples for working with GitHub Copilot tools and features. Each recipe provides focused, copy-paste-ready code snippets and real-world examples to help you accomplish common tasks.
@@ -50,3 +57,9 @@ Have a recipe to share? We'd love to include it! See [CONTRIBUTING.md](../CONTRI
 ### Other
 
 - [Main Repository](../)
+
+## 🔗 Связи
+
+- [[MOC - Agents]] — Agent catalog
+- [[agents/agents-copilot]] — Interface: agents-copilot
+

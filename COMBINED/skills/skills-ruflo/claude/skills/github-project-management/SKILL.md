@@ -3,6 +3,10 @@ name: github-project-management
 description: |
   Comprehensive GitHub project management with swarm-coordinated issue tracking, project board automation, and sprint planning
 allowed-tools: "mcp__github__*, mcp__claude-flow__*, Bash, Read, Write, TodoWrite"
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-ruflo
 ---
 
 # GitHub Project Management
@@ -1248,3 +1252,9 @@ npx ruv-swarm github board-kpis
 **Last Updated**: 2025-10-19
 **Version**: 2.0.0
 **Maintainer**: Claude Code
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-ruflo]] — Category: skills-ruflo
+

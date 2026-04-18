@@ -3,6 +3,9 @@ title: Control Queue Concurrency
 impact: HIGH
 impactDescription: Prevents resource exhaustion with concurrent limits
 tags: queue, concurrency, workerConcurrency, limits
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
 ---
 
 ## Control Queue Concurrency
@@ -47,3 +50,9 @@ Worker concurrency is recommended for most use cases. Take care with global conc
 When using worker concurrency, each process must have a unique `ExecutorID` set in configuration (this is automatic with DBOS Conductor or Cloud).
 
 Reference: [Managing Concurrency](https://docs.dbos.dev/golang/tutorials/queue-tutorial#managing-concurrency)
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

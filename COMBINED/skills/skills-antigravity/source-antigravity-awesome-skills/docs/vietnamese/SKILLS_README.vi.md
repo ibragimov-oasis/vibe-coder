@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # Thư mục Kỹ năng (Skills Directory)
 
 **Chào mừng đến với thư mục Kỹ năng!** Đây là nơi tập hợp tất cả 179+ kỹ năng AI chuyên biệt.
@@ -104,3 +111,9 @@ Muốn tạo một kỹ năng mới? Hãy xem:
 ---
 
 **Cần trợ giúp?** Kiểm tra [FAQ](../docs/vietnamese/FAQ.vi.md) hoặc mở một issue trên GitHub!
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

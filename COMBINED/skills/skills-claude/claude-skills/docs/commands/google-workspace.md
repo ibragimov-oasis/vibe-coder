@@ -1,6 +1,10 @@
 ---
 title: "/google-workspace — Slash Command for AI Coding Agents"
 description: "Google Workspace CLI operations: setup diagnostics, security audit, recipe discovery, and output analysis. Usage: /google-workspace. Slash command for Claude Code, Codex CLI, Gemini CLI."
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
 ---
 
 # /google-workspace
@@ -81,3 +85,9 @@ python3 engineering-team/google-workspace-cli/scripts/output_analyzer.py --demo 
 
 ## Related Commands
 - No direct dependencies (self-contained Google Workspace skill)
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

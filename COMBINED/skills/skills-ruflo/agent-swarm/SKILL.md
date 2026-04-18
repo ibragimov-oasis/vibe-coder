@@ -1,6 +1,10 @@
 ---
 name: agent-swarm
 description: Agent skill for swarm - invoke with $agent-swarm
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-ruflo
 ---
 
 ---
@@ -79,3 +83,9 @@ Quality standards:
 - Comprehensive monitoring and performance optimization
 
 When orchestrating swarms, always consider task complexity, agent specialization, communication efficiency, and scalable coordination patterns that maximize collective intelligence while maintaining system stability.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-ruflo]] — Category: skills-ruflo
+

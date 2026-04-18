@@ -6,6 +6,10 @@ weight: 1
 description: >
   The HTTP source enables the Toolbox to retrieve data from a remote server using HTTP requests.
 no_list: true
+tags:
+  - domain/mcp
+  - artifact/mcp-server
+  - source/mcp-servers
 ---
 
 ## About
@@ -56,3 +60,9 @@ instead of hardcoding your secrets into the configuration file.
 | disableSslVerification |       bool        |    false     | Disable SSL certificate verification. This should only be used for local development. Defaults to `false`.                         |
 
 [parse-duration-doc]: https://pkg.go.dev/time#ParseDuration
+
+## 🔗 Связи
+
+- [[MOC - MCP Servers]] — mcp-servers
+- [[000 - Map of Maps]] — Map of Maps
+

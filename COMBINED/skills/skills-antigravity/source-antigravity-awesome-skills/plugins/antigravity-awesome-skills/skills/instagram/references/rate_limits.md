@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # Rate Limits — Instagram Graph API
 
 ## Limites Principais
@@ -111,3 +118,9 @@ python scripts/auth.py --status
 # Ver ações recentes no audit log
 python scripts/export.py --type actions --format json
 ```
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

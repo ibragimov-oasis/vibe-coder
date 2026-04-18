@@ -2,6 +2,10 @@
 description: Fix build and TypeScript errors with minimal changes
 agent: build-error-resolver
 subtask: true
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
 ---
 
 # Build Fix Command
@@ -54,3 +58,9 @@ After fixes:
 ---
 
 **IMPORTANT**: Focus on fixing errors only. No refactoring, no improvements, no architectural changes. Get the build green with minimal diff.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

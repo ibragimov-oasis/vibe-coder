@@ -3,6 +3,9 @@ title: Use Messages for Workflow Notifications
 impact: MEDIUM
 impactDescription: Enables external signals to control workflow execution
 tags: messages, send, recv, notifications
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
 ---
 
 ## Use Messages for Workflow Notifications
@@ -54,3 +57,9 @@ Key points:
 - Messages are persisted for exactly-once delivery
 
 Reference: [Workflow Messaging](https://docs.dbos.dev/python/tutorials/workflow-communication#workflow-messaging-and-notifications)
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

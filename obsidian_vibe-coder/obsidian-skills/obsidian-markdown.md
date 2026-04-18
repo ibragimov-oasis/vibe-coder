@@ -78,3 +78,9 @@ aliases:
 - [[obsidian-skills/json-canvas]] — визуальные карты
 - [[obsidian-skills/obsidian-bases]] — database views
 - [[obsidian-skills/obsidian-cli]] — CLI инструменты
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Parent MOC
+- [[000 - Map of Maps]] — Map of Maps
+

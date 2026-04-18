@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-copilot
+---
+
 # Deployment — Complete Reference
 
 Aspire separates **orchestration** (what to run) from **deployment** (where to run it). The `aspire publish` command translates your AppHost resource model into deployment manifests for your target platform.
@@ -235,3 +242,9 @@ Aspire templates include `.devcontainer/` configuration:
 ```
 
 Port forwarding works automatically in Codespaces — the dashboard and all service endpoints are accessible via forwarded URLs.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-copilot]] — Category: skills-copilot
+

@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/seo
+  - artifact/doc
+  - source/skills-seo
+---
+
 # Pricing Research Methods
 
 ## Van Westendorp Price Sensitivity Meter
@@ -144,3 +151,9 @@ Insight: Value correlates with team adoption (users)
 
 Recommendation: Price per user, gate integrations to higher tiers
 ```
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-seo]] — Category: skills-seo
+

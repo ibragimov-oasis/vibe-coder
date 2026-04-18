@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-squad
+---
+
 # Squad team for deep-nested repo
 
 ## Identity
@@ -15,3 +22,10 @@
 - **GitHub:** @alice
 - **Responsibilities:** Deeply nested code navigation
 - **Charter:** `.squad/agents/alice/charter.md`
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/squad]] — Squad
+- [[000 - Map of Maps]] — Map of Maps
+

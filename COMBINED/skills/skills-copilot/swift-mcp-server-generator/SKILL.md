@@ -1,6 +1,10 @@
 ---
 name: swift-mcp-server-generator
 description: 'Generate a complete Model Context Protocol server project in Swift using the official MCP Swift SDK package.'
+tags:
+  - domain/agents
+  - artifact/skill
+  - source/skills-copilot
 ---
 
 # Swift MCP Server Generator
@@ -667,3 +671,10 @@ Add to `claude_desktop_config.json`:
   }
 }
 ```
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-copilot]] — Category: skills-copilot
+- [[MOC - Agents]] — Copilot agents
+

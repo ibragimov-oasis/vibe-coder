@@ -49,3 +49,9 @@ source: "../COMBINED/agents/by-role/"
 
 - **Индекс:** [[agents-by-role/index]]
 - **MOC:** [[MOC - Agents]]
+
+## 🔗 Связи
+
+- [[MOC - Agents]] — Parent MOC
+- [[000 - Map of Maps]] — Map of Maps
+

@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-taskmaster
+---
+
 Remove a dependency between tasks.
 
 Arguments: $ARGUMENTS
@@ -60,3 +67,10 @@ After removing:
 → Task #5 is now UNBLOCKED and ready to start
 → Warning: Consider if #5 still needs #2 completed first
 ```
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/task-master]] — Task-Master
+- [[000 - Map of Maps]] — Map of Maps
+

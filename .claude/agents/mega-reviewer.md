@@ -10,6 +10,10 @@ tools:
   - mcp__gitnexus
   - mcp__supermemory
   - mcp__openviking
+tags:
+  - domain/skills
+  - artifact/config
+  - source/.claude
 ---
 
 <role>
@@ -293,3 +297,9 @@ Follow the output format below.
 {non-blocking suggestions for improvement}
 ```
 </report_format>
+
+## 🔗 Связи
+
+- [[MOC - System]] — System
+- [[000 - Map of Maps]] — Map of Maps
+

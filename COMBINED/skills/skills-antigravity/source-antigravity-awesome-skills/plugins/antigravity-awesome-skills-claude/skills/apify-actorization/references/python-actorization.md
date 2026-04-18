@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # Python Actorization
 
 ## Install the Apify SDK
@@ -93,3 +100,9 @@ async def main() -> None:
 if __name__ == '__main__':
     asyncio.run(main())
 ```
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

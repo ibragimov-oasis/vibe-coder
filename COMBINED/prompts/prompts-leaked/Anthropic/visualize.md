@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/prompts
+  - artifact/prompt
+  - source/prompts-leaked
+---
+
 # Imagine — Visual Creation Suite
 
 ## Modules
@@ -770,3 +777,9 @@ Use `imagine_svg`. Same technical rules (viewBox, safe area) but the aesthetic i
 - Organic forms with `<path>` curves, `<ellipse>`, `<circle>`
 - Texture via repetition (parallel lines, dots, hatching) not raster effects
 - Geometric patterns with `<g transform="rotate()">` for radial symmetry
+
+## 🔗 Связи
+
+- [[MOC - Prompts]] — Prompt library
+- [[MOC - System]] — System documentation
+

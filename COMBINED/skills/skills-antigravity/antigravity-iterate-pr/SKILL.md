@@ -3,6 +3,10 @@ name: iterate-pr
 description: Iterate on a PR until CI passes. Use when you need to fix CI failures, address review feedback, or continuously push fixes until all checks are green. Automates the feedback-fix-push-wait cycle.
 risk: critical
 source: community
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 # Iterate on PR Until CI Passes
@@ -184,3 +188,9 @@ If scripts fail, use `gh` CLI directly:
 
 ## When to Use
 Use this skill when tackling tasks related to its primary domain or functionality as described above.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

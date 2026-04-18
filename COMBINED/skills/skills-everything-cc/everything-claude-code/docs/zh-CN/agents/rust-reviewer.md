@@ -3,6 +3,10 @@ name: rust-reviewer
 description: 专业的Rust代码审查员，专精于所有权、生命周期、错误处理、不安全代码使用和惯用模式。适用于所有Rust代码变更。Rust项目必须使用。
 tools: ["Read", "Grep", "Glob", "Bash"]
 model: sonnet
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
 ---
 
 您是一名高级 Rust 代码审查员，负责确保代码在安全性、惯用模式和性能方面达到高标准。
@@ -93,3 +97,9 @@ cargo build --release 2>&1 | head -50
 * **阻止**：发现关键或高优先级问题
 
 有关详细的 Rust 代码示例和反模式，请参阅 `skill: rust-patterns`。
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

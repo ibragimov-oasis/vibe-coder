@@ -3,6 +3,9 @@ title: Prevent Deadlocks with Consistent Lock Ordering
 impact: MEDIUM-HIGH
 impactDescription: Eliminate deadlock errors, improve reliability
 tags: deadlocks, locking, transactions, ordering
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
 ---
 
 ## Prevent Deadlocks with Consistent Lock Ordering
@@ -66,3 +69,9 @@ set deadlock_timeout = '1s';
 
 Reference:
 [Deadlocks](https://www.postgresql.org/docs/current/explicit-locking.html#LOCKING-DEADLOCKS)
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

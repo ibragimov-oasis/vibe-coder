@@ -2,6 +2,10 @@
 sidebar_position: 4
 title: "MCP (Model Context Protocol)"
 description: "Connect Hermes Agent to external tool servers via MCP — and control exactly which MCP tools Hermes loads"
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-hermes
 ---
 
 # MCP (Model Context Protocol)
@@ -508,3 +512,10 @@ The gateway does NOT need to be running for read operations (listing conversatio
 - [CLI Commands](/docs/reference/cli-commands)
 - [Slash Commands](/docs/reference/slash-commands)
 - [FAQ](/docs/reference/faq)
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/hermes]] — Hermes
+- [[000 - Map of Maps]] — Map of Maps
+

@@ -1,6 +1,10 @@
 ---
 description: ' Azure Verified Modules (AVM) and Terraform'
 applyTo: '**/*.terraform, **/*.tf, **/*.tfvars, **/*.tfstate, **/*.tflint.hcl, **/*.tf.json, **/*.tfvars.json'
+tags:
+  - domain/agents
+  - artifact/agent
+  - source/by-interface/agents-copilot
 ---
 
 # Azure Verified Modules (AVM) Terraform
@@ -227,3 +231,9 @@ Before submitting any AVM-related code:
 - [ ] AVM PR checks pass (`./avm pr-check`)
 - [ ] Documentation is updated
 - [ ] Examples are tested and working
+
+## 🔗 Связи
+
+- [[MOC - Agents]] — Agent catalog
+- [[agents/agents-copilot]] — Interface: agents-copilot
+

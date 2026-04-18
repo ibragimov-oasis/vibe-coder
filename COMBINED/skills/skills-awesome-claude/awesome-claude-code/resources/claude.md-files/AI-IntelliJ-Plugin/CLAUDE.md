@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-awesome-claude
+---
+
 # AI Integration Plugin Development Guide
 
 ## Build Commands
@@ -23,3 +30,9 @@
 - Use `ChatGptBundle` for internationalized strings
 - Leverage IntelliJ Platform APIs when possible instead of custom implementations
 - Use dependency injection via constructor parameters rather than service lookups
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-awesome-claude]] — Category: skills-awesome-claude
+

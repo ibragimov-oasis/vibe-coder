@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/REPO_DOCS
+---
+
 ─────────────────────────────────────────────────────────
 
 # Galaxy (Uiverse.io) — How It Works
@@ -81,3 +88,9 @@ Step 3: AI references uiverse.io → browses elements visually with search and i
 - [x] Added to MASTER_INDEX.md
 
 ─────────────────────────────────────────────────────────
+
+## 🔗 Связи
+
+- [[000 - Map of Maps]] — REPO_DOCS
+- [[000 - Map of Maps]] — Map of Maps
+

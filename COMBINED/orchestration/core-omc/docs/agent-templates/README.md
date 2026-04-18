@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-omc
+---
+
 # Agent Prompt Templates
 
 This directory contains reusable templates for creating agent prompts, reducing duplication across tiers.
@@ -108,3 +115,9 @@ Potential additions to the template system:
 - Composition templates for specialized agents
 - Automated template validation
 - Template generation CLI tool
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-omc]] — core-omc
+

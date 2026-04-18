@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # Technology Evaluation Examples
 
 Concrete examples showing input formats and expected outputs.
@@ -381,3 +388,9 @@ For 20+ developer team with complex state management:
    • State management options less mature
    • Better for smaller teams/projects
 ```
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

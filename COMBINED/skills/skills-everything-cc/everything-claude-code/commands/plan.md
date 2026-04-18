@@ -1,5 +1,9 @@
 ---
 description: Restate requirements, assess risks, and create step-by-step implementation plan. WAIT for user CONFIRM before touching any code.
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
 ---
 
 # Plan Command
@@ -113,3 +117,9 @@ This command invokes the `planner` agent provided by ECC.
 
 For manual installs, the source file lives at:
 `agents/planner.md`
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

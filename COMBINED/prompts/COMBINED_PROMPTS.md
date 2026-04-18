@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/prompts
+  - artifact/prompt
+  - source/root
+---
+
 # COMBINED_PROMPTS.md — Vibe-Coder Arsenal Prompt Library
 
 > **Master Prompt Collection**
@@ -422,3 +429,9 @@ I want you to act as a etymologist. I will give you a word and you will research
 *Combined from: prompts.chat, system-prompts-and-models-of-ai-tools, system_prompts_leaks, vibe-coding-prompt-template*
 
 **Last Updated:** 2026-04-01
+
+## 🔗 Связи
+
+- [[MOC - Prompts]] — Prompt library
+- [[MOC - System]] — System documentation
+

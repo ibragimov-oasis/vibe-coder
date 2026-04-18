@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # Glob: presentation/**
 
 ## Delegation Rule
@@ -11,3 +18,9 @@ Task(subagent_type="presentation-curator", description="...", prompt="...")
 ## Why
 
 The presentation-curator agent has three preloaded skills that keep it in sync with the presentation's structure, styling, and conceptual framework. It also self-evolves after every execution, updating its own skills to prevent knowledge drift. Bypassing the agent risks breaking slide numbering, level transitions, or style consistency.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/seo
+  - artifact/doc
+  - source/skills-seo
+---
+
 # Banana Extension Setup Guide
 
 ## Google AI API Key
@@ -84,3 +91,9 @@ magick --version
 ```
 
 If `magick` (v7) is not available, the scripts fall back to `convert` (v6).
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-seo]] — Category: skills-seo
+

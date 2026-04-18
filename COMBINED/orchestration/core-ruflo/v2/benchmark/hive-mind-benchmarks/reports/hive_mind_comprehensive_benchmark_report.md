@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # 🐝 Hive Mind System - Comprehensive Performance Benchmark Report
 
 ## Executive Summary
@@ -304,3 +311,10 @@ The Hive Mind system represents a **significant advancement** in AI agent orches
 **Quality Score**: 98/100 (Excellent)
 
 *This comprehensive analysis demonstrates that the Hive Mind system is production-ready and delivers exceptional performance across all tested dimensions. The system provides a solid foundation for enterprise AI agent orchestration with clear paths for continued optimization and scaling.*
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

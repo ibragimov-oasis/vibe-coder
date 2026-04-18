@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # Agent Booster Integration - Ultra-Fast Code Editing
 
 **Status**: ✅ Fully Integrated (v2.6.0-alpha.2)
@@ -405,3 +412,10 @@ claude-flow agent booster benchmark --iterations 100
 **Version**: 2.6.0-alpha.2+
 **Last Updated**: 2025-10-12
 **Status**: Production-ready (simulated, pending MCP wiring)
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

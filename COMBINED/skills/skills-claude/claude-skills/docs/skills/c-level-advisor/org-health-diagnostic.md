@@ -1,6 +1,10 @@
 ---
 title: "Org Health Diagnostic — Agent Skill for Executives"
 description: "Cross-functional organizational health check combining signals from all C-suite roles. Scores 8 dimensions on a traffic-light scale with drill-down. Agent skill for Claude Code, Codex CLI, Gemini CLI, OpenClaw."
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
 ---
 
 # Org Health Diagnostic
@@ -185,3 +189,9 @@ You don't need all metrics to run a diagnostic. The tool handles partial data:
 ## References
 - `references/health-benchmarks.md` — benchmarks by stage (Seed, A, B, C)
 - `scripts/health_scorer.py` — CLI scoring tool with traffic light output
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

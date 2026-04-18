@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # Messaging Templates
 
 Ready-to-use messaging frameworks for different personas and contexts.
@@ -444,3 +451,9 @@ in [timeframe]."
 DEMO: "Want me to show you exactly how the integration works
 in a quick demo?"
 ```
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

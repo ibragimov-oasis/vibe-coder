@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-squad
+---
+
 # Generic Scheduler
 
 **Try this to see all scheduled tasks:**
@@ -324,3 +331,10 @@ If a task fails:
 - [Upstream Auto-Sync](/features/upstream-sync) — Use scheduler to sync automatically
 - [Persistent Ralph](/features/persistent-ralph) — Monitor squad work continuously
 - [Cross-Squad Orchestration](/features/cross-squad-orchestration) — Delegate across squads
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/squad]] — Squad
+- [[000 - Map of Maps]] — Map of Maps
+

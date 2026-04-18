@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
+---
+
 # 智能体编排
 
 ## 可用智能体
@@ -51,3 +58,9 @@
 * 安全专家
 * 一致性审查员
 * 冗余检查器
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

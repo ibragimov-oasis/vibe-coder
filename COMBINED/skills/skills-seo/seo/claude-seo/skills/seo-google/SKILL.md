@@ -16,6 +16,10 @@ metadata:
   author: AgriciDaniel
   version: "1.7.0"
   category: seo
+tags:
+  - domain/seo
+  - artifact/skill
+  - source/skills-seo
 ---
 
 # Google SEO APIs
@@ -343,3 +347,9 @@ Generate a professional PDF report with charts and analytics.
 | GA4 property not found | Report error. Show how to find property ID in GA4 Admin > Property Details. |
 | Indexing API quota exceeded | Report 200/day limit. Suggest prioritizing most important URLs. |
 | Rate limit (429) | Wait and retry with exponential backoff. Report which API hit the limit. |
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-seo]] — Category: skills-seo
+

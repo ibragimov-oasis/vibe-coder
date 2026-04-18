@@ -119,7 +119,11 @@ Many websites provide an icon that can display with bookmarks, in URL fields, or
 
 If your website supports Apple Pay, provide an icon in the following sizes for use in the summary view and the payment sheet:
 
-@2x| @3x  
+@2x| @3x
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
 ---|---  
 60x60 pt (120x120 px @2x)| 60x60 pt (180x180 px @3x)  
   
@@ -437,5 +441,10 @@ Date| Changes
 December 16, 2025| Clarified supported platforms, including web browsers and Apple Vision Pro.  
 June 10, 2024| Updated links to developer guidance for offering Apple Pay on the web.  
 September 12, 2023| Updated artwork.  
-May 2, 2023| Consolidated guidance into one page.  
-  
+May 2, 2023| Consolidated guidance into one page.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

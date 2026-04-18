@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # Scaffold a SwiftPM macOS app (no Xcode)
 
 ## Steps
@@ -77,3 +84,9 @@ app.delegate = delegate
 app.setActivationPolicy(.regular)
 app.run()
 ```
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

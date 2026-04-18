@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/skill
+  - source/skills-claude
+---
+
 # Sample Text Processor
 
 ---
@@ -161,3 +168,10 @@ As a BASIC tier skill, some advanced features are intentionally omitted:
 - Parallel processing for very large datasets
 
 This skill demonstrates the essential structure and quality standards required for BASIC tier skills in the claude-skills ecosystem while remaining simple and focused on core functionality.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+- [[MOC - Agents]] — Claude agents
+

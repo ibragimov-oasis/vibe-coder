@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-awesome-claude
+---
+
 # GitHub Workflows
 
 This directory contains GitHub Action workflows for repository maintenance, resource submission handling, and health monitoring.
@@ -198,3 +205,9 @@ INFO: All active repositories are healthy!
 - `GITHUB_TOKEN`: GitHub personal access token or Actions token (recommended to avoid rate limiting)
 
 The GitHub Actions workflow automatically uses the `GITHUB_TOKEN` secret provided by GitHub Actions.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-awesome-claude]] — Category: skills-awesome-claude
+

@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # ReasoningBank vs Traditional Approach - Live Demo Results
 
 **Scenario**: Agent attempting to login to an admin panel with CSRF token validation and rate limiting
@@ -417,3 +424,10 @@ console.log(`Learned: ${result.newMemories.length} new strategies`);
 - ✅ Transfers knowledge across tasks
 
 **ReasoningBank transforms agents from stateless executors into learning systems that continuously improve!** 🚀
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

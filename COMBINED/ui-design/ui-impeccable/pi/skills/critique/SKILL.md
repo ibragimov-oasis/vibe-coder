@@ -4,6 +4,10 @@ description: Evaluate design from a UX perspective, assessing visual hierarchy, 
 version: 2.1.1
 allowed-tools:
   - Bash(npx impeccable *)
+tags:
+  - domain/ui
+  - artifact/ui-component
+  - source/ui-design
 ---
 
 ## STEPS
@@ -223,3 +227,9 @@ After presenting the summary, tell the user:
 > You can ask me to run these one at a time, all at once, or in any order you prefer.
 >
 > Re-run `/critique` after fixes to see your score improve.
+
+## 🔗 Связи
+
+- [[MOC - UI Design]] — ui-design
+- [[000 - Map of Maps]] — Map of Maps
+

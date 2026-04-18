@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # 💡 Real-World Examples - See Skills in Action
 
 **Learn by example!** This guide shows you real conversations using different skills.
@@ -758,3 +765,9 @@ Pick a skill and try it with your own project:
 ---
 
 **Want more examples?** Check individual skill folders for additional examples and use cases!
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

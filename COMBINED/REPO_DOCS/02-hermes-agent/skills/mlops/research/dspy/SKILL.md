@@ -590,4 +590,8 @@ for call in dspy.settings.trace:
 - `references/optimizers.md` - Optimization algorithms (BootstrapFewShot, MIPRO, BootstrapFinetune)
 - `references/examples.md` - Real-world examples (RAG, agents, classifiers)
 
+## 🔗 Связи
+
+- [[000 - Map of Maps]] — REPO_DOCS
+- [[000 - Map of Maps]] — Map of Maps
 

@@ -3,6 +3,10 @@ name: weightloss-analyzer
 description: 分析减肥数据、计算代谢率、追踪能量缺口、管理减肥阶段
 risk: safe
 source: community
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 # 减肥分析技能
@@ -320,3 +324,9 @@ source: community
 **技能版本**: v1.0
 **最后更新**: 2026-01-14
 **维护者**: WellAlly Tech
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/ui
+  - artifact/ui-component
+  - source/ui-design
+---
+
 # Semantic Tokens
 
 Purpose-based aliases referencing primitive tokens.
@@ -213,3 +220,9 @@ Semantic tokens enable instant theme switching:
 // Toggle dark mode
 document.documentElement.classList.toggle('dark');
 ```
+
+## 🔗 Связи
+
+- [[MOC - UI Design]] — ui-design
+- [[000 - Map of Maps]] — Map of Maps
+

@@ -4,6 +4,10 @@ description: "How to use a Win32 build of BusyBox to run many of the standard UN
 risk: safe
 source: community
 date_added: "2026-02-27"
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 BusyBox is a single binary that implements many common Unix tools.
@@ -33,3 +37,9 @@ Original BusyBox: https://busybox.net/
 
 ## When to Use
 This skill is applicable to execute the workflow or actions described in the overview.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

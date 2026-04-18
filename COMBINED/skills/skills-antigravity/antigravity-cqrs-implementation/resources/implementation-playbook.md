@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # CQRS Implementation Playbook
 
 This file contains detailed patterns, checklists, and code samples referenced by the skill.
@@ -538,3 +545,9 @@ class ConsistentQueryHandler:
 
 - [CQRS Pattern](https://martinfowler.com/bliki/CQRS.html)
 - [Microsoft CQRS Guidance](https://docs.microsoft.com/en-us/azure/architecture/patterns/cqrs)
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

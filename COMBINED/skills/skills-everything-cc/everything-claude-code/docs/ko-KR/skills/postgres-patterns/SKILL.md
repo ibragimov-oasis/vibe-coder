@@ -2,6 +2,10 @@
 name: postgres-patterns
 description: 쿼리 최적화, 스키마 설계, 인덱싱, 보안을 위한 PostgreSQL 데이터베이스 패턴. Supabase 모범 사례 기반.
 origin: ECC
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-everything-cc
 ---
 
 # PostgreSQL 패턴
@@ -145,3 +149,9 @@ SELECT pg_reload_conf();
 ---
 
 *Supabase Agent Skills 기반 (크레딧: Supabase 팀) (MIT License)*
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

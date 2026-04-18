@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-gsd
+---
+
 ## What
 
 <!-- One sentence: what does this PR do? -->
@@ -51,3 +58,10 @@ None
 ## Screenshots / recordings
 
 <!-- If this is a visual change, add before/after screenshots. Delete this section if not applicable. -->
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-gsd]] — core-gsd
+- [[MOC - Skills]] — Skills library
+

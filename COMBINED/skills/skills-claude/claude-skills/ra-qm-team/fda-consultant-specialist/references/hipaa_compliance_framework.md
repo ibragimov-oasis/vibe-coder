@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # HIPAA Compliance Framework for Medical Devices
 
 Complete guide to HIPAA requirements for medical device manufacturers and software developers.
@@ -719,3 +726,9 @@ BUSINESS ASSOCIATE: _____________ Date: _______
 | Wellness app (no diagnosis) | Exempt | If stores PHI |
 | EHR-integrated device | May apply | Yes |
 | Research device | IDE | IRB may waive |
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

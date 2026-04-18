@@ -1,6 +1,10 @@
 ---
 "@bradygaster/squad-sdk": minor
 "@bradygaster/squad-cli": minor
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-squad
 ---
 
 feat(sdk): git-notes + orphan-branch state backends for .squad/
@@ -15,3 +19,10 @@ and external directory approaches:
 
 Configure via `.squad/config.json`: `{ "stateBackend": "git-notes" }` or
 the `--state-backend` CLI flag.
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-squad]] — core-squad
+- [[MOC - Skills]] — Skills library
+

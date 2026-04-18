@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/mcp
+  - artifact/mcp-server
+  - source/mcp-servers
+---
+
 <div align="center">
 <a href="https://openviking.ai/" target="_blank">
   <picture>
@@ -709,3 +716,9 @@ OpenViking 项目不同组件采用不同的开源协议：
 [github-issues-shield-link]: https://github.com/volcengine/OpenViking/issues
 [github-contributors-shield]: https://img.shields.io/github/contributors/volcengine/OpenViking?color=c4f042&labelColor=black&style=flat-square
 [github-contributors-link]: https://github.com/volcengine/OpenViking/graphs/contributors
+
+## 🔗 Связи
+
+- [[MOC - MCP Servers]] — mcp-servers
+- [[000 - Map of Maps]] — Map of Maps
+

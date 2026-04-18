@@ -1,6 +1,10 @@
 ---
 name: "Swarm Orchestration"
 description: "Orchestrate multi-agent swarms with agentic-flow for parallel task execution, dynamic topology, and intelligent coordination. Use when scaling beyond single agents, implementing complex workflows, or building distributed AI systems."
+tags:
+  - domain/skills
+  - artifact/config
+  - source/workspace-config
 ---
 
 # Swarm Orchestration
@@ -177,3 +181,9 @@ npx agentic-flow hooks session-restore --session-id "swarm-001"
 - Swarm Guide: docs/swarm/orchestration.md
 - Topology Patterns: docs/swarm/topologies.md
 - Hooks Integration: docs/hooks/coordination.md
+
+## 🔗 Связи
+
+- [[MOC - System]] — workspace-config
+- [[000 - Map of Maps]] — Map of Maps
+

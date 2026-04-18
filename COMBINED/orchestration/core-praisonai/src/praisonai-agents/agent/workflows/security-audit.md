@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-praisonai
+---
+
 // turbo-all
 
 # OFFICIAL PROCEDURE (per GitHub docs)
@@ -176,3 +183,10 @@ If you discover a security vulnerability, please report it responsibly:
 1. Open a draft security advisory at https://github.com/MervinPraison/PraisonAI/security/advisories/new
 2. Include detailed reproduction steps and impact assessment
 3. Allow time for the maintainers to address the issue before public disclosure
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/praisonai]] — PraisonAI
+- [[000 - Map of Maps]] — Map of Maps
+

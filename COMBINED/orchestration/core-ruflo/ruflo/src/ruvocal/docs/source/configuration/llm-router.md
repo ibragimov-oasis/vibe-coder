@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # LLM Router
 
 Chat UI includes an intelligent routing system that automatically selects the best model for each request. When enabled, users see a virtual "Omni" model that routes to specialized models based on the conversation context.
@@ -103,3 +110,10 @@ LLM_ROUTER_MAX_PREV_USER_LENGTH=400
 ```
 
 The latest user message is never trimmed.
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

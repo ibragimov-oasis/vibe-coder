@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-omc
+---
+
 # oh-my-claudecode v4.9.0: Team reliability, autoresearch setup, and safety hardening
 
 ## Release Notes
@@ -52,3 +59,9 @@ claude /install-plugin oh-my-claudecode
 ```
 
 **Full Changelog**: https://github.com/Yeachan-Heo/oh-my-claudecode/compare/v4.8.2...v4.9.0
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-omc]] — core-omc
+

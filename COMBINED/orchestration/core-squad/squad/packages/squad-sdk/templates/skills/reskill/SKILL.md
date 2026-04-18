@@ -4,6 +4,10 @@ description: "Team-wide charter and history optimization through skill extractio
 domain: "team-optimization"
 confidence: "high"
 source: "manual — Brady directive to reduce per-agent context overhead"
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-squad
 ---
 
 ## Context
@@ -90,3 +94,10 @@ Preferred: {model}
 - Don't remove Model preference line (coordinator needs it for model selection)
 - Don't touch `.squad/decisions.md` during reskill
 - Don't remove the tagline blockquote — it's the charter's soul in one line
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/squad]] — Squad
+- [[000 - Map of Maps]] — Map of Maps
+

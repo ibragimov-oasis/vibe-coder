@@ -1,5 +1,9 @@
 ---
 "@bradygaster/squad-sdk": minor
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-squad
 ---
 
 ADO configurable work item types, area paths, and iteration support (#240)
@@ -12,3 +16,10 @@ ADO configurable work item types, area paths, and iteration support (#240)
 - Enhance `squad init` to introspect available work item types and store `_availableTypes` hint in `.squad/config.json`
 - Support `adoConfig` in `InitOptions` for explicit work item type, area path, and iteration path during init
 - Graceful fallback to default types (User Story, Bug, Task) when az CLI is unavailable
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-squad]] — core-squad
+- [[MOC - Skills]] — Skills library
+

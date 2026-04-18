@@ -3,6 +3,10 @@ paths:
   - "**/*.php"
   - "**/composer.lock"
   - "**/composer.json"
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
 ---
 # PHP Security
 
@@ -35,3 +39,9 @@ paths:
 ## Reference
 
 See skill: `laravel-security` for Laravel-specific security guidance.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

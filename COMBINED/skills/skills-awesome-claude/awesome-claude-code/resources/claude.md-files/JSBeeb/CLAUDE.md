@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-awesome-claude
+---
+
 # CLAUDE.md
 
 This file provides guidance to Claude Code (claude.ai/code) when working with code in this repository.
@@ -98,3 +105,9 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 ### Git Workflow
 
 - When creating branches with Claude, use the `claude/` prefix (e.g., `claude/fix-esm-import-error`)
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-awesome-claude]] — Category: skills-awesome-claude
+

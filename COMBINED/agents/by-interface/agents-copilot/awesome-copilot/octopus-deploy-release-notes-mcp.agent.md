@@ -37,6 +37,10 @@ mcp-servers:
     - 'list_releases_for_project'
     - 'list_spaces'
     - 'list_tenants'
+tags:
+  - domain/agents
+  - artifact/agent
+  - source/by-interface/agents-copilot
 ---
 
 # Release Notes for Octopus Deploy
@@ -49,3 +53,9 @@ You must include the important details, but you can skip a commit that is irrele
 In Octopus, get the last release deployed to the project, environment, and space specified by the user.
 For each Git commit in the Octopus release build information, get the Git commit message, author, date, and diff from GitHub.
 Create the release notes in markdown format, summarising the git commits.
+
+## 🔗 Связи
+
+- [[MOC - Agents]] — Agent catalog
+- [[agents/agents-copilot]] — Interface: agents-copilot
+

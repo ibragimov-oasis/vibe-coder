@@ -4,6 +4,10 @@ description: "Build real-time conversational AI voice engines using async worker
 risk: unknown
 source: community
 date_added: "2026-02-27"
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 # Voice AI Engine Development
@@ -722,3 +726,9 @@ Building a voice AI engine requires:
 - ✅ Proper error handling and graceful shutdown
 
 **The key insight**: Everything must stream and everything must be interruptible for natural, real-time conversations.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

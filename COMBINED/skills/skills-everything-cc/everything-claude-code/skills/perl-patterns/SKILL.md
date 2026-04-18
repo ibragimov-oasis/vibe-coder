@@ -2,6 +2,10 @@
 name: perl-patterns
 description: Modern Perl 5.36+ idioms, best practices, and conventions for building robust, maintainable Perl applications.
 origin: ECC
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-everything-cc
 ---
 
 # Modern Perl Development Patterns
@@ -502,3 +506,9 @@ require_module($module);
 ```
 
 **Remember**: Modern Perl is clean, readable, and safe. Let `use v5.36` handle the boilerplate, use Moo for objects, and prefer CPAN's battle-tested modules over hand-rolled solutions.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

@@ -147,7 +147,16 @@ People can double-tap to respond to notifications on supported devices. When a p
 
 ## [Change log](https://developer.apple.com/design/human-interface-guidelines/notifications#Change-log)
 
-Date| Changes  
+Date| Changes
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
 ---|---  
-October 24, 2023| Updated watchOS platform considerations with guidance for presenting notification responses to double tap.  
-  
+October 24, 2023| Updated watchOS platform considerations with guidance for presenting notification responses to double tap.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

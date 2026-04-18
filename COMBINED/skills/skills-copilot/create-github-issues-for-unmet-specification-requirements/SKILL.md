@@ -1,6 +1,10 @@
 ---
 name: create-github-issues-for-unmet-specification-requirements
 description: 'Create GitHub Issues for unimplemented requirements from specification files using feature_request.yml template.'
+tags:
+  - domain/agents
+  - artifact/skill
+  - source/skills-copilot
 ---
 
 # Create GitHub Issues for Unmet Specification Requirements
@@ -33,3 +37,10 @@ Create GitHub Issues for unimplemented requirements in the specification at `${f
 - Search codebase for related code patterns
 - Check related specification files in `/spec/` directory
 - Verify requirement isn't partially implemented
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-copilot]] — Category: skills-copilot
+- [[MOC - Agents]] — Copilot agents
+

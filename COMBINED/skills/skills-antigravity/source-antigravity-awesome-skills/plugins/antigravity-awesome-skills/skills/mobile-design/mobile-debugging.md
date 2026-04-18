@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # Mobile Debugging Guide
 
 > **Stop console.log() debugging!**
@@ -120,3 +127,9 @@ Web Debugging:      Mobile Debugging:
 - [ ] **Did you check the native logs?** (Not just terminal output)
 
 > **Remember:** If JavaScript looks perfect but the app fails, look closer at the Native side.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

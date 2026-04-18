@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
+---
+
 # Frontend - フロントエンド中心の開発
 
 フロントエンド中心のワークフロー(調査 → アイデア創出 → 計画 → 実装 → 最適化 → レビュー)、Gemini主導。
@@ -156,3 +163,9 @@ Claudeが計画を統合し、ユーザーの承認後に`.claude/plan/task-name
 2. **Codexのフロントエンド意見は参考のみ**
 3. 外部モデルは**ファイルシステムへの書き込みアクセスがゼロ**
 4. Claudeがすべてのコード書き込みとファイル操作を処理
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

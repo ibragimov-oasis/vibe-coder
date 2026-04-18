@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-hermes
+---
+
 # *ACL Paper Styles
 
 This directory contains the latest LaTeX templates for *ACL conferences.
@@ -47,4 +54,10 @@ support@softconf.com and request it.
 - then, git push from your local repository to overleaf project 
     - Overleaf project is https://www.overleaf.com/project/5f64f1fb97c4c50001b60549
     - Overleaf git url is https://git.overleaf.com/5f64f1fb97c4c50001b60549
-- then, click "Submit" and then "Submit as Template" in overleaf in order to ask overleaf to update the overleaf template from the overleaf project 
+- then, click "Submit" and then "Submit as Template" in overleaf in order to ask overleaf to update the overleaf template from the overleaf project
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-hermes]] — Category: skills-hermes
+

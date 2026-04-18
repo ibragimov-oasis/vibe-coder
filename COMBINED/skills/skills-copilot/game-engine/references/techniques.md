@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-copilot
+---
+
 # Game Development Techniques
 
 A comprehensive reference covering essential techniques for building web-based games, compiled from MDN Web Docs.
@@ -892,3 +899,9 @@ When using `drawImage(image, sx, sy, sWidth, sHeight, dx, dy, dWidth, dHeight)`:
 3. Test across different browser zoom levels.
 4. Avoid fractional canvas scale factors or drawImage dimensions.
 5. Include descriptive `aria-label` attributes on canvas elements for accessibility.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-copilot]] — Category: skills-copilot
+

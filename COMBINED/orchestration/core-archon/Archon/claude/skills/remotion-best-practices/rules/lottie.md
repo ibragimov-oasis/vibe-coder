@@ -3,6 +3,10 @@ name: lottie
 description: Embedding Lottie animations in Remotion.
 metadata:
   category: Animation
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-archon
 ---
 
 # Using Lottie Animations in Remotion
@@ -68,3 +72,10 @@ return (
   <Lottie animationData={animationData} style={{ width: 400, height: 400 }} />
 );
 ```
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/archon]] — Archon
+- [[000 - Map of Maps]] — Map of Maps
+

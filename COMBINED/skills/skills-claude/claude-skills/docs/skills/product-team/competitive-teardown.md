@@ -1,6 +1,10 @@
 ---
 title: "Competitive Teardown — Agent Skill for Product Teams"
 description: "Analyzes competitor products and companies by synthesizing data from pricing pages, app store reviews, job postings, SEO signals, and social media. Agent skill for Claude Code, Codex CLI, Gemini CLI, OpenClaw."
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
 ---
 
 # Competitive Teardown
@@ -180,3 +184,9 @@ Navigation: global search, keyboard shortcuts, in-app help.
 
 - **Product Strategist** (`product-team/product-strategist/`) — Competitive insights feed OKR and strategy planning
 - **Landing Page Generator** (`product-team/landing-page-generator/`) — Competitive positioning informs landing page messaging
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/agent
+  - source/by-interface/agents-copilot
+---
+
 # Roundup
 
 Status briefing generator that learns how you communicate.
@@ -99,3 +106,9 @@ To make small adjustments, just open `~/.config/roundup/config.md` in any text e
 ## License
 
 MIT
+
+## 🔗 Связи
+
+- [[MOC - Agents]] — Agent catalog
+- [[agents/agents-copilot]] — Interface: agents-copilot
+

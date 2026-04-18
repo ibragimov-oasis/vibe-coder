@@ -6,6 +6,9 @@ wave: 7
 tags: [squad, release, v0.8.25, testing, cli, quality, npm]
 status: published
 hero: "Squad now smoke-tests every CLI command in the packaged npm artifact before publishing."
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-squad
 ---
 
 # v0.8.25: Pre-Publish Quality Gate and CLI Smoke Testing
@@ -68,3 +71,10 @@ npm packages are built artifacts. The code you write isn't always the code users
 - **Process template introspection** — auto-detect ADO work item types (#240)
 - **Teams webhook adapter** — full CommunicationAdapter implementation (#261)
 - **Pre-existing test stabilization** — fix 14 flaky/environment-dependent tests (#273)
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/squad]] — Squad
+- [[000 - Map of Maps]] — Map of Maps
+

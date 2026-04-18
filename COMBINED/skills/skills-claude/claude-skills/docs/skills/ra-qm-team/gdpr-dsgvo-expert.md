@@ -1,6 +1,10 @@
 ---
 title: "GDPR/DSGVO Expert — Agent Skill for Compliance"
 description: "GDPR and German DSGVO compliance automation. Scans codebases for privacy risks, generates DPIA documentation, tracks data subject rights requests. Agent skill for Claude Code, Codex CLI, Gemini CLI, OpenClaw."
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
 ---
 
 # GDPR/DSGVO Expert
@@ -275,3 +279,9 @@ All rights must be fulfilled within **30 days** (extendable to 90 for complex re
 | Employment | § 26 | Detailed employee data rules |
 | Video | § 4 | Signage and proportionality |
 | Scoring | § 31 | Explainable algorithms |
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

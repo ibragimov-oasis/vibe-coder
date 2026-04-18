@@ -3,6 +3,10 @@ title: Oh-My-ClaudeCode
 subtitle: Multi-Agent Orchestration for Autonomous Development
 author: Yeachan Heo
 theme: night
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-omc
 ---
 
 # Oh-My-ClaudeCode
@@ -1366,3 +1370,10 @@ autopilot eco: task    # Auto + Efficient (eco wins)
 ```
 
 Note: When keywords conflict, more restrictive mode wins (eco beats ulw).
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-omc]] — core-omc
+- [[MOC - Skills]] — Skills library
+

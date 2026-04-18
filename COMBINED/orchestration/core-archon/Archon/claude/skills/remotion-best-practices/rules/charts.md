@@ -3,6 +3,9 @@ name: charts
 description: Chart and data visualization patterns for Remotion. Use when creating bar charts, pie charts, line charts, stock graphs, or any data-driven animations.
 metadata:
   tags: charts, data, visualization, bar-chart, pie-chart, line-chart, stock-chart, svg-paths, graphs
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-archon
 ---
 
 # Charts in Remotion
@@ -118,3 +121,10 @@ const angle = Math.atan2(tangent.y, tangent.x);
   <polygon points="0,0 -20,-10 -20,10" fill="#FF3232" />
 </g>;
 ```
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/archon]] — Archon
+- [[000 - Map of Maps]] — Map of Maps
+

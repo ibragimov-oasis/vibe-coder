@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # Management Review Guide
 
 ISO 13485 Clause 5.6 management review requirements, inputs, outputs, and action tracking.
@@ -376,3 +383,9 @@ QMR: _________________ Date: _______
 | Input completeness | 100% | Inputs provided / Required inputs |
 | Decision documentation | 100% | Documented decisions / Decisions made |
 | Time to complete review | Per schedule | Actual date - Planned date |
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

@@ -2,6 +2,10 @@
 name: django-security
 description: Django security best practices, authentication, authorization, CSRF protection, SQL injection prevention, XSS prevention, and secure deployment configurations.
 origin: ECC
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-everything-cc
 ---
 
 # Django Security Best Practices
@@ -591,3 +595,9 @@ LOGGING = {
 | Updates | Keep Django and dependencies updated |
 
 Remember: Security is a process, not a product. Regularly review and update your security practices.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

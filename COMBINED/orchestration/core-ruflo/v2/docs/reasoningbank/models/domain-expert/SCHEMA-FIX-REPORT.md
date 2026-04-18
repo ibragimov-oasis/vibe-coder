@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 
 # Schema Compatibility Fix Report: Domain Expert
 
@@ -63,3 +70,10 @@ This model can now be used with:
 A backup was created at: `memory.db.backup`
 
 To restore: `cp memory.db.backup memory.db`
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

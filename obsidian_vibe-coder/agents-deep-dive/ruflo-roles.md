@@ -107,3 +107,9 @@ q_table[state][action] += learning_rate * reward
 
 - [[agents-deep-dive/omc-team-roles]] — OMC команда
 - [[agents-by-role/coder]] — кодеры из разных систем
+
+## 🔗 Связи
+
+- [[MOC - Agents]] — Parent MOC
+- [[000 - Map of Maps]] — Map of Maps
+

@@ -1,6 +1,10 @@
 ---
 description: Create a PR from current branch with implementation context
 argument-hint: [base-branch] (default: auto-detected from config or repo)
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-archon
 ---
 
 # Create Pull Request
@@ -220,3 +224,10 @@ Opens the existing PR instead of creating a duplicate.
 1. Check if branch exists remotely: `git ls-remote --heads origin [branch]`
 2. If conflicts: `git pull --rebase origin $BASE_BRANCH` then retry push
 3. If permission issues: Check GitHub access
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/archon]] — Archon
+- [[000 - Map of Maps]] — Map of Maps
+

@@ -94,10 +94,19 @@ All layout- and appearance-based animations automatically include built-in easin
 
 ## [Change log](https://developer.apple.com/design/human-interface-guidelines/motion#Change-log)
 
-Date| Changes  
+Date| Changes
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
 ---|---  
 September 9, 2025| Added guidance for Liquid Glass.  
 June 10, 2024| Added game-specific examples and enhanced guidance for using motion in games.  
 February 2, 2024| Enhanced guidance for minimizing peripheral motion in visionOS apps.  
-June 21, 2023| Updated to include guidance for visionOS.  
-  
+June 21, 2023| Updated to include guidance for visionOS.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

@@ -3,6 +3,9 @@ name: charts
 description: Chart and data visualization patterns for Remotion. Use when creating bar charts, pie charts, histograms, progress bars, or any data-driven animations.
 metadata:
   tags: charts, data, visualization, bar-chart, pie-chart, graphs
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
 ---
 
 # Charts in Remotion
@@ -56,3 +59,9 @@ const offset = interpolate(progress, [0, 1], [segmentLength, 0]);
 
 <circle r={radius} cx={center} cy={center} fill="none" stroke={color} strokeWidth={strokeWidth} strokeDasharray={`${segmentLength} ${circumference}`} strokeDashoffset={offset} transform={`rotate(-90 ${center} ${center})`} />;
 ```
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

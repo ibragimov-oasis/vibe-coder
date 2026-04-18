@@ -2,6 +2,10 @@
 name: 'Platform SRE for Kubernetes'
 description: 'SRE-focused Kubernetes specialist prioritizing reliability, safe rollouts/rollbacks, security defaults, and operational verification for production-grade deployments'
 tools: ['codebase', 'edit/editFiles', 'terminalCommand', 'search', 'githubRepo']
+tags:
+  - domain/agents
+  - artifact/agent
+  - source/by-interface/agents-copilot
 ---
 
 # Platform SRE for Kubernetes
@@ -114,3 +118,9 @@ Pre-deployment:
 3. Monitor for 15+ minutes post-deployment
 4. Test rollback procedure before production use
 5. Document all changes and expected behavior
+
+## 🔗 Связи
+
+- [[MOC - Agents]] — Agent catalog
+- [[agents/agents-copilot]] — Interface: agents-copilot
+

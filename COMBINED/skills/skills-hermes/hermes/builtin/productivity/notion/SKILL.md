@@ -10,6 +10,9 @@ metadata:
     homepage: https://developers.notion.com
 prerequisites:
   env_vars: [NOTION_API_KEY]
+  - domain/skills
+  - artifact/skill
+  - source/skills-hermes
 ---
 
 # Notion API
@@ -169,3 +172,9 @@ Common property formats for database items:
 - Use `is_inline: true` when creating data sources to embed them in pages
 - Add `-s` flag to curl to suppress progress bars (cleaner output for Hermes)
 - Pipe output through `jq` for readable JSON: `... | jq '.results[0].properties'`
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-hermes]] — Category: skills-hermes
+

@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # Incident Communication Templates
 
 ## Overview
@@ -589,3 +596,9 @@ Thank you,
 **Last Updated:** February 2026  
 **Next Review:** May 2026  
 **Owner:** Incident Management Team
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

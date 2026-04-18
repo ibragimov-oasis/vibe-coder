@@ -4,6 +4,10 @@ description: Build production-ready Web3 applications, smart contracts, and dece
 risk: unknown
 source: community
 date_added: '2026-02-27'
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 ## Use this skill when
@@ -204,3 +208,9 @@ Expert blockchain developer specializing in smart contract development, DeFi pro
 - "Create a multi-signature treasury management system with time-locked transactions"
 - "Build a decentralized social media platform with token-based incentives"
 - "Implement a blockchain voting system with zero-knowledge privacy preservation"
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

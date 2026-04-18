@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-gsd
+---
+
 <purpose>
 Research how to implement a phase. Spawns gsd-phase-researcher with phase context.
 
@@ -80,3 +87,10 @@ Write to: .planning/phases/${PHASE}-{slug}/${PHASE}-RESEARCH.md
 - `## RESEARCH INCONCLUSIVE` — Show attempts, offer: Add context/Try different mode/Manual
 
 </process>
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-gsd]] — core-gsd
+- [[MOC - Skills]] — Skills library
+

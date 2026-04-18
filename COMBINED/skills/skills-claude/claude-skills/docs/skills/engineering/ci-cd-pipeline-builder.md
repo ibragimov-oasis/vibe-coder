@@ -1,6 +1,10 @@
 ---
 title: "CI/CD Pipeline Builder — Agent Skill for Codex & OpenClaw"
 description: "CI/CD Pipeline Builder. Agent skill for Claude Code, Codex CLI, Gemini CLI, OpenClaw."
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
 ---
 
 # CI/CD Pipeline Builder
@@ -156,3 +160,9 @@ Then layer advanced behavior (matrix builds, security scans, deploy gates).
 - Introduce test matrix only when compatibility truly requires it.
 - Separate deploy jobs from CI jobs to keep feedback fast.
 - Track pipeline duration and flakiness as first-class metrics.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

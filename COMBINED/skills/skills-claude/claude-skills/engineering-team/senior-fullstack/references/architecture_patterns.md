@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # Fullstack Architecture Patterns
 
 Proven architectural patterns for scalable fullstack applications covering frontend, backend, and their integration.
@@ -545,3 +552,9 @@ function requireAuth(req, res, next) {
 | GraphQL | Medium | High | Complex data needs, mobile apps |
 | JWT Auth | Low | High | Stateless APIs, microservices |
 | Session Auth | Low | Medium | Traditional web apps |
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

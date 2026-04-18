@@ -5,6 +5,10 @@ status: draft
 nyquist_compliant: false
 wave_0_complete: false
 created: {date}
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-gsd
 ---
 
 # Phase {N} — Validation Strategy
@@ -74,3 +78,10 @@ created: {date}
 - [ ] `nyquist_compliant: true` set in frontmatter
 
 **Approval:** {pending / approved YYYY-MM-DD}
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-gsd]] — core-gsd
+- [[MOC - Skills]] — Skills library
+

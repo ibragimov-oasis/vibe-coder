@@ -1,6 +1,10 @@
 ---
 description: 'Implements a single phase from the test plan. Writes test files and verifies they compile and pass. Calls builder, tester, and fixer agents as needed.'
 name: 'Polyglot Test Implementer'
+tags:
+  - domain/agents
+  - artifact/agent
+  - source/by-interface/agents-copilot
 ---
 
 # Test Implementer
@@ -193,3 +197,9 @@ func TestMethodName_ValidInput_ReturnsExpected(t *testing.T) {
 3. **Match patterns** - Follow existing test style
 4. **Be thorough** - Cover edge cases
 5. **Report clearly** - State what was done and any issues
+
+## 🔗 Связи
+
+- [[MOC - Agents]] — Agent catalog
+- [[agents/agents-copilot]] — Interface: agents-copilot
+

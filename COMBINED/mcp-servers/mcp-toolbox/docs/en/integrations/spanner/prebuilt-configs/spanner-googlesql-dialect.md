@@ -2,6 +2,10 @@
 title: "Spanner (GoogleSQL dialect)"
 type: docs
 description: "Details of the Spanner (GoogleSQL dialect) prebuilt configuration."
+tags:
+  - domain/mcp
+  - artifact/mcp-server
+  - source/mcp-servers
 ---
 
 ## Spanner (GoogleSQL dialect)
@@ -21,3 +25,9 @@ description: "Details of the Spanner (GoogleSQL dialect) prebuilt configuration.
     *   `execute_sql_dql`: Executes a DQL SQL query.
     *   `list_tables`: Lists tables in the database.
     *   `list_graphs`: Lists graphs in the database.
+
+## 🔗 Связи
+
+- [[MOC - MCP Servers]] — mcp-servers
+- [[000 - Map of Maps]] — Map of Maps
+

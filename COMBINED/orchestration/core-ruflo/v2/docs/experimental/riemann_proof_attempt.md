@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # Riemann Hypothesis: Advanced Proof Attempt
 
 ## The Conjecture
@@ -122,3 +129,10 @@ The Riemann Hypothesis stands at the intersection of:
 - Random matrix theory
 
 Its truth is not just likely, but appears to be a fundamental requirement for mathematical consistency.
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

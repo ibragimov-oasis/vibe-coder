@@ -1,6 +1,10 @@
 ---
 title: "Agile Product Owner — Agent Skill for Product Teams"
 description: "Agile product ownership for backlog management and sprint execution. Covers user story writing, acceptance criteria, sprint planning, and velocity. Agent skill for Claude Code, Codex CLI, Gemini CLI, OpenClaw."
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
 ---
 
 # Agile Product Owner
@@ -392,3 +396,9 @@ Story is complete when:
 
 - **Scrum Master** (`project-management/scrum-master/`) — Velocity data and sprint ceremonies complement backlog management
 - **Product Manager Toolkit** (`product-team/product-manager-toolkit/`) — RICE prioritization feeds backlog ordering
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

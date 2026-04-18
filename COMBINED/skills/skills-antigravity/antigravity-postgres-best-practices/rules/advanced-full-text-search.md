@@ -3,6 +3,9 @@ title: Use tsvector for Full-Text Search
 impact: MEDIUM
 impactDescription: 100x faster than LIKE, with ranking support
 tags: full-text-search, tsvector, gin, search
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
 ---
 
 ## Use tsvector for Full-Text Search
@@ -53,3 +56,9 @@ to_tsquery('post:*')
 ```
 
 Reference: [Full Text Search](https://supabase.com/docs/guides/database/full-text-search)
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/ui
+  - artifact/ui-component
+  - source/ui-design
+---
+
 # References
 
 ## Cited Studies
@@ -18,3 +25,9 @@
 - Anthropic MCP (Model Context Protocol) specification and integration guides
 - OpenAI API reference for temperature and Top-p parameter tuning
 - YAML front-matter specification for SKILL.md lazy-loading architecture
+
+## 🔗 Связи
+
+- [[MOC - UI Design]] — ui-design
+- [[000 - Map of Maps]] — Map of Maps
+

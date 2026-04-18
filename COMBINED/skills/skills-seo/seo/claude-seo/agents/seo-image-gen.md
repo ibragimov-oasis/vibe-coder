@@ -4,6 +4,10 @@ description: SEO image analyst. Audits existing OG/social preview images, identi
 model: sonnet
 maxTurns: 15
 tools: Read, Bash, Glob, Grep
+tags:
+  - domain/seo
+  - artifact/doc
+  - source/skills-seo
 ---
 
 You are an SEO image analyst. When delegated tasks during an SEO audit:
@@ -59,3 +63,9 @@ Priority levels: Critical > High > Medium > Low
 - If nanobanana-mcp is not available, still audit existing images but note that generation requires the banana extension
 - Report errors clearly with actionable next steps
 - Note data source as "Image Audit (static analysis)" to distinguish from live checks
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-seo]] — Category: skills-seo
+

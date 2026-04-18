@@ -2,6 +2,10 @@
 name: copy-editing
 version: 1.0.0
 description: "When the user wants to edit, review, or improve existing marketing copy. Also use when the user mentions 'edit this copy,' 'review my copy,' 'copy feedback,' 'proofread,' 'polish this,' 'make this better,' or 'copy sweep.' This skill provides a systematic approach to editing marketing copy through multiple focused passes."
+tags:
+  - domain/seo
+  - artifact/skill
+  - source/skills-seo
 ---
 
 # Copy Editing
@@ -444,3 +448,9 @@ This iterative process ensures each edit doesn't create new problems while respe
 | Reviewing and improving existing copy | copy-editing (this skill) |
 | Editing copy you just wrote | copy-editing (this skill) |
 | Structural or strategic page changes | page-cro |
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-seo]] — Category: skills-seo
+

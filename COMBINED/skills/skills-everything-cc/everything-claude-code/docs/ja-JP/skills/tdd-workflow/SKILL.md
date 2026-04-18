@@ -1,6 +1,10 @@
 ---
 name: tdd-workflow
 description: 新機能の作成、バグ修正、コードのリファクタリング時にこのスキルを使用します。ユニット、統合、E2Eテストを含む80%以上のカバレッジでテスト駆動開発を強制します。
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-everything-cc
 ---
 
 # テスト駆動開発ワークフロー
@@ -407,3 +411,9 @@ npm test && npm run lint
 ---
 
 **覚えておいてください**：テストはオプションではありません。テストは自信を持ってリファクタリングし、迅速に開発し、本番の信頼性を可能にする安全網です。
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

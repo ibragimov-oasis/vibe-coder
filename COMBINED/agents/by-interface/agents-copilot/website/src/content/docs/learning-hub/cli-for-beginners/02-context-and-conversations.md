@@ -4,6 +4,10 @@ description: 'Learn how to give Copilot CLI richer context and build stronger mu
 authors:
   - GitHub Copilot Learning Hub Team
 lastUpdated: 2026-03-20
+tags:
+  - domain/agents
+  - artifact/agent
+  - source/by-interface/agents-copilot
 ---
 
 ![Chapter 02: Context and Conversations](/images/learning-hub/copilot-cli-for-beginners/02/chapter-header.png)
@@ -877,3 +881,9 @@ In **[Chapter 03: Development Workflows](../03-development-workflows/)**, you'll
 - Git integration
 
 ---
+
+## 🔗 Связи
+
+- [[MOC - Agents]] — Agent catalog
+- [[agents/agents-copilot]] — Interface: agents-copilot
+

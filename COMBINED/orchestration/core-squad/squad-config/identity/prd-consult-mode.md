@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-squad
+---
+
 # PRD: Personal Squad Consult Mode
 
 **Author:** James Sturtevant  
@@ -287,3 +294,10 @@ Track all consultations in `<sourceSquad>/consultations/`:
 - [Personal Squad Guide](../docs/guide/personal-squad.md)
 - [SDK Sharing Module](../packages/squad-sdk/src/sharing/)
 - [Export Command](../packages/squad-cli/src/cli/commands/export.ts)
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-squad]] — core-squad
+- [[MOC - Skills]] — Skills library
+

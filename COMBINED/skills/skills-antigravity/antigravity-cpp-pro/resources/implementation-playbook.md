@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # C++ Implementation Playbook
 
 **Date:** March 23, 2026  
@@ -41,3 +48,9 @@ void sortData(std::vector<int>& myVector) {
     // Use std::ranges (C++20) for cleaner, safer iteration
     std::ranges::sort(myVector);
 }
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

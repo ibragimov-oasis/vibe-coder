@@ -31,7 +31,11 @@ The people who use your interface may be blind, color blind, or have low vision 
 
 **Use recommended defaults for custom type sizes.** Each platform has different default and minimum sizes for system-defined type styles to promote readability. If you’re using custom type styles, follow the recommended defaults.
 
-Platform| Default size| Minimum size  
+Platform| Default size| Minimum size
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
 ---|---|---  
 iOS, iPadOS| 17 pt| 11 pt  
 macOS| 13 pt| 10 pt  
@@ -287,5 +291,10 @@ June 9, 2025| Added guidance and links for Assistive Access, Switch Control, and
 March 7, 2025| Expanded and refined all guidance. Moved Dynamic Type guidance to the Typography page, and moved VoiceOver guidance to a new VoiceOver page.  
 June 10, 2024| Added a link to Apple’s Unity plug-ins for supporting Dynamic Type.  
 December 5, 2023| Updated visionOS Zoom lens artwork.  
-June 21, 2023| Updated to include guidance for visionOS.  
-  
+June 21, 2023| Updated to include guidance for visionOS.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

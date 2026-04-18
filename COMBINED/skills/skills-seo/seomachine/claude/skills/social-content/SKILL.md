@@ -2,6 +2,10 @@
 name: social-content
 version: 1.0.0
 description: "When the user wants help creating, scheduling, or optimizing social media content for LinkedIn, Twitter/X, Instagram, TikTok, Facebook, or other platforms. Also use when the user mentions 'LinkedIn post,' 'Twitter thread,' 'social media,' 'content calendar,' 'social scheduling,' 'engagement,' or 'viral content.' This skill covers content creation, repurposing, and platform-specific strategies."
+tags:
+  - domain/seo
+  - artifact/skill
+  - source/skills-seo
 ---
 
 # Social Content
@@ -275,3 +279,9 @@ Instead of guessing, analyze what's working for top creators in your niche:
 - **launch-strategy**: For coordinating social with launches
 - **email-sequence**: For nurturing social audience via email
 - **marketing-psychology**: For understanding what drives engagement
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-seo]] — Category: skills-seo
+

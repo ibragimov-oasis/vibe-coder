@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # Git Workflow Standards
 
 ## Core Principles
@@ -437,3 +444,9 @@ git commit -m "feat(agents): correct implementation with proper message"
 **Versioning**: Semantic Versioning v2.0.0
 **Updated**: November 2025
 **Review**: Monthly git workflow assessment
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

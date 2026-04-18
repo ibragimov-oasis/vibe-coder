@@ -1,5 +1,9 @@
 ---
 description: 全面的Rust代码审查，涵盖所有权、生命周期、错误处理、不安全代码使用以及惯用模式。调用rust-reviewer代理。
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
 ---
 
 # Rust 代码审查
@@ -144,3 +148,9 @@ Recommendation: Block merge until CRITICAL issue is fixed
 
 * 代理：`agents/rust-reviewer.md`
 * 技能：`skills/rust-patterns/`、`skills/rust-testing/`
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

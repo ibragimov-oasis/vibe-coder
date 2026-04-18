@@ -4,6 +4,10 @@ description: "Configure secure, high-performance connectivity between on-premise
 risk: safe
 source: community
 date_added: "2026-02-27"
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 # Hybrid Cloud Networking
@@ -239,3 +243,9 @@ az network vpn-connection show-device-config-script
 
 - `multi-cloud-architecture` - For architecture decisions
 - `terraform-module-library` - For IaC implementation
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-hermes
+---
+
 # Notion Block Types
 
 Reference for creating and reading all common Notion block types via the API.
@@ -110,3 +117,9 @@ Rich text arrays contain objects with `.plain_text` — concatenate them for rea
 ---
 
 *Contributed by [@dogiladeveloper](https://github.com/dogiladeveloper)*
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-hermes]] — Category: skills-hermes
+

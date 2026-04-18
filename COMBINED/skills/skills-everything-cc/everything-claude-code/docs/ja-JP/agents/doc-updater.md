@@ -3,6 +3,10 @@ name: doc-updater
 description: ドキュメントとコードマップのスペシャリスト。コードマップとドキュメントの更新に積極的に使用してください。/update-codemapsと/update-docsを実行し、docs/CODEMAPS/*を生成し、READMEとガイドを更新します。
 tools: ["Read", "Write", "Edit", "Bash", "Grep", "Glob"]
 model: opus
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
 ---
 
 # ドキュメント & コードマップスペシャリスト
@@ -450,3 +454,9 @@ function extractJSDoc(pattern: string) {
 ---
 
 **覚えておいてください**: 現実と一致しないドキュメントは、ドキュメントがないよりも悪いです。常に真実の源（実際のコード）から生成してください。
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

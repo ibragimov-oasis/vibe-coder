@@ -153,3 +153,9 @@ infsh app list --search twitter
 - `references/app-discovery.md` — Searching and browsing the app catalog
 - `references/running-apps.md` — Running apps, input formats, output handling
 - `references/cli-reference.md` — Complete CLI command reference
+
+## 🔗 Связи
+
+- [[000 - Map of Maps]] — REPO_DOCS
+- [[000 - Map of Maps]] — Map of Maps
+

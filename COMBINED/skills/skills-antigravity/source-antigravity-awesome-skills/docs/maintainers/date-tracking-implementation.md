@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # Date Tracking Implementation Summary
 
 This note explains how `date_added` support fits into the current repository structure after the `apps/` and `tools/` refactor.
@@ -64,3 +71,9 @@ python tools/scripts/generate_skills_report.py --output reports/skills_report.js
 
 - Repository-wide coverage can change over time as new community skills are added, so this document avoids hardcoding counts.
 - `date_added` is useful metadata, but the operational contributor gate remains `npm run validate`; strict validation is a separate hardening target for legacy cleanup.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

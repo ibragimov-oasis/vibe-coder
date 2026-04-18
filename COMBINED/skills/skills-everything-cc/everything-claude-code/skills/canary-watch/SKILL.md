@@ -2,6 +2,10 @@
 name: canary-watch
 description: Use this skill to monitor a deployed URL for regressions after deploys, merges, or dependency upgrades.
 origin: ECC
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-everything-cc
 ---
 
 # Canary Watch — Post-Deploy Monitoring
@@ -97,3 +101,9 @@ Pair with:
 - `/browser-qa` for pre-deploy verification
 - Hooks: add as a PostToolUse hook on `git push` to auto-check after deploys
 - CI: run in GitHub Actions after deploy step
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

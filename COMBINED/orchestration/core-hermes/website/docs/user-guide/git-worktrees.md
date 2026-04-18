@@ -2,6 +2,10 @@
 sidebar_position: 9
 title: "Git Worktrees"
 description: "Run multiple Hermes agents safely on the same repository using git worktrees and isolated checkouts"
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-hermes
 ---
 
 # Git Worktrees
@@ -170,4 +174,10 @@ This combination gives you:
 - Strong guarantees that different agents and experiments do not step on each other.
 - Fast iteration cycles with easy recovery from bad edits.
 - Clean, reviewable pull requests.
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/hermes]] — Hermes
+- [[000 - Map of Maps]] — Map of Maps
 

@@ -1,6 +1,10 @@
 ---
 name: "senior-secops"
 description: Senior SecOps engineer skill for application security, vulnerability management, compliance verification, and secure development practices. Runs SAST/DAST scans, generates CVE remediation plans, checks dependency vulnerabilities, creates security policies, enforces secure coding patterns, and automates compliance checks against SOC2, PCI-DSS, HIPAA, and GDPR. Use when conducting a security review or audit, responding to a CVE or security incident, hardening infrastructure, implementing authentication or secrets management, running penetration test prep, checking OWASP Top 10 exposure, or enforcing security controls in CI/CD pipelines.
+tags:
+  - domain/agents
+  - artifact/skill
+  - source/skills-claude
 ---
 
 # Senior SecOps Engineer
@@ -503,3 +507,10 @@ cosign verify ghcr.io/org/app:latest --certificate-identity=ci@org.com --certifi
 | `references/security_standards.md` | OWASP Top 10, secure coding, authentication, API security |
 | `references/vulnerability_management_guide.md` | CVE triage, CVSS scoring, remediation workflows |
 | `references/compliance_requirements.md` | SOC 2, PCI-DSS, HIPAA, GDPR full control mappings |
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+- [[MOC - Agents]] — Claude agents
+

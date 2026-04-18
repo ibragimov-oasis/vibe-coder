@@ -4,6 +4,10 @@ type: docs
 weight: 1
 description: >
   A "mysql-list-table-stats" tool report table statistics including table size, total latency, rows read, rows written, read and write latency for entire instance, a specified database, or a specified table.
+tags:
+  - domain/mcp
+  - artifact/mcp-server
+  - source/mcp-servers
 ---
 
 ## About
@@ -77,4 +81,8 @@ The response is a json array with the following fields:
 | source      |  string  |     true     | Name of the source the SQL should execute on.      |
 | description |  string  |     true     | Description of the tool that is passed to the LLM. |
 
+## 🔗 Связи
+
+- [[MOC - MCP Servers]] — mcp-servers
+- [[000 - Map of Maps]] — Map of Maps
 

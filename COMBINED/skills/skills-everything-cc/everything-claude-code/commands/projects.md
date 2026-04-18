@@ -2,6 +2,10 @@
 name: projects
 description: List known projects and their instinct statistics
 command: true
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
 ---
 
 # Projects Command
@@ -37,3 +41,9 @@ python3 ~/COMBINED/workspace-config/claude/skills/continuous-learning-v2/scripts
    - Observation event count
    - Last seen timestamp
 3. Also display global instinct totals
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

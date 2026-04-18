@@ -2,6 +2,10 @@
 name: Bug report
 about: Report a reproducible problem
 labels: bug
+tags:
+  - domain/skills
+  - artifact/reference
+  - source/reference
 ---
 
 ## Summary
@@ -19,3 +23,9 @@ labels: bug
 - Claude Code version:
 
 ## Logs or Screenshots
+
+## 🔗 Связи
+
+- [[MOC - System]] — reference
+- [[000 - Map of Maps]] — Map of Maps
+

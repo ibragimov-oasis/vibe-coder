@@ -3,6 +3,9 @@ name: gif
 description: Displaying GIFs, APNG, AVIF and WebP in Remotion
 metadata:
   tags: gif, animation, images, animated, apng, avif, webp
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-archon
 ---
 
 # Using Animated images in Remotion
@@ -139,3 +142,10 @@ export const MyComposition = () => {
 ```
 
 The `<Gif>` component has the same props as `<AnimatedImage>` but only supports GIF files.
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/archon]] — Archon
+- [[000 - Map of Maps]] — Map of Maps
+

@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # Board Meeting Agenda Template
 
 Use this to structure a board meeting before invoking `/cs:board`.
@@ -79,3 +86,9 @@ Materials all participants should review before the meeting:
 ## Notes
 
 [Any special instructions, constraints, or context for this meeting]
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

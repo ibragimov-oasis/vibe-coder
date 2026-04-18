@@ -1,6 +1,10 @@
 ---
 name: flow-nexus-auth
 description: Flow Nexus authentication and user management
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
 ---
 
 # Flow Nexus Authentication
@@ -63,3 +67,10 @@ mcp__flow-nexus__user_update_profile({
 2. Check your email for verification
 3. Login to access all features
 4. Configure auto-refill for uninterrupted service
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/mcp
+  - artifact/mcp-server
+  - source/mcp-servers
+---
+
 # OpenViking Helm Chart
 
 此 Helm Chart 用于在 Kubernetes 上部署 OpenViking，提供可扩展、生产就绪的 RAG（检索增强生成）和语义搜索服务。
@@ -270,3 +277,9 @@ kubectl delete pvc openviking-data
 ## 许可证
 
 此 Helm Chart 采用 Apache License 2.0 许可证，与 OpenViking 项目许可证一致。
+
+## 🔗 Связи
+
+- [[MOC - MCP Servers]] — mcp-servers
+- [[000 - Map of Maps]] — Map of Maps
+

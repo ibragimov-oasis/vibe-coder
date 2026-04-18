@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # 技能与 MCP 工具
 
 如果您试图理解 **Antigravity 技能**和 **MCP 工具**之间的区别，简短版本是：
@@ -87,3 +94,9 @@ Antigravity Awesome Skills 主要是一个**技能库**：
 - [AI 代理技能](ai-agent-skills.md)
 - [Codex CLI 技能](codex-cli-skills.md)
 - [Gemini CLI 技能](gemini-cli-skills.md)
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-squad
+---
+
 # Squad Entry Markdown (SEM) Format Specification
 
 **Version:** 1.0  
@@ -656,3 +663,10 @@ function isValidISO8601(timestamp: string): boolean {
 ---
 
 **End of Specification**
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/squad]] — Squad
+- [[000 - Map of Maps]] — Map of Maps
+

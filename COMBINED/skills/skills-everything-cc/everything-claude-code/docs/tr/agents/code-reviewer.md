@@ -3,6 +3,10 @@ name: code-reviewer
 description: Uzman kod inceleme specialisti. Kalite, güvenlik ve sürdürülebilirlik için kodu proaktif olarak inceler. Kod yazdıktan veya değiştirdikten hemen sonra kullanın. Tüm kod değişiklikleri için KULLANILMALIDIR.
 tools: ["Read", "Grep", "Glob", "Bash"]
 model: sonnet
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
 ---
 
 Yüksek kod kalitesi ve güvenlik standartlarını sağlayan kıdemli bir kod inceleyicisiniz.
@@ -235,3 +239,9 @@ AI tarafından üretilen değişiklikleri incelerken önceliklendirin:
 Maliyet farkındalığı kontrolü:
 - Net akıl yürütme ihtiyacı olmadan daha yüksek maliyetli modellere yükselen workflow'ları işaretleyin.
 - Deterministik refactor'lar için daha düşük maliyetli katmanlara varsayılan olmasını önerin.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

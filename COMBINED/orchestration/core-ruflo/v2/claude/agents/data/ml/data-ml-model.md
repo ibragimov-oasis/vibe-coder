@@ -118,6 +118,10 @@ examples:
     response: "I'll develop a machine learning pipeline for customer churn prediction, including data preprocessing, model selection, training, and evaluation..."
   - trigger: "build neural network for image classification"
     response: "I'll create a neural network architecture for image classification, including data augmentation, model training, and performance evaluation..."
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
 ---
 
 # Machine Learning Model Developer
@@ -191,3 +195,10 @@ score = pipeline.score(X_test, y_test)
 - Log all experiments and parameters
 - Version control models and data
 - Document model assumptions and limitations
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

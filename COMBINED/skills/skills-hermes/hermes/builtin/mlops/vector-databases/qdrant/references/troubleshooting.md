@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-hermes
+---
+
 # Qdrant Troubleshooting Guide
 
 ## Installation Issues
@@ -629,3 +636,9 @@ Include:
 - Full error traceback
 - Minimal reproducible code
 - Collection configuration
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-hermes]] — Category: skills-hermes
+

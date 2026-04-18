@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/seo
+  - artifact/doc
+  - source/skills-seo
+---
+
 # Research Topics Command
 
 Analyze topical authority by clustering keywords into related topics.
@@ -129,3 +136,9 @@ Action: Create 10-article cluster to build authority
 - **Monthly**: Monitor topical authority growth
 - **Before content planning**: Identify cluster opportunities
 - **When entering new niche**: Find what topics to own
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-seo]] — Category: skills-seo
+

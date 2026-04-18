@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/seo
+  - artifact/doc
+  - source/skills-seo
+---
+
 # Landing Page Write Command
 
 Use this command to create high-converting landing pages optimized for either organic SEO traffic or paid PPC traffic.
@@ -424,3 +431,9 @@ After saving and scrubbing, run these agents:
 # 5. Publish when ready
 /landing-publish landing-pages/product-hosting-wordpress-2025-12-11.md
 ```
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-seo]] — Category: skills-seo
+

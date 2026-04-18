@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # ADR-G009: Headless Testing Harness -- Claude Code as the Evaluation Primitive
 
 ## Status
@@ -159,3 +166,10 @@ Run all tasks concurrently for speed. Considered but deferred. Parallel executio
 - `v3/@claude-flow/guidance/src/index.ts` -- `GuidanceControlPlane.getHeadlessRunner()`
 - ADR-G005 -- Proof envelopes that headless runs populate
 - ADR-G008 -- Optimizer loop that uses headless suites for A/B testing
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

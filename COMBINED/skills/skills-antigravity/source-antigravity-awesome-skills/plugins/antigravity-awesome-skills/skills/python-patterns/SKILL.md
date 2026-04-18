@@ -4,6 +4,10 @@ description: "Python development principles and decision-making. Framework selec
 risk: unknown
 source: community
 date_added: "2026-02-27"
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 # Python Patterns
@@ -444,3 +448,9 @@ Before implementing:
 ---
 
 > **Remember**: Python patterns are about decision-making for YOUR specific context. Don't copy code—think about what serves your application best.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

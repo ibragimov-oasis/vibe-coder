@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/mcp
+  - artifact/mcp-server
+  - source/mcp-servers
+---
+
 # 服务端部署
 
 OpenViking 可以作为独立的 HTTP 服务器运行，允许多个客户端通过网络连接。
@@ -246,3 +253,9 @@ curl http://localhost:1933/ready
 - [认证](04-authentication.md) - API Key 设置
 - [监控](05-monitoring.md) - 健康检查与可观测性
 - [API 概览](../api/01-overview.md) - 完整 API 参考
+
+## 🔗 Связи
+
+- [[MOC - MCP Servers]] — mcp-servers
+- [[000 - Map of Maps]] — Map of Maps
+

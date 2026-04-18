@@ -3,6 +3,10 @@ name: odoo-l10n-compliance
 description: "Country-specific Odoo localization: tax configuration, e-invoicing (CFDI, FatturaPA, SAF-T), fiscal reporting, and country chart of accounts setup."
 risk: unknown
 source: community
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 # Odoo Localization & Compliance (l10n)
@@ -101,3 +105,9 @@ Fiscal Position (created separately):
 - ✅ **Do:** Test e-invoicing in the **SAT/tax authority test environment** before going live.
 - ❌ **Don't:** Manually create a chart of accounts if a localization module exists for your country.
 - ❌ **Don't:** Mix localization tax accounts with custom accounts — it breaks fiscal reports.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

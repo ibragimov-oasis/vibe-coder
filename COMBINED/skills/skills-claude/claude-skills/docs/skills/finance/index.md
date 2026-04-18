@@ -1,6 +1,10 @@
 ---
 title: "Finance Skills — Agent Skills & Codex Plugins"
 description: "3 finance skills — finance agent skill and Claude Code plugin for DCF valuation, budgeting, and SaaS metrics. Works with Claude Code, Codex CLI, Gemini CLI, and OpenClaw."
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
 ---
 
 <div class="domain-header" markdown>
@@ -36,3 +40,9 @@ description: "3 finance skills — finance agent skill and Claude Code plugin fo
     Act as a senior SaaS CFO advisor. Take raw business numbers, calculate key health metrics, benchmark against industry...
 
 </div>
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

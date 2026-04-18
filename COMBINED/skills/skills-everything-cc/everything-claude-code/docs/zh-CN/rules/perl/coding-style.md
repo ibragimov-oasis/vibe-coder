@@ -5,6 +5,10 @@ paths:
   - "**/*.t"
   - "**/*.psgi"
   - "**/*.cgi"
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
 ---
 
 # Perl 编码风格
@@ -45,3 +49,9 @@ perlcritic --severity 3 --theme 'core || pbp || security' lib/
 ## 参考
 
 查看技能：`perl-patterns`，了解全面的现代 Perl 惯用法和最佳实践。
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

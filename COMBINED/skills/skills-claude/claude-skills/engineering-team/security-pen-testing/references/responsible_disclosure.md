@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # Responsible Disclosure Guide
 
 A complete guide for responsibly reporting security vulnerabilities found during authorized testing or independent security research.
@@ -315,3 +322,9 @@ After assignment, the CVE will be published in the NVD (National Vulnerability D
 5. **Follow through.** A report without follow-up helps no one. Stay engaged until the issue is resolved.
 6. **Credit where due.** Acknowledge the vendor's response (positive or negative) in your disclosure.
 7. **Know the law.** Authorization and scope are your legal foundations. Never test without them.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

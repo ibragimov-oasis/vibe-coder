@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-awesome-claude
+---
+
 # Don't Forget
 
 Some important but easy-to-forget assumptions and gotchas that can cause headaches:
@@ -8,3 +15,9 @@ Some important but easy-to-forget assumptions and gotchas that can cause headach
 - If a workflow runs scripts that import `scripts.*`, either run from the repo root or set `PYTHONPATH` to the repo root.
 - Sparse checkout must include any data files the script reads (for example, `THE_RESOURCES_TABLE.csv`, `templates/`).
 - GitHub Actions using sparse checkout must include `pyproject.toml` so scripts can locate the repo root (via `find_repo_root()`).
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-awesome-claude]] — Category: skills-awesome-claude
+

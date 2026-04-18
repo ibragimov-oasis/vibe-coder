@@ -1,6 +1,10 @@
 ---
 name: mcp-deploy-manage-agents
 description: 'Skill converted from mcp-deploy-manage-agents.prompt.md'
+tags:
+  - domain/agents
+  - artifact/skill
+  - source/skills-copilot
 ---
 
 ````prompt
@@ -339,3 +343,10 @@ Then provide:
 - Monitoring and reporting plan
 
 ````
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-copilot]] — Category: skills-copilot
+- [[MOC - Agents]] — Copilot agents
+

@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/command
+  - source/commands
+---
+
 # hive-mind
 
 Hive Mind collective intelligence system for advanced swarm coordination.
@@ -25,3 +32,9 @@ npx claude-flow hive-mind spawn "Build microservices"
 # Check status
 npx claude-flow hive-mind status
 ```
+
+## 🔗 Связи
+
+- [[MOC - System]] — commands
+- [[000 - Map of Maps]] — Map of Maps
+

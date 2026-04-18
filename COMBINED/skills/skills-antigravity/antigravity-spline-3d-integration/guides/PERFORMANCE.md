@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # Performance & Mobile Optimization
 
 Spline scenes are WebGL — they run on the GPU. A poorly optimized scene will tank your PageSpeed score, lag on mid-range devices, and drain mobile batteries. Treat them like video files, not images.
@@ -161,3 +168,9 @@ Sometimes a Spline embed is the wrong tool. Use a video or GIF instead when:
 
 **How to export as video from Spline:**
 In Spline editor → Export → Video → record your animation → compress with HandBrake → host on GitHub or a CDN → embed as `<video autoplay loop muted playsinline>`
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

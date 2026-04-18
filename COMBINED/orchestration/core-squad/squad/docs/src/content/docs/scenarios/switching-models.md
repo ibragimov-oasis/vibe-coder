@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-squad
+---
+
 # Switching AI Models — Budget vs Quality
 
 **Try this to reduce costs temporarily:**
@@ -231,3 +238,10 @@ You don't have to configure this — it's automatic.
 - **Haiku is underrated for tests.** Test writing doesn't require deep reasoning — Haiku is fast and accurate enough.
 - **Per-agent overrides are cheap.** Put Opus on the Lead, Haiku on the Tester, Sonnet on everyone else. Balanced budget.
 - **Model config is in `.ai-team/model-config.json`.** Commit it so your team uses the same models.
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/squad]] — Squad
+- [[000 - Map of Maps]] — Map of Maps
+

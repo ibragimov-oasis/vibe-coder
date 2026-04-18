@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
+---
+
 # Architecture Improvement Recommendations
 
 This document captures architect-level improvements for the Everything Claude Code (ECC) project. It is written from the perspective of a Claude Code coding architect aiming to improve maintainability, consistency, and long-term quality.
@@ -144,3 +151,9 @@ This document captures architect-level improvements for the Everything Claude Co
 3. **Wire hooks schema:** In `validate-hooks.js`, validate `hooks/hooks.json` against `schemas/hooks.schema.json` using ajv (or similar) and keep only hook-specific checks in the script.
 
 These three can be done in one or two sessions and materially improve consistency and reliability.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

@@ -6,6 +6,10 @@ metadata:
   version: 1.1.0
   author: Andrew Stellman
   github: https://github.com/andrewstellman/
+tags:
+  - domain/agents
+  - artifact/skill
+  - source/skills-copilot
 ---
 
 # Quality Playbook Generator
@@ -460,3 +464,10 @@ Read these as you work through each phase:
 | `references/review_protocols.md` | Files 3–4 (code review, integration) | Templates for both protocols |
 | `references/spec_audit.md` | File 5 (Council of Three) | Full audit protocol, triage process, fix execution |
 | `references/verification.md` | Phase 3 (verify) | Complete self-check checklist with all 13 benchmarks |
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-copilot]] — Category: skills-copilot
+- [[MOC - Agents]] — Copilot agents
+

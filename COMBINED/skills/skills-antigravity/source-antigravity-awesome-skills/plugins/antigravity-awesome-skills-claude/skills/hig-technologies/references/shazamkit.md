@@ -1,4 +1,11 @@
 ---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
+---
 title: "ShazamKit | Apple Developer Documentation"
 source: https://developer.apple.com/design/human-interface-guidelines/shazamkit
 
@@ -44,4 +51,9 @@ After you receive permission to access the microphone for features that use Shaz
 #### [Videos](https://developer.apple.com/design/human-interface-guidelines/shazamkit#Videos)
 
 [![](https://devimages-cdn.apple.com/wwdc-services/images/119/E875B0F9-12EF-4A12-B0B3-01A3DE667DD9/4934_wide_250x141_1x.jpg) Explore ShazamKit ](https://developer.apple.com/videos/play/wwdc2021/10044)
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
 

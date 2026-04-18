@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # Output Patterns
 
 Use these patterns when skills need to produce consistent, high-quality output.
@@ -80,3 +87,9 @@ Follow this style: type(scope): brief description, then detailed explanation.
 ```
 
 Examples help Claude understand the desired style and level of detail more clearly than descriptions alone.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

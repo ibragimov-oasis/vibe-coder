@@ -4,6 +4,10 @@ type: docs
 weight: 1
 description: >
   The "postgres-list-stored-procedure" tool retrieves metadata for stored procedures in PostgreSQL, including procedure definitions, owners, languages, and descriptions.
+tags:
+  - domain/mcp
+  - artifact/mcp-server
+  - source/mcp-servers
 ---
 
 ## About
@@ -138,3 +142,9 @@ description: "Retrieves stored procedure metadata including definitions and owne
 - Filtering uses `LIKE` pattern matching, so filter values support partial matches (e.g., `role_name: "app"` will match "app_user", "app_admin", etc.).
 - The `definition` field contains the complete, runnable CREATE PROCEDURE statement.
 - The `description` field is populated from comments set via PostgreSQL's COMMENT command and may be null.
+
+## 🔗 Связи
+
+- [[MOC - MCP Servers]] — mcp-servers
+- [[000 - Map of Maps]] — Map of Maps
+

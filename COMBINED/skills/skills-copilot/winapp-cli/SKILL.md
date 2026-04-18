@@ -1,6 +1,10 @@
 ---
 name: winapp-cli
 description: 'Windows App Development CLI (winapp) for building, packaging, and deploying Windows applications. Use when asked to initialize Windows app projects, create MSIX packages, generate AppxManifest.xml, manage development certificates, add package identity for debugging, sign packages, publish to the Microsoft Store, create external catalogs, or access Windows SDK build tools. Supports .NET (csproj), C++, Electron, Rust, Tauri, and cross-platform frameworks targeting Windows.'
+tags:
+  - domain/agents
+  - artifact/skill
+  - source/skills-copilot
 ---
 
 # Windows App Development CLI
@@ -215,3 +219,10 @@ Package identity unlocks access to powerful Windows APIs:
 - [Windows App SDK](https://learn.microsoft.com/windows/apps/windows-app-sdk/)
 - [MSIX Packaging Overview](https://learn.microsoft.com/windows/msix/overview)
 - [Package Identity Overview](https://learn.microsoft.com/windows/apps/desktop/modernize/package-identity-overview)
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-copilot]] — Category: skills-copilot
+- [[MOC - Agents]] — Copilot agents
+

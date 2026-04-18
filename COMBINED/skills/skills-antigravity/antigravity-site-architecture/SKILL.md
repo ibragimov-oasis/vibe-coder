@@ -6,6 +6,10 @@ source: "https://github.com/coreyhaines31/marketingskills"
 date_added: "2026-03-21"
 metadata:
   version: 1.1.0
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 # Site Architecture
@@ -364,3 +368,9 @@ Mermaid diagram showing page relationships and navigation zones. Use `graph TD` 
 - **page-cro**: For optimizing individual pages for conversion
 - **schema-markup**: For implementing breadcrumb and site navigation structured data
 - **competitor-alternatives**: For comparison page frameworks and URL patterns
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

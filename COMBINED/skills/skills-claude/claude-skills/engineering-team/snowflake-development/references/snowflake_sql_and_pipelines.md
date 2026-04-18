@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # Snowflake SQL and Pipelines Reference
 
 Detailed patterns and anti-patterns for Snowflake SQL development and data pipeline design.
@@ -279,3 +286,9 @@ SELECT * FROM TABLE(INFORMATION_SCHEMA.COPY_HISTORY(
 | Missing `RESUME` after task creation | Task never runs | Always `ALTER TASK ... RESUME` |
 | `CURRENT_TIMESTAMP()` in DT query | Forces full refresh mode | Use a timestamp column from the source |
 | Scanning VARIANT without casting | "Numeric value not recognized" errors | Always cast: `col:field::TYPE` |
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

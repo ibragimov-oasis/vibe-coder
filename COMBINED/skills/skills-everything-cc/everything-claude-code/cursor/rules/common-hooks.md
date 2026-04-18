@@ -1,6 +1,10 @@
 ---
 description: "Hooks system: types, auto-accept permissions, TodoWrite best practices"
 alwaysApply: true
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
 ---
 # Hooks System
 
@@ -32,3 +36,9 @@ Todo list reveals:
 - Extra unnecessary items
 - Wrong granularity
 - Misinterpreted requirements
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

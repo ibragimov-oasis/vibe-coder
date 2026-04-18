@@ -3,6 +3,9 @@ title: Prevent Hydration Mismatch Without Flickering
 impact: MEDIUM
 impactDescription: avoids visual flicker and hydration errors
 tags: rendering, ssr, hydration, localStorage, flicker
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
 ---
 
 ## Prevent Hydration Mismatch Without Flickering
@@ -80,3 +83,9 @@ function ThemeWrapper({ children }: { children: ReactNode }) {
 The inline script executes synchronously before showing the element, ensuring the DOM already has the correct value. No flickering, no hydration mismatch.
 
 This pattern is especially useful for theme toggles, user preferences, authentication states, and any client-only data that should render immediately without flashing default values.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # Common Patterns Library
 
 Ready-to-use regex and glob patterns for skill triggers. Copy and customize for your skills.
@@ -150,3 +157,9 @@ useState|useEffect              # React hooks
 - [SKILL.md](SKILL.md) - Main skill guide
 - [TRIGGER_TYPES.md](TRIGGER_TYPES.md) - Detailed trigger documentation
 - [SKILL_RULES_REFERENCE.md](SKILL_RULES_REFERENCE.md) - Complete schema
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

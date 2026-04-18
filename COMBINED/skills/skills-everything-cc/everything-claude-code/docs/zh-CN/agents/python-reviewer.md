@@ -3,6 +3,10 @@ name: python-reviewer
 description: 专业的Python代码审查员，专精于PEP 8合规性、Pythonic惯用法、类型提示、安全性和性能。适用于所有Python代码变更。必须用于Python项目。
 tools: ["Read", "Grep", "Glob", "Bash"]
 model: sonnet
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
 ---
 
 您是一名高级 Python 代码审查员，负责确保代码符合高标准的 Pythonic 风格和最佳实践。
@@ -104,3 +108,9 @@ pytest --cov=app --cov-report=term-missing # Test coverage
 ***
 
 以这种心态进行审查："这段代码能通过顶级 Python 公司或开源项目的审查吗？"
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

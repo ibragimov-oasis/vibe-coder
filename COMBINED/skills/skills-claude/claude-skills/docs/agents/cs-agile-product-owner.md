@@ -1,6 +1,10 @@
 ---
 title: "Agile Product Owner Agent — AI Coding Agent & Codex Skill"
 description: "Agile product owner agent for epic breakdown, sprint planning, backlog refinement, and INVEST-compliant user story generation. Agent-native orchestrator for Claude Code, Codex, Gemini CLI."
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
 ---
 
 # Agile Product Owner Agent
@@ -417,3 +421,9 @@ echo "Location: ../../product-team/agile-product-owner/references/user-story-tem
 **Last Updated:** March 9, 2026
 **Status:** Production Ready
 **Version:** 1.0
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

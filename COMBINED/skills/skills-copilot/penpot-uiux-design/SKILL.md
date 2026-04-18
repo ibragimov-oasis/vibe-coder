@@ -1,6 +1,10 @@
 ---
 name: penpot-uiux-design
 description: 'Comprehensive guide for creating professional UI/UX designs in Penpot using MCP tools. Use this skill when: (1) Creating new UI/UX designs for web, mobile, or desktop applications, (2) Building design systems with components and tokens, (3) Designing dashboards, forms, navigation, or landing pages, (4) Applying accessibility standards and best practices, (5) Following platform guidelines (iOS, Android, Material Design), (6) Reviewing or improving existing Penpot designs for usability. Triggers: "design a UI", "create interface", "build layout", "design dashboard", "create form", "design landing page", "make it accessible", "design system", "component library".'
+tags:
+  - domain/agents
+  - artifact/skill
+  - source/skills-copilot
 ---
 
 # Penpot UI/UX Design Guide
@@ -340,3 +344,10 @@ Use `penpot.generateStyle(selection, { type: 'css', includeChildren: true })` vi
 6. **Embrace whitespace**: Breathing room improves comprehension
 7. **Be consistent**: Same action = same appearance everywhere
 8. **Provide feedback**: Every action needs a response
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-copilot]] — Category: skills-copilot
+- [[MOC - Agents]] — Copilot agents
+

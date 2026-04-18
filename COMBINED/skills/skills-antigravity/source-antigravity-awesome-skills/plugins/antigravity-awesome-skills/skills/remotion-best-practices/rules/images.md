@@ -3,6 +3,9 @@ name: images
 description: Embedding images in Remotion using the <Img> component
 metadata:
   tags: images, img, staticFile, png, jpg, svg, webp
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
 ---
 
 # Using images in Remotion
@@ -128,3 +131,9 @@ const calculateMetadata: CalculateMetadataFunction = async () => {
   };
 };
 ```
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

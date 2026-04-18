@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/reference
+  - source/reference
+---
+
 # Optimize Rell Blockchain Code .cursorrules prompt file
 
 Author: Viktor Plane
@@ -13,4 +20,9 @@ Blockchain developers can leverage this prompt to build efficient, secure, and r
 
 ## Overview of .cursorrules prompt
 The .cursorrules file defines guidelines for an AI programming assistant specializing in developing Rell code, which is used for creating blockchain applications (dapps) on the Chromia platform. It outlines behaviors such as ensuring the generated code is accurate, readable, and follows user requirements precisely. The file includes a detailed description of Rell's language features, core concepts, and structures. It covers modules, entities, operations, and queries, as well as data types, control structures, database operations, system libraries, namespaces, and the process for importing modules. The file ensures that the assistant focuses on maintaining code correctness, security, and readability.
+
+## 🔗 Связи
+
+- [[MOC - System]] — reference
+- [[000 - Map of Maps]] — Map of Maps
 

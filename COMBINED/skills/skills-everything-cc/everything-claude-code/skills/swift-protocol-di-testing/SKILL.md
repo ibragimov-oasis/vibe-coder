@@ -2,6 +2,10 @@
 name: swift-protocol-di-testing
 description: Protocol-based dependency injection for testable Swift code — mock file system, network, and external APIs using focused protocols and Swift Testing.
 origin: ECC
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-everything-cc
 ---
 
 # Swift Protocol-Based Dependency Injection for Testing
@@ -188,3 +192,9 @@ func testReadError() async {
 - Testing error handling paths that are hard to trigger in real environments
 - Building modules that need to work in app, test, and SwiftUI preview contexts
 - Apps using Swift concurrency (actors, structured concurrency) that need testable architecture
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

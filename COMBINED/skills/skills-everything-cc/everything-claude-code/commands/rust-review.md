@@ -1,5 +1,9 @@
 ---
 description: Comprehensive Rust code review for ownership, lifetimes, error handling, unsafe usage, and idiomatic patterns. Invokes the rust-reviewer agent.
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
 ---
 
 # Rust Code Review
@@ -140,3 +144,9 @@ Recommendation: Block merge until CRITICAL issue is fixed
 
 - Agent: `agents/rust-reviewer.md`
 - Skills: `skills/rust-patterns/`, `skills/rust-testing/`
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

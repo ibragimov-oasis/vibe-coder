@@ -1,6 +1,10 @@
 ---
 title: "Marketing Strategy & PMM — Agent Skill for Marketing"
 description: "Product marketing skill for positioning, GTM strategy, competitive intelligence, and product launches. Use when the user asks about product. Agent skill for Claude Code, Codex CLI, Gemini CLI, OpenClaw."
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
 ---
 
 # Marketing Strategy & PMM
@@ -395,3 +399,9 @@ All output passes quality verification:
 - **launch-strategy**: For executing product launches planned by PMM.
 - **competitive-intel** (C-Suite): For strategic competitive intelligence.
 - **cmo-advisor** (C-Suite): For marketing budget and growth model decisions.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # Lead Routing Rules
 
 Decision trees, platform-specific configurations, territory routing, ABM routing, and speed-to-lead benchmarks.
@@ -201,3 +208,9 @@ Track these metrics weekly:
 - **% of leads contacted within SLA** (target: 90%+)
 - **Contact rate by time of day** (identify coverage gaps)
 - **Conversion rate by response time** (prove the ROI of speed)
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

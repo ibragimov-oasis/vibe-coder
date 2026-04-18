@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # Creative Frameworks — Headline and Copy Formulas by Platform and Funnel Stage
 
 A working catalog of the copy frameworks that consistently outperform generic ads. Use these as starting points, not templates to fill in blindly.
@@ -251,3 +258,9 @@ not on data entry.
 | "Unlock your potential" | Zero specificity, total fluff | What potential, specifically? Show it. |
 | "Join thousands of happy customers" | Vague and dated | "3,400 companies use [Product] to [specific outcome]" |
 | Emoji abuse | Looks desperate on LinkedIn, clutters Google | One emoji max, only if it adds meaning |
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

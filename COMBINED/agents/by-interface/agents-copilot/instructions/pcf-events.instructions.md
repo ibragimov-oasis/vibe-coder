@@ -1,6 +1,10 @@
 ---
 description: 'Define and handle custom events in PCF components'
 applyTo: '**/*.{ts,tsx,js,json,xml,pcfproj,csproj}'
+tags:
+  - domain/agents
+  - artifact/agent
+  - source/by-interface/agents-copilot
 ---
 
 # Define Events (Preview)
@@ -100,3 +104,9 @@ See how to call an event in [Events](https://learn.microsoft.com/en-us/power-app
 ## Next Steps
 
 [Tutorial: Define a custom event in a component](https://learn.microsoft.com/en-us/power-apps/developer/component-framework/tutorial-define-event)
+
+## 🔗 Связи
+
+- [[MOC - Agents]] — Agent catalog
+- [[agents/agents-copilot]] — Interface: agents-copilot
+

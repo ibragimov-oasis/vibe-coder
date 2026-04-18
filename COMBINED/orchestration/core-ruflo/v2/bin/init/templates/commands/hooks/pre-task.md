@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # hook pre-task
 
 Execute pre-task preparations and context loading.
@@ -109,3 +116,10 @@ Returns JSON with:
 - `agent spawn` - Manual agent creation
 - `memory usage` - Memory management
 - `swarm init` - Swarm initialization
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
+---
+
 # /learn - Extract Reusable Patterns
 
 Analyze the current session and extract any patterns worth saving as skills.
@@ -68,3 +75,9 @@ Create a skill file at `~/COMBINED/workspace-config/claude/skills/learned/[patte
 - Don't extract one-time issues (specific API outages, etc.)
 - Focus on patterns that will save time in future sessions
 - Keep skills focused - one pattern per skill
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

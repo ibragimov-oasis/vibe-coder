@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-squad
+---
+
 # Ralph Circuit Breaker — Model Rate Limit Fallback
 
 > Classic circuit breaker pattern (Hystrix / Polly / Resilience4j) applied to Copilot model selection.
@@ -311,3 +318,10 @@ Query metrics with:
 $cb = Get-Content .squad/ralph-circuit-breaker.json | ConvertFrom-Json
 Write-Host "Fallbacks: $($cb.metrics.totalFallbacks) | Recoveries: $($cb.metrics.totalRecoveries)"
 ```
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/squad]] — Squad
+- [[000 - Map of Maps]] — Map of Maps
+

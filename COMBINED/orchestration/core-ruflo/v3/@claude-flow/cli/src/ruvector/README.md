@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # RuVector NPM Package API Documentation
 
 Version: 0.1.95
@@ -671,3 +678,9 @@ npx ruvector hooks import backup.json --merge
 - [npm Package](https://www.npmjs.com/package/ruvector)
 - [GitHub Repository](https://github.com/ruvnet/ruvector)
 - [Hooks Documentation](https://github.com/ruvnet/ruvector/blob/main/npm/packages/ruvector/HOOKS.md)
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-ruflo]] — core-ruflo
+

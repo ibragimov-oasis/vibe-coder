@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-squad
+---
+
 # JSDoc API Reference Documentation Research
 
 ## Executive Summary
@@ -70,7 +77,8 @@ The new state/ module (Phase 2, PR #481) is well-positioned for API docs:
 1. ✅ **Zero migration**—keeps existing Astro 5 + Tailwind 4 + Pagefind
 2. ✅ **Simple config**—one JSON file, one npm package
 3. ✅ **Markdown-first**—output drops directly into docs/src/content/docs/reference/api/
-4. ✅ **Pagefind-ready**—your existing ehype-pagefind-attrs plugin indexes it automatically
+4. ✅ **Pagefind-ready**—your existing 
+ehype-pagefind-attrs plugin indexes it automatically
 5. ✅ **Build integration**—Astro hook runs TypeDoc before build (one command: 
 pm run build)
 6. ✅ **Open-source friendly**—standard tool for public libraries
@@ -178,7 +186,8 @@ pm run build automatically runs TypeDoc before Astro build.
 
 ### Pagefind Integration
 
-✅ **Works automatically**—your existing ehypePagefindAttrs plugin marks TypeDoc-generated headings as indexable.
+✅ **Works automatically**—your existing 
+ehypePagefindAttrs plugin marks TypeDoc-generated headings as indexable.
 
 **Verify:**
 \\\ash
@@ -196,7 +205,8 @@ grep "classes/squad-coordinator" dist/.pagefind/pagefind.json
 |------|------|----------|
 | Add missing JSDoc to config/schema.ts | 2–3 hours | High (only 8% coverage) |
 | Add @param/@return tags to state/io/* functions | 3–4 hours | High (State I/O is new) |
-| Audit + document platform/, untime/ exports | 2–3 hours | Medium (existing coverage >60%) |
+| Audit + document platform/, 
+untime/ exports | 2–3 hours | Medium (existing coverage >60%) |
 | Review & refine StorageProvider interface docs | 1–2 hours | High (Phase 2 blocker) |
 | **Total** | **8–12 hours** | — |
 
@@ -267,7 +277,8 @@ The Phase 2 state layer (PR #481) is **API-docs ready**:
 ### How It Works
 
 1. **Build step:** TypeDoc generates markdown → Astro processes with remark/rehype plugins
-2. **Your ehype-pagefind-attrs plugin:** marks all H1/H2/H3 as searchable (data-pagefind-body)
+2. **Your 
+ehype-pagefind-attrs plugin:** marks all H1/H2/H3 as searchable (data-pagefind-body)
 3. **Pagefind indexing:** reads dist/ → finds data-pagefind-body → indexes content
 
 ### Result
@@ -332,3 +343,10 @@ pm run build from docs/
 - **typedoc-plugin-markdown:** https://github.com/tgreyuk/typedoc-plugin-markdown
 - **Astro Integration API:** https://docs.astro.build/en/guides/integrations-guide
 - **Pagefind:** https://pagefind.app
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-squad]] — core-squad
+- [[MOC - Skills]] — Skills library
+

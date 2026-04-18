@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-hermes
+---
+
 # Hermes Agent Persona
 
 <!--
@@ -13,3 +20,10 @@ Examples:
 This file is loaded fresh each message -- no restart needed.
 Delete the contents (or this file) to use the default personality.
 -->
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-hermes]] — core-hermes
+- [[MOC - Skills]] — Skills library
+

@@ -1,6 +1,10 @@
 ---
 description: 'Analyzes codebases to understand structure, testing patterns, and testability. Identifies source files, existing tests, build commands, and testing framework. Works with any language.'
 name: 'Polyglot Test Researcher'
+tags:
+  - domain/agents
+  - artifact/agent
+  - source/by-interface/agents-copilot
 ---
 
 # Test Researcher
@@ -122,3 +126,9 @@ Create `.testagent/research.md` with this structure:
 ## Output
 
 Write the research document to `.testagent/research.md` in the workspace root.
+
+## 🔗 Связи
+
+- [[MOC - Agents]] — Agent catalog
+- [[agents/agents-copilot]] — Interface: agents-copilot
+

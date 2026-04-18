@@ -6,6 +6,9 @@ risk: safe
 source: community
 tags: "[video, editing, transcription, subtitles, search, streaming, ai-generation, media]"
 date_added: "2026-02-27"
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 # VideoDB Skills
@@ -117,3 +120,9 @@ https://github.com/video-db/skills
 
 **Version:** 1.1.0
 **Maintained By:** [VideoDB](https://github.com/video-db)
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

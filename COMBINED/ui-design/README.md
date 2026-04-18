@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/ui
+  - artifact/ui-component
+  - source/ui-design
+---
+
 # [UI UX Pro Max](https://uupm.cc)
  
 <p align="center">
@@ -511,3 +518,9 @@ See [CLAUDE.md](CLAUDE.md) for detailed development guidelines.
 ## License
 
 This project is licensed under the [MIT License](LICENSE).
+
+## 🔗 Связи
+
+- [[MOC - UI Design]] — ui-design
+- [[000 - Map of Maps]] — Map of Maps
+

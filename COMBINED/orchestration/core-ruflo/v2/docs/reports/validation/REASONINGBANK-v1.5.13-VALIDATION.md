@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # ReasoningBank v1.5.13 Validation Report
 
 **Package**: `claude-flow@2.7.0-alpha.8`
@@ -233,3 +240,10 @@ The agentic-flow@1.5.13 integration is confirmed working with:
 **Validated by**: Claude Code
 **Validation Method**: Docker + Live Testing + Test Suite
 **Result**: **100% PASS** ✅
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

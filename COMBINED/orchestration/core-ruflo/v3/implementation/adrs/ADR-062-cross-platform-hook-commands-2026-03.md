@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # ADR-062: Cross-Platform Hook Command Generation
 
 **Date:** 2026-03-05
@@ -92,3 +99,10 @@ All 12 hook types, auto-memory, learning bridge, memory graph, agent scopes, neu
 - Platform information stored in settings enables future platform-specific behavior
 - No capability loss — all hooks, memory, learning, and coordination features preserved
 - Users on Windows must re-run `init --force` to regenerate settings.json with fixed commands
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

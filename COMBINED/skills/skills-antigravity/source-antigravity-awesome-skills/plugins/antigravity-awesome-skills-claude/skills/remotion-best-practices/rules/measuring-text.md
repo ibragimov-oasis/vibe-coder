@@ -3,6 +3,9 @@ name: measuring-text
 description: Measuring text dimensions, fitting text to containers, and checking overflow
 metadata:
   tags: measure, text, layout, dimensions, fitText, fillTextBox
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
 ---
 
 # Measuring text in Remotion
@@ -141,3 +144,9 @@ return <div style={fontStyle}>Hello</div>;
 ```tsx
 <div style={{ outline: "2px solid red" }}>Text</div>
 ```
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

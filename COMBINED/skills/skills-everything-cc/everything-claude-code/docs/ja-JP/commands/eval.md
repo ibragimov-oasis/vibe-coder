@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
+---
+
 # Evalコマンド
 
 評価駆動開発ワークフローを管理します。
@@ -118,3 +125,9 @@ $ARGUMENTS:
 - `report <名前>` - 完全なレポートを生成
 - `list` - すべての評価を表示
 - `clean` - 古い評価ログを削除（最新10件を保持）
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

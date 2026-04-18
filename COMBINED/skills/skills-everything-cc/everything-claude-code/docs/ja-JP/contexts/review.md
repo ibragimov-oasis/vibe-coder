@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
+---
+
 # コードレビューコンテキスト
 
 モード: PRレビュー、コード分析
@@ -20,3 +27,9 @@
 
 ## 出力フォーマット
 ファイルごとにグループ化し、深刻度の高いものを優先
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

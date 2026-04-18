@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
+---
+
 # Execute - Multi-Model İşbirlikçi Execution
 
 Multi-model işbirlikçi execution - Plandan prototype al → Claude refactor edip implement eder → Multi-model audit ve teslimat.
@@ -313,3 +320,9 @@ Audit geçtikten sonra, kullanıcıya rapor et:
 1. `/ccg:plan` plan + SESSION_ID oluşturur
 2. Kullanıcı "Y" ile onaylar
 3. `/ccg:execute` planı okur, SESSION_ID'yi yeniden kullanır, implementation'ı çalıştırır
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

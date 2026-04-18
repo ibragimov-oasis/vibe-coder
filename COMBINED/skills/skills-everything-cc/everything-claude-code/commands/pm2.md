@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
+---
+
 # PM2 Init
 
 Auto-analyze project and generate PM2 service commands.
@@ -270,3 +277,9 @@ pm2 resurrect          # Restore saved processes
 
 **Tip:** Run `pm2 save` after first start to enable simplified commands.
 ```
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

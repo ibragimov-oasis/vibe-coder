@@ -60,7 +60,11 @@ For icons to represent common actions in [menus](https://developer.apple.com/des
 
 ### [Editing](https://developer.apple.com/design/human-interface-guidelines/icons#Editing)
 
-Action| Icon| Symbol name  
+Action| Icon| Symbol name
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
 ---|---|---  
 Cut| ![An icon showing a pair of scissors.](https://docs-assets.developer.apple.com/published/16c5fe84ae743e06cf2d388fc64e0cf4/icons-symbols-meaning-cut%402x.png)| `scissors`  
 Copy| ![An icon showing two copies of a document.](https://docs-assets.developer.apple.com/published/a88919c55265efbadeac0df5e16ffd05/icons-symbols-meaning-copy%402x.png)| `document.on.document`  
@@ -259,5 +263,10 @@ To create a custom document icon, you can supply any combination of background f
 Date| Changes  
 ---|---  
 June 9, 2025| Added a table of SF Symbols that represent common actions.  
-June 21, 2023| Updated to include guidance for visionOS.  
-  
+June 21, 2023| Updated to include guidance for visionOS.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

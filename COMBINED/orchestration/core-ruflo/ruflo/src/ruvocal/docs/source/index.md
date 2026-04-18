@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # Chat UI
 
 Open source chat interface with support for tools, multimodal inputs, and intelligent routing across models. The app uses MongoDB and SvelteKit behind the scenes. Try the live version called [HuggingChat on hf.co/chat](https://huggingface.co/chat) or [setup your own instance](./installation/local).
@@ -51,3 +58,10 @@ That's it! Chat UI will automatically discover available models from your endpoi
 > MongoDB is optional for development. When `MONGODB_URL` is not set, Chat UI uses an embedded database that persists to `./db`.
 
 For production deployments, see the [installation guides](./installation/local).
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

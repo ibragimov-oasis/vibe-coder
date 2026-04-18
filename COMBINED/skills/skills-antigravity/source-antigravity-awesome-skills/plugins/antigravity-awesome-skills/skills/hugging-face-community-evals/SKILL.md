@@ -3,6 +3,10 @@ source: "https://github.com/huggingface/skills/tree/main/skills/huggingface-comm
 name: hugging-face-community-evals
 description: Run local evaluations for Hugging Face Hub models with inspect-ai or lighteval.
 risk: unknown
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 # Overview
@@ -211,3 +215,9 @@ See:
 - `scripts/inspect_eval_uv.py`
 - `scripts/inspect_vllm_uv.py`
 - `scripts/lighteval_vllm_uv.py`
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

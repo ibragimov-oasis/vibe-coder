@@ -2,6 +2,10 @@
 name: popup-cro
 version: 1.0.0
 description: When the user wants to create or optimize popups, modals, overlays, slide-ins, or banners for conversion purposes. Also use when the user mentions "exit intent," "popup conversions," "modal optimization," "lead capture popup," "email popup," "announcement banner," or "overlay." For forms outside of popups, see form-cro. For general page conversion optimization, see page-cro.
+tags:
+  - domain/seo
+  - artifact/skill
+  - source/skills-seo
 ---
 
 # Popup CRO
@@ -450,3 +454,9 @@ Ideas to A/B test with expected outcomes
 - **page-cro**: For the page context around popups
 - **email-sequence**: For what happens after popup conversion
 - **ab-test-setup**: For testing popup variations
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-seo]] — Category: skills-seo
+

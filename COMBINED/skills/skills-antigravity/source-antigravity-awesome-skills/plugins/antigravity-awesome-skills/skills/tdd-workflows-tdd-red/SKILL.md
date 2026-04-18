@@ -4,6 +4,10 @@ description: "Generate failing tests for the TDD red phase to define expected be
 risk: unknown
 source: community
 date_added: "2026-02-27"
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 Write comprehensive failing tests following TDD red phase principles.
@@ -165,3 +169,9 @@ describe('AuthService', () => {
 ```
 
 Test requirements: $ARGUMENTS
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

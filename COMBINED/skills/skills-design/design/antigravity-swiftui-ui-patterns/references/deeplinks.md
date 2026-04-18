@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/ui
+  - artifact/doc
+  - source/skills-design
+---
+
 # Deep links and navigation
 
 ## Intent
@@ -64,3 +71,9 @@ extension View {
 
 - Don’t assume the URL is internal; validate first.
 - Avoid blocking UI while resolving remote links; use `Task`.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-design]] — Category: skills-design
+

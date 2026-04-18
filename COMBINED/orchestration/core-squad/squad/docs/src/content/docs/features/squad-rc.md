@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-squad
+---
+
 # squad rc
 
 > **Full remote control of GitHub Copilot from any device.** ACP passthrough mode for complete Copilot CLI access via secure tunnel.
@@ -476,3 +483,10 @@ squad rc --port 8080  # Specific port
 - [Remote Control Protocol](https://github.com/bradygaster/squad/blob/main/packages/squad-sdk/src/remote/protocol.ts) — Wire protocol types
 - [RemoteBridge SDK](https://github.com/bradygaster/squad/blob/main/packages/squad-sdk/src/remote/bridge.ts) — Server implementation
 - [devtunnel documentation](https://aka.ms/devtunnels) — Tunnel setup and auth
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/squad]] — Squad
+- [[000 - Map of Maps]] — Map of Maps
+

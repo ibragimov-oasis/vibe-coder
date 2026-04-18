@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/new_repos
+---
+
 # Projects
 
 Projects are focused AI workspaces. Each project has its own model, system prompt, context sources, and completely isolated chat history. Use projects to keep separate AI conversations per client, topic, or area of work.
@@ -123,3 +130,8 @@ As an alpha feature, projects have some known limitations:
 - [System Prompts](system-prompts.md) — Custom system prompts for projects
 - [Context and Mentions](context-and-mentions.md) — How context works
 - [Copilot Plus and Self-Host](copilot-plus-and-self-host.md) — Plus features
+
+## 🔗 Связи
+
+- [[000 - Map of Maps]] — Map of Maps
+

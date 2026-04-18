@@ -53,3 +53,9 @@ COMBINED/
 
 - [[root-docs/REORGANIZATION_SUMMARY]] — как строилась эта структура
 - [[root-docs/STRUCTURE_VALIDATION_REPORT]] — валидация структуры
+
+## 🔗 Связи
+
+- [[000 - Map of Maps]] — Parent MOC
+- [[000 - Map of Maps]] — Map of Maps
+

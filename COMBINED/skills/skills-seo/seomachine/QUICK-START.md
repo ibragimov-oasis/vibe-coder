@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/seo
+  - artifact/doc
+  - source/skills-seo
+---
+
 # Quick Start Guide
 
 Get SEO Machine running in **10 minutes** ⚡
@@ -111,3 +118,9 @@ You now have:
 ---
 
 **Pro Tip**: The quality of your output depends on the quality of your context files. Spend time filling them out thoroughly!
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-seo]] — Category: skills-seo
+

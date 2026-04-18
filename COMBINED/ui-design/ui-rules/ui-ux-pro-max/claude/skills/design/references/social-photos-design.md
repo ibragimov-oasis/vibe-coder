@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/ui
+  - artifact/ui-component
+  - source/ui-design
+---
+
 # Social Photos Design Guide
 
 Design social media images via HTML/CSS rendering + screenshot export. Orchestrates `ui-ux-pro-max`, `brand`, `design-system`, and `chrome-devtools` skills.
@@ -327,3 +334,9 @@ This sub-skill handles social media image design only. Does NOT handle:
 - Print production files (CMYK, bleed)
 - Direct social media posting/scheduling
 - AI image generation (use `ai-artist` skill for that)
+
+## 🔗 Связи
+
+- [[MOC - UI Design]] — ui-design
+- [[000 - Map of Maps]] — Map of Maps
+

@@ -2,6 +2,10 @@
 name: vibe-techdesign
 description: Create a Technical Design Document for your MVP. Use when the user wants to plan architecture, choose tech stack, or says "plan technical design", "choose tech stack", or "how should I build this".
 allowed-tools: Read, Write, Glob, Grep, WebSearch, AskUserQuestion
+tags:
+  - domain/prompts
+  - artifact/prompt
+  - source/prompts-templates
 ---
 
 # Vibe-Coding Technical Design Generator
@@ -132,3 +136,9 @@ Tell the user:
 > - Are there security concerns addressed?
 >
 > **Next Step:** Run `/vibe-agents` to generate your AGENTS.md and AI configuration files.
+
+## 🔗 Связи
+
+- [[MOC - Prompts]] — Prompt library
+- [[MOC - System]] — System documentation
+

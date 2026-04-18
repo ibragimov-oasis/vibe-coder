@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-gsd
+---
+
 # Verification Patterns
 
 How to verify different types of artifacts are real implementations, not stubs or placeholders.
@@ -610,3 +617,10 @@ Key principles:
 - Error handling: fix broken environment before checkpoint, never present checkpoint with failed setup
 
 </checkpoint_automation_reference>
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-gsd]] — core-gsd
+- [[MOC - Skills]] — Skills library
+

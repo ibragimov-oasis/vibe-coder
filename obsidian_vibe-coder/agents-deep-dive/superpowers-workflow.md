@@ -118,3 +118,9 @@ git worktree remove ../feature-xyz
 
 - [[agents-deep-dive/omc-team-roles]] — OMC команда
 - [[skills/karpathy/goal-driven-execution]] — Goal-Driven = суть Superpowers
+
+## 🔗 Связи
+
+- [[MOC - Agents]] — Parent MOC
+- [[000 - Map of Maps]] — Map of Maps
+

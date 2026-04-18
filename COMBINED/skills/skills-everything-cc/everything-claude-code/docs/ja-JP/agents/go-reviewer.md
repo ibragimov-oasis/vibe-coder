@@ -5,6 +5,10 @@ description: 慣用的なGo、並行処理パターン、エラー処理、パ�
 コード変更に使用してください。Goプロジェクトに必須です。
 tools: ["Read", "Grep", "Glob", "Bash"]
 model: opus
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
 ---
 
 あなたは慣用的なGoとベストプラクティスの高い基準を確保するシニアGoコードレビュアーです。
@@ -267,3 +271,9 @@ govulncheck ./...
 - 標準ライブラリから非推奨の関数にフラグを立てる
 
 「このコードはGoogleまたはトップGoショップでレビューに合格するか?」という考え方でレビューします。
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

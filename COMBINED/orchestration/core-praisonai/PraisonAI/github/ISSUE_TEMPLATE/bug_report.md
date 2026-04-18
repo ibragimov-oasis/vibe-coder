@@ -4,6 +4,10 @@ about: Create a report to help us improve
 title: '[BUG] '
 labels: bug
 assignees: ''
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-praisonai
 ---
 
 ## Environment
@@ -31,4 +35,11 @@ assignees: ''
 <!-- What actually happened -->
 
 ## Additional Context
-<!-- Add any other context about the problem here, such as screenshots, logs, etc. --> 
+<!-- Add any other context about the problem here, such as screenshots, logs, etc. -->
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/praisonai]] — PraisonAI
+- [[000 - Map of Maps]] — Map of Maps
+

@@ -3,6 +3,10 @@ name: pytorch-build-resolver
 description: PyTorch运行时、CUDA和训练错误解决专家。修复张量形状不匹配、设备错误、梯度问题、DataLoader问题和混合精度失败，改动最小。在PyTorch训练或推理崩溃时使用。
 tools: ["Read", "Write", "Edit", "Bash", "Grep", "Glob"]
 model: sonnet
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
 ---
 
 # PyTorch 构建/运行时错误解决器
@@ -120,3 +124,9 @@ print(f'Max allocated: {torch.cuda.max_memory_allocated()/1e9:.2f} GB')
 ***
 
 有关 PyTorch 最佳实践，请查阅 [官方 PyTorch 文档](https://pytorch.org/docs/stable/) 和 [PyTorch 论坛](https://discuss.pytorch.org/)。
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

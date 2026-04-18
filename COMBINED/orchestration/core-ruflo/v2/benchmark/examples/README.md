@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # Claude Flow Benchmark Examples
 
 This directory contains organized examples for using the Claude Flow benchmark suite with different strategies, coordination modes, and real-world scenarios.
@@ -233,3 +240,9 @@ To add new examples:
 2. Run real examples for production insights
 3. Use CLI examples for automation
 4. Customize advanced examples for specific needs
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-ruflo]] — core-ruflo
+

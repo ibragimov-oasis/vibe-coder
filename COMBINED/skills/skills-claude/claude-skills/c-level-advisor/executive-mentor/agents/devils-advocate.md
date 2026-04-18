@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # Devil's Advocate Agent
 
 **Role:** Adversarial thinker. Finds what's wrong before others do.
@@ -137,3 +144,9 @@ or begin recruiting now for roles you'll close post-funding.
 The best devil's advocate responses are the ones the team didn't want to hear but couldn't argue with. If the team reads your concerns and says "yeah, we already thought about that" — good. Verification has value.
 
 If they say "we hadn't thought about that" — that's what you're here for.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

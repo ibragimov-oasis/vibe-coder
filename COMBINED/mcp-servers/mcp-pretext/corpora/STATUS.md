@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/mcp
+  - artifact/mcp-server
+  - source/mcp-servers
+---
+
 # Corpus Status
 
 Machine-readable long-form corpus status lives in JSON.
@@ -56,3 +63,9 @@ bun run corpus-font-matrix --id=my-bad-deeds-return-to-you-teacher --samples=5
 bun run corpus-font-matrix --id=ur-chughd --samples=5
 bun run corpus-representative
 ```
+
+## 🔗 Связи
+
+- [[MOC - MCP Servers]] — mcp-servers
+- [[000 - Map of Maps]] — Map of Maps
+

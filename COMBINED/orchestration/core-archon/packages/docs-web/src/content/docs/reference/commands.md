@@ -7,6 +7,10 @@ audience: [user]
 status: current
 sidebar:
   order: 4
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-archon
 ---
 
 All slash commands available in Archon. Type `/help` in any platform adapter (Web UI, Telegram, Slack, Discord, GitHub) to see this list.
@@ -132,3 +136,10 @@ Bot responds with analysis. Continue the conversation:
 ```
 
 Bot maintains context and provides the diagram.
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/archon]] — Archon
+- [[000 - Map of Maps]] — Map of Maps
+

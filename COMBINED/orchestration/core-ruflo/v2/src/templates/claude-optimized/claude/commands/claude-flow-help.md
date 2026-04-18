@@ -1,6 +1,10 @@
 ---
 name: claude-flow-help
 description: Show Claude-Flow commands and usage with batchtools optimization
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
 ---
 
 # Claude-Flow Commands (Batchtools Optimized)
@@ -172,3 +176,10 @@ npx claude-flow stats --batch-ops
 # Performance profiling
 npx claude-flow profile --batch-execution
 ```
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

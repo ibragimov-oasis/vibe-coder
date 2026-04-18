@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # Landing Page SEO Checklist
 
 ## Overview
@@ -107,3 +114,9 @@ This checklist ensures landing pages are optimized for search engine visibility 
 - [ ] **Readability**: Grade level 6-8 for broad audiences
 - [ ] **Freshness**: Last modified date reflects recent updates
 - [ ] **E-E-A-T signals**: Author expertise, company authority, trust indicators
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

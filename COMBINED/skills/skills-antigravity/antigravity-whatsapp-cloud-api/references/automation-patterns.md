@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # Padroes de Automacao de Atendimento - WhatsApp Cloud API
 
 Guia completo para implementar automacao de atendimento profissional via WhatsApp, incluindo chatbots, filas de atendimento, state machines e integracao com IA.
@@ -688,3 +695,9 @@ Este fluxo garante:
 5. Deteccao de escalacao
 6. Roteamento por estado da conversa
 7. Marcacao automatica como lida
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

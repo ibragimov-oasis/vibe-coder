@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
+---
+
 **Idioma:** [English](../../README.md) | [简体中文](../../README.zh-CN.md) | [繁體中文](../zh-TW/README.md) | [日本語](../ja-JP/README.md) | [한국어](../ko-KR/README.md) | Português (BR)
 
 # Everything Claude Code
@@ -507,3 +514,9 @@ Por favor contribua! Veja [CONTRIBUTING.md](CONTRIBUTING.md) para diretrizes.
 ## Licença
 
 MIT — consulte o [arquivo LICENSE](../../LICENSE) para detalhes.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

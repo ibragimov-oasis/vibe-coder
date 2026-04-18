@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
+---
+
 # Quick Reference Guide
 
 ## Installation
@@ -358,3 +365,9 @@ Rules and patterns...
 ```
 
 2. Toggle in Agent Hooks panel
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

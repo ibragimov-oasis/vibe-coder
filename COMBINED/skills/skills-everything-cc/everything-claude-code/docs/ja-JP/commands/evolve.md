@@ -2,6 +2,10 @@
 name: evolve
 description: 関連するinstinctsをスキル、コマンド、またはエージェントにクラスター化
 command: true
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
 ---
 
 # Evolveコマンド
@@ -191,3 +195,9 @@ evolved_from:
 
 [クラスター化されたinstinctsに基づいて生成されたコンテンツ]
 ```
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

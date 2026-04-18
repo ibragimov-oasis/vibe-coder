@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # Testing Strategies for React and Next.js Applications
 
 Comprehensive guide to test architecture, coverage targets, and CI/CD integration patterns.
@@ -647,3 +654,9 @@ Is it a pure function with no side effects?
 3. **Co-locate tests:** Keep tests close to source code
 4. **Automate in CI:** Run tests on every PR, gate merges on failure
 5. **Decide wisely:** Not everything needs every type of test
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

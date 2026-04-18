@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-omc
+---
+
 # Local Plugin Installation
 
 How to install oh-my-claudecode from a local development directory as a Claude Code plugin.
@@ -106,3 +113,10 @@ claude plugin update oh-my-claudecode@oh-my-claudecode
 **Old version showing:**
 - The cache directory name may show old version, but the actual code is from latest commit
 - Run `claude plugin marketplace update` then `claude plugin update`
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-omc]] — core-omc
+- [[MOC - Skills]] — Skills library
+

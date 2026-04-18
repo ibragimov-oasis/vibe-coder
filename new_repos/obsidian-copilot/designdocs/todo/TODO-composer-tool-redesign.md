@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/new_repos
+---
+
 # TODO: Composer Tool Redesign for Faster Feedback
 
 **Date:** 2026-02-04
@@ -150,3 +157,8 @@ This enables reliable status detection in the reasoning UI without fragile strin
 3. Update reasoning UI to handle two-phase operations
 4. Test with various file sizes and operations
 5. Roll out to `replaceInFile`
+
+## 🔗 Связи
+
+- [[000 - Map of Maps]] — Map of Maps
+

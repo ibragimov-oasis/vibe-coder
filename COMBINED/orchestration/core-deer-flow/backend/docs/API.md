@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-deer-flow
+---
+
 # API Reference
 
 This document provides a complete reference for the DeerFlow backend APIs.
@@ -629,3 +636,10 @@ curl -X POST http://localhost:2026/api/langgraph/threads/abc123/runs \
     "config": {"configurable": {"model_name": "gpt-4"}}
   }'
 ```
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-deer-flow]] — core-deer-flow
+- [[MOC - Skills]] — Skills library
+

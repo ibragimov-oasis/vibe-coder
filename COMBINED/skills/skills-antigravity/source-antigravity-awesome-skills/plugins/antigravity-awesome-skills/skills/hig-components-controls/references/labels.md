@@ -35,7 +35,11 @@ The guidance below can help you use a label to display text. In some cases, guid
 
 **Use system-provided label colors to communicate relative importance.** The system defines four label colors that vary in appearance to help you give text different levels of visual importance. For additional guidance, see [Color](https://developer.apple.com/design/human-interface-guidelines/color).
 
-System color| Example usage| iOS, iPadOS, tvOS, visionOS| macOS  
+System color| Example usage| iOS, iPadOS, tvOS, visionOS| macOS
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
 ---|---|---|---  
 Label| Primary information| [`label`](https://developer.apple.com/documentation/UIKit/UIColor/label)| [`labelColor`](https://developer.apple.com/documentation/AppKit/NSColor/labelColor)  
 Secondary label| A subheading or supplemental text| [`secondaryLabel`](https://developer.apple.com/documentation/UIKit/UIColor/secondaryLabel)| [`secondaryLabelColor`](https://developer.apple.com/documentation/AppKit/NSColor/secondaryLabelColor)  
@@ -88,5 +92,10 @@ Consider using date and timer components in complications. For design guidance, 
 
 Date| Changes  
 ---|---  
-June 5, 2023| Updated guidance to reflect changes in watchOS 10.  
-  
+June 5, 2023| Updated guidance to reflect changes in watchOS 10.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

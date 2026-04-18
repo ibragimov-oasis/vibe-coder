@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-squad
+---
+
 # GNC
 
 > Guidance, Navigation, and Control Officer
@@ -22,4 +29,10 @@ Upgraded from single-layer session.js patch to dual-layer approach: (1) Inject `
 
 📌 **Team update (2026-03-25T18:11Z):** Routing regression research complete — root cause identified as combination of Squad code changes (v0.9.0 prompt saturation +33%, inlined workflows, missing 
 ame param in templates #577) AND Copilot CLI platform changes (CAPCOM report). Coordinator prompt grew 711→946 lines, diluting routing constraint. Workstream config replacement broke existing routing. Agent name fix exists on dev (#577) but not shipped. Recommendations: ship #577 immediately, move features to skills, optimize coordinator prompt, create regression tests. Report in decisions inbox.
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/squad]] — Squad
+- [[000 - Map of Maps]] — Map of Maps
 

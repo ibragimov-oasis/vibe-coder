@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/ui
+  - artifact/ui-component
+  - source/ui-design
+---
+
 # UI/UX Keywords Reference
 
 Progressive disclosure reference for common UI terminology and adjective palettes.
@@ -112,3 +119,9 @@ Progressive disclosure reference for common UI terminology and adjective palette
 | `rounded-lg` | generously rounded corners |
 | `rounded-xl` | very rounded, pillow-like |
 | `rounded-full` | pill-shaped, circular |
+
+## 🔗 Связи
+
+- [[MOC - UI Design]] — ui-design
+- [[000 - Map of Maps]] — Map of Maps
+

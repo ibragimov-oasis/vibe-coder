@@ -4,6 +4,10 @@ description: "Build features guided by data insights, A/B testing, and continuou
 risk: unknown
 source: community
 date_added: "2026-02-27"
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 # Data-Driven Feature Development
@@ -183,3 +187,9 @@ monitoring:
 - Continuous learning loop feeds back into next feature development cycle
 
 Feature to develop with data-driven approach: $ARGUMENTS
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

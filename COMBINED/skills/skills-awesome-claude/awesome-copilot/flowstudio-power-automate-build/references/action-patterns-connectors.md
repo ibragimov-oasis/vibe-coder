@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-awesome-claude
+---
+
 # FlowStudio MCP — Action Patterns: Connectors
 
 SharePoint, Outlook, Teams, and Approvals connector action patterns.
@@ -540,3 +547,9 @@ scope), split it into two actions: `CreateAnApproval` (fire-and-forget) then
 > The split pattern lets you insert actions between create and wait — e.g.,
 > posting the approval link to Teams, starting a timeout scope, or logging
 > the pending approval to a tracking list.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-awesome-claude]] — Category: skills-awesome-claude
+

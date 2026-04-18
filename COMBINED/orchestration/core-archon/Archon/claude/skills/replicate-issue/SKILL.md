@@ -13,6 +13,10 @@ description: |
 argument-hint: "[issue-number]"
 disable-model-invocation: true
 allowed-tools: Bash, Read, Grep, Glob, WebFetch, Agent
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-archon
 ---
 
 # Replicate GitHub Issue
@@ -286,3 +290,10 @@ Present a final summary to the user:
 - Cross-reference browser state with API responses (`curl`) to distinguish UI bugs from backend bugs
 - If the issue cannot be reproduced, document what you tried and suggest possible reasons
 - Close the browser when finished: `agent-browser close`
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/archon]] — Archon
+- [[000 - Map of Maps]] — Map of Maps
+

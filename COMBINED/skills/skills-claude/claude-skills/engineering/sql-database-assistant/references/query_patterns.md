@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # SQL Query Patterns Reference
 
 Common query patterns for everyday database operations. All examples use PostgreSQL syntax with dialect notes where they differ.
@@ -404,3 +411,9 @@ GROUP BY user_id;
 INSERT INTO tags (name) SELECT 'new-tag'
 WHERE NOT EXISTS (SELECT 1 FROM tags WHERE name = 'new-tag');
 ```
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

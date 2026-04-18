@@ -102,9 +102,18 @@ In watchOS, the split view displays either the list view or a detail view as a f
 
 ## [Change log](https://developer.apple.com/design/human-interface-guidelines/split-views#Change-log)
 
-Date| Changes  
+Date| Changes
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
 ---|---  
 June 9, 2025| Added iOS and iPadOS platform considerations.  
 December 5, 2023| Added guidance for split views in visionOS.  
-June 5, 2023| Added guidance for split views in watchOS.  
-  
+June 5, 2023| Added guidance for split views in watchOS.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-archon
+---
+
 # Review Cookbook
 
 Structured code review for PRs or local changes. Deploys parallel review agents for thorough coverage.
@@ -272,3 +279,10 @@ Summarize the review:
 Link to the artifact. If PR, include the PR comment URL.
 
 Suggest: `/archon-dev review {pr-number}` to self-review before requesting human review.
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/archon]] — Archon
+- [[000 - Map of Maps]] — Map of Maps
+

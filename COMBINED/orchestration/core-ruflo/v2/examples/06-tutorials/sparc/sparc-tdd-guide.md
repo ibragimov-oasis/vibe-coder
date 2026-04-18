@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # SPARC Test-Driven Development Guide
 
 Learn how to use SPARC methodology for systematic TDD with Claude Flow.
@@ -267,3 +274,10 @@ You've learned:
 4. Integrate with CI/CD
 
 Continue to [Advanced SPARC Patterns](./sparc-advanced-patterns.md)
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-squad
+---
+
 <!-- 
   SAMPLE README TEMPLATE
   Copy this file to your-sample/README.md and fill in the sections.
@@ -75,3 +82,10 @@
   - Check the [SDK Documentation](link) for advanced features
   - Explore [related concept](link) in the docs
 -->
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-squad]] — core-squad
+- [[MOC - Skills]] — Skills library
+

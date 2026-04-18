@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # FastAPI Project Templates Implementation Playbook
 
 This file contains detailed patterns, checklists, and code samples referenced by the skill.
@@ -564,3 +571,9 @@ async def test_create_user(client):
 - **Ignoring Sessions**: Not properly managing database sessions
 - **No Testing**: Skipping integration tests
 - **Tight Coupling**: Direct database access in routes
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

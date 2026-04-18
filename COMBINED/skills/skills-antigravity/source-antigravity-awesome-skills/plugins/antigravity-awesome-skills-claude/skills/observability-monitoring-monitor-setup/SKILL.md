@@ -4,6 +4,10 @@ description: "You are a monitoring and observability expert specializing in impl
 risk: unknown
 source: community
 date_added: "2026-02-27"
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 # Monitoring and Observability Setup
@@ -49,3 +53,9 @@ Focus on creating a monitoring system that provides actionable insights, reduces
 ## Resources
 
 - `resources/implementation-playbook.md` for detailed patterns and examples.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

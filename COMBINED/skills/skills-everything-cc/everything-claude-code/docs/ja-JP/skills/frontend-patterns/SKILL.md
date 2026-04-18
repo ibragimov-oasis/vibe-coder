@@ -1,6 +1,10 @@
 ---
 name: frontend-patterns
 description: React、Next.js、状態管理、パフォーマンス最適化、UIベストプラクティスのためのフロントエンド開発パターン。
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-everything-cc
 ---
 
 # フロントエンド開発パターン
@@ -629,3 +633,9 @@ export function Modal({ isOpen, onClose, children }: ModalProps) {
 ```
 
 **覚えておいてください**: モダンなフロントエンドパターンにより、保守可能で高性能なユーザーインターフェースを実装できます。プロジェクトの複雑さに適したパターンを選択してください。
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-copilot
+---
+
 # Noob Mode Glossary
 
 A plain-English reference for technical terms you'll encounter when using Copilot CLI. Organized by category.
@@ -366,3 +373,9 @@ A plain-English reference for technical terms you'll encounter when using Copilo
 | `git commit` | Save a snapshot of your changes |
 | `git push` | Upload your changes to the shared server |
 | `git pull` | Download the latest updates from the shared server |
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-copilot]] — Category: skills-copilot
+

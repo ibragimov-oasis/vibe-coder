@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # Repository Conventions
 
 **Mandatory conventions for the claude-code-skills repository.** Every contributor — human or AI coding agent — must follow these rules. PRs that violate them will be closed.
@@ -287,3 +294,9 @@ python3 engineering/skill-security-auditor/scripts/skill_security_auditor.py <yo
 | Skill count | 205 (do not change) |
 | Commit format | Conventional commits |
 | Script output | Must support `--json` |
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

@@ -1,6 +1,10 @@
 ---
 description: 'Guidelines for creating high-quality prompt files for GitHub Copilot'
 applyTo: '**/*.prompt.md'
+tags:
+  - domain/agents
+  - artifact/agent
+  - source/by-interface/agents-copilot
 ---
 
 # Copilot Prompt Files Guidelines
@@ -86,3 +90,9 @@ Every prompt file should include YAML frontmatter with the following fields:
 - [Prompt Files Documentation](https://code.visualstudio.com/docs/copilot/customization/prompt-files#_prompt-file-format)
 - [Awesome Copilot Prompt Files](https://github.com/github/awesome-copilot/tree/main/prompts)
 - [Tool Configuration](https://code.visualstudio.com/docs/copilot/chat/chat-agent-mode#_agent-mode-tools)
+
+## 🔗 Связи
+
+- [[MOC - Agents]] — Agent catalog
+- [[agents/agents-copilot]] — Interface: agents-copilot
+

@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/ui
+  - artifact/ui-component
+  - source/ui-design
+---
+
 # Craft Flow
 
 Build a feature with impeccable UX and UI quality through a structured process: shape the design, load the right references, then build and iterate visually until the result is delightful.
@@ -68,3 +75,9 @@ Present the result to the user:
 - Ask: "What's working? What isn't?"
 
 Iterate based on feedback. Good design is rarely right on the first pass.
+
+## 🔗 Связи
+
+- [[MOC - UI Design]] — ui-design
+- [[000 - Map of Maps]] — Map of Maps
+

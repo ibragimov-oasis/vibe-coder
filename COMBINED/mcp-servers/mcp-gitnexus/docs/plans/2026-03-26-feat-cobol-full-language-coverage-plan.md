@@ -4,6 +4,10 @@ type: feat
 status: active
 date: 2026-03-26
 origin: Feature audit from v3-integration-architect agent (session 8642401e)
+tags:
+  - domain/mcp
+  - artifact/mcp-server
+  - source/mcp-servers
 ---
 
 ## Enhancement Summary
@@ -324,3 +328,9 @@ This plan provides the graph data foundation for a future `modernize` MCP comman
 - COBOL features reference: mainframestechhelp.com/tutorials/cobol/features.htm
 - COBOL-85 standard: ISO/IEC 1989:1985
 - IBM Enterprise COBOL reference
+
+## 🔗 Связи
+
+- [[MOC - MCP Servers]] — mcp-servers
+- [[000 - Map of Maps]] — Map of Maps
+

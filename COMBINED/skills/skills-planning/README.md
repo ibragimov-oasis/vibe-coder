@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-planning
+---
+
 # Agent Skills
 
 A collection of agent skills that extend capabilities across planning, development, and tooling.
@@ -115,3 +122,9 @@ These skills help you write, refactor, and fix code.
   ```
   npx skills@latest add mattpocock/skills/obsidian-vault
   ```
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-planning]] — Category: skills-planning
+

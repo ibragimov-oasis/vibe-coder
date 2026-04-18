@@ -4,6 +4,10 @@ description: "Build and deploy the same feature consistently across web, mobile,
 risk: unknown
 source: community
 date_added: "2026-02-27"
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 # Multi-Platform Feature Development Workflow
@@ -204,3 +208,9 @@ Build and deploy the same feature consistently across web, mobile, and desktop p
 **Desktop**: Code signing, auto-updates, OS-specific installers
 
 Initial feature specification: $ARGUMENTS
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

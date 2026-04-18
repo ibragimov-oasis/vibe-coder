@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # Production Scheduling — Edge Cases Reference
 
 > Tier 3 reference. Load on demand when handling complex or ambiguous production scheduling situations that don't resolve through standard sequencing and dispatching workflows.
@@ -609,3 +616,9 @@ Experienced production schedulers recognise recurring patterns across these edge
 | **Transition complexity** | Product mix changing, seasonal changeover, NPI | Phase the transition. Buffer between old and new. Don't try to flip everything at once. |
 
 The common thread: **never sacrifice the constraint's output for a non-constraint problem.** Every decision should be evaluated through the lens of: "Does this protect or harm throughput at the constraint?" If a disruption does not affect the constraint (directly or through buffer penetration), it is lower priority regardless of how visible or noisy it is on the shop floor.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

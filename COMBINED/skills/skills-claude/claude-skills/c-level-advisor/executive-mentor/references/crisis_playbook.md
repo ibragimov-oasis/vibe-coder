@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # Crisis Playbook — When Things Go Really Wrong
 
 Crises aren't random. They fall into predictable categories. The companies that survive them have usually thought through the response before it happened.
@@ -171,3 +178,9 @@ A fundraising process that ends without closing: term sheet pulled, lead investo
 - Failed raises are more common than founders discuss publicly. Most companies that eventually succeed have had at least one.
 - The companies that recover from failed fundraises usually do so by extending runway aggressively (cutting), finding a lead from outside their normal network, or changing something material about the business.
 - **Do not do bridge rounds as avoidance.** A bridge that extends your runway 3 months to a problem you haven't fixed is not a solution. Only bridge if you have a specific, credible path to a successful close.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

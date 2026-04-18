@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-omc
+---
+
 # Performance Rules
 
 ## Model Selection Strategy
@@ -38,3 +45,10 @@ Add your project-specific performance requirements here:
 - Response time targets
 - Bundle size limits
 - Database query limits
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-omc]] — core-omc
+- [[MOC - Skills]] — Skills library
+

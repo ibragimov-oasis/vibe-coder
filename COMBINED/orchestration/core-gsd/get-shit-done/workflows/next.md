@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-gsd
+---
+
 <purpose>
 Detect current project state and automatically advance to the next logical GSD workflow step.
 Reads project state to determine: discuss → plan → execute → verify → complete progression.
@@ -95,3 +102,10 @@ Do not ask for confirmation — the whole point of `/gsd:next` is zero-friction 
 - [ ] Command invoked immediately without user confirmation
 - [ ] Clear status shown before invoking
 </success_criteria>
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-gsd]] — core-gsd
+- [[MOC - Skills]] — Skills library
+

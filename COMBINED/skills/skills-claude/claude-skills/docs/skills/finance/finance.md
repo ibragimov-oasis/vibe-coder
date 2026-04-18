@@ -1,6 +1,10 @@
 ---
 title: "Finance Skills — Agent Skill for Finance"
 description: "Financial analyst agent skill and plugin for Claude Code, Codex, Gemini CLI, Cursor, OpenClaw. Ratio analysis, DCF valuation, budget variance."
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
 ---
 
 # Finance Skills
@@ -51,3 +55,9 @@ python3 financial-analyst/scripts/forecast_builder.py --help
 
 - Load only the specific skill SKILL.md you need
 - Always validate financial outputs against source data
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

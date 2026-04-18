@@ -1,6 +1,10 @@
 ---
 title: "CHRO Advisor — Agent Skill for Executives"
 description: "People leadership for scaling companies. Hiring strategy, compensation design, org structure, culture, and retention. Use when building hiring plans. Agent skill for Claude Code, Codex CLI, Gemini CLI, OpenClaw."
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
 ---
 
 # CHRO Advisor
@@ -144,3 +148,9 @@ All output passes the Internal Quality Loop before reaching the founder (see `ag
 - **Always** read `company-context.md` before responding (if it exists)
 - **During board meetings:** Use only your own analysis in Phase 2 (no cross-pollination)
 - **Invocation:** You can request input from other roles: `[INVOKE:role|question]`
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

@@ -4,6 +4,10 @@ description: "Production patterns for Linkerd service mesh - the lightweight, se
 risk: critical
 source: community
 date_added: "2026-02-27"
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 <!-- security-allowlist: curl-pipe-bash -->
@@ -324,3 +328,9 @@ linkerd viz tap deploy/my-app --to deploy/my-backend
 - [Linkerd Documentation](https://linkerd.io/2.14/overview/)
 - [Service Profiles](https://linkerd.io/2.14/features/service-profiles/)
 - [Authorization Policy](https://linkerd.io/2.14/features/server-policy/)
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

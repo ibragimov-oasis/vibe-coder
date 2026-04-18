@@ -1,6 +1,10 @@
 ---
 name: "senior-backend"
 description: Designs and implements backend systems including REST APIs, microservices, database architectures, authentication flows, and security hardening. Use when the user asks to "design REST APIs", "optimize database queries", "implement authentication", "build microservices", "review backend code", "set up GraphQL", "handle database migrations", or "load test APIs". Covers Node.js/Express/Fastify development, PostgreSQL optimization, API security, and backend architecture patterns.
+tags:
+  - domain/agents
+  - artifact/skill
+  - source/skills-claude
 ---
 
 # Senior Backend Engineer
@@ -363,3 +367,10 @@ python scripts/database_migration_tool.py --connection $DATABASE_URL --migrate f
 python scripts/api_load_tester.py https://api.example.com/endpoint --concurrency 50
 python scripts/api_load_tester.py https://api.example.com/endpoint --compare baseline.json
 ```
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+- [[MOC - Agents]] — Claude agents
+

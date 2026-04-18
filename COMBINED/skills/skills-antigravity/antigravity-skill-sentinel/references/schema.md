@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # Schema do Banco de Dados - Sentinel
 
 Banco: `data/sentinel.db` (SQLite, WAL mode)
@@ -105,3 +112,9 @@ Auto-governanca do sentinel.
 - `idx_history_skill` - score_history(skill_name)
 - `idx_history_time` - score_history(recorded_at)
 - `idx_action_log_time` - action_log(created_at)
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

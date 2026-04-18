@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-business
+---
+
 # Board Deck Template
 
 Fill in bracketed fields. Remove placeholders before sharing. Never invent numbers — use `[TBD]` if unknown.
@@ -208,3 +215,9 @@ Starting ARR:         $[X]M
 - A5: Cohort retention analysis
 - A6: Org chart + headcount detail
 - A7: [Other as relevant]
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-business]] — Category: skills-business
+

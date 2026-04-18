@@ -8,6 +8,10 @@ description: |
   GitHub Actions, CI, action, marketplace
 risk: critical
 source: community
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 # Makepad Packaging & Deployment
@@ -410,3 +414,9 @@ cargo makepad android install-toolchain --full-ndk
 - [robius-packaging-commands](https://github.com/project-robius/robius-packaging-commands)
 - [cargo-makepad](https://github.com/makepad/makepad)
 - [makepad-packaging-action](https://github.com/marketplace/actions/makepad-packaging-action)
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

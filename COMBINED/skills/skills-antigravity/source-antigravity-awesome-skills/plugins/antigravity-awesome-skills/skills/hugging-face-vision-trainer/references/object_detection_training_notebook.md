@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # Object Detection Training Reference
 
 ## Contents
@@ -696,5 +703,8 @@ Let's plot the result:
 >>> image
 ```
 
-    
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
 

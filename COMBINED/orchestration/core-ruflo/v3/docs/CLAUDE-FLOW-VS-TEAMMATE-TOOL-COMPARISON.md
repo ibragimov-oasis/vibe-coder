@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # Architectural Comparison: Claude Flow V3 vs Claude Code TeammateTool
 
 **Date:** 2026-01-25
@@ -564,3 +571,10 @@ Given that Claude Flow V3 was:
 **Document Hash:** SHA256 of this comparison for provenance
 **Author:** Analysis by Claude (commissioned by rUv)
 **Sources:** Claude Flow V3 source code, Claude Code v2.1.19 binary analysis
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-ruflo]] — core-ruflo
+- [[MOC - Skills]] — Skills library
+

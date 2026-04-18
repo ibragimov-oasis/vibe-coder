@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # The Clean Coder — Deep Reference
 
 Based on Robert C. Martin, *The Clean Coder* (2011). Use this when discussing professionalism, estimation, and sustainable pace.
@@ -32,3 +39,9 @@ Based on Robert C. Martin, *The Clean Coder* (2011). Use this when discussing pr
 - **Collaboration** — Communicate clearly with stakeholders and peers; say no when needed, and offer alternatives when saying yes is not possible.
 
 Use this reference when the discussion involves commitment, estimates, saying no, sustainable development practices, or teamwork.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

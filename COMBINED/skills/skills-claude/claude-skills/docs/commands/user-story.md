@@ -1,6 +1,10 @@
 ---
 title: "/user-story — Slash Command for AI Coding Agents"
 description: "Generate user stories with acceptance criteria and sprint planning. Usage: /user-story <generate|sprint> [options]. Slash command for Claude Code, Codex CLI, Gemini CLI."
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
 ---
 
 # /user-story
@@ -47,3 +51,9 @@ Interactive mode prompts for feature context. For sprint planning, provide capac
 
 ## Skill Reference
 > `product-team/agile-product-owner/SKILL.md`
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

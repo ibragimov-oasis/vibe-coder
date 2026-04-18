@@ -1,6 +1,10 @@
 ---
 title: "/focused-fix — Slash Command for AI Coding Agents"
 description: "Deep-dive feature repair — systematically fix an entire feature/module across all its files and dependencies. Usage: /focused-fix <feature-path>. Slash command for Claude Code, Codex CLI, Gemini CLI."
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
 ---
 
 # /focused-fix
@@ -95,3 +99,9 @@ If you haven't finished Phase 3, you cannot propose fixes.
 
 - `engineering/focused-fix` — Full SKILL.md with detailed checklists, output templates, and anti-patterns
 - `superpowers:systematic-debugging` — For individual complex bugs found during Phase 3
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # Fontes e Referências — Leiloeiro Risco
 
 ## Legislação
@@ -13,3 +20,9 @@
 ## Jurisprudência
 - STJ — arrematação e leilões
 - Art. 792 CPC — Fraude à execução
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

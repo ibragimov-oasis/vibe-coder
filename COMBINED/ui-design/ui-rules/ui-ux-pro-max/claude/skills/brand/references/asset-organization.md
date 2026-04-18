@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/ui
+  - artifact/ui-component
+  - source/ui-design
+---
+
 # Asset Organization Guide
 
 Guidelines for organizing marketing assets in a structured, searchable system.
@@ -155,3 +162,9 @@ jq '.assets[] | select(.status == "approved")' .assets/manifest.json
 3. Update manifest.json with new entries
 4. Tag appropriately
 5. Remove duplicates/outdated versions
+
+## 🔗 Связи
+
+- [[MOC - UI Design]] — ui-design
+- [[000 - Map of Maps]] — Map of Maps
+

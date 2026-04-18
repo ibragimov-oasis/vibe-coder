@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # @claude-flow/plugin-cognitive-kernel
 
 [![npm version](https://img.shields.io/npm/v/@claude-flow/plugin-cognitive-kernel.svg)](https://www.npmjs.com/package/@claude-flow/plugin-cognitive-kernel)
@@ -313,3 +320,9 @@ interface CognitiveKernelConfig {
 ## License
 
 MIT
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-ruflo]] — core-ruflo
+

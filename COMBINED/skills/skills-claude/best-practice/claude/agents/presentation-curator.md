@@ -19,6 +19,10 @@ skills:
   - presentation/vibe-to-agentic-framework
   - presentation/presentation-structure
   - presentation/presentation-styling
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
 ---
 
 # Presentation Curator Agent
@@ -131,3 +135,9 @@ After completing changes, report:
 - Current total slide count
 - Current level transitions (which slides carry `data-level`)
 - Any renumbering that occurred
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

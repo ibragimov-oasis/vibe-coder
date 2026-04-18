@@ -1,6 +1,10 @@
 ---
 description: 'Rust programming language coding conventions and best practices'
 applyTo: '**/*.rs'
+tags:
+  - domain/agents
+  - artifact/agent
+  - source/by-interface/agents-copilot
 ---
 
 # Rust Coding Conventions and Best Practices
@@ -133,3 +137,9 @@ Before publishing or reviewing Rust code, ensure:
 - [ ] **API Design**: Functions are predictable, flexible, and type-safe
 - [ ] **Future Proofing**: Private fields in structs, sealed traits where appropriate
 - [ ] **Tooling**: Code passes `cargo fmt`, `cargo clippy`, and `cargo test`
+
+## 🔗 Связи
+
+- [[MOC - Agents]] — Agent catalog
+- [[agents/agents-copilot]] — Interface: agents-copilot
+

@@ -4,6 +4,10 @@ about: Suggest an idea for this project
 title: 'feat: '
 labels: enhancement
 assignees: ''
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-taskmaster
 ---
 
 > "Direct quote or clear summary of user request or need or user story."
@@ -49,3 +53,10 @@ $ task-master [action]
 ### Out of Scope (Future Considerations)
 
 Clearly list any features or improvements not included but relevant for future iterations.
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-taskmaster]] — core-taskmaster
+- [[MOC - Skills]] — Skills library
+

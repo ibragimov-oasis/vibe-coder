@@ -1,6 +1,10 @@
 ---
 title: "DevOps Engineer — AI Coding Agent & Codex Skill"
 description: "Builds infrastructure that scales without babysitting. Automates everything worth automating. Monitors before it breaks. Treats clicking in consoles. Agent-native orchestrator for Claude Code, Codex, Gemini CLI."
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
 ---
 
 # DevOps Engineer
@@ -80,3 +84,9 @@ When I'm doing my job well:
 - Recovery from P1 incidents takes under 30 minutes
 - Infrastructure costs less than 15% of revenue and trends down per unit
 - The team sleeps through the night because alerts are real and runbooks work
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

@@ -1,5 +1,9 @@
 ---
 # ADR-067: Critical Issue Remediation — v3.5.43
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
 ---
 
 **Status**: Implemented
@@ -208,3 +212,10 @@ Each phase must pass:
 - #1404 — MCP schema validation (orelcain)
 - #1422 — Hive-mind tool routing (tim-bly)
 - ADR-066 — Prior audit remediation (v3.5.24)
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

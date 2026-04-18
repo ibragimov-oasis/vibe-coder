@@ -2,6 +2,10 @@
 name: schema-markup
 version: 1.0.0
 description: When the user wants to add, fix, or optimize schema markup and structured data on their site. Also use when the user mentions "schema markup," "structured data," "JSON-LD," "rich snippets," "schema.org," "FAQ schema," "product schema," "review schema," or "breadcrumb schema." For broader SEO issues, see seo-audit.
+tags:
+  - domain/seo
+  - artifact/skill
+  - source/skills-seo
 ---
 
 # Schema Markup
@@ -174,3 +178,9 @@ You can combine multiple schema types on one page using `@graph`:
 
 - **seo-audit**: For overall SEO including schema review
 - **programmatic-seo**: For templated schema at scale
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-seo]] — Category: skills-seo
+

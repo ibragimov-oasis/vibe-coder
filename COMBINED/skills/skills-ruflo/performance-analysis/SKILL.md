@@ -5,6 +5,9 @@ description: Comprehensive performance analysis, bottleneck detection, and optim
 category: monitoring
 tags: [performance, bottleneck, optimization, profiling, metrics, analysis]
 author: Claude Flow Team
+  - domain/skills
+  - artifact/skill
+  - source/skills-ruflo
 ---
 
 # Performance Analysis Skill
@@ -561,3 +564,9 @@ npx claude-flow bottleneck detect --fix
 **Version**: 1.0.0
 **Last Updated**: 2025-10-19
 **Maintainer**: Claude Flow Team
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-ruflo]] — Category: skills-ruflo
+

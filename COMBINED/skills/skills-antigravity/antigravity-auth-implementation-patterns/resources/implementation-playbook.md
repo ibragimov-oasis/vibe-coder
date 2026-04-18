@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # Authentication and Authorization Implementation Patterns Implementation Playbook
 
 This file contains detailed patterns, checklists, and code samples referenced by the skill.
@@ -616,3 +623,9 @@ app.use('/api/', apiLimiter);
 - **assets/auth-security-checklist.md**: Security review checklist
 - **assets/password-policy-template.md**: Password requirements template
 - **scripts/token-validator.ts**: JWT validation utility
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

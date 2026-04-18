@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-copilot
+---
+
 # Instancio
 
 Generate complex test objects automatically. Use when entities/DTOs have 3+ properties.
@@ -228,3 +235,9 @@ String phone = Instancio.gen().text().pattern("+1-###-###-####");
 
 - [Instancio Documentation](https://www.instancio.org/)
 - [JUnit 5 Extension](https://www.instancio.org/user-guide/#junit-integration)
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-copilot]] — Category: skills-copilot
+

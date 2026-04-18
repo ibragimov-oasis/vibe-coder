@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # Guia de Publicação — Specs de Mídia e Fluxos
 
 ## Specs de Mídia
@@ -171,3 +178,9 @@ Hashtags são armazenadas como JSON array e adicionadas ao final da caption:
 ```
 Caption renderizada + "\n\n" + " ".join(hashtags)
 ```
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

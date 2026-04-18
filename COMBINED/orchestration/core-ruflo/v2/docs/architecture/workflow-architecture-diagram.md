@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # GitHub Workflows Architecture Diagram
 
 **Visual representation of current vs. optimized workflow architecture**
@@ -613,3 +620,10 @@ Benefits:
 **See Also:**
 - `github-workflows-optimization-strategy.md` (Full strategy)
 - `workflow-optimization-implementation-guide.md` (Step-by-step guide)
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

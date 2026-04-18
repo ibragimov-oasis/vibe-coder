@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # Swarm Optimization Migration Guide
 
 ## Overview
@@ -296,3 +303,10 @@ After Phase 1 implementation:
 2. Verify 50% performance improvement
 3. Check memory usage is bounded
 4. Proceed to Phase 2 (Event-driven architecture)
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

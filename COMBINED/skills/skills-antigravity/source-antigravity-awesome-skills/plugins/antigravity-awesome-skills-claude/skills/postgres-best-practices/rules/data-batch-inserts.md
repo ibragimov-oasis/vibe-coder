@@ -3,6 +3,9 @@ title: Batch INSERT Statements for Bulk Data
 impact: MEDIUM
 impactDescription: 10-50x faster bulk inserts
 tags: batch, insert, bulk, performance, copy
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
 ---
 
 ## Batch INSERT Statements for Bulk Data
@@ -52,3 +55,9 @@ copy events (user_id, action) from stdin with (format csv);
 ```
 
 Reference: [COPY](https://www.postgresql.org/docs/current/sql-copy.html)
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

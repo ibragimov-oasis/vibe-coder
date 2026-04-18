@@ -84,6 +84,10 @@ hooks:
         --training-data "$ISSUE_OUTPUT" \
         --epochs 50
     fi
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
 ---
 
 # GitHub Issue Tracker
@@ -574,3 +578,10 @@ Updates will be posted automatically by swarm agents during implementation.
 - Agent performance analytics
 - Project health metrics
 - Integration success rates
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

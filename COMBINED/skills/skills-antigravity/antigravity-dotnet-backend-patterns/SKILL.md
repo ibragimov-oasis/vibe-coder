@@ -4,6 +4,10 @@ description: "Master C#/.NET patterns for building production-grade APIs, MCP se
 risk: safe
 source: community
 date_added: "2026-02-27"
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 # .NET Backend Development Patterns
@@ -38,3 +42,9 @@ Master C#/.NET patterns for building production-grade APIs, MCP servers, and ent
 ## Resources
 
 - `resources/implementation-playbook.md` for detailed .NET patterns and examples.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

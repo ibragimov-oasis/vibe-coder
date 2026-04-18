@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # Documentation - Technical References
 
 This folder contains technical documentation and status reports for the ReasoningBank models project.
@@ -78,3 +85,9 @@ models/
 
 **Last Updated**: 2025-10-15
 **Purpose**: Technical documentation and project status
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-ruflo]] — core-ruflo
+

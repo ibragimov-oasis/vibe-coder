@@ -10,6 +10,10 @@ tools:
   - editFiles
   - createFile
   - createDirectory
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-archon
 ---
 
 # Create Global Rules
@@ -164,3 +168,10 @@ Use the template at `.github/copilot-instructions-template.md` as a starting poi
 - Don't duplicate information that's in other docs (link instead)
 - Focus on patterns and conventions, not exhaustive documentation
 - Update it as the project evolves
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/archon]] — Archon
+- [[000 - Map of Maps]] — Map of Maps
+

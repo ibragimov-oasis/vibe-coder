@@ -1,6 +1,10 @@
 ---
 name: "hard-call"
 description: "/em -hard-call — Framework for Decisions With No Good Options"
+tags:
+  - domain/agents
+  - artifact/skill
+  - source/skills-claude
 ---
 
 # /em:hard-call — Framework for Decisions With No Good Options
@@ -155,3 +159,10 @@ You know you've been avoiding a hard call if:
 Every month you wait, the problem compounds. The co-founder who's not working out becomes more entrenched. The product line that needs to die consumes more resources. The person who needs to be let go affects the people around them.
 
 Make the call. Make it clearly. Make it with dignity.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+- [[MOC - Agents]] — Claude agents
+

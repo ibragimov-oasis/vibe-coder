@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/combined-root
+---
+
 # RESTRUCTURE COMPLETE
 
 Date: April 4, 2026
@@ -16,3 +23,8 @@ Phases 4-7 finalized the PREFIX-SOURCE restructuring for orchestration, prompts/
 - Ran `python stage2_reorg.py --validate`.
 - COMBINED/INDEX.md paths updated to match the new layout.
 - No additional structure validation issues observed during this pass.
+
+## 🔗 Связи
+
+- [[000 - Map of Maps]] — Map of Maps
+

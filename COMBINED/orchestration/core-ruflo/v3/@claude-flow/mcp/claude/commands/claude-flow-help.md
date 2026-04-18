@@ -1,6 +1,10 @@
 ---
 name: claude-flow-help
 description: Show Claude-Flow commands and usage
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
 ---
 
 # Claude-Flow Commands
@@ -101,3 +105,10 @@ npx -y claude-flow@latest init --sparc
 - Documentation: https://github.com/ruvnet/claude-code-flow/docs
 - Examples: https://github.com/ruvnet/claude-code-flow/examples
 - Issues: https://github.com/ruvnet/claude-code-flow/issues
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

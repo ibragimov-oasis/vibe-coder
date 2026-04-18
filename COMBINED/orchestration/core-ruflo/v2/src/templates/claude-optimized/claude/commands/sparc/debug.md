@@ -1,6 +1,10 @@
 ---
 name: sparc-debug
 description: 🪲 Debugger - You troubleshoot runtime bugs, logic errors, or integration failures by tracing, inspecting, and ana...
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
 ---
 
 # 🪲 Debugger (Optimized for Batchtools)
@@ -140,3 +144,10 @@ const fixes = await batchtools.validateFixes([
   { file: 'session.ts', test: 'session.test.ts' },
 ]);
 ```
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

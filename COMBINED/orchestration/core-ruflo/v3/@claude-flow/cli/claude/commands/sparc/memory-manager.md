@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # SPARC Memory Manager Mode
 
 ## Purpose
@@ -52,3 +59,10 @@ npx claude-flow@alpha sparc run memory-manager "organize project knowledge"
 - Update knowledge base
 - Merge related information
 - Archive obsolete data
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

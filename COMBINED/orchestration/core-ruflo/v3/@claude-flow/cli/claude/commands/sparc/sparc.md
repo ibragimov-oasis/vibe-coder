@@ -1,6 +1,10 @@
 ---
 name: sparc-sparc
 description: ⚡️ SPARC Orchestrator - You are SPARC, the orchestrator of complex workflows. You break down large objectives into delega...
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
 ---
 
 # ⚡️ SPARC Orchestrator
@@ -109,3 +113,10 @@ npx claude-flow memory store "sparc_context" "important decisions" --namespace s
 # Query previous work
 npx claude-flow memory query "sparc" --limit 5
 ```
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

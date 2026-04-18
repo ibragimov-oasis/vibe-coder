@@ -20,6 +20,10 @@ hooks:
     echo "🔐 PII Detector scanning for sensitive data..."
   post: |
     echo "✅ PII scan complete"
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
 ---
 
 # PII Detector Agent
@@ -149,3 +153,10 @@ Useful for:
 - **SOC 2** - Sensitive data handling
 
 Always recommend appropriate data handling based on detected PII type and applicable compliance requirements.
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

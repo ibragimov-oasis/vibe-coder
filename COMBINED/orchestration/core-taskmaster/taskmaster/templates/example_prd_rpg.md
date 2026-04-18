@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-taskmaster
+---
+
 <rpg-method>
 # Repository Planning Graph (RPG) Method - PRD Template
 
@@ -509,3 +516,10 @@ RPG-structured PRDs provide:
 3. **Progressive refinement** - Start broad, use `task-master expand` to break down complex tasks
 4. **Use research mode** - `task-master parse-prd --research` leverages AI for better task generation
 </task-master-integration>
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-taskmaster]] — core-taskmaster
+- [[MOC - Skills]] — Skills library
+

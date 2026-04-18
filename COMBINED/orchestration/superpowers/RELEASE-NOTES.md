@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/superpowers
+---
+
 # Superpowers Release Notes
 
 ## v5.0.6 (2026-03-24)
@@ -1081,3 +1088,9 @@ None at this time.
 **Full Changelog:** https://github.com/obra/superpowers/compare/dd013f6...main
 **Skills Repository:** https://github.com/obra/superpowers-skills
 **Issues:** https://github.com/obra/superpowers/issues
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/superpowers]] — superpowers
+

@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/memory
+  - artifact/memory
+  - source/memory
+---
+
 # Worker Service Architecture
 
 ## Overview
@@ -153,3 +160,9 @@ app.get('/foo', this.handleGetFoo.bind(this));
 3. **Dependency Injection**: Route classes receive only the services they need
 4. **Consistent Error Handling**: All handlers use try/catch with logger.failure()
 5. **Bound Methods**: All route handlers use `.bind(this)` to preserve context
+
+## 🔗 Связи
+
+- [[MOC - Memory]] — memory
+- [[000 - Map of Maps]] — Map of Maps
+

@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-deer-flow
+---
+
 # 自动 Title 生成功能实现总结
 
 ## ✅ 已完成的工作
@@ -220,3 +227,10 @@ pytest
 ---
 
 *实现完成时间: 2026-01-14*
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-deer-flow]] — core-deer-flow
+- [[MOC - Skills]] — Skills library
+

@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
+---
+
 # Django REST API — 项目 CLAUDE.md
 
 > 使用 PostgreSQL 和 Celery 的 Django REST Framework API 真实示例。
@@ -306,3 +313,9 @@ pytest --lf
 * 功能分支从 `main` 创建，需要 PR
 * CI：ruff（代码检查 + 格式化）、mypy（类型检查）、pytest（测试）、safety（依赖检查）
 * 部署：Docker 镜像，通过 Kubernetes 或 Railway 管理
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

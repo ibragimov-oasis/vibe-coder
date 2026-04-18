@@ -1,6 +1,10 @@
 ---
 name: csharp-async
 description: 'Get best practices for C# async programming'
+tags:
+  - domain/agents
+  - artifact/skill
+  - source/skills-copilot
 ---
 
 # C# Async Programming Best Practices
@@ -47,3 +51,10 @@ Your goal is to help me follow best practices for asynchronous programming in C#
 - Consider the task-based asynchronous pattern (TAP) for public APIs
 
 When reviewing my C# code, identify these issues and suggest improvements that follow these best practices.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-copilot]] — Category: skills-copilot
+- [[MOC - Agents]] — Copilot agents
+

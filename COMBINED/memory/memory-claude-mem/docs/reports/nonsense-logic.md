@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/memory
+  - artifact/memory
+  - source/memory
+---
+
 # Unjustified Logic Report - worker-service.ts
 
 **Generated:** 2026-01-13
@@ -448,3 +455,9 @@ async processPendingQueues(sessionLimit: number = 10)
 3. **Short-term:** Reduce 5-minute timeout to 30 seconds
 4. **Short-term:** Simplify signal handler pattern
 5. **Consider:** Reduce comment density to improve readability
+
+## 🔗 Связи
+
+- [[MOC - Memory]] — memory
+- [[000 - Map of Maps]] — Map of Maps
+

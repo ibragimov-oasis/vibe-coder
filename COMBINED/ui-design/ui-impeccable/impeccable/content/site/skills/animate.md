@@ -1,5 +1,9 @@
 ---
 tagline: "Purposeful motion that conveys state, not decoration."
+tags:
+  - domain/ui
+  - artifact/ui-component
+  - source/ui-design
 ---
 
 ## When to use it
@@ -40,3 +44,9 @@ Typical additions:
 
 - **Asking for "more animation".** Animate is not a dial. It adds where motion communicates, not everywhere.
 - **Removing the reduced-motion fallbacks.** The skill adds them automatically. Non-negotiable for accessibility.
+
+## 🔗 Связи
+
+- [[MOC - UI Design]] — ui-design
+- [[000 - Map of Maps]] — Map of Maps
+

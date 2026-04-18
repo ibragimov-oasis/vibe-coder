@@ -4,7 +4,10 @@ about: Report a problem with the workflow, prompts, or docs
 title: ''
 labels: ''
 assignees: KhazP
-
+tags:
+  - domain/prompts
+  - artifact/prompt
+  - source/prompts-templates
 ---
 
 **Describe the issue**
@@ -44,3 +47,9 @@ Paste any prompts, instructions, or small snippets that are necessary to reprodu
 **Additional context**
 
 Anything else that might help us understand or reproduce the problem.
+
+## 🔗 Связи
+
+- [[MOC - Prompts]] — Prompt library
+- [[MOC - System]] — System documentation
+

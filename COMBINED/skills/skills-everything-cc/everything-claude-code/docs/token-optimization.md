@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
+---
+
 # Token Optimization Guide
 
 Practical settings and habits to reduce token consumption, extend session quality, and get more work done within daily limits.
@@ -134,3 +141,9 @@ CLAUDE_AUTOCOMPACT_PCT_OVERRIDE=50
 CLAUDE_CODE_SUBAGENT_MODEL=haiku
 CLAUDE_CODE_EXPERIMENTAL_AGENT_TEAMS=1
 ```
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-squad
+---
+
 # GitLab Issues Mode
 
 > **🧪 Experimental.** GitLab Issues Mode is new. Commands, behavior, and integration details may change. [Feedback welcome.](https://github.com/bradygaster/squad/issues)
@@ -195,3 +202,10 @@ what's left in the backlog?
 ```
 
 Refreshes the issue list and shows remaining open work items.
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/squad]] — Squad
+- [[000 - Map of Maps]] — Map of Maps
+

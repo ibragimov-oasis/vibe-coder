@@ -1,6 +1,10 @@
 ---
 name: create-llms
 description: 'Create an llms.txt file from scratch based on repository structure following the llms.txt specification at https://llmstxt.org/'
+tags:
+  - domain/agents
+  - artifact/skill
+  - source/skills-copilot
 ---
 
 # Create LLMs.txt File from Repository Structure
@@ -208,3 +212,10 @@ The created `llms.txt` file should:
 6. Include all critical files for project understanding
 7. Use clear, unambiguous language throughout
 8. Organize content logically for easy consumption
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-copilot]] — Category: skills-copilot
+- [[MOC - Agents]] — Copilot agents
+

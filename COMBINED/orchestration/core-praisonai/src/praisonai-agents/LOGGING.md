@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-praisonai
+---
+
 # Centralized Logging in PraisonAI Agents
 
 This document explains the enhanced centralized logging system implemented to address inconsistent logging patterns across the codebase.
@@ -190,3 +197,10 @@ See the updated modules for examples:
 4. **Production ready**: JSON output for log aggregation systems
 5. **Zero breaking changes**: Existing code continues to work unchanged
 6. **Performance conscious**: No import-time overhead for normal usage
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-praisonai]] — core-praisonai
+- [[MOC - Skills]] — Skills library
+

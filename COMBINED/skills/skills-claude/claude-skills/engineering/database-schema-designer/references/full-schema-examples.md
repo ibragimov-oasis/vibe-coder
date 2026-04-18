@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # database-schema-designer reference
 
 ## Full Schema Example (Task Management SaaS)
@@ -281,3 +288,9 @@ def downgrade() -> None:
 ```
 
 ---
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

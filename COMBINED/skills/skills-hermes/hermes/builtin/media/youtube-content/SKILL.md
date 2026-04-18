@@ -1,6 +1,10 @@
 ---
 name: youtube-content
 description: Fetch YouTube video transcripts and transform them into structured content (chapters, summaries, threads, blog posts).
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-hermes
 ---
 
 # YouTube Content Tool
@@ -69,3 +73,9 @@ After fetching the transcript, format it based on what the user asks for:
 - **Private/unavailable**: The API will raise an error — relay it clearly
 - **No matching language**: Try without specifying a language to get whatever's available
 - **Dependency missing**: Run `pip install youtube-transcript-api` first
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-hermes]] — Category: skills-hermes
+

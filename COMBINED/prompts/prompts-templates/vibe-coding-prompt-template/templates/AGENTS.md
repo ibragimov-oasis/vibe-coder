@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/prompts
+  - artifact/prompt
+  - source/prompts-templates
+---
+
 # AGENTS.md — Master Plan for [App Name]
 
 ## Project Overview & Stack
@@ -33,3 +40,9 @@ These rules apply across all AI coding assistants (Cursor, Copilot, Claude, Gemi
 3. **Context Compaction:** Write states to `MEMORY.md` or a `spec.md` instead of filling context history during long sessions.
 4. **Iterative Verification:** Run tests or linters after each logical change. Fix errors before proceeding (See `REVIEW-CHECKLIST.md`).
 5. **Team Coordination:** If working in Agent Teams, require the Team Lead to approve teammate PRs or plans.
+
+## 🔗 Связи
+
+- [[MOC - Prompts]] — Prompt library
+- [[MOC - System]] — System documentation
+

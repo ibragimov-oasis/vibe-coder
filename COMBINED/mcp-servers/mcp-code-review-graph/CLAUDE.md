@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/mcp
+  - artifact/mcp-server
+  - source/mcp-servers
+---
+
 # CLAUDE.md - Project Context for Claude Code
 
 ## Project Overview
@@ -113,3 +120,9 @@ uv run code-review-graph eval               # Run evaluation benchmarks
 - **type-check**: mypy
 - **security**: bandit scan
 - **test**: pytest matrix (3.10, 3.11, 3.12, 3.13) with 50% coverage minimum
+
+## 🔗 Связи
+
+- [[MOC - MCP Servers]] — mcp-servers
+- [[000 - Map of Maps]] — Map of Maps
+

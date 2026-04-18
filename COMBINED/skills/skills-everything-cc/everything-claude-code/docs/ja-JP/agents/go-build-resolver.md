@@ -3,6 +3,10 @@ name: go-build-resolver
 description: Goビルド、vet、コンパイルエラー解決スペシャリスト。最小限の変更でビルドエラー、go vet問題、リンターの警告を修正します。Goビルドが失敗したときに使用してください。
 tools: ["Read", "Write", "Edit", "Bash", "Grep", "Glob"]
 model: opus
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
 ---
 
 # Goビルドエラーリゾルバー
@@ -366,3 +370,9 @@ Vet 警告修正済み: N
 - 自明でない修正にはインラインコメントで**文書化**
 
 ビルドエラーは外科的に修正すべきです。目標はリファクタリングされたコードベースではなく、動作するビルドです。
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

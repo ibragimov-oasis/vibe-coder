@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-hermes
+---
+
 # Conference Paper Checklists
 
 This reference documents the mandatory checklist requirements for major ML/AI conferences. All major venues now require paper checklists—missing them results in desk rejection.
@@ -359,3 +366,9 @@ templates/
 ├── aaai2026/       # AAAI 2026
 └── colm2025/       # COLM 2025
 ```
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-hermes]] — Category: skills-hermes
+

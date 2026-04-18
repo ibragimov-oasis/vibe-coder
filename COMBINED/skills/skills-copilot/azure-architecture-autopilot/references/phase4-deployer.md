@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-copilot
+---
+
 # Phase 4: Deployment Agent
 
 This file contains detailed instructions for Phase 4. Read and follow this file when the user approves deployment after Phase 3 (code review) is complete.
@@ -316,3 +323,9 @@ Always return to Phase 1 and update the architecture first.
 - Jump directly to Bicep generation without updating the architecture diagram when a change is requested after deployment
 - Ignore the existing deployment state and create new resources in isolation
 - Proceed without confirming with the user whether to add to the existing architecture
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-copilot]] — Category: skills-copilot
+

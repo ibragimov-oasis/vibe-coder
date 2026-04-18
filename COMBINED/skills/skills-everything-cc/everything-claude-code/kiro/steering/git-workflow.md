@@ -1,6 +1,10 @@
 ---
 inclusion: auto
 description: Git workflow guidelines for conventional commits and pull request process
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
 ---
 
 # Git Workflow
@@ -27,3 +31,9 @@ When creating PRs:
 
 > For the full development process (planning, TDD, code review) before git operations,
 > see the development workflow rule.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

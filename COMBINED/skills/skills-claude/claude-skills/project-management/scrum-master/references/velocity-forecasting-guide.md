@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # Velocity Forecasting Guide: Monte Carlo Methods & Probabilistic Estimation
 
 ## Table of Contents
@@ -384,3 +391,9 @@ The goal is not perfect prediction, but better understanding of uncertainty to m
 ---
 
 *This guide provides a comprehensive foundation for implementing probabilistic velocity forecasting. Adapt the techniques to your team's specific context and constraints.*
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

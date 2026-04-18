@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/command
+  - source/commands
+---
+
 # Workflow Automation - GitHub Actions Integration
 
 ## Overview
@@ -440,3 +447,9 @@ npx ruv-swarm actions profile \
 ```
 
 See also: [swarm-pr.md](./swarm-pr.md), [release-swarm.md](./release-swarm.md)
+
+## 🔗 Связи
+
+- [[MOC - System]] — commands
+- [[000 - Map of Maps]] — Map of Maps
+

@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # Release Summary - Claude Flow v2.7.33
 
 **Release Date**: 2025-11-12
@@ -454,3 +461,10 @@ npx claude-flow --version  # Should show v2.7.33
 **Quality Score**: ⭐⭐⭐⭐⭐ 4.8/5.0
 **Risk Level**: ✅ MINIMAL
 **Status**: 🚀 **READY TO DEPLOY**
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-ruflo]] — core-ruflo
+- [[MOC - Skills]] — Skills library
+

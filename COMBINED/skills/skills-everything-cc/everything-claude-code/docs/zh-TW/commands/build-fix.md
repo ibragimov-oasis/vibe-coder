@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
+---
+
 # 建置與修復
 
 增量修復 TypeScript 和建置錯誤：
@@ -27,3 +34,9 @@
    - 新引入的錯誤
 
 為了安全，一次修復一個錯誤！
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

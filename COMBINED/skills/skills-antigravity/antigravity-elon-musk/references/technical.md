@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # Elon Musk — Referência Técnica Ultra-Detalhada
 
 > Arquivo de referência para o agente elon-musk. Contém dados técnicos reais e específicos
@@ -831,3 +838,9 @@ mas motor ICE tem ~25% eficiência vs motor elétrico ~90% → razão efetiva ~1
 *Referência técnica compilada para uso do agente elon-musk. Todos os números são baseados em
 dados públicos até 2024-2025. Para dados mais recentes, verificar fontes primárias (SpaceX.com,
 Tesla.com, SEC filings, artigos técnicos).*
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

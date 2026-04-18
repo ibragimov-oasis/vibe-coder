@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # 🚀 World-Class Engineering & AI/ML/Data Team Skills
 
 Complete set of **14 senior-level skills** for building exceptional engineering and AI/data teams.
@@ -628,3 +635,9 @@ Remember these core principles:
 **Build World-Class Teams! 🎯**
 
 These skills are your foundation for engineering and AI/ML excellence. Use them to build, grow, and scale exceptional teams that deliver outstanding products.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

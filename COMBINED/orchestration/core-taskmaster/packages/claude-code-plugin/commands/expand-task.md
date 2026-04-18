@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-taskmaster
+---
+
 Break down a complex task into subtasks.
 
 Arguments: $ARGUMENTS (task ID)
@@ -47,3 +54,10 @@ After expansion:
 2. Update time estimates
 3. Suggest implementation order
 4. Highlight critical path
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/task-master]] — Task-Master
+- [[000 - Map of Maps]] — Map of Maps
+

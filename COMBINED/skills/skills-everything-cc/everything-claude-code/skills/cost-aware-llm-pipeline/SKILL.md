@@ -2,6 +2,10 @@
 name: cost-aware-llm-pipeline
 description: Cost optimization patterns for LLM API usage — model routing by task complexity, budget tracking, retry logic, and prompt caching.
 origin: ECC
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-everything-cc
 ---
 
 # Cost-Aware LLM Pipeline
@@ -181,3 +185,9 @@ def process(text: str, config: Config, tracker: CostTracker) -> tuple[Result, Co
 - Batch processing pipelines where cost adds up quickly
 - Multi-model architectures that need intelligent routing
 - Production systems that need budget guardrails
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

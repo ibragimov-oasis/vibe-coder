@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-awesome-claude
+---
+
 # Lamoom Python Project Guide
 
 ## Build/Test/Lint Commands
@@ -32,3 +39,9 @@
 - Maintain >80% test coverage (current min: 81%)
 - Follow pre-commit hooks guidelines
 - Document public APIs with docstrings
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-awesome-claude]] — Category: skills-awesome-claude
+

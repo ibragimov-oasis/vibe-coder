@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # ✅ NPX Memory Commands - Complete Fix (v2.7.21)
 
 **Status:** ✅ **FULLY WORKING**
@@ -315,3 +322,10 @@ Full details: https://github.com/ruvnet/claude-flow/issues/840
 **Version:** claude-flow@2.7.21 + agentic-flow@1.8.4
 **Status:** ✅ Production Ready
 **Tested:** Multiple remote environments with npx
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-ruflo]] — core-ruflo
+- [[MOC - Skills]] — Skills library
+

@@ -1,6 +1,10 @@
 ---
 name: refly-upgrade
 description: Upgrade Refly CLI skill files
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-refly
 ---
 
 Run:
@@ -15,3 +19,10 @@ This will:
 3. Update skill version in config
 
 Useful when you've updated the CLI package and want to refresh skill files.
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/refly]] — Refly
+- [[000 - Map of Maps]] — Map of Maps
+

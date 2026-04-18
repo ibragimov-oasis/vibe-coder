@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # Decision Frameworks — Returns & Reverse Logistics
 
 This reference provides the detailed decision logic, scoring matrices, financial models,
@@ -821,3 +828,9 @@ Allocating return costs to the business units that drive them creates accountabi
 | Sizing issue | Merchandise / Product development |
 | Customer changed mind | Cost of doing business (absorbed by margin model) |
 | Fraud | Loss prevention budget |
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

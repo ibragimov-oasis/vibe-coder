@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-squad
+---
+
 # Parallel Execution
 
 > ⚠️ **Experimental** — Squad is alpha software. APIs, commands, and behavior may change between releases.
@@ -175,3 +182,10 @@ Sets concurrency limit. Coordinator batches work: runs 2, waits for completion, 
 Why is Tester waiting? Show me the dependency graph.
 ```
 Coordinator explains why Tester is blocked (e.g., waiting for Backend to finish implementation).
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/squad]] — Squad
+- [[000 - Map of Maps]] — Map of Maps
+

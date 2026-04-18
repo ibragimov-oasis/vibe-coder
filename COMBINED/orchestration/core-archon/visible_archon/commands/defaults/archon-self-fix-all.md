@@ -1,6 +1,10 @@
 ---
 description: Aggressively fix all review findings - lean towards fixing unless clearly a new concern
 argument-hint: (none - reads all review artifacts from $ARTIFACTS_DIR/review/)
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-archon
 ---
 
 # Self-Fix All Review Findings
@@ -424,3 +428,10 @@ Fix report: $ARTIFACTS_DIR/review/fix-report.md
 - **VALIDATION_PASSED**: Type check, lint, and tests all pass
 - **COMMITTED_AND_PUSHED**: Changes committed and pushed to PR branch
 - **REPORTED**: Fix report artifact written and GitHub comment posted
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/archon]] — Archon
+- [[000 - Map of Maps]] — Map of Maps
+

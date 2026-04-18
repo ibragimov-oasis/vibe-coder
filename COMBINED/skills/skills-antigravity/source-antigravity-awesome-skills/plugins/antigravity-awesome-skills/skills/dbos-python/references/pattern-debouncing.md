@@ -3,6 +3,9 @@ title: Debounce Workflows to Prevent Wasted Work
 impact: MEDIUM
 impactDescription: Reduces redundant executions during rapid input
 tags: debounce, throttle, input, optimization
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
 ---
 
 ## Debounce Workflows to Prevent Wasted Work
@@ -57,3 +60,9 @@ def on_input(user_id: str, input: str):
 When workflow executes, it uses the **last** inputs passed to `debounce`.
 
 Reference: [Debouncing Workflows](https://docs.dbos.dev/python/tutorials/workflow-tutorial#debouncing-workflows)
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

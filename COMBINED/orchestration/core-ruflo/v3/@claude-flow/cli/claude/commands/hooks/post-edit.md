@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # hook post-edit
 
 Execute post-edit processing including formatting, validation, and memory updates.
@@ -115,3 +122,10 @@ Returns JSON with:
 - `Edit` - File editing tool
 - `memory usage` - Memory management
 - `neural train` - Pattern training
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

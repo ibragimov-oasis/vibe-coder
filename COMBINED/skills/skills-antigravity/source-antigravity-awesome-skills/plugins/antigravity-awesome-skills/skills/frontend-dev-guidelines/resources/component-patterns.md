@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # Component Patterns
 
 Modern React component architecture for the application emphasizing type safety, lazy loading, and Suspense boundaries.
@@ -500,3 +507,9 @@ export const DataProvider: React.FC<DataProviderProps> = ({ children }) => {
 - [data-fetching.md](data-fetching.md) - useSuspenseQuery details
 - [loading-and-error-states.md](loading-and-error-states.md) - Suspense best practices
 - [complete-examples.md](complete-examples.md) - Full working examples
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

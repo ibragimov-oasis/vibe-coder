@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-squad
+---
+
 # Keeping Your Squad Where You Want It
 
 Your `.ai-team/` directory contains everything—team rosters, skills, decisions, agent histories. The question isn't whether to track it, but *how* and *where* to track it. Here are the real options, with honest tradeoffs.
@@ -327,3 +334,10 @@ Use these prompts with Squad to implement specific strategies:
 - **[Squad for Solo Developers](solo-dev.md)** — Building alone? Here's how Squad becomes your team.
 - **[Multiple Squads](multiple-squads.md)** — Managing more than one AI team.
 - **[Team Portability](team-portability.md)** — Moving your squad to a new repo or machine.
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/squad]] — Squad
+- [[000 - Map of Maps]] — Map of Maps
+

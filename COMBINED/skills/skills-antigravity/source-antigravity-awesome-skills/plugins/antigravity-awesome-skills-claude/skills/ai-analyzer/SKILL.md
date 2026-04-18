@@ -4,6 +4,10 @@ description: AI驱动的综合健康分析系统，整合多维度健康数据�
 allowed-tools: Read, Grep, Glob, Write
 risk: unknown
 source: community
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 # AI健康分析器
@@ -218,3 +222,9 @@ const allergies = exists('data/allergies.json') ? readFile('data/allergies.json'
 - 增量读取：仅读取指定时间范围的数据文件
 - 数据缓存：避免重复读取同一文件
 - 延迟计算：按需生成图表数据
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

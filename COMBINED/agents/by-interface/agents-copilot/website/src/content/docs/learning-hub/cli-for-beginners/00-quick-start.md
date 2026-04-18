@@ -4,6 +4,10 @@ description: 'Install GitHub Copilot CLI, authenticate, and verify your environm
 authors:
   - GitHub Copilot Learning Hub Team
 lastUpdated: 2026-03-20
+tags:
+  - domain/agents
+  - artifact/agent
+  - source/by-interface/agents-copilot
 ---
 
 ![Chapter 00: Quick Start](/images/learning-hub/copilot-cli-for-beginners/00/chapter-header.png)
@@ -264,3 +268,9 @@ copilot
 > 📋 **Quick Reference**: See the [GitHub Copilot CLI command reference](https://docs.github.com/en/copilot/reference/cli-command-reference) for a complete list of commands and shortcuts.
 
 ---
+
+## 🔗 Связи
+
+- [[MOC - Agents]] — Agent catalog
+- [[agents/agents-copilot]] — Interface: agents-copilot
+

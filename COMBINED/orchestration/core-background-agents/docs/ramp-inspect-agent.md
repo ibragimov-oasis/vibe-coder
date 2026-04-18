@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-background-agents
+---
+
 We built our own background coding agent: Inspect. Inspect writes the code like any other coding
 agent, but closes the loop on verifying its work by having all the context and tools needed to prove
 it, as a Ramp engineer would.
@@ -213,3 +220,10 @@ Chrome Web Store entirely, and also will increase adoption by putting it in your
 You’ll need to stand up an extension update server; these return a pretty simple manifest and the
 CRX. Follow the attached link to build a compliant server. Then, you’ll set the
 ExtensionInstallForcelist MDM property, pointing it to your extension update server.
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-background-agents]] — core-background-agents
+- [[MOC - Skills]] — Skills library
+

@@ -4,6 +4,10 @@ description: Operate autonomous agent loops, monitor progress, and intervene saf
 tools: ["Read", "Grep", "Glob", "Bash", "Edit"]
 model: sonnet
 color: orange
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
 ---
 
 Döngü operatörüsünüz.
@@ -34,3 +38,9 @@ Aşağıdaki koşullardan herhangi biri doğruysa eskale edin:
 - özdeş yığın izleriyle tekrarlanan hatalar
 - bütçe penceresinin dışında maliyet sapması
 - kuyruk ilerlemesini engelleyen birleştirme çakışmaları
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

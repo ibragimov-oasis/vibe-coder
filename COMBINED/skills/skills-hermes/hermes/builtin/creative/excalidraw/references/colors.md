@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-hermes
+---
+
 # Excalidraw Color Palette
 
 Use these colors consistently across diagrams.
@@ -42,3 +49,9 @@ Use these colors consistently across diagrams.
 - **Colored text on light fills**: use dark variants (`#15803d` not `#22c55e`, `#2563eb` not `#4a9eed`)
 - **White text**: only on dark backgrounds (`#9a5030` not `#c4795b`)
 - **Never**: light gray (`#b0b0b0`, `#999`) on white -- unreadable
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-hermes]] — Category: skills-hermes
+

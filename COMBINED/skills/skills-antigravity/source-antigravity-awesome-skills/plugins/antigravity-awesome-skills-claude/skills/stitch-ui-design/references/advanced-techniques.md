@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # Advanced Stitch Techniques
 
 Advanced strategies for maximizing Stitch's capabilities and creating production-ready designs.
@@ -539,3 +546,9 @@ These advanced techniques help you move beyond basic Stitch usage to create prod
 - Think in reusable components
 - Plan for all states, not just happy paths
 - Refine exports before production use
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

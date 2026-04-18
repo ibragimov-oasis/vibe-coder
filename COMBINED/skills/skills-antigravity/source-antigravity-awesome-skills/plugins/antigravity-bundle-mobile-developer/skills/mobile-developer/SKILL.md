@@ -4,6 +4,10 @@ description: Develop React Native, Flutter, or native mobile apps with modern ar
 risk: unknown
 source: community
 date_added: '2026-02-27'
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 ## Use this skill when
@@ -201,3 +205,9 @@ Expert mobile developer specializing in React Native, Flutter, and native iOS/An
 - "Create native modules for camera processing in React Native"
 - "Implement real-time chat with offline message queueing"
 - "Design offline-first data sync with conflict resolution"
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

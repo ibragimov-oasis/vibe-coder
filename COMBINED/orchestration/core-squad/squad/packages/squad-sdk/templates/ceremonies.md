@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-squad
+---
+
 # Ceremonies
 
 > Team meetings that happen before or after work. Each squad configures their own.
@@ -67,3 +74,10 @@ At round start, call Test-RetroOverdue (see skill retro-enforcement). If overdue
 
 **Why GitHub Issues, not markdown:**
 Production data: 0% completion across 6 retros using markdown checklists, 100% after switching to GitHub Issues.
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/squad]] — Squad
+- [[000 - Map of Maps]] — Map of Maps
+

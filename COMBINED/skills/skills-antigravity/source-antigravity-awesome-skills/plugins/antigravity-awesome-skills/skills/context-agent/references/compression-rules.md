@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # Regras de Compressão e Arquivamento
 
 ## Quando Arquivar
@@ -62,3 +69,9 @@ maintain
   ├── Verificar drift ACTIVE_CONTEXT ↔ MEMORY.md → sincronizar
   └── Reindexar busca FTS5
 ```
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

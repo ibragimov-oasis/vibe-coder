@@ -3,6 +3,9 @@ title: Use after() for Non-Blocking Operations
 impact: MEDIUM
 impactDescription: faster response times
 tags: server, async, logging, analytics, side-effects
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
 ---
 
 ## Use after() for Non-Blocking Operations
@@ -71,3 +74,9 @@ The response is sent immediately while logging happens in the background.
 - Works in Server Actions, Route Handlers, and Server Components
 
 Reference: [https://nextjs.org/docs/app/api-reference/functions/after](https://nextjs.org/docs/app/api-reference/functions/after)
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

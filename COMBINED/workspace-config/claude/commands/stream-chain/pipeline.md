@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/config
+  - source/workspace-config
+---
+
 # stream-chain pipeline
 
 Execute predefined pipelines for common development workflows.
@@ -119,3 +126,9 @@ Then run:
 ```bash
 claude-flow stream-chain pipeline security
 ```
+
+## 🔗 Связи
+
+- [[MOC - System]] — workspace-config
+- [[000 - Map of Maps]] — Map of Maps
+

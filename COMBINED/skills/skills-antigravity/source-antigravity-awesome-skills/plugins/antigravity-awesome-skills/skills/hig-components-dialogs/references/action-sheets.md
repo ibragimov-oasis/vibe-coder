@@ -48,7 +48,11 @@ The system-defined style for action sheets includes a title, an optional message
 
 Each button has an associated style that conveys information about the button’s effect. There are three system-defined button styles:
 
-Style| Meaning  
+Style| Meaning
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
 ---|---  
 Default| The button has no special meaning.  
 Destructive| The button destroys user data or performs a destructive action in the app.  
@@ -71,4 +75,9 @@ Cancel| The button dismisses the view without taking any action.
 [`confirmationDialog(_:isPresented:titleVisibility:actions:)`](https://developer.apple.com/documentation/SwiftUI/View/confirmationDialog\(_:isPresented:titleVisibility:actions:\)-46zbb) — SwiftUI
 
 [`UIAlertController.Style.actionSheet`](https://developer.apple.com/documentation/UIKit/UIAlertController/Style/actionSheet) — UIKit
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
 

@@ -1,6 +1,10 @@
 ---
 title: "Performance Profiler — Agent Skill for Codex & OpenClaw"
 description: "Performance Profiler. Agent skill for Claude Code, Codex CLI, Gemini CLI, OpenClaw."
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
 ---
 
 # Performance Profiler
@@ -179,3 +183,9 @@ API
 5. **Monitor continuously** — add Datadog/Prometheus metrics for key paths
 6. **Cache invalidation strategy** — cache aggressively, invalidate precisely
 7. **Document the win** — before/after in the PR description motivates the team
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

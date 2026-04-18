@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # Accessibility Audit Examples by Framework
 
 ## Example 1: Vue SFC Form Audit
@@ -310,3 +317,9 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
   }
 </style>
 ```
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

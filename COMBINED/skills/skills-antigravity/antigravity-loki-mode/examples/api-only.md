@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # PRD: REST API Service
 
 ## Overview
@@ -77,3 +84,9 @@ GET /health → 200 + status object
 ---
 
 **Purpose:** Tests backend agent capabilities, code review, and QA without frontend complexity.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

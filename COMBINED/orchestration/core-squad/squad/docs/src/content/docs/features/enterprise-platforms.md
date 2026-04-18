@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-squad
+---
+
 # Enterprise Platforms
 
 Squad supports Azure DevOps and Microsoft Planner in addition to GitHub. When your git remote points to Azure DevOps, Squad automatically detects the platform and adapts its commands. For work-item tracking, Squad also supports a hybrid model where code lives in one platform and tasks live in Microsoft Planner.
@@ -185,3 +192,10 @@ az repos pr create --source-branch ... --target-branch ...
 gh pr list --state open
 gh pr create --head ... --base ...
 ```
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/squad]] — Squad
+- [[000 - Map of Maps]] — Map of Maps
+

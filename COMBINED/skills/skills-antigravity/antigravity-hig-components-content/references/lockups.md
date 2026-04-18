@@ -1,4 +1,11 @@
 ---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
+---
 title: "Lockups | Apple Developer Documentation"
 source: https://developer.apple.com/design/human-interface-guidelines/lockups
 
@@ -75,4 +82,9 @@ For developer guidance, see [`TVPosterView`](https://developer.apple.com/documen
 [`TVLockupView`](https://developer.apple.com/documentation/TVUIKit/TVLockupView) — TVUIKit
 
 [`TVLockupHeaderFooterView`](https://developer.apple.com/documentation/TVUIKit/TVLockupHeaderFooterView) — TVUIKit
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
 

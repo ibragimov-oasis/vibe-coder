@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # Glob: **/*.md
 
 ## Documentation Standards
@@ -20,3 +27,9 @@
 - Use tables for structured comparisons (see README CONCEPTS table as reference)
 - Use badge images from `!/tags/` for visual consistency when linking best-practice or implementation docs
 - Keep headings hierarchical — don't skip levels (e.g., don't jump from `##` to `####`)
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

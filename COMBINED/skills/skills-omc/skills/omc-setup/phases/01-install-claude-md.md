@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/doc
+  - source/skills-omc
+---
+
 # Phase 1: Install CLAUDE.md
 
 ## Determine Configuration Target
@@ -84,3 +91,9 @@ If `--local` or `--global` flag was used, clear state and **STOP HERE**:
 bash "${CLAUDE_PLUGIN_ROOT}/scripts/setup-progress.sh" clear
 ```
 Do not continue to Phase 2 or other phases.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-omc]] — Category: skills-omc
+

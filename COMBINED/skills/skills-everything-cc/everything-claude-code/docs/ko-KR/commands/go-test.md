@@ -1,5 +1,9 @@
 ---
 description: Go용 TDD 워크플로우 강제. 테이블 기반 테스트를 먼저 작성한 후 구현. go test -cover로 80% 이상 커버리지 검증.
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
 ---
 
 # Go TDD 커맨드
@@ -266,3 +270,9 @@ go test -race -cover ./...
 
 - 스킬: `skills/golang-testing/`
 - 스킬: `skills/tdd-workflow/`
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

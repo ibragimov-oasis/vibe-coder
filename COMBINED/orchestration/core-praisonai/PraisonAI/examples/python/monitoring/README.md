@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-praisonai
+---
+
 # PraisonAI Performance Monitoring Examples
 
 This directory contains 10 comprehensive examples demonstrating how to integrate performance monitoring with PraisonAI agents. Each example builds upon the basic pattern while showcasing different aspects of the monitoring system.
@@ -236,3 +243,9 @@ These examples are designed to be educational and extensible. Feel free to:
 ---
 
 **Note:** Performance monitoring is optional and can be disabled by setting `PRAISONAI_TELEMETRY_DISABLED=true` if needed.
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-praisonai]] — core-praisonai
+

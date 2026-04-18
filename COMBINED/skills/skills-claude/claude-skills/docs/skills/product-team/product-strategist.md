@@ -1,6 +1,10 @@
 ---
 title: "Product Strategist — Agent Skill for Product Teams"
 description: "Strategic product leadership toolkit for Head of Product covering OKR cascade generation, quarterly planning, competitive landscape analysis, product. Agent skill for Claude Code, Codex CLI, Gemini CLI, OpenClaw."
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
 ---
 
 # Product Strategist
@@ -236,3 +240,9 @@ See `references/examples/sample_growth_okrs.json` for a complete example.
 
 - **Senior PM** (`project-management/senior-pm/`) — Portfolio management and risk analysis inform strategic planning
 - **Competitive Teardown** (`product-team/competitive-teardown/`) — Competitive intelligence feeds product strategy
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/mcp
+  - artifact/mcp-server
+  - source/mcp-servers
+---
+
 # OpenViking Helm Chart
 
 Deploy OpenViking on Kubernetes using Helm.
@@ -147,3 +154,9 @@ data:
 ```bash
 kubectl delete pvc openviking-data
 ```
+
+## 🔗 Связи
+
+- [[MOC - MCP Servers]] — mcp-servers
+- [[000 - Map of Maps]] — Map of Maps
+

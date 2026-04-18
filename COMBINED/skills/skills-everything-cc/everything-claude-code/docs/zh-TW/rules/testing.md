@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
+---
+
 # 測試需求
 
 ## 最低測試覆蓋率：80%
@@ -28,3 +35,9 @@
 
 - **tdd-guide** - 主動用於新功能，強制先撰寫測試
 - **e2e-runner** - Playwright E2E 測試專家
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

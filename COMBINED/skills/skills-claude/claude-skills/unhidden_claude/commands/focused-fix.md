@@ -1,5 +1,9 @@
 ---
 description: Deep-dive feature repair — systematically fix an entire feature/module. Usage: /focused-fix <feature-path>
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
 ---
 
 Systematically repair the feature/module at `$ARGUMENTS` using the focused-fix 5-phase protocol.
@@ -15,3 +19,9 @@ Read `engineering/focused-fix/SKILL.md` and execute ALL 5 phases IN ORDER:
 5. **VERIFY** — Run all feature tests + consumer tests. Summarize changes.
 
 **Iron Law:** No fixes before completing Phase 3. No exceptions.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

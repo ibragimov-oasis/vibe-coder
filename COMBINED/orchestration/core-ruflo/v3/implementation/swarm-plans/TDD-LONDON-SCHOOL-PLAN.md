@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # TDD London School Implementation Plan
 
 ## Overview
@@ -692,3 +699,10 @@ mockEventBus.on.mockImplementation((event, handler) => {
 - [SWARM-OVERVIEW.md](./SWARM-OVERVIEW.md) - 15-agent swarm plan
 - [AGENT-SPECIFICATIONS.md](./AGENT-SPECIFICATIONS.md) - Agent details
 - [BENCHMARK-OPTIMIZATION.md](./BENCHMARK-OPTIMIZATION.md) - Performance testing
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

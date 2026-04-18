@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-squad
+---
+
 # Team Roster
 
 > {One-line project description}
@@ -58,3 +65,10 @@
 - **Stack:** {languages, frameworks, tools}
 - **Description:** {what the project does, in one sentence}
 - **Created:** {timestamp}
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-squad]] — core-squad
+- [[MOC - Skills]] — Skills library
+

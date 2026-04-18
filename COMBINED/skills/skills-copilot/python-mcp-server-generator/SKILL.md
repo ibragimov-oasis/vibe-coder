@@ -1,6 +1,10 @@
 ---
 name: python-mcp-server-generator
 description: 'Generate a complete MCP server project in Python with tools, resources, and proper configuration'
+tags:
+  - domain/agents
+  - artifact/skill
+  - source/skills-copilot
 ---
 
 # Generate Python MCP Server
@@ -103,3 +107,10 @@ Create a complete Model Context Protocol (MCP) server in Python with the followi
 - Test tools independently before LLM integration
 
 Generate a complete, production-ready MCP server with type safety, proper error handling, and comprehensive documentation.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-copilot]] — Category: skills-copilot
+- [[MOC - Agents]] — Copilot agents
+

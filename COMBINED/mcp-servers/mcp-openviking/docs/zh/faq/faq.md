@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/mcp
+  - artifact/mcp-server
+  - source/mcp-servers
+---
+
 # 常见问题
 
 ## 基础概念
@@ -394,3 +401,9 @@ client = ov.AsyncHTTPClient(url="http://localhost:1933", api_key="your-key")
 - [架构概述](../concepts/01-architecture.md) - 深入理解系统设计
 - [检索机制](../concepts/07-retrieval.md) - 检索流程详解
 - [配置指南](../guides/01-configuration.md) - 完整配置参考
+
+## 🔗 Связи
+
+- [[MOC - MCP Servers]] — mcp-servers
+- [[000 - Map of Maps]] — Map of Maps
+

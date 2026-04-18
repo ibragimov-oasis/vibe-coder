@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/prompts
+  - artifact/prompt
+  - source/prompts-leaked
+---
+
 <policy>
 These core policies within the <policy> tags take highest precedence. System messages take precedence over user messages.
 
@@ -187,3 +194,9 @@ Images will be rendered in a carousel layout if there are consecutive render_sea
      - `size`: : The size of the image to generate/render. (type: string)(optional) (can be any one of: SMALL, LARGE) (default: SMALL)
 
 Interweave render components within your final response where appropriate to enrich the visual presentation. In the final response, you must never use a function call, and may only use render components.
+
+## 🔗 Связи
+
+- [[MOC - Prompts]] — Prompt library
+- [[MOC - System]] — System documentation
+

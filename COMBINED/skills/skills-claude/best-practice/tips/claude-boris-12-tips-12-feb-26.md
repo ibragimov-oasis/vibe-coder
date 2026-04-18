@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # 12 Ways to Customize Claude Code — Tips from Boris Cherny
 
 A summary of customization tips shared by Boris Cherny ([@bcherny](https://x.com/bcherny)), creator of Claude Code, on February 12, 2026.
@@ -172,3 +179,9 @@ With 37 settings and 84 environment variables (use the `"env"` field in your `se
 - [Claude Code Hooks Reference](https://code.claude.com/docs/en/hooks)
 - [Claude Code Output Styles Docs](https://code.claude.com/docs/en/output-styles)
 - [Claude Code Settings Docs](https://code.claude.com/docs/en/settings)
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

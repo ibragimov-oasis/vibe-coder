@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
+---
+
 # Workflow - Multi-Model Collaborative Development
 
 Multi-model collaborative development workflow (Research → Ideation → Plan → Execute → Optimize → Review), with intelligent routing: Frontend → Gemini, Backend → Codex.
@@ -189,3 +196,9 @@ Wait for results with `TaskOutput`. Integrate review feedback, execute optimizat
 1. Phase sequence cannot be skipped (unless user explicitly instructs)
 2. External models have **zero filesystem write access**, all modifications by Claude
 3. **Force stop** when score < 7 or user does not approve
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

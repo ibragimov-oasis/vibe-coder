@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # Demo Scripts
 
 Interactive demonstrations showing Claude Flow creating various applications through the swarm system.
@@ -109,3 +116,9 @@ All demos are executable shell scripts:
 - **Quality Output**: Production-ready code
 - **Best Practices**: Follows coding standards
 - **Complete Apps**: Not just snippets, full applications
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-ruflo]] — core-ruflo
+

@@ -4,6 +4,10 @@ type: docs
 weight: 1
 description: >
   The "mssql-list-tables" tool lists schema information for all or specified tables in a SQL server database.
+tags:
+  - domain/mcp
+  - artifact/mcp-server
+  - source/mcp-servers
 ---
 
 ## About
@@ -44,3 +48,9 @@ description: Use this tool to retrieve schema information for all or specified t
 | type        |  string  |     true     | Must be "mssql-list-tables".                         |
 | source      |  string  |     true     | Name of the source the SQL should execute on.        |
 | description |  string  |     true     | Description of the tool that is passed to the agent. |
+
+## 🔗 Связи
+
+- [[MOC - MCP Servers]] — mcp-servers
+- [[000 - Map of Maps]] — Map of Maps
+

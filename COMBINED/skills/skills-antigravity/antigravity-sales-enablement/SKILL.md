@@ -6,6 +6,10 @@ source: "https://github.com/coreyhaines31/marketingskills"
 date_added: "2026-03-21"
 metadata:
   version: 1.1.0
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 # Sales Enablement
@@ -356,3 +360,9 @@ If context is missing, ask:
 - **revops**: For lead lifecycle, scoring, routing, and pipeline management
 - **pricing-strategy**: For pricing decisions and packaging
 - **product-marketing-context**: For foundational positioning and messaging
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

@@ -1,6 +1,10 @@
 ---
 description: 'Guidance for Debian-based Linux administration, apt workflows, and Debian policy conventions.'
 applyTo: '**'
+tags:
+  - domain/agents
+  - artifact/agent
+  - source/by-interface/agents-copilot
 ---
 
 # Debian Linux Administration Guidelines
@@ -38,3 +42,9 @@ Use these instructions when writing guidance, scripts, or documentation intended
 - Provide commands in copy-paste-ready blocks.
 - Include validation steps after changes.
 - Offer rollback steps for destructive actions.
+
+## 🔗 Связи
+
+- [[MOC - Agents]] — Agent catalog
+- [[agents/agents-copilot]] — Interface: agents-copilot
+

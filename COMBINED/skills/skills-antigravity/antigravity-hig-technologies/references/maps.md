@@ -213,9 +213,18 @@ For developer guidance, see [`WKInterfaceMap`](https://developer.apple.com/docum
 
 ## [Change log](https://developer.apple.com/design/human-interface-guidelines/maps#Change-log)
 
-Date| Changes  
+Date| Changes
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
 ---|---  
 December 18, 2024| Added guidance for place cards and included additional artwork.  
 September 12, 2023| Added artwork.  
-September 23, 2022| Added guidelines for presenting custom information, refined best practices, and consolidated guidance into one page.  
-  
+September 23, 2022| Added guidelines for presenting custom information, refined best practices, and consolidated guidance into one page.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

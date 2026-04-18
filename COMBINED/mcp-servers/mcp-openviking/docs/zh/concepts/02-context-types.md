@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/mcp
+  - artifact/mcp-server
+  - source/mcp-servers
+---
+
 # 上下文类型
 
 基于对人类认知模式的简化映射与工程化思考，OpenViking 将上下文抽象为 **资源、记忆、能力三种**基本类型，每种类型在 Agent 中有不同的用途。
@@ -137,3 +144,9 @@ for ctx in results.skills:
 - [上下文层级](./03-context-layers.md) - L0/L1/L2 模型
 - [Viking URI](./04-viking-uri.md) - URI 规范
 - [会话管理](./08-session.md) - 记忆提取机制
+
+## 🔗 Связи
+
+- [[MOC - MCP Servers]] — mcp-servers
+- [[000 - Map of Maps]] — Map of Maps
+

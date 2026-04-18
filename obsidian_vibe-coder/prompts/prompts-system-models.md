@@ -46,3 +46,9 @@ source: "../COMBINED/prompts/prompts-system-models/"
 
 - [[prompts/prompts-templates]] — шаблоны промптов
 - [[prompts/prompts-security]] — security prompts
+
+## 🔗 Связи
+
+- [[MOC - Prompts]] — Parent MOC
+- [[000 - Map of Maps]] — Map of Maps
+

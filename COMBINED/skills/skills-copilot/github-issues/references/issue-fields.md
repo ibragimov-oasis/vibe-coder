@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-copilot
+---
+
 # Issue Fields (GraphQL, Private Preview)
 
 > **Private preview:** Issue fields are currently in private preview. Request access at https://github.com/orgs/community/discussions/175366
@@ -189,3 +196,9 @@ gh api "search/issues?q=repo:owner/repo+field.priority:P0+is:open&advanced_searc
 ```
 
 > **Warning:** The colon notation (`field:Priority:P1`) is silently ignored. If using search qualifiers, always use dot notation (`field.priority:P1`). However, the GraphQL bulk query approach above is more reliable. See [search.md](search.md) for the full search guide.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-copilot]] — Category: skills-copilot
+

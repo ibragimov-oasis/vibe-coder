@@ -3,6 +3,9 @@ title: Control Which Queues a Worker Listens To
 impact: HIGH
 impactDescription: Enables heterogeneous worker pools (CPU/GPU)
 tags: queue, listen, worker, heterogeneous
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
 ---
 
 ## Control Which Queues a Worker Listens To
@@ -62,3 +65,9 @@ Use cases:
 - Geographic task routing
 
 Reference: [Explicit Queue Listening](https://docs.dbos.dev/python/tutorials/queue-tutorial#explicit-queue-listening)
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

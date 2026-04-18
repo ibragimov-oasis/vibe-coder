@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # Playwright Go Automation - Implementation Playbook
 
 ## Code Examples
@@ -108,3 +115,9 @@ func LoadSession(context playwright.BrowserContext, filepath string) {
     // context.AddCookies(cookies)
 }
 ```
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

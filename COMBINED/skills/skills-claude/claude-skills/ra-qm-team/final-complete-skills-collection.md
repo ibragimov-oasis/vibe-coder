@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # 🎉 COMPLETE: Regulatory Affairs & Quality Management Skills Collection
 
 ## ✅ **ALL 12 WORLD-CLASS EXPERT SKILLS COMPLETED!**
@@ -193,3 +200,9 @@ This complete skills collection provides your HealthTech/MedTech organization wi
 - ✅ **Continuous Improvement** through integrated performance monitoring and optimization
 
 **Your complete Regulatory Affairs & Quality Management dream team is ready to deploy! 🚀**
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

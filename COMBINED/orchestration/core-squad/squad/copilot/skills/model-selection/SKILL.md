@@ -4,6 +4,10 @@ description: "Per-agent model selection with 4-layer hierarchy and fallback chai
 domain: "orchestration"
 confidence: "high"
 source: "extracted"
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-squad
 ---
 
 ## Context
@@ -141,3 +145,10 @@ Include tier annotation only when the model was bumped or a specialist was chose
 - ❌ Applying multiple complexity adjustments (cascading bumps)
 - ❌ Forgetting to include model in spawn acknowledgment
 - ❌ Downgrading vision-required tasks from opus
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/squad]] — Squad
+- [[000 - Map of Maps]] — Map of Maps
+

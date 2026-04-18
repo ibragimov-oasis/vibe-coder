@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/mcp
+  - artifact/mcp-server
+  - source/mcp-servers
+---
+
 # API 概览
 
 本页介绍如何连接 OpenViking 以及所有 API 端点共享的约定。
@@ -373,3 +380,9 @@ openviking -o json ls viking://resources/
 - [技能](04-skills.md) - 技能管理
 - [系统](07-system.md) - 系统和监控 API
 - [管理员](08-admin.md) - 多租户管理 API
+
+## 🔗 Связи
+
+- [[MOC - MCP Servers]] — mcp-servers
+- [[000 - Map of Maps]] — Map of Maps
+

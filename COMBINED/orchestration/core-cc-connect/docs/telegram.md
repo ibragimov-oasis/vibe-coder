@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-cc-connect
+---
+
 # Telegram Setup Guide
 
 This guide walks you through connecting **cc-connect** to Telegram, so you can chat with your local Claude Code via a Telegram bot.
@@ -270,3 +277,10 @@ Make sure Group Privacy mode is disabled. In BotFather: `/mybots` → select bot
 - [Slack Setup](./slack.md)
 - [Discord Setup](./discord.md)
 - [Back to README](../README.md)
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-cc-connect]] — core-cc-connect
+- [[MOC - Skills]] — Skills library
+

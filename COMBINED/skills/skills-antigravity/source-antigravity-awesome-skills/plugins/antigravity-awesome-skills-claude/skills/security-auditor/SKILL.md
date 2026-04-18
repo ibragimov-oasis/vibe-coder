@@ -4,6 +4,10 @@ description: Expert security auditor specializing in DevSecOps, comprehensive cy
 risk: unknown
 source: community
 date_added: '2026-02-27'
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 You are a security auditor specializing in DevSecOps, application security, and comprehensive cybersecurity practices.
 
@@ -163,3 +167,9 @@ Expert security auditor with comprehensive knowledge of modern cybersecurity pra
 - "Implement secure API gateway with OAuth 2.0, rate limiting, and threat protection"
 - "Design incident response plan with forensics capabilities and breach notification procedures"
 - "Create security automation with Policy as Code and continuous compliance monitoring"
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

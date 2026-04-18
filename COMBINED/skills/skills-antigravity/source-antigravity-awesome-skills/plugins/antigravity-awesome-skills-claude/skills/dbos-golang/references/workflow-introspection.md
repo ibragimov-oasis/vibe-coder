@@ -3,6 +3,9 @@ title: List and Inspect Workflows
 impact: MEDIUM
 impactDescription: Enables monitoring and debugging of workflow executions
 tags: workflow, list, inspect, status, monitoring
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
 ---
 
 ## List and Inspect Workflows
@@ -62,3 +65,9 @@ Workflow status values: `WorkflowStatusPending`, `WorkflowStatusEnqueued`, `Work
 To optimize performance, avoid loading inputs/outputs when you don't need them (they are not loaded by default).
 
 Reference: [Workflow Management](https://docs.dbos.dev/golang/tutorials/workflow-management#listing-workflows)
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # Database Optimization Guide
 
 Practical strategies for PostgreSQL query optimization, indexing, and performance tuning.
@@ -591,3 +598,9 @@ VACUUM ANALYZE orders;
 -- Check autovacuum status
 SELECT * FROM pg_stat_user_tables WHERE relname = 'orders';
 ```
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

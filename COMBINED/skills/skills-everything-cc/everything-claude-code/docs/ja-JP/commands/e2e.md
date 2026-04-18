@@ -1,5 +1,9 @@
 ---
 description: Playwright を使用してエンドツーエンドテストを生成して実行します。テストジャーニーを作成し、テストを実行し、スクリーンショット/ビデオ/トレースをキャプチャし、アーティファクトをアップロードします。
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
 ---
 
 # E2E コマンド
@@ -368,3 +372,9 @@ npx playwright codegen http://localhost:3000
 # レポートを表示
 npx playwright show-report
 ```
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

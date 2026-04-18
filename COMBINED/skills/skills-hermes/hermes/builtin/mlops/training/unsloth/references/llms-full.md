@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-hermes
+---
+
 # Unsloth Docs
 
 Train your own model with Unsloth, an open-source framework for LLM fine-tuning and reinforcement learning.
@@ -16796,4 +16803,8 @@ We tested Llama 3.3 (70B) Instruct on a 80GB A100 and did 4bit QLoRA on all line
 | 48 GB    | 12,106                   | OOM                |
 | 80 GB    | 89,389                   | 6,916              |
 
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-hermes]] — Category: skills-hermes
 

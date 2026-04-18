@@ -80,3 +80,9 @@ Multiple `--viz` types render as a grid in a single image.
 - WAV and MP3 are decoded natively; other formats require `ffmpeg`
 - Output images can be inspected with `vision_analyze` for automated audio analysis
 - Useful for comparing audio outputs, debugging synthesis, or documenting audio processing pipelines
+
+## 🔗 Связи
+
+- [[000 - Map of Maps]] — REPO_DOCS
+- [[000 - Map of Maps]] — Map of Maps
+

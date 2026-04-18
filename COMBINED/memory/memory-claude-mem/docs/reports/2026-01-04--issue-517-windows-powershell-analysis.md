@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/memory
+  - artifact/memory
+  - source/memory
+---
+
 # Issue #517 Analysis: Windows PowerShell Escaping in cleanupOrphanedProcesses()
 
 **Date:** 2026-01-04
@@ -85,3 +92,9 @@ const cmd = `wmic process where "parentprocessid=${parentPid}" get processid /fo
 ## Files to Modify
 
 1. `/src/services/infrastructure/ProcessManager.ts` (lines 91-92, 171-172)
+
+## 🔗 Связи
+
+- [[MOC - Memory]] — memory
+- [[000 - Map of Maps]] — Map of Maps
+

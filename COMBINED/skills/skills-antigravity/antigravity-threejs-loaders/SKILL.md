@@ -3,6 +3,10 @@ name: threejs-loaders
 description: Three.js asset loading - GLTF, textures, images, models, async patterns. Use when loading 3D models, textures, HDR environments, or managing loading progress.
 risk: unknown
 source: community
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 # Three.js Loaders
@@ -643,3 +647,9 @@ As of r183, `VRMLLoader` supports loading cameras defined in VRML files.
 - `threejs-textures` - Texture configuration
 - `threejs-animation` - Playing loaded animations
 - `threejs-materials` - Material from loaded models
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

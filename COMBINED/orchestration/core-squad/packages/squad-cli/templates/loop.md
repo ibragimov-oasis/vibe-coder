@@ -3,6 +3,10 @@ configured: false
 interval: 10
 timeout: 30
 description: "My squad work loop"
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-squad
 ---
 
 # Squad Work Loop
@@ -44,3 +48,10 @@ Example: "Be concise. Use bullet points. Flag blockers clearly."
 - **Set boundaries.** Tell the squad what NOT to do (e.g., "Don't send messages to anyone but me").
 - **Start small.** Begin with one task per cycle, then expand.
 - **Use frontmatter.** `interval` controls how often the loop runs. `timeout` caps each cycle.
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/squad]] — Squad
+- [[000 - Map of Maps]] — Map of Maps
+

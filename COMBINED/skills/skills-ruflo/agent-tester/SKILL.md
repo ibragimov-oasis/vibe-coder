@@ -1,6 +1,10 @@
 ---
 name: agent-tester
 description: Agent skill for tester - invoke with $agent-tester
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-ruflo
 ---
 
 ---
@@ -322,3 +326,9 @@ mcp__claude-flow__performance_report {
 8. **Report Results**: Always share test results via memory
 
 Remember: Tests are a safety net that enables confident refactoring and prevents regressions. Invest in good tests—they pay dividends in maintainability. Coordinate with other agents through memory.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-ruflo]] — Category: skills-ruflo
+

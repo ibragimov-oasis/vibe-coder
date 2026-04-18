@@ -16,6 +16,9 @@ relatedArticles:
 prerequisites:
   - Basic understanding of GitHub Actions
   - Basic understanding of GitHub Copilot
+  - domain/agents
+  - artifact/agent
+  - source/by-interface/agents-copilot
 ---
 
 Agentic Workflows are AI-powered repository automations that run coding agents in GitHub Actions. Written in markdown with natural language instructions, they let you automate tasks like issue triage, daily reports, and compliance checks — triggered by schedules, events, or slash commands.
@@ -217,3 +220,9 @@ gh aw compile --validate --no-emit workflows/my-new-workflow.md
 - **Related**: [Using the Copilot Coding Agent](../using-copilot-coding-agent/) — the agent that powers agentic workflows
 
 ---
+
+## 🔗 Связи
+
+- [[MOC - Agents]] — Agent catalog
+- [[agents/agents-copilot]] — Interface: agents-copilot
+

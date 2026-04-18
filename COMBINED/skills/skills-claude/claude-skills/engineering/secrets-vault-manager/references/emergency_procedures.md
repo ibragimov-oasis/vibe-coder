@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # Emergency Procedures Reference
 
 ## Secret Leak Response Playbook
@@ -278,3 +285,9 @@ vault token revoke <root-token>
 | Cloud KMS key compromised | P0 — Create new key, re-encrypt all secrets, rotate all credentials |
 | Audit log gap detected | P1 — Investigate cause, assume worst case for gap period |
 | Multiple failed auth attempts from unknown source | P2 — Block source, investigate, rotate targeted credentials |
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

@@ -2,6 +2,10 @@
 name: omc-doctor
 description: Diagnose and fix oh-my-claudecode installation issues
 level: 3
+tags:
+  - domain/orchestration
+  - artifact/skill
+  - source/skills-omc
 ---
 
 # Doctor Skill
@@ -204,3 +208,10 @@ rm -rf ~/.claude/skills
 
 After applying fixes, inform user:
 > Fixes applied. **Restart Claude Code** for changes to take effect.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-omc]] — Category: skills-omc
+- [[MOC - Orchestration]] — Multi-agent orchestration
+

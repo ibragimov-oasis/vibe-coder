@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-squad
+---
+
 # PRD: Squad CLI Visual Polish
 
 **Status:** Draft  
@@ -156,3 +163,10 @@ The Squad CLI is approaching its first public beta. A full-team review of 9 scre
 - **Designer collaboration:** Brady expressed interest in working with designers. The input box redesign (4.7), separator styling (4.8), and overall layout should be designer-led.
 - **Codebase-aware wait messages:** Phase 2 of rotating messages should analyze the user's repo and surface relevant facts during wait time.
 - **Domain trivia:** Phase 3 could use the project's `.squad/` context to generate fun facts about the user's domain (e.g., Tetris history for a Tetris game).
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/squad]] — Squad
+- [[000 - Map of Maps]] — Map of Maps
+

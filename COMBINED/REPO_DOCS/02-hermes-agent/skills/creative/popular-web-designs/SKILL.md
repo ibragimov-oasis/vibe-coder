@@ -205,3 +205,9 @@ Match the design to the content:
 - **Premium / luxury:** Apple, BMW, Stripe, Superhuman, Revolut
 - **Data-dense / dashboards:** Sentry, Kraken, Cohere, ClickHouse
 - **Monospace / terminal aesthetic:** Ollama, OpenCode, x.ai, VoltAgent
+
+## 🔗 Связи
+
+- [[000 - Map of Maps]] — REPO_DOCS
+- [[000 - Map of Maps]] — Map of Maps
+

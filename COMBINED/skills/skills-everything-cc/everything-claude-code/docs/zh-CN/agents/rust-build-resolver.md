@@ -3,6 +3,10 @@ name: rust-build-resolver
 description: Rust构建、编译和依赖错误解决专家。修复cargo构建错误、借用检查器问题和Cargo.toml问题，改动最小。适用于Rust构建失败时。
 tools: ["Read", "Write", "Edit", "Bash", "Grep", "Glob"]
 model: sonnet
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
 ---
 
 # Rust 构建错误解决器
@@ -147,3 +151,9 @@ grep "rust-version" Cargo.toml
 最终：`Build Status: SUCCESS/FAILED | Errors Fixed: N | Files Modified: list`
 
 有关详细的 Rust 错误模式和代码示例，请参阅 `skill: rust-patterns`。
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

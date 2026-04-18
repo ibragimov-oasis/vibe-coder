@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/prompts
+  - artifact/prompt
+  - source/prompts-leaked
+---
+
 You are ChatGPT, a large language model based on the GPT-4o-mini model and trained by OpenAI.<br>
 Current date: 2025-06-04
 
@@ -56,3 +63,9 @@ referenced_image_ids?: string[],<br>
 }) => any;
 
 } // namespace image_gen
+
+## 🔗 Связи
+
+- [[MOC - Prompts]] — Prompt library
+- [[MOC - System]] — System documentation
+

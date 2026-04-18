@@ -1,6 +1,10 @@
 ---
 name: flow-nexus-sandbox
 description: E2B sandbox management for isolated code execution
+tags:
+  - domain/skills
+  - artifact/command
+  - source/claude-commands
 ---
 
 # Flow Nexus Sandboxes
@@ -81,3 +85,9 @@ mcp__flow-nexus__sandbox_create({
   install_packages: ["numpy", "pandas", "scikit-learn"]
 })
 ```
+
+## 🔗 Связи
+
+- [[MOC - System]] — System commands
+- [[MOC - Skills]] — Skills library
+

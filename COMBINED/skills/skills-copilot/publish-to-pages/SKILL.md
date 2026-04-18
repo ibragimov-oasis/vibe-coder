@@ -1,6 +1,10 @@
 ---
 name: publish-to-pages
 description: 'Publish presentations and web content to GitHub Pages. Converts PPTX, PDF, HTML, or Google Slides to a live GitHub Pages URL. Handles repo creation, file conversion, Pages enablement, and returns the live URL. Use when the user wants to publish, deploy, or share a presentation or HTML file via GitHub Pages.'
+tags:
+  - domain/agents
+  - artifact/skill
+  - source/skills-copilot
 ---
 
 # publish-to-pages
@@ -105,3 +109,10 @@ Tell the user:
 - **PPTX conversion fails:** Tell user to run `pip install python-pptx`.
 - **PDF conversion fails:** Suggest installing `poppler-utils` (`apt install poppler-utils` or `brew install poppler`).
 - **Google Slides download fails:** The presentation may not be publicly accessible. Ask user to make it viewable or download the PPTX manually.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-copilot]] — Category: skills-copilot
+- [[MOC - Agents]] — Copilot agents
+

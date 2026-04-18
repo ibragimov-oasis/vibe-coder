@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/ui
+  - artifact/ui-component
+  - source/ui-design
+---
+
 # Project Instructions for Claude
 
 ## CSS
@@ -149,3 +156,9 @@ open http://localhost:8723/viewer.html
 - **The user is the source of truth on aesthetic quality.** The fingerprinter and detector are useful signals but do not measure "is this design good?" Have the user spot-check the gallery for any meaningful change.
 
 See `evals/AGENT.md` for the full reference: detailed model comparison table, complete lessons learned, all common workflows, and the list of gotchas.
+
+## 🔗 Связи
+
+- [[MOC - UI Design]] — ui-design
+- [[000 - Map of Maps]] — Map of Maps
+

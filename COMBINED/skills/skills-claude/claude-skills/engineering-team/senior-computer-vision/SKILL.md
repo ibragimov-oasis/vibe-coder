@@ -1,6 +1,10 @@
 ---
 name: "senior-computer-vision"
 description: Computer vision engineering skill for object detection, image segmentation, and visual AI systems. Covers CNN and Vision Transformer architectures, YOLO/Faster R-CNN/DETR detection, Mask R-CNN/SAM segmentation, and production deployment with ONNX/TensorRT. Includes PyTorch, torchvision, Ultralytics, Detectron2, and MMDetection frameworks. Use when building detection pipelines, training custom models, optimizing inference, or deploying vision systems.
+tags:
+  - domain/agents
+  - artifact/skill
+  - source/skills-claude
 ---
 
 # Senior Computer Vision Engineer
@@ -437,3 +441,10 @@ python scripts/dataset_pipeline_builder.py data/final/ \
 - **Optimization Guide**: `references/object_detection_optimization.md`
 - **Deployment Guide**: `references/production_vision_systems.md`
 - **Scripts**: `scripts/` directory for automation tools
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+- [[MOC - Agents]] — Claude agents
+

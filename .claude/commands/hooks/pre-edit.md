@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/command
+  - source/claude-commands
+---
+
 # hook pre-edit
 
 Execute pre-edit validations and agent assignment before file modifications.
@@ -111,3 +118,9 @@ Returns JSON with:
 - `Edit` - File editing tool
 - `MultiEdit` - Multiple edits tool
 - `agent spawn` - Manual agent creation
+
+## 🔗 Связи
+
+- [[MOC - System]] — System commands
+- [[MOC - Skills]] — Skills library
+

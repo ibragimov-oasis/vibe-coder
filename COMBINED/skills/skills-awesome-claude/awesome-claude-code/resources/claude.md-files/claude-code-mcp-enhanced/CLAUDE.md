@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-awesome-claude
+---
+
 # GLOBAL CODING STANDARDS
 
 > Reference guide for all project development. For detailed task planning, see [TASK_PLAN_GUIDE.md](./docs/memory_bank/guides/TASK_PLAN_GUIDE.md)
@@ -242,3 +249,9 @@ As an agent, before completing a task, verify that your work adheres to ALL stan
 11. Validation output includes count of failed tests out of total tests run
 
 If any standard is not met, fix the issue before submitting the work.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-awesome-claude]] — Category: skills-awesome-claude
+

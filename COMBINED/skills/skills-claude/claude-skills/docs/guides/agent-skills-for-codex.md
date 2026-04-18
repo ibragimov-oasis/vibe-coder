@@ -1,6 +1,10 @@
 ---
 title: "Agent Skills for OpenAI Codex CLI (2026)"
 description: "Install and use 192 agent skills with OpenAI Codex CLI. Engineering, marketing, product, and DevOps plugins for Codex."
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
 ---
 
 # Agent Skills for OpenAI Codex CLI
@@ -121,3 +125,9 @@ See the [full README](https://github.com/alirezarezvani/claude-skills) for platf
 ---
 
 *Last updated: March 2026 · [alirezarezvani/claude-skills](https://github.com/alirezarezvani/claude-skills)*
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

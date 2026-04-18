@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-gsd
+---
+
 <purpose>
 Extract implementation decisions that downstream agents need. Analyze the phase to identify gray areas and capture decisions that guide research and planning.
 Headless SDK variant — in autonomous mode, AI self-discusses by analyzing available context and making decisions based on project artifacts and codebase patterns.
@@ -108,3 +115,10 @@ Create CONTEXT.md capturing decisions made:
 - CONTEXT.md captures actual decisions with rationale
 - Scope maintained (no creep into deferred ideas)
 </success_criteria>
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/gsd]] — GSD
+- [[000 - Map of Maps]] — Map of Maps
+

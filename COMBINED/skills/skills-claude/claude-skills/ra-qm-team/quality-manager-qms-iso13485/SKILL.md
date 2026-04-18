@@ -14,6 +14,10 @@ triggers:
   - design control
   - supplier qualification
   - quality records
+tags:
+  - domain/agents
+  - artifact/skill
+  - source/skills-claude
 ---
 
 # Quality Manager - QMS ISO 13485 Specialist
@@ -433,3 +437,10 @@ Nonconforming Product Identified
 | [qms-audit-expert](../qms-audit-expert/) | Advanced audit techniques |
 | [quality-documentation-manager](../quality-documentation-manager/) | DHF, DMR, DHR management |
 | [risk-management-specialist](../risk-management-specialist/) | ISO 14971 integration |
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+- [[MOC - Agents]] — Claude agents
+

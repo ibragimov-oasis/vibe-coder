@@ -4,6 +4,10 @@ description: "This skill should be used when the user asks to convert an academi
 risk: safe
 source: community
 date_added: "2026-03-14"
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 # LaTeX Paper Conversion
@@ -66,3 +70,9 @@ AGENT: *Triggers latex-paper-conversion skill*
 ## Additional Resources
 
 - [Overleaf LaTeX Documentation](https://www.overleaf.com/learn)
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

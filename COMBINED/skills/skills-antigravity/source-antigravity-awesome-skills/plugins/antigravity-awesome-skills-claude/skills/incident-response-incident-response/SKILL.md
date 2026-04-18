@@ -4,6 +4,10 @@ description: "Use when working with incident response incident response"
 risk: unknown
 source: community
 date_added: "2026-02-27"
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 ## Use this skill when
@@ -169,3 +173,9 @@ Orchestrate multi-agent incident response with modern SRE practices for rapid re
 - Timestamp all significant events
 
 Production incident requiring immediate response: $ARGUMENTS
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

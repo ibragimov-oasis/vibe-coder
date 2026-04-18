@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-cc-connect
+---
+
 # Usage Guide
 
 Complete guide to using cc-connect features.
@@ -1012,3 +1019,10 @@ type = "feishu"  # or dingtalk, telegram, slack, discord, wecom, weixin, line, q
 [projects.platforms.options]
 # platform-specific options
 ```
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-cc-connect]] — core-cc-connect
+- [[MOC - Skills]] — Skills library
+

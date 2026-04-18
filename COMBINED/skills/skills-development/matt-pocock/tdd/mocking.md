@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-development
+---
+
 # When to Mock
 
 Mock at **system boundaries** only:
@@ -57,3 +64,9 @@ The SDK approach means:
 - No conditional logic in test setup
 - Easier to see which endpoints a test exercises
 - Type safety per endpoint
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-development]] — Category: skills-development
+

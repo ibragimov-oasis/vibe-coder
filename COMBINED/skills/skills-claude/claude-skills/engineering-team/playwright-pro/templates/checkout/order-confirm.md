@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # Order Confirmation Template
 
 Tests the success page and order details after checkout.
@@ -106,3 +113,9 @@ test.describe('Order Confirmation', () => {
 | Continue shopping | Returns to /products |
 | Unauthorized | Other user's order → 403 |
 | Cart cleared | Cart count = 0 after checkout |
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

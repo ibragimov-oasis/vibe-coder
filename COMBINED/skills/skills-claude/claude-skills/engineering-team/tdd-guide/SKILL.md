@@ -1,6 +1,10 @@
 ---
 name: "tdd-guide"
 description: "Test-driven development skill for writing unit tests, generating test fixtures and mocks, analyzing coverage gaps, and guiding red-green-refactor workflows across Jest, Pytest, JUnit, Vitest, and Mocha. Use when the user asks to write tests, improve test coverage, practice TDD, generate mocks or stubs, or mentions testing frameworks like Jest, pytest, or JUnit."
+tags:
+  - domain/agents
+  - artifact/skill
+  - source/skills-claude
 ---
 
 # TDD Guide
@@ -401,3 +405,10 @@ Mutation testing modifies your production code (creates "mutants") and checks wh
 - E2E testing: Playwright, Cypress, Selenium
 - Performance testing: k6, JMeter, Locust
 - Security testing: OWASP ZAP, Burp Suite
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+- [[MOC - Agents]] — Claude agents
+

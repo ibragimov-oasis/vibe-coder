@@ -4,6 +4,10 @@ description: "Step-by-step release checklist for Squad — prevents v0.8.22-styl
 domain: "release-management"
 confidence: "high"
 source: "team-decision"
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-squad
 ---
 
 ## Context
@@ -421,3 +425,10 @@ This skill was created after the v0.8.22 release disaster. Full retrospective: `
 5. Retry logic is essential — npm propagation takes time
 
 **Never again.**
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/squad]] — Squad
+- [[000 - Map of Maps]] — Map of Maps
+

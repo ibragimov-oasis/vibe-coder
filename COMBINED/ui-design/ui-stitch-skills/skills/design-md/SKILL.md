@@ -6,6 +6,10 @@ allowed-tools:
   - "Read"
   - "Write"
   - "web_fetch"
+tags:
+  - domain/ui
+  - artifact/ui-component
+  - source/ui-design
 ---
 
 # Stitch DESIGN.md Skill
@@ -170,3 +174,9 @@ To use this skill for the Furniture Collection project:
 - ❌ Forgetting to explain functional roles of design elements
 - ❌ Being too vague in atmosphere descriptions
 - ❌ Ignoring subtle design details like shadows or spacing patterns
+
+## 🔗 Связи
+
+- [[MOC - UI Design]] — ui-design
+- [[000 - Map of Maps]] — Map of Maps
+

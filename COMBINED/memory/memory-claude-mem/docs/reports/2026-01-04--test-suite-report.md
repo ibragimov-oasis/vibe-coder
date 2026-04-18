@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/memory
+  - artifact/memory
+  - source/memory
+---
+
 # Test Suite Report
 
 **Date:** January 4, 2026
@@ -216,3 +223,9 @@ The new modular test suite provides **395 comprehensive tests** across 6 well-or
 
 **Pass Rate:** 95.3% (567/595)
 **Phase Tests:** 100% (395/395)
+
+## 🔗 Связи
+
+- [[MOC - Memory]] — memory
+- [[000 - Map of Maps]] — Map of Maps
+

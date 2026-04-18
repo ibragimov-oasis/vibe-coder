@@ -4,6 +4,10 @@ description: Review Bitcoin Lightning Network protocol designs, compare channel 
 risk: safe
 source: community
 date_added: '2026-03-03'
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 ## Use this skill when
@@ -50,3 +54,9 @@ Expert reviewer for Bitcoin Lightning Network protocol designs. Compares channel
 - SuperScalar project: https://github.com/8144225309/SuperScalar
 - Website: https://SuperScalar.win
 - Original proposal: https://delvingbitcoin.org/t/superscalar-laddered-timeout-tree-structured-decker-wattenhofer-factories/1143
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

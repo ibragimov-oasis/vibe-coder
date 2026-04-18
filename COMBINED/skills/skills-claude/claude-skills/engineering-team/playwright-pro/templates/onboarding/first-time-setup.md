@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # First-Time Setup Template
 
 Tests initial configuration wizard and profile completion after registration.
@@ -128,3 +135,9 @@ test.describe('First-Time Setup', () => {
 | Progress bar | Progressbar value updates per step |
 | Required field | Empty step blocked with error |
 | Skip on re-login | Setup not triggered again |
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

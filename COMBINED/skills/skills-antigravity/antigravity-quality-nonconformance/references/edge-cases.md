@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # Quality & Non-Conformance Management — Edge Cases Reference
 
 > Tier 3 reference. Load on demand when handling complex or ambiguous quality situations that don't resolve through standard NCR/CAPA workflows.
@@ -586,3 +593,9 @@ The edge cases above share common patterns. When you encounter a quality situati
 | 13. Wrong material, correct cert | Counterfeit prevention (AS9100) | Incoming inspection update |
 | 14. CAPA backlog | CAPA initiation criteria triage | Management review |
 | 15. Validation deviation | Process validation impact assessment | Calibration program improvement |
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

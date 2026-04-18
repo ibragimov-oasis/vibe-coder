@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-hermes
+---
+
 # PptxGenJS Tutorial
 
 ## Setup & Basic Structure
@@ -418,3 +425,9 @@ titleSlide.addText("My Title", { placeholder: "title" });
 - **Layouts**: LAYOUT_16x9 (10"×5.625"), LAYOUT_16x10, LAYOUT_4x3, LAYOUT_WIDE
 - **Alignment**: "left", "center", "right"
 - **Chart data labels**: "outEnd", "inEnd", "center"
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-hermes]] — Category: skills-hermes
+

@@ -4,6 +4,10 @@ description: "Automate LinkedIn tasks via Rube MCP (Composio): create posts, man
 risk: critical
 source: community
 date_added: "2026-02-27"
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 # LinkedIn Automation via Rube MCP
@@ -177,3 +181,9 @@ Automate LinkedIn operations through Composio's LinkedIn toolkit via Rube MCP.
 
 ## When to Use
 This skill is applicable to execute the workflow or actions described in the overview.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

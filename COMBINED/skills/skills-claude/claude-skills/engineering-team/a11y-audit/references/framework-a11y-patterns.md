@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # Framework-Specific Accessibility Patterns
 
 ## React / Next.js
@@ -659,3 +666,9 @@ import { A11yModule } from '@angular/cdk/a11y';
   </tbody>
 </table>
 ```
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

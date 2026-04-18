@@ -1,6 +1,10 @@
 ---
 description: Extract patterns and learnings from current session
 agent: build
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
 ---
 
 # Learn Command
@@ -59,3 +63,9 @@ If patterns are significant, suggest updates to:
 ---
 
 **TIP**: Run `/learn` periodically during long sessions to capture insights before context compaction.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

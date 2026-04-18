@@ -7,6 +7,10 @@ metadata:
   author: Alireza Rezvani
   category: marketing
   updated: 2026-03-06
+tags:
+  - domain/agents
+  - artifact/skill
+  - source/skills-claude
 ---
 
 # Referral Program
@@ -284,3 +288,10 @@ All output follows the structured communication standard:
 - **marketing-demand-acquisition**: Use for multi-channel paid and organic acquisition strategy. NOT for referral-specific mechanics.
 - **ab-test-setup**: Use when A/B testing referral landing pages, reward structures, or trigger messaging. NOT for the program design.
 - **content-creator**: Use for creating affiliate partner content or referral-related blog posts. NOT for program mechanics.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+- [[MOC - Agents]] — Claude agents
+

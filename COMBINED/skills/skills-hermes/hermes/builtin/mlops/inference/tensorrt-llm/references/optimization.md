@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-hermes
+---
+
 # TensorRT-LLM Optimization Guide
 
 Comprehensive guide to optimizing LLM inference with TensorRT-LLM.
@@ -240,3 +247,9 @@ python benchmarks/python/benchmark.py \
 - Try speculative decoding
 - Reduce `max_batch_size` (less queueing)
 - Use FP8 instead of FP16
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-hermes]] — Category: skills-hermes
+

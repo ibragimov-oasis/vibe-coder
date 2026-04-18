@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # WASM Kernel Guide
 
 The WASM kernel offloads hot-path operations (hashing, secret scanning, destructive detection, shard scoring) from JavaScript to Rust compiled to WebAssembly. It loads automatically when available and falls back to JS transparently.
@@ -243,3 +250,10 @@ wasm-kernel/
 ```
 
 Each Rust module has unit tests (`cargo test` runs 15 tests).
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

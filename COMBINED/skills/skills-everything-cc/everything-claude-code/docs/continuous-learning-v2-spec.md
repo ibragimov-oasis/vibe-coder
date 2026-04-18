@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
+---
+
 # Continuous Learning v2 Spec
 
 This document captures the v2 continuous-learning architecture:
@@ -12,3 +19,9 @@ Primary implementation lives in:
 - `scripts/hooks/`
 
 Use this file as the stable reference path for docs and translations.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

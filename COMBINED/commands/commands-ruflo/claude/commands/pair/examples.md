@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/command
+  - source/commands
+---
+
 # Pair Programming Examples
 
 Real-world examples and scenarios for pair programming sessions.
@@ -510,3 +517,9 @@ Available templates:
 - [Session Management](./session.md)
 - [Commands Reference](./commands.md)
 - [Configuration](./config.md)
+
+## 🔗 Связи
+
+- [[MOC - System]] — commands
+- [[000 - Map of Maps]] — Map of Maps
+

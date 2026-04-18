@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # Logistics Exception Management — Edge Cases Reference
 
 > Tier 3 reference. Load on demand when handling complex or ambiguous exceptions that don't resolve through standard workflows.
@@ -732,3 +739,9 @@ The edge cases above share several themes that experienced exception managers in
 6. **Contracts and tariffs are the battlefield.** Every surcharge dispute, every consequential damages claim, and every liability allocation ultimately comes down to what was written, what was communicated, and what was incorporated by reference. Read the tariff. Read the contract. Know what your counterparty actually agreed to.
 
 7. **Time is the most expensive variable.** Every day a perishable shipment sits at a carrier's yard, every hour an assembly line is down, every week a customs hold persists — these accrue costs that dwarf the underlying product value. Speed of resolution is not just a service metric; it's a financial imperative.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

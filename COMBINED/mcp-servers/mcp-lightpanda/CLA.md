@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/mcp
+  - artifact/mcp-server
+  - source/mcp-servers
+---
+
 # Lightpanda (Selecy SAS) Grant and Contributor License Agreement (“Agreement”)
 
 This agreement is based on the Apache Software Foundation Contributor License
@@ -91,3 +98,9 @@ reserve all right, title, and interest in and to Your Contributions.
    (including, but not limited to, related patents, trademarks, and license
    agreements) of which you are personally aware, and conspicuously marking the
    work as “Submitted on behalf of a third-party: [named here]”.
+
+## 🔗 Связи
+
+- [[MOC - MCP Servers]] — mcp-servers
+- [[000 - Map of Maps]] — Map of Maps
+

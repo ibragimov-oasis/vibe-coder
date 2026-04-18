@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # Video 1: From Vibe Coding to Agentic Engineering — Workflows with Claude Code
 
 **Total duration: ~5 minutes**
@@ -98,3 +105,9 @@
 | Command | `.claude/commands/` | Entry point, orchestration, `/slash-command` |
 | Agent | `.claude/agents/` | Specialized worker with own tools & model |
 | Skill | `.claude/skills/` | Reusable instructions (preloaded or invoked) |
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

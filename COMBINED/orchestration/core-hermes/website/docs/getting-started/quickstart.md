@@ -2,6 +2,10 @@
 sidebar_position: 1
 title: "Quickstart"
 description: "Your first conversation with Hermes Agent — from install to chatting in 2 minutes"
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-hermes
 ---
 
 # Quickstart
@@ -226,3 +230,10 @@ mcp_servers:
 - **[Configuration](../user-guide/configuration.md)** — Customize your setup
 - **[Messaging Gateway](../user-guide/messaging/index.md)** — Connect Telegram, Discord, Slack, WhatsApp, Signal, Email, or Home Assistant
 - **[Tools & Toolsets](../user-guide/features/tools.md)** — Explore available capabilities
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/hermes]] — Hermes
+- [[000 - Map of Maps]] — Map of Maps
+

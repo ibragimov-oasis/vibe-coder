@@ -4,6 +4,10 @@ description: "Master major dependency version upgrades, compatibility analysis, 
 risk: critical
 source: community
 date_added: "2026-02-27"
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 # Dependency Upgrade
@@ -422,3 +426,9 @@ Post-Upgrade:
 - Not reading breaking change notes
 - Skipping major versions
 - Not having rollback plan
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

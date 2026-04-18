@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-squad
+---
+
 # Squad Alongside a Team of Human Developers
 
 > ⚠️ **Experimental** — Squad is alpha software. APIs, commands, and behavior may change between releases.
@@ -232,3 +239,10 @@ Tank finds a broken test, fixes it, commits. Sarah doesn't have to.
 - **Agents don't guess.** If a task routes to a human, the coordinator pauses until you relay the human's decision.
 - **Agents make PRs, humans review.** Preserve your team's code review culture — agents submit work for approval, not direct commits.
 - **Agents handle the tedious stuff.** Test writing, linting fixes, refactoring — offload it to agents so humans focus on high-value work.
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/squad]] — Squad
+- [[000 - Map of Maps]] — Map of Maps
+

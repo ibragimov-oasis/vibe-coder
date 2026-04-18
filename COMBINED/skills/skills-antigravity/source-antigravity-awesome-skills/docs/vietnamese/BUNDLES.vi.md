@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # 📦 Gói Kỹ năng Antigravity (Skill Bundles)
 
 Bạn không biết bắt đầu từ đâu? Hãy chọn một gói dưới đây để sỡ hữu bộ kỹ năng được tuyển chọn phù hợp cho vai trò của bạn.
@@ -122,3 +129,9 @@ _Để tạo ra những trải nghiệm hoàn hảo đến từng pixel._
 ---
 
 _Để sử dụng một gói kỹ năng, chỉ cần copy tên các skill vào thư mục `.agent/skills` của bạn hoặc yêu cầu trợ lý AI sử dụng chúng._
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

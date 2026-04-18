@@ -2,6 +2,10 @@
 name: instinct-import
 description: チームメイト、Skill Creator、その他のソースからインスティンクトをインポート
 command: true
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
 ---
 
 # インスティンクトインポートコマンド
@@ -140,3 +144,9 @@ PASS: インポート完了!
 
 /instinct-statusを実行してすべてのinstinctsを確認できます。
 ```
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # hive-mind-spawn
 
 Spawn a Hive Mind swarm with queen-led coordination.
@@ -19,3 +26,10 @@ npx claude-flow hive-mind spawn "Build API"
 npx claude-flow hive-mind spawn "Research patterns" --queen-type adaptive
 npx claude-flow hive-mind spawn "Build service" --claude
 ```
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

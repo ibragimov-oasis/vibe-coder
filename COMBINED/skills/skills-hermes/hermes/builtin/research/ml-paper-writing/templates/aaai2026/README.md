@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-hermes
+---
+
 # AAAI 2026 统一LaTeX模板使用说明 / AAAI 2026 Unified LaTeX Template Guide
 
 > **📝 重要说明 / Important Notice**: 本仓库借助Cursor在AAAI 2026官方模板基础上改进得到。如果遇到不满足或有冲突的情况，请积极提issues。
@@ -532,3 +539,9 @@ pdflatex aaai2026-unified-template.tex
 
 🎉 **现在您只需要修改一行代码就可以在两个版本之间切换，同时所有必要的依赖文件都已经准备就绪！**  
 🎉 **Now you only need to modify one line of code to switch between the two versions, with all necessary dependency files ready to use!**
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-hermes]] — Category: skills-hermes
+

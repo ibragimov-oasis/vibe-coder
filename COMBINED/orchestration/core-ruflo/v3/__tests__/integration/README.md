@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # V3 Integration Test Suite
 
 Comprehensive cross-module integration tests for claude-flow V3 architecture.
@@ -252,3 +259,9 @@ Integration tests include:
 - `/v3/docs/testing/` - Testing strategy
 - `/v3/README.md` - V3 overview
 - `/CLAUDE.md` - Development guidelines
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-ruflo]] — core-ruflo
+

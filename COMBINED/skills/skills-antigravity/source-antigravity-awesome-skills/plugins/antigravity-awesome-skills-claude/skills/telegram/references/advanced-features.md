@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # Recursos Avancados - Telegram Bot
 
 ## Table of Contents
@@ -353,3 +360,9 @@ def stream_response(chat_id, full_text):
 ```
 
 **Nota:** `sendMessageDraft` e um metodo recente. Verifique disponibilidade na versao da API que esta usando.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

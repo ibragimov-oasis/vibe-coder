@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-squad
+---
+
 # Cross-Squad Orchestration
 
 **Try this to discover known squads:**
@@ -198,3 +205,10 @@ Delegates know whether their work fits.
 - [Upstream Auto-Sync](/features/upstream-sync) — Keep squads in sync automatically
 - [Persistent Ralph](/features/persistent-ralph) — Track all squad activity
 - [Generic Scheduler](/features/generic-scheduler) — Schedule cross-squad workflows
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/squad]] — Squad
+- [[000 - Map of Maps]] — Map of Maps
+

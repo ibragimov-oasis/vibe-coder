@@ -1,5 +1,9 @@
 ---
 description: Manage Claude Code session history, aliases, and session metadata.
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
 ---
 
 # Sessions Command
@@ -331,3 +335,9 @@ $ARGUMENTS:
 - Aliases are stored in `~/.claude/session-aliases.json`
 - Session IDs can be shortened (first 4-8 characters usually unique enough)
 - Use aliases for frequently referenced sessions
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

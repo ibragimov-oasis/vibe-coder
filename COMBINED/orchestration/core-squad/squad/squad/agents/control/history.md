@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-squad
+---
+
 # CONTROL
 
 > Control System Engineer
@@ -51,3 +58,10 @@ There is no `claude-haiku-4.6`. The latest haiku is `claude-haiku-4.5`. Never bu
 - `scripts/sync-templates.mjs` handles the rename: mirror targets get `.template` suffix, `.github/agents/` target keeps `.md`.
 - All code reading templates for init/upgrade/consult (SDK `init.ts`, CLI `upgrade.ts`, CLI `templates.ts`, SDK `consult.ts`) references `squad.agent.md.template` as the source filename.
 - The `TEMPLATE_MANIFEST` in `templates.ts` uses `source: 'squad.agent.md.template'` but `destination: '../.github/agents/squad.agent.md'` — source and target names differ.
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/squad]] — Squad
+- [[000 - Map of Maps]] — Map of Maps
+

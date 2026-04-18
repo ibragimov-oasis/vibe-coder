@@ -3,6 +3,10 @@ name: context-compression
 description: "When agent sessions generate millions of tokens of conversation history, compression becomes mandatory. The naive approach is aggressive compression to minimize tokens per request."
 risk: unknown
 source: community
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 # Context Compression Strategies
@@ -263,4 +267,9 @@ External resources:
 **Last Updated**: 2025-12-26
 **Author**: Agent Skills for Context Engineering Contributors
 **Version**: 1.1.0
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
 

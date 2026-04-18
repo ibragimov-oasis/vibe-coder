@@ -9,6 +9,10 @@ capabilities:
   - performance_tracking
   - memory_coordination
   - self_learning
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-ruflo
 ---
 
 # Worker-Agent Integration Skill
@@ -152,3 +156,9 @@ Enable integration features in `.claude$settings.json`:
   }
 }
 ```
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-ruflo]] — Category: skills-ruflo
+

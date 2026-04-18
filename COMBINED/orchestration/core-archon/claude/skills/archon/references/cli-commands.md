@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-archon
+---
+
 # Archon CLI Command Reference
 
 All commands must be run from within a git repository (subdirectories work — resolves to repo root). Exceptions: `version`, `setup`, `chat`.
@@ -152,3 +159,10 @@ archon chat "/status"
 | `ARCHON_HOME` | Override base directory (default: `~/.archon`) |
 | `LOG_LEVEL` | Pino log level: `fatal\|error\|warn\|info\|debug\|trace` |
 | `DATABASE_URL` | PostgreSQL URL (omit for SQLite default) |
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/archon]] — Archon
+- [[000 - Map of Maps]] — Map of Maps
+

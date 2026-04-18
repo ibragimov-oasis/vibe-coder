@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/prompts
+  - artifact/prompt
+  - source/prompts-templates
+---
+
 # CLAUDE.md
 
 > Quick reference for Claude Code when working on prompts.chat
@@ -68,3 +75,9 @@ src/
 2. Add translations for any user-facing text
 3. Use existing UI components from `src/components/ui/`
 4. Never commit secrets (use `.env`)
+
+## 🔗 Связи
+
+- [[MOC - Prompts]] — Prompt library
+- [[MOC - System]] — System documentation
+

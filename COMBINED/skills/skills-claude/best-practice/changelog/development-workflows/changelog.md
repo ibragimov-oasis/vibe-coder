@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # Development Workflows Changelog
 
 **Status Legend:**
@@ -304,3 +311,9 @@
 | 6 | MED | Star Update | Update OpenSpec ★ from 38k to 39k (38,700 actual) | COMPLETE (updated README table) |
 | 7 | LOW | Star Update | Update oh-my-claudecode ★ from 26k to 27k (26,900 actual — v4.11.4 daily releases) | COMPLETE (updated README table) |
 | 8 | LOW | Count Update | Update CE skills from 44 to 43 (42 compound-eng + 1 coding-tutor; minor consolidation) | COMPLETE (updated README table) |
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

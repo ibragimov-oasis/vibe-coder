@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # Debug and Trace Configuration Implementation Playbook
 
 This file contains detailed patterns, checklists, and code samples referenced by the skill.
@@ -1305,3 +1312,9 @@ Configure IDE debugging features:
 8. **Emergency Procedures**: Production debugging protocols
 
 Focus on creating a comprehensive debugging environment that enhances developer productivity and enables rapid issue resolution in all environments.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

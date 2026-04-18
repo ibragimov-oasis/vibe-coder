@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-hermes
+---
+
 # Deleted Content Recovery Techniques
 
 ## Key Insight: GitHub Never Fully Deletes Force-Pushed Commits
@@ -162,3 +169,9 @@ python3 SKILL_DIR/scripts/evidence-store.py --store evidence.json add \
 | `github.com/OWNER/REPO/commit/SHA` returns 404 | GC ran or SHA is wrong | Verify SHA via GH Archive; try partial SHA search |
 | Wayback Machine has no snapshots | Page was never crawled by IA | Check `commoncrawl.org`, check Google Cache |
 | BigQuery shows event but no content | GH Archive stores event metadata, not file contents | Recovery only reveals the event occurred, not the content |
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-hermes]] — Category: skills-hermes
+

@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-omc
+---
+
 <!-- Parent: ../AGENTS.md -->
 <!-- Generated: 2026-01-28 | Updated: 2026-01-28 -->
 
@@ -129,3 +136,10 @@ npm test -- --grep "lsp"
 | YAML | yaml-language-server | `yaml-language-server` | .yaml, .yml |
 
 <!-- MANUAL: -->
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/omc]] — OMC
+- [[000 - Map of Maps]] — Map of Maps
+

@@ -4,6 +4,10 @@ type: docs
 weight: 1
 description: >
   A "bigquery-sql" tool executes a pre-defined SQL statement.
+tags:
+  - domain/mcp
+  - artifact/mcp-server
+  - source/mcp-servers
 ---
 
 ## About
@@ -194,3 +198,9 @@ templateParameters:
 | statement          |                                             string                                             |     true     | The GoogleSQL statement to execute.                                                                                                                                                      |
 | parameters         |    [parameters](../../../documentation/configuration/tools/_index.md#specifying-parameters)    |    false     | List of [parameters](../../../documentation/configuration/tools/_index.md#specifying-parameters) that will be inserted into the SQL statement.                                           |
 | templateParameters | [templateParameters](../../../documentation/configuration/tools/_index.md#template-parameters) |    false     | List of [templateParameters](../../../documentation/configuration/tools/_index.md#template-parameters) that will be inserted into the SQL statement before executing prepared statement. |
+
+## 🔗 Связи
+
+- [[MOC - MCP Servers]] — mcp-servers
+- [[000 - Map of Maps]] — Map of Maps
+

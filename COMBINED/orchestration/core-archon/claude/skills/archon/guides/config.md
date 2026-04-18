@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-archon
+---
+
 # Archon Configuration Guide
 
 Interactive guide for viewing and modifying Archon configuration. Use this when the user wants to change, view, or understand their config — at any point, not just during initial setup.
@@ -215,3 +222,10 @@ These env vars override any config file setting:
 | `SLACK_STREAMING_MODE` | `streaming.slack` |
 | `MAX_CONCURRENT_CONVERSATIONS` | `concurrency.maxConversations` |
 | `ARCHON_HOME` | Base directory for all Archon paths |
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/archon]] — Archon
+- [[000 - Map of Maps]] — Map of Maps
+

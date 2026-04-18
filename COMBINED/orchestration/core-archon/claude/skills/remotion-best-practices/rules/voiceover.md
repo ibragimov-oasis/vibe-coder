@@ -3,6 +3,9 @@ name: voiceover
 description: Adding AI-generated voiceover to Remotion compositions using ElevenLabs TTS
 metadata:
   tags: voiceover, audio, elevenlabs, tts, speech, calculateMetadata, dynamic duration
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-archon
 ---
 
 # Adding AI voiceover to a Remotion composition
@@ -97,3 +100,10 @@ See [audio.md](./audio.md) for more information on how to render audio in the co
 ## Delaying audio start
 
 See [audio.md#delaying](./audio.md#delaying) for more information on how to delay the audio start.
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/archon]] — Archon
+- [[000 - Map of Maps]] — Map of Maps
+

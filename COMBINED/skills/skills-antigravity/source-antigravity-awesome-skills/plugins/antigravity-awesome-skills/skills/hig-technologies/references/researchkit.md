@@ -128,7 +128,16 @@ ResearchKit offers a profile screen you can use to let participants manage perso
 
 ## [Change log](https://developer.apple.com/design/human-interface-guidelines/researchkit#Change-log)
 
-Date| Changes  
+Date| Changes
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
 ---|---  
-September 12, 2023| Updated artwork.  
-  
+September 12, 2023| Updated artwork.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-data-analysis
+---
+
 # generate_pie_chart — 饼/环图
 
 ## 功能概述
@@ -22,3 +29,9 @@
 
 ## 返回结果
 - 返回饼/环图 URL，并附 `_meta.spec`。
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-data-analysis]] — Category: skills-data-analysis
+

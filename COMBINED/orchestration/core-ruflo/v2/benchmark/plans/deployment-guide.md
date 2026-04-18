@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # Agent Swarm Benchmarking Tool - Deployment Guide
 
 ## 🚀 Deployment Overview
@@ -646,3 +653,10 @@ docker scan swarmteam/swarm-benchmark:latest
 - Async processing queues
 
 This deployment guide provides comprehensive coverage for deploying the swarm benchmarking tool across various environments and platforms.
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

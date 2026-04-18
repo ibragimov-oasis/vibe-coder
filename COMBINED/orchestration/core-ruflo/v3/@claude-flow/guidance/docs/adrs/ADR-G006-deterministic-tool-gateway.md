@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # ADR-G006: Deterministic Tool Gateway -- Idempotency, Schema Validation, and Budget Metering
 
 ## Status
@@ -110,3 +117,10 @@ Validate tool call parameters against a schema before execution. Rejected becaus
 - `v3/@claude-flow/guidance/src/types.ts` -- `GateDecision`, `GateResult`
 - ADR-G004 -- The four gates this gateway wraps
 - ADR-G005 -- The proof envelope that records gate decisions
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

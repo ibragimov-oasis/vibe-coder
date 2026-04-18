@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # Headless CMS Guide
 
 Reference for choosing, modeling, and implementing a headless CMS for marketing content.
@@ -192,3 +199,9 @@ Pull CMS content into email templates for consistent messaging across web and em
 - [Sanity](../../../tools/integrations/sanity.md) — GROQ queries, mutations, CLI
 - [Contentful](../../../tools/integrations/contentful.md) — Delivery/Management APIs, publishing
 - [Strapi](../../../tools/integrations/strapi.md) — REST CRUD, filters, document API
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

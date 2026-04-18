@@ -9,6 +9,10 @@ allowed-tools:
   - Grep
   - AskUserQuestion
   - Task
+tags:
+  - domain/skills
+  - artifact/command
+  - source/commands
 ---
 <objective>
 Single-terminal command center for managing a milestone. Shows a dashboard of all phases with visual status indicators, recommends optimal next actions, and dispatches work — discuss runs inline, plan/execute run as background agents.
@@ -37,3 +41,9 @@ Project context, phase list, dependencies, and recommendations are resolved insi
 Execute the manager workflow from @~/.claude/get-shit-done/workflows/manager.md end-to-end.
 Maintain the dashboard refresh loop until the user exits or all phases complete.
 </process>
+
+## 🔗 Связи
+
+- [[MOC - System]] — commands
+- [[000 - Map of Maps]] — Map of Maps
+

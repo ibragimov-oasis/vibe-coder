@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # ADR-017: RuVector Integration Architecture
 
 **Status:** Accepted
@@ -1597,3 +1604,10 @@ Browser-native LLM inference runtime with WASM-accelerated intelligence componen
 **Completed:** 2026-01-07
 **Updated:** 2026-03-17 (WASM package integrations added)
 **Total Lines:** Route (678) + Analyze (2114) = 2792 lines
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

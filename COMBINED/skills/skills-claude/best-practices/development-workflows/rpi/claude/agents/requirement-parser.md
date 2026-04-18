@@ -3,6 +3,10 @@ name: requirement-parser
 description: Analyzes feature request descriptions and extracts structured requirements, goals, constraints, and metadata for downstream planning agents.
 model: sonnet
 color: blue
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
 ---
 
 # Requirement Parser Agent
@@ -236,3 +240,9 @@ You are successful when:
 - When in doubt, ask clarifying questions - better to pause than proceed with wrong assumptions
 - Your accuracy directly impacts the quality of all downstream analysis
 - Be thorough but efficient - aim for complete analysis in single pass
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

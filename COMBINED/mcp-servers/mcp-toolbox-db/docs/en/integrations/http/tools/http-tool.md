@@ -4,6 +4,10 @@ type: docs
 weight: 1
 description: >
   A "http" tool sends out an HTTP request to an HTTP endpoint.
+tags:
+  - domain/mcp
+  - artifact/mcp-server
+  - source/mcp-servers
 ---
 
 
@@ -271,3 +275,9 @@ headerParams:
 | headerParams | [parameters](../../../documentation/configuration/tools/_index.md#specifying-parameters) |    false     | List of [parameters](../../../documentation/configuration/tools/_index.md#specifying-parameters) that will be inserted as the request headers.                                                                                                                              |
 
 [go-template-doc]: <https://pkg.go.dev/text/template#pkg-overview>
+
+## 🔗 Связи
+
+- [[MOC - MCP Servers]] — mcp-servers
+- [[000 - Map of Maps]] — Map of Maps
+

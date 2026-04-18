@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/ui
+  - artifact/ui-component
+  - source/ui-design
+---
+
 # shadcn/ui Component Catalog
 
 Complete reference of all available shadcn/ui components, organized by category.
@@ -479,3 +486,9 @@ npx shadcn@latest diff button
 - [Official Component Docs](https://ui.shadcn.com/docs/components)
 - [Component Examples](https://ui.shadcn.com/examples)
 - [Radix UI Primitives](https://www.radix-ui.com/primitives)
+
+## 🔗 Связи
+
+- [[MOC - UI Design]] — ui-design
+- [[000 - Map of Maps]] — Map of Maps
+

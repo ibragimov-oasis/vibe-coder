@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/seo
+  - artifact/doc
+  - source/skills-seo
+---
+
 # Plain English Alternatives
 
 Replace complex or pompous words with plain English alternatives.
@@ -374,3 +381,9 @@ These phrases often add nothing. Delete them:
 - the fact of the matter is
 - to all intents and purposes
 - very
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-seo]] — Category: skills-seo
+

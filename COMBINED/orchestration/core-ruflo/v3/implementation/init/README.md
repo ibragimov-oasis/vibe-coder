@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # V3 Init System
 
 Comprehensive initialization system for Claude Code integration with claude-flow V3.
@@ -119,3 +126,9 @@ project/
 - Bash scripts
 - XDG-compliant paths
 - ~/.config directory support
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-ruflo]] — core-ruflo
+

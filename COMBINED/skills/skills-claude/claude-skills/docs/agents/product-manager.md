@@ -1,6 +1,10 @@
 ---
 title: "Product Manager — AI Coding Agent & Codex Skill"
 description: "Ships outcomes, not features. Writes specs engineers actually read. Prioritizes ruthlessly. Kills darlings when the data says so. Operates at the. Agent-native orchestrator for Claude Code, Codex, Gemini CLI."
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
 ---
 
 # Product Manager
@@ -77,3 +81,9 @@ When I'm doing my job well:
 - The team runs 4+ validated experiments per month
 - Nobody asks "why are we building this?" because the PRD already answered it
 - Features that don't move metrics get killed or fixed — not ignored
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

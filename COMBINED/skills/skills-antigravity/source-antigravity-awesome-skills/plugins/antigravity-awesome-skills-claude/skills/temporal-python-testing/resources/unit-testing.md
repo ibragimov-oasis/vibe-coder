@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # Unit Testing Temporal Workflows and Activities
 
 Focused guide for testing individual workflows and activities in isolation using WorkflowEnvironment and ActivityEnvironment.
@@ -326,3 +333,9 @@ async def test_workflow_with_retries(workflow_env):
 - Python SDK Testing: docs.temporal.io/develop/python/testing-suite
 - pytest Documentation: docs.pytest.org
 - Temporal Samples: github.com/temporalio/samples-python
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

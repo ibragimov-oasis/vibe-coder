@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/seo
+  - artifact/doc
+  - source/skills-seo
+---
+
 # Research Gaps Command
 
 Identify content gaps where competitors rank but you don't.
@@ -59,3 +66,9 @@ After running `/research-gaps`:
 - **Monthly**: Full competitive landscape review
 - **When entering new topic**: Find what's missing
 - **Before content planning**: Identify proven opportunities
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-seo]] — Category: skills-seo
+

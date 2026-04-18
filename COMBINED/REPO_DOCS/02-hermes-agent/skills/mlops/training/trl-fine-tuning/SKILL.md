@@ -454,5 +454,8 @@ config = PPOConfig(
   - "Group Relative Policy Optimization" (GRPO, 2024)
 - Examples: https://github.com/huggingface/trl/tree/main/examples/scripts
 
+## 🔗 Связи
 
+- [[000 - Map of Maps]] — REPO_DOCS
+- [[000 - Map of Maps]] — Map of Maps
 

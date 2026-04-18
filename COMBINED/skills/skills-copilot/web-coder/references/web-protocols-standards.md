@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-copilot
+---
+
 # Web Protocols & Standards Reference
 
 Organizations, specifications, and standards that govern the web.
@@ -263,3 +270,9 @@ interface Element : Node {
 - [MDN Web Docs](https://developer.mozilla.org/)
 - [Can I Use](https://caniuse.com/)
 - [TC39 Proposals](https://github.com/tc39/proposals)
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-copilot]] — Category: skills-copilot
+

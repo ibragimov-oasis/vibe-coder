@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # ADR-028: Neural Attention Mechanisms for Claude-Flow V3
 
 **Status:** Proposed
@@ -980,3 +987,10 @@ if (await isRuvllmWasmAvailable()) {
 **Estimated Effort:** 5 weeks (reduced with WASM components)
 **Dependencies:** ADR-006 (Memory), ADR-017 (RuVector)
 **Updated:** 2026-03-17
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

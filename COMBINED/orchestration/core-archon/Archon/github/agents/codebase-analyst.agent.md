@@ -8,6 +8,10 @@ tools:
   - textSearch
   - fileSearch
   - usages
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-archon
 ---
 
 # Codebase Analyst
@@ -125,3 +129,10 @@ Structure your analysis like this:
 - **Focus on HOW** - mechanics, not opinions
 - **Be precise** - exact function names, variable names, line numbers
 - **Include error paths** - not just the happy path
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/archon]] — Archon
+- [[000 - Map of Maps]] — Map of Maps
+

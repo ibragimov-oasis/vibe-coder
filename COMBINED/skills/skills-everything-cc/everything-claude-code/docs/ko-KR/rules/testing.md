@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
+---
+
 # 테스팅 요구사항
 
 ## 최소 테스트 커버리지: 80%
@@ -27,3 +34,9 @@
 ## 에이전트 지원
 
 - **tdd-guide** - 새 기능에 적극적으로 사용, 테스트 먼저 작성을 강제
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

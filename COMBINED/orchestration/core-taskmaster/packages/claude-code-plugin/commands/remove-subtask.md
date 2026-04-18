@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-taskmaster
+---
+
 Remove a subtask from its parent task.
 
 Arguments: $ARGUMENTS
@@ -82,3 +89,10 @@ Confirm deletion? (y/n)
 - Recalculate estimates
 - Show updated hierarchy
 - Suggest next actions
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/task-master]] — Task-Master
+- [[000 - Map of Maps]] — Map of Maps
+

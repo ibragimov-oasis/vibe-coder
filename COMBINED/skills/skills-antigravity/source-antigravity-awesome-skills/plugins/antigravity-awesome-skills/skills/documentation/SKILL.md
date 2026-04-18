@@ -5,6 +5,10 @@ category: workflow-bundle
 risk: safe
 source: personal
 date_added: "2026-02-27"
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 # Documentation Workflow Bundle
@@ -258,3 +262,9 @@ Use @doc-coauthoring to collaborate on docs
 - `development` - Development workflow
 - `testing-qa` - Documentation testing
 - `ai-ml` - AI documentation
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

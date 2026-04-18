@@ -1,6 +1,10 @@
 ---
 name: suggest-awesome-github-copilot-skills
 description: 'Suggest relevant GitHub Copilot skills from the awesome-copilot repository based on current repository context and chat history, avoiding duplicates with existing skills in this repository, and identifying outdated skills that need updates.'
+tags:
+  - domain/agents
+  - artifact/skill
+  - source/skills-copilot
 ---
 
 # Suggest Awesome GitHub Copilot Skills
@@ -128,3 +132,10 @@ When outdated skills are identified:
 4. When user requests update, replace entire local skill folder with remote version
 5. Preserve folder location in `.github/skills/` directory
 6. Ensure all bundled assets are downloaded alongside the updated `SKILL.md`
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-copilot]] — Category: skills-copilot
+- [[MOC - Agents]] — Copilot agents
+

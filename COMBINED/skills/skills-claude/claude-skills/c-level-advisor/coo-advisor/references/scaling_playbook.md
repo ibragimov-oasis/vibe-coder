@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # Scaling Playbook: What Breaks at Each Growth Stage
 
 > Compiled from patterns across 100+ high-growth companies. Not theory — this is what actually breaks and what to do about it.
@@ -463,3 +470,9 @@ Violation of this creates either manager burnout (too wide) or management theate
 ---
 
 *Sources: Sequoia, a16z operating frameworks; First Round Capital COO benchmarks; SaaStr metrics databases; OpenView SaaS benchmarks; Bain operational maturity models.*
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

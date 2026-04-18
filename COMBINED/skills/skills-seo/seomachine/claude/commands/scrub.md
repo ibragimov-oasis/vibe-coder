@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/seo
+  - artifact/doc
+  - source/skills-seo
+---
+
 # Scrub Command
 
 Use this command to remove invisible AI-generated watermarks and telltale patterns from markdown content files.
@@ -154,3 +161,9 @@ Every scrubbed file ensures:
 5. **Include in Workflows**: Automate scrubbing in your content pipeline
 
 This ensures all published content appears naturally written and free of AI indicators.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-seo]] — Category: skills-seo
+

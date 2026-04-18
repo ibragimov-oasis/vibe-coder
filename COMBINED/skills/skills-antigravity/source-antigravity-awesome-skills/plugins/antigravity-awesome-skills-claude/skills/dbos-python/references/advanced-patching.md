@@ -3,6 +3,9 @@ title: Use Patching for Safe Workflow Upgrades
 impact: LOW
 impactDescription: Deploy breaking changes without disrupting in-progress workflows
 tags: patching, upgrade, versioning, migration
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
 ---
 
 ## Use Patching for Safe Workflow Upgrades
@@ -66,3 +69,9 @@ def workflow():
 - `False` for old workflows (started before patch deployed)
 
 Reference: [Patching](https://docs.dbos.dev/python/tutorials/upgrading-workflows#patching)
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

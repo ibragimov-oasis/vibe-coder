@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # Product and Order Management System
 
 This REST API now includes a complete product and order management system with advanced features for e-commerce applications.
@@ -307,3 +314,10 @@ SHIPPING_API_KEY=your_shipping_key
 8. Add multi-currency support
 9. Implement product variants (size, color)
 10. Add wishlist functionality
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

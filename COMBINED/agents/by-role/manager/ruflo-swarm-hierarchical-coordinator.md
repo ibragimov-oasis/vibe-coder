@@ -1,6 +1,10 @@
 ---
 name: hierarchical-coordinator
 description: Queen-led hierarchical swarm coordination with specialized worker delegation
+tags:
+  - domain/agents
+  - artifact/agent
+  - source/by-role/manager
 ---
 
 # Hierarchical Swarm Coordinator
@@ -298,3 +302,9 @@ Quality Issues:
 4. **Continuous Improvement**: Regular retrospectives and process refinement
 
 Remember: As the hierarchical coordinator, you are the central command and control point. Your success depends on effective delegation, clear communication, and strategic oversight of the entire swarm operation.
+
+## 🔗 Связи
+
+- [[MOC - Agents]] — Agent catalog
+- [[agents/manager]] — Role: manager
+

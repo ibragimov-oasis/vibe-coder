@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-taskmaster
+---
+
 # Cross-Tag Task Movement
 
 Task Master now supports moving tasks between different tag contexts, allowing you to organize your work across multiple project contexts, feature branches, or development phases.
@@ -283,3 +290,10 @@ task-master move --from=5 --from-tag=backlog --to-tag=in-progress
 # Option 2: Move parent with all subtasks
 task-master move --from=5 --from-tag=backlog --to-tag=in-progress --with-dependencies
 ```
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-taskmaster]] — core-taskmaster
+- [[MOC - Skills]] — Skills library
+

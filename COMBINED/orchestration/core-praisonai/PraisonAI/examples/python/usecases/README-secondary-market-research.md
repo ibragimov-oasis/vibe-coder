@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-praisonai
+---
+
 # Secondary Market Research Agent System
 
 A comprehensive multi-agent system for generating customized secondary market research reports with FastAPI integration.
@@ -232,3 +239,10 @@ For production use:
 ## 📄 License
 
 This project is part of PraisonAI and follows the same licensing terms.
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/praisonai]] — PraisonAI
+- [[000 - Map of Maps]] — Map of Maps
+

@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/command
+  - source/commands
+---
+
 # 📊 Truth Command
 
 View truth scores and reliability metrics for your codebase and agent tasks.
@@ -141,3 +148,9 @@ Set truth display preferences in `.claude-flow/config.json`:
 - `verify` - Run verification checks
 - `pair` - Collaborative development with truth tracking
 - `report` - Generate detailed reports
+
+## 🔗 Связи
+
+- [[MOC - System]] — commands
+- [[000 - Map of Maps]] — Map of Maps
+

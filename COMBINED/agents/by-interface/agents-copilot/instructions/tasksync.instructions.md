@@ -1,6 +1,10 @@
 ---
 applyTo: '**'
 description: 'TaskSync V5 - Allows you to give the agent new instructions or feedback after completing a task using terminal while agent is running.'
+tags:
+  - domain/agents
+  - artifact/agent
+  - source/by-interface/agents-copilot
 ---
 
 # TaskSync V5 Protocol
@@ -543,3 +547,9 @@ Terminal: Enter your task:
 </success_criteria>
 
 ---
+
+## 🔗 Связи
+
+- [[MOC - Agents]] — Agent catalog
+- [[agents/agents-copilot]] — Interface: agents-copilot
+

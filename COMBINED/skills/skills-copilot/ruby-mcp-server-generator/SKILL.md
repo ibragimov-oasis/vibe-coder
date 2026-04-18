@@ -1,6 +1,10 @@
 ---
 name: ruby-mcp-server-generator
 description: 'Generate a complete Model Context Protocol server project in Ruby using the official MCP Ruby SDK gem.'
+tags:
+  - domain/agents
+  - artifact/skill
+  - source/skills-copilot
 ---
 
 # Ruby MCP Server Generator
@@ -658,3 +662,10 @@ MIT
 8. **Follow Ruby conventions** (snake_case, modules, frozen_string_literal)
 9. **Add proper error handling** with is_error flag
 10. **Provide both stdio and HTTP** usage examples
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-copilot]] — Category: skills-copilot
+- [[MOC - Agents]] — Copilot agents
+

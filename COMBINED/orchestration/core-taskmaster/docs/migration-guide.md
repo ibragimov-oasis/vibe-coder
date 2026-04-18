@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-taskmaster
+---
+
 # Migration Guide: New .taskmaster Directory Structure
 
 ## Overview
@@ -233,3 +240,10 @@ If you encounter issues during migration:
 ---
 
 _This migration guide applies to Task Master v0.15.x and later. For older versions, please upgrade to the latest version first._
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-taskmaster]] — core-taskmaster
+- [[MOC - Skills]] — Skills library
+

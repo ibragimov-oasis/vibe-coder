@@ -1,6 +1,10 @@
 ---
 title: "/tdd — Slash Command for AI Coding Agents"
 description: "Generate tests, analyze coverage, and run TDD workflows. Usage: /tdd <generate|coverage|validate> [options]. Slash command for Claude Code, Codex CLI, Gemini CLI."
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
 ---
 
 # /tdd
@@ -40,3 +44,9 @@ Generate tests, analyze coverage, and validate test quality using the TDD Guide 
 
 ## Skill Reference
 → `engineering-team/tdd-guide/SKILL.md`
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

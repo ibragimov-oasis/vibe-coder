@@ -4,6 +4,10 @@ description: "Automate Linear tasks via Rube MCP (Composio): issues, projects, c
 risk: critical
 source: community
 date_added: "2026-02-27"
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 # Linear Automation via Rube MCP
@@ -180,3 +184,9 @@ Automate Linear operations through Composio's Linear toolkit via Rube MCP.
 
 ## When to Use
 This skill is applicable to execute the workflow or actions described in the overview.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

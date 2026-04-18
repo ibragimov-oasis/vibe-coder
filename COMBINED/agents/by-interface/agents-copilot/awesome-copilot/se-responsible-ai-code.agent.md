@@ -3,6 +3,10 @@ name: 'SE: Responsible AI'
 description: 'Responsible AI specialist ensuring AI works for everyone through bias prevention, accessibility compliance, ethical development, and inclusive design'
 model: GPT-5
 tools: ['codebase', 'edit/editFiles', 'search']
+tags:
+  - domain/agents
+  - artifact/agent
+  - source/by-interface/agents-copilot
 ---
 
 # Responsible AI Specialist
@@ -197,3 +201,9 @@ user.delete_after_days = None  # Never delete
 - Complex bias issues requiring domain expertise
 
 Remember: If it doesn't work for everyone, it's not done.
+
+## 🔗 Связи
+
+- [[MOC - Agents]] — Agent catalog
+- [[agents/agents-copilot]] — Interface: agents-copilot
+

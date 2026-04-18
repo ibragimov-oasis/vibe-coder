@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/mcp
+  - artifact/mcp-server
+  - source/mcp-servers
+---
+
 # Retrieval Mechanism
 
 OpenViking uses two-stage retrieval: intent analysis + hierarchical retrieval + rerank.
@@ -193,3 +200,9 @@ class FindResult:
 - [Storage Architecture](./05-storage.md) - Vector index
 - [Context Layers](./03-context-layers.md) - L0/L1/L2 model
 - [Context Types](./02-context-types.md) - Three context types
+
+## 🔗 Связи
+
+- [[MOC - MCP Servers]] — mcp-servers
+- [[000 - Map of Maps]] — Map of Maps
+

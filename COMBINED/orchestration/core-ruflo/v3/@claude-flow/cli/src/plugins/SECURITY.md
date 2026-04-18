@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # Plugin Store Security Review
 
 ## Overview
@@ -166,3 +173,10 @@ In the current demo implementation:
 Security Review Version: 1.0.0
 Last Updated: 2026-01-08
 Reviewed By: Claude Flow Security Team
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

@@ -3,6 +3,9 @@ title: Hoist RegExp Creation
 impact: LOW-MEDIUM
 impactDescription: avoids recreation
 tags: javascript, regexp, optimization, memoization
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
 ---
 
 ## Hoist RegExp Creation
@@ -43,3 +46,9 @@ const regex = /foo/g
 regex.test('foo')  // true, lastIndex = 3
 regex.test('foo')  // false, lastIndex = 0
 ```
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

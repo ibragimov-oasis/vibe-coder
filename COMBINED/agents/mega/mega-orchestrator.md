@@ -13,6 +13,10 @@ tools:
   - mcp__gitnexus
   - mcp__supermemory
   - mcp__openviking
+tags:
+  - domain/agents
+  - artifact/mega-agent
+  - source/mega
 ---
 
 <role>
@@ -316,3 +320,10 @@ RuFlo uses Q-learning to optimize agent selection over time:
 ### Recommendations
 {Next steps, related improvements, technical debt identified}
 </output_format>
+
+## 🔗 Связи
+
+- [[MOC - Agents]] — Agent catalog
+- [[agents/mega-orchestrator]] — Vault entry
+- [[MOC - Skills]] — Skills library
+

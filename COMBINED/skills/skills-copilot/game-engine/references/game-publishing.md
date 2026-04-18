@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-copilot
+---
+
 # Game Publishing
 
 This reference covers the three pillars of publishing web-based games: distribution channels and platforms, promotion strategies, and monetization models.
@@ -350,3 +357,9 @@ Monetization strategy should align with your game type, target audience, and dis
 | Subscriptions | Monthly passive | Games with established track records | Medium |
 | Merchandise | Per sale | Popular franchises with visual identity | High |
 | Articles/Tutorials | Per publication | Developers with niche expertise | Low |
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-copilot]] — Category: skills-copilot
+

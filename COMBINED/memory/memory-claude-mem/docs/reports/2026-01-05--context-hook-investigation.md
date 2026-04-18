@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/memory
+  - artifact/memory
+  - source/memory
+---
+
 # Context Hook Investigation Report
 
 **Date:** 2026-01-05
@@ -62,3 +69,9 @@ The marketplace sync copies the whole repo structure, so files end up in a `plug
 1. Test the fix in a live Claude Code session
 2. Investigate the `CLAUDE_PLUGIN_ROOT` path resolution
 3. Fix paths in hooks.json if needed
+
+## 🔗 Связи
+
+- [[MOC - Memory]] — memory
+- [[000 - Map of Maps]] — Map of Maps
+

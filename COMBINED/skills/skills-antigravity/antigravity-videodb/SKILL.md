@@ -8,6 +8,9 @@ tags: "[video, editing, transcription, subtitles, search, streaming, ai-generati
 date_added: "2026-02-27"
 allowed-tools: Read Grep Glob Bash(python:*)
 argument-hint: "[task description]"
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 # VideoDB Skill
@@ -368,3 +371,9 @@ For complete capture workflow, see [reference/capture.md](reference/capture.md).
 https://github.com/video-db/skills
 
 **Maintained By:** [VideoDB](https://github.com/video-db)
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

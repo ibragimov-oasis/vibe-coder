@@ -3,6 +3,9 @@ title: Control Queue Concurrency
 impact: HIGH
 impactDescription: Prevents resource exhaustion with concurrent limits
 tags: queue, concurrency, worker_concurrency, limits
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
 ---
 
 ## Control Queue Concurrency
@@ -55,3 +58,9 @@ def handle_event(event):
 Worker concurrency is recommended for most use cases. Global concurrency should be used carefully as pending workflows count toward the limit.
 
 Reference: [Managing Concurrency](https://docs.dbos.dev/python/tutorials/queue-tutorial#managing-concurrency)
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

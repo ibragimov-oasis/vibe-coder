@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # FDA Submission Guide
 
 Complete framework for 510(k), De Novo, and PMA submissions to the FDA.
@@ -398,3 +405,9 @@ FDA's recommended electronic submission format for 510(k):
 | Inadequate device description | Include all models, accessories |
 | Missing Indications for Use | Use FDA Form 3881 |
 | Incomplete SE comparison | Address all characteristics |
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

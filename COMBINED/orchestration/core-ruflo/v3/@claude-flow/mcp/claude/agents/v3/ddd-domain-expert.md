@@ -37,6 +37,10 @@ hooks:
     echo "✅ Domain model analysis complete"
     # Store domain patterns
     mcp__claude-flow__memory_usage --action="store" --namespace="architecture" --key="ddd:analysis:$(date +%s)" --value="$DOMAIN_SUMMARY"
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
 ---
 
 # V3 DDD Domain Expert Agent
@@ -218,3 +222,10 @@ mcp__claude-flow__memory_usage --action="store" \
 # Search domain patterns
 mcp__claude-flow__memory_search --pattern="ddd:aggregate:*" --namespace="architecture"
 ```
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

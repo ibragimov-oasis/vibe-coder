@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # Swarm Initialization Guide
 **Date:** 2025-10-25
 **Claude-Flow Version:** 2.7.14
@@ -300,3 +307,10 @@ npx claude-flow@alpha hive-mind spawn \
 **Created:** 2025-10-25
 **Updated:** 2025-10-25
 **Author:** Claude Code (Claude Sonnet 4.5)
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-ruflo]] — core-ruflo
+- [[MOC - Skills]] — Skills library
+

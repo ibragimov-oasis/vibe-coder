@@ -2,6 +2,10 @@
 name: ralplan
 description: Consensus planning entrypoint that auto-gates vague ralph/autopilot/team requests before execution
 level: 4
+tags:
+  - domain/orchestration
+  - artifact/skill
+  - source/skills-omc
 ---
 
 # Ralplan (Consensus Planning Alias)
@@ -132,3 +136,10 @@ The gate auto-passes when it detects **any** concrete signal. You do not need al
 | Want to bypass the gate | Prefix with `force:` or `!` (e.g., `force: ralph fix it`) |
 | Gate does not fire on a vague prompt | The gate only catches prompts with <=15 effective words and no concrete anchors; add more detail or use `/ralplan` explicitly |
 | Redirected to ralplan but want to skip planning | In the ralplan workflow, say "just do it" or "skip planning" to transition directly to execution |
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-omc]] — Category: skills-omc
+- [[MOC - Orchestration]] — Multi-agent orchestration
+

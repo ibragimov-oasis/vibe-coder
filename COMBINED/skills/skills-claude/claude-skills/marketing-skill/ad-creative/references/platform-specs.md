@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # Platform Specs — Ad Copy Character Limits and Format Requirements
 
 Full specifications for each major ad platform. Use this when generating or validating ad copy.
@@ -168,3 +175,9 @@ Full specifications for each major ad platform. Use this when generating or vali
 | Young consumer audience, viral potential | TikTok | Organic-native feel, high engagement |
 | Real-time relevance, news-adjacent | Twitter/X | Timely content performs |
 | Retargeting across the web | Google Display | Broad reach, cheap retargeting |
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

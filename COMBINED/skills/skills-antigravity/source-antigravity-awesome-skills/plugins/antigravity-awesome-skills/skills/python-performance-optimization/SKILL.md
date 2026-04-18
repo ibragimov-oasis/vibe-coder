@@ -4,6 +4,10 @@ description: "Profile and optimize Python code using cProfile, memory profilers,
 risk: safe
 source: community
 date_added: "2026-02-27"
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 # Python Performance Optimization
@@ -37,3 +41,9 @@ Comprehensive guide to profiling, analyzing, and optimizing Python code for bett
 ## Resources
 
 - `resources/implementation-playbook.md` for detailed patterns and examples.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

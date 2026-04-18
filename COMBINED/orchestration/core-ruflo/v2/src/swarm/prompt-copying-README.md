@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # Robust Prompt Copying System
 
 A comprehensive, enterprise-grade prompt copying mechanism designed for Claude-Flow projects. This system provides efficient, reliable, and safe copying of prompt files with advanced features like parallel processing, conflict resolution, verification, and rollback capabilities.
@@ -514,3 +521,10 @@ MIT License - see LICENSE file for details.
 - Parallel processing with worker threads
 - Configuration profiles and CLI interface
 - Comprehensive testing and documentation
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

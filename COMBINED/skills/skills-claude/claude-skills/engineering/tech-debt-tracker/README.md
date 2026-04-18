@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # Tech Debt Tracker
 
 A comprehensive technical debt management system that helps engineering teams identify, prioritize, and track technical debt across codebases. This skill provides three interconnected tools for a complete debt management workflow.
@@ -306,3 +313,9 @@ The codebase is designed with extensibility in mind - each tool is modular and c
 ---
 
 **Remember**: Technical debt management is a journey, not a destination. These tools help you make informed decisions about balancing new feature development with technical excellence. Start small, measure impact, and iterate based on what works for your team.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

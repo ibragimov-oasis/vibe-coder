@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-copilot
+---
+
 # Create mode
 
 Use this workflow when the input is a component source path or the user asks to generate new documentation from code.
@@ -30,3 +37,9 @@ Use this workflow when the input is a component source path or the user asks to 
 - Write the introduction as a fresh overview of what the component does and why it exists.
 - Prefer complete sections over placeholders; if information is unavailable, mark the section with a short limitation note instead of leaving template text behind.
 - Include change history or migration notes only if there is evidence of prior versions or migration concerns in the code or repository history.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-copilot]] — Category: skills-copilot
+

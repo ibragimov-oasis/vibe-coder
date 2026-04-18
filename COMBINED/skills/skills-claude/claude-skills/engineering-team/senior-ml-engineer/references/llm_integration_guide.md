@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # LLM Integration Guide
 
 Production patterns for integrating Large Language Models into applications.
@@ -315,3 +322,9 @@ def parse_structured_response(response: str) -> StructuredResponse:
     except ValidationError as e:
         raise ValueError(f"Response validation failed: {e}")
 ```
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

@@ -1,6 +1,10 @@
 ---
 title: "Senior ML Engineer — Agent Skill & Codex Plugin"
 description: "ML engineering skill for productionizing models, building MLOps pipelines, and integrating LLMs. Covers model deployment, feature stores, drift. Agent skill for Claude Code, Codex CLI, Gemini CLI, OpenClaw."
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
 ---
 
 # Senior ML Engineer
@@ -302,3 +306,9 @@ Sets up drift detection, alerting, and performance dashboards.
 | Data | Spark, Airflow, dbt, Kafka |
 | Deployment | Docker, Kubernetes, Triton |
 | Databases | PostgreSQL, BigQuery, Pinecone, Redis |
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/mcp
+  - artifact/mcp-server
+  - source/mcp-servers
+---
+
 # Changelog
 
 ## 0.2.1 — 2026-04-08
@@ -40,3 +47,9 @@ Initial release.
 - Auto-update graph on file save
 - CLI auto-detection and guided installation
 - Getting Started walkthrough
+
+## 🔗 Связи
+
+- [[MOC - MCP Servers]] — mcp-servers
+- [[000 - Map of Maps]] — Map of Maps
+

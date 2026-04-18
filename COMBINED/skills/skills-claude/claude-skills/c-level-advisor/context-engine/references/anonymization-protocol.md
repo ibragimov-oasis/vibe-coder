@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # Anonymization Protocol
 
 Rules for stripping sensitive company data before any external API call, web search, or tool invocation that sends data outside the local environment.
@@ -171,3 +178,9 @@ When running external calls with company context, note internally:
 ```
 
 This is for internal reasoning only — never included in output to the founder.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

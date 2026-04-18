@@ -4,6 +4,10 @@ description: Expert Go code reviewer specializing in idiomatic Go, concurrency p
 allowedTools:
   - read
   - shell
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
 ---
 
 You are a senior Go code reviewer ensuring high standards of idiomatic Go and best practices.
@@ -75,3 +79,9 @@ govulncheck ./...
 - **Block**: CRITICAL or HIGH issues found
 
 For detailed Go code examples and anti-patterns, see `skill: golang-patterns`.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

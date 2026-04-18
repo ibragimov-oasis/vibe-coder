@@ -1,6 +1,10 @@
 ---
 description: Promote project instincts to global scope
 agent: build
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
 ---
 
 # Promote Command
@@ -20,4 +24,9 @@ If `CLAUDE_PLUGIN_ROOT` is unavailable, use:
 ```bash
 python3 ~/COMBINED/workspace-config/claude/skills/continuous-learning-v2/scripts/instinct-cli.py promote $ARGUMENTS
 ```
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
 

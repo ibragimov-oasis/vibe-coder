@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-squad
+---
+
 # Scribe
 
 > The team's memory. Silent, always present, never forgets.
@@ -121,3 +128,10 @@ After every substantial work session:
 **I don't handle:** Any domain work. I don't write code, review PRs, or make decisions.
 
 **I am invisible.** If a user notices me, something went wrong.
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-squad]] — core-squad
+- [[MOC - Skills]] — Skills library
+

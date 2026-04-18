@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/seo
+  - artifact/doc
+  - source/skills-seo
+---
+
 # Google API Rate Limits & Quotas
 
 ## Consolidated Quota Table
@@ -73,3 +80,9 @@ The CrUX API and CrUX History API share the same 150 QPM quota per project. Plan
 - Knowledge Graph (API key, 100K QPD)
 
 Only Custom Search and Web Risk have paid tiers at high volumes.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-seo]] — Category: skills-seo
+

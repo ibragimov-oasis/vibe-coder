@@ -44,7 +44,11 @@ In CarPlay, keep in mind that your app coexists with other audio sources, such a
 
 CarPlay supports a wide range of display resolutions with varying pixel densities and aspect ratios. The system automatically scales app icons and interfaces based on the resolution of the display, so they always appear onscreen at roughly the same size. Some common screen sizes are listed in the table below.
 
-Dimensions (pixels)| Aspect ratio  
+Dimensions (pixels)| Aspect ratio
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
 ---|---  
 800x480| 5:3  
 960x540| 16:9  
@@ -115,5 +119,10 @@ A CarPlay app needs to handle errors gracefully and report them to people only w
 
 Date| Changes  
 ---|---  
-May 2, 2023| Consolidated guidance into one page.  
-  
+May 2, 2023| Consolidated guidance into one page.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

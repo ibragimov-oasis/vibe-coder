@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # HTML Presentation Template
 
 Reference architecture for generating slide presentations. Every presentation follows this structure.
@@ -345,3 +352,9 @@ Multiple presentations in one project:
 [name].html
 [name]-assets/
 ```
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

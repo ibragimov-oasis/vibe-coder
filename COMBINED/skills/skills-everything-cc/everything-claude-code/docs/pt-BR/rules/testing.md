@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
+---
+
 # Requisitos de Teste
 
 ## Cobertura Mínima de Teste: 80%
@@ -27,3 +34,9 @@ Fluxo de trabalho OBRIGATÓRIO:
 ## Suporte de Agentes
 
 - **tdd-guide** - Use PROATIVAMENTE para novos recursos, aplica escrever-testes-primeiro
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

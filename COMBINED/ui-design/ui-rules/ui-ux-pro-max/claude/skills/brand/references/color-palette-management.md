@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/ui
+  - artifact/ui-component
+  - source/ui-design
+---
+
 # Color Palette Management
 
 Guidelines for defining, extracting, and enforcing brand colors.
@@ -184,3 +191,9 @@ Text: #0F172A
 - [WebAIM Contrast Checker](https://webaim.org/resources/contrastchecker/)
 - [Tailwind Color Reference](https://tailwindcss.com/docs/customizing-colors)
 - [Color Hunt](https://colorhunt.co) - Curated palettes
+
+## 🔗 Связи
+
+- [[MOC - UI Design]] — ui-design
+- [[000 - Map of Maps]] — Map of Maps
+

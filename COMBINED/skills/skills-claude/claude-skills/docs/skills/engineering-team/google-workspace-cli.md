@@ -1,6 +1,10 @@
 ---
 title: "Google Workspace CLI — Agent Skill & Codex Plugin"
 description: "Google Workspace administration via the gws CLI. Install, authenticate, and automate Gmail, Drive, Sheets, Calendar, Docs, Chat, and Tasks. Run. Agent skill for Claude Code, Codex CLI, Gemini CLI, OpenClaw."
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
 ---
 
 # Google Workspace CLI
@@ -382,3 +386,9 @@ python3 scripts/auth_setup_guide.py --scopes gmail,drive,calendar,sheets
 | Calendar | `calendar`, `calendar.events` |
 | Admin | `admin.directory.user.readonly`, `admin.directory.group` |
 | Tasks | `tasks` |
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

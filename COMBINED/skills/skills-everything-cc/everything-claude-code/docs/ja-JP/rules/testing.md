@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
+---
+
 # テスト要件
 
 ## 最低テストカバレッジ: 80%
@@ -27,3 +34,9 @@
 ## Agent サポート
 
 - **tdd-guide** - 新機能に対して積極的に使用、テストファーストを強制
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-taskmaster
+---
+
 Enhanced auto-implementation with intelligent code generation and testing.
 
 Arguments: $ARGUMENTS
@@ -95,3 +102,10 @@ After completion:
 - Update task relationships
 
 Result: High-quality, production-ready implementations.
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/task-master]] — Task-Master
+- [[000 - Map of Maps]] — Map of Maps
+

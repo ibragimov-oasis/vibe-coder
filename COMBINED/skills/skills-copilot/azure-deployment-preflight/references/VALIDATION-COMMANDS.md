@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-copilot
+---
+
 # Validation Commands Reference
 
 This reference documents all commands used for Azure deployment preflight validation.
@@ -377,3 +384,9 @@ az --version
 azd version
 bicep --version
 ```
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-copilot]] — Category: skills-copilot
+

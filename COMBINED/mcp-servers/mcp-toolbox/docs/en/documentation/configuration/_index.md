@@ -4,6 +4,10 @@ type: docs
 weight: 3
 description: >
   How to configure Toolbox's tools.yaml file.
+tags:
+  - domain/mcp
+  - artifact/mcp-server
+  - source/mcp-servers
 ---
 
 The primary way to configure Toolbox is through the `tools.yaml` file. If you
@@ -111,3 +115,9 @@ For more details on configuring different types of prompts, see the
 ---
 
 ## Explore Configuration Modules
+
+## 🔗 Связи
+
+- [[MOC - MCP Servers]] — mcp-servers
+- [[000 - Map of Maps]] — Map of Maps
+

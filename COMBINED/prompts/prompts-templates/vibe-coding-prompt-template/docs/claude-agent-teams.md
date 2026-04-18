@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/prompts
+  - artifact/prompt
+  - source/prompts-templates
+---
+
 # Claude Code & Agent Teams (2026 Guide)
 
 In February 2026, Anthropic significantly upgraded the Claude CLI to support **Agent Teams**. For vibe-coding MVPs, this represents a massive speed and safety upgrade. You no longer have to rely on a single agent trying to rewrite your entire stack at once.
@@ -33,3 +40,9 @@ Claude handles long context brilliantly, but over a 3-hour vibe-coding session, 
 ## 4. Voice Commands (Optional)
 
 If you are using the latest Claude Code capabilities, you can interface via voice to dictate complex logic tweaks or PRD adjustments, which Claude will transcribe and inject straight into the Team Lead's task queue. This is incredibly helpful when you're reviewing a frontend visually and just want to "speak" your feedback.
+
+## 🔗 Связи
+
+- [[MOC - Prompts]] — Prompt library
+- [[MOC - System]] — System documentation
+

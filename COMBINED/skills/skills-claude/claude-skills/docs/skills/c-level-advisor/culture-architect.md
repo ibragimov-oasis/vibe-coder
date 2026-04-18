@@ -1,6 +1,10 @@
 ---
 title: "Culture Architect — Agent Skill for Executives"
 description: "Build, measure, and evolve company culture as operational behavior — not wall posters. Covers mission/vision/values workshops, values-to-behaviors. Agent skill for Claude Code, Codex CLI, Gemini CLI, OpenClaw."
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
 ---
 
 # Culture Architect
@@ -168,3 +172,9 @@ Rituals are the delivery mechanism for culture. What works at 10 people breaks a
 ## Detailed References
 - `references/culture-playbook.md` — Netflix analysis, survey design, ritual examples, M&A playbook
 - `templates/culture-code-template.md` — Culture code document template
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

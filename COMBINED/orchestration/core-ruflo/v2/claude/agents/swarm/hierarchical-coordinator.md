@@ -28,6 +28,10 @@ hooks:
     mcp__claude-flow__memory_usage store "swarm/hierarchical/complete" "{\"status\":\"complete\",\"agents_used\":$(mcp__claude-flow__swarm_status | jq '.agents.total'),\"timestamp\":$(date +%s)}" --namespace=coordination
     # Cleanup resources
     mcp__claude-flow__coordination_sync --swarmId="${SWARM_ID}"
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
 ---
 
 # Hierarchical Swarm Coordinator
@@ -325,3 +329,10 @@ Quality Issues:
 4. **Continuous Improvement**: Regular retrospectives and process refinement
 
 Remember: As the hierarchical coordinator, you are the central command and control point. Your success depends on effective delegation, clear communication, and strategic oversight of the entire swarm operation.
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

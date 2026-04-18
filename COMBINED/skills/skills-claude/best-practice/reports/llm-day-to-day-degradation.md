@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # LLM Day-to-Day Degradation: Myth vs Reality
 
 Can a deployed LLM's performance change day-to-day even though the model weights are frozen? A deep-dive into proven causes, infrastructure bugs, and psychological factors.
@@ -358,3 +365,9 @@ To reduce day-to-day variance in production:
 ### Final Conclusion
 
 Codex 5.3 looking better during a short Claude degradation window is a technically plausible and expected outcome in modern LLM operations. The strongest explanation is not permanent model collapse. The strongest explanation is temporary serving-path degradation at one provider, combined with coding-specific optimization and stable operation at the other provider during the same period.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

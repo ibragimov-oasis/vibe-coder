@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # Translation Issues
 
 **Created:** 2026-03-27
@@ -64,3 +71,9 @@ Use this format when adding issues:
 **Proposed Solution:** [How to fix it]
 **Status:** Open | In Progress | Resolved
 ```
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

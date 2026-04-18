@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/memory
+  - artifact/memory
+  - source/memory
+---
+
 # Memory Graph Changelog
 
 ## Development Setup
@@ -101,3 +108,9 @@ Smart memory limiting prevents performance issues with large datasets
 - k-NN similarity limit reduced from 15 to 10 connections per document
 
 ---
+
+## 🔗 Связи
+
+- [[MOC - Memory]] — memory
+- [[000 - Map of Maps]] — Map of Maps
+

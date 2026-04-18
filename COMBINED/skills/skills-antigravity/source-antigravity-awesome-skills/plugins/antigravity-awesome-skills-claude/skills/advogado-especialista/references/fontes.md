@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # Referencias e Fontes — Advogado Especialista Elite
 
 ## Legislacao Federal (Ordem Cronologica)
@@ -137,3 +144,9 @@
 
 ### Digital
 - Patricia Peck Pinheiro — Direito Digital
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

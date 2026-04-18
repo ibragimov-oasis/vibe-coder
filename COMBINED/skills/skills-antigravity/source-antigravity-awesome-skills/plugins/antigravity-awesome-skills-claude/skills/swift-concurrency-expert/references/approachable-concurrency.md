@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 ## Approachable Concurrency (Swift 6.2) - project mode quick guide
 
 Use this reference when the project has opted into the Swift 6.2 approachable
@@ -61,3 +68,9 @@ For SwiftPM, inspect Package.swift swiftSettings for the same flags.
 ## Source
 
 https://fuckingapproachableswiftconcurrency.com/en/
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-hermes
+---
+
 # ML Paper Writing Philosophy & Best Practices
 
 This reference compiles writing advice from prominent ML researchers including Neel Nanda, Andrej Karpathy, Sebastian Farquhar, Zachary Lipton, and Jacob Steinhardt.
@@ -474,3 +481,9 @@ Before submitting, verify:
 - [ ] Error bars included with methodology
 - [ ] Compute resources documented
 - [ ] Code/data availability stated
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-hermes]] — Category: skills-hermes
+

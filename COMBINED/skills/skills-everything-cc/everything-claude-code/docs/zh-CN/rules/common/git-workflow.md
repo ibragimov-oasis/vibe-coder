@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
+---
+
 # Git 工作流程
 
 ## 提交信息格式
@@ -24,3 +31,9 @@
 
 > 有关 git 操作之前的完整开发流程（规划、TDD、代码审查），
 > 请参阅 [development-workflow.md](development-workflow.md)。
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

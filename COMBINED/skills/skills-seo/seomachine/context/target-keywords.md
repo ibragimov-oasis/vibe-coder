@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/seo
+  - artifact/doc
+  - source/skills-seo
+---
+
 # Target Keywords & Topic Clusters
 
 This document organizes Castos's target keywords by topic cluster for strategic content planning and SEO optimization.
@@ -373,3 +380,9 @@ Common related terms to include across podcasting content:
 ---
 
 **Note**: This is a living document. As you conduct keyword research, track performance, and identify new opportunities, update this file to keep your SEO strategy aligned with your content creation.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-seo]] — Category: skills-seo
+

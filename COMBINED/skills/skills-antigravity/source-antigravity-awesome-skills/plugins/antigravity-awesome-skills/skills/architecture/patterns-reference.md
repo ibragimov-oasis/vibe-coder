@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # Architecture Patterns Reference
 
 > Quick reference for common patterns with usage guidance.
@@ -48,3 +55,9 @@
 - You can always add patterns later
 - Removing complexity is MUCH harder than adding it
 - When in doubt, choose simpler option
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # Pattern Persistence Fix Confirmation - v2.7.1
 
 **Date**: 2025-10-22
@@ -511,3 +518,10 @@ All three critical MCP pattern persistence bugs have been completely resolved in
 **Verified By**: Code inspection + Docker automated test suite
 **Approval**: ✅ Production Ready
 **Status**: All fixes confirmed operational
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

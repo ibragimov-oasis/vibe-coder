@@ -1,6 +1,10 @@
 ---
 name: "AgentDB Memory Patterns"
 description: "Implement persistent memory patterns for AI agents using AgentDB. Includes session memory, long-term storage, pattern learning, and context management. Use when building stateful agents, chat systems, or intelligent assistants."
+tags:
+  - domain/skills
+  - artifact/config
+  - source/.claude
 ---
 
 # AgentDB Memory Patterns
@@ -337,3 +341,9 @@ npx agentdb@latest migrate --source .swarm/memory.db
 - Documentation: node_modules/agentic-flow/docs/AGENTDB_INTEGRATION.md
 - MCP Integration: `npx agentdb@latest mcp` for Claude Code
 - Website: https://agentdb.ruv.io
+
+## 🔗 Связи
+
+- [[MOC - System]] — System
+- [[000 - Map of Maps]] — Map of Maps
+

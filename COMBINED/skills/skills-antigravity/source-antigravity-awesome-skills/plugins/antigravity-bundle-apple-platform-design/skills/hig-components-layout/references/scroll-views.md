@@ -114,10 +114,19 @@ Play
 
 ## [Change log](https://developer.apple.com/design/human-interface-guidelines/scroll-views#Change-log)
 
-Date| Changes  
+Date| Changes
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
 ---|---  
 July 28, 2025| Added guidance for scroll edge effects.  
 February 2, 2024| Added artwork showing the behavior of the visionOS scroll indicator.  
 December 5, 2023| Described the visionOS scroll indicator and added guidance for integrating it with window layout.  
-June 5, 2023| Updated guidance for using scroll views in watchOS.  
-  
+June 5, 2023| Updated guidance for using scroll views in watchOS.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

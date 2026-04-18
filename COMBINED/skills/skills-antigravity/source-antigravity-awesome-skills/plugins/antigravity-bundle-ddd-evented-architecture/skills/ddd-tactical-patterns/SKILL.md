@@ -5,6 +5,9 @@ risk: safe
 source: self
 tags: "[ddd, tactical, aggregates, value-objects, domain-events]"
 date_added: "2026-02-27"
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 # DDD Tactical Patterns
@@ -51,3 +54,9 @@ class Order {
 - This skill does not define deployment architecture.
 - It does not choose databases or transport protocols.
 - It should be paired with testing patterns for invariant coverage.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # Incident Response Reference (Executive Playbook)
 
 This is the executive IR playbook — strategic decisions, communication, and leadership during incidents. For technical playbooks (containment procedures, forensics), see your SOC runbooks.
@@ -348,3 +355,9 @@ Example:
 - May create discovery obligations in litigation
 
 **CISO recommendation:** Notify legal before contacting law enforcement. In most cases, file an IC3 complaint but don't actively engage FBI investigation unless there's a clear benefit.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

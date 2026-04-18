@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-squad
+---
+
 # Orchestration Log Entry
 
 > One file per agent spawn. Saved to `.squad/orchestration-log/{timestamp}-{agent-name}.md`
@@ -25,3 +32,10 @@
 3. **Update outcome AFTER the agent completes.** Fill in the Outcome field.
 4. **Never delete or edit past entries.** Append-only.
 5. **If a reviewer rejects work,** log the rejection as a new entry with the revision agent.
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/squad]] — Squad
+- [[000 - Map of Maps]] — Map of Maps
+

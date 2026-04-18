@@ -7,6 +7,10 @@ source: community
 metadata:
   author: Shpigford
   version: "1.0"
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 Interact with GitHub issues - create, list, and view issues.
@@ -258,3 +262,9 @@ If `gh` command fails:
   EOF
   )"
   ```
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # Communication Templates — Returns & Reverse Logistics
 
 > **Reference Type:** Tier 3 — Load on demand when composing or reviewing returns-related communications.
@@ -530,3 +537,9 @@ Best,
 | Approval Date | {{approval_date}} |
 | Precedent Risk | {{precedent_risk}} |
 | Notes | {{approval_notes}} |
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

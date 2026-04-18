@@ -4,6 +4,10 @@ description: Write idiomatic C++ code with modern features, RAII, smart pointers
 risk: unknown
 source: community
 date_added: '2026-02-27'
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 ## Use this skill when
@@ -55,3 +59,9 @@ You are a C++ programming expert specializing in modern C++ and high-performance
 - Clear documentation of template interfaces
 
 Follow C++ Core Guidelines. Prefer compile-time errors over runtime errors.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

@@ -4,6 +4,10 @@ description: "Automated cleanup of unused AWS resources to reduce costs"
 risk: safe
 source: community
 date_added: "2026-02-27"
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 # AWS Cost Cleanup
@@ -308,3 +312,9 @@ kiro-cli chat "Set up weekly automated cleanup using aws-cost-cleanup"
 - [AWS Resource Cleanup Best Practices](https://aws.amazon.com/blogs/mt/automate-resource-cleanup/)
 - [AWS Systems Manager Automation](https://docs.aws.amazon.com/systems-manager/latest/userguide/systems-manager-automation.html)
 - [AWS Config Rules for Compliance](https://docs.aws.amazon.com/config/latest/developerguide/managed-rules-by-aws-config.html)
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

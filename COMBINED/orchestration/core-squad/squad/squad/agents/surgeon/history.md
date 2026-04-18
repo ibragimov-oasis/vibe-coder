@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-squad
+---
+
 # SURGEON
 
 > Flight Surgeon
@@ -135,3 +142,10 @@ Prepared comprehensive release playbook and CI improvement plan for Brady's revi
 - Pre-release validation prevents 90% of publish issues
 - Culture: "If the same problem happens twice, the playbook failed"
 - Documentation must be user-first (Brady's perspective, not technical jargon)
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/squad]] — Squad
+- [[000 - Map of Maps]] — Map of Maps
+

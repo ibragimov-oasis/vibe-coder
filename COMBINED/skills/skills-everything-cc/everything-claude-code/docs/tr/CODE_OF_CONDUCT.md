@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
+---
+
 # Katkıda Bulunanlar Sözleşmesi Davranış Kuralları
 
 ## Taahhüdümüz
@@ -102,3 +109,9 @@ uygulama merdiveni](https://github.com/mozilla/diversity)'nden ilham almıştır
 Bu davranış kuralları hakkında sık sorulan soruların cevapları için SSS'ye bakın:
 <https://www.contributor-covenant.org/faq>. Çeviriler şu adreste mevcuttur:
 <https://www.contributor-covenant.org/translations>.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

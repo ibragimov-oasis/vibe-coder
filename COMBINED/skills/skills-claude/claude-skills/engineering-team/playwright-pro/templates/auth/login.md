@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # Login Template
 
 Tests email/password login, social login, and remember me functionality.
@@ -117,3 +124,9 @@ test.describe('Login', () => {
 | Wrong password | Alert with error message |
 | Empty form | Inline validation shown |
 | Locked account | Lockout message after N failures |
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

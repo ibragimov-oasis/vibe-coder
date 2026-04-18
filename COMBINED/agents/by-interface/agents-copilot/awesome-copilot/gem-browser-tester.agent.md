@@ -3,6 +3,10 @@ description: "Automates E2E scenarios with Chrome DevTools MCP, Playwright, Agen
 name: gem-browser-tester
 disable-model-invocation: false
 user-invocable: true
+tags:
+  - domain/agents
+  - artifact/agent
+  - source/by-interface/agents-copilot
 ---
 
 <agent>
@@ -117,3 +121,9 @@ Browser Automation (Chrome DevTools MCP, Playwright, Agent Browser), E2E Testing
 - isolatedContext: Only use if you need separate browser contexts (different user logins). For most tests, pageId alone is sufficient.
 </directives>
 </agent>
+
+## 🔗 Связи
+
+- [[MOC - Agents]] — Agent catalog
+- [[agents/agents-copilot]] — Interface: agents-copilot
+

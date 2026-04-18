@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/new_repos
+---
+
 # Contributing to Copilot for Obsidian
 
 First off, thank you for considering contributing to Copilot for Obsidian! It's people like you who make Copilot for Obsidian such a great tool!
@@ -126,3 +133,8 @@ The most basic ones are model changes and mode changes.
 - **Email**: logan@brevilabs.com
 
 Thank you for contributing to Copilot for Obsidian!
+
+## 🔗 Связи
+
+- [[000 - Map of Maps]] — Map of Maps
+

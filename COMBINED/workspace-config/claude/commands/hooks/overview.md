@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/config
+  - source/workspace-config
+---
+
 # Claude Code Hooks for claude-flow
 
 ## Purpose
@@ -56,3 +63,9 @@ Hooks are configured in `.claude/settings.json`:
 - [Pre-Edit Hook](./pre-edit.md)
 - [Post-Edit Hook](./post-edit.md)
 - [Session End Hook](./session-end.md)
+
+## 🔗 Связи
+
+- [[MOC - System]] — workspace-config
+- [[000 - Map of Maps]] — Map of Maps
+

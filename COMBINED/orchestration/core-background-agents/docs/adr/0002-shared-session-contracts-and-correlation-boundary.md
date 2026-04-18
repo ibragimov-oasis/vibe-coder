@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-background-agents
+---
+
 # ADR 0002: Shared Session Contracts and Correlation Boundary Rules
 
 ## Status
@@ -54,3 +61,10 @@ provider and client boundaries, making tracing behavior harder to reason about.
 - New websocket or sandbox event variants must be added in `packages/shared` first.
 - Do not reintroduce parallel protocol definitions in feature packages.
 - Keep correlation key naming canonical at every external boundary.
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-background-agents]] — core-background-agents
+- [[MOC - Skills]] — Skills library
+

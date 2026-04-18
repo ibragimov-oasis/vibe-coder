@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # Known Issues with Claude Flow Benchmark System
 
 ## Issue 1: Non-Interactive Mode Not Working in Claude Flow
@@ -70,3 +77,10 @@ Commands will execute but may fail if Claude CLI is not properly configured.
 
 ### Workaround
 Use SPARC commands for benchmarking without Claude CLI dependency.
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-ruflo]] — core-ruflo
+- [[MOC - Skills]] — Skills library
+

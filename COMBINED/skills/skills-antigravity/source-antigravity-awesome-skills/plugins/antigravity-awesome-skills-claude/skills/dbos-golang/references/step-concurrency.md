@@ -3,6 +3,9 @@ title: Run Concurrent Steps with Go and Select
 impact: HIGH
 impactDescription: Enables parallel execution of steps with durable checkpointing
 tags: step, concurrency, goroutine, select, parallel
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
 ---
 
 ## Run Concurrent Steps with Go and Select
@@ -77,3 +80,9 @@ Key behaviors:
 - Steps started with `Go` follow the same retry and checkpointing rules as `RunAsStep`
 
 Reference: [Concurrent Steps](https://docs.dbos.dev/golang/tutorials/workflow-tutorial#concurrent-steps)
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

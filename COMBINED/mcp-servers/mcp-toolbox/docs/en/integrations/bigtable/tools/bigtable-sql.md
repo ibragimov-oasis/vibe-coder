@@ -5,6 +5,10 @@ weight: 1
 description: >
   A "bigtable-sql" tool executes a pre-defined SQL statement against a Google
   Cloud Bigtable instance.
+tags:
+  - domain/mcp
+  - artifact/mcp-server
+  - source/mcp-servers
 ---
 
 ## About
@@ -124,3 +128,9 @@ templateParameters:
 [bigtable-logical-view]:
     https://cloud.google.com/bigtable/docs/create-manage-logical-views
 [bigtable-querybuilder]: https://cloud.google.com/bigtable/docs/query-builder
+
+## 🔗 Связи
+
+- [[MOC - MCP Servers]] — mcp-servers
+- [[000 - Map of Maps]] — Map of Maps
+

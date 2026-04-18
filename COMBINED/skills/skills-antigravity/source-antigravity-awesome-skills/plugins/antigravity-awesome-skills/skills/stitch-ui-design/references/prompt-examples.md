@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # Stitch Prompt Examples Library
 
 Comprehensive collection of effective Stitch prompts organized by use case and complexity level.
@@ -599,3 +606,9 @@ Platform: Desktop web (1440px+)
 7. **Iterate** - Start with a basic prompt, then refine with annotations
 
 Remember: These are starting points. Stitch works best when you provide specific details relevant to your unique project.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

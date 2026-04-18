@@ -2,6 +2,10 @@
 paths:
   - "**/*.swift"
   - "**/Package.swift"
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
 ---
 
 # Swift 测试
@@ -44,3 +48,9 @@ swift test --enable-code-coverage
 ## 参考
 
 关于基于协议的依赖注入和 Swift Testing 的模拟模式，请参阅技能：`swift-protocol-di-testing`。
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

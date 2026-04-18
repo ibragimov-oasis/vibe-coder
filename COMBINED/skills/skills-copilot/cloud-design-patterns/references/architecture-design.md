@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-copilot
+---
+
 # Architecture & Design Patterns
 
 ## Anti-Corruption Layer Pattern
@@ -125,3 +132,9 @@
 - Migrate less risky components first
 - Run old and new systems in parallel initially
 - Plan for eventual decommissioning of legacy system
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-copilot]] — Category: skills-copilot
+

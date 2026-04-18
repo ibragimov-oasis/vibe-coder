@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/seo
+  - artifact/doc
+  - source/skills-seo
+---
+
 # Research AI Citations Command
 
 Generate high-commercial-intent prompts for a topic, cluster them, and create an audit template for tracking which sources AI tools cite. This is the prompt-driven research counterpart to traditional keyword research.
@@ -181,3 +188,9 @@ Save to: `research/ai-citations-[topic-slug]-[YYYY-MM-DD].md`
 - @context/ai-citation-targets.md - Existing citation surface inventory
 - @context/competitor-analysis.md - Competitor landscape
 - @context/features.md - Product feature set (for accurate prompt generation)
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-seo]] — Category: skills-seo
+

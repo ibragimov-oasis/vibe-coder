@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-deer-flow
+---
+
 # 文件路径使用示例
 
 ## 三种路径类型
@@ -287,3 +294,10 @@ function FileUploadList({ threadId }: { threadId: string }) {
    - 转换成功时，会返回额外的 `markdown_*` 字段
    - 建议优先使用 Markdown 版本（更易处理）
    - 原始文件始终保留
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-deer-flow]] — core-deer-flow
+- [[MOC - Skills]] — Skills library
+

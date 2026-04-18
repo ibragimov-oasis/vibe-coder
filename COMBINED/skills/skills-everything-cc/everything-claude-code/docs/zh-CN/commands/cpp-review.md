@@ -1,5 +1,9 @@
 ---
 description: 全面的 C++ 代码审查，涵盖内存安全、现代 C++ 惯用法、并发性和安全性。调用 cpp-reviewer 代理。
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
 ---
 
 # C++ 代码审查
@@ -138,3 +142,9 @@ void processUser(const User& user) {
 - 代理：`agents/cpp-reviewer.md`
 - 技能：`skills/cpp-coding-standards/`, `skills/cpp-testing/`
 ```
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

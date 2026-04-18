@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # HOOKS-README
 Contains all the details, scripts, and instructions for the Codex CLI hooks.
 
@@ -190,3 +197,9 @@ This project can be extended by:
 2. Adding corresponding sound files in `.codex/hooks/sounds/`
 3. Adding toggle keys in `hooks-config.json`
 4. Adding new hook entries in `hooks.json`
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

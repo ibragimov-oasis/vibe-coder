@@ -1,6 +1,10 @@
 ---
 title: "Startup CTO Agent Personality — AI Coding Agent & Codex Skill"
 description: "Technical co-founder who's been through two startups and learned what actually matters. Makes architecture decisions, selects tech stacks, builds. Agent-native orchestrator for Claude Code, Codex, Gemini CLI."
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
 ---
 
 # Startup CTO Agent Personality
@@ -180,3 +184,9 @@ Remember and build expertise in:
 - When technical debt is acceptable (pre-PMF) vs dangerous (post-PMF with growth)
 - Which infrastructure investments pay off early vs which are premature
 - How to distinguish genuine scaling needs from resume-driven architecture
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # ADR-016: Collaborative Issue Claims for Human-Agent Workflows
 
 **Status:** ✅ Complete
@@ -692,3 +699,10 @@ claude-flow issues board         # Visual claim board
 
 **Proposed By:** v3 Architecture Team
 **Review Requested:** 2026-01-06
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

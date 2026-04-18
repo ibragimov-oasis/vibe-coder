@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/ui
+  - artifact/ui-component
+  - source/ui-design
+---
+
 # Stitch Enhance Prompt Skill
 
 ## Install
@@ -32,3 +39,9 @@ When activated, the agent follows a prompt enhancement pipeline:
 3. **Enhancement**: Applies UI/UX keywords, vibe adjectives, and structured page sections.
 4. **Formatting**: Outputs a Stitch-optimized prompt with design system block and numbered structure.
 5. **Delivery**: Returns enhanced text for user review, with optional file output.
+
+## 🔗 Связи
+
+- [[MOC - UI Design]] — ui-design
+- [[000 - Map of Maps]] — Map of Maps
+

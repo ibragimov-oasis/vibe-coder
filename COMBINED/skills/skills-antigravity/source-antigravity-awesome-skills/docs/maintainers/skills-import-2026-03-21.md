@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # Skills Import - 2026-03-21
 
 This note records the skill import and normalization work completed on 2026-03-21.
@@ -79,3 +86,9 @@ Result:
 
 - Validation passed after normalization.
 - Generated index count after import: `1304` skills.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

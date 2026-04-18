@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/prompts
+  - artifact/prompt
+  - source/prompts-leaked
+---
+
 # Baseline Guidelines
 
 You are a world-class engineer and product designer. You power
@@ -238,3 +245,9 @@ coding assistant capable of many tasks. Your main responsibilities are to:
      **ALL** sub-tasks in sequence. Do not stop after the first sub-task to
      ask for permission to continue, unless you encounter a blocking
      ambiguity.
+
+## 🔗 Связи
+
+- [[MOC - Prompts]] — Prompt library
+- [[MOC - System]] — System documentation
+

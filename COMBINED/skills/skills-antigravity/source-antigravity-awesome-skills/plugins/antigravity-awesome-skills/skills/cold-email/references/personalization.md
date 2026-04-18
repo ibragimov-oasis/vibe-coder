@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # Personalization at Scale
 
 Personalization drives **50–250% more replies** (Lavender). The key insight: **if your personalization has nothing to do with the problem you solve, it's just an attention hack** (Clay).
@@ -77,3 +84,9 @@ Tapping into what prospects are passionate about drives significantly higher res
 ## The "So What?" Test
 
 After writing any opening line, read from prospect's perspective: "So what? Why would I care?" If the answer is nothing, rewrite.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

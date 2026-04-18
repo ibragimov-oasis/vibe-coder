@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
+---
+
 # Glossário de Terminologia (TERMINOLOGY)
 
 Este documento registra a correspondência de termos utilizados nas traduções para português brasileiro (pt-BR), garantindo consistência.
@@ -100,3 +107,9 @@ Este documento registra a correspondência de termos utilizados nas traduções 
 7. **Primeira aparição**: Siglas devem ser expandidas na primeira ocorrência
 
 ---
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

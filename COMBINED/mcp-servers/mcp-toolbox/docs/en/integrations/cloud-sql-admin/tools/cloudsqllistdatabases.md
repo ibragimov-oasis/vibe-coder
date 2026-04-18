@@ -3,6 +3,10 @@ title: cloud-sql-list-databases
 type: docs
 weight: 1
 description: List Cloud SQL databases in an instance.
+tags:
+  - domain/mcp
+  - artifact/mcp-server
+  - source/mcp-servers
 ---
 
 ## About
@@ -48,3 +52,9 @@ description: Use this tool to list all Cloud SQL databases in an instance.
 | type        |  string  |     true     | Must be "cloud-sql-list-databases".                            |
 | source      |  string  |     true     | The name of the `cloud-sql-admin` source to use for this tool. |
 | description |  string  |     false    | Description of the tool that is passed to the agent.           |
+
+## 🔗 Связи
+
+- [[MOC - MCP Servers]] — mcp-servers
+- [[000 - Map of Maps]] — Map of Maps
+

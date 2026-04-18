@@ -5,6 +5,10 @@ origin: community
 metadata:
   author: YannJY02
   version: "1.0.0"
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-everything-cc
 ---
 
 # Prompt 优化器
@@ -377,3 +381,9 @@ Research → Plan → Implement (TDD) → Review → Verify → Commit
 | `blueprint` | 史诗级范围的优化提示（作为技能调用，而非命令） |
 | `strategic-compact` | 长会话上下文管理 |
 | `cost-aware-llm-pipeline` | Token 优化推荐 |
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

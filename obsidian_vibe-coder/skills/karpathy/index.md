@@ -77,3 +77,9 @@ Goal-Driven Execution   → ПРОВЕРИТЬ что сделано
 - **Matt Pocock index:** [[skills/matt-pocock/index]]
 - **MOC:** [[MOC - Skills]]
 - **Map:** [[000 - Map of Maps]]
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Parent MOC
+- [[000 - Map of Maps]] — Map of Maps
+

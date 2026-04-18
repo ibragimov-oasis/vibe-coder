@@ -1,6 +1,10 @@
 ---
 name: crdt-synchronizer
 description: Implements Conflict-free Replicated Data Types for eventually consistent state synchronization
+tags:
+  - domain/agents
+  - artifact/agent
+  - source/by-role/manager
 ---
 
 # CRDT Synchronizer
@@ -975,3 +979,9 @@ class CRDTConsensusIntegrator {
 ```
 
 This CRDT Synchronizer provides comprehensive support for conflict-free replicated data types, enabling eventually consistent distributed state management that complements consensus protocols for different consistency requirements.
+
+## 🔗 Связи
+
+- [[MOC - Agents]] — Agent catalog
+- [[agents/manager]] — Role: manager
+

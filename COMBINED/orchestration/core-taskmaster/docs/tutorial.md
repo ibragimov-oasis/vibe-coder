@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-taskmaster
+---
+
 # Task Master Tutorial
 
 This tutorial will guide you through setting up and using Task Master for AI-driven development.
@@ -577,3 +584,10 @@ A typical git workflow with Task Master tags:
 5. **Merge and cleanup**: After merging the branch, optionally delete the tag with `task-master delete-tag <name>`
 
 This workflow ensures your task management stays organized and conflicts are minimized when working with teams or multiple features simultaneously.
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-taskmaster]] — core-taskmaster
+- [[MOC - Skills]] — Skills library
+

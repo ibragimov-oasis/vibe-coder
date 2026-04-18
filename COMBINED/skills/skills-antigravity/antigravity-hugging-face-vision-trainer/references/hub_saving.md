@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # Saving Vision Models to Hugging Face Hub
 
 ## Contents
@@ -616,3 +623,9 @@ for score, label, box in zip(results["scores"], results["labels"], results["boxe
 3. Include appropriate model card metadata
 
 Always verify all three are configured before submitting any training job.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

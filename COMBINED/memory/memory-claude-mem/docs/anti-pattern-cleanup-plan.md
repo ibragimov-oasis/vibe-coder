@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/memory
+  - artifact/memory
+  - source/memory
+---
+
 # Error Handling Anti-Pattern Cleanup Plan
 
 **Total: 132 anti-patterns to fix**
@@ -46,3 +53,9 @@ Run detector: `bun run scripts/anti-pattern-test/detect-error-handling-antipatte
 ## Notes
 
 All severity designators removed from detector - every anti-pattern is treated as critical.
+
+## 🔗 Связи
+
+- [[MOC - Memory]] — memory
+- [[000 - Map of Maps]] — Map of Maps
+

@@ -4,6 +4,10 @@ description: "Guide to selecting and optimizing embedding models for vector sear
 risk: unknown
 source: community
 date_added: "2026-02-27"
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 # Embedding Strategies
@@ -492,3 +496,9 @@ def compute_embedding_similarity(
 - [OpenAI Embeddings](https://platform.openai.com/docs/guides/embeddings)
 - [Sentence Transformers](https://www.sbert.net/)
 - [MTEB Benchmark](https://huggingface.co/spaces/mteb/leaderboard)
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # Quality Scoring Rubric
 
 **Version**: 1.0.0  
@@ -403,3 +410,9 @@ The scoring rubric evolves based on:
 - Quality trend analysis
 
 This quality scoring rubric ensures consistent, objective, and comprehensive assessment of all skills within the claude-skills ecosystem while providing clear guidance for quality improvement.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/ui
+  - artifact/ui-component
+  - source/ui-design
+---
+
 # Impeccable
 
 The vocabulary you didn't know you needed. 1 skill, 18 commands, and curated anti-patterns for impeccable frontend design.
@@ -244,3 +251,9 @@ The impeccable skill builds on [Anthropic's original frontend-design skill](http
 ---
 
 Created by [Paul Bakaus](https://www.paulbakaus.com)
+
+## 🔗 Связи
+
+- [[MOC - UI Design]] — ui-design
+- [[000 - Map of Maps]] — Map of Maps
+

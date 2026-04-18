@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-awesome-claude
+---
+
 # FlowStudio MCP — Action Patterns: Data Transforms
 
 Array operations, HTTP calls, parsing, and data transformation patterns.
@@ -733,3 +740,9 @@ Common timezone strings: `"UTC"`, `"AUS Eastern Standard Time"`, `"Taipei Standa
 > This is `type: Expression, kind: ConvertTimeZone` — a built-in Logic Apps action,
 > not a connector. No connection reference needed. Reference the output via
 > `body()` (not `outputs()`), otherwise the expression returns null.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-awesome-claude]] — Category: skills-awesome-claude
+

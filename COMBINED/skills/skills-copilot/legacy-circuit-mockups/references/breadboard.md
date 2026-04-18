@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-copilot
+---
+
 # Solderless Breadboard
 
 A practical Markdown specification and reference for **common solderless breadboards**, intended for electronics prototyping, education, and hobbyist development.
@@ -212,3 +219,9 @@ Connected | Connected
 **Document Scope:** Solderless breadboard reference
 **Audience:** Hobbyist, student, engineer
 **Status:** Stable reference
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-copilot]] — Category: skills-copilot
+

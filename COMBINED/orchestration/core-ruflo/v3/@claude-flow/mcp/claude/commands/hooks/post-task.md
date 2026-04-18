@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # hook post-task
 
 Execute post-task cleanup, performance analysis, and memory storage.
@@ -110,3 +117,10 @@ Returns JSON with:
 - `performance report` - Detailed metrics
 - `memory usage` - Memory management
 - `neural patterns` - Pattern analysis
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

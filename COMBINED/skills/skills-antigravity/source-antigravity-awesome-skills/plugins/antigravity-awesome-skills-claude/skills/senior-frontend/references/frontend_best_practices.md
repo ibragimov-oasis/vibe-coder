@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # Frontend Best Practices
 
 Modern frontend development standards for accessibility, testing, TypeScript, and Tailwind CSS.
@@ -804,3 +811,9 @@ export async function GET() {
   return Response.json(await response.json());
 }
 ```
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

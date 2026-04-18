@@ -1,6 +1,10 @@
 ---
 name: github-deep-research
 description: Conduct multi-round deep research on any GitHub Repo. Use when users request comprehensive analysis, timeline reconstruction, competitive analysis, or in-depth investigation of GitHub. Produces structured markdown reports with executive summaries, chronological timelines, metrics analysis, and Mermaid diagrams. Triggers on Github repository URL or open source projects.
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-research
 ---
 
 # GitHub Deep Research Skill
@@ -164,3 +168,9 @@ The architecture uses LangGraph for workflow orchestration [citation:LangGraph D
 The project gained 10,000 stars within 3 months of launch.
 The architecture uses LangGraph for workflow orchestration.
 ```
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-research]] — Category: skills-research
+

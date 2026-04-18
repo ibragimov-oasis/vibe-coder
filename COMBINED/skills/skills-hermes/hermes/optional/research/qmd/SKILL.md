@@ -9,6 +9,9 @@ metadata:
   hermes:
     tags: [Search, Knowledge-Base, RAG, Notes, MCP, Local-AI]
     related_skills: [obsidian, native-mcp, arxiv]
+  - domain/skills
+  - artifact/skill
+  - source/skills-hermes
 ---
 
 # QMD — Query Markup Documents
@@ -439,3 +442,9 @@ export QMD_EMBED_MODEL="your-multilingual-model"
 
 - [GitHub: tobi/qmd](https://github.com/tobi/qmd)
 - [QMD Changelog](https://github.com/tobi/qmd/blob/main/CHANGELOG.md)
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-hermes]] — Category: skills-hermes
+

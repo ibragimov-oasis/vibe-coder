@@ -1,6 +1,10 @@
 ---
 name: improve-codebase-architecture
 description: Explore a codebase to find opportunities for architectural improvement, focusing on making the codebase more testable by deepening shallow modules. Use when user wants to improve architecture, find refactoring opportunities, consolidate tightly-coupled modules, or make a codebase more AI-navigable.
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-development
 ---
 
 # Improve Codebase Architecture
@@ -74,3 +78,9 @@ After comparing, give your own recommendation: which design you think is stronge
 ### 7. Create GitHub issue
 
 Create a refactor RFC as a GitHub issue using `gh issue create`. Use the template in [REFERENCE.md](REFERENCE.md). Do NOT ask the user to review before creating — just create it and share the URL.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-development]] — Category: skills-development
+

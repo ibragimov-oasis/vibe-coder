@@ -8,6 +8,9 @@ metadata:
   hermes:
     tags: [AI, image-generation, video, LLM, search, inference, FLUX, Veo, Claude]
     related_skills: []
+  - domain/skills
+  - artifact/skill
+  - source/skills-hermes
 ---
 
 # inference.sh CLI
@@ -153,3 +156,9 @@ infsh app list --search twitter
 - `references/app-discovery.md` — Searching and browsing the app catalog
 - `references/running-apps.md` — Running apps, input formats, output handling
 - `references/cli-reference.md` — Complete CLI command reference
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-hermes]] — Category: skills-hermes
+

@@ -52,3 +52,9 @@ ToolRegistry (singleton)
 
 - [[combined/MCP Servers Overview]] — MCP в ULTRACAR
 - [[combined/Agents Overview]] — агентная система ULTRACAR
+
+## 🔗 Связи
+
+- [[MOC - System]] — Parent MOC
+- [[000 - Map of Maps]] — Map of Maps
+

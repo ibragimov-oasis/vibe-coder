@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # 仓库一致性和正确性审计
 
 本文档总结了在 `apps/` + `tools/` + 分层 `docs/` 重构后执行的仓库一致性审计。
@@ -66,3 +73,9 @@ npm test                  # 测试套件
 
 - 逐步清理旧技能，以便 `npm run validate:strict` 可以在未来成为严格的 CI 关卡。
 - 在规范英语文档稳定后，在单独的通道中保持翻译文档的一致性。
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

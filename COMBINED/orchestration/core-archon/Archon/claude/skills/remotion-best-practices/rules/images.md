@@ -3,6 +3,9 @@ name: images
 description: Embedding images in Remotion using the <Img> component
 metadata:
   tags: images, img, staticFile, png, jpg, svg, webp
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-archon
 ---
 
 # Using images in Remotion
@@ -132,3 +135,10 @@ const calculateMetadata: CalculateMetadataFunction = async () => {
   };
 };
 ```
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/archon]] — Archon
+- [[000 - Map of Maps]] — Map of Maps
+

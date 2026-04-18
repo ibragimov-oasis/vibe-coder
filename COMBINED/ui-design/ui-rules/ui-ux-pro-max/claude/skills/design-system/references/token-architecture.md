@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/ui
+  - artifact/ui-component
+  - source/ui-design
+---
+
 # Token Architecture
 
 Three-layer token system for scalable, themeable design systems.
@@ -222,3 +229,9 @@ Token JSON format (W3C Design Tokens Community Group):
   }
 }
 ```
+
+## 🔗 Связи
+
+- [[MOC - UI Design]] — ui-design
+- [[000 - Map of Maps]] — Map of Maps
+

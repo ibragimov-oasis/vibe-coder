@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # Phase 1 & 2 Implementation Summary
 
 **Implementation Date**: 2025-11-12
@@ -674,3 +681,10 @@ Ready to commit and move to Phase 3 (PII Tokenization) and Phase 0A-B (MCP 2025 
 **Implementation Date**: 2025-11-12
 **Version**: Claude Flow v2.7.32
 **Next Release**: v2.8.0 (with Phase 3-6 features)
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-ruflo]] — core-ruflo
+- [[MOC - Skills]] — Skills library
+

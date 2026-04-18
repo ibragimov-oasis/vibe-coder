@@ -1,6 +1,10 @@
 ---
 title: "MCP Server Builder — Agent Skill for Codex & OpenClaw"
 description: "MCP Server Builder. Agent skill for Claude Code, Codex CLI, Gemini CLI, OpenClaw."
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
 ---
 
 # MCP Server Builder
@@ -173,3 +177,9 @@ Before publishing a manifest:
 - Do not proxy arbitrary URLs from user-provided input.
 - Redact secrets and auth headers from logs.
 - Rate-limit high-cost tools and add request timeouts.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

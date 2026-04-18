@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-awesome-claude
+---
+
 ## GitHub README collapsible subcategory cheat sheet
 
 Context: GitHub’s Markdown renderer wraps loose content in `<p>` tags and modifies markup inside `<summary>`. These tweaks keep the caret aligned and prevent broken first items in collapsible sections.
@@ -20,3 +27,9 @@ Minimal pattern that renders correctly on GitHub:
 ```
 
 Verification tip: use GitHub’s `/markdown` API with mode `gfm` to preview the rendered HTML without pushing commits. One request per variant is usually enough.***
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-awesome-claude]] — Category: skills-awesome-claude
+

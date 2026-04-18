@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
+---
+
 # Refactor Clean
 
 Identifique e remova código morto com segurança, com verificação de testes em cada passo.
@@ -78,3 +85,9 @@ All tests passing PASS:
 - **Uma remoção por vez** — Mudanças atômicas facilitam rollback
 - **Se houver dúvida, pule** — Melhor manter código morto do que quebrar produção
 - **Não refatore durante limpeza** — Separe responsabilidades (limpar primeiro, refatorar depois)
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

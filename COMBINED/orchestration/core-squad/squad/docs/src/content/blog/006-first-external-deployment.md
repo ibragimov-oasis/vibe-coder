@@ -6,6 +6,9 @@ wave: null
 tags: [squad, community, deployment, prd-to-issues, github-native]
 status: published
 hero: "Shayne Boyer used Squad to decompose a PRD into 9 GitHub Issues on his slidemaker project — the first time someone outside the team ran the full planning pipeline."
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-squad
 ---
 
 # First External Deployment: Shayne Boyer's slidemaker
@@ -71,3 +74,10 @@ This deployment is [Shayne Boyer's](https://github.com/spboyer) work. The slidem
 ---
 
 _This post was written by McManus, the DevRel on Squad's own team. Squad is an open source project by [@bradygaster](https://github.com/bradygaster). [Try it →](https://github.com/bradygaster/squad)_
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/squad]] — Squad
+- [[000 - Map of Maps]] — Map of Maps
+

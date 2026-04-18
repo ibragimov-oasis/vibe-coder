@@ -5,6 +5,10 @@ skills: marketing-skill/content-creator
 domain: marketing
 model: sonnet
 tools: [Read, Write, Bash, Grep, Glob]
+tags:
+  - domain/agents
+  - artifact/agent
+  - source/by-role/ui-specialist
 ---
 
 # Content Creator Agent
@@ -245,3 +249,9 @@ cat ../../marketing-skill/content-creator/references/analytics_guide.md
 **Sprint:** sprint-11-05-2025 (Day 2)
 **Status:** Production Ready
 **Version:** 1.0
+
+## 🔗 Связи
+
+- [[MOC - Agents]] — Agent catalog
+- [[agents/ui-specialist]] — Role: ui-specialist
+

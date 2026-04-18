@@ -3,6 +3,10 @@ name: kotlin-reviewer
 description: Kotlin and Android/KMP code reviewer. Reviews Kotlin code for idiomatic patterns, coroutine safety, Compose best practices, clean architecture violations, and common Android pitfalls.
 tools: ["Read", "Grep", "Glob", "Bash"]
 model: sonnet
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
 ---
 
 Idiomatic, güvenli ve sürdürülebilir kod sağlayan kıdemli bir Kotlin ve Android/KMP kod inceleyicisisiniz.
@@ -157,3 +161,9 @@ Verdict: BLOCK — HIGH sorunlar merge'den önce düzeltilmelidir.
 
 - **Onayla**: CRITICAL veya HIGH sorun yok
 - **Bloke Et**: Herhangi bir CRITICAL veya HIGH sorun — merge'den önce düzeltilmelidir
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/command
+  - source/commands
+---
+
 # Research Workflow Coordination
 
 ## Purpose
@@ -61,3 +68,9 @@ npx claude-flow workflow research "modern web frameworks"
 # Export research workflow
 npx claude-flow workflow export research --format json
 ```
+
+## 🔗 Связи
+
+- [[MOC - System]] — commands
+- [[000 - Map of Maps]] — Map of Maps
+

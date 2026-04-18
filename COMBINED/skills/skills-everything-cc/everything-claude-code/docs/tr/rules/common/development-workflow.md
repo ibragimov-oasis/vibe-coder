@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
+---
+
 # Geliştirme İş Akışı
 
 > Bu dosya [common/git-workflow.md](./git-workflow.md) dosyasını git işlemlerinden önce gerçekleşen tam özellik geliştirme süreci ile genişletir.
@@ -36,3 +43,9 @@ Feature Implementation Workflow geliştirme pipeline'ını tanımlar: araştırm
    - Detaylı commit mesajları
    - Conventional commits formatını takip et
    - Commit mesaj formatı ve PR süreci için [git-workflow.md](./git-workflow.md) dosyasına bak
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

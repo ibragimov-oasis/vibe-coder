@@ -1,6 +1,10 @@
 ---
 title: "Marketing Context — Agent Skill for Marketing"
 description: "Create and maintain the marketing context document that all marketing skills read before starting. Use when the user mentions 'marketing context,'. Agent skill for Claude Code, Codex CLI, Gemini CLI, OpenClaw."
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
 ---
 
 # Marketing Context
@@ -172,3 +176,9 @@ All output passes quality verification:
 - **content-strategy**: For planning what content to create. Reads target keywords + personas from this context.
 - **marketing-strategy-pmm**: For positioning and GTM strategy. Reads competitive landscape from this context.
 - **cs-onboard** (C-Suite): For company-level context. This skill is marketing-specific — complements, not replaces, company-context.md.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

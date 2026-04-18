@@ -4,6 +4,10 @@ description: "Build AI applications on Microsoft Foundry using the azure-ai-proj
 risk: unknown
 source: community
 date_added: "2026-02-27"
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 # Azure AI Projects Python SDK (Foundry SDK)
@@ -298,3 +302,9 @@ agent = client.agents.create_agent(
 
 ## When to Use
 This skill is applicable to execute the workflow or actions described in the overview.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

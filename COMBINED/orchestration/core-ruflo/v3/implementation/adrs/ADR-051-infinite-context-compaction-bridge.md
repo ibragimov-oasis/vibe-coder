@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # ADR-051: Infinite Context via Compaction-to-Memory Bridge
 
 **Status:** Implemented
@@ -873,3 +880,10 @@ node --test tests/context-persistence-hook.test.mjs
 - ADR-048: Auto Memory Integration
 - ADR-049: Self-Learning Memory with GNN
 - Claude Agent SDK: `@anthropic-ai/claude-agent-sdk` PreCompact hook types
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

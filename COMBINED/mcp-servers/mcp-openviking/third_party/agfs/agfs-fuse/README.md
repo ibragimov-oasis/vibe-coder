@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/mcp
+  - artifact/mcp-server
+  - source/mcp-servers
+---
+
 # AGFS FUSE [WIP]
 
 A FUSE filesystem implementation for mounting AGFS servers on Linux.
@@ -89,3 +96,9 @@ Options:
 ## License
 
 See LICENSE file for details.
+
+## 🔗 Связи
+
+- [[MOC - MCP Servers]] — mcp-servers
+- [[000 - Map of Maps]] — Map of Maps
+

@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # Incident Response Procedures
 
 Security incident detection, response, and recovery procedures per ISO 27001 requirements.
@@ -418,3 +425,9 @@ APPENDICES
 | Mean Time to Contain (MTTC) | < 2 hours | Containment effectiveness |
 | Incidents by severity | Decreasing trend | Overall security posture |
 | Repeat incidents | 0 | Root cause resolution |
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

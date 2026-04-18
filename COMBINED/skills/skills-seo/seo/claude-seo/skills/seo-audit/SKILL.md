@@ -12,6 +12,10 @@ metadata:
   author: AgriciDaniel
   version: "1.7.0"
   category: seo
+tags:
+  - domain/seo
+  - artifact/skill
+  - source/skills-seo
 ---
 
 # Full Website SEO Audit
@@ -134,3 +138,9 @@ If Google API credentials are configured (`python scripts/google_auth.py --check
 | robots.txt blocks crawling | Report which paths are blocked. Analyze only accessible pages and note the limitation in the report. |
 | Rate limiting (429 responses) | Back off and reduce concurrent requests. Report partial results with a note on which sections could not be completed. |
 | Timeout on large sites (500+ pages) | Cap the crawl at the timeout limit. Report findings for pages crawled and estimate total site scope. |
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-seo]] — Category: skills-seo
+

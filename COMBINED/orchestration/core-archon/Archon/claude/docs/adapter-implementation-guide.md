@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-archon
+---
+
 # Adapter Implementation Guide
 
 > **Purpose**: Complete reference for understanding and building platform adapters in Archon.
@@ -246,3 +253,10 @@ Web is always enabled (not conditional on env vars).
 8. Register in `packages/server/src/index.ts` following the env-check → instantiate → onMessage → start pattern
 9. Add the platform type string to any switch/if chains that check `getPlatformType()`
 10. Export from `packages/adapters/src/index.ts`
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/archon]] — Archon
+- [[000 - Map of Maps]] — Map of Maps
+

@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # SOC 2 Trust Service Criteria Reference
 
 Comprehensive reference for all five AICPA Trust Service Criteria (TSC) categories. Each criterion includes its objective, sub-criteria, typical controls, and evidence examples.
@@ -271,3 +278,9 @@ Governs the collection, use, retention, disclosure, and disposal of personal inf
 | C1 (Confidentiality) | A.5.13-14, A.8.10-12 | PR.DS | Access Controls | Req 3-4 |
 | PI1 (Processing Integrity) | A.8.24-25 | PR.DS | Integrity Controls | Req 6.5 |
 | P1-P8 (Privacy) | A.5.34 (Privacy) | PR.PT | Privacy Rule | N/A |
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

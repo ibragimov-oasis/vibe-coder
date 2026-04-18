@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-taskmaster
+---
+
 Execute an intelligent workflow based on current project state and recent commands.
 
 This command analyzes:
@@ -53,3 +60,10 @@ Example flows detected:
 - Morning: standup → next → start
 - After lunch: status → continue task
 - End of day: complete → commit → status
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/task-master]] — Task-Master
+- [[000 - Map of Maps]] — Map of Maps
+

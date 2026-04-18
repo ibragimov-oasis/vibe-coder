@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # Summary Templates Reference
 
 ## Academic Paper (IMRAD)
@@ -118,3 +125,9 @@ Use when synthesizing 5+ sources into a research overview.
 - [ ] Contradictions highlighted (not hidden)
 - [ ] Overall state of knowledge summarized
 - [ ] Future research directions suggested
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

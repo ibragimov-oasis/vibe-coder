@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # AWS Service Selection Guide
 
 Quick reference for choosing the right AWS service based on requirements.
@@ -482,3 +489,9 @@ UserPool:
         - Name: verified_email
           Priority: 1
 ```
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

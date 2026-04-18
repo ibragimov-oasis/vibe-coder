@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # GitHub Issue Resolution Expert Implementation Playbook
 
 This file contains detailed patterns, checklists, and code samples referenced by the skill.
@@ -638,3 +645,9 @@ Success Criteria:
 - All CI/CD checks passing
 - Issue properly closed with reference to PR
 - Knowledge captured for future reference
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

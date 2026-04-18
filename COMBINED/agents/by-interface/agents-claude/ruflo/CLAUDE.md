@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/agent
+  - source/by-interface/agents-claude
+---
+
 # Claude Code Configuration - Ruflo v3.5
 
 > **Ruflo v3.5** (2026-02-27) — First major stable release. Formerly "Claude Flow".
@@ -1048,3 +1055,9 @@ Registry source: IPFS via Pinata (`QmXbfEAaR7D2Ujm4GAkbwcGZQMHqAMpwDoje4583uNP83
 ---
 
 Remember: **Claude Flow coordinates, Claude Code creates!**
+
+## 🔗 Связи
+
+- [[MOC - Agents]] — Agent catalog
+- [[agents/agents-claude]] — Interface: agents-claude
+

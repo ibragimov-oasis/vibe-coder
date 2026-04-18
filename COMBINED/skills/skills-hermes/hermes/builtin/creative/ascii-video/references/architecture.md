@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-hermes
+---
+
 # Architecture Reference
 
 > **See also:** composition.md · effects.md · scenes.md · shaders.md · inputs.md · optimization.md · troubleshooting.md
@@ -800,3 +807,9 @@ def log(msg):
     """Print timestamped log message."""
     print(msg, flush=True)
 ```
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-hermes]] — Category: skills-hermes
+

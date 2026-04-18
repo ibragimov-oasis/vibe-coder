@@ -5,6 +5,10 @@ description: >
 risk: safe
 source: original
 date_added: "2026-03-04"
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 # Professional Proofreader
@@ -103,3 +107,9 @@ If file rewrite:
 Give friendly message to user in the end.
 
 ---
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

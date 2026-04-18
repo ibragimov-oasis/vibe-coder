@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # Playwright Pro
 
 > Production-grade Playwright testing toolkit for AI coding agents.
@@ -131,3 +138,9 @@ Based on battle-tested patterns from production test suites. Includes curated gu
 ## License
 
 MIT
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-praisonai
+---
+
 # PraisonAI Docker Setup
 
 This directory contains Docker configurations for running PraisonAI services in containerized environments. The setup addresses directory management issues and provides comprehensive multi-service deployment options.
@@ -263,3 +270,9 @@ server {
 ```
 
 This Docker setup provides a clean, organized, and scalable way to deploy PraisonAI services while solving the directory management issues mentioned in the original request.
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-praisonai]] — core-praisonai
+

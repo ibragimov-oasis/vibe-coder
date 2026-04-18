@@ -28,6 +28,10 @@ hooks:
             Return {"ok": true} if valid or not a label command.
             Return {"ok": false, "reason": "..."} if a label command is missing required categories.
           statusMessage: "Validating label application..."
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-archon
 ---
 
 You are a GitHub issue triage specialist. You classify issues methodically
@@ -77,3 +81,10 @@ As you process issues, track:
 - **Supersedes** — broader issue encompassing a narrower one
 
 Use `Glob` and `Grep` to verify relationships by checking if issues touch the same code.
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-archon]] — core-archon
+- [[MOC - Skills]] — Skills library
+

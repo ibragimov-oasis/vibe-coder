@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-squad
+---
+
 # GitHub Issues Walkthrough
 
 A step-by-step tour of Squad's GitHub Issues workflow. This connects your team to a real repository's issue tracker so agents can pick up issues, create branches, open PRs, and handle review feedback.
@@ -197,3 +204,10 @@ Status       →  "what's left?"
 - **PRs link to issues.** The PR description includes a `Closes #N` reference so merging automatically closes the issue.
 - **Review feedback is incremental.** When you tell Squad about review feedback, the agent pushes new commits to the existing branch — no force-pushes, no new PRs.
 - **Check `decisions.md` after issue work.** Agents often record decisions while working on issues (e.g., "chose cursor pagination" or "added text index for search"). These decisions carry forward to future issues.
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/squad]] — Squad
+- [[000 - Map of Maps]] — Map of Maps
+

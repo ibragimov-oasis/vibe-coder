@@ -1,6 +1,10 @@
 ---
 name: "self-improving-agent"
 description: "Curate Claude Code's auto-memory into durable project knowledge. Analyze MEMORY.md for patterns, promote proven learnings to CLAUDE.md and .claude/rules/, extract recurring solutions into reusable skills. Use when: (1) reviewing what Claude has learned about your project, (2) graduating a pattern from notes to enforced rules, (3) turning a debugging solution into a skill, (4) checking memory health and capacity."
+tags:
+  - domain/agents
+  - artifact/skill
+  - source/skills-claude
 ---
 
 # Self-Improving Agent
@@ -160,3 +164,10 @@ Monitors command output for errors. When detected, appends a structured entry to
 - [Claude Code Memory Docs](https://code.claude.com/docs/en/memory)
 - [pskoett/self-improving-agent](https://clawhub.ai/pskoett/self-improving-agent) — inspiration
 - [playwright-pro](../playwright-pro/) — sister plugin in this repo
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+- [[MOC - Agents]] — Claude agents
+

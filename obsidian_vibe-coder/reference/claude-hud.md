@@ -54,3 +54,9 @@ HUD мониторит весь ULTRACAR Pipeline в реальном време
 
 - [[root-docs/MEMORY_BOOTSTRAP]] — memory bootstrap
 - [[combined/Orchestration Overview]] — pipeline overview
+
+## 🔗 Связи
+
+- [[MOC - System]] — Parent MOC
+- [[000 - Map of Maps]] — Map of Maps
+

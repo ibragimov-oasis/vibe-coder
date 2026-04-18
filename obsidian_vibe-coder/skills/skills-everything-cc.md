@@ -41,3 +41,9 @@ Enterprise-паттерны и advanced skills для Claude Code:
 
 - [[orchestration/core-ruflo]] — RuFlo: enterprise orchestration
 - [[combined/Agents Overview]] — агенты используют эти patterns
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Parent MOC
+- [[000 - Map of Maps]] — Map of Maps
+

@@ -3,6 +3,10 @@ id: 20260226-ptc-sse-display-bug
 name: Ptc Sse Display Bug
 status: implemented
 created: '2026-02-26'
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-refly
 ---
 
 ## Overview
@@ -110,3 +114,10 @@ SSE events are still only sent when `res` is valid.
 | `apps/api/src/modules/skill/skill-invoker.service.ts` | 1127–1130 | poller `start()` call site |
 | `apps/api/src/modules/skill/skill-invoker.service.ts` | 1305–1308 | poller `stop()` call site |
 | `apps/api/src/modules/tool-call/tool-call.service.ts` | 197 | `fetchPtcToolCalls` DB query |
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/refly]] — Refly
+- [[000 - Map of Maps]] — Map of Maps
+

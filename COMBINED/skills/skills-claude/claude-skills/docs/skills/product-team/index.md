@@ -1,6 +1,10 @@
 ---
 title: "Product Skills — Agent Skills & Codex Plugins"
 description: "15 product skills — product management agent skill and Claude Code plugin for PRDs, discovery, analytics, and roadmaps. Works with Claude Code, Codex CLI, Gemini CLI, and OpenClaw."
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
 ---
 
 <div class="domain-header" markdown>
@@ -108,3 +112,9 @@ description: "15 product skills — product management agent skill and Claude Co
     Generate user personas from research data, create journey maps, plan usability tests, and synthesize research finding...
 
 </div>
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

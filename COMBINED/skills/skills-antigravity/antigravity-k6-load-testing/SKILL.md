@@ -8,6 +8,9 @@ date_added: "2026-03-13"
 author: Kairo Official
 tags: [k6, load-testing, performance, api-testing, ci-cd]
 tools: [claude, cursor, gemini]
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 # k6 Load Testing
@@ -625,3 +628,9 @@ export default function () {
 - [k6 Examples](https://github.com/grafana/k6/tree/master/examples)
 - [k6 Load Testing Guides](https://k6.io/guides/)
 - [k6 Cloud](https://k6.io/cloud/)
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

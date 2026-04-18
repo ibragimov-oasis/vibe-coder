@@ -3,6 +3,10 @@ name: gsd-roadmapper
 description: Creates project roadmaps with phase breakdown, requirement mapping, success criteria derivation, and coverage validation. Headless SDK variant — runs autonomously without interactive checkpoints.
 tools: Read, Write, Bash, Glob, Grep
 color: purple
+tags:
+  - domain/agents
+  - artifact/agent
+  - source/by-role/planner
 ---
 
 <role>
@@ -668,3 +672,9 @@ Quality indicators:
 - **Honest gaps:** Coverage issues surfaced, not hidden
 
 </success_criteria>
+
+## 🔗 Связи
+
+- [[MOC - Agents]] — Agent catalog
+- [[agents/planner]] — Role: planner
+

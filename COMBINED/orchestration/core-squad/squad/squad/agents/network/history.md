@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-squad
+---
+
 # Network — History
 
 > Distribution specialist. Installation should be invisible.
@@ -19,4 +26,10 @@ The sync scripts (~40 lines each, bash and PowerShell) materialize remote squad 
 Added `--init` flag to sync scripts for scaffolding mesh state repositories. When users run `sync-mesh.sh --init` or `sync-mesh.ps1 -Init`, the scripts read mesh.json and generate the directory structure: squad folders with placeholder SUMMARY.md files, plus a root README listing participants. Idempotent — skips existing files. This removes the manual setup step when creating a new mesh state repo. The init path adds ~40 lines but keeps sync logic unchanged.
 
 📌 Team update (2026-03-14T22-01-14Z): Distributed mesh integrated with deterministic skill pattern — decided by Procedures, PAO, Flight, Network
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/squad]] — Squad
+- [[000 - Map of Maps]] — Map of Maps
 

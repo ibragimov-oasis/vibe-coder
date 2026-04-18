@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # swarm-monitor
 
 Real-time swarm monitoring.
@@ -23,3 +30,10 @@ npx claude-flow swarm monitor --interval 5000
 # With metrics
 npx claude-flow swarm monitor --metrics
 ```
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

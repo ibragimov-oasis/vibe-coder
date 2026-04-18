@@ -2,6 +2,10 @@
 name: v3-memory-specialist
 description: |
   V3 Memory Specialist for unifying 6+ memory systems into AgentDB with HNSW indexing. Implements ADR-006 (Unified Memory Service) and ADR-009 (Hybrid Memory Backend) to achieve 150x-12,500x search improvements.
+tags:
+  - domain/agents
+  - artifact/agent
+  - source/by-role/manager
 ---
 
 # V3 Memory Specialist
@@ -279,3 +283,9 @@ class MemoryBenchmarks {
 - Benchmark validation of 150x-12,500x improvements
 - Memory usage profiling and optimization
 - Performance regression testing
+
+## 🔗 Связи
+
+- [[MOC - Agents]] — Agent catalog
+- [[agents/manager]] — Role: manager
+

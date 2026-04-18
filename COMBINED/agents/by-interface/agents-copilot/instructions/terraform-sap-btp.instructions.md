@@ -1,6 +1,10 @@
 ---
 description: 'Terraform conventions and guidelines for SAP Business Technology Platform (SAP BTP).'
 applyTo: '**/*.tf, **/*.tfvars, **/*.tflint.hcl, **/*.tf.json, **/*.tfvars.json'
+tags:
+  - domain/agents
+  - artifact/agent
+  - source/by-interface/agents-copilot
 ---
 
 # Terraform on SAP BTP – Best Practices & Conventions
@@ -193,3 +197,9 @@ Operational:
 - Reading business data from raw `*.tfstate` instead of outputs / data sources.
 
 All changes must flow through Terraform CLI + HCL – never mutate state manually.
+
+## 🔗 Связи
+
+- [[MOC - Agents]] — Agent catalog
+- [[agents/agents-copilot]] — Interface: agents-copilot
+

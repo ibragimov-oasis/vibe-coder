@@ -1,6 +1,10 @@
 ---
 "@bradygaster/squad-sdk": minor
 "@bradygaster/squad-cli": minor
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-squad
 ---
 
 feat: Machine capability discovery and `needs:*` label-based issue routing
@@ -13,3 +17,10 @@ This enables multi-machine Squad deployments where different machines handle
 different types of work based on their available tooling.
 
 Closes #514
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-squad]] — core-squad
+- [[MOC - Skills]] — Skills library
+

@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/mcp
+  - artifact/mcp-server
+  - source/mcp-servers
+---
+
 # 管理员（多租户）
 
 Admin API 用于多租户环境下的账户和用户管理。包括工作区（account）的创建与删除、用户注册与移除、角色变更、API Key 重新生成。
@@ -447,3 +454,9 @@ curl -X DELETE http://localhost:1933/api/v1/admin/accounts/acme \
 - [API 概览](01-overview.md) - 认证与响应格式
 - [会话管理](05-sessions.md) - 会话管理
 - [系统](07-system.md) - 系统和监控 API
+
+## 🔗 Связи
+
+- [[MOC - MCP Servers]] — mcp-servers
+- [[000 - Map of Maps]] — Map of Maps
+

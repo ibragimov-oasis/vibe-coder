@@ -1,5 +1,9 @@
 ---
 "@bradygaster/squad-cli": minor
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-squad
 ---
 
 feat(watch): circuit breaker integration for rate limit protection (#515)
@@ -24,3 +28,10 @@ State persists to `.squad/ralph-circuit-breaker.json` across restarts.
 
 **Tests:** 16 new tests covering state transitions, race condition guard,
 predictive integration, and `isRateLimitError` detection.
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-squad]] — core-squad
+- [[MOC - Skills]] — Skills library
+

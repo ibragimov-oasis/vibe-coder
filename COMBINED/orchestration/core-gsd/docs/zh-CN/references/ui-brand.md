@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-gsd
+---
+
 # UI 品牌规范
 
 面向用户的 GSD 输出的视觉模式。编排器通过 @ 引用此文件。
@@ -156,3 +163,10 @@
 - 横幅中缺少 `GSD ►` 前缀
 - 随机 emoji（`🚀`、`✨`、`💫`）
 - 完成后缺少下一步区块
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/gsd]] — GSD
+- [[000 - Map of Maps]] — Map of Maps
+

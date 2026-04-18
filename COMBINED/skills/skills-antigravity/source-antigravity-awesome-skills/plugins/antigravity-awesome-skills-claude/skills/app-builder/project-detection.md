@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # Project Type Detection
 
 > Analyze user requests to determine project type and template.
@@ -32,3 +39,9 @@
 4. Detect missing information → forward to conversation-manager
 5. Suggest tech stack
 ```
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

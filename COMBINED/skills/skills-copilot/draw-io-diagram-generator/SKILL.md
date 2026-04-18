@@ -1,6 +1,10 @@
 ---
 name: draw-io-diagram-generator
 description: Use when creating, editing, or generating draw.io diagram files (.drawio, .drawio.svg, .drawio.png). Covers mxGraph XML authoring, shape libraries, style strings, flowcharts, system architecture, sequence diagrams, ER diagrams, UML class diagrams, network topology, layout strategy, the hediet.vscode-drawio VS Code extension, and the full agent workflow from request to a ready-to-open file.
+tags:
+  - domain/agents
+  - artifact/skill
+  - source/skills-copilot
 ---
 
 # Draw.io Diagram Generator
@@ -460,3 +464,10 @@ All companion files are in `.github/skills/draw-io-diagram-generator/`:
 | `scripts/validate-drawio.py` | Python script to validate XML structure of any .drawio file |
 | `scripts/add-shape.py` | Python CLI to add a new shape to an existing diagram |
 | `scripts/README.md` | How to use the scripts with examples |
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-copilot]] — Category: skills-copilot
+- [[MOC - Agents]] — Copilot agents
+

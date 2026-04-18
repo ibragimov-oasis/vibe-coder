@@ -2,6 +2,10 @@
 name: "status"
 description: "Show DAG state, agent progress, and branch status for an AgentHub session."
 command: /hub:status
+tags:
+  - domain/agents
+  - artifact/skill
+  - source/skills-claude
 ---
 
 # /hub:status — Session Status
@@ -76,3 +80,10 @@ If all agents have posted results:
 If some agents are still running:
 - Show which are done vs in-progress
 - Suggest waiting or checking again later
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+- [[MOC - Agents]] — Claude agents
+

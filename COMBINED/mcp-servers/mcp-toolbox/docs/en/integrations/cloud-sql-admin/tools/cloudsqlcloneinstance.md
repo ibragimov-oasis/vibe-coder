@@ -3,6 +3,10 @@ title: cloud-sql-clone-instance
 type: docs
 weight: 10
 description: "Clone a Cloud SQL instance."
+tags:
+  - domain/mcp
+  - artifact/mcp-server
+  - source/mcp-servers
 ---
 
 ## About
@@ -68,3 +72,9 @@ description: "Creates an exact copy of a Cloud SQL instance at a specific point 
 - [Cloud SQL Admin API documentation](https://cloud.google.com/sql/docs/mysql/admin-api)
 - [Toolbox Cloud SQL tools documentation](../source.md)
 - [Cloud SQL Clone API documentation](https://cloud.google.com/sql/docs/mysql/clone-instance)
+
+## 🔗 Связи
+
+- [[MOC - MCP Servers]] — mcp-servers
+- [[000 - Map of Maps]] — Map of Maps
+

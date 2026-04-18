@@ -5,6 +5,10 @@ paths:
   - "**/*.t"
   - "**/*.psgi"
   - "**/*.cgi"
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
 ---
 
 # Perl 测试
@@ -53,3 +57,9 @@ cover -test
 ## 参考
 
 有关使用 Test2::V0、prove 和 Devel::Cover 的详细 Perl TDD 模式，请参阅技能：`perl-testing`。
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

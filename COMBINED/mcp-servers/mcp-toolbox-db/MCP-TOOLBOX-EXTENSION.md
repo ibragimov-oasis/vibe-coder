@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/mcp
+  - artifact/mcp-server
+  - source/mcp-servers
+---
+
 This document helps you find and install the right Gemini CLI extension to
 interact with your databases.
 
@@ -245,3 +252,9 @@ SQL (e.g., self-hosted on-prem, on a VM, or in another cloud).
 
     Configuration:
     https://github.com/gemini-cli-extensions/mcp-toolbox/tree/main?tab=readme-ov-file#configuration
+
+## 🔗 Связи
+
+- [[MOC - MCP Servers]] — mcp-servers
+- [[000 - Map of Maps]] — Map of Maps
+

@@ -15,6 +15,10 @@ allowedTools:
   - "mcp__*"
 model: haiku
 maxTurns: 3
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
 ---
 
 # Time Agent
@@ -43,3 +47,9 @@ Display the current date and time in Pakistan Standard Time (UTC+5).
 - Use 24-hour format
 - Include the date alongside the time
 - Keep the output concise
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

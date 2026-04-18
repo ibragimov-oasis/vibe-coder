@@ -52,3 +52,9 @@ defuddle parse <url> --md > output.md
 
 - [[obsidian-skills/obsidian-markdown]] — работа с markdown в vault
 - [[obsidian-skills/obsidian-cli]] — CLI-инструменты для vault
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Parent MOC
+- [[000 - Map of Maps]] — Map of Maps
+

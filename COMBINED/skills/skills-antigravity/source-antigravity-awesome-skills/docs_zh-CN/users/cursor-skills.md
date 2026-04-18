@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # Cursor 技能
 
 如果您在 GitHub 上搜索了 **Cursor 技能**，此仓库旨在作为一个实用的起点：可安装的技能、清晰的使用文档，以及与 Cursor 聊天工作流良好配合的大型库。
@@ -54,3 +61,9 @@ test -d .cursor/skills || test -d ~/.cursor/skills
 - 如果您想要 Cursor 兼容技能的 GitHub 选项简短列表，请阅读 [`best-cursor-skills-github.md`](best-cursor-skills-github.md)。
 - 如果您想要基于角色的起点（如 Web Wizard 或全栈开发者），请使用 [`bundles.md`](bundles.md)。
 - 如果您想要更多提示词示例和执行模式，请打开 [`usage.md`](usage.md)。
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

@@ -1,6 +1,10 @@
 ---
 name: "gdpr-dsgvo-expert"
 description: GDPR and German DSGVO compliance automation. Scans codebases for privacy risks, generates DPIA documentation, tracks data subject rights requests. Use for GDPR compliance assessments, privacy audits, data protection planning, DPIA generation, and data subject rights management.
+tags:
+  - domain/agents
+  - artifact/skill
+  - source/skills-claude
 ---
 
 # GDPR/DSGVO Expert
@@ -264,3 +268,10 @@ All rights must be fulfilled within **30 days** (extendable to 90 for complex re
 | Employment | § 26 | Detailed employee data rules |
 | Video | § 4 | Signage and proportionality |
 | Scoring | § 31 | Explainable algorithms |
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+- [[MOC - Agents]] — Claude agents
+

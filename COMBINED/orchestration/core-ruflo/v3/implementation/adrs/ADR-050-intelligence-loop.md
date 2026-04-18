@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # ADR-050: Intelligence Loop (Close the Memory Gap)
 
 **Status**: Accepted
@@ -105,3 +112,10 @@ All within existing hook timeouts (10-15s).
 | MODIFY | `cli/.claude/helpers/hook-handler.cjs` | +30 |
 | MODIFY | `cli/.claude/helpers/session.js` | +6 |
 | MODIFY | `cli/src/init/executor.ts` | +1 |
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

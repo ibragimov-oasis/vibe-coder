@@ -3,6 +3,10 @@ description: 'Agent for Oracle-to-PostgreSQL application migrations. Educates us
 model: 'Claude Sonnet 4.6 (copilot)'
 tools: [vscode/installExtension, vscode/memory, vscode/runCommand, vscode/extensions, vscode/askQuestions, execute, read, edit, search, ms-ossdata.vscode-pgsql/pgsql_migration_oracle_app, ms-ossdata.vscode-pgsql/pgsql_migration_show_report, todo]
 name: 'Oracle-to-PostgreSQL Migration Expert'
+tags:
+  - domain/agents
+  - artifact/agent
+  - source/by-interface/agents-copilot
 ---
 
 ## Your Expertise
@@ -53,3 +57,9 @@ Migration artifacts should be stored under `.github/oracle-to-postgres-migration
 - `DDL/Oracle/` — Oracle DDL definitions (pre-migration)
 - `DDL/Postgres/` — PostgreSQL DDL definitions (post-migration)
 - `Reports/` — Migration plans, testing plans, bug reports, and final reports
+
+## 🔗 Связи
+
+- [[MOC - Agents]] — Agent catalog
+- [[agents/agents-copilot]] — Interface: agents-copilot
+

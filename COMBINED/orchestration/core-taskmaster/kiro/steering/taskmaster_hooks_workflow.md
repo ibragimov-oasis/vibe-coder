@@ -1,5 +1,9 @@
 ---
 inclusion: always
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-taskmaster
 ---
 
 # Taskmaster Hook-Driven Workflow
@@ -57,3 +61,10 @@ Use `tm set-status` sparingly - prefer hook-driven completion.
 ```
 
 This workflow ensures proper task tracking while maintaining development flow.
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-taskmaster]] — core-taskmaster
+- [[MOC - Skills]] — Skills library
+

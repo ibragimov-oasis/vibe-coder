@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-gsd
+---
+
 # Coding Conventions Template
 
 Template for `.planning/codebase/CONVENTIONS.md` - captures coding style and patterns.
@@ -305,3 +312,10 @@ Template for `.planning/codebase/CONVENTIONS.md` - captures coding style and pat
 - Look for config files (.prettierrc, eslint.config.js)
 - Note patterns in imports, comments, function signatures
 </guidelines>
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/gsd]] — GSD
+- [[000 - Map of Maps]] — Map of Maps
+

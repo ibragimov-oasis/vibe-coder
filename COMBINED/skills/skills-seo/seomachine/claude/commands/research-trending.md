@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/seo
+  - artifact/doc
+  - source/skills-seo
+---
+
 # Research Trending Command
 
 Identify topics gaining search interest NOW for time-sensitive content opportunities.
@@ -143,3 +150,9 @@ After running `/research-trending`:
 - Validate with search volume data if available
 - Focus on trends aligned with your niche
 - Seasonal spikes may not be worth pursuing
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-seo]] — Category: skills-seo
+

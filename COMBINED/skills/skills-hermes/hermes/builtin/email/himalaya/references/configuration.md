@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-hermes
+---
+
 # Himalaya Configuration Reference
 
 Configuration file location: `~/.config/himalaya/config.toml`
@@ -182,3 +189,9 @@ Set via environment variable:
 ```bash
 export EDITOR="vim"
 ```
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-hermes]] — Category: skills-hermes
+

@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/agent
+  - source/by-interface/agents-copilot
+---
+
 # Gem Team Multi-Agent Orchestration Plugin
 
 A modular multi-agent team for complex project execution with Discuss Phase for requirements clarification, PRD creation, DAG-based planning, complexity-aware research, multi-plan selection for critical tasks, wave-based parallel execution, PRD compliance verification, and automated testing.
@@ -31,3 +38,9 @@ This plugin is part of [Awesome Copilot](https://github.com/github/awesome-copil
 ## License
 
 MIT
+
+## 🔗 Связи
+
+- [[MOC - Agents]] — Agent catalog
+- [[agents/agents-copilot]] — Interface: agents-copilot
+

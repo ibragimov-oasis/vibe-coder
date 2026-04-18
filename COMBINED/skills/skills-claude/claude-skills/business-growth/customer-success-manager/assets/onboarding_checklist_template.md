@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # Customer Onboarding Checklist (90-Day)
 
 **Customer:** [Customer Name]
@@ -213,3 +220,9 @@ The following criteria must be met to consider onboarding complete:
 
 **Template Version:** 1.0
 **Last Updated:** February 2026
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

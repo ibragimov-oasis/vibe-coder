@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-copilot
+---
+
 # Terraform AzureRM Set Diff Analyzer Script
 
 A Python script that analyzes Terraform plan JSON and identifies "false-positive diffs" in AzureRM Set-type attributes.
@@ -203,3 +210,9 @@ See `references/azurerm_set_attributes.md` for the definition file format.
 
 - [SKILL.md](../SKILL.md) - Usage as an Agent Skill
 - [azurerm_set_attributes.md](../references/azurerm_set_attributes.md) - Attribute definition reference
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-copilot]] — Category: skills-copilot
+

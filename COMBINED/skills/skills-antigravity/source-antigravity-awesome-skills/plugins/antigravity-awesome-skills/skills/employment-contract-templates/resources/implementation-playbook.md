@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # Employment Contract Templates Implementation Playbook
 
 This file contains detailed patterns, checklists, and code samples referenced by the skill.
@@ -491,3 +498,9 @@ Date: _________________________
 - [Department of Labor](https://www.dol.gov/)
 - [EEOC Guidance](https://www.eeoc.gov/)
 - State-specific labor departments
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

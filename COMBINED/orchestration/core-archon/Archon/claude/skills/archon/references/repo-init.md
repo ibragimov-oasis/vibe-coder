@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-archon
+---
+
 # Initializing Archon in a Repository
 
 Set up the `.archon/` directory structure in any git repository to enable custom workflows and commands.
@@ -87,3 +94,10 @@ archon workflow list
 
 # Should show bundled workflows + any custom ones you've added
 ```
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/archon]] — Archon
+- [[000 - Map of Maps]] — Map of Maps
+

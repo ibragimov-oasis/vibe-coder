@@ -1,5 +1,9 @@
 ---
 description: Analyze a Stitch project and synthesize its design system into a .stitch/DESIGN.md file.
+tags:
+  - domain/ui
+  - artifact/ui-component
+  - source/ui-design
 ---
 
 # Workflow: Generate .stitch/DESIGN.md
@@ -61,3 +65,9 @@ Create a `.stitch/DESIGN.md` file in the project directory with this structure:
 - **Be Precise**: Always include hex codes in parentheses.
 - **Be Descriptive**: Use natural language like "Deep Ocean Blue" instead of just "Blue".
 - **Be Functional**: Explain *why* an element is used.
+
+## 🔗 Связи
+
+- [[MOC - UI Design]] — ui-design
+- [[000 - Map of Maps]] — Map of Maps
+

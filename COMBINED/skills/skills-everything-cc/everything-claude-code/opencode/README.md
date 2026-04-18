@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
+---
+
 # OpenCode ECC Plugin
 
 > WARNING: This README is specific to OpenCode usage.
@@ -202,3 +209,9 @@ Full configuration in `opencode.json`:
 ## License
 
 MIT
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

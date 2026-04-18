@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/seo
+  - artifact/doc
+  - source/skills-seo
+---
+
 # Google Search Console Performance Report
 
 **Property:** {property}
@@ -42,3 +49,9 @@ These queries rank on page 1 but below position 3. A small ranking improvement c
 ---
 *Data freshness: Search Analytics has a 2-3 day lag. Data available for ~16 months.*
 *Generated {timestamp} via Google Search Console API.*
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-seo]] — Category: skills-seo
+

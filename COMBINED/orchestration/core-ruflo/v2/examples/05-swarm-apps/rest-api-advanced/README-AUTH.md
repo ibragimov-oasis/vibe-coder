@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # Authentication System Documentation
 
 This REST API includes a comprehensive authentication system with JWT tokens, refresh tokens, email verification, and password reset functionality.
@@ -373,3 +380,10 @@ Ensure the following indexes are created for optimal performance:
 - User role
 - Token expiry date
 - Token type and user
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-copilot
+---
+
 # Organizing information with collapsed sections
 
 You can streamline your Markdown by creating a collapsed section with the `<details>` tag.
@@ -46,3 +53,9 @@ Optionally, to make the section display as open by default, add the `open` attri
 
 * [GitHub Flavored Markdown Spec](https://github.github.com/gfm/)
 * [Basic writing and formatting syntax](https://docs.github.com/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-copilot]] — Category: skills-copilot
+

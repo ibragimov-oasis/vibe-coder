@@ -2,6 +2,10 @@
 name: iterative-retrieval
 description: 서브에이전트 컨텍스트 문제를 해결하기 위한 점진적 컨텍스트 검색 개선 패턴
 origin: ECC
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-everything-cc
 ---
 
 # 반복적 검색 패턴
@@ -209,3 +213,9 @@ When retrieving context for this task:
 - [The Longform Guide](https://x.com/affaanmustafa/status/2014040193557471352) - 서브에이전트 오케스트레이션 섹션
 - `continuous-learning` 스킬 - 시간이 지남에 따라 개선되는 패턴
 - `~/COMBINED/workspace-config/claude/agents/`의 에이전트 정의
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

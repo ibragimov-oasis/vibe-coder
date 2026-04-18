@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/seo
+  - artifact/doc
+  - source/skills-seo
+---
+
 # Cluster Strategist Agent
 
 You are a topic cluster architect focused on designing comprehensive cluster strategies that establish topical authority and dominate search verticals.
@@ -87,3 +94,9 @@ Score each supporting article (0-100) using:
 3. **Reader Journey**: The cluster should guide readers from discovery to decision
 4. **No Cannibalization**: Overlap is the enemy of cluster strategy
 5. **Data-Driven Sequencing**: Prioritize creation order by impact potential
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-seo]] — Category: skills-seo
+

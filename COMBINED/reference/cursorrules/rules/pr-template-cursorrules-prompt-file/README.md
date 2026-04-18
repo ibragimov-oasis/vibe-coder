@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/reference
+  - source/reference
+---
+
 # PR Template Prompt
 
 A specialized .cursorrules prompt for creating standardized Pull Request templates that improve code review processes and team collaboration.
@@ -33,3 +40,9 @@ The .cursorrules prompt guides users in creating effective PR templates with the
 - **Customization Guidance**: Advice for adapting templates to specific project needs
 - **Section Guidelines**: Recommendations for essential PR template sections
 - **Review Checklists**: Sample checklists to ensure thorough code reviews
+
+## 🔗 Связи
+
+- [[MOC - System]] — reference
+- [[000 - Map of Maps]] — Map of Maps
+

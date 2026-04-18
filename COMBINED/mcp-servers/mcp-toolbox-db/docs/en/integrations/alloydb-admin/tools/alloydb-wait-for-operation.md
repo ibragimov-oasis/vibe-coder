@@ -3,6 +3,10 @@ title: alloydb-wait-for-operation
 type: docs
 weight: 10
 description: "Wait for a long-running AlloyDB operation to complete.\n"
+tags:
+  - domain/mcp
+  - artifact/mcp-server
+  - source/mcp-servers
 ---
 
 ## About
@@ -53,3 +57,9 @@ maxRetries: 10
 | maxDelay    | duration |     false    | The maximum delay between polling requests (e.g., `4m`). Defaults to 4 minutes.                                  |
 | multiplier  |   float  |     false    | The multiplier for the polling delay. The delay is multiplied by this value after each request. Defaults to 2.0. |
 | maxRetries  |    int   |     false    | The maximum number of polling attempts before giving up. Defaults to 10.                                         |
+
+## 🔗 Связи
+
+- [[MOC - MCP Servers]] — mcp-servers
+- [[000 - Map of Maps]] — Map of Maps
+

@@ -7,6 +7,10 @@ description: |
   makepad 动画, makepad 状态, makepad 过渡, makepad 悬停效果
 risk: safe
 source: community
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 # Makepad Animation Skill
@@ -304,3 +308,9 @@ fn handle_event(&mut self, cx: &mut Cx, event: &Event, scope: &mut Scope) {
 3. `from` defines HOW to animate, `apply` defines WHAT to animate
 4. Makepad tweens between old and new values automatically
 5. Use `id!(state.value)` macro to reference animation states in Rust
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

@@ -5,6 +5,10 @@ weight: 1
 description: >
   A "dgraph-dql" tool executes a pre-defined DQL statement against a Dgraph
   database.
+tags:
+  - domain/mcp
+  - artifact/mcp-server
+  - source/mcp-servers
 ---
 
 {{< notice note >}}
@@ -133,3 +137,9 @@ parameters:
 | isQuery     |                 boolean                 |    false     | To run statement as query set true otherwise false                                        |
 | timeout     |                 string                  |    false     | To set timeout for query                                                                  |
 | parameters  | [parameters](../../../documentation/configuration/tools/_index.md#specifying-parameters) |    false     | List of [parameters](../../../documentation/configuration/tools/_index.md#specifying-parameters) that will be used with the dql statement. |
+
+## 🔗 Связи
+
+- [[MOC - MCP Servers]] — mcp-servers
+- [[000 - Map of Maps]] — Map of Maps
+

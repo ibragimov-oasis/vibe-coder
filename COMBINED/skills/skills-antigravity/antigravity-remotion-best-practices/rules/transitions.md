@@ -3,6 +3,9 @@ name: transitions
 description: Fullscreen scene transitions for Remotion.
 metadata:
   tags: transitions, fade, slide, wipe, scenes
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
 ---
 
 ## Fullscreen transitions
@@ -120,3 +123,9 @@ const transition2Duration = timing2.getDurationInFrames({fps: 30});
 const totalDuration = scene1Duration + scene2Duration + scene3Duration - transition1Duration - transition2Duration;
 // 60 + 60 + 60 - 15 - 20 = 145 frames
 ```
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

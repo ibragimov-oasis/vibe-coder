@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-refly
+---
+
 # FAQ: Accessing via IP address
 
 If you are deploying Refly on a cloud server and accessing it via `http://<Public IP>:5700`, you might encounter issues with redirection after login. This is caused by mismatched Cookie domain configurations.
@@ -50,3 +57,10 @@ REFLY_COOKIE_SAME_SITE=Lax
 ```
 
 Once the environment variables are correct, clear your browser cache and cookies, then try logging in again.
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/refly]] — Refly
+- [[000 - Map of Maps]] — Map of Maps
+

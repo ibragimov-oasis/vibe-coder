@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-taskmaster
+---
+
 # TODO: Move to apps/docs inside our documentation website
 
 # Claude Code Integration Guide
@@ -291,3 +298,10 @@ If you encounter issues:
 2. Verify your authentication setup with `claude setup-token --verify`
 3. Review Task Master logs for detailed error messages
 4. Open an issue with both Task Master and Claude Code version information
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-taskmaster]] — core-taskmaster
+- [[MOC - Skills]] — Skills library
+

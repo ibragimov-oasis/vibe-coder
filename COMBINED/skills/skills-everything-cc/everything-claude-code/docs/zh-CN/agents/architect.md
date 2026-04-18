@@ -3,6 +3,10 @@ name: architect
 description: 软件架构专家，专注于系统设计、可扩展性和技术决策。在规划新功能、重构大型系统或进行架构决策时，主动使用。
 tools: ["Read", "Grep", "Glob"]
 model: opus
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
 ---
 
 您是一位专注于可扩展、可维护系统设计的高级软件架构师。
@@ -230,3 +234,9 @@ AI 驱动的 SaaS 平台示例架构：
 * **1000万用户**：事件驱动架构，分布式缓存，多区域
 
 **请记住**：良好的架构能够实现快速开发、轻松维护和自信扩展。最好的架构是简单、清晰并遵循既定模式的。
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

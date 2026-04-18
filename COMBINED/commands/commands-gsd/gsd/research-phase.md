@@ -6,6 +6,10 @@ allowed-tools:
   - Read
   - Bash
   - Task
+tags:
+  - domain/skills
+  - artifact/command
+  - source/commands
 ---
 
 <objective>
@@ -193,3 +197,9 @@ Task(
 - [ ] Checkpoints handled correctly
 - [ ] User knows next steps
 </success_criteria>
+
+## 🔗 Связи
+
+- [[MOC - System]] — commands
+- [[000 - Map of Maps]] — Map of Maps
+

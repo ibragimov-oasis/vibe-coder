@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-hermes
+---
+
 # Qdrant Advanced Usage Guide
 
 ## Distributed Deployment
@@ -646,3 +653,9 @@ telemetry = client.get_telemetry()
 print(f"Collections: {telemetry.collections}")
 print(f"Operations: {telemetry.operations}")
 ```
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-hermes]] — Category: skills-hermes
+

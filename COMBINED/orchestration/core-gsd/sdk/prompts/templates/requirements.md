@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-gsd
+---
+
 # Requirements Template
 
 Template for `.planning/REQUIREMENTS.md` — checkable requirements that define "done."
@@ -229,3 +236,10 @@ Which phases cover which requirements. Updated during roadmap creation.
 ```
 
 </example>
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/gsd]] — GSD
+- [[000 - Map of Maps]] — Map of Maps
+

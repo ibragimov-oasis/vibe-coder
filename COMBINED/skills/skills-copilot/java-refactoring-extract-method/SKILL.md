@@ -1,6 +1,10 @@
 ---
 name: java-refactoring-extract-method
 description: 'Refactoring using Extract Methods in Java Language'
+tags:
+  - domain/agents
+  - artifact/skill
+  - source/skills-copilot
 ---
 
 # Refactoring Java Methods with Extract Method
@@ -102,3 +106,10 @@ Perform intermediate steps internally:
 ## Code to be Refactored:
 
 Now, assess all methods with high complexity and refactor them using **Extract Method**
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-copilot]] — Category: skills-copilot
+- [[MOC - Agents]] — Copilot agents
+

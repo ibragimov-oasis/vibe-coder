@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # Theming and dynamic type
 
 ## Intent
@@ -69,3 +76,9 @@ struct ProfileView: View {
 - Avoid sprinkling raw `Color` values in views; it breaks consistency.
 - Do not tie theme to a single view’s local state.
 - Avoid using `@Environment(\\.colorScheme)` as the only theme control; it should complement your theme.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

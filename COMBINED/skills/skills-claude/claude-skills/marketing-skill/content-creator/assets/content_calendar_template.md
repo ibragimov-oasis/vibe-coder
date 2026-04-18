@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # Content Calendar Template - [Month Year]
 
 ## Monthly Goals
@@ -97,3 +104,9 @@
 - Asset Library: [Link]
 - Analytics Dashboard: [Link]
 - Team Calendar: [Link]
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # Claude Code SDK v2.0.1 - Complete Deep Analysis
 ## Comprehensive Integration Points & Undocumented Features
 
@@ -647,3 +654,10 @@ const response = query({
 ---
 
 *This analysis represents a complete understanding of Claude Code SDK v2.0.1 architecture, integration points, and undocumented features discovered through source code examination.*
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

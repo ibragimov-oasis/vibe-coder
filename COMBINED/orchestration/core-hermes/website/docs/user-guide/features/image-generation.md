@@ -3,6 +3,10 @@ title: Image Generation
 description: Generate high-quality images using FLUX 2 Pro with automatic upscaling via FAL.ai.
 sidebar_label: Image Generation
 sidebar_position: 6
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-hermes
 ---
 
 # Image Generation
@@ -148,3 +152,10 @@ The image generation tool runs with safety checks disabled by default (`safety_t
 - **URL-based delivery** — images are returned as temporary FAL.ai URLs, not saved locally
 - **Upscaling adds latency** — the automatic 2x upscale step adds processing time
 - **Max 4 images per request** — `num_images` is capped at 4
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/hermes]] — Hermes
+- [[000 - Map of Maps]] — Map of Maps
+

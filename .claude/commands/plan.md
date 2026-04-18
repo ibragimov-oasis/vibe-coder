@@ -1,5 +1,9 @@
 ---
 description: Activate the planning agent for architecture, roadmaps, PRDs, and execution plans. Produces plans that any agent can execute without clarification.
+tags:
+  - domain/skills
+  - artifact/command
+  - source/claude-commands
 ---
 
 # /plan — Planning Agent Launcher
@@ -57,3 +61,9 @@ After `/plan` produces a plan, run:
 - `.claude/agents/mega-planner.md` — full agent spec
 - `.claude/agents/mega-orchestrator.md` — pipeline coordination
 - `COMBINED/agents/by-role/planner/` — source planner agents
+
+## 🔗 Связи
+
+- [[MOC - System]] — System commands
+- [[MOC - Skills]] — Skills library
+

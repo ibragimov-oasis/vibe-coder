@@ -1,6 +1,10 @@
 ---
 name: "rag-architect"
 description: "Use when the user asks to design RAG pipelines, optimize retrieval strategies, choose embedding models, implement vector search, or build knowledge retrieval systems."
+tags:
+  - domain/agents
+  - artifact/skill
+  - source/skills-claude
 ---
 
 # RAG Architect - POWERFUL
@@ -316,3 +320,10 @@ The RAG (Retrieval-Augmented Generation) Architect skill provides comprehensive 
 Building effective RAG systems requires careful consideration of each component in the pipeline. The key to success is understanding the tradeoffs between different approaches and choosing the right combination of techniques for your specific use case. Start with simple approaches and gradually add sophistication based on evaluation results and production requirements.
 
 This skill provides the foundation for making informed decisions throughout the RAG development lifecycle, from initial design to production deployment and ongoing maintenance.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+- [[MOC - Agents]] — Claude agents
+

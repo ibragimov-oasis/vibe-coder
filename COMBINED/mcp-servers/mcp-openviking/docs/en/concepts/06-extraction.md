@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/mcp
+  - artifact/mcp-server
+  - source/mcp-servers
+---
+
 # Context Extraction
 
 OpenViking uses a three-layer async architecture for document parsing and context extraction.
@@ -237,3 +244,9 @@ await session.commit()
 - [Context Layers](./03-context-layers.md) - L0/L1/L2 model
 - [Storage Architecture](./05-storage.md) - AGFS and vector index
 - [Session Management](./08-session.md) - Memory extraction details
+
+## 🔗 Связи
+
+- [[MOC - MCP Servers]] — mcp-servers
+- [[000 - Map of Maps]] — Map of Maps
+

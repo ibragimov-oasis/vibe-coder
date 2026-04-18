@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # MCP Tools Migration Guide
 
 > Migrating from V2 MCP Tools (65) to V3 MCP Tools (22)
@@ -624,3 +631,10 @@ export const neuralTools = [
 1. Parallel agent spawn
 2. Swarm monitoring
 3. Benchmark tools
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

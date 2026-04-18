@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
+---
+
 # 術語對照表 (Terminology Glossary)
 
 本文件記錄繁體中文翻譯的術語對照，確保翻譯一致性。
@@ -102,3 +109,9 @@
 ## 更新記錄
 
 - 2024-XX-XX: 初版建立，含使用者已確認術語
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

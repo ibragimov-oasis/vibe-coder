@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # Quality Engineering Domain
 
 ## Overview
@@ -370,3 +377,9 @@ All QE data is stored under the `aqe/v3/` namespace prefix:
 - [Integration Points](./integration-points.md)
 - [ADR-015: Unified Plugin System](../../implementation/adrs/ADR-015-unified-plugin-system.md)
 - [ADR-006: Unified Memory Service](../../implementation/adrs/ADR-006-UNIFIED-MEMORY.md)
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-ruflo]] — core-ruflo
+

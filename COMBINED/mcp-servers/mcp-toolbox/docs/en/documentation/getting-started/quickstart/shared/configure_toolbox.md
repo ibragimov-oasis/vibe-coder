@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/mcp
+  - artifact/mcp-server
+  - source/mcp-servers
+---
+
 <!-- This file has been used in local_quickstart.md, local_quickstart_go.md & local_quickstart_js.md -->
 <!-- [START configure_toolbox] -->
 In this section, we will download Toolbox, configure our tools in a
@@ -131,3 +138,9 @@ Toolbox enables dynamic reloading by default. To disable, use the
 `--disable-reload` flag.
     {{< /notice >}}
 <!-- [END configure_toolbox] -->
+
+## 🔗 Связи
+
+- [[MOC - MCP Servers]] — mcp-servers
+- [[000 - Map of Maps]] — Map of Maps
+

@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/reference
+  - source/reference
+---
+
 # Next.js TypeScript App .cursorrules prompt file
 
 Author: autonomys
@@ -13,4 +20,9 @@ This prompt is ideal for developers building a decentralized block explorer appl
 
 ## Overview of .cursorrules prompt
 The .cursorrules file describes the Astral project, which serves as a Block Explorer for the Autonomys network and is developed using Next.js and TypeScript. It outlines the project's structure, including components like UI elements, app routing, and custom hooks. It provides development guidelines, emphasizing the use of TypeScript, ESLint standards, responsive design, and Tailwind CSS. Important scripts for development and production are specified. The file also includes AI interaction guidelines to ensure the adherence to TypeScript and React best practices, and introduces key terms related to the Autonomys network, emphasizing its decentralized infrastructure for AI-powered applications. Links to additional resources and key URLs are provided for further reference.
+
+## 🔗 Связи
+
+- [[MOC - System]] — reference
+- [[000 - Map of Maps]] — Map of Maps
 

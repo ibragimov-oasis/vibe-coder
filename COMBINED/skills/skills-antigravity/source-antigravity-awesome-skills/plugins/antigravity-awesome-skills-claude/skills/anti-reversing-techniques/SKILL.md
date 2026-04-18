@@ -4,6 +4,10 @@ description: "AUTHORIZED USE ONLY: This skill contains dual-use security techniq
 risk: offensive
 source: community
 date_added: "2026-02-27"
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 > **AUTHORIZED USE ONLY**: This skill contains dual-use security techniques. Before proceeding with any bypass or analysis:
@@ -43,3 +47,9 @@ Refer to `resources/implementation-playbook.md` for detailed techniques and exam
 ## Resources
 
 - `resources/implementation-playbook.md` for detailed techniques and examples.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

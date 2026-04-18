@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # Release v2.7.1 - Critical MCP Pattern Persistence Fix
 
 **Release Date**: 2025-10-22

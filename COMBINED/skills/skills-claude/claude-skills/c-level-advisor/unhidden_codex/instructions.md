@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # C-Level Advisory — Codex CLI Instructions
 
 When working on executive or strategic tasks, use the C-level advisory system:
@@ -38,3 +45,9 @@ python3 c-level-advisor/ciso-advisor/scripts/risk_quantifier.py --help
 - Run cs-onboard first to create company-context.md
 - Load only 1-2 skills per request — don't bulk-load
 - Use Python tools for quantitative analysis
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

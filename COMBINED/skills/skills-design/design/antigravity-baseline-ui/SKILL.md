@@ -3,6 +3,10 @@ name: baseline-ui
 description: Validates animation durations, enforces typography scale, checks component accessibility, and prevents layout anti-patterns in Tailwind CSS projects. Use when building UI components, reviewing CSS utilities, styling React views, or enforcing design consistency.
 risk: unknown
 source: community
+tags:
+  - domain/ui
+  - artifact/skill
+  - source/skills-design
 ---
 
 # Baseline UI
@@ -85,3 +89,10 @@ Enforces an opinionated UI baseline to prevent AI-generated interface slop.
 - MUST give empty states one clear next action
 - SHOULD limit accent color usage to one per view
 - SHOULD use existing theme or Tailwind CSS color tokens before introducing new ones
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-design]] — Category: skills-design
+- [[MOC - UI Design]] — Design & UI
+

@@ -3,6 +3,10 @@ name: audit
 description: "Run technical quality checks across accessibility, performance, theming, responsive design, and anti-patterns. Generates a scored report with P0-P3 severity ratings and actionable plan. Use when the user wants an accessibility check, performance audit, or technical quality review."
 argument-hint: "[area (feature, page, component...)]"
 user-invocable: true
+tags:
+  - domain/ui
+  - artifact/ui-component
+  - source/ui-design
 ---
 
 ## MANDATORY PREPARATION
@@ -145,3 +149,9 @@ After presenting the summary, tell the user:
 - Report false positives without verification
 
 Remember: You're a technical quality auditor. Document systematically, prioritize ruthlessly, cite specific code locations, and provide clear paths to improvement.
+
+## 🔗 Связи
+
+- [[MOC - UI Design]] — ui-design
+- [[000 - Map of Maps]] — Map of Maps
+

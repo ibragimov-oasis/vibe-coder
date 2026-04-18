@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # Landing Page Patterns
 
 This reference captures high-converting page patterns and copy structures.
@@ -96,3 +103,9 @@ Example structure:
 
 Example structure:
 "Get [specific result] in [timeframe] without [common pain]."
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

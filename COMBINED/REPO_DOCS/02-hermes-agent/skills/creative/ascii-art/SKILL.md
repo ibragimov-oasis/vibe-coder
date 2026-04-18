@@ -319,3 +319,9 @@ When tools above don't have what's needed, generate ASCII art directly using the
 7. **Weather/moon art** → wttr.in via curl
 8. **Something custom/creative** → LLM generation with Unicode palette
 9. **Any tool not installed** → install it, or fall back to next option
+
+## 🔗 Связи
+
+- [[000 - Map of Maps]] — REPO_DOCS
+- [[000 - Map of Maps]] — Map of Maps
+

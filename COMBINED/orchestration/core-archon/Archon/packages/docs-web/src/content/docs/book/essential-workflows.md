@@ -6,6 +6,10 @@ part: core-workflows
 audience: [user]
 sidebar:
   order: 4
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-archon
 ---
 
 You now know how Archon works. The question becomes: which workflow do I reach for?
@@ -234,3 +238,10 @@ The list shows both Archon's bundled defaults and any custom workflows in your r
 Ready to build your own? In [Chapter 7: Creating Your First Workflow →](/book/first-workflow/), you'll build one from scratch — incrementally, version by version, until you've got a mini version of `archon-idea-to-pr`.
 
 But first, let's cover the isolation system that makes parallel workflows safe. Continue to [Chapter 5: Isolation and Worktrees →](/book/isolation/)
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/archon]] — Archon
+- [[000 - Map of Maps]] — Map of Maps
+

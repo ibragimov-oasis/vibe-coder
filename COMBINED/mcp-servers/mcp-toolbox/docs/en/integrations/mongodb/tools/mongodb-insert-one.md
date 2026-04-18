@@ -4,6 +4,10 @@ type: docs
 weight: 1
 description: >
   A "mongodb-insert-one" tool inserts a single new document into a MongoDB collection.
+tags:
+  - domain/mcp
+  - artifact/mcp-server
+  - source/mcp-servers
 ---
 
 ## About
@@ -49,3 +53,9 @@ An LLM would call this tool by providing the document as a JSON string in the
 | database    | string   | true         | The name of the MongoDB database containing the collection.                                                             |
 | collection  | string   | true         | The name of the MongoDB collection into which the document will be inserted.                                            |
 | canonical   | bool     | false        | Determines if the data string is parsed using MongoDB's Canonical or Relaxed Extended JSON format. Defaults to `false`. |
+
+## 🔗 Связи
+
+- [[MOC - MCP Servers]] — mcp-servers
+- [[000 - Map of Maps]] — Map of Maps
+

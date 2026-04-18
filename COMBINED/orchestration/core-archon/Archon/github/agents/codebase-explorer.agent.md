@@ -9,6 +9,10 @@ tools:
   - fileSearch
   - listDirectory
   - usages
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-archon
 ---
 
 # Codebase Explorer
@@ -132,3 +136,10 @@ Structure your findings like this:
 - **Group logically** - categorize by purpose
 - **Include counts** - "Contains X files" for directories
 - **Show variations** - when multiple patterns exist for the same thing
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/archon]] — Archon
+- [[000 - Map of Maps]] — Map of Maps
+

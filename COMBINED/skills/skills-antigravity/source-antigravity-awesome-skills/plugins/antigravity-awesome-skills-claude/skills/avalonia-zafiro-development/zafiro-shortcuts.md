@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # Zafiro Reactive Shortcuts
 
 Use these Zafiro extension methods to replace standard, more verbose Reactive and DynamicData patterns.
@@ -41,3 +48,9 @@ Use these Zafiro extension methods to replace standard, more verbose Reactive an
 
 > [!TIP]
 > Always check `Zafiro.Reactive.ObservableMixin` and `Zafiro.CSharpFunctionalExtensions.ObservableExtensions` before writing custom Rx logic.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

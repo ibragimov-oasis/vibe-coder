@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-gsd
+---
+
 # 续接格式
 
 完成命令或工作流后展示下一步的标准格式。
@@ -247,3 +254,10 @@
 ```
 
 模板内的围栏代码块会造成嵌套歧义。用内联反引号替代。
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/gsd]] — GSD
+- [[000 - Map of Maps]] — Map of Maps
+

@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/ui
+  - artifact/doc
+  - source/skills-design
+---
+
 # Mobile Testing Patterns
 
 > **Mobile testing is NOT web testing. Different constraints, different strategies.**
@@ -354,3 +361,9 @@ Before writing tests, answer:
 5. **What happens offline?** → Test that scenario
 
 > **Remember:** Good mobile testing is about testing the RIGHT things, not EVERYTHING. A flaky E2E test is worse than no test. A failing unit test that catches a bug is worth 100 passing trivial tests.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-design]] — Category: skills-design
+

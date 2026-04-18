@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # Persona Methodology Guide
 
 Reference for creating research-backed, data-driven user personas.
@@ -385,3 +392,9 @@ Watch for these persona validity problems:
 ---
 
 *See also: `example-personas.md` for output examples*
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

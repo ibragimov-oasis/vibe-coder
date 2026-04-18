@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-archon
+---
+
 # Security Policy
 
 ## Reporting a Vulnerability
@@ -32,3 +39,10 @@ This policy covers the Archon codebase, including:
 - Use environment variables or `.env` files (which are gitignored)
 - When deploying the server publicly, use the Caddy reverse proxy with authentication (see `deploy/docker-compose.yml`)
 - Keep Archon updated to the latest version
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-archon]] — core-archon
+- [[MOC - Skills]] — Skills library
+

@@ -3,6 +3,10 @@ paths:
   - "**/*.go"
   - "**/go.mod"
   - "**/go.sum"
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
 ---
 # Go Patterns
 
@@ -43,3 +47,9 @@ func NewUserService(repo UserRepository, logger Logger) *UserService {
 ## Reference
 
 See skill: `golang-patterns` for comprehensive Go patterns including concurrency, error handling, and package organization.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

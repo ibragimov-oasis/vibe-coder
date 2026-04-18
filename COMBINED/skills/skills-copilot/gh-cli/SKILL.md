@@ -1,6 +1,10 @@
 ---
 name: gh-cli
 description: GitHub CLI (gh) comprehensive reference for repositories, issues, pull requests, Actions, projects, releases, gists, codespaces, organizations, extensions, and all GitHub operations from the command line.
+tags:
+  - domain/agents
+  - artifact/skill
+  - source/skills-copilot
 ---
 
 # GitHub CLI (gh)
@@ -2185,3 +2189,10 @@ gh help accessibility
 - GitHub Docs: https://docs.github.com/en/github-cli
 - REST API: https://docs.github.com/en/rest
 - GraphQL API: https://docs.github.com/en/graphql
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-copilot]] — Category: skills-copilot
+- [[MOC - Agents]] — Copilot agents
+

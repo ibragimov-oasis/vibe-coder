@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-squad
+---
+
 # Flask API
 
 A simple Flask API for testing Squad dogfooding.
@@ -11,3 +18,9 @@ python -m pytest tests/
 ## Architecture
 - `src/app.py` — Flask application entry point
 - `tests/test_app.py` — Unit tests
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-squad]] — core-squad
+

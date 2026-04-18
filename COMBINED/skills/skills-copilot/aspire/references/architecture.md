@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-copilot
+---
+
 # Architecture — Deep Dive
 
 This reference covers Aspire's internal architecture: the DCP engine, resource model, service discovery, networking, telemetry, and the eventing system.
@@ -339,3 +346,9 @@ Parameters are resolved from (in priority order):
 3. User secrets (`dotnet user-secrets`)
 4. `appsettings.json` / `appsettings.{Environment}.json`
 5. Interactive prompt (for secrets during `aspire run`)
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-copilot]] — Category: skills-copilot
+

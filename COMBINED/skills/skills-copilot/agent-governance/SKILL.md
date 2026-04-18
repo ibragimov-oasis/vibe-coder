@@ -9,6 +9,10 @@ description: |
   - Building audit trails for agent actions and decisions
   - Enforcing rate limits, content filters, or tool restrictions on agents
   - Working with any agent framework (PydanticAI, CrewAI, OpenAI Agents, LangChain, AutoGen)
+tags:
+  - domain/agents
+  - artifact/skill
+  - source/skills-copilot
 ---
 
 # Agent Governance Patterns
@@ -567,3 +571,10 @@ Match governance strictness to risk level:
 - [Agent Governance Toolkit](https://github.com/microsoft/agent-governance-toolkit) — Full governance framework
 - [AgentMesh Integrations](https://github.com/microsoft/agent-governance-toolkit/tree/main/packages/agentmesh-integrations) — Framework-specific packages
 - [OWASP Top 10 for LLM Applications](https://owasp.org/www-project-top-10-for-large-language-model-applications/)
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-copilot]] — Category: skills-copilot
+- [[MOC - Agents]] — Copilot agents
+

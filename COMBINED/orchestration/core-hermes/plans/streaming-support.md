@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-hermes
+---
+
 # Streaming LLM Response Support for Hermes Agent
 
 ## Overview
@@ -703,3 +710,10 @@ streaming:
 # Environment variable override
 HERMES_STREAMING_ENABLED=true
 ```
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-hermes]] — core-hermes
+- [[MOC - Skills]] — Skills library
+

@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # A/B Test Templates Reference
 
 Templates for planning, documenting, and analyzing experiments.
@@ -266,3 +273,9 @@ For collecting test ideas:
 | H2 | Pricing | Users compare plans | Comparison table will help | Medium | Backlog |
 | H3 | Signup | Drop-off at email | Social login will increase completion | Medium | Backlog |
 ```
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

@@ -1,6 +1,10 @@
 ---
 name: github-triage
 description: Triage GitHub issues through a label-based state machine with interactive grilling sessions. Use when user wants to triage issues, review incoming bugs or feature requests, prepare issues for an AFK agent, or manage issue workflow.
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-development
 ---
 
 # GitHub Issue Triage
@@ -173,3 +177,9 @@ When triaging an issue that already has triage notes from a previous session:
 3. Check if the reporter has answered any outstanding questions
 4. Present the maintainer with an updated picture: "Here's where we left off, and here's what the reporter has said since"
 5. Continue the grilling from where it stopped — do not re-ask resolved questions
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-development]] — Category: skills-development
+

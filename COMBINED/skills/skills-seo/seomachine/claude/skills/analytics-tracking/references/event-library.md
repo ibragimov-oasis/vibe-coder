@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/seo
+  - artifact/doc
+  - source/skills-seo
+---
+
 # Event Library Reference
 
 Comprehensive list of events to track by business type and context.
@@ -249,3 +256,9 @@ session_duration: 300
 5. shipping_info_entered
 6. payment_info_entered
 7. purchase_completed
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-seo]] — Category: skills-seo
+

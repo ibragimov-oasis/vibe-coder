@@ -5,6 +5,10 @@ allowed-tools: Read, Grep, Glob, Bash, Task
 license: LICENSE
 risk: unknown
 source: community
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 # Django Performance Review
@@ -396,3 +400,9 @@ N+1 requires a loop. A single object doing 2 queries instead of 1 can be reporte
 
 **Style preferences are not performance issues:**
 If your only suggestion is "combine these two lines" or "rename this variable" - that's style, not performance. Don't report it.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

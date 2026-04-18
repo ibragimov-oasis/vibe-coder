@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/agent
+  - source/by-interface/agents-copilot
+---
+
 # 🎯 Agent Skills
 
 Agent Skills are self-contained folders with instructions and bundled resources that enhance AI capabilities for specialized tasks. Based on the [Agent Skills specification](https://agentskills.io/specification), each skill contains a `SKILL.md` file with detailed instructions that agents load on-demand.
@@ -280,3 +287,9 @@ See [CONTRIBUTING.md](../CONTRIBUTING.md#adding-skills) for guidelines on how to
 | [winui3-migration-guide](../skills/winui3-migration-guide/SKILL.md) | UWP-to-WinUI 3 migration reference. Maps legacy UWP APIs to correct Windows App SDK equivalents with before/after code snippets. Covers namespace changes, threading (CoreDispatcher to DispatcherQueue), windowing (CoreWindow to AppWindow), dialogs, pickers, sharing, printing, background tasks, and the most common Copilot code generation mistakes. | None |
 | [workiq-copilot](../skills/workiq-copilot/SKILL.md) | Guides the Copilot CLI on how to use the WorkIQ CLI/MCP server to query Microsoft 365 Copilot data (emails, meetings, docs, Teams, people) for live context, summaries, and recommendations. | None |
 | [write-coding-standards-from-file](../skills/write-coding-standards-from-file/SKILL.md) | Write a coding standards document for a project using the coding styles from the file(s) and/or folder(s) passed as arguments in the prompt. | None |
+
+## 🔗 Связи
+
+- [[MOC - Agents]] — Agent catalog
+- [[agents/agents-copilot]] — Interface: agents-copilot
+

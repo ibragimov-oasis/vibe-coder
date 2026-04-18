@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/command
+  - source/claude-commands
+---
+
 # Maintenance Swarm Strategy
 
 ## Purpose
@@ -100,3 +107,9 @@ mcp__claude-flow__swarm_monitor({
   "interval": 3000
 })
 ```
+
+## 🔗 Связи
+
+- [[MOC - System]] — System commands
+- [[MOC - Skills]] — Skills library
+

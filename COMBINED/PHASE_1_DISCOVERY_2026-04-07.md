@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/combined-root
+---
+
 # Phase 1: Discovery & Understanding
 ## Started: 2026-04-07T15:52:00Z
 
@@ -660,3 +667,8 @@ Based on this discovery, Phase 2 should:
 ---
 
 **Next Session**: Complete deep scans and create JSON inventories.
+
+## 🔗 Связи
+
+- [[000 - Map of Maps]] — Map of Maps
+

@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # ADR-012: MCP Security and Feature Implementation
 
 ## Status
@@ -333,3 +340,10 @@ const tokens = await oauth.exchangeCode(code, state);
 - [JSON Schema Validation](https://json-schema.org/draft/2020-12/json-schema-validation.html)
 - [Token Bucket Algorithm](https://en.wikipedia.org/wiki/Token_bucket)
 - [PKCE RFC 7636](https://datatracker.ietf.org/doc/html/rfc7636)
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

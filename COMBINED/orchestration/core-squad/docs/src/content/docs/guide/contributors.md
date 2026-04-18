@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-squad
+---
+
 # Squad Contributors Guide
 
 Thank you to every contributor who has helped make Squad better. This page honors everyone who has submitted code, filed issues, started discussions, and shared ideas that have shaped this project. This page is updated with every release.
@@ -203,3 +210,10 @@ These community members filed issues and started discussions that drove improvem
 ---
 
 **This page is updated with every release. No contribution goes unappreciated.**
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/squad]] — Squad
+- [[000 - Map of Maps]] — Map of Maps
+

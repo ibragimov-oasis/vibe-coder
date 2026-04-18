@@ -3,6 +3,9 @@ name: can-decode
 description: Check if a video can be decoded by the browser using Mediabunny
 metadata:
   tags: decode, validation, video, audio, compatibility, browser
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
 ---
 
 # Checking if a video can be decoded
@@ -73,3 +76,9 @@ export const canDecodeBlob = async (blob: Blob) => {
   // Same validation logic as above
 };
 ```
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

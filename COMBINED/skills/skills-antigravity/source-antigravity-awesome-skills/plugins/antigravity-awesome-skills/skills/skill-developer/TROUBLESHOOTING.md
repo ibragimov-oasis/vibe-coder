@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # Troubleshooting - Skill Activation Issues
 
 Complete debugging guide for skill activation problems.
@@ -512,3 +519,9 @@ EOF
 - [SKILL.md](SKILL.md) - Main skill guide
 - [HOOK_MECHANISMS.md](HOOK_MECHANISMS.md) - How hooks work
 - [SKILL_RULES_REFERENCE.md](SKILL_RULES_REFERENCE.md) - Configuration reference
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

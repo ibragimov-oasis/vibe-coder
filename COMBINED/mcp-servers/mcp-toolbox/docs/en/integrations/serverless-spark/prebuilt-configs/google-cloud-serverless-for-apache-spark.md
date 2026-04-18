@@ -2,6 +2,10 @@
 title: "Google Cloud Serverless for Apache Spark"
 type: docs
 description: "Details of the Google Cloud Serverless for Apache Spark prebuilt configuration."
+tags:
+  - domain/mcp
+  - artifact/mcp-server
+  - source/mcp-servers
 ---
 
 ## Google Cloud Serverless for Apache Spark
@@ -24,3 +28,9 @@ description: "Details of the Google Cloud Serverless for Apache Spark prebuilt c
     *   `list_sessions`: Lists Spark sessions.
     *   `get_session`: Gets a Spark session.
     *   `get_session_template`: Gets a Spark session template.
+
+## 🔗 Связи
+
+- [[MOC - MCP Servers]] — mcp-servers
+- [[000 - Map of Maps]] — Map of Maps
+

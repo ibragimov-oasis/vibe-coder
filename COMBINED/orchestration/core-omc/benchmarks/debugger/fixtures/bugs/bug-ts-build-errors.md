@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-omc
+---
+
 # TypeScript Build Errors — 3 failures blocking CI
 
 ## Environment
@@ -151,3 +158,10 @@ router.post('/notifications', async (req, res) => {
   res.json(record);
 });
 ```
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/omc]] — OMC
+- [[000 - Map of Maps]] — Map of Maps
+

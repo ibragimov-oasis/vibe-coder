@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/command
+  - source/commands
+---
+
 # code-review
 
 Automated code review with swarm intelligence.
@@ -23,3 +30,9 @@ npx claude-flow github code-review --pr-number 456 --focus security
 # With fix suggestions
 npx claude-flow github code-review --pr-number 456 --suggest-fixes
 ```
+
+## 🔗 Связи
+
+- [[MOC - System]] — commands
+- [[000 - Map of Maps]] — Map of Maps
+

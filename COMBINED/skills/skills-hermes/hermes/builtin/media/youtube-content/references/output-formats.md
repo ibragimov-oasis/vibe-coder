@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-hermes
+---
+
 # Output Format Examples
 
 ## Chapters
@@ -54,3 +61,9 @@ Full article with:
 "The most important thing is not the model size, but the data quality." — 05:32
 "We found that scaling past 70B parameters gave diminishing returns." — 12:18
 ```
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-hermes]] — Category: skills-hermes
+

@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # REST API Advanced - Complete API Documentation
 
 ## Table of Contents
@@ -1307,3 +1314,10 @@ For API support, please contact:
 - Health checks
 - Rate limiting
 - Comprehensive validation
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

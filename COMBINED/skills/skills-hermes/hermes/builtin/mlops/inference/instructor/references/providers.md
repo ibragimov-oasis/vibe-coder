@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-hermes
+---
+
 # Provider Configuration
 
 Guide to using Instructor with different LLM providers.
@@ -68,3 +75,9 @@ result = client.chat.completions.create(
 - `Mode.ANTHROPIC_TOOLS`: Recommended for Claude
 - `Mode.TOOLS`: OpenAI function calling
 - `Mode.JSON`: Fallback for unsupported providers
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-hermes]] — Category: skills-hermes
+

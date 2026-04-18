@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/ui
+  - artifact/ui-component
+  - source/ui-design
+---
+
 # Developer Guide
 
 Documentation for contributors to Impeccable.
@@ -204,3 +211,9 @@ impeccable/
 ## Questions?
 
 Open an issue or submit a PR!
+
+## 🔗 Связи
+
+- [[MOC - UI Design]] — ui-design
+- [[000 - Map of Maps]] — Map of Maps
+

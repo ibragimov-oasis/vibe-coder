@@ -4,6 +4,10 @@ description: "Route agent notifications to specific channels by type — prevent
 domain: "communication"
 confidence: "high"
 source: "earned"
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-squad
 ---
 
 ## Context
@@ -103,3 +107,10 @@ Resolve channel IDs once at setup. Use IDs at runtime.
 
 This is **pub-sub with topic routing** -- the same principle as Kafka topics, RabbitMQ routing keys, and
 AWS SNS topic filtering. Route by type. Each consumer subscribes to the topics it cares about.
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/squad]] — Squad
+- [[000 - Map of Maps]] — Map of Maps
+

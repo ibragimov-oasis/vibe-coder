@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/command
+  - source/claude-commands
+---
+
 # 🔍 Verification Commands
 
 Truth verification system for ensuring code quality and correctness with a 0.95 accuracy threshold.
@@ -126,3 +133,9 @@ claude-flow verify integration --test-suite full
 - `truth` - View truth scores and metrics
 - `pair` - Collaborative development with verification
 - `train` - Training with verification feedback
+
+## 🔗 Связи
+
+- [[MOC - System]] — System commands
+- [[MOC - Skills]] — Skills library
+

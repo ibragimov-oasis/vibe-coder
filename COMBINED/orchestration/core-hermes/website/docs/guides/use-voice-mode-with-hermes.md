@@ -2,6 +2,10 @@
 sidebar_position: 7
 title: "Use Voice Mode with Hermes"
 description: "A practical guide to setting up and using Hermes voice mode across CLI, Telegram, Discord, and Discord voice channels"
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-hermes
 ---
 
 # Use Voice Mode with Hermes
@@ -452,3 +456,10 @@ That progression keeps the debugging surface small.
 - [Discord setup](/docs/user-guide/messaging/discord)
 - [Telegram setup](/docs/user-guide/messaging/telegram)
 - [Configuration](/docs/user-guide/configuration)
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/hermes]] — Hermes
+- [[000 - Map of Maps]] — Map of Maps
+

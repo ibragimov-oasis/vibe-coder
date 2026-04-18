@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # ADR-031: HF Chat UI History Persistence Across Redeployments
 
 ## Status
@@ -120,3 +127,10 @@ Run MongoDB on a Compute Engine VM (similar to ruvector-postgres-vm pattern).
 |-----|-------------|
 | ADR-029 | HF Chat UI deployment architecture |
 | ADR-030 | MCP tool gap analysis |
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

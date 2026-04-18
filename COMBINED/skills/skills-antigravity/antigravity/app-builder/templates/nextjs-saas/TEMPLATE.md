@@ -1,6 +1,10 @@
 ---
 name: nextjs-saas
 description: Next.js SaaS template principles. Auth, payments, email.
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
 ---
 
 # Next.js SaaS Template
@@ -98,3 +102,9 @@ project-name/
 - Stripe webhooks for subscription sync
 - NextAuth with Prisma adapter
 - Email templates with React Email
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

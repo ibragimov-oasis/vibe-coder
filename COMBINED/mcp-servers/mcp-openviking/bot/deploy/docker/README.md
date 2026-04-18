@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/mcp
+  - artifact/mcp-server
+  - source/mcp-servers
+---
+
 # Vikingbot Docker 一键部署
 
 本目录提供 Vikingbot 的 Docker 一键部署脚本，支持本地快速部署和多架构支持。
@@ -324,3 +331,9 @@ PLATFORM=linux/amd64 ./deploy/docker/deploy.sh
 # 查看镜像支持的架构
 docker manifest inspect your-registry.com/vikingbot:latest
 ```
+
+## 🔗 Связи
+
+- [[MOC - MCP Servers]] — mcp-servers
+- [[000 - Map of Maps]] — Map of Maps
+

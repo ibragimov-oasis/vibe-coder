@@ -4,6 +4,10 @@ description: "Comprehensive guide to writing effective, blameless postmortems th
 risk: unknown
 source: community
 date_added: "2026-02-27"
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 # Postmortem Writing
@@ -387,3 +391,9 @@ Don't full-flush cache in production; use targeted invalidation.
 - [Google SRE - Postmortem Culture](https://sre.google/sre-book/postmortem-culture/)
 - [Etsy's Blameless Postmortems](https://codeascraft.com/2012/05/22/blameless-postmortems/)
 - [PagerDuty Postmortem Guide](https://postmortems.pagerduty.com/)
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

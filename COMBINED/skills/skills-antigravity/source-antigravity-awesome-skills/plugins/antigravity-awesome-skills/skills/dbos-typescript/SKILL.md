@@ -4,6 +4,10 @@ description: "Guide for building reliable, fault-tolerant TypeScript application
 risk: safe
 source: "https://docs.dbos.dev/"
 date_added: "2026-02-27"
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 # DBOS TypeScript Best Practices
@@ -102,3 +106,9 @@ references/queue-concurrency.md
 
 - https://docs.dbos.dev/
 - https://github.com/dbos-inc/dbos-transact-ts
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

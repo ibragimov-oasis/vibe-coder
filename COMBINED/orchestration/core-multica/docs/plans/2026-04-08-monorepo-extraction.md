@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-multica
+---
+
 # Monorepo Extraction Implementation Plan
 
 > **For Claude:** REQUIRED SUB-SKILL: Use superpowers:executing-plans to implement this plan task-by-task.
@@ -487,3 +494,10 @@ multica/
 | 4 | `feat(ui): extract packages/ui` | 118 文件 import 变更 | 中 — 最多文件 |
 | 5 | `feat(views): extract packages/views` | 18 文件 + 3 胖壳 | 中 |
 | 6 | `chore: final verification` | 0 | 低 |
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-multica]] — core-multica
+- [[MOC - Skills]] — Skills library
+

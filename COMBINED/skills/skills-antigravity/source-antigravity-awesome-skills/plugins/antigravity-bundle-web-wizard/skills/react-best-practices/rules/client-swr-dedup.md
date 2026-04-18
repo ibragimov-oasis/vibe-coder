@@ -3,6 +3,9 @@ title: Use SWR for Automatic Deduplication
 impact: MEDIUM-HIGH
 impactDescription: automatic deduplication
 tags: client, swr, deduplication, data-fetching
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
 ---
 
 ## Use SWR for Automatic Deduplication
@@ -54,3 +57,9 @@ function UpdateButton() {
 ```
 
 Reference: [https://swr.vercel.app](https://swr.vercel.app)
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

@@ -4,6 +4,10 @@ description: Deploy applications and websites to Vercel. Use this skill when the
 metadata:
   author: vercel
   version: "1.0.0"
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/REPO_DOCS
 ---
 
 # Vercel Deploy
@@ -110,3 +114,9 @@ Deployment failed due to network restrictions. To fix this:
 2. Add *.vercel.com to the allowed domains
 3. Try deploying again
 ```
+
+## 🔗 Связи
+
+- [[000 - Map of Maps]] — REPO_DOCS
+- [[000 - Map of Maps]] — Map of Maps
+

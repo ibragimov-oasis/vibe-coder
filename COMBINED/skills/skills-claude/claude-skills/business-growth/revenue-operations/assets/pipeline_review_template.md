@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # Pipeline Review - [Date]
 
 ## Review Period
@@ -136,3 +143,9 @@
 ## Notes
 
 [Additional context, observations, or discussion points for the review meeting]
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

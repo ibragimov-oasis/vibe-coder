@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/mcp
+  - artifact/mcp-server
+  - source/mcp-servers
+---
+
 # Upgrading to MCP Toolbox for Databases v1.0.0
 
 Welcome to the v1.0.0 release of the MCP Toolbox for Databases! 
@@ -119,3 +126,9 @@ The following CLI flags are deprecated and will be removed in a future release. 
 * **Prebuilt Tools:** Toolsets have been resized for better performance.
 ## 📚 Documentation Moved
 Our official documentation has a new home! Please update your bookmarks to [mcp-toolbox.dev](https://mcp-toolbox.dev).
+
+## 🔗 Связи
+
+- [[MOC - MCP Servers]] — mcp-servers
+- [[000 - Map of Maps]] — Map of Maps
+

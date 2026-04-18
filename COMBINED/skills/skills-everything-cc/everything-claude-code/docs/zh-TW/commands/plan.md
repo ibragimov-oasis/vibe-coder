@@ -1,5 +1,9 @@
 ---
 description: Restate requirements, assess risks, and create step-by-step implementation plan. WAIT for user CONFIRM before touching any code.
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
 ---
 
 # Plan 指令
@@ -111,3 +115,9 @@ Agent（planner）：
 
 此指令呼叫位於以下位置的 `planner` Agent：
 `~/COMBINED/workspace-config/claude/agents/planner.md`
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

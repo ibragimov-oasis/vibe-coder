@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # Naming & Coding Standards
 
 ## General Standards
@@ -13,3 +20,9 @@
 - **Result & Maybe**: Use types from **CSharpFunctionalExtensions** for flow control and error handling.
 - **Exceptions**: Reserved strictly for truly exceptional, unrecoverable situations.
 - **Boundaries**: Never allow exceptions to leak across architectural boundaries.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

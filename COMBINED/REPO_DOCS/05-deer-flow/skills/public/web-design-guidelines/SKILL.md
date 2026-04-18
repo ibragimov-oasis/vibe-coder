@@ -5,6 +5,10 @@ metadata:
   author: vercel
   version: "1.0.0"
   argument-hint: <file-or-pattern>
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/REPO_DOCS
 ---
 
 # Web Interface Guidelines
@@ -37,3 +41,9 @@ When a user provides a file or pattern argument:
 4. Output findings using the format specified in the guidelines
 
 If no files specified, ask the user which files to review.
+
+## 🔗 Связи
+
+- [[000 - Map of Maps]] — REPO_DOCS
+- [[000 - Map of Maps]] — Map of Maps
+

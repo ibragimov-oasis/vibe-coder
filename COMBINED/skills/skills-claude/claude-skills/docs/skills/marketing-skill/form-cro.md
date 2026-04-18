@@ -1,6 +1,10 @@
 ---
 title: "Form CRO — Agent Skill for Marketing"
 description: "When the user wants to optimize any form that is NOT signup/registration — including lead capture forms, contact forms, demo request forms. Agent skill for Claude Code, Codex CLI, Gemini CLI, OpenClaw."
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
 ---
 
 # Form CRO
@@ -207,3 +211,9 @@ Automatically surface form-cro when:
 | Field Order & Layout Spec | Annotated outline | Recommended sequence, grouping, column layout, and mobile considerations |
 | Submit Button Copy Options | 3-option table | Action-oriented button copy variants with reasoning |
 | A/B Test Hypotheses | Table | Hypothesis × variant × success metric × priority for top 3-5 test ideas |
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

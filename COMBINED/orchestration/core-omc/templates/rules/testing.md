@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-omc
+---
+
 # Testing Rules
 
 ## Minimum Test Coverage: 80%
@@ -40,3 +47,10 @@ Add your project-specific testing requirements here:
 - Test framework configuration
 - Mock setup patterns
 - E2E test scenarios
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-omc]] — core-omc
+- [[MOC - Skills]] — Skills library
+

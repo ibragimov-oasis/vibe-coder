@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # Automation Test File
 
 **Created**: 2025-11-04
@@ -32,3 +39,9 @@ Results will be documented in issue #6.
 ## Cleanup
 
 This file can be deleted after automation validation is complete.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

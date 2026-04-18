@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/reference
+  - source/reference
+---
+
 # Next.js React Tailwind .cursorrules prompt file
 
 Author: Shreyas Prakash
@@ -13,4 +20,9 @@ Developers building scalable, organized Next.js projects with TypeScript, React,
 
 ## Overview of .cursorrules prompt
 The .cursorrules file outlines coding conventions and organizational best practices for a TypeScript project using Node.js, Next.js App Router, React, Shadcn UI, Tailwind, and Framer Motion. It emphasizes concise and technical coding styles, preferring functional and declarative programming patterns. The file suggests using descriptive naming conventions, TypeScript interfaces over types, and avoiding certain patterns like enums. It highlights the importance of file structuring, responsive UI design with Tailwind CSS, and performance optimization techniques such as limiting client-side interactions and employing server components. The organization of the components is suggested to be either by type or feature within a structured directory layout, enhancing modularity and scalability. The project structure under a /src directory is emphasized for clarity and adherence to industry standards.
+
+## 🔗 Связи
+
+- [[MOC - System]] — reference
+- [[000 - Map of Maps]] — Map of Maps
 

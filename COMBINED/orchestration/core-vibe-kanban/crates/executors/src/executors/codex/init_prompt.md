@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-vibe-kanban
+---
+
 Generate a file named AGENTS.md that serves as a contributor guide for this repository.
 Your goal is to produce a clear, concise, and well-structured document with descriptive headings and actionable explanations for each section.
 Follow the outline below, but adapt as needed — add sections if relevant, and omit those that do not apply to this project.
@@ -38,3 +45,10 @@ Commit & Pull Request Guidelines
 - Outline pull request requirements (descriptions, linked issues, screenshots, etc.).
 
 (Optional) Add other sections if relevant, such as Security & Configuration Tips, Architecture Overview, or Agent-Specific Instructions.
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/vibe-kanban]] — Vibe-Kanban
+- [[000 - Map of Maps]] — Map of Maps
+

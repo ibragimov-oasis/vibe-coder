@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-copilot
+---
+
 # Microsoft Agent Framework for Python
 
 Use this reference when the target project is written in Python.
@@ -22,3 +29,9 @@ pip install agent-framework
 - Follow standard Python packaging and environment practices for dependencies and tooling.
 - Use middleware, context providers, and orchestration patterns in ways that fit the Python application structure.
 - Check the latest Python samples before introducing new APIs or workflow patterns.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-copilot]] — Category: skills-copilot
+

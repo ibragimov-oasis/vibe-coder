@@ -3,6 +3,10 @@ name: odoo-purchase-workflow
 description: "Expert guide for Odoo Purchase: RFQ → PO → Receipt → Vendor Bill workflow, purchase agreements, vendor price lists, and 3-way matching."
 risk: safe
 source: "self"
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 # Odoo Purchase Workflow
@@ -102,3 +106,9 @@ based on the ordered quantity for this vendor.
 - **EDI-based order exchange** (automated PO import/export) requires custom integration — use `@odoo-edi-connector` for that.
 - Vendor pricelist currency conversion depends on the active **currency rate** in Odoo; rates must be kept current for accuracy.
 - The **2-level approval** is a binary threshold; more complex approval matrices (department-based, multi-tier) require custom development or the Approvals app.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

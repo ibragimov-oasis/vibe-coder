@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/ui
+  - artifact/ui-component
+  - source/ui-design
+---
+
 # Cognitive Shortcuts
 
 ## The LazyBench Discovery
@@ -21,3 +28,9 @@ When researchers explicitly stated "It is May" in the system prompt, output leng
 ## Error Avoidance as Truncation Driver
 
 Models also truncate outputs as a risk mitigation strategy. On long-form tasks, longer outputs increase the probability of compounding errors and hallucinated content. The model has learned that shorter outputs reduce the surface area for factual mistakes, creating an additional incentive to truncate that compounds with the RLHF brevity bias.
+
+## 🔗 Связи
+
+- [[MOC - UI Design]] — ui-design
+- [[000 - Map of Maps]] — Map of Maps
+

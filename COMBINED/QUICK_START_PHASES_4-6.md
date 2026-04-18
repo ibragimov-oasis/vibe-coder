@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/combined-root
+---
+
 # 🚀 Quick Start Guide - Phases 4-6
 
 > **Start Here:** Continue the ULTRACAR project and complete v1.0.0
@@ -579,3 +586,8 @@ cat COMBINED/PHASE_6_PLAN.md
 **Target:** v1.0.0 by May 2026
 
 🎉 **Everything is planned. Now let's build it!** 🎉
+
+## 🔗 Связи
+
+- [[000 - Map of Maps]] — Map of Maps
+

@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # Complete SDK Feature Integration Matrix
 ## All 10 Advanced Features → Claude-Flow Swarm Orchestration
 
@@ -610,3 +617,10 @@ Real-time **swarm visualization** and performance profiling.
 ---
 
 *Complete integration matrix for Claude-Flow v2.5.0-alpha.130*
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

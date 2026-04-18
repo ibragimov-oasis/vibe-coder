@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # CLI MCP Integration - Implementation Complete
 
 ## Summary
@@ -419,3 +426,10 @@ All refactored commands follow a consistent pattern, making it easy for develope
 **Status**: Phase 1 Complete (Agent & Swarm Init commands refactored)
 **Next**: Phase 2 - Complete remaining swarm, memory, and config commands
 **Date**: 2026-01-04
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

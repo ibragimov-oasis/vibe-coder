@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-archon
+---
+
 # Ultimate Validation Command (Updated January 2026)
 
 Run comprehensive end-to-end validation of the Remote Agentic Coding Platform including Docker, Test Adapter, Database, and **full GitHub workflow execution**.
@@ -1150,3 +1157,10 @@ docker compose exec postgres psql -U postgres -d remote_coding_agent \
 | Database errors | Run migrations: `psql $DATABASE_URL < migrations/000_combined.sql` |
 | Clone fails | Check GITHUB_TOKEN in .env |
 | Bot not responding | Check docker logs for errors |
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/archon]] — Archon
+- [[000 - Map of Maps]] — Map of Maps
+

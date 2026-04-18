@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # Playwright Pro — Agent Context
 
 You are working in a project with the Playwright Pro plugin installed. Follow these rules for all test-related work.
@@ -82,3 +89,9 @@ Leverage Claude Code's built-in capabilities:
 - Page objects: `*.page.ts` in a `pages/` directory
 - Fixtures: `fixtures.ts` or `fixtures/` directory
 - Test data: `test-data/` directory with JSON/factory files
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-gsd
+---
+
 # Structure Template
 
 Template for `.planning/codebase/STRUCTURE.md` - captures physical file organization.
@@ -283,3 +290,10 @@ root/
 - Finding where specific logic lives
 - Following existing conventions
 </guidelines>
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/gsd]] — GSD
+- [[000 - Map of Maps]] — Map of Maps
+

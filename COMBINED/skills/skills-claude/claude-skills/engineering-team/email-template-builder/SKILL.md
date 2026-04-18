@@ -1,6 +1,10 @@
 ---
 name: "email-template-builder"
 description: "Email Template Builder"
+tags:
+  - domain/agents
+  - artifact/skill
+  - source/skills-claude
 ---
 
 # Email Template Builder
@@ -437,3 +441,10 @@ export function addTrackingParams(html: string, params: TrackingParams): string 
 - **Dark mode media queries** — must use `!important` to override inline styles
 - **Missing plain text** — all major providers have a plain text field; always populate it
 - **Transactional vs marketing** — use separate sending domains/IPs to protect deliverability
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+- [[MOC - Agents]] — Claude agents
+

@@ -3,6 +3,9 @@ name: ffmpeg
 description: Using FFmpeg and FFprobe in Remotion
 metadata:
   tags: ffmpeg, ffprobe, video, trimming
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-archon
 ---
 
 ## FFmpeg in Remotion
@@ -36,3 +39,10 @@ import { Video } from "@remotion/media";
   trimAfter={10 * fps}
 />;
 ```
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/archon]] — Archon
+- [[000 - Map of Maps]] — Map of Maps
+

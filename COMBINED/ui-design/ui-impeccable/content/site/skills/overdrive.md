@@ -1,5 +1,9 @@
 ---
 tagline: "Push an interface past conventional limits. Shaders, physics, 60fps, cinematic transitions."
+tags:
+  - domain/ui
+  - artifact/ui-component
+  - source/ui-design
 ---
 
 ## When to use it
@@ -28,3 +32,9 @@ One concrete run might replace a static hero with a WebGL shader background driv
 - **Shipping without reduced-motion fallbacks.** Non-negotiable. Overdrive adds them automatically; do not remove them.
 - **Ignoring performance.** Extraordinary moments still need to hit 60fps. If the effect drops frames, cut it or optimize. Slow spectacle is worse than simple done well.
 - **Running overdrive before the base interface is solid.** Spectacle on a broken foundation reads as distraction, not delight.
+
+## 🔗 Связи
+
+- [[MOC - UI Design]] — ui-design
+- [[000 - Map of Maps]] — Map of Maps
+

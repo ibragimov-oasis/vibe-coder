@@ -2,6 +2,10 @@
 title: Capability Routing
 description: Machine capability discovery and needs:* label routing for hardware-specific and OS-specific work.
 order: 35
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-squad
 ---
 
 # Capability Routing
@@ -74,3 +78,10 @@ Machine B  capabilities: ["macos"]                   ← skips it
 
 - [Work Routing](routing.md) — pattern-based and skill-aware routing
 - [Ralph — Work Monitor](ralph.md) — how Ralph polls and claims issues
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/squad]] — Squad
+- [[000 - Map of Maps]] — Map of Maps
+

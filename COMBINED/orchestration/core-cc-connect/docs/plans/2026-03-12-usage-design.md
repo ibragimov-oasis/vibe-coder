@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-cc-connect
+---
+
 # Usage Command Design
 
 **Date:** 2026-03-12
@@ -137,3 +144,10 @@ Network-dependent tests should use injected transport or `httptest`, not live re
 - No card UI in the first version
 - No polling or background caching in the first version
 - No support for non-Codex agents in this change beyond the shared interface
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-cc-connect]] — core-cc-connect
+- [[MOC - Skills]] — Skills library
+

@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # Windows Cross-Platform Support Implementation
 
 ## Overview
@@ -420,3 +427,10 @@ MIT
 **Implementation Date:** 2026-01-04
 **Master Plan Section:** 4 - Windows Support via sql.js
 **Status:** ✅ Complete
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

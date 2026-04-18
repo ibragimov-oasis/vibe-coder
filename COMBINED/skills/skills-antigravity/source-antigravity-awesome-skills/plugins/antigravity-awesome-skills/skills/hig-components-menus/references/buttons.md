@@ -128,7 +128,11 @@ Help buttons are circular, consistently sized buttons that contain a question ma
 
 **Position help buttons where people expect to find them.** Use the following locations for guidance.
 
-View style| Help button location  
+View style| Help button location
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
 ---|---  
 Dialog with dismissal buttons (like OK and Cancel)| Lower corner, opposite to the dismissal buttons and vertically aligned with them  
 Dialog without dismissal buttons| Lower-left or lower-right corner  
@@ -257,5 +261,10 @@ June 9, 2025| Updated guidance for button styles and content.
 February 2, 2024| Noted that visionOS buttons don’t support custom hover effects.  
 December 5, 2023| Clarified some terminology and guidance for buttons in visionOS.  
 June 21, 2023| Updated to include guidance for visionOS.  
-June 5, 2023| Updated guidance for using buttons in watchOS.  
-  
+June 5, 2023| Updated guidance for using buttons in watchOS.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

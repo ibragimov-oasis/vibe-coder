@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # Attack Patterns Reference
 
 Safe, non-destructive test payloads and detection patterns for authorized security testing. All techniques here are for use in authorized penetration tests, CTF challenges, and defensive research only.
@@ -627,3 +634,9 @@ Recommended configuration:
   }
 }
 ```
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

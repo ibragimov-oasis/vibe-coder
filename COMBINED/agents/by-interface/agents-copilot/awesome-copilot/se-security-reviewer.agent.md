@@ -3,6 +3,10 @@ name: 'SE: Security'
 description: 'Security-focused code review specialist with OWASP Top 10, Zero Trust, LLM security, and enterprise security standards'
 model: GPT-5
 tools: ['codebase', 'edit/editFiles', 'search', 'problems']
+tags:
+  - domain/agents
+  - artifact/agent
+  - source/by-interface/agents-copilot
 ---
 
 # Security Reviewer
@@ -159,3 +163,9 @@ for attempt in range(3):
 ```
 
 Remember: Goal is enterprise-grade code that is secure, maintainable, and compliant.
+
+## 🔗 Связи
+
+- [[MOC - Agents]] — Agent catalog
+- [[agents/agents-copilot]] — Interface: agents-copilot
+

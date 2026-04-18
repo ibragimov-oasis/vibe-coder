@@ -4,6 +4,10 @@ description: Elite AI context engineering specialist mastering dynamic context m
 risk: unknown
 source: community
 date_added: '2026-02-27'
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 ## Use this skill when
@@ -180,3 +184,9 @@ Master context engineer specializing in building dynamic systems that provide th
 - "Design context handoff protocols for multi-stage AI processing pipelines"
 - "Create a privacy-preserving context system for regulated industries"
 - "Optimize context window usage for complex reasoning tasks with limited tokens"
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

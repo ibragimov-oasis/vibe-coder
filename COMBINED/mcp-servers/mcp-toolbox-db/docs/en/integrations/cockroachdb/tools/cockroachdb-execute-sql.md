@@ -4,7 +4,10 @@ type: docs
 weight: 1
 description: >
   Execute ad-hoc SQL statements against a CockroachDB database.
-
+tags:
+  - domain/mcp
+  - artifact/mcp-server
+  - source/mcp-servers
 ---
 
 ## About
@@ -278,3 +281,9 @@ The tool will return descriptive errors for:
 - [cockroachdb-list-schemas](./cockroachdb-list-schemas.md) - List database schemas
 - [CockroachDB Source](../source.md) - Source configuration reference
 - [CockroachDB SQL Reference](https://www.cockroachlabs.com/docs/stable/sql-statements.html) - Official SQL documentation
+
+## 🔗 Связи
+
+- [[MOC - MCP Servers]] — mcp-servers
+- [[000 - Map of Maps]] — Map of Maps
+

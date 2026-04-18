@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-praisonai
+---
+
 # PraisonAI Examples
 
 This folder contains examples for PraisonAI. For detailed documentation, visit [docs.praison.ai](https://docs.praison.ai).
@@ -81,3 +88,9 @@ python examples/python/agents/single-agent.py
 ## CLI Commands
 
 See the main [README.md](../README.md#-cli--no-code-interface) for all CLI commands.
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-praisonai]] — core-praisonai
+

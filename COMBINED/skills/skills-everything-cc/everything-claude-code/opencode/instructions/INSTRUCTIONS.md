@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
+---
+
 # Everything Claude Code - OpenCode Instructions
 
 This document consolidates the core rules and guidelines from the Claude Code configuration for use with OpenCode.
@@ -335,3 +342,9 @@ You are successful when:
 - Code is readable and maintainable
 - Performance is acceptable
 - User requirements are met
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

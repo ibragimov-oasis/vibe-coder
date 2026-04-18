@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-hermes
+---
+
 # Production-Ready Examples
 
 Real-world examples of using Guidance for structured generation, agents, and workflows.
@@ -765,3 +772,9 @@ def batch_process(texts, batch_size=10):
 - **Guidance Notebooks**: https://github.com/guidance-ai/guidance/tree/main/notebooks
 - **Guidance Docs**: https://guidance.readthedocs.io
 - **Community Examples**: https://github.com/guidance-ai/guidance/discussions
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-hermes]] — Category: skills-hermes
+

@@ -2,6 +2,10 @@
 sidebar_position: 5
 title: "Environments, Benchmarks & Data Generation"
 description: "Building RL training environments, running evaluation benchmarks, and generating SFT data with the Hermes-Agent Atropos integration"
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-hermes
 ---
 
 # Environments, Benchmarks & Data Generation
@@ -518,3 +522,10 @@ environments/
     ├── tblite/                 # 100 calibrated tasks (fast TB2 proxy)
     └── yc_bench/               # Long-horizon strategic benchmark
 ```
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/hermes]] — Hermes
+- [[000 - Map of Maps]] — Map of Maps
+

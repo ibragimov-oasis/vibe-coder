@@ -2,6 +2,10 @@
 title: Learning Hub
 description: "Curated articles, walkthroughs, and reference material to help you unlock everything you can do with GitHub Copilot"
 tableOfContents: false
+tags:
+  - domain/agents
+  - artifact/agent
+  - source/by-interface/agents-copilot
 ---
 
 ## Fundamentals
@@ -27,3 +31,9 @@ and examples you can use right away.
 Looking for a guided path into GitHub Copilot from the terminal? Start with
 [Copilot CLI for Beginners](cli-for-beginners/) for a course overview,
 then work through chapters 00 through 07 at your own pace.
+
+## 🔗 Связи
+
+- [[MOC - Agents]] — Agent catalog
+- [[agents/agents-copilot]] — Interface: agents-copilot
+

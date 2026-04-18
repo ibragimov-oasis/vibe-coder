@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # MDR Device Classification Guide
 
 EU MDR 2017/745 Annex VIII classification rules and decision framework.
@@ -287,3 +294,9 @@ Select conformity route:
 5. Assess Notified Body capacity and timeline
 6. Select optimal conformity assessment route
 7. **Validation:** Route confirmed with Notified Body consultation
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

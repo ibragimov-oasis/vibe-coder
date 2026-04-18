@@ -1,6 +1,10 @@
 ---
 name: agent-multi-repo-swarm
 description: Agent skill for multi-repo-swarm - invoke with $agent-multi-repo-swarm
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-ruflo
 ---
 
 ---
@@ -556,3 +560,9 @@ npx ruv-swarm github cross-team \
 ```
 
 See also: [swarm-pr.md](.$swarm-pr.md), [project-board-sync.md](.$project-board-sync.md)
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-ruflo]] — Category: skills-ruflo
+

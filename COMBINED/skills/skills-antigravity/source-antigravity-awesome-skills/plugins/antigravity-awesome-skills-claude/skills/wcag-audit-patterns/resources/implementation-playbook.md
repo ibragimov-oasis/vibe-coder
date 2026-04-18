@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # WCAG Audit Patterns Implementation Playbook
 
 This file contains detailed patterns, checklists, and code samples referenced by the skill.
@@ -539,3 +546,9 @@ class AccessibleDropdown extends HTMLElement {
 - [WebAIM](https://webaim.org/)
 - [A11y Project Checklist](https://www.a11yproject.com/checklist/)
 - [axe DevTools](https://www.deque.com/axe/)
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

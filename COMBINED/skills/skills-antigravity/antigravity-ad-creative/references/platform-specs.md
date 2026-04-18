@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # Platform Specs Reference
 
 Complete character limits, format requirements, and best practices for each ad platform.
@@ -211,3 +218,9 @@ When creating for multiple platforms simultaneously, start with the most restric
 4. **Expand to Meta primary text** (125+ chars) — full hook and value prop
 
 This cascading approach ensures your core message works everywhere, then gets enriched for platforms that allow more space.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

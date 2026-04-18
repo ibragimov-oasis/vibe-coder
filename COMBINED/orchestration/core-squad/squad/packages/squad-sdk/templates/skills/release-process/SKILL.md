@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-squad
+---
+
 # Release Process
 
 > Earned knowledge from the v0.9.0→v0.9.1 incident. Every agent involved in releases MUST read this before starting release work.
@@ -129,3 +136,10 @@ See `.github/workflows/squad-ci.yml` → `publish-policy` job for implementation
 - Retro: `.squad/decisions/inbox/surgeon-v091-retrospective.md`
 - CI audit: `.squad/decisions/inbox/booster-ci-audit.md`
 - Playbook: `PUBLISH-README.md` (repo root)
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/squad]] — Squad
+- [[000 - Map of Maps]] — Map of Maps
+

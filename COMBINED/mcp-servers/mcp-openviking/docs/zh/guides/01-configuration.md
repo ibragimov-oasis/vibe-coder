@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/mcp
+  - artifact/mcp-server
+  - source/mcp-servers
+---
+
 # 配置
 
 OpenViking 使用 JSON 配置文件（`ov.conf`）进行设置。配置文件支持 Embedding、VLM、Rerank、存储、解析器等多个模块的配置。
@@ -1051,3 +1058,9 @@ Error: Rate limit exceeded
 - [API 概览](../api/01-overview.md) - 客户端初始化
 - [服务部署](./03-deployment.md) - Server 配置
 - [上下文层级](../concepts/03-context-layers.md) - L0/L1/L2
+
+## 🔗 Связи
+
+- [[MOC - MCP Servers]] — mcp-servers
+- [[000 - Map of Maps]] — Map of Maps
+

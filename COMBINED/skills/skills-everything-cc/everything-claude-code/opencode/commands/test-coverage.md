@@ -2,6 +2,10 @@
 description: Analyze and improve test coverage
 agent: tdd-guide
 subtask: true
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
 ---
 
 # Test Coverage Command
@@ -78,3 +82,9 @@ describe('functionName', () => {
 ---
 
 **IMPORTANT**: Coverage is a metric, not a goal. Focus on meaningful tests, not just hitting numbers.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

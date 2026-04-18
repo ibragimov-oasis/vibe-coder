@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/config
+  - source/workspace-config
+---
+
 # agent-spawn
 
 Spawn a new agent in the current swarm.
@@ -23,3 +30,9 @@ npx claude-flow agent spawn --type researcher --name "API Expert"
 # With specific skills
 npx claude-flow agent spawn --type coder --skills "python,fastapi,testing"
 ```
+
+## 🔗 Связи
+
+- [[MOC - System]] — workspace-config
+- [[000 - Map of Maps]] — Map of Maps
+

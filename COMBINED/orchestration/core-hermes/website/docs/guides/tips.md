@@ -2,6 +2,10 @@
 sidebar_position: 1
 title: "Tips & Best Practices"
 description: "Practical advice to get the most out of Hermes Agent — prompt tips, CLI shortcuts, context files, memory, cost optimization, and security"
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-hermes
 ---
 
 # Tips & Best Practices
@@ -232,3 +236,10 @@ GATEWAY_ALLOWED_USERS=123456789,987654321
 ---
 
 *Have a tip that should be on this page? Open an issue or PR — community contributions are welcome.*
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/hermes]] — Hermes
+- [[000 - Map of Maps]] — Map of Maps
+

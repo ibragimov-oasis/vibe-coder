@@ -1,5 +1,9 @@
 ---
 page: contact
+tags:
+  - domain/ui
+  - artifact/ui-component
+  - source/ui-design
 ---
 A warm, inviting contact page for Oakwood Furniture Co.
 
@@ -23,3 +27,9 @@ A warm, inviting contact page for Oakwood Furniture Co.
 3. **Contact Form:** Name, email, message fields with the teal-navy submit button
 4. **Showroom Info:** Address, hours, and an embedded map or beautiful showroom photo
 5. **Footer:** Sustainability, Craftsmanship, Shipping links, and social icons
+
+## 🔗 Связи
+
+- [[MOC - UI Design]] — ui-design
+- [[000 - Map of Maps]] — Map of Maps
+

@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-background-agents
+---
+
 # Open-Inspect Control Plane
 
 Cloudflare Workers + Durable Objects control plane for session management and real-time streaming.
@@ -255,3 +262,9 @@ for the complete list.
 | Ping/pong WebSocket health         | Send ping, verify pong                |
 | Typing triggers sandbox warm       | Send typing, verify warming event     |
 | Presence sync on connect           | Connect 2 clients, verify presence    |
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-background-agents]] — core-background-agents
+

@@ -1,6 +1,10 @@
 ---
 name: agent-spec-mobile-react-native
 description: Agent skill for spec-mobile-react-native - invoke with $agent-spec-mobile-react-native
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-ruflo
 ---
 
 ---
@@ -228,3 +232,9 @@ const styles = StyleSheet.create({
 - Android: Back button handling, material design
 - Performance: FlatList for long lists, image optimization
 - State: Context API or Redux for complex apps
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-ruflo]] — Category: skills-ruflo
+

@@ -10,6 +10,9 @@ metadata:
     homepage: https://github.com/steipete/songsee
 prerequisites:
   commands: [songsee]
+  - domain/skills
+  - artifact/skill
+  - source/skills-hermes
 ---
 
 # songsee
@@ -80,3 +83,9 @@ Multiple `--viz` types render as a grid in a single image.
 - WAV and MP3 are decoded natively; other formats require `ffmpeg`
 - Output images can be inspected with `vision_analyze` for automated audio analysis
 - Useful for comparing audio outputs, debugging synthesis, or documenting audio processing pipelines
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-hermes]] — Category: skills-hermes
+

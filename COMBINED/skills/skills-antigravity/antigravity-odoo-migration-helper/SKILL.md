@@ -3,6 +3,10 @@ name: odoo-migration-helper
 description: "Step-by-step guide for migrating Odoo custom modules between versions (v14→v15→v16→v17). Covers API changes, deprecated methods, and view migration."
 risk: safe
 source: "self"
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 # Odoo Migration Helper
@@ -100,3 +104,9 @@ record.is_published = True
 - The **Odoo.sh automated upgrade** path has additional steps not covered here; refer to Odoo.sh documentation.
 - **Enterprise-specific modules** (e.g., `account_accountant`, `sign`) may have undocumented breaking changes; test on a staging environment with Enterprise license.
 - JavaScript OWL component migration (v15 Legacy → v16 OWL) is a complex topic not fully covered by this skill.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

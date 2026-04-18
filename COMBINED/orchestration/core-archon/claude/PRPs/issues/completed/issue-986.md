@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-archon
+---
+
 # Investigation: Release workflow bypasses scripts/build-binaries.sh — v0.2.13 and v0.3.0 binaries are broken
 
 **Issue**: #986 (https://github.com/coleam00/Archon/issues/986)
@@ -259,3 +266,10 @@ bun run validate
 - **Investigated by**: Claude
 - **Timestamp**: 2026-04-08
 - **Artifact**: `.claude/PRPs/issues/issue-986.md`
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/archon]] — Archon
+- [[000 - Map of Maps]] — Map of Maps
+

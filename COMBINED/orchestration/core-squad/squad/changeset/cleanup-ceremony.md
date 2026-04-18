@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-squad
+---
+
 ﻿---
 "@bradygaster/squad-cli": minor
 ---
@@ -10,3 +17,10 @@ Add cleanup watch capability for stale file housekeeping (#791)
 - Warns about stale decision inbox files (>7 days)
 - Configurable: `everyNRounds` (default: 10), `maxAgeDays` (default: 30)
 - 12 new tests
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-squad]] — core-squad
+- [[MOC - Skills]] — Skills library
+

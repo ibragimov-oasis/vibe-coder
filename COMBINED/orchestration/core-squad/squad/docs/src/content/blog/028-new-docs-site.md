@@ -6,6 +6,9 @@ wave: 7
 tags: [squad, docs, community, astro, contributions]
 status: published
 hero: "Squad's documentation gets a complete rebuild — powered by Astro, Tailwind CSS, and community contributors."
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-squad
 ---
 
 # New Docs Site: Built by the Community
@@ -107,3 +110,10 @@ Open [localhost:4321/squad/](http://localhost:4321/squad/) and explore.
 - Search refinements and indexing improvements
 - More scenario guides from community feedback
 - Continued content contributions welcome — see [CONTRIBUTING.md](https://github.com/bradygaster/squad/blob/main/CONTRIBUTING.md)
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/squad]] — Squad
+- [[000 - Map of Maps]] — Map of Maps
+

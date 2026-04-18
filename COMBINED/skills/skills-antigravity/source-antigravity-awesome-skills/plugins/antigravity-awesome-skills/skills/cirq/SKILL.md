@@ -6,6 +6,10 @@ metadata:
     skill-author: K-Dense Inc.
 risk: unknown
 source: community
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 # Cirq - Quantum Computing with Python
@@ -343,3 +347,9 @@ results = noise_comparison_study(circuit, noise_levels)
 - Density matrix simulation is O(2^2n) - consider reducing qubits
 - Use noise models selectively on critical operations only
 - See `simulation.md` for performance optimization
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

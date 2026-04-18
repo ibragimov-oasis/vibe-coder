@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/mcp
+  - artifact/mcp-server
+  - source/mcp-servers
+---
+
 
 # Vikingbot Console - Gradio 版本
 
@@ -39,3 +46,9 @@ vikingbot gateway
 - 使用 Gradio 的 FileExplorer 组件
 - 显示工作区文件树
 - 选择文件查看内容
+
+## 🔗 Связи
+
+- [[MOC - MCP Servers]] — mcp-servers
+- [[000 - Map of Maps]] — Map of Maps
+

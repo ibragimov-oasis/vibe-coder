@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # Claude Flow + Claude Code - Browser IDE
 
 **Browser-based IDE combining swarm orchestration with interactive code editing**
@@ -354,3 +361,10 @@ await fn(sandbox.console, sandbox.sendMCPCommand);
 ---
 
 **This is a production-ready browser IDE powered by Claude Flow MCP + Monaco Editor!** 🚀
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

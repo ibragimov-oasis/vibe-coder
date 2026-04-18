@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-hermes
+---
+
 # Input Sources
 
 > **See also:** architecture.md · effects.md · scenes.md · shaders.md · optimization.md · troubleshooting.md
@@ -683,3 +690,9 @@ print(f"Mean drift: {report['mean_drift_ms']:.1f}ms, Max: {report['max_drift_ms'
 | Drift increases over time | Floating-point accumulation in `t = fi / fps` | Use integer frame counter, compute `t` fresh each frame |
 | Random missed beats | Beat threshold too high / feature smoothing too aggressive | Lower threshold; reduce EMA alpha for beat feature |
 | Beats land on wrong frame | Off-by-one in frame indexing | Verify: frame 0 = t=0, frame 1 = t=1/fps (not t=0) |
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-hermes]] — Category: skills-hermes
+

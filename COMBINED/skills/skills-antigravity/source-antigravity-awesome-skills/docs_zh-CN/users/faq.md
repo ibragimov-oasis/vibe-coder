@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # 常见问题解答 (FAQ)
 
 **有问题？**你并不孤单！这里是关于 Antigravity Awesome Skills 最常见问题的答案。
@@ -343,3 +350,9 @@ npm run security:docs
 - 探索 `@skill-creator` 制作你自己的技能
 
 **仍然困惑？**[打开讨论](https://github.com/sickn33/antigravity-awesome-skills/discussions)，我们会帮助你！🙌
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/root
+---
+
 # RUNBOOK.md — ULTRACAR v3.0 Operational Runbook
 
 > **"Как система запускается идеально" — How the system starts perfectly every time.**
@@ -287,3 +294,8 @@ Unique strengths to use:
 ---
 
 *ULTRACAR v3.0 — Operational Runbook | Last updated: 2026-04-18*
+
+## 🔗 Связи
+
+- [[000 - Map of Maps]] — Map of Maps
+

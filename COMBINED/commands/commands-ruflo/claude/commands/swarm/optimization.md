@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/command
+  - source/commands
+---
+
 # Optimization Swarm Strategy
 
 ## Purpose
@@ -115,3 +122,9 @@ mcp__claude-flow__cost_analysis({
   "timeframe": "30d"
 })
 ```
+
+## 🔗 Связи
+
+- [[MOC - System]] — commands
+- [[000 - Map of Maps]] — Map of Maps
+

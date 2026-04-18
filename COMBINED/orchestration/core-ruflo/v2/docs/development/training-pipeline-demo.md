@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # Training Pipeline Demo - Alpha 89
 
 ## Overview
@@ -161,3 +168,10 @@ The Training Pipeline transforms Claude Flow from a static system to a learning,
 - **28ms execution time** (good balance of speed/quality)
 
 This is not simulation - it's real machine learning with exponential moving average (α=0.3) that persistently improves agent coordination and task execution.
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

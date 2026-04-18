@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-squad
+---
+
 # GitLab Issues Walkthrough
 
 > **🧪 Experimental.** GitLab Issues Mode is new. Commands, behavior, and integration details may change. [Feedback welcome.](https://github.com/bradygaster/squad/issues)
@@ -234,3 +241,10 @@ For more details, see the [official GitLab CLI documentation](https://docs.gitla
 - **Review feedback is incremental.** When you tell Squad about review feedback, the agent pushes new commits to the existing branch — no force-pushes, no new MRs.
 - **Check `decisions.md` after issue work.** Agents often record decisions while working on issues (e.g., "chose cursor pagination" or "added text index for search"). These decisions carry forward to future issues.
 - **Self-managed GitLab works too.** The `glab` CLI supports self-managed GitLab instances. Run `glab auth login` and select your instance URL during setup.
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/squad]] — Squad
+- [[000 - Map of Maps]] — Map of Maps
+

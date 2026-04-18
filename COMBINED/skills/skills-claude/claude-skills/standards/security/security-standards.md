@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # Security Standards
 
 ## Core Security Principles
@@ -501,3 +508,9 @@ Expected response time: 24 hours
 **Updated**: November 2025
 **Review**: Monthly security assessment
 **Compliance**: OWASP Top 10, Python security best practices
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

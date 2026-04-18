@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # feat: Add WebSearch as Third Source (Zero-Config Fallback)
 
 ## Overview
@@ -393,3 +400,9 @@ def test_websearch_weighting():
 - Reddit upvotes are ~12% of ranking value in SEO (strong signal)
 - E-E-A-T framework: Engagement metrics = trust signal
 - MSA2C2 approach: Dynamic weight learning for multi-source aggregation
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

@@ -1,6 +1,10 @@
 ---
 name: dotnet-design-pattern-review
 description: 'Review the C#/.NET code for design pattern implementation and suggest improvements.'
+tags:
+  - domain/agents
+  - artifact/skill
+  - source/skills-copilot
 ---
 
 # .NET/C# Design Pattern Review
@@ -40,3 +44,10 @@ Review the C#/.NET code in ${selection} for design pattern implementation and su
 - **AI/ML Integration**: Semantic Kernel patterns, structured output handling, model configuration
 
 Provide specific, actionable recommendations for improvements aligned with the project's architecture and .NET best practices.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-copilot]] — Category: skills-copilot
+- [[MOC - Agents]] — Copilot agents
+

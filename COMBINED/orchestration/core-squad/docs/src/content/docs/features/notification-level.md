@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-squad
+---
+
 # Notification Level
 
 > ⚠️ **Experimental** — Squad is alpha software. APIs, commands, and behavior may change between releases.
@@ -87,3 +94,10 @@ If all counters are zero, the round is silent in `important` mode.
 
 - [Ralph — Work Monitor](/docs/features/ralph) — full Ralph documentation
 - [Watch capabilities](/docs/features/ralph#watch-mode) — how squad watch works
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/squad]] — Squad
+- [[000 - Map of Maps]] — Map of Maps
+

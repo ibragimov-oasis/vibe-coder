@@ -14,6 +14,9 @@ metadata:
     tags: [BCI, neurofeedback, health, focus, EEG, cognitive-state, biometrics, neuroskill]
     category: health
     related_skills: []
+  - domain/skills
+  - artifact/skill
+  - source/skills-hermes
 ---
 
 # NeuroSkill BCI Integration
@@ -456,3 +459,9 @@ npx neuroskill label "breakthrough"
 - [NeuroSkill Desktop App](https://github.com/NeuroSkill-com/skill) (GPLv3)
 - [NeuroLoop CLI Companion](https://github.com/NeuroSkill-com/neuroloop) (GPLv3)
 - [MIT Media Lab Project](https://www.media.mit.edu/projects/neuroskill/overview/)
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-hermes]] — Category: skills-hermes
+

@@ -5,6 +5,10 @@ paths:
   - "**/*.t"
   - "**/*.psgi"
   - "**/*.cgi"
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
 ---
 # Perl Patterns
 
@@ -74,3 +78,9 @@ carton exec prove -lr t/
 ## Reference
 
 See skill: `perl-patterns` for comprehensive modern Perl patterns and idioms.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

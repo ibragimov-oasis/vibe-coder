@@ -1,6 +1,10 @@
 ---
 title: "Campaign Analytics — Agent Skill for Marketing"
 description: "Analyzes campaign performance with multi-touch attribution, funnel conversion analysis, and ROI calculation for marketing optimization. Use when. Agent skill for Claude Code, Codex CLI, Gemini CLI, OpenClaw."
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
 ---
 
 # Campaign Analytics
@@ -228,3 +232,9 @@ Calculates comprehensive ROI metrics with industry benchmarking:
 - **ab-test-setup**: For designing experiments to test what analytics reveals.
 - **marketing-ops**: For routing insights to the right execution skill.
 - **paid-ads**: For optimizing ad spend based on analytics findings.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

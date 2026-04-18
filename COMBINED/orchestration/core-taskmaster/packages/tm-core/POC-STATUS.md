@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-taskmaster
+---
+
 # GetTaskList POC Status
 
 ## ✅ What We've Accomplished
@@ -192,3 +199,10 @@ The ListTasks POC successfully validates our architecture. The structure is:
 - **Ready for extension**
 
 We can confidently proceed with implementing the remaining functionality following this same pattern.
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-taskmaster]] — core-taskmaster
+- [[MOC - Skills]] — Skills library
+

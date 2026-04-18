@@ -13,6 +13,10 @@ metadata:
   author: AgriciDaniel
   version: "1.7.2"
   category: seo
+tags:
+  - domain/seo
+  - artifact/skill
+  - source/skills-seo
 ---
 
 # Firecrawl Extension for Claude SEO
@@ -200,3 +204,9 @@ When Firecrawl is available during `/seo audit`:
 1. Use `fetch_page.py` for single-page analysis (no API cost)
 2. Use `WebFetch` tool for basic HTML retrieval
 3. Install Firecrawl: `./extensions/firecrawl/install.sh`
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-seo]] — Category: skills-seo
+

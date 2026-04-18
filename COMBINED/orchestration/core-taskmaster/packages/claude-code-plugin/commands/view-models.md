@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-taskmaster
+---
+
 View current AI model configuration.
 
 ## Model Configuration Display
@@ -49,3 +56,10 @@ Based on configuration:
 - If missing API keys → Suggest setup
 - If no research model → Explain benefits
 - If all configured → Show usage tips
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/task-master]] — Task-Master
+- [[000 - Map of Maps]] — Map of Maps
+

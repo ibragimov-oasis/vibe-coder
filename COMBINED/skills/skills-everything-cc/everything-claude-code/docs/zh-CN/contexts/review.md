@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
+---
+
 # 代码审查上下文
 
 模式：PR 审查，代码分析
@@ -23,3 +30,9 @@
 ## 输出格式
 
 按文件分组发现的问题，严重性优先
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

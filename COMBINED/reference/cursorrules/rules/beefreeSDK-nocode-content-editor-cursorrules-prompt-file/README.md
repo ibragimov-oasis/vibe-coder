@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/reference
+  - source/reference
+---
+
 # Beefree SDK Integration Guide
 
 This folder contains a comprehensive `.cursorrules` file that provides guidelines and best practices for embedding [Beefree SDK](https://docs.beefree.io/beefree-sdk) into web applications, particularly those in the Martech industry, or those custom-built internally by enterprises with large-scale marketing operations. The frontend of [Beefree SDK](https://docs.beefree.io/beefree-sdk) includes a no-code email, page, and popup builder. The rules file serves as a development companion to ensure a consistent, secure, and efficient integration of the Beefree SDK no-code content editor into your applications.
@@ -332,3 +339,9 @@ const beeConfig = {
 - [HTML Importer API](https://docs.beefree.io/beefree-sdk/apis/html-importer-api/import-html)
 - [React Demo Repository](https://github.com/BeefreeSDK/beefree-react-demo)
 - [Multiple Versions Concept](https://github.com/BeefreeSDK/beefree-sdk-simple-schema/tree/main/multiple-versions-concept)
+
+## 🔗 Связи
+
+- [[MOC - System]] — reference
+- [[000 - Map of Maps]] — Map of Maps
+

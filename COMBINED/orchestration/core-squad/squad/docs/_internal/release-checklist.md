@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-squad
+---
+
 # Release Checklist
 
 This document outlines the steps for preparing and shipping Squad releases. Follow the appropriate checklist based on the release type.
@@ -122,3 +129,10 @@ The following checks run automatically in CI (no manual action required):
 - [GitHub Actions Workflows](../.github/workflows/)
 - [Package Configuration](../package.json)
 - [Changelog](../CHANGELOG.md)
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/squad]] — Squad
+- [[000 - Map of Maps]] — Map of Maps
+

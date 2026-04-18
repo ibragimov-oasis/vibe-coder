@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-copilot
+---
+
 # Module 3: Interaction Modes
 
 ## Interactive Mode (default)
@@ -31,3 +38,9 @@
 | Switch | Default | Shift+Tab or /plan | /experimental (enables), then Shift+Tab |
 
 Teaching point: The right mode at the right time = 10x productivity.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-copilot]] — Category: skills-copilot
+

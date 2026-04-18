@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/superpowers
+---
+
 # Svelte Todo List - Implementation Plan
 
 Execute this plan using the `superpowers:subagent-driven-development` skill.
@@ -220,3 +227,10 @@ Document the project.
 **Verify:**
 - README accurately describes the project
 - Instructions work
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/superpowers]] — Superpowers
+- [[000 - Map of Maps]] — Map of Maps
+

@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # Deliverability Guide
 
 A cold email that lands in spam is worse than no email at all — it damages your sender reputation for future sends. Get deliverability right before you worry about copy.
@@ -223,3 +230,9 @@ Cold email has legal requirements in most markets. Breaking them isn't just unet
 - Don't use misleading subject lines or from names
 
 **Disclaimer:** This is practical guidance, not legal advice. For EU/Canada outreach, consult a lawyer who specializes in email marketing law — GDPR and CASL are stricter than most people realize.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

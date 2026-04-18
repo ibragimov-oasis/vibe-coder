@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-squad
+---
+
 # Proposal: Reflect Skill
 
 **Issue:** bradygaster/squad#621
@@ -76,3 +83,10 @@ A structured reflection protocol triggered by failure or feedback events:
 ## References
 
 - Issue: bradygaster/squad#621
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-squad]] — core-squad
+- [[MOC - Skills]] — Skills library
+

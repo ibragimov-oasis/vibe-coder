@@ -3,6 +3,10 @@ name: planner
 description: Strategic planning consultant with interview workflow (Opus)
 model: claude-opus-4-6
 level: 4
+tags:
+  - domain/agents
+  - artifact/agent
+  - source/by-role/planner
 ---
 
 <Agent_Prompt>
@@ -137,3 +141,9 @@ level: 4
     - In deliberate consensus mode, are pre-mortem + expanded test plan present?
   </Final_Checklist>
 </Agent_Prompt>
+
+## 🔗 Связи
+
+- [[MOC - Agents]] — Agent catalog
+- [[agents/planner]] — Role: planner
+

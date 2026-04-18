@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-copilot
+---
+
 # Phase 1: Architecture Advisor
 
 This file contains the detailed instructions for Phase 1. When entering Phase 1 from SKILL.md, read and follow this file.
@@ -920,3 +927,9 @@ Shall we proceed with deployment? (If you'd like just the code without deploymen
 - Completing Phase 3 and just providing the `az deployment group create` command without further guidance
 - Deploying directly without What-if validation, or telling the user to run commands themselves
 - Skipping the Phase 4 steps (What-if → Preview Diagram → Deployment)
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-copilot]] — Category: skills-copilot
+

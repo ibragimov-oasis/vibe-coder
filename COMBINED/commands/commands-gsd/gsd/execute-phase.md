@@ -12,6 +12,10 @@ allowed-tools:
   - Task
   - TodoWrite
   - AskUserQuestion
+tags:
+  - domain/skills
+  - artifact/command
+  - source/commands
 ---
 <objective>
 Execute all plans in a phase using wave-based parallel execution.
@@ -57,3 +61,9 @@ Context files are resolved inside the workflow via `gsd-tools init execute-phase
 Execute the execute-phase workflow from @~/.claude/get-shit-done/workflows/execute-phase.md end-to-end.
 Preserve all workflow gates (wave execution, checkpoint handling, verification, state updates, routing).
 </process>
+
+## 🔗 Связи
+
+- [[MOC - System]] — commands
+- [[000 - Map of Maps]] — Map of Maps
+

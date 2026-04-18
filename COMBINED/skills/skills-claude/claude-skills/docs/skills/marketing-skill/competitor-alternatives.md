@@ -1,6 +1,10 @@
 ---
 title: "Competitor & Alternative Pages — Agent Skill for Marketing"
 description: "When the user wants to create competitor comparison or alternative pages for SEO and sales enablement. Also use when the user mentions 'alternative. Agent skill for Claude Code, Codex CLI, Gemini CLI, OpenClaw."
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
 ---
 
 # Competitor & Alternative Pages
@@ -293,3 +297,9 @@ All competitor page outputs should be factually accurate, legally safe (no false
 - **content-strategy** — USE when planning a full competitive content program across multiple pages; NOT for single-page execution.
 - **competitive-intel** — USE when C-level strategic competitive analysis is needed beyond page creation; NOT for tactical page writing.
 - **marketing-context** — USE as foundation before any competitor page work to align positioning; always load first.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

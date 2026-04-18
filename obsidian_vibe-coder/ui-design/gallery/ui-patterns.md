@@ -112,3 +112,9 @@ Progress: для операций с известным прогрессом
 - **Taste-skill:** [[ui-design/taste-skill]]
 - **Impeccable:** [[ui-design/gallery/impeccable-commands]]
 - **Map:** [[000 - Map of Maps]]
+
+## 🔗 Связи
+
+- [[MOC - UI Design]] — Parent MOC
+- [[000 - Map of Maps]] — Map of Maps
+

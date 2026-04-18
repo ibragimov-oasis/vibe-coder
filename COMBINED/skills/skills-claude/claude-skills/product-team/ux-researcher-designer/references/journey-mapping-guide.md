@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # Journey Mapping Guide
 
 Step-by-step reference for creating user journey maps that drive design decisions.
@@ -495,3 +502,9 @@ Add backstage layers:
 ---
 
 *See also: `persona-methodology.md` for persona creation*
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

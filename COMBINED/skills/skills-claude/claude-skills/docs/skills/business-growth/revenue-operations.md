@@ -1,6 +1,10 @@
 ---
 title: "Revenue Operations — Agent Skill for Growth"
 description: "Analyzes sales pipeline health, revenue forecasting accuracy, and go-to-market efficiency metrics for SaaS revenue optimization. Use when analyzing. Agent skill for Claude Code, Codex CLI, Gemini CLI, OpenClaw."
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
 ---
 
 # Revenue Operations
@@ -282,3 +286,9 @@ Combine all three tools for a comprehensive QBR analysis.
 | [GTM Dashboard Template](https://github.com/alirezarezvani/claude-skills/tree/main/business-growth/revenue-operations/assets/gtm_dashboard_template.md) | GTM efficiency dashboard for leadership review |
 | [Sample Pipeline Data](https://github.com/alirezarezvani/claude-skills/tree/main/business-growth/revenue-operations/assets/sample_pipeline_data.json) | Example input for pipeline_analyzer.py |
 | [Expected Output](https://github.com/alirezarezvani/claude-skills/tree/main/business-growth/revenue-operations/assets/expected_output.json) | Reference output from pipeline_analyzer.py |
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

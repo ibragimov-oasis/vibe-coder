@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # Scripts - Utility Tools
 
 This folder contains utility scripts for managing ReasoningBank models.
@@ -268,3 +275,9 @@ models/
 **Last Updated**: 2025-10-15
 **Total Scripts**: 5
 **Purpose**: Model management and quality assurance
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-ruflo]] — core-ruflo
+

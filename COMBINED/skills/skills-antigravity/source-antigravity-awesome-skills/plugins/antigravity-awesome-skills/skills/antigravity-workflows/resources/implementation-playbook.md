@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # Antigravity Workflows Implementation Playbook
 
 This document explains how an agent should execute workflow-based orchestration.
@@ -34,3 +41,9 @@ At workflow completion, return:
 3. Validation evidence
 4. Open risks
 5. Suggested next action
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

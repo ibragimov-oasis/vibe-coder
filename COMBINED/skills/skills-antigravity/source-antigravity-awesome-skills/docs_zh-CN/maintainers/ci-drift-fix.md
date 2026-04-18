@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # CI 漂移修复指南
 
 **问题**：失败的作业是由于在更新脚本运行后在 `README.md`、`skills_index.json` 或目录文件中检测到未提交的更改引起的。
@@ -36,3 +43,9 @@
 
 **总结**：
 始终提交并推送 registry、README 同步和 catalog 脚本产生的所有更改。这通过确保仓库和生成的工件与规范的 `tools/scripts/*` 管道保持同步，保持 CI 通过。
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

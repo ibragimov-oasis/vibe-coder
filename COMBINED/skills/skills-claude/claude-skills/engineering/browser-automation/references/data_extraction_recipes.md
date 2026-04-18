@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # Data Extraction Recipes
 
 Practical patterns for extracting structured data from web pages using Playwright. Each recipe is a self-contained pattern you can adapt to your target site.
@@ -578,3 +585,9 @@ def to_json(items, file_path, indent=2):
     with open(file_path, "w") as f:
         json.dump(items, f, indent=indent, ensure_ascii=False)
 ```
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

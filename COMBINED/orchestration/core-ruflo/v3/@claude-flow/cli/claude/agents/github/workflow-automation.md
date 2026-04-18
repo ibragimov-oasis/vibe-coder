@@ -88,6 +88,10 @@ hooks:
         --training-data "$WORKFLOW_OUTPUT" \
         --epochs 50
     fi
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
 ---
 
 # Workflow Automation - GitHub Actions Integration
@@ -901,3 +905,10 @@ mcp__claude-flow__task_orchestrate {
 ```
 
 See also: [swarm-pr.md](./swarm-pr.md), [swarm-issue.md](./swarm-issue.md), [sync-coordinator.md](./sync-coordinator.md)
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

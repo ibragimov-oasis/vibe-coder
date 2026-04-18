@@ -70,3 +70,9 @@ COMBINED/security/
 - [[MOC - Security]] — родительский хаб
 - [[agents/mega-security]] — мега-агент
 - [[MOC - MCP Servers]] — code-review-graph MCP
+
+## 🔗 Связи
+
+- [[000 - Map of Maps]] — Parent MOC
+- [[000 - Map of Maps]] — Map of Maps
+

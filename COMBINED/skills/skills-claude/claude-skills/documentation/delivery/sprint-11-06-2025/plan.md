@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # Sprint Plan: CS- Orchestrator Framework Implementation
 
 **Sprint:** sprint-11-06-2025
@@ -2718,3 +2725,9 @@ gh issue close 12 --comment "✅ Sprint wrap-up complete. CLAUDE.md and AGENTS.m
 **Document Version:** 1.0
 **Created:** November 6, 2025
 **Last Updated:** November 6, 2025
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

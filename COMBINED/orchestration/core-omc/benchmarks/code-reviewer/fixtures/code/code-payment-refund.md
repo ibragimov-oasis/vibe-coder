@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-omc
+---
+
 # Payment Refund Service
 
 Please review the following refund processing service:
@@ -141,3 +148,10 @@ export async function bulkRefund(orderIds: string[], reason: string, initiatedBy
   return results;
 }
 ```
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/omc]] — OMC
+- [[000 - Map of Maps]] — Map of Maps
+

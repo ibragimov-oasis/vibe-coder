@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/superpowers
+---
+
 # Go Fractals CLI - Implementation Plan
 
 Execute this plan using the `superpowers:subagent-driven-development` skill.
@@ -170,3 +177,10 @@ Document usage and examples.
 **Verify:**
 - README accurately describes the tool
 - Examples in README actually work
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/superpowers]] — Superpowers
+- [[000 - Map of Maps]] — Map of Maps
+

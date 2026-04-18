@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
+---
+
 # Checkpoint Command
 
 Create or verify a checkpoint in your workflow.
@@ -72,3 +79,9 @@ $ARGUMENTS:
 - `verify <name>` - Verify against named checkpoint
 - `list` - Show all checkpoints
 - `clear` - Remove old checkpoints (keeps last 5)
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

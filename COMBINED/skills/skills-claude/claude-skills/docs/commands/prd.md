@@ -1,6 +1,10 @@
 ---
 title: "/prd — Slash Command for AI Coding Agents"
 description: "Quick PRD generation command. Usage: /prd <feature-or-problem>. Slash command for Claude Code, Codex CLI, Gemini CLI."
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
 ---
 
 # /prd
@@ -29,3 +33,9 @@ Generate a concise product requirements document for a feature, initiative, or p
 
 ## Skill Reference
 - `product-team/product-manager-toolkit/SKILL.md`
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

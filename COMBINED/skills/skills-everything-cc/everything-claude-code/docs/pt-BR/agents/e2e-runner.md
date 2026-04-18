@@ -3,6 +3,10 @@ name: e2e-runner
 description: Especialista em testes end-to-end usando Vercel Agent Browser (preferido) com fallback para Playwright. Use PROATIVAMENTE para gerar, manter e executar testes E2E. Gerencia jornadas de teste, coloca testes instáveis em quarentena, faz upload de artefatos (screenshots, vídeos, traces) e garante que fluxos críticos de usuário funcionem.
 tools: ["Read", "Write", "Edit", "Bash", "Grep", "Glob"]
 model: sonnet
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
 ---
 
 # Executor de Testes E2E
@@ -97,3 +101,9 @@ Causas comuns: condições de corrida (usar localizadores auto-wait), timing de 
 - Taxa de instabilidade < 5%
 - Duração do teste < 10 minutos
 - Artefatos enviados e acessíveis
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

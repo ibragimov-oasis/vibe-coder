@@ -1,6 +1,10 @@
 ---
 name: aspnet-minimal-api-openapi
 description: 'Create ASP.NET Minimal API endpoints with proper OpenAPI documentation'
+tags:
+  - domain/agents
+  - artifact/skill
+  - source/skills-copilot
 ---
 
 # ASP.NET Minimal API with OpenAPI
@@ -39,3 +43,10 @@ Your goal is to help me create well-structured ASP.NET Minimal API endpoints wit
 - Set proper content types for requests and responses
 - Use document transformers to add elements like servers, tags, and security schemes
 - Use schema transformers to apply customizations to OpenAPI schemas
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-copilot]] — Category: skills-copilot
+- [[MOC - Agents]] — Copilot agents
+

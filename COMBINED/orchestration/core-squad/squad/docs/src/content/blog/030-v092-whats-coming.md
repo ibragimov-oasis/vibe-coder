@@ -5,6 +5,9 @@ author: "Tamir"
 tags: [squad, release, features, watch, cleanup, fact-checker, external-state, self-upgrade, fleet, verbose, skills, scratch-dir, triage, notifications]
 status: draft
 hero: "The next Squad release ships 10 new features, 4 bug fixes, and 60+ tests — all backward-compatible. Here's what to expect."
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-squad
 ---
 
 # What's Coming in v0.9.2 — 10 Features, Zero Breaking Changes
@@ -156,3 +159,10 @@ Or if you're on insider:
 ```bash
 squad upgrade --self --insider
 ```
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/squad]] — Squad
+- [[000 - Map of Maps]] — Map of Maps
+

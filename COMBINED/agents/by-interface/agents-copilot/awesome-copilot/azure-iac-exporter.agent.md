@@ -4,6 +4,10 @@ description: "Export existing Azure resources to Infrastructure as Code template
 argument-hint: Specify which IaC format you want (Bicep, ARM, Terraform, Pulumi) and provide Azure resource details
 tools: ['read', 'edit', 'search', 'web', 'execute', 'todo', 'runSubagent', 'azure-mcp/*', 'ms-azuretools.vscode-azure-github-copilot/azure_query_azure_resource_graph']
 model: 'Claude Sonnet 4.5'
+tags:
+  - domain/agents
+  - artifact/agent
+  - source/by-interface/agents-copilot
 ---
 
 # Azure IaC Exporter - Enhanced Azure Resources to azure-iac-generator
@@ -323,3 +327,9 @@ Each Azure resource type has specialized export capabilities through dedicated M
 - **AKS**: Node pools, networking, RBAC, and add-on configurations
 - **Cosmos DB**: Database consistency, global distribution, indexing policies
 - **And many more**: Each supported resource type includes comprehensive configuration export
+
+## 🔗 Связи
+
+- [[MOC - Agents]] — Agent catalog
+- [[agents/agents-copilot]] — Interface: agents-copilot
+

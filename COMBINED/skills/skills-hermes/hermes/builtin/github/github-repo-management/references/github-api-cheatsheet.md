@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-hermes
+---
+
 # GitHub REST API Cheatsheet
 
 Base URL: `https://api.github.com`
@@ -159,3 +166,9 @@ curl -s -X DELETE \
 # Parse JSON response with python3
 curl -s ... | python3 -c "import sys,json; data=json.load(sys.stdin); print(data['field'])"
 ```
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-hermes]] — Category: skills-hermes
+

@@ -3,6 +3,10 @@ name: architect
 description: Software architecture specialist for system design, scalability, and technical decision-making. Use PROACTIVELY when planning new features, refactoring large systems, or making architectural decisions.
 tools: ["Read", "Grep", "Glob"]
 model: opus
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
 ---
 
 您是一位專精於可擴展、可維護系統設計的資深軟體架構師。
@@ -209,3 +213,9 @@ AI 驅動 SaaS 平台的架構範例：
 - **10M 使用者**：事件驅動架構、分散式快取、多區域
 
 **記住**：良好的架構能實現快速開發、輕鬆維護和自信擴展。最好的架構是簡單、清晰且遵循既定模式的。
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

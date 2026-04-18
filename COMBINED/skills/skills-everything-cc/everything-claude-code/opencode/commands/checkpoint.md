@@ -1,6 +1,10 @@
 ---
 description: Save verification state and progress checkpoint
 agent: build
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
 ---
 
 # Checkpoint Command
@@ -65,3 +69,9 @@ Use checkpoints to:
 ---
 
 **TIP**: Create checkpoints at natural breakpoints: after each phase, before major refactoring, after fixing critical bugs.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # Playwright Java – Project Configuration
 
 ## Maven POM (`pom.xml`)
@@ -238,3 +245,9 @@ COPY . .
 RUN mvn dependency:resolve
 CMD ["mvn", "test", "-Dheadless=true"]
 ```
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

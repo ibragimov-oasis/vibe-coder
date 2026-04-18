@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # Workflow Pattern Templates
 
 ## Sequential
@@ -80,3 +87,9 @@ Use when output quality gates are mandatory before finalization.
 - `upstream_artifacts`
 - `budget_tokens`
 - `timeout_seconds`
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

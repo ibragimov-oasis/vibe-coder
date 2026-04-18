@@ -1,6 +1,10 @@
 ---
 name: mcp-cli
 description: Interface for MCP (Model Context Protocol) servers via CLI. Use when you need to interact with external tools, APIs, or data sources through MCP servers, list available MCP servers/tools, or call MCP tools from command line.
+tags:
+  - domain/agents
+  - artifact/skill
+  - source/skills-copilot
 ---
 
 # MCP-CLI
@@ -76,3 +80,10 @@ mcp-cli filesystem/search_files '{"path": "src/", "pattern": "*.ts"}' --json | j
 - `1`: Client error (bad args, missing config)
 - `2`: Server error (tool failed)
 - `3`: Network error
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-copilot]] — Category: skills-copilot
+- [[MOC - Agents]] — Copilot agents
+

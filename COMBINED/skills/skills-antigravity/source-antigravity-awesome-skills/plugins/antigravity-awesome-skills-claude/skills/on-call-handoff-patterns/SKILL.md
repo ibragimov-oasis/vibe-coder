@@ -4,6 +4,10 @@ description: "Effective patterns for on-call shift transitions, ensuring continu
 risk: unknown
 source: community
 date_added: "2026-02-27"
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 # On-Call Handoff Patterns
@@ -454,3 +458,9 @@ I'll be available on Slack until 17:00 today.
 - [Google SRE - Being On-Call](https://sre.google/sre-book/being-on-call/)
 - [PagerDuty On-Call Guide](https://www.pagerduty.com/resources/learn/on-call-management/)
 - [Increment On-Call Issue](https://increment.com/on-call/)
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

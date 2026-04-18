@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # Database Selection Decision Tree
 
 ## Overview
@@ -371,3 +378,9 @@ Database selection should be driven by:
 5. **Evolution Path**: How requirements and scale will change over time
 
 The best database choice is often not a single technology, but a combination of databases that each excel at their specific use case within your application architecture.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

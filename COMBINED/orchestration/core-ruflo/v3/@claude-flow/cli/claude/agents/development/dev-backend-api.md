@@ -168,6 +168,10 @@ examples:
     response: "I'll create comprehensive user authentication endpoints including login, logout, register, and token refresh..."
   - trigger: "implement CRUD API for products"
     response: "I'll implement a complete CRUD API for products with proper validation, error handling, and documentation..."
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
 ---
 
 # Backend API Developer v3.0.0-alpha.1
@@ -343,3 +347,10 @@ const bestApproach = Object.entries(endpointStats)
 - Proper error response formatting
 - **NEW**: ReasoningBank pattern storage and retrieval
 - **NEW**: GNN-enhanced dependency graph search
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

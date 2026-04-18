@@ -1,6 +1,10 @@
 ---
 name: issue-fields-migration
 description: 'Bulk-migrate metadata to GitHub issue fields from two sources: repo labels (e.g. priority labels to a Priority field) and Project V2 fields. Use when users say "migrate my labels to issue fields", "migrate project fields to issue fields", "convert labels to issue fields", "copy project field values to issue fields", or ask about adopting issue fields. Issue fields are org-level typed metadata (single select, text, number, date) that replace label-based workarounds with structured, searchable, cross-repo fields.'
+tags:
+  - domain/agents
+  - artifact/skill
+  - source/skills-copilot
 ---
 
 # Issue Fields Migration
@@ -531,3 +535,10 @@ Failed items:
 **User**: "Migrate the 'frontend' and 'backend' labels to the Team issue field across github/issues, github/memex, and github/mobile, then remove the old labels"
 
 **Action**: Route to Label Migration Flow. Confirm repos and label mappings: "frontend"→Team "Frontend", "backend"→Team "Backend". Scan all three repos for issues with these labels. Detect conflicts (issues with both labels). Preview across repos. Execute field writes, then remove labels from migrated issues. Report per-repo stats.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-copilot]] — Category: skills-copilot
+- [[MOC - Agents]] — Copilot agents
+

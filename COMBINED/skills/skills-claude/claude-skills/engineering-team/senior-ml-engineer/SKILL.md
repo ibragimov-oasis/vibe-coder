@@ -12,6 +12,10 @@ triggers:
   - model serving
   - A/B testing ML
   - automated retraining
+tags:
+  - domain/agents
+  - artifact/skill
+  - source/skills-claude
 ---
 
 # Senior ML Engineer
@@ -302,3 +306,10 @@ Sets up drift detection, alerting, and performance dashboards.
 | Data | Spark, Airflow, dbt, Kafka |
 | Deployment | Docker, Kubernetes, Triton |
 | Databases | PostgreSQL, BigQuery, Pinecone, Redis |
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+- [[MOC - Agents]] — Claude agents
+

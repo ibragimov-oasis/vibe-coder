@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-copilot
+---
+
 # 7400-Series Logic ICs Specification
 
 ## 1. Overview
@@ -175,3 +182,9 @@ The **7400-series** is a large family of **digital logic integrated circuits** o
 * <https://digilent.com/reference/test-and-measurement/analog-discovery-2/hardware-design-guide>
 
 ---
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-copilot]] — Category: skills-copilot
+

@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # Code Review Swarm - Automated Code Review with AI Agents
 
 ## Overview
@@ -512,3 +519,10 @@ npx ruv-swarm github review-report \
 ```
 
 See also: [swarm-pr.md](./swarm-pr.md), [workflow-automation.md](./workflow-automation.md)
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

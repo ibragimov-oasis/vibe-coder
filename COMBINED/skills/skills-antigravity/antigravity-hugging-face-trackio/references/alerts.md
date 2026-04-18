@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # Trackio Alerts
 
 Alerts let you flag important training events directly from code. They are the primary mechanism for LLM agents to diagnose runs and iterate autonomously on ML experiments.
@@ -194,3 +201,9 @@ trainer = SFTTrainer(
     ...
 )
 ```
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

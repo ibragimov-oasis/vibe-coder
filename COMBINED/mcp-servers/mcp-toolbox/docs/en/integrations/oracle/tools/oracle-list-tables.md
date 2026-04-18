@@ -4,6 +4,10 @@ type: docs
 weight: 1
 description: > 
    Lists all tables in the current user's schema
+tags:
+  - domain/mcp
+  - artifact/mcp-server
+  - source/mcp-servers
 ---
 
 ## About
@@ -41,3 +45,9 @@ tools:
       SELECT table_name from user_tables;
     description: |
       Lists all table names in the current user's schema.
+
+## 🔗 Связи
+
+- [[MOC - MCP Servers]] — mcp-servers
+- [[000 - Map of Maps]] — Map of Maps
+

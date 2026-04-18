@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/command
+  - source/claude-commands
+---
+
 # parallel-execute
 
 Execute tasks in parallel for maximum efficiency.
@@ -23,3 +30,9 @@ npx claude-flow optimization parallel-execute --tasks tasks.json --max-parallel 
 # Custom strategy
 npx claude-flow optimization parallel-execute --strategy adaptive
 ```
+
+## 🔗 Связи
+
+- [[MOC - System]] — System commands
+- [[MOC - Skills]] — Skills library
+

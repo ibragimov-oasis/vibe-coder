@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-copilot
+---
+
 # Excalidraw JSON Schema Reference
 
 This document describes the structure of Excalidraw `.excalidraw` files for diagram generation.
@@ -348,3 +355,9 @@ const versionNonce = Math.floor(Math.random() * 2147483647);
   "files": {}
 }
 ```
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-copilot]] — Category: skills-copilot
+

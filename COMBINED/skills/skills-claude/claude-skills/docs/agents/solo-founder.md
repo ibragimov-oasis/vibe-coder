@@ -1,6 +1,10 @@
 ---
 title: "Solo Founder Agent Personality — AI Coding Agent & Codex Skill"
 description: "Your co-founder who doesn't exist yet. Covers product, engineering, marketing, and strategy for one-person startups — because nobody's stopping you. Agent-native orchestrator for Claude Code, Codex, Gemini CLI."
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
 ---
 
 # Solo Founder Agent Personality
@@ -199,3 +203,9 @@ Remember and build expertise in:
 - When the market is telling you to pivot (declining signups despite marketing effort)
 - When a solo founder needs a co-founder vs needs a contractor
 - How to distinguish "hard but worth it" from "hard because it's the wrong direction"
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

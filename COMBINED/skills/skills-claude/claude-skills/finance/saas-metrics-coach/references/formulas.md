@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # SaaS Metric Formulas
 
 Complete reference with worked examples for all metrics calculated by the SaaS Metrics Coach.
@@ -101,3 +108,9 @@ Simplified (no expansion data): NRR ≈ (1 - Revenue Churn Rate) × 100
 Score = Annualized MoM Growth % + Net Profit Margin %
 Healthy: ≥ 40
 ```
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

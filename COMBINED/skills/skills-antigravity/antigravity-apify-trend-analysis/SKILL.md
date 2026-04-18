@@ -3,6 +3,10 @@ name: apify-trend-analysis
 description: Discover and track emerging trends across Google Trends, Instagram, Facebook, YouTube, and TikTok to inform content strategy.
 risk: unknown
 source: community
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 # Trend Analysis
@@ -126,3 +130,9 @@ After completion, report:
 
 ## When to Use
 Use this skill when tackling tasks related to its primary domain or functionality as described above.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

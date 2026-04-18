@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-omc
+---
+
 # OpenClaw / Clawhip Routing Contract
 
 This document defines the normalized event contract OMC emits through the OpenClaw bridge for native Clawhip-style consumers.
@@ -100,3 +107,10 @@ Generic `tool.started` / `tool.finished` remain available as low-priority fallba
 - Raw `event` names are preserved for backward compatibility.
 - `signal` is the preferred routing surface for new native Clawhip integrations.
 - `context` remains a whitelisted subset; internal raw tool input/output are used only to derive normalized signals and are not forwarded in `payload.context`.
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-omc]] — core-omc
+- [[MOC - Skills]] — Skills library
+

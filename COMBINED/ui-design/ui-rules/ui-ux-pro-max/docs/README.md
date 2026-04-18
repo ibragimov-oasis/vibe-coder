@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/ui
+  - artifact/ui-component
+  - source/ui-design
+---
+
 # uipro-cli
 
 CLI to install UI/UX Pro Max skill for AI coding assistants.
@@ -61,3 +68,9 @@ bun link
 ## License
 
 CC-BY-NC-4.0
+
+## 🔗 Связи
+
+- [[MOC - UI Design]] — ui-design
+- [[000 - Map of Maps]] — Map of Maps
+

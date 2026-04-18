@@ -2,6 +2,10 @@
 sidebar_position: 3
 title: "Updating & Uninstalling"
 description: "How to update Hermes Agent to the latest version or uninstall it"
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-hermes
 ---
 
 # Updating & Uninstalling
@@ -77,3 +81,10 @@ hermes gateway stop
 # macOS: launchctl remove ai.hermes.gateway
 ```
 :::
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/hermes]] — Hermes
+- [[000 - Map of Maps]] — Map of Maps
+

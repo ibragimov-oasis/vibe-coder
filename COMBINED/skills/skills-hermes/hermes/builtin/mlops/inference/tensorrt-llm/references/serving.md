@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-hermes
+---
+
 # Production Serving Guide
 
 Comprehensive guide to deploying TensorRT-LLM in production environments.
@@ -468,3 +475,9 @@ proxy_send_timeout 600s;
 8. **Use persistent volumes** - Cache compiled models
 9. **Implement retries** - Handle transient failures
 10. **Monitor costs** - Track cost per token
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-hermes]] — Category: skills-hermes
+

@@ -59,3 +59,8 @@ tags:
   - nested/tag2
 ---
 ```
+
+## 🔗 Связи
+
+- [[000 - Map of Maps]] — Map of Maps
+

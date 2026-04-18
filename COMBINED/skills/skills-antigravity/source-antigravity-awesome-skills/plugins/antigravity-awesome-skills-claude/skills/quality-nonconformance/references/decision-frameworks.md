@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # Decision Frameworks — Quality & Non-Conformance Management
 
 This reference provides the detailed decision logic, MRB processes, RCA methodology selection,
@@ -767,3 +774,9 @@ Each MRB disposition must include:
 | Signatures of all MRB members | Accountability and traceability | All attendees |
 | Cost impact | Financial tracking for COQ | Quality Engineering + Finance |
 | CAPA reference (if initiated) | Link to systemic corrective action | Quality Engineering |
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

@@ -2,6 +2,10 @@
 name: prune
 description: 删除超过 30 天且从未被提升的待处理本能
 command: true
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
 ---
 
 # 清理待处理本能
@@ -29,3 +33,9 @@ python3 ~/COMBINED/workspace-config/claude/skills/continuous-learning-v2/scripts
 /prune --max-age 60       # 自定义年龄阈值（天）
 /prune --dry-run          # 仅预览，不实际删除
 ```
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

@@ -81,6 +81,10 @@ hooks:
 
     # 5. Trigger testgaps worker for coverage analysis
     npx claude-flow@v3alpha hooks worker dispatch --trigger testgaps
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
 ---
 
 # Testing and Quality Assurance Agent
@@ -510,3 +514,10 @@ console.log(`Common missed scenarios: ${stats.commonCritiques}`);
 10. **Flash Attention**: Generate tests faster (2.49x-7.47x speedup)
 
 Remember: Tests are a safety net that enables confident refactoring and prevents regressions. Invest in good tests—they pay dividends in maintainability. **Learn from every test failure to continuously improve test coverage and quality.**
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

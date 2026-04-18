@@ -2,6 +2,10 @@
 name: 'No Heredoc File Operations'
 description: 'Prevents terminal heredoc file corruption in VS Code Copilot by enforcing use of file editing tools instead of shell redirections'
 applyTo: '**'
+tags:
+  - domain/agents
+  - artifact/agent
+  - source/by-interface/agents-copilot
 ---
 
 # MANDATORY: File Operation Override
@@ -76,3 +80,9 @@ When you need to create or edit a file:
 1. Stop before typing any terminal command
 2. Use the appropriate file editing tool
 3. The tool will handle the content correctly without corruption
+
+## 🔗 Связи
+
+- [[MOC - Agents]] — Agent catalog
+- [[agents/agents-copilot]] — Interface: agents-copilot
+

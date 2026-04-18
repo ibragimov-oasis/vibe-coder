@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # Head of Claude Code: What Happens After Coding Is Solved — Lenny's Podcast
 
 Transcript of the interview with Boris Cherny ([@bcherny](https://x.com/bcherny)), creator of Claude Code, on Lenny's Podcast, published February 19, 2026.
@@ -300,3 +307,9 @@ Transcript of the interview with Boris Cherny ([@bcherny](https://x.com/bcherny)
 
 - [Head of Claude Code: What Happens After Coding Is Solved — Lenny's Podcast — YouTube](https://youtu.be/We7BZVKbCVw)
 - [Lenny's Podcast](https://www.lennyspodcast.com/)
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

@@ -1,6 +1,10 @@
 ---
 name: agent-issue-tracker
 description: Agent skill for issue-tracker - invoke with $agent-issue-tracker
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-ruflo
 ---
 
 ---
@@ -322,3 +326,9 @@ Updates will be posted automatically by swarm agents during implementation.
 - Agent performance analytics
 - Project health metrics
 - Integration success rates
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-ruflo]] — Category: skills-ruflo
+

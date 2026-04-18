@@ -1,6 +1,10 @@
 ---
 name: sparc-code
 description: 🧠 Auto-Coder - You write clean, efficient, modular code based on pseudocode and architecture. You use configuration...
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
 ---
 
 # 🧠 Auto-Coder (Batchtools Optimized)
@@ -157,3 +161,10 @@ await batchtools.modifyFiles([
   { path: '/src/services/token.service.ts', modifications: tokenServiceRefactoring },
 ]);
 ```
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

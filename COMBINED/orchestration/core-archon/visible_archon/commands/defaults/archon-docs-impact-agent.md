@@ -1,6 +1,10 @@
 ---
 description: Check if PR changes require documentation updates (CLAUDE.md, docs/, agents)
 argument-hint: (none - reads from scope artifact)
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-archon
 ---
 
 # Documentation Impact Agent
@@ -258,3 +262,10 @@ Write to `$ARTIFACTS_DIR/review/docs-impact-findings.md`:
 - **IMPACT_ASSESSED**: Each doc rated for impact
 - **UPDATES_SPECIFIED**: Clear update suggestions
 - **STYLE_MATCHED**: Suggestions match existing doc style
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/archon]] — Archon
+- [[000 - Map of Maps]] — Map of Maps
+

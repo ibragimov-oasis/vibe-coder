@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-copilot
+---
+
 # Layout and Navigation
 
 ## Layout Components
@@ -171,3 +178,9 @@ All nav components inherit from `FluentNavBase` which provides: `Icon`, `IconCol
     </FluentTab>
 </FluentTabs>
 ```
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-copilot]] — Category: skills-copilot
+

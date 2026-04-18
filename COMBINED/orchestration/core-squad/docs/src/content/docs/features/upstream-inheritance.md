@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-squad
+---
+
 # Upstream Inheritance
 
 > ⚠️ **Experimental** — Squad is alpha software. APIs, commands, and behavior may change between releases.
@@ -408,3 +415,10 @@ squad upstream add https://github.com/acme/acme-unified-practices.git --name uni
 - **Set up**: Run `squad upstream add <source>` to add your first upstream
 - **Share:** Export your Squad config with `squad export-config` for others to inherit
 - **Iterate:** Update your upstream and run `squad upstream sync` to pull changes across all consuming projects
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/squad]] — Squad
+- [[000 - Map of Maps]] — Map of Maps
+

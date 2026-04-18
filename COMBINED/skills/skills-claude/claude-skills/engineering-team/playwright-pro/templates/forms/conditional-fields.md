@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # Conditional Fields Template
 
 Tests show/hide fields based on selection and correct validation of visible fields only.
@@ -118,3 +125,9 @@ test.describe('Conditional Fields', () => {
 | Skip hidden | Hidden field not validated |
 | Clear on hide | Value cleared when field hidden |
 | Radio trigger | Radio button controls field visibility |
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

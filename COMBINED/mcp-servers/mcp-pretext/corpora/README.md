@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/mcp
+  - artifact/mcp-server
+  - source/mcp-servers
+---
+
 # Corpora
 
 Starter long-form stress corpora for browser-layout experiments.
@@ -123,3 +130,9 @@ The corpus page is also available locally at `/corpus?id=<corpus-id>`.
 
 For very large corpora, `--samples=<n>` checks evenly spaced widths across the
 requested range instead of visiting every `step`.
+
+## 🔗 Связи
+
+- [[MOC - MCP Servers]] — mcp-servers
+- [[000 - Map of Maps]] — Map of Maps
+

@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # Dashboard Templates
 
 ## 1. Executive Dashboard Template
@@ -64,3 +71,9 @@ Adoption KPI examples:
 - Add threshold bands for risk detection.
 - Show metric definitions next to charts.
 - Include a short "what changed" narrative block.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

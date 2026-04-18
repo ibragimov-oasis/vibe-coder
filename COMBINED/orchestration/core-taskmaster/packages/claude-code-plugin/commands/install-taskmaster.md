@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-taskmaster
+---
+
 Check if Task Master is installed and install it if needed.
 
 This command helps you get Task Master set up globally on your system.
@@ -115,3 +122,10 @@ After installation:
 1. Run `/project:utils:check-health` to verify setup
 2. Configure AI providers with `/project:task-master:models`
 3. Start using Task Master commands!
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/task-master]] — Task-Master
+- [[000 - Map of Maps]] — Map of Maps
+

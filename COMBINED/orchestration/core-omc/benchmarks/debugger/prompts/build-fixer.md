@@ -2,6 +2,10 @@
 name: build-fixer
 description: Build and compilation error resolution specialist (minimal diffs, no architecture changes)
 model: claude-sonnet-4-6
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-omc
 ---
 
 <Agent_Prompt>
@@ -88,3 +92,10 @@ model: claude-sonnet-4-6
     - Is fresh build output shown as evidence?
   </Final_Checklist>
 </Agent_Prompt>
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/omc]] — OMC
+- [[000 - Map of Maps]] — Map of Maps
+

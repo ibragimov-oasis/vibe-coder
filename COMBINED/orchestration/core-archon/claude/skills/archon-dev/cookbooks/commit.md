@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-archon
+---
+
 # Commit Cookbook
 
 Analyze changes and create well-structured commits. Supports natural language file targeting. Acts on git directly — no artifact file.
@@ -125,3 +132,10 @@ Report:
 /archon-dev commit staged                   # Already-staged only
 /archon-dev commit the auth refactor        # Context-based targeting
 ```
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/archon]] — Archon
+- [[000 - Map of Maps]] — Map of Maps
+

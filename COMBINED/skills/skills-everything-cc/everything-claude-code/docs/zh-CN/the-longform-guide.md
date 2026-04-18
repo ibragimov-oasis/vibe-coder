@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
+---
+
 # 关于 Claude Code 的完整长篇指南
 
 ![Header: The Longform Guide to Everything Claude Code](../../assets/images/longform/01-header.png)
@@ -356,3 +363,9 @@ alias q='cd ~/Desktop/projects'
 ***
 
 *两份指南中涵盖的所有内容都可以在 GitHub 上的 [everything-claude-code](https://github.com/affaan-m/everything-claude-code) 找到*
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

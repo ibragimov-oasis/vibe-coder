@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-taskmaster
+---
+
 # Claude Code Provider Usage Example
 
 The Claude Code provider allows you to use Claude models through the Claude Code CLI without requiring an API key.
@@ -148,3 +155,10 @@ The Claude Code settings can be specified globally in the `claudeCode` section o
 - The Claude Code provider doesn't track usage costs (shown as 0 in telemetry)
 - Session management is handled automatically for conversation continuity
 - Some AI SDK parameters (temperature, maxTokens) are not supported by Claude Code CLI and will be ignored
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-taskmaster]] — core-taskmaster
+- [[MOC - Skills]] — Skills library
+

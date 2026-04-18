@@ -2,6 +2,10 @@
 description: "Kotlin security extending common rules"
 globs: ["**/*.kt", "**/*.kts", "**/build.gradle.kts"]
 alwaysApply: false
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
 ---
 # Kotlin Security
 
@@ -56,3 +60,9 @@ install(Authentication) {
 ## Null Safety as Security
 
 Kotlin's type system prevents null-related vulnerabilities -- avoid `!!` to maintain this guarantee.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

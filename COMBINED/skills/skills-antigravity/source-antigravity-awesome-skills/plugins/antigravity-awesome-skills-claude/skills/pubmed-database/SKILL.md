@@ -6,6 +6,10 @@ metadata:
     skill-author: K-Dense Inc.
 risk: unknown
 source: community
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 # PubMed Database
@@ -457,4 +461,9 @@ Load reference files into context as needed based on the specific task. For brie
 - **NLM Help Desk**: 1-888-FIND-NLM (1-888-346-3656)
 - **Technical Support**: vog.hin.mln.ibcn@seitilitue
 - **Mailing List**: utilities-announce@ncbi.nlm.nih.gov
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
 

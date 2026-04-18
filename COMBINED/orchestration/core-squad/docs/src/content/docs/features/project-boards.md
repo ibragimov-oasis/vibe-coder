@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-squad
+---
+
 # Project Boards
 
 > ⚠️ **Experimental** — Squad is alpha software. APIs, commands, and behavior may change between releases.
@@ -155,3 +162,10 @@ Creates a custom field on the project board and maps it to `priority:*` labels.
 Show me the board status — how many issues in each column?
 ```
 Queries the project board and displays issue count per column (Backlog, Ready, In Progress, Done).
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/squad]] — Squad
+- [[000 - Map of Maps]] — Map of Maps
+

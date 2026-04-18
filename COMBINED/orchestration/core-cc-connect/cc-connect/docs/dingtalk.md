@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-cc-connect
+---
+
 # 钉钉 (DingTalk) 接入指南
 
 本文档介绍如何将 **cc-connect** 接入钉钉，让你可以通过钉钉机器人远程调用 Claude Code。
@@ -303,3 +310,10 @@ cc-connect 内置了自动重连机制，断开后会自动尝试重新连接。
 - [接入 Slack](./slack.md)
 - [接入 Discord](./discord.md)
 - [返回首页](../README.md)
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-cc-connect]] — core-cc-connect
+- [[MOC - Skills]] — Skills library
+

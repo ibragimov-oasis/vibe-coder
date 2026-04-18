@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/doc
+  - source/skills-deer-flow
+---
+
 # Conversation Guide
 
 Detailed strategies for each onboarding phase. Read this before your first response.
@@ -80,3 +87,9 @@ Don't ask all of these. Pick based on what's still missing from the extraction t
 - "I don't know" → offer 2–3 concrete options to choose from.
 
 **Graceful skipping.** If the user says "I don't care about that" or gives a minimal answer to a non-required field, move on without pressure.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-deer-flow]] — Category: skills-deer-flow
+

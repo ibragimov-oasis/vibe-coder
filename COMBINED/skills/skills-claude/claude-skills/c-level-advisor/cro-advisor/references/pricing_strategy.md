@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # Pricing Strategy
 
 Pricing is not a one-time decision. It's an ongoing hypothesis about value and willingness to pay. Most SaaS companies are underpriced by 20-40%.
@@ -415,3 +422,9 @@ Output: Competitive pricing matrix
 - Don't over-explain the justification (confident framing wins)
 - Don't let sales reps negotiate discounts back to old pricing "just this once"
 - Don't raise prices and remove features simultaneously
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

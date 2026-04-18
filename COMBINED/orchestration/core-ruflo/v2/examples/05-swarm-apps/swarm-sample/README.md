@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # Notes CLI
 
 A powerful command-line note-taking application created by the Claude Flow Swarm system.
@@ -185,3 +192,9 @@ Special thanks to the Claude Flow Swarm system and all participating agents:
 **Created with Claude Flow Swarm v1.0.49**
 
 *Strategy: Development | Mode: Parallel | Quality: 0.9*
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-ruflo]] — core-ruflo
+

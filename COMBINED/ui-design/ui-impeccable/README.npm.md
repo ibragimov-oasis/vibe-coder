@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/ui
+  - artifact/ui-component
+  - source/ui-design
+---
+
 # Impeccable CLI
 
 Detect UI anti-patterns and design quality issues from the command line. Scans HTML, CSS, JSX, TSX, Vue, and Svelte files for 25 specific patterns including AI-generated UI tells, accessibility violations, and general design quality problems.
@@ -74,3 +81,9 @@ This CLI is part of [Impeccable](https://impeccable.style), a cross-provider des
 ## License
 
 [Apache 2.0](https://github.com/pbakaus/impeccable/blob/main/LICENSE)
+
+## 🔗 Связи
+
+- [[MOC - UI Design]] — ui-design
+- [[000 - Map of Maps]] — Map of Maps
+

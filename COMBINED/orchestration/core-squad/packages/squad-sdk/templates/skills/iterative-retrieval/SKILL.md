@@ -4,6 +4,10 @@ description: "Max-3-cycle protocol for agent sub-tasks with WHY context and coor
 domain: "agent-coordination"
 confidence: "high"
 license: MIT
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-squad
 ---
 
 # Iterative Retrieval Skill
@@ -163,3 +167,10 @@ If uncertain about content, stop and surface to coordinator.
 ```
 Update the coordinator charter with the iterative retrieval stuff.
 ```
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/squad]] — Squad
+- [[000 - Map of Maps]] — Map of Maps
+

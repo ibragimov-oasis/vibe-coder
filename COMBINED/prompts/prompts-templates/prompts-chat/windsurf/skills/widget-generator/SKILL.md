@@ -1,6 +1,10 @@
 ---
 name: widget-generator
 description: Generate customizable widget plugins for the prompts.chat feed system
+tags:
+  - domain/prompts
+  - artifact/prompt
+  - source/prompts-templates
 ---
 
 # Widget Generator Skill
@@ -390,3 +394,9 @@ interface WidgetPlugin {
 | TypeScript errors | Ensure imports from `./types`, check sponsor object shape |
 | Styling issues | Use Tailwind classes, match existing widget patterns |
 | Position wrong | Remember positions are 0-indexed, check `repeatEvery` value |
+
+## 🔗 Связи
+
+- [[MOC - Prompts]] — Prompt library
+- [[MOC - System]] — System documentation
+

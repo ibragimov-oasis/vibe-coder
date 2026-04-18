@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/new_repos
+---
+
 # Search v3: Chunk-Based Retrieval (Current Implementation)
 
 This document reflects the runtime behavior in the current codebase.
@@ -357,3 +364,8 @@ interface ExpandedQuery {
 - Semantic fusion is implemented and active via `MergedSemanticRetriever` when enabled; it is not design-only.
 - `FilterRetriever` is a standalone class at `src/search/v3/FilterRetriever.ts`, not a LangChain `BaseRetriever` subclass.
 - `mergeFilterAndSearchResults` in `src/search/v3/mergeResults.ts` handles the dedup logic between filter and search results.
+
+## 🔗 Связи
+
+- [[000 - Map of Maps]] — Map of Maps
+

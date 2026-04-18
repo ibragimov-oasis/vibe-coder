@@ -1,6 +1,10 @@
 ---
 title: "Dependency Auditor — Agent Skill for Codex & OpenClaw"
 description: "Dependency Auditor. Agent skill for Claude Code, Codex CLI, Gemini CLI, OpenClaw."
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
 ---
 
 # Dependency Auditor
@@ -347,3 +351,9 @@ For detailed usage instructions, see [README.md](https://github.com/alirezarezva
 ---
 
 *This skill provides comprehensive dependency management capabilities essential for maintaining secure, compliant, and efficient software projects. Regular use helps teams stay ahead of security threats, maintain legal compliance, and optimize their dependency ecosystems.*
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

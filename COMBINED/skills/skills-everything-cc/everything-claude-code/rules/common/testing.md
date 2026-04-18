@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
+---
+
 # Testing Requirements
 
 ## Minimum Test Coverage: 80%
@@ -27,3 +34,9 @@ MANDATORY workflow:
 ## Agent Support
 
 - **tdd-guide** - Use PROACTIVELY for new features, enforces write-tests-first
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

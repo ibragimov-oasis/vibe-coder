@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/memory
+  - artifact/memory
+  - source/memory
+---
+
 # Logger Coverage Test Failures Report
 
 **Date**: 2026-01-04
@@ -257,3 +264,9 @@ The test detects this pattern:
 ```typescript
 /import\s+.*logger.*from\s+['"].*logger(\.(js|ts))?['"]/
 ```
+
+## 🔗 Связи
+
+- [[MOC - Memory]] — memory
+- [[000 - Map of Maps]] — Map of Maps
+

@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-omc
+---
+
 # 개발자 API 레퍼런스
 
 > oh-my-claudecode 개발자 및 기여자를 위한 내부 API 문서입니다.
@@ -580,3 +587,10 @@ if (validationStatus?.allApproved) {
 - [ARCHITECTURE.md](./ARCHITECTURE.md) - 시스템 아키텍처
 - [MIGRATION.md](./MIGRATION.md) - 마이그레이션 가이드
 - [에이전트 정의](../../src/agents/definitions.ts) - 에이전트 설정
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-omc]] — core-omc
+- [[MOC - Skills]] — Skills library
+

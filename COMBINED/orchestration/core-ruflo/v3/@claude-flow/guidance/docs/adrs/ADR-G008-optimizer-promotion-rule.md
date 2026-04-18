@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # ADR-G008: Optimizer Promotion Rule -- "Win Twice to Promote" for Rule Evolution
 
 ## Status
@@ -178,3 +185,10 @@ Require three consecutive wins. Considered but rejected as too slow. At a weekly
 - `v3/@claude-flow/guidance/src/index.ts` -- `GuidanceControlPlane.optimize()`
 - ADR-G002 -- Constitution/shard split that promotions modify
 - ADR-G005 -- Proof envelopes that record the evidence for promotion decisions
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

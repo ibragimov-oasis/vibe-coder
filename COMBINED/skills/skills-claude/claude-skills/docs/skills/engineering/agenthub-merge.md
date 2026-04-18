@@ -1,6 +1,10 @@
 ---
 title: "/hub:merge — Merge Winner — Agent Skill for Codex & OpenClaw"
 description: "Merge the winning agent's branch into base, archive losers, and clean up worktrees. Agent skill for Claude Code, Codex CLI, Gemini CLI, OpenClaw."
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
 ---
 
 # /hub:merge — Merge Winner
@@ -102,3 +106,9 @@ Tell the user:
 - Losers archived with tags `hub/archive/{session-id}/agent-{N}`
 - Worktrees cleaned up
 - Session state: `merged`
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

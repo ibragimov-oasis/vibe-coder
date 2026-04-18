@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-praisonai
+---
+
 # Gemini Embedding Support in PraisonAI
 
 This document describes how to use Google's Gemini embedding models with PraisonAI's memory system.
@@ -163,3 +170,10 @@ memory_config = {
 - [Gemini API Documentation](https://ai.google.dev/gemini-api/docs/embeddings)
 - [LiteLLM Embedding Models](https://docs.litellm.ai/docs/embedding/supported_embedding)
 - Example: `/examples/python/memory/gemini-embedding-example.py`
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/praisonai]] — PraisonAI
+- [[000 - Map of Maps]] — Map of Maps
+

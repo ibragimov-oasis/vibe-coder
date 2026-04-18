@@ -2,6 +2,10 @@
 name: swift-protocol-di-testing
 description: 基于协议的依赖注入，用于可测试的Swift代码——使用聚焦协议和Swift Testing模拟文件系统、网络和外部API。
 origin: ECC
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-everything-cc
 ---
 
 # 基于协议的 Swift 依赖注入测试
@@ -188,3 +192,9 @@ func testReadError() async {
 * 测试在真实环境中难以触发的错误处理路径时
 * 构建需要在应用、测试和 SwiftUI 预览上下文中工作的模块时
 * 需要使用可测试架构的、采用 Swift 并发（actor、结构化并发）的应用
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # Architecture Documentation - GitHub Workflows Optimization
 
 **Comprehensive documentation for optimizing claude-code-flow GitHub Actions workflows**
@@ -553,3 +560,9 @@ This documentation is part of the claude-code-flow project and is licensed under
 **Start Here:** Read `github-workflows-optimization-strategy.md` for the full strategy.
 **Then:** Follow `workflow-optimization-implementation-guide.md` for implementation.
 **Reference:** Use `workflow-architecture-diagram.md` for visual understanding.
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-ruflo]] — core-ruflo
+

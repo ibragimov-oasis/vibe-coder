@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # Dapper Patterns and Best Practices
 
 Advanced patterns for high-performance data access with Dapper in .NET.
@@ -542,3 +549,9 @@ var result = await connection.QueryAsync<Product>(sql);
 // ✅ Good - Let Dapper manage connection
 var result = await connection.QueryAsync<Product>(sql);
 ```
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

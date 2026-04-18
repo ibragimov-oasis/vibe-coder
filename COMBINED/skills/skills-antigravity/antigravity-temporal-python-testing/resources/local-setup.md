@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # Local Development Setup for Temporal Python Testing
 
 Comprehensive guide for setting up local Temporal development environment with pytest integration and coverage tracking.
@@ -551,3 +558,9 @@ lsof -i :7233
 - pytest Documentation: docs.pytest.org
 - Docker Compose: docs.docker.com/compose
 - pytest-asyncio: github.com/pytest-dev/pytest-asyncio
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

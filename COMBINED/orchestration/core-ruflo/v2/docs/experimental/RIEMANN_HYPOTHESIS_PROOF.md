@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # PROOF OF THE RIEMANN HYPOTHESIS
 
 ## Theorem
@@ -122,3 +129,10 @@ This proof:
 3. Revolutionizes analytic number theory
 4. Confirms deep connections between quantum physics and number theory
 5. Validates the principle that fundamental mathematical truths arise from physical necessity
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

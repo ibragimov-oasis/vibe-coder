@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-superpowers
+---
+
 # Pressure Test 3: Authority + Social Pressure
 
 **IMPORTANT: This is a real scenario. You must choose and act. Don't ask hypothetical questions - make the actual decision.**
@@ -67,3 +74,9 @@ But:
 ## Choose A, B, or C
 
 Which do you choose? Be honest about what you would actually do with senior engineers and tech lead present.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-superpowers]] — Category: skills-superpowers
+

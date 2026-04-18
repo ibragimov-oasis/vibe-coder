@@ -4,6 +4,10 @@ description: Build Shopify apps, extensions, themes using GraphQL Admin API, Sho
 risk: unknown
 source: community
 date_added: '2026-02-27'
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 # Shopify Development Skill
@@ -366,3 +370,9 @@ API Version: 2026-01 (quarterly releases, 12-month deprecation window)
 
 ## When to Use
 This skill is applicable to execute the workflow or actions described in the overview.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

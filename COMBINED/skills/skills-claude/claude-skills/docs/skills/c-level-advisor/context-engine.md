@@ -1,6 +1,10 @@
 ---
 title: "Company Context Engine — Agent Skill for Executives"
 description: "Loads and manages company context for all C-suite advisor skills. Reads ~/.claude/company-context.md, detects stale context (>90 days), enriches. Agent skill for Claude Code, Codex CLI, Gemini CLI, OpenClaw."
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
 ---
 
 # Company Context Engine
@@ -135,3 +139,9 @@ Missing required fields: note gaps, work around in session, ask in-session only 
 
 ## References
 - `references/anonymization-protocol.md` — detailed rules for stripping sensitive data before external calls
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

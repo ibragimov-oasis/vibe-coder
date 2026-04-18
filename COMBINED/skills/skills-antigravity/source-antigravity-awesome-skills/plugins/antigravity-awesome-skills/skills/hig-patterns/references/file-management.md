@@ -128,8 +128,17 @@ For example, you can use a Finder Sync extension to:
 
 ## [Change log](https://developer.apple.com/design/human-interface-guidelines/file-management#Change-log)
 
-Date| Changes  
+Date| Changes
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
 ---|---  
 June 10, 2024| Added guidelines for using the document launcher in iOS and iPadOS.  
-June 21, 2023| Updated to include guidance for visionOS.  
-  
+June 21, 2023| Updated to include guidance for visionOS.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

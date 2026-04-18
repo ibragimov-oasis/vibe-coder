@@ -1,6 +1,10 @@
 ---
 name: react-native-app
 description: React Native mobile app template principles. Expo, TypeScript, navigation.
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
 ---
 
 # React Native App Template
@@ -91,3 +95,9 @@ project-name/
 - NativeWind for consistent styling
 - Expo SecureStore for tokens
 - Test on both iOS and Android
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

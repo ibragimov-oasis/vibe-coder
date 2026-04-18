@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # GTM Patterns for SaaS
 
 Common Google Tag Manager configurations for SaaS applications.
@@ -296,3 +303,9 @@ Share staging GTM snippet with your dev team so they test against the same conta
 | Enhanced Measurement conflicts with custom tags | Duplicate outbound click events | Disable conflicting Enhanced Measurement settings |
 | Trigger fires before DOM ready | Element not found errors | Change trigger type from "Page View" to "DOM Ready" or "Window Loaded" |
 | Form trigger doesn't fire | Form uses AJAX or custom submit | Switch to dataLayer push after submit callback |
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

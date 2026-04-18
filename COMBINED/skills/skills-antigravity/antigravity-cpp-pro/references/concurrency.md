@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # Concurrency and Parallel Programming
 
 ## Atomics and Memory Ordering
@@ -435,3 +442,9 @@ AsyncTask<int> async_compute() {
 | release | Store barrier | Producer |
 | acq_rel | Both | RMW operations |
 | seq_cst | Total order | Default |
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

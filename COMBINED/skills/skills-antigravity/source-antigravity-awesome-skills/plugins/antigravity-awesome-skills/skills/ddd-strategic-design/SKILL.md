@@ -5,6 +5,9 @@ risk: safe
 source: self
 tags: "[ddd, strategic-design, bounded-context, ubiquitous-language]"
 date_added: "2026-02-27"
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 # DDD Strategic Design
@@ -50,3 +53,9 @@ classify subdomains, and propose team ownership.
 - This skill does not produce executable code.
 - It cannot infer business truth without stakeholder input.
 - It should be followed by tactical design before implementation.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

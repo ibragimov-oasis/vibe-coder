@@ -3,6 +3,10 @@ name: security-reviewer
 description: セキュリティ脆弱性検出および修復のスペシャリスト。ユーザー入力、認証、APIエンドポイント、機密データを扱うコードを書いた後に積極的に使用してください。シークレット、SSRF、インジェクション、安全でない暗号、OWASP Top 10の脆弱性を検出します。
 tools: ["Read", "Write", "Edit", "Bash", "Grep", "Glob"]
 model: opus
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
 ---
 
 # セキュリティレビューアー
@@ -543,3 +547,9 @@ npm install --save-dev audit-ci
 ---
 
 **覚えておくこと**: セキュリティはオプションではありません。特に実際のお金を扱うプラットフォームでは。1つの脆弱性がユーザーに実際の金銭的損失をもたらす可能性があります。徹底的に、疑い深く、積極的に行動してください。
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

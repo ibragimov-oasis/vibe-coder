@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-praisonai
+---
+
 # PraisonAI Testing Guide
 
 This guide explains the complete testing structure for PraisonAI, including both mock and real tests.
@@ -183,4 +190,11 @@ export PRAISONAI_RUN_FULL_TESTS=true
 | **Framework Integration** | `python tests/test_runner.py --pattern frameworks` | Free | Medium | Mock |
 | **Real Setup Validation** | `python tests/test_runner.py --pattern real-autogen` | Low | Medium | Setup Only |
 | **Full Execution** | `python tests/test_runner.py --pattern full-autogen` | High | Slow | Complete Logs |
-| **Production Validation** | `python tests/test_runner.py --pattern full-frameworks` | High | Slow | Complete Logs | 
+| **Production Validation** | `python tests/test_runner.py --pattern full-frameworks` | High | Slow | Complete Logs |
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/praisonai]] — PraisonAI
+- [[000 - Map of Maps]] — Map of Maps
+

@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/ui
+  - artifact/ui-component
+  - source/ui-design
+---
+
 # Astro + React + TypeScript + shadcn/ui
 
 This is a template for a new Astro project with React, TypeScript, and shadcn/ui.
@@ -34,3 +41,9 @@ import { Button } from "@/components/ui/button"
   </body>
 </html>
 ```
+
+## 🔗 Связи
+
+- [[MOC - UI Design]] — ui-design
+- [[000 - Map of Maps]] — Map of Maps
+

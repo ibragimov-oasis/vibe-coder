@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-squad
+---
+
 # Skill Discovery — Test Script
 
 Manual verification steps for the skill-discovery sample.
@@ -70,3 +77,10 @@ console.log(skills); // Should be []
 
 **Expected:**
 - [ ] Returns empty array, no error thrown
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/squad]] — Squad
+- [[000 - Map of Maps]] — Map of Maps
+

@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # 发布流程
 
 这是维护者的仓库发布操作手册。历史发布记录在[`CHANGELOG.md`](../../CHANGELOG.md)中；本文档记录可重复的流程。
@@ -430,3 +437,9 @@ jobs:
 这个发布流程确保Antigravity Awesome Skills的质量、稳定性和社区满意度。通过遵循这些指导方针，我们能够为用户提供可靠、高质量的技能生态。
 
 如果您有任何问题或建议，请随时联系维护团队。🚀
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

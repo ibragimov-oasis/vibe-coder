@@ -1,6 +1,10 @@
 ---
 name: openapi-to-application-code
 description: 'Generate a complete, production-ready application from an OpenAPI specification'
+tags:
+  - domain/agents
+  - artifact/skill
+  - source/skills-copilot
 ---
 
 # Generate Application from OpenAPI Spec
@@ -110,3 +114,10 @@ After generation:
 - Do you need integration tests or just unit tests?
 - Any specific database technology preferences?
 - Should the API include pagination, filtering, and sorting examples?
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-copilot]] — Category: skills-copilot
+- [[MOC - Agents]] — Copilot agents
+

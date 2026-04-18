@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/ui
+  - artifact/doc
+  - source/skills-design
+---
+
 # Focus handling and field chaining
 
 ## Intent
@@ -88,3 +95,9 @@ struct PollView: View {
 
 - Don’t store focus state in shared objects; it is view-local.
 - Avoid aggressive focus changes during animation; delay if needed.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-design]] — Category: skills-design
+

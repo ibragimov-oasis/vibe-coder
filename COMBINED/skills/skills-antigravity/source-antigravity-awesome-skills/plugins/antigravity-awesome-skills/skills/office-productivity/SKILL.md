@@ -5,6 +5,10 @@ category: workflow-bundle
 risk: safe
 source: personal
 date_added: "2026-02-27"
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 # Office Productivity Workflow Bundle
@@ -216,3 +220,9 @@ Formats: Google Docs, Sheets, Slides
 - `development` - Application development
 - `documentation` - Documentation generation
 - `database` - Data integration
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

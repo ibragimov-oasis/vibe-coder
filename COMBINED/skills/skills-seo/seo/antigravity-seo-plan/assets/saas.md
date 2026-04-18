@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/seo
+  - artifact/doc
+  - source/skills-seo
+---
+
 <!-- Updated: 2026-02-07 -->
 # SaaS SEO Strategy Template
 
@@ -133,3 +140,9 @@ Comparison pages are among the highest-converting content types for SaaS, with c
 - [ ] Ensure integration pages have clear, quotable descriptions
 - [ ] Structure pricing information in tables AI can extract
 - [ ] Monitor AI citation across Google AI Overviews, ChatGPT, and Perplexity
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-seo]] — Category: skills-seo
+

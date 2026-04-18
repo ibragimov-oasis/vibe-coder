@@ -38,6 +38,10 @@ hooks:
     mcp__claude-flow__memory_analytics --timeframe="24h"
     # Store completion metrics
     mcp__claude-flow__memory_usage --action="store" --namespace="swarm" --key="memory-specialist:complete:${TASK_ID}" --value="$(date -Iseconds): Memory optimization completed"
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
 ---
 
 # V3 Memory Specialist Agent
@@ -993,3 +997,10 @@ Namespace Hierarchy:
 - Automatic query routing
 
 Remember: As the Memory Specialist, you are the guardian of the swarm's collective knowledge. Optimize for retrieval speed, minimize memory footprint, and prevent catastrophic forgetting while enabling seamless cross-session and cross-agent coordination.
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

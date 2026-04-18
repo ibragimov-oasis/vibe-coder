@@ -60,7 +60,11 @@ System family widgets offer a broad range of sizes and may include one or more i
 
 The following table shows supported contexts for each system family widget size:
 
-Widget size| iPhone| iPad| Mac| Apple Vision Pro  
+Widget size| iPhone| iPad| Mac| Apple Vision Pro
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
 ---|---|---|---|---  
 System small| Home Screen, Today View, StandBy, and CarPlay| Home Screen, Today View, and Lock Screen| Desktop and Notification Center| Horizontal and vertical surfaces  
 System medium| Home Screen and Today View| Home Screen and Today View| Desktop and Notification Center| Horizontal and vertical surfaces  
@@ -513,5 +517,10 @@ December 16, 2025| Updated guidance for all platforms, and added guidance for vi
 January 17, 2025| Corrected watchOS widget dimensions.  
 June 10, 2024| Updated to include guidance for accented widgets in iOS 18 and iPadOS 18.  
 June 5, 2023| Updated guidance to include widgets in watchOS, widgets on the iPad Lock Screen, and updates for iOS 17, iPadOS 17, and macOS 14.  
-November 3, 2022| Added guidance for widgets on the iPhone Lock Screen and updated design comprehensives for iPhone 14, iPhone 14 Pro, and iPhone 14 Pro Max.  
-  
+November 3, 2022| Added guidance for widgets on the iPhone Lock Screen and updated design comprehensives for iPhone 14, iPhone 14 Pro, and iPhone 14 Pro Max.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

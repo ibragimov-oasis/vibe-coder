@@ -7,6 +7,10 @@ audience: [developer]
 status: current
 sidebar:
   order: 2
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-archon
 ---
 
 Technical reference for understanding CLI internals.
@@ -390,3 +394,10 @@ Worktrees stored at: `~/.archon/workspaces/<owner>/<repo>/worktrees/<branch-slug
 - **Optional: PostgreSQL** when `DATABASE_URL` is set (for cloud/advanced deployments)
 
 **Code:** `packages/cli/src/cli.ts`
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/archon]] — Archon
+- [[000 - Map of Maps]] — Map of Maps
+

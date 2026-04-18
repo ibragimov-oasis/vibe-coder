@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/config
+  - source/workspace-config
+---
+
 # Research Swarm Strategy
 
 ## Purpose
@@ -134,3 +141,9 @@ mcp__claude-flow__swarm_status({
   "swarmId": "research-swarm"
 })
 ```
+
+## 🔗 Связи
+
+- [[MOC - System]] — workspace-config
+- [[000 - Map of Maps]] — Map of Maps
+

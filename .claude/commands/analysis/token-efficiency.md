@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/command
+  - source/claude-commands
+---
+
 # Token Usage Optimization
 
 ## Purpose
@@ -43,3 +50,9 @@ Parameters: {"operation": "session", "timeframe": "24h"}
 - 🎯 More focused operations
 - 🔄 Intelligent result reuse
 - 📊 Cumulative improvements
+
+## 🔗 Связи
+
+- [[MOC - System]] — System commands
+- [[MOC - Skills]] — Skills library
+

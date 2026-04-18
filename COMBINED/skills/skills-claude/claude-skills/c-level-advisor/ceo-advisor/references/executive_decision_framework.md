@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # Executive Decision Framework
 
 ## Decision-Making Process
@@ -473,3 +480,9 @@ Low  │ Monitor  │  Keep    │
    - Growth trajectory
    - Risk reduction
    - Story telling
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

@@ -4,6 +4,10 @@ description: "Design spec with 98 rules for building CLI tools that AI agents ca
 risk: safe
 source: https://github.com/ChaosRealmsAI/agent-cli-spec
 date_added: "2026-03-15"
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 # Agent-Friendly CLI Spec v0.1
@@ -308,3 +312,9 @@ Implement by layer -- each phase gets you the next certification level.
 ## Additional Resources
 
 - [Agent CLI Spec Repository](https://github.com/ChaosRealmsAI/agent-cli-spec)
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

@@ -16,6 +16,9 @@ relatedArticles:
 prerequisites:
   - Basic understanding of GitHub Copilot chat
   - Familiarity with agents, skills, and instructions
+  - domain/agents
+  - artifact/agent
+  - source/by-interface/agents-copilot
 ---
 
 Custom agents are specialized assistants that give GitHub Copilot a focused persona, specific tool access, and domain expertise. Unlike instructions (which apply passively) or skills (which handle individual tasks), agents define a complete working style—they shape how Copilot thinks, what tools it reaches for, and how it communicates throughout an entire session.
@@ -301,3 +304,9 @@ A: Yes, when defining output format or coding patterns. Show what you expect the
 - **Add Reusable Tasks**: [Creating Effective Skills](../creating-effective-skills/) — Build tasks agents can discover and invoke
 
 ---
+
+## 🔗 Связи
+
+- [[MOC - Agents]] — Agent catalog
+- [[agents/agents-copilot]] — Interface: agents-copilot
+

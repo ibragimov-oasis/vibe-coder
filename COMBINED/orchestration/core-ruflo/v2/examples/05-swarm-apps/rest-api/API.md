@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # REST API Documentation
 
 ## Base URL
@@ -332,3 +339,10 @@ The API supports CORS for all origins in development. Configure appropriate orig
 
 ## Versioning
 The API uses URL versioning (currently v1). Future versions will be available at `/api/v2`, etc.
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-hermes
+---
+
 # OBLITERATUS Analysis Modules — Reference
 
 OBLITERATUS includes 28 analysis modules for mechanistic interpretability of refusal in LLMs.
@@ -164,3 +171,9 @@ obliteratus run analysis-study.yaml --preset quick
 ### Via YAML Config
 See the `templates/analysis-study.yaml` template for a complete example.
 Load with: `skill_view(name="obliteratus", file_path="templates/analysis-study.yaml")`
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-hermes]] — Category: skills-hermes
+

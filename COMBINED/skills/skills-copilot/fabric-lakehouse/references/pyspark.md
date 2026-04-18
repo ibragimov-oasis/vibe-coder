@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-copilot
+---
+
 ### Spark Configuration (Best Practices)
 
 ```python
@@ -187,3 +194,9 @@ spark.sql("""
     FROM staging_customer
 """)
 ```
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-copilot]] — Category: skills-copilot
+

@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # Revenue Forecast Report
 
 ## Report Header
@@ -175,3 +182,9 @@
 ---
 
 *Report generated using Financial Analyst Skill - Forecast Builder*
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

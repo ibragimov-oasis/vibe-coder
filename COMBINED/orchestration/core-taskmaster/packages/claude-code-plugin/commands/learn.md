@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-taskmaster
+---
+
 Learn about Task Master capabilities through interactive exploration.
 
 Arguments: $ARGUMENTS
@@ -101,3 +108,10 @@ Based on what you asked about, try:
 
 Want to learn more about a specific command?
 Type: /project:help <command-name>
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/task-master]] — Task-Master
+- [[000 - Map of Maps]] — Map of Maps
+

@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # Claude Model Catalog
 
 **Only use exact model IDs listed in this file.** Never guess or construct model IDs — incorrect IDs will cause API errors. Use aliases wherever available. For the latest information, WebFetch the Models Overview URL in `shared/live-sources.md`.
@@ -66,3 +73,9 @@ When a user asks for a model by name, use this table to find the correct model I
 | "haiku 4.5"                               | `claude-haiku-4-5`             |
 | "haiku 3.5"                               | Retired — suggest `claude-haiku-4-5` |
 | "haiku 3"                                 | Deprecated — suggest `claude-haiku-4-5` |
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

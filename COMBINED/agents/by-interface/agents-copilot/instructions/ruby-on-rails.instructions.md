@@ -1,6 +1,10 @@
 ---
 description: 'Ruby on Rails coding conventions and guidelines'
 applyTo: '**/*.rb'
+tags:
+  - domain/agents
+  - artifact/agent
+  - source/by-interface/agents-copilot
 ---
 
 # Ruby on Rails
@@ -122,3 +126,9 @@ applyTo: '**/*.rb'
 - Avoid brittle tests — don’t rely on specific timestamps, randomized data, or order unless explicitly necessary.
 - Write integration tests for end-to-end flows across multiple layers (model, view, controller).
 - Keep tests fast, reliable, and as DRY as production code.
+
+## 🔗 Связи
+
+- [[MOC - Agents]] — Agent catalog
+- [[agents/agents-copilot]] — Interface: agents-copilot
+

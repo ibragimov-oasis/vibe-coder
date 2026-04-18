@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # Built at 38,000 ft: A Governance Control Plane in One Flight
 
 **Route**: Toronto (YYZ) → Bangalore (BLR)
@@ -235,3 +242,10 @@ npx ts-node -e "
 - **npm**: [claude-flow](https://www.npmjs.com/package/claude-flow)
 - **npm**: [ruvbot](https://www.npmjs.com/package/ruvbot)
 - **ruv.io**: [ruv.io](https://ruv.io)
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

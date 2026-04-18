@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-gsd
+---
+
 <purpose>
 Execute a phase plan (PLAN.md) and create the outcome summary (SUMMARY.md).
 Headless SDK variant — runs autonomously without interactive checkpoints or user prompts.
@@ -104,3 +111,10 @@ Create SUMMARY.md with:
 - SUMMARY.md created with substantive content
 - Deviations tracked and documented
 </success_criteria>
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/gsd]] — GSD
+- [[000 - Map of Maps]] — Map of Maps
+

@@ -3,6 +3,9 @@ name: audio
 description: Using audio and sound in Remotion - importing, trimming, volume, speed, pitch
 metadata:
   tags: audio, media, trim, volume, speed, loop, pitch, mute, sound, sfx
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
 ---
 
 # Using audio in Remotion
@@ -170,3 +173,9 @@ Use `toneFrequency` to adjust the pitch without affecting speed. Values range fr
 ```
 
 Pitch shifting only works during server-side rendering, not in the Remotion Studio preview or in the `<Player />`.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

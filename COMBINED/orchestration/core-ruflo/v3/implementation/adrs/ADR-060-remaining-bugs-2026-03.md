@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # ADR-060: Remaining Bug & Wiring Fixes — March 2026
 
 **Status:** Accepted — Sprint 1+2 Verified
@@ -271,3 +278,10 @@ Fixes delivered in PR #1300, merged to `main` on 2026-03-05.
 - ~~Sprint 2 remaining fixes (#1282, #1283, #1291) should ship as **v3.6.0**.~~ ✅ Shipped as v3.5.5 (branding), v3.5.6 (platform+settings), v3.5.7 (stdin timeout).
 - Sprint 3 fixes should ship as **v3.7.0** (minor — neural features). 4 items remain: #1243, #1227, #1217, #1279.
 - ~~The 4 rollback incident stubs (#1238, #1262, #1267, #1268) should be closed immediately as housekeeping.~~ ✅ Closed.
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

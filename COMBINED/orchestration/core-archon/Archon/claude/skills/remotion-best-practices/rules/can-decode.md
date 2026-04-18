@@ -3,6 +3,9 @@ name: can-decode
 description: Check if a video can be decoded by the browser using Mediabunny
 metadata:
   tags: decode, validation, video, audio, compatibility, browser
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-archon
 ---
 
 # Checking if a video can be decoded
@@ -73,3 +76,10 @@ export const canDecodeBlob = async (blob: Blob) => {
   // Same validation logic as above
 };
 ```
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/archon]] — Archon
+- [[000 - Map of Maps]] — Map of Maps
+

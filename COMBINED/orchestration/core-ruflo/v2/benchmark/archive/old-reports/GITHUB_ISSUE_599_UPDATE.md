@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # GitHub Issue #599 - Python Code Reorganization: COMPLETED ✅
 
 ## Issue Status: **RESOLVED**
@@ -164,3 +171,10 @@ The Python code reorganization task has been completed successfully with:
 **Next Phase**: Ready for development team handoff
 
 *All Python code reorganization objectives have been achieved with zero functionality loss and maximum maintainability improvement.*
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

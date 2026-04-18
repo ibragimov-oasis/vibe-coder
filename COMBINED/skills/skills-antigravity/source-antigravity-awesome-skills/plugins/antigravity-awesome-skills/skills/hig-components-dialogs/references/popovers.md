@@ -1,4 +1,11 @@
 ---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
+---
 title: "Popovers | Apple Developer Documentation"
 source: https://developer.apple.com/design/human-interface-guidelines/popovers
 
@@ -78,4 +85,9 @@ You can make a popover detachable in macOS, which becomes a separate panel when 
 [`UIPopoverPresentationController`](https://developer.apple.com/documentation/UIKit/UIPopoverPresentationController) — UIKit
 
 [`NSPopover`](https://developer.apple.com/documentation/AppKit/NSPopover) — AppKit
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
 

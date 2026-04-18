@@ -2,6 +2,10 @@
 sidebar_position: 3
 title: "Persistent Memory"
 description: "How Hermes Agent remembers across sessions — MEMORY.md, USER.md, and session search"
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-hermes
 ---
 
 # Persistent Memory
@@ -216,3 +220,10 @@ hermes honcho setup
 ```
 
 See the [Honcho Memory](./honcho.md) docs for full configuration, tools, and CLI reference.
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/hermes]] — Hermes
+- [[000 - Map of Maps]] — Map of Maps
+

@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
+---
+
 # Terminoloji Tablosu (Terminology Glossary)
 
 Bu doküman Türkçe çevirilerin terminoloji karşılıklarını kayıt altına alarak çeviri tutarlılığını sağlar.
@@ -182,3 +189,9 @@ Türkçe konuşurken yaygın kullanılan telaffuzlar:
 ## Güncelleme Geçmişi
 
 - 2026-03-22: İlk sürüm oluşturuldu, tüm çeviri dosyalarında kullanılan terimler derlendi
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

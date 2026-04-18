@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-awesome-claude
+---
+
 # TOC Anchor Generation
 
 ## GitHub Anchor Generation Rules
@@ -155,3 +162,9 @@ def generate_toc_anchor(
 ```
 
 **Trade-off**: If a style changes its heading format (e.g., CLASSIC removes 🔝), only the flag value changes—not the shared logic.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-awesome-claude]] — Category: skills-awesome-claude
+

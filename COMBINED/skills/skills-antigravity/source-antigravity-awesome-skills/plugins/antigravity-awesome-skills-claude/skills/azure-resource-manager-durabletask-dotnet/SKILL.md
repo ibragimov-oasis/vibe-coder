@@ -4,6 +4,10 @@ description: Azure Resource Manager SDK for Durable Task Scheduler in .NET.
 risk: unknown
 source: community
 date_added: '2026-02-27'
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 # Azure.ResourceManager.DurableTask (.NET)
@@ -379,3 +383,9 @@ await scheduler.DeleteAsync(WaitUntil.Completed);
 
 ## When to Use
 This skill is applicable to execute the workflow or actions described in the overview.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

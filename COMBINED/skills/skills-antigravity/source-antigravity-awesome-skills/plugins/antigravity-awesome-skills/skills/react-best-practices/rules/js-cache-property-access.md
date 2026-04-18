@@ -3,6 +3,9 @@ title: Cache Property Access in Loops
 impact: LOW-MEDIUM
 impactDescription: reduces lookups
 tags: javascript, loops, optimization, caching
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
 ---
 
 ## Cache Property Access in Loops
@@ -26,3 +29,9 @@ for (let i = 0; i < len; i++) {
   process(value)
 }
 ```
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

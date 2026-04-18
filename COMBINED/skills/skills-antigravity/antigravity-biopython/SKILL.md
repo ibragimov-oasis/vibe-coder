@@ -6,6 +6,10 @@ metadata:
     skill-author: K-Dense Inc.
 risk: unknown
 source: "https://github.com/biopython/biopython"
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 # Biopython: Computational Molecular Biology in Python
@@ -440,3 +444,9 @@ Biopython provides comprehensive tools for computational molecular biology. When
 5. **Follow best practices** for file handling, error checking, and data management
 
 The modular reference documentation ensures detailed, searchable information for every major Biopython capability.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

@@ -4,6 +4,10 @@ type: docs
 weight: 1
 description: >
   A "firestore-get-rules" tool retrieves the active Firestore security rules for the current project.
+tags:
+  - domain/mcp
+  - artifact/mcp-server
+  - source/mcp-servers
 ---
 
 ## About
@@ -36,3 +40,9 @@ description: Use this tool to retrieve the active Firestore security rules.
 | type        |     string    |     true     | Must be "firestore-get-rules".                        |
 | source      |     string    |     true     | Name of the Firestore source to retrieve rules from.  |
 | description |     string    |     true     | Description of the tool that is passed to the LLM.    |
+
+## 🔗 Связи
+
+- [[MOC - MCP Servers]] — mcp-servers
+- [[000 - Map of Maps]] — Map of Maps
+

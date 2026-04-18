@@ -1,6 +1,10 @@
 ---
 name: agent-v3-security-architect
 description: Agent skill for v3-security-architect - invoke with $agent-v3-security-architect
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-ruflo
 ---
 
 ---
@@ -177,3 +181,9 @@ execFile('git', [userInput], { shell: false });
 - **Test Coverage**: >95% for security-critical code
 - **Documentation**: Complete security architecture docs
 - **Timeline**: All deliverables within Phase 1
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-ruflo]] — Category: skills-ruflo
+

@@ -4,6 +4,10 @@ type: docs
 weight: 3
 description: >
   A "clickhouse-list-databases" tool lists all databases in a ClickHouse instance.
+tags:
+  - domain/mcp
+  - artifact/mcp-server
+  - source/mcp-servers
 ---
 
 ## About
@@ -56,3 +60,9 @@ Example response:
 | description  |       string       |     true     | Description of the tool that is passed to the LLM.    |
 | authRequired |  array of string   |    false     | Authentication services required to use this tool.    |
 | parameters   | array of Parameter |    false     | Parameters for the tool (typically not used).         |
+
+## 🔗 Связи
+
+- [[MOC - MCP Servers]] — mcp-servers
+- [[000 - Map of Maps]] — Map of Maps
+

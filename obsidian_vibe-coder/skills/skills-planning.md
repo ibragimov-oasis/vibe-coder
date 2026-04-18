@@ -50,3 +50,9 @@ source: "../COMBINED/skills/skills-planning/"
 
 - [[skills/skills-claude-karpathy]] — Think Before Coding принцип
 - [[orchestration/core-taskmaster]] — Task Master MCP
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Parent MOC
+- [[000 - Map of Maps]] — Map of Maps
+

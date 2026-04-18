@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-gsd
+---
+
 <purpose>
 Autonomous repair operator for failed task verification. Invoked by execute-plan when a task fails its done-criteria. Proposes and attempts structured fixes before escalating to the user.
 </purpose>
@@ -90,3 +97,10 @@ All repair actions must appear in SUMMARY.md under "## Deviations from Plan":
 - DECOMPOSE sub-tasks must be more specific than the original, not synonymous rewrites.
 - If config.json `workflow.node_repair` is `false`, skip directly to verification_failure_gate (user retains original behavior).
 </constraints>
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-gsd]] — core-gsd
+- [[MOC - Skills]] — Skills library
+

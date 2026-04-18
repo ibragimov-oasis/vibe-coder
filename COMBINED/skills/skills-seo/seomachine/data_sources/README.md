@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/seo
+  - artifact/doc
+  - source/skills-seo
+---
+
 # Data Sources
 
 This directory contains integrations for analytics and SEO data sources that power the Performance Agent and inform content strategy decisions.
@@ -356,3 +363,9 @@ For issues with:
 ---
 
 **Note**: Data sources power the Performance Agent to make data-driven content decisions. Proper setup ensures accurate, actionable insights.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-seo]] — Category: skills-seo
+

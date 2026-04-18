@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/doc
+  - source/skills-omc
+---
+
 # Issue Fix Context
 
 You are fixing Issue #{{ISSUE_NUMBER}}: **{{ISSUE_TITLE}}**
@@ -55,3 +62,9 @@ gh pr create --title "Fix #{{ISSUE_NUMBER}}: <description>" --body "Fixes #{{ISS
 - [ ] All tests pass
 - [ ] No regressions introduced
 - [ ] Ready for PR
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-omc]] — Category: skills-omc
+

@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/ui
+  - artifact/doc
+  - source/skills-design
+---
+
 # Design System: Taste Standard
 **Skill:** stitch-design-taste
 
@@ -119,3 +126,9 @@ Every screen must work flawlessly across all viewports. **Responsive is not opti
 - No `z-index` spam — use only for Navbar, Modal, Overlay layer contexts
 - No `h-screen` — always `min-h-[100dvh]`
 - No circular loading spinners — skeletal shimmer only
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-design]] — Category: skills-design
+

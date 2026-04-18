@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # Claude Skills Library by nginity - Complete AI Augmentation Ecosystem
 
 > **The most comprehensive Claude AI skills repository** with 42 production-ready expert skills across 6 professional domains, featuring 97 Python automation tools and complete frameworks for Marketing, Engineering, Product, Project Management, C-Level Leadership, and Regulatory Affairs.
@@ -860,3 +867,9 @@ A: Claude Skills Library includes domain-specific skills: content-creator for ma
 **⭐ Star the repository:** https://github.com/alirezarezvani/claude-skills
 **📖 Read full documentation:** https://github.com/alirezarezvani/claude-skills#readme
 **🤝 Contribute:** https://github.com/alirezarezvani/claude-skills/blob/main/CONTRIBUTING.md
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

@@ -101,3 +101,9 @@ DONE ✅
 
 - [[agents/mega-tester]] — tester применяет Goal-Driven Execution
 - [[orchestration/core-taskmaster]] — Task Master определяет DoD
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Parent MOC
+- [[000 - Map of Maps]] — Map of Maps
+

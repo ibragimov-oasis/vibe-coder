@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/command
+  - source/claude-commands
+---
+
 # memory-persist
 
 Persist memory across sessions.
@@ -23,3 +30,9 @@ npx claude-flow memory persist --import memory-backup.json
 # Compressed export
 npx claude-flow memory persist --export memory.gz --compress
 ```
+
+## 🔗 Связи
+
+- [[MOC - System]] — System commands
+- [[MOC - Skills]] — Skills library
+

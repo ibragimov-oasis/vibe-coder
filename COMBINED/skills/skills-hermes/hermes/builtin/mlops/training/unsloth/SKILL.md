@@ -8,7 +8,9 @@ dependencies: [unsloth, torch, transformers, trl, datasets, peft]
 metadata:
   hermes:
     tags: [Fine-Tuning, Unsloth, Fast Training, LoRA, QLoRA, Memory-Efficient, Optimization, Llama, Mistral, Gemma, Qwen]
-
+  - domain/skills
+  - artifact/skill
+  - source/skills-hermes
 ---
 
 # Unsloth Skill
@@ -79,5 +81,8 @@ To refresh this skill with updated documentation:
 
 <!-- Trigger re-upload 1763621536 -->
 
+## 🔗 Связи
 
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-hermes]] — Category: skills-hermes
 

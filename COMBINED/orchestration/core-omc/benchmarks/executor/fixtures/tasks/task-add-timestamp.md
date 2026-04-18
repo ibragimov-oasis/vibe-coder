@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-omc
+---
+
 # Task: Add createdAt timestamp to User interface
 
 ## Context
@@ -71,3 +78,10 @@ router.get('/users', async (req, res) => {
 1. Add `createdAt: Date` to the `User` interface
 2. Set `createdAt` to `new Date()` in the `createUser` function
 3. No changes needed to routes or other services
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/omc]] — OMC
+- [[000 - Map of Maps]] — Map of Maps
+

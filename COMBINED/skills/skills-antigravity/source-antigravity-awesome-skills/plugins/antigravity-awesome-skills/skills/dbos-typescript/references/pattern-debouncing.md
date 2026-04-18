@@ -3,6 +3,9 @@ title: Debounce Workflows to Prevent Wasted Work
 impact: MEDIUM
 impactDescription: Prevents redundant workflow executions during rapid triggers
 tags: pattern, debounce, delay, efficiency
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
 ---
 
 ## Debounce Workflows to Prevent Wasted Work
@@ -54,3 +57,9 @@ Key behaviors:
 - Workflows from `ConfiguredInstance` classes cannot be debounced
 
 Reference: [Debouncing Workflows](https://docs.dbos.dev/typescript/tutorials/workflow-tutorial#debouncing-workflows)
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

@@ -20,6 +20,10 @@ hooks:
   post: |
     echo "✅ Task orchestration complete"
     memory_store "orchestration_complete_$(date +%s)" "Tasks distributed and monitored"
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
 ---
 
 # Task Orchestrator Agent
@@ -137,3 +141,10 @@ The Task Orchestrator is the central coordination agent responsible for breaking
 - Critical path optimization
 - Resource contention resolution
 - Deadline-aware scheduling
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

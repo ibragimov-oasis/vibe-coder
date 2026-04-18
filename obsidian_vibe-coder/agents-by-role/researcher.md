@@ -29,3 +29,9 @@ source: "../COMBINED/agents/by-role/researcher/"
 - **MOC:** [[MOC - Agents]]
 - **Мета-агент:** [[agents/mega-researcher]]
 - **Skills:** [[skills/skills-research]]
+
+## 🔗 Связи
+
+- [[MOC - Agents]] — Parent MOC
+- [[000 - Map of Maps]] — Map of Maps
+

@@ -1,6 +1,10 @@
 ---
 description: "Best practices for authoring GNU Make Makefiles"
 applyTo: "**/Makefile, **/makefile, **/*.mk, **/GNUmakefile"
+tags:
+  - domain/agents
+  - artifact/agent
+  - source/by-interface/agents-copilot
 ---
 
 # Makefile Development Instructions
@@ -408,3 +412,9 @@ clean:
 - Don't forget to declare phony targets as `.PHONY`
 - Avoid circular dependencies between targets
 - Don't use recursive make (`$(MAKE) -C subdir`) unless absolutely necessary
+
+## 🔗 Связи
+
+- [[MOC - Agents]] — Agent catalog
+- [[agents/agents-copilot]] — Interface: agents-copilot
+

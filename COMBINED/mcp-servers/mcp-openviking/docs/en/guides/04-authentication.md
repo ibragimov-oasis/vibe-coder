@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/mcp
+  - artifact/mcp-server
+  - source/mcp-servers
+---
+
 # Authentication
 
 OpenViking Server supports two authentication modes with role-based access control: `api_key` and `trusted`.
@@ -239,3 +246,9 @@ curl http://localhost:1933/health
 - [Configuration](01-configuration.md) - Config file reference
 - [Deployment](03-deployment.md) - Server setup
 - [API Overview](../api/01-overview.md) - API reference
+
+## 🔗 Связи
+
+- [[MOC - MCP Servers]] — mcp-servers
+- [[000 - Map of Maps]] — Map of Maps
+

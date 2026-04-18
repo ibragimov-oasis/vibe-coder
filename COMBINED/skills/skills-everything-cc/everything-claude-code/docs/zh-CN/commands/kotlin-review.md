@@ -1,5 +1,9 @@
 ---
 description: 全面的Kotlin代码审查，涵盖惯用模式、空安全、协程安全和安全性。调用kotlin-reviewer代理。
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
 ---
 
 # Kotlin 代码审查
@@ -142,3 +146,9 @@ Recommendation: FAIL: Block merge until CRITICAL issue is fixed
 
 * 代理：`agents/kotlin-reviewer.md`
 * 技能：`skills/kotlin-patterns/`、`skills/kotlin-testing/`
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

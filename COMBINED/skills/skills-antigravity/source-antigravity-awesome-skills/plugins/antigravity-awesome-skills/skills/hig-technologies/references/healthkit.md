@@ -1,4 +1,11 @@
 ---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
+---
 title: "HealthKit | Apple Developer Documentation"
 source: https://developer.apple.com/design/human-interface-guidelines/healthkit
 
@@ -117,4 +124,9 @@ The Apple Health icon shows that an app works with HealthKit and the Health app.
 [![](https://devimages-cdn.apple.com/wwdc-services/images/3055294D-836B-4513-B7B0-0BC5666246B0/12499BF9-8217-4A56-81CA-5E7CB66904DD/9856_wide_250x141_1x.jpg) Track workouts with HealthKit on iOS and iPadOS ](https://developer.apple.com/videos/play/wwdc2025/322)
 
 [![](https://devimages-cdn.apple.com/wwdc-services/images/C03E6E6D-A32A-41D0-9E50-C3C6059820AA/A7FCCDAF-8770-4E6C-86A2-56DDB2095E3E/9232_wide_250x141_1x.jpg) Explore wellbeing APIs in HealthKit ](https://developer.apple.com/videos/play/wwdc2024/10109)
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
 

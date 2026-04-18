@@ -45,3 +45,9 @@ source: "../new_repos/obsidian-copilot/docs/chat-interface.md"
 
 - [[obsidian-copilot/getting-started]] — начало работы
 - [[obsidian-skills/obsidian-markdown]] — синтаксис в чате
+
+## 🔗 Связи
+
+- [[MOC - System]] — Parent MOC
+- [[000 - Map of Maps]] — Map of Maps
+

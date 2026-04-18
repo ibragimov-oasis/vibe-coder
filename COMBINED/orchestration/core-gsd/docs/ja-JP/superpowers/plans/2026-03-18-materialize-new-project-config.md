@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-gsd
+---
+
 # 初期化時に new-project の設定を完全展開する
 
 > **エージェント型ワーカー向け:** 必須サブスキル: superpowers:subagent-driven-development（推奨）または superpowers:executing-plans を使用して、このプランをタスクごとに実装してください。各ステップはチェックボックス（`- [ ]`）構文で進捗を追跡します。
@@ -697,3 +704,10 @@ JSON テンプレートの書き込みの代わりにこのコマンドを呼び
 見て、GSD のソースコードを読まなくてもブランチ戦略機能が利用可能で設定変更できることを
 即座に理解できるようになる。
 ```
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/gsd]] — GSD
+- [[000 - Map of Maps]] — Map of Maps
+

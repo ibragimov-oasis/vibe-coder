@@ -2,6 +2,10 @@
 name: enterprise-agent-ops
 description: Operate long-lived agent workloads with observability, security boundaries, and lifecycle management.
 origin: ECC
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-everything-cc
 ---
 
 # Enterprise Agent Ops
@@ -48,3 +52,9 @@ This skill pairs with:
 - systemd services
 - container orchestrators
 - CI/CD gates
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

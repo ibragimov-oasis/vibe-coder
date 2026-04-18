@@ -1,6 +1,10 @@
 ---
 name: tldr-prompt
 description: 'Create tldr summaries for GitHub Copilot files (prompts, agents, instructions, collections), MCP servers, or documentation from URLs and queries.'
+tags:
+  - domain/agents
+  - artifact/skill
+  - source/skills-copilot
 ---
 
 # TLDR Prompt
@@ -302,3 +306,10 @@ Your output is complete when:
 - ✓ Content accurately reflects the source file's/documentation's purpose and usage
 - ✓ Response verbosity is appropriate for chat context (inline chat vs chat view)
 - ✓ MCP server content includes setup and tool usage examples when applicable
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-copilot]] — Category: skills-copilot
+- [[MOC - Agents]] — Copilot agents
+

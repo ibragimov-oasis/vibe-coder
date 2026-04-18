@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # ReasoningBank: Persistent Memory System for AI Agents
 
 > **Self-Learning Memory** • **No Training Required** • **Local-First Architecture**
@@ -1137,3 +1144,9 @@ npx claude-flow@alpha memory query "learning" --reasoningbank
 **Version**: v2.7.0-alpha.10
 
 **Paper**: [ReasoningBank: Scaling Agent Self-Evolving with Reasoning Memory](https://arxiv.org/abs/2509.25140)
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-ruflo]] — core-ruflo
+

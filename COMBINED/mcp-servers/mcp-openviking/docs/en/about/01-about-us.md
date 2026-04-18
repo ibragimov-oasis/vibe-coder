@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/mcp
+  - artifact/mcp-server
+  - source/mcp-servers
+---
+
 # OpenViking Team and Organization
 
 ## Project Overview
@@ -204,4 +211,9 @@ OpenViking welcomes collaboration from developers, research institutions, and co
 ---
 
 **Join us to build the context infrastructure for the AI Agent era!**
+
+## 🔗 Связи
+
+- [[MOC - MCP Servers]] — mcp-servers
+- [[000 - Map of Maps]] — Map of Maps
 

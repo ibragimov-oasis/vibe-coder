@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-hermes
+---
+
 # Hermes Agent v0.2.0 (v2026.3.12)
 
 **Release Date:** March 12, 2026
@@ -381,3 +388,9 @@ Thank you to the 63 contributors who made this release possible! In just over tw
 ---
 
 **Full Changelog**: [v0.1.0...v2026.3.12](https://github.com/NousResearch/hermes-agent/compare/v0.1.0...v2026.3.12)
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-hermes]] — core-hermes
+

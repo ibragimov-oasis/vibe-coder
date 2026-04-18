@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # Decision Frameworks — Inventory Demand Planning
 
 This reference provides the detailed decision logic, optimization models, method selection
@@ -859,3 +866,9 @@ shrinkage, damage, and out-of-date risk (for perishables).
 - A-items: allocate with every DC-to-store shipment (typically 2–5× per week)
 - B-items: allocate 1–2× per week
 - C-items: allocate weekly or bi-weekly
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

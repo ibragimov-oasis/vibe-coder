@@ -13,6 +13,10 @@ allowed-tools:
   - Bash
   - WebFetch
   - Write
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 # DataForSEO: Live SEO Data (Extension)
@@ -393,3 +397,9 @@ Match existing claude-seo output patterns:
 - Include specific, actionable recommendations
 - Show scores as XX/100 where applicable
 - Note data source as "DataForSEO (live)" to distinguish from static analysis
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

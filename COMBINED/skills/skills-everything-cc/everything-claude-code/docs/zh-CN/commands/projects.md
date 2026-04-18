@@ -2,6 +2,10 @@
 name: projects
 description: 列出已知项目及其本能统计数据
 command: true
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
 ---
 
 # 项目命令
@@ -37,3 +41,9 @@ python3 ~/COMBINED/workspace-config/claude/skills/continuous-learning-v2/scripts
    * 观察事件计数
    * 最后看到的时间戳
 3. 同时显示全局本能总数
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

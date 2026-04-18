@@ -1,6 +1,10 @@
 ---
 name: creating-oracle-to-postgres-master-migration-plan
 description: 'Discovers all projects in a .NET solution, classifies each for Oracle-to-PostgreSQL migration eligibility, and produces a persistent master migration plan. Use when starting a multi-project Oracle-to-PostgreSQL migration, creating a migration inventory, or assessing which .NET projects contain Oracle dependencies.'
+tags:
+  - domain/agents
+  - artifact/skill
+  - source/skills-copilot
 ---
 
 # Creating an Oracle-to-PostgreSQL Master Migration Plan
@@ -81,3 +85,10 @@ Use this exact template — downstream consumers depend on the structure:
 ````
 
 Order projects so that shared/foundational libraries are migrated before their dependents.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-copilot]] — Category: skills-copilot
+- [[MOC - Agents]] — Copilot agents
+

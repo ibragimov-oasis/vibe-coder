@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # Communication Templates — Logistics Exception Management
 
 > **Reference Type:** Tier 3 — Load on demand when composing or reviewing exception communications.
@@ -1168,3 +1175,9 @@ Regards,
 - Post-resolution summary: within 5 business days of closure.
 - Performance warning: after pattern is documented, not during an active exception.
 - Customer apology: 1–2 business days after resolution is confirmed.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

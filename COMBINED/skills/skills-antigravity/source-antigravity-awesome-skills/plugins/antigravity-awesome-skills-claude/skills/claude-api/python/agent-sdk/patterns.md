@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # Agent SDK Patterns — Python
 
 ## Basic Agent
@@ -317,3 +324,9 @@ Always provide specific line numbers and suggestions for improvement."""
 
 anyio.run(main)
 ```
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

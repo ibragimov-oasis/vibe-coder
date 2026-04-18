@@ -1,6 +1,10 @@
 ---
 title: "Site Architecture & Internal Linking — Agent Skill for Marketing"
 description: "When the user wants to audit, redesign, or plan their website's structure, URL hierarchy, navigation design, or internal linking strategy. Use when. Agent skill for Claude Code, Codex CLI, Gemini CLI, OpenClaw."
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
 ---
 
 # Site Architecture & Internal Linking
@@ -292,3 +296,9 @@ All output follows the structured communication standard:
 - **content-strategy**: For deciding what content to create. Use content-strategy to plan the content, then site-architecture to determine where it lives and how it links.
 - **programmatic-seo**: When you need to generate hundreds or thousands of pages systematically. Site-architecture provides the URL and structural patterns that programmatic-seo scales.
 - **seo-audit**: For identifying technical issues. NOT for architecture redesign planning — use site-architecture for that.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

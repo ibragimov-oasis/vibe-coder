@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-refly
+---
+
 # FAQ：通过 IP 地址访问
 
 如果您在云服务器上部署 Refly，并尝试通过 `http://<公网IP>:5700` 访问，可能会遇到登录后无法正常跳转的问题。这是由于 Cookie 域名配置不匹配导致的。
@@ -50,3 +57,10 @@ REFLY_COOKIE_SAME_SITE=Lax
 ```
 
 环境变量正确后，清理浏览器缓存和 Cookie，并尝试重新登录。
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/refly]] — Refly
+- [[000 - Map of Maps]] — Map of Maps
+

@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
+---
+
 # Serviço de API Rust — CLAUDE.md de Projeto
 
 > Exemplo real para um serviço de API Rust com Axum, PostgreSQL e Docker.
@@ -283,3 +290,9 @@ cargo fmt -- --check
 - Branches de feature a partir da `main`, PRs obrigatórios
 - CI: `cargo fmt --check`, `cargo clippy`, `cargo test`, `cargo audit`
 - Deploy: Docker multi-stage build com base `scratch` ou `distroless`
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

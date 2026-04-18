@@ -1,6 +1,10 @@
 ---
 description: 'Comprehensive Power BI report design and visualization best practices based on Microsoft guidance for creating effective, accessible, and performant reports and dashboards.'
 applyTo: '**/*.{pbix,md,json,txt}'
+tags:
+  - domain/agents
+  - artifact/agent
+  - source/by-interface/agents-copilot
 ---
 
 # Power BI Report Design and Visualization Best Practices
@@ -750,3 +754,9 @@ Continuous Improvement:
 ```
 
 Remember: Always design with your specific users and use cases in mind. Test early and often with real users and realistic data to ensure your reports effectively communicate insights and enable data-driven decision making.
+
+## 🔗 Связи
+
+- [[MOC - Agents]] — Agent catalog
+- [[agents/agents-copilot]] — Interface: agents-copilot
+

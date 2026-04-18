@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-gsd
+---
+
 # Workstream Flag (`--ws`)
 
 ## Overview
@@ -56,3 +63,10 @@ node gsd-tools.cjs workstream list
 node gsd-tools.cjs workstream status <name>
 node gsd-tools.cjs workstream complete <name>
 ```
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-gsd]] — core-gsd
+- [[MOC - Skills]] — Skills library
+

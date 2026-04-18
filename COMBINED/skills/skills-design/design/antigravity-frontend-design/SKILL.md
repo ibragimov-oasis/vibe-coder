@@ -4,6 +4,10 @@ description: "You are a frontend designer-engineer, not a layout generator."
 risk: unknown
 source: community
 date_added: "2026-02-27"
+tags:
+  - domain/ui
+  - artifact/skill
+  - source/skills-design
 ---
 
 # Frontend Design (Distinctive, Production-Grade)
@@ -275,3 +279,10 @@ Before finalizing output:
 
 ## When to Use
 This skill is applicable to execute the workflow or actions described in the overview.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-design]] — Category: skills-design
+- [[MOC - UI Design]] — Design & UI
+

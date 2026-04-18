@@ -8,6 +8,10 @@ tools:
   - name: "squad rework"
     description: "Analyze PR rework rate from merged PRs"
     when: "When measuring code quality, review efficiency, or team health metrics"
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-squad
 ---
 
 ## Context
@@ -80,3 +84,10 @@ When rework rate is high:
 - **Optimizing for zero rework** — Some rework is healthy; it means reviews are catching issues
 - **Ignoring context** — Large refactors naturally have higher rework; compare like with like
 - **Measuring without acting** — Metrics without follow-up actions are waste
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/squad]] — Squad
+- [[000 - Map of Maps]] — Map of Maps
+

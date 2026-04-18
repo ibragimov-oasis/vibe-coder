@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/ui
+  - artifact/doc
+  - source/skills-design
+---
+
 # ComfyUI Gateway -- Integration Guide
 
 Complete integration reference with ready-to-use code examples for every endpoint
@@ -1794,3 +1801,9 @@ MAX_CONCURRENCY=1
 # API server (no GPU needed) -- start with: npm run start:api
 # Serves the REST API; workers handle ComfyUI execution
 ```
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-design]] — Category: skills-design
+

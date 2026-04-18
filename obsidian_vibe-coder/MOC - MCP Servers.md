@@ -78,3 +78,8 @@ curl -L -o lightpanda \
 - [[MOC - System]] — MCP как часть capabilities
 - [[combined/MCP Servers Overview]] — Детали конфигурации
 - [[000 - Map of Maps]] — Главная карта
+
+## 🔗 Связи
+
+- [[000 - Map of Maps]] — Map of Maps
+

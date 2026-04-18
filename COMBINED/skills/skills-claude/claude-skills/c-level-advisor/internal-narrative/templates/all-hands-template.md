@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # All-Hands Presentation Template
 
 **Monthly format (30–45 min) | Adjust timing for quarterly/annual**
@@ -101,3 +108,9 @@ If it's small: 2 sentences. If it's big: more time here, less elsewhere.
 **After every all-hands:**
 - [ ] Send a written summary within 24 hours (key metrics, decisions, answers to top questions)
 - [ ] Follow up on any commitments made during Q&A within the stated timeframe
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

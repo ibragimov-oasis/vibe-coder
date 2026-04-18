@@ -6,6 +6,10 @@ allowed-tools:
   - "Write"
 risk: unknown
 source: community
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 # Enhance Prompt for Stitch
@@ -204,3 +208,9 @@ Add a search bar to the header navigation.
 3. **Keep it structured** — Numbered sections help Stitch understand hierarchy
 4. **Include the design system** — Consistency is key for multi-page projects
 5. **One change at a time for edits** — Don't bundle unrelated changes
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

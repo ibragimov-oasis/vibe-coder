@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # Content Analytics & Performance Metrics
 
 Comprehensive guide for tracking, measuring, and optimizing content performance.
@@ -350,3 +357,9 @@ NEXT QUARTER ROADMAP
 - [ ] Privacy compliance verified
 - [ ] Access controls configured
 - [ ] Regular data audits scheduled
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

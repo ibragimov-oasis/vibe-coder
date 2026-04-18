@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-archon
+---
+
 # Part 2: Extensibility — Skills, Agents & Hooks
 
 **Host**: Rasmus
@@ -714,3 +721,10 @@ git worktree remove <path>   # if any remain
 gh pr list --head worktree-
 gh pr close <number>
 ```
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-archon]] — core-archon
+- [[MOC - Skills]] — Skills library
+

@@ -1,6 +1,10 @@
 ---
 name: agent-ops-cicd-github
 description: Agent skill for ops-cicd-github - invoke with $agent-ops-cicd-github
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-ruflo
 ---
 
 ---
@@ -167,3 +171,9 @@ jobs:
 - Use GITHUB_TOKEN with minimal permissions
 - Implement CODEOWNERS for workflow changes
 - Use environment protection rules
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-ruflo]] — Category: skills-ruflo
+

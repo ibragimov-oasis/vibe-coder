@@ -2,6 +2,10 @@
 description: "PHP hooks extending common rules"
 globs: ["**/*.php", "**/composer.json", "**/phpstan.neon", "**/phpstan.neon.dist", "**/psalm.xml"]
 alwaysApply: false
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
 ---
 # PHP Hooks
 
@@ -19,3 +23,9 @@ Configure in `~/.claude/settings.json`:
 
 - Warn on `var_dump`, `dd`, `dump`, or `die()` left in edited files.
 - Warn when edited PHP files add raw SQL or disable CSRF/session protections.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

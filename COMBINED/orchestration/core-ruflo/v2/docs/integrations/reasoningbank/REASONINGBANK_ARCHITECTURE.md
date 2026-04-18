@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # ReasoningBank Integration Architecture
 
 ## System Overview
@@ -473,3 +480,10 @@ Import from backup if available
 **Questions?**
 - GitHub: https://github.com/ruvnet/claude-code-flow/issues
 - Discord: https://discord.gg/claude-flow
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

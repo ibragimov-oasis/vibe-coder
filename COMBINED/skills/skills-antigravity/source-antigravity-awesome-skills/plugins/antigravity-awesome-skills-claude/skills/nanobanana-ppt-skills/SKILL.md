@@ -4,6 +4,10 @@ description: "AI-powered PPT generation with document analysis and styled images
 risk: safe
 source: "https://github.com/op7418/NanoBanana-PPT-Skills"
 date_added: "2026-02-27"
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 # Nanobanana Ppt Skills
@@ -21,3 +25,9 @@ Use this skill when you need to work with ai-powered ppt generation with documen
 This skill provides guidance and patterns for ai-powered ppt generation with document analysis and styled images.
 
 For more information, see the [source repository](https://github.com/op7418/NanoBanana-PPT-Skills).
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

@@ -3,6 +3,10 @@ name: refactor-cleaner
 description: 死代码清理与整合专家。主动用于移除未使用代码、重复项和重构。运行分析工具（knip、depcheck、ts-prune）识别死代码并安全移除。
 tools: ["Read", "Write", "Edit", "Bash", "Grep", "Glob"]
 model: sonnet
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
 ---
 
 # 重构与死代码清理器
@@ -90,3 +94,9 @@ npx eslint . --report-unused-disable-directives  # Unused eslint directives
 * 构建成功
 * 没有回归问题
 * 包体积减小
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

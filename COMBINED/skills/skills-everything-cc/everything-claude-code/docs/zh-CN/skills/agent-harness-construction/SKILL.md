@@ -2,6 +2,10 @@
 name: agent-harness-construction
 description: 设计和优化AI代理的动作空间、工具定义和观察格式，以提高完成率。
 origin: ECC
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-everything-cc
 ---
 
 # 智能体框架构建
@@ -75,3 +79,9 @@ origin: ECC
 * 不透明的工具输出，没有恢复提示。
 * 仅输出错误而没有后续步骤。
 * 上下文过载，包含不相关的引用。
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

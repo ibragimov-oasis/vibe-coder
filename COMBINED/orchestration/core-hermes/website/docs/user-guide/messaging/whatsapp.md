@@ -2,6 +2,10 @@
 sidebar_position: 5
 title: "WhatsApp"
 description: "Set up Hermes Agent as a WhatsApp bot via the built-in Baileys bridge"
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-hermes
 ---
 
 # WhatsApp Setup
@@ -199,3 +203,10 @@ whatsapp:
 - Use a **dedicated phone number** for the bot to isolate risk from your personal account
 - If you suspect compromise, unlink the device from WhatsApp → Settings → Linked Devices
 - Phone numbers in logs are partially redacted, but review your log retention policy
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/hermes]] — Hermes
+- [[000 - Map of Maps]] — Map of Maps
+

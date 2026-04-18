@@ -1,5 +1,9 @@
 ---
 description: Corrija erros de build em Go, avisos de go vet e problemas de lint incrementalmente. Invoca o agente go-build-resolver para correções mínimas e cirúrgicas.
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
 ---
 
 # Build e Correção Go
@@ -181,3 +185,9 @@ O agente vai parar e reportar se:
 
 - Agent: `agents/go-build-resolver.md`
 - Skill: `skills/golang-patterns/`
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

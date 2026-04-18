@@ -20,6 +20,10 @@ hooks:
     echo "Completed code-review-swarm"
     echo "Review results posted to GitHub"
     echo "Quality gates evaluated"
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
 ---
 
 # Code Review Swarm - Automated Code Review with AI Agents
@@ -536,3 +540,10 @@ npx ruv-swarm github review-report \
 ```
 
 See also: [swarm-pr.md](./swarm-pr.md), [workflow-automation.md](./workflow-automation.md)
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

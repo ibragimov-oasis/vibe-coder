@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
+---
+
 # 調査コンテキスト
 
 モード: 探索、調査、学習
@@ -24,3 +31,9 @@
 
 ## 出力
 発見を最初に、推奨事項を次に
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

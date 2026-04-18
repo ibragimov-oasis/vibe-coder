@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-taskmaster
+---
+
 # Codex CLI Provider
 
 The `codex-cli` provider integrates Task Master with OpenAI's Codex CLI via the community AI SDK provider [`ai-sdk-provider-codex-cli`](https://github.com/ben-vargas/ai-sdk-provider-codex-cli). It uses your ChatGPT subscription (OAuth) via `codex login`, with optional `OPENAI_CODEX_API_KEY` support.
@@ -513,3 +520,10 @@ To verify or configure:
 - [Gemini CLI Provider](./gemini-cli.md) - Similar CLI-based provider for Google Gemini
 - [Claude Code Integration](../claude-code-integration.md) - Another CLI-based provider
 - [ai-sdk-provider-codex-cli](https://github.com/ben-vargas/ai-sdk-provider-codex-cli) - Source code for the provider package
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-taskmaster]] — core-taskmaster
+- [[MOC - Skills]] — Skills library
+

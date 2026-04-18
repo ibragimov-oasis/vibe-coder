@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # Wizards & Flows
 
 Complex multi-step processes are handled using the `SlimWizard` pattern. This provides a declarative way to define steps, navigation logic, and final results.
@@ -45,3 +52,9 @@ public async Task CreateSomething()
 
 > [!NOTE]
 > The `SlimWizard` handles the "Back" command automatically, providing a consistent user experience across different flows.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

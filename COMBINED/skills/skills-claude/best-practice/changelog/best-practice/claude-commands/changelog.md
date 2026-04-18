@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # Commands Report — Changelog History
 
 ## Status Legend
@@ -204,3 +211,9 @@ No priority action items — report is fully in sync with official documentation
 | 2 | HIGH | New Command | Add `/teleport` to Remote tag — Pull a Claude Code on the web session into this terminal. Alias: `/tp` | ✅ COMPLETE (added as #59 in Remote tag) |
 | 3 | HIGH | New Command | Add `/web-setup` to Remote tag — Connect GitHub account to Claude Code on the web using local `gh` CLI credentials | ✅ COMPLETE (added as #60 in Remote tag) |
 | 4 | MED | Changed Description | Update `/add-dir` — official docs now include caveat about `.claude/` config not being discovered from added directory | ✅ COMPLETE (updated description at #46 in Project tag) |
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

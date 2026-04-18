@@ -1,5 +1,9 @@
 ---
 "@bradygaster/squad-sdk": minor
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-squad
 ---
 
 feat: Cooperative rate limiting with predictive circuit breaker
@@ -9,3 +13,10 @@ Added cooperative rate limiting patterns for multi-agent deployments:
 - Cooperative Token Pool for shared quota management
 
 Closes #515
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-squad]] — core-squad
+- [[MOC - Skills]] — Skills library
+

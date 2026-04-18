@@ -2,6 +2,10 @@
 name: setup
 description: Use first for install/update routing — sends setup, doctor, or MCP requests to the correct OMC setup flow
 level: 2
+tags:
+  - domain/orchestration
+  - artifact/skill
+  - source/skills-omc
 ---
 
 # Setup
@@ -39,3 +43,10 @@ Examples:
 - Prefer `/oh-my-claudecode:setup` in new documentation and user guidance.
 
 Task: {{ARGUMENTS}}
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-omc]] — Category: skills-omc
+- [[MOC - Orchestration]] — Multi-agent orchestration
+

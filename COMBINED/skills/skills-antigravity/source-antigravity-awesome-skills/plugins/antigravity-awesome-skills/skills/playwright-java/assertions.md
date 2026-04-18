@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # Playwright Java – Assertions Reference
 
 ## Import Statement
@@ -165,3 +172,9 @@ assertEquals(5, page.locator("li").count());
 // ✅ CORRECT — waits until count stabilizes
 assertThat(page.locator("li")).hasCount(5);
 ```
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

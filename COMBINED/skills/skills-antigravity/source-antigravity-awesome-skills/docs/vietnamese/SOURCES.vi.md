@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # 📜 Nguồn gốc & Ghi công
 
 Chúng tôi tin tưởng vào việc ghi nhận công sức một cách xứng đáng.  
@@ -19,3 +26,9 @@ Nếu bạn nhận ra tác phẩm của mình ở đây mà chưa được ghi c
 - **Mã nguồn (Code)**: Tất cả mã nguồn gốc trong repository này tuân theo giấy phép **MIT**.
 - **Nội dung (Content)**: Tài liệu hướng dẫn tuân theo giấy phép **CC-BY-4.0**.
 - **Bên thứ ba**: Chúng tôi tôn trọng giấy phép từ phía nguồn gốc của các tài liệu. Nếu một kỹ năng được nhập về có giấy phép GPL, nó sẽ được đánh dấu rõ ràng hoặc bị loại trừ (chúng tôi hướng tới sự tương thích với MIT/Apache).
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

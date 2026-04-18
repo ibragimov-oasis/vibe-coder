@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/seo
+  - artifact/doc
+  - source/skills-seo
+---
+
 # Performance Review Command
 
 Use this command to analyze content performance data and generate a prioritized queue of content tasks.
@@ -364,3 +371,9 @@ The command acts as the interface to trigger this analysis and format results fo
 ---
 
 **Remember**: Data without action is just noise. Use this report to drive actual content work, measure results, and continuously improve your SEO strategy.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-seo]] — Category: skills-seo
+

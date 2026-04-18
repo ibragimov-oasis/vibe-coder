@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # Real Metrics Collection for Claude-Flow Benchmarks
 
 ## Overview
@@ -283,3 +290,10 @@ See `/benchmark/examples/real_metrics_demo.py` for comprehensive examples.
 - Distributed metrics aggregation
 - Real-time visualization dashboard
 - Machine learning performance prediction
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

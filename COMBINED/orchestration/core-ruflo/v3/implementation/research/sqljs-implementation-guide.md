@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # sql.js Implementation Guide for Claude-Flow
 
 **Implementation Date**: 2026-01-03
@@ -1268,3 +1275,10 @@ locateFile: (file) => {
 **Document Version**: 1.0
 **Last Updated**: 2026-01-03
 **Status**: Ready for implementation
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

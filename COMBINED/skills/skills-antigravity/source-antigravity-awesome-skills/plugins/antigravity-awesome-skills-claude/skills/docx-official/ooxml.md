@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # Office Open XML Technical Reference
 
 **Important: Read this entire document before starting.** This document covers:
@@ -608,3 +615,9 @@ The validator checks that the document text matches the original after reverting
   <w:r><w:t>within 30 days</w:t></w:r>
 </w:ins>
 ```
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

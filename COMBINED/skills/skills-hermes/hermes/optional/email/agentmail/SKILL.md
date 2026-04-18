@@ -6,6 +6,9 @@ metadata:
   hermes:
     tags: [email, communication, agentmail, mcp]
     category: email
+  - domain/skills
+  - artifact/skill
+  - source/skills-hermes
 ---
 
 # AgentMail — Agent-Owned Email Inboxes
@@ -123,3 +126,9 @@ You should see the new inbox address returned.
 - AgentMail console: https://console.agentmail.to
 - AgentMail MCP repo: https://github.com/agentmail-to/agentmail-mcp
 - Pricing: https://www.agentmail.to/pricing
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-hermes]] — Category: skills-hermes
+

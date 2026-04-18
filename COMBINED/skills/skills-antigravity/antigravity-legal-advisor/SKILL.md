@@ -4,6 +4,10 @@ description: Draft privacy policies, terms of service, disclaimers, and legal no
 risk: unknown
 source: community
 date_added: '2026-02-27'
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 ## Use this skill when
@@ -66,3 +70,9 @@ You are a legal advisor specializing in technology law, privacy regulations, and
 Always include disclaimer: "This is a template for informational purposes. Consult with a qualified attorney for legal advice specific to your situation."
 
 Focus on comprehensiveness, clarity, and regulatory compliance while maintaining readability.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

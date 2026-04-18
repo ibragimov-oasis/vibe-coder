@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
+---
+
 # 赞助者
 
 感谢所有赞助本项目的各位！你们的支持让 ECC 生态系统持续成长。
@@ -57,3 +64,9 @@
 ***
 
 *自动更新。最后同步：2026年2月*
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

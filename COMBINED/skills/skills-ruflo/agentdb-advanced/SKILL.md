@@ -1,6 +1,10 @@
 ---
 name: "AgentDB Advanced Features"
 description: "Master advanced AgentDB features including QUIC synchronization, multi-database management, custom distance metrics, hybrid search, and distributed systems integration. Use when building distributed AI systems, multi-agent coordination, or advanced vector search applications."
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-ruflo
 ---
 
 # AgentDB Advanced Features
@@ -548,3 +552,9 @@ const result = await adapter.retrieveWithReasoning(queryEmbedding, {
 **Category**: Advanced / Distributed Systems
 **Difficulty**: Advanced
 **Estimated Time**: 45-60 minutes
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-ruflo]] — Category: skills-ruflo
+

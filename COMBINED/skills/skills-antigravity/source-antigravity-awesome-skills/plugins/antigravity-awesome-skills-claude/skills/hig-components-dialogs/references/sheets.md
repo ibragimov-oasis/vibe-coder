@@ -148,10 +148,19 @@ The standard Done button
 
 ## [Change log](https://developer.apple.com/design/human-interface-guidelines/sheets#Change-log)
 
-Date| Changes  
+Date| Changes
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
 ---|---  
 March 29, 2024| Added guidance to use form or page sheet styles in iPadOS apps.  
 December 5, 2023| Recommended using a split view to offer supplementary items in a visionOS app.  
 June 21, 2023| Updated to include guidance for visionOS.  
-June 5, 2023| Updated guidance for using sheets in watchOS.  
-  
+June 5, 2023| Updated guidance for using sheets in watchOS.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

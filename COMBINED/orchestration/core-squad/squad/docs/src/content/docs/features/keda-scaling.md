@@ -2,6 +2,10 @@
 title: KEDA Autoscaling
 description: Autoscale Squad agents based on GitHub issue queue depth using the KEDA external scaler template.
 order: 38
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-squad
 ---
 
 # KEDA Autoscaling
@@ -81,3 +85,10 @@ Use KEDA autoscaling when:
 
 - [Capability Routing](capability-routing.md) — route specific issues to specific agent types
 - [Ralph — Work Monitor](ralph.md) — how Ralph picks up queued issues
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/squad]] — Squad
+- [[000 - Map of Maps]] — Map of Maps
+

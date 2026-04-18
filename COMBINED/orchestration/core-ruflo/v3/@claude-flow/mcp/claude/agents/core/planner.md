@@ -76,6 +76,10 @@ hooks:
 
     # 5. Trigger map worker for codebase analysis
     npx claude-flow@v3alpha hooks worker dispatch --trigger map
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
 ---
 
 # Strategic Planning Agent
@@ -373,3 +377,10 @@ console.log(`Common planning gaps: ${stats.commonCritiques}`);
    - Store outcomes for continuous improvement
 
 Remember: A good plan executed now is better than a perfect plan executed never. Focus on creating actionable, practical plans that drive progress. **Learn from every planning outcome to continuously improve task decomposition and resource allocation.**
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-squad
+---
+
 # E2E Acceptance Tests
 
 This directory contains end-to-end acceptance tests for the Squad CLI using a Gherkin-style BDD approach.
@@ -133,3 +140,9 @@ npm test -- test/acceptance/
 ```
 
 This is handled automatically by the standard test flow.
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-squad]] — core-squad
+

@@ -2,6 +2,10 @@
 sidebar_position: 11
 title: "Feishu / Lark"
 description: "Set up Hermes Agent as a Feishu or Lark bot"
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-hermes
 ---
 
 # Feishu / Lark Setup
@@ -127,3 +131,10 @@ If you leave the allowlist empty, anyone who can reach the bot may be able to us
 ## Toolset
 
 Feishu / Lark uses the `hermes-feishu` platform preset, which includes the same core tools as Telegram and other gateway-based messaging platforms.
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/hermes]] — Hermes
+- [[000 - Map of Maps]] — Map of Maps
+

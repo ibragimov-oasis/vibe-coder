@@ -1,6 +1,10 @@
 ---
 name: pytest-coverage
 description: 'Run pytest tests with coverage, discover lines missing coverage, and increase coverage to 100%.'
+tags:
+  - domain/agents
+  - artifact/skill
+  - source/skills-copilot
 ---
 
 The goal is for the tests to cover all lines of code.
@@ -26,3 +30,10 @@ If a line starts with a ! (exclamation mark), it means that the line is not cove
 Add tests to cover the missing lines.
 
 Keep running the tests and improving coverage until all lines are covered.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-copilot]] — Category: skills-copilot
+- [[MOC - Agents]] — Copilot agents
+

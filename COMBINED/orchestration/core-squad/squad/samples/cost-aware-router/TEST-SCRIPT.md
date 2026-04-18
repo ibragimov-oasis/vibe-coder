@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-squad
+---
+
 # TEST-SCRIPT.md — Cost-Aware Router Live Demo
 
 Use this script for the **MVP Summit** live walkthrough.
@@ -87,3 +94,10 @@ Open `index.ts` and highlight:
 - **Config-driven overrides** — the `routing.rules` array lets you pin specific patterns to specific tiers.
 - **Load-aware downgrade** — pass `currentLoad` in the context to see tiers auto-downgrade under pressure.
 - **CostTracker is standalone** — wire it to an EventBus in production, or call `recordUsage()` manually like we do here.
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/squad]] — Squad
+- [[000 - Map of Maps]] — Map of Maps
+

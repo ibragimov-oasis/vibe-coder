@@ -7,6 +7,10 @@ allowed-tools:
   - "Read"
   - "Write"
   - "Bash"
+tags:
+  - domain/ui
+  - artifact/ui-component
+  - source/ui-design
 ---
 
 # Stitch Build Loop
@@ -261,3 +265,9 @@ This skill works best with the `design-md` skill:
 | Inconsistent styles | Ensure `.stitch/DESIGN.md` is up-to-date and copied correctly |
 | Loop stalls | Verify `.stitch/next-prompt.md` was updated with valid frontmatter |
 | Navigation broken | Check all internal links use correct relative paths |
+
+## 🔗 Связи
+
+- [[MOC - UI Design]] — ui-design
+- [[000 - Map of Maps]] — Map of Maps
+

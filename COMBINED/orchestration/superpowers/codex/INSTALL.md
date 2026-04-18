@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/superpowers
+---
+
 # Installing Superpowers for Codex
 
 Enable superpowers skills in Codex via native skill discovery. Just clone and symlink.
@@ -65,3 +72,10 @@ rm ~/.agents/skills/superpowers
 ```
 
 Optionally delete the clone: `rm -rf ~/.codex/superpowers`.
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/superpowers]] — superpowers
+- [[MOC - Skills]] — Skills library
+

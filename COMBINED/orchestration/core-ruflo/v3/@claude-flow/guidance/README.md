@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # @claude-flow/guidance
 
 [![npm version](https://img.shields.io/npm/v/@claude-flow/guidance.svg?style=flat-square&label=npm)](https://www.npmjs.com/package/@claude-flow/guidance)
@@ -1193,3 +1200,9 @@ Take 20 real Claude Flow tasks from repo history. Run A without control plane, r
 ## License
 
 MIT — see [LICENSE](https://github.com/ruvnet/claude-flow/blob/main/LICENSE) for details.
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-ruflo]] — core-ruflo
+

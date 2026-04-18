@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/seo
+  - artifact/doc
+  - source/skills-seo
+---
+
 # GA4 Implementation Reference
 
 Detailed implementation guide for Google Analytics 4.
@@ -288,3 +295,9 @@ Audiences created in GA4 can be used in Google Ads for:
 - Remarketing campaigns
 - Customer match
 - Similar audiences
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-seo]] — Category: skills-seo
+

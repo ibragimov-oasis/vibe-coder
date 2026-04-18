@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-squad
+---
+
 # Proposal: Iterative Retrieval Skill
 
 **Issue:** bradygaster/squad#622
@@ -67,3 +74,10 @@ The skill provides:
 ## References
 
 - Issue: bradygaster/squad#622
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/squad]] — Squad
+- [[000 - Map of Maps]] — Map of Maps
+

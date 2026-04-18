@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/mcp
+  - artifact/mcp-server
+  - source/mcp-servers
+---
+
 # OpenViking Server-Client 示例
 
 演示 OpenViking 的 Server/Client 架构：通过 HTTP Server 提供服务，Client 通过 HTTP API 访问。
@@ -218,3 +225,9 @@ Authorization: Bearer your-secret-key
 CLI 的 API Key 通过 ovcli.conf 的 `api_key` 字段配置。
 
 `/health` 端点始终免认证。
+
+## 🔗 Связи
+
+- [[MOC - MCP Servers]] — mcp-servers
+- [[000 - Map of Maps]] — Map of Maps
+

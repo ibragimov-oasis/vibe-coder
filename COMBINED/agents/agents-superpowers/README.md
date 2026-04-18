@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/agent
+  - source/agents-superpowers
+---
+
 # Superpowers
 
 Superpowers is a complete software development workflow for your coding agents, built on top of a set of composable "skills" and some initial instructions that make sure your agent uses them.
@@ -185,3 +192,9 @@ For community support, questions, and sharing what you're building with Superpow
 - **Discord**: [Join us on Discord](https://discord.gg/Jd8Vphy9jq)
 - **Issues**: https://github.com/obra/superpowers/issues
 - **Marketplace**: https://github.com/obra/superpowers-marketplace
+
+## 🔗 Связи
+
+- [[MOC - Agents]] — Agent catalog
+- [[MOC - Skills]] — Skills library
+

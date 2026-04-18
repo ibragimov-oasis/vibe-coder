@@ -14,6 +14,9 @@ agents:
   - claude-code
   - codex-cli
   - openclaw
+  - domain/agents
+  - artifact/skill
+  - source/skills-claude
 ---
 
 # Business & Growth Skills
@@ -54,3 +57,10 @@ python3 revenue-operations/scripts/pipeline_analyzer.py --help
 
 - Load only the specific skill SKILL.md you need
 - Use Python tools for scoring and metrics, not manual estimates
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+- [[MOC - Agents]] — Claude agents
+

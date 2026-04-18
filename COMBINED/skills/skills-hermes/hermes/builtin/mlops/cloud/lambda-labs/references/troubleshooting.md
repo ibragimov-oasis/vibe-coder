@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-hermes
+---
+
 # Lambda Labs Troubleshooting Guide
 
 ## Instance Launch Issues
@@ -528,3 +535,9 @@ When contacting support, include:
 - Error message (full traceback)
 - Steps to reproduce
 - Time of occurrence
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-hermes]] — Category: skills-hermes
+

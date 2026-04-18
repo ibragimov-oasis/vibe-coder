@@ -1,6 +1,10 @@
 ---
 title: Privacy Policy
 description: Refly AI Workflow Engine Privacy Policy (Restricted Scopes & Limited Use Compliant)
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-refly
 ---
 
 # Refly AI Privacy Policy 
@@ -223,4 +227,10 @@ We may update this Policy for legal, product, or operational reasons.
 We respond to urgent privacy requests within **72 hours**.  
 
 ---
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/refly]] — Refly
+- [[000 - Map of Maps]] — Map of Maps
 

@@ -108,3 +108,9 @@ Done:  если чисто → deliver
 
 - [[agents-deep-dive/ruflo-roles]] — RuFlo security roles
 - [[mcp-servers/mcp-code-review-graph]] — structural security analysis
+
+## 🔗 Связи
+
+- [[MOC - Agents]] — Parent MOC
+- [[000 - Map of Maps]] — Map of Maps
+

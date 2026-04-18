@@ -1,5 +1,9 @@
 ---
 description: Fix Kotlin/Gradle build errors, compiler warnings, and dependency issues incrementally. Invokes the kotlin-build-resolver agent for minimal, surgical fixes.
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
 ---
 
 # Kotlin Build and Fix
@@ -172,3 +176,9 @@ The agent will stop and report if:
 
 - Agent: `agents/kotlin-build-resolver.md`
 - Skill: `skills/kotlin-patterns/`
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

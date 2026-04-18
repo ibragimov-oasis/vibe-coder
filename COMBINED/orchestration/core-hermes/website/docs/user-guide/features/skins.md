@@ -2,6 +2,10 @@
 sidebar_position: 10
 title: "Skins & Themes"
 description: "Customize the Hermes CLI with built-in and user-defined skins"
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-hermes
 ---
 
 # Skins & Themes
@@ -79,3 +83,10 @@ tool_prefix: "▏"
 - Built-in skins load from `hermes_cli/skin_engine.py`.
 - Unknown skins automatically fall back to `default`.
 - `/skin` updates the active CLI theme immediately for the current session.
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/hermes]] — Hermes
+- [[000 - Map of Maps]] — Map of Maps
+

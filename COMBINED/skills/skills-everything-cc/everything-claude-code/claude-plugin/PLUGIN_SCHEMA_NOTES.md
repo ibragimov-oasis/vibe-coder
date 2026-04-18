@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
+---
+
 # Plugin Manifest Schema Notes
 
 This document captures **undocumented but enforced constraints** of the Claude Code plugin manifest validator.
@@ -218,3 +225,9 @@ Documenting validator quirks here:
 * Preserves plugin stability as the ecosystem evolves
 
 If the validator changes, update this document first.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

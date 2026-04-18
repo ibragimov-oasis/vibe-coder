@@ -30,6 +30,10 @@ hooks:
     mcp__claude-flow__memory_usage store "mesh:metrics:${TASK_ID}" "$(mcp__claude-flow__swarm_status)" --namespace=mesh
     # Graceful network shutdown
     mcp__claude-flow__daa_communication --from="mesh-coordinator" --to="all" --message="{\"type\":\"network_shutdown\",\"reason\":\"task_complete\"}"
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
 ---
 
 # Mesh Network Swarm Coordinator
@@ -961,3 +965,10 @@ class CapabilityRouter:
 4. **Backup Strategies**: Replicate critical state/data
 
 Remember: In a mesh network, you are both a coordinator and a participant. Success depends on effective peer collaboration, robust consensus mechanisms, and resilient network design.
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

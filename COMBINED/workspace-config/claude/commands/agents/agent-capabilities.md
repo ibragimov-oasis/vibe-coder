@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/config
+  - source/workspace-config
+---
+
 # agent-capabilities
 
 Matrix of agent capabilities and their specializations.
@@ -19,3 +26,9 @@ npx claude-flow agents capabilities
 # For specific agent
 npx claude-flow agents capabilities --type coder
 ```
+
+## 🔗 Связи
+
+- [[MOC - System]] — workspace-config
+- [[000 - Map of Maps]] — Map of Maps
+

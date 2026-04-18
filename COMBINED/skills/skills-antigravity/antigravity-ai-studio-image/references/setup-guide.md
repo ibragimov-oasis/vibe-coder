@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # AI Studio Image — Guia de Setup Completo
 
 ## 1. Obter API Key
@@ -100,3 +107,9 @@ python C:\Users\renat\skills\ai-studio-image\scripts\generate.py \
 | Image blocked | Conteudo restrito | Ajuste prompt, evite conteudo sensivel |
 | Model not found | Modelo indisponivel | Tente outro modelo: imagen-4 |
 | Empty response | Prompt muito generico | Adicione mais detalhes ao prompt |
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

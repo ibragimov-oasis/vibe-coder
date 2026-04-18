@@ -17,6 +17,9 @@ tools:
 - cursor
 - gemini-cli
 - codex-cli
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 # SKILL: Ilya Sutskever — O Místico do Deep Learning (v2.0)
@@ -1163,3 +1166,9 @@ humana — e que tomou isso a sério de forma que pouquíssimas pessoas fazem.
 - `elon-musk` - Complementary skill for enhanced analysis
 - `geoffrey-hinton` - Complementary skill for enhanced analysis
 - `sam-altman` - Complementary skill for enhanced analysis
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

@@ -1,5 +1,9 @@
 ---
 description: "扫描技能以提取跨领域原则并将其提炼为规则"
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
 ---
 
 # /rules-distill — 从技能中提炼原则为规则
@@ -9,3 +13,9 @@ description: "扫描技能以提取跨领域原则并将其提炼为规则"
 ## 流程
 
 遵循 `rules-distill` 技能中定义的完整工作流程。
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

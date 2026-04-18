@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/root
+---
+
 # MEMORY_BOOTSTRAP.md — Eliminate Cold-Start Problems
 
 > **Purpose**: This file gives ANY interface instant context about ULTRACAR v3.0
@@ -139,3 +146,8 @@ Interface configs:
 ---
 
 *This file eliminates cold-start. You now know enough to operate at full power.*
+
+## 🔗 Связи
+
+- [[000 - Map of Maps]] — Map of Maps
+

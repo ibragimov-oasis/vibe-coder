@@ -1,6 +1,10 @@
 ---
 description: 'Specification-Driven Workflow v1 provides a structured approach to software development, ensuring that requirements are clearly defined, designs are meticulously planned, and implementations are thoroughly documented and validated.'
 applyTo: '**'
+tags:
+  - domain/agents
+  - artifact/agent
+  - source/by-interface/agents-copilot
 ---
 # Spec Driven Workflow v1
 
@@ -321,3 +325,9 @@ Each requirement must be:
 - **Necessary**: Contributes to the system's purpose
 - **Feasible**: Can be implemented within constraints
 - **Traceable**: Linked to user needs and design elements
+
+## 🔗 Связи
+
+- [[MOC - Agents]] — Agent catalog
+- [[agents/agents-copilot]] — Interface: agents-copilot
+

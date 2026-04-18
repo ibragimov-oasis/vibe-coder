@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
+---
+
 # Verification Command
 
 Run comprehensive verification on current codebase state.
@@ -57,3 +64,9 @@ $ARGUMENTS can be:
 - `full` - All checks (default)
 - `pre-commit` - Checks relevant for commits
 - `pre-pr` - Full checks plus security scan
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

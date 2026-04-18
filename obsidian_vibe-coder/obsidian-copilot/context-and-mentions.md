@@ -52,3 +52,9 @@ source: "../new_repos/obsidian-copilot/docs/context-and-mentions.md"
 
 - [[obsidian-copilot/chat-interface]] — интерфейс чата
 - [[combined/Memory Overview]] — системы памяти ULTRACAR
+
+## 🔗 Связи
+
+- [[MOC - System]] — Parent MOC
+- [[000 - Map of Maps]] — Map of Maps
+

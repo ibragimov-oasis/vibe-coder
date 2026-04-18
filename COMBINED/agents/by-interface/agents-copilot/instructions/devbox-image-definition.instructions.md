@@ -1,6 +1,10 @@
 ---
 description: 'Authoring recommendations for creating YAML based image definition files for use with Microsoft Dev Box Team Customizations'
 applyTo: '**/*.yaml'
+tags:
+  - domain/agents
+  - artifact/agent
+  - source/by-interface/agents-copilot
 ---
 
 # Dev Box image definitions
@@ -300,3 +304,9 @@ The built-in winget task does not support installing packages from sources other
 
 - Solution: Move administrative operations to `tasks` section
 - Ensure you're running customizations with appropriate privileges when testing locally
+
+## 🔗 Связи
+
+- [[MOC - Agents]] — Agent catalog
+- [[agents/agents-copilot]] — Interface: agents-copilot
+

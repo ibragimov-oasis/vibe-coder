@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # SPARC TDD Mode
 
 ## Purpose
@@ -52,3 +59,10 @@ npx claude-flow@alpha sparc run tdd "shopping cart feature"
 - End-to-end testing
 - Performance testing
 - Security testing
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

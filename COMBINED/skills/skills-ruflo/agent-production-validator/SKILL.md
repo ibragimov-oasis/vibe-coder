@@ -1,6 +1,10 @@
 ---
 name: agent-production-validator
 description: Agent skill for production-validator - invoke with $agent-production-validator
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-ruflo
 ---
 
 ---
@@ -398,3 +402,9 @@ describe('Deployment Validation', () => {
 - Test authorization with real user roles and permissions
 
 Remember: The goal is to ensure that when the application reaches production, it works exactly as tested - no surprises, no mock implementations, no fake data dependencies.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-ruflo]] — Category: skills-ruflo
+

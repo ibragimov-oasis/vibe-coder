@@ -1,6 +1,10 @@
 ---
 name: "runbook-generator"
 description: "Runbook Generator"
+tags:
+  - domain/agents
+  - artifact/skill
+  - source/skills-claude
 ---
 
 # Runbook Generator
@@ -74,3 +78,10 @@ python3 scripts/runbook_generator.py payments-api --owner platform --output docs
 2. Include health checks after every critical step.
 3. Validate runbooks on a fixed review cadence.
 4. Update runbook content after incidents and postmortems.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+- [[MOC - Agents]] — Claude agents
+

@@ -1,6 +1,10 @@
 ---
 name: reviewing-oracle-to-postgres-migration
 description: 'Identifies Oracle-to-PostgreSQL migration risks by cross-referencing code against known behavioral differences (empty strings, refcursors, type coercion, sorting, timestamps, concurrent transactions, etc.). Use when planning a database migration, reviewing migration artifacts, or validating that integration tests cover Oracle/PostgreSQL differences.'
+tags:
+  - domain/agents
+  - artifact/skill
+  - source/skills-copilot
 ---
 
 # Oracle-to-PostgreSQL Database Migration
@@ -65,3 +69,10 @@ Confirm tests exercise both the happy path and the failure scenarios highlighted
 **Step 4: Gate the result**
 
 Return a checklist asserting each applicable insight was addressed, migration scripts run, and integration tests pass.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-copilot]] — Category: skills-copilot
+- [[MOC - Agents]] — Copilot agents
+

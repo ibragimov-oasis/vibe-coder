@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/memory
+  - artifact/memory
+  - source/memory
+---
+
 # @supermemory/tools
 
 Memory tools for AI SDK, OpenAI, and Mastra with supermemory
@@ -757,3 +764,9 @@ SUPERMEMORY_API_KEY=your_supermemory_api_key
 ANTHROPIC_API_KEY=your_anthropic_api_key  # for Claude Memory Tool
 SUPERMEMORY_BASE_URL=https://your-custom-url  # optional
 ```
+
+## 🔗 Связи
+
+- [[MOC - Memory]] — memory
+- [[000 - Map of Maps]] — Map of Maps
+

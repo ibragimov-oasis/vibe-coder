@@ -4,6 +4,10 @@ description: "Use when working with full stack orchestration full stack feature"
 risk: unknown
 source: community
 date_added: "2026-02-27"
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 ## Use this skill when
@@ -136,3 +140,9 @@ Orchestrate full-stack feature development across backend, frontend, and infrast
 - Ensure consistent error handling and API responses across services
 
 Feature to implement: $ARGUMENTS
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

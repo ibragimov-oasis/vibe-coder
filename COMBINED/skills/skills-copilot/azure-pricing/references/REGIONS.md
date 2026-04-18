@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-copilot
+---
+
 # Azure Region Names Reference
 
 The Azure Retail Prices API requires `armRegionName` values in lowercase with no spaces. Use this table to map common region names to their API values.
@@ -82,3 +89,9 @@ Users may refer to regions informally. Map these to the correct `armRegionName`:
 | "Germany", "Frankfurt" | `germanywestcentral` |
 | "France", "Paris" | `francecentral` |
 | "Sweden", "Stockholm" | `swedencentral` |
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-copilot]] — Category: skills-copilot
+

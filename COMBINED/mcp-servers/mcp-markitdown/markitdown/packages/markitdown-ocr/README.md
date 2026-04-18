@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/mcp
+  - artifact/mcp-server
+  - source/mcp-servers
+---
+
 # MarkItDown OCR Plugin
 
 LLM Vision plugin for MarkItDown that extracts text from images embedded in PDF, DOCX, PPTX, and XLSX files.
@@ -198,3 +205,9 @@ MIT — see [LICENSE](LICENSE).
 - Full-page OCR fallback for scanned PDFs
 - Context-aware inline text insertion
 - Priority-based converter replacement (no code changes required)
+
+## 🔗 Связи
+
+- [[MOC - MCP Servers]] — mcp-servers
+- [[000 - Map of Maps]] — Map of Maps
+

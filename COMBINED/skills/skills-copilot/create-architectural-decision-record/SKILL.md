@@ -1,6 +1,10 @@
 ---
 name: create-architectural-decision-record
 description: 'Create an Architectural Decision Record (ADR) document for AI-optimized decision documentation.'
+tags:
+  - domain/agents
+  - artifact/skill
+  - source/skills-copilot
 ---
 
 # Create Architectural Decision Record
@@ -95,3 +99,10 @@ superseded_by: ""
 - **REF-002**: [External documentation]
 - **REF-003**: [Standards or frameworks referenced]
 ```
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-copilot]] — Category: skills-copilot
+- [[MOC - Agents]] — Copilot agents
+

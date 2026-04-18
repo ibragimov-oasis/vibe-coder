@@ -8,6 +8,9 @@ date_added: "2026-03-17"
 author: suhaibjanjua
 tags: [typescript, trpc, api, fullstack, nextjs, react, type-safety]
 tools: [claude, cursor, gemini]
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 # tRPC Full-Stack
@@ -459,3 +462,9 @@ trpc.notification.onNew.useSubscription(undefined, {
 - [create-t3-app](https://create.t3.gg) — Production Next.js starter with tRPC wired in
 - [tRPC GitHub](https://github.com/trpc/trpc)
 - [TanStack Query Docs](https://tanstack.com/query/latest)
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

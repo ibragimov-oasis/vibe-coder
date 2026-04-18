@@ -2,6 +2,10 @@
 name: kotlin-testing
 description: Kotest, MockK, coroutine testi, property-based testing ve Kover coverage ile Kotlin test kalıpları. İdiomatic Kotlin uygulamalarıyla TDD metodolojisini takip eder.
 origin: ECC
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-everything-cc
 ---
 
 # Kotlin Test Kalıpları
@@ -576,3 +580,9 @@ test:
 ```
 
 **Hatırla**: Testler dokümantasyondur. Kotlin kodunuzun nasıl kullanılması gerektiğini gösterirler. Testleri okunabilir yapmak için Kotest'in açıklayıcı matcher'larını ve bağımlılıkları temiz mock'lamak için MockK kullanın.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

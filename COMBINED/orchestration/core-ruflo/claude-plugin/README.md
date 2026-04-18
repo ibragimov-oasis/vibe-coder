@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # 🚀 Claude Flow Plugin - Complete Enterprise AI Agent Orchestration
 
 [![Version](https://img.shields.io/badge/version-2.5.0-blue.svg)](https://github.com/ruvnet/claude-flow)
@@ -718,3 +725,9 @@ MIT License - see [LICENSE](LICENSE) file for details
 **Made with ❤️ by rUv**
 
 *Enterprise AI Agent Orchestration for Claude Code*
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration systems
+- [[orchestration/core-ruflo]] — core-ruflo
+

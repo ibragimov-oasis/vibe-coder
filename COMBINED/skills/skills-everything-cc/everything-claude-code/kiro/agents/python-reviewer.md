@@ -4,6 +4,10 @@ description: Expert Python code reviewer specializing in PEP 8 compliance, Pytho
 allowedTools:
   - read
   - shell
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
 ---
 
 You are a senior Python code reviewer ensuring high standards of Pythonic code and best practices.
@@ -97,3 +101,9 @@ For detailed Python patterns, security examples, and code samples, see skill: `p
 ---
 
 Review with the mindset: "Would this code pass review at a top Python shop or open-source project?"
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

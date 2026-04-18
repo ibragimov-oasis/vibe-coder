@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/reference
+  - source/reference
+---
+
 ## Conventional Commit Messages
 
 This is a .cursorrules prompt file for generating conventional commit messages.
@@ -11,4 +18,9 @@ This is a .cursorrules prompt file for generating conventional commit messages.
 5. Copy the conventional commit message and paste it into your terminal.
 
 Based on V1.0.0 of the Conventional Commit Messages specification: https://www.conventionalcommits.org/en/v1.0.0/#specification
+
+## 🔗 Связи
+
+- [[MOC - System]] — reference
+- [[000 - Map of Maps]] — Map of Maps
 

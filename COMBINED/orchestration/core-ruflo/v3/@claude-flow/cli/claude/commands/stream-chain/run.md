@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # stream-chain run
 
 Execute a custom stream chain with your own prompts.
@@ -68,3 +75,10 @@ Next step: Optimize for performance"
 2. **Logical Flow**: Order prompts in logical sequence
 3. **Appropriate Timeouts**: Increase for complex tasks
 4. **Verification**: Add verification steps in chain
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

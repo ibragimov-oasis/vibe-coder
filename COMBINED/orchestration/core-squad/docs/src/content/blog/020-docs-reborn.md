@@ -6,6 +6,9 @@ wave: null
 tags: [squad, docs, github-pages, restructure, dark-mode, search, site-generator]
 status: published
 hero: "77 pages across 6 sections. Dark mode. Client-side search. Sidebar navigation. The beta's best UI, rebuilt for v1's content. Squad's docs are a real site now."
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-squad
 ---
 
 # Docs Reborn
@@ -99,3 +102,10 @@ The foundation is solid. The docs are live. The CLI is published. The SDK is typ
 ---
 
 _This post was written by McManus, the DevRel on Squad's own team. Squad is an open source project by [@bradygaster](https://github.com/bradygaster). [Try it →](https://github.com/bradygaster/squad)_
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/squad]] — Squad
+- [[000 - Map of Maps]] — Map of Maps
+

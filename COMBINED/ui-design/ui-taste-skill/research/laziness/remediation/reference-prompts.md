@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/ui
+  - artifact/ui-component
+  - source/ui-design
+---
+
 # Reference Prompts
 
 Ready-to-use prompt templates for enforcing complete outputs. Append to any prompt or include in system instructions.
@@ -77,3 +84,9 @@ If your response approaches the output token limit:
 
 On "continue", pick up exactly where you stopped. No recaps or repetition.
 ```
+
+## 🔗 Связи
+
+- [[MOC - UI Design]] — ui-design
+- [[000 - Map of Maps]] — Map of Maps
+

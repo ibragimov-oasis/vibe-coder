@@ -1,6 +1,10 @@
 ---
 name: dotnet-timezone
 description: '.NET timezone handling guidance for C# applications. Use when working with TimeZoneInfo, DateTimeOffset, NodaTime, UTC conversion, daylight saving time, scheduling across timezones, cross-platform Windows/IANA timezone IDs, or when a .NET user needs the timezone for a city, address, region, or country and copy-paste-ready C# code.'
+tags:
+  - domain/agents
+  - artifact/skill
+  - source/skills-copilot
 ---
 
 # .NET Timezone
@@ -107,3 +111,10 @@ Keep responses concise and code-first.
 
 - `references/timezone-index.md`: common Windows and IANA timezone mappings
 - `references/code-patterns.md`: ready-to-use .NET timezone patterns
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-copilot]] — Category: skills-copilot
+- [[MOC - Agents]] — Copilot agents
+

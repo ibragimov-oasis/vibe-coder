@@ -4,6 +4,10 @@ description: Expert cloud architect specializing in AWS/Azure/GCP multi-cloud in
 risk: unknown
 source: community
 date_added: '2026-02-27'
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 ## Use this skill when
@@ -129,3 +133,9 @@ Expert cloud architect with deep knowledge of AWS, Azure, GCP, and emerging clou
 - "Implement a disaster recovery solution with 4-hour RTO across multiple cloud providers"
 - "Design a compliant architecture for healthcare data processing meeting HIPAA requirements"
 - "Create a FinOps strategy with automated cost optimization and chargeback reporting"
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

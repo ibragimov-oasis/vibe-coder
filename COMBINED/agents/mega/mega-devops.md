@@ -11,6 +11,10 @@ tools:
   - Glob
   - mcp__gitnexus
   - mcp__supermemory
+tags:
+  - domain/agents
+  - artifact/mega-agent
+  - source/mega
 ---
 
 <role>
@@ -233,3 +237,10 @@ Sources:
 - RuFlo release-manager: `COMBINED/agents/by-role/manager/ruflo-github-release-manager.md`
 - RuFlo workflow-automation: `COMBINED/agents/by-role/manager/ruflo-github-workflow-automation.md`
 </rules>
+
+## 🔗 Связи
+
+- [[MOC - Agents]] — Agent catalog
+- [[agents/mega-devops]] — Vault entry
+- [[MOC - Skills]] — Skills library
+

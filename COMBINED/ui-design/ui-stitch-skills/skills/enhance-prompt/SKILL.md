@@ -4,6 +4,10 @@ description: Transforms vague UI ideas into polished, Stitch-optimized prompts. 
 allowed-tools:
   - "Read"
   - "Write"
+tags:
+  - domain/ui
+  - artifact/ui-component
+  - source/ui-design
 ---
 
 # Enhance Prompt for Stitch
@@ -202,3 +206,9 @@ Add a search bar to the header navigation.
 3. **Keep it structured** — Numbered sections help Stitch understand hierarchy
 4. **Include the design system** — Consistency is key for multi-page projects
 5. **One change at a time for edits** — Don't bundle unrelated changes
+
+## 🔗 Связи
+
+- [[MOC - UI Design]] — ui-design
+- [[000 - Map of Maps]] — Map of Maps
+

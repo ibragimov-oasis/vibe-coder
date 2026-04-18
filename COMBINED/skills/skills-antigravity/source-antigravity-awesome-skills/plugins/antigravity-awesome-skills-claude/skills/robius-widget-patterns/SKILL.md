@@ -7,6 +7,10 @@ description: |
   pageflip, 组件设计, 组件模式
 risk: unknown
 source: community
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 # Robius Widget Patterns Skill
@@ -426,3 +430,9 @@ impl Widget for ItemsList {
   - Chat line variants (UserLine, BotLine, ErrorLine, etc.)
   - `CommandTextInput` with action buttons
   - Sidebar navigation with radio buttons
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/prompts
+  - artifact/prompt
+  - source/prompts-ai-systems
+---
+
 # Crafting Effective Prompts for Agentic AI Systems: Patterns and Practices
 
 ## Table of Contents
@@ -537,3 +544,9 @@ These differences highlight that there isn't a single "perfect" prompt structure
 System prompts are the bedrock upon which capable and reliable agentic AI systems are built. As demonstrated by the examples from v0, same.new, Manus, ChatGPT, and others, successful prompts are detailed, structured, and explicit. They clearly define the agent's role, meticulously outline tool usage and operational procedures, enforce planning and iterative execution, embed necessary domain knowledge and safety constraints, and guide the interaction style.
 
 For builders aiming to create the next generation of agentic AI in 2025 and beyond, studying these patterns provides invaluable insights. Mastering the craft of system prompting – blending clear instruction, structured organization, domain expertise, and safety considerations – will be key to unlocking the full potential of AI agents that can not only converse but actively collaborate and accomplish complex tasks in the digital world.
+
+## 🔗 Связи
+
+- [[MOC - Prompts]] — Prompt library
+- [[MOC - System]] — System documentation
+

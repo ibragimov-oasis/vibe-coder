@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-awesome-claude
+---
+
 # README Tree Utility
 
 This utility keeps the file tree in `docs/README-GENERATION.md` up to date using a
@@ -47,3 +54,9 @@ rules.
 make docs-tree        # Update the tree block
 make docs-tree-check  # Fail if the tree block is out of date
 ```
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-awesome-claude]] — Category: skills-awesome-claude
+

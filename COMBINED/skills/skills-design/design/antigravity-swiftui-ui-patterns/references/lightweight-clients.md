@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/ui
+  - artifact/doc
+  - source/skills-design
+---
+
 # Lightweight Clients (Closure-Based)
 
 Use this pattern to keep networking or service dependencies simple and testable without introducing a full view model or heavy DI framework. It works well for SwiftUI apps where you want a small, composable API surface that can be swapped in previews/tests.
@@ -91,3 +98,9 @@ struct MyApp: App {
 ## Pitfalls
 - Don’t put UI state in the client; keep state in the store.
 - Don’t capture `self` or view state in the client closures.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-design]] — Category: skills-design
+

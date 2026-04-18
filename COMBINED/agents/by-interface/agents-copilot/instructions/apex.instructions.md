@@ -1,6 +1,10 @@
 ---
 description: 'Guidelines and best practices for Apex development on the Salesforce Platform'
 applyTo: '**/*.cls, **/*.trigger'
+tags:
+  - domain/agents
+  - artifact/agent
+  - source/by-interface/agents-copilot
 ---
 
 # Apex Development
@@ -1292,3 +1296,9 @@ public class UserPreferenceCache {
 - Ensure code coverage meets the minimum 75% requirement (aim for 100%).
 - Use Salesforce Code Analyzer to check for code quality issues: `sf code-analyzer run --severity-threshold 2`
 - Review violations and address them before deployment.
+
+## 🔗 Связи
+
+- [[MOC - Agents]] — Agent catalog
+- [[agents/agents-copilot]] — Interface: agents-copilot
+

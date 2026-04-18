@@ -1,6 +1,10 @@
 ---
 name: claude-flow-memory
 description: Interact with Claude-Flow memory system
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
 ---
 
 # 🧠 Claude-Flow Memory System
@@ -105,3 +109,10 @@ The memory system provides persistent storage for cross-session and cross-agent 
 ```bash
 ./claude-flow memory export project-$(date +%Y%m%d).json --namespace project
 ```
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

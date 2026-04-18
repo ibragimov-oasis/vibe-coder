@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # Competitive Analysis Templates
 
 ## 1. SWOT Analysis Template
@@ -201,3 +208,9 @@ Questions competitors ask about us, and how to respond:
 #### Recent Intel
 - [Date]: [Notable change - pricing, feature, hire, funding]
 - [Date]: [Notable change]
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

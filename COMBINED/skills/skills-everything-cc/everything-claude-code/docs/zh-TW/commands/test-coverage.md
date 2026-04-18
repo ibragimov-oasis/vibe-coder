@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
+---
+
 # 測試覆蓋率
 
 分析測試覆蓋率並產生缺少的測試：
@@ -25,3 +32,9 @@
 - 錯誤處理
 - 邊界情況（null、undefined、空值）
 - 邊界條件
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

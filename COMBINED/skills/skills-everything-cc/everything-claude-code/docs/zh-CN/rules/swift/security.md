@@ -2,6 +2,10 @@
 paths:
   - "**/*.swift"
   - "**/Package.swift"
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
 ---
 
 # Swift 安全
@@ -32,3 +36,9 @@ guard let apiKey, !apiKey.isEmpty else {
 * 在显示之前清理所有用户输入，以防止注入攻击
 * 使用带验证的 `URL(string:)`，而不是强制解包
 * 在处理来自外部源（API、深度链接、剪贴板）的数据之前，先进行验证
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

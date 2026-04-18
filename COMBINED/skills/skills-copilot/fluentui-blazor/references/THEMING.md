@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-copilot
+---
+
 # Theming
 
 ## FluentDesignTheme (recommended)
@@ -101,3 +108,9 @@ protected override async Task OnAfterRenderAsync(bool firstRender)
 ## Available OfficeColor presets
 
 `Teams`, `Word`, `Excel`, `PowerPoint`, `Outlook`, `OneNote`, `Loop`, `Planner`, `SharePoint`, `Stream`, `Sway`, `Viva`, `VivaEngage`, `VivaInsights`, `VivaLearning`, `VivaTopics`.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-copilot]] — Category: skills-copilot
+

@@ -4,7 +4,10 @@ about: Suggest an idea for this project
 title: ''
 labels: feature-request
 assignees: ''
-
+tags:
+  - domain/memory
+  - artifact/memory
+  - source/memory
 ---
 
 ## Before submitting
@@ -24,3 +27,9 @@ A clear and concise description of any alternative solutions or features you've 
 
 **Additional context**
 Add any other context or screenshots about the feature request here.
+
+## 🔗 Связи
+
+- [[MOC - Memory]] — memory
+- [[000 - Map of Maps]] — Map of Maps
+

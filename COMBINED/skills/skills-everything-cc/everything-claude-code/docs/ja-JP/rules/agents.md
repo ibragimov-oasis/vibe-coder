@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-everything-cc
+---
+
 # Agent オーケストレーション
 
 ## 利用可能な Agent
@@ -47,3 +54,9 @@
 - セキュリティエキスパート
 - 一貫性レビュー担当
 - 冗長性チェック担当
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-everything-cc]] — Category: skills-everything-cc
+

@@ -3,6 +3,9 @@ title: Use UPSERT for Insert-or-Update Operations
 impact: MEDIUM
 impactDescription: Atomic operation, eliminates race conditions
 tags: upsert, on-conflict, insert, update
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
 ---
 
 ## Use UPSERT for Insert-or-Update Operations
@@ -48,3 +51,9 @@ on conflict (page_id, user_id) do nothing;
 ```
 
 Reference: [INSERT ON CONFLICT](https://www.postgresql.org/docs/current/sql-insert.html#SQL-ON-CONFLICT)
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

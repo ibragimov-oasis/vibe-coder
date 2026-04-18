@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/memory
+  - artifact/memory
+  - source/memory
+---
+
 # Issue #555 Analysis: Windows Hooks Not Executing - hasIpc Always False
 
 **Date:** 2026-01-05
@@ -277,3 +284,9 @@ if (IS_WINDOWS) {
 5. Claude Code processes hook output
 
 The failure occurs at step 3 when the shell cannot resolve the command or environment variables.
+
+## 🔗 Связи
+
+- [[MOC - Memory]] — memory
+- [[000 - Map of Maps]] — Map of Maps
+

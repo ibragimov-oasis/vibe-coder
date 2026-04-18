@@ -3,6 +3,10 @@ name: claimable-postgres
 description: Provision instant temporary Postgres databases via Claimable Postgres by Neon (pg.new). No login or credit card required. Use for quick Postgres environments and throwaway DATABASE_URL for prototyping.
 risk: unknown
 source: community
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 # Claimable Postgres
@@ -220,3 +224,9 @@ If the agent needs a database to fulfill a task (e.g. "build me a todo app with 
 
 ## When to Use
 Use this skill when tackling tasks related to its primary domain or functionality as described above.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

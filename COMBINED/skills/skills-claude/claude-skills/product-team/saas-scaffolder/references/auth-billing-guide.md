@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # Authentication & Billing Implementation Guide
 
 ## Overview
@@ -194,3 +201,9 @@ Check flow:
 - Show upgrade prompts at limit boundaries (not hard blocks)
 - Provide grace periods for brief overages
 - Track usage for plan recommendation engine
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

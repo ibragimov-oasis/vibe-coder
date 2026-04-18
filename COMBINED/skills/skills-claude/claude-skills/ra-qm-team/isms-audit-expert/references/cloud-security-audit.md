@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
+---
+
 # Cloud Security Audit Guide
 
 Assessment framework for cloud service security verification.
@@ -224,3 +231,9 @@ Request and review:
 - [ ] API access logged
 - [ ] Rate limiting configured
 - [ ] API permissions follow least privilege
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

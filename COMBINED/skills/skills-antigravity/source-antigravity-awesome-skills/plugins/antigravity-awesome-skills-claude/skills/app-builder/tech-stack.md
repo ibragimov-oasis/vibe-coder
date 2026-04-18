@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 # Tech Stack Selection (2025)
 
 > Default and alternative technology choices for web applications.
@@ -38,3 +45,9 @@ Monorepo:
 | Payment | Stripe | LemonSqueezy, Paddle |
 | Email | - | Resend, SendGrid |
 | Search | - | Algolia, Typesense |
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

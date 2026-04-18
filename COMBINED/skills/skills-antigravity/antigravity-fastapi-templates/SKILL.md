@@ -4,6 +4,10 @@ description: "Create production-ready FastAPI projects with async patterns, depe
 risk: unknown
 source: community
 date_added: "2026-02-27"
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-antigravity
 ---
 
 # FastAPI Project Templates
@@ -33,3 +37,9 @@ Production-ready FastAPI project structures with async patterns, dependency inje
 ## Resources
 
 - `resources/implementation-playbook.md` for detailed patterns and examples.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

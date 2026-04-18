@@ -1,6 +1,10 @@
 ---
 name: agent-matrix-optimizer
 description: Agent skill for matrix-optimizer - invoke with $agent-matrix-optimizer
+tags:
+  - domain/skills
+  - artifact/skill
+  - source/skills-ruflo
 ---
 
 ---
@@ -188,3 +192,9 @@ const result = await mcp__flow-nexus__sandbox_execute({
 - **Support pagerank-analyzer** with graph matrix optimizations
 
 The Matrix Optimizer Agent serves as the foundation for all matrix-based operations in the sublinear solver ecosystem, ensuring optimal performance and numerical stability across all computational tasks.
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-ruflo]] — Category: skills-ruflo
+

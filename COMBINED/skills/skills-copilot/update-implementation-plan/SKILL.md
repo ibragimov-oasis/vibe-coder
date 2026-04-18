@@ -1,6 +1,10 @@
 ---
 name: update-implementation-plan
 description: 'Update an existing implementation plan file with new or update requirements to provide new features, refactoring existing code or upgrading packages, design, architecture or infrastructure.'
+tags:
+  - domain/agents
+  - artifact/skill
+  - source/skills-copilot
 ---
 
 # Update Implementation Plan
@@ -155,3 +159,10 @@ tags: [Optional: List of relevant tags or categories, e.g., `feature`, `upgrade`
 [Link to related spec 1]
 [Link to relevant external documentation]
 ```
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-copilot]] — Category: skills-copilot
+- [[MOC - Agents]] — Copilot agents
+

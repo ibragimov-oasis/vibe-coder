@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
+---
+
 <!-- Updated: 2026-02-07 -->
 # Local Service Business SEO Strategy Template
 
@@ -158,3 +165,9 @@ To optimize for AI local visibility:
 - [ ] Include original photos of work, team, and location
 - [ ] Structure FAQ content for common local service questions
 - [ ] Monitor AI citation in ChatGPT and Perplexity local recommendations
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

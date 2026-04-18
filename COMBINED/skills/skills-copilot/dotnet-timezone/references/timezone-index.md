@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-copilot
+---
+
 # .NET Timezone Reference Index
 
 ## Windows To IANA Mapping
@@ -85,3 +92,9 @@ foreach (var tz in TimeZoneInfo.GetSystemTimeZones())
     Console.WriteLine($"ID: {tz.Id} | Display: {tz.DisplayName}");
 }
 ```
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-copilot]] — Category: skills-copilot
+

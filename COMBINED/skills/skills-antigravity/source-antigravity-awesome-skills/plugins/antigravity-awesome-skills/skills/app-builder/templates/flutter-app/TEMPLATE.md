@@ -1,6 +1,10 @@
 ---
 name: flutter-app
 description: Flutter mobile app template principles. Riverpod, Go Router, clean architecture.
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/skills-antigravity
 ---
 
 # Flutter App Template
@@ -88,3 +92,9 @@ project_name/
 - Freezed for immutable data classes
 - Go Router for declarative navigation
 - Material 3 theming
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-antigravity]] — Category: skills-antigravity
+

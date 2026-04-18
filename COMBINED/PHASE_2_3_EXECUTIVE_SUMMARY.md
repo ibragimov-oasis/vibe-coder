@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/skills
+  - artifact/doc
+  - source/combined-root
+---
+
 # Phase 2 Continued + Phase 3 Status: Executive Summary
 ## Date: 2026-04-07T17:02:00Z
 
@@ -364,3 +371,8 @@ Both valuable - your choice!
 **Generated**: 2026-04-07T17:02:00Z
 **Status**: Phase 2 Continued + Phase 3 Investigation Complete ✅
 **Next**: Awaiting user direction for Phase 4
+
+## 🔗 Связи
+
+- [[000 - Map of Maps]] — Map of Maps
+

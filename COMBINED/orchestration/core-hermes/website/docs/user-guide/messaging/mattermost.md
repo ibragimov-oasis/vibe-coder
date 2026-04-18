@@ -2,6 +2,10 @@
 sidebar_position: 8
 title: "Mattermost"
 description: "Set up Hermes Agent as a Mattermost bot"
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-hermes
 ---
 
 # Mattermost Setup
@@ -294,3 +298,10 @@ For more information on securing your Hermes Agent deployment, see the [Security
 - **Self-hosted friendly**: Works with any self-hosted Mattermost instance. No Mattermost Cloud account or subscription required.
 - **No extra dependencies**: The adapter uses `aiohttp` for HTTP and WebSocket, which is already included with Hermes Agent.
 - **Team Edition compatible**: Works with both Mattermost Team Edition (free) and Enterprise Edition.
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/hermes]] — Hermes
+- [[000 - Map of Maps]] — Map of Maps
+

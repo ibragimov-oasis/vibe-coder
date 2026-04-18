@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-copilot
+---
+
 # Deployment & Operational Patterns
 
 ## Compute Resource Consolidation Pattern
@@ -89,3 +96,9 @@
 - Implement caching headers appropriately
 - Use CDN for global content distribution
 - Secure content with SAS tokens if needed
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-copilot]] — Category: skills-copilot
+

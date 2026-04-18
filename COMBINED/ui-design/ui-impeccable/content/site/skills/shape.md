@@ -1,5 +1,9 @@
 ---
 tagline: "Think before you build. Produce a design brief through discovery, not guesswork."
+tags:
+  - domain/ui
+  - artifact/ui-component
+  - source/ui-design
 ---
 
 ## When to use it
@@ -38,3 +42,9 @@ From there you can hand the brief to `/impeccable`, `/polish`, or any other skil
 - **Skipping it because it feels slow.** The interview is maybe 5 minutes. The rewrites you avoid are measured in hours.
 - **Treating the brief as a spec.** It is a compass, not a checklist. It captures intent, not UI.
 - **Answering with "standard" or "normal".** Specificity is the whole point. If a user is "rushed, on mobile, between meetings", say so. That changes everything downstream.
+
+## 🔗 Связи
+
+- [[MOC - UI Design]] — ui-design
+- [[000 - Map of Maps]] — Map of Maps
+

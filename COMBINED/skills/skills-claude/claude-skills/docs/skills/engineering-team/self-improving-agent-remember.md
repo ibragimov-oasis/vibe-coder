@@ -1,6 +1,10 @@
 ---
 title: "/si:remember — Save Knowledge Explicitly — Agent Skill & Codex Plugin"
 description: "Explicitly save important knowledge to auto-memory with timestamp and context. Use when a discovery is too important to rely on auto-capture. Agent skill for Claude Code, Codex CLI, Gemini CLI, OpenClaw."
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
 ---
 
 # /si:remember — Save Knowledge Explicitly
@@ -107,3 +111,9 @@ If the knowledge sounds like a rule (imperative, always/never, convention):
   - ✅ "Build with `pnpm build`, tests with `pnpm test:e2e`"
   - ❌ "The project uses pnpm for building and testing"
 - If you're remembering the same thing twice, promote it to CLAUDE.md
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

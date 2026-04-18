@@ -1,6 +1,10 @@
 ---
 title: "Product Team Skills — Agent Skill for Product Teams"
 description: "10 product agent skills and plugins for Claude Code, Codex, Gemini CLI, Cursor, OpenClaw. PM toolkit (RICE), agile PO, product strategist (OKR), UX."
+tags:
+  - domain/agents
+  - artifact/doc
+  - source/skills-claude
 ---
 
 # Product Team Skills
@@ -56,3 +60,9 @@ python3 product-strategist/scripts/okr_cascade_generator.py --help
 
 - Load only the specific skill SKILL.md you need
 - Use Python tools for scoring and analysis, not manual judgment
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills library
+- [[skills/skills-claude]] — Category: skills-claude
+

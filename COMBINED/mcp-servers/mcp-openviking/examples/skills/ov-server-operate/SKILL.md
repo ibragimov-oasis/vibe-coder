@@ -2,6 +2,10 @@
 name: ov-server-operate
 description: Operate and maintain OpenViking server - configure, install, start, stop, and cleanup the server. Use when need to setup or manage OpenViking service deployment.
 compatibility: OpenViking CLI configured at `~/.openviking/ovcli.conf`
+tags:
+  - domain/mcp
+  - artifact/mcp-server
+  - source/mcp-servers
 ---
 
 # OpenViking Server Operations
@@ -438,3 +442,9 @@ print("API keys set:", bool(cfg.get("embedding", {}).get("dense", {}).get("api_k
 - Sufficient disk space for workspace and log
 - API keys for embedding and VLM models configured
 - Network access to model providers (if using cloud models)
+
+## 🔗 Связи
+
+- [[MOC - MCP Servers]] — mcp-servers
+- [[000 - Map of Maps]] — Map of Maps
+

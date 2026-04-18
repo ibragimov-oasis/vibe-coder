@@ -1,3 +1,10 @@
+---
+tags:
+  - domain/orchestration
+  - artifact/workflow
+  - source/core-ruflo
+---
+
 # ✅ Verification Complete - Full Claude-Flow Compatibility
 
 ## Executive Summary
@@ -368,3 +375,10 @@ Open an issue: [GitHub Issues](https://github.com/ruvnet/claude-flow/issues)
 Use them with confidence - all data is preserved, all features work, and all tests pass.
 
 **Happy reasoning!** 🧠✨
+
+## 🔗 Связи
+
+- [[MOC - Orchestration]] — Orchestration hub
+- [[orchestration/ruflo]] — RuFlo
+- [[000 - Map of Maps]] — Map of Maps
+

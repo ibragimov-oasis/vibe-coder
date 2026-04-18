@@ -49,3 +49,9 @@ source: "../COMBINED/reference/reference-selfhosted/"
 
 - [[mcp-servers/mcp-toolbox]] — self-hosted DB connections
 - [[orchestration/core-cc-connect]] — remote access setup
+
+## 🔗 Связи
+
+- [[MOC - System]] — Parent MOC
+- [[000 - Map of Maps]] — Map of Maps
+
