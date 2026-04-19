@@ -63,6 +63,9 @@ Claude-SEO + Antigravity + **SEOMachine (10 агентов, 26 навыков, G
 
 - [[MOC - Agents]] — родительский хаб
 - [[MOC - Skills]] — skills-seo
+- [[skills/skills-seo]] — SEOMachine 26 навыков
+- [[mcp-servers/mcp-lightpanda]] — браузер для SEO скрапинга
+- [[mcp-servers/mcp-supermemory]] — память для SEO инсайтов
 
 ## Исходник
 
@@ -71,5 +74,6 @@ Claude-SEO + Antigravity + **SEOMachine (10 агентов, 26 навыков, G
 ## 🔗 Связи
 
 - [[MOC - Agents]] — Parent MOC
+- [[MOC - Skills]] — Skills library
 - [[000 - Map of Maps]] — Map of Maps
 

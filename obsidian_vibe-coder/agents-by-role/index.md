@@ -31,17 +31,17 @@ source: "../COMBINED/agents/by-role/"
 | [[agents-by-role/reviewer]] | 9 | Code review | [[agents/mega-reviewer]] |
 | [[agents-by-role/security]] | 6 | Безопасность | [[agents/mega-security]] |
 | [[agents-by-role/ui-specialist]] | 7 | UI/UX дизайн | [[agents/mega-designer]] |
-| [[agents-by-role/business]] | 7 | Бизнес и управление | [[agents/mega-planner]] |
+| [[agents-by-role/other-roles\|business]] | 7 | Бизнес и управление | [[agents/mega-planner]] |
 | [[agents-by-role/architect]] | 5 | Системная архитектура | [[agents/mega-architect]] |
 | [[agents-by-role/writer]] | 4 | Документация | [[agents/mega-writer]] |
 | [[agents-by-role/debugger]] | 3 | Дебаг | [[agents/mega-debugger]] |
-| [[agents-by-role/devops]] | 2 | DevOps | [[agents/mega-devops]] |
-| [[agents-by-role/executor]] | 2 | Выполнение планов | [[agents/mega-executor]] |
-| [[agents-by-role/scientist]] | 2 | Научные исследования | [[agents/mega-researcher]] |
-| [[agents-by-role/analyst]] | 1 | Анализ | [[agents/mega-researcher]] |
-| [[agents-by-role/plan-checker]] | 1 | Проверка планов | [[agents/mega-planner]] |
-| [[agents-by-role/synthesizer]] | 1 | Синтез исследований | [[agents/mega-researcher]] |
-| [[agents-by-role/verifier]] | 2 | Верификация | [[agents/mega-reviewer]] |
+| [[agents-by-role/other-roles\|devops]] | 2 | DevOps | [[agents/mega-devops]] |
+| [[agents-by-role/other-roles\|executor]] | 2 | Выполнение планов | [[agents/mega-executor]] |
+| [[agents-by-role/other-roles\|scientist]] | 2 | Научные исследования | [[agents/mega-researcher]] |
+| [[agents-by-role/other-roles\|analyst]] | 1 | Анализ | [[agents/mega-researcher]] |
+| [[agents-by-role/other-roles\|plan-checker]] | 1 | Проверка планов | [[agents/mega-planner]] |
+| [[agents-by-role/other-roles\|synthesizer]] | 1 | Синтез исследований | [[agents/mega-researcher]] |
+| [[agents-by-role/other-roles\|verifier]] | 2 | Верификация | [[agents/mega-reviewer]] |
 
 ## Принцип делегирования (OMC)
 

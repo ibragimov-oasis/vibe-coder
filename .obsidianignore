@@ -1,0 +1,13 @@
+# Obsidian graph ignore — exclude raw source directories from indexing.
+# Vault is scoped to obsidian_vibe-coder/ (207 curated notes).
+# Everything else is source material, not a knowledge-graph node.
+
+COMBINED/
+new_repos/
+.claude/
+.github/
+.gemini/
+.codex/
+.antigravity/
+.code-review-graph/
+node_modules/

@@ -61,6 +61,10 @@ git push && gh pr create --base dev
 
 - [[MOC - Agents]] — родительский хаб
 - [[MOC - Orchestration]] — cc-connect system
+- [[skills/skills-devops]] — DevOps skills
+- [[skills/skills-development]] — git-guardrails (Matt Pocock)
+- [[orchestration/core-cc-connect]] — remote access 10 platforms
+- [[orchestration/core-omc]] — OMC multi-agent DevOps
 
 ## Исходник
 
@@ -69,5 +73,6 @@ git push && gh pr create --base dev
 ## 🔗 Связи
 
 - [[MOC - Agents]] — Parent MOC
+- [[MOC - Orchestration]] — Orchestration systems
 - [[000 - Map of Maps]] — Map of Maps
 

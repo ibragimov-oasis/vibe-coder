@@ -268,3 +268,9 @@ Full methodology: `COMBINED/skills/skills-antigravity/antigravity-context-compre
 | Save learning | Supermemory | `npx -y supermemory add "<text>"` |
 | Session memory | Claude-Mem | Auto (Claude Code plugin) |
 | Context database | OpenViking | `ov find "<query>"` |
+
+
+## 🔗 Связи
+
+- [[MOC - Memory]] — Memory systems overview
+- [[000 - Map of Maps]] — Root index
