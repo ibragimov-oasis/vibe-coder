@@ -61,6 +61,9 @@ Enterprise-grade оркестрация:
 
 - [[MOC - Agents]] — родительский хаб
 - [[MOC - Orchestration]] — Squad и Multica системы
+- [[orchestration/core-squad]] — Squad: AI teams via Copilot
+- [[orchestration/core-multica]] — Multica: agent platform
+- [[orchestration/core-ruflo]] — RuFlo: 80+ agents, Q-Learning
 
 ## Исходник
 
@@ -69,5 +72,6 @@ Enterprise-grade оркестрация:
 ## 🔗 Связи
 
 - [[MOC - Agents]] — Parent MOC
+- [[MOC - Orchestration]] — Orchestration systems
 - [[000 - Map of Maps]] — Map of Maps
 

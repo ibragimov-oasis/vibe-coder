@@ -28,10 +28,10 @@ Pre/post хуки для всех основных систем оркестра
 |-------|---------|----------|
 | `hooks-1code/` | [[orchestration/core-1code\|1Code]] | лёгкие хуки |
 | `hooks-background-agents/` | [[orchestration/core-background-agents\|Background Agents]] | async хуки |
-| `hooks-gsd/` | [[orchestration/core-gsd\|GSD]] | pre/post task хуки |
-| `hooks-omc/` | [[orchestration/core-omc\|OMC]] | team coordination хуки |
-| `hooks-ruflo/` | [[orchestration/core-ruflo\|RuFlo]] | enterprise хуки |
-| `hooks-superpowers/` | [[orchestration/superpowers\|Superpowers]] | TDD/review хуки |
+| `hooks-gsd/` | [[orchestration/core-gsd|GSD]] | pre/post task хуки |
+| `hooks-omc/` | [[orchestration/core-omc|OMC]] | team coordination хуки |
+| `hooks-ruflo/` | [[orchestration/core-ruflo|RuFlo]] | enterprise хуки |
+| `hooks-superpowers/` | [[orchestration/superpowers|Superpowers]] | TDD/review хуки |
 
 ## Связи
 
@@ -46,6 +46,6 @@ Pre/post хуки для всех основных систем оркестра
 
 ## 🔗 Связи
 
-- [[000 - Map of Maps]] — Parent MOC
+- [[MOC - Orchestration]] — Parent MOC
 - [[000 - Map of Maps]] — Map of Maps
 

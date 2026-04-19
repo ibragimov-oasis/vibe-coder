@@ -48,6 +48,8 @@ git push && gh pr create --base dev
 
 - [[MOC - System]] — родительский хаб
 - [[root-docs/README]] — обзор проекта
+- [[root-docs/PIPELINE_TRIGGER]] — agent routing decisions
+- [[_governance/VAULT_GOVERNANCE]] — vault contribution rules
 
 ## Исходник
 
@@ -55,6 +57,7 @@ git push && gh pr create --base dev
 
 ## 🔗 Связи
 
-- [[000 - Map of Maps]] — Parent MOC
+- [[MOC - System]] — System overview
+- [[root-docs/README]] — Project README
 - [[000 - Map of Maps]] — Map of Maps
 

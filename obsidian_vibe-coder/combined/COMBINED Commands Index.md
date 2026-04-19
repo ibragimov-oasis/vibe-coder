@@ -26,11 +26,11 @@ source: "../COMBINED/commands/"
 
 | Набор | Система | Описание |
 |-------|---------|----------|
-| `commands-gsd/` | [[orchestration/core-gsd\|GSD]] | spec, plan, exec |
-| `commands-omc/` | [[orchestration/core-omc\|OMC]] | team-plan, team-prd, team-exec |
-| `commands-ruflo/` | [[orchestration/core-ruflo\|RuFlo]] | enterprise workflow команды |
-| `commands-shannon/` | [[combined/Security Overview\|Shannon]] | security audit команды |
-| `commands-superpowers/` | [[orchestration/superpowers\|Superpowers]] | brainstorming, plan, tdd |
+| `commands-gsd/` | [[orchestration/core-gsd|GSD]] | spec, plan, exec |
+| `commands-omc/` | [[orchestration/core-omc|OMC]] | team-plan, team-prd, team-exec |
+| `commands-ruflo/` | [[orchestration/core-ruflo|RuFlo]] | enterprise workflow команды |
+| `commands-shannon/` | [[combined/Security Overview|Shannon]] | security audit команды |
+| `commands-superpowers/` | [[orchestration/superpowers|Superpowers]] | brainstorming, plan, tdd |
 
 ## Связи
 
@@ -45,6 +45,6 @@ source: "../COMBINED/commands/"
 
 ## 🔗 Связи
 
-- [[000 - Map of Maps]] — Parent MOC
+- [[MOC - Orchestration]] — Parent MOC
 - [[000 - Map of Maps]] — Map of Maps
 

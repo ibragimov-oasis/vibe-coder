@@ -65,3 +65,12 @@ type: moc
 - `prompts-ai-systems` — [Awesome AI System Prompts](https://github.com/dontriskit/awesome-ai-system-prompts)
 - `prompts-system-models` — [System Prompts and Models](https://github.com/x1xhlol/system-prompts-and-models)
 - `prompts-templates` — RuFlo + GSD + OMC + vibe-coding-template
+
+## 🔗 Связи
+
+- [[MOC - Skills]] — Skills use prompts
+- [[MOC - Agents]] — Agents run on system prompts
+- [[MOC - System]] — ULTRACAR architecture
+- [[prompts/prompts-ai-systems]] — AI system prompts collection
+- [[prompts/prompts-templates]] — Reusable prompt templates
+- [[000 - Map of Maps]] — Map of Maps

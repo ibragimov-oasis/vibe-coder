@@ -21,4 +21,7 @@ type: moc
 ## 🔗 Связи
 
 - [[000 - Map of Maps]] — Map of Maps
+- [[MOC - System]] — System overview
+- [[_governance/VAULT_GOVERNANCE]] — Vault governance
+- [[_audit/COVERAGE_REPORT]] — Coverage audit
 

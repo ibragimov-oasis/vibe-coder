@@ -136,6 +136,8 @@ status: active
 
 ## 🔗 Ссылки
 
-- [[VAULT_GOVERNANCE]] — Правила vault
-- [[NOTE_TEMPLATE]] — Шаблон с примером тегов
+- [[_governance/VAULT_GOVERNANCE]] — Правила vault
+- [[_governance/NOTE_TEMPLATE]] — Шаблон с примером тегов
+- [[_governance/NEW_DOC_CHECKLIST]] — Чеклист новой заметки
 - [[000 - Map of Maps]] — Главная карта
+- [[MOC - System]] — System overview

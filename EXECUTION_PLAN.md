@@ -282,3 +282,9 @@ Files now exist in DUAL locations:
 **Plan Created**: 2026-04-08 03:40 UTC
 **Ready for Execution**: YES
 **Awaiting**: Proceed with STEP 1 (Organize by-role files)
+
+
+## 🔗 Связи
+
+- [[MOC - System]] — System overview
+- [[000 - Map of Maps]] — Root index

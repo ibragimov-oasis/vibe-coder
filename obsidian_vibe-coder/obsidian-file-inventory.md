@@ -1,3 +1,17 @@
+---
+title: Obsidian File Inventory Report
+tags:
+  - domain/obsidian
+  - artifact/report
+  - status/active
+  - source/root
+aliases:
+  - file inventory
+  - vault census
+created: 2026-04-19
+type: report
+---
+
 # Obsidian File Inventory Report
 
 This file contains a repository-wide inventory for Obsidian knowledge graph analysis.
@@ -152,3 +166,10 @@ This file contains a repository-wide inventory for Obsidian knowledge graph anal
 ---
 
 _Generated automatically: 2026-04-19 (UTC)._
+
+## 🔗 Связи
+
+- [[MOC - Sessions]] — All session reports
+- [[000 - Map of Maps]] — Root index
+- [[_governance/VAULT_GOVERNANCE]] — Vault governance
+- [[_audit/COVERAGE_REPORT]] — Coverage audit
