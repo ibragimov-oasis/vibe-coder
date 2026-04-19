@@ -5,7 +5,7 @@ tags:
   - artifact/audit
   - status/active
 created: 2026-01-01
-updated: 2026-04-18
+updated: 2026-04-19
 type: audit
 ---
 
@@ -23,3 +23,4 @@ type: audit
 - [[MOC - System]] — Parent MOC
 - [[000 - Map of Maps]] — Map of Maps
 
+| 2026-04-19 | obsidian-file-inventory-report | memory | obsidian,inventory,knowledge-graph | [[sessions/2026-04-19-0613-obsidian-file-inventory-report]] |
