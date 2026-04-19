@@ -1,17 +1,17 @@
 # Obsidian File Inventory Report
 
-Этот файл содержит инвентаризацию файлов репозитория для анализа графа знаний в Obsidian.
+This file contains a repository-wide inventory for Obsidian knowledge graph analysis.
 
-## 1) Общие количества
+## 1) Overall totals
 
-- Всего файлов (кроме `.git`): **80478**
-- Markdown-файлов (`.md`): **22589** (28.07%)
-- Не-Markdown файлов: **57889** (71.93%)
-- Оценка вложений, которые обычно используют в Obsidian (изображения/PDF/аудио/видео/canvas/excalidraw): **1280**
+- Total files (excluding `.git`): **80478**
+- Markdown files (`.md`): **22589** (28.07%)
+- Non-Markdown files: **57889** (71.93%)
+- Estimated Obsidian attachment files (images/PDF/audio/video/canvas/excalidraw): **1280**
 
-## 2) Топ расширений файлов (по количеству)
+## 2) Top file extensions by count
 
-| Расширение | Количество | Доля от всех файлов |
+| Extension | Count | Share of all files |
 |---|---:|---:|
 | `.md` | 22589 | 28.07% |
 | `.py` | 10874 | 13.51% |
@@ -54,11 +54,11 @@
 | `.wav` | 89 | 0.11% |
 | `.svelte` | 86 | 0.11% |
 
-## 3) Разбивка Markdown по типам контента
+## 3) Markdown content breakdown
 
-### 3.1 Primary-категории (взаимоисключающие)
+### 3.1 Primary categories (mutually exclusive)
 
-| Категория | Количество | Доля от `.md` |
+| Category | Count | Share of `.md` |
 |---|---:|---:|
 | `skills` | 14115 | 62.49% |
 | `prompts` | 314 | 1.39% |
@@ -66,9 +66,9 @@
 | `docs_readme` | 3302 | 14.62% |
 | `other_markdown` | 3499 | 15.49% |
 
-### 3.2 Multi-tag категории (файл может входить сразу в несколько)
+### 3.2 Multi-tag categories (a file can be counted in multiple groups)
 
-| Категория | Количество |
+| Category | Count |
 |---|---:|
 | `skills_md` | 14115 |
 | `prompts_md` | 328 |
@@ -76,16 +76,16 @@
 | `instructions_md` | 175 |
 | `docs_or_readme_md` | 4904 |
 
-## 4) Признаки связности для графа Obsidian
+## 4) Obsidian graph connectivity signals
 
-- Файлов с wiki-ссылками `[[...]]`: **22322** из **22589** (98.82%)
-- Всего вхождений wiki-ссылок: **52870**
-- Файлов с YAML frontmatter: **22038** из **22589** (97.56%)
-- Файлов с тегами `#tag` (оценка): **3442** из **22589** (15.24%)
+- Files with wiki-links `[[...]]`: **22322** out of **22589** (98.82%)
+- Total wiki-link occurrences: **52870**
+- Files with YAML frontmatter: **22038** out of **22589** (97.56%)
+- Files with hashtag tags `#tag` (estimated): **3442** out of **22589** (15.24%)
 
-## 5) Повторяющиеся имена Markdown-файлов (частая причина "одинаковых" узлов)
+## 5) Repeated Markdown filenames (common cause of visually similar nodes)
 
-| Имя файла | Количество |
+| Filename | Count |
 |---|---:|
 | `SKILL.md` | 6948 |
 | `README.md` | 996 |
@@ -108,9 +108,9 @@
 | `coding-style.md` | 35 |
 | `DESCRIPTION.md` | 35 |
 
-## 6) Где сосредоточены Markdown-файлы (топ директорий)
+## 6) Markdown concentration by directory (top entries)
 
-| Папка (глубина 2) | Количество `.md` |
+| Directory (depth 2) | `.md` count |
 |---|---:|
 | `COMBINED/skills` | 12403 |
 | `COMBINED/orchestration` | 5109 |
@@ -143,11 +143,11 @@
 | `COMBINED/hooks` | 8 |
 | `obsidian_vibe-coder/_governance` | 5 |
 
-## 7) Краткие выводы для следующего этапа
+## 7) Key findings for the next phase
 
-- Основная масса `.md` сосредоточена в `COMBINED/skills` и `COMBINED/orchestration`.
-- Очень много файлов с одинаковым именем `SKILL.md`, поэтому в графе визуально много однотипных узлов.
-- По оценке, узлы есть, но для улучшения читаемости графа важны единые правила ссылок, тегов и MOC-хабов.
+- Most Markdown files are concentrated in `COMBINED/skills` and `COMBINED/orchestration`.
+- There are many repeated filenames (especially `SKILL.md`), which explains many similar labels in graph view.
+- Nodes already exist at scale, but graph readability still depends on consistent wiki-links, tags, and MOC hub pages.
 
 ---
 
