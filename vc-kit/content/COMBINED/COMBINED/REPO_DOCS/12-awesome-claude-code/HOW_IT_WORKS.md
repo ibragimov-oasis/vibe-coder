@@ -92,7 +92,7 @@ These files were hidden (dot-prefix) in original but renamed in local vibe-coder
 
 ---
 
-## Key insights for ULTRACAR integration
+## Key insights for Vibe-Coder integration
 
 - This is a **meta-resource** — it doesn't provide skills itself, but catalogs 200+ resources across skills, hooks, commands, tooling, workflows, CLAUDE.md files, and clients
 - The `evaluate-repository.md` command is valuable as a reusable quality gate for evaluating any Claude Code extension

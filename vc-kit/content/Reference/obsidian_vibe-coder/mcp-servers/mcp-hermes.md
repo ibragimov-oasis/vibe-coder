@@ -32,7 +32,7 @@ MCP-сервер Hermes self-learning loop: инструменты для изв
 
 ## Место в пайплайне
 
-Step 2 основного пайплайна ULTRACAR (после Background Agent).
+Step 2 основного пайплайна Vibe-Coder (после Background Agent).
 
 ## Связи
 

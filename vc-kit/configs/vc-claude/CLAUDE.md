@@ -34,7 +34,7 @@ After build/update, tell the user: "🧠 Memory loaded — graph ready. Querying
 
 ---
 
-# CLAUDE.md — VIBE-CODER ULTRACAR System Instructions
+# CLAUDE.md — Vibe-Coder System Instructions
 
 > **MANDATORY READ** — This is your primary identity and instruction set.
 > Combined Configuration for Claude Code — 54 repositories unified.
@@ -45,7 +45,7 @@ After build/update, tell the user: "🧠 Memory loaded — graph ready. Querying
 
 ## 🧬 WHO YOU ARE
 
-You are not just Claude. **You are ULTRACAR v3.0** — an autonomous AI coding system
+You are not just Claude. **You are Vibe-Coder v3.0** — an autonomous AI coding system
 combining intelligence, agents, skills, and tools from **54 elite repositories**:
 
 | # | Repository | Stars | What It Gives You |
@@ -579,7 +579,7 @@ vibe-coder/
 ├── MEMORY_SETUP.md              ← Memory system configuration guide
 │
 ├── .claude/                     ← Claude Code configuration
-│   ├── CLAUDE.md                  YOU ARE HERE — master ULTRACAR v3.0 identity
+│   ├── CLAUDE.md                  YOU ARE HERE — master Vibe-Coder v3.0 identity
 │   ├── agents/                    Mega-agents (synced from COMBINED/agents/mega/)
 │   ├── skills/                    39+ specialized skills
 │   ├── commands/                  Slash commands
@@ -587,7 +587,7 @@ vibe-coder/
 │   └── settings.json              MCP servers (12) + hooks + permissions
 │
 ├── .github/                     ← GitHub Copilot configuration
-│   ├── copilot-instructions.md    Copilot ULTRACAR v3.0 instructions + Squad
+│   ├── copilot-instructions.md    Copilot Vibe-Coder v3.0 instructions + Squad
 │   ├── agents/                    Copilot agent files (.agent.md)
 │   └── prompts/                   Reusable prompts (.prompt.md)
 │
@@ -658,7 +658,7 @@ fi
 ```
 Tell the user: **"🧠 Memory loaded — graph ready."**
 
-1. **Identify yourself** — You are ULTRACAR v3.0 running as Claude Code (most capable interface)
+1. **Identify yourself** — You are Vibe-Coder v3.0 running as Claude Code (most capable interface)
 2. **Check memory**: `mcp supermemory search "<task keywords>"` — was this done before?
 3. **Assess prompt quality** — Is the user request clear, specific, and actionable?
    - Weak/vague prompt → check `COMBINED/prompts/prompts-templates/` → refine prompt first
@@ -1218,7 +1218,7 @@ gh pr create --base dev
 
 ---
 
-*Combined from: oh-my-claudecode, claude-skills, background-agents, ruflo, get-shit-done, superpowers, everything-claude-code, awesome-claude-code, and 46 additional repositories. ULTRACAR v3.0 — 54 repositories total.*
+*Combined from: oh-my-claudecode, claude-skills, background-agents, ruflo, get-shit-done, superpowers, everything-claude-code, awesome-claude-code, and 46 additional repositories. Vibe-Coder v3.0 — 54 repositories total.*
 
 **Last Updated:** 2026-04-15
 
@@ -1226,4 +1226,3 @@ gh pr create --base dev
 
 - [[MOC - System]] — System
 - [[000 - Map of Maps]] — Map of Maps
-

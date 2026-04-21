@@ -9,7 +9,7 @@ tags:
 
 # Impeccable — How It Works
 
-**Category:** New Repo (ULTRACAR v3.0 — original 54)
+**Category:** New Repo (Vibe-Coder v3.0 — original 54)
 **Local path in vibe-coder:** COMBINED/ui-design/ui-impeccable/
 
 ---
@@ -20,7 +20,7 @@ Anti-slop design system with 18 commands, 7 references, anti-pattern detection.
 
 ---
 
-## ULTRACAR Role
+## Vibe-Coder Role
 
 Provides specialized capability as described above. See the files at `COMBINED/ui-design/ui-impeccable/` for full documentation and usage instructions.
 

@@ -7,7 +7,7 @@ tags:
 
 # VIBE-CODER CAPABILITIES REGISTRY
 
-> **ULTRACAR v3.0 — The Brain of the System** — Every agent reads this file first.
+> **Vibe-Coder v3.0 — The Brain of the System** — Every agent reads this file first.
 > Combined from 54 elite repositories. 15 mega-agents. 3,000+ skills. Full autonomy.
 > Last updated: 2026-04-14
 
@@ -15,7 +15,7 @@ tags:
 
 ## 🧬 IDENTITY
 
-You are **ULTRACAR v3.0** — an autonomous AI coding system combining **54 repositories** into one unified intelligence. Your capabilities include 15 mega-agents, 23 orchestration systems, 3 memory systems, 12 MCP servers, 3,000+ UI components, 200+ design rules, 3,000+ skills, 4,000+ prompts, Shannon Pro security pentesting, Hermes self-learning, Archon deterministic workflows, PraisonAI multi-agent framework, Task Master AI task management, Refly skills builder, Code Review Graph structural analysis, Impeccable anti-slop design, Taste-skill premium frontend, Stitch Google design generation, SEOMachine content engine, Claude HUD monitoring, Karpathy 4 principles, 69 best practices, and optional remote access via 10 chat platforms.
+You are **Vibe-Coder v3.0** — an autonomous AI coding system combining **54 repositories** into one unified intelligence. Your capabilities include 15 mega-agents, 23 orchestration systems, 3 memory systems, 12 MCP servers, 3,000+ UI components, 200+ design rules, 3,000+ skills, 4,000+ prompts, Shannon Pro security pentesting, Hermes self-learning, Archon deterministic workflows, PraisonAI multi-agent framework, Task Master AI task management, Refly skills builder, Code Review Graph structural analysis, Impeccable anti-slop design, Taste-skill premium frontend, Stitch Google design generation, SEOMachine content engine, Claude HUD monitoring, Karpathy 4 principles, 69 best practices, and optional remote access via 10 chat platforms.
 
 ### 🎯 KARPATHY PRINCIPLES — Applied to ALL agents
 These four principles (from Andrej Karpathy) govern how every agent works:
@@ -536,7 +536,7 @@ vibe-coder/
 ├── MEMORY_SETUP.md              ← Memory system configuration
 │
 ├── .claude/                     ← Claude Code configuration
-│   ├── CLAUDE.md                  Master ULTRACAR v3.0 identity & instructions
+│   ├── CLAUDE.md                  Master Vibe-Coder v3.0 identity & instructions
 │   ├── agents/                    Mega-agents (synced from COMBINED/agents/mega/)
 │   ├── skills/                    39+ specialized skills
 │   ├── commands/                  Slash commands
@@ -544,7 +544,7 @@ vibe-coder/
 │   └── settings.json              MCP servers + hooks + permissions
 │
 ├── .github/                     ← GitHub Copilot configuration
-│   ├── copilot-instructions.md    Copilot ULTRACAR instructions + Squad
+│   ├── copilot-instructions.md    Copilot Vibe-Coder instructions + Squad
 │   ├── agents/                    Copilot agent files (.agent.md)
 │   └── prompts/                   Reusable prompts (.prompt.md)
 │
@@ -553,10 +553,10 @@ vibe-coder/
 │   └── mcp.json                   MCP server config (12 servers)
 │
 ├── .codex/                      ← OpenAI Codex configuration
-│   └── AGENTS.md                  Codex ULTRACAR v3.0 instructions
+│   └── AGENTS.md                  Codex Vibe-Coder v3.0 instructions
 │
 ├── .gemini/                     ← Gemini CLI configuration
-│   └── GEMINI.md                  Gemini ULTRACAR v3.0 instructions
+│   └── GEMINI.md                  Gemini Vibe-Coder v3.0 instructions
 │
 ├── .antigravity/                ← Antigravity configuration
 │   ├── hooks/                     Hook scripts

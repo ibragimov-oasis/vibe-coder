@@ -192,7 +192,7 @@ Signs that interface configs have drifted from canonical sources:
 2. **Missing new MCP server** — settings.json has a new server but interface CLI table doesn't have it
 3. **Routing mismatch** — Decision tree in interface config doesn't match PIPELINE_TRIGGER.md
 4. **Missing skill category** — New skills/ subdirectory exists but not referenced anywhere
-5. **Wrong interface name** — Config says "You are ULTRACAR v3.0 running as X" but loaded from wrong file
+5. **Wrong interface name** — Config says "You are Vibe-Coder v3.0 running as X" but loaded from wrong file
 6. **Post-task checklist out of date** — Shannon or Hermes steps changed in PIPELINE_TRIGGER.md but not synced to interface configs
 7. **Missing Obsidian step** — Post-task checklist lacks `bash obsidian-update.sh` step or quality report lacks `✅ Obsidian:` line
 8. **Missing prompt assessment** — Startup sequence lacks "Assess prompt quality" step before execution

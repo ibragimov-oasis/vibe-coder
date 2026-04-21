@@ -42,7 +42,7 @@ These files were hidden (dot-prefix) in original but renamed in local vibe-coder
 |-------------|-----------------------|-----|
 | README.md | COMBINED/REPO_DOCS/06-get-shit-done/ | Documentation |
 
-## Key insights for ULTRACAR integration
+## Key insights for Vibe-Coder integration
 
 - This isn't a complex orchestrator but a strict policy engine overlay.\n- Very useful for enforcing 'vibe coding' best practices (e.g. no comments like 'I added the code here').\n- Can be injected as a pre-prompt hook into other orchestrators.
 

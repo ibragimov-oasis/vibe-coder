@@ -17,7 +17,7 @@ source: "../COMBINED/ui-design/ui-impeccable/"
 # UI Design: Impeccable (Anti-Slop)
 
 > **Источник:** `../COMBINED/ui-design/ui-impeccable/`
-> **Rule #3:** Impeccable — третий в иерархии дизайна ULTRACAR.
+> **Rule #3:** Impeccable — третий в иерархии дизайна Vibe-Coder.
 
 ## О чём
 

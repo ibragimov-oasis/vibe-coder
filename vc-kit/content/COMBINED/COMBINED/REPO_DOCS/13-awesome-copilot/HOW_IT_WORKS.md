@@ -90,7 +90,7 @@ These files were hidden (dot-prefix) in original but renamed in local vibe-coder
 
 ---
 
-## Key insights for ULTRACAR integration
+## Key insights for Vibe-Coder integration
 
 - **Official GitHub repo** — highest authority source for Copilot ecosystem resources
 - Contains structured JSON data files for agents, hooks, instructions, plugins, skills, tools, and workflows — machine-readable catalogs

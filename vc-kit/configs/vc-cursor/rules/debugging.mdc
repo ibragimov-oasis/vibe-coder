@@ -1,10 +1,10 @@
 ---
-description: ULTRACAR debugging rules — hypothesis-driven debugging with circuit breaker
+description: Vibe-Coder debugging rules — hypothesis-driven debugging with circuit breaker
 globs: "**/*"
 alwaysApply: false
 ---
 
-# Debugging Rules (ULTRACAR v3.0)
+# Debugging Rules (Vibe-Coder v3.0)
 
 ## Mandatory Process
 When the user reports a bug, error, or unexpected behavior:

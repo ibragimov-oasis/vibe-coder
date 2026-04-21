@@ -72,7 +72,7 @@ Step 6: AI reads `CONTRIBUTING.md` → understands how to submit new prompt extr
 
 ---
 
-## Key insights for ULTRACAR integration
+## Key insights for Vibe-Coder integration
 
 - **Version-tracked prompts** — shows evolution from Claude 3.7 → 4.6 and GPT-4o → 5.4
 - **Raw extraction included** — Anthropic/raw/ has unformatted prompt data

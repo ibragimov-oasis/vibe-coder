@@ -20,7 +20,7 @@ domain: security
 
 ---
 
-Completed full ULTRACAR audit. Verified: Obsidian vault exists (201 notes), memory bootstrap script working, code-review-graph (SQL graph) configured, Claude-Mem documented, 3 new Obsidian repos integrated. Key gap found and fixed: post-task Obsidian auto-save was missing — created obsidian-update.sh to automate vault updates.
+Completed full Vibe-Coder audit. Verified: Obsidian vault exists (201 notes), memory bootstrap script working, code-review-graph (SQL graph) configured, Claude-Mem documented, 3 new Obsidian repos integrated. Key gap found and fixed: post-task Obsidian auto-save was missing — created obsidian-update.sh to automate vault updates.
 
 ---
 

@@ -16,7 +16,7 @@ source: "../COMBINED/skills/skills-writing/write-a-skill/"
 
 # 🛠️ Skill: write-a-skill
 
-> **Что делает:** Создаёт новый SKILL.md файл по стандарту ULTRACAR/Claude Skills.
+> **Что делает:** Создаёт новый SKILL.md файл по стандарту Vibe-Coder/Claude Skills.
 > **Автор:** Matt Pocock | **Агент:** [[agents/mega-writer]]
 
 ## Назначение
@@ -25,7 +25,7 @@ source: "../COMBINED/skills/skills-writing/write-a-skill/"
 - Структурированный формат SKILL.md
 - Правильный frontmatter
 - Чёткий workflow
-- Интеграция с ULTRACAR системой
+- Интеграция с Vibe-Coder системой
 
 ## Формат SKILL.md
 

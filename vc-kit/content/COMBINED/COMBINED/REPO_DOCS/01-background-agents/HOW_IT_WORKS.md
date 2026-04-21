@@ -643,7 +643,7 @@ These files were hidden (dot-prefix) in original but renamed in local vibe-coder
 | README.md | COMBINED/REPO_DOCS/01-background-agents/ | Documentation |
 | AGENTS.md | COMBINED/agents/by-role/background-agents/ | Core agent files |
 
-## Key insights for ULTRACAR integration
+## Key insights for Vibe-Coder integration
 
 - This repo brings a complete background architecture utilizing Cloudflare Workers, Durable Objects, Modal, Next.js, and Terraform.
 - Relies heavily on D1 database for sessions and WebSockets for real-time multiplayer streaming.

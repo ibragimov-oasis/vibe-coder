@@ -5,7 +5,7 @@ tags:
   - source/REPO_DOCS
 ---
 
-# ULTRACAR Documentation Session Report
+# Vibe-Coder Documentation Session Report
 
 ## Session Metadata
 - **Start time:** 2026-04-05 10:54:02 UTC
@@ -148,7 +148,7 @@ Instead of fetching from GitHub API, I used the local COMBINED/ directory which 
 - Complete file table
 - Hidden config files mapping
 - Routing table to COMBINED/
-- Key insights for ULTRACAR integration
+- Key insights for Vibe-Coder integration
 - Restore commands for hidden files
 - Status checklist
 

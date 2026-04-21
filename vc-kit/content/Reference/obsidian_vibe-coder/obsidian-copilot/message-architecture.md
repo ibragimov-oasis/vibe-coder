@@ -42,7 +42,7 @@ source: "../new_repos/obsidian-copilot/designdocs/MESSAGE_ARCHITECTURE.md"
 
 ## См. также
 
-- [[combined/Memory Overview]] — архитектура памяти ULTRACAR
+- [[combined/Memory Overview]] — архитектура памяти Vibe-Coder
 - [[combined/Orchestration Overview]] — изоляция контекста в оркестрации
 
 ## 🔗 Связи

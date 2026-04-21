@@ -1,5 +1,5 @@
 ---
-title: CAPABILITIES — ULTRACAR Capabilities Registry
+title: CAPABILITIES — Vibe-Coder Capabilities Registry
 tags:
   - domain/system
   - artifact/reference
@@ -15,7 +15,7 @@ aliases:
   - hardcoded rules
 ---
 
-# 📄 CAPABILITIES — ULTRACAR Capabilities Registry
+# 📄 CAPABILITIES — Vibe-Coder Capabilities Registry
 
 > **Тип:** Mirror-заметка | **Источник:** `../CAPABILITIES.md`
 > **Краткое описание:** Мозг системы. 5 non-negotiable rules + Karpathy principles + полный реестр возможностей. Каждый агент читает этот файл первым.

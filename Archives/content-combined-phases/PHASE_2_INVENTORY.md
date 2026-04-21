@@ -233,7 +233,7 @@ build_mega_ui.sh
 process_repo1.js
 process_repo1.py
 stage2_reorg.py
-ultracar_build.py
+vibe-coder_build.py
 ```
 
 ---

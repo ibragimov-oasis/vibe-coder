@@ -10,7 +10,7 @@ INDEX_FILE = COMB / "INDEX.md"
 if not INDEX_FILE.exists():
     COMB.mkdir(parents=True, exist_ok=True)
     with open(INDEX_FILE, "w") as f:
-        f.write("# ULTRACAR — Индекс файлов\n\n")
+        f.write("# Vibe-Coder — Индекс файлов\n\n")
         f.write("| Исходный путь | Тип | Куда скопировано | Действие | Статус |\n")
         f.write("|--------------|-----|-------------------|----------|--------|\n")
 

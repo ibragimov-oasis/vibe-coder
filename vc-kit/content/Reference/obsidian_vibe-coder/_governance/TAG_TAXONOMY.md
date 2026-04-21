@@ -12,7 +12,7 @@ type: governance
 status: active
 ---
 
-# 🏷️ Tag Taxonomy — ULTRACAR v3.0 Vault
+# 🏷️ Tag Taxonomy — Vibe-Coder v3.0 Vault
 
 > Единый словарь тегов для всего vault.
 > **Правило:** Используй только теги из этого словаря. Новые теги — через PR к этому документу.
@@ -27,7 +27,7 @@ status: active
 
 | Тег | Описание | Примеры заметок |
 |-----|----------|-----------------|
-| `domain/system` | Системная архитектура ULTRACAR | CAPABILITIES, AGENTS |
+| `domain/system` | Системная архитектура Vibe-Coder | CAPABILITIES, AGENTS |
 | `domain/agents` | Агенты и мета-агенты | все mega-agents |
 | `domain/orchestration` | Системы оркестрации | RuFlo, GSD, OMC, DeerFlow |
 | `domain/skills` | Библиотеки навыков | Skills by category |

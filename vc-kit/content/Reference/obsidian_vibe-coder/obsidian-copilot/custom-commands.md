@@ -40,7 +40,7 @@ Summarize the following note in 3 bullet points:
 {note}
 ```
 
-## Связь с ULTRACAR
+## Связь с Vibe-Coder
 
 Аналог: **Prompt files** в `.github/prompts/*.prompt.md`, **Skills** в `COMBINED/skills/`.
 
@@ -49,7 +49,7 @@ Summarize the following note in 3 bullet points:
 - **Родительский MOC:** [[MOC - Skills]]
 - **Индекс Copilot:** [[obsidian-copilot/index]]
 - **System prompts:** [[obsidian-copilot/system-prompts]]
-- **ULTRACAR skills:** [[combined/Skills Overview]]
+- **Vibe-Coder skills:** [[combined/Skills Overview]]
 
 ## См. также
 

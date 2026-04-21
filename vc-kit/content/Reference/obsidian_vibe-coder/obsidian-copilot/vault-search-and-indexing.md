@@ -41,16 +41,16 @@ Copilot Settings → Vault QA → Index vault
 - Настраиваемые исключения (папки, файлы)
 - Статус индекса видно в настройках
 
-## Связь с ULTRACAR
+## Связь с Vibe-Coder
 
-Аналог: **OpenViking MCP** — кодовая база контекст-память для ULTRACAR.
+Аналог: **OpenViking MCP** — кодовая база контекст-память для Vibe-Coder.
 
 ## Связи
 
 - **Родительский MOC:** [[MOC - Memory]]
 - **Индекс Copilot:** [[obsidian-copilot/index]]
 - **Контекст и mentions:** [[obsidian-copilot/context-and-mentions]]
-- **ULTRACAR память:** [[combined/Memory Overview]]
+- **Vibe-Coder память:** [[combined/Memory Overview]]
 
 ## См. также
 

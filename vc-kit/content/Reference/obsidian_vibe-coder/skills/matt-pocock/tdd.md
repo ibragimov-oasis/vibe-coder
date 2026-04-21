@@ -22,7 +22,7 @@ source: "../COMBINED/skills/skills-development/tdd/"
 
 ## Назначение
 
-`tdd` — фундаментальный навык разработки ULTRACAR:
+`tdd` — фундаментальный навык разработки Vibe-Coder:
 - **Karpathy принцип:** [[skills/karpathy/goal-driven-execution]] — "тесты первыми"
 - Гарантирует верифицируемый прогресс
 - Предотвращает регрессии
@@ -58,7 +58,7 @@ source: "../COMBINED/skills/skills-development/tdd/"
 3. **Одно изменение за раз** — не RED → GREEN несколько изменений одновременно
 4. **Рефакторинг только на GREEN** — не рефакторить на RED
 
-## Интеграция с ULTRACAR
+## Интеграция с Vibe-Coder
 
 ```
 Task Master: define tasks

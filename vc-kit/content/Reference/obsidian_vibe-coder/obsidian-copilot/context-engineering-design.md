@@ -37,7 +37,7 @@ source: "../new_repos/obsidian-copilot/designdocs/CONTEXT_ENGINEERING.md"
 - L2 auto-promotion: часто используемый контекст поднимается выше
 - Cache optimization для снижения стоимости API
 
-## Связь с ULTRACAR
+## Связь с Vibe-Coder
 
 Аналог: многоуровневая система памяти OpenViking (L0/L1/L2 tiered loading).
 
@@ -50,7 +50,7 @@ source: "../new_repos/obsidian-copilot/designdocs/CONTEXT_ENGINEERING.md"
 
 ## См. также
 
-- [[combined/Memory Overview]] — системы памяти ULTRACAR
+- [[combined/Memory Overview]] — системы памяти Vibe-Coder
 - [[obsidian-copilot/vault-search-and-indexing]] — L4 слой
 
 ## 🔗 Связи

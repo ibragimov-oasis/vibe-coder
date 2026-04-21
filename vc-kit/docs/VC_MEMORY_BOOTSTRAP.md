@@ -7,13 +7,13 @@ tags:
 
 # MEMORY_BOOTSTRAP.md — Eliminate Cold-Start Problems
 
-> **Purpose**: This file gives ANY interface instant context about ULTRACAR v3.0
+> **Purpose**: This file gives ANY interface instant context about Vibe-Coder v3.0
 > without needing to read 50+ files. Read this ONE file and you're operational.
 > Last updated: 2026-04-15
 
 ---
 
-## 🧠 What is ULTRACAR v3.0?
+## 🧠 What is Vibe-Coder v3.0?
 
 **One sentence**: An autonomous AI coding system built from 54 elite repositories that works across 6 development interfaces.
 

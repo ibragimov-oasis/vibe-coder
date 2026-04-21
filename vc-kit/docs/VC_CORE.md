@@ -5,7 +5,7 @@ tags:
   - source/root
 ---
 
-# CORE.md — ULTRACAR v3.0 Minimal Universal Core
+# CORE.md — Vibe-Coder v3.0 Minimal Universal Core
 
 > **Single source of truth for startup sequence, routing, and post-task steps.**
 > All interface configs reference this file instead of duplicating its content.

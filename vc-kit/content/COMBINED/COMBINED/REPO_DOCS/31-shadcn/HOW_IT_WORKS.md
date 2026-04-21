@@ -62,7 +62,7 @@ Step 4: AI reads `CONTRIBUTING.md` → understands contribution guidelines
 
 ---
 
-## Key insights for ULTRACAR integration
+## Key insights for Vibe-Coder integration
 
 - **Most popular React component library** — 85k stars
 - **"Open Code" philosophy** — not a dependency, you own the code

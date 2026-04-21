@@ -867,7 +867,7 @@ These files were hidden (dot-prefix) in original but renamed in local vibe-coder
 | skills/public/code-documentation/SKILL.md | COMBINED/skills/deer-flow/ | Agent skill definition |
 | backend/CLAUDE.md | COMBINED/prompts/system/ | System instructions |
 
-## Key insights for ULTRACAR integration
+## Key insights for Vibe-Coder integration
 
 - This is a highly scalable, enterprise-grade framework using LangGraph.\n- Utilizes a robust middleware-based execution loop (similar to standard backend frameworks) but adapted for Agent flows (e.g. checkpointer, memory, titles).\n- Built for massive sub-agent topologies rather than just a single assistant loop.
 

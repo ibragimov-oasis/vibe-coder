@@ -17,7 +17,7 @@ source: "../COMBINED/ui-design/ui-stitch-skills/"
 # UI Design: Stitch (Google Stitch)
 
 > **Источник:** `../COMBINED/ui-design/ui-stitch-skills/`
-> **Rule #3:** Stitch — пятый в иерархии дизайна ULTRACAR.
+> **Rule #3:** Stitch — пятый в иерархии дизайна Vibe-Coder.
 
 ## О чём
 

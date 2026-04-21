@@ -69,7 +69,7 @@ Step 5: AI reads `packages/` → discovers SDK packages (client, tools, types)
 
 ---
 
-## Key insights for ULTRACAR integration
+## Key insights for Vibe-Coder integration
 
 - **#1 on all 3 memory benchmarks** — LongMemEval, LoCoMo, ConvoMem
 - **Full memory stack** — fact extraction, user profiles, temporal tracking, contradiction handling

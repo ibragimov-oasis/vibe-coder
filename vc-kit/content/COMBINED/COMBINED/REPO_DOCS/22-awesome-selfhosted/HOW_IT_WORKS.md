@@ -60,7 +60,7 @@ Step 4: AI notes HTML version at awesome-selfhosted.net → recommended browsing
 
 ---
 
-## Key insights for ULTRACAR integration
+## Key insights for Vibe-Coder integration
 
 - **Highest-starred repo in collection** — 220k stars, one of the biggest on all of GitHub
 - **Pure reference material** — no code, agents, or skills — just a curated list

@@ -35,7 +35,7 @@ source: "../COMBINED/skills/skills-planning/"
 3. Конвертируй `prd-to-plan` → задачи
 4. Или `prd-to-issues` → GitHub Issues
 
-## Связь с ULTRACAR
+## Связь с Vibe-Coder
 
 - [[orchestration/core-ralph]] — PRD-driven loop использует эти skills
 - [[orchestration/core-taskmaster]] — Task Master: parse_prd использует PRD

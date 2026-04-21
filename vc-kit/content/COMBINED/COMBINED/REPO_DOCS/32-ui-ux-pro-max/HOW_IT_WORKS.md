@@ -78,7 +78,7 @@ Step 6: AI reads `src/ui-ux-pro-max/scripts/` → loads Python scripts (core.py,
 
 ---
 
-## Key insights for ULTRACAR integration
+## Key insights for Vibe-Coder integration
 
 - **Design System Generator** — AI-powered: input project description → get complete design system
 - **161 reasoning rules + 67 UI styles** — most comprehensive UI design intelligence

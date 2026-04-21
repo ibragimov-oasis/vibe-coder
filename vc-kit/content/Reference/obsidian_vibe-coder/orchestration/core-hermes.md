@@ -21,7 +21,7 @@ source: "../COMBINED/orchestration/core-hermes/"
 
 ## Описание
 
-Self-learning loop: после каждой задачи Hermes извлекает паттерны, создаёт skills, сохраняет в память. **Step 2** в основном пайплайне ULTRACAR.
+Self-learning loop: после каждой задачи Hermes извлекает паттерны, создаёт skills, сохраняет в память. **Step 2** в основном пайплайне Vibe-Coder.
 
 ## Процесс
 

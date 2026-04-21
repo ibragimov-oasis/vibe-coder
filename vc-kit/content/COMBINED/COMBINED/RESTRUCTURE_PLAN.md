@@ -8,7 +8,7 @@ tags:
 # 🎯 RESTRUCTURE EXECUTION PLAN: PREFIX-SOURCE MIGRATION
 
 > **7-Phase Plan to Transform COMBINED/ Structure**
-> Project: ULTRACAR Restructuring
+> Project: Vibe-Coder Restructuring
 > Created: April 4, 2026
 
 ---
@@ -180,7 +180,7 @@ Phase 1: Restructure agents directory with PREFIX-SOURCE naming
 - Moved [X] files across [Y] operations
 - No files lost, structure validated
 
-Part of ULTRACAR restructuring project.
+Part of Vibe-Coder restructuring project.
 ```
 
 ---
@@ -283,7 +283,7 @@ Phase 2: Restructure skills directory with PREFIX-SOURCE naming
 - Moved [X] skills across [Y] operations
 - All SKILL.md files validated
 
-Part of ULTRACAR restructuring project.
+Part of Vibe-Coder restructuring project.
 ```
 
 ---
@@ -385,7 +385,7 @@ Phase 3: Restructure commands and hooks with PREFIX-SOURCE naming
 - Extracted commands/hooks from orchestration systems
 - Moved [X] files across [Y] operations
 
-Part of ULTRACAR restructuring project.
+Part of Vibe-Coder restructuring project.
 ```
 
 ---
@@ -531,7 +531,7 @@ Phase 4: Restructure orchestration with core-* prefixes
 - Moved [X] files across [Y] operations
 - Removed empty orchestration/workflows/
 
-Part of ULTRACAR restructuring project.
+Part of Vibe-Coder restructuring project.
 ```
 
 ---
@@ -660,7 +660,7 @@ Phase 5: Restructure prompts, memory, and mcp-servers
 - Created config folders for memory and MCP
 - Moved [X] files across [Y] operations
 
-Part of ULTRACAR restructuring project.
+Part of Vibe-Coder restructuring project.
 ```
 
 ---
@@ -765,7 +765,7 @@ Phase 6: Restructure ui-design, security, and reference
 - Added reference-* prefix to reference/
 - Moved [X] files across [Y] operations
 
-Part of ULTRACAR restructuring project.
+Part of Vibe-Coder restructuring project.
 ```
 
 ---
@@ -847,7 +847,7 @@ Phase 7: Update documentation for new PREFIX-SOURCE structure
 - Validated complete restructure
 - [X] files in final structure
 
-ULTRACAR restructuring complete! 🎉
+Vibe-Coder restructuring complete! 🎉
 ```
 
 ---
@@ -922,7 +922,7 @@ Phases have dependencies - must be sequential.
 
 ---
 
-**Project:** ULTRACAR Restructuring
+**Project:** Vibe-Coder Restructuring
 **Plan Version:** 1.0
 **Status:** Phase 0 Complete, Ready for Phase 1
 **Last Updated:** April 4, 2026

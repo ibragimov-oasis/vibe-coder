@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 # ══════════════════════════════════════════════════════════════════
-# ULTRACAR v3.0 — Obsidian Vault Auto-Update Script
+# Vibe-Coder v3.0 — Obsidian Vault Auto-Update Script
 # ══════════════════════════════════════════════════════════════════
 # Saves AI task outputs as Obsidian-compatible markdown notes.
 # Called automatically at the end of every task (post-task pipeline Step D).
@@ -265,7 +265,7 @@ save_to_supermemory() {
     local tags="${3:-}"
 
     if command -v npx &>/dev/null; then
-        local mem_text="[ULTRACAR Session] ${title}: ${content_summary}"
+        local mem_text="[Vibe-Coder Session] ${title}: ${content_summary}"
         if [ -n "$tags" ]; then
             npx -y supermemory add "$mem_text" --tags "$tags" 2>/dev/null && \
                 log_success "Saved to Supermemory" || \
@@ -386,7 +386,7 @@ main() {
         esac
     done
 
-    log_header "ULTRACAR — Obsidian Vault Update"
+    log_header "Vibe-Coder — Obsidian Vault Update"
 
     # Status mode
     if $status_only; then

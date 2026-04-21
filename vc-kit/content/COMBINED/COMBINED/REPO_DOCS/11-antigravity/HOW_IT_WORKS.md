@@ -42,7 +42,7 @@ These files were hidden (dot-prefix) in original but renamed in local vibe-coder
 |-------------|-----------------------|-----|
 | README.md | COMBINED/REPO_DOCS/11-antigravity/ | Documentation |
 
-## Key insights for ULTRACAR integration
+## Key insights for Vibe-Coder integration
 
 - Two-tier architecture: 36 main skills + 38 plugin bundles.\n- Master bundles contain 1,308+ curated skills.
 

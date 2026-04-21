@@ -60,7 +60,7 @@ source: "../COMBINED/skills/skills-development/ubiquitous-language/"
 
 ## Применение в vault
 
-> Для ULTRACAR vault: [[_governance/TAG_TAXONOMY]] является убиквитарным языком для тегов.
+> Для Vibe-Coder vault: [[_governance/TAG_TAXONOMY]] является убиквитарным языком для тегов.
 
 ## Связи
 

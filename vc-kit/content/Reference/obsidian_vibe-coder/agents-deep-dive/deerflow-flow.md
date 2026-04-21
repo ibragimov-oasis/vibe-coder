@@ -90,7 +90,7 @@ source: "../COMBINED/orchestration/core-deer-flow/"
 
 ---
 
-## Интеграция с ULTRACAR
+## Интеграция с Vibe-Coder
 
 - Используется [[agents/mega-researcher]] как основной движок
 - [[mcp-servers/mcp-lightpanda]] — 9x быстрее Chrome для web scraping

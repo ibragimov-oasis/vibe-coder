@@ -42,7 +42,7 @@ These files were hidden (dot-prefix) in original but renamed in local vibe-coder
 |-------------|-----------------------|-----|
 | README.md | COMBINED/REPO_DOCS/09-superpowers/ | Documentation |
 
-## Key insights for ULTRACAR integration
+## Key insights for Vibe-Coder integration
 
 - This repo acts as a central library rather than an active runner.\n- Extremely valuable for copy-pasting missing tool logic (e.g. AWS deployments).\n- Must be mapped strictly to `COMBINED/skills/` rather than orchestration cores.
 

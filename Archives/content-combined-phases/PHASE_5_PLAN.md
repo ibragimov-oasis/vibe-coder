@@ -335,7 +335,7 @@ from verify_metadata import verify_index_accuracy
 def run_full_audit(combined_dir='COMBINED'):
     """Run complete audit suite"""
 
-    print("🔍 Starting ULTRACAR Audit...\n")
+    print("🔍 Starting Vibe-Coder Audit...\n")
 
     # Phase 5.1: File Integrity
     print("📋 Phase 5.1: File Integrity Check")

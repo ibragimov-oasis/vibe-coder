@@ -6,7 +6,7 @@ tags:
 ---
 
 # ПЛАН ПОЭТАПНОЙ МИГРАЦИИ VIBE-CODER ARSENAL
-# ULTRACAR Migration - Phased Implementation Plan
+# Vibe-Coder Migration - Phased Implementation Plan
 
 **Дата создания:** 2 апреля 2026
 **Источники:** MASTER_PLAN.md + COMBINED/READ.ME.md

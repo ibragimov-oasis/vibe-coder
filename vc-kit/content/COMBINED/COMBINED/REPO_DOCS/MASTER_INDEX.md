@@ -5,7 +5,7 @@ tags:
   - source/REPO_DOCS
 ---
 
-# ULTRACAR — Master Repo Index
+# Vibe-Coder — Master Repo Index
 
 Last updated: 2026-04-06
 

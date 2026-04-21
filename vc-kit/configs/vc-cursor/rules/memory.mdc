@@ -1,10 +1,10 @@
 ---
-description: ULTRACAR memory enforcement — check supermemory before work, save after
+description: Vibe-Coder memory enforcement — check supermemory before work, save after
 globs: "**/*"
 alwaysApply: true
 ---
 
-# Memory Rules (ULTRACAR v3.0)
+# Memory Rules (Vibe-Coder v3.0)
 
 ## Before Starting ANY Task
 ```

@@ -48,7 +48,7 @@ Real-time мониторинг плагин для Claude Code. Отобража
 
 ## Применение
 
-HUD мониторит весь ULTRACAR Pipeline в реальном времени от Step 0 до Done.
+HUD мониторит весь Vibe-Coder Pipeline в реальном времени от Step 0 до Done.
 
 ## См. также
 

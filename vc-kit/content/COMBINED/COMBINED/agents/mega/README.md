@@ -5,7 +5,7 @@ tags:
   - source/mega
 ---
 
-# Mega Agents — ULTRACAR
+# Mega Agents — Vibe-Coder
 
 > **15 unified mega-agents** — start here for any task.
 > Each mega-agent merges the best capabilities from multiple source repositories.

@@ -37,9 +37,9 @@ ToolRegistry (singleton)
 
 Система спроектирована для лёгкой интеграции MCP-инструментов в будущем.
 
-## Связь с ULTRACAR
+## Связь с Vibe-Coder
 
-Аналог: **MCP servers** в ULTRACAR — единая точка регистрации инструментов для агентов.
+Аналог: **MCP servers** в Vibe-Coder — единая точка регистрации инструментов для агентов.
 
 ## Связи
 
@@ -50,8 +50,8 @@ ToolRegistry (singleton)
 
 ## См. также
 
-- [[combined/MCP Servers Overview]] — MCP в ULTRACAR
-- [[combined/Agents Overview]] — агентная система ULTRACAR
+- [[combined/MCP Servers Overview]] — MCP в Vibe-Coder
+- [[combined/Agents Overview]] — агентная система Vibe-Coder
 
 ## 🔗 Связи
 

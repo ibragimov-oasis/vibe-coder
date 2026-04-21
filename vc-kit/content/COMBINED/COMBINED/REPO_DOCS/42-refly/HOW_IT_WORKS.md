@@ -9,7 +9,7 @@ tags:
 
 # Refly — How It Works
 
-**Category:** New Repo (ULTRACAR v3.0 — original 54)
+**Category:** New Repo (Vibe-Coder v3.0 — original 54)
 **Local path in vibe-coder:** COMBINED/orchestration/core-refly/
 
 ---
@@ -20,7 +20,7 @@ Visual skill builder platform — create skills with visual workflow, export to 
 
 ---
 
-## ULTRACAR Role
+## Vibe-Coder Role
 
 Provides specialized capability as described above. See the files at `COMBINED/orchestration/core-refly/` for full documentation and usage instructions.
 

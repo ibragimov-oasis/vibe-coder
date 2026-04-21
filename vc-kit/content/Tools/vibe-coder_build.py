@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""ULTRACAR Builder — Copy files from 31 repos into organized COMBINED/ structure.
+"""Vibe-Coder Builder — Copy files from 31 repos into organized COMBINED/ structure.
 Based on INDEX.md mappings created after reading every repo."""
 
 import os
@@ -96,7 +96,7 @@ def copy_skill_dirs(src, prefix, dst_base="skills/development"):
             copy_dir(f"{src}/{item.name}", f"{dst_base}/{prefix}{item.name}")
 
 print("═══════════════════════════════════════════════════")
-print("  ULTRACAR Builder — Processing 31 Repositories")
+print("  Vibe-Coder Builder — Processing 31 Repositories")
 print("═══════════════════════════════════════════════════")
 print()
 

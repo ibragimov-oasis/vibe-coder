@@ -16,7 +16,7 @@ tags:
 
 ```
 ╔══════════════════════════════════════════════════════════════════╗
-║              ULTRACAR v3.0 EXTENDED AUTONOMOUS PIPELINE          ║
+║              Vibe-Coder v3.0 EXTENDED AUTONOMOUS PIPELINE          ║
 ║  Trigger: User assigns a task and goes offline.                  ║
 ║  Monitoring: Claude HUD tracks context, tools, agents in real-time║
 ╚══════════════════════════════════════════════════════════════════╝

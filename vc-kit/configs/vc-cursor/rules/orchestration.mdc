@@ -1,10 +1,10 @@
 ---
-description: ULTRACAR orchestration — automatic multi-agent coordination for complex tasks
+description: Vibe-Coder orchestration — automatic multi-agent coordination for complex tasks
 globs: "**/*"
 alwaysApply: true
 ---
 
-# Orchestration Rules (ULTRACAR v3.0)
+# Orchestration Rules (Vibe-Coder v3.0)
 
 ## When to Use Multi-Agent Coordination
 

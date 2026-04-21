@@ -213,7 +213,7 @@ These files were hidden (dot-prefix) in original but renamed in local vibe-coder
 | CLAUDE.md | COMBINED/prompts/system/ | System instructions |
 | .claude/commands/debug.md | COMBINED/agents/by-role/shannon/ | Core agent files |
 
-## Key insights for ULTRACAR integration
+## Key insights for Vibe-Coder integration
 
 - Dedicated heavily to Security/Pentesting rather than general development.\n- Robust structured workflows via Temporal, representing a very advanced multi-agent orchestrator tailored for finding vulnerabilities.\n- Integrates out-of-the-box pre-written prompts for explicit vulnerability classes (e.g., SSRF, XSS, injection).
 

@@ -5,7 +5,7 @@ agent: agent
 model: gpt-4o
 ---
 
-Investigate and fix this bug using the ULTRACAR mega-debugger methodology:
+Investigate and fix this bug using the Vibe-Coder mega-debugger methodology:
 
 1. **Reproduce**: Get the exact error message, stack trace, or unexpected behavior
 2. **Hypothesize**: Form 2-3 hypotheses about the root cause

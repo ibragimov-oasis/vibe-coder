@@ -71,7 +71,7 @@ Step 6: AI reads `skills/defuddle/SKILL.md` → learns web content extraction (c
 
 ---
 
-## Key insights for ULTRACAR integration
+## Key insights for Vibe-Coder integration
 
 - **Created by Obsidian CEO** (Steph Ango / @kepano) — authoritative source for Obsidian integration
 - **Agent Skills spec compliant** — works across Claude Code, Codex CLI, OpenCode without modification

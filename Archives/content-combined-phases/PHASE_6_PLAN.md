@@ -25,7 +25,7 @@ Transform COMBINED/ from an organized file repository into a fully integrated, p
 - **Integration**: Connects 44,966 files into a cohesive system
 - **Usability**: Makes the arsenal actually usable, not just organized
 - **Production-Ready**: Prepares for real-world deployment
-- **v1.0.0**: Marks completion of the ULTRACAR project
+- **v1.0.0**: Marks completion of the Vibe-Coder project
 - **Community Launch**: Enables public release
 
 ## The Big Picture
@@ -98,7 +98,7 @@ description: "Comprehensive AI development toolkit"
 
 metadata:
   created: "2026-04-04"
-  authors: ["ULTRACAR Team"]
+  authors: ["Vibe-Coder Team"]
   license: "MIT"
   repository: "github.com/ibragimov-oasis/vibe-coder"
 

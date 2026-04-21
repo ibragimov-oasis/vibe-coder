@@ -16,7 +16,7 @@ source: "../RESTRUCTURE_COMPLETE_SUMMARY.md"
 # Restructure Complete Summary
 
 > **Источник:** `../RESTRUCTURE_COMPLETE_SUMMARY.md`
-> **Тип:** Итоговый отчёт о завершении реструктуризации ULTRACAR v3.0.
+> **Тип:** Итоговый отчёт о завершении реструктуризации Vibe-Coder v3.0.
 
 ## О чём этот документ
 

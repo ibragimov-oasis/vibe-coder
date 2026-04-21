@@ -76,7 +76,7 @@ Step 7: AI reads `.cursor/rules/` → loads Cursor rules (use-bun-instead-of-nod
 
 ---
 
-## Key insights for ULTRACAR integration
+## Key insights for Vibe-Coder integration
 
 - **Unique in collection** — only text measurement/layout library
 - **No DOM reflow** — pure arithmetic text layout, critical for performance

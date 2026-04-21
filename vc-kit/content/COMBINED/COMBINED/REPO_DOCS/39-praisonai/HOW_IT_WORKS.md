@@ -9,7 +9,7 @@ tags:
 
 # PraisonAI — How It Works
 
-**Category:** New Repo (ULTRACAR v3.0 — original 54)
+**Category:** New Repo (Vibe-Coder v3.0 — original 54)
 **Local path in vibe-coder:** COMBINED/orchestration/core-praisonai/
 
 ---
@@ -20,7 +20,7 @@ Multi-agent framework supporting 100+ LLMs, route/parallel/loop/repeat patterns,
 
 ---
 
-## ULTRACAR Role
+## Vibe-Coder Role
 
 Provides specialized capability as described above. See the files at `COMBINED/orchestration/core-praisonai/` for full documentation and usage instructions.
 

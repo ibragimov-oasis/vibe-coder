@@ -17,7 +17,7 @@ source: "../COMBINED/ui-design/ui-taste-skill/"
 # UI Design: Taste-Skill (7 Premium Skills)
 
 > **Источник:** `../COMBINED/ui-design/ui-taste-skill/`
-> **Rule #3:** Taste-skill — четвёртый в иерархии дизайна ULTRACAR.
+> **Rule #3:** Taste-skill — четвёртый в иерархии дизайна Vibe-Coder.
 
 ## О чём
 

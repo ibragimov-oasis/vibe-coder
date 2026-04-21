@@ -5,7 +5,7 @@ tags:
   - source/root
 ---
 
-# RUNBOOK.md — ULTRACAR v3.0 Operational Runbook
+# RUNBOOK.md — Vibe-Coder v3.0 Operational Runbook
 
 > **"Как система запускается идеально" — How the system starts perfectly every time.**
 > A concise operational guide for all 6 AI interfaces.
@@ -293,7 +293,7 @@ Unique strengths to use:
 
 ---
 
-*ULTRACAR v3.0 — Operational Runbook | Last updated: 2026-04-18*
+*Vibe-Coder v3.0 — Operational Runbook | Last updated: 2026-04-18*
 
 ## 🔗 Связи
 

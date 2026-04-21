@@ -17,11 +17,11 @@ aliases:
 # 📄 PIPELINE — Extended Autonomous Pipeline
 
 > **Тип:** Mirror-заметка | **Источник:** `../PIPELINE.md`
-> **Краткое описание:** Полный 4-шаговый автономный пайплайн ULTRACAR с Task Master, Archon, Background Agent, Hermes, Shannon и Code Review Graph.
+> **Краткое описание:** Полный 4-шаговый автономный пайплайн Vibe-Coder с Task Master, Archon, Background Agent, Hermes, Shannon и Code Review Graph.
 
 ## О документе
 
-PIPELINE.md описывает расширенный пайплайн ULTRACAR. Это главный execution flow — каждая задача проходит через него. Включает детали каждого шага, примеры, mermaid-схемы, интеграцию с Claude HUD.
+PIPELINE.md описывает расширенный пайплайн Vibe-Coder. Это главный execution flow — каждая задача проходит через него. Включает детали каждого шага, примеры, mermaid-схемы, интеграцию с Claude HUD.
 
 ## Pipeline шаги
 

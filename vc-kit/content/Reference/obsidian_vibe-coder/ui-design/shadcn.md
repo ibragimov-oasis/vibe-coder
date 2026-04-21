@@ -17,7 +17,7 @@ source: "../COMBINED/ui-design/ui-components-shadcn/"
 # UI Design: shadcn/ui
 
 > **Источник:** `../COMBINED/ui-design/ui-components-shadcn/`
-> **Rule #3:** shadcn — второй в иерархии дизайна ULTRACAR.
+> **Rule #3:** shadcn — второй в иерархии дизайна Vibe-Coder.
 
 ## О чём
 

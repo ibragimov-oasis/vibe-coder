@@ -49,7 +49,7 @@ ollama pull llama3
 ## См. также
 
 - [[obsidian-copilot/getting-started]] — начало работы
-- [[combined/MCP Servers Overview]] — MCP серверы ULTRACAR
+- [[combined/MCP Servers Overview]] — MCP серверы Vibe-Coder
 
 ## 🔗 Связи
 

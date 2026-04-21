@@ -9,7 +9,7 @@ tags:
 
 # Multica — How It Works
 
-**Category:** New Repo (ULTRACAR v3.0 — original 54)
+**Category:** New Repo (Vibe-Coder v3.0 — original 54)
 **Local path in vibe-coder:** COMBINED/orchestration/core-multica/
 
 ---
@@ -20,7 +20,7 @@ Multi-agent platform with board view, agents as teammates, multi-workspace suppo
 
 ---
 
-## ULTRACAR Role
+## Vibe-Coder Role
 
 Provides specialized capability as described above. See the files at `COMBINED/orchestration/core-multica/` for full documentation and usage instructions.
 

@@ -35,7 +35,7 @@ Focused AI workspaces — изолированные рабочие простр
 - Анализ PDF и документов
 - Изоляция контекста по темам
 
-## Связь с ULTRACAR
+## Связь с Vibe-Coder
 
 Аналог: Projects соответствуют разным **ролям мега-агентов** и их изолированному контексту.
 
@@ -49,7 +49,7 @@ Focused AI workspaces — изолированные рабочие простр
 ## См. также
 
 - [[obsidian-copilot/copilot-plus-and-self-host]] — требует Copilot Plus
-- [[combined/Orchestration Overview]] — изоляция контекста в ULTRACAR
+- [[combined/Orchestration Overview]] — изоляция контекста в Vibe-Coder
 
 ## 🔗 Связи
 

@@ -17,15 +17,15 @@ aliases:
 # 📄 AGENTS — Universal Agent Catalog
 
 > **Тип:** Mirror-заметка | **Источник:** `../AGENTS.md`
-> **Краткое описание:** Полный каталог агентов ULTRACAR v3.0 — 15 мега-агентов, 336+ по ролям, по IDE и оркестрации.
+> **Краткое описание:** Полный каталог агентов Vibe-Coder v3.0 — 15 мега-агентов, 336+ по ролям, по IDE и оркестрации.
 
 ## О документе
 
-AGENTS.md — это "Универсальный каталог агентов". Читается всеми AI интерфейсами (Claude Code, GitHub Copilot, Cursor, Codex, Gemini, Antigravity). Описывает идентичность ULTRACAR, 5 hardcoded rules, 15 мега-агентов, 23 системы оркестрации, библиотеку навыков, MCP серверы.
+AGENTS.md — это "Универсальный каталог агентов". Читается всеми AI интерфейсами (Claude Code, GitHub Copilot, Cursor, Codex, Gemini, Antigravity). Описывает идентичность Vibe-Coder, 5 hardcoded rules, 15 мега-агентов, 23 системы оркестрации, библиотеку навыков, MCP серверы.
 
 ## Ключевые разделы
 
-- **Identity** — ULTRACAR v3.0: 54 репо, 15 агентов, 23 системы
+- **Identity** — Vibe-Coder v3.0: 54 репо, 15 агентов, 23 системы
 - **5 Hardcoded Rules** — Browser, Memory, Design, Pipeline, Self-Improvement
 - **15 Mega Agents** — таблица с назначением и источниками
 - **Agents by Role** — 19 категорий, 336+ агентов

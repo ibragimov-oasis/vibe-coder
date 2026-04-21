@@ -19,7 +19,7 @@ tags:
 
 ## What it does (plain language for vibe-coders)
 
-Copilot for Obsidian is a full-featured AI assistant plugin that turns any Obsidian vault into a second brain with AI capabilities. It provides chat with vault notes, RAG over your entire knowledge base, inline AI tools, custom agents inside Obsidian, and local model support. It is the bridge between the ULTRACAR agent system and Obsidian knowledge management.
+Copilot for Obsidian is a full-featured AI assistant plugin that turns any Obsidian vault into a second brain with AI capabilities. It provides chat with vault notes, RAG over your entire knowledge base, inline AI tools, custom agents inside Obsidian, and local model support. It is the bridge between the Vibe-Coder agent system and Obsidian knowledge management.
 
 ---
 
@@ -32,16 +32,16 @@ Step 4: Use for: saving AI task outputs to Obsidian vault automatically via vaul
 
 ---
 
-## Key insights for ULTRACAR integration
+## Key insights for Vibe-Coder integration
 
-- **Obsidian AI bridge** — connects ULTRACAR agents to Obsidian vault for memory
+- **Obsidian AI bridge** — connects Vibe-Coder agents to Obsidian vault for memory
 - **RAG over vault** — AI can search the Obsidian vault as long-term memory
 - **Chat with notes** — query any note using natural language
 - **vault integration** — the obsidian_vibe-coder/ vault is designed to work with this plugin
 
 ---
 
-## ULTRACAR Role
+## Vibe-Coder Role
 
 Use as the **Obsidian memory layer** — after completing any AI task:
 1. AI creates/updates a note in obsidian_vibe-coder/ via obsidian-update.sh

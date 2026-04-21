@@ -76,7 +76,7 @@ Step 6: AI reads `CONTRIBUTING.md` → understands contribution guidelines (EN/C
 
 ---
 
-## Key insights for ULTRACAR integration
+## Key insights for Vibe-Coder integration
 
 - **ByteDance (Volcengine)** — enterprise-grade from the same company behind DeerFlow (Repo 5)
 - **Filesystem paradigm** — unique approach: manage context like local files

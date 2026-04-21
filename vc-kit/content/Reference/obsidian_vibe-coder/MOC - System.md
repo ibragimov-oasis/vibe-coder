@@ -6,7 +6,7 @@ tags:
   - status/active
 aliases:
   - system map
-  - ultracar overview
+  - vibe-coder overview
 created: 2026-04-18
 type: moc
 ---
@@ -14,7 +14,7 @@ type: moc
 # 🗺️ MOC — System
 
 > **Map of Content** для домена `System`.
-> Охватывает архитектуру ULTRACAR, идентичность системы, capabilities и конфигурацию для разных IDE.
+> Охватывает архитектуру Vibe-Coder, идентичность системы, capabilities и конфигурацию для разных IDE.
 
 ## 🧬 Идентичность и архитектура
 

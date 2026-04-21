@@ -17,7 +17,7 @@ source: "../COMBINED/skills/skills-claude/karpathy/"
 # 🧠 Karpathy 4 Principles — Index
 
 > **Автор:** Andrej Karpathy (AI researcher, ex-OpenAI, ex-Tesla)
-> **Встроены во ВСЕ 15 мега-агентов ULTRACAR**
+> **Встроены во ВСЕ 15 мега-агентов Vibe-Coder**
 > **Философия:** Хороший код — это не умный код, это простой, целенаправленный, минимальный код.
 
 ---

@@ -9,7 +9,7 @@ tags:
 
 # claude-hud — How It Works
 
-**Category:** New Repo (ULTRACAR v3.0 — original 54)
+**Category:** New Repo (Vibe-Coder v3.0 — original 54)
 **Local path in vibe-coder:** COMBINED/reference/claude-hud/
 
 ---
@@ -20,7 +20,7 @@ Real-time monitoring plugin: context, tools, agents, todos, cost, git status.
 
 ---
 
-## ULTRACAR Role
+## Vibe-Coder Role
 
 Provides specialized capability as described above. See the files at `COMBINED/reference/claude-hud/` for full documentation and usage instructions.
 

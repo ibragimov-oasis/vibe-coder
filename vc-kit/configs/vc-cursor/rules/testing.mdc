@@ -1,5 +1,5 @@
 ---
-description: ULTRACAR TDD enforcement — test-driven development rules for test files
+description: Vibe-Coder TDD enforcement — test-driven development rules for test files
 globs: "**/*.{test,spec}.{js,ts,jsx,tsx,py,go,rs}"
 alwaysApply: true
 ---

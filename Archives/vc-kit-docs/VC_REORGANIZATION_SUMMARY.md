@@ -5,7 +5,7 @@ tags:
   - source/root
 ---
 
-# ULTRACAR Reorganization - Quick Summary
+# Vibe-Coder Reorganization - Quick Summary
 
 **Date:** 2026-04-05
 **Duration:** 40 minutes

@@ -18,7 +18,7 @@ source: "../COMBINED/skills/skills-claude/karpathy/"
 # 🔪 Surgical Changes
 
 > **Принцип #3 из 4** — Andrej Karpathy
-> **Встроен во все 15 мега-агентов ULTRACAR**
+> **Встроен во все 15 мега-агентов Vibe-Coder**
 
 ## Суть принципа
 

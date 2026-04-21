@@ -42,7 +42,7 @@ These files were hidden (dot-prefix) in original but renamed in local vibe-coder
 |-------------|-----------------------|-----|
 | README.md | COMBINED/REPO_DOCS/07-oh-my-claudecode/ | Documentation |
 
-## Key insights for ULTRACAR integration
+## Key insights for Vibe-Coder integration
 
 - Huge ecosystem. Over 200 plugins available for CLI/Agent interaction.\n- Transforms Claude Code from a base tool into a fully loaded IDE alternative.\n- 'Pre-configured roles' allow fast persona-switching without writing custom prompt files from scratch.
 

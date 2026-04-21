@@ -37,7 +37,7 @@ System prompt — постоянная инструкция AI, формирую
 - Форматирование ответов
 - Роль и persona
 
-## Связь с ULTRACAR
+## Связь с Vibe-Coder
 
 Аналог: system prompts в `.github/copilot-instructions.md`, `.claude/CLAUDE.md`, `.cursor/rules/`.
 
@@ -46,12 +46,12 @@ System prompt — постоянная инструкция AI, формирую
 - **Родительский MOC:** [[MOC - Skills]]
 - **Индекс Copilot:** [[obsidian-copilot/index]]
 - **Проекты:** [[obsidian-copilot/projects]]
-- **ULTRACAR prompts:** [[combined/Skills Overview]]
+- **Vibe-Coder prompts:** [[combined/Skills Overview]]
 
 ## См. также
 
 - [[obsidian-copilot/custom-commands]] — кастомные команды
-- [[root-docs/CAPABILITIES]] — capabilities ULTRACAR
+- [[root-docs/CAPABILITIES]] — capabilities Vibe-Coder
 
 ## 🔗 Связи
 

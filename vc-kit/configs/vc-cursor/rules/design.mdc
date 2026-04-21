@@ -1,10 +1,10 @@
 ---
-description: ULTRACAR v3.0 UI/UX design rules — Galaxy, shadcn, Impeccable, Taste-skill, Stitch, UI/UX Pro Max
+description: Vibe-Coder v3.0 UI/UX design rules — Galaxy, shadcn, Impeccable, Taste-skill, Stitch, UI/UX Pro Max
 globs: "**/*.{css,scss,less,html,jsx,tsx,vue,svelte}"
 alwaysApply: true
 ---
 
-# UI/UX Design Rules (ULTRACAR v3.0)
+# UI/UX Design Rules (Vibe-Coder v3.0)
 
 ## Component Search Order (MANDATORY)
 1. `COMBINED/ui-design/ui-components-galaxy/` → 3,000+ components

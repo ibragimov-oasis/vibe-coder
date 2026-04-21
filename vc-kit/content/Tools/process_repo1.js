@@ -12,7 +12,7 @@ if (!fs.existsSync(COMB)) {
 }
 
 if (!fs.existsSync(INDEX_FILE)) {
-    fs.writeFileSync(INDEX_FILE, '# ULTRACAR — Индекс файлов\n\n| Исходный путь | Тип | Куда скопировано | Действие | Статус |\n|--------------|-----|-------------------|----------|--------|\n');
+    fs.writeFileSync(INDEX_FILE, '# Vibe-Coder — Индекс файлов\n\n| Исходный путь | Тип | Куда скопировано | Действие | Статус |\n|--------------|-----|-------------------|----------|--------|\n');
 }
 
 function logIndex(src, itemType, dst, action, status = '✅') {

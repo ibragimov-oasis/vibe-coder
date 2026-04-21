@@ -58,9 +58,9 @@ Step 3: AI references uiverse.io → browses elements visually with search and i
 
 ---
 
-## Key insights for ULTRACAR integration
+## Key insights for Vibe-Coder integration
 
-- **3000+ elements** — largest UI component collection in the ULTRACAR set
+- **3000+ elements** — largest UI component collection in the Vibe-Coder set
 - **Copy-paste ready** — pure HTML+CSS, no framework dependency
 - **MIT licensed** — fully free for any use
 - **Community-sourced** — continuous flow of new elements from Uiverse.io designers

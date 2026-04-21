@@ -18,7 +18,7 @@ source: "../COMBINED/ui-design/COMBINED_DESIGN_SYSTEM.md"
 # 🎨 Design Tokens & Variables
 
 > **Источник:** `../COMBINED/ui-design/`
-> **Назначение:** Единые переменные для всей дизайн-системы ULTRACAR
+> **Назначение:** Единые переменные для всей дизайн-системы Vibe-Coder
 > **Стандарт:** W3C Design Tokens Community Group
 
 ---

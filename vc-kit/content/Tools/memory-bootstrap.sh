@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 # ══════════════════════════════════════════════════════════════════
-# ULTRACAR v3.0 — Memory Bootstrap Script
+# Vibe-Coder v3.0 — Memory Bootstrap Script
 # ══════════════════════════════════════════════════════════════════
 # This script MUST be run BEFORE any AI task execution.
 # It builds or updates the code-review-graph SQLite database,
@@ -234,7 +234,7 @@ EOF
 # ─── Show Status Report ──────────────────────────────────────────
 
 show_status() {
-    log_header "ULTRACAR v3.0 — Memory Status"
+    log_header "Vibe-Coder v3.0 — Memory Status"
 
     if [ ! -f "$REPO_ROOT/$GRAPH_DB" ]; then
         log_error "Code graph NOT built"
@@ -320,7 +320,7 @@ main() {
         esac
     done
 
-    log_header "ULTRACAR v3.0 — Memory Bootstrap"
+    log_header "Vibe-Coder v3.0 — Memory Bootstrap"
 
     # Status only mode
     if $status_only; then
@@ -363,7 +363,7 @@ main() {
     local vault_dir="${REPO_ROOT}/obsidian_vibe-coder"
     if [ ! -d "$vault_dir" ]; then
         log_warn "Obsidian vault not found — initializing..."
-        bash "${REPO_ROOT}/obsidian-update.sh" --title "Vault Initialized" --content "ULTRACAR Obsidian vault auto-created by memory-bootstrap.sh on first session." --tags "domain/system,artifact/session" 2>/dev/null || true
+        bash "${REPO_ROOT}/obsidian-update.sh" --title "Vault Initialized" --content "Vibe-Coder Obsidian vault auto-created by memory-bootstrap.sh on first session." --tags "domain/system,artifact/session" 2>/dev/null || true
         log_success "Obsidian vault created at $vault_dir"
     else
         local session_count

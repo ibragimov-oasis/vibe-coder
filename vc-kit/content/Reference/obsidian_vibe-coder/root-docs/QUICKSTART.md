@@ -18,7 +18,7 @@ aliases:
 # 📄 QUICKSTART — Quick Start Guide
 
 > **Тип:** Mirror-заметка | **Источник:** `../QUICKSTART.md`
-> **Краткое описание:** Инструкция быстрого старта. Как активировать ULTRACAR в Claude Code, GitHub Copilot, Cursor и других IDE за 3 шага.
+> **Краткое описание:** Инструкция быстрого старта. Как активировать Vibe-Coder в Claude Code, GitHub Copilot, Cursor и других IDE за 3 шага.
 
 ## О документе
 

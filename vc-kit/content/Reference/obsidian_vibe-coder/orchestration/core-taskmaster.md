@@ -22,7 +22,7 @@ source: "../COMBINED/orchestration/core-taskmaster/"
 
 ## Описание
 
-MCP-based AI task management: PRD → задачи → зависимости. 36 MCP инструментов. Анализ сложности. Multi-model поддержка. **Step 0** в пайплайне ULTRACAR.
+MCP-based AI task management: PRD → задачи → зависимости. 36 MCP инструментов. Анализ сложности. Multi-model поддержка. **Step 0** в пайплайне Vibe-Coder.
 
 ## 36 Инструментов (ключевые)
 

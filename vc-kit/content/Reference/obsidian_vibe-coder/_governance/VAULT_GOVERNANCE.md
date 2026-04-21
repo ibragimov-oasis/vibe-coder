@@ -12,7 +12,7 @@ type: governance
 status: active
 ---
 
-# 🏛️ Vault Governance — ULTRACAR v3.0 Obsidian Integration
+# 🏛️ Vault Governance — Vibe-Coder v3.0 Obsidian Integration
 
 > **Назначение:** Единый свод правил для поддержания vault в безопасном, консистентном состоянии.
 > **Принцип #1:** Ни одна строка исходного кода или документации не должна быть удалена.

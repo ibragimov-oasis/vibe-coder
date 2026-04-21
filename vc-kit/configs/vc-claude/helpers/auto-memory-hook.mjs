@@ -1,5 +1,5 @@
 #!/usr/bin/env node
-// auto-memory-hook.mjs — ULTRACAR Memory Sync Hook
+// auto-memory-hook.mjs — Vibe-Coder Memory Sync Hook
 // Imports context at session start, syncs learnings at session end
 // Integrates with local storage AND prompts AI to use Supermemory MCP
 

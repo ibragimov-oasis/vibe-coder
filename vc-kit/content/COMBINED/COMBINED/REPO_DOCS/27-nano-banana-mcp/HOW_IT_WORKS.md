@@ -72,7 +72,7 @@ Step 5: AI reads `CHANGELOG.md` → tracks version history and feature additions
 
 ---
 
-## Key insights for ULTRACAR integration
+## Key insights for Vibe-Coder integration
 
 - **Gemini image generation** — brings Google's image AI to any MCP-compatible tool
 - **Resolution control** — 1K, 2K, 4K output resolution

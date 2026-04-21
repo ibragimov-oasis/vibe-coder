@@ -48,8 +48,8 @@ source: "../new_repos/obsidian-copilot/docs/agent-mode-and-tools.md"
 
 ## См. также
 
-- [[agents/mega-orchestrator]] — аналогия: мега-оркестратор ULTRACAR
-- [[combined/Agents Overview]] — агенты ULTRACAR
+- [[agents/mega-orchestrator]] — аналогия: мега-оркестратор Vibe-Coder
+- [[combined/Agents Overview]] — агенты Vibe-Coder
 
 ## 🔗 Связи
 

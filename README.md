@@ -1,7 +1,7 @@
 # Vibe Coder Kit (`vc-kit`)
 
 
-> ⚠️ Важно: полный прежний (исторический) README сохранён без сокращений в `README_LEGACY.md`.
+> ⚠️ Важно: полный прежний (исторический) README сохранён без сокращений в `Archives/root/README_LEGACY.md`.
 
 Набор готовых AI-конфигов и контента для встраивания в **ваш** проект без конфликтов.
 
@@ -154,4 +154,5 @@ vc-kit/
 - Quickstart: `vc-kit/docs/VC_QUICKSTART.md`
 - Полная инструкция (RU): `vc-kit/docs/VC_FULL_SETUP_RU.md`
 - Content index: `vc-kit/content/VC_CONTENT_INDEX.md`
+- Архив завершённых/legacy материалов: `Archives/README.md`
 - Прочие материалы: `vc-kit/docs/`

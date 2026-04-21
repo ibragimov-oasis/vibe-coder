@@ -17,7 +17,7 @@ source: "../COMBINED/skills/skills-claude/karpathy/"
 # Skills: Karpathy 4 Principles
 
 > **Источник:** `../COMBINED/skills/skills-claude/karpathy/`
-> **Встроены во ВСЕ 15 мега-агентов ULTRACAR**
+> **Встроены во ВСЕ 15 мега-агентов Vibe-Coder**
 
 ## 4 Принципа Karpathy
 

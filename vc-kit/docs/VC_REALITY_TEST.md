@@ -24,7 +24,7 @@ SESSION START (auto, via hooks)
 
 USER PROMPT RECEIVED
   3. hook: UserPromptSubmit → route (hook-handler.cjs route)
-  4. SELF-ID: "I am Claude Code — ULTRACAR v3.0"
+  4. SELF-ID: "I am Claude Code — Vibe-Coder v3.0"
   5. MEMORY BOOTSTRAP: ls .code-review-graph/graph.db → exists → code-review-graph update
   6. SUPERMEMORY: search "admin dashboard" → [results or none]
   7. PROMPT QUALITY CHECK: "Build me an admin dashboard page" → complex but specific enough
@@ -81,7 +81,7 @@ VERDICT: ✅ WORKS — fully automated via hooks
 SESSION START (manual — no hooks)
   1. Copilot reads .github/copilot-instructions.md
   2. Memory bootstrap block at top → AI runs memory bootstrap command
-  3. SELF-ID: "I am GitHub Copilot — ULTRACAR v3.0"
+  3. SELF-ID: "I am GitHub Copilot — Vibe-Coder v3.0"
 
 USER PROMPT RECEIVED
   4. SUPERMEMORY: npx -y supermemory search "admin dashboard"
@@ -135,7 +135,7 @@ SESSION START (auto-attach rules fire on file open)
   3. security.mdc loads → ready for post-task security check
   4. orchestration.mdc loads [NOW alwaysApply: true] → orchestration rules active
   5. pipeline.mdc loads [alwaysApply: true] → post-task pipeline active
-  6. SELF-ID: "I am Cursor AI — ULTRACAR v3.0"
+  6. SELF-ID: "I am Cursor AI — Vibe-Coder v3.0"
 
 USER PROMPT RECEIVED (in Composer or chat)
   7. SUPERMEMORY: mcp supermemory search "admin dashboard"

@@ -7,7 +7,7 @@ tags:
 
 <div align="center">
 
-# 🎯 ULTRACAR v3.0 — Vibe-Coder Arsenal
+# 🎯 Vibe-Coder v3.0 — Vibe-Coder Arsenal
 
 ### The World's Most Powerful Open-Source AI Coding System
 
@@ -16,7 +16,7 @@ tags:
 [![GitHub stars](https://img.shields.io/github/stars/ibragimov-oasis/vibe-coder?style=for-the-badge&color=gold)](https://github.com/ibragimov-oasis/vibe-coder/stargazers)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)](LICENSE)
 [![Made with ❤️](https://img.shields.io/badge/Made%20with-❤️-red?style=for-the-badge)](https://github.com/ibragimov-oasis)
-[![ULTRACAR v3.0](https://img.shields.io/badge/ULTRACAR-v3.0-blueviolet?style=for-the-badge)](AGENTS.md)
+[![Vibe-Coder v3.0](https://img.shields.io/badge/Vibe-Coder-v3.0-blueviolet?style=for-the-badge)](AGENTS.md)
 
 **⭐ If this saved you hours of searching — drop a star. It took me months to build.**
 
@@ -55,13 +55,13 @@ This is the toolkit I wish existed when I started. Now it's yours.
 
 ## 🏗️ System Architecture
 
-ULTRACAR is not just a collection of repos — it's a **unified autonomous system** where every part knows about every other part. Here's the big picture:
+Vibe-Coder is not just a collection of repos — it's a **unified autonomous system** where every part knows about every other part. Here's the big picture:
 
 ### System Overview
 
 ```
 ┌─────────────────────────────────────────────────────────────────────┐
-│                    ULTRACAR v3.0 — 54 Repositories                  │
+│                    Vibe-Coder v3.0 — 54 Repositories                  │
 ├─────────────────────────────────────────────────────────────────────┤
 │                                                                     │
 │  ┌──────────────────────────────────────────────────────────────┐   │
@@ -69,7 +69,7 @@ ULTRACAR is not just a collection of repos — it's a **unified autonomous syste
 │  │  AGENTS.md · CAPABILITIES.md · PIPELINE.md · PIPELINE_TRIGGER │   │
 │  │  INTERFACE_MATRIX.md                                           │   │
 │  │  ┌────────────────────────────────────────────────────────┐   │   │
-│  │  │  IDE Configs (all identical ULTRACAR v3.0 identity)     │   │   │
+│  │  │  IDE Configs (all identical Vibe-Coder v3.0 identity)     │   │   │
 │  │  │  .claude/ · .cursor/ · .github/ · .codex/ · .gemini/   │   │   │
 │  │  │  .antigravity/                                          │   │   │
 │  │  └────────────────────────────────────────────────────────┘   │   │
@@ -174,7 +174,7 @@ Every task starts by picking the right agent. Each mega-agent is a unified combi
 
 ```mermaid
 mindmap
-  root((ULTRACAR<br/>Mega-Agents))
+  root((Vibe-Coder<br/>Mega-Agents))
     🏗️ Building
       mega-coder
       mega-executor
@@ -601,7 +601,7 @@ vibe-coder/
 ├── MEMORY_SETUP.md              ← Memory system configuration guide
 │
 ├── .claude/                     ← Claude Code
-│   ├── CLAUDE.md                   Master ULTRACAR v3.0 identity
+│   ├── CLAUDE.md                   Master Vibe-Coder v3.0 identity
 │   ├── agents/                     15 mega-agents
 │   ├── skills/                     39+ specialized skills
 │   ├── commands/                   Slash commands
@@ -609,7 +609,7 @@ vibe-coder/
 │   └── settings.json               12 MCP servers + hooks + permissions
 │
 ├── .github/                     ← GitHub Copilot
-│   ├── copilot-instructions.md     ULTRACAR v3.0 instructions + Squad
+│   ├── copilot-instructions.md     Vibe-Coder v3.0 instructions + Squad
 │   ├── agents/                     Copilot agent files (.agent.md)
 │   └── prompts/                    Reusable prompts (.prompt.md)
 │
@@ -618,13 +618,13 @@ vibe-coder/
 │   └── mcp.json                    MCP server configs
 │
 ├── .codex/                      ← OpenAI Codex
-│   └── AGENTS.md                   ULTRACAR v3.0 identity
+│   └── AGENTS.md                   Vibe-Coder v3.0 identity
 │
 ├── .gemini/                     ← Google Gemini CLI
-│   └── GEMINI.md                   ULTRACAR v3.0 identity
+│   └── GEMINI.md                   Vibe-Coder v3.0 identity
 │
 ├── .antigravity/                ← Antigravity
-│   └── AGENTS.md                   ULTRACAR v3.0 identity
+│   └── AGENTS.md                   Vibe-Coder v3.0 identity
 │
 └── COMBINED/                    ← All content from 54 repositories
     ├── agents/
@@ -690,7 +690,7 @@ vibe-coder/
 git clone https://github.com/ibragimov-oasis/vibe-coder.git
 ```
 
-You get **all 54 projects** organized and integrated. All hidden files (`.claude`, `.cursorrules`, `.github`) are included — the ULTRACAR system activates automatically in supported IDEs.
+You get **all 54 projects** organized and integrated. All hidden files (`.claude`, `.cursorrules`, `.github`) are included — the Vibe-Coder system activates automatically in supported IDEs.
 
 ### Option 2: Cherry-Pick What You Need
 
@@ -711,12 +711,12 @@ After completing the task, follow the post-task pipeline in PIPELINE_TRIGGER.md.
 
 | IDE | What Happens |
 |:----|:-------------|
-| **Claude Code** | Reads `.claude/CLAUDE.md` automatically. Full ULTRACAR v3.0 identity activates. 12 MCP servers available. |
+| **Claude Code** | Reads `.claude/CLAUDE.md` automatically. Full Vibe-Coder v3.0 identity activates. 12 MCP servers available. |
 | **GitHub Copilot** | Reads `.github/copilot-instructions.md`. All mega-agents available as Copilot agents. Squad integration is native. |
 | **Cursor** | Reads `.cursor/rules/*.mdc` automatically. 6 rule files attach to all files. MCP servers via `.cursor/mcp.json`. |
-| **OpenAI Codex** | Reads `.codex/AGENTS.md`. ULTRACAR v3.0 identity and pipeline available. |
+| **OpenAI Codex** | Reads `.codex/AGENTS.md`. Vibe-Coder v3.0 identity and pipeline available. |
 | **Gemini CLI** | Reads `.gemini/GEMINI.md`. Nano-banana image gen works natively with Gemini. |
-| **Antigravity** | Reads `.antigravity/AGENTS.md`. ULTRACAR v3.0 identity and pipeline available. |
+| **Antigravity** | Reads `.antigravity/AGENTS.md`. Vibe-Coder v3.0 identity and pipeline available. |
 
 ---
 
@@ -850,7 +850,7 @@ This meta-repository is licensed under [MIT](LICENSE). Each included project ret
 
 **Built with no code, just vibes. 🎵**
 
-*ULTRACAR v3.0 — 54 repositories unified into one autonomous AI coding machine.*
+*Vibe-Coder v3.0 — 54 repositories unified into one autonomous AI coding machine.*
 
 ⭐ **Star this repo** · 🔀 **Fork it** · 📢 **Share it**
 

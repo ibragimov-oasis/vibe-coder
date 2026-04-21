@@ -87,7 +87,7 @@ Step 7: AI reads `.agent/rules/claude-mem-context.md` → loads agent context ru
 
 ---
 
-## Key insights for ULTRACAR integration
+## Key insights for Vibe-Coder integration
 
 - **Memory compression** — unique approach to persistent AI memory via compression
 - **Multi-platform** — Claude Code plugin + Windsurf rules + Copilot instructions + MCP

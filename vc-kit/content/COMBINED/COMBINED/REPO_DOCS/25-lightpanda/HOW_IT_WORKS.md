@@ -73,7 +73,7 @@ Step 6: AI reads `SECURITY.md` → understands security policy
 
 ---
 
-## Key insights for ULTRACAR integration
+## Key insights for Vibe-Coder integration
 
 - **Written in Zig** — only Zig project in the collection, unique from-scratch browser
 - **9x faster, 16x less memory** — benchmarked against Chrome on 933 real web pages

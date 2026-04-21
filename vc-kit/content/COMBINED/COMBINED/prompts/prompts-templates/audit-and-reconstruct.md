@@ -8,7 +8,7 @@ tags:
 # Master Audit-and-Reconstruct Prompt Template
 
 > **Purpose**: Use this template when you need a full system audit followed by targeted reconstruction.
-> It is the canonical "audit-then-fix" meta-prompt for ULTRACAR v3.0.
+> It is the canonical "audit-then-fix" meta-prompt for Vibe-Coder v3.0.
 > Covers: interface configs, pipelines, memory, skills, orchestration, and security gaps.
 > Last updated: 2026-04-18
 
@@ -27,7 +27,7 @@ Use this prompt when you want to:
 ## Template (copy and fill in `[...]` sections)
 
 ```
-You are ULTRACAR v3.0 — mega-architect + mega-security + mega-reviewer running together.
+You are Vibe-Coder v3.0 — mega-architect + mega-security + mega-reviewer running together.
 
 ## Task: Full Audit and Reconstruction of [SCOPE]
 
@@ -99,14 +99,14 @@ And a one-paragraph "What is now guaranteed vs what is still declarative" assess
 
 ---
 
-## Pre-Filled Variant: ULTRACAR Interface Config Audit
+## Pre-Filled Variant: Vibe-Coder Interface Config Audit
 
-This is the ready-to-use version for auditing the 6 ULTRACAR interface configs:
+This is the ready-to-use version for auditing the 6 Vibe-Coder interface configs:
 
 ```
-You are ULTRACAR v3.0 — mega-architect + mega-reviewer running together.
+You are Vibe-Coder v3.0 — mega-architect + mega-reviewer running together.
 
-## Task: Full Audit and Reconstruction of ULTRACAR Interface Configs
+## Task: Full Audit and Reconstruction of Vibe-Coder Interface Configs
 
 ### Files to audit
 - .claude/CLAUDE.md

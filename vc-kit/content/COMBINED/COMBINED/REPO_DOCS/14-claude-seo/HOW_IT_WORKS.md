@@ -98,7 +98,7 @@ These files were hidden (dot-prefix) in original but renamed in local vibe-coder
 
 ---
 
-## Key insights for ULTRACAR integration
+## Key insights for Vibe-Coder integration
 
 - **Most comprehensive SEO skill** in the ecosystem — 15+ sub-skills, 13 subagents, 20+ scripts
 - Plugin architecture with extensions (banana for images, dataforseo for data, firecrawl for backlinks)

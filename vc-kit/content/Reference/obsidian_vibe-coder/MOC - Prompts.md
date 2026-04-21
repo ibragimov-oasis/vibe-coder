@@ -56,7 +56,7 @@ type: moc
 
 - [[MOC - Skills]] — Навыки используют промпты
 - [[MOC - Agents]] — Агенты работают на системных промптах
-- [[MOC - System]] — Архитектура ULTRACAR
+- [[MOC - System]] — Архитектура Vibe-Coder
 - [[000 - Map of Maps]] — Главная карта
 
 ## 📦 Источники
@@ -70,7 +70,7 @@ type: moc
 
 - [[MOC - Skills]] — Skills use prompts
 - [[MOC - Agents]] — Agents run on system prompts
-- [[MOC - System]] — ULTRACAR architecture
+- [[MOC - System]] — Vibe-Coder architecture
 - [[prompts/prompts-ai-systems]] — AI system prompts collection
 - [[prompts/prompts-templates]] — Reusable prompt templates
 - [[000 - Map of Maps]] — Map of Maps

@@ -72,7 +72,7 @@ Step 6: AI reads `.claude/skills/*/SKILL.md` → loads 6 Claude Code skills (vib
 
 ---
 
-## Key insights for ULTRACAR integration
+## Key insights for Vibe-Coder integration
 
 - **Complete MVP workflow** — from idea → shipped product in 5 steps
 - **Battle-tested** — used on 4+ real shipped projects

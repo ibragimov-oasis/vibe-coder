@@ -42,7 +42,7 @@ These files were hidden (dot-prefix) in original but renamed in local vibe-coder
 |-------------|-----------------------|-----|
 | README.md | COMBINED/REPO_DOCS/08-ruflo/ | Documentation |
 
-## Key insights for ULTRACAR integration
+## Key insights for Vibe-Coder integration
 
 - The entire value proposition is latency reduction and structural reliability via Rust.\n- Highly complex and harder to prototype with compared to pure Python orchestrators.\n- Recommended for final-stage productionizing rather than early vibe-coding experimentation.
 

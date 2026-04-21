@@ -9,7 +9,7 @@ tags:
 
 # stitch-skills — How It Works
 
-**Category:** New Repo (ULTRACAR v3.0 — original 54)
+**Category:** New Repo (Vibe-Coder v3.0 — original 54)
 **Local path in vibe-coder:** COMBINED/ui-design/ui-stitch-skills/
 
 ---
@@ -20,7 +20,7 @@ Google Stitch design generation, React components, DESIGN.md synthesis.
 
 ---
 
-## ULTRACAR Role
+## Vibe-Coder Role
 
 Provides specialized capability as described above. See the files at `COMBINED/ui-design/ui-stitch-skills/` for full documentation and usage instructions.
 

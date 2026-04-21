@@ -17,11 +17,11 @@ source: "../COMBINED/ui-design/ui-components-galaxy/"
 # UI Design: Galaxy (3000+ Components)
 
 > **Источник:** `../COMBINED/ui-design/ui-components-galaxy/`
-> **Rule #3:** Galaxy — первый в иерархии дизайна ULTRACAR.
+> **Rule #3:** Galaxy — первый в иерархии дизайна Vibe-Coder.
 
 ## О чём
 
-3000+ уникальных UI-элементов. Самая большая коллекция компонентов в ULTRACAR.
+3000+ уникальных UI-элементов. Самая большая коллекция компонентов в Vibe-Coder.
 
 ## Категории компонентов
 

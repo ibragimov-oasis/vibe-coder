@@ -1,10 +1,10 @@
 ---
 name: design-ui
-description: 'Design a UI component following the ULTRACAR design hierarchy: Galaxy → shadcn → Impeccable → Taste-skill → Stitch → UI/UX Pro Max.'
+description: 'Design a UI component following the Vibe-Coder design hierarchy: Galaxy → shadcn → Impeccable → Taste-skill → Stitch → UI/UX Pro Max.'
 agent: agent
 ---
 
-Design and implement the described UI component using the ULTRACAR design hierarchy:
+Design and implement the described UI component using the Vibe-Coder design hierarchy:
 
 1. **Check Galaxy** (`COMBINED/ui-design/ui-components-galaxy/`) — 3,000+ ready-made components
    → Does a similar component already exist? Use it as starting point.

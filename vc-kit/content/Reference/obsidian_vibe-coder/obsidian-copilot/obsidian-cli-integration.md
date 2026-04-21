@@ -40,7 +40,7 @@ MVP дизайн интеграции Obsidian CLI в Copilot плагин: `Aut
 ## См. также
 
 - [[obsidian-skills/obsidian-cli]] — сам Obsidian CLI
-- [[combined/Agents Overview]] — агенты ULTRACAR
+- [[combined/Agents Overview]] — агенты Vibe-Coder
 
 ## 🔗 Связи
 

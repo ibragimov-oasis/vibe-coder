@@ -9,7 +9,7 @@ tags:
 
 # SEOMachine — How It Works
 
-**Category:** New Repo (ULTRACAR v3.0 — original 54)
+**Category:** New Repo (Vibe-Coder v3.0 — original 54)
 **Local path in vibe-coder:** COMBINED/skills/skills-seo/
 
 ---
@@ -20,7 +20,7 @@ tags:
 
 ---
 
-## ULTRACAR Role
+## Vibe-Coder Role
 
 Provides specialized capability as described above. See the files at `COMBINED/skills/skills-seo/` for full documentation and usage instructions.
 

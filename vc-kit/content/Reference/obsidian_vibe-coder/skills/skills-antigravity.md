@@ -28,9 +28,9 @@ IDE plugin skills от Antigravity: контекстуальные подска�
 - IDE integration
 - Code action patterns
 
-## Связь с ULTRACAR
+## Связь с Vibe-Coder
 
-Antigravity — один из оригинальных 31 репо в ULTRACAR.
+Antigravity — один из оригинальных 31 репо в Vibe-Coder.
 
 ## Связи
 

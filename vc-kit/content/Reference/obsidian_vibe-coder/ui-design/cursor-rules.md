@@ -36,9 +36,9 @@ source: "../COMBINED/ui-design/ui-cursor-rules/"
 - Testing patterns (Jest, Vitest, Playwright)
 - API design (REST, GraphQL, tRPC)
 
-## Связь с ULTRACAR
+## Связь с Vibe-Coder
 
-Аналог: `.cursor/rules/` в проекте ULTRACAR.
+Аналог: `.cursor/rules/` в проекте Vibe-Coder.
 
 ## Связи
 

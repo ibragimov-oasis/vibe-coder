@@ -646,7 +646,7 @@ These files were hidden (dot-prefix) in original but renamed in local vibe-coder
 | README.md | COMBINED/REPO_DOCS/04-1code/ | Documentation |
 | CLAUDE.md | COMBINED/prompts/system/ | System instructions |
 
-## Key insights for ULTRACAR integration
+## Key insights for Vibe-Coder integration
 
 - Unlike purely CLI-based agents, 1Code focuses exclusively on the GUI and user experience layer.\n- Implements a robust separation between Electron's main process (file/git interactions) and the renderer (React UI + Kanban).\n- Highly valuable for integrating headless agents into a polished visual experience or giving users a Dashboard for background agents.
 

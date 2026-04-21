@@ -1,5 +1,5 @@
 ---
-description: ULTRACAR post-task pipeline enforcement — security check + self-learning + obsidian save after every code change
+description: Vibe-Coder post-task pipeline enforcement — security check + self-learning + obsidian save after every code change
 globs: "**/*.{js,ts,jsx,tsx,py,go,rs,java,rb,php,c,cpp,cs,swift,kt}"
 alwaysApply: true
 ---

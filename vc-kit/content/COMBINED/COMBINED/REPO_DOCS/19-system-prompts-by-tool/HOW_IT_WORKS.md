@@ -76,7 +76,7 @@ Step 6: AI reads other company dirs → Augment Code, Kiro, Devin AI, Junie, etc
 
 ---
 
-## Key insights for ULTRACAR integration
+## Key insights for Vibe-Coder integration
 
 - **Most comprehensive prompt leak collection** — covers every major AI tool
 - **Tool definitions included** — JSON tool schemas for Claude, GPT, Cursor, etc.

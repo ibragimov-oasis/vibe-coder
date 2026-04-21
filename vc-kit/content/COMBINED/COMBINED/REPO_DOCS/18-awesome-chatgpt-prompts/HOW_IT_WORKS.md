@@ -84,7 +84,7 @@ Step 6: AI reads `prompts.csv` → accesses structured prompt data for programma
 
 ---
 
-## Key insights for ULTRACAR integration
+## Key insights for Vibe-Coder integration
 
 - **Highest-starred prompt repo** — 143k stars, the OG prompt library from Dec 2022
 - **Now a full web app** — self-hostable Next.js with Docker, MCP server, CLI, Claude plugin

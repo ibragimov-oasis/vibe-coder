@@ -1555,7 +1555,7 @@ These files were hidden (dot-prefix) in original but renamed in local vibe-coder
 | optional-skills/security/1password/SKILL.md | COMBINED/skills/hermes-agent/ | Agent skill definition |
 | optional-skills/research/domain-intel/SKILL.md | COMBINED/skills/hermes-agent/ | Agent skill definition |
 
-## Key insights for ULTRACAR integration
+## Key insights for Vibe-Coder integration
 
 - Uniquely features a rich suite of `optional-skills` organized by domain (mlops, creative, productivity, security), effectively solving the fragmented context problem.\n- Includes native memory integrations out-of-the-box (e.g., Mem0, Honcho).\n- Can easily be orchestrated by other larger meta-agents using its gateway routing to different instances.
 

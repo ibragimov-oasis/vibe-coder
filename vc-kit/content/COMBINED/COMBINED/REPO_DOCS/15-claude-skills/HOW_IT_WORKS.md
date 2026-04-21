@@ -84,7 +84,7 @@ These files were hidden (dot-prefix) in original but renamed in local vibe-coder
 
 ---
 
-## Key insights for ULTRACAR integration
+## Key insights for Vibe-Coder integration
 
 - **Largest skill library by count** — 248 skills across engineering, product, marketing, compliance, C-level advisory, finance
 - **Multi-platform** — works on 11 AI coding tools with automatic format conversion via `scripts/convert.sh`

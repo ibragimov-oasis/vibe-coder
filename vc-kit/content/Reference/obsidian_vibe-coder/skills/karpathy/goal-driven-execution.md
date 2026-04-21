@@ -18,7 +18,7 @@ source: "../COMBINED/skills/skills-claude/karpathy/"
 # 🎯 Goal-Driven Execution
 
 > **Принцип #4 из 4** — Andrej Karpathy
-> **Встроен во все 15 мега-агентов ULTRACAR**
+> **Встроен во все 15 мега-агентов Vibe-Coder**
 
 ## Суть принципа
 
@@ -68,7 +68,7 @@ source: "../COMBINED/skills/skills-claude/karpathy/"
 ❌ Бесконечный рефакторинг без прохождения теста
 ```
 
-## Связь с ULTRACAR Pipeline
+## Связь с Vibe-Coder Pipeline
 
 ```
 Task Master: определяет acceptance criteria

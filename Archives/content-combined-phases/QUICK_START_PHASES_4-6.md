@@ -7,7 +7,7 @@ tags:
 
 # 🚀 Quick Start Guide - Phases 4-6
 
-> **Start Here:** Continue the ULTRACAR project and complete v1.0.0
+> **Start Here:** Continue the Vibe-Coder project and complete v1.0.0
 > **Time Required:** 5-8 weeks part-time, 2.5-4 weeks full-time
 > **Current Status:** Phases 1-3 complete (50%), Phases 4-6 fully planned
 

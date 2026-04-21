@@ -78,7 +78,7 @@ These files were hidden (dot-prefix) in original but renamed in local vibe-coder
 
 ---
 
-## Key insights for ULTRACAR integration
+## Key insights for Vibe-Coder integration
 
 - **Largest agent harness system** — 60+ skills, 20+ agents, 30+ commands, hooks, rules, instincts
 - **Anthropic Hackathon Winner** — official recognition from Anthropic

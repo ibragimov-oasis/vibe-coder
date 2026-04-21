@@ -76,7 +76,7 @@ Step 6: AI reads `.cursorrules` → loads Cursor AI rules for the project
 
 ---
 
-## Key insights for ULTRACAR integration
+## Key insights for Vibe-Coder integration
 
 - **Knowledge graph for code** — unique approach vs. flat file analysis
 - **MCP server** — exposes codebase graph to any AI agent via MCP

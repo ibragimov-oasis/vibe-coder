@@ -51,7 +51,7 @@ source: "../new_repos/obsidian-copilot/docs/context-and-mentions.md"
 ## См. также
 
 - [[obsidian-copilot/chat-interface]] — интерфейс чата
-- [[combined/Memory Overview]] — системы памяти ULTRACAR
+- [[combined/Memory Overview]] — системы памяти Vibe-Coder
 
 ## 🔗 Связи
 

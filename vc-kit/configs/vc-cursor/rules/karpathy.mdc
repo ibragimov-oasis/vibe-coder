@@ -1,5 +1,5 @@
 ---
-description: ULTRACAR Karpathy 4 Principles — enforced on all code files
+description: Vibe-Coder Karpathy 4 Principles — enforced on all code files
 globs: "**/*.{js,ts,jsx,tsx,py,go,rs,java,rb,php,c,cpp,cs,swift,kt}"
 alwaysApply: true
 ---

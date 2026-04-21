@@ -5,7 +5,7 @@ tags:
   - source/REPO_DOCS
 ---
 
-# ULTRACAR Documentation Session 3 Report — FINAL
+# Vibe-Coder Documentation Session 3 Report — FINAL
 
 ## Session Metadata
 - **Session:** 3 of 3 (FINAL)

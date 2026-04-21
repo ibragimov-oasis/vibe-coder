@@ -20,7 +20,7 @@ source: "../COMBINED/orchestration/core-background-agents/"
 
 ## Описание
 
-Async-выполнение задач в изолированных sandbox-средах. **Step 1** в основном пайплайне ULTRACAR.
+Async-выполнение задач в изолированных sandbox-средах. **Step 1** в основном пайплайне Vibe-Coder.
 
 ## Ключевые возможности
 

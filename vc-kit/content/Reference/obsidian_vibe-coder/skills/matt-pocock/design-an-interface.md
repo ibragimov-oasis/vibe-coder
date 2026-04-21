@@ -22,7 +22,7 @@ source: "../COMBINED/skills/skills-planning/design-an-interface/"
 
 ## Назначение
 
-`design-an-interface` объединяет Karpathy "Think Before Coding" с дизайн-иерархией ULTRACAR:
+`design-an-interface` объединяет Karpathy "Think Before Coding" с дизайн-иерархией Vibe-Coder:
 - Задаёт уточняющие вопросы об интерфейсе
 - Подбирает подходящие компоненты из дизайн-системы
 - Создаёт описание UI с псевдокодом или mock-up

@@ -9,7 +9,7 @@ tags:
 
 # cc-connect — How It Works
 
-**Category:** New Repo (ULTRACAR v3.0 — original 54)
+**Category:** New Repo (Vibe-Coder v3.0 — original 54)
 **Local path in vibe-coder:** COMBINED/orchestration/core-cc-connect/
 
 ---
@@ -20,7 +20,7 @@ Remote AI access from 10 chat platforms (Telegram, Slack, Discord, WeChat + 6 mo
 
 ---
 
-## ULTRACAR Role
+## Vibe-Coder Role
 
 Provides specialized capability as described above. See the files at `COMBINED/orchestration/core-cc-connect/` for full documentation and usage instructions.
 

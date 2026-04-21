@@ -17,7 +17,7 @@ source: "../COMBINED/ui-design/ui-rules/ui-ux-pro-max/"
 # UI Design: UI/UX Pro Max (161 Rules)
 
 > **Источник:** `../COMBINED/ui-design/ui-rules/ui-ux-pro-max/`
-> **Rule #3:** UI/UX Pro Max — шестой (финальный) в иерархии дизайна ULTRACAR.
+> **Rule #3:** UI/UX Pro Max — шестой (финальный) в иерархии дизайна Vibe-Coder.
 > **Применяется к ЛЮБОМУ дизайн-выводу.**
 
 ## О чём

@@ -53,7 +53,7 @@ source: "../COMBINED/prompts/prompts-ai-systems/"
 ## См. также
 
 - [[prompts/prompts-templates]] — шаблоны промптов
-- [[root-docs/CAPABILITIES]] — ULTRACAR capabilities
+- [[root-docs/CAPABILITIES]] — Vibe-Coder capabilities
 
 ## 🔗 Связи
 

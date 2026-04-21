@@ -84,7 +84,7 @@ source: "../COMBINED/security/security-shannon/"
 
 ---
 
-## Интеграция с ULTRACAR Pipeline
+## Интеграция с Vibe-Coder Pipeline
 
 ```
 Step 3 (после кода):  Shannon → Security Audit

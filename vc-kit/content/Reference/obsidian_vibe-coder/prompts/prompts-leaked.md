@@ -36,7 +36,7 @@ source: "../COMBINED/prompts/prompts-leaked/"
 
 ## См. также
 
-- [[root-docs/CAPABILITIES]] — ULTRACAR собственные capabilities
+- [[root-docs/CAPABILITIES]] — Vibe-Coder собственные capabilities
 
 ## 🔗 Связи
 

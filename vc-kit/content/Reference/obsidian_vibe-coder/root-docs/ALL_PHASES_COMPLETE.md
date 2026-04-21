@@ -17,7 +17,7 @@ source: "../ALL_PHASES_COMPLETE.md"
 # All Phases Complete
 
 > **Источник:** `../ALL_PHASES_COMPLETE.md`
-> **Тип:** Итоговый отчёт о завершении всех фаз построения ULTRACAR v3.0.
+> **Тип:** Итоговый отчёт о завершении всех фаз построения Vibe-Coder v3.0.
 
 ## О чём этот документ
 

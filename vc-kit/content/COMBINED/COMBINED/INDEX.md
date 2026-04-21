@@ -5,7 +5,7 @@ tags:
   - source/combined-root
 ---
 
-# 📋 COMPLETE ULTRACAR INDEX — All 36 Repositories Fully Analyzed
+# 📋 COMPLETE Vibe-Coder INDEX — All 36 Repositories Fully Analyzed
 
 > **Phase 0 Complete — Deep Verification**
 > Generated: 2026-04-02 01:51:00 UTC

@@ -12,7 +12,7 @@ updated: 2026-04-18
 type: audit
 ---
 
-# 📊 Coverage Report — Obsidian Vault ULTRACAR v3.0
+# 📊 Coverage Report — Obsidian Vault Vibe-Coder v3.0
 
 > **Режим интеграции:** Mirror (недеструктивный — исходники не тронуты)
 > **Дата аудита:** 2026-04-18

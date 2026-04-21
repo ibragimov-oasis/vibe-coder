@@ -47,7 +47,7 @@ npx -y nano-banana-2-mcp
 
 ## См. также
 
-- [[combined/UI Design Overview]] — UI/Design система ULTRACAR
+- [[combined/UI Design Overview]] — UI/Design система Vibe-Coder
 - [[mcp-servers/mcp-lightpanda]] — визуальная проверка UI
 
 ## 🔗 Связи

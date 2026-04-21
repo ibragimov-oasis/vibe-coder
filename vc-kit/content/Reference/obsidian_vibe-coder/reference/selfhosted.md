@@ -33,9 +33,9 @@ source: "../COMBINED/reference/reference-selfhosted/"
 - Communication platforms
 - And more...
 
-## Связь с ULTRACAR
+## Связь с Vibe-Coder
 
-Для компаний, которым нужен полный контроль над данными при использовании ULTRACAR:
+Для компаний, которым нужен полный контроль над данными при использовании Vibe-Coder:
 - Shannon Pro self-hosted runner
 - Supermemory self-hosted
 - LLM deployment (local models)

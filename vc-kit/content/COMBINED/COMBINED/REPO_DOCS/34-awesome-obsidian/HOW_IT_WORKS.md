@@ -20,7 +20,7 @@ tags:
 ## What it does (plain language for vibe-coders)
 
 A curated list of Obsidian plugins, themes, and resources. This is the reference catalog for extending
-Obsidian's capabilities — useful for discovering plugins that enhance ULTRACAR's Obsidian integration
+Obsidian's capabilities — useful for discovering plugins that enhance Vibe-Coder's Obsidian integration
 (e.g., Dataview for SQL-like queries, Templater for auto-note creation, QuickAdd for automation).
 
 ---
@@ -28,14 +28,14 @@ Obsidian's capabilities — useful for discovering plugins that enhance ULTRACAR
 ## How the AI reads this repo (startup sequence)
 
 Step 1: AI reads README.md → gets list of all plugins organized by category
-Step 2: Cross-reference with ULTRACAR needs: memory, automation, AI integration
+Step 2: Cross-reference with Vibe-Coder needs: memory, automation, AI integration
 Step 3: Identify automation plugins (QuickAdd, Templater, Shell commands) for obsidian-update.sh
 
 ---
 
-## Key plugins relevant to ULTRACAR
+## Key plugins relevant to Vibe-Coder
 
-| Plugin | Use in ULTRACAR |
+| Plugin | Use in Vibe-Coder |
 |--------|----------------|
 | Dataview | SQL-like queries over vault (the "SQL graph" for notes) |
 | Templater | Auto-create notes from templates when AI saves task output |
@@ -45,7 +45,7 @@ Step 3: Identify automation plugins (QuickAdd, Templater, Shell commands) for ob
 
 ---
 
-## ULTRACAR Role
+## Vibe-Coder Role
 
 Use as plugin discovery reference when extending Obsidian automation.
 Dataview = SQL graph queries on Obsidian notes.

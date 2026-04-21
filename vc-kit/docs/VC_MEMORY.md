@@ -1,4 +1,4 @@
-# MEMORY.md — ULTRACAR v3.0 Memory-First Protocol
+# MEMORY.md — Vibe-Coder v3.0 Memory-First Protocol
 
 > **Read by ALL AI interfaces**: The FIRST thing you do. Before identity, before agent selection, before anything.
 > Last updated: 2026-04-17
@@ -87,7 +87,7 @@ cp .env.example .env
 
 ## 🏗️ Memory Layer Architecture
 
-ULTRACAR uses a 3-layer memory system. **Layer 1 is mandatory.** Layers 2-3 are recommended enhancements.
+Vibe-Coder uses a 3-layer memory system. **Layer 1 is mandatory.** Layers 2-3 are recommended enhancements.
 
 ### Layer 1: Code Graph (⛔ MANDATORY)
 

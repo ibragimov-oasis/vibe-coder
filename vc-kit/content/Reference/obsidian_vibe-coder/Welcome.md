@@ -1,5 +1,5 @@
 ---
-title: Welcome to ULTRACAR v3.0 Vault
+title: Welcome to Vibe-Coder v3.0 Vault
 tags:
   - domain/system
   - artifact/index
@@ -12,11 +12,11 @@ aliases:
   - start
 ---
 
-# 🚀 Welcome to ULTRACAR v3.0 Knowledge Vault
+# 🚀 Welcome to Vibe-Coder v3.0 Knowledge Vault
 
-> **RU:** Это Obsidian vault для репозитория vibe-coder — ULTRACAR v3.0. Система из 54 репозиториев, объединённых в единый AI-инструмент разработки.
+> **RU:** Это Obsidian vault для репозитория vibe-coder — Vibe-Coder v3.0. Система из 54 репозиториев, объединённых в единый AI-инструмент разработки.
 >
-> **EN:** This is the Obsidian vault for the vibe-coder repository — ULTRACAR v3.0. A system of 54 repositories unified into a single AI development toolkit.
+> **EN:** This is the Obsidian vault for the vibe-coder repository — Vibe-Coder v3.0. A system of 54 repositories unified into a single AI development toolkit.
 
 ## Куда идти дальше? / Where to start?
 

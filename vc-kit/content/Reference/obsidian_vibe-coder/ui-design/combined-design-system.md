@@ -16,7 +16,7 @@ source: "../COMBINED/ui-design/COMBINED_DESIGN_SYSTEM.md"
 # UI Design: Combined Design System
 
 > **Источник:** `../COMBINED/ui-design/COMBINED_DESIGN_SYSTEM.md`
-> **Master reference:** единый источник правды для дизайн-системы ULTRACAR.
+> **Master reference:** единый источник правды для дизайн-системы Vibe-Coder.
 
 ## О чём
 

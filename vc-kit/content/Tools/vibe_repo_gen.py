@@ -89,7 +89,7 @@ def generate_doc(repo_num, repo_title, repo_url, repo_stars, category, local_pat
                 why = "System instructions"
             out.write(f"| {kf} | {dest} | {why} |\n")
 
-        out.write(f"\n## Key insights for ULTRACAR integration\n\n")
+        out.write(f"\n## Key insights for Vibe-Coder integration\n\n")
         out.write(f"{insights}\n\n")
 
         out.write(f"## How to restore hidden files (for end users)\n\n")

@@ -1,5 +1,5 @@
 #!/usr/bin/env node
-// pipeline-trigger.cjs — ULTRACAR Autonomous Pipeline Trigger
+// pipeline-trigger.cjs — Vibe-Coder Autonomous Pipeline Trigger
 // Fires after TaskCompleted to instruct AI to run Hermes + Shannon
 // This replaces the simple echo message with a structured pipeline instruction.
 
@@ -49,7 +49,7 @@ function main() {
     : 'SKIP';
 
   const pipeline = {
-    pipeline: 'ULTRACAR_POST_TASK',
+    pipeline: 'Vibe-Coder_POST_TASK',
     mandatory: true,
     session: {
       tasksCompleted: state.tasksCompleted || 0,

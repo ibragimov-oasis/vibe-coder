@@ -18,7 +18,7 @@ source: "../COMBINED/security/security-shannon/"
 
 > **Источник:** `../COMBINED/security/security-shannon/`
 > **Stars:** 35k⭐
-> **Step 3** в ULTRACAR Pipeline: Security Audit.
+> **Step 3** в Vibe-Coder Pipeline: Security Audit.
 
 ## О чём
 
