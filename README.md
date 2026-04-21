@@ -50,6 +50,8 @@ cp -R vibe-coder/vc-kit /path/to/your-project/
 cd /path/to/your-project && bash vc-kit/install.sh
 ```
 
+Важно: в рабочий проект обычно копируется только `vc-kit/`, а не весь корень `vibe-coder` — это исключает конфликт с вашим собственным `README.md` и корневыми файлами.
+
 Полезные флаги:
 
 ```bash
@@ -150,5 +152,6 @@ vc-kit/
 ## Дополнительные документы
 
 - Quickstart: `vc-kit/docs/VC_QUICKSTART.md`
+- Полная инструкция (RU): `vc-kit/docs/VC_FULL_SETUP_RU.md`
 - Content index: `vc-kit/content/VC_CONTENT_INDEX.md`
 - Прочие материалы: `vc-kit/docs/`

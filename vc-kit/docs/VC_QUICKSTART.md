@@ -71,3 +71,6 @@ cp vibe-coder/vc-kit/rules/vc-cursorrules /path/to/your-project/.cursorrules
 
 См. индекс контента:
 `vc-kit/content/VC_CONTENT_INDEX.md`
+
+Полная пошаговая инструкция (RU):
+`vc-kit/docs/VC_FULL_SETUP_RU.md`
