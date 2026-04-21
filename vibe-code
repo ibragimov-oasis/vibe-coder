@@ -1,0 +1,83 @@
+# vibe-code
+
+Единая точка входа для вайб-кодера.
+
+Канонический сценарий поставки:
+1) Клонируй `vibe-coder`
+2) Перенеси `vc-kit/` в свой репозиторий
+3) Запусти агента с готовым промтом из `vc-kit/docs/VC_AGENT_PROMPTS_RU.md`
+
+Канонический счётчик источников:
+- **54 репозитория** (31 original + 23 new)
+- Source of truth: `vc-kit/docs/VC_SOURCE_OF_TRUTH.md`
+
+---
+
+## Что копировать в проект
+
+Рекомендуемо:
+```bash
+git clone https://github.com/ibragimov-oasis/vibe-coder.git
+cp -R vibe-coder/vc-kit /path/to/your-project/
+cd /path/to/your-project
+bash vc-kit/install.sh --dry-run
+bash vc-kit/install.sh
+```
+
+Не рекомендуется копировать весь root `vibe-coder` в рабочий проект.
+
+---
+
+## Что запускать первым
+
+Сначала:
+1) `bash vc-kit/install.sh --dry-run`
+2) `bash vc-kit/install.sh`
+3) Перезапуск IDE/сессии агента
+4) Запуск агента с master-prompt
+
+Master-prompt:
+- `vc-kit/docs/VC_AGENT_PROMPTS_RU.md` → раздел «MASTER PROMPT»
+
+---
+
+## Обязательные файлы по интерфейсам
+
+После установки в целевом проекте должны быть:
+
+- **Claude Code**: `.claude/CLAUDE.md`
+- **Copilot**: `.github/copilot-instructions.md`
+- **Antigravity**: `.antigravity/AGENTS.md`
+
+Также полезно:
+- `.cursor/`, `.codex/`, `.gemini/`, `.cursorrules`, `.env.example`
+
+---
+
+## 2 режима внедрения
+
+### Режим A (рекомендуемый): `vc-kit + install.sh`
+- Для 95% случаев
+- Безопасная установка с конфликт-режимами `merge/skip/backup`
+- Источник: `vc-kit/docs/VC_QUICKSTART.md`
+
+### Режим B (single-file guided): через `vibe-code`
+- Когда нужен строгий, управляемый rollout через одного AI-агента
+- Агент действует по операционному контракту и ставит только нужные части
+- Промты: `vc-kit/docs/VC_AGENT_PROMPTS_RU.md`
+
+---
+
+## Как понять, что интеграция активировалась
+
+1) Проверка путей:
+```bash
+ls -la .claude .github .antigravity 2>/dev/null
+```
+
+2) Проверка smoke-test:
+- `vc-kit/docs/VC_SMOKE_TEST.md`
+
+3) Проверка матрицы ограничений интерфейсов:
+- `vc-kit/docs/VC_INTERFACE_MATRIX.md`
+

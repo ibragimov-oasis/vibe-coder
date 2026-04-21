@@ -2,6 +2,23 @@
 
 Быстрый запуск `vc-kit` в вашем проекте.
 
+Канонический entrypoint: `/vibe-code`  
+Канонический счётчик источников: **54** (31 original + 23 new)  
+Source of truth: `vc-kit/docs/VC_SOURCE_OF_TRUTH.md`
+
+---
+
+## 0) Выберите режим внедрения
+
+### Режим A (рекомендуемый): `vc-kit + install.sh`
+- Стандартный безопасный путь с merge/skip/backup.
+- Подходит почти для всех проектов.
+
+### Режим B: single-file guided (`/vibe-code`)
+- Для строгого запуска через один операционный документ.
+- Агент внедряет нужные части по готовому промту.
+- Промты: `vc-kit/docs/VC_AGENT_PROMPTS_RU.md`
+
 ## 1) Скопировать kit
 
 ```bash
@@ -36,6 +53,16 @@ bash vc-kit/install.sh --yes
 - `.codex/`
 - `.gemini/`
 - `.cursorrules`
+
+## 4) Запустить AI-агента по готовому промту
+
+Используйте:
+- `vc-kit/docs/VC_AGENT_PROMPTS_RU.md` → `MASTER PROMPT`
+
+Интерфейсные версии:
+- Copilot: `vc-kit/configs/vc-github/prompts/vibe-install-copilot.prompt.md`
+- Claude Code: `vc-kit/configs/vc-claude/prompts/vibe-install-claude.prompt.md`
+- Antigravity: `vc-kit/configs/vc-antigravity/prompts/vibe-install-antigravity.prompt.md`
 
 ---
 
@@ -74,3 +101,6 @@ cp vibe-coder/vc-kit/rules/vc-cursorrules /path/to/your-project/.cursorrules
 
 Полная пошаговая инструкция (RU):
 `vc-kit/docs/VC_FULL_SETUP_RU.md`
+
+Smoke-test:
+`vc-kit/docs/VC_SMOKE_TEST.md`

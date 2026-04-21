@@ -10,6 +10,7 @@ tags:
 > **Cross-reference for ALL interfaces.** Maps every tool, MCP server, skill, and agent
 > to the interfaces that support it, with activation instructions.
 > Last updated: 2026-04-15
+> Canonical source count: **54 repositories** (31 original + 23 new), see `VC_SOURCE_OF_TRUTH.md`.
 
 ---
 
@@ -161,4 +162,3 @@ All mega-agents are file-based (`COMBINED/agents/mega/*.md`). Any interface that
 ## 🔗 Связи
 
 - [[000 - Map of Maps]] — Map of Maps
-
