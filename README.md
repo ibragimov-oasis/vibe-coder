@@ -2,6 +2,7 @@
 
 
 > ⚠️ Важно: полный прежний (исторический) README сохранён без сокращений в `Archives/root/README_LEGACY.md`.
+> 🎯 Единая точка входа для внедрения: `/vibe-code`
 
 Набор готовых AI-конфигов и контента для встраивания в **ваш** проект без конфликтов.
 
@@ -24,6 +25,16 @@
 
 ---
 
+## Канонический сценарий поставки
+
+`clone vibe-coder` → `copy vc-kit into your repo` → `run installer` → `run AI agent with ready prompt`.
+
+Канонический счётчик источников:
+- **54 репозитория** (31 original + 23 new)
+- Source of truth: `vc-kit/docs/VC_SOURCE_OF_TRUTH.md`
+
+---
+
 ## Официальные варианты использования
 
 ### 1) Рекомендуемый (default): `vc-kit + install.sh`
@@ -36,9 +47,9 @@
 - `vc-kit/configs/`
 - `vc-kit/rules/`
 
-### 3) Advanced/optional: `npx` путь
+### 3) Single-file guided: `vibe-code`
 
-Пока это не основной канал. Базовый и стабильный путь сейчас: локальный `vc-kit + install.sh`.
+Работа через единый входной файл `/vibe-code` и готовые копипаст-промты для AI-агента.
 
 ---
 
@@ -151,8 +162,12 @@ vc-kit/
 
 ## Дополнительные документы
 
+- Entry: `/vibe-code`
+- Canonical terms/count: `vc-kit/docs/VC_SOURCE_OF_TRUTH.md`
 - Quickstart: `vc-kit/docs/VC_QUICKSTART.md`
 - Полная инструкция (RU): `vc-kit/docs/VC_FULL_SETUP_RU.md`
+- Prompt pack: `vc-kit/docs/VC_AGENT_PROMPTS_RU.md`
+- Smoke-test: `vc-kit/docs/VC_SMOKE_TEST.md`
 - Content index: `vc-kit/content/VC_CONTENT_INDEX.md`
 - Архив завершённых/legacy материалов: `Archives/README.md`
 - Прочие материалы: `vc-kit/docs/`

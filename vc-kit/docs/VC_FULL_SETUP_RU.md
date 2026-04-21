@@ -2,6 +2,10 @@
 
 Полная инструкция: как корректно установить `vc-kit`, избежать конфликтов и проверить, что всё действительно активировалось.
 
+Канонический entrypoint: `/vibe-code`  
+Канонический счётчик источников: **54** (31 original + 23 new)  
+Source of truth: `vc-kit/docs/VC_SOURCE_OF_TRUTH.md`
+
 ---
 
 ## 0) Важная модель использования
@@ -26,6 +30,16 @@ bash vc-kit/install.sh
 Почему сначала `--dry-run`:
 - заранее показывает, какие пути будут затронуты;
 - помогает выбрать стратегию для конфликтов.
+
+---
+
+## 1.1) Альтернативный режим: single-file guided
+
+Если хотите вести внедрение через единый документ-контракт:
+
+1. Откройте `/vibe-code`
+2. Дайте агенту master-prompt из `vc-kit/docs/VC_AGENT_PROMPTS_RU.md`
+3. Агент сам выполнит install + валидацию по чеклисту
 
 ---
 
@@ -85,6 +99,9 @@ ls -la .cursorrules .obsidianignore .env.example 2>/dev/null
 
 Если папка/файл отсутствует — вернитесь к `vc-kit-install-*.log` и проверьте, что именно было `skip/merge/backup`.
 
+Для интерфейсной smoke-проверки:
+- `vc-kit/docs/VC_SMOKE_TEST.md`
+
 ---
 
 ## 5) Нужен ли rename README для избежания конфликтов
@@ -117,3 +134,15 @@ bash vc-kit/install.sh --yes
 ```
 
 `--yes` включает non-interactive режим с default=`merge`, то есть не перезаписывает существующие файлы целиком.
+
+---
+
+## 8) Готовые промты для агента
+
+Общий пакет:
+- `vc-kit/docs/VC_AGENT_PROMPTS_RU.md`
+
+Интерфейсно-адаптированные:
+- Copilot: `vc-kit/configs/vc-github/prompts/vibe-install-copilot.prompt.md`
+- Claude Code: `vc-kit/configs/vc-claude/prompts/vibe-install-claude.prompt.md`
+- Antigravity: `vc-kit/configs/vc-antigravity/prompts/vibe-install-antigravity.prompt.md`

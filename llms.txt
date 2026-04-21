@@ -1,5 +1,5 @@
 # Vibe-Coder Arsenal
-> The ultimate toolkit for AI-powered development. 31 repos, 7 categories, 1,500+ skills.
+> The ultimate toolkit for AI-powered development. 54 repositories (31 original + 23 new), 7 categories, 3,000+ skills.
 > Clone once — your AI becomes smarter, more autonomous, and more powerful.
 
 ## Repository
@@ -112,7 +112,7 @@ See: /QUICKSTART.md
 
 ## Documentation
 - Master Plan: /MASTER_PLAN.md — Single source of truth for repo organization
-- Audit: /AUDIT.md — Complete mapping of 172+ config files across 31 repos
+- Audit: /AUDIT.md — Complete mapping of config assets across the combined repository set
 - Orchestration Guide: /ORCHESTRATION.md — 5 orchestration systems compared
 - Memory Setup: /MEMORY_SETUP.md — 3 memory systems with installation guides
 - Skill Merge Plan: /MERGE_PLAN.md — 119 skills merge tracker
@@ -125,4 +125,4 @@ See: /QUICKSTART.md
    cp -r vibe-coder/COMBINED/copilot/* YOUR_PROJECT/.github/
    cp vibe-coder/COMBINED/cursor/COMBINED_CURSORRULES YOUR_PROJECT/.cursorrules
 3. Open your project in any AI coding tool
-4. Your AI now has 31 repos worth of skills and instructions
+4. Your AI now has combined skills and instructions from 54 repositories
