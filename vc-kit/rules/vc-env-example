@@ -1,0 +1,116 @@
+# ══════════════════════════════════════════════════════════════════
+# Vibe-Coder v3.0 — Environment Variables
+# ══════════════════════════════════════════════════════════════════
+# Copy this file to .env and fill in your API keys.
+# ALL keys are optional — the system works with any combination.
+# More keys = more capabilities.
+#
+# Usage: cp .env.example .env && nano .env
+# ══════════════════════════════════════════════════════════════════
+
+# ─── Layer 3: Supermemory (Long-term cross-session memory) ───────
+# Get your key at: https://supermemory.ai
+# Used by: All interfaces (MCP or CLI)
+# Purpose: Persistent memory across sessions and projects (#1 on benchmarks)
+SUPERMEMORY_API_KEY=sm_your_api_key_here
+
+# ─── Layer 4: OpenViking (Codebase context memory) ───────────────
+# Docs: https://www.openviking.ai/docs
+# Used by: Claude Code, Cursor (MCP); others via CLI
+# Purpose: Codebase context with L0/L1/L2 tiered loading (91% token reduction)
+
+# VLM Provider (choose one: openai, volcengine, litellm)
+OPENVIKING_VLM_PROVIDER=openai
+OPENVIKING_VLM_MODEL=gpt-4o
+OPENVIKING_VLM_API_KEY=sk-your_openai_key_here
+
+# Embedding Provider
+OPENVIKING_EMBEDDING_PROVIDER=openai
+OPENVIKING_EMBEDDING_MODEL=text-embedding-3-large
+OPENVIKING_EMBEDDING_API_KEY=sk-your_openai_key_here
+
+# ─── MCP: Nano-Banana (Image generation via Gemini) ─────────────
+# Get your key at: https://aistudio.google.com/apikey
+# Used by: All interfaces
+# Purpose: AI image generation for mockups, icons, design concepts
+GEMINI_API_KEY=your_gemini_api_key_here
+
+# ─── MCP: MCP-Toolbox (Database access) ─────────────────────────
+# Not needed if you don't use database features.
+# Supports: PostgreSQL, MySQL, BigQuery, MongoDB, Redis, 20+ more
+# Docs: https://github.com/googleapis/genai-toolbox
+#
+# Example for PostgreSQL:
+# DATABASE_URL=postgresql://user:pass@localhost:5432/mydb
+#
+# Example for MySQL:
+# DATABASE_URL=mysql://user:pass@localhost:3306/mydb
+
+# ─── MCP: MarkItDown (File conversion) ──────────────────────────
+# No API key needed — runs locally.
+# Install: pip install markitdown
+# Purpose: Convert PDF, DOCX, XLSX, images, audio → Markdown
+
+# ─── MCP: Code-Review-Graph (AST code graph) ────────────────────
+# No API key needed — runs locally with SQLite.
+# Install: pip install code-review-graph
+# Purpose: 8.2x token reduction via structural code analysis
+#
+# Optional: embeddings for semantic search
+# CODE_REVIEW_GRAPH_EMBEDDING_PROVIDER=google  # or: local, minimax
+# CODE_REVIEW_GRAPH_EMBEDDING_API_KEY=your_gemini_api_key_here
+
+# ─── MCP: Lightpanda (Fast browser) ─────────────────────────────
+# No API key needed — runs locally.
+# Install: curl -L -o lightpanda https://github.com/lightpanda-io/browser/releases/download/nightly/lightpanda-aarch64-macos && chmod a+x ./lightpanda
+# Purpose: 9x faster browser for web tasks (NEVER use Chrome)
+
+# ─── MCP: GitNexus (Codebase map) ───────────────────────────────
+# No API key needed — runs via npx.
+# Usage: npx -y gitnexus@latest mcp
+# Purpose: Codebase structure analysis and mapping
+
+# ─── MCP: Task Master (AI task management) ──────────────────────
+# Uses your Claude/OpenAI API key for AI-powered task decomposition.
+# Get key at: https://console.anthropic.com/
+ANTHROPIC_API_KEY=sk-ant-your_anthropic_key_here
+
+# Alternative: use OpenAI for Task Master
+# OPENAI_API_KEY=sk-your_openai_key_here
+
+# ─── MCP: Claude-Flow (Agent teams — Claude Code only) ──────────
+# Uses your Anthropic API key (same as above).
+# Only works in Claude Code with CLAUDE_CODE_EXPERIMENTAL_AGENT_TEAMS=1
+
+# ─── Optional: Claude Code Agent Teams ──────────────────────────
+# Enables multi-agent coordination in Claude Code.
+CLAUDE_CODE_EXPERIMENTAL_AGENT_TEAMS=1
+
+# ─── Optional: cc-connect (Remote access from chat platforms) ────
+# Only needed if you want AI agents accessible from Telegram/Slack/Discord.
+# Docs: COMBINED/orchestration/core-cc-connect/
+# TELEGRAM_BOT_TOKEN=your_telegram_bot_token
+# SLACK_BOT_TOKEN=xoxb-your-slack-bot-token
+# DISCORD_BOT_TOKEN=your_discord_bot_token
+
+# ══════════════════════════════════════════════════════════════════
+# SUMMARY — What needs API keys vs what runs locally:
+# ══════════════════════════════════════════════════════════════════
+#
+# RUNS LOCALLY (no keys needed):
+#   ✅ code-review-graph  — SQLite AST graph (MANDATORY)
+#   ✅ lightpanda          — Fast browser
+#   ✅ gitnexus            — Codebase mapping
+#   ✅ markitdown          — File conversion
+#
+# NEEDS API KEY:
+#   🔑 supermemory         — Long-term memory
+#   🔑 openviking          — Codebase context (needs LLM key)
+#   🔑 nano-banana         — Image generation (Gemini key)
+#   🔑 mcp-toolbox         — Database access (connection string)
+#   🔑 task-master         — AI task management (Anthropic/OpenAI key)
+#   🔑 claude-flow         — Agent teams (Anthropic key)
+#
+# OPTIONAL (for remote access):
+#   🔑 cc-connect          — Telegram/Slack/Discord bots
+# ══════════════════════════════════════════════════════════════════

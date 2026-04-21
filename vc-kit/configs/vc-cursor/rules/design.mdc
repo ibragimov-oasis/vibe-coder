@@ -1,0 +1,43 @@
+---
+description: Vibe-Coder v3.0 UI/UX design rules — Galaxy, shadcn, Impeccable, Taste-skill, Stitch, UI/UX Pro Max
+globs: "**/*.{css,scss,less,html,jsx,tsx,vue,svelte}"
+alwaysApply: true
+---
+
+# UI/UX Design Rules (Vibe-Coder v3.0)
+
+## Component Search Order (MANDATORY)
+1. `COMBINED/ui-design/ui-components-galaxy/` → 3,000+ components
+2. `COMBINED/ui-design/ui-components-shadcn/` → accessible React components
+3. `COMBINED/ui-design/ui-impeccable/` → 18 design cmds + 7 refs + anti-pattern detection
+4. `COMBINED/ui-design/ui-taste-skill/` → 7 premium skills, 3-dial parameterization (DESIGN_VARIANCE, MOTION_INTENSITY, VISUAL_DENSITY)
+5. `COMBINED/ui-design/ui-stitch-skills/` → Google Stitch design generation, React components, DESIGN.md
+6. `COMBINED/ui-design/ui-rules/ui-ux-pro-max/` → 161 design rules
+7. Custom → only if 1-6 have nothing; document why
+
+## Anti-Slop (Impeccable)
+- NO gray text on white backgrounds
+- NO Inter font as default
+- NO purple gradients everywhere
+- NO nested cards inside cards
+- NO bounce easing on everything
+- Run: `/impeccable:audit` to detect AI design slop
+
+## Critical Rules (auto-check these)
+- Contrast ratio ≥ 4.5:1 for normal text
+- Touch targets ≥ 44×44pt (48×48dp Android)
+- Focus rings (2-4px) on ALL interactive elements
+- No emoji as icons — use SVG (Heroicons, Lucide)
+- Mobile-first design, breakpoints: 375/768/1024/1440
+- 4pt/8dp spacing system
+- Animations 150-300ms with ease-out, respect prefers-reduced-motion
+- font-display: swap for web fonts
+- Images: WebP/AVIF with width/height for CLS prevention
+
+## Design System Generator
+```bash
+python3 COMBINED/ui-design/ui-rules/ui-ux-pro-max/claude/skills/ui-ux-pro-max/scripts/search.py "<keywords>" --design-system
+```
+
+## Full Design Agent
+See `COMBINED/agents/mega/mega-designer.md`

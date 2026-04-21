@@ -1,0 +1,49 @@
+---
+description: Vibe-Coder memory enforcement — check supermemory before work, save after
+globs: "**/*"
+alwaysApply: true
+---
+
+# Memory Rules (Vibe-Coder v3.0)
+
+## Before Starting ANY Task
+```
+mcp supermemory search "<task keywords>"
+```
+If prior work exists → build on it, don't redo.
+
+## After Completing ANY Task
+```
+mcp supermemory add "<what was done and why>" tags:[<domain>]
+```
+
+## Obsidian Vault Auto-Save (⛔ MANDATORY after every non-trivial task)
+```bash
+bash obsidian-update.sh \
+  --title "<task title>" \
+  --content "<what was done, learned, decided>" \
+  --tags "<domain>,<type>"
+```
+Creates `obsidian_vibe-coder/sessions/YYYY-MM-DD-HHMM-<title>.md` and updates MOC.
+
+## For Codebase Context
+```
+mcp openviking read
+```
+Load prior decisions and architecture context.
+
+After making changes:
+```
+mcp openviking write "<what changed and why>"
+```
+
+## Memory Hierarchy
+1. **Supermemory** — long-term, cross-session, #1 on benchmarks
+2. **OpenViking** — codebase-specific context (ByteDance)
+3. **Claude-Mem** — session memory (auto via hooks in Claude Code)
+
+## When to Save
+- Novel pattern discovered → save + create skill
+- Architecture decision made → save with `tags:[architecture]`
+- Bug fixed → save root cause with `tags:[debugging]`
+- Performance optimization → save approach with `tags:[performance]`

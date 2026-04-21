@@ -1,0 +1,54 @@
+---
+description: Vibe-Coder orchestration — automatic multi-agent coordination for complex tasks
+globs: "**/*"
+alwaysApply: true
+---
+
+# Orchestration Rules (Vibe-Coder v3.0)
+
+## When to Use Multi-Agent Coordination
+
+Use the mega-orchestrator when a task involves:
+- 3+ files changing simultaneously
+- Both frontend and backend changes
+- Both implementation and testing
+- Architecture decisions + implementation
+- Full feature development
+
+## OMC Team Pipeline
+```
+team-plan → team-prd → team-exec → team-verify → team-fix (loop)
+```
+
+Use: `COMBINED/orchestration/core-omc/`
+
+## Superpowers Workflow (Universal)
+```
+1. brainstorming → refine ideas
+2. git-worktrees → isolated workspace
+3. writing-plans → bite-sized tasks (2-5 min each)
+4. test-driven-development → RED-GREEN-REFACTOR
+5. code-review → review against plan
+6. finishing-branch → verify tests, present options
+```
+
+Use: `COMBINED/orchestration/superpowers/`
+
+## GSD Spec-Driven Development
+```
+gsd:spec → extract specification
+gsd:plan → generate implementation plan
+gsd:exec → execute the plan
+```
+
+Use: `COMBINED/orchestration/core-gsd/`
+
+## MCP Tools for Orchestration
+```
+mcp gitnexus map               — understand codebase
+mcp code-review-graph build     — structural analysis
+mcp supermemory search <query>  — check prior work
+```
+
+## Agent Files
+Full orchestrator: `COMBINED/agents/mega/mega-orchestrator.md`

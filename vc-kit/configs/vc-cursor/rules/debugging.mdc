@@ -1,0 +1,38 @@
+---
+description: Vibe-Coder debugging rules — hypothesis-driven debugging with circuit breaker
+globs: "**/*"
+alwaysApply: false
+---
+
+# Debugging Rules (Vibe-Coder v3.0)
+
+## Mandatory Process
+When the user reports a bug, error, or unexpected behavior:
+
+1. **REPRODUCE** — Get exact error message, confirm you can trigger it
+2. **HYPOTHESIZE** — Form 2-3 hypotheses, rank by likelihood
+3. **TEST** — Validate each hypothesis with minimal changes
+4. **FIX** — Apply smallest surgical fix
+5. **VERIFY** — Confirm fix + no regressions
+
+## Circuit Breaker
+After 3 failed fix attempts → STOP and:
+- Document what you tried
+- Explain why it failed
+- Suggest alternative approaches
+- Escalate to `mega-architect.md`
+
+## Tools
+```
+mcp code-review-graph blast-radius <file>  — what's affected?
+mcp gitnexus map                           — understand structure
+```
+
+## Anti-Patterns
+- Don't guess — test your hypothesis
+- Don't fix symptoms — find root cause
+- Don't "clean up" while debugging — one concern at a time
+- Don't ignore failing tests — they're telling you something
+
+## Agent
+Full debugging methodology: `COMBINED/agents/mega/mega-debugger.md`

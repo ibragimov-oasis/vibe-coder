@@ -1,0 +1,36 @@
+---
+description: Vibe-Coder Karpathy 4 Principles — enforced on all code files
+globs: "**/*.{js,ts,jsx,tsx,py,go,rs,java,rb,php,c,cpp,cs,swift,kt}"
+alwaysApply: true
+---
+
+# Karpathy 4 Principles (MANDATORY)
+
+These principles apply to EVERY code change you make:
+
+## 1. Think Before Coding
+- State your assumptions BEFORE writing code
+- Present 2-3 tradeoffs when multiple approaches exist
+- If confused → STOP and ask, don't guess
+- Understand the "why" before the "how"
+
+## 2. Simplicity First
+- Write the MINIMUM code that solves the problem
+- No speculative features ("might need later")
+- No single-use abstractions
+- If you can delete code instead of adding code → delete
+- Prefer standard library over external dependency
+
+## 3. Surgical Changes
+- Touch ONLY what the user's request requires
+- Don't "improve" adjacent code while you're there
+- Every changed line must trace back to the user's request
+- If you see something else that needs fixing → mention it, don't fix it
+
+## 4. Goal-Driven Execution
+- Define success criteria BEFORE starting
+- Write tests first (TDD when practical)
+- Loop until verified: code → test → refine
+- Evidence over claims — run the code, don't just say it works
+
+Source: `COMBINED/skills/skills-claude/karpathy/`

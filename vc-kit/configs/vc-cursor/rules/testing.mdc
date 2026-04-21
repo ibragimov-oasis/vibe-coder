@@ -1,0 +1,41 @@
+---
+description: Vibe-Coder TDD enforcement — test-driven development rules for test files
+globs: "**/*.{test,spec}.{js,ts,jsx,tsx,py,go,rs}"
+alwaysApply: true
+---
+
+# TDD Enforcement (Superpowers Workflow)
+
+When working with test files, follow the RED-GREEN-REFACTOR cycle:
+
+## RED Phase
+- Write a failing test FIRST
+- The test should describe the desired behavior
+- Run the test to confirm it fails for the right reason
+
+## GREEN Phase
+- Write the MINIMUM code to make the test pass
+- Don't optimize yet — just make it work
+- Run the test to confirm it passes
+
+## REFACTOR Phase
+- Clean up the code while keeping tests green
+- Remove duplication, improve naming
+- Run all tests to confirm nothing broke
+
+## Testing Pyramid
+- **70% Unit tests** — fast, isolated, test one thing
+- **20% Integration tests** — test component interactions
+- **10% E2E tests** — test full user flows
+
+## Rules
+- Never commit code without tests
+- Test the behavior, not the implementation
+- One assertion per test (when practical)
+- Use descriptive test names: `should [expected] when [condition]`
+- Mock external dependencies, not internal modules
+
+## Agent
+Full TDD methodology: `COMBINED/agents/mega/mega-tester.md`
+Source: `COMBINED/orchestration/superpowers/` (Step 5: test-driven-development)
+Skills: `COMBINED/skills/skills-development/` (Matt Pocock TDD)
