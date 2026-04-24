@@ -690,7 +690,7 @@ export const mcpTools: MCPTool[] = [
         const { TestGenerationService } = await import('agentic-qe');
         const service = new TestGenerationService({
           memory: bridge,
-          model: context.get('modelRouter') // TinyDancer routing
+
         });
 
         return service.generate({
@@ -1033,7 +1033,7 @@ export const mcpTools: MCPTool[] = [
         const { TDDCycleService } = await import('agentic-qe');
         const service = new TDDCycleService({
           memory: bridge,
-          model: context.get('modelRouter')
+
         });
 
         return service.execute({

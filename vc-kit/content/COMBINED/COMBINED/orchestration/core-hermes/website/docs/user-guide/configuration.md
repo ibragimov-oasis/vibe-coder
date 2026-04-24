@@ -431,11 +431,11 @@ Example `litellm_config.yaml` with fallback:
 model_list:
   - model_name: "best"
     litellm_params:
-      model: anthropic/gpt-4o
+
       api_key: sk-ant-...
   - model_name: "best"
     litellm_params:
-      model: openai/gpt-4o
+
       api_key: sk-...
 router_settings:
   routing_strategy: "latency-based-routing"
@@ -655,7 +655,7 @@ Configure a backup provider:model that Hermes switches to automatically when you
 ```yaml
 fallback_model:
   provider: openrouter                    # required
-  model: anthropic/gpt-4o        # required
+
   # base_url: http://localhost:8000/v1    # optional, for custom endpoints
   # api_key_env: MY_CUSTOM_KEY           # optional, env var name for custom endpoint API key
 ```
@@ -679,7 +679,7 @@ smart_model_routing:
   max_simple_words: 28
   cheap_model:
     provider: openrouter
-    model: google/gemini-2.5-flash
+
     # base_url: http://localhost:8000/v1  # optional custom endpoint
     # api_key_env: MY_CUSTOM_KEY          # optional env var name for that endpoint's API key
 ```
@@ -1019,7 +1019,7 @@ auxiliary:
   # Image analysis (vision_analyze tool + browser screenshots)
   vision:
     provider: "auto"           # "auto", "openrouter", "nous", "codex", "main", etc.
-    model: ""                  # e.g. "openai/gpt-4o", "google/gemini-2.5-flash"
+
     base_url: ""               # Custom OpenAI-compatible endpoint (overrides provider)
     api_key: ""                # API key for base_url (falls back to OPENAI_API_KEY)
     timeout: 30                # seconds — LLM API call; increase for slow local vision models
@@ -1028,7 +1028,7 @@ auxiliary:
   # Web page summarization + browser page text extraction
   web_extract:
     provider: "auto"
-    model: ""                  # e.g. "google/gemini-2.5-flash"
+
     base_url: ""
     api_key: ""
     timeout: 30                # seconds
@@ -1036,7 +1036,7 @@ auxiliary:
   # Dangerous command approval classifier
   approval:
     provider: "auto"
-    model: ""
+
     base_url: ""
     api_key: ""
     timeout: 30                # seconds
@@ -1061,7 +1061,7 @@ To use GPT-4o instead of Gemini Flash for image analysis:
 ```yaml
 auxiliary:
   vision:
-    model: "openai/gpt-4o"
+
 ```
 
 Or via environment variable (in `~/.hermes/.env`):
@@ -1088,7 +1088,7 @@ auxiliary:
   vision:
     base_url: "http://localhost:1234/v1"
     api_key: "local-key"
-    model: "qwen2.5-vl"
+
 ```
 
 `base_url` takes precedence over `provider`, so this is the most explicit way to route an auxiliary task to a specific endpoint. For direct endpoint overrides, Hermes uses the configured `api_key` or falls back to `OPENAI_API_KEY`; it does not reuse `OPENROUTER_API_KEY` for that custom endpoint.
@@ -1102,7 +1102,7 @@ auxiliary:
 auxiliary:
   vision:
     provider: "main"
-    model: "gpt-4o"       # or "gpt-4o-mini" for cheaper
+
 ```
 
 **Using OpenRouter for vision** (route to any model):
@@ -1110,7 +1110,7 @@ auxiliary:
 auxiliary:
   vision:
     provider: "openrouter"
-    model: "openai/gpt-4o"      # or "google/gemini-2.5-flash", etc.
+
 ```
 
 **Using Codex OAuth** (ChatGPT Pro/Plus account — no API key needed):
@@ -1126,7 +1126,7 @@ auxiliary:
 auxiliary:
   vision:
     provider: "main"      # uses your active custom endpoint
-    model: "my-local-model"
+
 ```
 
 `provider: "main"` follows the same custom endpoint Hermes uses for normal chat. That endpoint can be set directly with `OPENAI_BASE_URL`, or saved once through `hermes model` and persisted in `config.yaml`.
@@ -1210,13 +1210,13 @@ tts:
     voice_id: "pNInz6obpgDQGcFmaJgB"
     model_id: "eleven_multilingual_v2"
   openai:
-    model: "gpt-4o-mini-tts"
+
     voice: "alloy"              # alloy, echo, fable, onyx, nova, shimmer
     base_url: "https://api.openai.com/v1"  # Override for OpenAI-compatible TTS endpoints
   neutts:
     ref_audio: ''
     ref_text: ''
-    model: neuphonic/neutts-air-q4-gguf
+
     device: cpu
 ```
 
@@ -1288,9 +1288,9 @@ Hashes are deterministic — the same user always maps to the same hash, so the 
 stt:
   provider: "local"            # "local" | "groq" | "openai"
   local:
-    model: "base"              # tiny, base, small, medium, large-v3
+
   openai:
-    model: "whisper-1"         # whisper-1 | gpt-4o-mini-transcribe | gpt-4o-transcribe
+
   # model: "whisper-1"         # Legacy fallback key still respected
 ```
 
@@ -1540,7 +1540,6 @@ checkpoints:
   enabled: true                  # Enable automatic checkpoints (also: hermes --checkpoints)
   max_snapshots: 50              # Max checkpoints to keep per directory
 ```
-
 
 ## Delegation
 

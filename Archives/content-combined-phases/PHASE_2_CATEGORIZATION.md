@@ -202,7 +202,7 @@ skill-name/
 name: skill-name
 description: 'Clear description (10-1024 chars, single quotes)'
 tools: [optional list of required tools]
-model: [optional preferred model]
+
 ---
 ```
 

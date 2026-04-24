@@ -966,7 +966,7 @@ const skill = await generateSkillMd({
 
 // Generate config.toml
 const config = await generateConfigToml({
-  model: 'gpt-4o.3-codex',
+
   approvalPolicy: 'on-request',
   sandboxMode: 'workspace-write',
   mcpServers: [

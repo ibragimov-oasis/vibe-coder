@@ -62,14 +62,14 @@ config:
       api_key: "your-volcengine-api-key"
       provider: "volcengine"
       dimension: 1024
-      model: "doubao-embedding-vision-250615"
+
       input: "multimodal"
     max_concurrent: 10
   vlm:
     api_base: "https://ark.cn-beijing.volces.com/api/v3"
     api_key: "your-volcengine-api-key"
     provider: "volcengine"
-    model: "doubao-seed-2-0-pro-260215"
+
     temperature: 0.0
     max_retries: 2
     thinking: false

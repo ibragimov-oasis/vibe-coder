@@ -859,7 +859,7 @@ const db = SQLDatabase.named("todo");
           const openai = createOpenAI({ apiKey: openAIKey() });
 
           const { text } = await generateText({
-            model: openai("gpt-4o"),
+
             prompt: 'Write a vegetarian lasagna recipe for 4 people.',
           });
         </file>

@@ -107,7 +107,7 @@ export class MemoryManagerSDK {
         uuid: randomUUID(),
         session_id: swarmId,
         tools: state.activeTools,
-        model: state.model,
+
         // ... swarm metadata
       },
       ...this.convertStateToMessages(state)

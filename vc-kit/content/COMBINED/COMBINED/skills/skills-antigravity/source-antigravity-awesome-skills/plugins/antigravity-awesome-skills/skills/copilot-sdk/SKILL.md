@@ -149,7 +149,7 @@ const getWeather = defineTool("get_weather", {
 });
 
 const session = await client.createSession({
-    model: "gpt-4o",
+
     tools: [getWeather],
 });
 ```
@@ -184,7 +184,7 @@ getWeather := copilot.DefineTool("get_weather", "Get weather for a city",
 )
 
 session, _ := client.CreateSession(ctx, &copilot.SessionConfig{
-    Model: "gpt-4o",
+
     Tools: []copilot.Tool{getWeather},
 })
 ```
@@ -308,7 +308,7 @@ Use your own API keys — no Copilot subscription required.
 
 ```typescript
 const session = await client.createSession({
-    model: "gpt-4o.2-codex",
+
     provider: {
         type: "openai",
         baseUrl: "https://your-resource.openai.azure.com/openai/v1/",
@@ -338,7 +338,7 @@ Resume sessions across restarts by providing your own session ID.
 // Create with explicit ID
 const session = await client.createSession({
     sessionId: "user-123-task-456",
-    model: "gpt-4o",
+
 });
 
 // Resume later

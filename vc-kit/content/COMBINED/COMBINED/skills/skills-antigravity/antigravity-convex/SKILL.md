@@ -344,7 +344,7 @@ export const generateEmbedding = action({
         "Content-Type": "application/json",
       },
       body: JSON.stringify({
-        model: "text-embedding-3-small",
+
         input: args.text,
       }),
     });

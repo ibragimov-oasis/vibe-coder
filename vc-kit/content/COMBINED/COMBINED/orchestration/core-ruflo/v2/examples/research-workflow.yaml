@@ -21,7 +21,7 @@ agents:
     type: "researcher"
     name: "Primary Research Agent"
     config:
-      model: gpt-4o
+
       temperature: 0.3
       max_tokens: 4000
       timeout: 180
@@ -34,7 +34,7 @@ agents:
     type: "analyst" 
     name: "Data Analysis Agent"
     config:
-      model: gpt-4o
+
       specialization: "data-analysis"
       temperature: 0.1
       timeout: 120
@@ -47,7 +47,7 @@ agents:
     type: "documenter"
     name: "Summary Agent"
     config:
-      model: gpt-4o
+
       style: "academic"
       format: "markdown"
       timeout: 60

@@ -534,7 +534,7 @@ Components:
   HNSW:  ✅ enabled (index: 1.2M vectors, 287x speedup)
 
 Embedding Provider: transformers
-  Model: Xenova/all-MiniLM-L6-v2
+
   Dimension: 384
   Cache Hit Rate: 87%
 ```

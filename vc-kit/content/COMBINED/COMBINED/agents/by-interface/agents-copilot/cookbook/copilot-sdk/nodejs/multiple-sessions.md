@@ -32,15 +32,15 @@ await client.start();
 // Create multiple independent sessions
 const session1 = await client.createSession({
     onPermissionRequest: approveAll,
-    model: "gpt-4o",
+
 });
 const session2 = await client.createSession({
     onPermissionRequest: approveAll,
-    model: "gpt-4o",
+
 });
 const session3 = await client.createSession({
     onPermissionRequest: approveAll,
-    model: "gpt-4o.5",
+
 });
 
 // Each session maintains its own conversation history
@@ -68,7 +68,7 @@ Use custom IDs for easier tracking:
 const session = await client.createSession({
     onPermissionRequest: approveAll,
     sessionId: "user-123-chat",
-    model: "gpt-4o",
+
 });
 
 console.log(session.sessionId); // "user-123-chat"

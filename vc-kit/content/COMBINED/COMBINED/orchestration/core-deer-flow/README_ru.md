@@ -126,7 +126,7 @@ DeerFlow интегрирован с инструментарием для ум�
      - name: gpt-4                       # Внутренний идентификатор
        display_name: GPT-4               # Отображаемое имя
        use: langchain_openai:ChatOpenAI  # Путь к классу LangChain
-       model: gpt-4                      # Идентификатор модели для API
+
        api_key: $OPENAI_API_KEY          # API-ключ (рекомендуется: переменная окружения)
        max_tokens: 4096                  # Максимальное количество токенов на запрос
        temperature: 0.7                  # Температура сэмплирования
@@ -134,14 +134,14 @@ DeerFlow интегрирован с инструментарием для ум�
      - name: openrouter-gemini-2.5-flash
        display_name: Gemini 2.5 Flash (OpenRouter)
        use: langchain_openai:ChatOpenAI
-       model: google/gemini-2.5-flash-preview
+
        api_key: $OPENAI_API_KEY
        base_url: https://openrouter.ai/api/v1
 
      - name: gpt-4o-responses
        display_name: GPT-5 (Responses API)
        use: langchain_openai:ChatOpenAI
-       model: gpt-4o
+
        api_key: $OPENAI_API_KEY
        use_responses_api: true
        output_version: responses/v1
@@ -154,14 +154,14 @@ DeerFlow интегрирован с инструментарием для ум�
      - name: gpt-4o.4
        display_name: GPT-5.4 (Codex CLI)
        use: deerflow.models.openai_codex_provider:CodexChatModel
-       model: gpt-4o.4
+
        supports_thinking: true
        supports_reasoning_effort: true
 
      - name: gpt-4o.6
        display_name: Claude Sonnet 4.6 (Claude Code OAuth)
        use: deerflow.models.claude_provider:ClaudeChatModel
-       model: gpt-4o-6
+
        max_tokens: 4096
        supports_thinking: true
    ```

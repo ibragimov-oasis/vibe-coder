@@ -30,7 +30,6 @@ npm install @toolbox-sdk/core
 
 ## Quickstart
 
-
 1. **Start the Toolbox Service**
    - Make sure the MCP Toolbox service is running. See the [Toolbox Getting Started Guide](../../../../introduction/_index.md#getting-started).
 
@@ -409,7 +408,6 @@ Instead of a static value, you can bind a parameter to a synchronous or
 asynchronous function. This function will be called *each time* the tool is
 invoked to dynamically determine the parameter's value at runtime.
 
-
 ```javascript
 
 async function getDynamicValue() {
@@ -493,13 +491,12 @@ import {ToolboxClient} from "@toolbox-sdk/core"
 import { genkit, z } from 'genkit';
 import { googleAI } from '@genkit-ai/googleai';
 
-
 let client = ToolboxClient(URL)
 multiplyTool = await client.loadTool("multiply")
 
 const ai = genkit({
   plugins: [googleAI()],
-  model: googleAI.model('gemini-3-flash-preview'),
+
 });
 
 const multiplyNumbers = ai.defineTool({

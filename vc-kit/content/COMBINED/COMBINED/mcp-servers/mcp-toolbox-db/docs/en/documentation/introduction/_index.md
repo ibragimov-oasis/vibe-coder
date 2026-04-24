@@ -369,7 +369,7 @@ const ai = genkit({
             apiKey: process.env.GEMINI_API_KEY || process.env.GOOGLE_API_KEY
         })
     ],
-    model: googleAI.model('gemini-2.0-flash'),
+
 });
 
 // update the url to point to your server
@@ -443,7 +443,6 @@ For detailed samples on using the Toolbox JS SDK with ADK JS, see the [README.](
 
 {{% /tab %}}
 {{< /tabpane >}}
-
 
 #### Go
 

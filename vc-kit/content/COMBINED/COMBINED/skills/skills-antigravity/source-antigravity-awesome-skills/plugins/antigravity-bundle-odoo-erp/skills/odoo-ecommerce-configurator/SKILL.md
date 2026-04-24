@@ -107,7 +107,7 @@ For automated abandoned cart emails in Odoo 16/17:
 Menu: Marketing → Marketing Automation → New Campaign
 
 Trigger: Odoo record updated
-Model: eCommerce Cart (sale.order with state = 'draft')
+
 Filter: Cart not updated in 1 hour AND not confirmed
 
 Actions:

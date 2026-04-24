@@ -137,7 +137,7 @@ model.apply(model._init_weights)
 ```python
 # Good: Complete training loop with best practices
 def train_one_epoch(
-    model: nn.Module,
+
     dataloader: DataLoader,
     optimizer: torch.optim.Optimizer,
     criterion: nn.Module,
@@ -179,7 +179,7 @@ def train_one_epoch(
 # Good: Proper evaluation
 @torch.no_grad()  # More efficient than wrapping in torch.no_grad() block
 def evaluate(
-    model: nn.Module,
+
     dataloader: DataLoader,
     criterion: nn.Module,
     device: torch.device,
@@ -267,7 +267,7 @@ dataloader = DataLoader(dataset, batch_size=32, collate_fn=collate_fn)
 ```python
 # Good: Complete checkpoint with all training state
 def save_checkpoint(
-    model: nn.Module,
+
     optimizer: torch.optim.Optimizer,
     epoch: int,
     loss: float,
@@ -282,7 +282,7 @@ def save_checkpoint(
 
 def load_checkpoint(
     path: str,
-    model: nn.Module,
+
     optimizer: torch.optim.Optimizer | None = None,
 ) -> dict:
     checkpoint = torch.load(path, map_location="cpu", weights_only=True)

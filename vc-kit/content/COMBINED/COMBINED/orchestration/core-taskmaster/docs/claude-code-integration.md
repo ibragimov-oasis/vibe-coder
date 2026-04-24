@@ -274,7 +274,7 @@ const provider = new ClaudeCodeProvider();
 const client = provider.getClient();
 
 const result = await generateText({
-  model: client('sonnet'),
+
   messages: [
     { role: 'user', content: 'Hello Claude!' }
   ]

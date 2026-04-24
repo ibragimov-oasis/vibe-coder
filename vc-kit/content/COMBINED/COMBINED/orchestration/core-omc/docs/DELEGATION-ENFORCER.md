@@ -53,7 +53,7 @@ export const executorAgent: AgentConfig = {
   description: '...',
   prompt: '...',
   tools: [...],
-  model: 'sonnet'  // ← Default model
+
 };
 ```
 

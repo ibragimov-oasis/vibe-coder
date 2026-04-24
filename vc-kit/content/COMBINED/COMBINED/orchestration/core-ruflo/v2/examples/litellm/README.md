@@ -84,13 +84,13 @@ Edit `config/config.yaml` to customize model routing:
 model_list:
   - model_name: "fast-code"
     litellm_params:
-      model: "openrouter/qwen/qwen-3-coder"
+
       max_tokens: 8192
       temperature: 0.2
       
   - model_name: "reasoning"
     litellm_params:
-      model: "openai/o3-pro"
+
       max_tokens: 4096
       temperature: 0.7
 ```
@@ -292,7 +292,7 @@ Add custom providers in `config/config.yaml`:
 model_list:
   - model_name: "custom-model"
     litellm_params:
-      model: "custom_provider/model_name"
+
       api_base: "https://api.custom.com/v1"
       api_key: ${CUSTOM_API_KEY}
       custom_llm_provider: "custom"

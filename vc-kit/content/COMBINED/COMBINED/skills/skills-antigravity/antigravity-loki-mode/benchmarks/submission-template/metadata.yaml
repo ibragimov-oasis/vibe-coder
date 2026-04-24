@@ -14,19 +14,19 @@ architecture:
   agents:
     - name: "Architect"
       role: "Analyze issue and design fix approach"
-      model: gpt-4o
+
       timeout: 120
     - name: "Engineer"
       role: "Generate patch based on architect's analysis"
-      model: gpt-4o
+
       timeout: 300
     - name: "QA"
       role: "Validate patch format"
-      model: gpt-4o
+
       timeout: 5
     - name: "Reviewer"
       role: "Analyze issues and suggest fixes"
-      model: gpt-4o
+
       timeout: 60
 
   # RARV Cycle (Reason-Act-Reflect-Verify)

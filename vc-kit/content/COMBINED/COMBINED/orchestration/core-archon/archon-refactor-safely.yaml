@@ -207,7 +207,7 @@ nodes:
   # ═══════════════════════════════════════════════════════════════
 
   - id: execute-refactor
-    model: gpt-4o
+
     prompt: |
       You are executing a refactoring plan with strict safety guardrails.
 

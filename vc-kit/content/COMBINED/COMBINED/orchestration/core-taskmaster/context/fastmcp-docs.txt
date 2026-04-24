@@ -13,8 +13,6 @@ Directory Structure:
     ├── README.md
     └── vitest.config.js
 
-
-
 ---
 File: /src/bin/fastmcp.ts
 ---
@@ -73,8 +71,6 @@ await yargs(hideBin(process.argv))
   .help()
   .parseAsync();
 
-
-
 ---
 File: /src/examples/addition.ts
 ---
@@ -131,8 +127,6 @@ server.addPrompt({
 server.start({
   transportType: "stdio",
 });
-
-
 
 ---
 File: /src/FastMCP.test.ts
@@ -1356,7 +1350,7 @@ test("clients reads a resource accessed via a resource template", async () => {
 test("makes a sampling request", async () => {
   const onMessageRequest = vi.fn(() => {
     return {
-      model: "gpt-3.5-turbo",
+
       role: "assistant",
       content: {
         type: "text",
@@ -1399,7 +1393,7 @@ test("makes a sampling request", async () => {
       });
 
       expect(response).toEqual({
-        model: "gpt-3.5-turbo",
+
         role: "assistant",
         content: {
           type: "text",
@@ -1816,7 +1810,6 @@ test("blocks unauthorized requests", async () => {
   }).rejects.toThrow("SSE error: Non-200 status code (401)");
 });
 
-
 ---
 File: /src/FastMCP.ts
 ---
@@ -2185,7 +2178,7 @@ const FastMCPSessionEventEmitterBase: {
 class FastMCPSessionEventEmitter extends FastMCPSessionEventEmitterBase {}
 
 type SamplingResponse = {
-  model: string;
+
   stopReason?: "endTurn" | "stopSequence" | "maxTokens" | string;
   role: "user" | "assistant";
   content: TextContent | ImageContent;
@@ -3001,8 +2994,6 @@ export type { InputPrompt, InputPromptArgument };
 export type { ServerOptions, LoggingLevel };
 export type { FastMCPEvents, FastMCPSessionEvents };
 
-
-
 ---
 File: /eslint.config.js
 ---
@@ -3010,8 +3001,6 @@ File: /eslint.config.js
 import perfectionist from "eslint-plugin-perfectionist";
 
 export default [perfectionist.configs["recommended-alphabetical"]];
-
-
 
 ---
 File: /package.json
@@ -3099,8 +3088,6 @@ File: /package.json
     "clean": true
   }
 }
-
-
 
 ---
 File: /README.md
@@ -3830,8 +3817,6 @@ Follow the guide https://modelcontextprotocol.io/quickstart/user and add the fol
 - FastMCP is inspired by the [Python implementation](https://github.com/jlowin/fastmcp) by [Jonathan Lowin](https://github.com/jlowin).
 - Parts of codebase were adopted from [LiteMCP](https://github.com/wong2/litemcp).
 - Parts of codebase were adopted from [Model Context protocolでSSEをやってみる](https://dev.classmethod.jp/articles/mcp-sse/).
-
-
 
 ---
 File: /vitest.config.js

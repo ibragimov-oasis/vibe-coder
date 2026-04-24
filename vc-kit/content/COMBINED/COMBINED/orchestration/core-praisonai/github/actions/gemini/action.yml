@@ -22,7 +22,7 @@ inputs:
       To enable observability with Google Cloud, include:
       {"telemetry": {"enabled": true, "target": "gcp"}, "sandbox": false}
     required: false
-  model: gpt-4o
+
     description: |
       The Gemini model to use. Options: gemini-2.5-pro, gemini-2.5-flash, gemini-2.5-flash-lite.
       Use flash-lite for highest free-tier quota (1,000 RPD).
@@ -82,7 +82,7 @@ runs:
       shell: bash
       env:
         GEMINI_API_KEY: ${{ inputs.GEMINI_API_KEY }}
-        GEMINI_MODEL: ${{ inputs.model }}
+
         PROMPT: ${{ inputs.prompt }}
 
 branding:

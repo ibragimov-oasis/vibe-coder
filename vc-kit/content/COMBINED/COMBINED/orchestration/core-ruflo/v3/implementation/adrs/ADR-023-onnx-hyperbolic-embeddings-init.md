@@ -56,7 +56,7 @@ Add `--init-embeddings` flag and wizard step:
 interface InitOptions {
   embeddings: {
     enabled: boolean;
-    model: 'all-MiniLM-L6-v2' | 'all-mpnet-base-v2' | 'custom';
+
     hyperbolic: boolean;
     curvature: number;
     predownload: boolean;
@@ -298,7 +298,7 @@ export interface InitOptions {
   // ... existing
   embeddings: {
     enabled: boolean;
-    model: string;
+
     hyperbolic: boolean;
     curvature: number;
     predownload: boolean;
@@ -309,7 +309,7 @@ export const DEFAULT_INIT_OPTIONS: InitOptions = {
   // ... existing
   embeddings: {
     enabled: true,
-    model: 'all-MiniLM-L6-v2',
+
     hyperbolic: true,
     curvature: -1.0,
     predownload: true,
@@ -338,7 +338,7 @@ async function initializeEmbeddings(options: InitOptions): Promise<void> {
   // Write embedding config
   const configPath = path.join(configDir, 'embeddings.json');
   await fs.writeFile(configPath, JSON.stringify({
-    model: options.embeddings.model,
+
     modelPath: modelDir,
     hyperbolic: {
       enabled: options.embeddings.hyperbolic,

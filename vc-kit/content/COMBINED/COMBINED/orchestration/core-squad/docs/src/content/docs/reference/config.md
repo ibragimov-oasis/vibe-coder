@@ -9,7 +9,6 @@ tags:
 
 > ⚠️ **Experimental** — Squad is alpha software. APIs, commands, and behavior may change between releases.
 
-
 **Try this:**
 ```
 squad init
@@ -41,13 +40,13 @@ export default defineSquad({
     defineAgent({
       name: 'edie',
       role: 'TypeScript Engineer',
-      model: 'gpt-4o',
+
       tools: ['grep', 'edit', 'view'],
     }),
     defineAgent({
       name: 'mcmanus',
       role: 'DevRel',
-      model: 'gpt-4o',
+
       tools: ['grep', 'view'],
     }),
   ],

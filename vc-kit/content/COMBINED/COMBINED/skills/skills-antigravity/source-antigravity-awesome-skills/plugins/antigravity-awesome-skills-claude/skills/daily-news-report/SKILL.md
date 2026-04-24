@@ -222,7 +222,7 @@ Since custom agents require session restart to be discovered, use general-purpos
 ```
 Task Call:
   subagent_type: general-purpose
-  model: haiku
+
   prompt: |
     You are a stateless execution unit. Only do the assigned task and return structured JSON.
 

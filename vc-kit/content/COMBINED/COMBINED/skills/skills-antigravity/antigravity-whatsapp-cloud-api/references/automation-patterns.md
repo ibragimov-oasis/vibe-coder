@@ -508,7 +508,7 @@ async function getAIResponse(
   ]);
 
   const response = await anthropic.messages.create({
-    model: 'gpt-4o-20250514',
+
     max_tokens: 300,
     system: SYSTEM_PROMPT,
     messages

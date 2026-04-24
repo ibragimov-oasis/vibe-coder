@@ -198,7 +198,7 @@ const client = new Anthropic();
 
 // Option 1: Use claude_code preset
 const response = await client.messages.create({
-  model: "gpt-4o-20250514",
+
   max_tokens: 1024,
   // Match CLI system prompt as closely as possible
   system: "Your exact system prompt matching CLI",
@@ -220,7 +220,7 @@ for await (const message of query({
       preset: "claude_code"
     },
     temperature: 0,
-    model: "gpt-4o-20250514",
+
     // Load project context like CLI does
     settingSources: ["project"]
   }

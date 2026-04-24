@@ -42,7 +42,6 @@ nodes:
     command: archon-implement-tasks
     depends_on: [confirm-plan]
     context: fresh
-    model: gpt-4o
 
   # ═══════════════════════════════════════════════════════════════════
   # PHASE 4: VALIDATE

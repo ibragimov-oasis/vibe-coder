@@ -577,7 +577,7 @@ testing_recommendations:
   metrics: ["accuracy", "satisfaction", "cost"]
 
 deployment_strategy:
-  model: "GPT-5 for quality, Claude for safety"
+
   temperature: 0.7
   max_tokens: 2000
   monitoring: "Track success, latency, feedback"

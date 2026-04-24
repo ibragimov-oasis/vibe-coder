@@ -352,7 +352,7 @@ if (result.success && result.context) {
   // Task 위임으로 계속 진행
   Task({
     subagent_type: "oh-my-claudecode:executor",
-    model: "sonnet",
+
     prompt: result.context.continuationPrompt
   });
 }

@@ -188,17 +188,17 @@ def synthesize_with_validity_alignment(reviews):
 ```yaml
 review_team:
   - role: "security_analyst"
-    model: opus
+
     expertise: ["OWASP", "auth", "injection"]
     personality: "paranoid"
 
   - role: "performance_engineer"
-    model: sonnet
+
     expertise: ["complexity", "caching", "async"]
     personality: "pragmatic"
 
   - role: "maintainability_advocate"
-    model: opus
+
     expertise: ["SOLID", "patterns", "readability"]
     personality: "perfectionist"
 ```

@@ -230,13 +230,13 @@ from typing import Optional
 class LLMUsage:
     input_tokens: int
     output_tokens: int
-    model: str
+
     cost: float
 
 def calculate_cost(
     input_tokens: int,
     output_tokens: int,
-    model: str
+
 ) -> float:
     """Calculate cost based on token usage."""
     PRICING = {

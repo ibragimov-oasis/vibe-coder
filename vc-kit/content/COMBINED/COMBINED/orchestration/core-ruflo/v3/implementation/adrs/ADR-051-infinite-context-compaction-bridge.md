@@ -644,7 +644,7 @@ Entries without vector embeddings get 384-dim ONNX embeddings generated using
 `@xenova/transformers` with the `all-MiniLM-L6-v2` model:
 
 ```
-Model:     Xenova/all-MiniLM-L6-v2 (ONNX, local inference, no API calls)
+
 Dimension: 384 (down from 768 hash — better quality, less storage)
 Pooling:   mean pooling + L2 normalization
 Fallback:  384-dim hash embedding if ONNX unavailable

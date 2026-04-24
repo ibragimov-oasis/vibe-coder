@@ -328,7 +328,6 @@ To get started with implementing MCP in your application, check out our [Python]
 
 This list is maintained by the community. If you notice any inaccuracies or would like to update information about MCP support in your application, please submit a pull request or [open an issue in our documentation repository](https://github.com/modelcontextprotocol/docs/issues).
 
-
 # Contributing
 Source: https://modelcontextprotocol.io/development/contributing
 
@@ -339,7 +338,6 @@ We welcome contributions from the community! Please review our [contributing gui
 All contributors must adhere to our [Code of Conduct](https://github.com/modelcontextprotocol/.github/blob/main/CODE_OF_CONDUCT.md).
 
 For questions and discussions, please use [GitHub Discussions](https://github.com/orgs/modelcontextprotocol/discussions).
-
 
 # Roadmap
 Source: https://modelcontextprotocol.io/development/roadmap
@@ -400,7 +398,6 @@ We're also invested in:
 
 We welcome community participation in shaping MCP's future. Visit our [GitHub Discussions](https://github.com/orgs/modelcontextprotocol/discussions) to join the conversation and contribute your ideas.
 
-
 # What's New
 Source: https://modelcontextprotocol.io/development/updates
 
@@ -433,7 +430,6 @@ The latest updates and improvements to MCP
   * Jetbrains released a Kotlin SDK for MCP!
   * For a sample MCP Kotlin server, check out [this repository](https://github.com/modelcontextprotocol/kotlin-sdk/tree/main/samples/kotlin-mcp-server)
 </Update>
-
 
 # Core architecture
 Source: https://modelcontextprotocol.io/docs/concepts/architecture
@@ -788,7 +784,6 @@ Here's a basic example of implementing an MCP server:
    * Verify error handling
    * Check edge cases
    * Load test servers
-
 
 # Prompts
 Source: https://modelcontextprotocol.io/docs/concepts/prompts
@@ -1218,7 +1213,6 @@ When implementing prompts:
 *   Consider prompt injection risks
 *   Document security requirements
 
-
 # Resources
 Source: https://modelcontextprotocol.io/docs/concepts/resources
 
@@ -1477,7 +1471,6 @@ When exposing resources:
 *   Implement timeouts for long-running reads
 *   Handle resource cleanup appropriately
 
-
 # Roots
 Source: https://modelcontextprotocol.io/docs/concepts/roots
 
@@ -1557,7 +1550,6 @@ Here's how a typical MCP client might expose roots:
 ```
 
 This configuration suggests the server focus on both a local repository and an API endpoint while keeping them logically separated.
-
 
 # Sampling
 Source: https://modelcontextprotocol.io/docs/concepts/sampling
@@ -1676,7 +1668,7 @@ The client returns a completion result:
 
 ```typescript
 {
-  model: string,  // Name of the model used
+
   stopReason?: "endTurn" | "stopSequence" | "maxTokens" | string,
   role: "user" | "assistant",
   content: {
@@ -1805,7 +1797,6 @@ Be aware of these limitations:
 *   Model availability varies
 *   Response times vary
 *   Not all content types supported
-
 
 # Tools
 Source: https://modelcontextprotocol.io/docs/concepts/tools
@@ -2122,7 +2113,6 @@ A comprehensive testing strategy for MCP tools should cover:
 *   **Security testing**: Validate authentication, authorization, input sanitization, and rate limiting
 *   **Performance testing**: Check behavior under load, timeout handling, and resource cleanup
 *   **Error handling**: Ensure tools properly report errors through the MCP protocol and clean up resources
-
 
 # Transports
 Source: https://modelcontextprotocol.io/docs/concepts/transports
@@ -2542,7 +2532,6 @@ Tips for debugging transport issues:
 9.  Test edge cases
 10. Use proper error tracking
 
-
 # Debugging
 Source: https://modelcontextprotocol.io/docs/tools/debugging
 
@@ -2828,7 +2817,6 @@ When encountering issues:
   </Card>
 </CardGroup>
 
-
 # Inspector
 Source: https://modelcontextprotocol.io/docs/tools/inspector
 
@@ -2971,7 +2959,6 @@ The Inspector provides several features for interacting with your MCP server:
   </Card>
 </CardGroup>
 
-
 # Example Servers
 Source: https://modelcontextprotocol.io/examples
 
@@ -3102,7 +3089,6 @@ To use an MCP server with Claude, add it to your configuration:
 * [Supergateway](https://github.com/supercorp-ai/supergateway) - Run MCP stdio servers over SSE
 
 Visit our [GitHub Discussions](https://github.com/orgs/modelcontextprotocol/discussions) to engage with the MCP community.
-
 
 # Introduction
 Source: https://modelcontextprotocol.io/introduction
@@ -3239,7 +3225,6 @@ Here's how to get help or provide feedback:
 * For discussions or Q\&A about the MCP specification, use the [specification discussions](https://github.com/modelcontextprotocol/specification/discussions)
 * For discussions or Q\&A about other MCP open source components, use the [organization discussions](https://github.com/orgs/modelcontextprotocol/discussions)
 * For bug reports, feature requests, and questions related to Claude.app and claude.ai's MCP integration, please email [mcp-support@anthropic.com](mailto:mcp-support@anthropic.com)
-
 
 # For Client Developers
 Source: https://modelcontextprotocol.io/quickstart/client
@@ -3858,7 +3843,7 @@ In this tutorial, you'll learn how to build a LLM-powered chatbot client that co
       ];
 
       const response = await this.anthropic.messages.create({
-        model: "claude-3-5-sonnet-20241022",
+
         max_tokens: 1000,
         messages,
         tools: this.tools,
@@ -3889,7 +3874,7 @@ In this tutorial, you'll learn how to build a LLM-powered chatbot client that co
           });
 
           const response = await this.anthropic.messages.create({
-            model: "claude-3-5-sonnet-20241022",
+
             max_tokens: 1000,
             messages,
           });
@@ -4250,7 +4235,6 @@ In this tutorial, you'll learn how to build a LLM-powered chatbot client that co
     Understand how MCP connects clients, servers, and LLMs
   </Card>
 </CardGroup>
-
 
 # For Server Developers
 Source: https://modelcontextprotocol.io/quickstart/server
@@ -5425,7 +5409,6 @@ When you ask a question:
   </Card>
 </CardGroup>
 
-
 # For Claude Desktop Users
 Source: https://modelcontextprotocol.io/quickstart/user
 
@@ -5684,7 +5667,6 @@ As needed, Claude will call the relevant tools and seek your approval before tak
     Now build your own custom server to use in Claude for Desktop and other clients
   </Card>
 </CardGroup>
-
 
 # MCP Client
 Source: https://modelcontextprotocol.io/sdk/java/mcp-client
@@ -6013,7 +5995,6 @@ The prompt system enables interaction with server-side prompt templates. These t
   </Tab>
 </Tabs>
 
-
 # Overview
 Source: https://modelcontextprotocol.io/sdk/java/mcp-overview
 
@@ -6181,7 +6162,6 @@ The following dependencies are available and managed by the BOM:
   * `io.modelcontextprotocol.sdk:mcp-spring-webmvc` - WebMVC-based Server-Sent Events (SSE) transport implementation for servlet-based applications.
 * Testing Dependencies
   * `io.modelcontextprotocol.sdk:mcp-test` - Testing utilities and support for MCP-based applications.
-
 
 # MCP Server
 Source: https://modelcontextprotocol.io/sdk/java/mcp-server
@@ -6570,7 +6550,6 @@ Supported logging levels (in order of increasing severity): DEBUG (0), INFO (1),
 ## Error Handling
 
 The SDK provides comprehensive error handling through the McpError class, covering protocol compatibility, transport communication, JSON-RPC messaging, tool execution, resource management, prompt handling, timeouts, and connection issues. This unified error handling approach ensures consistent and reliable error management across both synchronous and asynchronous operations.
-
 
 # Building MCP with LLMs
 Source: https://modelcontextprotocol.io/tutorials/building-mcp-with-llms

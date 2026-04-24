@@ -38,7 +38,7 @@ client := anthropic.NewClient(
 
 ```go
 response, err := client.Messages.New(context.TODO(), anthropic.MessageNewParams{
-    Model:     anthropic.ModelClaudeOpus4_6,
+
     MaxTokens: 1024,
     Messages: []anthropic.MessageParam{
         anthropic.NewUserMessage(anthropic.NewTextBlock("What is the capital of France?")),
@@ -56,7 +56,7 @@ fmt.Println(response.Content[0].Text)
 
 ```go
 stream := client.Messages.NewStreaming(context.TODO(), anthropic.MessageNewParams{
-    Model:     anthropic.ModelClaudeOpus4_6,
+
     MaxTokens: 1024,
     Messages: []anthropic.MessageParam{
         anthropic.NewUserMessage(anthropic.NewTextBlock("Write a haiku")),
@@ -122,7 +122,7 @@ runner := client.Beta.Messages.NewToolRunner(
     []anthropic.BetaTool{weatherTool},
     anthropic.BetaToolRunnerParams{
         BetaMessageNewParams: anthropic.BetaMessageNewParams{
-            Model:     anthropic.ModelClaudeOpus4_6,
+
             MaxTokens: 1024,
             Messages: []anthropic.BetaMessageParam{
                 anthropic.NewBetaUserMessage(anthropic.NewBetaTextBlock("What's the weather in Paris?")),

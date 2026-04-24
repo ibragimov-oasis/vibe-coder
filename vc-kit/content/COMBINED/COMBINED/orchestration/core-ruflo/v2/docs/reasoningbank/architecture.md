@@ -483,7 +483,7 @@ async function generateOpenAIEmbedding(text) {
     },
     body: JSON.stringify({
       input: text,
-      model: 'text-embedding-3-small'
+
     })
   });
 

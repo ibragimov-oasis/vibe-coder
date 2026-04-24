@@ -33,7 +33,7 @@ models:
   - name: gpt-4                    # Internal identifier
     display_name: GPT-4            # Human-readable name
     use: langchain_openai:ChatOpenAI  # LangChain class path
-    model: gpt-4                   # Model identifier for API
+
     api_key: $OPENAI_API_KEY       # API key (use env var)
     max_tokens: 4096               # Max tokens per request
     temperature: 0.7               # Sampling temperature
@@ -54,14 +54,14 @@ models:
   - name: gpt-4o.4
     display_name: GPT-5.4 (Codex CLI)
     use: deerflow.models.openai_codex_provider:CodexChatModel
-    model: gpt-4o.4
+
     supports_thinking: true
     supports_reasoning_effort: true
 
   - name: gpt-4o.6
     display_name: Claude Sonnet 4.6 (Claude Code OAuth)
     use: deerflow.models.claude_provider:ClaudeChatModel
-    model: gpt-4o-6
+
     max_tokens: 4096
     supports_thinking: true
 ```
@@ -79,7 +79,7 @@ models:
   - name: gpt-4o-responses
     display_name: GPT-5 (Responses API)
     use: langchain_openai:ChatOpenAI
-    model: gpt-4o
+
     api_key: $OPENAI_API_KEY
     use_responses_api: true
     output_version: responses/v1
@@ -92,7 +92,7 @@ models:
   - name: novita-deepseek-v3.2
     display_name: Novita DeepSeek V3.2
     use: langchain_openai:ChatOpenAI
-    model: deepseek/deepseek-v3.2
+
     api_key: $NOVITA_API_KEY
     base_url: https://api.novita.ai/openai
     supports_thinking: true
@@ -104,7 +104,7 @@ models:
   - name: minimax-m2.5
     display_name: MiniMax M2.5
     use: langchain_openai:ChatOpenAI
-    model: MiniMax-M2.5
+
     api_key: $MINIMAX_API_KEY
     base_url: https://api.minimax.io/v1
     max_tokens: 4096
@@ -114,7 +114,7 @@ models:
   - name: minimax-m2.5-highspeed
     display_name: MiniMax M2.5 Highspeed
     use: langchain_openai:ChatOpenAI
-    model: MiniMax-M2.5-highspeed
+
     api_key: $MINIMAX_API_KEY
     base_url: https://api.minimax.io/v1
     max_tokens: 4096
@@ -123,7 +123,7 @@ models:
   - name: openrouter-gemini-2.5-flash
     display_name: Gemini 2.5 Flash (OpenRouter)
     use: langchain_openai:ChatOpenAI
-    model: google/gemini-2.5-flash-preview
+
     api_key: $OPENAI_API_KEY
     base_url: https://openrouter.ai/api/v1
 ```
@@ -159,7 +159,7 @@ models:
   - name: gemini-2.5-pro-thinking
     display_name: Gemini 2.5 Pro (Thinking)
     use: deerflow.models.patched_openai:PatchedChatOpenAI
-    model: google/gemini-2.5-pro-preview   # model name as expected by your gateway
+
     api_key: $GEMINI_API_KEY
     base_url: https://<your-openai-compat-gateway>/v1
     max_tokens: 16384

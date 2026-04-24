@@ -238,7 +238,7 @@ class EmbeddingEngine {
       },
       body: JSON.stringify({
         input: text,
-        model: 'text-embedding-3-small'
+
       })
     });
 

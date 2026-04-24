@@ -35,7 +35,7 @@ await client.start();
 // Create session
 const session = await client.createSession({
     onPermissionRequest: approveAll,
-    model: "gpt-4o",
+
 });
 
 // Event handler

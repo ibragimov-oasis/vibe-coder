@@ -44,13 +44,13 @@ tts:
     voice_id: "pNInz6obpgDQGcFmaJgB"  # Adam
     model_id: "eleven_multilingual_v2"
   openai:
-    model: "gpt-4o-mini-tts"
+
     voice: "alloy"              # alloy, echo, fable, onyx, nova, shimmer
     base_url: "https://api.openai.com/v1"  # Override for OpenAI-compatible TTS endpoints
   neutts:
     ref_audio: ''
     ref_text: ''
-    model: neuphonic/neutts-air-q4-gguf
+
     device: cpu
 ```
 
@@ -100,9 +100,9 @@ Local transcription works out of the box when `faster-whisper` is installed. If 
 stt:
   provider: "local"           # "local" | "groq" | "openai"
   local:
-    model: "base"             # tiny, base, small, medium, large-v3
+
   openai:
-    model: "whisper-1"        # whisper-1, gpt-4o-mini-transcribe, gpt-4o-transcribe
+
 ```
 
 ### Provider Details

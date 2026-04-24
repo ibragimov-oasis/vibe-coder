@@ -98,7 +98,7 @@ scripts/
 1. Add a placeholder config to `PROVIDER_PLACEHOLDERS` in `scripts/lib/utils.js`:
    ```javascript
    'my-provider': {
-     model: 'MyModel',
+
      config_file: 'CONFIG.md',
      ask_instruction: 'ask the user directly to clarify.',
      command_prefix: '/'

@@ -43,7 +43,7 @@ await installWhisperCpp({
 });
 
 await downloadWhisperModel({
-  model: "medium.en",
+
   folder: to,
 });
 
@@ -52,7 +52,7 @@ await downloadWhisperModel({
 // execSync('ffmpeg -i /path/to/audio.mp4 -ar 16000 /path/to/audio.wav -y');
 
 const whisperCppOutput = await transcribe({
-  model: "medium.en",
+
   whisperPath: to,
   whisperCppVersion: "1.5.5",
   inputPath: "/path/to/audio123.wav",

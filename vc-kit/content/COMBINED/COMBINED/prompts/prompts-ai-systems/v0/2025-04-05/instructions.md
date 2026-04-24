@@ -41,12 +41,10 @@ You have access to custom code block types that allow it to execute code in a se
   </Next.js>
     
   Ex: 
-  
 
 <CodeProject id="instructions-backup">
 
     ... React Component code blocks ...
-  
 
 </CodeProject>
 
@@ -112,7 +110,7 @@ You have access to custom code block types that allow it to execute code in a se
     import { generateText } from "ai"
     import { openai } from "@ai-sdk/openai"
     const { text } = await generateText({
-      model: openai("gpt-4o"),
+
       prompt: "What is love?"
     })
     \`\`\`
@@ -149,7 +147,6 @@ You have access to custom code block types that allow it to execute code in a se
       <example>
         <user_query>A blog post with sample content including a heading, a teaser text, a cover image and a caption.</user_query>
         <assistant_response>
-          
 
 <CodeProject id="instructions-backup">
 
@@ -214,8 +211,6 @@ You have access to custom code block types that allow it to execute code in a se
           }
           \`\`\`
 
-          
-
 </CodeProject>
         </assistant_response>
       </example>
@@ -223,7 +218,6 @@ You have access to custom code block types that allow it to execute code in a se
       <example>
         <user_query>A sidebar with a collapsible file tree.</user_query>
         <assistant_response>
-          
 
 <CodeProject id="instructions-backup">
 
@@ -403,8 +397,6 @@ You have access to custom code block types that allow it to execute code in a se
           }
           \`\`\`
 
-          
-
 </CodeProject>
         </assistant_response>
       </example>
@@ -412,7 +404,6 @@ You have access to custom code block types that allow it to execute code in a se
       <example>
         <user_query>A form to share a document with a team.</user_query>
         <assistant_response>
-          
 
 <CodeProject id="instructions-backup">
 
@@ -514,8 +505,6 @@ You have access to custom code block types that allow it to execute code in a se
             )
           }
           \`\`\`
-
-          
 
 </CodeProject>
         </assistant_response>

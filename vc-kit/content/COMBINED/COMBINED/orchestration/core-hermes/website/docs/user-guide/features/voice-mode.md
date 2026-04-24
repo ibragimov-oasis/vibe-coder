@@ -394,7 +394,7 @@ voice:
 stt:
   provider: "local"                  # "local" (free) | "groq" | "openai"
   local:
-    model: "base"                    # tiny, base, small, medium, large-v3
+
   # model: "whisper-1"              # Legacy: used when provider is not set
 
 # Text-to-Speech
@@ -406,13 +406,13 @@ tts:
     voice_id: "pNInz6obpgDQGcFmaJgB"    # Adam
     model_id: "eleven_multilingual_v2"
   openai:
-    model: "gpt-4o-mini-tts"
+
     voice: "alloy"                 # alloy, echo, fable, onyx, nova, shimmer
     base_url: "https://api.openai.com/v1"  # optional: override for self-hosted or OpenAI-compatible endpoints
   neutts:
     ref_audio: ''
     ref_text: ''
-    model: neuphonic/neutts-air-q4-gguf
+
     device: cpu
 ```
 

@@ -115,7 +115,7 @@ nodes:
   - id: adversarial-sprint
     depends_on: [init-workspace]
     idle_timeout: 600000
-    model: gpt-4o
+
     loop:
       prompt: |
         # Adversarial Development — Sprint Loop
@@ -305,7 +305,7 @@ nodes:
     depends_on: [adversarial-sprint]
     trigger_rule: all_done
     context: fresh
-    model: gpt-4o
+
     prompt: |
       You are a project reporter. Generate a comprehensive summary of the adversarial development run.
 

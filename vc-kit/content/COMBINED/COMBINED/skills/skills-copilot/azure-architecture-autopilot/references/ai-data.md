@@ -64,7 +64,7 @@ resource deployment 'Microsoft.CognitiveServices/accounts/deployments@<fetch>' =
     capacity: <confirm with user>                    // ← Capacity units — verify available range from MS Docs
   }
   properties: {
-    model: {
+
       format: 'OpenAI'
       name: '<model-name>'                           // ← Must verify availability (fetch)
       version: '<fetch>'                             // ← Version also fetched

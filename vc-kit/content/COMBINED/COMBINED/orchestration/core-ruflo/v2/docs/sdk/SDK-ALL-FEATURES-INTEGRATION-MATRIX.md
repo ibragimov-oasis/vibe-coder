@@ -204,7 +204,7 @@ export class ParallelSwarmExecutor {
         return {
           id: message.session_id,
           tools: message.tools,
-          model: message.model
+
         };
       }
     }

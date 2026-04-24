@@ -470,7 +470,7 @@ export const queryTools = [
       properties: {
         action: { type: 'string', enum: ['pause', 'resume', 'terminate', 'change_model'] },
         queryId: { type: 'string' },
-        model: { type: 'string' }
+
       },
       required: ['action', 'queryId']
     }

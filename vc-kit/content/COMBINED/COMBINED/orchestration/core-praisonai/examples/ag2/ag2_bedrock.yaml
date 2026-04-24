@@ -23,7 +23,7 @@ roles:
       You have deep expertise in Amazon Bedrock, SageMaker, ECS, and Lambda,
       and you help organisations deploy AI agents at scale securely and cost-effectively.
     llm:
-      model: gpt-4o
+
       api_type: "bedrock"
       aws_region: "us-east-1"
     tasks:

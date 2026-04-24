@@ -212,12 +212,11 @@ These options apply at the node level (inside `nodes:`). `provider` and `model` 
 nodes:
   - id: plan
     command: archon-create-plan
-    model: opus        # use the more capable model for planning
 
   - id: validate
     command: run-tests
     depends_on: [plan]
-    model: haiku       # fast and cheap for a mechanical check
+
     context: fresh
 ```
 

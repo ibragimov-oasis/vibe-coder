@@ -247,7 +247,7 @@ mcp__flow-nexus__neural_cluster_init({
 mcp__flow-nexus__neural_node_deploy({
   cluster_id: "cluster_xyz789",
   node_type: "parameter_server",
-  model: "large",
+
   template: "nodejs",
   capabilities: ["parameter_management", "gradient_aggregation"],
   autonomy: 0.8
@@ -257,7 +257,7 @@ mcp__flow-nexus__neural_node_deploy({
 mcp__flow-nexus__neural_node_deploy({
   cluster_id: "cluster_xyz789",
   node_type: "worker",
-  model: "xl",
+
   role: "worker",
   capabilities: ["training", "inference"],
   layers: [
@@ -271,7 +271,7 @@ mcp__flow-nexus__neural_node_deploy({
 mcp__flow-nexus__neural_node_deploy({
   cluster_id: "cluster_xyz789",
   node_type: "aggregator",
-  model: "large",
+
   capabilities: ["gradient_aggregation", "model_synchronization"]
 })
 ```
@@ -506,7 +506,7 @@ const cluster = await mcp__flow-nexus__neural_cluster_init({
 await mcp__flow-nexus__neural_node_deploy({
   cluster_id: cluster.cluster_id,
   node_type: "worker",
-  model: "large",
+
   capabilities: ["training", "data_augmentation"]
 })
 
@@ -590,7 +590,7 @@ for (let i = 0; i < 5; i++) {
   await mcp__flow-nexus__neural_node_deploy({
     cluster_id: cluster.cluster_id,
     node_type: "worker",
-    model: "large",
+
     autonomy: 0.9
   })
 }

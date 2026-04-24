@@ -81,8 +81,6 @@ Directory Structure:
     │       └── index.html
     └── README.md
 
-
-
 ---
 File: /docs/resources/_index.md
 ---
@@ -115,8 +113,6 @@ For questions or discussions, please open a discussion in the appropriate GitHub
 repository based on your implementation or use case. You can also visit the
 [Model Context Protocol organization on GitHub](https://github.com/modelcontextprotocol)
 to see all repositories and ongoing development.
-
-
 
 ---
 File: /docs/specification/2024-11-05/architecture/_index.md
@@ -313,8 +309,6 @@ example:
 This capability negotiation ensures clients and servers have a clear understanding of
 supported functionality while maintaining protocol extensibility.
 
-
-
 ---
 File: /docs/specification/2024-11-05/basic/utilities/_index.md
 ---
@@ -330,8 +324,6 @@ These optional features enhance the base protocol functionality with various uti
 {{< cards >}} {{< card link="ping" title="Ping" icon="status-online" >}}
 {{< card link="cancellation" title="Cancellation" icon="x" >}}
 {{< card link="progress" title="Progress" icon="clock" >}} {{< /cards >}}
-
-
 
 ---
 File: /docs/specification/2024-11-05/basic/utilities/cancellation.md
@@ -422,8 +414,6 @@ Invalid cancellation notifications **SHOULD** be ignored:
 This maintains the "fire and forget" nature of notifications while allowing for race
 conditions in asynchronous communication.
 
-
-
 ---
 File: /docs/specification/2024-11-05/basic/utilities/ping.md
 ---
@@ -495,8 +485,6 @@ sequenceDiagram
 - Timeouts **SHOULD** be treated as connection failures
 - Multiple failed pings **MAY** trigger connection reset
 - Implementations **SHOULD** log ping failures for diagnostics
-
-
 
 ---
 File: /docs/specification/2024-11-05/basic/utilities/progress.md
@@ -594,8 +582,6 @@ sequenceDiagram
 - Both parties **SHOULD** implement rate limiting to prevent flooding
 - Progress notifications **MUST** stop after completion
 
-
-
 ---
 File: /docs/specification/2024-11-05/basic/_index.md
 ---
@@ -673,8 +659,6 @@ There is also a
 [JSON Schema](http://github.com/modelcontextprotocol/specification/tree/main/schema/2024-11-05/schema.json),
 which is automatically generated from the TypeScript source of truth, for use with
 various automated tooling.
-
-
 
 ---
 File: /docs/specification/2024-11-05/basic/lifecycle.md
@@ -901,8 +885,6 @@ Example initialization error:
 }
 ```
 
-
-
 ---
 File: /docs/specification/2024-11-05/basic/messages.md
 ---
@@ -978,8 +960,6 @@ response.
 ```
 
 - Notifications **MUST NOT** include an ID.
-
-
 
 ---
 File: /docs/specification/2024-11-05/basic/transports.md
@@ -1075,8 +1055,6 @@ JSON-RPC message format and lifecycle requirements defined by MCP. Custom transp
 **SHOULD** document their specific connection establishment and message exchange patterns
 to aid interoperability.
 
-
-
 ---
 File: /docs/specification/2024-11-05/client/_index.md
 ---
@@ -1094,8 +1072,6 @@ Clients can implement additional features to enrich connected MCP servers:
 
 {{< cards >}} {{< card link="roots" title="Roots" icon="folder" >}}
 {{< card link="sampling" title="Sampling" icon="annotation" >}} {{< /cards >}}
-
-
 
 ---
 File: /docs/specification/2024-11-05/client/roots.md
@@ -1293,8 +1269,6 @@ Example error:
    - Handle root list changes gracefully
    - Respect root boundaries in operations
    - Cache root information appropriately
-
-
 
 ---
 File: /docs/specification/2024-11-05/client/sampling.md
@@ -1527,8 +1501,6 @@ Example error:
 4. Clients **SHOULD** implement rate limiting
 5. Both parties **MUST** handle sensitive data appropriately
 
-
-
 ---
 File: /docs/specification/2024-11-05/server/utilities/_index.md
 ---
@@ -1544,8 +1516,6 @@ These optional features can be used to enhance server functionality.
 {{< cards >}} {{< card link="completion" title="Completion" icon="at-symbol" >}}
 {{< card link="logging" title="Logging" icon="terminal" >}}
 {{< card link="pagination" title="Pagination" icon="collection" >}} {{< /cards >}}
-
-
 
 ---
 File: /docs/specification/2024-11-05/server/utilities/completion.md
@@ -1688,8 +1658,6 @@ Implementations **MUST**:
 - Implement appropriate rate limiting
 - Control access to sensitive suggestions
 - Prevent completion-based information disclosure
-
-
 
 ---
 File: /docs/specification/2024-11-05/server/utilities/logging.md
@@ -1838,8 +1806,6 @@ Servers **SHOULD** return standard JSON-RPC errors for common failure cases:
    - Control log access
    - Monitor for sensitive content
 
-
-
 ---
 File: /docs/specification/2024-11-05/server/utilities/pagination.md
 ---
@@ -1942,8 +1908,6 @@ The following MCP operations support pagination:
 
 Invalid cursors **SHOULD** result in an error with code -32602 (Invalid params).
 
-
-
 ---
 File: /docs/specification/2024-11-05/server/_index.md
 ---
@@ -1980,8 +1944,6 @@ Explore these key primitives in more detail below:
 {{< cards >}} {{< card link="prompts" title="Prompts" icon="chat-alt-2" >}}
 {{< card link="resources" title="Resources" icon="document" >}}
 {{< card link="tools" title="Tools" icon="adjustments" >}} {{< /cards >}}
-
-
 
 ---
 File: /docs/specification/2024-11-05/server/prompts.md
@@ -2246,8 +2208,6 @@ Servers **SHOULD** return standard JSON-RPC errors for common failure cases:
 Implementations **MUST** carefully validate all prompt inputs and outputs to prevent
 injection attacks or unauthorized access to resources.
 
-
-
 ---
 File: /docs/specification/2024-11-05/server/resource-picker.png
 ---
@@ -2364,7 +2324,6 @@ zG{;�3�u.'���DcC#m߹�y�=c�?�9��'�3O�̹�	���
 �[�f�bs�f.���#'{����0�Gd'�����AbDq�t�=��qq� �  A���h6�0��:�u�8e�����$�Fv`��ną�aH��8\곣��'l
 
 �����E\�Fxd��y������A3h0    IEND�B`�
-
 
 ---
 File: /docs/specification/2024-11-05/server/resources.md
@@ -2729,8 +2688,6 @@ Example error:
 3. Binary data **MUST** be properly encoded
 4. Resource permissions **SHOULD** be checked before operations
 
-
-
 ---
 File: /docs/specification/2024-11-05/server/slash-command.png
 ---
@@ -2765,7 +2722,6 @@ L'�S
 *�+�A��Ԛ!f��uԖ��QQ�N[��_@׮]�ݻ��'O�|а2xz �f���`ʟ  x&��)�������9�M�6t��hժ����O�mM�е�kj�^9y�g+
 �3�BZ-@�+;;��_��t����F}x�eHp0EDt�ƍ�\�+��AC�!Pk�RU���ۢ�k�����Ϝמ�����"�� `ꅔ��L>7�G��>rVA@p��ۓ��)N�������R�P:8�#�$M\����������4ɘC��|9O��o�/��}���F�'8C�4�2��
 
-
 )??_y
 �����'q:I�A��p[R���Ԅ�yR�/_��M�+)u��I*��[��&$���5�!5k֌?.�|��'�A�5�z��k�Y'�j2���lHxaW�N����F��HIkI@q=t��Ըq�j%
 �@� ���7@��I�ڎڗ.]T3�KJJ�q9�  ��$%3!iRr�^^vv6]�X�%�o����*#�v�7��&#����>
@@ -2793,7 +2749,6 @@ jA?���Wu�'�BJz7З_~K��4{��l轪.�6<�0{EZkIYY���
 �ۧ�a�&v���,�-Z�g�4{�L�3ZŋYC���?dB�Q��Ν?���pvp�����+��e!ςW��	���}�a 0<�t=[3��[	�(J�}�>�kd�7v�ޫ<w�~z�)9������ֵ+��Sx���p�m:�޶g�\�$�ڂ.�~[�W%7v�zWKϋ��f���F{��c��Vc;%5����VUR�q3�AE�E��Z������Yf���CM�X�r5a#���Ӧ؜������WP�{���	�h��9Mfy��5b�nӦ͊�:u�D�f=dxO�e˾0f��"�I��WQ���bR������~�� �7j�H�ac��L`B��k�f�cJ�o�2�^'��#�1�4L�x�I	�������=t�es��!�%<���6x#�������.�V+�j�2�V�a6.���R�T�fIJ*3^���+xŊUԞ��#G�y���;8))٘�.l%�-p��[��/Z�4��a�����h�LN������Ub0�����ً�(?�e�#��������<z������ɬ�a:ڇ�3++[���uu��X�hJz%!�J-�����{��������P�.ęwΕ�	j�wE穬�����6�n8���\���FMa�)C@H������x�v���Ȏ�ݠ;88R�A��)9@���׍�;�H�j�O
 ��:w/7�wPL���"�ȿ����V!rP�5jD�I��>X2��)�V)T���M#IuK��qfo�9n��J�A�nKJ��o5�-8���l:���� P���M	������{��"1�_>Wj��l���[���R�b.�J��<͛~"�� `
 �j�fO8�i�a2��w����B�#�V�dn��$MJp�c���"�� `]ܒ�@DMH '���;Kx�L�Gֽ �f���ڔ@HچR��h����Ƅ���i��A��#%MF�q��	�B��7��� 4&����3W�]#5<�#%ݍZ�)i1iA:�D�D�:���� P��%)imIBMH��g&$31�}�A���[��њ�֊�Ą}���<:4�#qA@�{ܖ�4����mIoCS�i�+���P�_ܚ�4!4��>�.�n����@�"�֤h5!A2��=)Ak��Ƥ`�?A��p{R�ȚIH�9͜O�%��G�cH	�j2B\kD�4���@�"�Q�d�Z�Ȍ��� psf�u�$5F@HɃ;_�.X!%+���I�`��<��邀R�b�H�F@HɃ;_�.X!%+���I�`��<��邀R�b�H�F@HɃ;_�.X!%+���I�`��<��邀R�b�H�F@HɃ;_�.X!%+���I�`�3DE�A�Xs    IEND�B`�
-
 
 ---
 File: /docs/specification/2024-11-05/server/tools.md
@@ -3086,8 +3041,6 @@ Example tool execution error:
    - Implement timeouts for tool calls
    - Log tool usage for audit purposes
 
-
-
 ---
 File: /docs/specification/2024-11-05/_index.md
 ---
@@ -3227,8 +3180,6 @@ Explore the detailed specification for each protocol component:
 {{< card link="server" title="Server Features" icon="server" >}}
 {{< card link="client" title="Client Features" icon="user" >}}
 {{< card link="contributing" title="Contributing" icon="pencil" >}} {{< /cards >}}
-
-
 
 ---
 File: /docs/specification/2025-03-26/architecture/_index.md
@@ -3413,8 +3364,6 @@ example:
 This capability negotiation ensures clients and servers have a clear understanding of
 supported functionality while maintaining protocol extensibility.
 
-
-
 ---
 File: /docs/specification/2025-03-26/basic/utilities/_index.md
 ---
@@ -3430,8 +3379,6 @@ These optional features enhance the base protocol functionality with various uti
 {{< cards >}} {{< card link="ping" title="Ping" icon="status-online" >}}
 {{< card link="cancellation" title="Cancellation" icon="x" >}}
 {{< card link="progress" title="Progress" icon="clock" >}} {{< /cards >}}
-
-
 
 ---
 File: /docs/specification/2025-03-26/basic/utilities/cancellation.md
@@ -3522,8 +3469,6 @@ Invalid cancellation notifications **SHOULD** be ignored:
 This maintains the "fire and forget" nature of notifications while allowing for race
 conditions in asynchronous communication.
 
-
-
 ---
 File: /docs/specification/2025-03-26/basic/utilities/ping.md
 ---
@@ -3595,8 +3540,6 @@ sequenceDiagram
 - Timeouts **SHOULD** be treated as connection failures
 - Multiple failed pings **MAY** trigger connection reset
 - Implementations **SHOULD** log ping failures for diagnostics
-
-
 
 ---
 File: /docs/specification/2025-03-26/basic/utilities/progress.md
@@ -3696,8 +3639,6 @@ sequenceDiagram
 - Senders and receivers **SHOULD** track active progress tokens
 - Both parties **SHOULD** implement rate limiting to prevent flooding
 - Progress notifications **MUST** stop after completion
-
-
 
 ---
 File: /docs/specification/2025-03-26/basic/_index.md
@@ -3831,8 +3772,6 @@ There is also a
 [JSON Schema](https://github.com/modelcontextprotocol/specification/blob/main/schema/2025-03-26/schema.json),
 which is automatically generated from the TypeScript source of truth, for use with
 various automated tooling.
-
-
 
 ---
 File: /docs/specification/2025-03-26/basic/authorization.md
@@ -4225,8 +4164,6 @@ implementation of dynamic client registration. This allows applications to autom
 register with the MCP server, and removes the need for users to obtain client ids
 manually.
 
-
-
 ---
 File: /docs/specification/2025-03-26/basic/lifecycle.md
 ---
@@ -4470,8 +4407,6 @@ Example initialization error:
   }
 }
 ```
-
-
 
 ---
 File: /docs/specification/2025-03-26/basic/transports.md
@@ -4756,8 +4691,6 @@ JSON-RPC message format and lifecycle requirements defined by MCP. Custom transp
 **SHOULD** document their specific connection establishment and message exchange patterns
 to aid interoperability.
 
-
-
 ---
 File: /docs/specification/2025-03-26/client/_index.md
 ---
@@ -4775,8 +4708,6 @@ Clients can implement additional features to enrich connected MCP servers:
 
 {{< cards >}} {{< card link="roots" title="Roots" icon="folder" >}}
 {{< card link="sampling" title="Sampling" icon="annotation" >}} {{< /cards >}}
-
-
 
 ---
 File: /docs/specification/2025-03-26/client/roots.md
@@ -4974,8 +4905,6 @@ Example error:
    - Handle root list changes gracefully
    - Respect root boundaries in operations
    - Cache root information appropriately
-
-
 
 ---
 File: /docs/specification/2025-03-26/client/sampling.md
@@ -5218,8 +5147,6 @@ Example error:
 4. Clients **SHOULD** implement rate limiting
 5. Both parties **MUST** handle sensitive data appropriately
 
-
-
 ---
 File: /docs/specification/2025-03-26/server/utilities/_index.md
 ---
@@ -5235,8 +5162,6 @@ These optional features can be used to enhance server functionality.
 {{< cards >}} {{< card link="completion" title="Completion" icon="at-symbol" >}}
 {{< card link="logging" title="Logging" icon="terminal" >}}
 {{< card link="pagination" title="Pagination" icon="collection" >}} {{< /cards >}}
-
-
 
 ---
 File: /docs/specification/2025-03-26/server/utilities/completion.md
@@ -5401,8 +5326,6 @@ Implementations **MUST**:
 - Control access to sensitive suggestions
 - Prevent completion-based information disclosure
 
-
-
 ---
 File: /docs/specification/2025-03-26/server/utilities/logging.md
 ---
@@ -5550,8 +5473,6 @@ Servers **SHOULD** return standard JSON-RPC errors for common failure cases:
    - Control log access
    - Monitor for sensitive content
 
-
-
 ---
 File: /docs/specification/2025-03-26/server/utilities/pagination.md
 ---
@@ -5654,8 +5575,6 @@ The following MCP operations support pagination:
 
 Invalid cursors **SHOULD** result in an error with code -32602 (Invalid params).
 
-
-
 ---
 File: /docs/specification/2025-03-26/server/_index.md
 ---
@@ -5692,8 +5611,6 @@ Explore these key primitives in more detail below:
 {{< cards >}} {{< card link="prompts" title="Prompts" icon="chat-alt-2" >}}
 {{< card link="resources" title="Resources" icon="document" >}}
 {{< card link="tools" title="Tools" icon="adjustments" >}} {{< /cards >}}
-
-
 
 ---
 File: /docs/specification/2025-03-26/server/prompts.md
@@ -5965,8 +5882,6 @@ Servers **SHOULD** return standard JSON-RPC errors for common failure cases:
 Implementations **MUST** carefully validate all prompt inputs and outputs to prevent
 injection attacks or unauthorized access to resources.
 
-
-
 ---
 File: /docs/specification/2025-03-26/server/resource-picker.png
 ---
@@ -6083,7 +5998,6 @@ zG{;�3�u.'���DcC#m߹�y�=c�?�9��'�3O�̹�	���
 �[�f�bs�f.���#'{����0�Gd'�����AbDq�t�=��qq� �  A���h6�0��:�u�8e�����$�Fv`��ną�aH��8\곣��'l
 
 �����E\�Fxd��y������A3h0    IEND�B`�
-
 
 ---
 File: /docs/specification/2025-03-26/server/resources.md
@@ -6447,8 +6361,6 @@ Example error:
 3. Binary data **MUST** be properly encoded
 4. Resource permissions **SHOULD** be checked before operations
 
-
-
 ---
 File: /docs/specification/2025-03-26/server/slash-command.png
 ---
@@ -6483,7 +6395,6 @@ L'�S
 *�+�A��Ԛ!f��uԖ��QQ�N[��_@׮]�ݻ��'O�|а2xz �f���`ʟ  x&��)�������9�M�6t��hժ����O�mM�е�kj�^9y�g+
 �3�BZ-@�+;;��_��t����F}x�eHp0EDt�ƍ�\�+��AC�!Pk�RU���ۢ�k�����Ϝמ�����"�� `ꅔ��L>7�G��>rVA@p��ۓ��)N�������R�P:8�#�$M\����������4ɘC��|9O��o�/��}���F�'8C�4�2��
 
-
 )??_y
 �����'q:I�A��p[R���Ԅ�yR�/_��M�+)u��I*��[��&$���5�!5k֌?.�|��'�A�5�z��k�Y'�j2���lHxaW�N����F��HIkI@q=t��Ըq�j%
 �@� ���7@��I�ڎڗ.]T3�KJJ�q9�  ��$%3!iRr�^^vv6]�X�%�o����*#�v�7��&#����>
@@ -6511,7 +6422,6 @@ jA?���Wu�'�BJz7З_~K��4{��l轪.�6<�0{EZkIYY���
 �ۧ�a�&v���,�-Z�g�4{�L�3ZŋYC���?dB�Q��Ν?���pvp�����+��e!ςW��	���}�a 0<�t=[3��[	�(J�}�>�kd�7v�ޫ<w�~z�)9������ֵ+��Sx���p�m:�޶g�\�$�ڂ.�~[�W%7v�zWKϋ��f���F{��c��Vc;%5����VUR�q3�AE�E��Z������Yf���CM�X�r5a#���Ӧ؜������WP�{���	�h��9Mfy��5b�nӦ͊�:u�D�f=dxO�e˾0f��"�I��WQ���bR������~�� �7j�H�ac��L`B��k�f�cJ�o�2�^'��#�1�4L�x�I	�������=t�es��!�%<���6x#�������.�V+�j�2�V�a6.���R�T�fIJ*3^���+xŊUԞ��#G�y���;8))٘�.l%�-p��[��/Z�4��a�����h�LN������Ub0�����ً�(?�e�#��������<z������ɬ�a:ڇ�3++[���uu��X�hJz%!�J-�����{��������P�.ęwΕ�	j�wE穬�����6�n8���\���FMa�)C@H������x�v���Ȏ�ݠ;88R�A��)9@���׍�;�H�j�O
 ��:w/7�wPL���"�ȿ����V!rP�5jD�I��>X2��)�V)T���M#IuK��qfo�9n��J�A�nKJ��o5�-8���l:���� P���M	������{��"1�_>Wj��l���[���R�b.�J��<͛~"�� `
 �j�fO8�i�a2��w����B�#�V�dn��$MJp�c���"�� `]ܒ�@DMH '���;Kx�L�Gֽ �f���ڔ@HچR��h����Ƅ���i��A��#%MF�q��	�B��7��� 4&����3W�]#5<�#%ݍZ�)i1iA:�D�D�:���� P��%)imIBMH��g&$31�}�A���[��њ�֊�Ą}���<:4�#qA@�{ܖ�4����mIoCS�i�+���P�_ܚ�4!4��>�.�n����@�"�֤h5!A2��=)Ak��Ƥ`�?A��p{R�ȚIH�9͜O�%��G�cH	�j2B\kD�4���@�"�Q�d�Z�Ȍ��� psf�u�$5F@HɃ;_�.X!%+���I�`��<��邀R�b�H�F@HɃ;_�.X!%+���I�`��<��邀R�b�H�F@HɃ;_�.X!%+���I�`��<��邀R�b�H�F@HɃ;_�.X!%+���I�`�3DE�A�Xs    IEND�B`�
-
 
 ---
 File: /docs/specification/2025-03-26/server/tools.md
@@ -6817,8 +6727,6 @@ Example tool execution error:
    - Implement timeouts for tool calls
    - Log tool usage for audit purposes
 
-
-
 ---
 File: /docs/specification/2025-03-26/_index.md
 ---
@@ -6963,8 +6871,6 @@ Explore the detailed specification for each protocol component:
 {{< card link="client" title="Client Features" icon="user" >}}
 {{< card link="contributing" title="Contributing" icon="pencil" >}} {{< /cards >}}
 
-
-
 ---
 File: /docs/specification/2025-03-26/changelog.md
 ---
@@ -7008,8 +6914,6 @@ for more details.
 For a complete list of all changes that have been made since the last protocol revision,
 [see GitHub](https://github.com/modelcontextprotocol/specification/compare/2024-11-05...2025-03-26).
 
-
-
 ---
 File: /docs/specification/_index.md
 ---
@@ -7021,8 +6925,6 @@ cascade:
 breadcrumbs: false
 weight: 10
 ---
-
-
 
 ---
 File: /docs/specification/contributing.md
@@ -7045,8 +6947,6 @@ All contributors must adhere to our
 
 For questions and discussions, please use
 [GitHub Discussions](https://github.com/modelcontextprotocol/specification/discussions).
-
-
 
 ---
 File: /docs/specification/versioning.md
@@ -7086,8 +6986,6 @@ agree on a single version to use for the session.
 The protocol provides appropriate error handling if version negotiation fails, allowing
 clients to gracefully terminate connections when they cannot find a version compatible
 with the server.
-
-
 
 ---
 File: /schema/2024-11-05/schema.ts
@@ -7895,7 +7793,7 @@ export interface CreateMessageResult extends Result, SamplingMessage {
   /**
    * The name of the model that generated the message.
    */
-  model: string;
+
   /**
    * The reason why sampling stopped, if known.
    */
@@ -8215,8 +8113,6 @@ export type ServerResult =
   | ReadResourceResult
   | CallToolResult
   | ListToolsResult;
-
-
 
 ---
 File: /schema/2025-03-26/schema.ts
@@ -9120,7 +9016,7 @@ export interface CreateMessageResult extends Result, SamplingMessage {
   /**
    * The name of the model that generated the message.
    */
-  model: string;
+
   /**
    * The reason why sampling stopped, if known.
    */
@@ -9474,8 +9370,6 @@ export type ServerResult =
   | CallToolResult
   | ListToolsResult;
 
-
-
 ---
 File: /scripts/validate_examples.ts
 ---
@@ -9543,8 +9437,6 @@ mdFiles.forEach((filePath) => {
   console.log("\n"); // Add a newline for separation between files
 });
 
-
-
 ---
 File: /site/layouts/index.html
 ---
@@ -9563,7 +9455,6 @@ File: /site/layouts/index.html
     <p>Redirecting to <a href="/latest">specification</a>...</p>
 </body>
 </html>
-
 
 ---
 File: /README.md

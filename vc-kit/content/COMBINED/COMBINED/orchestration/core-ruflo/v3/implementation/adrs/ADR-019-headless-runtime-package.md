@@ -147,7 +147,7 @@ export interface ExecutionResult {
     endTime: Date;
     durationMs: number;
     tokensUsed?: number;
-    model: string;
+
     exitCode: number;
   };
 

@@ -17,7 +17,7 @@
 agent:
   name: "Email Assistant"
   instructions: "You are a helpful email assistant. Keep replies concise and professional."
-  model: gpt-4o
+
   memory: true
 
 # Channel configuration (multi-channel format)

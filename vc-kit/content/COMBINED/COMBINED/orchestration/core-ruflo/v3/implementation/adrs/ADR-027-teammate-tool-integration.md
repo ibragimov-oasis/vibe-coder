@@ -532,7 +532,7 @@ export class TeammateBridge extends EventEmitter {
       description: `${config.role}: ${config.name}`,
       prompt: config.prompt,
       subagent_type: config.role,
-      model: config.model,
+
       name: config.name,
       team_name: config.teamName ?? process.env.CLAUDE_CODE_TEAM_NAME,
       allowed_tools: config.allowedTools,
@@ -580,7 +580,7 @@ export class TeammateBridge extends EventEmitter {
       description: `${config.role}: ${config.name}`,
       prompt: config.prompt,
       subagent_type: config.role,
-      model: config.model,
+
       name: config.name,
       team_name: config.teamName ?? process.env.CLAUDE_CODE_TEAM_NAME,
       allowed_tools: config.allowedTools,
@@ -1073,7 +1073,7 @@ export class ClaudeFlowTeammateIntegration {
       name: `${agentType}-${Date.now().toString(36)}`,
       role: mapping.role,
       prompt: task,
-      model: options?.model,
+
       allowedTools: options?.allowedTools ?? mapping.defaultTools,
       mode: agentType.includes('coordinator') ? 'plan' : 'default',
       runInBackground: true,
@@ -1108,7 +1108,7 @@ export class ClaudeFlowTeammateIntegration {
     // Build AgentInput for each agent
     const agentInputs = agents.map(agent => {
       const config = this.mapAgentToTeammateConfig(agent.type, agent.task, {
-        model: agent.model,
+
       });
       config.teamName = teamConfig.name;
       return this.bridge!.buildAgentInput(config);

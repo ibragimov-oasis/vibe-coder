@@ -199,7 +199,7 @@ export class EnhancedModelRouter {
       return {
         tier: 2,
         handler: 'haiku',
-        model: 'haiku',
+
         confidence: tinyDancerResult.confidence,
         complexity: finalComplexity,
         reasoning: `Low complexity (${(finalComplexity * 100).toFixed(0)}%) - using haiku`,
@@ -213,7 +213,7 @@ export class EnhancedModelRouter {
       return {
         tier: 2,
         handler: 'sonnet',
-        model: 'sonnet',
+
         confidence: tinyDancerResult.confidence,
         complexity: finalComplexity,
         reasoning: `Medium complexity (${(finalComplexity * 100).toFixed(0)}%) - using sonnet`,
@@ -226,7 +226,7 @@ export class EnhancedModelRouter {
     return {
       tier: 3,
       handler: 'opus',
-      model: 'opus',
+
       confidence: tinyDancerResult.confidence,
       complexity: finalComplexity,
       reasoning: `High complexity (${(finalComplexity * 100).toFixed(0)}%) - using opus`,
@@ -312,7 +312,7 @@ async function determineAgentModel(
   config: Record<string, unknown>,
   task?: string
 ): Promise<{
-  model: ClaudeModel;
+
   routedBy: 'explicit' | 'router' | 'agent-booster' | 'default';
   canSkipLLM?: boolean;
   agentBoosterIntent?: string;
@@ -331,7 +331,7 @@ async function determineAgentModel(
       if (routeResult.tier === 1) {
         // Agent Booster can handle this
         return {
-          model: 'haiku',  // Use haiku as fallback if AB fails
+
           routedBy: 'agent-booster',
           canSkipLLM: true,
           agentBoosterIntent: routeResult.agentBoosterIntent?.type
@@ -339,7 +339,7 @@ async function determineAgentModel(
       }
 
       return {
-        model: routeResult.model!,
+
         routedBy: 'router'
       };
     } catch {

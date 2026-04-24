@@ -94,7 +94,7 @@ import Anthropic from "@anthropic-ai/sdk";
 const client = new Anthropic(); // reads ANTHROPIC_API_KEY from env
 
 const message = await client.messages.create({
-  model: "gpt-4o-6",
+
   max_tokens: 1024,
   messages: [
     { role: "user", content: "Explain async/await in TypeScript" }
@@ -107,7 +107,7 @@ console.log(message.content[0].text);
 
 ```typescript
 const stream = client.messages.stream({
-  model: "gpt-4o-6",
+
   max_tokens: 1024,
   messages: [{ role: "user", content: "Write a haiku" }],
 });

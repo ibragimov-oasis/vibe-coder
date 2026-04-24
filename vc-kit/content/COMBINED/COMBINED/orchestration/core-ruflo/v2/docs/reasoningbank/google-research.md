@@ -459,7 +459,7 @@ reasoningbank:
     recency_half_life_days: 45
     duplicate_threshold: 0.87
   judge:
-    model: "gpt-4o.5"
+
     temperature: 0
   distill:
     max_items_per_traj: 3

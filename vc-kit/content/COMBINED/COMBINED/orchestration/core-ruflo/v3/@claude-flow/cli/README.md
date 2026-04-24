@@ -4,8 +4,6 @@
 
 ![Ruflo Banner](ruflo/assets/ruflo-small.jpeg)
 
-
-
 [![GitHub Project of the Day](https://img.shields.io/badge/GitHub-Project%20of%20the%20Day-ff6600?style=for-the-badge&logo=github&logoColor=white)](https://github.com/ruvnet/claude-flow)
 
 [![Star on GitHub](https://img.shields.io/github/stars/ruvnet/claude-flow?style=for-the-badge&logo=github&color=gold)](https://github.com/ruvnet/claude-flow)
@@ -2835,7 +2833,7 @@ npx ruflo@latest embeddings search "login flow" --top-k 5
 import { createEmbeddingServiceAsync } from '@claude-flow/embeddings';
 
 const service = await createEmbeddingServiceAsync({
-  model: 'all-MiniLM-L6-v2',
+
   hyperbolic: true,  // Enable Poincaré ball embeddings
   cacheSize: 256
 });
@@ -6851,7 +6849,6 @@ Environment setup, configuration options, and platform support.
 <details>
 <summary>💻 <strong>Cross-Platform Support</strong></summary>
 
-
 ### Windows (PowerShell)
 
 ```powershell
@@ -7279,7 +7276,6 @@ Troubleshooting, migration guides, and documentation links.
 <details>
 <summary>🔧 <strong>Troubleshooting</strong></summary>
 
-
 ### Common Issues
 
 **MCP server won't start**
@@ -7489,7 +7485,6 @@ cp -r ./data-backup-v2 ./data
 <details>
 <summary>📚 <strong>Documentation</strong></summary>
 
-
 ### V3 Module Documentation
 
 | Module | Description | Docs |
@@ -7532,7 +7527,6 @@ cp -r ./data-backup-v2 ./data
 ## License
 
 MIT - [RuvNet](https://github.com/ruvnet)
-
 
 [![RuVector](https://img.shields.io/npm/v/ruvector?style=for-the-badge&logo=rust&color=orange&label=RuVector)](https://www.npmjs.com/package/ruvector)
 [![Agentic-Flow](https://img.shields.io/npm/v/agentic-flow?style=for-the-badge&logo=typescript&color=3178c6&label=Agentic-Flow)](https://www.npmjs.com/package/agentic-flow)

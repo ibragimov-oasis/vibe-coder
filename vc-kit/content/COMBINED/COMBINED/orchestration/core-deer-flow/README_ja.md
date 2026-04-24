@@ -124,7 +124,7 @@ DeerFlow がまだ clone されていなければ先に clone してから、htt
      - name: gpt-4                       # 内部識別子
        display_name: GPT-4               # 表示名
        use: langchain_openai:ChatOpenAI  # LangChainクラスパス
-       model: gpt-4                      # API用モデル識別子
+
        api_key: $OPENAI_API_KEY          # APIキー（推奨：環境変数を使用）
        max_tokens: 4096                  # リクエストあたりの最大トークン数
        temperature: 0.7                  # サンプリング温度
@@ -132,7 +132,7 @@ DeerFlow がまだ clone されていなければ先に clone してから、htt
      - name: openrouter-gemini-2.5-flash
        display_name: Gemini 2.5 Flash (OpenRouter)
        use: langchain_openai:ChatOpenAI
-       model: google/gemini-2.5-flash-preview
+
        api_key: $OPENAI_API_KEY          # OpenRouterもここではOpenAI互換のフィールド名を使用
        base_url: https://openrouter.ai/api/v1
    ```

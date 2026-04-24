@@ -1996,7 +1996,7 @@ Presented in an `<env>` tag with flat key-value pairs:
 ```
 <env>
 Today's date: Wednesday, March 11, 2026 (for more granularity, use bash)
-Model: claude-opus-4-6
+
 User selected a folder: no
 </env>
 ```

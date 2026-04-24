@@ -14,7 +14,7 @@ agents:  # Canonical: use 'agents' instead of 'roles'
     verbose: true
     allow_delegation: false
     llm:
-      model: gpt-4o
+
       temperature: 0.3
     tools:
       - "InternetSearchTool"
@@ -45,7 +45,7 @@ agents:  # Canonical: use 'agents' instead of 'roles'
     verbose: true
     allow_delegation: false
     llm:
-      model: gpt-4o
+
       temperature: 0.7
     tasks:
       content_creation:
@@ -74,7 +74,7 @@ agents:  # Canonical: use 'agents' instead of 'roles'
     verbose: true
     allow_delegation: false
     llm:
-      model: gpt-4o
+
       temperature: 0.2
     tasks:
       content_review:

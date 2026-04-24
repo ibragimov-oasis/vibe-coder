@@ -362,7 +362,7 @@ const FastMCPSessionEventEmitterBase: {
 class FastMCPSessionEventEmitter extends FastMCPSessionEventEmitterBase {}
 
 type SamplingResponse = {
-  model: string;
+
   stopReason?: "endTurn" | "stopSequence" | "maxTokens" | string;
   role: "user" | "assistant";
   content: TextContent | ImageContent;

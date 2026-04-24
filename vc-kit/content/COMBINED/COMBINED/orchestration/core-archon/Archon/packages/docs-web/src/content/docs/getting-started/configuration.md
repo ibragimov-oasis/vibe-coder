@@ -33,11 +33,11 @@ Create `.archon/config.yaml` in your repository:
 ```yaml
 assistants:
   claude:
-    model: sonnet  # or 'opus', 'haiku', 'inherit'
+
     settingSources:
       - project
   codex:
-    model: gpt-4o.3-codex
+
     modelReasoningEffort: medium
 
 # docs:

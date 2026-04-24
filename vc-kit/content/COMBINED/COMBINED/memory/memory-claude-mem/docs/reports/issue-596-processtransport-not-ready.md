@@ -119,7 +119,7 @@ The error occurs when `write()` is called before `start()` completes, or when th
    const queryResult = query({
      prompt: messageGenerator,
      options: {
-       model: modelId,
+
        ...(hasRealMemorySessionId && session.lastPromptNumber > 1 && { resume: session.memorySessionId }),
        disallowedTools,
        abortController: session.abortController,
@@ -304,7 +304,7 @@ The V2 SDK (`unstable_v2_createSession`) uses a different session-based architec
 
 ```typescript
 await using session = unstable_v2_createSession({
-  model: 'gpt-4o-5-20250929'
+
 });
 
 await session.send(initPrompt);  // Explicit send/receive

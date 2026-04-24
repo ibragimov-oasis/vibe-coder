@@ -8,7 +8,6 @@ description: |
 nodes:
   - id: implement
     command: archon-implement
-    model: gpt-4o
 
   - id: create-pr
     command: archon-create-pr

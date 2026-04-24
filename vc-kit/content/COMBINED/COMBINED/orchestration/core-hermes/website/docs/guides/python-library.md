@@ -243,7 +243,6 @@ app = FastAPI()
 
 class ChatRequest(BaseModel):
     message: str
-    model: str = "anthropic/gpt-4o"
 
 @app.post("/chat")
 async def chat(request: ChatRequest):

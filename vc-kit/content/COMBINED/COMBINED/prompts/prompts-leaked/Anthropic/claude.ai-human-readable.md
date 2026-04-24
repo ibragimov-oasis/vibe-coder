@@ -3147,7 +3147,7 @@ const response = await fetch("https://api.anthropic.com/v1/messages", {
     "Content-Type": "application/json",
   },
   body: JSON.stringify({
-    model: "gpt-4o-20250514", // Always use Sonnet 4
+
     max_tokens: 1000, // Always set this as 1000
     messages: [
       { role: "user", content: "Your prompt here" }

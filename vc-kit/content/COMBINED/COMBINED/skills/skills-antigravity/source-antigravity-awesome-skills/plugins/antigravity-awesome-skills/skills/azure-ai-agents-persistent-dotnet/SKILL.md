@@ -62,7 +62,7 @@ PersistentAgentsClient
 var modelDeploymentName = Environment.GetEnvironmentVariable("MODEL_DEPLOYMENT_NAME");
 
 PersistentAgent agent = await client.Administration.CreateAgentAsync(
-    model: modelDeploymentName,
+
     name: "Math Tutor",
     instructions: "You are a personal math tutor. Write and run code to answer math questions.",
     tools: [new CodeInterpreterToolDefinition()]
@@ -161,7 +161,7 @@ FunctionToolDefinition weatherTool = new(
 
 // Create agent with function
 PersistentAgent agent = await client.Administration.CreateAgentAsync(
-    model: modelDeploymentName,
+
     name: "Weather Bot",
     instructions: "You are a weather bot.",
     tools: [weatherTool]
@@ -213,7 +213,7 @@ fileSearchResource.VectorStoreIds.Add(vectorStore.Id);
 
 // Create agent with file search
 PersistentAgent agent = await client.Administration.CreateAgentAsync(
-    model: modelDeploymentName,
+
     name: "Document Assistant",
     instructions: "You help users find information in documents.",
     tools: [new FileSearchToolDefinition()],
@@ -233,7 +233,7 @@ BingGroundingToolDefinition bingTool = new(
 );
 
 PersistentAgent agent = await client.Administration.CreateAgentAsync(
-    model: modelDeploymentName,
+
     name: "Search Agent",
     instructions: "Use Bing to answer questions about current events.",
     tools: [bingTool]
@@ -252,7 +252,7 @@ AzureAISearchToolResource searchResource = new(
 );
 
 PersistentAgent agent = await client.Administration.CreateAgentAsync(
-    model: modelDeploymentName,
+
     name: "Search Agent",
     instructions: "Search the documentation index to answer questions.",
     tools: [new AzureAISearchToolDefinition()],

@@ -174,7 +174,7 @@ output_schema:
         properties:
           duration_ms:
             type: number
-          model: gpt-4o
+
             type: string
           tokens:
             type: object
@@ -229,7 +229,7 @@ config:
     - user_config
     - defaults
   schema:
-    model: gpt-4o
+
       type: string
       default: "openai/gpt-4o-mini"
     verbose:
@@ -243,7 +243,7 @@ config:
       additionalProperties:
         type: object
         properties:
-          model: gpt-4o
+
             type: string
           verbose:
             type: boolean

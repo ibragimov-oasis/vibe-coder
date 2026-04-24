@@ -5,7 +5,7 @@
 # =============================================================================
 # Model Configuration
 # =============================================================================
-model:
+
   # Default model to use (can be overridden with --model flag)
   # Both "default" and "model" work as the key name here.
   default: "anthropic/claude-opus-4.6"
@@ -639,7 +639,6 @@ platform_toolsets:
 # Requires OPENAI_API_KEY in .env (uses OpenAI Whisper API directly).
 stt:
   enabled: true
-  model: "whisper-1"  # whisper-1 (cheapest) | gpt-4o-mini-transcribe | gpt-4o-transcribe
 
 # =============================================================================
 # Response Pacing (Messaging Platforms)
@@ -730,7 +729,6 @@ display:
   #   error:   Only the final message when exit code != 0
   #   all:     Running output updates + final message (default)
   background_process_notifications: all
-
 
   # Play terminal bell when agent finishes a response.
   # Useful for long-running tasks — your terminal will ding when the agent is done.

@@ -75,9 +75,9 @@ defaultAssistant: claude
 
 assistants:
   claude:
-    model: sonnet
+
   codex:
-    model: gpt-4o.3-codex
+
     modelReasoningEffort: medium
 
 concurrency:

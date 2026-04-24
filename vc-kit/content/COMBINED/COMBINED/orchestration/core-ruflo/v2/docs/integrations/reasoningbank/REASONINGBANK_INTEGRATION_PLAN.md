@@ -120,7 +120,7 @@ export interface AgentExecutionResult {
   output: string;
   error?: string;
   provider: string;
-  model: string;
+
   tokens?: number;
   cost?: number;
   duration: number;
@@ -326,7 +326,7 @@ export class AgentExecutor {
         success: true,
         output: stdout,
         provider: options.provider || 'anthropic',
-        model: options.model || 'default',
+
         duration,
         agent: options.agent,
         task: options.task,
@@ -368,7 +368,7 @@ export class AgentExecutor {
         output: '',
         error: error.message,
         provider: options.provider || 'anthropic',
-        model: options.model || 'default',
+
         duration,
         agent: options.agent,
         task: options.task,

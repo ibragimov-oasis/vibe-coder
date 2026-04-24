@@ -226,7 +226,7 @@ Builder pattern for Agent configuration:
 pub struct AgentBuilder {
     name: String,
     instructions: String,
-    model: String,
+
     tools: ToolRegistry,
     memory_config: MemoryConfig,
     config: AgentConfig,
@@ -690,7 +690,7 @@ use async_trait::async_trait;
 
 struct MyProvider {
     api_key: String,
-    model: String,
+
 }
 
 #[async_trait]

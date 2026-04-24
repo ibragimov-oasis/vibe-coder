@@ -142,7 +142,7 @@ client = DeerFlowClient(config={
 
 ```python
 def create_deerflow_agent(
-    model: BaseChatModel,
+
     tools: list[BaseTool] | None = None,
     *,
     system_prompt: str | None = None,

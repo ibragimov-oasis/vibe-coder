@@ -100,7 +100,7 @@ When `query()` is called in SDKAgent.ts:
 const queryResult = query({
   prompt: messageGenerator,
   options: {
-    model: modelId,
+
     // Resume with captured memorySessionId (null on first prompt, real ID on subsequent)
     ...(hasRealMemorySessionId && { resume: session.memorySessionId }),
     disallowedTools,
@@ -208,7 +208,7 @@ async startSession(session: ActiveSession, worker?: WorkerRef): Promise<void> {
   const queryResult = query({
     prompt: messageGenerator,
     options: {
-      model: modelId,
+
       resume: deterministicMemoryId,  // ALWAYS pass, even if SDK might reject
       disallowedTools,
       abortController: session.abortController,

@@ -76,12 +76,12 @@ const manager = await createProviderManager({
     {
       provider: 'anthropic',
       apiKey: process.env.ANTHROPIC_API_KEY!,
-      model: 'claude-3-5-sonnet-latest',
+
     },
     {
       provider: 'openai',
       apiKey: process.env.OPENAI_API_KEY!,
-      model: 'gpt-4o',
+
     },
   ],
   loadBalancing: {
@@ -192,7 +192,7 @@ const anthropic = new AnthropicProvider({
   config: {
     provider: 'anthropic',
     apiKey: process.env.ANTHROPIC_API_KEY!,
-    model: 'claude-3-5-sonnet-latest',
+
     temperature: 0.7,
     maxTokens: 1000,
   },
@@ -477,7 +477,7 @@ OPENAI_BASE_URL=https://api.openai.com/v1
 {
   provider: 'anthropic',
   apiKey: process.env.ANTHROPIC_API_KEY!,
-  model: 'claude-3-5-sonnet-latest',
+
   temperature: 0.7,
   maxTokens: 4096,
   timeout: 60000,
@@ -491,7 +491,7 @@ OPENAI_BASE_URL=https://api.openai.com/v1
 {
   provider: 'openai',
   apiKey: process.env.OPENAI_API_KEY!,
-  model: 'gpt-4o',
+
   temperature: 0.7,
   maxTokens: 4096,
   frequencyPenalty: 0,
@@ -505,7 +505,7 @@ OPENAI_BASE_URL=https://api.openai.com/v1
 {
   provider: 'google',
   apiKey: process.env.GOOGLE_API_KEY!,
-  model: 'gemini-1.5-pro',
+
   temperature: 0.7,
   maxTokens: 8192,
   topK: 40,
@@ -518,7 +518,7 @@ OPENAI_BASE_URL=https://api.openai.com/v1
 {
   provider: 'cohere',
   apiKey: process.env.COHERE_API_KEY!,
-  model: 'command-r-plus',
+
   temperature: 0.7,
   maxTokens: 4000,
 }
@@ -530,7 +530,7 @@ OPENAI_BASE_URL=https://api.openai.com/v1
 {
   provider: 'ollama',
   apiUrl: 'http://localhost:11434',
-  model: 'llama3.2',
+
   temperature: 0.7,
   maxTokens: 4096,
 }

@@ -70,7 +70,7 @@ Suggested structure:
 class CanonicalUsage:
     provider: str
     billing_provider: str
-    model: str
+
     billing_route: str
 
     input_tokens: int = 0
@@ -182,7 +182,7 @@ Introduce a billing route descriptor:
 class BillingRoute:
     provider: str
     base_url: str | None
-    model: str
+
     billing_mode: str
     organization_hint: str | None = None
 ```
@@ -539,7 +539,7 @@ pricing:
   sync_interval_hours: 12
   overrides:
     - provider: openrouter
-      model: anthropic/claude-opus-4.6
+
       billing_mode: custom_contract
       input_cost_per_million: 4.25
       output_cost_per_million: 22.0
@@ -547,9 +547,9 @@ pricing:
       cache_write_cost_per_million: 6.0
   included_routes:
     - provider: copilot
-      model: "*"
+
     - provider: codex-subscription
-      model: "*"
+
 ```
 
 Overrides must win over catalog defaults for the matching billing route.

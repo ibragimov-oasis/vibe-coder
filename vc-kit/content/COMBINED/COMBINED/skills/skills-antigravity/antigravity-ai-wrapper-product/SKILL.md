@@ -75,7 +75,7 @@ async function generateContent(userInput, context) {
 
   // 3. Call API
   const response = await anthropic.messages.create({
-    model: 'claude-3-haiku-20240307',
+
     max_tokens: 1000,
     system: systemPrompt,
     messages: [{
@@ -183,7 +183,7 @@ async function callWithCostTracking(userId, prompt) {
     inputTokens: response.usage.input_tokens,
     outputTokens: response.usage.output_tokens,
     cost: calculateCost(response.usage),
-    model: 'claude-3-haiku',
+
   });
 
   return response;

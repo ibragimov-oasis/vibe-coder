@@ -168,7 +168,7 @@ paths:
                 key: value
 components:
   schemas:
-    Model:
+
       type: object
       properties:
         id:

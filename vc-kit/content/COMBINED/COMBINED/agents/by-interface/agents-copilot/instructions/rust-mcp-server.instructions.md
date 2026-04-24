@@ -103,7 +103,7 @@ Implement the `ServerHandler` trait:
 
 ```rust
 use rmcp::{
-    model::*,
+
     protocol::*,
     server::{RequestContext, ServerHandler, RoleServer},
     ErrorData,

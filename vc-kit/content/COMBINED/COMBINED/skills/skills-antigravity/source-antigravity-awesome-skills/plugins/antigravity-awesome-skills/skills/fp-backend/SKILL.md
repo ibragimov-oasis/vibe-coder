@@ -424,7 +424,7 @@ const wrapPrisma = <A>(
         case 'P2025':
           return {
             _tag: 'RecordNotFound',
-            model: error.meta?.modelName as string || 'unknown',
+
             id: 'unknown',
           }
       }

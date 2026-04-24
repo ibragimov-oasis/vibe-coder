@@ -163,7 +163,7 @@ registerAgentTypes(): AgentTypeDefinition[] {
     name: 'Custom Agent',
     description: 'Specialized agent for custom tasks',
     defaultConfig: {
-      model: 'claude-3-opus',
+
       maxTokens: 4096,
     },
     requiredCapabilities: ['custom-capability'],

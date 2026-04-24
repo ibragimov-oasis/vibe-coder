@@ -47,7 +47,7 @@ const embedding = await plugin.embedHierarchy({
       { id: 'src/utils', parent: 'src', features: { type: 'directory' } }
     ]
   },
-  model: 'poincare_ball',
+
   parameters: {
     dimensions: 32,
     curvature: -1.0,
@@ -76,7 +76,7 @@ const result = await mcp.call('hyperbolic/embed-hierarchy', {
     ],
     edges: []
   },
-  model: 'poincare_ball',
+
   parameters: {
     dimensions: 32,
     curvature: -1.0,

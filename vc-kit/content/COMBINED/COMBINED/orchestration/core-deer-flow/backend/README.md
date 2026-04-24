@@ -173,7 +173,7 @@ models:
   - name: gpt-4o
     display_name: GPT-4o
     use: langchain_openai:ChatOpenAI
-    model: gpt-4o
+
     api_key: $OPENAI_API_KEY
     supports_thinking: false
     supports_vision: true
@@ -181,7 +181,7 @@ models:
   - name: gpt-4o-responses
     display_name: GPT-5 (Responses API)
     use: langchain_openai:ChatOpenAI
-    model: gpt-4o
+
     api_key: $OPENAI_API_KEY
     use_responses_api: true
     output_version: responses/v1

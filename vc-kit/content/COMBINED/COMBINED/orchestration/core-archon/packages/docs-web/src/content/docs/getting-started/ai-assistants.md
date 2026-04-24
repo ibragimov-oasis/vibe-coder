@@ -62,7 +62,7 @@ You can configure Claude's behavior in `.archon/config.yaml`:
 ```yaml
 assistants:
   claude:
-    model: sonnet  # or 'opus', 'haiku', 'claude-*', 'inherit'
+
     settingSources:
       - project      # Default: only project-level CLAUDE.md
       - user         # Optional: also load ~/.claude/CLAUDE.md
@@ -119,7 +119,7 @@ You can configure Codex's behavior in `.archon/config.yaml`:
 ```yaml
 assistants:
   codex:
-    model: gpt-4o.3-codex
+
     modelReasoningEffort: medium  # 'minimal' | 'low' | 'medium' | 'high' | 'xhigh'
     webSearchMode: live           # 'disabled' | 'cached' | 'live'
     additionalDirectories:

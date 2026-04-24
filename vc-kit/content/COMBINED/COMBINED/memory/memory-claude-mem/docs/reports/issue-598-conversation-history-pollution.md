@@ -93,7 +93,7 @@ The `SDKAgent.startSession()` method at `/Users/alexnewman/conductor/workspaces/
 const queryResult = query({
   prompt: messageGenerator,
   options: {
-    model: modelId,
+
     // Only resume if BOTH: (1) we have a memorySessionId AND (2) this isn't the first prompt
     // On worker restart, memorySessionId may exist from a previous SDK session but we
     // need to start fresh since the SDK context was lost

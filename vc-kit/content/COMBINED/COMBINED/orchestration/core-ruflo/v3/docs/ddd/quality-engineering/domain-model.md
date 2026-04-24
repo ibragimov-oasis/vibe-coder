@@ -231,7 +231,7 @@ interface DefectPrediction {
 
   // Metadata
   predictedAt: Timestamp;
-  model: ModelVersion;
+
 }
 
 type DefectType =

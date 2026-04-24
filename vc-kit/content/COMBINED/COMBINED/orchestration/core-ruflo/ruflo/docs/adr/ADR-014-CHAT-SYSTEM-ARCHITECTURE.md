@@ -287,7 +287,7 @@ const CLOUD_FUNCTIONS: Record<string, CloudFunctionConfig> = {
 import { GoogleGenerativeAI } from '@google/generative-ai';
 
 interface GeminiConfig {
-  model: 'gemini-2.5-pro';
+
   maxOutputTokens: 8192;
   temperature: 0.7;
   topP: 0.95;
@@ -561,7 +561,7 @@ const SUGGESTION_SCHEMA = {
 import { DynamicRetrievalMode } from '@google/generative-ai';
 
 const modelConfig = {
-  model: 'gemini-3-flash-preview', // or 'gemini-3-pro-preview'
+
   generationConfig: {
     responseMimeType: 'application/json',
     responseSchema: SUGGESTION_SCHEMA,

@@ -258,7 +258,7 @@ export class ClaudeClientV3 extends EventEmitter {
   async makeRequest(request: ClaudeRequest): Promise<ClaudeResponse> {
     // SDK handles retry automatically
     return this.sdk.messages.create({
-      model: request.model,
+
       messages: request.messages,
       system: request.system,
       max_tokens: request.max_tokens,
@@ -741,7 +741,7 @@ describe('SDK Migration Regression Tests', () => {
 
     it('should maintain retry behavior', async () => {
       const mockRequest = {
-        model: 'claude-3-opus-20240229',
+
         messages: [{ role: 'user', content: 'Test' }],
         max_tokens: 100
       };

@@ -190,7 +190,7 @@ interface SkillDirectory {
 ```typescript
 interface CodexConfiguration {
   // Core settings
-  model: string;
+
   approvalPolicy: ApprovalPolicy;
   sandboxMode: SandboxMode;
   webSearch: WebSearchMode;
@@ -525,7 +525,7 @@ ${content}`;
 class ConfigurationMigrationService {
   migrateClaudeToCodex(claudeSettings: ClaudeSettings): CodexConfiguration {
     return {
-      model: 'gpt-4o.3-codex',
+
       approvalPolicy: this.mapApprovalPolicy(claudeSettings),
       sandboxMode: this.mapSandboxMode(claudeSettings),
       webSearch: 'cached',

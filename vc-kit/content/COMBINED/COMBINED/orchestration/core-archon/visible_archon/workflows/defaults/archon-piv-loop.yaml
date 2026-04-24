@@ -174,7 +174,7 @@ nodes:
   # ═══════════════════════════════════════════════════════════════
 
   - id: create-plan
-    model: gpt-4o
+
     depends_on: [explore]
     context: fresh
     prompt: |
@@ -415,7 +415,7 @@ nodes:
   - id: implement
     depends_on: [implement-setup]
     idle_timeout: 600000
-    model: gpt-4o
+
     loop:
       prompt: |
         # PIV Loop — Implementation Agent
@@ -540,7 +540,7 @@ nodes:
   # ═══════════════════════════════════════════════════════════════
 
   - id: code-review
-    model: gpt-4o
+
     depends_on: [implement]
     context: fresh
     prompt: |
@@ -697,7 +697,7 @@ nodes:
   # ═══════════════════════════════════════════════════════════════
 
   - id: finalize
-    model: gpt-4o
+
     depends_on: [fix-feedback]
     context: fresh
     prompt: |

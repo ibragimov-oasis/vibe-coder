@@ -83,7 +83,7 @@ BearerTokenPolicy tokenPolicy = new(
     "https://cognitiveservices.azure.com/.default");
 
 ChatClient client = new(
-    model: "gpt-4o-mini",
+
     authenticationPolicy: tokenPolicy,
     options: new OpenAIClientOptions()
     {

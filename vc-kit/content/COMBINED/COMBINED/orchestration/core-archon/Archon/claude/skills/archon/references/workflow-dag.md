@@ -167,7 +167,7 @@ Command/prompt nodes only:
 - id: classify
   prompt: "Classify: $ARGUMENTS"
   allowed_tools: []
-  model: haiku
+
   output_format:
     type: object
     properties:
@@ -187,7 +187,7 @@ Override on command/prompt nodes:
 nodes:
   - id: classify
     prompt: "Quick classification"
-    model: haiku                    # Fast model
+
   - id: implement
     command: implement-changes      # Inherits workflow-level model
 ```
@@ -327,7 +327,7 @@ nodes:
   - id: classify
     prompt: "Classify this issue: $fetch-issue.output"
     depends_on: [fetch-issue]
-    model: haiku
+
     allowed_tools: []
     output_format:
       type: object

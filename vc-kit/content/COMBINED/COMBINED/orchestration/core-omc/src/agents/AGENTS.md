@@ -58,7 +58,7 @@ const agents = getAgentDefinitions();
   description: 'Architecture & Debugging Advisor',
   prompt: '...',  // Loaded from /agents/architect.md
   tools: ['Read', 'Glob', 'Grep', 'WebSearch', 'WebFetch'],
-  model: 'opus',
+
   defaultModel: 'opus'
 }
 ```
@@ -105,7 +105,7 @@ export const newAgent: AgentConfig = {
   description: 'What this agent does',
   prompt: '', // Will be loaded from /agents/new-agent.md
   tools: ['Read', 'Glob', 'Grep'],
-  model: 'sonnet',
+
   defaultModel: 'sonnet'
 };
 ```
@@ -152,7 +152,7 @@ export const newAgentLow: AgentConfig = {
   description: 'Quick new-agent tasks (Haiku)',
   prompt: loadAgentPrompt('new-agent-low'),
   tools: ['Read', 'Glob', 'Grep'],
-  model: 'haiku',
+
   defaultModel: 'haiku'
 };
 
@@ -162,7 +162,7 @@ export const newAgentHigh: AgentConfig = {
   description: 'Complex new-agent tasks (Opus)',
   prompt: loadAgentPrompt('new-agent-high'),
   tools: ['Read', 'Glob', 'Grep', 'WebSearch'],
-  model: 'opus',
+
   defaultModel: 'opus'
 };
 ```

@@ -155,7 +155,6 @@ HEADERS = {
     "User-Agent": "Mozilla/5.0 (compatible; research-bot/1.0)",
 }
 
-
 def fetch() -> list[dict]:
     """
     Returns a list of items with consistent schema.
@@ -172,7 +171,6 @@ def fetch() -> list[dict]:
             results.append(_normalise(item))
 
     return results
-
 
 def _normalise(raw: dict) -> dict:
     """Convert raw API/HTML data to the standard schema."""
@@ -221,7 +219,6 @@ MODEL_FALLBACK = [
     "gemini-flash-lite-latest",
 ]
 
-
 def generate(prompt: str, model: str = "", rate_limit: float = 7.0) -> dict:
     """Call Gemini with auto-fallback on 429. Returns parsed JSON or {}."""
     global _last_call
@@ -259,7 +256,6 @@ def generate(prompt: str, model: str = "", rate_limit: float = 7.0) -> dict:
             return {}
 
     return {}
-
 
 def _parse(resp) -> dict:
     try:
@@ -319,7 +315,6 @@ def analyse_batch(items: list[dict], context: str = "", preference_prompt: str =
 
     return enriched
 
-
 def _build_prompt(batch, context, preference_prompt, config):
     priorities = config.get("priorities", [])
     items_text = "\n\n".join(
@@ -357,7 +352,6 @@ from pathlib import Path
 
 FEEDBACK_PATH = Path(__file__).parent.parent / "data" / "feedback.json"
 
-
 def load_feedback() -> dict:
     if FEEDBACK_PATH.exists():
         try:
@@ -366,11 +360,9 @@ def load_feedback() -> dict:
             pass
     return {"positive": [], "negative": []}
 
-
 def save_feedback(fb: dict):
     FEEDBACK_PATH.parent.mkdir(parents=True, exist_ok=True)
     FEEDBACK_PATH.write_text(json.dumps(fb, indent=2))
-
 
 def build_preference_prompt(feedback: dict, max_examples: int = 15) -> str:
     """Convert feedback history into a prompt bias section."""
@@ -617,7 +609,7 @@ feedback:
 # AI settings
 ai:
   enabled: true
-  model: "gemini-2.5-flash"
+
   min_score: 0               # filter out items below this score
   rate_limit_seconds: 7      # seconds between API calls
   batch_size: 5              # items per API call

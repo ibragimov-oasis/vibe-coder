@@ -115,7 +115,7 @@ const coder = await bridge.spawnTeammate({
   role: 'coder',
   prompt: 'Implement the authentication feature using JWT',
   teamName: 'my-dev-team',
-  model: 'sonnet',
+
   allowedTools: ['Edit', 'Write', 'Read', 'Bash'],
 });
 
@@ -125,7 +125,7 @@ const agentInput = bridge.buildAgentInput({
   role: 'tester',
   prompt: 'Write tests for the authentication feature',
   teamName: 'my-dev-team',
-  model: 'haiku',
+
 });
 
 console.log('Pass this to Task tool:', agentInput);
@@ -216,7 +216,7 @@ const teammate = await bridge.spawnTeammate({
   role: 'coder',
   prompt: 'Implement feature X',
   teamName: 'my-team',
-  model: 'sonnet',  // 'sonnet' | 'opus' | 'haiku'
+
   allowedTools: ['Edit', 'Write', 'Read'],
   mode: 'default',  // 'default' | 'plan' | 'delegate' | etc.
 });

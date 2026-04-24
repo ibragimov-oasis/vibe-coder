@@ -46,7 +46,7 @@ const supermemoryOpenai = createOpenAI({
 })
 
 const result = await generateText({
-  model: supermemoryOpenai('gpt-4o'),
+
   messages: [
     { role: 'user', content: 'Hello, how are you?' }
   ]
@@ -73,7 +73,7 @@ const supermemoryOpenai = createOpenAI({
 
 async function chat(userMessage: string) {
   const result = await generateText({
-    model: supermemoryOpenai('gpt-4o'),
+
     messages: [
       {
         role: 'system',
@@ -118,7 +118,7 @@ import { supermemoryTools } from '@supermemory/ai-sdk'
 import { generateText } from 'ai'
 
 const result = await generateText({
-  model: openai('gpt-4o'),
+
   messages: [
     { role: 'user', content: 'What do you remember about my preferences?' }
   ],
@@ -148,7 +148,7 @@ const supermemoryApiKey = process.env.SUPERMEMORY_API_KEY!
 
 async function chatWithTools(userMessage: string) {
   const result = await generateText({
-    model: openai('gpt-4o'), // Use standard provider
+
     messages: [
       {
         role: 'system',
@@ -246,7 +246,7 @@ const searchTool = searchMemoriesTool('your-api-key', {
 
 // Use only the search tool
 const result = await generateText({
-  model: openai('gpt-4o'),
+
   messages: [...],
   tools: {
     searchMemories: searchTool

@@ -156,7 +156,7 @@ const EventSchema = z.object({
 
 const client = new OpenAI();
 const completion = await client.beta.chat.completions.parse({
-  model: "gpt-4o-2024-08-06",
+
   messages: [
     { role: "system", content: "Extract event details from the text." },
     { role: "user", content: "Tech Summit 2025 in Austin at the Convention Center on March 15th. Expecting 2000 attendees, in-person only." },

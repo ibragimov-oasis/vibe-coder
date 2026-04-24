@@ -22,7 +22,7 @@ v0 is powered by OpenAI's GPT-4o language model:
    import { generateText } from "ai"
    import { openai } from "@ai-sdk/openai"
    const { text } = await generateText({
-     model: openai("gpt-4o"),
+
      prompt: "What is love?"
    })
 
@@ -112,7 +112,7 @@ export async function POST(req: Request) {
   const { messages } = await req.json();
 
   const result = streamText({
-    model: openai('gpt-4-turbo'),
+
     system: 'You are a helpful assistant.',
     messages,
   });
@@ -451,7 +451,7 @@ export async function POST(req: Request) {
   const { messages } = await req.json();
 
   const result = streamText({
-    model: openai('gpt-4o'),
+
     messages,
   });
 
@@ -487,7 +487,7 @@ export async function POST(req: Request) {
   const { messages } = await req.json();
 
   const result = streamText({
-    model: openai('gpt-4o'),
+
     messages,
   });
 
@@ -570,7 +570,7 @@ export async function POST(req: Request) {
   const { messages } = await req.json();
 
   const result = streamText({
-    model: deepseek('deepseek-reasoner'),
+
     messages,
   });
 
@@ -617,7 +617,7 @@ export async function POST(req: Request) {
   const { messages } = await req.json();
 
   const result = streamText({
-    model: perplexity('sonar-pro'),
+
     messages,
   });
 

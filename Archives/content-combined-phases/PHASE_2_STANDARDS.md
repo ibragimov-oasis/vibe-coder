@@ -198,7 +198,7 @@ skills/
 ---
 name: agent-name
 description: 'Clear description of agent purpose'
-model: [optional: claude-opus-4-6, gpt-4o-5, etc.]
+
 tools: [optional: Read, Write, Bash, Glob, Grep]
 level: [optional: 1-5 complexity level]
 ---
@@ -252,7 +252,7 @@ You are NOT responsible for [list exclusions].
 ---
 name: agent-name
 description: 'Agent purpose'
-model: claude-opus-4-6
+
 tools:
   - Read
   - Write
@@ -288,7 +288,7 @@ workflow:
 name: 'skill-name'
 description: 'Clear skill description (10-1024 chars)'
 tools: [optional list]
-model: [optional preferred model]
+
 ---
 
 # Skill Name

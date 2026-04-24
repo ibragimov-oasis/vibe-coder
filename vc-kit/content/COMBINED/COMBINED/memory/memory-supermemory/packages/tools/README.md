@@ -42,7 +42,7 @@ const tools = supermemoryTools(process.env.SUPERMEMORY_API_KEY!, {
 
 // Use with AI SDK
 const result = await generateText({
-  model: openai("gpt-4o"),
+
   messages: [
     {
       role: "user",
@@ -76,7 +76,7 @@ import { openai } from "@ai-sdk/openai"
 const modelWithMemory = withSupermemory(openai("gpt-4o"), "user_id_life")
 
 const result = await generateText({
-	model: modelWithMemory,
+
 	messages: [{ role: "user", content: "where do i live?" }],
 })
 
@@ -97,7 +97,7 @@ const modelWithMemory = withSupermemory(openai("gpt-4o"), "user_id_life", {
 })
 
 const result = await generateText({
-	model: modelWithMemory,
+
 	messages: [{ role: "user", content: "where do i live?" }],
 })
 
@@ -118,7 +118,7 @@ const modelWithMemory = withSupermemory(openai("gpt-4o"), "user_id_life", {
 })
 
 const result = await generateText({
-	model: modelWithMemory,
+
 	messages: [{ role: "user", content: "where do i live?" }],
 })
 
@@ -154,7 +154,7 @@ const modelWithProfile = withSupermemory(openai("gpt-4"), "user-123", {
 })
 
 const result = await generateText({
-  model: modelWithMemory,
+
   messages: [{ role: "user", content: "What do you know about me?" }],
 })
 ```
@@ -170,7 +170,7 @@ const modelWithQuery = withSupermemory(openai("gpt-4"), "user-123", {
 })
 
 const result = await generateText({
-  model: modelWithQuery,
+
   messages: [{ role: "user", content: "What's my favorite programming language?" }],
 })
 ```
@@ -186,7 +186,7 @@ const modelWithFull = withSupermemory(openai("gpt-4"), "user-123", {
 })
 
 const result = await generateText({
-  model: modelWithFull,
+
   messages: [{ role: "user", content: "Tell me about my preferences" }],
 })
 ```
@@ -206,7 +206,7 @@ const modelWithAutoSave = withSupermemory(openai("gpt-4"), "user-123", {
 })
 
 const result = await generateText({
-  model: modelWithAutoSave,
+
   messages: [{ role: "user", content: "I prefer React with TypeScript for my projects" }],
 })
 // This message will be automatically saved as a memory
@@ -252,7 +252,7 @@ const modelWithCustomPrompt = withSupermemory(openai("gpt-4"), "user-123", {
 })
 
 const result = await generateText({
-  model: modelWithCustomPrompt,
+
   messages: [{ role: "user", content: "What do you know about me?" }],
 })
 ```
@@ -281,7 +281,7 @@ const openaiWithSupermemory = withSupermemory("user-123", {
 
 // Use directly with chat completions - memories are automatically injected
 const completion = await openaiWithSupermemory.chat.completions.create({
-  model: "gpt-4o-mini",
+
   messages: [
     { role: "user", content: "What do you remember about my preferences?" }
   ],
@@ -324,7 +324,7 @@ const openaiWithSupermemory = withSupermemory(
 )
 
 const completion = await openaiWithSupermemory.chat.completions.create({
-  model: "gpt-4o-mini",
+
   messages: [{ role: "user", content: "Tell me about my preferences" }],
 })
 ```
@@ -352,7 +352,7 @@ export async function POST(req: Request) {
   })
 
   const completion = await openaiWithSupermemory.chat.completions.create({
-    model: "gpt-4o-mini",
+
     messages,
   })
 
@@ -381,7 +381,7 @@ const executeToolCall = createToolCallExecutor(process.env.SUPERMEMORY_API_KEY!,
 
 // Use with OpenAI Chat Completions
 const completion = await client.chat.completions.create({
-  model: "gpt-4o",
+
   messages: [
     {
       role: "user",
@@ -434,7 +434,7 @@ const agent = new Agent(withSupermemory(
   {
     id: "my-assistant",
     name: "My Assistant",
-    model: openai("gpt-4o"),
+
     instructions: "You are a helpful assistant.",
   },
   "user-123",  // containerTag - scopes memories to this user
@@ -468,7 +468,7 @@ const { input, output } = createSupermemoryProcessors("user-123", {
 const agent = new Agent({
   id: "my-assistant",
   name: "My Assistant",
-  model: openai("gpt-4o"),
+
   instructions: "You are a helpful assistant with memory.",
   inputProcessors: [input],
   outputProcessors: [output],
@@ -502,7 +502,7 @@ async function main() {
     name: "Memory Assistant",
     instructions: `You are a helpful assistant with memory.
 Use the memories provided to personalize your responses.`,
-    model: openai("gpt-4o-mini"),
+
     inputProcessors: [input],
     outputProcessors: [output],
   })
@@ -576,7 +576,7 @@ const { input, output } = createSupermemoryProcessors("user-123", {
 const agent = new Agent({
   id: "my-assistant",
   name: "My Assistant",
-  model: openai("gpt-4o"),
+
   inputProcessors: [input],
   outputProcessors: [output],
 })
@@ -643,7 +643,7 @@ const tools = {
 }
 
 const result = streamText({
-  model: openrouter.chat("openai/gpt-4o-nano"),
+
   messages: [...],
   tools,
 })
@@ -687,8 +687,6 @@ Adds a new memory to the system.
 **Parameters:**
 - `memory` (string): The content to remember
 
-
-
 ## Claude Memory Tool
 
 Enable Claude to store and retrieve persistent memory across conversations using supermemory as the backend.
@@ -716,7 +714,7 @@ const memoryTool = createClaudeMemoryTool(process.env.SUPERMEMORY_API_KEY!, {
 async function chatWithMemory(userMessage: string) {
   // Send message to Claude with memory tool
   const response = await anthropic.beta.messages.create({
-    model: 'gpt-4o-5',
+
     max_tokens: 2048,
     messages: [{ role: 'user', content: userMessage }],
     tools: [{ type: 'memory_20250818', name: 'memory' }],

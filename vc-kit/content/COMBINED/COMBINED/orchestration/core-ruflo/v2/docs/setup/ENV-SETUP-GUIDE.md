@@ -134,16 +134,16 @@ mkdir -p .swarm
 cat > .swarm/reasoningbank.yaml << 'EOF'
 reasoningbank:
   judge:
-    model: "deepseek/deepseek-r1"
+
     max_tokens: 512
     temperature: 0
   distill:
-    model: "deepseek/deepseek-r1"
+
     max_tokens: 2048
     temperature: 0.3
   embeddings:
     provider: "openrouter"
-    model: "deepseek/deepseek-r1"
+
     dimensions: 1024
 EOF
 

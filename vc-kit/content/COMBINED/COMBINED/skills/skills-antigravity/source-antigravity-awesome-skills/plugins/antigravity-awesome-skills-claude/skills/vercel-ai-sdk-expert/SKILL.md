@@ -42,7 +42,7 @@ import { openai } from "@ai-sdk/openai";
 
 // Returns the full string once completion is done (no streaming)
 const { text, usage } = await generateText({
-  model: openai("gpt-4o"),
+
   system: "You are a helpful assistant evaluating code.",
   prompt: "Review the following python code...",
 });
@@ -65,7 +65,7 @@ export async function POST(req: Request) {
   const { messages } = await req.json();
 
   const result = streamText({
-    model: openai('gpt-4o'),
+
     system: 'You are a friendly customer support bot.',
     messages,
   });
@@ -83,7 +83,7 @@ import { openai } from '@ai-sdk/openai';
 import { z } from 'zod';
 
 const { object } = await generateObject({
-  model: openai('gpt-4o-2024-08-06'), // Use models good at structured output
+
   system: 'Extract information from the receipt text.',
   prompt: receiptText,
   // Pass a Zod schema to enforce output structure
@@ -165,7 +165,7 @@ export async function POST(req: Request) {
   const { messages } = await req.json();
 
   const result = streamText({
-    model: openai('gpt-4o'),
+
     messages,
     tools: {
       getWeather: tool({

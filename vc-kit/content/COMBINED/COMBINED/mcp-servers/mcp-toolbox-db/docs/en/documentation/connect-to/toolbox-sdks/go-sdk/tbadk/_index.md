@@ -154,7 +154,6 @@ tools, err := client.LoadToolset("my-toolset", ctx)
 
 `LoadToolset` returns a slice of the ToolboxTool structs (`[]ToolboxTool`).
 
-
 ### Load a single tool
 
 Loads a specific tool by its unique name. This provides fine-grained control.
@@ -218,7 +217,6 @@ that fresh credentials or header values can be used.
 ### Configuration
 
 You can configure these dynamic headers as seen below:
-
 
 ```go
 import (
@@ -552,7 +550,7 @@ toolboxtool, err = client.LoadTool("my-tool", ctx)
 
 llmagent, err := llmagent.New(llmagent.Config{
   Name:        "assistant",
-  Model:       model,
+
   Description: "Agent to answer questions.",
   Tools:       []tool.Tool{&toolboxtool},
 })
@@ -572,7 +570,7 @@ toolsList := make([]tool.Tool, len(toolboxtools))
 
 llmagent, err := llmagent.New(llmagent.Config{
   Name:        "assistant",
-  Model:       model,
+
   Description: "Agent to answer questions.",
   Tools:       toolsList,
 })
@@ -640,7 +638,7 @@ func main() {
 
 	llmagent, err := llmagent.New(llmagent.Config{
 		Name:        "hotel_assistant",
-		Model:       model,
+
 		Description: "Agent to answer questions about hotels.",
 		Tools:       tools,
 	})

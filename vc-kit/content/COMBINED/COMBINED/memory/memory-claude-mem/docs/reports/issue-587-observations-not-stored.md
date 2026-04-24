@@ -130,7 +130,7 @@ const hasRealMemorySessionId = !!session.memorySessionId;
 const queryResult = query({
   prompt: messageGenerator,
   options: {
-    model: modelId,
+
     // Only resume if BOTH: (1) we have a memorySessionId AND (2) this isn't the first prompt
     ...(hasRealMemorySessionId && session.lastPromptNumber > 1 && { resume: session.memorySessionId }),
     // ...

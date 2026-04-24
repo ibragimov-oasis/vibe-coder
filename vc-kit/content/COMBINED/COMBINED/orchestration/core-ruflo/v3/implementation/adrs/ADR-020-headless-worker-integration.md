@@ -173,7 +173,7 @@ export const HEADLESS_WORKERS: HeadlessWorkerConfig[] = [
           "recommendations": ["..."]
         }`,
       sandbox: 'strict',
-      model: 'haiku',  // Fast for security checks
+
       outputFormat: 'json',
       contextPatterns: ['**/*.ts', '**/*.js', '**/.env*', '**/package.json'],
     },
@@ -195,7 +195,7 @@ export const HEADLESS_WORKERS: HeadlessWorkerConfig[] = [
 
         Provide actionable suggestions with code examples.`,
       sandbox: 'permissive',
-      model: 'sonnet',
+
       outputFormat: 'markdown',
       contextPatterns: ['src/**/*.ts', 'src/**/*.tsx'],
     },
@@ -217,7 +217,7 @@ export const HEADLESS_WORKERS: HeadlessWorkerConfig[] = [
 
         For each gap, provide a test skeleton.`,
       sandbox: 'permissive',
-      model: 'sonnet',
+
       outputFormat: 'markdown',
       contextPatterns: ['src/**/*.ts', 'tests/**/*.ts', '__tests__/**/*.ts'],
     },
@@ -239,7 +239,7 @@ export const HEADLESS_WORKERS: HeadlessWorkerConfig[] = [
 
         Focus on public APIs and exported functions.`,
       sandbox: 'permissive',
-      model: 'haiku',  // Fast for documentation
+
       outputFormat: 'markdown',
       contextPatterns: ['src/**/*.ts'],
     },
@@ -261,7 +261,7 @@ export const HEADLESS_WORKERS: HeadlessWorkerConfig[] = [
 
         Store insights for future context.`,
       sandbox: 'strict',
-      model: 'opus',  // Deep analysis
+
       outputFormat: 'json',
       contextPatterns: ['**/*.ts', '**/CLAUDE.md', '**/README.md'],
     },
@@ -283,7 +283,7 @@ export const HEADLESS_WORKERS: HeadlessWorkerConfig[] = [
 
         Provide before/after code examples.`,
       sandbox: 'permissive',
-      model: 'sonnet',
+
       outputFormat: 'markdown',
       contextPatterns: ['src/**/*.ts'],
     },
@@ -305,7 +305,7 @@ export const HEADLESS_WORKERS: HeadlessWorkerConfig[] = [
 
         Provide comprehensive report.`,
       sandbox: 'strict',
-      model: 'opus',
+
       outputFormat: 'markdown',
       contextPatterns: ['src/**/*.ts'],
     },
@@ -326,7 +326,7 @@ export const HEADLESS_WORKERS: HeadlessWorkerConfig[] = [
 
         Provide preload suggestions.`,
       sandbox: 'strict',
-      model: 'haiku',
+
       outputFormat: 'json',
       contextPatterns: ['.claude-flow/metrics/*.json'],
     },
@@ -353,7 +353,7 @@ export interface HeadlessExecutionResult {
   parsedOutput?: unknown;
   durationMs: number;
   tokensUsed?: number;
-  model: string;
+
   sandboxMode: string;
 }
 
@@ -388,7 +388,7 @@ export class HeadlessWorkerExecutor extends EventEmitter {
     // Execute Claude Code headlessly
     const result = await this.executeClaudeCode(fullPrompt, {
       sandbox: headless.sandbox,
-      model: headless.model,
+
       timeoutMs: headless.timeoutMs || config.intervalMs || 300000,
     });
 
@@ -408,7 +408,7 @@ export class HeadlessWorkerExecutor extends EventEmitter {
       parsedOutput,
       durationMs: Date.now() - startTime,
       tokensUsed: result.tokensUsed,
-      model: headless.model || 'sonnet',
+
       sandboxMode: headless.sandbox,
     };
   }
@@ -475,7 +475,7 @@ Analyze the above codebase and provide your response.`;
         ...process.env,
         CLAUDE_CODE_HEADLESS: 'true',
         CLAUDE_CODE_SANDBOX_MODE: options.sandbox,
-        ANTHROPIC_MODEL: options.model || 'gpt-4o-20250514',
+
       };
 
       // Use claude CLI directly

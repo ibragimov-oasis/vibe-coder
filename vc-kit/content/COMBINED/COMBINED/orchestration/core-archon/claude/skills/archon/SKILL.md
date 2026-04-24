@@ -170,7 +170,7 @@ Each node has exactly ONE of: `command`, `prompt`, `bash`, or `loop`.
 ```yaml
 - id: classify
   prompt: "Classify this issue: $ARGUMENTS"
-  model: haiku
+
   allowed_tools: []
 ```
 

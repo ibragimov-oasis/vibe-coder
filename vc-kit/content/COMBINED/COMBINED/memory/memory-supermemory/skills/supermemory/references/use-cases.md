@@ -61,7 +61,7 @@ Use this context to provide personalized, contextually aware responses.
 
   // 3. Generate response
   const { text } = await generateText({
-    model: openai('gpt-4'),
+
     system: systemPrompt,
     prompt: message
   });
@@ -183,7 +183,7 @@ async function taskAssistant(userId: string, query: string) {
 
   // Generate intelligent response
   const { text } = await generateText({
-    model: anthropic('claude-3-5-sonnet-20241022'),
+
     system: `
 You are a task management assistant with perfect memory of the user's projects.
 
@@ -313,7 +313,7 @@ async function askDocumentation(question: string) {
     .join('\n\n---\n\n');
 
   const { text } = await generateText({
-    model: openai('gpt-4'),
+
     system: `
 You are a documentation assistant. Answer questions using ONLY the provided context.
 
@@ -426,7 +426,7 @@ async function supportAssistant(customerId: string, query: string) {
   const recentTickets = response.profile.dynamic.map(f => `- ${f}`).join('\n');
 
   const { text } = await generateText({
-    model: openai('gpt-4'),
+
     system: `
 You are a customer support AI with access to full customer history.
 
@@ -547,7 +547,7 @@ async function reviewCode(projectId: string, code: string, fileName: string) {
   });
 
   const { text } = await generateText({
-    model: anthropic('claude-3-5-sonnet-20241022'),
+
     system: `
 You are a code review assistant familiar with this codebase.
 
@@ -655,7 +655,7 @@ async function adaptiveTutor(studentId: string, question: string) {
   const recentLearning = response.profile.dynamic.slice(0, 5).map(f => f).join('\n\n');
 
   const { text } = await generateText({
-    model: openai('gpt-4'),
+
     system: `
 You are an adaptive tutor who knows the student's learning history.
 
@@ -897,7 +897,7 @@ async function synthesizeInsights(userId: string, research_question: string) {
   ].join('\n\n');
 
   const { text } = await generateText({
-    model: anthropic('claude-3-5-sonnet-20241022'),
+
     system: `
 You are a research assistant helping synthesize insights from papers and notes.
 

@@ -1662,7 +1662,7 @@ security:
     certificate_authority: "internal"
   
   authorization:
-    model: "rbac"           # Role-based access control
+
     permissions:
       coordinators: ["read", "write", "execute", "admin"]
       agents: ["read", "write", "execute"]  

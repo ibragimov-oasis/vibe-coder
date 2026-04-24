@@ -37,18 +37,18 @@ WITHOUT:      $0.20 per task (85% more expensive!)
 # .swarm/reasoningbank.yaml
 reasoningbank:
   judge:
-    model: "deepseek/deepseek-r1"      # $0.001/task (99% cheaper)
+
     max_tokens: 512
     temperature: 0
 
   distill:
-    model: "deepseek/deepseek-r1"      # $0.002/task (99% cheaper)
+
     max_tokens: 2048
     temperature: 0.3
 
   embeddings:
     provider: "openrouter"
-    model: "deepseek/deepseek-r1"      # $0.0005/task
+
     dimensions: 1024
 ```
 
@@ -68,16 +68,16 @@ SAVINGS:      $0.17 per task (46% overall savings)
 ```yaml
 reasoningbank:
   judge:
-    model: "gemini-2.5-flash"          # FREE (with limits)
+
     max_tokens: 512
 
   distill:
-    model: "gemini-2.5-flash"          # FREE (with limits)
+
     max_tokens: 2048
 
   embeddings:
     provider: "gemini"
-    model: "gemini-2.5-flash"          # FREE
+
 ```
 
 **New Cost:**
@@ -97,16 +97,16 @@ LIMIT:        ~500 tasks/day on free tier
 ```yaml
 reasoningbank:
   judge:
-    model: "onnx/phi-4"                # LOCAL ($0)
+
     max_tokens: 512
 
   distill:
-    model: "onnx/phi-4"                # LOCAL ($0)
+
     max_tokens: 2048
 
   embeddings:
     provider: "onnx"
-    model: "onnx/phi-4"                # LOCAL
+
 ```
 
 **New Cost:**
@@ -131,18 +131,18 @@ mkdir -p .swarm
 cat > .swarm/reasoningbank.yaml << 'EOF'
 reasoningbank:
   judge:
-    model: "deepseek/deepseek-r1"
+
     max_tokens: 512
     temperature: 0
 
   distill:
-    model: "deepseek/deepseek-r1"
+
     max_tokens: 2048
     temperature: 0.3
 
   embeddings:
     provider: "openrouter"
-    model: "deepseek/deepseek-r1"
+
     dimensions: 1024
 EOF
 
@@ -204,9 +204,9 @@ main_model: claude-3-5-sonnet-20241022
 # Cheap for memory operations
 reasoningbank:
   judge:
-    model: "deepseek/deepseek-r1"
+
   distill:
-    model: "deepseek/deepseek-r1"
+
 ```
 
 ### 2. Scale by Volume
@@ -243,18 +243,18 @@ For most users (balance quality + cost):
 reasoningbank:
   # Use cheap models for memory operations
   judge:
-    model: "deepseek/deepseek-r1"
+
     max_tokens: 512
     temperature: 0
 
   distill:
-    model: "deepseek/deepseek-r1"
+
     max_tokens: 2048
     temperature: 0.3
 
   embeddings:
     provider: "openrouter"
-    model: "deepseek/deepseek-r1"
+
     dimensions: 1024
 
   # But keep quality for actual work

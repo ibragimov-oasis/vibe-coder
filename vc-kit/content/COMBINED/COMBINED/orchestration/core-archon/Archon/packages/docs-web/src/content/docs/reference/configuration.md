@@ -60,12 +60,12 @@ defaultAssistant: claude # or 'codex'
 # Assistant defaults
 assistants:
   claude:
-    model: sonnet
+
     settingSources:   # Which CLAUDE.md files the SDK loads (default: ['project'])
       - project       # Project-level CLAUDE.md (always recommended)
       - user          # Also load ~/.claude/CLAUDE.md (global preferences)
   codex:
-    model: gpt-4o.3-codex
+
     modelReasoningEffort: medium
     webSearchMode: disabled
     additionalDirectories:
@@ -105,11 +105,11 @@ assistant: claude
 # Assistant defaults (override global)
 assistants:
   claude:
-    model: sonnet
+
     settingSources:  # Override global settingSources for this repo
       - project
   codex:
-    model: gpt-4o.3-codex
+
     webSearchMode: live
 
 # Commands configuration

@@ -54,7 +54,7 @@ from dataclasses import dataclass
 
 @dataclass(frozen=True, slots=True)
 class CostRecord:
-    model: str
+
     input_tokens: int
     output_tokens: int
     cost_usd: float

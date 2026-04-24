@@ -223,7 +223,7 @@ async fn main() -> Result<()> {
 
 ```rust
 use rmcp::{
-    model::*,
+
     protocol::*,
     server::{RequestContext, ServerHandler, RoleServer, ToolRouter},
     ErrorData,
@@ -435,7 +435,7 @@ mod tests {
 
 ```rust
 use rmcp::{
-    model::*,
+
     protocol::*,
     server::{RequestContext, ServerHandler, RoleServer},
 };

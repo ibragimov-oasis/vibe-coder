@@ -383,7 +383,7 @@ security_architecture:
           required_for: [admin_roles]
   
   authorization:
-    model: RBAC
+
     implementation:
       - role_hierarchy: true
       - resource_permissions: true

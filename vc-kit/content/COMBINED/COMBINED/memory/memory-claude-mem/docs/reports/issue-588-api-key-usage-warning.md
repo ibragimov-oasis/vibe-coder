@@ -65,7 +65,7 @@ import { query } from '@anthropic-ai/claude-agent-sdk';
 const queryResult = query({
   prompt: messageGenerator,
   options: {
-    model: modelId,
+
     ...(hasRealMemorySessionId && session.lastPromptNumber > 1 && { resume: session.memorySessionId }),
     disallowedTools,
     abortController: session.abortController,

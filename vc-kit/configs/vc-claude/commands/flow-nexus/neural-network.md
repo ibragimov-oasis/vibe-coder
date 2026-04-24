@@ -76,7 +76,7 @@ mcp__flow-nexus__neural_cluster_init({
 mcp__flow-nexus__neural_node_deploy({
   cluster_id: "cluster_id",
   node_type: "worker", // parameter_server, aggregator
-  model: "large",
+
   capabilities: ["training", "inference"]
 })
 

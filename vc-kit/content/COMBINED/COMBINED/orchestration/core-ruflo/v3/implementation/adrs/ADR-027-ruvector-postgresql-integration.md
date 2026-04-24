@@ -98,7 +98,7 @@ Hyperbolic space naturally represents hierarchical relationships (code AST, depe
 
 ```typescript
 interface HyperbolicConfig {
-  model: 'poincare' | 'lorentz' | 'klein';
+
   curvature: number;        // Default: -1.0
   dimensions: number;       // Typically 64-256 (less than Euclidean)
   trainable: boolean;       // Learn curvature from data
@@ -584,7 +584,7 @@ export const ruvectorPostgresTools: MCPTool[] = [
       type: 'object',
       properties: {
         query: { type: 'string' },
-        model: {
+
           type: 'string',
           enum: ['poincare', 'lorentz', 'klein'],
           default: 'poincare'

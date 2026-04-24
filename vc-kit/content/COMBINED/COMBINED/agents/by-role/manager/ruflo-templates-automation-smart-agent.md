@@ -135,21 +135,21 @@ Automated Response:
 ### 1. Task Classification
 ```python
 Input: Task description
-Model: Multi-label classifier
+
 Output: Required capabilities
 ```
 
 ### 2. Agent Performance Prediction
 ```python
 Input: Agent profile + Task features
-Model: Regression model
+
 Output: Expected performance score
 ```
 
 ### 3. Workload Forecasting
 ```python
 Input: Historical patterns
-Model: Time series analysis
+
 Output: Resource predictions
 ```
 

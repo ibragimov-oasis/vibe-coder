@@ -68,8 +68,6 @@ Directory Structure:
     ├── package.json
     └── README.md
 
-
-
 ---
 File: /src/__mocks__/pkce-challenge.ts
 ---
@@ -80,7 +78,6 @@ export default function pkceChallenge() {
     code_challenge: "test_challenge",
   };
 }
-
 
 ---
 File: /src/client/auth.test.ts
@@ -564,7 +561,6 @@ describe("OAuth Authorization", () => {
   });
 });
 
-
 ---
 File: /src/client/auth.ts
 ---
@@ -981,7 +977,6 @@ export async function registerClient(
   return OAuthClientInformationFullSchema.parse(await response.json());
 }
 
-
 ---
 File: /src/client/index.test.ts
 ---
@@ -1339,7 +1334,7 @@ test("should only allow setRequestHandler for declared capabilities", () => {
   // This should work because sampling is a declared capability
   expect(() => {
     client.setRequestHandler(CreateMessageRequestSchema, () => ({
-      model: "test-model",
+
       role: "assistant",
       content: {
         type: "text",
@@ -1542,8 +1537,6 @@ test("should handle request timeout", async () => {
     code: ErrorCode.RequestTimeout,
   });
 });
-
-
 
 ---
 File: /src/client/index.ts
@@ -1981,8 +1974,6 @@ export class Client<
     return this.notification({ method: "notifications/roots/list_changed" });
   }
 }
-
-
 
 ---
 File: /src/client/sse.test.ts
@@ -2712,8 +2703,6 @@ describe("SSEClientTransport", () => {
   });
 });
 
-
-
 ---
 File: /src/client/sse.ts
 ---
@@ -2966,8 +2955,6 @@ export class SSEClientTransport implements Transport {
   }
 }
 
-
-
 ---
 File: /src/client/stdio.test.ts
 ---
@@ -3033,8 +3020,6 @@ test("should read messages", async () => {
 
   await client.close();
 });
-
-
 
 ---
 File: /src/client/stdio.ts
@@ -3252,8 +3237,6 @@ function isElectron() {
   return "type" in process;
 }
 
-
-
 ---
 File: /src/client/websocket.ts
 ---
@@ -3336,8 +3319,6 @@ export class WebSocketClientTransport implements Transport {
   }
 }
 
-
-
 ---
 File: /src/integration-tests/process-cleanup.test.ts
 ---
@@ -3370,7 +3351,6 @@ describe("Process cleanup", () => {
     expect(true).toBe(true);
   });
 });
-
 
 ---
 File: /src/server/auth/handlers/authorize.test.ts
@@ -3710,7 +3690,6 @@ describe('Authorization Handler', () => {
   });
 });
 
-
 ---
 File: /src/server/auth/handlers/authorize.ts
 ---
@@ -3887,7 +3866,6 @@ function createErrorRedirect(redirectUri: string, error: OAuthError, state?: str
   return errorUrl.href;
 }
 
-
 ---
 File: /src/server/auth/handlers/metadata.test.ts
 ---
@@ -3977,7 +3955,6 @@ describe('Metadata Handler', () => {
   });
 });
 
-
 ---
 File: /src/server/auth/handlers/metadata.ts
 ---
@@ -4001,7 +3978,6 @@ export function metadataHandler(metadata: OAuthMetadata): RequestHandler {
 
   return router;
 }
-
 
 ---
 File: /src/server/auth/handlers/register.test.ts
@@ -4270,7 +4246,6 @@ describe('Client Registration Handler', () => {
   });
 });
 
-
 ---
 File: /src/server/auth/handlers/register.ts
 ---
@@ -4390,7 +4365,6 @@ export function clientRegistrationHandler({
 
   return router;
 }
-
 
 ---
 File: /src/server/auth/handlers/revoke.test.ts
@@ -4644,7 +4618,6 @@ describe('Revocation Handler', () => {
   });
 });
 
-
 ---
 File: /src/server/auth/handlers/revoke.ts
 ---
@@ -4733,8 +4706,6 @@ export function revocationHandler({ provider, rateLimit: rateLimitConfig }: Revo
 
   return router;
 }
-
-
 
 ---
 File: /src/server/auth/handlers/token.test.ts
@@ -5109,7 +5080,6 @@ describe('Token Handler', () => {
   });
 });
 
-
 ---
 File: /src/server/auth/handlers/token.ts
 ---
@@ -5254,7 +5224,6 @@ export function tokenHandler({ provider, rateLimit: rateLimitConfig }: TokenHand
   return router;
 }
 
-
 ---
 File: /src/server/auth/middleware/allowedMethods.test.ts
 ---
@@ -5335,7 +5304,6 @@ describe("allowedMethods", () => {
   });
 });
 
-
 ---
 File: /src/server/auth/middleware/allowedMethods.ts
 ---
@@ -5362,7 +5330,6 @@ export function allowedMethods(allowedMethods: string[]): RequestHandler {
       .json(error.toResponseObject());
   };
 }
-
 
 ---
 File: /src/server/auth/middleware/bearerAuth.test.ts
@@ -5672,7 +5639,6 @@ describe("requireBearerAuth middleware", () => {
   });
 });
 
-
 ---
 File: /src/server/auth/middleware/bearerAuth.ts
 ---
@@ -5760,7 +5726,6 @@ export function requireBearerAuth({ provider, requiredScopes = [] }: BearerAuthM
     }
   };
 }
-
 
 ---
 File: /src/server/auth/middleware/clientAuth.test.ts
@@ -5915,7 +5880,6 @@ describe('clientAuth middleware', () => {
   });
 });
 
-
 ---
 File: /src/server/auth/middleware/clientAuth.ts
 ---
@@ -5994,7 +5958,6 @@ export function authenticateClient({ clientsStore }: ClientAuthenticationMiddlew
   }
 }
 
-
 ---
 File: /src/server/auth/clients.ts
 ---
@@ -6019,7 +5982,6 @@ export interface OAuthRegisteredClientsStore {
    */
   registerClient?(client: OAuthClientInformationFull): OAuthClientInformationFull | Promise<OAuthClientInformationFull>;
 }
-
 
 ---
 File: /src/server/auth/errors.ts
@@ -6217,8 +6179,6 @@ export class InsufficientScopeError extends OAuthError {
   }
 }
 
-
-
 ---
 File: /src/server/auth/provider.ts
 ---
@@ -6280,7 +6240,6 @@ export interface OAuthServerProvider {
    */
   revokeToken?(client: OAuthClientInformationFull, request: OAuthTokenRevocationRequest): Promise<void>;
 }
-
 
 ---
 File: /src/server/auth/router.test.ts
@@ -6643,7 +6602,6 @@ describe('MCP Auth Router', () => {
   });
 });
 
-
 ---
 File: /src/server/auth/router.ts
 ---
@@ -6760,7 +6718,6 @@ export function mcpAuthRouter(options: AuthRouterOptions): RequestHandler {
   return router;
 }
 
-
 ---
 File: /src/server/auth/types.ts
 ---
@@ -6789,7 +6746,6 @@ export interface AuthInfo {
    */
   expiresAt?: number;
 }
-
 
 ---
 File: /src/server/completable.test.ts
@@ -6841,8 +6797,6 @@ describe("completable", () => {
     expect(schema.description).toBe(desc);
   });
 });
-
-
 
 ---
 File: /src/server/completable.ts
@@ -6943,8 +6897,6 @@ function processCreateParams(params: RawCreateParams): ProcessedCreateParams {
   };
   return { errorMap: customMap, description };
 }
-
-
 
 ---
 File: /src/server/index.test.ts
@@ -7188,7 +7140,7 @@ test("should respect client capabilities", async () => {
   client.setRequestHandler(CreateMessageRequestSchema, async (request) => {
     // Mock implementation of createMessage
     return {
-      model: "test-model",
+
       role: "assistant",
       content: {
         type: "text",
@@ -7394,7 +7346,7 @@ test("should handle server cancelling a request", async () => {
     async (_request, extra) => {
       await new Promise((resolve) => setTimeout(resolve, 1000));
       return {
-        model: "test",
+
         role: "assistant",
         content: {
           type: "text",
@@ -7469,7 +7421,7 @@ test("should handle request timeout", async () => {
       });
 
       return {
-        model: "test",
+
         role: "assistant",
         content: {
           type: "text",
@@ -7500,8 +7452,6 @@ test("should handle request timeout", async () => {
     code: ErrorCode.RequestTimeout,
   });
 });
-
-
 
 ---
 File: /src/server/index.ts
@@ -7839,8 +7789,6 @@ export class Server<
     return this.notification({ method: "notifications/prompts/list_changed" });
   }
 }
-
-
 
 ---
 File: /src/server/mcp.test.ts
@@ -9431,8 +9379,6 @@ describe("prompt()", () => {
   });
 });
 
-
-
 ---
 File: /src/server/mcp.ts
 ---
@@ -10238,8 +10184,6 @@ const EMPTY_COMPLETION_RESULT: CompleteResult = {
   },
 };
 
-
-
 ---
 File: /src/server/sse.ts
 ---
@@ -10390,8 +10334,6 @@ export class SSEServerTransport implements Transport {
   }
 }
 
-
-
 ---
 File: /src/server/stdio.test.ts
 ---
@@ -10499,8 +10441,6 @@ test("should read multiple messages", async () => {
   expect(readMessages).toEqual(messages);
 });
 
-
-
 ---
 File: /src/server/stdio.ts
 ---
@@ -10597,8 +10537,6 @@ export class StdioServerTransport implements Transport {
     });
   }
 }
-
-
 
 ---
 File: /src/shared/auth.ts
@@ -10723,7 +10661,6 @@ export type OAuthClientInformation = z.infer<typeof OAuthClientInformationSchema
 export type OAuthClientInformationFull = z.infer<typeof OAuthClientInformationFullSchema>;
 export type OAuthClientRegistrationError = z.infer<typeof OAuthClientRegistrationErrorSchema>;
 export type OAuthTokenRevocationRequest = z.infer<typeof OAuthTokenRevocationRequestSchema>;
-
 
 ---
 File: /src/shared/protocol.test.ts
@@ -11036,8 +10973,6 @@ describe("mergeCapabilities", () => {
     expect(merged).toEqual({});
   });
 });
-
-
 
 ---
 File: /src/shared/protocol.ts
@@ -11688,8 +11623,6 @@ export function mergeCapabilities<
   );
 }
 
-
-
 ---
 File: /src/shared/stdio.test.ts
 ---
@@ -11729,8 +11662,6 @@ test("should be reusable after clearing", () => {
   readBuffer.append(Buffer.from("\n"));
   expect(readBuffer.readMessage()).toEqual(testMessage);
 });
-
-
 
 ---
 File: /src/shared/stdio.ts
@@ -11775,8 +11706,6 @@ export function deserializeMessage(line: string): JSONRPCMessage {
 export function serializeMessage(message: JSONRPCMessage): string {
   return JSON.stringify(message) + "\n";
 }
-
-
 
 ---
 File: /src/shared/transport.ts
@@ -11831,8 +11760,6 @@ export interface Transport {
    */
   sessionId?: string;
 }
-
-
 
 ---
 File: /src/shared/uriTemplate.test.ts
@@ -12097,8 +12024,6 @@ describe("UriTemplate", () => {
     });
   });
 });
-
-
 
 ---
 File: /src/shared/uriTemplate.ts
@@ -12417,8 +12342,6 @@ export class UriTemplate {
   }
 }
 
-
-
 ---
 File: /src/cli.ts
 ---
@@ -12583,8 +12506,6 @@ switch (command) {
     console.error("Unrecognized command:", command);
 }
 
-
-
 ---
 File: /src/inMemory.test.ts
 ---
@@ -12684,8 +12605,6 @@ describe("InMemoryTransport", () => {
   });
 });
 
-
-
 ---
 File: /src/inMemory.ts
 ---
@@ -12745,8 +12664,6 @@ export class InMemoryTransport implements Transport {
     }
   }
 }
-
-
 
 ---
 File: /src/types.ts
@@ -13674,7 +13591,7 @@ export const CreateMessageResultSchema = ResultSchema.extend({
   /**
    * The name of the model that generated the message.
    */
-  model: z.string(),
+
   /**
    * The reason why sampling stopped.
    */
@@ -13995,8 +13912,6 @@ export type ServerRequest = Infer<typeof ServerRequestSchema>;
 export type ServerNotification = Infer<typeof ServerNotificationSchema>;
 export type ServerResult = Infer<typeof ServerResultSchema>;
 
-
-
 ---
 File: /CLAUDE.md
 ---
@@ -14026,7 +13941,6 @@ npx jest -t "test name"        # Run tests matching pattern
 - `/src`: Source code with client, server, and shared modules
 - Tests alongside source files with `.test.ts` suffix
 - Node.js >= 18 required
-
 
 ---
 File: /package.json
@@ -14115,8 +14029,6 @@ File: /package.json
     "strip-ansi": "6.0.1"
   }
 }
-
-
 
 ---
 File: /README.md

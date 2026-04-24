@@ -49,7 +49,7 @@ npx @claude-flow/cli@latest hooks pre-task --description "[task description]"
 Task({
   prompt: "...",
   subagent_type: "coder",
-  model: "haiku"  // ← USE THE RECOMMENDED MODEL (haiku/sonnet/opus)
+
 })
 ```
 

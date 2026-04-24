@@ -495,7 +495,7 @@ async function chat(userId: string, message: string) {
 
   // 2. Generate response with context
   const { text } = await generateText({
-    model: openai('gpt-4'),
+
     system: `User Profile: ${context.profile}\n\nRelevant Context:\n${context.memories.map(m => m.content).join('\n')}`,
     prompt: message
   });

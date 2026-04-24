@@ -142,7 +142,7 @@ Displays details about a profile including its home directory, configured model,
 $ hermes profile show work
 Profile:    work
 Home:       ~/.hermes/profiles/work
-Model:      anthropic/gpt-4o
+
 Platforms:  telegram, discord
 Skills:     12 installed
 Disk:       48 MB

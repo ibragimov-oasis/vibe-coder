@@ -32,7 +32,7 @@ try {
     await client.start();
     const session = await client.createSession({
         onPermissionRequest: approveAll,
-        model: "gpt-4o",
+
     });
 
     const response = await session.sendAndWait({ prompt: "Hello!" });
@@ -67,7 +67,7 @@ try {
 ```typescript
 const session = await client.createSession({
     onPermissionRequest: approveAll,
-    model: "gpt-4o",
+
 });
 
 try {
@@ -94,7 +94,7 @@ try {
 ```typescript
 const session = await client.createSession({
     onPermissionRequest: approveAll,
-    model: "gpt-4o",
+
 });
 
 // Start a request

@@ -377,7 +377,6 @@ You must avoid the common pitfalls below when generating the code.
     export default ParentComponent;
     ```
 
-
 **Gemini API guidance**
 
 # @google/genai Coding Guidelines
@@ -460,7 +459,7 @@ import { GoogleGenAI } from "@google/genai";
 
 const ai = new GoogleGenAI({ apiKey: process.env.API_KEY });
 const response = await ai.models.generateContent({
-  model: 'gemini-2.5-flash',
+
   contents: 'why is the sky blue?',
 });
 
@@ -483,7 +482,7 @@ const textPart = {
   text: promptString // text prompt
 };
 const response: GenerateContentResponse = await ai.models.generateContent({
-  model: 'gemini-2.5-flash',
+
   contents: { parts: [imagePart, textPart] },
 });
 ```
@@ -504,7 +503,7 @@ import { GoogleGenAI, GenerateContentResponse } from "@google/genai";
 
 const ai = new GoogleGenAI({ apiKey: process.env.API_KEY });
 const response: GenerateContentResponse = await ai.models.generateContent({
-  model: 'gemini-2.5-flash',
+
   contents: 'why is the sky blue?',
 });
 const text = response.text;
@@ -528,7 +527,7 @@ import { GoogleGenAI } from "@google/genai";
 
 const ai = new GoogleGenAI({ apiKey: process.env.API_KEY });
 const response = await ai.models.generateContent({
-  model: "gemini-2.5-flash",
+
   contents: "Tell me a story.",
   config: {
     systemInstruction: "You are a storyteller for kids under 5 years old.",
@@ -555,7 +554,7 @@ import { GoogleGenAI } from "@google/genai";
 
 const ai = new GoogleGenAI({ apiKey: process.env.API_KEY });
 const response = await ai.models.generateContent({
-  model: "gemini-2.5-flash",
+
   contents: "Tell me a story.",
   config: {
     // The effective token limit for the response is `maxOutputTokens` minus the `thinkingBudget`.
@@ -574,7 +573,7 @@ import { GoogleGenAI } from "@google/genai";
 
 const ai = new GoogleGenAI({ apiKey: process.env.API_KEY });
 const response = await ai.models.generateContent({
-  model: "gemini-2.5-flash",
+
   contents: "Tell me a story.",
   config: {
     // Problem: The response will be empty since all the tokens are consumed by thinking.
@@ -597,7 +596,7 @@ console.log(response.text);
 
   const ai = new GoogleGenAI({ apiKey: process.env.API_KEY });
   const response = await ai.models.generateContent({
-    model: "gemini-2.5-pro",
+
     contents: "Write Python code for a web application that visualizes real-time stock market data",
     config: { thinkingConfig: { thinkingBudget: 32768 } } // max budget for 2.5-pro
   });
@@ -610,7 +609,7 @@ console.log(response.text);
 
   const ai = new GoogleGenAI({ apiKey: process.env.API_KEY });
   const response = await ai.models.generateContent({
-    model: "gemini-2.5-flash",
+
     contents: "Provide a list of 3 famous physicists and their key contributions",
     config: { thinkingConfig: { thinkingBudget: 0 } } // disable thinking
   });
@@ -671,7 +670,7 @@ import { GoogleGenAI, Type } from "@google/genai";
 
 const ai = new GoogleGenAI({ apiKey: process.env.API_KEY });
 const response = await ai.models.generateContent({
-   model: "gemini-2.5-flash",
+
    contents: "List a few popular cookie recipes, and include the amounts of ingredients.",
    config: {
      responseMimeType: "application/json",
@@ -755,7 +754,7 @@ const controlLightFunctionDeclaration: FunctionDeclaration = {
   },
 };
 const response = await ai.models.generateContent({
-  model: 'gemini-2.5-flash',
+
   contents: 'Dim the lights so the room feels cozy and warm.',
   config: {
     tools: [{functionDeclarations: [controlLightFunctionDeclaration]}], // You can pass multiple functions to the model.
@@ -789,7 +788,7 @@ import { GoogleGenAI } from "@google/genai";
 
 const ai = new GoogleGenAI({ apiKey: process.env.API_KEY });
 const response = await ai.models.generateContentStream({
-   model: "gemini-2.5-flash",
+
    contents: "Tell me a story in 300 words.",
 });
 
@@ -811,7 +810,7 @@ import { GoogleGenAI } from "@google/genai";
 
 const ai = new GoogleGenAI({ apiKey: process.env.API_KEY });
 const response = await ai.models.generateImages({
-    model: 'imagen-4.0-generate-001',
+
     prompt: 'A robot holding a red skateboard.',
     config: {
       numberOfImages: 1,
@@ -831,7 +830,7 @@ import { GoogleGenAI, Modality } from "@google/genai";
 
 const ai = new GoogleGenAI({ apiKey: process.env.API_KEY });
 const response = await ai.models.generateContent({
-  model: 'gemini-2.5-flash-image',
+
   contents: {
     parts: [
       {
@@ -863,7 +862,7 @@ import { GoogleGenAI, Modality } from "@google/genai";
 
 const ai = new GoogleGenAI({ apiKey: process.env.API_KEY });
 const response = await ai.models.generateContent({
-  model: 'gemini-2.5-flash-image',
+
   contents: {
     parts: [
       {
@@ -902,7 +901,7 @@ import { GoogleGenAI, Modality } from "@google/genai";
 
 const ai = new GoogleGenAI({});
 const response = await ai.models.generateContent({
-  model: "gemini-2.5-flash-preview-tts",
+
   contents: [{ parts: [{ text: 'Say cheerfully: Have a wonderful day!' }] }],
   config: {
     responseModalities: [Modality.AUDIO], // Must be an array with a single `Modality.AUDIO` element.
@@ -941,7 +940,7 @@ const prompt = `TTS the following conversation between Joe and Jane:
       Jane: Not too bad, how about you?`;
 
 const response = await ai.models.generateContent({
-  model: "gemini-2.5-flash-preview-tts",
+
   contents: [{ parts: [{ text: prompt }] }],
   config: {
     responseModalities: ['AUDIO'],
@@ -997,7 +996,7 @@ Note: The video generation can take a few minutes. Create a set of clear and rea
 
 ```ts
 let operation = await ai.models.generateVideos({
-  model: 'veo-3.1-fast-generate-preview',
+
   prompt: 'A neon hologram of a cat driving at top speed',
   config: {
     numberOfVideos: 1,
@@ -1019,7 +1018,7 @@ Generate a video with a text prompt and a starting image.
 
 ```ts
 let operation = await ai.models.generateVideos({
-  model: 'veo-3.1-fast-generate-preview',
+
   prompt: 'A neon hologram of a cat driving at top speed', // prompt is optional
   image: {
     imageBytes: base64EncodeString, // base64 encoded string
@@ -1044,7 +1043,7 @@ Generate a video with a starting and an ending image.
 
 ```ts
 let operation = await ai.models.generateVideos({
-  model: 'veo-3.1-fast-generate-preview',
+
   prompt: 'A neon hologram of a cat driving at top speed', // prompt is optional
   image: {
     imageBytes: base64EncodeString, // base64 encoded string
@@ -1083,7 +1082,7 @@ for (const img of refImages) {
   });
 }
 let operation = await ai.models.generateVideos({
-  model: 'veo-3.1-generate-preview',
+
   prompt: 'A video of this character, in this environment, using this item.', // prompt is required
   config: {
     numberOfVideos: 1,
@@ -1105,7 +1104,7 @@ Extend a video by adding 7s at the end of it. The resolution must be '720p' and 
 
 ```ts
 operation = await ai.models.generateVideos({
-  model: 'veo-3.1-generate-preview',
+
   prompt: 'something unexpected happens', // mandatory
   video: previousOperation.response?.generatedVideos?.[0]?.video, // The video from a previous generation
   config: {
@@ -1169,7 +1168,7 @@ const sources = new Set<AudioBufferSourceNode>();
 const stream = await navigator.mediaDevices.getUserMedia({ audio: true });
 
 const sessionPromise = ai.live.connect({
-  model: 'gemini-2.5-flash-native-audio-preview-09-2025',
+
   // You must provide callbacks for onopen, onmessage, onerror, and onclose.
   callbacks: {
     onopen: () => {
@@ -1345,7 +1344,7 @@ let currentInputTranscription = '';
 let currentOutputTranscription = '';
 const transcriptionHistory = [];
 const sessionPromise = ai.live.connect({
-  model: 'gemini-2.5-flash-native-audio-preview-09-2025',
+
   callbacks: {
     onopen: () => {
       console.debug('opened');
@@ -1425,7 +1424,7 @@ const controlLightFunctionDeclaration: FunctionDeclaration = {
   },
 };
 const sessionPromise = ai.live.connect({
-  model: 'gemini-2.5-flash-native-audio-preview-09-2025',
+
   callbacks: {
     onopen: () => {
       console.debug('opened');
@@ -1506,7 +1505,7 @@ import { GoogleGenAI, Chat, GenerateContentResponse } from "@google/genai";
 
 const ai = new GoogleGenAI({ apiKey: process.env.API_KEY });
 const chat: Chat = ai.chats.create({
-  model: 'gemini-2.5-flash',
+
   // The config is the same as the models.generateContent config.
   config: {
     systemInstruction: 'You are a storyteller for 5-year-old kids.',
@@ -1529,7 +1528,7 @@ import { GoogleGenAI, Chat } from "@google/genai";
 
 const ai = new GoogleGenAI({ apiKey: process.env.API_KEY });
 const chat: Chat = ai.chats.create({
-  model: 'gemini-2.5-flash',
+
   // The config is the same as the models.generateContent config.
   config: {
     systemInstruction: 'You are a storyteller for 5-year-old kids.',
@@ -1562,7 +1561,7 @@ import { GoogleGenAI } from "@google/genai";
 
 const ai = new GoogleGenAI({ apiKey: process.env.API_KEY });
 const response = await ai.models.generateContent({
-   model: "gemini-2.5-flash",
+
    contents: "Who individually won the most bronze medals during the Paris Olympics in 2024?",
    config: {
      tools: [{googleSearch: {}}],
@@ -1596,14 +1595,13 @@ Config rules when using googleMaps:
 - **DO NOT** set responseMimeType.
 - **DO NOT** set responseSchema.
 
-
 **Correct**
 ```ts
 import { GoogleGenAI } from "@google/genai";
 
 const ai = new GoogleGenAI({ apiKey: process.env.API_KEY });
 const response = await ai.models.generateContent({
-  model: "gemini-2.5-flash",
+
   contents: "What good Italian restaurants are nearby?",
   config: {
     tools: [{googleMaps: {}}],

@@ -103,7 +103,7 @@ import { supermemoryTools } from '@supermemory/tools/ai-sdk'
 
 // Option 1: Agent tools (recommended for agentic flows)
 const result = await streamText({
-  model: anthropic('claude-3-5-sonnet-20241022'),
+
   prompt: userMessage,
   tools: supermemoryTools(process.env.SUPERMEMORY_API_KEY, {
     containerTags: [userId]
@@ -116,7 +116,7 @@ import { withSupermemory } from '@supermemory/tools/ai-sdk'
 const modelWithMemory = withSupermemory(anthropic('claude-3-5-sonnet-20241022'), userId)
 
 const result = await generateText({
-  model: modelWithMemory,
+
   messages: [{ role: 'user', content: userMessage }]
 })
 // Profile is automatically injected into context

@@ -84,7 +84,7 @@ agent.onMessage("poem", async (context: TurnContext) => {
   await context.streamingResponse.queueInformativeUpdate("starting a poem...");
 
   const { fullStream } = streamText({
-    model: azure(process.env.AZURE_OPENAI_DEPLOYMENT_NAME || "gpt-4o-mini"),
+
     system: "You are a creative assistant.",
     prompt: "Write a poem about Apollo.",
   });

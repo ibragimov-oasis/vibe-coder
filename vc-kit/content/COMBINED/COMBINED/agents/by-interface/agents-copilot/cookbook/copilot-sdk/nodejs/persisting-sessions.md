@@ -33,7 +33,7 @@ await client.start();
 const session = await client.createSession({
     onPermissionRequest: approveAll,
     sessionId: "user-123-conversation",
-    model: "gpt-4o",
+
 });
 
 await session.sendAndWait({ prompt: "Let's discuss TypeScript generics" });

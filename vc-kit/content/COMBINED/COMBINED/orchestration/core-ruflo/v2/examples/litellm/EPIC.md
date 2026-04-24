@@ -232,11 +232,11 @@ budget:
 ```yaml
 routing:
   - pattern: "refactor*"
-    model: local/ollama/deepseek
+
   - pattern: "security*"
-    model: azure/gpt-4-turbo
+
   - pattern: "*"
-    model: openrouter/qwen/qwen3-coder
+
     fallback: openai/gpt-4o-mini
 ```
 

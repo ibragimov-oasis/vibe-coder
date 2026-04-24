@@ -173,7 +173,6 @@ voice:
 stt:
   provider: "local"
   local:
-    model: "base"
 
 tts:
   provider: "edge"
@@ -191,7 +190,7 @@ tts:
   neutts:
     ref_audio: ''
     ref_text: ''
-    model: neuphonic/neutts-air-q4-gguf
+
     device: cpu
 ```
 

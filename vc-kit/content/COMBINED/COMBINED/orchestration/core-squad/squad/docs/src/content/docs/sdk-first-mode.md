@@ -75,14 +75,14 @@ export default defineSquad({
     defineAgent({
       name: 'edie',
       role: 'TypeScript Engineer',
-      model: 'gpt-4o',
+
       tools: ['grep', 'edit', 'powershell'],
       capabilities: [{ name: 'type-system', level: 'expert' }],
     }),
     defineAgent({
       name: 'mcmanus',
       role: 'DevRel',
-      model: 'gpt-4o',
+
       capabilities: [{ name: 'documentation', level: 'expert' }],
     }),
   ],
@@ -229,7 +229,7 @@ const edie = defineAgent({
   name: 'edie',
   role: 'TypeScript Engineer',
   charter: 'Expert in type systems and test-driven development',
-  model: 'gpt-4o',
+
   tools: ['grep', 'edit', 'powershell', 'view'],
   capabilities: [
     { name: 'type-system', level: 'expert' },
@@ -488,7 +488,6 @@ defineAgent({
 // BuilderValidationError: [defineAgent] "role" must be a non-empty string
 ```
 
-
 You manually maintain this file and agent charters.
 
 ### After (SDK-First)
@@ -557,7 +556,7 @@ export default defineSquad({
     defineAgent({
       name: 'edie',
       role: 'TypeScript Engineer',
-      model: 'gpt-4o',
+
       tools: ['grep', 'edit', 'powershell', 'view'],
       capabilities: [
         { name: 'type-system', level: 'expert' },
@@ -569,7 +568,7 @@ export default defineSquad({
     defineAgent({
       name: 'mcmanus',
       role: 'DevRel',
-      model: 'gpt-4o',
+
       tools: ['grep', 'view', 'edit'],
       capabilities: [
         { name: 'documentation', level: 'expert' },
@@ -580,7 +579,7 @@ export default defineSquad({
     defineAgent({
       name: 'fenster',
       role: 'Test Lead',
-      model: 'gpt-4o',
+
       capabilities: [
         { name: 'testing', level: 'expert' },
         { name: 'qa', level: 'proficient' },
@@ -590,7 +589,7 @@ export default defineSquad({
     defineAgent({
       name: 'hockney',
       role: 'Frontend Specialist',
-      model: 'claude-opus-4.6',
+
       capabilities: [
         { name: 'frontend', level: 'expert' },
         { name: 'ui-ux', level: 'proficient' },

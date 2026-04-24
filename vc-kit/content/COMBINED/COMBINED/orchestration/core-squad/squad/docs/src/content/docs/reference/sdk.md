@@ -151,7 +151,7 @@ Define a single agent with role, tools, model, and capabilities.
 const edie = defineAgent({
   name: 'edie',
   role: 'TypeScript Engineer',
-  model: 'gpt-4o',
+
   tools: ['grep', 'edit', 'powershell', 'view'],
   capabilities: [
     { name: 'type-system', level: 'expert' },

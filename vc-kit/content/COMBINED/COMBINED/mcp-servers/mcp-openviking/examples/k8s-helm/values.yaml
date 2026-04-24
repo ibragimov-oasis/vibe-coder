@@ -25,13 +25,13 @@ openviking:
   config:
     embedding:
       dense:
-        model: gpt-4o
+
         api_key: null
         api_base: "https://ark.cn-beijing.volces.com/api/v3"
         dimension: "1024"
         backend: "volcengine"
     vlm:
-      model: gpt-4o
+
       api_key: null
       api_base: "https://ark.cn-beijing.volces.com/api/v3"
       backend: "volcengine"

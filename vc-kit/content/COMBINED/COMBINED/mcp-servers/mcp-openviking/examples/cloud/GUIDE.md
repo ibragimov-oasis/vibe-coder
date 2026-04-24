@@ -343,14 +343,14 @@ openviking:
           use_path_style: false
     embedding:
       dense:
-        model: "doubao-embedding-vision-250615"
+
         api_key: "your-ark-api-key"
         api_base: "https://ark.cn-beijing.volces.com/api/v3"
         dimension: 1024
         provider: volcengine
         input: multimodal
     vlm:
-      model: "doubao-seed-2-0-pro-260215"
+
       api_key: "your-ark-api-key"
       api_base: "https://ark.cn-beijing.volces.com/api/v3"
       temperature: 0.0

@@ -112,7 +112,7 @@ https://github.com/user-attachments/assets/a8bcadc4-e040-4cf2-8fda-dd768b999c18
      - name: gpt-4                       # 内部标识
        display_name: GPT-4               # 展示名称
        use: langchain_openai:ChatOpenAI  # LangChain 类路径
-       model: gpt-4                      # API 使用的模型标识
+
        api_key: $OPENAI_API_KEY          # API key（推荐使用环境变量）
        max_tokens: 4096                  # 单次请求最大 tokens
        temperature: 0.7                  # 采样温度
@@ -120,7 +120,7 @@ https://github.com/user-attachments/assets/a8bcadc4-e040-4cf2-8fda-dd768b999c18
      - name: openrouter-gemini-2.5-flash
        display_name: Gemini 2.5 Flash (OpenRouter)
        use: langchain_openai:ChatOpenAI
-       model: google/gemini-2.5-flash-preview
+
        api_key: $OPENAI_API_KEY          # 这里 OpenRouter 依然沿用 OpenAI 兼容字段名
        base_url: https://openrouter.ai/api/v1
    ```

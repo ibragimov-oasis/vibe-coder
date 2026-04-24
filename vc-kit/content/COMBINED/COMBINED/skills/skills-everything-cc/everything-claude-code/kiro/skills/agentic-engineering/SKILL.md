@@ -115,7 +115,7 @@ Track per task:
 **Example tracking:**
 ```
 Task: Implement user login
-Model: Sonnet
+
 Tokens: ~5k input, ~2k output
 Retries: 1 (initial implementation had auth bug)
 Time: 8 minutes

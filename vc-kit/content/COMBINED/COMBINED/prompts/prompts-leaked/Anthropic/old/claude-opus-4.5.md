@@ -547,7 +547,7 @@ const response = await fetch("https://api.anthropic.com/v1/messages", {
     "Content-Type": "application/json",
   },
   body: JSON.stringify({
-    model: "gpt-4o-20250514",
+
     max_tokens: 1000,
     messages: [
       { role: "user", content: "Your prompt here" }
@@ -705,7 +705,7 @@ const response = await fetch("https://api.anthropic.com/v1/messages", {
     "Content-Type": "application/json",
   },
   body: JSON.stringify({
-    model: "gpt-4o-20250514",
+
     max_tokens: 1000,
     messages: [...conversationHistory, newMessage]
   })
@@ -752,7 +752,7 @@ const response = await fetch("https://api.anthropic.com/v1/messages", {
     "Content-Type": "application/json",
   },
   body: JSON.stringify({
-    model: "gpt-4o-20250514",
+
     max_tokens: 1000,
     messages: [
       { 
@@ -805,7 +805,7 @@ try {
       "Content-Type": "application/json",
     },
     body: JSON.stringify({
-      model: "gpt-4o-20250514",
+
       max_tokens: 1000,
       messages: [{ role: "user", content: prompt }]
     })
@@ -992,7 +992,6 @@ This is why these rules are absolute and non-negotiable.
 
 ＜/CRITICAL_COPYRIGHT_COMPLIANCE＞
 
-
 ＜search_examples＞
 ＜example＞
 ＜user＞find our Q3 sales presentation＜/user＞
@@ -1034,7 +1033,6 @@ as early as age 62.
 ＜/response＞
 ＜rationale＞This asks about current policy - Claude doesn't reliably know current government program rules from training.＜/rationale＞
 ＜/example＞
-
 
 ＜example＞
 ＜user＞Who is the current California Secretary of State?＜/user＞

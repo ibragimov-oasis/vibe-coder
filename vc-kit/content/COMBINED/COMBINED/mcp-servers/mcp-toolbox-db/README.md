@@ -36,7 +36,6 @@ It serves a **dual purpose**:
 1. **Ready-to-use MCP Server (Build-Time):** Instantly connect Gemini CLI, Google Antigravity, Claude Code, Codex, or other MCP clients to your databases using our *prebuilt generic tools*. Talk to your data, explore schemas, and generate code without writing boilerplate.
 2. **Custom Tools Framework (Run-Time):** A robust framework to build specialized, highly secure AI tools for your production agents. Define structured queries, semantic search, and NL2SQL capabilities safely and easily.
 
-
 This README provides a brief overview. For comprehensive details, see the [full documentation](https://mcp-toolbox.dev/).
 
 > [!IMPORTANT]  
@@ -110,7 +109,6 @@ Supported databases currently include:
 For a full list of available tools and their capabilities across all supported databases, see the [Prebuilt Tools Reference](https://mcp-toolbox.dev/documentation/configuration/prebuilt-configs/).
 
 *See the [Install & Run the Toolbox server](#install--run-the-toolbox-server) section for different execution methods like Docker or binaries.*
-
 
 > [!TIP]
 > For users looking for a managed solution, [Google Cloud MCP Servers](https://cloud.google.com/blog/products/databases/managed-mcp-servers-for-google-cloud-databases) 
@@ -361,7 +359,6 @@ gemini extensions install https://github.com/gemini-cli-extensions/mcp-toolbox
 ```
 </details>
 
-
 ### Run Toolbox
 
 [Configure](#quick-start-custom-tools) a `tools.yaml` to define your tools, and then
@@ -460,7 +457,6 @@ gemini
 
 </details>
 
-
 You can use `toolbox help` for a full list of flags! To stop the server, send a
 terminate signal (`ctrl+c` on most platforms).
 
@@ -491,7 +487,6 @@ Add the following configuration to your MCP client configuration:
 ```
 
 If you would like to connect to a specific toolset, replace url with "http://127.0.0.1:5000/mcp/{toolset_name}".
-
 
 ### Toolbox SDKs: Integrate with your Application
 
@@ -677,7 +672,7 @@ For more detailed instructions on using the Toolbox Core SDK, see the
                 apiKey: process.env.GEMINI_API_KEY || process.env.GOOGLE_API_KEY
             })
         ],
-        model: googleAI.model('gemini-2.0-flash'),
+
     });
 
     // update the url to point to your server
@@ -1017,7 +1012,6 @@ For more detailed instructions on using the Toolbox Core SDK, see the
 
     For more detailed instructions on using the Toolbox Go SDK, see the
     [project's README][toolbox-core-go-readme].
-
 
   </details>
 </details>

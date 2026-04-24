@@ -101,7 +101,6 @@ tags:
   - [Misc AWS & API Reference Data](#misc-aws-api-reference-data)
   - [Other System Data](#other-system-data)
 
-
 ---
 
 <a name="part-1-core-system-prompt"></a>
@@ -433,7 +432,6 @@ DIFF CONTENT:
 ```
 
 Review the complete diff above. This contains all code changes in the PR.
-
 
 OBJECTIVE:
 Perform a security-focused code review to identify HIGH-CONFIDENCE security vulnerabilities that could have real exploitation potential. This is not a general code review - focus ONLY on security implications newly added by this PR. Do not comment on existing security concerns.
@@ -3936,7 +3934,7 @@ client := anthropic.NewClient(
 
 ```go
 response, err := client.Messages.New(context.Background(), anthropic.MessageNewParams{
-    Model:     anthropic.ModelClaudeOpus4_6,
+
     MaxTokens: ${NUM},
     Messages: []anthropic.MessageParam{
         anthropic.NewUserMessage(anthropic.NewTextBlock("What is the capital of France?")),
@@ -3959,7 +3957,7 @@ for _, block := range response.Content {
 
 ```go
 stream := client.Messages.NewStreaming(context.Background(), anthropic.MessageNewParams{
-    Model:     anthropic.ModelClaudeOpus4_6,
+
     MaxTokens: ${NUM},
     Messages: []anthropic.MessageParam{
         anthropic.NewUserMessage(anthropic.NewTextBlock("Write a haiku")),
@@ -4025,7 +4023,7 @@ runner := client.Beta.Messages.NewToolRunner(
     []anthropic.BetaTool{weatherTool},
     anthropic.BetaToolRunnerParams{
         BetaMessageNewParams: anthropic.BetaMessageNewParams{
-            Model:     anthropic.ModelClaudeOpus4_6,
+
             MaxTokens: ${NUM},
             Messages: []anthropic.BetaMessageParam{
                 anthropic.NewBetaUserMessage(anthropic.NewBetaTextBlock("What's the weather in Paris?")),
@@ -4092,7 +4090,7 @@ func main() {
 
     for {
         resp, err := client.Messages.New(context.Background(), anthropic.MessageNewParams{
-            Model:     anthropic.ModelClaudeSonnet4_6,
+
             MaxTokens: ${NUM},
             Messages:  messages,
             Tools:     tools,
@@ -4163,7 +4161,7 @@ Derived from `anthropic-sdk-go${PATH}:${NUM}` (`ThinkingConfigParamOfEnabled`).
 
 ```go
 resp, err := client.Messages.New(context.Background(), anthropic.MessageNewParams{
-    Model:     anthropic.ModelClaudeSonnet4_6,
+
     MaxTokens: ${NUM},  // must be > budget_tokens
     // ThinkingConfigParamOfEnabled(budgetTokens) is the helper constructor.
     // budgetTokens must be >= ${NUM} and < MaxTokens.
@@ -4636,7 +4634,7 @@ const client = new Anthropic({ apiKey: "your-api-key" });
 
 ```typescript
 const response = await client.messages.create({
-  model: "{{OPUS_ID}}",
+
   max_tokens: ${NUM},
   messages: [{ role: "user", content: "What is the capital of France?" }],
 });
@@ -4655,7 +4653,7 @@ for (const block of response.content) {
 
 ```typescript
 const response = await client.messages.create({
-  model: "{{OPUS_ID}}",
+
   max_tokens: ${NUM},
   system:
     "You are a helpful coding assistant. Always provide examples in Python.",
@@ -4671,7 +4669,7 @@ const response = await client.messages.create({
 
 ```typescript
 const response = await client.messages.create({
-  model: "{{OPUS_ID}}",
+
   max_tokens: ${NUM},
   messages: [
     {
@@ -4696,7 +4694,7 @@ import fs from "fs";
 const imageData = fs.readFileSync("image.png").toString("base64");
 
 const response = await client.messages.create({
-  model: "{{OPUS_ID}}",
+
   max_tokens: ${NUM},
   messages: [
     {
@@ -4723,7 +4721,7 @@ Use top-level `cache_control` to automatically cache the last cacheable block in
 
 ```typescript
 const response = await client.messages.create({
-  model: "{{OPUS_ID}}",
+
   max_tokens: ${NUM},
   cache_control: { type: "ephemeral" }, // auto-caches the last cacheable block
   system: "You are an expert on this large document...",
@@ -4737,7 +4735,7 @@ For fine-grained control, add `cache_control` to specific content blocks:
 
 ```typescript
 const response = await client.messages.create({
-  model: "{{OPUS_ID}}",
+
   max_tokens: ${NUM},
   system: [
     {
@@ -4751,7 +4749,7 @@ const response = await client.messages.create({
 
 // With explicit TTL (time-to-live)
 const response2 = await client.messages.create({
-  model: "{{OPUS_ID}}",
+
   max_tokens: ${NUM},
   system: [
     {
@@ -4774,7 +4772,7 @@ const response2 = await client.messages.create({
 ```typescript
 // Opus ${NUM}: adaptive thinking (recommended)
 const response = await client.messages.create({
-  model: "{{OPUS_ID}}",
+
   max_tokens: ${NUM},
   thinking: { type: "adaptive" },
   output_config: { effort: "high" }, // low | medium | high | max
@@ -4832,7 +4830,7 @@ const messages: Anthropic.MessageParam[] = [
 ];
 
 const response = await client.messages.create({
-  model: "{{OPUS_ID}}",
+
   max_tokens: ${NUM},
   messages: messages,
 });
@@ -4861,7 +4859,7 @@ async function chat(userMessage: string): Promise<string> {
 
   const response = await client.beta.messages.create({
     betas: ["compact-${DATE}"],
-    model: "{{OPUS_ID}}",
+
     max_tokens: ${NUM},
     messages,
     context_management: {
@@ -4906,7 +4904,7 @@ The `stop_reason` field in the response indicates why the model stopped generati
 ```typescript
 // Automatic caching (simplest — caches the last cacheable block)
 const response = await client.messages.create({
-  model: "{{OPUS_ID}}",
+
   max_tokens: ${NUM},
   cache_control: { type: "ephemeral" },
   system: largeDocumentText, // e.g., 50KB of context
@@ -4921,7 +4919,7 @@ const response = await client.messages.create({
 
 ```typescript
 const countResponse = await client.messages.countTokens({
-  model: "{{OPUS_ID}}",
+
   messages: messages,
   system: system,
 });
@@ -7849,7 +7847,7 @@ const getWeather = betaZodTool({
 
 // The tool runner handles the agentic loop and returns the final message
 const finalMessage = await client.beta.messages.toolRunner({
-  model: "{{OPUS_ID}}",
+
   max_tokens: ${NUM},
   tools: [getWeather],
   messages: [{ role: "user", content: "What's the weather in Paris?" }],
@@ -7880,7 +7878,7 @@ let messages: Anthropic.MessageParam[] = [{ role: "user", content: userInput }];
 
 while (true) {
   const response = await client.messages.create({
-    model: "{{OPUS_ID}}",
+
     max_tokens: ${NUM},
     tools: tools,
     messages: messages,
@@ -7930,7 +7928,7 @@ let messages: Anthropic.MessageParam[] = [{ role: "user", content: userInput }];
 
 while (true) {
   const stream = client.messages.stream({
-    model: "{{OPUS_ID}}",
+
     max_tokens: ${NUM},
     tools,
     messages,
@@ -7988,7 +7986,7 @@ while (true) {
 
 ```typescript
 const response = await client.messages.create({
-  model: "{{OPUS_ID}}",
+
   max_tokens: ${NUM},
   tools: tools,
   messages: [{ role: "user", content: "What's the weather in Paris?" }],
@@ -7999,7 +7997,7 @@ for (const block of response.content) {
     const result = await executeTool(block.name, block.input);
 
     const followup = await client.messages.create({
-      model: "{{OPUS_ID}}",
+
       max_tokens: ${NUM},
       tools: tools,
       messages: [
@@ -8023,7 +8021,7 @@ for (const block of response.content) {
 
 ```typescript
 const response = await client.messages.create({
-  model: "{{OPUS_ID}}",
+
   max_tokens: ${NUM},
   tools: tools,
   tool_choice: { type: "tool", name: "get_weather" },
@@ -8043,7 +8041,7 @@ import Anthropic from "@anthropic-ai${PATH}";
 const client = new Anthropic();
 
 const response = await client.messages.create({
-  model: "{{OPUS_ID}}",
+
   max_tokens: ${NUM},
   messages: [
     {
@@ -8076,7 +8074,7 @@ const uploaded = await client.beta.files.upload({
 // Code execution is GA; Files API is still beta (pass via RequestOptions)
 const response = await client.messages.create(
   {
-    model: "{{OPUS_ID}}",
+
     max_tokens: ${NUM},
     messages: [
       {
@@ -8136,7 +8134,7 @@ for (const block of response.content) {
 ```typescript
 // First request: set up environment
 const response1 = await client.messages.create({
-  model: "{{OPUS_ID}}",
+
   max_tokens: ${NUM},
   messages: [
     {
@@ -8152,7 +8150,7 @@ const containerId = response1.container.id;
 
 const response2 = await client.messages.create({
   container: containerId,
-  model: "{{OPUS_ID}}",
+
   max_tokens: ${NUM},
   messages: [
     {
@@ -8172,7 +8170,7 @@ const response2 = await client.messages.create({
 
 ```typescript
 const response = await client.messages.create({
-  model: "{{OPUS_ID}}",
+
   max_tokens: ${NUM},
   messages: [
     {
@@ -8206,7 +8204,7 @@ const handlers: MemoryToolHandlers = {
 const memory = betaMemoryTool(handlers);
 
 const runner = client.beta.messages.toolRunner({
-  model: "{{OPUS_ID}}",
+
   max_tokens: ${NUM},
   tools: [memory],
   messages: [{ role: "user", content: "Remember my preferences" }],
@@ -8243,7 +8241,7 @@ const ContactInfoSchema = z.object({
 const client = new Anthropic();
 
 const response = await client.messages.parse({
-  model: "{{OPUS_ID}}",
+
   max_tokens: ${NUM},
   messages: [
     {
@@ -8264,7 +8262,7 @@ console.log(response.parsed_output.name); // "Jane Doe"
 
 ```typescript
 const response = await client.messages.create({
-  model: "{{OPUS_ID}}",
+
   max_tokens: ${NUM},
   messages: [
     {
@@ -9607,12 +9605,10 @@ These insights should be included in the conversation, not in the codebase. You 
       \${EXPR_1}
     <\${PATH}>
 
-
     <p style="font-size: 13px; color: #64748b; margin-bottom: 12px;">Just copy this into Claude Code and it'll set it up for you.</p>
     <div class="features-section">
       \${EXPR_2}
     <\${PATH}>
-
 
     <h2 id="section-patterns">New Ways to Use Claude Code</h2>
     <p style="font-size: 13px; color: #64748b; margin-bottom: 12px;">Just copy this into Claude Code and it'll walk you through it.</p>
@@ -10650,7 +10646,6 @@ The assistant used the todo list because:
 <\${PATH}>
 <\${PATH}>
 
-
 <example>
 User: I need to implement these features for my e-commerce site: user registration, product catalog, shopping cart, and checkout flow.
 Assistant: I'll help implement these features. First, let's add all the features to the todo list.
@@ -11008,7 +11003,6 @@ allowed-tools:
   - Glob
   - Grep
 ```
-
 
 ###### Phase \${NUM}: Confirm Creation
 
@@ -11738,7 +11732,6 @@ Plugin syntax: `plugin-name@source` where source is `claude-code-marketplace`, `
 - `spinnerTipsOverride`: Override spinner tips (`{ "excludeDefault": true, "tips": ["Custom tip"] }`)
 - `syntaxHighlightingDisabled`: Disable diff highlighting
 
-
 ###### Hooks Configuration
 
 Hooks run commands at specific points in Claude Code's lifecycle.
@@ -11895,7 +11888,6 @@ echo '{"systemMessage": "Session complete!"}'
   }
 }
 ```
-
 
 ###### Example Workflows
 
@@ -12752,7 +12744,6 @@ The assistant used the todo list because:
 \${NUM}. This approach prevents missing any occurrences and maintains code consistency
 <\${PATH}>
 <\${PATH}>
-
 
 <example>
 User: I need to implement these features for my e-commerce site: user registration, product catalog, shopping cart, and checkout flow.
@@ -15353,7 +15344,6 @@ Key principles for your system prompts:
 
 Remember: The agents you create should be autonomous experts capable of handling their designated tasks with minimal additional guidance. Your system prompts are their complete operational manual.
 
-
 \${NUM}. **Agent Memory Instructions**: If the user mentions "memory", "remember", "learn", "persist", or similar concepts, OR if the agent would benefit from building up knowledge across conversations (e.g., code reviewers learning patterns, architects learning codebase structure, etc.), include domain-specific memory update instructions in the systemPrompt.
 
    Add a section like this to the systemPrompt, tailored to the agent's specific domain:
@@ -17558,7 +17548,6 @@ ProvidedContexts
 
 -Command
 
-
           \$tenantId = "\${EXPR_2}"
           \$m = Import-Module Az.Accounts -MinimumVersion \${NUM}.\${NUM} -PassThru
           \$useSecureString = \$m.Version -ge [version]'\${NUM}.\${NUM}'
@@ -18052,7 +18041,7 @@ $client = new FoundryClient(
 
 ```php
 $message = $client->messages->create(
-    model: '{{OPUS_ID}}',
+
     maxTokens: ${NUM},
     messages: [
         ['role' => 'user', 'content' => 'What is the capital of France?'],
@@ -18067,7 +18056,7 @@ echo $message->content[${NUM}]->text;
 
 ```php
 $stream = $client->messages->createStream(
-    model: '{{OPUS_ID}}',
+
     maxTokens: ${NUM},
     messages: [
         ['role' => 'user', 'content' => 'Write a haiku'],
@@ -18118,7 +18107,7 @@ client = Anthropic::Client.new(api_key: "your-api-key")
 
 ```ruby
 message = client.messages.create(
-  model: :"{{OPUS_ID}}",
+
   max_tokens: ${NUM},
   messages: [
     { role: "user", content: "What is the capital of France?" }
@@ -18138,7 +18127,7 @@ end
 
 ```ruby
 stream = client.messages.stream(
-  model: :"{{OPUS_ID}}",
+
   max_tokens: ${NUM},
   messages: [{ role: "user", content: "Write a haiku" }]
 )
@@ -18170,7 +18159,7 @@ class GetWeather < Anthropic::BaseTool
 end
 
 client.beta.messages.tool_runner(
-  model: :"{{OPUS_ID}}",
+
   max_tokens: ${NUM},
   tools: [GetWeather.new],
   messages: [{ role: "user", content: "What's the weather in San Francisco?" }]
@@ -18399,7 +18388,7 @@ console.log(`Size: ${EXPR_2} bytes`);
 
 ```typescript
 const response = await client.beta.messages.create({
-  model: "{{OPUS_ID}}",
+
   max_tokens: ${NUM},
   messages: [
     {
@@ -18634,7 +18623,7 @@ except anthropic.APIStatusError as e:
 
 ```typescript
 const stream = client.messages.stream({
-  model: "{{OPUS_ID}}",
+
   max_tokens: ${NUM},
   messages: [{ role: "user", content: "Write a story" }],
 });
@@ -18657,7 +18646,7 @@ for await (const event of stream) {
 
 ```typescript
 const stream = client.messages.stream({
-  model: "{{OPUS_ID}}",
+
   max_tokens: ${NUM},
   thinking: { type: "adaptive" },
   messages: [{ role: "user", content: "Analyze this problem" }],
@@ -18712,7 +18701,7 @@ const getWeather = betaZodTool({
 });
 
 const runner = client.beta.messages.toolRunner({
-  model: "{{OPUS_ID}}",
+
   max_tokens: ${NUM},
   tools: [getWeather],
   messages: [
@@ -18747,7 +18736,7 @@ for await (const messageStream of runner) {
 
 ```typescript
 const stream = client.messages.stream({
-  model: "{{OPUS_ID}}",
+
   max_tokens: ${NUM},
   messages: [{ role: "user", content: "Hello" }],
 });
@@ -18838,7 +18827,7 @@ const messageBatch = await client.messages.batches.create({
     {
       custom_id: "request-${NUM}",
       params: {
-        model: "{{OPUS_ID}}",
+
         max_tokens: ${NUM},
         messages: [
           { role: "user", content: "Summarize climate change impacts" },
@@ -18848,7 +18837,7 @@ const messageBatch = await client.messages.batches.create({
     {
       custom_id: "request-${NUM}",
       params: {
-        model: "{{OPUS_ID}}",
+
         max_tokens: ${NUM},
         messages: [
           { role: "user", content: "Explain quantum computing basics" },
@@ -43450,7 +43439,6 @@ function toggleCollapsible(header) {
       <\${PATH}>
     <\${PATH}>
 
-
     <div class="collapsible-section">
       <div class="collapsible-header" onclick="toggleCollapsible(this)">
         <span class="collapsible-arrow">▶<\${PATH}>
@@ -44465,8 +44453,6 @@ z
 \${NUM}
 
 \${NUM}
-
-
 
 \${NUM}
 
@@ -56996,8 +56982,6 @@ aʾ
 
 \${NUM}
 
-
-
 \${NUM}
 
 \${NUM}
@@ -57061,8 +57045,6 @@ aʾ
 \${NUM}
 
 \${NUM}
-
-
 
 \${NUM}
 
@@ -57183,8 +57165,6 @@ aʾ
 \${NUM}
 
 \${NUM}
-
-
 
 \${NUM}
 
@@ -62373,8 +62353,6 @@ v
 \${NUM}
 
 \${NUM}
-
-
 
 \${NUM}
 

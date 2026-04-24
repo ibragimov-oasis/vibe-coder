@@ -37,7 +37,7 @@ async function delegateTask(taskPrompt: string, category?: string) {
   // Delegate to agent with category configuration
   return await delegateToAgent({
     prompt: finalPrompt,
-    model: TIER_MODELS[resolved.tier],
+
     temperature: resolved.temperature,
     // Add thinking budget to API call config
   });

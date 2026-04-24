@@ -97,7 +97,7 @@ for (const task of tasks) {
   costTracker.recordUsage({
     sessionId: `task-${Date.now()}`,
     agentName: 'Router',
-    model: model.name,
+
     inputTokens,
     outputTokens,
     estimatedCost,

@@ -707,7 +707,7 @@ class MessageOptions(TypedDict, total=False):
     mode: str
 
 class SessionConfig(TypedDict, total=False):
-    model: str
+
     streaming: bool
     tools: List
 

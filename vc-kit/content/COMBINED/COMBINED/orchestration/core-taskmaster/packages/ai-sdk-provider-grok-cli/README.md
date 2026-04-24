@@ -51,7 +51,7 @@ import { grokCli } from '@tm/ai-sdk-provider-grok-cli';
 import { generateText } from 'ai';
 
 const result = await generateText({
-  model: grokCli('grok-3-latest'),
+
   prompt: 'Write a haiku about TypeScript'
 });
 
@@ -65,7 +65,7 @@ import { grokCli } from '@tm/ai-sdk-provider-grok-cli';
 import { streamText } from 'ai';
 
 const { textStream } = await streamText({
-  model: grokCli('grok-4-latest'),
+
   prompt: 'Explain quantum computing'
 });
 
@@ -82,7 +82,7 @@ import { generateObject } from 'ai';
 import { z } from 'zod';
 
 const result = await generateObject({
-  model: grokCli('grok-3-latest'),
+
   schema: z.object({
     name: z.string(),
     age: z.number(),
@@ -138,7 +138,7 @@ import {
 
 try {
   const result = await generateText({
-    model: grokCli('grok-4-latest'),
+
     prompt: 'Hello!'
   });
 } catch (error) {

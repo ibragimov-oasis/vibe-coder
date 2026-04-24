@@ -30,7 +30,6 @@ npm install @toolbox-sdk/adk
 
 ## Quickstart
 
-
 1. **Start the Toolbox Service**
    - Make sure the MCP Toolbox service is running. See the [Toolbox Getting Started Guide](../../../../introduction/_index.md#getting-started).
 
@@ -440,7 +439,7 @@ const loadedTools = await toolboxClient.loadToolset();
 
 export const rootAgent = new LlmAgent({
   name: 'weather_time_agent',
-  model: 'gemini-3-flash-preview',
+
   description:
     'Agent to answer questions about the time and weather in a city.',
   instruction:

@@ -46,7 +46,7 @@ func main() {
     // Create session
     session, err := client.CreateSession(ctx, &copilot.SessionConfig{
     	OnPermissionRequest: copilot.PermissionHandler.ApproveAll,
-        Model: "gpt-4o",
+
     })
     if err != nil {
         log.Fatal(err)

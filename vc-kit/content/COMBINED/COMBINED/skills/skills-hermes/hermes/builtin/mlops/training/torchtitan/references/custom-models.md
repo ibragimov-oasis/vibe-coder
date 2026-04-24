@@ -108,7 +108,7 @@ from torch.distributed._composable.fsdp import fully_shard
 from torch.distributed.tensor.parallel import parallelize_module
 
 def parallelize_your_model(
-    model: YourModel,
+
     world_mesh: DeviceMesh,
     parallel_dims: ParallelDims,
     job_config: JobConfig,

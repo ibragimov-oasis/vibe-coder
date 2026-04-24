@@ -58,7 +58,7 @@ import { CopilotClient, approveAll } from "@github/copilot-sdk";
 const client = new CopilotClient();
 const session = await client.createSession({
     onPermissionRequest: approveAll,
-    model: "gpt-4o",
+
 });
 
 const response = await session.sendAndWait({ prompt: "What is 2 + 2?" });
@@ -111,7 +111,7 @@ func main() {
 
     session, err := client.CreateSession(&copilot.SessionConfig{
         OnPermissionRequest: copilot.PermissionHandler.ApproveAll,
-        Model:               "gpt-4o",
+
     })
     if err != nil {
         log.Fatal(err)
@@ -155,7 +155,7 @@ import { CopilotClient, approveAll, SessionEvent } from "@github/copilot-sdk";
 const client = new CopilotClient();
 const session = await client.createSession({
     onPermissionRequest: approveAll,
-    model: "gpt-4o",
+
     streaming: true,
 });
 
@@ -209,7 +209,7 @@ asyncio.run(main())
 ```go
 session, err := client.CreateSession(&copilot.SessionConfig{
 	OnPermissionRequest: copilot.PermissionHandler.ApproveAll,
-    Model:     "gpt-4o",
+
     Streaming: true,
 })
 
@@ -278,7 +278,7 @@ const getWeather = defineTool("get_weather", {
 const client = new CopilotClient();
 const session = await client.createSession({
     onPermissionRequest: approveAll,
-    model: "gpt-4o",
+
     streaming: true,
     tools: [getWeather],
 });
@@ -374,7 +374,7 @@ getWeather := copilot.DefineTool(
 
 session, _ := client.CreateSession(&copilot.SessionConfig{
 	OnPermissionRequest: copilot.PermissionHandler.ApproveAll,
-    Model:     "gpt-4o",
+
     Streaming: true,
     Tools:     []copilot.Tool{getWeather},
 })
@@ -446,7 +446,7 @@ const getWeather = defineTool("get_weather", {
 const client = new CopilotClient();
 const session = await client.createSession({
     onPermissionRequest: approveAll,
-    model: "gpt-4o",
+
     streaming: true,
     tools: [getWeather],
 });
@@ -550,7 +550,7 @@ Connect to MCP (Model Context Protocol) servers for pre-built tools. Connect to 
 ```typescript
 const session = await client.createSession({
     onPermissionRequest: approveAll,
-    model: "gpt-4o",
+
     mcpServers: {
         github: {
             type: "http",
@@ -578,7 +578,7 @@ session = await client.create_session({
 ```go
 session, _ := client.CreateSession(&copilot.SessionConfig{
 	OnPermissionRequest: copilot.PermissionHandler.ApproveAll,
-    Model: "gpt-4o",
+
     MCPServers: map[string]copilot.MCPServerConfig{
         "github": {
             Type: "http",
@@ -613,7 +613,7 @@ Define specialized AI personas for specific tasks:
 ```typescript
 const session = await client.createSession({
     onPermissionRequest: approveAll,
-    model: "gpt-4o",
+
     customAgents: [{
         name: "pr-reviewer",
         displayName: "PR Reviewer",
@@ -645,7 +645,7 @@ Customize the AI's behavior and personality:
 ```typescript
 const session = await client.createSession({
     onPermissionRequest: approveAll,
-    model: "gpt-4o",
+
     systemMessage: {
         content: "You are a helpful assistant for our engineering team. Always be concise.",
     },
@@ -682,7 +682,7 @@ const client = new CopilotClient({
 
 const session = await client.createSession({
     onPermissionRequest: approveAll,
-    model: "gpt-4o",
+
 });
 ```
 
@@ -711,7 +711,7 @@ if err := client.Start(); err != nil {
 
 session, _ := client.CreateSession(&copilot.SessionConfig{
 	OnPermissionRequest: copilot.PermissionHandler.ApproveAll,
-	Model:               "gpt-4o",
+
 })
 ```
 
@@ -781,7 +781,7 @@ Save and resume conversations across restarts:
 const session = await client.createSession({
     onPermissionRequest: approveAll,
     sessionId: "user-123-conversation",
-    model: "gpt-4o"
+
 });
 ```
 
@@ -804,7 +804,7 @@ try {
     const client = new CopilotClient();
     const session = await client.createSession({
         onPermissionRequest: approveAll,
-        model: "gpt-4o",
+
     });
     const response = await session.sendAndWait(
         { prompt: "Hello!" },
@@ -839,7 +839,7 @@ process.on("SIGINT", async () => {
 ```typescript
 const session = await client.createSession({
     onPermissionRequest: approveAll,
-    model: "gpt-4o",
+
 });
 
 await session.sendAndWait({ prompt: "My name is Alice" });

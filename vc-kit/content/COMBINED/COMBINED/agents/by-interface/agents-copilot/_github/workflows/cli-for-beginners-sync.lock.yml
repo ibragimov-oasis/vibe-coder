@@ -53,7 +53,7 @@ jobs:
       comment_id: ""
       comment_repo: ""
       lockdown_check_failed: ${{ steps.generate_aw_info.outputs.lockdown_check_failed == 'true' }}
-      model: gpt-4o
+
       secret_verification_result: ${{ steps.validate-secret.outputs.verification_result }}
     steps:
       - name: Setup Scripts
@@ -265,7 +265,7 @@ jobs:
       checkout_pr_success: ${{ steps.checkout-pr.outputs.checkout_pr_success || 'true' }}
       has_patch: ${{ steps.collect_output.outputs.has_patch }}
       inference_access_error: ${{ steps.detect-inference-error.outputs.inference_access_error || 'false' }}
-      model: gpt-4o
+
       output: ${{ steps.collect_output.outputs.output }}
       output_types: ${{ steps.collect_output.outputs.output_types }}
     steps:

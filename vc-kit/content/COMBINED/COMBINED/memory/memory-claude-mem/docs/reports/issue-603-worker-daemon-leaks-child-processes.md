@@ -100,7 +100,7 @@ The `SDKAgent.startSession()` method invokes the Claude Agent SDK's `query()` fu
 const queryResult = query({
   prompt: messageGenerator,
   options: {
-    model: modelId,
+
     ...(hasRealMemorySessionId && session.lastPromptNumber > 1 && { resume: session.memorySessionId }),
     disallowedTools,
     abortController: session.abortController,

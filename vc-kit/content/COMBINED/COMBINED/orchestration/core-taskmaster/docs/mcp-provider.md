@@ -183,7 +183,7 @@ const taskSchema = z.object({
 });
 
 const result = await generateObject({
-  model: mcpModel,
+
   schema: taskSchema,
   prompt: 'Parse this PRD section into a task: [PRD content]'
 });
@@ -206,7 +206,7 @@ const taskCreationSchema = z.object({
 });
 
 const result = await generateObject({
-  model: mcpModel,
+
   schema: taskCreationSchema,
   prompt: 'Create a comprehensive task for implementing user authentication'
 });

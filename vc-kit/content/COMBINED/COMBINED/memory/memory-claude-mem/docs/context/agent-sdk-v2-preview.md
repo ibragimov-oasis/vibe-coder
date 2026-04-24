@@ -39,7 +39,7 @@ For simple single-turn queries where you don't need to maintain a session, use `
 import { unstable_v2_prompt } from '@anthropic-ai/claude-agent-sdk'
 
 const result = await unstable_v2_prompt('What is 2 + 2?', {
-  model: 'gpt-4o-5-20250929'
+
 })
 console.log(result.result)
 ```
@@ -78,7 +78,7 @@ The example below creates a session, sends "Hello!" to Claude, and prints the te
 import { unstable_v2_createSession } from '@anthropic-ai/claude-agent-sdk'
 
 await using session = unstable_v2_createSession({
-  model: 'gpt-4o-5-20250929'
+
 })
 
 await session.send('Hello!')
@@ -130,7 +130,7 @@ This example asks a math question, then asks a follow-up that references the pre
 import { unstable_v2_createSession } from '@anthropic-ai/claude-agent-sdk'
 
 await using session = unstable_v2_createSession({
-  model: 'gpt-4o-5-20250929'
+
 })
 
 // Turn 1
@@ -224,7 +224,7 @@ function getAssistantText(msg: SDKMessage): string | null {
 
 // Create initial session and have a conversation
 const session = unstable_v2_createSession({
-  model: 'gpt-4o-5-20250929'
+
 })
 
 await session.send('Remember this number: 42')
@@ -242,7 +242,7 @@ session.close()
 
 // Later: resume the session using the stored ID
 await using resumedSession = unstable_v2_resumeSession(sessionId!, {
-  model: 'gpt-4o-5-20250929'
+
 })
 
 await resumedSession.send('What number did I ask you to remember?')
@@ -283,7 +283,7 @@ console.log('Session ID:', sessionId)
 const resumedQuery = query({
   prompt: 'What number did I ask you to remember?',
   options: {
-    model: 'gpt-4o-5-20250929',
+
     resume: sessionId
   }
 })
@@ -311,7 +311,7 @@ Sessions can be closed manually or automatically using [`await using`](https://w
 import { unstable_v2_createSession } from '@anthropic-ai/claude-agent-sdk'
 
 await using session = unstable_v2_createSession({
-  model: 'gpt-4o-5-20250929'
+
 })
 // Session closes automatically when the block exits
 ```
@@ -322,7 +322,7 @@ await using session = unstable_v2_createSession({
 import { unstable_v2_createSession } from '@anthropic-ai/claude-agent-sdk'
 
 const session = unstable_v2_createSession({
-  model: 'gpt-4o-5-20250929'
+
 })
 // ... use the session ...
 session.close()
@@ -336,7 +336,7 @@ Creates a new session for multi-turn conversations.
 
 ```typescript
 function unstable_v2_createSession(options: {
-  model: string;
+
   // Additional options supported
 }): Session
 ```
@@ -349,7 +349,7 @@ Resumes an existing session by ID.
 function unstable_v2_resumeSession(
   sessionId: string,
   options: {
-    model: string;
+
     // Additional options supported
   }
 ): Session
@@ -363,7 +363,7 @@ One-shot convenience function for single-turn queries.
 function unstable_v2_prompt(
   prompt: string,
   options: {
-    model: string;
+
     // Additional options supported
   }
 ): Promise<Result>

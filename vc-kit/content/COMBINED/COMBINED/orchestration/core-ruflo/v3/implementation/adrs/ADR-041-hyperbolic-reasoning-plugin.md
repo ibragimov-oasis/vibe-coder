@@ -72,7 +72,7 @@ Embed hierarchical data in hyperbolic space.
           edges: { type: 'array', items: { type: 'object' } }
         }
       },
-      model: {
+
         type: 'string',
         enum: ['poincare_ball', 'lorentz', 'klein', 'half_plane'],
         default: 'poincare_ball'
@@ -315,7 +315,7 @@ const EmbedHierarchySchema = z.object({
       weight: z.number().finite().optional()
     })).max(10_000_000).optional()
   }),
-  model: z.enum(['poincare_ball', 'lorentz', 'klein', 'half_plane']).default('poincare_ball'),
+
   parameters: z.object({
     dimensions: z.number().int().min(2).max(512).default(32),
     curvature: z.number().min(-10).max(-0.01).default(-1.0),

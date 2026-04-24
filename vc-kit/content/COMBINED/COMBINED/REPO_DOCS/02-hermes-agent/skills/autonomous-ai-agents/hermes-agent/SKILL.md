@@ -390,7 +390,7 @@ stt:
   enabled: true
   provider: local        # local, groq, openai
   local:
-    model: base          # tiny, base, small, medium, large-v3
+
 ```
 
 ### TTS (Text → Voice)

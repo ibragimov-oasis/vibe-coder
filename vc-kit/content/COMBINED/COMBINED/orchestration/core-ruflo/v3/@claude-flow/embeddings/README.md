@@ -48,7 +48,7 @@ import { createEmbeddingService, cosineSimilarity } from '@claude-flow/embedding
 const service = createEmbeddingService({
   provider: 'openai',
   apiKey: process.env.OPENAI_API_KEY!,
-  model: 'text-embedding-3-small',
+
   dimensions: 1536,
 });
 
@@ -105,7 +105,7 @@ import {
 const service = createEmbeddingService({
   provider: 'openai',
   apiKey: 'your-api-key',
-  model: 'text-embedding-3-small',
+
 });
 
 // Async: Auto-select best provider with fallback
@@ -130,7 +130,7 @@ import { OpenAIEmbeddingService } from '@claude-flow/embeddings';
 const service = new OpenAIEmbeddingService({
   provider: 'openai',
   apiKey: process.env.OPENAI_API_KEY!,
-  model: 'text-embedding-3-small',  // or 'text-embedding-3-large'
+
   dimensions: 1536,                  // Adjustable for v3 models
   baseURL: 'https://api.openai.com/v1/embeddings',
   timeout: 30000,
@@ -165,7 +165,7 @@ import { TransformersEmbeddingService } from '@claude-flow/embeddings';
 
 const service = new TransformersEmbeddingService({
   provider: 'transformers',
-  model: 'Xenova/all-MiniLM-L6-v2',  // Any HuggingFace model
+
   cacheSize: 1000,
 });
 
@@ -386,7 +386,7 @@ import { HNSWIndex } from '@claude-flow/memory';
 const embeddings = createEmbeddingService({
   provider: 'openai',
   apiKey: process.env.OPENAI_API_KEY!,
-  model: 'text-embedding-3-small',
+
 });
 
 // Create HNSW index

@@ -206,7 +206,7 @@ class PredictiveScaler {
     }
     
     return {
-      model: null,
+
       validation,
       ready: false,
       reason: 'Model accuracy below threshold'

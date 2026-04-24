@@ -140,7 +140,7 @@ You can configure a different model for subagents via `config.yaml` — useful f
 ```yaml
 # In ~/.hermes/config.yaml
 delegation:
-  model: "google/gemini-flash-2.0"    # Cheaper model for subagents
+
   provider: "openrouter"              # Optional: route subagents to a different provider
 ```
 
@@ -211,12 +211,12 @@ Delegation has a **depth limit of 2** — a parent (depth 0) can spawn children 
 delegation:
   max_iterations: 50                        # Max turns per child (default: 50)
   default_toolsets: ["terminal", "file", "web"]  # Default toolsets
-  model: "google/gemini-3-flash-preview"             # Optional provider/model override
+
   provider: "openrouter"                             # Optional built-in provider
 
 # Or use a direct custom endpoint instead of provider:
 delegation:
-  model: "qwen2.5-coder"
+
   base_url: "http://localhost:1234/v1"
   api_key: "local-key"
 ```

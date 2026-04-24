@@ -29,7 +29,7 @@ Add a `fallback_model` section to `~/.hermes/config.yaml`:
 ```yaml
 fallback_model:
   provider: openrouter
-  model: anthropic/gpt-4o
+
 ```
 
 Both `provider` and `model` are **required**. If either is missing, the fallback is disabled.
@@ -59,7 +59,7 @@ For a custom OpenAI-compatible endpoint, add `base_url` and optionally `api_key_
 ```yaml
 fallback_model:
   provider: custom
-  model: my-local-model
+
   base_url: http://localhost:8000/v1
   api_key_env: MY_LOCAL_KEY          # env var name containing the API key
 ```
@@ -97,7 +97,7 @@ Fallback activates **at most once** per session. If the fallback provider also f
 
 fallback_model:
   provider: openrouter
-  model: anthropic/gpt-4o
+
 ```
 
 **Nous Portal as fallback for OpenRouter:**
@@ -108,14 +108,14 @@ fallback_model:
 
 fallback_model:
   provider: nous
-  model: nous-hermes-3
+
 ```
 
 **Local model as fallback for cloud:**
 ```yaml
 fallback_model:
   provider: custom
-  model: llama-3.1-70b
+
   base_url: http://localhost:8000/v1
   api_key_env: LOCAL_API_KEY
 ```
@@ -124,7 +124,7 @@ fallback_model:
 ```yaml
 fallback_model:
   provider: openai-codex
-  model: gpt-4o.3-codex
+
 ```
 
 ### Where Fallback Works
@@ -187,33 +187,28 @@ Each task can be configured independently in `config.yaml`:
 auxiliary:
   vision:
     provider: "auto"              # auto | openrouter | nous | codex | main | anthropic
-    model: ""                     # e.g. "openai/gpt-4o"
+
     base_url: ""                  # direct endpoint (takes precedence over provider)
     api_key: ""                   # API key for base_url
 
   web_extract:
     provider: "auto"
-    model: ""
 
   compression:
     provider: "auto"
-    model: ""
 
   session_search:
     provider: "auto"
-    model: ""
 
   skills_hub:
     provider: "auto"
-    model: ""
 
   mcp:
     provider: "auto"
-    model: ""
 
   flush_memories:
     provider: "auto"
-    model: ""
+
 ```
 
 Every task above follows the same **provider / model / base_url** pattern. Context compression uses its own top-level block:
@@ -230,7 +225,7 @@ And the fallback model uses:
 ```yaml
 fallback_model:
   provider: openrouter
-  model: anthropic/gpt-4o
+
   # base_url: http://localhost:8000/v1               # Optional custom endpoint
 ```
 
@@ -256,7 +251,7 @@ auxiliary:
   vision:
     base_url: "http://localhost:1234/v1"
     api_key: "local-key"
-    model: "qwen2.5-vl"
+
 ```
 
 `base_url` takes precedence over `provider`. Hermes uses the configured `api_key` for authentication, falling back to `OPENAI_API_KEY` if not set. It does **not** reuse `OPENROUTER_API_KEY` for custom endpoints.
@@ -286,7 +281,7 @@ Subagents spawned by `delegate_task` do **not** use the primary fallback model. 
 ```yaml
 delegation:
   provider: "openrouter"                      # override provider for all subagents
-  model: "google/gemini-3-flash-preview"      # override model
+
   # base_url: "http://localhost:1234/v1"      # or use a direct endpoint
   # api_key: "local-key"
 ```

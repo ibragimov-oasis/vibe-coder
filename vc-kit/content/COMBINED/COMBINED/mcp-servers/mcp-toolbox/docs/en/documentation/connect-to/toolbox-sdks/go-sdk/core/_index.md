@@ -157,7 +157,6 @@ tools, err := client.LoadToolset("", ctx)
 tools, err := client.LoadToolset("my-toolset", ctx)
 ```
 
-
 ### Load a single tool
 
 Loads a specific tool by its unique name. This provides fine-grained control.
@@ -220,7 +219,6 @@ that fresh credentials or header values can be used.
 ### Configuration
 
 You can configure these dynamic headers as seen below:
-
 
 ```go
 import "github.com/googleapis/mcp-toolbox-sdk-go/core"
@@ -522,7 +520,6 @@ inputs := map[string]any{"param1": "value"}
 // The invocation will automatically use param2="default-value" if not provided
 result, err := tool.Invoke(ctx, inputs)
 ```
-
 
 # Using with Orchestration Frameworks
 
@@ -898,7 +895,7 @@ func main() {
 		},
 		Tools: openAITools,
 		Seed:  openai.Int(0),
-		Model: openai.ChatModelGPT4o,
+
 	}
 
 	// Make initial chat completion request

@@ -44,7 +44,7 @@ Initialize the ONNX embedding subsystem with hyperbolic support.
   inputSchema: {
     type: 'object',
     properties: {
-      model: { type: 'string', enum: ['all-MiniLM-L6-v2', 'all-mpnet-base-v2'] },
+
       hyperbolic: { type: 'boolean', default: true },
       curvature: { type: 'number', default: -1 },
       cacheSize: { type: 'number', default: 256 },

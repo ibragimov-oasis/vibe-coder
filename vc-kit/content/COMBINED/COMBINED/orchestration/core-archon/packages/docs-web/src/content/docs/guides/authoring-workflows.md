@@ -157,7 +157,7 @@ nodes:
     depends_on: [implement]
     context: fresh               # Force fresh session for this node
     provider: claude             # Per-node provider override
-    model: haiku                 # Per-node model override
+
     # hooks:                     # Optional: per-node SDK hook callbacks (Claude only) — see hooks guide
     # mcp: .archon/mcp/servers.json  # Optional: per-node MCP servers (Claude only)
     # skills: [remotion-best-practices]  # Optional: per-node skills (Claude only) — see skills guide
@@ -250,7 +250,7 @@ These fields map directly to Claude Agent SDK options. All are Claude-only — C
 ```yaml
 - id: implement
   command: implement
-  model: claude-opus-4-5
+
   fallbackModel: gpt-4o-6
 ```
 
@@ -652,9 +652,9 @@ This checks resource resolution beyond what load-time validation covers. Use `--
 ```yaml
 assistants:
   claude:
-    model: haiku  # Fast model for most tasks
+
   codex:
-    model: gpt-4o.3-codex
+
     modelReasoningEffort: low
     webSearchMode: disabled
 ```

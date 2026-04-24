@@ -36,7 +36,7 @@ def export_to_onnx(model, input_shape, output_path, dynamic_batch=True):
     Export PyTorch model to ONNX format.
 
     Args:
-        model: PyTorch model
+
         input_shape: (C, H, W) input dimensions
         output_path: Path to save .onnx file
         dynamic_batch: Allow variable batch sizes
@@ -567,7 +567,6 @@ class OpenVINOInference:
         latency = elapsed / num_iterations * 1000
         print(f"Latency: {latency:.2f}ms")
         return latency
-
 
 def convert_to_openvino(onnx_path, output_dir, precision='FP16'):
     """
@@ -1155,7 +1154,7 @@ class MultiGPUInference:
         Wrap model for multi-GPU inference.
 
         Args:
-            model: PyTorch model
+
             device_ids: List of GPU IDs, e.g., [0, 1, 2, 3]
         """
         if device_ids is None:

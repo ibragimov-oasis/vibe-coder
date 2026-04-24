@@ -343,7 +343,7 @@ const response = await fetch("https://api.anthropic.com/v1/messages", {
     "Content-Type": "application/json",
   },
   body: JSON.stringify({
-    model: "gpt-4o-20250514",
+
     max_tokens: 1000,
     messages: [
       { role: "user", content: "Your prompt here" }
@@ -501,7 +501,7 @@ const response = await fetch("https://api.anthropic.com/v1/messages", {
     "Content-Type": "application/json",
   },
   body: JSON.stringify({
-    model: "gpt-4o-20250514",
+
     max_tokens: 1000,
     messages: [...conversationHistory, newMessage]
   })
@@ -548,7 +548,7 @@ const response = await fetch("https://api.anthropic.com/v1/messages", {
     "Content-Type": "application/json",
   },
   body: JSON.stringify({
-    model: "gpt-4o-20250514",
+
     max_tokens: 1000,
     messages: [
       { 
@@ -601,7 +601,7 @@ try {
       "Content-Type": "application/json",
     },
     body: JSON.stringify({
-      model: "gpt-4o-20250514",
+
       max_tokens: 1000,
       messages: [{ role: "user", content: prompt }]
     })

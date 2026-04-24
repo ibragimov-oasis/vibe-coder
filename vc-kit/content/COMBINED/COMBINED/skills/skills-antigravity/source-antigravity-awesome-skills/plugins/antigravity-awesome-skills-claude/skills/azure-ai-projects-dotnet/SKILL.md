@@ -76,7 +76,7 @@ PersistentAgentsClient agentsClient = projectClient.GetPersistentAgentsClient();
 
 // Create agent
 PersistentAgent agent = await agentsClient.Administration.CreateAgentAsync(
-    model: "gpt-4o-mini",
+
     name: "Math Tutor",
     instructions: "You are a personal math tutor.");
 

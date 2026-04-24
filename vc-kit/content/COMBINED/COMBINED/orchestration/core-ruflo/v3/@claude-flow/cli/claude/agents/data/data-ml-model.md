@@ -280,7 +280,7 @@ await reasoningBank.storePattern({
     hyperparameters
   },
   output: {
-    model: modelType,
+
     performance: modelPerformance,
     bestParams: hyperparameters,
     trainingTime: trainingTime

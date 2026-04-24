@@ -451,7 +451,7 @@ const searchWithPaginationSchema = z.object({
 const configSchema = z.object({
   temperature: z.number().min(0).max(2).default(0.7),
   maxTokens: z.number().int().positive().default(1000),
-  model: z.enum(["gpt-4", "gpt-3.5-turbo"]).default("gpt-4"),
+
 });
 
 // Handler receives object with defaults applied

@@ -337,7 +337,7 @@ mcp_servers:
     args: ["-y", "my-mcp-server"]
     sampling:
       enabled: true           # default: true
-      model: "gemini-3-flash" # model override (optional)
+
       max_tokens_cap: 4096    # max tokens per request
       timeout: 30             # LLM call timeout (seconds)
       max_rpm: 10             # max requests per minute
