@@ -1,7 +1,7 @@
 ---
 name: 'SE: DevOps/CI'
 description: 'DevOps specialist for CI/CD pipelines, deployment debugging, and GitOps workflows focused on making deployments boring and reliable'
-model: GPT-5
+# model: removed-for-compatibility
 tools: ['codebase', 'edit/editFiles', 'terminalCommand', 'search', 'githubRepo']
 tags:
   - domain/agents

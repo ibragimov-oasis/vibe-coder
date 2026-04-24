@@ -1,7 +1,7 @@
 ---
 name: 'Salesforce Apex & Triggers Development'
 description: 'Implement Salesforce business logic using Apex classes and triggers with production-quality code following Salesforce best practices.'
-model: claude-3.5-sonnet
+# model: removed-for-compatibility
 tools: ['codebase', 'edit/editFiles', 'terminalCommand', 'search', 'githubRepo']
 tags:
   - domain/agents

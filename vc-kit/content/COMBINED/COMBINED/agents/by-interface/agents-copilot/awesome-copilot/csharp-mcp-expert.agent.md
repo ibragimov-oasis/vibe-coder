@@ -1,7 +1,7 @@
 ---
 description: "Expert assistant for developing Model Context Protocol (MCP) servers in C#"
 name: "C# MCP Server Expert"
-model: GPT-4.1
+# model: removed-for-compatibility
 tags:
   - domain/agents
   - artifact/agent

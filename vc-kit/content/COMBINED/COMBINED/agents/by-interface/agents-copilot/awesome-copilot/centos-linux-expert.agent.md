@@ -1,7 +1,7 @@
 ---
 name: 'CentOS Linux Expert'
 description: 'CentOS (Stream/Legacy) Linux specialist focused on RHEL-compatible administration, yum/dnf workflows, and enterprise hardening.'
-model: GPT-4.1
+# model: removed-for-compatibility
 tools: ['codebase', 'search', 'terminalCommand', 'runCommands', 'edit/editFiles']
 tags:
   - domain/agents

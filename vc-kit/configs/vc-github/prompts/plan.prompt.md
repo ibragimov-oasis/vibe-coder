@@ -2,7 +2,7 @@
 name: plan
 description: 'Create a comprehensive implementation plan using GSD spec-driven methodology + Matt Pocock PRD skills.'
 agent: agent
-model: gpt-4o
+# model: removed-for-compatibility
 ---
 
 Create a detailed implementation plan for the described feature/task:

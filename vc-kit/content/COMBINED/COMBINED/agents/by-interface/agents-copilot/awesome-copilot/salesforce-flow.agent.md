@@ -1,7 +1,7 @@
 ---
 name: 'Salesforce Flow Development'
 description: 'Implement business automation using Salesforce Flow following declarative automation best practices.'
-model: claude-3.5-sonnet
+# model: removed-for-compatibility
 tools: ['codebase', 'edit/editFiles', 'terminalCommand', 'search', 'githubRepo']
 tags:
   - domain/agents

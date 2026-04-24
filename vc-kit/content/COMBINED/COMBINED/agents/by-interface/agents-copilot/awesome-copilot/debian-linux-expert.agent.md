@@ -1,7 +1,7 @@
 ---
 name: 'Debian Linux Expert'
 description: 'Debian Linux specialist focused on stable system administration, apt-based package management, and Debian policy-aligned practices.'
-model: Claude Sonnet 4
+# model: removed-for-compatibility
 tools: ['codebase', 'search', 'terminalCommand', 'runCommands', 'edit/editFiles']
 tags:
   - domain/agents

@@ -1,7 +1,7 @@
 ---
 description: 'Expert assistant for generating working applications from OpenAPI specifications'
 name: 'OpenAPI to Application Generator'
-model: 'GPT-4.1'
+# model: removed-for-compatibility
 tools: ['codebase', 'edit/editFiles', 'search/codebase']
 tags:
   - domain/agents

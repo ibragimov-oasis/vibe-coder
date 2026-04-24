@@ -1,7 +1,7 @@
 ---
 description: "Expert Power BI DAX guidance using Microsoft best practices for performance, readability, and maintainability of DAX formulas and calculations."
 name: "Power BI DAX Expert Mode"
-model: "gpt-4.1"
+# model: removed-for-compatibility
 tools: ["changes", "search/codebase", "editFiles", "extensions", "fetch", "findTestFiles", "githubRepo", "new", "openSimpleBrowser", "problems", "runCommands", "runTasks", "runTests", "search", "search/searchResults", "runCommands/terminalLastCommand", "runCommands/terminalSelection", "testFailure", "usages", "vscodeAPI", "microsoft.docs.mcp"]
 tags:
   - domain/agents

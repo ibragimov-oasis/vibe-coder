@@ -1,7 +1,7 @@
 ---
 name: 'VS Code Insiders Accessibility Tracker'
 description: 'Specialized agent for tracking and analyzing accessibility improvements in VS Code Insiders builds'
-model: Claude Sonnet 4.5
+# model: removed-for-compatibility
 tools: ['github/search_issues', 'github/issue_read']
 tags:
   - domain/agents

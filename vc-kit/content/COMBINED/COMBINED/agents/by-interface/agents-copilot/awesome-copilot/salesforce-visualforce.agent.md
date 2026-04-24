@@ -1,7 +1,7 @@
 ---
 name: 'Salesforce Visualforce Development'
 description: 'Implement Visualforce pages and controllers following Salesforce MVC architecture and best practices.'
-model: claude-3.5-sonnet
+# model: removed-for-compatibility
 tools: ['codebase', 'edit/editFiles', 'terminalCommand', 'search', 'githubRepo']
 tags:
   - domain/agents

@@ -2,7 +2,7 @@
 name: debug
 description: 'Investigate and fix a bug using the mega-debugger methodology: hypothesis → test → fix → verify with 3-failure circuit breaker.'
 agent: agent
-model: gpt-4o
+# model: removed-for-compatibility
 ---
 
 Investigate and fix this bug using the Vibe-Coder mega-debugger methodology:

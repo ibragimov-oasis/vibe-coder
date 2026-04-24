@@ -2,7 +2,7 @@
 name: tdd
 description: 'Write tests first using RED-GREEN-REFACTOR TDD cycle from Superpowers workflow.'
 agent: agent
-model: gpt-4o
+# model: removed-for-compatibility
 ---
 
 Implement the described feature using strict TDD (Test-Driven Development):

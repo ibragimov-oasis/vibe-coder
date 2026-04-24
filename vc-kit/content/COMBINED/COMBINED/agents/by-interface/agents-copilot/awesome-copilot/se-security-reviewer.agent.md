@@ -1,7 +1,7 @@
 ---
 name: 'SE: Security'
 description: 'Security-focused code review specialist with OWASP Top 10, Zero Trust, LLM security, and enterprise security standards'
-model: GPT-5
+# model: removed-for-compatibility
 tools: ['codebase', 'edit/editFiles', 'search', 'problems']
 tags:
   - domain/agents

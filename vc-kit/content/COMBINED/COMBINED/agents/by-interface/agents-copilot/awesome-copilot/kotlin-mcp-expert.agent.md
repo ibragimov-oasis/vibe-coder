@@ -1,5 +1,5 @@
 ---
-model: GPT-4.1
+# model: removed-for-compatibility
 description: "Expert assistant for building Model Context Protocol (MCP) servers in Kotlin using the official SDK."
 name: "Kotlin MCP Server Development Expert"
 tags:

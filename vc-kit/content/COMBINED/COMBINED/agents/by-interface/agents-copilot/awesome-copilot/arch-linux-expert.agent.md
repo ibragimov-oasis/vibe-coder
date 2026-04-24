@@ -1,7 +1,7 @@
 ---
 name: 'Arch Linux Expert'
 description: 'Arch Linux specialist focused on pacman, rolling-release maintenance, and Arch-centric system administration workflows.'
-model: GPT-5
+# model: removed-for-compatibility
 tools: ['codebase', 'search', 'terminalCommand', 'runCommands', 'edit/editFiles']
 tags:
   - domain/agents

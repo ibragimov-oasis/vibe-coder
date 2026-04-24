@@ -1,6 +1,6 @@
 ---
 name: 'Declarative Agents Architect'
-model: GPT-4.1
+# model: removed-for-compatibility
 tools: ['codebase']
 tags:
   - domain/agents

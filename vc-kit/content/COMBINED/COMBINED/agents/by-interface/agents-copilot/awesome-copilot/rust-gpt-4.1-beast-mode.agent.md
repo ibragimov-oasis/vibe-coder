@@ -1,6 +1,6 @@
 ---
 description: 'Rust GPT-4.1 Coding Beast Mode for VS Code'
-model: GPT-4.1
+# model: removed-for-compatibility
 name: 'Rust Beast Mode'
 tags:
   - domain/agents

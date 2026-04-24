@@ -328,7 +328,7 @@ After routing determines WHO handles work, select the response MODE based on tas
 
 ```
 agent_type: "general-purpose"
-model: "{resolved_model}"
+# model: removed-for-compatibility
 mode: "background"
 name: "{name}"
 description: "{emoji} {Name}: {brief task summary}"
@@ -424,7 +424,7 @@ Pass the resolved model as the `model` parameter on every `task` tool call:
 
 ```
 agent_type: "general-purpose"
-model: "{resolved_model}"
+# model: removed-for-compatibility
 mode: "background"
 name: "{name}"
 description: "{emoji} {Name}: {brief task summary}"
@@ -764,7 +764,7 @@ e. **Include worktree context in spawn:**
 
 ```
 agent_type: "general-purpose"
-model: "{resolved_model}"
+# model: removed-for-compatibility
 mode: "background"
 name: "{name}"
 description: "{emoji} {Name}: {brief task summary}"
@@ -872,7 +872,7 @@ After each batch of agent work:
 
 ```
 agent_type: "general-purpose"
-model: "claude-haiku-4.5"
+# model: removed-for-compatibility
 mode: "background"
 name: "scribe"
 description: "📋 Scribe: Log session & merge decisions"
